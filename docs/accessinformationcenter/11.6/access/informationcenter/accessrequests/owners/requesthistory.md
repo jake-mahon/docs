@@ -60,7 +60,7 @@ The information displayed in the table includes:
   Active Directory
 
 The table data grid functions the same way as other table grids. See the
-[Data Grid Features](/versioned_docs/accessinformationcenter_11.6/access/general/datagrid.md) topic
+[Data Grid Features](/docs/accessinformationcenter/11.6/access/general/datagrid.md) topic
 for additional information.
 
 The buttons at the bottom enable you to perform the following actions:

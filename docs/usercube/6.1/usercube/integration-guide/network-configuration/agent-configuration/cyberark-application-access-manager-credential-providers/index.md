@@ -6,7 +6,7 @@ Access Manager (AAM) Credential Providers.
 ## Data Protection
 
 Usercube often needs to connect to
-[external systems](/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/index.md) with
+[external systems](/docs/usercube/6.1/usercube/integration-guide/connectors/index.md) with
 credentials that need protection.
 
 By default, the data used to connect to external systems is stored in plain text in the
@@ -62,11 +62,11 @@ be saved to CyberArk:
 | Password | `Password / ApplicationKey / ClientSecret`     |
 | Address  | `Server / MicrosoftGraphPathApi / ResponseUri` |
 
-Any [connector](/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/index.md) using
+Any [connector](/docs/usercube/6.1/usercube/integration-guide/connectors/index.md) using
 one of these attributes as key can retrieve the associated value from CyberArk.
 
 > For example,
-> [Active Directory](/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/references-connectors/activedirectory/index.md)
+> [Active Directory](/docs/usercube/6.1/usercube/integration-guide/connectors/references-connectors/activedirectory/index.md)
 > can retrieve: `Login`; `Password`; `Server`.
 
 ## Set Authorization Details
@@ -232,7 +232,7 @@ The archive is set using the following attributes:
 | Name              | Details                                                                                                                                                                                                                                                                                                                                                                                                                           |
 | ----------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | File required     | **Type** String **Description** [PKCS #12](https://en.wikipedia.org/wiki/PKCS_12) archive path on the host file system.                                                                                                                                                                                                                                                                                                           |
-| Password optional | **Type** String **Description** [PKCS #12](https://en.wikipedia.org/wiki/PKCS_12) archive password. **Info:** storing a `.pfx` file's password in plain text in a production environment is strongly discouraged. It should always be encrypted using the [`Usercube-Protect-CertificatePassword.exe` tool](/versioned_docs/usercube_6.1/usercube/integration-guide/executables/references/protect-certificatepassword/index.md). |
+| Password optional | **Type** String **Description** [PKCS #12](https://en.wikipedia.org/wiki/PKCS_12) archive password. **Info:** storing a `.pfx` file's password in plain text in a production environment is strongly discouraged. It should always be encrypted using the [`Usercube-Protect-CertificatePassword.exe` tool](/docs/usercube/6.1/usercube/integration-guide/executables/references/protect-certificatepassword/index.md). |
 
 #### As a Certificate in the Windows Store
 

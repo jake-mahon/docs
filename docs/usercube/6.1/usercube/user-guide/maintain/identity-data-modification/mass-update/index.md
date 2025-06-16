@@ -6,7 +6,7 @@ repository.
 This part is not about changing the data model, but data itself.
 
 Here we describe the incremental update of identities, but the update of any other
-[File/CSV](/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/references-packages/csv/index.md)
+[File/CSV](/docs/usercube/6.1/usercube/integration-guide/connectors/references-packages/csv/index.md)
 works the same.
 
 ## Overview
@@ -23,7 +23,7 @@ Identity data can be updated most often in cooperation with the HR department.
 
 | Input                                                                                                                                                      | Output                      |
 | ---------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------- |
-| [Identity repository](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/initial-identities-loading/index.md) (required) New identity data (required) | Updated identity repository |
+| [Identity repository](/docs/usercube/6.1/usercube/user-guide/set-up/initial-identities-loading/index.md) (required) New identity data (required) | Updated identity repository |
 
 ## Update Data in Complete Mode
 
@@ -51,10 +51,10 @@ Mass update identity data (in complete mode) by proceeding as follows:
 
 8. Click on **Save & Close**.
 9. Back on the connector's page,
-   [launch synchronization](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/synchronization/index.md).
+   [launch synchronization](/docs/usercube/6.1/usercube/user-guide/set-up/synchronization/index.md).
 
     Be cautious about
-    [thresholds](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/synchronization/index.md).
+    [thresholds](/docs/usercube/6.1/usercube/user-guide/set-up/synchronization/index.md).
 
 ## Update Data in Incremental Mode
 
@@ -81,7 +81,7 @@ Mass update identity data (in incremental mode) by proceeding as follows:
     - `Delete` to remove attributes from the datamodel;
 
         Instead of using `Delete`, you can
-        [scan the data model](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/initial-identities-loading/index.md)
+        [scan the data model](/docs/usercube/6.1/usercube/user-guide/set-up/initial-identities-loading/index.md)
         to exclude unused attributes.
 
     - `Merge` to input an identity's data and modify the corresponding attributes if said identity
@@ -101,10 +101,10 @@ Mass update identity data (in incremental mode) by proceeding as follows:
 
 8. Click on **Save & Close**.
 9. Back on the connector's page,
-   [launch synchronization](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/synchronization/index.md).
+   [launch synchronization](/docs/usercube/6.1/usercube/user-guide/set-up/synchronization/index.md).
 
     Be cautious about
-    [thresholds](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/synchronization/index.md).
+    [thresholds](/docs/usercube/6.1/usercube/user-guide/set-up/synchronization/index.md).
 
 ## Verify Data Update
 
@@ -124,9 +124,9 @@ In order to verify the process:
 
     If the system contains many organizations, then it is also possible to list them with their
     managers through the
-    [Query module](/versioned_docs/usercube_6.1/usercube/user-guide/administrate/reporting/index.md).
+    [Query module](/docs/usercube/6.1/usercube/user-guide/administrate/reporting/index.md).
 
-- [Create reports](/versioned_docs/usercube_6.1/usercube/user-guide/administrate/reporting/index.md)
+- [Create reports](/docs/usercube/6.1/usercube/user-guide/administrate/reporting/index.md)
   with indicators on the workers number per type or per organization for example (through Usercube'
   predefined reports, the Query module or Power BI), in order to ensure that Usercube's content
   sticks to reality.

@@ -14,7 +14,7 @@ Governance Administration (IGA) is required to really understand, implement and 
 features.
 
 NETWRIX strongly recommends starting from the
-[Introduction Guide](/versioned_docs/usercube_6.1/usercube/introduction-guide/index.md) to fully
+[Introduction Guide](/docs/usercube/6.1/usercube/introduction-guide/index.md) to fully
 benefit from the Integration Guide's content.
 
 ### Technical skills

@@ -205,6 +205,6 @@ This type of account unlock can be resolved in one of the following two ways:
 
 **See Also**
 
-- [Enroll Your Identity Store Account](/versioned_docs/groupid_11.0/groupid/portal/user/authentication/enrollaccount.md)
-- [Reset Passwords](/versioned_docs/groupid_11.0/groupid/portal/user/authentication/passwordreset.md)
-- [ Change your password](/versioned_docs/groupid_11.0/groupid/portal/user/manage/changepassword.md)
+- [Enroll Your Identity Store Account](/docs/groupid/11.0/groupid/portal/user/authentication/enrollaccount.md)
+- [Reset Passwords](/docs/groupid/11.0/groupid/portal/user/authentication/passwordreset.md)
+- [ Change your password](/docs/groupid/11.0/groupid/portal/user/manage/changepassword.md)

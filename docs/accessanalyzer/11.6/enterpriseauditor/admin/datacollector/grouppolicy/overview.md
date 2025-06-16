@@ -12,8 +12,8 @@ collector is available with all Enterprise Auditor license options, the Windows 
 available with a special Enterprise Auditor licenses. See the following topics for additional
 information:
 
-- [Active Directory Solution](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/activedirectory/overview.md)
-- [Windows Solution](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/windows/overview.md)
+- [Active Directory Solution](/docs/accessanalyzer/11.6/enterpriseauditor/solutions/activedirectory/overview.md)
+- [Windows Solution](/docs/accessanalyzer/11.6/enterpriseauditor/solutions/windows/overview.md)
 
 Protocols
 
@@ -38,11 +38,11 @@ available pages change based upon the query category selected. It contains the f
 pages:
 
 - Welcome
-- [GroupPolicy: Category](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/grouppolicy/category.md)
-- [GroupPolicy: Target](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/grouppolicy/target.md)
-- [GroupPolicy: Policies List](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/grouppolicy/policieslist.md)
-- [GroupPolicy: Options](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/grouppolicy/options.md)
-- [GroupPolicy: Summary](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/grouppolicy/summary.md)
+- [GroupPolicy: Category](/docs/accessanalyzer/11.6/enterpriseauditor/admin/datacollector/grouppolicy/category.md)
+- [GroupPolicy: Target](/docs/accessanalyzer/11.6/enterpriseauditor/admin/datacollector/grouppolicy/target.md)
+- [GroupPolicy: Policies List](/docs/accessanalyzer/11.6/enterpriseauditor/admin/datacollector/grouppolicy/policieslist.md)
+- [GroupPolicy: Options](/docs/accessanalyzer/11.6/enterpriseauditor/admin/datacollector/grouppolicy/options.md)
+- [GroupPolicy: Summary](/docs/accessanalyzer/11.6/enterpriseauditor/admin/datacollector/grouppolicy/summary.md)
 
 ![Group Policy Data Collector Wizard Welcome page](/img/versioned_docs/activitymonitor_7.1/activitymonitor/install/welcome.webp)
 

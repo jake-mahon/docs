@@ -5,7 +5,7 @@ identity store based on a query. You can create queries and save them for later 
 searches.
 
 The Query Designer option on the Advanced Search page is available which presents you the
-[Query Designer](/versioned_docs/groupid_11.0/groupid/portal/group/querydesigner/overview.md) dialog
+[Query Designer](/docs/groupid/11.0/groupid/portal/group/querydesigner/overview.md) dialog
 box similar to the query designer dialog box used for creating queries for Smart Groups and
 Dynasties.
 
@@ -33,7 +33,7 @@ The Query Designer dialog box provides you a visual interface for creating searc
 
 3. Click **Query Designer** to create queries to search directory objects.
 4. Select an option from the
-   [Query Designer - General tab](/versioned_docs/groupid_11.0/groupid/portal/group/querydesigner/general.md)
+   [Query Designer - General tab](/docs/groupid/11.0/groupid/portal/group/querydesigner/general.md)
    list to specify the type of object the query should fetch.
 5. You must specify the containers that the query should search for retrieving the directory
    objects.
@@ -45,10 +45,10 @@ The Query Designer dialog box provides you a visual interface for creating searc
 
     1. **General tab**: lets you select object categories that you want the query to search in. The
        available options vary according to the object type selected in the **Find** list. See the
-       [Query Designer - General tab](/versioned_docs/groupid_11.0/groupid/portal/group/querydesigner/general.md)
+       [Query Designer - General tab](/docs/groupid/11.0/groupid/portal/group/querydesigner/general.md)
        topic.
     2. **Storage tab**: lets you filter the mailboxes to return. See the
-       [Query Designer - Storage tab](/versioned_docs/groupid_11.0/groupid/portal/group/querydesigner/storage.md)
+       [Query Designer - Storage tab](/docs/groupid/11.0/groupid/portal/group/querydesigner/storage.md)
        topic.
     3. **Filter Criteria tab**: lets you add additional filter criteria. For example, you can add
        criteria to retrieve all directory users who live in Houston and have a fax number. You can
@@ -56,17 +56,17 @@ The Query Designer dialog box provides you a visual interface for creating searc
        results.
 
         The condition list may vary while creating queries for object searches. See the
-        [Query Designer - Filter Criteria tab](/versioned_docs/groupid_11.0/groupid/portal/group/querydesigner/filtercriteria.md)
+        [Query Designer - Filter Criteria tab](/docs/groupid/11.0/groupid/portal/group/querydesigner/filtercriteria.md)
         topic.
 
     4. **Include/Exclude tab:** lets you include or exclude objects regardless of whether they are
        returned by the query or not. Use the Add and Remove buttons to add and remove objects in the
        Include and Exclude sections respectively. See the
-       [Query Designer - Include/Exclude tab](/versioned_docs/groupid_11.0/groupid/portal/group/querydesigner/includeexclude.md)
+       [Query Designer - Include/Exclude tab](/docs/groupid/11.0/groupid/portal/group/querydesigner/includeexclude.md)
        topic.
     5. **Database tab**: enables you to combine an external data source with the directory to search
        directory objects. See the
-       [Query Designer - Database tab](/versioned_docs/groupid_11.0/groupid/portal/group/querydesigner/database.md)
+       [Query Designer - Database tab](/docs/groupid/11.0/groupid/portal/group/querydesigner/database.md)
        topic.
 
 7. Click the **LDAP Query** button to view the query generated from the settings you have entered so
@@ -101,4 +101,4 @@ To delete a query, click the **Delete** icon. The query will be removed from the
 
 **See Also**
 
-- [Directory Search](/versioned_docs/groupid_11.0/groupid/portal/search/search.md)
+- [Directory Search](/docs/groupid/11.0/groupid/portal/search/search.md)

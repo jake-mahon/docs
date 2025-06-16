@@ -15,5 +15,5 @@ Agent Service Identity radio buttons are:
     - The token `%HOST%` may be substituted for the host name
 
 This option requires the SharePoint Agent to be installed on the application server. See the
-[SharePoint Agent Installation](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/install/sharepointagent/overview.md)
+[SharePoint Agent Installation](/docs/accessanalyzer/11.6/enterpriseauditor/install/sharepointagent/overview.md)
 topic for additional information.

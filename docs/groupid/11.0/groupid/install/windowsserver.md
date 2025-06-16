@@ -19,4 +19,4 @@ Microsoft Windows Server 2022 Family
 
 See Also
 
-- [Requirements](/versioned_docs/groupid_11.0/groupid/install/requirements.md)
+- [Requirements](/docs/groupid/11.0/groupid/install/requirements.md)

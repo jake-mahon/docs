@@ -40,7 +40,7 @@ required for IGA-related data flows.
 
 ![Connectors](/img/versioned_docs/usercube_6.1/usercube/introduction-guide/overview/overview_connectors.webp)
 
-[See more details on identity management and connection between systems](/versioned_docs/usercube_6.1/usercube/introduction-guide/overview/identity-management/index.md).
+[See more details on identity management and connection between systems](/docs/usercube/6.1/usercube/introduction-guide/overview/identity-management/index.md).
 
 ---
 
@@ -74,14 +74,14 @@ entitlements.
 Furthermore, Usercube provides a few workflows for entitlement request or user data modification,
 which often include approval from a third party, hence identities get their entitlements securely.
 
-[See more details on entitlement management](/versioned_docs/usercube_6.1/usercube/introduction-guide/overview/entitlement-management/index.md).
+[See more details on entitlement management](/docs/usercube/6.1/usercube/introduction-guide/overview/entitlement-management/index.md).
 
 Thanks to the role model and data flows between Usercube and the managed systems, Usercube ensures
 the compliance of existing permission assignments with the policy, pointing out non-conforming
 assignments.
 
-[See more details on governance](/versioned_docs/usercube_6.1/usercube/introduction-guide/overview/governance/index.md).
+[See more details on governance](/docs/usercube/6.1/usercube/introduction-guide/overview/governance/index.md).
 
 ## Examples
 
-[Find use case stories](/versioned_docs/usercube_6.1/usercube/introduction-guide/overview/use-cases/index.md).
+[Find use case stories](/docs/usercube/6.1/usercube/introduction-guide/overview/use-cases/index.md).

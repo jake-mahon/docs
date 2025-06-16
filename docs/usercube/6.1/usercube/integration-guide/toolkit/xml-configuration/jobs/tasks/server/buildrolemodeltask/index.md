@@ -1,9 +1,9 @@
 # BuildRoleModelTask
 
 Applies the
-[role mappings](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/provisioning/rolemapping/index.md),
+[role mappings](/docs/usercube/6.1/usercube/integration-guide/toolkit/xml-configuration/provisioning/rolemapping/index.md),
 also named
-[role naming rules](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/single-roles-catalog-creation/role-naming-rule-creation/index.md),
+[role naming rules](/docs/usercube/6.1/usercube/user-guide/set-up/single-roles-catalog-creation/role-naming-rule-creation/index.md),
 i.e. generates single roles and navigation rules based on resources matching a given pattern.
 
 > For example, this task can transform AD groups with a special naming convention into roles.

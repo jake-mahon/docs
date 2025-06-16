@@ -18,7 +18,7 @@ Select one of the following options to choose if and how much data should be ret
         **NOTE:** This field is enabled by sorting at least one column in the table by value (for
         SQL, only a sorted column can contain ties). To sort columns, use the **Order By Operation**
         field on the Columns page. See the
-        [SQLViewCreations: Columns](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/analysis/sqlviewcreation/columns.md)
+        [SQLViewCreations: Columns](/docs/accessanalyzer/11.6/enterpriseauditor/admin/analysis/sqlviewcreation/columns.md)
         topic for additional information.
 
 ## With Ties Example

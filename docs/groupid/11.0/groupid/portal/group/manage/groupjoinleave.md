@@ -15,30 +15,30 @@ What do you want to do?
 
 You can join a semi-private or public group as a permanent member.
 
-1. [Directory Search](/versioned_docs/groupid_11.0/groupid/portal/search/search.md) the group(s) you
+1. [Directory Search](/docs/groupid/11.0/groupid/portal/search/search.md) the group(s) you
    want to join.
 2. On the page displayed, select the group(s) to join.
 3. Point to the **Join** button on the toolbar, make sure that the **Join Perpetually** option is
    selected, and click **Join**.
 
     You can also join a group on the group's
-    [Group Properties](/versioned_docs/groupid_11.0/groupid/portal/group/properties/overview.md)
+    [Group Properties](/docs/groupid/11.0/groupid/portal/group/properties/overview.md)
     page by using the **Join** button on the toolbar.
 
 When a user joins a Smart Group or Dynasty, he or she is added to the **Include** list on the
-[Query Designer - Include/Exclude tab](/versioned_docs/groupid_11.0/groupid/portal/group/querydesigner/includeexclude.md)
+[Query Designer - Include/Exclude tab](/docs/groupid/11.0/groupid/portal/group/querydesigner/includeexclude.md)
 of the Query Designer. As a result, the user remains a group member even when it does not fall in
 the scope of the query.
 
 NOTE: For a semi-private group, the group owner must approve your _join_ request before you are
 added to group membership. See
-[Requests](/versioned_docs/groupid_11.0/groupid/portal/request/overview.md).
+[Requests](/docs/groupid/11.0/groupid/portal/request/overview.md).
 
 ## Join a group temporarily
 
 The logged-in user can join a semi-private or public group as a temporary member.
 
-1. [Directory Search](/versioned_docs/groupid_11.0/groupid/portal/search/search.md) the group(s) you
+1. [Directory Search](/docs/groupid/11.0/groupid/portal/search/search.md) the group(s) you
    want to join.
 2. On the page displayed, select the group(s) to join.
 3. Point to the **Join** button on the toolbar and select the **Join Temporarily** option.
@@ -55,17 +55,17 @@ The logged-in user can join a semi-private or public group as a temporary member
 5. Click **Join**.
 
     You can also join a group on the group's
-    [Group Properties](/versioned_docs/groupid_11.0/groupid/portal/group/properties/overview.md)
+    [Group Properties](/docs/groupid/11.0/groupid/portal/group/properties/overview.md)
     page by using the **Join** button on the toolbar.
 
 When a user joins a Smart Group or Dynasty, he or she is added to the **Include** list on the
-[Query Designer - Include/Exclude tab](/versioned_docs/groupid_11.0/groupid/portal/group/querydesigner/includeexclude.md)
+[Query Designer - Include/Exclude tab](/docs/groupid/11.0/groupid/portal/group/querydesigner/includeexclude.md)
 of the Query Designer. As a result, the user remains a group member even when it does not fall in
 the scope of the query.
 
 NOTE: For a semi-private group, the group owner must approve your _join_ request before you are
 added to group membership. See
-[Requests](/versioned_docs/groupid_11.0/groupid/portal/request/overview.md).
+[Requests](/docs/groupid/11.0/groupid/portal/request/overview.md).
 
 ## Leave a group permanently
 
@@ -77,7 +77,7 @@ The logged-in user can permanently leave the membership of a semi-private or pub
 
     Or
 
-    [Directory Search](/versioned_docs/groupid_11.0/groupid/portal/search/search.md) the group(s)
+    [Directory Search](/docs/groupid/11.0/groupid/portal/search/search.md) the group(s)
     you want to leave.
 
 2. On the page displayed, select the required group(s).
@@ -85,17 +85,17 @@ The logged-in user can permanently leave the membership of a semi-private or pub
    selected, and click **Leave**.
 
     You can also leave a group on the group's
-    [Group Properties](/versioned_docs/groupid_11.0/groupid/portal/group/properties/overview.md)
+    [Group Properties](/docs/groupid/11.0/groupid/portal/group/properties/overview.md)
     page by using the **Leave** button on the toolbar.
 
 When a user leaves a Smart Group or Dynasty, he or she is added to the **Exclude** list on the
-[Query Designer - Include/Exclude tab](/versioned_docs/groupid_11.0/groupid/portal/group/querydesigner/includeexclude.md)
+[Query Designer - Include/Exclude tab](/docs/groupid/11.0/groupid/portal/group/querydesigner/includeexclude.md)
 of the Query Designer. As a result, the user is not added to group membership even when it falls in
 the scope of the query.
 
 NOTE: For a semi-private group, the group owner must approve your _leave_ request before you are
 removed from group membership. See
-[Requests](/versioned_docs/groupid_11.0/groupid/portal/request/overview.md).
+[Requests](/docs/groupid/11.0/groupid/portal/request/overview.md).
 
 ## Leave a group temporarily
 
@@ -107,7 +107,7 @@ The logged-in user can leave the membership of a semi-private or public group on
 
     Or
 
-    [Directory Search](/versioned_docs/groupid_11.0/groupid/portal/search/search.md) the group(s)
+    [Directory Search](/docs/groupid/11.0/groupid/portal/search/search.md) the group(s)
     you want to leave.
 
 2. On the page displayed, select the required group(s).
@@ -125,17 +125,17 @@ The logged-in user can leave the membership of a semi-private or public group on
 5. Click **Leave**.
 
     You can also leave a group on the group's
-    [Group Properties](/versioned_docs/groupid_11.0/groupid/portal/group/properties/overview.md)
+    [Group Properties](/docs/groupid/11.0/groupid/portal/group/properties/overview.md)
     page by using the **Leave** button on the toolbar.
 
 When a user leaves a Smart Group or Dynasty, he or she is added to the **Exclude** list on the
-[Query Designer - Include/Exclude tab](/versioned_docs/groupid_11.0/groupid/portal/group/querydesigner/includeexclude.md)
+[Query Designer - Include/Exclude tab](/docs/groupid/11.0/groupid/portal/group/querydesigner/includeexclude.md)
 of the Query Designer. As a result, the user is not added to group membership even when it falls in
 the scope of the query.
 
 NOTE: For a semi-private group, the group owner must approve your _leave_ request before you are
 removed from group membership. See
-[Requests](/versioned_docs/groupid_11.0/groupid/portal/request/overview.md).
+[Requests](/docs/groupid/11.0/groupid/portal/request/overview.md).
 
 ## Join or leave a group on behalf of a direct report or peer
 
@@ -161,7 +161,7 @@ The logged-in user can join a group on behalf of a direct report or peer.
 1. On the left navigation bar, click **Groups** and then select the **My Groups**, **My
    Memberships**, or **My Expiring Groups** tab.
 
-    You can also [Directory Search](/versioned_docs/groupid_11.0/groupid/portal/search/search.md)
+    You can also [Directory Search](/docs/groupid/11.0/groupid/portal/search/search.md)
     the group you want to join on behalf of a direct report or peer.
 
 2. On the page displayed, select the group to join.
@@ -182,7 +182,7 @@ The logged-in user can join a group on behalf of a direct report or peer.
 
 When a user is joined on behalf to a Smart Group or Dynasty, he or she is added to the **Include**
 list on the
-[Query Designer - Include/Exclude tab](/versioned_docs/groupid_11.0/groupid/portal/group/querydesigner/includeexclude.md)
+[Query Designer - Include/Exclude tab](/docs/groupid/11.0/groupid/portal/group/querydesigner/includeexclude.md)
 of the Query Designer. As a result, the user remains a group member even when it does not fall in
 the scope of the query.
 
@@ -193,7 +193,7 @@ The logged-in user can leave a group on behalf of a direct report or peer.
 1. On the left navigation bar, click **Groups** and then select the **My Groups**, **My
    Memberships**, or **My Expiring Groups** tab.
 
-    You can also [Directory Search](/versioned_docs/groupid_11.0/groupid/portal/search/search.md)
+    You can also [Directory Search](/docs/groupid/11.0/groupid/portal/search/search.md)
     the group you want to leave on behalf of a direct report or peer.
 
 2. On the page displayed, select the group to leave.
@@ -214,7 +214,7 @@ The logged-in user can leave a group on behalf of a direct report or peer.
 
 When a user is removed on behalf from a Smart Group or Dynasty, he or she is added to the
 **Exclude** list on the
-[Query Designer - Include/Exclude tab](/versioned_docs/groupid_11.0/groupid/portal/group/querydesigner/includeexclude.md)
+[Query Designer - Include/Exclude tab](/docs/groupid/11.0/groupid/portal/group/querydesigner/includeexclude.md)
 of the Query Designer. As a result, the user is not added to group membership even when it falls in
 the scope of the query.
 
@@ -224,4 +224,4 @@ Else, the request must be approved by an authorized user for changes to take eff
 
 **See Also**
 
-- [Working with Groups](/versioned_docs/groupid_11.0/groupid/portal/group/manage/workingwithgroups.md)
+- [Working with Groups](/docs/groupid/11.0/groupid/portal/group/manage/workingwithgroups.md)

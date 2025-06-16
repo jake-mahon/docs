@@ -2,7 +2,7 @@
 
 The Add Role Users window provides a list of users that have been onboarded. Users are onboarded in
 the
-[Users & Groups Page](/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/policy/page/usersgroups.md).
+[Users & Groups Page](/docs/privilegesecure/4.1/privilegesecure/accessmanagement/admin/policy/page/usersgroups.md).
 It allows users to be added to a custom role.
 
 ![Add Role Users Window](/img/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/policy/window/usersgroups/addroleusers.webp)
@@ -36,7 +36,7 @@ Follow the steps below to add a role user to a custom role.
 **Step 1 –** Navigate to the **Users & Groups** > **Role Management** page.
 
 **Step 2 –** In the Role list, click the name of the desired custom role to open the
-[Custom Role Details Page](/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/policy/page/details/rolemanagementcustom.md).
+[Custom Role Details Page](/docs/privilegesecure/4.1/privilegesecure/accessmanagement/admin/policy/page/details/rolemanagementcustom.md).
 
 **Step 3 –** Click the **Add Role Users** button.
 

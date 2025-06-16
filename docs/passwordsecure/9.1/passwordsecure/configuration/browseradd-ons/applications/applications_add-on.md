@@ -39,7 +39,7 @@ associated fields on the website. This mapping process only needs to be configur
 applications is responsible for entering data in the fields on the website from then on. In the
 following example, the data entry process is carried out from the client. Naturally, this is also
 possible via
-[Browser Add-ons](/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/browseradd-ons/browser_add-ons.md).
+[Browser Add-ons](/docs/passwordsecure/9.1/passwordsecure/configuration/browseradd-ons/browser_add-ons.md).
 The procedure remains the same.
 
 ![installation_with_parameters_143](/img/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/browseradd-ons/applications/installation_with_parameters_143.webp)

@@ -3,25 +3,25 @@
 To view and manage the groups that you own in the identity store, click **Groups** on the left
 navigation pane and select **My Groups**. This page lists all your active groups:
 
-- [My Memberships](/versioned_docs/groupid_11.0/groupid/portal/group/mymemberships.md)
-- [My Expired Groups](/versioned_docs/groupid_11.0/groupid/portal/group/myexpiredgroups.md)
-- [My Expiring Groups](/versioned_docs/groupid_11.0/groupid/portal/group/myexpiringgroups.md)
-- [My Deleted Groups](/versioned_docs/groupid_11.0/groupid/portal/group/mydeletedgroups.md)
-- [My Smart Groups](/versioned_docs/groupid_11.0/groupid/portal/group/mysmartgroups.md)
-- [My Dynasties](/versioned_docs/groupid_11.0/groupid/portal/group/mydynasties.md)
-- [My Teams](/versioned_docs/groupid_11.0/groupid/portal/group/myteams.md) (for Microsoft Entra ID
+- [My Memberships](/docs/groupid/11.0/groupid/portal/group/mymemberships.md)
+- [My Expired Groups](/docs/groupid/11.0/groupid/portal/group/myexpiredgroups.md)
+- [My Expiring Groups](/docs/groupid/11.0/groupid/portal/group/myexpiringgroups.md)
+- [My Deleted Groups](/docs/groupid/11.0/groupid/portal/group/mydeletedgroups.md)
+- [My Smart Groups](/docs/groupid/11.0/groupid/portal/group/mysmartgroups.md)
+- [My Dynasties](/docs/groupid/11.0/groupid/portal/group/mydynasties.md)
+- [My Teams](/docs/groupid/11.0/groupid/portal/group/myteams.md) (for Microsoft Entra ID
   based identity store)
 
 By default, the **My Groups** tab displays the groups that you are the primary owner for. To include
 the groups for which you are an additional owner, select the **Display additional group ownership in
 My Groups** check box on the
-[Portal Settings](/versioned_docs/groupid_11.0/groupid/portal/setting/portal.md) panel. This tab
+[Portal Settings](/docs/groupid/11.0/groupid/portal/setting/portal.md) panel. This tab
 lists active groups only; expired and deleted groups are not displayed.
 
 You can
-[Modify Search Directory](/versioned_docs/groupid_11.0/groupid/portal/group/allgroups.md#modify-search-directory)
+[Modify Search Directory](/docs/groupid/11.0/groupid/portal/group/allgroups.md#modify-search-directory)
 to search your groups and add
-[Filter All Groups](/versioned_docs/groupid_11.0/groupid/portal/group/allgroups.md#filter-all-groups)by
+[Filter All Groups](/docs/groupid/11.0/groupid/portal/group/allgroups.md#filter-all-groups)by
 clicking **My Groups Grid Filters**. All your groups matching the filters will be displayed.
 
 **You can:**
@@ -30,22 +30,22 @@ clicking **My Groups Grid Filters**. All your groups matching the filters will b
   update details on **Processing Object (s)** wizard. Click **OK** once done. If you click
   **Background**, the update runs in the background and will show in the **Background Tasks** tab.
 - View and modify the
-  [Group Properties](/versioned_docs/groupid_11.0/groupid/portal/group/properties/overview.md) of a
+  [Group Properties](/docs/groupid/11.0/groupid/portal/group/properties/overview.md) of a
   group.
 - Manually expire your groups. After expiring the group, it will be listed in **My Expired Groups**
   list.
 - Select a smart group and click **Renew** on the toolbar; this re-applies the expiry policy of the
   group starting from today, thus renewing the group.
 - Join a group as a
-  [Join a group temporarily](/versioned_docs/groupid_11.0/groupid/portal/group/manage/groupjoinleave.md#join-a-group-temporarily)
+  [Join a group temporarily](/docs/groupid/11.0/groupid/portal/group/manage/groupjoinleave.md#join-a-group-temporarily)
   or
-  [Join a group permanently](/versioned_docs/groupid_11.0/groupid/portal/group/manage/groupjoinleave.md#join-a-group-permanently)
+  [Join a group permanently](/docs/groupid/11.0/groupid/portal/group/manage/groupjoinleave.md#join-a-group-permanently)
 - Leave a group’s membership
-  [Leave a group temporarily](/versioned_docs/groupid_11.0/groupid/portal/group/manage/groupjoinleave.md#leave-a-group-temporarily)
+  [Leave a group temporarily](/docs/groupid/11.0/groupid/portal/group/manage/groupjoinleave.md#leave-a-group-temporarily)
   or
-  [Leave a group permanently](/versioned_docs/groupid_11.0/groupid/portal/group/manage/groupjoinleave.md#leave-a-group-permanently).
+  [Leave a group permanently](/docs/groupid/11.0/groupid/portal/group/manage/groupjoinleave.md#leave-a-group-permanently).
 - Join / leave a group
-  [Join or leave a group on behalf of a direct report or peer](/versioned_docs/groupid_11.0/groupid/portal/group/manage/groupjoinleave.md#join-or-leave-a-group-on-behalf-of-a-direct-report-or-peer)a
+  [Join or leave a group on behalf of a direct report or peer](/docs/groupid/11.0/groupid/portal/group/manage/groupjoinleave.md#join-or-leave-a-group-on-behalf-of-a-direct-report-or-peer)a
   direct report or peer.
 - To Join/Leave the group, you can also click on **Want to write reason to group owner?** and state
   the the reason for joining or leaving the group for the group owner.
@@ -62,7 +62,7 @@ clicking **My Groups Grid Filters**. All your groups matching the filters will b
   contact list using the vCard. The portal creates the group's vCard and prompts you to save it on
   your machine. You can then use it to add the group's email address to your email contact list.
 - Click **Add to Group** to add the group into the membership of another group
-  ([Add a group to the membership of another group (nesting)](/versioned_docs/groupid_11.0/groupid/portal/group/manage/groupmembershipfunction.md#add-a-group-to-the-membership-of-another-group-nesting)).
+  ([Add a group to the membership of another group (nesting)](/docs/groupid/11.0/groupid/portal/group/manage/groupmembershipfunction.md#add-a-group-to-the-membership-of-another-group-nesting)).
 - Select a group and click **Send Email** on the toolbar to send an email to the group. This
   launches the default Windows email application for sending an email to group members.
 - Click **Export Results** on the toolbar to export the group list to a Microsoft Excel file.
@@ -73,7 +73,7 @@ clicking **My Groups Grid Filters**. All your groups matching the filters will b
     - **Other:** You can select some other user as the owner.
 
 - Manually
-  [ Group Deletion](/versioned_docs/groupid_11.0/groupid/portal/group/manage/groupdeletion.md) any
+  [ Group Deletion](/docs/groupid/11.0/groupid/portal/group/manage/groupdeletion.md) any
   of your group.
 - Get a list of all groups managed by s particular group (i.e., all groups for which the selected
   group is a primary or additional owner)
@@ -89,7 +89,7 @@ Use the page numbers under the group listing to page through all groups.
 
 You can control the number of records to be displayed per page by modifying the **Search results per
 page** setting on the
-[Portal Settings](/versioned_docs/groupid_11.0/groupid/portal/setting/portal.md) panel.
+[Portal Settings](/docs/groupid/11.0/groupid/portal/setting/portal.md) panel.
 
 ## Modify Search Directory
 
@@ -99,7 +99,7 @@ a domain to search active groups from.
 ## Transfer Ownership
 
 You can find
-[Transfer Ownership](/versioned_docs/groupid_11.0/groupid/portal/group/transferownership.md) option
+[Transfer Ownership](/docs/groupid/11.0/groupid/portal/group/transferownership.md) option
 on the top right corner. Transfer Ownership enables you to:
 
 - Assign owners to orphan groups.
@@ -128,8 +128,8 @@ You can add filters in **My Group Grid Filters** while searching for specific gr
 
 **See Also**
 
-- [Groups](/versioned_docs/groupid_11.0/groupid/portal/group/create/overview.md)
-- [Dynasty](/versioned_docs/groupid_11.0/groupid/portal/group/dynasty/overview.md)
-- [Group Properties](/versioned_docs/groupid_11.0/groupid/portal/group/properties/overview.md)
-- [Directory Search](/versioned_docs/groupid_11.0/groupid/portal/search/search.md)
-- [Working with Groups](/versioned_docs/groupid_11.0/groupid/portal/group/manage/workingwithgroups.md)
+- [Groups](/docs/groupid/11.0/groupid/portal/group/create/overview.md)
+- [Dynasty](/docs/groupid/11.0/groupid/portal/group/dynasty/overview.md)
+- [Group Properties](/docs/groupid/11.0/groupid/portal/group/properties/overview.md)
+- [Directory Search](/docs/groupid/11.0/groupid/portal/search/search.md)
+- [Working with Groups](/docs/groupid/11.0/groupid/portal/group/manage/workingwithgroups.md)

@@ -13,8 +13,8 @@ Click **Add Filter** to open the Filter Wizard
 
 The Filter Wizard manages properties of the search filter. The Filter Wizard pages are:
 
-- [EWSPublicFolder FW: Search Filter](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/ewspublicfolder/filterwizard/searchfilter.md)
-- [EWSPublicFolder FW: Folder Conditions](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/ewspublicfolder/filterwizard/folderconditions.md)
-- [EWSPublicFolder FW: Message Conditions](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/ewspublicfolder/filterwizard/messageconditions.md)
-- [EWSPublicFolder FW: BodyOptions](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/ewspublicfolder/filterwizard/bodyoptions.md)
-- [EWSPublicFolder FW: Save Filter](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/ewspublicfolder/filterwizard/savefilter.md)
+- [EWSPublicFolder FW: Search Filter](/docs/accessanalyzer/11.6/enterpriseauditor/admin/datacollector/ewspublicfolder/filterwizard/searchfilter.md)
+- [EWSPublicFolder FW: Folder Conditions](/docs/accessanalyzer/11.6/enterpriseauditor/admin/datacollector/ewspublicfolder/filterwizard/folderconditions.md)
+- [EWSPublicFolder FW: Message Conditions](/docs/accessanalyzer/11.6/enterpriseauditor/admin/datacollector/ewspublicfolder/filterwizard/messageconditions.md)
+- [EWSPublicFolder FW: BodyOptions](/docs/accessanalyzer/11.6/enterpriseauditor/admin/datacollector/ewspublicfolder/filterwizard/bodyoptions.md)
+- [EWSPublicFolder FW: Save Filter](/docs/accessanalyzer/11.6/enterpriseauditor/admin/datacollector/ewspublicfolder/filterwizard/savefilter.md)

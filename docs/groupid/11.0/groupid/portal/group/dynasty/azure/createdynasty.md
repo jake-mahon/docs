@@ -39,7 +39,7 @@ Dynasty names help you group a parent Dynasty with its respective child Dynastie
     `<manager>`".
 
 To modify the display name template for child Dynasties, see
-[Modify alias and display name templates](/versioned_docs/groupid_11.0/groupid/portal/group/manage/dynastyfunction.md#modify-alias-and-display-name-templates).
+[Modify alias and display name templates](/docs/groupid/11.0/groupid/portal/group/manage/dynastyfunction.md#modify-alias-and-display-name-templates).
 
 NOTE: In the Dynasty creation/update process, a child Dynasty will not be created if it bears the
 same name as that of an existing object in the directory. For example, when you create a custom
@@ -61,14 +61,14 @@ What do you want to do?
     NOTE: Pages and fields on the wizard may vary, since the administrator can customize the wizard
     by adding or removing pages and fields.
 
-2. On the [Group Type page](/versioned_docs/groupid_11.0/groupid/portal/group/create/grouptype.md),
+2. On the [Group Type page](/docs/groupid/11.0/groupid/portal/group/create/grouptype.md),
    select the **Organizational Dynasty**, **Geographical Dynasty**, or **Custom Dynasty** option
    button and click **Next**.
 3. On the
-   [General - Microsoft Entra ID](/versioned_docs/groupid_11.0/groupid/portal/group/dynasty/azure/general.md)page,
+   [General - Microsoft Entra ID](/docs/groupid/11.0/groupid/portal/group/dynasty/azure/general.md)page,
    specify basic information about the Dynasty.
 4. On the
-   [Dynasty Options page](/versioned_docs/groupid_11.0/groupid/portal/group/dynasty/dynastyoptionsorggeocus.md),
+   [Dynasty Options page](/docs/groupid/11.0/groupid/portal/group/dynasty/dynastyoptionsorggeocus.md),
    view or change the attributes in the **Attributes** area and click **Next**.
 
     Dynasties create Smart Groups for each distinct value of each listed attribute. Depending on the
@@ -76,7 +76,7 @@ What do you want to do?
     the template; however, you can add and remove attributes. For the Custom template, no attribute
     is displayed.
 
-5. The [Query Designer](/versioned_docs/groupid_11.0/groupid/portal/group/querydesigner/overview.md)
+5. The [Query Designer](/docs/groupid/11.0/groupid/portal/group/querydesigner/overview.md)
    page displays the default query that GroupID will use to determine the Dynasty membership. The
    default query returns all users with Exchange mailboxes, along with users and contacts with
    external email addresses, which are then grouped by the specified group-by attributes.
@@ -84,10 +84,10 @@ What do you want to do?
     Review the query for selecting the group members, then click **Next**.
 
     For details, see the
-    [ Smart Group page](/versioned_docs/groupid_11.0/groupid/portal/group/create/activedirectory/smartgroup.md).
+    [ Smart Group page](/docs/groupid/11.0/groupid/portal/group/create/activedirectory/smartgroup.md).
 
 6. On the
-   [Owners page](/versioned_docs/groupid_11.0/groupid/portal/group/create/activedirectory/owners.md),
+   [Owners page](/docs/groupid/11.0/groupid/portal/group/create/activedirectory/owners.md),
    specify primary and additional owners for the Dynasty.
 
     NOTE: (1) Additional owners are only set for the parent and are not inherited by child Dynasties
@@ -98,7 +98,7 @@ What do you want to do?
     notifications.
 
 7. On the
-   [Summary Page](/versioned_docs/groupid_11.0/groupid/portal/user/create/activedirectory/summary.md),
+   [Summary Page](/docs/groupid/11.0/groupid/portal/user/create/activedirectory/summary.md),
    review the settings and then click **Finish** to complete the wizard.
 
 ## Create a Dynasty using the Managerial template
@@ -110,13 +110,13 @@ What do you want to do?
     NOTE: Pages and fields on the wizard may vary, since the administrator can customize the wizard
     by adding or removing pages and fields.
 
-2. On the [Group Type page](/versioned_docs/groupid_11.0/groupid/portal/group/create/grouptype.md),
+2. On the [Group Type page](/docs/groupid/11.0/groupid/portal/group/create/grouptype.md),
    select the **Managerial Dynasty** option button and click **Next**.
 3. On the
-   [General - Microsoft Entra ID](/versioned_docs/groupid_11.0/groupid/portal/group/dynasty/azure/general.md)page,
+   [General - Microsoft Entra ID](/docs/groupid/11.0/groupid/portal/group/dynasty/azure/general.md)page,
    specify basic information about the Dynasty.
 4. On the
-   [Dynasty Options page (Managerial Dynasty)](/versioned_docs/groupid_11.0/groupid/portal/group/dynasty/dynastyoptionsmanagerial.md),
+   [Dynasty Options page (Managerial Dynasty)](/docs/groupid/11.0/groupid/portal/group/dynasty/dynastyoptionsmanagerial.md),
    specify a structure for the Dynasty and click **Next**.
 
     By default, GroupID constructs a managerial Dynasty structure by first creating a Smart Group
@@ -125,7 +125,7 @@ What do you want to do?
     However, you can choose to create a single Smart Group for the direct reports of all levels of
     managers rather than creating separate groups.
 
-5. The [Query Designer](/versioned_docs/groupid_11.0/groupid/portal/group/querydesigner/overview.md)
+5. The [Query Designer](/docs/groupid/11.0/groupid/portal/group/querydesigner/overview.md)
    page displays the default query that GroupID will use to determine the Dynasty membership. This
    query returns all users with Exchange mailboxes, along with users and contacts with external
    email addresses, which are then grouped as per the managerial Dynasty structure.
@@ -133,10 +133,10 @@ What do you want to do?
     Review the query for selecting the group members, then click **Next**.
 
     For details, see the
-    [ Smart Group page](/versioned_docs/groupid_11.0/groupid/portal/group/create/activedirectory/smartgroup.md).
+    [ Smart Group page](/docs/groupid/11.0/groupid/portal/group/create/activedirectory/smartgroup.md).
 
 6. On the
-   [Owners page](/versioned_docs/groupid_11.0/groupid/portal/group/create/activedirectory/owners.md),
+   [Owners page](/docs/groupid/11.0/groupid/portal/group/create/activedirectory/owners.md),
    specify primary and additional owners for the Dynasty.
 
     NOTE: (1) Additional owners are only set for the parent and are not inherited by child Dynasties
@@ -151,9 +151,9 @@ What do you want to do?
     the **Set Manager as owner** check box is selected.
 
 7. On the
-   [Summary Page](/versioned_docs/groupid_11.0/groupid/portal/user/create/activedirectory/summary.md),
+   [Summary Page](/docs/groupid/11.0/groupid/portal/user/create/activedirectory/summary.md),
    review the settings and then click Finish to complete the wizard.
 
 **See Also**
 
-- [Group Properties](/versioned_docs/groupid_11.0/groupid/portal/group/properties/overview.md)
+- [Group Properties](/docs/groupid/11.0/groupid/portal/group/properties/overview.md)

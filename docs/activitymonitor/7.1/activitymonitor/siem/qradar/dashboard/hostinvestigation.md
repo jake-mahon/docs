@@ -20,14 +20,14 @@ The Host Investigation dashboard contains the following cards:
   which occurred over the specified time interval
 
     - See the
-      [Table Card Features ](/versioned_docs/activitymonitor_7.1/activitymonitor/siem/qradar/app.md#table-card-features)
+      [Table Card Features ](/docs/activitymonitor/7.1/activitymonitor/siem/qradar/app.md#table-card-features)
       topic for additional information.
 
 - Destination Host Offenses – QRadar offenses associated with the host which occurred over the
   specified time interval
 
     - See the
-      [Table Card Features ](/versioned_docs/activitymonitor_7.1/activitymonitor/siem/qradar/app.md#table-card-features)
+      [Table Card Features ](/docs/activitymonitor/7.1/activitymonitor/siem/qradar/app.md#table-card-features)
       topic for additional information.
 
 The time interval is identified in the upper-right corner with the Start and End boxes. This is set

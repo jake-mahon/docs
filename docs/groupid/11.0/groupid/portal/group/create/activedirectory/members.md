@@ -5,7 +5,7 @@ group.
 
 - To add member(s), click **Add**. Enter a search string to locate the object to add as a group
   member, or click **Advance** to use the
-  [Find Dialog Box](/versioned_docs/groupid_11.0/groupid/portal/search/find.md) for performing a
+  [Find Dialog Box](/docs/groupid/11.0/groupid/portal/search/find.md) for performing a
   search.
 
     The selected members get listed in the grid on the **Members** page.
@@ -14,7 +14,7 @@ group.
   members of an existing group or groups to the membership of this group.
 
     Click **Import** to launch the **Import Members** wizard for importing group members. See
-    [Import Group Members](/versioned_docs/groupid_11.0/groupid/portal/group/properties/importmembers.md)
+    [Import Group Members](/docs/groupid/11.0/groupid/portal/group/properties/importmembers.md)
     for information.
 
 - To remove an object from the members list, select it and click **Remove**.
@@ -41,4 +41,4 @@ After adding members, click **Next**.
 
 **See Also**
 
-- [Create Active Directory Groups](/versioned_docs/groupid_11.0/groupid/portal/group/create/activedirectory/group.md)
+- [Create Active Directory Groups](/docs/groupid/11.0/groupid/portal/group/create/activedirectory/group.md)

@@ -172,6 +172,6 @@ What do you want to do?
 
 **See Also**
 
-- [Enroll Your Identity Store Account](/versioned_docs/groupid_11.0/groupid/portal/user/authentication/enrollaccount.md)
-- [ Change your password](/versioned_docs/groupid_11.0/groupid/portal/user/manage/changepassword.md)
-- [Unlock your accounts](/versioned_docs/groupid_11.0/groupid/portal/user/manage/unlockaccount.md)
+- [Enroll Your Identity Store Account](/docs/groupid/11.0/groupid/portal/user/authentication/enrollaccount.md)
+- [ Change your password](/docs/groupid/11.0/groupid/portal/user/manage/changepassword.md)
+- [Unlock your accounts](/docs/groupid/11.0/groupid/portal/user/manage/unlockaccount.md)

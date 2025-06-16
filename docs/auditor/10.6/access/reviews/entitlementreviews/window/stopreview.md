@@ -1,7 +1,7 @@
 # Stop Review Window
 
 The Stop Review window opens from the
-[Manage Reviews Page](/versioned_docs/auditor_10.6/access/reviews/entitlementreviews/interface.md#manage-reviews-page)
+[Manage Reviews Page](/docs/auditor/10.6/access/reviews/entitlementreviews/interface.md#manage-reviews-page)
 of the Entitlement Reviews interface. Select the desired active review(s) and click **Stop**. The
 Stop Review window opens to confirm the action.
 

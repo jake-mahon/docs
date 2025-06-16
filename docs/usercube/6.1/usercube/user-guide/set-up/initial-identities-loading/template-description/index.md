@@ -7,11 +7,11 @@ Description of the MS Excel template for the creation of the identities reposito
 ![Template Model](/img/versioned_docs/usercube_6.1/usercube/user-guide/set-up/initial-identities-loading/template-description/initialload_templatemodel_v603.webp)
 
 All tabs contain a column `Command` only used at a later stage to
-[modify (massively) identity data](/versioned_docs/usercube_6.1/usercube/user-guide/maintain/identity-data-modification/mass-update/index.md).
+[modify (massively) identity data](/docs/usercube/6.1/usercube/user-guide/maintain/identity-data-modification/mass-update/index.md).
 
 ## User - Required
 
-[An identity is split into two parts](/versioned_docs/usercube_6.1/usercube/integration-guide/identity-management/index.md),
+[An identity is split into two parts](/docs/usercube/6.1/usercube/integration-guide/identity-management/index.md),
 the first one being the parent resource called `User` which represents the user's identity card. It
 contains the few attributes which shall not change during the identity's lifecycle.
 
@@ -23,7 +23,7 @@ contains the few attributes which shall not change during the identity's lifecyc
 
 ## UserRecord - Required
 
-[An identity is split into two parts](/versioned_docs/usercube_6.1/usercube/integration-guide/identity-management/index.md),
+[An identity is split into two parts](/docs/usercube/6.1/usercube/integration-guide/identity-management/index.md),
 the second one being the one or several child resources called `UserRecord` which represent the
 user's positions. Records belong to users and help materialize:
 
@@ -39,7 +39,7 @@ Thus, the `UserRecord` tab usually holds users' information that might change ov
 
 | Attribute                                                                                | Type       | Description                                                                                                                                                                                                                                                                                                        |
 | ---------------------------------------------------------------------------------------- | ---------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| RecordIdentifier (recommended)                                                           | String     | Identifier of the [record](/versioned_docs/usercube_6.1/usercube/integration-guide/identity-management/joiners-movers-leavers/position-change/index.md). **Note:** it can be the same as `PositionIdentifier` when users can have no more than one contract simultaneously. **Note:** required when using records. |
+| RecordIdentifier (recommended)                                                           | String     | Identifier of the [record](/docs/usercube/6.1/usercube/integration-guide/identity-management/joiners-movers-leavers/position-change/index.md). **Note:** it can be the same as `PositionIdentifier` when users can have no more than one contract simultaneously. **Note:** required when using records. |
 | User (required)                                                                          | ForeignKey | `Identifier` from the `User` tab.                                                                                                                                                                                                                                                                                  |
 | EmployeeId (recommended)                                                                 | String     |                                                                                                                                                                                                                                                                                                                    |
 | Gender (optional)                                                                        | ForeignKey | `Identifier` from the [`Gender`](#gender) tab.                                                                                                                                                                                                                                                                     |

@@ -108,7 +108,7 @@ The Browser role is required to generate reports. It is granted on all reports â
 delegated scope.
 
 If for some reason Auditor is unable to grant the Browser role, configure it manually. See the
-[SQL Server Reporting Services](/versioned_docs/auditor_10.6/auditor/requirements/sqlserverreportingservice.md)
+[SQL Server Reporting Services](/docs/auditor/10.6/auditor/requirements/sqlserverreportingservice.md)
 topic for additional information.
 
 ### Default Role Assignments
@@ -146,7 +146,7 @@ Specify users you want to be included in this group.
 ![Roles_Groups](/img/versioned_docs/auditor_10.6/auditor/admin/monitoringplans/roles_groups.webp)
 
 **NOTE:** For additional information about User Activity video access management, see the
-[Configure Video Recordings Playback Settings](/versioned_docs/auditor_10.6/auditor/configuration/useractivity/videorecordings.md)
+[Configure Video Recordings Playback Settings](/docs/auditor/10.6/auditor/configuration/useractivity/videorecordings.md)
 topic.
 
 ## Provide Access to a Limited Set of Data

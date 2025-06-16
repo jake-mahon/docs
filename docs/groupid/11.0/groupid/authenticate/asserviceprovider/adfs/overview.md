@@ -38,7 +38,7 @@ That done, you can sign into GroupID using AD FS.
 
 See Also
 
-- [Generate URLs](/versioned_docs/groupid_11.0/groupid/authenticate/asserviceprovider/adfs/generateurls.md)
-- [Configure Relaying Party Trust in AD FS](/versioned_docs/groupid_11.0/groupid/authenticate/asserviceprovider/adfs/configurerelayingpartytrust.md)
-- [Configure the AD FS Provider In GroupID](/versioned_docs/groupid_11.0/groupid/authenticate/asserviceprovider/adfs/configureadfsingroupid.md)
-- [Sign In Using AD FS](/versioned_docs/groupid_11.0/groupid/authenticate/asserviceprovider/adfs/signin.md)
+- [Generate URLs](/docs/groupid/11.0/groupid/authenticate/asserviceprovider/adfs/generateurls.md)
+- [Configure Relaying Party Trust in AD FS](/docs/groupid/11.0/groupid/authenticate/asserviceprovider/adfs/configurerelayingpartytrust.md)
+- [Configure the AD FS Provider In GroupID](/docs/groupid/11.0/groupid/authenticate/asserviceprovider/adfs/configureadfsingroupid.md)
+- [Sign In Using AD FS](/docs/groupid/11.0/groupid/authenticate/asserviceprovider/adfs/signin.md)

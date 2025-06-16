@@ -4,10 +4,10 @@ Any Threat Prevention license can use the Password Enforcement Event type to mon
 creation of weak passwords in your environment.
 
 **NOTE:** See the
-[Prevent Weak Passwords Use Case](/versioned_docs/threatprevention_7.4/threatprevention/admin/policies/eventtype/usecase/preventweakpasswords.md)
+[Prevent Weak Passwords Use Case](/docs/threatprevention/7.4/threatprevention/admin/policies/eventtype/usecase/preventweakpasswords.md)
 topic for instructions on creating a policy to block weak passwords, which requires the Threat
 Prevention
-for[ Enterprise Password Enforcer](/versioned_docs/threatprevention_7.4/threatprevention/solutions/epe.md)
+for[ Enterprise Password Enforcer](/docs/threatprevention/7.4/threatprevention/solutions/epe.md)
 solution.
 
 Follow the steps to configure a policy to monitor the creation of weak passwords.
@@ -19,15 +19,15 @@ environment.
 
 - Click **Configuration** > **EPE Settings** on the menu to open the EPE Settings window.
 - Download the latest copy of the HaveIBeenPwned dictionary file. See the
-  [Download and Configure the Have I Been Pwnd Hash List](/versioned_docs/threatprevention_7.4/threatprevention/admin/configuration/epesettings.md#download-and-configure-the-have-i-been-pwnd-hash-list)
+  [Download and Configure the Have I Been Pwnd Hash List](/docs/threatprevention/7.4/threatprevention/admin/configuration/epesettings.md#download-and-configure-the-have-i-been-pwnd-hash-list)
   topic for additional information.
 - Determine whether you want to deploy the dictionary to each domain controller or keep it locally
   on the Enterprise Manager server. See the
-  [Considerations When Deploying the HIBP Database](/versioned_docs/threatprevention_7.4/threatprevention/admin/configuration/epesettings.md#considerations-when-deploying-the-hibp-database)
+  [Considerations When Deploying the HIBP Database](/docs/threatprevention/7.4/threatprevention/admin/configuration/epesettings.md#considerations-when-deploying-the-hibp-database)
   topic for additional information.
 - Modify the global password rules to customize the password dictionary, word list dictionary and
   character substitution map. See the
-  [Rules](/versioned_docs/threatprevention_7.4/threatprevention/admin/configuration/epesettings.md#rules)
+  [Rules](/docs/threatprevention/7.4/threatprevention/admin/configuration/epesettings.md#rules)
   topic for additional information.
 
 **Step 2 –** Create a new policy with the Password Enforcement Event Type.
@@ -39,7 +39,7 @@ environment.
   description, e.g. This policy monitors the creation of weak passwords according to the global
   EPE settings.
 - On the Event Type tab, click the **Add** (+) button and select Password Enforcement on the
-  [Event Selection Window](/versioned_docs/threatprevention_7.4/threatprevention/admin/policies/eventtype/overview.md#event-selection-window).
+  [Event Selection Window](/docs/threatprevention/7.4/threatprevention/admin/policies/eventtype/overview.md#event-selection-window).
 
 ![Policy - Event Type tab with the Password Enforcement event selected](/img/versioned_docs/threatprevention_7.4/threatprevention/admin/policies/eventtype/usecase/passwordrulesmonitor.webp)
 
@@ -79,7 +79,7 @@ methods for viewing monitored weak password events:
 
 On the Recent Events tab of the policy, set the Show options as desired and click the Refresh button
 to view monitored events. See the
-[Recent Events Tab](/versioned_docs/threatprevention_7.4/threatprevention/admin/policies/recentevents/overview.md)
+[Recent Events Tab](/docs/threatprevention/7.4/threatprevention/admin/policies/recentevents/overview.md)
 topic for additional information.
 
 ## View Events in Investigate Interface
@@ -93,7 +93,7 @@ view monitored weak password events:
 - Other filter – Select the Event Name option and enter "password monitored" in the text box.
 
 Click the Refresh button to view monitored events. See the
-[Investigate Interface](/versioned_docs/threatprevention_7.4/threatprevention/admin/investigate/overview.md)
+[Investigate Interface](/docs/threatprevention/7.4/threatprevention/admin/investigate/overview.md)
 topic for additional information.
 
 ## View Events in Investigations Interface
@@ -106,5 +106,5 @@ investigation with the following filter:
 - Filter = [name of monitoring policy]
 
 See the
-[Investigations Interface](/versioned_docs/threatprevention_7.4/threatprevention/reportingmodule/investigations/overview.md)
+[Investigations Interface](/docs/threatprevention/7.4/threatprevention/reportingmodule/investigations/overview.md)
 topic for additional information.

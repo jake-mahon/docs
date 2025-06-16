@@ -2,15 +2,15 @@
 
 This tab lists all groups defined in the identity store including all active groups:
 
-- [Private Groups](/versioned_docs/groupid_11.0/groupid/portal/group/privategroups.md)
-- [Semi Private Groups](/versioned_docs/groupid_11.0/groupid/portal/group/semiprivategroups.md)
-- [Public Groups](/versioned_docs/groupid_11.0/groupid/portal/group/publicgroups.md)
-- [Expired Groups](/versioned_docs/groupid_11.0/groupid/portal/group/allexpiredgroups.md)
-- [Expiring Groups](/versioned_docs/groupid_11.0/groupid/portal/group/allexpiringgroups.md)
-- [Smart Groups](/versioned_docs/groupid_11.0/groupid/portal/group/allsmartgroups.md)
-- [Dynasties](/versioned_docs/groupid_11.0/groupid/portal/group/alldynasties.md)
-- [Password Expiry Groups](/versioned_docs/groupid_11.0/groupid/portal/group/passwordexpirygroups.md)
-- [Teams](/versioned_docs/groupid_11.0/groupid/portal/group/teams.md) (for Microsoft Entra ID based
+- [Private Groups](/docs/groupid/11.0/groupid/portal/group/privategroups.md)
+- [Semi Private Groups](/docs/groupid/11.0/groupid/portal/group/semiprivategroups.md)
+- [Public Groups](/docs/groupid/11.0/groupid/portal/group/publicgroups.md)
+- [Expired Groups](/docs/groupid/11.0/groupid/portal/group/allexpiredgroups.md)
+- [Expiring Groups](/docs/groupid/11.0/groupid/portal/group/allexpiringgroups.md)
+- [Smart Groups](/docs/groupid/11.0/groupid/portal/group/allsmartgroups.md)
+- [Dynasties](/docs/groupid/11.0/groupid/portal/group/alldynasties.md)
+- [Password Expiry Groups](/docs/groupid/11.0/groupid/portal/group/passwordexpirygroups.md)
+- [Teams](/docs/groupid/11.0/groupid/portal/group/teams.md) (for Microsoft Entra ID based
   identity store)
 
 Viewing all groups from the directory source may slow down the loading of groups in the view,
@@ -25,23 +25,23 @@ especially when there are more than 100 groups.
     Tasks** tab.
 
 - View and modify the
-  [Group Properties](/versioned_docs/groupid_11.0/groupid/portal/group/properties/overview.md) of a
+  [Group Properties](/docs/groupid/11.0/groupid/portal/group/properties/overview.md) of a
   group.
-- [Expire a group manually ](/versioned_docs/groupid_11.0/groupid/portal/group/manage/groupexpiryfunction.md#expire-a-group-manually).
+- [Expire a group manually ](/docs/groupid/11.0/groupid/portal/group/manage/groupexpiryfunction.md#expire-a-group-manually).
   After expiring the group, it will be listed in **Expired Group** list.
 - Select a smart group and click **Renew** on the toolbar; this re-applies the expiry policy of the
   group starting from today, thus renewing the group.
 - Join a group as a
-  [Join a group temporarily](/versioned_docs/groupid_11.0/groupid/portal/group/manage/groupjoinleave.md#join-a-group-temporarily)
+  [Join a group temporarily](/docs/groupid/11.0/groupid/portal/group/manage/groupjoinleave.md#join-a-group-temporarily)
   or
-  [Join a group permanently](/versioned_docs/groupid_11.0/groupid/portal/group/manage/groupjoinleave.md#join-a-group-permanently)
+  [Join a group permanently](/docs/groupid/11.0/groupid/portal/group/manage/groupjoinleave.md#join-a-group-permanently)
 
     Select **Other** to add other users to the group.
 
 - Leave a group’s membership
-  [Leave a group temporarily](/versioned_docs/groupid_11.0/groupid/portal/group/manage/groupjoinleave.md#leave-a-group-temporarily)
+  [Leave a group temporarily](/docs/groupid/11.0/groupid/portal/group/manage/groupjoinleave.md#leave-a-group-temporarily)
   or
-  [Leave a group permanently](/versioned_docs/groupid_11.0/groupid/portal/group/manage/groupjoinleave.md#leave-a-group-permanently).
+  [Leave a group permanently](/docs/groupid/11.0/groupid/portal/group/manage/groupjoinleave.md#leave-a-group-permanently).
 
     Select **Other** to remove other users from the group.
 
@@ -87,7 +87,7 @@ especially when there are more than 100 groups.
     address to your email contact list.
 
 - Click **Add to Group** to add the group into the membership of another group
-  ([Add a group to the membership of another group (nesting)](/versioned_docs/groupid_11.0/groupid/portal/group/manage/groupmembershipfunction.md#add-a-group-to-the-membership-of-another-group-nesting)).
+  ([Add a group to the membership of another group (nesting)](/docs/groupid/11.0/groupid/portal/group/manage/groupmembershipfunction.md#add-a-group-to-the-membership-of-another-group-nesting)).
 - Select a group and click **Send Email** on the toolbar. This launches the default Windows email
   application for sending an email to group members.
 - Click **Export Results** on the toolbar to export the group list to a Microsoft Excel file.
@@ -97,7 +97,7 @@ Use the page numbers under the group listing to page through all groups.
 
 You can also control the number of records to be displayed per page by modifying the **Search
 results per page** setting on the
-[Portal Settings](/versioned_docs/groupid_11.0/groupid/portal/setting/portal.md) panel.
+[Portal Settings](/docs/groupid/11.0/groupid/portal/setting/portal.md) panel.
 
 ## Modify Search Directory
 
@@ -107,7 +107,7 @@ a domain to search active groups from.
 ## Transfer Ownership
 
 You can find
-[Transfer Ownership](/versioned_docs/groupid_11.0/groupid/portal/group/transferownership.md) option
+[Transfer Ownership](/docs/groupid/11.0/groupid/portal/group/transferownership.md) option
 on the top right corner. Transfer Ownership enables you to:
 
 - Assign owners to orphan groups.
@@ -134,8 +134,8 @@ You can add filters in **All Group Grid Filters** while searching for specific g
 
 **See Also**
 
-- [Groups](/versioned_docs/groupid_11.0/groupid/portal/group/create/overview.md)
-- [Dynasty](/versioned_docs/groupid_11.0/groupid/portal/group/dynasty/overview.md)
-- [Group Properties](/versioned_docs/groupid_11.0/groupid/portal/group/properties/overview.md)
-- [Directory Search](/versioned_docs/groupid_11.0/groupid/portal/search/search.md)
-- [Working with Groups](/versioned_docs/groupid_11.0/groupid/portal/group/manage/workingwithgroups.md)
+- [Groups](/docs/groupid/11.0/groupid/portal/group/create/overview.md)
+- [Dynasty](/docs/groupid/11.0/groupid/portal/group/dynasty/overview.md)
+- [Group Properties](/docs/groupid/11.0/groupid/portal/group/properties/overview.md)
+- [Directory Search](/docs/groupid/11.0/groupid/portal/search/search.md)
+- [Working with Groups](/docs/groupid/11.0/groupid/portal/group/manage/workingwithgroups.md)

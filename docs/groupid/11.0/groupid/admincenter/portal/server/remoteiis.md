@@ -12,7 +12,7 @@ What do you want to do?
 ## Start or Stop an Instance
 
 To start or stop a deployment instance, see the
-[Start or Stop an Instance](/versioned_docs/groupid_11.0/groupid/admincenter/portal/server/nativeiis.md#start-or-stop-an-instance)
+[Start or Stop an Instance](/docs/groupid/11.0/groupid/admincenter/portal/server/nativeiis.md#start-or-stop-an-instance)
 topic.
 
 ## View the Deployment Settings for an Instance
@@ -42,20 +42,20 @@ To view deployment settings:
    credentials. You can also view the name of the portal application in remote IIS, the site where
    it is hosted, the URL to launch the instance, and the Data service and Security service the
    instance uses. Refer to steps 7-12 in the
-   [Create a Portal in Remote IIS](/versioned_docs/groupid_11.0/groupid/admincenter/portal/create.md#create-a-portal-in-remote-iis)
+   [Create a Portal in Remote IIS](/docs/groupid/11.0/groupid/admincenter/portal/create.md#create-a-portal-in-remote-iis)
    topic for a description of these fields.
 
 ## Set File Logging and Windows Logging for an Instance
 
 To set file logging and Windows logging levels for a deployment instance, see the
-[Manage Log Settings](/versioned_docs/groupid_11.0/groupid/admincenter/portal/server/log.md) topic.
+[Manage Log Settings](/docs/groupid/11.0/groupid/admincenter/portal/server/log.md) topic.
 
 ## Delete an Instance
 
 To delete a portal’s deployment instance, see the
-[Delete a Deployment Instance for a Portal](/versioned_docs/groupid_11.0/groupid/admincenter/portal/delete.md#delete-a-deployment-instance-for-a-portal)
+[Delete a Deployment Instance for a Portal](/docs/groupid/11.0/groupid/admincenter/portal/delete.md#delete-a-deployment-instance-for-a-portal)
 topic.
 
 **See Also**
 
-- [Server Settings](/versioned_docs/groupid_11.0/groupid/admincenter/portal/server/overview.md)
+- [Server Settings](/docs/groupid/11.0/groupid/admincenter/portal/server/overview.md)

@@ -1,7 +1,7 @@
 # Selected Resources Window
 
 The Selected Resources window opens from the **View Selections** button in the
-[Create Review Wizard](/versioned_docs/auditor_10.6/access/reviews/entitlementreviews/wizard/create.md).
+[Create Review Wizard](/docs/auditor/10.6/access/reviews/entitlementreviews/wizard/create.md).
 
 ![Selected Resources windwo](/img/versioned_docs/auditor_10.6/access/reviews/entitlementreviews/window/selectedresources.webp)
 

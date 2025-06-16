@@ -46,7 +46,7 @@ password during logon. The Warning mode warns users that their password has expi
 them to change it.
 
 Click the Email tab to configure the e-mail message options. See the
-[Mailer](/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/administration/mailer.md)
+[Mailer](/docs/passwordpolicyenforcer/10.2/password_policy_enforcer/administration/mailer.md)
 topic for additional information.
 
 Use the Warning and Transitional modes to gradually introduce a new password policy. These modes

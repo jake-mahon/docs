@@ -17,7 +17,7 @@ example it is Policy 1.
 
 **Step 3 –** Double-click the **desired rule** to display the Rule Properties page. In this example
 it is a
-[Compromised Rule](/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/administration/compromised_rule.md).
+[Compromised Rule](/docs/passwordpolicyenforcer/10.2/password_policy_enforcer/administration/compromised_rule.md).
 
 ![customizing_rule_inserts_3](/img/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/administration/customizing_rule_inserts_3.webp)
 

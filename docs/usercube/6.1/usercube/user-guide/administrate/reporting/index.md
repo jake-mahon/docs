@@ -22,7 +22,7 @@ for example:
     ![Home - Workflow Overview](/img/versioned_docs/usercube_6.1/usercube/user-guide/administrate/reporting/home_workflowoverview_v602.webp)
 
 - the
-  [list of orphaned accounts](/versioned_docs/usercube_6.1/usercube/user-guide/administrate/orphan-unused-account-review/index.md).
+  [list of orphaned accounts](/docs/usercube/6.1/usercube/user-guide/administrate/orphan-unused-account-review/index.md).
 
     ![Orphaned Account List](/img/versioned_docs/usercube_6.1/usercube/user-guide/administrate/reporting/orphan_entitytype_v523.webp)
 
@@ -54,7 +54,7 @@ Usercube provides a selection of predefined reports available in the solution. T
 most common use cases.
 
 The accessibility of these predefined reports was configured during
-[profile configuration](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/user-profile-configuration/index.md).
+[profile configuration](/docs/usercube/6.1/usercube/user-guide/set-up/user-profile-configuration/index.md).
 
 Download predefined reports by proceeding as follows:
 
@@ -71,22 +71,22 @@ Download predefined reports by proceeding as follows:
 
 When facing frequent reporting requirements outside the scope of predefined reports, new reports can
 be configured with XML via
-[`ReportQuery`](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/reporting/reportquery/index.md)
+[`ReportQuery`](/docs/usercube/6.1/usercube/integration-guide/toolkit/xml-configuration/reporting/reportquery/index.md)
 and
-[specific query grammar](/versioned_docs/usercube_6.1/usercube/integration-guide/api/squery/index.md).
+[specific query grammar](/docs/usercube/6.1/usercube/integration-guide/api/squery/index.md).
 
 ## Create Customized Reports
 
 When facing a one-time need for producing specific reports, Usercube's Query module helps display
 attributes chosen from the data which is already
-[synchronized](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/synchronization/index.md) and
-[classified](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/categorization/classification/index.md).
+[synchronized](/docs/usercube/6.1/usercube/user-guide/set-up/synchronization/index.md) and
+[classified](/docs/usercube/6.1/usercube/user-guide/set-up/categorization/classification/index.md).
 This module offers the possibility to customize reports and download them.
 
 The Query module is based on predefined
-[universes](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/business-intelligence/universe/index.md)
+[universes](/docs/usercube/6.1/usercube/integration-guide/toolkit/xml-configuration/business-intelligence/universe/index.md)
 that can be adjusted later on in
-[XML configuration](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/queries/index.md),
+[XML configuration](/docs/usercube/6.1/usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/queries/index.md),
 just like the list of available query models.
 
 Create a custom report by proceeding as follows:
@@ -99,18 +99,18 @@ Create a custom report by proceeding as follows:
 
 2. Choose a query model from among the list.
 3. Click on **Fields to Display** and select the appropriate fields from among the database
-   [universe](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/business-intelligence/universe/index.md)
+   [universe](/docs/usercube/6.1/usercube/integration-guide/toolkit/xml-configuration/business-intelligence/universe/index.md)
    and click on **Confirm**.
 
     ![Fields to Display](/img/versioned_docs/usercube_6.1/usercube/user-guide/administrate/reporting/reporting_fieldstodisplay_v522.webp)
 
     In cases where Usercube doesn't display correctly the information you need, you must try to
     understand the
-    [entity instances](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/business-intelligence/universe/index.md)
+    [entity instances](/docs/usercube/6.1/usercube/integration-guide/toolkit/xml-configuration/business-intelligence/universe/index.md)
     and
-    [association instances](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/business-intelligence/universe/index.md)
+    [association instances](/docs/usercube/6.1/usercube/integration-guide/toolkit/xml-configuration/business-intelligence/universe/index.md)
     that constitute the
-    [universe](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/business-intelligence/universe/index.md)
+    [universe](/docs/usercube/6.1/usercube/integration-guide/toolkit/xml-configuration/business-intelligence/universe/index.md)
     that you are working with. Perhaps the fields that you chose cannot be properly correlated.
 
 4. Click on **Filters**, write the appropriate condition and click on **Confirm**.
@@ -131,4 +131,4 @@ required, Usercube offers the possibility to connect to the
 allow you to create customized reports with a vast range of display options (such as graphs, charts,
 matrixes, etc.) using Usercube's universes.
 
-[See how to analyze Usercube's data with Power BI](/versioned_docs/usercube_6.1/usercube/integration-guide/governance/reporting/how-tos/connect-powerbi/index.md).
+[See how to analyze Usercube's data with Power BI](/docs/usercube/6.1/usercube/integration-guide/governance/reporting/how-tos/connect-powerbi/index.md).

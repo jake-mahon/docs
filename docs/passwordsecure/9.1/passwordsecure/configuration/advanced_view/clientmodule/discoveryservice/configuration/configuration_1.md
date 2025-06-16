@@ -4,7 +4,7 @@
 
 When this module is opened in Netwrix Password Secure, **there are no entries displayed in the
 Discovery Service** module at the beginning. The entries need to be generated using a
-[System tasks](/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/advanced_view/mainmenu/extras/system_tasks/system_tasks.md).
+[System tasks](/docs/passwordsecure/9.1/passwordsecure/configuration/advanced_view/mainmenu/extras/system_tasks/system_tasks.md).
 
 ![discovery service entries](/img/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/advanced_view/clientmodule/discoveryservice/configuration/configuration_ds-1-en.webp)
 
@@ -18,7 +18,7 @@ NOTE: The information can be grouped together using the column editor.
 ## Network Scan
 
 A **Discovery Service Task** is used to add a new
-[Discovery Service](/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/advanced_view/clientmodule/discoveryservice/discovery_service.md)
+[Discovery Service](/docs/passwordsecure/9.1/passwordsecure/configuration/advanced_view/clientmodule/discoveryservice/discovery_service.md)
 and is then correspondingly configured for a **Network Scan**. Depending on the configuration of the
 **Network Scan**, the following types are discovered:
 
@@ -92,7 +92,7 @@ information.
    is then automatically taken over and executed by the accessible servers on the list. The list is
    searched from top to bottom to find an accessible server.
 3. **Tags**: The use of tags is described in more detail in the section
-   [Tag manager](/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/advanced_view/mainmenu/extras/tag_management/tag_manager.md).
+   [Tag manager](/docs/passwordsecure/9.1/passwordsecure/configuration/advanced_view/mainmenu/extras/tag_management/tag_manager.md).
    A special tag can be entered here for the **Discovery Service Task**.
 
 After the **Discovery Service Task** has been configured, a connection test is performed when the

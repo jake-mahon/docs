@@ -2,7 +2,7 @@
 
 The Administrator Auditing dashboard is specifically fed by a Threat Prevention policy named Domain
 Admin Activity. See the
-[SIEM Folder Templates](/versioned_docs/threatprevention_7.4/threatprevention/admin/templates/folder/siem.md)
+[SIEM Folder Templates](/docs/threatprevention/7.4/threatprevention/admin/templates/folder/siem.md)
 topic for information on this policy template. If this policy template is not enabled and actively
 monitoring, then this dashboard will be blank.
 

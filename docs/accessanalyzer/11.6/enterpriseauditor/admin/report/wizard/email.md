@@ -7,16 +7,16 @@ select report specific settings for emailing the report.
 
 The default setting for new and included reports is **Use default setting**, which keeps the
 inheritance from the global, job group, or job settings (see the
-[Email Report Options](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/settings/reporting.md#email-report-options),
-[Reporting Node](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/jobs/group/reporting.md),
+[Email Report Options](/docs/accessanalyzer/11.6/enterpriseauditor/admin/settings/reporting.md#email-report-options),
+[Reporting Node](/docs/accessanalyzer/11.6/enterpriseauditor/admin/jobs/group/reporting.md),
 and
-[Report Settings Tab](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/jobs/job/properties/reportsettings.md)
+[Report Settings Tab](/docs/accessanalyzer/11.6/enterpriseauditor/admin/jobs/job/properties/reportsettings.md)
 topics for additional information). If you want to keep the default, then you can skip this page of
 the wizard by clicking **Next**.
 
 **NOTE:** In order for reports to be emailed, the SMTP server information must be configured in the
 **Settings** > **Notification** node. See the
-[Notification](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/settings/notification.md)
+[Notification](/docs/accessanalyzer/11.6/enterpriseauditor/admin/settings/notification.md)
 topic for additional information.
 
 To configure the setting for the report, use the Settings drop-down menu to select one of the

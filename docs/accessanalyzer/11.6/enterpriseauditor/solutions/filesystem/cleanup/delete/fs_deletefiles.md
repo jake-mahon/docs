@@ -7,7 +7,7 @@ previously quarantined and can be deleted.
 
 The Configuration section on a Job's overview page allows you to easily modify any customizable
 parameters used by analysis tasks in the job. See the
-[Parameter Configuration](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/jobs/job/overview.md#parameter-configuration)
+[Parameter Configuration](/docs/accessanalyzer/11.6/enterpriseauditor/admin/jobs/job/overview.md#parameter-configuration)
 topic for instructions on how to edit parameters on a job overview page.
 
 The FS_DeleteFiles job has the following configurable parameter:
@@ -46,7 +46,7 @@ The default values for parameters that can be customized are:
 | Determine candidates for deletion | @DELETE_THRESHOLD           | 180           | Set the number of days without access after which a file becomes a candidate for deletion |
 
 See the
-[Configure the Customizable Parameters in an Analysis Task](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/jobs/job/configure/analysiscustomizableparameters.md)
+[Configure the Customizable Parameters in an Analysis Task](/docs/accessanalyzer/11.6/enterpriseauditor/admin/jobs/job/configure/analysiscustomizableparameters.md)
 topic for instructions to modify parameters.
 
 ## Action Tasks for the FS_DeleteFiles Job

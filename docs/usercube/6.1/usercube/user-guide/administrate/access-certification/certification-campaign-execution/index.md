@@ -21,7 +21,7 @@ scheduling.
 
 | Input                                                                                                                                                                        | Output           |
 | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------- |
-| [Scheduled certification campaign](/versioned_docs/usercube_6.1/usercube/user-guide/administrate/access-certification/certification-campaign-scheduling/index.md) (required) | Certified access |
+| [Scheduled certification campaign](/docs/usercube/6.1/usercube/user-guide/administrate/access-certification/certification-campaign-scheduling/index.md) (required) | Certified access |
 
 ## Execute Certification
 

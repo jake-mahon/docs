@@ -1,7 +1,7 @@
 # Dynamic Collections
 
 Certain options in the upper-left corner of the
-[Add New Collection Window](/versioned_docs/threatprevention_7.4/threatprevention/admin/configuration/collectionmanager/listcollections.md#add-new-collection-window)
+[Add New Collection Window](/docs/threatprevention/7.4/threatprevention/admin/configuration/collectionmanager/listcollections.md#add-new-collection-window)
 are only enabled for the following collection categories:
 
 - Domains & Servers –
@@ -21,7 +21,7 @@ are only enabled for the following collection categories:
 
 - The _I will provide a list_ option button enables the default setting for a static collection. See
   the
-  [Add New Collection Window](/versioned_docs/threatprevention_7.4/threatprevention/admin/configuration/collectionmanager/listcollections.md#add-new-collection-window)
+  [Add New Collection Window](/docs/threatprevention/7.4/threatprevention/admin/configuration/collectionmanager/listcollections.md#add-new-collection-window)
   topic to manually add a new collection.
 - The _I want a list to come from the database table_ option button enables a dynamic collection.
   Enter the table name in the textbox that appears or select it from the drop-down menu.

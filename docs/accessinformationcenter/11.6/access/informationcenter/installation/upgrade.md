@@ -6,7 +6,7 @@ solutions have been upgraded, the Access Information Center must also be upgrade
 
 To upgrade the Access Information Center application to a newer version, simply run the new
 `AccessInformationCenter.msi` executable. You do not need to uninstall the existing version. See the
-[Install the Access Information Center](/versioned_docs/accessinformationcenter_11.6/access/informationcenter/installation/install.md)
+[Install the Access Information Center](/docs/accessinformationcenter/11.6/access/informationcenter/installation/install.md)
 topic for additional information.
 
 Any config file and email template customizations that were made in the previous version are

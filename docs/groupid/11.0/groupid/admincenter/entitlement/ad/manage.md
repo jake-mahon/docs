@@ -177,7 +177,7 @@ management.
 
     - The **Server Shares** area displays the shared folders on the server.
     - The name of the
-      [GroupID Entitlement Schedule](/versioned_docs/groupid_11.0/groupid/admincenter/schedule/entitlement.md)
+      [GroupID Entitlement Schedule](/docs/groupid/11.0/groupid/admincenter/schedule/entitlement.md)
       that computes the permissions on shared files and folders residing on the server and
       replicates them to Elasticsearch, is displayed next to **Job**.
 
@@ -217,10 +217,10 @@ can designate a different account for this activity.
    a server and select **Edit**.
 5. On the **Edit Server** dialog box, you can change the service account used to connect to the
    server for reading and updating permissions. The
-   [GroupID Entitlement Schedule](/versioned_docs/groupid_11.0/groupid/admincenter/schedule/entitlement.md),
-   [Entitlement Scope Schedule](/versioned_docs/groupid_11.0/groupid/admincenter/schedule/entitlementscope.md),
+   [GroupID Entitlement Schedule](/docs/groupid/11.0/groupid/admincenter/schedule/entitlement.md),
+   [Entitlement Scope Schedule](/docs/groupid/11.0/groupid/admincenter/schedule/entitlementscope.md),
    and
-   [Entitlement Temporary Permissions Schedule](/versioned_docs/groupid_11.0/groupid/admincenter/schedule/entitlementtemporarypermissions.md)
+   [Entitlement Temporary Permissions Schedule](/docs/groupid/11.0/groupid/admincenter/schedule/entitlementtemporarypermissions.md)
    run in the context of the account specified here.
 
     - The **Use Identity Store Service Account** check box is selected by default, indicating that
@@ -241,7 +241,7 @@ After adding a file server for entitlement management, it is essential to replic
 permissions from the file server to Elasticsearch.
 
 The
-[GroupID Entitlement Schedule](/versioned_docs/groupid_11.0/groupid/admincenter/schedule/entitlement.md)
+[GroupID Entitlement Schedule](/docs/groupid/11.0/groupid/admincenter/schedule/entitlement.md)
 runs on a set frequency to replicate the effective NTFS permission for the file servers. You can
 also run this schedule any time manually for a specific file server or all file servers listed in
 the **Included File Servers** section on the **Entitlement** page.
@@ -315,5 +315,5 @@ You can restore an excluded server in the identity store for replication and ent
 
 See Also
 
-- [Entitlement](/versioned_docs/groupid_11.0/groupid/admincenter/entitlement/overview.md)
-- [Manage SharePoint Sites](/versioned_docs/groupid_11.0/groupid/admincenter/entitlement/entraid/manage.md)
+- [Entitlement](/docs/groupid/11.0/groupid/admincenter/entitlement/overview.md)
+- [Manage SharePoint Sites](/docs/groupid/11.0/groupid/admincenter/entitlement/entraid/manage.md)

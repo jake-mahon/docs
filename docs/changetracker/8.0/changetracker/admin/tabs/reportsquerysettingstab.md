@@ -8,7 +8,7 @@ For any of the built-in reports, the **Query Settings** are available for:
 - Configuration Templates Report
 
 See the
-[Export Reports](/versioned_docs/changetracker_8.0/changetracker/admin/tabs/eventsexportreports.md)
+[Export Reports](/docs/changetracker/8.0/changetracker/admin/tabs/eventsexportreports.md)
 topic for additional information.
 
 **NOTE:** The **Configuration Template** report has a context-sensitive option for Query Settings,

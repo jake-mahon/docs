@@ -8,14 +8,14 @@ Policy Status
 
 It indicates whether or not the policy is enabled. Click the toggle button at the top to enable or
 disable the policy. On the
-[Policies Interface](/versioned_docs/threatprevention_7.4/threatprevention/admin/policies/overview.md),
+[Policies Interface](/docs/threatprevention/7.4/threatprevention/admin/policies/overview.md),
 an enabled policy is represented with a green dot and a disabled policy is represented with a gray
 dot.
 
 Name
 
 The name should be unique and descriptive. This name is displayed for a policy in the list on the
-[Policies Interface](/versioned_docs/threatprevention_7.4/threatprevention/admin/policies/overview.md).
+[Policies Interface](/docs/threatprevention/7.4/threatprevention/admin/policies/overview.md).
 Event data can be filtered by policy; therefore, a descriptive name can be very useful to users of
 the Netwrix Threat Manager Reporting Module.
 
@@ -25,7 +25,7 @@ The description is optional but recommended. Since each policy can be configured
 narrow as desired, the name combined with the description should clearly explain what objects and
 events it monitors/blocks, where in the network it looks, and when it is active. This description is
 displayed for a policy in the list on the
-[Policies Interface](/versioned_docs/threatprevention_7.4/threatprevention/admin/policies/overview.md).
+[Policies Interface](/docs/threatprevention/7.4/threatprevention/admin/policies/overview.md).
 
 Save all changes made to a policy or a template before leaving the configuration interface.
 
@@ -51,7 +51,7 @@ The schedule is for setting the time period for an enabled policy to monitor or 
 
 Any new policy created from a template automatically applies the template’s setting, which can then
 be modified as desired. Schedule details are displayed for a policy in the list on the
-[Policies Interface](/versioned_docs/threatprevention_7.4/threatprevention/admin/policies/overview.md).
+[Policies Interface](/docs/threatprevention/7.4/threatprevention/admin/policies/overview.md).
 Active at Specified Times is represented by a clock icon, and Always Active is represented with no
 icon, or blank.
 

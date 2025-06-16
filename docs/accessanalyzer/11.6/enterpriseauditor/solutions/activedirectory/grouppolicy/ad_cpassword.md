@@ -24,7 +24,7 @@ The queries for this job are:
   CPassword security
 
     - See the
-      [PowerShell Data Collector](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/powershell/overview.md)
+      [PowerShell Data Collector](/docs/accessanalyzer/11.6/enterpriseauditor/admin/datacollector/powershell/overview.md)
       topic for additional information.
 
 In addition to the tables created by the data collector, the AD_CPassword Job produces the following

@@ -18,7 +18,7 @@ Follow the steps to add credential groups to the Privilege Secure Console.
 **Step 5 –** With the new credential group selected, configure the following settings:
 
 - Add credentials to the credential group. See the
-  [Add Credentials Window for Credential Group](/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/policy/window/credentials/addcredentials.md)
+  [Add Credentials Window for Credential Group](/docs/privilegesecure/4.1/privilegesecure/accessmanagement/admin/policy/window/credentials/addcredentials.md)
   topic for additional information.
 
 The new credential group is added to the console and is shown in the Credential Groups list.

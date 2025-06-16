@@ -17,10 +17,10 @@ you can choose to focus on:
 - a certain type of assignment;
 - assignments not certified since a certain date;
 - assignments presenting a certain level of
-  [risk](/versioned_docs/usercube_6.1/usercube/user-guide/optimize/risk-management/index.md).
+  [risk](/docs/usercube/6.1/usercube/user-guide/optimize/risk-management/index.md).
 
 Certification campaigns can be
-[configured with XML](/versioned_docs/usercube_6.1/usercube/integration-guide/governance/accesscertification/index.md)
+[configured with XML](/docs/usercube/6.1/usercube/integration-guide/governance/accesscertification/index.md)
 but the UI described in this guide can be enough on its own.
 
 ## Participants and Artifacts
@@ -30,11 +30,11 @@ know which entitlements need to be reviewed.
 
 | Input                                                                                                                                                                                                                                                                                                                                                          | Output           |
 | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------- |
-| [Identity repository](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/initial-identities-loading/index.md) (required) [Role catalog](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/single-roles-catalog-creation/index.md) (optional) [Risks](/versioned_docs/usercube_6.1/usercube/user-guide/optimize/risk-management/index.md) (optional) | Certified access |
+| [Identity repository](/docs/usercube/6.1/usercube/user-guide/set-up/initial-identities-loading/index.md) (required) [Role catalog](/docs/usercube/6.1/usercube/user-guide/set-up/single-roles-catalog-creation/index.md) (optional) [Risks](/docs/usercube/6.1/usercube/user-guide/optimize/risk-management/index.md) (optional) | Certified access |
 
 ## Perform Access Certification
 
 Perform access certification by proceeding as follows:
 
-1. [Schedule a certification campaign](/versioned_docs/usercube_6.1/usercube/user-guide/administrate/access-certification/certification-campaign-scheduling/index.md).
-2. [Execute a certification campaign](/versioned_docs/usercube_6.1/usercube/user-guide/administrate/access-certification/certification-campaign-execution/index.md).
+1. [Schedule a certification campaign](/docs/usercube/6.1/usercube/user-guide/administrate/access-certification/certification-campaign-scheduling/index.md).
+2. [Execute a certification campaign](/docs/usercube/6.1/usercube/user-guide/administrate/access-certification/certification-campaign-execution/index.md).

@@ -10,7 +10,7 @@ some clues and use cases in order to solve usual issues.
 > For example, the issues described below can happen when there is a network cut, or an application
 > IP address is being changed, or an important password is being modified.
 
-[See troubleshooting instructions concerning connector jobs](/versioned_docs/usercube_6.1/usercube/integration-guide/tasks-jobs/how-tos/troubleshoot-connector-jobs/index.md).
+[See troubleshooting instructions concerning connector jobs](/docs/usercube/6.1/usercube/integration-guide/tasks-jobs/how-tos/troubleshoot-connector-jobs/index.md).
 
 ### Prerequisites
 
@@ -37,7 +37,7 @@ Here integrators give way to managers to handle the solution by themselves.
 
 | Input                                                                                                            | Output              |
 | ---------------------------------------------------------------------------------------------------------------- | ------------------- |
-| [Implemented system](/versioned_docs/usercube_6.1/usercube/user-guide/deploy/implementation/index.md) (required) | Working environment |
+| [Implemented system](/docs/usercube/6.1/usercube/user-guide/deploy/implementation/index.md) (required) | Working environment |
 
 ## Troubleshoot Synchronization Issues
 
@@ -63,7 +63,7 @@ If a synchronization threshold is exceeded, then check whether the threshold is 
 it means that the warning comes from a change in the managed system, so you should fix the data
 directly in the managed system.
 
-[See more details on synchronization thresholds](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/synchronization/index.md).
+[See more details on synchronization thresholds](/docs/usercube/6.1/usercube/user-guide/set-up/synchronization/index.md).
 
 ## Troubleshoot Provisioning Issues
 
@@ -73,7 +73,7 @@ If provisioning orders are blocked while expected to be automatic, it can come f
 
 - the **Require Provisioning Review** option being enabled in the related resource type;
 - the role model being computed through the
-  [`ComputeRoleModelTask`](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/jobs/tasks/server/computerolemodeltask/index.md)
+  [`ComputeRoleModelTask`](/docs/usercube/6.1/usercube/integration-guide/toolkit/xml-configuration/jobs/tasks/server/computerolemodeltask/index.md)
   or the corresponding executable, with the block provisioning option;
 - a provisioning order being already blocked for the same resource due to a prior operation;
 - a correlation/classification rule with a confidence rate below 100%, which means that either

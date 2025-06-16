@@ -4,4 +4,4 @@ These guides will help you set up the role model with practical step-by-step pro
 
 ## Additional How-Tos
 
-- #### [Configure a Parameterized Role](/versioned_docs/usercube_6.1/usercube/user-guide/optimize/parameterized-role/index.md)
+- #### [Configure a Parameterized Role](/docs/usercube/6.1/usercube/user-guide/optimize/parameterized-role/index.md)

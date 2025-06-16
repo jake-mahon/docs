@@ -1,13 +1,13 @@
 # Create Roles in Bulk
 
 How to create
-[role naming rules](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/provisioning/rolemapping/index.md),
+[role naming rules](/docs/usercube/6.1/usercube/integration-guide/toolkit/xml-configuration/provisioning/rolemapping/index.md),
 which create single roles using existing naming conventions from the managed system.
 
 ## Overview
 
 A
-[role naming rule](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/provisioning/rolemapping/index.md)
+[role naming rule](/docs/usercube/6.1/usercube/integration-guide/toolkit/xml-configuration/provisioning/rolemapping/index.md)
 automatically creates single roles and the corresponding navigation rules based on the name of the
 corresponding entitlements in the managed system.
 
@@ -40,7 +40,7 @@ application's users, entitlements and data model.
 
 | Input                                                                                                                        | Output                                                    |
 | ---------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------- |
-| [Provisioning Rules](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/provisioning-rule-creation/index.md) (required) | Role naming rule Single roles Navigation rules Categories |
+| [Provisioning Rules](/docs/usercube/6.1/usercube/user-guide/set-up/provisioning-rule-creation/index.md) (required) | Role naming rule Single roles Navigation rules Categories |
 
 ## Create a Role Naming Rule
 
@@ -64,64 +64,64 @@ Create a role naming rule by proceeding as follows:
     ![Create a Naming Rule](/img/versioned_docs/usercube_6.1/usercube/user-guide/set-up/single-roles-catalog-creation/role-naming-rule-creation/namingrulecreation_newrule_v602.webp)
 
     - `Policy`:
-      [policy](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/provisioning/policy/index.md)
+      [policy](/docs/usercube/6.1/usercube/integration-guide/toolkit/xml-configuration/provisioning/policy/index.md)
       in which the rule exists.
     - `Property`: navigation property which will define the actual entitlement in the future
-      [navigation rule](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/single-roles-catalog-creation/role-manual-creation/index.md).
+      [navigation rule](/docs/usercube/6.1/usercube/user-guide/set-up/single-roles-catalog-creation/role-manual-creation/index.md).
     - `Identifier`: must be unique among rules and without any whitespace.
     - **+ New Rule**: a naming rule is based on the union of
-      [rules](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/provisioning/rolemapping/index.md),
+      [rules](/docs/usercube/6.1/usercube/integration-guide/toolkit/xml-configuration/provisioning/rolemapping/index.md),
       themselves based on the intersection of
-      [rule items](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/provisioning/rolemapping/index.md).
+      [rule items](/docs/usercube/6.1/usercube/integration-guide/toolkit/xml-configuration/provisioning/rolemapping/index.md).
       A rule item specifies one of the conditions that will trigger the enforcement of the naming
       rule.
     - `Where Expression`: C# expression returning a boolean to condition the application of the
       rule.
-      [See a full example](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/provisioning/rolemapping/index.md).
+      [See a full example](/docs/usercube/6.1/usercube/integration-guide/toolkit/xml-configuration/provisioning/rolemapping/index.md).
 
         NETWRIX recommends using this option only when the options available in the rule items do
         not suffice.
 
     - **Single Role**:
-      [single role(s)](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/single-roles-catalog-creation/role-manual-creation/index.md)
+      [single role(s)](/docs/usercube/6.1/usercube/user-guide/set-up/single-roles-catalog-creation/role-manual-creation/index.md)
       to be created.
 
         - `Identifier`: must be unique among roles and without any whitespace. If the defined
           identifier is already used, then neither the role nor the rule is created. Can be defined
           by a property path and/or an
-          [expression](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/expressions/index.md)
+          [expression](/docs/usercube/6.1/usercube/integration-guide/toolkit/expressions/index.md)
           (mandatory).
         - `Name`: will be displayed in the UI to identify the future single role. Can be defined by
           a property path and/or an
-          [expression](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/expressions/index.md).
+          [expression](/docs/usercube/6.1/usercube/integration-guide/toolkit/expressions/index.md).
 
     - **Category**:
-      [category](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/single-roles-catalog-creation/category-creation/index.md)
+      [category](/docs/usercube/6.1/usercube/user-guide/set-up/single-roles-catalog-creation/category-creation/index.md)
       for the future role(s).
 
         - `Identifier`: either matches an existing category and selects it, or doesn't match and
           therefore a new category is created. Can be defined by a property path and/or an
-          [expression](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/expressions/index.md).
+          [expression](/docs/usercube/6.1/usercube/integration-guide/toolkit/expressions/index.md).
         - `Name`: will be displayed in the UI to identify the category. Ignored if the `Identifier`
           attribute matches an existing category's identifier. Can be defined by a property path
           and/or an
-          [expression](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/expressions/index.md).
+          [expression](/docs/usercube/6.1/usercube/integration-guide/toolkit/expressions/index.md).
         - ` Parent Identifier`: for a potential parent category. Must match an existing category's
           identifier. Can be defined by a property path and/or an
-          [expression](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/expressions/index.md).
+          [expression](/docs/usercube/6.1/usercube/integration-guide/toolkit/expressions/index.md).
         - `Default Category`: category for the future role(s) if the category's `Identifier`
           attribute isn't filled in or doesn't compute.
 
     - `Role Policy`:
-      [policy](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/provisioning/policy/index.md)
+      [policy](/docs/usercube/6.1/usercube/integration-guide/toolkit/xml-configuration/provisioning/policy/index.md)
       in which the future roles exist.
     - `Approval Workflow`: represents the number of validations required to assign the future
       role(s).
     - `Approve Role Implicitly`: needs at least a simple approval workflow. `Implicit` mode bypasses
       the approval step(s) if the person who issues the role request is also the
-      [role officer](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/role-officer-management/index.md).
+      [role officer](/docs/usercube/6.1/usercube/user-guide/set-up/role-officer-management/index.md).
       `Explicit` refuses said bypass. `Inherited` follows the
-      [policy](/versioned_docs/usercube_6.1/usercube/user-guide/optimize/policy-creation/index.md)
+      [policy](/docs/usercube/6.1/usercube/user-guide/optimize/policy-creation/index.md)
       decision to approve roles implicitly or not.
     - `Hide in Simplified View`: hides the role from the users' **Simplified View** in **View
       Permissions** dialog. This setting does not apply to roles which are either inferred or have

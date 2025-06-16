@@ -15,7 +15,7 @@ The AD_AdminSDHolder Job uses the PowerShell Data Collector for the following qu
 - Default AdminSDHolder Perms – Creates a table of default AdminSDHolder permissions
 
     - See the
-      [PowerShell Data Collector](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/powershell/overview.md)
+      [PowerShell Data Collector](/docs/accessanalyzer/11.6/enterpriseauditor/admin/datacollector/powershell/overview.md)
       topic for additional information
 
 ## Analysis Tasks for the AD_AdminSDHolder Job

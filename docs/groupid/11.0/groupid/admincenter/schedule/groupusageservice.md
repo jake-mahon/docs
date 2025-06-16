@@ -8,9 +8,9 @@ The event is recorded in the Exchange Server's message tracking log, which the G
 schedule reads, parsing for the timestamp that indicates when the distribution list was last used.
 
 The timestamp is then used by the
-[Group Life Cycle Schedule](/versioned_docs/groupid_11.0/groupid/admincenter/schedule/grouplifecycle.md)
+[Group Life Cycle Schedule](/docs/groupid/11.0/groupid/admincenter/schedule/grouplifecycle.md)
 to extend or reduce the life of mail-enabled distribution groups based on their usage. See the
-[Enable Group Usage Lifecycle](/versioned_docs/groupid_11.0/groupid/admincenter/identitystore/configure/directoryservice/grouplifecycle.md#enable-group-usage-lifecycle)
+[Enable Group Usage Lifecycle](/docs/groupid/11.0/groupid/admincenter/identitystore/configure/directoryservice/grouplifecycle.md#enable-group-usage-lifecycle)
 topic.
 
 While creating a Group Usage Service schedule, you have to specify a job triggering criterion, the
@@ -36,7 +36,7 @@ What do you want to do?
    responsible for triggering this schedule. The number of services displayed in the list depend on
    the number of Elasticsearch clusters in the environment, as each cluster has its own Scheduler
    service. See the
-   [Scheduler Service](/versioned_docs/groupid_11.0/groupid/admincenter/service/schedulerservice.md)
+   [Scheduler Service](/docs/groupid/11.0/groupid/admincenter/service/schedulerservice.md)
    topic.
 9. You can specify containers as targets for the schedule. The schedule will process all groups in
    those containers and sub-containers.
@@ -104,18 +104,18 @@ What do you want to do?
 
     NOTE: If you are creating this schedule in a Microsoft Entra ID identity store, you can only
     specify the logged-in user's account. See the
-    [Schedules for Microsoft Entra ID Identity Store](/versioned_docs/groupid_11.0/groupid/admincenter/schedule/overview.md#schedules-for-microsoft-entra-id-identity-store)
+    [Schedules for Microsoft Entra ID Identity Store](/docs/groupid/11.0/groupid/admincenter/schedule/overview.md#schedules-for-microsoft-entra-id-identity-store)
     section of the
-    [Schedules](/versioned_docs/groupid_11.0/groupid/admincenter/schedule/overview.md) topic for
+    [Schedules](/docs/groupid/11.0/groupid/admincenter/schedule/overview.md) topic for
     additional information.
 
 13. On the **Create Schedule** page, click **Create Schedule**.
 14. On the **Schedules** page, click **Save**.  
      The schedule is displayed under **Group Usage Service**. See the
-    [View the Schedules in an Identity Store ](/versioned_docs/groupid_11.0/groupid/admincenter/schedule/manage.md#view-the-schedules-in-an-identity-store)
+    [View the Schedules in an Identity Store ](/docs/groupid/11.0/groupid/admincenter/schedule/manage.md#view-the-schedules-in-an-identity-store)
     topic for more info.
 
 See Also
 
-- [Schedules](/versioned_docs/groupid_11.0/groupid/admincenter/schedule/overview.md)
-- [Scheduler Service](/versioned_docs/groupid_11.0/groupid/admincenter/service/schedulerservice.md)
+- [Schedules](/docs/groupid/11.0/groupid/admincenter/schedule/overview.md)
+- [Scheduler Service](/docs/groupid/11.0/groupid/admincenter/service/schedulerservice.md)

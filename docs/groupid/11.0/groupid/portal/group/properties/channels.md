@@ -30,7 +30,7 @@ Add the information for the following:
 
     Click **Add** and enter a search string to locate the user to add as a member, or click
     **Advance** to use the
-    [Find Dialog Box](/versioned_docs/groupid_11.0/groupid/portal/search/find.md) for performing a
+    [Find Dialog Box](/docs/groupid/11.0/groupid/portal/search/find.md) for performing a
     search.
 
     Click **Remove** if you want to remove any member.
@@ -44,4 +44,4 @@ membership of Teams group.
 
 **See Also**
 
-- [Group Properties](/versioned_docs/groupid_11.0/groupid/portal/group/properties/overview.md)
+- [Group Properties](/docs/groupid/11.0/groupid/portal/group/properties/overview.md)

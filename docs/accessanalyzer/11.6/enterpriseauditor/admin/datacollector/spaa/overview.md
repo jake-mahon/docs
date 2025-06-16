@@ -4,7 +4,7 @@ The SharePointAccess (SPAA) Data Collector audits access, group membership, and 
 SharePoint on-premises and SharePoint Online environment. The SPAA Data Collector has been
 preconfigured within the SharePoint Solution. Both this data collector and the solution are
 available with a special Enterprise Auditor license. See the
-[SharePoint Solution](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/sharepoint/overview.md)
+[SharePoint Solution](/docs/accessanalyzer/11.6/enterpriseauditor/solutions/sharepoint/overview.md)
 topic for additional information. The SPAA Data Collector has the following requirements:
 
 Protocols
@@ -18,13 +18,13 @@ Protocols
 Ports
 
 - Ports vary based on the Scan Mode selected and target environment. See the
-  [SharePoint Scan Options](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/requirements/solutions/sharepoint/scanoptions.md)
+  [SharePoint Scan Options](/docs/accessanalyzer/11.6/enterpriseauditor/requirements/solutions/sharepoint/scanoptions.md)
   topic for additional information.
 
 Permissions
 
 - Permissions vary based on the Scan Mode selected and target environment. See the
-  [SharePoint Support](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/requirements/target/sharepoint.md)
+  [SharePoint Support](/docs/accessanalyzer/11.6/enterpriseauditor/requirements/target/sharepoint.md)
   topic for additional information.
 
 Sensitive Data Discovery Considerations
@@ -45,19 +45,19 @@ Collector Wizard. The wizard contains the following pages, which change based up
 Category selected:
 
 - Welcome
-- [SPAA: Category](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/spaa/category.md)
-- [SPAA: SharePoint Data Collection Settings](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/spaa/settings.md)
-- [SPAA: Scan Scoping Options](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/spaa/scanscopingoptions.md)
-- [SPAA: Additional Scoping](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/spaa/additionalscoping.md)
-- [SPAA: Agent Settings](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/spaa/agentsettings.md)
-- [SPAA: Bulk Import Settings](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/spaa/bulkimportsettings.md)
-- [SPAA: DLP Audit Settings](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/spaa/dlpauditsettings.md)
-- [SPAA: Select DLP Criteria](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/spaa/selectdlpcriteria.md)
-- [SPAA: Activity Date Scope](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/spaa/activitydatescope.md)
-- [SPAA: Activity Log Locations](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/spaa/activityloglocations.md)
-- [SPAA: Test Access](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/spaa/testaccess.md)
-- [SPAA: Results](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/spaa/results.md)
-- [SPAA: Summary Page](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/spaa/summary.md)
+- [SPAA: Category](/docs/accessanalyzer/11.6/enterpriseauditor/admin/datacollector/spaa/category.md)
+- [SPAA: SharePoint Data Collection Settings](/docs/accessanalyzer/11.6/enterpriseauditor/admin/datacollector/spaa/settings.md)
+- [SPAA: Scan Scoping Options](/docs/accessanalyzer/11.6/enterpriseauditor/admin/datacollector/spaa/scanscopingoptions.md)
+- [SPAA: Additional Scoping](/docs/accessanalyzer/11.6/enterpriseauditor/admin/datacollector/spaa/additionalscoping.md)
+- [SPAA: Agent Settings](/docs/accessanalyzer/11.6/enterpriseauditor/admin/datacollector/spaa/agentsettings.md)
+- [SPAA: Bulk Import Settings](/docs/accessanalyzer/11.6/enterpriseauditor/admin/datacollector/spaa/bulkimportsettings.md)
+- [SPAA: DLP Audit Settings](/docs/accessanalyzer/11.6/enterpriseauditor/admin/datacollector/spaa/dlpauditsettings.md)
+- [SPAA: Select DLP Criteria](/docs/accessanalyzer/11.6/enterpriseauditor/admin/datacollector/spaa/selectdlpcriteria.md)
+- [SPAA: Activity Date Scope](/docs/accessanalyzer/11.6/enterpriseauditor/admin/datacollector/spaa/activitydatescope.md)
+- [SPAA: Activity Log Locations](/docs/accessanalyzer/11.6/enterpriseauditor/admin/datacollector/spaa/activityloglocations.md)
+- [SPAA: Test Access](/docs/accessanalyzer/11.6/enterpriseauditor/admin/datacollector/spaa/testaccess.md)
+- [SPAA: Results](/docs/accessanalyzer/11.6/enterpriseauditor/admin/datacollector/spaa/results.md)
+- [SPAA: Summary Page](/docs/accessanalyzer/11.6/enterpriseauditor/admin/datacollector/spaa/summary.md)
 
 ![SPAA Data Collector Wizard Welcome Page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/spaa/welcomepage.webp)
 

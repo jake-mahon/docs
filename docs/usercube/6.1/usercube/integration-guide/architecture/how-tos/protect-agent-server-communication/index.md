@@ -37,7 +37,7 @@ The agent must be configured, in its `appsettings.json`, with:
     environment, Usercube provides it.
 
 In order to give to the agent the right permissions, the XML configuration must specify an
-[OpenIdClient](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/access-control/openidclient/index.md)
+[OpenIdClient](/docs/usercube/6.1/usercube/integration-guide/toolkit/xml-configuration/access-control/openidclient/index.md)
 linked to its hashed secret, and to a Usercube profile.
 
 ## Protect Agent/Server Communication
@@ -45,7 +45,7 @@ linked to its hashed secret, and to a Usercube profile.
 Protect agent/server communication by proceeding as follows:
 
 1. Make sure that both the agent and server configurations specify an encryption certificate.
-   [See more details](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/appsettings/index.md).
+   [See more details](/docs/usercube/6.1/usercube/integration-guide/network-configuration/agent-configuration/appsettings/index.md).
 
     > For example:
     >
@@ -62,7 +62,7 @@ Protect agent/server communication by proceeding as follows:
     > ```
 
 2. Make sure that the agent is also configured with its own encryption certificate.
-   [See more details](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/appsettings/index.md).
+   [See more details](/docs/usercube/6.1/usercube/integration-guide/network-configuration/agent-configuration/appsettings/index.md).
 
     > For example:
     >
@@ -81,8 +81,8 @@ Protect agent/server communication by proceeding as follows:
 
 3. Configure an OpenIdClient, both on agent side in `appsettings.agent.json` with the non-hashed
    secret and on server side in the XML configuration with the secret hashed by the
-   [`Usercube-New-OpenIDSecret` executable](/versioned_docs/usercube_6.1/usercube/integration-guide/executables/references/new-openidsecret/index.md).
-   [See more details](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/access-control/openidclient/index.md).
+   [`Usercube-New-OpenIDSecret` executable](/docs/usercube/6.1/usercube/integration-guide/executables/references/new-openidsecret/index.md).
+   [See more details](/docs/usercube/6.1/usercube/integration-guide/toolkit/xml-configuration/access-control/openidclient/index.md).
 
     > For example on agent side:
     >

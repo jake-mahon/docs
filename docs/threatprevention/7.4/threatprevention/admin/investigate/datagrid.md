@@ -19,7 +19,7 @@ respective database.
 
 The archive database is part of the Threat Prevention Database Maintenance feature and it can only
 be queried from the Administration Console. See the
-[Archive Data](/versioned_docs/threatprevention_7.4/threatprevention/admin/configuration/databasemaintenance/archive.md)
+[Archive Data](/docs/threatprevention/7.4/threatprevention/admin/configuration/databasemaintenance/archive.md)
 topic for additional information.
 
 **Step 4 –** Use the **Get Top [number] Events** box to specify the number of events to be
@@ -37,7 +37,7 @@ from view.
 
 Each column in the data grid has a prefix identifying the type of information displayed.
 Double-click a populated grid column to access the
-[Event Viewer Window](/versioned_docs/threatprevention_7.4/threatprevention/admin/policies/recentevents/eventviewer.md)
+[Event Viewer Window](/docs/threatprevention/7.4/threatprevention/admin/policies/recentevents/eventviewer.md)
 with detailed information on the event. The columns display the following information for each
 event:
 
@@ -115,9 +115,9 @@ The following information (as applicable to the event) is displayed:
 - New Value – Value after the monitored change
 
 This data grid employs features for sorting, filtering, searching, and more. See the
-[ Data Grid Functionality](/versioned_docs/threatprevention_7.4/threatprevention/admin/navigation/datagrid.md)
+[ Data Grid Functionality](/docs/threatprevention/7.4/threatprevention/admin/navigation/datagrid.md)
 topic for additional information.
 
 To export the data displayed in the grid to a CSV file, see the
-[Export Data](/versioned_docs/threatprevention_7.4/threatprevention/admin/navigation/datagrid.md#export-data)
+[Export Data](/docs/threatprevention/7.4/threatprevention/admin/navigation/datagrid.md#export-data)
 topic.

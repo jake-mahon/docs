@@ -1,14 +1,14 @@
 # Manage Risks
 
 How to use the
-[risk management](/versioned_docs/usercube_6.1/usercube/integration-guide/governance/risks/index.md)
+[risk management](/docs/usercube/6.1/usercube/integration-guide/governance/risks/index.md)
 module to identify entitlement assignments that pose a security risk, especially about segregation
 of duties and high privileges.
 
 ## Overview
 
 A
-[risk](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/provisioning/risk/index.md)
+[risk](/docs/usercube/6.1/usercube/integration-guide/toolkit/xml-configuration/provisioning/risk/index.md)
 describes a sensitive situation in which entitlement assignments need to be monitored for security
 purposes. Examples include:
 
@@ -16,14 +16,14 @@ purposes. Examples include:
   the same identity.
 - High privilege: a particularly sensitive entitlement.
 
-[Risk management](/versioned_docs/usercube_6.1/usercube/integration-guide/governance/risks/index.md)
+[Risk management](/docs/usercube/6.1/usercube/integration-guide/governance/risks/index.md)
 is essential to auditing. Among other things, it allows auditors to:
 
 - Identify the identities representing the highest security risk.
 - Compute the corresponding
-  [risk score](/versioned_docs/usercube_6.1/usercube/integration-guide/governance/risks/index.md#risk-score).
+  [risk score](/docs/usercube/6.1/usercube/integration-guide/governance/risks/index.md#risk-score).
 - Schedule
-  [access certification campaigns](/versioned_docs/usercube_6.1/usercube/user-guide/administrate/access-certification/index.md)
+  [access certification campaigns](/docs/usercube/6.1/usercube/user-guide/administrate/access-certification/index.md)
   accordingly.
 
 Using risks involves three steps:
@@ -40,7 +40,7 @@ assess risks inherent to entitlements.
 
 | Input                                                                                                                                                                                                                                                   | Output        |
 | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------- |
-| [Identity repository](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/initial-identities-loading/index.md) (required) [Role catalog](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/single-roles-catalog-creation/index.md) (required) | Risks catalog |
+| [Identity repository](/docs/usercube/6.1/usercube/user-guide/set-up/initial-identities-loading/index.md) (required) [Role catalog](/docs/usercube/6.1/usercube/user-guide/set-up/single-roles-catalog-creation/index.md) (required) | Risks catalog |
 
 ## Create a Risk
 
@@ -61,21 +61,21 @@ Create a risk by proceeding as follows:
     - `Identifier`: must be unique among risks and without any whitespace.
     - `Name`: will be displayed in the UI to identify the risk.
     - `Policy`:
-      [policy](/versioned_docs/usercube_6.1/usercube/user-guide/optimize/policy-creation/index.md)
+      [policy](/docs/usercube/6.1/usercube/user-guide/optimize/policy-creation/index.md)
       in which the risk exists.
     - `Entity Type`:
-      [entity type](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/connect-system/entity-type-creation/index.md)
+      [entity type](/docs/usercube/6.1/usercube/user-guide/set-up/connect-system/entity-type-creation/index.md)
       targetted by the risk.
     - `Description`: explanation of the risk that will be displayed with the exemption policy
       message.
     - `Remediation`: potential alternative solutions that will be displayed with the exemption
       policy message.
-    - [`Exemption Policy`](/versioned_docs/usercube_6.1/usercube/integration-guide/governance/risks/index.md)
-    - [`Type`](/versioned_docs/usercube_6.1/usercube/integration-guide/governance/risks/index.md)
+    - [`Exemption Policy`](/docs/usercube/6.1/usercube/integration-guide/governance/risks/index.md)
+    - [`Type`](/docs/usercube/6.1/usercube/integration-guide/governance/risks/index.md)
     - `Level`: risk level that is used to compute
-      [risk scores](/versioned_docs/usercube_6.1/usercube/integration-guide/governance/risks/index.md).
+      [risk scores](/docs/usercube/6.1/usercube/integration-guide/governance/risks/index.md).
     - `Rules`: a risk is based on the union of
-      [rules](/versioned_docs/usercube_6.1/usercube/integration-guide/governance/risks/index.md),
+      [rules](/docs/usercube/6.1/usercube/integration-guide/governance/risks/index.md),
       themselves based on the intersection of rule items. A rule item specifies the risk-triggering
       resource(s). A high-privilege risk must contain at least one rule with one rule item. A
       segregation-of-duties risk must contain at least two rule items in the same rule. Read below
@@ -83,7 +83,7 @@ Create a risk by proceeding as follows:
 
     When risks are based on the exemption policy called **Approval required**, the corresponding
     role requests appear on the
-    [**Role Review**](/versioned_docs/usercube_6.1/usercube/user-guide/administrate/non-conforming-assignment-review/role-reconciliation/index.md)
+    [**Role Review**](/docs/usercube/6.1/usercube/user-guide/administrate/non-conforming-assignment-review/role-reconciliation/index.md)
     screen with a specific workflow state. See below this note.
 
     ![Risk Icon](/img/versioned_docs/usercube_6.1/usercube/user-guide/optimize/risk-management/riskmanagement_workflowstate_v523.webp)
@@ -94,7 +94,7 @@ Create a risk by proceeding as follows:
     depending on the identity's entitlements.
 
     Within Usercube, an entitlement assigned to an identity is represented by the value of a given
-    [navigation property](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/connect-system/entity-type-creation/index.md),
+    [navigation property](/docs/usercube/6.1/usercube/user-guide/set-up/connect-system/entity-type-creation/index.md),
     in a resource owned by said identity.
 
     > For example, imagine that we want to grant unlimited Internet access to the administrator
@@ -105,7 +105,7 @@ Create a risk by proceeding as follows:
     > `DL-INTERNET-Restricted` as a value of the `memberOf` property.
 
 4. Choose the
-   [resource type](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/categorization/index.md)
+   [resource type](/docs/usercube/6.1/usercube/user-guide/set-up/categorization/index.md)
    to be targetted by the risk.
 
     > We choose `AD User (administration)` to prevent this situation from happening in our example.
@@ -115,7 +115,7 @@ Create a risk by proceeding as follows:
     > `memberOf` in our example.
 
 6. Choose a value for this navigation property. The value would be a resource from the unified
-   [resource repository](/versioned_docs/usercube_6.1/usercube/introduction-guide/overview/identity-management/index.md).
+   [resource repository](/docs/usercube/6.1/usercube/introduction-guide/overview/identity-management/index.md).
 
     > The group `DL-INTERNET-Restricted` in our example.
 
@@ -134,7 +134,7 @@ Create a risk by proceeding as follows:
 
     Risks are taken into account from the moment the `Compute Resource Risk Scores` task runs (or
     the
-    [complete job](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/synchronization/index.md)
+    [complete job](/docs/usercube/6.1/usercube/user-guide/set-up/synchronization/index.md)
     which contains said task).
 
     The `Compute Resource Risk Scores` task doesn't need to be launched right away, but new risks
@@ -159,7 +159,7 @@ Therefore, risk scores are computed according to the new parameters.
 
 **After a modification:** while risk scores are computed for all identities and assignments
 (pre-existing and newly created), a modified
-[exemption policy](/versioned_docs/usercube_6.1/usercube/integration-guide/governance/risks/index.md)
+[exemption policy](/docs/usercube/6.1/usercube/integration-guide/governance/risks/index.md)
 is applied only to future entitlement assignments. For example, changing the exemption policy of a
 risk from warning to blocking won't remove entitlements from the identities who already have them.
 But future assignments are going to be blocked.
@@ -174,5 +174,5 @@ the created risk, and check the consequences:
 
 - The message displayed at the end of the entitlement request must correspond to the configuration
   of the
-  [exemption policy](/versioned_docs/usercube_6.1/usercube/integration-guide/governance/risks/index.md).
+  [exemption policy](/docs/usercube/6.1/usercube/integration-guide/governance/risks/index.md).
 - Once the entitlement is assigned, a line must appear on the **Identified Risks** page.

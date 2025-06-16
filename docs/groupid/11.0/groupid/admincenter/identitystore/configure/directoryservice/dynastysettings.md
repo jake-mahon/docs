@@ -6,7 +6,7 @@ their respective parent Dynasties.
 
 A Dynasty retrieves data from the directory on the same pattern as a Smart Group does, but it has
 its own mechanism of dividing the query results into child groups. To learn more about Dynasties,
-see the [Dynasties](/versioned_docs/groupid_11.0/groupid/admincenter/general/concepts.md#dynasties)
+see the [Dynasties](/docs/groupid/11.0/groupid/admincenter/general/concepts.md#dynasties)
 topic.
 
 You can control how GroupID processes Dynasties through the following settings:
@@ -25,7 +25,7 @@ The GroupID portal provides two methods to update Smart Groups and Dynasties:
 - **Manual update:** you can manually execute the query for a Dynasty and Smart Group any time.
 - **Scheduled update**: Scheduled updates, powered by a Smart Group Update schedule, auto run at a
   specified frequency to update the target groups and Dynasties. See the
-  [Smart Group Update Schedule](/versioned_docs/groupid_11.0/groupid/admincenter/schedule/smartgroupupdate.md)
+  [Smart Group Update Schedule](/docs/groupid/11.0/groupid/admincenter/schedule/smartgroupupdate.md)
   topic.
 
 **What happens on Dynasty update?**
@@ -129,4 +129,4 @@ that child Dynasty.
 
 **See Also**
 
-- [Smart Group Update Schedule](/versioned_docs/groupid_11.0/groupid/admincenter/schedule/smartgroupupdate.md)
+- [Smart Group Update Schedule](/docs/groupid/11.0/groupid/admincenter/schedule/smartgroupupdate.md)

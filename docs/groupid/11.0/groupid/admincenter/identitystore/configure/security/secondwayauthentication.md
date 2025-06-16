@@ -75,7 +75,7 @@ What do you want to do?
     NOTE: If an SMS gateway account is not linked with the identity store, **Configure Now** is
     displayed in place of the toggle button. Click it to go to the **SMS Authentication** page,
     where you can link an SMS gateway account with the identity store. See the
-    [Link an SMS Gateway Account to an Identity Store](/versioned_docs/groupid_11.0/groupid/admincenter/identitystore/configure/security/smsauthentication.md#link-an-sms-gateway-account-to-an-identity-store)
+    [Link an SMS Gateway Account to an Identity Store](/docs/groupid/11.0/groupid/admincenter/identitystore/configure/security/smsauthentication.md#link-an-sms-gateway-account-to-an-identity-store)
     topic.
 
 5. In the **Mobile Attribute** drop-down list, select an attribute that stores mobile numbers in the
@@ -97,7 +97,7 @@ What do you want to do?
     NOTE: If an SMTP server is not defined for the identity store, **Configure Now** is displayed in
     place of the toggle button. Click it to go to the **Notifications** page for configuring an SMTP
     server. See the
-    [Configure an SMTP Server](/versioned_docs/groupid_11.0/groupid/admincenter/identitystore/configure/smtpserver.md)
+    [Configure an SMTP Server](/docs/groupid/11.0/groupid/admincenter/identitystore/configure/smtpserver.md)
     topic.
 
 5. In the **Email Attribute** drop-down list, select an attribute that stores email addresses in the
@@ -128,6 +128,6 @@ type(s) they want to use for authentication.
 
 **See Also**
 
-- [Authentication Policy](/versioned_docs/groupid_11.0/groupid/admincenter/identitystore/configure/authpolicy.md)
-- [Configure an SMTP Server](/versioned_docs/groupid_11.0/groupid/admincenter/identitystore/configure/smtpserver.md)
-- [SMS Gateway](/versioned_docs/groupid_11.0/groupid/admincenter/smsgateway/overview.md)
+- [Authentication Policy](/docs/groupid/11.0/groupid/admincenter/identitystore/configure/authpolicy.md)
+- [Configure an SMTP Server](/docs/groupid/11.0/groupid/admincenter/identitystore/configure/smtpserver.md)
+- [SMS Gateway](/docs/groupid/11.0/groupid/admincenter/smsgateway/overview.md)

@@ -13,7 +13,7 @@ displayed to the first Administration Console administrator, showing a license k
 
 This warning always displays when the organization’s license is within 14 days of expiring. Click
 **OK**. See the
-[Import the License](/versioned_docs/threatprevention_7.4/threatprevention/install/licenseimport.md)
+[Import the License](/docs/threatprevention/7.4/threatprevention/install/licenseimport.md)
 topic for licensing the product.
 
 ![Import Templates dialog box](/img/versioned_docs/threatprevention_7.4/threatprevention/install/importtemplates.webp)
@@ -23,7 +23,7 @@ later.
 
 In Threat Prevention, many policy templates are pre-configured for the most common policy types, so
 that you can quickly configure a policy. See the
-[Templates Interface](/versioned_docs/threatprevention_7.4/threatprevention/admin/templates/overview.md)
+[Templates Interface](/docs/threatprevention/7.4/threatprevention/admin/templates/overview.md)
 topic for details.
 
 - Click **Yes** on the Import Templates dialog box to import all the templates into the
@@ -33,7 +33,7 @@ topic for details.
   again next time this application loads?”
 
 You can import the policy templates any time later. See the
-[Import Templates](/versioned_docs/threatprevention_7.4/threatprevention/admin/templates/folder/overview.md#import-templates)
+[Import Templates](/docs/threatprevention/7.4/threatprevention/admin/templates/folder/overview.md#import-templates)
 topic for additional information.
 
 ![Install Agent dialog box](/img/versioned_docs/changetracker_8.0/changetracker/install/agent/installagent.webp)
@@ -46,12 +46,12 @@ deployed on all the servers where these events occur. Use the Administration Con
 manage the Agent.
 
 - Click **Yes** on the Install Agents dialog box to launch the **Deploy Agents** wizard. See the
-  [Deploy Agents](/versioned_docs/threatprevention_7.4/threatprevention/admin/agents/deploy/overview.md)
+  [Deploy Agents](/docs/threatprevention/7.4/threatprevention/admin/agents/deploy/overview.md)
   topic for additional information.
 - Click **No** if you do not want to install the Agents now. To install Agents later, see the
-  [Agents Interface](/versioned_docs/threatprevention_7.4/threatprevention/admin/agents/overview.md)
+  [Agents Interface](/docs/threatprevention/7.4/threatprevention/admin/agents/overview.md)
   topic.
 
 See the
-[Getting Started ](/versioned_docs/threatprevention_7.4/threatprevention/gettingstarted.md)topic for
+[Getting Started ](/docs/threatprevention/7.4/threatprevention/gettingstarted.md)topic for
 the next steps.

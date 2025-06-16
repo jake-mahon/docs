@@ -6,10 +6,10 @@ procedures.
 
 In this article, we will cover:
 
-- [Configuring Tagging](/versioned_docs/dataclassification_5.6.2/ndc/sources/manage_configuring_tagging.md)
-- [Setting advanced configuration](/versioned_docs/dataclassification_5.6.2/ndc/sources/manage_setting_advanced_configuration.md)
-- [Configuring subsite and list processing ](/versioned_docs/dataclassification_5.6.2/ndc/sources/manage_configuring_subsite_and_list_processing.md)
-- [Configuring defaults](/versioned_docs/dataclassification_5.6.2/ndc/sources/manage_configuring_defaults.md)
-- [Managing list of exclusions](/versioned_docs/dataclassification_5.6.2/ndc/sources/manage_managing_list_of_exclusions.md)
-- [Reviewing SharePoint Dashboard](/versioned_docs/dataclassification_5.6.2/ndc/sources/manage_reviewing_sharepoint_dashboard.md)
-- [Working with SharePoint templates](/versioned_docs/dataclassification_5.6.2/ndc/sources/manage_working_with_sharepoint_templates.md)
+- [Configuring Tagging](/docs/dataclassification/5.6.2/ndc/sources/manage_configuring_tagging.md)
+- [Setting advanced configuration](/docs/dataclassification/5.6.2/ndc/sources/manage_setting_advanced_configuration.md)
+- [Configuring subsite and list processing ](/docs/dataclassification/5.6.2/ndc/sources/manage_configuring_subsite_and_list_processing.md)
+- [Configuring defaults](/docs/dataclassification/5.6.2/ndc/sources/manage_configuring_defaults.md)
+- [Managing list of exclusions](/docs/dataclassification/5.6.2/ndc/sources/manage_managing_list_of_exclusions.md)
+- [Reviewing SharePoint Dashboard](/docs/dataclassification/5.6.2/ndc/sources/manage_reviewing_sharepoint_dashboard.md)
+- [Working with SharePoint templates](/docs/dataclassification/5.6.2/ndc/sources/manage_working_with_sharepoint_templates.md)

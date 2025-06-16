@@ -18,5 +18,5 @@ Configure the settings for the targeted File System Proxy Service:
   if there is an attempt to pause the scan and the applet does not respond
 
 See the
-[FSAA: Applet Settings](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/fsaa/appletsettings.md)
+[FSAA: Applet Settings](/docs/accessanalyzer/11.6/enterpriseauditor/admin/datacollector/fsaa/appletsettings.md)
 topic for additional information.

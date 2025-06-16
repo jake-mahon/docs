@@ -57,9 +57,9 @@ Windows Server workstation.
 
 A not-so-minimalist text editor such as [Notepad++](https://notepad-plus-plus.org/downloads/) can be
 useful to comfortably edit
-[network configuration files](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/index.md).
+[network configuration files](/docs/usercube/6.1/usercube/integration-guide/network-configuration/index.md).
 
 ## What's Next?
 
 Let's move on to the requirements for
-[Usercube's database](/versioned_docs/usercube_6.1/usercube/installation-guide/requirements/database-requirements/index.md).
+[Usercube's database](/docs/usercube/6.1/usercube/installation-guide/requirements/database-requirements/index.md).

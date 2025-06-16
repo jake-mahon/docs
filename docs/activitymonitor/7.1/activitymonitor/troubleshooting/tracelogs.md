@@ -22,7 +22,7 @@ When the log level is changed in the Activity Monitor Console, the new log level
 applied immediately to all of the activity agents that do not have custom trace setting.
 
 **NOTE:** Trace level can be adjusted in the Agent Properties for the selected agent. See the
-[Archiving Tab](/versioned_docs/activitymonitor_7.1/activitymonitor/admin/agents/properties/archiving.md)
+[Archiving Tab](/docs/activitymonitor/7.1/activitymonitor/admin/agents/properties/archiving.md)
 topic for additional information.
 
 ![Collect Logs button](/img/versioned_docs/activitymonitor_7.1/activitymonitor/troubleshooting/collectlogsbutton.webp)

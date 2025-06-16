@@ -2,7 +2,7 @@
 
 The data grid provides all host inventory information collected on the hosts. View this information
 at the **Host Management** node (the Host Master Table) or at individual host list nodes. See the
-[Hosts Lists](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/hostmanagement/lists.md)
+[Hosts Lists](/docs/accessanalyzer/11.6/enterpriseauditor/admin/hostmanagement/lists.md)
 topic for information on host lists.
 
 ![Host Inventory Data Grid](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/hostmanagement/datagrid.webp)
@@ -60,13 +60,13 @@ Use the horizontal scrollbar at the bottom to view the host inventory data, whic
 - ServerRole – Indicates what role is served by the server (only applicable to Exchange servers)
 - isIIS – True or False if IIS is present on the server
 - Location – Distinct physical location, entered manually through the
-  [Import Location](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/hostmanagement/actions/importlocation.md)
+  [Import Location](/docs/accessanalyzer/11.6/enterpriseauditor/admin/hostmanagement/actions/importlocation.md)
   activity
 - ExchLocation – Distinct physical location of Exchange server, entered manually through the
-  [Import Location](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/hostmanagement/actions/importlocation.md)
+  [Import Location](/docs/accessanalyzer/11.6/enterpriseauditor/admin/hostmanagement/actions/importlocation.md)
   activity
 - AltLocation – Alternate physical location, entered manually through the
-  [Import Location](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/hostmanagement/actions/importlocation.md)
+  [Import Location](/docs/accessanalyzer/11.6/enterpriseauditor/admin/hostmanagement/actions/importlocation.md)
   activity
 - WinCluster – Name of the Windows cluster in which the host is a part, if applicable
 - ExchCluster – Name of the Exchange cluster in which the host is a part, if applicable
@@ -76,12 +76,12 @@ Use the horizontal scrollbar at the bottom to view the host inventory data, whic
 - hostID – Unique identifier of the host within the Enterprise Auditor inventory tables
 
 See the
-[Data Grid Functionality](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/navigate/datagrid.md)
+[Data Grid Functionality](/docs/accessanalyzer/11.6/enterpriseauditor/admin/navigate/datagrid.md)
 topic for information on how to sort, filter, and search within the data grid.
 
 The Activities pane provides several options for managing hosts within the Host Management node. See
 the
-[Host Management Activities](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/hostmanagement/actions/overview.md)
+[Host Management Activities](/docs/accessanalyzer/11.6/enterpriseauditor/admin/hostmanagement/actions/overview.md)
 topic for information on these options.
 
 ## Host List Data Grid Right-Click Menus
@@ -95,5 +95,5 @@ the Navigation pane.
 
 These right-click menu options contain the Host Management Activities available for the selection.
 See the
-[Host Management Activities](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/hostmanagement/actions/overview.md)
+[Host Management Activities](/docs/accessanalyzer/11.6/enterpriseauditor/admin/hostmanagement/actions/overview.md)
 topic for additional information on these options.

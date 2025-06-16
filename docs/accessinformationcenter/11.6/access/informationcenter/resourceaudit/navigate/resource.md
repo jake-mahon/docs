@@ -8,18 +8,18 @@ the search features to open a filtered view for a resource.
 Available reports vary based on the type of resource and the level within the resource. See the
 following topics for specific report details:
 
-- [File System Reports](/versioned_docs/accessinformationcenter_11.6/access/informationcenter/resourceaudit/filesystem/overview.md)
-- [SharePoint Reports](/versioned_docs/accessinformationcenter_11.6/access/informationcenter/resourceaudit/sharepoint/overview.md)
-- [Active Directory Reports](/versioned_docs/accessinformationcenter_11.6/access/informationcenter/resourceaudit/activedirectory/overview.md)
-- [Amazon (AWS) Reports](/versioned_docs/accessinformationcenter_11.6/access/informationcenter/resourceaudit/aws/overview.md)
-- [Dropbox Reports](/versioned_docs/accessinformationcenter_11.6/access/informationcenter/resourceaudit/dropbox/overview.md)
-- [Exchange Reports](/versioned_docs/accessinformationcenter_11.6/access/informationcenter/resourceaudit/exchange/overview.md)
-- [MongoDB Reports](/versioned_docs/accessinformationcenter_11.6/access/informationcenter/resourceaudit/mongodb/overview.md)
-- [MySQL Reports](/versioned_docs/accessinformationcenter_11.6/access/informationcenter/resourceaudit/mysql/overview.md)
-- [Oracle Reports](/versioned_docs/accessinformationcenter_11.6/access/informationcenter/resourceaudit/oracle/overview.md)
-- [PostgreSQL Reports](/versioned_docs/accessinformationcenter_11.6/access/informationcenter/resourceaudit/postgresql/overview.md)
-- [SQL Server Reports](/versioned_docs/accessinformationcenter_11.6/access/informationcenter/resourceaudit/sql/overview.md)
-- [Flexible Imports Feature](/versioned_docs/accessinformationcenter_11.6/access/informationcenter/resourceaudit/flexibleimports/overview.md)
+- [File System Reports](/docs/accessinformationcenter/11.6/access/informationcenter/resourceaudit/filesystem/overview.md)
+- [SharePoint Reports](/docs/accessinformationcenter/11.6/access/informationcenter/resourceaudit/sharepoint/overview.md)
+- [Active Directory Reports](/docs/accessinformationcenter/11.6/access/informationcenter/resourceaudit/activedirectory/overview.md)
+- [Amazon (AWS) Reports](/docs/accessinformationcenter/11.6/access/informationcenter/resourceaudit/aws/overview.md)
+- [Dropbox Reports](/docs/accessinformationcenter/11.6/access/informationcenter/resourceaudit/dropbox/overview.md)
+- [Exchange Reports](/docs/accessinformationcenter/11.6/access/informationcenter/resourceaudit/exchange/overview.md)
+- [MongoDB Reports](/docs/accessinformationcenter/11.6/access/informationcenter/resourceaudit/mongodb/overview.md)
+- [MySQL Reports](/docs/accessinformationcenter/11.6/access/informationcenter/resourceaudit/mysql/overview.md)
+- [Oracle Reports](/docs/accessinformationcenter/11.6/access/informationcenter/resourceaudit/oracle/overview.md)
+- [PostgreSQL Reports](/docs/accessinformationcenter/11.6/access/informationcenter/resourceaudit/postgresql/overview.md)
+- [SQL Server Reports](/docs/accessinformationcenter/11.6/access/informationcenter/resourceaudit/sql/overview.md)
+- [Flexible Imports Feature](/docs/accessinformationcenter/11.6/access/informationcenter/resourceaudit/flexibleimports/overview.md)
 
 ## Resources Pane
 
@@ -60,5 +60,5 @@ These icons are designed to draw attention to resources where potential security
 
 **NOTE:** The Domain Group icon is used to indicate both Active Directory groups and Entra ID
 groups. See the
-[AIC Icons ](/versioned_docs/accessinformationcenter_11.6/access/informationcenter/resourceaudit/navigate/icons.md)topic
+[AIC Icons ](/docs/accessinformationcenter/11.6/access/informationcenter/resourceaudit/navigate/icons.md)topic
 for additional information.

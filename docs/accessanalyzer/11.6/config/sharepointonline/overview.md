@@ -8,23 +8,23 @@ scans.
 ## Access & Sensitive Data Auditing Permissions
 
 - Permissions vary based on the Scan Mode selected and target environment. See the
-  [SharePoint Support](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/requirements/target/sharepoint.md)
+  [SharePoint Support](/docs/accessanalyzer/11.6/enterpriseauditor/requirements/target/sharepoint.md)
   topic for additional information.
 
 See the
-[SharePoint Online Access & Sensitive Data Auditing Configuration](/versioned_docs/enterpriseauditor_11.6/config/sharepointonline/access.md)
+[SharePoint Online Access & Sensitive Data Auditing Configuration](/docs/accessanalyzer/11.6/config/sharepointonline/access.md)
 topic for instructions.
 
 **NOTE:** You can use the **SP_RegisterAzureAppAuth** instant job to make the configuration for
 SharePoint Online easier. This job registers the necessary Microsoft Entra ID application and
 provisions it with the required permissions. See the
-[SP_RegisterAzureAppAuth Job](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/jobs/instantjobs/sp_registerazureappauth.md)
+[SP_RegisterAzureAppAuth Job](/docs/accessanalyzer/11.6/enterpriseauditor/admin/jobs/instantjobs/sp_registerazureappauth.md)
 topic for additional information.
 
 ## Access & Sensitive Data Auditing Port Requirements
 
 - Ports vary based on the Scan Mode selected and target environment. See the
-  [SharePoint Scan Options](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/requirements/solutions/sharepoint/scanoptions.md)
+  [SharePoint Scan Options](/docs/accessanalyzer/11.6/enterpriseauditor/requirements/solutions/sharepoint/scanoptions.md)
   topic for additional information.
 
 ## Activity Auditing Permissions
@@ -47,7 +47,7 @@ Enterprise Auditor to read the activity log files must have also have this permi
 SharePoint Requirements
 
 See the
-[SharePoint Online Activity Auditing Configuration](/versioned_docs/enterpriseauditor_11.6/config/sharepointonline/activity.md)
+[SharePoint Online Activity Auditing Configuration](/docs/accessanalyzer/11.6/config/sharepointonline/activity.md)
 topic for instructions.
 
 Activity Monitor Archive Location

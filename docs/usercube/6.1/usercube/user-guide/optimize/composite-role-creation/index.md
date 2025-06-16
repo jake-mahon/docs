@@ -1,15 +1,15 @@
 # Create a Composite Role
 
 How to define
-[composite roles](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/provisioning/compositerole/index.md)
+[composite roles](/docs/usercube/6.1/usercube/integration-guide/toolkit/xml-configuration/provisioning/compositerole/index.md)
 in order to create sets of
-[single roles](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/single-roles-catalog-creation/index.md)
+[single roles](/docs/usercube/6.1/usercube/user-guide/set-up/single-roles-catalog-creation/index.md)
 easy to assign.
 
 ## Overview
 
 A
-[composite role](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/provisioning/compositerole/index.md)
+[composite role](/docs/usercube/6.1/usercube/integration-guide/toolkit/xml-configuration/provisioning/compositerole/index.md)
 is a set of single roles that are usually assigned together, because they revolve around the same
 application, or the same job, etc. Composite roles are aggregates of single roles, they can help
 organize the role catalog.
@@ -23,7 +23,7 @@ user to perform a task, a composite role allows them to perform a job.
 ### Composite roles and Role Mining
 
 Composite roles can also be created based on the rules provided by
-[Role Mining](/versioned_docs/usercube_6.1/usercube/user-guide/optimize/assignment-automation/role-mining/index.md).
+[Role Mining](/docs/usercube/6.1/usercube/user-guide/optimize/assignment-automation/role-mining/index.md).
 Rules link roles to dimensions.
 
 The following example shows single roles from `A` to `F`. Role Mining suggested the rules on the
@@ -35,9 +35,9 @@ an abstraction layer.
 
 ![Example](/img/versioned_docs/usercube_6.1/usercube/user-guide/optimize/composite-role-creation/compositeroles_schema.webp)
 
-[Single role rules](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/provisioning/singlerolerule/index.md)
+[Single role rules](/docs/usercube/6.1/usercube/integration-guide/toolkit/xml-configuration/provisioning/singlerolerule/index.md)
 link composite roles to
-[single roles](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/single-roles-catalog-creation/index.md):
+[single roles](/docs/usercube/6.1/usercube/user-guide/set-up/single-roles-catalog-creation/index.md):
 a single role rule states that specific single roles are assigned according to specific criteria,
 particularly composite roles. Thus, a composite role assignment can imply specific single role
 assignments.
@@ -49,7 +49,7 @@ application's users, entitlements and data model.
 
 | Input                                                                                                                     | Output          |
 | ------------------------------------------------------------------------------------------------------------------------- | --------------- |
-| [Role catalog](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/single-roles-catalog-creation/index.md) (required) | Composite roles |
+| [Role catalog](/docs/usercube/6.1/usercube/user-guide/set-up/single-roles-catalog-creation/index.md) (required) | Composite roles |
 
 ## Create a Composite Role
 
@@ -69,7 +69,7 @@ Create a composite role by proceeding as follows:
     - `Identifier`: must be unique among roles and without any whitespace.
     - `Name`: will be displayed in the UI to identify the single role.
     - `Policy`:
-      [policy](/versioned_docs/usercube_6.1/usercube/user-guide/optimize/policy-creation/index.md)
+      [policy](/docs/usercube/6.1/usercube/user-guide/optimize/policy-creation/index.md)
       in which the role exists.
     - `Entity Type`: entity type targetted by the role.
     - `Category`: category assigned to the role.
@@ -77,9 +77,9 @@ Create a composite role by proceeding as follows:
     - `Approval Workflow`: represents the number of validations required to assign the role.
     - `Approve Role Implicitly`: needs at least a simple approval workflow. `Implicit` mode bypasses
       the approval step(s) if the person who issues the role request is also the
-      [role officer](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/role-officer-management/index.md).
+      [role officer](/docs/usercube/6.1/usercube/user-guide/set-up/role-officer-management/index.md).
       `Explicit` refuses said bypass. `Inherited` follows the
-      [policy](/versioned_docs/usercube_6.1/usercube/user-guide/optimize/policy-creation/index.md)
+      [policy](/docs/usercube/6.1/usercube/user-guide/optimize/policy-creation/index.md)
       decision to approve roles implicitly or not.
     - `Hide in Simplified View`: hides the role from the users' **Simplified View** in **View
       Permissions** dialog. This setting does not apply to roles which are either inferred or have
@@ -93,7 +93,7 @@ Create a composite role by proceeding as follows:
 
 4. Click on **Create** and see a line added on the roles page.
 5. Create at least one
-   [single role rule](/versioned_docs/usercube_6.1/usercube/user-guide/optimize/assignment-automation/automate-role-assignment/index.md)
+   [single role rule](/docs/usercube/6.1/usercube/user-guide/optimize/assignment-automation/automate-role-assignment/index.md)
    with the composite role as a criterion.
 
 ## Impact of Modifications
@@ -102,7 +102,7 @@ When deleting a composite role, caution must be used when deleting the correspon
 rules. Indeed, these rules thus lose their criteria and may be applied to far too many people after
 that.
 
-[Simulations](/versioned_docs/usercube_6.1/usercube/user-guide/optimize/simulation/index.md) are
+[Simulations](/docs/usercube/6.1/usercube/user-guide/optimize/simulation/index.md) are
 available in order to anticipate the changes induced by a creation/modification/deletion in roles
 and single role rules.
 
@@ -120,4 +120,4 @@ parameters.
 ![Access Composite Roles](/img/versioned_docs/usercube_6.1/usercube/user-guide/optimize/composite-role-creation/compositeroles_testroles_v602.webp)
 
 For rules, follow the instructions about
-[assignment rules](/versioned_docs/usercube_6.1/usercube/user-guide/optimize/assignment-automation/automate-role-assignment/index.md).
+[assignment rules](/docs/usercube/6.1/usercube/user-guide/optimize/assignment-automation/automate-role-assignment/index.md).

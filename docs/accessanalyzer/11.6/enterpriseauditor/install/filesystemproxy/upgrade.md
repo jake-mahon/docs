@@ -50,7 +50,7 @@ Follow the steps on the servers hosting the File System Proxy Service.
 Features**). Uninstall the previous version of Enterprise Auditor File System Scanning Proxy.
 
 **Step 2 –** Install the new version of the File System Proxy Service. See the
-[File System Proxy Service Installation](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/install/filesystemproxy/wizard.md)
+[File System Proxy Service Installation](/docs/accessanalyzer/11.6/enterpriseauditor/install/filesystemproxy/wizard.md)
 topic for instructions.
 
 The File System Solution can now use the proxy architecture for the latest version of the solution.

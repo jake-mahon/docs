@@ -87,7 +87,7 @@ The service runs within a virtual directory in remote IIS while the service file
 located on disk.
 
 To learn about the remote IIS settings and configurations before deploying a service there, see the
-[Prerequisites for Deployments in Remote IIS](/versioned_docs/groupid_11.0/groupid/admincenter/portal/remoteiisprerequisites.md)
+[Prerequisites for Deployments in Remote IIS](/docs/groupid/11.0/groupid/admincenter/portal/remoteiisprerequisites.md)
 topic.
 
 **To create a service:**
@@ -104,7 +104,7 @@ topic.
    The application name and deployment name are displayed on the service card.
 7. To enter information for **API URL**, **Access Token**, **Username**, **Password**, **IIS
    Application Name**, and **Website**, refer to steps 7-11 in the
-   [Create a Portal in Remote IIS](/versioned_docs/groupid_11.0/groupid/admincenter/portal/create.md#create-a-portal-in-remote-iis)
+   [Create a Portal in Remote IIS](/docs/groupid/11.0/groupid/admincenter/portal/create.md#create-a-portal-in-remote-iis)
    topic. Replace any reference to the portal with the Mobile service.
 8. To enter information in the **Service Endpoints** and **Select Identity Stores** areas, refer to
    steps 9-10 in the [Create a Mobile Service in Native IIS](#create-a-mobile-service-in-native-iis)
@@ -119,7 +119,7 @@ running on a Docker deamon in your environment, so that GroupID can create a con
 service there and run the service from within that container.
 
 For an overview on application deployment in Docker, see the
-[Prerequisites for Deployments in Docker](/versioned_docs/groupid_11.0/groupid/admincenter/portal/dockerprerequisites.md)
+[Prerequisites for Deployments in Docker](/docs/groupid/11.0/groupid/admincenter/portal/dockerprerequisites.md)
 topic.
 
 NOTE: To host the Mobile service, Docker daemon should be configured to run Windows containers.
@@ -138,7 +138,7 @@ NOTE: To host the Mobile service, Docker daemon should be configured to run Wind
    The application name and deployment name are displayed on the service card.
 7. To enter information for **Port**, **Service URL**, and **Container Name**, refer to steps 7-9 in
    the
-   [Create a Portal in Docker](/versioned_docs/groupid_11.0/groupid/admincenter/portal/create.md#create-a-portal-in-docker)
+   [Create a Portal in Docker](/docs/groupid/11.0/groupid/admincenter/portal/create.md#create-a-portal-in-docker)
    topic. Replace any reference to the portal with the Mobile service.
 8. To enter information in the **Service Endpoints** and **Select Identity Stores** areas, refer to
    steps 9-10 in the [Create a Mobile Service in Native IIS](#create-a-mobile-service-in-native-iis)
@@ -151,7 +151,7 @@ NOTE: To host the Mobile service, Docker daemon should be configured to run Wind
 GroupID enables you to deploy more than one instance of a Mobile Service. Instances can be deployed
 in different web servers, for example, one in IIS, another in Remote IIS, and yet another in Docker.
 For more on how instances work, see the
-[Deploy Multiple Instances of a Portal](/versioned_docs/groupid_11.0/groupid/admincenter/portal/create.md#deploy-multiple-instances-of-a-portal)
+[Deploy Multiple Instances of a Portal](/docs/groupid/11.0/groupid/admincenter/portal/create.md#deploy-multiple-instances-of-a-portal)
 topic.
 
 To deploy a new instance, you have to provide deployment details only. All instances share the same
@@ -216,7 +216,7 @@ duplicated, so you can choose to deploy the new service in any of the supported 
 2. On the **Applications** page, click the **Mobile Service** tab.  
    The tab displays the default Mobile service in GroupID and any other Mobile service that you have
    created. For details displayed on a service card, see the table in the
-   [View Data Service Details](/versioned_docs/groupid_11.0/groupid/admincenter/service/dataservice/manage.md#view-data-service-details)
+   [View Data Service Details](/docs/groupid/11.0/groupid/admincenter/service/dataservice/manage.md#view-data-service-details)
    topic.
 
 ## Launch a Mobile Service or a Service Instance
@@ -224,7 +224,7 @@ duplicated, so you can choose to deploy the new service in any of the supported 
 To launch a Mobile service or an instance of a service means that you launch the
 **GroupIDMobileService** page in a web browser, which displays a server URL and a QR code. Users can
 use any of these to configure the GroupID app on their phones. See the
-[Configure the App](/versioned_docs/groupid_11.0/groupid/admincenter/mobileservice/phonesetup.md#configure-the-app)
+[Configure the App](/docs/groupid/11.0/groupid/admincenter/mobileservice/phonesetup.md#configure-the-app)
 topic.
 
 To launch a service or a service instance:
@@ -242,9 +242,9 @@ deployment instance of the Mobile service.
 
 You can either copy the URL of the GroupIDMobileService page from the address bar or from a
 service's deployment settings. See the
-[View the Launch URL for an Instance](/versioned_docs/groupid_11.0/groupid/admincenter/mobileservice/server/deployment.md#view-the-launch-url-for-an-instance)
+[View the Launch URL for an Instance](/docs/groupid/11.0/groupid/admincenter/mobileservice/server/deployment.md#view-the-launch-url-for-an-instance)
 topic.
 
 **See Also**
 
-- [Mobile Service](/versioned_docs/groupid_11.0/groupid/admincenter/mobileservice/overview.md)
+- [Mobile Service](/docs/groupid/11.0/groupid/admincenter/mobileservice/overview.md)

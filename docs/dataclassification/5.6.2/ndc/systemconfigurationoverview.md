@@ -10,5 +10,5 @@
 
 See next:
 
-- [Configuration Options](/versioned_docs/dataclassification_5.6.2/ndc/configuration/configuration.md)
-- [Users and Security Settings](/versioned_docs/dataclassification_5.6.2/ndc/security/users.md)
+- [Configuration Options](/docs/dataclassification/5.6.2/ndc/configuration/configuration.md)
+- [Users and Security Settings](/docs/dataclassification/5.6.2/ndc/security/users.md)

@@ -3,51 +3,51 @@
 Connectors are the mechanisms that enable Usercube to read and write data to/from your
 organization's systems. Here is a list of reference connectors:
 
-- [ Active Directory ](/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/references-connectors/activedirectory/index.md)
+- [ Active Directory ](/docs/usercube/6.1/usercube/integration-guide/connectors/references-connectors/activedirectory/index.md)
 
     Exports and fulfills users and groups from/to an Active Directory instance.
 
-- [ Azure ](/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/references-connectors/azure/index.md)
+- [ Azure ](/docs/usercube/6.1/usercube/integration-guide/connectors/references-connectors/azure/index.md)
 
     Exports Azure resources, role definitions and assignments.
 
-- [ CSV ](/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/references-connectors/csv/index.md)
+- [ CSV ](/docs/usercube/6.1/usercube/integration-guide/connectors/references-connectors/csv/index.md)
 
     Exports data from a CSV file.
 
-- [ EasyVista ](/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/references-connectors/easyvista/index.md)
+- [ EasyVista ](/docs/usercube/6.1/usercube/integration-guide/connectors/references-connectors/easyvista/index.md)
 
     Exports and fulfills users from/to an EasyVista-compliant system.
 
-- [ EasyVista Ticket ](/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/references-connectors/easyvistaticket/index.md)
+- [ EasyVista Ticket ](/docs/usercube/6.1/usercube/integration-guide/connectors/references-connectors/easyvistaticket/index.md)
 
     Opens tickets in EasyVista for manual provisioning.
 
-- [ Google Workspace ](/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/references-connectors/googleworkspace/index.md)
+- [ Google Workspace ](/docs/usercube/6.1/usercube/integration-guide/connectors/references-connectors/googleworkspace/index.md)
 
     Exports and fulfills users and groups from/to a Google Workspace instance.
 
-- [ Home Folder ](/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/references-connectors/homefolder/index.md)
+- [ Home Folder ](/docs/usercube/6.1/usercube/integration-guide/connectors/references-connectors/homefolder/index.md)
 
     Exports home folders' content.
 
-- [InternalWorkflow](/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/references-connectors/internalworkflow/index.md)
+- [InternalWorkflow](/docs/usercube/6.1/usercube/integration-guide/connectors/references-connectors/internalworkflow/index.md)
 
     Triggers workflows in Usercube for a system's provisioning orders.
 
-- [Internal Resources](/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/references-connectors/internalresources/index.md)
+- [Internal Resources](/docs/usercube/6.1/usercube/integration-guide/connectors/references-connectors/internalresources/index.md)
 
     Opens manual provisioning tickets in Usercube.
 
-- [ JSON ](/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/references-connectors/json/index.md)
+- [ JSON ](/docs/usercube/6.1/usercube/integration-guide/connectors/references-connectors/json/index.md)
 
     Generates JSON files for each provisioning order.
 
-- [ LDAP ](/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/references-connectors/ldap/index.md)
+- [ LDAP ](/docs/usercube/6.1/usercube/integration-guide/connectors/references-connectors/ldap/index.md)
 
     Exports and fulfills entries from/to a LDAP-compliant system.
 
-- [ LDIF ](/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/references-connectors/ldif/index.md)
+- [ LDIF ](/docs/usercube/6.1/usercube/integration-guide/connectors/references-connectors/ldif/index.md)
 
     Exports entries from a LDIF file.
 
@@ -55,82 +55,82 @@ organization's systems. Here is a list of reference connectors:
 
     Exports and fulfills user and groups from/to a Microsoft Entra ID instance.
 
-- [ Microsoft Excel ](/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/references-connectors/excel/index.md)
+- [ Microsoft Excel ](/docs/usercube/6.1/usercube/integration-guide/connectors/references-connectors/excel/index.md)
 
     Exports datasheets from a Microsoft Excel (XLSX) file.
 
-- [ Microsoft Exchange ](/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/references-connectors/microsoftexchange/index.md)
+- [ Microsoft Exchange ](/docs/usercube/6.1/usercube/integration-guide/connectors/references-connectors/microsoftexchange/index.md)
 
     Exports mailboxes from a Microsoft Exchange instance.
 
-- [ OData ](/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/references-connectors/odata/index.md)
+- [ OData ](/docs/usercube/6.1/usercube/integration-guide/connectors/references-connectors/odata/index.md)
 
     Exports and fulfills entries from/to an OData instance.
 
-- [Okta](/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/references-connectors/okta/index.md)
+- [Okta](/docs/usercube/6.1/usercube/integration-guide/connectors/references-connectors/okta/index.md)
 
     Exports and fulfills entries from/to an Okta instance.
 
-- [ OpenLDAP ](/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/references-connectors/openldap/index.md)
+- [ OpenLDAP ](/docs/usercube/6.1/usercube/integration-guide/connectors/references-connectors/openldap/index.md)
 
     Exports and fulfills entries from/to an OpenLDAP directory.
 
-- [ PowerShellProv ](/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/references-connectors/powershellprov/index.md)
+- [ PowerShellProv ](/docs/usercube/6.1/usercube/integration-guide/connectors/references-connectors/powershellprov/index.md)
 
     Writes to an external system via a PowerShell script.
 
-- [ PowerShellSync ](/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/references-connectors/powershellsync/index.md)
+- [ PowerShellSync ](/docs/usercube/6.1/usercube/integration-guide/connectors/references-connectors/powershellsync/index.md)
 
     Exports data from an external system via a Powershell script.
 
-- [ RACF ](/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/references-connectors/racf/index.md)
+- [ RACF ](/docs/usercube/6.1/usercube/integration-guide/connectors/references-connectors/racf/index.md)
 
     Exports users and profiles from a RACF file.
 
-- [ Robot Framework ](/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/references-connectors/robotframework/index.md)
+- [ Robot Framework ](/docs/usercube/6.1/usercube/integration-guide/connectors/references-connectors/robotframework/index.md)
 
     Writes to an external system via a Robot Framework script.
 
-- [SAP ERP 6.0 and SAP S4/HANA](/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/references-connectors/saperp6/index.md)
+- [SAP ERP 6.0 and SAP S4/HANA](/docs/usercube/6.1/usercube/integration-guide/connectors/references-connectors/saperp6/index.md)
 
     Exports and fulfills users and roles from/to a SAP ERP 6.0 or SAP S4/HANA instance.
 
-- [ SAP Netweaver ](/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/references-connectors/saphana/index.md)
+- [ SAP Netweaver ](/docs/usercube/6.1/usercube/integration-guide/connectors/references-connectors/saphana/index.md)
 
     Exports and fulfills users and roles from/to a SAP Netweaver instance.
 
-- [SCIM](/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/references-connectors/scim/index.md)
+- [SCIM](/docs/usercube/6.1/usercube/integration-guide/connectors/references-connectors/scim/index.md)
 
     Exports and fulfills entities from/to a SCIM-compliant application.
 
-- [ ServiceNow ](/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/references-connectors/servicenowentitymanagement/index.md)
+- [ ServiceNow ](/docs/usercube/6.1/usercube/integration-guide/connectors/references-connectors/servicenowentitymanagement/index.md)
 
     Exports and fulfills any data from/to a ServiceNow CMDB.
 
-- [ ServiceNowTicket ](/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/references-connectors/servicenowticket/index.md)
+- [ ServiceNowTicket ](/docs/usercube/6.1/usercube/integration-guide/connectors/references-connectors/servicenowticket/index.md)
 
     Opens tickets in ServiceNow for manual provisioning.
 
-- [ SharedFolders ](/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/references-connectors/sharedfolder/index.md)
+- [ SharedFolders ](/docs/usercube/6.1/usercube/integration-guide/connectors/references-connectors/sharedfolder/index.md)
 
     Exports users and permissions from Windows shared folders.
 
-- [SharePoint](/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/references-connectors/sharepoint/index.md)
+- [SharePoint](/docs/usercube/6.1/usercube/integration-guide/connectors/references-connectors/sharepoint/index.md)
 
     Exports sites, folders, groups and permissions from a SharePoint instance.
 
-- [ Sql ](/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/references-connectors/sql/index.md)
+- [ Sql ](/docs/usercube/6.1/usercube/integration-guide/connectors/references-connectors/sql/index.md)
 
     Exports data from one of various Database Management Systems.
 
-- [ Sql Server Entitlements ](/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/references-connectors/sqlserverentitlements/index.md)
+- [ Sql Server Entitlements ](/docs/usercube/6.1/usercube/integration-guide/connectors/references-connectors/sqlserverentitlements/index.md)
 
     Exports entitlements from Microsoft SQL Server.
 
-- [ Top Secret ](/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/references-connectors/topsecret/index.md)
+- [ Top Secret ](/docs/usercube/6.1/usercube/integration-guide/connectors/references-connectors/topsecret/index.md)
 
     Exports users and profiles from a Top Secret (TSS) instance.
 
-- [ Workday ](/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/references-connectors/workday/index.md)
+- [ Workday ](/docs/usercube/6.1/usercube/integration-guide/connectors/references-connectors/workday/index.md)
 
     Exports users and groups from a Workday instance.

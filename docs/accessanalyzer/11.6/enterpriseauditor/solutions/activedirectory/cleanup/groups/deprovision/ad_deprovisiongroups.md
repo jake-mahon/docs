@@ -18,7 +18,7 @@ staging OU. The default is 365 days.
 
 The Configuration section on a Job's overview page allows you to easily modify any customizable
 parameters used by analysis tasks in the job. See the
-[Parameter Configuration](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/jobs/job/overview.md#parameter-configuration)
+[Parameter Configuration](/docs/accessanalyzer/11.6/enterpriseauditor/admin/jobs/job/overview.md#parameter-configuration)
 topic for instructions on how to edit parameters on a job overview page.
 
 The AD_DeprovisionGroups page has the following configurable parameters:
@@ -56,7 +56,7 @@ this job’s analysis.
 | Groups to Delete | @days_before_deleting       | 365           | Days in the staging OU before deletion |
 
 See the
-[Configure the Customizable Parameters in an Analysis Task](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/jobs/job/configure/analysiscustomizableparameters.md)
+[Configure the Customizable Parameters in an Analysis Task](/docs/accessanalyzer/11.6/enterpriseauditor/admin/jobs/job/configure/analysiscustomizableparameters.md)
 topic for additional information.
 
 ## Action Tasks for the AD_DepvisionGroups Job
@@ -77,7 +77,7 @@ The action tasks are:
 
     - The target staging OU must be set in the Move Groups Action Task prior to executing the action
       tasks. See the
-      [Configure the Target OU](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/activedirectory/cleanup/configuretargetou.md)
+      [Configure the Target OU](/docs/accessanalyzer/11.6/enterpriseauditor/solutions/activedirectory/cleanup/configuretargetou.md)
       topic for additional information.
 
 - Disable Groups – The group is changed to a distribution list

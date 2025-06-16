@@ -11,4 +11,4 @@ configure GroupID in Microsoft Entra ID.
 
 See Also
 
-- [Registration and Permissions Assignment](/versioned_docs/groupid_11.0/groupid/configureentraid/register/appregister.md)
+- [Registration and Permissions Assignment](/docs/groupid/11.0/groupid/configureentraid/register/appregister.md)

@@ -27,18 +27,18 @@ following cases, where users continue to receive notifications in English:
 
 - Users whose email addresses are specified in the **To** and **CC** boxes on the **Notifications**
   page. See the
-  [Specify Notification Recipients](/versioned_docs/groupid_11.0/groupid/admincenter/identitystore/configure/smtpserver.md#specify-notification-recipients)
+  [Specify Notification Recipients](/docs/groupid/11.0/groupid/admincenter/identitystore/configure/smtpserver.md#specify-notification-recipients)
   topic.
 - Users whose email addresses are specified in the **Send Notification to the following email IDs**
   box in the notification settings of a Smart Group Update schedule. See step 12 in the
-  [Create a Smart Group Update Schedule](/versioned_docs/groupid_11.0/groupid/admincenter/schedule/smartgroupupdate.md#create-a-smart-group-update-schedule)
+  [Create a Smart Group Update Schedule](/docs/groupid/11.0/groupid/admincenter/schedule/smartgroupupdate.md#create-a-smart-group-update-schedule)
   topic.
 - Users whose email addresses are specified in the **Send notification to the following email IDs**
   box in the notification settings of a Reports schedule. See step 11 in the
-  [Create a Reports Schedule](/versioned_docs/groupid_11.0/groupid/admincenter/schedule/reports.md#create-a-reports-schedule)
+  [Create a Reports Schedule](/docs/groupid/11.0/groupid/admincenter/schedule/reports.md#create-a-reports-schedule)
   topic.
 
 **See Also**
 
-- [Configure an SMTP Server](/versioned_docs/groupid_11.0/groupid/admincenter/identitystore/configure/smtpserver.md)
-- [Customize Notifications](/versioned_docs/groupid_11.0/groupid/admincenter/notification/customize.md)
+- [Configure an SMTP Server](/docs/groupid/11.0/groupid/admincenter/identitystore/configure/smtpserver.md)
+- [Customize Notifications](/docs/groupid/11.0/groupid/admincenter/notification/customize.md)

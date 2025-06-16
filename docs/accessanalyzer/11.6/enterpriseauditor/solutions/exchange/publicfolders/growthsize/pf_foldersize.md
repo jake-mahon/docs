@@ -20,7 +20,7 @@ The following analysis tasks are selected by default:
 
     - The default is 3 months. It can be modified.
     - See the
-      [Exchange History Retention](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/exchange/hubmetrics/collection/ex_metricscollection.md#exchange-history-retention)
+      [Exchange History Retention](/docs/accessanalyzer/11.6/enterpriseauditor/solutions/exchange/hubmetrics/collection/ex_metricscollection.md#exchange-history-retention)
       topic for additional information
 
 - 03.Latest Run Per Folder – Creates the SA_PF_FolderSize_Latest table, accessible under the job’s
@@ -36,7 +36,7 @@ troubleshooting and cleanup only. Data will be deleted from the database.
 
 - 00.Delete all Historical Data
     - See the
-      [Troubleshooting Data Collection](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/exchange/hubmetrics/collection/ex_metricscollection.md#troubleshooting-data-collection)
+      [Troubleshooting Data Collection](/docs/accessanalyzer/11.6/enterpriseauditor/solutions/exchange/hubmetrics/collection/ex_metricscollection.md#troubleshooting-data-collection)
       topic for additional information
 
 In addition to the tables and views created by the analysis tasks, the PF_FolderSize job produces

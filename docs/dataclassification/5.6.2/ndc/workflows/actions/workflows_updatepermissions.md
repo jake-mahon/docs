@@ -22,4 +22,4 @@ When finished, click **Next** to proceed with the wizard.
 
 To configure advanced actions or modify action settings, select the workflow and use the Advanced UI
 window. See
-[Advanced Actions for SharePoint](/versioned_docs/dataclassification_5.6.2/ndc/workflows/advanced_window/advanced_actions_sharepoint.md).
+[Advanced Actions for SharePoint](/docs/dataclassification/5.6.2/ndc/workflows/advanced_window/advanced_actions_sharepoint.md).

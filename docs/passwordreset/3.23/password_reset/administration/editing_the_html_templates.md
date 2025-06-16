@@ -61,7 +61,7 @@ Resource strings are mostly validation error messages, but they can contain any 
 may need to build the page. Do not modify the identifiers on the left, only edit the text on the
 right. Resource strings are always inside a range called RESOURCE_STRINGS. Password Reset deletes
 this range before sending the page to the user's web browser. See the
-[Error Messages](/versioned_docs/passwordreset_3.23/password_reset/administration/using_password_reset.md#error-messages) topic
+[Error Messages](/docs/passwordreset/3.23/password_reset/administration/using_password_reset.md#error-messages) topic
 for additional information.
 
 ### Responsive Content
@@ -193,7 +193,7 @@ message invites the user to enroll so they can also use the reset and unlock fea
 When users enroll into Password Reset, they choose their questions from the Question List. You can
 replace some or all of the question lists with text boxes so users can enter their own questions.
 See the
-[Question List](/versioned_docs/passwordreset_3.23/password_reset/administration/configuring_password_reset.md#question-list)
+[Question List](/docs/passwordreset/3.23/password_reset/administration/configuring_password_reset.md#question-list)
 topic for additional information.
 
 The lines you need to edit in en_enroll.htm look like this:

@@ -28,7 +28,7 @@ What do you want to do?
    Data service that you have created.  
    When multiple GroupID instances have been deployed, you will find multiple default Data services
    on this tab page, as each instance has its own default Data service. See the
-   [Elasticsearch Clusters, Nodes, and GroupID](/versioned_docs/groupid_11.0/groupid/admincenter/service/overview.md#elasticsearch-clusters-nodes-and-groupid)
+   [Elasticsearch Clusters, Nodes, and GroupID](/docs/groupid/11.0/groupid/admincenter/service/overview.md#elasticsearch-clusters-nodes-and-groupid)
    topic.
 3. The card for a Data service displays the following information:
 
@@ -37,7 +37,7 @@ What do you want to do?
     | Name                 | The name given to the service. For a Mobile service, the identity stores associated with the service are also displayed.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
     | Deployment Instances | Displays the deployment name of the service and the web server where it is deployed. For a Mobile service, this area may display multiple deployment instance(s) of a service. Each instance is represented by a tile that shows the deployment name of the instance and the target web server.                                                                                                                                                                                                                                                                                                                                                                                                                                           |
     | Status               | A service has one of the following statuses: - **Running:** Indicates that the service is up and running. - **Stopped:** Indicates that GroupID is unable to communicate with the service. To troubleshoot, go to the web server where the service is deployed (IIS, remote IIS, or Docker) and make sure the service is running. - **Error:** Any issue other than _stopped_ is categorized as _error_. Contact your system administrator to resolve it.                                                                                                                                                                                                                                                                                 |
-    | Launch Application   | Click it to launch the service page. - For a Data service, Replication service, Email service, and Scheduler service, a page is displayed that simply shows the status of the service as _running_, _stopped_, or _error_. - For a Security service, the **GroupID Applications** page is displayed. Performing an action on this page will be carried out through the respective Security service. See the [Access your Applications](/versioned_docs/groupid_11.0/groupid/admincenter/general/accessapplications.md) topic. - For Admin Center, this link launches the Admin Center application. - For Mobile service, it launches the **GroupIDMobileService** page that enables users to configure the GroupID mobile app on a phone. |
+    | Launch Application   | Click it to launch the service page. - For a Data service, Replication service, Email service, and Scheduler service, a page is displayed that simply shows the status of the service as _running_, _stopped_, or _error_. - For a Security service, the **GroupID Applications** page is displayed. Performing an action on this page will be carried out through the respective Security service. See the [Access your Applications](/docs/groupid/11.0/groupid/admincenter/general/accessapplications.md) topic. - For Admin Center, this link launches the Admin Center application. - For Mobile service, it launches the **GroupIDMobileService** page that enables users to configure the GroupID mobile app on a phone. |
     | Ellipsis             | Click it to launch a shortcut menu with the following options: - **Settings:** launches the service settings page, where you can manage deployment settings and log settings. - **Delete:** deletes the service. This option is not available for the default services. For Mobile service, this shortcut menu also displays the following options: - **Deploy Another Instance:** enables you to deploy another instance of the service. - **Copy:** enables you to create a new Mobile service by copying the settings of this service.                                                                                                                                                                                                 |
 
 ## Change a Service’s Display Name
@@ -122,9 +122,9 @@ GroupID uses file logging and Windows logging to monitor events from a service. 
 logging level for a service to track a specific set of information for it.
 
 For details on file logging and Windows logging, see the
-[File Logging](/versioned_docs/groupid_11.0/groupid/admincenter/portal/server/log.md#file-logging)
+[File Logging](/docs/groupid/11.0/groupid/admincenter/portal/server/log.md#file-logging)
 and
-[Windows Logging](/versioned_docs/groupid_11.0/groupid/admincenter/portal/server/log.md#windows-logging)
+[Windows Logging](/docs/groupid/11.0/groupid/admincenter/portal/server/log.md#windows-logging)
 topics. Replace references to the portal with the respective service.
 
 NOTE: Windows logging is not available for Data service and Security service.
@@ -144,7 +144,7 @@ NOTE: Windows logging is not available for Data service and Security service.
    drop-down list.  
    File logging groups events into different levels, based on the type of information captured. See
    the table in the
-   [Change the File Logging Level for a Portal Instance](/versioned_docs/groupid_11.0/groupid/admincenter/portal/server/log.md#change-the-file-logging-level-for-a-portal-instance)topic
+   [Change the File Logging Level for a Portal Instance](/docs/groupid/11.0/groupid/admincenter/portal/server/log.md#change-the-file-logging-level-for-a-portal-instance)topic
    for information on the logging levels. Replace references to the portal with the respective
    service.
 7. Click **Save**.
@@ -178,7 +178,7 @@ NOTE: Windows logging is not available for Data service and Security service.
    drop-down list.  
    Windows logging groups events into different levels, based on the type of information captured.
    See the table in the
-   [Change the File Logging Level for a Portal Instance](/versioned_docs/groupid_11.0/groupid/admincenter/portal/server/log.md#change-the-file-logging-level-for-a-portal-instance)topic
+   [Change the File Logging Level for a Portal Instance](/docs/groupid/11.0/groupid/admincenter/portal/server/log.md#change-the-file-logging-level-for-a-portal-instance)topic
    for information on the logging levels. Replace references to the portal with the respective
    service.
 7. Click **Save**.
@@ -229,7 +229,7 @@ been linked with a GroupID client, such as the GroupID portal or a Mobile servic
 
 **See Also**
 
-- [GroupID Applications](/versioned_docs/groupid_11.0/groupid/admincenter/portal/applications.md)
-- [Data Service](/versioned_docs/groupid_11.0/groupid/admincenter/service/dataservice/overview.md)
-- [Create a Data Service](/versioned_docs/groupid_11.0/groupid/admincenter/service/dataservice/create.md)
-- [Get Logs](/versioned_docs/groupid_11.0/groupid/admincenter/general/logs.md)
+- [GroupID Applications](/docs/groupid/11.0/groupid/admincenter/portal/applications.md)
+- [Data Service](/docs/groupid/11.0/groupid/admincenter/service/dataservice/overview.md)
+- [Create a Data Service](/docs/groupid/11.0/groupid/admincenter/service/dataservice/create.md)
+- [Get Logs](/docs/groupid/11.0/groupid/admincenter/general/logs.md)

@@ -4,7 +4,7 @@ The Google Drive source configuration screen allows you to enable the crawling a
 content stored in both G-Suite repositories and Google Drive personal accounts.
 
 **IMPORTANT!** Make sure you created App for GDrive crawling prior to start adding the source.
-[See Configure G Suite and Google Drive for Crawling for more information.](/versioned_docs/dataclassification_5.6.2/ndc/config_infrastructure/configure_gdrive.md)
+[See Configure G Suite and Google Drive for Crawling for more information.](/docs/dataclassification/5.6.2/ndc/config_infrastructure/configure_gdrive.md)
 
 ![add_gdrive_source_thumb_0_0](/img/versioned_docs/dataclassification_5.6.2/ndc/sources/google_drive/add_gdrive_source_thumb_0_0.webp)
 

@@ -42,7 +42,7 @@ being monitored.
 > > **CAUTION:** Saving all TGT and/or TGS authentication data results in the bloating of the Threat
 > > Prevention database. Configure policy filters and use Database Maintenance while monitoring
 > > these protocols to retain data for the necessary timeframe. See the
-> > [Database Maintenance Window](/versioned_docs/threatprevention_7.4/threatprevention/admin/configuration/databasemaintenance/overview.md)
+> > [Database Maintenance Window](/docs/threatprevention/7.4/threatprevention/admin/configuration/databasemaintenance/overview.md)
 > > topic for additional information.
 > >
 > > **_RECOMMENDED:_** Save only a few days' worth of TGT and TGS data at a time.
@@ -77,15 +77,15 @@ to exclude specific domains and/or servers.
 Use the buttons in the Include and Exclude areas to edit the lists.
 
 - The Add (+) buttons open the
-  [Select Domains and Servers Window](/versioned_docs/threatprevention_7.4/threatprevention/admin/policies/eventtype/window/selectdomainsservers.md).
+  [Select Domains and Servers Window](/docs/threatprevention/7.4/threatprevention/admin/policies/eventtype/window/selectdomainsservers.md).
 - The Collection button opens the
-  [List of Collections Window](/versioned_docs/threatprevention_7.4/threatprevention/admin/configuration/collectionmanager/listcollections.md)
+  [List of Collections Window](/docs/threatprevention/7.4/threatprevention/admin/configuration/collectionmanager/listcollections.md)
   to the appropriate Collection category.
 - The Remove (x) button deletes the selected item(s) from that box.
 
 **NOTE:** To enable a Dynamic Policy, use the Collection button to select the desired Dynamic
 Collection. See the
-[Dynamic Collections](/versioned_docs/threatprevention_7.4/threatprevention/admin/configuration/collectionmanager/dynamic.md)
+[Dynamic Collections](/docs/threatprevention/7.4/threatprevention/admin/configuration/collectionmanager/dynamic.md)
 topic for additional information.
 
 ## Success Filter
@@ -114,15 +114,15 @@ Use the buttons in the Include Perpetrators, Include Collections, Exclude Perpet
 Collections areas to edit the lists.
 
 - The Perpetrators Add (+) button opens the
-  [Select Active Directory Perpetrators Window](/versioned_docs/threatprevention_7.4/threatprevention/admin/policies/eventtype/window/selectactivedirectory/perpetrators.md).
+  [Select Active Directory Perpetrators Window](/docs/threatprevention/7.4/threatprevention/admin/policies/eventtype/window/selectactivedirectory/perpetrators.md).
 - The Collection button opens the
-  [List of Collections Window](/versioned_docs/threatprevention_7.4/threatprevention/admin/configuration/collectionmanager/listcollections.md)
+  [List of Collections Window](/docs/threatprevention/7.4/threatprevention/admin/configuration/collectionmanager/listcollections.md)
   to the appropriate Collection category.
 - The Remove (x) button deletes the selected item(s) from that box.
 
 **NOTE:** To enable a Dynamic Policy, use the Collection button to select the desired Dynamic
 Collection. See the
-[Dynamic Collections](/versioned_docs/threatprevention_7.4/threatprevention/admin/configuration/collectionmanager/dynamic.md)
+[Dynamic Collections](/docs/threatprevention/7.4/threatprevention/admin/configuration/collectionmanager/dynamic.md)
 topic for additional information.
 
 Sub Tree
@@ -143,15 +143,15 @@ Use the buttons in the Include IP Addresses, Include Collections, Exclude IP Add
 Collections areas to edit the lists.
 
 - The IP Addresses Add (+) button opens the
-  [Add IP Address Window](/versioned_docs/threatprevention_7.4/threatprevention/admin/policies/eventtype/window/addipaddress.md).
+  [Add IP Address Window](/docs/threatprevention/7.4/threatprevention/admin/policies/eventtype/window/addipaddress.md).
 - The Collection button opens the
-  [List of Collections Window](/versioned_docs/threatprevention_7.4/threatprevention/admin/configuration/collectionmanager/listcollections.md)
+  [List of Collections Window](/docs/threatprevention/7.4/threatprevention/admin/configuration/collectionmanager/listcollections.md)
   to the appropriate Collection category.
 - The Remove (x) button deletes the selected item(s) from that box.
 
 **NOTE:** To enable a Dynamic Policy, use the Collection button to select the desired Dynamic
 Collection. See the
-[Dynamic Collections](/versioned_docs/threatprevention_7.4/threatprevention/admin/configuration/collectionmanager/dynamic.md)
+[Dynamic Collections](/docs/threatprevention/7.4/threatprevention/admin/configuration/collectionmanager/dynamic.md)
 topic for additional information.
 
 ## IP Addresses (to) Filter
@@ -165,15 +165,15 @@ Use the buttons in the Include IP Addresses, Include Collections, Exclude IP Add
 Collections areas to edit the lists.
 
 - The IP Addresses Add (+) button opens the
-  [Add IP Address Window](/versioned_docs/threatprevention_7.4/threatprevention/admin/policies/eventtype/window/addipaddress.md).
+  [Add IP Address Window](/docs/threatprevention/7.4/threatprevention/admin/policies/eventtype/window/addipaddress.md).
 - The Collection button opens the
-  [List of Collections Window](/versioned_docs/threatprevention_7.4/threatprevention/admin/configuration/collectionmanager/listcollections.md)
+  [List of Collections Window](/docs/threatprevention/7.4/threatprevention/admin/configuration/collectionmanager/listcollections.md)
   to the appropriate Collection category.
 - The Remove (x) button deletes the selected item(s) from that box.
 
 **NOTE:** To enable a Dynamic Policy, use the Collection button to select the desired Dynamic
 Collection. See the
-[Dynamic Collections](/versioned_docs/threatprevention_7.4/threatprevention/admin/configuration/collectionmanager/dynamic.md)
+[Dynamic Collections](/docs/threatprevention/7.4/threatprevention/admin/configuration/collectionmanager/dynamic.md)
 topic for additional information.
 
 ## Hosts (from) Filter
@@ -187,15 +187,15 @@ Use the buttons in the Include Hosts, Include Collections, Exclude Hosts, and Ex
 areas to edit the lists.
 
 - The Hosts Add (+) button opens the
-  [Select Computer Window](/versioned_docs/threatprevention_7.4/threatprevention/admin/policies/eventtype/window/selectcomputers.md).
+  [Select Computer Window](/docs/threatprevention/7.4/threatprevention/admin/policies/eventtype/window/selectcomputers.md).
 - The Collection button opens the
-  [List of Collections Window](/versioned_docs/threatprevention_7.4/threatprevention/admin/configuration/collectionmanager/listcollections.md)
+  [List of Collections Window](/docs/threatprevention/7.4/threatprevention/admin/configuration/collectionmanager/listcollections.md)
   to the appropriate Collection category.
 - The Remove (x) button deletes the selected item(s) from that box.
 
 **NOTE:** To enable a Dynamic Policy, use the Collection button to select the desired Dynamic
 Collection. See the
-[Dynamic Collections](/versioned_docs/threatprevention_7.4/threatprevention/admin/configuration/collectionmanager/dynamic.md)
+[Dynamic Collections](/docs/threatprevention/7.4/threatprevention/admin/configuration/collectionmanager/dynamic.md)
 topic for additional information.
 
 ## Hosts (to) Filter
@@ -209,13 +209,13 @@ Use the buttons in the Include Hosts, Include Collections, Exclude Hosts, and Ex
 areas to edit the lists.
 
 - The Hosts Add (+) button opens the
-  [Select Computer Window](/versioned_docs/threatprevention_7.4/threatprevention/admin/policies/eventtype/window/selectcomputers.md).
+  [Select Computer Window](/docs/threatprevention/7.4/threatprevention/admin/policies/eventtype/window/selectcomputers.md).
 - The Collection button opens the
-  [List of Collections Window](/versioned_docs/threatprevention_7.4/threatprevention/admin/configuration/collectionmanager/listcollections.md)
+  [List of Collections Window](/docs/threatprevention/7.4/threatprevention/admin/configuration/collectionmanager/listcollections.md)
   to the appropriate Collection category.
 - The Remove (x) button deletes the selected item(s) from that box.
 
 **NOTE:** To enable a Dynamic Policy, use the Collection button to select the desired Dynamic
 Collection. See the
-[Dynamic Collections](/versioned_docs/threatprevention_7.4/threatprevention/admin/configuration/collectionmanager/dynamic.md)
+[Dynamic Collections](/docs/threatprevention/7.4/threatprevention/admin/configuration/collectionmanager/dynamic.md)
 topic for additional information.

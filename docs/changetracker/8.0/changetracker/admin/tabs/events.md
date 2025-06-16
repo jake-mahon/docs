@@ -13,7 +13,7 @@ attribute type, change type and keywords.
 
 **Step 4 –** The **Query/Report** button can be used to specify events to include in a scheduled
 report or re-useable query for users. See the
-[Reports Tab](/versioned_docs/changetracker_8.0/changetracker/admin/tabs/reportstab.md) topic for
+[Reports Tab](/docs/changetracker/8.0/changetracker/admin/tabs/reportstab.md) topic for
 additional information.
 
 **Step 5 –** Select **Events** of interest then use **Actions** to either acknowledge or

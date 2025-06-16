@@ -63,4 +63,4 @@ The domain account used to connect GroupID with SQL Server must:
 
 See Also
 
-- [Configuration Tool](/versioned_docs/groupid_11.0/groupid/install/configure/configure.md)
+- [Configuration Tool](/docs/groupid/11.0/groupid/install/configure/configure.md)

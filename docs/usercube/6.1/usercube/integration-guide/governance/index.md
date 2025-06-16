@@ -32,7 +32,7 @@ assignment decisions concerning, for example, movers or leavers.
 Usercube's certification module also helps managers produce accurate reports that they can present
 to an auditor.
 
-[Learn how to configure certification campaigns](/versioned_docs/usercube_6.1/usercube/integration-guide/governance/accesscertification/index.md).
+[Learn how to configure certification campaigns](/docs/usercube/6.1/usercube/integration-guide/governance/accesscertification/index.md).
 
 ## Risk Management
 
@@ -41,4 +41,4 @@ security risk. The module facilitates the analysis and mitigation of different k
 as Segregation of Duties (SoD) or High Privilege. Risks can be used to identify sensitive
 assignments that should be reviewed first during a certification campaign.
 
-[Learn how to configure risks](/versioned_docs/usercube_6.1/usercube/integration-guide/governance/risks/index.md).
+[Learn how to configure risks](/docs/usercube/6.1/usercube/integration-guide/governance/risks/index.md).

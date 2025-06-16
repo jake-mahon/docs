@@ -223,4 +223,4 @@ linked anymore in the GroupID portal.
 
 **See Also**
 
-- [Link Identity Stores](/versioned_docs/groupid_11.0/groupid/admincenter/identitystore/link/overview.md)
+- [Link Identity Stores](/docs/groupid/11.0/groupid/admincenter/identitystore/link/overview.md)

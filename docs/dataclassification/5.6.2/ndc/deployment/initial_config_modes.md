@@ -30,5 +30,5 @@ Keyword mode). Recommended for knowledge management, data storage optimization, 
 content services.
 
 Proceed with configuring processing settings. See
-[Processing Settings](/versioned_docs/dataclassification_5.6.2/ndc/deployment/initial_config_processing-settings.md)
+[Processing Settings](/docs/dataclassification/5.6.2/ndc/deployment/initial_config_processing-settings.md)
 next.

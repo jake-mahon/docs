@@ -22,13 +22,13 @@ You must enable the YubiKey authentication type for an identity store for users 
 factor authentication and multifactor authentication.
 
 To enable it, see the
-[Enable Authentication Types](/versioned_docs/groupid_11.0/groupid/admincenter/identitystore/configure/authtypes.md)
+[Enable Authentication Types](/docs/groupid/11.0/groupid/admincenter/identitystore/configure/authtypes.md)
 topic.
 
 ## Enforce YubiKey Authentication for a Security Role in an Identity Store
 
 To enforce an authentication type, see the
-[Enforce Authentication Types for Multifactor Authentication](/versioned_docs/groupid_11.0/groupid/admincenter/securityrole/policy/authentication.md#enforce-authentication-types-for-multifactor-authentication)
+[Enforce Authentication Types for Multifactor Authentication](/docs/groupid/11.0/groupid/admincenter/securityrole/policy/authentication.md#enforce-authentication-types-for-multifactor-authentication)
 topic.
 
 Role members must use an enforced authentication type for multifactor authentication. When an
@@ -37,4 +37,4 @@ and authentication.
 
 See Also
 
-- [Authentication Policy](/versioned_docs/groupid_11.0/groupid/admincenter/identitystore/configure/authpolicy.md)
+- [Authentication Policy](/docs/groupid/11.0/groupid/admincenter/identitystore/configure/authpolicy.md)

@@ -13,10 +13,10 @@ VIP, etc.) for all user accounts. First time users must register an MFA to use w
 Directory credentials:
 
 - Configure multi-factor authentication (MFA). See the
-  [First Launch](/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/install/firstlaunch.md)
+  [First Launch](/docs/privilegesecure/4.1/privilegesecure/accessmanagement/install/firstlaunch.md)
   topic for additional information.
 - Login to the Privilege Secure Console. See the
-  [Log Into the Privilege Secure Console](/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/login.md)
+  [Log Into the Privilege Secure Console](/docs/privilegesecure/4.1/privilegesecure/accessmanagement/admin/login.md)
   topic for additional information.
 
 ## Update the License
@@ -25,7 +25,7 @@ Netwrix Privilege Secure comes with a temporary 30-day license. Contact the orga
 Stealthbits sales representative to purchase a license:
 
 - Import the license file. See the
-  [Import the License File](/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/importlicense.md)
+  [Import the License File](/docs/privilegesecure/4.1/privilegesecure/accessmanagement/admin/importlicense.md)
   topic for additional information.
 
 Privilege Secure licensing is done according to user count. Any user who is provisioned access to
@@ -37,9 +37,9 @@ regardless of role (Administrator, Reviewer, User, or Custom Role).
 Prior to using Privilege Secure, it is necessary to add the service accounts and domains that
 contain the users, groups and resources:
 
-- [Service Accounts Page](/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/configuration/page/serviceaccounts.md)
+- [Service Accounts Page](/docs/privilegesecure/4.1/privilegesecure/accessmanagement/admin/configuration/page/serviceaccounts.md)
   — Add the account credentials that will grant access to the required resources
-- [Add New Domain](/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/policy/add/domain.md)
+- [Add New Domain](/docs/privilegesecure/4.1/privilegesecure/accessmanagement/admin/policy/add/domain.md)
   — Add the Active Directory domains that contain the users, groups, resources and service accounts
   that Privilege Secure will use to grant access
 
@@ -50,12 +50,12 @@ of an access policy to create a session. The access policy determines what activ
 perform and on what resources. An Access Policy consists of three parts that must be configured
 first:
 
-- [Users & Groups Page](/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/policy/page/usersgroups.md)
+- [Users & Groups Page](/docs/privilegesecure/4.1/privilegesecure/accessmanagement/admin/policy/page/usersgroups.md)
   — Add the Users and Groups from AD that will use the Privilege Secure Console
-- [Resources Page](/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/policy/page/resources.md)
+- [Resources Page](/docs/privilegesecure/4.1/privilegesecure/accessmanagement/admin/policy/page/resources.md)
   — Add the resources such as Windows or Linux servers that the users will access via the Privilege
   Secure Console
-- [Activities Page](/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/policy/page/activities.md)
+- [Activities Page](/docs/privilegesecure/4.1/privilegesecure/accessmanagement/admin/policy/page/activities.md)
   — Add the actions that Privilege Secure will perform before, during and after a session, such as
   temporarily adding the user to a local admins group
 
@@ -64,17 +64,17 @@ first:
 Once the users, groups and resources are added to the console, it is now possible to create access
 policies to control privileged access:
 
-- [Connection Profiles Page](/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/policy/page/connectionprofiles.md)
+- [Connection Profiles Page](/docs/privilegesecure/4.1/privilegesecure/accessmanagement/admin/policy/page/connectionprofiles.md)
   — Add the connection profile that will be used with the access policy
-- [Access Policy Page](/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/policy/page/accesspolicy.md)
+- [Access Policy Page](/docs/privilegesecure/4.1/privilegesecure/accessmanagement/admin/policy/page/accesspolicy.md)
   — Create the access policies to control privileged access to resources
 
 ## Create Sessions
 
 Privilege Secure is configured and ready to use:
 
-- [Create My Activity Session](/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/enduser/access/createsession.md)
+- [Create My Activity Session](/docs/privilegesecure/4.1/privilegesecure/accessmanagement/enduser/access/createsession.md)
   — Create a session to grant temporary privileges and gain access to the resources defined by the
   previously created access policy
-- [Browser Extension Interface](/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/enduser/browserextension/interface.md)
+- [Browser Extension Interface](/docs/privilegesecure/4.1/privilegesecure/accessmanagement/enduser/browserextension/interface.md)
   — Conveniently access all of your previously created activities from within an internet browser

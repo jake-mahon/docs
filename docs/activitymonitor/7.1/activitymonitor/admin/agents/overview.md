@@ -11,19 +11,19 @@ Agent Messages box. The button bar allows users to take the following actions:
 - Add Agent – Opens the Add New Agent(s) window to deploy the activity/AD agent to a single server
   or to multiple servers at the same time. The following sections provide additional information:
 
-    - [Single Activity Agent Deployment](/versioned_docs/activitymonitor_7.1/activitymonitor/admin/agents/add/single.md)
-    - [Multiple Activity Agents Deployment](/versioned_docs/activitymonitor_7.1/activitymonitor/admin/agents/add/multiple.md)
-    - [Active Directory Agent Deployment](/versioned_docs/activitymonitor_7.1/activitymonitor/admin/agents/add/activedirectory.md)
-    - [Linux Agent Deployment](/versioned_docs/activitymonitor_7.1/activitymonitor/admin/agents/add/linux.md)
+    - [Single Activity Agent Deployment](/docs/activitymonitor/7.1/activitymonitor/admin/agents/add/single.md)
+    - [Multiple Activity Agents Deployment](/docs/activitymonitor/7.1/activitymonitor/admin/agents/add/multiple.md)
+    - [Active Directory Agent Deployment](/docs/activitymonitor/7.1/activitymonitor/admin/agents/add/activedirectory.md)
+    - [Linux Agent Deployment](/docs/activitymonitor/7.1/activitymonitor/admin/agents/add/linux.md)
     - Remove – Opens the Remove Agents window where users can choose to remove the hosting server
       from the activity agents table or uninstalling the activity agent from the hosting server
       before removing the activity agent from the table. See the
-      [Remove Agents](/versioned_docs/activitymonitor_7.1/activitymonitor/install/removeagent.md)
+      [Remove Agents](/docs/activitymonitor/7.1/activitymonitor/install/removeagent.md)
       topic for additional information.
 
 - Edit – Opens the selected server’s Properties window to modify the server name or credentials. See
   the
-  [Agent Properties Window](/versioned_docs/activitymonitor_7.1/activitymonitor/admin/agents/properties/overview.md)
+  [Agent Properties Window](/docs/activitymonitor/7.1/activitymonitor/admin/agents/properties/overview.md)
   topic for additional information.
 - Start pending modules – Starts AD agent monitoring modules which were not yet started
 
@@ -37,7 +37,7 @@ Agent Messages box. The button bar allows users to take the following actions:
 - Upgrade – [When Agent Status is Outdated] Replaces outdated activity agent with current version
 - Update Installer – Opens a browser window to select the newer AD agent installer. A confirmation
   window then opens and identifies the new installer version. See the
-  [Update AD Agent Installer](/versioned_docs/activitymonitor_7.1/activitymonitor/install/updateadagentinstaller.md)
+  [Update AD Agent Installer](/docs/activitymonitor/7.1/activitymonitor/install/updateadagentinstaller.md)
   topic for additional information.
 - Refresh all – Refresh the status of all activity agents
 
@@ -66,4 +66,4 @@ activity/AD agent, and upgrade of an activity/AD agent.
 v4.0+ Console.
 
 For additional information on how to deploy agents manually, see the
-[Agent Information](/versioned_docs/activitymonitor_7.1/activitymonitor/install/agents.md) topic.
+[Agent Information](/docs/activitymonitor/7.1/activitymonitor/install/agents.md) topic.

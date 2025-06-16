@@ -1,7 +1,7 @@
 # Assignment Dates
 
 Entitlements can be assigned to users
-[manually or automatically](/versioned_docs/usercube_6.1/usercube/integration-guide/role-assignment/assignments-of-entitlements/index.md),
+[manually or automatically](/docs/usercube/6.1/usercube/integration-guide/role-assignment/assignments-of-entitlements/index.md),
 but not on any time period.
 
 ## For Manual Assignments
@@ -22,5 +22,5 @@ its end date equal to the records' latest end date.
 ## For Automatic Assignments
 
 The start and end dates of any automatic assignment are based on the dates from the
-[context rule](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/provisioning/contextrule/index.md)
+[context rule](/docs/usercube/6.1/usercube/integration-guide/toolkit/xml-configuration/provisioning/contextrule/index.md)
 defined for the identities.

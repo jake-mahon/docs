@@ -5,7 +5,7 @@ environment. Dropbox can scan the contents of over 400 file types to discover wh
 sensitive data using the Sensitive Data Discovery Add-on. The DropboxAccess Data Collector has been
 preconfigured within the Dropbox Solution. Both this data collector and the solution are available
 with a special Enterprise Auditor license. See the
-[Dropbox Solution](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/dropbox/overview.md)
+[Dropbox Solution](/docs/accessanalyzer/11.6/enterpriseauditor/solutions/dropbox/overview.md)
 topic for additional information.
 
 Protocols
@@ -37,12 +37,12 @@ Wizard. The wizard contains the following pages, which change based upon the que
 selected:
 
 - Welcome
-- [DropboxAccess: Category](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/dropboxaccess/category.md)
-- [DropboxAccess: Scan Options](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/dropboxaccess/scanoptions.md)
-- [DropboxAccess: Scoping](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/dropboxaccess/scoping.md)
-- [DropboxAccess: DLP Audit Settings](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/dropboxaccess/dlpauditsettings.md)
-- [DropboxAccess: Select DLP Criteria](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/dropboxaccess/selectdlpcriteria.md)
-- [DropboxAccess: Summary (Completion)](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/dropboxaccess/completion.md)
+- [DropboxAccess: Category](/docs/accessanalyzer/11.6/enterpriseauditor/admin/datacollector/dropboxaccess/category.md)
+- [DropboxAccess: Scan Options](/docs/accessanalyzer/11.6/enterpriseauditor/admin/datacollector/dropboxaccess/scanoptions.md)
+- [DropboxAccess: Scoping](/docs/accessanalyzer/11.6/enterpriseauditor/admin/datacollector/dropboxaccess/scoping.md)
+- [DropboxAccess: DLP Audit Settings](/docs/accessanalyzer/11.6/enterpriseauditor/admin/datacollector/dropboxaccess/dlpauditsettings.md)
+- [DropboxAccess: Select DLP Criteria](/docs/accessanalyzer/11.6/enterpriseauditor/admin/datacollector/dropboxaccess/selectdlpcriteria.md)
+- [DropboxAccess: Summary (Completion)](/docs/accessanalyzer/11.6/enterpriseauditor/admin/datacollector/dropboxaccess/completion.md)
 
 ![Dropbox Access Auditor Data Collector Wizard Welcome page](/img/versioned_docs/activitymonitor_7.1/activitymonitor/install/welcome.webp)
 

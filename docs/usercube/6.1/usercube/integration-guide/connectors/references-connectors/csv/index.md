@@ -3,7 +3,7 @@
 This connector exports data from a [CSV file](https://en.wikipedia.org/wiki/Comma-separated_values).
 
 This page is about
-[File/CSV](/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/references-packages/csv/index.md).
+[File/CSV](/docs/usercube/6.1/usercube/integration-guide/connectors/references-packages/csv/index.md).
 
 ![Package: File/CSV](/img/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/references-connectors/csv/packages_csv_v603.webp)
 
@@ -23,7 +23,7 @@ Usercube's format.
 ### Configuration
 
 This process is configured through a
-[connection](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/connectors/connection/index.md)
+[connection](/docs/usercube/6.1/usercube/integration-guide/toolkit/xml-configuration/connectors/connection/index.md)
 in the UI and/or the XML configuration, and in the `appsettings.agent.json > Connections` section:
 
 ```
@@ -94,7 +94,7 @@ of lines to skip in order to reach the line used as data header. |
 ### Output details
 
 This connector is meant to generate a CSV file, named `<connectionIdentifier>.csv`, to the
-[`ExportOutput`](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/appsettings/index.md)
+[`ExportOutput`](/docs/usercube/6.1/usercube/integration-guide/network-configuration/agent-configuration/appsettings/index.md)
 folder.
 
 > For example, when exporting a connection named `HRCountries`, the output file will be named
@@ -118,10 +118,10 @@ This connector does not reset passwords.
 ### Credential protection
 
 This connector has no credential attributes, and therefore does not use
-[RSA encryption](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/rsa-encryption/index.md),
+[RSA encryption](/docs/usercube/6.1/usercube/integration-guide/network-configuration/agent-configuration/rsa-encryption/index.md),
 nor a
-[CyberArk Vault](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/cyberark-application-access-manager-credential-providers/index.md).
+[CyberArk Vault](/docs/usercube/6.1/usercube/integration-guide/network-configuration/agent-configuration/cyberark-application-access-manager-credential-providers/index.md).
 
 Still, data protection can be ensured through an
-[Azure Key Vault](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/azure-key-vault/index.md)
+[Azure Key Vault](/docs/usercube/6.1/usercube/integration-guide/network-configuration/agent-configuration/azure-key-vault/index.md)
 safe.

@@ -31,7 +31,7 @@ The following analysis tasks are selected by default:
 
     - The default is 6 months. It can be modified.
     - See the
-      [Exchange History Retention](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/exchange/hubmetrics/collection/ex_metricscollection.md#exchange-history-retention)
+      [Exchange History Retention](/docs/accessanalyzer/11.6/enterpriseauditor/solutions/exchange/hubmetrics/collection/ex_metricscollection.md#exchange-history-retention)
       topic for additional information
 
 The following analysis tasks deletes table data from data collection and analysis jobs. These
@@ -43,7 +43,7 @@ troubleshooting and cleanup only. Data will be deleted from the database.
 -   0. Delete all History - LEAVE UNCHECKED – Clears all historical data
 
     - See the
-      [Troubleshooting Data Collection](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/exchange/hubmetrics/collection/ex_metricscollection.md#troubleshooting-data-collection)
+      [Troubleshooting Data Collection](/docs/accessanalyzer/11.6/enterpriseauditor/solutions/exchange/hubmetrics/collection/ex_metricscollection.md#troubleshooting-data-collection)
       topic for additional information
 
 In addition to the tables and views created by the analysis tasks, the EX_RPCTraffic Job produces

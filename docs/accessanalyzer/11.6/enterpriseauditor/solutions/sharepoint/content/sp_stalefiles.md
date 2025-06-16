@@ -10,7 +10,7 @@ information.
 
 The Configuration section on a Job's overview page allows you to easily modify any customizable
 parameters used by analysis tasks in the job. See the
-[Parameter Configuration](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/jobs/job/overview.md#parameter-configuration)
+[Parameter Configuration](/docs/accessanalyzer/11.6/enterpriseauditor/admin/jobs/job/overview.md#parameter-configuration)
 topic for instructions on how to edit parameters on a job overview page.
 
 The SP_StaleFiles page has the following configurable parameters:

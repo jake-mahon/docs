@@ -7,7 +7,7 @@ directories, and then combine them in a job collection. Then you can execute the
 instead of executing each job one by one.
 
 To understand how workflows work with Synchronize jobs, see the
-[Synchronize Jobs and Workflows](/versioned_docs/groupid_11.0/groupid/admincenter/workflow/overview.md#synchronize-jobs-and-workflows)
+[Synchronize Jobs and Workflows](/docs/groupid/11.0/groupid/admincenter/workflow/overview.md#synchronize-jobs-and-workflows)
 topic.
 
 What do you want to do?
@@ -19,16 +19,16 @@ What do you want to do?
 1. On GroupID Portal, select **Synchronize** on left pane.
 2. On the Synchronize portal, click **Create New** and then click **Job Collection.**
 3. On the
-   [Choose your Job Template](/versioned_docs/groupid_11.0/groupid/portal/synchronize/collection/chooseyourjobcollectiontemplate.md)
+   [Choose your Job Template](/docs/groupid/11.0/groupid/portal/synchronize/collection/chooseyourjobcollectiontemplate.md)
    page, enter job collection details and select whether to use a job collection template or create
    the job collection from scratch.
 4. Click **Next Step**
 5. On the
-   [Synchronized Job Collection](/versioned_docs/groupid_11.0/groupid/portal/synchronize/collection/synchronizedjobcollection.md)
+   [Synchronized Job Collection](/docs/groupid/11.0/groupid/portal/synchronize/collection/synchronizedjobcollection.md)
    page, add jobs to the collection. You can either add existing jobs or create new jobs to add them
    to the job collection.
 6. On the
-   [Scheduling and Notifications](/versioned_docs/groupid_11.0/groupid/portal/synchronize/collection/schedulingandnotification.md)
+   [Scheduling and Notifications](/docs/groupid/11.0/groupid/portal/synchronize/collection/schedulingandnotification.md)
    page, choose a schedule for a job collection and set up notification settings.
 
     NOTE: After creating the job collection, you can modify the schedule for the job collection and
@@ -43,7 +43,7 @@ What do you want to do?
     which workflow is not configured. If workflow is configured for any job, the request gets
     generated against that specific job.
 11. Generated workflow request will be displayed in the
-    "[Requests](/versioned_docs/groupid_11.0/groupid/portal/request/overview.md)" section for the
+    "[Requests](/docs/groupid/11.0/groupid/portal/request/overview.md)" section for the
     workflow approver(s). If the approver approves the workflow request, the job will execute the
     results.
 12. **Run Job Collection** dialog box displays overall collection statistics for the run, reports
@@ -51,8 +51,8 @@ What do you want to do?
 
 **See Also**
 
-- [Job Collection Template](/versioned_docs/groupid_11.0/groupid/portal/synchronize/manage/jobcollectiontemplate.md)
-- [Manage a Job Collection ](/versioned_docs/groupid_11.0/groupid/portal/synchronize/manage/jobcollection.md)
-- [Synchronize Schedule](/versioned_docs/groupid_11.0/groupid/admincenter/schedule/synchronize.md)
-- [Transform](/versioned_docs/groupid_11.0/groupid/portal/synchronize/transformation/overview.md)
-- [Auto-Generate Unique, Complex Passwords](/versioned_docs/groupid_11.0/groupid/portal/synchronize/transformation/autogenerateuniquepassword.md)
+- [Job Collection Template](/docs/groupid/11.0/groupid/portal/synchronize/manage/jobcollectiontemplate.md)
+- [Manage a Job Collection ](/docs/groupid/11.0/groupid/portal/synchronize/manage/jobcollection.md)
+- [Synchronize Schedule](/docs/groupid/11.0/groupid/admincenter/schedule/synchronize.md)
+- [Transform](/docs/groupid/11.0/groupid/portal/synchronize/transformation/overview.md)
+- [Auto-Generate Unique, Complex Passwords](/docs/groupid/11.0/groupid/portal/synchronize/transformation/autogenerateuniquepassword.md)

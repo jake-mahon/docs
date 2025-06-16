@@ -69,7 +69,7 @@ Release date 12-Sep-2022
       requests. If these attributes are not synchronized in Usercube, they cannot be provided by
       scalar rules or navigation rules. Now, these attributes can be given as arguments in the
       provisioning order, using the ResourceType's ArgumentsExpression. See the
-      [documentation](/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/references-connectors/ldap/index.md).
+      [documentation](/docs/usercube/6.1/usercube/integration-guide/connectors/references-connectors/ldap/index.md).
     - For the PowerBI integration, a new configuration parameter permits choosing between showing
       the identifier or the display name for columns in PowerBI. After the changing the parameter
       and deploying the configuration, the PowerBI cache must be fully emptied.
@@ -86,7 +86,7 @@ Release date 12-Sep-2022
       that let the user navigate to a custom static HTML pages. At this time, only two custom link
       settings can be configured. Two examples have been added to the Usercube demo configuration
       with URLs : /LegalNotice & /TermsService. See the
-      [documentation](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/settings/index.md)
+      [documentation](/docs/usercube/6.1/usercube/integration-guide/network-configuration/settings/index.md)
       for more information.
 
 #### Fixed Bugs:
@@ -240,14 +240,14 @@ Release date 31-May-2022
 ### **Compatibility notice:**
 
 This release includes compatibility ruptures. The migration steps in the documentation's
-[Migration](/versioned_docs/usercube_6.1/usercube/migration-guide/index.md) section must therefore
+[Migration](/docs/usercube/6.1/usercube/migration-guide/index.md) section must therefore
 be followed.
 
 For licensing reasons, the Oracle and MySQL dlls have been removed from the Runtime. If these
 connectors are used, please refer to the documentation for
-[MySQL](/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/references-packages/mysql/index.md)
+[MySQL](/docs/usercube/6.1/usercube/integration-guide/connectors/references-packages/mysql/index.md)
 and
-[Oracle](/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/references-packages/oracle-database/index.md)
+[Oracle](/docs/usercube/6.1/usercube/integration-guide/connectors/references-packages/oracle-database/index.md)
 for more information.
 
 #### Fixed Bugs:
@@ -300,21 +300,21 @@ Release date 17-May-2022
 ### **Compatibility notice:**
 
 This release includes compatibility ruptures. The migration steps in the documentation's
-[Migration](/versioned_docs/usercube_6.1/usercube/migration-guide/index.md) section must therefore
+[Migration](/docs/usercube/6.1/usercube/migration-guide/index.md) section must therefore
 be followed.
 
 For licensing reasons, the Oracle and MySQL dlls have been removed from the Runtime. If these
 connectors are used, please refer to the documentation for
-[MySQL](/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/references-packages/mysql/index.md)
+[MySQL](/docs/usercube/6.1/usercube/integration-guide/connectors/references-packages/mysql/index.md)
 and
-[Oracle](/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/references-packages/oracle-database/index.md)
+[Oracle](/docs/usercube/6.1/usercube/integration-guide/connectors/references-packages/oracle-database/index.md)
 for more information.
 
 #### Enhancements:
 
 - Access Control and Workflows
     - Homonym searches are now more customizable. See the
-      [documentation](/versioned_docs/usercube_6.1/usercube/integration-guide/workflows/how-to/configure-homonym-test/index.md)
+      [documentation](/docs/usercube/6.1/usercube/integration-guide/workflows/how-to/configure-homonym-test/index.md)
       for more information.
     - Improvements to the ToSoundex method used in expressions: now, all diacritics glyphs are
       replaced by simple letter to get the Soundex value.
@@ -328,9 +328,9 @@ for more information.
     - Two new connectors are now available for EasyVista in the Usercube marketplace. One allows the
       synchronization of users and the other allows the provisioning of tickets. For more
       information see the documentation, for
-      [users](/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/references-connectors/easyvista/index.md)
+      [users](/docs/usercube/6.1/usercube/integration-guide/connectors/references-connectors/easyvista/index.md)
       and
-      [tickets](/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/references-connectors/easyvistaticket/index.md).
+      [tickets](/docs/usercube/6.1/usercube/integration-guide/connectors/references-connectors/easyvistaticket/index.md).
       Please contact your customer success manager for information about licensing. NOTE: This
       feature requires that the agent be upgraded.
     - On the connector screens, source columns are now modifiable by the user even without a schema
@@ -347,7 +347,7 @@ for more information.
     - Integrated a new "Literal" expression option, reducing the need for C# code for simple cases.
       The "Literal" expression is available for ResourceScalarRule expressions, ResourceQueryRule
       source expressions and EntityPropertyExpression expressions for creation and update. See the
-      [documentation](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/expressions/index.md)
+      [documentation](/docs/usercube/6.1/usercube/integration-guide/toolkit/expressions/index.md)
       for more information.
     - The role model simulation has been redesigned and has more fonctionality.
       ![SimulationAddDelete](/img/versioned_docs/usercube_6.1/usercube/whatsnew/olderversions/5.2.3.simulationadddelete.png)![SimulationResults](/img/versioned_docs/usercube_6.1/usercube/whatsnew/olderversions/5.2.3.simulationresults.png)
@@ -365,7 +365,7 @@ for more information.
       screens (Role Review, Provisioning Review, Role Reconciliation, Resource Reconciliation and
       Manual Provisioning. This can help with performance issues. See `DisableProvisioningCounters`
       in the
-      [documentation](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/settings/index.md).
+      [documentation](/docs/usercube/6.1/usercube/integration-guide/network-configuration/settings/index.md).
     - Entity histories are now available. Browse an entity's history and view all the events related
       to that entity. Events of the same type can be compared in order to see differences between
       dates.
@@ -521,7 +521,7 @@ Release date 24-Feb-2022
 ### **Compatibility notice:**
 
 This release includes compatibility ruptures. The migration steps in the documentation's
-[Migration](/versioned_docs/usercube_6.1/usercube/migration-guide/index.md) section must therefore
+[Migration](/docs/usercube/6.1/usercube/migration-guide/index.md) section must therefore
 be followed.
 
 #### Enhancements:
@@ -533,7 +533,7 @@ be followed.
     - On the Access Rule pages, hours and minutes can now be defined for time offsets.
 - Other
     - The configuration can now be deployed remotely via an HTTP post request. See the
-      [documentation](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/jobs/tasks/server/deployconfigurationtask/index.md)
+      [documentation](/docs/usercube/6.1/usercube/integration-guide/toolkit/xml-configuration/jobs/tasks/server/deployconfigurationtask/index.md)
       for more information.
 
 #### Fixed bugs:
@@ -650,12 +650,12 @@ Release date 10-Feb-2022
     - For added security, the file paths used in a connector's connections are now checked against a
       list of authorized file paths located in the appsettings.agent.json under the SourcesRootPaths
       attribute. More information is available in the
-      [documentation](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/appsettings-agent/index.md).
+      [documentation](/docs/usercube/6.1/usercube/integration-guide/network-configuration/agent-configuration/appsettings-agent/index.md).
     - Added encryption support for appsettings.json agent and server files. More information is
       available in the documentation for the
-      [agent](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/rsa-encryption/index.md)
+      [agent](/docs/usercube/6.1/usercube/integration-guide/network-configuration/agent-configuration/rsa-encryption/index.md)
       and for the
-      [server](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/server-configuration/rsa-encryption/index.md).
+      [server](/docs/usercube/6.1/usercube/integration-guide/network-configuration/server-configuration/rsa-encryption/index.md).
 
 - UI / UX
     - When creating or modifying an element that can have an offset date (`Navigation Rule`,
@@ -698,13 +698,13 @@ Release date 10-Feb-2022
       added to the demo configuration.
     - Two new utility functions for C# expressions: `BuildUsername` and `BuildUsernameWithInitials`.
       See the
-      [C# utility functions section](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/expressions/csharp-utility-functions/index.md)
+      [C# utility functions section](/docs/usercube/6.1/usercube/integration-guide/toolkit/expressions/csharp-utility-functions/index.md)
       of the documentation.
     - Two demo applications representing a Banking and an HR system have been added to the SDK to
       illustrate interactions with managed systems.
     - InvokeSqlCommands can now be overridden in the agent appsettings file. More information is
       available in the
-      [documentation](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/jobs/tasks/agent/invokesqlcommandtask/index.md)
+      [documentation](/docs/usercube/6.1/usercube/integration-guide/toolkit/xml-configuration/jobs/tasks/agent/invokesqlcommandtask/index.md)
 
 #### Fixed bugs:
 
@@ -782,7 +782,7 @@ Release date 26-Jan-2022
 - Other
     - Added the possibility to specify a minimum authentication algorithm for SAML configuration
       using `MinIncomingSigningAlgorithm`. More information is available in the documentation's
-      [�End User Authentication' section](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/server-configuration/end-users-authentication/index.md).
+      [�End User Authentication' section](/docs/usercube/6.1/usercube/integration-guide/network-configuration/server-configuration/end-users-authentication/index.md).
     - Correction for a situation where, when two UI controls were linked together with a
       LinkedBinding, the generated query could be incorrect when the LinkedBinding and the
       FilterBinding values differed.
@@ -915,7 +915,7 @@ Release date 29-Nov-2021
       generation called "AllowedSymbolChars". When provided, the white list will override the
       default symbol character list: "!;.,?()[]-\_&%$+{}@". More information is provided in the
       documentation's
-      [�References' section](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/settings/index.md).
+      [�References' section](/docs/usercube/6.1/usercube/integration-guide/network-configuration/settings/index.md).
 
 ## Version 5.1.7.13
 
@@ -957,7 +957,7 @@ Release date 21-Oct-2021
 ### **Compatibility notice:**
 
 This release includes compatibility ruptures. The migration steps in the documentation's
-[Migration](/versioned_docs/usercube_6.1/usercube/migration-guide/index.md) section must therefore
+[Migration](/docs/usercube/6.1/usercube/migration-guide/index.md) section must therefore
 be followed.
 
 #### Enhancements:
@@ -973,7 +973,7 @@ be followed.
 - Jobs and Policy
     - Azure AD binary properties can now be provisioned.
     - Indirect permissions can now be displayed on user permission screens. See the
-      [documentation](/versioned_docs/usercube_6.1/usercube/integration-guide/role-assignment/indirectpermissions/index.md)
+      [documentation](/docs/usercube/6.1/usercube/integration-guide/role-assignment/indirectpermissions/index.md)
       for more information.
       ![Indirect Permissions](/img/versioned_docs/usercube_6.1/usercube/whatsnew/olderversions/5.2.1.indirectpermissions.png)
 - Logs/Performance/Security
@@ -1200,7 +1200,7 @@ Release date 30-Aug-2021
 ### **Migration notice:**
 
 This release includes updated instructions for migrating from the version 5.1.7. The migration steps
-in the documentation's [Migration](/versioned_docs/usercube_6.1/usercube/migration-guide/index.md)
+in the documentation's [Migration](/docs/usercube/6.1/usercube/migration-guide/index.md)
 section must therefore be followed.
 
 There is no migration to be done from version 5.2.0.2.
@@ -1335,7 +1335,7 @@ Release date 23-Jul-21
 ### **Compatibility notice:**
 
 This release includes compatibility ruptures. The migration steps in the documentation's
-[Migration](/versioned_docs/usercube_6.1/usercube/migration-guide/index.md) section must therefore
+[Migration](/docs/usercube/6.1/usercube/migration-guide/index.md) section must therefore
 be followed.
 
 #### Enhancements:
@@ -2336,7 +2336,7 @@ Release date: 16-Nov-2020
 ### **Compatibility notice:**
 
 This release includes compatibility ruptures. The migration steps in the documentation's
-[�Migration' section](/versioned_docs/usercube_6.1/usercube/migration-guide/index.md) must therefore
+[�Migration' section](/docs/usercube/6.1/usercube/migration-guide/index.md) must therefore
 be followed IN THE ORDER INDICATED.
 
 For enhanced security, we are now checking to see if a custom SSL certificate is being used. In the

@@ -23,7 +23,7 @@ The following default configurations are commonly customized:
     - Set filter for statistics of activity **120** days
 
 See the
-[Recommended Configuration for the File System Solution](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/filesystem/recommended.md)
+[Recommended Configuration for the File System Solution](/docs/accessanalyzer/11.6/enterpriseauditor/solutions/filesystem/recommended.md)
 topic for a complete list of customizable settings. See the
 [Configure the Activity Scan Query](#configure-the-activity-scan-query) topic for instructions.
 
@@ -48,14 +48,14 @@ purpose of this job.
 
 **Step 4 –** The Applet Settings page applies to the applet and proxy mode scans which are selected
 on the Scan Server Level Page. If employing proxy servers, see the
-[FSAA: Applet Settings](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/fsaa/appletsettings.md)
+[FSAA: Applet Settings](/docs/accessanalyzer/11.6/enterpriseauditor/admin/datacollector/fsaa/appletsettings.md)
 topic for configuration instructions.
 
 ![Scan Server Selection](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/filesystem/collection/fsacscanserverselection.webp)
 
 **Step 5 –** The Scan Server Selection page applies to the applet and proxy mode scans. Remember,
 each mode has different provisioning requirements. See the
-[FSAA: Scan Server Selection](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/fsaa/scanserverselection.md) topic
+[FSAA: Scan Server Selection](/docs/accessanalyzer/11.6/enterpriseauditor/admin/datacollector/fsaa/scanserverselection.md) topic
 for additional information.
 
 ![Activity Settings](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/filesystem/collection/fsacactivitysettings.webp)
@@ -67,7 +67,7 @@ for additional information.
 - Modify log parsing limits
 
 See the
-[FSAA: Activity Settings](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/fsaa/activitysettings.md) topic
+[FSAA: Activity Settings](/docs/accessanalyzer/11.6/enterpriseauditor/admin/datacollector/fsaa/activitysettings.md) topic
 for additional information.
 
 **Step 7 –** Click **Finish** to save any setting modifications or click **Cancel** if no changes

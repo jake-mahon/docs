@@ -151,9 +151,9 @@ Sync Service is configured to integrate with ServiceNow. Both will result in pro
 registered to a proxy device with an agent.
 
 To discover devices to match change events from Splunk, see the
-[Configure Device Discovery](/versioned_docs/changetracker_8.0/changetracker/integration/itsm/syncserviceadmin.md#configure-device-discovery)
+[Configure Device Discovery](/docs/changetracker/8.0/changetracker/integration/itsm/syncserviceadmin.md#configure-device-discovery)
 section in
-[Sync Service Administration](/versioned_docs/changetracker_8.0/changetracker/integration/itsm/syncserviceadmin.md)
+[Sync Service Administration](/docs/changetracker/8.0/changetracker/integration/itsm/syncserviceadmin.md)
 topic for additional information.
 
 To manually create proxied devices, select a device to be a proxy device (the Hub's agent is often a

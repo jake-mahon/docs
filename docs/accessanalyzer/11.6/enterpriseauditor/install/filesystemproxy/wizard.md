@@ -60,7 +60,7 @@ of proxy servers should also be created in Netwrix Enterprise Auditor.
 
 Once the File System Proxy Service has been installed on any proxy server, it is necessary to
 configure the File System Solution certificate exchange method for Proxy Mode as a Service. See the
-[FSAA Applet Certificate Management Overview](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/fsaa/certificatemanagement.md)
+[FSAA Applet Certificate Management Overview](/docs/accessanalyzer/11.6/enterpriseauditor/admin/datacollector/fsaa/certificatemanagement.md)
 topic for additional information.
 
 ## Custom Parameters for File System Proxy Service
@@ -124,7 +124,7 @@ Proxy Scanner service. Close the Services Management Console.
 Wizard. On the Applet Settings wizard page, change the **Port number** to the custom port.
 
 **NOTE:** See the
-[File System Data Collection Configuration for Proxy as a Service](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/install/filesystemproxy/configuredatacollector.md)
+[File System Data Collection Configuration for Proxy as a Service](/docs/accessanalyzer/11.6/enterpriseauditor/install/filesystemproxy/configuredatacollector.md)
 section for additional configurations required to run scans in proxy mode as a service.
 
 **Step 7 –** Repeat the previous step for each of the **FileSystem** > **0.Collection** jobs to

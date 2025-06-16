@@ -1,9 +1,9 @@
 # Delete Review Window
 
 The Delete Review window opens from either the
-[Manage Reviews Page](/versioned_docs/auditor_10.6/access/reviews/entitlementreviews/interface.md#manage-reviews-page)
+[Manage Reviews Page](/docs/auditor/10.6/access/reviews/entitlementreviews/interface.md#manage-reviews-page)
 or the
-[Review Details Page](/versioned_docs/auditor_10.6/access/reviews/entitlementreviews/interface.md#review-details-page)
+[Review Details Page](/docs/auditor/10.6/access/reviews/entitlementreviews/interface.md#review-details-page)
 of the Entitlement Reviews interface:
 
 - [Delete Entire Review](#delete-entire-review) — Deleting a review from the Manage Reviews page

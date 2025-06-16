@@ -43,7 +43,7 @@ wizard page for the categories of:
 It is necessary for the SA_SQL_Instances table to be populated before available databases/instances
 can populate the Available Server audits list. For Oracle and SQL, the SA_SQL_Instances table is
 populated through an instance discovery query. See the
-[0-SQL_InstanceDiscovery Job](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/databases/sql/collection/0-sql_instancediscovery.md)
+[0-SQL_InstanceDiscovery Job](/docs/accessanalyzer/11.6/enterpriseauditor/solutions/databases/sql/collection/0-sql_instancediscovery.md)
 topic for additional information. For PostgreSQL and MySQL Scans, the SA_SQL_Instances table is
 populated manually in the Manage Connections window. See the
 [Manage Connections Window](#manage-connections-window) topic for additional information. Once the

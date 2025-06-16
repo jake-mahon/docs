@@ -28,7 +28,7 @@ Using GroupID portal, you can create:
 
 **See Also**
 
-- [Group Management](/versioned_docs/groupid_11.0/groupid/portal/group/overview.md)
-- [Create Active Directory Groups](/versioned_docs/groupid_11.0/groupid/portal/group/create/activedirectory/group.md)
-- [Create Microsoft Entra ID Groups](/versioned_docs/groupid_11.0/groupid/portal/group/create/azure/group.md)
-- [Dynasty](/versioned_docs/groupid_11.0/groupid/portal/group/dynasty/overview.md)
+- [Group Management](/docs/groupid/11.0/groupid/portal/group/overview.md)
+- [Create Active Directory Groups](/docs/groupid/11.0/groupid/portal/group/create/activedirectory/group.md)
+- [Create Microsoft Entra ID Groups](/docs/groupid/11.0/groupid/portal/group/create/azure/group.md)
+- [Dynasty](/docs/groupid/11.0/groupid/portal/group/dynasty/overview.md)

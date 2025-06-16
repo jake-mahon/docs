@@ -13,7 +13,7 @@ assigned to these job groups requires the following permissions:
 
     - This job group also requires remote connection permissions for the SMARTLog Data Collector.
       See the
-      [Exchange Remote Connections Permissions](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/requirements/solutions/exchange/remoteconnections.md)
+      [Exchange Remote Connections Permissions](/docs/accessanalyzer/11.6/enterpriseauditor/requirements/solutions/exchange/remoteconnections.md)
       topic for additional information.
 
 -   3. Databases
@@ -35,7 +35,7 @@ assigned to these job groups requires the following permissions:
 -   8. Exchange Online
 
     - This job group uses Modern Authentication to target Exchange Online. See the
-      [Exchange Online Auditing Configuration](/versioned_docs/enterpriseauditor_11.6/config/exchangeonline/access.md) topic
+      [Exchange Online Auditing Configuration](/docs/accessanalyzer/11.6/config/exchangeonline/access.md) topic
       for additional information.
 
 ## Permissions Explained
@@ -99,7 +99,7 @@ Console currently resides. For Remote PowerShell, the data collector will gather
 the Exchange Organization to which the Remote PowerShell connection was made. This refers to the
 server entered in the Client Access Server (CAS) field of the global configuration from the
 **Settings** > **Exchange** node or on the Scope Page of the data collector wizard. See the
-[ExchangePS: Scope](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/exchangeps/scope.md)
+[ExchangePS: Scope](/docs/accessanalyzer/11.6/enterpriseauditor/admin/datacollector/exchangeps/scope.md)
 topic for additional information.
 
 Scope by Database
@@ -110,7 +110,7 @@ Exchange Organization in which the Enterprise Auditor Console currently resides,
 return information about those databases. For Remote PowerShell, the data collector will return
 databases in the Scope by DB page of the data collector wizard for the Exchange Forest, as well as,
 only return information about those databases. See the
-[ExchangePS: Scope by DB](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/exchangeps/scopedatabases.md)
+[ExchangePS: Scope by DB](/docs/accessanalyzer/11.6/enterpriseauditor/admin/datacollector/exchangeps/scopedatabases.md)
 topic for additional information.
 
 Scope by Mailbox
@@ -121,7 +121,7 @@ the Exchange Forest in which the Enterprise Auditor Console currently resides, a
 return information about those mailboxes. For Remote PowerShell, the data collector will return
 mailboxes in the Scope by Mailboxes page of the data collector wizard for the Exchange Forest, as
 well as, only return information about those mailboxes. See the
-[ExchangePS: Scope by Mailboxes](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/exchangeps/scopemailboxes.md)
+[ExchangePS: Scope by Mailboxes](/docs/accessanalyzer/11.6/enterpriseauditor/admin/datacollector/exchangeps/scopemailboxes.md)
 topic for additional information.
 
 Scope by Server
@@ -142,7 +142,7 @@ resides, as well as, only return information about those public folders. For Rem
 data collector will return public folders in the Scope by Public Folders page of the data collector
 wizard for the Exchange Forest, as well as, only return information about those public folders. See
 the
-[ExchangePS: Scope by Public Folders](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/exchangeps/scopepublicfolders.md)
+[ExchangePS: Scope by Public Folders](/docs/accessanalyzer/11.6/enterpriseauditor/admin/datacollector/exchangeps/scopepublicfolders.md)
 topic for additional information.
 
 ## Enable Remote PowerShell for ExchangePS Data Collector

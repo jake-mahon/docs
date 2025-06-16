@@ -11,7 +11,7 @@ review of multiple pending provisioning orders for the `Directory_User` entity t
 
 The scaffolding generates the following scaffoldings:
 
-- [ReviewProvisioningAccessControlRules](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/rolemodels/reviewprovisioningaccesscontrolrules/index.md):
+- [ReviewProvisioningAccessControlRules](/docs/usercube/6.1/usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/rolemodels/reviewprovisioningaccesscontrolrules/index.md):
   Generates the permissions to access the provisioning review pages for a given entity type and
   profile.
 

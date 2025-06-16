@@ -24,7 +24,7 @@ guide to install and configure the CEE. The installation will add two services t
 asynchronous bulk delivery (VCAPS) feature.
 
 See the
-[CEE Debug Logs](/versioned_docs/activitymonitor_7.1/config/dellunity/validate.md#cee-debug-logs)
+[CEE Debug Logs](/docs/activitymonitor/7.1/config/dellunity/validate.md#cee-debug-logs)
 section for information on troubleshooting issues related to Dell CEE.
 
 After Dell CEE installation is complete, it is necessary to

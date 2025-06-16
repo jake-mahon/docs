@@ -20,7 +20,7 @@ Arguments:
 - argument3 (string): description3 (string)
 
 The EventId id must be unique so we could use it to filter the logs we send, see
-[QRadar's example](/versioned_docs/usercube_6.1/usercube/integration-guide/monitoring/index.md)
+[QRadar's example](/docs/usercube/6.1/usercube/integration-guide/monitoring/index.md)
 
 #### 500
 

@@ -1,7 +1,7 @@
 # Active Directory Agent Deployment
 
 Before deploying the Active Directory (AD) agent, ensure all
-[AD Agent Server Requirements](/versioned_docs/activitymonitor_7.1/activitymonitor/requirements/adagent.md)
+[AD Agent Server Requirements](/docs/activitymonitor/7.1/activitymonitor/requirements/adagent.md)
 have been met. To effectively monitor Active Directory, it is necessary to deploy an AD agent to
 every domain controller, including the read only domain controllers. However, it is possible to
 deploy the agents in batches. Follow the steps to deploy the AD agents to the domain controllers in
@@ -85,5 +85,5 @@ Activity Monitor stops the installation and lists the errors in the Agent messag
 When the AD agent installation is complete, the status changes to **Installed** and the agent
 version populates in the AD Module column. The next step is to configure the domains to be
 monitored. See the
-[Monitored Domains Tab](/versioned_docs/activitymonitor_7.1/activitymonitor/admin/monitoreddomains/overview.md)
+[Monitored Domains Tab](/docs/activitymonitor/7.1/activitymonitor/admin/monitoreddomains/overview.md)
 section for additional information.

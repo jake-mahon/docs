@@ -8,11 +8,11 @@ users within the environment.
 
 The jobs in the Collection job group are:
 
-- [SG_GroupPolicy Job](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/windows/privilegedaccounts/logonrights/collection/sg_grouppolicy.md)
+- [SG_GroupPolicy Job](/docs/accessanalyzer/11.6/enterpriseauditor/solutions/windows/privilegedaccounts/logonrights/collection/sg_grouppolicy.md)
   – This job collects policy assignments from all targeted servers. In particular, **Allow log on
   locally**, **Log on as a batch job**, **Allow log on through Remote Desktop Services**, and **Log
   on as a service** are audited.
-- [SG_LocalMembership Job](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/windows/privilegedaccounts/logonrights/collection/sg_localmembership.md)
+- [SG_LocalMembership Job](/docs/accessanalyzer/11.6/enterpriseauditor/solutions/windows/privilegedaccounts/logonrights/collection/sg_localmembership.md)
   – This job collects local group membership details from all targeted servers
-- [SG_LocalUsers Job](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/windows/privilegedaccounts/logonrights/collection/sg_localusers.md)
+- [SG_LocalUsers Job](/docs/accessanalyzer/11.6/enterpriseauditor/solutions/windows/privilegedaccounts/logonrights/collection/sg_localusers.md)
   – This job collects local user accounts from all targeted servers

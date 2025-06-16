@@ -1,9 +1,9 @@
 # Generate Contexts
 
 A context is a set of dimension-value pairs computed using the
-[context rule](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/provisioning/contextrule/index.md)
+[context rule](/docs/usercube/6.1/usercube/integration-guide/toolkit/xml-configuration/provisioning/contextrule/index.md)
 or the combination of a context rule and the
-[record sections](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/provisioning/recordsection/index.md)
+[record sections](/docs/usercube/6.1/usercube/integration-guide/toolkit/xml-configuration/provisioning/recordsection/index.md)
 if record sections are configured.
 
 A context is used to compute the role assignments for an identity by verifying that the
@@ -13,7 +13,7 @@ dimension-value pairs meet the role criteria.
 
 When using only a context rule without a record section, the context generation is straightforward:
 a set of dimension-value pairs is created by computing the value of the
-[dimension bindings](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/provisioning/contextrule/index.md)
+[dimension bindings](/docs/usercube/6.1/usercube/integration-guide/toolkit/xml-configuration/provisioning/contextrule/index.md)
 on the context rule.
 
 > For example, the following context rule defines guests' contexts based on their start date, end
@@ -28,11 +28,11 @@ on the context rule.
 ## Identity Context Generation
 
 As described in
-[identity management](/versioned_docs/usercube_6.1/usercube/integration-guide/identity-management/index.md),
+[identity management](/docs/usercube/6.1/usercube/integration-guide/identity-management/index.md),
 identities are complex to model. Records were introduced to tackle this complexity by allowing
 multiple positions for the same identity.
 
-[Record sections](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/provisioning/recordsection/index.md)
+[Record sections](/docs/usercube/6.1/usercube/integration-guide/toolkit/xml-configuration/provisioning/recordsection/index.md)
 go further by modeling the relationship between positions. Indeed with record sections, it is
 possible to define:
 
@@ -93,7 +93,7 @@ With the given configuration and the identity of `Mark Barn`, the following cont
 
 Each computed context will be used to create a set of dimension-value pairs, thus having 3 sets for
 the
-[evaluate policy algorithm](/versioned_docs/usercube_6.1/usercube/integration-guide/role-assignment/evaluate-policy/index.md).
+[evaluate policy algorithm](/docs/usercube/6.1/usercube/integration-guide/role-assignment/evaluate-policy/index.md).
 
 Any rules targeting identities with a `fulltime``````Category` will be assigned to `Mark Barn` from
 `Cs` to `Ce`.
@@ -172,4 +172,4 @@ position then the next position will be anticipated.
 
 The choice of the position to extend can be configured by leveraging the `SortKeyExpression` in the
 position
-[record section](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/provisioning/recordsection/index.md).
+[record section](/docs/usercube/6.1/usercube/integration-guide/toolkit/xml-configuration/provisioning/recordsection/index.md).

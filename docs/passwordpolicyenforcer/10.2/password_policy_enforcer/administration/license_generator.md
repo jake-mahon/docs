@@ -42,5 +42,5 @@ The License Generator tool has the following features:
 - Generate — Press this button to generate the license and save the .txt file.
 - Generate & open — Press this button to generate the license and open the .txt file. You will then
   be able to copy the entire license and import it into the Password Policy Enforcer. See the
-  [Management Console](/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/administration/management_console.md)
+  [Management Console](/docs/passwordpolicyenforcer/10.2/password_policy_enforcer/administration/management_console.md)
   topic for additional information.

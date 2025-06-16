@@ -14,10 +14,10 @@ To launch the Add Workflow wizard:
 
 See next:
 
-- [Step 1. Select Content Type](/versioned_docs/dataclassification_5.6.2/ndc/workflows/step_1_select_content_type.md)
-- [Step 2. Select Action](/versioned_docs/dataclassification_5.6.2/ndc/workflows/step_2_select_automated_action.md)
-- [Step 3. Specify Conditions for Processing](/versioned_docs/dataclassification_5.6.2/ndc/workflows/step_3_specify_conditions.md)
-- [Step 4. Enter Name and Review Settings](/versioned_docs/dataclassification_5.6.2/ndc/workflows/step_4_set_name_and_enable.md)
+- [Step 1. Select Content Type](/docs/dataclassification/5.6.2/ndc/workflows/step_1_select_content_type.md)
+- [Step 2. Select Action](/docs/dataclassification/5.6.2/ndc/workflows/step_2_select_automated_action.md)
+- [Step 3. Specify Conditions for Processing](/docs/dataclassification/5.6.2/ndc/workflows/step_3_specify_conditions.md)
+- [Step 4. Enter Name and Review Settings](/docs/dataclassification/5.6.2/ndc/workflows/step_4_set_name_and_enable.md)
 
 **NOTE:** Once created you will be able to modify the workflow using the **Advanced** dialog.
 

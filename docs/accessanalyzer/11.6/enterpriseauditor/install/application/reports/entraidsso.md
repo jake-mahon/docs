@@ -74,7 +74,7 @@ with values from Microsoft Entra ID. Follow the steps to enable the SSO.
 
 _Remember,_ Enabling Entra ID SSO requires SSL to already have been enabled for the web server. See
 the
-[Securing the Web Console](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/install/application/reports/secure.md)
+[Securing the Web Console](/docs/accessanalyzer/11.6/enterpriseauditor/install/application/reports/secure.md)
 topic for additional information.
 
 **Step 1 –** Open the **WebServer.exe.config** file with a text editor, for example Notepad. It is

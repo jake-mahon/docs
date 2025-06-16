@@ -22,7 +22,7 @@ The query categories are:
     **NOTE:** The Sensitive Data category options require the Sensitive Data Discovery Add-on to
     have been installed on the Enterprise Auditor Console before the SQL Data Collector can collect
     sensitive data. See the
-    [Sensitive Data Discovery Add-On Installation](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/install/sensitivedatadiscovery/overview.md)
+    [Sensitive Data Discovery Add-On Installation](/docs/accessanalyzer/11.6/enterpriseauditor/install/sensitivedatadiscovery/overview.md)
     topic for additional information.
 
 - Microsoft SQL Server

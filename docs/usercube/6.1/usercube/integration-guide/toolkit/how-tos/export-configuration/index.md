@@ -9,12 +9,12 @@ The process for configuration export varies according to the situation:
 - when working on-premise, the configuration must be exported locally;
 - when working SaaS, the configuration must be exported remotely.
 
-[See more details on configuration export](/versioned_docs/usercube_6.1/usercube/integration-guide/executables/references/export-configuration/index.md).
+[See more details on configuration export](/docs/usercube/6.1/usercube/integration-guide/executables/references/export-configuration/index.md).
 
 ## Export the Configuration Locally
 
 Export your configuration by using the
-[`Export-Configuration` executable](/versioned_docs/usercube_6.1/usercube/integration-guide/executables/references/export-configuration/index.md)
+[`Export-Configuration` executable](/docs/usercube/6.1/usercube/integration-guide/executables/references/export-configuration/index.md)
 and declaring at least:
 
 - the directory where the configuration is to be exported to;
@@ -31,7 +31,7 @@ and declaring at least:
 Export a SaaS configuration by proceeding as follows:
 
 1. Log in for configuration deployment/export with the
-   [`Login` executable](/versioned_docs/usercube_6.1/usercube/integration-guide/executables/references/login/index.md).
+   [`Login` executable](/docs/usercube/6.1/usercube/integration-guide/executables/references/login/index.md).
 
     Usercube provides an Open Id Connect (OIDC) authentication process in order to ensure strong
     security, visibility and ease of use.
@@ -84,7 +84,7 @@ Export a SaaS configuration by proceeding as follows:
     instance, to allow the configuration deployment/export.
 
 4. Export the configuration by using the
-   [`Export-Configuration` executable](/versioned_docs/usercube_6.1/usercube/integration-guide/executables/references/export-configuration/index.md)
+   [`Export-Configuration` executable](/docs/usercube/6.1/usercube/integration-guide/executables/references/export-configuration/index.md)
    and declaring at least:
 
     - the configuration directory;

@@ -25,7 +25,7 @@ The Set Options window provides the following options:
 
     - Safe Mode – The Agent checks LSASS versions on start up. Any changes in LSASS since the
       previous start prevents the AD Events monitoring module from loading. See the
-      [Agent Safe Mode](/versioned_docs/threatprevention_7.4/threatprevention/admin/agents/safemode.md)
+      [Agent Safe Mode](/docs/threatprevention/7.4/threatprevention/admin/agents/safemode.md)
       topic for additional information.
     - Use local Pwned hash DB – A local copy of the Pwned hash database is sent to the Agent after
       installation from the Enterprise Manager. Any updates to the database are sent from the
@@ -50,10 +50,10 @@ If unchecked, specify the desired installation location, e.g. d:\myagent.
 
 The installation location applies to all computers where the Agent is being deployed in this session
 (as specified on the
-[Select Computers Window](/versioned_docs/threatprevention_7.4/threatprevention/admin/agents/deploy/selectcomputers.md)
+[Select Computers Window](/docs/threatprevention/7.4/threatprevention/admin/agents/deploy/selectcomputers.md)
 of the Deploy Agents wizard). Once these settings are configured as desired, the Agent is ready for
 deployment on the selected machines. See the
-[Prerequisites Check Window](/versioned_docs/threatprevention_7.4/threatprevention/admin/agents/deploy/prerequisitescheck.md)
+[Prerequisites Check Window](/docs/threatprevention/7.4/threatprevention/admin/agents/deploy/prerequisitescheck.md)
 topic for the next step.
 
 ##### DNS Host Name Resolution
@@ -79,7 +79,7 @@ name resolution is not handled locally by that machine.
 
 On the Agents interface, when you open the Set Options window through the Update Agent Settings
 option on the
-[Right-Click Menu](/versioned_docs/threatprevention_7.4/threatprevention/admin/agents/overview.md#right-click-menu),
+[Right-Click Menu](/docs/threatprevention/7.4/threatprevention/admin/agents/overview.md#right-click-menu),
 the window appears as follows:
 
 ![Update Agent Settings > Set Options page](/img/versioned_docs/threatprevention_7.4/threatprevention/admin/agents/deploy/updatesetoptions.webp)
@@ -89,7 +89,7 @@ do not represent the actual current state of the Agent.
 
 **NOTE:** To view the current state and configured options for an Agent, hover over the Version
 String column on the
-[Agents Interface](/versioned_docs/threatprevention_7.4/threatprevention/admin/agents/overview.md)
+[Agents Interface](/docs/threatprevention/7.4/threatprevention/admin/agents/overview.md)
 data grid for the tool tip. The AD Agent column indicates the Agent’s mode.
 
 This Set Options window is the same as discussed above, with the exception of the following:

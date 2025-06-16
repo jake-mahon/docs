@@ -77,5 +77,5 @@ in the Web Interface language chosen by the attacker if the target user has not 
 their password with Password Reset. The target user will receive the e-mail alerts, but they may not
 understand them. Use the Rest API to remind new users to enroll so their preferred language is known
 to Password Reset. See the
-[Enabling the API](/versioned_docs/passwordpolicyenforcer_10.2/password_reset/administration/persuading_users_to_enroll.md#enabling-the-api)
+[Enabling the API](/docs/passwordpolicyenforcer/10.2/password_reset/administration/persuading_users_to_enroll.md#enabling-the-api)
 topic for additional information.

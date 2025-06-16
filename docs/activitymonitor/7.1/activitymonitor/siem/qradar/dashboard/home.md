@@ -12,7 +12,7 @@ The File System Activity Home dashboard contains the following cards:
   data
 
     - The value for this card is a hyperlink to the
-      [Ransomware Dashboard](/versioned_docs/activitymonitor_7.1/activitymonitor/siem/qradar/dashboard/ransomware.md).
+      [Ransomware Dashboard](/docs/activitymonitor/7.1/activitymonitor/siem/qradar/dashboard/ransomware.md).
 
 - File Activity – Timeline of all file activity over the specified time interval
 - Top Users – Displays up-to the top five users associated with file activity over the specified
@@ -23,7 +23,7 @@ The File System Activity Home dashboard contains the following cards:
   interval
 
     - See the
-      [Table Card Features ](/versioned_docs/activitymonitor_7.1/activitymonitor/siem/qradar/app.md#table-card-features)
+      [Table Card Features ](/docs/activitymonitor/7.1/activitymonitor/siem/qradar/app.md#table-card-features)
       topic for additional information.
 
 The time interval is identified in the upper-right corner with the Start and End boxes. This is set

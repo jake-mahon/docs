@@ -42,7 +42,7 @@ list.
 The Permissions section at the bottom of the interface allows you to protect Analytic policies at
 the Analytics node. Once a user is assigned permission, all analytic policies, configurations, and
 data are protected from any user not included in the permissions list. See the
-[Protect Policies](/versioned_docs/threatprevention_7.4/threatprevention/admin/policies/dataprotection.md#protect-policies)
+[Protect Policies](/docs/threatprevention/7.4/threatprevention/admin/policies/dataprotection.md#protect-policies)
 topic for instructions on how to protect analytic policies.
 
 ![Analytics node](/img/versioned_docs/threatprevention_7.4/threatprevention/admin/analytics/analyticslist.webp)
@@ -50,34 +50,34 @@ topic for instructions on how to protect analytic policies.
 Directly under the Analytics node are the individual analytics nodes for accessing information on
 the monitored incidents and configuring the analytic type:
 
-- [Brute Force Attacks Analytic Type](/versioned_docs/threatprevention_7.4/threatprevention/admin/analytics/bruteforceattacks.md)
+- [Brute Force Attacks Analytic Type](/docs/threatprevention/7.4/threatprevention/admin/analytics/bruteforceattacks.md)
   – Reports on failed attempts from a single host to access a given host. It can be triggered by
   different user accounts with bad passwords or invalid account names.
-- [User Account Hacking Analytic Type](/versioned_docs/threatprevention_7.4/threatprevention/admin/analytics/useraccounthacking.md)
+- [User Account Hacking Analytic Type](/docs/threatprevention/7.4/threatprevention/admin/analytics/useraccounthacking.md)
   – Reports on multiple bad passwords provided for a given valid user account
-- [Horizontal Movement Attacks Analytic Type](/versioned_docs/threatprevention_7.4/threatprevention/admin/analytics/horizontalmovementattacks.md)
+- [Horizontal Movement Attacks Analytic Type](/docs/threatprevention/7.4/threatprevention/admin/analytics/horizontalmovementattacks.md)
   – Reports on security principals that are accessing more than the threshold of resources during a
   specified time interval. This may be indicative of a person trying to obtain information from as
   many servers as possible which they normally would not be accessing.
-- [Bad User ID (by User) Analytic Type](/versioned_docs/threatprevention_7.4/threatprevention/admin/analytics/baduseriduser.md)
+- [Bad User ID (by User) Analytic Type](/docs/threatprevention/7.4/threatprevention/admin/analytics/baduseriduser.md)
   – Reports on pre-authentication failures due to using account names that cannot be found in Active
   Directory. These incidents are grouped per account name.
-- [Bad User ID (by Source Host) Analytic Type](/versioned_docs/threatprevention_7.4/threatprevention/admin/analytics/baduseridsourcehost.md)
+- [Bad User ID (by Source Host) Analytic Type](/docs/threatprevention/7.4/threatprevention/admin/analytics/baduseridsourcehost.md)
   – Reports on pre-authentication failures due to using account names that cannot be found in Active
   Directory. These incidents are grouped per source host.
-- [Breached Password Analytic Type](/versioned_docs/threatprevention_7.4/threatprevention/admin/analytics/breachedpassword.md)
+- [Breached Password Analytic Type](/docs/threatprevention/7.4/threatprevention/admin/analytics/breachedpassword.md)
   – Reports on multiple failed authentications followed by a successful authentication in a
   specified time frame
-- [Concurrent Logins Analytic Type](/versioned_docs/threatprevention_7.4/threatprevention/admin/analytics/concurrentlogins.md)
+- [Concurrent Logins Analytic Type](/docs/threatprevention/7.4/threatprevention/admin/analytics/concurrentlogins.md)
   – Reports on logins from multiple locations within a specified time frame
-- [Impersonation Logins Analytic Type](/versioned_docs/threatprevention_7.4/threatprevention/admin/analytics/impersonationlogins.md)
+- [Impersonation Logins Analytic Type](/docs/threatprevention/7.4/threatprevention/admin/analytics/impersonationlogins.md)
   – Reports on multiple authenticated accounts from a single system within a specified time frame
-- [Golden Ticket Analytic Type](/versioned_docs/threatprevention_7.4/threatprevention/admin/analytics/goldenticket.md)
+- [Golden Ticket Analytic Type](/docs/threatprevention/7.4/threatprevention/admin/analytics/goldenticket.md)
   – Reports on Kerberos tickets that exceed the specified maximum lifetimes for a user ticket or
   maximum lifetimes for a user ticket renewal
-- [File System Attacks (by User) Analytic Type](/versioned_docs/threatprevention_7.4/threatprevention/admin/analytics/filesystemattacksuser.md)
+- [File System Attacks (by User) Analytic Type](/docs/threatprevention/7.4/threatprevention/admin/analytics/filesystemattacksuser.md)
   – Reports on significant number of file changes made by an account in a short time period
-- [Kerberos Weak Encryption Analytic Type](/versioned_docs/threatprevention_7.4/threatprevention/admin/analytics/kerberosweakencryption.md)
+- [Kerberos Weak Encryption Analytic Type](/docs/threatprevention/7.4/threatprevention/admin/analytics/kerberosweakencryption.md)
   – Reports on Kerberos tickets with RC4_HMAC_MD5 encryption
-- [Forged PAC Analytic Type](/versioned_docs/threatprevention_7.4/threatprevention/admin/analytics/forgedpac.md)
+- [Forged PAC Analytic Type](/docs/threatprevention/7.4/threatprevention/admin/analytics/forgedpac.md)
   – Reports on Kerberos tickets with modified PAC

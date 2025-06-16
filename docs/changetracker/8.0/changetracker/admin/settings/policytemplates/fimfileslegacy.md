@@ -6,7 +6,7 @@ provide various Agentless FIM options.
 
 All Agentless monitoring is performed via a Master Proxy Agent – the Proxy function is supported by
 any Netwrix Change Tracker Agent and the dedicated Netwrix Agent App Proxy Agent. See the
-[Registry Inclusion/Exclusion Match Rules](/versioned_docs/changetracker_8.0/changetracker/admin/matchrules/registryrules.md)
+[Registry Inclusion/Exclusion Match Rules](/docs/changetracker/8.0/changetracker/admin/matchrules/registryrules.md)
 section for more information.
 
 ![PolicyTeplatesAgentlessDiagram](/img/versioned_docs/changetracker_8.0/changetracker/admin/settings/policytemplates/policyteplatesagentlessdiagram.webp)

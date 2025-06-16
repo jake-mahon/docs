@@ -55,12 +55,12 @@ Additional Options
 
 **Step 8 –** (Optional) Create and apply permissions for traverse groups based on previous resource
 based groups. See the
-[FS_TraverseGroups Job](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/filesystem/resourcebasedgroups/fs_traversegroups.md)
+[FS_TraverseGroups Job](/docs/accessanalyzer/11.6/enterpriseauditor/solutions/filesystem/resourcebasedgroups/fs_traversegroups.md)
 topic for additional information.
 
 **Step 9 –** (Optional) Import resources and access groups from the FS_ResoureBasedGroup Job into
 the Netwrix Access Information Center. See the
-[FS_ResourceBasedGroupAICImport Job](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/filesystem/resourcebasedgroups/fs_resourcebasedgroupaicimport.md)
+[FS_ResourceBasedGroupAICImport Job](/docs/accessanalyzer/11.6/enterpriseauditor/solutions/filesystem/resourcebasedgroups/fs_resourcebasedgroupaicimport.md)
 topic for additional information.
 
 ## Model Intended Changes
@@ -84,7 +84,7 @@ View the analysis tasks by navigating to the **Jobs** > **FileSystem** > **Resou
       @naming_convention, @add_admin_groups, #folders, @activity_filter.
 
 Configure the following parameters. See the
-[SQLscripting Analysis Module](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/analysis/sqlscripting.md)
+[SQLscripting Analysis Module](/docs/accessanalyzer/11.6/enterpriseauditor/admin/analysis/sqlscripting.md)
 topic for additional information.
 
 | Analysis Task             | Customizable Parameter Name | Default Value                                        | Value Indicates                                                                                                                                                                                                                                                           |

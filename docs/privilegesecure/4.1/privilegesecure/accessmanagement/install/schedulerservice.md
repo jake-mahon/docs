@@ -8,7 +8,7 @@ if required.
 
 **NOTE:** Before you begin, the Proxy Service must be installed on any server running services for
 Privilege Secure. See the
-[Proxy Service Install](/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/install/proxyservice.md)
+[Proxy Service Install](/docs/privilegesecure/4.1/privilegesecure/accessmanagement/install/proxyservice.md)
 topic for installation instructions.
 
 Follow the steps to install the Scheduler Service.

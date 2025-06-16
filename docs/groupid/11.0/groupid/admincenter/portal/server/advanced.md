@@ -7,7 +7,7 @@ enrollment reminders, and more.
 Default values for all advanced settings are specified for a portal. You can update any setting as
 required. You can also import these advanced settings for a portal from a previous GroupID version.
 See step 13 in the
-[Create a Portal in Native IIS](/versioned_docs/groupid_11.0/groupid/admincenter/portal/create.md#create-a-portal-in-native-iis)
+[Create a Portal in Native IIS](/docs/groupid/11.0/groupid/admincenter/portal/create.md#create-a-portal-in-native-iis)
 topic.
 
 You can manage the following advanced settings for a portal:
@@ -75,4 +75,4 @@ What do you want to do?
 
 **See Also**
 
-- [Server Settings](/versioned_docs/groupid_11.0/groupid/admincenter/portal/server/overview.md)
+- [Server Settings](/docs/groupid/11.0/groupid/admincenter/portal/server/overview.md)

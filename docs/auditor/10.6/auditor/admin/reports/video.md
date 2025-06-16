@@ -12,9 +12,9 @@ sources and items included in each plan, navigate to the Monitoring Plans sectio
 ![ReportsWithVideo](/img/versioned_docs/auditor_10.6/auditor/admin/reports/alluseractivityvideo.webp)
 
 Each report has a set of filters which help organize audit data in the most convenient way. See the
-[View Reports](/versioned_docs/auditor_10.6/auditor/admin/reports/view.md) topic for additional
+[View Reports](/docs/auditor/10.6/auditor/admin/reports/view.md) topic for additional
 information. You can also create a subscription to any report you want to receive on a regular
-basis. See the [Subscriptions](/versioned_docs/auditor_10.6/auditor/admin/subscriptions/overview.md)
+basis. See the [Subscriptions](/docs/auditor/10.6/auditor/admin/subscriptions/overview.md)
 topic for additional information.
 
 Follow the steps to play a video:

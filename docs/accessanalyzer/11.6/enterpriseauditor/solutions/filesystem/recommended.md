@@ -7,7 +7,7 @@ scheduled.
 
 _Remember,_ the credential permissions required for the scan and host lists are affected by the scan
 mode selected. See the
-[File System Scan Options](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/requirements/solutions/filesystem/scanoptions.md)
+[File System Scan Options](/docs/accessanalyzer/11.6/enterpriseauditor/requirements/solutions/filesystem/scanoptions.md)
 topic for additional information.
 
 Dependencies
@@ -37,7 +37,7 @@ containing all on-premise Nasuni Edge Appliances and cloud filers.
 
 If using multiple proxy servers, these should also be configured within a different custom-created
 host list. Then assign the proxy servers host list on the
-[FSAA: Applet Settings](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/fsaa/appletsettings.md)
+[FSAA: Applet Settings](/docs/accessanalyzer/11.6/enterpriseauditor/admin/datacollector/fsaa/appletsettings.md)
 page of the File System Access Auditor Data Collector Wizard within the following jobs in the
 0.Collection Job Group according to the type of auditing being conducted:
 
@@ -51,7 +51,7 @@ scan against a Windows File System Cluster. Within the Enterprise Auditor Master
 should be a host entry for the cluster as well as for each node. Additionally, each of these host
 entries must have the name of the cluster in the WinCluster column in the host inventory data. This
 may need to be updated manually. See the
-[Host Inventory](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/settings/hostinventory.md)
+[Host Inventory](/docs/accessanalyzer/11.6/enterpriseauditor/admin/settings/hostinventory.md)
 topic for additional information.
 
 **NOTE:** The host targeted by the File System scans is only the host entry for the cluster. For
@@ -79,9 +79,9 @@ Connection Profile
 
 The FSAA Data Collector requires permissions based on the platform being targeted for data
 collection as well as the scan mode selected. See the
-[File System Scan Options](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/requirements/solutions/filesystem/scanoptions.md)
+[File System Scan Options](/docs/accessanalyzer/11.6/enterpriseauditor/requirements/solutions/filesystem/scanoptions.md)
 topic and the
-[File System Supported Platforms](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/requirements/target/filesystems.md)
+[File System Supported Platforms](/docs/accessanalyzer/11.6/enterpriseauditor/requirements/target/filesystems.md)
 topic for necessary permissions for the supported target platforms. See the
 [Netwrix Activity Monitor Documentation](https://helpcenter.netwrix.com/category/activitymonitor)
 for the necessary permission for collecting activity data. Then create a custom Connection Profile
@@ -99,7 +99,7 @@ Edge Appliance and cloud filer in the target environment. Nasuni API key names a
 When providing them, ensure they are entered in the exact same case as generated.
 
 See the
-[Connection](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/settings/connection/overview.md)
+[Connection](/docs/accessanalyzer/11.6/enterpriseauditor/admin/settings/connection/overview.md)
 topic for additional information.
 
 Schedule Frequency
@@ -128,11 +128,11 @@ only select sub-job groups are run.
 **_RECOMMENDED:_** If only conducting one or two types of auditing, scope the solution by disabling
 the undesired collection jobs. Disabling them allows the solution to run more efficiently. It is not
 recommended to delete any jobs. See the
-[Disable or Enable a Job](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/jobs/job/disableenable.md)
+[Disable or Enable a Job](/docs/accessanalyzer/11.6/enterpriseauditor/admin/jobs/job/disableenable.md)
 topic for additional information.
 
 **NOTE:** If targeting Nasuni Edge Appliances, it is necessary to add the
-[0-FS_Nasuni Job](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/filesystem/collection/0-fs_nasuni.md)
+[0-FS_Nasuni Job](/docs/accessanalyzer/11.6/enterpriseauditor/solutions/filesystem/collection/0-fs_nasuni.md)
 to the **0.Collection** Job Group.
 
 Query Configuration
@@ -141,7 +141,7 @@ This solution can be run with the default query configuration. However, the most
 customizations include:
 
 - Use proxy scanning architecture, see the
-  [File System Data Collection Configuration for Proxy as a Service](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/install/filesystemproxy/configuredatacollector.md)
+  [File System Data Collection Configuration for Proxy as a Service](/docs/accessanalyzer/11.6/enterpriseauditor/install/filesystemproxy/configuredatacollector.md)
   topic for instructions
 - Default Scoping Options page > File Properties tab, optionally configure the following:
 
@@ -183,9 +183,9 @@ customizations include:
 
     - The mode configured must align with the provisioning of the credential and environment. See
       the
-      [File System Scan Options](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/requirements/solutions/filesystem/scanoptions.md)
+      [File System Scan Options](/docs/accessanalyzer/11.6/enterpriseauditor/requirements/solutions/filesystem/scanoptions.md)
       topic and the
-      [File System Supported Platforms](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/requirements/target/filesystems.md)
+      [File System Supported Platforms](/docs/accessanalyzer/11.6/enterpriseauditor/requirements/target/filesystems.md)
       topic for additional information.
     - Local Mode – All of the data collection processing is conducted by the Enterprise Auditor
       Console server across the network

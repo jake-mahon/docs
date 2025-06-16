@@ -19,5 +19,5 @@ and conditions.
 
 Password Policy Enforcer has its own password rules, so you may want to disable the Windows password
 policy rules before configuring Password Policy Enforcer. See the
-[Disable Windows Rules](/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/administration/disable_windows_rules.md)
+[Disable Windows Rules](/docs/passwordpolicyenforcer/10.2/password_policy_enforcer/administration/disable_windows_rules.md)
 topic for additional information.

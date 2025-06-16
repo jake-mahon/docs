@@ -15,5 +15,5 @@ custom role. Click the add selections Green Arrow.
 remove from this custom role. Click the remove selections Red Arrow.
 
 Selected permissions have been added or removed from the custom role. See the
-[Custom Role Details Page](/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/policy/page/details/rolemanagementcustom.md)
+[Custom Role Details Page](/docs/privilegesecure/4.1/privilegesecure/accessmanagement/admin/policy/page/details/rolemanagementcustom.md)
 topic for additional information.

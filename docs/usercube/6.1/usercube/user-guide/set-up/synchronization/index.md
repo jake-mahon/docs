@@ -8,9 +8,9 @@ Data synchronization is a data flow from the managed systems into Usercube.
 
 ### Process
 
-A [connector](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/connect-system/index.md)'s
+A [connector](/docs/usercube/6.1/usercube/user-guide/set-up/connect-system/index.md)'s
 main purpose is to read and export the data
-[previously mapped with entity types](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/connect-system/entity-type-creation/index.md)
+[previously mapped with entity types](/docs/usercube/6.1/usercube/user-guide/set-up/connect-system/entity-type-creation/index.md)
 in order to synchronize it with Usercube. Connectors provide tools to perform a basic extraction of
 the system's data in the form of CSV/XLSX files. These files are cleansed and loaded into Usercube.
 Synchronization is a three-step ETL process going through export, synchronization preparation and
@@ -21,13 +21,13 @@ the synchronization itself.
 #### Export
 
 The
-[`Export` task](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/jobs/tasks/agent/exporttask/index.md)
+[`Export` task](/docs/usercube/6.1/usercube/integration-guide/toolkit/xml-configuration/jobs/tasks/agent/exporttask/index.md)
 creates extractions, a snapshot of the managed system's data, used to insert and/or refresh the data
 that is inside Usercube. Extractions are accessible when there is at least one connection with an
 export-enabled
-[package](/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/references-packages/index.md).
+[package](/docs/usercube/6.1/usercube/integration-guide/connectors/references-packages/index.md).
 Extracted data becomes meaningful when it is loaded into resources as specified by the
-[entity type](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/connect-system/entity-type-creation/index.md)
+[entity type](/docs/usercube/6.1/usercube/user-guide/set-up/connect-system/entity-type-creation/index.md)
 structure.
 
 Exported data is stored inside CSV files in the folder `/{InstallationFolder}/Temp/ExportOutput`.
@@ -35,7 +35,7 @@ Exported data is stored inside CSV files in the folder `/{InstallationFolder}/Te
 #### Prepare synchronization
 
 The
-[`Prepare Synchronization` task](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/jobs/tasks/agent/preparesynchronizationtask/index.md)
+[`Prepare Synchronization` task](/docs/usercube/6.1/usercube/integration-guide/toolkit/xml-configuration/jobs/tasks/agent/preparesynchronizationtask/index.md)
 performs a preparatory data cleansing to spot errors and list them in a generated file in the
 `/{InstallationFolder}/Work/Synchronization` folder.
 
@@ -45,10 +45,10 @@ performs a preparatory data cleansing to spot errors and list them in a generate
 #### Synchronize
 
 The
-[`Synchronize` task](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/jobs/tasks/server/synchronizetask/index.md)
+[`Synchronize` task](/docs/usercube/6.1/usercube/integration-guide/toolkit/xml-configuration/jobs/tasks/server/synchronizetask/index.md)
 loads data into Usercube's database.
 
-[**Read more about the synchronization process**](/versioned_docs/usercube_6.1/usercube/integration-guide/synchronization/upward-data-sync/index.md).
+[**Read more about the synchronization process**](/docs/usercube/6.1/usercube/integration-guide/synchronization/upward-data-sync/index.md).
 
 ### Prerequisites
 
@@ -57,7 +57,7 @@ loads data into Usercube's database.
 Every extracted resource must have an attribute that serves as a primary key so that Usercube can
 uniquely identify the resource to be added/updated/deleted during synchronization. You must have
 defined keys during
-[entity type creation](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/connect-system/entity-type-creation/index.md).
+[entity type creation](/docs/usercube/6.1/usercube/user-guide/set-up/connect-system/entity-type-creation/index.md).
 
 #### Extractions must not be modified before synchronization
 
@@ -79,7 +79,7 @@ _"Threshold Exceeded"_ on the log page described below.
 Once the changes have been reviewed, the blocked job can be resumed (or not).
 
 Thresholds are configured with default values using the following
-[`Connector` attributes](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/connectors/connector/index.md):
+[`Connector` attributes](/docs/usercube/6.1/usercube/integration-guide/toolkit/xml-configuration/connectors/connector/index.md):
 
 - `MaximumDeletedLines`, `MaximumInsertedLines` and `MaximumUpdatedLines` for scalar properties;
 - `MaxPercentageDeletedLines`, `MaxPercentageInsertedLines` and `MaxPercentageUpdatedLines` for
@@ -95,7 +95,7 @@ At this point, integrators should have all the elements they need to perform syn
 
 | Input                                                                                                                         | Output            |
 | ----------------------------------------------------------------------------------------------------------------------------- | ----------------- |
-| [Connector with its entity types](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/connect-system/index.md) (required) | Synchronized data |
+| [Connector with its entity types](/docs/usercube/6.1/usercube/user-guide/set-up/connect-system/index.md) (required) | Synchronized data |
 
 ## Launch Synchronization
 
@@ -111,9 +111,9 @@ Launch synchronization for a given managed system by proceeding as follows:
     Here are all the tasks available for synchronization. They synchronize all connections and
     entity types for only this connector. It is possible to launch them individually in order to
     test them and debug a situation, or all together with **All Tasks**. According to the created
-    [connection(s) and package(s)](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/connect-system/connection-creation/index.md),
+    [connection(s) and package(s)](/docs/usercube/6.1/usercube/user-guide/set-up/connect-system/connection-creation/index.md),
     all these tasks can be launched either in
-    [incremental or complete](/versioned_docs/usercube_6.1/usercube/integration-guide/tasks-jobs/jobs/index.md)
+    [incremental or complete](/docs/usercube/6.1/usercube/integration-guide/tasks-jobs/jobs/index.md)
     mode.
 
     ![Synchronize Job](/img/versioned_docs/usercube_6.1/usercube/user-guide/set-up/synchronization/synchro_executionjobs_v602.webp)
@@ -131,14 +131,14 @@ Launch synchronization for a given managed system by proceeding as follows:
 
 Export and synchronization are executed manually from the connector screens. By default, they are
 also part of scheduled
-[jobs](/versioned_docs/usercube_6.1/usercube/integration-guide/tasks-jobs/jobs/index.md) provided by
+[jobs](/docs/usercube/6.1/usercube/integration-guide/tasks-jobs/jobs/index.md) provided by
 Usercube:
 
 - the
-  [complete job](/versioned_docs/usercube_6.1/usercube/integration-guide/tasks-jobs/how-tos/jobdaily/index.md)
+  [complete job](/docs/usercube/6.1/usercube/integration-guide/tasks-jobs/how-tos/jobdaily/index.md)
   is scheduled to launch a synchronization once a day of all resources, modified or not;
 - the
-  [incremental job](/versioned_docs/usercube_6.1/usercube/integration-guide/tasks-jobs/how-tos/jobfast/index.md)
+  [incremental job](/docs/usercube/6.1/usercube/integration-guide/tasks-jobs/how-tos/jobfast/index.md)
   is scheduled to launch a synchronization several times a day only of the resources modified since
   the last synchronization.
 
@@ -165,7 +165,7 @@ All jobs are accessible on the **Job Execution** page in the **Administration** 
 ## Verify an Entity Type's Synchronization
 
 In order to verify both the synchronization configuration and
-[entity types](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/connect-system/entity-type-creation/index.md):
+[entity types](/docs/usercube/6.1/usercube/user-guide/set-up/connect-system/entity-type-creation/index.md):
 
 1. Launch synchronization.
 2. Access the connector's logs (from **Job Results** on the connector's dashboard) to ensure that
@@ -201,7 +201,7 @@ In order to verify both the synchronization configuration and
     >
     > Clicking on any eye icon displays the corresponding resource. SAB was created here with a
     > simple
-    > [user-group schema](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/connect-system/connector-modeling/index.md)
+    > [user-group schema](/docs/usercube/6.1/usercube/user-guide/set-up/connect-system/connector-modeling/index.md)
     > that links n users to n groups. So here, we can check these links by navigating from a given
     > user to one of their groups, to one of said group's users, to one of said user's groups, etc.
 
@@ -211,7 +211,7 @@ Make sure you followed the prerequisite guidelines for synchronization.
 
 Keep in mind that a problem observed in synchronized data might also come from a mistake made
 previously in the
-[connector's configuration](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/connect-system/index.md).
+[connector's configuration](/docs/usercube/6.1/usercube/user-guide/set-up/connect-system/index.md).
 Therefore, logs can give more details. Logs are accessible from the **Job Results** button on the
 dashboard of a given connector.
 
@@ -223,13 +223,13 @@ logs in order to debug a situation.
 ![Test Entity Type](/img/versioned_docs/usercube_6.1/usercube/user-guide/set-up/synchronization/home_entitytypes_v602.webp)
 
 Access the relevant connector's page and click on the
-[**Reload**](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/connect-system/entity-type-creation/index.md)
+[**Reload**](/docs/usercube/6.1/usercube/user-guide/set-up/connect-system/entity-type-creation/index.md)
 button to take into account the last changes in the entity type mappings.
 
 #### If a newly added property doesn't appear in users' data, then�
 
 Access the relevant connector's page to click on the
-[**Reload**](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/connect-system/entity-type-creation/index.md)
+[**Reload**](/docs/usercube/6.1/usercube/user-guide/set-up/connect-system/entity-type-creation/index.md)
 button to take into account the most recent changes in the entity type mappings.
 
 #### If a synchronization is blocked by an exceeded threshold, then�

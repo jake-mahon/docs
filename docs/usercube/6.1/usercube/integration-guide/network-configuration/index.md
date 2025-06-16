@@ -16,13 +16,13 @@ variables.
 Configuration settings are detailed further in the following sections:
 
 - Server configuration, including connection to the database and end-user authentication. See the
-  [Server Configuration](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/server-configuration/index.md)
+  [Server Configuration](/docs/usercube/6.1/usercube/integration-guide/network-configuration/server-configuration/index.md)
   topic for additional information.
 - Agent configuration, including connection to the managed systems. See the
-  [Agent Configuration](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/index.md)
+  [Agent Configuration](/docs/usercube/6.1/usercube/integration-guide/network-configuration/agent-configuration/index.md)
   topic for additional information.
 - Monitoring, indicating how to set up monitoring for Usercube. See the
-  [Monitoring](/versioned_docs/usercube_6.1/usercube/integration-guide/monitoring/index.md) topic
+  [Monitoring](/docs/usercube/6.1/usercube/integration-guide/monitoring/index.md) topic
   for additional information.
 
 ## Write Settings
@@ -35,15 +35,15 @@ Configuration setting values are organized by functionality into three sets:
 
 1. The Server's appsettings set gathers general-purpose settings for the Server (including database
    connection and end-user authentication). See the
-   [Server Configuration](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/server-configuration/index.md)
+   [Server Configuration](/docs/usercube/6.1/usercube/integration-guide/network-configuration/server-configuration/index.md)
    topic for additional information.
 2. The Agent's appsettings set gathers general-purpose settings for the Agent executable process.
    See the
-   [Application Settings](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/appsettings/index.md)
+   [Application Settings](/docs/usercube/6.1/usercube/integration-guide/network-configuration/agent-configuration/appsettings/index.md)
    topic for additional information.
 3. The appsettings.agent set gathers settings for the Agent's connection to the managed systems. See
    the
-   [appsettings.agent](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/appsettings-agent/index.md)
+   [appsettings.agent](/docs/usercube/6.1/usercube/integration-guide/network-configuration/agent-configuration/appsettings-agent/index.md)
    topic for additional information.
 
 Each set can be seen as a
@@ -78,7 +78,7 @@ Relevant files for the Agent can be found in its working directory:
 
 Each setting file is organized into several sections as shown in the Sets, Sections and values
 diagram. See the
-[Architecture](/versioned_docs/usercube_6.1/usercube/integration-guide/architecture/index.md) topic
+[Architecture](/docs/usercube/6.1/usercube/integration-guide/architecture/index.md) topic
 for additional information.
 
 Each section's name matches a top level attribute of the file's `json` object.
@@ -109,7 +109,7 @@ settings.example.json
 ```
 
 In Integrated-agent mode, agent configuration is written to the Server's `appsettings.json` file.
-See the [Overview](/versioned_docs/usercube_6.1/usercube/installation-guide/overview/index.md) topic
+See the [Overview](/docs/usercube/6.1/usercube/installation-guide/overview/index.md) topic
 for additional information.
 
 #### Reminder
@@ -201,11 +201,11 @@ for the application.
 Configuration encompasses:
 
 - The Server configuration with a connection to the database and end-user authentication. See the
-  [Server Configuration](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/server-configuration/index.md)
+  [Server Configuration](/docs/usercube/6.1/usercube/integration-guide/network-configuration/server-configuration/index.md)
   topic for additional information.
 - The Agent configuration with a connection to the managed systems. See the
-  [Agent Configuration](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/index.md)
+  [Agent Configuration](/docs/usercube/6.1/usercube/integration-guide/network-configuration/agent-configuration/index.md)
   topic for additional information.
 - The Logger configuration. See the
-  [Monitoring](/versioned_docs/usercube_6.1/usercube/integration-guide/monitoring/index.md) topic
+  [Monitoring](/docs/usercube/6.1/usercube/integration-guide/monitoring/index.md) topic
   for additional information.

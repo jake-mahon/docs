@@ -43,7 +43,7 @@ Disk space based on limited trial implementations only. For production, we size 
 of 4GB per device, per annum, based on typical change event and report volumes (4 Compliance Reports
 per month, 200 change events per month)
 
-- See the [Installation](/versioned_docs/changetracker_8.0/changetracker/install/overview.md) topic
+- See the [Installation](/docs/changetracker/8.0/changetracker/install/overview.md) topic
   for additional information on the installation process.
 
 Please run a Windows Update to ensure all above components are fully up to date.

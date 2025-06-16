@@ -11,13 +11,13 @@ The following permission is needed:
 - Member of the Domain Administrators group
 
 Some collection jobs do allow for a least privilege model. See the
-[Active Directory Auditing Configuration](/versioned_docs/enterpriseauditor_11.6/config/activedirectory/access.md)
+[Active Directory Auditing Configuration](/docs/accessanalyzer/11.6/config/activedirectory/access.md)
 topic for additional information.
 
 ## Auditing Port Requirements
 
 Ports vary based on the data collector being used. See the
-[Active Directory Auditing Configuration](/versioned_docs/enterpriseauditor_11.6/config/activedirectory/access.md)
+[Active Directory Auditing Configuration](/docs/accessanalyzer/11.6/config/activedirectory/access.md)
 topic for additional information.
 
 ## Activity Auditing Permissions
@@ -25,7 +25,7 @@ topic for additional information.
 **NOTE:** Active Directory domain activity events can also be monitored through Netwrix Threat
 Prevention. This requires integration between it and Netwrix Activity Monitor to enable access to
 the data for Enterprise Auditor Active Directory Activity scans. See the
-[Getting Data from NTP for AD Activity Reporting](/versioned_docs/enterpriseauditor_11.6/config/activedirectory/threatprevention.md)
+[Getting Data from NTP for AD Activity Reporting](/docs/accessanalyzer/11.6/config/activedirectory/threatprevention.md)
 topic for additional information.
 
 Requirements to Deploy the AD Agent on the Domain Controller
@@ -53,7 +53,7 @@ have READ and WRITE permissions on the archive location.
 Integration with Enterprise Auditor
 
 See the
-[Active Directory Activity Auditing Configuration](/versioned_docs/enterpriseauditor_11.6/config/activedirectory/activity.md)
+[Active Directory Activity Auditing Configuration](/docs/accessanalyzer/11.6/config/activedirectory/activity.md)
 topic for target environment requirements.
 
 ## Activity Auditing Port Requirements

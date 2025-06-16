@@ -14,7 +14,7 @@ The supported external data providers are:
 
 Before using any of the above external data providers, a data source for the provider must be
 defined in Admin Center. See the
-[Create a Data Source](/versioned_docs/groupid_11.0/groupid/admincenter/datasource/create.md) topic.
+[Create a Data Source](/docs/groupid/11.0/groupid/admincenter/datasource/create.md) topic.
 
 A connection is configured in a data source, GroupID portal connects to the external database,
 retrieves the results, and then queries the directory for matching records.
@@ -91,4 +91,4 @@ View the provider query in the LDAP Query box.
 
 **See Also**
 
-- [Query Designer](/versioned_docs/groupid_11.0/groupid/portal/group/querydesigner/overview.md)
+- [Query Designer](/docs/groupid/11.0/groupid/portal/group/querydesigner/overview.md)

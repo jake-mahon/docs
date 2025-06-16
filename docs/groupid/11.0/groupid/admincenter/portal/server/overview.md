@@ -21,11 +21,11 @@ logged out. When accessed again, the portal runs under the new configurations.
 
 **See Also**
 
-- [Create a GroupID Portal](/versioned_docs/groupid_11.0/groupid/admincenter/portal/create.md)
-- [Manage General Server Settings](/versioned_docs/groupid_11.0/groupid/admincenter/portal/server/general.md)
-- [Manage Settings for a Native IIS Deployment](/versioned_docs/groupid_11.0/groupid/admincenter/portal/server/nativeiis.md)
-- [Manage Settings for a Remote IIS Deployment](/versioned_docs/groupid_11.0/groupid/admincenter/portal/server/remoteiis.md)
-- [Manage Settings for a Docker Deployment](/versioned_docs/groupid_11.0/groupid/admincenter/portal/server/docker.md)
-- [Manage Log Settings](/versioned_docs/groupid_11.0/groupid/admincenter/portal/server/log.md)
-- [Add Support for a Portal](/versioned_docs/groupid_11.0/groupid/admincenter/portal/server/support.md)
-- [Manage Advanced Settings](/versioned_docs/groupid_11.0/groupid/admincenter/portal/server/advanced.md)
+- [Create a GroupID Portal](/docs/groupid/11.0/groupid/admincenter/portal/create.md)
+- [Manage General Server Settings](/docs/groupid/11.0/groupid/admincenter/portal/server/general.md)
+- [Manage Settings for a Native IIS Deployment](/docs/groupid/11.0/groupid/admincenter/portal/server/nativeiis.md)
+- [Manage Settings for a Remote IIS Deployment](/docs/groupid/11.0/groupid/admincenter/portal/server/remoteiis.md)
+- [Manage Settings for a Docker Deployment](/docs/groupid/11.0/groupid/admincenter/portal/server/docker.md)
+- [Manage Log Settings](/docs/groupid/11.0/groupid/admincenter/portal/server/log.md)
+- [Add Support for a Portal](/docs/groupid/11.0/groupid/admincenter/portal/server/support.md)
+- [Manage Advanced Settings](/docs/groupid/11.0/groupid/admincenter/portal/server/advanced.md)

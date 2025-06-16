@@ -25,20 +25,20 @@ The top right corner of the application displays:
 | -------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Background jobs icon | View the status of jobs and job collections that are running in the background. It displays: - Jobs - Completed Jobs: Jobs that have been completed. - In Progress Jobs: Jobs that are still in running. - Job Collections - Completed Jobs: Job collections that have been completed. - In Progress Jobs: Job collections that are still in running. |
 | Help icon            | Launch the synchronize portal help.                                                                                                                                                                                                                                                                                                                   |
-| User profile icon    | Displays your profile picture with your name and the identity store that GroupID Portal is connected to. Click it to launch the menu that displays the option to [Sign Out](/versioned_docs/groupid_11.0/groupid/portal/login.md#sign-out) of the portal.                                                                                             |
+| User profile icon    | Displays your profile picture with your name and the identity store that GroupID Portal is connected to. Click it to launch the menu that displays the option to [Sign Out](/docs/groupid/11.0/groupid/portal/login.md#sign-out) of the portal.                                                                                             |
 
 ## Menu Pane
 
 Look on the left side of the page for the navigation pane, which lists links to:
 
-- Create New ([Create a Job](/versioned_docs/groupid_11.0/groupid/portal/synchronize/job/create.md)
+- Create New ([Create a Job](/docs/groupid/11.0/groupid/portal/synchronize/job/create.md)
   and
-  [Create a Job Collection ](/versioned_docs/groupid_11.0/groupid/portal/synchronize/collection/create.md))
+  [Create a Job Collection ](/docs/groupid/11.0/groupid/portal/synchronize/collection/create.md))
 - Dashboard
-- [Manage a Job](/versioned_docs/groupid_11.0/groupid/portal/synchronize/manage/job.md)
-- [Manage a Job Collection ](/versioned_docs/groupid_11.0/groupid/portal/synchronize/manage/jobcollection.md)
-- [Job Templates](/versioned_docs/groupid_11.0/groupid/portal/synchronize/manage/jobtemplate.md)
-- [Job Collection Template](/versioned_docs/groupid_11.0/groupid/portal/synchronize/manage/jobcollectiontemplate.md)
+- [Manage a Job](/docs/groupid/11.0/groupid/portal/synchronize/manage/job.md)
+- [Manage a Job Collection ](/docs/groupid/11.0/groupid/portal/synchronize/manage/jobcollection.md)
+- [Job Templates](/docs/groupid/11.0/groupid/portal/synchronize/manage/jobtemplate.md)
+- [Job Collection Template](/docs/groupid/11.0/groupid/portal/synchronize/manage/jobcollectiontemplate.md)
 
 ## Dashboard
 
@@ -55,8 +55,8 @@ The dashboard comprises of the following cards:
 
 **See Also**
 
-- [Synchronize](/versioned_docs/groupid_11.0/groupid/portal/synchronize/overview.md)
-- [Create a Job](/versioned_docs/groupid_11.0/groupid/portal/synchronize/job/create.md)
-- [Create a Job Collection ](/versioned_docs/groupid_11.0/groupid/portal/synchronize/collection/create.md)
-- [Manage a Job](/versioned_docs/groupid_11.0/groupid/portal/synchronize/manage/job.md)
-- [Manage a Job Collection ](/versioned_docs/groupid_11.0/groupid/portal/synchronize/manage/jobcollection.md)
+- [Synchronize](/docs/groupid/11.0/groupid/portal/synchronize/overview.md)
+- [Create a Job](/docs/groupid/11.0/groupid/portal/synchronize/job/create.md)
+- [Create a Job Collection ](/docs/groupid/11.0/groupid/portal/synchronize/collection/create.md)
+- [Manage a Job](/docs/groupid/11.0/groupid/portal/synchronize/manage/job.md)
+- [Manage a Job Collection ](/docs/groupid/11.0/groupid/portal/synchronize/manage/jobcollection.md)

@@ -4,7 +4,7 @@ The Queries node uses a Enterprise Auditor data collector to run scans against t
 Different data collectors are designed for different types of collection. It is necessary for the
 Connection Profile associated with the target hosts to have a sufficient level of rights for the
 selected data collector. See the
-[Permissions by Data Collector (Matrix)](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/permissionmatrix.md)
+[Permissions by Data Collector (Matrix)](/docs/accessanalyzer/11.6/enterpriseauditor/admin/datacollector/permissionmatrix.md)
 topic for a chart with recommended permissions per data collector.
 
 ![Query Selection page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/queryselection.webp)
@@ -53,17 +53,17 @@ The Queries section has four options and includes the list of queries for the se
 
 - Add from Library – Opens the Libraries window to select preconfigured data collection queries. See
   the
-  [Add Query from Library](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/overview.md#add-query-from-library)
+  [Add Query from Library](/docs/accessanalyzer/11.6/enterpriseauditor/admin/datacollector/overview.md#add-query-from-library)
   topic for additional information.
 - Create Query – Opens the Query Properties window for creating and configuring queries
 - Delete Query – Deletes the selected query from the list. This action does require confirmation.
 - Query Properties – Opens the Query Properties window for the selected query
     - This option is used for query modifications
     - See the
-      [Create or Modify a Query](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/overview.md#create-or-modify-a-query)
+      [Create or Modify a Query](/docs/accessanalyzer/11.6/enterpriseauditor/admin/datacollector/overview.md#create-or-modify-a-query)
       topic for additional information
     - See the topics for the individual
-      [Data Collectors](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/overview.md)
+      [Data Collectors](/docs/accessanalyzer/11.6/enterpriseauditor/admin/datacollector/overview.md)
       for additional information
 
 ## Right-click Menu
@@ -88,7 +88,7 @@ The options in the Queries node right-click menu are:
 - Rename Table – Opens the Rename Table window
 - Run Job – Starts job execution for the selected job
 - Add Instant Job – Opens the
-  [Instant Job Wizard](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/jobs/instantjobs/overview.md)
+  [Instant Job Wizard](/docs/accessanalyzer/11.6/enterpriseauditor/admin/jobs/instantjobs/overview.md)
 - Create Job (**Ctrl + Alt + A**) – Creates a new job at the same location as the selected job
 
 ## Host List
@@ -96,20 +96,20 @@ The options in the Queries node right-click menu are:
 Jobs with configured queries require a host list to be assigned. This can be done at either the Job
 Group or Job level. Whichever location is used to set the host list for query execution should also
 be the location where the Connection Profile is assigned. See the
-[Job Properties](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/jobs/job/properties/overview.md)
+[Job Properties](/docs/accessanalyzer/11.6/enterpriseauditor/admin/jobs/job/properties/overview.md)
 topic for additional information.
 
 - Job Groups
     - Host List Assigned – **[Job Group]** > **Settings** > **Host Lists Assignment**. See the
-      [Host Lists Assignment](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/jobs/group/hostlistsassignment.md)
+      [Host Lists Assignment](/docs/accessanalyzer/11.6/enterpriseauditor/admin/jobs/group/hostlistsassignment.md)
       topic for additional information.
     - Connection Profile Selected – **[Job Group]** > **Settings** > **Connection**. See the
-      [Connection Node](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/jobs/group/connection.md)
+      [Connection Node](/docs/accessanalyzer/11.6/enterpriseauditor/admin/jobs/group/connection.md)
       topic for additional information.
 - Job Level
     - Host List Assigned – **[Job]** > **Configure** > **Hosts**. See the
-      [Hosts Node](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/jobs/job/configure/hosts.md)
+      [Hosts Node](/docs/accessanalyzer/11.6/enterpriseauditor/admin/jobs/job/configure/hosts.md)
       topic for additional information.
     - Connection Profile Selected – Connection tab of the Job’s Properties Window. See the
-      [Connection Tab](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/jobs/job/properties/connection.md)
+      [Connection Tab](/docs/accessanalyzer/11.6/enterpriseauditor/admin/jobs/job/properties/connection.md)
       topic for additional information.

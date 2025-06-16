@@ -8,7 +8,7 @@ with a risk-based method.
 ## Overview
 
 A
-[risk](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/provisioning/risk/index.md)
+[risk](/docs/usercube/6.1/usercube/integration-guide/toolkit/xml-configuration/provisioning/risk/index.md)
 describes a sensitive situation of entitlement assignments that needs to be monitored.
 
 Risk management is essential to auditing. End-users can define models of risks, assigned to
@@ -21,15 +21,15 @@ To identify the identities that represent the highest risk, Usercube computes a 
 identities, based on both the roles already assigned and the roles that are subject of the current
 request. The higher the score, the higher the threat. The identities with the highest risk scores
 are the priority of the next
-[access certification campaign](/versioned_docs/usercube_6.1/usercube/integration-guide/governance/accesscertification/index.md).
+[access certification campaign](/docs/usercube/6.1/usercube/integration-guide/governance/accesscertification/index.md).
 
-[See more information about how to use the risk management module](/versioned_docs/usercube_6.1/usercube/user-guide/optimize/risk-management/index.md)
+[See more information about how to use the risk management module](/docs/usercube/6.1/usercube/user-guide/optimize/risk-management/index.md)
 to identify entitlement assignments that pose a security risk.
 
 ## Risk Definition
 
 A
-[risk](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/provisioning/risk/index.md)
+[risk](/docs/usercube/6.1/usercube/integration-guide/toolkit/xml-configuration/provisioning/risk/index.md)
 is an object that describes a sensitive situation of assignments of entitlements.
 
 The assignment of a risk to an identity highlights, for a potential auditor, the need to closely
@@ -38,7 +38,7 @@ reconsider said the assignments of said identity.
 A risk is always:
 
 - part of a
-  [policy](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/provisioning/policy/index.md);
+  [policy](/docs/usercube/6.1/usercube/integration-guide/toolkit/xml-configuration/provisioning/policy/index.md);
 - assigned to identities belonging to a specific entity type that was decided during the risk
   creation;
 - organized inside a type;
@@ -119,21 +119,21 @@ risk that would have been blocking otherwise, is just a warning.
 
 ### Risk Rules
 
-[Risks](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/provisioning/risk/index.md)
+[Risks](/docs/usercube/6.1/usercube/integration-guide/toolkit/xml-configuration/provisioning/risk/index.md)
 are assigned to resources manually by a knowledgeable user or automatically, by the
-[Evaluate Policy](/versioned_docs/usercube_6.1/usercube/integration-guide/role-assignment/evaluate-policy/index.md)
+[Evaluate Policy](/docs/usercube/6.1/usercube/integration-guide/role-assignment/evaluate-policy/index.md)
 algorithm.
 
 When a risk is assigned to a resource, a new identified risk is created under the
 `UP_IdentifiedRisks` table.
 
 Automatic assignment of risks is based on
-[risk rules](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/provisioning/risk/index.md).
+[risk rules](/docs/usercube/6.1/usercube/integration-guide/toolkit/xml-configuration/provisioning/risk/index.md).
 For each new fine-grained assignment on a resource, risk rules are applied. If one of the rules
 matches the resource state, the related risks are assigned to the resource. Those rules are
 themselves based on fine-grained entitlements, such as an Active Directory account or group
 membership, modeled by the
-[navigation rules](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/provisioning/resourcetype/index.md)
+[navigation rules](/docs/usercube/6.1/usercube/integration-guide/toolkit/xml-configuration/provisioning/resourcetype/index.md)
 within Usercube.
 
 A risk rule states that a risk is assigned to a resource if the resource has one or several specific
@@ -152,7 +152,7 @@ resource-identity.
 This is the way:
 
 1. Choose an
-   [entity type](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/metadata/entitytype/index.md)
+   [entity type](/docs/usercube/6.1/usercube/integration-guide/toolkit/xml-configuration/metadata/entitytype/index.md)
    of which the resource-identity could be owner.
 2. Choose a navigation property of that entity type.
 3. Choose a value for that navigation property. The value would be a resource from the unified
@@ -164,11 +164,11 @@ navigation property and the ownership relationship.
 ## Risk Score
 
 Once
-[risks](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/provisioning/risk/index.md)
+[risks](/docs/usercube/6.1/usercube/integration-guide/toolkit/xml-configuration/provisioning/risk/index.md)
 are assigned to identities, Usercube computes a risk score for each relevant identity.
 
 This score allows an auditor to prioritize the
-[access certification campaign](/versioned_docs/usercube_6.1/usercube/integration-guide/governance/accesscertification/index.md).
+[access certification campaign](/docs/usercube/6.1/usercube/integration-guide/governance/accesscertification/index.md).
 The identity with the highest risk score poses a more serious security threat and has to be handled
 first.
 

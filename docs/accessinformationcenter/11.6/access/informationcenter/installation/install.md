@@ -49,7 +49,7 @@ open.
 **Settings** > **Storage** node, and will be auto-populated if installing the Access Information
 Center on the same server as Enterprise Auditor. The Database settings can be modified after
 installation. See the
-[Database Page](/versioned_docs/accessinformationcenter_11.6/access/informationcenter/admin/configuration/database.md)
+[Database Page](/docs/accessinformationcenter/11.6/access/informationcenter/admin/configuration/database.md)
 topic for additional information.
 
 ![AIC Setup Wizard Configure Web Server page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/action/survey/webserver.webp)
@@ -68,5 +68,5 @@ field. When the port is set as desired, click **Next**.
 
 The installation wizard placed an Netwrix Access Information Center icon on the desktop. Now proceed
 to the
-[First Launch](/versioned_docs/accessinformationcenter_11.6/access/informationcenter/admin/firstlaunch.md)
+[First Launch](/docs/accessinformationcenter/11.6/access/informationcenter/admin/firstlaunch.md)
 topic for next steps.

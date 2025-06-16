@@ -15,7 +15,7 @@ collection can run in future and can also set the notifications settings for the
 
         If you are modifying an existing job collection, you can also a new schedule for the job
         collection. Visit
-        [Synchronize Schedule](/versioned_docs/groupid_11.0/groupid/admincenter/schedule/synchronize.md)
+        [Synchronize Schedule](/docs/groupid/11.0/groupid/admincenter/schedule/synchronize.md)
 
 2. On the **Notifications** section, set up email notification of job collection run results. This
    feature requires Microsoft Exchange. Notifications are disabled by default and can be enabled and
@@ -39,10 +39,10 @@ collection can run in future and can also set the notifications settings for the
 7. Click **Finish** to exit the wizard and create the job collection.
 8. Once you run the job collection, a workflow request is triggered.
 9. Generated workflow request will be displayed in the
-   [Requests](/versioned_docs/groupid_11.0/groupid/portal/request/overview.md) section for the
+   [Requests](/docs/groupid/11.0/groupid/portal/request/overview.md) section for the
    workflow approver(s). If the approver approves the workflow request, the job will execute the
    results.
 
 **See Also**
 
-- [Create a Job Collection ](/versioned_docs/groupid_11.0/groupid/portal/synchronize/collection/create.md)
+- [Create a Job Collection ](/docs/groupid/11.0/groupid/portal/synchronize/collection/create.md)

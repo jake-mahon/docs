@@ -20,7 +20,7 @@ from** and click **Next** to continue.
 
 **NOTE:** If you are upgrading from a previous version of Enterprise Auditor, select **Choose a
 StealthAUDIT root folder path to copy from**. See the
-[Enterprise Auditor Console Upgrade](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/install/application/upgrade/overview.md)
+[Enterprise Auditor Console Upgrade](/docs/accessanalyzer/11.6/enterpriseauditor/install/application/upgrade/overview.md)
 topic for additional information.
 
 ![SQL Server Settings page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/install/application/sqlserver.webp)
@@ -57,7 +57,7 @@ topic for additional information.
   recommended.
 
 See the
-[Securing the Enterprise Auditor Database](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/install/application/database.md#securing-the-enterprise-auditor-database)
+[Securing the Enterprise Auditor Database](/docs/accessanalyzer/11.6/enterpriseauditor/install/application/database.md#securing-the-enterprise-auditor-database)
 topic for additional information on creating a SQL Server database for Enterprise Auditor.
 
 **Step 5 –** Click **Next**.
@@ -112,7 +112,7 @@ installation, click **Finish** to open the Enterprise Auditor Console.
 **NOTE:** To view the log for the setup process, click **View Log** to open it. If you need to view
 the log after exiting the wizard, it is located in the installation directory at
 `..\STEALTHbits\StealthAUDIT\SADatabase\Logs`. See the
-[Troubleshooting](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/maintenance/troubleshooting.md)
+[Troubleshooting](/docs/accessanalyzer/11.6/enterpriseauditor/admin/maintenance/troubleshooting.md)
 topic for more information about logs.
 
 ![Netwrix Acces Governance Settings Node](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/install/application/settingsnode.webp)
@@ -120,5 +120,5 @@ topic for more information about logs.
 The Enterprise Auditor Console is now ready for custom configuration and use. There are a few
 additional steps to complete in order to begin collecting data, such as configuring a Connection
 Profile and a Schedule Service account as well as discovering hosts and setting up host lists. See
-the [Getting Started](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/gettingstarted.md)
+the [Getting Started](/docs/accessanalyzer/11.6/enterpriseauditor/gettingstarted.md)
 topic for additional information.

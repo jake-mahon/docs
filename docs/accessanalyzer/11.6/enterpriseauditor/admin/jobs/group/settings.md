@@ -8,26 +8,26 @@ assigned to a job group.
 These settings inherit the global settings down by default unless inheritance is broken at a job
 group or a job level.
 
-- [Connection Node](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/jobs/group/connection.md)
+- [Connection Node](/docs/accessanalyzer/11.6/enterpriseauditor/admin/jobs/group/connection.md)
   – Use the default Connection Profile or break inheritance to select the Connection Profile needed
   for the assigned host lists for this job group
-- [History Node](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/jobs/group/history.md)
+- [History Node](/docs/accessanalyzer/11.6/enterpriseauditor/admin/jobs/group/history.md)
   – Use the default history settings or break inheritance on data retention and log retention
   settings for this job group
-- [Host Lists Assignment](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/jobs/group/hostlistsassignment.md)
+- [Host Lists Assignment](/docs/accessanalyzer/11.6/enterpriseauditor/admin/jobs/group/hostlistsassignment.md)
   – Use the default host list configured on a parent job group or break inheritance on assigned host
   lists for this job group
 
     **NOTE:** Host List Assignments is not a global setting. The pre-configured solutions may
     contain Host List Assignments configured to use Global Default Host Lists, for example All
     Domain Controllers. See the
-    [Default Host Lists](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/settings/hostinventory.md#default-host-lists)
+    [Default Host Lists](/docs/accessanalyzer/11.6/enterpriseauditor/admin/settings/hostinventory.md#default-host-lists)
     topic for additional information.
 
-- [Reporting Node](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/jobs/group/reporting.md)
+- [Reporting Node](/docs/accessanalyzer/11.6/enterpriseauditor/admin/jobs/group/reporting.md)
   – Use the default report settings or break inheritance on Published Report settings, Email
   settings, and Report role assignment for this job group
-- [Storage Node](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/jobs/group/storage.md)
+- [Storage Node](/docs/accessanalyzer/11.6/enterpriseauditor/admin/jobs/group/storage.md)
   – Use the default storage profile or break inheritance on where this job group's data is stored
 
 If changes are made, click **Save** to implement the changes. Changes are not implemented unless
@@ -38,6 +38,6 @@ before executing a job group or job when data collection is included. The assign
 contains the hosts that are targeted by the job’s data collection queries. The assigned Connection
 Profile must have the appropriate level of permissions in order for the data collection to be
 successful. See the
-[Permissions by Data Collector (Matrix)](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/permissionmatrix.md)
+[Permissions by Data Collector (Matrix)](/docs/accessanalyzer/11.6/enterpriseauditor/admin/datacollector/permissionmatrix.md)
 topic for information on the recommended permissions needed on the targeted hosts in order to
 collect data.

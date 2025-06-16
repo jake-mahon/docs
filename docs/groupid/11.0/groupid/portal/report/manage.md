@@ -43,7 +43,7 @@ can launch this wizard again for a report and edit the settings.
     The template page will list the generated report.
 
 3. Click the **Edit** icon next to the report and follow the steps in
-   [Generate Reports](/versioned_docs/groupid_11.0/groupid/portal/report/generate.md). Make the
+   [Generate Reports](/docs/groupid/11.0/groupid/portal/report/generate.md). Make the
    relevant changes and click Finish to generate the report.
 
 ## Download a Report
@@ -77,8 +77,8 @@ When you delete a report, all its settings are removed.
 
 **See Also**
 
-- [Generate Reports](/versioned_docs/groupid_11.0/groupid/portal/report/generate.md)
-- [Group Reports](/versioned_docs/groupid_11.0/groupid/portal/report/group.md)
-- [User Reports](/versioned_docs/groupid_11.0/groupid/portal/report/user.md)
-- [Computer Reports](/versioned_docs/groupid_11.0/groupid/portal/report/computer.md)
-- [Contact Reports](/versioned_docs/groupid_11.0/groupid/portal/report/contact.md)
+- [Generate Reports](/docs/groupid/11.0/groupid/portal/report/generate.md)
+- [Group Reports](/docs/groupid/11.0/groupid/portal/report/group.md)
+- [User Reports](/docs/groupid/11.0/groupid/portal/report/user.md)
+- [Computer Reports](/docs/groupid/11.0/groupid/portal/report/computer.md)
+- [Contact Reports](/docs/groupid/11.0/groupid/portal/report/contact.md)

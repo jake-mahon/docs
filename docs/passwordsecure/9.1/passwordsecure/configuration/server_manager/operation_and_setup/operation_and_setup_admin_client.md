@@ -5,7 +5,7 @@
 The structure of the Server Manager is based to a high degree on the structure of the actual client.
 The control elements such as the ribbon and the info and detail areas can be derived from the
 section dealing with the
-client([Operation and Setup](/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/advanced_view/operation_and_setup/operation_and_setup.md)).
+client([Operation and Setup](/docs/passwordsecure/9.1/passwordsecure/configuration/advanced_view/operation_and_setup/operation_and_setup.md)).
 
 NOTE: An initial password is required for the first login on Server Manager. The password is
 “admin”. This password should be changed directly after login and carefully documented.

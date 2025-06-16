@@ -34,7 +34,7 @@ Each Storage Profile consists of the following parts:
     - Windows authentication – Leverages the account used to run the Enterprise Auditor Console
 
         **NOTE:** This option affects the credentials used for Schedule Service Accounts. See the
-        [Schedule](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/settings/schedule.md)
+        [Schedule](/docs/accessanalyzer/11.6/enterpriseauditor/admin/settings/schedule.md)
         topic for additional information.
 
     - SQL Server authentication – Leverages the account provided in the **User name** and
@@ -55,13 +55,13 @@ Each Storage Profile consists of the following parts:
 At the Storage view, the following operations are available:
 
 - Add Storage profile – Create a new Storage Profile. See the
-  [Add a Storage Profile](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/settings/storage/add.md)
+  [Add a Storage Profile](/docs/accessanalyzer/11.6/enterpriseauditor/admin/settings/storage/add.md)
   topic for additional information.
 - Set as default – Change the default Storage Profile. See the
-  [Set a Default Storage Profile](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/settings/storage/default.md)
+  [Set a Default Storage Profile](/docs/accessanalyzer/11.6/enterpriseauditor/admin/settings/storage/default.md)
   topic for additional information.
 - Delete – Remove a Storage Profile. See the
-  [Delete a Storage Profile](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/settings/storage/delete.md)
+  [Delete a Storage Profile](/docs/accessanalyzer/11.6/enterpriseauditor/admin/settings/storage/delete.md)
   topic for additional information.
 
 **NOTE:** A green checkmark in the Storage Profiles list indicates the default Storage Profile.
@@ -73,5 +73,5 @@ at the global level, click **Save** and then **OK** to confirm the changes. Othe
 
 The vault provides enhanced security through enhanced encryption to various credentials stored by
 the Enterprise Auditor application. See the
-[Vault](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/settings/application/vault.md)
+[Vault](/docs/accessanalyzer/11.6/enterpriseauditor/admin/settings/application/vault.md)
 topic for additional information.

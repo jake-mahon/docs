@@ -1,7 +1,7 @@
 # Add Connection Profile
 
 Follow the steps to add a connection profile to the console. See the
-[Connection Profiles Page](/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/policy/page/connectionprofiles.md)
+[Connection Profiles Page](/docs/privilegesecure/4.1/privilegesecure/accessmanagement/admin/policy/page/connectionprofiles.md)
 topic for detailed descriptions of the fields.
 
 **Step 1 –** Navigate to the Policy > **Access Policies** > Connection Profiles page.
@@ -35,7 +35,7 @@ topic for detailed descriptions of the fields.
 
 **Step 5 –** The new connection profile is created. **NOTE:** To configure a Request Approval
 workflow, click the Configure Approval Workflow button in the left sidebar. See the
-[Add Approval Workflow](/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/policy/add/connectionprofileapproval.md)
+[Add Approval Workflow](/docs/privilegesecure/4.1/privilegesecure/accessmanagement/admin/policy/add/connectionprofileapproval.md)
 topic for additional information.
 
 **Step 6 –** Click **Create** to save the new connection profile.

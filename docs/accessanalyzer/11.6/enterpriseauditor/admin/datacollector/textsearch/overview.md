@@ -4,7 +4,7 @@ The TextSearch Data Collector enables searches through text based log files. The
 Collector is a core component of Enterprise Auditor, but it has been preconfigured within the
 Windows Solution. While the data collector is available with all Enterprise Auditor license options,
 the Windows Solution is only available with a special Enterprise Auditor license. See the
-[Windows Solution](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/windows/overview.md)
+[Windows Solution](/docs/accessanalyzer/11.6/enterpriseauditor/solutions/windows/overview.md)
 topic for additional information.
 
 Protocols
@@ -26,11 +26,11 @@ The TextSearch Data Collector is configured through the Text Search Data Collect
 contains the following wizard pages:
 
 - Welcome
-- [TextSearch: Source Files](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/textsearch/sourcefiles.md)
-- [TextSearch: Search Criteria](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/textsearch/searchcriteria.md)
-- [TextSearch: Advanced Criteria](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/textsearch/advancedcriteria.md)
-- [TextSearch: Results](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/textsearch/results.md)
-- [TextSearch: Summary](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/textsearch/summary.md)
+- [TextSearch: Source Files](/docs/accessanalyzer/11.6/enterpriseauditor/admin/datacollector/textsearch/sourcefiles.md)
+- [TextSearch: Search Criteria](/docs/accessanalyzer/11.6/enterpriseauditor/admin/datacollector/textsearch/searchcriteria.md)
+- [TextSearch: Advanced Criteria](/docs/accessanalyzer/11.6/enterpriseauditor/admin/datacollector/textsearch/advancedcriteria.md)
+- [TextSearch: Results](/docs/accessanalyzer/11.6/enterpriseauditor/admin/datacollector/textsearch/results.md)
+- [TextSearch: Summary](/docs/accessanalyzer/11.6/enterpriseauditor/admin/datacollector/textsearch/summary.md)
 
 ![Text Search Data Collector Wizard Welcome page](/img/versioned_docs/activitymonitor_7.1/activitymonitor/install/welcome.webp)
 

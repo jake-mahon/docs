@@ -28,7 +28,7 @@ Directory server (General)** option. Click **Next**.
       from those preconfigured at the global level (**Settings** > **Connection**)
 
     See the
-    [Connection](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/settings/connection/overview.md)
+    [Connection](/docs/accessanalyzer/11.6/enterpriseauditor/admin/settings/connection/overview.md)
     topic for additional information on Connection Profiles.
 
 Click **Next** to continue.
@@ -104,7 +104,7 @@ the discovery query.
       from those preconfigured at the global level (**Settings** > **Connection**)
 
     See the
-    [Connection](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/settings/connection/overview.md)
+    [Connection](/docs/accessanalyzer/11.6/enterpriseauditor/admin/settings/connection/overview.md)
     topic for additional information on Connection Profiles.
 
 Click **Next** to continue.

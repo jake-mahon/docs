@@ -34,10 +34,10 @@ You can configure your IT Infrastructure for monitoring in one of the following
       perform related configuration procedures:
 
         - Prepare a Data Collecting Account as described in the
-          [Permissions for Exchange Online Auditing](/versioned_docs/auditor_10.6/auditor/configuration/microsoft365/exchangeonline/permissions.md)
+          [Permissions for Exchange Online Auditing](/docs/auditor/10.6/auditor/configuration/microsoft365/exchangeonline/permissions.md)
           topic
         - Configure required protocols and ports, as described in the
-          [Exchange Online Ports](/versioned_docs/auditor_10.6/auditor/configuration/microsoft365/exchangeonline/ports.md)
+          [Exchange Online Ports](/docs/auditor/10.6/auditor/configuration/microsoft365/exchangeonline/ports.md)
           topic
 
 ## Monitored Object Types and Attributes

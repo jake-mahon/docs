@@ -8,7 +8,7 @@ password correctly.
 In such a situation as this, helpdesk users can unlock user accounts in an identity store.
 
 Helpdesk may have to authenticate users before unlocking their accounts. See the
-[Helpdesk Policy ](/versioned_docs/groupid_11.0/groupid/admincenter/helpdesk/overview.md#helpdesk-policy)
+[Helpdesk Policy ](/docs/groupid/11.0/groupid/admincenter/helpdesk/overview.md#helpdesk-policy)
 topic.
 
 NOTE: You can unlock the account of unenrolled users if (a) the **Unlock Any Account** permission
@@ -27,7 +27,7 @@ What do you want to do?
 1. In Admin Center, click **Helpdesk** in the left pane.
 2. The **Helpdesk** page opens to the **Helpdesk Operations** tab. Locate your required user. To
    search for a user, see
-   the[Search Users](/versioned_docs/groupid_11.0/groupid/admincenter/helpdesk/operation/search.md)
+   the[Search Users](/docs/groupid/11.0/groupid/admincenter/helpdesk/operation/search.md)
    topic.
 3. Click the ellipsis button for the user and select **Unlock Account**. For enrolled users, the
    **Unlock Account** dialog box has two pages: **Authenticate** and **Unlock**. Under the
@@ -35,7 +35,7 @@ What do you want to do?
    only the **Unlock** page is available.  
    Use the **History** button to view user history, i.e., the actions performed on the user and by
    the user. This history is specific to helpdesk functions, as listed in the
-   [History in Helpdesk](/versioned_docs/groupid_11.0/groupid/admincenter/helpdesk/history.md)
+   [History in Helpdesk](/docs/groupid/11.0/groupid/admincenter/helpdesk/history.md)
    topic.
 4. The **Unlock** page displays the user name, the identity store where this user resides, the last
    time the user changed his or her password, and the lock status of the account. In case the user
@@ -48,17 +48,17 @@ What do you want to do?
 1. In Admin Center, click **Helpdesk** in the left pane.
 2. The **Helpdesk** page opens to the **Helpdesk Operations** tab. Locate your required user. To
    search for a user, see
-   the[Search Users](/versioned_docs/groupid_11.0/groupid/admincenter/helpdesk/operation/search.md)
+   the[Search Users](/docs/groupid/11.0/groupid/admincenter/helpdesk/operation/search.md)
    topic.
 3. Click the ellipsis button for the user and select **Unlock Account**. The **Unlock Account**
    dialog box has two pages: **Authenticate** and **Unlock**.  
    Use the **History** button to view user history, i.e., the actions performed on the user and by
    the user. This history is specific to helpdesk functions, as listed in the
-   [History in Helpdesk](/versioned_docs/groupid_11.0/groupid/admincenter/helpdesk/history.md)
+   [History in Helpdesk](/docs/groupid/11.0/groupid/admincenter/helpdesk/history.md)
    topic.
 4. The **Authenticate** page displays the authentication type(s) the user's account is enrolled
    with. to authenticate the user, follow step 4 in the
-   [Reset Passwords in Restricted Mode](/versioned_docs/groupid_11.0/groupid/admincenter/helpdesk/operation/resetpassword.md#reset-passwords-in-restricted-mode)
+   [Reset Passwords in Restricted Mode](/docs/groupid/11.0/groupid/admincenter/helpdesk/operation/resetpassword.md#reset-passwords-in-restricted-mode)
    topic.
 5. After authenticating the user, click **Next**.
 6. The **Unlock** page displays the user name, the identity store where this user resides, the last
@@ -69,5 +69,5 @@ What do you want to do?
 
 **See Also**
 
-- [Helpdesk](/versioned_docs/groupid_11.0/groupid/admincenter/helpdesk/overview.md)
-- [Helpdesk Operations](/versioned_docs/groupid_11.0/groupid/admincenter/helpdesk/operation/overview.md)
+- [Helpdesk](/docs/groupid/11.0/groupid/admincenter/helpdesk/overview.md)
+- [Helpdesk Operations](/docs/groupid/11.0/groupid/admincenter/helpdesk/operation/overview.md)

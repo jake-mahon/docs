@@ -6,7 +6,7 @@ traditional authentication methods, OpenID delegates authentication to a third-p
 allowing users to authenticate with their chosen identity provider.
 
 Once you have added an authentication provider, as discussed in the
-[Add an Authentication Provider](/versioned_docs/threatprevention_7.4/threatprevention/reportingmodule/configuration/integrations/authenticationprovider/page.md#add-an-authentication-provider)topic,
+[Add an Authentication Provider](/docs/threatprevention/7.4/threatprevention/reportingmodule/configuration/integrations/authenticationprovider/page.md#add-an-authentication-provider)topic,
 the next step is to configure the provider for use with a supported authentication provider type,
 i.e., OpenID, RADIUS, or SAML.
 
@@ -74,5 +74,5 @@ The table displays the following information:
       group.
 
 See the
-[User Access Page](/versioned_docs/threatprevention_7.4/threatprevention/reportingmodule/configuration/systemsettings/useraccess.md)
+[User Access Page](/docs/threatprevention/7.4/threatprevention/reportingmodule/configuration/systemsettings/useraccess.md)
 topic for additional information.

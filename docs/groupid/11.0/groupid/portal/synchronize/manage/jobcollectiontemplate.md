@@ -88,7 +88,7 @@ the top right corner.
     Double-click the job collection template you want to use for the new job collection.
 
 4. This will launch
-   [Create a Job Collection ](/versioned_docs/groupid_11.0/groupid/portal/synchronize/collection/create.md)
+   [Create a Job Collection ](/docs/groupid/11.0/groupid/portal/synchronize/collection/create.md)
    wizard starting from the Job Collection(s) page. Proceed to map the settings stored in the
    template on to the new job collection.
 
@@ -132,6 +132,6 @@ that match the criteria set in the **Search Filters** section.
 
 **See Also**
 
-- [Create a Job Collection ](/versioned_docs/groupid_11.0/groupid/portal/synchronize/collection/create.md)
-- [Manage a Job Collection ](/versioned_docs/groupid_11.0/groupid/portal/synchronize/manage/jobcollection.md)
-- [Synchronize Schedule](/versioned_docs/groupid_11.0/groupid/admincenter/schedule/synchronize.md)
+- [Create a Job Collection ](/docs/groupid/11.0/groupid/portal/synchronize/collection/create.md)
+- [Manage a Job Collection ](/docs/groupid/11.0/groupid/portal/synchronize/manage/jobcollection.md)
+- [Synchronize Schedule](/docs/groupid/11.0/groupid/admincenter/schedule/synchronize.md)

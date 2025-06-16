@@ -44,7 +44,7 @@ administrators may be necessary to make the web server accessible to remote user
 configurations, DNS settings, etc.).
 
 The server name in the URL can be replaced with an alias. See the
-[Alias Server Host Name](/versioned_docs/accessinformationcenter_11.6/access/informationcenter/admin/additionalconfig/aliasserver.md)
+[Alias Server Host Name](/docs/accessinformationcenter/11.6/access/informationcenter/admin/additionalconfig/aliasserver.md)
 topic for additional information.
 
 ## Login Page
@@ -61,7 +61,7 @@ The Access Information Center login page displays the Netwrix Enterprise Auditor
 the browser tab is named Access Information Center. Logging in here will take users directly to the
 Access Information Center. The interface a user arrives at depends upon the assigned role or lack of
 assigned role. See the
-[User Landing Page](/versioned_docs/accessinformationcenter_11.6/access/informationcenter/admin/userlanding.md)
+[User Landing Page](/docs/accessinformationcenter/11.6/access/informationcenter/admin/userlanding.md)
 topic for information on where different types of users are directed after login.
 
 ## Web Console Login Page
@@ -88,5 +88,5 @@ Enterprise Auditor logo.
 
 The Access Information Center opens in a new tab in your browser. The interface a user arrives at
 depends upon the assigned role or lack of assigned role. See the
-[User Landing Page](/versioned_docs/accessinformationcenter_11.6/access/informationcenter/admin/userlanding.md)
+[User Landing Page](/docs/accessinformationcenter/11.6/access/informationcenter/admin/userlanding.md)
 topic for information on where different types of users are directed after login.

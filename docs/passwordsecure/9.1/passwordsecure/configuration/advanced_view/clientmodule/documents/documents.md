@@ -49,7 +49,7 @@ documents or files. All versions of a document can be compared with each other a
 versions can be restored if necessary. Netwrix Password Secure provides this functionality via the
 history in the ribbon, as well as in the footer area for ​​the detailed view of a document. This can
 be used in the same way as the
-[History](/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/advanced_view/clientmodule/passwords/history.md).
+[History](/docs/passwordsecure/9.1/passwordsecure/configuration/advanced_view/clientmodule/passwords/history.md).
 The interplay between the document-specific event logbook and the history provides a complete list
 of all information that is relevant to the handling of sensitive data. Version management can be
 used to restore any historical versions of a document.

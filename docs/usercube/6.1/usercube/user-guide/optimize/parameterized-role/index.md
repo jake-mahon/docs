@@ -6,7 +6,7 @@ How to reduce the number of roles in the model by configuring roles with paramet
 
 The assignment of a role to a user gives them an entitlement, usually a group membership, thanks to
 a navigation rule.
-[See more details on roles and navigation rules](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/single-roles-catalog-creation/index.md).
+[See more details on roles and navigation rules](/docs/usercube/6.1/usercube/user-guide/set-up/single-roles-catalog-creation/index.md).
 
 ![Simple Role](/img/versioned_docs/usercube_6.1/usercube/user-guide/optimize/parameterized-role/parameterizedroles_simplerole.webp)
 
@@ -40,7 +40,7 @@ types instead of entitlements.
 Configure a parameterized role by proceeding as follows:
 
 1. Create in XML a
-   [dimension](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/metadata/dimension/index.md)
+   [dimension](/docs/usercube/6.1/usercube/integration-guide/toolkit/xml-configuration/metadata/dimension/index.md)
    corresponding to the parameter that will affect the role.
 
     > For example, let's consider that we have many roles available on three different time slots: 8
@@ -53,13 +53,13 @@ Configure a parameterized role by proceeding as follows:
     > ```
 
 2. In the UI,
-   [create a single role](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/single-roles-catalog-creation/role-manual-creation/index.md#create-a-single-role).
+   [create a single role](/docs/usercube/6.1/usercube/user-guide/set-up/single-roles-catalog-creation/role-manual-creation/index.md#create-a-single-role).
 
     > For example:
     >
     > ![Example - Role](/img/versioned_docs/usercube_6.1/usercube/user-guide/optimize/parameterized-role/parameterizedrole_examplerole_v603.webp)
 
-3. [Create one navigation rule](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/single-roles-catalog-creation/role-manual-creation/index.md)
+3. [Create one navigation rule](/docs/usercube/6.1/usercube/user-guide/set-up/single-roles-catalog-creation/role-manual-creation/index.md)
    linked to the role for each available value of the parameter.
 
     > Here we have three navigation rules, one for each distinct time slot (dimension A). For
@@ -79,7 +79,7 @@ Configure a parameterized role by proceeding as follows:
 
 5. If you want Usercube to provide suggestions to set the parameter's value, then make sure that
    users'
-   [context rule](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/provisioning/contextrule/index.md)
+   [context rule](/docs/usercube/6.1/usercube/integration-guide/toolkit/xml-configuration/provisioning/contextrule/index.md)
    specifies the dimension.
 
     > For example, with the `Title` dimension:
@@ -93,7 +93,7 @@ Configure a parameterized role by proceeding as follows:
 ## Verify the Parameterized Role
 
 In order to verify the process,
-[request manually](/versioned_docs/usercube_6.1/usercube/user-guide/administrate/manual-assignment-request/index.md)
+[request manually](/docs/usercube/6.1/usercube/user-guide/administrate/manual-assignment-request/index.md)
 the parameterized role for a test user. Some additional pop-ups are displayed to set a value for the
 role's parameter.
 

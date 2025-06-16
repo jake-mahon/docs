@@ -2,10 +2,10 @@
 
 Send the search parameters in the POST request body to narrow down the search results returned by
 the
-[/netwrix/api/v1/activity_records/search](/versioned_docs/auditor_10.6/auditor/api/searchactivityrecords.md)
+[/netwrix/api/v1/activity_records/search](/docs/auditor/10.6/auditor/api/searchactivityrecords.md)
 endpoint. The Search parameters file includes one or more filters with operators and values (e.g.,
 to find entries where _data source_ is _SharePoint_); it may also contain a
-[Continuation Mark](/versioned_docs/auditor_10.6/auditor/api/postdata/continuationmark.md).
+[Continuation Mark](/docs/auditor/10.6/auditor/api/postdata/continuationmark.md).
 Generally, the Search parameters file looks similar to the following:
 
 |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
@@ -27,8 +27,8 @@ Ensure to pass information about transferred data, including `Content-Type:appli
 
 Review the following for additional information:
 
-- [Filters](/versioned_docs/auditor_10.6/auditor/api/filters.md)
-- [Operators](/versioned_docs/auditor_10.6/auditor/api/filteroperators.md)
+- [Filters](/docs/auditor/10.6/auditor/api/filters.md)
+- [Operators](/docs/auditor/10.6/auditor/api/filteroperators.md)
 
 ## Example
 

@@ -66,5 +66,5 @@ will still be identified as being a changed file.
 Exclusions are configured in a similar manner to the inclusive tracking above.
 
 **NOTE:** For Advanced Options: see
-[File and Folder Match Filters](/versioned_docs/changetracker_8.0/changetracker/admin/matchrules/filefolderrules.md)
+[File and Folder Match Filters](/docs/changetracker/8.0/changetracker/admin/matchrules/filefolderrules.md)
 for more information.

@@ -4,7 +4,7 @@ This connector writes to an external system via a
 [PowerShell](https://learn.microsoft.com/en-us/powershell/scripting/overview) script.
 
 This page is about
-[Custom/PowerShellProv](/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/references-packages/powershellprov/index.md).
+[Custom/PowerShellProv](/docs/usercube/6.1/usercube/integration-guide/connectors/references-packages/powershellprov/index.md).
 
 ![Package: Custom/PowerShellProv](/img/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/references-connectors/powershellprov/packages_powershellprov_v603.webp)
 
@@ -43,7 +43,7 @@ linked to the managed system.
 ### Configuration
 
 This process is configured through a
-[connection](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/connectors/connection/index.md)
+[connection](/docs/usercube/6.1/usercube/integration-guide/toolkit/xml-configuration/connectors/connection/index.md)
 in the UI and/or the XML configuration, and in the `appsettings.agent.json > Connections` section:
 
 ```
@@ -96,7 +96,7 @@ The identifier of the connection and thus the name of the subsection must:
 ### Write a script
 
 See how to
-[write a Powershell script](/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/how-tos/write-fulfill-powershell-script/index.md)
+[write a Powershell script](/docs/usercube/6.1/usercube/integration-guide/connectors/how-tos/write-fulfill-powershell-script/index.md)
 to allow provisioning with this connector.
 
 ## Authentication
@@ -109,10 +109,10 @@ The PowerShell script manages password reset.
 
 Data protection can be ensured through:
 
-- [RSA encryption](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/rsa-encryption/index.md),
+- [RSA encryption](/docs/usercube/6.1/usercube/integration-guide/network-configuration/agent-configuration/rsa-encryption/index.md),
   configured in the `appsettings.encrypted.agent.json` file;
 - an
-  [Azure Key Vault](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/azure-key-vault/index.md)
+  [Azure Key Vault](/docs/usercube/6.1/usercube/integration-guide/network-configuration/agent-configuration/azure-key-vault/index.md)
   safe;
 
 | Attribute            | Naming Convention for the Key in Azure Key Vault  |
@@ -122,9 +122,9 @@ Data protection can be ensured through:
 | PowerShellScriptPath | `Connections--<identifier>--PowerShellScriptPath` |
 
 - a
-  [CyberArk Vault](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/cyberark-application-access-manager-credential-providers/index.md)
+  [CyberArk Vault](/docs/usercube/6.1/usercube/integration-guide/network-configuration/agent-configuration/cyberark-application-access-manager-credential-providers/index.md)
   able to store the attributes from the `Options` section that are
-  [compatible with CyberArk](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/cyberark-application-access-manager-credential-providers/index.md).
+  [compatible with CyberArk](/docs/usercube/6.1/usercube/integration-guide/network-configuration/agent-configuration/cyberark-application-access-manager-credential-providers/index.md).
 
 Protected attributes are stored inside a safe in CyberArk, into an account whose identifier can be
 retrieved by Usercube from `appsettings.cyberark.agent.json`.

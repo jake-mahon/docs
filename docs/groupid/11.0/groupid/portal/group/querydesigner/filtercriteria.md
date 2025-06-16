@@ -8,9 +8,9 @@ directory users who live in Houston and have a fax number. You can also apply lo
 If the administrator in your role's Query Designer policy has defined a default filter criteria,
 that filter criteria is displayed on this tab. You can view and copy the query using the **View
 Query** button. See the
-[Specify a Default Filter Criteria](/versioned_docs/groupid_11.0/groupid/admincenter/securityrole/policy/querydesigner.md#specify-a-default-filter-criteria)
+[Specify a Default Filter Criteria](/docs/groupid/11.0/groupid/admincenter/securityrole/policy/querydesigner.md#specify-a-default-filter-criteria)
 section of the
-[ Query Designer Policy](/versioned_docs/groupid_11.0/groupid/admincenter/securityrole/policy/querydesigner.md)
+[ Query Designer Policy](/docs/groupid/11.0/groupid/admincenter/securityrole/policy/querydesigner.md)
 topic.
 
 The default criteria is part of the policy; therefore, in GroupID portal it is visible to the role
@@ -107,4 +107,4 @@ View the provider query in the LDAP Query box.
 
 **See Also**
 
-- [Query Designer](/versioned_docs/groupid_11.0/groupid/portal/group/querydesigner/overview.md)
+- [Query Designer](/docs/groupid/11.0/groupid/portal/group/querydesigner/overview.md)

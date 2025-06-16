@@ -35,7 +35,7 @@ Example 2:
 
 The following command creates the organizational unit _Local Recruiting_ inside the _Recruiting_
 container in Directory using the credentials set in the $Credentials environment variable. See the
-[Set the $Credentials Environment Variable](/versioned_docs/groupid_11.0/groupid/managementshell/parameters/setthecredential.md)
+[Set the $Credentials Environment Variable](/docs/groupid/11.0/groupid/managementshell/parameters/setthecredential.md)
 topic for setting credentials.
 
 ```
@@ -44,6 +44,6 @@ New-Container - OrganizationalUnit "OU=Recruiting,DC=HR,DC=Imanami,DC=US" -Conta
 
 See Also
 
-- [All Commands](/versioned_docs/groupid_11.0/groupid/managementshell/commands.md)
-- [General Commands](/versioned_docs/groupid_11.0/groupid/managementshell/general/overview.md)
-- [Parameters](/versioned_docs/groupid_11.0/groupid/managementshell/parameters/parameters.md)
+- [All Commands](/docs/groupid/11.0/groupid/managementshell/commands.md)
+- [General Commands](/docs/groupid/11.0/groupid/managementshell/general/overview.md)
+- [Parameters](/docs/groupid/11.0/groupid/managementshell/parameters/parameters.md)

@@ -35,7 +35,7 @@ viewed in Admin Center.
     Items are sorted according to the date and time they were last updated, with the most recent at
     the top.  
     Click a history item to view its details. See the
-    [History Item Details](/versioned_docs/groupid_11.0/groupid/admincenter/identitystore/history/details.md)
+    [History Item Details](/docs/groupid/11.0/groupid/admincenter/identitystore/history/details.md)
     topic.
 
 ## Filter History Data
@@ -121,7 +121,7 @@ who added a note can update it. Other users can view it, but they cannot edit it
 3. Click **History** under **Settings** in the left pane.
 4. On the **Identity Store History** page, click a history item.
 5. On the **History Details** dialog box, manage notes for the history item. See the
-   [Annotate History Items](/versioned_docs/groupid_11.0/groupid/admincenter/identitystore/history/details.md#annotate-history-items)
+   [Annotate History Items](/docs/groupid/11.0/groupid/admincenter/identitystore/history/details.md#annotate-history-items)
    topic.
 
 ## Export History Data
@@ -145,6 +145,6 @@ You can export identity store history to Microsoft Excel, CSV, and XML formats.
 
 **See Also**
 
-- [Configure History Tracking](/versioned_docs/groupid_11.0/groupid/admincenter/identitystore/configure/directoryservice/historytracking.md)
-- [History in GroupID](/versioned_docs/groupid_11.0/groupid/admincenter/history.md)
-- [Event Logging](/versioned_docs/groupid_11.0/groupid/admincenter/identitystore/history/eventlogging.md)
+- [Configure History Tracking](/docs/groupid/11.0/groupid/admincenter/identitystore/configure/directoryservice/historytracking.md)
+- [History in GroupID](/docs/groupid/11.0/groupid/admincenter/history.md)
+- [Event Logging](/docs/groupid/11.0/groupid/admincenter/identitystore/history/eventlogging.md)

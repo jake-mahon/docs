@@ -32,7 +32,7 @@ A local configuration is used by only one computer, so it does not replicate to 
 You can copy a local configuration to another computer by exporting the configuration from the
 registry, and then importing it into the registry of the other computer. You can also use Group
 Policy to distribute a local configuration to many computers. See the
-[Domain and Local Policies](/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/administration/domain_and_local_policies.md)
+[Domain and Local Policies](/docs/passwordpolicyenforcer/10.2/password_policy_enforcer/administration/domain_and_local_policies.md)
 topic for additional information.
 
 Follow the steps below to connect to a computer's local configuration.

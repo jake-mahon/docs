@@ -23,8 +23,8 @@ Successful use of the Enterprise Auditor Active Directory Permissions Analyzer s
 necessary settings and permissions in a Microsoft® Active Directory® environment described in this
 topic and its subtopics. This solution employs the following data collectors to scan the domain:
 
-- [ADInventory Data Collector](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/adinventory/overview.md)
-- [ADPermissions Data Collector](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/adpermissions/overview.md)
+- [ADInventory Data Collector](/docs/accessanalyzer/11.6/enterpriseauditor/admin/datacollector/adinventory/overview.md)
+- [ADPermissions Data Collector](/docs/accessanalyzer/11.6/enterpriseauditor/admin/datacollector/adpermissions/overview.md)
 
 ## Permissions
 

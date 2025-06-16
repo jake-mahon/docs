@@ -73,7 +73,7 @@ Click the Process ID link for additional details of the job status and queue.
 
 The Process ID link displays a page with three tabs of information with details about the running
 job. See the
-[Running Job Details](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/runninginstances/jobdetails.md)
+[Running Job Details](/docs/accessanalyzer/11.6/enterpriseauditor/admin/runninginstances/jobdetails.md)
 topic for additional information.
 
 ## View Details
@@ -87,7 +87,7 @@ Click the **View Details** link to display additional details of the job status 
 ![Job details page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/runninginstances/jobdetails.webp)
 
 The View Details link opens the running job's details with three tabs of information. See the
-[Running Job Details](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/runninginstances/jobdetails.md)
+[Running Job Details](/docs/accessanalyzer/11.6/enterpriseauditor/admin/runninginstances/jobdetails.md)
 topic for additional information.
 
 ## View Log
@@ -118,7 +118,7 @@ enabled for interactive job executions.
 ![Schedule wizard](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/runninginstances/schedulewizard.webp)
 
 The Schedule wizard for the running task opens. See the
-[Schedule Wizard](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/schedule/wizard.md) topic
+[Schedule Wizard](/docs/accessanalyzer/11.6/enterpriseauditor/admin/schedule/wizard.md) topic
 for additional information.
 
 ## Stop

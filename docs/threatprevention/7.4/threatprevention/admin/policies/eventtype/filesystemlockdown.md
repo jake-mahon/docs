@@ -98,15 +98,15 @@ The Paths section defines the top level folder or individual files for lockdown.
 the Paths and Path Collections areas to edit the lists.
 
 - The Path **Add** (+) button opens the
-  [Select File System Objects Window](/versioned_docs/threatprevention_7.4/threatprevention/admin/policies/eventtype/window/selectfilesystemobjects.md).
+  [Select File System Objects Window](/docs/threatprevention/7.4/threatprevention/admin/policies/eventtype/window/selectfilesystemobjects.md).
 - The Collection button opens the
-  [List of Collections Window](/versioned_docs/threatprevention_7.4/threatprevention/admin/configuration/collectionmanager/listcollections.md)
+  [List of Collections Window](/docs/threatprevention/7.4/threatprevention/admin/configuration/collectionmanager/listcollections.md)
   to the appropriate Collection category.
 - The Remove (x) button deletes the selected item(s) from that box.
 
 **NOTE:** To enable a Dynamic Policy, use the Collection button to select the desired Dynamic
 Collection. See the
-[Dynamic Collections](/versioned_docs/threatprevention_7.4/threatprevention/admin/configuration/collectionmanager/dynamic.md)
+[Dynamic Collections](/docs/threatprevention/7.4/threatprevention/admin/configuration/collectionmanager/dynamic.md)
 topic for additional information.
 
 Sub Folder
@@ -149,7 +149,7 @@ from being locked down.
 Select the **Block** or **Allow** option button and then edit the list.
 
 **NOTE:** For the
-[Password Enforcement Event Type](/versioned_docs/threatprevention_7.4/threatprevention/admin/policies/eventtype/passwordenforcement.md),
+[Password Enforcement Event Type](/docs/threatprevention/7.4/threatprevention/admin/policies/eventtype/passwordenforcement.md),
 selecting **Allow** means that this policy will not validate the new passwords for the accounts
 listed here. Selecting **Block** means that this policy will validate the new passwords for the
 accounts listed here.
@@ -157,15 +157,15 @@ accounts listed here.
 Use the buttons in the Perpetrators and Collections of Perpetrators areas to edit the lists.
 
 - Perpetrators area – The Add (+) button opens the
-  [Select Active Directory Perpetrators Window](/versioned_docs/threatprevention_7.4/threatprevention/admin/policies/eventtype/window/selectactivedirectory/perpetrators.md).
+  [Select Active Directory Perpetrators Window](/docs/threatprevention/7.4/threatprevention/admin/policies/eventtype/window/selectactivedirectory/perpetrators.md).
 - Collections of Perpetrators area - The Collection button opens the
-  [List of Collections Window](/versioned_docs/threatprevention_7.4/threatprevention/admin/configuration/collectionmanager/listcollections.md)
+  [List of Collections Window](/docs/threatprevention/7.4/threatprevention/admin/configuration/collectionmanager/listcollections.md)
   to the appropriate Collection category.
 - The Remove (x) button deletes the selected item(s) from that box.
 
 **NOTE:** To enable a Dynamic Policy, use the Collection button to select the desired Dynamic
 Collection. See the
-[Dynamic Collections](/versioned_docs/threatprevention_7.4/threatprevention/admin/configuration/collectionmanager/dynamic.md)
+[Dynamic Collections](/docs/threatprevention/7.4/threatprevention/admin/configuration/collectionmanager/dynamic.md)
 topic for additional information.
 
 ## Rule Preview Filter

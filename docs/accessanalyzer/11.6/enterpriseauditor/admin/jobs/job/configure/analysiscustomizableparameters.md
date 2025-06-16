@@ -26,5 +26,5 @@ based on the Job.
 Repeat the steps as needed to customize analysis parameters.
 
 See the
-[SQLscripting Analysis Module](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/analysis/sqlscripting.md)
+[SQLscripting Analysis Module](/docs/accessanalyzer/11.6/enterpriseauditor/admin/analysis/sqlscripting.md)
 topic for additional information.

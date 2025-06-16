@@ -24,17 +24,17 @@ Dependencies
   Enterprise Auditor Console server
 - For the SQL_SecurityAssessment Job – One or more of the following jobs or job groups must be run
   to produce results:
-    - [0.Collection > SQL Job Group](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/databases/sql/collection/overview.md)
-    - [1.Users and Roles Job Group](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/databases/sql/usersroles/overview.md)
-    - [3.Permissions Job Group](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/databases/sql/permissions/overview.md)
-    - [5.Sensitive Data Job Group](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/databases/sql/sensitivedata/overview.md)
-    - [Privileged Accounts Job Group](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/windows/privilegedaccounts/overview.md)
-    - [Privileged Accounts Job Group](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/windows/privilegedaccounts/overview.md)
+    - [0.Collection > SQL Job Group](/docs/accessanalyzer/11.6/enterpriseauditor/solutions/databases/sql/collection/overview.md)
+    - [1.Users and Roles Job Group](/docs/accessanalyzer/11.6/enterpriseauditor/solutions/databases/sql/usersroles/overview.md)
+    - [3.Permissions Job Group](/docs/accessanalyzer/11.6/enterpriseauditor/solutions/databases/sql/permissions/overview.md)
+    - [5.Sensitive Data Job Group](/docs/accessanalyzer/11.6/enterpriseauditor/solutions/databases/sql/sensitivedata/overview.md)
+    - [Privileged Accounts Job Group](/docs/accessanalyzer/11.6/enterpriseauditor/solutions/windows/privilegedaccounts/overview.md)
+    - [Privileged Accounts Job Group](/docs/accessanalyzer/11.6/enterpriseauditor/solutions/windows/privilegedaccounts/overview.md)
 
 Some of the 0.Collection Job Group queries can be scoped to target specific databases/instances.
 However, it is necessary for the SA_SQL_Instances table to be populated before attempting to scope
 the queries. Therefore, the
-[0-SQL_InstanceDiscovery Job](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/databases/sql/collection/0-sql_instancediscovery.md)
+[0-SQL_InstanceDiscovery Job](/docs/accessanalyzer/11.6/enterpriseauditor/solutions/databases/sql/collection/0-sql_instancediscovery.md)
 must be manually executed before attempting to scope the 0.Collection Job Group queries.
 
 Targeted Host(s)
@@ -53,7 +53,7 @@ The SQL Data Collector requires a specific set of permissions. See the Permissio
 necessary permissions. The account used can be either an Active Directory account or a SQL account.
 Once the account has been provisioned, create a custom Connection Profile containing the credentials
 for the targeted environment. See the
-[SQL Custom Connection Profile & Default Dynamic Host List](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/sql/configurejob.md)
+[SQL Custom Connection Profile & Default Dynamic Host List](/docs/accessanalyzer/11.6/enterpriseauditor/admin/datacollector/sql/configurejob.md)
 topic for additional information.
 
 The Connection Profile should be assigned under the SQL > 0.Collection > Settings > Connection node.
@@ -63,7 +63,7 @@ the radio button for the Select one of the following user defined profiles optio
 appropriate Connection Profile drop-down menu.
 
 See the
-[Connection](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/settings/connection/overview.md)
+[Connection](/docs/accessanalyzer/11.6/enterpriseauditor/admin/settings/connection/overview.md)
 topic for additional information.
 
 Schedule Frequency
@@ -125,7 +125,7 @@ Dependencies
     connection profiles to accommodate multiple credentials.
 
 - Define and validate connection information in the Connection screen
-- [0-AzureSQL_InstanceDiscovery Job](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/databases/azuresql/collection/0-azuresql_instancediscovery.md)
+- [0-AzureSQL_InstanceDiscovery Job](/docs/accessanalyzer/11.6/enterpriseauditor/solutions/databases/azuresql/collection/0-azuresql_instancediscovery.md)
   run successfully
 
 Targeted Host(s)
@@ -140,7 +140,7 @@ The SQL Data Collector requires a specific set of permissions. See the Permissio
 necessary permissions. The account used can be either an Active Directory account with database
 login enabled or a SQL account. Once the account has been provisioned, create a custom Connection
 Profile containing the credentials for the targeted environment. See the
-[SQL Custom Connection Profile & Default Dynamic Host List](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/sql/configurejob.md)
+[SQL Custom Connection Profile & Default Dynamic Host List](/docs/accessanalyzer/11.6/enterpriseauditor/admin/datacollector/sql/configurejob.md)
 topic for additional information.
 
 The Connection Profile should be assigned under the **Databases** > 0.Collection > Azure SQL >
@@ -150,7 +150,7 @@ for the assigned hosts, click the radio button for the Select one of the followi
 profiles option and select the appropriate Connection Profile drop-down menu.
 
 See the
-[Connection](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/settings/connection/overview.md)
+[Connection](/docs/accessanalyzer/11.6/enterpriseauditor/admin/settings/connection/overview.md)
 topic for additional information.
 
 Schedule Frequency

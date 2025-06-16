@@ -24,5 +24,5 @@ is also transferred!
 #### Exporting and importing the certificate
 
 The section
-[Certificates](/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/server_manager/certificates/certificates.md)
+[Certificates](/docs/passwordsecure/9.1/passwordsecure/configuration/server_manager/certificates/certificates.md)
 explains how to back up the certificate and link it again.

@@ -11,7 +11,7 @@ The HIBP database must be initially deployed to the Enterprise Manager. Once the
 Threat Prevention Agent(s) can be configured to obtain and use a local copy of the HIBP database. In
 order to give Threat Prevention Agent(s) a local copy of the database, enable the **Use Local Pwned
 hash DB** setting in the Deploy Agents wizard's
-[Set Options Window ](/versioned_docs/threatprevention_7.4/threatprevention/admin/agents/deploy/setoptions.md).
+[Set Options Window ](/docs/threatprevention/7.4/threatprevention/admin/agents/deploy/setoptions.md).
 
 Password hashes can be authenticated against the stored HIBP database in the following places across
 the environment:

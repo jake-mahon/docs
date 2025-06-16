@@ -27,7 +27,7 @@ The following query is included in the EX_IISLogs Job:
 The EX_IISLogs Job has been preconfigured to run with the default settings with the Log Type of
 Internet Information Server Log. However, the time frame for the log files to be processed can be
 modified on the Target Log page of the SMART Log DC Wizard. See the
-[SMARTLog Data Collector](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/smartlog/overview.md)
+[SMARTLog Data Collector](/docs/accessanalyzer/11.6/enterpriseauditor/admin/datacollector/smartlog/overview.md)
 topic for additional information.
 
 Follow the steps to modify the query configuration.
@@ -46,7 +46,7 @@ job.
 ![SMART Log DC Wizard Target Log page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/exchange/casmetrics/smartlogdctargetlog.webp)
 
 **Step 4 –** Navigate to the Target Log page, and configure the time frame as required. See the
-[SMARTLog: Target Log](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/smartlog/targetlog.md)
+[SMARTLog: Target Log](/docs/accessanalyzer/11.6/enterpriseauditor/admin/datacollector/smartlog/targetlog.md)
 topic for additional information.
 
 _Remember,_ if the date range configuration includes data older than the last scan, the **Persist

@@ -31,7 +31,7 @@ To configure approver acceleration for an identity store, you have to:
 
 A scheduled job, Workflow Acceleration, is responsible for accelerating requests to the next level,
 auto approve requests, and send notifications. See the
-[Workflow Acceleration Schedule](/versioned_docs/groupid_11.0/groupid/admincenter/schedule/workflowacceleration.md)
+[Workflow Acceleration Schedule](/docs/groupid/11.0/groupid/admincenter/schedule/workflowacceleration.md)
 topic.
 
 **To apply approver acceleration:**
@@ -50,7 +50,7 @@ topic.
    rules to all workflows defined for the identity store.  
    To exempt a particular workflow, open it and clear the **Approver Acceleration** check box. See
    the
-   [Modify a Workflow](/versioned_docs/groupid_11.0/groupid/admincenter/workflow/implement.md#modify-a-workflow)
+   [Modify a Workflow](/docs/groupid/11.0/groupid/admincenter/workflow/implement.md#modify-a-workflow)
    topic.
 6. In the **Maximum Levels** box, specify a number, say 2. Workflow requests would be accelerated to
    a maximum of 2 levels for approval. Requests that are nor approved or denied at the maximum level
@@ -187,7 +187,7 @@ Rules for the default approver are:
 
 **See Also**
 
-- [Workflows](/versioned_docs/groupid_11.0/groupid/admincenter/workflow/overview.md)
-- [Implement Workflows](/versioned_docs/groupid_11.0/groupid/admincenter/workflow/implement.md)
-- [Manage Advanced Workflow Settings](/versioned_docs/groupid_11.0/groupid/admincenter/workflow/advancedsettings.md)
-- [Integrate with Power Automate](/versioned_docs/groupid_11.0/groupid/admincenter/workflow/integrate.md)
+- [Workflows](/docs/groupid/11.0/groupid/admincenter/workflow/overview.md)
+- [Implement Workflows](/docs/groupid/11.0/groupid/admincenter/workflow/implement.md)
+- [Manage Advanced Workflow Settings](/docs/groupid/11.0/groupid/admincenter/workflow/advancedsettings.md)
+- [Integrate with Power Automate](/docs/groupid/11.0/groupid/admincenter/workflow/integrate.md)

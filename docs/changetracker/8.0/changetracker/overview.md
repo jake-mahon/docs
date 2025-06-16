@@ -49,13 +49,13 @@ Netwrix Change Tracker is delivered as a 100% software solution. The central ser
 installed on either a Windows or Linux platform. A virtualized host is supported but resources, and
 in particular disk I/O performance, are critical. (missing or bad snippet)
 
-- [Installing Gen 7 Agent for Windows](/versioned_docs/changetracker_8.0/changetracker/install/agent/windows.md)
-- [Installing Gen 7 Agent for Linux](/versioned_docs/changetracker_8.0/changetracker/install/agent/linuxos.md)
+- [Installing Gen 7 Agent for Windows](/docs/changetracker/8.0/changetracker/install/agent/windows.md)
+- [Installing Gen 7 Agent for Linux](/docs/changetracker/8.0/changetracker/install/agent/linuxos.md)
 
 ![Architecture](/img/versioned_docs/changetracker_8.0/changetracker/architecture.webp)
 
 For a full list of supported operating systems see
-[OS Support Matrix](/versioned_docs/changetracker_8.0/changetracker/requirements/ossupportmatrix.md).
+[OS Support Matrix](/docs/changetracker/8.0/changetracker/requirements/ossupportmatrix.md).
 
 Administration and everyday usage for reporting on the change history of a device and managing
 planned changes is all provided via the secure web interface. Integration options include alert

@@ -10,11 +10,11 @@ permissions, and only the information strictly required for this purpose.
 You already considered the data needed for identity management during:
 
 - the
-  [initial identities loading](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/initial-identities-loading/index.md)
+  [initial identities loading](/docs/usercube/6.1/usercube/user-guide/set-up/initial-identities-loading/index.md)
   and the creation of the identity repository;
-- [connector modeling](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/connect-system/connector-modeling/index.md)
+- [connector modeling](/docs/usercube/6.1/usercube/user-guide/set-up/connect-system/connector-modeling/index.md)
   which is the analysis phase before connector creation;
-- [entity type creation](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/connect-system/entity-type-creation/index.md)
+- [entity type creation](/docs/usercube/6.1/usercube/user-guide/set-up/connect-system/entity-type-creation/index.md)
   which is the technical implementation of the connector model.
 
 The data model established during these steps might change to evolve alongside the needs of the
@@ -26,7 +26,7 @@ This part is about integrating these changes in the existing data model.
 ### Dimensions
 
 Usercube calls
-[dimensions](/versioned_docs/usercube_6.1/usercube/integration-guide/role-assignment/conformingassignmentcomputation/index.md#dimensions)
+[dimensions](/docs/usercube/6.1/usercube/integration-guide/role-assignment/conformingassignmentcomputation/index.md#dimensions)
 the attributes that assignment rules rely on. They are essential criteria that differentiate users
 in order to give them the appropriate roles.
 
@@ -40,7 +40,7 @@ Integrators are able to perform an identity update if they master the new data m
 
 | Input                                                                                                                                                                   | Output                      |
 | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------- |
-| [Initial identities loading](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/initial-identities-loading/index.md) (required) New identity data model (required) | Updated identity data model |
+| [Initial identities loading](/docs/usercube/6.1/usercube/user-guide/set-up/initial-identities-loading/index.md) (required) New identity data model (required) | Updated identity data model |
 
 ## Add or Modify Properties
 
@@ -58,7 +58,7 @@ Usercube's suggestions.
 
 However, the identity data model can also be updated through the directory's entity types, following
 the previously given
-[instructions for entity type creation](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/connect-system/entity-type-creation/index.md).
+[instructions for entity type creation](/docs/usercube/6.1/usercube/user-guide/set-up/connect-system/entity-type-creation/index.md).
 
 ### Through a data model scan
 
@@ -106,9 +106,9 @@ In order to verify the process:
 
     If the system contains numerous organizations, it is also possible to list them with their
     managers through the
-    [Query module](/versioned_docs/usercube_6.1/usercube/user-guide/administrate/reporting/index.md).
+    [Query module](/docs/usercube/6.1/usercube/user-guide/administrate/reporting/index.md).
 
-- [Create reports](/versioned_docs/usercube_6.1/usercube/user-guide/administrate/reporting/index.md)
+- [Create reports](/docs/usercube/6.1/usercube/user-guide/administrate/reporting/index.md)
   with indicators, for example, on the number of workers per type or per organization (through
   Usercube's predefined reports, the Query module or Power BI), to ensure that Usercube's content
   sticks to reality.

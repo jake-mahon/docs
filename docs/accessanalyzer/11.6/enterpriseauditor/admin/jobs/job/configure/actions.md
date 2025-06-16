@@ -29,10 +29,10 @@ The Actions section at the top has five options:
 - Action Properties – Opens the Action Properties window for the selected action task
 
     - See the
-      [Action Properties Page](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/action/overview.md#action-properties-page)
+      [Action Properties Page](/docs/accessanalyzer/11.6/enterpriseauditor/admin/action/overview.md#action-properties-page)
       topic for additional information
     - See the
-      [Action Modules](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/action/overview.md)
+      [Action Modules](/docs/accessanalyzer/11.6/enterpriseauditor/admin/action/overview.md)
       topic for additional information
 
     **NOTE:** The AutoAction task appears in the Analysis Selection view, not in the Action
@@ -67,5 +67,5 @@ The options for the Actions node right-click menu are:
 - Execute Action – Opens the Action execution window and runs an action
 - Run Job – Starts job execution for the selected job
 - Add Instant Job – Opens the
-  [Instant Job Wizard](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/jobs/instantjobs/overview.md)
+  [Instant Job Wizard](/docs/accessanalyzer/11.6/enterpriseauditor/admin/jobs/instantjobs/overview.md)
 - Create Job (Ctrl + Alt + A) – Creates a new job at the same location as the selected job

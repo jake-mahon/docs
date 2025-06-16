@@ -1,12 +1,12 @@
 # Create the Entity Type
 
 How to create the technical container of an
-[entity type](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/metadata/entitytype/index.md).
+[entity type](/docs/usercube/6.1/usercube/integration-guide/toolkit/xml-configuration/metadata/entitytype/index.md).
 
 ## Overview
 
 Here, you will learn how to create an
-[entity type](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/metadata/entitytype/index.md):
+[entity type](/docs/usercube/6.1/usercube/integration-guide/toolkit/xml-configuration/metadata/entitytype/index.md):
 the shell that harbors the (scalar and navigation) properties which describe a given set of
 resources related to one managed system.
 
@@ -47,14 +47,14 @@ Create the entity type by proceeding as follows:
     >
     > The AD connector uses as a source `Connection Active Directory - entries`. Its structure was
     > retrieved when we
-    > [refreshed the schemas](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/connect-system/connection-creation/index.md)
+    > [refreshed the schemas](/docs/usercube/6.1/usercube/user-guide/set-up/connect-system/connection-creation/index.md)
     > of the `Active Directory` connection, thus retrieving the attributes from the Active Directory
     > and storing them temporarily on the agent side, inside CSV files.
 
 ## Next Steps
 
 To continue,
-[define at least one scalar property](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/connect-system/entity-type-creation/scalar-property-definition/index.md)
+[define at least one scalar property](/docs/usercube/6.1/usercube/user-guide/set-up/connect-system/entity-type-creation/scalar-property-definition/index.md)
 for this entity type.
 
 ## Troubleshooting
@@ -66,17 +66,17 @@ for this entity type.
 Ensure that there are existing connections:
 
 - if this is the case, then click on
-  [**Refresh all schemas**](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/connect-system/connection-creation/index.md)
+  [**Refresh all schemas**](/docs/usercube/6.1/usercube/user-guide/set-up/connect-system/connection-creation/index.md)
   on the connector page, and verify that there is no error.
 - if not, then you must
-  [create at least one connection](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/connect-system/connection-creation/index.md).
+  [create at least one connection](/docs/usercube/6.1/usercube/user-guide/set-up/connect-system/connection-creation/index.md).
 
 #### If there is a message stating to refresh the connection's schema, then�
 
 ![No Connection Table Error](/img/versioned_docs/usercube_6.1/usercube/user-guide/set-up/connect-system/entity-type-creation/entity-type-declaration/entitytypecreation_troubleshootingschema_v603.webp)
 
 Start by making sure that the connection's schema is refreshed by clicking on
-[**Refresh all schemas**](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/connect-system/connection-creation/index.md)
+[**Refresh all schemas**](/docs/usercube/6.1/usercube/user-guide/set-up/connect-system/connection-creation/index.md)
 on the connector page, and verify that there is no error.
 
 If the message is still displayed, then it means that the previously selected connection table no

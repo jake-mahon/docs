@@ -34,23 +34,23 @@ The Query Properties window opens.
 pre-configured for this job.
 
 **Step 4 –** Navigate to the
-[NoSQL: Options](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/nosql/options.md).
+[NoSQL: Options](/docs/accessanalyzer/11.6/enterpriseauditor/admin/datacollector/nosql/options.md).
 
 ![Sensitive Data Scan Settings](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/install/application/options.webp)
 
 **Step 5 –** Select the desired scan options.
 
 **Step 6 –** Navigate to the
-[NoSQL: Criteria](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/nosql/criteria.md)
+[NoSQL: Criteria](/docs/accessanalyzer/11.6/enterpriseauditor/admin/datacollector/nosql/criteria.md)
 page.
 
 ![Criteria Page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/ewsmailbox/criteria.webp)
 
 **Step 7 –** To modify criteria, navigate to the
-[NoSQL: Criteria](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/nosql/criteria.md)
+[NoSQL: Criteria](/docs/accessanalyzer/11.6/enterpriseauditor/admin/datacollector/nosql/criteria.md)
 page. By default, the Sensitive Data Scan job is configured to scan for criteria configured in the
 Global Criteria settings. See the
-[Sensitive Data Criteria Editor](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/sensitivedatadiscovery/criteriaeditor/overview.md)
+[Sensitive Data Criteria Editor](/docs/accessanalyzer/11.6/enterpriseauditor/sensitivedatadiscovery/criteriaeditor/overview.md)
 topic for additional information.
 
 **NOTE:** The Sensitive Data Scan Settings are pre-configured for optimal performance for a
@@ -58,7 +58,7 @@ high-level table scan. Configuring these settings to increase the scope of the s
 may significantly increase scan time.
 
 **Step 8 –** Navigate to the
-[NoSQL: Filter](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/nosql/filter.md)
+[NoSQL: Filter](/docs/accessanalyzer/11.6/enterpriseauditor/admin/datacollector/nosql/filter.md)
 page.
 
 ![Database Selection Settings](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/ewsmailbox/filter.webp)
@@ -93,7 +93,7 @@ collections.
 
 **Step 14 –** (Optional) Right click on an object in the list to include or exclude it from the
 sensitive data scan, or build /edit a pattern to create a custom filter. See the
-[NoSQL: Filter](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/nosql/filter.md)
+[NoSQL: Filter](/docs/accessanalyzer/11.6/enterpriseauditor/admin/datacollector/nosql/filter.md)
 topic for additional information.
 
 **Step 15 –** Click **Validate** and then **Save** to apply the scoping. Navigating away from this

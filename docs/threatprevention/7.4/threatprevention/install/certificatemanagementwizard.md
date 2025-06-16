@@ -9,7 +9,7 @@ Manager.
 **NOTE:** As a prerequisite for using custom managed certificates, you must provide the Enterprise
 Manager server DNS name, hostname, or FQDN (instead of the IP address) when installing Threat
 Prevention server, remote instance of the Administration Console, and the Agent. See the
-[Administration Console and Agent Not Communicating with the Enterprise Manager ](/versioned_docs/threatprevention_7.4/threatprevention/troubleshooting/enterprisemanagercommunication.md)topics
+[Administration Console and Agent Not Communicating with the Enterprise Manager ](/docs/threatprevention/7.4/threatprevention/troubleshooting/enterprisemanagercommunication.md)topics
 for additional information.
 
 How to use the Certificate Management Wizard

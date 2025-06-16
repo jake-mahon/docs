@@ -5,7 +5,7 @@ installation is recommended when you need to install Password Policy Enforcer on
 This section shows you how to install Password Policy Enforcer on domain controllers to enforce
 domain policies, but you can also use Group Policy to target member servers and workstations if you
 need to enforce local policies. See the
-[Domain and Local Policies](/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/administration/domain_and_local_policies.md)
+[Domain and Local Policies](/docs/passwordpolicyenforcer/10.2/password_policy_enforcer/administration/domain_and_local_policies.md)
 topic for additional information.
 
 ## Create a Distribution Point

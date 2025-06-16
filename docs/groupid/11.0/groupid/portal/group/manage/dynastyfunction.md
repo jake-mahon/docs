@@ -18,19 +18,19 @@ for each state within a country, and finally for each city within a state.
 
 1. On the left navigation bar, click **Groups** and then select the **My Groups** tab.
 
-    You can also [Directory Search](/versioned_docs/groupid_11.0/groupid/portal/search/search.md)
+    You can also [Directory Search](/docs/groupid/11.0/groupid/portal/search/search.md)
     the Organizational, Organizational, or custom Dynasty you want to change the attributes for.
 
 2. Select the required Dynasty and click **Properties** on the toolbar.
 
     The Dynasty's
-    [Group Properties](/versioned_docs/groupid_11.0/groupid/portal/group/properties/overview.md)
+    [Group Properties](/docs/groupid/11.0/groupid/portal/group/properties/overview.md)
     page is displayed with the **General** tab in view.
 
 3. On the **Dynasty Options** tab, update the attributes in the **Attributes** area.
 
     Refer to the
-    [Dynasty Options page](/versioned_docs/groupid_11.0/groupid/portal/group/dynasty/dynastyoptionsorggeocus.md)
+    [Dynasty Options page](/docs/groupid/11.0/groupid/portal/group/dynasty/dynastyoptionsorggeocus.md)
     for details.
 
 4. Click **Save**.
@@ -39,19 +39,19 @@ for each state within a country, and finally for each city within a state.
 
 1. On the left navigation bar, click **Groups** and then select the **My Groups** tab.
 
-    You can also [Directory Search](/versioned_docs/groupid_11.0/groupid/portal/search/search.md)
+    You can also [Directory Search](/docs/groupid/11.0/groupid/portal/search/search.md)
     the Managerial Dynasty you want to restructure.
 
 2. Select the required Dynasty and click **Properties** on the toolbar.
 
     The Dynasty's
-    [Group Properties](/versioned_docs/groupid_11.0/groupid/portal/group/properties/overview.md)
+    [Group Properties](/docs/groupid/11.0/groupid/portal/group/properties/overview.md)
     page is displayed with the **General** tab in view.
 
 3. On the **Dynasty Options** tab, modify the options related to the Dynasty structure.
 
     Refer to the
-    [Dynasty Options page (Managerial Dynasty)](/versioned_docs/groupid_11.0/groupid/portal/group/dynasty/dynastyoptionsmanagerial.md)
+    [Dynasty Options page (Managerial Dynasty)](/docs/groupid/11.0/groupid/portal/group/dynasty/dynastyoptionsmanagerial.md)
     for details.
 
 4. Click **Save**.
@@ -60,20 +60,20 @@ for each state within a country, and finally for each city within a state.
 
 1. On the left navigation bar, click **Groups** and then select the **My Groups** tab.
 
-    You can also [Directory Search](/versioned_docs/groupid_11.0/groupid/portal/search/search.md)
+    You can also [Directory Search](/docs/groupid/11.0/groupid/portal/search/search.md)
     the Dynasty you want to change the inheritance option for.
 
 2. Select the required Dynasty and click **Properties** on the toolbar.
 
     The Dynasty's
-    [Group Properties](/versioned_docs/groupid_11.0/groupid/portal/group/properties/overview.md)
+    [Group Properties](/docs/groupid/11.0/groupid/portal/group/properties/overview.md)
     page is displayed with the **General** tab in view.
 
 3. On the **Dynasty Options** tab, select the required option from the **Inheritance** drop-down
    list.
 
     See the Inheritance section in
-    [Dynasty Options](/versioned_docs/groupid_11.0/groupid/portal/group/properties/dynastyoptions.md).
+    [Dynasty Options](/docs/groupid/11.0/groupid/portal/group/properties/dynastyoptions.md).
 
 4. Click **Save**.
 
@@ -83,21 +83,21 @@ for each state within a country, and finally for each city within a state.
 
 1. On the left navigation bar, click **Groups** and then select the **My Groups** tab.
 
-    You can also [Directory Search](/versioned_docs/groupid_11.0/groupid/portal/search/search.md)
+    You can also [Directory Search](/docs/groupid/11.0/groupid/portal/search/search.md)
     the Dynasty you want to change the alias or display name template for.
 
 2. Select the required Organizational/Geographical/Custom Dynasty and click **Properties** on the
    toolbar.
 
     The Dynasty's
-    [Group Properties](/versioned_docs/groupid_11.0/groupid/portal/group/properties/overview.md)
+    [Group Properties](/docs/groupid/11.0/groupid/portal/group/properties/overview.md)
     page is displayed with the **General** tab in view.
 
 3. On the **Dynasty Options** tab, use the **Alias Template** and **Display Name Template** boxes to
    modify the respective templates.
 
     For details, see the Alias Template and Display Name Template sections in
-    [Dynasty Options](/versioned_docs/groupid_11.0/groupid/portal/group/properties/dynastyoptions.md)
+    [Dynasty Options](/docs/groupid/11.0/groupid/portal/group/properties/dynastyoptions.md)
     for an Organizational/Geographical/Custom Dynasty.
 
 4. Click **Save**.
@@ -106,24 +106,24 @@ for each state within a country, and finally for each city within a state.
 
 1. On the left navigation bar, click **Groups** and then select the **My Groups** tab.
 
-    You can also [Directory Search](/versioned_docs/groupid_11.0/groupid/portal/search/search.md)
+    You can also [Directory Search](/docs/groupid/11.0/groupid/portal/search/search.md)
     the Dynasty you want to change the alias or display name template for.
 
 2. Select the required Managerial Dynasty and click **Properties** on the toolbar.
 
     The Dynasty's
-    [Group Properties](/versioned_docs/groupid_11.0/groupid/portal/group/properties/overview.md)
+    [Group Properties](/docs/groupid/11.0/groupid/portal/group/properties/overview.md)
     page is displayed with the **General** tab in view.
 
 3. On the **Dynasty Options** tab, use the **Alias Template** and **Display Name Template** boxes to
    modify the respective templates.
 
     For details, see the Alias Template and Display Name Template sections in
-    [Dynasty Options](/versioned_docs/groupid_11.0/groupid/portal/group/properties/dynastyoptions.md)
+    [Dynasty Options](/docs/groupid/11.0/groupid/portal/group/properties/dynastyoptions.md)
     for a Managerial Dynasty.
 
 4. Click **Save**.
 
 **See Also**
 
-- [Working with Groups](/versioned_docs/groupid_11.0/groupid/portal/group/manage/workingwithgroups.md)
+- [Working with Groups](/docs/groupid/11.0/groupid/portal/group/manage/workingwithgroups.md)

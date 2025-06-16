@@ -97,7 +97,7 @@ On the **Object, Fields and Mapping** page:
         1. On the **Transform** dialog box, select _Static - assign a static value_ from the **Set
            the destination field to** box.
         2. Click
-           [Auto-Generate Unique, Complex Passwords](/versioned_docs/groupid_11.0/groupid/portal/synchronize/transformation/autogenerateuniquepassword.md).
+           [Auto-Generate Unique, Complex Passwords](/docs/groupid/11.0/groupid/portal/synchronize/transformation/autogenerateuniquepassword.md).
         3. On the Password Complexity Options dialog box, enter 10 in the **Password Length** box.
         4. Clear the **Special symbols** check box.
         5. Click **Transform.**
@@ -124,7 +124,7 @@ opens.
 
 **See Also**
 
-- [Create a Job](/versioned_docs/groupid_11.0/groupid/portal/synchronize/job/create.md)
-- [Create a Job Collection ](/versioned_docs/groupid_11.0/groupid/portal/synchronize/collection/create.md)
-- [Transform](/versioned_docs/groupid_11.0/groupid/portal/synchronize/transformation/overview.md)
-- [Auto-Generate Unique, Complex Passwords](/versioned_docs/groupid_11.0/groupid/portal/synchronize/transformation/autogenerateuniquepassword.md)
+- [Create a Job](/docs/groupid/11.0/groupid/portal/synchronize/job/create.md)
+- [Create a Job Collection ](/docs/groupid/11.0/groupid/portal/synchronize/collection/create.md)
+- [Transform](/docs/groupid/11.0/groupid/portal/synchronize/transformation/overview.md)
+- [Auto-Generate Unique, Complex Passwords](/docs/groupid/11.0/groupid/portal/synchronize/transformation/autogenerateuniquepassword.md)

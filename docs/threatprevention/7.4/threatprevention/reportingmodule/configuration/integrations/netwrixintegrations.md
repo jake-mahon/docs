@@ -30,9 +30,9 @@ Netwrix Integrations in the navigation pane.
 
 **NOTE:** Prior to adding a Netwrix Integration, you must first configure a Credential Profile with
 credentials properly provisioned for connecting to the database. See the
-[Reporting Module Server Requirements](/versioned_docs/threatprevention_7.4/threatprevention/requirements/reportingserver.md)
+[Reporting Module Server Requirements](/docs/threatprevention/7.4/threatprevention/requirements/reportingserver.md)
 topic for the permissions. See the
-[Credential Profile Page](/versioned_docs/threatprevention_7.4/threatprevention/reportingmodule/configuration/integrations/credentialprofile.md)
+[Credential Profile Page](/docs/threatprevention/7.4/threatprevention/reportingmodule/configuration/integrations/credentialprofile.md)
 topic for additional information on creating a profile.
 
 Follow the steps to add a Netwrix product for integration.

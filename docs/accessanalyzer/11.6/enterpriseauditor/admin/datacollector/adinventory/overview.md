@@ -9,7 +9,7 @@ other solutions within Enterprise Auditor.
 The ADInventory Data Collector is a core component of Enterprise Auditor and has been preconfigured
 to be used within the .Active Directory Inventory Solution. Both this data collector and the
 solution are available with all Enterprise Auditor license options. See the
-[.Active Directory Inventory Solution](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/activedirectoryinventory/overview.md)
+[.Active Directory Inventory Solution](/docs/accessanalyzer/11.6/enterpriseauditor/solutions/activedirectoryinventory/overview.md)
 topic for additional information.
 
 Protocols
@@ -46,12 +46,12 @@ The ADInventory Data Collector is configured through the Active Directory Invent
 contains the following wizard pages:
 
 - Welcome
-- [ADInventory: Category](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/adinventory/category.md)
-- [ADInventory: Results](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/adinventory/results.md)
-- [ADInventory: Options](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/adinventory/options.md)
-- [ADInventory: Index Update Options](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/adinventory/indexupdateoptions.md)
-- [ADInventory: Custom Attributes](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/adinventory/customattributes.md)
-- [ADInventory: Summary](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/adinventory/summary.md)
+- [ADInventory: Category](/docs/accessanalyzer/11.6/enterpriseauditor/admin/datacollector/adinventory/category.md)
+- [ADInventory: Results](/docs/accessanalyzer/11.6/enterpriseauditor/admin/datacollector/adinventory/results.md)
+- [ADInventory: Options](/docs/accessanalyzer/11.6/enterpriseauditor/admin/datacollector/adinventory/options.md)
+- [ADInventory: Index Update Options](/docs/accessanalyzer/11.6/enterpriseauditor/admin/datacollector/adinventory/indexupdateoptions.md)
+- [ADInventory: Custom Attributes](/docs/accessanalyzer/11.6/enterpriseauditor/admin/datacollector/adinventory/customattributes.md)
+- [ADInventory: Summary](/docs/accessanalyzer/11.6/enterpriseauditor/admin/datacollector/adinventory/summary.md)
 
 ![Active Directory Inventory DC Wizard Welcome page](/img/versioned_docs/activitymonitor_7.1/activitymonitor/install/welcome.webp)
 

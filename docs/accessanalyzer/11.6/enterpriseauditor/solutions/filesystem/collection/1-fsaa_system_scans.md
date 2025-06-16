@@ -27,7 +27,7 @@ The following default configurations are commonly customized:
     - Set to **Limit subfolder scan depth to 2 level(s)**
 
 See the
-[Recommended Configuration for the File System Solution](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/filesystem/recommended.md)
+[Recommended Configuration for the File System Solution](/docs/accessanalyzer/11.6/enterpriseauditor/solutions/filesystem/recommended.md)
 topic for a complete list of customizable settings. See the
 [Configure the (FSAA) File System Scan Query](#configure-the-fsaa-file-system-scan-query) topic for
 additional information.
@@ -54,20 +54,20 @@ purpose of this job.
 
 **Step 4 –** The Applet Settings page applies to the applet and proxy mode scans. If employing proxy
 servers, see the
-[FSAA: Applet Settings](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/fsaa/appletsettings.md)
+[FSAA: Applet Settings](/docs/accessanalyzer/11.6/enterpriseauditor/admin/datacollector/fsaa/appletsettings.md)
 topic for configuration instructions.
 
 ![Scan Server Selection](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/filesystem/collection/fsaaseekserverselection.webp)
 
 **Step 5 –** On the Scan Server Selection page, select the server that will execute the scan. See
 the
-[FSAA: Scan Server Selection](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/fsaa/scanserverselection.md) topic
+[FSAA: Scan Server Selection](/docs/accessanalyzer/11.6/enterpriseauditor/admin/datacollector/fsaa/scanserverselection.md) topic
 for additional information.
 
 ![Scan Settings](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/filesystem/collection/fsaaseekscansettings.webp)
 
 **Step 6 –** On the Scan Settings page, you can enable streaming. See the
-[FSAA: Scan Settings](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/fsaa/scansettings.md) topic
+[FSAA: Scan Settings](/docs/accessanalyzer/11.6/enterpriseauditor/admin/datacollector/fsaa/scansettings.md) topic
 for additional information.
 
 **NOTE:** If streaming is enabled, the **2-FSAA Bulk Import** job is no longer needed as part of the
@@ -77,7 +77,7 @@ for additional information.
 
 **Step 7 –** On the Azure Tenant Mapping page, add the AppPrincipalID (App ID) and Tenant ID. See
 the
-[FSAA: Azure Tenant Mapping](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/fsaa/azuretenantmapping.md)
+[FSAA: Azure Tenant Mapping](/docs/accessanalyzer/11.6/enterpriseauditor/admin/datacollector/fsaa/azuretenantmapping.md)
 topic for additional information.
 
 ![Default Scoping Options](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/filesystem/collection/fsaadefaultscopingoptions.webp)
@@ -126,14 +126,14 @@ topic for additional information.
           other files will be processed
 
 See the
-[Scan Settings Tab](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/fsaa/defaultscopingoptions/scansettings.md)
+[Scan Settings Tab](/docs/accessanalyzer/11.6/enterpriseauditor/admin/datacollector/fsaa/defaultscopingoptions/scansettings.md)
 topic for additional information.
 
 ![File Details tab of the Default Scoping Options page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/filesystem/collection/fsaadefaultscopingoptionsfiledetails.webp)
 
 **Step 9 –** On the File Details tab of the Default Scoping Options page, you can enable file-level
 scans. See the
-[File Details Tab](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/fsaa/defaultscopingoptions/filedetails.md)
+[File Details Tab](/docs/accessanalyzer/11.6/enterpriseauditor/admin/datacollector/fsaa/defaultscopingoptions/filedetails.md)
 
 **_RECOMMENDED:_** Carefully consider configuring the following settings. Applying filters when file
 detail scanning has been enabled reduces the impact on the database.
@@ -150,13 +150,13 @@ can configure the following:
 - Enable return of files with only comma-separated values (CSV files).
 
 See the
-[File Properties (Folder Summary) Tab](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/fsaa/defaultscopingoptions/fileproperties.md)
+[File Properties (Folder Summary) Tab](/docs/accessanalyzer/11.6/enterpriseauditor/admin/datacollector/fsaa/defaultscopingoptions/fileproperties.md)
 topic for additional information.
 
 ![Scoping Options](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/filesystem/collection/fsaaseekscopingoptions.webp)
 
 **Step 11 –** On the Scoping Options page, add share/folder inclusions and exclusions. See the
-[FSAA: Scoping Options](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/fsaa/scopingoptions.md) topic
+[FSAA: Scoping Options](/docs/accessanalyzer/11.6/enterpriseauditor/admin/datacollector/fsaa/scopingoptions.md) topic
 for additional information.
 
 ![Scoping Queries](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/filesystem/collection/fsaaseekscopingqueries.webp)
@@ -168,7 +168,7 @@ for additional information.
 - Restrict scans to DFS shares or Open shares
 
 See the
-[FSAA: Scoping Queries](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/fsaa/scopingqueries.md)
+[FSAA: Scoping Queries](/docs/accessanalyzer/11.6/enterpriseauditor/admin/datacollector/fsaa/scopingqueries.md)
 topic for additional information.
 
 **Step 13 –** Click **Finish** to save any setting modifications or click **Cancel** if no changes

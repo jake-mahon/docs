@@ -74,7 +74,7 @@ The name of the Exchange assistant for the mailbox/contact. Any email sent to th
 also forwarded to this assistant.
 
 Enter a search string to locate the object to add as an Exchange assistant, or click **Browse** to
-use the [Find Dialog Box](/versioned_docs/groupid_11.0/groupid/portal/search/find.md) for performing
+use the [Find Dialog Box](/docs/groupid/11.0/groupid/portal/search/find.md) for performing
 a search.
 
 This field is not available for a user.
@@ -92,4 +92,4 @@ also provides many image editing options, including rotate, crop, flip, and re-s
 
 **See Also**
 
-- [User Properties](/versioned_docs/groupid_11.0/groupid/portal/user/properties/overview.md)
+- [User Properties](/docs/groupid/11.0/groupid/portal/user/properties/overview.md)

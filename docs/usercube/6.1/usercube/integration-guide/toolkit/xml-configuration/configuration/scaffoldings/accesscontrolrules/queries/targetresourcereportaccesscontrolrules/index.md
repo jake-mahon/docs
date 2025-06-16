@@ -4,7 +4,7 @@ Generates the right to apply a report for a profile on a given entity.
 
 The existence of a report for this entity must exist in order to use this scaffolding. A scaffolding
 allows to generate a default report for an entity:
-[Entity reports](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/entitytypes/entitytypes/targetresourcereportmenus/index.md)
+[Entity reports](/docs/usercube/6.1/usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/entitytypes/entitytypes/targetresourcereportmenus/index.md)
 
 ## Examples
 

@@ -13,7 +13,7 @@ The Protection Policies tab has the following feature:
 The table has the following columns:
 
 - Name — Displays the name of the policy. Click the link to view additional details. See the
-  [Protection Policies Page](/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/policy/page/protectionpolicies.md)
+  [Protection Policies Page](/docs/privilegesecure/4.1/privilegesecure/accessmanagement/admin/policy/page/protectionpolicies.md)
   topic for additional information.
 - Description — Description of the policy
 

@@ -3,7 +3,7 @@
 The Add-on runs on any computer in your environment. For example, you can run the add-on on the
 computer where Auditor is installed or on a remote server. Depending on the execution scenario you
 choose, you have to define a different set of parameters. See the
-[Amazon Web Services](/versioned_docs/auditor_10.6/auditor/addon/amazonwebservices/overview.md)
+[Amazon Web Services](/docs/auditor/10.6/auditor/addon/amazonwebservices/overview.md)
 topic for additional information.
 
 Netwrix suggests the following execution scenarios:

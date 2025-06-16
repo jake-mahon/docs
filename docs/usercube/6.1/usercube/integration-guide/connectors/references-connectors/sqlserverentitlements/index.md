@@ -4,7 +4,7 @@ This connector exports entitlements from
 [Microsoft SQL Server](https://www.microsoft.com/en-us/sql-server/).
 
 This page is about
-[Database/Microsoft SQL Server Entitlements](/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/references-packages/sql-server-entitlements/index.md).
+[Database/Microsoft SQL Server Entitlements](/docs/usercube/6.1/usercube/integration-guide/connectors/references-packages/sql-server-entitlements/index.md).
 
 ![Package: Database/Microsoft SQL Server Entitlements](/img/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/references-connectors/sqlserverentitlements/packages_sqlservermanagement_v603.webp)
 
@@ -78,7 +78,7 @@ This connector exports only in complete mode.
 ### Configuration
 
 This process is configured through a
-[connection](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/connectors/connection/index.md)
+[connection](/docs/usercube/6.1/usercube/integration-guide/toolkit/xml-configuration/connectors/connection/index.md)
 in the UI and/or the XML configuration, and in the `appsettings.agent.json > Connections` section:
 
 ```
@@ -130,7 +130,7 @@ The identifier of the connection and thus the name of the subsection must:
 ### Output details
 
 This connector is meant to generate to the
-[ExportOutput](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/appsettings/index.md)
+[ExportOutput](/docs/usercube/6.1/usercube/integration-guide/network-configuration/agent-configuration/appsettings/index.md)
 folder the following CSV files:
 
 - `<connectionIdentifier>_serverPrincipals.csv`;
@@ -157,10 +157,10 @@ This connector does not reset passwords.
 
 Data protection can be ensured through:
 
-- [RSA encryption](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/rsa-encryption/index.md),
+- [RSA encryption](/docs/usercube/6.1/usercube/integration-guide/network-configuration/agent-configuration/rsa-encryption/index.md),
   configured in the `appsettings.encrypted.agent.json` file;
 - an
-  [Azure Key Vault](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/azure-key-vault/index.md)
+  [Azure Key Vault](/docs/usercube/6.1/usercube/integration-guide/network-configuration/agent-configuration/azure-key-vault/index.md)
   safe;
 
 | Attribute        | Naming Convention for the Key in Azure Key Vault |
@@ -168,5 +168,5 @@ Data protection can be ensured through:
 | ConnectionString | `Connections--<identifier>--ConnectionString`    |
 | Timeout          | `Connections--<identifier>--Timeout`             |
 
-[CyberArk](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/cyberark-application-access-manager-credential-providers/index.md)
+[CyberArk](/docs/usercube/6.1/usercube/integration-guide/network-configuration/agent-configuration/cyberark-application-access-manager-credential-providers/index.md)
 is not available for this connector.

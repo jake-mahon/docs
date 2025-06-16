@@ -6,37 +6,37 @@ in order to extract and/or fulfill data from/to external systems.
 ## Connection Configuration
 
 A connector needs at least one
-[connection](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/connectors/connection/index.md)
+[connection](/docs/usercube/6.1/usercube/integration-guide/toolkit/xml-configuration/connectors/connection/index.md)
 which needs to be declared both in the XML configuration and in the
-[`appsettings.agent.json`](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/appsettings-agent/index.md)
+[`appsettings.agent.json`](/docs/usercube/6.1/usercube/integration-guide/network-configuration/agent-configuration/appsettings-agent/index.md)
 file to be used. The connection settings must be set in `appsettings.agent.json` > `Connections` >
 `<connectionIdentifier>`, where `<connectionIdentifier>` is the identifier specified for the
 connection in the XML configuration.
 
-[See more details about the XML configuration of a connection](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/connectors/connection/index.md).
+[See more details about the XML configuration of a connection](/docs/usercube/6.1/usercube/integration-guide/toolkit/xml-configuration/connectors/connection/index.md).
 
 The information stored in the connection depends on the export and/or fulfill technologies used by
 the connection's package.
 
-[See connectors documentation](/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/references-connectors/index.md)
+[See connectors documentation](/docs/usercube/6.1/usercube/integration-guide/connectors/references-connectors/index.md)
 for more information about the attributes for each connector.
 
 ## Connection Tables
 
 A
-[connection table](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/connectors/connectiontable/index.md)
+[connection table](/docs/usercube/6.1/usercube/integration-guide/toolkit/xml-configuration/connectors/connectiontable/index.md)
 represents the potential output of the connection's
-[export task](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/jobs/tasks/agent/exporttask/index.md),
+[export task](/docs/usercube/6.1/usercube/integration-guide/toolkit/xml-configuration/jobs/tasks/agent/exporttask/index.md),
 when the connection's package allows export. The export process generates CSV files (our connection
 tables) whose names start with the connection's identifier. The files' suffixes depend on the
 connector.
-[See connectors' documentation](/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/references-connectors/index.md)
+[See connectors' documentation](/docs/usercube/6.1/usercube/integration-guide/connectors/references-connectors/index.md)
 for more information about these suffixes.
 
 The name of these files are used to specify the connection tables of the
-[entity type mappings](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/connectors/entitytypemapping/index.md)
+[entity type mappings](/docs/usercube/6.1/usercube/integration-guide/toolkit/xml-configuration/connectors/entitytypemapping/index.md)
 and
-[entity association mappings](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/connectors/entityassociationmapping/index.md),
+[entity association mappings](/docs/usercube/6.1/usercube/integration-guide/toolkit/xml-configuration/connectors/entityassociationmapping/index.md),
 in order to link the connectors' properties to the source files and columns from the managed
 systems.
 
@@ -100,4 +100,4 @@ Hence, extra care should be taken while specifying them.
 
 There are several types of secured options: a simple field or multiple key-value fields.
 
-[See how to configure secured options](/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/how-tos/configure-secured-options/index.md).
+[See how to configure secured options](/docs/usercube/6.1/usercube/integration-guide/connectors/how-tos/configure-secured-options/index.md).

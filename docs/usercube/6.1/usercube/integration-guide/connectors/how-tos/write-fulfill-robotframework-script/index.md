@@ -1,7 +1,7 @@
 # Write a Robot Framework Script
 
 This guide shows how to write a Robot Framework script that will be used by
-[Fulfill-RobotFramework](/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/references-connectors/robotframework/index.md).
+[Fulfill-RobotFramework](/docs/usercube/6.1/usercube/integration-guide/connectors/references-connectors/robotframework/index.md).
 
 ## Structure of a Robot Framework Script
 
@@ -152,7 +152,7 @@ For more details about the handling of Robot Framework objects, see the
 | Keyword                    | Details                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
 | -------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----- | ------- |
 | Catch Keyword              | **Arguments** `Keyword`: Keyword `*args` **Description** Launches `Keyword` with the given arguments `*args` if the keyword launched by `Try Keyword` failed. If `Try Keyword` was not called, this keyword will not do anything. `Catch Keyword` should always be called right after `Try Keyword`. **Example** Try to connect to `Usercube.com`. If the connection fails, restart the browser and try to connect to `Usercube.com`: `Connect to URL       Try Keyword  Go To  Usercube.com       Catch Keyword  Restart Browser At URL  Usercube.com`                                                                                                                                                                                                                                                               |
-| Generate Password          | **Description** Generates a password based on the [password reset settings](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/connectors/passwordresetsettings/index.md) associated to the [resource type mapping](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/connectors/resourcetypemappings/index.md) being provisioned `Send Password Notification` should always be called after `Generate Password`, preferably right after the password is used. If `Send Password Notification` is not called before the provisioning of the resource is over, it will automatically be called. If multiple passwords should be generated, `Send Password Notification` should be called after each password generation. **Returns** `Password`: string |
+| Generate Password          | **Description** Generates a password based on the [password reset settings](/docs/usercube/6.1/usercube/integration-guide/toolkit/xml-configuration/connectors/passwordresetsettings/index.md) associated to the [resource type mapping](/docs/usercube/6.1/usercube/integration-guide/toolkit/xml-configuration/connectors/resourcetypemappings/index.md) being provisioned `Send Password Notification` should always be called after `Generate Password`, preferably right after the password is used. If `Send Password Notification` is not called before the provisioning of the resource is over, it will automatically be called. If multiple passwords should be generated, `Send Password Notification` should be called after each password generation. **Returns** `Password`: string |
 | Get Secure Data            | **Arguments** `Attribute`: string `Erase Data`: boolean **Description** Retrieves the secured option `Attribute` from the connector configuration. If `Erase Data` is set to true, the secured option is deleted once it is read. **Example** Get Login option and erase it: ```Get Secure Data                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       | Login | True``` |
 | Launch Provisioning        | **Description** Launches the provisioning defined by the provisioning orders. This keyword is required for any provisioning to happen.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
 | Log Debug                  | **Arguments** `Message`: string **Description** Logs `Message` at the `Debug` log level. **Example** Log a keyword failure message: `Log Debug The keyword has failed`                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
@@ -287,9 +287,9 @@ and `Generate Password` are exceptions.
   prompt. As an example, if the script requires a `Login` and `Password` attribute :
   `{"Login":"login","Password":"password"}`
 - `Generate Password`: This keyword expects a file that contains the
-  [password reset settings](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/connectors/passwordresetsettings/index.md)
+  [password reset settings](/docs/usercube/6.1/usercube/integration-guide/toolkit/xml-configuration/connectors/passwordresetsettings/index.md)
   associated to the provisioned
-  [resource type mapping](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/connectors/resourcetypemappings/index.md).
+  [resource type mapping](/docs/usercube/6.1/usercube/integration-guide/toolkit/xml-configuration/connectors/resourcetypemappings/index.md).
   The easiest way to enable the `Generate Password` keyword is as follow:
     - Launch the Robot Framework fulfillment through the Usercube web application with a blank
       script.
@@ -361,7 +361,7 @@ We define all the custom functions which we will use to provision the external s
 - `Write Header`: defines the header to write in the CSV and calls `Write Data` to write it.
 - `Open Telnet Connection`: opens the Telnet connection to the external system using the login and
   the password defined in the
-  [**Options**](/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/references-connectors/robotframework/index.md)
+  [**Options**](/docs/usercube/6.1/usercube/integration-guide/connectors/references-connectors/robotframework/index.md)
   attribute in `appsettings.agent.json`, as well as the IP address defined in the `Variables`
   section.
 
@@ -394,7 +394,7 @@ Open Telnet Connection
 ```
 
 The method `Get Secure Data` will retrieve the value of the attributes filled in
-[Options](/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/references-connectors/robotframework/index.md)
+[Options](/docs/usercube/6.1/usercube/integration-guide/connectors/references-connectors/robotframework/index.md)
 in `appsettings.agent.json`. This is the method strongly recommended by Usercube. However, you could
 also enter the value directly into the script (example: `${LOGIN}= UserName`). This may be easier
 for initial testing purposes.

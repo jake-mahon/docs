@@ -37,7 +37,7 @@ If you select to launch the RestAPI Explorer from the Prism menu, the **RestAPI 
 client will be opened.
 
 2. In the **username** and **password** fields, enter the credentials of the
-   [Create User Account to Access Nutanix REST API](/versioned_docs/auditor_10.6/auditor/configuration/fileservers/nutanix/useraccount.md)
+   [Create User Account to Access Nutanix REST API](/docs/auditor/10.6/auditor/configuration/fileservers/nutanix/useraccount.md)
    you have created.
 3. Click **Explore**.
 4. In the **File Server REST API Explorer** REST API client, locate the POST request for
@@ -96,7 +96,7 @@ _"protocol_type_list" : ["SMB"]_ - instructs to track SMB shares (the only curre
 _`<NAME_OF_NOTIFICATION_POLICY>`_ – enter the name of notification policy you want to create
 
 _`<UUID_OF_PARTNER_SERVER>`_ - enter the `uuid` of
-[Configure Partner Server](/versioned_docs/auditor_10.6/auditor/configuration/fileservers/nutanix/partnerserver.md)
+[Configure Partner Server](/docs/auditor/10.6/auditor/configuration/fileservers/nutanix/partnerserver.md)
 
 _`<LIST_OF_FILE_OPERATIONS>`_ - enter the list of operations to be audited.
 

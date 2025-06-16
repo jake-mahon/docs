@@ -85,14 +85,14 @@ Example:
 ## Add the Activity Agent to the Console
 
 Before deploying the Activity Monitor agent, ensure all
-[Activity Agent Server Requirements](/versioned_docs/activitymonitor_7.1/activitymonitor/requirements/activityagent.md)
+[Activity Agent Server Requirements](/docs/activitymonitor/7.1/activitymonitor/requirements/activityagent.md)
 have been met, including those for NAS devices when applicable.
 
 **NOTE:** These steps are specific to deploying activity agents for monitoring file systems,
 SharePoint, SQL Server, Azure and Office 365 environments. See the
-[Active Directory Agent Deployment](/versioned_docs/activitymonitor_7.1/activitymonitor/admin/agents/add/activedirectory.md)
+[Active Directory Agent Deployment](/docs/activitymonitor/7.1/activitymonitor/admin/agents/add/activedirectory.md)
 section for instruction on deploying the AD agent. See the
-[Linux Agent Deployment](/versioned_docs/activitymonitor_7.1/activitymonitor/admin/agents/add/linux.md)
+[Linux Agent Deployment](/docs/activitymonitor/7.1/activitymonitor/admin/agents/add/linux.md)
 topic for instructions on deploying agents to Linux servers.
 
 Follow the steps to deploy the activity agent to a single Windows server.
@@ -105,7 +105,7 @@ Follow the steps to deploy the activity agent to a single Windows server.
 
 **Step 3 –** Specify the server name where the agent will be deployed. To add multiple server names,
 see the
-[Multiple Activity Agents Deployment](/versioned_docs/activitymonitor_7.1/activitymonitor/admin/agents/add/multiple.md)
+[Multiple Activity Agents Deployment](/docs/activitymonitor/7.1/activitymonitor/admin/agents/add/multiple.md)
 topic for additional information. Click **Next**.
 
 ![Agent Port Configuration](/img/versioned_docs/activitymonitor_7.1/activitymonitor/install/agent/portdefault.webp)
@@ -116,7 +116,7 @@ topic for additional information. Click **Next**.
 
 **Step 5 –** On the Credentials to Connect to the Server(s) page, specify the credentials for the
 server to which the agent is deployed. See the
-[Single Activity Agent Deployment](/versioned_docs/activitymonitor_7.1/activitymonitor/admin/agents/add/single.md)
+[Single Activity Agent Deployment](/docs/activitymonitor/7.1/activitymonitor/admin/agents/add/single.md)
 topic for additional information on credential options. Click **Connect**.
 
 **NOTE:** When clicking **Connect** while adding the Agent to the Console, the connection may fail.

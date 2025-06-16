@@ -16,16 +16,16 @@ Data Collectors
 
 This solution employs the following data collector to scan the target environment:
 
-- [GroupPolicy Data Collector](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/grouppolicy/overview.md)
-- [PowerShell Data Collector](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/powershell/overview.md)
-- [Registry Data Collector](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/registry.md)
-- [Script Data Collector](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/script/overview.md)
-- [Services Data Collector](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/services.md)
-- [SMARTLog Data Collector](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/smartlog/overview.md)
-- [SystemInfo Data Collector](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/systeminfo/overview.md)
-- [TextSearch Data Collector](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/textsearch/overview.md)
-- [UsersGroups Data Collector](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/usersgroups/overview.md)
-- [WMICollector Data Collector](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/wmicollector/overview.md)
+- [GroupPolicy Data Collector](/docs/accessanalyzer/11.6/enterpriseauditor/admin/datacollector/grouppolicy/overview.md)
+- [PowerShell Data Collector](/docs/accessanalyzer/11.6/enterpriseauditor/admin/datacollector/powershell/overview.md)
+- [Registry Data Collector](/docs/accessanalyzer/11.6/enterpriseauditor/admin/datacollector/registry.md)
+- [Script Data Collector](/docs/accessanalyzer/11.6/enterpriseauditor/admin/datacollector/script/overview.md)
+- [Services Data Collector](/docs/accessanalyzer/11.6/enterpriseauditor/admin/datacollector/services.md)
+- [SMARTLog Data Collector](/docs/accessanalyzer/11.6/enterpriseauditor/admin/datacollector/smartlog/overview.md)
+- [SystemInfo Data Collector](/docs/accessanalyzer/11.6/enterpriseauditor/admin/datacollector/systeminfo/overview.md)
+- [TextSearch Data Collector](/docs/accessanalyzer/11.6/enterpriseauditor/admin/datacollector/textsearch/overview.md)
+- [UsersGroups Data Collector](/docs/accessanalyzer/11.6/enterpriseauditor/admin/datacollector/usersgroups/overview.md)
+- [WMICollector Data Collector](/docs/accessanalyzer/11.6/enterpriseauditor/admin/datacollector/wmicollector/overview.md)
 
 ## Permissions
 

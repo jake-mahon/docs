@@ -27,6 +27,6 @@ Remove-User -Identity "osama"
 
 See Also
 
-- [All Commands](/versioned_docs/groupid_11.0/groupid/managementshell/commands.md)
-- [User Commands](/versioned_docs/groupid_11.0/groupid/managementshell/user/overview.md)
-- [Parameters](/versioned_docs/groupid_11.0/groupid/managementshell/parameters/parameters.md)
+- [All Commands](/docs/groupid/11.0/groupid/managementshell/commands.md)
+- [User Commands](/docs/groupid/11.0/groupid/managementshell/user/overview.md)
+- [Parameters](/docs/groupid/11.0/groupid/managementshell/parameters/parameters.md)

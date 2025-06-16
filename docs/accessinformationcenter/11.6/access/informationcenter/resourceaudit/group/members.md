@@ -5,7 +5,7 @@ membership in the audited group. This report includes a Membership Paths table.
 
 _Remember,_ the Members report for a built-in group contains different information to the other
 group types. See the
-[Members Report for a Built-in Group](/versioned_docs/accessinformationcenter_11.6/access/informationcenter/resourceaudit/group/membersbuiltin.md) topic
+[Members Report for a Built-in Group](/docs/accessinformationcenter/11.6/access/informationcenter/resourceaudit/group/membersbuiltin.md) topic
 for additional information.
 
 ![Members report](/img/versioned_docs/accessinformationcenter_11.6/access/informationcenter/resourceaudit/group/members.webp)

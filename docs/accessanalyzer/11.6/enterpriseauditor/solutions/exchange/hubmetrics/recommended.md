@@ -24,11 +24,11 @@ Connection Profile
 
 A Connection Profile must be set directly on the EX_MetricsCollection Job and the EX_MetricsDetails
 Job. See the
-[Exchange Mail-Flow Permissions](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/requirements/solutions/exchange/mailflow.md)
+[Exchange Mail-Flow Permissions](/docs/accessanalyzer/11.6/enterpriseauditor/requirements/solutions/exchange/mailflow.md)
 topic for required permissions.
 
 See the
-[Connection](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/settings/connection/overview.md)
+[Connection](/docs/accessanalyzer/11.6/enterpriseauditor/admin/settings/connection/overview.md)
 topic for additional information.
 
 Schedule Frequency
@@ -50,7 +50,7 @@ Modify the following analysis tasks to customize the amount of history which is 
 | EX_MetricsDetails    | SET HISTORY RETENTION | 6 Months        |
 
 See the
-[Exchange History Retention](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/exchange/hubmetrics/collection/ex_metricscollection.md#exchange-history-retention)
+[Exchange History Retention](/docs/accessanalyzer/11.6/enterpriseauditor/solutions/exchange/hubmetrics/collection/ex_metricscollection.md#exchange-history-retention)
 topic for additional information.
 
 Query Configuration
@@ -63,7 +63,7 @@ following exceptions:
   (Optional) The **Enable Persistent Log State** option can be enabled on the Options page of the
   Exchange Metrics Data Collector Wizard to search the log from where the previous search left off.
   See the
-  [ExchangeMetrics: Options](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/exchangemetrics/options.md) topic
+  [ExchangeMetrics: Options](/docs/accessanalyzer/11.6/enterpriseauditor/admin/datacollector/exchangemetrics/options.md) topic
   for additional information.
 
 Analysis Configuration

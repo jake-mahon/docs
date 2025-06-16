@@ -23,8 +23,8 @@ The diagram illustrates the Enterprise Auditor server running the scan against a
 
 See the following topics for additional information:
 
-- [Local Mode Permissions](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/requirements/solutions/filesystem/localmodepermissions.md)
-- [Local Mode Port Requirements](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/requirements/solutions/filesystem/localmodeports.md)
+- [Local Mode Permissions](/docs/accessanalyzer/11.6/enterpriseauditor/requirements/solutions/filesystem/localmodepermissions.md)
+- [Local Mode Port Requirements](/docs/accessanalyzer/11.6/enterpriseauditor/requirements/solutions/filesystem/localmodeports.md)
 
 ## Applet Mode
 
@@ -47,8 +47,8 @@ server.
 
 See the following topics for additional information:
 
-- [Applet Mode Permissions](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/requirements/solutions/filesystem/appletmodepermissions.md)
-- [Applet Mode Port Requirements](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/requirements/solutions/filesystem/appletmodeports.md)
+- [Applet Mode Permissions](/docs/accessanalyzer/11.6/enterpriseauditor/requirements/solutions/filesystem/appletmodepermissions.md)
+- [Applet Mode Port Requirements](/docs/accessanalyzer/11.6/enterpriseauditor/requirements/solutions/filesystem/appletmodeports.md)
 
 ## Proxy Mode with Applet
 
@@ -69,9 +69,9 @@ which runs the scan against a file server, and then returns data to the Enterpri
 
 See the following topics for additional information:
 
-- [Proxy Mode Server Requirements](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/requirements/solutions/filesystem/proxymodeserver.md)
-- [Proxy Mode with Applet Permissions](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/requirements/solutions/filesystem/proxymodeappletpermissions.md)
-- [Proxy Mode with Applet Port Requirements](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/requirements/solutions/filesystem/proxymodeappletports.md)
+- [Proxy Mode Server Requirements](/docs/accessanalyzer/11.6/enterpriseauditor/requirements/solutions/filesystem/proxymodeserver.md)
+- [Proxy Mode with Applet Permissions](/docs/accessanalyzer/11.6/enterpriseauditor/requirements/solutions/filesystem/proxymodeappletpermissions.md)
+- [Proxy Mode with Applet Port Requirements](/docs/accessanalyzer/11.6/enterpriseauditor/requirements/solutions/filesystem/proxymodeappletports.md)
 
 ## Proxy Mode as a Service
 
@@ -96,7 +96,7 @@ installation wizard is also added to the Enterprise Auditor Connection Profile a
 System Solution.
 
 See the
-[File System Proxy Service Installation](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/install/filesystemproxy/wizard.md)
+[File System Proxy Service Installation](/docs/accessanalyzer/11.6/enterpriseauditor/install/filesystemproxy/wizard.md)
 topic for additional information.
 
 ![Diagram of Enterprise Auditor server communicating securely with the proxy service on a proxy server](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/install/filesystemproxy/proxymodeasservicewithsecurerpc.webp)
@@ -107,6 +107,6 @@ securely. Then the proxy service returns data securely to the Enterprise Auditor
 
 See the following topics for additional information:
 
-- [Proxy Mode Server Requirements](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/requirements/solutions/filesystem/proxymodeserver.md)
-- [Proxy Mode as a Service Permissions](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/requirements/solutions/filesystem/proxymodeservicepermissions.md)
-- [Proxy Mode as a Service Port Requirements](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/requirements/solutions/filesystem/proxymodeserviceports.md)
+- [Proxy Mode Server Requirements](/docs/accessanalyzer/11.6/enterpriseauditor/requirements/solutions/filesystem/proxymodeserver.md)
+- [Proxy Mode as a Service Permissions](/docs/accessanalyzer/11.6/enterpriseauditor/requirements/solutions/filesystem/proxymodeservicepermissions.md)
+- [Proxy Mode as a Service Port Requirements](/docs/accessanalyzer/11.6/enterpriseauditor/requirements/solutions/filesystem/proxymodeserviceports.md)

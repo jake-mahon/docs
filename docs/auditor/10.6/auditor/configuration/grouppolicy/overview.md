@@ -21,19 +21,19 @@ You can configure your IT Infrastructure for monitoring in one of the following
   configure them manually:
 
     - Configure the domain for auditing. See the
-      [Audit Configuration Assistant](/versioned_docs/auditor_10.6/auditor/tools/auditconfigurationassistant.md)
+      [Audit Configuration Assistant](/docs/auditor/10.6/auditor/tools/auditconfigurationassistant.md)
       topic for information on configuring the domain.
     - On the Auditor console computer:
 
         - If you have enabled automatic log backup for the Security log of your domain controller,
           you can instruct Auditor to clear the old backups automatically. For that, use the
           **CleanAutoBackupLogs** registry key, as described in the
-          [Active Directory Registry Key Configuration](/versioned_docs/auditor_10.6/auditor/configuration/activedirectory/registrykey.md)
+          [Active Directory Registry Key Configuration](/docs/auditor/10.6/auditor/configuration/activedirectory/registrykey.md)
           topic.
 
             **_RECOMMENDED:_** Adjust retention period for the backup files accordingly (default is
             **50** hours). See the
-            [Adjust Security Event Log Size and Retention](/versioned_docs/auditor_10.6/auditor/configuration/activedirectory/securitylog.md)
+            [Adjust Security Event Log Size and Retention](/docs/auditor/10.6/auditor/configuration/activedirectory/securitylog.md)
             topic.
 
         - To provide for event data collection, the Secondary Logon service must be up and running .

@@ -45,7 +45,7 @@ Dynasties always inherit the expiry policy from the parent Dynasty and it can on
 the parent level.
 
 Depending on the inheritance option selected for the parent Dynasty on the
-[Group properties - Dynasty Options tab](/versioned_docs/groupid_11.0/groupid/portal/group/properties/dynastyoptions.md)
+[Group properties - Dynasty Options tab](/docs/groupid/11.0/groupid/portal/group/properties/dynastyoptions.md)
 in group properties, the modified values of inherited attributes may or may not persist.
 
 ## Multi-level Structure
@@ -62,7 +62,7 @@ organization.
 
 **See Also**
 
-- [Group Management](/versioned_docs/groupid_11.0/groupid/portal/group/overview.md)
-- [Create an Active Directory Dynasty](/versioned_docs/groupid_11.0/groupid/portal/group/dynasty/activedirectory/createdynasty.md)
-- [Create a Microsoft Entra ID Dynasty](/versioned_docs/groupid_11.0/groupid/portal/group/dynasty/azure/createdynasty.md)
-- [Groups](/versioned_docs/groupid_11.0/groupid/portal/group/create/overview.md)
+- [Group Management](/docs/groupid/11.0/groupid/portal/group/overview.md)
+- [Create an Active Directory Dynasty](/docs/groupid/11.0/groupid/portal/group/dynasty/activedirectory/createdynasty.md)
+- [Create a Microsoft Entra ID Dynasty](/docs/groupid/11.0/groupid/portal/group/dynasty/azure/createdynasty.md)
+- [Groups](/docs/groupid/11.0/groupid/portal/group/create/overview.md)

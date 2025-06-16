@@ -39,7 +39,7 @@ other display types that will be linked to it. GroupID also supports the Microso
 specific format for GroupID to process it.
 
 For information about the Excel file format, see the
-[Excel Data File Format](/versioned_docs/groupid_11.0/groupid/admincenter/portal/linkedcombo/fileformat.md)
+[Excel Data File Format](/docs/groupid/11.0/groupid/admincenter/portal/linkedcombo/fileformat.md)
 topic.
 
 NOTE: If data in the source file is updated, you must reload the file for changes to take effect.
@@ -64,10 +64,10 @@ What do you want to do?
 7. Complete the pages of the **Linked Combo Display Type** wizard.
 
     1. On the **Details** page, provide the source data file. See the
-       [Linked Combo Type - Details](/versioned_docs/groupid_11.0/groupid/admincenter/portal/linkedcombo/details.md)
+       [Linked Combo Type - Details](/docs/groupid/11.0/groupid/admincenter/portal/linkedcombo/details.md)
        topic for more info.
     2. On the **Schema** page, define the parent-child relationship between fields. See the
-       [Linked Combo Type - Schema](/versioned_docs/groupid_11.0/groupid/admincenter/portal/linkedcombo/schema.md)
+       [Linked Combo Type - Schema](/docs/groupid/11.0/groupid/admincenter/portal/linkedcombo/schema.md)
        topic for details.
 
 8. Click **OK**.
@@ -175,11 +175,11 @@ When you update data in the source file, you must also reload the file for chang
 7. On the **Details** page, click **Browse** to select the file to load. Then click **Next**.
 8. On the **Schema** page, make changes to the relationships, if required, and click **OK**.  
    See the
-   [Linked Combo Type - Schema](/versioned_docs/groupid_11.0/groupid/admincenter/portal/linkedcombo/schema.md)
+   [Linked Combo Type - Schema](/docs/groupid/11.0/groupid/admincenter/portal/linkedcombo/schema.md)
    topic for details.
 9. Click **Save** on the **Custom Display Types** page.
 
 **See Also**
 
-- [Display Type Categories](/versioned_docs/groupid_11.0/groupid/admincenter/portal/displaytype/categories.md)
-- [Define Custom Display Types](/versioned_docs/groupid_11.0/groupid/admincenter/portal/displaytype/custom.md)
+- [Display Type Categories](/docs/groupid/11.0/groupid/admincenter/portal/displaytype/categories.md)
+- [Define Custom Display Types](/docs/groupid/11.0/groupid/admincenter/portal/displaytype/custom.md)

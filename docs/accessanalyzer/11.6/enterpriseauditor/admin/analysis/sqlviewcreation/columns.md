@@ -46,7 +46,7 @@ The grid provides the following options for formatting the resulting table or vi
 
 **NOTE:** If at least one columns is sorted by value, the **With ties** option is enabled on the
 Result Constraints page. See the
-[SQLViewCreation: Result Constraints](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/analysis/sqlviewcreation/resultconstraints.md) topic
+[SQLViewCreation: Result Constraints](/docs/accessanalyzer/11.6/enterpriseauditor/admin/analysis/sqlviewcreation/resultconstraints.md) topic
 for additional information.
 
 After selecting the columns to include in the resulting table or view, click **Next** to further

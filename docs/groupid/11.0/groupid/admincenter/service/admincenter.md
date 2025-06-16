@@ -21,10 +21,10 @@ What do you want to do?
    The tab displays Admin Center hosted in native IIS. When multiple GroupID instances have been
    deployed, you will find multiple Admin Center cards on this tab page, each card representing a
    separate instance. See the
-   [Elasticsearch Clusters, Nodes, and GroupID](/versioned_docs/groupid_11.0/groupid/admincenter/service/overview.md#elasticsearch-clusters-nodes-and-groupid)
+   [Elasticsearch Clusters, Nodes, and GroupID](/docs/groupid/11.0/groupid/admincenter/service/overview.md#elasticsearch-clusters-nodes-and-groupid)
    topic.  
    For details displayed on an Admin Center card, see the table in the
-   [View Data Service Details](/versioned_docs/groupid_11.0/groupid/admincenter/service/dataservice/manage.md#view-data-service-details)
+   [View Data Service Details](/docs/groupid/11.0/groupid/admincenter/service/dataservice/manage.md#view-data-service-details)
    topic.
 
     You cannot create an Admin Center application or delete an existing one from Admin Center.
@@ -35,13 +35,13 @@ What do you want to do?
 2. On the **Admin Center** tab, click **Launch Application** on an Admin Center card.  
    Provide the Admin Center URL to admin and helpdesk users so they can access it. You can either
    copy the URL from the address bar or from Admin Center deployment settings. See the See the
-   [View the Launch URL for a Service](/versioned_docs/groupid_11.0/groupid/admincenter/service/dataservice/manage.md#view-the-launch-url-for-a-service)
+   [View the Launch URL for a Service](/docs/groupid/11.0/groupid/admincenter/service/dataservice/manage.md#view-the-launch-url-for-a-service)
    topic.
 
 ## Change the Application Display Name
 
 To change the display name of the Admin Center application, see the
-[Change a Service’s Display Name](/versioned_docs/groupid_11.0/groupid/admincenter/service/dataservice/manage.md#change-a-services-display-name)
+[Change a Service’s Display Name](/docs/groupid/11.0/groupid/admincenter/service/dataservice/manage.md#change-a-services-display-name)
 topic. Replace references to the service with Admin Center.
 
 ## View Deployment Settings
@@ -60,10 +60,10 @@ To view deployment settings:
 ## Configure Event Logging
 
 To configure file logging and Windows logging for Admin Center, see the
-[Specify Log Settings for a Service](/versioned_docs/groupid_11.0/groupid/admincenter/service/dataservice/manage.md#specify-log-settings-for-a-service)
+[Specify Log Settings for a Service](/docs/groupid/11.0/groupid/admincenter/service/dataservice/manage.md#specify-log-settings-for-a-service)
 topic.
 
 **See Also**
 
-- [GroupID Applications](/versioned_docs/groupid_11.0/groupid/admincenter/portal/applications.md)
-- [Services](/versioned_docs/groupid_11.0/groupid/admincenter/service/overview.md)
+- [GroupID Applications](/docs/groupid/11.0/groupid/admincenter/portal/applications.md)
+- [Services](/docs/groupid/11.0/groupid/admincenter/service/overview.md)

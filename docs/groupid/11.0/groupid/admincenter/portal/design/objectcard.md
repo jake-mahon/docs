@@ -141,5 +141,5 @@ You can remove an attribute from the body of an object card.
 
 **See Also**
 
-- [Design a Portal with Display Types](/versioned_docs/groupid_11.0/groupid/admincenter/portal/displaytype/overview.md)
-- [Specify Attributes for Object List View](/versioned_docs/groupid_11.0/groupid/admincenter/portal/design/objectlist.md)
+- [Design a Portal with Display Types](/docs/groupid/11.0/groupid/admincenter/portal/displaytype/overview.md)
+- [Specify Attributes for Object List View](/docs/groupid/11.0/groupid/admincenter/portal/design/objectlist.md)

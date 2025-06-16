@@ -46,5 +46,5 @@ explained above. Also the firewall rules must be configured to allow for communi
 applicable servers.
 
 See the
-[Local Mode Port Requirements](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/requirements/solutions/filesystem/localmodeports.md)
+[Local Mode Port Requirements](/docs/accessanalyzer/11.6/enterpriseauditor/requirements/solutions/filesystem/localmodeports.md)
 topic for firewall rule information.

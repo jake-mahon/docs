@@ -4,7 +4,7 @@ This connector exports data from an external system via a
 [PowerShell](https://learn.microsoft.com/en-us/powershell/scripting/overview) script.
 
 This page is about
-[Custom/PowerShellSync](/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/references-packages/powershellsync/index.md).
+[Custom/PowerShellSync](/docs/usercube/6.1/usercube/integration-guide/connectors/references-packages/powershellsync/index.md).
 
 ![Package: Custom/PowerShellSync](/img/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/references-connectors/powershellsync/packages_powershellsync_v603.webp)
 
@@ -51,7 +51,7 @@ prompt.
 ### Configuration
 
 This process is configured through a
-[connection](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/connectors/connection/index.md)
+[connection](/docs/usercube/6.1/usercube/integration-guide/toolkit/xml-configuration/connectors/connection/index.md)
 in the UI and/or the XML configuration, and in the `appsettings.agent.json > Connections` section:
 
 ```
@@ -100,7 +100,7 @@ Usercube provides a few variables to be used in the PowerShell script.
 
 | Name          | Details                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
 | ------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------- |
-| OutputPath    | **Type** String **Description** Prefix of the path of the generated CSV file. **Info:** the synchronization process requires the generated CSV file to be located in a very specific location, with a specific name prefix. Hence the need for this predefined variable. **Value** [`<TempFolderPath>`](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/appsettings/index.md)`/ExportOutput/<connectionIdentifier>_` **Example** In this example, if the temp folder is named `Temp` and the connection `PowerShellExport`, then the generated file is: `Temp/ExportOutput/PowerShellExport_users.csv`. ``` generateCSV | Export-CSV ($OutputPath + "users.csv") `where`generateCSV``` is a generic PowerShell method that generates CSV files. |
+| OutputPath    | **Type** String **Description** Prefix of the path of the generated CSV file. **Info:** the synchronization process requires the generated CSV file to be located in a very specific location, with a specific name prefix. Hence the need for this predefined variable. **Value** [`<TempFolderPath>`](/docs/usercube/6.1/usercube/integration-guide/network-configuration/agent-configuration/appsettings/index.md)`/ExportOutput/<connectionIdentifier>_` **Example** In this example, if the temp folder is named `Temp` and the connection `PowerShellExport`, then the generated file is: `Temp/ExportOutput/PowerShellExport_users.csv`. ``` generateCSV | Export-CSV ($OutputPath + "users.csv") `where`generateCSV``` is a generic PowerShell method that generates CSV files. |
 | IsIncremental | **Type** Boolean **Description** Variable to be used to provide a different behavior for complete and incremental synchronization.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
 
 ## Fulfill

@@ -3,19 +3,19 @@
 **NOTE:** Prior to configuring your monitoring plan, please read and complete the instructions in
 the following topics:
 
-- [Protocols and Ports Required](/versioned_docs/auditor_10.6/auditor/requirements/ports.md) – To
+- [Protocols and Ports Required](/docs/auditor/10.6/auditor/requirements/ports.md) – To
   ensure successful data collection and activity monitoring configure necessary protocols and ports
   for inbound and outbound connections
-- [Data Collecting Account](/versioned_docs/auditor_10.6/auditor/admin/monitoringplans/dataaccounts.md)
+- [Data Collecting Account](/docs/auditor/10.6/auditor/admin/monitoringplans/dataaccounts.md)
   – Configure data collecting accounts as required to audit your IT systems
 
-- [Exchange Online](/versioned_docs/auditor_10.6/auditor/configuration/microsoft365/exchangeonline/overview.md)
+- [Exchange Online](/docs/auditor/10.6/auditor/configuration/microsoft365/exchangeonline/overview.md)
   – Configure data source as required to be monitored
 
 ## How to Add Office365 Item
 
 This instruction shows how to collect audit data from the Office365 organization. See the
-[Configuring Microsoft Entra ID App for Auditing Microsoft Entra ID](/versioned_docs/auditor_10.6/auditor/configuration/microsoft365/microsoftentraid/modernauth.md#configuring-microsoft-entra-id-app-for-auditing-microsoft-entra-id)
+[Configuring Microsoft Entra ID App for Auditing Microsoft Entra ID](/docs/auditor/10.6/auditor/configuration/microsoft365/microsoftentraid/modernauth.md#configuring-microsoft-entra-id-app-for-auditing-microsoft-entra-id)
 topic for additional information on how to prepare Microsoft Entra ID app with required permissions.
 Make sure you have the following at hand:
 
@@ -38,7 +38,7 @@ Follow the steps to configure Microsoft 365 tenant as a monitored item.
   ID monitoring.
 
 - If you are going to use **Modern authentication**, paste the obtained name. See the
-  [Using Modern Authentication with Microsoft Entra ID](/versioned_docs/auditor_10.6/auditor/configuration/microsoft365/microsoftentraid/modernauth.md)
+  [Using Modern Authentication with Microsoft Entra ID](/docs/auditor/10.6/auditor/configuration/microsoft365/microsoftentraid/modernauth.md)
   topic for additional information.
 
 **Step 2 –** Select authentication method that will be used when accessing Microsoft 365 services:
@@ -50,7 +50,7 @@ Follow the steps to configure Microsoft 365 tenant as a monitored item.
       _user@domain.onmicrosoft.com_.
     - The **Tenant name** field then will be filled in automatically.
     - Make sure this user account has sufficient access rights. See
-      [Using Basic Authentication with Microsoft Entra ID](/versioned_docs/auditor_10.6/auditor/configuration/microsoft365/microsoftentraid/basicauth.md)
+      [Using Basic Authentication with Microsoft Entra ID](/docs/auditor/10.6/auditor/configuration/microsoft365/microsoftentraid/basicauth.md)
       topic for additional information.
 
 - Modern authentication:
@@ -63,7 +63,7 @@ Follow the steps to configure Microsoft 365 tenant as a monitored item.
             - **Application secret**.
 
     - See the
-      [Using Modern Authentication with Microsoft Entra ID](/versioned_docs/auditor_10.6/auditor/configuration/microsoft365/microsoftentraid/modernauth.md)
+      [Using Modern Authentication with Microsoft Entra ID](/docs/auditor/10.6/auditor/configuration/microsoft365/microsoftentraid/modernauth.md)
       for additional information.
 
 **Step 3 –** Click the **Add** button.
@@ -93,16 +93,16 @@ in UPN format (unlike the earlier Netwrix Auditor versions). This refers to the 
 | Option                                             | Description                                                                                                                                                                                                                                                                                |
 | -------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | Monitor this data source and collect activity data |                                                                                                                                                                                                                                                                                            |
-| Configure audit settings                           | See the [Exchange Online](/versioned_docs/auditor_10.6/auditor/configuration/microsoft365/exchangeonline/overview.md) configuration topic for additional information about audit settings required to collect comprehensive audit data and the instructions on how to configure them.      |
-| Collect data for state-in-time reports             | Configure Netwrix Auditor to store daily snapshots of your system configuration required for further state-in-time reports generation. See the [State–In–Time Reports](/versioned_docs/auditor_10.6/auditor/admin/reports/types/stateintime/overview.md) topic for additional information. |
+| Configure audit settings                           | See the [Exchange Online](/docs/auditor/10.6/auditor/configuration/microsoft365/exchangeonline/overview.md) configuration topic for additional information about audit settings required to collect comprehensive audit data and the instructions on how to configure them.      |
+| Collect data for state-in-time reports             | Configure Netwrix Auditor to store daily snapshots of your system configuration required for further state-in-time reports generation. See the [State–In–Time Reports](/docs/auditor/10.6/auditor/admin/reports/types/stateintime/overview.md) topic for additional information. |
 | Collect data on non-owner access to mailboxes      |                                                                                                                                                                                                                                                                                            |
 
 Review your data source settings and click **Add** to go back to your plan. The newly created data
 source will appear in the **Data source** list. As a next step, click **Add item** to specify an
 object for monitoring. See the
-[Add Items for Monitoring](/versioned_docs/auditor_10.6/auditor/admin/monitoringplans/datasources.md#add-items-for-monitoring)
+[Add Items for Monitoring](/docs/auditor/10.6/auditor/admin/monitoringplans/datasources.md#add-items-for-monitoring)
 topic for additional information.
 
 **Step 5 –** See the
-[Exchange Online Monitoring Scope](/versioned_docs/auditor_10.6/auditor/admin/monitoringplans/exchangeonline/scope.md)
+[Exchange Online Monitoring Scope](/docs/auditor/10.6/auditor/admin/monitoringplans/exchangeonline/scope.md)
 topic for additional information.

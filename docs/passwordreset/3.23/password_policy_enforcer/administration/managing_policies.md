@@ -65,7 +65,7 @@ disabled.
 
 **NOTE:** A user's password history may be updated even when the policy assigned to the user is
 disabled. See the
-[History Rule](/versioned_docs/passwordreset_3.23/password_policy_enforcer/administration/rules.md#history-rule)
+[History Rule](/docs/passwordreset/3.23/password_policy_enforcer/administration/rules.md#history-rule)
 topic for additional information.
 
 The **Reject passwords that do not comply with** drop-down list specifies the required compliance
@@ -73,7 +73,7 @@ level for this policy. The default value (all the rules) requires users to compl
 rules. Choose an alternative option if Password Policy Enforcer should enforce a more lenient
 password policy. The Minimum Age and Maximum Age rules are excluded from compliance level
 calculations. See the
-[Rules](/versioned_docs/passwordreset_3.23/password_policy_enforcer/administration/rules.md) topic
+[Rules](/docs/passwordreset/3.23/password_policy_enforcer/administration/rules.md) topic
 for additional information.
 
 When setting the compliance level, consider that some rules may be disabled when a user enters a
@@ -111,7 +111,7 @@ Record any configuration notes about this policy in the Notes text box.
 Password Policy Enforcer uses policy assignments to decide which policy to enforce for each user.
 Domain policies can be assigned to users, groups, and containers (Organizational Units). Local
 policies can only be assigned to users. See the
-[Domain and Local Policies](/versioned_docs/passwordreset_3.23/password_policy_enforcer/administration/domain_and_local_policies.md)
+[Domain and Local Policies](/docs/passwordreset/3.23/password_policy_enforcer/administration/domain_and_local_policies.md)
 topic for additional information.
 
 When a policy is assigned to a group, Password Policy Enforcer enforces the policy for all members

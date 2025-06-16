@@ -24,7 +24,7 @@ labels, certain prerequisites are required both in Enterprise Auditor and Azure 
 6. Enable settings in FSAA Data Collector in Enterprise Auditor.
 
     - See the FileSystemAccess Data Collector section in the
-      [File System Solution](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/filesystem/overview.md)
+      [File System Solution](/docs/accessanalyzer/11.6/enterpriseauditor/solutions/filesystem/overview.md)
       topic for additional information
 
 ## Prerequisites
@@ -153,7 +153,7 @@ initial scan.
 
 To collect tags for files protected with Azure Information Protection, an Azure connection profile
 must be configured in Enterprise Auditor before an FSAA scan runs. See the
-[Global Settings](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/settings/overview.md)
+[Global Settings](/docs/accessanalyzer/11.6/enterpriseauditor/admin/settings/overview.md)
 topic for additional information on how to set up a connection profile at the global level.
 
 **Step 1 –** In Enterprise Auditor, add a credential for an Azure Active Directory account type to
@@ -220,5 +220,5 @@ For SEEK System Scans:
   page only applies for SEEK scans.
 
 See the FileSystemAccess Data Collector section in the
-[File System Solution](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/filesystem/overview.md)
+[File System Solution](/docs/accessanalyzer/11.6/enterpriseauditor/solutions/filesystem/overview.md)
 topic for additional information on these scoping options.

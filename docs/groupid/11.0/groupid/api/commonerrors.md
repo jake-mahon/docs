@@ -16,5 +16,5 @@ that API.
 See Also
 
 - GroupID APIs
-- [User APIs](/versioned_docs/groupid_11.0/groupid/api/user/userapis.md)
+- [User APIs](/docs/groupid/11.0/groupid/api/user/userapis.md)
 - Group APIs

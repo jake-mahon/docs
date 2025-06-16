@@ -72,13 +72,13 @@ will be taken to the **Welcome** step.
 Alternatively, you can launch this utility by clicking the corresponding link:
 
 - From
-  [Create a New Monitoring Plan](/versioned_docs/auditor_10.6/auditor/admin/monitoringplans/create.md)
+  [Create a New Monitoring Plan](/docs/auditor/10.6/auditor/admin/monitoringplans/create.md)
   for Active Directory data source.
 - From the
-  [Active Directory](/versioned_docs/auditor_10.6/auditor/admin/monitoringplans/activedirectory/overview.md)
+  [Active Directory](/docs/auditor/10.6/auditor/admin/monitoringplans/activedirectory/overview.md)
   within the plan.
 - From the
-  [Logon Activity](/versioned_docs/auditor_10.6/auditor/admin/monitoringplans/logonactivity/overview.md)
+  [Logon Activity](/docs/auditor/10.6/auditor/admin/monitoringplans/logonactivity/overview.md)
   source properties.
 
 ## Start Assessment

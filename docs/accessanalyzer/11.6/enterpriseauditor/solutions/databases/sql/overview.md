@@ -17,7 +17,7 @@ Supported Platforms
 Requirements, Permissions, and Ports
 
 See the
-[Target SQL Server Requirements, Permissions, and Ports](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/requirements/target/databasesql.md)
+[Target SQL Server Requirements, Permissions, and Ports](/docs/accessanalyzer/11.6/enterpriseauditor/requirements/target/databasesql.md)
 topic for additional information.
 
 Sensitive Data Discovery Considerations
@@ -47,32 +47,32 @@ content for sensitive data.
 The SQL Job Group includes:
 
 - Databases > 0.Collection > SQL >
-  [0.Collection > SQL Job Group](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/databases/sql/collection/overview.md)
+  [0.Collection > SQL Job Group](/docs/accessanalyzer/11.6/enterpriseauditor/solutions/databases/sql/collection/overview.md)
   – This job group is designed to collect high level summary information from Microsoft SQL servers.
   This information is used by other jobs in the SQL solution set for further analysis and for
   producing respective reports.
 - Databases > 0.Collection > AzureSQL >
-  [0.Collection > Azure SQL Job Group](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/databases/azuresql/collection/overview.md)
+  [0.Collection > Azure SQL Job Group](/docs/accessanalyzer/11.6/enterpriseauditor/solutions/databases/azuresql/collection/overview.md)
   — This job group is designed to collect high level summary information from targeted Azure SQL
   Instances. This information is used by other jobs in the Azure SQL solution set to provide further
   analysis and for producing respective reports.
-- [1.Users and Roles Job Group](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/databases/sql/usersroles/overview.md)–
+- [1.Users and Roles Job Group](/docs/accessanalyzer/11.6/enterpriseauditor/solutions/databases/sql/usersroles/overview.md)–
   This job group is designed to provide insight into user security, roles, and object permissions to
   all the SQL server objects
-- [2.Activity Job Group](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/databases/sql/activity/overview.md)
+- [2.Activity Job Group](/docs/accessanalyzer/11.6/enterpriseauditor/solutions/databases/sql/activity/overview.md)
   – This job group is designed to provide insight into use login activity, object permission
   changes, any unusual database activity, SQL activity against sensitive data, SQL activity against
   selective or all database objects
-- [3.Permissions Job Group](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/databases/sql/permissions/overview.md)
+- [3.Permissions Job Group](/docs/accessanalyzer/11.6/enterpriseauditor/solutions/databases/sql/permissions/overview.md)
   – This job group is designed to provide insight into all types of permissions at the instance,
   database, and object level across all the targeted SQL servers
-- [4.Configuration Job Group](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/databases/sql/configuration/overview.md)
+- [4.Configuration Job Group](/docs/accessanalyzer/11.6/enterpriseauditor/solutions/databases/sql/configuration/overview.md)
   – This job group is designed to provide insight into potential vulnerabilities related to SQL
   server configuration settings
-- [5.Sensitive Data Job Group](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/databases/sql/sensitivedata/overview.md)–
+- [5.Sensitive Data Job Group](/docs/accessanalyzer/11.6/enterpriseauditor/solutions/databases/sql/sensitivedata/overview.md)–
   This job group is designed to provide insight into where sensitive data exists and who has access
   to it across all the targeted SQL server databases
     - Requires the Sensitive Data Discovery Add-On.
-- [SQL_SecurityAssessment Job](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/databases/sql/sql_securityassessment.md)
+- [SQL_SecurityAssessment Job](/docs/accessanalyzer/11.6/enterpriseauditor/solutions/databases/sql/sql_securityassessment.md)
   – This job is designed to summarize and categorize the security findings into HIGH, MEDIUM, LOW,
   and NO FINDING categories based on their severity.

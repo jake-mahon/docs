@@ -119,7 +119,7 @@ located on disk.
 
     This relates to the scenario when identity stores in GroupID have been linked, as discussed in
     the
-    [Linked Identity Stores and the GroupID Portal](/versioned_docs/groupid_11.0/groupid/admincenter/identitystore/link/overview.md#linked-identity-stores-and-the-groupid-portal)
+    [Linked Identity Stores and the GroupID Portal](/docs/groupid/11.0/groupid/admincenter/identitystore/link/overview.md#linked-identity-stores-and-the-groupid-portal)
     topic. Hence, when two identity stores, IdentityStoreA and IdentityStoreB, are linked and you
     associate IdentityStoreA with the portal, this message is displayed. It alerts you to associate
     the second identity store in the linked pair (dentityStoreB) with the portal too, in order to
@@ -127,7 +127,7 @@ located on disk.
 
 12. Each identity store associated with a portal has its own set of design settings, as listed in
     the
-    [Design a Portal with Display Types](/versioned_docs/groupid_11.0/groupid/admincenter/portal/displaytype/overview.md)
+    [Design a Portal with Display Types](/docs/groupid/11.0/groupid/admincenter/portal/displaytype/overview.md)
     topic.
 
     If you are upgrading to GroupID 11 from GroupID 9 or GroupID 10, you can import the design
@@ -175,7 +175,7 @@ located on disk.
        combos defined in the design settings.
 
 13. A portal has certain advanced settings defined for it, as discussed in the
-    [Manage Advanced Settings](/versioned_docs/groupid_11.0/groupid/admincenter/portal/server/advanced.md)
+    [Manage Advanced Settings](/docs/groupid/11.0/groupid/admincenter/portal/server/advanced.md)
     topic.  
     If you are upgrading to GroupID 11 from GroupID 9 or GroupID 10, you can import the advanced
     settings of a Self-Service portal from a previous version as an alternate to defining settings
@@ -217,7 +217,7 @@ The portal runs within a virtual directory in remote IIS while the portal files 
 located on disk.
 
 To learn about the remote IIS settings and configurations before hosting a portal, see
-the[Prerequisites for Deployments in Remote IIS](/versioned_docs/groupid_11.0/groupid/admincenter/portal/remoteiisprerequisites.md)
+the[Prerequisites for Deployments in Remote IIS](/docs/groupid/11.0/groupid/admincenter/portal/remoteiisprerequisites.md)
 topic.
 
 **To create a portal:**
@@ -272,7 +272,7 @@ on a Docker deamon in your environment, so that GroupID can create a container f
 and run the portal from within that container.
 
 For an overview on application deployment in Docker, see the
-[Prerequisites for Deployments in Docker](/versioned_docs/groupid_11.0/groupid/admincenter/portal/dockerprerequisites.md)
+[Prerequisites for Deployments in Docker](/docs/groupid/11.0/groupid/admincenter/portal/dockerprerequisites.md)
 topic.
 
 NOTE: To host the portal, Docker daemon should be configured to run Windows containers.
@@ -386,7 +386,7 @@ you can choose to deploy the new portal in any of the supported web servers.
 You may notice a portal with an orange card and an orange icon on the card. On hovering the mouse
 over the icon, the tooltip says that _linked mode will not be allowed_. This relates to the scenario
 when identity stores in GroupID have been linked, as discussed in the
-[Linked Identity Stores and the GroupID Portal](/versioned_docs/groupid_11.0/groupid/admincenter/identitystore/link/overview.md#linked-identity-stores-and-the-groupid-portal)
+[Linked Identity Stores and the GroupID Portal](/docs/groupid/11.0/groupid/admincenter/identitystore/link/overview.md#linked-identity-stores-and-the-groupid-portal)
 topic. Hence, when two identity stores, IdentityStoreA and IdentityStoreB, are linked and you
 associate IdentityStoreA with the portal, the portal card appears in orange. It informs you to
 associate the second identity store in the linked pair (dentityStoreB) with the portal too, in order
@@ -402,11 +402,11 @@ to benefit from the linking.
 
     Provide the URL of an instance to your users so they can access the portal. You can either copy
     the URL from the address bar or from a portal's deployment settings. See the
-    [View the Launch URL for an Instance](/versioned_docs/groupid_11.0/groupid/admincenter/portal/server/nativeiis.md#view-the-launch-url-for-an-instance)
+    [View the Launch URL for an Instance](/docs/groupid/11.0/groupid/admincenter/portal/server/nativeiis.md#view-the-launch-url-for-an-instance)
     topic.
 
 **See Also**
 
-- [GroupID Applications](/versioned_docs/groupid_11.0/groupid/admincenter/portal/applications.md)
-- [GroupID Portal](/versioned_docs/groupid_11.0/groupid/admincenter/portal/overview.md)
-- [Delete a Portal](/versioned_docs/groupid_11.0/groupid/admincenter/portal/delete.md)
+- [GroupID Applications](/docs/groupid/11.0/groupid/admincenter/portal/applications.md)
+- [GroupID Portal](/docs/groupid/11.0/groupid/admincenter/portal/overview.md)
+- [Delete a Portal](/docs/groupid/11.0/groupid/admincenter/portal/delete.md)

@@ -21,7 +21,7 @@ You can configure your IT Infrastructure for monitoring in one of the following
       Assistant** (in the wizard step or in the plan settings, respectively) to launch a special
       tool that can detect current infrastructure settings and adjust them as needed for monitoring.
       See the
-      [Audit Configuration Assistant](/versioned_docs/auditor_10.6/auditor/tools/auditconfigurationassistant.md)
+      [Audit Configuration Assistant](/docs/auditor/10.6/auditor/tools/auditconfigurationassistant.md)
       topic for additional information.
 
 - Manually – Native audit settings must be adjusted manually to ensure collecting comprehensive and
@@ -47,10 +47,10 @@ You can configure your IT Infrastructure for monitoring in one of the following
 
 See the following topics for additional information:
 
-- [Configure Basic Domain Audit Policies](/versioned_docs/auditor_10.6/auditor/configuration/logonactivity/basicpolicy.md)
-- [Configure Advanced Audit Policies](/versioned_docs/auditor_10.6/auditor/configuration/logonactivity/advancedpolicy.md)
-- [Configure Security Event Log Size and Retention Settings](/versioned_docs/auditor_10.6/auditor/configuration/logonactivity/securityeventlog.md)
-- [ Logon Activity Ports](/versioned_docs/auditor_10.6/auditor/configuration/logonactivity/ports.md)
+- [Configure Basic Domain Audit Policies](/docs/auditor/10.6/auditor/configuration/logonactivity/basicpolicy.md)
+- [Configure Advanced Audit Policies](/docs/auditor/10.6/auditor/configuration/logonactivity/advancedpolicy.md)
+- [Configure Security Event Log Size and Retention Settings](/docs/auditor/10.6/auditor/configuration/logonactivity/securityeventlog.md)
+- [ Logon Activity Ports](/docs/auditor/10.6/auditor/configuration/logonactivity/ports.md)
 
 ## Logon Activity Actions
 

@@ -5,7 +5,7 @@ is a wizard page for the category of Sensitive Data Collection.
 
 This page requires the Sensitive Data Discovery Add-On to be installed on the Enterprise Auditor
 Console to define the criteria and enable the Criteria Editor. See the
-[Sensitive Data Discovery Add-On Installation](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/install/sensitivedatadiscovery/overview.md)
+[Sensitive Data Discovery Add-On Installation](/docs/accessanalyzer/11.6/enterpriseauditor/install/sensitivedatadiscovery/overview.md)
 topic for additional information.
 
 ![NoSQL Data Collector Wizard Criteria page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/ewsmailbox/criteria.webp)
@@ -14,7 +14,7 @@ The options on the Criteria page are:
 
 - Use Global Criteria Selection – Select this option to inherit sensitive data criteria settings
   from the **Settings** > **Sensitive Data** node. See the
-  [Sensitive Data](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/settings/sensitivedata/overview.md)
+  [Sensitive Data](/docs/accessanalyzer/11.6/enterpriseauditor/admin/settings/sensitivedata/overview.md)
   topic for additional information.
 - Use the following selected criteria – Select this option to use the table to select which
   sensitive data criteria to scan for
@@ -34,7 +34,7 @@ Criteria and User Criteria nodes are visible in the table.
 
     Use the Sensitive Data Criteria Editor in **Settings** > **Sensitive Data** to create and edit
     user-defined criteria. See the
-    [Sensitive Data Criteria Editor](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/sensitivedatadiscovery/criteriaeditor/overview.md)
+    [Sensitive Data Criteria Editor](/docs/accessanalyzer/11.6/enterpriseauditor/sensitivedatadiscovery/criteriaeditor/overview.md)
     topic for additional information.
 
 **NOTE:** Adding unnecessary criteria can adversely impact the scanner performance and can cause the

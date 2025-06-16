@@ -27,9 +27,9 @@ The Registry action module is configured through the Registry Action Module Wiza
 the following wizard pages:
 
 - Welcome
-- [Registry: Target Hosts](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/action/registry/targethosts.md)
-- [Registry: Operations](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/action/registry/operations.md)
-- [Registry: Summary](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/action/registry/summary.md)
+- [Registry: Target Hosts](/docs/accessanalyzer/11.6/enterpriseauditor/admin/action/registry/targethosts.md)
+- [Registry: Operations](/docs/accessanalyzer/11.6/enterpriseauditor/admin/action/registry/operations.md)
+- [Registry: Summary](/docs/accessanalyzer/11.6/enterpriseauditor/admin/action/registry/summary.md)
 
 The Welcome page gives an overview of the Registry Action Module Wizard. The steps navigation pane
 contains links to the pages in the wizard. Review the introductory and caution information about the

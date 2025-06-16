@@ -57,7 +57,7 @@ address is incorrect.
 
 Click **View All** to go to the **Notification Queue** page, where you can view the failed
 notifications in detail. See the
-[Manage the Notification Queue](/versioned_docs/groupid_11.0/groupid/admincenter/notification/queue.md)
+[Manage the Notification Queue](/docs/groupid/11.0/groupid/admincenter/notification/queue.md)
 topic.
 
 ## Upcoming Schedules
@@ -104,7 +104,7 @@ Consider the following:
 - Hover the mouse over a bar to view the number of users enrolled with the specific authentication
   type. Click a bar to launch the **Helpdesk** page, that displays a list of users enrolled with
   that authentication type. See the
-  [View Users' Information](/versioned_docs/groupid_11.0/groupid/admincenter/helpdesk/operation/search.md#view-users-information)
+  [View Users' Information](/docs/groupid/11.0/groupid/admincenter/helpdesk/operation/search.md#view-users-information)
   topic for details on the information displayed for a user. (Notice that the **Filter(s)** dialog
   box displays the selected authentication type in the **Enrolled With** box.)
 - By default, data is displayed for the last one month. You can view enrollment data for any
@@ -129,7 +129,7 @@ The pie chart is highly interactive. You can:
   in the authentication attempt. Click this chart to navigate to the **History** tab of the
   **Helpdesk** page to view the logged history for the authentication attempts with the respective
   authentication type. See the
-  [History in Helpdesk](/versioned_docs/groupid_11.0/groupid/admincenter/helpdesk/history.md) topic.
+  [History in Helpdesk](/docs/groupid/11.0/groupid/admincenter/helpdesk/history.md) topic.
 
 Consider the following:
 
@@ -142,7 +142,7 @@ Consider the following:
   a date range to view the data.
 
 See the
-[Authentication Policy](/versioned_docs/groupid_11.0/groupid/admincenter/identitystore/configure/authpolicy.md)
+[Authentication Policy](/docs/groupid/11.0/groupid/admincenter/identitystore/configure/authpolicy.md)
 topic for a list of supported authentication types.
 
 ## Activity Summary
@@ -166,7 +166,7 @@ Consider the following:
 - To view a list of users who used a function on a particular date, click the relevant data point on
   the function line. A list of users is displayed on the **History** tab of the **Helpdesk** page.
   See the
-  [History in Helpdesk](/versioned_docs/groupid_11.0/groupid/admincenter/helpdesk/history.md) topic.
+  [History in Helpdesk](/docs/groupid/11.0/groupid/admincenter/helpdesk/history.md) topic.
   (Notice that the **Filter(s)** dialog box displays the selected function in the **Action Type**
   box.)
 - By default, data is displayed for the last one week. You can view activity summary for any
@@ -178,4 +178,4 @@ Consider the following:
 
 **See Also**
 
-- [Navigation](/versioned_docs/groupid_11.0/groupid/admincenter/general/navigation.md)
+- [Navigation](/docs/groupid/11.0/groupid/admincenter/general/navigation.md)

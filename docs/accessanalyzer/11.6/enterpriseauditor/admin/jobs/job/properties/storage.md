@@ -10,7 +10,7 @@ By default, all jobs are set to inherit the storage setting, the **Use Default**
 configure a different profile for the job, select the **Use This Profile** option and select the
 desired Storage Profile from the drop-down menu. Storage Profiles can only be configured at the
 **Settings** > **Storage** node. See the
-[Storage](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/settings/storage/overview.md)
+[Storage](/docs/accessanalyzer/11.6/enterpriseauditor/admin/settings/storage/overview.md)
 topic for additional information.
 
 Click **OK** to save configuration changes and close the Job Properties window. Click **Cancel** if

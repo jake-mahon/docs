@@ -4,11 +4,11 @@ Creates the view for the given entity as well as the rights for the given profil
 
 The scaffolding generates the following scaffoldings:
 
-- [EntityTypeDisplayName](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/entitytypes/entitytypes/entitytypedisplayname/index.md):
+- [EntityTypeDisplayName](/docs/usercube/6.1/usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/entitytypes/entitytypes/entitytypedisplayname/index.md):
   Computes a default value for resources' internal display names.
-- [EntityTypeDisplayTable](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/entitytypes/entitytypes/entitytypedisplaytable/index.md):
+- [EntityTypeDisplayTable](/docs/usercube/6.1/usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/entitytypes/entitytypes/entitytypedisplaytable/index.md):
   Creates a display table for the given entity.
-- [ViewAccessControlRules](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/resources/viewaccesscontrolrules/index.md):
+- [ViewAccessControlRules](/docs/usercube/6.1/usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/resources/viewaccesscontrolrules/index.md):
   Generates the permissions to view an entity type's resources.
 
 ## Examples

@@ -21,12 +21,12 @@ The following query is included with the EX_Features Job:
 
     - By default set to search all mailboxes. It can be scoped.
     - See the
-      [Scope the ExchangePS Data Collector](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/exchange/casmetrics/ex_aspolicies.md#scope-the-exchangeps-data-collector)
+      [Scope the ExchangePS Data Collector](/docs/accessanalyzer/11.6/enterpriseauditor/solutions/exchange/casmetrics/ex_aspolicies.md#scope-the-exchangeps-data-collector)
       topic for additional information
 
     **NOTE:** The ExchangePS Data Collector is capable of targeting Exchange Online as well as
     Exchange on-premises environments. See the
-    [Exchange PowerShell Permissions](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/requirements/solutions/exchange/powershell.md)
+    [Exchange PowerShell Permissions](/docs/accessanalyzer/11.6/enterpriseauditor/requirements/solutions/exchange/powershell.md)
     topic for credential requirements.
 
 In addition to the table created by the query, the EX_Features Job produces the following

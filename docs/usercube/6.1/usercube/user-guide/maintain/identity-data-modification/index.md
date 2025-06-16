@@ -24,18 +24,18 @@ Integrators are able to perform an identity update if they master the new data.
 
 | Input                                                                                                                                                      | Output                      |
 | ---------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------- |
-| [Identity repository](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/initial-identities-loading/index.md) (required) New identity data (required) | Updated identity repository |
+| [Identity repository](/docs/usercube/6.1/usercube/user-guide/set-up/initial-identities-loading/index.md) (required) New identity data (required) | Updated identity repository |
 
 ## Modify Identity Data
 
 Modify identity data by proceeding as follows, according to the changes to be made:
 
 - either
-  [update data individually](/versioned_docs/usercube_6.1/usercube/user-guide/maintain/identity-data-modification/individual-update/index.md)
+  [update data individually](/docs/usercube/6.1/usercube/user-guide/maintain/identity-data-modification/individual-update/index.md)
   by using predefined workflows in the UI;
 - or
-  [perform a same change on several identities simultaneously](/versioned_docs/usercube_6.1/usercube/user-guide/maintain/identity-data-modification/multiple-update/index.md)
+  [perform a same change on several identities simultaneously](/docs/usercube/6.1/usercube/user-guide/maintain/identity-data-modification/multiple-update/index.md)
   by using Usercube's predefined workflow in the UI;
 - or
-  [update data on a massive scale](/versioned_docs/usercube_6.1/usercube/user-guide/maintain/identity-data-modification/mass-update/index.md)
+  [update data on a massive scale](/docs/usercube/6.1/usercube/user-guide/maintain/identity-data-modification/mass-update/index.md)
   by uploading an external file into Usercube, as an incremental version of the identity repository.

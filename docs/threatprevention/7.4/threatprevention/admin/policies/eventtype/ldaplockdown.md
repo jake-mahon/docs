@@ -42,7 +42,7 @@ available for the event type:
   conform to your security configurations
 
     - This option displays additional filters for Secure configurations and Search scopes. See the
-      [LDAP Search Operations Use Case](/versioned_docs/threatprevention_7.4/threatprevention/admin/policies/eventtype/usecase/ldapsearch.md)
+      [LDAP Search Operations Use Case](/docs/threatprevention/7.4/threatprevention/admin/policies/eventtype/usecase/ldapsearch.md)
       topic for additional information.
 
 - LDAP Ping – LDAP Ping is a Microsoft Active Directory specific Lightweight Directory Access
@@ -50,7 +50,7 @@ available for the event type:
   returns information about whether services are live on a domain controller
 
     - See the
-      [LDAP Ping Operations Use Case](/versioned_docs/threatprevention_7.4/threatprevention/admin/policies/eventtype/usecase/ldapping.md)
+      [LDAP Ping Operations Use Case](/docs/threatprevention/7.4/threatprevention/admin/policies/eventtype/usecase/ldapping.md)
       topic for additional information.
 
     When LDAP Ping is selected, the Secure Configurations and Search scopes sections are not
@@ -66,15 +66,15 @@ to exclude specific domains and/or servers.
 Use the buttons in the Include and Exclude areas to edit the lists.
 
 - The Add (+) buttons open the
-  [Select Domains and Servers Window](/versioned_docs/threatprevention_7.4/threatprevention/admin/policies/eventtype/window/selectdomainsservers.md).
+  [Select Domains and Servers Window](/docs/threatprevention/7.4/threatprevention/admin/policies/eventtype/window/selectdomainsservers.md).
 - The Collection button opens the
-  [List of Collections Window](/versioned_docs/threatprevention_7.4/threatprevention/admin/configuration/collectionmanager/listcollections.md)
+  [List of Collections Window](/docs/threatprevention/7.4/threatprevention/admin/configuration/collectionmanager/listcollections.md)
   to the appropriate Collection category.
 - The Remove (x) button deletes the selected item(s) from that box.
 
 **NOTE:** To enable a Dynamic Policy, use the Collection button to select the desired Dynamic
 Collection. See the
-[Dynamic Collections](/versioned_docs/threatprevention_7.4/threatprevention/admin/configuration/collectionmanager/dynamic.md)
+[Dynamic Collections](/docs/threatprevention/7.4/threatprevention/admin/configuration/collectionmanager/dynamic.md)
 topic for additional information.
 
 ## AD Perpetrator Filter
@@ -88,7 +88,7 @@ from being locked down.
 Select the **Block** or **Allow** option button and then edit the list.
 
 **NOTE:** For the
-[Password Enforcement Event Type](/versioned_docs/threatprevention_7.4/threatprevention/admin/policies/eventtype/passwordenforcement.md),
+[Password Enforcement Event Type](/docs/threatprevention/7.4/threatprevention/admin/policies/eventtype/passwordenforcement.md),
 selecting **Allow** means that this policy will not validate the new passwords for the accounts
 listed here. Selecting **Block** means that this policy will validate the new passwords for the
 accounts listed here.
@@ -96,15 +96,15 @@ accounts listed here.
 Use the buttons in the Perpetrators and Collections of Perpetrators areas to edit the lists.
 
 - Perpetrators area – The Add (+) button opens the
-  [Select Active Directory Perpetrators Window](/versioned_docs/threatprevention_7.4/threatprevention/admin/policies/eventtype/window/selectactivedirectory/perpetrators.md).
+  [Select Active Directory Perpetrators Window](/docs/threatprevention/7.4/threatprevention/admin/policies/eventtype/window/selectactivedirectory/perpetrators.md).
 - Collections of Perpetrators area - The Collection button opens the
-  [List of Collections Window](/versioned_docs/threatprevention_7.4/threatprevention/admin/configuration/collectionmanager/listcollections.md)
+  [List of Collections Window](/docs/threatprevention/7.4/threatprevention/admin/configuration/collectionmanager/listcollections.md)
   to the appropriate Collection category.
 - The Remove (x) button deletes the selected item(s) from that box.
 
 **NOTE:** To enable a Dynamic Policy, use the Collection button to select the desired Dynamic
 Collection. See the
-[Dynamic Collections](/versioned_docs/threatprevention_7.4/threatprevention/admin/configuration/collectionmanager/dynamic.md)
+[Dynamic Collections](/docs/threatprevention/7.4/threatprevention/admin/configuration/collectionmanager/dynamic.md)
 topic for additional information.
 
 ## LDAP Query Filter
@@ -129,7 +129,7 @@ Enter a query in the LDAP Queries box. You can type a string in the textbox. Alt
 buttons in the respective sections.
 
 - The Add (+) buttons open the
-  [Select Active Directory Objects Window](/versioned_docs/threatprevention_7.4/threatprevention/admin/policies/eventtype/window/selectactivedirectory/objects.md).
+  [Select Active Directory Objects Window](/docs/threatprevention/7.4/threatprevention/admin/policies/eventtype/window/selectactivedirectory/objects.md).
 - The Remove (x) button deletes the selected item(s) from that box.
 
 ## Hosts (from) Filter
@@ -142,18 +142,18 @@ hosts as originators of an event.
 Select the **Block** or **Allow** option button and then edit the list.
 
 - For the
-  [Password Enforcement Event Type](/versioned_docs/threatprevention_7.4/threatprevention/admin/policies/eventtype/passwordenforcement.md),
+  [Password Enforcement Event Type](/docs/threatprevention/7.4/threatprevention/admin/policies/eventtype/passwordenforcement.md),
   selecting **Allow** means that this policy will not validate the new passwords for the accounts
   listed here. Selecting **Block** means that this policy will validate the new passwords for the
   accounts listed here.
 - For the
-  [Authentication Lockdown Event Type](/versioned_docs/threatprevention_7.4/threatprevention/admin/policies/eventtype/authenticationlockdown.md),
+  [Authentication Lockdown Event Type](/docs/threatprevention/7.4/threatprevention/admin/policies/eventtype/authenticationlockdown.md),
   this filter blocks or only allows authentication from the identified host(s).
 
 Use the buttons in the Include Hosts area to edit the list.
 
 - The Hosts Add (+) button opens the
-  [Select Computer Window](/versioned_docs/threatprevention_7.4/threatprevention/admin/policies/eventtype/window/selectcomputers.md).
+  [Select Computer Window](/docs/threatprevention/7.4/threatprevention/admin/policies/eventtype/window/selectcomputers.md).
 - The Remove (x) button deletes the selected item(s) from that box.
 
 ## Rule Preview Filter

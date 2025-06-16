@@ -12,14 +12,14 @@ Supported Platforms
 Requirements, Permissions, and Ports
 
 See the
-[Microsoft Entra ID Tenant Target Requirements](/versioned_docs/enterpriseauditor_11.6/config/entraid/overview.md)
+[Microsoft Entra ID Tenant Target Requirements](/docs/accessanalyzer/11.6/config/entraid/overview.md)
 topic for additional information.
 
 Location
 
 The Entra ID Solution requires a special Enterprise Auditor license. It can be installed from the
 Instant Job Wizard, see the
-[Instant Job Wizard](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/jobs/instantjobs/overview.md)
+[Instant Job Wizard](/docs/accessanalyzer/11.6/enterpriseauditor/admin/jobs/instantjobs/overview.md)
 topic for additional information. Once it has been installed into the Jobs tree, navigate to the
 solution: **Jobs** > **Entra ID**.
 
@@ -32,7 +32,7 @@ generate reports on the collected data.
 
 The job groups in the Entra ID Solution are:
 
-- [1.Groups Job Group](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/entraid/groups/overview.md)
+- [1.Groups Job Group](/docs/accessanalyzer/11.6/enterpriseauditor/solutions/entraid/groups/overview.md)
   – Identifies group conditions and pinpoints potential areas of administrative concern
-- [2.Users Job Group](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/entraid/users/overview.md)
+- [2.Users Job Group](/docs/accessanalyzer/11.6/enterpriseauditor/solutions/entraid/users/overview.md)
   – Identifies areas of administrative concern related to Microsoft Entra ID users

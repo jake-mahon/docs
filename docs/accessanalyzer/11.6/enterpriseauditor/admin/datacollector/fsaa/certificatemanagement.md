@@ -33,7 +33,7 @@ There are three Certificate Exchange Options provided by the FSAA Data collector
       application was created to simplify the process of creating certificates and will store the
       certificates in the location that the FSAA Data Collector and Applet server expect them to be
       stored. See the
-      [FSAA Manual Certificate Configuration](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/fsaa/manualcertificate.md)
+      [FSAA Manual Certificate Configuration](/docs/accessanalyzer/11.6/enterpriseauditor/admin/datacollector/fsaa/manualcertificate.md)
       topic for additional information.
 
         The `FSAACertificateManager.exe` tool is located in the

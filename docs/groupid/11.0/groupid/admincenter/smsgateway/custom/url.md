@@ -26,4 +26,4 @@ is the case with your SMS gateway provider, you can use this property to specify
 
 **See Also**
 
-- [Implement and Deploy a Custom SMS Gateway](/versioned_docs/groupid_11.0/groupid/admincenter/smsgateway/implementcustom.md)
+- [Implement and Deploy a Custom SMS Gateway](/docs/groupid/11.0/groupid/admincenter/smsgateway/implementcustom.md)

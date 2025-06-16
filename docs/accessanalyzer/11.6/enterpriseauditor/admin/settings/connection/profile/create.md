@@ -26,16 +26,16 @@ User Credentials window opens.
 Select the appropriate account type and then provide the required information. The account types
 are:
 
-- [Active Directory Account for User Credentials ](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/settings/connection/profile/activedirectory.md)
-- [Local Windows Account for User Credentials](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/settings/connection/profile/localwindows.md)
-- [Unix Account for User Credentials](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/settings/connection/profile/unix.md)
-- [SQL Authentication for User Credentials](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/settings/connection/profile/sql.md)
-- [Task for User Credentials](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/settings/connection/profile/task.md)
-- [Azure Active Directory for User Credentials](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/settings/connection/profile/entraid.md)
-- [Dropbox for User Credentials](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/settings/connection/profile/dropbox.md)
-- [Web Services (JWT) for User Credentials](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/settings/connection/profile/webservices.md)
-- [Oracle for User Credentials](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/settings/connection/profile/oracle.md)
-- [Exchange Modern Authentication for User Credentials](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/settings/connection/profile/exchangemodernauth.md)
+- [Active Directory Account for User Credentials ](/docs/accessanalyzer/11.6/enterpriseauditor/admin/settings/connection/profile/activedirectory.md)
+- [Local Windows Account for User Credentials](/docs/accessanalyzer/11.6/enterpriseauditor/admin/settings/connection/profile/localwindows.md)
+- [Unix Account for User Credentials](/docs/accessanalyzer/11.6/enterpriseauditor/admin/settings/connection/profile/unix.md)
+- [SQL Authentication for User Credentials](/docs/accessanalyzer/11.6/enterpriseauditor/admin/settings/connection/profile/sql.md)
+- [Task for User Credentials](/docs/accessanalyzer/11.6/enterpriseauditor/admin/settings/connection/profile/task.md)
+- [Azure Active Directory for User Credentials](/docs/accessanalyzer/11.6/enterpriseauditor/admin/settings/connection/profile/entraid.md)
+- [Dropbox for User Credentials](/docs/accessanalyzer/11.6/enterpriseauditor/admin/settings/connection/profile/dropbox.md)
+- [Web Services (JWT) for User Credentials](/docs/accessanalyzer/11.6/enterpriseauditor/admin/settings/connection/profile/webservices.md)
+- [Oracle for User Credentials](/docs/accessanalyzer/11.6/enterpriseauditor/admin/settings/connection/profile/oracle.md)
+- [Exchange Modern Authentication for User Credentials](/docs/accessanalyzer/11.6/enterpriseauditor/admin/settings/connection/profile/exchangemodernauth.md)
 
 See the individual account type sections for information on the fields. Then click OK.
 

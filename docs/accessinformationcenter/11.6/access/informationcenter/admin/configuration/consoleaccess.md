@@ -41,7 +41,7 @@ for additional information.
 Once users have been granted console access, they can login with their domain credentials. Console
 access is not a requirement for participation as owners or domain users in the Resource Reviews and
 Self-Service Access Requests workflows. See the
-[URL & Login](/versioned_docs/accessinformationcenter_11.6/access/informationcenter/admin/login.md)
+[URL & Login](/docs/accessinformationcenter/11.6/access/informationcenter/admin/login.md)
 topic for information on how users will log in and where they are directed after login based on
 their assigned role or lack of role.
 

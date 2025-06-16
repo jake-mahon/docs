@@ -15,14 +15,14 @@ Finalize the installation of the agent by proceeding as follows:
    [Windows' hosting bundle for ASP.Net Runtime](https://dotnet.microsoft.com/en-us/download/dotnet/8.0).
 
     If the bundle was installed before
-    [IIS configuration](/versioned_docs/usercube_6.1/usercube/user-guide/deploy/production-agent-installation/iis-configuration/index.md),
+    [IIS configuration](/docs/usercube/6.1/usercube/user-guide/deploy/production-agent-installation/iis-configuration/index.md),
     then IIS might not display the AspNetCore module and Usercube will not run. In this case,
     relaunch the bundle's installation executable to perform a repair.
 
 2. When using a proxy,
-   [adjust the configuration accordingly](/versioned_docs/usercube_6.1/usercube/installation-guide/reverse-proxy/index.md).
+   [adjust the configuration accordingly](/docs/usercube/6.1/usercube/installation-guide/reverse-proxy/index.md).
 
 ## Next Steps
 
 To continue, follow the instructions to
-[verify the agent's installation](/versioned_docs/usercube_6.1/usercube/user-guide/deploy/production-agent-installation/index.md).
+[verify the agent's installation](/docs/usercube/6.1/usercube/user-guide/deploy/production-agent-installation/index.md).

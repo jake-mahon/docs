@@ -19,7 +19,7 @@ the following features:
 - Filter — Provides options to filter results based on a chosen criterion: User, Group, Application,
   Collection, and Local User
 - Add Role User — Opens Add Role Users window. See the
-  [Add Role Users Window](/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/policy/window/usersgroups/addroleusers.md)
+  [Add Role Users Window](/docs/privilegesecure/4.1/privilegesecure/accessmanagement/admin/policy/window/usersgroups/addroleusers.md)
   topic for additional information.
 - Remove — Removes console access from the selected account. This button is specific to the table in
   the Users role assignment section at the bottom.
@@ -31,7 +31,7 @@ The Users role assignment section table has the following columns:
 - Checkbox — Check to select one or more items
 - Type — Icon indicates the type of object
 - Name — Displays the name of the account. See the
-  [User, Group, & Application Details Page](/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/policy/page/details/usergroupapplication.md)
+  [User, Group, & Application Details Page](/docs/privilegesecure/4.1/privilegesecure/accessmanagement/admin/policy/page/details/usergroupapplication.md)
   topic for additional information.
 - User Name — Displays the sAMAccountName for the account
 - User Principal Name — Displays the UPN value for the account
@@ -61,7 +61,7 @@ Available permissions include:
 
 All custom roles, no matter what permissions are granted, can be scoped to specific policies. See
 the
-[Change Permission Assignment](/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/policy/edit/changepermissions.md)
+[Change Permission Assignment](/docs/privilegesecure/4.1/privilegesecure/accessmanagement/admin/policy/edit/changepermissions.md)
 topic for additional information.
 
 ## Policy Tab
@@ -74,7 +74,7 @@ The Policy tab for a custom role has the following features:
   table or list is filtered to the matching results. This search is specific to the table in the
   Policies tab.
 - Add Policies — Opens the Add Policies window. See the
-  [Add Policies Window](/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/policy/window/usersgroups/addpolicies.md)
+  [Add Policies Window](/docs/privilegesecure/4.1/privilegesecure/accessmanagement/admin/policy/window/usersgroups/addpolicies.md)
   topic for additional information.
 - Remove — Removes console access from the selected account.This button is specific to the table in
   the Policies tab.
@@ -85,7 +85,7 @@ The Policies tab table has the following columns:
 
 - Checkbox — Check to select one or more items
 - Name — Displays the name of the policy. Click the link to view additional details. See the
-  [Access Policy Page](/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/policy/page/accesspolicy.md)
+  [Access Policy Page](/docs/privilegesecure/4.1/privilegesecure/accessmanagement/admin/policy/page/accesspolicy.md)
   topic for additional information.
 - Description — Description of the policy
 
@@ -101,7 +101,7 @@ The Users tab for a custom role has the following features:
 - Type — Provides options to filter results based on a chosen criterion: User, Group, Application,
   Collection, and Local User
 - Add Users— Opens the Add Users and Groups window. See the
-  [Add Users & Groups Window](/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/policy/window/usersgroups/addusersandgroups.md)
+  [Add Users & Groups Window](/docs/privilegesecure/4.1/privilegesecure/accessmanagement/admin/policy/window/usersgroups/addusersandgroups.md)
   topic for additional information.
 - Remove — Removes console access from the selected account.This button is specific to the table in
   the Policies tab.
@@ -113,7 +113,7 @@ The Users tab table has the following columns:
 - Checkbox — Check to select one or more items
 - Type — Icon indicates the type of object
 - Name — Displays the name of the account. See the
-  [User, Group, & Application Details Page](/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/policy/page/details/usergroupapplication.md)
+  [User, Group, & Application Details Page](/docs/privilegesecure/4.1/privilegesecure/accessmanagement/admin/policy/page/details/usergroupapplication.md)
   topic for additional information.
 - User Name — Displays the sAMAccountName for the account
 - User Principal Name — Displays the UPN value for the account
@@ -131,7 +131,7 @@ The Activities tab for a custom role has the following features:
   Activities tab.
 - Type — Provides options to filter results based on a chosen criterion: Activity or Activity Group
 - Add Activities — Opens the Add Activities and Activity Groups window. See the
-  [Add Activities and Groups Window](/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/policy/window/usersgroups/addactivitiesandgroups.md)
+  [Add Activities and Groups Window](/docs/privilegesecure/4.1/privilegesecure/accessmanagement/admin/policy/window/usersgroups/addactivitiesandgroups.md)
   topic for additional information.
 - Remove — Removes console access from the selected account.This button is specific to the table in
   the Policies tab.
@@ -143,7 +143,7 @@ The Activities tab table has the following columns:
 - Checkbox — Check to select one or more items
 - Type — Classification of the activity
 - Name — Displays the name of the activity. Click the link to view additional details. See the
-  [Activities Page](/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/policy/page/activities.md)
+  [Activities Page](/docs/privilegesecure/4.1/privilegesecure/accessmanagement/admin/policy/page/activities.md)
   topic for additional information.
 
 ## Resources Tab
@@ -157,7 +157,7 @@ The Resources tab for a custom role has the following features:
   Resources tab.
 - Type — Provides options to filter results based on a chosen criterion: Resource or Resource Group
 - Add Resources — Opens the Add Resources and Groups window. See the
-  [Add Resources and Groups Window](/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/policy/window/usersgroups/addresourcesandgroups.md)
+  [Add Resources and Groups Window](/docs/privilegesecure/4.1/privilegesecure/accessmanagement/admin/policy/window/usersgroups/addresourcesandgroups.md)
   topic for additional information.
 - Remove — Removes console access from the selected account.This button is specific to the table in
   the Policies tab.
@@ -169,7 +169,7 @@ The Resources tab table has the following columns:
 - Checkbox — Check to select one or more items
 - Type — Icon indicates the type of object
 - Name — Displays the name of the resource. See the
-  [Resources Page](/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/policy/page/resources.md)
+  [Resources Page](/docs/privilegesecure/4.1/privilegesecure/accessmanagement/admin/policy/page/resources.md)
   topic for additional information.
 - Operating System — Displays the operating system of the resource
 
@@ -188,7 +188,7 @@ The Role Users has the following features:
 - Type — Provides options to filter results based on a chosen criterion: User, Group, Application,
   Collection, and Local User
 - Add Role Users— Opens the Add Users and Groups window. See the
-  [Add Users & Groups Window](/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/policy/window/usersgroups/addusersandgroups.md)
+  [Add Users & Groups Window](/docs/privilegesecure/4.1/privilegesecure/accessmanagement/admin/policy/window/usersgroups/addusersandgroups.md)
   topic for additional information.
 - Remove — Removes console access from the selected account. This button is specific to the table in
   the Policies tab.
@@ -200,7 +200,7 @@ The Role Users table has the following columns:
 - Checkbox — Check to select one or more items
 - Type — Icon indicates the type of object
 - Name — Displays the name of the account. See the
-  [User, Group, & Application Details Page](/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/policy/page/details/usergroupapplication.md)
+  [User, Group, & Application Details Page](/docs/privilegesecure/4.1/privilegesecure/accessmanagement/admin/policy/page/details/usergroupapplication.md)
   topic for additional information.
 - User Name — Displays the sAMAccountName for the account
 - User Principal Name — Displays the UPN value for the account

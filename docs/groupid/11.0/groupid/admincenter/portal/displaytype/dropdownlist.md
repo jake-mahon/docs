@@ -50,7 +50,7 @@ What do you want to do?
        database attribute.)
     3. In the **Visibility** drop-down list, select a security role. The value in the drop-down list
        will be visible to users of this role and roles with a priority value higher than this role.
-       See [Priority](/versioned_docs/groupid_11.0/groupid/admincenter/securityrole/manage.md).  
+       See [Priority](/docs/groupid/11.0/groupid/admincenter/securityrole/manage.md).  
        Select _Never_ to hide the value from all users.
     4. Click **OK**. The value is listed in the **Values** area, represented by its display text.
 
@@ -67,6 +67,6 @@ What do you want to do?
 
 **See Also**
 
-- [Design a Portal with Display Types](/versioned_docs/groupid_11.0/groupid/admincenter/portal/displaytype/overview.md)
-- [Display Type Categories](/versioned_docs/groupid_11.0/groupid/admincenter/portal/displaytype/categories.md)
-- [Define Custom Display Types](/versioned_docs/groupid_11.0/groupid/admincenter/portal/displaytype/custom.md)
+- [Design a Portal with Display Types](/docs/groupid/11.0/groupid/admincenter/portal/displaytype/overview.md)
+- [Display Type Categories](/docs/groupid/11.0/groupid/admincenter/portal/displaytype/categories.md)
+- [Define Custom Display Types](/docs/groupid/11.0/groupid/admincenter/portal/displaytype/custom.md)

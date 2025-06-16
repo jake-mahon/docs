@@ -15,9 +15,9 @@ The PowerShell action module is configured through the PowerShell Action Module 
 contains the following wizard pages:
 
 - Welcome
-- [PowerShell Action: Script](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/action/powershell/script.md)
-- [PowerShell Action: Execution Options](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/action/powershell/executionoptions.md)
-- [PowerShell Action: Summary](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/action/powershell/summary.md)
+- [PowerShell Action: Script](/docs/accessanalyzer/11.6/enterpriseauditor/admin/action/powershell/script.md)
+- [PowerShell Action: Execution Options](/docs/accessanalyzer/11.6/enterpriseauditor/admin/action/powershell/executionoptions.md)
+- [PowerShell Action: Summary](/docs/accessanalyzer/11.6/enterpriseauditor/admin/action/powershell/summary.md)
 
 The Welcome page displays first and gives an overview of the action module. The navigation pane
 contains links to the pages in the wizard.

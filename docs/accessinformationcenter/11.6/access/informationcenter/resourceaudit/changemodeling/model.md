@@ -86,5 +86,5 @@ trustee from multiple groups or adding the trustee to another group before acces
 desired. View the global impact these changes will have on the trustee’s access to all
 organizational resources in the Modeled Access Changes report at the **File System** node level. See
 the
-[Modeled Access Changes Report](/versioned_docs/accessinformationcenter_11.6/access/informationcenter/resourceaudit/changemodeling/modeledaccesschanges.md) topic
+[Modeled Access Changes Report](/docs/accessinformationcenter/11.6/access/informationcenter/resourceaudit/changemodeling/modeledaccesschanges.md) topic
 for additional information.

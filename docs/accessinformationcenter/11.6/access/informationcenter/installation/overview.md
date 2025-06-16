@@ -39,7 +39,7 @@ these will be referred to as the Database service account and the Active Directo
   and Resource Audits require the Active Directory service account to have rights to read Active
   Directory. This credential is configured during installation based on the account used for
   connecting to the database. See the
-  [Active Directory Page](/versioned_docs/accessinformationcenter_11.6/access/informationcenter/admin/configuration/activedirectory.md)
+  [Active Directory Page](/docs/accessinformationcenter/11.6/access/informationcenter/admin/configuration/activedirectory.md)
   topic for additional information.
 
 Commit Active Directory Changes
@@ -57,7 +57,7 @@ groups to be managed:
 - Allow Write Members
 
 See the
-[Commit Active Directory Changes](/versioned_docs/accessinformationcenter_11.6/access/informationcenter/admin/additionalconfig/commitchanges.md)
+[Commit Active Directory Changes](/docs/accessinformationcenter/11.6/access/informationcenter/admin/additionalconfig/commitchanges.md)
 topic for additional information and best practices.
 
 ### Remote AIC Console Sever Requirements
@@ -93,7 +93,7 @@ Latest Version Compatibility
 | Netwrix Access Information Center | Ver. v11.6\*    |
 
 See the
-[Upgrade Procedure](/versioned_docs/accessinformationcenter_11.6/access/informationcenter/installation/upgrade.md)
+[Upgrade Procedure](/docs/accessinformationcenter/11.6/access/informationcenter/installation/upgrade.md)
 topic for additional information.
 
 ## Supported Browsers

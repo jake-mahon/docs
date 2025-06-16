@@ -56,7 +56,7 @@ Center:
 14. On the **Basic SAML Configuration** card, click **Edit**
 15. On the **Basic SAML Configuration** pane, provide the Entity ID and Consumer URL that you copied
     earlier. See the
-    [Generate URLs](/versioned_docs/groupid_11.0/groupid/authenticate/asserviceprovider/entrasso/generateurls.md)
+    [Generate URLs](/docs/groupid/11.0/groupid/authenticate/asserviceprovider/entrasso/generateurls.md)
     topic.  
     After adding the information, click **Save**.
 16. Back on the **SAML-based sign-on** page, the **Attributes & Claims** card displays the

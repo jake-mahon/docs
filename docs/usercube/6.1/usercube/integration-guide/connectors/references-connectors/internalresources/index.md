@@ -8,9 +8,9 @@ This page is about:
 - Ticket/Usercube And Create/Update/Delete resources
 
 See the
-[ Manual Ticket ](/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/references-packages/manual-ticket/index.md)
+[ Manual Ticket ](/docs/usercube/6.1/usercube/integration-guide/connectors/references-packages/manual-ticket/index.md)
 and
-[ Manual Ticket and CUD Resources ](/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/references-packages/manual-ticket-and-cud-resources/index.md)
+[ Manual Ticket and CUD Resources ](/docs/usercube/6.1/usercube/integration-guide/connectors/references-packages/manual-ticket-and-cud-resources/index.md)
 topics for additional information.
 
 ![Package: Ticket/Usercube](/img/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/references-connectors/internalresources/packages_usercubeticket_v603.webp)
@@ -18,5 +18,5 @@ topics for additional information.
 ![Package: Ticket/Usercube And Create/Update/Delete resources](/img/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/references-connectors/internalresources/packages_usercubeticketcud_v603.webp)
 
 See the
-[ Provision Manually ](/versioned_docs/usercube_6.1/usercube/user-guide/administrate/provisioning/manual-provisioning/index.md)
+[ Provision Manually ](/docs/usercube/6.1/usercube/user-guide/administrate/provisioning/manual-provisioning/index.md)
 topic for additional information.

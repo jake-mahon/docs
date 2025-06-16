@@ -68,12 +68,12 @@ Using GroupID, you can manage entitlements in the following ways:
 When you add the first server or site for entitlement management, the following three schedules are
 automatically created in the identity store:
 
-- [GroupID Entitlement Schedule](/versioned_docs/groupid_11.0/groupid/admincenter/schedule/entitlement.md) -
+- [GroupID Entitlement Schedule](/docs/groupid/11.0/groupid/admincenter/schedule/entitlement.md) -
   replicates object permissions on file servers and SharePoint sites for an Active Directory and
   Microsoft Entra ID identity store respectively. It performs a complete replication.
-- [Entitlement Scope Schedule](/versioned_docs/groupid_11.0/groupid/admincenter/schedule/entitlementscope.md) -
+- [Entitlement Scope Schedule](/docs/groupid/11.0/groupid/admincenter/schedule/entitlementscope.md) -
   replicates changes made to object permissions on file servers and SharePoint sites using GroupID.
-- [Entitlement Temporary Permissions Schedule](/versioned_docs/groupid_11.0/groupid/admincenter/schedule/entitlementtemporarypermissions.md) -
+- [Entitlement Temporary Permissions Schedule](/docs/groupid/11.0/groupid/admincenter/schedule/entitlementtemporarypermissions.md) -
   updates the temporary permissions for objects on file servers and SharePoint sites.
 
 ## What is Replication?
@@ -99,10 +99,10 @@ navigate file servers and SharePoint sites, grant permissions to objects on shar
 permissions, and more.
 
 Entitlement-related permissions for a security role are discussed in the
-[Entitlement](/versioned_docs/groupid_11.0/groupid/admincenter/securityrole/permissions.md#entitlement)
+[Entitlement](/docs/groupid/11.0/groupid/admincenter/securityrole/permissions.md#entitlement)
 topic.
 
 See Also
 
-- [Manage File Servers](/versioned_docs/groupid_11.0/groupid/admincenter/entitlement/ad/manage.md)
-- [Manage SharePoint Sites](/versioned_docs/groupid_11.0/groupid/admincenter/entitlement/entraid/manage.md)
+- [Manage File Servers](/docs/groupid/11.0/groupid/admincenter/entitlement/ad/manage.md)
+- [Manage SharePoint Sites](/docs/groupid/11.0/groupid/admincenter/entitlement/entraid/manage.md)

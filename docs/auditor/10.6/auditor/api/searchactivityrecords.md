@@ -3,25 +3,25 @@
 The search functionality in the Netwrix Auditor Integration API reproduces interactive search
 available in the Netwrix Auditor client. See the
 [Netwrix Auditor Intelligence Guide](https://www.netwrix.com/download/documents/Netwrix_Auditor_User_Guide.pdf)
-and [View and Search Collected Data](/versioned_docs/auditor_10.6/auditor/admin/search/overview.md)
+and [View and Search Collected Data](/docs/auditor/10.6/auditor/admin/search/overview.md)
 topic for detailed instruction on how to search and filter audit data.
 
 As the interactive search in the Netwrix Auditor client, this REST API endpoint allows you to
 retrieve Activity Records matching a certain criteria. You can create your own set of filters in the
 Search parameters file. See the
-[Search Parameters](/versioned_docs/auditor_10.6/auditor/api/postdata/searchparameters.md) topic for
+[Search Parameters](/docs/auditor/10.6/auditor/api/postdata/searchparameters.md) topic for
 more information. Activity Records are retrieved according to the account's delegated scope.
 
 ## Endpoint
 
 To retrieve Activity Records matching a certain criteria, send a POST request containing search
 parameters (also may include a Continuation mark). See the
-[Search Parameters](/versioned_docs/auditor_10.6/auditor/api/postdata/searchparameters.md) topic for
+[Search Parameters](/docs/auditor/10.6/auditor/api/postdata/searchparameters.md) topic for
 more information.
 
 | Method | Endpoint                                                                                  | POST Data                                                                                  |
 | ------ | ----------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------ |
-| `POST` | `https://{host:port}/netwrix/api/v1/activity_records/search{?format=json}{&count=Number}` | [Search Parameters](/versioned_docs/auditor_10.6/auditor/api/postdata/searchparameters.md) |
+| `POST` | `https://{host:port}/netwrix/api/v1/activity_records/search{?format=json}{&count=Number}` | [Search Parameters](/docs/auditor/10.6/auditor/api/postdata/searchparameters.md) |
 
 ## Request Parameters
 
@@ -46,7 +46,7 @@ with ?, others are joined with &, no spaces required (e.g., `?format=json&count=
 Follow the steps- to retrieve all Activity Records matching search criteria.
 
 **Step 1 –** Send a POST request containing search parameters. See the
-[Search Parameters](/versioned_docs/auditor_10.6/auditor/api/postdata/searchparameters.md) topic for
+[Search Parameters](/docs/auditor/10.6/auditor/api/postdata/searchparameters.md) topic for
 more information.
 
 As an example, this request retrieves Activity Records where administrator added new objects to the
@@ -72,7 +72,7 @@ mark.
 
 **Step 3 –** Continue retrieving Activity Records. Send a POST request containing your search
 parameters and this Continuation mark to the same endpoint.
-[Continuation Mark](/versioned_docs/auditor_10.6/auditor/api/postdata/continuationmark.md)
+[Continuation Mark](/docs/auditor/10.6/auditor/api/postdata/continuationmark.md)
 
 |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
 | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |

@@ -51,7 +51,7 @@ reset\aprlog.bak"
 net start "ANIXIS Password Reset"
 
 **NOTE:** Change the paths above if the database files are in a different folder. See the
-[Database](/versioned_docs/passwordreset_3.23/password_reset/administration/configuring_password_reset.md#database)
+[Database](/docs/passwordreset/3.23/password_reset/administration/configuring_password_reset.md#database)
 topic for more information.
 
 **Restoring database from backup**

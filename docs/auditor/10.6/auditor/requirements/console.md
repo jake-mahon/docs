@@ -28,7 +28,7 @@ virtualization platform, in particular:
 - Nutanix AHV
 
 Auditor supports only Windows OS versions listed in the
-[Software Requirements](/versioned_docs/auditor_10.6/auditor/requirements/software.md) topic.
+[Software Requirements](/docs/auditor/10.6/auditor/requirements/software.md) topic.
 
 Netwrix Auditor and SQL Server instance will be deployed on different servers.
 
@@ -42,7 +42,7 @@ Requirements below apply to Netwrix Auditor server.
 | Others             | —                                      | —                                        | Network capacity 1 Gbit                   | Network capacity 1 Gbit                                          |
 
 \* — ARs stands for Activity Records, that is, Netwrix-compatible format for the audit data. See
-[Activity Records](/versioned_docs/auditor_10.6/auditor/api/postdata/activityrecords.md)[Activity Records](/versioned_docs/auditor_10.6/auditor/api/postdata/activityrecords.md)
+[Activity Records](/docs/auditor/10.6/auditor/api/postdata/activityrecords.md)[Activity Records](/docs/auditor/10.6/auditor/api/postdata/activityrecords.md)
 for more details.
 
 \*\* — By default, the Long-Term Archive and working folder are stored on a system drive. To reduce
@@ -50,8 +50,8 @@ the impact on the system drive in large and xlarge environments, Netwrix recomme
 Long-Term Archive and working folder on a data drive and plan for their capacity accordingly. For
 details, see:
 
-- [File-Based Repository for Long-Term Archive](/versioned_docs/auditor_10.6/auditor/requirements/longtermarchive.md)
-- [Working Folder](/versioned_docs/auditor_10.6/auditor/requirements/workingfolder.md)
+- [File-Based Repository for Long-Term Archive](/docs/auditor/10.6/auditor/requirements/longtermarchive.md)
+- [Working Folder](/docs/auditor/10.6/auditor/requirements/workingfolder.md)
 
 Netwrix Auditor informs you if you are running out of space on a system disk where the Long-Term
 Archive is stored by default. You will see related events in the Health log once the free disk space
@@ -64,7 +64,7 @@ following Microsoft article:
 
 **NOTE:** In larger environments, SQL Server may become underprovisioned on resources. For
 troubleshooting such cases, refer to the
-[Sample Deployment Scenarios](/versioned_docs/auditor_10.6/auditor/requirements/deploymentscenarios.md)
+[Sample Deployment Scenarios](/docs/auditor/10.6/auditor/requirements/deploymentscenarios.md)
 topic.
 
 Additional Sizing Information for File Data Source

@@ -1,21 +1,21 @@
 # Connect to a Managed System
 
 How to create a new
-[connector](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/connectors/connector/index.md)
+[connector](/docs/usercube/6.1/usercube/integration-guide/toolkit/xml-configuration/connectors/connector/index.md)
 using the provided SaaS
-[agent](/versioned_docs/usercube_6.1/usercube/introduction-guide/architecture/index.md).
+[agent](/docs/usercube/6.1/usercube/introduction-guide/architecture/index.md).
 
 Usercube provides demo applications
-([Banking](/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/how-tos/demoapp-banking/index.md)
+([Banking](/docs/usercube/6.1/usercube/integration-guide/connectors/how-tos/demoapp-banking/index.md)
 and
-[HR](/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/how-tos/demoapp-hr/index.md))
+[HR](/docs/usercube/6.1/usercube/integration-guide/connectors/how-tos/demoapp-hr/index.md))
 to help set up connectors, test them, and understand Usercube's abilities towards external systems.
 
 ## Overview
 
 Connectors are the mechanisms that enable Usercube to read and write data to/from your
 organization's systems. The
-[feedback](/versioned_docs/usercube_6.1/usercube/introduction-guide/more-info/index.md) mechanism
+[feedback](/docs/usercube/6.1/usercube/introduction-guide/more-info/index.md) mechanism
 ensures Usercube's reliability.
 
 In this documentation, we talk about managed systems (sometimes called external systems) to refer to
@@ -44,9 +44,9 @@ will feed data into connected managed systems.
 
 In this case, data flows between Usercube and the managed system are also called:
 
-- [synchronization](/versioned_docs/usercube_6.1/usercube/integration-guide/synchronization/index.md)
+- [synchronization](/docs/usercube/6.1/usercube/integration-guide/synchronization/index.md)
   in the "managed system-to-Usercube" direction;
-- [provisioning](/versioned_docs/usercube_6.1/usercube/integration-guide/provisioning/index.md) in
+- [provisioning](/docs/usercube/6.1/usercube/integration-guide/provisioning/index.md) in
   the "Usercube-to-managed system" direction.
 
 For a connector's synchronization, Usercube provides tools to perform a basic extraction of the
@@ -58,14 +58,14 @@ automatically write these orders to the managed system or to create a ticket for
 provisioning.
 
 > For example, we can use the data from Usercube's
-> [identity repository](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/initial-identities-loading/index.md)
+> [identity repository](/docs/usercube/6.1/usercube/user-guide/set-up/initial-identities-loading/index.md)
 > to fill in later the AD's fields, such as users' display names based on their first names and last
 > names from the repository.
 
 Usercube can also benefit from inbound connectors, that will write data to Usercube's central
 identity repository. While both inbound and outbound connectors allow data to flow both ways, they
 do not work in the same manner.
-[See more details about this advanced topic](/versioned_docs/usercube_6.1/usercube/user-guide/optimize/hr-connector-creation/index.md).
+[See more details about this advanced topic](/docs/usercube/6.1/usercube/user-guide/optimize/hr-connector-creation/index.md).
 
 ### Technical principles
 
@@ -74,20 +74,20 @@ Usercube's connectors all operate on the same basic principles. Technically spea
 > For example, let's say that we want to connect Usercube to our Active Directory, or AD.
 
 - a
-  [connector](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/connectors/connector/index.md)
+  [connector](/docs/usercube/6.1/usercube/integration-guide/toolkit/xml-configuration/connectors/connector/index.md)
   must be created, first as a named container which will include the connections and entity types
   related to one managed system;
 
     > We create a connector named `AD` (so far, an empty shell).
 
 - a connector is linked to an
-  [agent](/versioned_docs/usercube_6.1/usercube/introduction-guide/architecture/index.md) which acts
+  [agent](/docs/usercube/6.1/usercube/introduction-guide/architecture/index.md) which acts
   as the go-between for Usercube's server and the managed system;
 
     > Our `AD` connector uses the provided SaaS agent.
 
 - a
-  [connection](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/connectors/connection/index.md)
+  [connection](/docs/usercube/6.1/usercube/integration-guide/toolkit/xml-configuration/connectors/connection/index.md)
   describes the technology used that enables data to flow back and forth between Usercube and the
   managed system;
 
@@ -100,7 +100,7 @@ Usercube's connectors all operate on the same basic principles. Technically spea
     SQL, etc.).
 
 - the shape of the extracted managed system's data is modeled by
-  [entity types](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/metadata/entitytype/index.md)
+  [entity types](/docs/usercube/6.1/usercube/integration-guide/toolkit/xml-configuration/metadata/entitytype/index.md)
   (we will use the term resource to refer to an entity type that has been instantiated);
 
     > We create a single entity type `AD - Entry` which contains all the attributes that will
@@ -109,9 +109,9 @@ Usercube's connectors all operate on the same basic principles. Technically spea
     > parent dn, etc.
 
 - the intent of resources within the managed system is made clear by categorizing resources into
-  [resource types](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/provisioning/resourcetype/index.md).
+  [resource types](/docs/usercube/6.1/usercube/integration-guide/toolkit/xml-configuration/provisioning/resourcetype/index.md).
   More details are given when tackling
-  [categorization](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/categorization/index.md).
+  [categorization](/docs/usercube/6.1/usercube/user-guide/set-up/categorization/index.md).
 
     > We categorize AD resources into distinct resource types: `AD User (nominative)` for basic
     > accounts, which we want Usercube to provision automatically; `AD User (administration)` for
@@ -126,7 +126,7 @@ type.
 
 **Local vs. Saas agents:** To simplify things, Usercube has made it possible to start configuring
 connectors without installing a local
-[agent](/versioned_docs/usercube_6.1/usercube/introduction-guide/architecture/index.md) in your
+[agent](/docs/usercube/6.1/usercube/introduction-guide/architecture/index.md) in your
 organization's network. Instead, you can use the agent integrated with Usercube's server in the
 Cloud (SaaS agent).
 
@@ -137,20 +137,20 @@ functional and technical details of the application.
 
 | Input                                                                                                                                                                                                                                                                                                                                                                                                                           | Output                     |
 | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------- |
-| Administrator account for the [development environment](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/development-environment-installation/index.md) (required) [Identity repository](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/initial-identities-loading/index.md) (required) [User profiles](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/user-profile-configuration/index.md) (required) | Connector Connected System |
+| Administrator account for the [development environment](/docs/usercube/6.1/usercube/user-guide/set-up/development-environment-installation/index.md) (required) [Identity repository](/docs/usercube/6.1/usercube/user-guide/set-up/initial-identities-loading/index.md) (required) [User profiles](/docs/usercube/6.1/usercube/user-guide/set-up/user-profile-configuration/index.md) (required) | Connector Connected System |
 
 ## Create a Target Connector
 
 For one managed system, create a connector by proceeding as follows:
 
 1. Outside Usercube,
-   [model](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/connect-system/connector-modeling/index.md)
+   [model](/docs/usercube/6.1/usercube/user-guide/set-up/connect-system/connector-modeling/index.md)
    the system's data structure.
-2. [Create a connector](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/connect-system/connector-declaration/index.md)
+2. [Create a connector](/docs/usercube/6.1/usercube/user-guide/set-up/connect-system/connector-declaration/index.md)
    for said managed system.
 3. Enable the technical transfer of data by
-   [creating and configuring connections](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/connect-system/connection-creation/index.md).
-4. [Set up entity types](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/connect-system/entity-type-creation/index.md)
+   [creating and configuring connections](/docs/usercube/6.1/usercube/user-guide/set-up/connect-system/connection-creation/index.md).
+4. [Set up entity types](/docs/usercube/6.1/usercube/user-guide/set-up/connect-system/entity-type-creation/index.md)
    to represent the data model decided upon in step 1.
 
 **Connector modification:** The process for modifying a connector is not so different from the
@@ -165,4 +165,4 @@ You can activate the connector again at any time using the same button.
 ## Next Steps
 
 Once the connector has been created, you can start
-[configuring synchronization](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/synchronization/index.md).
+[configuring synchronization](/docs/usercube/6.1/usercube/user-guide/set-up/synchronization/index.md).

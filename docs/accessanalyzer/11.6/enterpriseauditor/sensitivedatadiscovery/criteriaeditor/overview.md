@@ -5,7 +5,7 @@ The Sensitive Data Criteria Editor is accessed from the Criteria Tab in the
 criteria and to customize or create user-defined criteria. Sensitive Data Criteria can be configured
 in individual data collectors that use the Sensitive Data Discovery Add-On or can be configured to
 inherit Sensitive Data Criteria settings from the **Settings** > **Sensitive Data** node. See the
-[Sensitive Data](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/settings/sensitivedata/overview.md)
+[Sensitive Data](/docs/accessanalyzer/11.6/enterpriseauditor/admin/settings/sensitivedata/overview.md)
 topic for additional information.
 
 ![Sensitive Data Criteria Editor](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/sensitivedatadiscovery/criteriaeditor/sensitivdatacriteriaeditor.webp)
@@ -17,7 +17,7 @@ The Sensitive Data Criteria Editor contains two sections:
   information.
 - Configuration pane – Displays configured settings for the currently selected criteria in the
   navigation pane. See the
-  [Configuration Pane](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/sensitivedatadiscovery/criteriaeditor/configuration.md)
+  [Configuration Pane](/docs/accessanalyzer/11.6/enterpriseauditor/sensitivedatadiscovery/criteriaeditor/configuration.md)
   topic for additional information.
 
 ## Navigation Pane
@@ -33,7 +33,7 @@ The options in the Navigation Pane are:
 - User Criteria – Lists all user-created criteria
 - System Criteria – Lists all pre-configured criteria. For a list of pre-configured System Criteria,
   see the
-  [Sensitive Data System Criteria](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/sensitivedatadiscovery/systemcriteria.md)
+  [Sensitive Data System Criteria](/docs/accessanalyzer/11.6/enterpriseauditor/sensitivedatadiscovery/systemcriteria.md)
   topic for additional information.
 
     - System Criteria cannot be modified or removed. To use existing System Criteria configurations

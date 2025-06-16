@@ -7,9 +7,9 @@ deprovision identified accounts.
 
 The jobs in the 3.Computers Job Group are:
 
-- [AD_DeprovisionComputers Job](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/activedirectory/cleanup/computers/ad_deprovisioncomputers.md)
+- [AD_DeprovisionComputers Job](/docs/accessanalyzer/11.6/enterpriseauditor/solutions/activedirectory/cleanup/computers/ad_deprovisioncomputers.md)
   – Provides a simple, automated workflow to deprovision stale and unused user accounts
-- [AD_DeprovisionComputers_Status Job](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/activedirectory/cleanup/computers/ad_deprovisioncomputers_status.md)
+- [AD_DeprovisionComputers_Status Job](/docs/accessanalyzer/11.6/enterpriseauditor/solutions/activedirectory/cleanup/computers/ad_deprovisioncomputers_status.md)
   – Tracks all actions taken by the included deprovisioning workflow
 
 Workflow
@@ -19,7 +19,7 @@ Workflow
 - The .Active Directory Inventory Job Group needs to be successfully run
 - For the AD_DeprovisionComputers Job, the target OU needs to be manually set in the Move Computers
   Action Task prior to executing the actions. See the
-  [Action Tasks for the AD_DeprovisionComputers Job](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/activedirectory/cleanup/computers/ad_deprovisioncomputers.md#action-tasks-for-the-ad_deprovisioncomputers-job)
+  [Action Tasks for the AD_DeprovisionComputers Job](/docs/accessanalyzer/11.6/enterpriseauditor/solutions/activedirectory/cleanup/computers/ad_deprovisioncomputers.md#action-tasks-for-the-ad_deprovisioncomputers-job)
   topic for additional information.
 - The AD_DeprovisionComputers Job needs to be run prior to running the
   AD_DeprovisionComputers_Status Job

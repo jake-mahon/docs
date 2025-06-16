@@ -6,7 +6,7 @@ these profiles automatically.
 ## Create a Profile
 
 Here is the xml configuration to create a profile in Usercube. See the
-[ Profile ](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/access-control/profile/index.md)
+[ Profile ](/docs/usercube/6.1/usercube/integration-guide/toolkit/xml-configuration/access-control/profile/index.md)
 topic for additional information.
 
 Code attributes enclosed with `<>` need to be replaced with a custom value before entering the
@@ -20,9 +20,9 @@ script in the command line.
 
 To automatically assign profiles it is necessary to manipulate the ProfileRuleContext and
 ProfileRule. See the
-[AccessControlRule](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/access-control/accesscontrolrule/index.md)
+[AccessControlRule](/docs/usercube/6.1/usercube/integration-guide/toolkit/xml-configuration/access-control/accesscontrolrule/index.md)
 and
-[ProfileRuleContext](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/access-control/profilerulecontext/index.md)
+[ProfileRuleContext](/docs/usercube/6.1/usercube/integration-guide/toolkit/xml-configuration/access-control/profilerulecontext/index.md)
 topics for additional information.
 
 Code attributes enclosed with `<>` need to be replaced with a custom value before entering the
@@ -36,7 +36,7 @@ script in the command line.
 
 The Usercube-Set-InternalUserProfiles task is mandatory to automatically assign the profile. The
 task can be selected from the Job provisioning list. See the
-[ SetInternalUserProfilesTask ](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/jobs/tasks/server/setinternaluserprofilestask/index.md)
+[ SetInternalUserProfilesTask ](/docs/usercube/6.1/usercube/integration-guide/toolkit/xml-configuration/jobs/tasks/server/setinternaluserprofilestask/index.md)
 topic for additional information.
 
 Code attributes enclosed with `<>` need to be replaced with a custom value before entering the

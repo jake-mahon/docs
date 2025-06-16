@@ -12,7 +12,7 @@ Use this page to specify basic information about the group.
    name for the group.
 
     NOTE: The prefix box is displayed if the administrator has defined the prefixes. See the
-    [Set Group Name Prefixes](/versioned_docs/groupid_11.0/groupid/admincenter/identitystore/configure/directoryservice/prefixes.md)
+    [Set Group Name Prefixes](/docs/groupid/11.0/groupid/admincenter/identitystore/configure/directoryservice/prefixes.md)
     topic.  
      These prefixes, when appended to group names, help standardize the group naming convention
     across the enterprise.
@@ -34,4 +34,4 @@ Use this page to specify basic information about the group.
 
 **See Also**
 
-- [Create Microsoft Entra ID Groups](/versioned_docs/groupid_11.0/groupid/portal/group/create/azure/group.md)
+- [Create Microsoft Entra ID Groups](/docs/groupid/11.0/groupid/portal/group/create/azure/group.md)

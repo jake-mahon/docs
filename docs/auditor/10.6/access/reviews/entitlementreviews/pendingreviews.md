@@ -14,7 +14,7 @@ Console.
 _Remember,_ your company domain credentials are used to log in.
 
 The My Reviews interface has two pages: Pending Reviews and Review History. See the
-[Review History Page](/versioned_docs/auditor_10.6/access/reviews/entitlementreviews/reviewhistory.md)
+[Review History Page](/docs/auditor/10.6/access/reviews/entitlementreviews/reviewhistory.md)
 topic for additional information.
 
 ## Pending Reviews Page
@@ -37,7 +37,7 @@ The information displayed in the table includes:
 - Last Reviewed — Date timestamp when the last review took place for the resource.
 
 The table data grid functions the same way as other table grids. See the
-[Data Grid Features](/versioned_docs/auditor_10.6/access/general/datagrid.md) topic for additional
+[Data Grid Features](/docs/auditor/10.6/access/general/datagrid.md) topic for additional
 information.
 
 Performing a review means you are evaluating the resources. You can leave the resource unchanged or
@@ -81,5 +81,5 @@ features:
 The content within the table varies, and additional options may appear depending on the type of
 review being conducted. See the following sections for step by step instructions:
 
-- [Perform an Access Review](/versioned_docs/auditor_10.6/access/reviews/entitlementreviews/review/access.md)
-- [Perform a Membership Review](/versioned_docs/auditor_10.6/access/reviews/entitlementreviews/review/membership.md)
+- [Perform an Access Review](/docs/auditor/10.6/access/reviews/entitlementreviews/review/access.md)
+- [Perform a Membership Review](/docs/auditor/10.6/access/reviews/entitlementreviews/review/membership.md)

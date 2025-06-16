@@ -87,11 +87,11 @@ To sign in via QR code, users must first install the GroupID mobile app on their
 ### Sign in with QR Code
 
 To sign in using the QR code, see the
-[Access Admin Center](/versioned_docs/groupid_11.0/groupid/admincenter/signin.md) topic.
+[Access Admin Center](/docs/groupid/11.0/groupid/admincenter/signin.md) topic.
 
 **See Also**
 
-- [Authentication Policy](/versioned_docs/groupid_11.0/groupid/admincenter/identitystore/configure/authpolicy.md)
-- [Configure Second Factor Authentication](/versioned_docs/groupid_11.0/groupid/admincenter/setupauth/sfa.md)
-- [Configure Multifactor Authentication](/versioned_docs/groupid_11.0/groupid/admincenter/setupauth/mfa.md)
-- [Set Up Authentication Types](/versioned_docs/groupid_11.0/groupid/admincenter/setupauth/overview.md)
+- [Authentication Policy](/docs/groupid/11.0/groupid/admincenter/identitystore/configure/authpolicy.md)
+- [Configure Second Factor Authentication](/docs/groupid/11.0/groupid/admincenter/setupauth/sfa.md)
+- [Configure Multifactor Authentication](/docs/groupid/11.0/groupid/admincenter/setupauth/mfa.md)
+- [Set Up Authentication Types](/docs/groupid/11.0/groupid/admincenter/setupauth/overview.md)

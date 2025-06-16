@@ -2,7 +2,7 @@
 
 The Enterprise Auditor Console can only run one task at a time. However, with the Schedule Service
 Account, the Enterprise Auditor application can run multiple tasks simultaneously. See the
-[Schedule](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/settings/schedule.md)
+[Schedule](/docs/accessanalyzer/11.6/enterpriseauditor/admin/settings/schedule.md)
 topic for information on configuring the Schedule Service Account.
 
 The following tasks can be scheduled:
@@ -10,11 +10,11 @@ The following tasks can be scheduled:
 - Job or Job Group – Schedule jobs to run at the job or job group level. See the
   [Schedule Jobs](#schedule-jobs) topic for additional information.
 - Host Discovery Query – Schedule Host Discovery queries from the Host Discovery node. See the
-  [Host Discovery Queries Activities Pane](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/hostdiscovery/activities.md)
+  [Host Discovery Queries Activities Pane](/docs/accessanalyzer/11.6/enterpriseauditor/admin/hostdiscovery/activities.md)
   topic for additional information.
 - Host Inventory Query – Schedule Host Inventory queries from within the Host Management node. See
   the
-  [Schedule (Activities Pane Option)](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/hostmanagement/actions/schedule.md)
+  [Schedule (Activities Pane Option)](/docs/accessanalyzer/11.6/enterpriseauditor/admin/hostmanagement/actions/schedule.md)
   topic for additional information.
 
 ## Schedule Jobs
@@ -37,5 +37,5 @@ The Schedule wizard has five pages with options for setting up the schedule task
 - Options
 
 See the
-[Schedule Wizard](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/schedule/wizard.md)
+[Schedule Wizard](/docs/accessanalyzer/11.6/enterpriseauditor/admin/schedule/wizard.md)
 topic for additional information.

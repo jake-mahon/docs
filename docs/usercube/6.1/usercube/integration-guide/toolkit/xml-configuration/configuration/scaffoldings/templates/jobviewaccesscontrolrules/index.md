@@ -5,14 +5,14 @@ Scaffolding performs a set of scaffolding rights for Jobs and Tasks.
 
 The scaffolding generates the following scaffoldings:
 
-- [GetJobLogAdministrationAccessControlRules](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/jobs/getjoblogadministrationaccesscontrolrules/index.md):
+- [GetJobLogAdministrationAccessControlRules](/docs/usercube/6.1/usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/jobs/getjoblogadministrationaccesscontrolrules/index.md):
   Generates the permissions to read task and job instances logs in UI for a given profile.
-- [JobAdministrationAccessControlRules](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/jobs/jobadministrationaccesscontrolrules/index.md):
+- [JobAdministrationAccessControlRules](/docs/usercube/6.1/usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/jobs/jobadministrationaccesscontrolrules/index.md):
   Scaffolding to access the job administration page.
-- [PendingAssignedResourceTypesAccessControlRules](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/jobs/pendingassignedresourcetypesaccesscontrolrules/index.md):
+- [PendingAssignedResourceTypesAccessControlRules](/docs/usercube/6.1/usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/jobs/pendingassignedresourcetypesaccesscontrolrules/index.md):
   Generates the access control rules which give to a profile the permissions to call the API Pending
   AssignedResourceTypes.
-- [ResourceChangesViewAccessControlRules](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/jobs/resourcechangesviewaccesscontrolrules/index.md):
+- [ResourceChangesViewAccessControlRules](/docs/usercube/6.1/usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/jobs/resourcechangesviewaccesscontrolrules/index.md):
   Generates the access control rules which gives to a profile the permissions to call the API
   ResourceChange, ResourceFileChange and ResourceLinkChange.
 

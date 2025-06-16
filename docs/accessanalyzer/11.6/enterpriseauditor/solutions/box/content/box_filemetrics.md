@@ -48,5 +48,5 @@ The default values for parameters that can be customized are:
 | File Metrics Details | @STALE_THRESHOLD            | 30            | Consider content stale after 30 days |
 
 See the
-[Configure the Customizable Parameters in an Analysis Task](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/jobs/job/configure/analysiscustomizableparameters.md)
+[Configure the Customizable Parameters in an Analysis Task](/docs/accessanalyzer/11.6/enterpriseauditor/admin/jobs/job/configure/analysiscustomizableparameters.md)
 topic for instructions on how to modify parameters.

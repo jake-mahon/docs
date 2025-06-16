@@ -12,10 +12,10 @@ The required credentials for the Local Windows Account are:
 
     - Application – Uses the configured Profile Security setting as selected at the **Settings** >
       **Application** node. See the
-      [Application](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/settings/application/overview.md)
+      [Application](/docs/accessanalyzer/11.6/enterpriseauditor/admin/settings/application/overview.md)
       topic for additional information.
     - CyberArk – Uses the CyberArk Enterprise Password Vault. See the
-      [CyberArk Integration](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/settings/connection/cyberarkintegration.md)
+      [CyberArk Integration](/docs/accessanalyzer/11.6/enterpriseauditor/admin/settings/connection/cyberarkintegration.md)
       topic for additional information. The password fields do not apply for CyberArk password
       storage.
 

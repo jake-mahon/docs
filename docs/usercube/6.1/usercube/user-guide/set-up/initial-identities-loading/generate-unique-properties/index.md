@@ -16,7 +16,7 @@ For each unique property, Usercube provides a set of generation rules. You are f
 most adequate method regarding your actual approach.
 
 An identifier/email/login suffix can be specified later according to users' contract types, when
-[loading identities](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/initial-identities-loading/load-identities/index.md)
+[loading identities](/docs/usercube/6.1/usercube/user-guide/set-up/initial-identities-loading/load-identities/index.md)
 through an Excel template.
 
 For example, contractors can get `-ext` added automatically to their email addresses.  
@@ -31,7 +31,7 @@ organization to compute these unique properties.
 
 | Input                                                                                                                                 | Output                                 |
 | ------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------- |
-| [Usercube's server](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/development-environment-installation/index.md) (required) | Generation rules for unique properties |
+| [Usercube's server](/docs/usercube/6.1/usercube/user-guide/set-up/development-environment-installation/index.md) (required) | Generation rules for unique properties |
 
 ## Configure Unique Property Generation
 

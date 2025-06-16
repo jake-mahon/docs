@@ -8,7 +8,7 @@ Starting with version 9.96, you can use group Managed Service Accounts (gMSA) as
 accounts.
 
 See the
-[Use Group Managed Service Account (gMSA)](/versioned_docs/auditor_10.6/auditor/requirements/gmsa.md)
+[Use Group Managed Service Account (gMSA)](/docs/auditor/10.6/auditor/requirements/gmsa.md)
 topic and the following Microsoft article:
 [Group Managed Service Accounts Overview](https://docs.microsoft.com/en-us/windows-server/security/group-managed-service-accounts/group-managed-service-accounts-overview)
 for additional information about gMSA.
@@ -16,7 +16,7 @@ for additional information about gMSA.
 ## Account Requirements
 
 **NOTE:** These group Managed Service Accounts should also meet the related requirements. See the
-[Use Group Managed Service Account (gMSA)](/versioned_docs/auditor_10.6/auditor/requirements/gmsa.md)
+[Use Group Managed Service Account (gMSA)](/docs/auditor/10.6/auditor/requirements/gmsa.md)
 topic and the following Microsoft article:
 [Group Managed Service Accounts Overview](https://docs.microsoft.com/en-us/windows-server/security/group-managed-service-accounts/group-managed-service-accounts-overview)
 for additional information about gMSA.
@@ -37,11 +37,11 @@ The account used for data collection must meet the following requirements:
 
     - **Manage auditing and security log** policy must be defined for this account.  
       See the
-      [Permissions for Active Directory Auditing](/versioned_docs/auditor_10.6/auditor/configuration/activedirectory/permissions.md)
+      [Permissions for Active Directory Auditing](/docs/auditor/10.6/auditor/configuration/activedirectory/permissions.md)
       topic for additional information.
     - If you plan to process Active Directory **Deleted Objects** container, **Read** permission on
       this container is required. See the
-      [Permissions for Active Directory Auditing](/versioned_docs/auditor_10.6/auditor/configuration/activedirectory/permissions.md)
+      [Permissions for Active Directory Auditing](/docs/auditor/10.6/auditor/configuration/activedirectory/permissions.md)
       topic for additional information.
 
 ## Additional Configuration for Domain Controller's Event Logs Auto-backup
@@ -64,7 +64,7 @@ Domain Admins group.
 This permission should be assigned on each domain controller in the audited domain, so if your
 domain contains multiple domain controllers, it is recommended to assign permissions through Group
 Policy, or automatically using
-[Audit Configuration Assistant](/versioned_docs/auditor_10.6/auditor/tools/auditconfigurationassistant.md).
+[Audit Configuration Assistant](/docs/auditor/10.6/auditor/tools/auditconfigurationassistant.md).
 
 To assign permissions manually, use the Registry Editor snap-in or the Group Policy Management
 console.

@@ -27,7 +27,7 @@ The tab contains the following settings:
   delimiter, NUL (ASCII 0) delimiter, and Octet Count (RFC 5425).
 - Syslog message template – Template that controls what data is sent in the event stream. The
   ellipsis (…) button opens the Syslog Message Template window. See the
-  [Message Template Window](/versioned_docs/activitymonitor_7.1/activitymonitor/admin/outputs/window/messagetemplate.md)
+  [Message Template Window](/docs/activitymonitor/7.1/activitymonitor/admin/outputs/window/messagetemplate.md)
   topic for additional information.
 - Enable periodic AD Status Check event reporting – Indicates periodic AD Status Check event
   reporting is enabled, which means the agent will send out status messages every five minutes to
@@ -68,7 +68,7 @@ The tab contains the following settings:
   delimiter, NUL (ASCII 0) delimiter, and Octet Count (RFC 5425).
 - Syslog message template – Template that controls what data is sent in the event stream. The
   ellipsis (…) button opens the Syslog Message Template window. See the
-  [Message Template Window](/versioned_docs/activitymonitor_7.1/activitymonitor/admin/outputs/window/messagetemplate.md)
+  [Message Template Window](/docs/activitymonitor/7.1/activitymonitor/admin/outputs/window/messagetemplate.md)
   topic for additional information.
 - Add C:\ to the beginning of the reported file paths – Indicates a Windows-style drive path (C:\)
   is added to the beginning of the NAS file paths in the activity data stream, e.g.
@@ -105,7 +105,7 @@ The tab contains the following settings:
   delimiter, NUL (ASCII 0) delimiter, and Octet Count (RFC 5425).
 - Syslog message template – Template that controls what data is sent in the event stream. The
   ellipsis (…) button opens the Syslog Message Template window. See the
-  [Message Template Window](/versioned_docs/activitymonitor_7.1/activitymonitor/admin/outputs/window/messagetemplate.md)
+  [Message Template Window](/docs/activitymonitor/7.1/activitymonitor/admin/outputs/window/messagetemplate.md)
   topic for additional information.
 
 The Test button sends a test message to the Syslog server to check the connection. A green check
@@ -143,7 +143,7 @@ The tab contains the following settings:
   delimiter, NUL (ASCII 0) delimiter, and Octet Count (RFC 5425).
 - Syslog message template – Template that controls what data is sent in the event stream. The
   ellipsis (…) button opens the Syslog Message Template window. See the
-  [Message Template Window](/versioned_docs/activitymonitor_7.1/activitymonitor/admin/outputs/window/messagetemplate.md)
+  [Message Template Window](/docs/activitymonitor/7.1/activitymonitor/admin/outputs/window/messagetemplate.md)
   topic for additional information.
 - Add C:\ to the beginning of the reported file paths – Indicates a Windows-style drive path (C:\)
   is added to the beginning of the NAS file paths in the activity data stream, e.g.
@@ -185,7 +185,7 @@ The tab contains the following settings:
   delimiter, NUL (ASCII 0) delimiter, and Octet Count (RFC 5425).
 - Syslog message template – Template that controls what data is sent in the event stream. The
   ellipsis (…) button opens the Syslog Message Template window. See the
-  [Message Template Window](/versioned_docs/activitymonitor_7.1/activitymonitor/admin/outputs/window/messagetemplate.md)
+  [Message Template Window](/docs/activitymonitor/7.1/activitymonitor/admin/outputs/window/messagetemplate.md)
   topic for additional information.
 - Resolve UNC paths
 

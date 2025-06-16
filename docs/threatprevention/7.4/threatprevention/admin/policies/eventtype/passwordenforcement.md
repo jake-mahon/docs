@@ -23,7 +23,7 @@ blocked.
 
 **NOTE:** Blocking mode requires the Password Enforcement license that comes with the for Enterprise
 Password Enforcer solution. See the
-[License Manager Window](/versioned_docs/threatprevention_7.4/threatprevention/admin/navigation/licensemanager.md)
+[License Manager Window](/docs/threatprevention/7.4/threatprevention/admin/navigation/licensemanager.md)
 topic for additional information.
 
 The Password Enforcement event type locks down or monitors password creation/modification so that
@@ -70,7 +70,7 @@ A client-side module is available in the Threat Prevention installer to provide 
 users for why their password does not meet the complexity requirements of the Password Enforcement
 policy. This feature is inactive by default but can be installed on the domain controller to be
 implemented across the environment. See the
-[EPE User Feedback Module](/versioned_docs/threatprevention_7.4/threatprevention/install/epeuserfeedback.md)
+[EPE User Feedback Module](/docs/threatprevention/7.4/threatprevention/install/epeuserfeedback.md)
 topic for additional information.
 
 ## Domains/Servers Filter
@@ -83,15 +83,15 @@ to exclude specific domains and/or servers.
 Use the buttons in the Include and Exclude areas to edit the lists.
 
 - The Add (+) buttons open the
-  [Select Domains and Servers Window](/versioned_docs/threatprevention_7.4/threatprevention/admin/policies/eventtype/window/selectdomainsservers.md).
+  [Select Domains and Servers Window](/docs/threatprevention/7.4/threatprevention/admin/policies/eventtype/window/selectdomainsservers.md).
 - The Collection button opens the
-  [List of Collections Window](/versioned_docs/threatprevention_7.4/threatprevention/admin/configuration/collectionmanager/listcollections.md)
+  [List of Collections Window](/docs/threatprevention/7.4/threatprevention/admin/configuration/collectionmanager/listcollections.md)
   to the appropriate Collection category.
 - The Remove (x) button deletes the selected item(s) from that box.
 
 **NOTE:** To enable a Dynamic Policy, use the Collection button to select the desired Dynamic
 Collection. See the
-[Dynamic Collections](/versioned_docs/threatprevention_7.4/threatprevention/admin/configuration/collectionmanager/dynamic.md)
+[Dynamic Collections](/docs/threatprevention/7.4/threatprevention/admin/configuration/collectionmanager/dynamic.md)
 topic for additional information.
 
 ## AD Account Filter
@@ -113,21 +113,21 @@ Use the buttons in the Accounts, Account Collections, Containers, and Groups are
 lists. The following windows are displayed when you click the Add (+) button:
 
 - Accounts – The Accounts Add (+) button opens the
-  [Select Active Directory Perpetrators Window](/versioned_docs/threatprevention_7.4/threatprevention/admin/policies/eventtype/window/selectactivedirectory/perpetrators.md).
+  [Select Active Directory Perpetrators Window](/docs/threatprevention/7.4/threatprevention/admin/policies/eventtype/window/selectactivedirectory/perpetrators.md).
 - Account Collections – The Collection button opens the
-  [List of Collections Window](/versioned_docs/threatprevention_7.4/threatprevention/admin/configuration/collectionmanager/listcollections.md)
+  [List of Collections Window](/docs/threatprevention/7.4/threatprevention/admin/configuration/collectionmanager/listcollections.md)
   to the appropriate Collection category.
 - Containers – The Containers Add (+) button opens the
-  [Select Active Directory Contexts Window](/versioned_docs/threatprevention_7.4/threatprevention/admin/policies/eventtype/window/selectactivedirectory/context.md).
+  [Select Active Directory Contexts Window](/docs/threatprevention/7.4/threatprevention/admin/policies/eventtype/window/selectactivedirectory/context.md).
   All user objects in the selected organizational unit(s) are subject to the applied rule.
 - Groups – The Groups Add (+) button opens the
-  [Select AD Groups Window](/versioned_docs/threatprevention_7.4/threatprevention/admin/policies/eventtype/window/selectactivedirectory/groups.md).
+  [Select AD Groups Window](/docs/threatprevention/7.4/threatprevention/admin/policies/eventtype/window/selectactivedirectory/groups.md).
 
 The Remove (x) button deletes the selected item(s) from that box.
 
 **NOTE:** To enable a Dynamic Policy, use the Collection button to select the desired Dynamic
 Collection. See the
-[Dynamic Collections](/versioned_docs/threatprevention_7.4/threatprevention/admin/configuration/collectionmanager/dynamic.md)
+[Dynamic Collections](/docs/threatprevention/7.4/threatprevention/admin/configuration/collectionmanager/dynamic.md)
 topic for additional information.
 
 Sub Tree
@@ -164,15 +164,15 @@ policy will validate the new passwords for the accounts listed here.
 Use the buttons in the Perpetrators and Collections of Perpetrators areas to edit the lists.
 
 - Perpetrators area – The Add (+) button opens the
-  [Select Active Directory Perpetrators Window](/versioned_docs/threatprevention_7.4/threatprevention/admin/policies/eventtype/window/selectactivedirectory/perpetrators.md).
+  [Select Active Directory Perpetrators Window](/docs/threatprevention/7.4/threatprevention/admin/policies/eventtype/window/selectactivedirectory/perpetrators.md).
 - Collections of Perpetrators area - The Collection button opens the
-  [List of Collections Window](/versioned_docs/threatprevention_7.4/threatprevention/admin/configuration/collectionmanager/listcollections.md)
+  [List of Collections Window](/docs/threatprevention/7.4/threatprevention/admin/configuration/collectionmanager/listcollections.md)
   to the appropriate Collection category.
 - The Remove (x) button deletes the selected item(s) from that box.
 
 **NOTE:** To enable a Dynamic Policy, use the Collection button to select the desired Dynamic
 Collection. See the
-[Dynamic Collections](/versioned_docs/threatprevention_7.4/threatprevention/admin/configuration/collectionmanager/dynamic.md)
+[Dynamic Collections](/docs/threatprevention/7.4/threatprevention/admin/configuration/collectionmanager/dynamic.md)
 topic for additional information.
 
 ## Hosts (from) Filter
@@ -188,13 +188,13 @@ Select the **Block** or **Allow** option button and then edit the list.
   validate the new passwords for the accounts listed here. Selecting **Block** means that this
   policy will validate the new passwords for the accounts listed here.
 - For the
-  [Authentication Lockdown Event Type](/versioned_docs/threatprevention_7.4/threatprevention/admin/policies/eventtype/authenticationlockdown.md),
+  [Authentication Lockdown Event Type](/docs/threatprevention/7.4/threatprevention/admin/policies/eventtype/authenticationlockdown.md),
   this filter blocks or only allows authentication from the identified host(s).
 
 Use the buttons in the Include Hosts area to edit the list.
 
 - The Hosts Add (+) button opens the
-  [Select Computer Window](/versioned_docs/threatprevention_7.4/threatprevention/admin/policies/eventtype/window/selectcomputers.md).
+  [Select Computer Window](/docs/threatprevention/7.4/threatprevention/admin/policies/eventtype/window/selectcomputers.md).
 - The Remove (x) button deletes the selected item(s) from that box.
 
 ## Password Rules Filter
@@ -218,7 +218,7 @@ any of the checked criteria of the Password Rules filter.
 - Blocking – Blocks the failed password from being used
 
 **_RECOMMENDED:_** Use the Test Password Rules button to open the
-[Test Passwords Window](/versioned_docs/threatprevention_7.4/threatprevention/admin/policies/eventtype/window/testpasswords.md),
+[Test Passwords Window](/docs/threatprevention/7.4/threatprevention/admin/policies/eventtype/window/testpasswords.md),
 where you can test your set of rules.
 
 Passwords Section
@@ -228,13 +228,13 @@ compromised passwords. Additional passwords can be manually added or uploaded vi
 
 In order for the password to be rejected, the pending user password must match exactly to a listed
 password in the Password Dictionary list. See the
-[Password Dictionary Window](/versioned_docs/threatprevention_7.4/threatprevention/admin/configuration/epesettings.md#password-dictionary-window)
+[Password Dictionary Window](/docs/threatprevention/7.4/threatprevention/admin/configuration/epesettings.md#password-dictionary-window)
 and the
-[Substitutions Editor Window](/versioned_docs/threatprevention_7.4/threatprevention/admin/configuration/epesettings.md#substitutions-editor-window)
+[Substitutions Editor Window](/docs/threatprevention/7.4/threatprevention/admin/configuration/epesettings.md#substitutions-editor-window)
 topics for additional information.
 
 _Remember,_ the
-[Password Dictionary Window](/versioned_docs/threatprevention_7.4/threatprevention/admin/configuration/epesettings.md#password-dictionary-window)
+[Password Dictionary Window](/docs/threatprevention/7.4/threatprevention/admin/configuration/epesettings.md#password-dictionary-window)
 is always used to validate the password, so there is no 'check box' for it on the Password Rules
 tab. Hence, matched passwords will always be blocked. You must have at least one line in the
 dictionary but you can remove all others if you do not want the default entries to be used.
@@ -253,7 +253,7 @@ I Been Pwned? database, which contains compromised password hashes from world-wi
 
 _Remember,_ the Pwned database must be initially deployed to the Enterprise Manager. Once it is
 stored, Agent(s) can be configured to obtain and use a local copy of this database. See the
-[EPE Settings Window](/versioned_docs/threatprevention_7.4/threatprevention/admin/configuration/epesettings.md)
+[EPE Settings Window](/docs/threatprevention/7.4/threatprevention/admin/configuration/epesettings.md)
 topic for additional information.
 
 Character Substitution Section
@@ -264,7 +264,7 @@ scoping can be enabled:
 
 - Block if exact match substituted password – Blocks a password if it contains a substituted
   character in a password string listed in the Words List Dictionary. See the
-  [Words List Dictionary Window](/versioned_docs/threatprevention_7.4/threatprevention/admin/configuration/epesettings.md#words-list-dictionary-window)
+  [Words List Dictionary Window](/docs/threatprevention/7.4/threatprevention/admin/configuration/epesettings.md#words-list-dictionary-window)
   topic for additional information.
 
     _Remember,_ the substitutions themselves are kept in the Character Substitution list.
@@ -296,7 +296,7 @@ When a username format is chosen, additional scoping options are available:
   (UPN) typed in backwards are blocked
 - Character Substitution – Blocks a password if it contains a substituted character in a password
   string listed in the Substitution Editor window. See the
-  [Substitutions Editor Window](/versioned_docs/threatprevention_7.4/threatprevention/admin/configuration/epesettings.md#substitutions-editor-window)
+  [Substitutions Editor Window](/docs/threatprevention/7.4/threatprevention/admin/configuration/epesettings.md#substitutions-editor-window)
   topic for additional information.
 
 Repeating Patterns Section
@@ -316,7 +316,7 @@ enabled:
     - Reversed text also – Password patterns typed in backwards is blocked
     - Character Substitution – Blocks a password if it contains a substituted character in a
       password string listed in the Substitution Editor window. See the
-      [Substitutions Editor Window](/versioned_docs/threatprevention_7.4/threatprevention/admin/configuration/epesettings.md#substitutions-editor-window)
+      [Substitutions Editor Window](/docs/threatprevention/7.4/threatprevention/admin/configuration/epesettings.md#substitutions-editor-window)
       topic for additional information.
 
 Sequential Characters Section
@@ -337,7 +337,7 @@ Additional scoping can be enabled:
     - Descending order – Standard order is blocked if reversed, e.g. “321” and “CBA” are blocked
     - Character Substitution – Blocks a password if it contains a substituted character in a
       password string listed in the Substitution Editor window. See the
-      [Substitutions Editor Window](/versioned_docs/threatprevention_7.4/threatprevention/admin/configuration/epesettings.md#substitutions-editor-window)
+      [Substitutions Editor Window](/docs/threatprevention/7.4/threatprevention/admin/configuration/epesettings.md#substitutions-editor-window)
       topic for additional information.
 
 Defined Text Section
@@ -347,7 +347,7 @@ strings, add one entry per line.
 
 **NOTE:** This filter blocks passwords that contain the text box content anywhere within the
 password length. The list in the
-[Password Dictionary Window](/versioned_docs/threatprevention_7.4/threatprevention/admin/configuration/epesettings.md#password-dictionary-window)
+[Password Dictionary Window](/docs/threatprevention/7.4/threatprevention/admin/configuration/epesettings.md#password-dictionary-window)
 blocks the entire password as entered or uploaded.
 
 Additional scoping can be enabled:
@@ -361,7 +361,7 @@ Additional scoping can be enabled:
       “74yadn0M”
     - Character Substitution – Blocks a password if it contains a substituted character in a
       password string listed in the Substitution Editor window. See the
-      [Substitutions Editor Window](/versioned_docs/threatprevention_7.4/threatprevention/admin/configuration/epesettings.md#substitutions-editor-window)
+      [Substitutions Editor Window](/docs/threatprevention/7.4/threatprevention/admin/configuration/epesettings.md#substitutions-editor-window)
       topic for additional information.
 
 Keyboard Layout Sequence Section

@@ -36,9 +36,9 @@ folder.
 
 **Step 5 –** Open **Group Policy Management** console and check if you have a GPO created for
 Client. If not, see the
-[Installing Password Policy Client](/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/administration/installing_password_policy_client.md)
+[Installing Password Policy Client](/docs/passwordpolicyenforcer/10.2/password_policy_enforcer/administration/installing_password_policy_client.md)
 topic's
-[Edit the Group Policy Object](/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/administration/installing_password_policy_client.md#edit-the-group-policy-object)
+[Edit the Group Policy Object](/docs/passwordpolicyenforcer/10.2/password_policy_enforcer/administration/installing_password_policy_client.md#edit-the-group-policy-object)
 section for additional information.
 
 **Step 6 –** In the left pane, navigate to **Forest: `<forest_name>`** > **Domain** >

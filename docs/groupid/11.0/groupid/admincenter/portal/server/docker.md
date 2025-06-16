@@ -12,7 +12,7 @@ What do you want to do?
 ## Start or Stop an Instance
 
 To start or stop a deployment instance, see the
-[Start or Stop an Instance](/versioned_docs/groupid_11.0/groupid/admincenter/portal/server/nativeiis.md#start-or-stop-an-instance)
+[Start or Stop an Instance](/docs/groupid/11.0/groupid/admincenter/portal/server/nativeiis.md#start-or-stop-an-instance)
 topic.
 
 ## View the Deployment Settings for an Instance
@@ -40,14 +40,14 @@ After instance creation, this info cannot be changed.
 ## Set File Logging and Windows Logging for an Instance
 
 To set file logging and Windows logging levels for a deployment instance, see the
-[Manage Log Settings](/versioned_docs/groupid_11.0/groupid/admincenter/portal/server/log.md) topic.
+[Manage Log Settings](/docs/groupid/11.0/groupid/admincenter/portal/server/log.md) topic.
 
 ## Delete an Instance
 
 To delete a portal’s deployment instance, see the
-[Delete a Deployment Instance for a Portal](/versioned_docs/groupid_11.0/groupid/admincenter/portal/delete.md#delete-a-deployment-instance-for-a-portal)
+[Delete a Deployment Instance for a Portal](/docs/groupid/11.0/groupid/admincenter/portal/delete.md#delete-a-deployment-instance-for-a-portal)
 topic.
 
 **See Also**
 
-- [Server Settings](/versioned_docs/groupid_11.0/groupid/admincenter/portal/server/overview.md)
+- [Server Settings](/docs/groupid/11.0/groupid/admincenter/portal/server/overview.md)

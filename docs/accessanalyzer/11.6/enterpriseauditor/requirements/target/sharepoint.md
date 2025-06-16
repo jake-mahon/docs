@@ -13,9 +13,9 @@ Data Collectors
 
 This solution employs the following data collector to scan the target environment:
 
-- [ADInventory Data Collector](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/adinventory/overview.md)
-- [AzureADInventory Data Collector](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/azureadinventory/overview.md)
-- [SharePointAccess Data Collector](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/spaa/overview.md)
+- [ADInventory Data Collector](/docs/accessanalyzer/11.6/enterpriseauditor/admin/datacollector/adinventory/overview.md)
+- [AzureADInventory Data Collector](/docs/accessanalyzer/11.6/enterpriseauditor/admin/datacollector/azureadinventory/overview.md)
+- [SharePointAccess Data Collector](/docs/accessanalyzer/11.6/enterpriseauditor/admin/datacollector/spaa/overview.md)
 
 Permissions and Ports for ADInventory Data Collector Prerequisite
 
@@ -75,13 +75,13 @@ The following are supported Microsoft® SharePoint® Online:
   mode scans only)
 
 See the
-[SharePoint Scan Options](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/requirements/solutions/sharepoint/scanoptions.md)
+[SharePoint Scan Options](/docs/accessanalyzer/11.6/enterpriseauditor/requirements/solutions/sharepoint/scanoptions.md)
 topic for additional information.
 
 **NOTE:** You can use the **SP_RegisterAzureAppAuth** instant job to make the configuration for
 SharePoint Online easier. This job registers the necessary Microsoft Entra ID application and
 provisions it with the required permissions. See the
-[SP_RegisterAzureAppAuth Job](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/jobs/instantjobs/sp_registerazureappauth.md)
+[SP_RegisterAzureAppAuth Job](/docs/accessanalyzer/11.6/enterpriseauditor/admin/jobs/instantjobs/sp_registerazureappauth.md)
 topic for additional information.
 
 ## Supported SharePoint On-Premise
@@ -93,5 +93,5 @@ The following are supported Microsoft® SharePoint® operating systems:
 - SharePoint® 2013
 
 See the
-[SharePoint Scan Options](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/requirements/solutions/sharepoint/scanoptions.md)
+[SharePoint Scan Options](/docs/accessanalyzer/11.6/enterpriseauditor/requirements/solutions/sharepoint/scanoptions.md)
 topic for additional information.

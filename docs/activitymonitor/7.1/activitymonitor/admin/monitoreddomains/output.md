@@ -32,7 +32,7 @@ Follow the steps to add a File output.
 
 The new output displays in the table. Click the **Edit** button to open the Output properties window
 to modify these settings. See the
-[Output Types](/versioned_docs/activitymonitor_7.1/activitymonitor/admin/outputs/overview.md) topic
+[Output Types](/docs/activitymonitor/7.1/activitymonitor/admin/outputs/overview.md) topic
 for additional information.
 
 ## Add Syslog Output
@@ -51,7 +51,7 @@ Follow the steps to add a Syslog output.
 
 The new output displays in the table. Click the **Edit** button to open the Output properties window
 to modify these settings. See the
-[Output Types](/versioned_docs/activitymonitor_7.1/activitymonitor/admin/outputs/overview.md) topic
+[Output Types](/docs/activitymonitor/7.1/activitymonitor/admin/outputs/overview.md) topic
 for additional information.
 
 ## Add Netwrix Threat Manager Output
@@ -76,5 +76,5 @@ Output window opens.
 
 The new output displays in the table. Click the **Edit** button to open the Output properties window
 to modify these settings. See the
-[Output Types](/versioned_docs/activitymonitor_7.1/activitymonitor/admin/outputs/overview.md) topic
+[Output Types](/docs/activitymonitor/7.1/activitymonitor/admin/outputs/overview.md) topic
 for additional information.

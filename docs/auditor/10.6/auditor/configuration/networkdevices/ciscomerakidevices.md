@@ -23,7 +23,7 @@ Follow the steps to configure the Syslog server.
 | Option    | Description                                                                                                                                                                                                                        |
 | --------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Server IP | Provide the IP address of the computer that hosts your Netwrix Auditor Server.                                                                                                                                                     |
-| Port      | Provide the port configured in your monitoring plan for Network Devices (514 by default). See the[Network Devices](/versioned_docs/auditor_10.6/auditor/admin/monitoringplans/networkdevices.md) topic for additional information. |
+| Port      | Provide the port configured in your monitoring plan for Network Devices (514 by default). See the[Network Devices](/docs/auditor/10.6/auditor/admin/monitoringplans/networkdevices.md) topic for additional information. |
 | Roles     | Select the following roles: - Appliance event log - Switch event log - Wireless event log                                                                                                                                          |
 
 ### Cisco Meraki Devices Configuration

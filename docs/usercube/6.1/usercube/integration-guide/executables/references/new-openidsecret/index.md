@@ -14,7 +14,7 @@ randomly a hash without an input string. The name of the executable is:
 ```
 
 The output shows the client secret and its hashed version. It must be entered in the
-[OpenIdClient](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/access-control/openidclient/index.md)
+[OpenIdClient](/docs/usercube/6.1/usercube/integration-guide/toolkit/xml-configuration/access-control/openidclient/index.md)
 configuration.
 
 ## Arguments

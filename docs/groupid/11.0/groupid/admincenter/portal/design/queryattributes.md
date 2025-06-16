@@ -93,7 +93,7 @@ What do you want to do?
    This box is not available when multiple attributes have been selected.
 9. Select a security role in the **Visibility Level** drop-down list. The attribute(s) would be
    visible to users of the selected role and roles with a priority value higher than the selected
-   role. See [Priority](/versioned_docs/groupid_11.0/groupid/admincenter/securityrole/manage.md).  
+   role. See [Priority](/docs/groupid/11.0/groupid/admincenter/securityrole/manage.md).  
    Select _Never_ to hide the attribute(s) from all users.
 10. Use the **Display Type** drop-down list to specify the display type to use for enabling users to
     provide a value for the attribute(s) in the portal. For example, you can select a text box,
@@ -101,7 +101,7 @@ What do you want to do?
     object as value for the attribute.  
     The list contains basic display types and custom display types defined on the **Custom Display
     Types** page. See the
-    [Display Type Categories](/versioned_docs/groupid_11.0/groupid/admincenter/portal/displaytype/categories.md)
+    [Display Type Categories](/docs/groupid/11.0/groupid/admincenter/portal/displaytype/categories.md)
     topic.  
     When multiple attributes are selected in the **Fields** box, this display type applies to each
     of them. You can edit an attribute later to apply a different display type.
@@ -166,4 +166,4 @@ You can change the following for an attribute:
 
 See Also
 
-- [Design a Portal with Display Types](/versioned_docs/groupid_11.0/groupid/admincenter/portal/displaytype/overview.md)
+- [Design a Portal with Display Types](/docs/groupid/11.0/groupid/admincenter/portal/displaytype/overview.md)

@@ -7,7 +7,7 @@ The following Enterprise Auditor job groups need to be successfully run:
 - .Active Directory Inventory Job Group
 
 The following jobs need to be run prior to running the
-[AD_ShadowAccess Job](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/activedirectorypermissionsanalyzer/ad_shadowaccess.md):
+[AD_ShadowAccess Job](/docs/accessanalyzer/11.6/enterpriseauditor/solutions/activedirectorypermissionsanalyzer/ad_shadowaccess.md):
 
 - .Active Directory Inventory >1-AD_Scan > ADInventory
 - Active Directory > 1.Groups > AD_SensitiveSecurityGroups
@@ -17,7 +17,7 @@ The following jobs need to be run prior to running the
 - Active Directory Permissions Analyzer > 2.Groups > AD_GroupMembershipPermissions
 
 The following jobs can be optionally run to enhance reporting in the
-[AD_ShadowAccess Job](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/activedirectorypermissionsanalyzer/ad_shadowaccess.md):
+[AD_ShadowAccess Job](/docs/accessanalyzer/11.6/enterpriseauditor/solutions/activedirectorypermissionsanalyzer/ad_shadowaccess.md):
 
 - Active Directory > 2.Users > AD_WeakPasswords
 - FileSystem > 7.Sensitive Data > FS_DLPResults > FS_DLPResults
@@ -39,7 +39,7 @@ Assign a Connection Profile at the **Active Directory Permissions Analyzer** > *
 Administrator privileges if the target host is a domain controller.
 
 See the
-[Connection](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/settings/connection/overview.md)
+[Connection](/docs/accessanalyzer/11.6/enterpriseauditor/admin/settings/connection/overview.md)
 topic for additional information.
 
 Schedule Frequency

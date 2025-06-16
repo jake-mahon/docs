@@ -7,10 +7,10 @@ file servers that can be deleted.
 
 This job group includes the following jobs:
 
-- [FS_DeleteFiles Job](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/filesystem/cleanup/delete/fs_deletefiles.md)
+- [FS_DeleteFiles Job](/docs/accessanalyzer/11.6/enterpriseauditor/solutions/filesystem/cleanup/delete/fs_deletefiles.md)
   – Designed to delete resources from targeted file servers that were previously quarantined and can
   be deleted
-- [FS_DeleteFiles_Status Job](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/filesystem/cleanup/delete/fs_deletefiles_status.md)
+- [FS_DeleteFiles_Status Job](/docs/accessanalyzer/11.6/enterpriseauditor/solutions/filesystem/cleanup/delete/fs_deletefiles_status.md)
   – Designed to report on deleted resources from targeted file servers that were deleted from the
   DeleteFiles job
 

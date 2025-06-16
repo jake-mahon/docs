@@ -7,7 +7,7 @@ used, highlighting those over specified number of days (default 60) or that have
 
 The Configuration section on a Job's overview page allows you to easily modify any customizable
 parameters used by analysis tasks in the job. See the
-[Parameter Configuration](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/jobs/job/overview.md#parameter-configuration)
+[Parameter Configuration](/docs/accessanalyzer/11.6/enterpriseauditor/admin/jobs/job/overview.md#parameter-configuration)
 topic for instructions on how to edit parameters on a job overview page.
 
 The AWS_StaleUsers job has the following configurable parameter:
@@ -49,7 +49,7 @@ The default values for parameters that can be customized are:
 | Stale Users   | @StaleThreshold             | 60            | Number of days before considering a user stale |
 
 See the
-[Configure the Customizable Parameters in an Analysis Task](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/jobs/job/configure/analysiscustomizableparameters.md)
+[Configure the Customizable Parameters in an Analysis Task](/docs/accessanalyzer/11.6/enterpriseauditor/admin/jobs/job/configure/analysiscustomizableparameters.md)
 topic for instructions on how to modify parameters.
 
 ## Report for the AWS_StaleUsers Job

@@ -3,9 +3,9 @@
 To create a security role for an identity store, you have to specify the following:
 
 - **Criteria** - See
-  [Criteria ](/versioned_docs/groupid_11.0/groupid/admincenter/securityrole/manage.md).
+  [Criteria ](/docs/groupid/11.0/groupid/admincenter/securityrole/manage.md).
 - **Priority** - See
-  [Priority](/versioned_docs/groupid_11.0/groupid/admincenter/securityrole/manage.md).
+  [Priority](/docs/groupid/11.0/groupid/admincenter/securityrole/manage.md).
 - **Permissions** - Permissions refer to the different actions that role members can perform using
   GroupID, for example, creating directory objects, managing groups, managing scheduled jobs,
   managing user profiles, and more.
@@ -36,11 +36,11 @@ What do you want to do?
 7. In the **Priority** box, type or select a value in the range, 1-99, to set the role priority.
    This should be a unique value for each role in an identity store.
 8. In the **Criteria** area, specify a criterion to determine role members. For details, see the
-   [Security Role – Criteria](/versioned_docs/groupid_11.0/groupid/admincenter/securityrole/criteria.md)
+   [Security Role – Criteria](/docs/groupid/11.0/groupid/admincenter/securityrole/criteria.md)
    topic.
 9. Next, assign group management, user management, and other permissions to the security role. For
    details, see the
-   [Security Role – Permissions](/versioned_docs/groupid_11.0/groupid/admincenter/securityrole/permissions.md)
+   [Security Role – Permissions](/docs/groupid/11.0/groupid/admincenter/securityrole/permissions.md)
    topic.
 10. Click **Create Security Role**.
 11. Click **Save** on the **Security Roles** page.
@@ -63,10 +63,10 @@ permissions, and policies of the template role are copied to the new role.
    info and click **Update Security Role**.
 6. On the **Security Roles** page, click **Save**.
 7. To update the policies for the new role, see the
-   [Security Role Policies](/versioned_docs/groupid_11.0/groupid/admincenter/securityrole/policy/overview.md)
+   [Security Role Policies](/docs/groupid/11.0/groupid/admincenter/securityrole/policy/overview.md)
    topic.
 
 See Also
 
-- [Security Roles](/versioned_docs/groupid_11.0/groupid/admincenter/securityrole/overview.md)
-- [Manage Security Roles](/versioned_docs/groupid_11.0/groupid/admincenter/securityrole/manage.md)
+- [Security Roles](/docs/groupid/11.0/groupid/admincenter/securityrole/overview.md)
+- [Manage Security Roles](/docs/groupid/11.0/groupid/admincenter/securityrole/manage.md)

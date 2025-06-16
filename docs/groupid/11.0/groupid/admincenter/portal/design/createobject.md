@@ -18,7 +18,7 @@ as needed.
 NOTE: In the portal, the _Create Group_ wizard starts with the _Group Type_ page, where users can
 select the type of group they want to create. Options on this page vary, depending on the
 permissions assigned to the user in the identity store. (See the
-[Security Role – Permissions](/versioned_docs/groupid_11.0/groupid/admincenter/securityrole/permissions.md)
+[Security Role – Permissions](/docs/groupid/11.0/groupid/admincenter/securityrole/permissions.md)
 topic.)
 
 - If a user has the _Create Static Group_ permission and is denied the _Create Smart Group_
@@ -63,7 +63,7 @@ What do you want to do?
    this name.
 8. In the **Visibility Level** drop-down list, select a security role. The page would be visible to
    users of this role and roles with a priority value higher than this role. See
-   [Priority](/versioned_docs/groupid_11.0/groupid/admincenter/securityrole/manage.md).  
+   [Priority](/docs/groupid/11.0/groupid/admincenter/securityrole/manage.md).  
    Select _Never_ to hide the page from all users.
 9. To add fields to the page, see the [Add a Field to a Wizard Page](#add-a-field-to-a-wizard-page)
    topic.
@@ -144,11 +144,11 @@ You can update the following for a page:
     the wizard.  
     The list contains basic display types and custom display types defined on the **Custom Display
     Types** page. See the
-    [Display Type Categories](/versioned_docs/groupid_11.0/groupid/admincenter/portal/displaytype/categories.md)
+    [Display Type Categories](/docs/groupid/11.0/groupid/admincenter/portal/displaytype/categories.md)
     topic.
 11. In the **Visibility Level** drop-down list, select a security role. The field would be visible
     to users of the selected role and roles with a priority value higher than the selected role. See
-    [Priority](/versioned_docs/groupid_11.0/groupid/admincenter/securityrole/manage.md).  
+    [Priority](/docs/groupid/11.0/groupid/admincenter/securityrole/manage.md).  
     Select _Never_ to hide the field from all users.
 12. As mentioned for visibility level, the field is visible to members of the selected role and
     roles with a priority value higher than the selected role.  
@@ -185,7 +185,7 @@ You can update the following for a page:
     field.  
     A value entered for the field is checked against the words listed on the **Bad Words List**
     page. Matched values cannot be saved. See the
-    [Manage the Bad Words List](/versioned_docs/groupid_11.0/groupid/admincenter/portal/design/badwords.md)
+    [Manage the Bad Words List](/docs/groupid/11.0/groupid/admincenter/portal/design/badwords.md)
     topic.
 20. Click **OK**. The field is displayed in the **Fields** area on the **Edit Category** pane. You
     can rearrange the fields, update field properties, and even remove a field from the wizard page.
@@ -269,4 +269,4 @@ The following field properties vary from field to field. You can:
 
 See Also
 
-- [Design a Portal with Display Types](/versioned_docs/groupid_11.0/groupid/admincenter/portal/displaytype/overview.md)
+- [Design a Portal with Display Types](/docs/groupid/11.0/groupid/admincenter/portal/displaytype/overview.md)

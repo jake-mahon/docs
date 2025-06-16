@@ -15,7 +15,7 @@ been assigned a user role beyond owner.
 
 The Owner portal has three sections:
 
-- [Actions Panel](/versioned_docs/accessinformationcenter_11.6/access/informationcenter/resourceowners/ownerportal/actionspanel.md)
+- [Actions Panel](/docs/accessinformationcenter/11.6/access/informationcenter/resourceowners/ownerportal/actionspanel.md)
   — provides access to the Resource Reviews and Self-Service Access Requests workflow features
 
     - Access Requests— Navigates to the Access Requests page where you can view both pending and
@@ -25,7 +25,7 @@ The Owner portal has three sections:
     - My Access — Navigates to the Your Access portal where you can submit access requests, view
       pending requests, and view the history of your access requests
 
-- [Assigned Resources](/versioned_docs/accessinformationcenter_11.6/access/informationcenter/resourceowners/ownerportal/assignedresources.md)
+- [Assigned Resources](/docs/accessinformationcenter/11.6/access/informationcenter/resourceowners/ownerportal/assignedresources.md)
   — A table of assigned resources with action buttons below
 - [Ownership Status](#ownership-status) — Displays a graphical representation of confirmed ownership
   for assigned resources

@@ -53,7 +53,7 @@ sudo ./activity-monitor-agentd create-client-certificate --name amagent
 Before deploying the Activity agent in a Linux environment, ensure all Prerequisites have been met.
 To effectively monitor activity on a Linux host, it is necessary to deploy an agent to the host.
 Follow the steps to deploy the agent to the Linux host. See the
-[Linux Agent Server Requirements](/versioned_docs/activitymonitor_7.1/activitymonitor/requirements/linuxagent.md) topic
+[Linux Agent Server Requirements](/docs/activitymonitor/7.1/activitymonitor/requirements/linuxagent.md) topic
 for additional information.
 
 Follow the steps to add the agent to the console.

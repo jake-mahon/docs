@@ -1,7 +1,7 @@
 # Stop Review Window
 
 The Stop Review window opens from the
-[Manage Reviews Page](/versioned_docs/accessinformationcenter_11.6/access/informationcenter/resourcereviews/interface.md#manage-reviews-page)
+[Manage Reviews Page](/docs/accessinformationcenter/11.6/access/informationcenter/resourcereviews/interface.md#manage-reviews-page)
 of the Resource Reviews interface. Select the desired active review(s) and click **Stop**. The Stop
 Review window opens to confirm the action.
 

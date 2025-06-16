@@ -15,7 +15,7 @@ according to its triggers.
 When the Schema Replication schedule runs for the first time, it replicates schema from scratch. In
 all subsequent runs, it replicates any changes made to the schema. Of this replicated schema, you
 can choose the object attributes you actually want to use in an identity store. See the
-[Specify Object Attributes to Replicate](/versioned_docs/groupid_11.0/groupid/admincenter/identitystore/replication.md#specify-object-attributes-to-replicate)
+[Specify Object Attributes to Replicate](/docs/groupid/11.0/groupid/admincenter/identitystore/replication.md#specify-object-attributes-to-replicate)
 topic for details.
 
 NOTE: For Microsoft Entra ID, schema is replicated from the schema file for Graph API v 3.26.0.
@@ -41,7 +41,7 @@ What do you want to do?
    responsible for triggering this schedule. The number of services displayed in the list depend on
    the number of Elasticsearch clusters in the environment, as each cluster has its own Scheduler
    service. See the
-   [Scheduler Service](/versioned_docs/groupid_11.0/groupid/admincenter/service/schedulerservice.md)
+   [Scheduler Service](/docs/groupid/11.0/groupid/admincenter/service/schedulerservice.md)
    topic.
 
     **CAUTION:** In case of multiple Scheduler services, you must bind the same service with the
@@ -53,15 +53,15 @@ What do you want to do?
     - To add a new trigger, click **Add Trigger**.
 
     Follow step 11 in the
-    [Create a Group Usage Service Schedule](/versioned_docs/groupid_11.0/groupid/admincenter/schedule/groupusageservice.md#create-a-group-usage-service-schedule)
+    [Create a Group Usage Service Schedule](/docs/groupid/11.0/groupid/admincenter/schedule/groupusageservice.md#create-a-group-usage-service-schedule)
     topic to manage triggers.
 
 8. Click **Update Schedule**.
 9. On the **Schedules** page, click **Save**.  
    For general schedule info, see the
-   [View the Schedules in an Identity Store ](/versioned_docs/groupid_11.0/groupid/admincenter/schedule/manage.md#view-the-schedules-in-an-identity-store)
+   [View the Schedules in an Identity Store ](/docs/groupid/11.0/groupid/admincenter/schedule/manage.md#view-the-schedules-in-an-identity-store)
    topic.
 
 See Also
 
-- [Schedules](/versioned_docs/groupid_11.0/groupid/admincenter/schedule/overview.md)
+- [Schedules](/docs/groupid/11.0/groupid/admincenter/schedule/overview.md)

@@ -11,9 +11,9 @@ Special Dependency for Data Collection
 
 The jobs in the 5.Sensitive Data Job Group are:
 
-- [Oracle_SensitiveData Job](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/databases/oracle/sensitivedata/oracle_sensitivedata.md)
+- [Oracle_SensitiveData Job](/docs/accessanalyzer/11.6/enterpriseauditor/solutions/databases/oracle/sensitivedata/oracle_sensitivedata.md)
   – This job is designed to provide information on all the sensitive data that was discovered in the
   targeted Oracle database servers based on the selected scan criteria
-- [Oracle_SensitiveDataPermissions Job](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/databases/oracle/sensitivedata/oracle_sensitivedatapermissions.md)
+- [Oracle_SensitiveDataPermissions Job](/docs/accessanalyzer/11.6/enterpriseauditor/solutions/databases/oracle/sensitivedata/oracle_sensitivedatapermissions.md)
   – This job is designed to provide all types of permissions on database objects containing
   sensitive data across all the targeted Oracle database servers

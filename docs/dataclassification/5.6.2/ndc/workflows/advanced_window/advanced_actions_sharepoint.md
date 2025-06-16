@@ -3,7 +3,7 @@
 In addition to the **Email Alert** ,**Migrate Document** and additional classification, the
 following actions are available for the **SharePoint** content source type:
 
-- [Migrate Document](/versioned_docs/dataclassification_5.6.2/ndc/workflows/actions/workflows_migration.md)
+- [Migrate Document](/docs/dataclassification/5.6.2/ndc/workflows/actions/workflows_migration.md)
   including copy and move operations
 - Document property field (metadata) update, including:
 
@@ -28,7 +28,7 @@ following actions are available for the **SharePoint** content source type:
 - Apply MIP Label, Remove MIP Label — these actions, respectively, apply and remove sensitivity
   label to/from a document stored on a file system, using Microsoft Information Protection (MIP).
   This helps to automate protection policies application. See
-  [Modify MIP Label](/versioned_docs/dataclassification_5.6.2/ndc/workflows/mip_labels/mip_workflow_action.md)
+  [Modify MIP Label](/docs/dataclassification/5.6.2/ndc/workflows/mip_labels/mip_workflow_action.md)
   for details.
 
 To configure actions for SharePoint documents using the Advanced interface:

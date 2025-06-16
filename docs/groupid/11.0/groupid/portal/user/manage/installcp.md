@@ -172,5 +172,5 @@ Group Policy Object, upon their next restart. The Windows logon screen appear as
 
 See Also
 
-- [ GroupID Credential Provider](/versioned_docs/groupid_11.0/groupid/portal/user/manage/credentialprovider.md)
-- [Uninstall GroupID Credential Provider](/versioned_docs/groupid_11.0/groupid/portal/user/manage/uninstallcp.md)
+- [ GroupID Credential Provider](/docs/groupid/11.0/groupid/portal/user/manage/credentialprovider.md)
+- [Uninstall GroupID Credential Provider](/docs/groupid/11.0/groupid/portal/user/manage/uninstallcp.md)

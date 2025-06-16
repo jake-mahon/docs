@@ -27,7 +27,7 @@ information.
 
 The recipients and the text of the email can be customized on the Properties page within the Send
 Mail Action Module Wizard. The
-[1. Cleanup Assessment > FS_CleanupAssessment Job](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/filesystem/cleanup/fs_cleanupassessment.md)
+[1. Cleanup Assessment > FS_CleanupAssessment Job](/docs/accessanalyzer/11.6/enterpriseauditor/solutions/filesystem/cleanup/fs_cleanupassessment.md)
 must be run before the Send Mail Action Module Wizard can be opened. Follow these steps to customize
 the Notify Owners action task.
 

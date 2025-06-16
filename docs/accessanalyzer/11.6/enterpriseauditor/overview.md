@@ -35,7 +35,7 @@ analysis.
 This is a core solution available to all Enterprise Auditor users.
 
 See the
-[.Active Directory Inventory Solution](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/activedirectoryinventory/overview.md)
+[.Active Directory Inventory Solution](/docs/accessanalyzer/11.6/enterpriseauditor/solutions/activedirectoryinventory/overview.md)
 topic for additional information.
 
 ### .Entra ID Inventory Solution
@@ -51,7 +51,7 @@ status between on-premises Active Directory and Microsoft Entra ID.
 This is a core solution available to all Enterprise Auditor users.
 
 See the
-[.Entra ID Inventory Solution](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/entraidinventory/overview.md)
+[.Entra ID Inventory Solution](/docs/accessanalyzer/11.6/enterpriseauditor/solutions/entraidinventory/overview.md)
 topic for additional information.
 
 ### .NIS Inventory Solution
@@ -63,7 +63,7 @@ information to the File Systems Solution when auditing NFS shares.
 This is a core solution available to all Enterprise Auditor users.
 
 See the
-[.NIS Inventory Solution](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/nisinventory/overview.md)
+[.NIS Inventory Solution](/docs/accessanalyzer/11.6/enterpriseauditor/solutions/nisinventory/overview.md)
 topic for additional information.
 
 ### Active Directory Solution
@@ -73,7 +73,7 @@ regarding Active Directory configuration, operational management, troubleshootin
 effective permissions, and tracking who is making what changes within your organization.
 
 See the
-[Active Directory Solution](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/activedirectory/overview.md)
+[Active Directory Solution](/docs/accessanalyzer/11.6/enterpriseauditor/solutions/activedirectory/overview.md)
 topic for additional information.
 
 ### Active Directory Permissions Analyzer Solution
@@ -83,7 +83,7 @@ effective permissions applied to any and all Active Directory objects, at any sc
 the most authoritative view available of who has access to what in Active Directory.
 
 See the
-[Active Directory Permissions Analyzer Solution](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/activedirectorypermissionsanalyzer/overview.md)
+[Active Directory Permissions Analyzer Solution](/docs/accessanalyzer/11.6/enterpriseauditor/solutions/activedirectorypermissionsanalyzer/overview.md)
 topic for additional information.
 
 ### Amazon Web Services Solution
@@ -94,7 +94,7 @@ of S3 permissions, sensitive data, and ultimately a consolidated view of user ac
 dozens of structured and unstructured data resources both on-premises and in the cloud.
 
 See the
-[AWS Solution](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/aws/overview.md)
+[AWS Solution](/docs/accessanalyzer/11.6/enterpriseauditor/solutions/aws/overview.md)
 topic for additional information.
 
 ### Entra ID Solution
@@ -105,7 +105,7 @@ within this group help pinpoint potential areas of administrative and security c
 Microsoft Entra ID users and groups, including syncing with on-premises Active Directory.
 
 See the
-[Entra ID Solution](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/entraid/overview.md)
+[Entra ID Solution](/docs/accessanalyzer/11.6/enterpriseauditor/solutions/entraid/overview.md)
 topic for additional information.
 
 ### Box Solution
@@ -115,7 +115,7 @@ configurations, activities, and more, ensuring you never lose sight or control o
 assets residing in Box.
 
 See the
-[Box Solution](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/box/overview.md)
+[Box Solution](/docs/accessanalyzer/11.6/enterpriseauditor/solutions/box/overview.md)
 topic for additional information.
 
 ### Databases Solutions
@@ -160,7 +160,7 @@ reports that provide visibility into various aspects of supported databases.
   discovery, security configuration assessment, and database activity monitoring.
 
 See the
-[Databases Solutions](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/databases/overview.md)
+[Databases Solutions](/docs/accessanalyzer/11.6/enterpriseauditor/solutions/databases/overview.md)
 topic for additional information.
 
 ### Dropbox Solution
@@ -171,7 +171,7 @@ inspection, inactive access and stale data identification, and entitlement colle
 integration with Identity & Access Management (IAM) processes.
 
 See the
-[Dropbox Solution](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/dropbox/overview.md)
+[Dropbox Solution](/docs/accessanalyzer/11.6/enterpriseauditor/solutions/dropbox/overview.md)
 topic for additional information.
 
 **NOTE:** Sensitive data auditing requires the Sensitive Data Discovery Add-on.
@@ -184,7 +184,7 @@ focus include Audit and Compliance, Maintenance and Cleanup, Metrics and Capacit
 Health, Public Folders and Configuration Baseline.
 
 See the
-[Exchange Solution](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/exchange/overview.md)
+[Exchange Solution](/docs/accessanalyzer/11.6/enterpriseauditor/solutions/exchange/overview.md)
 topic for additional information.
 
 **NOTE:** Sensitive data auditing requires the Sensitive Data Discovery Add-on.
@@ -198,7 +198,7 @@ sensitive data discovery and classification, open access remediation, least-priv
 transformation, and file activity monitoring.
 
 See the
-[File System Solution](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/filesystem/overview.md)
+[File System Solution](/docs/accessanalyzer/11.6/enterpriseauditor/solutions/filesystem/overview.md)
 topic for additional information.
 
 **NOTE:** Activity auditing requires the Activity Monitor. Sensitive data auditing requires the
@@ -211,7 +211,7 @@ information every administrator needs regarding SharePoint on-premises and Share
 infrastructure, configuration, performance, permissions, required ports, and effective rights.
 
 See the
-[SharePoint Solution](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/sharepoint/overview.md)
+[SharePoint Solution](/docs/accessanalyzer/11.6/enterpriseauditor/solutions/sharepoint/overview.md)
 topic for additional information.
 
 **NOTE:** Sensitive data auditing requires the Sensitive Data Discovery Add-on.
@@ -223,7 +223,7 @@ is given to users and group details, privileged access rights, and NFS and Samba
 configurations.
 
 See the
-[Unix Solution](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/unix/overview.md)
+[Unix Solution](/docs/accessanalyzer/11.6/enterpriseauditor/solutions/unix/overview.md)
 topic for additional information.
 
 ### Windows Solution
@@ -234,5 +234,5 @@ account discovery, security configuration and vulnerability assessment, complian
 asset inventory.
 
 See the
-[Windows Solution](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/windows/overview.md)
+[Windows Solution](/docs/accessanalyzer/11.6/enterpriseauditor/solutions/windows/overview.md)
 topic for additional information.

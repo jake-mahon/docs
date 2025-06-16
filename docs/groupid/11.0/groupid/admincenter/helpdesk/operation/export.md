@@ -12,7 +12,7 @@ What do you want to do?
 2. The **Helpdesk** page opens to the **Helpdesk Operations** tab. You can export all users in all
    identity stores to a file or filter the listing to export specific users only. To filter the
    list, see the
-   [Search Users](/versioned_docs/groupid_11.0/groupid/admincenter/helpdesk/operation/search.md)
+   [Search Users](/docs/groupid/11.0/groupid/admincenter/helpdesk/operation/search.md)
    topic.
 3. Select the check boxes for the users you want to export or click the check box in the header row
    to select all users. Then click **Export**.
@@ -21,5 +21,5 @@ What do you want to do?
 
 **See Also**
 
-- [Helpdesk](/versioned_docs/groupid_11.0/groupid/admincenter/helpdesk/overview.md)
-- [Helpdesk Operations](/versioned_docs/groupid_11.0/groupid/admincenter/helpdesk/operation/overview.md)
+- [Helpdesk](/docs/groupid/11.0/groupid/admincenter/helpdesk/overview.md)
+- [Helpdesk Operations](/docs/groupid/11.0/groupid/admincenter/helpdesk/operation/overview.md)

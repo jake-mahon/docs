@@ -9,7 +9,7 @@ The Scheduled Sessions table has the following features:
 - Search — Searches the table or list for matches to the search string. When matches are found, the
   table or list is filtered to the matching results.
 - Create Session — Open the Activity Request window. See the
-  [Create Activity Session](/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/enduser/dashboard/createsession.md)
+  [Create Activity Session](/docs/privilegesecure/4.1/privilegesecure/accessmanagement/enduser/dashboard/createsession.md)
   topic for additional information.
 - End Session — Cancel the selected session(s)
 - Refresh — Reload the information displayed
@@ -33,7 +33,7 @@ The table has the following columns:
     - Canceling — The session is either expired or was canceled manually by the user or an Privilege
       Secure administrator.
     - Locked — The session has been locked by an Privilege Secure administrator. See the
-      [Lock Session](/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/dashboard/window/locksession.md)
+      [Lock Session](/docs/privilegesecure/4.1/privilegesecure/accessmanagement/admin/dashboard/window/locksession.md)
       topic for additional information.
 
 - Requested — Date and time of when the session was created
@@ -42,14 +42,14 @@ The table has the following columns:
 - Login Account — Displays the account used to log on to the resource
 - Access Policy — Displays the name of the policy
 - Activity — Displays the name of the activity. Click the link to view additional details. See the
-  [Activities Page](/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/policy/page/activities.md)
+  [Activities Page](/docs/privilegesecure/4.1/privilegesecure/accessmanagement/admin/policy/page/activities.md)
   topic for additional information.
 - Start — Indicates when the activity is scheduled to start
 - End — Indicates when the session is scheduled to end the activity, which is determined by the
   start time plus the maximum session duration set by the access policy Connection Profile
 
 **NOTE:** Sessions can be locked. See the
-[Lock Session](/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/dashboard/window/locksession.md)
+[Lock Session](/docs/privilegesecure/4.1/privilegesecure/accessmanagement/admin/dashboard/window/locksession.md)
 topic for additional information.
 
 The table columns can be resized and sorted in ascending or descending order.

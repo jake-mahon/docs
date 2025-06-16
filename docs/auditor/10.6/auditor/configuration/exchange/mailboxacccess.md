@@ -4,7 +4,7 @@ Netwrix Auditor allows tracking non-owner mailbox access in your Exchange organi
 
 It is recommended to select **Adjust audit settings automatically** option when setting up Exchange
 monitoring in Netwrix Auditor. See the
-[Create a New Monitoring Plan](/versioned_docs/auditor_10.6/auditor/admin/monitoringplans/create.md)
+[Create a New Monitoring Plan](/docs/auditor/10.6/auditor/admin/monitoringplans/create.md)
 topic for additional information.
 
 However, in some scenarios users may need to apply required audit settings manually. For that,

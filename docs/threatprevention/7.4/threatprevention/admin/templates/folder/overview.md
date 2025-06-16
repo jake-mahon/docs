@@ -7,7 +7,7 @@ installation process. New policy templates can be created from scratch or from e
 When Threat Prevention is upgraded, new and updated policy templates are available for import. They
 are not automatically imported during the installation of the latest version. Updates can be made to
 upgrade existing templates for a new release. See the
-[Upgrade Policy Templates](/versioned_docs/threatprevention_7.4/threatprevention/install/upgrade/policytemplates.md)
+[Upgrade Policy Templates](/docs/threatprevention/7.4/threatprevention/install/upgrade/policytemplates.md)
 topic for additional information.
 
 When the Administration Console is launched for the first time, the administrator is asked to import
@@ -19,7 +19,7 @@ the templates are imported, they are available through an organized folder struc
 
 The pre-created policy templates are organized in an easy-to-navigate folder structure under
 Templates in the
-[Templates Interface](/versioned_docs/threatprevention_7.4/threatprevention/admin/templates/overview.md).
+[Templates Interface](/docs/threatprevention/7.4/threatprevention/admin/templates/overview.md).
 
 - The Actions folder contains several pre-configured PowerShell scripts that can be used as response
   actions to alerts.
@@ -100,4 +100,4 @@ templates to import and configure.
 **Step 5 –** When the operation is complete, click **OK**.
 
 The templates are now available in the
-[Templates Interface](/versioned_docs/threatprevention_7.4/threatprevention/admin/templates/overview.md).
+[Templates Interface](/docs/threatprevention/7.4/threatprevention/admin/templates/overview.md).

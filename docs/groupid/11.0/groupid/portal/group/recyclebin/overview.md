@@ -93,7 +93,7 @@ NOTE: The Recycle Bin does not display data for a Microsoft Entra ID based ident
 
 **See Also**
 
-- [Create Active Directory Groups](/versioned_docs/groupid_11.0/groupid/portal/group/create/activedirectory/group.md)
-- [Create an Active Directory Dynasty](/versioned_docs/groupid_11.0/groupid/portal/group/dynasty/activedirectory/createdynasty.md)
-- [Group Properties](/versioned_docs/groupid_11.0/groupid/portal/group/properties/overview.md)
-- [Directory Search](/versioned_docs/groupid_11.0/groupid/portal/search/search.md)
+- [Create Active Directory Groups](/docs/groupid/11.0/groupid/portal/group/create/activedirectory/group.md)
+- [Create an Active Directory Dynasty](/docs/groupid/11.0/groupid/portal/group/dynasty/activedirectory/createdynasty.md)
+- [Group Properties](/docs/groupid/11.0/groupid/portal/group/properties/overview.md)
+- [Directory Search](/docs/groupid/11.0/groupid/portal/search/search.md)

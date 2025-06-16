@@ -5,7 +5,7 @@
 The aim of organisational structures is to reflect the hierarchies and dependencies amongst
 employees that exist in a company. Permissions are granted to these structures as usual via the
 ribbon. Further information on this subject can be found in the section
-[Permissions for organisational structures](/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/advanced_view/clientmodule/organisationalstructures/permissionsous/permissions_for_organisational.md).
+[Permissions for organisational structures](/docs/passwordsecure/9.1/passwordsecure/configuration/advanced_view/clientmodule/organisationalstructures/permissionsous/permissions_for_organisational.md).
 As a specific authorization concept is generally already used within organisational structures, this
 is also used as the basis for further permissions. This form of inheritance is technically
 equivalent to granting permissions based on **affiliations to a folder**. When creating a new
@@ -78,7 +78,7 @@ apply here:
 
 The value “organisational unit” must be selected in the settings for the inheritance of permissions
 There must be no
-[Predefining rights](/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/advanced_view/permissionconcept/predefining_rights/predefining_rights.md)
+[Predefining rights](/docs/passwordsecure/9.1/passwordsecure/configuration/advanced_view/permissionconcept/predefining_rights/predefining_rights.md)
 for the affected organisational structure This process is illustrated in the following diagram:
 
 ![process for inheritance of permissions](/img/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/advanced_view/permissionconcept/automated_settings/inheritance_from_organisational_structures/inheritance-7-en.webp)

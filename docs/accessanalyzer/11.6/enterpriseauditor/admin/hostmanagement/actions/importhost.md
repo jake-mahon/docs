@@ -35,7 +35,7 @@ step.
     - Data source – Identify the database. Click the ellipsis (**…**) to open the Data Link
       Properties window. Provide the required information on the Connection tab of the Data Link
       Properties window, and then click **OK**. See the
-      [Import From a Database](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/hostdiscovery/wizard/database.md)
+      [Import From a Database](/docs/accessanalyzer/11.6/enterpriseauditor/admin/hostdiscovery/wizard/database.md)
       topic for additional information.
 
         **NOTE:** The Provider, Advanced, and All tabs of the Data Link Properties window should not
@@ -54,5 +54,5 @@ column containing the host names. The selected column is highlighted in the prev
 The Import Hosts window closes, and the imported list of host names is added in the Host list box on
 the Manual Host Entry page of the Host List Wizard. Click **Next** to proceed with configuring the
 host list. See the
-[Add Hosts](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/hostmanagement/actions/add.md)
+[Add Hosts](/docs/accessanalyzer/11.6/enterpriseauditor/admin/hostmanagement/actions/add.md)
 topic for additional information on the Host List Wizard.

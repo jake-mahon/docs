@@ -7,8 +7,8 @@ groups. The action tasks in this job group provide an automated workflow.
 
 The jobs in the 1. Deprovision Groups Job Group are:
 
-- [AD_DeprovisionGroups Job](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/activedirectory/cleanup/groups/deprovision/ad_deprovisiongroups.md)
+- [AD_DeprovisionGroups Job](/docs/accessanalyzer/11.6/enterpriseauditor/solutions/activedirectory/cleanup/groups/deprovision/ad_deprovisiongroups.md)
   – This job provides an automated workflow to deprovision stale groups
-- [AD_DeprovisionGroups_Status Job](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/activedirectory/cleanup/groups/deprovision/ad_deprovisiongroups_status.md)
+- [AD_DeprovisionGroups_Status Job](/docs/accessanalyzer/11.6/enterpriseauditor/solutions/activedirectory/cleanup/groups/deprovision/ad_deprovisiongroups_status.md)
   – This job tracks and reports on the progress of all actions taken by the included Deprovisioning
   workflow

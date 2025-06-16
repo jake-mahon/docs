@@ -3,7 +3,7 @@
 Netwrix periodically releases updated Agent installation packages. Typically these updates are
 associated with Microsoft KBs (hot-fixes) which alter the LSASS components interfering with the
 Agent instrumentation. See the
-[Agent Information](/versioned_docs/threatprevention_7.4/threatprevention/install/agent/overview.md)
+[Agent Information](/docs/threatprevention/7.4/threatprevention/install/agent/overview.md)
 topic for additional information.
 
 To download an installation package, the Threat Prevention server must be connected to the internet.

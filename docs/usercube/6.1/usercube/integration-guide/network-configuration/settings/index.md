@@ -1,7 +1,7 @@
 # Various XML Settings
 
 This section describes Usercube's
-[Settings](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/metadata/settings/index.md)
+[Settings](/docs/usercube/6.1/usercube/integration-guide/toolkit/xml-configuration/metadata/settings/index.md)
 available in the applicative configuration. Those are mandatory.
 
 ## ConfigurationVersion
@@ -117,7 +117,7 @@ The max number of links to display is 5.
 _This attribute matches an end-user with a resource from the unified resource repository._
 
 Authorization mechanisms within Usercube rely on assigning a
-[profile](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/profiles/index.md)
+[profile](/docs/usercube/6.1/usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/profiles/index.md)
 to an identity-resource that stands for the end-user digital identity.
 
 To that end, and end-user authentication credentials are linked to such an identity-resource using
@@ -154,7 +154,7 @@ The following example links the authentication credentials of an end-user to its
 of EntityType **Directory_User**.
 
 In this example, authentication has been set up using
-[Integrated Windows Authentication](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/server-configuration/end-users-authentication/index.md).
+[Integrated Windows Authentication](/docs/usercube/6.1/usercube/integration-guide/network-configuration/server-configuration/end-users-authentication/index.md).
 In that case, the login used by the end-user is in the form `DOMAIN/userName`.
 
 The **AfterToken** attribute parses the `DOMAIN/userName` string into `userName`.

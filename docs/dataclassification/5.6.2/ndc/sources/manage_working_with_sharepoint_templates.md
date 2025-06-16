@@ -10,7 +10,7 @@ source onto others. First you manually configure one source. Then you save that 
 you apply that template to other sources.
 
 To get more details about the tagging function, review the
-[Configuring Tagging](/versioned_docs/dataclassification_5.6.2/ndc/sources/manage_configuring_tagging.md)
+[Configuring Tagging](/docs/dataclassification/5.6.2/ndc/sources/manage_configuring_tagging.md)
 article.
 
 In this article, we will cover:
@@ -24,7 +24,7 @@ In this article, we will cover:
 ## Setting up prerequisites
 
 As part of configuring tagging, make sure you have set the prerequisites, specified in the
-[Configuring Tagging](/versioned_docs/dataclassification_5.6.2/ndc/sources/manage_configuring_tagging.md)
+[Configuring Tagging](/docs/dataclassification/5.6.2/ndc/sources/manage_configuring_tagging.md)
 article.
 
 ## Using SharePoint API

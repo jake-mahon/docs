@@ -8,20 +8,20 @@ It is necessary to make some preparations so that the move can be completed with
 
 If the SQL server and the application server are on the same machine, the SQL server should be
 installed on the new machine first. It is necessary to observe the
-[MSSQL Server](/versioned_docs/passwordsecure_9.1/passwordsecure/installation/requirements/mssql_server.md)
+[MSSQL Server](/docs/passwordsecure/9.1/passwordsecure/installation/requirements/mssql_server.md)
 for this process.
 
 #### 2. Installing the server
 
 The Netwrix Password Secure application server is installed next (see
-[Application server](/versioned_docs/passwordsecure_9.1/passwordsecure/installation/requirements/application_server.md)).
+[Application server](/docs/passwordsecure/9.1/passwordsecure/installation/requirements/application_server.md)).
 The installation itself is described under
-[Installation Server Manager](/versioned_docs/passwordsecure_9.1/passwordsecure/installation/installation_server_manager/installation_server_manager.md).
+[Installation Server Manager](/docs/passwordsecure/9.1/passwordsecure/installation/installation_server_manager/installation_server_manager.md).
 
 #### 3. Basic configuration
 
 After the server has been installed, the
-[Basic configuration](/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/server_manager/baseconfiguration/basic_configuration.md)
+[Basic configuration](/docs/passwordsecure/9.1/passwordsecure/configuration/server_manager/baseconfiguration/basic_configuration.md)
 is completed. A new configuration database will be created on the SQL server as a result. If you
 want to retain the old SQL server, it is necessary to give the configuration database a new name.
 
@@ -29,7 +29,7 @@ want to retain the old SQL server, it is necessary to give the configuration dat
 
 The license first needs to be deactivated before it can be activated on the new server (see options
 under
-[License settings](/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/server_manager/main_menu/license_settings.md).
+[License settings](/docs/passwordsecure/9.1/passwordsecure/configuration/server_manager/main_menu/license_settings.md).
 Now stop the server so that nothing more can be changed in the database.
 
 ## Backing up the data
@@ -53,7 +53,7 @@ selected in the following window.
 #### 3. Backing up the server certificate
 
 It is essential that the all available
-[Certificates](/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/server_manager/certificates/certificates.md)
+[Certificates](/docs/passwordsecure/9.1/passwordsecure/configuration/server_manager/certificates/certificates.md)
 are backed up. Depending on the installation, a different number of certificates are required here.
 
 ## Configuring the new server
@@ -82,7 +82,7 @@ Manager.
 
 After the backup has been installed on the new database, you can be start the Server Manager and run
 the setup wizard. The
-[Setup wizard](/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/server_manager/setupwizard/setup_wizard.md)
+[Setup wizard](/docs/passwordsecure/9.1/passwordsecure/configuration/server_manager/setupwizard/setup_wizard.md)
 is used for (amongst other things) reactivating the license. It is now possible to enter all of the
 desired configurations for the server.
 

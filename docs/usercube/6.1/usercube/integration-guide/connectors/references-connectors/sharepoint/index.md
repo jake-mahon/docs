@@ -244,10 +244,10 @@ Data protection can be ensured through:
 - A CyberArk Vault able to store SharePoint's `Login` and `Password`.
 
 See the
-[ RSA Encryption ](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/rsa-encryption/index.md),
-[ Azure Key Vault ](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/azure-key-vault/index.md),
+[ RSA Encryption ](/docs/usercube/6.1/usercube/integration-guide/network-configuration/agent-configuration/rsa-encryption/index.md),
+[ Azure Key Vault ](/docs/usercube/6.1/usercube/integration-guide/network-configuration/agent-configuration/azure-key-vault/index.md),
 and
-[ CyberArk's AAM Credential Providers ](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/cyberark-application-access-manager-credential-providers/index.md)topics
+[ CyberArk's AAM Credential Providers ](/docs/usercube/6.1/usercube/integration-guide/network-configuration/agent-configuration/cyberark-application-access-manager-credential-providers/index.md)topics
 for additional information.
 
 Protected attributes are stored inside a safe in CyberArk, into an account whose identifier can be

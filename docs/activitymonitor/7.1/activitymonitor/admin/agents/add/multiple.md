@@ -3,7 +3,7 @@
 Before deploying the activity agent, ensure all Prerequisites are met, including those for NAS
 devices when applicable. Follow the steps to deploy the activity agent to a multiple Windows
 servers. See the
-[Activity Agent Server Requirements](/versioned_docs/activitymonitor_7.1/activitymonitor/requirements/activityagent.md) topic
+[Activity Agent Server Requirements](/docs/activitymonitor/7.1/activitymonitor/requirements/activityagent.md) topic
 for additional information.
 
 **NOTE:** These steps are specific to deploying activity agents for monitoring supported target
@@ -133,5 +133,5 @@ box.
 
 When the activity agent installation completes, the status changes to **Installed** and the activity
 agent version populates. The next step is to add hosts to be monitored. See the
-[Monitored Hosts Tab](/versioned_docs/activitymonitor_7.1/activitymonitor/admin/monitoredhosts/overview.md)
+[Monitored Hosts Tab](/docs/activitymonitor/7.1/activitymonitor/admin/monitoredhosts/overview.md)
 topic for additional information.

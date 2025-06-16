@@ -86,6 +86,6 @@ members to access Portal A only.
 
 See Also
 
-- [Security Roles](/versioned_docs/groupid_11.0/groupid/admincenter/securityrole/overview.md)
-- [Create a Security Role](/versioned_docs/groupid_11.0/groupid/admincenter/securityrole/create.md)
-- [Manage Security Roles](/versioned_docs/groupid_11.0/groupid/admincenter/securityrole/manage.md)
+- [Security Roles](/docs/groupid/11.0/groupid/admincenter/securityrole/overview.md)
+- [Create a Security Role](/docs/groupid/11.0/groupid/admincenter/securityrole/create.md)
+- [Manage Security Roles](/docs/groupid/11.0/groupid/admincenter/securityrole/manage.md)

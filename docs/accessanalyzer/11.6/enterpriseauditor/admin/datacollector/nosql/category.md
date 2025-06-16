@@ -14,7 +14,7 @@ The query categories are:
         - The Sensitive Data category options require the Sensitive Data Discovery Add-on to be
           installed on the Enterprise Auditor Console before the NoSQL Data Collector can collect
           sensitive data. See the
-          [Sensitive Data Discovery Add-On Installation](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/install/sensitivedatadiscovery/overview.md)
+          [Sensitive Data Discovery Add-On Installation](/docs/accessanalyzer/11.6/enterpriseauditor/install/sensitivedatadiscovery/overview.md)
           topic for additional information.
 
 - MongoDB

@@ -15,10 +15,10 @@ Schedule Wizard opens for the selected host or host list.
 ![Schedule Wizard for Host Inventory Query](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/hostmanagement/actions/schedulewizardhostmanagement.webp)
 
 Use the Schedule Wizard to configure the scheduled task. See the
-[Schedule Wizard](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/schedule/wizard.md)
+[Schedule Wizard](/docs/accessanalyzer/11.6/enterpriseauditor/admin/schedule/wizard.md)
 topic for additional information.
 
 The details of the scheduled Inventory query are available in the **Schedules** view, including the
 next run date and time. See the
-[Schedules](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/schedule/overview.md)
+[Schedules](/docs/accessanalyzer/11.6/enterpriseauditor/admin/schedule/overview.md)
 topic for additional information.

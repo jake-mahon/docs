@@ -21,14 +21,14 @@ The Public Folder action module is configured through the Public Folder Action M
 contains the following wizard pages:
 
 - Welcome
-- [Public Folder: Action](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/action/publicfolder/action.md)
-- [Public Folder: Prior Actions](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/action/publicfolder/prioractions.md)
-- [Public Folder: Folders](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/action/publicfolder/folders.md)
-- [Public Folder: MAPI Settings](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/action/publicfolder/mapisettings.md)
-- [Public Folder: Operations](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/action/publicfolder/operations.md)
-- [Public Folder: Rollback](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/action/publicfolder/rollback.md)
-- [Public Folder: Options](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/action/publicfolder/options.md)
-- [Public Folder: Summary](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/action/publicfolder/summary.md)
+- [Public Folder: Action](/docs/accessanalyzer/11.6/enterpriseauditor/admin/action/publicfolder/action.md)
+- [Public Folder: Prior Actions](/docs/accessanalyzer/11.6/enterpriseauditor/admin/action/publicfolder/prioractions.md)
+- [Public Folder: Folders](/docs/accessanalyzer/11.6/enterpriseauditor/admin/action/publicfolder/folders.md)
+- [Public Folder: MAPI Settings](/docs/accessanalyzer/11.6/enterpriseauditor/admin/action/publicfolder/mapisettings.md)
+- [Public Folder: Operations](/docs/accessanalyzer/11.6/enterpriseauditor/admin/action/publicfolder/operations.md)
+- [Public Folder: Rollback](/docs/accessanalyzer/11.6/enterpriseauditor/admin/action/publicfolder/rollback.md)
+- [Public Folder: Options](/docs/accessanalyzer/11.6/enterpriseauditor/admin/action/publicfolder/options.md)
+- [Public Folder: Summary](/docs/accessanalyzer/11.6/enterpriseauditor/admin/action/publicfolder/summary.md)
 
 The Welcome page gives an overview of the action module. The navigation pane contains links to the
 pages in the wizard. Review the introductory and caution information about the Public Folder Action

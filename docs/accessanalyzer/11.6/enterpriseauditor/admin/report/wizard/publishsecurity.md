@@ -5,7 +5,7 @@ with inherited permissions to view the generated report.
 
 **NOTE:** This page is only enabled if Role Based Access is configured for the Enterprise Auditor
 Console. See the
-[Role Based Access](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/settings/access/rolebased/overview.md)
+[Role Based Access](/docs/accessanalyzer/11.6/enterpriseauditor/admin/settings/access/rolebased/overview.md)
 topic for additional information.
 
 ![Publish Security page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/report/wizard/publishsecurity.webp)

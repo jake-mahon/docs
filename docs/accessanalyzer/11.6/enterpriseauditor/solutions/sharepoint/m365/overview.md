@@ -8,20 +8,20 @@ across your SharePoint environment.
 
 The jobs in the 8.M365 Job Group are:
 
-- [SP_ExternalUsers Job](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/sharepoint/m365/sp_externalusers.md)
+- [SP_ExternalUsers Job](/docs/accessanalyzer/11.6/enterpriseauditor/solutions/sharepoint/m365/sp_externalusers.md)
   – Identifies activity of external users on all monitored Sharepoint servers
-- [SP_OneDrives Job](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/sharepoint/m365/sp_onedrives.md)
+- [SP_OneDrives Job](/docs/accessanalyzer/11.6/enterpriseauditor/solutions/sharepoint/m365/sp_onedrives.md)
   – Collects the activity, sensitive data, summary level information across OneDrives
-- [SP_SharedLinks Job](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/sharepoint/m365/sp_sharedlinks.md)
+- [SP_SharedLinks Job](/docs/accessanalyzer/11.6/enterpriseauditor/solutions/sharepoint/m365/sp_sharedlinks.md)
   – Provides an overview of the shared links configured with Sharpoint Online, with visibility into
   Anonymous Sharing, External User Sharing, and activity pertaining to Shared Links
-- [SP_StaleTeamSites Job](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/sharepoint/m365/sp_staleteamsites.md)
+- [SP_StaleTeamSites Job](/docs/accessanalyzer/11.6/enterpriseauditor/solutions/sharepoint/m365/sp_staleteamsites.md)
   – Identifies Teams that have not had activity for a number of days that can be set in the analysis
   (Set at 30 Days by Default)
-- [SP_Teams](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/sharepoint/m365/sp_teams.md)
+- [SP_Teams](/docs/accessanalyzer/11.6/enterpriseauditor/solutions/sharepoint/m365/sp_teams.md)
   – Identifies activities, sensitive data and a summary of collected data for SharePoint Teams
-- [SP_TeamsExternalUserActivity Job](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/sharepoint/m365/sp_teamsexternaluseractivity.md)
+- [SP_TeamsExternalUserActivity Job](/docs/accessanalyzer/11.6/enterpriseauditor/solutions/sharepoint/m365/sp_teamsexternaluseractivity.md)
   – Identifies all activity events performed by external users in Teams, including details on the
   date/time, resource, and operation
-- [SP_TeamsSensitiveData Job](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/sharepoint/m365/sp_teamssensitivedata.md)
+- [SP_TeamsSensitiveData Job](/docs/accessanalyzer/11.6/enterpriseauditor/solutions/sharepoint/m365/sp_teamssensitivedata.md)
   – Analyzes sensitive data activity within Teams sites

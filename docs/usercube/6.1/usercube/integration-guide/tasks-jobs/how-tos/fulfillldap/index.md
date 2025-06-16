@@ -5,7 +5,7 @@ This guide shows how to create the adequate configuration to add the fulfill tas
 
 For Usercube fill an LDAP somme configuration element are necessary.
 
-## [ResourceTypeMapping](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/connectors/resourcetypemappings/index.md)
+## [ResourceTypeMapping](/docs/usercube/6.1/usercube/integration-guide/toolkit/xml-configuration/connectors/resourcetypemappings/index.md)
 
 This configuration is to use the fill for the LDAP and configure the Reset Password.
 
@@ -23,7 +23,7 @@ This configuration is to use the fill for the LDAP and configure the Reset Passw
 ## Add connection information to AD Connect
 
 In the
-[Connection Information](/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/references-connectors/ldap/index.md)
+[Connection Information](/docs/usercube/6.1/usercube/integration-guide/connectors/references-connectors/ldap/index.md)
 define this section to add all information to use the AD Fulfillment.
 
 ```
@@ -49,7 +49,7 @@ appsettings.agent.json
 ```
 
 After defining this settings, encrypt this JSON file with
-[Usercube-Protect-X509JsonFile](/versioned_docs/usercube_6.1/usercube/integration-guide/executables/references/protect-x509jsonfile/index.md).
+[Usercube-Protect-X509JsonFile](/docs/usercube/6.1/usercube/integration-guide/executables/references/protect-x509jsonfile/index.md).
 
 ## Configure The FulfillTask
 

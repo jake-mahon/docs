@@ -11,8 +11,8 @@ This functionality is currently supported for the following source types:
 
 See next:
 
-[Exchange Mailbox](/versioned_docs/dataclassification_5.6.2/ndc/sources/database/manage_exchange.md)
+[Exchange Mailbox](/docs/dataclassification/5.6.2/ndc/sources/database/manage_exchange.md)
 
-[File System](/versioned_docs/dataclassification_5.6.2/ndc/sources/file_system/manage_file_system.md)
+[File System](/docs/dataclassification/5.6.2/ndc/sources/file_system/manage_file_system.md)
 
-[ Google Drive](/versioned_docs/dataclassification_5.6.2/ndc/sources/google_drive/manage_googledrive.md)
+[ Google Drive](/docs/dataclassification/5.6.2/ndc/sources/google_drive/manage_googledrive.md)

@@ -10,7 +10,7 @@ Remember, the following additional considerations:
       Discovery Add-On (32-bit `SensitiveDataAddon.msi`) also needs to be installed on the proxy
       server. The proxy server also requires the .NET Framework 4.7.2 or later. The Enterprise
       Auditor license file will need to be accessible locally for this installation. See the
-      [File System Proxy as a Service Overview](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/install/filesystemproxy/overview.md)
+      [File System Proxy as a Service Overview](/docs/accessanalyzer/11.6/enterpriseauditor/install/filesystemproxy/overview.md)
       topic for additional information.
 - SharePoint Consideration – To use the SharePoint Agent to scan for sensitive data, the Sensitive
   Data Discovery Add-On (64-bit `SensitiveDataAddon.msi`) will also need to be installed on the
@@ -18,7 +18,7 @@ Remember, the following additional considerations:
   farms after the Enterprise Auditor SharePoint Agent has been installed on that server. The
   SharePoint server also requires .NET Framework 4.7.2 or later. The Enterprise Auditor license file
   will need to be accessible locally for this installation. See the
-  [SharePoint Agent Installation](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/install/sharepointagent/overview.md)
+  [SharePoint Agent Installation](/docs/accessanalyzer/11.6/enterpriseauditor/install/sharepointagent/overview.md)
   topic for additional information.
 
 **NOTE:** Before running the installation package, please close the Enterprise Auditor application.
@@ -82,5 +82,5 @@ solutions, according to the organization’s license:
 
 Prior to job execution, ensure the desired criteria have been properly configured for each job. See
 the
-[Sensitive Data Discovery Add-On Installation](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/install/sensitivedatadiscovery/overview.md)
+[Sensitive Data Discovery Add-On Installation](/docs/accessanalyzer/11.6/enterpriseauditor/install/sensitivedatadiscovery/overview.md)
 topic for additional information.

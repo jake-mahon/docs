@@ -15,7 +15,7 @@ instructions.
 Sensitive Data Discovery Add-on
 
 - Needs to be updated on all servers where it was installed. See the
-  [Upgrade Sensitive Data Discovery Add-on](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/install/sensitivedatadiscovery/upgrade.md)
+  [Upgrade Sensitive Data Discovery Add-on](/docs/accessanalyzer/11.6/enterpriseauditor/install/sensitivedatadiscovery/upgrade.md)
   topic for instructions.
 - **CAUTION:** The new global Settings will overwrite any previously configured criteria. Make a
   note of any configured Sensitive Data Criteria before upgrading Enterprise Auditor. Sensitive Data
@@ -37,7 +37,7 @@ File System Solution Considerations
 
 - For Proxy Mode as a Service – File System Proxy Service needs to be updated on the proxy servers.
   See the
-  [Upgrade Proxy Service Procedure](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/install/filesystemproxy/upgrade.md)
+  [Upgrade Proxy Service Procedure](/docs/accessanalyzer/11.6/enterpriseauditor/install/filesystemproxy/upgrade.md)
   topic for instructions.
 - For Activity – Ensure the Netwrix Activity Monitor is a compatible version. See the Upgrade
   Instructions in the
@@ -48,7 +48,7 @@ SharePoint Solution Considerations
 
 - For SharePoint Agent – Enterprise Auditor SharePoint Agent needs to be updated on the SharePoint
   server where it was installed. See the
-  [Upgrade SharePoint Agent](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/install/sharepointagent/upgrade.md)
+  [Upgrade SharePoint Agent](/docs/accessanalyzer/11.6/enterpriseauditor/install/sharepointagent/upgrade.md)
   section for instructions.
 - For Activity – Ensure the Stealthbits Activity Monitor is a compatible version. See the Upgrade
   Instructions in the
@@ -75,7 +75,7 @@ This database schema migration should be performed before running other jobs in 
 Solution after upgrading to Enterprise Auditor 11.6.
 
 See the
-[File System Solution](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/filesystem/overview.md)
+[File System Solution](/docs/accessanalyzer/11.6/enterpriseauditor/solutions/filesystem/overview.md)
 topic for additional information.
 
 ## Configure Global Sensitive Data Settings
@@ -86,13 +86,13 @@ Sensitive Data Criteria must be reconfigured after an upgrade.
 
 If Sensitive Data Criteria are configured differently for each solution, re-configure the criteria
 selection at the solution level. See the
-[Sensitive Data Discovery Add-On](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/sensitivedatadiscovery/overview.md)
+[Sensitive Data Discovery Add-On](/docs/accessanalyzer/11.6/enterpriseauditor/sensitivedatadiscovery/overview.md)
 topic and the topic for the applicable solution for additional information.
 
 If the same Sensitive Data Criteria are used for all solutions, configure the criteria selection at
 the global **Settings** > **Sensitive Data** node, which will then be used by default in all
 solutions. See the
-[Sensitive Data Discovery Add-On](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/sensitivedatadiscovery/overview.md)
+[Sensitive Data Discovery Add-On](/docs/accessanalyzer/11.6/enterpriseauditor/sensitivedatadiscovery/overview.md)
 topic for additional information.
 
 Follow the steps to configure Sensitive Data Criteria at the global level.
@@ -100,7 +100,7 @@ Follow the steps to configure Sensitive Data Criteria at the global level.
 **Step 1 –** The Sensitive Data node provides configuration options to manage sensitive data
 criteria and false positive exclusion filters. These settings require the Sensitive Data Discovery
 Add-on. See the
-[Sensitive Data Discovery Add-On](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/sensitivedatadiscovery/overview.md)
+[Sensitive Data Discovery Add-On](/docs/accessanalyzer/11.6/enterpriseauditor/sensitivedatadiscovery/overview.md)
 topic for additional information.
 
 ![Global Settings Sensitive Data node](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/install/application/upgrade/sensitivedata.webp)

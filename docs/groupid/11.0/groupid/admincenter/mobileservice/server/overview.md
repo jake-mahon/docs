@@ -17,6 +17,6 @@ Server settings for a Mobile service include:
 
 **See Also**
 
-- [Mobile Service](/versioned_docs/groupid_11.0/groupid/admincenter/mobileservice/overview.md)
-- [Manage General Server Settings](/versioned_docs/groupid_11.0/groupid/admincenter/mobileservice/server/general.md)
-- [Manage Deployment Settings](/versioned_docs/groupid_11.0/groupid/admincenter/mobileservice/server/deployment.md)
+- [Mobile Service](/docs/groupid/11.0/groupid/admincenter/mobileservice/overview.md)
+- [Manage General Server Settings](/docs/groupid/11.0/groupid/admincenter/mobileservice/server/general.md)
+- [Manage Deployment Settings](/docs/groupid/11.0/groupid/admincenter/mobileservice/server/deployment.md)

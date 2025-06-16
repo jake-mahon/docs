@@ -8,12 +8,12 @@ activity providing insight into user activity, usage statistics, and suspicious 
 
 The 1.Activity Job Group is comprised of:
 
-- [Forensics Job Group](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/box/activity/forensics/overview.md)
+- [Forensics Job Group](/docs/accessanalyzer/11.6/enterpriseauditor/solutions/box/activity/forensics/overview.md)
   – Provides details on the types of operations occurring within audited Box enterprises, including
   deletions, file downloads, permission changes, and more
-- [Suspicious Activity Job Group](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/box/activity/suspiciousactivity/overview.md)
+- [Suspicious Activity Job Group](/docs/accessanalyzer/11.6/enterpriseauditor/solutions/box/activity/suspiciousactivity/overview.md)
   – Identifies areas and times of abnormal activity by analyzing typical activity patterns and
   identifying outliers based on factors such as amount of activity or time of day
-- [Usage Statistics Job Group](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/box/activity/usagestatistics/overview.md)
+- [Usage Statistics Job Group](/docs/accessanalyzer/11.6/enterpriseauditor/solutions/box/activity/usagestatistics/overview.md)
   – Identifies long-term trends of activity and usage statistics across your Box environment,
   highlighting conditions such as most active or stale folders

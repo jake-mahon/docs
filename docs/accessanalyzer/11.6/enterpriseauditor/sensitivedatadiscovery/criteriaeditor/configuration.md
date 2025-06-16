@@ -50,9 +50,9 @@ The options at the bottom of the configuration pane are:
   that can be added are **Keyword**, **Pattern**, and **Summary**. See the following topics for
   additional information:
 
-    - [Keyword Criteria](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/sensitivedatadiscovery/criteriaeditor/criteriatype/keyword.md)
-    - [Regular Expression (Pattern) Criteria](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/sensitivedatadiscovery/criteriaeditor/criteriatype/regularexpression.md)
-    - [Summary Criteria](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/sensitivedatadiscovery/criteriaeditor/criteriatype/summary.md)
+    - [Keyword Criteria](/docs/accessanalyzer/11.6/enterpriseauditor/sensitivedatadiscovery/criteriaeditor/criteriatype/keyword.md)
+    - [Regular Expression (Pattern) Criteria](/docs/accessanalyzer/11.6/enterpriseauditor/sensitivedatadiscovery/criteriaeditor/criteriatype/regularexpression.md)
+    - [Summary Criteria](/docs/accessanalyzer/11.6/enterpriseauditor/sensitivedatadiscovery/criteriaeditor/criteriatype/summary.md)
 
 - Remove – Remove sub-criteria from the Required matched sub-criteria list
 - Edit – Edit the currently selected sub-criteria
@@ -84,7 +84,7 @@ The options at the bottom of the configuration pane are:
   the criteria. Delete a metadata type by clicking the **X** button in the gray metadata tag.
 
     - For a list of available out-of-the-box metadata tags, see the
-      [Default Metadata Tag Values](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/sensitivedatadiscovery/metadatatags.md)
+      [Default Metadata Tag Values](/docs/accessanalyzer/11.6/enterpriseauditor/sensitivedatadiscovery/metadatatags.md)
       topic for additional information
 
 - Cancel – Exit the Sensitive Data Criteria Editor without saving changes

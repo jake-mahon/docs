@@ -24,7 +24,7 @@ be met in the order listed:
         - No additional Role Based Access prerequisites are required for this option
 
     - See the
-      [Access](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/settings/access/overview.md)
+      [Access](/docs/accessanalyzer/11.6/enterpriseauditor/admin/settings/access/overview.md)
       topic for additional information on Role Based Access
 
     **NOTE:** Once the vault has been enabled, it is not possible to disable Role Based Access

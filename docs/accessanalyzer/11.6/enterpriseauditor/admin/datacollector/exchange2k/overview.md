@@ -3,12 +3,12 @@
 The Exchange2K Data Collector extracts configuration details from Exchange organizations for
 versions 2003 and later. This is a MAPI-based data collector which requires the **Settings** >
 **Exchange** node to be enabled and configured. See the
-[Exchange](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/settings/exchange.md)
+[Exchange](/docs/accessanalyzer/11.6/enterpriseauditor/admin/settings/exchange.md)
 topic for additional information.
 
 The Exchange2K Data Collector has been preconfigured within the Exchange Solution. Both this data
 collector and the solution are available with a special Enterprise Auditor license. See the
-[Exchange Solution](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/exchange/overview.md)
+[Exchange Solution](/docs/accessanalyzer/11.6/enterpriseauditor/solutions/exchange/overview.md)
 topic for additional information.
 
 Protocols
@@ -38,12 +38,12 @@ The Exchange2K Data Collector is configured through the Exchange 2K+ Data Collec
 contains the following wizard pages:
 
 - Welcome
-- [Exchange2K: Category](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/exchange2k/category.md)
-- [Exchange2K: Scope](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/exchange2k/scope.md)
-- [Exchange2K: Results](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/exchange2k/results.md)
-- [Exchange2K: MAPI Settings](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/exchange2k/mapisettings.md)
-- [Exchange2K: Options](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/exchange2k/options.md)
-- [Exchange2K: Summary](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/exchange2k/summary.md)
+- [Exchange2K: Category](/docs/accessanalyzer/11.6/enterpriseauditor/admin/datacollector/exchange2k/category.md)
+- [Exchange2K: Scope](/docs/accessanalyzer/11.6/enterpriseauditor/admin/datacollector/exchange2k/scope.md)
+- [Exchange2K: Results](/docs/accessanalyzer/11.6/enterpriseauditor/admin/datacollector/exchange2k/results.md)
+- [Exchange2K: MAPI Settings](/docs/accessanalyzer/11.6/enterpriseauditor/admin/datacollector/exchange2k/mapisettings.md)
+- [Exchange2K: Options](/docs/accessanalyzer/11.6/enterpriseauditor/admin/datacollector/exchange2k/options.md)
+- [Exchange2K: Summary](/docs/accessanalyzer/11.6/enterpriseauditor/admin/datacollector/exchange2k/summary.md)
 
 ![Exchange 2K+ Data Collector Wizard Welcome page](/img/versioned_docs/activitymonitor_7.1/activitymonitor/install/welcome.webp)
 

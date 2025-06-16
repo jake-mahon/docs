@@ -10,7 +10,7 @@ permissions:
 To instruct Netwrix Auditor to collect data needed for these reports, make sure that **Collect data
 for state-in-time reports** option is selected in the corresponding monitoring plan properties. See
 the
-[Settings for Data Collection](/versioned_docs/auditor_10.6/auditor/admin/monitoringplans/create.md#settings-for-data-collection)
+[Settings for Data Collection](/docs/auditor/10.6/auditor/admin/monitoringplans/create.md#settings-for-data-collection)
 topic for more information.
 
 ## Account Permissions in vCenter
@@ -20,11 +20,11 @@ directly or through group membership). Use this report to see who has permission
 prevent rights elevation.
 
 Supported object types and attributes are listed in the
-[VMware](/versioned_docs/auditor_10.6/auditor/configuration/vmware/overview.md) topic.
+[VMware](/docs/auditor/10.6/auditor/configuration/vmware/overview.md) topic.
 
 For this report to function properly, you must enable the **Collect data for state-in-time reports**
 option for the data source in the monitoring plan settings. See the
-[Settings for Data Collection](/versioned_docs/auditor_10.6/auditor/admin/monitoringplans/create.md#settings-for-data-collection)
+[Settings for Data Collection](/docs/auditor/10.6/auditor/admin/monitoringplans/create.md#settings-for-data-collection)
 topic for more information.
 
 ### Filters
@@ -38,7 +38,7 @@ filters and values:
   the report includes data obtained during the latest data collection session (_Current Session_).
   To report on other snapshots, make sure they are available through import. For details, see
   **Manage historical snapshots** option description in
-  [VMware](/versioned_docs/auditor_10.6/auditor/admin/monitoringplans/vmware/overview.md)
+  [VMware](/docs/auditor/10.6/auditor/admin/monitoringplans/vmware/overview.md)
 - Item — name of the item within your monitoring plan.
 - Inherited — select whether to show inherited permissions or not.
 - Role – select the name of the VMware role you want to see in the report.
@@ -57,11 +57,11 @@ Shows detailed list of privileges that the specified account has on the VMware o
 report to prevent unnecessary privileges assigned to custom roles.
 
 Supported object types and attributes are listed in the
-[VMware](/versioned_docs/auditor_10.6/auditor/configuration/vmware/overview.md) topic.
+[VMware](/docs/auditor/10.6/auditor/configuration/vmware/overview.md) topic.
 
 For this report to function properly, you must enable the **Collect data for state-in-time reports**
 option for the data source in the monitoring plan settings. See the
-[Settings for Data Collection](/versioned_docs/auditor_10.6/auditor/admin/monitoringplans/create.md#settings-for-data-collection)
+[Settings for Data Collection](/docs/auditor/10.6/auditor/admin/monitoringplans/create.md#settings-for-data-collection)
 topic for more information.
 
 ### Filters
@@ -75,7 +75,7 @@ filters and values:
   the report includes data obtained during the latest data collection session (_Current Session_).
   To report on other snapshots, make sure they are available through import. For details, see
   **Manage historical snapshots** option description in
-  [VMware](/versioned_docs/auditor_10.6/auditor/admin/monitoringplans/vmware/overview.md)
+  [VMware](/docs/auditor/10.6/auditor/admin/monitoringplans/vmware/overview.md)
 - Item — name of the item within your monitoring plan.
 - Role – select the name of the VMware role you want to see in the report.
 - Object path — path to the monitored object, as formatted by Netwrix Auditor in the activity
@@ -90,11 +90,11 @@ granted directly or through group membership). Use this report to see who has pe
 and prevent rights elevation.
 
 Supported object types and attributes are listed in the
-[VMware](/versioned_docs/auditor_10.6/auditor/configuration/vmware/overview.md) topic.
+[VMware](/docs/auditor/10.6/auditor/configuration/vmware/overview.md) topic.
 
 For this report to function properly, you must enable the **Collect data for state-in-time reports**
 option for the data source in the monitoring plan settings. See the
-[Settings for Data Collection](/versioned_docs/auditor_10.6/auditor/admin/monitoringplans/create.md#settings-for-data-collection)
+[Settings for Data Collection](/docs/auditor/10.6/auditor/admin/monitoringplans/create.md#settings-for-data-collection)
 topic for more information.
 
 ### Filters
@@ -108,7 +108,7 @@ filters and values:
   the report includes data obtained during the latest data collection session (_Current Session_).
   To report on other snapshots, make sure they are available through import. For details, see
   **Manage historical snapshots** option description in
-  [VMware](/versioned_docs/auditor_10.6/auditor/admin/monitoringplans/vmware/overview.md)
+  [VMware](/docs/auditor/10.6/auditor/admin/monitoringplans/vmware/overview.md)
 - Item — name of the item within your monitoring plan.
 - Role – select the name of the VMware role you want to see in the report.
 - **Object path** —path to the monitored object, as formatted by Netwrix Auditor in the activity

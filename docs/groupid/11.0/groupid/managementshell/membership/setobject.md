@@ -55,6 +55,6 @@ Set-object -identity "Sonia Iqbal" -Description TestUser
 
 See Also
 
-- [All Commands](/versioned_docs/groupid_11.0/groupid/managementshell/commands.md)
-- [Membership Commands](/versioned_docs/groupid_11.0/groupid/managementshell/membership/overview.md)
-- [Parameters](/versioned_docs/groupid_11.0/groupid/managementshell/parameters/parameters.md)
+- [All Commands](/docs/groupid/11.0/groupid/managementshell/commands.md)
+- [Membership Commands](/docs/groupid/11.0/groupid/managementshell/membership/overview.md)
+- [Parameters](/docs/groupid/11.0/groupid/managementshell/parameters/parameters.md)

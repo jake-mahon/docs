@@ -33,7 +33,7 @@ include:
 the database.
 
 - See the
-  [Service Accounts Page](/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/configuration/page/serviceaccounts.md)
+  [Service Accounts Page](/docs/privilegesecure/4.1/privilegesecure/accessmanagement/admin/configuration/page/serviceaccounts.md)
   topic for additional information.
 
     - Visit icon – Go to the Service Account page to view details of the selected service account.
@@ -45,5 +45,5 @@ the database.
 **Step 11 –** Click **Scan Now** to begin scanning the database.
 
 The new database is now added. See the
-[Database Details Page](/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/policy/page/details/databases.md)
+[Database Details Page](/docs/privilegesecure/4.1/privilegesecure/accessmanagement/admin/policy/page/details/databases.md)
 for additional details.

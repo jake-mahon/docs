@@ -24,7 +24,7 @@ an extension period. If they do not validate their profile information within th
 either, GroupID expires them again and their managers are informed by email. To reactivate these
 accounts, users' managers must send a request to the administrator or Helpdesk. The administrator or
 Helpdesk user can extend the profile validation period on the
-[Disabled Users](/versioned_docs/groupid_11.0/groupid/portal/user/disableduser.md) page of the
+[Disabled Users](/docs/groupid/11.0/groupid/portal/user/disableduser.md) page of the
 portal.
 
 NOTE: For notifications to be sent, an SMTP server must be configured for the identity store.
@@ -83,7 +83,7 @@ profile window.
 The **Manager** field displays the name of your primary manager (if you have one); else it is blank.
 
 To add or change your primary manager, click the ellipsis button next to the field. This launches
-the [Find Dialog Box](/versioned_docs/groupid_11.0/groupid/portal/search/find.md), where you can
+the [Find Dialog Box](/docs/groupid/11.0/groupid/portal/search/find.md), where you can
 search and select your primary manager.
 
 When you change your primary manager (Manager A), then Manager A is notified by email to accept or
@@ -92,7 +92,7 @@ you remain with Manager A and a notification is sent to you and Manager A.
 
 NOTE: This is the default flow of the 'Workflow to Change Manager' workflow. If the administrator
 disables the workflow or changes the approver, the flow changes accordingly. See
-[Requests](/versioned_docs/groupid_11.0/groupid/portal/request/overview.md).
+[Requests](/docs/groupid/11.0/groupid/portal/request/overview.md).
 
 ## Transfer your direct report
 
@@ -104,7 +104,7 @@ back to the old manager, i.e., you.
 NOTE: This is the default flow of the 'Workflow to Transfer a User' workflow, with the direct report
 set as the workflow approver. If the administrator disables the workflow or changes the approver,
 the flow changes accordingly. See
-[Requests](/versioned_docs/groupid_11.0/groupid/portal/request/overview.md).
+[Requests](/docs/groupid/11.0/groupid/portal/request/overview.md).
 
 ## Terminate your direct report
 
@@ -115,7 +115,7 @@ the manager, i.e., you.
 
 **See Also**
 
-- [Manage your profile](/versioned_docs/groupid_11.0/groupid/portal/user/manage/viewprofile.md)
-- [Object properties - Organization tab](/versioned_docs/groupid_11.0/groupid/portal/user/properties/activedirectory/organization.md)
-- [Requests](/versioned_docs/groupid_11.0/groupid/portal/request/overview.md)
-- [Disabled Users](/versioned_docs/groupid_11.0/groupid/portal/user/disableduser.md)
+- [Manage your profile](/docs/groupid/11.0/groupid/portal/user/manage/viewprofile.md)
+- [Object properties - Organization tab](/docs/groupid/11.0/groupid/portal/user/properties/activedirectory/organization.md)
+- [Requests](/docs/groupid/11.0/groupid/portal/request/overview.md)
+- [Disabled Users](/docs/groupid/11.0/groupid/portal/user/disableduser.md)

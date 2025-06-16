@@ -21,7 +21,7 @@ The following analysis tasks are selected by default:
 
     - The default is 6 months. It can be modified.
     - See the
-      [Exchange History Retention](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/exchange/hubmetrics/collection/ex_metricscollection.md#exchange-history-retention)
+      [Exchange History Retention](/docs/accessanalyzer/11.6/enterpriseauditor/solutions/exchange/hubmetrics/collection/ex_metricscollection.md#exchange-history-retention)
       topic for additional information
 
 -   3. Database details table – Creates the SA_EX_DBSizing_StoreDetails table, accessible under the
@@ -40,7 +40,7 @@ troubleshooting and cleanup only. Data will be deleted from the database.
 -   1. Deletes all Stored Data
 
     - See the
-      [Troubleshooting Data Collection](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/exchange/hubmetrics/collection/ex_metricscollection.md#troubleshooting-data-collection)
+      [Troubleshooting Data Collection](/docs/accessanalyzer/11.6/enterpriseauditor/solutions/exchange/hubmetrics/collection/ex_metricscollection.md#troubleshooting-data-collection)
       topic for additional information
 
 In addition to the tables and views created by the analysis tasks, the EX_DBSizing Job produces the

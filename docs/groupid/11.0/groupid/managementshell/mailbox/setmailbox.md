@@ -72,6 +72,6 @@ Set-MailBox -Identity "OsamaMailBox" -Country "Pakistan"
 
 See Also
 
-- [All Commands](/versioned_docs/groupid_11.0/groupid/managementshell/commands.md)
-- [Mailbox Commands](/versioned_docs/groupid_11.0/groupid/managementshell/mailbox/overview.md)
-- [Parameters](/versioned_docs/groupid_11.0/groupid/managementshell/parameters/parameters.md)
+- [All Commands](/docs/groupid/11.0/groupid/managementshell/commands.md)
+- [Mailbox Commands](/docs/groupid/11.0/groupid/managementshell/mailbox/overview.md)
+- [Parameters](/docs/groupid/11.0/groupid/managementshell/parameters/parameters.md)

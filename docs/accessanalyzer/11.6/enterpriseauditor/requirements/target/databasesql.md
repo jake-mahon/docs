@@ -36,9 +36,9 @@ Data Collectors
 
 This solution employs the following data collector to scan the target environment:
 
-- [ADInventory Data Collector](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/adinventory/overview.md)
-- [SMARTLog Data Collector](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/smartlog/overview.md)
-- [SQL Data Collector](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/sql/overview.md)
+- [ADInventory Data Collector](/docs/accessanalyzer/11.6/enterpriseauditor/admin/datacollector/adinventory/overview.md)
+- [SMARTLog Data Collector](/docs/accessanalyzer/11.6/enterpriseauditor/admin/datacollector/smartlog/overview.md)
+- [SQL Data Collector](/docs/accessanalyzer/11.6/enterpriseauditor/admin/datacollector/sql/overview.md)
 
 ## Permissions
 
@@ -78,7 +78,7 @@ For SQL Server Data Collection
     - Grant Control Server to [DOMAIN\USER] (specifically required for the Weak Passwords Job)
 
 See the
-[Azure SQL Auditing Configuration](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/requirements/target/config/azuresqlaccess.md)
+[Azure SQL Auditing Configuration](/docs/accessanalyzer/11.6/enterpriseauditor/requirements/target/config/azuresqlaccess.md)
 topic for additional information.
 
 ## Ports

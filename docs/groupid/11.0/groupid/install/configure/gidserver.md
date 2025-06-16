@@ -22,11 +22,11 @@ To configure GroupID server on the machine where the Configuration Tool is bein
 
     - **SQL Server Authentication** - To set SQL Server to work with GroupID using an SQL Server
       account. See SQL Authentication in
-      [Authentication Modes](/versioned_docs/groupid_11.0/groupid/install/setupauthentication.md)
+      [Authentication Modes](/docs/groupid/11.0/groupid/install/setupauthentication.md)
       topic.
     - **Windows Authentication** - To set SQL Server to work with GroupID using a Windows user
       account. See Windows Authentication in in
-      [Authentication Modes](/versioned_docs/groupid_11.0/groupid/install/setupauthentication.md)
+      [Authentication Modes](/docs/groupid/11.0/groupid/install/setupauthentication.md)
       topic.
 
 4. Depending on the authentication mode selected, do the following:
@@ -205,5 +205,5 @@ To configure GroupID server on the machine where the Configuration Tool is bein
 
 See Also
 
-- [Installation Tool](/versioned_docs/groupid_11.0/groupid/install/installer/install.md)
-- [Configuration Tool](/versioned_docs/groupid_11.0/groupid/install/configure/configure.md)
+- [Installation Tool](/docs/groupid/11.0/groupid/install/installer/install.md)
+- [Configuration Tool](/docs/groupid/11.0/groupid/install/configure/configure.md)

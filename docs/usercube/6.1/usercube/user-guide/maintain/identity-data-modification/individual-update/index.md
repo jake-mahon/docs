@@ -20,7 +20,7 @@ department.
 
 | Input                                                                                                                                                      | Output                      |
 | ---------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------- |
-| [Identity repository](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/initial-identities-loading/index.md) (required) New identity data (required) | Updated identity repository |
+| [Identity repository](/docs/usercube/6.1/usercube/user-guide/set-up/initial-identities-loading/index.md) (required) New identity data (required) | Updated identity repository |
 
 ## Declare a New Identity
 
@@ -36,7 +36,7 @@ Declare a new worker by proceeding as follows:
 
 3. Follow the workflow's instructions to fill the form with the user's data, choose the user's
    entitlements from your
-   [role catalog](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/single-roles-catalog-creation/index.md)
+   [role catalog](/docs/usercube/6.1/usercube/user-guide/set-up/single-roles-catalog-creation/index.md)
    and send the request.
 
 ## Act on an Existing Identity

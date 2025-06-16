@@ -20,7 +20,7 @@ The Options page contains the following options:
 - Include subfolders in message counters – This option is only available for the Contents category.
   When this option is selected, it will include subfolders in message counters, according to the
   Scope page settings. See the
-  [ExchangeMetrics: Scope](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/exchangemetrics/scope.md) topic
+  [ExchangeMetrics: Scope](/docs/accessanalyzer/11.6/enterpriseauditor/admin/datacollector/exchangemetrics/scope.md) topic
   for additional information.
 - Large attachment threshold (Kb) – Configure the desired size limit for attachments. The default
   value is 500.

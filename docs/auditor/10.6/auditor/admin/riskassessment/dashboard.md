@@ -4,8 +4,8 @@ To access the Risk Assessment dashboard, click the corresponding tile in the mai
 
 You can add any elements (a dashboard, report, alert, risk, etc.) to the Auditor Home screen to
 access them instantly. See the
-[Navigation](/versioned_docs/auditor_10.6/auditor/admin/navigation/overview.md) and
-[Customize Home Screen](/versioned_docs/auditor_10.6/auditor/admin/navigation/customizehome.md)
+[Navigation](/docs/auditor/10.6/auditor/admin/navigation/overview.md) and
+[Customize Home Screen](/docs/auditor/10.6/auditor/admin/navigation/customizehome.md)
 topics for additional information.
 
 The IT risks are grouped into the following categories:
@@ -33,7 +33,7 @@ button.
 
 Default threshold values for risk levels are set in accordance with recommendations of Netwrix
 industry experts, as described in
-[How Risk Levels Are Estimated ](/versioned_docs/auditor_10.6/auditor/admin/riskassessment/levels.md).
+[How Risk Levels Are Estimated ](/docs/auditor/10.6/auditor/admin/riskassessment/levels.md).
 They can be, however, easily customized to reflect your organization's internal security policies
 and standards. For that, do the following:
 
@@ -61,6 +61,6 @@ session.
 
 You can create a subscription to periodically receive IT risk assessment results by email or using a
 file share. For that, in the dashboard window click Subscribe and configure the necessary settings.
-[Create Subscriptions](/versioned_docs/auditor_10.6/auditor/admin/subscriptions/create.md)
+[Create Subscriptions](/docs/auditor/10.6/auditor/admin/subscriptions/create.md)
 
 You can also save current results to a PDF file, using the Export button in the dashboard window.

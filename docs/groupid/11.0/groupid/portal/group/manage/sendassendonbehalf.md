@@ -15,7 +15,7 @@ when User B sends a message using User A’s address, the ‘From’ address wil
 `<User B's address>` on behalf of Mailbox `<User A's address>`'.
 
 The administrator can provide the Send As and Send on Behalf features on any tab in
-[Group Properties](/versioned_docs/groupid_11.0/groupid/portal/group/properties/overview.md). They
+[Group Properties](/docs/groupid/11.0/groupid/portal/group/properties/overview.md). They
 are displayed as:
 
 ![sendassendon](/img/versioned_docs/groupid_11.0/groupid/portal/group/manage/sendassendon.webp)
@@ -28,4 +28,4 @@ lists.
 
 **See Also**
 
-- [Working with Groups](/versioned_docs/groupid_11.0/groupid/portal/group/manage/workingwithgroups.md)
+- [Working with Groups](/docs/groupid/11.0/groupid/portal/group/manage/workingwithgroups.md)

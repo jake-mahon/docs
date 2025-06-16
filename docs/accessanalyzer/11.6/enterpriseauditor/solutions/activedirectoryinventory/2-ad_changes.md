@@ -7,7 +7,7 @@ Inventory Job Group.
 
 The 1-AD_Scan Job must have the Query Option to **Track changes into Change tracking tables**
 selected in order for the Analysis Tasks in the 2-AD_Changes Job to work. See Step 4 of the
-[Customize the 1-AD_Scan Query](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/activedirectoryinventory/1-ad_scan.md#customize-the-1-ad_scan-query)
+[Customize the 1-AD_Scan Query](/docs/accessanalyzer/11.6/enterpriseauditor/solutions/activedirectoryinventory/1-ad_scan.md#customize-the-1-ad_scan-query)
 topic for additional information.
 
 ## Analysis Tasks for the 2-AD_Changes Job
@@ -124,7 +124,7 @@ following pre-configured reports:
 
 In order for Enterprise Auditor to send email notifications, it is necessary for the **Settings** >
 **Notification** node to be properly configured. See the
-[Notification](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/settings/notification.md)
+[Notification](/docs/accessanalyzer/11.6/enterpriseauditor/admin/settings/notification.md)
 topic for instructions on enabling the Enterprise Auditor Console to send email notifications. Once
 email notifications have been enabled, the individual notification analysis tasks can be configured
 and enabled. Follow the steps to configure a notification analysis task.

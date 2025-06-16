@@ -3,7 +3,7 @@
 The User and Group Collection page is accessible from the Navigation pane under Users & Group. It
 shows session information for user and group collections. To gain access to the Privilege Secure
 console, users or groups have to be added in the top level
-[Users & Groups Page](/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/policy/page/usersgroups.md).
+[Users & Groups Page](/docs/privilegesecure/4.1/privilegesecure/accessmanagement/admin/policy/page/usersgroups.md).
 
 Collections are conglomerated users and groups (that have already been granted rights in the
 console) that will gain the same rights collectively. Like users and groups individually,
@@ -19,7 +19,7 @@ the following features:
 - Search — Searches the table or list for matches to the search string. When matches are found, the
   table or list is filtered to the matching results.
 - Blue + button — Create a new collection. See the
-  [Add Users & Groups Window](/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/policy/window/usersgroups/addusersandgroups.md)
+  [Add Users & Groups Window](/docs/privilegesecure/4.1/privilegesecure/accessmanagement/admin/policy/window/usersgroups/addusersandgroups.md)
   topic for additional information.
 - Trashcan icon — Deletes the access policy. Icon appears when policy is hovered over. A
   confirmation window will display.
@@ -41,7 +41,7 @@ The table has the following columns:
 - Checkbox — Check to select one or more items
 - Type — Icon indicates the type of object
 - Name — Displays the name of the account. Click the link to view additional details. See the
-  [User, Group, & Application Details Page](/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/policy/page/details/usergroupapplication.md)
+  [User, Group, & Application Details Page](/docs/privilegesecure/4.1/privilegesecure/accessmanagement/admin/policy/page/details/usergroupapplication.md)
   topic for additional information.
 - User Name — Displays the sAMAccountName for the account
 - User Principal Name — Displays the UPN value for the account

@@ -38,7 +38,7 @@ The Top 5 Users for the Date Range table lists the users with the most sessions:
 - Column headers can be resized and sorted in ascending or descending order:
 
     - User — The user logged in to the session. Click to open the
-      [User, Group, & Application Details Page](/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/policy/page/details/usergroupapplication.md).
+      [User, Group, & Application Details Page](/docs/privilegesecure/4.1/privilegesecure/accessmanagement/admin/policy/page/details/usergroupapplication.md).
     - Sessions — Number of sessions per user
     - Total Duration — Total duration of all sessions per user
     - Average — The average duration of a session per user
@@ -50,18 +50,18 @@ The Sessions by All Users table lists all user sessions:
 - Column headers can be resized and sorted in ascending or descending order:
 
     - Session User — The user logged in to the session. See the
-      [User, Group, & Application Details Page](/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/policy/page/details/usergroupapplication.md)
+      [User, Group, & Application Details Page](/docs/privilegesecure/4.1/privilegesecure/accessmanagement/admin/policy/page/details/usergroupapplication.md)
       topic for additional information.
     - Host — The resource the session is using. The details vary based on the type of resource. See
       the
-      [Resources Page](/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/policy/page/resources.md)
+      [Resources Page](/docs/privilegesecure/4.1/privilegesecure/accessmanagement/admin/policy/page/resources.md)
       topic for additional information.
     - Login Account — Account user is logged in with
     - Policy — Policy associated with the session. See the
-      [Access Policy Page](/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/policy/page/accesspolicy.md)
+      [Access Policy Page](/docs/privilegesecure/4.1/privilegesecure/accessmanagement/admin/policy/page/accesspolicy.md)
       topic for additional information.
     - Activity — Activity associated with the session. See the
-      [Activities Page](/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/policy/page/activities.md)
+      [Activities Page](/docs/privilegesecure/4.1/privilegesecure/accessmanagement/admin/policy/page/activities.md)
       topic for additional information.
     - Start — Start time of the session
     - Duration — Duration of the session

@@ -37,7 +37,7 @@ Follow the steps to add resources one at a time and assign owners.
 
 **Step 3 –** On the Select Owners page, click **Add** to browse for an owner. Repeat this Step to
 add multiple owners. See the
-[Add Owner Window](/versioned_docs/auditor_10.6/access/reviews/resourceowners/window/addowner.md)
+[Add Owner Window](/docs/auditor/10.6/access/reviews/resourceowners/window/addowner.md)
 topic for additional information.
 
 ![Add new resources wizard with the 2. Select Owners page showing multiple owners selected](/img/versioned_docs/auditor_10.6/access/reviews/resourceowners/wizard/selectownerswithowners.webp)

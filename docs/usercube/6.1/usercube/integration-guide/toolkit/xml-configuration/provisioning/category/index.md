@@ -1,7 +1,7 @@
 # Category
 
 A category is a classification of Composite Roles, Single Roles or/and
-[Resource Types](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/provisioning/resourcetype/index.md).
+[Resource Types](/docs/usercube/6.1/usercube/integration-guide/toolkit/xml-configuration/provisioning/resourcetype/index.md).
 It can be used to group multiple roles of the same context.
 
 ## Examples

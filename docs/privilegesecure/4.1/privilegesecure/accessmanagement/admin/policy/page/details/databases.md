@@ -19,12 +19,12 @@ The Database Details page shows the following information:
     **NOTE:** The domain is used as the default domain for database activities.
 
 - Service Account — Displays the service account associated with the resource. See the
-  [Service Accounts Page](/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/configuration/page/serviceaccounts.md)
+  [Service Accounts Page](/docs/privilegesecure/4.1/privilegesecure/accessmanagement/admin/configuration/page/serviceaccounts.md)
   topic for additional information.
 - Scan Now button — Scans the domain for users, groups, members, and computers. The Cancel button,
   which is only visible when scanning can be used to stop the resource scan. This scan can also be
   scheduled from the
-  [Platforms Page](/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/policy/page/platforms/overview.md).
+  [Platforms Page](/docs/privilegesecure/4.1/privilegesecure/accessmanagement/admin/policy/page/platforms/overview.md).
 
     - Status — During synchronization, the button displays as spinning
 
@@ -36,7 +36,7 @@ commit the modifications. Click **Cancel** to discard the modifications.
 - Users – Displays database login accounts that are not domain users or local computer users
 - Groups – Displays login accounts that are domain users or local computer accounts
 - Databases – Displays a list of discovered databases See the
-  [Databases Tab](/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/policy/tab/resources/databases.md)
+  [Databases Tab](/docs/privilegesecure/4.1/privilegesecure/accessmanagement/admin/policy/tab/resources/databases.md)
   topic for additional information.
 - Roles – Displays roles and who has those roles on the database and at the server level
 - Sessions – Displays previous sessions that have used this resource as a target

@@ -3,7 +3,7 @@
 Use this API to create a new Synchronize job which is a set of sequential commands that run in the
 background to move data from one data source to another data source.
 
-See the [Create a Job](/versioned_docs/groupid_11.0/groupid/portal/synchronize/job/create.md) topic
+See the [Create a Job](/docs/groupid/11.0/groupid/portal/synchronize/job/create.md) topic
 for more information about creating a job.
 
 ## Endpoint
@@ -393,5 +393,5 @@ POST
 
 See Also
 
-- [Common Errors](/versioned_docs/groupid_11.0/groupid/api/commonerrors.md)
-- [Synchronize Jobs APIs](/versioned_docs/groupid_11.0/groupid/api/syncjobs/jobsapis.md)
+- [Common Errors](/docs/groupid/11.0/groupid/api/commonerrors.md)
+- [Synchronize Jobs APIs](/docs/groupid/11.0/groupid/api/syncjobs/jobsapis.md)

@@ -2,7 +2,7 @@
 
 The Add Activities and Activity Groups window provides a list of Activities that have been created.
 Activities are created in the
-[Activities Page](/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/policy/page/activities.md).
+[Activities Page](/docs/privilegesecure/4.1/privilegesecure/accessmanagement/admin/policy/page/activities.md).
 
 ![Add Activities and Activity Groups Window](/img/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/policy/window/usersgroups/addactivitiesandactivitygroups.webp)
 
@@ -57,4 +57,4 @@ Available Activities list.
 **Step 6 –** Click Add to add the activities and activity groups to the access policy.
 
 The new activities and activity groups are added to the access policy and are shown in the
-[Activities Tab for Resource Based Access Policies](/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/policy/tab/policyresource/activities.md).
+[Activities Tab for Resource Based Access Policies](/docs/privilegesecure/4.1/privilegesecure/accessmanagement/admin/policy/tab/policyresource/activities.md).

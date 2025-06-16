@@ -4,7 +4,7 @@ You can specify data that you want to include into / exclude from the Windows Fi
 Filer, and Dell Data Storage monitoring scope. For that, you can configure monitoring scope in
 Auditor client UI, as explained in the related section:
 
-- [File Servers](/versioned_docs/auditor_10.6/auditor/admin/monitoringplans/fileservers/overview.md)
+- [File Servers](/docs/auditor/10.6/auditor/admin/monitoringplans/fileservers/overview.md)
 - [Windows File Share](#windows-file-share)
 
 Besides, you can configure exclusions for file servers audit using the special txt files (omit

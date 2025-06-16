@@ -44,9 +44,9 @@ The Threat Prevention Agents retrieve configuration data from the Enterprise Man
 network activity, and report events to the Enterprise Manager. The events collected by an Agent are
 those specified by the policies that are active in the system. There must be an Agent deployed on
 every server being monitored. See the
-[Agent Information](/versioned_docs/threatprevention_7.4/threatprevention/install/agent/overview.md)
+[Agent Information](/docs/threatprevention/7.4/threatprevention/install/agent/overview.md)
 topic for information on where to deploy Agents and supported platforms. See the
-[Agents Interface](/versioned_docs/threatprevention_7.4/threatprevention/admin/agents/overview.md)
+[Agents Interface](/docs/threatprevention/7.4/threatprevention/admin/agents/overview.md)
 section for deployment procedures.
 
 Netwrix Threat Manager Reporting Module
@@ -55,7 +55,7 @@ The Netwrix Threat Manager Reporting Module application provides a way to genera
 reports for the event data that is collected by the Agent and stored in the event database. Reports
 can be generated for specific time frames and saved as CSV or JSON files. These files can be
 downloaded or emailed. See the
-[Reporting Module](/versioned_docs/threatprevention_7.4/threatprevention/reportingmodule/overview.md)
+[Reporting Module](/docs/threatprevention/7.4/threatprevention/reportingmodule/overview.md)
 topic for additional information.
 
 ## Analytics
@@ -64,7 +64,7 @@ Threat Prevention’s Analytics engine identifies patterns based on observed act
 indicate that a security incident is in process or being attempted. For example, the frequency of an
 event over a particular time period or a combination of events with one or more correlating
 attribute could indicate that a security risk incident is in process. See the
-[Analytics Interface](/versioned_docs/threatprevention_7.4/threatprevention/admin/analytics/overview.md)
+[Analytics Interface](/docs/threatprevention/7.4/threatprevention/admin/analytics/overview.md)
 topic for additional information.
 
 ## Policies & Policy Templates
@@ -87,7 +87,7 @@ Administrators group.
 
 A Threat Prevention Policy has many attributes which define the activities and objects it monitors,
 where on a network that policy applies, and when it is active. See the
-[Policy Configuration](/versioned_docs/threatprevention_7.4/threatprevention/admin/policies/configuration.md)
+[Policy Configuration](/docs/threatprevention/7.4/threatprevention/admin/policies/configuration.md)
 topic for additional information.
 
 General
@@ -130,9 +130,9 @@ customized for a particular installation, e.g. the name of a text file, the conn
 for a local SMTP server, etc.
 
 See the
-[Pre-Created Templates](/versioned_docs/threatprevention_7.4/threatprevention/admin/templates/folder/overview.md)
+[Pre-Created Templates](/docs/threatprevention/7.4/threatprevention/admin/templates/folder/overview.md)
 and
-[Template Configuration](/versioned_docs/threatprevention_7.4/threatprevention/admin/templates/configuration.md)
+[Template Configuration](/docs/threatprevention/7.4/threatprevention/admin/templates/configuration.md)
 topics for additional information.
 
 ## Database Components
@@ -145,7 +145,7 @@ The following SQL Server databases are used to store this information:
 
 Both these databases are created during the installation process of the Threat Prevention Enterprise
 Manager. See the
-[Application Server Install](/versioned_docs/threatprevention_7.4/threatprevention/install/application.md)
+[Application Server Install](/docs/threatprevention/7.4/threatprevention/install/application.md)
 topic for additional information.
 
 NVMonitorConfig Database

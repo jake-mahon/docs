@@ -22,11 +22,11 @@ NOTE: Account unlock is not supported in a Microsoft Entra ID identity store.
 
 **See Also**
 
-- [Enable Authentication Types](/versioned_docs/groupid_11.0/groupid/admincenter/identitystore/configure/authtypes.md)
-- [Set Up Authentication Types](/versioned_docs/groupid_11.0/groupid/admincenter/setupauth/overview.md)
-- [Authentication Policy for Security Roles](/versioned_docs/groupid_11.0/groupid/admincenter/securityrole/policy/authentication.md)
-- [Configure Second Factor Authentication](/versioned_docs/groupid_11.0/groupid/admincenter/setupauth/sfa.md)
-- [Configure Multifactor Authentication](/versioned_docs/groupid_11.0/groupid/admincenter/setupauth/mfa.md)
-- [Second Way Authentication - SWA](/versioned_docs/groupid_11.0/groupid/admincenter/identitystore/configure/security/secondwayauthentication.md)
-- [Enroll with Authentication Types](/versioned_docs/groupid_11.0/groupid/admincenter/enroll.md)
-- [Authenticate with Authentication Types](/versioned_docs/groupid_11.0/groupid/admincenter/authenticate.md)
+- [Enable Authentication Types](/docs/groupid/11.0/groupid/admincenter/identitystore/configure/authtypes.md)
+- [Set Up Authentication Types](/docs/groupid/11.0/groupid/admincenter/setupauth/overview.md)
+- [Authentication Policy for Security Roles](/docs/groupid/11.0/groupid/admincenter/securityrole/policy/authentication.md)
+- [Configure Second Factor Authentication](/docs/groupid/11.0/groupid/admincenter/setupauth/sfa.md)
+- [Configure Multifactor Authentication](/docs/groupid/11.0/groupid/admincenter/setupauth/mfa.md)
+- [Second Way Authentication - SWA](/docs/groupid/11.0/groupid/admincenter/identitystore/configure/security/secondwayauthentication.md)
+- [Enroll with Authentication Types](/docs/groupid/11.0/groupid/admincenter/enroll.md)
+- [Authenticate with Authentication Types](/docs/groupid/11.0/groupid/admincenter/authenticate.md)

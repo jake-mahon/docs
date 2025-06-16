@@ -102,7 +102,7 @@ Example 2:
 The following command creates a new mail-enabled, universal, distribution, multi-level Dynasty with
 the group-by attributes **Country, State** and **City** based on the specified filters and
 separator, using the credentials set in the **$Credentials** environment variable. See the
-[Set the $Credentials Environment Variable](/versioned_docs/groupid_11.0/groupid/managementshell/parameters/setthecredential.md)
+[Set the $Credentials Environment Variable](/docs/groupid/11.0/groupid/managementshell/parameters/setthecredential.md)
 topic for setting credentials in an environment variable.
 
 ```
@@ -122,6 +122,6 @@ New-Dynasty -OrganizationalUnit "OU=Recruiting,DC=HR,DC=Imanami,DC=US" -Name "Ma
 
 See Also
 
-- [All Commands](/versioned_docs/groupid_11.0/groupid/managementshell/commands.md)
-- [Dynasty Commands](/versioned_docs/groupid_11.0/groupid/managementshell/dynasty/overview.md)
-- [Parameters](/versioned_docs/groupid_11.0/groupid/managementshell/parameters/parameters.md)
+- [All Commands](/docs/groupid/11.0/groupid/managementshell/commands.md)
+- [Dynasty Commands](/docs/groupid/11.0/groupid/managementshell/dynasty/overview.md)
+- [Parameters](/docs/groupid/11.0/groupid/managementshell/parameters/parameters.md)

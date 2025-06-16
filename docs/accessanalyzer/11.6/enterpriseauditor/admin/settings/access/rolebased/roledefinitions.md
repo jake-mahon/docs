@@ -216,7 +216,7 @@ specific reports at:
 - Report Configuration level – **[Job]** > **Configure** > **Reports** node. Click **Configure**
   next to the report, and navigate to the Publish Security page of the Report Configuration wizard.
   See the
-  [Publish Security Page](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/report/wizard/publishsecurity.md) topic
+  [Publish Security Page](/docs/accessanalyzer/11.6/enterpriseauditor/admin/report/wizard/publishsecurity.md) topic
   for additional information.
 
 | ![Job Group Level](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/settings/access/rolebased/reportviewerjobgroup.webp) | ![Job Level](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/settings/access/rolebased/reportviewerjob.webp) | ![Report Configuration Level](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/settings/access/rolebased/reportviewerreport.webp) |

@@ -11,10 +11,10 @@ filters will scope results returned.
 
 Set the filters as desired and click **Search**. The application searches through the appropriate
 activity log files and returns the events that match the filters. You can
-[Filter](/versioned_docs/activitymonitor_7.1/activitymonitor/admin/search/overview.md#filter) and
-[Sort](/versioned_docs/activitymonitor_7.1/activitymonitor/admin/search/overview.md#sort) the
+[Filter](/docs/activitymonitor/7.1/activitymonitor/admin/search/overview.md#filter) and
+[Sort](/docs/activitymonitor/7.1/activitymonitor/admin/search/overview.md#sort) the
 results using the column headers. Below the Search button is the
-[Export](/versioned_docs/activitymonitor_7.1/activitymonitor/admin/search/overview.md#export)
+[Export](/docs/activitymonitor/7.1/activitymonitor/admin/search/overview.md#export)
 option.
 
 Filter Value Entry
@@ -55,7 +55,7 @@ The sections have the following filters:
 
     - Specify account or group (...) – The ellipsis button beside the User textbox opens the Specify
       account or group window. Use this window to resolve the account for the user. See the
-      [Specify Account or Group Window](/versioned_docs/activitymonitor_7.1/activitymonitor/admin/outputs/window/specifywindowsaccount.md)
+      [Specify Account or Group Window](/docs/activitymonitor/7.1/activitymonitor/admin/outputs/window/specifywindowsaccount.md)
       topic for additional information.
 
 - GID

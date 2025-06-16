@@ -21,19 +21,19 @@ The selected connector details display at the top of the main pane:
 - Connector Type — Indicates the type of integration:
 
     - BYOV — Configure integration with any vault, or Bring Your Own Vault. See the
-      [Bring Your Own Vault (BYOV) Integration](/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/configuration/add/integrationbyov.md)
+      [Bring Your Own Vault (BYOV) Integration](/docs/privilegesecure/4.1/privilegesecure/accessmanagement/admin/configuration/add/integrationbyov.md)
       topic for additional information.
     - CyberArk — Configure integration with CyberArk. See the
-      [CyberArk Integration](/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/configuration/add/integrationcyberark.md)
+      [CyberArk Integration](/docs/privilegesecure/4.1/privilegesecure/accessmanagement/admin/configuration/add/integrationcyberark.md)
       topic for additional information.
     - HashiCorp — Configure integration with HashiCorp. See the
-      [HashiCorp Integration](/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/configuration/add/integrationhashicorp.md)
+      [HashiCorp Integration](/docs/privilegesecure/4.1/privilegesecure/accessmanagement/admin/configuration/add/integrationhashicorp.md)
       topic for additional information.
     - LAPS — Configure integration with LAPS. See the
-      [LAPS Integration](/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/configuration/add/integrationlaps.md)
+      [LAPS Integration](/docs/privilegesecure/4.1/privilegesecure/accessmanagement/admin/configuration/add/integrationlaps.md)
       topic for additional information.
     - StealthAUDIT — Configure integration with Netwrix Enterprise Auditor. See the
-      [StealthAUDIT Integration](/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/configuration/add/integrationaccessgovernance.md)
+      [StealthAUDIT Integration](/docs/privilegesecure/4.1/privilegesecure/accessmanagement/admin/configuration/add/integrationaccessgovernance.md)
       topic for additional information.
 
     **NOTE:** The remaining fields vary based on the type selected.

@@ -46,7 +46,7 @@ The CSV file should list one resource per row using the following format:
 _Remember,_ if the CSV file contains resources other than just Groups, this method only imports
 resources with owners. It will be necessary to update each resource to enable Access Requests and
 Owner Ad Hoc changes. See the
-[Update Resource Wizard](/versioned_docs/accessinformationcenter_11.6/access/informationcenter/resourceowners/wizard/update.md)
+[Update Resource Wizard](/docs/accessinformationcenter/11.6/access/informationcenter/resourceowners/wizard/update.md)
 topic for additional information.
 
 See the [Import Owners](#import-owners) topic for additional information.
@@ -97,5 +97,5 @@ from the table.
 **Close**. The Import Owners wizard closes.
 
 These resources are now being manages by the Access Information Center. See the
-[Update Resource Wizard](/versioned_docs/accessinformationcenter_11.6/access/informationcenter/resourceowners/wizard/update.md)
+[Update Resource Wizard](/docs/accessinformationcenter/11.6/access/informationcenter/resourceowners/wizard/update.md)
 topic for information on making alterations to the imported resources.

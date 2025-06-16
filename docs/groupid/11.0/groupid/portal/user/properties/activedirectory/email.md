@@ -20,4 +20,4 @@ messaging provider for the identity store.
 
 **See Also**
 
-- [User Properties](/versioned_docs/groupid_11.0/groupid/portal/user/properties/overview.md)
+- [User Properties](/docs/groupid/11.0/groupid/portal/user/properties/overview.md)

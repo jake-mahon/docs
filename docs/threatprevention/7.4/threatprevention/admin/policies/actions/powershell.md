@@ -25,7 +25,7 @@ Follow the steps to add a PowerShell 4.0 action to a policy/template.
 ![Script Editor for PowerShell Scripts](/img/versioned_docs/threatprevention_7.4/threatprevention/admin/policies/actions/scripteditorforps.webp)
 
 **Step 4 –** Create or copy/paste the custom script in the Threat Prevention Script Editor. See the
-[Threat Prevention Script Editor Tools](/versioned_docs/threatprevention_7.4/threatprevention/admin/policies/actions/netscript.md#threat-prevention-script-editor-tools)
+[Threat Prevention Script Editor Tools](/docs/threatprevention/7.4/threatprevention/admin/policies/actions/netscript.md#threat-prevention-script-editor-tools)
 topic for additional information, i.e. Run for testing and Encrypt functionality. See the
 [Default PowerShell 4.0 Script](#default-powershell-40-script) topic for the default custom script.
 Save and close.

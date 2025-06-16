@@ -24,14 +24,14 @@ and permissions in a Microsoft® Active Directory® environment described in thi
 subtopics. This solution employs the following data collectors to scan for groups, users, computers,
 passwords, permissions, group policies, and domain information:
 
-- [ADInventory Data Collector](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/adinventory/overview.md)
-- [ActiveDirectory Data Collector](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/activedirectory/overview.md)
-- [ADActivity Data Collector](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/adactivity/overview.md)
-- [GroupPolicy Data Collector](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/grouppolicy/overview.md)
-- [LDAP Data Collector](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/ldap.md)
-- [PasswordSecurity Data Collector](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/passwordsecurity/overview.md)
-- [PowerShell Data Collector](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/powershell/overview.md)
-- [Registry Data Collector](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/registry.md)
+- [ADInventory Data Collector](/docs/accessanalyzer/11.6/enterpriseauditor/admin/datacollector/adinventory/overview.md)
+- [ActiveDirectory Data Collector](/docs/accessanalyzer/11.6/enterpriseauditor/admin/datacollector/activedirectory/overview.md)
+- [ADActivity Data Collector](/docs/accessanalyzer/11.6/enterpriseauditor/admin/datacollector/adactivity/overview.md)
+- [GroupPolicy Data Collector](/docs/accessanalyzer/11.6/enterpriseauditor/admin/datacollector/grouppolicy/overview.md)
+- [LDAP Data Collector](/docs/accessanalyzer/11.6/enterpriseauditor/admin/datacollector/ldap.md)
+- [PasswordSecurity Data Collector](/docs/accessanalyzer/11.6/enterpriseauditor/admin/datacollector/passwordsecurity/overview.md)
+- [PowerShell Data Collector](/docs/accessanalyzer/11.6/enterpriseauditor/admin/datacollector/powershell/overview.md)
+- [Registry Data Collector](/docs/accessanalyzer/11.6/enterpriseauditor/admin/datacollector/registry.md)
 
 ## Permissions
 

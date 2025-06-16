@@ -2,7 +2,7 @@
 
 The core components for Netwrix Enterprise Auditor are the Enterprise Auditor Console server, SQL
 Server, and Access Information Center. See the
-[Requirements](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/requirements/overview.md)
+[Requirements](/docs/accessanalyzer/11.6/enterpriseauditor/requirements/overview.md)
 topic for the core requirements.
 
 In addition to these, integration with either the Netwrix Activity Monitor or the Netwrix Threat
@@ -16,7 +16,7 @@ The Sensitive Data Discovery Add-On must be installed on the Enterprise Auditor 
 which enables Sensitive Data criteria for scans.
 
 See the
-[Target Dropbox Requirements, Permissions, and Ports](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/requirements/target/dropbox.md)
+[Target Dropbox Requirements, Permissions, and Ports](/docs/accessanalyzer/11.6/enterpriseauditor/requirements/target/dropbox.md)
 topic for target environment requirements.
 
 ## Dropbox Solution Requirements on the Enterprise Auditor Console

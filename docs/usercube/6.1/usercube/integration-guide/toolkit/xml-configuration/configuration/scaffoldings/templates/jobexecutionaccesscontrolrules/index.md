@@ -5,16 +5,16 @@ instances, task instances and logs.
 
 The scaffolding generates the following scaffoldings:
 
-- [JobViewAccessControlRules](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/templates/jobviewaccesscontrolrules/index.md):
+- [JobViewAccessControlRules](/docs/usercube/6.1/usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/templates/jobviewaccesscontrolrules/index.md):
   Scaffolding to generate a set of rights to view all JobInstances, TaskInstances and logs.
-- [RunJobAdministrationAccessControlRules](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/jobs/runjobadministrationaccesscontrolrules/index.md):
+- [RunJobAdministrationAccessControlRules](/docs/usercube/6.1/usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/jobs/runjobadministrationaccesscontrolrules/index.md):
   Generates the permissions to launch jobs from UI for a given profile.
-- [RunJobNotificationAccessControlRules](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/jobs/runjobnotificationaccesscontrolrules/index.md):
+- [RunJobNotificationAccessControlRules](/docs/usercube/6.1/usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/jobs/runjobnotificationaccesscontrolrules/index.md):
   Generates access control to send notification when job finish with an error state.
-- [RunJobRepairAdministrationAccessControlRules](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/jobs/runjobrepairadministrationaccesscontrolrules/index.md):
+- [RunJobRepairAdministrationAccessControlRules](/docs/usercube/6.1/usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/jobs/runjobrepairadministrationaccesscontrolrules/index.md):
   Generates the permissions to launch from UI jobs that are in state blocked after a Provisioning or
   a synchronization for a given profile.
-- [RunJobRepairNotificationAccessControlRules](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/jobs/runjobrepairnotificationaccesscontrolrules/index.md):
+- [RunJobRepairNotificationAccessControlRules](/docs/usercube/6.1/usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/jobs/runjobrepairnotificationaccesscontrolrules/index.md):
   Generates access control to send notification when a relaunch job finish with an error state.
 
 ## Examples

@@ -35,13 +35,13 @@ displayed to the users with the required permissions to issue the release.
 
 All user with the required permissions to issue the release will be notified that the user has
 requested the seal. This can be viewed via the module
-[Notifications](/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/advanced_view/clientmodule/notifications/notifications.md),
+[Notifications](/docs/passwordsecure/9.1/passwordsecure/configuration/advanced_view/clientmodule/notifications/notifications.md),
 as well as in the Seal overview.
 
 ## 2. Granting a release
 
 The
-[Seal overview](/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/advanced_view/permissionconcept/predefining_rights/protective_mechanisms/seals/seals_overview/seal_overview.md)
+[Seal overview](/docs/passwordsecure/9.1/passwordsecure/configuration/advanced_view/permissionconcept/predefining_rights/protective_mechanisms/seals/seals_overview/seal_overview.md)
 can be opened via the seal symbol in the ribbon directly from the mentioned notification. It is
 indicated by the corresponding icon that there is a need for action. All relevant data for a release
 are illustrated within the seal overview. The reason given in the release is also evident.

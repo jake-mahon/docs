@@ -19,5 +19,5 @@ can easily reduce the exposure of your sensitive data.
 
 See next:
 
-- [Managing Workflows](/versioned_docs/dataclassification_5.6.2/ndc/workflows/managing_workflows.md)
-- [Workflow Actions](/versioned_docs/dataclassification_5.6.2/ndc/workflows/actions/actions.md)
+- [Managing Workflows](/docs/dataclassification/5.6.2/ndc/workflows/managing_workflows.md)
+- [Workflow Actions](/docs/dataclassification/5.6.2/ndc/workflows/actions/actions.md)

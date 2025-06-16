@@ -76,5 +76,5 @@ section above.
 
 See Also
 
-- [What does the Preparation Tool Install](/versioned_docs/groupid_11.0/groupid/install/installer/whatprepinstall.md)
-- [ Installer](/versioned_docs/groupid_11.0/groupid/install/installer/installer.md)
+- [What does the Preparation Tool Install](/docs/groupid/11.0/groupid/install/installer/whatprepinstall.md)
+- [ Installer](/docs/groupid/11.0/groupid/install/installer/installer.md)

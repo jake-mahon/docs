@@ -8,7 +8,7 @@ Pool User, Windows Services) or by using specific connection details.
 
 Once connected it is possible to create an intelligent content mapping, crawling certain fields as
 unstructured index text, and other fields as mapped metadata. For more information please see the
-[Database Configuration Wizard](/versioned_docs/dataclassification_5.6.2/ndc/sources/database/database_config_wizard.md)
+[Database Configuration Wizard](/docs/dataclassification/5.6.2/ndc/sources/database/database_config_wizard.md)
 section.
 
 If you wish to make other configuration changes before collection of the source occurs ensure you
@@ -30,4 +30,4 @@ Complete the following fields:
 
 After the source configuration is completed, you will be prompted to lauch SQL crawling
 configuration wizard.
-[See Database Configuration Wizard for more information.](/versioned_docs/dataclassification_5.6.2/ndc/sources/database/database_config_wizard.md)
+[See Database Configuration Wizard for more information.](/docs/dataclassification/5.6.2/ndc/sources/database/database_config_wizard.md)

@@ -47,5 +47,5 @@ On the What do you want to do step, select Migrate Document action. do the follo
 
 To modify action settings for the certain workflow, select the workflow and use the Advanced UI
 window. See
-[Modify Migration action settings](/versioned_docs/dataclassification_5.6.2/ndc/workflows/advanced_window/advanced_window_migration.md)
+[Modify Migration action settings](/docs/dataclassification/5.6.2/ndc/workflows/advanced_window/advanced_window_migration.md)
 for more information.

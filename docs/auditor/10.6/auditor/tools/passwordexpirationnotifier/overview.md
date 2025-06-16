@@ -18,8 +18,8 @@ Review the following for additional information:
 
 - [Configure Password Expiration Alerting](#configure-password-expiration-alerting)
 - [Registry Key Configuration](#registry-key-configuration)
-- [Password Expiration Notifier Ports](/versioned_docs/auditor_10.6/auditor/tools/passwordexpirationnotifier/ports.md)
-- [Password Expiration Monitoring Scope](/versioned_docs/auditor_10.6/auditor/tools/passwordexpirationnotifier/monitoringscope.md)
+- [Password Expiration Notifier Ports](/docs/auditor/10.6/auditor/tools/passwordexpirationnotifier/ports.md)
+- [Password Expiration Monitoring Scope](/docs/auditor/10.6/auditor/tools/passwordexpirationnotifier/monitoringscope.md)
 
 ## Configure Password Expiration Alerting
 
@@ -42,7 +42,7 @@ new monitoring plan.
 
 | Option                                                                     | Description                                                                                                                                                                                                                                                                                                                                            |
 | -------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| Specify account which will be used to collect data: - User name - Password | Enter the account which will be used for data collection. For a full list of the rights and permissions of this account, and instructions on how to configure them, refer to [Monitoring Plans](/versioned_docs/auditor_10.6/auditor/admin/monitoringplans/overview.md).                                                                               |
+| Specify account which will be used to collect data: - User name - Password | Enter the account which will be used for data collection. For a full list of the rights and permissions of this account, and instructions on how to configure them, refer to [Monitoring Plans](/docs/auditor/10.6/auditor/admin/monitoringplans/overview.md).                                                                               |
 | Filter users by organizational unit                                        | To audit users for expiring accounts/passwords that belong to certain organizational units within your Active Directory domain, select this option and click Select OUs. In the dialog that opens, specify the OUs that you want to audit. Only users belonging to these OUs will be notified and included in the administrators and managers reports. |
 | Filter users by group                                                      | To audit users for expiring accounts/passwords that belong to certain groups within your Active Directory domain, select this option and click Select Groups. In the dialog that opens, specify the groups that you want to audit. Only users belonging to these groups will be notified and included in the administrators and managers reports.      |
 | Filter by account name                                                     | Specify one or several user account names (e.g., \*John\*). Use semicolon to separate several names. Only user accounts that contain selected name will be notified and included in the administrators and managers reports.                                                                                                                           |

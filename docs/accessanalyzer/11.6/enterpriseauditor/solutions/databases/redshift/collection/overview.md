@@ -8,10 +8,10 @@ and for producing respective reports.
 
 The jobs in the 0.Collection Job Group are:
 
-- [Redshift_Configuration Job](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/databases/redshift/collection/redshift_configuration.md)
+- [Redshift_Configuration Job](/docs/accessanalyzer/11.6/enterpriseauditor/solutions/databases/redshift/collection/redshift_configuration.md)
   — Returns additional configuration settings from Redshift servers
-- [Redshift_SensitiveDataScan Job](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/databases/redshift/collection/redshift_sensitivedatascan.md)
+- [Redshift_SensitiveDataScan Job](/docs/accessanalyzer/11.6/enterpriseauditor/solutions/databases/redshift/collection/redshift_sensitivedatascan.md)
   — Discovers sensitive data in PostgreSQL databases based on pre-defined or user-defined search
   criteria
-- [Redshift_TablePrivileges Job](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/databases/redshift/collection/redshift_tableprivileges.md) -
+- [Redshift_TablePrivileges Job](/docs/accessanalyzer/11.6/enterpriseauditor/solutions/databases/redshift/collection/redshift_tableprivileges.md) -
   Designed to collect Redshift table privileges from all the targeted servers.

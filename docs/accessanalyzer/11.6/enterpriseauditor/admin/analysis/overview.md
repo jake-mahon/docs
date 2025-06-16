@@ -3,7 +3,7 @@
 The Enterprise Auditor analysis modules are capable of finding unique data and notifying users of
 its location from a variety of environments. Analysis modules are assigned to a job at the
 **Configure** > **Analysis** node. See the
-[Analysis Node](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/jobs/job/configure/analysis.md)
+[Analysis Node](/docs/accessanalyzer/11.6/enterpriseauditor/admin/jobs/job/configure/analysis.md)
 topic for information on the Analysis Selection view.
 
 ![Configure an analysis](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/analysis/configure.webp)
@@ -23,14 +23,14 @@ Auditor.
 
 | Analysis Module                                                                                                                         | Description                                                                                     |
 | --------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------- |
-| [AutoAction Analysis Module](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/analysis/autoaction.md)                     | Performs a specified action at the conclusion of an analysis task’s execution                   |
-| [Business Rules Analysis Module](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/analysis/businessrules/overview.md)     | Finds data that does not match user expectations for the target environment                     |
-| [Change Detection Analysis Module](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/analysis/changedetection/overview.md) | Notifies when a change occurs in the results of a job and identifies the location of the change |
-| [Notification Analysis Module](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/analysis/notification/overview.md)        | Sends notifications to specified recipients when a specified event occurs                       |
-| [SQLscripting Analysis Module](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/analysis/sqlscripting.md)                 | Executes free-form SQL scripts                                                                  |
+| [AutoAction Analysis Module](/docs/accessanalyzer/11.6/enterpriseauditor/admin/analysis/autoaction.md)                     | Performs a specified action at the conclusion of an analysis task’s execution                   |
+| [Business Rules Analysis Module](/docs/accessanalyzer/11.6/enterpriseauditor/admin/analysis/businessrules/overview.md)     | Finds data that does not match user expectations for the target environment                     |
+| [Change Detection Analysis Module](/docs/accessanalyzer/11.6/enterpriseauditor/admin/analysis/changedetection/overview.md) | Notifies when a change occurs in the results of a job and identifies the location of the change |
+| [Notification Analysis Module](/docs/accessanalyzer/11.6/enterpriseauditor/admin/analysis/notification/overview.md)        | Sends notifications to specified recipients when a specified event occurs                       |
+| [SQLscripting Analysis Module](/docs/accessanalyzer/11.6/enterpriseauditor/admin/analysis/sqlscripting.md)                 | Executes free-form SQL scripts                                                                  |
 | SQLTrend                                                                                                                                | Legacy action module                                                                            |
-| [SQLViewCreation Analysis Module](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/analysis/sqlviewcreation/overview.md)  | Provides a scripting wizard for creating SQL tables or views                                    |
-| [VBscripting Analysis Module](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/analysis/vbscripting.md)                   | Executes free-form VB scripts                                                                   |
+| [SQLViewCreation Analysis Module](/docs/accessanalyzer/11.6/enterpriseauditor/admin/analysis/sqlviewcreation/overview.md)  | Provides a scripting wizard for creating SQL tables or views                                    |
+| [VBscripting Analysis Module](/docs/accessanalyzer/11.6/enterpriseauditor/admin/analysis/vbscripting.md)                   | Executes free-form VB scripts                                                                   |
 
 ## Executing Analyses
 
@@ -64,7 +64,7 @@ The Analysis Selection page has the following options:
 - Select All – Enables/disables all tasks in the list
 - The **Validate**, **Validate Selected**, and **Edit Rules** buttons are specific to the Business
   Rules Analysis Module. See the
-  [Business Rules Analysis Module](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/analysis/businessrules/overview.md)
+  [Business Rules Analysis Module](/docs/accessanalyzer/11.6/enterpriseauditor/admin/analysis/businessrules/overview.md)
   topic for additional information on these buttons.
 
 ## Analysis Properties Page

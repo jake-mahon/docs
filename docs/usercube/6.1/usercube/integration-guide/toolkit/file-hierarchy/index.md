@@ -12,15 +12,15 @@ Element `<ConfigurationFile>` is the root element of each configuration file.
 
 Each configuration element matches to an entry in the database. Detailed description of the element
 can be found in the
-[Data model part of this documentation](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/index.md).
+[Data model part of this documentation](/docs/usercube/6.1/usercube/integration-guide/toolkit/xml-configuration/index.md).
 
 For exemple, structure of the `<Connector>` element wil be found
-[here](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/connectors/index.md).
+[here](/docs/usercube/6.1/usercube/integration-guide/toolkit/xml-configuration/connectors/index.md).
 
 In some case, the element name will not match directly the data model type name.
 
 For exemple, the element `<Entry>` in the following XML fragment is a
-[AccessControlEntry](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/access-control/accesscontrolrule/index.md)
+[AccessControlEntry](/docs/usercube/6.1/usercube/integration-guide/toolkit/xml-configuration/access-control/accesscontrolrule/index.md)
 item in the database.
 
 ```

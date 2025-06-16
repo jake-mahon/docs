@@ -17,7 +17,7 @@ you can choose to focus on:
 - a certain type of assignment;
 - assignments not certified since a certain date;
 - assignments presenting a certain level of
-  [risk](/versioned_docs/usercube_6.1/usercube/user-guide/optimize/risk-management/index.md).
+  [risk](/docs/usercube/6.1/usercube/user-guide/optimize/risk-management/index.md).
 
 Usercube uses an access certification campaign to define the campaign's scope including:
 
@@ -26,9 +26,9 @@ Usercube uses an access certification campaign to define the campaign's scope in
 
 Every entitlement assignment to be certified is represented in the database by an access
 certification item, created along with a new campaign, according to
-[access certification data filters](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/access-certification/accesscertificationdatafilter/index.md)
+[access certification data filters](/docs/usercube/6.1/usercube/integration-guide/toolkit/xml-configuration/access-certification/accesscertificationdatafilter/index.md)
 and
-[access certification owner filters](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/access-certification/accesscertificationownerfilter/index.md).
+[access certification owner filters](/docs/usercube/6.1/usercube/integration-guide/toolkit/xml-configuration/access-certification/accesscertificationownerfilter/index.md).
 
 The relevant database tables are prefixed with `US_`.
 
@@ -36,18 +36,18 @@ The relevant database tables are prefixed with `US_`.
 
 After the campaign's creation, access certification items are assigned to reviewers (Usercube
 end-users) by the
-[`CreateAccessCertificationJob`](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/jobs/createaccesscertificationjob/index.md),
+[`CreateAccessCertificationJob`](/docs/usercube/6.1/usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/jobs/createaccesscertificationjob/index.md),
 composed of the following tasks:
 
-1. [`Usercube-Update-AccessCertificationCampaign`](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/jobs/tasks/server/updateaccesscertificationcampaigntask/index.md)
+1. [`Usercube-Update-AccessCertificationCampaign`](/docs/usercube/6.1/usercube/integration-guide/toolkit/xml-configuration/jobs/tasks/server/updateaccesscertificationcampaigntask/index.md)
    simply applies the campaign's scope, determines which permissions are to be certified, by
    computing certification orders;
-2. [`Usercube-Set-AccessCertificationReviewer`](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/jobs/tasks/server/setaccesscertificationreviewertask/index.md)
+2. [`Usercube-Set-AccessCertificationReviewer`](/docs/usercube/6.1/usercube/integration-guide/toolkit/xml-configuration/jobs/tasks/server/setaccesscertificationreviewertask/index.md)
    assigns one review for each access certification item to end-users whose profile's scope of
    responsibility matches the entitlement to be certified;
-3. [`Usercube-Send-AccessCertificationNotification`](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/jobs/tasks/server/sendaccesscertificationnotificationtask/index.md)
+3. [`Usercube-Send-AccessCertificationNotification`](/docs/usercube/6.1/usercube/integration-guide/toolkit/xml-configuration/jobs/tasks/server/sendaccesscertificationnotificationtask/index.md)
    sends notifications to concerned reviewers.
-4. [`Usercube-Process-AccessCertificationItems`](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/jobs/tasks/server/processaccesscertificationitemstask/index.md)
+4. [`Usercube-Process-AccessCertificationItems`](/docs/usercube/6.1/usercube/integration-guide/toolkit/xml-configuration/jobs/tasks/server/processaccesscertificationitemstask/index.md)
    processes the access certification item decisions and generates the corresponding deprovisioning
    orders.
 
@@ -64,17 +64,17 @@ Configuring the Access Certification module entails:
 At least one Usercube profile needs permissions to create campaigns.
 
 Such permission can be granted using the
-[`AccessReviewAdministrationAccessControlRules`](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/accessreviews/accessreviewadministrationaccesscontrolrules/index.md)
+[`AccessReviewAdministrationAccessControlRules`](/docs/usercube/6.1/usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/accessreviews/accessreviewadministrationaccesscontrolrules/index.md)
 scaffolding.
 
 The administrator profile, created with
-[`CreateAdministratorProfile`](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/templates/createadministratorprofile/index.md)
+[`CreateAdministratorProfile`](/docs/usercube/6.1/usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/templates/createadministratorprofile/index.md)
 scaffolding, already has these permissions.
 
 If you are not using the
-[`AccessReviewAdministrationAccessControlRules`](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/accessreviews/accessreviewadministrationaccesscontrolrules/index.md)
+[`AccessReviewAdministrationAccessControlRules`](/docs/usercube/6.1/usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/accessreviews/accessreviewadministrationaccesscontrolrules/index.md)
 scaffolding, the user cannot query on dimensions when editing the
-[owner filters](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/access-certification/accesscertificationownerfilter/index.md),
+[owner filters](/docs/usercube/6.1/usercube/integration-guide/toolkit/xml-configuration/access-certification/accesscertificationownerfilter/index.md),
 so you need to give the permissions on the correct contexts:
 
 ```
@@ -90,7 +90,7 @@ entitlements this profile will certify. For example, the `Manager` profile is re
 reviewing entitlement assignments of identities working in their department.
 
 A profile's scope of responsibility is configured by giving access, with
-[access control rules](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/access-control/accesscontrolrule/index.md),
+[access control rules](/docs/usercube/6.1/usercube/integration-guide/toolkit/xml-configuration/access-control/accesscontrolrule/index.md),
 to a specific set of access certification items that match the profile's scope of responsibility
 criteria.
 
@@ -151,7 +151,7 @@ end-users with the `Manager` profile.
 If the filter criterion is matched for several end-users, only one is assigned the certification
 item, and this assignment is made randomly. Therefore, in order to have a cleaner reviewing
 architecture, it is recommended to carefully set the `Filter` attributes in the
-[access control rules](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/access-control/accesscontrolrule/index.md)
+[access control rules](/docs/usercube/6.1/usercube/integration-guide/toolkit/xml-configuration/access-control/accesscontrolrule/index.md)
 so that no two end-users' scope of responsibility overlap.
 
 #### Forwarded assignments
@@ -178,7 +178,7 @@ assigned ones.
 ### Certification policy
 
 Scopes of responsibility can also be defined in terms of
-[access certification campaign policy](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/access-certification/accesscertificationcampaignpolicy/index.md).
+[access certification campaign policy](/docs/usercube/6.1/usercube/integration-guide/toolkit/xml-configuration/access-certification/accesscertificationcampaignpolicy/index.md).
 
 Assigning an access certification campaign policy to an access certification campaign allows the
 creation of campaigns dedicated specifically to one set of reviewers.
@@ -196,7 +196,7 @@ It automatically appears on the campaign creation screen, and binds itself to th
 ![Campaign creation screen with policies](/img/versioned_docs/usercube_6.1/usercube/integration-guide/governance/accesscertification/creation_5.1.6.webp)
 
 To use it, modify the
-[access control rules](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/access-control/accesscontrolrule/index.md)
+[access control rules](/docs/usercube/6.1/usercube/integration-guide/toolkit/xml-configuration/access-control/accesscontrolrule/index.md)
 by adding a filter on the campaign policy.
 
 ##### Example
@@ -232,9 +232,9 @@ The user needs to have the correct permission to launch the item processing:
 ```
 
 It is also possible to add
-[access control filters](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/access-control/accesscontrolrule/index.md)
+[access control filters](/docs/usercube/6.1/usercube/integration-guide/toolkit/xml-configuration/access-control/accesscontrolrule/index.md)
 when creating the permission set so that users can only access certain type of campaigns.
 
 This permission also is given by the
-[`AccessReviewAdministrationAccessControlRules`](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/accessreviews/accessreviewadministrationaccesscontrolrules/index.md)
+[`AccessReviewAdministrationAccessControlRules`](/docs/usercube/6.1/usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/accessreviews/accessreviewadministrationaccesscontrolrules/index.md)
 scaffolding.

@@ -16,7 +16,7 @@ Configure the credential(s) with the following rights on the proxy server(s):
   privilege
 
     - See the
-      [FSAA: Applet Settings](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/fsaa/appletsettings.md)
+      [FSAA: Applet Settings](/docs/accessanalyzer/11.6/enterpriseauditor/admin/datacollector/fsaa/appletsettings.md)
       topic for additional information on the applet launch mechanism
 
 - If running FSAC, the service account in the credential profile requires access to the admin share
@@ -58,7 +58,7 @@ explained above. Also the firewall rules must be configured to allow for communi
 applicable servers.
 
 See the
-[Proxy Mode with Applet Port Requirements](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/requirements/solutions/filesystem/proxymodeappletports.md)
+[Proxy Mode with Applet Port Requirements](/docs/accessanalyzer/11.6/enterpriseauditor/requirements/solutions/filesystem/proxymodeappletports.md)
 topic for firewall rule information.
 
 Secure Proxy Communication Considerations
@@ -66,5 +66,5 @@ Secure Proxy Communication Considerations
 For Proxy Mode with Applet scans, the certificate exchange mechanism and certificate exchange port
 must be configured via the File System Access Auditing Data Collector Wizard prior to executing a
 scan. See the
-[FSAA Applet Certificate Management Overview](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/fsaa/certificatemanagement.md)
+[FSAA Applet Certificate Management Overview](/docs/accessanalyzer/11.6/enterpriseauditor/admin/datacollector/fsaa/certificatemanagement.md)
 topic for additional information.

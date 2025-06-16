@@ -2,7 +2,7 @@
 
 The core components for Netwrix Enterprise Auditor are the Enterprise Auditor Console server, SQL
 Server, and Access Information Center. See the
-[Requirements](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/requirements/overview.md)
+[Requirements](/docs/accessanalyzer/11.6/enterpriseauditor/requirements/overview.md)
 topic for the core requirements.
 
 In addition to these, integration with either the Netwrix Activity Monitor or the Netwrix Threat
@@ -13,7 +13,7 @@ the
 for installation requirements and information on collecting activity data.
 
 See the
-[Active Directory Domain Target Requirements](/versioned_docs/enterpriseauditor_11.6/config/activedirectory/overview.md)
+[Active Directory Domain Target Requirements](/docs/accessanalyzer/11.6/config/activedirectory/overview.md)
 topic for target environment requirements.
 
 ## Active Directory Solution Requirements on the Enterprise Auditor Console

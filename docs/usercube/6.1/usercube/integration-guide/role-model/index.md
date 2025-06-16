@@ -5,10 +5,10 @@ composed mainly of roles, representing entitlements, and rules, enforcing the co
 policies.
 
 Make sure to read the
-[introduction on entitlement management](/versioned_docs/usercube_6.1/usercube/introduction-guide/overview/entitlement-management/index.md)
+[introduction on entitlement management](/docs/usercube/6.1/usercube/introduction-guide/overview/entitlement-management/index.md)
 first.
 
-[See more information about role assignments](/versioned_docs/usercube_6.1/usercube/integration-guide/role-assignment/index.md).
+[See more information about role assignments](/docs/usercube/6.1/usercube/integration-guide/role-assignment/index.md).
 
 ## Roles
 
@@ -27,7 +27,7 @@ In this way, the role model can be seen as a
 ## Assignment Rules
 
 An
-[assignment rule](/versioned_docs/usercube_6.1/usercube/user-guide/optimize/assignment-automation/automate-role-assignment/index.md)
+[assignment rule](/docs/usercube/6.1/usercube/user-guide/optimize/assignment-automation/automate-role-assignment/index.md)
 gives an entitlement to a user, usually based on (at least) one criterion from the user's data.
 Assignment rules are:
 
@@ -48,17 +48,17 @@ it does not override the managed systems' authorization mechanisms.
 
 The company's policy for entitlement assignment is enforced by Usercube with the the computation of
 the role model, through the
-[`ComputeRoleModelTask`](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/jobs/tasks/server/computerolemodeltask/index.md).
+[`ComputeRoleModelTask`](/docs/usercube/6.1/usercube/integration-guide/toolkit/xml-configuration/jobs/tasks/server/computerolemodeltask/index.md).
 It applies all the configured rules, thus:
 
 - helping build a catalog of all available entitlements in the managed systems, see
-  [role naming conventions](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/single-roles-catalog-creation/role-naming-rule-creation/index.md);
+  [role naming conventions](/docs/usercube/6.1/usercube/user-guide/set-up/single-roles-catalog-creation/role-naming-rule-creation/index.md);
 - helping build the rules that define the assignment policy, i.e. the expected entitlement
   assignments for all users, see the
-  [role mining](/versioned_docs/usercube_6.1/usercube/user-guide/optimize/assignment-automation/role-mining/index.md);
+  [role mining](/docs/usercube/6.1/usercube/user-guide/optimize/assignment-automation/role-mining/index.md);
 - automating entitlement assignment, see
-  [assignment rules](/versioned_docs/usercube_6.1/usercube/user-guide/optimize/assignment-automation/automate-role-assignment/index.md);
+  [assignment rules](/docs/usercube/6.1/usercube/user-guide/optimize/assignment-automation/automate-role-assignment/index.md);
 - generating the provisioning orders that enable writing to the managed systems, see
-  [provisioning rules](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/provisioning-rule-creation/index.md);
+  [provisioning rules](/docs/usercube/6.1/usercube/user-guide/set-up/provisioning-rule-creation/index.md);
 - detecting assignments in the managed systems that do not comply with the policy, see the
-  [review of non-conforming assignments](/versioned_docs/usercube_6.1/usercube/user-guide/administrate/non-conforming-assignment-review/index.md).
+  [review of non-conforming assignments](/docs/usercube/6.1/usercube/user-guide/administrate/non-conforming-assignment-review/index.md).

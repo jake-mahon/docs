@@ -29,14 +29,14 @@ settings. You can configure a folder on the application server to place copies o
 reports.
 
 See the
-[Folder Settings Page](/versioned_docs/threatprevention_7.4/threatprevention/reportingmodule/configuration/integrations/foldersettings.md)
+[Folder Settings Page](/docs/threatprevention/7.4/threatprevention/reportingmodule/configuration/integrations/foldersettings.md)
 topic for additional information.
 
 ## Send as Email
 
 **NOTE:** This option requires an email server to be configured. If this requirement is not met, a
 message will appear in the window. See
-the[Email Page](/versioned_docs/threatprevention_7.4/threatprevention/reportingmodule/configuration/integrations/email.md)
+the[Email Page](/docs/threatprevention/7.4/threatprevention/reportingmodule/configuration/integrations/email.md)
 topic for additional information.
 
 You can send the report data of an investigation as an attachment to an email. The attachment can be
@@ -71,7 +71,7 @@ The recipients will receive the report as an attachment to an email.
 
 **NOTE:** This option requires a shared folder to be configured.If this requirement is not met, a
 message will appear in the window. See the
-[Folder Settings Page](/versioned_docs/threatprevention_7.4/threatprevention/reportingmodule/configuration/integrations/foldersettings.md)
+[Folder Settings Page](/docs/threatprevention/7.4/threatprevention/reportingmodule/configuration/integrations/foldersettings.md)
 section for additional information.
 
 You can schedule to save the report data of an investigation to a shared folder. The file format can
@@ -122,5 +122,5 @@ The scheduled export is listed on the Subscriptions and Exports page of the Inve
 interface.
 
 See the
-[Subscriptions and Exports Page](/versioned_docs/threatprevention_7.4/threatprevention/reportingmodule/investigations/subscriptionsexports.md)
+[Subscriptions and Exports Page](/docs/threatprevention/7.4/threatprevention/reportingmodule/investigations/subscriptionsexports.md)
 topic for additional information.

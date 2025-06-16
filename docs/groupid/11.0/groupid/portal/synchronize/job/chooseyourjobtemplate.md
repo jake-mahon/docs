@@ -22,4 +22,4 @@ criteria. In addition to that, it also gives you multiple templates to directly 
 
 **See Also**
 
-- [Create a Job](/versioned_docs/groupid_11.0/groupid/portal/synchronize/job/create.md)
+- [Create a Job](/docs/groupid/11.0/groupid/portal/synchronize/job/create.md)

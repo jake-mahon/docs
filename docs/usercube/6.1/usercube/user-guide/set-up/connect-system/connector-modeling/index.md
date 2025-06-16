@@ -63,17 +63,17 @@ reality of said managed system.
 This sheet guides you through choosing the right model template for your connector. The actual
 technical implementation of the model will be tackled in the last part of the connector
 configuration:
-[entity type creation](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/connect-system/entity-type-creation/index.md).
+[entity type creation](/docs/usercube/6.1/usercube/user-guide/set-up/connect-system/entity-type-creation/index.md).
 
 **Connector model and roles:**
 
 The design of a model must take into account what is really going on inside the managed system in
 terms of entitlements, and be flexible enough to express it as roles in the context of the
-[role model](/versioned_docs/usercube_6.1/usercube/introduction-guide/overview/entitlement-management/index.md).
+[role model](/docs/usercube/6.1/usercube/introduction-guide/overview/entitlement-management/index.md).
 The role model is the universal RBAC/ABAC language used by Usercube to express all entitlements.
 
 You don't have to worry about this "role" part right now. It is going to be tackled during
-[single role catalog creation](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/single-roles-catalog-creation/index.md).
+[single role catalog creation](/docs/usercube/6.1/usercube/user-guide/set-up/single-roles-catalog-creation/index.md).
 At this point, you will take a look at the way roles are defined and linked to resources to
 represent entitlements. But the work starts here, by modeling the resources that exist in the
 managed system. Some of those resources, such as Active Directory groups, include interesting
@@ -89,7 +89,7 @@ managed systems.
 After defining the [useful data](#useful-data) that you need to model a given system, you also have
 to decide what data you need Usercube to write to the managed system. Usercube writing to an
 external system is called
-[provisioning](/versioned_docs/usercube_6.1/usercube/user-guide/administrate/provisioning/index.md).
+[provisioning](/docs/usercube/6.1/usercube/user-guide/administrate/provisioning/index.md).
 
 ## Participants and Artifacts
 
@@ -112,7 +112,7 @@ Define your connector model by proceeding as follows:
    reality of the data in your managed system.
 4. Ensure that all objects have at least one attribute that can serve as a key to be uniquely
    identified within Usercube. You will get more details about keys during
-   [entity type creation](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/connect-system/entity-type-creation/index.md).
+   [entity type creation](/docs/usercube/6.1/usercube/user-guide/set-up/connect-system/entity-type-creation/index.md).
 5. Ensure the following guidelines' enforcement:
 
     **Keep it simple**
@@ -124,7 +124,7 @@ Define your connector model by proceeding as follows:
     The model must be easy to understand. For this, adopt a business approach, i.e. make the model
     user-friendly and close to real activities. This functional approach is essential to the
     efficiency of data flows
-    ([synchronization](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/synchronization/index.md)/[provisioning](/versioned_docs/usercube_6.1/usercube/user-guide/administrate/provisioning/index.md)
+    ([synchronization](/docs/usercube/6.1/usercube/user-guide/set-up/synchronization/index.md)/[provisioning](/docs/usercube/6.1/usercube/user-guide/administrate/provisioning/index.md)
     loop). Keep in mind that the aim is to define a model close to the reality of the system.
 
     **Keep it open to changes**
@@ -168,7 +168,7 @@ Each entity type needs to be shaped with properties, chosen according to the dat
 entitlement assignment.
 
 The only sensitive and required properties are the
-[keys](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/connect-system/entity-type-creation/index.md)
+[keys](/docs/usercube/6.1/usercube/user-guide/set-up/connect-system/entity-type-creation/index.md)
 and the property holding entitlements. It means that:
 
 - if entitlements are managed by resource, then the entity type representing resources must have an
@@ -187,11 +187,11 @@ entitlements they contain. So we can embed more useful information in the model,
 attribute that represents the account type.
 
 In further steps, you will be able to define one
-[resource type](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/categorization/index.md) per
+[resource type](/docs/usercube/6.1/usercube/user-guide/set-up/categorization/index.md) per
 account type and map each one to a
-[role](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/single-roles-catalog-creation/index.md)
+[role](/docs/usercube/6.1/usercube/user-guide/set-up/single-roles-catalog-creation/index.md)
 for assignment and
-[provisioning](/versioned_docs/usercube_6.1/usercube/user-guide/administrate/provisioning/index.md).
+[provisioning](/docs/usercube/6.1/usercube/user-guide/administrate/provisioning/index.md).
 
 #### Example - Canteen badges
 
@@ -245,11 +245,11 @@ Many of the managed systems following this model, just like the User model, dist
 several types of accounts.
 
 In further steps, you will be able to define one
-[resource type](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/categorization/index.md) per
+[resource type](/docs/usercube/6.1/usercube/user-guide/set-up/categorization/index.md) per
 account type and map each one to a
-[role](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/single-roles-catalog-creation/index.md)
+[role](/docs/usercube/6.1/usercube/user-guide/set-up/single-roles-catalog-creation/index.md)
 for assignment and
-[provisioning](/versioned_docs/usercube_6.1/usercube/user-guide/administrate/provisioning/index.md).
+[provisioning](/docs/usercube/6.1/usercube/user-guide/administrate/provisioning/index.md).
 
 #### Example - SAB
 
@@ -297,17 +297,17 @@ Many of the managed systems following this model, just like the User model, dist
 several types of accounts.
 
 In further steps, you will be able to define one
-[resource type](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/categorization/index.md) per
+[resource type](/docs/usercube/6.1/usercube/user-guide/set-up/categorization/index.md) per
 account type and map each one to a
-[role](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/single-roles-catalog-creation/index.md)
+[role](/docs/usercube/6.1/usercube/user-guide/set-up/single-roles-catalog-creation/index.md)
 for assignment and
-[provisioning](/versioned_docs/usercube_6.1/usercube/user-guide/administrate/provisioning/index.md).
+[provisioning](/docs/usercube/6.1/usercube/user-guide/administrate/provisioning/index.md).
 
 **Roles:** During the
-[creation of the role catalog](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/single-roles-catalog-creation/index.md)
+[creation of the role catalog](/docs/usercube/6.1/usercube/user-guide/set-up/single-roles-catalog-creation/index.md)
 in the next steps, for this connector you can build roles based on the group-membership system
 represented by users and profiles. Thus you will create
-[navigation rules](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/single-roles-catalog-creation/index.md)
+[navigation rules](/docs/usercube/6.1/usercube/user-guide/set-up/single-roles-catalog-creation/index.md)
 to represent the link between users and profiles.
 
 #### Example - SDGE
@@ -425,7 +425,7 @@ Each entity type needs to be shaped with properties, chosen according to the dat
 entitlement assignment.
 
 The difficulty of this model is to map everything to
-[roles](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/single-roles-catalog-creation/index.md)
+[roles](/docs/usercube/6.1/usercube/user-guide/set-up/single-roles-catalog-creation/index.md)
 in the role model. In Usercube's role model, one assignment is always one role. But in this case, in
 the managed system, an assignment is a tuple of things.
 

@@ -131,6 +131,6 @@ To reroute a request to a different approver, follow these steps:
 
 **See Also**
 
-- [Requests](/versioned_docs/groupid_11.0/groupid/portal/request/overview.md)
-- [My Requests](/versioned_docs/groupid_11.0/groupid/portal/request/myrequest.md)
-- [Request Inbox](/versioned_docs/groupid_11.0/groupid/portal/request/pending.md)
+- [Requests](/docs/groupid/11.0/groupid/portal/request/overview.md)
+- [My Requests](/docs/groupid/11.0/groupid/portal/request/myrequest.md)
+- [Request Inbox](/docs/groupid/11.0/groupid/portal/request/pending.md)

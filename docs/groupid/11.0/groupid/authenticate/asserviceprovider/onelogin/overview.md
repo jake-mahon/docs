@@ -14,7 +14,7 @@ That done, you can sign into GroupID using OneLogin.
 
 See Also
 
-- [Generate URLs](/versioned_docs/groupid_11.0/groupid/authenticate/asserviceprovider/onelogin/generateurls.md)
-- [Configure GroupID In OneLogin](/versioned_docs/groupid_11.0/groupid/authenticate/asserviceprovider/onelogin/configureinonelogin.md)
-- [Configure the OneLogin Provider in GroupID](/versioned_docs/groupid_11.0/groupid/authenticate/asserviceprovider/onelogin/configureoneloginingroupid.md)
-- [Sign In Using OneLogin](/versioned_docs/groupid_11.0/groupid/authenticate/asserviceprovider/onelogin/signin.md)
+- [Generate URLs](/docs/groupid/11.0/groupid/authenticate/asserviceprovider/onelogin/generateurls.md)
+- [Configure GroupID In OneLogin](/docs/groupid/11.0/groupid/authenticate/asserviceprovider/onelogin/configureinonelogin.md)
+- [Configure the OneLogin Provider in GroupID](/docs/groupid/11.0/groupid/authenticate/asserviceprovider/onelogin/configureoneloginingroupid.md)
+- [Sign In Using OneLogin](/docs/groupid/11.0/groupid/authenticate/asserviceprovider/onelogin/signin.md)

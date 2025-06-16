@@ -18,11 +18,11 @@ on Windows. Usercube's database is a
 
 ![Architecture](/img/versioned_docs/changetracker_8.0/changetracker/architecture.webp)
 
-[See more details on NETWRIX' recommended architecture when working in a SaaS environment](/versioned_docs/usercube_6.1/usercube/integration-guide/architecture/saas/index.md).
+[See more details on NETWRIX' recommended architecture when working in a SaaS environment](/docs/usercube/6.1/usercube/integration-guide/architecture/saas/index.md).
 
-[See more details on NETWRIX' recommended architecture when working in an on-premises environment.](/versioned_docs/usercube_6.1/usercube/integration-guide/architecture/on-prem/index.md)
+[See more details on NETWRIX' recommended architecture when working in an on-premises environment.](/docs/usercube/6.1/usercube/integration-guide/architecture/on-prem/index.md)
 
-[See how to protect the communication between agent and server](/versioned_docs/usercube_6.1/usercube/integration-guide/architecture/how-tos/protect-agent-server-communication/index.md).
+[See how to protect the communication between agent and server](/docs/usercube/6.1/usercube/integration-guide/architecture/how-tos/protect-agent-server-communication/index.md).
 
 ## Isolation Principle
 
@@ -54,7 +54,7 @@ launch jobs from the UI.
 Usercube can authenticate users within an Active Directory domain or using an OpenID identity
 server. For development mode, Usercube implements a form-based authentication using a unique
 password for all users (see
-[Server settings](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/server-configuration/end-users-authentication/index.md)).
+[Server settings](/docs/usercube/6.1/usercube/integration-guide/network-configuration/server-configuration/end-users-authentication/index.md)).
 
 ## Multi-Agent Capability
 

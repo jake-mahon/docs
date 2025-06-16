@@ -12,7 +12,7 @@ viewers to the reports to which they should have access.
 
 Report security through Role Based Access can be applied without implementing a least privileged
 access model to the Enterprise Auditor Console. See the
-[Securing Published Reports Only](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/settings/access/rolebased/securereports.md)
+[Securing Published Reports Only](/docs/accessanalyzer/11.6/enterpriseauditor/admin/settings/access/rolebased/securereports.md)
 topic for additional information.
 
 **NOTE:** The least privileged access model to the Enterprise Auditor Console does not work in
@@ -27,7 +27,7 @@ assistance in disabling it.
 The account used to perform the initial Enterprise Auditor installation, as well as to change
 Storage Profile settings after installation, require additional rights in order to query objects in
 the master database. See the
-[Configure the Installation Account](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/settings/access/rolebased/configureroles.md#configure-the-installation-account)
+[Configure the Installation Account](/docs/accessanalyzer/11.6/enterpriseauditor/admin/settings/access/rolebased/configureroles.md#configure-the-installation-account)
 topic for additional information on this account.
 
 To enable Role Based Access within Enterprise Auditor, corresponding roles must first be created
@@ -36,5 +36,5 @@ Management Studio and in Enterprise Auditor.
 
 The first Enterprise Auditor user assigned a role must be an Administrator. Assigning this first
 user role officially enables Role Based Access within Enterprise Auditor. See the
-[Configuring Roles](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/settings/access/rolebased/configureroles.md)
+[Configuring Roles](/docs/accessanalyzer/11.6/enterpriseauditor/admin/settings/access/rolebased/configureroles.md)
 topic for additional configuration details.

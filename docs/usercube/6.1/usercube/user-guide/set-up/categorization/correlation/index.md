@@ -1,7 +1,7 @@
 # Correlate Resources
 
 How to define
-[correlation rules](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/provisioning/resourcecorrelationrule/index.md)
+[correlation rules](/docs/usercube/6.1/usercube/integration-guide/toolkit/xml-configuration/provisioning/resourcecorrelationrule/index.md)
 to match up resources across systems, usually accounts with their owner.
 
 ## Overview
@@ -11,7 +11,7 @@ to match up resources across systems, usually accounts with their owner.
 Correlation is the process of establishing an ownership relationship between a source resource
 (usually an identity) and a target resource (usually an account). It is the basis of the link
 between an identity and their fine-grained entitlements.
-[Read more about the purpose of correlation](/versioned_docs/usercube_6.1/usercube/introduction-guide/overview/entitlement-management/index.md).
+[Read more about the purpose of correlation](/docs/usercube/6.1/usercube/introduction-guide/overview/entitlement-management/index.md).
 
 Every resource type can be assigned a set of correlation rules.
 
@@ -113,7 +113,7 @@ application users, entitlements and data model.
 
 | Input                                                                                                                                                                                                                                                                                                                                                                             | Output            |
 | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------- |
-| [Identity repository](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/initial-identities-loading/index.md) (required) [Resource type](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/categorization/resource-type-creation/index.md) (required) [Synchronized data](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/synchronization/index.md) (required) | Correlation rules |
+| [Identity repository](/docs/usercube/6.1/usercube/user-guide/set-up/initial-identities-loading/index.md) (required) [Resource type](/docs/usercube/6.1/usercube/user-guide/set-up/categorization/resource-type-creation/index.md) (required) [Synchronized data](/docs/usercube/6.1/usercube/user-guide/set-up/synchronization/index.md) (required) | Correlation rules |
 
 ## Create a Correlation Rule
 
@@ -139,10 +139,10 @@ Fill a resource type with a correlation rule by proceeding as follows:
 
     - **Source Object**: at least one property from the source system that is going to be linked to
       a given target object. Can be defined by a property path and/or an
-      [expression](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/expressions/index.md).
+      [expression](/docs/usercube/6.1/usercube/integration-guide/toolkit/expressions/index.md).
     - **Target Object**: one property from the managed system that is going to be linked to a given
       source object. Can be defined by a property path and/or an
-      [expression](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/expressions/index.md).
+      [expression](/docs/usercube/6.1/usercube/integration-guide/toolkit/expressions/index.md).
     - `Confidence Rate`: rate expressing the rule's reliability, and its priority order. See the
       detailed explanation.
         > In this example, a person via their login and name, is the owner of a nominative AD
@@ -170,7 +170,7 @@ can have their correlation and classification re-computed.
 Even without selecting an owner, reviewing unauthorized accounts on the **Resource Reconciliation**
 screen "blocks" correlation and classification "as is". Neither will be re-computed.
 
-[Simulations](/versioned_docs/usercube_6.1/usercube/user-guide/optimize/simulation/index.md) are
+[Simulations](/docs/usercube/6.1/usercube/user-guide/optimize/simulation/index.md) are
 available in order to anticipate the changes induced by a creation/modification/deletion in
 correlation rules.
 
@@ -183,14 +183,14 @@ then on **Jobs** > **Compute Role Model**.
 ## Verify Correlation
 
 In order to verify the process, check the list of
-[orphaned accounts](/versioned_docs/usercube_6.1/usercube/user-guide/administrate/orphan-unused-account-review/index.md)
+[orphaned accounts](/docs/usercube/6.1/usercube/user-guide/administrate/orphan-unused-account-review/index.md)
 and analyze them to look for patterns revealing correlation issues. To do so, click on the target
 entity type(s) affected by your rule(s) in the left menu of the home page.
 
 ![Test Entity Type](/img/versioned_docs/usercube_6.1/usercube/user-guide/set-up/categorization/classification/entitytypecreation_test_v602.webp)
 
 The entity type's page can be
-[configured via XML](/versioned_docs/usercube_6.1/usercube/integration-guide/ui/how-tos/index.md) to
+[configured via XML](/docs/usercube/6.1/usercube/integration-guide/ui/how-tos/index.md) to
 customize all displayed columns and available filters, especially the **Orphan** filter that spots
 resources without an owner, and the **Owner / Resource Type** column that shows the owner assigned
 to each resource.
@@ -198,7 +198,7 @@ to each resource.
 ![Owner / Resource Type Column](/img/versioned_docs/usercube_6.1/usercube/user-guide/set-up/categorization/correlation/correlation_test_v522.webp)
 
 A knowledgeable person must analyze a few samples to ensure that resources' owners can all
-[be justified](/versioned_docs/usercube_6.1/usercube/user-guide/administrate/orphan-unused-account-review/index.md),
+[be justified](/docs/usercube/6.1/usercube/user-guide/administrate/orphan-unused-account-review/index.md),
 meaning that orphaned accounts are supposed to be so, and that correlated resources are matched with
 the right owner.
 

@@ -1,6 +1,6 @@
 # Dynasties
 
-A [Dynasty](/versioned_docs/groupid_11.0/groupid/portal/group/dynasty/overview.md)is a Smart Group
+A [Dynasty](/docs/groupid/11.0/groupid/portal/group/dynasty/overview.md)is a Smart Group
 that creates and manages other Smart Groups using information in the directory. This view lists only
 the Dynasties created in GroupID in the connected identity store, and does not include expired and
 deleted Dynasties.
@@ -17,18 +17,18 @@ Dynasty names help you group a parent Dynasty with its respective child Dynastie
   "Direct reports of `<manager>`".
 
 You can
-[Modify Search Directory](/versioned_docs/groupid_11.0/groupid/portal/group/allgroups.md#modify-search-directory)
+[Modify Search Directory](/docs/groupid/11.0/groupid/portal/group/allgroups.md#modify-search-directory)
 to search dynasties and add
-[Filter All Groups](/versioned_docs/groupid_11.0/groupid/portal/group/allgroups.md#filter-all-groups)by
+[Filter All Groups](/docs/groupid/11.0/groupid/portal/group/allgroups.md#filter-all-groups)by
 clicking **Dynasties Grid Filters**. All the dynasties matching the filters will be displayed.
 
 **See Also**
 
-- [All Groups](/versioned_docs/groupid_11.0/groupid/portal/group/allgroups.md)
-- [Dynasty](/versioned_docs/groupid_11.0/groupid/portal/group/dynasty/overview.md)
-- [Dynasties Functions](/versioned_docs/groupid_11.0/groupid/portal/group/manage/dynastyfunction.md)
-- [Group Properties](/versioned_docs/groupid_11.0/groupid/portal/group/properties/overview.md)
-- [Group Expiry](/versioned_docs/groupid_11.0/groupid/portal/group/manage/groupexpiry.md)
-- [Join/Leave a Group](/versioned_docs/groupid_11.0/groupid/portal/group/manage/groupjoinleave.md)
-- [Working with Groups](/versioned_docs/groupid_11.0/groupid/portal/group/manage/workingwithgroups.md)
-- [Directory Search](/versioned_docs/groupid_11.0/groupid/portal/search/search.md)
+- [All Groups](/docs/groupid/11.0/groupid/portal/group/allgroups.md)
+- [Dynasty](/docs/groupid/11.0/groupid/portal/group/dynasty/overview.md)
+- [Dynasties Functions](/docs/groupid/11.0/groupid/portal/group/manage/dynastyfunction.md)
+- [Group Properties](/docs/groupid/11.0/groupid/portal/group/properties/overview.md)
+- [Group Expiry](/docs/groupid/11.0/groupid/portal/group/manage/groupexpiry.md)
+- [Join/Leave a Group](/docs/groupid/11.0/groupid/portal/group/manage/groupjoinleave.md)
+- [Working with Groups](/docs/groupid/11.0/groupid/portal/group/manage/workingwithgroups.md)
+- [Directory Search](/docs/groupid/11.0/groupid/portal/search/search.md)

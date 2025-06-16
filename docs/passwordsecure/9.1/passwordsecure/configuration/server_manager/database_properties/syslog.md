@@ -1,7 +1,7 @@
 # Syslog
 
 If desired, the server logs and also the
-**[Logbook](/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/advanced_view/clientmodule/logbook/logbook.md)**
+**[Logbook](/docs/passwordsecure/9.1/passwordsecure/configuration/advanced_view/clientmodule/logbook/logbook.md)**
 can be transferred to a Syslog server. Double clicking on a database allows you to access its
 settings. The corresponding menu items can be found there.
 

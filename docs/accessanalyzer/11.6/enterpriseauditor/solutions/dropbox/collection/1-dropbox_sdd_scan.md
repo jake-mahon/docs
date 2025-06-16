@@ -34,7 +34,7 @@ Data Collector Wizard opens.
 **Limited Users** is selected, browse to a CSV file with one email address per row for the desired
 users. In the File Permissions section, select the **Collect File Level Permissions** checkbox to
 collect permissions at the file level. See the
-[DropboxAccess: Scoping](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/dropboxaccess/scoping.md) topic
+[DropboxAccess: Scoping](/docs/accessanalyzer/11.6/enterpriseauditor/admin/datacollector/dropboxaccess/scoping.md) topic
 for additional information.
 
 ![Dropbox Access Auditor Data Collector Wizard DLP Audit Settings page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/dropbox/collection/sdddlpsettings.webp)
@@ -47,7 +47,7 @@ for additional information.
 - Enable differential scanning
 
 See the
-[DropboxAccess: DLP Audit Settings](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/dropboxaccess/dlpauditsettings.md)
+[DropboxAccess: DLP Audit Settings](/docs/accessanalyzer/11.6/enterpriseauditor/admin/datacollector/dropboxaccess/dlpauditsettings.md)
 topic for additional information.
 
 ![Dropbox Access Auditor Data Collector Wizard Select DLP criteria page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/dropbox/collection/sddselectdlpcriteria.webp)
@@ -55,11 +55,11 @@ topic for additional information.
 **Step 6 –** On the Select DLP Criteria for This Scan page , add or remove criteria as desired.
 
 - (Optional) Create custom criteria with the **Edit** option. See the
-  [Sensitive Data Criteria Editor](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/sensitivedatadiscovery/criteriaeditor/overview.md)
+  [Sensitive Data Criteria Editor](/docs/accessanalyzer/11.6/enterpriseauditor/sensitivedatadiscovery/criteriaeditor/overview.md)
   topic for additional information.
 
 See the
-[DropboxAccess: Select DLP Criteria](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/dropboxaccess/selectdlpcriteria.md)
+[DropboxAccess: Select DLP Criteria](/docs/accessanalyzer/11.6/enterpriseauditor/admin/datacollector/dropboxaccess/selectdlpcriteria.md)
 topic for additional information.
 
 **Step 7 –** On the Completion Page, click **Finish** to save any setting modifications or click

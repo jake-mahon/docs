@@ -24,7 +24,7 @@ Use any of the following methods to connect and sign in:
     NOTE: To sign in using the GroupID provider, enter the username and password you specified for
     _GroupID Administrator_ on the **Service Account Settings** page of the Configuration Tool. See
     the
-    [Configure a new GroupID server with a new or an existing database](/versioned_docs/groupid_11.0/groupid/install/configure/gidserver.md)
+    [Configure a new GroupID server with a new or an existing database](/docs/groupid/11.0/groupid/install/configure/gidserver.md)
     topic.
 
 - Select an identity store and sign in using a SAML provider.  
@@ -71,8 +71,8 @@ You can opt for single sign-on across all GroupID clients, provided that a SAML 
 configured with GroupID. See the following topics for additional information on the SAML provider
 configuration:
 
-- [Configure GroupID in Microsoft Entra ID for SSO](/versioned_docs/groupid_11.0/groupid/authenticate/asserviceprovider/entrasso/configureinentra.md)
-- [Configure the Microsoft Entra SSO Application in GroupID](/versioned_docs/groupid_11.0/groupid/authenticate/asserviceprovider/entrasso/configureprovideringroupid.md)
+- [Configure GroupID in Microsoft Entra ID for SSO](/docs/groupid/11.0/groupid/authenticate/asserviceprovider/entrasso/configureinentra.md)
+- [Configure the Microsoft Entra SSO Application in GroupID](/docs/groupid/11.0/groupid/authenticate/asserviceprovider/entrasso/configureprovideringroupid.md)
 
 On the **GroupID Authenticate** page, click the button or image for the provider and proceed to sign
 in.
@@ -107,12 +107,12 @@ For second factor authentication, one of the following applies:
 
 - If you have not enrolled your identity store account in GroupID, the **Enroll Account** page is
   displayed. You must enroll using at least one authentication type. See the
-  [Enroll with Authentication Types](/versioned_docs/groupid_11.0/groupid/admincenter/enroll.md)
+  [Enroll with Authentication Types](/docs/groupid/11.0/groupid/admincenter/enroll.md)
   topic.
 - If you have already enrolled your identity store account in GroupID, the **Authenticate** page is
   displayed. It lists the authentication type(s) your account is enrolled with. Select an
   authentication type to authenticate. See the
-  [Authenticate with Authentication Types](/versioned_docs/groupid_11.0/groupid/admincenter/authenticate.md)
+  [Authenticate with Authentication Types](/docs/groupid/11.0/groupid/admincenter/authenticate.md)
   topic.
 
 ## Sign Out
@@ -156,6 +156,6 @@ To use a gMSA as service account for GroupID services and app pool, do the follo
 
 See Also
 
-- [Getting Started](/versioned_docs/groupid_11.0/groupid/gettingstarted.md)
-- [Dashboard](/versioned_docs/groupid_11.0/groupid/admincenter/general/dashboard.md)
-- [Navigation](/versioned_docs/groupid_11.0/groupid/admincenter/general/navigation.md)
+- [Getting Started](/docs/groupid/11.0/groupid/gettingstarted.md)
+- [Dashboard](/docs/groupid/11.0/groupid/admincenter/general/dashboard.md)
+- [Navigation](/docs/groupid/11.0/groupid/admincenter/general/navigation.md)

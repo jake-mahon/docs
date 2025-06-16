@@ -10,7 +10,7 @@ similar to the following—the exact schema depends on operation (input or outpu
 | JSON   | `[ {  "Action": "Action",  "MonitoringPlan": {  "ID": "Unique ID",  "Name": "Name"  },  "DataSource": "Data source",  "Item": {"Name": "Item name (Item type)"},  "DetailList": [  {  "Before": "Before Value",  "After": "After Value",  "PropertyName": "Property",  "Message": "Text"  }  ],  "ObjectType": "Object Type",  "What": "What",  "When": "When",  "Where": "Where",  "Who": "Who"  },  {...}  ]`                                                                                                                                                                                                                                                                                                              |
 
 To feed data from a custom audit source to Netwrix Auditor, send a POST request containing Activity
-Records. [Write Activity Records](/versioned_docs/auditor_10.6/auditor/api/writeactivityrecords.md)
+Records. [Write Activity Records](/docs/auditor/10.6/auditor/api/writeactivityrecords.md)
 
 ## Schema
 

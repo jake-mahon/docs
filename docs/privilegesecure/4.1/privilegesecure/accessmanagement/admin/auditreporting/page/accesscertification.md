@@ -13,7 +13,7 @@ tasks and has the following features:
 - Search – Searches the table or list for matches to the search string. When matches are found, the
   table or list is filtered to the matching results.
 - Add Access Cert. Task icon – Add an access certification task to the list. See the
-  [Add Access Certification Task](/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/auditreporting/add/accesscertificationtask.md)
+  [Add Access Certification Task](/docs/privilegesecure/4.1/privilegesecure/accessmanagement/admin/auditreporting/add/accesscertificationtask.md)
   topic for additional information.
 - List of access certification tasks – Select a task from the list to view and edit settings:
 
@@ -36,11 +36,11 @@ features:
 - Description – (Optional)Description of the policy.
 - Reviewer – The reviewer that the access certification task is assigned to. Only users with the
   Reviewer role can be assigned as a reviewer. See the
-  [Role Management Page](/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/policy/page/rolemanagement.md)
+  [Role Management Page](/docs/privilegesecure/4.1/privilegesecure/accessmanagement/admin/policy/page/rolemanagement.md)
   topic for additional information
 - Status – Shows status information for the task
 - Date Started (only visible once review is started) – Date the reviewer begins to review the access
   entitlements
 - Date Completed – Date the reviewer finished reviewing the access elements
-- [Users Tab for Access Certification](/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/auditreporting/tab/users.md)
-- [Entitlements Tab for Access Certification](/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/auditreporting/tab/entitlements.md)
+- [Users Tab for Access Certification](/docs/privilegesecure/4.1/privilegesecure/accessmanagement/admin/auditreporting/tab/users.md)
+- [Entitlements Tab for Access Certification](/docs/privilegesecure/4.1/privilegesecure/accessmanagement/admin/auditreporting/tab/entitlements.md)

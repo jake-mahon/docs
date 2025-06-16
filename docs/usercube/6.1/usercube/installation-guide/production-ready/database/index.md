@@ -3,7 +3,7 @@
 The Usercube Database can be installed on the Server workstation or on a separate machine.
 
 Please make sure that the
-[database requirements](/versioned_docs/usercube_6.1/usercube/installation-guide/requirements/database-requirements/index.md)
+[database requirements](/docs/usercube/6.1/usercube/installation-guide/requirements/database-requirements/index.md)
 are met before going further.
 
 ## Steps
@@ -57,7 +57,7 @@ sqlcmd -S <ComputerName>\<InstanceName> -d Usercube<Organization_name> -i <Userc
 
 ## What's Next?
 
-The [next step](/versioned_docs/usercube_6.1/usercube/installation-guide/production-ready/server.md)
+The [next step](/docs/usercube/6.1/usercube/installation-guide/production-ready/server.md)
 will consist in:
 
 - Setting up the Usercube Server as an IIS website.
@@ -65,4 +65,4 @@ will consist in:
 - Granting the necessary database permissions for this account.
 
 It will also show how to
-[test the Usercube Database connection](/versioned_docs/usercube_6.1/usercube/installation-guide/production-ready/server.md).
+[test the Usercube Database connection](/docs/usercube/6.1/usercube/installation-guide/production-ready/server.md).

@@ -12,8 +12,8 @@ preferred to using an agent i.e. to monitor Windows or Linux where a quick, soft
 implementation is desirable, Netwrix Change Tracker can also operate using Agentless FIM.
 
 File change events can be viewed from the
-[Events Tab](/versioned_docs/changetracker_8.0/changetracker/admin/tabs/events.md). See the
-[Dashboard Tab](/versioned_docs/changetracker_8.0/changetracker/admin/tabs/dashboardoverview.md)
+[Events Tab](/docs/changetracker/8.0/changetracker/admin/tabs/events.md). See the
+[Dashboard Tab](/docs/changetracker/8.0/changetracker/admin/tabs/dashboardoverview.md)
 topic for additional information on how to view FIM change events.
 
 **NOTE:** The Events tab is designed to handle large enterprise estates with potentially thousands

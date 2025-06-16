@@ -18,7 +18,7 @@ It contains four pages:
     **NOTE:** This feature requires the Access Information Center is to be configured to commit
     changes in Active Directory. Additionally, resource based groups must be set up on the resource.
     See the
-    [Commit Active Directory Changes](/versioned_docs/accessinformationcenter_11.6/access/informationcenter/admin/additionalconfig/commitchanges.md) topic
+    [Commit Active Directory Changes](/docs/accessinformationcenter/11.6/access/informationcenter/admin/additionalconfig/commitchanges.md) topic
     for additional information.
 
 -   4. Summary — Provides a preview of the settings selected within the wizard
@@ -38,7 +38,7 @@ Update resource wizard opens.
 click **Next** to continue.
 
 - Add new owners — Click **Add** to browse for a new owner. See the
-  [Add Owner Window](/versioned_docs/accessinformationcenter_11.6/access/informationcenter/resourceowners/window/addowner.md)
+  [Add Owner Window](/docs/accessinformationcenter/11.6/access/informationcenter/resourceowners/window/addowner.md)
   topic for additional information.
 - Remove an owner — Select an owner and click **Remove**
 - Change owner priority — Select an owner and use the arrow buttons to change the order
@@ -77,7 +77,7 @@ is necessary to set a group for at least one access level. Select the desired ac
 **Change**. The Select Group Window opens. Select the desired group and click **OK**. The Select
 Group window closes and the group appears in the table. Repeat this step for each access level
 desired. See the
-[Select Group Window](/versioned_docs/accessinformationcenter_11.6/access/informationcenter/resourceowners/window/selectgroup.md)
+[Select Group Window](/docs/accessinformationcenter/11.6/access/informationcenter/resourceowners/window/selectgroup.md)
 topic for additional information.
 
 ![Update resource wizard showing 4. Summary page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/adinventory/summary.webp)

@@ -3,7 +3,7 @@
 ## What display modes exist?
 
 In addition to the already described
-[Filter](/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/advanced_view/operation_and_setup/filter/filter.md),
+[Filter](/docs/passwordsecure/9.1/passwordsecure/configuration/advanced_view/operation_and_setup/filter/filter.md),
 it is possible to switch to structure view. This alternative view enables you to filter solely on
 the basis of the organisational structure. Although this type of filtering is also possible in
 standard filter view, you are able to directly see the complete organisational structure in
@@ -21,7 +21,7 @@ choice for users who want to work in a highly structural-based manner.
 ## Relevant options
 
 There are three relevant
-[User settings](/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/advanced_view/mainmenu/user_settings/user_settings.md)
+[User settings](/docs/passwordsecure/9.1/passwordsecure/configuration/advanced_view/mainmenu/user_settings/user_settings.md)
 associated with the display mode:
 
 ![installation_with_parameters_16](/img/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/advanced_view/operation_and_setup/filter/displaymode/installation_with_parameters_16.webp)

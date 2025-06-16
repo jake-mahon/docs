@@ -11,10 +11,10 @@ It provides the ability to feed activity data to SIEM products. The following da
 specifically created for Activity Monitor event data:
 
 - For IBM® QRadar®, see the
-  [Netwrix File Activity Monitor App for QRadar](/versioned_docs/activitymonitor_7.1/activitymonitor/siem/qradar/overview.md)
+  [Netwrix File Activity Monitor App for QRadar](/docs/activitymonitor/7.1/activitymonitor/siem/qradar/overview.md)
   for additional information.
 - For Splunk®, see the
-  [File Activity Monitor App for Splunk](/versioned_docs/activitymonitor_7.1/activitymonitor/siem/splunk/overview.md)
+  [File Activity Monitor App for Splunk](/docs/activitymonitor/7.1/activitymonitor/siem/splunk/overview.md)
   for additional information.
 
 It also provides the ability to feed activity data to other Netwrix products:
@@ -24,7 +24,7 @@ It also provides the ability to feed activity data to other Netwrix products:
 
 Prior to adding a Dell PowerStore host to the Activity Monitor, the prerequisites for the target
 environment must be met. See the
-[Dell PowerStore Activity Auditing Configuration](/versioned_docs/activitymonitor_7.1/config/dellpowerstore/activity.md)
+[Dell PowerStore Activity Auditing Configuration](/docs/activitymonitor/7.1/config/dellpowerstore/activity.md)
 topic for additional information.
 
 _Remember,_ the Activity Agent must be deployed to a Windows server that acts as a proxy for
@@ -51,7 +51,7 @@ name. Click **Next**.
 order to collect events. Activity Monitor will detect if the CEE Monitor is not installed and
 display a warning to install the service. If the CEE Monitor service is installed on a remote
 machine, manual configuration is required. See the
-[Dell CEE Options Tab](/versioned_docs/activitymonitor_7.1/activitymonitor/admin/agents/properties/dellceeoptions.md)
+[Dell CEE Options Tab](/docs/activitymonitor/7.1/activitymonitor/admin/agents/properties/dellceeoptions.md)
 topic for additional information.
 
 ![powerstoreaddhost02](/img/versioned_docs/activitymonitor_7.1/activitymonitor/admin/monitoredhosts/add/powerstoreaddhost02.webp)
@@ -144,7 +144,7 @@ page can be configured.
     - TLS
 
     The TCP and TLS protocols add the **Message framing** drop-down menu. See the
-    [Syslog Tab](/versioned_docs/activitymonitor_7.1/activitymonitor/admin/outputs/syslog.md) topic
+    [Syslog Tab](/docs/activitymonitor/7.1/activitymonitor/admin/outputs/syslog.md) topic
     for additional information.
 
 - The Test button sends a test message to the Syslog server to check the connection. A green check
@@ -156,7 +156,7 @@ page can be configured.
     - TLS – Shows error if TLS handshake fails
 
     See the
-    [Syslog Tab](/versioned_docs/activitymonitor_7.1/activitymonitor/admin/outputs/syslog.md) topic
+    [Syslog Tab](/docs/activitymonitor/7.1/activitymonitor/admin/outputs/syslog.md) topic
     for additional information.
 
 Click **Finish**.
@@ -165,7 +165,7 @@ Click **Finish**.
 
 The added Dell PowerStore host is displayed in the monitored hosts table. Once a host has been added
 for monitoring, configure the desired ouptuts. See the
-[Output for Monitored Hosts](/versioned_docs/activitymonitor_7.1/activitymonitor/admin/monitoredhosts/output.md)
+[Output for Monitored Hosts](/docs/activitymonitor/7.1/activitymonitor/admin/monitoredhosts/output.md)
 topic for additional information.
 
 ## Host Properties for Dell PowerStore
@@ -173,9 +173,9 @@ topic for additional information.
 Configuration settings can be edited through the tabs in the host’s Properties window. The
 configurable host properties are:
 
-- [Dell Tab](/versioned_docs/activitymonitor_7.1/activitymonitor/admin/monitoredhosts/properties/dell.md)
-- [Inactivity Alerts Tab](/versioned_docs/activitymonitor_7.1/activitymonitor/admin/monitoredhosts/properties/inactivityalerts.md)
+- [Dell Tab](/docs/activitymonitor/7.1/activitymonitor/admin/monitoredhosts/properties/dell.md)
+- [Inactivity Alerts Tab](/docs/activitymonitor/7.1/activitymonitor/admin/monitoredhosts/properties/inactivityalerts.md)
 
 See the
-[Host Properties Window](/versioned_docs/activitymonitor_7.1/activitymonitor/admin/monitoredhosts/properties/overview.md)
+[Host Properties Window](/docs/activitymonitor/7.1/activitymonitor/admin/monitoredhosts/properties/overview.md)
 topic for additional information.

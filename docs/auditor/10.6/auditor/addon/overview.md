@@ -36,7 +36,7 @@ Netwrix Auditor Integration API uses HTTPS with an automatically generated certi
 requests to its endpoints. By default, add-ons are configured to accept all certificates that is
 appropriate for evaluation purposes and allows running the script without adjusting.
 
-Refer to [Security](/versioned_docs/auditor_10.6/auditor/api/security.md) for detailed instructions
+Refer to [Security](/docs/auditor/10.6/auditor/api/security.md) for detailed instructions
 on how to assign a new certificate and enable trust on remote computers.
 
 ## Use Add-Ons

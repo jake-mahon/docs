@@ -94,15 +94,15 @@ mapping file formats are specifically designed for Analytics incidents.
 
 Once a SIEM server is configured, assign it to events using the System Alerting window’s SIEM Tab or
 the
-[Actions Tab](/versioned_docs/threatprevention_7.4/threatprevention/admin/policies/actions/overview.md)
+[Actions Tab](/docs/threatprevention/7.4/threatprevention/admin/policies/actions/overview.md)
 of a policy or the
-[Actions Tab](/versioned_docs/threatprevention_7.4/threatprevention/admin/templates/actions.md) of a
+[Actions Tab](/docs/threatprevention/7.4/threatprevention/admin/templates/actions.md) of a
 policy template.
 
 IBM QRadar Integration
 
 Netwrix has created a custom app for integration between Threat Prevention and QRadar. See the
-[Active Directory App for QRadar](/versioned_docs/threatprevention_7.4/threatprevention/siemdashboard/qradar/overview.md)
+[Active Directory App for QRadar](/docs/threatprevention/7.4/threatprevention/siemdashboard/qradar/overview.md)
 topic for additional information. There is also a custom app for File Activity, that can receive
 data from either Threat Prevention or Netwrix Activity Monitor. See the
 [Netwrix Activity Monitor Documentation](https://helpcenter.netwrix.com/category/activitymonitor)
@@ -111,9 +111,9 @@ for additional information.
 Splunk Integration
 
 Netwrix has created custom apps for integration between Threat Prevention and Splunk. See the
-[Active Directory App for Splunk](/versioned_docs/threatprevention_7.4/threatprevention/siemdashboard/splunk/activedirectory/overview.md)
+[Active Directory App for Splunk](/docs/threatprevention/7.4/threatprevention/siemdashboard/splunk/activedirectory/overview.md)
 topic and the
-[Threat Hunting App for Splunk](/versioned_docs/threatprevention_7.4/threatprevention/siemdashboard/splunk/threathunting/overview.md)
+[Threat Hunting App for Splunk](/docs/threatprevention/7.4/threatprevention/siemdashboard/splunk/threathunting/overview.md)
 topic for additional information. There is also a custom app for File Activity, that can receive
 data from either Threat Prevention or Netwrix Activity Monitor. See the
 [Netwrix Activity Monitor Documentation](https://helpcenter.netwrix.com/category/activitymonitor)

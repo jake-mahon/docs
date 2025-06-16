@@ -19,7 +19,7 @@ ensuring that groups are never out of date.
 This allows administrators to easily maintain large groups without having to manually add and remove
 members.
 
-NOTE: You must [Sign In](/versioned_docs/groupid_11.0/groupid/portal/login.md#sign-in) before using
+NOTE: You must [Sign In](/docs/groupid/11.0/groupid/portal/login.md#sign-in) before using
 it for group management.
 
 NOTE: When two identity stores (say, ID1 and ID2) are connected to the same domain (for example,
@@ -29,5 +29,5 @@ different in both identity stores.
 
 **See Also**
 
-- [Groups](/versioned_docs/groupid_11.0/groupid/portal/group/create/overview.md)
-- [Dynasty](/versioned_docs/groupid_11.0/groupid/portal/group/dynasty/overview.md)
+- [Groups](/docs/groupid/11.0/groupid/portal/group/create/overview.md)
+- [Dynasty](/docs/groupid/11.0/groupid/portal/group/dynasty/overview.md)

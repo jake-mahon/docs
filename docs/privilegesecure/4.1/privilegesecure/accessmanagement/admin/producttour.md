@@ -14,5 +14,5 @@ The product tour may be re-started at any time via the user menu.
 ![usermenu](/img/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/enduser/usermenu.webp)
 
 See the
-[Navigation](/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/navigation.md)
+[Navigation](/docs/privilegesecure/4.1/privilegesecure/accessmanagement/admin/navigation.md)
 topic for additional information.

@@ -456,4 +456,4 @@ for details on these parameters.
 
 See Also
 
-- [GroupID Management Shell](/versioned_docs/groupid_11.0/groupid/managementshell/overview.md)
+- [GroupID Management Shell](/docs/groupid/11.0/groupid/managementshell/overview.md)

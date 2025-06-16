@@ -192,5 +192,5 @@ checkbox.
 
 The policy will now be limited to only the specified KMS key. The KMS is ready to be roated in
 Privilege Secure. See the
-[AWS KMS Key Rotation](/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/requirements/awskeyrotation.md)
+[AWS KMS Key Rotation](/docs/privilegesecure/4.1/privilegesecure/accessmanagement/requirements/awskeyrotation.md)
 topic for additional information.

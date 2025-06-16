@@ -10,9 +10,9 @@ You can configureGroupID as a service provider with the following identity provi
 
 See Also
 
-- [Authenticate](/versioned_docs/groupid_11.0/groupid/authenticate/overview.md)
-- [SAML Configuration for GroupID using AD FS](/versioned_docs/groupid_11.0/groupid/authenticate/asserviceprovider/adfs/overview.md)
-- [SAML Configuration for GroupID using Microsoft Entra ID SSO](/versioned_docs/groupid_11.0/groupid/authenticate/asserviceprovider/entrasso/overview.md)
-- [SAML Configuration for GroupID using Okta](/versioned_docs/groupid_11.0/groupid/authenticate/asserviceprovider/okta/overview.md)
-- [SAML Configuration for GroupID using PingOne](/versioned_docs/groupid_11.0/groupid/authenticate/asserviceprovider/pingone/overview.md)
-- [SAML Configuration for GroupID using OneLogin](/versioned_docs/groupid_11.0/groupid/authenticate/asserviceprovider/onelogin/overview.md)
+- [Authenticate](/docs/groupid/11.0/groupid/authenticate/overview.md)
+- [SAML Configuration for GroupID using AD FS](/docs/groupid/11.0/groupid/authenticate/asserviceprovider/adfs/overview.md)
+- [SAML Configuration for GroupID using Microsoft Entra ID SSO](/docs/groupid/11.0/groupid/authenticate/asserviceprovider/entrasso/overview.md)
+- [SAML Configuration for GroupID using Okta](/docs/groupid/11.0/groupid/authenticate/asserviceprovider/okta/overview.md)
+- [SAML Configuration for GroupID using PingOne](/docs/groupid/11.0/groupid/authenticate/asserviceprovider/pingone/overview.md)
+- [SAML Configuration for GroupID using OneLogin](/docs/groupid/11.0/groupid/authenticate/asserviceprovider/onelogin/overview.md)

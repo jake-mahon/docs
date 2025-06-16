@@ -21,7 +21,7 @@ Trackers can also be filtered using a **Registry Key/Value Match Rule** and a **
 dimension.
 
 Use the **Advanced Options** to create and edit new Definitions. See
-the[Registry Inclusion/Exclusion Match Rules ](/versioned_docs/changetracker_8.0/changetracker/admin/matchrules/registryrules.md)
+the[Registry Inclusion/Exclusion Match Rules ](/docs/changetracker/8.0/changetracker/admin/matchrules/registryrules.md)
 topic for additional information.
 
 ![PolicyTemplateRegistryExclude](/img/versioned_docs/changetracker_8.0/changetracker/admin/settings/policytemplates/policytemplateregistryexclude.webp)

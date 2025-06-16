@@ -16,7 +16,7 @@ through the menu items on the left of the home page, in the **Connectors** secti
 ![Home - Entity Types](/img/versioned_docs/usercube_6.1/usercube/user-guide/set-up/synchronization/home_entitytypes_v602.webp)
 
 These entity type pages can be
-[configured via XML](/versioned_docs/usercube_6.1/usercube/integration-guide/ui/how-tos/index.md) to
+[configured via XML](/docs/usercube/6.1/usercube/integration-guide/ui/how-tos/index.md) to
 customize all displayed columns and available filters, especially the **Orphan** filter that spots
 uncorrelated resources, and the **Owner / Resource Type** column that shows the owner of each
 resource.
@@ -26,7 +26,7 @@ resource.
 In the `Orphan` field, select `Yes` to see all existing resources without an owner.
 
 In addition, filters can be configured in the
-[reporting module](/versioned_docs/usercube_6.1/usercube/user-guide/administrate/reporting/index.md)
+[reporting module](/docs/usercube/6.1/usercube/user-guide/administrate/reporting/index.md)
 to list orphaned accounts. Choose to display `User` and `AD User (nominative)` with a filter on void
 user's display names.
 
@@ -68,7 +68,7 @@ purpose.
 
 Once this "unused" property is created, a list of all unused accounts can be displayed thanks to the
 filters in the
-[query module](/versioned_docs/usercube_6.1/usercube/user-guide/administrate/reporting/index.md),
+[query module](/docs/usercube/6.1/usercube/user-guide/administrate/reporting/index.md),
 based on said property.
 
 > The previous example about the AD's `isUnused` property can be complemented in the query module by
@@ -82,7 +82,7 @@ At this point, integrators should have all the elements they need to operate.
 
 | Input                                                                                                        | Output                               |
 | ------------------------------------------------------------------------------------------------------------ | ------------------------------------ |
-| [Categorization](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/categorization/index.md) (required) | Removed orphaned and unused accounts |
+| [Categorization](/docs/usercube/6.1/usercube/user-guide/set-up/categorization/index.md) (required) | Removed orphaned and unused accounts |
 
 ## Review an Orphaned Account
 
@@ -129,7 +129,7 @@ Review an orphaned account by proceeding as follows:
 
     We said that useful service accounts must be connected to their owners due to the fact that an
     orphaned account cannot be
-    [certified](/versioned_docs/usercube_6.1/usercube/user-guide/administrate/access-certification/index.md).
+    [certified](/docs/usercube/6.1/usercube/user-guide/administrate/access-certification/index.md).
     But a service account must not be linked to a person, for the departure of said person from the
     company may trigger the loss of the service account.  
     This is why we create identities with `Application` as their `UserType`, each

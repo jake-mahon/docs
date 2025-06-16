@@ -71,5 +71,5 @@ What do you want to do?
 
 **See Also**
 
-- [Customize Search Forms](/versioned_docs/groupid_11.0/groupid/admincenter/portal/design/form/searchforms.md)
-- [Customize Search Results](/versioned_docs/groupid_11.0/groupid/admincenter/portal/design/form/searchresults.md)
+- [Customize Search Forms](/docs/groupid/11.0/groupid/admincenter/portal/design/form/searchforms.md)
+- [Customize Search Results](/docs/groupid/11.0/groupid/admincenter/portal/design/form/searchresults.md)

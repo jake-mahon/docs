@@ -148,15 +148,15 @@ Add-RoleGroupMember "Recipient Management" -Member domain name\user
 
 ## SQL Server Account and Database Permissions
 
-See the [Authentication Modes](/versioned_docs/groupid_11.0/groupid/install/setupauthentication.md)
+See the [Authentication Modes](/docs/groupid/11.0/groupid/install/setupauthentication.md)
 topic for information about the roles and permissions the SQL server and database accounts must have
 for
-[SQL Server Authentication](/versioned_docs/groupid_11.0/groupid/install/setupauthentication.md#sql-server-authentication)
+[SQL Server Authentication](/docs/groupid/11.0/groupid/install/setupauthentication.md#sql-server-authentication)
 mode and for
-[Windows Authentication](/versioned_docs/groupid_11.0/groupid/install/setupauthentication.md#windows-authentication)
+[Windows Authentication](/docs/groupid/11.0/groupid/install/setupauthentication.md#windows-authentication)
 mode.
 
 **See Also**
 
-- [Create an Identity Store](/versioned_docs/groupid_11.0/groupid/admincenter/identitystore/create.md)
-- [Manage an Identity Store](/versioned_docs/groupid_11.0/groupid/admincenter/identitystore/manage.md)
+- [Create an Identity Store](/docs/groupid/11.0/groupid/admincenter/identitystore/create.md)
+- [Manage an Identity Store](/docs/groupid/11.0/groupid/admincenter/identitystore/manage.md)

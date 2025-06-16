@@ -5,7 +5,7 @@
 All existing tags can be viewed, edited and deleted directly in the tag manager. This can be
 achieved via the filter, within the “Edit mode” of a data set as well as via the main menu under the
 group
-[Extras](/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/advanced_view/mainmenu/extras/extras.md).
+[Extras](/docs/passwordsecure/9.1/passwordsecure/configuration/advanced_view/mainmenu/extras/extras.md).
 
 ![how to open the tag manager](/img/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/advanced_view/mainmenu/extras/tag_management/installation_with_parameters_103-en.webp)
 

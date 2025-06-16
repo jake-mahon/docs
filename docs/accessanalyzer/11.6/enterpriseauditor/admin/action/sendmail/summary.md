@@ -9,5 +9,5 @@ click **Cancel** to close the Send Mail Action Module Wizard to ensure that no a
 saved.
 
 To view the status of executed SendMail actions, see the
-[Viewing the Status of SendMail Actions](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/action/sendmail/viewstatus.md)
+[Viewing the Status of SendMail Actions](/docs/accessanalyzer/11.6/enterpriseauditor/admin/action/sendmail/viewstatus.md)
 for additional information.

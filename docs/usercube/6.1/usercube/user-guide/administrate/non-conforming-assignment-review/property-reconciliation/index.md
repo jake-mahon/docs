@@ -2,7 +2,7 @@
 
 How to review unreconciled properties. The aim is to handle the differences between the property
 values from the managed systems and those computed by Usercube according to
-[provisioning rules](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/provisioning-rule-creation/index.md).
+[provisioning rules](/docs/usercube/6.1/usercube/user-guide/set-up/provisioning-rule-creation/index.md).
 
 ## Overview
 
@@ -38,7 +38,7 @@ As roles and navigation properties are technically bonded together, their review
   reconciled accordingly.
 - If the property is reviewed (approved/declined), then the corresponding role is automatically
   reviewed too, its
-  [workflow state](/versioned_docs/usercube_6.1/usercube/integration-guide/role-assignment/assignments-of-entitlements/index.md)
+  [workflow state](/docs/usercube/6.1/usercube/integration-guide/role-assignment/assignments-of-entitlements/index.md)
   transitioned to `Manual` (if approved) or `Cancellation` (if declined, then a deprovisioning order
   is sent).
 
@@ -60,7 +60,7 @@ entitlements.
 
 | Input                                                                                                          | Output               |
 | -------------------------------------------------------------------------------------------------------------- | -------------------- |
-| [Provisioning](/versioned_docs/usercube_6.1/usercube/user-guide/administrate/provisioning/index.md) (required) | Complying properties |
+| [Provisioning](/docs/usercube/6.1/usercube/user-guide/administrate/provisioning/index.md) (required) | Complying properties |
 
 ## Review an Unreconciled Property
 
@@ -97,7 +97,7 @@ Review an unreconciled property by proceeding as follows:
     - `Proposed Value`: value proposed by Usercube.
     - `Current Value`: value currently in the managed system.
     - `Provisioning State`:
-      [provisioning state](/versioned_docs/usercube_6.1/usercube/integration-guide/role-assignment/assignments-of-entitlements/index.md).
+      [provisioning state](/docs/usercube/6.1/usercube/integration-guide/role-assignment/assignments-of-entitlements/index.md).
     - `Start Date`: date for the beginning of the property value existence.
     - `End Date`: date for the end of the property value existence.
 
@@ -138,7 +138,7 @@ Review an unreconciled property by proceeding as follows:
 
 7. Click on **Confirm Property Values**.
 8. Trigger
-   [provisioning](/versioned_docs/usercube_6.1/usercube/user-guide/administrate/provisioning/index.md)
+   [provisioning](/docs/usercube/6.1/usercube/user-guide/administrate/provisioning/index.md)
    by launching, on the appropriate connector's overview page, **Jobs** > **Generate Provisioning
    Orders**, then, after this first task is done, **Jobs** > **Fulfill**.
 

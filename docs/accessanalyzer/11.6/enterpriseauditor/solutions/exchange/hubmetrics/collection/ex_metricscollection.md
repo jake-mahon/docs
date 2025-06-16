@@ -11,7 +11,7 @@ been enabled in the query.
 **_RECOMMENDED:_** Run this job with the default configuration settings for all queries.
 
 See the
-[ExchangeMetrics Data Collector](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/exchangemetrics/overview.md)
+[ExchangeMetrics Data Collector](/docs/accessanalyzer/11.6/enterpriseauditor/admin/datacollector/exchangemetrics/overview.md)
 topic for additional information.
 
 ## Queries for the EX_MetricsCollection Job

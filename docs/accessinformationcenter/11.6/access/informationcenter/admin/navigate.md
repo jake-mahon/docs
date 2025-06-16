@@ -16,7 +16,7 @@ Directory service account, notification settings, database access, and diagnosti
 Additionally you can view license details and upload a new license.
 
 This interface is available only to users with the Administrator role. See the
-[Configuration Interface Overview](/versioned_docs/accessinformationcenter_11.6/access/informationcenter/admin/configuration/overview.md)
+[Configuration Interface Overview](/docs/accessinformationcenter/11.6/access/informationcenter/admin/configuration/overview.md)
 topic for additional information.
 
 **NOTE:** Users with the User Access Administrator role have access only to the Console Access page
@@ -39,7 +39,7 @@ Center.
 
 This interface is available only to users with either the Security Team or Administrator role. See
 the
-[Resource Owners Interface](/versioned_docs/accessinformationcenter_11.6/access/informationcenter/resourceowners/interface.md)
+[Resource Owners Interface](/docs/accessinformationcenter/11.6/access/informationcenter/resourceowners/interface.md)
 topic for additional information.
 
 The **Resource Reviews** button opens the Manage Reviews interface. Create and manage reviews. There
@@ -53,7 +53,7 @@ Active Directory is an optional component of the Resource Reviews workflow.
 
 This interface is available only to users with either the Security Team or Administrator role. See
 the
-[Resource Reviews Interface](/versioned_docs/accessinformationcenter_11.6/access/informationcenter/resourcereviews/interface.md)
+[Resource Reviews Interface](/docs/accessinformationcenter/11.6/access/informationcenter/resourcereviews/interface.md)
 topic for additional information.
 
 The **Access Requests** button opens the Access Requests interface. View pending and historical
@@ -65,7 +65,7 @@ the target environment for the resources being managed by the Access Information
 
 This interface is available only to users with either the Security Team or Administrator role. See
 the
-[Access Requests Interface](/versioned_docs/accessinformationcenter_11.6/access/informationcenter/accessrequests/interface.md)
+[Access Requests Interface](/docs/accessinformationcenter/11.6/access/informationcenter/accessrequests/interface.md)
 topic for additional information.
 
 For Reader, Data Privacy, Security Team, & Administrator
@@ -75,13 +75,13 @@ groups, computers, and sensitive content. Reports are available for resources sc
 Enterprise Auditor. It is available to all console users with the minimum of Reader role. Assigned
 owners without a user role can access this interface through the Owner portal, but it is scoped to
 only the owned resource. See the
-[Access Requests Interface](/versioned_docs/accessinformationcenter_11.6/access/informationcenter/accessrequests/interface.md)
+[Access Requests Interface](/docs/accessinformationcenter/11.6/access/informationcenter/accessrequests/interface.md)
 topic for additional information.
 
 The Search Features include a **Search** bar and a **Recent Searches** box on the Home page. These
 features will direct you to the reports for the selected object: resource, user, group, computer, or
 sensitive content. These features are available to all users with an assigned user role. See the
-[Search Features](/versioned_docs/accessinformationcenter_11.6/access/informationcenter/resourceaudit/navigate/search.md)
+[Search Features](/docs/accessinformationcenter/11.6/access/informationcenter/resourceaudit/navigate/search.md)
 topic for additional information.
 
 For Assigned Owner
@@ -97,7 +97,7 @@ Requests workflows.
 
 The Owner portal is available to any domain user who has been assigned ownership of a resource or
 group within the Access Information Center. See the
-[Owner Portal Overview](/versioned_docs/accessinformationcenter_11.6/access/informationcenter/resourceowners/ownerportal/overview.md)
+[Owner Portal Overview](/docs/accessinformationcenter/11.6/access/informationcenter/resourceowners/ownerportal/overview.md)
 topic for additional information.
 
 For All Domain Users
@@ -108,7 +108,7 @@ access to resources managed through the Access Information Center, view their ow
 resources, and view access request history. It is part of the Self-Service Access Requests workflow.
 
 The Your Access portal is available to any domain user in the target environment. See the
-[Your Access Portal Overview](/versioned_docs/accessinformationcenter_11.6/access/informationcenter/accessrequests/youraccessportal/overview.md)
+[Your Access Portal Overview](/docs/accessinformationcenter/11.6/access/informationcenter/accessrequests/youraccessportal/overview.md)
 topic for additional information.
 
 ## Interface Quick Reference

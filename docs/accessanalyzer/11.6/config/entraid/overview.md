@@ -10,7 +10,7 @@ and Key (App Key) needed for the Connection Profile credentials and the Custom A
 Wizard page.
 
 See the
-[Microsoft Entra ID Auditing Configuration](/versioned_docs/enterpriseauditor_11.6/config/entraid/access.md)
+[Microsoft Entra ID Auditing Configuration](/docs/accessanalyzer/11.6/config/entraid/access.md)
 topic for additional information.
 
 ## Auditing Port Requirements

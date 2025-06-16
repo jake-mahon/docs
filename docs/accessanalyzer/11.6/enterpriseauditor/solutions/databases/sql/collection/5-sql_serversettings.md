@@ -46,7 +46,7 @@ purpose of this job.
 ![Instance Filters](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/databases/sql/collection/5sqlserversettingsfilterpage.webp)
 
 **Step 4 –** To scope the query for specific database/instance, navigate to the
-[SQL Data Collector](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/sql/overview.md)
+[SQL Data Collector](/docs/accessanalyzer/11.6/enterpriseauditor/admin/datacollector/sql/overview.md)
 page. The query is configured by default to target All instances. Change the query scope to Only
 select instances, and click Retrieve. The Available server audits will be populated. Databases and
 instances can be added in the following ways:
@@ -82,7 +82,7 @@ purpose of this job.
 ![Filter Page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/databases/sql/collection/5sqlserversettingsfilterpage.webp)
 
 **Step 4 –** To scope the query for specific database/instance, navigate to the
-[SQL Data Collector](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/sql/overview.md)
+[SQL Data Collector](/docs/accessanalyzer/11.6/enterpriseauditor/admin/datacollector/sql/overview.md)
 page. The query is configured by default to target All instances. Change the query scope to Only
 select instances, and click Retrieve. The Available server audits will be populated. Databases and
 instances can be added in the following ways:
@@ -92,7 +92,7 @@ instances can be added in the following ways:
 - Optionally use the Add Custom Filter button to create and apply a custom filter.
 
     Remember, it is necessary for the
-    [0-SQL_InstanceDiscovery Job](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/databases/sql/collection/0-sql_instancediscovery.md)
+    [0-SQL_InstanceDiscovery Job](/docs/accessanalyzer/11.6/enterpriseauditor/solutions/databases/sql/collection/0-sql_instancediscovery.md)
     to run before attempting to scope this query.
 
 **Step 5 –** On the Summary page, click Finish to save any setting modifications or click Cancel if

@@ -16,7 +16,7 @@ The Sessions tab has the following features:
     secrets but does not record the secret content.
 
 - Lock/Unlock — Locks/Unlocks the user session. See the
-  [Lock Session](/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/dashboard/window/locksession.md)
+  [Lock Session](/docs/privilegesecure/4.1/privilegesecure/accessmanagement/admin/dashboard/window/locksession.md)
   topic for additional information.
 - Terminate Session — Ends a selected session
 - Refresh — Reload the information displayed
@@ -27,7 +27,7 @@ The table has the following columns:
 - User — Displays the account used to log onto the resource
 - Host — Resource that the user will run the activity on. The details vary based on the type of
   resource. See the
-  [Resources Page](/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/policy/page/resources.md)
+  [Resources Page](/docs/privilegesecure/4.1/privilegesecure/accessmanagement/admin/policy/page/resources.md)
   topic for additional information.
 - Start — Indicates when the activity started. This refers to when the activity's actions were
   executed and not when the user was logged on to the resource.
@@ -51,11 +51,11 @@ The table has the following columns:
     - Canceling — The session is either expired or was canceled manually by the user or an Privilege
       Secure administrator.
     - Locked — The session has been locked by an Privilege Secure administrator. See the
-      [Lock Session](/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/dashboard/window/locksession.md)
+      [Lock Session](/docs/privilegesecure/4.1/privilegesecure/accessmanagement/admin/dashboard/window/locksession.md)
       topic for additional information.
 
 - Activity — Displays the name of the activity. Click the link to view additional details. See the
-  [Activities Page](/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/policy/page/activities.md)
+  [Activities Page](/docs/privilegesecure/4.1/privilegesecure/accessmanagement/admin/policy/page/activities.md)
   topic for additional information.
 
 The table columns can be resized and sorted in ascending or descending order.

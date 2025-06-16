@@ -6,9 +6,9 @@ file. Below is more module-specific information.
 
 ## Credentials Protection
 
-- ### [Azure Key Vault](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/azure-key-vault/index.md)
-- ### [CyberArk Application Access Manager](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/cyberark-application-access-manager-credential-providers/index.md)
+- ### [Azure Key Vault](/docs/usercube/6.1/usercube/integration-guide/network-configuration/agent-configuration/azure-key-vault/index.md)
+- ### [CyberArk Application Access Manager](/docs/usercube/6.1/usercube/integration-guide/network-configuration/agent-configuration/cyberark-application-access-manager-credential-providers/index.md)
 
 ## Logging
 
-- ### [QRadar](/versioned_docs/usercube_6.1/usercube/integration-guide/monitoring/how-tos/qradar-setting/index.md)
+- ### [QRadar](/docs/usercube/6.1/usercube/integration-guide/monitoring/how-tos/qradar-setting/index.md)

@@ -15,7 +15,7 @@ This section contains the full list of built-in taxonomies supported by Netwrix 
 
 **NOTE:** Netwrix Data Classification users can see only the taxonomies they have permissions to
 use. See the
-[User Management](/versioned_docs/dataclassification_5.6.2/ndc/security/user_management.md) section
+[User Management](/docs/dataclassification/5.6.2/ndc/security/user_management.md) section
 for more information on users' permissions.
 
 ## Core Taxonomies
@@ -191,7 +191,7 @@ the sensitivity settings for the pre-defined taxonomies.
 To specify sensitive taxonomy:
 
 1. Add a new taxonomy. See the
-   [Add a Taxonomy](/versioned_docs/dataclassification_5.6.2/ndc/taxonomies/taxonomy_add.md) article
+   [Add a Taxonomy](/docs/dataclassification/5.6.2/ndc/taxonomies/taxonomy_add.md) article
    for details.
 2. Navigate to Taxonomies →Global Settings → Edit. The **Edit** panel displays.
 3. Select Sensitive Taxonomy.
@@ -202,5 +202,5 @@ To specify sensitive taxonomy:
 
 To view the results of the classification and generate sensitivity reports, go to Analysis→ Reports
 → Classification Reports→ Sensitive Documents. See the
-[Classification Reports](/versioned_docs/dataclassification_5.6.2/ndc/reporting/classification_reports.md)article
+[Classification Reports](/docs/dataclassification/5.6.2/ndc/reporting/classification_reports.md)article
 for details.

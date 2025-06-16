@@ -14,14 +14,14 @@ The overview section shows information for the following:
 - Approvals Dashboard – Shows sessions waiting for approval. See the Approvals Dashboard topic for
   additional information.
 - Historical Dashboard – Shows previous sessions. See the
-  [Historical Dashboard](/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/dashboard/historical.md)
+  [Historical Dashboard](/docs/privilegesecure/4.1/privilegesecure/accessmanagement/admin/dashboard/historical.md)
   topic for additional information.
 - Users Dashboard – Shows the users added to Privilege Secure. See the
-  [Users Dashboard](/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/dashboard/users.md)
+  [Users Dashboard](/docs/privilegesecure/4.1/privilegesecure/accessmanagement/admin/dashboard/users.md)
   topic for additional information.
 - Resources Dashboard – Shows resources added to Privilege Secure. See the
-  [Resources Dashboard](/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/dashboard/resources.md)
+  [Resources Dashboard](/docs/privilegesecure/4.1/privilegesecure/accessmanagement/admin/dashboard/resources.md)
   topic for additional information.
 - Credentials Dashboard – Shows access activity by resource. See the
-  [Credentials Dashboard](/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/dashboard/credentials.md)
+  [Credentials Dashboard](/docs/privilegesecure/4.1/privilegesecure/accessmanagement/admin/dashboard/credentials.md)
   topic for additional information.

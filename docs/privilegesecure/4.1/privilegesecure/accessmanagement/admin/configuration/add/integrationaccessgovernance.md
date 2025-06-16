@@ -70,7 +70,7 @@ used to get data from the Enterprise Auditor endpoint.
 
 Follow the steps to add the service accounts for the Enterprise Auditor integration connector. See
 the
-[Add Service Account](/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/configuration/add/serviceaccount.md)
+[Add Service Account](/docs/privilegesecure/4.1/privilegesecure/accessmanagement/admin/configuration/add/serviceaccount.md)
 topic for additional information.
 
 **Step 1 –** In the (Undefined variable: SbPAM.Product Short) Console, navigate to the
@@ -144,14 +144,14 @@ Import connector.
 **Step 3 –** Click **Sync** **StealthAUDIT** to begin the data collection. This may take some time.
 
 To view the import progress, navigate to **Service Nodes** > Action Services. See the
-[Action Service](/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/configuration/servicetype/action.md)
+[Action Service](/docs/privilegesecure/4.1/privilegesecure/accessmanagement/admin/configuration/servicetype/action.md)
 topic for additional information.
 
 **NOTE:** The Use Secure Tunnel feature is enabled by default on all proxy services when installed
 and the proxy service is selected by default.
 
 Refer to the
-[Action Service](/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/configuration/servicetype/action.md)
+[Action Service](/docs/privilegesecure/4.1/privilegesecure/accessmanagement/admin/configuration/servicetype/action.md)
 topic for additional information.
 
 **Step 12 –** Click Create when the connection tests successfully.

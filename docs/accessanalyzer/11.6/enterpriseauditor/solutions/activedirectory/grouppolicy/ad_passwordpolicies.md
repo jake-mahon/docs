@@ -18,7 +18,7 @@ The query for this job is:
   return fine-grained password policies
 
     - See the
-      [LDAP Data Collector](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/ldap.md)
+      [LDAP Data Collector](/docs/accessanalyzer/11.6/enterpriseauditor/admin/datacollector/ldap.md)
       topic for additional information
 
 ## Analysis Task for the AD_PasswordPolicies Job

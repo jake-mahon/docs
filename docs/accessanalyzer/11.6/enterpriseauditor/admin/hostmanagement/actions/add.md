@@ -16,7 +16,7 @@ or use the **Import** option. When the list is completed, click **Next**.
   entry will appear in the **Host list** box. Repeat the process until all hosts for this list have
   been entered.
 - The **Import** option opens the Import Hosts window. See the
-  [Import Hosts Option](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/hostmanagement/actions/importhost.md)
+  [Import Hosts Option](/docs/accessanalyzer/11.6/enterpriseauditor/admin/hostmanagement/actions/importhost.md)
   topic for additional information.
 - Use **Remove** to delete a selected host from the **Host list** box
 
@@ -45,7 +45,7 @@ refreshed for hosts in the list and set the credentials to use to conduct the ho
       from those preconfigured at the global level (**Settings** > **Connection**)
 
     See the
-    [Connection](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/settings/connection/overview.md)
+    [Connection](/docs/accessanalyzer/11.6/enterpriseauditor/admin/settings/connection/overview.md)
     topic for additional information on Connection Profiles.
 
 **Step 5 –** Click **Finish** to save the host list and close the Host Lost Wizard.

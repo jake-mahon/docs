@@ -1,7 +1,7 @@
 # Configure Onboarding Workflows
 
 How to adjust the validation process and homonym detection of onboarding
-[workflows](/versioned_docs/usercube_6.1/usercube/integration-guide/workflows/index.md).
+[workflows](/docs/usercube/6.1/usercube/integration-guide/workflows/index.md).
 
 ## Overview
 
@@ -17,7 +17,7 @@ Usually, using one of these workflows means:
    type, job title, etc;
 2. if needed, sending the request of user creation for review by a knowledgeable user.
 
-[See how to create a new worker in Usercube](/versioned_docs/usercube_6.1/usercube/user-guide/maintain/identity-data-modification/individual-update/index.md).
+[See how to create a new worker in Usercube](/docs/usercube/6.1/usercube/user-guide/maintain/identity-data-modification/individual-update/index.md).
 
 ### User Creation Review
 
@@ -40,7 +40,7 @@ the system, preventing duplicates.
 
 Usercube provides a homonym detection, whose parameters can be adjusted.
 
-[See more information about homonym detection](/versioned_docs/usercube_6.1/usercube/integration-guide/workflows/index.md).
+[See more information about homonym detection](/docs/usercube/6.1/usercube/integration-guide/workflows/index.md).
 
 ## Participants and Artifacts
 
@@ -49,7 +49,7 @@ process and homonym detection during users' onboarding.
 
 | Input                                                                                                                         | Output                        |
 | ----------------------------------------------------------------------------------------------------------------------------- | ----------------------------- |
-| [Identity repository](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/initial-identities-loading/index.md) (required) | Adjusted Onboarding Workflows |
+| [Identity repository](/docs/usercube/6.1/usercube/user-guide/set-up/initial-identities-loading/index.md) (required) | Adjusted Onboarding Workflows |
 
 ## Configure Onboarding Workflows
 
@@ -104,4 +104,4 @@ Validate the process by proceeding as follows:
 ## Next Steps
 
 Once onboarding workflows are configured, integrators can start
-[configuring a connector](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/connect-system/index.md).
+[configuring a connector](/docs/usercube/6.1/usercube/user-guide/set-up/connect-system/index.md).

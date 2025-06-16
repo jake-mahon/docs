@@ -17,7 +17,7 @@ To launch the Cleaner tool
 
 See next:
 
-- [Step 1: Maintenance Operation](/versioned_docs/dataclassification_5.6.2/ndc/utilities/cleaner_step_1.md)
-- [Step 2: Maintenance Options](/versioned_docs/dataclassification_5.6.2/ndc/utilities/cleaner_step_2.md)
-- [Step 3: Summary](/versioned_docs/dataclassification_5.6.2/ndc/utilities/cleaner_step_3.md)
-- [Step 4: Process](/versioned_docs/dataclassification_5.6.2/ndc/utilities/cleaner_step_4.md)
+- [Step 1: Maintenance Operation](/docs/dataclassification/5.6.2/ndc/utilities/cleaner_step_1.md)
+- [Step 2: Maintenance Options](/docs/dataclassification/5.6.2/ndc/utilities/cleaner_step_2.md)
+- [Step 3: Summary](/docs/dataclassification/5.6.2/ndc/utilities/cleaner_step_3.md)
+- [Step 4: Process](/docs/dataclassification/5.6.2/ndc/utilities/cleaner_step_4.md)

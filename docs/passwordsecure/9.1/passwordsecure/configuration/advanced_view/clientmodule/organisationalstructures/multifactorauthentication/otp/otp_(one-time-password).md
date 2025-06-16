@@ -30,7 +30,7 @@ As soon as the secret has been deposited and the password saved, the setup is co
 
 1. Set up OTP
 2. Create
-   [HTML WebViewer export](/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/advanced_view/mainmenu/export/html_webviewer-export/html_webviewer_export.md)
+   [HTML WebViewer export](/docs/passwordsecure/9.1/passwordsecure/configuration/advanced_view/mainmenu/export/html_webviewer-export/html_webviewer_export.md)
 3. Open the created HTML WebViewer
 
 How to use the HTML WebViewer can be read in the chapter with the same name.
@@ -41,7 +41,7 @@ NOTE: The special feature of the Emergency WebViewer is that the stored OTP secr
 displayed.
 
 In order to use the One-Time-Password in the
-[EmergencyWebViewer](/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/advanced_view/mainmenu/extras/system_tasks/emergency_webviewer/emergency_webviewer.md)
+[EmergencyWebViewer](/docs/passwordsecure/9.1/passwordsecure/configuration/advanced_view/mainmenu/extras/system_tasks/emergency_webviewer/emergency_webviewer.md)
 you have to proceed as follows:
 
 1. Set up OTP

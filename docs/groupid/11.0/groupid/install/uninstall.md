@@ -91,4 +91,4 @@ NOTE: Do not remove these certificates if another GroupID version is installed o
 
 See Also
 
-- [Back Up and Restore GroupID Data](/versioned_docs/groupid_11.0/groupid/install/backuprestore.md)
+- [Back Up and Restore GroupID Data](/docs/groupid/11.0/groupid/install/backuprestore.md)

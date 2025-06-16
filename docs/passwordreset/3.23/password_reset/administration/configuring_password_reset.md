@@ -68,11 +68,11 @@ files in their new location.
 **Step 8 –** Start the Password Reset service.
 
 **Step 9 –** Update the backup script to copy from the new folder. See the
-[Working with the Database](/versioned_docs/passwordreset_3.23/password_reset/administration/working_with_the_database.md)
+[Working with the Database](/docs/passwordreset/3.23/password_reset/administration/working_with_the_database.md)
 topic for additional information.
 
 You can also move the database from SQL Server Compact to SQL Server. See the
-[Moving to SQL Server](/versioned_docs/passwordreset_3.23/password_reset/administration/working_with_the_database.md#moving-to-sql-server)
+[Moving to SQL Server](/docs/passwordreset/3.23/password_reset/administration/working_with_the_database.md#moving-to-sql-server)
 topic for more information.
 
 ### Netwrix Password Policy Enforcer
@@ -100,7 +100,7 @@ policy, or no policy enforced if the queried server is not a domain controller i
 domain.  
 Queries to the Password Policy Server are sent to UDP port 1333 by default. You may need to create
 firewall rules to open this port. See the
-[Creating Firewall Rules for the PPC](/versioned_docs/passwordreset_3.23/password_policy_enforcer/administration/password_policy_client.md#creating-firewall-rules-for-the-ppc)
+[Creating Firewall Rules for the PPC](/docs/passwordreset/3.23/password_policy_enforcer/administration/password_policy_client.md#creating-firewall-rules-for-the-ppc)
 topic for more information.
 
 **NOTE:** Password Policy Enforcer is not included with Password Reset. Go to
@@ -144,7 +144,7 @@ Follow the steps below to remove a question from the list.
 
 **NOTE:** You can rearrange questions by dragging them. You can also replace question lists with
 text boxes so users can enter their own questions. See the
-[Editing the HTML Templates](/versioned_docs/passwordreset_3.23/password_reset/administration/editing_the_html_templates.md)
+[Editing the HTML Templates](/docs/passwordreset/3.23/password_reset/administration/editing_the_html_templates.md)
 document for more information
 
 ### Options
@@ -240,7 +240,7 @@ in the Web Interface language chosen by the attacker if the target user has not 
 their password with Password Reset. The target user will receive the e-mail alerts, but they may not
 understand them. Use the Rest API to remind new users to enroll so their preferred language is known
 to Password Reset. See the
-[Enabling the API](/versioned_docs/passwordreset_3.23/password_reset/administration/persuading_users_to_enroll.md#enabling-the-api)
+[Enabling the API](/docs/passwordreset/3.23/password_reset/administration/persuading_users_to_enroll.md#enabling-the-api)
 topic for additional information.
 
 ## Verification Tab

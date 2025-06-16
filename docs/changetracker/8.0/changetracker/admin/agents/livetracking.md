@@ -2,7 +2,7 @@
 
 Live Tracking is a style of tracking to capture all changes in real-time that can be set when
 configuring a tracking policy. See the
-[Policy Templates: FIM File Integrity](/versioned_docs/changetracker_8.0/changetracker/admin/settings/policytemplates/fimfiles.md)
+[Policy Templates: FIM File Integrity](/docs/changetracker/8.0/changetracker/admin/settings/policytemplates/fimfiles.md)
 topic for additional information.
 
 ## Windows

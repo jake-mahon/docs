@@ -1,9 +1,9 @@
 # Automate the Review of Non-conforming Assignments
 
 How to automate the review of non-conforming assignments through automation rules. See the
-[ Review Non-conforming Assignments ](/versioned_docs/usercube_6.1/usercube/user-guide/administrate/non-conforming-assignment-review/index.md)
+[ Review Non-conforming Assignments ](/docs/usercube/6.1/usercube/user-guide/administrate/non-conforming-assignment-review/index.md)
 and
-[Automation Rule](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/provisioning/automationrule/index.md)
+[Automation Rule](/docs/usercube/6.1/usercube/integration-guide/toolkit/xml-configuration/provisioning/automationrule/index.md)
 topics for additional information.
 
 ## Overview
@@ -35,9 +35,9 @@ team's entitlements.
 | Mastered non-conforming assignment review (required) Categorized accounts (optional) | Automated assignment review |
 
 See the
-[ Review Non-conforming Assignments ](/versioned_docs/usercube_6.1/usercube/user-guide/administrate/non-conforming-assignment-review/index.md)
+[ Review Non-conforming Assignments ](/docs/usercube/6.1/usercube/user-guide/administrate/non-conforming-assignment-review/index.md)
 and
-[ Categorize Resources ](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/categorization/index.md)
+[ Categorize Resources ](/docs/usercube/6.1/usercube/user-guide/set-up/categorization/index.md)
 topics for additional information.
 
 ## Create an Automation Rule

@@ -3,7 +3,7 @@
 The ActiveDirectory Data Collector audits objects published in Active Directory. It has been
 preconfigured within the Active Directory Solution. Both this data collector and the solution are
 available with a special Enterprise Auditor license. See the
-[Active Directory Solution](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/activedirectory/overview.md)
+[Active Directory Solution](/docs/accessanalyzer/11.6/enterpriseauditor/solutions/activedirectory/overview.md)
 topic for additional information.
 
 Protocols
@@ -28,11 +28,11 @@ The ActiveDirectory Data Collector is configured through the Active Directory Da
 which contains the following wizard pages:
 
 - Welcome
-- [ActiveDirectory: Category](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/activedirectory/category.md)
-- [ActiveDirectory: Directory Scope](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/activedirectory/directoryscope.md)
-- [ActiveDirectory: Results](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/activedirectory/results.md)
-- [ActiveDirectory: Options](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/activedirectory/options.md)
-- [ActiveDirectory: Summary](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/activedirectory/summary.md)
+- [ActiveDirectory: Category](/docs/accessanalyzer/11.6/enterpriseauditor/admin/datacollector/activedirectory/category.md)
+- [ActiveDirectory: Directory Scope](/docs/accessanalyzer/11.6/enterpriseauditor/admin/datacollector/activedirectory/directoryscope.md)
+- [ActiveDirectory: Results](/docs/accessanalyzer/11.6/enterpriseauditor/admin/datacollector/activedirectory/results.md)
+- [ActiveDirectory: Options](/docs/accessanalyzer/11.6/enterpriseauditor/admin/datacollector/activedirectory/options.md)
+- [ActiveDirectory: Summary](/docs/accessanalyzer/11.6/enterpriseauditor/admin/datacollector/activedirectory/summary.md)
 
 ![Active Directory Data Collector Wizard Welcome page](/img/versioned_docs/activitymonitor_7.1/activitymonitor/install/welcome.webp)
 

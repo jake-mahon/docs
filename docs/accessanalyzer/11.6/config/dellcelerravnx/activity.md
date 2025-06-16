@@ -35,14 +35,14 @@ Checklist Item 2: Install Dell CEE
     - Dell CEE requires .NET Framework 3.5 to be installed on the Windows proxy server
 
 - See the
-  [Install & Configure Dell CEE](/versioned_docs/enterpriseauditor_11.6/config/dellcelerravnx/installcee.md)
+  [Install & Configure Dell CEE](/docs/accessanalyzer/11.6/config/dellcelerravnx/installcee.md)
   topic for instructions.
 
 Checklist Item 3: Dell Device Configuration
 
 - Configure the `cepp.conf` file on the Celerra VNX Cluster
 - See the
-  [Connect Data Movers to the Dell CEE Server](/versioned_docs/enterpriseauditor_11.6/config/dellcelerravnx/installcee.md#connect-data-movers-to-the-dell-cee-server)
+  [Connect Data Movers to the Dell CEE Server](/docs/accessanalyzer/11.6/config/dellcelerravnx/installcee.md#connect-data-movers-to-the-dell-cee-server)
   topic for instructions.
 
 Checklist Item 4: Activity Monitor Configuration

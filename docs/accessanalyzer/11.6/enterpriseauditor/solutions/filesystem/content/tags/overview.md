@@ -7,7 +7,7 @@ servers.
 
 The Tags job group is comprised of:
 
-- [FS_AIPLabels Job](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/filesystem/content/tags/fs_aiplabels.md)
+- [FS_AIPLabels Job](/docs/accessanalyzer/11.6/enterpriseauditor/solutions/filesystem/content/tags/fs_aiplabels.md)
   – Designed to report on resources classified by AIP labels from targeted file servers
-- [FS_FileTags Job](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/filesystem/content/tags/fs_filetags.md)
+- [FS_FileTags Job](/docs/accessanalyzer/11.6/enterpriseauditor/solutions/filesystem/content/tags/fs_filetags.md)
   – Designed to report on resources classified with metadata file tags from targeted file servers

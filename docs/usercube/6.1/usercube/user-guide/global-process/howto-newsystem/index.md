@@ -9,24 +9,24 @@ strategy. There is no option fundamentally better than the others, your decision
 needs.
 
 The **option A** leads quickly to
-[the implementation in production environment](/versioned_docs/usercube_6.1/usercube/user-guide/maintain/identity-data-modification/index.md),
+[the implementation in production environment](/docs/usercube/6.1/usercube/user-guide/maintain/identity-data-modification/index.md),
 i.e. a new application in Usercube's scope. With this, you can
-[review orphan and unused accounts](/versioned_docs/usercube_6.1/usercube/user-guide/administrate/orphan-unused-account-review/index.md),
-[provision the AD](/versioned_docs/usercube_6.1/usercube/user-guide/administrate/provisioning/index.md),
-[reconcile properties](/versioned_docs/usercube_6.1/usercube/user-guide/administrate/non-conforming-assignment-review/property-reconciliation/index.md),
+[review orphan and unused accounts](/docs/usercube/6.1/usercube/user-guide/administrate/orphan-unused-account-review/index.md),
+[provision the AD](/docs/usercube/6.1/usercube/user-guide/administrate/provisioning/index.md),
+[reconcile properties](/docs/usercube/6.1/usercube/user-guide/administrate/non-conforming-assignment-review/property-reconciliation/index.md),
 and
-[generate reports](/versioned_docs/usercube_6.1/usercube/user-guide/administrate/reporting/index.md),
+[generate reports](/docs/usercube/6.1/usercube/user-guide/administrate/reporting/index.md),
 for example the list of profiles assigned to users.
 
 The **option B** takes more time as it goes through the creation of the role model based on the
 system's entitlements, but it leads to even more gain as you can also
-[reconcile roles](/versioned_docs/usercube_6.1/usercube/user-guide/administrate/non-conforming-assignment-review/role-reconciliation/index.md),
+[reconcile roles](/docs/usercube/6.1/usercube/user-guide/administrate/non-conforming-assignment-review/role-reconciliation/index.md),
 perform
-[access certification](/versioned_docs/usercube_6.1/usercube/user-guide/administrate/access-certification/index.md)
+[access certification](/docs/usercube/6.1/usercube/user-guide/administrate/access-certification/index.md)
 and
-[request entitlement assignment](/versioned_docs/usercube_6.1/usercube/user-guide/administrate/manual-assignment-request/index.md),
+[request entitlement assignment](/docs/usercube/6.1/usercube/user-guide/administrate/manual-assignment-request/index.md),
 and also
-[generate reports](/versioned_docs/usercube_6.1/usercube/user-guide/administrate/reporting/index.md),
+[generate reports](/docs/usercube/6.1/usercube/user-guide/administrate/reporting/index.md),
 for example the list of assigned single roles.
 
 The option B is more complicated and time-consuming than the option A, but leads to more gain. Be
@@ -38,23 +38,23 @@ aware that you can go through the process options simultaneously.
 
 ### Common starting steps
 
-1. [Connect Usercube to the system](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/connect-system/index.md):
+1. [Connect Usercube to the system](/docs/usercube/6.1/usercube/user-guide/set-up/connect-system/index.md):
    create the appropriate connector with its connections and entity types.
-2. [Synchronize the system's data](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/synchronization/index.md)
+2. [Synchronize the system's data](/docs/usercube/6.1/usercube/user-guide/set-up/synchronization/index.md)
    into Usercube.
 
     Based on this, you can
-    [generate reports](/versioned_docs/usercube_6.1/usercube/user-guide/administrate/reporting/index.md),
+    [generate reports](/docs/usercube/6.1/usercube/user-guide/administrate/reporting/index.md),
     for example the list of resources in the system. A few predefined reports are available from the
     start, you can generate any report from this list as soon as it makes sense according to the
     integration progress.
 
-3. [Categorize resources](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/categorization/index.md)
+3. [Categorize resources](/docs/usercube/6.1/usercube/user-guide/set-up/categorization/index.md)
    in order to classify them according to their intent, and correlate these resources with their
    owners.
-4. [Create provisioning rules](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/provisioning-rule-creation/index.md)
+4. [Create provisioning rules](/docs/usercube/6.1/usercube/user-guide/set-up/provisioning-rule-creation/index.md)
    to write to the system in order to update the resources' properties directly in the system.
-5. [Adjust the rules by reconciling resources](/versioned_docs/usercube_6.1/usercube/user-guide/administrate/non-conforming-assignment-review/property-reconciliation/index.md),
+5. [Adjust the rules by reconciling resources](/docs/usercube/6.1/usercube/user-guide/administrate/non-conforming-assignment-review/property-reconciliation/index.md),
    i.e. analyze the differences spotted between the reality of resources' properties and those
    computed by the previously established rules. Especially, verify that accounts are correlated to
    the right owners and that their properties have the right values.
@@ -73,9 +73,9 @@ Go directly to the common final steps (step 8).
 
 ### Option B: First build the role model
 
-6. [Create roles in the role catalog](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/single-roles-catalog-creation/index.md)
+6. [Create roles in the role catalog](/docs/usercube/6.1/usercube/user-guide/set-up/single-roles-catalog-creation/index.md)
    for applications managed by the system.
-7. [Automate role assignments](/versioned_docs/usercube_6.1/usercube/user-guide/optimize/assignment-automation/index.md)
+7. [Automate role assignments](/docs/usercube/6.1/usercube/user-guide/optimize/assignment-automation/index.md)
    if needed: use Role Mining to create single role rules in bulk; adjust the generated rules
    individually and manually.
 

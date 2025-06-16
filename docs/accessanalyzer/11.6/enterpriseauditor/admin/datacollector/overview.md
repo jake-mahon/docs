@@ -1,14 +1,14 @@
 # Data Collectors
 
 This topic covers the configuration wizards that are unique to each data collector. See the
-[Jobs Tree](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/jobs/overview.md) topic
+[Jobs Tree](/docs/accessanalyzer/11.6/enterpriseauditor/admin/jobs/overview.md) topic
 for additional information on job configuration.
 
 ## Query Selection
 
 The Enterprise Auditor data collectors can collect information from a wide range of environments.
 Data collection tasks are assigned to jobs at the **Configure** > **Queries** node level. See the
-[Queries Node](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/jobs/job/configure/queries.md)
+[Queries Node](/docs/accessanalyzer/11.6/enterpriseauditor/admin/jobs/job/configure/queries.md)
 topic for additional information.
 
 ![Query Selection page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/queryselection.webp)
@@ -93,7 +93,7 @@ The General tab displays:
 
 When creating a new query, provide a unique, descriptive **Name** and **Description**. This
 information displays in the table on the Query Selection view. See the
-[Queries Node](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/jobs/job/configure/queries.md)
+[Queries Node](/docs/accessanalyzer/11.6/enterpriseauditor/admin/jobs/job/configure/queries.md)
 topic for additional information.
 
 #### Data Source Tab

@@ -3,7 +3,7 @@
 This connector opens tickets in [ServiceNow](https://www.servicenow.com/) for manual provisioning.
 
 This page is about
-[Ticket/ServiceNow](/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/references-packages/servicenow-ticket/index.md).
+[Ticket/ServiceNow](/docs/usercube/6.1/usercube/integration-guide/connectors/references-packages/servicenow-ticket/index.md).
 
 ![Package: Ticket/ServiceNow](/img/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/references-connectors/servicenowticket/packages_servicenowticket_v603.webp)
 
@@ -15,14 +15,14 @@ management (ITOM) and IT business management (ITBM), allowing users to manage pr
 customer interactions via a variety of apps and plugins.  
 This section focuses on ServiceNow ticket creation for the fulfillment of resources that can't or
 shouldn't be performed with an existing fulfill. To learn about how to manage entities, see
-[ServiceNow Entity Management](/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/references-connectors/servicenowentitymanagement/index.md).
+[ServiceNow Entity Management](/docs/usercube/6.1/usercube/integration-guide/connectors/references-connectors/servicenowentitymanagement/index.md).
 
 ## Prerequisites
 
 Implementing this connector requires:
 
 - reading first the
-  [appsettings documentation](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/appsettings-agent/index.md);
+  [appsettings documentation](/docs/usercube/6.1/usercube/integration-guide/network-configuration/agent-configuration/appsettings-agent/index.md);
 - a service account with the **snc_platform_rest_api_access** role, as well as reading and writing
   permissions on the target ServiceNow instance;
 - the version ServiceNow London or later;
@@ -31,7 +31,7 @@ Implementing this connector requires:
 ## Export
 
 This connector exports some of ServiceNow entities,
-[see the export capabilities of the ServiceNow connector](/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/references-connectors/servicenowentitymanagement/index.md).
+[see the export capabilities of the ServiceNow connector](/docs/usercube/6.1/usercube/integration-guide/connectors/references-connectors/servicenowentitymanagement/index.md).
 Some entities cannot be exported.
 
 ## Fulfill
@@ -42,10 +42,10 @@ create, update or delete a resource. It does not create nor update a resource di
 Once created, the ticket is managed in ServiceNow, not in Usercube.
 
 When the ticket is closed or canceled, Usercube updates the
-[provisioning state](/versioned_docs/usercube_6.1/usercube/integration-guide/role-assignment/assignments-of-entitlements/index.md)
+[provisioning state](/docs/usercube/6.1/usercube/integration-guide/role-assignment/assignments-of-entitlements/index.md)
 of the resource accordingly.
 
-[See the fulfill capabilities of the ServiceNow connector](/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/references-connectors/servicenowentitymanagement/index.md).
+[See the fulfill capabilities of the ServiceNow connector](/docs/usercube/6.1/usercube/integration-guide/connectors/references-connectors/servicenowentitymanagement/index.md).
 
 > For example:
 >
@@ -68,7 +68,7 @@ of the resource accordingly.
 
 ### Password reset
 
-[See how to configure password reset settings](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/appsettings-agent/index.md).
+[See how to configure password reset settings](/docs/usercube/6.1/usercube/integration-guide/network-configuration/agent-configuration/appsettings-agent/index.md).
 
 When setting a password for a ServiceNow user, the password attribute is set to the chosen value and
 the user's **password_needs_reset** attribute is set to `true`.
@@ -77,10 +77,10 @@ the user's **password_needs_reset** attribute is set to `true`.
 
 Data protection can be ensured through:
 
-- [RSA encryption](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/rsa-encryption/index.md),
+- [RSA encryption](/docs/usercube/6.1/usercube/integration-guide/network-configuration/agent-configuration/rsa-encryption/index.md),
   configured in the `appsettings.encrypted.agent.json` file;
 - an
-  [Azure Key Vault](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/azure-key-vault/index.md)
+  [Azure Key Vault](/docs/usercube/6.1/usercube/integration-guide/network-configuration/agent-configuration/azure-key-vault/index.md)
   safe;
 
 | Attribute                 | Naming Convention for the Key in Azure Key Vault       |
@@ -95,7 +95,7 @@ Data protection can be ensured through:
 | ResponseSizeLimit         | `Connections--<identifier>--ResponseSizeLimit`         |
 
 - a
-  [CyberArk Vault](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/cyberark-application-access-manager-credential-providers/index.md)
+  [CyberArk Vault](/docs/usercube/6.1/usercube/integration-guide/network-configuration/agent-configuration/cyberark-application-access-manager-credential-providers/index.md)
   able to store Active Directory's `Login`, `Password`, `Server`, `ClientId` and `ClientSecret`.
 
 Protected attributes are stored inside a safe in CyberArk, into an account whose identifier can be

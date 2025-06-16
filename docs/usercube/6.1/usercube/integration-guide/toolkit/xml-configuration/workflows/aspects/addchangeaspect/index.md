@@ -40,13 +40,13 @@ the old value.
 | AcceptNullValueExpression optional | **Type** String **Description** C# expression returning a boolean, `true` to consider `null` for the new value returned by `Expression`. By default, `null` values are ignored.                                                                                                                                                                                                         |
 | Expression optional                | **Type** String **Description** C# expression returning a new value for the property to be changed. **Note:** this property can also be defined by a binding via `ExpressionBinding`.                                                                                                                                                                                                   |
 | ExpressionBinding optional         | **Type** String **Description** Binding: - that defines the variable type used in the potential expressions specified in the aspect; - whose difference with `Binding` defines the property involved in the aspect. **Note:** required when handling the property of multi-valued objects, for example records, to make sure to modify the property in all records and not only in one. |
-| IfExpression optional              | **Type** String **Description** Expression that conditions the aspect execution. [See more details on C# expressions](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/expressions/index.md).                                                                                                                                                                            |
+| IfExpression optional              | **Type** String **Description** Expression that conditions the aspect execution. [See more details on C# expressions](/docs/usercube/6.1/usercube/integration-guide/toolkit/expressions/index.md).                                                                                                                                                                            |
 | Priority default value: 0          | **Type** Int32 **Description** Execution priority among all aspects. At a given activity state, the aspect with the highest priority will be triggered first. **Note:** the priority can be a negative value.                                                                                                                                                                           |
 
 ## Child Element: PointCut
 
 A pointcut is a mechanism telling Usercube when to execute the linked
-[aspect](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/workflows/aspects/index.md).
+[aspect](/docs/usercube/6.1/usercube/integration-guide/toolkit/xml-configuration/workflows/aspects/index.md).
 
 The position of the pointcut is specified by an activity state and a mode (before or after).
 

@@ -23,11 +23,11 @@ The PowerShell Data Collector is configured through the PowerShell Data Collecto
 contains the following pages:
 
 - Welcome
-- [PowerShell: Edit Query](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/powershell/editquery.md)
-- [PowerShell: Options](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/powershell/options.md)
-- [PowerShell: Sample Server](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/powershell/sampleserver.md)
-- [PowerShell: Results](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/powershell/results.md)
-- [PowerShell: Summary](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/powershell/summary.md)
+- [PowerShell: Edit Query](/docs/accessanalyzer/11.6/enterpriseauditor/admin/datacollector/powershell/editquery.md)
+- [PowerShell: Options](/docs/accessanalyzer/11.6/enterpriseauditor/admin/datacollector/powershell/options.md)
+- [PowerShell: Sample Server](/docs/accessanalyzer/11.6/enterpriseauditor/admin/datacollector/powershell/sampleserver.md)
+- [PowerShell: Results](/docs/accessanalyzer/11.6/enterpriseauditor/admin/datacollector/powershell/results.md)
+- [PowerShell: Summary](/docs/accessanalyzer/11.6/enterpriseauditor/admin/datacollector/powershell/summary.md)
 
 ![PowerShell Data Collector Wizard Welcome page](/img/versioned_docs/activitymonitor_7.1/activitymonitor/install/welcome.webp)
 

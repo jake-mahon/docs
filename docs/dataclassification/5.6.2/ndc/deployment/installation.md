@@ -22,7 +22,7 @@
     **NOTE:** The database is created automatically in basic configuration mode. For recommended
     configuration (required for crawling optimization in large and extra-large environments), refer
     to
-    [Configure NDC SQL database](/versioned_docs/dataclassification_5.6.2/ndc/deployment/ndc_database.md)
+    [Configure NDC SQL database](/docs/dataclassification/5.6.2/ndc/deployment/ndc_database.md)
     section.
 
 7. On the Licensing step, add license. You can add license as follows:

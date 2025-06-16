@@ -13,11 +13,11 @@ Additional configuration options for enhanced security include:
 - Enable Single Sign-On – The `WindowsAuthentication` parameter allows domain users to be
   automatically logged into the Web Console. By default this parameter is set to `false`, which
   requires domain users to login each time the Web Console is accessed. See the
-  [Enable Single Sign-On](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/install/application/reports/sso.md)
+  [Enable Single Sign-On](/docs/accessanalyzer/11.6/enterpriseauditor/install/application/reports/sso.md)
   topic for additional information.
 
     **NOTE:** The Web Console also supports using Microsoft Entra ID single sign-on. See the
-    [Microsoft Entra ID Single Sign-On](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/install/application/reports/entraidsso.md)
+    [Microsoft Entra ID Single Sign-On](/docs/accessanalyzer/11.6/enterpriseauditor/install/application/reports/entraidsso.md)
     topic for additional information.
 
 These parameters can be configured within the **WebServer.exe.config** file in the Web folder of the

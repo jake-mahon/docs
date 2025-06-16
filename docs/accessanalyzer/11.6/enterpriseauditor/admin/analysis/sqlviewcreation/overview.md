@@ -15,17 +15,17 @@ configuring the module. Before the wizard, collect the desired data for manipula
 The wizard contains the following pages:
 
 - Welcome
-- [SQLViewCreation: Input Scope](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/analysis/sqlviewcreation/inputscope.md)
-- [SQLViewCreation: Input Source](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/analysis/sqlviewcreation/input.md)
-- [SQLViewCreations: Join Columns](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/analysis/sqlviewcreation/joincolumns.md)
-- [SQLViewCreations: Columns](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/analysis/sqlviewcreation/columns.md)
-- [SQLViewCreation: Filter](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/analysis/sqlviewcreation/filter.md)
-- [SQLViewCreation: Time Window](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/analysis/sqlviewcreation/timewindow.md)
-- [SQLViewCreation: Result Constraints](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/analysis/sqlviewcreation/resultconstraints.md)
-- [SQLViewCreation: Result Type](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/analysis/sqlviewcreation/result.md)
-- [SQLViewCreation: Result Sample](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/analysis/sqlviewcreation/resultsample.md)
-- [SQLViewCreation: Export](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/analysis/sqlviewcreation/export.md)
-- [SQLViewCreation: Summary](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/analysis/sqlviewcreation/summary.md)
+- [SQLViewCreation: Input Scope](/docs/accessanalyzer/11.6/enterpriseauditor/admin/analysis/sqlviewcreation/inputscope.md)
+- [SQLViewCreation: Input Source](/docs/accessanalyzer/11.6/enterpriseauditor/admin/analysis/sqlviewcreation/input.md)
+- [SQLViewCreations: Join Columns](/docs/accessanalyzer/11.6/enterpriseauditor/admin/analysis/sqlviewcreation/joincolumns.md)
+- [SQLViewCreations: Columns](/docs/accessanalyzer/11.6/enterpriseauditor/admin/analysis/sqlviewcreation/columns.md)
+- [SQLViewCreation: Filter](/docs/accessanalyzer/11.6/enterpriseauditor/admin/analysis/sqlviewcreation/filter.md)
+- [SQLViewCreation: Time Window](/docs/accessanalyzer/11.6/enterpriseauditor/admin/analysis/sqlviewcreation/timewindow.md)
+- [SQLViewCreation: Result Constraints](/docs/accessanalyzer/11.6/enterpriseauditor/admin/analysis/sqlviewcreation/resultconstraints.md)
+- [SQLViewCreation: Result Type](/docs/accessanalyzer/11.6/enterpriseauditor/admin/analysis/sqlviewcreation/result.md)
+- [SQLViewCreation: Result Sample](/docs/accessanalyzer/11.6/enterpriseauditor/admin/analysis/sqlviewcreation/resultsample.md)
+- [SQLViewCreation: Export](/docs/accessanalyzer/11.6/enterpriseauditor/admin/analysis/sqlviewcreation/export.md)
+- [SQLViewCreation: Summary](/docs/accessanalyzer/11.6/enterpriseauditor/admin/analysis/sqlviewcreation/summary.md)
 
 The Welcome page provides an overview of the analysis module.
 

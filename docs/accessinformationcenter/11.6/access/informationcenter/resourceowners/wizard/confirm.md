@@ -41,5 +41,5 @@ completed (100%), click Close. The Confirm Ownership wizard closes.
 
 The selected owners receive an email from the Access Information Center asking if they are the owner
 of the assigned resource. See the
-[Owner Confirmation Request Email](/versioned_docs/accessinformationcenter_11.6/access/informationcenter/resourceowners/email/confirmationrequest.md)
+[Owner Confirmation Request Email](/docs/accessinformationcenter/11.6/access/informationcenter/resourceowners/email/confirmationrequest.md)
 topic for additional information.

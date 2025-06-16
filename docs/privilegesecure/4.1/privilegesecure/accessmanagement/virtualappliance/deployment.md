@@ -33,6 +33,6 @@ Appliance Download Manager.
 
 See next:
 
-- [Requirements](/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/virtualappliance/requirments.md)
-- [Deploy to VMware Infrastructure](/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/virtualappliance/deployvmware.md)
+- [Requirements](/docs/privilegesecure/4.1/privilegesecure/accessmanagement/virtualappliance/requirments.md)
+- [Deploy to VMware Infrastructure](/docs/privilegesecure/4.1/privilegesecure/accessmanagement/virtualappliance/deployvmware.md)
 - Deploy the Virtual Machine to Hyper-V Infrastructure

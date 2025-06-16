@@ -76,7 +76,7 @@ Generic LDAP store as contact object is not available in these providers.
 
 GroupID portal enables you to search directory objects (users, mailboxes, contacts, groups) in the
 identity store based on a query. See the
-[Query Based Advanced Search](/versioned_docs/groupid_11.0/groupid/portal/search/querysearch.md)
+[Query Based Advanced Search](/docs/groupid/11.0/groupid/portal/search/querysearch.md)
 topic.
 
 NOTE: In portal's linked mode, you cannot search contacts in linked Azure / Google Workspace /
@@ -120,7 +120,7 @@ objects, are bind with similar attributes of stores. Otherwise, GroupID will not
 identities.
 
 You can perform multiple actions on objects. See the
-[Toolbar](/versioned_docs/groupid_11.0/groupid/portal/toolbar.md) topic.
+[Toolbar](/docs/groupid/11.0/groupid/portal/toolbar.md) topic.
 
 To move through search results, use the page numbers given at the bottom of the listing. You can
 also control the number of results per page by modifying the **Search results per page** setting on
@@ -128,4 +128,4 @@ the User Settings panel.
 
 See Also
 
-- [Portal Settings](/versioned_docs/groupid_11.0/groupid/portal/setting/portal.md)
+- [Portal Settings](/docs/groupid/11.0/groupid/portal/setting/portal.md)

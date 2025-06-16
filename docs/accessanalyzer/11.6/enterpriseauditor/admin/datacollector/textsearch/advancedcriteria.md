@@ -18,7 +18,7 @@ The configurable options are:
     ![Filter builder window](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/textsearch/filterbuilder.webp)
 
     See the
-    [Filtration Dialog](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/navigate/datagrid.md#filtration-dialog)
+    [Filtration Dialog](/docs/accessanalyzer/11.6/enterpriseauditor/admin/navigate/datagrid.md#filtration-dialog)
     topic for information on using the Filter builder.
 
 The filter section cannot be blank.

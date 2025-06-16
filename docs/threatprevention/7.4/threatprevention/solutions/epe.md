@@ -11,16 +11,16 @@ An optional module, EPE User Feedback, is packaged with the zip file for Threat 
 installation. It provides feedback to end users on the Windows login screen for why their pending
 password change was rejected. It lists the failed complexity requirements set up in the Password
 Rules policy (see the
-[Password Rules Filter](/versioned_docs/threatprevention_7.4/threatprevention/admin/policies/eventtype/passwordenforcement.md#password-rules-filter)
+[Password Rules Filter](/docs/threatprevention/7.4/threatprevention/admin/policies/eventtype/passwordenforcement.md#password-rules-filter)
 of the Password Enforcement event type). The user can use this information to create a new password
 that passes the complexity requirements of the organization.
 
 You can choose a method to deploy the EPE User Feedback module; however, logon scripts are a
 suggested way to deploy this zero configuration msi. Prior to deploying the EPE User Feedback
 module, you must select the Enable EPE User Feedback Module checkbox in the
-[EPE Settings Window](/versioned_docs/threatprevention_7.4/threatprevention/admin/configuration/epesettings.md).
+[EPE Settings Window](/docs/threatprevention/7.4/threatprevention/admin/configuration/epesettings.md).
 See the
-[EPE User Feedback Module](/versioned_docs/threatprevention_7.4/threatprevention/install/epeuserfeedback.md)
+[EPE User Feedback Module](/docs/threatprevention/7.4/threatprevention/install/epeuserfeedback.md)
 topic for additional information.
 
 **NOTE:** The Password Enforcement module is available under all licenses for monitoring weak
@@ -29,7 +29,7 @@ passwords.
 
 The following event type is available for Enterprise Password Enforcer:
 
-- [Password Enforcement Event Type](/versioned_docs/threatprevention_7.4/threatprevention/admin/policies/eventtype/passwordenforcement.md)
+- [Password Enforcement Event Type](/docs/threatprevention/7.4/threatprevention/admin/policies/eventtype/passwordenforcement.md)
 
 ## Enforce Password Reset with Microsoft Entra ID Password Writeback
 

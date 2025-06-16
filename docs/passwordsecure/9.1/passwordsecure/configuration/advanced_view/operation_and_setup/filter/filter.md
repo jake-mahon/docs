@@ -24,13 +24,13 @@ The filter is an indispensable working tool because of the possibility to restri
 according to individual requirements. Consequently, all users can use the filter. It is, of course,
 possible to place restrictions for filter criteria. This means that the filter criteria available to
 individual employees can be restricted by means of
-[Authorization and protection mechanisms](/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/web_applicaiton/authorization_and_protection/authorization_and_protection_mechanisms.md).
+[Authorization and protection mechanisms](/docs/passwordsecure/9.1/passwordsecure/configuration/web_applicaiton/authorization_and_protection/authorization_and_protection_mechanisms.md).
 For example, an employee can only filter for the
-[Forms](/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/advanced_view/clientmodule/forms/forms.md)
+[Forms](/docs/passwordsecure/9.1/passwordsecure/configuration/advanced_view/clientmodule/forms/forms.md)
 password if he has the read permission for that form.
 
 **CAUTION:** There are no permissions for
-[Tags](/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/advanced_view/operation_and_setup/tags/tags.md).
+[Tags](/docs/passwordsecure/9.1/passwordsecure/configuration/advanced_view/operation_and_setup/tags/tags.md).
 This means that any employee can use any tags. The display order in the filter is determined by the
 frequency of use. This process is not critical to security, since tags do not grant any permissions.
 They are merely a supportive measure for filtering.

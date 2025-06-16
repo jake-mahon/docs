@@ -8,7 +8,7 @@ operational issues, and redundant GPOs that can be consolidated.
 
 The following components comprise the 4.Group Policy Job Group:
 
-- [AD_CPassword Job](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/activedirectory/grouppolicy/ad_cpassword.md)
+- [AD_CPassword Job](/docs/accessanalyzer/11.6/enterpriseauditor/solutions/activedirectory/grouppolicy/ad_cpassword.md)
   – Identifies passwords that are stored in Group Policy Preferences which present a security risk
   allowing attackers access to these passwords. Microsoft published the AES private key, which can
   be used to decrypt passwords stored in Group Policy Preferences. See the Microsoft
@@ -18,13 +18,13 @@ The following components comprise the 4.Group Policy Job Group:
   SYSVOL to decrypt them. GPOs can be stored in the `%ProgramData%\Microsoft\Group Policy\History`
   folder on each machine, meaning any results found by this job should be deleted off every computer
   once this policy has been removed.
-- [AD_GroupPolicy Job](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/activedirectory/grouppolicy/ad_grouppolicy.md)
+- [AD_GroupPolicy Job](/docs/accessanalyzer/11.6/enterpriseauditor/solutions/activedirectory/grouppolicy/ad_grouppolicy.md)
   – Audits all Group Policies that are present on the Domain Controller, and provides details on the
   containers they are linked to and the settings that are configured
-- [AD_OverlappingGPOs Job](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/activedirectory/grouppolicy/ad_overlappinggpos.md)
+- [AD_OverlappingGPOs Job](/docs/accessanalyzer/11.6/enterpriseauditor/solutions/activedirectory/grouppolicy/ad_overlappinggpos.md)
   – Identifies conflicting and redundant GPO settings based on link location. These GPO settings
   should be cleaned up or consolidated.
-- [AD_PasswordPolicies Job](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/activedirectory/grouppolicy/ad_passwordpolicies.md)
+- [AD_PasswordPolicies Job](/docs/accessanalyzer/11.6/enterpriseauditor/solutions/activedirectory/grouppolicy/ad_passwordpolicies.md)
   – Identifies fine-grained domain password policies that are stored within the Password Settings
   Container. Fine-Grained password policies allow AD administrators to apply different password
   policies within a single domain.

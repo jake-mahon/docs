@@ -36,7 +36,7 @@ the credentials are valid.
 Compact is free to use, and should only be removed if you move the database to SQL Server. SQL
 Server Compact is an embedded database. Unlike SQL Server, you do not need to configure or manage
 it. See the
-[Working with the Database](/versioned_docs/passwordpolicyenforcer_10.2/password_reset/administration/working_with_the_database.md)
+[Working with the Database](/docs/passwordpolicyenforcer/10.2/password_reset/administration/working_with_the_database.md)
 topic for additional information.
 
 ## Installation Types
@@ -86,7 +86,7 @@ account. The account will be created and added to the Domain Admins group if it 
 
 **NOTE:** You can remove the account from the Domain Admins group later. If using an existing
 account, make sure it has the required permissions. See the
-[Securing Password Reset](/versioned_docs/passwordpolicyenforcer_10.2/password_reset/administration/securing_password_reset.md)
+[Securing Password Reset](/docs/passwordpolicyenforcer/10.2/password_reset/administration/securing_password_reset.md)
 topic for additional information.
 
 **Step 8 –** Click **Next**.
@@ -150,7 +150,7 @@ account. The account will be created and added to the Domain Admins group if it 
 
 **NOTE:** You can remove the account from the Domain Admins group later. If using an existing
 account, make sure it has the required permissions. See the
-[Securing Password Reset](/versioned_docs/passwordpolicyenforcer_10.2/password_reset/administration/securing_password_reset.md)
+[Securing Password Reset](/docs/passwordpolicyenforcer/10.2/password_reset/administration/securing_password_reset.md)
 topic for additional information.
 
 **Step 7 –** Make sure the **Create Windows Firewall Exception for the NPR Server service** check
@@ -234,7 +234,7 @@ recommended if you have not installed NPR before.
 
 The database files are not overwritten during an upgrade, but you should still create a backup
 before upgrading. See the
-[Backing up the Database](/versioned_docs/passwordpolicyenforcer_10.2/password_reset/administration/working_with_the_database.md#backing-up-the-database)
+[Backing up the Database](/docs/passwordpolicyenforcer/10.2/password_reset/administration/working_with_the_database.md#backing-up-the-database)
 topic for additional information.
 
 **The Web Interface files are overwritten during an upgrade. You must backup any customized Web
@@ -266,7 +266,7 @@ between versions should be merged into your customized files.
 The Password Reset V3.30 data console does not read the VerificationCode or EnrollRecord columns
 from the User table on SQL Server. Access to these columns can be denied for Data Console users
 after upgrading all instances of the Data Console. See the
-[Using the Data Console](/versioned_docs/passwordpolicyenforcer_10.2/password_reset/administration/using_the_data_console.md)
+[Using the Data Console](/docs/passwordpolicyenforcer/10.2/password_reset/administration/using_the_data_console.md)
 topic for additional information.
 
 ## Upgrading From NPR V2.x
@@ -274,7 +274,7 @@ topic for additional information.
 As this is a major upgrade with many changes, some planning is needed to ensure a smooth upgrade. A
 trial run on a lab network is recommended, especially if you are customizing the user interface. See
 the
-[Editing the HTML Templates](/versioned_docs/passwordpolicyenforcer_10.2/password_reset/administration/editing_the_html_templates.md)
+[Editing the HTML Templates](/docs/passwordpolicyenforcer/10.2/password_reset/administration/editing_the_html_templates.md)
 topic for additional information.
 
 **CAUTION:** Due to a protocol upgrade, Netwrix Password Reset v3.3 is not compatible with Netwrix
@@ -290,7 +290,7 @@ later).
 **Step 2 –** Close the Data Console if it is open.
 
 **Step 3 –** Stop the Netwrix Password Reset service and backing up the database. See the
-[Backing up the Database](/versioned_docs/passwordpolicyenforcer_10.2/password_reset/administration/working_with_the_database.md#backing-up-the-database)
+[Backing up the Database](/docs/passwordpolicyenforcer/10.2/password_reset/administration/working_with_the_database.md#backing-up-the-database)
 topic for additional information.
 
 ### Upgrading to V3.23
@@ -341,7 +341,7 @@ folder.
 **Step 9 –** Start the Netwrix Password Reset service.
 
 **Step 10 –** Update the backup script to copy from the new folder. See the
-[Backing up the Database](/versioned_docs/passwordpolicyenforcer_10.2/password_reset/administration/working_with_the_database.md#backing-up-the-database)
+[Backing up the Database](/docs/passwordpolicyenforcer/10.2/password_reset/administration/working_with_the_database.md#backing-up-the-database)
 topic for additional information.
 
 Configure Password Reset Client to use IE11 emulation mode

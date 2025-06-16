@@ -11,15 +11,15 @@ job’s Description page.
 
 The sub-nodes under the **[Job]** > **Configure** node are:
 
-- [Hosts Node](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/jobs/job/configure/hosts.md)
+- [Hosts Node](/docs/accessanalyzer/11.6/enterpriseauditor/admin/jobs/job/configure/hosts.md)
   – Assign a host list at the job level or manually add hosts to be targeted by the job
-- [Queries Node](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/jobs/job/configure/queries.md)
+- [Queries Node](/docs/accessanalyzer/11.6/enterpriseauditor/admin/jobs/job/configure/queries.md)
   – Select and configure a Enterprise Auditor data collector to scan targeted hosts
-- [Analysis Node](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/jobs/job/configure/analysis.md)
+- [Analysis Node](/docs/accessanalyzer/11.6/enterpriseauditor/admin/jobs/job/configure/analysis.md)
   – Create and configure Analysis and Notification tasks for collected data
-- [Actions Node](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/jobs/job/configure/actions.md)
+- [Actions Node](/docs/accessanalyzer/11.6/enterpriseauditor/admin/jobs/job/configure/actions.md)
   – Create and configure Action tasks for taking action on collected and analyzed data
-- [Reports Node](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/jobs/job/configure/reports.md)
+- [Reports Node](/docs/accessanalyzer/11.6/enterpriseauditor/admin/jobs/job/configure/reports.md)
   – Create and configure Reports to be generated during job execution
 
 ## Configure Page
@@ -46,12 +46,12 @@ The options in the Configure section are:
 
     - Click **Properties** to view the task's properties
     - Click **Output Table** to view the Results for the task under the
-      [Results Node](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/jobs/job/results.md)
+      [Results Node](/docs/accessanalyzer/11.6/enterpriseauditor/admin/jobs/job/results.md)
 
 - Hosts - Lists the assigned hosts for the job
 - Reports - If applicable, displays a list of the job's Reports
 
     - Click the reports name to access a report under the job's
-      [Results Node](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/jobs/job/results.md)
+      [Results Node](/docs/accessanalyzer/11.6/enterpriseauditor/admin/jobs/job/results.md)
     - Click **Configure** to edit the report parameters in the
-      [Report Configuration Wizard](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/report/wizard/overview.md)
+      [Report Configuration Wizard](/docs/accessanalyzer/11.6/enterpriseauditor/admin/report/wizard/overview.md)

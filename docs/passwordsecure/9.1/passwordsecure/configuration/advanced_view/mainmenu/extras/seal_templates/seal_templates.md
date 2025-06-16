@@ -3,7 +3,7 @@
 ## What are the seal templates?
 
 The configuration of
-[Seals](/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/advanced_view/permissionconcept/predefining_rights/protective_mechanisms/seals/seals.md)
+[Seals](/docs/passwordsecure/9.1/passwordsecure/configuration/advanced_view/permissionconcept/predefining_rights/protective_mechanisms/seals/seals.md)
 must be well-thought-out and error-free. It is absolutely essential to save the once-invested effort
 in the form of seal templates. The automation of ever-recurring tasks will, in this context,
 extremely speed up the timing of the work. Once defined, templates can be attached to data records

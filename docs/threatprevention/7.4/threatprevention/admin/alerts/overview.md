@@ -6,7 +6,7 @@ system-generated and do not require any prior configuration.
 
 You can choose to view alerts related to analytics configuration and monitoring status on the Alerts
 interface. See the
-[Alerts Cleanup Window](/versioned_docs/threatprevention_7.4/threatprevention/admin/alerts/window/alertscleanup.md)
+[Alerts Cleanup Window](/docs/threatprevention/7.4/threatprevention/admin/alerts/window/alertscleanup.md)
 topic for options to display this data.
 
 Click **Alerts** in the left pane to launch the Alerts interface.
@@ -58,7 +58,7 @@ The data grid displays the following information for each event:
     - Threat Prevention Configuration events
 
     For a list of the events that fall under each component, see the
-    [System Alerting Window](/versioned_docs/threatprevention_7.4/threatprevention/admin/configuration/systemalerting/overview.md)
+    [System Alerting Window](/docs/threatprevention/7.4/threatprevention/admin/configuration/systemalerting/overview.md)
 
 - Machine – Name of the originating host
 - Alert – Name of the event that triggered the alert
@@ -66,11 +66,11 @@ The data grid displays the following information for each event:
 - Message – Description and details about the event. The **Policy updated on server
   Changeset #[number]** link is displayed for events that represent a change to a policy, be it a
   policy under the Policies node or one defined for analytics. Click it to open the
-  [Policy Comparison Window](/versioned_docs/threatprevention_7.4/threatprevention/admin/alerts/window/policycomparison.md)
+  [Policy Comparison Window](/docs/threatprevention/7.4/threatprevention/admin/alerts/window/policycomparison.md)
   where you can view any changes made to the policy.
 
 This data grid employs features for sorting, filtering, searching, and more. See the
-[ Data Grid Functionality](/versioned_docs/threatprevention_7.4/threatprevention/admin/navigation/datagrid.md)
+[ Data Grid Functionality](/docs/threatprevention/7.4/threatprevention/admin/navigation/datagrid.md)
 topic for additional information.
 
 Select an event in the data grid to view its details.
@@ -84,7 +84,7 @@ Below are some considerations:
 - Occasionally a Microsoft Security Bulletin impacting LSASS can interfere with the Agent
   instrumentation resulting in LSASS shutting down. The Agent is configured to monitor for an LSASS
   process termination shortly after a server reboot. The
-  [LSASS Process Terminated](/versioned_docs/threatprevention_7.4/threatprevention/troubleshooting/lsass.md)
+  [LSASS Process Terminated](/docs/threatprevention/7.4/threatprevention/troubleshooting/lsass.md)
   alert (Operations alert) is triggered in this event and the Agent is stopped. As a result, all
   monitoring/blocking by that Agent will be stopped. To resolve the issue, the Threat
   Prevention administrator should check if the Agent service is set to manual start. The most likely
@@ -92,7 +92,7 @@ Below are some considerations:
 
     **_RECOMMENDED:_** Activate an email notification for the _LSASS process terminated_ alert. See
     the
-    [Enable the 'LSASS Process Terminated' Email Alert](/versioned_docs/threatprevention_7.4/threatprevention/troubleshooting/lsass.md#enable-the-lsass-process-terminated-email-alert)
+    [Enable the 'LSASS Process Terminated' Email Alert](/docs/threatprevention/7.4/threatprevention/troubleshooting/lsass.md#enable-the-lsass-process-terminated-email-alert)
     topic for additional information.
 
 - In addition to the LSASS process termination check, the Agent can be configured for a Safe Mode.
@@ -103,11 +103,11 @@ Below are some considerations:
   monitoring/blocking by that Agent stops. The 'Agent Started in AD Monitor pending mode' alert
   (Operations alert) is triggered in this event. To resolve the issue, the Threat Prevention
   administrator must start the pending modules. See the
-  [Start Pending Modules](/versioned_docs/threatprevention_7.4/threatprevention/admin/agents/management/startpendingmodules.md)
+  [Start Pending Modules](/docs/threatprevention/7.4/threatprevention/admin/agents/management/startpendingmodules.md)
   topic for additional information.
 
     **_RECOMMENDED:_** Activate an email notification for this alert. See the
-    [Enable Agent Started in AD Monitor Pending Mode Email Alert](/versioned_docs/threatprevention_7.4/threatprevention/admin/agents/safemode.md#enable-agent-started-in-ad-monitor-pending-mode-email-alert)
+    [Enable Agent Started in AD Monitor Pending Mode Email Alert](/docs/threatprevention/7.4/threatprevention/admin/agents/safemode.md#enable-agent-started-in-ad-monitor-pending-mode-email-alert)
     topic and the
-    [Agent Safe Mode](/versioned_docs/threatprevention_7.4/threatprevention/admin/agents/safemode.md)
+    [Agent Safe Mode](/docs/threatprevention/7.4/threatprevention/admin/agents/safemode.md)
     topic for additional information.

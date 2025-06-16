@@ -3,8 +3,8 @@
 This guide leads the reader through the steps to install Usercube for production purposes.
 
 **1.__**Before proceeding__, you should go through the
-[Overview](/versioned_docs/usercube_6.1/usercube/installation-guide/overview/index.md) and
-[Requirements](/versioned_docs/usercube_6.1/usercube/installation-guide/requirements/index.md)
+[Overview](/docs/usercube/6.1/usercube/installation-guide/overview/index.md) and
+[Requirements](/docs/usercube/6.1/usercube/installation-guide/requirements/index.md)
 sections to make fundamental decisions about Usercube setup, including:
 
 - Whether to install the database within the Usercube Server or on a separated workstation.
@@ -25,7 +25,7 @@ sections to make fundamental decisions about Usercube setup, including:
 
 This guide will allow you to **extrapolate** less common configurations and will provide links to
 the relevant
-[Technical Configuration](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/index.md)
+[Technical Configuration](/docs/usercube/6.1/usercube/integration-guide/network-configuration/index.md)
 sections.
 
 Our examples use the fabled
@@ -35,4 +35,4 @@ as target organization.
 ## What's Next?
 
 The first step consists in creating a
-[Working Directory](/versioned_docs/usercube_6.1/usercube/installation-guide/production-ready/working-directory/index.md).
+[Working Directory](/docs/usercube/6.1/usercube/installation-guide/production-ready/working-directory/index.md).

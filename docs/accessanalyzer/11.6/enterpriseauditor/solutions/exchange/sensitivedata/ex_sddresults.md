@@ -37,7 +37,7 @@ troubleshooting and cleanup only. Data will be deleted from the database.
 - Deletes all Stored Data - LEAVE UNCHECKED – Clears all historical SDD data
 
     - See the
-      [Troubleshooting Data Collection](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/exchange/hubmetrics/collection/ex_metricscollection.md#troubleshooting-data-collection)
+      [Troubleshooting Data Collection](/docs/accessanalyzer/11.6/enterpriseauditor/solutions/exchange/hubmetrics/collection/ex_metricscollection.md#troubleshooting-data-collection)
       topic for additional information
 
 In addition to the tables and views created by the analysis tasks, the EX_SDDResults Job produces

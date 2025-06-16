@@ -7,8 +7,8 @@ this screen, simulations can be launched and results can be visualized.
 
 The scaffolding generates the following scaffoldings:
 
-- [PolicySimulationControlRules](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/simulations/policysimulationcontrolrules/index.md):
-- [RoleAndSimulationControlRules](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/simulations/roleandsimulationcontrolrules/index.md):
+- [PolicySimulationControlRules](/docs/usercube/6.1/usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/simulations/policysimulationcontrolrules/index.md):
+- [RoleAndSimulationControlRules](/docs/usercube/6.1/usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/simulations/roleandsimulationcontrolrules/index.md):
 
 ## Examples
 

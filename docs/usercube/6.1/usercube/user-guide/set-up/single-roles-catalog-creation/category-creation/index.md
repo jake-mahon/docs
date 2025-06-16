@@ -1,12 +1,12 @@
 # Create a Category
 
 How to structure roles into
-[categories](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/provisioning/category/index.md).
+[categories](/docs/usercube/6.1/usercube/integration-guide/toolkit/xml-configuration/provisioning/category/index.md).
 
 ## Overview
 
 A
-[category](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/provisioning/category/index.md)
+[category](/docs/usercube/6.1/usercube/integration-guide/toolkit/xml-configuration/provisioning/category/index.md)
 is usually created to:
 
 - reflect the validation process, i.e. represent groups of roles that follow the same validation
@@ -16,7 +16,7 @@ is usually created to:
 > For example, creating one category per application often fulfills both requirements.
 
 There is usually one
-[validator](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/role-officer-management/index.md)
+[validator](/docs/usercube/6.1/usercube/user-guide/set-up/role-officer-management/index.md)
 per category.
 
 There can be several category levels. For example, integrators can choose to create one category per
@@ -32,7 +32,7 @@ application's users, entitlements and data model.
 
 | Input                                                                                                                     | Output     |
 | ------------------------------------------------------------------------------------------------------------------------- | ---------- |
-| [Role catalog](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/single-roles-catalog-creation/index.md) (optional) | Categories |
+| [Role catalog](/docs/usercube/6.1/usercube/user-guide/set-up/single-roles-catalog-creation/index.md) (optional) | Categories |
 
 ## Create a Category
 
@@ -47,7 +47,7 @@ Create a category by proceeding as follows:
     ![Home Page - Access Roles](/img/versioned_docs/usercube_6.1/usercube/user-guide/set-up/categorization/resource-type-creation/home_roles_v602.webp)
 
 2. All existing
-   [categories](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/single-roles-catalog-creation/index.md)
+   [categories](/docs/usercube/6.1/usercube/user-guide/set-up/single-roles-catalog-creation/index.md)
    are shown in the menus on the left. To create a new category, click on **+**.
 
     ![Add a New Category](/img/versioned_docs/usercube_6.1/usercube/user-guide/set-up/single-roles-catalog-creation/category-creation/singlerolescatalog_newcategory_v602.webp)
@@ -66,7 +66,7 @@ Create a category by proceeding as follows:
 4. Click on **Create** and see the category added in the menus.
 
     When creating a category, you must be cautious about the associated
-    [validators](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/role-officer-management/index.md)
+    [validators](/docs/usercube/6.1/usercube/user-guide/set-up/role-officer-management/index.md)
     that are not yet defined.
 
 ## Verify Category Creation

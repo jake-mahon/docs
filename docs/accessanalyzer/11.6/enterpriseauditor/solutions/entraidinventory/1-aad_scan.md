@@ -58,7 +58,7 @@ attributes.
     controller to run a full scan every time the job is run.
 
 - See the
-  [AzureADInventory Data Collector](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/azureadinventory/overview.md)
+  [AzureADInventory Data Collector](/docs/accessanalyzer/11.6/enterpriseauditor/admin/datacollector/azureadinventory/overview.md)
   topic for additional information on adding and importing custom attributes.
 
 **Step 6 –** Navigate to the Summary page. Click **Finish** to save changes or click **Cancel** to
@@ -91,7 +91,7 @@ The default analysis tasks are:
   and report generation
 
 In addition to the tables and views listed in the
-[Standard Reference Tables & Views for the AzureADInventory Data Collector](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/azureadinventory/standardtables.md)
+[Standard Reference Tables & Views for the AzureADInventory Data Collector](/docs/accessanalyzer/11.6/enterpriseauditor/admin/datacollector/azureadinventory/standardtables.md)
 section, the 1-AAD_Scan Job produces the following preconfigured report.
 
 | Report           | Description                                                        | Default Tags | Report Elements                                                                                                                                                                                                                |

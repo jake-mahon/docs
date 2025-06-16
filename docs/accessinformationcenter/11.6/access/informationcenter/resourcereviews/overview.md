@@ -47,7 +47,7 @@ The Matches table in the report will only be populated for Console User with Sec
 Administrator roles. This is also required for Sensitive Data reviews.
 
 See the
-[Resource Reviews Interface](/versioned_docs/accessinformationcenter_11.6/access/informationcenter/resourcereviews/interface.md)
+[Resource Reviews Interface](/docs/accessinformationcenter/11.6/access/informationcenter/resourcereviews/interface.md)
 topic for additional information.
 
 Ignored Trustees
@@ -63,7 +63,7 @@ Prerequisites:
 
 - Entitlement Reviews License
 - The Access Information Center is configured to send Notifications. See the
-  [Notifications Page](/versioned_docs/accessinformationcenter_11.6/access/informationcenter/admin/configuration/notifications.md)
+  [Notifications Page](/docs/accessinformationcenter/11.6/access/informationcenter/admin/configuration/notifications.md)
   topic for additional information.
 
     **NOTE:** By default, the application is configured to send notifications only to the primary
@@ -71,32 +71,32 @@ Prerequisites:
     notifications to all assigned owners.
 
 - Owners assigned to resources within the Resource Owners interface. See the
-  [Resource Owners Overview](/versioned_docs/accessinformationcenter_11.6/access/informationcenter/resourceowners/overview.md)
+  [Resource Owners Overview](/docs/accessinformationcenter/11.6/access/informationcenter/resourceowners/overview.md)
   topic for additional information.
 - Sensitive Data reviews have specific requirements for Enterprise Auditor configuration. See the
-  [Data Collection Prerequisites](/versioned_docs/accessinformationcenter_11.6/access/informationcenter/resourcereviews/prerequisites.md#data-collection-prerequisites)
+  [Data Collection Prerequisites](/docs/accessinformationcenter/11.6/access/informationcenter/resourcereviews/prerequisites.md#data-collection-prerequisites)
   topic for additional information.
 - Optional: Access Information Center configured to commit AD changes. See the
-  [Automation Prerequisites](/versioned_docs/accessinformationcenter_11.6/access/informationcenter/resourcereviews/prerequisites.md#automation-prerequisites)
+  [Automation Prerequisites](/docs/accessinformationcenter/11.6/access/informationcenter/resourcereviews/prerequisites.md#automation-prerequisites)
   topic for additional information.
 
 Workflow:
 
 **_RECOMMENDED:_** When deploying the Access Information Center in an organization to process
 reviews, owners should be notified prior to launching the first set of reviews. See the
-[Notification to Owners](/versioned_docs/accessinformationcenter_11.6/access/informationcenter/resourceowners/overview.md#notification-to-owners)
+[Notification to Owners](/docs/accessinformationcenter/11.6/access/informationcenter/resourceowners/overview.md#notification-to-owners)
 topic for additional information.
 
 **Step 1 –** Review Administrator creates a review or starts a new review instance. See the
-[Create Review Wizard](/versioned_docs/accessinformationcenter_11.6/access/informationcenter/resourcereviews/wizard/create.md)
+[Create Review Wizard](/docs/accessinformationcenter/11.6/access/informationcenter/resourcereviews/wizard/create.md)
 topic for additional information.
 
 **Step 2 –** Owner performs a review. See the
-[Pending Reviews Page](/versioned_docs/accessinformationcenter_11.6/access/informationcenter/resourcereviews/pendingreviews.md#pending-reviews-page)
+[Pending Reviews Page](/docs/accessinformationcenter/11.6/access/informationcenter/resourcereviews/pendingreviews.md#pending-reviews-page)
 topic for additional information.
 
 **Step 3 –** Review Administrator approves owner recommendations. See the
-[Approval Process](/versioned_docs/accessinformationcenter_11.6/access/informationcenter/resourcereviews/approvalprocess.md)
+[Approval Process](/docs/accessinformationcenter/11.6/access/informationcenter/resourcereviews/approvalprocess.md)
 topic for additional information.
 
 **Step 4 –** Implement approved changes in your organization:
@@ -107,5 +107,5 @@ topic for additional information.
 
 When desired, the Review Administrator runs another instance of the review and the workflow starts
 again. See the
-[Review Instances](/versioned_docs/accessinformationcenter_11.6/access/informationcenter/resourcereviews/reviewinstances.md)
+[Review Instances](/docs/accessinformationcenter/11.6/access/informationcenter/resourcereviews/reviewinstances.md)
 topic for additional information.

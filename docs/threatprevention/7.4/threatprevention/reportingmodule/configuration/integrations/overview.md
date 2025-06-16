@@ -10,13 +10,13 @@ select **Integrations** to open the Integrations interface.
 
 It contains the following integration pages:
 
-- [Active Directory Sync Page](/versioned_docs/threatprevention_7.4/threatprevention/reportingmodule/configuration/integrations/activedirectorysync.md)
-- [Authentication Provider Page](/versioned_docs/threatprevention_7.4/threatprevention/reportingmodule/configuration/integrations/authenticationprovider/page.md)
-- [Credential Profile Page](/versioned_docs/threatprevention_7.4/threatprevention/reportingmodule/configuration/integrations/credentialprofile.md)
-- [Email Page](/versioned_docs/threatprevention_7.4/threatprevention/reportingmodule/configuration/integrations/email.md)
-- [Folder Settings Page](/versioned_docs/threatprevention_7.4/threatprevention/reportingmodule/configuration/integrations/foldersettings.md)
-- [Netwrix Integrations Page](/versioned_docs/threatprevention_7.4/threatprevention/reportingmodule/configuration/integrations/netwrixintegrations.md)
-- [Tag Management Page](/versioned_docs/threatprevention_7.4/threatprevention/reportingmodule/configuration/integrations/tagmanagement.md)
+- [Active Directory Sync Page](/docs/threatprevention/7.4/threatprevention/reportingmodule/configuration/integrations/activedirectorysync.md)
+- [Authentication Provider Page](/docs/threatprevention/7.4/threatprevention/reportingmodule/configuration/integrations/authenticationprovider/page.md)
+- [Credential Profile Page](/docs/threatprevention/7.4/threatprevention/reportingmodule/configuration/integrations/credentialprofile.md)
+- [Email Page](/docs/threatprevention/7.4/threatprevention/reportingmodule/configuration/integrations/email.md)
+- [Folder Settings Page](/docs/threatprevention/7.4/threatprevention/reportingmodule/configuration/integrations/foldersettings.md)
+- [Netwrix Integrations Page](/docs/threatprevention/7.4/threatprevention/reportingmodule/configuration/integrations/netwrixintegrations.md)
+- [Tag Management Page](/docs/threatprevention/7.4/threatprevention/reportingmodule/configuration/integrations/tagmanagement.md)
 
 The Overview page displays a high-level view of all configured integrations. You can return to the
 Overview page by selecting the **Integrations** header in the navigation pane.

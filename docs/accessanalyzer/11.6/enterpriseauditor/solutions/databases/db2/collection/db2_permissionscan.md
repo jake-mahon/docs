@@ -24,7 +24,7 @@ It is also recommended that the connection only be established for the 1-Db2 Sen
 Once the connection is established, it applies to all jobs in the 0.Collection job group. It does
 not apply to any other job groups. For additional information on establishing a database connection,
 see
-[1-Db2_SensitiveDataScan](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/databases/db2/collection/db2_sensitivedatascan.md).
+[1-Db2_SensitiveDataScan](/docs/accessanalyzer/11.6/enterpriseauditor/solutions/databases/db2/collection/db2_sensitivedatascan.md).
 
 ## Analysis Tasks for the 2-Db2_PermissionScan Job
 

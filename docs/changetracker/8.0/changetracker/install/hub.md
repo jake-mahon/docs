@@ -2,7 +2,7 @@
 
 **NOTE:** Ensure the Hub's requirements are met and that the server has had any OS updates applied
 and has been restarted. See the
-[Hub Installation for Windows](/versioned_docs/changetracker_8.0/changetracker/requirements/windowsserver.md)
+[Hub Installation for Windows](/docs/changetracker/8.0/changetracker/requirements/windowsserver.md)
 topic for additional information.
 
 A crucial decision to make before installing Change Tracker is how to have Change Tracker store it's

@@ -72,7 +72,7 @@ Secure Proxy Communication and Certificate Exchange
 For Proxy Mode as a Service Scans, the certificate exchange mechanism and certificate exchange port
 must be configured via the File System Access Auditing Data Collector Wizard prior to executing a
 scan. See the
-[FSAA Applet Certificate Management Overview](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/fsaa/certificatemanagement.md)
+[FSAA Applet Certificate Management Overview](/docs/accessanalyzer/11.6/enterpriseauditor/admin/datacollector/fsaa/certificatemanagement.md)
 topic for additional information.
 
 Enterprise Auditor Connection Profile
@@ -83,5 +83,5 @@ explained above. Also the firewall rules must be configured to allow for communi
 applicable servers.
 
 See the
-[Proxy Mode as a Service Port Requirements](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/requirements/solutions/filesystem/proxymodeserviceports.md)
+[Proxy Mode as a Service Port Requirements](/docs/accessanalyzer/11.6/enterpriseauditor/requirements/solutions/filesystem/proxymodeserviceports.md)
 topic for firewall rule information.

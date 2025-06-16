@@ -1,9 +1,9 @@
 # Set Resources' Display Names
 
 How to change the value of the
-[display name](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/metadata/entitytype/index.md)
+[display name](/docs/usercube/6.1/usercube/integration-guide/toolkit/xml-configuration/metadata/entitytype/index.md)
 for resources of an
-[entity type](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/metadata/entitytype/index.md).
+[entity type](/docs/usercube/6.1/usercube/integration-guide/toolkit/xml-configuration/metadata/entitytype/index.md).
 
 ## Overview
 
@@ -22,9 +22,9 @@ property after alphabetizing all the properties whose name contains `name`.
 Set the resource's display name by proceeding as follows:
 
 1. Start by creating the entity type with its
-   [scalar properties](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/connect-system/entity-type-creation/scalar-property-definition/index.md)
+   [scalar properties](/docs/usercube/6.1/usercube/user-guide/set-up/connect-system/entity-type-creation/scalar-property-definition/index.md)
    and
-   [keys](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/connect-system/entity-type-creation/key-selection/index.md).
+   [keys](/docs/usercube/6.1/usercube/user-guide/set-up/connect-system/entity-type-creation/key-selection/index.md).
 2. Ensure that the created properties are saved by clicking on **Save & Close** > **Save** at the
    top right corner.
 3. On the entity type's definition page, click on the **Settings** tab.
@@ -33,7 +33,7 @@ Set the resource's display name by proceeding as follows:
 
 4. Set the display name. As a display name, you can use either the value of an existing property, or
    compute an
-   [expression](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/expressions/index.md)
+   [expression](/docs/usercube/6.1/usercube/integration-guide/toolkit/expressions/index.md)
    based on existing properties.
 
     > A resource from `AD - Entry` can be displayed using its `userPrincipalName` with predefined
@@ -52,9 +52,9 @@ Set the resource's display name by proceeding as follows:
 5. Click on **Save & Close**.
 
     Changes inside connectors won't take effect until the next
-    [synchronization](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/synchronization/index.md).
+    [synchronization](/docs/usercube/6.1/usercube/user-guide/set-up/synchronization/index.md).
     More specifically, changes in display names won't take effect until the next
-    [`Update-EntityPropertyExpressionsTask`](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/jobs/tasks/server/updateentitypropertyexpressionstask/index.md)
+    [`Update-EntityPropertyExpressionsTask`](/docs/usercube/6.1/usercube/integration-guide/toolkit/xml-configuration/jobs/tasks/server/updateentitypropertyexpressionstask/index.md)
     runs.
 
 ## Reload

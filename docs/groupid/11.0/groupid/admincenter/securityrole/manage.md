@@ -94,7 +94,7 @@ By changing role criteria, you can specify a different set of users as members o
 4. On the **Security Roles** page, click **Edit** for a security role.
 5. On the **Edit Security Role** page, the **Criteria** area displays the role criteria. Click **Add
    Criteria** to change it. On the **Add Criteria** dialog box, update the criteria. See the
-   [Security Role – Criteria](/versioned_docs/groupid_11.0/groupid/admincenter/securityrole/criteria.md)
+   [Security Role – Criteria](/docs/groupid/11.0/groupid/admincenter/securityrole/criteria.md)
    topic for details.
 6. Click **Update Security Role**.
 7. On the **Security Roles** page, click **Save**.
@@ -115,7 +115,7 @@ You can update the permissions assigned to a role.
 6. On the **Add Permissions** dialog box, select **Allow** for a permission to assign it to the
    role. Select **Deny** for a permission to deny it to the role. To learn about the available
    permissions, see the
-   [Security Role – Permissions](/versioned_docs/groupid_11.0/groupid/admincenter/securityrole/permissions.md)
+   [Security Role – Permissions](/docs/groupid/11.0/groupid/admincenter/securityrole/permissions.md)
    topic.
 7. After assigning the required permissions, click **OK**.
 8. Click **Update Security Role**.
@@ -124,7 +124,7 @@ You can update the permissions assigned to a role.
 ## Define Policies for a Role
 
 To define policies for a security role, see the
-[Security Role Policies](/versioned_docs/groupid_11.0/groupid/admincenter/securityrole/policy/overview.md)
+[Security Role Policies](/docs/groupid/11.0/groupid/admincenter/securityrole/policy/overview.md)
 topic.
 
 ## Delete a Role
@@ -143,5 +143,5 @@ When you delete a security role, role members will not be able to access GroupID
 
 See Also
 
-- [Security Roles](/versioned_docs/groupid_11.0/groupid/admincenter/securityrole/overview.md)
-- [Create a Security Role](/versioned_docs/groupid_11.0/groupid/admincenter/securityrole/create.md)
+- [Security Roles](/docs/groupid/11.0/groupid/admincenter/securityrole/overview.md)
+- [Create a Security Role](/docs/groupid/11.0/groupid/admincenter/securityrole/create.md)

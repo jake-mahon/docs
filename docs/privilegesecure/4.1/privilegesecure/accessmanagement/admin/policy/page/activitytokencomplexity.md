@@ -12,7 +12,7 @@ policies. This pane has the following features:
 - Search — Searches the table or list for matches to the search string. When matches are found, the
   table or list is filtered to the matching results.
 - Green + button — Create a new activity token complexity policy. See the
-  [Add Activity Token Complexity Policy](/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/policy/add/activitytokencomplexity.md)
+  [Add Activity Token Complexity Policy](/docs/privilegesecure/4.1/privilegesecure/accessmanagement/admin/policy/add/activitytokencomplexity.md)
   topic for additional information.
 - Trashcan icon — Deletes the activity token complexity policy. Icon appears when profile is hovered
   over. A confirmation window will display.

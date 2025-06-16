@@ -32,9 +32,9 @@ Click a row to open the Subscription to or Schedule export window where you can 
 subscription or export.
 
 See the
-[Add Subscription](/versioned_docs/threatprevention_7.4/threatprevention/reportingmodule/investigations/options/subscription.md)
+[Add Subscription](/docs/threatprevention/7.4/threatprevention/reportingmodule/investigations/options/subscription.md)
 topic and the
-[Export Report](/versioned_docs/threatprevention_7.4/threatprevention/reportingmodule/investigations/options/export.md)
+[Export Report](/docs/threatprevention/7.4/threatprevention/reportingmodule/investigations/options/export.md)
 topic for additional information.
 
 ## Table Features

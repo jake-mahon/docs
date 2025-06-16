@@ -24,7 +24,7 @@ guide to install and configure the CEE. The installation will add two services t
 asynchronous bulk delivery (VCAPS) feature.
 
 After Dell CEE installation is complete, it is necessary to complete the
-[Unity Initial Setup with Unisphere](/versioned_docs/activitymonitor_7.1/config/dellunity/setupunisphere.md).
+[Unity Initial Setup with Unisphere](/docs/activitymonitor/7.1/config/dellunity/setupunisphere.md).
 
 ## Configure Dell Registry Key Settings
 

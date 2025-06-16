@@ -10,7 +10,7 @@ individual points can also be changed later on. Separate sections are available 
 The first step is to define the authentication password for the Server Manager. The initial password
 is “admin”. A new password needs to be entered during startup – this new password should be securely
 and properly documented. It can be subsequently changed in the
-[General settings](/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/server_manager/main_menu/general_settings.md).
+[General settings](/docs/passwordsecure/9.1/passwordsecure/configuration/server_manager/main_menu/general_settings.md).
 
 ![setup-wizard-ac-en](/img/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/server_manager/setupwizard/setup-wizard-ac-en.webp)
 
@@ -20,7 +20,7 @@ NOTE: The initial password is “admin”.
 
 The second step is to complete the configuration for successively connecting to the licence server.
 This step can also be carried out later “in the
-[License settings](/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/server_manager/main_menu/license_settings.md)
+[License settings](/docs/passwordsecure/9.1/passwordsecure/configuration/server_manager/main_menu/license_settings.md)
 
 ![setup-wizard-ac-2-en](/img/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/server_manager/setupwizard/setup-wizard-ac-2-en.webp)
 
@@ -34,7 +34,7 @@ the corresponding button.
 #### Database server
 
 The configuration of the database server is also part of the
-[Advanced settings](/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/server_manager/main_menu/advanced_settings.md)
+[Advanced settings](/docs/passwordsecure/9.1/passwordsecure/configuration/server_manager/main_menu/advanced_settings.md)
 and can also be edited there later on.
 
 ![setup-wizard-ac-3-en](/img/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/server_manager/setupwizard/setup-wizard-ac-3-en.webp)
@@ -50,7 +50,7 @@ The “Advanced” button allows you to specify a **Connection String.**
 
 The last step is to configure the SMTP server via which all emails are sent. This is also part of
 the
-[Advanced settings](/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/server_manager/main_menu/advanced_settings.md)
+[Advanced settings](/docs/passwordsecure/9.1/passwordsecure/configuration/server_manager/main_menu/advanced_settings.md)
 should it be necessary to make changes later on.
 
 ![setup-wizard-ac-4-en](/img/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/server_manager/setupwizard/setup-wizard-ac-4-en.webp)
@@ -67,7 +67,7 @@ module that need to be confirmed.
 
 **CAUTION:** It is recommended that you only confirm the security notes when the corresponding point
 has actually been carried out. It is absolutely essential to ensure that regular
-[Backup management](/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/server_manager/main_menu/backup_settings/backup_management/backup_management.md)
+[Backup management](/docs/passwordsecure/9.1/passwordsecure/configuration/server_manager/main_menu/backup_settings/backup_management/backup_management.md)
 are created and the
-[Certificates](/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/server_manager/certificates/certificates.md)
+[Certificates](/docs/passwordsecure/9.1/passwordsecure/configuration/server_manager/certificates/certificates.md)
 are backed up.

@@ -9,23 +9,23 @@ Help link and the User Menu:
 
     - Access — Grants access to the My Activities page. Activities are be displayed as individual
       cards, organized alphabetically or by Access Policy. See the
-      [Access > My Activities Page](/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/access/myactivities.md)
+      [Access > My Activities Page](/docs/privilegesecure/4.1/privilegesecure/accessmanagement/admin/access/myactivities.md)
       topic for additional. information.
     - Dashboard — View summaries of recent activity logs and user sessions. See the
-      [Dashboard Interface](/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/dashboard/overview.md)
+      [Dashboard Interface](/docs/privilegesecure/4.1/privilegesecure/accessmanagement/admin/dashboard/overview.md)
       topic for additional information.
     - Policy — Contains several pages to create and configure policies to enable access, to onboard
       and manage users, groups, resources, and credentials, and to create and configure activities.
       See the
-      [ Policy Interface](/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/policy/interface.md)
+      [ Policy Interface](/docs/privilegesecure/4.1/privilegesecure/accessmanagement/admin/policy/interface.md)
       topic for additional information.
     - Configuration — Contains several pages to configure and manage authentication, integration
       connectors, service accounts, services, and other settings. See the
-      [Configuration Interface](/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/configuration/interface.md)
+      [Configuration Interface](/docs/privilegesecure/4.1/privilegesecure/accessmanagement/admin/configuration/interface.md)
       topic for additional information.
     - Audit & Reporting Interface — Audit user access entitlement (Access Certification) and view
       activity statistics and reports. See the
-      [Audit & Reporting Interface](/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/auditreporting/interface.md)
+      [Audit & Reporting Interface](/docs/privilegesecure/4.1/privilegesecure/accessmanagement/admin/auditreporting/interface.md)
       topic for additional information.
 
 - Help — Opens the Netwrix Privilege Secure documentation in the in another browser tab
@@ -34,12 +34,12 @@ Help link and the User Menu:
     - Dark Mode — Toggle “Dark Mode” for the console. Hover over the toggle switch to see a preview
       of Dark Mode.
     - Product Tour — Re-starts walk-through of Privilege Secure features. See the
-      [Product Tour](/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/producttour.md)
+      [Product Tour](/docs/privilegesecure/4.1/privilegesecure/accessmanagement/admin/producttour.md)
       topic for additional information.
     - Settings — Opens the settings page to allow the user to register services
     - Logout — Signs the user out of the current session and opens the Login screen
     - About — Shows version and license information for the console. See the
-      [Import the License File](/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/importlicense.md)
+      [Import the License File](/docs/privilegesecure/4.1/privilegesecure/accessmanagement/admin/importlicense.md)
       topic for additional information.
 
 On the left side of the console is a Navigation pane where the pages for the selected interface

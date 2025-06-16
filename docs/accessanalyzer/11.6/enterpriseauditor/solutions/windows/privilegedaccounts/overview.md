@@ -9,13 +9,13 @@ users with remote logon rights, and service accounts.
 
 The job groups in the Privileged Accounts job group are:
 
-- [Local Administrators Job Group](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/windows/privilegedaccounts/localadministrators/overview.md)
+- [Local Administrators Job Group](/docs/accessanalyzer/11.6/enterpriseauditor/solutions/windows/privilegedaccounts/localadministrators/overview.md)
   – This group identifies the effective membership for all local administrator groups along with
   LAPS local policies configured on the target hosts to provide an understanding of what accounts
   within the environment are privileged and how they are being secured
-- [Logon Rights Job Group](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/windows/privilegedaccounts/logonrights/overview.md)
+- [Logon Rights Job Group](/docs/accessanalyzer/11.6/enterpriseauditor/solutions/windows/privilegedaccounts/logonrights/overview.md)
   – The jobs within this group collect local policy information to provide insight into privileged
   users within the environment
-- [Service Accounts > SG_ServiceAccounts Job](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/windows/privilegedaccounts/sg_serviceaccounts.md)
+- [Service Accounts > SG_ServiceAccounts Job](/docs/accessanalyzer/11.6/enterpriseauditor/solutions/windows/privilegedaccounts/sg_serviceaccounts.md)
   – This job indicates which domain accounts are being used to run services on member servers,
   highlighting password age and settings

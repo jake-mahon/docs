@@ -7,16 +7,16 @@ incidents within the past week. It contains the following cards:
 
 - All Attacks (past week) – Timeline of all authentication attacks that started within the last
   week. See the
-  [Graph Card Features](/versioned_docs/threatprevention_7.4/threatprevention/siemdashboard/qradar/navigate.md#graph-card-features)
+  [Graph Card Features](/docs/threatprevention/7.4/threatprevention/siemdashboard/qradar/navigate.md#graph-card-features)
   topic for additional information.
 - Breakdown by Attack Type – Breakdown of authentication attacks that started within the last week.
   See the
-  [Graph Card Features](/versioned_docs/threatprevention_7.4/threatprevention/siemdashboard/qradar/navigate.md#graph-card-features)
+  [Graph Card Features](/docs/threatprevention/7.4/threatprevention/siemdashboard/qradar/navigate.md#graph-card-features)
   topic for additional information.
 - Attack Details – Tabular format of all authentication attack offenses recorded in QRadar. See the
-  [Table Card Features](/versioned_docs/threatprevention_7.4/threatprevention/siemdashboard/qradar/navigate.md#table-card-features)
+  [Table Card Features](/docs/threatprevention/7.4/threatprevention/siemdashboard/qradar/navigate.md#table-card-features)
   topic for additional information.
 - Event Search for Attack: [Searched Attack] – Tabular format of all events related to the attack.
   Information is only visible after clicking Search on an offense. See the
-  [Table Card Features](/versioned_docs/threatprevention_7.4/threatprevention/siemdashboard/qradar/navigate.md#table-card-features)
+  [Table Card Features](/docs/threatprevention/7.4/threatprevention/siemdashboard/qradar/navigate.md#table-card-features)
   topic for additional information.

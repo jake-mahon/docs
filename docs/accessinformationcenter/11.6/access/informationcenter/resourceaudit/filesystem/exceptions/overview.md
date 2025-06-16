@@ -2,7 +2,7 @@
 
 The following report is available at the **Exceptions** node:
 
-- [Exceptions Report](/versioned_docs/accessinformationcenter_11.6/access/informationcenter/resourceaudit/filesystem/exceptions/exceptions.md)
+- [Exceptions Report](/docs/accessinformationcenter/11.6/access/informationcenter/resourceaudit/filesystem/exceptions/exceptions.md)
 
 The **Exceptions** node displays when exceptions have been identified on the selected server. When
 it is present, it can be expanded to view the exception type level reports. The following nodes may
@@ -14,5 +14,5 @@ identified:
 - Stale Users – Folders where stale users have been granted access
 
 The Exceptions report for each exception type level displays filtered exception information. See the
-[Exceptions Report by Type](/versioned_docs/accessinformationcenter_11.6/access/informationcenter/resourceaudit/filesystem/exceptions/exceptionsbytype.md)
+[Exceptions Report by Type](/docs/accessinformationcenter/11.6/access/informationcenter/resourceaudit/filesystem/exceptions/exceptionsbytype.md)
 topic for the report details.

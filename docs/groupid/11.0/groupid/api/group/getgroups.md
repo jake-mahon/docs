@@ -200,6 +200,6 @@ GET
 
 See Also
 
-- [Common Errors](/versioned_docs/groupid_11.0/groupid/api/commonerrors.md)
-- [Group APIs](/versioned_docs/groupid_11.0/groupid/api/group/groupapis.md)
-- [Contact APIs](/versioned_docs/groupid_11.0/groupid/api/contact/contactapis.md)
+- [Common Errors](/docs/groupid/11.0/groupid/api/commonerrors.md)
+- [Group APIs](/docs/groupid/11.0/groupid/api/group/groupapis.md)
+- [Contact APIs](/docs/groupid/11.0/groupid/api/contact/contactapis.md)

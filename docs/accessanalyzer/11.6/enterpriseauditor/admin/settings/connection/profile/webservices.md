@@ -12,5 +12,5 @@ The required credentials for Web Services (JWT) are:
   **Settings > Application** node
 - Access Token – Copy and paste the StealthDEFEND App Token after it has been generated within
   StealthDEFEND. See the
-  [FS_DEFEND_SDD Job](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/jobs/instantjobs/fs_defend_sdd.md)
+  [FS_DEFEND_SDD Job](/docs/accessanalyzer/11.6/enterpriseauditor/admin/jobs/instantjobs/fs_defend_sdd.md)
   topic for additional information.

@@ -62,13 +62,13 @@ to communicate with the other Threat Prevention components.
 **NOTE:** As a prerequisite for using custom managed certificates, you must provide the Enterprise
 Manager server DNS name, hostname, or FQDN (instead of the IP address) when installing Threat
 Prevention server, remote instance of the Administration Console, and the Agent. See the
-[Administration Console and Agent Not Communicating with the Enterprise Manager ](/versioned_docs/threatprevention_7.4/threatprevention/troubleshooting/enterprisemanagercommunication.md)topics
+[Administration Console and Agent Not Communicating with the Enterprise Manager ](/docs/threatprevention/7.4/threatprevention/troubleshooting/enterprisemanagercommunication.md)topics
 for additional information.
 
 Checking the **Create Windows Firewall Rules** box automatically sets the Windows firewall rules
 needed to open these ports on the server during the installation process. If using a third party
 firewall, uncheck this option and manually create the necessary firewall rules. See the
-[Firewall Ports](/versioned_docs/threatprevention_7.4/threatprevention/requirements/ports.md) topic
+[Firewall Ports](/docs/threatprevention/7.4/threatprevention/requirements/ports.md) topic
 for additional information.
 
 When the settings are configured, click **Next**.
@@ -145,5 +145,5 @@ installation is complete, click **Finish**.
 
 The selected components have been installed, and the Threat Prevention Console icon is now on the
 desktop. See the
-[First Launch](/versioned_docs/threatprevention_7.4/threatprevention/install/firstlaunch.md) topic
+[First Launch](/docs/threatprevention/7.4/threatprevention/install/firstlaunch.md) topic
 for the next steps.

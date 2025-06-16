@@ -14,7 +14,7 @@ Create a Connection Profile and set the following information on the User Creden
 - User name – Enter user name
 - Password Storage – Application (Uses the configured Profile Security setting as selected at the
   **Settings** > **Application** node. See the
-  [Application](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/settings/application/overview.md)
+  [Application](/docs/accessanalyzer/11.6/enterpriseauditor/admin/settings/application/overview.md)
   topic for additional information.)
 - Password/Confirm
 
@@ -38,16 +38,16 @@ Create a Connection Profile and set the following information on the User Creden
     - If desired, select this option and provide the key value
 
 Once the Connection Profile is created, it is time to create the custom host list. See the
-[Connection](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/settings/connection/overview.md)
+[Connection](/docs/accessanalyzer/11.6/enterpriseauditor/admin/settings/connection/overview.md)
 topic for additional information.
 
 ## Custom Host List
 
 The custom host list only needs to include a single NIS server in the targeted NIS domain. Follow
 the steps in the
-[Add Hosts](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/hostmanagement/actions/add.md)
+[Add Hosts](/docs/accessanalyzer/11.6/enterpriseauditor/admin/hostmanagement/actions/add.md)
 topic for instructions on how to create a custom static host list.
 
 See the
-[Recommended Configuration for the .NIS Inventory Solution](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/nisinventory/recommended.md)
+[Recommended Configuration for the .NIS Inventory Solution](/docs/accessanalyzer/11.6/enterpriseauditor/solutions/nisinventory/recommended.md)
 topic for information on where to assign the Connection Profile and host list.

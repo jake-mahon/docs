@@ -50,7 +50,7 @@ Remove-SIPolicy -PolicyID "255"
 
 The `Export-SIPolicy` and` Import-SIPolicy` commands can be used to export and edit the XML file of
 an existing policy, and then import (add or replace) the edited policy. See the
-[Not a Policy XML Expert](/versioned_docs/threatprevention_7.4/threatprevention/api/overview.md#not-a-policy-xml-expert)
+[Not a Policy XML Expert](/docs/threatprevention/7.4/threatprevention/api/overview.md#not-a-policy-xml-expert)
 topic for additional information on policy layout and how to make changes to the XML.
 
 ### Export Policies to an XML File
@@ -59,7 +59,7 @@ The `Export-SIPolicy` command retrieves the specified policy or policies as an X
 Prevention into PowerShell or a specified location if you use PowerShell file redirection. The data
 produced by this command is identical in format to that produced by the Administration Console
 export function. See the
-[Export Policies and Templates Window](/versioned_docs/threatprevention_7.4/threatprevention/admin/tools/exportpoliciestemplates.md)
+[Export Policies and Templates Window](/docs/threatprevention/7.4/threatprevention/admin/tools/exportpoliciestemplates.md)
 topic for additional information.
 
 The following parameter(s) are required:
@@ -80,7 +80,7 @@ The `Import-SIPolicy` command imports a policy into the Enterprise Manager from 
 file. This command is used to replace/modify an existing policy or create a new one. The data
 produced by this command is identical in format to that produced by the Administration Console
 import function. See the
-[Import Window](/versioned_docs/threatprevention_7.4/threatprevention/admin/tools/import.md) topic
+[Import Window](/docs/threatprevention/7.4/threatprevention/admin/tools/import.md) topic
 for additional information.
 
 During the import process, the `Import-SIPolicy`command checks existing policy GUIDs against the
@@ -102,7 +102,7 @@ The following parameter is required:
 - FileName [String] – Path to file with valid XML content
 
 Policies exported from the
-[Policies Interface](/versioned_docs/threatprevention_7.4/threatprevention/admin/policies/overview.md)
+[Policies Interface](/docs/threatprevention/7.4/threatprevention/admin/policies/overview.md)
 have the option to be password protected. When importing these policies, the following parameter is
 required along with the FileName:
 

@@ -3,9 +3,9 @@
 Use this API to create a new data source.
 
 See the
-[Create a Data Source for a Text/CSV File](/versioned_docs/groupid_11.0/groupid/admincenter/datasource/create.md#create-a-data-source-for-a-textcsv-file)
+[Create a Data Source for a Text/CSV File](/docs/groupid/11.0/groupid/admincenter/datasource/create.md#create-a-data-source-for-a-textcsv-file)
 section of the
-[Create a Data Source](/versioned_docs/groupid_11.0/groupid/admincenter/datasource/create.md) topic
+[Create a Data Source](/docs/groupid/11.0/groupid/admincenter/datasource/create.md) topic
 to create a Text/CSV data source using the GroupID interface.
 
 ## Endpoint
@@ -61,5 +61,5 @@ connect to a text file that is placed on a local server or on OneDrive.
 
 See Also
 
-- [Data Source APIs](/versioned_docs/groupid_11.0/groupid/api/datasource/datasourceapis.md)
-- [Common Errors](/versioned_docs/groupid_11.0/groupid/api/commonerrors.md)
+- [Data Source APIs](/docs/groupid/11.0/groupid/api/datasource/datasourceapis.md)
+- [Common Errors](/docs/groupid/11.0/groupid/api/commonerrors.md)

@@ -15,4 +15,4 @@ own node in the Access Information Center. Oracle reports fall into the followin
 
 The following report is available at the **Oracle** node:
 
-- [Sensitive Content Summary Report](/versioned_docs/accessinformationcenter_11.6/access/informationcenter/resourceaudit/oracle/sensitivecontentsummary.md)
+- [Sensitive Content Summary Report](/docs/accessinformationcenter/11.6/access/informationcenter/resourceaudit/oracle/sensitivecontentsummary.md)

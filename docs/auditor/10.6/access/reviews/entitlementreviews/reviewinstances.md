@@ -13,5 +13,5 @@ can be started again. Select the review and click **Run Again**. The Create Revi
 without the Review Type page. The review can be run as-is by navigating through the wizard with the
 **Next** buttons, or you can modify as desired. Completing the wizard process restarts the review.
 See the
-[Create Review Wizard](/versioned_docs/auditor_10.6/access/reviews/entitlementreviews/wizard/create.md)
+[Create Review Wizard](/docs/auditor/10.6/access/reviews/entitlementreviews/wizard/create.md)
 topic for additional information.

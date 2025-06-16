@@ -37,7 +37,7 @@ Ensure that a connection profile is configured with the required credentials. Se
 History Retention
 
 Default Retention Period. See the
-[History](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/settings/history.md) topic
+[History](/docs/accessanalyzer/11.6/enterpriseauditor/admin/settings/history.md) topic
 for additional information.
 
 Multi-Console Support
@@ -97,7 +97,7 @@ Wizard opens.
 
 **Step 4 –** Navigate to the Edit Query page. Click the **Parameters** tab on the right-hand side of
 the page to expand the Parameters window. See the
-[PowerShell: Edit Query](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/powershell/editquery.md)
+[PowerShell: Edit Query](/docs/accessanalyzer/11.6/enterpriseauditor/admin/datacollector/powershell/editquery.md)
 topic for additional information. Configure the following attributes as needed:
 
 - $SAHOSTNAME – Created during execution. This parameter cannot be modified.

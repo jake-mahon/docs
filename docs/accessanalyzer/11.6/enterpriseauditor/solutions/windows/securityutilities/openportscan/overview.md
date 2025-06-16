@@ -11,8 +11,8 @@ the OpenPortScan job group’s settings.
 
 The jobs in the OpenPortScan job group are:
 
-- [RemoteOpenPort Job](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/windows/securityutilities/openportscan/remoteopenport.md)
+- [RemoteOpenPort Job](/docs/accessanalyzer/11.6/enterpriseauditor/solutions/windows/securityutilities/openportscan/remoteopenport.md)
   – This job remotely executes `netstat -a -b -n` command to gather information about the available
   port on the targeted hosts
-- [RetrieveNetstat Job](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/windows/securityutilities/openportscan/retrievenetstat.md)
+- [RetrieveNetstat Job](/docs/accessanalyzer/11.6/enterpriseauditor/solutions/windows/securityutilities/openportscan/retrievenetstat.md)
   – This job reveals all open ports along with the associated executable on  targeted systems

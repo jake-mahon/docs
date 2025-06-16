@@ -21,7 +21,7 @@ The following example builds a universe called `Universe1`:
 ![Universe - Basic Example](/img/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/business-intelligence/universe/bi_universeexampledisplaynames.webp)
 
 When
-[getting Usercube data in Power BI](/versioned_docs/usercube_6.1/usercube/integration-guide/governance/reporting/how-tos/connect-powerbi/index.md),
+[getting Usercube data in Power BI](/docs/usercube/6.1/usercube/integration-guide/governance/reporting/how-tos/connect-powerbi/index.md),
 we see the following:
 
 ![Universe (Display Names)](/img/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/business-intelligence/universe/universe_columnnamedisplayname.webp)
@@ -40,7 +40,7 @@ display names:
 ![Universe - Basic Example](/img/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/business-intelligence/universe/bi_universeexample.webp)
 
 When
-[getting Usercube data in Power BI](/versioned_docs/usercube_6.1/usercube/integration-guide/governance/reporting/how-tos/connect-powerbi/index.md),
+[getting Usercube data in Power BI](/docs/usercube/6.1/usercube/integration-guide/governance/reporting/how-tos/connect-powerbi/index.md),
 we see the following:
 
 ![Universe (Identifiers)](/img/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/business-intelligence/universe/universe_columnnameidentifier.webp)
@@ -56,7 +56,7 @@ we see the following:
 ## Child Element: AssociationInstance
 
 An association instance represents, within a universe, the occurrence in the model of an
-[entity association](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/metadata/entityassociation/index.md).
+[entity association](/docs/usercube/6.1/usercube/integration-guide/toolkit/xml-configuration/metadata/entityassociation/index.md).
 
 ### Properties
 
@@ -70,7 +70,7 @@ An association instance represents, within a universe, the occurrence in the mod
 ## Child Element: EntityInstance
 
 An entity instance represents, within a universe, the occurrence in the model of an
-[entity type](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/metadata/entitytype/index.md).
+[entity type](/docs/usercube/6.1/usercube/integration-guide/toolkit/xml-configuration/metadata/entitytype/index.md).
 
 ### Properties
 

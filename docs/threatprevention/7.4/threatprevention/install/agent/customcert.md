@@ -1,14 +1,14 @@
 # Create Custom Managed Certificates for Each Agent
 
 If "custom-managed" is selected for the CA certificate configuration during
-[Manual Agent Deployment](/versioned_docs/threatprevention_7.4/threatprevention/install/agent/manual.md),
+[Manual Agent Deployment](/docs/threatprevention/7.4/threatprevention/install/agent/manual.md),
 use the `SIAgentCert.exe` command line utility to facilitate the creation of certificates for each
 Agent.
 
 **NOTE:** As a prerequisite for using custom managed certificates, you must provide the Enterprise
 Manager server DNS name, hostname, or FQDN (instead of the IP address) when installing Threat
 Prevention server, remote instance of the Administration Console, and the Agent. See the
-[Administration Console and Agent Not Communicating with the Enterprise Manager ](/versioned_docs/threatprevention_7.4/threatprevention/troubleshooting/enterprisemanagercommunication.md)topics
+[Administration Console and Agent Not Communicating with the Enterprise Manager ](/docs/threatprevention/7.4/threatprevention/troubleshooting/enterprisemanagercommunication.md)topics
 for additional information.
 
 The `SIAgentCert.exe` utility is located in the following folder:
@@ -51,7 +51,7 @@ Windows Agent_ and service name as _SIWindowsAgent_.
 Console. Upgrades and configuration changes will continue to use the existing certificate.
 
 See the
-[Upgrade Procedure](/versioned_docs/threatprevention_7.4/threatprevention/install/upgrade/overview.md)
+[Upgrade Procedure](/docs/threatprevention/7.4/threatprevention/install/upgrade/overview.md)
 topic for upgrade considerations. See the
-[Upgrade Agent](/versioned_docs/threatprevention_7.4/threatprevention/install/upgrade/agent.md)
+[Upgrade Agent](/docs/threatprevention/7.4/threatprevention/install/upgrade/agent.md)
 topic for instructions on upgrading an Agent from the Administration Console.

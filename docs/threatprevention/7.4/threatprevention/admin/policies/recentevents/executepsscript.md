@@ -20,5 +20,5 @@ $sw.WriteLine(("EventName: " + $helper.EventName))
 ```
 
 See the
-[Default PowerShell 4.0 Script](/versioned_docs/threatprevention_7.4/threatprevention/admin/policies/actions/powershell.md#default-powershell-40-script)
+[Default PowerShell 4.0 Script](/docs/threatprevention/7.4/threatprevention/admin/policies/actions/powershell.md#default-powershell-40-script)
 topic for the full example script.

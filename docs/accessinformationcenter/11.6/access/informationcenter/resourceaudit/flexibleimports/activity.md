@@ -2,7 +2,7 @@
 
 The Activity report for imported data displays activity on the resource during the selected date
 range. The **Include Subfolders** option is active by default until removed. See the
-[Results Pane](/versioned_docs/accessinformationcenter_11.6/access/informationcenter/resourceaudit/navigate/overview.md#results-pane)
+[Results Pane](/docs/accessinformationcenter/11.6/access/informationcenter/resourceaudit/navigate/overview.md#results-pane)
 topic for information on changing this option.
 
 ![Activity report for imported data](/img/versioned_docs/accessinformationcenter_11.6/access/informationcenter/resourceaudit/flexibleimports/activity.webp)
@@ -30,5 +30,5 @@ This report is comprised of the following columns:
 - Process Name – Name of the process which performed the operation
 
 The table data grid functions the same way as other table grids. See the
-[Data Grid Features](/versioned_docs/accessinformationcenter_11.6/access/general/datagrid.md) topic
+[Data Grid Features](/docs/accessinformationcenter/11.6/access/general/datagrid.md) topic
 for additional information.

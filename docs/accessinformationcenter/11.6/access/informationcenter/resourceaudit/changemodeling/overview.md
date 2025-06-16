@@ -9,11 +9,11 @@ targeted file systems.
 
 The change modeling process is a feature of the Group Membership pane. You should begin by reviewing
 a trustee's effective access to a File System resource in
-[Effective Access Report](/versioned_docs/accessinformationcenter_11.6/access/informationcenter/resourceaudit/filesystem/sharesubfolder/effectiveaccess.md)
+[Effective Access Report](/docs/accessinformationcenter/11.6/access/informationcenter/resourceaudit/filesystem/sharesubfolder/effectiveaccess.md)
 at the share and subfolder levels. Then use the Group Membership pane Changes feature to model the
 changes for the selected resource. Finally, review the changes across the entire File System
 environment in the
-[Modeled Access Changes Report](/versioned_docs/accessinformationcenter_11.6/access/informationcenter/resourceaudit/changemodeling/modeledaccesschanges.md)
+[Modeled Access Changes Report](/docs/accessinformationcenter/11.6/access/informationcenter/resourceaudit/changemodeling/modeledaccesschanges.md)
 at the **File System** node. See the
-[Model Changes in the AIC](/versioned_docs/accessinformationcenter_11.6/access/informationcenter/resourceaudit/changemodeling/model.md)
+[Model Changes in the AIC](/docs/accessinformationcenter/11.6/access/informationcenter/resourceaudit/changemodeling/model.md)
 topic for detailed instructions on this process.

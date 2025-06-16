@@ -40,7 +40,7 @@ purpose of this job.
 ![Options Page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/databases/sql/collection/3sqlactivityscanoptionspage.webp)
 
 **Step 4 –** To modify scan options, navigate to the
-[SQL Data Collector](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/sql/overview.md)
+[SQL Data Collector](/docs/accessanalyzer/11.6/enterpriseauditor/admin/datacollector/sql/overview.md)
 page. Select the desired scan options. The query is preconfigured with the following default
 settings:
 
@@ -52,7 +52,7 @@ settings:
 ![Filter Page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/databases/sql/collection/3sqlactivityscanfilterpage.webp)
 
 **Step 5 –** To scope the query for specific database/instance, navigate to the
-[SQL Data Collector](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/sql/overview.md)
+[SQL Data Collector](/docs/accessanalyzer/11.6/enterpriseauditor/admin/datacollector/sql/overview.md)
 page. The query is configured by default to target Only select database objects. Click Retrieve. The
 Available database objects will be populated. Databases and instances can be added in the following
 ways:

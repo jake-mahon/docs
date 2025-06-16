@@ -59,7 +59,7 @@ Step 5 – Click **Save**.
 
 The information displayed for a site in the Included SharePoint Sites area is the same as displayed
 for a file server in an Active Directory identity store. Refer to the
-[File Server Details ](/versioned_docs/groupid_11.0/groupid/admincenter/entitlement/ad/manage.md#file-server-details)
+[File Server Details ](/docs/groupid/11.0/groupid/admincenter/entitlement/ad/manage.md#file-server-details)
 topic for more info. Though in this case, the User namecolumn displays the username of the account
 used to connect to the site, and it is not blank.
 
@@ -68,7 +68,7 @@ used to connect to the site, and it is not blank.
 Use the _Search Filters_ option in the Included SharePoint Sites area to search for a site in the
 listing. The filters are the same as displayed for a file server in an Active Directory identity
 store. Refer to the
-[Search File Servers ](/versioned_docs/groupid_11.0/groupid/admincenter/entitlement/ad/manage.md#search-file-servers)
+[Search File Servers ](/docs/groupid/11.0/groupid/admincenter/entitlement/ad/manage.md#search-file-servers)
 topic for performing a search.
 
 ## Include Future Sites for Entitlement Management
@@ -104,7 +104,7 @@ button for a site and select **Edit**. On the **Edit Site** dialog box:
 
 - The Site Libraries area displays the document libraries in the site.
 - The name of the
-  [GroupID Entitlement Schedule](/versioned_docs/groupid_11.0/groupid/admincenter/schedule/entitlement.md)
+  [GroupID Entitlement Schedule](/docs/groupid/11.0/groupid/admincenter/schedule/entitlement.md)
   that computes the permissions on document libraries in the site and replicates them to
   Elasticsearch, is displayed next to **Job**.
 
@@ -154,10 +154,10 @@ button for a site and select **Edit**.
 
 Step 5 – On the **Edit Site** dialog box, you can change the service account used to connect to the
 site for reading and updating permissions. The
-[GroupID Entitlement Schedule](/versioned_docs/groupid_11.0/groupid/admincenter/schedule/entitlement.md),
-[Entitlement Scope Schedule](/versioned_docs/groupid_11.0/groupid/admincenter/schedule/entitlementscope.md),
+[GroupID Entitlement Schedule](/docs/groupid/11.0/groupid/admincenter/schedule/entitlement.md),
+[Entitlement Scope Schedule](/docs/groupid/11.0/groupid/admincenter/schedule/entitlementscope.md),
 and
-[Entitlement Temporary Permissions Schedule](/versioned_docs/groupid_11.0/groupid/admincenter/schedule/entitlementtemporarypermissions.md)
+[Entitlement Temporary Permissions Schedule](/docs/groupid/11.0/groupid/admincenter/schedule/entitlementtemporarypermissions.md)
 run in the context of the account specified here.
 
 - The User name and Password boxes display the credentials of the account used to connect to the
@@ -183,7 +183,7 @@ After adding the SharePoint admin URL to manage entitlements for document librar
 is essential to replicate object permissions from the SharePoint server to Elasticsearch.
 
 The
-[GroupID Entitlement Schedule](/versioned_docs/groupid_11.0/groupid/admincenter/schedule/entitlement.md)
+[GroupID Entitlement Schedule](/docs/groupid/11.0/groupid/admincenter/schedule/entitlement.md)
 runs on a set frequency to replicate the effective permissions on document libraries in the sites.
 You can also run this schedule any time manually for a site listed in the Included SharePoint sites
 area on the Entitlementpage.
@@ -266,5 +266,5 @@ Step 5 – Click **Save**.
 
 See Also
 
-- [Entitlement](/versioned_docs/groupid_11.0/groupid/admincenter/entitlement/overview.md)
-- [Manage File Servers](/versioned_docs/groupid_11.0/groupid/admincenter/entitlement/ad/manage.md)
+- [Entitlement](/docs/groupid/11.0/groupid/admincenter/entitlement/overview.md)
+- [Manage File Servers](/docs/groupid/11.0/groupid/admincenter/entitlement/ad/manage.md)

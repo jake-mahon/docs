@@ -5,16 +5,16 @@ servers that data is pending cleanup.
 
 **NOTE:** The SendMail action module requires configuration of the Notification Settings in the
 Global Settings. See the
-[Notification](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/settings/notification.md)
+[Notification](/docs/accessanalyzer/11.6/enterpriseauditor/admin/settings/notification.md)
 topic for additional information.
 
 ![2. Notify Job Group in the Jobs Tree](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/hostmanagement/jobstree.webp)
 
 This job group includes the following jobs:
 
-- [FS_NotifyOwners Job](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/filesystem/cleanup/notify/fs_notifyowners.md)
+- [FS_NotifyOwners Job](/docs/accessanalyzer/11.6/enterpriseauditor/solutions/filesystem/cleanup/notify/fs_notifyowners.md)
   – Designed to notify share owners that there is data within their share pending cleanup
-- [FS_NotifyOwners_Status Job](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/filesystem/cleanup/notify/fs_notifyowners_status.md)
+- [FS_NotifyOwners_Status Job](/docs/accessanalyzer/11.6/enterpriseauditor/solutions/filesystem/cleanup/notify/fs_notifyowners_status.md)
   – Designed to summarize the actions taken by the NotifyOwners job
 
 Workflow

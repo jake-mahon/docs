@@ -22,7 +22,7 @@ This functionality is currently available for the following data sources:
 
 To provide data for state-in-time reports, remember to select the **Collect data for state-in-time
 reports** option when you configure a monitoring plan for the selected data source. See the
-[Settings for Data Collection](/versioned_docs/auditor_10.6/auditor/admin/monitoringplans/create.md#settings-for-data-collection)
+[Settings for Data Collection](/docs/auditor/10.6/auditor/admin/monitoringplans/create.md#settings-for-data-collection)
 topic for additional information.
 
 The state-in-time reports are available under the Reports node. Depending on the data source,
@@ -35,9 +35,9 @@ sources and items included in each plan, navigate to the Monitoring Plans sectio
 ![fileshareswindowsservers](/img/versioned_docs/auditor_10.6/auditor/admin/reports/types/stateintime/fileshareswindowsservers.webp)
 
 Each report has a set of filters which help organize audit data in the most convenient way. See the
-[View Reports](/versioned_docs/auditor_10.6/auditor/admin/reports/view.md) topic for additional
+[View Reports](/docs/auditor/10.6/auditor/admin/reports/view.md) topic for additional
 information. You can also create a subscription to any report you want to receive on a regular
-basis. See the [Subscriptions](/versioned_docs/auditor_10.6/auditor/admin/subscriptions/overview.md)
+basis. See the [Subscriptions](/docs/auditor/10.6/auditor/admin/subscriptions/overview.md)
 topic for additional information.
 
 By default, state-in-time reports reflect the current state of the data source. If you want to

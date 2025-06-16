@@ -12,14 +12,14 @@ On the Manage Reviews page in the Resource Reviews interface, a review with a Co
 be started again. Select the review and click **Run Again**. The Create Review wizard opens without
 the Review Type page. The review can be run as-is by navigating through the wizard with the **Next**
 buttons, or you can modify as desired. Completing the wizard process restarts the review. See the
-[Create Review Wizard](/versioned_docs/accessinformationcenter_11.6/access/informationcenter/resourcereviews/wizard/create.md)
+[Create Review Wizard](/docs/accessinformationcenter/11.6/access/informationcenter/resourcereviews/wizard/create.md)
 topic for additional information.
 
 ![Instance drop-down on Review Details page](/img/versioned_docs/accessinformationcenter_11.6/access/informationcenter/resourcereviews/reviewinstances.webp)
 
 Previous instances for a review can be viewed on the Review Details page. Select the instance from
 the drop-down menu to show the details for it. See the
-[Review Details Page](/versioned_docs/accessinformationcenter_11.6/access/informationcenter/resourcereviews/interface.md#review-details-page)
+[Review Details Page](/docs/accessinformationcenter/11.6/access/informationcenter/resourcereviews/interface.md#review-details-page)
 topic for additional information.
 
 ## Sensitive Data Review Instances

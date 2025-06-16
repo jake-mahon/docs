@@ -24,7 +24,7 @@ The SQL Data Collector requires a specific set of permissions. See the Permissio
 necessary permissions. The account used can be either an Active Directory account or a SQL account.
 Once the account has been provisioned, create a custom Connection Profile containing the credentials
 for the targeted environment. See the
-[SQL Custom Connection Profile & Default Dynamic Host List](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/sql/configurejob.md)
+[SQL Custom Connection Profile & Default Dynamic Host List](/docs/accessanalyzer/11.6/enterpriseauditor/admin/datacollector/sql/configurejob.md)
 topic for additional information.
 
 The Connection Profile should be assigned under the **Redshift** > **0.Collection** > **Settings** >
@@ -34,7 +34,7 @@ assigned hosts, click the radio button for the **Select one of the following use
 option and select the appropriate Connection Profile drop-down menu.
 
 See the
-[Connection](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/settings/connection/overview.md)
+[Connection](/docs/accessanalyzer/11.6/enterpriseauditor/admin/settings/connection/overview.md)
 topic for additional information.
 
 Schedule Frequency

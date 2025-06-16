@@ -106,5 +106,5 @@ server reboot at the end of the installation.
 Once installation is complete, open and walk through the Netwrix Privilege Secure Setup Wizard. The
 Wizard can be accessed through the Netwrix Privilege Secure desktop icon or locally on the default
 port. See the
-[First Launch](/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/install/firstlaunch.md)
+[First Launch](/docs/privilegesecure/4.1/privilegesecure/accessmanagement/install/firstlaunch.md)
 topic for additional information.

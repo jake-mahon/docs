@@ -78,7 +78,7 @@ automation of approved changes.
     information.
 
 See the
-[Access Groups](/versioned_docs/accessinformationcenter_11.6/access/informationcenter/resourceowners/accessgroups.md)
+[Access Groups](/docs/accessinformationcenter/11.6/access/informationcenter/resourceowners/accessgroups.md)
 topic for additional information.
 
 ### Sensitive Data Review Automation

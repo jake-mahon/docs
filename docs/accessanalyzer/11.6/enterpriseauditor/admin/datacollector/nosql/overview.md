@@ -6,7 +6,7 @@ data. It also supports the execution of custom queries against all targeted Mong
 
 The NoSQL Data Collector has been preconfigured within the MongoDB Solution. Both this data
 collector and the solution are available with a special Enterprise Auditor license. See the
-[MongoDB Solution](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/databases/mongodb/overview.md)
+[MongoDB Solution](/docs/accessanalyzer/11.6/enterpriseauditor/solutions/databases/mongodb/overview.md)
 topic for additional information.
 
 Protocols
@@ -46,9 +46,9 @@ then an extra 16 GB of RAM are required (8x2=16).
 The NoSQL Data Collector is configured through the NoSQL Data Collector Wizard. The wizard contains
 the following pages, which change based upon the query category selected:
 
-- [NoSQL: Category](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/nosql/category.md)
-- [NoSQL: Options](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/nosql/options.md)
-- [NoSQL: Criteria](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/nosql/criteria.md)
-- [NoSQL: Filter](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/nosql/filter.md)
-- [NoSQL: Results](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/nosql/results.md)
-- [NoSQL: Summary](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/nosql/summary.md)
+- [NoSQL: Category](/docs/accessanalyzer/11.6/enterpriseauditor/admin/datacollector/nosql/category.md)
+- [NoSQL: Options](/docs/accessanalyzer/11.6/enterpriseauditor/admin/datacollector/nosql/options.md)
+- [NoSQL: Criteria](/docs/accessanalyzer/11.6/enterpriseauditor/admin/datacollector/nosql/criteria.md)
+- [NoSQL: Filter](/docs/accessanalyzer/11.6/enterpriseauditor/admin/datacollector/nosql/filter.md)
+- [NoSQL: Results](/docs/accessanalyzer/11.6/enterpriseauditor/admin/datacollector/nosql/results.md)
+- [NoSQL: Summary](/docs/accessanalyzer/11.6/enterpriseauditor/admin/datacollector/nosql/summary.md)

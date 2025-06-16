@@ -1,7 +1,7 @@
 # Email Message Options
 
 Email message options are set for each password policy from the
-[Maximum Age Rule](/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/administration/maximum_age_rule.md)
+[Maximum Age Rule](/docs/passwordpolicyenforcer/10.2/password_policy_enforcer/administration/maximum_age_rule.md)
 rule properties page. Follow the steps below to configure the email message options for a policy.
 
 **Step 1 –** Click the **Polices** item to display the Polices view.

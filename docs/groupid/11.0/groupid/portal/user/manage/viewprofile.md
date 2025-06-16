@@ -4,7 +4,7 @@ To view and update your profile information in the directory, click your profile
 right corner and select **See full profile**.
 
 The profile page has the same tabs as the user properties page. Refer to the information for
-[User Properties](/versioned_docs/groupid_11.0/groupid/portal/user/properties/overview.md) to manage
+[User Properties](/docs/groupid/11.0/groupid/portal/user/properties/overview.md) to manage
 your profile.
 
 ## User profile validation
@@ -29,5 +29,5 @@ On your profile page, your profile validation status is displayed next to your n
 
 **See Also**
 
-- [User Properties](/versioned_docs/groupid_11.0/groupid/portal/user/properties/overview.md)
-- [Validate your profile](/versioned_docs/groupid_11.0/groupid/portal/user/manage/validateprofile.md)
+- [User Properties](/docs/groupid/11.0/groupid/portal/user/properties/overview.md)
+- [Validate your profile](/docs/groupid/11.0/groupid/portal/user/manage/validateprofile.md)

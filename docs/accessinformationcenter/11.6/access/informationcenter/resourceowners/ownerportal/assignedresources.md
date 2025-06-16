@@ -28,7 +28,7 @@ The table contains one row per assigned resource. The information in this table 
       after the owner leaves the Owner portal or logs out.
 
 The table data grid functions the same way as other table grids. See the
-[Data Grid Features](/versioned_docs/accessinformationcenter_11.6/access/general/datagrid.md) topic
+[Data Grid Features](/docs/accessinformationcenter/11.6/access/general/datagrid.md) topic
 for additional information.
 
 The buttons at the bottom enable you to conduct the following actions:
@@ -36,8 +36,8 @@ The buttons at the bottom enable you to conduct the following actions:
 | Button         | Function                                                                                                                                                                                                                                                                                                                                                                         |
 | -------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Update         | Opens the [Update Resource Window](#update-resource-window) for the selected resource, which allows you to confirm or decline ownership of the resource and to add a description.                                                                                                                                                                                                |
-| Change Access  | Opens the [Change Resource Access Wizard](/versioned_docs/accessinformationcenter_11.6/access/informationcenter/resourceowners/ownerportal/changeaccess.md) for the selected resource, which allows you to make ad hoc changes to access and group membership. This button is only enabled if the feature was enabled for the selected resource by the Ownership Administrators. |
-| Resource Audit | Opens the Resource Audit interface or Group Audit interface directly to the selected resource. See the [Audit Interfaces](/versioned_docs/accessinformationcenter_11.6/access/informationcenter/resourceaudit/navigate/overview.md) topic for additional information.                                                                                                            |
+| Change Access  | Opens the [Change Resource Access Wizard](/docs/accessinformationcenter/11.6/access/informationcenter/resourceowners/ownerportal/changeaccess.md) for the selected resource, which allows you to make ad hoc changes to access and group membership. This button is only enabled if the feature was enabled for the selected resource by the Ownership Administrators. |
+| Resource Audit | Opens the Resource Audit interface or Group Audit interface directly to the selected resource. See the [Audit Interfaces](/docs/accessinformationcenter/11.6/access/informationcenter/resourceaudit/navigate/overview.md) topic for additional information.                                                                                                            |
 
 ## Update Resource Window
 

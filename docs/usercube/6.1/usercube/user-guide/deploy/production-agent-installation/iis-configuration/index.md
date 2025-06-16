@@ -65,4 +65,4 @@ Configure the application pool and site by proceeding as follows:
 ## Next Steps
 
 To continue,
-[set the right permissions on the working directory](/versioned_docs/usercube_6.1/usercube/user-guide/deploy/production-agent-installation/directory-permissions/index.md).
+[set the right permissions on the working directory](/docs/usercube/6.1/usercube/user-guide/deploy/production-agent-installation/directory-permissions/index.md).

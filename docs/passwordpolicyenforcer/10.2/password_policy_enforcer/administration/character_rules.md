@@ -10,7 +10,7 @@ All the Character rules work identically, but each has their own default charact
 set is the collection of characters that each rule searches for when checking a password. You can
 use the Character rules with their default character sets, or define your own. By default, the
 Password Policy Enforcer will select the Password Policy Enforcer character on the
-[Policy Priorities](/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/administration/policy_priorities.md)
+[Policy Priorities](/docs/passwordpolicyenforcer/10.2/password_policy_enforcer/administration/policy_priorities.md)
 page.
 
 **NOTE:** Only Password Policy Enforcer 10.2 and higher will contain the Windows character set.

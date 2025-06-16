@@ -17,7 +17,7 @@ information please review the associated templating guide.
 
 To crawl the data within SharePoint Online, you need to enable Multi-Factor Authentication:
 
-- [Access SharePoint Online using modern authentication](/versioned_docs/dataclassification_5.6.2/ndc/config_infrastructure/config_spo_modern_auth.md)
+- [Access SharePoint Online using modern authentication](/docs/dataclassification/5.6.2/ndc/config_infrastructure/config_spo_modern_auth.md)
 
 ![addsharepointonline_thumb_0_0](/img/versioned_docs/dataclassification_5.6.2/ndc/sources/sharepoint/addsharepointonline_thumb_0_0.webp)
 
@@ -29,7 +29,7 @@ Complete the following fields:
 | Username                | Enter username in the following formats: DOMAIN\USERNAME and USERNAME@DOMAIN.                                                                                                                                                                                                         |
 | Password                | Enter you password for SharePoint Online.                                                                                                                                                                                                                                             |
 | Match Rules             | Enter the site collections' path for crawling the documents. At least one match rule must be included. Match rules are regular expressions, for example, https:\/\/example.sharepoint.com\/sites\/.                                                                                   |
-| Classification template | Specify the required Classification template for writing classifications. See the Enable Write Classifications and [Working with SharePoint templates](/versioned_docs/dataclassification_5.6.2/ndc/sources/manage_working_with_sharepoint_templates.md) topics for more information. |
+| Classification template | Specify the required Classification template for writing classifications. See the Enable Write Classifications and [Working with SharePoint templates](/docs/dataclassification/5.6.2/ndc/sources/manage_working_with_sharepoint_templates.md) topics for more information. |
 | Detection Period        | Specify how often you will detect new site collections. Default period is 1 day and 0 hour(s).                                                                                                                                                                                        |
 
 After configuring the settings, click the **Save** button.

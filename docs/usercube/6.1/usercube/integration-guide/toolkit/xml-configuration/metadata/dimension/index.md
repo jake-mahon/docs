@@ -1,7 +1,7 @@
 # Dimension
 
 A dimension is an
-[Entity Type](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/metadata/entitytype/index.md)
+[Entity Type](/docs/usercube/6.1/usercube/integration-guide/toolkit/xml-configuration/metadata/entitytype/index.md)
 used to define an organizational filter for the Usercube role model.
 
 ## Examples

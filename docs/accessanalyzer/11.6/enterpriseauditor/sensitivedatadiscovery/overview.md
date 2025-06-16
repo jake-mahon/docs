@@ -40,5 +40,5 @@ customized through Java. It will not conflict with other JDKs or Java Runtimes i
 environment.
 
 See the
-[Sensitive Data Discovery Add-On Installation](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/install/sensitivedatadiscovery/overview.md)
+[Sensitive Data Discovery Add-On Installation](/docs/accessanalyzer/11.6/enterpriseauditor/install/sensitivedatadiscovery/overview.md)
 topic for installation information and prerequisites.

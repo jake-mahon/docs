@@ -2,13 +2,13 @@
 
 To install GroupID, you have to run the following tools in the given order:
 
-- **[Preparation Tool](/versioned_docs/groupid_11.0/groupid/install/installer/preparationtool.md)** -
+- **[Preparation Tool](/docs/groupid/11.0/groupid/install/installer/preparationtool.md)** -
   Detects and instals the prerequisite software and Windows features that GroupID requires.
 
-- **[Installation Tool](/versioned_docs/groupid_11.0/groupid/install/installer/install.md)** -
+- **[Installation Tool](/docs/groupid/11.0/groupid/install/installer/install.md)** -
   Installs GroupID.
 
-- **[Configuration Tool](/versioned_docs/groupid_11.0/groupid/install/configure/configure.md)** -
+- **[Configuration Tool](/docs/groupid/11.0/groupid/install/configure/configure.md)** -
   Configures GroupID services, database, and other components.
 
 ## GroupID Installation Package
@@ -51,6 +51,6 @@ NOTE: This section does not apply to a fresh GroupID installation.
 
 See Also
 
-- [Preparation Tool](/versioned_docs/groupid_11.0/groupid/install/installer/preparationtool.md)
-- [Installation Tool](/versioned_docs/groupid_11.0/groupid/install/installer/install.md)
-- [Configuration Tool](/versioned_docs/groupid_11.0/groupid/install/configure/configure.md)
+- [Preparation Tool](/docs/groupid/11.0/groupid/install/installer/preparationtool.md)
+- [Installation Tool](/docs/groupid/11.0/groupid/install/installer/install.md)
+- [Configuration Tool](/docs/groupid/11.0/groupid/install/configure/configure.md)

@@ -21,7 +21,7 @@ What do you want to do?
 ## Set Password Restrictions and Rules for an Identity Store
 
 See the
-[Configure Password Options](/versioned_docs/groupid_11.0/groupid/admincenter/identitystore/configure/security/passwordoptions.md)
+[Configure Password Options](/docs/groupid/11.0/groupid/admincenter/identitystore/configure/security/passwordoptions.md)
 topic.
 
 ## Define Security Question Settings for a Security Role
@@ -133,5 +133,5 @@ properties in the GroupID portal.
 
 **See Also**
 
-- [Security Roles](/versioned_docs/groupid_11.0/groupid/admincenter/securityrole/overview.md)
-- [Security Role Policies](/versioned_docs/groupid_11.0/groupid/admincenter/securityrole/policy/overview.md)
+- [Security Roles](/docs/groupid/11.0/groupid/admincenter/securityrole/overview.md)
+- [Security Role Policies](/docs/groupid/11.0/groupid/admincenter/securityrole/policy/overview.md)

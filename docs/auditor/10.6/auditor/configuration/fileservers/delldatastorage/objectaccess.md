@@ -47,5 +47,5 @@ node on the left and navigate to **Policies → Windows Settings → Security Se
 
 You can configure advanced audit policy to narrow the range of events tracked and recorded by the
 product, thus preventing your AuditArchive and the Security event log from overfilling. See the
-[Configure Security Event Log Maximum Size](/versioned_docs/auditor_10.6/auditor/configuration/fileservers/delldatastorage/securityeventlog.md)
+[Configure Security Event Log Maximum Size](/docs/auditor/10.6/auditor/configuration/fileservers/delldatastorage/securityeventlog.md)
 topic for additional information.

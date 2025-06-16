@@ -27,7 +27,7 @@ Follow the steps to run search and create the alert based on the search filters.
 **Step 1 –** On the main Auditor page, click the Search Activity Records tile.
 
 **Step 2 –** Specify search filters to narrow your search results. See the
-[Use Filters in Simple Mode](/versioned_docs/auditor_10.6/auditor/admin/search/filtersimple.md)
+[Use Filters in Simple Mode](/docs/auditor/10.6/auditor/admin/search/filtersimple.md)
 topic for additional information.
 
 **Step 3 –** Click Search.
@@ -38,7 +38,7 @@ topic for additional information.
 suspicious activity that matches your current search criteria.
 
 **Step 6 –** Specify a name for the new alert. See the
-[Create Alerts](/versioned_docs/auditor_10.6/auditor/admin/alertsettings/create.md)topic for
+[Create Alerts](/docs/auditor/10.6/auditor/admin/alertsettings/create.md)topic for
 additional information.
 
 Now, whenever there is activity that matches your search criteria, the appropriate people will
@@ -53,7 +53,7 @@ Follow the steps to review risks and pin important ones to the Home Screen.
 
 **Step 2 –** Review the Risk Assessment Overview dashbord and select the risk you are interested in,
 such as "_User Accounts with administrative permissions_". See the
-[IT Risk Assessment Overview ](/versioned_docs/auditor_10.6/auditor/admin/riskassessment/overview.md)
+[IT Risk Assessment Overview ](/docs/auditor/10.6/auditor/admin/riskassessment/overview.md)
 topic for additional information.
 
 **Step 3 –** To access this risk quickly, pin it to the home page, as follows:
@@ -73,5 +73,5 @@ The selected risks group is added to the home screen.
 
 Personalize the home page of the product depending on your business needs. Review the customization
 settings and collect only required tiles for quick access on the Auditor home page. See the
-[Customize Home Screen](/versioned_docs/auditor_10.6/auditor/admin/navigation/customizehome.md)
+[Customize Home Screen](/docs/auditor/10.6/auditor/admin/navigation/customizehome.md)
 topic for additional information.

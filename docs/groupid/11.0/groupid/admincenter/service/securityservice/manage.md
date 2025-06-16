@@ -24,16 +24,16 @@ What do you want to do?
    Security service that you have created. When multiple GroupID instances have been deployed, you
    will find multiple default Security services on this tab page, as each instance has its own
    default Security service. See the
-   [Elasticsearch Clusters, Nodes, and GroupID](/versioned_docs/groupid_11.0/groupid/admincenter/service/overview.md#elasticsearch-clusters-nodes-and-groupid)
+   [Elasticsearch Clusters, Nodes, and GroupID](/docs/groupid/11.0/groupid/admincenter/service/overview.md#elasticsearch-clusters-nodes-and-groupid)
    topic.  
    For details displayed on a service card, see the table in the
-   [View Data Service Details](/versioned_docs/groupid_11.0/groupid/admincenter/service/dataservice/manage.md#view-data-service-details)
+   [View Data Service Details](/docs/groupid/11.0/groupid/admincenter/service/dataservice/manage.md#view-data-service-details)
    topic.
 
 ## Manage Security Service Settings
 
 See the
-[Manage Data Service Settings](/versioned_docs/groupid_11.0/groupid/admincenter/service/dataservice/manage.md)
+[Manage Data Service Settings](/docs/groupid/11.0/groupid/admincenter/service/dataservice/manage.md)
 topic to manage settings for a Security service, such as deployment and log settings.
 
 ## Delete a Security Service
@@ -67,6 +67,6 @@ has been linked with a GroupID client, such as the GroupID portal or a Mobile se
 
 See Also
 
-- [GroupID Applications](/versioned_docs/groupid_11.0/groupid/admincenter/portal/applications.md)
-- [Services](/versioned_docs/groupid_11.0/groupid/admincenter/service/overview.md)
-- [Create a Security Service](/versioned_docs/groupid_11.0/groupid/admincenter/service/securityservice/create.md)
+- [GroupID Applications](/docs/groupid/11.0/groupid/admincenter/portal/applications.md)
+- [Services](/docs/groupid/11.0/groupid/admincenter/service/overview.md)
+- [Create a Security Service](/docs/groupid/11.0/groupid/admincenter/service/securityservice/create.md)

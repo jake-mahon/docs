@@ -93,4 +93,4 @@ The email address of the group (applies to mail-enabled groups only, such as an 
 
 **See Also**
 
-- [Group Properties](/versioned_docs/groupid_11.0/groupid/portal/group/properties/overview.md)
+- [Group Properties](/docs/groupid/11.0/groupid/portal/group/properties/overview.md)

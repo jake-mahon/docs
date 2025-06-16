@@ -62,8 +62,8 @@ Enterprise Auditor Console.
 When Role Based Access is first enabled, restart the Enterprise Auditor application to ensure all
 roles are properly active. The Report Viewer role can be assigned at the job group, job, and report
 configuration levels. See the
-[Reporting Node](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/jobs/group/reporting.md),
-[Report Roles Tab](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/jobs/job/properties/reportroles.md),
+[Reporting Node](/docs/accessanalyzer/11.6/enterpriseauditor/admin/jobs/group/reporting.md),
+[Report Roles Tab](/docs/accessanalyzer/11.6/enterpriseauditor/admin/jobs/job/properties/reportroles.md),
 and
-[Publish Security Page](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/report/wizard/publishsecurity.md)
+[Publish Security Page](/docs/accessanalyzer/11.6/enterpriseauditor/admin/report/wizard/publishsecurity.md)
 topics for additional information.

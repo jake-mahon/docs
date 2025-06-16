@@ -4,7 +4,7 @@ This tab displays the object's history, which includes all changes to the object
 
 History is available if the administrator has enabled history tracking for the identity store in
 GroupID Management Console. See
-[History](/versioned_docs/groupid_11.0/groupid/portal/history/overview.md).
+[History](/docs/groupid/11.0/groupid/portal/history/overview.md).
 
 What do you want to do?
 
@@ -59,9 +59,9 @@ edit or add comments.
 ### Add a note
 
 The option to add a note is available on the My Account History card on Dashboard, and all History
-pages i.e.[My History](/versioned_docs/groupid_11.0/groupid/portal/history/myhistory.md),
-[My Direct Reports' History](/versioned_docs/groupid_11.0/groupid/portal/history/mydirectreport.md)
-and [My Groups' History](/versioned_docs/groupid_11.0/groupid/portal/history/mydirectorygroup.md)
+pages i.e.[My History](/docs/groupid/11.0/groupid/portal/history/myhistory.md),
+[My Direct Reports' History](/docs/groupid/11.0/groupid/portal/history/mydirectreport.md)
+and [My Groups' History](/docs/groupid/11.0/groupid/portal/history/mydirectorygroup.md)
 pages.
 
 1. Click the **Add Note** button next to a history item to add a note to it.
@@ -99,6 +99,6 @@ You can only remove the note that you have added.
 
 See Also
 
-- [Group Properties](/versioned_docs/groupid_11.0/groupid/portal/group/properties/overview.md)
-- [History](/versioned_docs/groupid_11.0/groupid/portal/history/overview.md)
-- [Portal Settings](/versioned_docs/groupid_11.0/groupid/portal/setting/portal.md)
+- [Group Properties](/docs/groupid/11.0/groupid/portal/group/properties/overview.md)
+- [History](/docs/groupid/11.0/groupid/portal/history/overview.md)
+- [Portal Settings](/docs/groupid/11.0/groupid/portal/setting/portal.md)

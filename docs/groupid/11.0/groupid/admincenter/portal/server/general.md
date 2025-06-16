@@ -53,7 +53,7 @@ NOTE: You may observe the following message on the **Server Settings – General
 ![linked_message](/img/versioned_docs/groupid_11.0/groupid/admincenter/portal/linked_message.webp)
 
 It relates to the scenario when identity stores in GroupID have been linked, as discussed in the
-[Linked Identity Stores and the GroupID Portal](/versioned_docs/groupid_11.0/groupid/admincenter/identitystore/link/overview.md#linked-identity-stores-and-the-groupid-portal)
+[Linked Identity Stores and the GroupID Portal](/docs/groupid/11.0/groupid/admincenter/identitystore/link/overview.md#linked-identity-stores-and-the-groupid-portal)
 topic. Hence, when two identity stores, IdentityStoreA and IdentityStoreB, are linked and you
 associate IdentityStoreA with the portal, this message is displayed. It alerts you to associate the
 second identity store in the linked pair (dentityStoreB) with the portal too, in order to benefit
@@ -78,20 +78,20 @@ settings for each deployment instance of a portal.
       Select an instance to view the name of the instance directory in IIS, the IIS site that hosts
       the instance, the URL for the instance, the Data service and Security service associated with
       the instance, and logging levels. See the
-      [Manage Settings for a Native IIS Deployment](/versioned_docs/groupid_11.0/groupid/admincenter/portal/server/nativeiis.md)
+      [Manage Settings for a Native IIS Deployment](/docs/groupid/11.0/groupid/admincenter/portal/server/nativeiis.md)
       topic for details.
     - The **Remote IIS** tab is available when one or more portal instances are deployed in remote
       IIS. Select an instance to view the Microsoft IIS Administration API URL and access token that
       GroupID uses to communicate with the remote IIS server, the credentials used to communicate
       with the API, the site that hosts the instance, the Data service and Security service
       associated with the instance, and logging levels. See the
-      [Manage Settings for a Remote IIS Deployment](/versioned_docs/groupid_11.0/groupid/admincenter/portal/server/remoteiis.md)
+      [Manage Settings for a Remote IIS Deployment](/docs/groupid/11.0/groupid/admincenter/portal/server/remoteiis.md)
       topic for details.
     - The **Docker** tab is available when one or more portal instances are deployed in Docker.
       Select an instance to view the port and Service URL used for deployment. See the
-      [Manage Settings for a Docker Deployment](/versioned_docs/groupid_11.0/groupid/admincenter/portal/server/docker.md)
+      [Manage Settings for a Docker Deployment](/docs/groupid/11.0/groupid/admincenter/portal/server/docker.md)
       topic for details.
 
 **See Also**
 
-- [Create a GroupID Portal](/versioned_docs/groupid_11.0/groupid/admincenter/portal/create.md)
+- [Create a GroupID Portal](/docs/groupid/11.0/groupid/admincenter/portal/create.md)

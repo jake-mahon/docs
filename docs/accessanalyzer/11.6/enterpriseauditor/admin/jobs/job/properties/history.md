@@ -10,7 +10,7 @@ By default, all jobs are set to inherit the Data Retention Period and Log Retent
 the **Use Default Setting** option. Deselect the **Use Default Settings** option to configure custom
 settings for the job. Then provide the desired Data Retention Period and Log Retention Period
 settings. See the
-[History](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/settings/history.md) topic
+[History](/docs/accessanalyzer/11.6/enterpriseauditor/admin/settings/history.md) topic
 for additional information.
 
 Click **OK** to save configuration changes and close the Job Properties window. Click **Cancel** if

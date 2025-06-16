@@ -11,7 +11,7 @@ The Web Interface and Password Reset Server always communicate over a secure cha
 have to configure the encryption for this connection, but you do need to set up SSL (Secure Sockets
 Layer) encryption for the connection between the web browser (or Password Reset Client) and the web
 server. See the
-[Password Reset Client](/versioned_docs/passwordpolicyenforcer_10.2/password_reset/administration/password_reset_client.md)
+[Password Reset Client](/docs/passwordpolicyenforcer/10.2/password_reset/administration/password_reset_client.md)
 topic for more information.
 
 **CAUTION:** Do not use Password Reset on a production network without SSL encryption.
@@ -30,7 +30,7 @@ below.
 **NOTE:** Ensure that users only access Password Reset over an encrypted connection after the SSL
 certificate is installed. The Start address and Restricted path in the Password Reset Client
 configuration should start with https://. Web browsers can be redirected to the secure URL. See the
-[Configuring the PRC](/versioned_docs/passwordpolicyenforcer_10.2/password_reset/administration/password_reset_client.md#configuring-the-prc)
+[Configuring the PRC](/docs/passwordpolicyenforcer/10.2/password_reset/administration/password_reset_client.md#configuring-the-prc)
 topic for more information.
 
 ## Delegating Permissions to the Netwrix Password Reset Server Service
@@ -67,7 +67,7 @@ dsacls "dc=axs,dc=net" /I:S /G "axs\apr:CA;Reset Password;user"
 
 If Password Reset is configured to use an SQL Server Compact database, then give the service account
 read and write permissions to the database files. See the
-[Moving to SQL Server](/versioned_docs/passwordpolicyenforcer_10.2/password_reset/administration/moving_to_sql_server.md)
+[Moving to SQL Server](/docs/passwordpolicyenforcer/10.2/password_reset/administration/moving_to_sql_server.md)
 topic for more information.
 
 Remove the service account from the Domain Admins group and restart the Password Reset service after

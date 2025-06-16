@@ -77,9 +77,9 @@ be targeted, and then select the method of supplying credentials for the specifi
 profile displays in the dropdown menu.
 
 See the
-[Microsoft Entra ID Auditing Configuration](/versioned_docs/enterpriseauditor_11.6/config/entraid/access.md)
+[Microsoft Entra ID Auditing Configuration](/docs/accessanalyzer/11.6/config/entraid/access.md)
 or the
-[Microsoft Entra ID Connection Profile & Host List](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/azureadinventory/configurejob.md)
+[Microsoft Entra ID Connection Profile & Host List](/docs/accessanalyzer/11.6/enterpriseauditor/admin/datacollector/azureadinventory/configurejob.md)
 topics for additional information.
 
 **Step 3 –** Click **Test Connection** in order to connect to the tenant with the supplied

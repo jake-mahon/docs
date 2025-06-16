@@ -10,18 +10,18 @@ do not take a plain string value, but rather an expression that computes a value
 input.
 
 > Typical examples can be found in
-> [entity property expressions](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/metadata/entitypropertyexpression/index.md)
+> [entity property expressions](/docs/usercube/6.1/usercube/integration-guide/toolkit/xml-configuration/metadata/entitypropertyexpression/index.md)
 > and
-> [scalar rules](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/provisioning/resourcetype/index.md).
+> [scalar rules](/docs/usercube/6.1/usercube/integration-guide/toolkit/xml-configuration/provisioning/resourcetype/index.md).
 
 Every expression must be passed at least one argument and return at least one value.
 
 The expression can either be provided as a
-[built-in function](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/expressions/predefined-functions/index.md)
+[built-in function](/docs/usercube/6.1/usercube/integration-guide/toolkit/expressions/predefined-functions/index.md)
 or as a full-fledged `C#` expression. See the list of available
-[C# utility functions](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/expressions/csharp-utility-functions/index.md)
+[C# utility functions](/docs/usercube/6.1/usercube/integration-guide/toolkit/expressions/csharp-utility-functions/index.md)
 and
-[functions predefined by Usercube](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/expressions/predefined-functions/index.md).
+[functions predefined by Usercube](/docs/usercube/6.1/usercube/integration-guide/toolkit/expressions/predefined-functions/index.md).
 
 When changing the value of a property that is part of some expressions in the configuration, do not
 expect to see all expressions recomputed right away.
@@ -42,7 +42,7 @@ and `Expression`.
 The field `Property Path` is usually filled in with the **+** button only when the rule involves one
 single attribute. If the object involves more than one attribute, then the attributes are to be
 written in `Expression` (C#), with the help of
-[predefined simple transformations](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/expressions/predefined-functions/index.md).
+[predefined simple transformations](/docs/usercube/6.1/usercube/integration-guide/toolkit/expressions/predefined-functions/index.md).
 
 > The first example defines the source object as simply the user record's `Login` property, while
 > the second defines the source object with an expression based on the user record's first and last
@@ -85,7 +85,7 @@ and more precisely on
 ## Built-in Functions
 
 Usercube provides a set of
-[built-in function](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/expressions/predefined-functions/index.md)
+[built-in function](/docs/usercube/6.1/usercube/integration-guide/toolkit/expressions/predefined-functions/index.md)
 that implement basic expressions. They can be used as-is or be included in a C# expression.
 
 Usercube's engine automatically passes the main argument to the function during the computation, but
@@ -233,12 +233,12 @@ written as literal expressions according to the following rules:
   expression applies. For example, `Literal:five` does not work for an `Int` property.
 
 Literal expressions are available for
-[`ScalarRule`](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/provisioning/resourcetype/index.md),
-[`QueryRule`](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/provisioning/resourcetype/index.md)
+[`ScalarRule`](/docs/usercube/6.1/usercube/integration-guide/toolkit/xml-configuration/provisioning/resourcetype/index.md),
+[`QueryRule`](/docs/usercube/6.1/usercube/integration-guide/toolkit/xml-configuration/provisioning/resourcetype/index.md)
 and
-[`EntityPropertyExpression`](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/metadata/entitytype/index.md)
+[`EntityPropertyExpression`](/docs/usercube/6.1/usercube/integration-guide/toolkit/xml-configuration/metadata/entitytype/index.md)
 expressions whose target
-[`EntityProperty`](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/metadata/entitytype/index.md)`Type`
+[`EntityProperty`](/docs/usercube/6.1/usercube/integration-guide/toolkit/xml-configuration/metadata/entitytype/index.md)`Type`
 attribute is of the following :
 
 - String = 0
@@ -253,7 +253,7 @@ attribute is of the following :
 - ForeignKey = 12
 
 Literal expressions are not available for
-[`QueryRule`](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/provisioning/resourcetype/index.md)`TargetExpression`
+[`QueryRule`](/docs/usercube/6.1/usercube/integration-guide/toolkit/xml-configuration/provisioning/resourcetype/index.md)`TargetExpression`
 attribute, only `SourceExpression`. Literal expressions are not available for rules targeting a
 `DateTime` or `Binary` property.
 

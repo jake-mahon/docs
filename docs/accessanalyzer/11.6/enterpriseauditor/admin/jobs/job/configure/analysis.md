@@ -29,10 +29,10 @@ The Analysis section at the top has four options:
     - This action does require confirmation
 - Analysis Properties – Opens the Analysis Properties window for the selected analysis task
     - See the
-      [Analysis Properties Page](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/analysis/overview.md#analysis-properties-page)
+      [Analysis Properties Page](/docs/accessanalyzer/11.6/enterpriseauditor/admin/analysis/overview.md#analysis-properties-page)
       topic for additional information.
     - See the individual analysis module sections in the
-      [Analysis Modules](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/analysis/overview.md)
+      [Analysis Modules](/docs/accessanalyzer/11.6/enterpriseauditor/admin/analysis/overview.md)
       topic for additional information.
 - Analysis Configuration – Opens the selected analysis task’s configuration window
 
@@ -70,5 +70,5 @@ The options for the Analysis node right-click menu are:
 - Execute Analyses – Executes or runs the checked (enabled) analysis tasks
 - Run Job – Starts job execution for the selected job
 - Add Instant Job – Opens the
-  [Instant Job Wizard](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/jobs/instantjobs/overview.md)
+  [Instant Job Wizard](/docs/accessanalyzer/11.6/enterpriseauditor/admin/jobs/instantjobs/overview.md)
 - Create Job (Ctrl + Alt + A) – Creates a new job at the same location as the selected job

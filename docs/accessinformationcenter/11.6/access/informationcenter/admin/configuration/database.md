@@ -35,7 +35,7 @@ Database service account information:
 
     - A group Managed Service Account (gMSA) can be used by configuring it to run the Netwrix Access
       Information Center service. See the
-      [Group Managed Service Account (gMSA) Configuration](/versioned_docs/accessinformationcenter_11.6/access/informationcenter/admin/additionalconfig/gmsa.md)
+      [Group Managed Service Account (gMSA) Configuration](/docs/accessinformationcenter/11.6/access/informationcenter/admin/additionalconfig/gmsa.md)
       topic for additional information.
 
 - Use the following SQL account – Uses SQL Authentication to the database. Provide the properly

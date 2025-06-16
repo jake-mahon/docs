@@ -3,7 +3,7 @@
 Manually managed user accounts may be added to the website resource. These accounts can be used for
 activities on the resource by specifying the username value in the “Login Account Template” field of
 the Activity. See the
-[Activities Page](/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/policy/page/activities.md)
+[Activities Page](/docs/privilegesecure/4.1/privilegesecure/accessmanagement/admin/policy/page/activities.md)
 topic for additional information.
 
 Follow the steps to add or edit a managed user account for the resource.
@@ -28,7 +28,7 @@ website. Enter the following information:
 - Display Name – The friendly name for the account
 - Username – The account in the exact format specified in the “Login Account Template” field of the
   Activity, e.g. `domain\user` or `user@domain.com`. See the
-  [Activities Page](/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/policy/page/activities.md)
+  [Activities Page](/docs/privilegesecure/4.1/privilegesecure/accessmanagement/admin/policy/page/activities.md)
   topic for additional information.
 - Password – Contains the service account password. The Eye icon can be used to view the password.
 

@@ -8,11 +8,11 @@ In order to optimize the display table, this scaffolding will create the followi
 don't exist.
 
 - An
-  [Entity Property](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/metadata/entitytype/index.md)
+  [Entity Property](/docs/usercube/6.1/usercube/integration-guide/toolkit/xml-configuration/metadata/entitytype/index.md)
   for each tile item that uses a navigation binding. This will be used to hold the computed
   expression.
 - An
-  [Entity Property Expression](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/metadata/entitypropertyexpression/index.md)
+  [Entity Property Expression](/docs/usercube/6.1/usercube/integration-guide/toolkit/xml-configuration/metadata/entitypropertyexpression/index.md)
   to evaluate the binding expression used by the optimizable tile item.
 
 Then, the scaffolding will link the display table tile elements to the newly created scalar

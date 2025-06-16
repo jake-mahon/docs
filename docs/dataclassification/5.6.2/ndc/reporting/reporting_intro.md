@@ -16,5 +16,5 @@ amount of documents tagged with a particular term, or to only review specific co
 
 Reporting capabilities also include the following:
 
-- [Content Distribution Map](/versioned_docs/dataclassification_5.6.2/ndc/reporting/content_distribution.md)
-- [Built-in Reports](/versioned_docs/dataclassification_5.6.2/ndc/reporting/reporting_built-in.md)
+- [Content Distribution Map](/docs/dataclassification/5.6.2/ndc/reporting/content_distribution.md)
+- [Built-in Reports](/docs/dataclassification/5.6.2/ndc/reporting/reporting_built-in.md)

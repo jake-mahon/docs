@@ -2,7 +2,7 @@
 
 Use this page to specify web page introductory text (if any) for the web page specified on the Web
 Server page. See the
-[Survey: Web Server](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/action/survey/webserver.md)
+[Survey: Web Server](/docs/accessanalyzer/11.6/enterpriseauditor/admin/action/survey/webserver.md)
 topic for additional information. The introductory text appears on the landing page when recipients
 click on the survey link in the email.
 

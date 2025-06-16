@@ -31,7 +31,7 @@ neither be edited nor removed.
 
 The GroupID administrator can enforce group owners to review and validate the attributes and
 membership of an expiring group before renewing it. See the
-[Enable Group Attestation](/versioned_docs/groupid_11.0/groupid/admincenter/identitystore/configure/directoryservice/grouplifecycle.md#enable-group-attestation)
+[Enable Group Attestation](/docs/groupid/11.0/groupid/admincenter/identitystore/configure/directoryservice/grouplifecycle.md#enable-group-attestation)
 topic.
 
 While attesting a group in the portal, the owner can:
@@ -82,11 +82,11 @@ What do you want to do?
 9. Use the **Display Type** drop-down list to specify the display type to use for rendering the
    attribute in the portal. The list contains basic display types and custom display types defined
    on the **Custom Display Types** page. See the
-   [Display Type Categories](/versioned_docs/groupid_11.0/groupid/admincenter/portal/displaytype/categories.md)
+   [Display Type Categories](/docs/groupid/11.0/groupid/admincenter/portal/displaytype/categories.md)
    topic.
 10. In the **Visibility Level** drop-down list, select a security role. The field would be visible
     to users of this role and roles with a priority value higher than this role. See
-    [Priority](/versioned_docs/groupid_11.0/groupid/admincenter/securityrole/manage.md).  
+    [Priority](/docs/groupid/11.0/groupid/admincenter/securityrole/manage.md).  
     Select _Never_ to hide the field from all users.
 11. As mentioned for visibility level, the field is visible to members of the selected role and
     roles with a priority value higher than the selected role.  
@@ -104,7 +104,7 @@ What do you want to do?
     field.  
     A value entered for the field is checked against the words listed on the **Bad Words List**
     page. Matched values cannot be saved. See the
-    [Manage the Bad Words List](/versioned_docs/groupid_11.0/groupid/admincenter/portal/design/badwords.md)
+    [Manage the Bad Words List](/docs/groupid/11.0/groupid/admincenter/portal/design/badwords.md)
     topic.
 17. The **Image Attribute** list is available when ‘DN’ is selected as the display type. This list
     supports ‘thumbnailPhoto’ as its value.
@@ -180,5 +180,5 @@ The following field properties vary from field to field. You can:
 
 **See Also**
 
-- [Design a Portal with Display Types](/versioned_docs/groupid_11.0/groupid/admincenter/portal/displaytype/overview.md)
-- [Configure User Profile Validation](/versioned_docs/groupid_11.0/groupid/admincenter/identitystore/configure/directoryservice/profilevalidation.md)
+- [Design a Portal with Display Types](/docs/groupid/11.0/groupid/admincenter/portal/displaytype/overview.md)
+- [Configure User Profile Validation](/docs/groupid/11.0/groupid/admincenter/identitystore/configure/directoryservice/profilevalidation.md)

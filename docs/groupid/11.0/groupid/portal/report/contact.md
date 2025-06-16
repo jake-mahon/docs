@@ -4,7 +4,7 @@ Contact Reports contains reports for the Contact objects in the directory. Searc
 by typing its name in the **Search Reports** box.
 
 Click any of the report template from the list to
-[Generate Reports](/versioned_docs/groupid_11.0/groupid/portal/report/generate.md).
+[Generate Reports](/docs/groupid/11.0/groupid/portal/report/generate.md).
 
 Following is the list of reports for this category:
 
@@ -15,8 +15,8 @@ Following is the list of reports for this category:
 
 **See Also:**
 
-- [Generate Reports](/versioned_docs/groupid_11.0/groupid/portal/report/generate.md)
-- [Manage Reports](/versioned_docs/groupid_11.0/groupid/portal/report/manage.md)
-- [Group Reports](/versioned_docs/groupid_11.0/groupid/portal/report/group.md)
-- [User Reports](/versioned_docs/groupid_11.0/groupid/portal/report/user.md)
-- [Computer Reports](/versioned_docs/groupid_11.0/groupid/portal/report/computer.md)
+- [Generate Reports](/docs/groupid/11.0/groupid/portal/report/generate.md)
+- [Manage Reports](/docs/groupid/11.0/groupid/portal/report/manage.md)
+- [Group Reports](/docs/groupid/11.0/groupid/portal/report/group.md)
+- [User Reports](/docs/groupid/11.0/groupid/portal/report/user.md)
+- [Computer Reports](/docs/groupid/11.0/groupid/portal/report/computer.md)

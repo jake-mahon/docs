@@ -85,5 +85,5 @@ What do you want to do?
 
 **See Also**
 
-- [Second Factor Authentication](/versioned_docs/groupid_11.0/groupid/portal/user/authentication/secondfactorauthentication.md)
-- [Authenticate Your Identity Store Account](/versioned_docs/groupid_11.0/groupid/portal/user/authentication/authenticateaccount.md)
+- [Second Factor Authentication](/docs/groupid/11.0/groupid/portal/user/authentication/secondfactorauthentication.md)
+- [Authenticate Your Identity Store Account](/docs/groupid/11.0/groupid/portal/user/authentication/authenticateaccount.md)

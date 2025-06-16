@@ -15,7 +15,7 @@ information.
 **CAUTION:** The new global Settings will overwrite any previously configured Sensitive Data
 criteria. Make a note of any configured Sensitive Data Criteria before upgrading Enterprise Auditor.
 Sensitive Data Criteria must be reconfigured after an upgrade. See the
-[Configure Global Sensitive Data Settings](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/install/application/upgrade/solutionconsiderations.md#configure-global-sensitive-data-settings)
+[Configure Global Sensitive Data Settings](/docs/accessanalyzer/11.6/enterpriseauditor/install/application/upgrade/solutionconsiderations.md#configure-global-sensitive-data-settings)
 topic for additional information.
 
 ![Windows Control Panel Uninstall or change a program window](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/install/application/controlpaneluninstall.webp)
@@ -31,7 +31,7 @@ files, and reports remain in the installation directory after the uninstall proc
 ![Setup Wizard Welcome page](/img/versioned_docs/activitymonitor_7.1/activitymonitor/install/welcome.webp)
 
 **Step 2 –** Install Enterprise Auditor 11.6. See the
-[Enterprise Auditor Core Installation](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/install/application/wizard.md)
+[Enterprise Auditor Core Installation](/docs/accessanalyzer/11.6/enterpriseauditor/install/application/wizard.md)
 topic for detailed instructions.
 
 - Before installation, ensure the new `StealthAUDIT.lic` license file is stored locally on the

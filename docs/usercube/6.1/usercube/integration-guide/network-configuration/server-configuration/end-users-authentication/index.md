@@ -107,7 +107,7 @@ The certificate from a Windows certificate store is set up using these attribute
 Usercube Server won't start if the [PKCS #12](https://en.wikipedia.org/wiki/PKCS_12) archive set up
 during this step is identical to the one provided with the SDK. Users must provide their own
 certificate.
-[Self-signed certificates](/versioned_docs/usercube_6.1/usercube/installation-guide/production-ready/server.md)
+[Self-signed certificates](/docs/usercube/6.1/usercube/installation-guide/production-ready/server.md)
 are accepted as valid.
 
 ## Configuration Section Description
@@ -163,10 +163,10 @@ code, with a mnemonic name. Any name can be used as long as all AuthenticationSc
 This guide doesn't cover how to set up authorizations within Usercube. Authorization for an end-user
 to access Usercube resources relies on assigning roles to profiles. Identity credentials used for
 authentication must be
-[linked to these profiles in the applicative configuration](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/settings/index.md#linked-to-these-profiles-in-the-applicative-configuration).
+[linked to these profiles in the applicative configuration](/docs/usercube/6.1/usercube/integration-guide/network-configuration/settings/index.md#linked-to-these-profiles-in-the-applicative-configuration).
 
 Authentication-related settings are set through the following
-[_sections_](/versioned_docs/usercube_6.1/usercube/integration-guide/architecture/index.md#_sections_)
+[_sections_](/docs/usercube/6.1/usercube/integration-guide/architecture/index.md#_sections_)
 of the `appsettings` set:
 
 - `IdentityServer`
@@ -301,7 +301,7 @@ An **Open ID Connect** provider is identified by its **Authority**, according to
 To authorize an end-user, _Usercube Server_ retrieves a specific claim (a key-value pair,
 transmitted through the OIDC-issued JWT token) returned by the provider and looks for a resource
 that matches this claim's value. The comparison is carried out according to
-[the resource and property set as the end-user's identity in the applicative configuration](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/metadata/settings/selectuserbyidentityqueryhandlersetting/index.md).
+[the resource and property set as the end-user's identity in the applicative configuration](/docs/usercube/6.1/usercube/integration-guide/toolkit/xml-configuration/metadata/settings/selectuserbyidentityqueryhandlersetting/index.md).
 
 The name of the claim that is retrieved for this purpose defaults to `sub` which is one of
 [the standard _Claim names_ for the Open ID Connect protocol](https://openid.net/specs/openid-connect-core-1_0.html#the-standard-_claim-names_-for-the-open-id-connect-protocol).
@@ -357,9 +357,9 @@ Under the new subsection, the following parameters are used to configure the aut
 | ClientId required                        | Is the Client ID issued during the registration of Usercube to the chosen Open ID Connect provider.                                                                                                                                                                                                                                                                                                                        |
 | ClientSecret required                    | Is the Client Secret issued during the registration of Usercube to the chosen Open ID Connect provider.                                                                                                                                                                                                                                                                                                                    |
 | Authority required                       | This URL identifies the Open ID Connect provider for Usercube according to the [Open ID Connect specifications](https://openid.net/connect/). It can be retrieved from the target Open ID Connect provider documentation. For example, [Microsoft's documentation indicates the Microsoft Identity Platform Open ID Connect authority](https://docs.microsoft.com/en-us/azure/active-directory/develop/v2-protocols-oidc). |
-| NameClaimType optional                   | Sets the type of the claim that will be retrieved by Usercube to identify the end-user. The retrieved claim will be compared against [the resource and property set as the end-user's identity in the applicative configuration](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/metadata/settings/selectuserbyidentityqueryhandlersetting/index.md).                                    |
+| NameClaimType optional                   | Sets the type of the claim that will be retrieved by Usercube to identify the end-user. The retrieved claim will be compared against [the resource and property set as the end-user's identity in the applicative configuration](/docs/usercube/6.1/usercube/integration-guide/toolkit/xml-configuration/metadata/settings/selectuserbyidentityqueryhandlersetting/index.md).                                    |
 | Scopes optional                          | Sets the list of the requested [scopes](https://auth0.com/docs/scopes/openid-connect-scopes). By default, the requested scopes are: `openid`, `profile` and `email`.                                                                                                                                                                                                                                                       |
-| SaveTokens default value: false          | **Type** Boolean **Description** Only for Okta providers. Set to `true if authentication uses an Okta provider. For more information about Okta configuration, see [Okta](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/how-tos/okta/index.md).                                                                                                                                            |
+| SaveTokens default value: false          | **Type** Boolean **Description** Only for Okta providers. Set to `true if authentication uses an Okta provider. For more information about Okta configuration, see [Okta](/docs/usercube/6.1/usercube/integration-guide/network-configuration/how-tos/okta/index.md).                                                                                                                                            |
 | MetadataAddress optional                 | URL address of a copy of the metadata, used when the authority metadata cannot be accessed from the Usercube server, for example because of a firewall.                                                                                                                                                                                                                                                                    |
 | RequireHttpsMetadata default value: true | **Type** Boolean **Description** By default the authority metadata must use HTTPS. Set to `false to use a simple HTTP metadata, in case a local copy of the metadata is used or for test environment.                                                                                                                                                                                                                      |
 | ResponseMode optional                    | **Type** String **Description** Response mode for OpenIdConnect. - `Query` - `FormPost` - `Fragment` [See OpenId documentation](https://openid.net/specs/openid-connect-core-1_0.html).                                                                                                                                                                                                                                    |
@@ -434,7 +434,7 @@ Each section is configured with the following settings:
 | AuthorizationEndpoint   required | Is the provider's Authorization Endpoint URI. This is where the end-user's browser is redirected to start the authentication process. Usually ends with ```/auth``` or ```/authorize```. This information must be retrieved from the provider's portal. |
 | _TokenEndpoint_    required | Is the provider's Token Endpoint URI. This is where the client sends token requests, using an authorization code obtained during the authentication process. This information must be retrieved from the provider's portal. |
 | CallbackPath   required | Sets the callback path where the client is redirected after a successful authentication. Any string value can be used as long as it is reported to the provider during the [registration process](#registration-process). |
-| SaveTokens   default value: false | __Type__    Boolean   __Description__ Only for Okta providers. Set to `true if authentication uses an Okta provider. For more information about Okta configuration, see [Okta](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/how-tos/okta/index.md). |
+| SaveTokens   default value: false | __Type__    Boolean   __Description__ Only for Okta providers. Set to `true if authentication uses an Okta provider. For more information about Okta configuration, see [Okta](/docs/usercube/6.1/usercube/integration-guide/network-configuration/how-tos/okta/index.md). |
 | Scope   optional | Sets the list of the requested [scopes](https://auth0.com/docs/scopes/openid-connect-scopes). |
 
 ##### Example
@@ -668,14 +668,14 @@ The archive is set using the following attributes:
 | File   required | __Type__    String   __Description__ [PKCS #12](https://en.wikipedia.org/wiki/PKCS_12) archive path on the host file system. |
 | Password   optional | __Type__    String   __Description__ [PKCS #12](https://en.wikipedia.org/wiki/PKCS_12) archive password. |
 
-Storing a ```.pfx``` file password in plain text in a production environment is strongly discouraged. It should always be encrypted using the [Usercube-Protect-CertificatePassword tool](/versioned_docs/usercube_6.1/usercube/integration-guide/executables/references/protect-certificatepassword/index.md).
+Storing a ```.pfx``` file password in plain text in a production environment is strongly discouraged. It should always be encrypted using the [Usercube-Protect-CertificatePassword tool](/docs/usercube/6.1/usercube/integration-guide/executables/references/protect-certificatepassword/index.md).
 
 The archive is set using the following attributes:
 
 | Name | Details |
 | --- | --- |
 | File   required | __Type__    String   __Description__ [PKCS #12](https://en.wikipedia.org/wiki/PKCS_12) archive path on the host file system. |
-| Password   optional | __Type__    String   __Description__ [PKCS #12](https://en.wikipedia.org/wiki/PKCS_12) archive password.   __Info:__ storing a ```.pfx``` file's password in plain text in a production environment is strongly discouraged. It should always be encrypted using the [```Usercube-Protect-CertificatePassword.exe``` tool](/versioned_docs/usercube_6.1/usercube/integration-guide/executables/references/protect-certificatepassword/index.md). |
+| Password   optional | __Type__    String   __Description__ [PKCS #12](https://en.wikipedia.org/wiki/PKCS_12) archive password.   __Info:__ storing a ```.pfx``` file's password in plain text in a production environment is strongly discouraged. It should always be encrypted using the [```Usercube-Protect-CertificatePassword.exe``` tool](/docs/usercube/6.1/usercube/integration-guide/executables/references/protect-certificatepassword/index.md). |
 
 #### As a Certificate in the Windows Store
 
@@ -705,7 +705,7 @@ The Windows certificate is set using these attributes:
 
 #### Using Azure Key Vault
 
-If the certificate is saved in Azure Key Vault, we must define the certificate identifier and the [Vault connection](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/azure-key-vault/index.md).
+If the certificate is saved in Azure Key Vault, we must define the certificate identifier and the [Vault connection](/docs/usercube/6.1/usercube/integration-guide/network-configuration/agent-configuration/azure-key-vault/index.md).
 
                     ```
 
@@ -719,7 +719,7 @@ If the certificate is saved in Azure Key Vault, we must define the certificate i
 
 When _Internal Methods_ is enabled, the end-user is prompted via a _form_ to input a login and a
 password. The login to be used is defined within the
-[applicative configuration's SelectUserByIdentityQueryHandlerSetting element](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/settings/index.md#applicative-configurations-selectuserbyidentityqueryhandlersetting-element).
+[applicative configuration's SelectUserByIdentityQueryHandlerSetting element](/docs/usercube/6.1/usercube/integration-guide/network-configuration/settings/index.md#applicative-configurations-selectuserbyidentityqueryhandlersetting-element).
 
 First, the `AllowLocalLogin` parameter needs to be set to `true` in the `Authentication` section.
 

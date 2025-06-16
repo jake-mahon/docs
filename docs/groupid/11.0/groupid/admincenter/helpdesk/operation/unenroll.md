@@ -16,7 +16,7 @@ What do you want to do?
 1. In Admin Center, click **Helpdesk** in the left pane.
 2. The **Helpdesk** page opens to the **Helpdesk Operations** tab. Locate your required user. To
    search for a user, see
-   the[Search Users](/versioned_docs/groupid_11.0/groupid/admincenter/helpdesk/operation/search.md)
+   the[Search Users](/docs/groupid/11.0/groupid/admincenter/helpdesk/operation/search.md)
    topic.
 3. Click the ellipsis button for the user and select **Unenroll Account**.  
    The **Unenroll Account** dialog box displays the authentication types the user account is
@@ -26,5 +26,5 @@ What do you want to do?
 
 **See Also**
 
-- [Helpdesk](/versioned_docs/groupid_11.0/groupid/admincenter/helpdesk/overview.md)
-- [Helpdesk Operations](/versioned_docs/groupid_11.0/groupid/admincenter/helpdesk/operation/overview.md)
+- [Helpdesk](/docs/groupid/11.0/groupid/admincenter/helpdesk/overview.md)
+- [Helpdesk Operations](/docs/groupid/11.0/groupid/admincenter/helpdesk/operation/overview.md)

@@ -8,7 +8,7 @@ Service Account Delegation
 
 Delegation can be used to grant the Active Directory service account the minimal rights necessary to
 allow the Access Information Center to commit changes in Active Directory. See the
-[Service Account Delegation](/versioned_docs/accessinformationcenter_11.6/access/informationcenter/admin/troubleshooting/delegation.md)
+[Service Account Delegation](/docs/accessinformationcenter/11.6/access/informationcenter/admin/troubleshooting/delegation.md)
 topic for additional information.
 
 Log File
@@ -16,11 +16,11 @@ Log File
 By default the Access Information Center is configured to log at the Error level. When requested by
 Netwrix Support, you can enable Debug level from the Diagnostics page of the Configuration
 interface. See the
-[Diagnostics Page](/versioned_docs/accessinformationcenter_11.6/access/informationcenter/admin/configuration/diagnostics.md)
+[Diagnostics Page](/docs/accessinformationcenter/11.6/access/informationcenter/admin/configuration/diagnostics.md)
 topic for additional information.
 
 If a different log level is needed or desired, the `aic.log` file can be modified. See the
-[Change Log Level](/versioned_docs/accessinformationcenter_11.6/access/informationcenter/admin/troubleshooting/loglevel.md)
+[Change Log Level](/docs/accessinformationcenter/11.6/access/informationcenter/admin/troubleshooting/loglevel.md)
 topic for additional information.
 
 Credential Password Changes
@@ -29,5 +29,5 @@ The Access Information Center uses several different types of service accounts. 
 password for one of these accounts is no longer valid, it will impact application functionality.
 Additionally, if the Builtin Administrator account remains enabled, it may be necessary to reset the
 password. See the
-[Update Credential Passwords](/versioned_docs/accessinformationcenter_11.6/access/informationcenter/admin/troubleshooting/credentialpasswords.md)
+[Update Credential Passwords](/docs/accessinformationcenter/11.6/access/informationcenter/admin/troubleshooting/credentialpasswords.md)
 topic for additional information.

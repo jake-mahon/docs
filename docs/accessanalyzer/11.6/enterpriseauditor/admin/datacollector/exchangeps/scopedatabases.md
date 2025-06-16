@@ -2,7 +2,7 @@
 
 The Scope by Databases page is used to define specific databases to search. This page is enabled
 when **Scope by Database Target Host: Local Host** option is selected on the Scope page. See the
-[ExchangePS: Scope](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/exchangeps/scope.md) topic
+[ExchangePS: Scope](/docs/accessanalyzer/11.6/enterpriseauditor/admin/datacollector/exchangeps/scope.md) topic
 for additional information.
 
 When using the applet, the data collector returns databases for the Exchange Organization in which

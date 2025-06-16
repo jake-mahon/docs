@@ -2,7 +2,7 @@
 
 The commandlet **Set-MessagingServer** configures a messaging system in identity store. The
 SmtpServer parameter requires the server name of the messaging system to be specified.
-[Get-AvailableMessagingServers](/versioned_docs/groupid_11.0/groupid/managementshell/identitystore/getavailablemessagingservers.md)
+[Get-AvailableMessagingServers](/docs/groupid/11.0/groupid/managementshell/identitystore/getavailablemessagingservers.md)
 commandlet can be used to retrieve the server names of the messaging systems.
 
 This commandlet also has some parameters that appear depending on the value of the Provider
@@ -55,6 +55,6 @@ Set-MessagingServer -IdentityStoreName AdStore9 -Provider exchange2013 -UserName
 
 See Also
 
-- [All Commands](/versioned_docs/groupid_11.0/groupid/managementshell/commands.md)
-- [Identity Store Commands](/versioned_docs/groupid_11.0/groupid/managementshell/identitystore/overview.md)
-- [Parameters](/versioned_docs/groupid_11.0/groupid/managementshell/parameters/parameters.md)
+- [All Commands](/docs/groupid/11.0/groupid/managementshell/commands.md)
+- [Identity Store Commands](/docs/groupid/11.0/groupid/managementshell/identitystore/overview.md)
+- [Parameters](/docs/groupid/11.0/groupid/managementshell/parameters/parameters.md)

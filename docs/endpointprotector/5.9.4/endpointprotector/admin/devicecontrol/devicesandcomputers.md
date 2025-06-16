@@ -35,7 +35,7 @@ Endpoint Protector Server to another and aims to correlate the device rights and
 You can also import the devices directly from Active Directory.
 
 **NOTE:** For detailed information on Active Directory, refer to the
-[Directory Services](/versioned_docs/endpointprotector_5.9.4/endpointprotector/admin/directoryservices/overview.md)
+[Directory Services](/docs/endpointprotector/5.9.4/endpointprotector/admin/directoryservices/overview.md)
 topic.
 
 ### Priority order
@@ -45,7 +45,7 @@ set per Device Types (USB Storage Device, Digital Camera, iPod, Thunderbolt, Chi
 etc.).
 
 **NOTE:** For detailed information, refer to the
-[Directory Services](/versioned_docs/endpointprotector_5.9.4/endpointprotector/admin/directoryservices/overview.md)
+[Directory Services](/docs/endpointprotector/5.9.4/endpointprotector/admin/directoryservices/overview.md)
 topic.
 
 If you conﬁgure device rights granularly for all entities, the priority order will be the following,
@@ -90,7 +90,7 @@ From this section, you can ﬁlter, create, uninstall or delete a computer and u
 option to create a Settings Report, Export List of Computers and Schedule Export list.
 
 You can download the Settings Report from System Maintenance, the
-[Exported Entities](/versioned_docs/endpointprotector_5.9.4/endpointprotector/admin/systemmaintenance/overview.md#exported-entities)
+[Exported Entities](/docs/endpointprotector/5.9.4/endpointprotector/admin/systemmaintenance/overview.md#exported-entities)
 topic to view the Deep Packet Inspection status for each entity (Computer/User/Group) and the entity
 from which Deep Packet Inspection is used.
 
@@ -109,7 +109,7 @@ made, and also each time the application Client is reinstalled. The owner of the
 saved in the process of self-registration.
 
 For more details about Licensing, go to the
-[System Configuration](/versioned_docs/endpointprotector_5.9.4/endpointprotector/admin/systemconfiguration/overview.md)
+[System Configuration](/docs/endpointprotector/5.9.4/endpointprotector/admin/systemconfiguration/overview.md)
 topic.
 
 A Computer is identiﬁed by the computer parameters (Main IP, IP List, MAC, Domain, Workgroup,
@@ -125,11 +125,11 @@ You can manually create a new computer at any time by providing the computer par
 information mentioned above or import computers from Active Directory.
 
 For more details about Active Directory, go to the
-[Directory Services](/versioned_docs/endpointprotector_5.9.4/endpointprotector/admin/directoryservices/overview.md)
+[Directory Services](/docs/endpointprotector/5.9.4/endpointprotector/admin/directoryservices/overview.md)
 topic. You can also assign the computers to the following for a better organization:
 
 - Devices and Computers e.g., several computers within the same oﬃce
-- [System Configuration](/versioned_docs/endpointprotector_5.9.4/endpointprotector/admin/systemconfiguration/overview.md)
+- [System Configuration](/docs/endpointprotector/5.9.4/endpointprotector/admin/systemconfiguration/overview.md)
   an alternative organization to Groups
 
 ### Computer Rights

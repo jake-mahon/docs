@@ -3,9 +3,9 @@
 Use this API to create a new data source.
 
 See the
-[Create a Data Source for Oracle](/versioned_docs/groupid_11.0/groupid/admincenter/datasource/create.md#create-a-data-source-for-oracle)
+[Create a Data Source for Oracle](/docs/groupid/11.0/groupid/admincenter/datasource/create.md#create-a-data-source-for-oracle)
 section of the
-[Create a Data Source](/versioned_docs/groupid_11.0/groupid/admincenter/datasource/create.md) topic
+[Create a Data Source](/docs/groupid/11.0/groupid/admincenter/datasource/create.md) topic
 to create an MS Access data source using the GroupID interface.
 
 ## Endpoint
@@ -71,5 +71,5 @@ installing the Oracle client.
 
 See Also
 
-- [Data Source APIs](/versioned_docs/groupid_11.0/groupid/api/datasource/datasourceapis.md)
-- [Common Errors](/versioned_docs/groupid_11.0/groupid/api/commonerrors.md)
+- [Data Source APIs](/docs/groupid/11.0/groupid/api/datasource/datasourceapis.md)
+- [Common Errors](/docs/groupid/11.0/groupid/api/commonerrors.md)

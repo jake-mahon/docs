@@ -23,7 +23,7 @@ for additional information.
 
 Once users have been granted console access, they can login with their domain credentials. Console
 access is not a requirement for owners to complete Access Reviews. See the
-[URL & Login](/versioned_docs/auditor_10.6/access/reviews/admin/login.md) topic for information on
+[URL & Login](/docs/auditor/10.6/access/reviews/admin/login.md) topic for information on
 how users will log in and where they are directed after login based on their assigned role or lack
 of role.
 

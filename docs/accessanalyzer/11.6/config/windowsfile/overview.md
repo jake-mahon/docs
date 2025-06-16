@@ -8,26 +8,26 @@ Auditing (FSAC) scans.
 ## Access & Sensitive Data Auditing Permissions
 
 - Permissions vary based on the Scan Mode Option selected. See the
-  [File System Supported Platforms](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/requirements/target/filesystems.md)
+  [File System Supported Platforms](/docs/accessanalyzer/11.6/enterpriseauditor/requirements/target/filesystems.md)
   topic for additional information.
 
 Windows File System Cluster Requirements
 
 See the
-[Windows File Server Access & Sensitive Data Auditing Configuration](/versioned_docs/enterpriseauditor_11.6/config/windowsfile/access.md)
+[Windows File Server Access & Sensitive Data Auditing Configuration](/docs/accessanalyzer/11.6/config/windowsfile/access.md)
 topic for instructions.
 
 Windows File System DFS Namespaces Requirements
 
 See the
-[Windows File Server Access & Sensitive Data Auditing Configuration](/versioned_docs/enterpriseauditor_11.6/config/windowsfile/access.md)
+[Windows File Server Access & Sensitive Data Auditing Configuration](/docs/accessanalyzer/11.6/config/windowsfile/access.md)
 topic for instructions.
 
 ## Access & Sensitive Data Auditing Port Requirements
 
 The firewall ports required by Enterprise Auditor for Access Auditing (FSAA) and/or Sensitive Data
 Discovery Auditing scans are based on the File System scan mode to be used. See the
-[File System Scan Options](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/requirements/solutions/filesystem/scanoptions.md)
+[File System Scan Options](/docs/accessanalyzer/11.6/enterpriseauditor/requirements/solutions/filesystem/scanoptions.md)
 topic for additional information.
 
 ## Activity Auditing Permissions
@@ -50,13 +50,13 @@ Enterprise Auditor to read the activity log files must have also have this permi
 Windows File System Cluster Requirements
 
 See the
-[Windows File Server Activity Auditing Configuration](/versioned_docs/enterpriseauditor_11.6/config/windowsfile/activity.md)
+[Windows File Server Activity Auditing Configuration](/docs/accessanalyzer/11.6/config/windowsfile/activity.md)
 topic for instructions.
 
 Windows File System DFS Namespaces Requirements
 
 See the
-[Windows File Server Activity Auditing Configuration](/versioned_docs/enterpriseauditor_11.6/config/windowsfile/activity.md)
+[Windows File Server Activity Auditing Configuration](/docs/accessanalyzer/11.6/config/windowsfile/activity.md)
 topic for instructions.
 
 Activity Monitor Archive Location

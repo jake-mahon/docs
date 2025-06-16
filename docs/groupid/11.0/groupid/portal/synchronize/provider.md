@@ -46,7 +46,7 @@ source and destination.
     destination provider.
 
 See the
-[Identity Stores](/versioned_docs/groupid_11.0/groupid/admincenter/identitystore/overview.md) topic
+[Identity Stores](/docs/groupid/11.0/groupid/admincenter/identitystore/overview.md) topic
 for additional information on identity stores.
 
 ## Data Sources
@@ -116,13 +116,13 @@ External data sources must be created first in Data Sources tab in Admin Center.
     files or tab-separated value (TSV) text files. This provider supports automatic schema detection
     if a header row is included in the file.
 
-See the [ Data Sources](/versioned_docs/groupid_11.0/groupid/admincenter/datasource/overview.md)
+See the [ Data Sources](/docs/groupid/11.0/groupid/admincenter/datasource/overview.md)
 topic for additional information on Data Sources.
 
 **See Also**
 
-- [Synchronize](/versioned_docs/groupid_11.0/groupid/portal/synchronize/overview.md)
-- [Create a Job](/versioned_docs/groupid_11.0/groupid/portal/synchronize/job/create.md)
-- [Create a Job Collection ](/versioned_docs/groupid_11.0/groupid/portal/synchronize/collection/create.md)
-- [Manage a Job](/versioned_docs/groupid_11.0/groupid/portal/synchronize/manage/job.md)
-- [Manage a Job Collection ](/versioned_docs/groupid_11.0/groupid/portal/synchronize/manage/jobcollection.md)
+- [Synchronize](/docs/groupid/11.0/groupid/portal/synchronize/overview.md)
+- [Create a Job](/docs/groupid/11.0/groupid/portal/synchronize/job/create.md)
+- [Create a Job Collection ](/docs/groupid/11.0/groupid/portal/synchronize/collection/create.md)
+- [Manage a Job](/docs/groupid/11.0/groupid/portal/synchronize/manage/job.md)
+- [Manage a Job Collection ](/docs/groupid/11.0/groupid/portal/synchronize/manage/jobcollection.md)

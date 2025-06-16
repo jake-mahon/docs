@@ -11,7 +11,7 @@ information, such as how to secure the Enterprise Auditor Database, and configur
 for viewing reports outside of the Enterprise Auditor Console.
 
 See the
-[Installation & Configuration Overview](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/install/application/overview.md)
+[Installation & Configuration Overview](/docs/accessanalyzer/11.6/enterpriseauditor/install/application/overview.md)
 topic for additional information.
 
 ## Sensitive Data Discovery Add-on
@@ -23,7 +23,7 @@ SharePoint Online, OneDrive for Business, DropBox for Business, SQL Server datab
 mailboxes.
 
 See the
-[Sensitive Data Discovery Add-On Installation](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/install/sensitivedatadiscovery/overview.md)
+[Sensitive Data Discovery Add-On Installation](/docs/accessanalyzer/11.6/enterpriseauditor/install/sensitivedatadiscovery/overview.md)
 topic for additional information.
 
 ## File System Proxy Service
@@ -33,7 +33,7 @@ very large or widely dispersed environments. The File System Proxy installer is 
 the process of setting up File System Scanning Proxy as a service on the designated proxy server.
 
 See the
-[File System Proxy as a Service Overview](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/install/filesystemproxy/overview.md)
+[File System Proxy as a Service Overview](/docs/accessanalyzer/11.6/enterpriseauditor/install/filesystemproxy/overview.md)
 topic for additional information.
 
 ## SharePoint Agent
@@ -42,5 +42,5 @@ The SharePoint Agent is capable of auditing permissions and content, or Access A
 Sensitive Data Discovery Auditing, on SharePoint servers.
 
 See the
-[SharePoint Agent Installation](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/install/sharepointagent/overview.md)
+[SharePoint Agent Installation](/docs/accessanalyzer/11.6/enterpriseauditor/install/sharepointagent/overview.md)
 topic for additional information.

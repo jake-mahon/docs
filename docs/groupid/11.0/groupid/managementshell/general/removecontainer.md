@@ -33,7 +33,7 @@ Example 2:
 
 The following command first shows the changes that result from executing the command. The command
 uses the credentials set in the $Credentials environment variable to perform the deletion. See the
-[Set the $Credentials Environment Variable](/versioned_docs/groupid_11.0/groupid/managementshell/parameters/setthecredential.md)
+[Set the $Credentials Environment Variable](/docs/groupid/11.0/groupid/managementshell/parameters/setthecredential.md)
 topic for setting credentials in the environment variable.
 
 ```
@@ -42,6 +42,6 @@ Remove-Container -identity "OU=Miscellaneous,OU=Recruiting,DC=HR,DC=Imanami,DC=U
 
 See Also
 
-- [All Commands](/versioned_docs/groupid_11.0/groupid/managementshell/commands.md)
-- [General Commands](/versioned_docs/groupid_11.0/groupid/managementshell/general/overview.md)
-- [Parameters](/versioned_docs/groupid_11.0/groupid/managementshell/parameters/parameters.md)
+- [All Commands](/docs/groupid/11.0/groupid/managementshell/commands.md)
+- [General Commands](/docs/groupid/11.0/groupid/managementshell/general/overview.md)
+- [Parameters](/docs/groupid/11.0/groupid/managementshell/parameters/parameters.md)

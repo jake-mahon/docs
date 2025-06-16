@@ -22,4 +22,4 @@ The value of the user name.
 
 **See Also**
 
-- [Implement and Deploy a Custom SMS Gateway](/versioned_docs/groupid_11.0/groupid/admincenter/smsgateway/implementcustom.md)
+- [Implement and Deploy a Custom SMS Gateway](/docs/groupid/11.0/groupid/admincenter/smsgateway/implementcustom.md)

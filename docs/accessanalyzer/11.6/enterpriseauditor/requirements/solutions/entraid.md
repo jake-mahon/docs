@@ -4,11 +4,11 @@
 
 The core components for Netwrix Enterprise Auditor are the Enterprise Auditor Console server, SQL
 Server, and Access Information Center. See the
-[Requirements](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/requirements/overview.md)
+[Requirements](/docs/accessanalyzer/11.6/enterpriseauditor/requirements/overview.md)
 topic for the core requirements.
 
 See the
-[Microsoft Entra ID Tenant Target Requirements](/versioned_docs/enterpriseauditor_11.6/config/entraid/overview.md)
+[Microsoft Entra ID Tenant Target Requirements](/docs/accessanalyzer/11.6/config/entraid/overview.md)
 topic for target environment requirements.
 
 ## Entra ID Solution Requirements on the Enterprise Auditor Console

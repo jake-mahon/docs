@@ -9,7 +9,7 @@ following sections for detailed information:
 
 **NOTE:** The requirements below are sufficient for evaluation purposes only. For production
 deployment, see the Privilege Secure
-[Application Server Requirements](/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/requirements/applicationserver.md)
+[Application Server Requirements](/docs/privilegesecure/4.1/privilegesecure/accessmanagement/requirements/applicationserver.md)
 topic for additional information.
 
 ## Software Requirements

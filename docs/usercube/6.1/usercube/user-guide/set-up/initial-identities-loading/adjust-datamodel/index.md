@@ -30,7 +30,7 @@ Integrators may need the help of the HR department who know the organization.
 
 | Input                                                                                                                                                                                                                                                                                        | Output                        |
 | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------- |
-| [Usercube's server](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/development-environment-installation/index.md) (required) [Initial workforce repository](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/initial-identities-loading/load-identities/index.md) (required) | Adjusted workforce repository |
+| [Usercube's server](/docs/usercube/6.1/usercube/user-guide/set-up/development-environment-installation/index.md) (required) [Initial workforce repository](/docs/usercube/6.1/usercube/user-guide/set-up/initial-identities-loading/load-identities/index.md) (required) | Adjusted workforce repository |
 
 ## Adjust the Data Model
 
@@ -68,7 +68,7 @@ Adjust the data model by proceeding as follows:
 
     For example the contract's start date is necessary for Usercube's workflows.
 
-    [Modifications can be performed](/versioned_docs/usercube_6.1/usercube/user-guide/optimize/identity-datamodel-modification/index.md)
+    [Modifications can be performed](/docs/usercube/6.1/usercube/user-guide/optimize/identity-datamodel-modification/index.md)
     later, decisions can be reconsidered.
 
 4. Click on the Save icon at the top.

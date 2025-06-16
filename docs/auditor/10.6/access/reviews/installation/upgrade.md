@@ -6,7 +6,7 @@ the Netwrix Auditor Access Reviews application, see the
 
 To upgrade the Access Reviews application to a newer version, simply run the new `AccessReviews.msi`
 executable. It is not necessary to uninstall the existing version. See the
-[Install](/versioned_docs/auditor_10.6/access/reviews/installation/install.md) topic for additional
+[Install](/docs/auditor/10.6/access/reviews/installation/install.md) topic for additional
 information.
 
 _Remember,_ the Access Reviews version must align to the compatible Netwrix Auditor version.
@@ -39,7 +39,7 @@ replace Netwrix Access Information Center with Netwrix Auditor Access Reviews.
 
 **Step 1 –** Install the Netwrix Auditor Access Reviews application on the same server where the
 Netwrix Access Information Center was installed. See the
-[Install](/versioned_docs/auditor_10.6/access/reviews/installation/install.md) topic for additional
+[Install](/docs/auditor/10.6/access/reviews/installation/install.md) topic for additional
 information. On the SQL Server Connection page:
 
 - Supply the information for the existing database. The default name for the original database was
@@ -49,15 +49,15 @@ information. On the SQL Server Connection page:
 **NOTE:** The new destination folder will be `...\Netwrix\Access Reviews`.
 
 **Step 2 –** Launch the application and reset the Builtin Administrator password. See the
-[First Launch](/versioned_docs/auditor_10.6/access/reviews/admin/firstlaunch.md) topic for
+[First Launch](/docs/auditor/10.6/access/reviews/admin/firstlaunch.md) topic for
 additional information.
 
 **Step 3 –** It will be necessary to add your Console Users again. See the
-[Console Access Page](/versioned_docs/auditor_10.6/access/reviews/admin/configuration/consoleaccess.md)
+[Console Access Page](/docs/auditor/10.6/access/reviews/admin/configuration/consoleaccess.md)
 topic for additional information.
 
 **Step 4 –** It will be necessary to configure the Notification settings. See the
-[Notifications Page](/versioned_docs/auditor_10.6/access/reviews/admin/configuration/notifications.md)
+[Notifications Page](/docs/auditor/10.6/access/reviews/admin/configuration/notifications.md)
 topic for additional information.
 
 **Step 5 –** If you have customized your email templates, it will be necessary to copy the Templates

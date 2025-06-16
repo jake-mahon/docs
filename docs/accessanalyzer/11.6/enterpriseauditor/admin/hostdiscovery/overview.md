@@ -8,12 +8,12 @@ The Host Discovery queries view displays a list of previously configured queries
 Discovery Wizard to create new queries, and is where host inventory process can be automated. The
 **Host Discovery** node houses the Discovery Log. The **Settings** > **Host Discovery** node
 contains the global settings that affect discovery queries. See the
-[Host Discovery](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/settings/hostdiscovery.md)
+[Host Discovery](/docs/accessanalyzer/11.6/enterpriseauditor/admin/settings/hostdiscovery.md)
 topic for additional information.
 
 The Discovery node has four main panes:
 
-- [Host Discovery Queries](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/hostdiscovery/queries.md)
-- [Host Discovery Queries Activities Pane](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/hostdiscovery/activities.md)
-- [Host Discovery Wizard](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/hostdiscovery/wizard/overview.md)
-- [Discovery Log](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/hostdiscovery/log.md)
+- [Host Discovery Queries](/docs/accessanalyzer/11.6/enterpriseauditor/admin/hostdiscovery/queries.md)
+- [Host Discovery Queries Activities Pane](/docs/accessanalyzer/11.6/enterpriseauditor/admin/hostdiscovery/activities.md)
+- [Host Discovery Wizard](/docs/accessanalyzer/11.6/enterpriseauditor/admin/hostdiscovery/wizard/overview.md)
+- [Discovery Log](/docs/accessanalyzer/11.6/enterpriseauditor/admin/hostdiscovery/log.md)

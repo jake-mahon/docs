@@ -6,7 +6,7 @@ You can configure GroupID immediately after installing it or later.
 
     - To configure GroupID right after installation, click **Next** on the **Run Configuration
       Tool** page. See the
-      [Installation Tool](/versioned_docs/groupid_11.0/groupid/install/installer/install.md) topic.
+      [Installation Tool](/docs/groupid/11.0/groupid/install/installer/install.md) topic.
     - When GroupID is installed, the Configuration Tool is also installed as a separate program on
       the machine. Launch the GroupID Configuration Tool from the Windows Start screen.
 
@@ -27,7 +27,7 @@ You can configure GroupID immediately after installing it or later.
         service cluster to support load balancing.
 
         See the
-        [Configure a new GroupID server with a new or an existing database](/versioned_docs/groupid_11.0/groupid/install/configure/gidserver.md)
+        [Configure a new GroupID server with a new or an existing database](/docs/groupid/11.0/groupid/install/configure/gidserver.md)
         topic for additional information.
 
     - **Configure a new GroupID 11 server to add it into an existing GroupID 11 cluster with an
@@ -38,11 +38,11 @@ You can configure GroupID immediately after installing it or later.
         This option also configures the GroupID Elasticsearch Service as a slave node to the master
         node for the Elasticsearch Service cluster configured on the GroupID server.  
          See the
-        [Configure a new GroupID server to add it into an existing GroupID 11 cluster with an existing database](/versioned_docs/groupid_11.0/groupid/install/configure/database.md)
+        [Configure a new GroupID server to add it into an existing GroupID 11 cluster with an existing database](/docs/groupid/11.0/groupid/install/configure/database.md)
         topic for additional information.
 
 See Also
 
-- [Requirements](/versioned_docs/groupid_11.0/groupid/install/requirements.md)
-- [Preparation Tool](/versioned_docs/groupid_11.0/groupid/install/installer/preparationtool.md)
-- [Installation Tool](/versioned_docs/groupid_11.0/groupid/install/installer/install.md)
+- [Requirements](/docs/groupid/11.0/groupid/install/requirements.md)
+- [Preparation Tool](/docs/groupid/11.0/groupid/install/installer/preparationtool.md)
+- [Installation Tool](/docs/groupid/11.0/groupid/install/installer/install.md)

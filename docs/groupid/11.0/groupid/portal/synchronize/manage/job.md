@@ -53,7 +53,7 @@ set in the **Search Filters** section.
 
 When you open a job to view or change its settings, the **Edit Job** wizard opens, which is
 virtually identical to the
-[Create a Job](/versioned_docs/groupid_11.0/groupid/portal/synchronize/job/create.md) wizard.
+[Create a Job](/docs/groupid/11.0/groupid/portal/synchronize/job/create.md) wizard.
 
 1. On GroupID Portal, select **Synchronize** on left pane.
 2. On Synchronize portal, click **All Jobs**.
@@ -113,20 +113,20 @@ To add or update the schedule for a job:
 3. Click the **three vertical dots** icon of the job and select **Schedule** from the menu.
 
     It will take you to the **Schedule and Job Notifications** page of
-    [Create a Job](/versioned_docs/groupid_11.0/groupid/portal/synchronize/job/create.md). Update
+    [Create a Job](/docs/groupid/11.0/groupid/portal/synchronize/job/create.md). Update
     the schedule and click **Finish** to save the changes.
 
 ## Pin a Job
 
 To pin a job to the
-[Dashboard](/versioned_docs/groupid_11.0/groupid/portal/synchronize/dashboard.md) under the pinned
+[Dashboard](/docs/groupid/11.0/groupid/portal/synchronize/dashboard.md) under the pinned
 job card:
 
 1. On GroupID Portal, select **Synchronize** on left pane.
 2. On Synchronize portal, click **All Jobs**.
 3. Click the **three vertical dots** icon of the job and select **Pin Item** from the menu.
 4. The job is displayed on **My Pinned Jobs** card on the
-   [Dashboard](/versioned_docs/groupid_11.0/groupid/portal/synchronize/dashboard.md).
+   [Dashboard](/docs/groupid/11.0/groupid/portal/synchronize/dashboard.md).
 
 ## Save as Template
 
@@ -221,5 +221,5 @@ renaming a job does not affect its settings.
 
 **See Also**
 
-- [Create a Job](/versioned_docs/groupid_11.0/groupid/portal/synchronize/job/create.md)
-- [Synchronize Schedule](/versioned_docs/groupid_11.0/groupid/admincenter/schedule/synchronize.md)
+- [Create a Job](/docs/groupid/11.0/groupid/portal/synchronize/job/create.md)
+- [Synchronize Schedule](/docs/groupid/11.0/groupid/admincenter/schedule/synchronize.md)

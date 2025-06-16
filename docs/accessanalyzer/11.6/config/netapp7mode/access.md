@@ -47,11 +47,11 @@ capabilities than any other non-built-in group.
 
 If only running the Access Auditing (FSAA) and/or Sensitive Data Discovery Auditing scans, proceed
 to the
-[Provision Account](/versioned_docs/enterpriseauditor_11.6/config/netapp7mode/provisionaccess.md)
+[Provision Account](/docs/accessanalyzer/11.6/config/netapp7mode/provisionaccess.md)
 topic for instructions. If also running Activity Auditing (FSAC) scan, then the FPolicy Account
 Provisioned for the Netwrix Activity Monitor will meet the needs of the Access Auditing (FSAA)
 and/or Sensitive Data Discovery Auditing scans. Proceed to the
-[NetApp Data ONTAP 7-Mode Activity Auditing Configuration](/versioned_docs/enterpriseauditor_11.6/config/netapp7mode/activity.md)
+[NetApp Data ONTAP 7-Mode Activity Auditing Configuration](/docs/accessanalyzer/11.6/config/netapp7mode/activity.md)
 topic for instructions.
 
 This credential is used within the Connection Profile assigned to the File System scans.

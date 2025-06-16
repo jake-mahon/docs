@@ -4,7 +4,7 @@ This connector exports and fulfills users and groups from/to a
 [Google Workspace](https://developers.google.com/workspace) instance.
 
 This page is about
-[Directory/Google Workspace](/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/references-packages/googleworkspace/index.md).
+[Directory/Google Workspace](/docs/usercube/6.1/usercube/integration-guide/connectors/references-packages/googleworkspace/index.md).
 
 ![Package: Directory/Google Workspace](/img/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/references-connectors/googleworkspace/packages_workspace_v603.webp)
 
@@ -19,7 +19,7 @@ user-group memberships too.
 Implementing this connector requires:
 
 - reading first the
-  [appsettings documentation](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/appsettings-agent/index.md);
+  [appsettings documentation](/docs/usercube/6.1/usercube/integration-guide/network-configuration/agent-configuration/appsettings-agent/index.md);
 - a service account impersonating the following permission scopes:
   [https://www.googleapis.com/auth/admin.directory.user](https://www.googleapis.com/auth/admin.directory.user)
   and
@@ -38,7 +38,7 @@ and write the output to CSV files.
 ### Configuration
 
 This process is configured through a
-[connection](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/connectors/connection/index.md)
+[connection](/docs/usercube/6.1/usercube/integration-guide/toolkit/xml-configuration/connectors/connection/index.md)
 in the UI and/or the XML configuration, and in the `appsettings.agent.json > Connections` section:
 
 ```
@@ -92,7 +92,7 @@ The identifier of the connection and thus the name of the subsection must:
 ### Output details
 
 This connector is meant to generate to the
-[ExportOutput](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/appsettings/index.md)
+[ExportOutput](/docs/usercube/6.1/usercube/integration-guide/network-configuration/agent-configuration/appsettings/index.md)
 folder the following CSV files:
 
 - `GoogleExportFulfillment_Users.csv` and `GoogleExportFulfillment_Groups.csv` whose headers come
@@ -159,10 +159,10 @@ This connector does not reset passwords.
 ### Credential protection
 
 This connector has no credential attributes, and therefore does not use
-[RSA encryption](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/rsa-encryption/index.md),
+[RSA encryption](/docs/usercube/6.1/usercube/integration-guide/network-configuration/agent-configuration/rsa-encryption/index.md),
 nor a
-[CyberArk Vault](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/cyberark-application-access-manager-credential-providers/index.md).
+[CyberArk Vault](/docs/usercube/6.1/usercube/integration-guide/network-configuration/agent-configuration/cyberark-application-access-manager-credential-providers/index.md).
 
 Still, data protection can be ensured through an
-[Azure Key Vault](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/azure-key-vault/index.md)
+[Azure Key Vault](/docs/usercube/6.1/usercube/integration-guide/network-configuration/agent-configuration/azure-key-vault/index.md)
 safe.

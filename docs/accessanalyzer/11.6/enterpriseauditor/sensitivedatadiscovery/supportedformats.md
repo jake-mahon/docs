@@ -99,7 +99,7 @@ attachment as well.
 Character Recognition (OCR) scans for Raster image files by enabling the option on the SDD Audit
 Settings page in the File System Access Auditor Data Collector Wizard. This is an option for the
 Sensitive Data Scan category. See the
-[1-SEEK System Scans Job](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/filesystem/collection/1-seek_system_scans.md)
+[1-SEEK System Scans Job](/docs/accessanalyzer/11.6/enterpriseauditor/solutions/filesystem/collection/1-seek_system_scans.md)
 topic for additional information.
 
 ### Spreadsheet

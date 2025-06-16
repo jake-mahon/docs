@@ -3,7 +3,7 @@
 You can enable second factor authentication (SFA) for a user role in an identity store. This policy
 enforces role members to enroll their identity store accounts in GroupID using one or more
 authentication types. Supported authentication types are discussed in the
-[Authentication Policies - A Comparison](/versioned_docs/groupid_11.0/groupid/admincenter/identitystore/configure/authpolicy.md)
+[Authentication Policies - A Comparison](/docs/groupid/11.0/groupid/admincenter/identitystore/configure/authpolicy.md)
 topic.
 
 Once enrolled, role members must authenticate their accounts using an authentication type they
@@ -24,18 +24,18 @@ following:
 Step 1 – Enable one or more authentication types for the identity store.
 
 See the
-[Enable Authentication Types](/versioned_docs/groupid_11.0/groupid/admincenter/identitystore/configure/authtypes.md)
+[Enable Authentication Types](/docs/groupid/11.0/groupid/admincenter/identitystore/configure/authtypes.md)
 topic for details.
 
 Step 2 – Enable second factor authentication for a security role in an identity store.
 
 See the
-[Enable Second Factor Authentication](/versioned_docs/groupid_11.0/groupid/admincenter/securityrole/policy/authentication.md#enable-second-factor-authentication)
+[Enable Second Factor Authentication](/docs/groupid/11.0/groupid/admincenter/securityrole/policy/authentication.md#enable-second-factor-authentication)
 topic for details.
 
 See Also
 
-- [Authentication Policy](/versioned_docs/groupid_11.0/groupid/admincenter/identitystore/configure/authpolicy.md)
-- [Configure Multifactor Authentication](/versioned_docs/groupid_11.0/groupid/admincenter/setupauth/mfa.md)
-- [Enroll with Authentication Types](/versioned_docs/groupid_11.0/groupid/admincenter/enroll.md)
-- [Authenticate with Authentication Types](/versioned_docs/groupid_11.0/groupid/admincenter/authenticate.md)
+- [Authentication Policy](/docs/groupid/11.0/groupid/admincenter/identitystore/configure/authpolicy.md)
+- [Configure Multifactor Authentication](/docs/groupid/11.0/groupid/admincenter/setupauth/mfa.md)
+- [Enroll with Authentication Types](/docs/groupid/11.0/groupid/admincenter/enroll.md)
+- [Authenticate with Authentication Types](/docs/groupid/11.0/groupid/admincenter/authenticate.md)

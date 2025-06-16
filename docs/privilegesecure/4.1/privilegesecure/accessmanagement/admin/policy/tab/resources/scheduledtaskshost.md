@@ -17,7 +17,7 @@ The table has the following columns:
 - Task Name — Displays the name of the task
 - Run As Account — Account used to run the task
 - Managed — Indicates if the account is managed by Privilege Secure. See the
-  [Credentials Page](/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/policy/page/credentials.md)
+  [Credentials Page](/docs/privilegesecure/4.1/privilegesecure/accessmanagement/admin/policy/page/credentials.md)
   topic for additional information.
 - Description — Description of the policy
 

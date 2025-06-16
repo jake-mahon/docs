@@ -37,14 +37,14 @@ the identity stores must be built on Active Directory or Microsoft Entra ID doma
 to link identical objects in different domains.
 
 To learn about linked identity stores and how they work in a GroupID portal, see the
-[Linked Identity Stores and the GroupID Portal](/versioned_docs/groupid_11.0/groupid/admincenter/identitystore/link/overview.md#linked-identity-stores-and-the-groupid-portal)
+[Linked Identity Stores and the GroupID Portal](/docs/groupid/11.0/groupid/admincenter/identitystore/link/overview.md#linked-identity-stores-and-the-groupid-portal)
 topic.
 
 ## Notifications in the Portal
 
 A GroupID portal can send email notifications to designated recipients when a user makes a change to
 objects in an identity store. To specify notification recipients, see the
-[Specify Notification Recipients](/versioned_docs/groupid_11.0/groupid/admincenter/identitystore/configure/smtpserver.md#specify-notification-recipients)
+[Specify Notification Recipients](/docs/groupid/11.0/groupid/admincenter/identitystore/configure/smtpserver.md#specify-notification-recipients)
 topic.
 
 By default, notifications are sent to users in the English language. However, a user can opt to
@@ -53,6 +53,6 @@ receive notifications in a supported language by personalizing the language sett
 
 **See Also**
 
-- [GroupID Applications](/versioned_docs/groupid_11.0/groupid/admincenter/portal/applications.md)
-- [Create a GroupID Portal](/versioned_docs/groupid_11.0/groupid/admincenter/portal/create.md)
-- [Delete a Portal](/versioned_docs/groupid_11.0/groupid/admincenter/portal/delete.md)
+- [GroupID Applications](/docs/groupid/11.0/groupid/admincenter/portal/applications.md)
+- [Create a GroupID Portal](/docs/groupid/11.0/groupid/admincenter/portal/create.md)
+- [Delete a Portal](/docs/groupid/11.0/groupid/admincenter/portal/delete.md)

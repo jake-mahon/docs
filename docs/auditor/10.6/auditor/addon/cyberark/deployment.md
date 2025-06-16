@@ -19,7 +19,7 @@ In Auditor client, go to the Integrations section and verify Integration API set
 1. Make sure the **Leverage Integration API** is switched to **ON**.
 2. Check the TCP communication port number – default is **9699**.
 
-See the [Prerequisites](/versioned_docs/auditor_10.6/auditor/api/prerequisites.md) topic for
+See the [Prerequisites](/docs/auditor/10.6/auditor/api/prerequisites.md) topic for
 additional information.
 
 By default, activity records are written to _Netwrix_Auditor_API_ database which is not associated
@@ -28,12 +28,12 @@ with a specific monitoring plan.
 Optionally, you can create a dedicated monitoring plan in Auditor. In this case, data will be
 written to a database linked to this plan. Target it at Netwrix API data source and enable for
 monitoring. Add a dedicated item of _Integration_ type to the plan for data to be filtered by item
-name. See the [Integration API](/versioned_docs/auditor_10.6/auditor/api/overview.md) topic for
+name. See the [Integration API](/docs/auditor/10.6/auditor/api/overview.md) topic for
 additional information.
 
 In such scenario, you will need to specify this monitoring plan in the _naplan_ and _naplanitem_
 attributes of the `<AcceptList>` → `<Address>` configuration parameters. See the
-[Add-On Parameters](/versioned_docs/auditor_10.6/auditor/addon/cyberark/parameters.md) topic for
+[Add-On Parameters](/docs/auditor/10.6/auditor/addon/cyberark/parameters.md) topic for
 additional information.
 
 ## Configure Syslog Message Forwarding in CyberArk
@@ -64,7 +64,7 @@ folder and open the **dbparam.ini** file for editing.
   add-on. Specify **UDP** protocol.
 - **SyslogMessageCodeFilter** - IDs of events to forward. The add-on will only collect and process
   events you specify in this parameter. For the full list of supported events, see
-  [Monitored Events](/versioned_docs/auditor_10.6/auditor/addon/cyberark/monitoredevents.md). Use
+  [Monitored Events](/docs/auditor/10.6/auditor/addon/cyberark/monitoredevents.md). Use
   comma as a separator.
 
 ![dbparamfile](/img/versioned_docs/auditor_10.6/auditor/addon/cyberark/dbparamfile.webp)

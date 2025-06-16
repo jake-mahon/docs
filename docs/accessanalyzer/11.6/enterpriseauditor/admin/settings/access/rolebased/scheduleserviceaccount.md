@@ -59,7 +59,7 @@ the appropriate rights to apply locks on jobs. Therefore, it does not work in co
 Based Access.
 
 See the
-[Schedule](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/settings/schedule.md)
+[Schedule](/docs/accessanalyzer/11.6/enterpriseauditor/admin/settings/schedule.md)
 topic for additional instructions on configuring the Schedule Service Account.
 
 _Remember,_ these credentials must be for a user with local Administrator privileges or rights to

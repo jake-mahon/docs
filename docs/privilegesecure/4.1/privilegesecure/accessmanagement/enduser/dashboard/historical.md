@@ -26,7 +26,7 @@ The table has the following columns:
       connection profile) for any historical session that is not a Credential-based session
     - View logs icon — Opens the Session Logs window to view the action log for the selected
       session. See the
-      [Session Logs Window](/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/enduser/dashboard/window/sessionlogs.md)
+      [Session Logs Window](/docs/privilegesecure/4.1/privilegesecure/accessmanagement/enduser/dashboard/window/sessionlogs.md)
       topic for additional information.
 
 - Requested — Date and time of when the session was created

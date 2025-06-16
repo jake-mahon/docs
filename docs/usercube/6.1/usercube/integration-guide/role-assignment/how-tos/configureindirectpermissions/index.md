@@ -1,7 +1,7 @@
 # Configure Indirect Permissions
 
 The following how-to assumes that you have already read the topic on
-[indirect permissions](/versioned_docs/usercube_6.1/usercube/integration-guide/role-assignment/indirectpermissions/index.md).
+[indirect permissions](/docs/usercube/6.1/usercube/integration-guide/role-assignment/indirectpermissions/index.md).
 
 ## Configure Indirect Permissions in an Active Directory
 
@@ -66,7 +66,7 @@ Even if two rules of a kind are needed, only one is pictured. Do not forget the 
 
 #### Indirect permission display
 
-After running a [Compute Role Model](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/jobs/tasks/server/computerolemodeltask/index.md) task, Indirect Permissions should now appear for your test user.
+After running a [Compute Role Model](/docs/usercube/6.1/usercube/integration-guide/toolkit/xml-configuration/jobs/tasks/server/computerolemodeltask/index.md) task, Indirect Permissions should now appear for your test user.
 
 The next screenshots were taken after adding the direct assignment directly inside the Active Directory. As such, the direct permission is also flagged as ```Non-conforming```.
 

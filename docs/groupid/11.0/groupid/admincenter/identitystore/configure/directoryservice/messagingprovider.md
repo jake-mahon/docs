@@ -197,4 +197,4 @@ Step 5 – Click **Save**.
 
 **See Also**
 
-- [Configure an SMTP Server](/versioned_docs/groupid_11.0/groupid/admincenter/identitystore/configure/smtpserver.md)
+- [Configure an SMTP Server](/docs/groupid/11.0/groupid/admincenter/identitystore/configure/smtpserver.md)

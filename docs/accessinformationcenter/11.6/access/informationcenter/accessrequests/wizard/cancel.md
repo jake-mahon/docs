@@ -1,7 +1,7 @@
 # Cancel Request Wizard
 
 The Cancel Request wizard is opened with the **Cancel** button on the
-[Pending Requests Tab](/versioned_docs/accessinformationcenter_11.6/access/informationcenter/accessrequests/interface.md#pending-requests-tab)
+[Pending Requests Tab](/docs/accessinformationcenter/11.6/access/informationcenter/accessrequests/interface.md#pending-requests-tab)
 of the Access Requests interface.
 
 ![Cancel Request wizard Add Notes page](/img/versioned_docs/accessinformationcenter_11.6/access/informationcenter/accessrequests/wizard/addnotes.webp)

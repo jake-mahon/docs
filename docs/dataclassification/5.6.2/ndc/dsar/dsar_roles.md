@@ -28,5 +28,5 @@ which runs the queued batch.
 
 DSAR Roles can be configured under Users → Permissions Management. For more information on how to
 configure roles, refer to
-[Permission Management](/versioned_docs/dataclassification_5.6.2/ndc/security/user_management.md#permission-management)
+[Permission Management](/docs/dataclassification/5.6.2/ndc/security/user_management.md#permission-management)
 section.

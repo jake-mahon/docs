@@ -49,7 +49,7 @@ ignores the value in the source field mapped to it.
         environment variables, determine that they are supported by the Windows installed on your
         host machine
 
-- [Auto-Generate Unique, Complex Passwords](/versioned_docs/groupid_11.0/groupid/portal/synchronize/transformation/autogenerateuniquepassword.md)
+- [Auto-Generate Unique, Complex Passwords](/docs/groupid/11.0/groupid/portal/synchronize/transformation/autogenerateuniquepassword.md)
   based on complexity rules
 
     You can assign a single password to all synced objects or generate individual passwords for each
@@ -142,10 +142,10 @@ need.
 
 **See Also**
 
-- [Create a Job](/versioned_docs/groupid_11.0/groupid/portal/synchronize/job/create.md)
-- [Objects, Fields and Mapping ](/versioned_docs/groupid_11.0/groupid/portal/synchronize/job/objectfieldsandmapping.md)
-- [Auto-Generate Unique, Complex Passwords](/versioned_docs/groupid_11.0/groupid/portal/synchronize/transformation/autogenerateuniquepassword.md)
-- [Script](/versioned_docs/groupid_11.0/groupid/portal/synchronize/script/dtmscript.md)
-- [Visual Basic .NET for GroupID](/versioned_docs/groupid_11.0/groupid/portal/synchronize/script/visualbasicnetbasic.md)
-- [Sample Transform Scripts](/versioned_docs/groupid_11.0/groupid/portal/synchronize/script/sampletransformscript.md)
-- [Sample Container Scripts](/versioned_docs/groupid_11.0/groupid/portal/synchronize/script/samplecontainerscript.md)
+- [Create a Job](/docs/groupid/11.0/groupid/portal/synchronize/job/create.md)
+- [Objects, Fields and Mapping ](/docs/groupid/11.0/groupid/portal/synchronize/job/objectfieldsandmapping.md)
+- [Auto-Generate Unique, Complex Passwords](/docs/groupid/11.0/groupid/portal/synchronize/transformation/autogenerateuniquepassword.md)
+- [Script](/docs/groupid/11.0/groupid/portal/synchronize/script/dtmscript.md)
+- [Visual Basic .NET for GroupID](/docs/groupid/11.0/groupid/portal/synchronize/script/visualbasicnetbasic.md)
+- [Sample Transform Scripts](/docs/groupid/11.0/groupid/portal/synchronize/script/sampletransformscript.md)
+- [Sample Container Scripts](/docs/groupid/11.0/groupid/portal/synchronize/script/samplecontainerscript.md)

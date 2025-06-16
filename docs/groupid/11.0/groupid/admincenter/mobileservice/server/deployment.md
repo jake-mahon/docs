@@ -42,32 +42,32 @@ certain settings for each deployment instance of a service.
 ## Start or Stop a Deployment Instance
 
 See the
-[Start or Stop a Service](/versioned_docs/groupid_11.0/groupid/admincenter/service/dataservice/manage.md#start-or-stop-a-service)
+[Start or Stop a Service](/docs/groupid/11.0/groupid/admincenter/service/dataservice/manage.md#start-or-stop-a-service)
 topic for details. Remember to use the **Select Application Deployment** drop-down list to select
 the Mobile service instance you want to start or stop.
 
 ## View the Launch URL for an Instance
 
 See the
-[View the Launch URL for a Service](/versioned_docs/groupid_11.0/groupid/admincenter/service/dataservice/manage.md#view-the-launch-url-for-a-service)
+[View the Launch URL for a Service](/docs/groupid/11.0/groupid/admincenter/service/dataservice/manage.md#view-the-launch-url-for-a-service)
 topic for details. Remember to use the **Select Application Deployment** drop-down list to select
 the Mobile service instance you want to view the launch URL for.
 
 Use the launch URL for a Mobile service instance to launch the GroupIDMobileService page, which is
 shown in the
-[Launch a Mobile Service or a Service Instance](/versioned_docs/groupid_11.0/groupid/admincenter/mobileservice/create.md#launch-a-mobile-service-or-a-service-instance)
+[Launch a Mobile Service or a Service Instance](/docs/groupid/11.0/groupid/admincenter/mobileservice/create.md#launch-a-mobile-service-or-a-service-instance)
 topic.
 
 ## View the Data Service and Security Service Bound to an Instance
 
 See the
-[View the Data Service and Security Service Bound to an Instance](/versioned_docs/groupid_11.0/groupid/admincenter/portal/server/nativeiis.md#view-the-data-service-and-security-service-bound-to-an-instance)
+[View the Data Service and Security Service Bound to an Instance](/docs/groupid/11.0/groupid/admincenter/portal/server/nativeiis.md#view-the-data-service-and-security-service-bound-to-an-instance)
 topic. Replace references to the portal with the Mobile service.
 
 ## Manage Event Logging for an Instance
 
 To manage Windows logging and file logging for an instance of a Mobile service, see the
-[Specify Log Settings for a Service](/versioned_docs/groupid_11.0/groupid/admincenter/service/dataservice/manage.md#specify-log-settings-for-a-service)
+[Specify Log Settings for a Service](/docs/groupid/11.0/groupid/admincenter/service/dataservice/manage.md#specify-log-settings-for-a-service)
 topic. Remember to use the **Select Application Deployment** drop-down list to select the Mobile
 service instance you want to manage event logging for.
 
@@ -142,5 +142,5 @@ configure the GroupID app with this deployment instance of the Mobile service.
 
 **See Also**
 
-- [Mobile Service](/versioned_docs/groupid_11.0/groupid/admincenter/mobileservice/overview.md)
-- [Server Settings](/versioned_docs/groupid_11.0/groupid/admincenter/mobileservice/server/overview.md)
+- [Mobile Service](/docs/groupid/11.0/groupid/admincenter/mobileservice/overview.md)
+- [Server Settings](/docs/groupid/11.0/groupid/admincenter/mobileservice/server/overview.md)

@@ -10,7 +10,7 @@ What do you want to do?
 ## Change a Service’s Display Name
 
 See the
-[Change a Service’s Display Name](/versioned_docs/groupid_11.0/groupid/admincenter/service/dataservice/manage.md#change-a-services-display-name)
+[Change a Service’s Display Name](/docs/groupid/11.0/groupid/admincenter/service/dataservice/manage.md#change-a-services-display-name)
 topic.
 
 ## Associate Identity Stores with a Service
@@ -36,5 +36,5 @@ app for logging in.
 
 **See Also**
 
-- [Mobile Service](/versioned_docs/groupid_11.0/groupid/admincenter/mobileservice/overview.md)
-- [Server Settings](/versioned_docs/groupid_11.0/groupid/admincenter/mobileservice/server/overview.md)
+- [Mobile Service](/docs/groupid/11.0/groupid/admincenter/mobileservice/overview.md)
+- [Server Settings](/docs/groupid/11.0/groupid/admincenter/mobileservice/server/overview.md)

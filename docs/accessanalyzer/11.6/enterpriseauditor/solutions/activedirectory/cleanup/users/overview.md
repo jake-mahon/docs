@@ -6,9 +6,9 @@ The 2.Users Job Group provides a workflow to deprovision stale and unused user a
 
 The jobs in the 2.Users Job Group are:
 
-- [AD_DeprovisionUsers Job](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/activedirectory/cleanup/users/ad_deprovisionusers.md)
+- [AD_DeprovisionUsers Job](/docs/accessanalyzer/11.6/enterpriseauditor/solutions/activedirectory/cleanup/users/ad_deprovisionusers.md)
   – Provides a simple and automated workflow to deprovisions stale and unused user accounts
-- [AD_DeprovisionUsers_Status Job](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/activedirectory/cleanup/users/ad_deprovisionusers_status.md)
+- [AD_DeprovisionUsers_Status Job](/docs/accessanalyzer/11.6/enterpriseauditor/solutions/activedirectory/cleanup/users/ad_deprovisionusers_status.md)
   – Tracks and reports all actions taken by the included Deprovisioning workflow
 
 Workflow
@@ -18,7 +18,7 @@ Workflow
 - The .Active Directory Inventory Job Group needs to be successfully run
 - For the AD_DeprovisionUsers Job, the target OU needs to be manually set in the Move Users Action
   Task prior to executing the actions. See the
-  [Action Tasks for the AD_DeprovisionUsers Job](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/activedirectory/cleanup/users/ad_deprovisionusers.md#action-tasks-for-the-ad_deprovisionusers-job)
+  [Action Tasks for the AD_DeprovisionUsers Job](/docs/accessanalyzer/11.6/enterpriseauditor/solutions/activedirectory/cleanup/users/ad_deprovisionusers.md#action-tasks-for-the-ad_deprovisionusers-job)
   topic for additional information.
 - The AD_DeprovisionUsers Job needs to be run prior to running the AD_DeprovisionUsers_Status Job
 

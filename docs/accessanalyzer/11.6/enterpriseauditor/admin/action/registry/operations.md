@@ -1,7 +1,7 @@
 # Registry: Operations
 
 Use the Operations page to select the operations to apply to the target hosts. See the
-[Registry: Target Hosts](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/action/registry/targethosts.md) topic
+[Registry: Target Hosts](/docs/accessanalyzer/11.6/enterpriseauditor/admin/action/registry/targethosts.md) topic
 for additional information.
 
 ![Registry Action Module Wizard Operations page](/img/versioned_docs/activitymonitor_7.1/activitymonitor/admin/monitoreddomains/admonitoringconfiguration/operations.webp)

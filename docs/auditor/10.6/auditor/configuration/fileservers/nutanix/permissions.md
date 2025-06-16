@@ -9,7 +9,7 @@ First, you need an account that Netwrix Auditor will use to access Nutanix File 
 requires at least _Read_ permission for the target SMB shares on the Nutanix File Server.
 
 This is the account you will provide in the monitoring plan wizard at the
-[Create a New Monitoring Plan](/versioned_docs/auditor_10.6/auditor/admin/monitoringplans/create.md)
+[Create a New Monitoring Plan](/docs/auditor/10.6/auditor/admin/monitoringplans/create.md)
 step; it can be modified in the **General** tab of the monitored item settings.
 
 ![nutanix_item_mp](/img/versioned_docs/auditor_10.6/auditor/configuration/fileservers/nutanix/nutanix_item_mp.webp)
@@ -64,5 +64,5 @@ save the settings.
 
 See the following topics for additional information.
 
-- [Add Items for Monitoring](/versioned_docs/auditor_10.6/auditor/admin/monitoringplans/datasources.md#add-items-for-monitoring)
-- [Create User Account to Access Nutanix REST API](/versioned_docs/auditor_10.6/auditor/configuration/fileservers/nutanix/useraccount.md).
+- [Add Items for Monitoring](/docs/auditor/10.6/auditor/admin/monitoringplans/datasources.md#add-items-for-monitoring)
+- [Create User Account to Access Nutanix REST API](/docs/auditor/10.6/auditor/configuration/fileservers/nutanix/useraccount.md).

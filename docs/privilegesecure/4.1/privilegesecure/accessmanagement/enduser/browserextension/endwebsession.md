@@ -22,10 +22,10 @@ Tab** button on the page or close the tab manually.
 If the browser extension is configured to automatically end the Activity when all sessions are
 closed, the Activity will automatically be canceled if there are no remaining browser tabs for the
 Activity. See the
-[Settings Tab for Browser Extension](/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/enduser/browserextension/interface.md#settings-tab-for-browser-extension)
+[Settings Tab for Browser Extension](/docs/privilegesecure/4.1/privilegesecure/accessmanagement/enduser/browserextension/interface.md#settings-tab-for-browser-extension)
 topic for additional information.
 
 If the extension has been configured to not end the Activity sessions on web session closure, the
 Activity can be closed by clicking on the red icon. See the
-[Activities Tab for the Browser Extension](/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/enduser/browserextension/interface.md#activities-tab-for-the-browser-extension)
+[Activities Tab for the Browser Extension](/docs/privilegesecure/4.1/privilegesecure/accessmanagement/enduser/browserextension/interface.md#activities-tab-for-the-browser-extension)
 topic for additional information.

@@ -1,7 +1,7 @@
 # Connection
 
 A connection represents a link between a
-[connector](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/connectors/connector/index.md)
+[connector](/docs/usercube/6.1/usercube/integration-guide/toolkit/xml-configuration/connectors/connector/index.md)
 and a connection package.
 
 ## Examples
@@ -43,7 +43,7 @@ appsettings.agent.json
 ```
 
 Details about these settings can be found in Usercube's
-[connector references](/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/references-connectors/index.md).
+[connector references](/docs/usercube/6.1/usercube/integration-guide/connectors/references-connectors/index.md).
 
 ## Properties
 
@@ -58,9 +58,9 @@ Details about these settings can be found in Usercube's
 ## Child Element: Transformation
 
 A connection transformation is optional, but can be needed to adjust the Excel files, output of
-[export tasks](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/jobs/tasks/agent/exporttask/index.md)from
+[export tasks](/docs/usercube/6.1/usercube/integration-guide/toolkit/xml-configuration/jobs/tasks/agent/exporttask/index.md)from
 Excel export connections, before
-[prepare-synchronization tasks](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/jobs/tasks/agent/preparesynchronizationtask/index.md).
+[prepare-synchronization tasks](/docs/usercube/6.1/usercube/integration-guide/toolkit/xml-configuration/jobs/tasks/agent/preparesynchronizationtask/index.md).
 The following operations are possible:
 
 - filtering out given rows;

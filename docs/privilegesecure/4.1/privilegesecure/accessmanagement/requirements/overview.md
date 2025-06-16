@@ -19,7 +19,7 @@ The following servers are required for installation of the product:
 
 See the following sections for additional information:
 
-- [Application Server Requirements](/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/requirements/applicationserver.md)
-- [Client Requirements](/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/requirements/client.md)
-- [Proxy Server Requirements](/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/requirements/proxyserver.md)
-- [Target Environments](/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/requirements/target.md)
+- [Application Server Requirements](/docs/privilegesecure/4.1/privilegesecure/accessmanagement/requirements/applicationserver.md)
+- [Client Requirements](/docs/privilegesecure/4.1/privilegesecure/accessmanagement/requirements/client.md)
+- [Proxy Server Requirements](/docs/privilegesecure/4.1/privilegesecure/accessmanagement/requirements/proxyserver.md)
+- [Target Environments](/docs/privilegesecure/4.1/privilegesecure/accessmanagement/requirements/target.md)

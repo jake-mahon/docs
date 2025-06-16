@@ -6,7 +6,7 @@ client credentials grant for authentication and providing the following access r
 - Read-Only – Read data only
 
 See the
-[Use the Client Credentials Grant to Obtain an Access Token](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/settings/access/restapi/obtaintoken.md)
+[Use the Client Credentials Grant to Obtain an Access Token](/docs/accessanalyzer/11.6/enterpriseauditor/admin/settings/access/restapi/obtaintoken.md)
 topic for additional information.
 
 The client provides the access token in the HTTP header in the following format:

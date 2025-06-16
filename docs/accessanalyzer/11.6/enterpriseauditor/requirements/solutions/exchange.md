@@ -2,7 +2,7 @@
 
 The core components for Netwrix Enterprise Auditor are the Enterprise Auditor Console server, SQL
 Server, and Access Information Center. See the
-[Requirements](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/requirements/overview.md)
+[Requirements](/docs/accessanalyzer/11.6/enterpriseauditor/requirements/overview.md)
 topic for the core requirements.
 
 In addition to these, integration with either the Netwrix Activity Monitor or the Netwrix Threat
@@ -17,8 +17,8 @@ which enables Sensitive Data criteria for scans.
 
 See the following topics for target environment requirements:
 
-- [Target Exchange Servers Requirements, Permissions, and Ports](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/requirements/target/exchange.md)
-- [Target Exchange Online Requirements, Permissions, and Ports](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/requirements/target/exchangeonline.md)
+- [Target Exchange Servers Requirements, Permissions, and Ports](/docs/accessanalyzer/11.6/enterpriseauditor/requirements/target/exchange.md)
+- [Target Exchange Online Requirements, Permissions, and Ports](/docs/accessanalyzer/11.6/enterpriseauditor/requirements/target/exchangeonline.md)
 
 ## Exchange Solution Requirements on the Enterprise Auditor Console
 
@@ -57,7 +57,7 @@ running the Exchange Solution:
 
 - Outlook should not be installed
 - StealthAUDIT MAPI CDO installed (for MAPI- based data collectors). See the
-  [StealthAUDIT MAPI CDO Installation](/versioned_docs/enterpriseauditor_11.6/stealthaudit/install_guides/mapi_cdo_install/stealthaudit_mapi_cdo_installation.md)
+  [StealthAUDIT MAPI CDO Installation](/docs/accessanalyzer/11.6/stealthaudit/install_guides/mapi_cdo_install/stealthaudit_mapi_cdo_installation.md)
   topic for additional information.
 - Exchange MAPI CDO installed (for MAPI- based data collectors)
 - For targeting Exchange 2010 – Exchange Management Tools 2010 installed on the Enterprise Auditor

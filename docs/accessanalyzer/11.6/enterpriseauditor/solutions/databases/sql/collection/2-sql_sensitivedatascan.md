@@ -7,10 +7,10 @@ Special Dependency
 
 - Sensitive Data Discovery Add-On installed on the Enterprise Auditor Console server
     - See the
-      [Installation & Configuration Overview](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/install/application/overview.md)
+      [Installation & Configuration Overview](/docs/accessanalyzer/11.6/enterpriseauditor/install/application/overview.md)
       topic for installation information.
     - See the
-      [Sensitive Data Discovery Add-On](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/sensitivedatadiscovery/overview.md)
+      [Sensitive Data Discovery Add-On](/docs/accessanalyzer/11.6/enterpriseauditor/sensitivedatadiscovery/overview.md)
       topic for additional information.
 
 Though the job is visible within the console, it requires an additional installer package before
@@ -46,7 +46,7 @@ job.
 ![2sqlsensitivedatascanoptionspage](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/databases/sql/collection/2sqlsensitivedatascanoptionspage.webp)
 
 **Step 4 –** Select the desired scan options. Navigate to the
-[SQL: Options](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/sql/options.md)
+[SQL: Options](/docs/accessanalyzer/11.6/enterpriseauditor/admin/datacollector/sql/options.md)
 page for additional information.
 
 **NOTE:** The Sensitive Data Scan Settings are pre-configured for optimal performance for a
@@ -56,7 +56,7 @@ may significantly increase scan time.
 ![Criteria Page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/databases/sql/collection/2sqlsensitivedatascanquerycriteriapage.webp)
 
 **Step 5 –** To modify criteria, navigate to the
-[SQL: Criteria](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/sql/criteria.md)
+[SQL: Criteria](/docs/accessanalyzer/11.6/enterpriseauditor/admin/datacollector/sql/criteria.md)
 page. By default, the following System Criteria have been selected:
 
 - Credit Cards
@@ -66,13 +66,13 @@ page. By default, the following System Criteria have been selected:
 - Password
 
     Add or remove criteria if needed. See the
-    [Sensitive Data Criteria Editor](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/sensitivedatadiscovery/criteriaeditor/overview.md)
+    [Sensitive Data Criteria Editor](/docs/accessanalyzer/11.6/enterpriseauditor/sensitivedatadiscovery/criteriaeditor/overview.md)
     topic for additional information.
 
 ![Filter Page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/databases/sql/collection/2sqlsensitivedatascanfilterpage.webp)
 
 **Step 6 –** To query for specific database/instance, navigate to the
-[SQL: Filter](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/sql/filter.md)
+[SQL: Filter](/docs/accessanalyzer/11.6/enterpriseauditor/admin/datacollector/sql/filter.md)
 page. The query is configured by default to target Only select database objects. Click Retrieve. The
 Available database objects box will populate. Databases and instances can be added in the following
 ways:

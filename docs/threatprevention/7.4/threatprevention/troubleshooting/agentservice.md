@@ -46,5 +46,5 @@ Follow the steps to create the ServicesPipeTimeout entry using the Registry Edit
 The ServicesPipeTimeout entry is now added.
 
 See the
-[Best Practices and Troubleshooting](/versioned_docs/threatprevention_7.4/threatprevention/troubleshooting/overview.md)
+[Best Practices and Troubleshooting](/docs/threatprevention/7.4/threatprevention/troubleshooting/overview.md)
 topic for additional information.

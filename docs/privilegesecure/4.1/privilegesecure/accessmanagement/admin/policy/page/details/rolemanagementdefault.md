@@ -17,22 +17,22 @@ display at the top of the main pane with the following features:
 - Add User — The Add options change based on the selected role:
 
     - Administrator — Opens the Add Administrators window. See the
-      [Add Administrators Window](/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/policy/window/usersgroups/addadministrators.md)
+      [Add Administrators Window](/docs/privilegesecure/4.1/privilegesecure/accessmanagement/admin/policy/window/usersgroups/addadministrators.md)
       topic for additional information.
     - Users — Opens a list of available user types to add
 
         - New Domain Users — Opens the Add Users and Groups window. See the
-          [Add Users & Groups Window](/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/policy/window/usersgroups/addusersandgroups.md)
+          [Add Users & Groups Window](/docs/privilegesecure/4.1/privilegesecure/accessmanagement/admin/policy/window/usersgroups/addusersandgroups.md)
           topic for additional information.
         - New Application User — Opens the Add Application page. See the
-          [Add Application](/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/policy/add/application.md)
+          [Add Application](/docs/privilegesecure/4.1/privilegesecure/accessmanagement/admin/policy/add/application.md)
           for additional information.
         - New Local User — Opens the Add Local User page. See
-          [Add Local User](/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/policy/add/localuser.md)
+          [Add Local User](/docs/privilegesecure/4.1/privilegesecure/accessmanagement/admin/policy/add/localuser.md)
           topic for additional information.
 
     - Reviewers — Opens the Add Reviewers window. See the
-      [Add Reviewers Window](/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/policy/window/usersgroups/addreviewers.md)
+      [Add Reviewers Window](/docs/privilegesecure/4.1/privilegesecure/accessmanagement/admin/policy/window/usersgroups/addreviewers.md)
       topic for additional information.
 
 - Remove — Removes console access from the selected account
@@ -43,7 +43,7 @@ The table has the following columns:
 - Checkbox — Check to select one or more items
 - Type — Icon indicates the type of object
 - Name — Displays the name of the account. Click the link to view additional details. See the
-  [User, Group, & Application Details Page](/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/policy/page/details/usergroupapplication.md)
+  [User, Group, & Application Details Page](/docs/privilegesecure/4.1/privilegesecure/accessmanagement/admin/policy/page/details/usergroupapplication.md)
   topic for additional information.
 - User Name — Displays the sAMAccountName for the account
 - Email — Displays the associated email address, if available
@@ -59,5 +59,5 @@ The default roles provide users with the following permissions:
 - Users — Creates sessions based on assigned access policy. This role is automatically assigned when
   a user is onboarded.
 - Reviewers — Grants ability to review access entitlement. See the
-  [Access Certification Page](/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/auditreporting/page/accesscertification.md)
+  [Access Certification Page](/docs/privilegesecure/4.1/privilegesecure/accessmanagement/admin/auditreporting/page/accesscertification.md)
   topic for additional information.

@@ -10,10 +10,10 @@ a language code. The files for the US English language are:
 
 | Filename        | Content                                                                                                                                                                                                           |
 | --------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| en_default.htm  | Static HTML for the Welcome page. See the [Using Password Policy Enforcer Web](/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/web/using_web.md) topic for additional information.           |
-| en_ppeweb.htm   | Template for the Password Change page. See the [Changing a Password](/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/web/using_web.md#changing-a-password) topic for additional information. |
+| en_default.htm  | Static HTML for the Welcome page. See the [Using Password Policy Enforcer Web](/docs/passwordpolicyenforcer/10.2/password_policy_enforcer/web/using_web.md) topic for additional information.           |
+| en_ppeweb.htm   | Template for the Password Change page. See the [Changing a Password](/docs/passwordpolicyenforcer/10.2/password_policy_enforcer/web/using_web.md#changing-a-password) topic for additional information. |
 | en_finished.htm | Template for the Finished page.                                                                                                                                                                                   |
-| en_error.htm    | Template for the Password Critical Error page. See the [Error Messages](/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/web/using_web.md#error-messages) topic for additional information.   |
+| en_error.htm    | Template for the Password Critical Error page. See the [Error Messages](/docs/passwordpolicyenforcer/10.2/password_policy_enforcer/web/using_web.md#error-messages) topic for additional information.   |
 
 The other user interface files are language independent. Most of the formatting is in ppeweb.css,
 and some additional CSS for Internet Explorer is in ppeweb_ie.css. The image files are in the images
@@ -52,14 +52,14 @@ Templates end with a resource string section.
 
 Resource strings are mostly validation error messages, but they can contain any text Password Policy
 Enforcer/Web may need to build the page. See the
-[Error Messages](/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/web/using_web.md#error-messages)
+[Error Messages](/docs/passwordpolicyenforcer/10.2/password_policy_enforcer/web/using_web.md#error-messages)
 topic for additional information. Do not modify the identifiers on the left, only edit the text on
 the right. Resource strings are always inside a range called RESOURCE_STRINGS. Password Policy
 Enforcer/Web deletes this range before sending the page to the user's web browser.
 
 **CAUTION:** You may rebrand the Password Policy Enforcer/Web user interface, but it is a violation
 of the License Agreement to modify, remove or obscure any copyright notice. See the
-[License Agreement](/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/web/license_agreement.md)
+[License Agreement](/docs/passwordpolicyenforcer/10.2/password_policy_enforcer/web/license_agreement.md)
 topic for additional information.
 
 ## Examples

@@ -19,7 +19,7 @@ Implementing this connector requires:
 - An Okta Token with specific permissions on the target instance
 
 See the
-[ appsettings.agent ](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/appsettings-agent/index.md)
+[ appsettings.agent ](/docs/usercube/6.1/usercube/integration-guide/network-configuration/agent-configuration/appsettings-agent/index.md)
 topic for additional information.
 
 ### Configuration
@@ -232,7 +232,7 @@ id, created, lastUpdated, status, name, label
 
 The Okta connector writes to Okta to create, update and delete entries, initiated manually through
 the UI or automatically by enforcing the policy. See the
-[Evaluate Policy](/versioned_docs/usercube_6.1/usercube/integration-guide/role-assignment/evaluate-policy/index.md)
+[Evaluate Policy](/docs/usercube/6.1/usercube/integration-guide/role-assignment/evaluate-policy/index.md)
 topic for additional information.
 
 ### Configuration
@@ -261,7 +261,7 @@ appsettings.agent.json
 ### Password reset
 
 The password reset settings configuration is described in the appsettings.agent.json file. See the
-[ appsettings.agent ](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/appsettings-agent/index.md)
+[ appsettings.agent ](/docs/usercube/6.1/usercube/integration-guide/network-configuration/agent-configuration/appsettings-agent/index.md)
 topic for additional information.
 
 ### Credential protection

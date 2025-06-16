@@ -19,9 +19,9 @@ detailed results.
 
 (missing or bad snippet)
 
-- [Overview Tab](/versioned_docs/changetracker_8.0/changetracker/admin/tabs/complianceoverviewtab.md)
-- [Policy Tab](/versioned_docs/changetracker_8.0/changetracker/admin/tabs/compliancepolicy.md)
-- [Details Tab ](/versioned_docs/changetracker_8.0/changetracker/admin/tabs/compliancedetails.md)
+- [Overview Tab](/docs/changetracker/8.0/changetracker/admin/tabs/complianceoverviewtab.md)
+- [Policy Tab](/docs/changetracker/8.0/changetracker/admin/tabs/compliancepolicy.md)
+- [Details Tab ](/docs/changetracker/8.0/changetracker/admin/tabs/compliancedetails.md)
 
 ## Comparing Results
 

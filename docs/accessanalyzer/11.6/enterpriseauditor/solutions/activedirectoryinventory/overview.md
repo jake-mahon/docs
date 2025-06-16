@@ -46,18 +46,18 @@ keep it at the top of the Jobs tree.
 
 This Job Group is comprised of three jobs that collect, analyze, and report on data. The data
 collection is conducted by the ADInventory Data Collector. See the
-[Standard Reference Tables & Views for the ADInventory Data Collector](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/adinventory/standardtables.md)
+[Standard Reference Tables & Views for the ADInventory Data Collector](/docs/accessanalyzer/11.6/enterpriseauditor/admin/datacollector/adinventory/standardtables.md)
 topic for database table information.
 
 ![.Active Directory Inventory Solution Overview page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/runninginstances/overview.webp)
 
 The .Active Directory Inventory Solution has the following jobs:
 
-- [1-AD_Scan Job](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/activedirectoryinventory/1-ad_scan.md)
+- [1-AD_Scan Job](/docs/accessanalyzer/11.6/enterpriseauditor/solutions/activedirectoryinventory/1-ad_scan.md)
   – Collects data and generates the standard reference tables and views
-- [2-AD_Changes Job](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/activedirectoryinventory/2-ad_changes.md)
+- [2-AD_Changes Job](/docs/accessanalyzer/11.6/enterpriseauditor/solutions/activedirectoryinventory/2-ad_changes.md)
   – Analyzes the collected data to track and alert on changes within all scanned domains that
   occurred since the last scan
-- [3-AD_Exceptions Job](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/activedirectoryinventory/3-ad_exceptions.md)
+- [3-AD_Exceptions Job](/docs/accessanalyzer/11.6/enterpriseauditor/solutions/activedirectoryinventory/3-ad_exceptions.md)
   – Analyzes the collected data to identify security and provisioning concerns, such as circular
   nesting and stale membership

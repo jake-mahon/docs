@@ -12,5 +12,5 @@ accidental clicks are saved.
 _Remember,_ if an Access Token was generated, use it as the credential within the Connection
 Profile. Then assign it to the job group or job which will be scanning the targeted Dropbox
 environment. See the
-[Custom Dropbox Connection Profile & Host List](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/dropboxaccess/configurejob.md) topic
+[Custom Dropbox Connection Profile & Host List](/docs/accessanalyzer/11.6/enterpriseauditor/admin/datacollector/dropboxaccess/configurejob.md) topic
 for additional information.

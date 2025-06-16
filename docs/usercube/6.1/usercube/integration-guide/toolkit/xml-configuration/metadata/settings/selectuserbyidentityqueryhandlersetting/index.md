@@ -23,7 +23,7 @@ The following example links the authentication credentials of an end-user to its
 of EntityType **Directory_User**.
 
 In this example, authentication has been set up using
-[Integrated Windows Authentication](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/server-configuration/end-users-authentication/index.md).
+[Integrated Windows Authentication](/docs/usercube/6.1/usercube/integration-guide/network-configuration/server-configuration/end-users-authentication/index.md).
 In that case, the login used by the end-user is in the form `DOMAIN/userName`.
 
 The **AfterToken** attribute parses the `DOMAIN/userName` string into `userName`.

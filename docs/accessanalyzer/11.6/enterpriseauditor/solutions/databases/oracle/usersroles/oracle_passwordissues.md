@@ -16,7 +16,7 @@ The Oracle_PasswordIssues Job uses the PowerShell Data Collector for the followi
   they are weak.
 
 See the
-[PowerShell Data Collector](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/powershell/overview.md)
+[PowerShell Data Collector](/docs/accessanalyzer/11.6/enterpriseauditor/admin/datacollector/powershell/overview.md)
 topic for additional information.
 
 ## Analysis Tasks for the Oracle_PasswordIssues Job

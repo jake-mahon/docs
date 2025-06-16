@@ -7,11 +7,11 @@ different operations and retention periods, the Event Type maintenance settings 
 Policy maintenance settings where the selected policy employs that event type.
 
 _Remember,_ See the Database Maintenance Permission details in the
-[Database Maintenance Feature Requirements](/versioned_docs/threatprevention_7.4/threatprevention/requirements/dbmaintenance.md)
+[Database Maintenance Feature Requirements](/docs/threatprevention/7.4/threatprevention/requirements/dbmaintenance.md)
 topic for additional information.
 
 See the
-[Stored Procedures](/versioned_docs/threatprevention_7.4/threatprevention/admin/configuration/databasemaintenance/storedprocedures.md)
+[Stored Procedures](/docs/threatprevention/7.4/threatprevention/admin/configuration/databasemaintenance/storedprocedures.md)
 topic for additional information on stored procedures Threat Prevention uses on its SQL Server
 databases.
 
@@ -56,24 +56,24 @@ The **Refresh** button in the upper-right corner refreshes this database and job
 
 **Step 2 –** On the Event Type, Analytics, and/or Policy tabs, enable maintenance for all or some of
 the options. See the
-[Enable Database Maintenance](/versioned_docs/threatprevention_7.4/threatprevention/admin/configuration/databasemaintenance/enable.md)
+[Enable Database Maintenance](/docs/threatprevention/7.4/threatprevention/admin/configuration/databasemaintenance/enable.md)
 topic for additional information.
 
 **Step 3 –** On the Schedule tab, set the frequency and time when the database maintenance job runs.
 See the
-[Schedule Database Maintenance](/versioned_docs/threatprevention_7.4/threatprevention/admin/configuration/databasemaintenance/schedule.md)
+[Schedule Database Maintenance](/docs/threatprevention/7.4/threatprevention/admin/configuration/databasemaintenance/schedule.md)
 topic for additional information.
 
 **Step 4 –** To use the Move operation, the information on the Archive DB tab must be configured.
 See the
-[Archive Data](/versioned_docs/threatprevention_7.4/threatprevention/admin/configuration/databasemaintenance/archive.md)
+[Archive Data](/docs/threatprevention/7.4/threatprevention/admin/configuration/databasemaintenance/archive.md)
 topic for additional information.
 
 **Step 5 –** Click **Save** to save the changes.
 
 **_RECOMMENDED:_** The SQL Server databases should be configured to use 'Simple Recovery Mode' in
 the
-[SQL Server Requirements](/versioned_docs/threatprevention_7.4/threatprevention/requirements/sqlserver.md).
+[SQL Server Requirements](/docs/threatprevention/7.4/threatprevention/requirements/sqlserver.md).
 This configuration has a direct impact on the size of the transaction log during database
 maintenance delete tasks. If Simple Recovery Mode is not configured on the databases, the
 transaction log may get quite large during delete tasks.

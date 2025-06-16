@@ -15,7 +15,7 @@ That done, you can sign into GroupID using Microsoft Entra ID SSO.
 
 See Also
 
-- [Generate URLs](/versioned_docs/groupid_11.0/groupid/authenticate/asserviceprovider/entrasso/generateurls.md)
-- [Configure GroupID in Microsoft Entra ID for SSO](/versioned_docs/groupid_11.0/groupid/authenticate/asserviceprovider/entrasso/configureinentra.md)
-- [Configure the Microsoft Entra SSO Application in GroupID](/versioned_docs/groupid_11.0/groupid/authenticate/asserviceprovider/entrasso/configureprovideringroupid.md)
-- [Sign In Using Microsoft Entra ID SSO](/versioned_docs/groupid_11.0/groupid/authenticate/asserviceprovider/entrasso/signin.md)
+- [Generate URLs](/docs/groupid/11.0/groupid/authenticate/asserviceprovider/entrasso/generateurls.md)
+- [Configure GroupID in Microsoft Entra ID for SSO](/docs/groupid/11.0/groupid/authenticate/asserviceprovider/entrasso/configureinentra.md)
+- [Configure the Microsoft Entra SSO Application in GroupID](/docs/groupid/11.0/groupid/authenticate/asserviceprovider/entrasso/configureprovideringroupid.md)
+- [Sign In Using Microsoft Entra ID SSO](/docs/groupid/11.0/groupid/authenticate/asserviceprovider/entrasso/signin.md)

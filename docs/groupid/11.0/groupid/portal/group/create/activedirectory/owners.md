@@ -9,7 +9,7 @@ group, all its members are considered as owners.
 - The **Owner** box displays your name as the primary owner of the group.
 
     To change the primary owner, click **Browse** next to the **Owner** box to launch the
-    [Find Dialog Box](/versioned_docs/groupid_11.0/groupid/portal/search/find.md), where you can
+    [Find Dialog Box](/docs/groupid/11.0/groupid/portal/search/find.md), where you can
     search and select a primary owner.
 
 - If the administrator has not enforced the selection of a primary owner (see Role policies), you
@@ -18,12 +18,12 @@ group, all its members are considered as owners.
 - To specify additional owner(s) for the group, click **Add**.
 
     Enter a search string to locate the object to add as an additional owner, or click **Advance**
-    to use the [Find Dialog Box](/versioned_docs/groupid_11.0/groupid/portal/search/find.md) for
+    to use the [Find Dialog Box](/docs/groupid/11.0/groupid/portal/search/find.md) for
     performing a search.
 
 - You can also specify additional owners for the group using an external file. Click **Import** to
   launch the **Import Additional Owners** wizard for importing additional owners. See
-  [Import Additional Owners](/versioned_docs/groupid_11.0/groupid/portal/group/properties/importadditionalowners.md)
+  [Import Additional Owners](/docs/groupid/11.0/groupid/portal/group/properties/importadditionalowners.md)
   for further information and instructions.
 - To remove an object from the additional owners list, select it and click **Remove**.
 
@@ -54,4 +54,4 @@ least x number of additional owners. Do the needful and click **Next**.
 
 **See Also**
 
-- [Create Active Directory Groups](/versioned_docs/groupid_11.0/groupid/portal/group/create/activedirectory/group.md)
+- [Create Active Directory Groups](/docs/groupid/11.0/groupid/portal/group/create/activedirectory/group.md)

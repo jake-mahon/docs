@@ -17,7 +17,7 @@ distribution lists.
 - Then click **OK** to close the window.
 
 See the
-[Selection Windows](/versioned_docs/threatprevention_7.4/threatprevention/admin/policies/eventtype/window/overview.md)
+[Selection Windows](/docs/threatprevention/7.4/threatprevention/admin/policies/eventtype/window/overview.md)
 topic for additional information.
 
 The selection is displayed in the appropriate box of the Exchange Trustees filter.

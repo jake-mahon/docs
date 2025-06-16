@@ -20,5 +20,5 @@ the UPN suffix.
 
 **See Also**
 
-- [Create a Microsoft Entra ID User](/versioned_docs/groupid_11.0/groupid/portal/user/create/azure/user.md)
-- [Create a Microsoft Entra ID Mailbox](/versioned_docs/groupid_11.0/groupid/portal/user/create/azure/mailbox/mailbox.md)
+- [Create a Microsoft Entra ID User](/docs/groupid/11.0/groupid/portal/user/create/azure/user.md)
+- [Create a Microsoft Entra ID Mailbox](/docs/groupid/11.0/groupid/portal/user/create/azure/mailbox/mailbox.md)

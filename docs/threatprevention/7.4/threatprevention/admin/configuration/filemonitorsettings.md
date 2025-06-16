@@ -61,7 +61,7 @@ Collection window opens.
 ![File Monitor Settings > Edit Collection window (for accounts)](/img/versioned_docs/threatprevention_7.4/threatprevention/admin/configuration/editcollectionaccounts.webp)
 
 **Step 3 –** Use the **Add** (+) button to open the
-[Select Active Directory Perpetrators Window](/versioned_docs/threatprevention_7.4/threatprevention/admin/policies/eventtype/window/selectactivedirectory/perpetrators.md)
+[Select Active Directory Perpetrators Window](/docs/threatprevention/7.4/threatprevention/admin/policies/eventtype/window/selectactivedirectory/perpetrators.md)
 to browse for and select AD accounts.
 
 **Step 4 –** Click **OK** to save your changes.

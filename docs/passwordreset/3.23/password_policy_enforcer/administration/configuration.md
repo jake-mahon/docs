@@ -136,7 +136,7 @@ A local configuration is used by only one computer, so it does not replicate to 
 You can copy a local configuration to another computer by exporting the configuration from the
 registry, and then importing it into the registry of the other computer. You can also use Group
 Policy to distribute a local configuration to many computers. See the
-[Domain and Local Policies](/versioned_docs/passwordreset_3.23/password_policy_enforcer/administration/domain_and_local_policies.md)
+[Domain and Local Policies](/docs/passwordreset/3.23/password_policy_enforcer/administration/domain_and_local_policies.md)
 topic for additional information.
 
 Follow the steps below to connect to a computer's local configuration.
@@ -227,7 +227,7 @@ is connected to a domain configuration, there will be some delay while Active Di
 the change to the other domain controllers. See the
 [Connecting to a Configuration](#connecting-to-a-configuration) topic for additional information. A
 user's password history may be updated even when Password Policy Enforcer is disabled. See the
-[History Rule](/versioned_docs/passwordreset_3.23/password_policy_enforcer/administration/rules.md#history-rule)
+[History Rule](/docs/passwordreset/3.23/password_policy_enforcer/administration/rules.md#history-rule)
 topic for additional information.
 
 ## PPS Properties
@@ -235,7 +235,7 @@ topic for additional information.
 The PPS (Password Policy Server) is the Password Policy Enforcer component that checks passwords and
 responds to queries from the Password Policy Client. PPS properties are global settings that apply
 to all Password Policy Enforcer policies. See the
-[Password Policy Client](/versioned_docs/passwordreset_3.23/password_policy_enforcer/administration/password_policy_client.md)
+[Password Policy Client](/docs/passwordreset/3.23/password_policy_enforcer/administration/password_policy_client.md)
 topic for additional information.
 
 Follow the steps below to open the PPS Properties page:
@@ -255,7 +255,7 @@ password, or creating a new user account. This option does not change the behavi
 Age rule, as this rule is never enforced during a reset. The History rule is only enforced during a
 reset if this check box is selected, and the **Enforce this rule when a password is reset** check
 box is selected in the History Rule Properties page. See the
-[Rules](/versioned_docs/passwordreset_3.23/password_policy_enforcer/administration/rules.md) topic
+[Rules](/docs/passwordreset/3.23/password_policy_enforcer/administration/rules.md) topic
 for additional information.
 
 Select the **Log event when password not checked by PPE** check box if Password Policy Enforcer
@@ -286,7 +286,7 @@ apply when a password is rejected by the Password Policy Client:
   the event when rejected by the Password Policy Enforcer Client because the Compromised rule is
   only enforced by the server. If the Password Policy Enforcer Client is not installed, then the
   server will log the event with all three rules because the server enforces all these rules. See
-  the [Rules](/versioned_docs/passwordreset_3.23/password_policy_enforcer/administration/rules.md)
+  the [Rules](/docs/passwordreset/3.23/password_policy_enforcer/administration/rules.md)
   topic for additional information.
 - Client rejections may not be logged, or they may be logged more than once if the Password Policy
   Client and Password Policy Server cannot communicate reliably.
@@ -297,9 +297,9 @@ when logging rejections by the Password Policy Client.
 Select the **Only accept encrypted client requests** check box if Password Policy Enforcer should
 only accept encrypted requests from the Password Policy Client, Netwrix Password Reset, Password
 Policy Enforcer/Web. See
-the[Password Policy Client](/versioned_docs/passwordreset_3.23/password_policy_enforcer/administration/password_policy_client.md)
+the[Password Policy Client](/docs/passwordreset/3.23/password_policy_enforcer/administration/password_policy_client.md)
 topic and the
-[Netwrix Password Reset and Web](/versioned_docs/passwordreset_3.23/password_policy_enforcer/evaluation/password_reset.md)
+[Netwrix Password Reset and Web](/docs/passwordreset/3.23/password_policy_enforcer/evaluation/password_reset.md)
 topic for additional information. Client requests do not contain passwords or password hashes, and
 they were not encrypted prior to Netwrix Password Reset and Web V9.0. Select this option if you are
 not using the Netwrix Password Reset and Web V8.x Password Policy Client, Netwrix Password Reset
@@ -308,7 +308,7 @@ requests if this option is not selected.
 
 Choose a password policy from the Default Policy drop-down list. Users must comply with the default
 policy if no other policy is assigned to them. See the
-[Managing Policies](/versioned_docs/passwordreset_3.23/password_policy_enforcer/administration/managing_policies.md)
+[Managing Policies](/docs/passwordreset/3.23/password_policy_enforcer/administration/managing_policies.md)
 topic for additional information. Using Password Policy Enforcer without a default policy is not
 recommended, as it may leave some passwords unchecked.
 
@@ -323,11 +323,11 @@ default policy is specified.
 Enforcer rules.
 
 Refer to the
-[Policy Selection Flowchart](/versioned_docs/passwordreset_3.23/password_policy_enforcer/administration/managing_policies.md#policy-selection-flowchart)
+[Policy Selection Flowchart](/docs/passwordreset/3.23/password_policy_enforcer/administration/managing_policies.md#policy-selection-flowchart)
 topic for a diagrammatic representation of Password Policy Enforcer's policy selection algorithm, or
 use the Test Policies page to quickly determine which policy Password Policy Enforcer will enforce
 for a particular user. See the
-[Managing Policies](/versioned_docs/passwordreset_3.23/password_policy_enforcer/administration/managing_policies.md)
+[Managing Policies](/docs/passwordreset/3.23/password_policy_enforcer/administration/managing_policies.md)
 topic for additional information.
 
 **CAUTION:** If Password Policy Enforcer has only one policy and that policy is also the default

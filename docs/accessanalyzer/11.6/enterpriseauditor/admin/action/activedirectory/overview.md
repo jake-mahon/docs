@@ -47,10 +47,10 @@ The Active Directory Action module is configured through the Active Directory Ac
 which contains the following wizard pages:
 
 - Welcome
-- [Active Directory Action Target](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/action/activedirectory/target.md)
-- [Active Directory Action Operations](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/action/activedirectory/operations.md)
-- [Active Directory Action Options](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/action/activedirectory/options.md)
-- [Active Directory Action Summary](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/action/activedirectory/summary.md)
+- [Active Directory Action Target](/docs/accessanalyzer/11.6/enterpriseauditor/admin/action/activedirectory/target.md)
+- [Active Directory Action Operations](/docs/accessanalyzer/11.6/enterpriseauditor/admin/action/activedirectory/operations.md)
+- [Active Directory Action Options](/docs/accessanalyzer/11.6/enterpriseauditor/admin/action/activedirectory/options.md)
+- [Active Directory Action Summary](/docs/accessanalyzer/11.6/enterpriseauditor/admin/action/activedirectory/summary.md)
 
 The Welcome page displays first in the Active Directory Action Module Wizard. Review the
 introductory and caution information about the Active Directory Action Module.

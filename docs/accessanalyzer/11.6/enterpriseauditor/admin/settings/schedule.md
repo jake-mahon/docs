@@ -10,7 +10,7 @@ you could schedule a job to run during hours when the office is closed and netwo
 Windows uses the Schedule Service Account to access the task folders when launching scheduled tasks.
 Schedule Service Accounts are configured at the global level, and this account can be used to
 schedule jobs in the Schedule Wizard. See the
-[Schedules](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/schedule/overview.md)
+[Schedules](/docs/accessanalyzer/11.6/enterpriseauditor/admin/schedule/overview.md)
 topic for additional information.
 
 **CAUTION:** On Windows 2016 servers, the Schedule Service Account cannot be signed into an active
@@ -24,7 +24,7 @@ Enterprise Auditor Vault.
 
 Choosing between the Enterprise Auditor application and Enterprise Auditor Vault is a global setting
 configured in the **Settings** > **Application** node. See the
-[Application](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/settings/application/overview.md)
+[Application](/docs/accessanalyzer/11.6/enterpriseauditor/admin/settings/application/overview.md)
 topic for additional information.
 
 Permissions
@@ -51,12 +51,12 @@ least the following to meet Least Privileged specifications:
 
 - To configure Least Privilege Model Schedule Service Accounts when Role Based Access is enabled,
   see the
-  [Role Based Access](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/settings/access/rolebased/overview.md)
+  [Role Based Access](/docs/accessanalyzer/11.6/enterpriseauditor/admin/settings/access/rolebased/overview.md)
   topic for additional information
 - If using Windows authentication for the Storage Profile, the Schedule Service Account must have a
   sufficient level of rights to connect to and interact with the Enterprise Auditor database. See
   the
-  [Storage](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/settings/storage/overview.md)
+  [Storage](/docs/accessanalyzer/11.6/enterpriseauditor/admin/settings/storage/overview.md)
   topic for additional information.
 
 The **Cancel** and **Save** buttons are in the lower-right corner of the Schedule view. These
@@ -66,7 +66,7 @@ click **Cancel** if no changes were intended.
 
 The Enterprise Auditor vault provides enhanced security through enhanced encryption to various
 credentials stored by the Enterprise Auditor application. See the
-[Vault](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/settings/application/vault.md)
+[Vault](/docs/accessanalyzer/11.6/enterpriseauditor/admin/settings/application/vault.md)
 topic for additional information.
 
 ## Schedule Service Account Types
@@ -124,7 +124,7 @@ types are:
           the **Settings** > **Application** node
         - Managed Service Account – Use previously configured MSA and gMSAs for authentication. The
           password fields are not applicable when this option is selected. See the
-          [Group Managed Service Accounts (gMSA) Configuration](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/settings/connection/gmsa.md)
+          [Group Managed Service Accounts (gMSA) Configuration](/docs/accessanalyzer/11.6/enterpriseauditor/admin/settings/connection/gmsa.md)
           topic for additional information.
 
     - Password – Type the password

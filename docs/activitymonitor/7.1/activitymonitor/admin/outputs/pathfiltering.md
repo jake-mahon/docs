@@ -14,7 +14,7 @@ The tab contains the following settings and features:
 ![pathfilteringtab](/img/versioned_docs/activitymonitor_7.1/activitymonitor/admin/outputs/pathfilteringtab.webp)
 
 - Add – Opens the Add or Edit Path window to add a new path to the list. See the
-  [Add or Edit Path Window](/versioned_docs/activitymonitor_7.1/activitymonitor/admin/outputs/window/addeditpath.md)
+  [Add or Edit Path Window](/docs/activitymonitor/7.1/activitymonitor/admin/outputs/window/addeditpath.md)
   topic for additional information.
 - Remove – Removes the selected path from the list. Confirmation is not requested.
 
@@ -23,7 +23,7 @@ The tab contains the following settings and features:
 - Move Up / Move Down – Since path filters are evaluated in the order specified by the table, these
   buttons move the selected path up or down in the list
 - Edit – Opens the Add or Edit Path window to modify the selected path. See the
-  [Add or Edit Path Window](/versioned_docs/activitymonitor_7.1/activitymonitor/admin/outputs/window/addeditpath.md)
+  [Add or Edit Path Window](/docs/activitymonitor/7.1/activitymonitor/admin/outputs/window/addeditpath.md)
   topic for additional information.
 - Type a path below to test whether it will be included or excluded – Enter a path in the textbox to
   test whether it will be included/excluded based on the path filtering list
@@ -57,7 +57,7 @@ The tab contains the following settings and features:
 ![Host Properties - Path Filtering Tab](/img/versioned_docs/activitymonitor_7.1/activitymonitor/admin/outputs/pathfilteringtab.webp)
 
 - Add – Opens the Add or Edit Path window to add a new path to the list. See the
-  [Add or Edit Path Window](/versioned_docs/activitymonitor_7.1/activitymonitor/admin/outputs/window/addeditpath.md)
+  [Add or Edit Path Window](/docs/activitymonitor/7.1/activitymonitor/admin/outputs/window/addeditpath.md)
   topic for additional information.
 - Remove – Removes the selected path from the list. Confirmation is not requested.
 
@@ -66,7 +66,7 @@ The tab contains the following settings and features:
 - Move Up / Move Down – Since path filters are evaluated in the order specified by the table, these
   buttons move the selected path up or down in the list
 - Edit – Opens the Add or Edit Path window to modify the selected path. See the
-  [Add or Edit Path Window](/versioned_docs/activitymonitor_7.1/activitymonitor/admin/outputs/window/addeditpath.md)
+  [Add or Edit Path Window](/docs/activitymonitor/7.1/activitymonitor/admin/outputs/window/addeditpath.md)
   topic for additional information.
 - Type a path below to test whether it will be included or excluded – Enter a path in the textbox to
   test whether it will be included/excluded based on the path filtering list
@@ -114,7 +114,7 @@ Use a semicolon (;) to separate multiple URLs.
 The tab contains the following settings and features:
 
 - Add – Opens the Add or Edit Path window to add a new path to the list. See the
-  [Add or Edit Path Window](/versioned_docs/activitymonitor_7.1/activitymonitor/admin/outputs/window/addeditpath.md)
+  [Add or Edit Path Window](/docs/activitymonitor/7.1/activitymonitor/admin/outputs/window/addeditpath.md)
   topic for additional information.
 - Remove – Removes the selected path from the list. Confirmation is not requested.
 
@@ -123,7 +123,7 @@ The tab contains the following settings and features:
 - Move Up / Move Down – Since path filters are evaluated in the order specified by the table, these
   buttons move the selected path up or down in the list
 - Edit – Opens the Add or Edit Path window to modify the selected path. See the
-  [Add or Edit Path Window](/versioned_docs/activitymonitor_7.1/activitymonitor/admin/outputs/window/addeditpath.md)
+  [Add or Edit Path Window](/docs/activitymonitor/7.1/activitymonitor/admin/outputs/window/addeditpath.md)
   topic for additional information.
 - Add all local drives – Retrieves and adds all local drives to the bottom of the list with a type
   of Include

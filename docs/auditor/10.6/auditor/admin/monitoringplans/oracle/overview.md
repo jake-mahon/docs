@@ -3,13 +3,13 @@
 **NOTE:** Prior to configuring your monitoring plan, please read and complete the instructions in
 the following topics:
 
-- [Protocols and Ports Required](/versioned_docs/auditor_10.6/auditor/requirements/ports.md) – To
+- [Protocols and Ports Required](/docs/auditor/10.6/auditor/requirements/ports.md) – To
   ensure successful data collection and activity monitoring configure necessary protocols and ports
   for inbound and outbound connections
-- [Data Collecting Account](/versioned_docs/auditor_10.6/auditor/admin/monitoringplans/dataaccounts.md)
+- [Data Collecting Account](/docs/auditor/10.6/auditor/admin/monitoringplans/dataaccounts.md)
   – Configure data collecting accounts as required to audit your IT systems
 
-- [Oracle Database](/versioned_docs/auditor_10.6/auditor/configuration/oracle/overview.md) –
+- [Oracle Database](/docs/auditor/10.6/auditor/configuration/oracle/overview.md) –
   Configure data source as required to be monitored
 
 Complete the following fields:
@@ -27,7 +27,7 @@ Complete the following fields:
 Review your data source settings and click **Add** to go back to your plan. The newly created data
 source will appear in the **Data source** list. As a next step, click **Add item** to specify an
 object for monitoring. See the
-[Add Items for Monitoring](/versioned_docs/auditor_10.6/auditor/admin/monitoringplans/datasources.md#add-items-for-monitoring)
+[Add Items for Monitoring](/docs/auditor/10.6/auditor/admin/monitoringplans/datasources.md#add-items-for-monitoring)
 topic for additional information.
 
 ## Oracle Database Instance
@@ -38,8 +38,8 @@ Complete the following fields:
 | ------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Connection type                                                                            | Select how the product connects to Oracle Database: - Oracle Database instance – select if you want to connect to a database by instance name. - Oracle Wallet – select if you want to use Oracle Wallet – password-protected container used to store authentication and signing credentials, including private keys, certificates, and trusted certificates needed by SSL.                                                                                                                                                                 |
 | Instance name                                                                              | Provide connection details in the following format: _host:port/service_name._ Make sure audit settings are configured for your Oracle Database instance.                                                                                                                                                                                                                                                                                                                                                                                    |
-| Wallet alias                                                                               | Provide the alias you set while creating wallet. For example, "_MyOracle_". Alias name in Netwrix Auditor should exactly match the alias in the `tnsnames.ora` file. [Configure Oracle Instant Client for HTTP Proxy Connections](/versioned_docs/auditor_10.6/auditor/configuration/oracle/wallet.md#configure-oracle-instant-client-for-http-proxy-connections)                                                                                                                                                                           |
-| Specify the account for collecting data For Oracle Database instance connection type only. | Select the account that will be used to collect data for this item. If you want to use a specific account (other than the one you specified during monitoring plan creation), select **Custom account** and enter credentials. The credentials are case sensitive. A custom account must be granted the same permissions and access rights as the default account used for data collection. See the [Data Collecting Account](/versioned_docs/auditor_10.6/auditor/admin/monitoringplans/dataaccounts.md) topic for additional information. |
+| Wallet alias                                                                               | Provide the alias you set while creating wallet. For example, "_MyOracle_". Alias name in Netwrix Auditor should exactly match the alias in the `tnsnames.ora` file. [Configure Oracle Instant Client for HTTP Proxy Connections](/docs/auditor/10.6/auditor/configuration/oracle/wallet.md#configure-oracle-instant-client-for-http-proxy-connections)                                                                                                                                                                           |
+| Specify the account for collecting data For Oracle Database instance connection type only. | Select the account that will be used to collect data for this item. If you want to use a specific account (other than the one you specified during monitoring plan creation), select **Custom account** and enter credentials. The credentials are case sensitive. A custom account must be granted the same permissions and access rights as the default account used for data collection. See the [Data Collecting Account](/docs/auditor/10.6/auditor/admin/monitoringplans/dataaccounts.md) topic for additional information. |
 
 ## Data Collection from Oracle Database
 
@@ -49,7 +49,7 @@ On a high level, data collection process for Oracle databases works as follows:
 
 1. Oracle administrator prepares a dedicated service account with sufficient permissions to collect
    data from Oracle Database. See the
-   [Permissions for Oracle Database Auditing](/versioned_docs/auditor_10.6/auditor/configuration/oracle/permissions.md)
+   [Permissions for Oracle Database Auditing](/docs/auditor/10.6/auditor/configuration/oracle/permissions.md)
    topic for additional information.
 2. Netwrix administrator does the following:
 
@@ -58,7 +58,7 @@ On a high level, data collection process for Oracle databases works as follows:
       the monitoring plan – these are Oracle Databases to collect data from.
     - Configures alerts related to Oracle data source. Current version does not include predefined
       alerts for that data source, so follow the
-      [Create Alerts](/versioned_docs/auditor_10.6/auditor/admin/alertsettings/create.md) section to
+      [Create Alerts](/docs/auditor/10.6/auditor/admin/alertsettings/create.md) section to
       create and configure the necessary alerts.
 
     Remember to set the filter to “Data Source*equals* Oracle”.

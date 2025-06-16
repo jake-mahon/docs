@@ -15,7 +15,7 @@ In Authenticate, you have to:
 ## Generate Consumer URL
 
 To generate the consumer URL, see the
-[Generate URLs](/versioned_docs/groupid_11.0/groupid/authenticate/asserviceprovider/adfs/generateurls.md)
+[Generate URLs](/docs/groupid/11.0/groupid/authenticate/asserviceprovider/adfs/generateurls.md)
 topic. Replace references to AD FS with PingOne.
 
 ## Generate the Metadata File

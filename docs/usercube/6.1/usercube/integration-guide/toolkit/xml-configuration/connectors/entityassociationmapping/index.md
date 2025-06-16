@@ -1,11 +1,11 @@
 # EntityAssociationMapping
 
 Contains all the
-[Entity Association](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/metadata/entityassociation/index.md)
+[Entity Association](/docs/usercube/6.1/usercube/integration-guide/toolkit/xml-configuration/metadata/entityassociation/index.md)
 that can be materialized in the Usercube physical model. An association mapping can be established
 between two properties of the same entity type mapping or between two properties of different entity
 type mappings having the same connector. See
-[Connector](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/connectors/connector/index.md)
+[Connector](/docs/usercube/6.1/usercube/integration-guide/toolkit/xml-configuration/connectors/connector/index.md)
 to see how to configure an EntityAssociationMapping.
 
 ## Properties

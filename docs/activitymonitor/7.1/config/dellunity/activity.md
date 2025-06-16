@@ -28,7 +28,7 @@ Checklist Item 1: Plan Deployment
         - [http://support.emc.com](http://support.emc.com/)
 
 Checklist Item 2:
-[Install Dell CEE](/versioned_docs/activitymonitor_7.1/config/dellunity/installcee.md)
+[Install Dell CEE](/docs/activitymonitor/7.1/config/dellunity/installcee.md)
 
 - Dell CEE should be installed on the Windows proxy server(s) where the Activity Monitor activity
   agent will be deployed
@@ -47,7 +47,7 @@ Checklist Item 3: Dell Unity Device Configuration
 
 - Configure initial setup for a Unity device
 
-    - [Unity Initial Setup with Unisphere](/versioned_docs/activitymonitor_7.1/config/dellunity/setupunisphere.md)
+    - [Unity Initial Setup with Unisphere](/docs/activitymonitor/7.1/config/dellunity/setupunisphere.md)
 
 Checklist Item 4: Activity Monitor Configuration
 
@@ -65,5 +65,5 @@ agent will be deployed, the following steps are not needed.
 
 - Ensure the Dell CEE registry key has enabled set to 1 and has an EndPoint set to StealthAUDIT.
 - Ensure the Dell CAVA service and the Dell CEE Monitor service are running.
-- See the [Validate Setup](/versioned_docs/activitymonitor_7.1/config/dellunity/validate.md) topic
+- See the [Validate Setup](/docs/activitymonitor/7.1/config/dellunity/validate.md) topic
   for instructions.

@@ -7,7 +7,7 @@ execute when the parent job group is run.
 
 If the role based access feature is enabled, the ability to enable and disable jobs is limited by
 the assigned role. See the
-[Role Based Access](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/settings/access/rolebased/overview.md)
+[Role Based Access](/docs/accessanalyzer/11.6/enterpriseauditor/admin/settings/access/rolebased/overview.md)
 topic for additional information.
 
 ## Disable a Job

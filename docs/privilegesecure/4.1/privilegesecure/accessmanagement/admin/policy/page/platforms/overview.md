@@ -20,31 +20,31 @@ following features:
 Default platforms include:
 
 - Active Directory — See the
-  [Active Directory Platform Policy Configuration](/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/policy/page/platforms/activedirectory.md)
+  [Active Directory Platform Policy Configuration](/docs/privilegesecure/4.1/privilegesecure/accessmanagement/admin/policy/page/platforms/activedirectory.md)
   topic for additional information on configuration options
 - Microsoft Entra ID (formerly Azure AD) — See the
-  [Microsoft Entra ID Platform Policy Configuration](/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/policy/page/platforms/entraid.md)
+  [Microsoft Entra ID Platform Policy Configuration](/docs/privilegesecure/4.1/privilegesecure/accessmanagement/admin/policy/page/platforms/entraid.md)
   topic for additional information on configuration options
 - Cisco — See the
-  [Cisco Platform Policy Configuration](/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/policy/page/platforms/cisco.md)
+  [Cisco Platform Policy Configuration](/docs/privilegesecure/4.1/privilegesecure/accessmanagement/admin/policy/page/platforms/cisco.md)
   topic for additional information on configuration options
 - Linux — See the
-  [Linux Platform Policy Configuration](/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/policy/page/platforms/linux.md)
+  [Linux Platform Policy Configuration](/docs/privilegesecure/4.1/privilegesecure/accessmanagement/admin/policy/page/platforms/linux.md)
   topic for additional information on configuration options
 - Microsoft SQL Server — See the
-  [Microsoft SQL Server Platform Policy Configuration](/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/policy/page/platforms/mssql.md)
+  [Microsoft SQL Server Platform Policy Configuration](/docs/privilegesecure/4.1/privilegesecure/accessmanagement/admin/policy/page/platforms/mssql.md)
   topic for additional information on configuration options
 - Oracle — See the
-  [Oracle Platform Policy Configuration](/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/policy/page/platforms/oracle.md)
+  [Oracle Platform Policy Configuration](/docs/privilegesecure/4.1/privilegesecure/accessmanagement/admin/policy/page/platforms/oracle.md)
   topic for additional information on configuration options
 - Secret Vault — See the
-  [Secret Vault Platform Policy Configuration](/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/policy/page/platforms/secretvault.md)
+  [Secret Vault Platform Policy Configuration](/docs/privilegesecure/4.1/privilegesecure/accessmanagement/admin/policy/page/platforms/secretvault.md)
   topic for additional information on configuration options
 - Website — See the
-  [Web Site Platform Policy Configuration](/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/policy/page/platforms/website.md)
+  [Web Site Platform Policy Configuration](/docs/privilegesecure/4.1/privilegesecure/accessmanagement/admin/policy/page/platforms/website.md)
   topic for additional information on configuration options
 - Windows — See the
-  [Windows Platform Policy Configuration](/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/policy/page/platforms/windows.md)
+  [Windows Platform Policy Configuration](/docs/privilegesecure/4.1/privilegesecure/accessmanagement/admin/policy/page/platforms/windows.md)
   topic for additional information on configuration options
 
 See the Configure a Platform Policy topic for additional information on adding a Platform Policy.

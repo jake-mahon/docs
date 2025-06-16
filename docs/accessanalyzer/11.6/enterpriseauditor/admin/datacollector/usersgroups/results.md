@@ -7,6 +7,6 @@ set of options.
 
 Choose from the following query categories:
 
-- [UsersGroups: Users Category](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/usersgroups/category/users.md)
-- [UsersGroups: Groups Category](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/usersgroups/category/groups.md)
-- [UsersGroups: Security Category](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/usersgroups/category/security.md)
+- [UsersGroups: Users Category](/docs/accessanalyzer/11.6/enterpriseauditor/admin/datacollector/usersgroups/category/users.md)
+- [UsersGroups: Groups Category](/docs/accessanalyzer/11.6/enterpriseauditor/admin/datacollector/usersgroups/category/groups.md)
+- [UsersGroups: Security Category](/docs/accessanalyzer/11.6/enterpriseauditor/admin/datacollector/usersgroups/category/security.md)

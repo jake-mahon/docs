@@ -19,9 +19,9 @@ path, as that can be customized during each Privilege Secure and service install
 
 See also:
 
-- [Proxy Service Install](/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/install/proxyservice.md)
-- [Action Service Install](/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/install/actionservice.md)
-- [Scheduler Service Install](/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/install/schedulerservice.md)
+- [Proxy Service Install](/docs/privilegesecure/4.1/privilegesecure/accessmanagement/install/proxyservice.md)
+- [Action Service Install](/docs/privilegesecure/4.1/privilegesecure/accessmanagement/install/actionservice.md)
+- [Scheduler Service Install](/docs/privilegesecure/4.1/privilegesecure/accessmanagement/install/schedulerservice.md)
 
 Exclusions:
 

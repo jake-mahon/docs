@@ -28,7 +28,7 @@ In GroupID, history for an identity store is tracked at two levels:
     - security roles
 
     See the
-    [Identity Store History](/versioned_docs/groupid_11.0/groupid/admincenter/identitystore/history/view.md)
+    [Identity Store History](/docs/groupid/11.0/groupid/admincenter/identitystore/history/view.md)
     topic to view the tracked history data.
 
 By default, history tracking is disabled. You can:
@@ -133,7 +133,7 @@ You can set GroupID to retain history data for the identity store in the GroupID
 You can set GroupID to retain an identity store's history data for a specified length of time in the
 database. When the retention period is over, the History Retention schedule archives this data by
 moving it from the database to CSV files. See the
-[History Retention Schedule](/versioned_docs/groupid_11.0/groupid/admincenter/schedule/historyretention.md)
+[History Retention Schedule](/docs/groupid/11.0/groupid/admincenter/schedule/historyretention.md)
 topic.
 
 **To retain history data for a specific period:**
@@ -174,6 +174,6 @@ history data.
 
 **See Also**
 
-- [Identity Store History](/versioned_docs/groupid_11.0/groupid/admincenter/identitystore/history/view.md)
-- [History in GroupID](/versioned_docs/groupid_11.0/groupid/admincenter/history.md)
-- [Event Logging](/versioned_docs/groupid_11.0/groupid/admincenter/identitystore/history/eventlogging.md)
+- [Identity Store History](/docs/groupid/11.0/groupid/admincenter/identitystore/history/view.md)
+- [History in GroupID](/docs/groupid/11.0/groupid/admincenter/history.md)
+- [Event Logging](/docs/groupid/11.0/groupid/admincenter/identitystore/history/eventlogging.md)

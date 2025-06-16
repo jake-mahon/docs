@@ -4,7 +4,7 @@ This connector exports entries from an
 [LDIF](https://en.wikipedia.org/wiki/LDAP_Data_Interchange_Format) file.
 
 This page is about
-[Directory/LDIF](/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/references-packages/ldif/index.md).
+[Directory/LDIF](/docs/usercube/6.1/usercube/integration-guide/connectors/references-packages/ldif/index.md).
 
 ![Package: Directory/LDIF](/img/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/references-connectors/ldif/packages_ldif_v603.webp)
 
@@ -27,7 +27,7 @@ This connector generates a CSV file from an input LDIF file containing entries t
 ### Configuration
 
 This process is configured through a
-[connection](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/connectors/connection/index.md)
+[connection](/docs/usercube/6.1/usercube/integration-guide/toolkit/xml-configuration/connectors/connection/index.md)
 in the UI and/or the XML configuration, and in the `appsettings.agent.json > Connections` section:
 
 ```
@@ -81,7 +81,7 @@ The identifier of the connection and thus the name of the subsection must:
 ### Output details
 
 This connector is meant to generate to the
-[ExportOutput](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/appsettings/index.md)
+[ExportOutput](/docs/usercube/6.1/usercube/integration-guide/network-configuration/agent-configuration/appsettings/index.md)
 folder a CSV file named `LdifExport.csv`, with the following columns:
 
 ```
@@ -99,10 +99,10 @@ There are no fulfill capabilities for this connector.
 ### Credential protection
 
 This connector has no credential attributes, and therefore does not use
-[RSA encryption](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/rsa-encryption/index.md),
+[RSA encryption](/docs/usercube/6.1/usercube/integration-guide/network-configuration/agent-configuration/rsa-encryption/index.md),
 nor a
-[CyberArk Vault](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/cyberark-application-access-manager-credential-providers/index.md).
+[CyberArk Vault](/docs/usercube/6.1/usercube/integration-guide/network-configuration/agent-configuration/cyberark-application-access-manager-credential-providers/index.md).
 
 Still, data protection can be ensured through an
-[Azure Key Vault](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/azure-key-vault/index.md)
+[Azure Key Vault](/docs/usercube/6.1/usercube/integration-guide/network-configuration/agent-configuration/azure-key-vault/index.md)
 safe.

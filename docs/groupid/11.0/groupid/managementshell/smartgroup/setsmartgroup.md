@@ -2,7 +2,7 @@
 
 The **Set-SmartGroup** commandlet modifies a Smart Group in Directory. Attributes that are common to
 both Smart Groups and unmanaged groups can also be modified using the
-[Set-Group](/versioned_docs/groupid_11.0/groupid/managementshell/group/setgroup.md) commandlet.
+[Set-Group](/docs/groupid/11.0/groupid/managementshell/group/setgroup.md) commandlet.
 
 You can view events related to this commandlet in GroupID portal, against the **History** node in
 the left panel.
@@ -173,6 +173,6 @@ Set-SmartGroup -Identity "CN=Smart_Training,OU=Recruiting,DC=HR,DC=Imanami,DC=US
 
 See Also
 
-- [All Commands](/versioned_docs/groupid_11.0/groupid/managementshell/commands.md)
-- [Smart Group Commands](/versioned_docs/groupid_11.0/groupid/managementshell/smartgroup/overview.md)
-- [Parameters](/versioned_docs/groupid_11.0/groupid/managementshell/parameters/parameters.md)
+- [All Commands](/docs/groupid/11.0/groupid/managementshell/commands.md)
+- [Smart Group Commands](/docs/groupid/11.0/groupid/managementshell/smartgroup/overview.md)
+- [Parameters](/docs/groupid/11.0/groupid/managementshell/parameters/parameters.md)

@@ -26,7 +26,7 @@ Policies Node
 Under the Policies node in the Navigation pane, folders are used to organize the policies. Folders
 can be created at the top level or as sub-folders. Threat Prevention supports unlimited levels for
 organizing policies. A user with administrator rights can apply protection on a folder node. See the
-[Data Protection](/versioned_docs/threatprevention_7.4/threatprevention/admin/policies/dataprotection.md)
+[Data Protection](/docs/threatprevention/7.4/threatprevention/admin/policies/dataprotection.md)
 topic for additional information.
 
 - Click a policy to open it and view its configuration and recent event data.
@@ -34,14 +34,14 @@ topic for additional information.
   protections.
 - Templates can also be dragged from a template folder and dropped into a policy folder, which
   copies the template into a policy. See the
-  [Templates Interface](/versioned_docs/threatprevention_7.4/threatprevention/admin/templates/overview.md)
+  [Templates Interface](/docs/threatprevention/7.4/threatprevention/admin/templates/overview.md)
   topic for additional information.
 - An enabled policy is identified within the Navigation pane by the green dot over the policy icon.
 
 ![Enabled and Disabled Policies in the Navogation pane](/img/versioned_docs/threatprevention_7.4/threatprevention/admin/policies/enableddisabledpolicies.webp)
 
 See the
-[Policy Configuration](/versioned_docs/threatprevention_7.4/threatprevention/admin/policies/configuration.md)
+[Policy Configuration](/docs/threatprevention/7.4/threatprevention/admin/policies/configuration.md)
 topic for additional information on creating policies.
 
 ## Right-Click Menu
@@ -57,10 +57,10 @@ It contains the following options:
 | ------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Enable              | Enables disabled policies. Nothing happens if selected for an enabled policy.                                                                                                                                  |
 | Disable             | Disables enabled policies. Nothing happens if selected for a disabled policy.                                                                                                                                  |
-| Export              | Exports the selected policy’s configuration to an XML file through the [Export Policies and Templates Window](/versioned_docs/threatprevention_7.4/threatprevention/admin/policies/exportpoliciestemplates.md) |
+| Export              | Exports the selected policy’s configuration to an XML file through the [Export Policies and Templates Window](/docs/threatprevention/7.4/threatprevention/admin/policies/exportpoliciestemplates.md) |
 | Remove              | Deletes the selected policy                                                                                                                                                                                    |
 
 **NOTE:** If the selected policy is protected and the current user does not have the Manage Policies
 permission for it, these options are grayed-out. See the
-[Data Protection](/versioned_docs/threatprevention_7.4/threatprevention/admin/policies/dataprotection.md)
+[Data Protection](/docs/threatprevention/7.4/threatprevention/admin/policies/dataprotection.md)
 topic for additional information on protection.

@@ -54,7 +54,7 @@ The Scoping Queries page should be configured as shown:
 ![FSAA Data Collector Wizard Scoping Queries page Open shares configuration](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/fsaa/scopingqueriesopenshares.webp)
 
 See the
-[FSAA: Scoping Options](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/fsaa/scopingoptions.md)
+[FSAA: Scoping Options](/docs/accessanalyzer/11.6/enterpriseauditor/admin/datacollector/fsaa/scopingoptions.md)
 topic for additional information and common scoping scenarios.
 
 ## Scoping Query Configuration Window

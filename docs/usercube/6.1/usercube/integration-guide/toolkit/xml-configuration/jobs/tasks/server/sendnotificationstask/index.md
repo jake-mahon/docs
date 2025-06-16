@@ -1,7 +1,7 @@
 # SendNotificationsTask
 
 Task that sends all the custom notifications defined by the
-[`Notification`](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/notifications/notification/index.md)
+[`Notification`](/docs/usercube/6.1/usercube/integration-guide/toolkit/xml-configuration/notifications/notification/index.md)
 XML tag.
 
 ## Examples

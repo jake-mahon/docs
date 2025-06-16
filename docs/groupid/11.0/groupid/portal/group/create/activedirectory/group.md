@@ -5,7 +5,7 @@ store.
 
 NOTE: If the GroupID administrator has specified the group creation action for review, the new group
 will be created after it is verified by an approver. See
-[Requests](/versioned_docs/groupid_11.0/groupid/portal/request/overview.md).
+[Requests](/docs/groupid/11.0/groupid/portal/request/overview.md).
 
 What do you want to do?
 
@@ -22,19 +22,19 @@ What do you want to do?
     Pages and fields on the Create Group wizard may vary, since the administrator can customize the
     wizard by adding or removing pages and fields.
 
-2. On the [Group Type page](/versioned_docs/groupid_11.0/groupid/portal/group/create/grouptype.md),
+2. On the [Group Type page](/docs/groupid/11.0/groupid/portal/group/create/grouptype.md),
    select the **Static Group** option button and click **Next**.
 3. On the
-   [General page](/versioned_docs/groupid_11.0/groupid/portal/group/create/activedirectory/general.md),
+   [General page](/docs/groupid/11.0/groupid/portal/group/create/activedirectory/general.md),
    specify basic information about the group.
 4. On the
-   [Members page](/versioned_docs/groupid_11.0/groupid/portal/group/create/activedirectory/members.md),
+   [Members page](/docs/groupid/11.0/groupid/portal/group/create/activedirectory/members.md),
    specify members for the group.
 5. On the
-   [Owners page](/versioned_docs/groupid_11.0/groupid/portal/group/create/activedirectory/owners.md),
+   [Owners page](/docs/groupid/11.0/groupid/portal/group/create/activedirectory/owners.md),
    specify primary and additional owners for the group.
 6. On the
-   [Summary Page](/versioned_docs/groupid_11.0/groupid/portal/user/create/activedirectory/summary.md),
+   [Summary Page](/docs/groupid/11.0/groupid/portal/user/create/activedirectory/summary.md),
    review the settings and then click Finish to complete the wizard.
 
 ## Create a Smart Group
@@ -55,16 +55,16 @@ with queries significantly reduces administrative costs.
     Pages and fields on the Create Group wizard may vary, since the administrator can customize the
     wizard by adding or removing tabs and fields.
 
-2. On the [Group Type page](/versioned_docs/groupid_11.0/groupid/portal/group/create/grouptype.md),
+2. On the [Group Type page](/docs/groupid/11.0/groupid/portal/group/create/grouptype.md),
    select the **Smart Group** option button and click **Next**.
 3. On the
-   [General page](/versioned_docs/groupid_11.0/groupid/portal/group/create/activedirectory/general.md),
+   [General page](/docs/groupid/11.0/groupid/portal/group/create/activedirectory/general.md),
    specify basic information about the group.
 4. On the
-   [ Smart Group page](/versioned_docs/groupid_11.0/groupid/portal/group/create/activedirectory/smartgroup.md),
+   [ Smart Group page](/docs/groupid/11.0/groupid/portal/group/create/activedirectory/smartgroup.md),
    review and modify the query for updating group membership.
 5. On the
-   [Owners page](/versioned_docs/groupid_11.0/groupid/portal/group/create/activedirectory/owners.md),
+   [Owners page](/docs/groupid/11.0/groupid/portal/group/create/activedirectory/owners.md),
    specify primary and additional owners for the group.
 
     When a Smart Group Update job runs on a group, the notification behavior is as follows:  
@@ -73,7 +73,7 @@ with queries significantly reduces administrative costs.
     notifications.
 
 6. On the
-   [Summary Page](/versioned_docs/groupid_11.0/groupid/portal/user/create/activedirectory/summary.md),
+   [Summary Page](/docs/groupid/11.0/groupid/portal/user/create/activedirectory/summary.md),
    review the settings and then click Finish to complete the wizard.
 
 ## Create a Password Expiry Group
@@ -93,16 +93,16 @@ NOTE: Password Expiry group is not supported in Microsoft Entra ID.
     Pages and fields on the Create Group wizard may vary, since the administrator can customize the
     wizard by adding or removing tabs and fields.
 
-2. On the [Group Type page](/versioned_docs/groupid_11.0/groupid/portal/group/create/grouptype.md),
+2. On the [Group Type page](/docs/groupid/11.0/groupid/portal/group/create/grouptype.md),
    select the **Password Expiry Group** option button and click **Next**.
 3. On the
-   [General page](/versioned_docs/groupid_11.0/groupid/portal/group/create/activedirectory/general.md),
+   [General page](/docs/groupid/11.0/groupid/portal/group/create/activedirectory/general.md),
    specify basic information about the group.
 4. On the
-   [ Smart Group page](/versioned_docs/groupid_11.0/groupid/portal/group/create/activedirectory/smartgroup.md),
+   [ Smart Group page](/docs/groupid/11.0/groupid/portal/group/create/activedirectory/smartgroup.md),
    review and modify the query for updating group membership.
 5. On the
-   [Owners page](/versioned_docs/groupid_11.0/groupid/portal/group/create/activedirectory/owners.md),
+   [Owners page](/docs/groupid/11.0/groupid/portal/group/create/activedirectory/owners.md),
    specify primary and additional owners for the group.
 
     When a Smart Group Update job runs on a group, the notification behavior is as follows:  
@@ -111,9 +111,9 @@ NOTE: Password Expiry group is not supported in Microsoft Entra ID.
     notifications.
 
 6. On the
-   [Summary Page](/versioned_docs/groupid_11.0/groupid/portal/user/create/activedirectory/summary.md),
+   [Summary Page](/docs/groupid/11.0/groupid/portal/user/create/activedirectory/summary.md),
    review the settings and then click Finish to complete the wizard.
 
 **See Also**
 
-- [Group Properties](/versioned_docs/groupid_11.0/groupid/portal/group/properties/overview.md)
+- [Group Properties](/docs/groupid/11.0/groupid/portal/group/properties/overview.md)

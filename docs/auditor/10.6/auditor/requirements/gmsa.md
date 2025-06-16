@@ -17,17 +17,17 @@ Currently, gMSA is supported:
 - As a data collecting account for the following data sources: Active Directory (also for Group
   Policy and Logon Activity), Windows Server, File Server (currently for Windows File Servers), SQL
   Server, SharePoint. See the
-  [Data Collecting Account](/versioned_docs/auditor_10.6/auditor/admin/monitoringplans/dataaccounts.md)
+  [Data Collecting Account](/docs/auditor/10.6/auditor/admin/monitoringplans/dataaccounts.md)
   topic for additional information.
 
     **NOTE:** If you are using a gMSA account for Active Directory collection consider that the
     Active Directory Object Restore tool will not work.
 
 - As an account for accessing Long-Term archive. See the
-  [File-Based Repository for Long-Term Archive](/versioned_docs/auditor_10.6/auditor/requirements/longtermarchive.md)
+  [File-Based Repository for Long-Term Archive](/docs/auditor/10.6/auditor/requirements/longtermarchive.md)
   topic for additional information.
 - As an account for accessing Audit Databases. See
-  [Requirements for SQL Server to Store Audit Data](/versioned_docs/auditor_10.6/auditor/requirements/sqlserver.md)
+  [Requirements for SQL Server to Store Audit Data](/docs/auditor/10.6/auditor/requirements/sqlserver.md)
   topic for additional information.
 
     **CAUTION:** In case of accessing Audit Databases using gMSA account, SSRS-based reports will
@@ -154,36 +154,36 @@ account, depending on what purpose a gMSA account will be used for.
   Local Admins group on the Auditor Server and assign the following rights and permissions,
   depending on the data source you want to collect data from:
 
-    - [Permissions for Active Directory Auditing](/versioned_docs/auditor_10.6/auditor/configuration/activedirectory/permissions.md)
-    - [Permissions for Group Policy Auditing ](/versioned_docs/auditor_10.6/auditor/configuration/grouppolicy/permissions.md)
-    - [Permissions for Logon Activity Auditing ](/versioned_docs/auditor_10.6/auditor/configuration/logonactivity/permissions.md)
-    - [Permissions for Windows File Server Auditing](/versioned_docs/auditor_10.6/auditor/configuration/fileservers/windows/permissions.md)
-    - [Permissions for SharePoint Auditing](/versioned_docs/auditor_10.6/auditor/configuration/sharepoint/permissions.md)
-    - [Permissions for SQL Server Auditing ](/versioned_docs/auditor_10.6/auditor/configuration/sqlserver/permissions.md)
-    - [Permissions for Windows Server Auditing ](/versioned_docs/auditor_10.6/auditor/configuration/windowsserver/permissions.md)
+    - [Permissions for Active Directory Auditing](/docs/auditor/10.6/auditor/configuration/activedirectory/permissions.md)
+    - [Permissions for Group Policy Auditing ](/docs/auditor/10.6/auditor/configuration/grouppolicy/permissions.md)
+    - [Permissions for Logon Activity Auditing ](/docs/auditor/10.6/auditor/configuration/logonactivity/permissions.md)
+    - [Permissions for Windows File Server Auditing](/docs/auditor/10.6/auditor/configuration/fileservers/windows/permissions.md)
+    - [Permissions for SharePoint Auditing](/docs/auditor/10.6/auditor/configuration/sharepoint/permissions.md)
+    - [Permissions for SQL Server Auditing ](/docs/auditor/10.6/auditor/configuration/sqlserver/permissions.md)
+    - [Permissions for Windows Server Auditing ](/docs/auditor/10.6/auditor/configuration/windowsserver/permissions.md)
 
         _Remember,_
-        [Permissions for Windows Server Auditing ](/versioned_docs/auditor_10.6/auditor/configuration/windowsserver/permissions.md)
+        [Permissions for Windows Server Auditing ](/docs/auditor/10.6/auditor/configuration/windowsserver/permissions.md)
 
 - If you are going to use a gMSA to access Long-Term archive, assign the roles and permissions
   required for a custom account:
 
-    - [File-Based Repository for Long-Term Archive](/versioned_docs/auditor_10.6/auditor/requirements/longtermarchive.md)
+    - [File-Based Repository for Long-Term Archive](/docs/auditor/10.6/auditor/requirements/longtermarchive.md)
 
         _Remember,_ that you can use custom (gMSA) account only if your Long-Term archive stored on
         a file share.
 
 - If you are going to use a gMSA to access Audit Database, assign the required roles:
 
-    - [Requirements for SQL Server to Store Audit Data](/versioned_docs/auditor_10.6/auditor/requirements/sqlserver.md)
+    - [Requirements for SQL Server to Store Audit Data](/docs/auditor/10.6/auditor/requirements/sqlserver.md)
 
         _Remember,_ that a gMSA account cannot access SSRS due to Microsoft restrictions.
 
 - If you are going to use a gMSA as a data collection accoun for User Activity Video Recording,
   refer to the following topics:
 
-    - [User Activity](/versioned_docs/auditor_10.6/auditor/configuration/useractivity/overview.md)
-    - [Configure Video Recordings Playback Settings](/versioned_docs/auditor_10.6/auditor/configuration/useractivity/videorecordings.md)
+    - [User Activity](/docs/auditor/10.6/auditor/configuration/useractivity/overview.md)
+    - [Configure Video Recordings Playback Settings](/docs/auditor/10.6/auditor/configuration/useractivity/videorecordings.md)
 
 Now you can use a gMSA account as one of the Auditor Service Account.
 
@@ -199,7 +199,7 @@ This topic contains instructions on how to apply a gMSA as one of the Auditor Se
 
 To process the corresponding monitored items using gMSA, you can specify this account in the
 monitored plan properties. See the
-[Create a New Monitoring Plan](/versioned_docs/auditor_10.6/auditor/admin/monitoringplans/create.md)
+[Create a New Monitoring Plan](/docs/auditor/10.6/auditor/admin/monitoringplans/create.md)
 topic for additional information.
 
 Follow the steps to set a custom account in the monitored item properties.
@@ -212,14 +212,14 @@ account**.
 ![item_general_gmsa](/img/versioned_docs/auditor_10.6/auditor/requirements/item_general_gmsa.webp)
 
 See the
-[Add Items for Monitoring](/versioned_docs/auditor_10.6/auditor/admin/monitoringplans/datasources.md#add-items-for-monitoring) topic
+[Add Items for Monitoring](/docs/auditor/10.6/auditor/admin/monitoringplans/datasources.md#add-items-for-monitoring) topic
 for additional information.
 
 ### Apply gMSA to Access Long-Term Archive
 
 To write data to the Long-Term Archive and upload report subscriptions to shared folders, you can
 specify this account as a custom account in the Long-Term Archive settings. See the
-[Long-Term Archive](/versioned_docs/auditor_10.6/auditor/admin/settings/longtermarchive.md) topic
+[Long-Term Archive](/docs/auditor/10.6/auditor/admin/settings/longtermarchive.md) topic
 for additional information.
 
 **NOTE:** For a custom account or a gMSA one, consider that you can use the account for the
@@ -230,5 +230,5 @@ Long-Term Archive based on a file share
 To access Audit Database, generate reports and run interactive search queries, you can specify this
 account under the 'Specify custom connection parameters in your common database plan settings. See
 the
-[Fine-Tune Your Plan and Edit Settings](/versioned_docs/auditor_10.6/auditor/admin/monitoringplans/finetune.md)
+[Fine-Tune Your Plan and Edit Settings](/docs/auditor/10.6/auditor/admin/monitoringplans/finetune.md)
 topic for additional information.

@@ -54,7 +54,7 @@ It contains information on explicit permissions granted for the selected resourc
 
 This table will be blank unless an Explicit Permissions icon is attached to the resource in the
 Resources pane. See the
-[Resources Pane](/versioned_docs/accessinformationcenter_11.6/access/informationcenter/resourceaudit/navigate/resource.md#resources-pane)
+[Resources Pane](/docs/accessinformationcenter/11.6/access/informationcenter/resourceaudit/navigate/resource.md#resources-pane)
 topic for additional information. This table is comprised of the same columns as the primary report.
 
 ## Stale Permissions
@@ -85,12 +85,12 @@ three other trustees with stale permissions.
 
 The Activity Statisticsreport indicates that the trustee Jazmina has performed write, manage, and
 delete events on the selected resource. See the
-[Activity Statistics Report](/versioned_docs/accessinformationcenter_11.6/access/informationcenter/resourceaudit/filesystem/sharesubfolder/activitystatistics.md) topic
+[Activity Statistics Report](/docs/accessinformationcenter/11.6/access/informationcenter/resourceaudit/filesystem/sharesubfolder/activitystatistics.md) topic
 for additional information.
 
 ![Effective Access report](/img/versioned_docs/accessinformationcenter_11.6/access/informationcenter/resourceaudit/filesystem/sharesubfolder/stalepermissionsaccess.webp)
 
 The Effective Access report shows that Jazmina has access to the resource through the Group_Manage
 group, and the access is directly applied. See the
-[Effective Access Report](/versioned_docs/accessinformationcenter_11.6/access/informationcenter/resourceaudit/filesystem/sharesubfolder/effectiveaccess.md) topic
+[Effective Access Report](/docs/accessinformationcenter/11.6/access/informationcenter/resourceaudit/filesystem/sharesubfolder/effectiveaccess.md) topic
 for additional information.

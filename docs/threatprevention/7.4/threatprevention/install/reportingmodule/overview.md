@@ -2,7 +2,7 @@
 
 Prior to installing Netwrix Threat Manager Reporting Module 3.0, make sure that all the
 prerequisites have been met in accordance with the
-[Reporting Module Server Requirements](/versioned_docs/threatprevention_7.4/threatprevention/requirements/reportingserver.md)
+[Reporting Module Server Requirements](/docs/threatprevention/7.4/threatprevention/requirements/reportingserver.md)
 topic.
 
 The Netwrix Threat Manager Reporting Module installer is packaged with three executable files.
@@ -76,16 +76,16 @@ launcher opens. You can now install the following components on the same server:
 ![Stealthbits Setup Launcher for StealthINTERCEPT Reporting Powered by StealthDEFEND](/img/versioned_docs/threatprevention_7.4/threatprevention/install/reportingmodule/setuplauncher.webp)
 
 - Click PostgreSQL Setup to install the database. See the
-  [Install the PostgreSQL Database Application](/versioned_docs/threatprevention_7.4/threatprevention/install/reportingmodule/database.md)
+  [Install the PostgreSQL Database Application](/docs/threatprevention/7.4/threatprevention/install/reportingmodule/database.md)
   topic for additional information.
 - Click Netwrix Threat Manager Reporting to install the application. See the
-  [Install the Netwrix Threat Manager Reporting Module](/versioned_docs/threatprevention_7.4/threatprevention/install/reportingmodule/application.md)
+  [Install the Netwrix Threat Manager Reporting Module](/docs/threatprevention/7.4/threatprevention/install/reportingmodule/application.md)
   topic for additional information.
 
 **Step 2 –** Log into the console for the first time. See the
-[First Launch](/versioned_docs/threatprevention_7.4/threatprevention/install/reportingmodule/firstlaunch.md)
+[First Launch](/docs/threatprevention/7.4/threatprevention/install/reportingmodule/firstlaunch.md)
 topic for additional information.
 
 After completing the first launch, it is time to complete the initial configuration. See the
-[Set Up the Threat Manager Reporting Module](/versioned_docs/threatprevention_7.4/threatprevention/gettingstarted.md#set-up-the-threat-manager-reporting-module)
+[Set Up the Threat Manager Reporting Module](/docs/threatprevention/7.4/threatprevention/gettingstarted.md#set-up-the-threat-manager-reporting-module)
 topic for additional information.

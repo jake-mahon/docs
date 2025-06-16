@@ -69,7 +69,7 @@ it will be 5.1.7.
 
         If encryption is activated in your Usercube then add the settings corresponding to your
         certificate (see Usercube-Encrypt-File
-        [generic arguments](/versioned_docs/usercube_6.1/usercube/integration-guide/executables/references/encrypt-file/index.md)).
+        [generic arguments](/docs/usercube/6.1/usercube/integration-guide/executables/references/encrypt-file/index.md)).
 
         Example with encryption
         deactivated:`./Usercube-Upgrade-Files.exe --version "5.1.7" --migrate-agent`Example with

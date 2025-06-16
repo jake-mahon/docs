@@ -14,7 +14,7 @@ To import audit data with the Archive Data Investigation wizard
 
 **NOTE:** You must be assigned the Global administrator role to import investigation data. To view
 investigation data, you must be assigned the Global administrator or Global reviewer role. See
-[Assign Roles](/versioned_docs/auditor_10.6/auditor/admin/monitoringplans/delegation.md#assign-roles)
+[Assign Roles](/docs/auditor/10.6/auditor/admin/monitoringplans/delegation.md#assign-roles)
 topic for more information.
 
 1. Navigate to Settings → Investigations.
@@ -22,7 +22,7 @@ topic for more information.
 
     | Option              | Description                                                                                                                                                                                                                                                                                                                                    |
     | ------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-    | SQL Server Instance | Specify the name of the SQL Server instance to import your audit data to. If you want to run searches and generate reports, select the same SQL Server instance as the one specified on Settings → Audit Database page. See [Audit Database](/versioned_docs/auditor_10.6/auditor/admin/settings/auditdatabase.md) topic for more information. |
+    | SQL Server Instance | Specify the name of the SQL Server instance to import your audit data to. If you want to run searches and generate reports, select the same SQL Server instance as the one specified on Settings → Audit Database page. See [Audit Database](/docs/auditor/10.6/auditor/admin/settings/auditdatabase.md) topic for more information. |
     | Database            | Select import database name. By default, data is imported to a specially created the Netwrix_ImportDB database but you can select any other. Do not select databases that already contain data. Selecting such databases leads to data overwrites and loss.                                                                                    |
     | Authentication      | Select the authentication type you want to use to connect to the SQL Server instance: - Windows authentication - SQL Server authentication                                                                                                                                                                                                     |
     | User name           | Specify the account to be used to connect to the SQL Server instance. This account must be granted the **database owner (db_owner)** role and the dbcreator server role.                                                                                                                                                                       |

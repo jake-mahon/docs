@@ -5,7 +5,7 @@ to work with searches to address specific tasks.
 
 **NOTE:** To manage the search requests, users require sufficient access rights that are assigned by
 the **Super User** (DSAR Administrator). See
-[DSAR Roles](/versioned_docs/dataclassification_5.6.2/ndc/dsar/dsar_roles.md) for details on the
+[DSAR Roles](/docs/dataclassification/5.6.2/ndc/dsar/dsar_roles.md) for details on the
 available roles, their rights and permissions.
 
 ## Customize View
@@ -14,7 +14,7 @@ You can filter your requests by status. Select one of the following under Displa
 
 - Active – shows all requests with "_Processed_" status (default view).
 - Completed – shows all completed requests. Review the
-  [View Search Query Results](/versioned_docs/dataclassification_5.6.2/ndc/dsar/dsar_view_search_results.md)
+  [View Search Query Results](/docs/dataclassification/5.6.2/ndc/dsar/dsar_view_search_results.md)
   section for instructions on how to complete your request.
 - Canceled – shows all canceled requests. [See Cancel Search for more information.](#cancel-search)
 - All – shows all search requests.

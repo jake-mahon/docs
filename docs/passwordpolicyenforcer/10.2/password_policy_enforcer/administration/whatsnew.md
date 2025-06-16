@@ -24,7 +24,7 @@ Netwrix Labs . Offers options to apply scheduling and triggers. This feature rep
 Passwords Downloader (PPD) and the HIBP Prep Tool to simplify updating the HIBP hash list.
 
 See the
-[HIBP Updater](/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/administration/hibpupdater.md)
+[HIBP Updater](/docs/passwordpolicyenforcer/10.2/password_policy_enforcer/administration/hibpupdater.md)
 topic for additional information.
 
 NEW: Password Quality Feedback

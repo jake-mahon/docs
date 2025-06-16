@@ -2,9 +2,9 @@
 
 It is possible to lock out the user in the event that suspicious or unauthorized activity is
 observed, either from the
-[Active Dashboard](/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/dashboard/active.md),
+[Active Dashboard](/docs/privilegesecure/4.1/privilegesecure/accessmanagement/admin/dashboard/active.md),
 or the
-[Live Session Viewer Window](/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/dashboard/window/liveviewer.md).
+[Live Session Viewer Window](/docs/privilegesecure/4.1/privilegesecure/accessmanagement/admin/dashboard/window/liveviewer.md).
 
 Follow the steps to lock a session.
 
@@ -41,5 +41,5 @@ or SSH clients. To unlock an active session, either:
 - From the Live Session Viewer, click the **Unlock** icon.
 
 To unlock an account, see the
-[User, Group, & Application Details Page](/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/policy/page/details/usergroupapplication.md)
+[User, Group, & Application Details Page](/docs/privilegesecure/4.1/privilegesecure/accessmanagement/admin/policy/page/details/usergroupapplication.md)
 topic for additional information.

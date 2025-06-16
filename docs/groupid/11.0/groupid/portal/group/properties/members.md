@@ -35,17 +35,17 @@ days for temporary membership update.
 
 To add member(s) to the group, click **Add**. Enter a search string to locate the object to add as a
 member, or click **Advance** to use the
-[Find Dialog Box](/versioned_docs/groupid_11.0/groupid/portal/search/find.md) for performing a
+[Find Dialog Box](/docs/groupid/11.0/groupid/portal/search/find.md) for performing a
 search.
 
 The selected members get listed in the **Members** grid.
 
 NOTE: This button is disabled for Smart Groups and Dynasties since their memberships is determined
 by the query set on the
-[Group properties - Smart Group/Query Designer tab](/versioned_docs/groupid_11.0/groupid/portal/group/properties/smartgroup.md).
+[Group properties - Smart Group/Query Designer tab](/docs/groupid/11.0/groupid/portal/group/properties/smartgroup.md).
 
 See
-[Schedule periodic membership updates for Smart Groups/Dynasties](/versioned_docs/groupid_11.0/groupid/portal/group/manage/scheduleupdate.md#schedule-periodic-membership-updates-for-smart-groupsdynasties).
+[Schedule periodic membership updates for Smart Groups/Dynasties](/docs/groupid/11.0/groupid/portal/group/manage/scheduleupdate.md#schedule-periodic-membership-updates-for-smart-groupsdynasties).
 
 **Import**
 
@@ -55,7 +55,7 @@ You can also choose to import all members of an existing group or groups to the 
 group.
 
 Click **Import** to launch the **Import Members** wizard for importing group members. See
-[Import Group Members](/versioned_docs/groupid_11.0/groupid/portal/group/properties/importmembers.md)
+[Import Group Members](/docs/groupid/11.0/groupid/portal/group/properties/importmembers.md)
 for information and instructions.
 
 **Export**
@@ -65,7 +65,7 @@ You can export the list of members to an external file. Supported file formats a
 
 Click **Export** to launch the **Export Members** wizard for exporting group members. Select the
 attributes you want to export. For information and instructions, see
-[Export group members](/versioned_docs/groupid_11.0/groupid/portal/group/manage/groupmembershipfunction.md#export-group-members).
+[Export group members](/docs/groupid/11.0/groupid/portal/group/manage/groupmembershipfunction.md#export-group-members).
 
 **Remove All**
 
@@ -77,4 +77,4 @@ To remove an object from the members list, select it and click **Remove**.
 
 See Also
 
-- [Group Properties](/versioned_docs/groupid_11.0/groupid/portal/group/properties/overview.md)
+- [Group Properties](/docs/groupid/11.0/groupid/portal/group/properties/overview.md)

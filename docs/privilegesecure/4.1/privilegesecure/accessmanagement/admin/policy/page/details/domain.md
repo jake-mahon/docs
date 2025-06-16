@@ -25,7 +25,7 @@ The details page shows the following information:
 - Synchronize Now button — Scans the domain for users, groups, members, and computers. The Cancel
   button, which is only visible when scanning can be used to stop the resource scan. This scan can
   also be scheduled from the
-  [Platforms Page](/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/policy/page/platforms/overview.md).
+  [Platforms Page](/docs/privilegesecure/4.1/privilegesecure/accessmanagement/admin/policy/page/platforms/overview.md).
 - Platform — Displays the type of platform, which defines the resource
 - Service Account — Displays the service account associated with the resource
 - Use TLS checkbox — Enables a secure connection to the domain
@@ -44,8 +44,8 @@ commit the modifications. Click **Cancel** to discard the modifications.
 
 The details page has the following tabs:
 
-- [Users Tab for Domain](/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/policy/tab/resources/usersdomain.md)
-- [Groups Tab for Domain](/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/policy/tab/resources/groupsdomain.md)
-- [Computers Tab for Domain](/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/policy/tab/resources/computersdomain.md)
-- [History Tab for Domain](/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/policy/tab/resources/historydomain.md)
-- [Sync Errors Tab for Domain](/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/policy/tab/resources/syncerrorsdomain.md)
+- [Users Tab for Domain](/docs/privilegesecure/4.1/privilegesecure/accessmanagement/admin/policy/tab/resources/usersdomain.md)
+- [Groups Tab for Domain](/docs/privilegesecure/4.1/privilegesecure/accessmanagement/admin/policy/tab/resources/groupsdomain.md)
+- [Computers Tab for Domain](/docs/privilegesecure/4.1/privilegesecure/accessmanagement/admin/policy/tab/resources/computersdomain.md)
+- [History Tab for Domain](/docs/privilegesecure/4.1/privilegesecure/accessmanagement/admin/policy/tab/resources/historydomain.md)
+- [Sync Errors Tab for Domain](/docs/privilegesecure/4.1/privilegesecure/accessmanagement/admin/policy/tab/resources/syncerrorsdomain.md)

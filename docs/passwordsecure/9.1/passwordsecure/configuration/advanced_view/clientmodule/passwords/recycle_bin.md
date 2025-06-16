@@ -17,4 +17,4 @@ You will then be asked if you actually want to perform this action.
 ## Managing the Recycle Bin
 
 The management of the recycle bin can be found in chapter
-[Bin](/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/advanced_view/mainmenu/extras/trash/trash.md).
+[Bin](/docs/passwordsecure/9.1/passwordsecure/configuration/advanced_view/mainmenu/extras/trash/trash.md).

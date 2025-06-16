@@ -14,7 +14,7 @@ The Configuration tab opens the Configuration interface. Configure console acces
 service account, notification settings, database access, and diagnostic logging level.
 
 This interface is available only to users with the Administrator role. See the
-[Configuration Interface Overview](/versioned_docs/auditor_10.6/access/reviews/admin/configuration/overview.md)
+[Configuration Interface Overview](/docs/auditor/10.6/access/reviews/admin/configuration/overview.md)
 topic for additional information.
 
 For Security Team & Administrator
@@ -26,7 +26,7 @@ Assigned owners can log in to complete reviews.
 
 This interface is available only to users with either the Security Team or Administrator role. See
 the
-[Resource Owners Interface](/versioned_docs/auditor_10.6/access/reviews/resourceowners/interface.md)
+[Resource Owners Interface](/docs/auditor/10.6/access/reviews/resourceowners/interface.md)
 topic for additional information.
 
 The Entitlement Reviews tab opens the Entitlement Reviews interface. Create and manage reviews.
@@ -36,7 +36,7 @@ application to be configured to send notifications.
 
 This interface is available only to users with either the Security Team or Administrator role. See
 the
-[Entitlement Reviews Interface](/versioned_docs/auditor_10.6/access/reviews/entitlementreviews/interface.md)
+[Entitlement Reviews Interface](/docs/auditor/10.6/access/reviews/entitlementreviews/interface.md)
 topic for additional information.
 
 For Assigned Owner
@@ -47,7 +47,7 @@ My Reviews interface at login.
 
 The My Reviews interface is available to any domain user who has been assigned ownership of a
 resource. See the
-[Owners & Access Reviews](/versioned_docs/auditor_10.6/access/reviews/resourceowners/owneroverview.md)
+[Owners & Access Reviews](/docs/auditor/10.6/access/reviews/resourceowners/owneroverview.md)
 topic for additional information.
 
 ## Interface Quick Reference

@@ -112,7 +112,7 @@ fields under any column labeled Password in the header.
 
 **See Also**
 
-- [Create a Job](/versioned_docs/groupid_11.0/groupid/portal/synchronize/job/create.md)
-- [Manage a Job](/versioned_docs/groupid_11.0/groupid/portal/synchronize/manage/job.md)
-- [Transform](/versioned_docs/groupid_11.0/groupid/portal/synchronize/transformation/overview.md)
-- [Objects, Fields and Mapping ](/versioned_docs/groupid_11.0/groupid/portal/synchronize/job/objectfieldsandmapping.md)
+- [Create a Job](/docs/groupid/11.0/groupid/portal/synchronize/job/create.md)
+- [Manage a Job](/docs/groupid/11.0/groupid/portal/synchronize/manage/job.md)
+- [Transform](/docs/groupid/11.0/groupid/portal/synchronize/transformation/overview.md)
+- [Objects, Fields and Mapping ](/docs/groupid/11.0/groupid/portal/synchronize/job/objectfieldsandmapping.md)

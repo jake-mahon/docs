@@ -13,6 +13,6 @@ The table has the following columns:
 
 - Name — Displays the name of the group the user is a member of
 - Host — Resource where the local group resides. Click the link to view
-  [Host Details Page](/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/policy/page/details/host.md).
+  [Host Details Page](/docs/privilegesecure/4.1/privilegesecure/accessmanagement/admin/policy/page/details/host.md).
 
 The table columns can be resized and sorted in ascending or descending order.

@@ -35,7 +35,7 @@ Example 2:
 The following command first shows the changes that will be made by executing the command (a
 deletion). The command uses the credentials set in the **$Credentials** environment variable to
 perform the deletion. See the
-[Set the $Credentials Environment Variable](/versioned_docs/groupid_11.0/groupid/managementshell/parameters/setthecredential.md)
+[Set the $Credentials Environment Variable](/docs/groupid/11.0/groupid/managementshell/parameters/setthecredential.md)
 topic for setting credentials in an environment variable.
 
 ```
@@ -44,6 +44,6 @@ Remove-Group -identity "OU=Event Management,OU=Recruiting,DC=HR,DC=Imanami,DC=US
 
 See Also
 
-- [All Commands](/versioned_docs/groupid_11.0/groupid/managementshell/commands.md)
-- [Group Commands](/versioned_docs/groupid_11.0/groupid/managementshell/group/overview.md)
-- [Parameters](/versioned_docs/groupid_11.0/groupid/managementshell/parameters/parameters.md)
+- [All Commands](/docs/groupid/11.0/groupid/managementshell/commands.md)
+- [Group Commands](/docs/groupid/11.0/groupid/managementshell/group/overview.md)
+- [Parameters](/docs/groupid/11.0/groupid/managementshell/parameters/parameters.md)

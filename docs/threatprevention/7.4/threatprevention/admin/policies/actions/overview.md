@@ -50,11 +50,11 @@ alert. Reporting uses the events database.
 This action is added by selecting the desired SIEM profile to be the recipient of the SIEM
 notifications from the drop-down menu. Only SIEM profiles previously created are available for
 selection. This action can also be assigned within the
-[System Alerting Window](/versioned_docs/threatprevention_7.4/threatprevention/admin/configuration/systemalerting/overview.md).
+[System Alerting Window](/docs/threatprevention/7.4/threatprevention/admin/configuration/systemalerting/overview.md).
 
 **NOTE:** To enable this feature, a Threat Prevention administrator must first establish a
 connection with the SIEM server and configure the mapping file through the
-[System Alerting Window](/versioned_docs/threatprevention_7.4/threatprevention/admin/configuration/systemalerting/overview.md).
+[System Alerting Window](/docs/threatprevention/7.4/threatprevention/admin/configuration/systemalerting/overview.md).
 
 ## Send to Netwrix Threat Manager
 
@@ -65,7 +65,7 @@ purposes.
 
 **NOTE:** To enable this feature, the Web Request Action Module (Netwrix Threat Manager URI) must be
 created and configured by a Threat Prevention administrator through the
-[Event Sink Tab](/versioned_docs/threatprevention_7.4/threatprevention/admin/configuration/threatmanagerconfiguration.md#event-sink-tab)
+[Event Sink Tab](/docs/threatprevention/7.4/threatprevention/admin/configuration/threatmanagerconfiguration.md#event-sink-tab)
 on the Netwrix Threat Manager Configuration window.
 
 ## Email Notifications
@@ -76,7 +76,7 @@ feature for policies where immediate notification of an event is needed.
 To enable email notifications, select the desired message profile to be recipient of the email
 notifications from the drop-down menu. Only message profiles previously created are available for
 selection. This action can also be assigned on the
-[System Alerting Window](/versioned_docs/threatprevention_7.4/threatprevention/admin/configuration/systemalerting/overview.md).
+[System Alerting Window](/docs/threatprevention/7.4/threatprevention/admin/configuration/systemalerting/overview.md).
 
 ![Actions tab - Email Notifications section](/img/versioned_docs/threatprevention_7.4/threatprevention/admin/policies/actions/emailnotificationssetup.webp)
 
@@ -114,7 +114,7 @@ notifications will not be generated.
 
 **NOTE:** To enable email notifications, the SMTP gateway must first be configured and message
 profiles created by a Threat Prevention  administrator, which is done through the
-[System Alerting Window](/versioned_docs/threatprevention_7.4/threatprevention/admin/configuration/systemalerting/overview.md).
+[System Alerting Window](/docs/threatprevention/7.4/threatprevention/admin/configuration/systemalerting/overview.md).
 
 ## Custom Scripts
 
@@ -127,16 +127,16 @@ In the Actions Configurations area at the top of the tab, assigned File, .NET Sc
 
 See the following topics for additional information:
 
-- [File Actions](/versioned_docs/threatprevention_7.4/threatprevention/admin/policies/actions/file.md)
-- [.NET Script Actions](/versioned_docs/threatprevention_7.4/threatprevention/admin/policies/actions/netscript.md)
+- [File Actions](/docs/threatprevention/7.4/threatprevention/admin/policies/actions/file.md)
+- [.NET Script Actions](/docs/threatprevention/7.4/threatprevention/admin/policies/actions/netscript.md)
 
     - Optionally, custom scripts can be provided through a Netwrix Statement of Work.
 
-- [PowerShell 4.0 Actions](/versioned_docs/threatprevention_7.4/threatprevention/admin/policies/actions/powershell.md)
+- [PowerShell 4.0 Actions](/docs/threatprevention/7.4/threatprevention/admin/policies/actions/powershell.md)
 
     - Optionally, custom scripts can be provided through a Netwrix Statement of Work.
 
 **NOTE:** There are custom scripts created by Netwrix Engineers that execute the notification
 emails. See the
-[Custom Scripts](/versioned_docs/threatprevention_7.4/threatprevention/admin/templates/folder/actions.md#custom-scripts)
+[Custom Scripts](/docs/threatprevention/7.4/threatprevention/admin/templates/folder/actions.md#custom-scripts)
 topic for additional information.

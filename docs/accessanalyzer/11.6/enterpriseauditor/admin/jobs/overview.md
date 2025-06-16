@@ -34,7 +34,7 @@ A green checkmark over a Job or Job Group icon indicates a configuration change 
 job or job group. The global settings configured under the Settings node are inherited down through
 the Jobs tree to the job unless inheritance is broken in a job group’s Settings node, a job’s
 Configure node, or a job’s Properties window. See the
-[Navigating the Console](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/navigate/overview.md)
+[Navigating the Console](/docs/accessanalyzer/11.6/enterpriseauditor/admin/navigate/overview.md)
 for additional information.
 
 ## Job Execution Options

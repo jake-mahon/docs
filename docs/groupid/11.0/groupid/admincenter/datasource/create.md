@@ -327,6 +327,6 @@ GroupID can consume.
 
 See Also
 
-- [ Data Sources](/versioned_docs/groupid_11.0/groupid/admincenter/datasource/overview.md)
-- [Manage a Data Source](/versioned_docs/groupid_11.0/groupid/admincenter/datasource/manage.md)
-- [Data Service](/versioned_docs/groupid_11.0/groupid/admincenter/service/dataservice/overview.md)
+- [ Data Sources](/docs/groupid/11.0/groupid/admincenter/datasource/overview.md)
+- [Manage a Data Source](/docs/groupid/11.0/groupid/admincenter/datasource/manage.md)
+- [Data Service](/docs/groupid/11.0/groupid/admincenter/service/dataservice/overview.md)

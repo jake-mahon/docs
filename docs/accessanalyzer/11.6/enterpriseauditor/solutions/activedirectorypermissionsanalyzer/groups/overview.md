@@ -7,8 +7,8 @@ the targeted domains.
 
 The jobs in the 2.Groups Job Group are:
 
-- [AD_GroupMembershipPermissions Job](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/activedirectorypermissionsanalyzer/groups/ad_groupmembershippermissions.md)
+- [AD_GroupMembershipPermissions Job](/docs/accessanalyzer/11.6/enterpriseauditor/solutions/activedirectorypermissionsanalyzer/groups/ad_groupmembershippermissions.md)
   – Highlights all Active Directory users that are capable of modifying group membership within the
   targeted domains
-- [AD_GroupPermissions Job](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/activedirectorypermissionsanalyzer/groups/ad_grouppermissions.md)
+- [AD_GroupPermissions Job](/docs/accessanalyzer/11.6/enterpriseauditor/solutions/activedirectorypermissionsanalyzer/groups/ad_grouppermissions.md)
   – Reports on all Active Directory permissions applied to group objects within the targeted domains

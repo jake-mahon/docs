@@ -6,13 +6,13 @@ the account used to connect to and enumerate SharePoint. The service account cre
 need to be a member of the Log on as a service local policy. Additionally, the credentials provided
 for Step 5 should also be a part of the Connection Profile used by the SharePoint Solution within
 the Enterprise Auditor Console. See the
-[SharePoint Scan Options](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/requirements/solutions/sharepoint/scanoptions.md)
+[SharePoint Scan Options](/docs/accessanalyzer/11.6/enterpriseauditor/requirements/solutions/sharepoint/scanoptions.md)
 topic for detailed permission information.
 
 **NOTE:** If utilizing the SharePoint Agent to scan for Sensitive Data, the 64-bit
 `SensitiveDataAddon.msi` needs to be installed after the SharePoint Agent has been installed on the
 SharePoint server. See the
-[Sensitive Data Discovery Add-On Installation](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/install/sensitivedatadiscovery/overview.md)
+[Sensitive Data Discovery Add-On Installation](/docs/accessanalyzer/11.6/enterpriseauditor/install/sensitivedatadiscovery/overview.md)
 topic for additional information.
 
 Follow the steps to install the SharePoint Agent on the application server which hosts the Central
@@ -51,5 +51,5 @@ the SharePoint Service Account. Click **Next**.
 
 Now that the SharePoint Agent has been installed on the appropriate application server, it can be
 used by the SharePoint Solution. See the
-[SharePoint Solution](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/sharepoint/overview.md)
+[SharePoint Solution](/docs/accessanalyzer/11.6/enterpriseauditor/solutions/sharepoint/overview.md)
 topic for instructions on enabling agent service scans on the Agent Settings page.

@@ -11,9 +11,9 @@ to approve, deny, or defer the changes.
 The Review Administrator may choose to model the requested changes to see how the user's overall
 access will be impacted. Change modeling is conducted through the Resource Audit interface. You can
 access this interface via the **Resource Audit** button on the
-[Review Details Page](/versioned_docs/accessinformationcenter_11.6/access/informationcenter/resourcereviews/interface.md#review-details-page).
+[Review Details Page](/docs/accessinformationcenter/11.6/access/informationcenter/resourcereviews/interface.md#review-details-page).
 See the
-[Model Changes in the AIC](/versioned_docs/accessinformationcenter_11.6/access/informationcenter/resourceaudit/changemodeling/model.md)
+[Model Changes in the AIC](/docs/accessinformationcenter/11.6/access/informationcenter/resourceaudit/changemodeling/model.md)
 topic for additional information.
 
 **CAUTION:** If the Access Information Center has been configured to commit changes to Active
@@ -53,7 +53,7 @@ resource's reports. This is where you can conduct change modeling.
 
 **Step 3 –** By default, the table displays only the recommended changes. Select an item and click
 the desired action button: Accept, Decline, or Defer. The Approval column icon updates. See the
-[View Responses Window](/versioned_docs/accessinformationcenter_11.6/access/informationcenter/resourcereviews/window/viewresponses.md)
+[View Responses Window](/docs/accessinformationcenter/11.6/access/informationcenter/resourcereviews/window/viewresponses.md)
 topic for additional information.
 
 **Step 4 –** Repeat Step 3 until all changes have been processed. Then click **Close**. The View
@@ -66,7 +66,7 @@ Responses window closes.
 - Automatic — If the Access Information Center has been configured to commit AD changes, accepted
   changes were implemented if the prerequisites were met. If this was a Sensitive Data review, you
   may need to export the approved changes and send those to your IT department. See the
-  [Automation Prerequisites](/versioned_docs/accessinformationcenter_11.6/access/informationcenter/resourcereviews/prerequisites.md#automation-prerequisites)
+  [Automation Prerequisites](/docs/accessinformationcenter/11.6/access/informationcenter/resourcereviews/prerequisites.md#automation-prerequisites)
   topic for additional information.
 - Manual — Accepted changes must be implemented outside of the application by your IT department.
   Use the **Export Excel** or **Export CSV** buttons to generate and download an export of accepted
@@ -109,7 +109,7 @@ resolution.
 - Automatic — If the Access Information Center has been configured to commit AD changes, accepted
   changes were implemented if the prerequisites were met. If this was a Sensitive Data review, you
   may need to export the approved changes and send those to your IT department. See the
-  [Automation Prerequisites](/versioned_docs/accessinformationcenter_11.6/access/informationcenter/resourcereviews/prerequisites.md#automation-prerequisites)
+  [Automation Prerequisites](/docs/accessinformationcenter/11.6/access/informationcenter/resourcereviews/prerequisites.md#automation-prerequisites)
   topic for additional information.
 - Manual — Accepted changes must be implemented outside of the application by your IT department.
   Use the **Export Excel** or **Export CSV** buttons to generate and download an export of accepted

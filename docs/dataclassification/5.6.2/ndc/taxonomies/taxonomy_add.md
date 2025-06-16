@@ -8,7 +8,7 @@ Review the following procedures:
 ## Uploading Default Taxonomy
 
 For the full list of supported taxonomies, refer to
-[Built-in Taxonomies Overview ](/versioned_docs/dataclassification_5.6.2/ndc/taxonomies/standalone_taxonomies.md).
+[Built-in Taxonomies Overview ](/docs/dataclassification/5.6.2/ndc/taxonomies/standalone_taxonomies.md).
 
 1. In administrative web console, navigate to Taxonomies → Global Settings.
 2. Navigate to Loaded Taxonomies, select Add Taxonomies.

@@ -7,7 +7,7 @@ user name).
 
 It displays your license information and details about the third party components used by the
 application. It also allows you to upload a new license file. See the
-[Import the License File](/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/importlicense.md)
+[Import the License File](/docs/privilegesecure/4.1/privilegesecure/accessmanagement/admin/importlicense.md)
 topic for additional information.
 
 ## License Information

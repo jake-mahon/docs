@@ -41,7 +41,7 @@ Collector Wizard opens.
 ![Exchange Metrics Data Collector Wizard Message Activity Filter page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/exchange/hubmetrics/collection/exchangemetricsmessageactivityfilter.webp)
 
 **Step 4 –** Navigate to the
-[ExchangeMetrics: Message Activity Filter](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/exchangemetrics/messageactivityfilter.md)
+[ExchangeMetrics: Message Activity Filter](/docs/accessanalyzer/11.6/enterpriseauditor/admin/datacollector/exchangemetrics/messageactivityfilter.md)
 page to configure the internal domains from which to collect the sender to recipient traffic. The
 filter should remain **Ends With**. Replace the `@netwrix.com` variable for both the **Senders** and
 **Recipients** with the `@domain.com` variable to be audited.
@@ -68,7 +68,7 @@ The following analysis tasks are selected by default:
 
     - By default set to retain **6 months**
     - This retention period can be modified. See the
-      [Exchange History Retention](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/exchange/hubmetrics/collection/ex_metricscollection.md#exchange-history-retention)
+      [Exchange History Retention](/docs/accessanalyzer/11.6/enterpriseauditor/solutions/exchange/hubmetrics/collection/ex_metricscollection.md#exchange-history-retention)
       topic for additional information.
 
 The following analysis task clears table data from data collection and analysis jobs. This analysis
@@ -80,5 +80,5 @@ troubleshooting and cleanup only. Data will be deleted from the database.
 -   0. DROP HISTORY - LEAVE UNCHECKED – Clears all historical data
 
     - See the
-      [Troubleshooting Data Collection](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/exchange/hubmetrics/collection/ex_metricscollection.md#troubleshooting-data-collection)
+      [Troubleshooting Data Collection](/docs/accessanalyzer/11.6/enterpriseauditor/solutions/exchange/hubmetrics/collection/ex_metricscollection.md#troubleshooting-data-collection)
       topic for additional information

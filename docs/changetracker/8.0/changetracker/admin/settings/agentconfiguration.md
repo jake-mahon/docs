@@ -3,7 +3,7 @@
 There are multiple ways to set values in an agent's configuration file on installation. Once an
 agent has been configured and has successfully registered with the Hub, its configuration can be
 managed remotely with the Agent Updates tab.See the
-[Agent Installation](/versioned_docs/changetracker_8.0/changetracker/install/agent/overview.md)
+[Agent Installation](/docs/changetracker/8.0/changetracker/install/agent/overview.md)
 topic for additional information.
 
 Follow these steps to update the agent hub configuration.

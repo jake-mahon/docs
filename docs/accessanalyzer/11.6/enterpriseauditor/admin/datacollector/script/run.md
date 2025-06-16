@@ -18,5 +18,5 @@ menu.
 page and add the script to run.
 
 See the
-[VBScript Editor](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/script/editor.md)
+[VBScript Editor](/docs/accessanalyzer/11.6/enterpriseauditor/admin/datacollector/script/editor.md)
 topic for additional information.

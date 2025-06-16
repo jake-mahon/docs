@@ -3,7 +3,7 @@
 How to connect to Usercube's SaaS environment to set up the development environment.
 
 When using Usercube's on-premise option, follow the procedure of
-[installation of the bootstrap version](/versioned_docs/usercube_6.1/usercube/installation-guide/quick-start/index.md).
+[installation of the bootstrap version](/docs/usercube/6.1/usercube/installation-guide/quick-start/index.md).
 
 ## Overview
 
@@ -34,4 +34,4 @@ screens.
 ## Next Steps
 
 Once the development environment is ready, integrators can start
-[creating the workforce directory](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/initial-identities-loading/index.md).
+[creating the workforce directory](/docs/usercube/6.1/usercube/user-guide/set-up/initial-identities-loading/index.md).

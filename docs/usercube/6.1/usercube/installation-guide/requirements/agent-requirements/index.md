@@ -28,10 +28,10 @@ installed, no further installation is required.
 
 In this case, the agent working directory is the same as the server working directory, and both the
 agent's and server's
-[`appsettings`](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/appsettings/index.md)
+[`appsettings`](/docs/usercube/6.1/usercube/integration-guide/network-configuration/agent-configuration/appsettings/index.md)
 share the same configuration. The `appsettings.agent` configuration set is still configured through
 environment variables or via a separate
-[`appsettings.agent.json`](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/appsettings-agent/index.md)
+[`appsettings.agent.json`](/docs/usercube/6.1/usercube/integration-guide/network-configuration/agent-configuration/appsettings-agent/index.md)
 file stored next to the `Usercube-Server.exe` executable, in the common working directory.
 
 ## Service Accounts
@@ -50,23 +50,23 @@ or a custom
 ### Working directory permissions
 
 The agent's service account needs specific permissions on the
-[working directory](/versioned_docs/usercube_6.1/usercube/installation-guide/production-ready/working-directory/index.md):
+[working directory](/docs/usercube/6.1/usercube/installation-guide/production-ready/working-directory/index.md):
 
 - _Read_ and _List folder contents_ on the working directory;
 - _Read & Execute_ and _List folder contents_ on the
-  [`Runtime` directory](/versioned_docs/usercube_6.1/usercube/installation-guide/production-ready/working-directory/index.md),
+  [`Runtime` directory](/docs/usercube/6.1/usercube/installation-guide/production-ready/working-directory/index.md),
   usually `C:/Usercube<Organization>/Runtime`, in order to run the agent executable;
 - _Read_ and _List folder contents_ on the directory for provisioning orders, whose path depends on
   the
-  [`Work` folder's path](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/appsettings/index.md);
+  [`Work` folder's path](/docs/usercube/6.1/usercube/integration-guide/network-configuration/agent-configuration/appsettings/index.md);
 - _Read_, _List folder contents_, and _Write_ on the directory for data collection, whose path
   depends on the
-  [`Work` folder's path](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/appsettings/index.md).
+  [`Work` folder's path](/docs/usercube/6.1/usercube/integration-guide/network-configuration/agent-configuration/appsettings/index.md).
 
 Other permissions should be denied.
 
 > **FAQ**:
-> [How to set up directory permissions in Windows Server?](/versioned_docs/usercube_6.1/usercube/installation-guide/production-ready/server.md)
+> [How to set up directory permissions in Windows Server?](/docs/usercube/6.1/usercube/installation-guide/production-ready/server.md)
 
 ### Managed systems' permissions
 
@@ -82,12 +82,12 @@ Before going further, make sure the integration team has provided:
 - The list of all managed systems;
 - service accounts with the necessary permissions for the agent to perform _Read_ and/or _Write_
   operations on the systems associated with a connector allowing respectively
-  [synchronization and/or provisioning](/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/index.md);
+  [synchronization and/or provisioning](/docs/usercube/6.1/usercube/integration-guide/connectors/index.md);
 - service accounts' credentials.
 
 Managed systems credentials are stored in the
-[`appsettings.agent` configuration set](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/appsettings-agent/index.md)
-and can be [protected](/versioned_docs/usercube_6.1/usercube/integration-guide/modules/index.md).
+[`appsettings.agent` configuration set](/docs/usercube/6.1/usercube/integration-guide/network-configuration/agent-configuration/appsettings-agent/index.md)
+and can be [protected](/docs/usercube/6.1/usercube/integration-guide/modules/index.md).
 
 ### Database permissions
 
@@ -112,7 +112,7 @@ communication with the server.
 ## Emails
 
 The agent needs access to an SMTP server to send
-[email notifications](/versioned_docs/usercube_6.1/usercube/installation-guide/production-ready/email-server/index.md).
+[email notifications](/docs/usercube/6.1/usercube/installation-guide/production-ready/email-server/index.md).
 
 ## Encryption Key Pair
 
@@ -143,6 +143,6 @@ The key pair can be generated with tools such as
 ## What's Next?
 
 To start the installation, follow either the
-[quick start guide](/versioned_docs/usercube_6.1/usercube/installation-guide/quick-start/index.md)
+[quick start guide](/docs/usercube/6.1/usercube/installation-guide/quick-start/index.md)
 or the
-[production-ready installation guide](/versioned_docs/usercube_6.1/usercube/installation-guide/production-ready/index.md).
+[production-ready installation guide](/docs/usercube/6.1/usercube/installation-guide/production-ready/index.md).

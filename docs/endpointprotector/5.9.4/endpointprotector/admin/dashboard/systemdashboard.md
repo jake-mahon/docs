@@ -12,7 +12,7 @@ ticket through the
 [Netwrix Customer Portal](https://www.netwrix.com/sign_in.html?rf=my_products.html).
 
 For detailed information on settings change or creating additional administrators, refer to the
-[System Configuration](/versioned_docs/endpointprotector_5.9.4/endpointprotector/admin/systemconfiguration/overview.md)
+[System Configuration](/docs/endpointprotector/5.9.4/endpointprotector/admin/systemconfiguration/overview.md)
 topic.
 
 ![Page for default login credentials for the root account](/img/versioned_docs/threatprevention_7.4/threatprevention/eperestsite/login.webp)
@@ -32,7 +32,7 @@ inactivity. If you are not active for this amount of time, you are notiﬁed the
 and logged out unless you select to continue the session.
 
 **NOTE:** You can customize the session timeout and timeout counter from the
-[System Configuration](/versioned_docs/endpointprotector_5.9.4/endpointprotector/admin/systemconfiguration/overview.md)
+[System Configuration](/docs/endpointprotector/5.9.4/endpointprotector/admin/systemconfiguration/overview.md)
 topic.
 
 ![The Conﬁguration Wizard provides you with several steps to deﬁne basic settings](/img/versioned_docs/auditor_10.6/auditor/addon/privilegeduserlinux/configwizard.webp)

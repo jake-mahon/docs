@@ -3,13 +3,13 @@
 The ExchangePublicFolder Data Collector audits an Exchange Public Folder, including contents,
 permissions, ownership, and replicas. This is a MAPI-based data collector which requires the
 **Settings > Exchange** node to be enabled and configured. See the
-[Exchange](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/settings/exchange.md)
+[Exchange](/docs/accessanalyzer/11.6/enterpriseauditor/admin/settings/exchange.md)
 topic for additional information.
 
 The ExchangePublicFolder Data Collector has been preconfigured within the Exchange Solution. Both
 this data collector and the solution are available with a special Enterprise Auditor license. See
 the
-[Exchange Solution](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/exchange/overview.md)
+[Exchange Solution](/docs/accessanalyzer/11.6/enterpriseauditor/solutions/exchange/overview.md)
 topic for additional information.
 
 Protocols
@@ -41,12 +41,12 @@ The ExchangePublicFolder Data Collector is configured through the Exchange Publi
 Collector Wizard, which contains the following wizard pages:
 
 - Welcome
-- [ExchangePublicFolder: Category](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/exchangepublicfolder/category.md)
-- [ExchangePublicFolder: Scope](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/exchangepublicfolder/scope.md)
-- [ExchangePublicFolder: Properties](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/exchangepublicfolder/properties.md)
-- [ExchangePublicFolder: Options](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/exchangepublicfolder/options.md)
-- [ExchangePublicFolder: Probable Owner](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/exchangepublicfolder/probableowner.md)
-- [ExchangePublicFolder: Summary](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/exchangepublicfolder/summary.md)
+- [ExchangePublicFolder: Category](/docs/accessanalyzer/11.6/enterpriseauditor/admin/datacollector/exchangepublicfolder/category.md)
+- [ExchangePublicFolder: Scope](/docs/accessanalyzer/11.6/enterpriseauditor/admin/datacollector/exchangepublicfolder/scope.md)
+- [ExchangePublicFolder: Properties](/docs/accessanalyzer/11.6/enterpriseauditor/admin/datacollector/exchangepublicfolder/properties.md)
+- [ExchangePublicFolder: Options](/docs/accessanalyzer/11.6/enterpriseauditor/admin/datacollector/exchangepublicfolder/options.md)
+- [ExchangePublicFolder: Probable Owner](/docs/accessanalyzer/11.6/enterpriseauditor/admin/datacollector/exchangepublicfolder/probableowner.md)
+- [ExchangePublicFolder: Summary](/docs/accessanalyzer/11.6/enterpriseauditor/admin/datacollector/exchangepublicfolder/summary.md)
 
 The query requires special permissions to connect to target Exchange servers. Configure these
 permissions on the Welcome page.
@@ -65,7 +65,7 @@ break inheritance, and then select one of the following options:
 - Client Access Server – Enter the CAS
 
 See the
-[Exchange](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/settings/exchange.md)
+[Exchange](/docs/accessanalyzer/11.6/enterpriseauditor/admin/settings/exchange.md)
 topic for additional information.
 
 In the Sampling server section, enter the Exchange server in the textbox to be used to test the

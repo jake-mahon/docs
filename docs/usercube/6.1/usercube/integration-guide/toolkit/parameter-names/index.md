@@ -62,6 +62,6 @@ For example, dimensions are identified by a number going from 0 to 127 in decima
 0 to 3V in base32hex representation.
 
 The
-[ContextRules](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/provisioning/contextrule/index.md)
+[ContextRules](/docs/usercube/6.1/usercube/integration-guide/toolkit/xml-configuration/provisioning/contextrule/index.md)
 support _128_ dimension parameters going from `B0` to `B3V` using the **base32hex**`0` to `3V`
 numbers to identify a dimension.

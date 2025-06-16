@@ -21,12 +21,12 @@ The `NPS.zip` file that can be downloaded from the Netwrix Customer portal conta
 
     - Enablement Toolkit.exe – Installs a utility that offers a GUI for common testing scenarios
       used when troubleshooting the application. See the
-      [Troubleshooting](/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/troubleshooting.md)
+      [Troubleshooting](/docs/privilegesecure/4.1/privilegesecure/accessmanagement/admin/troubleshooting.md)
       topic for additional information.
     - NPS.ActionService.exe – Installs the NPS Action Service nodes. By default, this service is
       installed on the application server. This executable can be copied to other servers to install
       the service. See the
-      [Action Service Install](/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/install/actionservice.md)
+      [Action Service Install](/docs/privilegesecure/4.1/privilegesecure/accessmanagement/install/actionservice.md)
       topic for additional information.
     - NPS.DbCfg.msi – Installs NPS Windows database configuration
     - NPS.exe – Installs the Privilege Secure application. By default, this installer is run as part
@@ -41,7 +41,7 @@ The `NPS.zip` file that can be downloaded from the Netwrix Customer portal conta
 
         **NOTE:** Use this installer if you are not using the Netwrix Setup Launcher. Run the
         installer as an administrator and follow the
-        [Install Application](/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/install/setuplauncher.md#install-application)
+        [Install Application](/docs/privilegesecure/4.1/privilegesecure/accessmanagement/install/setuplauncher.md#install-application)
         instructions, starting with Step 2.
 
     - NPS.HaMgr.exe – Installs the High Availability Management tool. If high availability setup is
@@ -53,19 +53,19 @@ The `NPS.zip` file that can be downloaded from the Netwrix Customer portal conta
       MSI format. By default, this service is installed on the application server. This executable
       can be copied to other servers to install the service. The MSI can be used with a software
       deployment tool. See the
-      [Proxy Service Install](/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/install/proxyservice.md)
+      [Proxy Service Install](/docs/privilegesecure/4.1/privilegesecure/accessmanagement/install/proxyservice.md)
       topic for additional information.
     - NPS.SchedulerService.exe – Installs the NPS Scheduler Service nodes. By default, this service
       is installed on the application server. This executable can be copied to other servers to
       install the service. See the
-      [Scheduler Service Install](/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/install/schedulerservice.md)
+      [Scheduler Service Install](/docs/privilegesecure/4.1/privilegesecure/accessmanagement/install/schedulerservice.md)
       topic for additional information.
     - NPS.SiemService.exe – Installs the NPS SIEM Service nodes. This executable can be copied to
       other servers to install the service. See the SIEM Service Install topic for additional
       information.
     - NPS.TSMon.exe – Installs the Netwrix Privilege Secure Remote Desktop Service. This service is
       used to monitor Windows events during an RDP session. See the
-      [Install Remote Desktop Monitor Service on Target RDP Hosts](/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/install/rdpmonitor.md)
+      [Install Remote Desktop Monitor Service on Target RDP Hosts](/docs/privilegesecure/4.1/privilegesecure/accessmanagement/install/rdpmonitor.md)
       topic for additional information.
     - SbPAMPowershellModules.msi – Installs the Netwrix Privilege Secure PowerShell modules. These
       modules allow for custom PowerShell scripting tasks to be run against the application API.
@@ -82,28 +82,28 @@ The `NPS.zip` file that can be downloaded from the Netwrix Customer portal conta
 
         **NOTE:** Use this installer if you are not using the Netwrix Setup Launcher. Run the
         installer as an administrator and follow the
-        [Install PostgreSQL Database](/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/install/setuplauncher.md#install-postgresql-database)
+        [Install PostgreSQL Database](/docs/privilegesecure/4.1/privilegesecure/accessmanagement/install/setuplauncher.md#install-postgresql-database)
         instructions, starting with Step 2.
 
 **_RECOMMENDED:_** Antivirus software should be disabled during the component installation.
 
 The Netwrix Setup Launcher checks for prerequisites and installs both the database and application
 on the sames server. See the
-[Netwrix Setup Launcher](/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/install/setuplauncher.md)
+[Netwrix Setup Launcher](/docs/privilegesecure/4.1/privilegesecure/accessmanagement/install/setuplauncher.md)
 topic for instructions. If the desire is to install the database on a different server, use the
 appropriate EXE files from the Extras folder.
 
 The application also has a silent installation option. When installing by command line, the
 directory path is respected only when the installer is run in silent mode. See the
-[Application Silent Installer Option](/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/install/silent.md)
+[Application Silent Installer Option](/docs/privilegesecure/4.1/privilegesecure/accessmanagement/install/silent.md)
 topic for additional information.
 
 There is also a Browser Extension that can be installed for Privilege Secure users. See the
-[Browser Extension App](/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/enduser/browserextension/browserextension.md)
+[Browser Extension App](/docs/privilegesecure/4.1/privilegesecure/accessmanagement/enduser/browserextension/browserextension.md)
 topic for additional information.
 
 _Remember,_ Privilege Secure licensing is done according to user count. Any user who is provisioned
 access to Privilege Secure will consume a license after their first login. This is true for all
 users, regardless of role (Administrator, Reviewer, User, or Custom Role). See
-[Import the License File](/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/importlicense.md)
+[Import the License File](/docs/privilegesecure/4.1/privilegesecure/accessmanagement/admin/importlicense.md)
 topic for additional information.

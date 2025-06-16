@@ -4,7 +4,7 @@ Use the List of Collections window to add new items to a collection as well as e
 existing items.
 
 Click **Configuration** > **Collections** on the menu to launch the
-[Collection Manager Window](/versioned_docs/threatprevention_7.4/threatprevention/admin/configuration/collectionmanager/overview.md).
+[Collection Manager Window](/docs/threatprevention/7.4/threatprevention/admin/configuration/collectionmanager/overview.md).
 Then either double-click a Collection or select a Collection and click the Manage button to open the
 List of Collections window.
 
@@ -31,7 +31,7 @@ Follow the steps to add a static collection.
 - The _I will provide a list_ option button enables the default setting for a static collection.
 - The _I want a list to come from the database table_ option button enables a dynamic collection.
   Enter the table name in the textbox that appears or select it from the drop-down menu. See the
-  [Dynamic Collections](/versioned_docs/threatprevention_7.4/threatprevention/admin/configuration/collectionmanager/dynamic.md)
+  [Dynamic Collections](/docs/threatprevention/7.4/threatprevention/admin/configuration/collectionmanager/dynamic.md)
   topic for additional information.
 
 **Step 3 –** Provide a unique, descriptive name for the collection in the name box.
@@ -46,7 +46,7 @@ populated when collections are created or changed.
 The Select… window opens. Select a server/Agent from the drop-down menu and click **Connect**.
 Expand the domain tree in the navigation pane. Select an item in the Results pane on the right and
 click **OK**. See the
-[Selection Windows](/versioned_docs/threatprevention_7.4/threatprevention/admin/policies/eventtype/window/overview.md)
+[Selection Windows](/docs/threatprevention/7.4/threatprevention/admin/policies/eventtype/window/overview.md)
 topic for additional information.
 
 ![Select window](/img/versioned_docs/threatprevention_7.4/threatprevention/admin/configuration/collectionmanager/selectadobjects.webp)
@@ -54,7 +54,7 @@ topic for additional information.
 Use the **Remove** (x) button to remove Items from the list on the Add New Collection window.
 
 Some collection can be configured to be dynamic collections. See the
-[Dynamic Collections](/versioned_docs/threatprevention_7.4/threatprevention/admin/configuration/collectionmanager/dynamic.md)
+[Dynamic Collections](/docs/threatprevention/7.4/threatprevention/admin/configuration/collectionmanager/dynamic.md)
 topic for additional information. The Perpetrators and Lockdown Perpetrators collections also have
 the option to expand group membership. See the
 [Expand Groups Option for Perpetrators & Objects Collection](#expand-groups-option-for-perpetrators--objects-collection)

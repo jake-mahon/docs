@@ -9,7 +9,7 @@ hostname of the evaluation server.
 
 You should install an SSL certificate on the web server when using Password Reset on a production
 network with real passwords. See the
-[Securing Password Reset](/versioned_docs/passwordreset_3.23/password_reset/administration/securing_password_reset.md)
+[Securing Password Reset](/docs/passwordreset/3.23/password_reset/administration/securing_password_reset.md)
 topic for additional information.
 
 ## Enrolling into Password Reset
@@ -80,5 +80,5 @@ respective field. Click **Next**.
 Password Reset's user interface is built with customizable templates. You can easily modify the user
 interface by editing the templates. Even the error messages are defined in the templates, so you can
 edit those too. See the
-[Editing the HTML Templates](/versioned_docs/passwordreset_3.23/password_reset/administration/editing_the_html_templates.md)
+[Editing the HTML Templates](/docs/passwordreset/3.23/password_reset/administration/editing_the_html_templates.md)
 topic of the Administrator's Guide for additional information.

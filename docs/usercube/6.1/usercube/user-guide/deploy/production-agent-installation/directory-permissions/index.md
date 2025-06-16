@@ -54,4 +54,4 @@ Set the working directory's permissions by proceeding as follows:
 ## Next Steps
 
 To continue,
-[finalize the installation in a few steps](/versioned_docs/usercube_6.1/usercube/user-guide/deploy/production-agent-installation/finalization/index.md).
+[finalize the installation in a few steps](/docs/usercube/6.1/usercube/user-guide/deploy/production-agent-installation/finalization/index.md).

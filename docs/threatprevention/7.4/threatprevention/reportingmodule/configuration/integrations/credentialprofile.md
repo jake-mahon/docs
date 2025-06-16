@@ -15,7 +15,7 @@ The table displays the user name for each profile. To view profile details or ma
 select a profile from the table or under Credential Profile in the navigation pane.
 
 See the
-[Reporting Module Server Requirements](/versioned_docs/threatprevention_7.4/threatprevention/requirements/reportingserver.md)
+[Reporting Module Server Requirements](/docs/threatprevention/7.4/threatprevention/requirements/reportingserver.md)
 topic for a list of permission requirements for each type of task.
 
 Best Practice Recommendation

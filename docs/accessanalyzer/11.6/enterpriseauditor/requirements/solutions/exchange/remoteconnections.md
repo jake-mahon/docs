@@ -19,7 +19,7 @@ on default settings):
       Rights
 
 - Permissions required by the ExchangePS Data Collector. See the
-  [Exchange PowerShell Permissions](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/requirements/solutions/exchange/powershell.md)
+  [Exchange PowerShell Permissions](/docs/accessanalyzer/11.6/enterpriseauditor/requirements/solutions/exchange/powershell.md)
   topic for additional information.
 
 Applet Permissions

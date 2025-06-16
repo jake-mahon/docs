@@ -8,4 +8,4 @@ In an Active Directory identity stores, you can create the following types of us
 
 See Also
 
-- [User Management](/versioned_docs/groupid_11.0/groupid/portal/user/overview.md)
+- [User Management](/docs/groupid/11.0/groupid/portal/user/overview.md)

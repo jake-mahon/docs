@@ -6,7 +6,7 @@ reset their password at an exorbitant cost or have a self-service tool. GroupID 
 functions. Using it:
 
 - **Helpdesk**: can reset passwords and unlock accounts for users after authentication. See the
-  [Reset Passwords](/versioned_docs/groupid_11.0/groupid/admincenter/helpdesk/operation/resetpassword.md)
+  [Reset Passwords](/docs/groupid/11.0/groupid/admincenter/helpdesk/operation/resetpassword.md)
   topic for detailed information.
 - **Users**: can reset their own passwords and their own accounts after passing multifactor
   authentication. They can perform these password related functions through various mediums, such
@@ -15,16 +15,16 @@ functions. Using it:
     - **GroupID portal**: Using it, they can:
 
         - reset their forgotten passwords. See the
-          [Reset Passwords](/versioned_docs/groupid_11.0/groupid/portal/user/authentication/passwordreset.md)
+          [Reset Passwords](/docs/groupid/11.0/groupid/portal/user/authentication/passwordreset.md)
           topic for further information on how to reset forgotten passwords.
         - change their account passwords. See the
-          [ Change your password](/versioned_docs/groupid_11.0/groupid/portal/user/manage/changepassword.md)
+          [ Change your password](/docs/groupid/11.0/groupid/portal/user/manage/changepassword.md)
           topic for further information on how to change their account passwords.
         - reset their own password or password of any other user. See the
-          [Reset your password](/versioned_docs/groupid_11.0/groupid/portal/user/manage/resetpassword.md)
+          [Reset your password](/docs/groupid/11.0/groupid/portal/user/manage/resetpassword.md)
           topic for further information.
         - unlock their identity store account. See the
-          [Unlock your accounts](/versioned_docs/groupid_11.0/groupid/portal/user/manage/unlockaccount.md)
+          [Unlock your accounts](/docs/groupid/11.0/groupid/portal/user/manage/unlockaccount.md)
           topic for detailed information on how to unlock their identity store accounts.
 
     - **GroupID app**: Using it, they can:
@@ -36,10 +36,10 @@ functions. Using it:
     - **Client Software and Web Access**
 
         The client software to install on user workstations is called
-        [ GroupID Credential Provider](/versioned_docs/groupid_11.0/groupid/portal/user/manage/credentialprovider.md)
+        [ GroupID Credential Provider](/docs/groupid/11.0/groupid/portal/user/manage/credentialprovider.md)
         and available for distribution using various IT enabled distribution methods such as group
         policy and Microsoft System Center Configuration Manager (SCCM). See the
-        [Install GroupID Credential Provider](/versioned_docs/groupid_11.0/groupid/portal/user/manage/installcp.md)
+        [Install GroupID Credential Provider](/docs/groupid/11.0/groupid/portal/user/manage/installcp.md)
         topic for additional information.
 
         The distributed client enables the **Forgot Password?** and **Unlock Account** links on the
@@ -51,6 +51,6 @@ functions. Using it:
 
         Opt for a hassle-free experience by signing into GroupID through QR code as an alternative
         to entering a username and password. See the
-        [With QR Code](/versioned_docs/groupid_11.0/groupid/admincenter/signin.md#with-qr-code)
+        [With QR Code](/docs/groupid/11.0/groupid/admincenter/signin.md#with-qr-code)
         section in the
-        [Access Admin Center](/versioned_docs/groupid_11.0/groupid/admincenter/signin.md) topic.
+        [Access Admin Center](/docs/groupid/11.0/groupid/admincenter/signin.md) topic.

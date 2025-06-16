@@ -14,7 +14,7 @@ applies.
 
 By default, a few attributes (fields) are available in the GroupID portal and the mobile app for
 profile validation. You can add and remove fields as required. See the
-[Manage Property Validation Attributes](/versioned_docs/groupid_11.0/groupid/admincenter/portal/design/propertyvalidation.md)
+[Manage Property Validation Attributes](/docs/groupid/11.0/groupid/admincenter/portal/design/propertyvalidation.md)
 topic.
 
 ## What can Users do While Validating their Profiles?
@@ -44,7 +44,7 @@ When performing profile validation, a user can:
   rejects it, the direct report remains with the manager.
 
 For workflows in an identity store, see the
-[System Workflows](/versioned_docs/groupid_11.0/groupid/admincenter/workflow/overview.md#system-workflows)
+[System Workflows](/docs/groupid/11.0/groupid/admincenter/workflow/overview.md#system-workflows)
 topic.
 
 ## What Happens When Users do not Validate their Profiles?
@@ -199,7 +199,7 @@ You can change the number of reminders to be sent along with their _Before # of 
 User Life Cycle schedule sends reminder notifications to users according to the specified settings.
 
 For email notifications, an SMTP Server must be configured for the identity store. See the an
-[Configure an SMTP Server](/versioned_docs/groupid_11.0/groupid/admincenter/identitystore/configure/smtpserver.md)
+[Configure an SMTP Server](/docs/groupid/11.0/groupid/admincenter/identitystore/configure/smtpserver.md)
 topic.
 
 **To set a new reminder:**
@@ -293,8 +293,8 @@ a newly created object and the validation process for new users will apply to it
 
 **See Also**
 
-- [User Life Cycle Schedule](/versioned_docs/groupid_11.0/groupid/admincenter/schedule/userlifecycle.md)
-- [Manage Property Validation Attributes](/versioned_docs/groupid_11.0/groupid/admincenter/portal/design/propertyvalidation.md)
+- [User Life Cycle Schedule](/docs/groupid/11.0/groupid/admincenter/schedule/userlifecycle.md)
+- [Manage Property Validation Attributes](/docs/groupid/11.0/groupid/admincenter/portal/design/propertyvalidation.md)
   (for the GroupID portal)
-- [Manage Property Validation](/versioned_docs/groupid_11.0/groupid/admincenter/mobileservice/design/propertyvalidation.md)
+- [Manage Property Validation](/docs/groupid/11.0/groupid/admincenter/mobileservice/design/propertyvalidation.md)
   (for the GroupID mobile app)

@@ -27,13 +27,13 @@ configured through the Command Line Utility Data Collector Wizard, which contain
 pages:
 
 - Welcome
-- [CLU: Profile Type](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/commandlineutility/profiletype.md)
-- [CLU: Profile Parameters](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/commandlineutility/profileparameters.md)
-- [CLU: Execution Options](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/commandlineutility/executionoptions.md)
-- [CLU: Define Fields](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/commandlineutility/definefields.md)
-- [CLU: Script Editor](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/commandlineutility/scripteditor.md)
-- [CLU: Results](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/commandlineutility/results.md)
-- [CLU: Summary](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/commandlineutility/summary.md)
+- [CLU: Profile Type](/docs/accessanalyzer/11.6/enterpriseauditor/admin/datacollector/commandlineutility/profiletype.md)
+- [CLU: Profile Parameters](/docs/accessanalyzer/11.6/enterpriseauditor/admin/datacollector/commandlineutility/profileparameters.md)
+- [CLU: Execution Options](/docs/accessanalyzer/11.6/enterpriseauditor/admin/datacollector/commandlineutility/executionoptions.md)
+- [CLU: Define Fields](/docs/accessanalyzer/11.6/enterpriseauditor/admin/datacollector/commandlineutility/definefields.md)
+- [CLU: Script Editor](/docs/accessanalyzer/11.6/enterpriseauditor/admin/datacollector/commandlineutility/scripteditor.md)
+- [CLU: Results](/docs/accessanalyzer/11.6/enterpriseauditor/admin/datacollector/commandlineutility/results.md)
+- [CLU: Summary](/docs/accessanalyzer/11.6/enterpriseauditor/admin/datacollector/commandlineutility/summary.md)
 
 ![Command Line Utility Data Collector Wizard Welcome page](/img/versioned_docs/activitymonitor_7.1/activitymonitor/install/welcome.webp)
 

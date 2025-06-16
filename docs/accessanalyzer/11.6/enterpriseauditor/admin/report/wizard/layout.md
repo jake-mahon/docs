@@ -13,7 +13,7 @@ row, 2 rows, or 3 rows.
 
 The layout for the report has been selected. Each box on the selected tile corresponds to a separate
 widget that you next need to configure on the
-[Widgets Page](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/report/wizard/widgets.md)
+[Widgets Page](/docs/accessanalyzer/11.6/enterpriseauditor/admin/report/wizard/widgets.md)
 page of the Report Configuration wizard.
 
 ## Element Downgrade Editor

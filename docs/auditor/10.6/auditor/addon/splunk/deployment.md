@@ -8,7 +8,7 @@ In the Netwrix Auditor client, go to the Integrations section and verify Integra
 2. Check the TCP communication port number – default is 9699.
 
 See the
-[Configure Integration API Settings](/versioned_docs/auditor_10.6/auditor/api/prerequisites.md#configure-integration-api-settings)[Audit Database](/versioned_docs/auditor_10.6/auditor/admin/settings/auditdatabase.md)topic
+[Configure Integration API Settings](/docs/auditor/10.6/auditor/api/prerequisites.md#configure-integration-api-settings)[Audit Database](/docs/auditor/10.6/auditor/admin/settings/auditdatabase.md)topic
 for additional information.
 
 ## Download the Add-on

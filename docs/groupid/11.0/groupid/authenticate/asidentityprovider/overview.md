@@ -11,7 +11,7 @@ configure GroupID in the service provider.
 
 See Also
 
-- [Authenticate](/versioned_docs/groupid_11.0/groupid/authenticate/overview.md)
-- [Register an Application (Service Provider) in GroupID](/versioned_docs/groupid_11.0/groupid/authenticate/asidentityprovider/register.md)
-- [Specify Default Metadata Values](/versioned_docs/groupid_11.0/groupid/authenticate/asidentityprovider/metadata.md)
-- [Sign In Using GroupID](/versioned_docs/groupid_11.0/groupid/authenticate/asidentityprovider/signin.md)
+- [Authenticate](/docs/groupid/11.0/groupid/authenticate/overview.md)
+- [Register an Application (Service Provider) in GroupID](/docs/groupid/11.0/groupid/authenticate/asidentityprovider/register.md)
+- [Specify Default Metadata Values](/docs/groupid/11.0/groupid/authenticate/asidentityprovider/metadata.md)
+- [Sign In Using GroupID](/docs/groupid/11.0/groupid/authenticate/asidentityprovider/signin.md)

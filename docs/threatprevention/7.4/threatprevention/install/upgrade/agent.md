@@ -6,7 +6,7 @@ The Threat Prevention Agent is updated from the Agents interface.
 must create an exclusion for Threat Prevention using any of these methods:
 
 - Add the path or names of the files listed under Agent Server in the
-  [Antivirus Software Considerations](/versioned_docs/threatprevention_7.4/threatprevention/install/overview.md#antivirus-software-considerations)
+  [Antivirus Software Considerations](/docs/threatprevention/7.4/threatprevention/install/overview.md#antivirus-software-considerations)
   topic in the EDR.
 - Add the hash of the individual files in the EDR. In this case, every time a new Agent version is
   deployed, the hashes change and will have to be updated. If this is not done prior to upgrade, the
@@ -20,9 +20,9 @@ Follow the steps to upgrade a deployed Agent through the Agents interface.
 **Step 1 –** Click **Agents** in the left pane to open the Agents interface.
 
 **Step 2 –** On the
-[Agents Interface](/versioned_docs/threatprevention_7.4/threatprevention/admin/agents/overview.md),
+[Agents Interface](/docs/threatprevention/7.4/threatprevention/admin/agents/overview.md),
 select the desired server/Agent and on the top toolbar, select **Update Agent Installer**. The
-[Agent Installer Update Window](/versioned_docs/threatprevention_7.4/threatprevention/admin/agents/window/agentinstallerupdate.md)
+[Agent Installer Update Window](/docs/threatprevention/7.4/threatprevention/admin/agents/window/agentinstallerupdate.md)
 opens.
 
 **Step 3 –** On the Agent Installer Update window, click **Check for Newer Version of the Netwrix

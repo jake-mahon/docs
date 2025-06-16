@@ -11,10 +11,10 @@ It provides the ability to feed activity data to SIEM products. The following da
 specifically created for Activity Monitor event data:
 
 - For IBM® QRadar®, see the
-  [Netwrix File Activity Monitor App for QRadar](/versioned_docs/activitymonitor_7.1/activitymonitor/siem/qradar/overview.md)
+  [Netwrix File Activity Monitor App for QRadar](/docs/activitymonitor/7.1/activitymonitor/siem/qradar/overview.md)
   for additional information.
 - For Splunk®, see the
-  [File Activity Monitor App for Splunk](/versioned_docs/activitymonitor_7.1/activitymonitor/siem/splunk/overview.md)
+  [File Activity Monitor App for Splunk](/docs/activitymonitor/7.1/activitymonitor/siem/splunk/overview.md)
   for additional information.
 
 It also provides the ability to feed activity data to other Netwrix products:
@@ -24,7 +24,7 @@ It also provides the ability to feed activity data to other Netwrix products:
 
 Prior to adding a Windows host to the Activity Monitor, the prerequisites for the target environment
 must be met. See the
-[Windows File Server Activity Auditing Configuration](/versioned_docs/activitymonitor_7.1/config/windowsfile/activity.md)
+[Windows File Server Activity Auditing Configuration](/docs/activitymonitor/7.1/config/windowsfile/activity.md)
 topic for additional information.
 
 _Remember,_ the Activity Agent must be deployed to the server. It cannot be deployed to a proxy
@@ -157,7 +157,7 @@ Output page can be configured.
     - TLS
 
     The TCP and TLS protocols add the Message framing drop-down menu. See the
-    [Syslog Tab](/versioned_docs/activitymonitor_7.1/activitymonitor/admin/outputs/syslog.md) topic
+    [Syslog Tab](/docs/activitymonitor/7.1/activitymonitor/admin/outputs/syslog.md) topic
     for additional information.
 
 - The Test button sends a test message to the Syslog server to check the connection. A green check
@@ -169,7 +169,7 @@ Output page can be configured.
     - TLS – Shows error if TLS handshake fails
 
     See the
-    [Syslog Tab](/versioned_docs/activitymonitor_7.1/activitymonitor/admin/outputs/syslog.md) topic
+    [Syslog Tab](/docs/activitymonitor/7.1/activitymonitor/admin/outputs/syslog.md) topic
     for additional information.
 
 Click **Finish**.
@@ -178,7 +178,7 @@ Click **Finish**.
 
 The added Windows file server host is displayed in the monitored hosts table. Once a host has been
 added for monitoring, configure the desired ouptuts. See the
-[Output for Monitored Hosts](/versioned_docs/activitymonitor_7.1/activitymonitor/admin/monitoredhosts/output.md)
+[Output for Monitored Hosts](/docs/activitymonitor/7.1/activitymonitor/admin/monitoredhosts/output.md)
 topic for additional information.
 
 ## Host Properties for Windows File Server
@@ -186,9 +186,9 @@ topic for additional information.
 Configuration settings can be edited through the tabs in the host’s Properties window. The
 configurable host properties are:
 
-- [Windows Tab](/versioned_docs/activitymonitor_7.1/activitymonitor/admin/monitoredhosts/properties/windows.md)
-- [Inactivity Alerts Tab](/versioned_docs/activitymonitor_7.1/activitymonitor/admin/monitoredhosts/properties/inactivityalerts.md)
+- [Windows Tab](/docs/activitymonitor/7.1/activitymonitor/admin/monitoredhosts/properties/windows.md)
+- [Inactivity Alerts Tab](/docs/activitymonitor/7.1/activitymonitor/admin/monitoredhosts/properties/inactivityalerts.md)
 
 See the
-[Host Properties Window](/versioned_docs/activitymonitor_7.1/activitymonitor/admin/monitoredhosts/properties/overview.md)
+[Host Properties Window](/docs/activitymonitor/7.1/activitymonitor/admin/monitoredhosts/properties/overview.md)
 topic for additional information.

@@ -12,7 +12,7 @@ The installation of Usercube requires:
     If the certificate is named something other than Usercube.pfx, remember to change the name in
     the Runtime/appsettings.json file too.
 
-- [Database](/versioned_docs/usercube_6.1/usercube/installation-guide/requirements/database-requirements/index.md)-related
+- [Database](/docs/usercube/6.1/usercube/installation-guide/requirements/database-requirements/index.md)-related
   specifications
 
 ## Install the Bootstrap Version
@@ -48,7 +48,7 @@ the future command lines.
 **Step 7 –** Execute the Runtime/Usercube.sql file in the database.
 
 **Step 8 –** Open a command prompt and deploy the configuration. See
-the[ Usercube-Deploy-Configuration ](/versioned_docs/usercube_6.1/usercube/integration-guide/executables/references/deploy-configuration/index.md)topic
+the[ Usercube-Deploy-Configuration ](/docs/usercube/6.1/usercube/integration-guide/executables/references/deploy-configuration/index.md)topic
 for additional information.
 
 In our example, the command would be, in the Runtime folder:
@@ -61,7 +61,7 @@ script in the command line.
 ```
 
 **Step 9 –** Launch the server. See
-the[ Usercube-Server ](/versioned_docs/usercube_6.1/usercube/integration-guide/executables/references/server/index.md)topic
+the[ Usercube-Server ](/docs/usercube/6.1/usercube/integration-guide/executables/references/server/index.md)topic
 for additional information.
 
 In our example, the command would be, still in the Runtime folder:
@@ -86,5 +86,5 @@ From there, you can start setting up Usercube via the **Settings** page which is
 ![Home Page - Settings](/img/versioned_docs/usercube_6.1/usercube/user-guide/set-up/user-profile-configuration/home_settings_v523.webp)
 
 Then, Netwrix recommends following the user guide to start the configuration of your IGA project
-from scratch. See the [User Guide](/versioned_docs/usercube_6.1/usercube/user-guide/index.md)
+from scratch. See the [User Guide](/docs/usercube/6.1/usercube/user-guide/index.md)
 topic for additional information.

@@ -18,7 +18,7 @@ It contains five pages:
     **NOTE:** This feature requires the Access Information Center is to be configured to commit
     changes in Active Directory. Additionally, resource based groups must be set up on the resource.
     See the
-    [Commit Active Directory Changes](/versioned_docs/accessinformationcenter_11.6/access/informationcenter/admin/additionalconfig/commitchanges.md) topic
+    [Commit Active Directory Changes](/docs/accessinformationcenter/11.6/access/informationcenter/admin/additionalconfig/commitchanges.md) topic
     for additional information.
 
 -   5. Summary — This page provides a preview of the settings selected within the wizard
@@ -49,7 +49,7 @@ Follow the steps to add resources one at a time and assign owners.
 
 **Step 3 –** On the Select Owners page, click **Add** to browse for an owner. Repeat this Step to
 add multiple owners. See the
-[Add Owner Window](/versioned_docs/accessinformationcenter_11.6/access/informationcenter/resourceowners/window/addowner.md)
+[Add Owner Window](/docs/accessinformationcenter/11.6/access/informationcenter/resourceowners/window/addowner.md)
 topic for additional information.
 
 ![Add new resources wizard with the 2. Select Owners page showing multiple owners selected](/img/versioned_docs/auditor_10.6/access/reviews/resourceowners/wizard/selectownerswithowners.webp)
@@ -93,7 +93,7 @@ If either option in Step 6 is selected for this resource, it is necessary to set
 least one access level. Select the desired access level and click **Change**. The Select Group
 Window opens. Select the desired group and click **OK**. The Select Group window closes and the
 group appears in the table. Repeat this step for each access level desired. See the
-[Select Group Window](/versioned_docs/accessinformationcenter_11.6/access/informationcenter/resourceowners/window/selectgroup.md)
+[Select Group Window](/docs/accessinformationcenter/11.6/access/informationcenter/resourceowners/window/selectgroup.md)
 topic for additional information.
 
 **Step 8 –** Click **Next** to continue.

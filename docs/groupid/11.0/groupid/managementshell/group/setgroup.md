@@ -3,7 +3,7 @@
 The **Set-Group** commandlet modifies an unmanaged group in directory. However, you can use this
 commandlet to modify those parameters of a Smart Group that are native attributes of an unmanaged
 group in Directory. For modifying Smart Group-specific attributes, you can use the
-[Set-SmartGroup](/versioned_docs/groupid_11.0/groupid/managementshell/smartgroup/setsmartgroup.md)
+[Set-SmartGroup](/docs/groupid/11.0/groupid/managementshell/smartgroup/setsmartgroup.md)
 commandlet.
 
 You can view events related to this commandlet in GroupID portal, against the **History** node in
@@ -93,7 +93,7 @@ Example 2:
 
 The following command expires the group **Training**, using the credentials set in the
 **$Credentials** environment variable. See the
-[Set the $Credentials Environment Variable](/versioned_docs/groupid_11.0/groupid/managementshell/parameters/setthecredential.md)
+[Set the $Credentials Environment Variable](/docs/groupid/11.0/groupid/managementshell/parameters/setthecredential.md)
 topic for setting credentials in an environment variable.
 
 ```
@@ -121,6 +121,6 @@ Set-Group -Identity "CN=Training,OU=Recruiting,DC=HR,DC=Imanami,DC=US" -Remove @
 
 See Also
 
-- [All Commands](/versioned_docs/groupid_11.0/groupid/managementshell/commands.md)
-- [Group Commands](/versioned_docs/groupid_11.0/groupid/managementshell/group/overview.md)
-- [Parameters](/versioned_docs/groupid_11.0/groupid/managementshell/parameters/parameters.md)
+- [All Commands](/docs/groupid/11.0/groupid/managementshell/commands.md)
+- [Group Commands](/docs/groupid/11.0/groupid/managementshell/group/overview.md)
+- [Parameters](/docs/groupid/11.0/groupid/managementshell/parameters/parameters.md)

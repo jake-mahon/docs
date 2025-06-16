@@ -7,7 +7,7 @@ When Privilege Secure creates a managed account on a local system or domain it a
 password. The password that is generated will follow the complexity rules configured in the related
 password policy associated with that platform. The Default policy is used if a password policy
 cannot be determined. See the
-[Platforms Page](/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/policy/page/platforms/overview.md)
+[Platforms Page](/docs/privilegesecure/4.1/privilegesecure/accessmanagement/admin/policy/page/platforms/overview.md)
 topic for additional information.
 
 Password complexity requirements must adhere to any domain or local password policy applied to the
@@ -26,7 +26,7 @@ policies. This pane has the following features:
 - Search — Searches the table or list for matches to the search string. When matches are found, the
   table or list is filtered to the matching results.
 - Blue + button — Create a new password complexity policy. See the
-  [Add Password Complexity Policy](/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/policy/add/passwordcomplexity.md)
+  [Add Password Complexity Policy](/docs/privilegesecure/4.1/privilegesecure/accessmanagement/admin/policy/add/passwordcomplexity.md)
   topic for additional information.
 - Copy icon — Create a new password complexity policy based on the current selection. Icon appears
   when policy is hovered over.

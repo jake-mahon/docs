@@ -26,7 +26,7 @@ Alternatively, configure any RDP / SSH Manager for remote login, including:
 - MS Terminal Services Client (Remote Desktop)
 
 See the
-[Configure DirectConnect for Remote Desktop Connection](/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/enduser/configure/rdcmanager.md)
+[Configure DirectConnect for Remote Desktop Connection](/docs/privilegesecure/4.1/privilegesecure/accessmanagement/enduser/configure/rdcmanager.md)
 topic for additional information.
 
 ## Session Extension

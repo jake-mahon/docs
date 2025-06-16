@@ -11,7 +11,7 @@ review of multiple manual provisioning items for the `Directory_User` entity typ
 
 The scaffolding generates the following scaffoldings:
 
-- [PerformManualProvisioningAccessControlRules](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/rolemodels/performmanualprovisioningaccesscontrolrules/index.md):
+- [PerformManualProvisioningAccessControlRules](/docs/usercube/6.1/usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/rolemodels/performmanualprovisioningaccesscontrolrules/index.md):
   Generates the permissions to access the manual provisioning pages for a given entity type and
   profile.
 

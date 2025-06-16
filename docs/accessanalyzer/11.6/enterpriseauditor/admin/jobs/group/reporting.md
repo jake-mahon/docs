@@ -4,7 +4,7 @@ At the job group level, the **Reporting** node identifies the report publishing 
 configurations assigned for the job group. By default, all job groups are set to inherit the
 reporting settings, the **Use default setting** option, from the global level (**Settings** >
 **Reporting**), or a parent job group. See the
-[Reporting](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/settings/reporting.md)
+[Reporting](/docs/accessanalyzer/11.6/enterpriseauditor/admin/settings/reporting.md)
 topic for additional information.
 
 **NOTE:** If the Role Based Access feature is enabled, it also displays a list of all accounts

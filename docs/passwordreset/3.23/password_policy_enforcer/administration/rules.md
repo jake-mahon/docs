@@ -113,7 +113,7 @@ password during logon. The Warning mode warns users that their password has expi
 them to change it.
 
 Click the E-mail tab to configure the e-mail message options. See the
-[Mailer](/versioned_docs/passwordreset_3.23/password_policy_enforcer/administration/mailer.md) topic
+[Mailer](/docs/passwordreset/3.23/password_policy_enforcer/administration/mailer.md) topic
 for additional information.
 
 Use the Warning and Transitional modes to gradually introduce a new password policy. These modes
@@ -164,14 +164,14 @@ because minimum age requirements are not included in the Password Policy message
 password; they must wait until the required number of days has elapsed. The Password Policy Client
 consequently handles rejections by this rule differently to other rules. Rather than displaying the
 usual message components, the PPC only displays the Minimum Age rule's Reason insert. See
-[Password Policy Client](/versioned_docs/passwordreset_3.23/password_policy_enforcer/administration/password_policy_client.md)
+[Password Policy Client](/docs/passwordreset/3.23/password_policy_enforcer/administration/password_policy_client.md)
 topic for additional information. The Rejection Reason template, macros, and inserts from other
 rules are not displayed when a password change is denied by the Minimum Age rule.
 
 The Minimum Age rule is not enforced during policy testing, but the test log does show the user's
 password age. A log entry is also added if the Minimum Age rule would have rejected the password
 change. See the
-[Managing Policies](/versioned_docs/passwordreset_3.23/password_policy_enforcer/administration/managing_policies.md)
+[Managing Policies](/docs/passwordreset/3.23/password_policy_enforcer/administration/managing_policies.md)
 topic for additional information.
 
 ## Length Rule
@@ -361,7 +361,7 @@ in hexadecimal format (40 characters). Use uppercase hexadecimal characters, and
 the DOS/Windows format with a CR and LF character at the end of each line. Sort the hashes in
 ascending order. The file should not contain any empty lines. Use the Test Policies page to ensure
 the file works correctly. See the
-[Managing Policies](/versioned_docs/passwordreset_3.23/password_policy_enforcer/administration/managing_policies.md)
+[Managing Policies](/docs/passwordreset/3.23/password_policy_enforcer/administration/managing_policies.md)
 topic for additional information.
 
 ### Has File Replication

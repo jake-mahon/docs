@@ -38,7 +38,7 @@ within QRadar.
 
 The File Activity Monitor tab will appear within QRadar. It is necessary for the QRadar SEC token to
 be saved to the Settings interface of the **File Activity Monitor** App. See the
-[Settings](/versioned_docs/activitymonitor_7.1/activitymonitor/siem/qradar/settings.md) topic for
+[Settings](/docs/activitymonitor/7.1/activitymonitor/siem/qradar/settings.md) topic for
 additional information.
 
 ## Initial Configuration of the QRadar App

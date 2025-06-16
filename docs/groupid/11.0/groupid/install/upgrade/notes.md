@@ -10,14 +10,14 @@ upgrading from.
 1. Portals from the source version will not be upgraded to GroupID 11.
 2. To upgrade to GroupID 11 on a different box, the GroupID source version file system must be
    available on the GroupID 11 server. To ensure this, follow step 1 in the
-   [Prerequisites for Upgrade](/versioned_docs/groupid_11.0/groupid/install/upgrade/overview.md#prerequisites-for-upgrade)
+   [Prerequisites for Upgrade](/docs/groupid/11.0/groupid/install/upgrade/overview.md#prerequisites-for-upgrade)
    topic.
 
     The source version file system is required for the following:
 
     - When you create a new portal in GroupID 11, you can import the advanced settings and design
       settings of a Self-Service portal from the source version. See step 12 in the
-      [Create a Portal in Native IIS](/versioned_docs/groupid_11.0/groupid/admincenter/portal/create.md#create-a-portal-in-native-iis)
+      [Create a Portal in Native IIS](/docs/groupid/11.0/groupid/admincenter/portal/create.md#create-a-portal-in-native-iis)
       topic.
     - In the source version, you specified a list of attributes to replicate for an identity store.
       These attributes are saved to a file on the GroupID file system.  
@@ -81,13 +81,13 @@ upgrading from.
    Windows logging mode is set to default, i.e., ‘Error’. After upgrade, it is recommended that you
    go to Replication service settings and change file logging to the ‘Debug’ mode (if required). See
    the
-   [Specify Log Settings for a Service](/versioned_docs/groupid_11.0/groupid/admincenter/service/dataservice/manage.md#specify-log-settings-for-a-service)
+   [Specify Log Settings for a Service](/docs/groupid/11.0/groupid/admincenter/service/dataservice/manage.md#specify-log-settings-for-a-service)
    topic.
 10. In the GroupID source version, log settings for an identity store inherently applied to Date
     service logs. On upgrade to GroupID 11, these log settings are moved to the Data service, with
     the file logging mode set to default, i.e., ‘Error’. To change the mode in GroupID 11, go to
     Data service settings and change it as required. See the
-    [Specify Log Settings for a Service](/versioned_docs/groupid_11.0/groupid/admincenter/service/dataservice/manage.md#specify-log-settings-for-a-service)
+    [Specify Log Settings for a Service](/docs/groupid/11.0/groupid/admincenter/service/dataservice/manage.md#specify-log-settings-for-a-service)
     topic.
 11. The following applies in case of upgrade from GroupID 10 SR1.  
     When the approver in pending workflow requests is a variable, such as managedBy,
@@ -130,4 +130,4 @@ upgrading from.
 
 See Also
 
-- [Upgrade to GroupID 11](/versioned_docs/groupid_11.0/groupid/install/upgrade/upgrade.md)
+- [Upgrade to GroupID 11](/docs/groupid/11.0/groupid/install/upgrade/upgrade.md)

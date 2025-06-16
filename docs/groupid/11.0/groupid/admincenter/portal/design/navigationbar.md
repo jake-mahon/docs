@@ -83,7 +83,7 @@ Note the following:
 8. In the **Access Level** drop-down list, select a security role. The node would be visible to
    users of this role and roles with a priority value higher than this role. For all other users,
    the node would be hidden. See
-   [Priority](/versioned_docs/groupid_11.0/groupid/admincenter/securityrole/manage.md).  
+   [Priority](/docs/groupid/11.0/groupid/admincenter/securityrole/manage.md).  
    Select _Never_ to hide the node for all users.
 9. In the **Tooltip Text** box, enter the text to appear when a user hovers the mouse over the node.
 10. Use the **Icon Class** box to upload the image (icon) to be displayed with the node name.
@@ -202,7 +202,7 @@ that:
 13. In the **Access Level** drop-down list, select a security role. The sub-node would be visible
     for users of this role and roles with a priority value higher than this role. For all other
     users, the sub-node would be hidden. See
-    [Priority](/versioned_docs/groupid_11.0/groupid/admincenter/securityrole/manage.md).  
+    [Priority](/docs/groupid/11.0/groupid/admincenter/securityrole/manage.md).  
     Select _Never_ to hide the sub-node for all users.
 14. Click **OK**.
 15. Click **Save** on the **Navigation Bar** page.
@@ -301,7 +301,7 @@ You can modify the following for a tab:
     5. **Access Level** – Select a security role. The tab would be visible to users of this role and
        roles with a priority value higher than this role. For all other users, the tab would be
        hidden. See
-       [Priority](/versioned_docs/groupid_11.0/groupid/admincenter/securityrole/manage.md).  
+       [Priority](/docs/groupid/11.0/groupid/admincenter/securityrole/manage.md).  
        Select _Never_ to hide the tab for all users.
 
 9. Click **OK** twice on the **Edit Link** pane.
@@ -346,4 +346,4 @@ You can modify the following for a tab:
 
 See Also
 
-- [Design a Portal with Display Types](/versioned_docs/groupid_11.0/groupid/admincenter/portal/displaytype/overview.md)
+- [Design a Portal with Display Types](/docs/groupid/11.0/groupid/admincenter/portal/displaytype/overview.md)

@@ -19,7 +19,7 @@ department.
 
 | Input                                                                                                                                                      | Output                      |
 | ---------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------- |
-| [Identity repository](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/initial-identities-loading/index.md) (required) New identity data (required) | Updated identity repository |
+| [Identity repository](/docs/usercube/6.1/usercube/user-guide/set-up/initial-identities-loading/index.md) (required) New identity data (required) | Updated identity repository |
 
 ## Update
 
@@ -59,9 +59,9 @@ In order to verify the process:
 
     If the system contains numerous organizations, it is also possible to list them with their
     managers through the
-    [Query module](/versioned_docs/usercube_6.1/usercube/user-guide/administrate/reporting/index.md).
+    [Query module](/docs/usercube/6.1/usercube/user-guide/administrate/reporting/index.md).
 
-- [Create reports](/versioned_docs/usercube_6.1/usercube/user-guide/administrate/reporting/index.md)
+- [Create reports](/docs/usercube/6.1/usercube/user-guide/administrate/reporting/index.md)
   with indicators, for example, on the number of workers per type or per organization (through
   Usercube's predefined reports, the Query module or Power BI), to ensure that Usercube's content
   sticks to reality.

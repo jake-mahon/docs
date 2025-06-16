@@ -92,7 +92,7 @@ A trigger is a criterion that, when met, starts the execution of a schedule.
     - To remove a trigger, click **Remove** for it.
 
     Follow step 11 in the
-    [Group Usage Service Schedule](/versioned_docs/groupid_11.0/groupid/admincenter/schedule/groupusageservice.md) topic
+    [Group Usage Service Schedule](/docs/groupid/11.0/groupid/admincenter/schedule/groupusageservice.md) topic
     to manage triggers.
 
 7. Click **Update Schedule**.
@@ -182,4 +182,4 @@ unprocessed.
 
 See Also
 
-- [Schedules](/versioned_docs/groupid_11.0/groupid/admincenter/schedule/overview.md)
+- [Schedules](/docs/groupid/11.0/groupid/admincenter/schedule/overview.md)

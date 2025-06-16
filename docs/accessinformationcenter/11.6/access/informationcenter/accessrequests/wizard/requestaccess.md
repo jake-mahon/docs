@@ -91,8 +91,8 @@ resource is in your list, select it and click **Remove**. Click **OK** to close
 The Access Information Center sends an email to the owner containing the note you supplied. You also
 receive an email about the pending request. The access request is pending until the owner approves
 or denies it. You can check on the status of your request on the
-[Request History Page](/versioned_docs/accessinformationcenter_11.6/access/informationcenter/accessrequests/youraccessportal/requesthistory.md).
+[Request History Page](/docs/accessinformationcenter/11.6/access/informationcenter/accessrequests/youraccessportal/requesthistory.md).
 
 When the request has been processed by the owner, you will be notified via email. See the
-[Access Request Updated Email](/versioned_docs/accessinformationcenter_11.6/access/informationcenter/accessrequests/email/updated.md)
+[Access Request Updated Email](/docs/accessinformationcenter/11.6/access/informationcenter/accessrequests/email/updated.md)
 topic for additional information.

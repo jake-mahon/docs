@@ -2,7 +2,7 @@
 
 The FS_NotifyOwners_Status job is comprised of analysis and reports that summarize the actions
 performed by the FS_NotifyOwners job. See the
-[FS_NotifyOwners Job](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/filesystem/cleanup/notify/fs_notifyowners.md) topic
+[FS_NotifyOwners Job](/docs/accessanalyzer/11.6/enterpriseauditor/solutions/filesystem/cleanup/notify/fs_notifyowners.md) topic
 for additional information.
 
 ## Analysis Tasks for the FS_NotifyOwners_Status Job

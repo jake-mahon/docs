@@ -31,7 +31,7 @@ The port used to access the database depends on the
 and the
 [connectionString](https://learn.microsoft.com/en-us/dotnet/api/system.data.sqlclient.sqlconnection.connectionstring?view=dotnet-plat-ext-8.0)
 set in the
-[technical configuration](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/index.md).
+[technical configuration](/docs/usercube/6.1/usercube/integration-guide/network-configuration/index.md).
 
 #### **3.** Usercube agents
 
@@ -46,28 +46,28 @@ Usercube needs the following data flows to be enabled:
 - The **Agents** require accessing **managed systems**.
 - All end-users' **browsers** require opening HTTPS connections to the **Server**.
 - All end-users' **browsers** require accessing the
-  [authentication providers](/versioned_docs/usercube_6.1/usercube/installation-guide/production-ready/server/index.md#set-up-end-user-authentication).
+  [authentication providers](/docs/usercube/6.1/usercube/installation-guide/production-ready/server/index.md#set-up-end-user-authentication).
 - Some end-users' **browsers** require opening HTTPS connections to the **Agents**.
 
     These connections are used to launch `Jobs` or use the `Reset Password` capabilities of some
     connectors. This requirement only applies to a few specific **administrator type profiles**.
 
 - The **Server** and the **Agent** both need to access an **SMTP server** to send
-  [email notifications](/versioned_docs/usercube_6.1/usercube/installation-guide/production-ready/email-server/index.md).
+  [email notifications](/docs/usercube/6.1/usercube/installation-guide/production-ready/email-server/index.md).
 
 ## SaaS vs. On-Premise
 
 Usercube comes in two flavors: SaaS and On-Premise.
 
 - The **SaaS** offering only requires the
-  [Agent](/versioned_docs/usercube_6.1/usercube/installation-guide/production-ready/agent/index.md)
+  [Agent](/docs/usercube/6.1/usercube/installation-guide/production-ready/agent/index.md)
   to be installed on your organization network.
 - The **On-Premise** offering requires the
-  [Agent](/versioned_docs/usercube_6.1/usercube/installation-guide/production-ready/agent/index.md),
+  [Agent](/docs/usercube/6.1/usercube/installation-guide/production-ready/agent/index.md),
   the
-  [Server](/versioned_docs/usercube_6.1/usercube/installation-guide/production-ready/server/index.md),
+  [Server](/docs/usercube/6.1/usercube/installation-guide/production-ready/server/index.md),
   and the
-  [Database](/versioned_docs/usercube_6.1/usercube/installation-guide/production-ready/database/index.md)
+  [Database](/docs/usercube/6.1/usercube/installation-guide/production-ready/database/index.md)
   to be installed.
 
 ## Hosting Hardware
@@ -83,9 +83,9 @@ separate machine. The second approach is recommended.
 ### Server & agents
 
 The
-[Usercube Server](/versioned_docs/usercube_6.1/usercube/installation-guide/production-ready/server/index.md)
+[Usercube Server](/docs/usercube/6.1/usercube/installation-guide/production-ready/server/index.md)
 and
-[Agents](/versioned_docs/usercube_6.1/usercube/installation-guide/production-ready/agent/index.md)
+[Agents](/docs/usercube/6.1/usercube/installation-guide/production-ready/agent/index.md)
 can be spread between several workstations. Two scenarios unfold:
 
 #### **1.** The server and agents are installed on separate workstations
@@ -106,15 +106,15 @@ a separate one.
 ## Authentication
 
 End-users will be able to access Usercube after authentication. Several
-[authentication methods](/versioned_docs/usercube_6.1/usercube/installation-guide/production-ready/server/index.md#set-up-end-user-authentication)
+[authentication methods](/docs/usercube/6.1/usercube/installation-guide/production-ready/server/index.md#set-up-end-user-authentication)
 are available.
 
 ## Email Server
 
 Usercube sends notifications to users by email. An
-[email server](/versioned_docs/usercube_6.1/usercube/installation-guide/production-ready/email-server/index.md)
+[email server](/docs/usercube/6.1/usercube/installation-guide/production-ready/email-server/index.md)
 will have to be set up for the Agent and the Server.
 
 Before you check out the installation steps, make sure that all the
-[requirements](/versioned_docs/usercube_6.1/usercube/installation-guide/requirements/index.md) are
+[requirements](/docs/usercube/6.1/usercube/installation-guide/requirements/index.md) are
 met.

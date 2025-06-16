@@ -38,7 +38,7 @@ Supported Platforms
 Requirements, Permissions, and Ports
 
 See the
-[Target MySQL Requirements, Permissions, and Ports](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/requirements/target/databasemysql.md)
+[Target MySQL Requirements, Permissions, and Ports](/docs/accessanalyzer/11.6/enterpriseauditor/requirements/target/databasemysql.md)
 topic for additional information.
 
 Sensitive Data Discovery Considerations
@@ -78,12 +78,12 @@ provides visibility into MySQL Sensitive Data.
 
 The job groups in the MySQL Solution are:
 
-- [0.Collection Job Group](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/databases/mysql/collection/overview.md)
+- [0.Collection Job Group](/docs/accessanalyzer/11.6/enterpriseauditor/solutions/databases/mysql/collection/overview.md)
   – Designed to collect high level summary information from targeted MySQL Servers. This information
   is used by other jobs in the MySQL Solution Set for further analysis and producing respective
   reports.
-- [Configuration > MySQL_DatabaseSizing Job](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/databases/mysql/mysql_databasesizing.md)
+- [Configuration > MySQL_DatabaseSizing Job](/docs/accessanalyzer/11.6/enterpriseauditor/solutions/databases/mysql/mysql_databasesizing.md)
   – Designed to provide insight into MySQL server configuration settings
-- [MySQL_SensitiveData Job](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/databases/mysql/sensitivedata/mysql_sensitivedata.md)
+- [MySQL_SensitiveData Job](/docs/accessanalyzer/11.6/enterpriseauditor/solutions/databases/mysql/sensitivedata/mysql_sensitivedata.md)
   – Designed to provide insight into where sensitive data exists and who has access to it across all
   the targeted MySQL databases.

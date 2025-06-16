@@ -15,7 +15,7 @@ you want to track:
 Actions reported by Auditor vary depending on the file server type and the audited object (file,
 folder, or share). The changes include creation, modification, deletion, moving, renaming, and
 copying. See the
-[Dell Data Storage](/versioned_docs/auditor_10.6/auditor/configuration/fileservers/delldatastorage/overview.md)
+[Dell Data Storage](/docs/auditor/10.6/auditor/configuration/fileservers/delldatastorage/overview.md)
 topic for additional information.
 
 ## Configure Audit Settings for the CIFS File Shares Pre-Windows Server 2012

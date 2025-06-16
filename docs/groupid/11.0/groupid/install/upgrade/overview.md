@@ -27,7 +27,7 @@ upgrading from.
    If a gMSA is used as the service account for an identity store in the source version, you must
    configure that gMSA on the GroupID 11 server before you upgrade.  
    To configure a gMSA, see the
-   [gMSA for Active Directory](/versioned_docs/groupid_11.0/groupid/admincenter/identitystore/moreinfo/gmsarequirements.md)
+   [gMSA for Active Directory](/docs/groupid/11.0/groupid/admincenter/identitystore/moreinfo/gmsarequirements.md)
    topic.
 3. A disabled identity store in the source version will not be upgraded to GroupID 11.  
    To upgrade a disabled identity store, you must enable it in the source version before upgrade.
@@ -50,5 +50,5 @@ Two log files are created on upgrade:
 
 See Also
 
-- [Upgrade to GroupID 11](/versioned_docs/groupid_11.0/groupid/install/upgrade/upgrade.md)
-- [Notes on Upgrade](/versioned_docs/groupid_11.0/groupid/install/upgrade/notes.md)
+- [Upgrade to GroupID 11](/docs/groupid/11.0/groupid/install/upgrade/upgrade.md)
+- [Notes on Upgrade](/docs/groupid/11.0/groupid/install/upgrade/notes.md)

@@ -2,7 +2,7 @@
 
 The 0-FS_Nasuni job is required in order to target Nasuni Edge Appliances. The job can be added from
 the Enterprise Auditor Instant Job Library. See the
-[Instant Job Wizard](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/jobs/instantjobs/overview.md)
+[Instant Job Wizard](/docs/accessanalyzer/11.6/enterpriseauditor/admin/jobs/instantjobs/overview.md)
 topic to add this instant job to the 0.Collection job group.
 
 **CAUTION:** It is necessary to rename the job after it has been added to the 0.Collection job group

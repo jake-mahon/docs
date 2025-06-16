@@ -31,10 +31,10 @@ Usercube can be installed:
 ## Next Steps
 
 Let's learn about
-[Usercube's configuration](/versioned_docs/usercube_6.1/usercube/introduction-guide/configuration/index.md).
+[Usercube's configuration](/docs/usercube/6.1/usercube/introduction-guide/configuration/index.md).
 
 ## Learn More
 
-[Learn more on Usercube's architecture](/versioned_docs/usercube_6.1/usercube/integration-guide/architecture/index.md).
+[Learn more on Usercube's architecture](/docs/usercube/6.1/usercube/integration-guide/architecture/index.md).
 
-[Learn more on network configuration](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/index.md).
+[Learn more on network configuration](/docs/usercube/6.1/usercube/integration-guide/network-configuration/index.md).

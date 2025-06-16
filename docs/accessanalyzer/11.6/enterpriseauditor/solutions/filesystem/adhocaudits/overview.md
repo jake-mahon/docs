@@ -12,9 +12,9 @@ the required information before job execution.
 
 The Ad Hoc Audits Job Group is comprised of:
 
-- [FS_ShareAudit Job](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/filesystem/adhocaudits/fs_shareaudit.md)
+- [FS_ShareAudit Job](/docs/accessanalyzer/11.6/enterpriseauditor/solutions/filesystem/adhocaudits/fs_shareaudit.md)
   – Designed to report on shares from targeted file servers based on user input
-- [FS_TrusteePermissions Job](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/filesystem/adhocaudits/fs_trusteepermissions.md)
+- [FS_TrusteePermissions Job](/docs/accessanalyzer/11.6/enterpriseauditor/solutions/filesystem/adhocaudits/fs_trusteepermissions.md)
   – Designed to report on trustees from targeted file servers based on user input
 
 For both of these jobs, the host list is set to Local host at the job level. The assigned Connection

@@ -12,7 +12,7 @@ The Users table has the following features:
 - Column headers can be resized and sorted by ascending or descending order:
 
     - Name – Click to open the Users and Groups Details page. See the
-      [User, Group, & Application Details Page](/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/policy/page/details/usergroupapplication.md)
+      [User, Group, & Application Details Page](/docs/privilegesecure/4.1/privilegesecure/accessmanagement/admin/policy/page/details/usergroupapplication.md)
       topic for additional information.
     - User Name – Displays the name of the account
     - Email – Displays the associated email address, if available
@@ -73,5 +73,5 @@ certification task is created.
 
 The reviewer can now log in to see the access certification task(s) assigned to them and begin the
 review process. See the
-[Entitlements Tab for Access Certification](/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/auditreporting/tab/entitlements.md)
+[Entitlements Tab for Access Certification](/docs/privilegesecure/4.1/privilegesecure/accessmanagement/admin/auditreporting/tab/entitlements.md)
 topic for additional information.

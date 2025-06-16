@@ -18,7 +18,7 @@ know what entitlements need to be reviewed.
 
 | Input                                                                                                                                                                                                                                                                                                                                                          | Output                              |
 | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------- |
-| [Identity repository](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/initial-identities-loading/index.md) (required) [Role catalog](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/single-roles-catalog-creation/index.md) (optional) [Risks](/versioned_docs/usercube_6.1/usercube/user-guide/optimize/risk-management/index.md) (optional) | Scheduled certification campaign(s) |
+| [Identity repository](/docs/usercube/6.1/usercube/user-guide/set-up/initial-identities-loading/index.md) (required) [Role catalog](/docs/usercube/6.1/usercube/user-guide/set-up/single-roles-catalog-creation/index.md) (optional) [Risks](/docs/usercube/6.1/usercube/user-guide/optimize/risk-management/index.md) (optional) | Scheduled certification campaign(s) |
 
 ## Create a Certification Campaign
 
@@ -44,9 +44,9 @@ Create an access certification campaign by proceeding as follows:
     - `Target Entity Type`: entity type targeted by the campaign.
     - `Target Reviewers`: set of identities in charge of the access review. Available target
       reviewers are configured via
-      [certification policies](/versioned_docs/usercube_6.1/usercube/integration-guide/governance/accesscertification/index.md).
+      [certification policies](/docs/usercube/6.1/usercube/integration-guide/governance/accesscertification/index.md).
     - `Target Specificities`:
-      [data filters](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/access-certification/accesscertificationdatafilter/index.md)
+      [data filters](/docs/usercube/6.1/usercube/integration-guide/toolkit/xml-configuration/access-certification/accesscertificationdatafilter/index.md)
       that specify the campaign scope, i.e. the permissions to include by object type, category,
       approval state, etc. A campaign is based on the union of all specificities. See the detailed
       fields below.
@@ -60,7 +60,7 @@ Create an access certification campaign by proceeding as follows:
         tags (OR).
 
     - `Target Owners`:
-      [owner filters](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/access-certification/accesscertificationownerfilter/index.md)
+      [owner filters](/docs/usercube/6.1/usercube/integration-guide/toolkit/xml-configuration/access-certification/accesscertificationownerfilter/index.md)
       on the dimensions of the identities that are subject to the certification campaign. A campaign
       is based on the intersection of all filters. See the detailed fields below.
 
@@ -86,7 +86,7 @@ Create an access certification campaign by proceeding as follows:
     ![Campaigns Page](/img/versioned_docs/usercube_6.1/usercube/user-guide/administrate/access-certification/certification-campaign-scheduling/certifcampaign_newlycreated_v603.webp)
 
 4.  Apply the changes by clicking on **Launch**, thus running the
-    [access certification job](/versioned_docs/usercube_6.1/usercube/integration-guide/governance/accesscertification/index.md).
+    [access certification job](/docs/usercube/6.1/usercube/integration-guide/governance/accesscertification/index.md).
 
     This job's logs are accessible from the **Job Results** button.
 

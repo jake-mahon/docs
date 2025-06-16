@@ -5,18 +5,18 @@ Once you have successfully installed Netwrix Change Tracker, and logged in for t
 reports with or without agents. By default, an agent is installed on the Change Tracker machine, so
 you can quickly check the data collection and reports using that agent. Alternatively, you can
 collect data from other devices in your network. Either way, your starting point will be the
-[Device Tab](/versioned_docs/changetracker_8.0/changetracker/admin/tabs/devices.md).
+[Device Tab](/docs/changetracker/8.0/changetracker/admin/tabs/devices.md).
 
 Once you have established data collection, use the Reports tab to view reports on you device's
 configuration.
 
 Next, use the
-[Planned Changes Tab](/versioned_docs/changetracker_8.0/changetracker/admin/tabs/plannedchanges.md)
+[Planned Changes Tab](/docs/changetracker/8.0/changetracker/admin/tabs/plannedchanges.md)
 manage change events and filter any changes that are considered as noise.
 
 To add another user, manage licenses, set the planned change intervals, and otherwise configure
 Change Tracker, review the
-[Settings Tab](/versioned_docs/changetracker_8.0/changetracker/admin/settings/settingstab.md).
+[Settings Tab](/docs/changetracker/8.0/changetracker/admin/settings/settingstab.md).
 
 ## Two Factor Authentication
 

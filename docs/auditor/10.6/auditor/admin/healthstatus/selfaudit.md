@@ -25,11 +25,11 @@ Follow the steps to search for self-audit results.
 ![selfaudit_search](/img/versioned_docs/auditor_10.6/auditor/admin/healthstatus/selfaudit_search.webp)
 
 **NOTE:** After reviewing your search results, apply filters to narrow your data. See the
-[View Reports](/versioned_docs/auditor_10.6/auditor/admin/reports/view.md) topic for additional
+[View Reports](/docs/auditor/10.6/auditor/admin/reports/view.md) topic for additional
 information.
 
 **Step 4 –** After browsing your data, navigate to Tools to use the search results as intended. See
-the [View and Search Collected Data](/versioned_docs/auditor_10.6/auditor/admin/search/overview.md)
+the [View and Search Collected Data](/docs/auditor/10.6/auditor/admin/search/overview.md)
 topic for additional information.
 
 ### Review Auditor Self-Audit Report

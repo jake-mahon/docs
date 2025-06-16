@@ -1,7 +1,7 @@
 # Compute a Scalar Property
 
 How to define
-[scalar rules](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/provisioning/resourcetype/index.md)
+[scalar rules](/docs/usercube/6.1/usercube/integration-guide/toolkit/xml-configuration/provisioning/resourcetype/index.md)
 to compute and provision the values of scalar properties for target resources based on source
 resources.
 
@@ -10,9 +10,9 @@ resources.
 Sources are usually identities, and targets are usually accounts from the managed systems.
 
 Here, we are going to compute the values of
-[scalar properties](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/connect-system/entity-type-creation/index.md)
+[scalar properties](/docs/usercube/6.1/usercube/user-guide/set-up/connect-system/entity-type-creation/index.md)
 for the target resources used in entitlement management, based on source resources. We are going to
-[provision](/versioned_docs/usercube_6.1/usercube/user-guide/administrate/provisioning/index.md)
+[provision](/docs/usercube/6.1/usercube/user-guide/administrate/provisioning/index.md)
 these properties, i.e. write them to the managed system.
 
 The right tools for the job are scalar rules.
@@ -28,7 +28,7 @@ from the source entity type, possibly writing a C# expression.
 > `return person.LastName + " " + person.FirstName;`
 
 The application of a scalar rule can depend on the assignment of a
-[single role](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/single-roles-catalog-creation/index.md).
+[single role](/docs/usercube/6.1/usercube/user-guide/set-up/single-roles-catalog-creation/index.md).
 
 Sometimes we create in Usercube properties which are not directly linked to any real property in the
 managed system. A scalar rule on this kind of property will not find a property to provision in the
@@ -87,7 +87,7 @@ It means that:
 - several rules computing the same property with different criteria should not coexist;
 - the only reason to have several rules to compute a single property is when changing the property
   value over time, via
-  [time offsets](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/provisioning/resourcetype/index.md).
+  [time offsets](/docs/usercube/6.1/usercube/integration-guide/toolkit/xml-configuration/provisioning/resourcetype/index.md).
 
 ## Participants and Artifacts
 
@@ -96,7 +96,7 @@ application users, entitlements and data model.
 
 | Input                                                                                                        | Output       |
 | ------------------------------------------------------------------------------------------------------------ | ------------ |
-| [Categorization](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/categorization/index.md) (required) | Scalar rules |
+| [Categorization](/docs/usercube/6.1/usercube/user-guide/set-up/categorization/index.md) (required) | Scalar rules |
 
 ## Create a Scalar Rule
 
@@ -125,7 +125,7 @@ Fill an entity type with a scalar rule by proceeding as follows:
     - **Source Object**: scalar property (or expression of scalar properties) from the source entity
       type, which constitutes the input for the computation of the target object. Can be defined by
       a property path and/or an
-      [expression](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/expressions/index.md).
+      [expression](/docs/usercube/6.1/usercube/integration-guide/toolkit/expressions/index.md).
     - **Target Object**: scalar property from the target entity type, whose value is to be impacted.
     - `Offset of effective date`: time period that defines the actual effective date for property
       computation according to the value's start and/or end date.
@@ -147,12 +147,12 @@ Fill an entity type with a scalar rule by proceeding as follows:
         >
         > In this case, we use `CreateOnly` so that Usercube sends the adequate provisioning order
         > when needed, and then is able to change the
-        > [provisioning state](/versioned_docs/usercube_6.1/usercube/user-guide/administrate/provisioning/index.md)
+        > [provisioning state](/docs/usercube/6.1/usercube/user-guide/administrate/provisioning/index.md)
         > to `Verified` without
-        > [synchronization](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/synchronization/index.md).
+        > [synchronization](/docs/usercube/6.1/usercube/user-guide/set-up/synchronization/index.md).
 
     - `Comparison type`:
-      [comparison type](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/provisioning/resourcetype/index.md)
+      [comparison type](/docs/usercube/6.1/usercube/integration-guide/toolkit/xml-configuration/provisioning/resourcetype/index.md)
       between the value of the target object computed by the rule and its value from the managed
       system. Non-conforming values are displayed on the **Provisioning Review** screen.
     - **Criteria**: conditions that, if met, trigger the rule application.
@@ -179,7 +179,7 @@ automatically deleted.
 A modification in a provisioning rule can trigger the removal of a resource only on the Usercube
 side. There are several barriers to cross before said resource is removed from the managed system.
 
-[Simulations](/versioned_docs/usercube_6.1/usercube/user-guide/optimize/simulation/index.md) are
+[Simulations](/docs/usercube/6.1/usercube/user-guide/optimize/simulation/index.md) are
 available in order to anticipate the changes induced by a creation/modification/deletion in scalar
 rules.
 
@@ -192,7 +192,7 @@ In order to verify the process:
 
     ![Resource Type Jobs](/img/versioned_docs/usercube_6.1/usercube/user-guide/set-up/categorization/classification/synchro_resourcetype_v602.webp)
 
-2. [Review unreconciled properties](/versioned_docs/usercube_6.1/usercube/user-guide/administrate/non-conforming-assignment-review/property-reconciliation/index.md)
+2. [Review unreconciled properties](/docs/usercube/6.1/usercube/user-guide/administrate/non-conforming-assignment-review/property-reconciliation/index.md)
    (on the **Resource Reconciliation** screen) to help check scalar rules: if there are numerous
    properties to be reconciled following the same pattern, then there may be a rule that needs to be
    changed.

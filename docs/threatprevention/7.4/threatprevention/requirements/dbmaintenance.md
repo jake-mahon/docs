@@ -1,7 +1,7 @@
 # Database Maintenance Feature Requirements
 
 All operations to configure database maintenance on the
-[Database Maintenance Window](/versioned_docs/threatprevention_7.4/threatprevention/admin/configuration/databasemaintenance/overview.md)
+[Database Maintenance Window](/docs/threatprevention/7.4/threatprevention/admin/configuration/databasemaintenance/overview.md)
 are executed by the Enterprise Manager. Therefore, either the SQL Server account supplied during
 Threat Prevention installation or the Windows account configured to run the Enterprise Manager (for
 Windows Authentication to the SQL Server) must have enough rights to execute the Database
@@ -51,13 +51,13 @@ The following rights are required to run database maintenance:
         topic for additional information.
 
 See the
-[Database Components](/versioned_docs/threatprevention_7.4/threatprevention/admin/overview.md#database-components)
+[Database Components](/docs/threatprevention/7.4/threatprevention/admin/overview.md#database-components)
 topic for a discussion of these databases.
 
 Archive Database Permissions
 
 If the **Move** option is selected on the
-[Archive Data](/versioned_docs/threatprevention_7.4/threatprevention/admin/configuration/databasemaintenance/archive.md)
+[Archive Data](/docs/threatprevention/7.4/threatprevention/admin/configuration/databasemaintenance/archive.md)
 tab of the Database Maintenance window, an additional account must be provided for the destination
 server/database. This account must have rights to:
 

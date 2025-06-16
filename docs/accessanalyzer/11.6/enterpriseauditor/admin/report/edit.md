@@ -16,7 +16,7 @@ Follow the steps to modify an existing report.
 **Step 2 –** Click the **Configure** button next to the report you want to modify.
 
 **Step 3 –** Use the Report Configuration wizard to make any required changes. See the
-[Report Configuration Wizard](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/report/wizard/overview.md)
+[Report Configuration Wizard](/docs/accessanalyzer/11.6/enterpriseauditor/admin/report/wizard/overview.md)
 topic for instructions.
 
 - You must go through all pages of the wizard, and click **Finish** on the final page to save your
@@ -25,5 +25,5 @@ topic for instructions.
 
 Your configuration updates have been saved. To view the updated report you need to first generate
 the report or run it's associated job. See the
-[Viewing Generated Reports](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/report/view.md)
+[Viewing Generated Reports](/docs/accessanalyzer/11.6/enterpriseauditor/admin/report/view.md)
 topic for additional information.

@@ -12,5 +12,5 @@ Select the host list to rename and click **Rename List** to open the Host list n
 the new name for the host list and click **OK**.
 
 **NOTE:** Host list names can also be changed using the **Edit List** option, see the
-[Edit List](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/hostmanagement/actions/editlist.md)
+[Edit List](/docs/accessanalyzer/11.6/enterpriseauditor/admin/hostmanagement/actions/editlist.md)
 topic for additional information.

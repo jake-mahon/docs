@@ -14,7 +14,7 @@ The Access Policies tab has the following features:
 The table has the following columns:
 
 - Name — Displays the name of the policy. Click the link to view additional details. See the
-  [Access Policy Page](/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/policy/page/accesspolicy.md)
+  [Access Policy Page](/docs/privilegesecure/4.1/privilegesecure/accessmanagement/admin/policy/page/accesspolicy.md)
   topic for additional information.
 - Description — Description of the policy
 

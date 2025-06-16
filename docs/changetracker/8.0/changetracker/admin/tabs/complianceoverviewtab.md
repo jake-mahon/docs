@@ -14,5 +14,5 @@ selected will be displayed.
   systems, for example, PCI and NIST 800-53.
 - **Risk by Group** – A Risk score can be assigned via the **Settings** -> **Groups** page, this
   provides an added dimension to prioritize focus on groups. See the
-  [Device Groups](/versioned_docs/changetracker_8.0/changetracker/admin/settings/devicegroups.md)
+  [Device Groups](/docs/changetracker/8.0/changetracker/admin/settings/devicegroups.md)
   topic for additional information.

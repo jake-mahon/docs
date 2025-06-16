@@ -140,7 +140,7 @@ the **Also Notify** area, select the required check boxes.
   from the membership of a group.
 - Public group owner for membership – To send email notifications to the primary and additional
   owners of a public group on membership change. See the
-  [Group Security Types](/versioned_docs/groupid_11.0/groupid/admincenter/general/concepts.md#group-security-types)
+  [Group Security Types](/docs/groupid/11.0/groupid/admincenter/general/concepts.md#group-security-types)
   topic.
 
 Step 6 – Click **Save** on the **Notifications** page.
@@ -187,7 +187,7 @@ Membership lifecycle notifications are triggered on the following events:
   or removes him or her from group membership.
 - Users are also notified when they are temporarily added or removed from group membership according
   to membership lifecycle policies. See the
-  [Manage Membership Life Cycle Policies](/versioned_docs/groupid_11.0/groupid/admincenter/identitystore/configure/directoryservice/membershiplifecycle.md)
+  [Manage Membership Life Cycle Policies](/docs/groupid/11.0/groupid/admincenter/identitystore/configure/directoryservice/membershiplifecycle.md)
   topic.
 
 You can choose to send notification when users are temporarily added to groups, removed from groups,
@@ -214,7 +214,7 @@ Step 4 – In the Membership Lifecycle Notifications section, select your desire
   group membership by the Membership Life Cycle schedule. This setting also applies to users who
   have been marked for removal from group membership in the group attestation process. (See the
   **Specify member inactive period** setting in the
-  [Enable Group Attestation](/versioned_docs/groupid_11.0/groupid/admincenter/identitystore/configure/directoryservice/grouplifecycle.md#enable-group-attestation)
+  [Enable Group Attestation](/docs/groupid/11.0/groupid/admincenter/identitystore/configure/directoryservice/grouplifecycle.md#enable-group-attestation)
   topic.
 
 1. Click **Save** on the **Notifications** page.
@@ -258,6 +258,6 @@ Step 5 – Click **Save** on the Notifications page.
 
 **See Also**
 
-- [Notifications](/versioned_docs/groupid_11.0/groupid/admincenter/notification/overview.md)
-- [Membership Life Cycle Schedule](/versioned_docs/groupid_11.0/groupid/admincenter/schedule/membershiplifecycle.md)
-- [Managed By Life Cycle Schedule](/versioned_docs/groupid_11.0/groupid/admincenter/schedule/managedbylifecycle.md)
+- [Notifications](/docs/groupid/11.0/groupid/admincenter/notification/overview.md)
+- [Membership Life Cycle Schedule](/docs/groupid/11.0/groupid/admincenter/schedule/membershiplifecycle.md)
+- [Managed By Life Cycle Schedule](/docs/groupid/11.0/groupid/admincenter/schedule/managedbylifecycle.md)

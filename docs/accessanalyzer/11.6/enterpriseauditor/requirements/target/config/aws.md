@@ -17,7 +17,7 @@ the service account to assume the configured role in each target account.
 **Step 4 –** Add Role to Enterprise Auditor. The Role created in the scanning account will need to
 be added to the **1-AWS_OrgScan**, **2-AWS_S3Scan**, and **3-AWS_IAMScan** job query configurations.
 See the
-[AWS: Login Roles](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/aws/loginroles.md)
+[AWS: Login Roles](/docs/accessanalyzer/11.6/enterpriseauditor/admin/datacollector/aws/loginroles.md)
 topic for additional information.
 
 Once these steps are completed, the role must be added to the AWS queries within Enterprise Auditor.
@@ -208,5 +208,5 @@ different in each account, then a policy will need to be created for each distin
 Access key ID and Secret access key which need to be input into Enterprise Auditor.
 
 You can now create the Connection Profile for the AWS Solution. See the
-[Amazon Web Services for User Credentials](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/settings/connection/profile/aws.md)
+[Amazon Web Services for User Credentials](/docs/accessanalyzer/11.6/enterpriseauditor/admin/settings/connection/profile/aws.md)
 topic for additional information.

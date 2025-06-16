@@ -3,7 +3,7 @@
 GroupID generates a variety of notifications for different events, such as when changes are made to
 a group, when workflows are triggered, and when profile validation is due for users. Supported
 languages for notifications are listed in the
-[Localization](/versioned_docs/groupid_11.0/groupid/gettingstarted.md#localization) topic.
+[Localization](/docs/groupid/11.0/groupid/gettingstarted.md#localization) topic.
 
 Templates for all GroupID notifications are available in these languages. You can customize a
 notification template for the following in each of the supported languages:
@@ -166,4 +166,4 @@ can also use any custom attributes.
 
 **See Also**
 
-- [Notifications](/versioned_docs/groupid_11.0/groupid/admincenter/notification/overview.md)
+- [Notifications](/docs/groupid/11.0/groupid/admincenter/notification/overview.md)

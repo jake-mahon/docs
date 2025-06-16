@@ -105,7 +105,7 @@ Choose the desired setting from the following options:
 
 Select the Schedule Service account to run this task with on the Run as wizard page. To create or
 edit Schedule Service accounts, go to the **Settings** > **Schedule** node. See the
-[Schedule](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/settings/schedule.md)
+[Schedule](/docs/accessanalyzer/11.6/enterpriseauditor/admin/settings/schedule.md)
 topic for additional information.
 
 ![Run as wizard page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/schedule/runas.webp)

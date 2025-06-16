@@ -26,7 +26,7 @@ To configure GroupID in PingOne, follow these steps:
 9. On the next page, make sure the **I have the SAML configuration** tile is selected.
 10. Use the metadata file you generated for the _Wizard_ portal in GroupID to configure certain
     settings on this page. See the
-    [Generate the Metadata File](/versioned_docs/groupid_11.0/groupid/authenticate/asserviceprovider/pingone/generatemetadata.md#generate-the-metadata-file)
+    [Generate the Metadata File](/docs/groupid/11.0/groupid/authenticate/asserviceprovider/pingone/generatemetadata.md#generate-the-metadata-file)
     topic.  
     Click the **Select File** button next to **Upload Metadata**. Simply select the metadata file
     and it will be uploaded, thereby bringing in the required settings to configure the GroupID
@@ -85,7 +85,7 @@ attribute, as discussed in the [Attribute Mapping in PingOne](#attribute-mapping
 
 Only the users you define here can authenticate on the GroupID portal _Wizard_ using PingOne. See
 the
-[Sign In Using PingOne](/versioned_docs/groupid_11.0/groupid/authenticate/asserviceprovider/pingone/signin.md)
+[Sign In Using PingOne](/docs/groupid/11.0/groupid/authenticate/asserviceprovider/pingone/signin.md)
 topic.
 
 **To configure users:**

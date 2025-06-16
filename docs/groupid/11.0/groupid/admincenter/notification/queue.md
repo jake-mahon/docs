@@ -13,7 +13,7 @@ notifications as well as delete notifications. Both actions are tracked in Admin
 
 GroupID also features a Notification Editor that lists the notification templates for all
 notifications that GroupID generates on various events. See the
-[Customize Notifications](/versioned_docs/groupid_11.0/groupid/admincenter/notification/customize.md)
+[Customize Notifications](/docs/groupid/11.0/groupid/admincenter/notification/customize.md)
 topic for details.
 
 What do you want to do?
@@ -63,7 +63,7 @@ In the **Categories** list on the **Filter** dialog box, select one of the follo
 - Click **Refresh** to refresh the notification queue.
 - Click **Notification Editor** to launch the Notification Editor, where you can view and modify
   notification templates. See the
-  [Customize Notifications](/versioned_docs/groupid_11.0/groupid/admincenter/notification/customize.md)
+  [Customize Notifications](/docs/groupid/11.0/groupid/admincenter/notification/customize.md)
   topic for details.
 
 ## Send a Notification Urgently
@@ -102,6 +102,6 @@ To delete a notification:
 
 **See Also**
 
-- [Notifications](/versioned_docs/groupid_11.0/groupid/admincenter/notification/overview.md)
-- [Email Service](/versioned_docs/groupid_11.0/groupid/admincenter/service/emailservice.md)
-- [Admin Center History](/versioned_docs/groupid_11.0/groupid/admincenter/general/history.md)
+- [Notifications](/docs/groupid/11.0/groupid/admincenter/notification/overview.md)
+- [Email Service](/docs/groupid/11.0/groupid/admincenter/service/emailservice.md)
+- [Admin Center History](/docs/groupid/11.0/groupid/admincenter/general/history.md)

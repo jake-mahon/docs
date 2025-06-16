@@ -11,7 +11,7 @@ On the Dynasty Options page:
    the Dynasty.
 
     Click the ellipsis button and use the
-    [Find Dialog Box](/versioned_docs/groupid_11.0/groupid/portal/search/find.md) to select a top
+    [Find Dialog Box](/docs/groupid/11.0/groupid/portal/search/find.md) to select a top
     manager.
 
 2. Select an option from **Dynasty Type** to specify the type of managerial Dynasty you want to
@@ -91,7 +91,7 @@ On the Dynasty Options page:
             Members: April
 
         On the
-        [Query Designer](/versioned_docs/groupid_11.0/groupid/portal/group/querydesigner/overview.md)
+        [Query Designer](/docs/groupid/11.0/groupid/portal/group/querydesigner/overview.md)
         page, you can also specify a criterion to filter the managers for whom you want to create
         child groups in the Dynasty.
 
@@ -229,4 +229,4 @@ On the Dynasty Options page:
 
 **See Also**
 
-- [Create an Active Directory Dynasty](/versioned_docs/groupid_11.0/groupid/portal/group/dynasty/activedirectory/createdynasty.md)
+- [Create an Active Directory Dynasty](/docs/groupid/11.0/groupid/portal/group/dynasty/activedirectory/createdynasty.md)

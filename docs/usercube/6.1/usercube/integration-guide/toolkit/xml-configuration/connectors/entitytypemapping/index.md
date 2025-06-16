@@ -1,17 +1,17 @@
 # EntityTypeMapping
 
 An entity type mapping links a given
-[entity type](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/metadata/entitytype/index.md)'s
+[entity type](/docs/usercube/6.1/usercube/integration-guide/toolkit/xml-configuration/metadata/entitytype/index.md)'s
 properties with the source columns of the corresponding managed system. The entity type mapping
 specifies the related
-[connector](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/connectors/connector/index.md)
+[connector](/docs/usercube/6.1/usercube/integration-guide/toolkit/xml-configuration/connectors/connector/index.md)
 and the path to the CSV source file which contains, or will contain, the data exported from the
 managed system. Each of its [properties](#properties) will define the corresponding source column
 and specific options.
 
 An entity type mapping shares the same identifier as its related entity type.
 
-[See the example of a whole connector containing an entity type mapping](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/connectors/connector/index.md).
+[See the example of a whole connector containing an entity type mapping](/docs/usercube/6.1/usercube/integration-guide/toolkit/xml-configuration/connectors/connector/index.md).
 
 ## Properties
 
@@ -30,9 +30,9 @@ An entity type mapping shares the same identifier as its related entity type.
 ## Child Element: Property
 
 Contains all the
-[entity properties](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/metadata/entitytype/index.md)
+[entity properties](/docs/usercube/6.1/usercube/integration-guide/toolkit/xml-configuration/metadata/entitytype/index.md)
 of an
-[entity type](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/metadata/entitytype/index.md)
+[entity type](/docs/usercube/6.1/usercube/integration-guide/toolkit/xml-configuration/metadata/entitytype/index.md)
 that can be synchronized into Usercube physical model. Each mapping share the same id as its
 corresponding property in the entity type.
 

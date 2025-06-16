@@ -21,13 +21,13 @@ user in Active Directory.
 Try the following possible solutions to resolve:
 
 - Perform an AD Sync to collect the latest AD data from the domain. See the
-  [Domain Details Page](/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/policy/page/details/domain.md)
+  [Domain Details Page](/docs/privilegesecure/4.1/privilegesecure/accessmanagement/admin/policy/page/details/domain.md)
   topic for additional information.
 - Check the user is added to the Privilege Secure console. See the
-  [Users & Groups Page](/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/policy/page/usersgroups.md)
+  [Users & Groups Page](/docs/privilegesecure/4.1/privilegesecure/accessmanagement/admin/policy/page/usersgroups.md)
   topic for additional information.
 - Check the spelling of the Username associated with the service account. See the
-  [Service Accounts Page](/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/configuration/page/serviceaccounts.md)
+  [Service Accounts Page](/docs/privilegesecure/4.1/privilegesecure/accessmanagement/admin/configuration/page/serviceaccounts.md)
   topic for additional information.
 - Make sure the user is in Active Directory in the expected domain
 
@@ -49,5 +49,5 @@ The selected account will now display the following options.
 - Clipboard icon — Copies the password for the selected account
 - Information icon — Opens the View Password window to view the password and copy it to the
   clipboard. The window stays open for 20 seconds. See the
-  [View Password Window](/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/policy/window/credentials/viewpassword.md)
+  [View Password Window](/docs/privilegesecure/4.1/privilegesecure/accessmanagement/admin/policy/window/credentials/viewpassword.md)
   topic for additional information.

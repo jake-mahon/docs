@@ -12,7 +12,7 @@ The PgSQL_SensitiveDataScan Job uses the SQL Data Collector.
 The query is:
 
 - PostgreSQL — Scans the PostgreSQL database for sensitive data. For configuring the
-  [SQL Data Collector](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/sql/overview.md),
+  [SQL Data Collector](/docs/accessanalyzer/11.6/enterpriseauditor/admin/datacollector/sql/overview.md),
   see the SQL Data Collector topic for additional information.
 
 ### Configure the SensitiveDataScan Query
@@ -34,7 +34,7 @@ job.
 ![Sensitive Data Scan Settings](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/databases/postgresql/collection/datascanjobsettings.webp)
 
 **Step 4 –** To modify sensitive data scan options, navigate to the
-[SQL Data Collector](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/sql/overview.md)
+[SQL Data Collector](/docs/accessanalyzer/11.6/enterpriseauditor/admin/datacollector/sql/overview.md)
 page. Select the desired scan options.
 
 **NOTE:** The Sensitive Data Scan Settings are pre-configured for optimal performance for a
@@ -44,10 +44,10 @@ may significantly increase scan time.
 ![Select DLP Criteria](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/databases/postgresql/collection/sensitivedatascancriteria.webp)
 
 **Step 5 –** To modify criteria, navigate to the
-[SQL Data Collector](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/sql/overview.md)
+[SQL Data Collector](/docs/accessanalyzer/11.6/enterpriseauditor/admin/datacollector/sql/overview.md)
 page. By default, the Sensitive Data Scan job is configured to scan for criteria configured in the
 Global Criteria settings. See the
-[Sensitive Data Criteria Editor](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/sensitivedatadiscovery/criteriaeditor/overview.md)
+[Sensitive Data Criteria Editor](/docs/accessanalyzer/11.6/enterpriseauditor/sensitivedatadiscovery/criteriaeditor/overview.md)
 topic for additional information.
 
 ![Filters page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/databases/postgresql/collection/sensitivedatascanfilter.webp)

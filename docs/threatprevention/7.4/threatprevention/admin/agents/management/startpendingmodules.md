@@ -4,7 +4,7 @@ If the Agent was deployed using the Safe Mode option, then it could enter a _Sta
 state, in which the AD Events monitoring module is not loaded on the machine where the Agent is
 deployed. This happens due to a change in the DLL versions. To exit this state, the Threat
 Prevention administrator must start the Active Directory module. See the
-[Agent Safe Mode](/versioned_docs/threatprevention_7.4/threatprevention/admin/agents/safemode.md)
+[Agent Safe Mode](/docs/threatprevention/7.4/threatprevention/admin/agents/safemode.md)
 topic for additional information.
 
 **_RECOMMENDED:_** If multiple DCs are in the Start Pending Modules state, this means one of the

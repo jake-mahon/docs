@@ -31,18 +31,18 @@ The Resource reports provide insight into:
 
 See the following topics for additional information on specific resource reports:
 
-- [File System Reports](/versioned_docs/accessinformationcenter_11.6/access/informationcenter/resourceaudit/filesystem/overview.md)
-- [SharePoint Reports](/versioned_docs/accessinformationcenter_11.6/access/informationcenter/resourceaudit/sharepoint/overview.md)
-- [Active Directory Reports](/versioned_docs/accessinformationcenter_11.6/access/informationcenter/resourceaudit/activedirectory/overview.md)
-- [Amazon (AWS) Reports](/versioned_docs/accessinformationcenter_11.6/access/informationcenter/resourceaudit/aws/overview.md)
-- [Dropbox Reports](/versioned_docs/accessinformationcenter_11.6/access/informationcenter/resourceaudit/dropbox/overview.md)
-- [Exchange Reports](/versioned_docs/accessinformationcenter_11.6/access/informationcenter/resourceaudit/exchange/overview.md)
-- [MongoDB Reports](/versioned_docs/accessinformationcenter_11.6/access/informationcenter/resourceaudit/mongodb/overview.md)
-- [MySQL Reports](/versioned_docs/accessinformationcenter_11.6/access/informationcenter/resourceaudit/mysql/overview.md)
-- [Oracle Reports](/versioned_docs/accessinformationcenter_11.6/access/informationcenter/resourceaudit/oracle/overview.md)
-- [PostgreSQL Reports](/versioned_docs/accessinformationcenter_11.6/access/informationcenter/resourceaudit/postgresql/overview.md)
-- [SQL Server Reports](/versioned_docs/accessinformationcenter_11.6/access/informationcenter/resourceaudit/sql/overview.md)
-- [Flexible Imports Feature](/versioned_docs/accessinformationcenter_11.6/access/informationcenter/resourceaudit/flexibleimports/overview.md)
+- [File System Reports](/docs/accessinformationcenter/11.6/access/informationcenter/resourceaudit/filesystem/overview.md)
+- [SharePoint Reports](/docs/accessinformationcenter/11.6/access/informationcenter/resourceaudit/sharepoint/overview.md)
+- [Active Directory Reports](/docs/accessinformationcenter/11.6/access/informationcenter/resourceaudit/activedirectory/overview.md)
+- [Amazon (AWS) Reports](/docs/accessinformationcenter/11.6/access/informationcenter/resourceaudit/aws/overview.md)
+- [Dropbox Reports](/docs/accessinformationcenter/11.6/access/informationcenter/resourceaudit/dropbox/overview.md)
+- [Exchange Reports](/docs/accessinformationcenter/11.6/access/informationcenter/resourceaudit/exchange/overview.md)
+- [MongoDB Reports](/docs/accessinformationcenter/11.6/access/informationcenter/resourceaudit/mongodb/overview.md)
+- [MySQL Reports](/docs/accessinformationcenter/11.6/access/informationcenter/resourceaudit/mysql/overview.md)
+- [Oracle Reports](/docs/accessinformationcenter/11.6/access/informationcenter/resourceaudit/oracle/overview.md)
+- [PostgreSQL Reports](/docs/accessinformationcenter/11.6/access/informationcenter/resourceaudit/postgresql/overview.md)
+- [SQL Server Reports](/docs/accessinformationcenter/11.6/access/informationcenter/resourceaudit/sql/overview.md)
+- [Flexible Imports Feature](/docs/accessinformationcenter/11.6/access/informationcenter/resourceaudit/flexibleimports/overview.md)
 
 ## User Reports
 
@@ -52,7 +52,7 @@ The User reports provide insight into:
 - What a user is doing with their access
 
 See the
-[User Reports](/versioned_docs/accessinformationcenter_11.6/access/informationcenter/resourceaudit/user/overview.md)
+[User Reports](/docs/accessinformationcenter/11.6/access/informationcenter/resourceaudit/user/overview.md)
 topic for additional information.
 
 ## Group Reports
@@ -64,7 +64,7 @@ The Group reports provide insight into:
 - What group membership changes have occurred
 
 See the
-[Group Reports](/versioned_docs/accessinformationcenter_11.6/access/informationcenter/resourceaudit/group/overview.md)
+[Group Reports](/docs/accessinformationcenter/11.6/access/informationcenter/resourceaudit/group/overview.md)
 topic for additional information.
 
 ## Computer Reports
@@ -76,7 +76,7 @@ The Computer reports provide insight into:
 - What Active Directory permissions are applied to the computer object
 
 See the
-[Computer Reports](/versioned_docs/accessinformationcenter_11.6/access/informationcenter/resourceaudit/computer/overview.md)
+[Computer Reports](/docs/accessinformationcenter/11.6/access/informationcenter/resourceaudit/computer/overview.md)
 topic for additional information.
 
 ## Sensitive Content Reports
@@ -84,7 +84,7 @@ topic for additional information.
 The Sensitive Content reports provide insight into which files contain specific sensitive data.
 
 See the
-[Sensitive Content Reports](/versioned_docs/accessinformationcenter_11.6/access/informationcenter/resourceaudit/sensitivecontent/overview.md)
+[Sensitive Content Reports](/docs/accessinformationcenter/11.6/access/informationcenter/resourceaudit/sensitivecontent/overview.md)
 topic for additional information.
 
 ## Flexible Imports
@@ -96,7 +96,7 @@ Reports associated with the flexible imports provide insight into:
 - What potentially sensitive data exists across the targeted environment
 
 See the
-[Flexible Imports Feature](/versioned_docs/accessinformationcenter_11.6/access/informationcenter/resourceaudit/flexibleimports/overview.md)
+[Flexible Imports Feature](/docs/accessinformationcenter/11.6/access/informationcenter/resourceaudit/flexibleimports/overview.md)
 topic for additional information.
 
 ## Access & Membership Change Modeling
@@ -107,5 +107,5 @@ will have on that trustee’s access across the targeted file system and Active 
 environments.
 
 See the
-[Change Modeling](/versioned_docs/accessinformationcenter_11.6/access/informationcenter/resourceaudit/changemodeling/overview.md)
+[Change Modeling](/docs/accessinformationcenter/11.6/access/informationcenter/resourceaudit/changemodeling/overview.md)
 topic for additional information.

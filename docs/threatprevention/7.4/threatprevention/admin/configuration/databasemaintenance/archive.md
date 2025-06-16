@@ -1,7 +1,7 @@
 # Archive Data
 
 To use the Move operation on the
-[Database Maintenance Window](/versioned_docs/threatprevention_7.4/threatprevention/admin/configuration/databasemaintenance/overview.md),
+[Database Maintenance Window](/docs/threatprevention/7.4/threatprevention/admin/configuration/databasemaintenance/overview.md),
 you must specify a database where data is archived.
 
 Follow the steps to configure settings for archiving data.
@@ -24,5 +24,5 @@ Maintenance window is displayed. Click the **Archive DB** tab.
 **Step 3 –** Click **Save** to save the configurations.
 
 To query archived event data, use the Investigate interface. See the
-[Investigate Interface](/versioned_docs/threatprevention_7.4/threatprevention/admin/investigate/overview.md)
+[Investigate Interface](/docs/threatprevention/7.4/threatprevention/admin/investigate/overview.md)
 topic for additional information.

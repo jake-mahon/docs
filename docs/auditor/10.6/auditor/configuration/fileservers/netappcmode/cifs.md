@@ -13,7 +13,7 @@ options that you want to track:
 Actions reported by Netwrix Auditor vary depending on the file server type and the audited object
 (file, folder, or share). The changes include creation, modification, deletion, moving, renaming,
 and copying. To track the copy action, enable successful read access and change auditing. See the
-[File Servers](/versioned_docs/auditor_10.6/auditor/configuration/fileservers/overview.md) topic for
+[File Servers](/docs/auditor/10.6/auditor/configuration/fileservers/overview.md) topic for
 additional information.
 
 Do one of the following depending on the OS:

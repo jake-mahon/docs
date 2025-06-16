@@ -18,21 +18,21 @@ of the following methods in order to access the Host Discovery Wizard from the H
 The first step in creating a Host Discovery query is to select the source where the query searches
 for hosts. Hosts are discoverable using one of the following options:
 
-- [Scan IP Network](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/hostdiscovery/wizard/ipnetwork.md)
+- [Scan IP Network](/docs/accessanalyzer/11.6/enterpriseauditor/admin/hostdiscovery/wizard/ipnetwork.md)
   – Scans a specified range of IP Addresses for active hosts and resolves the names of machines
   using DNS
-- [Query an Active Directory Server (General)](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/hostdiscovery/wizard/adgeneral.md)
+- [Query an Active Directory Server (General)](/docs/accessanalyzer/11.6/enterpriseauditor/admin/hostdiscovery/wizard/adgeneral.md)
   – Scans the default domain controller or a specified server for all computer objects, can be
   scoped
-- [Query an Active Directory Server (Discover Exchange servers)](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/hostdiscovery/wizard/adexchange.md)
+- [Query an Active Directory Server (Discover Exchange servers)](/docs/accessanalyzer/11.6/enterpriseauditor/admin/hostdiscovery/wizard/adexchange.md)
   – Scans the default domain controller or a specified server but is scoped to return only computer
   objects sitting in the configuration container for Exchange servers
-- [Query an Active Directory server (Discover Domain Controllers)](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/hostdiscovery/wizard/addomaincontrollers.md)
+- [Query an Active Directory server (Discover Domain Controllers)](/docs/accessanalyzer/11.6/enterpriseauditor/admin/hostdiscovery/wizard/addomaincontrollers.md)
   – Scans the default domain controller or a specified server but is scoped to return only machines
   which are domain controllers
-- [Import From a Local CSV File](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/hostdiscovery/wizard/csv.md)
+- [Import From a Local CSV File](/docs/accessanalyzer/11.6/enterpriseauditor/admin/hostdiscovery/wizard/csv.md)
   – Imports a host list from a specified CSV file
-- [Import From a Database](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/hostdiscovery/wizard/database.md)
+- [Import From a Database](/docs/accessanalyzer/11.6/enterpriseauditor/admin/hostdiscovery/wizard/database.md)
   – Imports a host list from a specified SQL Server database
 
 **NOTE:** The Advanced Options checkbox in the lower-left corner is a legacy item and should not be

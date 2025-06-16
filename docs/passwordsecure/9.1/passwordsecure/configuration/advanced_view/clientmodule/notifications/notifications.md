@@ -8,7 +8,7 @@ for the currently registered Netwrix Password Secure user. It is not possible to
 notification for another user. Each user can and should define himself which passwords, which
 triggers as well as changes are important and informative for him. The configuration of visibility
 is explained in a similar way to the other modules in one place
-[Visibility](/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/advanced_view/permissionconcept/predefining_rights/protective_mechanisms/visibility/visibility.md)
+[Visibility](/docs/passwordsecure/9.1/passwordsecure/configuration/advanced_view/permissionconcept/predefining_rights/protective_mechanisms/visibility/visibility.md)
 
 ![Notifications modul](/img/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/advanced_view/clientmodule/applications/rdp_and_ssh_applications/recording_a_session/notifications_1-en.webp)
 
@@ -56,9 +56,9 @@ that a notification is really only triggered for relevant events.
 As well as manually configurable notifications, there are other triggers in Netwrix Password Secure
 which will result in notifications.
 
-- [Seals](/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/advanced_view/permissionconcept/predefining_rights/protective_mechanisms/seals/seals.md):
+- [Seals](/docs/passwordsecure/9.1/passwordsecure/configuration/advanced_view/permissionconcept/predefining_rights/protective_mechanisms/seals/seals.md):
   Requests to release sealed records are handled via the notification system
-- [System tasks](/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/advanced_view/mainmenu/extras/system_tasks/system_tasks.md)s:
+- [System tasks](/docs/passwordsecure/9.1/passwordsecure/configuration/advanced_view/mainmenu/extras/system_tasks/system_tasks.md)s:
   If reports are automatically created via the system tasks, these are also made available in the
   form of a notification. If this type of notification is selected, it can be directly opened via
   the corresponding button that appears on the ribbon.
@@ -69,4 +69,4 @@ which will result in notifications.
 
 If desired, notifications can be automatically cleaned up. This option can be configured on the
 **Server Manager**. Further information can be found in the section
-[Managing databases](/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/server_manager/managing_databases/managing_databases.md).
+[Managing databases](/docs/passwordsecure/9.1/passwordsecure/configuration/server_manager/managing_databases/managing_databases.md).

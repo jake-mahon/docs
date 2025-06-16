@@ -3,7 +3,7 @@
 Use the Select DLP criteria for this scan page to configure criteria to use for discovering
 sensitive data. This page requires the Sensitive Data Discovery Add-On to be been installed on the
 Enterprise Auditor Console to define the criteria and enable the Criteria Editor. See the
-[Sensitive Data Discovery Add-On Installation](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/install/sensitivedatadiscovery/overview.md)
+[Sensitive Data Discovery Add-On Installation](/docs/accessanalyzer/11.6/enterpriseauditor/install/sensitivedatadiscovery/overview.md)
 topic for additional information.
 
 The Select DLP Criteria for this scan page is a wizard page for the Scan for Sensitive Content
@@ -24,5 +24,5 @@ Criteria and User Criteria nodes are visible in the table.
 
 Use the **Edit** button to access the Criteria Editor where user-defined criteria can be created or
 customized. See the
-[Sensitive Data Criteria Editor](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/sensitivedatadiscovery/criteriaeditor/overview.md)
+[Sensitive Data Criteria Editor](/docs/accessanalyzer/11.6/enterpriseauditor/sensitivedatadiscovery/criteriaeditor/overview.md)
 topic for additional information.

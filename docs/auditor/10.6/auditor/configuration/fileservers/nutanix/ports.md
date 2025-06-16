@@ -44,5 +44,5 @@ Tip for reading the table: For example, on the computer where Netwrix Auditor Se
 **NOTE:** You need to open the 9898 TCP port for inbound connections manually.
 
 Later, you can specify any custom TCP port when editing your Nutanix Files monitoring plan. See the
-[File Servers](/versioned_docs/auditor_10.6/auditor/admin/monitoringplans/fileservers/overview.md)
+[File Servers](/docs/auditor/10.6/auditor/admin/monitoringplans/fileservers/overview.md)
 (Nutanix section) for more information.

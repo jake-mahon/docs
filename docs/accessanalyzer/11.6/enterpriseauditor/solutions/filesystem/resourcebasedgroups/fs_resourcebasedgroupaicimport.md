@@ -27,7 +27,7 @@ Schedule Frequency
 This job group can be scheduled to run as desired. Throughout this document reference to executing a
 job refers to either manual execution or scheduled execution, according to the needs of the
 organization. See the
-[Scheduling the Resource Based Groups Job Group](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/filesystem/resourcebasedgroups/overview.md#scheduling-the-resource-based-groups-job-group)
+[Scheduling the Resource Based Groups Job Group](/docs/accessanalyzer/11.6/enterpriseauditor/solutions/filesystem/resourcebasedgroups/overview.md#scheduling-the-resource-based-groups-job-group)
 topic for additional information.
 
 History Retention

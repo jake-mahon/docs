@@ -14,7 +14,7 @@ Enterprise Auditor application log.
 
 The Application log level controls the types of messages generated for each job and the application.
 It can be modified at the job level in the **Job Properties** window. See the
-[General Tab](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/jobs/job/properties/general.md)
+[General Tab](/docs/accessanalyzer/11.6/enterpriseauditor/admin/jobs/job/properties/general.md)
 topic for additional information. Options available in the Application log level drop-down menu
 include:
 
@@ -59,7 +59,7 @@ There are two options available in the Profiles stored with drop-down menu:
 
 - Application – Default setting, does not employ the enhanced encryption
 - Vault – Enables the enhanced encryption of stored credentials. See the
-  [Vault](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/settings/application/vault.md)
+  [Vault](/docs/accessanalyzer/11.6/enterpriseauditor/admin/settings/application/vault.md)
   topic for requirements and additional information.
 
 Usage Statistics
@@ -120,7 +120,7 @@ Console.
 
 Filtered data grids are not lost if persistent filters are not saved. The Filtration Dialog
 available for every data grid maintains a list of recent filters. See the
-[Data Grid Functionality](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/navigate/datagrid.md)
+[Data Grid Functionality](/docs/accessanalyzer/11.6/enterpriseauditor/admin/navigate/datagrid.md)
 topic for additional information.
 
 Cleanup

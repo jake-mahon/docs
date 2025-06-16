@@ -2,7 +2,7 @@
 
 The FS_DeleteFiles_Status job is designed to report on deleted resources from targeted file servers
 that were deleted from the FS_DeleteFiles job. See the
-[FS_DeleteFiles Job](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/filesystem/cleanup/delete/fs_deletefiles.md) topic
+[FS_DeleteFiles Job](/docs/accessanalyzer/11.6/enterpriseauditor/solutions/filesystem/cleanup/delete/fs_deletefiles.md) topic
 for additional information.
 
 ## Analysis Tasks for the FS_DeleteFiles_Status Job

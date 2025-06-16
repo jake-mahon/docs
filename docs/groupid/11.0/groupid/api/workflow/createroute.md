@@ -15,9 +15,9 @@ following:
 - Approver - the object to send the workflow request for approval.
 
 See the
-[Create a New Workflow](/versioned_docs/groupid_11.0/groupid/admincenter/workflow/implement.md#create-a-new-workflow)
+[Create a New Workflow](/docs/groupid/11.0/groupid/admincenter/workflow/implement.md#create-a-new-workflow)
 section of the
-[Implement Workflows](/versioned_docs/groupid_11.0/groupid/admincenter/workflow/implement.md) topic
+[Implement Workflows](/docs/groupid/11.0/groupid/admincenter/workflow/implement.md) topic
 for additional information.
 
 ## Endpoint
@@ -140,5 +140,5 @@ POST
 
 See Also
 
-- [Common Errors](/versioned_docs/groupid_11.0/groupid/api/commonerrors.md)
-- [Workflow APIs](/versioned_docs/groupid_11.0/groupid/api/workflow/workflowapis.md)
+- [Common Errors](/docs/groupid/11.0/groupid/api/commonerrors.md)
+- [Workflow APIs](/docs/groupid/11.0/groupid/api/workflow/workflowapis.md)

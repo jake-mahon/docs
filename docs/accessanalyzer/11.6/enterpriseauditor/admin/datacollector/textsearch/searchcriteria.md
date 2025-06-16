@@ -10,7 +10,7 @@ The configurable functions are:
 - Use advanced criteria (instead of simple criteria) – Select this checkbox to display the Advanced
   Criteria page and configure the search with additional filtering options. Advanced search criteria
   is configured on the Advanced Criteria page. See the
-  [TextSearch: Advanced Criteria](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/textsearch/advancedcriteria.md) topic
+  [TextSearch: Advanced Criteria](/docs/accessanalyzer/11.6/enterpriseauditor/admin/datacollector/textsearch/advancedcriteria.md) topic
   for additional information.
 - Simple Criteria
 

@@ -11,14 +11,14 @@ The buttons have these functions:
 
     - Access — Grants access to the My Activities page. Activities are be displayed as individual
       cards, organized alphabetically or by Access Policy. See the
-      [My Activities Page](/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/revieweruser/access/myactivities.md)
+      [My Activities Page](/docs/privilegesecure/4.1/privilegesecure/accessmanagement/revieweruser/access/myactivities.md)
       topic for additional. information.
     - Dashboard — View summaries of recent activity logs and user sessions. See the
-      [Dashboard Interface](/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/revieweruser/dashboard/overview.md)
+      [Dashboard Interface](/docs/privilegesecure/4.1/privilegesecure/accessmanagement/revieweruser/dashboard/overview.md)
       topic for additional information.
     - Audit & Reporting Interface — Audit user access entitlement (Access Certification). This
       interface is limited to Reviewers. See the
-      [Audit and Reporting Page](/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/revieweruser/auditreporting/auditandreportingpage.md)
+      [Audit and Reporting Page](/docs/privilegesecure/4.1/privilegesecure/accessmanagement/revieweruser/auditreporting/auditandreportingpage.md)
       topic for additional information.
 
 - Help — Opens the
@@ -29,7 +29,7 @@ The buttons have these functions:
     - Dark Mode — Toggle “Dark Mode” for the console. Hover over the toggle switch to see a preview
       of Dark Mode.
     - Product Tour — Re-starts walk-through of Privilege Secure features. See the
-      [Product Tour](/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/revieweruser/producttour.md)
+      [Product Tour](/docs/privilegesecure/4.1/privilegesecure/accessmanagement/revieweruser/producttour.md)
       topic for additional information.
     - Logout — Signs the user out of the current session and opens the Login screen
     - About — Shows version and license information for the console

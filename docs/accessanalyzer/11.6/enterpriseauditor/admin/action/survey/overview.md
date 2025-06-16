@@ -25,16 +25,16 @@ The Survey action module is configured through the Survey Action Module Wizard, 
 following wizard pages:
 
 - Welcome
-- [Survey: Template](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/action/survey/template.md)
+- [Survey: Template](/docs/accessanalyzer/11.6/enterpriseauditor/admin/action/survey/template.md)
   (Legacy feature)
-- [Survey: Introduction](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/action/survey/introduction.md)
-- [Survey: Questions](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/action/survey/questions.md)
-- [Survey HTML Style](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/action/survey/htmlstyle.md)
-- [Survey: Web Server](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/action/survey/webserver.md)
-- [Survey: Mail – Properties](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/action/survey/mailproperties.md)
-- [Survey: Mail – Message](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/action/survey/mailmessage.md)
-- [Survey: Test Survey](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/action/survey/testsurvey.md)
-- [Survey: Summary](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/action/survey/summary.md)
+- [Survey: Introduction](/docs/accessanalyzer/11.6/enterpriseauditor/admin/action/survey/introduction.md)
+- [Survey: Questions](/docs/accessanalyzer/11.6/enterpriseauditor/admin/action/survey/questions.md)
+- [Survey HTML Style](/docs/accessanalyzer/11.6/enterpriseauditor/admin/action/survey/htmlstyle.md)
+- [Survey: Web Server](/docs/accessanalyzer/11.6/enterpriseauditor/admin/action/survey/webserver.md)
+- [Survey: Mail – Properties](/docs/accessanalyzer/11.6/enterpriseauditor/admin/action/survey/mailproperties.md)
+- [Survey: Mail – Message](/docs/accessanalyzer/11.6/enterpriseauditor/admin/action/survey/mailmessage.md)
+- [Survey: Test Survey](/docs/accessanalyzer/11.6/enterpriseauditor/admin/action/survey/testsurvey.md)
+- [Survey: Summary](/docs/accessanalyzer/11.6/enterpriseauditor/admin/action/survey/summary.md)
 
 The Welcome page displays first and gives an overview of the action module. The navigation pane
 contains links to the pages in the wizard.

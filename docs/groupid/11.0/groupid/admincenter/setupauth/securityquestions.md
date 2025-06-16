@@ -24,12 +24,12 @@ What do you want to do?
 ## Modify the Global Question Pool
 
 See the
-[Manage the Global Question Pool ](/versioned_docs/groupid_11.0/groupid/admincenter/general/globalpool.md)topic.
+[Manage the Global Question Pool ](/docs/groupid/11.0/groupid/admincenter/general/globalpool.md)topic.
 
 ## Modify the Local Question Pool
 
 See the
-[Manage the Local Question Pool](/versioned_docs/groupid_11.0/groupid/admincenter/identitystore/configure/security/securityquestions.md)
+[Manage the Local Question Pool](/docs/groupid/11.0/groupid/admincenter/identitystore/configure/security/securityquestions.md)
 topic.
 
 ## Enable Security Question Authentication for an Identity Store
@@ -38,13 +38,13 @@ The security question authentication type must be enabled for an identity store 
 it for second factor authentication and multifactor authentication.
 
 To enable it, see the
-[Enable Authentication Types](/versioned_docs/groupid_11.0/groupid/admincenter/identitystore/configure/authtypes.md)
+[Enable Authentication Types](/docs/groupid/11.0/groupid/admincenter/identitystore/configure/authtypes.md)
 topic.
 
 ## Enforce Security Question Authentication for a Role in an Identity Store
 
 To enforce an authentication type, see the
-[Enforce Authentication Types for Multifactor Authentication](/versioned_docs/groupid_11.0/groupid/admincenter/securityrole/policy/authentication.md#enforce-authentication-types-for-multifactor-authentication)
+[Enforce Authentication Types for Multifactor Authentication](/docs/groupid/11.0/groupid/admincenter/securityrole/policy/authentication.md#enforce-authentication-types-for-multifactor-authentication)
 topic.
 
 Role members must use an enforced authentication type for multifactor authentication. When an
@@ -54,9 +54,9 @@ and authentication.
 ## Specify Policies for Security Question Authentication
 
 See the
-[Define Security Question Settings for a Security Role](/versioned_docs/groupid_11.0/groupid/admincenter/securityrole/policy/password.md#define-security-question-settings-for-a-security-role) topic.
+[Define Security Question Settings for a Security Role](/docs/groupid/11.0/groupid/admincenter/securityrole/policy/password.md#define-security-question-settings-for-a-security-role) topic.
 
 See Also
 
-- [Authentication Policy](/versioned_docs/groupid_11.0/groupid/admincenter/identitystore/configure/authpolicy.md)
-- [Manage the Local Question Pool](/versioned_docs/groupid_11.0/groupid/admincenter/identitystore/configure/security/securityquestions.md)
+- [Authentication Policy](/docs/groupid/11.0/groupid/admincenter/identitystore/configure/authpolicy.md)
+- [Manage the Local Question Pool](/docs/groupid/11.0/groupid/admincenter/identitystore/configure/security/securityquestions.md)

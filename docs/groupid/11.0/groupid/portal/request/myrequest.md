@@ -13,6 +13,6 @@ to view more details, such as the field changed along with its old and new value
 
 **See Also**
 
-- [Requests](/versioned_docs/groupid_11.0/groupid/portal/request/overview.md)
-- [All Requests](/versioned_docs/groupid_11.0/groupid/portal/request/allrequest.md)
-- [Request Inbox](/versioned_docs/groupid_11.0/groupid/portal/request/pending.md)
+- [Requests](/docs/groupid/11.0/groupid/portal/request/overview.md)
+- [All Requests](/docs/groupid/11.0/groupid/portal/request/allrequest.md)
+- [Request Inbox](/docs/groupid/11.0/groupid/portal/request/pending.md)

@@ -8,10 +8,10 @@ you to take corrective measures in the required area, ensuring the IT risks stay
 
 Risk assessment dashboard can be accessed by clicking the Risk assessment tile in the main window of
 Netwrix Auditor. For details about using the dashboard, see
-[IT Risk Assessment Dashboard](/versioned_docs/auditor_10.6/auditor/admin/riskassessment/dashboard.md).
+[IT Risk Assessment Dashboard](/docs/auditor/10.6/auditor/admin/riskassessment/dashboard.md).
 
 For details about metrics calculation, see
-[How Risk Levels Are Estimated ](/versioned_docs/auditor_10.6/auditor/admin/riskassessment/levels.md).
+[How Risk Levels Are Estimated ](/docs/auditor/10.6/auditor/admin/riskassessment/levels.md).
 
 ## Providing Data for Risk Assessment
 
@@ -53,7 +53,7 @@ have at least one item added. See the following table for the certain reports:
 
 **NOTE:** Risks marked with (\*) require both pre-configured NDC SQL database connection and NDC API
 connection. To check configuration status, go to Settings > Sensitive Data Discovery. See
-[Sensitive Data Discovery ](/versioned_docs/auditor_10.6/auditor/admin/settings/sensitivedatadiscovery.md)for
+[Sensitive Data Discovery ](/docs/auditor/10.6/auditor/admin/settings/sensitivedatadiscovery.md)for
 more information.
 
 **NOTE:** Right after setting up the integration the drill down reports might be empty, while the
@@ -67,7 +67,7 @@ to the audit database.
 
 Also, consider that all risk metrics and related reports require state-in-time data to be collected.
 You can select the relevant option when creating a new monitoring plan, as described in the
-[Create a New Monitoring Plan](/versioned_docs/auditor_10.6/auditor/admin/monitoringplans/create.md)
+[Create a New Monitoring Plan](/docs/auditor/10.6/auditor/admin/monitoringplans/create.md)
 section. For the exising plan, refer to the procedure below.
 
 To verify the necessary settings of the existing plan

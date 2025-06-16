@@ -42,10 +42,10 @@
 15. Save your changes.
 16. Start Netwrix Auditor.
 17. Navigate to your monitoring plan for Network Devices. See
-    [Monitoring Plans](/versioned_docs/auditor_10.6/auditor/admin/monitoringplans/overview.md)
+    [Monitoring Plans](/docs/auditor/10.6/auditor/admin/monitoringplans/overview.md)
 18. Provide the IP address of the interface you specified on the step 14 as the Computer item for
     your monitoring plan. See
-    [Active Directory](/versioned_docs/auditor_10.6/auditor/admin/monitoringplans/activedirectory/overview.md)
+    [Active Directory](/docs/auditor/10.6/auditor/admin/monitoringplans/activedirectory/overview.md)
 
 ## Pulse Secure Devices
 

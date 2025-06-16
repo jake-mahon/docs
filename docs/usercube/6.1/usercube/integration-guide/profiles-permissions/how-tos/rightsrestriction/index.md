@@ -31,7 +31,7 @@ Assign a profile based on users' dimensions by proceeding as follows:
     >
     > ```
 
-    [See more details on dimensions](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/metadata/dimension/index.md).
+    [See more details on dimensions](/docs/usercube/6.1/usercube/integration-guide/toolkit/xml-configuration/metadata/dimension/index.md).
 
 2. Write profile rules and profile rule contexts to make the previously created dimensions act as
    filters in rules meant to assign profiles to users.
@@ -46,10 +46,10 @@ Assign a profile based on users' dimensions by proceeding as follows:
     > ```
 
     The profile rule context must use a
-    [`SubBinding`](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/access-control/profilerulecontext/index.md)
+    [`SubBinding`](/docs/usercube/6.1/usercube/integration-guide/toolkit/xml-configuration/access-control/profilerulecontext/index.md)
     to define the entity type that contains the dimension information.
 
-    [See more details on profile rule contexts](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/access-control/profilerulecontext/index.md).
+    [See more details on profile rule contexts](/docs/usercube/6.1/usercube/integration-guide/toolkit/xml-configuration/access-control/profilerulecontext/index.md).
 
 ## Limit an Entity's Visibility
 
@@ -65,7 +65,7 @@ Limit an entity's visibility by proceeding as follows:
     >
     > ```
 
-    [See more details on property groups](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/access-control/accesscontrolpropertygroup/index.md).
+    [See more details on property groups](/docs/usercube/6.1/usercube/integration-guide/toolkit/xml-configuration/access-control/accesscontrolpropertygroup/index.md).
 
 2. Create an access control entity type to list all the properties whose visibility must be
    restricted, and link them to a visibility group.
@@ -133,4 +133,4 @@ the profile.
 >
 > ```
 
-[See more details on access control filters](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/access-control/accesscontrolrule/index.md).
+[See more details on access control filters](/docs/usercube/6.1/usercube/integration-guide/toolkit/xml-configuration/access-control/accesscontrolrule/index.md).

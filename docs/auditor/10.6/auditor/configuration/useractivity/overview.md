@@ -46,8 +46,8 @@ You can configure your IT Infrastructure for monitoring in one of the following
 
 See the following topics for additional information:
 
-- [Configure Data Collection Settings](/versioned_docs/auditor_10.6/auditor/configuration/useractivity/datacollection.md)
-- [Configure Video Recordings Playback Settings](/versioned_docs/auditor_10.6/auditor/configuration/useractivity/videorecordings.md)
+- [Configure Data Collection Settings](/docs/auditor/10.6/auditor/configuration/useractivity/datacollection.md)
+- [Configure Video Recordings Playback Settings](/docs/auditor/10.6/auditor/configuration/useractivity/videorecordings.md)
 
 ## User Sessions
 

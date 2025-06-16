@@ -1,7 +1,7 @@
 # Existing Assignments
 
 The
-[Compute Role Model](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/jobs/tasks/server/computerolemodeltask/index.md)
+[Compute Role Model](/docs/usercube/6.1/usercube/integration-guide/toolkit/xml-configuration/jobs/tasks/server/computerolemodeltask/index.md)
 task can deduce from synchronized data a list of assignments for every identity.
 
 ## Overview

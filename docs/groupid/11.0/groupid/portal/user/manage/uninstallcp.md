@@ -25,5 +25,5 @@ You can uninstall GroupID Credential Provider using one of the following:
 
 See Also
 
-- [Install GroupID Credential Provider](/versioned_docs/groupid_11.0/groupid/portal/user/manage/installcp.md)
-- [ GroupID Credential Provider](/versioned_docs/groupid_11.0/groupid/portal/user/manage/credentialprovider.md)
+- [Install GroupID Credential Provider](/docs/groupid/11.0/groupid/portal/user/manage/installcp.md)
+- [ GroupID Credential Provider](/docs/groupid/11.0/groupid/portal/user/manage/credentialprovider.md)

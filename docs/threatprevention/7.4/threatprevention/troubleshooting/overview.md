@@ -25,7 +25,7 @@ blocking:
 Best Practice #2 – Database Maintenance? Use It!
 
 The
-[Database Maintenance Window](/versioned_docs/threatprevention_7.4/threatprevention/admin/configuration/databasemaintenance/overview.md)
+[Database Maintenance Window](/docs/threatprevention/7.4/threatprevention/admin/configuration/databasemaintenance/overview.md)
 enables you to set options that automatically groom the database to optimize performance.  
 Whether choosing to archive or delete data, this is always a good feature to enable.
 
@@ -72,7 +72,7 @@ resolve the issue, the Threat Prevention administrator should check if the Agen
 manual start. The most likely solution is to upgrade to the latest version of the Agent.
 
 **_RECOMMENDED:_** Activate an email notification for the _LSASS process terminated_ alert. See the
-[Enable the 'LSASS Process Terminated' Email Alert](/versioned_docs/threatprevention_7.4/threatprevention/troubleshooting/lsass.md#enable-the-lsass-process-terminated-email-alert)
+[Enable the 'LSASS Process Terminated' Email Alert](/docs/threatprevention/7.4/threatprevention/troubleshooting/lsass.md#enable-the-lsass-process-terminated-email-alert)
 topic for additional information.
 
 FAQ: The user interface is not displaying correctly and windows are cut off. What should I do?
@@ -93,7 +93,7 @@ in a loss of Authentication event data. However, this will not impact Active Dir
 FAQ: How can I prevent flooding the memory with authentication traffic?
 
 The options in the
-[Event Filtering Configuration Window](/versioned_docs/threatprevention_7.4/threatprevention/admin/configuration/eventfilteringconfiguration.md)
+[Event Filtering Configuration Window](/docs/threatprevention/7.4/threatprevention/admin/configuration/eventfilteringconfiguration.md)
 provide administrators with a method of filtering out authentication event data from selected hosts
 and/or accounts. These options can be configured to ignore authentication traffic from sources known
 to be safe. This affects what gets sent to the Agent. It will have a direct impact on scalability

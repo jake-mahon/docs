@@ -36,7 +36,7 @@ the credentials are valid.
 Compact is free to use, and should only be removed if you move the database to SQL Server. SQL
 Server Compact is an embedded database. Unlike SQL Server, you do not need to configure or manage
 it. See the
-[Working with the Database](/versioned_docs/passwordreset_3.23/password_reset/administration/working_with_the_database.md)
+[Working with the Database](/docs/passwordreset/3.23/password_reset/administration/working_with_the_database.md)
 topic for additional information.
 
 ## Installation Types
@@ -86,7 +86,7 @@ account. The account will be created and added to the Domain Admins group if it 
 
 **NOTE:** You can remove the account from the Domain Admins group later. If using an existing
 account, make sure it has the required permissions. See the
-[Securing Password Reset](/versioned_docs/passwordreset_3.23/password_reset/administration/securing_password_reset.md)
+[Securing Password Reset](/docs/passwordreset/3.23/password_reset/administration/securing_password_reset.md)
 topic for additional information.
 
 **Step 8 –** Click **Next**.
@@ -150,7 +150,7 @@ account. The account will be created and added to the Domain Admins group if it 
 
 **NOTE:** You can remove the account from the Domain Admins group later. If using an existing
 account, make sure it has the required permissions. See the
-[Securing Password Reset](/versioned_docs/passwordreset_3.23/password_reset/administration/securing_password_reset.md)
+[Securing Password Reset](/docs/passwordreset/3.23/password_reset/administration/securing_password_reset.md)
 topic for additional information.
 
 **Step 7 –** Make sure the **Create Windows Firewall Exception for the APR Server service** check
@@ -234,7 +234,7 @@ recommended if you have not installed APR before.
 
 The database files are not overwritten during an upgrade, but you should still create a backup
 before upgrading. See the
-[Backing up the Database](/versioned_docs/passwordreset_3.23/password_reset/administration/working_with_the_database.md#backing-up-the-database)
+[Backing up the Database](/docs/passwordreset/3.23/password_reset/administration/working_with_the_database.md#backing-up-the-database)
 topic for additional information.
 
 **The Web Interface files are overwritten during an upgrade. You must backup any customized Web
@@ -266,7 +266,7 @@ between versions should be merged into your customized files.
 The Password Reset V3.23 data console does not read the VerificationCode or EnrollRecord columns
 from the User table on SQL Server. Access to these columns can be denied for Data Console users
 after upgrading all instances of the Data Console. See the
-[Using the Data Console](/versioned_docs/passwordreset_3.23/password_reset/administration/using_the_data_console.md)
+[Using the Data Console](/docs/passwordreset/3.23/password_reset/administration/using_the_data_console.md)
 topic for additional information.
 
 ## Upgrading From APR V2.x
@@ -274,18 +274,18 @@ topic for additional information.
 As this is a major upgrade with many changes, some planning is needed to ensure a smooth upgrade. A
 trial run on a lab network is recommended, especially if you are customizing the user interface. See
 the
-[Editing the HTML Templates](/versioned_docs/passwordreset_3.23/password_reset/administration/editing_the_html_templates.md)
+[Editing the HTML Templates](/docs/passwordreset/3.23/password_reset/administration/editing_the_html_templates.md)
 topic for additional information.
 
 **CAUTION:** APR V3.23 is only compatible with Password Policy Enforcer V7.0 and later. Upgrade PPE
 to a compatible version if you have enabled Password Policy Enforcer integration. See the
-[Configuring Password Reset](/versioned_docs/passwordreset_3.23/password_reset/administration/configuring_password_reset.md)
+[Configuring Password Reset](/docs/passwordreset/3.23/password_reset/administration/configuring_password_reset.md)
 topic for additional information.  
 APR V3.23 does not include a 32-bit APR Server or Web Interface. The computer(s) running the APR
 server components must be running Windows 64-bit. This does not apply to the client computers.  
 APR V3.23 uses HTML5 and CSS3 features that are not supported by Internet Explorer 8 and earlier.
 The
-[Password Reset Client](/versioned_docs/passwordreset_3.23/password_reset/evaluation/password_reset_client.md)
+[Password Reset Client](/docs/passwordreset/3.23/password_reset/evaluation/password_reset_client.md)
 uses Internet Explorer for page rendering, so the default HTML templates do not display correctly in
 the Password Reset Client on Windows XP and Server 2003. Send an e-mail to
 [support@netwrix.com ](mailto:support@anixis.com)before upgrading if you still have computers
@@ -299,7 +299,7 @@ APR V3.23 server components have not been tested on, and are not supported on Wi
 **Step 2 –** Close the Data Console if it is open.
 
 **Step 3 –** Stop the Netwrix Password Reset service and backing up the database. See the
-[Backing up the Database](/versioned_docs/passwordreset_3.23/password_reset/administration/working_with_the_database.md#backing-up-the-database)
+[Backing up the Database](/docs/passwordreset/3.23/password_reset/administration/working_with_the_database.md#backing-up-the-database)
 topic for additional information.
 
 ### Upgrading to V3.23
@@ -350,7 +350,7 @@ folder.
 **Step 9 –** Start the Netwrix Password Reset service.
 
 **Step 10 –** Update the backup script to copy from the new folder. See the
-[Backing up the Database](/versioned_docs/passwordreset_3.23/password_reset/administration/working_with_the_database.md#backing-up-the-database)
+[Backing up the Database](/docs/passwordreset/3.23/password_reset/administration/working_with_the_database.md#backing-up-the-database)
 topic for additional information.
 
 Configure Password Reset Client to use IE7 emulation mode

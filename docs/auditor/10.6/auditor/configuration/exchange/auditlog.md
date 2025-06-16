@@ -13,7 +13,7 @@ Logging (AAL) settings are configured as follows:
 | ExcludedCmdlets       | \*-InboxRule, \*-MailboxAutoReplyConfiguration, Set-MailboxAuditBypassAssociation, Set-MailboxAutoReplyConfiguration, Set-MailboxCalendarConfiguration, Set-MailboxCalendarFolder, Set-MailboxFolderPermission, Set-MailboxJunkEmailConfiguration, Set-MailboxMessageConfiguration, Set-MailboxRegionalConfiguration, Set-MailboxSpellingConfiguration | This list of exclusions is set up as explained in step 3 of the procedure below. |
 
 You can configure these settings automatically using Netwrix Auditor, as described in the
-[Active Directory: Automatic Configuration](/versioned_docs/auditor_10.6/auditor/configuration/activedirectory/automatic.md)
+[Active Directory: Automatic Configuration](/docs/auditor/10.6/auditor/configuration/activedirectory/automatic.md)
 topic.
 
 To configure them manually, refer to the procedure described below.

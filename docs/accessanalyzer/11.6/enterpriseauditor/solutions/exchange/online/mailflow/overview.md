@@ -8,16 +8,16 @@ reporting in the Enterprise Auditor database.
 
 The jobs in the Mailflow job group are:
 
-- [0. Collection > EX_Mailflow Job](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/exchange/online/mailflow/ex_mailflow.md)
+- [0. Collection > EX_Mailflow Job](/docs/accessanalyzer/11.6/enterpriseauditor/solutions/exchange/online/mailflow/ex_mailflow.md)
   – Collects message trace data from an Office 365 server
-- [EX_Mailflow_DL Job](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/exchange/online/mailflow/ex_mailflow_dl.md)
+- [EX_Mailflow_DL Job](/docs/accessanalyzer/11.6/enterpriseauditor/solutions/exchange/online/mailflow/ex_mailflow_dl.md)
   – Comprised of analysis and reports which provide information around distribution list usage
-- [EX_Mailflow_Domain Job](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/exchange/online/mailflow/ex_mailflow_domain.md)
+- [EX_Mailflow_Domain Job](/docs/accessanalyzer/11.6/enterpriseauditor/solutions/exchange/online/mailflow/ex_mailflow_domain.md)
   – Comprised of analysis and reports which provide information about which domains mail flow is
   going to and coming from
-- [EX_Mailflow_Mailbox Job](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/exchange/online/mailflow/ex_mailflow_mailbox.md)
+- [EX_Mailflow_Mailbox Job](/docs/accessanalyzer/11.6/enterpriseauditor/solutions/exchange/online/mailflow/ex_mailflow_mailbox.md)
   – Comprised of analysis and reports which provide information around each user's mail-flow in the
   organization
-- [EX_Mailflow_OrgOverview Job](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/exchange/online/mailflow/ex_mailflow_orgoverview.md)
+- [EX_Mailflow_OrgOverview Job](/docs/accessanalyzer/11.6/enterpriseauditor/solutions/exchange/online/mailflow/ex_mailflow_orgoverview.md)
   – Comprised of analysis and reports which provide information around the overall traffic in the
   organization

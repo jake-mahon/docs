@@ -1,20 +1,20 @@
 # Create a Policy
 
 How to define
-[policies](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/provisioning/policy/index.md)
+[policies](/docs/usercube/6.1/usercube/integration-guide/toolkit/xml-configuration/provisioning/policy/index.md)
 to organize roles and rules.
 
 ## Overview
 
 A
-[policy](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/provisioning/policy/index.md)
+[policy](/docs/usercube/6.1/usercube/integration-guide/toolkit/xml-configuration/provisioning/policy/index.md)
 is a subgroup of the role model. It defines an ensemble of
-[roles](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/single-roles-catalog-creation/index.md)
+[roles](/docs/usercube/6.1/usercube/user-guide/set-up/single-roles-catalog-creation/index.md)
 and
-[assignment rules](/versioned_docs/usercube_6.1/usercube/user-guide/optimize/assignment-automation/index.md)
+[assignment rules](/docs/usercube/6.1/usercube/user-guide/optimize/assignment-automation/index.md)
 that apply to specific identities. So policies are used to handle separately several sets of
 identities, based on
-[dimensions](/versioned_docs/usercube_6.1/usercube/integration-guide/role-assignment/conformingassignmentcomputation/index.md#dimensions)
+[dimensions](/docs/usercube/6.1/usercube/integration-guide/role-assignment/conformingassignmentcomputation/index.md#dimensions)
 with different permissions and workflows.
 
 Integrators must minimize the number of policies because it segments identities, and segmentation
@@ -33,7 +33,7 @@ Integrators must have the knowledge of the organization strategy towards identit
 
 | Input                                                                                                                              | Output |
 | ---------------------------------------------------------------------------------------------------------------------------------- | ------ |
-| [Resource type](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/categorization/resource-type-creation/index.md) (optional) | Policy |
+| [Resource type](/docs/usercube/6.1/usercube/user-guide/set-up/categorization/resource-type-creation/index.md) (optional) | Policy |
 
 ## Create a Policy
 
@@ -55,14 +55,14 @@ Create a policy by proceeding as follows:
     - `Identifier`: must be unique among policies and without any whitespace.
     - `Name`: will be displayed in the UI to identify the resource type.
     - `Provisioning`: allows
-      [provisioning](/versioned_docs/usercube_6.1/usercube/user-guide/administrate/provisioning/index.md)
+      [provisioning](/docs/usercube/6.1/usercube/user-guide/administrate/provisioning/index.md)
       for the policy.
     - `Simulation`: allows
-      [simulation](/versioned_docs/usercube_6.1/usercube/user-guide/optimize/simulation/index.md)
+      [simulation](/docs/usercube/6.1/usercube/user-guide/optimize/simulation/index.md)
       creation for the policy.
     - `Approve Roles Implicitly`: can be enabled to bypass approval steps if the person who issues a
       given role request is also the
-      [role officer](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/role-officer-management/index.md).
+      [role officer](/docs/usercube/6.1/usercube/user-guide/set-up/role-officer-management/index.md).
     - `Roles can be prolonged without a new approval workflow`: enables the policy's roles and
       resource types to have their assignment's end dates postponed without any validation.
     - `Is Managed by External Source`: can be enabled only during policy creation to indicate that

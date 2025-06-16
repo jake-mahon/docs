@@ -3,7 +3,7 @@
 ## Linking filters
 
 The two options for linking the filter criteria are very easy to explain using the example of
-[Tags](/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/advanced_view/operation_and_setup/tags/tags.md).
+[Tags](/docs/passwordsecure/9.1/passwordsecure/configuration/advanced_view/operation_and_setup/tags/tags.md).
 The following options are available:
 
 1. Logical “Or operator”
@@ -34,7 +34,7 @@ for this example.
 ## Filter tab in the ribbon
 
 The filter management can also be found in the
-[Ribbon](/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/advanced_view/operation_and_setup/ribbon/ribbon.md).
+[Ribbon](/docs/passwordsecure/9.1/passwordsecure/configuration/advanced_view/operation_and_setup/ribbon/ribbon.md).
 Here, it is possible e.g. to expand the currently configured filter criteria, save the filter, or
 simply clear all currently applied filters.
 

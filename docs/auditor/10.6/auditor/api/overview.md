@@ -48,7 +48,7 @@ Complete the following fields:
 | Specify a name for your integration | Specify the add-on name or provide any other name that distinguishes this custom source from any other. This name will be listed in the Item filter in the interactive search. |
 
 Make sure Integration API is enabled. To check it, navigate to Settings → Integrations tab. See
-[Integrations](/versioned_docs/auditor_10.6/auditor/admin/settings/integrations.md) for more
+[Integrations](/docs/auditor/10.6/auditor/admin/settings/integrations.md) for more
 information.
 
 Make sure to provide a monitoring plan name and item name in activity records before importing data.

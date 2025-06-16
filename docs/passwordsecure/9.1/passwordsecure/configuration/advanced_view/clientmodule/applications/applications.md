@@ -12,7 +12,7 @@ automatic logon to almost any kind of software.
 ![applications module](/img/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/advanced_view/clientmodule/applications/applications_1-en.webp)
 
 - Automatic logins to websites are covered by the
-  [Autofill Add-on](/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/autofill_add-on/autofill_add-on.md).
+  [Autofill Add-on](/docs/passwordsecure/9.1/passwordsecure/configuration/autofill_add-on/autofill_add-on.md).
 
 ## The four types of applications
 
@@ -24,14 +24,14 @@ applications.
 In terms of how they are handled, **RDP and SSH** applications can be covered together. Both types
 of application can be (optionally) "embedded" in Netwrix Password Secure. The relevant session then
 opens in its own tab in the
-[Reading pane](/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/advanced_view/operation_and_setup/readingpane/reading_pane.md).
+[Reading pane](/docs/passwordsecure/9.1/passwordsecure/configuration/advanced_view/operation_and_setup/readingpane/reading_pane.md).
 All other forms of automatic logins are summarized in the **SSO applications** and **web
 applications** categories. How exactly these logins are created and used is covered in the next
 section and in the web applications chapter. They include all forms of Windows login masks and also
 applications for websites. In contrast to RDP and SSH applications, they cannot be started embedded
 in Netwrix Password Secure but are instead opened as usual in their own window. These SSO
 applications need to be defined in advance. In Netwrix Password Secure, this is also described as
-[Learning the applications](/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/advanced_view/clientmodule/applications/learning_the_applications/learning_the_applications.md).
+[Learning the applications](/docs/passwordsecure/9.1/passwordsecure/configuration/advanced_view/clientmodule/applications/learning_the_applications/learning_the_applications.md).
 In contrast, RDP and SSH can be both completely defined and also started within Netwrix Password
 Secure.
 

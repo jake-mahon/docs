@@ -7,7 +7,7 @@ The General tab is for editing the basic attributes of the template.
 Name
 
 The name should be unique and descriptive. It is displayed for a template in the list on the
-[Templates Interface](/versioned_docs/threatprevention_7.4/threatprevention/admin/templates/overview.md).
+[Templates Interface](/docs/threatprevention/7.4/threatprevention/admin/templates/overview.md).
 
 Description
 
@@ -15,7 +15,7 @@ The description is optional but recommended. Since each policy can be configured
 narrow as desired, the name combined with the description should clearly explain what objects and
 events it monitors/blocks, where in the network it looks, and when it is active. The description is
 displayed for a template in the list on the
-[Templates Interface](/versioned_docs/threatprevention_7.4/threatprevention/admin/templates/overview.md).
+[Templates Interface](/docs/threatprevention/7.4/threatprevention/admin/templates/overview.md).
 
 All changes made to a template must be saved before leaving the configuration interface.
 
@@ -27,7 +27,7 @@ create a duplicate template, but rather display the template in different folder
 node. Multiple tags can be identified for a template with a comma-separated list. New tags can be
 created, which create a new folder under the TAGS node. Use the right-click Refresh option on the
 TAGS node in the Navigation pane to display new tags and/or display template-tag modifications. See
-the [Tags Node](/versioned_docs/threatprevention_7.4/threatprevention/admin/tags/overview.md) topic
+the [Tags Node](/docs/threatprevention/7.4/threatprevention/admin/tags/overview.md) topic
 for additional information.
 
 ## History
@@ -52,7 +52,7 @@ The schedule is for setting the time period for an enabled policy to monitor or 
 
 Any new policy created from a template automatically applies the template’s setting, which can then
 be modified as desired. Schedule details are displayed for a template in the list on the
-[Templates Interface](/versioned_docs/threatprevention_7.4/threatprevention/admin/templates/overview.md).
+[Templates Interface](/docs/threatprevention/7.4/threatprevention/admin/templates/overview.md).
 Active at Specified Times is represented by a clock icon, and Always Active is represented with no
 icon, or blank.
 

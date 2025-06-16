@@ -8,9 +8,9 @@ enabling/connecting to cluster nodes.
 On the **FPolicy** tab, the agent can configure and/or enable FPolicy automatically. The recommended
 setting is dependent on the type of NetApp device being targeted. The permissions required for each
 option are listed. See the
-[NetApp Data ONTAP 7-Mode Activity Auditing Configuration](/versioned_docs/activitymonitor_7.1/config/netapp7mode/activity.md)
+[NetApp Data ONTAP 7-Mode Activity Auditing Configuration](/docs/activitymonitor/7.1/config/netapp7mode/activity.md)
 topic or the
-[NetApp Data ONTAP Cluster-Mode Activity Auditing Configuration](/versioned_docs/activitymonitor_7.1/config/netappcmode/activity.md)
+[NetApp Data ONTAP Cluster-Mode Activity Auditing Configuration](/docs/activitymonitor/7.1/config/netappcmode/activity.md)
 topic for additional information.
 
 At the bottom are two additional tabs with setting options. On this tab, specify the protocols to
@@ -23,7 +23,7 @@ monitor by selecting the radio buttons.
 The Privileged Access tab is enabled when the Configure FPolicy checkbox is selected at the top. The
 Privileged Access tab must be configured if automatic configuration of the FPolicy for NetApp Data
 ONTAP Cluster-Mode devices is used. See the
-[Configure Privileged Access](/versioned_docs/activitymonitor_7.1/activitymonitor/admin/monitoredhosts/add/netapp.md#configure-privileged-access)
+[Configure Privileged Access](/docs/activitymonitor/7.1/activitymonitor/admin/monitoredhosts/add/netapp.md#configure-privileged-access)
 topic for additional information.
 
 ## Enable and Connect settings Tab

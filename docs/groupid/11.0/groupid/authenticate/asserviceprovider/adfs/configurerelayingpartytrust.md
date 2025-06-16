@@ -22,7 +22,7 @@ have to specify the claim rules for authentication.
 7. On the **Configure URL** page, select the **Enable support for the SAML 2.0 Web SSO protocol**
    option button. Then in the **Relying party SAML 2.0 SSL service URL** box, provide the consumer
    URL you generated for the GroupID client. See the
-   [Generate the Consumer URL for a GroupID Client](/versioned_docs/groupid_11.0/groupid/authenticate/asserviceprovider/adfs/generateurls.md#generate-the-consumer-url-for-a-groupid-client)
+   [Generate the Consumer URL for a GroupID Client](/docs/groupid/11.0/groupid/authenticate/asserviceprovider/adfs/generateurls.md#generate-the-consumer-url-for-a-groupid-client)
    topic.  
    The consumer URL is the relying party trust URL, used by AD FS to authenticate.  
    Click **Next**.
@@ -30,7 +30,7 @@ have to specify the claim rules for authentication.
    the audience URL you generated for the GroupID client. Click **Add** next to this box and then
    click **Next**.  
    See the
-   [Generate Entity ID/Audience URL](/versioned_docs/groupid_11.0/groupid/authenticate/asserviceprovider/adfs/generateurls.md#generate-entity-idaudience-url)
+   [Generate Entity ID/Audience URL](/docs/groupid/11.0/groupid/authenticate/asserviceprovider/adfs/generateurls.md#generate-entity-idaudience-url)
    topic.
 9. Use the **Configure Multi-factor Authentication Now?** page to configure multi-factor
    authentication. At present, we will not configure it, so select the **I do not want to configure
@@ -62,5 +62,5 @@ have to specify the claim rules for authentication.
 19. Click the **Delegation Authorization Rules** tab. We do not need to delegate, so click **Apply**
     and then **OK**. The AD FS console is displayed with the new relying party trust added.  
     The next step is to configure the AD FS provider in GroupID. See the
-    [Configure the AD FS Provider In GroupID](/versioned_docs/groupid_11.0/groupid/authenticate/asserviceprovider/adfs/configureadfsingroupid.md)
+    [Configure the AD FS Provider In GroupID](/docs/groupid/11.0/groupid/authenticate/asserviceprovider/adfs/configureadfsingroupid.md)
     topic.

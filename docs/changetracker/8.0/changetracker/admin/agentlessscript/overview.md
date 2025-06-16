@@ -2,5 +2,5 @@
 
 (missing or bad snippet)
 
-- [Predefined Script Variables](/versioned_docs/changetracker_8.0/changetracker/admin/agentlessscript/predefinedscriptvariables.md)
-- [Advanced Configuration](/versioned_docs/changetracker_8.0/changetracker/admin/agentlessscript/advancedconfiguration.md)
+- [Predefined Script Variables](/docs/changetracker/8.0/changetracker/admin/agentlessscript/predefinedscriptvariables.md)
+- [Advanced Configuration](/docs/changetracker/8.0/changetracker/admin/agentlessscript/advancedconfiguration.md)

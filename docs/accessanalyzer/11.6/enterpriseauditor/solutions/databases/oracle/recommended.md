@@ -41,7 +41,7 @@ most customer environments, but it is possible.
 If the required permissions are assigned to one Active Directory credential, once the account has
 been provisioned, create a custom Connection Profile containing the credentials for the targeted
 environment. See the
-[SQL Data Collector](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/sql/overview.md)
+[SQL Data Collector](/docs/accessanalyzer/11.6/enterpriseauditor/admin/datacollector/sql/overview.md)
 topic for additional information on permissions and creating a SQL custom connection profile.
 
 Alternatively, create a connection profile with both the Oracle database credentials and the server
@@ -66,7 +66,7 @@ assigned hosts, click the radio button for the Select one of the following user 
 option and select the appropriate Connection Profile drop-down menu.
 
 See the
-[Connection](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/settings/connection/overview.md)
+[Connection](/docs/accessanalyzer/11.6/enterpriseauditor/admin/settings/connection/overview.md)
 topic for additional information.
 
 Schedule Frequency
@@ -99,7 +99,7 @@ SQL Data Collector configurations can be modified if desired:
 - Filter page – Scope the query to target specific databases/instances in the following jobs:
 
     Remember, it is necessary for the
-    [0-Oracle_Servers Job](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/databases/oracle/collection/0-oracle_servers.md)
+    [0-Oracle_Servers Job](/docs/accessanalyzer/11.6/enterpriseauditor/solutions/databases/oracle/collection/0-oracle_servers.md)
     to run at least once before attempting to scope any of the following queries:
 
     - 1-Oracle_PermissionsScan Job
@@ -125,7 +125,7 @@ Workflow
 
 1. Set a Connection Profile for the 0.Collection Job Group with the permissions listed in the
    Recommended Configurations section. See the
-   [0.Collection Job Group](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/databases/oracle/collection/overview.md)
+   [0.Collection Job Group](/docs/accessanalyzer/11.6/enterpriseauditor/solutions/databases/oracle/collection/overview.md)
    section for additional information.
 2. For Sensitive Data Discovery Auditing – Ensure the Sensitive Data Discovery Add-On is installed
    on the Enterprise AuditorEnterprise Auditor Console server.

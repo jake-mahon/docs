@@ -6,13 +6,13 @@ connection profile assigned to the access policy. All SSH and RDP keystrokes and
 recorded using a granular metadata search that works across both live and recorded sessions.
 
 Click the expand icon for an active session on the
-[Active Dashboard](/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/dashboard/active.md).
+[Active Dashboard](/docs/privilegesecure/4.1/privilegesecure/accessmanagement/admin/dashboard/active.md).
 
 ![Active Session expanded](/img/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/dashboard/window/activesessionexpand.webp)
 
 If the user has logged into the activity session more than once, multiple session recordings will
 display. Only the current session can be viewed live. See the
-[Replay Viewer Window](/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/dashboard/window/replayviewer.md)
+[Replay Viewer Window](/docs/privilegesecure/4.1/privilegesecure/accessmanagement/admin/dashboard/window/replayviewer.md)
 topic for additional information on recorded sessions.
 
 There are two types of Live Session Viewer windows:
@@ -34,11 +34,11 @@ Action options
 
 - Terminate Session icon – Click the icon to disconnect the user and end the session. A confirmation
   window will appear. See the
-  [Terminate Proxy Session Window](/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/dashboard/window/terminateproxysession.md)
+  [Terminate Proxy Session Window](/docs/privilegesecure/4.1/privilegesecure/accessmanagement/admin/dashboard/window/terminateproxysession.md)
   topic for additional information.
 - Lock icon – Opens the Lock Session window to prevent the user from interacting with the host but
   keeps the session active. See the
-  [Lock Session](/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/dashboard/window/locksession.md)
+  [Lock Session](/docs/privilegesecure/4.1/privilegesecure/accessmanagement/admin/dashboard/window/locksession.md)
   topic for additional information.
 
 Session Details
@@ -60,7 +60,7 @@ Activity Details
     **NOTE:** If RDP Session Monitoring is enabled, then it will also include Windows metadata
     activity in the time line. This monitoring requires the Netwrix Privilege Secure Remote Desktop
     Monitor service to be installed on the target host. See the
-    [Install Remote Desktop Monitor Service on Target RDP Hosts](/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/install/rdpmonitor.md)
+    [Install Remote Desktop Monitor Service on Target RDP Hosts](/docs/privilegesecure/4.1/privilegesecure/accessmanagement/install/rdpmonitor.md)
     topic for additional information.
 
 ## Live Session Viewer for SSH Sessions
@@ -75,11 +75,11 @@ Action options
 
 - Terminate Session icon – Click the icon to disconnect the user and end the session. A confirmation
   window will appear. See the
-  [Terminate Proxy Session Window](/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/dashboard/window/terminateproxysession.md)
+  [Terminate Proxy Session Window](/docs/privilegesecure/4.1/privilegesecure/accessmanagement/admin/dashboard/window/terminateproxysession.md)
   topic for additional information.
 - Lock icon – Opens the Lock Session window to prevent the user from interacting with the host but
   keeps the session active. See the
-  [Lock Session](/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/dashboard/window/locksession.md)
+  [Lock Session](/docs/privilegesecure/4.1/privilegesecure/accessmanagement/admin/dashboard/window/locksession.md)
   topic for additional information.
 
 Session Details
@@ -111,11 +111,11 @@ Action options
 
 - Terminate Session icon – Click the icon to disconnect the user and end the session. A confirmation
   window will appear. See the
-  [Terminate Proxy Session Window](/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/dashboard/window/terminateproxysession.md)
+  [Terminate Proxy Session Window](/docs/privilegesecure/4.1/privilegesecure/accessmanagement/admin/dashboard/window/terminateproxysession.md)
   topic for additional information.
 - Lock icon – Opens the Lock Session window to prevent the user from interacting with the host but
   keeps the session active. See the
-  [Lock Session](/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/dashboard/window/locksession.md)
+  [Lock Session](/docs/privilegesecure/4.1/privilegesecure/accessmanagement/admin/dashboard/window/locksession.md)
   topic for additional information.
 
 Recording Details

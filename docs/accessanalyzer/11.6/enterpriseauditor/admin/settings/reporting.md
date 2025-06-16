@@ -10,7 +10,7 @@ reports and the AIC (when applicable).
 The publishing of reports can be disabled at the global level by selecting **Do not publish
 reports** from the Publish Option drop-down menu. It can also be disabled at the job group, job, or
 report configuration level. See the
-[Jobs Tree](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/jobs/overview.md) topic
+[Jobs Tree](/docs/accessanalyzer/11.6/enterpriseauditor/admin/jobs/overview.md) topic
 for additional information.
 
 The **Cancel** and **Save** buttons are in the lower-right corner of the Reporting view. These
@@ -67,7 +67,7 @@ reports which apply to them.
 
 **NOTE:** Email reports does not work unless Enterprise Auditor has been configured to send email
 notifications through the **Notification** node. See the
-[Notification](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/settings/notification.md)
+[Notification](/docs/accessanalyzer/11.6/enterpriseauditor/admin/settings/notification.md)
 topic for additional information.
 
 The **Do Not Email Report If Blank** checkbox prevents reports from being sent via email if all

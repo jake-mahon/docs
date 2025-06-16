@@ -23,7 +23,7 @@ The following analysis tasks are selected by default:
         - This brings up the Edit Table window where the user can manually enter UNC paths of each
           share to be audited or upload a CSV file containing one row for each share to be audited.
           See the
-          [SQLscripting Analysis Module](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/analysis/sqlscripting.md)
+          [SQLscripting Analysis Module](/docs/accessanalyzer/11.6/enterpriseauditor/admin/analysis/sqlscripting.md)
           section for additional information.
     - List one shared folder per row, using the format: \\HOST\SHARE.
 -   2. Direct Permissions – Creates the SA_FS_ShareAudit_DirectPermissions table accessible under

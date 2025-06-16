@@ -28,7 +28,7 @@ The GroupID application comprises of the following main modules or clients:
 ## Initial Admin Center Configurations
 
 After installing and configuring GroupID, the Super Admin is the only user who can sign into Admin
-Center. (See the [Access Admin Center](/versioned_docs/groupid_11.0/groupid/admincenter/signin.md)
+Center. (See the [Access Admin Center](/docs/groupid/11.0/groupid/admincenter/signin.md)
 topic.) This user must create an identity store and configure security roles, so that other users
 can sign in and use the application. The Super Admin can choose to configure further settings or let
 another admin user in an identity store do so.
@@ -38,21 +38,21 @@ perform identity and access management tasks using GroupID:
 
 - **Create and configure identity stores** - An identity store is built on an identity provider and
   enables you to manage objects and object permissions in the provider. See the
-  [Identity Stores](/versioned_docs/groupid_11.0/groupid/admincenter/identitystore/overview.md)
+  [Identity Stores](/docs/groupid/11.0/groupid/admincenter/identitystore/overview.md)
   topic for additional information.
 - **Create data sources** - A data source is built on a provider, such as directories, databases and
   files. Data sources are used as source and destination in Synchronize jobs, in query-based
   searches, and in group membership queries. See the
-  [ Data Sources](/versioned_docs/groupid_11.0/groupid/admincenter/datasource/overview.md) topic.
+  [ Data Sources](/docs/groupid/11.0/groupid/admincenter/datasource/overview.md) topic.
 - **Create a GroupID portal** - Create a web-based GroupID portal and link it to an identity store,
   so that users can carry out user, group, and entitlement management tasks. See the
-  [GroupID Portal](/versioned_docs/groupid_11.0/groupid/admincenter/portal/overview.md) topic.
+  [GroupID Portal](/docs/groupid/11.0/groupid/admincenter/portal/overview.md) topic.
 - **Create an SMS gateway account** - Using an SMS gateway account, GroupID sends text messages to
   users’ mobile numbers, which may include verification codes and password reset links. See the
-  [SMS Gateway](/versioned_docs/groupid_11.0/groupid/admincenter/smsgateway/overview.md) topic.
+  [SMS Gateway](/docs/groupid/11.0/groupid/admincenter/smsgateway/overview.md) topic.
 
 See the
-[Menu Pane](/versioned_docs/groupid_11.0/groupid/admincenter/general/navigation.md#menu-pane) topic
+[Menu Pane](/docs/groupid/11.0/groupid/admincenter/general/navigation.md#menu-pane) topic
 for additional information.
 
 ## Compatibility
@@ -92,8 +92,8 @@ serve the content.
 
 See Also
 
-- [ Installation](/versioned_docs/groupid_11.0/groupid/install/about.md)
-- [Access Admin Center](/versioned_docs/groupid_11.0/groupid/admincenter/signin.md)
-- [Access Portal](/versioned_docs/groupid_11.0/groupid/portal/login.md)
-- [GroupID Management Shell](/versioned_docs/groupid_11.0/groupid/managementshell/overview.md)
-- [GroupID APIs](/versioned_docs/groupid_11.0/groupid/api/welcome.md)
+- [ Installation](/docs/groupid/11.0/groupid/install/about.md)
+- [Access Admin Center](/docs/groupid/11.0/groupid/admincenter/signin.md)
+- [Access Portal](/docs/groupid/11.0/groupid/portal/login.md)
+- [GroupID Management Shell](/docs/groupid/11.0/groupid/managementshell/overview.md)
+- [GroupID APIs](/docs/groupid/11.0/groupid/api/welcome.md)

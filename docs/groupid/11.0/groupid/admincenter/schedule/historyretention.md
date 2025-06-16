@@ -2,7 +2,7 @@
 
 While configuring history tracking for an identity store, you can choose to keep history records
 forever in the GroupID database or retain history for a specific period (see the
-[Configure History Tracking](/versioned_docs/groupid_11.0/groupid/admincenter/identitystore/configure/directoryservice/historytracking.md)
+[Configure History Tracking](/docs/groupid/11.0/groupid/admincenter/identitystore/configure/directoryservice/historytracking.md)
 topic). In case you select the latter option, the History Retention schedule is auto created for the
 identity store. This schedule runs on a specified frequency to check if the retention period is over
 for any history records, and if so, move them from the GroupID database to the following .csv files:
@@ -12,12 +12,12 @@ for any history records, and if so, move them from the GroupID database to the f
   security roles, and workflow configurations.
 - **AuditingHistory** - contains history data of all authentication actions performed in GroupID, as
   logged in Helpdesk history. See the
-  [History in Helpdesk](/versioned_docs/groupid_11.0/groupid/admincenter/helpdesk/history.md) topic.
+  [History in Helpdesk](/docs/groupid/11.0/groupid/admincenter/helpdesk/history.md) topic.
 - **PasswordCenterHistory** - contains history data of all actions tracked in Helpdesk, except the
   authentication action. See the
-  [History in Helpdesk](/versioned_docs/groupid_11.0/groupid/admincenter/helpdesk/history.md) topic.
+  [History in Helpdesk](/docs/groupid/11.0/groupid/admincenter/helpdesk/history.md) topic.
 - **AdminCenterHistory** - contains Admin Center history data. See the
-  [Admin Center History](/versioned_docs/groupid_11.0/groupid/admincenter/general/history.md) topic.
+  [Admin Center History](/docs/groupid/11.0/groupid/admincenter/general/history.md) topic.
 
 These files are available at the following location on the GroupID server:  
 X:\Program Files\Imanami\GroupID
@@ -59,7 +59,7 @@ What do you want to do?
    responsible for triggering this schedule. The number of services displayed in the list depend on
    the number of Elasticsearch clusters in the environment, as each cluster has its own Scheduler
    service. See the
-   [Scheduler Service](/versioned_docs/groupid_11.0/groupid/admincenter/service/schedulerservice.md)
+   [Scheduler Service](/docs/groupid/11.0/groupid/admincenter/service/schedulerservice.md)
    topic.
 8. The **Triggers** area displays the default triggering frequency for the schedule.
 
@@ -67,15 +67,15 @@ What do you want to do?
     - To add a new trigger, click **Add Trigger**.
 
     Follow step 11 in the
-    [Create a Group Usage Service Schedule](/versioned_docs/groupid_11.0/groupid/admincenter/schedule/groupusageservice.md#create-a-group-usage-service-schedule)
+    [Create a Group Usage Service Schedule](/docs/groupid/11.0/groupid/admincenter/schedule/groupusageservice.md#create-a-group-usage-service-schedule)
     topic to manage triggers.
 
 9. Click **Update Schedule**.
 10. On the **Schedules** page, click **Save**.  
     For general schedule info, see the
-    [View the Schedules in an Identity Store ](/versioned_docs/groupid_11.0/groupid/admincenter/schedule/manage.md#view-the-schedules-in-an-identity-store)
+    [View the Schedules in an Identity Store ](/docs/groupid/11.0/groupid/admincenter/schedule/manage.md#view-the-schedules-in-an-identity-store)
     topic.
 
 See Also
 
-- [Schedules](/versioned_docs/groupid_11.0/groupid/admincenter/schedule/overview.md)
+- [Schedules](/docs/groupid/11.0/groupid/admincenter/schedule/overview.md)

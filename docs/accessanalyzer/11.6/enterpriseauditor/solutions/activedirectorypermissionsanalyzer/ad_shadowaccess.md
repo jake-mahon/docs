@@ -18,7 +18,7 @@ This job will analyze the following links between resources and privileges in yo
 - Administrative rights on SQL Servers that hold sensitive data
 
 The AD_ShadowAccess Job has special dependencies. See the
-[Recommended Configurations for AD Permissions Analyzer Solution](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/activedirectorypermissionsanalyzer/recommended.md)
+[Recommended Configurations for AD Permissions Analyzer Solution](/docs/accessanalyzer/11.6/enterpriseauditor/solutions/activedirectorypermissionsanalyzer/recommended.md)
 topic for additional information.
 
 ## Analysis Tasks for the AD_ShadowAccess Job
@@ -121,7 +121,7 @@ Navigate to the **Active Directory Permissions Analyzer** > **AD_ShadowAccess** 
 to view the AD_ShadowAccess job reports.
 
 **NOTE:** These reports can also be accessed through the Web Console. See the
-[Viewing Generated Reports](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/report/view.md)
+[Viewing Generated Reports](/docs/accessanalyzer/11.6/enterpriseauditor/admin/report/view.md)
 topic for additional information.
 
 ![Exploited Permissions and Vulnerabilities on Shadow Access reports](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/activedirectorypermissionsanalyzer/shadowaccessreport1.webp)

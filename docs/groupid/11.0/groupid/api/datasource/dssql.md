@@ -3,9 +3,9 @@
 Use this API to create a new data source.
 
 See the
-[Create a Data Source for SQL Server](/versioned_docs/groupid_11.0/groupid/admincenter/datasource/create.md#create-a-data-source-for-sql-server)
+[Create a Data Source for SQL Server](/docs/groupid/11.0/groupid/admincenter/datasource/create.md#create-a-data-source-for-sql-server)
 section of the
-[Create a Data Source](/versioned_docs/groupid_11.0/groupid/admincenter/datasource/create.md) topic
+[Create a Data Source](/docs/groupid/11.0/groupid/admincenter/datasource/create.md) topic
 for creating an SQL data source using the GroupID interface.
 
 ## Endpoint
@@ -59,5 +59,5 @@ detection.
 
 See Also
 
-- [Data Source APIs](/versioned_docs/groupid_11.0/groupid/api/datasource/datasourceapis.md)
-- [Common Errors](/versioned_docs/groupid_11.0/groupid/api/commonerrors.md)
+- [Data Source APIs](/docs/groupid/11.0/groupid/api/datasource/datasourceapis.md)
+- [Common Errors](/docs/groupid/11.0/groupid/api/commonerrors.md)

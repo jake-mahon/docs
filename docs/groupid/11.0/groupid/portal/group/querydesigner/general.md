@@ -38,4 +38,4 @@ View the provider query in the LDAP Query box.
 
 **See Also**
 
-- [Query Designer](/versioned_docs/groupid_11.0/groupid/portal/group/querydesigner/overview.md)
+- [Query Designer](/docs/groupid/11.0/groupid/portal/group/querydesigner/overview.md)

@@ -1,6 +1,6 @@
 # File Servers
 
-The [ Entitlement](/versioned_docs/groupid_11.0/groupid/portal/entitlement/overview.md) page lists
+The [ Entitlement](/docs/groupid/11.0/groupid/portal/entitlement/overview.md) page lists
 the servers specified for permission analysis in the identity store, displaying granular level
 permission granted to objects on shared files and folders. This data is subject to the date and time
 the permissions were last replicated.
@@ -143,4 +143,4 @@ displayed in the results.
 
 **See Also**
 
-- [ Entitlement](/versioned_docs/groupid_11.0/groupid/portal/entitlement/overview.md)
+- [ Entitlement](/docs/groupid/11.0/groupid/portal/entitlement/overview.md)

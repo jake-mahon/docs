@@ -31,11 +31,11 @@ The following components are installed by the Threat Prevention installation pac
 
 See the following topics for additional information:
 
-- [Application Server Install](/versioned_docs/threatprevention_7.4/threatprevention/install/application.md)
-- [Administration Console Remote Install](/versioned_docs/threatprevention_7.4/threatprevention/install/adminconsole.md)
-- [Agent Information](/versioned_docs/threatprevention_7.4/threatprevention/install/agent/overview.md)
-- [EPE Rest Site Install](/versioned_docs/threatprevention_7.4/threatprevention/install/eperestsite.md)
-- [Reporting Module Installation](/versioned_docs/threatprevention_7.4/threatprevention/install/reportingmodule/overview.md)
+- [Application Server Install](/docs/threatprevention/7.4/threatprevention/install/application.md)
+- [Administration Console Remote Install](/docs/threatprevention/7.4/threatprevention/install/adminconsole.md)
+- [Agent Information](/docs/threatprevention/7.4/threatprevention/install/agent/overview.md)
+- [EPE Rest Site Install](/docs/threatprevention/7.4/threatprevention/install/eperestsite.md)
+- [Reporting Module Installation](/docs/threatprevention/7.4/threatprevention/install/reportingmodule/overview.md)
 
 ## Software Download
 
@@ -55,7 +55,7 @@ The following files are available for download:
 - threatprevention-agent-7.4.x.exe
 - stealthintercept-reporting-2.8.x.zip – Contains the Netwrix Threat Manager Reporting Module
   installer. See the
-  [Reporting Module Installation](/versioned_docs/threatprevention_7.4/threatprevention/install/reportingmodule/overview.md)
+  [Reporting Module Installation](/docs/threatprevention/7.4/threatprevention/install/reportingmodule/overview.md)
   topic for additional information.
 
 ## Antivirus Software Considerations

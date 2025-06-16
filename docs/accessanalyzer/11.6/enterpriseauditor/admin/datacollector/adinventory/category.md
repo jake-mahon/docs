@@ -13,7 +13,7 @@ The categories include the following tasks:
   database. When this option is selected, the next wizard page is the Results page.
 - Remove Tables – Removes all tables and views from SQL Server database. This option is designed for
   troubleshooting. When this option is selected, the next wizard page is the Summary page. See the
-  [Clear ADInventory Tables](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/adinventory/cleartables.md)
+  [Clear ADInventory Tables](/docs/accessanalyzer/11.6/enterpriseauditor/admin/datacollector/adinventory/cleartables.md)
   topic for more information.
 - Drop Domain – Remove host domain related data from SQL server
 

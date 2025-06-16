@@ -8,8 +8,8 @@ customize it for their needs. [See Customize Dashboard for more information.](#c
 **NOTE:** To review the dashboard a user requires the Access Reports permission and must have at
 least one Netwrix built-in taxonomy downloaded. See the following sections for more information:
 
-- [Permission Management](/versioned_docs/dataclassification_5.6.2/ndc/security/user_management.md#permission-management)
-- [Built-in Taxonomies Overview ](/versioned_docs/dataclassification_5.6.2/ndc/taxonomies/standalone_taxonomies.md)
+- [Permission Management](/docs/dataclassification/5.6.2/ndc/security/user_management.md#permission-management)
+- [Built-in Taxonomies Overview ](/docs/dataclassification/5.6.2/ndc/taxonomies/standalone_taxonomies.md)
 
 The dashboard is the home page for the administrative web console.
 
@@ -42,7 +42,7 @@ The dashboard includes the following sections:
 - Sensitive Files – helps you identify how many files have been tagged at least once in any of
   Netwrix built-in sensitive taxonomies except for the following: File Type, File Size, Language.
   Review the
-  [Built-in Taxonomies Overview ](/versioned_docs/dataclassification_5.6.2/ndc/taxonomies/standalone_taxonomies.md)
+  [Built-in Taxonomies Overview ](/docs/dataclassification/5.6.2/ndc/taxonomies/standalone_taxonomies.md)
   section for the full list of predefined taxonomies.
 
     **NOTE:** Custom taxonomies are not counted.

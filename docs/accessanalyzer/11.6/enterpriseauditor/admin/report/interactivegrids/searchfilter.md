@@ -7,7 +7,7 @@ be done using the Filter icon.
 Search icon is disabled in the report.
 
 The following example shows an interactive grid in which searching has been enabled. See the
-[Grid](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/report/wizard/widgets.md#grid)
+[Grid](/docs/accessanalyzer/11.6/enterpriseauditor/admin/report/wizard/widgets.md#grid)
 topic for additional information.
 
 ![Search](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/report/interactivegrids/search.webp)

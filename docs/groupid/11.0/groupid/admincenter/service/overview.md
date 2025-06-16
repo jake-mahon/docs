@@ -88,9 +88,9 @@ Elasticsearch has its own mechanism to sync data between nodes in a cluster.
 
 To sync data between clusters, GroupID uses the Replication service. You have to enable data sync
 for a Replication service within a cluster to sync th cluster's data to other clusters. See the
-[Enable Elastic Cluster Syncing](/versioned_docs/groupid_11.0/groupid/admincenter/service/replicationservice.md#enable-elastic-cluster-syncing)
+[Enable Elastic Cluster Syncing](/docs/groupid/11.0/groupid/admincenter/service/replicationservice.md#enable-elastic-cluster-syncing)
 topic for details.
 
 **See Also**
 
-- [GroupID Applications](/versioned_docs/groupid_11.0/groupid/admincenter/portal/applications.md)
+- [GroupID Applications](/docs/groupid/11.0/groupid/admincenter/portal/applications.md)

@@ -18,7 +18,7 @@ using SQL Server include:
 - Increased security.
 
 See solutions to these disadvantages in the
-[Moving to SQL Server](/versioned_docs/passwordpolicyenforcer_10.2/password_reset/administration/moving_to_sql_server.md)
+[Moving to SQL Server](/docs/passwordpolicyenforcer/10.2/password_reset/administration/moving_to_sql_server.md)
 topic.
 
 ## Backing up the Database
@@ -53,7 +53,7 @@ reset\aprlog.bak"
 net start "Netwrix Password Reset"
 
 **NOTE:** Change the paths above if the database files are in a different folder. See the
-[Database](/versioned_docs/passwordpolicyenforcer_10.2/password_reset/administration/general_tab.md#database)
+[Database](/docs/passwordpolicyenforcer/10.2/password_reset/administration/general_tab.md#database)
 topic for more information.
 
 **Restoring database from backup**

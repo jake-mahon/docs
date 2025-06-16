@@ -7,7 +7,7 @@ using default certificates.
 process is complete.
 
 **Step 1 –** Install the Enterprise Manager to the new machine. See the
-[Application Server Install](/versioned_docs/threatprevention_7.4/threatprevention/install/application.md)
+[Application Server Install](/docs/threatprevention/7.4/threatprevention/install/application.md)
 topic for additional information.
 
 _Remember,_ point to the existing SQL Server for the NVMonitorData and NVConfig databases on the
@@ -50,7 +50,7 @@ Then, follow these steps to migrate the “secret.dpapi” file (do not copy).
 follow these steps to update the Enterprise Manager info for each Agent.
 
 1. Click **Agents** in the left pane to open the
-   [Agents Interface](/versioned_docs/threatprevention_7.4/threatprevention/admin/agents/overview.md).
+   [Agents Interface](/docs/threatprevention/7.4/threatprevention/admin/agents/overview.md).
 2. Right-click an Agent in the grid and select **Update Agent Settings**. You can also select
    multiple Agents and right-click to select the Update Agent Settings option for them.
 
@@ -79,5 +79,5 @@ Netwrix Threat Prevention server.
 recommended that you uninstall, then re-enroll and re-install all Agents with new certificates. This
 is because customer supplied certificates usually have the FQDN info of the Enterprise Manager and
 the new Enterprise Manager machine would typically have a different DNS name. See the
-[Create Custom Managed Certificates for Each Agent](/versioned_docs/threatprevention_7.4/threatprevention/install/agent/customcert.md)
+[Create Custom Managed Certificates for Each Agent](/docs/threatprevention/7.4/threatprevention/install/agent/customcert.md)
 topic for additional information.

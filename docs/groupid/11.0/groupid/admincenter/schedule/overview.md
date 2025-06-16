@@ -8,56 +8,56 @@ jobs for an identity store. These schedules auto run at the specified day, time,
 You can define the following schedules for an identity store:
 
 - A
-  [Group Usage Service Schedule](/versioned_docs/groupid_11.0/groupid/admincenter/schedule/groupusageservice.md)
+  [Group Usage Service Schedule](/docs/groupid/11.0/groupid/admincenter/schedule/groupusageservice.md)
   monitors group usage and time stamps groups with the date and time they were last used.
 - A
-  [Group Life Cycle Schedule](/versioned_docs/groupid_11.0/groupid/admincenter/schedule/grouplifecycle.md)
+  [Group Life Cycle Schedule](/docs/groupid/11.0/groupid/admincenter/schedule/grouplifecycle.md)
   expires and deletes groups according to their expiry policy. It executes the Group Lifecycle
   policy for the identity store.
 - A
-  [History Retention Schedule](/versioned_docs/groupid_11.0/groupid/admincenter/schedule/historyretention.md)
+  [History Retention Schedule](/docs/groupid/11.0/groupid/admincenter/schedule/historyretention.md)
   archives identity store history data in GroupID.
 - A
-  [GroupID Entitlement Schedule](/versioned_docs/groupid_11.0/groupid/admincenter/schedule/entitlement.md)
+  [GroupID Entitlement Schedule](/docs/groupid/11.0/groupid/admincenter/schedule/entitlement.md)
   replicates object permissions on file servers and SharePoint sites for an Active Directory and
   Microsoft Entra ID identity store respectively.
 - An
-  [Entitlement Scope Schedule](/versioned_docs/groupid_11.0/groupid/admincenter/schedule/entitlementscope.md)
+  [Entitlement Scope Schedule](/docs/groupid/11.0/groupid/admincenter/schedule/entitlementscope.md)
   replicates changes made to object permissions on file servers and SharePoint sites using GroupID.
 - An
-  [Entitlement Temporary Permissions Schedule](/versioned_docs/groupid_11.0/groupid/admincenter/schedule/entitlementtemporarypermissions.md)
+  [Entitlement Temporary Permissions Schedule](/docs/groupid/11.0/groupid/admincenter/schedule/entitlementtemporarypermissions.md)
   updates the temporary permissions for objects on file servers and SharePoint sites.
 - A
-  [Managed By Life Cycle Schedule](/versioned_docs/groupid_11.0/groupid/admincenter/schedule/managedbylifecycle.md)
+  [Managed By Life Cycle Schedule](/docs/groupid/11.0/groupid/admincenter/schedule/managedbylifecycle.md)
   manages the temporary additional owners for groups and temporary additional managers for users.
 - A
-  [Membership Life Cycle Schedule](/versioned_docs/groupid_11.0/groupid/admincenter/schedule/membershiplifecycle.md)
+  [Membership Life Cycle Schedule](/docs/groupid/11.0/groupid/admincenter/schedule/membershiplifecycle.md)
   updates the temporary membership of groups.
 - An
-  [Orphan Group Update Schedule](/versioned_docs/groupid_11.0/groupid/admincenter/schedule/orphangroupupdate.md)
+  [Orphan Group Update Schedule](/docs/groupid/11.0/groupid/admincenter/schedule/orphangroupupdate.md)
   sets the primary owner for an orphan group.
-- A [Reports Schedule](/versioned_docs/groupid_11.0/groupid/admincenter/schedule/reports.md)can
+- A [Reports Schedule](/docs/groupid/11.0/groupid/admincenter/schedule/reports.md)can
   automatically generate reports that you link with the schedule.
 - A
-  [Schema Replication Schedule](/versioned_docs/groupid_11.0/groupid/admincenter/schedule/schemareplication.md)
+  [Schema Replication Schedule](/docs/groupid/11.0/groupid/admincenter/schedule/schemareplication.md)
   replicates the schema of an identity provider to the GroupID database.
 - A
-  [Smart Group Update Schedule](/versioned_docs/groupid_11.0/groupid/admincenter/schedule/smartgroupupdate.md)updates
+  [Smart Group Update Schedule](/docs/groupid/11.0/groupid/admincenter/schedule/smartgroupupdate.md)updates
   Smart Groups and Dynasties.
-- A [Synchronize Schedule](/versioned_docs/groupid_11.0/groupid/admincenter/schedule/synchronize.md)
+- A [Synchronize Schedule](/docs/groupid/11.0/groupid/admincenter/schedule/synchronize.md)
   can execute Synchronize jobs and job groups at a set frequency.
 - A
-  [User Life Cycle Schedule](/versioned_docs/groupid_11.0/groupid/admincenter/schedule/userlifecycle.md)
+  [User Life Cycle Schedule](/docs/groupid/11.0/groupid/admincenter/schedule/userlifecycle.md)
   disables users who do not validate their profiles within a given period, based on the settings
   defined for user profile validation.
 - A
-  [Workflow Acceleration Schedule](/versioned_docs/groupid_11.0/groupid/admincenter/schedule/workflowacceleration.md)
+  [Workflow Acceleration Schedule](/docs/groupid/11.0/groupid/admincenter/schedule/workflowacceleration.md)
   forwards workflow requests to approvers and auto approves requests according to workflow approver
   acceleration rules.
 
 NOTE: Role members with the _Manage Scheduling_ permission in an identity store can create and
 manage scheduled jobs. See the
-[Modify Role Permissions](/versioned_docs/groupid_11.0/groupid/admincenter/securityrole/manage.md#modify-role-permissions)
+[Modify Role Permissions](/docs/groupid/11.0/groupid/admincenter/securityrole/manage.md#modify-role-permissions)
 topic.
 
 Schedules are saved in the GroupID database. The GroupIDSchedulerService, created in the
@@ -69,12 +69,12 @@ The following schedules are automatically created when their associated configur
 an identity store.
 
 - Entitlement
-  ([GroupID Entitlement Schedule](/versioned_docs/groupid_11.0/groupid/admincenter/schedule/entitlement.md),
-  [Entitlement Scope Schedule](/versioned_docs/groupid_11.0/groupid/admincenter/schedule/entitlementscope.md),
-  [Entitlement Temporary Permissions Schedule](/versioned_docs/groupid_11.0/groupid/admincenter/schedule/entitlementtemporarypermissions.md))
-- [User Life Cycle Schedule](/versioned_docs/groupid_11.0/groupid/admincenter/schedule/userlifecycle.md)
-- [History Retention Schedule](/versioned_docs/groupid_11.0/groupid/admincenter/schedule/historyretention.md)
-- [Workflow Acceleration Schedule](/versioned_docs/groupid_11.0/groupid/admincenter/schedule/workflowacceleration.md)
+  ([GroupID Entitlement Schedule](/docs/groupid/11.0/groupid/admincenter/schedule/entitlement.md),
+  [Entitlement Scope Schedule](/docs/groupid/11.0/groupid/admincenter/schedule/entitlementscope.md),
+  [Entitlement Temporary Permissions Schedule](/docs/groupid/11.0/groupid/admincenter/schedule/entitlementtemporarypermissions.md))
+- [User Life Cycle Schedule](/docs/groupid/11.0/groupid/admincenter/schedule/userlifecycle.md)
+- [History Retention Schedule](/docs/groupid/11.0/groupid/admincenter/schedule/historyretention.md)
+- [Workflow Acceleration Schedule](/docs/groupid/11.0/groupid/admincenter/schedule/workflowacceleration.md)
 
 In a Microsoft Entra ID identity provider, the Entra ID user must be logged into the Admin Center
 while making configurations of these schedules. The schedules are then run in the context of the
@@ -91,5 +91,5 @@ on them.
 
 **See Also**
 
-- [Manage Schedules](/versioned_docs/groupid_11.0/groupid/admincenter/schedule/manage.md)
-- [Scheduler Service](/versioned_docs/groupid_11.0/groupid/admincenter/service/schedulerservice.md)
+- [Manage Schedules](/docs/groupid/11.0/groupid/admincenter/schedule/manage.md)
+- [Scheduler Service](/docs/groupid/11.0/groupid/admincenter/service/schedulerservice.md)

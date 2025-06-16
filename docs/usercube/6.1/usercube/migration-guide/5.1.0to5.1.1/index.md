@@ -33,7 +33,7 @@ New Settings:
 
 All ExternalLogin are modified and now use a list of elements:
 
-#### [WsFed](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/server-configuration/end-users-authentication/index.md) Authentication
+#### [WsFed](/docs/usercube/6.1/usercube/integration-guide/network-configuration/server-configuration/end-users-authentication/index.md) Authentication
 
 Old Settings:
 
@@ -62,7 +62,7 @@ New Settings:
 
 ````
 
-#### [OpenId](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/server-configuration/end-users-authentication/index.md) Authentication
+#### [OpenId](/docs/usercube/6.1/usercube/integration-guide/network-configuration/server-configuration/end-users-authentication/index.md) Authentication
 
 Old Settings:
 
@@ -91,7 +91,7 @@ New Settings:
 
 ````
 
-#### [Active Directory](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/server-configuration/end-users-authentication/index.md) Authentication
+#### [Active Directory](/docs/usercube/6.1/usercube/integration-guide/network-configuration/server-configuration/end-users-authentication/index.md) Authentication
 
 Old Settings:
 
@@ -119,17 +119,17 @@ New Settings:
 
 ````
 
-#### [Optional Settings](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/server-configuration/general-purpose/index.md)
+#### [Optional Settings](/docs/usercube/6.1/usercube/integration-guide/network-configuration/server-configuration/general-purpose/index.md)
 
 All working directories are optional in 5.1.1
 
 ## Agent Settings
 
-#### [Optional Settings](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/appsettings/index.md)
+#### [Optional Settings](/docs/usercube/6.1/usercube/integration-guide/network-configuration/agent-configuration/appsettings/index.md)
 
 All working directories are optional in 5.1.1
 
-## [Logger Settings](/versioned_docs/usercube_6.1/usercube/integration-guide/monitoring/index.md)
+## [Logger Settings](/docs/usercube/6.1/usercube/integration-guide/monitoring/index.md)
 
 In server/Agent and logger Setting the configuration are changes.
 

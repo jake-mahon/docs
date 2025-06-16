@@ -2,9 +2,9 @@
 
 Enterprise Auditor can use a previously-configured Group Managed Service Accounts (gMSA/MSA)
 account. Make sure that Managed Service Account is selected in the User Credentials window. See the
-[Create a Connection Profile](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/settings/connection/profile/create.md)
+[Create a Connection Profile](/docs/accessanalyzer/11.6/enterpriseauditor/admin/settings/connection/profile/create.md)
 or
-[Create a Schedule Service Account](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/settings/schedule.md#create-a-schedule-service-account)
+[Create a Schedule Service Account](/docs/accessanalyzer/11.6/enterpriseauditor/admin/settings/schedule.md#create-a-schedule-service-account)
 topic for additional information.
 
 To run a job or scheduled task with a gMSA/MSA account, the following prerequisites must be met:

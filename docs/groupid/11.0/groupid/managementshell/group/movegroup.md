@@ -38,7 +38,7 @@ Example 2:
 The following command moves the group _Training_ to the _OffShore Recruiting_ organizational unit.
 The command uses the credentials set in the $Credentials environment variable for moving a group.
 See the
-[Set the $Credentials Environment Variable](/versioned_docs/groupid_11.0/groupid/managementshell/parameters/setthecredential.md)
+[Set the $Credentials Environment Variable](/docs/groupid/11.0/groupid/managementshell/parameters/setthecredential.md)
 topic for setting credentials in an environment variable.
 
 ```
@@ -47,6 +47,6 @@ Move-Group -Identity "CN=Training,OU=Local Recruiting,DC=HR,DC=Imanami,DC=US" -D
 
 See Also
 
-- [All Commands](/versioned_docs/groupid_11.0/groupid/managementshell/commands.md)
-- [Group Commands](/versioned_docs/groupid_11.0/groupid/managementshell/group/overview.md)
-- [Parameters](/versioned_docs/groupid_11.0/groupid/managementshell/parameters/parameters.md)
+- [All Commands](/docs/groupid/11.0/groupid/managementshell/commands.md)
+- [Group Commands](/docs/groupid/11.0/groupid/managementshell/group/overview.md)
+- [Parameters](/docs/groupid/11.0/groupid/managementshell/parameters/parameters.md)

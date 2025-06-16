@@ -4,7 +4,7 @@ This connector writes to an external system via a [Robot Framework](https://robo
 script.
 
 This page is about
-[Custom/Robot Framework](/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/references-packages/robot-framework/index.md).
+[Custom/Robot Framework](/docs/usercube/6.1/usercube/integration-guide/connectors/references-packages/robot-framework/index.md).
 
 ![Package: Custom/Robot Framework](/img/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/references-connectors/robotframework/packages_robot_v603.webp)
 
@@ -39,7 +39,7 @@ This connector can create, update and/or delete any entity linked to the managed
 ### Configuration
 
 This process is configured through a
-[connection](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/connectors/connection/index.md)
+[connection](/docs/usercube/6.1/usercube/integration-guide/toolkit/xml-configuration/connectors/connection/index.md)
 in the UI and/or the XML configuration, and in the `appsettings.agent.json > Connections` section:
 
 ```
@@ -88,7 +88,7 @@ The identifier of the connection and thus the name of the subsection must:
 ### Write a script
 
 See how to
-[write a RobotFramework script](/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/how-tos/write-fulfill-robotframework-script/index.md)
+[write a RobotFramework script](/docs/usercube/6.1/usercube/integration-guide/connectors/how-tos/write-fulfill-robotframework-script/index.md)
 to allow provisioning with this connector.
 
 ## Authentication
@@ -101,10 +101,10 @@ The script manages password reset.
 
 Data protection can be ensured through:
 
-- [RSA encryption](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/rsa-encryption/index.md),
+- [RSA encryption](/docs/usercube/6.1/usercube/integration-guide/network-configuration/agent-configuration/rsa-encryption/index.md),
   configured in the `appsettings.encrypted.agent.json` file;
 - an
-  [Azure Key Vault](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/azure-key-vault/index.md)
+  [Azure Key Vault](/docs/usercube/6.1/usercube/integration-guide/network-configuration/agent-configuration/azure-key-vault/index.md)
   safe;
 
 | Attribute                | Naming Convention for the Key in Azure Key Vault      |
@@ -114,9 +114,9 @@ Data protection can be ensured through:
 | RobotFrameworkScriptPath | `Connections--<identifier>--RobotFrameworkScriptPath` |
 
 - a
-  [CyberArk Vault](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/cyberark-application-access-manager-credential-providers/index.md)
+  [CyberArk Vault](/docs/usercube/6.1/usercube/integration-guide/network-configuration/agent-configuration/cyberark-application-access-manager-credential-providers/index.md)
   able to store the attributes from the `Options` section that are
-  [compatible with CyberArk](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/cyberark-application-access-manager-credential-providers/index.md).
+  [compatible with CyberArk](/docs/usercube/6.1/usercube/integration-guide/network-configuration/agent-configuration/cyberark-application-access-manager-credential-providers/index.md).
 
 Protected attributes are stored inside a safe in CyberArk, into an account whose identifier can be
 retrieved by Usercube from `appsettings.cyberark.agent.json`.

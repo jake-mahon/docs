@@ -1,7 +1,7 @@
 # FS_QuarantineData_Status Job
 
 The FS_QuarantineData_Status job is designed to report on the FS_QuarantineData job. See the
-[FS_QuarantineData Job](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/filesystem/cleanup/quarantine/fs_quarantinedata.md) topic
+[FS_QuarantineData Job](/docs/accessanalyzer/11.6/enterpriseauditor/solutions/filesystem/cleanup/quarantine/fs_quarantinedata.md) topic
 for additional information.
 
 ## Analysis Tasks for the FS_QuarantineData_Status Job

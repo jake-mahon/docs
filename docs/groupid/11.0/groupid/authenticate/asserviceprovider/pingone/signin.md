@@ -16,13 +16,13 @@ For single sign-on using PingOne, we can choose any of the following ways:
 1. Launch the GroupID portal _Wizard_.  
    The availability of the user name and password fields depends on whether you disabled GroupID
    Authentication or not (see step 10 in the
-   [Configure the Provider in GroupID](/versioned_docs/groupid_11.0/groupid/authenticate/asserviceprovider/pingone/configurepingoneingroupid.md#configure-the-provider-in-groupid)
+   [Configure the Provider in GroupID](/docs/groupid/11.0/groupid/authenticate/asserviceprovider/pingone/configurepingoneingroupid.md#configure-the-provider-in-groupid)
    topic).
 2. Click the button for PingOne; the PingOne Sign In page is displayed.
 3. Enter your credentials and sign in. You will be routed to the main page of the GroupID portal
    _Wizard_.  
    Only users defined for our app in PingOne can log in using PingOne single sign-on. See the
-   [Configure Users in PingOne](/versioned_docs/groupid_11.0/groupid/authenticate/asserviceprovider/pingone/configureinpingone.md#configure-users-in-pingone)
+   [Configure Users in PingOne](/docs/groupid/11.0/groupid/authenticate/asserviceprovider/pingone/configureinpingone.md#configure-users-in-pingone)
    topic.
 
 With single sign-on, you can now launch any GroupID client without having to sign in again.

@@ -6,7 +6,7 @@ The 3-FSAC Exceptions job is designed to analyze collected access information fo
 
 The Configuration section on a Job's overview page allows you to easily modify any customizable
 parameters used by analysis tasks in the job. See the
-[Parameter Configuration](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/jobs/job/overview.md#parameter-configuration)
+[Parameter Configuration](/docs/accessanalyzer/11.6/enterpriseauditor/admin/jobs/job/overview.md#parameter-configuration)
 topic for instructions on how to edit parameters on a job overview page.
 
 The 3-FSAC Exceptions job has many customizable parameters. See the
@@ -109,5 +109,5 @@ analysis. The 3-FSAC Exceptions job contains the following customizable paramete
 | Unusual user stale data activity     | @STALETHRESHOLD             | 365           | Number of days after which resources are considered stale                       |
 
 See the
-[Configure the Customizable Parameters in an Analysis Task](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/jobs/job/configure/analysiscustomizableparameters.md)
+[Configure the Customizable Parameters in an Analysis Task](/docs/accessanalyzer/11.6/enterpriseauditor/admin/jobs/job/configure/analysiscustomizableparameters.md)
 topic for additional information on modifying analysis parameters.

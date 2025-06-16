@@ -1,9 +1,9 @@
 # Delete Review Window
 
 The Delete Review window opens from either the
-[Manage Reviews Page](/versioned_docs/accessinformationcenter_11.6/access/informationcenter/resourcereviews/interface.md#manage-reviews-page)
+[Manage Reviews Page](/docs/accessinformationcenter/11.6/access/informationcenter/resourcereviews/interface.md#manage-reviews-page)
 or the
-[Review Details Page](/versioned_docs/accessinformationcenter_11.6/access/informationcenter/resourcereviews/interface.md#review-details-page)
+[Review Details Page](/docs/accessinformationcenter/11.6/access/informationcenter/resourcereviews/interface.md#review-details-page)
 of the Resource Reviews interface:
 
 - [Delete Entire Review](#delete-entire-review) — Deleting a review from the Manage Reviews page

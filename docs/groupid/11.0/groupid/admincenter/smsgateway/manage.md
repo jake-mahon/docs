@@ -98,7 +98,7 @@ connect to the gateway.
 ## Link an SMS Gateway Account to an Identity Store
 
 See the
-[Link an SMS Gateway Account to an Identity Store](/versioned_docs/groupid_11.0/groupid/admincenter/identitystore/configure/security/smsauthentication.md#link-an-sms-gateway-account-to-an-identity-store)
+[Link an SMS Gateway Account to an Identity Store](/docs/groupid/11.0/groupid/admincenter/identitystore/configure/security/smsauthentication.md#link-an-sms-gateway-account-to-an-identity-store)
 topic.
 
 ## Delete an SMS Gateway Account
@@ -118,5 +118,5 @@ You can delete an SMS gateway account that is not linked with any identity store
 
 See Also
 
-- [SMS Gateway](/versioned_docs/groupid_11.0/groupid/admincenter/smsgateway/overview.md)
-- [Implement and Deploy a Custom SMS Gateway](/versioned_docs/groupid_11.0/groupid/admincenter/smsgateway/implementcustom.md)
+- [SMS Gateway](/docs/groupid/11.0/groupid/admincenter/smsgateway/overview.md)
+- [Implement and Deploy a Custom SMS Gateway](/docs/groupid/11.0/groupid/admincenter/smsgateway/implementcustom.md)

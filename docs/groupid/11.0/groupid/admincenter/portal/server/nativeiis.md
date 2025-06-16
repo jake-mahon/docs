@@ -52,7 +52,7 @@ the portal instance. For example:
 
 When you change the name, it propagates to the instance’s IIS directory, physical directory, and
 launch URL. You must provide the updated URL to users to enable them to access the portal. See the
-[Launch a Portal](/versioned_docs/groupid_11.0/groupid/admincenter/portal/create.md#launch-a-portal)
+[Launch a Portal](/docs/groupid/11.0/groupid/admincenter/portal/create.md#launch-a-portal)
 topic.
 
 **To change the IIS application name:**
@@ -73,7 +73,7 @@ topic.
 You can change the IIS site that hosts a deployment instance of a portal. In doing so, the URL of
 the deployment instance also changes. You must provide the updated URL to your users to enable them
 to access the instance. See the
-[Launch a Portal](/versioned_docs/groupid_11.0/groupid/admincenter/portal/create.md#launch-a-portal)
+[Launch a Portal](/docs/groupid/11.0/groupid/admincenter/portal/create.md#launch-a-portal)
 topic.
 
 **To change the site:**
@@ -121,14 +121,14 @@ Use the URL for a portal's deployment instance to launch the respective instance
 ## Set File Logging and Windows Logging for an Instance
 
 To set file logging and Windows logging levels for a deployment instance, see the
-[Manage Log Settings](/versioned_docs/groupid_11.0/groupid/admincenter/portal/server/log.md) topic.
+[Manage Log Settings](/docs/groupid/11.0/groupid/admincenter/portal/server/log.md) topic.
 
 ## Delete an Instance
 
 To delete a portal’s deployment instance, see the
-[Delete a Deployment Instance for a Portal](/versioned_docs/groupid_11.0/groupid/admincenter/portal/delete.md#delete-a-deployment-instance-for-a-portal)
+[Delete a Deployment Instance for a Portal](/docs/groupid/11.0/groupid/admincenter/portal/delete.md#delete-a-deployment-instance-for-a-portal)
 topic.
 
 **See Also**
 
-- [Server Settings](/versioned_docs/groupid_11.0/groupid/admincenter/portal/server/overview.md)
+- [Server Settings](/docs/groupid/11.0/groupid/admincenter/portal/server/overview.md)

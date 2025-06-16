@@ -1,7 +1,7 @@
 # Saved Investigations
 
 You can apply filters on the
-[Investigate Interface](/versioned_docs/threatprevention_7.4/threatprevention/admin/investigate/overview.md)
+[Investigate Interface](/docs/threatprevention/7.4/threatprevention/admin/investigate/overview.md)
 to filter event data as desired. Filters settings can be saved. Follow the steps to save a filtered
 view.
 

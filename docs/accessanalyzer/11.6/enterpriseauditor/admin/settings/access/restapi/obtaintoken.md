@@ -56,5 +56,5 @@ tokens.
 
 The Client Secret expires after 72 hours. The access token expires after 1 hour after which time you
 can request a refresh token. See the
-[Use the Client Credentials to Grant a Refesh Token](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/settings/access/restapi/refreshtoken.md) topic
+[Use the Client Credentials to Grant a Refesh Token](/docs/accessanalyzer/11.6/enterpriseauditor/admin/settings/access/restapi/refreshtoken.md) topic
 for additional information.

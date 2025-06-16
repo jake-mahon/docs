@@ -11,7 +11,7 @@ following options to add and remove filters:
 - Edit – Opens the Filter window
 
     - See the
-      [Advanced Search](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/navigate/datagrid.md#advanced-search)
+      [Advanced Search](/docs/accessanalyzer/11.6/enterpriseauditor/admin/navigate/datagrid.md#advanced-search)
       topic for additional information
 
 - Clear – Clears any specified filters

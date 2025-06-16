@@ -2,15 +2,15 @@
 
 This tool is used to encrypt sensitive connection data, for example data from the
 `appsettings.agent.json` file, with
-[RSA encryption](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/rsa-encryption/index.md).
+[RSA encryption](/docs/usercube/6.1/usercube/integration-guide/network-configuration/agent-configuration/rsa-encryption/index.md).
 The encryption is based on the information given in your `appsettings.json` file about either a PFX
 file or the location of the
-[encryption certificate](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/appsettings/index.md#encryption-certificate)
+[encryption certificate](/docs/usercube/6.1/usercube/integration-guide/network-configuration/agent-configuration/appsettings/index.md#encryption-certificate)
 in the Microsoft store.
 
 This tool `Usercube-Protect-X509JsonValue` is used to encrypt only given values, in comparison to
 the
-[`Usercube-Protect-X509JsonFile`](/versioned_docs/usercube_6.1/usercube/integration-guide/executables/references/protect-x509jsonfile/index.md)
+[`Usercube-Protect-X509JsonFile`](/docs/usercube/6.1/usercube/integration-guide/executables/references/protect-x509jsonfile/index.md)
 tool that encrypts a whole file. This tool is more appropriate than `Usercube-Protect-X509JsonFile`
 when you have only a few lines to encrypt.
 

@@ -54,7 +54,7 @@ versions should be 2008 R2 or later).
   monitoring plan; also, you can specify it Netwrix Auditor settings.
 - You can configure Netwrix Auditor to use an existing instance of SQL Server, or deploy a new
   instance, as described in the
-  [Create a New Monitoring Plan](/versioned_docs/auditor_10.6/auditor/admin/monitoringplans/create.md)
+  [Create a New Monitoring Plan](/docs/auditor/10.6/auditor/admin/monitoringplans/create.md)
   topic.
 
 For evaluation and PoC projects you can deploy Microsoft SQL Server 2016 SP2 Express Edition with
@@ -71,7 +71,7 @@ produced, so plan for SQL Server Standard or Enterprise edition (Express edition
 
 Netwrix Auditor supports automated size calculation for all its databases in total, displaying the
 result, in particular, in the
-[Database Statistics](/versioned_docs/auditor_10.6/auditor/admin/healthstatus/dashboard/databasestatistics.md)
+[Database Statistics](/docs/auditor/10.6/auditor/admin/healthstatus/dashboard/databasestatistics.md)
 of the Health Status dashboard. This feature, however, is supported only for SQL Server 2008 SP3 and
 later.
 
@@ -123,7 +123,7 @@ Consider the following:
 
 By the way of example, this section provides instructions on how to:
 
-- [SQL Server Reporting Services](/versioned_docs/auditor_10.6/auditor/requirements/sqlserverreportingservice.md)
+- [SQL Server Reporting Services](/docs/auditor/10.6/auditor/requirements/sqlserverreportingservice.md)
 
 For detailed information on installing other versions/editions, refer to Microsoft website.
 
@@ -155,7 +155,7 @@ instance. Such instances may have a lot of maintenance plans or scripts running 
 uploaded by the product. The product databases are designed for reporting and searching and do not
 require maintenance or backup. For the long-term data storage, Netwrix Auditor uses Long-Term
 Archive. See
-[File-Based Repository for Long-Term Archive](/versioned_docs/auditor_10.6/auditor/requirements/longtermarchive.md)
+[File-Based Repository for Long-Term Archive](/docs/auditor/10.6/auditor/requirements/longtermarchive.md)
 for additional information.
 
 If you select to set up a new SQL Server instance, the current user account (this should be a member
@@ -175,7 +175,7 @@ specify the data drive for that purpose (by default, system drive is used).
     2. dbcreator server-level role
 
     This account can be specified when you configure the
-    [Audit Database](/versioned_docs/auditor_10.6/auditor/admin/settings/auditdatabase.md) settings.
+    [Audit Database](/docs/auditor/10.6/auditor/admin/settings/auditdatabase.md) settings.
 
 ## Database Sizing
 
@@ -189,14 +189,14 @@ For database sizing, it is recommended to estimate:
 To estimate the number of the activity records produced by your data sources, collected and saved by
 Auditor during the week, you can use the Activity records by date widget of the Health Status
 dashboard. See the
-[Activity Records Statistics](/versioned_docs/auditor_10.6/auditor/admin/healthstatus/dashboard/activityrecordstatistics.md)
+[Activity Records Statistics](/docs/auditor/10.6/auditor/admin/healthstatus/dashboard/activityrecordstatistics.md)
 topic for additional information.
 
 Auditor supports automated size calculation for all its databases in total, displaying the result,
 in particular, in the Database Statistics widget of the Health Status dashboard. To estimate current
 capacity and daily growth for each database, you can click View details and examine information in
 the table. See the
-[Database Statistics](/versioned_docs/auditor_10.6/auditor/admin/healthstatus/dashboard/databasestatistics.md)
+[Database Statistics](/docs/auditor/10.6/auditor/admin/healthstatus/dashboard/databasestatistics.md)
 topic for additional information.
 
 This feature is supported only for SQL Server 2008 SP3 and later.
@@ -262,7 +262,7 @@ This is the account that Auditor uses to write the collected audit data to the a
 Starting with version 9.96, you can use Group Managed Service Account (gMSA) for that purpose.
 
 _Remember,_ gMSA cannot be used to access SSRS. Use a standard account for that. See the
-[SQL Server Reporting Services](/versioned_docs/auditor_10.6/auditor/requirements/sqlserverreportingservice.md)
+[SQL Server Reporting Services](/docs/auditor/10.6/auditor/requirements/sqlserverreportingservice.md)
 topic for additional information.
 
 This account must be granted the **Database owner (db_owner)** role and the **dbcreator** server

@@ -47,7 +47,7 @@ accessed through the Add page in the Auto-Detect a Set of Sources section. Each 
 will have different options depending on which one is being configured. The Dynamic Source Groups
 are:
 
-- [Dynamic Source Groups — Exchange](/versioned_docs/dataclassification_5.6.2/ndc/sources/source_groups/dynamic_source_groups_-_exchange.md)
-- [Dynamic Source Groups — File Servers](/versioned_docs/dataclassification_5.6.2/ndc/sources/source_groups/dynamic_source_groups_-_file.md)
-- [Dynamic Source Groups — Google Drive Organization](/versioned_docs/dataclassification_5.6.2/ndc/sources/source_groups/dynamic_source_groups_-_google_drive.md)
-- [Dynamic Source Groups — SharePoint Online](/versioned_docs/dataclassification_5.6.2/ndc/sources/source_groups/dynamic_source_groups_-_sharepoint.md)
+- [Dynamic Source Groups — Exchange](/docs/dataclassification/5.6.2/ndc/sources/source_groups/dynamic_source_groups_-_exchange.md)
+- [Dynamic Source Groups — File Servers](/docs/dataclassification/5.6.2/ndc/sources/source_groups/dynamic_source_groups_-_file.md)
+- [Dynamic Source Groups — Google Drive Organization](/docs/dataclassification/5.6.2/ndc/sources/source_groups/dynamic_source_groups_-_google_drive.md)
+- [Dynamic Source Groups — SharePoint Online](/docs/dataclassification/5.6.2/ndc/sources/source_groups/dynamic_source_groups_-_sharepoint.md)

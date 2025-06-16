@@ -14,7 +14,7 @@ The table has the following columns:
 
 - Type — Icon indicates the type of object
 - Name — Displays the name of the account. See the
-  [User, Group, & Application Details Page](/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/policy/page/details/usergroupapplication.md)
+  [User, Group, & Application Details Page](/docs/privilegesecure/4.1/privilegesecure/accessmanagement/admin/policy/page/details/usergroupapplication.md)
   topic for additional information.
 - User Principal Name — Displays the UPN value for the account
 - SID — Security identifier for the user or group

@@ -6,7 +6,7 @@ OpenID Connector and SAML.
 
 Once configured, an authentication method must be assigned to the users who will use the method for
 accessing the application. See the
-[Authentication Connector Tab](/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/policy/tab/usersgroups/authenticationconnector.md)
+[Authentication Connector Tab](/docs/privilegesecure/4.1/privilegesecure/accessmanagement/admin/policy/tab/usersgroups/authenticationconnector.md)
 topic for additional information.
 
 ![authenticationpage](/img/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/configuration/page/authenticationpage.webp)
@@ -17,7 +17,7 @@ This pane has the following features:
 - Search — Searches the table or list for matches to the search string. When matches are found, the
   table or list is filtered to the matching results.
 -   - button — Create a new connector. See the
-      [Add Authentication Connector](/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/configuration/add/authenticationconnector.md)
+      [Add Authentication Connector](/docs/privilegesecure/4.1/privilegesecure/accessmanagement/admin/configuration/add/authenticationconnector.md)
       topic for additional information.
 - Default icon — Indicates if connector is set as default. Icon appears when activity is hovered
   over. Click the icon to change or clear the default.
@@ -70,7 +70,7 @@ The following fields apply to the OpenID Connect Connector Type:
 
 - Configuration Wizard button — Opens the Configuration Wizard for the selected type of connector.
   See the
-  [OpenID Connect Configuration Wizard](/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/configuration/wizard/openidconnectconfiguration.md)
+  [OpenID Connect Configuration Wizard](/docs/privilegesecure/4.1/privilegesecure/accessmanagement/admin/configuration/wizard/openidconnectconfiguration.md)
   topic for additional information.
 - Show / Hide Data link — Click the link to view or hide additional details
 - Issuer — Displays the OpenID Connect provider issuer URI
@@ -86,7 +86,7 @@ The following fields apply to the SAML Connector Type:
 
 - Configuration Wizard button — Opens the Configuration Wizard for the selected type of connector.
   See the
-  [SAML Configuration Wizard](/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/configuration/wizard/samlconfiguration.md)
+  [SAML Configuration Wizard](/docs/privilegesecure/4.1/privilegesecure/accessmanagement/admin/configuration/wizard/samlconfiguration.md)
   topic for additional information.
 - Show / Hide Data link — Click the link to view or hide additional details
 - Login URI — Displays the SAML provider issuer URI

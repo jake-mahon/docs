@@ -23,7 +23,7 @@ Identifying staff over the phone can be difficult, especially in large organizat
 identifies users by asking them to answer some questions about themselves, and optionally by sending
 a verification code to their mobile phone. Incorrect answers are logged, and you can configure
 Password Reset to automatically lock out users who give too many incorrect answers. See the
-[Configuring Password Reset](/versioned_docs/passwordpolicyenforcer_10.2/password_reset/administration/configuring_password_reset.md)
+[Configuring Password Reset](/docs/passwordpolicyenforcer/10.2/password_reset/administration/configuring_password_reset.md)
 topic for additional information.
 
 ## Higher Availability
@@ -32,6 +32,6 @@ Password Reset is ready to respond to password management requests at any hour o
 It takes only minutes to install, and can handle thousands of requests every hour.
 
 The
-[Evaluation](/versioned_docs/passwordpolicyenforcer_10.2/password_reset/evaluation/evaluation_overview.md)
+[Evaluation](/docs/passwordpolicyenforcer/10.2/password_reset/evaluation/evaluation_overview.md)
 topic contains step-by-step instructions to help you quickly install, configure, and evaluate
 Password Reset.

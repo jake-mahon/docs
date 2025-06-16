@@ -2,7 +2,7 @@
 
 The SP_RemoveHost Job removes desired SharePoint hosts from the Enterprise Auditor database. It is
 available through the Instant Job Library under the SharePoint library. See the
-[Instant Job Wizard](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/jobs/instantjobs/overview.md)
+[Instant Job Wizard](/docs/accessanalyzer/11.6/enterpriseauditor/admin/jobs/instantjobs/overview.md)
 topic for instructions to add this instant job into the Jobs tree.
 
 ![SP_RemoveHost job in the Jobs tree](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/hostmanagement/jobstree.webp)

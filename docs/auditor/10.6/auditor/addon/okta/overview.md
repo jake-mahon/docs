@@ -15,7 +15,7 @@ On a high level, the add-on works as follows:
 3. Using the Integration API, the add-on sends the activity records to the Netwrix Auditor Server,
    which writes them to the Long-Term Archive and the Audit Database.
 
-See the [Integration API](/versioned_docs/auditor_10.6/auditor/api/overview.md) topic for additional
+See the [Integration API](/docs/auditor/10.6/auditor/api/overview.md) topic for additional
 information on the structure of the Activity Record and the capabilities of the NIntegration API.
 
 ## Prerequisites
@@ -25,14 +25,14 @@ follows:
 
 | On...                   | Ensure that...                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
 | ----------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| The Auditor Server side | - .NET Framework [4.5](https://www.microsoft.com/en-us/download/details.aspx?id=30653) or later is installed. - The Audit Database settings are configured in Auditor Server. See the [Prerequisites](/versioned_docs/auditor_10.6/auditor/api/prerequisites.md) and [Audit Database](/versioned_docs/auditor_10.6/auditor/admin/settings/auditdatabase.md) topics for additional information. - The TCP **9699** port (default Integration API port) is open for inbound connections. - The user writing data to the Audit Database is granted the **Contributor** role in Auditor. See the [Role-Based Access and Delegation](/versioned_docs/auditor_10.6/auditor/admin/monitoringplans/delegation.md) topic for additional information. Alternatively, you can grant the **Global administrator** role or add the user to the **Netwrix Auditor Administrators** group. In this case, this user will have the most extended permissions in the product. |
+| The Auditor Server side | - .NET Framework [4.5](https://www.microsoft.com/en-us/download/details.aspx?id=30653) or later is installed. - The Audit Database settings are configured in Auditor Server. See the [Prerequisites](/docs/auditor/10.6/auditor/api/prerequisites.md) and [Audit Database](/docs/auditor/10.6/auditor/admin/settings/auditdatabase.md) topics for additional information. - The TCP **9699** port (default Integration API port) is open for inbound connections. - The user writing data to the Audit Database is granted the **Contributor** role in Auditor. See the [Role-Based Access and Delegation](/docs/auditor/10.6/auditor/admin/monitoringplans/delegation.md) topic for additional information. Alternatively, you can grant the **Global administrator** role or add the user to the **Netwrix Auditor Administrators** group. In this case, this user will have the most extended permissions in the product. |
 
 ### Accounts and Rights
 
 By default, the add-on will run under the _Local System_ account. So, if the add-on and Auditor will
 be running on different machines, the corresponding computer account will require at least the
 **Contributor** role in Auditor. See the
-[Role-Based Access and Delegation](/versioned_docs/auditor_10.6/auditor/admin/monitoringplans/delegation.md)
+[Role-Based Access and Delegation](/docs/auditor/10.6/auditor/admin/monitoringplans/delegation.md)
 topic for additional information.
 
 In case the add-on and Auditor are installed on the same server, no special settings are needed.

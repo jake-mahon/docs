@@ -12,7 +12,7 @@ The algorithm is applied by the server to a resource. It has the following respo
 - Purging expired assignments
 
 See the
-[ Risk Management ](/versioned_docs/usercube_6.1/usercube/integration-guide/governance/risks/index.md)
+[ Risk Management ](/docs/usercube/6.1/usercube/integration-guide/governance/risks/index.md)
 topic for additional information.
 
 ## Overview
@@ -41,9 +41,9 @@ connectors to fulfill and fix the differences.
 Evaluate Policy is executed by the task `Usercube-Compute-RoleModel`, usually included in a
 regularly scheduled provisioning job.
 
-See the [ Connectors ](/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/index.md),
-[ ComputeRoleModelTask ](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/jobs/tasks/server/computerolemodeltask/index.md),
-and [ Jobs ](/versioned_docs/usercube_6.1/usercube/integration-guide/tasks-jobs/jobs/index.md)
+See the [ Connectors ](/docs/usercube/6.1/usercube/integration-guide/connectors/index.md),
+[ ComputeRoleModelTask ](/docs/usercube/6.1/usercube/integration-guide/toolkit/xml-configuration/jobs/tasks/server/computerolemodeltask/index.md),
+and [ Jobs ](/docs/usercube/6.1/usercube/integration-guide/tasks-jobs/jobs/index.md)
 topics for additional information.
 
 ## The Algorithm Steps
@@ -77,14 +77,14 @@ To improve execution time, two optimizations are used:
 - Usercube only selects resources for which a new assignment computation is needed. They are
   resources updated during the last incremental synchronization, and resources that depend on them.
   They are identified by the dirty flag, set during incremental synchronization. See the
-  [ Upward Data Synchronization ](/versioned_docs/usercube_6.1/usercube/integration-guide/synchronization/upward-data-sync/index.md)
+  [ Upward Data Synchronization ](/docs/usercube/6.1/usercube/integration-guide/synchronization/upward-data-sync/index.md)
   topic for additional information.
 
 **NOTE:** For very few edge cases, dependencies between resource values can be difficult to identify
 within Usercube. An example involves entity property expressions using
 [LINQ](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/concepts/linq/) syntax. See
 the
-[ EntityType ](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/metadata/entitytype/index.md)topic
+[ EntityType ](/docs/usercube/6.1/usercube/integration-guide/toolkit/xml-configuration/metadata/entitytype/index.md)topic
 for additional information. A second- or third-order binding used in such an expression actually
 defines a dependency. But Usercube does not account for it, because of performance-reliability
 trade-offs. That means a resource `R1`, using such an expression to compute one of its properties
@@ -105,15 +105,15 @@ The list contains:
 - Automatic assignments, inferred from other assignments, according to role-based rules
 - Manual assignments previously created and derogations previously validated
 - Assignments updated by an automation rule. See the
-  [Automation Rule](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/provisioning/automationrule/index.md)
+  [Automation Rule](/docs/usercube/6.1/usercube/integration-guide/toolkit/xml-configuration/provisioning/automationrule/index.md)
   topic for additional information.
 
 To build the list, the algorithm first goes through composite role rules, single role rules,
 resource type rules, navigation rules, and applies them in that order. See the
-[ CompositeRoleRule ](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/provisioning/compositerolerule/index.md),
-[ SingleRoleRule ](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/provisioning/singlerolerule/index.md),
+[ CompositeRoleRule ](/docs/usercube/6.1/usercube/integration-guide/toolkit/xml-configuration/provisioning/compositerolerule/index.md),
+[ SingleRoleRule ](/docs/usercube/6.1/usercube/integration-guide/toolkit/xml-configuration/provisioning/singlerolerule/index.md),
 and
-[Resource Type](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/provisioning/resourcetype/index.md)
+[Resource Type](/docs/usercube/6.1/usercube/integration-guide/toolkit/xml-configuration/provisioning/resourcetype/index.md)
 topics for additional information. This takes care of automatic assignments. Every step influences
 the following one: single roles can be inferred from composite roles that have just been assigned by
 a reviewer or an automation rule for example.
@@ -134,7 +134,7 @@ Let's detail the rule enforcement mechanisms.
 Match context rules
 
 Dimensions are really the basis of an assignment process. See the
-[ Entitlement Management ](/versioned_docs/usercube_6.1/usercube/introduction-guide/overview/entitlement-management/index.md)
+[ Entitlement Management ](/docs/usercube/6.1/usercube/introduction-guide/overview/entitlement-management/index.md)
 topic for additional information.
 
 Before starting, a context rule is applied, giving for the input resource:
@@ -147,7 +147,7 @@ Before starting, a context rule is applied, giving for the input resource:
 Computing expected role assignments
 
 Role assignments, on the other hand, are the outcome of the assignment process. See the
-[ Entitlement Management ](/versioned_docs/usercube_6.1/usercube/introduction-guide/overview/entitlement-management/index.md)
+[ Entitlement Management ](/docs/usercube/6.1/usercube/introduction-guide/overview/entitlement-management/index.md)
 topic for additional information.
 
 Role assignments are the output of composite role rules and single role rules enforcement. The
@@ -160,7 +160,7 @@ resource-identity.
 Enforcing composite role rules
 
 The first rules that are enforced are the composite role rules. See the
-[ CompositeRoleRule ](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/provisioning/compositerolerule/index.md)topic
+[ CompositeRoleRule ](/docs/usercube/6.1/usercube/integration-guide/toolkit/xml-configuration/provisioning/compositerolerule/index.md)topic
 for additional information.
 
 For every selected resource, this step enforces composite role rules. That means assigning a
@@ -172,7 +172,7 @@ Manual and derogatory assignments of composite roles found in the database are a
 expected assignments list.
 
 Then automation rules are enforced on assigned composite roles. See the
-[Automation Rule](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/provisioning/automationrule/index.md)
+[Automation Rule](/docs/usercube/6.1/usercube/integration-guide/toolkit/xml-configuration/provisioning/automationrule/index.md)
 topic for additional information.
 
 **NOTE:** Enforcing automation rules on an assignment means to find, for each assignment, the
@@ -199,7 +199,7 @@ Then automation rules are enforced on assigned single roles.
 Expected provisioning assignments
 
 Fulfillment is just the consequence of the role assignment process. See the
-[ Entitlement Management ](/versioned_docs/usercube_6.1/usercube/introduction-guide/overview/entitlement-management/index.md)
+[ Entitlement Management ](/docs/usercube/6.1/usercube/introduction-guide/overview/entitlement-management/index.md)
 topic for additional information.
 
 Provisioning-orders-to-be are the output of resource type rules, navigation rules and scalar rules.
@@ -208,7 +208,7 @@ resource scalar is conditioned by the input resource assigned roles, issued duri
 expected role assignments computation or even earlier. They are the exact image of technical
 provisioning orders that are to be executed by the agent, after being validated by a knowledgeable
 user. See the
-[Resource Type](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/provisioning/resourcetype/index.md)
+[Resource Type](/docs/usercube/6.1/usercube/integration-guide/toolkit/xml-configuration/provisioning/resourcetype/index.md)
 topic for additional information.
 
 ![Computing Expected Provisioning Assignments](/img/versioned_docs/usercube_6.1/usercube/integration-guide/role-assignment/evaluate-policy/compute-expected-2.webp)

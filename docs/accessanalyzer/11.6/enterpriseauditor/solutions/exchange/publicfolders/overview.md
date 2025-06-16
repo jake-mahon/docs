@@ -10,17 +10,17 @@ content posted.
 
 The following comprise the 5. Public Folders job group:
 
-- [Content Job Group](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/exchange/publicfolders/content/overview.md)
+- [Content Job Group](/docs/accessanalyzer/11.6/enterpriseauditor/solutions/exchange/publicfolders/content/overview.md)
   – Provides visibility into public folder sizing and content aging
-- [Growth and Size Job Group](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/exchange/publicfolders/growthsize/overview.md)
+- [Growth and Size Job Group](/docs/accessanalyzer/11.6/enterpriseauditor/solutions/exchange/publicfolders/growthsize/overview.md)
   – Comprised of data collection, analysis, and reports that focus on public folder sizing and
   growth
-- [Ownership Job Group](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/exchange/publicfolders/ownership/overview.md)
+- [Ownership Job Group](/docs/accessanalyzer/11.6/enterpriseauditor/solutions/exchange/publicfolders/ownership/overview.md)
   – Comprised of analysis and reports that focus on public folder ownership, and most importantly
   the identification of each public folder's Most Probable Owner
-- [Permissions Job Group](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/exchange/publicfolders/permissions/overview.md)
+- [Permissions Job Group](/docs/accessanalyzer/11.6/enterpriseauditor/solutions/exchange/publicfolders/permissions/overview.md)
   – Provides visibility into permissions applied to each public folder
-- [PF_Overview Job](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/exchange/publicfolders/pf_overview.md)
+- [PF_Overview Job](/docs/accessanalyzer/11.6/enterpriseauditor/solutions/exchange/publicfolders/pf_overview.md)
   – Comprised of analysis and reports that provides a top level summary of each parent public folder
   and correlates information from the message tracking logs to identify the last time a public
   folder received mail
@@ -30,5 +30,5 @@ collector. Therefore, it requires both Enterprise Auditor MAPI CDO and Microsoft
 to be installed on the Enterprise Auditor Console server. Once these have been installed, the
 **Settings** > **Exchange** node must be configured for proper connection to the Exchange server.
 See the
-[Exchange](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/settings/exchange.md)
+[Exchange](/docs/accessanalyzer/11.6/enterpriseauditor/admin/settings/exchange.md)
 topic for additional information.

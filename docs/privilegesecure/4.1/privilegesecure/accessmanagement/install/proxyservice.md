@@ -13,7 +13,7 @@ defined in the application from different locations within your organization.
 
 The NPS Proxy Service installer is in the Extras folder of the ZIP file downloaded from the Netwrix
 Customer portal. See the
-[Install Components & Methods](/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/install/components.md)
+[Install Components & Methods](/docs/privilegesecure/4.1/privilegesecure/accessmanagement/install/components.md)
 topic for additional information.
 
 Follow the steps to install the NPS Proxy Service on another server that will run services for the

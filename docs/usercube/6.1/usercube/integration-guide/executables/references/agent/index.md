@@ -1,7 +1,7 @@
 # Usercube-Agent
 
 This tool runs the Agent on a seperate server instance. The Agent is able to communicate with the
-[Usercube-Server](/versioned_docs/usercube_6.1/usercube/integration-guide/executables/references/server/index.md).
+[Usercube-Server](/docs/usercube/6.1/usercube/integration-guide/executables/references/server/index.md).
 
 ## Examples
 

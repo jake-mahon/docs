@@ -6,7 +6,7 @@ assignments and application permissions on the registered app in Microsoft Entra
 This topic lists those roles and permissions GroupID needs to perform operations in a Microsoft
 Entra ID provider.
 
-See the [ License GroupID](/versioned_docs/groupid_11.0/groupid/admincenter/general/licensing.md)
+See the [ License GroupID](/docs/groupid/11.0/groupid/admincenter/general/licensing.md)
 topic for additional information on GroupID licensing.
 
 ## Graph API Application Permissions

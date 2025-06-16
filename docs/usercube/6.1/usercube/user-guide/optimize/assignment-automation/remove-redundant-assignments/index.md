@@ -1,12 +1,12 @@
 # Remove Redundant Assignments
 
 How to remove redundant assignments, i.e.
-[manual](/versioned_docs/usercube_6.1/usercube/integration-guide/role-assignment/assignments-of-entitlements/index.md)
+[manual](/docs/usercube/6.1/usercube/integration-guide/role-assignment/assignments-of-entitlements/index.md)
 assignments of roles and resource types that are assigned by a rule too.
 
 ## Overview
 
-[Assignment rules](/versioned_docs/usercube_6.1/usercube/user-guide/optimize/assignment-automation/automate-role-assignment/index.md)
+[Assignment rules](/docs/usercube/6.1/usercube/user-guide/optimize/assignment-automation/automate-role-assignment/index.md)
 can sometimes give to users an entitlement that they had already received manually. Hence, new
 assignment rules can imply redundancies between the entitlements assigned manually and approved, and
 those calculated by a rule and assigned automatically.
@@ -71,7 +71,7 @@ application's users, entitlements and data model.
 
 | Input                                                                                                                                                                                                                                                                                                                                                                                                          | Output                |
 | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------- |
-| [Role catalog](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/single-roles-catalog-creation/index.md) (required) [Role assignment rules](/versioned_docs/usercube_6.1/usercube/user-guide/optimize/assignment-automation/automate-role-assignment/index.md) (required) [Role mining](/versioned_docs/usercube_6.1/usercube/user-guide/optimize/assignment-automation/role-mining/index.md) (optional) | Minimized derogations |
+| [Role catalog](/docs/usercube/6.1/usercube/user-guide/set-up/single-roles-catalog-creation/index.md) (required) [Role assignment rules](/docs/usercube/6.1/usercube/user-guide/optimize/assignment-automation/automate-role-assignment/index.md) (required) [Role mining](/docs/usercube/6.1/usercube/user-guide/optimize/assignment-automation/role-mining/index.md) (optional) | Minimized derogations |
 
 ## Remove Redundant Assignments
 

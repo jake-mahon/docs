@@ -34,7 +34,7 @@ Both the Agent and the Server can get their emails delivered through an **extern
 ## Usercube Server Emails
 
 The SMTP server used by the Usercube Server is configured in the
-[Applicative configuration settings](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/server-configuration/general-purpose/index.md).
+[Applicative configuration settings](/docs/usercube/6.1/usercube/integration-guide/network-configuration/server-configuration/general-purpose/index.md).
 
 Here is an example with an external SMTP server.
 
@@ -62,7 +62,7 @@ authenticate to send emails.
 ## Usercube Agent Emails
 
 From the agent side, the email settings dwell in the
-[Agent's appsetting](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/appsettings/index.md)
+[Agent's appsetting](/docs/usercube/6.1/usercube/integration-guide/network-configuration/agent-configuration/appsettings/index.md)
 file.
 
 Here is a classic example that enables Usercube to send emails through the _smtp.contoso.com_ server

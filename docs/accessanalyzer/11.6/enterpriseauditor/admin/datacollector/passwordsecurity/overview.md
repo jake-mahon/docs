@@ -8,7 +8,7 @@ The PasswordSecurity Data Collector is a core component of Enterprise Auditor, b
 preconfigured within the Active Directory Solution. While the data collector is available with all
 Enterprise Auditor license options, the Active Directory Solution is only available with a special
 Enterprise Auditor license. See the
-[Active Directory Solution](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/activedirectory/overview.md)
+[Active Directory Solution](/docs/accessanalyzer/11.6/enterpriseauditor/solutions/activedirectory/overview.md)
 topic for additional information.
 
 Protocols
@@ -34,8 +34,8 @@ Permissions
 The PasswordSecurity Data Collector is configured through the Password Security Data Collector
 Wizard, which contains the following wizard pages:
 
-- [PasswordSecurity: Category](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/passwordsecurity/category.md)
-- [PasswordSecurity: Options](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/passwordsecurity/options.md)
-- [PasswordSecurity: Dictionaries](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/passwordsecurity/dictionaries.md)
-- [PasswordSecurity: Results](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/passwordsecurity/results.md)
-- [PasswordSecurity: Summary](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/passwordsecurity/summary.md)
+- [PasswordSecurity: Category](/docs/accessanalyzer/11.6/enterpriseauditor/admin/datacollector/passwordsecurity/category.md)
+- [PasswordSecurity: Options](/docs/accessanalyzer/11.6/enterpriseauditor/admin/datacollector/passwordsecurity/options.md)
+- [PasswordSecurity: Dictionaries](/docs/accessanalyzer/11.6/enterpriseauditor/admin/datacollector/passwordsecurity/dictionaries.md)
+- [PasswordSecurity: Results](/docs/accessanalyzer/11.6/enterpriseauditor/admin/datacollector/passwordsecurity/results.md)
+- [PasswordSecurity: Summary](/docs/accessanalyzer/11.6/enterpriseauditor/admin/datacollector/passwordsecurity/summary.md)

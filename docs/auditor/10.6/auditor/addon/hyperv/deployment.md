@@ -23,7 +23,7 @@ Users_ local group on the SCVMM server.
 
 In this scenario, make sure to specify SCVMM server address in the **DataCollectionServer**
 parameter (not the machine where SCVMM console runs) in the **settings.xml** configuration file. See
-the [Add-On Parameters](/versioned_docs/auditor_10.6/auditor/addon/hyperv/parameters.md)topic for
+the [Add-On Parameters](/docs/auditor/10.6/auditor/addon/hyperv/parameters.md)topic for
 additional information.
 
 Depending on the deployment scenario you choose, you will need to define a set of the add-on

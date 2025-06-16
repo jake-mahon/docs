@@ -35,7 +35,7 @@ The following analysis tasks are selected by default:
       excluded. When the job is run, SIDs specified in the #FILTERED_TRUSTEES variable are excluded
       from the analysis and not reported as probable owners.
     - See the
-      [Configure the Customizable Parameters in an Analysis Task](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/jobs/job/configure/analysiscustomizableparameters.md)
+      [Configure the Customizable Parameters in an Analysis Task](/docs/accessanalyzer/11.6/enterpriseauditor/admin/jobs/job/configure/analysiscustomizableparameters.md)
       topic for additional information.
 - Identify Folders with no Owner Found – Creates the SA_FS_ProbableOwner_NoOwnerFound table
   accessible under the job’s Results node

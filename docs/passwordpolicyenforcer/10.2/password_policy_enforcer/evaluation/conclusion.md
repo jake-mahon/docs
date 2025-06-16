@@ -4,7 +4,7 @@ Congratulations! You have successfully installed, configured, and tested Netwrix
 Enforcer. This guide is only an introduction to Password Policy Enforcer's capabilities. You can
 enforce almost any password policy imaginable with Password Policy Enforcer, customize the Password
 Policy Client messages, and even synchronize passwords with other networks and applications. The
-[Administration](/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/administration/administration_overview.md)
+[Administration](/docs/passwordpolicyenforcer/10.2/password_policy_enforcer/administration/administration_overview.md)
 topic contains more information to help you get the most out of Password Policy Enforcer.
 
 You may also be interested in Netwrix Password Reset and PPE/Web. These products allow users to
@@ -17,7 +17,7 @@ password, reset a forgotten password, and unlock their account without calling t
 includes the Password Reset Client, which allows users to access APR from the Windows Logon and
 Unlock screens.
 
-The [Web](/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/web/web_overview.md)
+The [Web](/docs/passwordpolicyenforcer/10.2/password_policy_enforcer/web/web_overview.md)
 application allows users to change their password from a web browser.
 
 ![conclusion_1](/img/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/evaluation/conclusion_1.webp)

@@ -11,10 +11,10 @@ It provides the ability to feed activity data to SIEM products. The following da
 specifically created for Activity Monitor event data:
 
 - For IBM® QRadar®, see the
-  [Netwrix File Activity Monitor App for QRadar](/versioned_docs/activitymonitor_7.1/activitymonitor/siem/qradar/overview.md)
+  [Netwrix File Activity Monitor App for QRadar](/docs/activitymonitor/7.1/activitymonitor/siem/qradar/overview.md)
   for additional information.
 - For Splunk®, see the
-  [File Activity Monitor App for Splunk](/versioned_docs/activitymonitor_7.1/activitymonitor/siem/splunk/overview.md)
+  [File Activity Monitor App for Splunk](/docs/activitymonitor/7.1/activitymonitor/siem/splunk/overview.md)
   for additional information.
 
 It also provides the ability to feed activity data to other Netwrix products:
@@ -29,7 +29,7 @@ monitoring the target environment.
 
 Prior to adding a Panzura host to the Activity Monitor, the prerequisites for the target environment
 must be met. See the
-[Panzura CloudFS Monitoring](/versioned_docs/activitymonitor_7.1/config/panzura/activity.md) topic
+[Panzura CloudFS Monitoring](/docs/activitymonitor/7.1/config/panzura/activity.md) topic
 for additional information.
 
 Follow the steps to add a Panzura host to be monitored.
@@ -159,7 +159,7 @@ Output page can be configured.
     - TLS
 
     The TCP and TLS protocols add the **Message framing** drop-down menu. See the
-    [Syslog Tab](/versioned_docs/activitymonitor_7.1/activitymonitor/admin/outputs/syslog.md) topic
+    [Syslog Tab](/docs/activitymonitor/7.1/activitymonitor/admin/outputs/syslog.md) topic
     for additional information.
 
 - The Test button sends a test message to the Syslog server to check the connection. A green check
@@ -171,7 +171,7 @@ Output page can be configured.
     - TLS – Shows error if TLS handshake fails
 
     See the
-    [Syslog Tab](/versioned_docs/activitymonitor_7.1/activitymonitor/admin/outputs/syslog.md) topic
+    [Syslog Tab](/docs/activitymonitor/7.1/activitymonitor/admin/outputs/syslog.md) topic
     for additional information.
 
 Click **Finish**.
@@ -180,7 +180,7 @@ Click **Finish**.
 
 The added Panzura host is displayed in the monitored hosts table. Once a host has been added for
 monitoring, configure the desired ouptuts. See the
-[Output for Monitored Hosts](/versioned_docs/activitymonitor_7.1/activitymonitor/admin/monitoredhosts/output.md)
+[Output for Monitored Hosts](/docs/activitymonitor/7.1/activitymonitor/admin/monitoredhosts/output.md)
 topic for additional information.
 
 ## Host Properties for Panzura
@@ -188,9 +188,9 @@ topic for additional information.
 Configuration settings can be edited through the tabs in the host’s Properties window. The
 configurable host properties are:
 
-- [Panzura Tab](/versioned_docs/activitymonitor_7.1/activitymonitor/admin/monitoredhosts/properties/panzura.md)
-- [Inactivity Alerts Tab](/versioned_docs/activitymonitor_7.1/activitymonitor/admin/monitoredhosts/properties/inactivityalerts.md)
+- [Panzura Tab](/docs/activitymonitor/7.1/activitymonitor/admin/monitoredhosts/properties/panzura.md)
+- [Inactivity Alerts Tab](/docs/activitymonitor/7.1/activitymonitor/admin/monitoredhosts/properties/inactivityalerts.md)
 
 See the
-[Host Properties Window](/versioned_docs/activitymonitor_7.1/activitymonitor/admin/monitoredhosts/properties/overview.md)
+[Host Properties Window](/docs/activitymonitor/7.1/activitymonitor/admin/monitoredhosts/properties/overview.md)
 topic for additional information.

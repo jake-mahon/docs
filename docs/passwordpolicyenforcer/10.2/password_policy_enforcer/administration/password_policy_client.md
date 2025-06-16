@@ -2,7 +2,7 @@
 
 The Password Policy Client helps users to choose a compliant password. You do not have to install
 the Password Policy Client to use Password Policy Enforcer, but the
-[Similarity Rule](/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/administration/similarity_rule.md)
+[Similarity Rule](/docs/passwordpolicyenforcer/10.2/password_policy_enforcer/administration/similarity_rule.md)
 is only enforced if the Password Policy Client is installed.
 
 The Password Policy Client helps users to choose a compliant password by explaining the password

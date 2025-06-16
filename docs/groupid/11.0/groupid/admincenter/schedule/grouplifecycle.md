@@ -1,7 +1,7 @@
 # Group Life Cycle Schedule
 
 GroupID enables you to define group lifecycle settings for an identity store (see the
-[Manage Group Lifecycle Settings](/versioned_docs/groupid_11.0/groupid/admincenter/identitystore/configure/directoryservice/grouplifecycle.md)
+[Manage Group Lifecycle Settings](/docs/groupid/11.0/groupid/admincenter/identitystore/configure/directoryservice/grouplifecycle.md)
 topic). Based on these settings, the Group Lifecycle schedule expires and logically deletes groups
 in the identity store on a scheduled basis, keeping your directory clean and preventing group glut.
 
@@ -11,7 +11,7 @@ containers the job will process, and notification options.
 The Group Lifecycle schedule performs the following main functions:
 
 - Expires and logically delete groups according to their respective expiry policies (see the
-  [ Group Expiry and Deletion](/versioned_docs/groupid_11.0/groupid/admincenter/identitystore/configure/directoryservice/groupexpirydeletion.md)
+  [ Group Expiry and Deletion](/docs/groupid/11.0/groupid/admincenter/identitystore/configure/directoryservice/groupexpirydeletion.md)
   topic).
 - Sends email notifications to relevant personnel before expiring a group. Also initiates
   notifications for group attestation.
@@ -39,26 +39,26 @@ What do you want to do?
    responsible for triggering this schedule. The number of services displayed in the list depend on
    the number of Elasticsearch clusters in the environment, as each cluster has its own Scheduler
    service. See the
-   [Scheduler Service](/versioned_docs/groupid_11.0/groupid/admincenter/service/schedulerservice.md)
+   [Scheduler Service](/docs/groupid/11.0/groupid/admincenter/service/schedulerservice.md)
    topic.
 9. You can specify containers as targets for the schedule. To do so, follow step 9 in the
-   [Create a Group Usage Service Schedule](/versioned_docs/groupid_11.0/groupid/admincenter/schedule/groupusageservice.md#create-a-group-usage-service-schedule)
+   [Create a Group Usage Service Schedule](/docs/groupid/11.0/groupid/admincenter/schedule/groupusageservice.md#create-a-group-usage-service-schedule)
    topic. The schedule will process all groups in the containers and their sub-containers listed in
    the **Target(s)** area in keeping with the Group Lifecycle settings for the identity store.
 
     NOTE: In Group Lifecycle settings, the administrator can specify container(s) for exclusively
     applying or not applying the Group Life cycle policy. See the
-    [Apply Policy on Specific Containers](/versioned_docs/groupid_11.0/groupid/admincenter/identitystore/configure/directoryservice/grouplifecycle.md#apply-policy-on-specific-containers)
+    [Apply Policy on Specific Containers](/docs/groupid/11.0/groupid/admincenter/identitystore/configure/directoryservice/grouplifecycle.md#apply-policy-on-specific-containers)
     topic. With containers specified in the **Target(s)** area, there may be a conflict or
     overlapping of containers, in which case, the Group Lifecycle settings take precedence.
 
 10. Click **Add Triggers** in the **Triggers** area to specify a triggering criterion for the
     schedule, that, when met, starts the execution of the schedule. Follow step 11 in the
-    [Create a Group Usage Service Schedule](/versioned_docs/groupid_11.0/groupid/admincenter/schedule/groupusageservice.md#create-a-group-usage-service-schedule)
+    [Create a Group Usage Service Schedule](/docs/groupid/11.0/groupid/admincenter/schedule/groupusageservice.md#create-a-group-usage-service-schedule)
     topic to manage triggers.
 11. Click **Add Authentication** in the **Authentication** area to specify an account for running
     the schedule in the identity store. Follow step 12 in the
-    [Create a Group Usage Service Schedule](/versioned_docs/groupid_11.0/groupid/admincenter/schedule/groupusageservice.md#create-a-group-usage-service-schedule)
+    [Create a Group Usage Service Schedule](/docs/groupid/11.0/groupid/admincenter/schedule/groupusageservice.md#create-a-group-usage-service-schedule)
     topic for details.
 12. To set notifications for the schedule, click **Notifications**.
 
@@ -66,16 +66,16 @@ What do you want to do?
        check box to send email notifications to a group’s primary and additional owners when the job
        extends the life of a group, based on group usage settings in the Group Lifecycle policy. For
        group usage settings, see the
-       [Enable Group Usage Lifecycle](/versioned_docs/groupid_11.0/groupid/admincenter/identitystore/configure/directoryservice/grouplifecycle.md#enable-group-usage-lifecycle)
+       [Enable Group Usage Lifecycle](/docs/groupid/11.0/groupid/admincenter/identitystore/configure/directoryservice/grouplifecycle.md#enable-group-usage-lifecycle)
        topic.
     2. Click **Save**.
 
 13. On the **Create Schedule** page, click **Create Schedule**.
 14. On the **Schedules** page, click **Save**.  
     The schedule is displayed under **Group Life Cycle**. See the
-    [View the Schedules in an Identity Store ](/versioned_docs/groupid_11.0/groupid/admincenter/schedule/manage.md#view-the-schedules-in-an-identity-store)
+    [View the Schedules in an Identity Store ](/docs/groupid/11.0/groupid/admincenter/schedule/manage.md#view-the-schedules-in-an-identity-store)
     topic for more info.
 
 See Also
 
-- [Schedules](/versioned_docs/groupid_11.0/groupid/admincenter/schedule/overview.md)
+- [Schedules](/docs/groupid/11.0/groupid/admincenter/schedule/overview.md)

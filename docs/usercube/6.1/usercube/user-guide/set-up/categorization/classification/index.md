@@ -1,9 +1,9 @@
 # Classify Resources
 
 How to define
-[classification rules](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/provisioning/resourceclassificationrule/index.md)
+[classification rules](/docs/usercube/6.1/usercube/integration-guide/toolkit/xml-configuration/provisioning/resourceclassificationrule/index.md)
 in order to classify remaining uncorrelated resources, assigning them
-[resource types](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/categorization/resource-type-creation/index.md).
+[resource types](/docs/usercube/6.1/usercube/user-guide/set-up/categorization/resource-type-creation/index.md).
 
 ## Overview
 
@@ -11,7 +11,7 @@ in order to classify remaining uncorrelated resources, assigning them
 
 Classification is the process of putting on an existing resource a label called resource type, to
 show its intent and/or purpose within the managed system.
-[Read more about the purpose of classification](/versioned_docs/usercube_6.1/usercube/introduction-guide/overview/entitlement-management/index.md).
+[Read more about the purpose of classification](/docs/usercube/6.1/usercube/introduction-guide/overview/entitlement-management/index.md).
 
 Every resource type can be assigned a set of classification rules.
 
@@ -97,7 +97,7 @@ application users, entitlements and data model.
 
 | Input                                                                                                                                                                                                                                                                                                                                                                              | Output               |
 | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------- |
-| [Resource type](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/categorization/resource-type-creation/index.md) (required) [Synchronized data](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/synchronization/index.md) (required) [Correlation rules](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/categorization/correlation/index.md) (recommended) | Classification rules |
+| [Resource type](/docs/usercube/6.1/usercube/user-guide/set-up/categorization/resource-type-creation/index.md) (required) [Synchronized data](/docs/usercube/6.1/usercube/user-guide/set-up/synchronization/index.md) (required) [Correlation rules](/docs/usercube/6.1/usercube/user-guide/set-up/categorization/correlation/index.md) (recommended) | Classification rules |
 
 ## Create a Classification Rule
 
@@ -153,7 +153,7 @@ screen "blocks" correlation and classification "as is". Neither will be re-compu
 This also means that only non-conforming resources (displayed on the **Resource Reconciliation**
 screen) can have their classification questioned and re-computed.
 
-[Simulations](/versioned_docs/usercube_6.1/usercube/user-guide/optimize/simulation/index.md) are
+[Simulations](/docs/usercube/6.1/usercube/user-guide/optimize/simulation/index.md) are
 available in order to anticipate the changes induced by a creation/modification/deletion in
 classification rules.
 
@@ -172,7 +172,7 @@ of the home page.
 ![Test Entity Type](/img/versioned_docs/usercube_6.1/usercube/user-guide/set-up/categorization/classification/entitytypecreation_test_v602.webp)
 
 The entity type's page can be
-[configured via XML](/versioned_docs/usercube_6.1/usercube/integration-guide/ui/how-tos/index.md) to
+[configured via XML](/docs/usercube/6.1/usercube/integration-guide/ui/how-tos/index.md) to
 customize all displayed columns and available filters, especially the **Uncategorized** filter that
 spots unclassified resources, and the **Owner / Resource Type** column that shows the resource type
 assigned to each resource.

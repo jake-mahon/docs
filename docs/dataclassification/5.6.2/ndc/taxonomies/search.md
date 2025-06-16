@@ -12,7 +12,7 @@ tab and configure search settings.
     - Clue itself (clue body) – Enter the required keyword or phrase in the **Find** field
 
     **NOTE:** See the
-    [Classification Rules (Clues)](/versioned_docs/dataclassification_5.6.2/ndc/taxonomies/clues.md)
+    [Classification Rules (Clues)](/docs/dataclassification/5.6.2/ndc/taxonomies/clues.md)
     topic for additional information
 
 2. To restrict the search further, you can either add a **URL** filter, or add a custom filter by

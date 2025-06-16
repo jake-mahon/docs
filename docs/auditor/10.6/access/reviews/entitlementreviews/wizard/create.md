@@ -2,7 +2,7 @@
 
 The Create Review wizard is opened with the **Create** button on the Entitlement Reviews interface.
 See the
-[Manage Reviews Page](/versioned_docs/auditor_10.6/access/reviews/entitlementreviews/interface.md#manage-reviews-page)
+[Manage Reviews Page](/docs/auditor/10.6/access/reviews/entitlementreviews/interface.md#manage-reviews-page)
 topic for additional information.
 
 ![Create Review wizard](/img/versioned_docs/auditor_10.6/access/reviews/entitlementreviews/wizard/createreviewreviewtype.webp)
@@ -68,7 +68,7 @@ created.
 - Select the desired resource(s) and click **Add**. The **View Selections** button indicates how
   many resources have been selected. Click the button to open the Selected Resources window, where
   you can view and modify the selections. See the
-  [Selected Resources Window](/versioned_docs/auditor_10.6/access/reviews/entitlementreviews/window/selectedresources.md)
+  [Selected Resources Window](/docs/auditor/10.6/access/reviews/entitlementreviews/window/selectedresources.md)
   topic for additional information.
 - Once the desired resources have been selected, click **Next**.
 
@@ -82,5 +82,5 @@ The new review displays in the table on the Manage Reviews page. An email was se
 owner assigned to the resource(s) in this review. By default, the application is configured to send
 notifications only to the primary owner. However, this can be customized on the Configuration >
 Notifications page to send notifications to all assigned owners. See the
-[Notifications Page](/versioned_docs/auditor_10.6/access/reviews/admin/configuration/notifications.md)
+[Notifications Page](/docs/auditor/10.6/access/reviews/admin/configuration/notifications.md)
 topic for additional information.

@@ -62,6 +62,6 @@ Directory.** You can select entire directory or a domain to search active groups
 
 **See Also**
 
-- [Validate your profile](/versioned_docs/groupid_11.0/groupid/portal/user/manage/validateprofile.md)
-- [User Properties](/versioned_docs/groupid_11.0/groupid/portal/user/properties/overview.md)
-- [Portal Settings](/versioned_docs/groupid_11.0/groupid/portal/setting/portal.md)
+- [Validate your profile](/docs/groupid/11.0/groupid/portal/user/manage/validateprofile.md)
+- [User Properties](/docs/groupid/11.0/groupid/portal/user/properties/overview.md)
+- [Portal Settings](/docs/groupid/11.0/groupid/portal/setting/portal.md)

@@ -6,12 +6,12 @@ privileges.
 
 Activities are for singular activities based on a specific platform whereas Activity Groups can be
 used for cross platform activities such as granting local administrator access. See the
-[Activity Groups Page](/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/policy/page/activitygroups.md)
+[Activity Groups Page](/docs/privilegesecure/4.1/privilegesecure/accessmanagement/admin/policy/page/activitygroups.md)
 topic for additional information.
 
 It is also possible to configure an activity to automatically run any Protection Policy associated
 with the resource when the session completes, instead of waiting for the scheduled sync. See the
-[Add Action Window](/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/policy/window/activities/addaction.md)
+[Add Action Window](/docs/privilegesecure/4.1/privilegesecure/accessmanagement/admin/policy/window/activities/addaction.md)
 topic for additional information.
 
 ![activitiespage](/img/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/policy/page/activitiespage.webp)
@@ -22,7 +22,7 @@ following features:
 - Search — Searches the table or list for matches to the search string. When matches are found, the
   table or list is filtered to the matching results.
 - Green + button — Create a new activity. See the
-  [Add Activity](/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/policy/add/activity.md)
+  [Add Activity](/docs/privilegesecure/4.1/privilegesecure/accessmanagement/admin/policy/add/activity.md)
   topic for additional information.
 - Copy icon — Clones the activity and adds a new entry to the Activities list. Icon appears when
   activity is hovered over.
@@ -51,7 +51,7 @@ The selected activity details display at the top of the main pane:
   include: Domain\SamAcccountName, SamAccountName, UPN (User Principal Name), and Email
 - Login Account Template — Template determines the format of the account created for Managed,
   Activity Token, Resource, and Vault Login Accounts. See the
-  [Login Account Templates](/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/policy/activityloginaccounttemplates.md)
+  [Login Account Templates](/docs/privilegesecure/4.1/privilegesecure/accessmanagement/admin/policy/activityloginaccounttemplates.md)
   topic for additional information.
 - Create Account checkbox — Indicates whether an account is created at the beginning of the activity
   if it does not already exist. When the Activity starts, a check is made to determine if an account
@@ -74,7 +74,7 @@ The selected activity details display at the top of the main pane:
     **NOTE:** To view the password fetched from the vault, the Allow User to View Password checkbox
     must be selected in the connection profile associated with the access policy that gives the
     requester rights to the activity. See the
-    [Connection Profiles Page](/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/policy/page/connectionprofiles.md)
+    [Connection Profiles Page](/docs/privilegesecure/4.1/privilegesecure/accessmanagement/admin/policy/page/connectionprofiles.md)
     topic for additional information.
 
 - Application to Launch — Indicates the application that will be launched on the RDS server that the
@@ -88,9 +88,9 @@ The selected activity details display at the top of the main pane:
 - Logon URL — Displays the primary logon page. When this field has a value, it will override the
   Logon URL defined on the Website resource. This option is only visible when the Platform is set to
   Microsoft Entra ID or Website. See the
-  [Microsoft Entra ID Details Page](/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/policy/page/details/entraid.md)
+  [Microsoft Entra ID Details Page](/docs/privilegesecure/4.1/privilegesecure/accessmanagement/admin/policy/page/details/entraid.md)
   and
-  [Website Details Page](/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/policy/page/details/website.md)
+  [Website Details Page](/docs/privilegesecure/4.1/privilegesecure/accessmanagement/admin/policy/page/details/website.md)
   topics for additional information.
 
 If any of these settings are modified, Save and Cancel buttons are displayed. Click **Save** to
@@ -107,7 +107,7 @@ before, during, and after the session:
 
 A Link icon shows actions that are linked. Deleting a linked action will delete the corresponding
 action it is paired with. See the
-[Add Action Window](/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/policy/window/activities/addaction.md)
+[Add Action Window](/docs/privilegesecure/4.1/privilegesecure/accessmanagement/admin/policy/window/activities/addaction.md)
 topic for additional information.
 
 **NOTE:** It is not possible to edit the Action Type. Delete the existing action and then create a
@@ -142,7 +142,7 @@ The Activity Token login account will use a unique time-limited ephemeral accoun
 Activity is started and removed when it is completed. The account name is automatically generated
 from the user’s sAMAccountName and Session ID, filled out to as many characters as configured for
 the activity token. See the
-[Activity Token Complexity Page](/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/policy/page/activitytokencomplexity.md)
+[Activity Token Complexity Page](/docs/privilegesecure/4.1/privilegesecure/accessmanagement/admin/policy/page/activitytokencomplexity.md)
 topic for additional information. The account name can be entirely random or based on variables or
 text added to the Login Account Template. The primary use case is where the user profile should be
 destroyed after each session and have the user log-in to a clean desktop every time they connect; a

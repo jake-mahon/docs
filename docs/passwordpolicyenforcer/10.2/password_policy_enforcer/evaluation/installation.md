@@ -5,7 +5,7 @@ software distribution tool. Installing Password Policy Enforcer does not extend 
 schema.
 
 **NOTE:** Refer to the
-[Administration](/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/administration/administration_overview.md)
+[Administration](/docs/passwordpolicyenforcer/10.2/password_policy_enforcer/administration/administration_overview.md)
 topic to learn how to install Password Policy Enforcer with Group Policy. You can also use other
 software distribution tools like Microsoft's System Center Configuration Manager to install Password
 Policy Enforcer.
@@ -38,7 +38,7 @@ Server** check box to install the Password Policy Client on a client computer.
 
 You may need to create a firewall port exception on the domain controllers if you are evaluating the
 Password Policy Client on a domain with client computers. See the
-[Password Policy Client](/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/administration/password_policy_client.md)
+[Password Policy Client](/docs/passwordpolicyenforcer/10.2/password_policy_enforcer/administration/password_policy_client.md)
 topic for additional information.
 
 **NOTE:** The Password Policy Client does not replace or modify any Windows system files. You can

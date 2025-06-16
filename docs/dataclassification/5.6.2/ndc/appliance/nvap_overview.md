@@ -31,6 +31,6 @@ and start the Virtual Appliance Download Manager.
 
 Review the following for additional information:
 
-- [Requirements to Deploy Virtual Appliance](/versioned_docs/dataclassification_5.6.2/ndc/appliance/nvap_system_requirments.md)
-- [Import Virtual Machine from Image to VMware](/versioned_docs/dataclassification_5.6.2/ndc/appliance/nvap_deploy_vmware.md)
-- [Import Virtual Machine from Image to Hyper-V ](/versioned_docs/dataclassification_5.6.2/ndc/appliance/nvap_deploy_hyperv.md)
+- [Requirements to Deploy Virtual Appliance](/docs/dataclassification/5.6.2/ndc/appliance/nvap_system_requirments.md)
+- [Import Virtual Machine from Image to VMware](/docs/dataclassification/5.6.2/ndc/appliance/nvap_deploy_vmware.md)
+- [Import Virtual Machine from Image to Hyper-V ](/docs/dataclassification/5.6.2/ndc/appliance/nvap_deploy_hyperv.md)

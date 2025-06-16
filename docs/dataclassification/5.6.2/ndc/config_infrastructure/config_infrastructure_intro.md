@@ -7,9 +7,9 @@ change reports may contain warnings, errors or incomplete audit data.
 
 Review the following for additional information:
 
-- [Configure Box for Crawling](/versioned_docs/dataclassification_5.6.2/ndc/config_infrastructure/configure_box.md)
-- [Configure Dropbox for Crawling](/versioned_docs/dataclassification_5.6.2/ndc/config_infrastructure/config_dropbox.md)
-- [Configure Microsoft Exchange for Crawling and Classification](/versioned_docs/dataclassification_5.6.2/ndc/config_infrastructure/configure_exchange.md)
-- [Configure NFS File Share for Crawling](/versioned_docs/dataclassification_5.6.2/ndc/config_infrastructure/config_nfs_fs.md)
-- [Configure G Suite and Google Drive for Crawling](/versioned_docs/dataclassification_5.6.2/ndc/config_infrastructure/configure_gdrive.md)
-- [Set Up MIP Integration](/versioned_docs/dataclassification_5.6.2/ndc/workflows/mip_labels/mip_configure_infrastructure.md)
+- [Configure Box for Crawling](/docs/dataclassification/5.6.2/ndc/config_infrastructure/configure_box.md)
+- [Configure Dropbox for Crawling](/docs/dataclassification/5.6.2/ndc/config_infrastructure/config_dropbox.md)
+- [Configure Microsoft Exchange for Crawling and Classification](/docs/dataclassification/5.6.2/ndc/config_infrastructure/configure_exchange.md)
+- [Configure NFS File Share for Crawling](/docs/dataclassification/5.6.2/ndc/config_infrastructure/config_nfs_fs.md)
+- [Configure G Suite and Google Drive for Crawling](/docs/dataclassification/5.6.2/ndc/config_infrastructure/configure_gdrive.md)
+- [Set Up MIP Integration](/docs/dataclassification/5.6.2/ndc/workflows/mip_labels/mip_configure_infrastructure.md)

@@ -35,7 +35,7 @@ Supported Platforms
 Requirements, Permissions, and Ports
 
 See the
-[Target Oracle Requirements, Permissions, and Ports](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/requirements/target/databaseoracle.md)
+[Target Oracle Requirements, Permissions, and Ports](/docs/accessanalyzer/11.6/enterpriseauditor/requirements/target/databaseoracle.md)
 topic for additional information.
 
 Sensitive Data Discovery Considerations
@@ -76,28 +76,28 @@ Security Assessment.
 
 The job groups/jobs in the Oracle Solution are:
 
-- [0.Collection Job Group](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/databases/oracle/collection/overview.md)
+- [0.Collection Job Group](/docs/accessanalyzer/11.6/enterpriseauditor/solutions/databases/oracle/collection/overview.md)
   – This job group is designed to collect high level summary information from targeted Oracle
   Database Servers. This information is used by other jobs in the Oracle solution set for further
   analysis and for producing respective reports. The O.Collection job group is located at **Jobs** >
   **Databases** > **0.Collection** > **Oracle**.
-- [1.Users and Roles Job Group](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/databases/oracle/usersroles/overview.md)
+- [1.Users and Roles Job Group](/docs/accessanalyzer/11.6/enterpriseauditor/solutions/databases/oracle/usersroles/overview.md)
   – This job group is designed to provide insight into user security, roles, and object permissions
   on all the Oracle database objects
-- [2.Activity Job Group](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/databases/oracle/activity/overview.md)
+- [2.Activity Job Group](/docs/accessanalyzer/11.6/enterpriseauditor/solutions/databases/oracle/activity/overview.md)
   – This job group is designed to provide insight into user login activity, object permission
   changes, any unusual database activity, SQL activity against sensitive data, and SQL activity
   against selective or all database objects
-- [3.Permissions Job Group](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/databases/oracle/permissions/overview.md)
+- [3.Permissions Job Group](/docs/accessanalyzer/11.6/enterpriseauditor/solutions/databases/oracle/permissions/overview.md)
   – This job group is designed to provide insight into all types of permissions at the instance,
   database, and object level across all the targeted Oracle database servers
-- [4.Configuration Job Group](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/databases/oracle/configuration/overview.md)
+- [4.Configuration Job Group](/docs/accessanalyzer/11.6/enterpriseauditor/solutions/databases/oracle/configuration/overview.md)
   – This job group is designed to provide insight into potential vulnerabilities related to Oracle
   Database Instance configuration settings
-- [5.Sensitive Data Job Group](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/databases/oracle/sensitivedata/overview.md)
+- [5.Sensitive Data Job Group](/docs/accessanalyzer/11.6/enterpriseauditor/solutions/databases/oracle/sensitivedata/overview.md)
   – This job is designed to provide insight into where sensitive data exists, and who has access to
   it across all the targeted Oracle database servers
     - Requires the Sensitive Data Discovery Add-On.
-- [Oracle_SecurityAssessment Job](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/databases/oracle/oracle_securityassessment.md)
+- [Oracle_SecurityAssessment Job](/docs/accessanalyzer/11.6/enterpriseauditor/solutions/databases/oracle/oracle_securityassessment.md)
   – This job is designed to summarize and categorize the security findings into HIGH, MEDIUM, LOW,
   and NO FINDING categories based on their severity

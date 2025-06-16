@@ -1,16 +1,16 @@
 # Automate Role Assignments
 
 How to manually build rules to automate the assignment of
-[roles](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/single-roles-catalog-creation/index.md)
+[roles](/docs/usercube/6.1/usercube/user-guide/set-up/single-roles-catalog-creation/index.md)
 to identities.
 
 ## Overview
 
 Single role rules and composite role rules are assignment rules. Assignment rules are designed to
 automatically assign respectively
-[single roles](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/single-roles-catalog-creation/index.md)
+[single roles](/docs/usercube/6.1/usercube/user-guide/set-up/single-roles-catalog-creation/index.md)
 and
-[composite roles](/versioned_docs/usercube_6.1/usercube/user-guide/optimize/composite-role-creation/index.md)
+[composite roles](/docs/usercube/6.1/usercube/user-guide/optimize/composite-role-creation/index.md)
 (based on specific criteria) to identities. One rule must be created for every role to assign.
 
 ## Participants and Artifacts
@@ -20,7 +20,7 @@ application's users, entitlements and data model.
 
 | Input                                                                                                                     | Output                |
 | ------------------------------------------------------------------------------------------------------------------------- | --------------------- |
-| [Role catalog](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/single-roles-catalog-creation/index.md) (required) | Role assignment rules |
+| [Role catalog](/docs/usercube/6.1/usercube/user-guide/set-up/single-roles-catalog-creation/index.md) (required) | Role assignment rules |
 
 ## Create a Role Assignment Rule
 
@@ -67,7 +67,7 @@ Create a role assignment rule by proceeding as follows:
 ## Impact of Modifications
 
 Any modification in a role assignment rule is taken into account when the next
-[`ComputeRoleModelTask`](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/jobs/tasks/server/computerolemodeltask/index.md)
+[`ComputeRoleModelTask`](/docs/usercube/6.1/usercube/integration-guide/toolkit/xml-configuration/jobs/tasks/server/computerolemodeltask/index.md)
 runs to compute new assignments. Therefore, if a given rule's criterion is modified, then all
 corresponding assignments are computed again. If a role was assigned automatically to an identity by
 a role assignment rule, and if this assignment doesn't comply with the new version of the rule, then
@@ -82,7 +82,7 @@ side. There are several barriers to cross before said role is removed from the m
 > `Orleans` department get said role, while the users in the `Tours` department are deprived of said
 > role.
 
-[Simulations](/versioned_docs/usercube_6.1/usercube/user-guide/optimize/simulation/index.md) are
+[Simulations](/docs/usercube/6.1/usercube/user-guide/optimize/simulation/index.md) are
 available in order to anticipate the changes induced by a creation/modification/deletion in role
 assignment rules.
 
@@ -93,7 +93,7 @@ approved, and those calculated by a rule and assigned automatically.
 NETWRIX recommends removing redundant assignments after any assignment rule is created or updated.
 
 NETWRIX recommends
-[removing redundant assignments](/versioned_docs/usercube_6.1/usercube/user-guide/optimize/assignment-automation/remove-redundant-assignments/index.md)
+[removing redundant assignments](/docs/usercube/6.1/usercube/user-guide/optimize/assignment-automation/remove-redundant-assignments/index.md)
 after any assignment rule is created or updated.
 
 ## Verify Rule Creation

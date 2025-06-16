@@ -16,8 +16,8 @@ Data Collectors
 
 This solution employs the following data collector to scan the target environment:
 
-- [ADInventory Data Collector](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/adinventory/overview.md)
-- [FileSystemAccess Data Collector](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/fsaa/overview.md)
+- [ADInventory Data Collector](/docs/accessanalyzer/11.6/enterpriseauditor/admin/datacollector/adinventory/overview.md)
+- [FileSystemAccess Data Collector](/docs/accessanalyzer/11.6/enterpriseauditor/admin/datacollector/fsaa/overview.md)
 
 Permissions and Ports for ADInventory Data Collector Prerequisite
 
@@ -52,7 +52,7 @@ The following are supported Microsoft® Windows® operating systems:
 - Windows Server 2016
 
 See the
-[Windows File Server Target Requirements](/versioned_docs/enterpriseauditor_11.6/config/windowsfile/overview.md)
+[Windows File Server Target Requirements](/docs/accessanalyzer/11.6/config/windowsfile/overview.md)
 topic for target environment requirements.
 
 Windows File System Clusters
@@ -74,7 +74,7 @@ Dell Celerra® & VNX
 - VNX 8.1
 
 See the
-[Dell Celerra & Dell VNX Target Requirements](/versioned_docs/enterpriseauditor_11.6/config/dellcelerravnx/overview.md)
+[Dell Celerra & Dell VNX Target Requirements](/docs/accessanalyzer/11.6/config/dellcelerravnx/overview.md)
 topic for target environment requirements.
 
 Dell Isilon/PowerScale
@@ -82,13 +82,13 @@ Dell Isilon/PowerScale
 - 7.0+
 
 See the
-[Dell Isilon/PowerScale Target Requirements](/versioned_docs/enterpriseauditor_11.6/config/dellpowerscale/overview.md)
+[Dell Isilon/PowerScale Target Requirements](/docs/accessanalyzer/11.6/config/dellpowerscale/overview.md)
 topic for target environment requirements.
 
 Dell Unity
 
 See the
-[Dell Unity Target Requirements](/versioned_docs/enterpriseauditor_11.6/config/dellunity/overview.md)
+[Dell Unity Target Requirements](/docs/accessanalyzer/11.6/config/dellunity/overview.md)
 topic for target environment requirements.
 
 Hitachi
@@ -96,7 +96,7 @@ Hitachi
 - 11.2+
 
 See the
-[Hitachi Target Requirements](/versioned_docs/enterpriseauditor_11.6/config/hitachi/overview.md)
+[Hitachi Target Requirements](/docs/accessanalyzer/11.6/config/hitachi/overview.md)
 topic for target environment requirements.
 
 Nasuni Nasuni Edge Appliances
@@ -104,7 +104,7 @@ Nasuni Nasuni Edge Appliances
 - 8.0+
 
 See the
-[Nasuni Target Requirements](/versioned_docs/enterpriseauditor_11.6/config/nasuni/overview.md) topic
+[Nasuni Target Requirements](/docs/accessanalyzer/11.6/config/nasuni/overview.md) topic
 for target environment requirements.
 
 NetApp Data ONTAP
@@ -116,13 +116,13 @@ NetApp Data ONTAP
 
 See the following topics for target environment requirements:
 
-- [NetApp Data ONTAP Cluster-Mode Target Requirements](/versioned_docs/enterpriseauditor_11.6/config/netappcmode/overview.md)
-- [NetApp Data ONTAP 7-Mode Target Requirements](/versioned_docs/enterpriseauditor_11.6/config/netapp7mode/overview.md)
+- [NetApp Data ONTAP Cluster-Mode Target Requirements](/docs/accessanalyzer/11.6/config/netappcmode/overview.md)
+- [NetApp Data ONTAP 7-Mode Target Requirements](/docs/accessanalyzer/11.6/config/netapp7mode/overview.md)
 
 Nutanix
 
 See the
-[Nutanix Target Requirements](/versioned_docs/enterpriseauditor_11.6/config/nutanix/overview.md)
+[Nutanix Target Requirements](/docs/accessanalyzer/11.6/config/nutanix/overview.md)
 topic for target environment requirements.
 
 Qumulo
@@ -130,7 +130,7 @@ Qumulo
 - Qumulo Core 5.0.0.1B+
 
 See the
-[Qumulo Target Requirements](/versioned_docs/enterpriseauditor_11.6/config/qumulo/overview.md) topic
+[Qumulo Target Requirements](/docs/accessanalyzer/11.6/config/qumulo/overview.md) topic
 for target environment requirements.
 
 ## Supported Unix Platforms

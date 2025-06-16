@@ -11,9 +11,9 @@ To configure a GroupID server with existing database:
 
 1. On the **Select to create new server or use existing server** page of the Configuration Tool,
    select
-   [Configure a new GroupID server with a new or an existing database](/versioned_docs/groupid_11.0/groupid/install/configure/gidserver.md)
+   [Configure a new GroupID server with a new or an existing database](/docs/groupid/11.0/groupid/install/configure/gidserver.md)
    option. See point # 2 on the
-   [Configuration Tool](/versioned_docs/groupid_11.0/groupid/install/configure/configure.md) topic.
+   [Configuration Tool](/docs/groupid/11.0/groupid/install/configure/configure.md) topic.
 2. Click **Next**.
 
     ![database settings](/img/versioned_docs/groupid_11.0/groupid/install/configure/databasesettings.jpg)
@@ -29,11 +29,11 @@ To configure a GroupID server with existing database:
 
     - **SQL Server Authentication** - To set SQL Server to work with GroupID using an SQL Server
       account. See the
-      [Authentication Modes](/versioned_docs/groupid_11.0/groupid/install/setupauthentication.md)
+      [Authentication Modes](/docs/groupid/11.0/groupid/install/setupauthentication.md)
       topic for additional information.
     - **Windows Authentication** - To set SQL Server to work with GroupID using a Windows user
       account. See the
-      [Authentication Modes](/versioned_docs/groupid_11.0/groupid/install/setupauthentication.md)
+      [Authentication Modes](/docs/groupid/11.0/groupid/install/setupauthentication.md)
       topic for additional details.
 
 5. Depending on the authentication mode selected, do the following:
@@ -196,4 +196,4 @@ To configure a GroupID server with existing database:
 
 See Also
 
-- [Configuration Tool](/versioned_docs/groupid_11.0/groupid/install/configure/configure.md)
+- [Configuration Tool](/docs/groupid/11.0/groupid/install/configure/configure.md)

@@ -18,13 +18,13 @@ target host:
 These permissions grant the credential the ability to enumerate shares, access the remote registry,
 and bypass NTFS security on folders. The credential used within the assigned Connection Profile for
 these target hosts requires these permissions. See the
-[Dell Unity Access & Sensitive Data Auditing Configuration](/versioned_docs/enterpriseauditor_11.6/config/dellunity/access.md)
+[Dell Unity Access & Sensitive Data Auditing Configuration](/docs/accessanalyzer/11.6/config/dellunity/access.md)
 topic for instructions.
 
 **NOTE:** These permissions are in addition to those needed to either deploy applet scans for
 running scans in proxy mode with applet or installing the File System Proxy Service Permissions for
 running scans in proxy mode as a service. See the
-[File System Scan Options](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/requirements/solutions/filesystem/scanoptions.md)
+[File System Scan Options](/docs/accessanalyzer/11.6/enterpriseauditor/requirements/solutions/filesystem/scanoptions.md)
 topic for additional information.
 
 Troubleshooting Dell Unity Denied Access Errors
@@ -41,7 +41,7 @@ website.
 
 The firewall ports required by Enterprise Auditor for Access Auditing (FSAA) and/or Sensitive Data
 Discovery Auditing scans are based on the File System scan mode to be used. See the
-[File System Scan Options](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/requirements/solutions/filesystem/scanoptions.md)
+[File System Scan Options](/docs/accessanalyzer/11.6/enterpriseauditor/requirements/solutions/filesystem/scanoptions.md)
 topic for additional information.
 
 ## Activity Auditing Permissions
@@ -72,7 +72,7 @@ EMC CEE requires .NET Framework 3.5 to be installed on the Windows proxy server 
 CEE service to start.
 
 See the
-[Dell Unity Activity Auditing Configuration](/versioned_docs/enterpriseauditor_11.6/config/dellunity/activity.md)
+[Dell Unity Activity Auditing Configuration](/docs/accessanalyzer/11.6/config/dellunity/activity.md)
 topic for instructions.
 
 Activity Monitor Archive Location

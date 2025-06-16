@@ -14,5 +14,5 @@ Windows Event Log Type.
 
 - AppnLogSQL – Uses SmartLog Data Collector to gather logon events
     - See the
-      [SMARTLog Data Collector](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/smartlog/overview.md)
+      [SMARTLog Data Collector](/docs/accessanalyzer/11.6/enterpriseauditor/admin/datacollector/smartlog/overview.md)
       topic for additional information

@@ -25,11 +25,11 @@ The options are:
 - Schedule – Opens the Schedule wizard to schedule query execution
 
     - See the
-      [Schedule](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/settings/schedule.md)
+      [Schedule](/docs/accessanalyzer/11.6/enterpriseauditor/admin/settings/schedule.md)
       topic for additional information on the Schedule wizard
 
 - View Host List – Opens the
-  [Host Management](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/hostmanagement/overview.md)
+  [Host Management](/docs/accessanalyzer/11.6/enterpriseauditor/admin/hostmanagement/overview.md)
   node directly to the selected query’s generated host list
 
 These options are also available through a pop-up menu accessed by right-clicking on a query.

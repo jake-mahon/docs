@@ -1,7 +1,7 @@
 # Add Users & Groups Window
 
 The Add Users & Groups window allows you to select users. From the
-[Users & Groups Page](/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/policy/page/usersgroups.md),
+[Users & Groups Page](/docs/privilegesecure/4.1/privilegesecure/accessmanagement/admin/policy/page/usersgroups.md),
 this window is used to onboard users. From other interfaces, this window is used to select onboarded
 users.
 

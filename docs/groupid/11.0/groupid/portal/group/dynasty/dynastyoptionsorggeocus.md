@@ -84,4 +84,4 @@ state.
 
 **See Also**
 
-- [Create an Active Directory Dynasty](/versioned_docs/groupid_11.0/groupid/portal/group/dynasty/activedirectory/createdynasty.md)
+- [Create an Active Directory Dynasty](/docs/groupid/11.0/groupid/portal/group/dynasty/activedirectory/createdynasty.md)

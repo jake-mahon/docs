@@ -5,7 +5,7 @@ scan is configured. It is a wizard page for the category of Sensitive Data Scan.
 
 This page requires the Sensitive Data Discovery Add-On to be been installed on the Enterprise
 Auditor Console to define the criteria and enable the Sensitive Data Criteria Editor. See the
-[Sensitive Data Discovery Add-On Installation](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/install/sensitivedatadiscovery/overview.md)
+[Sensitive Data Discovery Add-On Installation](/docs/accessanalyzer/11.6/enterpriseauditor/install/sensitivedatadiscovery/overview.md)
 topic for additional information.
 
 ![FSAA Data Collector Wizard SDD Criteria Settings page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/fsaa/sddcriteria.webp)
@@ -14,7 +14,7 @@ The options on the SDD Criteria Settings page are:
 
 - Use Global Criterion Selection – Select this option to inherit sensitive data criteria settings
   from the **Settings** > **Sensitive Data** node. See the
-  [Sensitive Data](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/settings/sensitivedata/overview.md)
+  [Sensitive Data](/docs/accessanalyzer/11.6/enterpriseauditor/admin/settings/sensitivedata/overview.md)
   topic for additional information.
 - Use the following selected criteria – Select this option to use the table to select which
   sensitive data criteria to scan for
@@ -30,7 +30,7 @@ The table contains the following types of criteria:
 
     Use the Sensitive Data Criteria Editor in the **Settings** > **Sensitive Data** to create and
     edit user-defined criteria. See the
-    [Sensitive Data Discovery Add-On Installation](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/install/sensitivedatadiscovery/overview.md)
+    [Sensitive Data Discovery Add-On Installation](/docs/accessanalyzer/11.6/enterpriseauditor/install/sensitivedatadiscovery/overview.md)
     topic for additional information.
 
 **NOTE:** Until the Sensitive Data Discovery Add-On is installed, only the headers for the System

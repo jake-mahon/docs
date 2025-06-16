@@ -56,7 +56,7 @@ levels, depending on the degree of protection offered by a device (trusted devic
 Encryption are TD level 1).
 
 For detailed information on Trusted Device™ and Enforced Encryption, refer to the
-[Trusted Device™](/versioned_docs/endpointprotector_5.9.4/endpointprotector/admin/enforcedencryption/module.md#trusted-device)
+[Trusted Device™](/docs/endpointprotector/5.9.4/endpointprotector/admin/enforcedencryption/module.md#trusted-device)
 topic.
 
 **NOTE:** With the WiFi – Block if wired network is present option you can disable the WiFi
@@ -132,7 +132,7 @@ ignored by Endpoint Protector and will not have the expected effect.
 
 The File Allowlist feature is also available for USB storage devices that have allowed access. For
 detailed information on using the File Allowlist, refer to the File
-[Denylists and Allowlists](/versioned_docs/endpointprotector_5.9.4/endpointprotector/admin/denylistsallowlists/overview.md)
+[Denylists and Allowlists](/docs/endpointprotector/5.9.4/endpointprotector/admin/denylistsallowlists/overview.md)
 topic.
 
 ## Outside Network

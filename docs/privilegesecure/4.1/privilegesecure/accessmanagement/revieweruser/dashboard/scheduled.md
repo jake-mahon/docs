@@ -9,7 +9,7 @@ The Scheduled Sessions table has the following features:
 - Search — Searches the table or list for matches to the search string. When matches are found, the
   table or list is filtered to the matching results.
 - Create Session — Open the Activity Request window. See the
-  [Create Activity Session](/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/revieweruser/dashboard/createsession.md)
+  [Create Activity Session](/docs/privilegesecure/4.1/privilegesecure/accessmanagement/revieweruser/dashboard/createsession.md)
   topic for additional information.
 - End Session — Cancel the selected session(s)
 - Refresh — Reload the information displayed
@@ -23,11 +23,11 @@ The table has the following columns:
       the login account
     - Pending — Session scheduled start time is still in the future, session is waiting to start
     - Waiting for Approval — The session requires approval to begin. See the
-      [Approvals Dashboard](/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/revieweruser/dashboard/approvals.md)
+      [Approvals Dashboard](/docs/privilegesecure/4.1/privilegesecure/accessmanagement/revieweruser/dashboard/approvals.md)
       topic for additional information.
     - Available — The activity session is ready. Click the icon to begin the session, or log in
       through a client. See the
-      [Start Activity Session](/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/revieweruser/dashboard/startsession.md)
+      [Start Activity Session](/docs/privilegesecure/4.1/privilegesecure/accessmanagement/revieweruser/dashboard/startsession.md)
       topic for additional information.
     - Failed — Pre-Session stage of the Activity has encountered an error
     - Logged In — User is successfully logged in to the Resource either directly or via the Proxy.

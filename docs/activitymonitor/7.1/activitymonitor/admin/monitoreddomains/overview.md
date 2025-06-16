@@ -40,12 +40,12 @@ The button bar allows users to take the following actions:
 
 - Add Output – Select an output from the Add Output dropdown. The outputs are: File, Syslog, and
   StealthDEFEND. See the
-  [Output for Monitored Domains](/versioned_docs/activitymonitor_7.1/activitymonitor/admin/monitoreddomains/output.md)
+  [Output for Monitored Domains](/docs/activitymonitor/7.1/activitymonitor/admin/monitoreddomains/output.md)
 - Remove – Removes the configured domain from the table of domains being monitored and end
   monitoring. Confirmation of this option will be asked for.
 - Edit – Opens the selected AD Monitoring Configuration window to modify monitoring settings. See
   the
-  [AD Monitoring Configuration Window](/versioned_docs/activitymonitor_7.1/activitymonitor/admin/monitoreddomains/admonitoringconfiguration/overview.md)
+  [AD Monitoring Configuration Window](/docs/activitymonitor/7.1/activitymonitor/admin/monitoreddomains/admonitoringconfiguration/overview.md)
   topic for additional information.
 
 ## Table

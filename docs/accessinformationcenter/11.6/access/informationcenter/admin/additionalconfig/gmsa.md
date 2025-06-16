@@ -16,7 +16,7 @@ gMSA:
 
 - Netwrix Access Information Center has been installed using one of the regular authentication
   methods, and not using the gMSA. See the
-  [Install the Access Information Center](/versioned_docs/accessinformationcenter_11.6/access/informationcenter/installation/install.md)
+  [Install the Access Information Center](/docs/accessinformationcenter/11.6/access/informationcenter/installation/install.md)
   topic for additional information.
 - If the gMSA is to be used to connect to Active Directory or an email server, the gMSA account must
   have the necessary rights to Active Directory and Exchange

@@ -18,4 +18,4 @@ This tab displays the following general attributes:
 
 **See Also**
 
-- [Deleted Groups](/versioned_docs/groupid_11.0/groupid/portal/group/recyclebin/overview.md)
+- [Deleted Groups](/docs/groupid/11.0/groupid/portal/group/recyclebin/overview.md)

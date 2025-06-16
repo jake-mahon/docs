@@ -11,7 +11,7 @@ From the Agents node, the right-click menu can be used to install the Agent.
 
 | Right-Click Command | Description                                                                                                                                  |
 | ------------------- | -------------------------------------------------------------------------------------------------------------------------------------------- |
-| Install Agent       | Opens the [Deploy Agents Wizard](/versioned_docs/threatprevention_7.4/threatprevention/admin/agents/deploy/overview.md#deploy-agents-wizard) |
+| Install Agent       | Opens the [Deploy Agents Wizard](/docs/threatprevention/7.4/threatprevention/admin/agents/deploy/overview.md#deploy-agents-wizard) |
 
 Saved ‘Filtered Investigate’ Nodes
 
@@ -52,7 +52,7 @@ From a Folder node, the right-click menu contains these commands.
 
 **NOTE:** If the logged in user does not have the **Manage Policies** permissions for a protected
 policy, these options are grayed-out. See the
-[Policies Interface](/versioned_docs/threatprevention_7.4/threatprevention/admin/policies/overview.md)
+[Policies Interface](/docs/threatprevention/7.4/threatprevention/admin/policies/overview.md)
 topic for additional information on protection.
 
 `<Policy Name>` and `<Template Name>` Nodes
@@ -72,7 +72,7 @@ From the node for a specific policy or template, the right-click menu contains t
 
 **NOTE:** If the logged in user does not have the Manage Policies permissions for a protected
 policy, these options are grayed-out. See the
-[Policies Interface](/versioned_docs/threatprevention_7.4/threatprevention/admin/policies/overview.md)
+[Policies Interface](/docs/threatprevention/7.4/threatprevention/admin/policies/overview.md)
 topic for additional information on protection.
 
 Tags Node
@@ -115,9 +115,9 @@ It contains the following selections:
 | Hide/Show Group by Box                                          | Hides or shows the Group By box where headers can be dragged-and-dropped to group the data                                                                                                        |
 | Group Interval                                                  | If grouped by the Time column, use this option to group by time intervals (Day, Month, Year, Smart). Only available from a grouped column header.                                                 |
 | Hide This Column                                                | Hides the selected column from the data grid. Hidden columns can be returned to the data grid through the Column Chooser option.                                                                  |
-| Column Chooser                                                  | Opens the [Customization Window](/versioned_docs/threatprevention_7.4/threatprevention/admin/navigation/datagrid.md#customization-window) where you can add and remove columns from the data grid |
+| Column Chooser                                                  | Opens the [Customization Window](/docs/threatprevention/7.4/threatprevention/admin/navigation/datagrid.md#customization-window) where you can add and remove columns from the data grid |
 | Best Fit                                                        | Changes column width to fit the data within the selected column                                                                                                                                   |
 | Best Fit (all columns)                                          | Changes column width for all columns to fit the data                                                                                                                                              |
-| Filter Editor                                                   | Opens the Filter Editor window (see the [Filter Data](/versioned_docs/threatprevention_7.4/threatprevention/admin/navigation/datagrid.md#filter-data) topic)                                      |
-| Show / Hide Find Panel                                          | Shows or hides the Find Panel, which is the search feature (see the [Search Data](/versioned_docs/threatprevention_7.4/threatprevention/admin/navigation/datagrid.md#search-data) topic)          |
+| Filter Editor                                                   | Opens the Filter Editor window (see the [Filter Data](/docs/threatprevention/7.4/threatprevention/admin/navigation/datagrid.md#filter-data) topic)                                      |
+| Show / Hide Find Panel                                          | Shows or hides the Find Panel, which is the search feature (see the [Search Data](/docs/threatprevention/7.4/threatprevention/admin/navigation/datagrid.md#search-data) topic)          |
 | Hide / Show Auto Filter Row                                     | Hides or shows the Auto Filter Row between the column headers and the first row of event data                                                                                                     |

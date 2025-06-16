@@ -29,5 +29,5 @@ When finished, slick **Save** to close the dialog and return to email action set
 
 To modify action settings for the certain workflow, select the workflow and use the Advanced UI
 window, as described in the
-[Modify Email Alert action settings](/versioned_docs/dataclassification_5.6.2/ndc/workflows/advanced_window/advanced_window_email.md)
+[Modify Email Alert action settings](/docs/dataclassification/5.6.2/ndc/workflows/advanced_window/advanced_window_email.md)
 section.

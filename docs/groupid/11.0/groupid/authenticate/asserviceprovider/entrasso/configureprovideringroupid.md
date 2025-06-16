@@ -28,7 +28,7 @@ To configure a SAML provider in GroupID, you have to specify the following:
 8. Expand the **Advanced** section on the **Create New Provider** page.
 9. Select _Post_ in the **Request Binding** drop-down list.
 10. For _Disable GroupID Authentication_, see step 2 in the
-    [Specify Advanced Configurations](/versioned_docs/groupid_11.0/groupid/authenticate/asserviceprovider/adfs/configureadfsingroupid.md#specify-advanced-configurations)
+    [Specify Advanced Configurations](/docs/groupid/11.0/groupid/authenticate/asserviceprovider/adfs/configureadfsingroupid.md#specify-advanced-configurations)
     topic. Replace references to AD FS with the Microsoft Entra SSO provider.
 11. Click the **Create Provider** button. The identity provider is created and displayed on the
     **SAML Providers** page.

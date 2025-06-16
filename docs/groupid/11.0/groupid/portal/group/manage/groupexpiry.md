@@ -70,7 +70,7 @@ to all groups in the identity store and cannot be changed for individual groups.
 
 When the Group Lifeycle job executes the Group Lifecycle policy, it monitors group expiry dates as
 determined by each group’s expiration period. See the
-[Set a Default Expiry Policy for Groups](/versioned_docs/groupid_11.0/groupid/admincenter/identitystore/configure/directoryservice/grouplifecycle.md#set-a-default-expiry-policy-for-groups)
+[Set a Default Expiry Policy for Groups](/docs/groupid/11.0/groupid/admincenter/identitystore/configure/directoryservice/grouplifecycle.md#set-a-default-expiry-policy-for-groups)
 topic.
 
 ## Group Expiry Notifications
@@ -92,11 +92,11 @@ expiry, the job does the following:
   GroupID will extend the group’s expiration date by 7 days.
 
 Notifications are sent if an SMTP server is configured for the identity store. See the
-[Set Group Expiry Notifications](/versioned_docs/groupid_11.0/groupid/admincenter/identitystore/configure/directoryservice/grouplifecycle.md#set-group-expiry-notifications)
+[Set Group Expiry Notifications](/docs/groupid/11.0/groupid/admincenter/identitystore/configure/directoryservice/grouplifecycle.md#set-group-expiry-notifications)
 topic for additional information.
 
 **See Also**
 
-- [Working with Groups](/versioned_docs/groupid_11.0/groupid/portal/group/manage/workingwithgroups.md)
-- [ Group Expiry and Deletion](/versioned_docs/groupid_11.0/groupid/admincenter/identitystore/configure/directoryservice/groupexpirydeletion.md)
-- [Manage Group Lifecycle Settings](/versioned_docs/groupid_11.0/groupid/admincenter/identitystore/configure/directoryservice/grouplifecycle.md)
+- [Working with Groups](/docs/groupid/11.0/groupid/portal/group/manage/workingwithgroups.md)
+- [ Group Expiry and Deletion](/docs/groupid/11.0/groupid/admincenter/identitystore/configure/directoryservice/groupexpirydeletion.md)
+- [Manage Group Lifecycle Settings](/docs/groupid/11.0/groupid/admincenter/identitystore/configure/directoryservice/grouplifecycle.md)

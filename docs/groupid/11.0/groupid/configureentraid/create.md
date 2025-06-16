@@ -8,7 +8,7 @@ user in GroupID.
 ## To create an Microsoft Entra ID Identity Store
 
 See the
-[Create an Identity Store for Microsoft Entra ID](/versioned_docs/groupid_11.0/groupid/admincenter/identitystore/create.md#create-an-identity-store-for-microsoft-entra-id)
+[Create an Identity Store for Microsoft Entra ID](/docs/groupid/11.0/groupid/admincenter/identitystore/create.md#create-an-identity-store-for-microsoft-entra-id)
 topic for creating an Microsoft Entra ID identity store.
 
 NOTE: If you intend to use a service account user with Global Administrator directory role, then no
@@ -48,4 +48,4 @@ limitations apply:
 
 See Also
 
-- [Registration and Permissions Assignment](/versioned_docs/groupid_11.0/groupid/configureentraid/register/appregister.md)
+- [Registration and Permissions Assignment](/docs/groupid/11.0/groupid/configureentraid/register/appregister.md)

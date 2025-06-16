@@ -24,7 +24,7 @@ Connection Profile
 
 The SQL Data Collector requires a specific set of permissions. For the MySQL Solution, the
 credentials configured in the Connection Profile must be able to access the MySQL Database. See the
-[Connection](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/settings/connection/overview.md)
+[Connection](/docs/accessanalyzer/11.6/enterpriseauditor/admin/settings/connection/overview.md)
 topic for additional information on permissions and creating a SQL custom connection profile.
 
 The Connection Profile is set to Use the Default Profile, as configured at the global settings
@@ -46,7 +46,7 @@ Query Configuration
 
 This solution is designed to be run with the default query configurations. However, the
 MySQL_SensitiveDataScan Job query can be customized as needed. See the
-[Configure the SensitiveDataScan Query](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/databases/mysql/collection/mysql_sensitivedatascan.md#configure-the-sensitivedatascan-query)
+[Configure the SensitiveDataScan Query](/docs/accessanalyzer/11.6/enterpriseauditor/solutions/databases/mysql/collection/mysql_sensitivedatascan.md#configure-the-sensitivedatascan-query)
 topic for additional information.
 
 Analysis Configuration

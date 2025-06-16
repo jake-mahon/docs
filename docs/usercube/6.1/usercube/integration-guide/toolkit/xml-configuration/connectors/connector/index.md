@@ -2,7 +2,7 @@
 
 Connectors provide the means by which Usercube communicates with managed platforms, applications and
 systems. They describe how the data from these systems are mapped to the
-[entity model](/versioned_docs/usercube_6.1/usercube/integration-guide/entity-model/index.md).
+[entity model](/docs/usercube/6.1/usercube/integration-guide/entity-model/index.md).
 
 A connector in most case represents an application model. It is composed of entities and
 associations.
@@ -14,39 +14,39 @@ associations.
 A connector is used to synchronize each of its entities and associations in Usercube's physical
 model. A connector is defined with:
 
-- [entity types](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/metadata/entitytype/index.md);
-- [entity associations](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/metadata/entityassociation/index.md);
-- [entity type mappings](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/connectors/entitytypemapping/index.md)
+- [entity types](/docs/usercube/6.1/usercube/integration-guide/toolkit/xml-configuration/metadata/entitytype/index.md);
+- [entity associations](/docs/usercube/6.1/usercube/integration-guide/toolkit/xml-configuration/metadata/entityassociation/index.md);
+- [entity type mappings](/docs/usercube/6.1/usercube/integration-guide/toolkit/xml-configuration/connectors/entitytypemapping/index.md)
   and
-  [entity association mappings](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/connectors/entityassociationmapping/index.md)
+  [entity association mappings](/docs/usercube/6.1/usercube/integration-guide/toolkit/xml-configuration/connectors/entityassociationmapping/index.md)
   to link the entity types and associations to the corresponding files and columns containing the
   exported data from the managed system.
 
 ## Examples
 
 The following example creates a `HR` connector on the agent called `Local` previously declared by
-[an `<Agent>` element](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/connectors/agent/index.md).
+[an `<Agent>` element](/docs/usercube/6.1/usercube/integration-guide/toolkit/xml-configuration/connectors/agent/index.md).
 
 We create the right
-[connections](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/connectors/connection/index.md)
+[connections](/docs/usercube/6.1/usercube/integration-guide/toolkit/xml-configuration/connectors/connection/index.md)
 to use the connector as a
-[CSV connector](/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/references-connectors/csv/index.md)
+[CSV connector](/docs/usercube/6.1/usercube/integration-guide/connectors/references-connectors/csv/index.md)
 aiming to export HR CSV files into new CSV files in Usercube's format.
 
 The
-[entity types](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/metadata/entitytype/index.md)
+[entity types](/docs/usercube/6.1/usercube/integration-guide/toolkit/xml-configuration/metadata/entitytype/index.md)
 model the resources as `HR_Person` or `HR_Organization`, defining properties.
 
 The
-[entity type mappings](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/connectors/entitytypemapping/index.md)
+[entity type mappings](/docs/usercube/6.1/usercube/integration-guide/toolkit/xml-configuration/connectors/entitytypemapping/index.md)
 link the entity types to the source files.
 
 The
-[entity association](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/metadata/entityassociation/index.md)
+[entity association](/docs/usercube/6.1/usercube/integration-guide/toolkit/xml-configuration/metadata/entityassociation/index.md)
 creates a link between the two entity types.
 
 The
-[entity association mapping](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/connectors/entityassociationmapping/index.md)
+[entity association mapping](/docs/usercube/6.1/usercube/integration-guide/toolkit/xml-configuration/connectors/entityassociationmapping/index.md)
 links the association to the source files.
 
 ```

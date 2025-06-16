@@ -118,7 +118,7 @@ the Client’s behavior for each speciﬁc entity (Global, Groups, and Computers
     **NOTE:** For this setting to work successfully, enable the Miniﬁlter Driver setting.
 
 - User Remediation Pop-up – this setting is available when the
-  [User Remediation](/versioned_docs/endpointprotector_5.9.4/endpointprotector/admin/systemparameters/overview.md#user-remediation)
+  [User Remediation](/docs/endpointprotector/5.9.4/endpointprotector/admin/systemparameters/overview.md#user-remediation)
   feature is active and enables User Remediation pop-up notiﬁcations for end-users.
 - Enforce User Remediation Pop-up - this setting is available only if the User Remediation Pop-up
   setting is enabled. When this setting is enabled, end-users cannot disable User Remediation Pop-up
@@ -699,7 +699,7 @@ Users, or Computers.
 fallback policies, the Outside Network Policies supersede the Outside Hours Policies.
 
 **NOTE:** For
-[Content Aware Protection](/versioned_docs/endpointprotector_5.9.4/endpointprotector/admin/contentawareprotection/module.md),
+[Content Aware Protection](/docs/endpointprotector/5.9.4/endpointprotector/admin/contentawareprotection/module.md),
 the Outside Network and Outside Hours Policy Type also needs to be selected.
 
 ![Manage Outside Network and Outside Hours Policies, for both Device Control and Content Aware modules](/img/versioned_docs/endpointprotector_5.9.4/endpointprotector/admin/devicecontrol/outsidehoursnetwork.webp)

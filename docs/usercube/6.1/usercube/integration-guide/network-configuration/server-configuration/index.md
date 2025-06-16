@@ -9,7 +9,7 @@ The Server configuration is included in the Server's appsettings set.
 
 The appsettings set content can be written to appsettings.json in the Server's working directory or
 to environment variables. See the
-[ Architecture ](/versioned_docs/usercube_6.1/usercube/integration-guide/architecture/index.md)
+[ Architecture ](/docs/usercube/6.1/usercube/integration-guide/architecture/index.md)
 topic for additional information.
 
 The server appsettings supported attributes and sections are described in the following sections:
@@ -19,10 +19,10 @@ The server appsettings supported attributes and sections are described in the fo
 - General-Purpose Settings
 
 See
-the[ Connection to the Database ](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/server-configuration/database-connection/index.md),
-[ End-User Authentication ](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/server-configuration/end-users-authentication/index.md)
+the[ Connection to the Database ](/docs/usercube/6.1/usercube/integration-guide/network-configuration/server-configuration/database-connection/index.md),
+[ End-User Authentication ](/docs/usercube/6.1/usercube/integration-guide/network-configuration/server-configuration/end-users-authentication/index.md)
 and
-[ Application Settings ](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/server-configuration/general-purpose/index.md)
+[ Application Settings ](/docs/usercube/6.1/usercube/integration-guide/network-configuration/server-configuration/general-purpose/index.md)
 topics for additional information.
 
 ## Secret and Certificate Management
@@ -30,7 +30,7 @@ topics for additional information.
 All the certificates and secrets present in the settings can be loaded with an Azure Key Vault.
 
 See the
-[ Azure Key Vault ](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/azure-key-vault/index.md)
+[ Azure Key Vault ](/docs/usercube/6.1/usercube/integration-guide/network-configuration/agent-configuration/azure-key-vault/index.md)
 topic for additional information.
 
 ## Default Configuration

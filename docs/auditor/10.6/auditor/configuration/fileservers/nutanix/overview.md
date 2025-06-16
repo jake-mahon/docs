@@ -35,11 +35,11 @@ You can configure your IT Infrastructure for monitoring in one of the following
 To configure your Nutanix File Server for monitoring SMB shares, you will need to do the following:
 
 **Step 1 –** Create a user account to access the Nutanix REST API. See the
-[Create User Account to Access Nutanix REST API](/versioned_docs/auditor_10.6/auditor/configuration/fileservers/nutanix/useraccount.md)
+[Create User Account to Access Nutanix REST API](/docs/auditor/10.6/auditor/configuration/fileservers/nutanix/useraccount.md)
 topic for additional information.
 
 **Step 2 –** Open a port for inbound connections. See the
-[Nutanix Ports](/versioned_docs/auditor_10.6/auditor/configuration/fileservers/nutanix/ports.md)
+[Nutanix Ports](/docs/auditor/10.6/auditor/configuration/fileservers/nutanix/ports.md)
 topic for additional information.
 
 In addition, configure the Auditor console server as a partner server for Nutanix Files, and create
@@ -48,11 +48,11 @@ performed in any of the following ways:
 
 - Automatically when creating a monitoring plan. For that, you should select the **Adjust audit
   settings automatically** option in the monitoring plan wizard. See the
-  [Settings for Data Collection](/versioned_docs/auditor_10.6/auditor/admin/monitoringplans/create.md#settings-for-data-collection)
+  [Settings for Data Collection](/docs/auditor/10.6/auditor/admin/monitoringplans/create.md#settings-for-data-collection)
   topic for additional information.
 - Manually, as described in the corresponding topics:
-    - [Configure Partner Server](/versioned_docs/auditor_10.6/auditor/configuration/fileservers/nutanix/partnerserver.md)
-    - [Create a Notification Policy](/versioned_docs/auditor_10.6/auditor/configuration/fileservers/nutanix/notificationpolicy.md)
+    - [Configure Partner Server](/docs/auditor/10.6/auditor/configuration/fileservers/nutanix/partnerserver.md)
+    - [Create a Notification Policy](/docs/auditor/10.6/auditor/configuration/fileservers/nutanix/notificationpolicy.md)
 
 Remember that in both cases (automatic or manual configuration) you will need to complete the steps
 above to ensure that the user account for accessing REST API is created and the listening port on

@@ -7,22 +7,22 @@ stamp security groups with what resources they are given access to.
 
 The jobs in the 1.Groups Job Group are:
 
-- [1.Deprovision Job Group](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/activedirectory/cleanup/groups/deprovision/overview.md)
+- [1.Deprovision Job Group](/docs/accessanalyzer/11.6/enterpriseauditor/solutions/activedirectory/cleanup/groups/deprovision/overview.md)
   – This job group provides a simple, automated workflow to deprovision stale groups
 
-    - [AD_DeprovisionGroups Job](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/activedirectory/cleanup/groups/deprovision/ad_deprovisiongroups.md)
+    - [AD_DeprovisionGroups Job](/docs/accessanalyzer/11.6/enterpriseauditor/solutions/activedirectory/cleanup/groups/deprovision/ad_deprovisiongroups.md)
       – This job provides a simple automated workflow to deprovision stale groups
-    - [AD_DeprovisionGroups_Status Job](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/activedirectory/cleanup/groups/deprovision/ad_deprovisiongroups_status.md)
+    - [AD_DeprovisionGroups_Status Job](/docs/accessanalyzer/11.6/enterpriseauditor/solutions/activedirectory/cleanup/groups/deprovision/ad_deprovisiongroups_status.md)
       – This job tracks and reports on the progress of the deprovisioning workflow
 
-- [2.Group Stamping Job Group](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/activedirectory/cleanup/groups/stamping/overview.md)
+- [2.Group Stamping Job Group](/docs/accessanalyzer/11.6/enterpriseauditor/solutions/activedirectory/cleanup/groups/stamping/overview.md)
   – This job group updates the Notes attribute for all security groups to show where the group is
   provisioned inside the environment.
 
-    - [AD_GroupCleanup_Permissions Job](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/activedirectory/cleanup/groups/stamping/ad_groupcleanup_permissions.md)
+    - [AD_GroupCleanup_Permissions Job](/docs/accessanalyzer/11.6/enterpriseauditor/solutions/activedirectory/cleanup/groups/stamping/ad_groupcleanup_permissions.md)
       – This job reports on where security groups are being used to assign permissions. This can be
       used to prioritize remediation for groups that are rarely used.
-    - [AD_GroupStamping Job](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/activedirectory/cleanup/groups/stamping/ad_groupstamping.md)
+    - [AD_GroupStamping Job](/docs/accessanalyzer/11.6/enterpriseauditor/solutions/activedirectory/cleanup/groups/stamping/ad_groupstamping.md)
       – This job replaces the Notes attribute for all security groups to show where the group is
       provisioned inside the environment. This overwrites the Notes field with data from Enterprise
       Auditor.
@@ -34,7 +34,7 @@ Workflow
 - The .Active Directory Inventory Job Group needs to be successfully run
 - For the AD_DeprovisionGroups Job, the target OU needs to be manually set in the Move Groups Action
   Task prior to executing the actions. See the
-  [Action Tasks for the AD_DepvisionGroups Job](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/activedirectory/cleanup/groups/deprovision/ad_deprovisiongroups.md#action-tasks-for-the-ad_depvisiongroups-job)
+  [Action Tasks for the AD_DepvisionGroups Job](/docs/accessanalyzer/11.6/enterpriseauditor/solutions/activedirectory/cleanup/groups/deprovision/ad_deprovisiongroups.md#action-tasks-for-the-ad_depvisiongroups-job)
   topic for additional information.
 - The AD_DeprovisionGroups Job needs to be run prior to running the AD_DeprovisionGroups_Status Job
 

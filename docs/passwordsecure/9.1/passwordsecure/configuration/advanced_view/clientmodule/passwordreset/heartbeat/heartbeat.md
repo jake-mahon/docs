@@ -30,7 +30,7 @@ The testing process using the heartbeat can be executed via various methods.
 The heartbeat is always carried out before the first resetting process using a Password Reset. After
 the script has run, the testing process is carried out again. Further information on this process
 can also be found in the section
-[Rollback](/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/advanced_view/clientmodule/passwordreset/rollback/rollback.md).
+[Rollback](/docs/passwordsecure/9.1/passwordsecure/configuration/advanced_view/clientmodule/passwordreset/rollback/rollback.md).
 
 ### Manual testing
 
@@ -41,9 +41,9 @@ data**. The currently marked password is always tested.
 
 It is also possible to configure the heartbeat to run cyclically. It can be configured either via
 the
-[User settings](/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/advanced_view/mainmenu/user_settings/user_settings.md)
+[User settings](/docs/passwordsecure/9.1/passwordsecure/configuration/advanced_view/mainmenu/user_settings/user_settings.md)
 or directly in the
-[Password settings](/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/advanced_view/clientmodule/passwords/password_settings.md).
+[Password settings](/docs/passwordsecure/9.1/passwordsecure/configuration/advanced_view/clientmodule/passwords/password_settings.md).
 
 ## Results of the tests
 
@@ -52,7 +52,7 @@ The results of the test can be viewed in the **passwords module**.
 ![result heartbeat](/img/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/advanced_view/clientmodule/passwordreset/heartbeat/heartbeat_1-en.webp)
 
 The date when it was last executed can be seen at the top of the
-[Reading pane](/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/advanced_view/operation_and_setup/readingpane/reading_pane.md).
+[Reading pane](/docs/passwordsecure/9.1/passwordsecure/configuration/advanced_view/operation_and_setup/readingpane/reading_pane.md).
 The success of the testing process is indicated alongside using a coloured icon. Further information
 can be displayed by moving the mouse over the icon.
 

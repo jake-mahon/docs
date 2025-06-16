@@ -2,7 +2,7 @@
 
 The Create Review wizard is opened with the **Create** button on the Resource Reviews interface. See
 the
-[Manage Reviews Page](/versioned_docs/accessinformationcenter_11.6/access/informationcenter/resourcereviews/interface.md#manage-reviews-page)
+[Manage Reviews Page](/docs/accessinformationcenter/11.6/access/informationcenter/resourcereviews/interface.md#manage-reviews-page)
 topic for additional information.
 
 ![Create Review wizard](/img/versioned_docs/accessinformationcenter_11.6/access/informationcenter/resourcereviews/wizard/reviewtype.webp)
@@ -65,7 +65,7 @@ Follow the steps to create a review.
 - Notify the review creator when resources are reviewed — When selected, an email is sent to the
   review creator when the review has been completed by the resource owner. If the review contains
   multiple resources, an email is sent when each resource is reviewed. See the
-  [Resource Reviewed Email](/versioned_docs/accessinformationcenter_11.6/access/informationcenter/resourcereviews/email/resourcereviewed.md)
+  [Resource Reviewed Email](/docs/accessinformationcenter/11.6/access/informationcenter/resourcereviews/email/resourcereviewed.md)
   topic for additional information.
 
     **NOTE:** This option is not available for the Builtin Administrator account as it has no email
@@ -125,12 +125,12 @@ created.
 - Select the desired resource(s) and click **Add**. The **View Selections** button indicates how
   many resources have been selected. Click the button to open the Selected Resources window, where
   you can view and modify the selections. See the
-  [Selected Resources Window](/versioned_docs/accessinformationcenter_11.6/access/informationcenter/resourcereviews/window/selectedresources.md)
+  [Selected Resources Window](/docs/accessinformationcenter/11.6/access/informationcenter/resourcereviews/window/selectedresources.md)
   topic for additional information.
 - Alternatively you can import a list of resources from a CSV file. Click the **Import** button and
   then select the CSV file. A message displays if items are not found or not valid for the review.
   Any valid resources are selected and can be viewed in the Selected Resources window.  See the
-  [Missing Items Window](/versioned_docs/accessinformationcenter_11.6/access/informationcenter/resourcereviews/window/missingitems.md)
+  [Missing Items Window](/docs/accessinformationcenter/11.6/access/informationcenter/resourcereviews/window/missingitems.md)
   topic for additional information
 
     The CSV file must use the following format for the resources:
@@ -156,5 +156,5 @@ The new review displays in the table on the Manage Reviews page. An email was se
 owner assigned to the resource(s) in this review. By default, the application is configured to send
 notifications only to the primary owner. However, this can be customized on the Configuration >
 Notifications page to send notifications to all assigned owners. See the
-[Notifications Page](/versioned_docs/accessinformationcenter_11.6/access/informationcenter/admin/configuration/notifications.md)
+[Notifications Page](/docs/accessinformationcenter/11.6/access/informationcenter/admin/configuration/notifications.md)
 topic for additional information.

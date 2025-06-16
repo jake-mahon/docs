@@ -33,7 +33,7 @@ Isilon/PowerScale cluster with more than one pair of Dell CEE and Activity Monit
 activity will be evenly distributed between the pairs.
 
 Checklist Item 2:
-[Install Dell CEE](/versioned_docs/activitymonitor_7.1/config/dellpowerscale/installcee.md)
+[Install Dell CEE](/docs/activitymonitor/7.1/config/dellpowerscale/installcee.md)
 
 - Dell CEE should be installed on a Windows or a Linux server.
 
@@ -60,7 +60,7 @@ Checklist Item 3: Configure Auditing on the Dell Isilon/PowerScale Cluster
           Monitor
         - Choose between monitoring all Access Zones or scoping to specific Access Zones
 
-    - [Manually Configure Auditing in OneFS](/versioned_docs/activitymonitor_7.1/config/dellpowerscale/manualconfiguration.md)
+    - [Manually Configure Auditing in OneFS](/docs/activitymonitor/7.1/config/dellpowerscale/manualconfiguration.md)
 
         - After configuration, add the Isilon/PowerScale device to be monitored by the Activity
           Monitor
@@ -100,5 +100,5 @@ Checklist Item 3: Configure Auditing on the Dell Isilon/PowerScale Cluster
           documentation for additional information.
 
 Checklist Item 4: Configure Dell CEE to Forward Events to the Activity Agent. See the
-[Validate Setup](/versioned_docs/activitymonitor_7.1/config/dellpowerscale/validate.md) topic for
+[Validate Setup](/docs/activitymonitor/7.1/config/dellpowerscale/validate.md) topic for
 additional information.

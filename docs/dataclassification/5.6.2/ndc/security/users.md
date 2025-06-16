@@ -13,7 +13,7 @@ The following types of authentication mechanisms are supported: Windows, ADFS, A
 
 Review the following for additional information:
 
-- [Secure Netwrix Data Classification](/versioned_docs/dataclassification_5.6.2/ndc/security/secure_ndc.md)
-- [User Management](/versioned_docs/dataclassification_5.6.2/ndc/security/user_management.md)
-- [Password Manager](/versioned_docs/dataclassification_5.6.2/ndc/security/password_manager.md)
-- [Web Service Security](/versioned_docs/dataclassification_5.6.2/ndc/security/web_service_security.md)
+- [Secure Netwrix Data Classification](/docs/dataclassification/5.6.2/ndc/security/secure_ndc.md)
+- [User Management](/docs/dataclassification/5.6.2/ndc/security/user_management.md)
+- [Password Manager](/docs/dataclassification/5.6.2/ndc/security/password_manager.md)
+- [Web Service Security](/docs/dataclassification/5.6.2/ndc/security/web_service_security.md)

@@ -19,9 +19,9 @@ helpdesk-specific functions:
 - Unenroll
 
 See
-[Password Management](/versioned_docs/groupid_11.0/groupid/admincenter/securityrole/permissions.md#password-management)
+[Password Management](/docs/groupid/11.0/groupid/admincenter/securityrole/permissions.md#password-management)
 in the
-[Security Role – Permissions](/versioned_docs/groupid_11.0/groupid/admincenter/securityrole/permissions.md)
+[Security Role – Permissions](/docs/groupid/11.0/groupid/admincenter/securityrole/permissions.md)
 topic.
 
 ## Helpdesk Policy
@@ -34,7 +34,7 @@ NOTE: In unrestricted mode, helpdesk can unlock accounts and reset passwords of 
 unenrolled users. In restricted mode, helpdesk can perform these functions for enrolled users only.
 
 See the
-[Helpdesk Policy](/versioned_docs/groupid_11.0/groupid/admincenter/securityrole/policy/helpdesk.md)
+[Helpdesk Policy](/docs/groupid/11.0/groupid/admincenter/securityrole/policy/helpdesk.md)
 topic.
 
 ## Helpdesk Analytics
@@ -44,12 +44,12 @@ users' activities (such as enrollment, account unlock, and password reset) in an
 
 The dashboard displays the following helpdesk-specific cards:
 
-- [Enrollment Summary](/versioned_docs/groupid_11.0/groupid/admincenter/general/dashboard.md#enrollment-summary):
+- [Enrollment Summary](/docs/groupid/11.0/groupid/admincenter/general/dashboard.md#enrollment-summary):
   displays the number of enrolled users in an identity store.
-- [Auth Summary](/versioned_docs/groupid_11.0/groupid/admincenter/general/dashboard.md#auth-summary):
+- [Auth Summary](/docs/groupid/11.0/groupid/admincenter/general/dashboard.md#auth-summary):
   displays information about failed and successful authentication attempts for each authentication
   type.
-- [Activity Summary](/versioned_docs/groupid_11.0/groupid/admincenter/general/dashboard.md#activity-summary):
+- [Activity Summary](/docs/groupid/11.0/groupid/admincenter/general/dashboard.md#activity-summary):
   displays a summary of users' activities related to password change, password reset, account
   unlock, and enrollment.
 
@@ -71,5 +71,5 @@ These actions are also logged in helpdesk history.
 
 **See Also**
 
-- [Helpdesk Operations](/versioned_docs/groupid_11.0/groupid/admincenter/helpdesk/operation/overview.md)
-- [History in Helpdesk](/versioned_docs/groupid_11.0/groupid/admincenter/helpdesk/history.md)
+- [Helpdesk Operations](/docs/groupid/11.0/groupid/admincenter/helpdesk/operation/overview.md)
+- [History in Helpdesk](/docs/groupid/11.0/groupid/admincenter/helpdesk/history.md)

@@ -44,7 +44,7 @@ available for the event type:
   conform to your security configurations
 
     - This option displays additional filters for Secure configurations and Search scopes. See the
-      [LDAP Search Operations Use Case](/versioned_docs/threatprevention_7.4/threatprevention/admin/policies/eventtype/usecase/ldapsearch.md)
+      [LDAP Search Operations Use Case](/docs/threatprevention/7.4/threatprevention/admin/policies/eventtype/usecase/ldapsearch.md)
       topic for additional information.
 
 - LDAP Ping – LDAP Ping is a Microsoft Active Directory specific Lightweight Directory Access
@@ -52,7 +52,7 @@ available for the event type:
   returns information about whether services are live on a domain controller
 
     - See the
-      [LDAP Ping Operations Use Case](/versioned_docs/threatprevention_7.4/threatprevention/admin/policies/eventtype/usecase/ldapping.md)
+      [LDAP Ping Operations Use Case](/docs/threatprevention/7.4/threatprevention/admin/policies/eventtype/usecase/ldapping.md)
       topic for additional information.
 
     When LDAP Ping is selected, the Secure Configurations and Search scopes sections are not
@@ -95,15 +95,15 @@ to exclude specific domains and/or servers.
 Use the buttons in the Include and Exclude areas to edit the lists.
 
 - The Add (+) buttons open the
-  [Select Domains and Servers Window](/versioned_docs/threatprevention_7.4/threatprevention/admin/policies/eventtype/window/selectdomainsservers.md).
+  [Select Domains and Servers Window](/docs/threatprevention/7.4/threatprevention/admin/policies/eventtype/window/selectdomainsservers.md).
 - The Collection button opens the
-  [List of Collections Window](/versioned_docs/threatprevention_7.4/threatprevention/admin/configuration/collectionmanager/listcollections.md)
+  [List of Collections Window](/docs/threatprevention/7.4/threatprevention/admin/configuration/collectionmanager/listcollections.md)
   to the appropriate Collection category.
 - The Remove (x) button deletes the selected item(s) from that box.
 
 **NOTE:** To enable a Dynamic Policy, use the Collection button to select the desired Dynamic
 Collection. See the
-[Dynamic Collections](/versioned_docs/threatprevention_7.4/threatprevention/admin/configuration/collectionmanager/dynamic.md)
+[Dynamic Collections](/docs/threatprevention/7.4/threatprevention/admin/configuration/collectionmanager/dynamic.md)
 topic for additional information.
 
 ## Success Filter
@@ -132,15 +132,15 @@ Use the buttons in the Include Perpetrators, Include Collections, Exclude Perpet
 Collections areas to edit the lists.
 
 - The Perpetrators Add (+) button opens the
-  [Select Active Directory Perpetrators Window](/versioned_docs/threatprevention_7.4/threatprevention/admin/policies/eventtype/window/selectactivedirectory/perpetrators.md).
+  [Select Active Directory Perpetrators Window](/docs/threatprevention/7.4/threatprevention/admin/policies/eventtype/window/selectactivedirectory/perpetrators.md).
 - The Collection button opens the
-  [List of Collections Window](/versioned_docs/threatprevention_7.4/threatprevention/admin/configuration/collectionmanager/listcollections.md)
+  [List of Collections Window](/docs/threatprevention/7.4/threatprevention/admin/configuration/collectionmanager/listcollections.md)
   to the appropriate Collection category.
 - The Remove (x) button deletes the selected item(s) from that box.
 
 **NOTE:** To enable a Dynamic Policy, use the Collection button to select the desired Dynamic
 Collection. See the
-[Dynamic Collections](/versioned_docs/threatprevention_7.4/threatprevention/admin/configuration/collectionmanager/dynamic.md)
+[Dynamic Collections](/docs/threatprevention/7.4/threatprevention/admin/configuration/collectionmanager/dynamic.md)
 topic for additional information.
 
 Sub Tree
@@ -161,7 +161,7 @@ Enter a query in the Include LDAP Queries and/or Exclude LDAP Queries boxes. You
 in the textbox. Alternatively, use the buttons in the respective sections.
 
 - The Add (+) buttons open the
-  [Select Active Directory Objects Window](/versioned_docs/threatprevention_7.4/threatprevention/admin/policies/eventtype/window/selectactivedirectory/objects.md).
+  [Select Active Directory Objects Window](/docs/threatprevention/7.4/threatprevention/admin/policies/eventtype/window/selectactivedirectory/objects.md).
 - The Remove (x) button deletes the selected item(s) from that box.
 
 ## LDAP Result Filter
@@ -179,7 +179,7 @@ Specify the desired object in the Include Objects box. You can type a string in 
 Alternatively, use the buttons in the respective sections.
 
 - The Add (+) buttons open the
-  [Select Active Directory Objects Window](/versioned_docs/threatprevention_7.4/threatprevention/admin/policies/eventtype/window/selectactivedirectory/objects.md).
+  [Select Active Directory Objects Window](/docs/threatprevention/7.4/threatprevention/admin/policies/eventtype/window/selectactivedirectory/objects.md).
 - The Remove (x) button deletes the selected item(s) from that box.
 
 ## LDAP Attributes Filter
@@ -192,9 +192,9 @@ LDAP attributes or exclude specific attributes from being monitored.
 Use the buttons in the Include Attributes and Exclude Attributes boxes to edit the lists.
 
 - The Attributes Add (+) button opens the
-  [Attribute List Window](/versioned_docs/threatprevention_7.4/threatprevention/admin/policies/eventtype/window/attributelist.md).
+  [Attribute List Window](/docs/threatprevention/7.4/threatprevention/admin/policies/eventtype/window/attributelist.md).
 - The Collection button opens the
-  [List of Collections Window](/versioned_docs/threatprevention_7.4/threatprevention/admin/configuration/collectionmanager/listcollections.md)
+  [List of Collections Window](/docs/threatprevention/7.4/threatprevention/admin/configuration/collectionmanager/listcollections.md)
   to the appropriate Collection category.
 - The Remove (x) button deletes the selected item(s) from that box.
 
@@ -209,15 +209,15 @@ Use the buttons in the Include Hosts, Include Collections, Exclude Hosts, and Ex
 areas to edit the lists.
 
 - The Hosts Add (+) button opens the
-  [Select Computer Window](/versioned_docs/threatprevention_7.4/threatprevention/admin/policies/eventtype/window/selectcomputers.md).
+  [Select Computer Window](/docs/threatprevention/7.4/threatprevention/admin/policies/eventtype/window/selectcomputers.md).
 - The Collection button opens the
-  [List of Collections Window](/versioned_docs/threatprevention_7.4/threatprevention/admin/configuration/collectionmanager/listcollections.md)
+  [List of Collections Window](/docs/threatprevention/7.4/threatprevention/admin/configuration/collectionmanager/listcollections.md)
   to the appropriate Collection category.
 - The Remove (x) button deletes the selected item(s) from that box.
 
 **NOTE:** To enable a Dynamic Policy, use the Collection button to select the desired Dynamic
 Collection. See the
-[Dynamic Collections](/versioned_docs/threatprevention_7.4/threatprevention/admin/configuration/collectionmanager/dynamic.md)
+[Dynamic Collections](/docs/threatprevention/7.4/threatprevention/admin/configuration/collectionmanager/dynamic.md)
 topic for additional information.
 
 ## Rule Preview Filter

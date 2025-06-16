@@ -103,7 +103,7 @@ displayed depend on the column it is opened from.
 The Find Panel enables you to search for data in the data grid. It is represented with a magnifying
 glass icon. It is displayed by default but you can choose to hide or show it using the Show/Hide
 Find Panel option on the
-[Data Grid Right-Click Menu](/versioned_docs/threatprevention_7.4/threatprevention/admin/navigation/rightclickmenus.md#data-grid-right-click-menu).
+[Data Grid Right-Click Menu](/docs/threatprevention/7.4/threatprevention/admin/navigation/rightclickmenus.md#data-grid-right-click-menu).
 
 On clicking the magnifying glass icon, the Find box appears as:
 
@@ -124,7 +124,7 @@ The data grids provide an option to export data.
 - Data grids on the Agents interface and on the Analytics windows export all available data from the
   grid to a CSV file. Clicking the **Export** button from these interfaces opens a Save As window.
 - Clicking the Export button from the Alerts interface opens the Alerts Export window. See the
-  [Alerts Export Window](/versioned_docs/threatprevention_7.4/threatprevention/admin/alerts/window/alertsexport.md)
+  [Alerts Export Window](/docs/threatprevention/7.4/threatprevention/admin/alerts/window/alertsexport.md)
   topic for additional information.
 - Clicking the Export button from the Investigate interface or the Recent Events tab of a policy
   opens the Export window.
@@ -153,5 +153,5 @@ Locally and/or Email to and populate the required fields.
 
 **NOTE:** The Email to action requires the SMTP host Information to be configured. This can only be
 done by a Threat Prevention administrator through the
-[Email Tab](/versioned_docs/threatprevention_7.4/threatprevention/admin/configuration/systemalerting/email.md)
+[Email Tab](/docs/threatprevention/7.4/threatprevention/admin/configuration/systemalerting/email.md)
 of the System Alerting window.

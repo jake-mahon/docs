@@ -6,7 +6,7 @@ How to review provisioning orders before generation.
 
 For security purposes, provisioning orders sometimes need to be reviewed before being computed and
 actually generated. Then, a user with
-[the right permissions](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/user-profile-configuration/index.md)
+[the right permissions](/docs/usercube/6.1/usercube/user-guide/set-up/user-profile-configuration/index.md)
 accesses the **Provisioning Review** page. They can either approve provisioning orders that will
 then be computed, generated and finally ready for actual provisioning, or they can decline orders
 that will subsequently be ignored.
@@ -24,22 +24,22 @@ This operation should be performed in cooperation with the staff in charge of ma
 
 | Input                                                                                                                                                                                                                                                  | Output              |
 | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------- |
-| [Provisioning rules](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/provisioning-rule-creation/index.md) (required) [Role catalog](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/single-roles-catalog-creation/index.md) (required) | Provisioning orders |
+| [Provisioning rules](/docs/usercube/6.1/usercube/user-guide/set-up/provisioning-rule-creation/index.md) (required) [Role catalog](/docs/usercube/6.1/usercube/user-guide/set-up/single-roles-catalog-creation/index.md) (required) | Provisioning orders |
 
 ## Implement Provisioning Review
 
 Provisioning review is configured for a given resource type. Therefore, you can decide to force the
 review of provisioning orders when
-[configuring a resource type](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/categorization/resource-type-creation/index.md).
+[configuring a resource type](/docs/usercube/6.1/usercube/user-guide/set-up/categorization/resource-type-creation/index.md).
 You can choose to:
 
 - Set the number of required approvals by a
-  [role officer](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/role-officer-management/index.md),
+  [role officer](/docs/usercube/6.1/usercube/user-guide/set-up/role-officer-management/index.md),
   via the `Approval Workflow` option.
 - Enable a technical approval by the application owner, via the `Block provisioning orders` option.
 
 Provisioning review can also be triggered when a
-[fulfillment](/versioned_docs/usercube_6.1/usercube/introduction-guide/overview/identity-management/index.md)
+[fulfillment](/docs/usercube/6.1/usercube/introduction-guide/overview/identity-management/index.md)
 error occurs.
 
 ## Review Provisioning Orders
@@ -71,13 +71,13 @@ Usercube shows all the properties of the new resource to be created:
 ![Addition Order Review](/img/versioned_docs/usercube_6.1/usercube/user-guide/administrate/provisioning/provisioning-review/provmanual_reviewaddition_v602.webp)
 
 - `Proposed Value`: value proposed by Usercube.
-- [`Provisioning State`](/versioned_docs/usercube_6.1/usercube/integration-guide/role-assignment/assignments-of-entitlements/index.md)
+- [`Provisioning State`](/docs/usercube/6.1/usercube/integration-guide/role-assignment/assignments-of-entitlements/index.md)
 - `Start Date`: date for the beginning of the property value existence.
 - `End Date`: date for the end of the property value existence.
-- [`Workflow State`](/versioned_docs/usercube_6.1/usercube/integration-guide/role-assignment/assignments-of-entitlements/index.md):
+- [`Workflow State`](/docs/usercube/6.1/usercube/integration-guide/role-assignment/assignments-of-entitlements/index.md):
   describes the origin or approval state of an assignment.
 - `Confidence Rate`: rate expressing the confidence in the corresponding
-  [query rule](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/provisioning-rule-creation/index.md).
+  [query rule](/docs/usercube/6.1/usercube/user-guide/set-up/provisioning-rule-creation/index.md).
 
 Handle an addition order by proceeding as follows:
 
@@ -100,22 +100,22 @@ Handle an addition order by proceeding as follows:
 ### Handle an association order
 
 Usercube displays a given owner and a given resource to be associated with a given
-[confidence rate](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/categorization/classification/index.md)
+[confidence rate](/docs/usercube/6.1/usercube/user-guide/set-up/categorization/classification/index.md)
 and all resource properties to be verified:
 
 ![Association Order Review](/img/versioned_docs/usercube_6.1/usercube/user-guide/administrate/provisioning/provisioning-review/provmanual_reviewassociation_v602.webp)
 
 - `Confidence rate of proposed resource`: rate expressing the confidence in this
-  [correlation](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/categorization/correlation/index.md).
+  [correlation](/docs/usercube/6.1/usercube/user-guide/set-up/categorization/correlation/index.md).
 - `Proposed Value`: value proposed by Usercube.
 - `Current Value`: value currently in the managed system.
-- [`Provisioning State`](/versioned_docs/usercube_6.1/usercube/integration-guide/role-assignment/assignments-of-entitlements/index.md)
+- [`Provisioning State`](/docs/usercube/6.1/usercube/integration-guide/role-assignment/assignments-of-entitlements/index.md)
 - `Start Date`: date for the beginning of the property value existence.
 - `End Date`: date for the end of the property value existence.
-- [`Workflow State`](/versioned_docs/usercube_6.1/usercube/integration-guide/role-assignment/assignments-of-entitlements/index.md):
+- [`Workflow State`](/docs/usercube/6.1/usercube/integration-guide/role-assignment/assignments-of-entitlements/index.md):
   describes the origin or approval state of an assignment.
 - `Confidence Rate`: rate expressing the confidence in the corresponding
-  [query rule](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/provisioning-rule-creation/index.md).
+  [query rule](/docs/usercube/6.1/usercube/user-guide/set-up/provisioning-rule-creation/index.md).
 
 Handle an association order by proceeding as follows:
 
@@ -147,13 +147,13 @@ Usercube shows a given resource and all resource properties to be verified:
 
 - `Proposed Value`: value proposed by Usercube.
 - `Current Value`: value currently in the managed system.
-- [`Provisioning State`](/versioned_docs/usercube_6.1/usercube/integration-guide/role-assignment/assignments-of-entitlements/index.md)
+- [`Provisioning State`](/docs/usercube/6.1/usercube/integration-guide/role-assignment/assignments-of-entitlements/index.md)
 - `Start Date`: date for the beginning of the property value existence.
 - `End Date`: date for the end of the property value existence.
-- [`Workflow State`](/versioned_docs/usercube_6.1/usercube/integration-guide/role-assignment/assignments-of-entitlements/index.md):
+- [`Workflow State`](/docs/usercube/6.1/usercube/integration-guide/role-assignment/assignments-of-entitlements/index.md):
   describes the origin or approval state of an assignment.
 - `Confidence Rate`: rate expressing the confidence in the corresponding
-  [query rule](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/provisioning-rule-creation/index.md).
+  [query rule](/docs/usercube/6.1/usercube/user-guide/set-up/provisioning-rule-creation/index.md).
 
 Handle an update order by proceeding as follows:
 
@@ -216,7 +216,7 @@ In order to verify the process:
     ![Home Page - Directory User](/img/versioned_docs/usercube_6.1/usercube/user-guide/set-up/configure-workflows/home_directoryuser_v523.webp)
 
 2. Follow the
-   [manual assignment workflow](/versioned_docs/usercube_6.1/usercube/user-guide/administrate/manual-assignment-request/index.md)
+   [manual assignment workflow](/docs/usercube/6.1/usercube/user-guide/administrate/manual-assignment-request/index.md)
    to make a change in one of their permissions, which involves provisioning review.
 3. Check that the provisioning state is `Pending` in the user's **View Permissions** tab.
 
@@ -228,10 +228,10 @@ In order to verify the process:
     ![Home Page - Job Execution](/img/versioned_docs/usercube_6.1/usercube/user-guide/set-up/categorization/classification/synchro_resourcetype_v602.webp)
 
 5. The orders using automated provisioning should be
-   [automatically handled](/versioned_docs/usercube_6.1/usercube/user-guide/administrate/provisioning/automatic-provisioning/index.md)
+   [automatically handled](/docs/usercube/6.1/usercube/user-guide/administrate/provisioning/automatic-provisioning/index.md)
    with their state switching to `Executed`, while those using manual provisioning should appear on
    the
-   [**Manual Provisioning**](/versioned_docs/usercube_6.1/usercube/user-guide/administrate/provisioning/manual-provisioning/index.md)
+   [**Manual Provisioning**](/docs/usercube/6.1/usercube/user-guide/administrate/provisioning/manual-provisioning/index.md)
    page with their state switching to `Transmitted`.
 
 ![Home Page - Manual Provisioning](/img/versioned_docs/usercube_6.1/usercube/user-guide/administrate/provisioning/manual-provisioning/home_manualprovisioning_v523.webp)

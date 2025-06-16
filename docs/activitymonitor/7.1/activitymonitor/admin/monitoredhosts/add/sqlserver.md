@@ -8,7 +8,7 @@ The Activity Monitor provides the ability to feed activity data to other Netwrix
 
 Prior to adding a SQL Server host to the Activity Monitor, the prerequisites for the target
 environment must be met. See the
-[SQL Server Activity Auditing Configuration](/versioned_docs/activitymonitor_7.1/config/sqlserver/activity.md)
+[SQL Server Activity Auditing Configuration](/docs/activitymonitor/7.1/config/sqlserver/activity.md)
 topic for additional information.
 
 _Remember,_ the Activity Agent must be deployed to a Windows server that acts as a proxy for
@@ -38,7 +38,7 @@ address** for the SQL Server host., then click **Next**.
 - Enable Audit automatically — Check the box to enable automatic auditing if it is ever disabled
 - Open instruction — Opens the **How to create a SQL Login for Monitoring** page. See the SQL Server
   Database section of the
-  [SQL Server Activity Auditing Configuration](/versioned_docs/activitymonitor_7.1/config/sqlserver/activity.md)
+  [SQL Server Activity Auditing Configuration](/docs/activitymonitor/7.1/config/sqlserver/activity.md)
   topic for additional information.
 - User name — Enter the user name for the credentials for the SQL Server
 - User password — Enter the password for the credentials for the SQL Server
@@ -124,7 +124,7 @@ Output page can be configured.
     - TLS
 
     The TCP and TLS protocols add the Message framing drop-down menu. See the
-    [Syslog Tab](/versioned_docs/activitymonitor_7.1/activitymonitor/admin/outputs/syslog.md) topic
+    [Syslog Tab](/docs/activitymonitor/7.1/activitymonitor/admin/outputs/syslog.md) topic
     for additional information.
 
 - The Test button sends a test message to the Syslog server to check the connection. A green check
@@ -136,7 +136,7 @@ Output page can be configured.
     - TLS – Shows error if TLS handshake fails
 
     See the
-    [Syslog Tab](/versioned_docs/activitymonitor_7.1/activitymonitor/admin/outputs/syslog.md) topic
+    [Syslog Tab](/docs/activitymonitor/7.1/activitymonitor/admin/outputs/syslog.md) topic
     for additional information.
 
 Click **Finish**.
@@ -145,7 +145,7 @@ Click **Finish**.
 
 The added SQL Server host is displayed in the monitored hosts table. Once a host has been added for
 monitoring, configure the desired ouptuts. See the
-[Output for Monitored Hosts](/versioned_docs/activitymonitor_7.1/activitymonitor/admin/monitoredhosts/output.md)
+[Output for Monitored Hosts](/docs/activitymonitor/7.1/activitymonitor/admin/monitoredhosts/output.md)
 topic for additional information.
 
 ## Host Properties for SQL Server
@@ -153,11 +153,11 @@ topic for additional information.
 Configuration settings can be edited through the tabs in the host’s Properties window. The
 configurable host properties are:
 
-- [MS SQL Server Tab](/versioned_docs/activitymonitor_7.1/activitymonitor/admin/monitoredhosts/properties/mssqlserver.md)
-- [Logon Trigger Tab](/versioned_docs/activitymonitor_7.1/activitymonitor/admin/monitoredhosts/properties/logontrigger.md)
-- [Tweak Options Tab](/versioned_docs/activitymonitor_7.1/activitymonitor/admin/monitoredhosts/properties/tweakoptions.md)
-- [Inactivity Alerts Tab](/versioned_docs/activitymonitor_7.1/activitymonitor/admin/monitoredhosts/properties/inactivityalerts.md)
+- [MS SQL Server Tab](/docs/activitymonitor/7.1/activitymonitor/admin/monitoredhosts/properties/mssqlserver.md)
+- [Logon Trigger Tab](/docs/activitymonitor/7.1/activitymonitor/admin/monitoredhosts/properties/logontrigger.md)
+- [Tweak Options Tab](/docs/activitymonitor/7.1/activitymonitor/admin/monitoredhosts/properties/tweakoptions.md)
+- [Inactivity Alerts Tab](/docs/activitymonitor/7.1/activitymonitor/admin/monitoredhosts/properties/inactivityalerts.md)
 
 See the
-[Host Properties Window](/versioned_docs/activitymonitor_7.1/activitymonitor/admin/monitoredhosts/properties/overview.md)
+[Host Properties Window](/docs/activitymonitor/7.1/activitymonitor/admin/monitoredhosts/properties/overview.md)
 topic for additional information.

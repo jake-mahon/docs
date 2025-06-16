@@ -4,7 +4,7 @@ Use this API to retrieve information of job collection(s) based on filters prov
 syntax.
 
 See the
-[Create a Job Collection ](/versioned_docs/groupid_11.0/groupid/portal/synchronize/collection/create.md)for
+[Create a Job Collection ](/docs/groupid/11.0/groupid/portal/synchronize/collection/create.md)for
 additional information on job collections.
 
 ## Endpoint
@@ -82,5 +82,5 @@ GET
 
 See Also
 
-- [Common Errors](/versioned_docs/groupid_11.0/groupid/api/commonerrors.md)
-- [Synchronize Jobs APIs](/versioned_docs/groupid_11.0/groupid/api/syncjobs/jobsapis.md)
+- [Common Errors](/docs/groupid/11.0/groupid/api/commonerrors.md)
+- [Synchronize Jobs APIs](/docs/groupid/11.0/groupid/api/syncjobs/jobsapis.md)

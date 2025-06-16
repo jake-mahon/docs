@@ -89,7 +89,7 @@ Smart Groups and Dynasties are restored as static groups with no members and no 
 
 Groups that are deleted by the Group Life Cycle schedule are considered as logically deleted. The
 schedule deletes expired groups x number of days after group expiry, as specified in the
-[Auto Delete Expired Groups](/versioned_docs/groupid_11.0/groupid/admincenter/identitystore/configure/directoryservice/grouplifecycle.md#auto-delete-expired-groups)
+[Auto Delete Expired Groups](/docs/groupid/11.0/groupid/admincenter/identitystore/configure/directoryservice/grouplifecycle.md#auto-delete-expired-groups)
 topic.
 
 On deletion, logically deleted groups are moved to the Recycle Bin with all their attributes intact.
@@ -105,10 +105,10 @@ deleted.
 When the Group Life Cycle schedule deletes a group, it notifies the group owners or, if there is no
 owner, the default approver. The job does not delete a group that neither has an owner nor a default
 approver. See the
-[Specify a Default Approver](/versioned_docs/groupid_11.0/groupid/admincenter/workflow/advancedsettings.md#specify-a-default-approver)
+[Specify a Default Approver](/docs/groupid/11.0/groupid/admincenter/workflow/advancedsettings.md#specify-a-default-approver)
 topic.
 
 **See Also**
 
-- [Manage Group Lifecycle Settings](/versioned_docs/groupid_11.0/groupid/admincenter/identitystore/configure/directoryservice/grouplifecycle.md)
-- [Group Life Cycle Schedule](/versioned_docs/groupid_11.0/groupid/admincenter/schedule/grouplifecycle.md)[Specify a Default Approver](/versioned_docs/groupid_11.0/groupid/admincenter/workflow/advancedsettings.md#specify-a-default-approver)
+- [Manage Group Lifecycle Settings](/docs/groupid/11.0/groupid/admincenter/identitystore/configure/directoryservice/grouplifecycle.md)
+- [Group Life Cycle Schedule](/docs/groupid/11.0/groupid/admincenter/schedule/grouplifecycle.md)[Specify a Default Approver](/docs/groupid/11.0/groupid/admincenter/workflow/advancedsettings.md#specify-a-default-approver)

@@ -65,7 +65,7 @@ What do you want to do?
    users of this role and roles with a priority value higher than this role. The tab would not be
    visible to group owners (for their respective groups) and user managers (for their direct
    reports) if they fall in a lower priority role. See
-   [Priority](/versioned_docs/groupid_11.0/groupid/admincenter/securityrole/manage.md).
+   [Priority](/docs/groupid/11.0/groupid/admincenter/securityrole/manage.md).
 
     - Select _Never_ to hide the tab from all users.
     - Select _Manager and Owner_ to make the tab visible only to the owner (in case of a group) or
@@ -94,7 +94,7 @@ What do you want to do?
    a priority value higher than it can add and update the values of fields on this tab. If group
    owners/user managers fall in a lower priority role, they cannot update the fields on the tab for
    their respective groups/direct reports. See
-   [Priority](/versioned_docs/groupid_11.0/groupid/admincenter/securityrole/manage.md).
+   [Priority](/docs/groupid/11.0/groupid/admincenter/securityrole/manage.md).
 
     - Select _Never_ to make the tab and its fields read-only for all users.
     - Select _Manager and Owner_ to enable the owner (in case of a group) or manager (in case of a
@@ -182,13 +182,13 @@ You can change the following for a tab:
     on the tab.  
     The list contains basic display types and custom display types defined on the **Custom Display
     Types** page. See the
-    [Display Type Categories](/versioned_docs/groupid_11.0/groupid/admincenter/portal/displaytype/categories.md)
+    [Display Type Categories](/docs/groupid/11.0/groupid/admincenter/portal/displaytype/categories.md)
     topic.
 11. In the **Visibility Level** drop-down list, select a security role. The tab would be visible to
     users of this role and roles with a priority value higher than this role. It would not be
     visible to group owners (for their respective groups) and user managers (for their direct
     reports) if they fall under a lower priority role. See
-    [Priority](/versioned_docs/groupid_11.0/groupid/admincenter/securityrole/manage.md).
+    [Priority](/docs/groupid/11.0/groupid/admincenter/securityrole/manage.md).
 
     - Select _Never_ to hide the field from all users.
     - Select _Manager and Owner_ to make the field visible only to the owner (in case of a group) or
@@ -219,7 +219,7 @@ You can change the following for a tab:
     with a priority value higher than this role can add and update the value of this field. If group
     owners/user managers fall in a lower priority role, they cannot able to update the value of the
     field for their respective groups/direct reports. See
-    [Priority](/versioned_docs/groupid_11.0/groupid/admincenter/securityrole/manage.md).
+    [Priority](/docs/groupid/11.0/groupid/admincenter/securityrole/manage.md).
 
     - Select _Never_ to make this field read-only for all users.
     - Select _Manager and Owner_ to enable only the owner (in case of a group) or manager (in case
@@ -282,7 +282,7 @@ You can change the following for a tab:
     field.  
     A value entered for the field is checked against the words listed on the **Bad Words List**
     page. Matched values cannot be saved. See the
-    [Manage the Bad Words List](/versioned_docs/groupid_11.0/groupid/admincenter/portal/design/badwords.md)
+    [Manage the Bad Words List](/docs/groupid/11.0/groupid/admincenter/portal/design/badwords.md)
     topic.
 21. The **Image Attribute** list is available when ‘DN’ is selected as the display type. This list
     supports ‘thumbnailPhoto’ as its value.
@@ -373,4 +373,4 @@ The following field properties vary from field to field. You can:
 
 See Also
 
-- [Design a Portal with Display Types](/versioned_docs/groupid_11.0/groupid/admincenter/portal/displaytype/overview.md)
+- [Design a Portal with Display Types](/docs/groupid/11.0/groupid/admincenter/portal/displaytype/overview.md)

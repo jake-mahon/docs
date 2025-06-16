@@ -1,7 +1,7 @@
 # Non-Conforming Assignments
 
 The
-[Compute Role Model](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/jobs/tasks/server/computerolemodeltask/index.md)
+[Compute Role Model](/docs/usercube/6.1/usercube/integration-guide/toolkit/xml-configuration/jobs/tasks/server/computerolemodeltask/index.md)
 task is able to detect from synchronized data a list of non-conforming or missing
 resources/entitlements for every identity. That is one of Usercube's most powerful governance
 features, provided you have a full role model configured.
@@ -9,14 +9,14 @@ features, provided you have a full role model configured.
 ## Build the conforming assignment list
 
 The **first step** is building the conforming assignment list, as explained in
-[Conforming Assignments](/versioned_docs/usercube_6.1/usercube/integration-guide/role-assignment/conformingassignmentcomputation/index.md).
+[Conforming Assignments](/docs/usercube/6.1/usercube/integration-guide/role-assignment/conformingassignmentcomputation/index.md).
 This list (list `A`) includes the assignments that perfectly comply with the role model/assignment
 policy.
 
 ## Build the existing assignment list
 
 The **second step** is building the existing assignment list (list `B`), as explained in
-[Existing Assignments](/versioned_docs/usercube_6.1/usercube/integration-guide/role-assignment/existingassignmentsdeduction/index.md):
+[Existing Assignments](/docs/usercube/6.1/usercube/integration-guide/role-assignment/existingassignmentsdeduction/index.md):
 every synced resource can be translated into a role assignment following the assignment rules "in
 reverse".
 

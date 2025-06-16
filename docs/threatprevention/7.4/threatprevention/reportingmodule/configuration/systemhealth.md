@@ -2,7 +2,7 @@
 
 The System Health interface has one page, Services, that displays the services associated with the
 application server. See the
-[Reporting Module Installation](/versioned_docs/threatprevention_7.4/threatprevention/install/reportingmodule/overview.md)
+[Reporting Module Installation](/docs/threatprevention/7.4/threatprevention/install/reportingmodule/overview.md)
 topic for a complete list of application services.
 
 Use the gear icon in the upper right corner of the console to open the Configuration menu. Then

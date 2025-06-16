@@ -376,5 +376,5 @@ GET
 
 See Also
 
-- [Common Errors](/versioned_docs/groupid_11.0/groupid/api/commonerrors.md)
-- [Synchronize Jobs APIs](/versioned_docs/groupid_11.0/groupid/api/syncjobs/jobsapis.md)
+- [Common Errors](/docs/groupid/11.0/groupid/api/commonerrors.md)
+- [Synchronize Jobs APIs](/docs/groupid/11.0/groupid/api/syncjobs/jobsapis.md)

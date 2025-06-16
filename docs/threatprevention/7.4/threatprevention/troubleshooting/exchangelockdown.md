@@ -21,9 +21,9 @@ In Microsoft Outlook 2010, delegation through Outlook performs three operations:
   and responses to the delegate
 
 The first option does not use an Exchange API. Therefore, this action cannot be blocked by an
-[Exchange Lockdown Event Type](/versioned_docs/threatprevention_7.4/threatprevention/admin/policies/eventtype/exchangelockdown.md)
+[Exchange Lockdown Event Type](/docs/threatprevention/7.4/threatprevention/admin/policies/eventtype/exchangelockdown.md)
 policy. However, it is possible to achieve the desired blocking effect by creating a corresponding
-[Active Directory Lockdown Event Type](/versioned_docs/threatprevention_7.4/threatprevention/admin/policies/eventtype/activedirectorylockdown.md)
+[Active Directory Lockdown Event Type](/docs/threatprevention/7.4/threatprevention/admin/policies/eventtype/activedirectorylockdown.md)
 policy to block any **Send on Behalf of** permission changes.
 
 Netwrix recommends using the following event filters on the respective Active Directory Lockdown

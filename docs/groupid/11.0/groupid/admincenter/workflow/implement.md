@@ -98,7 +98,7 @@ What do you want to do?
    manage workflow requests.
 9. The **Approver Acceleration** check box applies if approver acceleration is enabled for the
    identity store. See the
-   [Apply Approver Acceleration](/versioned_docs/groupid_11.0/groupid/admincenter/workflow/approveracceleration.md#apply-approver-acceleration)
+   [Apply Approver Acceleration](/docs/groupid/11.0/groupid/admincenter/workflow/approveracceleration.md#apply-approver-acceleration)
    topic.
 
     - To apply approver acceleration to this workflow, select the **Approver Acceleration** check
@@ -186,7 +186,7 @@ create a basic flow template there. On providing the URL of the flow template in
 are linked. As a result, the flow auto triggers when the GroupID workflow is triggered.
 
 For details on linking a workflow to a flow, see the
-[Trigger a Flow from GroupID](/versioned_docs/groupid_11.0/groupid/admincenter/workflow/integrate.md#trigger-a-flow-from-groupid)
+[Trigger a Flow from GroupID](/docs/groupid/11.0/groupid/admincenter/workflow/integrate.md#trigger-a-flow-from-groupid)
 topic.
 
 ## Modify a Workflow
@@ -211,7 +211,7 @@ approver acceleration, and link it to a Power Automate flow.
 6. To link this workflow to a Power Automate flow, click **Power Automate Settings** in the top
    right corner; the **Power Automate Settings** dialog box is displayed. Follow step 6 and onwards
    in the
-   [Link an Identity Store Workflow to a Flow](/versioned_docs/groupid_11.0/groupid/admincenter/workflow/integrate.md#link-an-identity-store-workflow-to-a-flow)
+   [Link an Identity Store Workflow to a Flow](/docs/groupid/11.0/groupid/admincenter/workflow/integrate.md#link-an-identity-store-workflow-to-a-flow)
    topic to complete the task.
 7. After making the required changes, click **Update Workflow** on the **Edit Workflow** page to
    save the settings.
@@ -263,7 +263,7 @@ user-defined workflows; system workflows cannot be deleted.
 
 **See Also**
 
-- [Workflows](/versioned_docs/groupid_11.0/groupid/admincenter/workflow/overview.md)
-- [Manage Advanced Workflow Settings](/versioned_docs/groupid_11.0/groupid/admincenter/workflow/advancedsettings.md)
-- [Workflow Approver Acceleration](/versioned_docs/groupid_11.0/groupid/admincenter/workflow/approveracceleration.md)
-- [Integrate with Power Automate](/versioned_docs/groupid_11.0/groupid/admincenter/workflow/integrate.md)
+- [Workflows](/docs/groupid/11.0/groupid/admincenter/workflow/overview.md)
+- [Manage Advanced Workflow Settings](/docs/groupid/11.0/groupid/admincenter/workflow/advancedsettings.md)
+- [Workflow Approver Acceleration](/docs/groupid/11.0/groupid/admincenter/workflow/approveracceleration.md)
+- [Integrate with Power Automate](/docs/groupid/11.0/groupid/admincenter/workflow/integrate.md)

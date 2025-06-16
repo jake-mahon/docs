@@ -6,7 +6,7 @@ To launch the job in the Server side only you need to run the executable
 Usercube-Invoke-ServerJob.exe.
 
 To know the task launch orders in job use the following exe:
-[Usercube-Get-JobSteps.exe](/versioned_docs/usercube_6.1/usercube/integration-guide/executables/references/get-jobsteps/index.md)
+[Usercube-Get-JobSteps.exe](/docs/usercube/6.1/usercube/integration-guide/executables/references/get-jobsteps/index.md)
 
 ## Examples
 

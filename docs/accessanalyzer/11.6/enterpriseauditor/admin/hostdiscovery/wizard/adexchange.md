@@ -28,7 +28,7 @@ Directory server (Discover Exchange servers)** option. Click **Next**.
       from those preconfigured at the global level (**Settings** > **Connection**)
 
     See the
-    [Connection](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/settings/connection/overview.md)
+    [Connection](/docs/accessanalyzer/11.6/enterpriseauditor/admin/settings/connection/overview.md)
     topic for additional information on Connection Profiles.
 
 Click **Next** to continue.
@@ -39,7 +39,7 @@ Click **Next** to continue.
 Exchange servers are housed.
 
 Leave this page unchanged. If you must modify this page, see the
-[Query an Active Directory Server (General)](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/hostdiscovery/wizard/adgeneral.md)
+[Query an Active Directory Server (General)](/docs/accessanalyzer/11.6/enterpriseauditor/admin/hostdiscovery/wizard/adgeneral.md)
 topic for instructions. Click **Next**.
 
 ![Host Discovery Wizard Options page for AD Exchange](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/install/application/options.webp)
@@ -83,7 +83,7 @@ the discovery query.
       from those preconfigured at the global level (**Settings** > **Connection**)
 
     See the
-    [Connection](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/settings/connection/overview.md)
+    [Connection](/docs/accessanalyzer/11.6/enterpriseauditor/admin/settings/connection/overview.md)
     topic for additional information on Connection Profiles.
 
 Click **Next** to continue.

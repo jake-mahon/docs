@@ -25,7 +25,7 @@ The output options include:
 - .Exe Present in Installed CLU Directory – Select the checkbox if the .exe utility is present in
   the installed CLU directory. The path on the Profile Parameters page should be the utility name
   instead of the full path. See the
-  [CLU: Profile Parameters](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/commandlineutility/profileparameters.md) topic
+  [CLU: Profile Parameters](/docs/accessanalyzer/11.6/enterpriseauditor/admin/datacollector/commandlineutility/profileparameters.md) topic
   for additional information.
 
 Remote Execution Options

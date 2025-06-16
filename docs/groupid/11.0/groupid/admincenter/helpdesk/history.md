@@ -158,6 +158,6 @@ To perform a search:
 
 **See Also**
 
-- [Dashboard](/versioned_docs/groupid_11.0/groupid/admincenter/general/dashboard.md)
-- [Search Users](/versioned_docs/groupid_11.0/groupid/admincenter/helpdesk/operation/search.md)
-- [History in GroupID](/versioned_docs/groupid_11.0/groupid/admincenter/history.md)
+- [Dashboard](/docs/groupid/11.0/groupid/admincenter/general/dashboard.md)
+- [Search Users](/docs/groupid/11.0/groupid/admincenter/helpdesk/operation/search.md)
+- [History in GroupID](/docs/groupid/11.0/groupid/admincenter/history.md)

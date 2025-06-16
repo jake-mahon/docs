@@ -10,7 +10,7 @@ The EX_Mailflow job is located in the **Mailflow** > **0. Collection** job group
 
 The Configuration section on a Job's overview page allows you to easily modify any customizable
 parameters used by analysis tasks in the job. See the
-[Parameter Configuration](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/jobs/job/overview.md#parameter-configuration)
+[Parameter Configuration](/docs/accessanalyzer/11.6/enterpriseauditor/admin/jobs/job/overview.md#parameter-configuration)
 topic for instructions on how to edit parameters on a job overview page.
 
 The EX_Mailflow job has the following configurable parameter:
@@ -40,7 +40,7 @@ The following queries are included in the EX_Mailflow job:
     **CAUTION:** Do not modify this query. The query is preconfigured for this job.
 
     - See the
-      [ExchangePS Data Collector](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/exchangeps/overview.md)
+      [ExchangePS Data Collector](/docs/accessanalyzer/11.6/enterpriseauditor/admin/datacollector/exchangeps/overview.md)
       topic for additional information
 
 ### Configure the ExchangePS Data Collector for Mail Flow Metrics
@@ -65,7 +65,7 @@ Wizard opens.
 
 **Step 4 –** To modify the report dates, navigate to the Mail Flow page. Set the report data range
 as desired. See the
-[ExchangePS Data Collector](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/exchangeps/overview.md)
+[ExchangePS Data Collector](/docs/accessanalyzer/11.6/enterpriseauditor/admin/datacollector/exchangeps/overview.md)
 topic for additional information.
 
 _Remember,_ the date range must be 7 days or less.
@@ -96,7 +96,7 @@ The following analysis tasks are selected by default:
     - By default, retention is set to 6 months. This period can be modified. See the
       [Parameter Configuration](#parameter-configuration) topic for additional information.
     - Alternatively, the `@Months` parameter can be modified in the SQL Script Editor. See the
-      [Configure the Customizable Parameters in an Analysis Task](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/jobs/job/configure/analysiscustomizableparameters.md)
+      [Configure the Customizable Parameters in an Analysis Task](/docs/accessanalyzer/11.6/enterpriseauditor/admin/jobs/job/configure/analysiscustomizableparameters.md)
       topic for additional information
 
 The following analysis task deletes table data from data collection and analysis jobs. This analysis
@@ -108,5 +108,5 @@ troubleshooting and cleanup only. Data will be deleted from the database.
 -   0. Deletes all Stored Data - LEAVE UNCHECKED – Deletes all historical data
 
     - See the
-      [Troubleshooting Data Collection](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/exchange/hubmetrics/collection/ex_metricscollection.md#troubleshooting-data-collection)
+      [Troubleshooting Data Collection](/docs/accessanalyzer/11.6/enterpriseauditor/solutions/exchange/hubmetrics/collection/ex_metricscollection.md#troubleshooting-data-collection)
       topic for additional information

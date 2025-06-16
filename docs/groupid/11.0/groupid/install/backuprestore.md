@@ -157,5 +157,5 @@ Follow these steps to restore GroupID 9.0 and 10.0 Reports:
 
 See Also
 
-- [Uninstall GroupID](/versioned_docs/groupid_11.0/groupid/install/uninstall.md)
-- [Installation Tool](/versioned_docs/groupid_11.0/groupid/install/installer/install.md)
+- [Uninstall GroupID](/docs/groupid/11.0/groupid/install/uninstall.md)
+- [Installation Tool](/docs/groupid/11.0/groupid/install/installer/install.md)

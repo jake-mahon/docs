@@ -63,5 +63,5 @@ uninstall process:
 - Netwrix Threat Prevention Exchange Monitoring Service (for Threat Prevention for Exchange)
 
 **_RECOMMENDED:_** Deploy the Agent to a server using the Deploy Agents wizard. See the
-[Deploy Agents](/versioned_docs/threatprevention_7.4/threatprevention/admin/agents/deploy/overview.md)
+[Deploy Agents](/docs/threatprevention/7.4/threatprevention/admin/agents/deploy/overview.md)
 topic for additional information.

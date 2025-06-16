@@ -11,7 +11,7 @@ can thus be linked to the presence of the required security level.
 ## Managing user settings
 
 You can configure user settings similarly to
-[User rights](/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/advanced_view/mainmenu/user_rights/user_rights.md).
+[User rights](/docs/passwordsecure/9.1/passwordsecure/configuration/advanced_view/mainmenu/user_rights/user_rights.md).
 Here too, there are a total of three possibilities with which a user can define his settings or be
 configured from another location. For the sake of easy manageability, it is again a good idea to
 configure the users not individually, but to provide several equal users with settings.
@@ -41,9 +41,9 @@ If you leave the personal settings on the outside, there are two ways to inherit
 2. Inheritance on the basis of membership in organisational units (OU)
 
 Global settings are configured as usual in the
-[Main menu](/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/advanced_view/mainmenu/main_menu_fc.md).
+[Main menu](/docs/passwordsecure/9.1/passwordsecure/configuration/advanced_view/mainmenu/main_menu_fc.md).
 The organisational units are inherited via the
-[Organisational structure](/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/advanced_view/clientmodule/organisationalstructures/organisational_structure.md).
+[Organisational structure](/docs/passwordsecure/9.1/passwordsecure/configuration/advanced_view/clientmodule/organisationalstructures/organisational_structure.md).
 All users who are assigned to an organisational unit inherit all user settings for this OU. In the
 present case, the users “Jones” and “Moore” inherit all settings from the “IT” organisational unit:
 
@@ -51,7 +51,7 @@ present case, the users “Jones” and “Moore” inherit all settings from th
 
 The “Settings” button in the ribbon allows you to see the settings for both organisational units and
 users. The many setting options can be restricted by the known
-[Search](/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/advanced_view/operation_and_setup/search/search.md)
+[Search](/docs/passwordsecure/9.1/passwordsecure/configuration/advanced_view/operation_and_setup/search/search.md)
 mechanisms.
 
 ![installation_with_parameters_118](/img/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/advanced_view/mainmenu/user_settings/installation_with_parameters_118.webp)
@@ -72,6 +72,6 @@ combine similar options and thus make them available to the users.
 ![user settings](/img/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/advanced_view/mainmenu/user_settings/installation_with_parameters_119-en.webp)
 
 The
-[User rights](/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/advanced_view/mainmenu/user_rights/user_rights.md)
+[User rights](/docs/passwordsecure/9.1/passwordsecure/configuration/advanced_view/mainmenu/user_rights/user_rights.md)
 define who has the required permissions to change which security levels. As with all rights, this is
 achieved either through global inheritance, the role, or as a right granted directly to the user.

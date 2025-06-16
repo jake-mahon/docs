@@ -21,7 +21,7 @@ There are two options for the type of Active Directory service account:
 
     - A group Managed Service Account (gMSA) can be used by configuring it to run the Netwrix Access
       Information Center service. See the
-      [Group Managed Service Account (gMSA) Configuration](/versioned_docs/accessinformationcenter_11.6/access/informationcenter/admin/additionalconfig/gmsa.md)
+      [Group Managed Service Account (gMSA) Configuration](/docs/accessinformationcenter/11.6/access/informationcenter/admin/additionalconfig/gmsa.md)
       topic for additional information.
 
 - Use the following Active Directory account – Uses a domain account with the required permissions
@@ -58,7 +58,7 @@ permissions and setup. Once the prerequisites are in place, it can be enabled on
 
 When checked, the **Allow this account to make changes to group membership** option uses the Active
 Directory service account to commit group membership changes. See the
-[Commit Active Directory Changes](/versioned_docs/accessinformationcenter_11.6/access/informationcenter/admin/additionalconfig/commitchanges.md)
+[Commit Active Directory Changes](/docs/accessinformationcenter/11.6/access/informationcenter/admin/additionalconfig/commitchanges.md)
 topic for additional information on provisioning the Active Directory service account and best
 practices for group and resource management through the Access Information Center
 

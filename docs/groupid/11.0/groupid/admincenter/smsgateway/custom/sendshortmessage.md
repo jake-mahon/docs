@@ -28,6 +28,6 @@ The object containing the message delivery status and exception details.
 
 See Also
 
-- [ShortMessage class](/versioned_docs/groupid_11.0/groupid/admincenter/smsgateway/custom/shortmessage/class.md)
-- [SendSmsMessageResult class](/versioned_docs/groupid_11.0/groupid/admincenter/smsgateway/custom/sendsmsmessageresult/class.md)
-- [Implement and Deploy a Custom SMS Gateway](/versioned_docs/groupid_11.0/groupid/admincenter/smsgateway/implementcustom.md)
+- [ShortMessage class](/docs/groupid/11.0/groupid/admincenter/smsgateway/custom/shortmessage/class.md)
+- [SendSmsMessageResult class](/docs/groupid/11.0/groupid/admincenter/smsgateway/custom/sendsmsmessageresult/class.md)
+- [Implement and Deploy a Custom SMS Gateway](/docs/groupid/11.0/groupid/admincenter/smsgateway/implementcustom.md)

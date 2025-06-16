@@ -4,7 +4,7 @@ The Enterprise Auditor Instant Job Wizard provides access to a library of instan
 instant jobs, which are pre-configured for Enterprise Auditor. Instant solutions contain groups of
 jobs to help solve a wide range of problems within each category. Instant jobs help solve specific
 problems. The instant solutions available align to an organization’s license key. See
-the[Solutions](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/overview.md) topic
+the[Solutions](/docs/accessanalyzer/11.6/enterpriseauditor/solutions/overview.md) topic
 for additional information.
 
 Follow the steps to install an instant solution or an instant job with the Instant Job Wizard.
@@ -54,5 +54,5 @@ to be assigned to the job group or job. Alternatively enter hosts manually. Then
 
 The Instant Job Wizard closes, and the Jobs tree refreshes automatically. See the individual
 sections in the
-[Solutions](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/overview.md) topic
+[Solutions](/docs/accessanalyzer/11.6/enterpriseauditor/solutions/overview.md) topic
 for additional information.

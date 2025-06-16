@@ -10,12 +10,12 @@ MySQL, Oracle, PostgreSQL, Redshift, and SQL Server databases. Both this data 
 Database Solution are available with a special Enterprise Auditor license. See the following topics
 for additional information:
 
-- [Db2 Solution](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/databases/db2/overview.md)
-- [MySQL Solution](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/databases/mysql/overview.md)
-- [PostgreSQL Solution](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/databases/postgresql/overview.md)
-- [Oracle Solution](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/databases/oracle/overview.md)
-- [Redshift Solution](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/databases/redshift/overview.md)
-- [SQL Job Group](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/databases/sql/overview.md)
+- [Db2 Solution](/docs/accessanalyzer/11.6/enterpriseauditor/solutions/databases/db2/overview.md)
+- [MySQL Solution](/docs/accessanalyzer/11.6/enterpriseauditor/solutions/databases/mysql/overview.md)
+- [PostgreSQL Solution](/docs/accessanalyzer/11.6/enterpriseauditor/solutions/databases/postgresql/overview.md)
+- [Oracle Solution](/docs/accessanalyzer/11.6/enterpriseauditor/solutions/databases/oracle/overview.md)
+- [Redshift Solution](/docs/accessanalyzer/11.6/enterpriseauditor/solutions/databases/redshift/overview.md)
+- [SQL Job Group](/docs/accessanalyzer/11.6/enterpriseauditor/solutions/databases/sql/overview.md)
 
 Protocols
 
@@ -89,9 +89,9 @@ For SQL:
     - Grant Control Server to [DOMAIN\USER] (specifically required for the Weak Passwords Job)
 
 See the
-[Azure SQL Auditing Configuration](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/requirements/target/config/azuresqlaccess.md)
+[Azure SQL Auditing Configuration](/docs/accessanalyzer/11.6/enterpriseauditor/requirements/target/config/azuresqlaccess.md)
 topic and the
-[AzureSQL Target Least Privilege Model](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/requirements/target/config/databaseazuresql.md)
+[AzureSQL Target Least Privilege Model](/docs/accessanalyzer/11.6/enterpriseauditor/requirements/target/config/databaseazuresql.md)
 topic for additional information.
 
 Sensitive Data Discovery Considerations
@@ -110,13 +110,13 @@ following pages, which change based upon the query category selected:
 **NOTE:** The SQL Data Collector is used in multiple Enterprise Auditor Solutions, and the query
 categories used are dependent on the solution.
 
-- [SQL: Category](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/sql/category.md)
-- [SQL: Options](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/sql/options.md)
-- [SQL: Criteria](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/sql/criteria.md)
-- [SQL: Filter](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/sql/filter.md)
-- [SQL: Settings](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/sql/settings.md)
-- [SQL: Custom SQL Query](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/sql/customquerysql.md)
-- [SQL: Custom Oracle Query](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/sql/customqueryoracle.md)
-- [SQL: Results](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/sql/results.md)
-- [SQL: Rowkey](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/sql/rowkey.md)
-- [SQL: Summary](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/sql/summary.md)
+- [SQL: Category](/docs/accessanalyzer/11.6/enterpriseauditor/admin/datacollector/sql/category.md)
+- [SQL: Options](/docs/accessanalyzer/11.6/enterpriseauditor/admin/datacollector/sql/options.md)
+- [SQL: Criteria](/docs/accessanalyzer/11.6/enterpriseauditor/admin/datacollector/sql/criteria.md)
+- [SQL: Filter](/docs/accessanalyzer/11.6/enterpriseauditor/admin/datacollector/sql/filter.md)
+- [SQL: Settings](/docs/accessanalyzer/11.6/enterpriseauditor/admin/datacollector/sql/settings.md)
+- [SQL: Custom SQL Query](/docs/accessanalyzer/11.6/enterpriseauditor/admin/datacollector/sql/customquerysql.md)
+- [SQL: Custom Oracle Query](/docs/accessanalyzer/11.6/enterpriseauditor/admin/datacollector/sql/customqueryoracle.md)
+- [SQL: Results](/docs/accessanalyzer/11.6/enterpriseauditor/admin/datacollector/sql/results.md)
+- [SQL: Rowkey](/docs/accessanalyzer/11.6/enterpriseauditor/admin/datacollector/sql/rowkey.md)
+- [SQL: Summary](/docs/accessanalyzer/11.6/enterpriseauditor/admin/datacollector/sql/summary.md)

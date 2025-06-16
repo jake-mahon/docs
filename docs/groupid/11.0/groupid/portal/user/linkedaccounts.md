@@ -118,5 +118,5 @@ information of your master account. In GroupID portal, click **Users** in the le
 
 **See Also**
 
-- [Enroll Your Identity Store Account](/versioned_docs/groupid_11.0/groupid/portal/user/authentication/enrollaccount.md)
-- [Second Factor Authentication](/versioned_docs/groupid_11.0/groupid/portal/user/authentication/secondfactorauthentication.md)
+- [Enroll Your Identity Store Account](/docs/groupid/11.0/groupid/portal/user/authentication/enrollaccount.md)
+- [Second Factor Authentication](/docs/groupid/11.0/groupid/portal/user/authentication/secondfactorauthentication.md)

@@ -9,7 +9,7 @@ you receive an email notification.
 
 The request can be processed by using the buttons in the email, which require an Access Information
 Center authentication. See the
-[User Access Request Email](/versioned_docs/accessinformationcenter_11.6/access/informationcenter/accessrequests/email/request.md)
+[User Access Request Email](/docs/accessinformationcenter/11.6/access/informationcenter/accessrequests/email/request.md)
 topic for additional information.
 
 You can also process access requests through the Owner portal.
@@ -21,13 +21,13 @@ are pending your approval. Click the link to open the Access Requests page. The 
 has two tabs:
 
 - Pending Requests – Shows any pending access requests waiting on your approval. See the
-  [Pending Access Requests](/versioned_docs/accessinformationcenter_11.6/access/informationcenter/accessrequests/owners/pendingrequests.md)
+  [Pending Access Requests](/docs/accessinformationcenter/11.6/access/informationcenter/accessrequests/owners/pendingrequests.md)
   topic for additional information.
 - Request History – Shows the history of access requests for your resources. See the
-  [Access Request History](/versioned_docs/accessinformationcenter_11.6/access/informationcenter/accessrequests/owners/requesthistory.md)
+  [Access Request History](/docs/accessinformationcenter/11.6/access/informationcenter/accessrequests/owners/requesthistory.md)
   topic for additional information.
 
 You may receive a reminder email, sent via the Access Information Center from your Request
 Administrator. See the
-[Access Request Reminder Email](/versioned_docs/accessinformationcenter_11.6/access/informationcenter/accessrequests/email/reminder.md)
+[Access Request Reminder Email](/docs/accessinformationcenter/11.6/access/informationcenter/accessrequests/email/reminder.md)
 topic for additional information.

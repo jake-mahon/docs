@@ -60,7 +60,7 @@ host inventory process:
         - Months
 
     - This setting affects the Inventory page options on the Host Discovery Wizard. See the
-      [Host Discovery Wizard](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/hostdiscovery/wizard/overview.md)
+      [Host Discovery Wizard](/docs/accessanalyzer/11.6/enterpriseauditor/admin/hostdiscovery/wizard/overview.md)
       topic for additional information.
 
 The Desired Host List Views section at the bottom contains all available host lists, both

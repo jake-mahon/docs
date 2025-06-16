@@ -3,7 +3,7 @@
 Password Policy Enforcer uses policy assignments to decide which policy to enforce for each user.
 Domain policies can be assigned to users, groups, and containers (Organizational Units). Local
 policies can only be assigned to users. See the
-[Domain and Local Policies](/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/administration/domain_and_local_policies.md)
+[Domain and Local Policies](/docs/passwordpolicyenforcer/10.2/password_policy_enforcer/administration/domain_and_local_policies.md)
 topic for additional information.
 
 When a policy is assigned to a group, Password Policy Enforcer enforces the policy for all members

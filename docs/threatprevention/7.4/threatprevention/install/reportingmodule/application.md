@@ -72,7 +72,7 @@ The Netwrix Threat Manager Reporting Module application is now installed and the
 created. There are several post-installation tasks that you may need to complete, depending on your
 environment.
 
-- [Secure the Reporting Module Console](/versioned_docs/threatprevention_7.4/threatprevention/install/reportingmodule/secure.md)
+- [Secure the Reporting Module Console](/docs/threatprevention/7.4/threatprevention/install/reportingmodule/secure.md)
 - During the first launch, you will set up the built-in Administrator account. See the
-  [First Launch](/versioned_docs/threatprevention_7.4/threatprevention/install/reportingmodule/firstlaunch.md)
+  [First Launch](/docs/threatprevention/7.4/threatprevention/install/reportingmodule/firstlaunch.md)
   topic for additional information.

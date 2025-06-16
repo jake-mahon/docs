@@ -9,7 +9,7 @@ experience.
 
 See Also
 
-- [Requirements](/versioned_docs/groupid_11.0/groupid/install/requirements.md)
-- [Preparation Tool](/versioned_docs/groupid_11.0/groupid/install/installer/preparationtool.md)
-- [Installation Tool](/versioned_docs/groupid_11.0/groupid/install/installer/install.md)
-- [Configuration Tool](/versioned_docs/groupid_11.0/groupid/install/configure/configure.md)
+- [Requirements](/docs/groupid/11.0/groupid/install/requirements.md)
+- [Preparation Tool](/docs/groupid/11.0/groupid/install/installer/preparationtool.md)
+- [Installation Tool](/docs/groupid/11.0/groupid/install/installer/install.md)
+- [Configuration Tool](/docs/groupid/11.0/groupid/install/configure/configure.md)

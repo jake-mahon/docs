@@ -21,5 +21,5 @@ in the amount of memory being used by SQL server may not be immediately apparent
 releases any used memory beyond the newly set maximum gradually.
 
 See the
-[Best Practices and Troubleshooting](/versioned_docs/threatprevention_7.4/threatprevention/troubleshooting/overview.md)
+[Best Practices and Troubleshooting](/docs/threatprevention/7.4/threatprevention/troubleshooting/overview.md)
 topic for additional information.

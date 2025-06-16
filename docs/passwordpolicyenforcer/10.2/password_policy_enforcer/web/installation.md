@@ -217,7 +217,7 @@ PPEWeb.dll from the backup as it belongs to the previous version.
 
 **Step 3 –** Open the Configuration Console to import you PPE/Web configuration settings. You will
 also need to install your new license key if you have a perpetual license. See the
-[Configuration](/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/web/configuration.md)
+[Configuration](/docs/passwordpolicyenforcer/10.2/password_policy_enforcer/web/configuration.md)
 topic for additional information.
 
 ## Upgrading from PPE/Web V3.x
@@ -253,5 +253,5 @@ Follow the steps below to upgrade to PPE/Web V7.x.
 
 **NOTE:** Any customizations to the PPE/Web V3.x user interface will need to be recreated after
 upgrading to PPE/Web V7.11. See the
-[Editing HTML Templates](/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/web/editing_html_templates.md)
+[Editing HTML Templates](/docs/passwordpolicyenforcer/10.2/password_policy_enforcer/web/editing_html_templates.md)
 topic for additional information.

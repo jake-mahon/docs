@@ -10,15 +10,15 @@ To view reports, users need the following:
   reports.
 
 2. The Browser role on the SSRS Report Server. See the
-   [SQL Server Reporting Services](/versioned_docs/auditor_10.6/auditor/requirements/sqlserverreportingservice.md)
+   [SQL Server Reporting Services](/docs/auditor/10.6/auditor/requirements/sqlserverreportingservice.md)
    topic for additional information.
 
 To view a report
 
 You can add any elements (a dashboard, report, alert, risk, etc.) to the Auditor Home screen to
 access them instantly. See the
-[Navigation](/versioned_docs/auditor_10.6/auditor/admin/navigation/overview.md) and
-[Customize Home Screen](/versioned_docs/auditor_10.6/auditor/admin/navigation/customizehome.md)
+[Navigation](/docs/auditor/10.6/auditor/admin/navigation/overview.md) and
+[Customize Home Screen](/docs/auditor/10.6/auditor/admin/navigation/customizehome.md)
 topics for additional information.
 
 1. In Netwrix Auditor Home screen, click
@@ -32,7 +32,7 @@ To speed up the process, you can use the **Search** field, entering the keyword 
 2. Click View button in the right pane.
 
 To learn how to subscribe to a report, see
-[Create Subscriptions](/versioned_docs/auditor_10.6/auditor/admin/subscriptions/create.md).
+[Create Subscriptions](/docs/auditor/10.6/auditor/admin/subscriptions/create.md).
 
 ## Troubleshooting
 
@@ -40,15 +40,15 @@ If no data is displayed in the report, you may need to do the following:
 
 1. Make sure that the Audit Database settings are configured properly in the monitoring plan, and
    that data is written to databases that reside on the default SQL Server instance. See the
-   [Audit Database](/versioned_docs/auditor_10.6/auditor/admin/settings/auditdatabase.md) topic for
+   [Audit Database](/docs/auditor/10.6/auditor/admin/settings/auditdatabase.md) topic for
    additional information.
 2. For SSRS-based reports - verify that SSRS (SQL Server Reporting Services) settings are configured
    properly. See the
-   [Audit Database](/versioned_docs/auditor_10.6/auditor/admin/settings/auditdatabase.md) topic for
+   [Audit Database](/docs/auditor/10.6/auditor/admin/settings/auditdatabase.md) topic for
    additional information.
 3. For state-in-time reports - verify that the monitoring plan that provides data for the report has
    the corresponding option selected. See the
-   [Create a New Monitoring Plan](/versioned_docs/auditor_10.6/auditor/admin/monitoringplans/create.md)
+   [Create a New Monitoring Plan](/docs/auditor/10.6/auditor/admin/monitoringplans/create.md)
    topic for additional information.
 
 ## Customize Report with Filters

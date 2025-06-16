@@ -7,7 +7,7 @@ apply a filter to the data grid. Follow the steps to create a dynamic host list.
 **Step 1 –** Select the Host Management or individual host list node to create the host list from.
 
 **Step 2 –** Filter the data grid for the desired criteria. See the
-[Host Inventory Data Grid](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/hostmanagement/datagrid.md)
+[Host Inventory Data Grid](/docs/accessanalyzer/11.6/enterpriseauditor/admin/hostmanagement/datagrid.md)
 topic for additional information.
 
 ![savecurrentview](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/hostmanagement/actions/savecurrentview.webp)
@@ -28,5 +28,5 @@ host inventory.
 better to delete and recreate the list in order to modify a dynamic-based list.
 
 See the
-[Dynamic Host Lists](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/hostmanagement/lists.md#dynamic-host-lists)
+[Dynamic Host Lists](/docs/accessanalyzer/11.6/enterpriseauditor/admin/hostmanagement/lists.md#dynamic-host-lists)
 topic for more information on dynamic host lists.

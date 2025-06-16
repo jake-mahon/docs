@@ -44,7 +44,7 @@ You can link a basic display type to a schema attribute straight away. Basic dis
     schema attribute. However, to apply additional rules to it, such as assigning a default value or
     implementing a regular expression to validate the data entered, you must create a custom display
     type from this basic type. See the
-    [Text Box Display Type](/versioned_docs/groupid_11.0/groupid/admincenter/portal/displaytype/textbox.md)
+    [Text Box Display Type](/docs/groupid/11.0/groupid/admincenter/portal/displaytype/textbox.md)
     topic.
 
 - **Password**
@@ -113,7 +113,7 @@ Some applications of display type are:
   phone number and fax number.
 
 The default portal template uses several predefined custom display types. See the
-[Define Custom Display Types](/versioned_docs/groupid_11.0/groupid/admincenter/portal/displaytype/custom.md)
+[Define Custom Display Types](/docs/groupid/11.0/groupid/admincenter/portal/displaytype/custom.md)
 topic to add more display types as needed.
 
 The **Custom Display Types** page in a portal’s design settings lists all the predefined custom
@@ -121,5 +121,5 @@ display types and any custom display types you may have added.
 
 **See Also**
 
-- [Design a Portal with Display Types](/versioned_docs/groupid_11.0/groupid/admincenter/portal/displaytype/overview.md)
-- [Define Custom Display Types](/versioned_docs/groupid_11.0/groupid/admincenter/portal/displaytype/custom.md)
+- [Design a Portal with Display Types](/docs/groupid/11.0/groupid/admincenter/portal/displaytype/overview.md)
+- [Define Custom Display Types](/docs/groupid/11.0/groupid/admincenter/portal/displaytype/custom.md)

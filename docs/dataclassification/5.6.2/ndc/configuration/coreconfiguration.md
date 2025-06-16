@@ -8,5 +8,5 @@ You can also:
 
 - Start Product Tour—Runs a product tour, taking you around the key areas of the product.
 - Run Cleaner—Runs built-in tool to automate maintenance operations.
-  [See Index Maintenance for more information.](/versioned_docs/dataclassification_5.6.2/ndc/utilities/utilities_cleaner.md)
+  [See Index Maintenance for more information.](/docs/dataclassification/5.6.2/ndc/utilities/utilities_cleaner.md)
 - Reset Cache—Force the QS caches to be reset.

@@ -2,7 +2,7 @@
 
 You can choose whether to configure legacy policies as described below or to configure advanced
 policies. See the
-[Configure Advanced Audit Policies](/versioned_docs/auditor_10.6/auditor/configuration/fileservers/windows/advancedpolicy.md)
+[Configure Advanced Audit Policies](/docs/auditor/10.6/auditor/configuration/fileservers/windows/advancedpolicy.md)
 topic for more information.
 
 Follow the steps to configure local audit policies.

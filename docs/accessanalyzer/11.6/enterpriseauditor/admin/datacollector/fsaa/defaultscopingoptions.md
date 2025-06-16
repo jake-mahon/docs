@@ -12,6 +12,6 @@ categories of:
 
 See the Scoping Options tab setting topics to target individual resources for the scan:
 
-- [Scan Settings Tab](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/fsaa/defaultscopingoptions/scansettings.md)
-- [File Details Tab](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/fsaa/defaultscopingoptions/filedetails.md)
-- [File Properties (Folder Summary) Tab](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/fsaa/defaultscopingoptions/fileproperties.md)
+- [Scan Settings Tab](/docs/accessanalyzer/11.6/enterpriseauditor/admin/datacollector/fsaa/defaultscopingoptions/scansettings.md)
+- [File Details Tab](/docs/accessanalyzer/11.6/enterpriseauditor/admin/datacollector/fsaa/defaultscopingoptions/filedetails.md)
+- [File Properties (Folder Summary) Tab](/docs/accessanalyzer/11.6/enterpriseauditor/admin/datacollector/fsaa/defaultscopingoptions/fileproperties.md)

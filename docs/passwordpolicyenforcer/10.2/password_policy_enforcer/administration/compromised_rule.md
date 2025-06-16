@@ -16,5 +16,5 @@ degrades performance, and could jeopardize security.
 Click the **Messages** tab to customize the Password Policy Client rule inserts.
 
 For the information about Have I Been Pwnd (HIBP) database usage, please see the
-[HIBP Updater](/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/administration/hibpupdater.md)
+[HIBP Updater](/docs/passwordpolicyenforcer/10.2/password_policy_enforcer/administration/hibpupdater.md)
 topic.

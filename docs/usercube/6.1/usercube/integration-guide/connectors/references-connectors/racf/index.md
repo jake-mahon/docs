@@ -4,7 +4,7 @@ This connector exports users and profiles from a
 [RACF](https://www.ibm.com/docs/en/zos-basic-skills?topic=zos-what-is-racf) file.
 
 This page is about
-[MainFrame/RACF](/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/references-packages/racf/index.md).
+[MainFrame/RACF](/docs/usercube/6.1/usercube/integration-guide/connectors/references-packages/racf/index.md).
 
 ![Package: MainFrame/RACF](/img/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/references-connectors/racf/packages_racf_v603.webp)
 
@@ -35,7 +35,7 @@ Be aware that Usercube supports only the RACF records represented by the followi
 ### Configuration
 
 This process is configured through a
-[connection](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/connectors/connection/index.md)
+[connection](/docs/usercube/6.1/usercube/integration-guide/toolkit/xml-configuration/connectors/connection/index.md)
 in the UI and/or the XML configuration, and in the `appsettings.agent.json > Connections` section:
 
 ```
@@ -86,7 +86,7 @@ The identifier of the connection and thus the name of the subsection must:
 ### Output details
 
 This connector is meant to generate to the
-[`ExportOutput`](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/appsettings/index.md)
+[`ExportOutput`](/docs/usercube/6.1/usercube/integration-guide/network-configuration/agent-configuration/appsettings/index.md)
 folder one CSV file per record type (0100, 0200, etc.), named `<connectionIdentifier>_<type>.csv`.
 
 > For example, consider an export with a connection named `ExportRacf`, and a source file containing
@@ -106,10 +106,10 @@ This connector does not reset passwords.
 ### Credential protection
 
 This connector has no credential attributes, and therefore does not use
-[RSA encryption](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/rsa-encryption/index.md),
+[RSA encryption](/docs/usercube/6.1/usercube/integration-guide/network-configuration/agent-configuration/rsa-encryption/index.md),
 nor a
-[CyberArk Vault](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/cyberark-application-access-manager-credential-providers/index.md).
+[CyberArk Vault](/docs/usercube/6.1/usercube/integration-guide/network-configuration/agent-configuration/cyberark-application-access-manager-credential-providers/index.md).
 
 Still, data protection can be ensured through an
-[Azure Key Vault](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/azure-key-vault/index.md)
+[Azure Key Vault](/docs/usercube/6.1/usercube/integration-guide/network-configuration/agent-configuration/azure-key-vault/index.md)
 safe.

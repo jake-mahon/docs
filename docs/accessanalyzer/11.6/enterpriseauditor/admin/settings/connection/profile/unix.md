@@ -10,7 +10,7 @@ The required credentials for the Unix Account are:
 - User name – Enter user name
 - Password Storage – Application (Uses the configured Profile Security setting as selected at the
   **Settings** > **Application** node. See the
-  [Application](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/settings/application/overview.md)
+  [Application](/docs/accessanalyzer/11.6/enterpriseauditor/admin/settings/application/overview.md)
   topic for additional information.)
 - Password/Confirm
 

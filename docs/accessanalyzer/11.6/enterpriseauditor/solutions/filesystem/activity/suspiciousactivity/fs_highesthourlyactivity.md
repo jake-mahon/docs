@@ -31,7 +31,7 @@ enabling it. The following analysis task is deselected by default:
 
     - Add recipients, notification subject, and email content
     - See the
-      [Configure the Notification Analysis Task](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/filesystem/activity/forensics/fs_deletions.md#configure-the-notification-analysis-task)
+      [Configure the Notification Analysis Task](/docs/accessanalyzer/11.6/enterpriseauditor/solutions/filesystem/activity/forensics/fs_deletions.md#configure-the-notification-analysis-task)
       topic for additional information
 
 In addition to the tables and views created by the analysis tasks, the FS_HighestHourlyActivity job

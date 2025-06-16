@@ -5,7 +5,7 @@ This connector exports mailboxes from a
 instance.
 
 This page is about
-[Server/Microsoft Exchange](/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/references-packages/microsoft-exchange/index.md).
+[Server/Microsoft Exchange](/docs/usercube/6.1/usercube/integration-guide/connectors/references-packages/microsoft-exchange/index.md).
 
 ![Package: Server/Microsoft Exchange](/img/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/references-connectors/microsoftexchange/packages_exchange_v603.webp)
 
@@ -42,7 +42,7 @@ script used by Usercube.
 ### Configuration
 
 This process is configured through a
-[connection](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/connectors/connection/index.md)
+[connection](/docs/usercube/6.1/usercube/integration-guide/toolkit/xml-configuration/connectors/connection/index.md)
 in the UI and/or the XML configuration, and in the `appsettings.agent.json > Connections` section:
 
 ```
@@ -118,9 +118,9 @@ This connector is meant to generate the following files:
   allowing incremental processes.
 
 The CSV files are stored in the
-[ExportOutput](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/appsettings/index.md)
+[ExportOutput](/docs/usercube/6.1/usercube/integration-guide/network-configuration/agent-configuration/appsettings/index.md)
 folder, and the cookie file in the
-[ExportCookies](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/appsettings/index.md)
+[ExportCookies](/docs/usercube/6.1/usercube/integration-guide/network-configuration/agent-configuration/appsettings/index.md)
 folder.
 
 ## Fulfill
@@ -130,13 +130,13 @@ delete[mailboxes](https://docs.microsoft.com/en-us/powershell/module/exchange/ge
 addresses (PrimarySmtpAddress, ProxyAddress) and mailbox databases.
 
 As it works via a PowerShell script,
-[find more instructions in the PowerShell connector's documentation](/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/references-connectors/powershellprov/index.md).
+[find more instructions in the PowerShell connector's documentation](/docs/usercube/6.1/usercube/integration-guide/connectors/references-connectors/powershellprov/index.md).
 
 Usercube's PowerShell script can be found in the SDK in
 `Usercube.Demo/Scripts/Fulfill-Exchange.ps1`.
 
 See
-[PowerShell credential protection](/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/references-connectors/powershellprov/index.md)
+[PowerShell credential protection](/docs/usercube/6.1/usercube/integration-guide/connectors/references-connectors/powershellprov/index.md)
 to protect this fulfill.
 
 ## Authentication
@@ -153,17 +153,17 @@ This connector does not reset passwords.
 
 Data protection can be ensured through:
 
-- [RSA encryption](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/rsa-encryption/index.md),
+- [RSA encryption](/docs/usercube/6.1/usercube/integration-guide/network-configuration/agent-configuration/rsa-encryption/index.md),
   configured in the `appsettings.encrypted.agent.json` file;
 - an
-  [Azure Key Vault](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/azure-key-vault/index.md)
+  [Azure Key Vault](/docs/usercube/6.1/usercube/integration-guide/network-configuration/agent-configuration/azure-key-vault/index.md)
   safe;
 
 - a
-  [CyberArk Vault](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/cyberark-application-access-manager-credential-providers/index.md)
+  [CyberArk Vault](/docs/usercube/6.1/usercube/integration-guide/network-configuration/agent-configuration/cyberark-application-access-manager-credential-providers/index.md)
   able to store Microsoft Exchange's `Server`.
 
 This kind of credential protection can be used only for the export process.
 
 The fulfill process' credentials can be protected by following the
-[instructions for the PowerShellProv connector](/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/references-connectors/powershellprov/index.md).
+[instructions for the PowerShellProv connector](/docs/usercube/6.1/usercube/integration-guide/connectors/references-connectors/powershellprov/index.md).

@@ -15,5 +15,5 @@ Required knowledge includes:
 ## Overview
 
 The installation of Usercube requires architectural decisions to be made. An
-[overview](/versioned_docs/usercube_6.1/usercube/installation-guide/overview/index.md) of the
+[overview](/docs/usercube/6.1/usercube/installation-guide/overview/index.md) of the
 architecture and available configurations will help you make informed decisions.

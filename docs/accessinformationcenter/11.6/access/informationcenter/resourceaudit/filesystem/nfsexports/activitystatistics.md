@@ -4,7 +4,7 @@ The Activity Statistics report at the NFS Exports share and subfolder levels p
 activity event information by user on the selected resource during the specified date range. This
 report includes line graphs for Active Users Trend and Traffic Trend. The **Include subfolders**
 option is active by default until removed. See the
-[Results Pane](/versioned_docs/accessinformationcenter_11.6/access/informationcenter/resourceaudit/navigate/overview.md#results-pane)
+[Results Pane](/docs/accessinformationcenter/11.6/access/informationcenter/resourceaudit/navigate/overview.md#results-pane)
 topic for information on changing this option.
 
 ![Activity Statistics report at the NFS Exports share and subfolder levels](/img/versioned_docs/accessinformationcenter_11.6/access/informationcenter/resourceaudit/filesystem/nfsexports/nfsactivitystatistics.webp)
@@ -31,7 +31,7 @@ This report is comprised of the following columns:
 - Deletes – Count of delete operations on files and subfolders
 
 The table data grid functions the same way as other table grids. See the
-[Data Grid Features](/versioned_docs/accessinformationcenter_11.6/access/general/datagrid.md) topic
+[Data Grid Features](/docs/accessinformationcenter/11.6/access/general/datagrid.md) topic
 for additional information.
 
 There are two line graphs at the bottom displaying Active Users Trend and Traffic Trend for the
@@ -49,5 +49,5 @@ that occurred by operation type over the selected date range. It indicates what 
 occurred per day. Each operation type is shown with a different color, as indicated by the legend.
 
 See the
-[Activity Report Results Pane Features](/versioned_docs/accessinformationcenter_11.6/access/informationcenter/resourceaudit/navigate/overview.md#activity-report-results-pane-features)
+[Activity Report Results Pane Features](/docs/accessinformationcenter/11.6/access/informationcenter/resourceaudit/navigate/overview.md#activity-report-results-pane-features)
 topic for instructions on filtering the trend graphs.

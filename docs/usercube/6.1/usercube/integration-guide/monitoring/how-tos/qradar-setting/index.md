@@ -13,7 +13,7 @@ Supported log management systems are:
 
 Typically, a Serilog configuration includes three parts: **MinimumLevel**, **Using** and
 **WriteTo**. For more details, see
-[Monitoring](/versioned_docs/usercube_6.1/usercube/integration-guide/monitoring/index.md).
+[Monitoring](/docs/usercube/6.1/usercube/integration-guide/monitoring/index.md).
 
 ### Usercube's DSM in QRadar
 
@@ -22,7 +22,7 @@ logs, when producing a JSON output.
 
 Logs can be sent into QRadar without using Usercube's DSM in QRadar, but the logs just won't be
 parsed. Not all Usercube's logs can be sent to QRadar,
-[see which logs can be sent](/versioned_docs/usercube_6.1/usercube/integration-guide/monitoring/references/index.md).
+[see which logs can be sent](/docs/usercube/6.1/usercube/integration-guide/monitoring/references/index.md).
 
 In order to get Usercube's DSM, import from QRadar the `Usercube_1.0.0.zip` file, accessible in the
 `Runtime` folder. Usercube's DSM is set to automatically detect the source. This means that, once
@@ -34,7 +34,7 @@ detection possible.
 Export logs to a log management system by proceeding as follows:
 
 1. In
-   [`appsettings.json`](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/appsettings/index.md),
+   [`appsettings.json`](/docs/usercube/6.1/usercube/integration-guide/network-configuration/agent-configuration/appsettings/index.md),
    make sure to have a **Serilog** section:
 
     ```
@@ -53,7 +53,7 @@ Export logs to a log management system by proceeding as follows:
 
 2. In the **Serilog** section, add a **Using** section to contain the used sink which depends on the
    logs' destination, output format, etc.
-   [See the list of supported sinks](/versioned_docs/usercube_6.1/usercube/integration-guide/monitoring/index.md).
+   [See the list of supported sinks](/docs/usercube/6.1/usercube/integration-guide/monitoring/index.md).
 
     Concerning QRadar, NETWRIX strongly recommends using the JSON format, as it can be parsed by
     Usercube's DSM or easily by a homemade parser.
@@ -98,14 +98,14 @@ Export logs to a log management system by proceeding as follows:
     > ```
 
 3. Add a **MinimumLevel** section to define which logs are to be sent to the log management system.
-   [See more details](/versioned_docs/usercube_6.1/usercube/integration-guide/monitoring/index.md).
+   [See more details](/docs/usercube/6.1/usercube/integration-guide/monitoring/index.md).
 
     In order to be sent to any system, Usercube's logs must be configured with **MinimumLevel** set
     to `Information`, or lower.
 
     > For example, we can define the logs' minimum level to `Information`. This way, all logs from
     > the
-    > [log references](/versioned_docs/usercube_6.1/usercube/integration-guide/monitoring/references/index.md)
+    > [log references](/docs/usercube/6.1/usercube/integration-guide/monitoring/references/index.md)
     > with `Information` level or higher are sent.
     >
     > ```
@@ -243,14 +243,14 @@ Export logs to a log management system by proceeding as follows:
 5. When needing to restrict the logs sent to the system, add a filter and wrap all **WriteTo**
    configuration into a sub-logger, in which case the **Name** at **WriteTo**'s root must be
    `Logger`.
-   [See more details](/versioned_docs/usercube_6.1/usercube/integration-guide/monitoring/index.md).
+   [See more details](/docs/usercube/6.1/usercube/integration-guide/monitoring/index.md).
 
     For all formats, in order to send only the right logs using the specified filter, the
     **WriteTo** part must contain a sub-logger with its own filter. Otherwise, the filter will be
     applied to all sinks.
 
     For example, among Usercube's logs, only the logs described in the
-    [log references](/versioned_docs/usercube_6.1/usercube/integration-guide/monitoring/references/index.md)
+    [log references](/docs/usercube/6.1/usercube/integration-guide/monitoring/references/index.md)
     can be parsed by QRadar's DSM and should be used by a SIEM system. Hence the importance of
     having a filter and a sub-logger.
 

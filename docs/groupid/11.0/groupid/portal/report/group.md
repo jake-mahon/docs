@@ -4,7 +4,7 @@ Group Reports contains reports for the Group objects in the directory. Search a 
 typing its name in the **Search Reports** box.
 
 Click any of the report template from the list to
-[Generate Reports](/versioned_docs/groupid_11.0/groupid/portal/report/generate.md).
+[Generate Reports](/docs/groupid/11.0/groupid/portal/report/generate.md).
 
 Following is the list of reports for this category:
 
@@ -65,7 +65,7 @@ Following is the list of reports for this category:
 | Mail-enabled groups with no members (Exchange)                                                                                     | Provides a list of all mail-enabled groups having no members.                                                                                                                                        |
 | Mail-enabled groups with no owner (Exchange)                                                                                       | Provides a list of mail-enabled groups having no owner.                                                                                                                                              |
 | Mail enabled Security Groups (Exchange)                                                                                            | Provides a list of mail-enabled groups in the domain.                                                                                                                                                |
-| Owners and objects they own Listed in [User Reports](/versioned_docs/groupid_11.0/groupid/portal/report/user.md) category as well. | Provides a list of managers and their direct reports.                                                                                                                                                |
+| Owners and objects they own Listed in [User Reports](/docs/groupid/11.0/groupid/portal/report/user.md) category as well. | Provides a list of managers and their direct reports.                                                                                                                                                |
 | Security Groups managed by GroupID                                                                                                 | Provides a list of the security groups that are managed by GroupID.                                                                                                                                  |
 | Smart Groups/Dynasties with their update status                                                                                    | Provides a list of Smart Groups and Dynasties with their update status information.                                                                                                                  |
 | Smart Groups and Included members                                                                                                  | Provides a list of Smart Group members that are mentioned in the Include list on the Include/Exclude tab of the Query Designer window.                                                               |
@@ -76,8 +76,8 @@ Following is the list of reports for this category:
 
 **See Also:**
 
-- [Generate Reports](/versioned_docs/groupid_11.0/groupid/portal/report/generate.md)
-- [Manage Reports](/versioned_docs/groupid_11.0/groupid/portal/report/manage.md)
-- [User Reports](/versioned_docs/groupid_11.0/groupid/portal/report/user.md)
-- [Computer Reports](/versioned_docs/groupid_11.0/groupid/portal/report/computer.md)
-- [Contact Reports](/versioned_docs/groupid_11.0/groupid/portal/report/contact.md)
+- [Generate Reports](/docs/groupid/11.0/groupid/portal/report/generate.md)
+- [Manage Reports](/docs/groupid/11.0/groupid/portal/report/manage.md)
+- [User Reports](/docs/groupid/11.0/groupid/portal/report/user.md)
+- [Computer Reports](/docs/groupid/11.0/groupid/portal/report/computer.md)
+- [Contact Reports](/docs/groupid/11.0/groupid/portal/report/contact.md)

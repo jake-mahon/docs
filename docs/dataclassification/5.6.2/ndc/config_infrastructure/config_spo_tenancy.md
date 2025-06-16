@@ -5,7 +5,7 @@ there is a need to crawl an entire SharePoint Online tenancy. The following guid
 step-by-step instructions in order to configure a whole tenancy for collection.
 
 1. Add SharePoint Online source as described in the
-   [SharePoint Online](/versioned_docs/dataclassification_5.6.2/ndc/sources/sharepoint/sharepoint_online.md)
+   [SharePoint Online](/docs/dataclassification/5.6.2/ndc/sources/sharepoint/sharepoint_online.md)
    section.
 
     **NOTE:** If this option is not available within the source type selection then it would suggest

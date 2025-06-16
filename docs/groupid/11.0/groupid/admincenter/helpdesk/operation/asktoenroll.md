@@ -23,7 +23,7 @@ What do you want to do?
       _All_ is selected in the **Identity store** box. Then click **Notify All Users**.
     - To send the notification to specific recipients, search for the required users and click
       **Notify All Users**. See the
-      [Search Users](/versioned_docs/groupid_11.0/groupid/admincenter/helpdesk/operation/search.md)
+      [Search Users](/docs/groupid/11.0/groupid/admincenter/helpdesk/operation/search.md)
       topic to perform a search.
 
     Notifications are sent to all users listed on the **Helpdesk Operations** tab, including those
@@ -46,5 +46,5 @@ What do you want to do?
 
 **See Also**
 
-- [Helpdesk](/versioned_docs/groupid_11.0/groupid/admincenter/helpdesk/overview.md)
-- [Helpdesk Operations](/versioned_docs/groupid_11.0/groupid/admincenter/helpdesk/operation/overview.md)
+- [Helpdesk](/docs/groupid/11.0/groupid/admincenter/helpdesk/overview.md)
+- [Helpdesk Operations](/docs/groupid/11.0/groupid/admincenter/helpdesk/operation/overview.md)

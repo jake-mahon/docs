@@ -21,8 +21,8 @@ Auditor SharePoint Agent server back to the Enterprise Auditor Console server.
 
 See the following topics for additional information:
 
-- [SharePoint Agent Permissions](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/requirements/solutions/sharepoint/agentpermissions.md)
-- [SharePoint Agent Ports](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/requirements/solutions/sharepoint/agentports.md)
+- [SharePoint Agent Permissions](/docs/accessanalyzer/11.6/enterpriseauditor/requirements/solutions/sharepoint/agentpermissions.md)
+- [SharePoint Agent Ports](/docs/accessanalyzer/11.6/enterpriseauditor/requirements/solutions/sharepoint/agentports.md)
 
 ## Agent-Less Type
 
@@ -39,10 +39,10 @@ See the following topics for additional information:
 
 - SharePoint Online
 
-    - [SharePoint Online Permissions](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/requirements/solutions/sharepoint/onlinepermissions.md)
-    - [SharePoint Online Ports](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/requirements/solutions/sharepoint/onlineports.md)
+    - [SharePoint Online Permissions](/docs/accessanalyzer/11.6/enterpriseauditor/requirements/solutions/sharepoint/onlinepermissions.md)
+    - [SharePoint Online Ports](/docs/accessanalyzer/11.6/enterpriseauditor/requirements/solutions/sharepoint/onlineports.md)
 
 - SharePoint On-Premise
 
-    - [SharePoint Agent-Less Permissions](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/requirements/solutions/sharepoint/agentlesspermissions.md)
-    - [SharePoint Agent-Less Ports](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/requirements/solutions/sharepoint/agentlessports.md)
+    - [SharePoint Agent-Less Permissions](/docs/accessanalyzer/11.6/enterpriseauditor/requirements/solutions/sharepoint/agentlesspermissions.md)
+    - [SharePoint Agent-Less Ports](/docs/accessanalyzer/11.6/enterpriseauditor/requirements/solutions/sharepoint/agentlessports.md)

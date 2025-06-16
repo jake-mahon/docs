@@ -13,7 +13,7 @@ The process for configuration deployment varies according to the situation:
 ## Deploy the Configuration Locally
 
 Deploy a local XML configuration by using the
-[`Deploy-Configuration` executable](/versioned_docs/usercube_6.1/usercube/integration-guide/executables/references/deploy-configuration/index.md)
+[`Deploy-Configuration` executable](/docs/usercube/6.1/usercube/integration-guide/executables/references/deploy-configuration/index.md)
 and declaring at least:
 
 - the configuration directory;
@@ -30,7 +30,7 @@ and declaring at least:
 Deploy a SaaS XML configuration by proceeding as follows:
 
 1. Log in for configuration deployment/export with the
-   [`Login` executable](/versioned_docs/usercube_6.1/usercube/integration-guide/executables/references/login/index.md).
+   [`Login` executable](/docs/usercube/6.1/usercube/integration-guide/executables/references/login/index.md).
 
     Usercube provides an Open Id Connect (OIDC) authentication process in order to ensure strong
     security, visibility and ease of use.
@@ -83,7 +83,7 @@ Deploy a SaaS XML configuration by proceeding as follows:
     instance, to allow the configuration deployment/export.
 
 4. Deploy the configuration by using the
-   [`Deploy-Configuration` executable](/versioned_docs/usercube_6.1/usercube/integration-guide/executables/references/deploy-configuration/index.md)
+   [`Deploy-Configuration` executable](/docs/usercube/6.1/usercube/integration-guide/executables/references/deploy-configuration/index.md)
    and declaring at least:
 
     - the configuration directory;

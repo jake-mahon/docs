@@ -40,5 +40,5 @@ required, reports can be made visible and/or editable by others.
 Press the **OK** button at the bottom of the window when done!
 
 Report settings, schedules and results can all be seen and edited on the **Reports** tab. See the
-[Report Options](/versioned_docs/changetracker_8.0/changetracker/admin/tabs/reportsquerysettingstab.md)
+[Report Options](/docs/changetracker/8.0/changetracker/admin/tabs/reportsquerysettingstab.md)
 topic for additional information.

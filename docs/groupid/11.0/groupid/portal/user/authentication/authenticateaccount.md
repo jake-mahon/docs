@@ -75,5 +75,5 @@ enroll his or her identity store account with.
 
 **See Also**
 
-- [Second Factor Authentication](/versioned_docs/groupid_11.0/groupid/portal/user/authentication/secondfactorauthentication.md)
-- [Enroll Your Identity Store Account](/versioned_docs/groupid_11.0/groupid/portal/user/authentication/enrollaccount.md)
+- [Second Factor Authentication](/docs/groupid/11.0/groupid/portal/user/authentication/secondfactorauthentication.md)
+- [Enroll Your Identity Store Account](/docs/groupid/11.0/groupid/portal/user/authentication/enrollaccount.md)

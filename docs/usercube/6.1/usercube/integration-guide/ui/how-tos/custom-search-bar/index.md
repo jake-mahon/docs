@@ -3,7 +3,7 @@
 This guide shows how to define a custom way to search from a list of a given entity type's
 properties.
 
-[Read more about searchbars](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/user-interface/searchbar/index.md).
+[Read more about searchbars](/docs/usercube/6.1/usercube/integration-guide/toolkit/xml-configuration/user-interface/searchbar/index.md).
 
 ## Default Search Bar
 
@@ -27,7 +27,7 @@ in the display table.
 ## Create Default Filters
 
 To add a default filter, you must add both of the following properties to a
-[criterion](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/user-interface/searchbar/index.md):
+[criterion](/docs/usercube/6.1/usercube/integration-guide/toolkit/xml-configuration/user-interface/searchbar/index.md):
 
 - DefaultValue
 - Operator
@@ -48,4 +48,4 @@ Each menu item is a link to an entity's workflow displayed under the search bar 
 page of the entity's resource list.
 
 For more information, see
-[Create Menu Item for Workflow in Resource Entity List](/versioned_docs/usercube_6.1/usercube/integration-guide/ui/how-tos/create-menu-items/index.md).
+[Create Menu Item for Workflow in Resource Entity List](/docs/usercube/6.1/usercube/integration-guide/ui/how-tos/create-menu-items/index.md).

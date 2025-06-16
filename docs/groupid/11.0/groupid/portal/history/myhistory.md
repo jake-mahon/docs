@@ -74,8 +74,8 @@ edit or add comments.
 
 The option to add a note is available on the My Account History card on Dashboard, and all History
 pages i.e.My History,
-[My Direct Reports' History](/versioned_docs/groupid_11.0/groupid/portal/history/mydirectreport.md)
-and [My Groups' History](/versioned_docs/groupid_11.0/groupid/portal/history/mydirectorygroup.md)
+[My Direct Reports' History](/docs/groupid/11.0/groupid/portal/history/mydirectreport.md)
+and [My Groups' History](/docs/groupid/11.0/groupid/portal/history/mydirectorygroup.md)
 pages.
 
 1. Click the **Add Note** button next to a history item to add a note to it.
@@ -126,5 +126,5 @@ The file is created at the download location specified in the browser settings.
 
 **See Also**
 
-- [History](/versioned_docs/groupid_11.0/groupid/portal/history/overview.md)
-- [Portal Settings](/versioned_docs/groupid_11.0/groupid/portal/setting/portal.md)
+- [History](/docs/groupid/11.0/groupid/portal/history/overview.md)
+- [Portal Settings](/docs/groupid/11.0/groupid/portal/setting/portal.md)

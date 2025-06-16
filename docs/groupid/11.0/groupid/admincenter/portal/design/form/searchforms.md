@@ -47,7 +47,7 @@ What do you want to do?
 10. In the **Display Type** drop-down list, select the display type to use to render this field in
     the portal. The list contains basic display types and custom display types defined on the
     **Custom Display Types** page. See the
-    [Display Type Categories](/versioned_docs/groupid_11.0/groupid/admincenter/portal/displaytype/categories.md)
+    [Display Type Categories](/docs/groupid/11.0/groupid/admincenter/portal/displaytype/categories.md)
     topic.
 11. Click **OK.** The field is displayed in the **Fields** area on the **Edit Search Form** pane.  
     To rearrange the fields on the search form, click the plus sign for a field and drag to change
@@ -95,7 +95,7 @@ You can change the following for a field on a search form:
 
 **See Also**
 
-- [Design a Portal with Display Types](/versioned_docs/groupid_11.0/groupid/admincenter/portal/displaytype/overview.md)
-- [Display Type Categories](/versioned_docs/groupid_11.0/groupid/admincenter/portal/displaytype/categories.md)
-- [Customize Search Results](/versioned_docs/groupid_11.0/groupid/admincenter/portal/design/form/searchresults.md)
-- [Customize Quick Search](/versioned_docs/groupid_11.0/groupid/admincenter/portal/design/form/quicksearch.md)
+- [Design a Portal with Display Types](/docs/groupid/11.0/groupid/admincenter/portal/displaytype/overview.md)
+- [Display Type Categories](/docs/groupid/11.0/groupid/admincenter/portal/displaytype/categories.md)
+- [Customize Search Results](/docs/groupid/11.0/groupid/admincenter/portal/design/form/searchresults.md)
+- [Customize Quick Search](/docs/groupid/11.0/groupid/admincenter/portal/design/form/quicksearch.md)

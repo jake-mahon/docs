@@ -16,5 +16,5 @@ The queries for this job are:
 - Timesync Info – Targets one domain controller per domain known to Enterprise Auditor to determine
   TimeSync information from the registry
     - See the
-      [Registry Data Collector](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/registry.md)
+      [Registry Data Collector](/docs/accessanalyzer/11.6/enterpriseauditor/admin/datacollector/registry.md)
       topic for additional information.

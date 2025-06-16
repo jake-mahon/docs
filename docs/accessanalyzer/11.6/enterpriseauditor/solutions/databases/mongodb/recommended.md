@@ -25,7 +25,7 @@ The NoSQL Data Collector requires a specific set of permission. See the Permissi
 necessary permissions. The account used can be either an Active Directory account or a SQL account.
 Once the account has been provisioned, create a custom Connection Profile containing the credentials
 for the targeted environment. See the
-[NoSQL Custom Connection Profile & Host List](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/nosql/configurejob.md)
+[NoSQL Custom Connection Profile & Host List](/docs/accessanalyzer/11.6/enterpriseauditor/admin/datacollector/nosql/configurejob.md)
 topic for additional information.
 
 The Connection Profile should be assigned under the MongoDB > 0.Collection > Settings > Connection
@@ -35,7 +35,7 @@ click the radio button for the Select one of the following user defined profiles
 the appropriate Connection Profile drop-down menu.
 
 See the
-[Connection](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/settings/connection/overview.md)
+[Connection](/docs/accessanalyzer/11.6/enterpriseauditor/admin/settings/connection/overview.md)
 topic for additional information.
 
 Schedule Frequency
@@ -56,12 +56,12 @@ Workflow
 
 1. Set a Connection Profile for the 0.Collection Job Group with the permissions listed in the
    Recommended Configurations section. See the
-   [NoSQL Custom Connection Profile & Host List](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/nosql/configurejob.md)
+   [NoSQL Custom Connection Profile & Host List](/docs/accessanalyzer/11.6/enterpriseauditor/admin/datacollector/nosql/configurejob.md)
    topic for additional information.
 2. Set the Host list for the 0.Collection Job Group with the servers containing the target
    databases. Additionally, the database clusters / instances must be added to the Filter page in
    the query configuration. See the
-   [NoSQL Custom Connection Profile & Host List](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/nosql/configurejob.md)
+   [NoSQL Custom Connection Profile & Host List](/docs/accessanalyzer/11.6/enterpriseauditor/admin/datacollector/nosql/configurejob.md)
    topic for additional information.
 3. (Optional) Configure the queries for the jobs in the 0.Collection Job Group
 4. Schedule the 0.Collection Job Group to run daily or as desired

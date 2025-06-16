@@ -17,7 +17,7 @@ Directory and Microsoft Entra ID) as well as create data sources for providers s
 databases. GroupID Synchronize uses user-defined identity stores (as source and destination) built
 on databases, files and other applications such as Oracle, SQL and so on. To view the list of
 supported Synchronize providers, see the
-[Synchronize Providers](/versioned_docs/groupid_11.0/groupid/portal/synchronize/provider.md) topic.
+[Synchronize Providers](/docs/groupid/11.0/groupid/portal/synchronize/provider.md) topic.
 
 The following must be defined before you can use Synchronize:
 
@@ -57,17 +57,17 @@ The following must be defined before you can use Synchronize:
 Synchronize dashboard displays performance widgets and cards displaying the data about your jobs and
 job collections. On the navigation pane on the left side, you will see the following tabs:
 
-- Create New ([Create a Job](/versioned_docs/groupid_11.0/groupid/portal/synchronize/job/create.md)
+- Create New ([Create a Job](/docs/groupid/11.0/groupid/portal/synchronize/job/create.md)
   and
-  [Create a Job Collection ](/versioned_docs/groupid_11.0/groupid/portal/synchronize/collection/create.md))
-- [Dashboard](/versioned_docs/groupid_11.0/groupid/portal/synchronize/dashboard.md)
-- [Manage a Job](/versioned_docs/groupid_11.0/groupid/portal/synchronize/manage/job.md)
-- [Manage a Job Collection ](/versioned_docs/groupid_11.0/groupid/portal/synchronize/manage/jobcollection.md)
-- [Job Templates](/versioned_docs/groupid_11.0/groupid/portal/synchronize/manage/jobtemplate.md)
-- [Job Collection Template](/versioned_docs/groupid_11.0/groupid/portal/synchronize/manage/jobcollectiontemplate.md)
+  [Create a Job Collection ](/docs/groupid/11.0/groupid/portal/synchronize/collection/create.md))
+- [Dashboard](/docs/groupid/11.0/groupid/portal/synchronize/dashboard.md)
+- [Manage a Job](/docs/groupid/11.0/groupid/portal/synchronize/manage/job.md)
+- [Manage a Job Collection ](/docs/groupid/11.0/groupid/portal/synchronize/manage/jobcollection.md)
+- [Job Templates](/docs/groupid/11.0/groupid/portal/synchronize/manage/jobtemplate.md)
+- [Job Collection Template](/docs/groupid/11.0/groupid/portal/synchronize/manage/jobcollectiontemplate.md)
 
 **See Also**
 
-- [Dashboard](/versioned_docs/groupid_11.0/groupid/portal/synchronize/dashboard.md)
-- [Synchronize Providers](/versioned_docs/groupid_11.0/groupid/portal/synchronize/provider.md)
-- [Requests](/versioned_docs/groupid_11.0/groupid/portal/request/overview.md)
+- [Dashboard](/docs/groupid/11.0/groupid/portal/synchronize/dashboard.md)
+- [Synchronize Providers](/docs/groupid/11.0/groupid/portal/synchronize/provider.md)
+- [Requests](/docs/groupid/11.0/groupid/portal/request/overview.md)

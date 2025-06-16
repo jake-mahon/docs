@@ -7,7 +7,7 @@ assigned for the job group.
 
 By default, all job groups are set to inherit **Use Default Setting** option from the global level
 (**Settings** > **History**) or a parent job group. See the
-[History](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/settings/history.md) topic
+[History](/docs/accessanalyzer/11.6/enterpriseauditor/admin/settings/history.md) topic
 for additional information.
 
 **CAUTION:** It is important to understand that some pre-configured jobs require history retention

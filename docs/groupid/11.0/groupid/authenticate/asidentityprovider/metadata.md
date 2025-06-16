@@ -10,7 +10,7 @@ You can specify default values for the following GroupID metadata:
 1. In GroupID Authenticate, go to the **Settings** tab.
 2. On the **Settings** page, the **Base URL** box displays the default Issuer URL, which is
    displayed in the **Provider Issuer** box on the **Create Application** page. See the
-   [GroupID Metadata for Service Provider Configurations](/versioned_docs/groupid_11.0/groupid/authenticate/asidentityprovider/register.md#groupid-metadata-for-service-provider-configurations)
+   [GroupID Metadata for Service Provider Configurations](/docs/groupid/11.0/groupid/authenticate/asidentityprovider/register.md#groupid-metadata-for-service-provider-configurations)
    topic.  
    You may want to change the default base/Issuer URL for any reason, for example, replace it with a
    sub-domain URL or a load balancer URL.  
@@ -23,7 +23,7 @@ You can specify default values for the following GroupID metadata:
    created in IIS. It displays the certificate along with the private key. This certificate is
    displayed in the **Provider Signing Certificate** box on the **Create Application** page, though
    without the private key. See the
-   [GroupID Metadata for Service Provider Configurations](/versioned_docs/groupid_11.0/groupid/authenticate/asidentityprovider/register.md#groupid-metadata-for-service-provider-configurations)
+   [GroupID Metadata for Service Provider Configurations](/docs/groupid/11.0/groupid/authenticate/asidentityprovider/register.md#groupid-metadata-for-service-provider-configurations)
    topic.  
    You may choose to use this certificate or create a custom certificate and use that in third-party
    applications.

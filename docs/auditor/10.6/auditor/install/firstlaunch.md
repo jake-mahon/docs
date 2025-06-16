@@ -28,4 +28,4 @@ in your environment.
 
 See next:
 
-- [Navigation](/versioned_docs/auditor_10.6/auditor/admin/navigation/overview.md)
+- [Navigation](/docs/auditor/10.6/auditor/admin/navigation/overview.md)

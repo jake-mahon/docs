@@ -10,22 +10,22 @@ The _Agent_ configuration uses two sets of settings: the agent **appsettings** s
 **appsettings.agent** set.
 
 1. The
-   [appsettings](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/appsettings/index.md)
+   [appsettings](/docs/usercube/6.1/usercube/integration-guide/network-configuration/agent-configuration/appsettings/index.md)
    set is written either to the _Agent_'s working directory
-   [appsettings.json file](/versioned_docs/usercube_6.1/usercube/integration-guide/architecture/index.md)
+   [appsettings.json file](/docs/usercube/6.1/usercube/integration-guide/architecture/index.md)
    or as
-   [environment variables](/versioned_docs/usercube_6.1/usercube/integration-guide/architecture/index.md).
+   [environment variables](/docs/usercube/6.1/usercube/integration-guide/architecture/index.md).
 2. The
-   [appsettings.agent](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/appsettings-agent/index.md)
+   [appsettings.agent](/docs/usercube/6.1/usercube/integration-guide/network-configuration/agent-configuration/appsettings-agent/index.md)
    set is written as
-   [environment variables](/versioned_docs/usercube_6.1/usercube/integration-guide/architecture/index.md)
+   [environment variables](/docs/usercube/6.1/usercube/integration-guide/architecture/index.md)
    or to the
-   [appsettings.agent.json](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/appsettings-agent/index.md)
+   [appsettings.agent.json](/docs/usercube/6.1/usercube/integration-guide/network-configuration/agent-configuration/appsettings-agent/index.md)
    files from the Agent's working directory.
 3. There are two additional files involved in the _Agent_'s configuration to protect sensitive data:
-   [appsettings.encrypted.agent.json](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/rsa-encryption/index.md)
+   [appsettings.encrypted.agent.json](/docs/usercube/6.1/usercube/integration-guide/network-configuration/agent-configuration/rsa-encryption/index.md)
    and
-   [appsettings.cyberark.agent.json](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/cyberark-application-access-manager-credential-providers/index.md).
+   [appsettings.cyberark.agent.json](/docs/usercube/6.1/usercube/integration-guide/network-configuration/agent-configuration/cyberark-application-access-manager-credential-providers/index.md).
 
 ## Protect Credentials
 
@@ -36,14 +36,14 @@ sensitive data.
 
 Any _Agent_ configuration setting value can be encrypted using `Usercube-Protect-X509JsonValue` and
 `Usercube-Protect-X509JsonFile` tools. An encrypted value is then written to the
-[appsettings.encrypted.agent.json](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/rsa-encryption/index.md)
+[appsettings.encrypted.agent.json](/docs/usercube/6.1/usercube/integration-guide/network-configuration/agent-configuration/rsa-encryption/index.md)
 file.
 
 It means that any sensitive setting value that the user chooses to protect this way won't be written
 to the
-[appsettings.agent.json](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/appsettings-agent/index.md)
+[appsettings.agent.json](/docs/usercube/6.1/usercube/integration-guide/network-configuration/agent-configuration/appsettings-agent/index.md)
 file but to the
-[appsettings.encrypted.agent.json](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/rsa-encryption/index.md)
+[appsettings.encrypted.agent.json](/docs/usercube/6.1/usercube/integration-guide/network-configuration/agent-configuration/rsa-encryption/index.md)
 file.
 
 ### CyberArk Vault
@@ -52,7 +52,7 @@ Any _Agent_ configuration setting value can be encrypted using Usercube's _Cyber
 
 To put it simply, any sensitive setting value that the user chooses to protect this way won't be
 written to the
-[appsettings.agent.json](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/appsettings-agent/index.md)
+[appsettings.agent.json](/docs/usercube/6.1/usercube/integration-guide/network-configuration/agent-configuration/appsettings-agent/index.md)
 file but stored within a _CyberArk Vault_.
 
 ### Azure Key Vault safe
@@ -62,7 +62,7 @@ integration.
 
 To put it simply, any sensitive setting value that the user chooses to protect this way won't be
 written to the
-[appsettings.agent.json](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/appsettings-agent/index.md)
+[appsettings.agent.json](/docs/usercube/6.1/usercube/integration-guide/network-configuration/agent-configuration/appsettings-agent/index.md)
 file but stored within an _Azure Key Vault_ safe.
 
 ## Merge Priority
@@ -71,29 +71,29 @@ Because of the credential protection system, the _Agent_ connection information 
 can be written to the following configuration sources:
 
 - The
-  [appsettings.agent.json](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/appsettings-agent/index.md)
+  [appsettings.agent.json](/docs/usercube/6.1/usercube/integration-guide/network-configuration/agent-configuration/appsettings-agent/index.md)
   file which contains plain text, non-encrypted setting information.
 - The
-  [appsettings.encrypted.agent.json](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/rsa-encryption/index.md)
+  [appsettings.encrypted.agent.json](/docs/usercube/6.1/usercube/integration-guide/network-configuration/agent-configuration/rsa-encryption/index.md)
   file which contains encrypted setting information.
 - An _Azure Key Vault_ safe (see
-  [azure key vault](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/azure-key-vault/index.md)).
+  [azure key vault](/docs/usercube/6.1/usercube/integration-guide/network-configuration/agent-configuration/azure-key-vault/index.md)).
 - A _CyberArk__Vault_ referenced by the
-  [appsettings.cyberark.agent.json](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/cyberark-application-access-manager-credential-providers/index.md)
+  [appsettings.cyberark.agent.json](/docs/usercube/6.1/usercube/integration-guide/network-configuration/agent-configuration/cyberark-application-access-manager-credential-providers/index.md)
   file.
 - The
-  [appsettings.connection.json](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/technical-files/appsettings.connection/index.md)
+  [appsettings.connection.json](/docs/usercube/6.1/usercube/integration-guide/network-configuration/technical-files/appsettings.connection/index.md)
   file.
 
 Each configuration source is loaded one after the other, in the following order:
 
-1. [appsettings.agent.json](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/appsettings-agent/index.md)
-2. [appsettings.encrypted.agent.json](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/rsa-encryption/index.md)
-3. _[Azure Key Vault](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/azure-key-vault/index.md)_
+1. [appsettings.agent.json](/docs/usercube/6.1/usercube/integration-guide/network-configuration/agent-configuration/appsettings-agent/index.md)
+2. [appsettings.encrypted.agent.json](/docs/usercube/6.1/usercube/integration-guide/network-configuration/agent-configuration/rsa-encryption/index.md)
+3. _[Azure Key Vault](/docs/usercube/6.1/usercube/integration-guide/network-configuration/agent-configuration/azure-key-vault/index.md)_
    safe
-4. _[CyberArk](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/cyberark-application-access-manager-credential-providers/index.md)
+4. _[CyberArk](/docs/usercube/6.1/usercube/integration-guide/network-configuration/agent-configuration/cyberark-application-access-manager-credential-providers/index.md)
    Vault_
-5. [appsettings.connection.json](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/technical-files/appsettings.connection/index.md)
+5. [appsettings.connection.json](/docs/usercube/6.1/usercube/integration-guide/network-configuration/technical-files/appsettings.connection/index.md)
 
 If a json key is defined in multiple configuration source, only the last loaded json key is
 preserved to build the final configuration.

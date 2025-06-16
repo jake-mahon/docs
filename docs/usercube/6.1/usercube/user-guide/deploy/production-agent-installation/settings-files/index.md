@@ -6,9 +6,9 @@ This guide shows how to configure the agent's application settings via the `web.
 ## Overview
 
 Usercube provides JSON files to configure varied application settings, named
-[`appsettings.json`](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/appsettings/index.md)
+[`appsettings.json`](/docs/usercube/6.1/usercube/integration-guide/network-configuration/agent-configuration/appsettings/index.md)
 and
-[`appsettings.agent.json`](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/appsettings-agent/index.md).
+[`appsettings.agent.json`](/docs/usercube/6.1/usercube/integration-guide/network-configuration/agent-configuration/appsettings-agent/index.md).
 
 This page describes the optimal configuration of the production agent's application settings.
 
@@ -109,7 +109,7 @@ Configure the agent's settings by proceeding as follows:
 
     - **OpenId** > **AgentIdentifier** specifies the agent's name which must match the XML
       configuration.
-      [See more details](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/appsettings-agent/index.md).
+      [See more details](/docs/usercube/6.1/usercube/integration-guide/network-configuration/agent-configuration/appsettings-agent/index.md).
 
         > For example:
         >
@@ -258,4 +258,4 @@ Configure the agent's settings by proceeding as follows:
 ## Next Steps
 
 To continue,
-[configure the local server to install IIS via Server Manager](/versioned_docs/usercube_6.1/usercube/user-guide/deploy/production-agent-installation/iis-installation/index.md).
+[configure the local server to install IIS via Server Manager](/docs/usercube/6.1/usercube/user-guide/deploy/production-agent-installation/iis-installation/index.md).

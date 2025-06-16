@@ -34,14 +34,14 @@ Connect Power BI to Usercube by proceeding as follows:
     ![Server URL](/img/versioned_docs/usercube_6.1/usercube/integration-guide/governance/reporting/how-tos/connect-powerbi/powerbi_url.webp)
 
 5. In the opening window, enter the
-   [OpenIdClient](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/access-control/openidclient/index.md)
+   [OpenIdClient](/docs/usercube/6.1/usercube/integration-guide/toolkit/xml-configuration/access-control/openidclient/index.md)
    of the `Administrator` profile. The `Client Id` expects the concatenation of the identifier of
    `OpenIdClient` with `@` and Usercube's domain name. See the following example.
 
     ![Client Id / Client Secret](/img/versioned_docs/usercube_6.1/usercube/integration-guide/governance/reporting/how-tos/connect-powerbi/powerbi_clientid.webp)
 
 6. You can now access in the left panel the
-   [universes](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/business-intelligence/universe/index.md)
+   [universes](/docs/usercube/6.1/usercube/integration-guide/toolkit/xml-configuration/business-intelligence/universe/index.md)
    from Usercube configuration. You can click on the desired universe to expand it, and view and
    pick the desired tables.
 

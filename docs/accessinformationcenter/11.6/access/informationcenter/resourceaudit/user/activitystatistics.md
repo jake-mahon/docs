@@ -20,12 +20,12 @@ This report is comprised of the following columns:
 - Deletes – Count of delete operations on resource
 
 The table data grid functions the same way as other table grids. See the
-[Data Grid Features](/versioned_docs/accessinformationcenter_11.6/access/general/datagrid.md) topic
+[Data Grid Features](/docs/accessinformationcenter/11.6/access/general/datagrid.md) topic
 for additional information.
 
 There is one line graph at the bottom displaying the Traffic Trend for the audited user. It provides
 a visual representation of the number of operations events that occurred by operation type over the
 selected date range. It indicates what volume of operations occurred per day. Each operation type is
 provided with a different color, as indicated by the legend. See the
-[Activity Report Results Pane Features](/versioned_docs/accessinformationcenter_11.6/access/informationcenter/resourceaudit/navigate/overview.md#activity-report-results-pane-features)
+[Activity Report Results Pane Features](/docs/accessinformationcenter/11.6/access/informationcenter/resourceaudit/navigate/overview.md#activity-report-results-pane-features)
 topic for instructions on filtering the Trend graph.

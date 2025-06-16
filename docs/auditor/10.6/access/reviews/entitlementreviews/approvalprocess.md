@@ -28,7 +28,7 @@ opens.
 
 **Step 3 –** By default, the table displays only the recommended changes. Select an item and click
 the desired action button: Accept, Decline, or Defer. The Approval column icon updates. See the
-[View Responses Window](/versioned_docs/auditor_10.6/access/reviews/entitlementreviews/window/viewresponses.md)
+[View Responses Window](/docs/auditor/10.6/access/reviews/entitlementreviews/window/viewresponses.md)
 topic for additional information.
 
 **Step 4 –** Repeat Step 3 until all changes have been processed. Then click **Close**. The View

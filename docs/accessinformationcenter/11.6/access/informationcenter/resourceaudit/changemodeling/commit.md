@@ -8,7 +8,7 @@ The following user roles can commit changes:
 
 - Administrators – This role can configure the Access Information Center to commit changes and can
   commit modeled changes. See the
-  [Commit Active Directory Changes](/versioned_docs/accessinformationcenter_11.6/access/informationcenter/admin/additionalconfig/commitchanges.md)
+  [Commit Active Directory Changes](/docs/accessinformationcenter/11.6/access/informationcenter/admin/additionalconfig/commitchanges.md)
   topic for additional information.
 - Security Team Members – This role can commit modeled changes, if the Access Information Center has
   already been configured to do so
@@ -30,7 +30,7 @@ Manually Commit Changes
 You can export the list of modeled changes as either a CSV or Excel file, which can be sent to your
 organization’s IT team. Select between the **CSV Export** and **Excel Export** buttons above the
 table. See the
-[Data Grid Features](/versioned_docs/accessinformationcenter_11.6/access/general/datagrid.md) topic
+[Data Grid Features](/docs/accessinformationcenter/11.6/access/general/datagrid.md) topic
 for additional information.
 
 Access Information Center Automatically Commits Changes

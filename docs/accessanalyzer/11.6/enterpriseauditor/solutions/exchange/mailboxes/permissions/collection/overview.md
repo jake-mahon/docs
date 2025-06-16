@@ -8,11 +8,11 @@ Delegation, and Folder Permissions.
 
 The jobs in the 0. Collection job group are:
 
-- [EX_Delegates Job](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/exchange/mailboxes/permissions/collection/ex_delegates.md)
+- [EX_Delegates Job](/docs/accessanalyzer/11.6/enterpriseauditor/solutions/exchange/mailboxes/permissions/collection/ex_delegates.md)
   – Collects data from Active Directory to identify the delegates applied to a mailbox
-- [EX_MBRights Job](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/exchange/mailboxes/permissions/collection/ex_mbrights.md)
+- [EX_MBRights Job](/docs/accessanalyzer/11.6/enterpriseauditor/solutions/exchange/mailboxes/permissions/collection/ex_mbrights.md)
   – Collects data from Active Directory to identify the mailbox rights applied to a mailbox
-- [EX_Perms Job](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/exchange/mailboxes/permissions/collection/ex_perms.md)
+- [EX_Perms Job](/docs/accessanalyzer/11.6/enterpriseauditor/solutions/exchange/mailboxes/permissions/collection/ex_perms.md)
   – Collects information about permissions applied to the folders within Exchange mailboxes
-- [EX_SendAs Job](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/exchange/mailboxes/permissions/collection/ex_sendas.md)
+- [EX_SendAs Job](/docs/accessanalyzer/11.6/enterpriseauditor/solutions/exchange/mailboxes/permissions/collection/ex_sendas.md)
   – Collects data from Active Directory to identify the Active Directory rights applied to a mailbox

@@ -22,6 +22,6 @@ source only.
 
 See the following topics for additional information:
 
-- [Alerts](/versioned_docs/auditor_10.6/auditor/admin/alertsettings/overview.md)
-- [View and Search Collected Data](/versioned_docs/auditor_10.6/auditor/admin/search/overview.md)
-- [Subscriptions](/versioned_docs/auditor_10.6/auditor/admin/subscriptions/overview.md)
+- [Alerts](/docs/auditor/10.6/auditor/admin/alertsettings/overview.md)
+- [View and Search Collected Data](/docs/auditor/10.6/auditor/admin/search/overview.md)
+- [Subscriptions](/docs/auditor/10.6/auditor/admin/subscriptions/overview.md)

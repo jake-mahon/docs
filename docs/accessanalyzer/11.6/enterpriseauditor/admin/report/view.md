@@ -26,7 +26,7 @@ report title to view the report.
 
 The most common place to view reports is the Web Console. For information on how to access the Web
 Console, see the
-[Log into the Web Console](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/install/application/reports/overview.md#log-into-the-web-console)
+[Log into the Web Console](/docs/accessanalyzer/11.6/enterpriseauditor/install/application/reports/overview.md#log-into-the-web-console)
 topic.
 
 ![Web Console Home page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/install/application/reports/webconsolehome.webp)
@@ -41,14 +41,14 @@ report.
 
 From within the Web Console, reports cannot be edited or deleted. However, the interactive grid
 functions are enabled. See the
-[Interactive Grids](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/report/interactivegrids/overview.md)
+[Interactive Grids](/docs/accessanalyzer/11.6/enterpriseauditor/admin/report/interactivegrids/overview.md)
 topic for additional information. An additional feature available within the Web Console is the
 option to download data as a CSV file, which can be enabled for grid elements. This exports the data
 within tables, both interactive grid and plain HTML tables. See the
-[Grid](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/report/wizard/widgets.md#grid)
+[Grid](/docs/accessanalyzer/11.6/enterpriseauditor/admin/report/wizard/widgets.md#grid)
 topic for additional information.
 
 **NOTE:** Any browser used to access the Web Console must have JavaScript allowed for the site. See
 the
-[Configure JavaScript Settings for the Web Console](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/settings/reporting.md#configure-javascript-settings-for-the-web-console)
+[Configure JavaScript Settings for the Web Console](/docs/accessanalyzer/11.6/enterpriseauditor/admin/settings/reporting.md#configure-javascript-settings-for-the-web-console)
 topic for additional information.

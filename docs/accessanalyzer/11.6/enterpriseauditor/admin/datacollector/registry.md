@@ -11,8 +11,8 @@ within both the Active Directory Solution and the Windows Solution. While the da
 available with all Enterprise Auditor license options, these solutions are only available with a
 special Enterprise Auditor licenses. See the following topics for additional information:
 
-- [Active Directory Solution](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/activedirectory/overview.md)
-- [Windows Solution](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/windows/overview.md)
+- [Active Directory Solution](/docs/accessanalyzer/11.6/enterpriseauditor/solutions/activedirectory/overview.md)
+- [Windows Solution](/docs/accessanalyzer/11.6/enterpriseauditor/solutions/windows/overview.md)
 
 Protocols
 

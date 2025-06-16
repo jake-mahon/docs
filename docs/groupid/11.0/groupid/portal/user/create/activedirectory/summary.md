@@ -8,7 +8,7 @@ before creating the object.
 
 **See Also**
 
-- [Create an AD User](/versioned_docs/groupid_11.0/groupid/portal/user/create/activedirectory/user.md)
-- [Create an AD Mailbox](/versioned_docs/groupid_11.0/groupid/portal/user/create/activedirectory/mailbox/mailbox.md)
-- [Create an AD Contact](/versioned_docs/groupid_11.0/groupid/portal/user/create/activedirectory/contact/contact.md)
-- [Create Active Directory Groups](/versioned_docs/groupid_11.0/groupid/portal/group/create/activedirectory/group.md)
+- [Create an AD User](/docs/groupid/11.0/groupid/portal/user/create/activedirectory/user.md)
+- [Create an AD Mailbox](/docs/groupid/11.0/groupid/portal/user/create/activedirectory/mailbox/mailbox.md)
+- [Create an AD Contact](/docs/groupid/11.0/groupid/portal/user/create/activedirectory/contact/contact.md)
+- [Create Active Directory Groups](/docs/groupid/11.0/groupid/portal/group/create/activedirectory/group.md)

@@ -71,7 +71,7 @@ would enable the object to delegate the Send As permission to users.
     visible to users of this role and roles with a priority value higher than this role. It would
     not even be visible to group owners (for their respective groups) and user managers (for their
     direct reports) if they fall in a lower priority role. See
-    [Priority](/versioned_docs/groupid_11.0/groupid/admincenter/securityrole/manage.md).
+    [Priority](/docs/groupid/11.0/groupid/admincenter/securityrole/manage.md).
 
     - Select _Never_ to hide the field from all users.
     - Select _Manager and Owner_ to make the field visible only to the owner (in case of a group) or
@@ -168,7 +168,7 @@ This would enable the object to delegate the Send on Behalf permission to users.
     would be visible to users of this role and roles with a priority value higher than this role. It
     would not be visible to group owners (for their groups) and user managers (for their direct
     reports) if they fall in a lower priority role. See
-    [Priority](/versioned_docs/groupid_11.0/groupid/admincenter/securityrole/manage.md).
+    [Priority](/docs/groupid/11.0/groupid/admincenter/securityrole/manage.md).
 
     - Select _Never_ to hide the field from all users.
     - Select _Manager and Owner_ to make the field visible only to the owner (in case of a group) or
@@ -240,4 +240,4 @@ functionality.
 
 See Also
 
-- [Customize Properties Pages](/versioned_docs/groupid_11.0/groupid/admincenter/portal/design/objectproperties.md)
+- [Customize Properties Pages](/docs/groupid/11.0/groupid/admincenter/portal/design/objectproperties.md)

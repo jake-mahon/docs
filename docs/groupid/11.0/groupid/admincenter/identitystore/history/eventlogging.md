@@ -45,6 +45,6 @@ log.
 
 **See Also**
 
-- [Configure History Tracking](/versioned_docs/groupid_11.0/groupid/admincenter/identitystore/configure/directoryservice/historytracking.md)
-- [GroupID Applications](/versioned_docs/groupid_11.0/groupid/admincenter/portal/applications.md)
-- [Get Logs](/versioned_docs/groupid_11.0/groupid/admincenter/general/logs.md)
+- [Configure History Tracking](/docs/groupid/11.0/groupid/admincenter/identitystore/configure/directoryservice/historytracking.md)
+- [GroupID Applications](/docs/groupid/11.0/groupid/admincenter/portal/applications.md)
+- [Get Logs](/docs/groupid/11.0/groupid/admincenter/general/logs.md)

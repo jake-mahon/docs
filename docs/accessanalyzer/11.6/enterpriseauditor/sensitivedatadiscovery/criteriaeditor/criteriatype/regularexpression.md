@@ -16,7 +16,7 @@ The options on the Regular Expression window are:
   validation required**.
 
     **NOTE:** See the
-    [Sensitive Data System Criteria](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/sensitivedatadiscovery/systemcriteria.md)
+    [Sensitive Data System Criteria](/docs/accessanalyzer/11.6/enterpriseauditor/sensitivedatadiscovery/systemcriteria.md)
     topic for additional information on validation methods.
 
 - Sample Value – Text entered into the Sample Value text box is used to test pattern matches for the

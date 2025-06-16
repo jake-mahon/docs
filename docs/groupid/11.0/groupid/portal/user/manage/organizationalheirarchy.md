@@ -16,12 +16,12 @@ What do you want to do?
 
 1. In GroupID portal, go to **My Profile** or search for the user whose organizational hierarchy you
    want to view on the
-   [Directory Search](/versioned_docs/groupid_11.0/groupid/portal/search/search.md) dialog box.
+   [Directory Search](/docs/groupid/11.0/groupid/portal/search/search.md) dialog box.
 2. On the toolbar tab of the user profile's page, select **Organizational Hierarchy**. The
    **Organizational Hierarchy** page displays the organizational hierarchy chart for the logged-in
    user.
 3. To view the chart for another user, click the ellipsis button next to **Select User**.
-4. On the [Find Dialog Box](/versioned_docs/groupid_11.0/groupid/portal/search/find.md), search and
+4. On the [Find Dialog Box](/docs/groupid/11.0/groupid/portal/search/find.md), search and
    select the required user and click **OK**. This displays the organizational hierarchy chart for
    the selected user.
 5. You can:
@@ -32,6 +32,6 @@ What do you want to do?
 
 **See Also**
 
-- [Create an AD User](/versioned_docs/groupid_11.0/groupid/portal/user/create/activedirectory/user.md)
-- [User Properties](/versioned_docs/groupid_11.0/groupid/portal/user/properties/overview.md)
-- [Update your Direct Reports](/versioned_docs/groupid_11.0/groupid/portal/user/manage/directreport.md)
+- [Create an AD User](/docs/groupid/11.0/groupid/portal/user/create/activedirectory/user.md)
+- [User Properties](/docs/groupid/11.0/groupid/portal/user/properties/overview.md)
+- [Update your Direct Reports](/docs/groupid/11.0/groupid/portal/user/manage/directreport.md)

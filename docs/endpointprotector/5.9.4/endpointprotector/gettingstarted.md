@@ -17,7 +17,7 @@ Before starting, ensure that your environment meets the following requirements:
 - Network: Access to Endpoint Protector Server
 
 See the
-[Requirements](/versioned_docs/endpointprotector_5.9.4/endpointprotector/requirements/overview.md)
+[Requirements](/docs/endpointprotector/5.9.4/endpointprotector/requirements/overview.md)
 topic for additional information.
 
 ## Staging the Server
@@ -29,7 +29,7 @@ topic for additional information.
     - Log in using your administrator credentials.
 
 See the
-[Server Functionality](/versioned_docs/endpointprotector_5.9.4/endpointprotector/admin/dashboard/systemdashboard.md)
+[Server Functionality](/docs/endpointprotector/5.9.4/endpointprotector/admin/dashboard/systemdashboard.md)
 topic for additional information.
 
 ## Managing Administrators
@@ -40,7 +40,7 @@ topic for additional information.
       Configuration > System Administrators.
 
 See the
-[System Configuration](/versioned_docs/endpointprotector_5.9.4/endpointprotector/admin/systemconfiguration/overview.md)
+[System Configuration](/docs/endpointprotector/5.9.4/endpointprotector/admin/systemconfiguration/overview.md)
 topic for additional Information.
 
 ## Configuring Device Control
@@ -52,7 +52,7 @@ topic for additional Information.
     - Customize policies based on device types and access requirements.
 
 See the
-[Device Control](/versioned_docs/endpointprotector_5.9.4/endpointprotector/admin/devicecontrol/module.md)
+[Device Control](/docs/endpointprotector/5.9.4/endpointprotector/admin/devicecontrol/module.md)
 topic for additional information.
 
 ## Configuring Content Aware Protection
@@ -64,7 +64,7 @@ topic for additional information.
     - Specify Denylists, Predefined Content, or Custom Content to identify sensitive data.
 
 See the
-[Content Aware Protection](/versioned_docs/endpointprotector_5.9.4/endpointprotector/admin/contentawareprotection/module.md)
+[Content Aware Protection](/docs/endpointprotector/5.9.4/endpointprotector/admin/contentawareprotection/module.md)
 topic for more information.
 
 ## Configuring an eDiscovery Scan
@@ -76,7 +76,7 @@ topic for more information.
     - Configure scan options and remediation actions (Encrypt, Decrypt, Delete).
 
 See the
-[eDiscovery](/versioned_docs/endpointprotector_5.9.4/endpointprotector/admin/ediscovery/module.md)
+[eDiscovery](/docs/endpointprotector/5.9.4/endpointprotector/admin/ediscovery/module.md)
 topic for additional more information.
 
 ## Configuring the User Experience
@@ -87,7 +87,7 @@ topic for additional more information.
     - Configure Client Modes (Normal, Transparent, Stealth, etc.) and Notification Preferences.
 
 See the
-[Device Control](/versioned_docs/endpointprotector_5.9.4/endpointprotector/admin/devicecontrol/module.md)
+[Device Control](/docs/endpointprotector/5.9.4/endpointprotector/admin/devicecontrol/module.md)
 topic for more information.
 
 ### Configuring User Remediation Settings
@@ -99,7 +99,7 @@ topic for more information.
       notifications.
 
 See the
-[System Parameters](/versioned_docs/endpointprotector_5.9.4/endpointprotector/admin/systemparameters/overview.md)
+[System Parameters](/docs/endpointprotector/5.9.4/endpointprotector/admin/systemparameters/overview.md)
 topic for more information.
 
 ### Setting Up Offline Temporary Password
@@ -110,7 +110,7 @@ topic for more information.
     - Generate passwords to provide temporary access rights when User Remediation is unavailable.
 
 See the
-[Offline Temporary Password](/versioned_docs/endpointprotector_5.9.4/endpointprotector/admin/offlinetemporarypassword/overview.md)
+[Offline Temporary Password](/docs/endpointprotector/5.9.4/endpointprotector/admin/offlinetemporarypassword/overview.md)
 topic for more information.
 
 ## Deploying Agents
@@ -122,7 +122,7 @@ topic for more information.
     - Utilize MDM software or other deployment tools for efficient agent deployment.
 
 See the
-[System Configuration](/versioned_docs/endpointprotector_5.9.4/endpointprotector/admin/systemconfiguration/overview.md)
+[System Configuration](/docs/endpointprotector/5.9.4/endpointprotector/admin/systemconfiguration/overview.md)
 topic for more information.
 
 ## Blocking Content Aware Protection Policies
@@ -133,7 +133,7 @@ topic for more information.
     - Activate blocking policies to prevent unauthorized data movements.
 
 See the
-[Content Aware Protection](/versioned_docs/endpointprotector_5.9.4/endpointprotector/admin/contentawareprotection/module.md)
+[Content Aware Protection](/docs/endpointprotector/5.9.4/endpointprotector/admin/contentawareprotection/module.md)
 topic for more information.
 
 ## Performing Remediation within eDiscovery
@@ -145,7 +145,7 @@ topic for more information.
       risks.
 
 See the
-[eDiscovery Scan Result and Actions](/versioned_docs/endpointprotector_5.9.4/endpointprotector/admin/ediscovery/module.md#ediscovery-scan-result-and-actions)
+[eDiscovery Scan Result and Actions](/docs/endpointprotector/5.9.4/endpointprotector/admin/ediscovery/module.md#ediscovery-scan-result-and-actions)
 topic for more information.
 
 ## Deploying Enforced Encryption
@@ -170,5 +170,5 @@ topic for more information.
     - Manage Enforced Encryption devices in Clients list section.
 
 See the
-[Enforced Encryption](/versioned_docs/endpointprotector_5.9.4/endpointprotector/admin/enforcedencryption/module.md)
+[Enforced Encryption](/docs/endpointprotector/5.9.4/endpointprotector/admin/enforcedencryption/module.md)
 topic for more information.

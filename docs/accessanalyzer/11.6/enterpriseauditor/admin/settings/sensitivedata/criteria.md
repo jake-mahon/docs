@@ -12,7 +12,7 @@ The options on the Criteria Tab are:
   information.
 - Remove – Removes the selected criteria from being inherited by Sensitive Data scan jobs
 - Launch Editor – Opens the Sensitive Data Criteria Editor. See the
-  [Sensitive Data Discovery Add-On](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/sensitivedatadiscovery/overview.md)
+  [Sensitive Data Discovery Add-On](/docs/accessanalyzer/11.6/enterpriseauditor/sensitivedatadiscovery/overview.md)
   for additional information.
 - Search selected criteria – Filter the criteria listed in the Criteria tab
 

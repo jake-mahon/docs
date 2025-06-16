@@ -12,8 +12,8 @@ environment.
 
 The jobs in the Logons Job Group are:
 
-- [0.Collection > EX_MailboxActivity Job](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/exchange/mailboxes/logons/ex_mailboxactivity.md)
+- [0.Collection > EX_MailboxActivity Job](/docs/accessanalyzer/11.6/enterpriseauditor/solutions/exchange/mailboxes/logons/ex_mailboxactivity.md)
   – Collects logs of Native Mailbox Access Auditing from Exchange to provide reporting around
   mailbox logon activity
-- [EX_MailboxLogons Job](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/exchange/mailboxes/logons/ex_mailboxlogons.md)
+- [EX_MailboxLogons Job](/docs/accessanalyzer/11.6/enterpriseauditor/solutions/exchange/mailboxes/logons/ex_mailboxlogons.md)
   – Provides details around Mailbox logon activity occurring within the Exchange environment

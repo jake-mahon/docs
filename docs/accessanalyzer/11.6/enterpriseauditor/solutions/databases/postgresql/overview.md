@@ -30,7 +30,7 @@ Supported Platforms
 Requirements, Permissions, and Ports
 
 See the
-[Target PostgreSQL Requirements, Permissions, and Ports](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/requirements/target/databasepostgresql.md)
+[Target PostgreSQL Requirements, Permissions, and Ports](/docs/accessanalyzer/11.6/enterpriseauditor/requirements/target/databasepostgresql.md)
 topic for additional information.
 
 Sensitive Data Discovery Considerations
@@ -73,13 +73,13 @@ provides visibility into PostgreSQL Sensitive Data.
 
 The job groups in the PostgreSQL Solution are:
 
-- [0.Collection Job Group](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/databases/postgresql/collection/overview.md) -
+- [0.Collection Job Group](/docs/accessanalyzer/11.6/enterpriseauditor/solutions/databases/postgresql/collection/overview.md) -
   Designed to collect high level summary information from targeted PostgreSQL Servers. This
   information is used by other jobs in the PostgreSQL Solution Set for further analysis and
   producing respective reports
-- [Configuration > PgSQL_DatabaseSizing Job](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/databases/postgresql/pgsql_databasesizing.md) -
+- [Configuration > PgSQL_DatabaseSizing Job](/docs/accessanalyzer/11.6/enterpriseauditor/solutions/databases/postgresql/pgsql_databasesizing.md) -
   Designed to provide insight into details about the PostgreSQL environment and potential
   vulnerabilities related to instance configuration settings
-- [Sensitive Data Job Group](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/databases/postgresql/sensitivedata/overview.md) -
+- [Sensitive Data Job Group](/docs/accessanalyzer/11.6/enterpriseauditor/solutions/databases/postgresql/sensitivedata/overview.md) -
   Designed to provide insight into where sensitive data exists and who has access to it across all
   the targeted PostgreSQL databases

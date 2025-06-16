@@ -19,5 +19,5 @@ Directory environment:
 
 The following reports are available at the **Active Directory** node:
 
-- [Domain Summary Report](/versioned_docs/accessinformationcenter_11.6/access/informationcenter/resourceaudit/activedirectory/domainsummary.md)
-- [Exceptions Report](/versioned_docs/accessinformationcenter_11.6/access/informationcenter/resourceaudit/activedirectory/exceptions.md)
+- [Domain Summary Report](/docs/accessinformationcenter/11.6/access/informationcenter/resourceaudit/activedirectory/domainsummary.md)
+- [Exceptions Report](/docs/accessinformationcenter/11.6/access/informationcenter/resourceaudit/activedirectory/exceptions.md)

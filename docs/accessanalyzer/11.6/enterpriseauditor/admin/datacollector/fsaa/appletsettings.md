@@ -8,7 +8,7 @@ is a wizard page for the categories of:
 - Sensitive Data Scan
 
 **NOTE:** This wizard page identifies options associated with the scan mode to be used. See the
-[File System Scan Options](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/requirements/solutions/filesystem/scanoptions.md)
+[File System Scan Options](/docs/accessanalyzer/11.6/enterpriseauditor/requirements/solutions/filesystem/scanoptions.md)
 topic for additional information.
 
 ![FSAA Data Collector Wizard Applet Settings page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/fsaa/appletsettings.webp)
@@ -21,7 +21,7 @@ In the Applet Launch Mechanism section, choose one of three radio buttons:
       selected in the Applet Settings options below. Then it runs the service in Local mode.
 - Require applet to be running as a service on target (does not deploy or launch applet)
     - See the
-      [File System Proxy Service Installation](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/install/filesystemproxy/wizard.md)
+      [File System Proxy Service Installation](/docs/accessanalyzer/11.6/enterpriseauditor/install/filesystemproxy/wizard.md)
       topic for additional information.
     - It requires the `FSAAAppletServer.exe` to run as a service on the proxy host in order to run a
       successful scan. When this radio button is selected, Enterprise Auditor does not deploy an
@@ -38,7 +38,7 @@ In the Applet Settings section, configure the following options:
 
 - Port number – Default port number is 8766
     - See
-      [Custom Parameters for File System Proxy Service](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/install/filesystemproxy/wizard.md#custom-parameters-for-file-system-proxy-service)
+      [Custom Parameters for File System Proxy Service](/docs/accessanalyzer/11.6/enterpriseauditor/install/filesystemproxy/wizard.md#custom-parameters-for-file-system-proxy-service)
       topic for additional information.
 - Applet Log level – The type of log created on the target host. Checking the box to Enable Logging
   enables the Applet log level drop-down menu. The **Set To Default** button resets the log level to
@@ -107,7 +107,7 @@ In the Certificate Exchange Options section, configure the following options:
       the default option.
     - Manual – The FSSA Data Collector and applet server expect all certificates to be valid and in
       their respective stores beforehand. See the
-      [FSAA Manual Certificate Configuration](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/fsaa/manualcertificate.md)
+      [FSAA Manual Certificate Configuration](/docs/accessanalyzer/11.6/enterpriseauditor/admin/datacollector/fsaa/manualcertificate.md)
       topic for additional information.
 
         **NOTE:** If the FSAA Data Collector and the applet server are on separate domains without a
@@ -120,5 +120,5 @@ In the Certificate Exchange Options section, configure the following options:
   number is 8767.
 
 See the
-[FSAA Applet Certificate Management Overview](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/fsaa/certificatemanagement.md)
+[FSAA Applet Certificate Management Overview](/docs/accessanalyzer/11.6/enterpriseauditor/admin/datacollector/fsaa/certificatemanagement.md)
 topic for additional information.

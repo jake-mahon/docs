@@ -5,7 +5,7 @@
 As part of the manual modification of permissions, it is also possible to edit multiple records at
 the same time. Various mechanisms can be used to select the records to be edited. You are able to
 select the records in
-[List view](/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/advanced_view/operation_and_setup/listview/list_view.md)
+[List view](/docs/passwordsecure/9.1/passwordsecure/configuration/advanced_view/operation_and_setup/listview/list_view.md)
 or you can use the filter as part of the multiple editing function. Both scenarios are described
 below.
 

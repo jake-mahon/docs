@@ -12,7 +12,7 @@ The table displays access information for the resource being reviewed:
 
 - Trustee Name — Name of the trustee with access to this resource. If the trustee is a group, click
   the hyperlink to open the Group Membership window. See the
-  [Group Membership Window](/versioned_docs/accessinformationcenter_11.6/access/general/groupmembership.md)
+  [Group Membership Window](/docs/accessinformationcenter/11.6/access/general/groupmembership.md)
   topic for additional information.
 - User Title — Trustee's title as read from Active Directory
 - User Department — Trustee's department as read from Active Directory

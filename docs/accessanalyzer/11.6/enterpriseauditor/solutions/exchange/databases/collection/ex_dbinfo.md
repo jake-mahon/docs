@@ -9,7 +9,7 @@ The EX_DBInfo job is located in the 1.Local job group.
 **NOTE:** An actual CAS name is required for the data collection. When targeting Exchange 2013 or
 2016, it is possible for the **Settings** > **Exchange** node to have been configured with a web
 address instead of an actual server. See the
-[ExchangePS Data Collector & Client Access Server](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/exchange/recommended.md)
+[ExchangePS Data Collector & Client Access Server](/docs/accessanalyzer/11.6/enterpriseauditor/solutions/exchange/recommended.md)
 topic for additional information.
 
 ## Queries for the EX_DBInfo Job
@@ -24,5 +24,5 @@ The following query is included in the EX_DBInfo Job:
 
     - By default set to search all mailboxes. It can be scoped.
     - See the
-      [Scope the ExchangePS Data Collector](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/exchange/casmetrics/ex_aspolicies.md#scope-the-exchangeps-data-collector)
+      [Scope the ExchangePS Data Collector](/docs/accessanalyzer/11.6/enterpriseauditor/solutions/exchange/casmetrics/ex_aspolicies.md#scope-the-exchangeps-data-collector)
       topic for additional information

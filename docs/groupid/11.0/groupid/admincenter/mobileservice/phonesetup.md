@@ -32,13 +32,13 @@ want users to configure the app with.
 
 The web server URL for a Mobile service or an instance of a service is displayed on the
 **GroupIDMobileService** page (see the
-[Launch a Mobile Service or a Service Instance](/versioned_docs/groupid_11.0/groupid/admincenter/mobileservice/create.md#launch-a-mobile-service-or-a-service-instance)
+[Launch a Mobile Service or a Service Instance](/docs/groupid/11.0/groupid/admincenter/mobileservice/create.md#launch-a-mobile-service-or-a-service-instance)
 topic). Provide it to your users to enable them to configure the app.
 
 **To get the URL of the page that displays the web server URL:**
 
 1. Launch the required Mobile service or its instance. (See the
-   [Launch a Mobile Service or a Service Instance](/versioned_docs/groupid_11.0/groupid/admincenter/mobileservice/create.md#launch-a-mobile-service-or-a-service-instance)
+   [Launch a Mobile Service or a Service Instance](/docs/groupid/11.0/groupid/admincenter/mobileservice/create.md#launch-a-mobile-service-or-a-service-instance)
    topic.)
 2. Copy the URL of the **GroupIDMobileService** page and provide it to your users, so they can open
    this page in a web browser.
@@ -62,7 +62,7 @@ service.
 **To get the URL of the page that displays the QR code:**
 
 1. Launch the required Mobile service or its instance. (See the
-   [Launch a Mobile Service or a Service Instance](/versioned_docs/groupid_11.0/groupid/admincenter/mobileservice/create.md#launch-a-mobile-service-or-a-service-instance)
+   [Launch a Mobile Service or a Service Instance](/docs/groupid/11.0/groupid/admincenter/mobileservice/create.md#launch-a-mobile-service-or-a-service-instance)
    topic.)
 2. Copy the URL of the **GroupIDMobileService** page and provide it to your users, so they can open
    this page in a web browser.
@@ -78,4 +78,4 @@ service.
 
 **See Also**
 
-- [Mobile Service](/versioned_docs/groupid_11.0/groupid/admincenter/mobileservice/overview.md)
+- [Mobile Service](/docs/groupid/11.0/groupid/admincenter/mobileservice/overview.md)

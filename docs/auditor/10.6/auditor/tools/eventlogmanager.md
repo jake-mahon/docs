@@ -35,8 +35,8 @@ Review the following for additional information:
 - [Create Monitoring Plan for System Health Log ](#create-monitoring-plan-for-system-health-log)
 - [Review Past Event Log Entries](#review-past-event-log-entries)
 - [Import Audit Data with the Database Importer ](#import-audit-data-with-the-database-importer)
-- [Create Alerts for Event Log](/versioned_docs/auditor_10.6/auditor/admin/alertsettings/createeventlog.md)
-- [Create Alerts for Non-Owner Mailbox Access Events](/versioned_docs/auditor_10.6/auditor/admin/alertsettings/createmailboxaccess.md)
+- [Create Alerts for Event Log](/docs/auditor/10.6/auditor/admin/alertsettings/createeventlog.md)
+- [Create Alerts for Non-Owner Mailbox Access Events](/docs/auditor/10.6/auditor/admin/alertsettings/createmailboxaccess.md)
 
 ## Create Monitoring Plans for Event Logs
 
@@ -73,7 +73,7 @@ whether to import the list once, or to update it on every data collection.
 | ----------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | User name Password      | Enter the account that will be used by Netwrix Auditor Event Log Manager for data collection. For a full list of the rights and permissions required for the account, and instructions on how to configure them, refer to the [Permissions for Event Log Auditing](#permissions-for-event-log-auditing) section. |
 | Audit archiving filters | Define what events will be saved to the Long-Term Archive or the Audit Database. Refer to for detailed instructions on how to configure audit archiving filters.                                                                                                                                                 |
-| Alerts                  | Configure alerts that will be triggered by specific events. Refer to [Create Alerts for Event Log](/versioned_docs/auditor_10.6/auditor/admin/alertsettings/createeventlog.md) for detailed instructions on how to configure Netwrix Auditor Event Log Manager alerts.                                           |
+| Alerts                  | Configure alerts that will be triggered by specific events. Refer to [Create Alerts for Event Log](/docs/auditor/10.6/auditor/admin/alertsettings/createeventlog.md) for detailed instructions on how to configure Netwrix Auditor Event Log Manager alerts.                                           |
 
 **Step 6 –** Navigate to the Notifications tab and complete the following fields:
 
@@ -94,7 +94,7 @@ settings. Netwrix Auditor Event Log Manager synchronizes Audit Database and repo
 the default Audit Database configuration from Netwrix Auditor Server. If this option is disabled,
 contact your Netwrix Auditor Global administrator and make sure that these settings are properly
 configured in Netwrix Auditor Server. Refer to
-[Audit Database](/versioned_docs/auditor_10.6/auditor/admin/settings/auditdatabase.md) for detailed
+[Audit Database](/docs/auditor/10.6/auditor/admin/settings/auditdatabase.md) for detailed
 instructions on how to configure the Audit Database settings.
 
 **Step 8 –** Complete the following fields:
@@ -170,7 +170,7 @@ health events, you need to create a dedicated monitoring plan for this log with 
 Event Log Manager standalone tool.
 
 You can also review and filter Netwrix Auditor health events right in the product. See
-[Netwrix Auditor Health Log](/versioned_docs/auditor_10.6/auditor/admin/healthstatus/dashboard/healthlog.md)
+[Netwrix Auditor Health Log](/docs/auditor/10.6/auditor/admin/healthstatus/dashboard/healthlog.md)
 for addditional information
 
 Follow the steps to configure the Netwrix Auditor System Health log monitoring.
@@ -186,7 +186,7 @@ Server resides.
 **Step 4 –** Navigate to the Audit Database tab and select Write event descriptions to Audit
 Database if you want to see the exact error or warning text. Make sure that Audit Database settings
 are configured properly, follow the
-[Audit Database](/versioned_docs/auditor_10.6/auditor/admin/settings/auditdatabase.md)
+[Audit Database](/docs/auditor/10.6/auditor/admin/settings/auditdatabase.md)
 
 **Step 5 –** Click Configure next to Audit archiving filters and select the Netwrix Auditor System
 Health Log filter in the Inclusive Filters list.

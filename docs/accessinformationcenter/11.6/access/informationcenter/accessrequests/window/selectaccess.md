@@ -2,7 +2,7 @@
 
 The Select Access window opens from the Pending Access Requests Page of the Owner portal and allows
 you to select an access level different to what has been requested. See the
-[Pending Access Requests](/versioned_docs/accessinformationcenter_11.6/access/informationcenter/accessrequests/owners/pendingrequests.md)
+[Pending Access Requests](/docs/accessinformationcenter/11.6/access/informationcenter/accessrequests/owners/pendingrequests.md)
 topic for additional information. Follow the steps to grant a different access level.
 
 **Step 1 –** On the Pending Access Requests Page of the Owner portal, select the desired request and
@@ -37,5 +37,5 @@ window.
 
 The access has been granted and the requester sent an email notification informing them. The request
 is visible on the Access Request History Page. See the
-[Access Request History](/versioned_docs/accessinformationcenter_11.6/access/informationcenter/accessrequests/owners/requesthistory.md)
+[Access Request History](/docs/accessinformationcenter/11.6/access/informationcenter/accessrequests/owners/requesthistory.md)
 topic for additional information.

@@ -20,8 +20,8 @@ policies for the domain accounts.
 To enforce password policies for domain user accounts, you should install Password Policy Enforcer
 onto all the domain controllers in the domain. If you have read-only domain controllers and aren't
 using the
-[Rules](/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/administration/rules.md),
-[Password Policy Client](/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/administration/password_policy_client.md),
+[Rules](/docs/passwordpolicyenforcer/10.2/password_policy_enforcer/administration/rules.md),
+[Password Policy Client](/docs/passwordpolicyenforcer/10.2/password_policy_enforcer/administration/password_policy_client.md),
 or other software (such as
 [Netwrix Password Reset](https://www.netwrix.com/active_directory_password_reset_tool.html)) that
 uses the Password Policy Enforcer Client protocol, then you do not need to install Password Policy
@@ -47,16 +47,16 @@ limitations, the following rules and features cannot be used with local password
 
 - The Minimum Age and Maximum Age rules (you can use the Windows version of these rules with
   Password Policy Enforcer). See the
-  [Rules](/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/administration/rules.md)
+  [Rules](/docs/passwordpolicyenforcer/10.2/password_policy_enforcer/administration/rules.md)
   topic for additional information.
 - Policy assignments by groups and containers. See the
-  [Managing Policies](/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/administration/managing_policies.md)
+  [Managing Policies](/docs/passwordpolicyenforcer/10.2/password_policy_enforcer/administration/managing_policies.md)
   topic for additional information.
 
 Password Policy Enforcer's configuration is stored in Active Directory for domain password policies,
 and in the Windows registry for local password policies. The Connect To page in the Password Policy
 Enforcer management console allows you to choose a configuration source. See the
-[Connect to a Configuration](/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/administration/connecting.md)
+[Connect to a Configuration](/docs/passwordpolicyenforcer/10.2/password_policy_enforcer/administration/connecting.md)
 topic for additional information. Changes you make to Password Policy Enforcer's domain
 configuration are replicated to all domain controllers in the domain. Changes to a local
 configuration are applied only to the local computer. If you want to use the same local

@@ -23,7 +23,7 @@ to be updated as well.
 ![Agent User Account Credentials](/img/versioned_docs/activitymonitor_7.1/activitymonitor/troubleshooting/agentuseraccount.webp)
 
 See the
-[Connection Tab](/versioned_docs/activitymonitor_7.1/activitymonitor/admin/agents/properties/connection.md)
+[Connection Tab](/docs/activitymonitor/7.1/activitymonitor/admin/agents/properties/connection.md)
 topic for additional information.
 
 ## Archive User Account
@@ -34,7 +34,7 @@ or share. The credentials can be updated in the agent properties under the **Arc
 ![Archive User Account Credentials](/img/versioned_docs/activitymonitor_7.1/activitymonitor/troubleshooting/archiveuseraccount.webp)
 
 See the
-[Archiving Tab](/versioned_docs/activitymonitor_7.1/activitymonitor/admin/agents/properties/archiving.md)
+[Archiving Tab](/docs/activitymonitor/7.1/activitymonitor/admin/agents/properties/archiving.md)
 topic for additional information.
 
 ## Panzura MQ Protection
@@ -45,7 +45,7 @@ credentials can be updated in the agent properties under the **Panzura** tab.
 ![Panzura MQ Protection Account Credentials](/img/versioned_docs/activitymonitor_7.1/activitymonitor/troubleshooting/panzuramqprotectionaccount.webp)
 
 See the
-[Panzura Tab](/versioned_docs/activitymonitor_7.1/activitymonitor/admin/agents/properties/panzura.md)
+[Panzura Tab](/docs/activitymonitor/7.1/activitymonitor/admin/agents/properties/panzura.md)
 topic for additional information.
 
 ## Monitored Host User Credentials
@@ -57,7 +57,7 @@ under the **Monitored Host** tab. Then, click the **Edit** button to update the 
 ![Monitored Host User Account](/img/versioned_docs/activitymonitor_7.1/activitymonitor/troubleshooting/monitoredhostuseraccount.webp)
 
 See the
-[Nutanix Tab](/versioned_docs/activitymonitor_7.1/activitymonitor/admin/monitoredhosts/properties/nutanix.md)
+[Nutanix Tab](/docs/activitymonitor/7.1/activitymonitor/admin/monitoredhosts/properties/nutanix.md)
 topic for additional information.
 
 ## Agent Inactivity Alerts Email Account
@@ -69,7 +69,7 @@ Alerts. This can also be changed in the monitored host properties.
 ![agentinactivityalertsemailcredentials](/img/versioned_docs/activitymonitor_7.1/activitymonitor/troubleshooting/agentinactivityalertsemailcredentials.webp)
 
 See the
-[Inactivity Alerts Tab](/versioned_docs/activitymonitor_7.1/activitymonitor/admin/agents/properties/inactivityalerts.md)
+[Inactivity Alerts Tab](/docs/activitymonitor/7.1/activitymonitor/admin/agents/properties/inactivityalerts.md)
 topic for additional information.
 
 ## Monitored Host Inactivity Alerts Email Account
@@ -80,5 +80,5 @@ detected by the monitored host. The credentials can be updated in the monitored 
 ![Monitored Host Inactivity Alerts Email Credentials Page](/img/versioned_docs/activitymonitor_7.1/activitymonitor/troubleshooting/monitoredhostinactivityalertsemailcredentials.webp)
 
 See the
-[Inactivity Alerts Tab](/versioned_docs/activitymonitor_7.1/activitymonitor/admin/monitoredhosts/properties/inactivityalerts.md)
+[Inactivity Alerts Tab](/docs/activitymonitor/7.1/activitymonitor/admin/monitoredhosts/properties/inactivityalerts.md)
 topic for additional information.

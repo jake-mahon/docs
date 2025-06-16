@@ -12,14 +12,14 @@ Usercube to match their company's needs.
 ## Prior Knowledge
 
 This guide presumes some knowledge of Usercube on the part of the reader who should have previously
-read the [Introduction Guide](/versioned_docs/usercube_6.1/usercube/introduction-guide/index.md) in
+read the [Introduction Guide](/docs/usercube/6.1/usercube/introduction-guide/index.md) in
 order to be aware of the main purposes, principles and capabilities of Usercube.
 
 Using this guide does not require any advanced IT skills. All the configuration steps take place
 through Usercube's UI or MS Excel files.
 
 NETWRIX strongly recommends starting from the
-[Introduction Guide](/versioned_docs/usercube_6.1/usercube/introduction-guide/index.md) to fully
+[Introduction Guide](/docs/usercube/6.1/usercube/introduction-guide/index.md) to fully
 benefit from the User Guide's content.
 
 ## Overview
@@ -30,7 +30,7 @@ scratch and creating IGA value as quickly as possible.
 The procedures are meant to guide the reader through a standard setup, based on Usercube's IGA Core
 Solution, and with NETWRIX' suggestions and recommendations. Any advanced configuration can be
 performed later using the content of the
-[Integration Guide](/versioned_docs/usercube_6.1/usercube/integration-guide/index.md).
+[Integration Guide](/docs/usercube/6.1/usercube/integration-guide/index.md).
 
 Thus, even when having very specific needs, NETWRIX still recommends starting the project with the
 basics presented in this guide. The IGA solution can be enhanced later on with the help of NETWRIX'
@@ -47,7 +47,7 @@ contribute to a same goal.
 
 While some activities must be carried out before others for technical and/or functional reasons, the
 order is not absolute. Please follow the instructions and recommendations detailed with the
-[global process](/versioned_docs/usercube_6.1/usercube/user-guide/global-process/index.md).
+[global process](/docs/usercube/6.1/usercube/user-guide/global-process/index.md).
 
 All activities are organized into bigger sections which are distinguishable by their functional
 intent: set up; administrate; optimize; deploy and maintain.
@@ -84,7 +84,7 @@ Usercube is already running in production.
 ## How to Use this Guide
 
 Start by studying the
-[global process](/versioned_docs/usercube_6.1/usercube/user-guide/global-process/index.md) that
+[global process](/docs/usercube/6.1/usercube/user-guide/global-process/index.md) that
 details every activity in their respective sections and how they relate to one another. You will get
 a good view of the steps to take from start to finish.
 

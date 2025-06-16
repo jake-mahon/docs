@@ -35,7 +35,7 @@ Follow the steps below to remove a question from the list.
 
 **NOTE:** You can rearrange questions by dragging them. You can also replace question lists with
 text boxes so users can enter their own questions. See the
-[Editing the HTML Templates](/versioned_docs/passwordpolicyenforcer_10.2/password_reset/administration/editing_the_html_templates.md)
+[Editing the HTML Templates](/docs/passwordpolicyenforcer/10.2/password_reset/administration/editing_the_html_templates.md)
 document for more information
 
 ### Options

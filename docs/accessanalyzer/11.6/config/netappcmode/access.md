@@ -8,7 +8,7 @@ Configuring access to CIFS shares using FPolicy and ONTAP API for Enterprise 
 following:
 
 - Configure Data LIF to Allow HTTPS Traffic
-- [Configure Empty FPolicy](/versioned_docs/enterpriseauditor_11.6/config/netappcmode/configureemptyfpolicy.md)
+- [Configure Empty FPolicy](/docs/accessanalyzer/11.6/config/netappcmode/configureemptyfpolicy.md)
 
 See the [CIFS Method 2 Credential Configuration](#cifs-method-2-credential-configuration) topic for
 an alternative method.

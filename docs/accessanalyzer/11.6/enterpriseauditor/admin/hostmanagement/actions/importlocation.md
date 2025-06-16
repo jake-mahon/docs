@@ -3,7 +3,7 @@
 Use the **Import Location** option to import the physical location data for hosts and opens a
 customized version of the Import Hosts window. Add host locations from a CSV file or SQL Server
 database without creating a new host list. See the
-[Host Inventory Data Grid](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/hostmanagement/datagrid.md)
+[Host Inventory Data Grid](/docs/accessanalyzer/11.6/enterpriseauditor/admin/hostmanagement/datagrid.md)
 topic for information on the Location column of host inventory.
 
 Follow the steps to import physical location data for hosts.
@@ -39,7 +39,7 @@ step.
     - Data source – Identify the database. Click the ellipsis (**…**) to open the Data Link
       Properties window. Provide the required information on the Connection tab of the Data Link
       Properties window, and then click **OK**. See the
-      [Import From a Database](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/hostdiscovery/wizard/database.md)
+      [Import From a Database](/docs/accessanalyzer/11.6/enterpriseauditor/admin/hostdiscovery/wizard/database.md)
       topic for additional information.
 
         **NOTE:** The Provider, Advanced, and All tabs of the Data Link Properties window should not

@@ -3,7 +3,7 @@
 ## SAML Configuration Example for Dropbox
 
 This chapter explains how to configure the SAML application for **Dropbox**. It is assumed that
-[Configuration of SAML](/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/advanced_view/clientmodule/applications/configuration_of_saml/configuration_of_saml.md)
+[Configuration of SAML](/docs/passwordsecure/9.1/passwordsecure/configuration/advanced_view/clientmodule/applications/configuration_of_saml/configuration_of_saml.md)
 has already been activated in the Server Manager.
 
 - Log in as administrator at the **Dropbox**

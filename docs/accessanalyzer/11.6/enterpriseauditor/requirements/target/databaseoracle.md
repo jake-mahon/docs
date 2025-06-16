@@ -11,9 +11,9 @@ Data Collectors
 
 This solution employs the following data collector to scan the target environment:
 
-- [ADInventory Data Collector](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/adinventory/overview.md)
-- [PowerShell Data Collector](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/powershell/overview.md)
-- [SQL Data Collector](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/sql/overview.md)
+- [ADInventory Data Collector](/docs/accessanalyzer/11.6/enterpriseauditor/admin/datacollector/adinventory/overview.md)
+- [PowerShell Data Collector](/docs/accessanalyzer/11.6/enterpriseauditor/admin/datacollector/powershell/overview.md)
+- [SQL Data Collector](/docs/accessanalyzer/11.6/enterpriseauditor/admin/datacollector/sql/overview.md)
 
 ## Permissions
 
@@ -39,7 +39,7 @@ For Oracle Data Collection
   Unix operating systems
 
 There is a least privilege model for scanning your domain. See the
-[Oracle Target Least Privilege Model](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/requirements/target/config/databaseoracle.md)
+[Oracle Target Least Privilege Model](/docs/accessanalyzer/11.6/enterpriseauditor/requirements/target/config/databaseoracle.md)
 topic for additional information.
 
 ## Ports

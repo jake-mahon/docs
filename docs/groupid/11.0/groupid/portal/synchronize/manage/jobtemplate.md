@@ -78,7 +78,7 @@ right corner.
     Click the job template you want to use for the new job..
 
 4. This will launch
-   [Create a Job](/versioned_docs/groupid_11.0/groupid/portal/synchronize/job/create.md) wizard.
+   [Create a Job](/docs/groupid/11.0/groupid/portal/synchronize/job/create.md) wizard.
    Proceed to map the settings stored in the template on to the new job.
 
 ## Rename a Job Template
@@ -123,6 +123,6 @@ the criteria set in the **Search Filters** section.
 
 **See Also**
 
-- [Create a Job](/versioned_docs/groupid_11.0/groupid/portal/synchronize/job/create.md)
-- [Manage a Job](/versioned_docs/groupid_11.0/groupid/portal/synchronize/manage/job.md)
-- [Synchronize Schedule](/versioned_docs/groupid_11.0/groupid/admincenter/schedule/synchronize.md)
+- [Create a Job](/docs/groupid/11.0/groupid/portal/synchronize/job/create.md)
+- [Manage a Job](/docs/groupid/11.0/groupid/portal/synchronize/manage/job.md)
+- [Synchronize Schedule](/docs/groupid/11.0/groupid/admincenter/schedule/synchronize.md)

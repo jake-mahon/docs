@@ -117,7 +117,7 @@ triggered, the linked flow is auto triggered.
 
 **See Also**
 
-- [Workflows](/versioned_docs/groupid_11.0/groupid/admincenter/workflow/overview.md)
-- [Implement Workflows](/versioned_docs/groupid_11.0/groupid/admincenter/workflow/implement.md)
-- [Manage Advanced Workflow Settings](/versioned_docs/groupid_11.0/groupid/admincenter/workflow/advancedsettings.md)
-- [Workflow Approver Acceleration](/versioned_docs/groupid_11.0/groupid/admincenter/workflow/approveracceleration.md)
+- [Workflows](/docs/groupid/11.0/groupid/admincenter/workflow/overview.md)
+- [Implement Workflows](/docs/groupid/11.0/groupid/admincenter/workflow/implement.md)
+- [Manage Advanced Workflow Settings](/docs/groupid/11.0/groupid/admincenter/workflow/advancedsettings.md)
+- [Workflow Approver Acceleration](/docs/groupid/11.0/groupid/admincenter/workflow/approveracceleration.md)

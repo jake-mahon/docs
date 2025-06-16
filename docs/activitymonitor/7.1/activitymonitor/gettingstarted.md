@@ -11,8 +11,8 @@ environment and configure the credentials used by the agents. Each supported env
 different requirements. See the following topics for additional information:
 
 - Console server
-  [Requirements ](/versioned_docs/activitymonitor_7.1/activitymonitor/requirements/overview.md)
-- [Activity Agent Server Requirements](/versioned_docs/activitymonitor_7.1/activitymonitor/requirements/activityagent.md)
+  [Requirements ](/docs/activitymonitor/7.1/activitymonitor/requirements/overview.md)
+- [Activity Agent Server Requirements](/docs/activitymonitor/7.1/activitymonitor/requirements/activityagent.md)
   for monitoring:
 
     - Exchange Online
@@ -23,9 +23,9 @@ different requirements. See the following topics for additional information:
     - SQL Servers
     - Windows File servers
 
-- [AD Agent Server Requirements](/versioned_docs/activitymonitor_7.1/activitymonitor/requirements/adagent.md)
+- [AD Agent Server Requirements](/docs/activitymonitor/7.1/activitymonitor/requirements/adagent.md)
   for monitoring Active Directory
-- [Linux Agent Server Requirements](/versioned_docs/activitymonitor_7.1/activitymonitor/requirements/linuxagent.md)
+- [Linux Agent Server Requirements](/docs/activitymonitor/7.1/activitymonitor/requirements/linuxagent.md)
   for monitoring Linux file servers
 
 ## Install & Deploy Agents
@@ -33,9 +33,9 @@ different requirements. See the following topics for additional information:
 Once the prerequisites are accomplished, you are ready to install the application and deploy agents.
 See the following topics for additional information:
 
-- [Install Application](/versioned_docs/activitymonitor_7.1/activitymonitor/install/application.md)
-- [Agent Information](/versioned_docs/activitymonitor_7.1/activitymonitor/install/agents.md)
-- [Import License Key](/versioned_docs/activitymonitor_7.1/activitymonitor/install/importlicensekey.md)
+- [Install Application](/docs/activitymonitor/7.1/activitymonitor/install/application.md)
+- [Agent Information](/docs/activitymonitor/7.1/activitymonitor/install/agents.md)
+- [Import License Key](/docs/activitymonitor/7.1/activitymonitor/install/importlicensekey.md)
 
 ## Configure Monitoring
 
@@ -45,14 +45,14 @@ target environments it is done after the agent is deployed. You will configure w
 monitored as well as where the collected data will go (outputs). See the following topics for
 additional information:
 
-- [Monitored Domains Tab](/versioned_docs/activitymonitor_7.1/activitymonitor/admin/monitoreddomains/overview.md)
+- [Monitored Domains Tab](/docs/activitymonitor/7.1/activitymonitor/admin/monitoreddomains/overview.md)
   for Active Directory monitoring
-- [Monitored Hosts Tab](/versioned_docs/activitymonitor_7.1/activitymonitor/admin/monitoredhosts/overview.md)
+- [Monitored Hosts Tab](/docs/activitymonitor/7.1/activitymonitor/admin/monitoredhosts/overview.md)
   for all other target environments.
 
 ## Search Activity Event Data
 
 You can query the activity logs created by the activity agents from within the console. Using the
 search feature, set filters for the query to view monitored events. See the
-[Search Feature](/versioned_docs/activitymonitor_7.1/activitymonitor/admin/search/overview.md) topic
+[Search Feature](/docs/activitymonitor/7.1/activitymonitor/admin/search/overview.md) topic
 for additional information.

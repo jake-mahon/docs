@@ -7,7 +7,7 @@ the executable files that perform IGA actions.
 
 Jobs are used to write sets of successive tasks, and schedule their execution.
 
-[See how to configure jobs](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/jobs/job/index.md).
+[See how to configure jobs](/docs/usercube/6.1/usercube/integration-guide/toolkit/xml-configuration/jobs/job/index.md).
 
 A job can contain tasks explicitly, or contain steps used to call existing tasks in order to use a
 single task in several jobs.
@@ -24,7 +24,7 @@ A job can be triggered:
 
 - once manually, through the **Job Execution** screen;
 - once manually, using
-  [`Usercube-Invoke-Job.exe`](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/jobs/index.md);
+  [`Usercube-Invoke-Job.exe`](/docs/usercube/6.1/usercube/integration-guide/toolkit/xml-configuration/jobs/index.md);
 - periodically, with Usercube's internal scheduler `CronTabExpression`;
 - periodically, with an external Scheduler such as
   [Windows Task Scheduler](https://docs.microsoft.com/en-us/windows/win32/taskschd/task-scheduler-start-page).

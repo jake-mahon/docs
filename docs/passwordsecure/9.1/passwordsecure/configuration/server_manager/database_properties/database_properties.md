@@ -9,9 +9,9 @@ database is required.
 
 The following options can be edited:
 
-- [General settings](/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/server_manager/main_menu/general_settings.md)
-- [Syslog](/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/server_manager/database_properties/syslog.md)
-- [Database firewall](/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/server_manager/database_properties/database_firewall.md)
+- [General settings](/docs/passwordsecure/9.1/passwordsecure/configuration/server_manager/main_menu/general_settings.md)
+- [Syslog](/docs/passwordsecure/9.1/passwordsecure/configuration/server_manager/database_properties/syslog.md)
+- [Database firewall](/docs/passwordsecure/9.1/passwordsecure/configuration/server_manager/database_properties/database_firewall.md)
 
 General Settings
 

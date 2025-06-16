@@ -14,7 +14,7 @@ To create an identity store, you have to specify an identity provider and its co
 
 After creating an identity store, you must configure certain settings for it. These configurations
 are discussed in the
-[Configure an Identity Store](/versioned_docs/groupid_11.0/groupid/admincenter/identitystore/configure.md)
+[Configure an Identity Store](/docs/groupid/11.0/groupid/admincenter/identitystore/configure.md)
 topic.
 
 What do you want to do?
@@ -46,13 +46,13 @@ account (gMSA) to connect to Active Directory.
 - **For a service account:** The service account must have sufficient privileges on the provider to
   facilitate group and identity management operations using GroupID. The minimum permissions the
   service account requires for Active Directory are discussed in the
-  [Service Account for Active Directory and Exchange](/versioned_docs/groupid_11.0/groupid/admincenter/identitystore/moreinfo/adserviceaccount.md)
+  [Service Account for Active Directory and Exchange](/docs/groupid/11.0/groupid/admincenter/identitystore/moreinfo/adserviceaccount.md)
   topic.
 - **For a gMSA:** If you provide a service account with
   ‘$’ as its last character (as in MyAdminAccounts$), GroupID entertains it as a Group Managed
   Service Account (gMSA). To use a gMSA to connect an identity store to Active Directory, make sure
   the gMSA is configured properly and has sufficient permissions. See the
-  [gMSA for Active Directory](/versioned_docs/groupid_11.0/groupid/admincenter/identitystore/moreinfo/gmsarequirements.md)
+  [gMSA for Active Directory](/docs/groupid/11.0/groupid/admincenter/identitystore/moreinfo/gmsarequirements.md)
   topic.
 
 In the **Service Account Password** box, enter the service account password.  
@@ -206,6 +206,6 @@ configurations for it.
 
 **See Also**
 
-- [Service Accounts](/versioned_docs/groupid_11.0/groupid/admincenter/identitystore/moreinfo/overview.md)
-- [Manage an Identity Store](/versioned_docs/groupid_11.0/groupid/admincenter/identitystore/manage.md)
-- [Configure an Identity Store](/versioned_docs/groupid_11.0/groupid/admincenter/identitystore/configure.md)
+- [Service Accounts](/docs/groupid/11.0/groupid/admincenter/identitystore/moreinfo/overview.md)
+- [Manage an Identity Store](/docs/groupid/11.0/groupid/admincenter/identitystore/manage.md)
+- [Configure an Identity Store](/docs/groupid/11.0/groupid/admincenter/identitystore/configure.md)

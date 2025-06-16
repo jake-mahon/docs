@@ -38,7 +38,7 @@ You also have to:
 8. Click the **Configurations** link. The **Configurations** page for the new app is displayed.
 9. In the **ACS (Consumer) URL Validator** and **ACS (Consumer) URL** boxes, provide the consumer
    URL that you generated for the GroupID client _Wizard_. See the
-   [Generate URLs](/versioned_docs/groupid_11.0/groupid/authenticate/asserviceprovider/onelogin/generateurls.md)
+   [Generate URLs](/docs/groupid/11.0/groupid/authenticate/asserviceprovider/onelogin/generateurls.md)
    topic.
 10. In the **Audience** box. provide the audience URL that you generated for the GroupID client
     _Wizard_.
@@ -85,7 +85,7 @@ provider in GroupID.
 
 You must define users in OneLogin. Only these users can authenticate on the GroupID portal _Wizard_
 using OneLogin. See the
-[Sign In Using OneLogin](/versioned_docs/groupid_11.0/groupid/authenticate/asserviceprovider/onelogin/signin.md)
+[Sign In Using OneLogin](/docs/groupid/11.0/groupid/authenticate/asserviceprovider/onelogin/signin.md)
 topic.
 
 **To define a user:**

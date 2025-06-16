@@ -110,19 +110,19 @@ Taxonomy Permissions Summary:
 You can restrict permissions for a user to the following areas:
 
 - Sources.
-  [See Content Sources for more information.](/versioned_docs/dataclassification_5.6.2/ndc/sources/sources_intro.md)
+  [See Content Sources for more information.](/docs/dataclassification/5.6.2/ndc/sources/sources_intro.md)
 - Taxonomies.
-  [See Taxonomies for more information.](/versioned_docs/dataclassification_5.6.2/ndc/taxonomies/taxonomies_intro.md)
+  [See Taxonomies for more information.](/docs/dataclassification/5.6.2/ndc/taxonomies/taxonomies_intro.md)
 - Workflows.
-  [See Understanding Workflows for more information.](/versioned_docs/dataclassification_5.6.2/ndc/workflows/workflows.md)
+  [See Understanding Workflows for more information.](/docs/dataclassification/5.6.2/ndc/workflows/workflows.md)
 - Config.
-  [See Configuration Options for more information.](/versioned_docs/dataclassification_5.6.2/ndc/configuration/configuration.md)
+  [See Configuration Options for more information.](/docs/dataclassification/5.6.2/ndc/configuration/configuration.md)
 - Users.
-  [See Users and Security Settings for more information.](/versioned_docs/dataclassification_5.6.2/ndc/security/users.md)
+  [See Users and Security Settings for more information.](/docs/dataclassification/5.6.2/ndc/security/users.md)
 - Reports.
-  [See Reporting Capabilities for more information.](/versioned_docs/dataclassification_5.6.2/ndc/reporting/reporting_intro.md)
+  [See Reporting Capabilities for more information.](/docs/dataclassification/5.6.2/ndc/reporting/reporting_intro.md)
 - DSARs.
-  [See Data Subject Access Requests for more information.](/versioned_docs/dataclassification_5.6.2/ndc/dsar/dsar_overview.md)
+  [See Data Subject Access Requests for more information.](/docs/dataclassification/5.6.2/ndc/dsar/dsar_overview.md)
 
 ## Super Users
 

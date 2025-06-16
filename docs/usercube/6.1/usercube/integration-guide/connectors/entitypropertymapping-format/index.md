@@ -123,7 +123,7 @@ list of values.
 In this example, we will export and fulfill the start date of an employee in a ServiceNow instance.
 
 We define an
-[EntityProperty](/versioned_docs/usercube_6.1/usercube/integration-guide/entity-model/index.md)
+[EntityProperty](/docs/usercube/6.1/usercube/integration-guide/entity-model/index.md)
 called `u_startdate` with the **Type**`DateTime` to display it as a date in the UI.
 
 ```

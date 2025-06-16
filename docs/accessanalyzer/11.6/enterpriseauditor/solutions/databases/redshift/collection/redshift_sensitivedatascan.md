@@ -36,7 +36,7 @@ with Sensitive Data Collection category selected.
 ![Sensitive Data Scan Settings](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/databases/redshift/collection/collectionsensitivedatajoboptions.webp)
 
 **Step 5 –** To modify sensitive data scan options, select the desired scan options. See the
-[SQL: Options](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/sql/options.md)
+[SQL: Options](/docs/accessanalyzer/11.6/enterpriseauditor/admin/datacollector/sql/options.md)
 page for additional information.
 
 **NOTE:** The Sensitive Data Scan Settings are preconfigured for optimal performance for a
@@ -58,9 +58,9 @@ the following System Criteria have been selected:
 - Password
 
 **NOTE:** For more information on adding or deleting criteria, navigate to the
-[SQL: Criteria](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/sql/criteria.md)
+[SQL: Criteria](/docs/accessanalyzer/11.6/enterpriseauditor/admin/datacollector/sql/criteria.md)
 page or See the
-[Sensitive Data Criteria Editor](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/sensitivedatadiscovery/criteriaeditor/overview.md)
+[Sensitive Data Criteria Editor](/docs/accessanalyzer/11.6/enterpriseauditor/sensitivedatadiscovery/criteriaeditor/overview.md)
 topic for additional information.
 
 **Step 8 –** Click **Next**. The Filters view appears.
@@ -91,7 +91,7 @@ following information:
 configured by default to target Only select database objects.
 
 **NOTE:** For more information on filtering, see the
-[SQL: Filter](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/sql/filter.md)
+[SQL: Filter](/docs/accessanalyzer/11.6/enterpriseauditor/admin/datacollector/sql/filter.md)
 page.
 
 **Step 13 –** Click Retrieve. The Available database objects box will populate.

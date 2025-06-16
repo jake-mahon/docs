@@ -27,23 +27,23 @@ Usercube's server and agent(s) are configured via JSON files, mainly `appsetting
 
 This is the end of the introduction guide, so you should now be able to dive into:
 
-- the [User Guide](/versioned_docs/usercube_6.1/usercube/user-guide/index.md) to configure Usercube
+- the [User Guide](/docs/usercube/6.1/usercube/user-guide/index.md) to configure Usercube
   from scratch via the UI, following the step-by-step procedures;
-- the [Integration Guide](/versioned_docs/usercube_6.1/usercube/integration-guide/index.md) to
+- the [Integration Guide](/docs/usercube/6.1/usercube/integration-guide/index.md) to
   complete Usercube's configuration in XML according to your needs;
-- the [Installation Guide](/versioned_docs/usercube_6.1/usercube/installation-guide/index.md) to
+- the [Installation Guide](/docs/usercube/6.1/usercube/installation-guide/index.md) to
   install Usercube in a production environment.
 
 ## Learn More
 
-[Learn more on the working directory](/versioned_docs/usercube_6.1/usercube/installation-guide/production-ready/working-directory/index.md).
+[Learn more on the working directory](/docs/usercube/6.1/usercube/installation-guide/production-ready/working-directory/index.md).
 
-[See how to configure Usercube from scratch via the UI](/versioned_docs/usercube_6.1/usercube/user-guide/index.md).
+[See how to configure Usercube from scratch via the UI](/docs/usercube/6.1/usercube/user-guide/index.md).
 
-[See how to export the UI configuration to XML files](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/how-tos/export-configuration/index.md).
+[See how to export the UI configuration to XML files](/docs/usercube/6.1/usercube/integration-guide/toolkit/how-tos/export-configuration/index.md).
 
-[See how to (re)deploy the XML configuration](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/how-tos/deploy-configuration/index.md).
+[See how to (re)deploy the XML configuration](/docs/usercube/6.1/usercube/integration-guide/toolkit/how-tos/deploy-configuration/index.md).
 
-[Learn more about the XML configuration schema](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/index.md).
+[Learn more about the XML configuration schema](/docs/usercube/6.1/usercube/integration-guide/toolkit/xml-configuration/index.md).
 
-[Learn more about network configuration](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/index.md).
+[Learn more about network configuration](/docs/usercube/6.1/usercube/integration-guide/network-configuration/index.md).

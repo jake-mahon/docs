@@ -182,4 +182,4 @@ POST
 
 See Also
 
-- [Common Errors](/versioned_docs/groupid_11.0/groupid/api/commonerrors.md)
+- [Common Errors](/docs/groupid/11.0/groupid/api/commonerrors.md)

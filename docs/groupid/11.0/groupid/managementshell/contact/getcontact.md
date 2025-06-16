@@ -36,6 +36,6 @@ Get-Contact -SearchContainer "OU=osamamu,DC=naveed,DC=local"
 
 See Also
 
-- [All Commands](/versioned_docs/groupid_11.0/groupid/managementshell/commands.md)
-- [Contact Commands](/versioned_docs/groupid_11.0/groupid/managementshell/contact/overview.md)
-- [Parameters](/versioned_docs/groupid_11.0/groupid/managementshell/parameters/parameters.md)
+- [All Commands](/docs/groupid/11.0/groupid/managementshell/commands.md)
+- [Contact Commands](/docs/groupid/11.0/groupid/managementshell/contact/overview.md)
+- [Parameters](/docs/groupid/11.0/groupid/managementshell/parameters/parameters.md)

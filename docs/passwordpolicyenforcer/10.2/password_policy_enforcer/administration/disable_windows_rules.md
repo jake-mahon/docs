@@ -6,7 +6,7 @@ have to comply with both sets of rules.
 
 Password Policy Enforcer has its own history, minimum and maximum age, length, and complexity rules.
 See the
-[Rules](/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/administration/rules.md)
+[Rules](/docs/passwordpolicyenforcer/10.2/password_policy_enforcer/administration/rules.md)
 topic for additional information. You can use the Password Policy Enforcer and Windows rules
 together. A password is only accepted if it complies with the Windows and Password Policy Enforcer
 password policies.

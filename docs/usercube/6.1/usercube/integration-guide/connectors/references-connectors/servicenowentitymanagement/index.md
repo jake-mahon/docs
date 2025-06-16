@@ -4,7 +4,7 @@ This connector exports and fulfills any data, including users and roles, from/to
 [ServiceNow CMDB](https://www.servicenow.com/products/servicenow-platform/configuration-management-database.html).
 
 This page is about
-[ITSM/ServiceNow](/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/references-packages/servicenow/index.md).
+[ITSM/ServiceNow](/docs/usercube/6.1/usercube/integration-guide/connectors/references-packages/servicenow/index.md).
 
 ![Package: ITSM/ServiceNow](/img/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/references-connectors/servicenowentitymanagement/packages_servicenow_v603.webp)
 
@@ -16,14 +16,14 @@ management (ITOM) and IT business management (ITBM), allowing users to manage pr
 customer interactions via a variety of apps and plugins.  
 This section focuses on ServiceNow Entity Management. To learn about how to use this connector to
 create tickets for other resources, see
-[ServiceNow Ticket](/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/references-connectors/servicenowticket/index.md).
+[ServiceNow Ticket](/docs/usercube/6.1/usercube/integration-guide/connectors/references-connectors/servicenowticket/index.md).
 
 ## Prerequisites
 
 Implementing this connector requires:
 
 - reading first the
-  [appsettings documentation](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/appsettings-agent/index.md);
+  [appsettings documentation](/docs/usercube/6.1/usercube/integration-guide/network-configuration/agent-configuration/appsettings-agent/index.md);
 - a service account with the **snc_platform_rest_api_access** role, as well as reading and writing
   permissions on the target ServiceNow instance;
 - the version ServiceNow London or later;
@@ -39,7 +39,7 @@ deleted items) can't be performed.
 ### Configuration
 
 This process is configured through a
-[connection](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/connectors/connection/index.md)
+[connection](/docs/usercube/6.1/usercube/integration-guide/toolkit/xml-configuration/connectors/connection/index.md)
 in the UI and/or the XML configuration, and in the `appsettings.agent.json > Connections` section:
 
 ```
@@ -126,13 +126,13 @@ The identifier of the connection and thus the name of the subsection must:
 ### Output details
 
 This connector is meant to generate to the
-[ExportOutput](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/appsettings/index.md)
+[ExportOutput](/docs/usercube/6.1/usercube/integration-guide/network-configuration/agent-configuration/appsettings/index.md)
 folder one CSV file for each table, named `<connectionIdentifier>_<tableName>.csv`.
 
 Usercube lists the tables to retrieve based on
-[entity type mappings](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/connectors/entitytypemapping/index.md)'s
+[entity type mappings](/docs/usercube/6.1/usercube/integration-guide/toolkit/xml-configuration/connectors/entitytypemapping/index.md)'s
 and
-[entity association mappings](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/connectors/entityassociationmapping/index.md)'s
+[entity association mappings](/docs/usercube/6.1/usercube/integration-guide/toolkit/xml-configuration/connectors/entityassociationmapping/index.md)'s
 connection tables.
 
 For the connector to work properly, the connection tables must follow the naming convention too:
@@ -226,20 +226,20 @@ Same as for export, fulfill is configured through connections.
 
 ### Password reset
 
-[See how to configure password reset settings](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/appsettings-agent/index.md).
+[See how to configure password reset settings](/docs/usercube/6.1/usercube/integration-guide/network-configuration/agent-configuration/appsettings-agent/index.md).
 
 When setting a password for an ServiceNow user, the password attribute is defined by the password
 specified in the corresponding
-[`RessourceTypeMapping`](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/connectors/resourcetypemappings/servicenowresourcetypemapping/index.md).
+[`RessourceTypeMapping`](/docs/usercube/6.1/usercube/integration-guide/toolkit/xml-configuration/connectors/resourcetypemappings/servicenowresourcetypemapping/index.md).
 
 ### Credentials protection
 
 Data protection can be ensured through:
 
-- [RSA encryption](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/rsa-encryption/index.md),
+- [RSA encryption](/docs/usercube/6.1/usercube/integration-guide/network-configuration/agent-configuration/rsa-encryption/index.md),
   configured in the `appsettings.encrypted.agent.json` file;
 - an
-  [Azure Key Vault](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/azure-key-vault/index.md)
+  [Azure Key Vault](/docs/usercube/6.1/usercube/integration-guide/network-configuration/agent-configuration/azure-key-vault/index.md)
   safe;
 
 | Attribute         | Naming Convention for the Key in Azure Key Vault |
@@ -254,7 +254,7 @@ Data protection can be ensured through:
 | ResponseSizeLimit | `Connections--<identifier>--ResponseSizeLimit`   |
 
 - a
-  [CyberArk Vault](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/cyberark-application-access-manager-credential-providers/index.md)
+  [CyberArk Vault](/docs/usercube/6.1/usercube/integration-guide/network-configuration/agent-configuration/cyberark-application-access-manager-credential-providers/index.md)
   able to store Active Directory's `Login`, `Password`, `Server`, `ClientId` and `ClientSecret`.
 
 Protected attributes are stored inside a safe in CyberArk, into an account whose identifier can be

@@ -14,9 +14,9 @@ example, _"Production"_.
 
 Click Next to proceed. See also:
 
-- [Select Processing Mode](/versioned_docs/dataclassification_5.6.2/ndc/deployment/initial_config_modes.md)
-- [Processing Settings](/versioned_docs/dataclassification_5.6.2/ndc/deployment/initial_config_processing-settings.md)
-- [Add Taxonomy](/versioned_docs/dataclassification_5.6.2/ndc/deployment/initial_config_taxonomies.md)
-- [Security](/versioned_docs/dataclassification_5.6.2/ndc/deployment/initial_config_users.md)
-- [Configure Health Alerting](/versioned_docs/dataclassification_5.6.2/ndc/deployment/initial_config_health.md)
-- [Review Your Configuration](/versioned_docs/dataclassification_5.6.2/ndc/deployment/initial_config_summary.md)
+- [Select Processing Mode](/docs/dataclassification/5.6.2/ndc/deployment/initial_config_modes.md)
+- [Processing Settings](/docs/dataclassification/5.6.2/ndc/deployment/initial_config_processing-settings.md)
+- [Add Taxonomy](/docs/dataclassification/5.6.2/ndc/deployment/initial_config_taxonomies.md)
+- [Security](/docs/dataclassification/5.6.2/ndc/deployment/initial_config_users.md)
+- [Configure Health Alerting](/docs/dataclassification/5.6.2/ndc/deployment/initial_config_health.md)
+- [Review Your Configuration](/docs/dataclassification/5.6.2/ndc/deployment/initial_config_summary.md)

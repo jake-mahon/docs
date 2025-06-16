@@ -21,5 +21,5 @@ configuring a corresponding monitored item.
 
 See also:
 
-- [Create a New Monitoring Plan](/versioned_docs/auditor_10.6/auditor/admin/monitoringplans/create.md)
+- [Create a New Monitoring Plan](/docs/auditor/10.6/auditor/admin/monitoringplans/create.md)
   step of the monitoring plan wizard

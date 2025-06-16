@@ -25,7 +25,7 @@ To configure GroupID in Okta, follow these steps:
 10. On the **Configure SAML** tab of the **Create SAML Integration** page, provide the consumer URL
     and audience URL that you generated for the GroupID client In the **Single sign on URL** and
     **Audience URI (SP Entity ID)** boxes respectively. See the
-    [Generate URLs](/versioned_docs/groupid_11.0/groupid/authenticate/asserviceprovider/okta/generateurls.md)
+    [Generate URLs](/docs/groupid/11.0/groupid/authenticate/asserviceprovider/okta/generateurls.md)
     topic.
 11. We will not specify any default relay state, so leave the **Default Relay State** field blank.
 12. Leave the **Name ID format** field selected to _Unspecified_.
@@ -66,7 +66,7 @@ in GroupID.
 
 You must define users in Okta. Only these users can authenticate on the GroupID portal _Wizard_
 using Okta. See the
-[Sign In Using Okta](/versioned_docs/groupid_11.0/groupid/authenticate/asserviceprovider/okta/signin.md)
+[Sign In Using Okta](/docs/groupid/11.0/groupid/authenticate/asserviceprovider/okta/signin.md)
 topic.
 
 There are multiple ways to define users in Okta, such as:

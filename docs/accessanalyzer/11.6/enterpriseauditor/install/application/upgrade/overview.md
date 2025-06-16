@@ -14,7 +14,7 @@ The purpose of this document is to provide the basic steps needed for upgrading 
 and the stock solutions. Contact [Netwrix Support](https://www.netwrix.com/support.html) for
 additional information.
 
-See the [What's New](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/whatsnew.md) topic for
+See the [What's New](/docs/accessanalyzer/11.6/enterpriseauditor/whatsnew.md) topic for
 release information.
 
 ## Considerations
@@ -35,7 +35,7 @@ supported versions for the Enterprise Auditor database.
 To grant access to additional Solutions in an existing Enterprise Auditor installation, a new
 license key is required. To update the Enterprise Auditor license key without installing a new
 version of the Enterprise Auditor Console, see the
-[Update License Key](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/install/application/updatelicense.md)
+[Update License Key](/docs/accessanalyzer/11.6/enterpriseauditor/install/application/updatelicense.md)
 topic for instructions.
 
 License Key Changes
@@ -56,5 +56,5 @@ The following changes in licensing requires the organization needing a new key:
       feature.
 
 See the
-[Update License Key](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/install/application/updatelicense.md)
+[Update License Key](/docs/accessanalyzer/11.6/enterpriseauditor/install/application/updatelicense.md)
 section for instructions on updating the license key.

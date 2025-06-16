@@ -34,15 +34,15 @@ On the **Object, Fields and Mappings** page, map the a attributes with source fi
 
         It displays the following list of new providers that you can use to create a job.
 
-        - [Google Workspace Subscription](/versioned_docs/groupid_11.0/groupid/portal/synchronize/job/googleapp.md)
+        - [Google Workspace Subscription](/docs/groupid/11.0/groupid/portal/synchronize/job/googleapp.md)
 
             Add connection details for Google Workspace.
 
-        - [Office 365 Subscription](/versioned_docs/groupid_11.0/groupid/portal/synchronize/job/office365.md)
+        - [Office 365 Subscription](/docs/groupid/11.0/groupid/portal/synchronize/job/office365.md)
 
             Add Connection details for Office 365.
 
-        - [Exchange Subscription](/versioned_docs/groupid_11.0/groupid/portal/synchronize/job/exchange.md)
+        - [Exchange Subscription](/docs/groupid/11.0/groupid/portal/synchronize/job/exchange.md)
 
             Add connection details for Exchange.
 
@@ -57,7 +57,7 @@ On the **Object, Fields and Mappings** page, map the a attributes with source fi
 3. In the **Script Language** section, specify the scripting language you want to use. Select one of
    the following language:
 
-    - [Visual Basic .NET for GroupID](/versioned_docs/groupid_11.0/groupid/portal/synchronize/script/visualbasicnetbasic.md)
+    - [Visual Basic .NET for GroupID](/docs/groupid/11.0/groupid/portal/synchronize/script/visualbasicnetbasic.md)
     - Python for GroupID
 
 4. The Global Script Editor allows the script author to extend the functionality of Synchronize by
@@ -113,7 +113,7 @@ On the **Object, Fields and Mappings** page, map the a attributes with source fi
     8. Click **Save** to save the changes made to the script.
 
 5. On the
-   [Selected Fields for object types](/versioned_docs/groupid_11.0/groupid/portal/synchronize/job/selectedfield.md)
+   [Selected Fields for object types](/docs/groupid/11.0/groupid/portal/synchronize/job/selectedfield.md)
    type section, click **Add/Edit Fields**. You can specify the action to take if the data or object
    being exported from the source does not exist at the destination.
 6. Use the **Map Field** section to map the source and destination fields and to apply
@@ -123,13 +123,13 @@ On the **Object, Fields and Mappings** page, map the a attributes with source fi
 
         Do one of the following:
 
-        - [Map Fields](/versioned_docs/groupid_11.0/groupid/portal/synchronize/job/mappingfield.md)
+        - [Map Fields](/docs/groupid/11.0/groupid/portal/synchronize/job/mappingfield.md)
 
             In the Source column of each destination item, select the source fields that contribute
             the data for the destination.
 
         - **Apply a
-          [Transform](/versioned_docs/groupid_11.0/groupid/portal/synchronize/transformation/overview.md)**
+          [Transform](/docs/groupid/11.0/groupid/portal/synchronize/transformation/overview.md)**
 
             In the **Transform** column, click the **More Options** button to open the **Transform**
             [ _field_] dialog box and apply a transformation to the field value before it is saved
@@ -156,7 +156,7 @@ On the **Object, Fields and Mappings** page, map the a attributes with source fi
 
 **See Also**
 
-- [Create a Job](/versioned_docs/groupid_11.0/groupid/portal/synchronize/job/create.md)
-- [Create a Job Collection ](/versioned_docs/groupid_11.0/groupid/portal/synchronize/collection/create.md)
-- [Transform](/versioned_docs/groupid_11.0/groupid/portal/synchronize/transformation/overview.md)
-- [Auto-Generate Unique, Complex Passwords](/versioned_docs/groupid_11.0/groupid/portal/synchronize/transformation/autogenerateuniquepassword.md)
+- [Create a Job](/docs/groupid/11.0/groupid/portal/synchronize/job/create.md)
+- [Create a Job Collection ](/docs/groupid/11.0/groupid/portal/synchronize/collection/create.md)
+- [Transform](/docs/groupid/11.0/groupid/portal/synchronize/transformation/overview.md)
+- [Auto-Generate Unique, Complex Passwords](/docs/groupid/11.0/groupid/portal/synchronize/transformation/autogenerateuniquepassword.md)

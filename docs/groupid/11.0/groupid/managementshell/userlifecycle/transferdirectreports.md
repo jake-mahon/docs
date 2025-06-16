@@ -32,6 +32,6 @@ Transfer-DirectReports -DirectReports "F Jafar","azram" -Manager "Robin"
 
 See Also
 
-- [All Commands](/versioned_docs/groupid_11.0/groupid/managementshell/commands.md)
-- [User Lifecycle Commands ](/versioned_docs/groupid_11.0/groupid/managementshell/userlifecycle/overview.md)
-- [Parameters](/versioned_docs/groupid_11.0/groupid/managementshell/parameters/parameters.md)
+- [All Commands](/docs/groupid/11.0/groupid/managementshell/commands.md)
+- [User Lifecycle Commands ](/docs/groupid/11.0/groupid/managementshell/userlifecycle/overview.md)
+- [Parameters](/docs/groupid/11.0/groupid/managementshell/parameters/parameters.md)

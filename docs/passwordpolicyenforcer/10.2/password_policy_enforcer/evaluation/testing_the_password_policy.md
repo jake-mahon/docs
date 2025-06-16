@@ -38,7 +38,7 @@ event log can help you to understand why Password Policy Enforcer accepted or re
 
 **NOTE:** Policy testing simulates a password change, but it may not always reflect what happens
 when a user changes their password. See the
-[Managing Policies](/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/administration/managing_policies.md)
+[Managing Policies](/docs/passwordpolicyenforcer/10.2/password_policy_enforcer/administration/managing_policies.md)
 topic for more information.
 
 ## Windows Change Password Screen
@@ -69,9 +69,9 @@ these messages are customizable.
 The Password Policy Client does not modify any Windows system files, and you do not have to install
 it to enforce a Password Policy Enforcer password policy. Web browser based versions of the Password
 Policy Enforcer Client are also available. See the
-[Administration](/versioned_docs/passwordpolicyenforcer_10.2/password_reset/administration/administration_overview.md)
+[Administration](/docs/passwordpolicyenforcer/10.2/password_reset/administration/administration_overview.md)
 and
-[](http://www.anixis.com/products/ppeweb/)[Web](/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/web/web_overview.md)
+[](http://www.anixis.com/products/ppeweb/)[Web](/docs/passwordpolicyenforcer/10.2/password_policy_enforcer/web/web_overview.md)
 topics for more information. Password Reset and Password Policy Enforcer/Web are licensed
 separately.
 

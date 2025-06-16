@@ -5,12 +5,12 @@ following actions are available for the **File system** content source type:
 
 - **Update Permissions** — this action updates the file system permissions for the classified
   document. See
-  [Update Permissions](/versioned_docs/dataclassification_5.6.2/ndc/workflows/actions/workflows_updatepermissions.md)
+  [Update Permissions](/docs/dataclassification/5.6.2/ndc/workflows/actions/workflows_updatepermissions.md)
   for details.
 - **Apply MIP Label**, **Remove MIP Label** — these actions, respectively, apply and remove
   sensitivity label to/from a document stored on a file system, using Microsoft Information
   Protection (MIP). This helps to automate protection policies application. See
-  [Modify MIP Label](/versioned_docs/dataclassification_5.6.2/ndc/workflows/mip_labels/mip_workflow_action.md)
+  [Modify MIP Label](/docs/dataclassification/5.6.2/ndc/workflows/mip_labels/mip_workflow_action.md)
   for details.
 
 To configure actions for file systems using the Advanced interface:

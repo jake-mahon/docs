@@ -3,7 +3,7 @@
 This connector exports and fulfills data from/to an [OData](https://www.odata.org/) instance.
 
 This page is about
-[Custom/OData](/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/references-packages/odata/index.md).
+[Custom/OData](/docs/usercube/6.1/usercube/integration-guide/connectors/references-packages/odata/index.md).
 
 ![Package: Custom/OData](/img/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/references-connectors/odata/packages_odata_v603.webp)
 
@@ -18,7 +18,7 @@ etc.
 ## Prerequisites
 
 Implementing this connector requires reading first the
-[appsettings documentation](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/appsettings-agent/index.md).
+[appsettings documentation](/docs/usercube/6.1/usercube/integration-guide/network-configuration/agent-configuration/appsettings-agent/index.md).
 
 Usercube's service is based on
 [OData RFC](https://docs.oasis-open.org/odata/odata/v4.0/odata-v4.0-part1-protocol.html).
@@ -31,7 +31,7 @@ based on the connector's metadata.
 ### Configuration
 
 This process is configured through a
-[connection](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/connectors/connection/index.md)
+[connection](/docs/usercube/6.1/usercube/integration-guide/toolkit/xml-configuration/connectors/connection/index.md)
 in the UI and/or the XML configuration, and in the `appsettings.agent.json > Connections` section:
 
 ```
@@ -89,14 +89,14 @@ The identifier of the connection and thus the name of the subsection must:
 This connector requires from the XML configuration:
 
 - an
-  [entity type mapping](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/connectors/entitytypemapping/index.md):
+  [entity type mapping](/docs/usercube/6.1/usercube/integration-guide/toolkit/xml-configuration/connectors/entitytypemapping/index.md):
     - with the same identifier as the related entity type;
     - related to the right connector;
     - related to a connection table named `<Connection>_<ODataEntitySet>`;
     - with properties whose connection columns represent the property's path in the entity, see the
       configuration example below;
 - an
-  [entity association mapping](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/connectors/entityassociationmapping/index.md):
+  [entity association mapping](/docs/usercube/6.1/usercube/integration-guide/toolkit/xml-configuration/connectors/entityassociationmapping/index.md):
     - with the same identifier as the related entity association;
     - with its `Column1` in the format `UsercubeNav_<NavigationProperty>:<PropertyKey>` for the
       related property in the association;
@@ -109,7 +109,7 @@ The information contained in the entity types and entity associations does not i
 ### Output details
 
 This connector is meant to generate to the
-[ExportOutput](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/appsettings/index.md)
+[ExportOutput](/docs/usercube/6.1/usercube/integration-guide/network-configuration/agent-configuration/appsettings/index.md)
 folder one CSV file for each entity set provided in the connector's configuration.
 
 The files' column headers come from the entity type mapping's `ConnectionColumn` properties.

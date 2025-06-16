@@ -29,12 +29,12 @@ The identity repository can be created and updated by:
 
 NETWRIX recommends creating the identity repository by downloading the provided Excel file, filling
 it with HR information, and uploading it back.
-[See how to create the workforce repository](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/initial-identities-loading/load-identities/index.md).
+[See how to create the workforce repository](/docs/usercube/6.1/usercube/user-guide/set-up/initial-identities-loading/load-identities/index.md).
 
 Then
-[perform mass updates](/versioned_docs/usercube_6.1/usercube/user-guide/maintain/identity-data-modification/mass-update/index.md)
+[perform mass updates](/docs/usercube/6.1/usercube/user-guide/maintain/identity-data-modification/mass-update/index.md)
 with the same kind of process, and
-[individual updates](/versioned_docs/usercube_6.1/usercube/user-guide/maintain/identity-data-modification/individual-update/index.md)
+[individual updates](/docs/usercube/6.1/usercube/user-guide/maintain/identity-data-modification/individual-update/index.md)
 via Usercube's workflows.
 
 ### Useful data

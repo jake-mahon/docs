@@ -18,5 +18,5 @@ What do you want to do?
 
 **See Also**
 
-- [Dashboard](/versioned_docs/groupid_11.0/groupid/admincenter/general/dashboard.md)
-- [Navigation](/versioned_docs/groupid_11.0/groupid/admincenter/general/navigation.md)
+- [Dashboard](/docs/groupid/11.0/groupid/admincenter/general/dashboard.md)
+- [Navigation](/docs/groupid/11.0/groupid/admincenter/general/navigation.md)

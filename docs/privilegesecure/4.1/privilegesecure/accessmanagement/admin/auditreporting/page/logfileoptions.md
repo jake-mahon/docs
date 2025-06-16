@@ -43,5 +43,5 @@ The right of the page shows details of the selected service and has the followin
 - Cancel button (only visible when editing) – Discards changes
 
 See the
-[Log Files Page](/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/auditreporting/page/logfiles.md)
+[Log Files Page](/docs/privilegesecure/4.1/privilegesecure/accessmanagement/admin/auditreporting/page/logfiles.md)
 topic for additional information.

@@ -2,7 +2,7 @@
 
 You can define a role-based access policy for the Query Designer. Using the Query Designer, users
 can create queries for various purposes, as discussed in the
-[ Specify Smart Group Query Attributes](/versioned_docs/groupid_11.0/groupid/admincenter/portal/design/queryattributes.md)
+[ Specify Smart Group Query Attributes](/docs/groupid/11.0/groupid/admincenter/portal/design/queryattributes.md)
 topic.
 
 The Query Designer policy enables you to restrict the following Query Designer features for a
@@ -135,7 +135,7 @@ By default, several object types are available to users on the Query Designer fo
 queries. Users select an object type from the **Find** drop-down list and then select its sub-types
 on the _General_ tab of the Query Designer. The query returns the specified object types to include
 in group membership. The object types and their sub-types are discussed in the
-[Query Designer - General tab](/versioned_docs/groupid_11.0/groupid/portal/group/querydesigner/general.md)
+[Query Designer - General tab](/docs/groupid/11.0/groupid/portal/group/querydesigner/general.md)
 topic.
 
 You can limit the object types available to role members for use in queries. You can also enforce
@@ -249,7 +249,7 @@ the query (see the **Filter Criteria** tab of the Query Designer). You can:
 
     NOTE: This schema attribute setting will override the schema attribute setting specified on the
     Smart Group Attribute page in portal's design settings. See the
-    [ Specify Smart Group Query Attributes](/versioned_docs/groupid_11.0/groupid/admincenter/portal/design/queryattributes.md)
+    [ Specify Smart Group Query Attributes](/docs/groupid/11.0/groupid/admincenter/portal/design/queryattributes.md)
     topic.
 
 9. Click **Save Selection** on the **Allowed Attributes** dialog box. The **Attributes** area
@@ -300,7 +300,7 @@ attributes and operators are available to create a default filter criteria.
 
 8. You can also create an advanced query by adding more rows and applying the **AND** or **OR**
    operator to group them. See steps 1-2 in the Advanced Filter section of the
-   [Designate a Criterion for the Search Scope](/versioned_docs/groupid_11.0/groupid/admincenter/securityrole/policy/search.md#designate-a-criterion-for-the-search-scope)
+   [Designate a Criterion for the Search Scope](/docs/groupid/11.0/groupid/admincenter/securityrole/policy/search.md#designate-a-criterion-for-the-search-scope)
    topic.  
    After creating a query, you can:
 
@@ -315,5 +315,5 @@ attributes and operators are available to create a default filter criteria.
 
 **See Also**
 
-- [Security Roles](/versioned_docs/groupid_11.0/groupid/admincenter/securityrole/overview.md)
-- [Security Role Policies](/versioned_docs/groupid_11.0/groupid/admincenter/securityrole/policy/overview.md)
+- [Security Roles](/docs/groupid/11.0/groupid/admincenter/securityrole/overview.md)
+- [Security Role Policies](/docs/groupid/11.0/groupid/admincenter/securityrole/policy/overview.md)

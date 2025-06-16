@@ -96,5 +96,5 @@ until verified by an approver.
 
 **See Also**
 
-- [User Properties](/versioned_docs/groupid_11.0/groupid/portal/user/properties/overview.md)
-- [Directory Search](/versioned_docs/groupid_11.0/groupid/portal/search/search.md)
+- [User Properties](/docs/groupid/11.0/groupid/portal/user/properties/overview.md)
+- [Directory Search](/docs/groupid/11.0/groupid/portal/search/search.md)

@@ -17,7 +17,7 @@ The queries for this job are:
   GPO's list for the domain
 - Settings – Targets the default domain controller known to Enterprise Auditor to return the state
   for domain policies for all GPOs. See the
-  [GroupPolicy Data Collector](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/grouppolicy/overview.md)
+  [GroupPolicy Data Collector](/docs/accessanalyzer/11.6/enterpriseauditor/admin/datacollector/grouppolicy/overview.md)
   topic for additional information.
 
 ## Analysis Tasks for the AD_GroupPolicy Job

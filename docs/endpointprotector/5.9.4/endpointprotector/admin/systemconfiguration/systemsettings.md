@@ -414,7 +414,7 @@ Login User** to use when single sign on is not functional.
 ![Single Sign On](/img/versioned_docs/endpointprotector_5.9.4/endpointprotector/admin/systemconfiguration/singlesignon.webp)
 
 **NOTE:** See the
-[Single Sign On](/versioned_docs/endpointprotector_5.9.4/endpointprotector/admin/systemconfiguration/singlesignon/singlesignon.md)
+[Single Sign On](/docs/endpointprotector/5.9.4/endpointprotector/admin/systemconfiguration/singlesignon/singlesignon.md)
 topic for additional information.
 
 ## Active Directory Authentication

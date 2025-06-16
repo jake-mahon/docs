@@ -1,7 +1,7 @@
 # Workflows
 
 In software business, a
-[workflow](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/workflows/workflow/index.md)
+[workflow](/docs/usercube/6.1/usercube/integration-guide/toolkit/xml-configuration/workflows/workflow/index.md)
 is a series of specific actions taken by specific people to accomplish specific tasks. For Usercube,
 workflows are models of business workflows, processes or procedures.
 
@@ -35,7 +35,7 @@ A workflow is made of several elements:
 ### Technical principles
 
 - A workflow is linked to
-  one[entity type](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/metadata/entitytype/index.md)
+  one[entity type](/docs/usercube/6.1/usercube/integration-guide/toolkit/xml-configuration/metadata/entitytype/index.md)
   and concerns only resources from said entity type. For example, a workflow can be linked to
   `Directory_User` or `Directory_Department` according to the workflow's purpose, but not both
   together.
@@ -47,7 +47,7 @@ A workflow is made of several elements:
 ## Activities
 
 A workflow is made of successive activities, each of which is assigned an
-[activity template](/versioned_docs/usercube_6.1/usercube/integration-guide/workflows/activity-templates/index.md)
+[activity template](/docs/usercube/6.1/usercube/integration-guide/workflows/activity-templates/index.md)
 that defines how transitions occur from a workflow step to another.
 
 Activities never run in parallel in a workflow. Each activity can start once the previous one
@@ -56,11 +56,11 @@ reached its final state.
 ## Forms
 
 Workflows use
-[forms](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/user-interface/form/index.md)
+[forms](/docs/usercube/6.1/usercube/integration-guide/toolkit/xml-configuration/user-interface/form/index.md)
 to collect input data through the UI.
 
 A form is a set of fields, configured with
-[controls](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/user-interface/form/index.md).
+[controls](/docs/usercube/6.1/usercube/integration-guide/toolkit/xml-configuration/user-interface/form/index.md).
 A control can define a field to fill, a fields set, call an existing form, etc. depending on its
 output type. To be displayed in the UI, and potentially filled by a given user with the appropriate
 data, a form must have a type.
@@ -108,21 +108,21 @@ workflow's input form:
 ## Permissions
 
 For each workflow, some permissions must be assigned to specific
-[profiles](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/access-control/profile/index.md)
+[profiles](/docs/usercube/6.1/usercube/integration-guide/toolkit/xml-configuration/access-control/profile/index.md)
 so that said profiles are entitled to realize the workflow's actions.
 
 While assigning the specific permissions of a workflow, it is necessary to assign the involved
 profiles a few essential rights via the
-[`WorkflowAccessControlRules`](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/workflows/workflowaccesscontrolrules/index.md)
+[`WorkflowAccessControlRules`](/docs/usercube/6.1/usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/workflows/workflowaccesscontrolrules/index.md)
 scaffolding.
 
 A workflow needs a permission for each of all its activity states involving user interaction. This
 means that, for example, the activities following the templates
-[`Persist`](/versioned_docs/usercube_6.1/usercube/integration-guide/workflows/activity-templates/index.md#persist)
+[`Persist`](/docs/usercube/6.1/usercube/integration-guide/workflows/activity-templates/index.md#persist)
 and
-[`PersistOnlyResources`](/versioned_docs/usercube_6.1/usercube/integration-guide/workflows/activity-templates/index.md#persistonlyresources)
+[`PersistOnlyResources`](/docs/usercube/6.1/usercube/integration-guide/workflows/activity-templates/index.md#persistonlyresources)
 do not require any permission. This also means that, in the example of the
-[`Action`](/versioned_docs/usercube_6.1/usercube/integration-guide/workflows/activity-templates/index.md#action)
+[`Action`](/docs/usercube/6.1/usercube/integration-guide/workflows/activity-templates/index.md#action)
 template, a workflow would need permissions for the states `ActionPending`, `Aborted` and `Purged`
 (because deletion requires an authorization), but not for the state `Executed` that does not involve
 user interaction or special authorization.
@@ -131,7 +131,7 @@ All these permissions can be shared and distributed among several profiles, acco
 of the workflow.
 
 Usercube's permissions are assigned through
-[access control rules](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/access-control/accesscontrolrule/index.md)
+[access control rules](/docs/usercube/6.1/usercube/integration-guide/toolkit/xml-configuration/access-control/accesscontrolrule/index.md)
 and follow the naming rule:
 `/Custom/workflows/{workflow_identifier}/{activity_identifier}/{activityTemplateState_shortIdentifier}`.
 
@@ -148,7 +148,7 @@ use it only for a "super admin" kind of profile if you are certain you want to g
 
 ## Menu Items
 
-[Menu items](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/user-interface/menuitem/index.md)
+[Menu items](/docs/usercube/6.1/usercube/integration-guide/toolkit/xml-configuration/user-interface/menuitem/index.md)
 make workflows accessible from the UI.
 
 Usercube's UI is configured so that workflows are accesible from:
@@ -161,10 +161,10 @@ Usercube's UI is configured so that workflows are accesible from:
 ## Aspects
 
 An
-[aspect](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/workflows/aspects/index.md)
+[aspect](/docs/usercube/6.1/usercube/integration-guide/toolkit/xml-configuration/workflows/aspects/index.md)
 definition allows an action to be performed at a specific point in a workflow. Usercube provides a
 few
-[aspect templates](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/workflows/aspects/index.md)
+[aspect templates](/docs/usercube/6.1/usercube/integration-guide/toolkit/xml-configuration/workflows/aspects/index.md)
 that give the opportunity to delegate administration, to notify people of a request's progress and
 to compute special values like unique logins or email addresses.
 
@@ -180,14 +180,14 @@ execution.
 
 A homonym search checks if a resource already exists in the system before creating/modifying it,
 preventing duplicates. It is configured through a
-[homonym entity link](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/workflows/homonymentitylink/index.md).
+[homonym entity link](/docs/usercube/6.1/usercube/integration-guide/toolkit/xml-configuration/workflows/homonymentitylink/index.md).
 
-[Read how to configure a homonym detection](/versioned_docs/usercube_6.1/usercube/integration-guide/workflows/how-to/configure-homonym-test/index.md).
+[Read how to configure a homonym detection](/docs/usercube/6.1/usercube/integration-guide/workflows/how-to/configure-homonym-test/index.md).
 
 ## Display Tables (Optional)
 
 Usercube provides a default
-[display table](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/user-interface/displaytable/index.md)
+[display table](/docs/usercube/6.1/usercube/integration-guide/toolkit/xml-configuration/user-interface/displaytable/index.md)
 to show the created/modified resource's data, but you can configure your own.
 
-[Read how to configure a display table](/versioned_docs/usercube_6.1/usercube/integration-guide/ui/how-tos/custom-display-table/index.md).
+[Read how to configure a display table](/docs/usercube/6.1/usercube/integration-guide/ui/how-tos/custom-display-table/index.md).

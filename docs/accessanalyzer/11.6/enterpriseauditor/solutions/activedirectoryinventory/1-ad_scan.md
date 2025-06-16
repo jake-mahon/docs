@@ -45,14 +45,14 @@ purpose of this job.
   scan** settings
 
 See the
-[ADInventory: Options](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/adinventory/options.md)
+[ADInventory: Options](/docs/accessanalyzer/11.6/enterpriseauditor/admin/datacollector/adinventory/options.md)
 topic for more information.
 
 ![Active Directory Inventory DC Wizard Custom Attributes page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/activedirectoryinventory/scandcwizardcustomattributes.webp)
 
 **Step 5 –** (Optional) On the Custom Attributes page, add any desired custom attributes to be used
 in the Active Directory scan. See the
-[ADInventory: Custom Attributes](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/adinventory/customattributes.md)
+[ADInventory: Custom Attributes](/docs/accessanalyzer/11.6/enterpriseauditor/admin/datacollector/adinventory/customattributes.md)
 topic for additional information.
 
 **Step 6 –** Navigate to the Summary page. Click **Finish** to save any setting modifications or
@@ -99,7 +99,7 @@ have been accidentally hidden:
 - Remove ADI Stored Procedures – Removes the built-in ADI stored procedures
 
 In addition to the tables and views explained in the
-[Standard Reference Tables & Views for the ADInventory Data Collector](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/adinventory/standardtables.md)
+[Standard Reference Tables & Views for the ADInventory Data Collector](/docs/accessanalyzer/11.6/enterpriseauditor/admin/datacollector/adinventory/standardtables.md)
 topic, the 1-AD_Scan Job produces the following pre-configured report:
 
 | Report                   | Description                                                        | Default Tags | Report Elements                                                                                                                                                                                                                                                                                                                  |
@@ -132,7 +132,7 @@ first full scan, differential scanning can be re-enabled.
 
 **Step 3 –** Use the **Next** button to navigate to the Custom Attributes page. Add both **uid** and
 **uidNumber** attributes to the existing list of custom attributes. See the
-[ADInventory: Custom Attributes](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/adinventory/customattributes.md)
+[ADInventory: Custom Attributes](/docs/accessanalyzer/11.6/enterpriseauditor/admin/datacollector/adinventory/customattributes.md)
 topic for additional information.
 
 - **uid** attribute:

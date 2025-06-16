@@ -20,5 +20,5 @@ In addition to confirming access, Threat Prevention also verifies if the target 
 minimum .NET Framework version needed by the Agent already installed; else the deployment fails.
 
 See the
-[Installing Window ](/versioned_docs/threatprevention_7.4/threatprevention/admin/agents/deploy/installing.md)topic
+[Installing Window ](/docs/threatprevention/7.4/threatprevention/admin/agents/deploy/installing.md)topic
 for the next step.

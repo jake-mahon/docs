@@ -30,5 +30,5 @@ Filters window closes.
 
 The imported list of False Positive Exclusion Filters are now applied to Sensitive Data reports. If
 all of the files in the import were not meant to have the same Source and Criteria set, see the
-[Editing False Positive Exclusion Filters](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/settings/sensitivedata/exclusions/edit.md)
+[Editing False Positive Exclusion Filters](/docs/accessanalyzer/11.6/enterpriseauditor/admin/settings/sensitivedata/exclusions/edit.md)
 topic for additional information.

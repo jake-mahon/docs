@@ -14,5 +14,5 @@ The PgSQL_Configuration Job uses the SQL Data Collector.
 The query is:
 
 - PostgreSQL Database Sizing - Collects details about PostgreSQL databases. See the
-  [SQL Data Collector](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/sql/overview.md)
+  [SQL Data Collector](/docs/accessanalyzer/11.6/enterpriseauditor/admin/datacollector/sql/overview.md)
   topic for additional information.

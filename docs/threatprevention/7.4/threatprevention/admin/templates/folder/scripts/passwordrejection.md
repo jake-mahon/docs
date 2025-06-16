@@ -2,7 +2,7 @@
 
 The following C# script sends an email notification to the specified perpetrator when their Active
 Directory password is rejected by the active
-[Password Rules Filter](/versioned_docs/threatprevention_7.4/threatprevention/admin/policies/eventtype/passwordenforcement.md#password-rules-filter)
+[Password Rules Filter](/docs/threatprevention/7.4/threatprevention/admin/policies/eventtype/passwordenforcement.md#password-rules-filter)
 criteria.
 
 The following environmental variables must be added to the script prior to execution:

@@ -11,11 +11,11 @@ Enterprise Manager is not located. The following PowerShell APIs can be used:
 
     **NOTE:** These APIs do not require any additional configuration. They display Agent status from
     the
-    [Agents Interface](/versioned_docs/threatprevention_7.4/threatprevention/admin/agents/overview.md)
+    [Agents Interface](/docs/threatprevention/7.4/threatprevention/admin/agents/overview.md)
     and a list of available PowerShell APIs the user can utilize.
 
     - Get-SIAgentStatus – Displays Agent status from the Agent grid columns on the
-      [Agents Interface](/versioned_docs/threatprevention_7.4/threatprevention/admin/agents/overview.md)
+      [Agents Interface](/docs/threatprevention/7.4/threatprevention/admin/agents/overview.md)
     - Get-SI Help – Lists available PowerShell APIs for Threat Prevention
     - Get-SIHelp [API Name] – Displays detailed information about the PowerShell API
 
@@ -51,7 +51,7 @@ The following prerequisites must be met before using the APIs:
 
 - The PowerShell service account must be an Active Directory account with the Threat Prevention
   administrator role assigned to it. The role is assigned through the
-  [Users and Roles Window](/versioned_docs/threatprevention_7.4/threatprevention/admin/configuration/userroles/overview.md).
+  [Users and Roles Window](/docs/threatprevention/7.4/threatprevention/admin/configuration/userroles/overview.md).
 - The Threat Prevention PowerShell module (SI.SIMonitor.PowerShell.dll) must be loaded into
   PowerShell. This module is stored in the installation directory within the Enterprise Manager
   folder:
@@ -77,5 +77,5 @@ Event Type tab. Export as a second XML file with a different name.
 **Step 3 –** Open both XML files and compare the XML to see how policies are altered.
 
 Once you identify how Threat Prevention modifies XML files, you can apply that to the
-[Add or Modify Policies](/versioned_docs/threatprevention_7.4/threatprevention/api/policy.md#add-or-modify-policies)
+[Add or Modify Policies](/docs/threatprevention/7.4/threatprevention/api/policy.md#add-or-modify-policies)
 instructions.

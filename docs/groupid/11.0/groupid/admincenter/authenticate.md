@@ -101,7 +101,7 @@ RECOMMENDED: If you do not receive the code, recheck your email address and clic
 
 **See Also**
 
-- [Authentication Policy](/versioned_docs/groupid_11.0/groupid/admincenter/identitystore/configure/authpolicy.md)
-- [Enable Authentication Types](/versioned_docs/groupid_11.0/groupid/admincenter/identitystore/configure/authtypes.md)
-- [Authentication Policy for Security Roles](/versioned_docs/groupid_11.0/groupid/admincenter/securityrole/policy/authentication.md)
-- [Enroll with Authentication Types](/versioned_docs/groupid_11.0/groupid/admincenter/enroll.md)
+- [Authentication Policy](/docs/groupid/11.0/groupid/admincenter/identitystore/configure/authpolicy.md)
+- [Enable Authentication Types](/docs/groupid/11.0/groupid/admincenter/identitystore/configure/authtypes.md)
+- [Authentication Policy for Security Roles](/docs/groupid/11.0/groupid/admincenter/securityrole/policy/authentication.md)
+- [Enroll with Authentication Types](/docs/groupid/11.0/groupid/admincenter/enroll.md)

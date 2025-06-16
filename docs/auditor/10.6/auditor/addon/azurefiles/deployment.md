@@ -31,7 +31,7 @@ that the following options are selected:
 - Correct Storage account in the drop-down menu
 
 **Step 3 –** Provide Auditor Server IP address and port number followed by endpoint for posting
-Activity Records. See the [API Endpoints](/versioned_docs/auditor_10.6/auditor/api/endpoints.md)
+Activity Records. See the [API Endpoints](/docs/auditor/10.6/auditor/api/endpoints.md)
 topic for more information.
 
 This assumes that the add-on runs on the computer hosting Auditor Server and uses default port 9699.

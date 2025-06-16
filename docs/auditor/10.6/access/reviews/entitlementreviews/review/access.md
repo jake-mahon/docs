@@ -12,7 +12,7 @@ The table displays access information for the resource being reviewed:
 
 - Trustee Name — Name of the trustee with access to this resource. If the trustee is a group, click
   the hyperlink to open the Group Membership window. See the
-  [Group Membership Window](/versioned_docs/auditor_10.6/access/general/groupmembership.md) topic
+  [Group Membership Window](/docs/auditor/10.6/access/general/groupmembership.md) topic
   for additional information.
 - Access Level (Full Control, Modify, and Read) columns — Blue checkmark icon indicates current
   access level

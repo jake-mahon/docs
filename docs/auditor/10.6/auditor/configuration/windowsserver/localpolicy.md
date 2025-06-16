@@ -14,7 +14,7 @@ the changes to the following monitored system components:
 - Removable media
 
 You can also configure advanced audit policies for same purpose. See the
-[Configure Advanced Audit Policies](/versioned_docs/auditor_10.6/auditor/configuration/windowsserver/advancedpolicy.md)
+[Configure Advanced Audit Policies](/docs/auditor/10.6/auditor/configuration/windowsserver/advancedpolicy.md)
 topic for more information.
 
 ## Manual Configuration

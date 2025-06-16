@@ -46,17 +46,17 @@ The following tables provide a breakdown of support by job group:
 See the following sections for permission requirements according to the job group, data collector,
 or action module to be used:
 
-- [Exchange Mail-Flow Permissions](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/requirements/solutions/exchange/mailflow.md)
+- [Exchange Mail-Flow Permissions](/docs/accessanalyzer/11.6/enterpriseauditor/requirements/solutions/exchange/mailflow.md)
 
     - ExchangeMetrics Data Collector
     -   1. HUB Metrics Job Group
 
-- [Exchange Remote Connections Permissions](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/requirements/solutions/exchange/remoteconnections.md)
+- [Exchange Remote Connections Permissions](/docs/accessanalyzer/11.6/enterpriseauditor/requirements/solutions/exchange/remoteconnections.md)
 
     - SMARTLog Data Collector
     -   2. CAS Metrics Job Group
 
-- [Exchange PowerShell Permissions](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/requirements/solutions/exchange/powershell.md)
+- [Exchange PowerShell Permissions](/docs/accessanalyzer/11.6/enterpriseauditor/requirements/solutions/exchange/powershell.md)
 
     - ExchangePS Data Collector
     - PublicFolder Action Module
@@ -67,13 +67,13 @@ or action module to be used:
     -   5. Public Folders Job Group
     -   8. Exchange Online Job Group
 
-- [Exchange Web Services API Permissions](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/requirements/solutions/exchange/webservicesapi.md)
+- [Exchange Web Services API Permissions](/docs/accessanalyzer/11.6/enterpriseauditor/requirements/solutions/exchange/webservicesapi.md)
 
     - EWSMailbox Data Collector
     - EWSPublicFolder Data Collector
     -   7. Sensitive Data Job Group
 
-- [MAPI-Based Data Collector Permissions](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/requirements/solutions/exchange/mapi.md)
+- [MAPI-Based Data Collector Permissions](/docs/accessanalyzer/11.6/enterpriseauditor/requirements/solutions/exchange/mapi.md)
 
     - Exchange2K Data Collector
     - ExchangeMailbox Data Collector

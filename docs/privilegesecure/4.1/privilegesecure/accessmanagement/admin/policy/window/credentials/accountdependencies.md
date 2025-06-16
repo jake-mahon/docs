@@ -14,7 +14,7 @@ The window has the following details displayed at the top:
 - Age — Number of days since the last credential rotation or from when the password was first
   created
 - Status — Indicates if the account credentials have been verified by Privilege Secure. See the
-  [Platforms Page](/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/policy/page/platforms/overview.md)
+  [Platforms Page](/docs/privilegesecure/4.1/privilegesecure/accessmanagement/admin/policy/page/platforms/overview.md)
   topic for additional information on configuring a verification schedule.
 
     - Unspecified — Verification check has not run
@@ -56,7 +56,7 @@ The window has the following columns:
 - Last Scan — Date timestamp for the last time the resource was scanned
 - Last Change — Date timestamp for the last time the password was changed
 - Status — Indicates if the account credentials have been verified by Privilege Secure. See the
-  [Platforms Page](/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/policy/page/platforms/overview.md)
+  [Platforms Page](/docs/privilegesecure/4.1/privilegesecure/accessmanagement/admin/policy/page/platforms/overview.md)
   topic for additional information on configuring a verification schedule.
 
     - Unspecified — Verification check has not run

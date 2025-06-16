@@ -9,16 +9,16 @@ The jobs that comprise the 1.Activity Job Group process analysis tasks and gener
 
 The Forensics Job Group is comprised of:
 
-- [Box_Deletions Job](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/box/activity/forensics/box_deletions.md)
+- [Box_Deletions Job](/docs/accessanalyzer/11.6/enterpriseauditor/solutions/box/activity/forensics/box_deletions.md)
   – Provides details on file and folder deletions that have occurred over the past 30 days
-- [Box_Downloads Job](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/box/activity/forensics/box_downloads.md)
+- [Box_Downloads Job](/docs/accessanalyzer/11.6/enterpriseauditor/solutions/box/activity/forensics/box_downloads.md)
   – Provides details on file and folder deletions that have occurred over the past 30 days
-- [Box_ExternalUserActivity Job](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/box/activity/forensics/box_externaluseractivity.md)
+- [Box_ExternalUserActivity Job](/docs/accessanalyzer/11.6/enterpriseauditor/solutions/box/activity/forensics/box_externaluseractivity.md)
   – Identifies and analyzes external user activity which has occurred over the past 30 days
-- [Box_ExternalUserCollaborations Job](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/box/activity/forensics/box_externalusercollaborations.md)
+- [Box_ExternalUserCollaborations Job](/docs/accessanalyzer/11.6/enterpriseauditor/solutions/box/activity/forensics/box_externalusercollaborations.md)
   – Identifies collaboration invites sent to external users. These collaborations should be reviewed
   to ensure sensitive data is not being shared outside of your organization.
-- [Box_PermissionChanges Job](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/box/activity/forensics/box_permissionchanges.md)
+- [Box_PermissionChanges Job](/docs/accessanalyzer/11.6/enterpriseauditor/solutions/box/activity/forensics/box_permissionchanges.md)
   – Provides details on permission changes that have occurred over the past 30 days
-- [Box_Sharing Job](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/box/activity/forensics/box_sharing.md)
+- [Box_Sharing Job](/docs/accessanalyzer/11.6/enterpriseauditor/solutions/box/activity/forensics/box_sharing.md)
   – Provides details on sharing activity that has occurred over the past 30 days

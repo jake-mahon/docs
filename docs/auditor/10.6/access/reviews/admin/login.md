@@ -30,7 +30,7 @@ administrators may be necessary to make the web server accessible to remote user
 configurations, DNS settings, etc.).
 
 The server name in the URL can be replaced with an alias. See the
-[Notification Options](/versioned_docs/auditor_10.6/access/reviews/admin/configuration/notifications.md#notification-options)
+[Notification Options](/docs/auditor/10.6/access/reviews/admin/configuration/notifications.md#notification-options)
 topic for additional information.
 
 ## Login Page
@@ -52,7 +52,7 @@ Role based access controls what interfaces users can see and where each user is 
 **_RECOMMENDED:_** Send an email to your users. Let them know why you are implementing use of the
 application, provide the URL, and explain how to login with their domain credentials and the
 username format. See the
-[Enable Console Users](/versioned_docs/auditor_10.6/auditor/accessreviews.md#enable-console-users)
+[Enable Console Users](/docs/auditor/10.6/auditor/accessreviews.md#enable-console-users)
 topic for additional information.
 
 ### Administrator Role

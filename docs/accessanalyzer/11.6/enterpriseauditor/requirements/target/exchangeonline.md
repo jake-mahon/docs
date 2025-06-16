@@ -6,17 +6,17 @@ scans:
 - Exchange Online (Limited)
 
 See the
-[Exchange Support and Permissions Explained](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/requirements/solutions/exchange/support.md)
+[Exchange Support and Permissions Explained](/docs/accessanalyzer/11.6/enterpriseauditor/requirements/solutions/exchange/support.md)
 topic for details on the type of auditing supported by data collector and by job group.
 
 Data Collectors
 
 This solution employs the following data collectors to scan the target environment:
 
-- [AzureADInventory Data Collector](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/azureadinventory/overview.md)
-- [EWSMailbox Data Collector](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/ewsmailbox/overview.md)
-- [EWSPublicFolder Data Collector](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/ewspublicfolder/overview.md)
-- [ExchangePS Data Collector](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/exchangeps/overview.md)
+- [AzureADInventory Data Collector](/docs/accessanalyzer/11.6/enterpriseauditor/admin/datacollector/azureadinventory/overview.md)
+- [EWSMailbox Data Collector](/docs/accessanalyzer/11.6/enterpriseauditor/admin/datacollector/ewsmailbox/overview.md)
+- [EWSPublicFolder Data Collector](/docs/accessanalyzer/11.6/enterpriseauditor/admin/datacollector/ewspublicfolder/overview.md)
+- [ExchangePS Data Collector](/docs/accessanalyzer/11.6/enterpriseauditor/admin/datacollector/exchangeps/overview.md)
 
 ## Permissions
 
@@ -44,7 +44,7 @@ For .Entra ID Inventory Prerequisite with the AzureADInventory Data Collector
         - All sub-directories of the access URLs listed
 
 See the
-[Microsoft Entra ID Auditing Configuration](/versioned_docs/enterpriseauditor_11.6/config/entraid/access.md)
+[Microsoft Entra ID Auditing Configuration](/docs/accessanalyzer/11.6/config/entraid/access.md)
 topic for additional information.
 
 Permissions for the Registered Microsoft Entra ID Application: Office 365 Exchange Online
@@ -57,7 +57,7 @@ Permissions for the Registered Microsoft Entra ID Application: Office 365 Excha
 - Exchange Administrator role assigned to the registered application's service principal
 
 See the
-[Exchange Online Auditing Configuration](/versioned_docs/enterpriseauditor_11.6/config/exchangeonline/access.md)
+[Exchange Online Auditing Configuration](/docs/accessanalyzer/11.6/config/exchangeonline/access.md)
 topic for additional information.
 
 For Exchange Web Services API Permissions with the EWSMailbox Data Collector
@@ -67,7 +67,7 @@ For Exchange Web Services API Permissions with the EWSMailbox Data Collector
 - Exchange Online License
 
 See the
-[Exchange Web Services API Permissions](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/requirements/solutions/exchange/webservicesapi.md)
+[Exchange Web Services API Permissions](/docs/accessanalyzer/11.6/enterpriseauditor/requirements/solutions/exchange/webservicesapi.md)
 topic for additional information.
 
 For Exchange Web Services API Permissions with the EWSPublicFolder Data Collector
@@ -77,7 +77,7 @@ For Exchange Web Services API Permissions with the EWSPublicFolder Data Collecto
 - Exchange Online License with a mailbox
 
 See the
-[Exchange Web Services API Permissions](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/requirements/solutions/exchange/webservicesapi.md)
+[Exchange Web Services API Permissions](/docs/accessanalyzer/11.6/enterpriseauditor/requirements/solutions/exchange/webservicesapi.md)
 topic for additional information.
 
 For Exchange PowerShell with ExchangePS Data Collector
@@ -86,7 +86,7 @@ For Exchange PowerShell with ExchangePS Data Collector
 - Organization Management Role
 
 See the
-[Exchange PowerShell Permissions](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/requirements/solutions/exchange/powershell.md)
+[Exchange PowerShell Permissions](/docs/accessanalyzer/11.6/enterpriseauditor/requirements/solutions/exchange/powershell.md)
 topic for additional information.
 
 ## Ports

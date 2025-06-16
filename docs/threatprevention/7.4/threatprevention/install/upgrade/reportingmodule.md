@@ -60,7 +60,7 @@ Manager Reporting Module. The following message is displayed:
 ![Netwrix Threat Mannager Reporting Setup wizard - Install page](/img/versioned_docs/threatprevention_7.4/threatprevention/install/upgrade/install.webp)
 
 **Step 4 –** To follow through the steps of the wizard for upgrade, see the
-[Install the Netwrix Threat Manager Reporting Module](/versioned_docs/threatprevention_7.4/threatprevention/install/reportingmodule/application.md)
+[Install the Netwrix Threat Manager Reporting Module](/docs/threatprevention/7.4/threatprevention/install/reportingmodule/application.md)
 topic, starting at Step 2.
 
 Threat Manager Reporting is upgraded from 2.8 to 3.0. Remember to clear your web browser's cache

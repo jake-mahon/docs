@@ -99,7 +99,7 @@ You can use the following thresholds:
 You can ﬁnd more details about Thresholds directly in the Endpoint Protector User Interface.
 
 For detailed information on Denylists and Allowlist, refer to the
-[Denylists and Allowlists](/versioned_docs/endpointprotector_5.9.4/endpointprotector/admin/denylistsallowlists/overview.md)
+[Denylists and Allowlists](/docs/endpointprotector/5.9.4/endpointprotector/admin/denylistsallowlists/overview.md)
 chapter.
 
 After the eDiscovery Policy has been created, Scanning Actions can be assigned. These include Start

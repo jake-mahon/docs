@@ -3,7 +3,7 @@
 Configuring advanced audit will help you limit the range of events tracked and recorded by the
 product, thus preventing your AuditArchive and the Security event log from overfilling. Perform
 procedures below instead of the
-[Configure Local Audit Policies](/versioned_docs/auditor_10.6/auditor/configuration/fileservers/windows/localpolicy.md).
+[Configure Local Audit Policies](/docs/auditor/10.6/auditor/configuration/fileservers/windows/localpolicy.md).
 
 ## Configure Security Options
 

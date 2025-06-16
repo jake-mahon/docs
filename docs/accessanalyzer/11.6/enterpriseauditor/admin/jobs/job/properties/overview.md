@@ -11,19 +11,19 @@ in the Navigation pane and selecting **Properties**.
 The properties can be configured at the job level within the Job Properties window using the
 following tabs:
 
-- [General Tab](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/jobs/job/properties/general.md)
-- [Performance Tab](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/jobs/job/properties/performance.md)
-- [Notification Tab](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/jobs/job/properties/notification.md)
-- [Report Settings Tab](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/jobs/job/properties/reportsettings.md)
-- [Report Roles Tab](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/jobs/job/properties/reportroles.md)
-- [Storage Tab](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/jobs/job/properties/storage.md)
-- [Connection Tab](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/jobs/job/properties/connection.md)
-- [Auto Retry Tab](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/jobs/job/properties/autoretry.md)
-- [History Tab](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/jobs/job/properties/history.md)
+- [General Tab](/docs/accessanalyzer/11.6/enterpriseauditor/admin/jobs/job/properties/general.md)
+- [Performance Tab](/docs/accessanalyzer/11.6/enterpriseauditor/admin/jobs/job/properties/performance.md)
+- [Notification Tab](/docs/accessanalyzer/11.6/enterpriseauditor/admin/jobs/job/properties/notification.md)
+- [Report Settings Tab](/docs/accessanalyzer/11.6/enterpriseauditor/admin/jobs/job/properties/reportsettings.md)
+- [Report Roles Tab](/docs/accessanalyzer/11.6/enterpriseauditor/admin/jobs/job/properties/reportroles.md)
+- [Storage Tab](/docs/accessanalyzer/11.6/enterpriseauditor/admin/jobs/job/properties/storage.md)
+- [Connection Tab](/docs/accessanalyzer/11.6/enterpriseauditor/admin/jobs/job/properties/connection.md)
+- [Auto Retry Tab](/docs/accessanalyzer/11.6/enterpriseauditor/admin/jobs/job/properties/autoretry.md)
+- [History Tab](/docs/accessanalyzer/11.6/enterpriseauditor/admin/jobs/job/properties/history.md)
 
 You can click the **View XML** button at the bottom of the window to open the job’s XML file. See
 the
-[View Job XML File](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/jobs/job/properties/viewxml.md)
+[View Job XML File](/docs/accessanalyzer/11.6/enterpriseauditor/admin/jobs/job/properties/viewxml.md)
 for additional information.
 
 Click **OK** to save configuration changes and close the Job Properties window. Click **Cancel** if

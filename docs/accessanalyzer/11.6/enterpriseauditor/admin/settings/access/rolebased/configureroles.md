@@ -18,7 +18,7 @@ This is a three-part process:
 
 **NOTE:** This configuration process is not required if only using Role Based Access to secure
 Published Reports. See the
-[Securing Published Reports Only](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/settings/access/rolebased/securereports.md)
+[Securing Published Reports Only](/docs/accessanalyzer/11.6/enterpriseauditor/admin/settings/access/rolebased/securereports.md)
 topic for additional information.
 
 ## Configure the Installation Account
@@ -144,7 +144,7 @@ Right-click on the **Security** > **Users** node and select **New User**.
 - Login name – Qualified domain name of the user: `[DOMAIN]\[Username]`
 - Default Schema – Should be set to `dbo`
 - Database role membership – Should be set to the appropriate role for this user. See the
-  [Role Definitions](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/settings/access/rolebased/roledefinitions.md)
+  [Role Definitions](/docs/accessanalyzer/11.6/enterpriseauditor/admin/settings/access/rolebased/roledefinitions.md)
   topic for more information.
 
 When all of the users have been assigned to the appropriate SQL Server database roles, complete the

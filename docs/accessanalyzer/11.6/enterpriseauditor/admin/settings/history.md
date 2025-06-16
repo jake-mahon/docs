@@ -3,9 +3,9 @@
 The History node is where the history retention of job data and job logs are configured. The setting
 specified here at the global level applies to all jobs in the Jobs tree unless specifically changed
 at the job group or job level. See the
-[History Node](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/jobs/group/history.md)
+[History Node](/docs/accessanalyzer/11.6/enterpriseauditor/admin/jobs/group/history.md)
 and
-[History Tab](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/jobs/job/properties/history.md)
+[History Tab](/docs/accessanalyzer/11.6/enterpriseauditor/admin/jobs/job/properties/history.md)
 topics for additional information.
 
 ![History Global Settings](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/settings/history.webp)
@@ -49,7 +49,7 @@ default setting. There are two settings:
 
     - This setting is only available at the global settings level. The default value is 100 days.
       This directly affects each job’s **Status** node. See the
-      [Status Node](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/jobs/job/status.md)
+      [Status Node](/docs/accessanalyzer/11.6/enterpriseauditor/admin/jobs/job/status.md)
       topic for additional information.
 
 For both the **Logs and Messages** and **Job Statistics** options above:

@@ -80,6 +80,6 @@ Upgrade-Group -Identity "departsales" -SearchContainer "OU=GID10,DC=Demo1,DC=com
 
 See Also
 
-- [All Commands](/versioned_docs/groupid_11.0/groupid/managementshell/commands.md)
-- [Smart Group Commands](/versioned_docs/groupid_11.0/groupid/managementshell/smartgroup/overview.md)
-- [Parameters](/versioned_docs/groupid_11.0/groupid/managementshell/parameters/parameters.md)
+- [All Commands](/docs/groupid/11.0/groupid/managementshell/commands.md)
+- [Smart Group Commands](/docs/groupid/11.0/groupid/managementshell/smartgroup/overview.md)
+- [Parameters](/docs/groupid/11.0/groupid/managementshell/parameters/parameters.md)

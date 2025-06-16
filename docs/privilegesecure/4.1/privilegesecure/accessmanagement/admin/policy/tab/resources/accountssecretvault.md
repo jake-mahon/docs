@@ -9,10 +9,10 @@ The Accounts tab has the following features:
 - Search — Searches the table or list for matches to the search string. When matches are found, the
   table or list is filtered to the matching results.
 - Add — Opens the Add a Managed Account window. See the
-  [Add a Managed Account Window](/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/policy/window/resources/addamanagedaccount.md)
+  [Add a Managed Account Window](/docs/privilegesecure/4.1/privilegesecure/accessmanagement/admin/policy/window/resources/addamanagedaccount.md)
   topic for additional information.
 - Edit — Opens the Edit a Managed Account window. See the
-  [Edit a Managed Account Window](/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/policy/window/resources/editamanagedaccount.md)
+  [Edit a Managed Account Window](/docs/privilegesecure/4.1/privilegesecure/accessmanagement/admin/policy/window/resources/editamanagedaccount.md)
   topic for additional information.
 - Delete — Removes the selected item. A confirmation window will appear.
 - Refresh — Reload the information displayed

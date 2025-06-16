@@ -5,6 +5,6 @@ Password Secure.
 
 Choose your preferred integration method:
 
-- [Microsoft Entra ID connection](/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/advanced_view/clientmodule/organisationalstructures/directoryservices/entra_id/entra_id_connection.md)
+- [Microsoft Entra ID connection](/docs/passwordsecure/9.1/passwordsecure/configuration/advanced_view/clientmodule/organisationalstructures/directoryservices/entra_id/entra_id_connection.md)
 
-- [Active Directory link](/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/advanced_view/clientmodule/organisationalstructures/directoryservices/activedirectorylink/active_directory_link.md)
+- [Active Directory link](/docs/passwordsecure/9.1/passwordsecure/configuration/advanced_view/clientmodule/organisationalstructures/directoryservices/activedirectorylink/active_directory_link.md)

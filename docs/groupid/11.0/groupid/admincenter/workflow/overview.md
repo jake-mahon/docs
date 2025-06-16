@@ -11,7 +11,7 @@ that workflow. Designated users can approve or deny workflow requests using the 
 the GroupID mobile app.
 
 NOTE: Workflows require an SMTP server to be configured for the identity store. See the
-[Configure an SMTP Server](/versioned_docs/groupid_11.0/groupid/admincenter/identitystore/configure/smtpserver.md)
+[Configure an SMTP Server](/docs/groupid/11.0/groupid/admincenter/identitystore/configure/smtpserver.md)
 topic.
 
 ## System Workflows
@@ -92,7 +92,7 @@ The following scenarios are valid when workflow approver acceleration settings a
 - When the object specified as an approver for a workflow is not available (such as if it is
   disabled or not specified), workflow requests are sent to the default approver. If the default
   approver is disabled or not specified either, the requests are auto approved. See the
-  [Specify a Default Approver](/versioned_docs/groupid_11.0/groupid/admincenter/workflow/advancedsettings.md#specify-a-default-approver)
+  [Specify a Default Approver](/docs/groupid/11.0/groupid/admincenter/workflow/advancedsettings.md#specify-a-default-approver)
   topic.
 - If the requester is also the approver for that workflow, the request is auto approved.
 
@@ -102,7 +102,7 @@ To automate your everyday tasks, you can also link your GroupID workflows to Pow
 
 **See Also**
 
-- [Implement Workflows](/versioned_docs/groupid_11.0/groupid/admincenter/workflow/implement.md)
-- [Manage Advanced Workflow Settings](/versioned_docs/groupid_11.0/groupid/admincenter/workflow/advancedsettings.md)
-- [Workflow Approver Acceleration](/versioned_docs/groupid_11.0/groupid/admincenter/workflow/approveracceleration.md)
-- [Integrate with Power Automate](/versioned_docs/groupid_11.0/groupid/admincenter/workflow/integrate.md)
+- [Implement Workflows](/docs/groupid/11.0/groupid/admincenter/workflow/implement.md)
+- [Manage Advanced Workflow Settings](/docs/groupid/11.0/groupid/admincenter/workflow/advancedsettings.md)
+- [Workflow Approver Acceleration](/docs/groupid/11.0/groupid/admincenter/workflow/approveracceleration.md)
+- [Integrate with Power Automate](/docs/groupid/11.0/groupid/admincenter/workflow/integrate.md)

@@ -9,7 +9,7 @@ the most frequently requested information:
 
 - **Content Distribution** —Allows you to view the distribution of your content in several formats:
   grouping by source, grouping by taxonomy, or grouping by term. See
-  [Content Distribution Map](/versioned_docs/dataclassification_5.6.2/ndc/reporting/content_distribution.md)
+  [Content Distribution Map](/docs/dataclassification/5.6.2/ndc/reporting/content_distribution.md)
   for details.
 - **Recent Tagging**—Displays statistics on the tagging results according to the specified filters.
   To view this data, make sure the "**Auto-Classification Change Log**" feature is enabled, as

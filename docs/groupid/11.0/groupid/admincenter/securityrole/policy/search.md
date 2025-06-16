@@ -61,7 +61,7 @@ What do you want to do?
 NOTE: An advanced setting for the GroupID portal, _Search Default_, controls the search scope of the
 portal. If its value is "Global Catalog", the container specified here is ignored and the portal
 shows objects from the entire directory. See the
-[Manage Advanced Settings](/versioned_docs/groupid_11.0/groupid/admincenter/portal/server/advanced.md)
+[Manage Advanced Settings](/docs/groupid/11.0/groupid/admincenter/portal/server/advanced.md)
 topic.
 
 ## Set the Search Scope to all Containers in the Identity Store
@@ -145,5 +145,5 @@ them.
 
 **See Also**
 
-- [Security Roles](/versioned_docs/groupid_11.0/groupid/admincenter/securityrole/overview.md)
-- [Security Role Policies](/versioned_docs/groupid_11.0/groupid/admincenter/securityrole/policy/overview.md)
+- [Security Roles](/docs/groupid/11.0/groupid/admincenter/securityrole/overview.md)
+- [Security Role Policies](/docs/groupid/11.0/groupid/admincenter/securityrole/policy/overview.md)

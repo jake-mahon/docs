@@ -32,7 +32,7 @@ credentials to connect to it, and any other info you provided while creating it.
 2. On the **Data Sources** page, click the tab for the provider the data source is built on.
 3. Click **Edit** for a data source. The **Update Data Source** page is displayed, that differs by
    provider. Refer to the steps for creating the respective data source to modify the info. See the
-   [Create a Data Source](/versioned_docs/groupid_11.0/groupid/admincenter/datasource/create.md)
+   [Create a Data Source](/docs/groupid/11.0/groupid/admincenter/datasource/create.md)
    topic for additional information.
 4. Click **Update Data Source**.
 

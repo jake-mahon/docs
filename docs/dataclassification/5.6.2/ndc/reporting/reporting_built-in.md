@@ -16,8 +16,8 @@ To enable Auto-Classification change logging
 
 Review the following for additional information:
 
-- [Top Reports and Charts](/versioned_docs/dataclassification_5.6.2/ndc/reporting/top_reports_charts.md)
-- [Classification Reports](/versioned_docs/dataclassification_5.6.2/ndc/reporting/classification_reports.md)
-- [Clue Building Reports](/versioned_docs/dataclassification_5.6.2/ndc/reporting/clue_building_reports.md)
-- [Document Reports](/versioned_docs/dataclassification_5.6.2/ndc/reporting/documentation_reports.md)
-- [System Reports](/versioned_docs/dataclassification_5.6.2/ndc/reporting/system_reports.md)
+- [Top Reports and Charts](/docs/dataclassification/5.6.2/ndc/reporting/top_reports_charts.md)
+- [Classification Reports](/docs/dataclassification/5.6.2/ndc/reporting/classification_reports.md)
+- [Clue Building Reports](/docs/dataclassification/5.6.2/ndc/reporting/clue_building_reports.md)
+- [Document Reports](/docs/dataclassification/5.6.2/ndc/reporting/documentation_reports.md)
+- [System Reports](/docs/dataclassification/5.6.2/ndc/reporting/system_reports.md)

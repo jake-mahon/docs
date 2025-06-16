@@ -23,4 +23,4 @@ To enable the SQL Server Browser service, see
 
 See Also
 
-- [Requirements](/versioned_docs/groupid_11.0/groupid/install/requirements.md)
+- [Requirements](/docs/groupid/11.0/groupid/install/requirements.md)

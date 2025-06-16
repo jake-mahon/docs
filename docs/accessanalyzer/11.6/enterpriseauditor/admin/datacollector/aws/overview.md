@@ -4,7 +4,7 @@ The AWS Data Collector collects IAM users, groups, roles, and policies, as well 
 content, and sensitive data from the target Amazon Web Services (AWS) accounts. The AWS Data
 Collector has been preconfigured for the AWS Solution. Both this data collector and the solution are
 available with a special Enterprise Auditor license. See the
-[AWS Solution](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/aws/overview.md)
+[AWS Solution](/docs/accessanalyzer/11.6/enterpriseauditor/solutions/aws/overview.md)
 topic for additional information.
 
 Protocols
@@ -50,10 +50,10 @@ then an extra 16 GB of RAM are required (8x2=16).
 The AWS Data Collector is configured through the Amazon Web Services Data Collector Wizard. The
 wizard contains the following pages, which change based up on the query category selected:
 
-- [AWS: Category](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/aws/category.md)
-- [AWS: Login Roles](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/aws/loginroles.md)
-- [AWS: Filter S3 Objects](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/aws/filters3objects.md)
-- [AWS: Sensitive Data Settings](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/aws/sensitivedata.md)
-- [AWS: Criteria ](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/aws/criteria.md)
-- [AWS: Results](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/aws/results.md)
-- [AWS: Summary](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/aws/summary.md)
+- [AWS: Category](/docs/accessanalyzer/11.6/enterpriseauditor/admin/datacollector/aws/category.md)
+- [AWS: Login Roles](/docs/accessanalyzer/11.6/enterpriseauditor/admin/datacollector/aws/loginroles.md)
+- [AWS: Filter S3 Objects](/docs/accessanalyzer/11.6/enterpriseauditor/admin/datacollector/aws/filters3objects.md)
+- [AWS: Sensitive Data Settings](/docs/accessanalyzer/11.6/enterpriseauditor/admin/datacollector/aws/sensitivedata.md)
+- [AWS: Criteria ](/docs/accessanalyzer/11.6/enterpriseauditor/admin/datacollector/aws/criteria.md)
+- [AWS: Results](/docs/accessanalyzer/11.6/enterpriseauditor/admin/datacollector/aws/results.md)
+- [AWS: Summary](/docs/accessanalyzer/11.6/enterpriseauditor/admin/datacollector/aws/summary.md)

@@ -6,7 +6,7 @@ Access Information Center users with either Security Team Member or Administrato
 criteria Matches. The Matches table requires the storage of discovered sensitive data within the
 Enterprise Auditor database or it will be blank. The **Include Subfolders** option is active by
 default until removed. See the
-[Results Pane](/versioned_docs/accessinformationcenter_11.6/access/informationcenter/resourceaudit/navigate/overview.md#results-pane)
+[Results Pane](/docs/accessinformationcenter/11.6/access/informationcenter/resourceaudit/navigate/overview.md#results-pane)
 topic for information on changing this option.
 
 ![Sensitive Content report for imported data](/img/versioned_docs/accessinformationcenter_11.6/access/informationcenter/resourceaudit/sharepoint/sensitivecontent.webp)
@@ -31,5 +31,5 @@ were found:
 - Sub File – File name if the sensitive data files reside in a PST file or a ZIP file
 
 The table data grid functions the same way as other table grids. See the
-[Data Grid Features](/versioned_docs/accessinformationcenter_11.6/access/general/datagrid.md) topic
+[Data Grid Features](/docs/accessinformationcenter/11.6/access/general/datagrid.md) topic
 for additional information.

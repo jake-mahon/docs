@@ -19,7 +19,7 @@ is set to **Use the Default Profile**, as configured at the global **Settings** 
 this is not the Connection Profile with the necessary permissions for targeting the Microsoft Entra
 tenants, select the **Select one of the following user defined profiles** option and select the
 appropriate Connection Profile. See the
-[Microsoft Entra ID Connection Profile & Host List](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/azureadinventory/configurejob.md)
+[Microsoft Entra ID Connection Profile & Host List](/docs/accessanalyzer/11.6/enterpriseauditor/admin/datacollector/azureadinventory/configurejob.md)
 topic for information.
 
 History Retention
@@ -45,14 +45,14 @@ Query Configuration
 
 Run the solution with the default query configuration for best results. While it is recommended to
 make no changes to the
-[1-AAD_Scan Job](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/entraidinventory/1-aad_scan.md),
+[1-AAD_Scan Job](/docs/accessanalyzer/11.6/enterpriseauditor/solutions/entraidinventory/1-aad_scan.md),
 a possible modification might be to scope the query to not collect login activity.
 
 Analysis Configuration
 
 Run the solution with the default analysis configuration for best results. However, a possible
 modification might be to customize exception analysis parameters within the
-[2-AAD_Exceptions Job](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/entraidinventory/2-aad_exceptions.md).
+[2-AAD_Exceptions Job](/docs/accessanalyzer/11.6/enterpriseauditor/solutions/entraidinventory/2-aad_exceptions.md).
 
 Workflow
 

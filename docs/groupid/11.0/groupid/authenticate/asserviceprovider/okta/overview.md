@@ -14,7 +14,7 @@ That done, you can sign into GroupID using Okta.
 
 See Also
 
-- [Generate URLs](/versioned_docs/groupid_11.0/groupid/authenticate/asserviceprovider/okta/generateurls.md)
-- [Configure GroupID In Okta](/versioned_docs/groupid_11.0/groupid/authenticate/asserviceprovider/okta/configureinokta.md)
-- [Configure the Okta Provider In GroupID](/versioned_docs/groupid_11.0/groupid/authenticate/asserviceprovider/okta/configureoktaingroupid.md)
-- [Sign In Using Okta](/versioned_docs/groupid_11.0/groupid/authenticate/asserviceprovider/okta/signin.md)
+- [Generate URLs](/docs/groupid/11.0/groupid/authenticate/asserviceprovider/okta/generateurls.md)
+- [Configure GroupID In Okta](/docs/groupid/11.0/groupid/authenticate/asserviceprovider/okta/configureinokta.md)
+- [Configure the Okta Provider In GroupID](/docs/groupid/11.0/groupid/authenticate/asserviceprovider/okta/configureoktaingroupid.md)
+- [Sign In Using Okta](/docs/groupid/11.0/groupid/authenticate/asserviceprovider/okta/signin.md)

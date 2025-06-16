@@ -5,7 +5,7 @@ category. The SystemInfo Data Collector is a core component of Enterprise Audito
 preconfigured within the Windows Solution. While the data collector is available with all Enterprise
 Auditor license options, the Windows Solution is only available with a special Enterprise Auditor
 license. See the
-[Windows Solution](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/windows/overview.md)
+[Windows Solution](/docs/accessanalyzer/11.6/enterpriseauditor/solutions/windows/overview.md)
 topic for additional information.
 
 Protocols
@@ -29,14 +29,14 @@ The SystemInfo Data Collector is configured through the System Info Data Collect
 contains the following wizard pages:
 
 - Welcome
-- [SystemInfo: Category](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/systeminfo/category.md)
-- [SystemInfo: Results](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/systeminfo/results.md)
-- [SystemInfo: Shares List](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/systeminfo/shareslist.md)
-- [SystemInfo: Probable Owner](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/systeminfo/probableowner.md)
-- [SystemInfo: VIP Membership](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/systeminfo/vipmembership.md)
-- [SystemInfo: File Types](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/systeminfo/filetypes.md)
-- [SystemInfo: Options](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/systeminfo/options.md)
-- [SystemInfo: Summary](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/systeminfo/summary.md)
+- [SystemInfo: Category](/docs/accessanalyzer/11.6/enterpriseauditor/admin/datacollector/systeminfo/category.md)
+- [SystemInfo: Results](/docs/accessanalyzer/11.6/enterpriseauditor/admin/datacollector/systeminfo/results.md)
+- [SystemInfo: Shares List](/docs/accessanalyzer/11.6/enterpriseauditor/admin/datacollector/systeminfo/shareslist.md)
+- [SystemInfo: Probable Owner](/docs/accessanalyzer/11.6/enterpriseauditor/admin/datacollector/systeminfo/probableowner.md)
+- [SystemInfo: VIP Membership](/docs/accessanalyzer/11.6/enterpriseauditor/admin/datacollector/systeminfo/vipmembership.md)
+- [SystemInfo: File Types](/docs/accessanalyzer/11.6/enterpriseauditor/admin/datacollector/systeminfo/filetypes.md)
+- [SystemInfo: Options](/docs/accessanalyzer/11.6/enterpriseauditor/admin/datacollector/systeminfo/options.md)
+- [SystemInfo: Summary](/docs/accessanalyzer/11.6/enterpriseauditor/admin/datacollector/systeminfo/summary.md)
 
 ![System Info Data Collector Wizard Welcome page](/img/versioned_docs/activitymonitor_7.1/activitymonitor/install/welcome.webp)
 

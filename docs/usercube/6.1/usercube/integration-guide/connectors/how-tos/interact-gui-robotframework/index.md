@@ -11,9 +11,9 @@ Framework connection.
 ## Prerequisites
 
 This guide will focus only on how to interact with a GUI application. The
-[guide on how to write a Robot Framework script](/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/how-tos/write-fulfill-robotframework-script/index.md)
+[guide on how to write a Robot Framework script](/docs/usercube/6.1/usercube/integration-guide/connectors/how-tos/write-fulfill-robotframework-script/index.md)
 explains the basics of Robot Framework. The basic prerequisites can be found on the
-[Robot Framework](/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/references-connectors/robotframework/index.md)
+[Robot Framework](/docs/usercube/6.1/usercube/integration-guide/connectors/references-connectors/robotframework/index.md)
 connector page.
 
 The requirements specific to the Robot Framework FlaUI library are as follows:

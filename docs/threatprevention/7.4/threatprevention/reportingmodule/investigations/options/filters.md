@@ -17,7 +17,7 @@ The following options are available for configuring a filter statement:
 
 - Source – This menu provides a list of all integrations with the application. If there is only one
   data source configured, the Source menudisplays that only. See the
-  [Netwrix Integrations Page](/versioned_docs/threatprevention_7.4/threatprevention/reportingmodule/configuration/integrations/netwrixintegrations.md)
+  [Netwrix Integrations Page](/docs/threatprevention/7.4/threatprevention/reportingmodule/configuration/integrations/netwrixintegrations.md)
   topic for additional information.
 - Timeframe – This menu provides several timeframe options as well as a clock and a calendar for
   setting a custom range. You must set the timeframe for the data to be returned in the report. If
@@ -217,5 +217,5 @@ to test if your filter statement is working as desired. Save the investigation f
 also add subscriptions or export the report data using the options above the Filters section.
 
 See the
-[Investigation Reports](/versioned_docs/threatprevention_7.4/threatprevention/reportingmodule/investigations/reports.md)
+[Investigation Reports](/docs/threatprevention/7.4/threatprevention/reportingmodule/investigations/reports.md)
 topic for additional information.

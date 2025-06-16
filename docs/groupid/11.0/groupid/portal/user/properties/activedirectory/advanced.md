@@ -40,7 +40,7 @@ The server name of the messaging provider where the mailbox resides.
 An email address or mailbox object that should receive the emails sent to the particular mailbox.
 
 Enter a search string to locate the object to add as a recipient, or click the ellipsis button to
-use the [Find Dialog Box](/versioned_docs/groupid_11.0/groupid/portal/search/find.md) for performing
+use the [Find Dialog Box](/docs/groupid/11.0/groupid/portal/search/find.md) for performing
 a search.
 
 **Deliver messages to both forwarding address and mailbox**
@@ -54,4 +54,4 @@ object/email specified in the **Recipient** box.
 
 See Also
 
-- [User Properties](/versioned_docs/groupid_11.0/groupid/portal/user/properties/overview.md)
+- [User Properties](/docs/groupid/11.0/groupid/portal/user/properties/overview.md)

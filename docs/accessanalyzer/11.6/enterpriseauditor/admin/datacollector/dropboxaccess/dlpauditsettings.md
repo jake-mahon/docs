@@ -36,5 +36,5 @@ Configure the DLP audit settings:
 
 _Remember,_ the sensitive data discovery options require the Sensitive Data Discovery Add-On to have
 been installed on the Enterprise Auditor Console. See the
-[Sensitive Data Discovery Add-On Installation](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/install/sensitivedatadiscovery/overview.md)
+[Sensitive Data Discovery Add-On Installation](/docs/accessanalyzer/11.6/enterpriseauditor/install/sensitivedatadiscovery/overview.md)
 topic for additional information.

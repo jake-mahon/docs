@@ -12,15 +12,15 @@ following information is required for the credential:
 
     - Application – Uses the configured Profile Security setting as selected at the **Settings** >
       **Application** node. See the
-      [Application](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/settings/application/overview.md)
+      [Application](/docs/accessanalyzer/11.6/enterpriseauditor/admin/settings/application/overview.md)
       topic for additional information.
     - CyberArk – Uses the CyberArk Enterprise Password Vault. See the
-      [CyberArk Integration](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/settings/connection/cyberarkintegration.md)
+      [CyberArk Integration](/docs/accessanalyzer/11.6/enterpriseauditor/admin/settings/connection/cyberarkintegration.md)
       topic for additional information. The password fields do not apply for CyberArk password
       storage.
     - Managed Service Account – Use previously configured MSA and gMSAs for authentication. The
       password fields are not applicable when this option is selected. See the
-      [Group Managed Service Accounts (gMSA) Configuration](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/settings/connection/gmsa.md)
+      [Group Managed Service Accounts (gMSA) Configuration](/docs/accessanalyzer/11.6/enterpriseauditor/admin/settings/connection/gmsa.md)
       topic for additional information.
 
 - Password – Type the password

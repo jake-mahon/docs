@@ -5,7 +5,7 @@
 Auditor Add-on for the SIEM solution runs on any computer in your environment. For example, you can
 run the add-on on the computer where Auditor is installed or on a remote server. Depending on the
 execution scenario you choose, you have to define a different set of parameters. See the
-[Configuration](/versioned_docs/auditor_10.6/auditor/addon/siem/configure.md) topic for additional
+[Configuration](/docs/auditor/10.6/auditor/addon/siem/configure.md) topic for additional
 information.
 
 Netwrix suggests the following execution scenarios:
@@ -29,5 +29,5 @@ By default, Auditor uses the _LocalSystem_ account to run PowerShell scripts. If
 another account, in the alert settings go to **Response Action**, select the **Use custom
 credentials** checkbox and specify user name and password. Make sure this account has **Log on as
 batch job** privilege. See the
-[Configure a Response Action for Alert](/versioned_docs/auditor_10.6/auditor/admin/alertsettings/responseaction.md)
+[Configure a Response Action for Alert](/docs/auditor/10.6/auditor/admin/alertsettings/responseaction.md)
 topic for additional information.

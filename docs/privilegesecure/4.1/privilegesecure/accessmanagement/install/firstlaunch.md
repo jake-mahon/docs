@@ -69,7 +69,7 @@ MFA provider.
     **NOTE:** MFA for this account can be done at a later time through the User details page. If
     that is desired, click Setup Later and skip to Step 6 of these instructions. The initial account
     will be set to Not Required MFA. See the
-    [User, Group, & Application Details Page](/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/policy/page/details/usergroupapplication.md)
+    [User, Group, & Application Details Page](/docs/privilegesecure/4.1/privilegesecure/accessmanagement/admin/policy/page/details/usergroupapplication.md)
     topic for additional information.
 
 ![Setup Wizard on the Step 2 page displaying the recovery codes](/img/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/install/authenticatorcodes.webp)
@@ -122,9 +122,9 @@ When the Setup Wizard closes, you are redirected to the My Activities interfacin
 created by the Setup Wizard, Activity Token for Domain Admin Access, is displayed.
 
 Take a
-[Product Tour](/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/producttour.md)
+[Product Tour](/docs/privilegesecure/4.1/privilegesecure/accessmanagement/admin/producttour.md)
 of the console or onboard more users and resources. See the
-[Getting Started](/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/gettingstarted.md)
+[Getting Started](/docs/privilegesecure/4.1/privilegesecure/accessmanagement/gettingstarted.md)
 topic for additional information.
 
 ## Exit Wizard Early
@@ -137,7 +137,7 @@ you exited from:
 Exit From Step 3 Page – Domain Service Account
 
 Navigate to the domain details page and add a new service account. See the
-[Domain Details Page](/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/policy/page/details/domain.md)
+[Domain Details Page](/docs/privilegesecure/4.1/privilegesecure/accessmanagement/admin/policy/page/details/domain.md)
 topic for additional information.
 
 Complete the onboarding process misses on the Step 4 and Step 5 pages.
@@ -145,7 +145,7 @@ Complete the onboarding process misses on the Step 4 and Step 5 pages.
 Exit From Step 4 Page – Active Directory Sync
 
 Navigate to the domain details page and click Synchronize Now. See the
-[Domain Details Page](/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/policy/page/details/domain.md)
+[Domain Details Page](/docs/privilegesecure/4.1/privilegesecure/accessmanagement/admin/policy/page/details/domain.md)
 topic for additional information.
 
 Complete the onboarding process misses on the Step 4 and Step 5 pages.
@@ -153,9 +153,9 @@ Complete the onboarding process misses on the Step 4 and Step 5 pages.
 Exit From Step 5 Page – Onboard First Resource and Create Access Policy
 
 Navigate to the Resources page and add a new server. See the
-[Add Resources Window](/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/policy/window/resources/addresourcesonboard.md)
+[Add Resources Window](/docs/privilegesecure/4.1/privilegesecure/accessmanagement/admin/policy/window/resources/addresourcesonboard.md)
 topic for additional information.
 
 Navigate to the Access Policies page and create a new access policy. See the
-[Add Access Policy](/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/policy/add/accesspolicy.md)
+[Add Access Policy](/docs/privilegesecure/4.1/privilegesecure/accessmanagement/admin/policy/add/accesspolicy.md)
 topic for additional information.

@@ -11,7 +11,7 @@ The Computers tab has the following features:
 - Type — Provides options to filter results based on a chosen criterion: Resource and Not On-boarded
 - Add as NPS Managed Resource — Opens the Enroll Hosts in Management window to onboards the selected
   resource. See
-  [Enroll Hosts in Management Window](/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/policy/window/resources/enrollhostsinmanagement.md)
+  [Enroll Hosts in Management Window](/docs/privilegesecure/4.1/privilegesecure/accessmanagement/admin/policy/window/resources/enrollhostsinmanagement.md)
   for additional information.
 - Remove as NPS Managed Resource — Removes the selected resource from being managed by the
   application. A confirmation window will display.

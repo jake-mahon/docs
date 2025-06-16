@@ -15,7 +15,7 @@ Review the following for additional information:
 
 Expand the Filter list to find additional filters or filter values. The most commonly used filters
 are described in
-[Use Filters in Simple Mode](/versioned_docs/auditor_10.6/auditor/admin/search/filtersimple.md).
+[Use Filters in Simple Mode](/docs/auditor/10.6/auditor/admin/search/filtersimple.md).
 Review the following for additional information:
 
 | Filter          | Description                                                                                                                                                                                                                                                                                                          | Example                                                                                                                                                                                                                                                                                                                                                                                                               |

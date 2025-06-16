@@ -6,7 +6,7 @@ or resource type.
 ## Create a Dimension
 
 The restriction of resource allocations is done from a filter. To do this, it is necessary to create
-[dimensions](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/metadata/dimension/index.md)
+[dimensions](/docs/usercube/6.1/usercube/integration-guide/toolkit/xml-configuration/metadata/dimension/index.md)
 to define which EntityTypes the filters will apply to.
 
 For the different examples of restrictions, the filters will be based on the EntityType
@@ -21,7 +21,7 @@ For the different examples of restrictions, the filters will be based on the Ent
 ## Create a Single Role
 
 To be able to filter with the dimensions previously created, it is necessary to first create
-[single roles](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/provisioning/singlerole/index.md)
+[single roles](/docs/usercube/6.1/usercube/integration-guide/toolkit/xml-configuration/provisioning/singlerole/index.md)
 which will serve as a restriction to the assignment of ResourceTypes for a given source.
 
 The example below creates a SingleRole for the EntityType Directory_User (source of the
@@ -36,7 +36,7 @@ ResourceTypes you want to restrict).
 ## Assign the Role Based on the Dimension
 
 We will define a
-[single role rule](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/provisioning/singlerolerule/index.md)
+[single role rule](/docs/usercube/6.1/usercube/integration-guide/toolkit/xml-configuration/provisioning/singlerolerule/index.md)
 on the "Title"; dimension with a given value to restrict the allocation of a resource in only one
 case.
 
@@ -60,11 +60,11 @@ association to the EntityType related to dimension 1 is "FCT0402".
 ## Assign a Resource Type Based on the Role
 
 The restriction on the creation of these accounts is integrated directly into the
-[TypeRule](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/provisioning/resourcetype/index.md)
+[TypeRule](/docs/usercube/6.1/usercube/integration-guide/toolkit/xml-configuration/provisioning/resourcetype/index.md)
 of the
-[ResourceTypes](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/provisioning/resourcetype/index.md).
+[ResourceTypes](/docs/usercube/6.1/usercube/integration-guide/toolkit/xml-configuration/provisioning/resourcetype/index.md).
 This implies that the ResourceType will only apply if the
-[SingleRole rule(s)](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/provisioning/singlerolerule/index.md)
+[SingleRole rule(s)](/docs/usercube/6.1/usercube/integration-guide/toolkit/xml-configuration/provisioning/singlerolerule/index.md)
 are checked.
 
 This part will link a SingleRole to a ResourceType. This implies that the allocation of a target
@@ -80,7 +80,7 @@ resource to a source will only be done if the SingleRole rule(s) are verified.
 ### Use a navigation rule instead of a type rule
 
 A
-[navigationRule](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/provisioning/resourcetype/index.md)
+[navigationRule](/docs/usercube/6.1/usercube/integration-guide/toolkit/xml-configuration/provisioning/resourcetype/index.md)
 in addition to filling a multi-valued association, also serves as an allocation context for a
 ResourceType.
 

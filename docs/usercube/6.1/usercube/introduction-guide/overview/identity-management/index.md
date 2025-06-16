@@ -92,14 +92,14 @@ Thus, a connector enables synchronization, i.e. Usercube reading from a managed 
 
 It also enables provisioning, i.e. Usercube writing to a managed system, but that is something we
 will dig into
-[later](/versioned_docs/usercube_6.1/usercube/introduction-guide/overview/governance/index.md).
+[later](/docs/usercube/6.1/usercube/introduction-guide/overview/governance/index.md).
 
 ![Provisioning](/img/versioned_docs/usercube_6.1/usercube/introduction-guide/overview/overview_provisioning.webp)
 
 ## Repository Updates
 
 Once Usercube is configured, with not only connectors but also
-[roles and rules, etc.](/versioned_docs/usercube_6.1/usercube/introduction-guide/overview/entitlement-management/index.md)
+[roles and rules, etc.](/docs/usercube/6.1/usercube/introduction-guide/overview/entitlement-management/index.md)
 (which constitute a different topic), changes can be made to the repository through:
 
 - synchronization, when changes were made in the managed systems and then synchronized, so copied,
@@ -108,25 +108,25 @@ Once Usercube is configured, with not only connectors but also
   identities;
 - workflows which contain approval steps to complete before the changes are actually applied;
 - the
-  [policy's rules](/versioned_docs/usercube_6.1/usercube/introduction-guide/overview/entitlement-management/index.md)
+  [policy's rules](/docs/usercube/6.1/usercube/introduction-guide/overview/entitlement-management/index.md)
   that trigger changes to the repository directly, and those that trigger changes to managed systems
   and impact the repository indirectly after the next synchronization.
 
 ## Next Steps
 
 Let's learn about
-[entitlement management](/versioned_docs/usercube_6.1/usercube/introduction-guide/overview/entitlement-management/index.md).
+[entitlement management](/docs/usercube/6.1/usercube/introduction-guide/overview/entitlement-management/index.md).
 
 ## Learn More
 
-[Learn more on identity management](/versioned_docs/usercube_6.1/usercube/integration-guide/identity-management/index.md).
+[Learn more on identity management](/docs/usercube/6.1/usercube/integration-guide/identity-management/index.md).
 
-[See how to create the workforce repository](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/initial-identities-loading/index.md).
+[See how to create the workforce repository](/docs/usercube/6.1/usercube/user-guide/set-up/initial-identities-loading/index.md).
 
-[Learn more on connectors](/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/index.md).
+[Learn more on connectors](/docs/usercube/6.1/usercube/integration-guide/connectors/index.md).
 
-[See how to create a connector](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/connect-system/index.md).
+[See how to create a connector](/docs/usercube/6.1/usercube/user-guide/set-up/connect-system/index.md).
 
-[Learn more on synchronization](/versioned_docs/usercube_6.1/usercube/integration-guide/synchronization/index.md).
+[Learn more on synchronization](/docs/usercube/6.1/usercube/integration-guide/synchronization/index.md).
 
-[Learn more on workflows](/versioned_docs/usercube_6.1/usercube/integration-guide/workflows/index.md).
+[Learn more on workflows](/docs/usercube/6.1/usercube/integration-guide/workflows/index.md).

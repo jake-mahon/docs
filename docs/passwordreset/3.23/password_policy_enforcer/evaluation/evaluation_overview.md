@@ -16,6 +16,6 @@ not jeopardize system security.
 other systems, and to synchronize passwords with other systems and applications.
 
 The
-[Administration](/versioned_docs/passwordreset_3.23/password_policy_enforcer/administration/administration_overview.md)
+[Administration](/docs/passwordreset/3.23/password_policy_enforcer/administration/administration_overview.md)
 topic contains additional installation and configuration information. Refer to the Administrator's
 topic for more detailed coverage of the information in this document.

@@ -1,11 +1,11 @@
 # Check the Roles of a User
 
 As discussed in the
-[Assign Distinct Roles to a User in Different GroupID Clients](/versioned_docs/groupid_11.0/groupid/admincenter/securityrole/overview.md#assign-distinct-roles-to-a-user-in-different-groupid-clients)
+[Assign Distinct Roles to a User in Different GroupID Clients](/docs/groupid/11.0/groupid/admincenter/securityrole/overview.md#assign-distinct-roles-to-a-user-in-different-groupid-clients)
 topic, a user in an identity store can have different security roles assigned to it in different
 GroupID clients. Moreover, a user can also have multiple roles in a client, in which case the
 highest priority role takes precedence when the user logs into that specific client. See
-[Priority](/versioned_docs/groupid_11.0/groupid/admincenter/securityrole/manage.md).
+[Priority](/docs/groupid/11.0/groupid/admincenter/securityrole/manage.md).
 
 GroupID enables you to view the highest priority role of a user in a client. This role identifies
 the access level of that user in the client. Select a client and specify a user. GroupID fetches the
@@ -51,5 +51,5 @@ What do you want to do?
 
 See Also
 
-- [Security Roles](/versioned_docs/groupid_11.0/groupid/admincenter/securityrole/overview.md)
-- [Manage Security Roles](/versioned_docs/groupid_11.0/groupid/admincenter/securityrole/manage.md)
+- [Security Roles](/docs/groupid/11.0/groupid/admincenter/securityrole/overview.md)
+- [Manage Security Roles](/docs/groupid/11.0/groupid/admincenter/securityrole/manage.md)

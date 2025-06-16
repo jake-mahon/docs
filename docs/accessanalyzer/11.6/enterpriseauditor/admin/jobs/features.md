@@ -23,7 +23,7 @@ Job Configuration Change Tracking
 
 Jobs configuration changes can be tracked using the **Changes** option in the right-click menu from
 the selected Jobs tree, job group, or job node. See the
-[Changes Window](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/jobs/overview.md#changes-window)
+[Changes Window](/docs/accessanalyzer/11.6/enterpriseauditor/admin/jobs/overview.md#changes-window)
 topic for additional information.
 
 Job Export
@@ -34,7 +34,7 @@ selected job group or job node. See the
 information.
 
 See the
-[Jobs Tree Right-click Menus](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/navigate/pane.md#jobs-tree-right-click-menus)
+[Jobs Tree Right-click Menus](/docs/accessanalyzer/11.6/enterpriseauditor/admin/navigate/pane.md#jobs-tree-right-click-menus)
 section for additional features.
 
 ## Export Job to Zip Archive Window
@@ -98,5 +98,5 @@ the Action Type selected in the previous step). Click **Next** to proceed with t
 
 Published reports can be viewed under the **[Job]** > **Results** node or through the Web Console.
 See the
-[Reporting](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/report/overview.md) topic
+[Reporting](/docs/accessanalyzer/11.6/enterpriseauditor/admin/report/overview.md) topic
 for additional information.

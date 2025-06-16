@@ -10,17 +10,17 @@ You can create multiple Security services; the default service is created while 
 
 ## The Default Security Service
 
-See [Data Service](/versioned_docs/groupid_11.0/groupid/admincenter/service/dataservice/overview.md)
+See [Data Service](/docs/groupid/11.0/groupid/admincenter/service/dataservice/overview.md)
 topic.
 
 ## Why Create Multiple Security Services?
 
 See the
-[Why Create Multiple Data Services?](/versioned_docs/groupid_11.0/groupid/admincenter/service/dataservice/overview.md#why-create-multiple-data-services)
+[Why Create Multiple Data Services?](/docs/groupid/11.0/groupid/admincenter/service/dataservice/overview.md#why-create-multiple-data-services)
 topic while replacing references to Data service with Security service.
 
 **See Also**
 
-- [GroupID Applications](/versioned_docs/groupid_11.0/groupid/admincenter/portal/applications.md)
-- [Create a Security Service](/versioned_docs/groupid_11.0/groupid/admincenter/service/securityservice/create.md)
-- [Manage Security Service Settings](/versioned_docs/groupid_11.0/groupid/admincenter/service/securityservice/manage.md)
+- [GroupID Applications](/docs/groupid/11.0/groupid/admincenter/portal/applications.md)
+- [Create a Security Service](/docs/groupid/11.0/groupid/admincenter/service/securityservice/create.md)
+- [Manage Security Service Settings](/docs/groupid/11.0/groupid/admincenter/service/securityservice/manage.md)

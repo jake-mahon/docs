@@ -9,7 +9,7 @@ upgrade the Sensitive Data Discovery Add-On.
 Features**). Uninstall the previous version of Enterprise Auditor Sensitive Data Discovery Add-on.
 
 **Step 2 –** Install the new version of the Sensitive Data Discovery Add-On. See the
-[Installing the Sensitive Data Discovery Add-On](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/install/sensitivedatadiscovery/wizard.md)
+[Installing the Sensitive Data Discovery Add-On](/docs/accessanalyzer/11.6/enterpriseauditor/install/sensitivedatadiscovery/wizard.md)
 section for instructions.
 
 The applicable solutions can now search for sensitive data based on the updated criteria.

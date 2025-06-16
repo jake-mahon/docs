@@ -5,7 +5,7 @@ the environment or not collected by default to be gathered. It is a wizard page 
 Scan Active Directory.
 
 The
-[Standard Reference Tables & Views for the ADInventory Data Collector](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/adinventory/standardtables.md)
+[Standard Reference Tables & Views for the ADInventory Data Collector](/docs/accessanalyzer/11.6/enterpriseauditor/admin/datacollector/adinventory/standardtables.md)
 topic provides information on what is collected by default. Custom attributes added on this page are
 stored in the **SA_ADInventory_ExtendedAttributes** table.
 

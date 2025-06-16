@@ -3,7 +3,7 @@
 The Activity Details report at the NFS Exports share and subfolder levels provides details on every
 operations logged during the selected date range. This report includes a Permission Changes table.
 The **Include subfolders** option is active by default until removed. See the
-[Results Pane](/versioned_docs/accessinformationcenter_11.6/access/informationcenter/resourceaudit/navigate/overview.md#results-pane)
+[Results Pane](/docs/accessinformationcenter/11.6/access/informationcenter/resourceaudit/navigate/overview.md#results-pane)
 topic for information on changing this option.
 
 ![Activity Details report at the NFS Exports share and subfolder levels](/img/versioned_docs/accessinformationcenter_11.6/access/informationcenter/resourceaudit/filesystem/nfsexports/nfsactivitydetails.webp)
@@ -52,5 +52,5 @@ the following columns:
 - Access Rights – Type of right assigned
 
 The table data grid functions the same way as other table grids. See the
-[Data Grid Features](/versioned_docs/accessinformationcenter_11.6/access/general/datagrid.md) topic
+[Data Grid Features](/docs/accessinformationcenter/11.6/access/general/datagrid.md) topic
 for additional information.

@@ -14,7 +14,7 @@ The AD_GroupRights Job uses the ADPermissions Data Collector for the following q
 - Group Access Permissions – Returns group access permissions
 
     - See the
-      [ADPermissions Data Collector](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/adpermissions/overview.md)
+      [ADPermissions Data Collector](/docs/accessanalyzer/11.6/enterpriseauditor/admin/datacollector/adpermissions/overview.md)
       topic for additional information
 
 ## Analysis Tasks for the AD_GroupRights Job

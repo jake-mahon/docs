@@ -2,7 +2,7 @@
 
 The core components for Netwrix Enterprise Auditor are the Enterprise Auditor Console server, SQL
 Server, and Access Information Center. See the
-[Requirements](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/requirements/overview.md)
+[Requirements](/docs/accessanalyzer/11.6/enterpriseauditor/requirements/overview.md)
 topic for the core requirements.
 
 In addition to these, integration with either the Netwrix Activity Monitor is required for event
@@ -15,13 +15,13 @@ which enables Sensitive Data criteria for scans.
 
 See the following topics for target environment requirements:
 
-- [Target Db2 Requirements, Permissions, and Ports](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/requirements/target/databasedb2.md)
-- [Target MongoDB Requirements, Permissions, and Ports](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/requirements/target/databasemongodb.md)
-- [Target MySQL Requirements, Permissions, and Ports](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/requirements/target/databasemysql.md)
-- [Target Oracle Requirements, Permissions, and Ports](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/requirements/target/databaseoracle.md)
-- [Target PostgreSQL Requirements, Permissions, and Ports](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/requirements/target/databasepostgresql.md)
-- [Target Redshift Requirements, Permissions, and Ports](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/requirements/target/databaseredshift.md)
-- [Target SQL Server Requirements, Permissions, and Ports](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/requirements/target/databasesql.md)
+- [Target Db2 Requirements, Permissions, and Ports](/docs/accessanalyzer/11.6/enterpriseauditor/requirements/target/databasedb2.md)
+- [Target MongoDB Requirements, Permissions, and Ports](/docs/accessanalyzer/11.6/enterpriseauditor/requirements/target/databasemongodb.md)
+- [Target MySQL Requirements, Permissions, and Ports](/docs/accessanalyzer/11.6/enterpriseauditor/requirements/target/databasemysql.md)
+- [Target Oracle Requirements, Permissions, and Ports](/docs/accessanalyzer/11.6/enterpriseauditor/requirements/target/databaseoracle.md)
+- [Target PostgreSQL Requirements, Permissions, and Ports](/docs/accessanalyzer/11.6/enterpriseauditor/requirements/target/databasepostgresql.md)
+- [Target Redshift Requirements, Permissions, and Ports](/docs/accessanalyzer/11.6/enterpriseauditor/requirements/target/databaseredshift.md)
+- [Target SQL Server Requirements, Permissions, and Ports](/docs/accessanalyzer/11.6/enterpriseauditor/requirements/target/databasesql.md)
 
 ## Databases Solution Requirements on the Enterprise Auditor Console
 

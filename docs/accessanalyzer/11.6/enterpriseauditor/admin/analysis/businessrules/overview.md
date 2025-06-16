@@ -23,6 +23,6 @@ To access and modify the Business Rules analysis module, navigate to the Job's *
 **Analysis** node and click **Configure Analysis** to open the Edit Rules window. The Edit Rules
 window has the following tabs:
 
-- [Logic Tab](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/analysis/businessrules/logic.md)
-- [Variables Tab](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/analysis/businessrules/variables.md)
-- [Applies To Tab](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/analysis/businessrules/appliesto.md)
+- [Logic Tab](/docs/accessanalyzer/11.6/enterpriseauditor/admin/analysis/businessrules/logic.md)
+- [Variables Tab](/docs/accessanalyzer/11.6/enterpriseauditor/admin/analysis/businessrules/variables.md)
+- [Applies To Tab](/docs/accessanalyzer/11.6/enterpriseauditor/admin/analysis/businessrules/appliesto.md)

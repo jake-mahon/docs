@@ -3,26 +3,26 @@
 With GroupID, you can:
 
 - Automate user provisioning and deprovisioning in bulk. See the
-  [Synchronize](/versioned_docs/groupid_11.0/groupid/portal/synchronize/overview.md) section.
+  [Synchronize](/docs/groupid/11.0/groupid/portal/synchronize/overview.md) section.
 - Establish ownership by defining a clear managerial hierarchy with dotted line management. See the
-  [Dotted line management](/versioned_docs/groupid_11.0/groupid/portal/user/properties/activedirectory/organization.md#dotted-line-management)
+  [Dotted line management](/docs/groupid/11.0/groupid/portal/user/properties/activedirectory/organization.md#dotted-line-management)
   section of the
-  [Object properties - Organization tab](/versioned_docs/groupid_11.0/groupid/portal/user/properties/activedirectory/organization.md)
+  [Object properties - Organization tab](/docs/groupid/11.0/groupid/portal/user/properties/activedirectory/organization.md)
   topic.
 - Delegate user management to end users by enabling them to:
 
     - Create and manage users, contacts, and mailboxes in the directory. See the
-      [ Create User Objects](/versioned_docs/groupid_11.0/groupid/portal/user/create/overview.md)
+      [ Create User Objects](/docs/groupid/11.0/groupid/portal/user/create/overview.md)
       topic.
     - Manage their direct reports. See the
-      [Update your Direct Reports](/versioned_docs/groupid_11.0/groupid/portal/user/manage/directreport.md)
+      [Update your Direct Reports](/docs/groupid/11.0/groupid/portal/user/manage/directreport.md)
       topic.
     - Update their profiles in the directory. See the
-      [Validate your profile](/versioned_docs/groupid_11.0/groupid/portal/user/manage/validateprofile.md)
+      [Validate your profile](/docs/groupid/11.0/groupid/portal/user/manage/validateprofile.md)
       topic.
 
 - Link identical users in different directory services, such as Active Directory and Microsoft Entra
-  ID. See the [Linked Accounts](/versioned_docs/groupid_11.0/groupid/portal/user/linkedaccounts.md)
+  ID. See the [Linked Accounts](/docs/groupid/11.0/groupid/portal/user/linkedaccounts.md)
   topic.
 
 The table below displays the major functions that users can perform in GroupID portal.
@@ -45,6 +45,6 @@ NOTE: The contact object type is not supported in a Microsoft Entra ID based ide
 
 **See Also**
 
-- [Enroll Your Identity Store Account](/versioned_docs/groupid_11.0/groupid/portal/user/authentication/enrollaccount.md)
-- [Second Factor Authentication](/versioned_docs/groupid_11.0/groupid/portal/user/authentication/secondfactorauthentication.md)
-- [Portal Settings](/versioned_docs/groupid_11.0/groupid/portal/setting/portal.md)
+- [Enroll Your Identity Store Account](/docs/groupid/11.0/groupid/portal/user/authentication/enrollaccount.md)
+- [Second Factor Authentication](/docs/groupid/11.0/groupid/portal/user/authentication/secondfactorauthentication.md)
+- [Portal Settings](/docs/groupid/11.0/groupid/portal/setting/portal.md)

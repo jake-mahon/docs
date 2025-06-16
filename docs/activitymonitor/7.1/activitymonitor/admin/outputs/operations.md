@@ -335,5 +335,5 @@ The tab contains the following settings and features:
 Click **OK** to commit the modifications. Click **Cancel** to discard the modifications. The output
 Properties window closes.
 
-See[Suppress Windows Explorer Activity](/versioned_docs/activitymonitor_7.1/activitymonitor/admin/outputs/suppress.md)
+See[Suppress Windows Explorer Activity](/docs/activitymonitor/7.1/activitymonitor/admin/outputs/suppress.md)
 topic for more information.

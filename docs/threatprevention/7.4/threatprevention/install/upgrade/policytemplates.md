@@ -6,7 +6,7 @@ templates and import new templates.
 
 _Remember,_ use these steps when the Templates Update window option was selected as **No** during
 the
-[Upgrade Procedure](/versioned_docs/threatprevention_7.4/threatprevention/install/upgrade/overview.md)
+[Upgrade Procedure](/docs/threatprevention/7.4/threatprevention/install/upgrade/overview.md)
 process.
 
 Follow the steps to upgrade policy templates and import new templates.

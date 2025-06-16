@@ -2,7 +2,7 @@
 
 To be able to process Internet Information Services (IIS) events, you must enable the Remote
 Registry service on the target computers.
-[Windows Server](/versioned_docs/auditor_10.6/auditor/configuration/windowsserver/overview.md)
+[Windows Server](/docs/auditor/10.6/auditor/configuration/windowsserver/overview.md)
 
 To configure the Operational log size and retention method
 

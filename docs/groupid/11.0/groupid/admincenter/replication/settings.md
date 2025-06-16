@@ -13,7 +13,7 @@ object types for each domain in an identity store and alerts you to any errors t
 occurred during the replication process.
 
 NOTE: The Replication service does not replicate excluded domains for an identity store. See the
-[Exclude an Active Directory Domain from Replication](/versioned_docs/groupid_11.0/groupid/admincenter/identitystore/manage.md#exclude-an-active-directory-domain-from-replication)
+[Exclude an Active Directory Domain from Replication](/docs/groupid/11.0/groupid/admincenter/identitystore/manage.md#exclude-an-active-directory-domain-from-replication)
 topic.
 
 ### How to Resolve Replication Errors
@@ -25,7 +25,7 @@ Possible actions to eliminate replication errors are:
 - Consult the Replication service logs. They provide elaborate information about the object type in
   the specific domain of the identity store the error occurred for, and whether that error comes
   from the identity provider or Elasticsearch. See the
-  [Replication Service Logs](/versioned_docs/groupid_11.0/groupid/admincenter/replication/overview.md#replication-service-logs)
+  [Replication Service Logs](/docs/groupid/11.0/groupid/admincenter/replication/overview.md#replication-service-logs)
   topic.
 
 What do you want to do?
@@ -46,7 +46,7 @@ What do you want to do?
 GroupID enables you to monitor the Elasticsearch service for the following:
 
 - The status of the Elasticsearch service. See the
-  [Elasticsearch Service](/versioned_docs/groupid_11.0/groupid/admincenter/general/dashboard.md#elasticsearch-service)
+  [Elasticsearch Service](/docs/groupid/11.0/groupid/admincenter/general/dashboard.md#elasticsearch-service)
   card on the Admin Center dashboard.
 - Elasticsearch cluster health stats, which include:
 
@@ -113,7 +113,7 @@ is intact. It also checks the health of each index.
 
 The Replication service interval applies to all identity stores defined in Admin Center. Object
 attributes to be replicated are specified in the respective identity store settings. See the
-[Manage Local Replication Settings](/versioned_docs/groupid_11.0/groupid/admincenter/identitystore/replication.md)
+[Manage Local Replication Settings](/docs/groupid/11.0/groupid/admincenter/identitystore/replication.md)
 topic.
 
 **To set global replication interval:**
@@ -174,7 +174,7 @@ and which ones failed to replicate.
        yet. Similarly, a child domain that is not being used will have its status marked in red. To
        avoid these recurring errors, set the dates for these objects to a distant future date in the
        GroupID database. Or you can exclude a domain from replication. See the
-       [Exclude an Active Directory Domain from Replication](/versioned_docs/groupid_11.0/groupid/admincenter/identitystore/manage.md#exclude-an-active-directory-domain-from-replication)
+       [Exclude an Active Directory Domain from Replication](/docs/groupid/11.0/groupid/admincenter/identitystore/manage.md#exclude-an-active-directory-domain-from-replication)
        topic.
 
 ## Specify Interval for Deleting Tombstone Objects
@@ -281,7 +281,7 @@ required.
 
 Replication error notifications are sent to recipients whose email addresses are specified in the
 _To_ and _CC_ boxes on the **Notifications** page. See the
-[Specify Notification Recipients](/versioned_docs/groupid_11.0/groupid/admincenter/identitystore/configure/smtpserver.md#specify-notification-recipients)
+[Specify Notification Recipients](/docs/groupid/11.0/groupid/admincenter/identitystore/configure/smtpserver.md#specify-notification-recipients)
 topic.
 
 **To set a triggering threshold:**
@@ -297,6 +297,6 @@ topic.
 
 **See Also**
 
-- [Elasticsearch and Replication ](/versioned_docs/groupid_11.0/groupid/admincenter/replication/overview.md)
-- [Manage Local Replication Settings](/versioned_docs/groupid_11.0/groupid/admincenter/identitystore/replication.md)
-- [Replication Service](/versioned_docs/groupid_11.0/groupid/admincenter/service/replicationservice.md)
+- [Elasticsearch and Replication ](/docs/groupid/11.0/groupid/admincenter/replication/overview.md)
+- [Manage Local Replication Settings](/docs/groupid/11.0/groupid/admincenter/identitystore/replication.md)
+- [Replication Service](/docs/groupid/11.0/groupid/admincenter/service/replicationservice.md)

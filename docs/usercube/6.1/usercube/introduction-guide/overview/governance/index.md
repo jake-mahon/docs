@@ -28,14 +28,14 @@ campaigns, risk management or reporting.
 ## Next Steps
 
 Let's read some
-[use case stories](/versioned_docs/usercube_6.1/usercube/introduction-guide/overview/use-cases/index.md).
+[use case stories](/docs/usercube/6.1/usercube/introduction-guide/overview/use-cases/index.md).
 
 ## Learn More
 
-[Learn more on governance](/versioned_docs/usercube_6.1/usercube/integration-guide/governance/index.md).
+[Learn more on governance](/docs/usercube/6.1/usercube/integration-guide/governance/index.md).
 
-[Learn more on reporting](/versioned_docs/usercube_6.1/usercube/user-guide/administrate/reporting/index.md).
+[Learn more on reporting](/docs/usercube/6.1/usercube/user-guide/administrate/reporting/index.md).
 
-[Learn more on access certification](/versioned_docs/usercube_6.1/usercube/user-guide/administrate/access-certification/index.md).
+[Learn more on access certification](/docs/usercube/6.1/usercube/user-guide/administrate/access-certification/index.md).
 
-[Learn more on risk management](/versioned_docs/usercube_6.1/usercube/user-guide/optimize/risk-management/index.md).
+[Learn more on risk management](/docs/usercube/6.1/usercube/user-guide/optimize/risk-management/index.md).

@@ -31,7 +31,7 @@ Contact Netwrix Client Services for support.
 
 **See Also**
 
-- [Create an Identity Store](/versioned_docs/groupid_11.0/groupid/admincenter/identitystore/create.md)
-- [Manage an Identity Store](/versioned_docs/groupid_11.0/groupid/admincenter/identitystore/manage.md)
-- [Configure an Identity Store](/versioned_docs/groupid_11.0/groupid/admincenter/identitystore/configure.md)
-- [Link Identity Stores](/versioned_docs/groupid_11.0/groupid/admincenter/identitystore/link/overview.md)
+- [Create an Identity Store](/docs/groupid/11.0/groupid/admincenter/identitystore/create.md)
+- [Manage an Identity Store](/docs/groupid/11.0/groupid/admincenter/identitystore/manage.md)
+- [Configure an Identity Store](/docs/groupid/11.0/groupid/admincenter/identitystore/configure.md)
+- [Link Identity Stores](/docs/groupid/11.0/groupid/admincenter/identitystore/link/overview.md)

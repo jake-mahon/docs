@@ -40,5 +40,5 @@ features:
 - Date Started (only visible once review is started) – Date the reviewer begins to review the access
   entitlements
 - See the
-  [Entitlements](/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/revieweruser/auditreporting/entitlement.md)
+  [Entitlements](/docs/privilegesecure/4.1/privilegesecure/accessmanagement/revieweruser/auditreporting/entitlement.md)
   topic for additional information

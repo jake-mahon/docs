@@ -9,7 +9,7 @@ The LDAP Data Collector is a core component of Enterprise Auditor, but it has be
 within the Active Directory Solution. While the data collector is available with all Enterprise
 Auditor license options, the Active Directory Solution is only available with a special Enterprise
 Auditor license. See the
-[Active Directory Solution](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/activedirectory/overview.md)
+[Active Directory Solution](/docs/accessanalyzer/11.6/enterpriseauditor/solutions/activedirectory/overview.md)
 topic for additional information.
 
 Protocols

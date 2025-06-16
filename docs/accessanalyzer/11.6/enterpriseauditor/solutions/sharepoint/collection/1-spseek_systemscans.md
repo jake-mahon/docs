@@ -37,33 +37,33 @@ displays.
 ![SharePoint Data Collection Settings](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/sharepoint/collection/datacollectionsettingsspseek.webp)
 
 **Step 4 –** On the
-[SPAA: SharePoint Data Collection Settings](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/spaa/settings.md)
+[SPAA: SharePoint Data Collection Settings](/docs/accessanalyzer/11.6/enterpriseauditor/admin/datacollector/spaa/settings.md)
 page, customize as desired and click **Next**.
 
 ![Scan Scoping Options](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/spaa/scanscopingoptions.webp)
 
 **Step 5 –** On the
-[SPAA: Scan Scoping Options](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/spaa/scanscopingoptions.md)
+[SPAA: Scan Scoping Options](/docs/accessanalyzer/11.6/enterpriseauditor/admin/datacollector/spaa/scanscopingoptions.md)
 page, no web applications or site collections have been added. If desired, limit the scope of the
 scan to specific web applications or site collections. Click **Next**.
 
 ![Additional Scoping](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/sharepoint/collection/additionalscopingspseek.webp)
 
 **Step 6 –** On the
-[SPAA: Additional Scoping](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/spaa/additionalscoping.md)
+[SPAA: Additional Scoping](/docs/accessanalyzer/11.6/enterpriseauditor/admin/datacollector/spaa/additionalscoping.md)
 page, **Limit scanned depth to:** is selected with the default set at **2** levels. Customize this
 setting as desired and click **Next**.
 
 ![Agent Settings](/img/versioned_docs/activitymonitor_7.1/activitymonitor/install/agent/windowsagent.webp)
 
 **Step 7 –** On the
-[SPAA: Agent Settings](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/spaa/agentsettings.md)
+[SPAA: Agent Settings](/docs/accessanalyzer/11.6/enterpriseauditor/admin/datacollector/spaa/agentsettings.md)
 page, use the default settings unless an agent scan mode is desired. Click **Next**.
 
 ![DLP Audit Settings](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/sharepoint/collection/dlpauditsettingsspseek.webp)
 
 **Step 8 –** On the
-[SPAA: DLP Audit Settings](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/spaa/dlpauditsettings.md)
+[SPAA: DLP Audit Settings](/docs/accessanalyzer/11.6/enterpriseauditor/admin/datacollector/spaa/dlpauditsettings.md)
 page, the default setting is to **Don’t process files larger than: 2 MB** and to **Scan typical
 documents (recommended, fastest)**. These settings can be customized to adjust for scan time or
 database size. Click **Next**.
@@ -76,10 +76,10 @@ database size. Click **Next**.
 ![Select DLP Criteria Page of the SPAA Data Collector Wizard](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/sharepoint/collection/selectdlpcriteriaspseek.webp)
 
 **Step 9 –** On the
-[SPAA: Select DLP Criteria](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/spaa/selectdlpcriteria.md)
+[SPAA: Select DLP Criteria](/docs/accessanalyzer/11.6/enterpriseauditor/admin/datacollector/spaa/selectdlpcriteria.md)
 page, add or remove criteria as desired by either manually selecting criteria or using the **Select
 All** and **Clear All** buttons. Click **Next**. _(Optional)_ To create custom criteria, see the
-[Sensitive Data Criteria Editor](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/sensitivedatadiscovery/criteriaeditor/overview.md)
+[Sensitive Data Criteria Editor](/docs/accessanalyzer/11.6/enterpriseauditor/sensitivedatadiscovery/criteriaeditor/overview.md)
 topic for additional information.
 
 **CAUTION:** Do not configure the options on the Results page.

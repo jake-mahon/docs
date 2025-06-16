@@ -2,7 +2,7 @@
 
 Basic audit policies allow tracking changes to user accounts and groups and identifying originating
 workstations. You can configure advanced audit policies for the same purpose too. See the
-[Configure Advanced Audit Policies](/versioned_docs/auditor_10.6/auditor/configuration/activedirectory/advancedpolicy.md)topic
+[Configure Advanced Audit Policies](/docs/auditor/10.6/auditor/configuration/activedirectory/advancedpolicy.md)topic
 for additional information.
 
 1. Open the **Group Policy Management** console on any domain controller in the target domain:

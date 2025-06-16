@@ -32,11 +32,11 @@ already do this in step 1).
 **Step 5 –** Install Gen 7 Agent. (missing or bad snippet)
 
 - **Windows** – See the
-  [Gen 7 Agent for Windows](/versioned_docs/changetracker_8.0/changetracker/requirements/gen7agentwindows.md)
+  [Gen 7 Agent for Windows](/docs/changetracker/8.0/changetracker/requirements/gen7agentwindows.md)
   topic for additional information.
 
 - **Linux** – See the
-  [Installing Gen 7 Agent for Linux](/versioned_docs/changetracker_8.0/changetracker/install/agent/linuxos.md)
+  [Installing Gen 7 Agent for Linux](/docs/changetracker/8.0/changetracker/install/agent/linuxos.md)
   topic for additional information.
 
 **Step 6 –** Uninstall old Agent App.

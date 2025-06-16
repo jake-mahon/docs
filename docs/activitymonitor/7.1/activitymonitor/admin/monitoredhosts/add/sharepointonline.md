@@ -23,7 +23,7 @@ It also provides the ability to feed activity data to other Netwrix products:
 
 Prior to adding a SharePoint Online host to the Activity Monitor, the prerequisites for the target
 environment must be met. See the
-[SharePoint Online Activity Auditing Configuration](/versioned_docs/activitymonitor_7.1/config/sharepointonline/activity.md)
+[SharePoint Online Activity Auditing Configuration](/docs/activitymonitor/7.1/config/sharepointonline/activity.md)
 topic for additional information.
 
 _Remember,_ the Activity Agent must be deployed to a Windows server that acts as a proxy for
@@ -62,7 +62,7 @@ Instruction...** for steps on registering the Activity Monitor with Microsoft En
     API access using the Client ID and Secret.
 
 - See the
-  [SharePoint Online Activity Auditing Configuration](/versioned_docs/activitymonitor_7.1/config/sharepointonline/activity.md)
+  [SharePoint Online Activity Auditing Configuration](/docs/activitymonitor/7.1/config/sharepointonline/activity.md)
   topic for additional information.
 
 Click **Next**.
@@ -85,7 +85,7 @@ tabs:
 - Other
 
 These options can be configured again in a SharePoint Online host's properties window. See the
-[Operations Tab](/versioned_docs/activitymonitor_7.1/activitymonitor/admin/outputs/operations.md)
+[Operations Tab](/docs/activitymonitor/7.1/activitymonitor/admin/outputs/operations.md)
 for additional information. Click **Next**.
 
 ![Where to log the activity page](/img/versioned_docs/activitymonitor_7.1/activitymonitor/admin/monitoredhosts/add/wheretologgeneric.webp)
@@ -133,7 +133,7 @@ Output page can be configured. The configurable options are:
     - TLS
 
     The TCP and TLS protocols add the Message framing drop-down menu. See the
-    [Syslog Tab](/versioned_docs/activitymonitor_7.1/activitymonitor/admin/outputs/syslog.md) topic
+    [Syslog Tab](/docs/activitymonitor/7.1/activitymonitor/admin/outputs/syslog.md) topic
     for additional information.
 
 - The Test button sends a test message to the Syslog server to check the connection. A green check
@@ -145,7 +145,7 @@ Output page can be configured. The configurable options are:
     - TLS – Shows error if TLS handshake fails
 
     See the
-    [Syslog Tab](/versioned_docs/activitymonitor_7.1/activitymonitor/admin/outputs/syslog.md) topic
+    [Syslog Tab](/docs/activitymonitor/7.1/activitymonitor/admin/outputs/syslog.md) topic
     for additional information.
 
 Click **Finish**.
@@ -154,7 +154,7 @@ Click **Finish**.
 
 The added SharePoint Online host is displayed in the monitored hosts table. Once a host has been
 added for monitoring, configure the desired ouptuts. See the
-[Output for Monitored Hosts](/versioned_docs/activitymonitor_7.1/activitymonitor/admin/monitoredhosts/output.md)
+[Output for Monitored Hosts](/docs/activitymonitor/7.1/activitymonitor/admin/monitoredhosts/output.md)
 topic for additional information.
 
 ## Host Properties for SharePoint Online
@@ -162,9 +162,9 @@ topic for additional information.
 Configuration settings can be edited through the tabs in the host’s Properties window. The
 configurable host properties are:
 
-- [Connection Tab](/versioned_docs/activitymonitor_7.1/activitymonitor/admin/monitoredhosts/properties/connection.md)
-- [Inactivity Alerts Tab](/versioned_docs/activitymonitor_7.1/activitymonitor/admin/monitoredhosts/properties/inactivityalerts.md)
+- [Connection Tab](/docs/activitymonitor/7.1/activitymonitor/admin/monitoredhosts/properties/connection.md)
+- [Inactivity Alerts Tab](/docs/activitymonitor/7.1/activitymonitor/admin/monitoredhosts/properties/inactivityalerts.md)
 
 See the
-[Host Properties Window](/versioned_docs/activitymonitor_7.1/activitymonitor/admin/monitoredhosts/properties/overview.md)
+[Host Properties Window](/docs/activitymonitor/7.1/activitymonitor/admin/monitoredhosts/properties/overview.md)
 topic for additional information.

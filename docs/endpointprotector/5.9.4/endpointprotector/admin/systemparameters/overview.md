@@ -424,7 +424,7 @@ but make sure that at least one justiﬁcation is enabled all the time.
 
 To enable and enforce the end-user to view User Remediation pop-up notiﬁcations, manage the option
 from Device Control, Global Settings,
-[Device Control](/versioned_docs/endpointprotector_5.9.4/endpointprotector/admin/devicecontrol/module.md).
+[Device Control](/docs/endpointprotector/5.9.4/endpointprotector/admin/devicecontrol/module.md).
 
 ![Justiﬁcations List](/img/versioned_docs/endpointprotector_5.9.4/endpointprotector/admin/systemparameters/justflist.webp)
 
@@ -446,14 +446,14 @@ section, click **Create**, ﬁll in the mandatory ﬁelds and **Save**.
 ![Custom Device Control User Remediation Notiﬁcations](/img/versioned_docs/endpointprotector_5.9.4/endpointprotector/admin/systemparameters/customdcuserremediationnotif.webp)
 
 **Step 3 –** Enable the **User Remediation Pop-up** setting from the
-[Device Control](/versioned_docs/endpointprotector_5.9.4/endpointprotector/admin/devicecontrol/module.md)
+[Device Control](/docs/endpointprotector/5.9.4/endpointprotector/admin/devicecontrol/module.md)
 topic and then select the **customized notiﬁcation** from the User Remediation Notiﬁcation Template
 drop-down list;
 
 ![User Remediation Pop-up](/img/versioned_docs/endpointprotector_5.9.4/endpointprotector/admin/systemparameters/userremediationpopup.webp)
 
 **Step 4 –** Navigate to
-[Device Control](/versioned_docs/endpointprotector_5.9.4/endpointprotector/admin/devicecontrol/module.md),
+[Device Control](/docs/endpointprotector/5.9.4/endpointprotector/admin/devicecontrol/module.md),
 Device Types section and enable **User Remediation** for devices with limited access – devices that
 have full access permission cannot beneﬁt from the User Remediation feature.
 

@@ -13,7 +13,7 @@ The dashboard includes the following widgets:
   by default).
 - Risk score by top 5 users – Shows potentially harmful users for the selected time period (7 days
   by default). Clicking the tile opens the Behavior Anomalies dashboard. See the
-  [Behavior Anomalies](/versioned_docs/auditor_10.6/auditor/admin/behavioranomalies/overview.md)
+  [Behavior Anomalies](/docs/auditor/10.6/auditor/admin/behavioranomalies/overview.md)
   topic for additional information.
 - Alerts timeline – Shows the number of alerts triggered at the specific day.
 - Recent alerts – Shows all the triggered alerts in chronological order.
@@ -27,7 +27,7 @@ infrastructure enriched with the actionable chart and timeline.
 ![alerts_history](/img/versioned_docs/auditor_10.6/auditor/admin/alertsettings/alerts_history.webp)
 
 Review detailed information about the triggered alerts and change anomaly status. See the
-[Review User Profiles and Process Anomalies](/versioned_docs/auditor_10.6/auditor/admin/behavioranomalies/userprofile.md)
+[Review User Profiles and Process Anomalies](/docs/auditor/10.6/auditor/admin/behavioranomalies/userprofile.md)
 topic for additional information.
 
 On the Details pane, you can review alert details and manage your alerts:
@@ -37,14 +37,14 @@ On the Details pane, you can review alert details and manage your alerts:
 - Mark all as reviewed – Click to mark all alerts in the list as reviewed. Netwrix recommends doing
   this only if you are completely sure that there are no critical alerts in your infrastructure.
 - Edit alerts settings – Click to modify settings of the selected alert. See the
-  [Create Alerts](/versioned_docs/auditor_10.6/auditor/admin/alertsettings/create.md) topic for
+  [Create Alerts](/docs/auditor/10.6/auditor/admin/alertsettings/create.md) topic for
   additional information.
 - Show activity record in new window – Click to view more information about the activity record that
   triggered an alert. See the
-  [Activity Records Statistics](/versioned_docs/auditor_10.6/auditor/admin/healthstatus/dashboard/activityrecordstatistics.md)
+  [Activity Records Statistics](/docs/auditor/10.6/auditor/admin/healthstatus/dashboard/activityrecordstatistics.md)
   topic for additional information.
 
 You can also refresh the alerts information by clicking the Refresh button at the bottom or go to
 the general alerts settings page clicking the Alert settings. See the
-[Manage Alerts](/versioned_docs/auditor_10.6/auditor/admin/alertsettings/manage.md) topic for
+[Manage Alerts](/docs/auditor/10.6/auditor/admin/alertsettings/manage.md) topic for
 additional information.

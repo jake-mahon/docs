@@ -16,7 +16,7 @@ Creating backups
 
 It is of course essential in the event of a disaster that you can access a backup that is as
 up-to-date as possible. Therefore, it is necessary to regularly create
-[Backup management](/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/server_manager/main_menu/backup_settings/backup_management/backup_management.md).
+[Backup management](/docs/passwordsecure/9.1/passwordsecure/configuration/server_manager/main_menu/backup_settings/backup_management/backup_management.md).
 
 Who is responsible in the event of a disaster?
 
@@ -39,10 +39,10 @@ times. The following options are possible:
 
 - Store the passwords in the company safe
 - Create corresponding
-  [Offline Add-on](/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/offlineclient/offline_client.md)
+  [Offline Add-on](/docs/passwordsecure/9.1/passwordsecure/configuration/offlineclient/offline_client.md)
 - Periodically create a HTML WebViewer file with automatic delivery via a system task including
   e-mail forwarding which can be configured in
-  [Account](/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/advanced_view/mainmenu/account/account.md)
+  [Account](/docs/passwordsecure/9.1/passwordsecure/configuration/advanced_view/mainmenu/account/account.md)
 
 #### Disaster scenarios
 

@@ -59,7 +59,7 @@ launch the **Import Members** wizard.
     - **External Data Source**
 
         1. On the **Providers** page, select
-           [Query Designer](/versioned_docs/groupid_11.0/groupid/portal/group/querydesigner/overview.md)
+           [Query Designer](/docs/groupid/11.0/groupid/portal/group/querydesigner/overview.md)
            to create a query. The query will fetch all those members that match the set criteria.
 
             The Query Designer is not working. After adding provider in the data source, it is
@@ -114,7 +114,7 @@ launch the **Import Members** wizard.
 1. On the **Lifecycle** page, select the **Import Members From Group(s)** option to add all members
    of another group or groups to the membership of this group.
 2. Click the **Search Groups** button; the
-   [Find Dialog Box](/versioned_docs/groupid_11.0/groupid/portal/search/find.md) is displayed, where
+   [Find Dialog Box](/docs/groupid/11.0/groupid/portal/search/find.md) is displayed, where
    you can search and select the group(s) whose members you want to import into the membership of
    this group.
 3. Click **Next**.
@@ -126,6 +126,6 @@ launch the **Import Members** wizard.
 
 **See Also**
 
-- [Groups](/versioned_docs/groupid_11.0/groupid/portal/group/create/overview.md)
-- [Dynasty](/versioned_docs/groupid_11.0/groupid/portal/group/dynasty/overview.md)
-- [Group Properties](/versioned_docs/groupid_11.0/groupid/portal/group/properties/overview.md)
+- [Groups](/docs/groupid/11.0/groupid/portal/group/create/overview.md)
+- [Dynasty](/docs/groupid/11.0/groupid/portal/group/dynasty/overview.md)
+- [Group Properties](/docs/groupid/11.0/groupid/portal/group/properties/overview.md)

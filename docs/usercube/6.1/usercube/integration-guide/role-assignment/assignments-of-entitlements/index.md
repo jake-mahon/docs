@@ -6,7 +6,7 @@ Assigning entitlements means giving users specific permissions, or access rights
 
 As Usercube relies on a [role-based](https://en.wikipedia.org/wiki/Role-based_access_control)
 assignment policy, entitlement assignment is simply role assignment.
-[See more details](/versioned_docs/usercube_6.1/usercube/integration-guide/role-model/index.md).
+[See more details](/docs/usercube/6.1/usercube/integration-guide/role-model/index.md).
 
 So once a user is assigned a role, Usercube must make the right changes in the managed system(s) to
 actually enable the corresponding permission. The values to be changed in the managed systems are
@@ -20,7 +20,7 @@ the enablement of an access right.
 Within Usercube, assignments can be created automatically, or can result from manual requests.
 
 Automatic assignments are created by Usercube when
-[evaluating the policy](/versioned_docs/usercube_6.1/usercube/integration-guide/role-assignment/evaluate-policy/index.md),
+[evaluating the policy](/docs/usercube/6.1/usercube/integration-guide/role-assignment/evaluate-policy/index.md),
 i.e. when computing expected assignments based on existing users and the policy's roles and rules.
 Automatic assignments can either:
 
@@ -35,7 +35,7 @@ Some entitlements require the approval of one or several knowledgeable users bef
 assigned. This is standard procedure in many security-concerned organizations.
 
 This is configurable through the role's or resource type's
-[approval workflow type](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/provisioning/singlerole/index.md).
+[approval workflow type](/docs/usercube/6.1/usercube/integration-guide/toolkit/xml-configuration/provisioning/singlerole/index.md).
 
 Each step of the approval workflow is associated with a workflow state, so that all assignments can
 be tracked and it is clear what step they are at.
@@ -115,7 +115,7 @@ A non-conforming assignment must be reviewed in Usercube by a knowledgeable user
 Non-conforming assignments are to be reviewed on the **Role Reconciliation** and/or **Resource
 Reconciliation** screens.
 
-[See more details on reconciliation](/versioned_docs/usercube_6.1/usercube/integration-guide/role-assignment/evaluate-policy/index.md).
+[See more details on reconciliation](/docs/usercube/6.1/usercube/integration-guide/role-assignment/evaluate-policy/index.md).
 
 Non-conforming assignments can still be split into two categories:
 
@@ -138,7 +138,7 @@ Non-conforming assignments can still be split into two categories:
 ### Review automation
 
 Usercube provides
-[automation rules](/versioned_docs/usercube_6.1/usercube/user-guide/optimize/non-conforming-assignment-review-automation/index.md)
+[automation rules](/docs/usercube/6.1/usercube/user-guide/optimize/non-conforming-assignment-review-automation/index.md)
 to automate the review of non-conforming assignments by automatically approving/declining
 assignments that were pending approval for some time, if this behavior is desired.
 
@@ -155,7 +155,7 @@ resource type materializes:
 - the creation of a resource, usually an account, in the managed system;
 - the creation of scalar and navigation properties for this new resource;
 - the
-  [categorization](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/categorization/index.md)
+  [categorization](/docs/usercube/6.1/usercube/user-guide/set-up/categorization/index.md)
   of the created resource, which means both the correlation of the resource to an owner, and the
   classification of the resource into a specific type with specific rules between owner and owned
   resources.

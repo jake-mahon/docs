@@ -1,7 +1,7 @@
 # View Responses Window
 
 The View Responses window opens from the **View Response** button on the
-[Review Details Page](/versioned_docs/accessinformationcenter_11.6/access/informationcenter/resourcereviews/interface.md#review-details-page)
+[Review Details Page](/docs/accessinformationcenter/11.6/access/informationcenter/resourcereviews/interface.md#review-details-page)
 of the Resource Reviews interface. It displays all owner-recommended changes and notes for the
 selected resource.
 
@@ -44,11 +44,11 @@ according to the type of review:
   the selected criteria
 
 See the
-[Data Collection & Automation Prerequisites](/versioned_docs/accessinformationcenter_11.6/access/informationcenter/resourcereviews/prerequisites.md)
+[Data Collection & Automation Prerequisites](/docs/accessinformationcenter/11.6/access/informationcenter/resourcereviews/prerequisites.md)
 topic for additional information.
 
 The table data grid functions the same way as other table grids. See the
-[Data Grid Features](/versioned_docs/accessinformationcenter_11.6/access/general/datagrid.md) topic
+[Data Grid Features](/docs/accessinformationcenter/11.6/access/general/datagrid.md) topic
 for additional information.
 
 Select an item in the table, and use the action buttons at the bottom to identify the decision:

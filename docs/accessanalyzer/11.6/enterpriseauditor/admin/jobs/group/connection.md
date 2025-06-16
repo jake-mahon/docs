@@ -7,7 +7,7 @@ job group. All Connection Profiles are created at the global level (**Settings**
 
 By default, all job groups are set to inherit the **Use Default Profile** option from the global
 level or a parent job group. See the
-[Connection](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/settings/connection/overview.md)
+[Connection](/docs/accessanalyzer/11.6/enterpriseauditor/admin/settings/connection/overview.md)
 topic for additional information.
 
 If the Default Setting is not preferred, select the custom type of connection settings desired

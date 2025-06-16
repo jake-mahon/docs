@@ -18,7 +18,7 @@ Select the **Passwords must always comply with this rule** check box to make the
 mandatory. Password Policy Enforcer rules are mandatory by default, but can be made optional by
 changing the Reject passwords that do not comply with value in the Policy Properties page. A
 mandatory rule can still be disabled when a passphrase is used. See the
-[Passphrases](/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/administration/passphrases.md)
+[Passphrases](/docs/passwordpolicyenforcer/10.2/password_policy_enforcer/administration/passphrases.md)
 topic for additional information.
 
 Click the Messages tab to customize the Password Policy Client rule inserts.

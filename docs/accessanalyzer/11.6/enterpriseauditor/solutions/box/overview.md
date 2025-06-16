@@ -11,7 +11,7 @@ Supported Platforms
 Requirements, Permissions, and Ports
 
 See the
-[Target Box Requirements, Permissions, and Ports](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/requirements/target/box.md)
+[Target Box Requirements, Permissions, and Ports](/docs/accessanalyzer/11.6/enterpriseauditor/requirements/target/box.md)
 topic for additional information.
 
 Location
@@ -34,18 +34,18 @@ an organization's Box environment.
 
 The Box Solution has the following job groups and jobs:
 
-- [0.Collection Job Group](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/box/collection/overview.md)
+- [0.Collection Job Group](/docs/accessanalyzer/11.6/enterpriseauditor/solutions/box/collection/overview.md)
   – Collects the data which will be further analyzed in order to provide details on Box access
   rights, policies, configurations, activities, and content
-- [1.Activity Job Group](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/box/activity/overview.md)
+- [1.Activity Job Group](/docs/accessanalyzer/11.6/enterpriseauditor/solutions/box/activity/overview.md)
   – Identifies long term trends of activity providing insight into user activity, usage statistics,
   and suspicious behavior by analyzing enterprise events within the Box environment
-- [2.Content Job Group](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/box/content/overview.md)
+- [2.Content Job Group](/docs/accessanalyzer/11.6/enterpriseauditor/solutions/box/content/overview.md)
   – Analyzes and summarizes the content of the Box environment, highlighting users with the most
   content as well as what type of content exists
-- [Box_Access Job](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/box/box_access.md)
+- [Box_Access Job](/docs/accessanalyzer/11.6/enterpriseauditor/solutions/box/box_access.md)
   – Analyzes access granted to users and groups in an organization's Box environment in order to
   report on effective access rights, file-level permissions, and inactive access rights that can be
   revoked
-- [Box_GroupMembership Job](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/box/box_groupmembership.md)
+- [Box_GroupMembership Job](/docs/accessanalyzer/11.6/enterpriseauditor/solutions/box/box_groupmembership.md)
   – Expands group membership in an organization's Box environment

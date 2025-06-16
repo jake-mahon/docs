@@ -2,7 +2,7 @@
 
 The Schedule tab shows the schedule tasks for the resources in the selected protection policy. The
 protection policy schedule is run based on the platform type configuration on the
-[Platforms Page](/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/policy/page/platforms/overview.md).
+[Platforms Page](/docs/privilegesecure/4.1/privilegesecure/accessmanagement/admin/policy/page/platforms/overview.md).
 
 ![schedule](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/settings/schedule.webp)
 
@@ -16,7 +16,7 @@ The Schedule tab has the following features:
 The table has the following columns:
 
 - Task Name — Displays the name of the scheduled task. See the
-  [Schedule Policies Page](/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/policy/page/schedulepolicies.md)
+  [Schedule Policies Page](/docs/privilegesecure/4.1/privilegesecure/accessmanagement/admin/policy/page/schedulepolicies.md)
   topic for additional information.
 - Last Run Time — Date timestamp of the previous scheduled task
 - Next Run Time — Date timestamp of the next scheduled task

@@ -115,7 +115,7 @@ opens.
 
 **See Also**
 
-- [Create a Job](/versioned_docs/groupid_11.0/groupid/portal/synchronize/job/create.md)
-- [Create a Job Collection ](/versioned_docs/groupid_11.0/groupid/portal/synchronize/collection/create.md)
-- [Transform](/versioned_docs/groupid_11.0/groupid/portal/synchronize/transformation/overview.md)
-- [Auto-Generate Unique, Complex Passwords](/versioned_docs/groupid_11.0/groupid/portal/synchronize/transformation/autogenerateuniquepassword.md)
+- [Create a Job](/docs/groupid/11.0/groupid/portal/synchronize/job/create.md)
+- [Create a Job Collection ](/docs/groupid/11.0/groupid/portal/synchronize/collection/create.md)
+- [Transform](/docs/groupid/11.0/groupid/portal/synchronize/transformation/overview.md)
+- [Auto-Generate Unique, Complex Passwords](/docs/groupid/11.0/groupid/portal/synchronize/transformation/autogenerateuniquepassword.md)

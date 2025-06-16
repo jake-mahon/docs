@@ -46,7 +46,7 @@ modify the list as required.
     NOTE: If in a Microsoft Entra ID based identity store extension attributes are added, GroupID
     Schema Replication schedule fetches the latest schema at its next run and add the newly added
     extension attributes to the **Select Replication Attributes** list. See the
-    [Schema Replication Schedule](/versioned_docs/groupid_11.0/groupid/admincenter/schedule/schemareplication.md)
+    [Schema Replication Schedule](/docs/groupid/11.0/groupid/admincenter/schedule/schemareplication.md)
     for additional information.  
      Select the required extension attributes from the **Select Replication Attributes** list and
     add them to the attribute to replicate list. See the Specify Object Attributes to Replicate
@@ -85,7 +85,7 @@ for an identity store to replicate object attributes to Elasticsearch.
 
 Force-starting the service has no impact on the interval set for triggering the service on the
 **Replication** page. See the
-[Specify a Replication Interval for Objects](/versioned_docs/groupid_11.0/groupid/admincenter/replication/settings.md#specify-a-replication-interval-for-objects)topic.
+[Specify a Replication Interval for Objects](/docs/groupid/11.0/groupid/admincenter/replication/settings.md#specify-a-replication-interval-for-objects)topic.
 
 You can force run the Replication service for an identity store in any of the following ways:
 
@@ -116,7 +116,7 @@ force run the Replication service for an identity store any time to remove delet
 
 Force-starting the service has no impact on the interval set for triggering the service on the
 **Replication** page. See the
-[Specify Interval for Deleting Tombstone Objects](/versioned_docs/groupid_11.0/groupid/admincenter/replication/settings.md#specify-interval-for-deleting-tombstone-objects)
+[Specify Interval for Deleting Tombstone Objects](/docs/groupid/11.0/groupid/admincenter/replication/settings.md#specify-interval-for-deleting-tombstone-objects)
 topic.
 
 For an identity store, you can force run the Replication service (for deleting objects) in any of
@@ -160,5 +160,5 @@ restores the following for an identity store:
 
 See Also
 
-- [Elasticsearch and Replication ](/versioned_docs/groupid_11.0/groupid/admincenter/replication/overview.md)
-- [Manage Global Replication Settings](/versioned_docs/groupid_11.0/groupid/admincenter/replication/settings.md)
+- [Elasticsearch and Replication ](/docs/groupid/11.0/groupid/admincenter/replication/overview.md)
+- [Manage Global Replication Settings](/docs/groupid/11.0/groupid/admincenter/replication/settings.md)

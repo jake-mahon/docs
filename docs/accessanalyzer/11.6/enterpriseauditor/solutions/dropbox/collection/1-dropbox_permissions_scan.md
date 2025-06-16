@@ -41,7 +41,7 @@ of the job group.
   token has been generated and copied, if no customizations are to be made, click **Cancel** to
   close the Dropbox Access Auditor Data Collector wizard.
 - See the
-  [DropboxAccess: Scan Options](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/dropboxaccess/scanoptions.md)
+  [DropboxAccess: Scan Options](/docs/accessanalyzer/11.6/enterpriseauditor/admin/datacollector/dropboxaccess/scanoptions.md)
   topic for full instructions on generating the access token
 
 **Step 5 –** If query customizations are desired, click **Next** to continue.

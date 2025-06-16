@@ -18,5 +18,5 @@ The queries for this job are:
 
 - Check LSA registry keys – Targets all domain controllers check LSA registry keys
     - See the
-      [Registry Data Collector](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/registry.md)
+      [Registry Data Collector](/docs/accessanalyzer/11.6/enterpriseauditor/admin/datacollector/registry.md)
       topic for additional information.

@@ -47,7 +47,7 @@ separated and whether to use LeetSpeak.
 Password rule
 
 Already
-defined[Password rules](/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/advanced_view/mainmenu/extras/password_rules/password_rules.md)
+defined[Password rules](/docs/passwordsecure/9.1/passwordsecure/configuration/advanced_view/mainmenu/extras/password_rules/password_rules.md)
 can be utilised for the automatic generation of new passwords
 
 ## Multigenerator

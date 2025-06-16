@@ -4,9 +4,9 @@ Use the LDAP Search operation to search for and identify activity that does not 
 security configurations.
 
 When you create a policy with the
-[LDAP Monitoring Event Type](/versioned_docs/threatprevention_7.4/threatprevention/admin/policies/eventtype/ldapmonitoring.md)
+[LDAP Monitoring Event Type](/docs/threatprevention/7.4/threatprevention/admin/policies/eventtype/ldapmonitoring.md)
 or the
-[LDAP Lockdown Event Type](/versioned_docs/threatprevention_7.4/threatprevention/admin/policies/eventtype/ldaplockdown.md),
+[LDAP Lockdown Event Type](/docs/threatprevention/7.4/threatprevention/admin/policies/eventtype/ldaplockdown.md),
 the LDAP filter allows you to enable the LDAP Search option.
 
 The Secure configurations and Search scope options filter the search based on a match to the

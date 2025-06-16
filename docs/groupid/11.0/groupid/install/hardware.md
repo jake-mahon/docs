@@ -23,4 +23,4 @@ Minimum hardware requirements for GroupID are:
 
 See Also
 
-- [Requirements](/versioned_docs/groupid_11.0/groupid/install/requirements.md)
+- [Requirements](/docs/groupid/11.0/groupid/install/requirements.md)

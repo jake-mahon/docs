@@ -3,7 +3,7 @@
 The EPE Rest Site is an optional web server that third parties can use to integrate with the Threat
 Prevention Enterprise Password Enforcer (EPE) solution. It allows third-party applications to submit
 a candidate password to check whether it complies with the current EPE rules defined on the
-[EPE Settings Window](/versioned_docs/threatprevention_7.4/threatprevention/admin/configuration/epesettings.md).
+[EPE Settings Window](/docs/threatprevention/7.4/threatprevention/admin/configuration/epesettings.md).
 
 **NOTE:** This interface does not change the password; it only validates it against the EPE rules.
 
@@ -65,7 +65,7 @@ to communicate with the other Threat Prevention components.
 Checking the **Create Windows Firewall Rules** box automatically sets the Windows firewall rules
 needed to open these ports on the server during the installation process. If using a third party
 firewall, uncheck this option and manually create the necessary firewall rules. See the
-[Firewall Ports](/versioned_docs/threatprevention_7.4/threatprevention/requirements/ports.md) topic
+[Firewall Ports](/docs/threatprevention/7.4/threatprevention/requirements/ports.md) topic
 for additional information.
 
 When the settings are configured, click **Next**.
@@ -125,5 +125,5 @@ finished, the Completed the Netwrix Threat Prevention Server Setup Wizard page i
 **Step 10 –** Click **Finish**.
 
 EPE Rest Site components have been installed. See the
-[EPE Rest Site](/versioned_docs/threatprevention_7.4/threatprevention/eperestsite/overview.md) topic
+[EPE Rest Site](/docs/threatprevention/7.4/threatprevention/eperestsite/overview.md) topic
 for additional information.

@@ -4,7 +4,7 @@ The Services Data Collector enumerates status and settings from remote services.
 Collector is a core component of Enterprise Auditor, but it has been preconfigured within the
 Windows Solution. While the data collector is available with all Enterprise Auditor license options,
 the Windows Solution is only available with a special Enterprise Auditor license. See the
-[Windows Solution](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/windows/overview.md)
+[Windows Solution](/docs/accessanalyzer/11.6/enterpriseauditor/solutions/windows/overview.md)
 topic for additional information.
 
 Protocols

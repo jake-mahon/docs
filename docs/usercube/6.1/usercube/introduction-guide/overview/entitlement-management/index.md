@@ -27,7 +27,7 @@ Thus, the role model contains:
 ![Role Model](/img/versioned_docs/usercube_6.1/usercube/introduction-guide/overview/entitlement-management/entitlements_rolemodel.webp)
 
 The role model is a subset of a policy that also includes
-[governance](/versioned_docs/usercube_6.1/usercube/introduction-guide/overview/governance/index.md)
+[governance](/docs/usercube/6.1/usercube/introduction-guide/overview/governance/index.md)
 data such as risk definition. So, at a higher level, distinct policies can be used to implement
 distinct behaviors.
 
@@ -57,7 +57,7 @@ automatically assign roles to users, or to categorize users and accounts, etc.
 ### Provisioning rules
 
 Just like identities, accounts are represented in Usercube by an
-[entity-relationship model](/versioned_docs/usercube_6.1/usercube/introduction-guide/overview/identity-management/index.md).
+[entity-relationship model](/docs/usercube/6.1/usercube/introduction-guide/overview/identity-management/index.md).
 So Usercube manages entitlements as resources' attribute values.
 
 > For example, giving specific Active Directory permissions to a new user means not only creating a
@@ -95,7 +95,7 @@ assign roles to identities based on specific criteria.
 
 Once all assignment rules are created, Usercube is able to spot existing assignments that are not
 supported by any rule, marking them as non-conforming.
-[See more details on governance](/versioned_docs/usercube_6.1/usercube/introduction-guide/overview/governance/index.md).
+[See more details on governance](/docs/usercube/6.1/usercube/introduction-guide/overview/governance/index.md).
 
 Usercube's assignment rules are:
 
@@ -134,7 +134,7 @@ do not comply with the configured rules.
 Rules can be triggered based on users' assigned roles, but also based on user data.
 
 The
-[identity model](/versioned_docs/usercube_6.1/usercube/introduction-guide/overview/identity-management/index.md)
+[identity model](/docs/usercube/6.1/usercube/introduction-guide/overview/identity-management/index.md)
 can be refined by configuring dimensions: criteria from among resources'
 [attributes](https://en.wikipedia.org/wiki/Attribute-based_access_control) that will trigger the
 application of the rules. Then Usercube applies the rule for any resource whose value for a given
@@ -167,20 +167,20 @@ users' attributes defined as dimensions. Let's schematize users around these dim
 ## Next Steps
 
 Let's learn about
-[governance](/versioned_docs/usercube_6.1/usercube/introduction-guide/overview/governance/index.md).
+[governance](/docs/usercube/6.1/usercube/introduction-guide/overview/governance/index.md).
 
 ## Learn More
 
-[Learn more on the role model](/versioned_docs/usercube_6.1/usercube/integration-guide/role-model/index.md).
+[Learn more on the role model](/docs/usercube/6.1/usercube/integration-guide/role-model/index.md).
 
-[Learn how to build the single role catalog](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/single-roles-catalog-creation/index.md).
+[Learn how to build the single role catalog](/docs/usercube/6.1/usercube/user-guide/set-up/single-roles-catalog-creation/index.md).
 
-[Learn more on composite roles](/versioned_docs/usercube_6.1/usercube/user-guide/optimize/composite-role-creation/index.md).
+[Learn more on composite roles](/docs/usercube/6.1/usercube/user-guide/optimize/composite-role-creation/index.md).
 
-[Learn more on role assignment](/versioned_docs/usercube_6.1/usercube/integration-guide/role-assignment/index.md).
+[Learn more on role assignment](/docs/usercube/6.1/usercube/integration-guide/role-assignment/index.md).
 
-[Learn more on provisioning rules](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/provisioning-rule-creation/index.md).
+[Learn more on provisioning rules](/docs/usercube/6.1/usercube/user-guide/set-up/provisioning-rule-creation/index.md).
 
-[Learn more on assignment rules](/versioned_docs/usercube_6.1/usercube/user-guide/optimize/assignment-automation/automate-role-assignment/index.md).
+[Learn more on assignment rules](/docs/usercube/6.1/usercube/user-guide/optimize/assignment-automation/automate-role-assignment/index.md).
 
-[Learn more on resource categorization rules](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/categorization/index.md).
+[Learn more on resource categorization rules](/docs/usercube/6.1/usercube/user-guide/set-up/categorization/index.md).

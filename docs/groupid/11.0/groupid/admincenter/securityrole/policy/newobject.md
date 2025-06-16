@@ -108,5 +108,5 @@ the directory.
 
 **See Also**
 
-- [Security Roles](/versioned_docs/groupid_11.0/groupid/admincenter/securityrole/overview.md)
-- [Security Role Policies](/versioned_docs/groupid_11.0/groupid/admincenter/securityrole/policy/overview.md)
+- [Security Roles](/docs/groupid/11.0/groupid/admincenter/securityrole/overview.md)
+- [Security Role Policies](/docs/groupid/11.0/groupid/admincenter/securityrole/policy/overview.md)

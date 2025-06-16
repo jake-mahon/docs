@@ -10,9 +10,9 @@ open.
 You can now make the following settings:
 
 - Authentication
-- [Multifactor Authentication](/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/server_manager/managing_databases/database_settings/multifactor_authentication_ac.md)
-- [Session timeout     ](/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/server_manager/managing_databases/database_settings/session_timeout.md)
-- [HSM connection via PKCS # 11](/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/server_manager/managing_databases/database_settings/hsm_connection.md)
+- [Multifactor Authentication](/docs/passwordsecure/9.1/passwordsecure/configuration/server_manager/managing_databases/database_settings/multifactor_authentication_ac.md)
+- [Session timeout     ](/docs/passwordsecure/9.1/passwordsecure/configuration/server_manager/managing_databases/database_settings/session_timeout.md)
+- [HSM connection via PKCS # 11](/docs/passwordsecure/9.1/passwordsecure/configuration/server_manager/managing_databases/database_settings/hsm_connection.md)
 - Automatic cleanup
 - SAML configuration
 - Deletion of users

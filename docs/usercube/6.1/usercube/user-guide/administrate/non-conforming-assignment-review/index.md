@@ -16,17 +16,17 @@ Integrators must review three main types of non-conforming entitlement assignmen
   identity.
 
 Unreconciled properties, unauthorized accounts and non-conforming roles are part of
-[non-conforming assignments](/versioned_docs/usercube_6.1/usercube/integration-guide/role-assignment/nonconformingdetection/index.md).
+[non-conforming assignments](/docs/usercube/6.1/usercube/integration-guide/role-assignment/nonconformingdetection/index.md).
 The global aim of the review is to handle the gaps between the
-[existing assignments](/versioned_docs/usercube_6.1/usercube/integration-guide/role-assignment/existingassignmentsdeduction/index.md)
+[existing assignments](/docs/usercube/6.1/usercube/integration-guide/role-assignment/existingassignmentsdeduction/index.md)
 (real values) and the
-[conforming assignments](/versioned_docs/usercube_6.1/usercube/integration-guide/role-assignment/conformingassignmentcomputation/index.md)
+[conforming assignments](/docs/usercube/6.1/usercube/integration-guide/role-assignment/conformingassignmentcomputation/index.md)
 (theoretical values computed by Usercube from the role model rules).
 
 A high number of non-conforming assignments can come from an issue in configuration rules.
 
 Non-conforming roles and unauthorized accounts can be mass reviewed through
-[automation rules](/versioned_docs/usercube_6.1/usercube/user-guide/optimize/non-conforming-assignment-review-automation/index.md).
+[automation rules](/docs/usercube/6.1/usercube/user-guide/optimize/non-conforming-assignment-review-automation/index.md).
 
 # Participants and Artifacts
 
@@ -36,14 +36,14 @@ applications' entitlements (technical side), and/or managers who know their team
 
 | Input                                                                                                          | Output                |
 | -------------------------------------------------------------------------------------------------------------- | --------------------- |
-| [Provisioning](/versioned_docs/usercube_6.1/usercube/user-guide/administrate/provisioning/index.md) (required) | Complying assignments |
+| [Provisioning](/docs/usercube/6.1/usercube/user-guide/administrate/provisioning/index.md) (required) | Complying assignments |
 
 ### Pre-existing assignments vs. non-conforming assignments
 
 The assignments specified as non-conforming during the very first execution of the role model are
 called pre-existing assignments. Pre-existing assignments are tagged differently from other
 non-conforming assignments by the
-[`SavePreExistingAccessRightsTask`](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/jobs/tasks/server/savepreexistingaccessrightstask/index.md)
+[`SavePreExistingAccessRightsTask`](/docs/usercube/6.1/usercube/integration-guide/toolkit/xml-configuration/jobs/tasks/server/savepreexistingaccessrightstask/index.md)
 because they can indicate that:
 
 - The rules are not optimal yet.
@@ -58,10 +58,10 @@ While there can be dependencies between the review of non-conforming roles and u
 properties, there are no absolute requirements regarding the sequential order of the non-conforming
 assignment review:
 
-- [Review non-conforming roles](/versioned_docs/usercube_6.1/usercube/user-guide/administrate/non-conforming-assignment-review/role-reconciliation/index.md).
-- [Review unreconciled properties](/versioned_docs/usercube_6.1/usercube/user-guide/administrate/non-conforming-assignment-review/property-reconciliation/index.md).
-- [Review unauthorized accounts](/versioned_docs/usercube_6.1/usercube/user-guide/administrate/non-conforming-assignment-review/unauthorized-account-review/index.md).
+- [Review non-conforming roles](/docs/usercube/6.1/usercube/user-guide/administrate/non-conforming-assignment-review/role-reconciliation/index.md).
+- [Review unreconciled properties](/docs/usercube/6.1/usercube/user-guide/administrate/non-conforming-assignment-review/property-reconciliation/index.md).
+- [Review unauthorized accounts](/docs/usercube/6.1/usercube/user-guide/administrate/non-conforming-assignment-review/unauthorized-account-review/index.md).
 
-[Risks](/versioned_docs/usercube_6.1/usercube/user-guide/optimize/risk-management/index.md) can be
+[Risks](/docs/usercube/6.1/usercube/user-guide/optimize/risk-management/index.md) can be
 defined to highlight the most sensitive accounts/permissions, in order to establish a priority order
 in the review of non-conforming assignments.

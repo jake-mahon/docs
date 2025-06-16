@@ -6,7 +6,7 @@ and alerting purposes. The Activity Monitor also provides operational efficienci
 into a wide spectrum of human and machine data interactions with a standardized format that is used
 to gain deeper visibility into activity associated with the access, use, and modification of data.
 
-See the [Getting Started](/versioned_docs/activitymonitor_7.1/activitymonitor/gettingstarted.md)
+See the [Getting Started](/docs/activitymonitor/7.1/activitymonitor/gettingstarted.md)
 topic for additional information.
 
 New Product Name!

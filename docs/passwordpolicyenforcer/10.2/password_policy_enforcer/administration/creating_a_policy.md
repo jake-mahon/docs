@@ -27,7 +27,7 @@ select an Policy Template from the drop-down list. For a list of policies see
 
 **Step 8 –** Click **OK** to close the Policy Properties page, and then configure the rules for this
 policy. See the
-[Assigning Policies](/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/administration/assigning_policies.md)
+[Assigning Policies](/docs/passwordpolicyenforcer/10.2/password_policy_enforcer/administration/assigning_policies.md)
 topic for additional information.
 
 ## Policy Templates

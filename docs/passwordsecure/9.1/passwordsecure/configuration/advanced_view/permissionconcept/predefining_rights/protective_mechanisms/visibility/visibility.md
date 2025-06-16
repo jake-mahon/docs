@@ -3,12 +3,12 @@
 ## Visibility of data
 
 The use of a
-[Filter](/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/advanced_view/operation_and_setup/filter/filter.md)
+[Filter](/docs/passwordsecure/9.1/passwordsecure/configuration/advanced_view/operation_and_setup/filter/filter.md)
 is generally the gateway to displaying existing records. Nevertheless, this aspect of the visibility
 of the records is closely interwoven with the existing permissions structure. Naturally, a user can
 always only see those records for which they have at least a read Permission. This doctrine should
 always be taken into consideration when handling records.
-[Tags](/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/advanced_view/operation_and_setup/tags/tags.md)
+[Tags](/docs/passwordsecure/9.1/passwordsecure/configuration/advanced_view/operation_and_setup/tags/tags.md)
 are not subject to any permissions and can thus always be used as filter criteria. Nevertheless, the
 delivered results will only contain those records for which the user themselves actually has
 permissions. A good example here is the tag “personal record”. Every user can mark their own record

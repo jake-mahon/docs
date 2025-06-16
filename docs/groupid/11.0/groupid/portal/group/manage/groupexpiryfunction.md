@@ -15,7 +15,7 @@ What do you want to do?
 1. On the left navigation bar, click **Groups** and then select the **My Groups**, **My
    Memberships**, or **My Expiring Groups** tab.
 
-    You can also [Directory Search](/versioned_docs/groupid_11.0/groupid/portal/search/search.md)
+    You can also [Directory Search](/docs/groupid/11.0/groupid/portal/search/search.md)
     the group you want to expire.
 
 2. On the page displayed, select the required group and click **Expire** on the toolbar.
@@ -26,7 +26,7 @@ NOTE: Note the following:
   message is displayed, informing you that the group cannot be expired.
 - When you manually expire a group with an expiry policy other than ‘Never Expire’, the group
   expires and is moved it to the
-  [My Expired Groups](/versioned_docs/groupid_11.0/groupid/portal/group/myexpiredgroups.md) page.
+  [My Expired Groups](/docs/groupid/11.0/groupid/portal/group/myexpiredgroups.md) page.
 - A group without an expiry policy will not expire.
 
     Directory groups that are created outside of GroupID do not have an expiry policy.
@@ -39,7 +39,7 @@ Group Lifecycle policy for the identity store), they are logically deleted when 
 Group life cycle job.
 
 Logically deleted groups are moved to the
-[My Deleted Groups](/versioned_docs/groupid_11.0/groupid/portal/group/mydeletedgroups.md) page with
+[My Deleted Groups](/docs/groupid/11.0/groupid/portal/group/mydeletedgroups.md) page with
 the “Deleted_” prefix added to their names.
 
 ## Change the expiry policy for a group
@@ -48,15 +48,15 @@ When a group is created, it has its expiry policy set to 'Never Expire'. You can
 as required.
 
 The Group Life Cycle job expires groups according to their respective expiry policies and moves them
-to the [My Expired Groups](/versioned_docs/groupid_11.0/groupid/portal/group/myexpiredgroups.md)
+to the [My Expired Groups](/docs/groupid/11.0/groupid/portal/group/myexpiredgroups.md)
 page.
 
-1. [Directory Search](/versioned_docs/groupid_11.0/groupid/portal/search/search.md) the group you
+1. [Directory Search](/docs/groupid/11.0/groupid/portal/search/search.md) the group you
    want to change the expiry policy for.
 2. Select this group on the **Search Results** page and click **Properties** on the toolbar.
 
     The group's
-    [Group Properties](/versioned_docs/groupid_11.0/groupid/portal/group/properties/overview.md)
+    [Group Properties](/docs/groupid/11.0/groupid/portal/group/properties/overview.md)
     page is displayed with the **General** tab in view.
 
 3. From the **Expiration Policy** list, select the duration that the group would remain active for,
@@ -73,12 +73,12 @@ page.
 
 NOTE: If the GroupID administrator has specified this action for review, your changes will not take
 effect until verified by an approver. See
-[Requests](/versioned_docs/groupid_11.0/groupid/portal/request/overview.md).
+[Requests](/docs/groupid/11.0/groupid/portal/request/overview.md).
 
 ## Attest an expiring group
 
 See
-[Attest an Expiring Group](/versioned_docs/groupid_11.0/groupid/portal/group/manage/attestation.md).
+[Attest an Expiring Group](/docs/groupid/11.0/groupid/portal/group/manage/attestation.md).
 
 ## Renew an expired group
 
@@ -95,4 +95,4 @@ automatically deletes it from the directory.
 
 **See Also**
 
-- [Working with Groups](/versioned_docs/groupid_11.0/groupid/portal/group/manage/workingwithgroups.md)
+- [Working with Groups](/docs/groupid/11.0/groupid/portal/group/manage/workingwithgroups.md)

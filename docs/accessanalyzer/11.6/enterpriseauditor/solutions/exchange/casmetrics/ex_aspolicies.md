@@ -36,22 +36,22 @@ Wizard opens.
 
 **Step 4 –** Navigate to the Scope page, and select the desired scoping method from those available.
 See the
-[ExchangePS: Scope](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/exchangeps/scope.md) topic
+[ExchangePS: Scope](/docs/accessanalyzer/11.6/enterpriseauditor/admin/datacollector/exchangeps/scope.md) topic
 for additional information.
 
 - Scope by Database – Select the **Scope by Database Target Host: Local Host** option. Then, click
   **Next** and identify the desired databases on the Scope by Databases page. See the
-  [ExchangePS: Scope by DB](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/exchangeps/scopedatabases.md) topic
+  [ExchangePS: Scope by DB](/docs/accessanalyzer/11.6/enterpriseauditor/admin/datacollector/exchangeps/scopedatabases.md) topic
   for additional information.
 - Scope by Mailbox – Select the **Scope by Mailbox Target Host: Local Host** option. Then, click
   **Next** and identify the desired mailboxes on the Scope by Mailboxes page. See the
-  [ExchangePS: Scope by Mailboxes](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/exchangeps/scopemailboxes.md) topic
+  [ExchangePS: Scope by Mailboxes](/docs/accessanalyzer/11.6/enterpriseauditor/admin/datacollector/exchangeps/scopemailboxes.md) topic
   for additional information.
 - Scope by Server – Select the **Scope by Server Target Host: Exchange MB Server** option. The job
   returns results for specific servers selected in job’s **Configure** > **Hosts** node.
 - Scope by Public Folder – Select the **Scope by Public Folder** option. Then, click **Next** and
   identify the desired mailboxes on the Scope by Public Folders page. See the
-  [ExchangePS: Scope by Public Folders](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/exchangeps/scopepublicfolders.md) topic
+  [ExchangePS: Scope by Public Folders](/docs/accessanalyzer/11.6/enterpriseauditor/admin/datacollector/exchangeps/scopepublicfolders.md) topic
   for additional information.
 - _Remember,_ the scoping options available vary based on the pre-defined query configurations.
 

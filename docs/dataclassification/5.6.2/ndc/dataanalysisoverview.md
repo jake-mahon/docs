@@ -11,4 +11,4 @@ DSAR areas:
 See next:
 
 - Reporting
-- [Data Subject Access Requests ](/versioned_docs/dataclassification_5.6.2/ndc/dsar/dsar_overview.md)
+- [Data Subject Access Requests ](/docs/dataclassification/5.6.2/ndc/dsar/dsar_overview.md)

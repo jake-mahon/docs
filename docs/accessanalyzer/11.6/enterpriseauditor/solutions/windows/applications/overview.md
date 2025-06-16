@@ -7,10 +7,10 @@ installed software and utilization, unauthorized programs and rogue systems, and
 
 The jobs in the Applications job group are:
 
-- [SG_InstalledApplications Job](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/windows/applications/sg_installedapplications.md)
+- [SG_InstalledApplications Job](/docs/accessanalyzer/11.6/enterpriseauditor/solutions/windows/applications/sg_installedapplications.md)
   – This job identifies installed applications on all targeted hosts, highlighting the most common
   applications installed across the audited environment
-- [SG_RunAtBoot Job](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/windows/applications/sg_runatboot.md)
+- [SG_RunAtBoot Job](/docs/accessanalyzer/11.6/enterpriseauditor/solutions/windows/applications/sg_runatboot.md)
   – This job lists applications which are set to **Run** or **Run Once** on all targeted hosts
-- [SG_ScheduledTasks Job](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/windows/applications/sg_scheduledtasks.md)
+- [SG_ScheduledTasks Job](/docs/accessanalyzer/11.6/enterpriseauditor/solutions/windows/applications/sg_scheduledtasks.md)
   – This job lists scheduled task details on all targeted hosts

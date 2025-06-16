@@ -27,10 +27,10 @@ Core Component
 
 See the following topics for additional information:
 
-- [Application Server Requirements](/versioned_docs/threatprevention_7.4/threatprevention/requirements/application.md)
-- [SQL Server Requirements](/versioned_docs/threatprevention_7.4/threatprevention/requirements/sqlserver.md)
-- [Agent Server Requirements](/versioned_docs/threatprevention_7.4/threatprevention/requirements/agent.md)
-- [Reporting Module Server Requirements](/versioned_docs/threatprevention_7.4/threatprevention/requirements/reportingserver.md)
+- [Application Server Requirements](/docs/threatprevention/7.4/threatprevention/requirements/application.md)
+- [SQL Server Requirements](/docs/threatprevention/7.4/threatprevention/requirements/sqlserver.md)
+- [Agent Server Requirements](/docs/threatprevention/7.4/threatprevention/requirements/agent.md)
+- [Reporting Module Server Requirements](/docs/threatprevention/7.4/threatprevention/requirements/reportingserver.md)
 
 Optional Components
 
@@ -40,15 +40,15 @@ Optional Components
   Threat Prevention Enterprise Password Enforcer (EPE) solution. It allows third-party applications
   to submit a candidate password to check whether it complies with the current EPE rules defined on
   the
-  [EPE Settings Window](/versioned_docs/threatprevention_7.4/threatprevention/admin/configuration/epesettings.md).
+  [EPE Settings Window](/docs/threatprevention/7.4/threatprevention/admin/configuration/epesettings.md).
 
     **NOTE:** This interface does not change the password; it only validates it against the EPE
     rules.
 
 See the following topics for additional information:
 
-- [Remote Administration Console Machine Requirements](/versioned_docs/threatprevention_7.4/threatprevention/requirements/adminconsole.md)
-- [EPE Rest Site Requirements](/versioned_docs/threatprevention_7.4/threatprevention/requirements/eperestsite.md)
+- [Remote Administration Console Machine Requirements](/docs/threatprevention/7.4/threatprevention/requirements/adminconsole.md)
+- [EPE Rest Site Requirements](/docs/threatprevention/7.4/threatprevention/requirements/eperestsite.md)
 
 Target Environment Considerations
 

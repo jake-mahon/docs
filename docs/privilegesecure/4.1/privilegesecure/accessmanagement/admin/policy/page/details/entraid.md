@@ -24,7 +24,7 @@ The details page shows the following information:
 - Synchronize Now button — Scans the domain for users, groups, members, and computers. The Cancel
   button, which is only visible when scanning can be used to stop the resource scan. This scan can
   also be scheduled from the
-  [Platforms Page](/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/policy/page/platforms/overview.md).
+  [Platforms Page](/docs/privilegesecure/4.1/privilegesecure/accessmanagement/admin/policy/page/platforms/overview.md).
 - Service Account — Displays the service account associated with the resource
 
 If any of these settings are modified, Save and Cancel buttons are displayed. Click **Save** to
@@ -32,10 +32,10 @@ commit the modifications. Click **Cancel** to discard the modifications.
 
 The details page has the following tabs:
 
-- [URLs Tab for Microsoft Entra ID](/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/policy/tab/resources/urlsentraid.md)
-- [Users Tab for Microsoft Entra ID](/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/policy/tab/resources/usersentraid.md)
-- [Groups Tab for Microsoft Entra ID](/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/policy/tab/resources/groupsentraid.md)
-- [Sessions Tab for Microsoft Entra ID](/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/policy/tab/resources/sessionsentraid.md)
-- [Access Policies Tab for Microsoft Entra ID](/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/policy/tab/resources/accesspoliciesentraid.md)
-- [History Tab for Microsoft Entra ID](/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/policy/tab/resources/historyentraid.md)
-- [Applications Tab for Microsoft Entra ID](/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/policy/tab/resources/applicationsentraid.md)
+- [URLs Tab for Microsoft Entra ID](/docs/privilegesecure/4.1/privilegesecure/accessmanagement/admin/policy/tab/resources/urlsentraid.md)
+- [Users Tab for Microsoft Entra ID](/docs/privilegesecure/4.1/privilegesecure/accessmanagement/admin/policy/tab/resources/usersentraid.md)
+- [Groups Tab for Microsoft Entra ID](/docs/privilegesecure/4.1/privilegesecure/accessmanagement/admin/policy/tab/resources/groupsentraid.md)
+- [Sessions Tab for Microsoft Entra ID](/docs/privilegesecure/4.1/privilegesecure/accessmanagement/admin/policy/tab/resources/sessionsentraid.md)
+- [Access Policies Tab for Microsoft Entra ID](/docs/privilegesecure/4.1/privilegesecure/accessmanagement/admin/policy/tab/resources/accesspoliciesentraid.md)
+- [History Tab for Microsoft Entra ID](/docs/privilegesecure/4.1/privilegesecure/accessmanagement/admin/policy/tab/resources/historyentraid.md)
+- [Applications Tab for Microsoft Entra ID](/docs/privilegesecure/4.1/privilegesecure/accessmanagement/admin/policy/tab/resources/applicationsentraid.md)

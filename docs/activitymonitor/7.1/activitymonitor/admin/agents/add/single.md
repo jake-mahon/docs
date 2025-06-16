@@ -1,7 +1,7 @@
 # Single Activity Agent Deployment
 
 Before deploying the activity agent, ensure all
-[Activity Agent Server Requirements](/versioned_docs/activitymonitor_7.1/activitymonitor/requirements/activityagent.md)
+[Activity Agent Server Requirements](/docs/activitymonitor/7.1/activitymonitor/requirements/activityagent.md)
 have been met, including those for NAS devices when applicable. Follow the steps to deploy the
 activity agent to a single Windows server.
 
@@ -60,5 +60,5 @@ errors, the Activity Monitor stops the installation and lists the errors in the 
 
 When the activity agent installation is complete, the status changes to **Installed** and the
 activity agent version populates. The next step is to add hosts to be monitored. See the
-[Monitored Hosts Tab](/versioned_docs/activitymonitor_7.1/activitymonitor/admin/monitoredhosts/overview.md)
+[Monitored Hosts Tab](/docs/activitymonitor/7.1/activitymonitor/admin/monitoredhosts/overview.md)
 topic for additional information.

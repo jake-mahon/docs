@@ -6,7 +6,7 @@ system.
 ## Overview
 
 A
-[resource type](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/provisioning/resourcetype/index.md)
+[resource type](/docs/usercube/6.1/usercube/integration-guide/toolkit/xml-configuration/provisioning/resourcetype/index.md)
 is created to highlight differences in intent between resources. It materializes the organization's
 profiles. In a given managed system, different types of resources have different security needs.
 
@@ -23,28 +23,28 @@ In practice, a specific resource type is created for a given resource when there
 
 - the owner type (for example worker, partner, customer, application, robot, etc.);
 - the required set of
-  [classification](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/categorization/classification/index.md)
+  [classification](/docs/usercube/6.1/usercube/user-guide/set-up/categorization/classification/index.md)
   and/or
-  [correlation](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/categorization/correlation/index.md)
+  [correlation](/docs/usercube/6.1/usercube/user-guide/set-up/categorization/correlation/index.md)
   rules;
 - the approval circuit for a resource's modification or assignment, i.e. the number of required
   approvals, validators, etc.;
 - the type of
-  [provisioning](/versioned_docs/usercube_6.1/usercube/user-guide/administrate/provisioning/index.md)
+  [provisioning](/docs/usercube/6.1/usercube/user-guide/administrate/provisioning/index.md)
   (manual or automatic).
 
 ### Source vs. target resource
 
 Resource types are the vessel for ownership relationships. They involve the definition of source and
 target objects chosen from among the properties of existing
-[entity types](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/connect-system/entity-type-creation/index.md).
+[entity types](/docs/usercube/6.1/usercube/user-guide/set-up/connect-system/entity-type-creation/index.md).
 The source (usually identities) is the owner of the target (usually resources from your managed
 systems, such as a nominative AD account). This relationship is the basis for
-[correlation](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/categorization/correlation/index.md)
+[correlation](/docs/usercube/6.1/usercube/user-guide/set-up/categorization/correlation/index.md)
 as much as for future
-[provisioning](/versioned_docs/usercube_6.1/usercube/user-guide/administrate/provisioning/index.md).
+[provisioning](/docs/usercube/6.1/usercube/user-guide/administrate/provisioning/index.md).
 
-[Read more about ownership relationships](/versioned_docs/usercube_6.1/usercube/introduction-guide/overview/entitlement-management/index.md).
+[Read more about ownership relationships](/docs/usercube/6.1/usercube/introduction-guide/overview/entitlement-management/index.md).
 
 ## Participants and Artifacts
 
@@ -53,12 +53,12 @@ application users, entitlements and data model.
 
 | Input                                                                                                                                                                                                                                                                                                                                                         | Output        |
 | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------- |
-| [Identity repository](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/initial-identities-loading/index.md) (optional) [Target connector](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/connect-system/index.md) (required) [Synchronized data](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/synchronization/index.md) (optional) | Resource type |
+| [Identity repository](/docs/usercube/6.1/usercube/user-guide/set-up/initial-identities-loading/index.md) (optional) [Target connector](/docs/usercube/6.1/usercube/user-guide/set-up/connect-system/index.md) (required) [Synchronized data](/docs/usercube/6.1/usercube/user-guide/set-up/synchronization/index.md) (optional) | Resource type |
 
 ## Create a Resource Type
 
 A new resource type requires an existing
-[entity type](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/connect-system/entity-type-creation/index.md).
+[entity type](/docs/usercube/6.1/usercube/user-guide/set-up/connect-system/entity-type-creation/index.md).
 
 Create a resource type by proceeding as follows:
 
@@ -81,7 +81,7 @@ Create a resource type by proceeding as follows:
       [See Microsoft lexical structure](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/language-specification/lexical-structure#see-microsoft-lexical-structure).
     - `Name`: will be displayed in the UI to identify the resource type.
     - `Policy`:
-      [policy](/versioned_docs/usercube_6.1/usercube/user-guide/optimize/policy-creation/index.md)
+      [policy](/docs/usercube/6.1/usercube/user-guide/optimize/policy-creation/index.md)
       in which the resource type exists.
     - `Source Entity Type`: entity type (from any existing connector) used to fill the target entity
       type.
@@ -89,30 +89,30 @@ Create a resource type by proceeding as follows:
       type.
     - `Category`: category assigned to the resource type. It can be chosen from among the existing
       categories or
-      [created](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/single-roles-catalog-creation/index.md)
+      [created](/docs/usercube/6.1/usercube/user-guide/set-up/single-roles-catalog-creation/index.md)
       directly from the categories list by clicking on the **+ Category** button.
     - `Approval Workflow`: represents the number of validations required to assign a resource from
       this type to an identity.
     - `Approve Role Implicitly`: relevant only for workflows with at least a simple approval
       process. `Implicit` mode bypasses the approval step(s) if the person who issues the role
       request is also the
-      [role officer](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/role-officer-management/index.md).
+      [role officer](/docs/usercube/6.1/usercube/user-guide/set-up/role-officer-management/index.md).
       `Explicit` refuses said bypass. `Inherited` follows the
-      [policy](/versioned_docs/usercube_6.1/usercube/user-guide/optimize/policy-creation/index.md)
+      [policy](/docs/usercube/6.1/usercube/user-guide/optimize/policy-creation/index.md)
       decision to approve role implicitly or not.
     - `Prolongation without a new approval workflow`: enables the resource type to have its
       assignment's end date postponed without any validation. `Inherited` follows the
-      [policy](/versioned_docs/usercube_6.1/usercube/user-guide/optimize/policy-creation/index.md)
+      [policy](/docs/usercube/6.1/usercube/user-guide/optimize/policy-creation/index.md)
       decision to enable this option or not.
     - `Hide in Simplified View`: hides the role from the users' **Simplified View** in **View
       Permissions** dialog. This setting does not apply to roles which are either inferred or have
       workflow states which require manual action.
     - `Arguments Expression`: when using a connection for automatic provisioning, C# expression used
       to compute a dictionary of strings in order to compute the arguments of
-      [provisioning](/versioned_docs/usercube_6.1/usercube/user-guide/administrate/provisioning/index.md)
+      [provisioning](/docs/usercube/6.1/usercube/user-guide/administrate/provisioning/index.md)
       orders, such as the identifier of the workflow to launch within Usercube, or the identifier of
       the user's record to copy.
-      [Find examples](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/provisioning/resourcetype/index.md).
+      [Find examples](/docs/usercube/6.1/usercube/integration-guide/toolkit/xml-configuration/provisioning/resourcetype/index.md).
     - `Allow Addition`: enables Usercube to automatically create new resources in the managed system
       when their owners are given the right entitlements. Otherwise, resource managers must create
       resources manually directly in the managed system.
@@ -141,12 +141,12 @@ Create a resource type by proceeding as follows:
 
     - `Remove If Orphaned`: enables Usercube to automatically deprovision resources when their owner
       is deleted. Otherwise, said resources are displayed on the
-      [**Resource Reconciliation**](/versioned_docs/usercube_6.1/usercube/user-guide/administrate/non-conforming-assignment-review/property-reconciliation/index.md)
+      [**Resource Reconciliation**](/docs/usercube/6.1/usercube/user-guide/administrate/non-conforming-assignment-review/property-reconciliation/index.md)
       screen. Can be activated only if `Allow Removal` is activated too.
     - `Require Provisioning Review`: forces an additional mandatory review of all
-      [provisioning](/versioned_docs/usercube_6.1/usercube/user-guide/administrate/provisioning/index.md)
+      [provisioning](/docs/usercube/6.1/usercube/user-guide/administrate/provisioning/index.md)
       orders for the resource type (on the
-      [**Provisioning Review**](/versioned_docs/usercube_6.1/usercube/user-guide/administrate/provisioning/provisioning-review/index.md)
+      [**Provisioning Review**](/docs/usercube/6.1/usercube/user-guide/administrate/provisioning/provisioning-review/index.md)
       screen).
 
         > Consider AD accounts. While nominative accounts can be provisioned without specific
@@ -173,7 +173,7 @@ Create a resource type by proceeding as follows:
         > name. However, `Discard Manual Assignments` should be enabled because the HR system should
         > still be the authoritative source in case of another change.
         >
-        > [See a full example](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/provisioning/resourcetype/index.md).
+        > [See a full example](/docs/usercube/6.1/usercube/integration-guide/toolkit/xml-configuration/provisioning/resourcetype/index.md).
 
     - `Correlate Multiple Resources`: enables Usercube to link a single owner to several existing
       target objects from this resource type.
@@ -196,7 +196,7 @@ Create a resource type by proceeding as follows:
 
         > This option can be used so that a user must have an AD account before they can own an
         > Exchange account, because the Exchange account needs the AD account's address.
-        > [Find a full example](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/provisioning/resourcetype/index.md).
+        > [Find a full example](/docs/usercube/6.1/usercube/integration-guide/toolkit/xml-configuration/provisioning/resourcetype/index.md).
 
     - `Depends On Owner Property`: potential properties which must be filled for a given identity
       before this resource type can be created for said identity.
@@ -205,13 +205,13 @@ Create a resource type by proceeding as follows:
         > own an AD administrator account, because the AD administrator account needs this random
         > identifier computed by ServiceNow in order to be able to perform manual provisioning in
         > ServiceNow.
-        > [Find a full example](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/provisioning/resourcetype/index.md).
+        > [Find a full example](/docs/usercube/6.1/usercube/integration-guide/toolkit/xml-configuration/provisioning/resourcetype/index.md).
 
 3. Fill the **Fulfill Settings** arguments according to the selected
-   [package](/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/references-connectors/index.md).
+   [package](/docs/usercube/6.1/usercube/integration-guide/connectors/references-connectors/index.md).
 
     Integrators need to know the required
-    [provisioning](/versioned_docs/usercube_6.1/usercube/user-guide/administrate/provisioning/index.md)
+    [provisioning](/docs/usercube/6.1/usercube/user-guide/administrate/provisioning/index.md)
     connection, especially whether the connection is about manual or automated provisioning.
     Automatic provisioning means that Usercube writes in the managed system. Manual provisioning
     means that Usercube isn't allowed to write directly inside the managed system, and thus it

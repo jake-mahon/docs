@@ -1,9 +1,9 @@
 # Add Owner Window
 
 The Add Owner window opens from either the
-[Add New Resource Wizard](/versioned_docs/auditor_10.6/access/reviews/resourceowners/wizard/add.md)
+[Add New Resource Wizard](/docs/auditor/10.6/access/reviews/resourceowners/wizard/add.md)
 of the
-[Update Resource Wizard](/versioned_docs/auditor_10.6/access/reviews/resourceowners/wizard/update.md).
+[Update Resource Wizard](/docs/auditor/10.6/access/reviews/resourceowners/wizard/update.md).
 This window is used to search for a user account by browsing Active Directory.
 
 ![Add Owner window showing Search options](/img/versioned_docs/auditor_10.6/access/reviews/resourceowners/window/addowner.webp)

@@ -17,9 +17,9 @@ them to perform their job:
 
 If these permissions are denied, the Helpdesk policy would have no impact, as role members would not
 be authorized to perform the respective operations. See
-[Password Management](/versioned_docs/groupid_11.0/groupid/admincenter/securityrole/permissions.md#password-management)
+[Password Management](/docs/groupid/11.0/groupid/admincenter/securityrole/permissions.md#password-management)
 in the
-[Security Role – Permissions](/versioned_docs/groupid_11.0/groupid/admincenter/securityrole/permissions.md)
+[Security Role – Permissions](/docs/groupid/11.0/groupid/admincenter/securityrole/permissions.md)
 topic.
 
 The Helpdesk policy defines:
@@ -113,7 +113,7 @@ done through all or some of the authentication types the user's account is enrol
     - **Enforce multifactor authentication as applies to end user:** to force helpdesk role members
       to authenticate an end-user as per the authentication policy defined for the security role of
       that user. See
-      the[Enforce Authentication Types for Multifactor Authentication](/versioned_docs/groupid_11.0/groupid/admincenter/securityrole/policy/authentication.md#enforce-authentication-types-for-multifactor-authentication)
+      the[Enforce Authentication Types for Multifactor Authentication](/docs/groupid/11.0/groupid/admincenter/securityrole/policy/authentication.md#enforce-authentication-types-for-multifactor-authentication)
       topic.
 
         Or
@@ -139,7 +139,7 @@ authenticate end-users before unlocking their identity store accounts or resetti
 RECOMMENDED: As a prerequisite to applying this setting, make sure that the Security Questions
 authentication type is enabled and configured for the identity store, as well as enforced as an
 account enrollment method for security roles. See the
-[Set up Authentication via Security Questions](/versioned_docs/groupid_11.0/groupid/admincenter/setupauth/securityquestions.md)
+[Set up Authentication via Security Questions](/docs/groupid/11.0/groupid/admincenter/setupauth/securityquestions.md)
 topic.
 
 **To enforce security questions for authentication:**
@@ -246,11 +246,11 @@ methods, or limit them to use one of these methods:
 
 NOTE: (1) An SMS gateway account must be linked with the identity store for an SMS to be sent on the
 end-users' mobile phones. See the
-[Link an SMS Gateway Account to an Identity Store](/versioned_docs/groupid_11.0/groupid/admincenter/identitystore/configure/security/smsauthentication.md#link-an-sms-gateway-account-to-an-identity-store)
+[Link an SMS Gateway Account to an Identity Store](/docs/groupid/11.0/groupid/admincenter/identitystore/configure/security/smsauthentication.md#link-an-sms-gateway-account-to-an-identity-store)
 topic.  
  (2) An SMTP server must be configured for the identity store for email to be sent to end-users. See
 the
-[Configure an SMTP Server](/versioned_docs/groupid_11.0/groupid/admincenter/identitystore/configure/smtpserver.md)
+[Configure an SMTP Server](/docs/groupid/11.0/groupid/admincenter/identitystore/configure/smtpserver.md)
 topic.
 
 ### Force Users to Change Password on Next Logon
@@ -277,6 +277,6 @@ change the password the next time they login to their workstations.
 
 **See Also**
 
-- [Security Roles](/versioned_docs/groupid_11.0/groupid/admincenter/securityrole/overview.md)
-- [Security Role Policies](/versioned_docs/groupid_11.0/groupid/admincenter/securityrole/policy/overview.md)
-- [Authentication Policy](/versioned_docs/groupid_11.0/groupid/admincenter/identitystore/configure/authpolicy.md)
+- [Security Roles](/docs/groupid/11.0/groupid/admincenter/securityrole/overview.md)
+- [Security Role Policies](/docs/groupid/11.0/groupid/admincenter/securityrole/policy/overview.md)
+- [Authentication Policy](/docs/groupid/11.0/groupid/admincenter/identitystore/configure/authpolicy.md)

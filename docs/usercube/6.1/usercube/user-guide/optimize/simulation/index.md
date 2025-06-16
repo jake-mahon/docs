@@ -1,34 +1,34 @@
 # Perform a Simulation
 
 How to assess the impact of a modification on the role model, including the
-[role catalog](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/single-roles-catalog-creation/index.md),
-[role assignment rules](/versioned_docs/usercube_6.1/usercube/user-guide/optimize/assignment-automation/automate-role-assignment/index.md)
+[role catalog](/docs/usercube/6.1/usercube/user-guide/set-up/single-roles-catalog-creation/index.md),
+[role assignment rules](/docs/usercube/6.1/usercube/user-guide/optimize/assignment-automation/automate-role-assignment/index.md)
 and
-[resource correlation rules](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/categorization/correlation/index.md),
+[resource correlation rules](/docs/usercube/6.1/usercube/user-guide/set-up/categorization/correlation/index.md),
 using a dedicated
-[policy](/versioned_docs/usercube_6.1/usercube/user-guide/optimize/policy-creation/index.md).
+[policy](/docs/usercube/6.1/usercube/user-guide/optimize/policy-creation/index.md).
 
 ## Overview
 
 Usercube's simulations gather roles and rules which are to be created, modified or deleted, without
 being inserted in the actual role model straight away. More specifically, a simulation can involve:
 
-- [correlation rules](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/provisioning/resourcecorrelationrule/index.md)
+- [correlation rules](/docs/usercube/6.1/usercube/integration-guide/toolkit/xml-configuration/provisioning/resourcecorrelationrule/index.md)
   and
-  [classification rules](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/provisioning/resourceclassificationrule/index.md);
-- [scalar rules](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/provisioning/resourcetype/index.md)
+  [classification rules](/docs/usercube/6.1/usercube/integration-guide/toolkit/xml-configuration/provisioning/resourceclassificationrule/index.md);
+- [scalar rules](/docs/usercube/6.1/usercube/integration-guide/toolkit/xml-configuration/provisioning/resourcetype/index.md)
   and
-  [navigation rules](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/provisioning/resourcetype/index.md);
-- [resource type rules](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/provisioning/resourcetype/index.md);
-- [single roles](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/provisioning/singlerole/index.md)
+  [navigation rules](/docs/usercube/6.1/usercube/integration-guide/toolkit/xml-configuration/provisioning/resourcetype/index.md);
+- [resource type rules](/docs/usercube/6.1/usercube/integration-guide/toolkit/xml-configuration/provisioning/resourcetype/index.md);
+- [single roles](/docs/usercube/6.1/usercube/integration-guide/toolkit/xml-configuration/provisioning/singlerole/index.md)
   and
-  [composite roles](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/provisioning/compositerole/index.md);
-- [single role rules](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/provisioning/singlerolerule/index.md)
+  [composite roles](/docs/usercube/6.1/usercube/integration-guide/toolkit/xml-configuration/provisioning/compositerole/index.md);
+- [single role rules](/docs/usercube/6.1/usercube/integration-guide/toolkit/xml-configuration/provisioning/singlerolerule/index.md)
   and
-  [composite role rules](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/provisioning/compositerolerule/index.md).
+  [composite role rules](/docs/usercube/6.1/usercube/integration-guide/toolkit/xml-configuration/provisioning/compositerolerule/index.md).
 
 A simulation can also be created by the
-[role mining tool](/versioned_docs/usercube_6.1/usercube/user-guide/optimize/assignment-automation/role-mining/index.md)
+[role mining tool](/docs/usercube/6.1/usercube/user-guide/optimize/assignment-automation/role-mining/index.md)
 for the automation of role assignments.
 
 Through simulation, integrators can:
@@ -50,7 +50,7 @@ Integrators are able to perform simulation if they master the new role model.
 
 | Input                                                                                                                                                                                                                                                                                                                                                                                               | Output             |
 | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------ |
-| [Role catalog](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/single-roles-catalog-creation/index.md) (optional) [Role assignment rules](/versioned_docs/usercube_6.1/usercube/user-guide/optimize/assignment-automation/automate-role-assignment/index.md) (optional) [Categorized resources](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/categorization/index.md) (optional) | Updated role model |
+| [Role catalog](/docs/usercube/6.1/usercube/user-guide/set-up/single-roles-catalog-creation/index.md) (optional) [Role assignment rules](/docs/usercube/6.1/usercube/user-guide/optimize/assignment-automation/automate-role-assignment/index.md) (optional) [Categorized resources](/docs/usercube/6.1/usercube/user-guide/set-up/categorization/index.md) (optional) | Updated role model |
 
 ## Launch a Simulation
 
@@ -104,7 +104,7 @@ After all needed changes have been simulated, you can decide to apply or cancel 
 Then, the simulation is no longer active.
 
 Clicking on **Apply** applies the simulated changes to the role model. You need to launch the
-[Compute-RoleModel](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/jobs/tasks/server/computerolemodeltask/index.md)
+[Compute-RoleModel](/docs/usercube/6.1/usercube/integration-guide/toolkit/xml-configuration/jobs/tasks/server/computerolemodeltask/index.md)
 task to observe the actual changes in users' entitlements.
 
 ## Impact of Modifications

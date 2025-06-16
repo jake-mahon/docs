@@ -29,7 +29,7 @@ to finish choosing the configuration options or click **Cancel** to close the Dr
 Data Collector Wizard.
 
 Create a Connection Profile using this access token as the credential. See the
-[Custom Dropbox Connection Profile & Host List](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/dropboxaccess/configurejob.md)
+[Custom Dropbox Connection Profile & Host List](/docs/accessanalyzer/11.6/enterpriseauditor/admin/datacollector/dropboxaccess/configurejob.md)
 topic for additional information on configuring the Dropbox credential.
 
 _Remember,_ assign this Connection Profile to the job group or job where the host assignment for the

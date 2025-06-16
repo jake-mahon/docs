@@ -7,20 +7,20 @@ Active Directory objects. Some operations have wizard pages to specify the confi
 
 The Operations drop-down menu contains the following operations:
 
-- [Clear/Set SID History ](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/action/activedirectory/operations/sidhistory.md)
-- [Computer Details](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/action/activedirectory/operations/computerdetails.md)
-- [Disable/Enable Computers](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/action/activedirectory/operations/disableenablecomputers.md)
-- [Create Groups](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/action/activedirectory/operations/creategroups.md)
-- [Create Users](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/action/activedirectory/operations/createusers.md)
+- [Clear/Set SID History ](/docs/accessanalyzer/11.6/enterpriseauditor/admin/action/activedirectory/operations/sidhistory.md)
+- [Computer Details](/docs/accessanalyzer/11.6/enterpriseauditor/admin/action/activedirectory/operations/computerdetails.md)
+- [Disable/Enable Computers](/docs/accessanalyzer/11.6/enterpriseauditor/admin/action/activedirectory/operations/disableenablecomputers.md)
+- [Create Groups](/docs/accessanalyzer/11.6/enterpriseauditor/admin/action/activedirectory/operations/creategroups.md)
+- [Create Users](/docs/accessanalyzer/11.6/enterpriseauditor/admin/action/activedirectory/operations/createusers.md)
 - [Delete Objects](#delete-objects)
-- [Disable/Enable Users](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/action/activedirectory/operations/disableenableusers.md)
-- [Group Details](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/action/activedirectory/operations/groupdetails.md)
-- [Group Membership](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/action/activedirectory/operations/groupmembership.md)
+- [Disable/Enable Users](/docs/accessanalyzer/11.6/enterpriseauditor/admin/action/activedirectory/operations/disableenableusers.md)
+- [Group Details](/docs/accessanalyzer/11.6/enterpriseauditor/admin/action/activedirectory/operations/groupdetails.md)
+- [Group Membership](/docs/accessanalyzer/11.6/enterpriseauditor/admin/action/activedirectory/operations/groupmembership.md)
 - [Groups Remove All Members ](#groups-remove-all-members)
-- [Move Objects](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/action/activedirectory/operations/moveobjects.md)
-- [Set/Reset Users Password ](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/action/activedirectory/operations/setresetpassword.md)
+- [Move Objects](/docs/accessanalyzer/11.6/enterpriseauditor/admin/action/activedirectory/operations/moveobjects.md)
+- [Set/Reset Users Password ](/docs/accessanalyzer/11.6/enterpriseauditor/admin/action/activedirectory/operations/setresetpassword.md)
 - [Unlock Users ](#unlock-users)
-- [Users Details ](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/action/activedirectory/operations/usersdetails.md)
+- [Users Details ](/docs/accessanalyzer/11.6/enterpriseauditor/admin/action/activedirectory/operations/usersdetails.md)
 
 Select an operation from the drop-down list and then click **Add**. The selection appears in the
 Selections pane as well as the navigation pane if there is an associated configuration page. If

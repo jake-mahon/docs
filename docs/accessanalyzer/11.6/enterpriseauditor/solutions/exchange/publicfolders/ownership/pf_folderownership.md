@@ -81,7 +81,7 @@ using the following settings:
     _Remember,_ the scoping options available vary based on the pre-defined query configurations.
 
 See the
-[ExchangePublicFolder: Scope](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/exchangepublicfolder/scope.md)
+[ExchangePublicFolder: Scope](/docs/accessanalyzer/11.6/enterpriseauditor/admin/datacollector/exchangepublicfolder/scope.md)
 topic for additional information.
 
 ![Exchange Public Folder Data Collector Wizard Probable Owner Settings page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/exchange/publicfolders/ownership/dcwizardprobableownersettings.webp)
@@ -95,7 +95,7 @@ calculation is configured with the following defaults:
 - Output options – Configures the number of returned probable owners
 
 See the
-[ExchangePublicFolder: Probable Owner](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/exchangepublicfolder/probableowner.md)
+[ExchangePublicFolder: Probable Owner](/docs/accessanalyzer/11.6/enterpriseauditor/admin/datacollector/exchangepublicfolder/probableowner.md)
 topic for additional information.
 
 **Step 6 –** Navigate to the Summary page. Click **Finish**.

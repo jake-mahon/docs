@@ -45,7 +45,7 @@ To view history:
     - **Removed Item(s):** This box is displayed for actions showing deletion. It displays a short
       description of the action.
 3. The **Add Note** button is available if you performed this action. See
-   [Annotate History Items](/versioned_docs/groupid_11.0/groupid/admincenter/identitystore/history/details.md#annotate-history-items)
+   [Annotate History Items](/docs/groupid/11.0/groupid/admincenter/identitystore/history/details.md#annotate-history-items)
    to manage notes.
 4. Click **Close**.
 
@@ -53,21 +53,21 @@ To view history:
 
 Filters on the **Admin Center History** page are similar to those on the **Identity Store History**
 page. Refer to the
-[Filter History Data](/versioned_docs/groupid_11.0/groupid/admincenter/identitystore/history/view.md#filter-history-data)
+[Filter History Data](/docs/groupid/11.0/groupid/admincenter/identitystore/history/view.md#filter-history-data)
 topic to apply the filters.
 
 ### Navigate the History Data
 
 Navigation options on the **Admin Center History** page are similar to those on the **Identity Store
 History** page. Refer to the
-[Navigate Through History Items](/versioned_docs/groupid_11.0/groupid/admincenter/identitystore/history/view.md#navigate-through-history-items)
+[Navigate Through History Items](/docs/groupid/11.0/groupid/admincenter/identitystore/history/view.md#navigate-through-history-items)
 topic for help.
 
 ## Annotate History Items
 
 1. In Admin Center, click **History** in the left pane.
 2. On the **Admin Center History** page, click a history item and proceed to add a note. See the
-   [Annotate History Items](/versioned_docs/groupid_11.0/groupid/admincenter/identitystore/history/details.md#annotate-history-items)
+   [Annotate History Items](/docs/groupid/11.0/groupid/admincenter/identitystore/history/details.md#annotate-history-items)
    topic for details.
 
 ## Export Admin Center History
@@ -88,5 +88,5 @@ You can export Admin Center history to Microsoft Excel, CSV, and XML formats.
 
 **See Also**
 
-- [History in GroupID](/versioned_docs/groupid_11.0/groupid/admincenter/history.md)
-- [Event Logging](/versioned_docs/groupid_11.0/groupid/admincenter/identitystore/history/eventlogging.md)
+- [History in GroupID](/docs/groupid/11.0/groupid/admincenter/history.md)
+- [Event Logging](/docs/groupid/11.0/groupid/admincenter/identitystore/history/eventlogging.md)

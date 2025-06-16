@@ -64,5 +64,5 @@ are reported as `null` instead of being omitted. Dates are in UTC, in `YYYY-MM-D
 
 See the following topics for additional information about REST API:
 
-- [Security and Access Control](/versioned_docs/activitymonitor_7.1/activitymonitor/restapi/security.md)
-- [Resources](/versioned_docs/activitymonitor_7.1/activitymonitor/restapi/resources.md)
+- [Security and Access Control](/docs/activitymonitor/7.1/activitymonitor/restapi/security.md)
+- [Resources](/docs/activitymonitor/7.1/activitymonitor/restapi/resources.md)

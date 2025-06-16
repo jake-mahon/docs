@@ -1,7 +1,7 @@
 # C# utility functions
 
 These functions can be called in any C# expression specified in the configuration (see
-[Expression attributes](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/expressions/index.md))
+[Expression attributes](/docs/usercube/6.1/usercube/integration-guide/toolkit/expressions/index.md))
 
 These are static functions defined in the class `Usercube.Expressions.Functions.UtilExpressions`.
 
@@ -19,7 +19,7 @@ be used, without needing to add a prefix.
 Builds a username by concatenating a first name, a separator, a last name and a possible suffix.
 
 First name and last name are simplified using the
-[Simplify](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/expressions/predefined-functions/index.md)
+[Simplify](/docs/usercube/6.1/usercube/integration-guide/toolkit/expressions/predefined-functions/index.md)
 function.
 
 ```
@@ -27,7 +27,7 @@ string? BuildUsername(string? firstName, string? lastName, string? separator, st
 ```
 
 The iteration argument is usually used in a
-[BuildUniqueValue](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/workflows/aspects/builduniquevalueaspect/index.md)
+[BuildUniqueValue](/docs/usercube/6.1/usercube/integration-guide/toolkit/xml-configuration/workflows/aspects/builduniquevalueaspect/index.md)
 aspect. If the iteration number is greater than 0, it is inserted after the last name.
 
 ### Example of use in a BuildUniqueValue aspect:
@@ -55,7 +55,7 @@ string? BuildUsernameWithInitials(string? firstName, string? lastName, string? s
 The `maxLength` argument limits the length of the username.
 
 The iteration argument is usually used in a
-[BuildUniqueValue](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/workflows/aspects/builduniquevalueaspect/index.md)
+[BuildUniqueValue](/docs/usercube/6.1/usercube/integration-guide/toolkit/xml-configuration/workflows/aspects/builduniquevalueaspect/index.md)
 aspect. If it is greater than 0, we use several letters of the first name avoiding as much as
 possible to insert a number in the built username.
 

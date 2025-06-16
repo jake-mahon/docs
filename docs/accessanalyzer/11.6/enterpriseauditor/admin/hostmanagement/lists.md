@@ -25,7 +25,7 @@ icon in front of the host list will indicate which type of host list it is:
 
 You can view host inventory information at the Host Discovery node (the Host Master Table) or at
 individual host list nodes. See the
-[Host Inventory Data Grid](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/hostmanagement/datagrid.md)
+[Host Inventory Data Grid](/docs/accessanalyzer/11.6/enterpriseauditor/admin/hostmanagement/datagrid.md)
 topic for information on the data collected by host inventory.
 
 ## Dynamic Host Lists
@@ -34,15 +34,15 @@ Dynamic host lists are lists of hosts that are grouped according to selected cri
 host inventory. Each time a host inventory record is refreshed, the hosts are automatically added to
 or removed from dynamic host lists in accordance with the criteria set for the list. They include
 both the default host lists and custom created dynamic host lists. See the
-[Host Inventory](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/settings/hostinventory.md)
+[Host Inventory](/docs/accessanalyzer/11.6/enterpriseauditor/admin/settings/hostinventory.md)
 topic for a list of the default host lists and instructions on controlling which of these lists are
 visible under the Host Management node.
 
 Custom dynamic host lists are created by filtering the data grid and using the
-[Save Current View](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/hostmanagement/actions/saveview.md)
+[Save Current View](/docs/accessanalyzer/11.6/enterpriseauditor/admin/hostmanagement/actions/saveview.md)
 option in the Activities pane or right-click menu. This can be done at the Host Management node with
 the Host Master Table or at any host list node. See the
-[Filter](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/navigate/datagrid.md#filter)
+[Filter](/docs/accessanalyzer/11.6/enterpriseauditor/admin/navigate/datagrid.md#filter)
 topic for additional information on filtering data grids.
 
 **_RECOMMENDED:_** Do not modify the criteria once a dynamic based list has been created. It is
@@ -52,7 +52,7 @@ better to delete and recreate the list in order to modify a dynamic-based list.
 
 Static host lists are created either through host discovery queries or manually entered within the
 **Host Management** node. Lists created by
-[Host Discovery Node](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/hostdiscovery/overview.md)
+[Host Discovery Node](/docs/accessanalyzer/11.6/enterpriseauditor/admin/hostdiscovery/overview.md)
 queries are updated each time the query is run, manually or scheduled. Other static host lists can
 only be changed manually. Custom host lists are frequently created in order to scope a job to
 execute against a select set of hosts.
@@ -64,14 +64,14 @@ for file shares.
 There are two common ways to create static host lists:
 
 - Use the
-  [Add Hosts](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/hostmanagement/actions/add.md)
+  [Add Hosts](/docs/accessanalyzer/11.6/enterpriseauditor/admin/hostmanagement/actions/add.md)
   option in the Activities pane or right-click menu to access the Host List Wizard
 - Select multiple hosts from the data grid using the Windows Ctrl and left-click function. This can
   be done from the Host Mast Table or any host list under the Host Management node. Then use the
-  [Save Selected To List](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/hostmanagement/actions/savetolist.md)
+  [Save Selected To List](/docs/accessanalyzer/11.6/enterpriseauditor/admin/hostmanagement/actions/savetolist.md)
   option in the Activities pane or right-click menu to open the Host List Wizard with a pre-filled
   in Manual Host Entry page.
 
 See the
-[Add Hosts](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/hostmanagement/actions/add.md)
+[Add Hosts](/docs/accessanalyzer/11.6/enterpriseauditor/admin/hostmanagement/actions/add.md)
 section for information using the Host List Wizard.

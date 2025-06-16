@@ -21,5 +21,5 @@ their corresponding role:
 - Enterprise Auditor Console launches and exits
 
 See the
-[Application Maintenance and Best Practices](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/maintenance/overview.md)
+[Application Maintenance and Best Practices](/docs/accessanalyzer/11.6/enterpriseauditor/admin/maintenance/overview.md)
 topic for additional information.

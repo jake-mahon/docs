@@ -3,7 +3,7 @@
 The ServiceNow® node is for configuring the settings needed to integrate with ServiceNow. These
 settings are exclusive to the Enterprise Auditor integration with ServiceNow and are used by the
 ServiceNow Action Module. See the
-[ServiceNow Action Module](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/action/servicenow/overview.md)
+[ServiceNow Action Module](/docs/accessanalyzer/11.6/enterpriseauditor/admin/action/servicenow/overview.md)
 topic for additional information.
 
 ![ServiceNow node](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/settings/servicenow.webp)

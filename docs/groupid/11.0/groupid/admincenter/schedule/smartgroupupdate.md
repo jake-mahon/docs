@@ -36,14 +36,14 @@ What do you want to do?
    responsible for triggering this schedule. The number of services displayed in the list depend on
    the number of Elasticsearch clusters in the environment, as each cluster has its own Scheduler
    service. See the
-   [Scheduler Service](/versioned_docs/groupid_11.0/groupid/admincenter/service/schedulerservice.md)
+   [Scheduler Service](/docs/groupid/11.0/groupid/admincenter/service/schedulerservice.md)
    topic.
 9. You can specify containers and groups as targets for the schedule. or a container, the schedule
    processes all groups in it and its sub-containers. In the case of groups, the schedule processes
    the added groups only (i.e., it does not process nested groups).
 
     1. To specific containers as target, follow step 9 in the
-       [Create a Group Usage Service Schedule](/versioned_docs/groupid_11.0/groupid/admincenter/schedule/groupusageservice.md#create-a-group-usage-service-schedule)
+       [Create a Group Usage Service Schedule](/docs/groupid/11.0/groupid/admincenter/schedule/groupusageservice.md#create-a-group-usage-service-schedule)
        topic. The schedule will process all Smart Groups and Dynasties in the containers and their
        sub-containers listed in the **Target(s)** area.
     2. To add Smart Groups and Dynasties as targets, click **Add Group**. On the **Add Object(s)**
@@ -67,11 +67,11 @@ What do you want to do?
 
 10. Click **Add Triggers** in the **Triggers** area to specify a triggering criterion for the
     schedule, that, when met, starts the execution of the schedule. Follow step 11 in the
-    [Create a Group Usage Service Schedule](/versioned_docs/groupid_11.0/groupid/admincenter/schedule/groupusageservice.md#create-a-group-usage-service-schedule)
+    [Create a Group Usage Service Schedule](/docs/groupid/11.0/groupid/admincenter/schedule/groupusageservice.md#create-a-group-usage-service-schedule)
     topic to add triggers.
 11. Click **Add Authentication** in the **Authentication** area to specify an account for running
     the schedule in the identity store. Follow step 12 in the
-    [Create a Group Usage Service Schedule](/versioned_docs/groupid_11.0/groupid/admincenter/schedule/groupusageservice.md#create-a-group-usage-service-schedule)
+    [Create a Group Usage Service Schedule](/docs/groupid/11.0/groupid/admincenter/schedule/groupusageservice.md#create-a-group-usage-service-schedule)
     topic for details.
 12. To enable notifications for the schedule, click **Notifications**. On the **Notifications**
     dialog box, specify an event for triggering notifications for the schedule and add recipients.
@@ -117,9 +117,9 @@ What do you want to do?
 13. On the **Create Schedule** page, click **Create Schedule**.
 14. On the Schedules page, click **Save**.  
     The schedule is displayed under **Smart Group Update**. See the
-    [View the Schedules in an Identity Store ](/versioned_docs/groupid_11.0/groupid/admincenter/schedule/manage.md#view-the-schedules-in-an-identity-store)
+    [View the Schedules in an Identity Store ](/docs/groupid/11.0/groupid/admincenter/schedule/manage.md#view-the-schedules-in-an-identity-store)
     topic for more info.
 
 See Also
 
-- [Schedules](/versioned_docs/groupid_11.0/groupid/admincenter/schedule/overview.md)
+- [Schedules](/docs/groupid/11.0/groupid/admincenter/schedule/overview.md)

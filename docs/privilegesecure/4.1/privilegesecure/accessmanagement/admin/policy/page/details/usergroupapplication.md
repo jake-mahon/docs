@@ -17,7 +17,7 @@ The page has the following features:
   be able to create a session. Click the button to unlock the account.
 - Reset MFA — Click the button to force the user to reset MFA for Privilege Secure login. Resetting
   the user's MFA will generate a new TOTP secret for the user to register an authenticator. See
-  [Reset User MFA](/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/policy/window/usersgroups/resetmfa.md)
+  [Reset User MFA](/docs/privilegesecure/4.1/privilegesecure/accessmanagement/admin/policy/window/usersgroups/resetmfa.md)
   topic for additional information.
 
     **NOTE:** This button will not be visible if the present user has their Authentication Connector
@@ -28,26 +28,26 @@ additional information:
 
 - User Details:
 
-    - [Sessions Tab](/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/policy/tab/usersgroups/sessions.md)
-    - [Policies Tab](/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/policy/tab/usersgroups/policies.md)
-    - [Local Rights Tab](/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/policy/tab/usersgroups/localrights.md)
-    - [History Tab](/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/policy/tab/usersgroups/history.md)
-    - [Authentication Connector Tab](/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/policy/tab/usersgroups/authenticationconnector.md)
-    - [User Roles Tab](/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/policy/tab/usersgroups/userroles.md)
+    - [Sessions Tab](/docs/privilegesecure/4.1/privilegesecure/accessmanagement/admin/policy/tab/usersgroups/sessions.md)
+    - [Policies Tab](/docs/privilegesecure/4.1/privilegesecure/accessmanagement/admin/policy/tab/usersgroups/policies.md)
+    - [Local Rights Tab](/docs/privilegesecure/4.1/privilegesecure/accessmanagement/admin/policy/tab/usersgroups/localrights.md)
+    - [History Tab](/docs/privilegesecure/4.1/privilegesecure/accessmanagement/admin/policy/tab/usersgroups/history.md)
+    - [Authentication Connector Tab](/docs/privilegesecure/4.1/privilegesecure/accessmanagement/admin/policy/tab/usersgroups/authenticationconnector.md)
+    - [User Roles Tab](/docs/privilegesecure/4.1/privilegesecure/accessmanagement/admin/policy/tab/usersgroups/userroles.md)
 
 - Group Details:
 
-    - [Sessions Tab](/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/policy/tab/usersgroups/sessions.md)
-    - [Members Tab](/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/policy/tab/usersgroups/members.md)
-    - [Policies Tab](/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/policy/tab/usersgroups/policies.md)
-    - [History Tab](/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/policy/tab/usersgroups/history.md)
-    - [Authentication Connector Tab](/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/policy/tab/usersgroups/authenticationconnector.md)
-    - [Group Roles Tab](/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/policy/tab/usersgroups/grouproles.md)
+    - [Sessions Tab](/docs/privilegesecure/4.1/privilegesecure/accessmanagement/admin/policy/tab/usersgroups/sessions.md)
+    - [Members Tab](/docs/privilegesecure/4.1/privilegesecure/accessmanagement/admin/policy/tab/usersgroups/members.md)
+    - [Policies Tab](/docs/privilegesecure/4.1/privilegesecure/accessmanagement/admin/policy/tab/usersgroups/policies.md)
+    - [History Tab](/docs/privilegesecure/4.1/privilegesecure/accessmanagement/admin/policy/tab/usersgroups/history.md)
+    - [Authentication Connector Tab](/docs/privilegesecure/4.1/privilegesecure/accessmanagement/admin/policy/tab/usersgroups/authenticationconnector.md)
+    - [Group Roles Tab](/docs/privilegesecure/4.1/privilegesecure/accessmanagement/admin/policy/tab/usersgroups/grouproles.md)
 
 - Application Details:
 
-    - [Sessions Tab](/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/policy/tab/usersgroups/sessions.md)
-    - [Policies Tab](/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/policy/tab/usersgroups/policies.md)
-    - [History Tab](/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/policy/tab/usersgroups/history.md)
-    - [Authentication Tab](/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/policy/tab/usersgroups/authentication.md)
-    - [Properties Tab](/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/policy/tab/usersgroups/properties.md)
+    - [Sessions Tab](/docs/privilegesecure/4.1/privilegesecure/accessmanagement/admin/policy/tab/usersgroups/sessions.md)
+    - [Policies Tab](/docs/privilegesecure/4.1/privilegesecure/accessmanagement/admin/policy/tab/usersgroups/policies.md)
+    - [History Tab](/docs/privilegesecure/4.1/privilegesecure/accessmanagement/admin/policy/tab/usersgroups/history.md)
+    - [Authentication Tab](/docs/privilegesecure/4.1/privilegesecure/accessmanagement/admin/policy/tab/usersgroups/authentication.md)
+    - [Properties Tab](/docs/privilegesecure/4.1/privilegesecure/accessmanagement/admin/policy/tab/usersgroups/properties.md)

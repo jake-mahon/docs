@@ -10,12 +10,12 @@ Follow the steps to export policies and templates:
 
 - If opened through Tools > Export on the menu, everything is exported.
 - If opened via the keyboard shortcut (Alt+X) on the
-  [Policies Interface](/versioned_docs/threatprevention_7.4/threatprevention/admin/policies/overview.md)
+  [Policies Interface](/docs/threatprevention/7.4/threatprevention/admin/policies/overview.md)
   or
-  [Templates Interface](/versioned_docs/threatprevention_7.4/threatprevention/admin/templates/overview.md),
+  [Templates Interface](/docs/threatprevention/7.4/threatprevention/admin/templates/overview.md),
   it exports only what is within the selection.
 - To export only a single policy or template, use the Export option on the right-click menu. See the
-  [Export Policies and Templates Window](/versioned_docs/threatprevention_7.4/threatprevention/admin/policies/exportpoliciestemplates.md)
+  [Export Policies and Templates Window](/docs/threatprevention/7.4/threatprevention/admin/policies/exportpoliciestemplates.md)
   topic for additional information.
 
 ![Export Policies and Templates Window](/img/versioned_docs/threatprevention_7.4/threatprevention/admin/tools/exportpoliciestemplates.webp)
@@ -32,7 +32,7 @@ Follow the steps to export policies and templates:
     - Export All Event Consumers and Alerts – Exports all event consumers (actions) and alerts
     - Export Only Event Consumers and Alerts Used in Policies and Templates – Exports only event
       consumers (actions) and alerts configured on the
-      [Actions Tab](/versioned_docs/threatprevention_7.4/threatprevention/admin/policies/actions/overview.md)
+      [Actions Tab](/docs/threatprevention/7.4/threatprevention/admin/policies/actions/overview.md)
       of enabled policies
 - Options:
     - Notes – Enter any information to be saved with the XML file
@@ -43,5 +43,5 @@ Follow the steps to export policies and templates:
 
 A file is created that contains policy, template, and collection information as per the configured
 settings. See the
-[Import Window](/versioned_docs/threatprevention_7.4/threatprevention/admin/tools/import.md) topic
+[Import Window](/docs/threatprevention/7.4/threatprevention/admin/tools/import.md) topic
 to import this file.

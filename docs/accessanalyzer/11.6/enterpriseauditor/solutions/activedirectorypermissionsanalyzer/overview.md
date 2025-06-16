@@ -23,14 +23,14 @@ article for additional information.
 Requirements, Permissions, and Ports
 
 See the
-[Domain Target Requirements, Permissions, and Ports](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/requirements/target/activedirectorypermissionsanalyzer.md)
+[Domain Target Requirements, Permissions, and Ports](/docs/accessanalyzer/11.6/enterpriseauditor/requirements/target/activedirectorypermissionsanalyzer.md)
 topic for additional information.
 
 Location
 
 The Active Directory Permissions Analyzer requires a special Enterprise Auditor license. It can be
 installed from the Instant Job Wizard, see the
-[Instant Job Wizard](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/jobs/instantjobs/overview.md)
+[Instant Job Wizard](/docs/accessanalyzer/11.6/enterpriseauditor/admin/jobs/instantjobs/overview.md)
 topic for additional information. When purchased separately, the Permissions Analyzer Solution is
 installed into the Jobs tree with the Active Directory instant solution. The license limits the
 solution to just the **Jobs** > **Active Directory Permissions Analyzer** Job Group. Once installed
@@ -53,35 +53,35 @@ Information Center for analysis.
 
 The job groups and jobs in the Active Directory Permissions Analyzer Solution are:
 
-- [0.Collection Job Group](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/activedirectorypermissionsanalyzer/collection/overview.md)
+- [0.Collection Job Group](/docs/accessanalyzer/11.6/enterpriseauditor/solutions/activedirectorypermissionsanalyzer/collection/overview.md)
   – Collects all Active Directory permissions information from the targeted domain
-- [1.Users Job Group](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/activedirectorypermissionsanalyzer/users/overview.md)
+- [1.Users Job Group](/docs/accessanalyzer/11.6/enterpriseauditor/solutions/activedirectorypermissionsanalyzer/users/overview.md)
   – Reports on all Active Directory permissions applied to user objects within the targeted domains
-- [2.Groups Job Group](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/activedirectorypermissionsanalyzer/groups/overview.md)
+- [2.Groups Job Group](/docs/accessanalyzer/11.6/enterpriseauditor/solutions/activedirectorypermissionsanalyzer/groups/overview.md)
   – Reports on all Active Directory permissions applied to group objects within the targeted domains
-- [3.OUs > AD_OUPermissions Job](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/activedirectorypermissionsanalyzer/ad_oupermissions.md)
+- [3.OUs > AD_OUPermissions Job](/docs/accessanalyzer/11.6/enterpriseauditor/solutions/activedirectorypermissionsanalyzer/ad_oupermissions.md)
   – Reports on all Active Directory permissions applied to organizational unit objects within the
   targeted domains
-- [4.Computers Job Group](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/activedirectorypermissionsanalyzer/computers/overview.md)
+- [4.Computers Job Group](/docs/accessanalyzer/11.6/enterpriseauditor/solutions/activedirectorypermissionsanalyzer/computers/overview.md)
   – Reports on all Active Directory permissions applied to computer objects within the targeted
   domains
-- [5.Open Access > AD_OpenAccess Job](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/activedirectorypermissionsanalyzer/ad_openaccess.md)
+- [5.Open Access > AD_OpenAccess Job](/docs/accessanalyzer/11.6/enterpriseauditor/solutions/activedirectorypermissionsanalyzer/ad_openaccess.md)
   – Reports on all Active Directory permissions granting open access within the targeted domains.
   Open Access can be defined as access granted to security principals such as: Domain Users,
   Authenticated Users, and Everyone.
-- [6.Broken Inheritance > AD_BrokenInheritance Job](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/activedirectorypermissionsanalyzer/ad_brokeninheritance.md)
+- [6.Broken Inheritance > AD_BrokenInheritance Job](/docs/accessanalyzer/11.6/enterpriseauditor/solutions/activedirectorypermissionsanalyzer/ad_brokeninheritance.md)
   – Reports on all locations within Active Directory where inheritance is broken within the targeted
   domains
-- [7.Containers Job Group](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/activedirectorypermissionsanalyzer/containers/overview.md)
+- [7.Containers Job Group](/docs/accessanalyzer/11.6/enterpriseauditor/solutions/activedirectorypermissionsanalyzer/containers/overview.md)
   – Reports on all Active Directory permissions applied to container objects within the targeted
   domains
-- [8.Domains Job Group](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/activedirectorypermissionsanalyzer/domains/overview.md)
+- [8.Domains Job Group](/docs/accessanalyzer/11.6/enterpriseauditor/solutions/activedirectorypermissionsanalyzer/domains/overview.md)
   – Reports on all Active Directory permissions applied to domain objects within the targeted
   domains.
-- [9.Sites Job Group](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/activedirectorypermissionsanalyzer/sites/overview.md)
+- [9.Sites Job Group](/docs/accessanalyzer/11.6/enterpriseauditor/solutions/activedirectorypermissionsanalyzer/sites/overview.md)
   – Reports on all Active Directory permissions applied to domain objects within the targeted
   domains
-- [AD_ShadowAccess Job](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/activedirectorypermissionsanalyzer/ad_shadowaccess.md)
+- [AD_ShadowAccess Job](/docs/accessanalyzer/11.6/enterpriseauditor/solutions/activedirectorypermissionsanalyzer/ad_shadowaccess.md)
   – Finds shadow access that leads to compromise of a domain or sensitive data. Attackers can chain
   vulnerabilities to escalate privileges from a non-privileged user to administrator with only a few
   steps. This job generates the shortest path between every non-privileged user to a domain

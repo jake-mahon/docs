@@ -140,7 +140,7 @@ The command below modifies the **Top Manager** of a Managerial Dynasty, changes 
 display name templates for the Dynasty children, sets the scope to search Dynasty children in the
 containers specified in the **Add** parameter excluding sub-containers using the credentials set in
 the **$Credentials** environment variable. See the
-[Set the $Credentials Environment Variable](/versioned_docs/groupid_11.0/groupid/managementshell/parameters/setthecredential.md)
+[Set the $Credentials Environment Variable](/docs/groupid/11.0/groupid/managementshell/parameters/setthecredential.md)
 topic for setting credentials in an environment variable.
 
 ```
@@ -183,6 +183,6 @@ Set-Dynasty -Identity "CN=Managerial,OU=Recruiting,DC=HR,DC=Imanami,DC=US" -Clea
 
 See Also
 
-- [All Commands](/versioned_docs/groupid_11.0/groupid/managementshell/commands.md)
-- [Dynasty Commands](/versioned_docs/groupid_11.0/groupid/managementshell/dynasty/overview.md)
-- [Parameters](/versioned_docs/groupid_11.0/groupid/managementshell/parameters/parameters.md)
+- [All Commands](/docs/groupid/11.0/groupid/managementshell/commands.md)
+- [Dynasty Commands](/docs/groupid/11.0/groupid/managementshell/dynasty/overview.md)
+- [Parameters](/docs/groupid/11.0/groupid/managementshell/parameters/parameters.md)

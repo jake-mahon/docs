@@ -6,16 +6,16 @@ resource with a unique record.
 ## Declare a Workflow
 
 This
-[workflow](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/workflows/workflow/index.md)
+[workflow](/docs/usercube/6.1/usercube/integration-guide/toolkit/xml-configuration/workflows/workflow/index.md)
 is made of four activities:
 
-1. [`ActionWithRefine`](/versioned_docs/usercube_6.1/usercube/integration-guide/workflows/activity-templates/index.md#actionwithrefine):
+1. [`ActionWithRefine`](/docs/usercube/6.1/usercube/integration-guide/workflows/activity-templates/index.md#actionwithrefine):
    sends the creation request with a possibility of delegation.
-2. [`PersistOnlyResources`](/versioned_docs/usercube_6.1/usercube/integration-guide/workflows/activity-templates/index.md#persistonlyresources):
+2. [`PersistOnlyResources`](/docs/usercube/6.1/usercube/integration-guide/workflows/activity-templates/index.md#persistonlyresources):
    saves the collected data to the repository without triggering provisioning.
-3. [`ReviewWithFeedback`](/versioned_docs/usercube_6.1/usercube/integration-guide/workflows/activity-templates/index.md#reviewwithfeedback):
+3. [`ReviewWithFeedback`](/docs/usercube/6.1/usercube/integration-guide/workflows/activity-templates/index.md#reviewwithfeedback):
    reviews the creation request with the possibility of getting feedback from another user.
-4. [`Persist`](/versioned_docs/usercube_6.1/usercube/integration-guide/workflows/activity-templates/index.md#persist):
+4. [`Persist`](/docs/usercube/6.1/usercube/integration-guide/workflows/activity-templates/index.md#persist):
    saves the collected data and triggers provisioning.
 
 The example below creates a workflow to create a new worker.
@@ -29,7 +29,7 @@ The example below creates a workflow to create a new worker.
 ## Create Forms
 
 The XML configuration below represents the creation of a
-[form](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/user-interface/form/index.md)
+[form](/docs/usercube/6.1/usercube/integration-guide/toolkit/xml-configuration/user-interface/form/index.md)
 that defines the elements to display in the workflow.
 
 Here we create two structured forms: the preliminary one is called inside the main one, and the main
@@ -63,7 +63,7 @@ After creating a workflow with given activities, it is necessary to create the f
 when launching the workflow. It has the type corresponding to a resource's creation with one record,
 i.e. `WorkflowCreateRecordEntityForm` and it must specify the workflow's context (the entity type of
 the involved resources, the main property, the activity when the form is called, etc.
-[see more details](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/user-interface/form/index.md)):
+[see more details](/docs/usercube/6.1/usercube/integration-guide/toolkit/xml-configuration/user-interface/form/index.md)):
 
 ```
 
@@ -85,7 +85,7 @@ A `WorkflowCreateRecordEntityForm` requires the following child elements:
 
 The `MainControl` attribute is here an empty container because we configure all personal data,
 contracts and positions as
-[records](/versioned_docs/usercube_6.1/usercube/integration-guide/identity-management/joiners-movers-leavers/position-change/index.md)
+[records](/docs/usercube/6.1/usercube/integration-guide/identity-management/joiners-movers-leavers/position-change/index.md)
 to be able to anticipate changes for example. The line with the empty `MainControl` is not
 mandatory.
 
@@ -123,7 +123,7 @@ Summary form:
 
 Some profiles must get specific permissions so that the workflow is visible and usable by the right
 users. Read about
-[workflows' permissions](/versioned_docs/usercube_6.1/usercube/integration-guide/workflows/index.md).
+[workflows' permissions](/docs/usercube/6.1/usercube/integration-guide/workflows/index.md).
 
 Below is an example of an access control rule where the `Administrator` profile gets the permissions
 for the whole creation request and review from the previously created workflow:
@@ -142,7 +142,7 @@ for the whole creation request and review from the previously created workflow:
 
 ## Create Menu Items in the UI
 
-[Menu items](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/user-interface/menuitem/index.md)
+[Menu items](/docs/usercube/6.1/usercube/integration-guide/toolkit/xml-configuration/user-interface/menuitem/index.md)
 must be defined to make the workflow accessible in the UI.
 
 Creating a new resource, an interesting location for this workflow could be the users list page.
@@ -151,7 +151,7 @@ Creating a new resource, an interesting location for this workflow could be the 
 
 To create a menu item here for the new workflow, you can add the following XML configuration to the
 existing
-[menu items list](/versioned_docs/usercube_6.1/usercube/integration-guide/ui/how-tos/create-menu-items/index.md):
+[menu items list](/docs/usercube/6.1/usercube/integration-guide/ui/how-tos/create-menu-items/index.md):
 
 ```
 
@@ -163,13 +163,13 @@ existing
 ## Add Aspects
 
 For each workflow, it is possible to add
-[aspects](/versioned_docs/usercube_6.1/usercube/integration-guide/workflows/index.md#aspects)
+[aspects](/docs/usercube/6.1/usercube/integration-guide/workflows/index.md#aspects)
 according to the workflow's purpose.
 
 ## Homonym Detection (Optional)
 
 To perform a homonymy check on a workflow and thus prevent user duplicates, read
-[how to configure a homonym detection](/versioned_docs/usercube_6.1/usercube/integration-guide/workflows/how-to/configure-homonym-test/index.md).
+[how to configure a homonym detection](/docs/usercube/6.1/usercube/integration-guide/workflows/how-to/configure-homonym-test/index.md).
 
 When using records, the homonym detection displays the list of records and not just the list of
 users.
@@ -203,4 +203,4 @@ Partial form for user data:
 ## Customize the Display Table (Optional)
 
 To configure a display table different from the default one provided by Usercube, read
-[how to configure a display table](/versioned_docs/usercube_6.1/usercube/integration-guide/ui/how-tos/custom-display-table/index.md).
+[how to configure a display table](/docs/usercube/6.1/usercube/integration-guide/ui/how-tos/custom-display-table/index.md).

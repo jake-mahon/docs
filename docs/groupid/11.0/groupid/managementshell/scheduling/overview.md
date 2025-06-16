@@ -2,23 +2,23 @@
 
 This section covers the cmdlets that perform scheduling-related operations.
 
-- [Get-Schedule](/versioned_docs/groupid_11.0/groupid/managementshell/scheduling/getschedule.md):
+- [Get-Schedule](/docs/groupid/11.0/groupid/managementshell/scheduling/getschedule.md):
   retrieves scheduled jobs.
-- [Get-TargetSchedules](/versioned_docs/groupid_11.0/groupid/managementshell/scheduling/gettargetschedule.md):
+- [Get-TargetSchedules](/docs/groupid/11.0/groupid/managementshell/scheduling/gettargetschedule.md):
   retrieves the scheduled jobs operating on a group or OU.
-- [ Invoke-Schedule](/versioned_docs/groupid_11.0/groupid/managementshell/scheduling/invokeschedule.md):
+- [ Invoke-Schedule](/docs/groupid/11.0/groupid/managementshell/scheduling/invokeschedule.md):
   executes a scheduled job.
-- [New-Schedule](/versioned_docs/groupid_11.0/groupid/managementshell/scheduling/newschedule.md):
+- [New-Schedule](/docs/groupid/11.0/groupid/managementshell/scheduling/newschedule.md):
   creates a new schedule.
-- [Remove-Schedule](/versioned_docs/groupid_11.0/groupid/managementshell/scheduling/removeschedule.md):
+- [Remove-Schedule](/docs/groupid/11.0/groupid/managementshell/scheduling/removeschedule.md):
   removes a schedule from an identity store.
-- [Set-Schedule](/versioned_docs/groupid_11.0/groupid/managementshell/scheduling/setschedule.md):
+- [Set-Schedule](/docs/groupid/11.0/groupid/managementshell/scheduling/setschedule.md):
   modifies a schedule.
-- [Stop-Schedule](/versioned_docs/groupid_11.0/groupid/managementshell/scheduling/stopschedule.md):
+- [Stop-Schedule](/docs/groupid/11.0/groupid/managementshell/scheduling/stopschedule.md):
   stops a running schedule.
 
 See Also
 
-- [GroupID Management Shell](/versioned_docs/groupid_11.0/groupid/managementshell/overview.md)
-- [All Commands](/versioned_docs/groupid_11.0/groupid/managementshell/commands.md)
-- [Parameters](/versioned_docs/groupid_11.0/groupid/managementshell/parameters/parameters.md)
+- [GroupID Management Shell](/docs/groupid/11.0/groupid/managementshell/overview.md)
+- [All Commands](/docs/groupid/11.0/groupid/managementshell/commands.md)
+- [Parameters](/docs/groupid/11.0/groupid/managementshell/parameters/parameters.md)

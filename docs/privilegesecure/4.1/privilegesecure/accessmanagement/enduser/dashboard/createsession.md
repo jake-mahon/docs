@@ -54,5 +54,5 @@ When the status Available is shown, the remote session is ready. Click the Conne
 the session, or log in through a client.
 
 See the
-[Start Activity Session](/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/enduser/dashboard/startsession.md)
+[Start Activity Session](/docs/privilegesecure/4.1/privilegesecure/accessmanagement/enduser/dashboard/startsession.md)
 topic for additional information.

@@ -2,7 +2,7 @@
 
 The Add Resources and Resource Groups window provides a list of resources that have been onboarded.
 Resources are onboarded in the
-[Resources Page](/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/policy/page/resources.md).
+[Resources Page](/docs/privilegesecure/4.1/privilegesecure/accessmanagement/admin/policy/page/resources.md).
 
 ![Add resources and resource groups window](/img/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/policy/window/usersgroups/addresourcesandresourcegroups.webp)
 
@@ -57,4 +57,4 @@ back to the Available Resources / Resource Groups table.
 **Step 7 –** Click Add to add the resource(s) and resource group(s) to the access policy.
 
 The new resource(s) and resource group(s) are added to the access policy and are shown in the
-[Resources Tab for Resource Based Access Policies](/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/policy/tab/policyresource/resources.md).
+[Resources Tab for Resource Based Access Policies](/docs/privilegesecure/4.1/privilegesecure/accessmanagement/admin/policy/tab/policyresource/resources.md).

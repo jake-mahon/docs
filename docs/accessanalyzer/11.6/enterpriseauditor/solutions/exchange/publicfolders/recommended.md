@@ -41,7 +41,7 @@ list:
 Connection Profile
 
 A Connection Profile must be set directly on the collection jobs. See the
-[Exchange PowerShell Permissions](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/requirements/solutions/exchange/powershell.md)
+[Exchange PowerShell Permissions](/docs/accessanalyzer/11.6/enterpriseauditor/requirements/solutions/exchange/powershell.md)
 topic for credential requirements and assign the Connection Profile to the following jobs:
 
 - **Content** > **Collection** > **PF_ContentScans** Job
@@ -49,13 +49,13 @@ topic for credential requirements and assign the Connection Profile to the follo
 - **Permissions** > **Collection** > **PF_EntitlementScans** Job
 
 See the
-[MAPI-Based Data Collector Permissions](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/requirements/solutions/exchange/mapi.md)
+[MAPI-Based Data Collector Permissions](/docs/accessanalyzer/11.6/enterpriseauditor/requirements/solutions/exchange/mapi.md)
 topic for credential requirements and assign the Connection Profile to the following job:
 
 - **Ownership** > **Collection** > **PF_FolderOwnership** Job
 
 See the
-[Connection](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/settings/connection/overview.md)
+[Connection](/docs/accessanalyzer/11.6/enterpriseauditor/admin/settings/connection/overview.md)
 topic for additional information.
 
 Schedule Frequency

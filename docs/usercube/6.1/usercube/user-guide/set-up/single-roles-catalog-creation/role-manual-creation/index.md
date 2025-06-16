@@ -5,15 +5,15 @@ How to create single roles manually.
 ## Overview
 
 A
-[single role](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/provisioning/singlerole/index.md)
+[single role](/docs/usercube/6.1/usercube/integration-guide/toolkit/xml-configuration/provisioning/singlerole/index.md)
 is a way to represent an entitlement that is to be assigned to an identity. It brings a layer of
 abstraction through a user-friendly name, close to the business view.
 
 To be effective, roles must be linked to actual entitlements in the managed systems. Within
 Usercube, an entitlement assigned to an identity is in fact represented by the value of a given
-[navigation property](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/connect-system/entity-type-creation/index.md),
+[navigation property](/docs/usercube/6.1/usercube/user-guide/set-up/connect-system/entity-type-creation/index.md),
 in a resource owned by said identity. Thus, each role is linked to one
-[navigation rule](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/provisioning/resourcetype/index.md)
+[navigation rule](/docs/usercube/6.1/usercube/integration-guide/toolkit/xml-configuration/provisioning/resourcetype/index.md)
 per entitlement.
 
 > For example, imagine that we want to grant unlimited Internet access to the administrator profile
@@ -30,7 +30,7 @@ application's users, entitlements and data model.
 
 | Input                                                                                                                       | Output       |
 | --------------------------------------------------------------------------------------------------------------------------- | ------------ |
-| [Classification](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/categorization/classification/index.md) (required) | Single roles |
+| [Classification](/docs/usercube/6.1/usercube/user-guide/set-up/categorization/classification/index.md) (required) | Single roles |
 
 ## Create a Single Role
 
@@ -50,7 +50,7 @@ Create a single role by proceeding as follows:
     - `Identifier`: must be unique among roles and without any whitespace.
     - `Name`: will be displayed in the UI to identify the created single role.
     - `Tags`: label(s) that can later be used to filter the target roles of
-      [access certification campaigns](/versioned_docs/usercube_6.1/usercube/user-guide/administrate/access-certification/certification-campaign-scheduling/index.md).
+      [access certification campaigns](/docs/usercube/6.1/usercube/user-guide/administrate/access-certification/certification-campaign-scheduling/index.md).
 
         NETWRIX recommends using role tags when you want to perform an access certification on a set
         of roles that are from several categories.
@@ -60,14 +60,14 @@ Create a single role by proceeding as follows:
     - `Approval Workflow`: represents the number of validations required to assign the created role.
     - `Approve Role Implicitly`: needs at least simple approval workflow. `Implicit` mode bypasses
       the approval step(s) if the person who makes the role request is also the
-      [role officer](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/role-officer-management/index.md).
+      [role officer](/docs/usercube/6.1/usercube/user-guide/set-up/role-officer-management/index.md).
       `Explicit` refuses said bypass. `Inherited` follows the
-      [policy](/versioned_docs/usercube_6.1/usercube/user-guide/optimize/policy-creation/index.md)
+      [policy](/docs/usercube/6.1/usercube/user-guide/optimize/policy-creation/index.md)
       decision to approve roles implicitly or not.
     - `Allow Manual Assignment`: allows the role to be requested manually.
 
         Set to `No`, the role can be assigned only via automatic rules. Therefore, the associated
-        [single role rules](/versioned_docs/usercube_6.1/usercube/user-guide/optimize/assignment-automation/automate-role-assignment/index.md)
+        [single role rules](/docs/usercube/6.1/usercube/user-guide/optimize/assignment-automation/automate-role-assignment/index.md)
         cannot have their `Type` set to `Suggested`.
 
     - `Hide in Simplified View`: hides the role from the users' **Simplified View** in **View

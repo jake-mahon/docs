@@ -9,11 +9,11 @@ an identity store, role members must authenticate themselves using an authentica
 Second factor authentication works as follows:
 
 - An unenrolled user must enroll his or her identity store account in GroupID. See the
-  [Enroll Your Identity Store Account](/versioned_docs/groupid_11.0/groupid/portal/user/authentication/enrollaccount.md)
+  [Enroll Your Identity Store Account](/docs/groupid/11.0/groupid/portal/user/authentication/enrollaccount.md)
   topic. Enrollment is a one-time process.
 - An enrolled user has to authenticate on the GroupID portal using the authentication type he or she
   used to enroll his or her identity store account with. See
-  the[Authenticate Your Identity Store Account](/versioned_docs/groupid_11.0/groupid/portal/user/authentication/authenticateaccount.md)
+  the[Authenticate Your Identity Store Account](/docs/groupid/11.0/groupid/portal/user/authentication/authenticateaccount.md)
   topic.
 
     Authentication is required every time the user logs into the portal.
@@ -143,5 +143,5 @@ if Windows 10 is installed on it.
 
 **See Also**
 
-- [Enroll Your Identity Store Account](/versioned_docs/groupid_11.0/groupid/portal/user/authentication/enrollaccount.md)
-- [Authenticate Your Identity Store Account](/versioned_docs/groupid_11.0/groupid/portal/user/authentication/authenticateaccount.md)
+- [Enroll Your Identity Store Account](/docs/groupid/11.0/groupid/portal/user/authentication/enrollaccount.md)
+- [Authenticate Your Identity Store Account](/docs/groupid/11.0/groupid/portal/user/authentication/authenticateaccount.md)

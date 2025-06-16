@@ -10,8 +10,8 @@ report exports as well as subscribe to recurring reports. It is necessary to ins
 Threat Manager Reporting Module, configure the integration, and grant access to users. See the
 following topics:
 
-- [Reporting Module Server Requirements](/versioned_docs/threatprevention_7.4/threatprevention/requirements/reportingserver.md)
-- [Set Up the Threat Manager Reporting Module](/versioned_docs/threatprevention_7.4/threatprevention/gettingstarted.md#set-up-the-threat-manager-reporting-module)
-- [Reporting Module Installation](/versioned_docs/threatprevention_7.4/threatprevention/install/reportingmodule/overview.md)
-- [Configuration Menu ](/versioned_docs/threatprevention_7.4/threatprevention/reportingmodule/configuration/overview.md)
-- [Investigations Interface](/versioned_docs/threatprevention_7.4/threatprevention/reportingmodule/investigations/overview.md)
+- [Reporting Module Server Requirements](/docs/threatprevention/7.4/threatprevention/requirements/reportingserver.md)
+- [Set Up the Threat Manager Reporting Module](/docs/threatprevention/7.4/threatprevention/gettingstarted.md#set-up-the-threat-manager-reporting-module)
+- [Reporting Module Installation](/docs/threatprevention/7.4/threatprevention/install/reportingmodule/overview.md)
+- [Configuration Menu ](/docs/threatprevention/7.4/threatprevention/reportingmodule/configuration/overview.md)
+- [Investigations Interface](/docs/threatprevention/7.4/threatprevention/reportingmodule/investigations/overview.md)

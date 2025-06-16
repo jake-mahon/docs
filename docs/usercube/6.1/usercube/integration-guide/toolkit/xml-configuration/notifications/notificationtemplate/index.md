@@ -8,7 +8,7 @@ Usercube natively sends notifications for usual cases.
 These native notifications are based on cshtml templates available inside the `Runtime` folder. If
 the provided templates do not meet your exact needs, then they can be replaced by personalized
 notification templates. See the
-[ Native Notifications ](/versioned_docs/usercube_6.1/usercube/integration-guide/notifications/native/index.md)topic
+[ Native Notifications ](/docs/usercube/6.1/usercube/integration-guide/notifications/native/index.md)topic
 for additional information.
 
 ## Examples

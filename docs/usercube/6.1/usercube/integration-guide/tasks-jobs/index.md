@@ -3,14 +3,14 @@
 Usercube provides tasks to orchestrate together the executable files that perform IGA actions, and
 jobs to orchestrate the tasks together.
 
-[See more information about tasks](/versioned_docs/usercube_6.1/usercube/integration-guide/tasks-jobs/tasks/index.md).
+[See more information about tasks](/docs/usercube/6.1/usercube/integration-guide/tasks-jobs/tasks/index.md).
 
-[See more information about jobs](/versioned_docs/usercube_6.1/usercube/integration-guide/tasks-jobs/jobs/index.md).
+[See more information about jobs](/docs/usercube/6.1/usercube/integration-guide/tasks-jobs/jobs/index.md).
 
-[See the list of available tasks](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/jobs/tasks/index.md).
+[See the list of available tasks](/docs/usercube/6.1/usercube/integration-guide/toolkit/xml-configuration/jobs/tasks/index.md).
 
 Make sure to read
-[how to build efficient jobs](/versioned_docs/usercube_6.1/usercube/integration-guide/tasks-jobs/how-tos/build-efficient-jobs/index.md).
+[how to build efficient jobs](/docs/usercube/6.1/usercube/integration-guide/tasks-jobs/how-tos/build-efficient-jobs/index.md).
 
 ## Overview
 
@@ -25,9 +25,9 @@ each one materialized into a building block of your Usercube solution. Each buil
 specific and well delimited IGA function.
 
 These building blocks are called
-[tasks](/versioned_docs/usercube_6.1/usercube/integration-guide/tasks-jobs/tasks/index.md), and can
+[tasks](/docs/usercube/6.1/usercube/integration-guide/tasks-jobs/tasks/index.md), and can
 be easily organized together and scheduled in
-[jobs](/versioned_docs/usercube_6.1/usercube/integration-guide/tasks-jobs/jobs/index.md).
+[jobs](/docs/usercube/6.1/usercube/integration-guide/tasks-jobs/jobs/index.md).
 
 This approach makes for a perfectly customizable product. It also tremendously helps our users to
 ease into Usercube by allowing them to understand it piece by piece.

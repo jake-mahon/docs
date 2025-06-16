@@ -24,17 +24,17 @@ or **Advanced** dialogs.
 
 See next:
 
-- [Create a Workflow using Add Workflow Wizard](/versioned_docs/dataclassification_5.6.2/ndc/workflows/workflow_add_workflow_wizard.md)
+- [Create a Workflow using Add Workflow Wizard](/docs/dataclassification/5.6.2/ndc/workflows/workflow_add_workflow_wizard.md)
 - Configuring a Workflow Using Advanced Dialog
 
 ## Modifying or Deleting a Workflow
 
 To modify a workflow, follow the steps described in the
-[Edit Workflow settings](/versioned_docs/dataclassification_5.6.2/ndc/workflows/edit_workflow_settings.md)
+[Edit Workflow settings](/docs/dataclassification/5.6.2/ndc/workflows/edit_workflow_settings.md)
 section.
 
 To delete a workflow, follow the steps described in the
-[Delete Workflow](/versioned_docs/dataclassification_5.6.2/ndc/workflows/delete_workflow.md)section.
+[Delete Workflow](/docs/dataclassification/5.6.2/ndc/workflows/delete_workflow.md)section.
 
 ## Cloning, Enabling or Renaming a Workflow
 

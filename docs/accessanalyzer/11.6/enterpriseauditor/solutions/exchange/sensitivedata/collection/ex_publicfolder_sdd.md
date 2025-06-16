@@ -8,7 +8,7 @@ Special Dependency
 - Sensitive Data Discovery Add-On installed on the Enterprise Auditor Console server
 
     - See the
-      [Sensitive Data Discovery Add-On Installation](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/install/sensitivedatadiscovery/overview.md)
+      [Sensitive Data Discovery Add-On Installation](/docs/accessanalyzer/11.6/enterpriseauditor/install/sensitivedatadiscovery/overview.md)
       topic for additional information
 
     **NOTE:** Though the job is visible within the console, it requires an additional installer
@@ -56,7 +56,7 @@ Collector Wizard opens.
 
 **Step 4 –** To enable storage of discovered sensitive data, navigate to the SDD Options page.
 Sensitive data matches can be limited to reduce storage space. See the
-[EWSPublicFolder: SDD Options](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/ewspublicfolder/sddoptions.md) topic
+[EWSPublicFolder: SDD Options](/docs/accessanalyzer/11.6/enterpriseauditor/admin/datacollector/ewspublicfolder/sddoptions.md) topic
 for additional information.
 
 **NOTE:** By default, discovered sensitive data strings are not stored in the Enterprise Auditor
@@ -66,18 +66,18 @@ database.
 
 **Step 5 –** To modify criteria, navigate to the Criteria page. Add or remove criteria as desired.
 See the
-[EWSPublicFolder: Critieria](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/ewspublicfolder/critieria.md)
+[EWSPublicFolder: Critieria](/docs/accessanalyzer/11.6/enterpriseauditor/admin/datacollector/ewspublicfolder/critieria.md)
 topic for additional information.
 
 - (Optional) To create custom criteria, see the
-  [Sensitive Data Criteria Editor](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/sensitivedatadiscovery/criteriaeditor/overview.md)
+  [Sensitive Data Criteria Editor](/docs/accessanalyzer/11.6/enterpriseauditor/sensitivedatadiscovery/criteriaeditor/overview.md)
   topic for additional information
 
 ![EWS Public Folder Data Collector Wizard Filter Settings page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/exchange/sensitivedata/collection/publicfolderfiltersettings.webp)
 
 **Step 6 –** To filter the scan to specific mailbox folders, navigate to the Filter page. Include or
 exclude folders and attachments as desired. See the
-[EWSPublicFolder: Filter](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/ewspublicfolder/filter.md) topic
+[EWSPublicFolder: Filter](/docs/accessanalyzer/11.6/enterpriseauditor/admin/datacollector/ewspublicfolder/filter.md) topic
 for additional information.
 
 - To modify the threshold for message size, set the **Limit message size to** value as desired. The
@@ -89,7 +89,7 @@ for additional information.
 
 **Step 7 –** To select which properties are gathered based on category, navigate to the Results
 page.  See the
-[EWSPublicFolder: Results](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/ewspublicfolder/results.md) topic
+[EWSPublicFolder: Results](/docs/accessanalyzer/11.6/enterpriseauditor/admin/datacollector/ewspublicfolder/results.md) topic
 for additional information.
 
 **NOTE:** By default, all categories are selected under sensitive data.

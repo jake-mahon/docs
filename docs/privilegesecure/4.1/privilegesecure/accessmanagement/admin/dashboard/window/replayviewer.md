@@ -6,7 +6,7 @@ connection profile assigned to the access policy. All SSH and RDP keystrokes and
 recorded using a granular metadata search that works across both live and recorded sessions.
 
 When recordings are available for a historical session, the expand icon is enabled on the
-[Historical Dashboard](/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/dashboard/historical.md).
+[Historical Dashboard](/docs/privilegesecure/4.1/privilegesecure/accessmanagement/admin/dashboard/historical.md).
 
 ![Historical dashboard showing available recordings](/img/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/dashboard/window/recordingavailable.webp)
 
@@ -53,7 +53,7 @@ Activity Details:
     **NOTE:** If RDP Session Monitoring is enabled, then it will also include Windows metadata
     activity in the time line. This monitoring requires the Netwrix Privilege Secure Remote Desktop
     Monitor service to be installed on the target host. See the
-    [Install Remote Desktop Monitor Service on Target RDP Hosts](/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/install/rdpmonitor.md)
+    [Install Remote Desktop Monitor Service on Target RDP Hosts](/docs/privilegesecure/4.1/privilegesecure/accessmanagement/install/rdpmonitor.md)
     topic for additional information.
 
 ## Replay Viewer for SSH Sessions

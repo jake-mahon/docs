@@ -8,11 +8,11 @@ scheduled job will trigger errors in a SaaS environment.
 ## Rule 1: Use Scaffoldings
 
 Usercube provides
-[scaffoldings](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/index.md)
+[scaffoldings](/docs/usercube/6.1/usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/index.md)
 to simplify XML configuration by generating complex XML fragments.
 
 Most jobs are included in
-[job scaffoldings](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/jobs/index.md),
+[job scaffoldings](/docs/usercube/6.1/usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/jobs/index.md),
 thus configured in the most optimal way. So start by using scaffoldings to build jobs.
 
 > For example, the creation from scratch of a job to perform a complete synchronization for a
@@ -27,7 +27,7 @@ thus configured in the most optimal way. So start by using scaffoldings to build
 > ```
 >
 >
-> [See more details about this scaffolding](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/jobs/createconnectorsynchrocomplete/index.md).
+> [See more details about this scaffolding](/docs/usercube/6.1/usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/jobs/createconnectorsynchrocomplete/index.md).
 > ```
 
 ## Rule 2: Compute Only What's Necessary
@@ -57,7 +57,7 @@ When a task is supposed to be executed on changes only, then there is no use exe
 complete mode.
 
 Make the relevant tasks incremental by flagging the resources that were recently modified.
-[See how to configure a job to be incremental](/versioned_docs/usercube_6.1/usercube/integration-guide/tasks-jobs/how-tos/configure-incremental-job/index.md).
+[See how to configure a job to be incremental](/docs/usercube/6.1/usercube/integration-guide/tasks-jobs/how-tos/configure-incremental-job/index.md).
 
 > For example, instead of computing the role model as if it had never been computed before, apply
 > only the changes by writing the following:
@@ -77,18 +77,18 @@ Usercube's tasks are all linked together by a logical chain that implies that so
 supposed to be executed after some others.
 
 Make sure to
-[understand the tasks' logical chain](/versioned_docs/usercube_6.1/usercube/integration-guide/tasks-jobs/how-tos/troubleshoot-connector-jobs/index.md)
+[understand the tasks' logical chain](/docs/usercube/6.1/usercube/integration-guide/tasks-jobs/how-tos/troubleshoot-connector-jobs/index.md)
 to launch only the relevant tasks.
 
 > For example, there is no use computing expressions or correlations if there was beforehand no
 > change in the database. Thus, there should not be
-> [`UpdateEntityPropertyExpressionsTask`](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/jobs/tasks/server/updateentitypropertyexpressionstask/index.md)
+> [`UpdateEntityPropertyExpressionsTask`](/docs/usercube/6.1/usercube/integration-guide/toolkit/xml-configuration/jobs/tasks/server/updateentitypropertyexpressionstask/index.md)
 > or
-> [`ComputeCorrelationKeysTask`](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/jobs/tasks/server/computecorrelationkeystask/index.md)
+> [`ComputeCorrelationKeysTask`](/docs/usercube/6.1/usercube/integration-guide/toolkit/xml-configuration/jobs/tasks/server/computecorrelationkeystask/index.md)
 > without first
-> [`SynchronizeTask`](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/jobs/tasks/server/synchronizetask/index.md)
+> [`SynchronizeTask`](/docs/usercube/6.1/usercube/integration-guide/toolkit/xml-configuration/jobs/tasks/server/synchronizetask/index.md)
 > or
-> [`FulfillTask`](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/jobs/tasks/server/fulfilltask/index.md).
+> [`FulfillTask`](/docs/usercube/6.1/usercube/integration-guide/toolkit/xml-configuration/jobs/tasks/server/fulfilltask/index.md).
 
 ## Rule 3: Wait for Recurring Tasks
 
@@ -96,7 +96,7 @@ Inside a recurring job, there is no need including some tasks twice in order to 
 cycle, because the next execution will complete what has been started.
 
 > For example, Usercube's
-> [feedback loop](/versioned_docs/usercube_6.1/usercube/introduction-guide/more-info/index.md) uses
+> [feedback loop](/docs/usercube/6.1/usercube/introduction-guide/more-info/index.md) uses
 > the tasks for synchronization, computation of the role model, provisioning, then once more
 > synchronization and computation of the role model.
 >

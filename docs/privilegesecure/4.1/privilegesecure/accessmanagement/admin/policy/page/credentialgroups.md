@@ -3,7 +3,7 @@
 The Credential Groups page is accessible from the Navigation pane under Credentials. It shows the
 configured credential groups, which are used to control account assignments in Credential Based
 access policies. See the
-[Credentials Tab for Credential Based Access Policies](/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/policy/tab/policycredentials/credentials.md)
+[Credentials Tab for Credential Based Access Policies](/docs/privilegesecure/4.1/privilegesecure/accessmanagement/admin/policy/tab/policycredentials/credentials.md)
 topic for additional information.
 
 ![Administrative Credential Group Page](/img/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/policy/page/credentialgroupspage.webp)
@@ -14,7 +14,7 @@ has the following features:
 - Search — Searches the table or list for matches to the search string. When matches are found, the
   table or list is filtered to the matching results.
 - Blue + button — Create a new credential group. See the
-  [Add Credential Group](/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/policy/add/credentialgroup.md)
+  [Add Credential Group](/docs/privilegesecure/4.1/privilegesecure/accessmanagement/admin/policy/add/credentialgroup.md)
   topic for additional information.
 - Trashcan icon — Deletes the access policy. Icon appears when policy is hovered over. A
   confirmation window will display.
@@ -34,7 +34,7 @@ The table has the following features:
 - Filter — Provides options to filter results based on a chosen criterion: Internal, Standard, and
   Service
 - Add Credential — Opens the Add Credentials window. See the
-  [Add Credentials Window for Credential Group](/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/policy/window/credentials/addcredentials.md)
+  [Add Credentials Window for Credential Group](/docs/privilegesecure/4.1/privilegesecure/accessmanagement/admin/policy/window/credentials/addcredentials.md)
   topic for additional information.
 - Remove — Removes the selected item
 - Refresh — Reload the information displayed
@@ -54,25 +54,25 @@ The table has the following columns:
 
     - Automatic — Credential rotation is managed by Privilege Secure according to the change policy
       for that platform type. See the
-      [Platforms Page](/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/policy/page/platforms/overview.md)
+      [Platforms Page](/docs/privilegesecure/4.1/privilegesecure/accessmanagement/admin/policy/page/platforms/overview.md)
       topic for additional information.
     - Manual — Credential rotation must be initiated manually with the Rotate Service Account
       button, or the credential must be manually updated on both the resource and in Privilege
       Secure. See the
-      [Service Accounts Page](/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/configuration/page/serviceaccounts.md)
+      [Service Accounts Page](/docs/privilegesecure/4.1/privilegesecure/accessmanagement/admin/configuration/page/serviceaccounts.md)
       topic for information on updating credentials for Internal service accounts.
     - Not Managed — Not currently managed by Privilege Secure and no credentials have ever been
       stored
 
     **NOTE:** See the
-    [Rotation Methods](/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/policy/credentialrotationmethod.md)
+    [Rotation Methods](/docs/privilegesecure/4.1/privilegesecure/accessmanagement/admin/policy/credentialrotationmethod.md)
     topic for additional information.
 
 - Managed Type — Type of managed account:
 
     - Standard — Local or domain user account, including managed users created by activity sessions
     - Internal — Internal service account used by Privilege Secure with no dependencies. See the
-      [Service Accounts Page](/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/configuration/page/serviceaccounts.md)
+      [Service Accounts Page](/docs/privilegesecure/4.1/privilegesecure/accessmanagement/admin/configuration/page/serviceaccounts.md)
       topic for additional information.
     - Service — Local or domain service account with one or more dependencies. Includes Internal
       service accounts with one or more dependencies.
@@ -82,7 +82,7 @@ The table has the following columns:
 - Age — Number of days since the last credential rotation or from when the password was first
   created
 - Status — Indicates if the account credentials have been verified by Privilege Secure. See the
-  [Platforms Page](/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/policy/page/platforms/overview.md)
+  [Platforms Page](/docs/privilegesecure/4.1/privilegesecure/accessmanagement/admin/policy/page/platforms/overview.md)
   topic for additional information on configuring a verification schedule.
 
     - Unspecified — Verification check has not run

@@ -2,7 +2,7 @@
 
 The Add Account to Policies window provides a list of Policies that have been created. Policies are
 created in the
-[ Policy Interface](/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/policy/interface.md).
+[ Policy Interface](/docs/privilegesecure/4.1/privilegesecure/accessmanagement/admin/policy/interface.md).
 
 ![usersgroupsaddaccounttopoliciespage](/img/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/policy/window/usersgroups/usersgroupsaddaccounttopoliciespage.webp)
 

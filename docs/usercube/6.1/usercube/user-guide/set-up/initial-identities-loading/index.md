@@ -23,7 +23,7 @@ entitlement assignments.
 >
 > ![Identity Example](/img/versioned_docs/usercube_6.1/usercube/user-guide/set-up/initial-identities-loading/identityrepository-person_v602.webp)
 
-[See more information about the identity repository](/versioned_docs/usercube_6.1/usercube/integration-guide/identity-management/identity-repository/index.md).
+[See more information about the identity repository](/docs/usercube/6.1/usercube/integration-guide/identity-management/identity-repository/index.md).
 
 The initial workforce repository is going to be the first version of a comprehensive repository
 containing all users in the organization. This repository is crucial in setting up the identity
@@ -55,7 +55,7 @@ information from your organization into said Excel file.
 Even if you have more specific or exotic needs that aren't met by this model, it is still a good
 starting point and a good way to quickly start delivering value. We recommend that you start
 building your project using this model, identify its limits along the way, and
-[enhance it](/versioned_docs/usercube_6.1/usercube/user-guide/optimize/identity-datamodel-modification/index.md)
+[enhance it](/docs/usercube/6.1/usercube/user-guide/optimize/identity-datamodel-modification/index.md)
 down the road to make it fit your needs more accurately.
 
 #### Organizational model filling
@@ -81,7 +81,7 @@ While it seems to be a good idea, it poses a few problems. Among them:
 Hence, in order to rather focus on awaited IGA activities, we choose to build the first iteration of
 the project upon a manual data upload to create the initial workforce repository.
 
-[Read more about why you should postpone connecting your HR data](/versioned_docs/usercube_6.1/usercube/user-guide/optimize/hr-connector-creation/index.md).
+[Read more about why you should postpone connecting your HR data](/docs/usercube/6.1/usercube/user-guide/optimize/hr-connector-creation/index.md).
 
 ## Participants and Artifacts
 
@@ -91,18 +91,18 @@ review the data to confirm its accuracy.
 
 | Input                                                                                                                                                                                                                       | Output                       |
 | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------- |
-| [Usercube's server](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/development-environment-installation/index.md) (required) Organizational chart (required)) HR data (required) Third-party staff data (optional) | Initial workforce repository |
+| [Usercube's server](/docs/usercube/6.1/usercube/user-guide/set-up/development-environment-installation/index.md) (required) Organizational chart (required)) HR data (required) Third-party staff data (optional) | Initial workforce repository |
 
 ## Create the Workforce Repository
 
 Create the workforce repository by proceeding as follows:
 
-1. [Configure the generation of unique properties](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/initial-identities-loading/generate-unique-properties/index.md)
+1. [Configure the generation of unique properties](/docs/usercube/6.1/usercube/user-guide/set-up/initial-identities-loading/generate-unique-properties/index.md)
    for all users, pre-existing and new, who do not have them yet.
-2. [Load identities to Usercube](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/initial-identities-loading/load-identities/index.md)
+2. [Load identities to Usercube](/docs/usercube/6.1/usercube/user-guide/set-up/initial-identities-loading/load-identities/index.md)
    based on the recommended attributes from the provided
-   [organizational model template](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/initial-identities-loading/template-description/index.md).
-3. [Adjust the identity data model](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/initial-identities-loading/adjust-datamodel/index.md)
+   [organizational model template](/docs/usercube/6.1/usercube/user-guide/set-up/initial-identities-loading/template-description/index.md).
+3. [Adjust the identity data model](/docs/usercube/6.1/usercube/user-guide/set-up/initial-identities-loading/adjust-datamodel/index.md)
    following Usercube's suggestions.
 4. Continue with the next steps of this guide, and come back later to fill the organizational model
    with additional data.
@@ -110,14 +110,14 @@ Create the workforce repository by proceeding as follows:
 ## Next Steps
 
 Once the initial identities are loaded, integrators can start the
-[user profile configuration](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/user-profile-configuration/index.md).
+[user profile configuration](/docs/usercube/6.1/usercube/user-guide/set-up/user-profile-configuration/index.md).
 
 From there you will be able to keep your repository up to date:
 
-- [concerning identity data](/versioned_docs/usercube_6.1/usercube/user-guide/maintain/identity-data-modification/index.md)
+- [concerning identity data](/docs/usercube/6.1/usercube/user-guide/maintain/identity-data-modification/index.md)
   through workflows;
-- [concerning the data model](/versioned_docs/usercube_6.1/usercube/user-guide/optimize/identity-datamodel-modification/index.md)
+- [concerning the data model](/docs/usercube/6.1/usercube/user-guide/optimize/identity-datamodel-modification/index.md)
 
 The initial identities loading also enables:
 
-- [HR connector creation](/versioned_docs/usercube_6.1/usercube/user-guide/optimize/hr-connector-creation/index.md).
+- [HR connector creation](/docs/usercube/6.1/usercube/user-guide/optimize/hr-connector-creation/index.md).

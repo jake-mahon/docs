@@ -10,7 +10,7 @@ languages.
 
 NOTE: Before configuring Email authentication, make sure that an SMTP server is configured for the
 identity store. See the
-[Configure an SMTP Server](/versioned_docs/groupid_11.0/groupid/admincenter/identitystore/configure/smtpserver.md)
+[Configure an SMTP Server](/docs/groupid/11.0/groupid/admincenter/identitystore/configure/smtpserver.md)
 topic.
 
 What do you want to do?
@@ -25,7 +25,7 @@ The email authentication type must be enabled for an identity store before users
 second factor authentication and multifactor authentication.
 
 To enable it, see the
-[Enable Authentication Types](/versioned_docs/groupid_11.0/groupid/admincenter/identitystore/configure/authtypes.md)
+[Enable Authentication Types](/docs/groupid/11.0/groupid/admincenter/identitystore/configure/authtypes.md)
 topic.
 
 ## Modify the Email Template
@@ -67,7 +67,7 @@ confirmation code that users have to enter in GroupID to enroll/authenticate the
 ## Enforce Email Authentication for a Role in an Identity Store
 
 To enforce an authentication type, see the
-[Enforce Authentication Types for Multifactor Authentication](/versioned_docs/groupid_11.0/groupid/admincenter/securityrole/policy/authentication.md#enforce-authentication-types-for-multifactor-authentication)
+[Enforce Authentication Types for Multifactor Authentication](/docs/groupid/11.0/groupid/admincenter/securityrole/policy/authentication.md#enforce-authentication-types-for-multifactor-authentication)
 topic.
 
 Role members must use an enforced authentication type for multifactor authentication. When an
@@ -76,5 +76,5 @@ and authentication.
 
 **See Also**
 
-- [Authentication Policy](/versioned_docs/groupid_11.0/groupid/admincenter/identitystore/configure/authpolicy.md)
-- [Customize Notifications](/versioned_docs/groupid_11.0/groupid/admincenter/notification/customize.md)
+- [Authentication Policy](/docs/groupid/11.0/groupid/admincenter/identitystore/configure/authpolicy.md)
+- [Customize Notifications](/docs/groupid/11.0/groupid/admincenter/notification/customize.md)

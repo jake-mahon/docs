@@ -1,7 +1,7 @@
 # Fulfill Microsoft Exchange via PowerShell
 
 This guide shows how to set up a
-[PowerShell connector](/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/references-connectors/powershellprov/index.md)
+[PowerShell connector](/docs/usercube/6.1/usercube/integration-guide/connectors/references-connectors/powershellprov/index.md)
 to fulfill data in Microsoft Exchange Server. It will focus on registering Usercube within the
 target Microsoft Exchange instance, configuring the connector, and building the job to perform a
 regularly scheduled fulfillment. Of course, any other system compatible with PowerShell can be
@@ -13,9 +13,9 @@ chosen.
 
 Check the following prerequisites:
 
-- [PowerShell](/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/references-connectors/powershellprov/index.md)
-- [Microsoft Exchange](/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/references-connectors/microsoftexchange/index.md)
-- [Active Directory](/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/references-connectors/activedirectory/index.md)
+- [PowerShell](/docs/usercube/6.1/usercube/integration-guide/connectors/references-connectors/powershellprov/index.md)
+- [Microsoft Exchange](/docs/usercube/6.1/usercube/integration-guide/connectors/references-connectors/microsoftexchange/index.md)
+- [Active Directory](/docs/usercube/6.1/usercube/integration-guide/connectors/references-connectors/activedirectory/index.md)
 
 Let's consider a simplified system, including three parts:
 
@@ -39,9 +39,9 @@ This step sets up the Usercube Agent to use the `Active Directory` and `PowerShe
 order to fulfill the Microsoft Exchange mailboxes.
 
 The settings must be entered in `appsettings.agent.json > Connections`. For more details, see the
-[Active Directory](/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/references-connectors/activedirectory/index.md)
+[Active Directory](/docs/usercube/6.1/usercube/integration-guide/connectors/references-connectors/activedirectory/index.md)
 and
-[PowerShell](/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/references-connectors/powershellprov/index.md)
+[PowerShell](/docs/usercube/6.1/usercube/integration-guide/connectors/references-connectors/powershellprov/index.md)
 sections.
 
 #### Add sections
@@ -49,11 +49,11 @@ sections.
 As explained previously, the simplified system consists of Usercube and two other systems. It means
 that settings are required in `appsettings.agent.json` to connect with the systems. The settings
 required are
-[Export Microsoft Exchange](/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/references-connectors/microsoftexchange/index.md),
-[Fulfill PowerShell](/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/references-connectors/powershellprov/index.md),
-[Export Active Directory](/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/references-connectors/activedirectory/index.md)
+[Export Microsoft Exchange](/docs/usercube/6.1/usercube/integration-guide/connectors/references-connectors/microsoftexchange/index.md),
+[Fulfill PowerShell](/docs/usercube/6.1/usercube/integration-guide/connectors/references-connectors/powershellprov/index.md),
+[Export Active Directory](/docs/usercube/6.1/usercube/integration-guide/connectors/references-connectors/activedirectory/index.md)
 and
-[Fulfill Active Directory](/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/references-connectors/activedirectory/index.md).
+[Fulfill Active Directory](/docs/usercube/6.1/usercube/integration-guide/connectors/references-connectors/activedirectory/index.md).
 
 > This example contains export and fulfillment settings for the Active Directory and for Microsoft
 > Exchange:
@@ -102,20 +102,20 @@ The Fulfill-PowerShell needs a script whose path is defined by the attribute
 **PowerShellScriptPath**. Usercube provides a script in the SDK in
 `Usercube.Demo/Scripts/Fulfill-Exchange.ps1`. For more details on how to write a customized script,
 see
-[Write a Script for Fulfill-PowerShell](/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/how-tos/write-fulfill-powershell-script/index.md).
+[Write a Script for Fulfill-PowerShell](/docs/usercube/6.1/usercube/integration-guide/connectors/how-tos/write-fulfill-powershell-script/index.md).
 
 To define and apply additional settings when authenticating to an external system, we can set the
 attribute
-[Options](/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/references-connectors/powershellprov/index.md)
+[Options](/docs/usercube/6.1/usercube/integration-guide/connectors/references-connectors/powershellprov/index.md)
 and add required parameters for authentication.
 
 In the example above, the `Basic` AuthType was chosen to show how to fill the credentials, but it
 isn't mandatory to use this
-[AuthType](/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/references-connectors/microsoftexchange/index.md).
+[AuthType](/docs/usercube/6.1/usercube/integration-guide/connectors/references-connectors/microsoftexchange/index.md).
 
 For pedagogical reasons, this guide focuses on the simplest way to set up the fulfillment, but it's
 not the most secure. Hence, it is strongly recommended to use `Kerberos` AuthType or
-[credentials protection](/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/references-connectors/powershellprov/index.md)
+[credentials protection](/docs/usercube/6.1/usercube/integration-guide/connectors/references-connectors/powershellprov/index.md)
 via Azure Key Vault or CyberArk in a production environment.  
 NETWRIX recommends completing this guide once, testing the configuration, and only then, switching
 to a more secure way of storing credentials.
@@ -123,11 +123,11 @@ to a more secure way of storing credentials.
 ## Build the Connector
 
 To be used for export tasks, a connector must be declared in the
-[applicative configuration](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/index.md)
+[applicative configuration](/docs/usercube/6.1/usercube/integration-guide/toolkit/index.md)
 and linked to an Agent.
 
 It is strongly recommended that the applicative configuration be stored in the
-[working directory](/versioned_docs/usercube_6.1/usercube/installation-guide/production-ready/working-directory/index.md)`Conf`
+[working directory](/docs/usercube/6.1/usercube/installation-guide/production-ready/working-directory/index.md)`Conf`
 folder as a set of `xml` files organized by connector. To follow this structure, create a
 `MicrosoftExchange` directory in the `Conf` folder.
 
@@ -135,12 +135,12 @@ folder as a set of `xml` files organized by connector. To follow this structure,
 
 In the `MicrosoftExchange` directory, create a `MicrosoftExchange Connector.xml` file. This file
 contains the declaration of the connector and the associated
-[Entity Model](/versioned_docs/usercube_6.1/usercube/integration-guide/entity-model/index.md).
+[Entity Model](/docs/usercube/6.1/usercube/integration-guide/entity-model/index.md).
 
 > This example declares the
-> `MicrosoftExchange`[connector](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/connectors/connector/index.md)
+> `MicrosoftExchange`[connector](/docs/usercube/6.1/usercube/integration-guide/toolkit/xml-configuration/connectors/connector/index.md)
 > on the `Local` agent, and the
-> [connection](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/connectors/connection/index.md)
+> [connection](/docs/usercube/6.1/usercube/integration-guide/toolkit/xml-configuration/connectors/connection/index.md)
 > linked to the previously defined `MicrosoftExchangeExportFulfillment` JSON section (see the
 > [example](#example) above):
 >
@@ -154,16 +154,16 @@ contains the declaration of the connector and the associated
 
 ### Write entity types
 
-The [Entity Model](/versioned_docs/usercube_6.1/usercube/integration-guide/entity-model/index.md)
+The [Entity Model](/docs/usercube/6.1/usercube/integration-guide/entity-model/index.md)
 should match as closely as possible the structure of the Microsoft Exchange data relevant for
 Usercube. It is designed by analyzing the Microsoft Exchange data structure, and describing said
 data with
-[Entity Types](/versioned_docs/usercube_6.1/usercube/integration-guide/entity-model/index.md#entity-types)
+[Entity Types](/docs/usercube/6.1/usercube/integration-guide/entity-model/index.md#entity-types)
 and
-[Entity Associations](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/metadata/entityassociation/index.md).
+[Entity Associations](/docs/usercube/6.1/usercube/integration-guide/toolkit/xml-configuration/metadata/entityassociation/index.md).
 
 Eventually, it is up to the integration team to design the
-[Entity Model](/versioned_docs/usercube_6.1/usercube/integration-guide/entity-model/index.md) that
+[Entity Model](/docs/usercube/6.1/usercube/integration-guide/entity-model/index.md) that
 best serves the Role Model needs. It will most likely be refined iteratively throughout the project
 integration.
 
@@ -191,14 +191,14 @@ Conf/MicrosoftExchange/MicrosoftExchange Connector.xml
 The entity type must be mapped, on a property by property basis, to the exported attributes of
 Microsoft Exchange mailboxes and databases (namely, the columns of the CSV source files generated by
 the export). The
-[EntityTypeMapping](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/connectors/entitytypemapping/index.md)
+[EntityTypeMapping](/docs/usercube/6.1/usercube/integration-guide/toolkit/xml-configuration/connectors/entitytypemapping/index.md)
 element maps scalar properties from a CSV source file to an EntityType.
 
 ##### Example
 
 In this example, the CSV source files are `microsoftexchange_databases.csv` and
 `microsoftexchange_mailboxes.csv` located in the
-[ExportOutput](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/appsettings/index.md)
+[ExportOutput](/docs/usercube/6.1/usercube/integration-guide/network-configuration/agent-configuration/appsettings/index.md)
 folder.
 
 ```
@@ -211,7 +211,7 @@ Conf/MicrosoftExchange/MicrosoftExchange Connector.xml
 ### Write entity associations
 
 Entity types are associated through their navigation properties with
-[Entity Association](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/metadata/entityassociation/index.md)
+[Entity Association](/docs/usercube/6.1/usercube/integration-guide/toolkit/xml-configuration/metadata/entityassociation/index.md)
 elements.
 
 ##### Example
@@ -232,7 +232,7 @@ Conf/MicrosoftExchange/MicrosoftExchange Connector.xml
 ### Write the entity association mapping
 
 The
-[EntityAssociationMapping](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/connectors/entityassociationmapping/index.md)
+[EntityAssociationMapping](/docs/usercube/6.1/usercube/integration-guide/toolkit/xml-configuration/connectors/entityassociationmapping/index.md)
 element maps column values from a CSV source file to an EntityType navigation property.
 
 ##### Example
@@ -279,13 +279,13 @@ Conf/MicrosoftExchange/MicrosoftExchange Connector.xml
 ```
 
 The CSV file `microsoftexchange_mailboxes.csv` must be exported to the
-[ExportOutput](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/appsettings/index.md)
+[ExportOutput](/docs/usercube/6.1/usercube/integration-guide/network-configuration/agent-configuration/appsettings/index.md)
 folder.
 
 ## Build the Role Model
 
 A
-[Role Model](/versioned_docs/usercube_6.1/usercube/introduction-guide/overview/entitlement-management/index.md)
+[Role Model](/docs/usercube/6.1/usercube/introduction-guide/overview/entitlement-management/index.md)
 must be created with the following elements:
 
 - `ResourceType`
@@ -296,16 +296,16 @@ must be created with the following elements:
 ### Resource type
 
 A
-[ResourceType](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/provisioning/resourcetype/index.md)
+[ResourceType](/docs/usercube/6.1/usercube/integration-guide/toolkit/xml-configuration/provisioning/resourcetype/index.md)
 is a conceptual model of an information system object, here a mailbox.
 
 The resource type contains several rules:
 
-- [TypeRule](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/provisioning/resourcetype/index.md)
+- [TypeRule](/docs/usercube/6.1/usercube/integration-guide/toolkit/xml-configuration/provisioning/resourcetype/index.md)
   which assigns a resource to a user.
-- [ScalarRule](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/provisioning/resourcetype/index.md)
+- [ScalarRule](/docs/usercube/6.1/usercube/integration-guide/toolkit/xml-configuration/provisioning/resourcetype/index.md)
   which specifies the value to be set to an assigned resource scalar property.
-- [NavigationRule](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/provisioning/resourcetype/index.md)
+- [NavigationRule](/docs/usercube/6.1/usercube/integration-guide/toolkit/xml-configuration/provisioning/resourcetype/index.md)
   which specifies a value to be set to an assigned resource multi-valued navigation property.
 
 #### Example
@@ -327,7 +327,7 @@ For more details, see Writing single role.
 ### Resource type mapping
 
 A
-[ResourceTypeMapping](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/connectors/resourcetypemappings/index.md)
+[ResourceTypeMapping](/docs/usercube/6.1/usercube/integration-guide/toolkit/xml-configuration/connectors/resourcetypemappings/index.md)
 element contains all the resource types (sharing the same Identifier) that can be provisioned into
 targeted platforms, applications, and systems.
 
@@ -352,7 +352,7 @@ one `Identifier` and one `Connection`):
 ### Resource correlation rule
 
 A
-[ResourceCorrelationRule](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/provisioning/resourcecorrelationrule/index.md)
+[ResourceCorrelationRule](/docs/usercube/6.1/usercube/integration-guide/toolkit/xml-configuration/provisioning/resourcecorrelationrule/index.md)
 is used to correlate the resource `MicrosoftExchange_Mailbox_NominativeUser` with the
 `Directory_User`.
 
@@ -372,7 +372,7 @@ This rule means if the `SamAccountName` (`MicrosoftExchange_Mailbox`) is equal t
 ### Single role (optional)
 
 A
-[SingleRole](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/provisioning/singlerole/index.md)
+[SingleRole](/docs/usercube/6.1/usercube/integration-guide/toolkit/xml-configuration/provisioning/singlerole/index.md)
 encapsulates system entitlements.
 
 #### Example
@@ -404,7 +404,7 @@ This step focuses on configuring a nice display for the synchronized list of res
 ### Navigation
 
 A
-[MenuItem](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/user-interface/menuitem/index.md)
+[MenuItem](/docs/usercube/6.1/usercube/integration-guide/toolkit/xml-configuration/user-interface/menuitem/index.md)
 can be added to include a link to the resources list in the left menu on the UI home screen.
 
 It is strongly recommended that you gather synchronized resources menu items under parent menu
@@ -436,7 +436,7 @@ It is strongly recommended that the display configuration be written to a new
 #### All-in-one scaffolding
 
 The
-[ViewTargetResourceTemplate](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/templates/viewtargetresourcetemplate/index.md)
+[ViewTargetResourceTemplate](/docs/usercube/6.1/usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/templates/viewtargetresourcetemplate/index.md)
 generates all the required elements to be seen by the user.
 
 ##### Example
@@ -456,7 +456,7 @@ provide a more precise display.
 #### Display entity type
 
 The
-[DisplayEntityType](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/user-interface/displayentitytype/index.md)
+[DisplayEntityType](/docs/usercube/6.1/usercube/integration-guide/toolkit/xml-configuration/user-interface/displayentitytype/index.md)
 describes how a single resource should be displayed.
 
 ##### Example
@@ -475,20 +475,20 @@ This example configures the following display for
 
 The scalar properties require no configuration: they are automatically displayed. The only
 information that the
-[DisplayEntityType](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/user-interface/displayentitytype/index.md)
+[DisplayEntityType](/docs/usercube/6.1/usercube/integration-guide/toolkit/xml-configuration/user-interface/displayentitytype/index.md)
 adds here, is that the property `BasicCollection` is a navigation property. An eye icon will be
 displayed to take you directly to the matching page.
 
 #### Display table
 
 The
-[DisplayTable](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/user-interface/displaytable/index.md)
+[DisplayTable](/docs/usercube/6.1/usercube/integration-guide/toolkit/xml-configuration/user-interface/displaytable/index.md)
 elements describe how a list of resources should be displayed.
 
 The
-[DisplayTable](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/user-interface/displaytable/index.md)
+[DisplayTable](/docs/usercube/6.1/usercube/integration-guide/toolkit/xml-configuration/user-interface/displaytable/index.md)
 contains a list of
-[DisplayTableColumn](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/user-interface/displaytable/index.md)
+[DisplayTableColumn](/docs/usercube/6.1/usercube/integration-guide/toolkit/xml-configuration/user-interface/displaytable/index.md)
 elements that identify which properties should be included in the list display.
 
 ##### Example
@@ -507,7 +507,7 @@ This example configures the following list display:
 #### Internal display name
 
 An `InternalDisplayName` can also be declared as an
-[EntityPropertyExpression](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/metadata/entitytype/index.md).
+[EntityPropertyExpression](/docs/usercube/6.1/usercube/integration-guide/toolkit/xml-configuration/metadata/entitytype/index.md).
 The `InternalDisplayName` is used in several UI screens to identify a resource for the user.
 
 With no custom `InternalDisplayName`, a default value is used (instead of the first property of the
@@ -532,11 +532,11 @@ This step focuses on setting up permissions for Usercube's end-users granting th
 connector.
 
 The
-[AccessControlRule](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/access-control/accesscontrolrule/index.md)
+[AccessControlRule](/docs/usercube/6.1/usercube/integration-guide/toolkit/xml-configuration/access-control/accesscontrolrule/index.md)
 and
-[AccessControlEntry](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/access-control/accesscontrolrule/index.md)
+[AccessControlEntry](/docs/usercube/6.1/usercube/integration-guide/toolkit/xml-configuration/access-control/accesscontrolrule/index.md)
 elements define
-[permissions](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/access-control/accesscontrolpermission/index.md)
+[permissions](/docs/usercube/6.1/usercube/integration-guide/toolkit/xml-configuration/access-control/accesscontrolpermission/index.md)
 for end-user profiles to read and write the connector's data (such as resources of a given entity
 type). It is used by the UI when displaying data such as resources and available roles.
 
@@ -579,7 +579,7 @@ This job will be executed on Microsoft Exchange's connector agent.
 
 Notice the **Identifier** attribute with the value `Job` in the `OpenIdIdentifier` tag. It refers to
 the `ClientId` written to the
-[appsettings.agent](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/appsettings-agent/index.md)
+[appsettings.agent](/docs/usercube/6.1/usercube/integration-guide/network-configuration/agent-configuration/appsettings-agent/index.md)
 technical configuration. The Tasks will authenticate with the profile associated with this
 `ClientId` in the `<OpenIdClient>` xml configuration element.
 
@@ -588,10 +588,10 @@ Removing the tag will launch export-related tasks before fulfillment-related tas
 need the same XML configuration and additional settings in appsettings.agent.json.
 
 All the job steps generated by the scaffolding can be found in the
-`CreateConnectorSynchroComplete`[scaffolding](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/jobs/createconnectorsynchrocomplete/index.md).
+`CreateConnectorSynchroComplete`[scaffolding](/docs/usercube/6.1/usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/jobs/createconnectorsynchrocomplete/index.md).
 
 Check
-[CreateConnectorSynchroIncremental](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/jobs/createconnectorsynchroincremental/index.md)
+[CreateConnectorSynchroIncremental](/docs/usercube/6.1/usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/jobs/createconnectorsynchroincremental/index.md)
 for incremental synchronization.
 
 ### Permissions
@@ -600,7 +600,7 @@ The execution of a Job entails the execution of Tasks, reading/writing to the Da
 files over to the Server. These operations are protected by an authorization mechanism.
 
 A
-[Profile](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/access-control/profile/index.md)
+[Profile](/docs/usercube/6.1/usercube/integration-guide/toolkit/xml-configuration/access-control/profile/index.md)
 is required and must have the proper permissions for the associated Job or Task to perform.
 
 Here, jobs use the default `OpenId`.
@@ -612,20 +612,20 @@ Scheduling the job execution can rely either on Usercube's scheduler or an exter
 #### With Usercube's scheduler
 
 Use the Job
-[`CronTabExpression`](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/jobs/job/index.md)
+[`CronTabExpression`](/docs/usercube/6.1/usercube/integration-guide/toolkit/xml-configuration/jobs/job/index.md)
 attribute.
 
 #### With an external scheduler
 
 An external scheduler would rely on the
-[Usercube-Invoke-Job tool](/versioned_docs/usercube_6.1/usercube/integration-guide/executables/references/invoke-job/index.md).
+[Usercube-Invoke-Job tool](/docs/usercube/6.1/usercube/integration-guide/executables/references/invoke-job/index.md).
 
 ## Validation
 
 ### Deploy configuration
 
 The configuration is written to the database using the
-[Deploy Configuration tool](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/jobs/tasks/server/deployconfigurationtask/index.md).
+[Deploy Configuration tool](/docs/usercube/6.1/usercube/integration-guide/toolkit/xml-configuration/jobs/tasks/server/deployconfigurationtask/index.md).
 
 ### Test
 

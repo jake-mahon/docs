@@ -24,7 +24,7 @@ Shows the objects whose emails will not be delivered to the group.
 
 To add an object to a list, click **Add** in the respective area. Enter a search string to locate
 the required object, or click **Advance** to use the
-[Find Dialog Box](/versioned_docs/groupid_11.0/groupid/portal/search/find.md) for performing a
+[Find Dialog Box](/docs/groupid/11.0/groupid/portal/search/find.md) for performing a
 search.
 
 **Remove**
@@ -33,4 +33,4 @@ To remove an object from a list, select it and click **Remove** in the respectiv
 
 **See Also**
 
-- [Group Properties](/versioned_docs/groupid_11.0/groupid/portal/group/properties/overview.md)
+- [Group Properties](/docs/groupid/11.0/groupid/portal/group/properties/overview.md)

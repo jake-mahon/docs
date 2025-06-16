@@ -31,7 +31,7 @@ displays.
 ![Bulk Import Settings](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/spaa/bulkimportsettings.webp)
 
 **Step 4 –** On the
-[SPAA: Bulk Import Settings](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/spaa/bulkimportsettings.md)
+[SPAA: Bulk Import Settings](/docs/accessanalyzer/11.6/enterpriseauditor/admin/datacollector/spaa/bulkimportsettings.md)
 page, the **Set Host Identifier** is not configured by default. Click **Next**.
 
 **NOTE:** Unless SQL Server Replication is used, it should not be necessary to adjust the **Host

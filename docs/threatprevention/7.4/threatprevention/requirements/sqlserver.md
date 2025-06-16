@@ -8,7 +8,7 @@ The server must meet this requirement:
 
 - US English language installation
 - Windows Server can be physical or virtual. See the
-  [Virtual Environment Recommendations](/versioned_docs/threatprevention_7.4/threatprevention/requirements/application.md#virtual-environment-recommendations)topic
+  [Virtual Environment Recommendations](/docs/threatprevention/7.4/threatprevention/requirements/application.md#virtual-environment-recommendations)topic
   for additional information.
 
 **_RECOMMENDED:_** It is a best practice and strongly recommended to have a dedicated database
@@ -67,7 +67,7 @@ performance and fault tolerance.
 **NOTE:** For SQL Server 2012+, it is necessary to restrict the maximum server memory value to
 60-70% of the total physical RAM to avoid a situation where SQL Server will starve other
 applications of memory. See the
-[Restrict SQL Server Maximum Server Memory](/versioned_docs/threatprevention_7.4/threatprevention/troubleshooting/sqlserver.md)
+[Restrict SQL Server Maximum Server Memory](/docs/threatprevention/7.4/threatprevention/troubleshooting/sqlserver.md)
 topic for additional information.
 
 Database Permissions
@@ -79,5 +79,5 @@ The following permissions are required on the databases:
 
 Additional permissions are required for the optional Database Maintenance feature in Threat
 Prevention. See the
-[Database Maintenance Feature Requirements](/versioned_docs/threatprevention_7.4/threatprevention/requirements/dbmaintenance.md)
+[Database Maintenance Feature Requirements](/docs/threatprevention/7.4/threatprevention/requirements/dbmaintenance.md)
 topic for additional information.

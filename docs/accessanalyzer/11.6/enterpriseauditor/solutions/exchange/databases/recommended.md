@@ -27,13 +27,13 @@ through host inventory results.
 Connection Profile
 
 A Connection Profile must be set directly on the EX_DBInfo Job and the EX_PFInfo Job. See the
-[Exchange PowerShell Permissions](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/requirements/solutions/exchange/powershell.md)
+[Exchange PowerShell Permissions](/docs/accessanalyzer/11.6/enterpriseauditor/requirements/solutions/exchange/powershell.md)
 topic for the Ex_DBInfo Job required permissions. See the
-[MAPI-Based Data Collector Permissions](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/requirements/solutions/exchange/mapi.md)
+[MAPI-Based Data Collector Permissions](/docs/accessanalyzer/11.6/enterpriseauditor/requirements/solutions/exchange/mapi.md)
 topic for the EX_PFInfo Job requirements.
 
 See the
-[Connection](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/settings/connection/overview.md)
+[Connection](/docs/accessanalyzer/11.6/enterpriseauditor/admin/settings/connection/overview.md)
 topic for additional information.
 
 Schedule Frequency

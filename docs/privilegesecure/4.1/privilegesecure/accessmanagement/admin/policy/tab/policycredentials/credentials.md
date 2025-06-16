@@ -7,7 +7,7 @@ The Credentials tab shows credentials associated with the selected Credential Ba
 The Credentials table has the following features:
 
 - Add — Opens the Add Credentials window. See the
-  [Add Credentials Window](/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/policy/window/accesspolicy/addcredentials.md)
+  [Add Credentials Window](/docs/privilegesecure/4.1/privilegesecure/accessmanagement/admin/policy/window/accesspolicy/addcredentials.md)
   topic for additional information.
 - Remove — Removes the selected item from being associated with the policy
 - Search — Searches the table or list for matches to the search string. When matches are found, the

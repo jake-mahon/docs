@@ -14,4 +14,4 @@ portal.
 
 **See Also**
 
-- [Create a Microsoft Entra ID User](/versioned_docs/groupid_11.0/groupid/portal/user/create/azure/user.md)
+- [Create a Microsoft Entra ID User](/docs/groupid/11.0/groupid/portal/user/create/azure/user.md)

@@ -4,9 +4,9 @@ Will execute the profile rules of the different resource types given in paramete
 or delete profiles in automatic mode.
 
 It is necessary to set up
-[ProfileRuleContext](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/access-control/profilecontext/index.md)
+[ProfileRuleContext](/docs/usercube/6.1/usercube/integration-guide/toolkit/xml-configuration/access-control/profilecontext/index.md)
 as well as
-[profileRules](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/access-control/profilerulecontext/index.md)
+[profileRules](/docs/usercube/6.1/usercube/integration-guide/toolkit/xml-configuration/access-control/profilerulecontext/index.md)
 to be able to use this job.
 
 ## Examples

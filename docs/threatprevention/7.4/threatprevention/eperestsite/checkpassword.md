@@ -1,7 +1,7 @@
 # Check Password APIs
 
 You can use APIs to check a candidate password against the EPE rules defined on the
-[EPE Settings Window](/versioned_docs/threatprevention_7.4/threatprevention/admin/configuration/epesettings.md).
+[EPE Settings Window](/docs/threatprevention/7.4/threatprevention/admin/configuration/epesettings.md).
 
 - POST api/Epe/CheckPassword (Basic)
 - POST api/Epe/CheckPassword (Digest)

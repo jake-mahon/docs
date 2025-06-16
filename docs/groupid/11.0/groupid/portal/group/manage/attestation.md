@@ -15,7 +15,7 @@ A group expires when it is not attested and renewed during its expiring days.
 **History Logging**
 
 GroupID tracks and maintains history for group attestation. On the
-[Object properties - History tab](/versioned_docs/groupid_11.0/groupid/portal/group/properties/history.md)
+[Object properties - History tab](/docs/groupid/11.0/groupid/portal/group/properties/history.md)
 in group properties, the following is logged:
 
 - The date the group was attested on.
@@ -145,5 +145,5 @@ What do you want to do?
 
 **See Also**
 
-- [My Expiring Groups](/versioned_docs/groupid_11.0/groupid/portal/group/myexpiringgroups.md)
-- [Working with Groups](/versioned_docs/groupid_11.0/groupid/portal/group/manage/workingwithgroups.md)
+- [My Expiring Groups](/docs/groupid/11.0/groupid/portal/group/myexpiringgroups.md)
+- [Working with Groups](/docs/groupid/11.0/groupid/portal/group/manage/workingwithgroups.md)

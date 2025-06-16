@@ -82,5 +82,5 @@ To update a field:
 
 **See Also**
 
-- [Mobile Service](/versioned_docs/groupid_11.0/groupid/admincenter/mobileservice/overview.md)
-- [Design Settings](/versioned_docs/groupid_11.0/groupid/admincenter/mobileservice/design/overview.md)
+- [Mobile Service](/docs/groupid/11.0/groupid/admincenter/mobileservice/overview.md)
+- [Design Settings](/docs/groupid/11.0/groupid/admincenter/mobileservice/design/overview.md)

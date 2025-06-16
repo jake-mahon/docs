@@ -30,10 +30,10 @@ Publish Options
   Console when it is generated.
     - Use default setting – Applies the Global report settings, or the settings configured at the
       job group or job levels if inheritance has been broken. (See the
-      [Publish Option](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/settings/reporting.md#publish-option),
-      [Reporting Node](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/jobs/group/reporting.md),
+      [Publish Option](/docs/accessanalyzer/11.6/enterpriseauditor/admin/settings/reporting.md#publish-option),
+      [Reporting Node](/docs/accessanalyzer/11.6/enterpriseauditor/admin/jobs/group/reporting.md),
       and
-      [Report Settings Tab](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/jobs/job/properties/reportsettings.md)
+      [Report Settings Tab](/docs/accessanalyzer/11.6/enterpriseauditor/admin/jobs/job/properties/reportsettings.md)
       topics for additional information.)
     - Publish report – Select this option to publish the report
     - Do not publish report – Select this option to not publish the report
@@ -43,7 +43,7 @@ Publish Options
 ## Add Tags to a Report
 
 You can add tags to reports to describe the content and use cases of the report (see the
-[Tags](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/report/tags.md) topic for
+[Tags](/docs/accessanalyzer/11.6/enterpriseauditor/admin/report/tags.md) topic for
 additional information). The Tag Editor allows you to select the tags for a report, including
 creating new ones to select.
 

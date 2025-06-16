@@ -77,7 +77,7 @@ Enterprise Auditor.
 - Reporting Needs – Anticipated data needed to generate reports
 
 Recommended SQL Server database sizes are provided for specific solutions in the
-[Requirements](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/requirements/overview.md)
+[Requirements](/docs/accessanalyzer/11.6/enterpriseauditor/requirements/overview.md)
 topics. These recommendations are based on environmental factors, the number of target objects
 within an environment (users, hosts, mailboxes, etc.), and the applicable factors listed above for
 the specific solution.
@@ -182,7 +182,7 @@ Console.
 newly secured login account.
 
 **NOTE:** This step requires the completion of the Enterprise Auditor installation. See the
-[Enterprise Auditor Core Installation](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/install/application/wizard.md)
+[Enterprise Auditor Core Installation](/docs/accessanalyzer/11.6/enterpriseauditor/install/application/wizard.md)
 topic for instructions.
 
 ![Storage Profile configuration page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/install/application/storageprofile.webp)
@@ -215,7 +215,7 @@ The **blue arrow** signifies the default profile was changed but does not take e
 required restart of the Enterprise Auditor Console.
 
 See the
-[Enterprise Auditor Initial Configuration](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/install/application/firstlaunch.md)
+[Enterprise Auditor Initial Configuration](/docs/accessanalyzer/11.6/enterpriseauditor/install/application/firstlaunch.md)
 topic to perform these steps during the initial configuration process after installation.
 
 ### Second Level of Security

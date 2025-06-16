@@ -18,7 +18,7 @@ fulfillment.
 
 Usercube's calculations for entitlement assignments rely on heuristics, through identities' key
 properties called
-[dimensions](/versioned_docs/usercube_6.1/usercube/introduction-guide/overview/entitlement-management/index.md).
+[dimensions](/docs/usercube/6.1/usercube/introduction-guide/overview/entitlement-management/index.md).
 
 > For example, consider an entity type modeling identities with their job title, department and
 > location.
@@ -58,7 +58,7 @@ anticipate upcoming changes.
 ### Contexts
 
 The model is supposed to facilitate the
-[provisioning](/versioned_docs/usercube_6.1/usercube/integration-guide/provisioning/index.md) of
+[provisioning](/docs/usercube/6.1/usercube/integration-guide/provisioning/index.md) of
 user data and entitlements, yet this first model does not meet all expectations. In case of multiple
 personal data sets for a single user over time, or multiple contracts, or multiple positions, which
 values should be used to apply the rules of the role model? How to combine all start and end dates
@@ -162,9 +162,9 @@ A change to be effective in future can trigger the creation of a new record.
 ### Configuration
 
 This identity model can be implemented by configuring a
-[context rule](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/provisioning/contextrule/index.md)
+[context rule](/docs/usercube/6.1/usercube/integration-guide/toolkit/xml-configuration/provisioning/contextrule/index.md)
 and
-[record sections](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/provisioning/recordsection/index.md):
+[record sections](/docs/usercube/6.1/usercube/integration-guide/toolkit/xml-configuration/provisioning/recordsection/index.md):
 
 ```
 

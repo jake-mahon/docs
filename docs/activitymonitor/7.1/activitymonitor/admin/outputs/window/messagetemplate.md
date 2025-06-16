@@ -88,10 +88,10 @@ Monitored Hosts Syslog outputs have the following preconfigured Templates:
 - LogRhythm
 - McAfee
 - QRadar – Use this template for IBM QRadar integration. See the
-  [Netwrix File Activity Monitor App for QRadar](/versioned_docs/activitymonitor_7.1/activitymonitor/siem/qradar/overview.md)
+  [Netwrix File Activity Monitor App for QRadar](/docs/activitymonitor/7.1/activitymonitor/siem/qradar/overview.md)
   topic for additional information.
 - Splunk – Use this template for Splunk integration. See the Configure the
-  [File Activity Monitor App for Splunk](/versioned_docs/activitymonitor_7.1/activitymonitor/siem/splunk/overview.md)
+  [File Activity Monitor App for Splunk](/docs/activitymonitor/7.1/activitymonitor/siem/splunk/overview.md)
   topic for additional information.
 - Netwrix Threat Manager (StealthDEFEND) – Use this template for Netwrix Threat Manager integration.
   This is the only supported template for Threat Manager.

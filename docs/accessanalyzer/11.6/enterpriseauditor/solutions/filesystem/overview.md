@@ -24,17 +24,17 @@ sensitive data, or Sensitive Data Discovery Auditing (SEEK).
 Supported Platforms
 
 - See the
-  [File System Supported Platforms](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/requirements/target/filesystems.md)
+  [File System Supported Platforms](/docs/accessanalyzer/11.6/enterpriseauditor/requirements/target/filesystems.md)
   topic for a full list of supported platforms.
 
 Requirements, Permissions, and Ports
 
 - Permissions vary based on the Scan Mode Option selected. See the
-  [File System Supported Platforms](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/requirements/target/filesystems.md)
+  [File System Supported Platforms](/docs/accessanalyzer/11.6/enterpriseauditor/requirements/target/filesystems.md)
   topic for additional information.
 
 - Ports vary based on the Scan Mode Option selected. See the
-  [File System Scan Options](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/requirements/solutions/filesystem/scanoptions.md)
+  [File System Scan Options](/docs/accessanalyzer/11.6/enterpriseauditor/requirements/solutions/filesystem/scanoptions.md)
   topic for additional information.
 
 Sensitive Data Discovery Considerations
@@ -62,15 +62,15 @@ Instant Job Wizard. Once it has been installed into the Jobs tree, navigate to t
 **Jobs** > **FileSystem**.
 
 The
-[0.Collection Job Group](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/filesystem/collection/overview.md)
+[0.Collection Job Group](/docs/accessanalyzer/11.6/enterpriseauditor/solutions/filesystem/collection/overview.md)
 collects the data. The other job groups run analysis on the collected data. The
-[FileSystemOverview Job](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/filesystem/filesystemoverview.md)
+[FileSystemOverview Job](/docs/accessanalyzer/11.6/enterpriseauditor/solutions/filesystem/filesystemoverview.md)
 generates a statistical overview report of the targeted file systems.
 
 **NOTE:** The
-[Cleanup Job Group](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/filesystem/cleanup/overview.md)
+[Cleanup Job Group](/docs/accessanalyzer/11.6/enterpriseauditor/solutions/filesystem/cleanup/overview.md)
 and the
-[Resource Based Groups Job Group](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/filesystem/resourcebasedgroups/overview.md)
+[Resource Based Groups Job Group](/docs/accessanalyzer/11.6/enterpriseauditor/solutions/filesystem/resourcebasedgroups/overview.md)
 require additional licenses to function. See the [Job Groups](#job-groups) topic for additional
 information.
 
@@ -80,7 +80,7 @@ The File System Solution offers information on multiple aspects of an organizati
 infrastructure. This solution is comprised of eleven job groups and an overview job which collect,
 analyze, and report on data as well as run action tasks for environmental remediation. The data
 collection is conducted by the FileSystemAccess (FSAA) Data Collector. See the
-[Standard Reference Tables & Views for the FSAA Data Collector](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/fsaa/standardtables.md)
+[Standard Reference Tables & Views for the FSAA Data Collector](/docs/accessanalyzer/11.6/enterpriseauditor/admin/datacollector/fsaa/standardtables.md)
 section for database table information.
 
 ![File System Solution](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/runninginstances/overviewpage.webp)
@@ -98,56 +98,56 @@ to first run the 0.Collection Job Group components in the default order for the 
 types to ensure successful data collection, and then to run the desired sub-groups for reports.
 
 See the
-[Recommended Configuration for the File System Solution](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/filesystem/recommended.md)
+[Recommended Configuration for the File System Solution](/docs/accessanalyzer/11.6/enterpriseauditor/solutions/filesystem/recommended.md)
 topic for additional information on run frequency and job group settings.
 
 The File System Solution is available with the File System Reports license feature and is comprised
 of the following jobs:
 
-- [0.Collection Job Group](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/filesystem/collection/overview.md)
+- [0.Collection Job Group](/docs/accessanalyzer/11.6/enterpriseauditor/solutions/filesystem/collection/overview.md)
   – Designed to collect information from targeted file servers. Information collected includes
   access control information, activity events, and sensitive data.
     - This job group is available with the File System license feature.
-- [1.Open Access > FS_OpenAccess Job](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/filesystem/fs_openaccess.md)
+- [1.Open Access > FS_OpenAccess Job](/docs/accessanalyzer/11.6/enterpriseauditor/solutions/filesystem/fs_openaccess.md)
   – Designed to report on Open Access information from targeted file servers
-- [2.Direct Permissions Job Group](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/filesystem/directpermissions/overview.md)
+- [2.Direct Permissions Job Group](/docs/accessanalyzer/11.6/enterpriseauditor/solutions/filesystem/directpermissions/overview.md)
   – Designed to report on Direct Permissions information from targeted file servers
-- [3.Broken Inheritance > FS_BrokenInheritance Job](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/filesystem/fs_brokeninheritance.md)
+- [3.Broken Inheritance > FS_BrokenInheritance Job](/docs/accessanalyzer/11.6/enterpriseauditor/solutions/filesystem/fs_brokeninheritance.md)
   – Designed to report on Broken Inheritance information from targeted file servers
-- [4.Content Job Group](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/filesystem/content/overview.md)
+- [4.Content Job Group](/docs/accessanalyzer/11.6/enterpriseauditor/solutions/filesystem/content/overview.md)
   – Designed to report on content information from targeted file servers. Key information reported
   on in this group is: File Types, File Sizing, Stale Content, and File Tags.
-- [5.Activity Job Group](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/filesystem/activity/overview.md)
+- [5.Activity Job Group](/docs/accessanalyzer/11.6/enterpriseauditor/solutions/filesystem/activity/overview.md)
   – Designed to report on activity event information from targeted file servers
     - Requires the Activity Monitor
-- [6.Probable Owner > FS_ProbableOwner Job](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/filesystem/fs_probableowner.md)
+- [6.Probable Owner > FS_ProbableOwner Job](/docs/accessanalyzer/11.6/enterpriseauditor/solutions/filesystem/fs_probableowner.md)
   – Designed to report on probable owners of resources from targeted file servers
-- [7.Sensitive Data > FS_DLPResults Job](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/filesystem/fs_dlpresults.md)
+- [7.Sensitive Data > FS_DLPResults Job](/docs/accessanalyzer/11.6/enterpriseauditor/solutions/filesystem/fs_dlpresults.md)
   – Designed to report on resources that have been identified to contain sensitive data from
   targeted file servers
     - Requires the Sensitive Data Discovery Add-On
-- [Ad Hoc Audits Job Group](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/filesystem/adhocaudits/overview.md)
+- [Ad Hoc Audits Job Group](/docs/accessanalyzer/11.6/enterpriseauditor/solutions/filesystem/adhocaudits/overview.md)
   – Designed to report on resources and trustees that have been provided by the user from targeted
   file servers
     - Typically, this is run independently from the rest of the solution
-- [Cleanup Job Group](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/filesystem/cleanup/overview.md)
+- [Cleanup Job Group](/docs/accessanalyzer/11.6/enterpriseauditor/solutions/filesystem/cleanup/overview.md)
   – Designed to report on and take action against resources from targeted file servers that can be
   cleaned up
     - Requires the File System Actions license feature to function
     - This job group is run independently from the rest of the solution
-- [Resource Based Groups Job Group](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/filesystem/resourcebasedgroups/overview.md)
+- [Resource Based Groups Job Group](/docs/accessanalyzer/11.6/enterpriseauditor/solutions/filesystem/resourcebasedgroups/overview.md)
   – Designed to report on and take action against resources from targeted file servers that can be
   have their permissions structure transformed to a resource-based group implementation
     - Requires the File System Actions and Active Directory Actions license features to function
     - This job group is run independently from the rest of the solution
-- [FileSystemOverview Job](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/filesystem/filesystemoverview.md)
+- [FileSystemOverview Job](/docs/accessanalyzer/11.6/enterpriseauditor/solutions/filesystem/filesystemoverview.md)
   – Designed to provide an overview of all relevant information from targeted file servers
-- [FS_SecurityAssessment Job](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/filesystem/fs_securityassessment.md)
+- [FS_SecurityAssessment Job](/docs/accessanalyzer/11.6/enterpriseauditor/solutions/filesystem/fs_securityassessment.md)
   – Designed to provide a security assessment of all relevant information from targeted file servers
 
 When targeting Nasuni Edge Appliances, it is necessary to add a job from the Instant Job Library
 (FS_Nasuni Job) which uses the PowerShell Data collector to gather system information, volume data,
 and share data from the Nasuni environment. This job should be added to the 0.Collection Job Group
 and should be renamed (0-FS_Nasuni) to run immediately after the 0-Create Schema Job. See the
-[0-FS_Nasuni Job](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/filesystem/collection/0-fs_nasuni.md)
+[0-FS_Nasuni Job](/docs/accessanalyzer/11.6/enterpriseauditor/solutions/filesystem/collection/0-fs_nasuni.md)
 topic for additional information.

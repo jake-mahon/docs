@@ -10,7 +10,7 @@ The Ransomware dashboard contains the following cards:
   ransomware attack
 
     - See the
-      [Table Card Features ](/versioned_docs/activitymonitor_7.1/activitymonitor/siem/qradar/app.md#table-card-features)
+      [Table Card Features ](/docs/activitymonitor/7.1/activitymonitor/siem/qradar/app.md#table-card-features)
       topic for additional information.
 
 - Details of Ransomware Attack – Tabular format of all file activity events for the selected offense
@@ -18,7 +18,7 @@ The Ransomware dashboard contains the following cards:
 
     - Only visible after clicking Search on an offense
     - See the
-      [Table Card Features ](/versioned_docs/activitymonitor_7.1/activitymonitor/siem/qradar/app.md#table-card-features)
+      [Table Card Features ](/docs/activitymonitor/7.1/activitymonitor/siem/qradar/app.md#table-card-features)
       topic for additional information.
 
 - Breakdown of File Types – Pie chart of the top eight file extensions of the affected files for the

@@ -25,25 +25,25 @@ required:
       administrative role in Microsoft Entra ID —to create an app and perform initial data
       collection.
     - Provide this user name and password in the monitored item properties. See the
-      [Microsoft Entra ID](/versioned_docs/auditor_10.6/auditor/admin/monitoringplans/microsoftentraid/overview.md)
+      [Microsoft Entra ID](/docs/auditor/10.6/auditor/admin/monitoringplans/microsoftentraid/overview.md)
       topic for additional information.
 
 See the
-[Using Basic Authentication with Microsoft Entra ID](/versioned_docs/auditor_10.6/auditor/configuration/microsoft365/microsoftentraid/basicauth.md)
+[Using Basic Authentication with Microsoft Entra ID](/docs/auditor/10.6/auditor/configuration/microsoft365/microsoftentraid/basicauth.md)
 topic for additional information.
 
 - If Modern Authentication is used:
     - Microsoft Entra ID application should be created manually by user with administrative role and
       assigned required permissions. See the
-      [Configuring Microsoft Entra ID App for Auditing Microsoft Entra ID](/versioned_docs/auditor_10.6/auditor/configuration/microsoft365/microsoftentraid/modernauth.md#configuring-microsoft-entra-id-app-for-auditing-microsoft-entra-id)
+      [Configuring Microsoft Entra ID App for Auditing Microsoft Entra ID](/docs/auditor/10.6/auditor/configuration/microsoft365/microsoftentraid/modernauth.md#configuring-microsoft-entra-id-app-for-auditing-microsoft-entra-id)
       topic for additional information.
     - You will need to provide the Microsoft Entra ID app settings in the monitored item (Office 365
       tenant) properties. See the
-      [Microsoft Entra ID](/versioned_docs/auditor_10.6/auditor/admin/monitoringplans/microsoftentraid/overview.md#microsoft-entra-id)
+      [Microsoft Entra ID](/docs/auditor/10.6/auditor/admin/monitoringplans/microsoftentraid/overview.md#microsoft-entra-id)
       topic for additional information.
 
 See the
-[Using Modern Authentication with Microsoft Entra ID](/versioned_docs/auditor_10.6/auditor/configuration/microsoft365/microsoftentraid/modernauth.md)
+[Using Modern Authentication with Microsoft Entra ID](/docs/auditor/10.6/auditor/configuration/microsoft365/microsoftentraid/modernauth.md)
 topic for additional information.
 
 Permissions for ongoing data collection will depend on data you plan to collect:

@@ -12,7 +12,7 @@ system, preventing duplicates.
 ## Create a Homonym Entity Link
 
 A
-[homonym entity link](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/workflows/homonymentitylink/index.md)
+[homonym entity link](/docs/usercube/6.1/usercube/integration-guide/toolkit/xml-configuration/workflows/homonymentitylink/index.md)
 defines a new homonym search to be performed in a workflow form. It can be defined in different
 ways.
 
@@ -28,7 +28,7 @@ according to the homonym control form. See section below.
 
 ### With customized filters
 
-[Homonym entity link filters](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/workflows/homonymentitylink/index.md)
+[Homonym entity link filters](/docs/usercube/6.1/usercube/integration-guide/toolkit/xml-configuration/workflows/homonymentitylink/index.md)
 allow to define customized filters for a homonym search.
 
 #### Simple filter
@@ -112,7 +112,7 @@ If English is the main language, the search for homonyms is performed on the `Na
 ## Create a Display Table _(optional)_
 
 A
-[display table](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/user-interface/displaytable/index.md)
+[display table](/docs/usercube/6.1/usercube/integration-guide/toolkit/xml-configuration/user-interface/displaytable/index.md)
 is used to define how a list of the same entity type should be displayed.
 
 By default, the homonyms are displayed using the default display table of the related entity type.
@@ -127,12 +127,12 @@ where the `HomonymEntityLink` attribute is the identifier of the homonym entity 
 ```
 
 For more options, read
-[how to configure display tables](/versioned_docs/usercube_6.1/usercube/integration-guide/ui/how-tos/custom-display-table/index.md).
+[how to configure display tables](/docs/usercube/6.1/usercube/integration-guide/ui/how-tos/custom-display-table/index.md).
 
 ## Define the Homonym Control in the Workflow Form
 
 The
-[form](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/user-interface/form/index.md)
+[form](/docs/usercube/6.1/usercube/integration-guide/toolkit/xml-configuration/user-interface/form/index.md)
 where the homonyms are to be checked must contain a layout fieldset control where:
 
 - the properties to check are represented;
@@ -141,7 +141,7 @@ where the homonyms are to be checked must contain a layout fieldset control wher
 When the homonym entity link has no filter set and therefore the filter is calculated automatically,
 the homonym control form must only contain up to 5 controls where `Binding` attribute is defined.
 Indeed, a filter can only be defined on up to 5 properties, see
-[filter definition](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/workflows/homonymentitylink/index.md).
+[filter definition](/docs/usercube/6.1/usercube/integration-guide/toolkit/xml-configuration/workflows/homonymentitylink/index.md).
 
 ```
 <Form Identifier="Workflow_Directory_User_AdvancedStartInternal_Base" EntityType="Directory_UserRecord">    <Control DisplayName_L1="Personal Data" DisplayName_L2="Informations personnelles" OutputType="LayoutFieldset" HomonymEntityLink="Directory_UserRecord">

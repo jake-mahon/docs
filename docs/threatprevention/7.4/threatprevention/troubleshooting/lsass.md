@@ -49,11 +49,11 @@ Since this requires the Threat Prevention administrator to take action, there is
 specific to this event.
 
 **_RECOMMENDED:_** Enable the _LSASS process terminated_ alert under Operations on the
-[System Alerting Window](/versioned_docs/threatprevention_7.4/threatprevention/admin/configuration/systemalerting/overview.md).
+[System Alerting Window](/docs/threatprevention/7.4/threatprevention/admin/configuration/systemalerting/overview.md).
 
 The Agent can be enabled with a safe mode, which would prevent the Active Directory monitoring
 module of the Agent from loading if any LSASS change is detected. See the
-[Agent Safe Mode](/versioned_docs/threatprevention_7.4/threatprevention/admin/agents/safemode.md)
+[Agent Safe Mode](/docs/threatprevention/7.4/threatprevention/admin/agents/safemode.md)
 topic for additional information.
 
 ## Enable the 'LSASS Process Terminated' Email Alert
@@ -63,17 +63,17 @@ Operations.
 
 **NOTE:** These steps require the Threat Prevention administrator user role. They also assume that
 the SMTP host information has been configured and email alerts have been enabled. See the
-[Configure SMTP Host Information](/versioned_docs/threatprevention_7.4/threatprevention/admin/configuration/systemalerting/email.md#configure-smtp-host-information)
+[Configure SMTP Host Information](/docs/threatprevention/7.4/threatprevention/admin/configuration/systemalerting/email.md#configure-smtp-host-information)
 topic for additional information
 
 **Step 1 –** Click **Configuration** > **Alerts** on the menu to open the
-[System Alerting Window](/versioned_docs/threatprevention_7.4/threatprevention/admin/configuration/systemalerting/overview.md).
+[System Alerting Window](/docs/threatprevention/7.4/threatprevention/admin/configuration/systemalerting/overview.md).
 
 **Step 2 –** On the Email tab, click **Configure**.
 
 **Step 3 –** Create a Message Profile for the LSASS notification with the recipient(s) to be
 notified when the LSASS process terminates. See the
-[Create Message Profiles](/versioned_docs/threatprevention_7.4/threatprevention/admin/configuration/systemalerting/email.md#create-message-profiles)
+[Create Message Profiles](/docs/threatprevention/7.4/threatprevention/admin/configuration/systemalerting/email.md#create-message-profiles)
 topic for additional information.
 
 ![System Alerting window - LSASS Process Terminated alert](/img/versioned_docs/threatprevention_7.4/threatprevention/troubleshooting/lsassprocessterminated.webp)
@@ -81,7 +81,7 @@ topic for additional information.
 **Step 4 –** On the Email tab, click **Events**, and then click **Operations** in the left pane.
 Check the **LSASS process terminated** event alert and select the Message Profile created in Step 3
 from the drop-down menu. See the
-[Email Tab](/versioned_docs/threatprevention_7.4/threatprevention/admin/configuration/systemalerting/email.md)
+[Email Tab](/docs/threatprevention/7.4/threatprevention/admin/configuration/systemalerting/email.md)
 topic for additional information.
 
 **Step 5 –** Ensure that the email alerts are enabled, as indicated by the Enabled toggle button,

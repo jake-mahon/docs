@@ -166,7 +166,7 @@ You can use the following Allowlists:
 - Deep Packet Inspection
 
 **NOTE:** For detailed information on Denylists and Allowlist, refer to the
-[Denylists and Allowlists](/versioned_docs/endpointprotector_5.9.4/endpointprotector/admin/denylistsallowlists/overview.md)
+[Denylists and Allowlists](/docs/endpointprotector/5.9.4/endpointprotector/admin/denylistsallowlists/overview.md)
 topic.
 
 **CAUTION:** The Content Aware Protection Policies continue to report and/or block sensitive data
@@ -182,7 +182,7 @@ You can deﬁne the monitored URL categories the Deep Packet Inspection will ﬁ
 selected, Deep Packet Inspection will ﬁlter all content uploaded for any URL.
 
 You can add, delete and edit
-[Denylists and Allowlists](/versioned_docs/endpointprotector_5.9.4/endpointprotector/admin/denylistsallowlists/overview.md)
+[Denylists and Allowlists](/docs/endpointprotector/5.9.4/endpointprotector/admin/denylistsallowlists/overview.md)
 from the Denylists and Allowlists section.
 
 ![Deﬁne the monitored URL categories the Deep Packet Inspection](/img/versioned_docs/endpointprotector_5.9.4/endpointprotector/admin/contentawareprotection/dpimonitored.webp)
@@ -238,7 +238,7 @@ To remediate the threat, the user has to follow these steps:
 - click **Authorize**
 
 **NOTE:** You can manage more settings for the Self Remediate feature from System Preferences and
-[User Remediation](/versioned_docs/endpointprotector_5.9.4/endpointprotector/admin/systemparameters/overview.md#user-remediation)
+[User Remediation](/docs/endpointprotector/5.9.4/endpointprotector/admin/systemparameters/overview.md#user-remediation)
 sections.
 
 User Remediation for Content Aware Protection can remediate ﬁle transfers via web domains.

@@ -49,9 +49,9 @@ The working directory structure should now resemble the following:
 - `Usercube-Agent.exe`: the separate Usercube Agent executable, that will be used only if you choose
   to install a separate agent.
 - `appsettings.*.json`:
-  [technical configuration files](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/index.md).
+  [technical configuration files](/docs/usercube/6.1/usercube/integration-guide/network-configuration/index.md).
 
 ## What's Next?
 
 Next section shows how to
-[install the Usercube Database](/versioned_docs/usercube_6.1/usercube/installation-guide/production-ready/database/index.md).
+[install the Usercube Database](/docs/usercube/6.1/usercube/installation-guide/production-ready/database/index.md).

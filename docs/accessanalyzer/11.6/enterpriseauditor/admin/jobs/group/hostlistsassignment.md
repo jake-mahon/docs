@@ -8,7 +8,7 @@ job group.
 At a top-level job group, there is no host list to be inherited. The **Use Default Settings** option
 is grayed-out. However, a sub-job group can inherit host lists from a parent job group. Host lists
 are configured through the **Host Management** node. See the
-[Host Management](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/hostmanagement/overview.md)
+[Host Management](/docs/accessanalyzer/11.6/enterpriseauditor/admin/hostmanagement/overview.md)
 topic for additional information.
 
 Several pre-defined solutions have default host lists already assigned to the solution, for example

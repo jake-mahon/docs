@@ -2,12 +2,12 @@
 
 The core components for Netwrix Enterprise Auditor are the Enterprise Auditor Console server, SQL
 Server, and Access Information Center. See the
-[Requirements](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/requirements/overview.md)
+[Requirements](/docs/accessanalyzer/11.6/enterpriseauditor/requirements/overview.md)
 topic for the core requirements.
 
 The SharePoint solution can be configure to run without an agent or to use the Enterprise Auditor
 SharePoint Agent. See the
-[SharePoint Agent Installation](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/install/sharepointagent/overview.md)
+[SharePoint Agent Installation](/docs/accessanalyzer/11.6/enterpriseauditor/install/sharepointagent/overview.md)
 topic for additional information.
 
 In addition to these, integration with either the Netwrix Activity Monitor is required for event
@@ -29,13 +29,13 @@ for the Sensitive Data Discovery Add-On to be installed on the servers as well.
 
 See the following topics for the SharePoint Agent and the target environment requirements:
 
-- [SharePoint Scan Options](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/requirements/solutions/sharepoint/scanoptions.md)
-- [SharePoint Support](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/requirements/target/sharepoint.md)
+- [SharePoint Scan Options](/docs/accessanalyzer/11.6/enterpriseauditor/requirements/solutions/sharepoint/scanoptions.md)
+- [SharePoint Support](/docs/accessanalyzer/11.6/enterpriseauditor/requirements/target/sharepoint.md)
 
 **NOTE:** You can use the **SP_RegisterAzureAppAuth** instant job to make the configuration for
 SharePoint Online easier. This job registers the necessary Microsoft Entra ID application and
 provisions it with the required permissions. See the
-[SP_RegisterAzureAppAuth Job](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/jobs/instantjobs/sp_registerazureappauth.md)
+[SP_RegisterAzureAppAuth Job](/docs/accessanalyzer/11.6/enterpriseauditor/admin/jobs/instantjobs/sp_registerazureappauth.md)
 topic for additional information.
 
 ## SharePoint Solution Requirements on the Enterprise Auditor Console

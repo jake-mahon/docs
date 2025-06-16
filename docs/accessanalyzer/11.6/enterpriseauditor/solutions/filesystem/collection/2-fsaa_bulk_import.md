@@ -13,7 +13,7 @@ access/permission auditing Bulk import category.
 - Bulk import – Imports scan data into SQL Server
 
     - Typically, this query is not modified. See the
-      [FileSystemAccess Data Collector](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/fsaa/overview.md)
+      [FileSystemAccess Data Collector](/docs/accessanalyzer/11.6/enterpriseauditor/admin/datacollector/fsaa/overview.md)
       topic for information on when this query should be modified.
 
 ## Analysis Tasks for the 2-FSAA Bulk Import Job

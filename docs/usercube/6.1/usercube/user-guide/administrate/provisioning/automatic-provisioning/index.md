@@ -22,14 +22,14 @@ At this point, integrators should have all the elements they need to operate.
 
 | Input                                                                                                                                                                                                                                                                                         | Output                  |
 | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------- |
-| [Provisioning orders](/versioned_docs/usercube_6.1/usercube/user-guide/administrate/provisioning/provisioning-review/index.md) (required) automated provisioning [connection](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/connect-system/connection-creation/index.md) (required) | Updated managed systems |
+| [Provisioning orders](/docs/usercube/6.1/usercube/user-guide/administrate/provisioning/provisioning-review/index.md) (required) automated provisioning [connection](/docs/usercube/6.1/usercube/user-guide/set-up/connect-system/connection-creation/index.md) (required) | Updated managed systems |
 
 ## Implement Automated Provisioning
 
 automated provisioning is performed through a connection using a
-[package](/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/references-packages/index.md)
+[package](/docs/usercube/6.1/usercube/integration-guide/connectors/references-packages/index.md)
 for fulfilling external systems (e.g., the
-[Active Directory package](/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/references-packages/active-directory/index.md)).
+[Active Directory package](/docs/usercube/6.1/usercube/integration-guide/connectors/references-packages/active-directory/index.md)).
 
 ## Perform Automated Provisioning
 
@@ -51,6 +51,6 @@ In order to verify the process:
     ![Home Page - Directory User](/img/versioned_docs/usercube_6.1/usercube/user-guide/set-up/configure-workflows/home_directoryuser_v523.webp)
 
 2. Follow the
-   [manual assignment workflow](/versioned_docs/usercube_6.1/usercube/user-guide/administrate/manual-assignment-request/index.md)
+   [manual assignment workflow](/docs/usercube/6.1/usercube/user-guide/administrate/manual-assignment-request/index.md)
    to make a change in one of their permissions, which involves automated provisioning.
 3. Perform automated provisioning and check in Usercube that the change was effectively made.

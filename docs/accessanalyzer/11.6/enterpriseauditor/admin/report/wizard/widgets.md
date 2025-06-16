@@ -72,7 +72,7 @@ You can configure the table to allow the data to be exported as a CSV file.
   as a CSV file from the generated report
     - When it is configured, you can click the **All Data** button on the table section of the
       report to save the report as a CSV file. See the
-      [Interactive Grids](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/report/interactivegrids/overview.md)
+      [Interactive Grids](/docs/accessanalyzer/11.6/enterpriseauditor/admin/report/interactivegrids/overview.md)
       topic for more information.
 - Rows – Limits the amount of rows exported to the CSV file. The default is **Visible**.
     - Visible – Only includes the amount of rows set by the **Limit Maximum number of displayed rows
@@ -92,7 +92,7 @@ The Table Properties section allows you to configure the display features of the
 There are two types of grid displays:
 
 - Interactive grid – Allows the viewer to interact with the table in the generated report. See the
-  [Interactive Grids](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/report/interactivegrids/overview.md)
+  [Interactive Grids](/docs/accessanalyzer/11.6/enterpriseauditor/admin/report/interactivegrids/overview.md)
   topic for additional information.
 - Non Interactive grid – Creates a report with fixed settings and stationary elements. This option
   disables all the fields within the Table Properties section.
@@ -109,7 +109,7 @@ Grid Properties
 - Enable Paging – Enables Paging in reports. Paging allows users to interact with large sets of data
   more efficiently when viewing, filtering, and sorting generated report tables by limiting the
   amount of data being displayed at a given time. Paging is enabled by default. See the
-  [Paging](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/report/interactivegrids/paging.md)
+  [Paging](/docs/accessanalyzer/11.6/enterpriseauditor/admin/report/interactivegrids/paging.md)
   topic for additional information.
 
 Column Properties

@@ -15,7 +15,7 @@ it to your application.
 Do one of the following:
 
 - For the clear installation of Netwrix Auditor, add roles as described in the
-  [Using Modern Authentication with SharePoint Online](/versioned_docs/auditor_10.6/auditor/configuration/microsoft365/sharepointonline/modernauth.md)
+  [Using Modern Authentication with SharePoint Online](/docs/auditor/10.6/auditor/configuration/microsoft365/sharepointonline/modernauth.md)
   topic.
 
 - If you upgraded Netwrix Auditor from the version 10.0, replace all existing content under the

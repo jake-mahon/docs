@@ -38,5 +38,5 @@ completed (100%), click Close. The Confirm Ownership wizard closes.
 
 The selected owners receive an email from the Access Reviews application asking if they are the
 owner of the assigned resource. See the
-[Ownership Confirmation Request Email](/versioned_docs/auditor_10.6/access/reviews/resourceowners/email/confirmationrequest.md)
+[Ownership Confirmation Request Email](/docs/auditor/10.6/access/reviews/resourceowners/email/confirmationrequest.md)
 topic for additional information.

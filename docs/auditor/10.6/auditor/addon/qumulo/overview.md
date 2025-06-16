@@ -57,7 +57,7 @@ On a high level, the solution works as follows:
    them to the **Netwrix_Auditor_API** database (SQL server database) and file-based Long-Term
    Archive. Data is sent periodically, by default every 5 seconds. For more information on the
    Activity Record structure and capabilities of the Integration API, refer to the
-   [Integration API](/versioned_docs/auditor_10.6/auditor/api/overview.md) topic.
+   [Integration API](/docs/auditor/10.6/auditor/api/overview.md) topic.
 7. Users open Auditor Client to work with collected data:
     - Search for file changes using certain criteria
     - Export data to PDF or CSV files

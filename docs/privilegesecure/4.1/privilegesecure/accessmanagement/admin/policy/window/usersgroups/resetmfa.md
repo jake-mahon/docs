@@ -3,7 +3,7 @@
 Privilege Secure allows administrators to reset a user MFA directly from the Users page. Resetting
 the user's MFA will generate a TOTP secret for the user and force them to register an authenticator.
 This option is only available when the Internal MFA option is enabled on the User Details page. See
-[Authentication Connector Tab](/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/policy/tab/usersgroups/authenticationconnector.md)
+[Authentication Connector Tab](/docs/privilegesecure/4.1/privilegesecure/accessmanagement/admin/policy/tab/usersgroups/authenticationconnector.md)
 for additional information.
 
 Follow the steps below to reset a user's MFA.

@@ -42,7 +42,7 @@ The following command retrieves all groups with a display name beginning with S 
 containers specified by the SearchContainer parameter including sub-containers of the first base
 container and excluding sub-containers of the second one using the credentials set in the
 $Credentials environment variable. See the
-[Set the $Credentials Environment Variable](/versioned_docs/groupid_11.0/groupid/managementshell/parameters/setthecredential.md)
+[Set the $Credentials Environment Variable](/docs/groupid/11.0/groupid/managementshell/parameters/setthecredential.md)
 topic for setting credentials in an environment variable.
 
 ```
@@ -61,6 +61,6 @@ Get-Group -SmartFilter "(SecurityType = Private)" | Set-Group -AdditionalOwners 
 
 See Also
 
-- [All Commands](/versioned_docs/groupid_11.0/groupid/managementshell/commands.md)
-- [Group Commands](/versioned_docs/groupid_11.0/groupid/managementshell/group/overview.md)
-- [Parameters](/versioned_docs/groupid_11.0/groupid/managementshell/parameters/parameters.md)
+- [All Commands](/docs/groupid/11.0/groupid/managementshell/commands.md)
+- [Group Commands](/docs/groupid/11.0/groupid/managementshell/group/overview.md)
+- [Parameters](/docs/groupid/11.0/groupid/managementshell/parameters/parameters.md)

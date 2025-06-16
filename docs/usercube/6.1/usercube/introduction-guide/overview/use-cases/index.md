@@ -56,4 +56,4 @@ to work, but not more to prevent security breaches.
 ## Next Steps
 
 Let's learn about
-[Usercube's architecture](/versioned_docs/usercube_6.1/usercube/introduction-guide/architecture/index.md).
+[Usercube's architecture](/docs/usercube/6.1/usercube/introduction-guide/architecture/index.md).

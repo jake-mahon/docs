@@ -19,7 +19,7 @@ The following query is included in the PF_FolderScans Job:
 
     - By default set to search all public folders. It can be scoped.
     - See the
-      [Scope the ExchangePS Data Collector](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/exchange/casmetrics/ex_aspolicies.md#scope-the-exchangeps-data-collector)
+      [Scope the ExchangePS Data Collector](/docs/accessanalyzer/11.6/enterpriseauditor/solutions/exchange/casmetrics/ex_aspolicies.md#scope-the-exchangeps-data-collector)
       topic for additional information
 
 ## Analysis Tasks for the PF_FolderScans Job

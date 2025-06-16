@@ -10,10 +10,10 @@ The following Jobs make up the Group Usage Job Group:
 
 **_RECOMMENDED:_** Schedule these jobs to run with the 0.Collection job group.
 
-- [AD_AccessChanges Job](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/activedirectory/activity/groupusage/ad_accesschanges.md)
+- [AD_AccessChanges Job](/docs/accessanalyzer/11.6/enterpriseauditor/solutions/activedirectory/activity/groupusage/ad_accesschanges.md)
   – Reports on activity relating to access changes for Active Directory groups, highlighting
   membership changes that have created large access change within the environment
-- [AD_GroupHosts Job](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/activedirectory/activity/groupusage/ad_grouphosts.md)
+- [AD_GroupHosts Job](/docs/accessanalyzer/11.6/enterpriseauditor/solutions/activedirectory/activity/groupusage/ad_grouphosts.md)
   – Reports on what hosts groups are being used on within the environment
-- [AD_GroupMemberActivity Job](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/activedirectory/activity/groupusage/ad_groupmemberactivity.md)
+- [AD_GroupMemberActivity Job](/docs/accessanalyzer/11.6/enterpriseauditor/solutions/activedirectory/activity/groupusage/ad_groupmemberactivity.md)
   – Reports on the activity that group members are taking within the Active Directory environment

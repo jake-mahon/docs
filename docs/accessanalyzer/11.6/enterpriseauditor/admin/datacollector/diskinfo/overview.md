@@ -25,9 +25,9 @@ The DiskInfo Data Collector is configured through the Disk Info wizard, which co
 wizard pages:
 
 - Welcome
-- [DiskInfo: Target Disks](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/diskinfo/targetdisks.md)
-- [DiskInfo: Results](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/diskinfo/results.md)
-- [DiskInfo: Summary](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/diskinfo/summary.md)
+- [DiskInfo: Target Disks](/docs/accessanalyzer/11.6/enterpriseauditor/admin/datacollector/diskinfo/targetdisks.md)
+- [DiskInfo: Results](/docs/accessanalyzer/11.6/enterpriseauditor/admin/datacollector/diskinfo/results.md)
+- [DiskInfo: Summary](/docs/accessanalyzer/11.6/enterpriseauditor/admin/datacollector/diskinfo/summary.md)
 
 ![Disk Info wizard Welcome page](/img/versioned_docs/activitymonitor_7.1/activitymonitor/install/welcome.webp)
 

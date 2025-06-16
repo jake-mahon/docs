@@ -92,17 +92,17 @@ contains the following wizard pages:
 **NOTE:** Depending on the selections on the various pages, not all pages may be accessible.
 
 - Welcome
-- [File System Action: Action](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/action/filesystem/action.md)
-- [File System Action: Operation](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/action/filesystem/operation.md)
-- [File System Action: Prior Actions](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/action/filesystem/prioractions.md)
-- [File System Action: Environment](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/action/filesystem/environment.md)
-- [File System Action: Target](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/action/filesystem/target.md)
-- [File System Action: Parameters](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/action/filesystem/parameters.md)
-- [File System Action: Destination](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/action/filesystem/destination.md)
-- [File System Action: Rollback](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/action/filesystem/rollback.md)
-- [File System Action: Options](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/action/filesystem/options.md)
-- [File System Action: Applet Settings](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/action/filesystem/appletsettings.md)
-- [File System Action: Summary](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/action/filesystem/summary.md)
+- [File System Action: Action](/docs/accessanalyzer/11.6/enterpriseauditor/admin/action/filesystem/action.md)
+- [File System Action: Operation](/docs/accessanalyzer/11.6/enterpriseauditor/admin/action/filesystem/operation.md)
+- [File System Action: Prior Actions](/docs/accessanalyzer/11.6/enterpriseauditor/admin/action/filesystem/prioractions.md)
+- [File System Action: Environment](/docs/accessanalyzer/11.6/enterpriseauditor/admin/action/filesystem/environment.md)
+- [File System Action: Target](/docs/accessanalyzer/11.6/enterpriseauditor/admin/action/filesystem/target.md)
+- [File System Action: Parameters](/docs/accessanalyzer/11.6/enterpriseauditor/admin/action/filesystem/parameters.md)
+- [File System Action: Destination](/docs/accessanalyzer/11.6/enterpriseauditor/admin/action/filesystem/destination.md)
+- [File System Action: Rollback](/docs/accessanalyzer/11.6/enterpriseauditor/admin/action/filesystem/rollback.md)
+- [File System Action: Options](/docs/accessanalyzer/11.6/enterpriseauditor/admin/action/filesystem/options.md)
+- [File System Action: Applet Settings](/docs/accessanalyzer/11.6/enterpriseauditor/admin/action/filesystem/appletsettings.md)
+- [File System Action: Summary](/docs/accessanalyzer/11.6/enterpriseauditor/admin/action/filesystem/summary.md)
 
 The Welcome page displays first and gives an overview of the action module. The navigation pane
 contains links to the pages in the wizard, which may change based on the Action selected on the

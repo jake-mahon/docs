@@ -19,7 +19,7 @@ The Menu Bar options are:
     - Create Job – Creates a new job (Ctrl+Alt+A) at the selected location within the Jobs tree
     - Add Instant Job – Opens the Enterprise Auditor Instant Job Wizard to install an instant job
       set at the selected location within the Jobs tree. See the
-      [Instant Job Wizard](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/jobs/instantjobs/overview.md)
+      [Instant Job Wizard](/docs/accessanalyzer/11.6/enterpriseauditor/admin/jobs/instantjobs/overview.md)
       section for information on installing instant solutions from the Enterprise Auditor Library.
 
         **CAUTION:** Delete Job will also delete all data tables with the job’s base naming
@@ -27,7 +27,7 @@ The Menu Bar options are:
 
     - Delete Job – Deletes the selected job from the Jobs tree
     - Properties – Opens the Job Properties window for the selected job. See the
-      [Job Properties](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/jobs/job/properties/overview.md)
+      [Job Properties](/docs/accessanalyzer/11.6/enterpriseauditor/admin/jobs/job/properties/overview.md)
       topic for additional information.
     - Export Data – Exports the selected data table or view to an HTML, XML, or CSV file format
     - Exit – Closes the Enterprise Auditor application
@@ -50,13 +50,13 @@ The Menu Bar options are:
     - Show Change Deltas – This is a legacy feature
     - Show Job Progress – Redirects the Enterprise Auditor Console to the Running Job Node to view
       the running job’s progress. See the
-      [Running Instances Node](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/runninginstances/overview.md)
+      [Running Instances Node](/docs/accessanalyzer/11.6/enterpriseauditor/admin/runninginstances/overview.md)
       topic for additional information.
 - Job
 
     - Add Instant Job – Opens the Enterprise Auditor Instant Job Wizard to install an instant job
       set at the selected location within the Jobs tree. See the
-      [Instant Job Wizard](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/jobs/instantjobs/overview.md)
+      [Instant Job Wizard](/docs/accessanalyzer/11.6/enterpriseauditor/admin/jobs/instantjobs/overview.md)
       section for information on installing instant solutions from the Enterprise Auditor Library.
     - Create Job – Creates a new job (Ctrl + Alt + A) at the selected location within the Jobs tree
 
@@ -70,13 +70,13 @@ The Menu Bar options are:
 
     - Rename Job – Renames the selected job
     - Properties – Opens the Job Properties window for the selected job. See the
-      [Job Properties](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/jobs/job/properties/overview.md)
+      [Job Properties](/docs/accessanalyzer/11.6/enterpriseauditor/admin/jobs/job/properties/overview.md)
       topic for additional information.
     - Execute:
         - Run Job or Group – Starts job execution for the selected job group or job
         - Stop Job or Group – Stops job execution for the selected job group or job
         - Schedule – Opens the selected job’s Schedule window. See the
-          [Schedule Jobs](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/schedule/overview.md#schedule-jobs)
+          [Schedule Jobs](/docs/accessanalyzer/11.6/enterpriseauditor/admin/schedule/overview.md#schedule-jobs)
           topic for additional information.
     - Queries:
 
@@ -94,7 +94,7 @@ The Menu Bar options are:
           query. See the Query Selection topic for additional information.
 
             See the Data Collectors topic for additional information. See the
-            [Data Collectors](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/overview.md)
+            [Data Collectors](/docs/accessanalyzer/11.6/enterpriseauditor/admin/datacollector/overview.md)
             topic for additional information.
 
     - Reports
@@ -107,17 +107,17 @@ The Menu Bar options are:
 - Schedules
     - Schedule – Opens the selected object’s Schedule window to create a new scheduled action. The
       Enterprise Auditor Console is redirected to the Schedules node. See the
-      [Schedule](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/settings/schedule.md)
+      [Schedule](/docs/accessanalyzer/11.6/enterpriseauditor/admin/settings/schedule.md)
       topic for additional information.
     - Delete – Delete the selected scheduled task from the Scheduled Actions view of the Schedules
       node
     - Properties – Opens the selected scheduled task’s Schedule window. See the
-      [Schedule](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/settings/schedule.md)
+      [Schedule](/docs/accessanalyzer/11.6/enterpriseauditor/admin/settings/schedule.md)
       topic for additional information.
 - Tools
     - Libraries – Opens the Add Query from Library window to add a query to the selected job’s Query
       Selection view. See the
-      [Schedule](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/settings/schedule.md)
+      [Schedule](/docs/accessanalyzer/11.6/enterpriseauditor/admin/settings/schedule.md)
       topic for additional information.
     - Options – Redirects the Enterprise Auditor Console to the Settings node
 - Help

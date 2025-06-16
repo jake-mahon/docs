@@ -15,7 +15,7 @@ Enterprise Auditor Console upon installation.
 Enterprise Auditor database. This may be a different account than the one used to connect Enterprise
 Auditor to the database. If the Enterprise Auditor Vault service is running, the account running the
 Web Server service must be an Enterprise Auditor Administrator. See the
-[Vault](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/settings/application/vault.md) topic
+[Vault](/docs/accessanalyzer/11.6/enterpriseauditor/admin/settings/application/vault.md) topic
 for additional information.
 
 The Web folder that the Enterprise Auditor installer places at the root of the Enterprise Auditor
@@ -24,7 +24,7 @@ directory also contains a `WebServer.exe.config` file. This file contains config
 **CAUTION:** If encryption methods have been configured for Kerberos on the Enterprise Auditor
 server but not on the service account running the Enterprise Auditor Web Server service, then users
 will not be able to log-in to the Web Console and will receive an error message. See the
-[Manage Kerberos Encryption Warning for the Web Console](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/install/application/reports/kerberosencryption.md)
+[Manage Kerberos Encryption Warning for the Web Console](/docs/accessanalyzer/11.6/enterpriseauditor/install/application/reports/kerberosencryption.md)
 topic for additional information on configuring security polices to allow Kerberos encryption.
 
 ## Log into the Web Console
@@ -37,7 +37,7 @@ the username needs to be in the `domain\username` format.
 Access to reports in the Web Console can be managed through the Role Based Access feature of
 Enterprise Auditor (**Settings** > **Access**). The Web Administrator role and the Report Viewer
 role grant access to the published reports. See the
-[Role Based Access](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/settings/access/rolebased/overview.md)
+[Role Based Access](/docs/accessanalyzer/11.6/enterpriseauditor/admin/settings/access/rolebased/overview.md)
 topic for addition information.
 
 **NOTE:** Access to the AIC and other Netwrix products is controlled from within those products.
@@ -47,12 +47,12 @@ The address to the Web Console can be configured within the Enterprise Auditor C
 Enterprise Auditor Console server, it can be accessed at `http://localhost/` with any standard
 browser. To access the Web Console from another machine in or connected to the environment, replace
 localhost with the name of the Enterprise Auditor Console. See the
-[Update Website URLs](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/install/application/reports/secure.md#update-website-urls)
+[Update Website URLs](/docs/accessanalyzer/11.6/enterpriseauditor/install/application/reports/secure.md#update-website-urls)
 topic for additional information.
 
 **NOTE:** Any browser used to access the Web Console must have JavaScript allowed for the site. See
 the
-[Configure JavaScript Settings for the Web Console](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/settings/reporting.md#configure-javascript-settings-for-the-web-console)
+[Configure JavaScript Settings for the Web Console](/docs/accessanalyzer/11.6/enterpriseauditor/admin/settings/reporting.md#configure-javascript-settings-for-the-web-console)
 topic for additional information.
 
 Follow the steps to login to the Web Console.
@@ -76,5 +76,5 @@ Follow the steps to login to the Web Console.
 ![Web Console Home page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/install/application/reports/webconsolehome.webp)
 
 The home page shows the solutions with published reports available. See the
-[Web Console](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/report/view.md#web-console)
+[Web Console](/docs/accessanalyzer/11.6/enterpriseauditor/admin/report/view.md#web-console)
 topic for information on using the Web Console.

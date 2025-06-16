@@ -23,7 +23,7 @@ Click **Yes** when asked if you would like to create a new Password Policy Enfor
   policy from the **Copy settings from** drop-down list.
 - If the new policy should inherit settings from commonly used frameworks, select a Policy Template
   from the drop-down list. For a list of policies see
-  [Policy Templates ](/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/evaluation/policy_templates.md).
+  [Policy Templates ](/docs/passwordpolicyenforcer/10.2/password_policy_enforcer/evaluation/policy_templates.md).
 
 **Step 4 –** Click **OK**.
 

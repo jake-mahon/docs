@@ -18,5 +18,5 @@ configured for the identity store.
 
 **See Also**
 
-- [Create an AD User](/versioned_docs/groupid_11.0/groupid/portal/user/create/activedirectory/user.md)
-- [Create an AD Contact](/versioned_docs/groupid_11.0/groupid/portal/user/create/activedirectory/contact/contact.md)
+- [Create an AD User](/docs/groupid/11.0/groupid/portal/user/create/activedirectory/user.md)
+- [Create an AD Contact](/docs/groupid/11.0/groupid/portal/user/create/activedirectory/contact/contact.md)

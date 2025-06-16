@@ -23,7 +23,7 @@ Reports** check box on the User Settings panel.
   report's email address to your email contact list.
 - Select a direct report and click **Add to Group** on the toolbar to the direct report to the
   membership of a group. The
-  [Find Dialog Box](/versioned_docs/groupid_11.0/groupid/portal/search/find.md) is displayed, where
+  [Find Dialog Box](/docs/groupid/11.0/groupid/portal/search/find.md) is displayed, where
   you can search and select the group(s) to add the direct report as a member.
 - Select a direct report and click **Send email** on the toolbar to send an email to the direct
   report. This launches the default Windows email application for sending an email to the direct
@@ -42,12 +42,12 @@ profile to add or remove your direct reports.
 You can also transfer and terminate your direct reports while you validate your Profile.
 
 To view any changes made to your direct reports, see the
-[My Direct Reports' History](/versioned_docs/groupid_11.0/groupid/portal/history/mydirectreport.md)
+[My Direct Reports' History](/docs/groupid/11.0/groupid/portal/history/mydirectreport.md)
 topic.
 
 **See Also**
 
-- [User Properties](/versioned_docs/groupid_11.0/groupid/portal/user/properties/overview.md)
-- [Create an AD User](/versioned_docs/groupid_11.0/groupid/portal/user/create/activedirectory/user.md)
-- [Directory Search](/versioned_docs/groupid_11.0/groupid/portal/search/search.md)
-- [Validate your profile](/versioned_docs/groupid_11.0/groupid/portal/user/manage/validateprofile.md)
+- [User Properties](/docs/groupid/11.0/groupid/portal/user/properties/overview.md)
+- [Create an AD User](/docs/groupid/11.0/groupid/portal/user/create/activedirectory/user.md)
+- [Directory Search](/docs/groupid/11.0/groupid/portal/search/search.md)
+- [Validate your profile](/docs/groupid/11.0/groupid/portal/user/manage/validateprofile.md)

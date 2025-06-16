@@ -83,7 +83,7 @@ Then set Scoping Type and Priority:
       it is excluded.
 
     **NOTE:** Any included files or folders inherit all options previously checked in the
-    [FSAA: Default Scoping Options](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/fsaa/defaultscopingoptions.md)
+    [FSAA: Default Scoping Options](/docs/accessanalyzer/11.6/enterpriseauditor/admin/datacollector/fsaa/defaultscopingoptions.md)
     page. Manually apply new options if the default ones are not desired in this scan.
 
 - Priority – Numerical value that determines which options are used in the case of more than one
@@ -98,10 +98,10 @@ Then set Scoping Type and Priority:
 - Enable Button – Adds the scoping option to the scan criteria
 
 See the
-[Scan Settings Tab](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/fsaa/defaultscopingoptions/scansettings.md),
-[File Details Tab](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/fsaa/defaultscopingoptions/filedetails.md),
+[Scan Settings Tab](/docs/accessanalyzer/11.6/enterpriseauditor/admin/datacollector/fsaa/defaultscopingoptions/scansettings.md),
+[File Details Tab](/docs/accessanalyzer/11.6/enterpriseauditor/admin/datacollector/fsaa/defaultscopingoptions/filedetails.md),
 and
-[File Properties (Folder Summary) Tab](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/fsaa/defaultscopingoptions/fileproperties.md)
+[File Properties (Folder Summary) Tab](/docs/accessanalyzer/11.6/enterpriseauditor/admin/datacollector/fsaa/defaultscopingoptions/fileproperties.md)
 tabs for more detail on these scoping options.
 
 ## Common Scoping Scenarios

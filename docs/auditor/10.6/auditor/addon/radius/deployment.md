@@ -5,7 +5,7 @@ the add-on on the computer where Auditor is installed or on your RADIUS server.
 
 Depending on the execution scenario you choose, you have to define a different set of script
 parameters. See the
-[Define Parameters](/versioned_docs/auditor_10.6/auditor/addon/radius/parameters.md) topic for
+[Define Parameters](/docs/auditor/10.6/auditor/addon/radius/parameters.md) topic for
 additional information.
 
 Netwrixsuggests the following execution scenarios:

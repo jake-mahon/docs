@@ -36,11 +36,11 @@ What do you want to do?
    example, the ‘TreePicture’ display type matches the ‘thumbnailPhoto’ attribute.  
    This list contains basic display types and custom display types defined on the **Custom Display
    Types** page. See the
-   [Display Type Categories](/versioned_docs/groupid_11.0/groupid/admincenter/portal/displaytype/categories.md)
+   [Display Type Categories](/docs/groupid/11.0/groupid/admincenter/portal/displaytype/categories.md)
    topic.
 9. Click **OK**.
 10. Click **Save** on the **Organizational Hierarchy** page.
 
 **See Also**
 
-- [Design a Portal with Display Types](/versioned_docs/groupid_11.0/groupid/admincenter/portal/displaytype/overview.md)
+- [Design a Portal with Display Types](/docs/groupid/11.0/groupid/admincenter/portal/displaytype/overview.md)

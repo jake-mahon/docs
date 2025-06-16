@@ -150,5 +150,5 @@ through PowerShell 7 without the need of signing into the GroupID server.
 
 See Also
 
-- [All Commands](/versioned_docs/groupid_11.0/groupid/managementshell/commands.md)
-- [Parameters](/versioned_docs/groupid_11.0/groupid/managementshell/parameters/parameters.md)
+- [All Commands](/docs/groupid/11.0/groupid/managementshell/commands.md)
+- [Parameters](/docs/groupid/11.0/groupid/managementshell/parameters/parameters.md)

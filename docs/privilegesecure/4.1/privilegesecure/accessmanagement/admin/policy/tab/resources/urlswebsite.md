@@ -11,7 +11,7 @@ The URLs tab has the following features:
 - Search — Searches the table or list for matches to the search string. When matches are found, the
   table or list is filtered to the matching results.
 - Add — Opens the Add Website URL window. See the
-  [Add Website URL Window](/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/policy/window/resources/addwebsiteurl.md)
+  [Add Website URL Window](/docs/privilegesecure/4.1/privilegesecure/accessmanagement/admin/policy/window/resources/addwebsiteurl.md)
   topic for additional information.
 - Edit — Opens the Edit Website URL window. See Edit Website URL for additional information.
 - Remove — Removes the selected item

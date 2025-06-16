@@ -32,7 +32,7 @@ This report is comprised of the following columns:
 - Type – Direct or Inherited type of permission
 - Roles – Role name for the SharePoint permission level. For additional detail on what permissions
   each Role grants, see the Permission Mask column in the
-  [Site Collection Roles Report](/versioned_docs/accessinformationcenter_11.6/access/informationcenter/resourceaudit/sharepoint/sitecollections/sitecollectionroles.md).
+  [Site Collection Roles Report](/docs/accessinformationcenter/11.6/access/informationcenter/resourceaudit/sharepoint/sitecollections/sitecollectionroles.md).
 
 The following rights are a normalized representation of the SharePoint permission levels (SharePoint
 Roles) granted to the trustee:
@@ -52,6 +52,6 @@ It contains information on explicit permissions granted for the selected resourc
 
 This table is blank unless an **Explicit Permissions** icon is attached to the resource in the
 Resources pane. See the
-[Resources Pane](/versioned_docs/accessinformationcenter_11.6/access/informationcenter/resourceaudit/navigate/resource.md#resources-pane)
+[Resources Pane](/docs/accessinformationcenter/11.6/access/informationcenter/resourceaudit/navigate/resource.md#resources-pane)
 topic for additional information. This table is comprised of the same columns as the primary report,
 with the exception that it does not have the **Roles** column.

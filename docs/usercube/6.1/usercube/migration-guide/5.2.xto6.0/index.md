@@ -57,9 +57,9 @@ the following instructions:
         > ```
 
 5. Recompute all property expressions and correlation keys by using the
-   [`Update-EntityPropertyExpressions`](/versioned_docs/usercube_6.1/usercube/integration-guide/executables/references/update-entitypropertyexpressions/index.md)
+   [`Update-EntityPropertyExpressions`](/docs/usercube/6.1/usercube/integration-guide/executables/references/update-entitypropertyexpressions/index.md)
    and
-   [`Compute-CorrelationKeys`](/versioned_docs/usercube_6.1/usercube/integration-guide/executables/references/compute-correlationkeys/index.md)
+   [`Compute-CorrelationKeys`](/docs/usercube/6.1/usercube/integration-guide/executables/references/compute-correlationkeys/index.md)
    executables from the `Runtime` folder.
 
     > For example:
@@ -126,9 +126,9 @@ the following instructions:
         > ```
 
 5. Recompute all property expressions and correlation keys by using the
-   [`Update-EntityPropertyExpressions`](/versioned_docs/usercube_6.1/usercube/integration-guide/executables/references/update-entitypropertyexpressions/index.md)
+   [`Update-EntityPropertyExpressions`](/docs/usercube/6.1/usercube/integration-guide/executables/references/update-entitypropertyexpressions/index.md)
    and
-   [`Compute-CorrelationKeys`](/versioned_docs/usercube_6.1/usercube/integration-guide/executables/references/compute-correlationkeys/index.md)
+   [`Compute-CorrelationKeys`](/docs/usercube/6.1/usercube/integration-guide/executables/references/compute-correlationkeys/index.md)
    executables from the `Runtime` folder.
 
     > For example:
@@ -185,7 +185,7 @@ the process described above.
 
 Please follow these guides to handle migrations from older versions.
 
-- [5.1.0 to 5.1.1](/versioned_docs/usercube_6.1/usercube/migration-guide/5.1.0to5.1.1/index.md)
-- [5.0 to 5.1](/versioned_docs/usercube_6.1/usercube/migration-guide/5.0.x-to-5.1/index.md)
-- [5.1.1 to 5.1.7](/versioned_docs/usercube_6.1/usercube/migration-guide/5.1.1to5.1.7/index.md)
-- [5.1.7 to 5.2.3](/versioned_docs/usercube_6.1/usercube/migration-guide/5.1.7to5.2.3/index.md)
+- [5.1.0 to 5.1.1](/docs/usercube/6.1/usercube/migration-guide/5.1.0to5.1.1/index.md)
+- [5.0 to 5.1](/docs/usercube/6.1/usercube/migration-guide/5.0.x-to-5.1/index.md)
+- [5.1.1 to 5.1.7](/docs/usercube/6.1/usercube/migration-guide/5.1.1to5.1.7/index.md)
+- [5.1.7 to 5.2.3](/docs/usercube/6.1/usercube/migration-guide/5.1.7to5.2.3/index.md)

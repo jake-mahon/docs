@@ -82,10 +82,10 @@ Netwrix Auditor, these conflicts will be listed in the Netwrix Auditor System He
 Also, remember to do the following:
 
 - Configure Data Collecting Account as described in
-  [Permissions for Oracle Database Auditing](/versioned_docs/auditor_10.6/auditor/configuration/oracle/permissions.md)
+  [Permissions for Oracle Database Auditing](/docs/auditor/10.6/auditor/configuration/oracle/permissions.md)
   topic.
 - Configure ports as described in
-  [Oracle Database Ports](/versioned_docs/auditor_10.6/auditor/configuration/oracle/ports.md) topic.
+  [Oracle Database Ports](/docs/auditor/10.6/auditor/configuration/oracle/ports.md) topic.
 
 **NOTE:** Traditional auditing is deprecated in Oracle Database 21c. Oracle recommends using Unified
 Auditing, which enables selective and more effective auditing within Oracle Database. See the
@@ -98,7 +98,7 @@ This section explains how to configure **Standard Auditing** on your Oracle Data
 for monitoring with the product.
 
 Starting with version 10.5, Auditor provides limited support of Oracle Database 11g. See the
-[Considerations for Oracle Database 11g](/versioned_docs/auditor_10.6/auditor/configuration/oracle/overview.md#considerations-for-oracle-database-11g)
+[Considerations for Oracle Database 11g](/docs/auditor/10.6/auditor/configuration/oracle/overview.md#considerations-for-oracle-database-11g)
 topic for additional information.
 
 Verify that Oracle Data Provider for .NET and Oracle Instant Client are installed and properly
@@ -187,8 +187,8 @@ successful logon session.
 Also, remember to do the following:
 
 - Configure Data Collecting Account. See the
-  [Permissions for Oracle Database Auditing](/versioned_docs/auditor_10.6/auditor/configuration/oracle/permissions.md)
+  [Permissions for Oracle Database Auditing](/docs/auditor/10.6/auditor/configuration/oracle/permissions.md)
   topic for additional information.
 - Configure ports. See the
-  [Oracle Database Ports](/versioned_docs/auditor_10.6/auditor/configuration/oracle/ports.md) topic
+  [Oracle Database Ports](/docs/auditor/10.6/auditor/configuration/oracle/ports.md) topic
   for additional information about ports and protocols required for auditing.

@@ -26,7 +26,7 @@ to create a new report.
 
 **Step 3 –** The Report Configuration wizard is automatically launched. Use the wizard to configure
 the new report as required, see the
-[Report Configuration Wizard](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/report/wizard/overview.md)
+[Report Configuration Wizard](/docs/accessanalyzer/11.6/enterpriseauditor/admin/report/wizard/overview.md)
 topic for instructions. Click **Finish** on the final page of the wizard to create the report.
 
 The new report is added to the Reports table.
@@ -36,7 +36,7 @@ The new report is added to the Reports table.
 **Step 4 –** Click the vertical ellipsis menu next to the report and select Generate.
 
 The report is now created. To access the new report, see the
-[Viewing Generated Reports](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/report/view.md)
+[Viewing Generated Reports](/docs/accessanalyzer/11.6/enterpriseauditor/admin/report/view.md)
 topic.
 
 ## Copy an Existing Report
@@ -64,11 +64,11 @@ report is named Exceptions Summary, then the new report is named `Exceptions Sum
 
 **Step 3 –** (Optional) Click the **Configure** button next to the report. Use the Report
 Configuration wizard to modify the reports settings. See the
-[Report Configuration Wizard](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/report/wizard/overview.md)
+[Report Configuration Wizard](/docs/accessanalyzer/11.6/enterpriseauditor/admin/report/wizard/overview.md)
 topic for instructions.
 
 **Step 4 –** Click the vertical ellipsis menu next to the report and select Generate.
 
 The report is now created. To access the new report, see the
-[Viewing Generated Reports](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/report/view.md)
+[Viewing Generated Reports](/docs/accessanalyzer/11.6/enterpriseauditor/admin/report/view.md)
 topic.

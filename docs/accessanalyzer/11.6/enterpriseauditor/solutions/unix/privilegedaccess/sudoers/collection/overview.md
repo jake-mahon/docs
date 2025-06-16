@@ -7,8 +7,8 @@ and Linux Environments.
 
 The jobs in the 0.Collection job group are:
 
-- [UX_MakeDirectory Job](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/unix/privilegedaccess/sudoers/collection/ux_makedirectory.md)
+- [UX_MakeDirectory Job](/docs/accessanalyzer/11.6/enterpriseauditor/solutions/unix/privilegedaccess/sudoers/collection/ux_makedirectory.md)
   – This job creates a temporary Enterprise Auditor directory on target Unix and Linux environments
   to be used by the UX_ParseSudoers job
-- [UX_ParseSudeors Job](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/unix/privilegedaccess/sudoers/collection/ux_parsesudeors.md)
+- [UX_ParseSudeors Job](/docs/accessanalyzer/11.6/enterpriseauditor/solutions/unix/privilegedaccess/sudoers/collection/ux_parsesudeors.md)
   – This job parses all rights granted via sudoers in the audited environment

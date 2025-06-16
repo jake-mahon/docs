@@ -12,7 +12,7 @@ Displays the groups this contact is a member of.
 Click it to add the contact to the memberships of one or more groups.
 
 Enter a search string to locate the required group, or click **Advance** to use the
-[Find Dialog Box](/versioned_docs/groupid_11.0/groupid/portal/search/find.md) for performing a
+[Find Dialog Box](/docs/groupid/11.0/groupid/portal/search/find.md) for performing a
 search.
 
 **Remove**
@@ -22,4 +22,4 @@ of that group.
 
 **See Also**
 
-- [User Properties](/versioned_docs/groupid_11.0/groupid/portal/user/properties/overview.md)
+- [User Properties](/docs/groupid/11.0/groupid/portal/user/properties/overview.md)

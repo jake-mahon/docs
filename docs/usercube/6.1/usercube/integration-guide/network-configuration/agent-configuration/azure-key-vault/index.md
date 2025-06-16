@@ -15,11 +15,11 @@ First, NETWRIX recommends reading:
 ## Compatible Settings
 
 Every key from
-[`appsettings.agent.json`](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/appsettings-agent/index.md)
+[`appsettings.agent.json`](/docs/usercube/6.1/usercube/integration-guide/network-configuration/agent-configuration/appsettings-agent/index.md)
 that has a string value can be saved as a secret into Azure Key Vault.
 
 See examples in
-[connectors' credential protection](/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/references-connectors/servicenowentitymanagement/index.md)
+[connectors' credential protection](/docs/usercube/6.1/usercube/integration-guide/connectors/references-connectors/servicenowentitymanagement/index.md)
 sections.
 
 ## Write Settings to the Vault
@@ -34,7 +34,7 @@ The important part of adding a secret in Azure Key Vault is defining its name an
 - secrets' values are simply the value associated with the key in the JSON file.
 
 > For example, for the
-> [Active Directory](/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/references-connectors/activedirectory/index.md):
+> [Active Directory](/docs/usercube/6.1/usercube/integration-guide/connectors/references-connectors/activedirectory/index.md):
 >
 >                         ```
 >

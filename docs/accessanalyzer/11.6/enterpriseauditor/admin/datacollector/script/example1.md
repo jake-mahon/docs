@@ -21,7 +21,7 @@ can store this data.
 
 **NOTE:** In this task, the hours, minutes, and seconds properties were specified manually using the
 task dialog. See the
-[Script Properties](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/script/properties.md)
+[Script Properties](/docs/accessanalyzer/11.6/enterpriseauditor/admin/datacollector/script/properties.md)
 topic for additional information.
 
 ## Example of Conversion of Data Script

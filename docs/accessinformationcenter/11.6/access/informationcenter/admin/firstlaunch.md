@@ -25,7 +25,7 @@ login with the Builtin Administrator account.
 Using the Configuration interface, the Builtin Administrator account can be disabled once a domain
 account has been granted the Administrator role. You can also change the password for the Builtin
 Administrator account. See the
-[Modify the Builtin Administrator Account](/versioned_docs/accessinformationcenter_11.6/access/informationcenter/admin/configuration/consoleaccess.md#modify-the-builtin-administrator-account)
+[Modify the Builtin Administrator Account](/docs/accessinformationcenter/11.6/access/informationcenter/admin/configuration/consoleaccess.md#modify-the-builtin-administrator-account)
 topic for additional information.
 
 ![Home page for the Builtin Admin account on first launch](/img/versioned_docs/accessinformationcenter_11.6/access/informationcenter/admin/builtinadminhome.webp)
@@ -35,14 +35,14 @@ The Home page opens. The first thing that should be done is to configure console
 users. Additionally, other settings can be configured or modified through the Configuration
 interface. Click **Configure Console** in the Your Links section to open the Configuration
 interface. See the
-[Console Access Page](/versioned_docs/accessinformationcenter_11.6/access/informationcenter/admin/configuration/consoleaccess.md)
+[Console Access Page](/docs/accessinformationcenter/11.6/access/informationcenter/admin/configuration/consoleaccess.md)
 topic for additional information.
 
 Once console access to the has been configured, there are a few login methods you can offer users.
 The features available to users are controlled by the role assigned and your license key. See the
-[URL & Login](/versioned_docs/accessinformationcenter_11.6/access/informationcenter/admin/login.md)
+[URL & Login](/docs/accessinformationcenter/11.6/access/informationcenter/admin/login.md)
 topic for information on how users will log in and where they are directed after login.
 
 See the
-[Navigation](/versioned_docs/accessinformationcenter_11.6/access/informationcenter/admin/navigate.md) topic
+[Navigation](/docs/accessinformationcenter/11.6/access/informationcenter/admin/navigate.md) topic
 for information on each of the interfaces and portals accessible from the Home page.

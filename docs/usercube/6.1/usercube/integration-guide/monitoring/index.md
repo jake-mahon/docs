@@ -3,7 +3,7 @@
 Usercube uses [Serilog](https://github.com/serilog/), a highly customizable logging tool, to provide
 monitoring capabilities.
 
-[See the list of existing logs](/versioned_docs/usercube_6.1/usercube/integration-guide/monitoring/references/index.md).
+[See the list of existing logs](/docs/usercube/6.1/usercube/integration-guide/monitoring/references/index.md).
 
 ## Introduction
 
@@ -304,7 +304,7 @@ can have both Serilog writing to the log file and Usercube reading it to display
 QRadar is a supported destination for Usercube's logs.
 
 To learn how to send Usercube's logs to your QRadar system, see
-[dedicated How To page](/versioned_docs/usercube_6.1/usercube/integration-guide/monitoring/how-tos/qradar-setting/index.md)
+[dedicated How To page](/docs/usercube/6.1/usercube/integration-guide/monitoring/how-tos/qradar-setting/index.md)
 .
 
 Three output formats are available for QRadar-routed logs:

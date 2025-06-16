@@ -14,7 +14,7 @@ It also provides the ability to feed activity data to other Netwrix products:
 
 Prior to adding a Windows host to the Activity Monitor, the prerequisites for the target environment
 must be met. See the
-[Linux Agent Server Requirements](/versioned_docs/activitymonitor_7.1/activitymonitor/requirements/linuxagent.md) topic
+[Linux Agent Server Requirements](/docs/activitymonitor/7.1/activitymonitor/requirements/linuxagent.md) topic
 for additional information.
 
 ## Deploy Linux Agent
@@ -103,11 +103,11 @@ Activity Monitor stops the installation and lists the errors in the **Agent mess
 
 When the Linux agent installation is complete, the status changes to **Installed**. The Monitored
 Host is also configured, and the added Linux host is displayed in the monitored hosts table. See the
-[Monitored Hosts Tab](/versioned_docs/activitymonitor_7.1/activitymonitor/admin/monitoredhosts/overview.md)
+[Monitored Hosts Tab](/docs/activitymonitor/7.1/activitymonitor/admin/monitoredhosts/overview.md)
 topic for additional information.
 
 Once a host has been added for monitoring, configure the desired outputs. See the
-[Output for Monitored Hosts](/versioned_docs/activitymonitor_7.1/activitymonitor/admin/monitoredhosts/output.md)
+[Output for Monitored Hosts](/docs/activitymonitor/7.1/activitymonitor/admin/monitoredhosts/output.md)
 topic for additional information.
 
 ## Host Properties for Linux
@@ -115,8 +115,8 @@ topic for additional information.
 Configuration settings can be edited through the tabs in the host’s Properties window. The
 configurable host properties are:
 
-- [Inactivity Alerts Tab](/versioned_docs/activitymonitor_7.1/activitymonitor/admin/monitoredhosts/properties/inactivityalerts.md)
+- [Inactivity Alerts Tab](/docs/activitymonitor/7.1/activitymonitor/admin/monitoredhosts/properties/inactivityalerts.md)
 
 See the
-[Host Properties Window](/versioned_docs/activitymonitor_7.1/activitymonitor/admin/monitoredhosts/properties/overview.md)
+[Host Properties Window](/docs/activitymonitor/7.1/activitymonitor/admin/monitoredhosts/properties/overview.md)
 topic for additional information.

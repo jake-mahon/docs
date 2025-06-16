@@ -10,10 +10,10 @@ The following examples describe situations where using a script may be useful:
 
 - Conversions – One of the most frequent uses of a scriptis for converting a value from one thing to
   another, for example `build1230` to `at risk`. See the
-  [Script Example 1: Conversion of Data](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/script/example1.md)
+  [Script Example 1: Conversion of Data](/docs/accessanalyzer/11.6/enterpriseauditor/admin/datacollector/script/example1.md)
   topic for additional information.
 - Compound Queries – This is a query that cannot be performed using a single query. See the
-  [Script Example 2: Command Query](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/script/example2.md)
+  [Script Example 2: Command Query](/docs/accessanalyzer/11.6/enterpriseauditor/admin/datacollector/script/example2.md)
   topic for additional information.
 - Interfacing with External Systems – This is a query that requires access to external data. For
   example, the query needs to access a corporate database to obtain a location code.
@@ -22,7 +22,7 @@ The Script Data Collector is a core component of Enterprise Auditor, but it has 
 within the Windows Solution. While the data collector is available with all Enterprise Auditor
 license options, the Windows Solution is only available with a special Enterprise Auditor license.
 See the
-[Windows Solution](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/windows/overview.md)
+[Windows Solution](/docs/accessanalyzer/11.6/enterpriseauditor/solutions/windows/overview.md)
 topic for additional information.
 
 Protocols

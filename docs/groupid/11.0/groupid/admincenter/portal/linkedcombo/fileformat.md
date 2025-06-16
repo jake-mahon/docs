@@ -12,4 +12,4 @@ display type:
 
 See Also
 
-- [Linked Combo Display Type](/versioned_docs/groupid_11.0/groupid/admincenter/portal/linkedcombo/overview.md)
+- [Linked Combo Display Type](/docs/groupid/11.0/groupid/admincenter/portal/linkedcombo/overview.md)

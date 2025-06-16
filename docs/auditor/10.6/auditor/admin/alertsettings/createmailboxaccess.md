@@ -9,7 +9,7 @@ need to create a monitoring plan for auditing event logs.
 
 The procedure below describes the basic steps, required for creation of a monitoring plan that will
 be used to collect data on non-owner mailbox access events. See
-[Event Log Manager](/versioned_docs/auditor_10.6/auditor/tools/eventlogmanager.md) topic for
+[Event Log Manager](/docs/auditor/10.6/auditor/tools/eventlogmanager.md) topic for
 additional information.
 
 Follow the steps to create alert for non-owner mailbox access events.

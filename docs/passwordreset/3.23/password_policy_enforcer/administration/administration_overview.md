@@ -15,7 +15,7 @@ You can also use Password Policy Enforcer to ensure that passwords are compatibl
 systems, and to synchronize passwords with other networks and applications.
 
 **NOTE:** The
-[](http://www.anixis.com/products/ppe/evalguide.pdf)[Evaluation](/versioned_docs/passwordreset_3.23/password_policy_enforcer/evaluation/evaluation_overview.md)
+[](http://www.anixis.com/products/ppe/evalguide.pdf)[Evaluation](/docs/passwordreset/3.23/password_policy_enforcer/evaluation/evaluation_overview.md)
 topic contains step-by-step instructions to help you quickly install, configure, and evaluate
 Password Policy Enforcer. Read the Evaluation topic if you are using Password Policy Enforcer for
 the first time.

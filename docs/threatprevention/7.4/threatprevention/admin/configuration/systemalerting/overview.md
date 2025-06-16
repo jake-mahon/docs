@@ -41,14 +41,14 @@ Email and SIEM alert notifications for policy events can be enabled through:
 
 - The System Alerting window
 - The
-  [Actions Tab](/versioned_docs/threatprevention_7.4/threatprevention/admin/policies/actions/overview.md)
+  [Actions Tab](/docs/threatprevention/7.4/threatprevention/admin/policies/actions/overview.md)
   of a policy
 - The
-  [Actions Tab](/versioned_docs/threatprevention_7.4/threatprevention/admin/templates/actions.md) of
+  [Actions Tab](/docs/threatprevention/7.4/threatprevention/admin/templates/actions.md) of
   a policy template
 
 In any case, configuration must first be set through the System Alerting window. The
-[Alerts Interface](/versioned_docs/threatprevention_7.4/threatprevention/admin/alerts/overview.md)
+[Alerts Interface](/docs/threatprevention/7.4/threatprevention/admin/alerts/overview.md)
 allows you to quickly view recent alerts in a centralized location.
 
 ## Email and SIEM Alert Notifications for Analytic Incidents
@@ -62,11 +62,11 @@ reminders of an ongoing attack if it continues after the initial notification ha
 Notifications are generated for the alerts you enable on the the System Alerting window.
 
 - All Security, Configuration, and Operation alert notifications are displayed on the
-  [Alerts Interface](/versioned_docs/threatprevention_7.4/threatprevention/admin/alerts/overview.md).
+  [Alerts Interface](/docs/threatprevention/7.4/threatprevention/admin/alerts/overview.md).
 - All Analytics incidents are displayed on the
-  [Analytics Interface](/versioned_docs/threatprevention_7.4/threatprevention/admin/analytics/overview.md).
+  [Analytics Interface](/docs/threatprevention/7.4/threatprevention/admin/analytics/overview.md).
 - All Policies events are displayed on the
-  [Investigate Interface](/versioned_docs/threatprevention_7.4/threatprevention/admin/investigate/overview.md).
+  [Investigate Interface](/docs/threatprevention/7.4/threatprevention/admin/investigate/overview.md).
 
 ## General Considerations
 
@@ -75,7 +75,7 @@ Below are some considerations:
 - Occasionally a Microsoft Security Bulletin impacting LSASS can interfere with the Agent
   instrumentation resulting in LSASS shutting down. The Agent is configured to monitor for an LSASS
   process termination shortly after a server reboot. The
-  [LSASS Process Terminated](/versioned_docs/threatprevention_7.4/threatprevention/troubleshooting/lsass.md)
+  [LSASS Process Terminated](/docs/threatprevention/7.4/threatprevention/troubleshooting/lsass.md)
   alert (Operations alert) is triggered in this event and the Agent is stopped. As a result, all
   monitoring/blocking by that Agent will be stopped. To resolve the issue, the Threat
   Prevention administrator should check if the Agent service is set to manual start. The most likely
@@ -83,7 +83,7 @@ Below are some considerations:
 
     **_RECOMMENDED:_** Activate an email notification for the _LSASS process terminated_ alert. See
     the
-    [Enable the 'LSASS Process Terminated' Email Alert](/versioned_docs/threatprevention_7.4/threatprevention/troubleshooting/lsass.md#enable-the-lsass-process-terminated-email-alert)
+    [Enable the 'LSASS Process Terminated' Email Alert](/docs/threatprevention/7.4/threatprevention/troubleshooting/lsass.md#enable-the-lsass-process-terminated-email-alert)
     topic for additional information.
 
 - In addition to the LSASS process termination check, the Agent can be configured for a Safe Mode.
@@ -94,11 +94,11 @@ Below are some considerations:
   monitoring/blocking by that Agent stops. The 'Agent Started in AD Monitor pending mode' alert
   (Operations alert) is triggered in this event. To resolve the issue, the Threat Prevention
   administrator must start the pending modules. See the
-  [Start Pending Modules](/versioned_docs/threatprevention_7.4/threatprevention/admin/agents/management/startpendingmodules.md)
+  [Start Pending Modules](/docs/threatprevention/7.4/threatprevention/admin/agents/management/startpendingmodules.md)
   topic for additional information.
 
     **_RECOMMENDED:_** Activate an email notification for this alert. See the
-    [Enable Agent Started in AD Monitor Pending Mode Email Alert](/versioned_docs/threatprevention_7.4/threatprevention/admin/agents/safemode.md#enable-agent-started-in-ad-monitor-pending-mode-email-alert)
+    [Enable Agent Started in AD Monitor Pending Mode Email Alert](/docs/threatprevention/7.4/threatprevention/admin/agents/safemode.md#enable-agent-started-in-ad-monitor-pending-mode-email-alert)
     topic and the
-    [Agent Safe Mode](/versioned_docs/threatprevention_7.4/threatprevention/admin/agents/safemode.md)
+    [Agent Safe Mode](/docs/threatprevention/7.4/threatprevention/admin/agents/safemode.md)
     topic for additional information.

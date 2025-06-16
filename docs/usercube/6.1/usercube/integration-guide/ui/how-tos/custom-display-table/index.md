@@ -2,7 +2,7 @@
 
 This part shows how to define a custom way to display entity types' data.
 
-[Read more about display tables](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/user-interface/displaytable/index.md).
+[Read more about display tables](/docs/usercube/6.1/usercube/integration-guide/toolkit/xml-configuration/user-interface/displaytable/index.md).
 
 ## Table
 
@@ -41,7 +41,7 @@ Here is the visualization of this resource table on the interface:
 
 ## Display Table with Tiles
 
-[Read more about tiles](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/user-interface/tile/index.md).
+[Read more about tiles](/docs/usercube/6.1/usercube/integration-guide/toolkit/xml-configuration/user-interface/tile/index.md).
 
 Instead of creating a table, it is possible to create tiles to give another rendering of the user
 interface. It is therefore necessary to create the different tiles first. After creating the tiles,

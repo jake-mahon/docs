@@ -63,7 +63,7 @@ The user rights are on the same level as the computer rights. The priority can b
 System Settings section.
 
 **NOTE:** For detailed information, refer to the
-[System Configuration](/versioned_docs/endpointprotector_5.9.4/endpointprotector/admin/systemconfiguration/overview.md)
+[System Configuration](/docs/endpointprotector/5.9.4/endpointprotector/admin/systemconfiguration/overview.md)
 topic.
 
 Select an option to grant access for clients based on the Department Code. You can also view the
@@ -74,7 +74,7 @@ Select an option to grant access for clients based on the Department Code.
 You can also view the Default Department code - defdep.
 
 **NOTE:** For detailed information, refer to the
-[System Configuration](/versioned_docs/endpointprotector_5.9.4/endpointprotector/admin/systemconfiguration/overview.md)
+[System Configuration](/docs/endpointprotector/5.9.4/endpointprotector/admin/systemconfiguration/overview.md)
 topic.
 
 ![Select an option to grant access for clients based on the Department Code](/img/versioned_docs/endpointprotector_5.9.4/endpointprotector/admin/systemconfiguration/departmentusage.webp)

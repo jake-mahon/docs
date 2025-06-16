@@ -2,9 +2,9 @@
 
 Use this API to retrieve information about all those requests with pending status provided you have
 the required permissions to manage all requests. See the
-[Miscellaneous](/versioned_docs/groupid_11.0/groupid/admincenter/securityrole/permissions.md#miscellaneous)
+[Miscellaneous](/docs/groupid/11.0/groupid/admincenter/securityrole/permissions.md#miscellaneous)
 section of the
-[Security Role – Permissions](/versioned_docs/groupid_11.0/groupid/admincenter/securityrole/permissions.md)
+[Security Role – Permissions](/docs/groupid/11.0/groupid/admincenter/securityrole/permissions.md)
 topic.
 
 ## Endpoint
@@ -284,5 +284,5 @@ GET.
 
 See Also
 
-- [Common Errors](/versioned_docs/groupid_11.0/groupid/api/commonerrors.md)
-- [Workflow APIs](/versioned_docs/groupid_11.0/groupid/api/workflow/workflowapis.md)
+- [Common Errors](/docs/groupid/11.0/groupid/api/commonerrors.md)
+- [Workflow APIs](/docs/groupid/11.0/groupid/api/workflow/workflowapis.md)

@@ -9,10 +9,10 @@ The following Jobs make up the Changes Job Group:
 
 **_RECOMMENDED:_** Schedule these jobs to run with the 0.Collection job group.
 
-- [AD_ComputerModifications Job](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/activedirectory/activity/changes/ad_computermodifications.md)
+- [AD_ComputerModifications Job](/docs/accessanalyzer/11.6/enterpriseauditor/solutions/activedirectory/activity/changes/ad_computermodifications.md)
   – Reports on activity relating to changes made on computer objects
-- [AD_GroupModifications Job](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/activedirectory/activity/changes/ad_groupmodifications.md)
+- [AD_GroupModifications Job](/docs/accessanalyzer/11.6/enterpriseauditor/solutions/activedirectory/activity/changes/ad_groupmodifications.md)
   – Reports on activity relating to changes made on a group objects and changes made to group
   membership
-- [AD_UserModifications Job](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/activedirectory/activity/changes/ad_usermodifications.md)
+- [AD_UserModifications Job](/docs/accessanalyzer/11.6/enterpriseauditor/solutions/activedirectory/activity/changes/ad_usermodifications.md)
   – Reports on activity relating to changes made on user objects

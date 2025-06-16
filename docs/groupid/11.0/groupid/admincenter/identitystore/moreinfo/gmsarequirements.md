@@ -52,4 +52,4 @@ NOTE: Restart the GroupID server if you apply any of the above.
 
 **See Also**
 
-- [Manage an Identity Store](/versioned_docs/groupid_11.0/groupid/admincenter/identitystore/manage.md)
+- [Manage an Identity Store](/docs/groupid/11.0/groupid/admincenter/identitystore/manage.md)

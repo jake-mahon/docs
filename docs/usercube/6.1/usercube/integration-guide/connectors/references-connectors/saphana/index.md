@@ -5,7 +5,7 @@ This connector exports and fulfills users and roles from/to an
 instance.
 
 This page is about
-[ERP/SAP S/4 HANA](/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/references-packages/saphana/index.md).
+[ERP/SAP S/4 HANA](/docs/usercube/6.1/usercube/integration-guide/connectors/references-packages/saphana/index.md).
 
 ![Package: ERP/SAP S/4 HANA](/img/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/references-connectors/saphana/packages_sap_v603.webp)
 
@@ -21,7 +21,7 @@ finance, and human resources (HR).
 Implementing this connector requires:
 
 - reading first the
-  [appsettings documentation](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/appsettings-agent/index.md);
+  [appsettings documentation](/docs/usercube/6.1/usercube/integration-guide/network-configuration/agent-configuration/appsettings-agent/index.md);
 - a service account with reading and writing permissions on the SAP server.
 
 ## Export
@@ -32,7 +32,7 @@ output to CSV files.
 ### Configuration
 
 This process is configured through a
-[connection](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/connectors/connection/index.md)
+[connection](/docs/usercube/6.1/usercube/integration-guide/toolkit/xml-configuration/connectors/connection/index.md)
 in the UI and/or the XML configuration, and in the `appsettings.agent.json > Connections` section:
 
 ```
@@ -82,7 +82,7 @@ The identifier of the connection and thus the name of the subsection must:
 ### Output details
 
 This connector is meant to generate to the
-[ExportOutput](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/appsettings/index.md)
+[ExportOutput](/docs/usercube/6.1/usercube/integration-guide/network-configuration/agent-configuration/appsettings/index.md)
 folder the following CSV files:
 
 - `sap_users.csv` with the following columns:
@@ -153,20 +153,20 @@ Same as for export, fulfill is configured through connections.
 
 ### Password reset
 
-[See how to configure password reset settings](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/appsettings-agent/index.md).
+[See how to configure password reset settings](/docs/usercube/6.1/usercube/integration-guide/network-configuration/agent-configuration/appsettings-agent/index.md).
 
 When setting a password for an SAP user, the password attribute is defined by the password specified
 in the corresponding
-[`RessourceTypeMapping`](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/connectors/resourcetypemappings/sapresourcetypemapping/index.md).
+[`RessourceTypeMapping`](/docs/usercube/6.1/usercube/integration-guide/toolkit/xml-configuration/connectors/resourcetypemappings/sapresourcetypemapping/index.md).
 
 ### Credential protection
 
 Data protection can be ensured through:
 
-- [RSA encryption](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/rsa-encryption/index.md),
+- [RSA encryption](/docs/usercube/6.1/usercube/integration-guide/network-configuration/agent-configuration/rsa-encryption/index.md),
   configured in the `appsettings.encrypted.agent.json` file;
 - an
-  [Azure Key Vault](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/azure-key-vault/index.md)
+  [Azure Key Vault](/docs/usercube/6.1/usercube/integration-guide/network-configuration/agent-configuration/azure-key-vault/index.md)
   safe;
 
 | Attribute | Naming Convention for the Key in Azure Key Vault |
@@ -176,7 +176,7 @@ Data protection can be ensured through:
 | Password  | `Connections--<identifier>--Password`            |
 
 - a
-  [CyberArk Vault](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/cyberark-application-access-manager-credential-providers/index.md)
+  [CyberArk Vault](/docs/usercube/6.1/usercube/integration-guide/network-configuration/agent-configuration/cyberark-application-access-manager-credential-providers/index.md)
   able to store Active Directory's `Login`, `Password` and `Server`.
 
 Protected attributes are stored inside a safe in CyberArk, into an account whose identifier can be

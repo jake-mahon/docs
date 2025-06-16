@@ -2,7 +2,7 @@
 
 Protection policies are used to protect specific resources and can only be accessed by specific
 users and groups. Essentially, all members who are not specified in the
-[Allowed Members Tab for Protection Policies](/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/policy/tab/policyprotection/allowedmembers.md)
+[Allowed Members Tab for Protection Policies](/docs/privilegesecure/4.1/privilegesecure/accessmanagement/admin/policy/tab/policyprotection/allowedmembers.md)
 are removed from the resource.
 
 Protection policies can also be created to reserve resources for specific people or groups such as
@@ -12,13 +12,13 @@ The Protection Policies page is accessible from the Navigation pane under Policy
 configured protection policies, which are used to monitor local groups on a resource for changes.
 Only users or groups added to the protection policy are permitted. When the resource is scanned, any
 local group members that are not listed on the
-[Allowed Members Tab for Protection Policies](/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/policy/tab/policyprotection/allowedmembers.md)
+[Allowed Members Tab for Protection Policies](/docs/privilegesecure/4.1/privilegesecure/accessmanagement/admin/policy/tab/policyprotection/allowedmembers.md)
 are removed from the resource.
 
 It is also possible to add the action _Invoke Protection Policy_ to the Post Session group of an
 activity. This will proactively run all protection policies that apply to the target resource when
 the session completes, instead of waiting for the scheduled sync. See the
-[Activities Page](/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/policy/page/activities.md)
+[Activities Page](/docs/privilegesecure/4.1/privilegesecure/accessmanagement/admin/policy/page/activities.md)
 topic for additional information.
 
 ![Protection policies page](/img/versioned_docs/threatprevention_7.4/threatprevention/reportingmodule/configuration/systemsettings/page.webp)
@@ -45,6 +45,6 @@ commit the modifications. Click **Cancel** to discard the modifications.
 
 When a protection policy is selected, the following tabs are displayed for the selected policy:
 
-- [Resources Tab for Protection Policies](/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/policy/tab/policyprotection/resources.md)
-- [Allowed Members Tab for Protection Policies](/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/policy/tab/policyprotection/allowedmembers.md)
-- [Schedule Tab for Protection Policies](/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/policy/tab/policyprotection/schedule.md)
+- [Resources Tab for Protection Policies](/docs/privilegesecure/4.1/privilegesecure/accessmanagement/admin/policy/tab/policyprotection/resources.md)
+- [Allowed Members Tab for Protection Policies](/docs/privilegesecure/4.1/privilegesecure/accessmanagement/admin/policy/tab/policyprotection/allowedmembers.md)
+- [Schedule Tab for Protection Policies](/docs/privilegesecure/4.1/privilegesecure/accessmanagement/admin/policy/tab/policyprotection/schedule.md)

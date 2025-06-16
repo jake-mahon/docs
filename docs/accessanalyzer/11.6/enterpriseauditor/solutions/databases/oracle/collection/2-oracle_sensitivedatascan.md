@@ -7,10 +7,10 @@ Special Dependency
 
 - Sensitive Data Discovery Add-On installed on the Enterprise Auditor Console server
     - See the
-      [Sensitive Data Discovery Add-On Installation](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/install/sensitivedatadiscovery/overview.md)
+      [Sensitive Data Discovery Add-On Installation](/docs/accessanalyzer/11.6/enterpriseauditor/install/sensitivedatadiscovery/overview.md)
       topic for installation information.
     - See the
-      [Sensitive Data Discovery Add-On](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/sensitivedatadiscovery/overview.md)
+      [Sensitive Data Discovery Add-On](/docs/accessanalyzer/11.6/enterpriseauditor/sensitivedatadiscovery/overview.md)
       topic for additional information.
 
 **NOTE:** Though the job is visible within the console, it requires an additional installer package

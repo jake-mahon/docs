@@ -7,16 +7,16 @@ targeted file servers.
 
 The Security Job Group is comprised of:
 
-- [FS_AdminActvity Job](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/filesystem/activity/security/fs_adminactvity.md)
+- [FS_AdminActvity Job](/docs/accessanalyzer/11.6/enterpriseauditor/solutions/filesystem/activity/security/fs_adminactvity.md)
   – Designed to report on administrator related activity event information from targeted file
   servers
 
     - Requires **Access Auditing** component data collection
 
-- [FS_HighRiskActivity Job](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/filesystem/activity/security/fs_highriskactivity.md)
+- [FS_HighRiskActivity Job](/docs/accessanalyzer/11.6/enterpriseauditor/solutions/filesystem/activity/security/fs_highriskactivity.md)
   – Designed to report on high risk activity event information from targeted file servers
 
     - Requires **Access Auditing** component data collection
 
-- [FS_LocalUserActivity Job](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/filesystem/activity/security/fs_localuseractivity.md)
+- [FS_LocalUserActivity Job](/docs/accessanalyzer/11.6/enterpriseauditor/solutions/filesystem/activity/security/fs_localuseractivity.md)
   – Designed to report on local user activity event information from targeted file servers

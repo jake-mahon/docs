@@ -1,7 +1,7 @@
 # Create Resources
 
 How to define
-[resource type rules](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/provisioning/resourcetype/index.md)
+[resource type rules](/docs/usercube/6.1/usercube/integration-guide/toolkit/xml-configuration/provisioning/resourcetype/index.md)
 to create new (target) resources for given users, computing and provisioning their properties based
 on source resources.
 
@@ -10,15 +10,15 @@ on source resources.
 Sources are usually identities, and targets are usually accounts from the managed systems.
 
 Here, we are going to create target resources and assign them to given users. We are going to
-[provision](/versioned_docs/usercube_6.1/usercube/user-guide/administrate/provisioning/index.md)
+[provision](/docs/usercube/6.1/usercube/user-guide/administrate/provisioning/index.md)
 these resources, i.e. write them to the managed system.
 
 The right tools for the job are resource type rules.
 
 The application of a resource type rule can depend on the assignment of a
-[single role](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/single-roles-catalog-creation/index.md),
+[single role](/docs/usercube/6.1/usercube/user-guide/set-up/single-roles-catalog-creation/index.md),
 and/or user
-[dimensions](/versioned_docs/usercube_6.1/usercube/integration-guide/role-assignment/conformingassignmentcomputation/index.md#dimensions).
+[dimensions](/docs/usercube/6.1/usercube/integration-guide/role-assignment/conformingassignmentcomputation/index.md#dimensions).
 
 > A resource type rule could assign a SAP account to users working in Germany, and who already have
 > the role `SAP: manager access`.
@@ -30,7 +30,7 @@ application users, entitlements and data model.
 
 | Input                                                                                                        | Output              |
 | ------------------------------------------------------------------------------------------------------------ | ------------------- |
-| [Categorization](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/categorization/index.md) (required) | Resource type rules |
+| [Categorization](/docs/usercube/6.1/usercube/user-guide/set-up/categorization/index.md) (required) | Resource type rules |
 
 ## Create a Resource Type Rule
 
@@ -91,7 +91,7 @@ actual action in the managed system.
 > a user who had a SAP account assigned through this rule. Now that the country criterion has
 > changed, our user working in Germany would be deprived of their account.
 
-[Simulations](/versioned_docs/usercube_6.1/usercube/user-guide/optimize/simulation/index.md) are
+[Simulations](/docs/usercube/6.1/usercube/user-guide/optimize/simulation/index.md) are
 available in order to anticipate the changes induced by a creation/modification/deletion in resource
 type rules.
 
@@ -118,5 +118,5 @@ Then, you can:
     If the type rule uses a single role as a criterion, and the user has said role, then both the
     resource type and the role will be displayed in the user's permissions, but only if the role is
     related to a
-    [navigation rule](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/provisioning-rule-creation/navigation-property-computation/index.md).
+    [navigation rule](/docs/usercube/6.1/usercube/user-guide/set-up/provisioning-rule-creation/navigation-property-computation/index.md).
     Otherwise, only the resource type will be visible.

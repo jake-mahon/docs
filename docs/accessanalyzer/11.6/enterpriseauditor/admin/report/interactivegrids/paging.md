@@ -4,7 +4,7 @@ Paging allows users to interact with large sets of data more efficiently when vi
 and sorting generated report tables by limiting the amount of data being displayed at a given time.
 Reports provide the ability to navigate to specific pages using arrows at the bottom of the report.
 Paging is enabled by default. See the
-[Grid](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/report/wizard/widgets.md#grid)
+[Grid](/docs/accessanalyzer/11.6/enterpriseauditor/admin/report/wizard/widgets.md#grid)
 topic for additional information.
 
 **NOTE:** Paging and grouping cannot be enabled at the same time. When Paging is enabled, the

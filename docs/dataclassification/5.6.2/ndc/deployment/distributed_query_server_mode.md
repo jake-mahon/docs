@@ -35,7 +35,7 @@ To be able to configure the DQS mode, current account requires a **Superuser** r
 To arrange NDC Servers cluster and apply DQS mode
 
 1. Install and configure the first Netwrix Data Classification Server as described in the
-   [Install Netwrix Data Classification](/versioned_docs/dataclassification_5.6.2/ndc/deployment/installation.md)
+   [Install Netwrix Data Classification](/docs/dataclassification/5.6.2/ndc/deployment/installation.md)
    section.
 2. Open administrative web console.
 3. Navigate to Settings → Utilities → DQS.
@@ -62,11 +62,11 @@ To arrange NDC Servers cluster and apply DQS mode
 6. Click **Save** to close the dialog.
 7. Prepare to install other Netwrix Data Classification Server instances, assuming each server
    requires a dedicated machine. Make sure they meet the
-   [Hardware Requirements](/versioned_docs/dataclassification_5.6.2/ndc/deployment/hardware_requirements.md)
+   [Hardware Requirements](/docs/dataclassification/5.6.2/ndc/deployment/hardware_requirements.md)
    and general
-   [Software Requirements](/versioned_docs/dataclassification_5.6.2/ndc/deployment/software_requirements.md)
+   [Software Requirements](/docs/dataclassification/5.6.2/ndc/deployment/software_requirements.md)
 8. On each server, follow the installation steps as described in the
-   [Install Netwrix Data Classification](/versioned_docs/dataclassification_5.6.2/ndc/deployment/installation.md)
+   [Install Netwrix Data Classification](/docs/dataclassification/5.6.2/ndc/deployment/installation.md)
    section until SQL Database configuration.
 9. On the SQL Database step, provide the name of the SQL Server instance that hosts NDC SQL database
    you configured for the first NDC Server.
@@ -87,4 +87,4 @@ To arrange NDC Servers cluster and apply DQS mode
 after clicking **Run Cleaner** button on the **Settings > Core > Collector** tab.
 
 To review system health and check your configuration, use the product dashboards.
-[See Operations and Health Dashboards for more information.](/versioned_docs/dataclassification_5.6.2/ndc/dashboards.md)
+[See Operations and Health Dashboards for more information.](/docs/dataclassification/5.6.2/ndc/dashboards.md)

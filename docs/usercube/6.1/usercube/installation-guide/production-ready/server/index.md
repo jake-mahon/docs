@@ -5,22 +5,22 @@ workstation. If you are installing Usercube within the SaaS offering, this secti
 skip directly to [Set up End-User Authentication](#set-up-end-user-authentication).
 
 Please make sure that the
-[server requirements](/versioned_docs/usercube_6.1/usercube/installation-guide/requirements/server-requirements/index.md)
+[server requirements](/docs/usercube/6.1/usercube/installation-guide/requirements/server-requirements/index.md)
 are met before going further.
 
 ## Server Working Directory
 
 In
-[Create a Working Directory](/versioned_docs/usercube_6.1/usercube/installation-guide/production-ready/working-directory/index.md),
+[Create a Working Directory](/docs/usercube/6.1/usercube/installation-guide/production-ready/working-directory/index.md),
 the server executable has been extracted to the
-[working directory](/versioned_docs/usercube_6.1/usercube/installation-guide/production-ready/working-directory/index.md)
+[working directory](/docs/usercube/6.1/usercube/installation-guide/production-ready/working-directory/index.md)
 as `Usercube-Server.exe` and `Usercube-Server.dll` and will enable a user or IIS to run the Usercube
 Server.
 
 ## Set up the License Key
 
 The license key provided by Usercube must be set up in the
-[appsetting.json > License](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/server-configuration/general-purpose/index.md)
+[appsetting.json > License](/docs/usercube/6.1/usercube/integration-guide/network-configuration/server-configuration/general-purpose/index.md)
 attribute.
 
 ## Create an IIS Website
@@ -92,7 +92,7 @@ higher) to be able to run dotnet application.
 ## Select a Server Identity
 
 The Usercube Server, through the IIS Website, should be assigned a
-[service account with the relevant permissions](/versioned_docs/usercube_6.1/usercube/installation-guide/requirements/server-requirements/index.md).
+[service account with the relevant permissions](/docs/usercube/6.1/usercube/installation-guide/requirements/server-requirements/index.md).
 
 ### Create the service account
 
@@ -203,21 +203,21 @@ Usercube Server now has the required permissions to access the database.
 ### Set the working directory permissions
 
 The Usercube Server needs
-[specific permissions](/versioned_docs/usercube_6.1/usercube/installation-guide/requirements/server-requirements/index.md)
+[specific permissions](/docs/usercube/6.1/usercube/installation-guide/requirements/server-requirements/index.md)
 on the working directory to run, read synchronization output, and write provisioning orders.
 
 Up to four folders have to be considered:
 
 - The
-  [working directory](/versioned_docs/usercube_6.1/usercube/installation-guide/production-ready/working-directory/index.md)
+  [working directory](/docs/usercube/6.1/usercube/installation-guide/production-ready/working-directory/index.md)
 - The
-  [runtime](/versioned_docs/usercube_6.1/usercube/installation-guide/production-ready/working-directory/index.md)
+  [runtime](/docs/usercube/6.1/usercube/installation-guide/production-ready/working-directory/index.md)
   directory, usually `C:/Usercube<Organization>/Runtime`
 - The
-  [data collection](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/appsettings/index.md)
+  [data collection](/docs/usercube/6.1/usercube/integration-guide/network-configuration/agent-configuration/appsettings/index.md)
   directory, usually `C:/Usercube<Organization>/Temp`
 - The
-  [provisioning orders](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/appsettings/index.md)
+  [provisioning orders](/docs/usercube/6.1/usercube/integration-guide/network-configuration/agent-configuration/appsettings/index.md)
   directory, usually `C:/Usercube<Organization>/Temp` (same as for the data collection directory).
 
 The following steps can be performed for each of the relevant directories.
@@ -248,18 +248,18 @@ The Usercube Server service account that was chosen in the previous step:
         ![Object Names](/img/versioned_docs/usercube_6.1/usercube/installation-guide/production-ready/server/enter-the-object-names-to-select.webp)
 
     6. Check the `Allow` column for the
-       [relevant permissions](/versioned_docs/usercube_6.1/usercube/installation-guide/requirements/server-requirements/index.md).
+       [relevant permissions](/docs/usercube/6.1/usercube/installation-guide/requirements/server-requirements/index.md).
        Check the `Deny` column for the others.
     7. Apply **OK**.
 
 The working directory permissions are all set.
 
 The same steps have to be performed on the
-[runtime](/versioned_docs/usercube_6.1/usercube/installation-guide/production-ready/working-directory/index.md),
+[runtime](/docs/usercube/6.1/usercube/installation-guide/production-ready/working-directory/index.md),
 the
-[data collection](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/appsettings/index.md)
+[data collection](/docs/usercube/6.1/usercube/integration-guide/network-configuration/agent-configuration/appsettings/index.md)
 and the
-[provisioning orders](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/appsettings/index.md)
+[provisioning orders](/docs/usercube/6.1/usercube/integration-guide/network-configuration/agent-configuration/appsettings/index.md)
 directories.
 
 ## Encryption and Authentication Key Pairs
@@ -322,7 +322,7 @@ or log file encryptions.
    [certificate store](https://docs.microsoft.com/en-us/dotnet/framework/wcf/feature-details/how-to-view-certificates-with-the-mmc-snap-in#certificate-store)
    (recommended) .
 3. Link the generated certificate to Usercube (see
-   [`appsettings.json > EncryptionCertificate`](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/server-configuration/general-purpose/index.md)).
+   [`appsettings.json > EncryptionCertificate`](/docs/usercube/6.1/usercube/integration-guide/network-configuration/server-configuration/general-purpose/index.md)).
 
 ### Generate and use an identity server key pair
 
@@ -333,7 +333,7 @@ This is the key pair used by the Identity Server for end-user authentication pur
    [certificate store](https://docs.microsoft.com/en-us/dotnet/framework/wcf/feature-details/how-to-view-certificates-with-the-mmc-snap-in#certificate-store)
    (recommended).
 3. Link the generated certificate to Usercube (see
-   [`appsettings.json > IdentityServer`](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/server-configuration/end-users-authentication/index.md)).
+   [`appsettings.json > IdentityServer`](/docs/usercube/6.1/usercube/integration-guide/network-configuration/server-configuration/end-users-authentication/index.md)).
 
 #### Certificate as a plain file
 
@@ -345,7 +345,7 @@ hence the `X509KeyFilePassword` attribute.
 
 Storing a `.pfx` file password in plain text in a production environment is strongly discouraged.
 The password should always be encrypted using the
-[Usercube-Protect-CertificatePassword tool](/versioned_docs/usercube_6.1/usercube/integration-guide/executables/references/protect-certificatepassword/index.md).
+[Usercube-Protect-CertificatePassword tool](/docs/usercube/6.1/usercube/integration-guide/executables/references/protect-certificatepassword/index.md).
 
                     ```
 
@@ -381,7 +381,7 @@ Now that the Usercube Server has been provided with a service account with the r
 let's finalize the setup.
 
 The connection between the Server and the Database requires choosing an
-[authentication method](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/server-configuration/database-connection/index.md):
+[authentication method](/docs/usercube/6.1/usercube/integration-guide/network-configuration/server-configuration/database-connection/index.md):
 [Windows Authentication](https://docs.microsoft.com/en-us/sql/relational-databases/security/choose-an-authentication-mode?view=sql-server-ver15#windows-authentication)
 or
 [SQL Server authentication](https://docs.microsoft.com/en-us/sql/relational-databases/security/choose-an-authentication-mode?view=sql-server-ver15#sql-server-authentication).
@@ -391,16 +391,16 @@ _built-in_ app pool identity and a custom service account. This authentication m
 login and password directly in the connection string.
 
 `Runtime/appsettings.json` is a
-[technical configuration](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/index.md)
+[technical configuration](/docs/usercube/6.1/usercube/integration-guide/network-configuration/index.md)
 file that enables you to set up the connection between the Server and the Database through the
-[ConnectionString](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/server-configuration/database-connection/index.md)
+[ConnectionString](/docs/usercube/6.1/usercube/integration-guide/network-configuration/server-configuration/database-connection/index.md)
 attribute.
 
 The connection string is set up in the `Runtime/appsettings.json` configuration file which can be
 edited with any text editor, such as [Notepad++](https://notepad-plus-plus.org/downloads/).
 
 If the SQL Server is hosted on Azure, you should use the
-[AzureCredentials](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/server-configuration/database-connection/index.md#azurecredentials)
+[AzureCredentials](/docs/usercube/6.1/usercube/integration-guide/network-configuration/server-configuration/database-connection/index.md#azurecredentials)
 setting before going further.
 
 In the`Runtime/appsettings.json` file, find or write the `ConnectionString` attributes following the
@@ -409,7 +409,7 @@ examples shown below:
 The **first example** sets a connection string using the Windows authentication
 (`Integrated Security=SSPI`) to connect, on a local SQL Server system (`source=.`), to the
 `UsercubeContoso` database created in
-[Install the Database](/versioned_docs/usercube_6.1/usercube/installation-guide/production-ready/database/index.md).
+[Install the Database](/docs/usercube/6.1/usercube/installation-guide/production-ready/database/index.md).
 
 The service account used by the Server to access the Database is either:
 
@@ -480,7 +480,7 @@ This can be achieved using the
 ## DNS
 
 Your organization's DNS needs to be updated according to the requirements indicated in
-[Hostname and DNS](/versioned_docs/usercube_6.1/usercube/installation-guide/requirements/server-requirements/index.md#hostname-and-dns).
+[Hostname and DNS](/docs/usercube/6.1/usercube/installation-guide/requirements/server-requirements/index.md#hostname-and-dns).
 
 ## Test Your Installation
 
@@ -534,9 +534,9 @@ choose one or several external authentication providers among the following:
 - [Integrated Windows Authentication (IWA)](https://docs.microsoft.com/en-us/aspnet/web-api/overview/security/integrated-windows-authentication)
 
 Everything you need to know about setting up authentication is provided in the
-[Technical Configuration Guide](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/server-configuration/end-users-authentication/index.md).
+[Technical Configuration Guide](/docs/usercube/6.1/usercube/integration-guide/network-configuration/server-configuration/end-users-authentication/index.md).
 
 ## What's Next?
 
-[Install the Agent](/versioned_docs/usercube_6.1/usercube/installation-guide/production-ready/agent/index.md)
+[Install the Agent](/docs/usercube/6.1/usercube/installation-guide/production-ready/agent/index.md)
 is the next step of the process.

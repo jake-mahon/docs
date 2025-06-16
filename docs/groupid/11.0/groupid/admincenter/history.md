@@ -22,7 +22,7 @@ History for Admin Center and helpdesk is tracked by default and you cannot disab
 
 However, history for identity store configurations and objects is disabled by default. You can
 enable it for an identity store as well as choose to track all or specific actions. See the
-[Configure History Tracking](/versioned_docs/groupid_11.0/groupid/admincenter/identitystore/configure/directoryservice/historytracking.md)
+[Configure History Tracking](/docs/groupid/11.0/groupid/admincenter/identitystore/configure/directoryservice/historytracking.md)
 topic.
 
 Where is history displayed?
@@ -35,9 +35,9 @@ History Retention
 
 The _history retention_ setting for an identity store enables you to choose whether you want to keep
 history data forever or for a specific period. See the
-[Retain Complete History Data](/versioned_docs/groupid_11.0/groupid/admincenter/identitystore/configure/directoryservice/historytracking.md#retain-complete-history-data)
+[Retain Complete History Data](/docs/groupid/11.0/groupid/admincenter/identitystore/configure/directoryservice/historytracking.md#retain-complete-history-data)
 and
-[Retain History for a Specific Period](/versioned_docs/groupid_11.0/groupid/admincenter/identitystore/configure/directoryservice/historytracking.md#retain-history-for-a-specific-period)
+[Retain History for a Specific Period](/docs/groupid/11.0/groupid/admincenter/identitystore/configure/directoryservice/historytracking.md#retain-history-for-a-specific-period)
 topics. Your desired setting applies to all history tracked for the respective identity store,
 including that tracked for helpdesk and Admin Center.
 
@@ -54,13 +54,13 @@ Event Logging
 
 In addition to history tracking, GroupID provides event logging, which includes file logging and
 Windows logging for GroupID clients and services. See the
-[Event Logging](/versioned_docs/groupid_11.0/groupid/admincenter/identitystore/history/eventlogging.md)
+[Event Logging](/docs/groupid/11.0/groupid/admincenter/identitystore/history/eventlogging.md)
 topic.
 
 **See Also**
 
-- [Admin Center History](/versioned_docs/groupid_11.0/groupid/admincenter/general/history.md)
-- [History in Helpdesk](/versioned_docs/groupid_11.0/groupid/admincenter/helpdesk/history.md)
-- [Identity Store History](/versioned_docs/groupid_11.0/groupid/admincenter/identitystore/history/view.md)
+- [Admin Center History](/docs/groupid/11.0/groupid/admincenter/general/history.md)
+- [History in Helpdesk](/docs/groupid/11.0/groupid/admincenter/helpdesk/history.md)
+- [Identity Store History](/docs/groupid/11.0/groupid/admincenter/identitystore/history/view.md)
   (for identity store configurations, workflows, and security roles)
-- [History](/versioned_docs/groupid_11.0/groupid/portal/history/overview.md) (for directory objects)
+- [History](/docs/groupid/11.0/groupid/portal/history/overview.md) (for directory objects)

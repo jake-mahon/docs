@@ -14,8 +14,8 @@ Data Collectors
 
 This solution employs the following data collector to scan the target environment:
 
-- [ADInventory Data Collector](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/adinventory/overview.md)
-- [Box Data Collector](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/box/overview.md)
+- [ADInventory Data Collector](/docs/accessanalyzer/11.6/enterpriseauditor/admin/datacollector/adinventory/overview.md)
+- [Box Data Collector](/docs/accessanalyzer/11.6/enterpriseauditor/admin/datacollector/box/overview.md)
 
 ## Permissions
 
@@ -46,7 +46,7 @@ code. The following can be used as a least privilege model:
 the scan might not include content owned by the Enterprise Admin account.
 
 See the
-[Recommended Configurations for the Box Solution](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/box/recommended.md)
+[Recommended Configurations for the Box Solution](/docs/accessanalyzer/11.6/enterpriseauditor/solutions/box/recommended.md)
 topic for additional information.
 
 ## Ports

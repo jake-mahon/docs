@@ -8,13 +8,13 @@ In GroupID, property validation applies to:
 #### Profile Validation for Users
 
 See the
-[Profile Validation for Users](/versioned_docs/groupid_11.0/groupid/admincenter/portal/design/propertyvalidation.md#profile-validation-for-users)
+[Profile Validation for Users](/docs/groupid/11.0/groupid/admincenter/portal/design/propertyvalidation.md#profile-validation-for-users)
 topic.
 
 #### Property Validation for Groups
 
 See the
-[Property Validation for Groups](/versioned_docs/groupid_11.0/groupid/admincenter/portal/design/propertyvalidation.md#property-validation-for-groups)
+[Property Validation for Groups](/docs/groupid/11.0/groupid/admincenter/portal/design/propertyvalidation.md#property-validation-for-groups)
 topic.
 
 What do you want to do?
@@ -47,7 +47,7 @@ What do you want to do?
    in the app.
 10. In the **Visibility Level** drop-down list, select a security role. The field would be visible
     to users of this role and roles with a priority value higher than this role. See
-    [Priority](/versioned_docs/groupid_11.0/groupid/admincenter/securityrole/manage.md).  
+    [Priority](/docs/groupid/11.0/groupid/admincenter/securityrole/manage.md).  
     Select _Never_ to hide the field from all users.
 11. Click **Advanced options** to enter further details for the field.
 12. As mentioned for visibility level, the field is visible to members of the selected role and
@@ -114,5 +114,5 @@ validation:
 
 **See Also**
 
-- [Mobile Service](/versioned_docs/groupid_11.0/groupid/admincenter/mobileservice/overview.md)
-- [Design Settings](/versioned_docs/groupid_11.0/groupid/admincenter/mobileservice/design/overview.md)
+- [Mobile Service](/docs/groupid/11.0/groupid/admincenter/mobileservice/overview.md)
+- [Design Settings](/docs/groupid/11.0/groupid/admincenter/mobileservice/design/overview.md)

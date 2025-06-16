@@ -1,7 +1,7 @@
 # What does the Preparation Tool Install
 
 When the
-[Preparation Tool](/versioned_docs/groupid_11.0/groupid/install/installer/preparationtool.md) runs,
+[Preparation Tool](/docs/groupid/11.0/groupid/install/installer/preparationtool.md) runs,
 it installs the following software and Windows features:
 
 | Software                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             | Comments                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
@@ -25,6 +25,6 @@ it installs the following software and Windows features:
 
 See Also
 
-- [Requirements](/versioned_docs/groupid_11.0/groupid/install/requirements.md)
-- [Preparation Tool](/versioned_docs/groupid_11.0/groupid/install/installer/preparationtool.md)
-- [Configuration Tool](/versioned_docs/groupid_11.0/groupid/install/configure/configure.md)
+- [Requirements](/docs/groupid/11.0/groupid/install/requirements.md)
+- [Preparation Tool](/docs/groupid/11.0/groupid/install/installer/preparationtool.md)
+- [Configuration Tool](/docs/groupid/11.0/groupid/install/configure/configure.md)

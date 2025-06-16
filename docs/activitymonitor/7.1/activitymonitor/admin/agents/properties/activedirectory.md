@@ -64,7 +64,7 @@ used for Active Directory Activity Monitoring from the Threat Prevention Admin C
 
 **Step 1 –** Configure the File, Syslog, or Threat Manager outputs on the Monitored Domains Tab in
 the Activity Monitor Console. See the
-[Output for Monitored Domains](/versioned_docs/activitymonitor_7.1/activitymonitor/admin/monitoreddomains/output.md)
+[Output for Monitored Domains](/docs/activitymonitor/7.1/activitymonitor/admin/monitoreddomains/output.md)
 topic for additional information.
 
 **Step 2 –** Within the Threat Prevention Admin Console, select the Threat Manager Event Sink

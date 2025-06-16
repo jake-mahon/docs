@@ -13,12 +13,12 @@ example. For single sign-on using AD FS, we can choose any of the following ways
 1. Launch the GroupID portal _Wizard_.  
    On the **Login** page, the availability of the user name and password fields depends on whether
    you disabled GroupID Authentication or not (see step 2 in the
-   [Specify Advanced Configurations](/versioned_docs/groupid_11.0/groupid/authenticate/asserviceprovider/adfs/configureadfsingroupid.md#specify-advanced-configurations)
+   [Specify Advanced Configurations](/docs/groupid/11.0/groupid/authenticate/asserviceprovider/adfs/configureadfsingroupid.md#specify-advanced-configurations)
    topic).  
    The AD FS option may be displayed as a button or an image.
 2. Click the AD FS button or image; you will be redirected to the AD FS authentication page with the
    URL you provided as the IDP login URL (see the
-   [Provide IDP Login URL](/versioned_docs/groupid_11.0/groupid/authenticate/asserviceprovider/adfs/configureadfsingroupid.md#provide-idp-login-url)
+   [Provide IDP Login URL](/docs/groupid/11.0/groupid/authenticate/asserviceprovider/adfs/configureadfsingroupid.md#provide-idp-login-url)
    topic).
 3. Sign in as an Active Directory regular user. On signing in, the authentication is routed to AD
    FS, that will validate the user with respect to the specified attribute (i.e., user principal

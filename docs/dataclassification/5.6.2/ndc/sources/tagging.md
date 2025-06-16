@@ -37,8 +37,8 @@ tagging will occur with partial/incorrect configuration settings.
 To learn how to set up tagging for the certain content sources, refer to related sections of these
 chapters:
 
-- [Box](/versioned_docs/dataclassification_5.6.2/ndc/sources/box/manage_box.md)
-- [Database](/versioned_docs/dataclassification_5.6.2/ndc/sources/database/manage_database.md)
-- [File System](/versioned_docs/dataclassification_5.6.2/ndc/sources/file_system/manage_file_system.md)
-- [ Google Drive](/versioned_docs/dataclassification_5.6.2/ndc/sources/google_drive/manage_googledrive.md)
-- [SharePoint](/versioned_docs/dataclassification_5.6.2/ndc/sources/sharepoint/manage_sharepoint.md)
+- [Box](/docs/dataclassification/5.6.2/ndc/sources/box/manage_box.md)
+- [Database](/docs/dataclassification/5.6.2/ndc/sources/database/manage_database.md)
+- [File System](/docs/dataclassification/5.6.2/ndc/sources/file_system/manage_file_system.md)
+- [ Google Drive](/docs/dataclassification/5.6.2/ndc/sources/google_drive/manage_googledrive.md)
+- [SharePoint](/docs/dataclassification/5.6.2/ndc/sources/sharepoint/manage_sharepoint.md)

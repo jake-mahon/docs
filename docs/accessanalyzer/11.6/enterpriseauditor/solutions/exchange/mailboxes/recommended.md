@@ -7,7 +7,7 @@ This job group requires the following items to be enabled:
 - Exchange Access Auditing is enabled in the Exchange environment
 
     - This is required for the Logons Job Group. See the
-      [Enable Exchange Mailbox Access Auditing](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/requirements/solutions/exchange/powershell.md#enable-exchange-mailbox-access-auditing)
+      [Enable Exchange Mailbox Access Auditing](/docs/accessanalyzer/11.6/enterpriseauditor/requirements/solutions/exchange/powershell.md#enable-exchange-mailbox-access-auditing)
       topic for additional information.
 
 The following job groups need to be successfully run:
@@ -50,9 +50,9 @@ A Connection Profile must be set directly on the collection jobs within each sub
 - **Sizing** > **0. Collection** > **EX_MBSize** Job
 
 See the
-[Exchange PowerShell Permissions](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/requirements/solutions/exchange/powershell.md)
+[Exchange PowerShell Permissions](/docs/accessanalyzer/11.6/enterpriseauditor/requirements/solutions/exchange/powershell.md)
 topic for the required permissions. See the
-[Exchange Custom Connection Profile & Host List](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/exchangeps/configurejob.md)
+[Exchange Custom Connection Profile & Host List](/docs/accessanalyzer/11.6/enterpriseauditor/admin/datacollector/exchangeps/configurejob.md)
 topic for additional information.
 
 Schedule Frequency

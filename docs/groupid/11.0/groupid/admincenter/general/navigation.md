@@ -41,7 +41,7 @@ The top right corner of the application displays the following:
 | Icon             | Description                                                                                                                                                                                                                                                                                                                                    |
 | ---------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Help icon        | Click it to launch Admin Center help.                                                                                                                                                                                                                                                                                                          |
-| Manage SAML icon | Click it to launch the Authenticate panel, where you can: - Set up GroupID as a service provider. GroupID can integrate with several single sign-on (SSO) solutions that support the SAML 2.0 standard. - Set up GroupID as an identity provider. See the [Authenticate](/versioned_docs/groupid_11.0/groupid/authenticate/overview.md) topic. |
+| Manage SAML icon | Click it to launch the Authenticate panel, where you can: - Set up GroupID as a service provider. GroupID can integrate with several single sign-on (SSO) solutions that support the SAML 2.0 standard. - Set up GroupID as an identity provider. See the [Authenticate](/docs/groupid/11.0/groupid/authenticate/overview.md) topic. |
 | Profile icon     | Displays your profile picture with your name and the identity store that Admin Center is connected to. Click it to launch a menu that displays the GroupID version and the security role assigned to you in GroupID. The menu also displays options to change your password, access your applications, and sign out of Admin Center.           |
 
 ## Menu Pane
@@ -64,7 +64,7 @@ The menu pane in the left enables you to navigate to different functions in Admi
 
 **See Also**
 
-- [Dashboard](/versioned_docs/groupid_11.0/groupid/admincenter/general/dashboard.md)
-- [Change your Password](/versioned_docs/groupid_11.0/groupid/admincenter/general/changepassword.md)
-- [Switch Accounts](/versioned_docs/groupid_11.0/groupid/admincenter/general/switchaccount.md)
-- [Access your Applications](/versioned_docs/groupid_11.0/groupid/admincenter/general/accessapplications.md)
+- [Dashboard](/docs/groupid/11.0/groupid/admincenter/general/dashboard.md)
+- [Change your Password](/docs/groupid/11.0/groupid/admincenter/general/changepassword.md)
+- [Switch Accounts](/docs/groupid/11.0/groupid/admincenter/general/switchaccount.md)
+- [Access your Applications](/docs/groupid/11.0/groupid/admincenter/general/accessapplications.md)

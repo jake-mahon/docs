@@ -126,14 +126,14 @@ The following authentication types can be assigned to users and groups:
   the Integrations interface in order to be available for user assignment.
 
 See the
-[Authentication Provider Page](/versioned_docs/threatprevention_7.4/threatprevention/reportingmodule/configuration/integrations/authenticationprovider/page.md)
+[Authentication Provider Page](/docs/threatprevention/7.4/threatprevention/reportingmodule/configuration/integrations/authenticationprovider/page.md)
 topic for additional information.
 
 ### Add Console Access
 
 **NOTE:** Verify that an Active Directory Sync has completed to ensure that user and group
 information is updated. See the
-[Active Directory Sync Page](/versioned_docs/threatprevention_7.4/threatprevention/reportingmodule/configuration/integrations/activedirectorysync.md)
+[Active Directory Sync Page](/docs/threatprevention/7.4/threatprevention/reportingmodule/configuration/integrations/activedirectorysync.md)
 for additional information.
 
 Follow the steps to add console access for a user or group.

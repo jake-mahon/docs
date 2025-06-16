@@ -13,14 +13,14 @@ prerequisites and make sure that:
 - [.Net Framework 3.5 SP1](http://www.microsoft.com/en-us/download/details.aspx?id=22) is installed
   on the computer that hosts SharePoint Central Administration in the audited SharePoint farm.
 - The SharePoint Administration (SPAdminV4) service is started on the target computer. See
-  [SharePoint](/versioned_docs/auditor_10.6/auditor/configuration/sharepoint/overview.md) for more
+  [SharePoint](/docs/auditor/10.6/auditor/configuration/sharepoint/overview.md) for more
   information.
 - The user that is going to run the Core Service installation:
     - Is a member of the local Administrators group on SharePoint server, where the Core Service
       will be deployed.
     - Is granted the SharePoint_Shell_Access role on SharePoint SQL Server configuration database.
       See
-      [Permissions for SharePoint Auditing](/versioned_docs/auditor_10.6/auditor/configuration/sharepoint/permissions.md)
+      [Permissions for SharePoint Auditing](/docs/auditor/10.6/auditor/configuration/sharepoint/permissions.md)
       topic for more information.
 
 Follow the steps to install Netwrix Auditor for SharePoint Core Service manually.

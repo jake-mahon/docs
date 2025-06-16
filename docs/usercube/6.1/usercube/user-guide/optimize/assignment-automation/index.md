@@ -13,16 +13,16 @@ decisions, based on several automation levels provided by Usercube:
 
 1. Automation of the creation of the role model, i.e. both roles and navigation rules that represent
    entitlements in the managed systems, through
-   [role naming rules](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/single-roles-catalog-creation/role-naming-rule-creation/index.md)
+   [role naming rules](/docs/usercube/6.1/usercube/user-guide/set-up/single-roles-catalog-creation/role-naming-rule-creation/index.md)
    based on resources' naming conventions in the managed systems.
 2. Automation of entitlement assignment through
-   [assignment rules](/versioned_docs/usercube_6.1/usercube/user-guide/optimize/assignment-automation/automate-role-assignment/index.md),
+   [assignment rules](/docs/usercube/6.1/usercube/user-guide/optimize/assignment-automation/automate-role-assignment/index.md),
    which use identity criteria (called
-   [dimensions](/versioned_docs/usercube_6.1/usercube/integration-guide/role-assignment/conformingassignmentcomputation/index.md#dimensions),
+   [dimensions](/docs/usercube/6.1/usercube/integration-guide/role-assignment/conformingassignmentcomputation/index.md#dimensions),
    like identities' department or work location, etc.) to decide what entitlements to assign
    automatically to identities.
 3. Automation of the creation of said assignment rules through
-   [Role Mining](/versioned_docs/usercube_6.1/usercube/user-guide/optimize/assignment-automation/role-mining/index.md),
+   [Role Mining](/docs/usercube/6.1/usercube/user-guide/optimize/assignment-automation/role-mining/index.md),
    based on existing data analysis.
 
 ![Automation Concept](/img/versioned_docs/usercube_6.1/usercube/user-guide/optimize/assignment-automation/automation_schema.webp)
@@ -34,7 +34,7 @@ approved, and those calculated by a rule and assigned automatically.
 NETWRIX recommends removing redundant assignments after any assignment rule is created or updated.
 
 NETWRIX recommends
-[removing redundant assignments](/versioned_docs/usercube_6.1/usercube/user-guide/optimize/assignment-automation/remove-redundant-assignments/index.md)
+[removing redundant assignments](/docs/usercube/6.1/usercube/user-guide/optimize/assignment-automation/remove-redundant-assignments/index.md)
 after any assignment rule is created or updated.
 
 The main goal of automation is to reach the optimal cost, playing on assignment efficiency, quality
@@ -44,19 +44,19 @@ and quantity.
 
 So far, Usercube's configuration has enabled users to use workflows to add and remove entitlements
 to/from identities. These assignments can be
-[fulfilled](/versioned_docs/usercube_6.1/usercube/user-guide/administrate/provisioning/index.md)
+[fulfilled](/docs/usercube/6.1/usercube/user-guide/administrate/provisioning/index.md)
 manually or automatically, but the decision-making process that defines who gets what entitlement is
 still manual. Manual assignment poses the following risks:
 
 - Delay can happen: on the day a worker joins an organization, they rely on a manual action to get
   all the entitlements required for them to start working. Even with
-  [roles](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/single-roles-catalog-creation/index.md)
+  [roles](/docs/usercube/6.1/usercube/user-guide/set-up/single-roles-catalog-creation/index.md)
   aiming to help managers to understand actual entitlements, delay happens.
 - Errors can happen: human mistakes are expected in role distribution, even though largely mitigated
   by the
-  [role review process](/versioned_docs/usercube_6.1/usercube/user-guide/administrate/non-conforming-assignment-review/role-reconciliation/index.md)
+  [role review process](/docs/usercube/6.1/usercube/user-guide/administrate/non-conforming-assignment-review/role-reconciliation/index.md)
   and
-  [certification campaigns](/versioned_docs/usercube_6.1/usercube/user-guide/administrate/access-certification/index.md).
+  [certification campaigns](/docs/usercube/6.1/usercube/user-guide/administrate/access-certification/index.md).
 - It is time-consuming.
 
 The entitlement management cost mainly varies according to the number of managed entitlements.
@@ -91,7 +91,7 @@ Usercube and assigned manually.
 
 On the other hand, a distinction can be made between assignments according to their sensitivity, for
 example using different error rates, or using
-[simulation](/versioned_docs/usercube_6.1/usercube/user-guide/optimize/simulation/index.md), or
+[simulation](/docs/usercube/6.1/usercube/user-guide/optimize/simulation/index.md), or
 automating the assignment of basic entitlements while suggesting sensitive entitlements, etc.
 
 This way, security can be improved for example by making certification target only the sensitive
@@ -137,13 +137,13 @@ At this point, integrators should have all the elements they need to operate.
 
 | Input                                                                                                                     | Output                       |
 | ------------------------------------------------------------------------------------------------------------------------- | ---------------------------- |
-| [Role catalog](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/single-roles-catalog-creation/index.md) (required) | Ideally automated role model |
+| [Role catalog](/docs/usercube/6.1/usercube/user-guide/set-up/single-roles-catalog-creation/index.md) (required) | Ideally automated role model |
 
 ## Automate Entitlement Assignment
 
 The process of assignment automation is the following:
 
-1. [Perform Role Mining](/versioned_docs/usercube_6.1/usercube/user-guide/optimize/assignment-automation/role-mining/index.md)
+1. [Perform Role Mining](/docs/usercube/6.1/usercube/user-guide/optimize/assignment-automation/role-mining/index.md)
    to approach the automation wall.
 
     Role Mining covers more use cases than writing assignment rules manually. It diminishes the
@@ -169,9 +169,9 @@ The process of assignment automation is the following:
     automation.
 
 2. Generate and analyze
-   [reports](/versioned_docs/usercube_6.1/usercube/user-guide/administrate/reporting/index.md) with
+   [reports](/docs/usercube/6.1/usercube/user-guide/administrate/reporting/index.md) with
    tools like
-   [Power BI](/versioned_docs/usercube_6.1/usercube/user-guide/administrate/reporting/index.md) to
+   [Power BI](/docs/usercube/6.1/usercube/user-guide/administrate/reporting/index.md) to
    assess the automation wall and identify improvement areas.
 
     > For example in the following Power BI chart, automation is, on average, highly implemented
@@ -214,7 +214,7 @@ The process of assignment automation is the following:
     > in this direction to enhance automation.
 
     Moreover, focus must be directed on actual and correct entitlements, using Usercube's
-    [access certification](/versioned_docs/usercube_6.1/usercube/user-guide/administrate/access-certification/index.md).
+    [access certification](/docs/usercube/6.1/usercube/user-guide/administrate/access-certification/index.md).
 
     Data reliability prevents integrators from easy extrapolation mistakes.
 

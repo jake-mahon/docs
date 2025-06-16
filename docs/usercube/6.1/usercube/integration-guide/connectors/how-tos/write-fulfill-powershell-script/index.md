@@ -1,7 +1,7 @@
 # Write a PowerShell Script for Provisioning
 
 This guide shows how to write a PowerShell script used by the
-[PowerShellProv connector](/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/references-connectors/powershellprov/index.md).
+[PowerShellProv connector](/docs/usercube/6.1/usercube/integration-guide/connectors/references-connectors/powershellprov/index.md).
 
 ## Structure of a PowerShell Script
 
@@ -196,7 +196,7 @@ Now that the function has been defined, the main code of the script can be writt
 #### Read the `options` parameter from the standard input
 
 The
-[`options` parameter](/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/references-connectors/powershellprov/index.md)
+[`options` parameter](/docs/usercube/6.1/usercube/integration-guide/connectors/references-connectors/powershellprov/index.md)
 isn't mandatory in the JSON file. If it isn't provided, don't perform this step.
 
 ```

@@ -9,13 +9,13 @@ Special Dependencies
 
 One or more of the following jobs or job groups must be run to produce results:
 
-- [0.Collection > SQL Job Group](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/databases/sql/collection/overview.md)
-- [SQL_PasswordIssues Job](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/databases/sql/usersroles/sql_passwordissues.md)
-- [SQL_RoleMembers Job](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/databases/sql/usersroles/sql_rolemembers.md)
-- [SQL_PublicPermissions Job](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/databases/sql/permissions/sql_publicpermissions.md)
-- [5.Sensitive Data Job Group](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/databases/sql/sensitivedata/overview.md)
-- [Privileged Accounts Job Group](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/windows/privilegedaccounts/overview.md)
-- [Privileged Accounts Job Group](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/windows/privilegedaccounts/overview.md)
+- [0.Collection > SQL Job Group](/docs/accessanalyzer/11.6/enterpriseauditor/solutions/databases/sql/collection/overview.md)
+- [SQL_PasswordIssues Job](/docs/accessanalyzer/11.6/enterpriseauditor/solutions/databases/sql/usersroles/sql_passwordissues.md)
+- [SQL_RoleMembers Job](/docs/accessanalyzer/11.6/enterpriseauditor/solutions/databases/sql/usersroles/sql_rolemembers.md)
+- [SQL_PublicPermissions Job](/docs/accessanalyzer/11.6/enterpriseauditor/solutions/databases/sql/permissions/sql_publicpermissions.md)
+- [5.Sensitive Data Job Group](/docs/accessanalyzer/11.6/enterpriseauditor/solutions/databases/sql/sensitivedata/overview.md)
+- [Privileged Accounts Job Group](/docs/accessanalyzer/11.6/enterpriseauditor/solutions/windows/privilegedaccounts/overview.md)
+- [Privileged Accounts Job Group](/docs/accessanalyzer/11.6/enterpriseauditor/solutions/windows/privilegedaccounts/overview.md)
 
 Only information collected from jobs/groups being run will produce findings.
 

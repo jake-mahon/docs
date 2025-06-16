@@ -11,9 +11,9 @@ an anonymous bruteforce attack to find user names in Active Directory from domai
 using LDAP Ping requests.
 
 When you create a policy with the
-[LDAP Monitoring Event Type](/versioned_docs/threatprevention_7.4/threatprevention/admin/policies/eventtype/ldapmonitoring.md)
+[LDAP Monitoring Event Type](/docs/threatprevention/7.4/threatprevention/admin/policies/eventtype/ldapmonitoring.md)
 or the
-[LDAP Lockdown Event Type](/versioned_docs/threatprevention_7.4/threatprevention/admin/policies/eventtype/ldaplockdown.md),
+[LDAP Lockdown Event Type](/docs/threatprevention/7.4/threatprevention/admin/policies/eventtype/ldaplockdown.md),
 the LDAP filter allows you to enable the LDAP Ping option.
 
 ![LDAP filter for the LDAP Monitoring and LDAP Lockdown event types](/img/versioned_docs/threatprevention_7.4/threatprevention/admin/policies/eventtype/usecase/ldapping.webp)

@@ -7,7 +7,7 @@ This guide shows how to allow a manager to review the permissions prolonged by a
 Consider an entitlement given via a role which is defined with a grace period. Consider that this
 role is assigned automatically to some users by a rule of the role model. If this rule changes and
 the users are supposed to lose the role, then they keep it for the time defined by the
-[grace period](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/provisioning/singlerole/index.md),
+[grace period](/docs/usercube/6.1/usercube/integration-guide/toolkit/xml-configuration/provisioning/singlerole/index.md),
 and the role's workflow state switches from `Automatic` to `Prolonged`. Then a manager must access
 these entitlements in the **Role Review** screen, to either approve or decline the role
 prolongation.

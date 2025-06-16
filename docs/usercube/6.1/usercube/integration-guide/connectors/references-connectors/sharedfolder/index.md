@@ -3,7 +3,7 @@
 This connector exports users and permissions from Windows shared folders.
 
 This page is about
-[Storage/Shared Folders](/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/references-packages/shared-folders/index.md).
+[Storage/Shared Folders](/docs/usercube/6.1/usercube/integration-guide/connectors/references-packages/shared-folders/index.md).
 
 ![Package: Storage/Shared Folders](/img/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/references-connectors/sharedfolder/packages_sharedfolders_v603.webp)
 
@@ -30,7 +30,7 @@ This connector scans shared folders in order to export their content to CSV file
 ### Configuration
 
 This process is configured through a
-[connection](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/connectors/connection/index.md)
+[connection](/docs/usercube/6.1/usercube/integration-guide/toolkit/xml-configuration/connectors/connection/index.md)
 in the UI and/or the XML configuration, and in the `appsettings.agent.json > Connections` section:
 
 ```
@@ -96,7 +96,7 @@ The identifier of the connection and thus the name of the subsection must:
 ### Output details
 
 This connector is meant to generate to the
-[ExportOutput](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/appsettings/index.md)
+[ExportOutput](/docs/usercube/6.1/usercube/integration-guide/network-configuration/agent-configuration/appsettings/index.md)
 folder the following CSV files:
 
 - `<connectionIdentifier>_ACE.csv`, with the following columns:
@@ -132,10 +132,10 @@ This connector does not reset passwords.
 
 Data protection can be ensured through:
 
-- [RSA encryption](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/rsa-encryption/index.md),
+- [RSA encryption](/docs/usercube/6.1/usercube/integration-guide/network-configuration/agent-configuration/rsa-encryption/index.md),
   configured in the `appsettings.encrypted.agent.json` file;
 - an
-  [Azure Key Vault](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/azure-key-vault/index.md)
+  [Azure Key Vault](/docs/usercube/6.1/usercube/integration-guide/network-configuration/agent-configuration/azure-key-vault/index.md)
   safe;
 
 | Attribute         | Naming Convention for the Key in Azure Key Vault |
@@ -150,7 +150,7 @@ Data protection can be ensured through:
 | InputDirectories  | `Connections--<identifier>--InputDirectories`    |
 
 - a
-  [CyberArk Vault](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/cyberark-application-access-manager-credential-providers/index.md)
+  [CyberArk Vault](/docs/usercube/6.1/usercube/integration-guide/network-configuration/agent-configuration/cyberark-application-access-manager-credential-providers/index.md)
   able to store Active Directory's `Login` and `Password`.
 
 Protected attributes are stored inside a safe in CyberArk, into an account whose identifier can be

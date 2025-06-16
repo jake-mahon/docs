@@ -7,12 +7,12 @@ your Box environment, highlighting conditions such as most active or stale folde
 
 The Usage Statistics Job Group is comprised of:
 
-- [Box_Folders_MostActive Job](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/box/activity/usagestatistics/box_folders_mostactive.md)
+- [Box_Folders_MostActive Job](/docs/accessanalyzer/11.6/enterpriseauditor/solutions/box/activity/usagestatistics/box_folders_mostactive.md)
   – Identifies long-term trends of activity and usage statistics across your Box environment,
   highlighting conditions such as most active or stale folders
-- [Box_Folders_Stale Job](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/box/activity/usagestatistics/box_folders_stale.md)
+- [Box_Folders_Stale Job](/docs/accessanalyzer/11.6/enterpriseauditor/solutions/box/activity/usagestatistics/box_folders_stale.md)
   – Identifies long-term trends of activity and usage statistics across your Box environment,
   highlighting conditions such as most active or stale folders
-- [Box_Users_MostActive Job](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/box/activity/usagestatistics/box_users_mostactive.md)
+- [Box_Users_MostActive Job](/docs/accessanalyzer/11.6/enterpriseauditor/solutions/box/activity/usagestatistics/box_users_mostactive.md)
   – Identifies long-term trends of activity and usage statistics across your Box environment,
   highlighting conditions such as most active or stale folders

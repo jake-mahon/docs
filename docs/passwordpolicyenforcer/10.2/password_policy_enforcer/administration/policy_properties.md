@@ -20,7 +20,7 @@ disabled.
 
 **NOTE:** A user's password history may be updated even when the policy assigned to the user is
 disabled. See the
-[Rules](/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/administration/rules.md)
+[Rules](/docs/passwordpolicyenforcer/10.2/password_policy_enforcer/administration/rules.md)
 topic for additional information.
 
 The **Default character set** drop-down list specifies which character set Password Policy
@@ -54,7 +54,7 @@ level for this policy. The default value (all the rules) requires users to compl
 rules. Choose an alternative option if Password Policy Enforcer should enforce a more lenient
 password policy. The Minimum Age and Maximum Age rules are excluded from compliance level
 calculations. See the
-[Rules](/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/administration/rules.md)
+[Rules](/docs/passwordpolicyenforcer/10.2/password_policy_enforcer/administration/rules.md)
 topic for additional information.
 
 When setting the compliance level, consider that some rules may be disabled when a user enters a

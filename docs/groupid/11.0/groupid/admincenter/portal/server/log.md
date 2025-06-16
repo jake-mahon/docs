@@ -122,5 +122,5 @@ What do you want to do?
 
 **See Also**
 
-- [Server Settings](/versioned_docs/groupid_11.0/groupid/admincenter/portal/server/overview.md)
-- [Get Logs](/versioned_docs/groupid_11.0/groupid/admincenter/general/logs.md)
+- [Server Settings](/docs/groupid/11.0/groupid/admincenter/portal/server/overview.md)
+- [Get Logs](/docs/groupid/11.0/groupid/admincenter/general/logs.md)

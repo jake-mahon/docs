@@ -18,15 +18,15 @@ The Host Investigation dashboard contains the following cards:
   host (as destination) over the specified time interval
 - Activity – Timeline of all events associated with the host over the specified time interval. See
   the
-  [Graph Card Features](/versioned_docs/threatprevention_7.4/threatprevention/siemdashboard/qradar/navigate.md#graph-card-features)
+  [Graph Card Features](/docs/threatprevention/7.4/threatprevention/siemdashboard/qradar/navigate.md#graph-card-features)
   topic for additional information.
 - Latest Events – Tabular format of all events associated with the host that occurred over the
   specified time interval. See the
-  [Table Card Features](/versioned_docs/threatprevention_7.4/threatprevention/siemdashboard/qradar/navigate.md#table-card-features)
+  [Table Card Features](/docs/threatprevention/7.4/threatprevention/siemdashboard/qradar/navigate.md#table-card-features)
   topic for additional information.
 - Offenses Related to Host – QRadar offenses associated with the host that occurred over the
   specified time interval. See the
-  [Table Card Features](/versioned_docs/threatprevention_7.4/threatprevention/siemdashboard/qradar/navigate.md#table-card-features)
+  [Table Card Features](/docs/threatprevention/7.4/threatprevention/siemdashboard/qradar/navigate.md#table-card-features)
   topic for additional information.
 
 The time interval is identified in the upper-right corner with the _Start_ and _End_ boxes. This is

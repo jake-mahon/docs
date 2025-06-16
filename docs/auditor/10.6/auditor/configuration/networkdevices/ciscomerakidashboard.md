@@ -2,7 +2,7 @@
 
 Before creating a monitoring plan to audit your Cisco Meraki devices, plan for the account that will
 be used for data collection. See the
-[Data Collecting Account](/versioned_docs/auditor_10.6/auditor/admin/monitoringplans/dataaccounts.md)
+[Data Collecting Account](/docs/auditor/10.6/auditor/admin/monitoringplans/dataaccounts.md)
 topic for additional information. You will provide this account in the monitoring plan wizard.
 
 Changes that are collected with the basic authorization:

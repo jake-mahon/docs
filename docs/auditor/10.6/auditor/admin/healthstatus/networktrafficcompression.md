@@ -34,5 +34,5 @@ Network traffic compression is available for the following data sources:
 - User Activity
 
 To learn how to enable this feature, refer to the
-[Create a New Monitoring Plan](/versioned_docs/auditor_10.6/auditor/admin/monitoringplans/create.md)
+[Create a New Monitoring Plan](/docs/auditor/10.6/auditor/admin/monitoringplans/create.md)
 topic for additional information.

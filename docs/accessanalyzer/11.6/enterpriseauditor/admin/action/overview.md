@@ -8,7 +8,7 @@ described in detail in the relevant topics.
 The Enterprise Auditor actions are capable of changing users, permissions, files, and objects from a
 variety of environments. Action modules are assigned to a job at the **Configure** > **Actions**
 node. See the
-[Actions Node](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/jobs/job/configure/actions.md)
+[Actions Node](/docs/accessanalyzer/11.6/enterpriseauditor/admin/jobs/job/configure/actions.md)
 topic for additional information on the Action Selection view.
 
 ![Action Selection page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/action/actionselection.webp)
@@ -17,7 +17,7 @@ Configure the action through the Action Properties page. Navigate to the job’s
 **Actions** node. Select **Create Action** to add a new action task to a job. Select an existing
 action and click **Action Properties** to modify its configuration. The Action Properties page opens
 for either option. Pre-configured action tasks can be added from the Action Library. See the
-[Action Libraries](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/action/libraries.md)
+[Action Libraries](/docs/accessanalyzer/11.6/enterpriseauditor/admin/action/libraries.md)
 topic for additional information.
 
 Most action modules are available with a special Enterprise Auditor License. The following table
@@ -25,17 +25,17 @@ provides brief descriptions of the action modules available in Enterprise Audito
 
 | Action Module    | Description                                                                                                                                                                                                                                                                       |
 | ---------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Active Directory | Make changes to Active Directory such as deleting objects, creating users, and changing group membership. See the [Active Directory Action Module](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/action/activedirectory/overview.md) for additional information. |
-| File System      | Change attributes and permissions, as well as copy, delete, move, and rename file system contents. See the [File System Action Module](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/action/filesystem/overview.md) for additional information.                  |
-| Mailbox          | Add/change permissions, remove permissions, add/remove delegates, remove zombie SIDS, and delete mailbox content. See the [Mailbox Action Module](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/action/mailbox/overview.md) for additional information.          |
-| PowerShell       | Run PowerShell scripts on the local machine or on remote hosts. See the [PowerShell Action Module](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/action/powershell/overview.md) for additional information.                                                      |
-| PublicFolder     | Make changes to Exchange Public Folders. See the [PublicFolder Action Module](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/action/publicfolder/overview.md) for additional information.                                                                         |
-| Registry         | Make changes to the system registry. See the [Registry Action Module](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/action/registry/overview.md) for additional information.                                                                                     |
-| SendMail         | Communicate with target audiences to supply users with dynamic content from selected audit data. See the [SendMail Action Module](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/action/sendmail/overview.md) for additional information.                         |
-| ServiceNow       | Creates incidents in ServiceNow. See the [ServiceNow Action Module](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/action/servicenow/overview.md) for additional information.                                                                                     |
+| Active Directory | Make changes to Active Directory such as deleting objects, creating users, and changing group membership. See the [Active Directory Action Module](/docs/accessanalyzer/11.6/enterpriseauditor/admin/action/activedirectory/overview.md) for additional information. |
+| File System      | Change attributes and permissions, as well as copy, delete, move, and rename file system contents. See the [File System Action Module](/docs/accessanalyzer/11.6/enterpriseauditor/admin/action/filesystem/overview.md) for additional information.                  |
+| Mailbox          | Add/change permissions, remove permissions, add/remove delegates, remove zombie SIDS, and delete mailbox content. See the [Mailbox Action Module](/docs/accessanalyzer/11.6/enterpriseauditor/admin/action/mailbox/overview.md) for additional information.          |
+| PowerShell       | Run PowerShell scripts on the local machine or on remote hosts. See the [PowerShell Action Module](/docs/accessanalyzer/11.6/enterpriseauditor/admin/action/powershell/overview.md) for additional information.                                                      |
+| PublicFolder     | Make changes to Exchange Public Folders. See the [PublicFolder Action Module](/docs/accessanalyzer/11.6/enterpriseauditor/admin/action/publicfolder/overview.md) for additional information.                                                                         |
+| Registry         | Make changes to the system registry. See the [Registry Action Module](/docs/accessanalyzer/11.6/enterpriseauditor/admin/action/registry/overview.md) for additional information.                                                                                     |
+| SendMail         | Communicate with target audiences to supply users with dynamic content from selected audit data. See the [SendMail Action Module](/docs/accessanalyzer/11.6/enterpriseauditor/admin/action/sendmail/overview.md) for additional information.                         |
+| ServiceNow       | Creates incidents in ServiceNow. See the [ServiceNow Action Module](/docs/accessanalyzer/11.6/enterpriseauditor/admin/action/servicenow/overview.md) for additional information.                                                                                     |
 | SharePoint       | Add/remove trustees from sites, lists, or libraries in SharePoint on-premise, apply sensitivity labels, and move files.                                                                                                                                                           |
-| Survey           | Solicit feedback from users to expedite and aid in the decision making process. See the [Survey Action Module](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/action/survey/overview.md) for additional information.                                              |
-| Web Request      | Sends data to Threat Manager. See the [WebRequest Action Module](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/action/webrequest/overview.md) for additional information.                                                                                        |
+| Survey           | Solicit feedback from users to expedite and aid in the decision making process. See the [Survey Action Module](/docs/accessanalyzer/11.6/enterpriseauditor/admin/action/survey/overview.md) for additional information.                                              |
+| Web Request      | Sends data to Threat Manager. See the [WebRequest Action Module](/docs/accessanalyzer/11.6/enterpriseauditor/admin/action/webrequest/overview.md) for additional information.                                                                                        |
 
 ## Basic Procedure
 
@@ -100,7 +100,7 @@ created action tasks.
 - Data Grid – Displays a sample of the selected Source table. This data grid functions the same as
   all data grids within Enterprise Auditor. Data can be filtered, and columns can be regrouped. See
   the
-  [Data Grid Functionality](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/navigate/datagrid.md)
+  [Data Grid Functionality](/docs/accessanalyzer/11.6/enterpriseauditor/admin/navigate/datagrid.md)
   topic for additional information.
 
 ### Source Table Configuration

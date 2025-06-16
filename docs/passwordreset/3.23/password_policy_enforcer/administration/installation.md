@@ -3,7 +3,7 @@
 Netwrix Password Policy Enforcer V9.12 is compatible with Windows 2008, 2012, 2016, and 2019
 servers. It can also be installed on Windows Vista, 7, 8, and 10 workstations to enforce local
 polices. See the
-[Domain and Local Policies](/versioned_docs/passwordreset_3.23/password_policy_enforcer/administration/domain_and_local_policies.md)
+[Domain and Local Policies](/docs/passwordreset/3.23/password_policy_enforcer/administration/domain_and_local_policies.md)
 topic for additional information. If you need to install Password Policy Enforcer on Windows 2003
 domain controllers, then install V8.03 instead of V9.12. Password Policy Enforcer V8.03 is available
 from the [Netwrix website](https://www.netwrix.com/password_policy_enforcer.html).
@@ -28,10 +28,10 @@ policy for local user accounts.
 If your domain contains some read-only domain controllers, then installation of Password Policy
 Enforcer on these servers is only necessary if you are using the following features:
 
-- [Maximum Age Rule](/versioned_docs/passwordreset_3.23/password_policy_enforcer/administration/rules.md#maximum-age-rule)
-- [Password Policy Client](/versioned_docs/passwordreset_3.23/password_policy_enforcer/administration/password_policy_client.md)
+- [Maximum Age Rule](/docs/passwordreset/3.23/password_policy_enforcer/administration/rules.md#maximum-age-rule)
+- [Password Policy Client](/docs/passwordreset/3.23/password_policy_enforcer/administration/password_policy_client.md)
 - [Netwrix Password Reset](https://helpcenter.netwrix.com/category/passwordreset)
-- [](/versioned_docs/passwordreset_3.23/password_policy_enforcer/evaluation/password_reset.md)[Web](/versioned_docs/passwordreset_3.23/password_policy_enforcer/web/web_overview.md)
+- [](/docs/passwordreset/3.23/password_policy_enforcer/evaluation/password_reset.md)[Web](/docs/passwordreset/3.23/password_policy_enforcer/web/web_overview.md)
 
 You can install Password Policy Enforcer manually if you only need to install it on a few computers.
 See the [Manual Installation (Express Setup)](#manual-installation-express-setup) topic for
@@ -73,7 +73,7 @@ installation is recommended when you need to install Password Policy Enforcer on
 This section shows you how to install Password Policy Enforcer on domain controllers to enforce
 domain policies, but you can also use Group Policy to target member servers and workstations if you
 need to enforce local policies. See the
-[Domain and Local Policies](/versioned_docs/passwordreset_3.23/password_policy_enforcer/administration/domain_and_local_policies.md)
+[Domain and Local Policies](/docs/passwordreset/3.23/password_policy_enforcer/administration/domain_and_local_policies.md)
 topic for additional information.
 
 #### Create a Distribution Point
@@ -160,7 +160,7 @@ complexity. If you enable the Password Policy Enforcer rules and the Windows rul
 have to comply with both sets of rules.
 
 Password Policy Enforcer has its own history, minimum and maximum age, length, and complexity rules.
-See the [Rules](/versioned_docs/passwordreset_3.23/password_policy_enforcer/administration/rules.md)
+See the [Rules](/docs/passwordreset/3.23/password_policy_enforcer/administration/rules.md)
 topic for additional information. You can use the Password Policy Enforcer and Windows rules
 together. A password is only accepted if it complies with the Windows and Password Policy Enforcer
 password policies.
@@ -216,7 +216,7 @@ additional information.
 
 The Password Policy Client installer detects existing V9.x installations and upgrades them to V9.12.
 See the
-[Installing the PPC](/versioned_docs/passwordreset_3.23/password_policy_enforcer/administration/password_policy_client.md#installing-the-ppc)
+[Installing the PPC](/docs/passwordreset/3.23/password_policy_enforcer/administration/password_policy_client.md#installing-the-ppc)
 topic for additional information. If you are distributing the PPC with Group Policy, then add
 PPEClt912.msi to the same Group Policy Object used to install the older version. Upgrade and reboot
 the Password Policy Servers before upgrading the clients.
@@ -225,7 +225,7 @@ the Password Policy Servers before upgrading the clients.
 
 The Password Policy Enforcer installer detects existing V9.x installations of the Password Policy
 Enforcer Mailer and upgrades them to V9.12. See the
-[Installing the Mailer](/versioned_docs/passwordreset_3.23/password_policy_enforcer/administration/mailer.md#installing-the-mailer)
+[Installing the Mailer](/docs/passwordreset/3.23/password_policy_enforcer/administration/mailer.md#installing-the-mailer)
 topic for additional information.
 
 ## Upgrading from v8.x
@@ -234,7 +234,7 @@ The Password Policy Enforcer V9.12 Password Policy Server is backwards compatibl
 Password Policy Client. You can benefit from most of the new features by upgrading the Password
 Policy Server on the domain controllers. Do this before deploying the V9.12 Password Policy Client.
 See the
-[What's New](/versioned_docs/passwordreset_3.23/password_policy_enforcer/administration/what_s_new.md)
+[What's New](/docs/passwordreset/3.23/password_policy_enforcer/administration/what_s_new.md)
 topic for additional information.
 
 ### Upgrading the Password Policy Server
@@ -255,7 +255,7 @@ The management console imports valid subscription license keys, but it will not 
 perpetual license keys as they cannot be used with Password Policy Enforcer V9.12. Password Policy
 Enforcer will revert to a 30-day evaluation license if it cannot import the license key. Open the
 PPS Properties page page after an upgrade to check your license details. See the
-[Configuration](/versioned_docs/passwordreset_3.23/password_policy_enforcer/administration/configuration.md)
+[Configuration](/docs/passwordreset/3.23/password_policy_enforcer/administration/configuration.md)
 topic for additional information.
 
 You can run a combination of V8.x and V9.x Password Policy Servers, but extended use of both
@@ -270,7 +270,7 @@ the password policy.
 
 Older versions of the Password Policy Enforcer Client (prior to V6.0) cannot detect passphrases.
 Users must comply with the policy's compliance level when these older clients are installed. See the
-[Managing Policies](/versioned_docs/passwordreset_3.23/password_policy_enforcer/administration/managing_policies.md)
+[Managing Policies](/docs/passwordreset/3.23/password_policy_enforcer/administration/managing_policies.md)
 topic for additional information.
 
 Password Policy Enforcer V9.x accepts passphrases that comply with all enabled rules, irrespective
@@ -281,13 +281,13 @@ continue to use the old compliance level calculation until they are upgraded to 
 consideration when setting the compliance level while Password Policy Enforcer V6.x clients are
 still in use. This includes Netwrix Password Reset v2.x and PPE/Web v6.x. See the
 [Netwrix Password Reset](https://helpcenter.netwrix.com/category/passwordreset) and
-[Web](/versioned_docs/passwordreset_3.23/password_policy_enforcer/web/web_overview.md) topics for
+[Web](/docs/passwordreset/3.23/password_policy_enforcer/web/web_overview.md) topics for
 additional information.
 
 Password Policy Enforcer V9.x allows the use of longer rule insert in PPC messages. Older versions
 of the Password Policy Enforcer Client (prior to V7.0), including PPE/Web V6.x and Netwrix Password
 Reset V2.x may truncate messages with long inserts. See the
-[Password Policy Client](/versioned_docs/passwordreset_3.23/password_policy_enforcer/administration/password_policy_client.md)
+[Password Policy Client](/docs/passwordreset/3.23/password_policy_enforcer/administration/password_policy_client.md)
 topic for additional information.
 
 PPE/Web V3.x and Netwrix Password Reset V1.x use the Password Policy Enforcer V3.x communication
@@ -296,7 +296,7 @@ protocol. These clients are not compatible with the V9.x server.
 **CAUTION:** Do not use the automatic tolerance option with Password Policy Enforcer V4.x clients.
 These clients will enforce an extremely restrictive password policy if this option is enabled. They
 will reject any password that contains a character found in the comparison parameter. See the
-[Rules](/versioned_docs/passwordreset_3.23/password_policy_enforcer/administration/rules.md) topic
+[Rules](/docs/passwordreset/3.23/password_policy_enforcer/administration/rules.md) topic
 for additional information.
 
 ### Upgrading the Password Policy Client
@@ -310,7 +310,7 @@ upgrading the clients.
 
 The Password Policy Enforcer installer detects existing V8.x installations of the Password Policy
 Enforcer Mailer and upgrades them to V9.12. See the
-[Installing the Mailer](/versioned_docs/passwordreset_3.23/password_policy_enforcer/administration/mailer.md#installing-the-mailer)
+[Installing the Mailer](/docs/passwordreset/3.23/password_policy_enforcer/administration/mailer.md#installing-the-mailer)
 topic for additional information.
 
 ## Upgrading from v7.x
@@ -319,7 +319,7 @@ The Password Policy Enforcer V9.12 Password Policy Server is backwards compatibl
 Password Policy Client. You can benefit from most of the new features by upgrading the Password
 Policy Server on the domain controllers. Do this before deploying the V9.12 Password Policy Client.
 See the
-[What's New](/versioned_docs/passwordreset_3.23/password_policy_enforcer/administration/what_s_new.md)
+[What's New](/docs/passwordreset/3.23/password_policy_enforcer/administration/what_s_new.md)
 topic for additional information.
 
 ### Upgrading the Password Policy Server
@@ -330,7 +330,7 @@ The Password Policy Enforcer V9.12 Password Policy Server is backwards compatibl
 Password Policy Client. You can benefit from most of the new features by upgrading the Password
 Policy Server on the domain controllers. Do this before deploying the V9.12 Password Policy Client.
 See the
-[What's New](/versioned_docs/passwordreset_3.23/password_policy_enforcer/administration/what_s_new.md)
+[What's New](/docs/passwordreset/3.23/password_policy_enforcer/administration/what_s_new.md)
 topic for additional information.
 
 ### Upgrading the Password Policy Server
@@ -351,7 +351,7 @@ The management console imports valid subscription license keys, but it will not 
 perpetual license keys as they cannot be used with Password Policy Enforcer V9.12. Password Policy
 Enforcer will revert to a 30-day evaluation license if it cannot import the license key. Open the
 PPS Properties page after an upgrade to check your license details. See the
-[Configuration](/versioned_docs/passwordreset_3.23/password_policy_enforcer/administration/configuration.md)
+[Configuration](/docs/passwordreset/3.23/password_policy_enforcer/administration/configuration.md)
 topic for additional information.
 
 You can run a combination of V6.x and V9.x Password Policy Servers, but extended use of both
@@ -360,7 +360,7 @@ short time while you roll out Password Policy Enforcer V9.x. If you are using Pa
 Enforcer's Maximum Age rule and would like to enable the new extended maximum age feature for long
 passwords, then you must first upgrade the domain controller holding the PDC emulator operations
 master role to Password Policy Enforcer V9.x. See the
-[Rules](/versioned_docs/passwordreset_3.23/password_policy_enforcer/administration/rules.md) topic
+[Rules](/docs/passwordreset/3.23/password_policy_enforcer/administration/rules.md) topic
 for additional information.
 
 **NOTE:** Any configuration changes made from the V9.12 management console will only affect V9.x
@@ -372,7 +372,7 @@ the password policy.
 The **Do not check admin/helpdesk password resets** property in the PPS Properties page was renamed
 to **Enforce policy when password is reset**. The check box value changes after upgrading, but
 Password Policy Enforcer enforces the same policy. See the
-[Configuration](/versioned_docs/passwordreset_3.23/password_policy_enforcer/administration/configuration.md)
+[Configuration](/docs/passwordreset/3.23/password_policy_enforcer/administration/configuration.md)
 topic for additional information.
 
 Password Policy Enforcer V6.x included two dictionary files. DICT.TXT, and an optimized version
@@ -381,14 +381,14 @@ DICT_O.TXT offered better performance due to its smaller file size. The performa
 insignificant on modern servers, so Password Policy Enforcer V9.x includes only DICT.TXT. If you are
 using DICT_O.TXT with the Dictionary rules, then you should reconfigure it to use DICT.TXT after
 upgrading. See the
-[Rules](/versioned_docs/passwordreset_3.23/password_policy_enforcer/administration/rules.md) topic
+[Rules](/docs/passwordreset/3.23/password_policy_enforcer/administration/rules.md) topic
 for additional information.
 
 Older versions of the Password Policy Enforcer Client (prior to V6.0) cannot detect passphrases.
 Users must comply with the policy's compliance level when these older clients are installed. PE V9.x
 accepts passphrases that comply with all enabled rules, irrespective of the compliance level. See
 the
-[Managing Policies](/versioned_docs/passwordreset_3.23/password_policy_enforcer/administration/managing_policies.md)
+[Managing Policies](/docs/passwordreset/3.23/password_policy_enforcer/administration/managing_policies.md)
 topic for additional information. Password Policy Enforcer V6.x did not do this, so it was possible
 to configure Password Policy Enforcer in a way that would reject all passphrases because they could
 not meet the compliance level after some rules were disabled. Password Policy Enforcer V6.x clients
@@ -396,11 +396,11 @@ will continue to use the old compliance level calculation until they are upgrade
 into consideration when setting the compliance level while Password Policy Enforcer V6.x clients are
 still in use. This includes Netwrix Password Reset v2.x and PPE/Web v6.x. See the
 [Netwrix Password Reset](https://helpcenter.netwrix.com/category/passwordreset) and
-[Web](/versioned_docs/passwordreset_3.23/password_policy_enforcer/web/web_overview.md) topics for
+[Web](/docs/passwordreset/3.23/password_policy_enforcer/web/web_overview.md) topics for
 additional information.
 
 Password Policy Enforcer V9.x allows the use of longer rule inserts in PPC messages. See the
-[Rules](/versioned_docs/passwordreset_3.23/password_policy_enforcer/administration/rules.md) topic
+[Rules](/docs/passwordreset/3.23/password_policy_enforcer/administration/rules.md) topic
 for additional information. Older versions of the Password Policy Enforcer Client (prior to V7.0),
 including PPE/Web V6.x and Netwrix Password Reset V2.x may truncate messages with long inserts.
 
@@ -410,13 +410,13 @@ protocol. These clients are not compatible with the V9.x server.
 **CAUTION:** Do not use the automatic tolerance option with Password Policy Enforcer V4.x clients.
 These clients will enforce an extremely restrictive password policy if this option is enabled. They
 will reject any password that contains a character found in the comparison parameter. See the
-[Rules](/versioned_docs/passwordreset_3.23/password_policy_enforcer/administration/rules.md) topic
+[Rules](/docs/passwordreset/3.23/password_policy_enforcer/administration/rules.md) topic
 for additional information.
 
 The Password Policy Enforcer Client for Windows 8, 10, Server 2012, Server 2016, and Server 2019
 displays messages in a smaller area than previous versions of Windows. Some of the default message
 components were shortened to fit the available space. See the
-[Password Policy Client](/versioned_docs/passwordreset_3.23/password_policy_enforcer/administration/password_policy_client.md)
+[Password Policy Client](/docs/passwordreset/3.23/password_policy_enforcer/administration/password_policy_client.md)
 topic for additional information. Your existing templates and macros will not change, but some of
 the default inserts may be different to the ones your users are familiar with. Any new policies you
 create after upgrading to Password Policy Enforcer V9.x will use the new templates and macros.
@@ -424,16 +424,16 @@ create after upgrading to Password Policy Enforcer V9.x will use the new templat
 If you would like to use the new templates and macros for your existing policies, create a new
 policy and copy the templates from the new policy to your existing policies. Templates are in the
 tab of the Policy Properties page. See
-[Password Policy Client](/versioned_docs/passwordreset_3.23/password_policy_enforcer/administration/password_policy_client.md)
+[Password Policy Client](/docs/passwordreset/3.23/password_policy_enforcer/administration/password_policy_client.md)
 and
-[Managing Policies](/versioned_docs/passwordreset_3.23/password_policy_enforcer/administration/managing_policies.md)
+[Managing Policies](/docs/passwordreset/3.23/password_policy_enforcer/administration/managing_policies.md)
 topics for additional information.
 
 ### Upgrading the Password Policy Client
 
 The Password Policy Client installer detects existing V6.x installations and upgrades them to V9.12.
 See the
-[Installing the PPC](/versioned_docs/passwordreset_3.23/password_policy_enforcer/administration/password_policy_client.md#installing-the-ppc)
+[Installing the PPC](/docs/passwordreset/3.23/password_policy_enforcer/administration/password_policy_client.md#installing-the-ppc)
 topic for additional information. If you are distributing the PPC with Group Policy, then add
 PPEClt912.msi to the same Group Policy Object used to install the older version. Upgrade and reboot
 the Password Policy Servers before upgrading the clients.
@@ -442,7 +442,7 @@ the Password Policy Servers before upgrading the clients.
 
 The Password Policy Enforcer installer detects existing V6.x installations of the Password Policy
 Enforcer Mailer and upgrades them to V9.12. See the
-[Installing the Mailer](/versioned_docs/passwordreset_3.23/password_policy_enforcer/administration/mailer.md#installing-the-mailer)
+[Installing the Mailer](/docs/passwordreset/3.23/password_policy_enforcer/administration/mailer.md#installing-the-mailer)
 topic for additional information.
 
 ## Upgrading from v5.x
@@ -451,7 +451,7 @@ The Password Policy Enforcer V9.12 Password Policy Server is backwards compatibl
 Password Policy Client. You can benefit from most of the new features by upgrading the Password
 Policy Server on the domain controllers. Do this before deploying the V9.12 Password Policy Client.
 See the
-[What's New](/versioned_docs/passwordreset_3.23/password_policy_enforcer/administration/what_s_new.md)
+[What's New](/docs/passwordreset/3.23/password_policy_enforcer/administration/what_s_new.md)
 topic for additional information.
 
 ### Upgrading the Password Policy Server
@@ -472,7 +472,7 @@ The management console imports valid subscription license keys, but it will not 
 perpetual license keys as they cannot be used with Password Policy Enforcer V9.12. Password Policy
 Enforcer will revert to a 30-day evaluation license if it cannot import the license key. Open the
 PPS Properties page after an upgrade to check your license details. See the
-[Configuration](/versioned_docs/passwordreset_3.23/password_policy_enforcer/administration/configuration.md)
+[Configuration](/docs/passwordreset/3.23/password_policy_enforcer/administration/configuration.md)
 topic for additional information.
 
 You can run a combination of V5.x and V9.x Password Policy Servers, but extended use of both
@@ -485,15 +485,15 @@ master role to Password Policy Enforcer V9.x.
 **NOTE:** The Maximum Age rule in Password Policy Enforcer V5.x granted users one grace logon after
 their password expired. Password Policy Enforcer V9.x does not allow grace logons, but some grace
 logons may occur until all domain controllers are upgraded. See the
-[Rules](/versioned_docs/passwordreset_3.23/password_policy_enforcer/administration/rules.md) topic
+[Rules](/docs/passwordreset/3.23/password_policy_enforcer/administration/rules.md) topic
 for additional information.
 
 If you have deployed the Password Policy Client and will be using the passphases feature, then
 update your existing Password Policy message templates to let users know that they may not have to
 comply with all the rules. See the
-[Managing Policies](/versioned_docs/passwordreset_3.23/password_policy_enforcer/administration/managing_policies.md)
+[Managing Policies](/docs/passwordreset/3.23/password_policy_enforcer/administration/managing_policies.md)
 and
-[Configuration](/versioned_docs/passwordreset_3.23/password_policy_enforcer/administration/configuration.md)
+[Configuration](/docs/passwordreset/3.23/password_policy_enforcer/administration/configuration.md)
 topics for additional information. You can use the new [PASSPHRASE_NOTICE] macro instead of
 hard-coding the message text into the template. Password Policy Enforcer replaces the macro with
 this text "You may not have to comply with all these rules if your password contains [n] or more
@@ -508,7 +508,7 @@ the password policy.
 The **Do not check admin/helpdesk password resets** property in the PPS Properties page was renamed
 to **Enforce policy when password is reset**. The check box value changes after upgrading, but
 Password Policy Enforcer enforces the same policy. See the
-[Configuration](/versioned_docs/passwordreset_3.23/password_policy_enforcer/administration/configuration.md)
+[Configuration](/docs/passwordreset/3.23/password_policy_enforcer/administration/configuration.md)
 topic for additional information.
 
 Password Policy Enforcer V5.x included two dictionary files. DICT.TXT, and an optimized version
@@ -517,18 +517,18 @@ DICT_O.TXT offered better performance due to its smaller file size. The performa
 insignificant on modern servers, so Password Policy Enforcer V9.x includes only DICT.TXT. If you are
 using DICT_O.TXT with the Dictionary rule, then you should reconfigure it to use DICT.TXT after
 upgrading. See the
-[Rules](/versioned_docs/passwordreset_3.23/password_policy_enforcer/administration/rules.md) topic
+[Rules](/docs/passwordreset/3.23/password_policy_enforcer/administration/rules.md) topic
 for additional information.
 
 Older versions of the Password Policy Enforcer Client (prior to V6.0) cannot detect passphrases.
 Users must comply with the policy's compliance when these older clients are installed. See the
-[Managing Policies](/versioned_docs/passwordreset_3.23/password_policy_enforcer/administration/managing_policies.md)
+[Managing Policies](/docs/passwordreset/3.23/password_policy_enforcer/administration/managing_policies.md)
 topic for additional information.
 
 Password Policy Enforcer V9.x allows the use of longer rule inserts in PPC messages. Older versions
 of the Password Policy Enforcer Client (prior to V7.0), including PPE/Web V6.x and Netwrix Password
 Reset V2.x may truncate messages with long inserts. See the
-[Password Policy Client](/versioned_docs/passwordreset_3.23/password_policy_enforcer/administration/password_policy_client.md)
+[Password Policy Client](/docs/passwordreset/3.23/password_policy_enforcer/administration/password_policy_client.md)
 topic for additional information.
 
 PPE/Web V3.x and Netwrix Password Reset V1.x use the Password Policy Enforcer V3.x communication
@@ -537,7 +537,7 @@ protocol. These clients are not compatible with the V9.x server.
 **CAUTION:** Do not use the automatic tolerance option with Password Policy Enforcer V4.x clients.
 These clients will enforce an extremely restrictive password policy if this option is enabled. They
 will reject any password that contains a character found in the comparison parameter. See the
-[Rules](/versioned_docs/passwordreset_3.23/password_policy_enforcer/administration/rules.md) topic
+[Rules](/docs/passwordreset/3.23/password_policy_enforcer/administration/rules.md) topic
 for additional information.
 
 The Password Policy Enforcer Client for Windows 8, 10, Server 2012, Server 2016, and Server 2019
@@ -546,22 +546,22 @@ components were shortened to fit the available space. Your existing templates an
 change, but some of the default inserts may be different to the ones your users are familiar with.
 Any new policies you create after upgrading to Password Policy Enforcer V9.x will use the new
 templates and macros. See
-[Password Policy Client](/versioned_docs/passwordreset_3.23/password_policy_enforcer/administration/password_policy_client.md)
+[Password Policy Client](/docs/passwordreset/3.23/password_policy_enforcer/administration/password_policy_client.md)
 topic for additional information.
 
 If you would like to use the new templates and macros for your existing policies, create a new
 policy and copy the templates from the new policy to your existing policies. Templates are in the
 Messages tab of the Policy Properties page. See
-[Password Policy Client](/versioned_docs/passwordreset_3.23/password_policy_enforcer/administration/password_policy_client.md)
+[Password Policy Client](/docs/passwordreset/3.23/password_policy_enforcer/administration/password_policy_client.md)
 and the
-[Managing Policies](/versioned_docs/passwordreset_3.23/password_policy_enforcer/administration/managing_policies.md)
+[Managing Policies](/docs/passwordreset/3.23/password_policy_enforcer/administration/managing_policies.md)
 topics for additional information.
 
 ### Upgrading the Password Policy Client
 
 The Password Policy Client installer detects existing V5.x installations and upgrades them to V9.12.
 See the
-[Installing the PPC](/versioned_docs/passwordreset_3.23/password_policy_enforcer/administration/password_policy_client.md#installing-the-ppc)
+[Installing the PPC](/docs/passwordreset/3.23/password_policy_enforcer/administration/password_policy_client.md#installing-the-ppc)
 topic for additional information. If you are distributing the PPC with Group Policy, then add
 PPEClt912.msi to the same Group Policy Object used to install the older version. Upgrade and reboot
 the Password Policy Servers before upgrading the clients.
@@ -572,7 +572,7 @@ The Password Policy Enforcer V9.12 Password Policy Server is backwards compatibl
 Password Policy Client. You can benefit from most of the new features by upgrading the Password
 Policy Server on the domain controllers. Do this before deploying the V9.12 Password Policy Client.
 See the
-[What's New](/versioned_docs/passwordreset_3.23/password_policy_enforcer/administration/what_s_new.md)
+[What's New](/docs/passwordreset/3.23/password_policy_enforcer/administration/what_s_new.md)
 topic for additional information.
 
 ### Upgrading the Password Policy Server
@@ -593,7 +593,7 @@ The management console imports valid subscription license keys, but it will not 
 perpetual license keys as they cannot be used with Password Policy Enforcer V9.12. Password Policy
 Enforcer will revert to a 30-day evaluation license if it cannot import the license key. Open the
 PPS Properties page after an upgrade to check your license details. See the
-[Configuration](/versioned_docs/passwordreset_3.23/password_policy_enforcer/administration/configuration.md)
+[Configuration](/docs/passwordreset/3.23/password_policy_enforcer/administration/configuration.md)
 topic for additional information.
 
 You can run a combination of V4.x and V9.x Password Policy Servers, but extended use of both
@@ -603,9 +603,9 @@ short time while you roll out Password Policy Enforcer V9.x.
 If you have deployed the Password Policy Client and will be using the passphases feature, then
 update your existing Password Policy message templates to let users know that they may not have to
 comply with all the rules. See the
-[Managing Policies](/versioned_docs/passwordreset_3.23/password_policy_enforcer/administration/managing_policies.md)
+[Managing Policies](/docs/passwordreset/3.23/password_policy_enforcer/administration/managing_policies.md)
 and
-[Configuration](/versioned_docs/passwordreset_3.23/password_policy_enforcer/administration/configuration.md)
+[Configuration](/docs/passwordreset/3.23/password_policy_enforcer/administration/configuration.md)
 topics for additional information. You can use the new [PASSPHRASE_NOTICE] macro instead of
 hard-coding the message text into the template. Password Policy Enforcer replaces the macro with
 this text "You may not have to comply with all these rules if your password contains [n] or more
@@ -620,7 +620,7 @@ the password policy.
 The **Do not check admin/helpdesk password resets** property in the PPS Properties page was renamed
 to **Enforce policy when password is reset**. The check box value changes after upgrading, but
 Password Policy Enforcer enforces the same policy. See the
-[Configuration](/versioned_docs/passwordreset_3.23/password_policy_enforcer/administration/configuration.md)
+[Configuration](/docs/passwordreset/3.23/password_policy_enforcer/administration/configuration.md)
 topic for additional information.
 
 Password Policy Enforcer V4.x included two dictionary files. DICT.TXT, and an optimized version
@@ -629,7 +629,7 @@ DICT_O.TXT offered better performance due to its smaller file size. The performa
 insignificant on modern servers, so Password Policy Enforcer V9.x includes only DICT.TXT. If you are
 using DICT_O.TXT with the Dictionary rule, then you should reconfigure it to use DICT.TXT after
 upgrading. See the
-[Rules](/versioned_docs/passwordreset_3.23/password_policy_enforcer/administration/rules.md) topic
+[Rules](/docs/passwordreset/3.23/password_policy_enforcer/administration/rules.md) topic
 for additional information.
 
 Older V4.x clients will work with the new server, but you should upgrade to the V9.x client as it
@@ -637,13 +637,13 @@ has many improvements.
 
 Older versions of the Password Policy Enforcer Client (prior to V6.0) cannot detect passphrases.
 Users must comply with the policy's compliance level when these older clients are installed. See the
-[Managing Policies](/versioned_docs/passwordreset_3.23/password_policy_enforcer/administration/managing_policies.md)
+[Managing Policies](/docs/passwordreset/3.23/password_policy_enforcer/administration/managing_policies.md)
 topic for additional information.
 
 Password Policy Enforcer V9.x allows the use of longer rule inserts in PPC messages. Older versions
 of the Password Policy Enforcer Client (prior to V7.0), including PPE/Web V6.x and Netwrix Password
 Reset V2.x may truncate messages with long inserts. See
-[Password Policy Client](/versioned_docs/passwordreset_3.23/password_policy_enforcer/administration/password_policy_client.md)
+[Password Policy Client](/docs/passwordreset/3.23/password_policy_enforcer/administration/password_policy_client.md)
 topic for additional information.
 
 PPE/Web V3.x and Netwrix Password Reset V1.x use the Password Policy Enforcer V3.x communication
@@ -652,13 +652,13 @@ protocol. These clients are not compatible with the V9.x server.
 **CAUTION:** Do not use the automatic tolerance option with Password Policy Enforcer V4.x clients.
 These clients will enforce an extremely restrictive password policy if this option is enabled. They
 will reject any password that contains a character found in the comparison parameter. See the
-[Rules](/versioned_docs/passwordreset_3.23/password_policy_enforcer/administration/rules.md) topic
+[Rules](/docs/passwordreset/3.23/password_policy_enforcer/administration/rules.md) topic
 for additional information.
 
 The Password Policy Enforcer Client for Windows 8, 10, Server 2012, Server 2016, and Server 2019
 displays messages in a smaller area than previous versions of Windows. Some of the default message
 components were shortened to fit the available space. See
-[Password Policy Client](/versioned_docs/passwordreset_3.23/password_policy_enforcer/administration/password_policy_client.md)
+[Password Policy Client](/docs/passwordreset/3.23/password_policy_enforcer/administration/password_policy_client.md)
 topic for additional information. Your existing templates and macros will not change, but some of
 the default inserts may be different to the ones your users are familiar with. Any new policies you
 create after upgrading to Password Policy Enforcer V9.x will use the new templates and macros.
@@ -666,16 +666,16 @@ create after upgrading to Password Policy Enforcer V9.x will use the new templat
 If you would like to use the new templates and macros for your existing policies, create a new
 policy and copy the templates from the new policy to your existing policies. Templates are in the
 Messages tab of the Policy Properties page. See
-[Password Policy Client](/versioned_docs/passwordreset_3.23/password_policy_enforcer/administration/password_policy_client.md)
+[Password Policy Client](/docs/passwordreset/3.23/password_policy_enforcer/administration/password_policy_client.md)
 and the
-[Managing Policies](/versioned_docs/passwordreset_3.23/password_policy_enforcer/administration/managing_policies.md)
+[Managing Policies](/docs/passwordreset/3.23/password_policy_enforcer/administration/managing_policies.md)
 topics for additional information.
 
 ### Upgrading the Password Policy Client
 
 The Password Policy Client installer detects existing V4.x installations and upgrades them to V9.12.
 See the
-[Installing the PPC](/versioned_docs/passwordreset_3.23/password_policy_enforcer/administration/password_policy_client.md#installing-the-ppc)
+[Installing the PPC](/docs/passwordreset/3.23/password_policy_enforcer/administration/password_policy_client.md#installing-the-ppc)
 topic for additional information. If you are distributing the PPC with Group Policy, then add
 PPEClt912.msi to the same Group Policy Object used to install the older version. Upgrade and reboot
 the Password Policy Servers before upgrading the clients.

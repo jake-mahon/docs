@@ -99,7 +99,7 @@ Compromised rule to read the files from:
 \\127.0.0.1\sysvol\your.domain\filename.db
 
 See the
-[Compromised Rule](/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/administration/compromised_rule.md)
+[Compromised Rule](/docs/passwordpolicyenforcer/10.2/password_policy_enforcer/administration/compromised_rule.md)
 topic for additional information.
 
 The path above only works if the computer has a Sysvol share. This will not be the case if you are

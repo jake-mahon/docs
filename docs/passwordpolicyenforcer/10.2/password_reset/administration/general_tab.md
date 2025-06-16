@@ -63,11 +63,11 @@ files in their new location.
 **Step 8 –** Start the Password Reset service.
 
 **Step 9 –** Update the backup script to copy from the new folder. See the
-[Working with the Database](/versioned_docs/passwordpolicyenforcer_10.2/password_reset/administration/working_with_the_database.md)
+[Working with the Database](/docs/passwordpolicyenforcer/10.2/password_reset/administration/working_with_the_database.md)
 topic for additional information.
 
 You can also move the database from SQL Server Compact to SQL Server. See the
-[Working with the Database](/versioned_docs/passwordpolicyenforcer_10.2/password_reset/administration/working_with_the_database.md)
+[Working with the Database](/docs/passwordpolicyenforcer/10.2/password_reset/administration/working_with_the_database.md)
 topic for more information.
 
 ### Netwrix Password Policy Enforcer
@@ -101,7 +101,7 @@ policy, or no policy enforced if the queried server is not a domain controller i
 domain.  
 Queries to the Password Policy Server are sent to UDP port 1333 by default. You may need to create
 firewall rules to open this port. See the
-[Password Policy Client](/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/administration/password_policy_client.md)
+[Password Policy Client](/docs/passwordpolicyenforcer/10.2/password_policy_enforcer/administration/password_policy_client.md)
 topic for more information.
 
 **NOTE:** Due to a protocol upgrade, it is now recommended to enable protocol encryption for

@@ -17,5 +17,5 @@ properties as the Query object but its properties and methods do not access the 
 of this object as allowing the ability to create a task on the fly. Use this object to perform
 queries, while leaving the original task undisturbed. This is valuable when performing compound
 queries isneeded. See the
-[Script Example 2: Command Query](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/script/example2.md)
+[Script Example 2: Command Query](/docs/accessanalyzer/11.6/enterpriseauditor/admin/datacollector/script/example2.md)
 topic for additional information.

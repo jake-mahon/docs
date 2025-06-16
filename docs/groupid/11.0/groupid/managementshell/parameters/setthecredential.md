@@ -41,4 +41,4 @@ New-Container -ParentContainer "DC=HR,DC=Imanami,DC=US" -Name "Recruiting" -Cred
 
 See Also
 
-- [Parameters](/versioned_docs/groupid_11.0/groupid/managementshell/parameters/parameters.md)
+- [Parameters](/docs/groupid/11.0/groupid/managementshell/parameters/parameters.md)

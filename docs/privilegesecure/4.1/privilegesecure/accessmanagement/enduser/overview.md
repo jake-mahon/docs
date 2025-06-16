@@ -10,7 +10,7 @@ in order to proceed with using Privilege Secure. It is recommended to check with
 Administrators for login requirements.
 
 There is also a Browser Extension that can be installed for Privilege Secure users. See the
-[Browser Extension App](/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/enduser/browserextension/browserextension.md)
+[Browser Extension App](/docs/privilegesecure/4.1/privilegesecure/accessmanagement/enduser/browserextension/browserextension.md)
 topic for additional information.
 
 ## First Time Login

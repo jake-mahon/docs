@@ -8,11 +8,11 @@ Information Protection (AIP) scanning. It is a wizard page for the categories of
 
 Remember, select the **Enable scanning of files protected by Azure Information Protection** checkbox
 on the
-[FSAA: Scan Settings](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/fsaa/scansettings.md)
+[FSAA: Scan Settings](/docs/accessanalyzer/11.6/enterpriseauditor/admin/datacollector/fsaa/scansettings.md)
 page to enable this page in the data collector wizard. In order for FSAA to scan files protected by
 AIP, ensure that the prerequisites are met and an Azure Connection Profile is successfully created.
 See the
-[Azure Information Protection Target Requirements](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/requirements/target/config/azureinformationprotection.md)
+[Azure Information Protection Target Requirements](/docs/accessanalyzer/11.6/enterpriseauditor/requirements/target/config/azureinformationprotection.md)
 topic for additional information on configuring the File System solution to scan for AIP labels.
 
 ![FSAA Data Collector Wizard Azure Tenant Mapping page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/fsaa/azuretenantmapping.webp)

@@ -9,21 +9,21 @@ Console or Agent, and then configure custom managed certificates for Enterprise 
 Agent, the console and Agent will fail to connect to Enterprise Manager.
 
 **NOTE:** To configure custom managed certificates for the Enterprise Manager and the Agent, see the
-[Certificate Management Wizard](/versioned_docs/threatprevention_7.4/threatprevention/install/certificatemanagementwizard.md)
+[Certificate Management Wizard](/docs/threatprevention/7.4/threatprevention/install/certificatemanagementwizard.md)
 and
-[Create Custom Managed Certificates for Each Agent](/versioned_docs/threatprevention_7.4/threatprevention/install/agent/customcert.md)
+[Create Custom Managed Certificates for Each Agent](/docs/threatprevention/7.4/threatprevention/install/agent/customcert.md)
 topics respectively.
 
 You must provide the Enterprise Manager server DNS name when you install the following:
 
 - Threat Prevention server (see the
-  [Application Server Install](/versioned_docs/threatprevention_7.4/threatprevention/install/application.md)
+  [Application Server Install](/docs/threatprevention/7.4/threatprevention/install/application.md)
   topic)
 - Threat Prevention Agent (see the
-  [Manual Agent Deployment](/versioned_docs/threatprevention_7.4/threatprevention/install/agent/manual.md)
+  [Manual Agent Deployment](/docs/threatprevention/7.4/threatprevention/install/agent/manual.md)
   topic)
 - Remote instance of the Administration Console (see the
-  [Administration Console Remote Install](/versioned_docs/threatprevention_7.4/threatprevention/install/adminconsole.md)
+  [Administration Console Remote Install](/docs/threatprevention/7.4/threatprevention/install/adminconsole.md)
   topic)
 
 If you have already installed the above with the IP address of the Enterprise Manager server, you

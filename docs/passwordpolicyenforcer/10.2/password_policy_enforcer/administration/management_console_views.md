@@ -12,7 +12,7 @@ can perform the following actions:
 
 - Read the Password Policy Enforcer documentation.
 - Connect to configuration. See the
-  [Connect to a Configuration](/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/administration/connecting.md)
+  [Connect to a Configuration](/docs/passwordpolicyenforcer/10.2/password_policy_enforcer/administration/connecting.md)
   topic for additional information.
 
 ## Password Policy Server View
@@ -23,14 +23,14 @@ Click **Password Policy Server** in the left pane to display this view. With thi
 perform the following actions:
 
 - Edit
-  [PPS Properties Page](/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/administration/properties.md)
+  [PPS Properties Page](/docs/passwordpolicyenforcer/10.2/password_policy_enforcer/administration/properties.md)
 - Display the [Compromised Password Checker](#compromised-password-checker) page
 - Run
-  [HIBP Updater](/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/administration/hibpupdater.md)
-- [Connect to a Configuration](/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/administration/connecting.md)
+  [HIBP Updater](/docs/passwordpolicyenforcer/10.2/password_policy_enforcer/administration/hibpupdater.md)
+- [Connect to a Configuration](/docs/passwordpolicyenforcer/10.2/password_policy_enforcer/administration/connecting.md)
   to a configuration
 - Display the
-  [Support Tools](/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/administration/support_tools.md)
+  [Support Tools](/docs/passwordpolicyenforcer/10.2/password_policy_enforcer/administration/support_tools.md)
   page
 
 ### Compromised Password Checker
@@ -111,13 +111,13 @@ Click **Password Policy Server** in the left pane to display this view. With thi
 perform the following actions:
 
 - Edit
-  [Policy Properties](/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/administration/policy_properties.md)
-- [Testing Policies](/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/administration/testing_policies.md)
-- [Creating a Policy](/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/administration/creating_a_policy.md)
+  [Policy Properties](/docs/passwordpolicyenforcer/10.2/password_policy_enforcer/administration/policy_properties.md)
+- [Testing Policies](/docs/passwordpolicyenforcer/10.2/password_policy_enforcer/administration/testing_policies.md)
+- [Creating a Policy](/docs/passwordpolicyenforcer/10.2/password_policy_enforcer/administration/creating_a_policy.md)
   and
-  [Deleting a Policy](/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/administration/deleting_a_policy.md)
+  [Deleting a Policy](/docs/passwordpolicyenforcer/10.2/password_policy_enforcer/administration/deleting_a_policy.md)
 - Set
-  [Policy Properties](/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/administration/policy_properties.md)
+  [Policy Properties](/docs/passwordpolicyenforcer/10.2/password_policy_enforcer/administration/policy_properties.md)
 
 ## Rules View
 

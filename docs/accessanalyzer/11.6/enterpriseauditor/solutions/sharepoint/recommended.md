@@ -32,15 +32,15 @@ Since SharePoint Online environments can only be targeted for Access Auditing an
 Discovery Auditing, it is best practice to set the host list at the job level.
 
 See the
-[Add Hosts](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/hostmanagement/actions/add.md)
+[Add Hosts](/docs/accessanalyzer/11.6/enterpriseauditor/admin/hostmanagement/actions/add.md)
 topic for additional information.
 
 Connection Profile
 
 The SPAA Data Collector requires a specific set of permissions. See the
-[SharePoint Scan Options](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/requirements/solutions/sharepoint/scanoptions.md)
+[SharePoint Scan Options](/docs/accessanalyzer/11.6/enterpriseauditor/requirements/solutions/sharepoint/scanoptions.md)
 and
-[SharePoint Support](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/requirements/target/sharepoint.md)
+[SharePoint Support](/docs/accessanalyzer/11.6/enterpriseauditor/requirements/target/sharepoint.md)
 topics for the necessary permissions for both on-premises and online target environments. Then
 create a custom Connection Profile containing the appropriate credentials for the targeted
 environment. If a single Connection Profile contains both on-premises and online credentials, it is
@@ -60,7 +60,7 @@ The Connection Profile can be set at either the **Effective Access Audits** > **
 **Connection** node (applies to both jobs) or in the job’s Properties window on the Connection tab.
 
 See the
-[Connection](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/settings/connection/overview.md)
+[Connection](/docs/accessanalyzer/11.6/enterpriseauditor/admin/settings/connection/overview.md)
 topic for additional information.
 
 Schedule Frequency
@@ -84,7 +84,7 @@ and the 2-SPAC Bulk Import Job default analysis tasks.
 **_RECOMMENDED:_** If only conducting one or two types of auditing, scope the solution by disabling
 the undesired collection jobs. Disabling them allows the solution to run more efficiently. It is not
 recommended to delete any jobs. See the
-[Disable or Enable a Job](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/jobs/job/disableenable.md)
+[Disable or Enable a Job](/docs/accessanalyzer/11.6/enterpriseauditor/admin/jobs/job/disableenable.md)
 topic for additional information.
 
 Query Configuration

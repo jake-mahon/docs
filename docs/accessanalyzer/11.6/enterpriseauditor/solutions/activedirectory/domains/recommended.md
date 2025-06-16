@@ -47,7 +47,7 @@ modified.
 The following query can be modified to use a secure connection with TLS/SSL:
 
 - Domain Controller Listing Query which uses the
-  [LDAP Data Collector](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/ldap.md)
+  [LDAP Data Collector](/docs/accessanalyzer/11.6/enterpriseauditor/admin/datacollector/ldap.md)
 
 Workflow
 

@@ -15,14 +15,14 @@ Privilege Secure version v4.1 release.
 New: Seamless Database Migration
 
 A new tool helps customers easily transition their existing Postgres database to SQL Server. See the
-[Upgrade Procedure](/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/install/upgrade.md)
+[Upgrade Procedure](/docs/privilegesecure/4.1/privilegesecure/accessmanagement/install/upgrade.md)
 topic for additional information.
 
 New: Encryption Key Management
 
 Integration with AWS KMS allows storing Netwrix Privilege Secure encryption keys in AWS for
 increased security. See the
-[AWS Key Management Service](/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/requirements/awskey.md)
+[AWS Key Management Service](/docs/privilegesecure/4.1/privilegesecure/accessmanagement/requirements/awskey.md)
 topic for additional information.
 
 New: Web App Launcher
@@ -33,13 +33,13 @@ remoteapp.
 Enhancement: Expanded Database Support
 
 NPS now supports Microsoft SQL Server in addition to Postgres for its backend database. See the
-[Upgrade Procedure](/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/install/upgrade.md)
+[Upgrade Procedure](/docs/privilegesecure/4.1/privilegesecure/accessmanagement/install/upgrade.md)
 topic for additional information.
 
 Enhancement: Enhanced Navigation
 
 The NPS user interface has been updated with improved navigation. See the
-[Dashboard Interface](/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/dashboard/overview.md)
+[Dashboard Interface](/docs/privilegesecure/4.1/privilegesecure/accessmanagement/admin/dashboard/overview.md)
 topic for additional information.
 
 Enhancement: Optimized Low-Resolution Display
@@ -50,13 +50,13 @@ Enhancement: Group Membership Flexibility
 
 Admins can choose to disable automatic Microsoft Entra ID (formerly Azure AD) group syncing when
 needed. See the
-[Microsoft Entra ID Details Page](/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/policy/page/details/entraid.md)
+[Microsoft Entra ID Details Page](/docs/privilegesecure/4.1/privilegesecure/accessmanagement/admin/policy/page/details/entraid.md)
 topic for additional information.
 
 Enhancement: Manual Password Setting
 
 Administrators now have the option to directly set user password values in the UI. See the
-[Add Local User](/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/policy/add/localuser.md)
+[Add Local User](/docs/privilegesecure/4.1/privilegesecure/accessmanagement/admin/policy/add/localuser.md)
 topic for additional information.
 
 Additional Enhancements

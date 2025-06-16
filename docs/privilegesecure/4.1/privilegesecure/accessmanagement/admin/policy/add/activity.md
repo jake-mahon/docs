@@ -39,7 +39,7 @@ options include:
 **Step 5 –** Click Save to create the new activity.
 
 **Step 6 –** With the new activity selected, configure the following settings. See the
-[Add Action Window](/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/policy/window/activities/addaction.md)
+[Add Action Window](/docs/privilegesecure/4.1/privilegesecure/accessmanagement/admin/policy/window/activities/addaction.md)
 topic for additional information:
 
 - Pre-Session (Grant) — List of actions that will run before the session begins. These actions may

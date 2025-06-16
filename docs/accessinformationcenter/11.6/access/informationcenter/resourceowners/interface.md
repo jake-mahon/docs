@@ -12,7 +12,7 @@ The information displayed in the table includes:
   such as the UNC path for a file system resource, the URL for SharePoint resource, or Group name
   (e.g., [Domain]\[Group]). The hyperlink will open the Resource Audit interface or Group Audit
   interface directly to the selected resource. See the
-  [Audit Interfaces](/versioned_docs/accessinformationcenter_11.6/access/informationcenter/resourceaudit/navigate/overview.md)
+  [Audit Interfaces](/docs/accessinformationcenter/11.6/access/informationcenter/resourceaudit/navigate/overview.md)
   topic for additional information on available reports.
 - Description – Description or explanation of the resource as supplied by either the Ownership
   Administrator or the assigned owner See the [Notes & Descriptions](#notes--descriptions) topic for
@@ -23,12 +23,12 @@ The information displayed in the table includes:
   Tool-tips display when hovering over the icons indicating whether the resource ownership has been
   confirmed, declined, pending response, or that a confirmation has not been requested. The tool-tip
   also displays the date timestamp for when confirmation was received. See the
-  [Ownership Confirmation](/versioned_docs/accessinformationcenter_11.6/access/informationcenter/resourceowners/confirmation.md)
+  [Ownership Confirmation](/docs/accessinformationcenter/11.6/access/informationcenter/resourceowners/confirmation.md)
   topic for additional information.
 - Notes – Icon indicates a Note has been added. Click on the icon to read the attached note(s).
   Notes can be added by Ownership Administrators or populated with alternative owners by individuals
   who declined ownership. See the
-  [Edit Notes Window](/versioned_docs/accessinformationcenter_11.6/access/general/editnotes.md) and
+  [Edit Notes Window](/docs/accessinformationcenter/11.6/access/general/editnotes.md) and
   the [Notes & Descriptions](#notes--descriptions) topic for additional information.
 - Access Groups – Indicates whether or not access groups have been assigned to this resource. When
   the resource is a group, the Access Groups column is automatically checked, since the group itself
@@ -39,21 +39,21 @@ The information displayed in the table includes:
   Access Information Center to automatically commit approved changes requested during entitlement
   reviews, to enable the Self-Service Access Requests workflow, and for publishing resources to IAM.
   See the
-  [Access Groups](/versioned_docs/accessinformationcenter_11.6/access/informationcenter/resourceowners/accessgroups.md)
+  [Access Groups](/docs/accessinformationcenter/11.6/access/informationcenter/resourceowners/accessgroups.md)
   topic for additional information.
 - Access Requests – Indicates whether or not the Self-Service Access Requests workflow has been
   enabled for the resource. See the
-  [Access Requests Overview](/versioned_docs/accessinformationcenter_11.6/access/informationcenter/accessrequests/overview.md)
+  [Access Requests Overview](/docs/accessinformationcenter/11.6/access/informationcenter/accessrequests/overview.md)
   topic for additional information.
 - Owner Updates – Indicates whether or not ad hoc changes feature has been enabled for the resource
 - Last Reviewed – Date timestamp when the last review took place for the resource. The hyperlink
   will open the Manage Reviews interface to that resource. See the
-  [Manage Reviews Page](/versioned_docs/accessinformationcenter_11.6/access/informationcenter/resourcereviews/interface.md#manage-reviews-page)
+  [Manage Reviews Page](/docs/accessinformationcenter/11.6/access/informationcenter/resourcereviews/interface.md#manage-reviews-page)
   topic for additional information.
 - Active Review – Indicates whether or not there is a pending review
 
 The table data grid functions the same way as other table grids. See the
-[Data Grid Features](/versioned_docs/accessinformationcenter_11.6/access/general/datagrid.md) topic
+[Data Grid Features](/docs/accessinformationcenter/11.6/access/general/datagrid.md) topic
 for additional information.
 
 The buttons at the bottom enable you to conduct the following actions:
@@ -62,13 +62,13 @@ The buttons at the bottom enable you to conduct the following actions:
 
 | Button               | Function                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
 | -------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Add                  | Launches the Add new resource wizard to add a new resource to the list. This allows you to add one resource at a time, assign a reviewer, and optionally assign access groups. See the [Add New Resource Wizard](/versioned_docs/accessinformationcenter_11.6/access/informationcenter/resourceowners/wizard/add.md) topic for additional information.                                                                                                                          |
-| Import               | Opens the Import Owners window to perform a bulk import of resources and assigned owners from a CSV file. See the [Import Owners Wizard](/versioned_docs/accessinformationcenter_11.6/access/informationcenter/resourceowners/wizard/import.md) topic for additional information.                                                                                                                                                                                               |
-| Update               | Launches the Update resource wizard for the selected resource. This allows you to make changes to the assigned owners, to enable Access Requests, to enable owner ad hoc changes, and to change or assign access groups. See the [Update Resource Wizard](/versioned_docs/accessinformationcenter_11.6/access/informationcenter/resourceowners/wizard/update.md) topic for additional information.                                                                              |
-| Remove               | Opens the Confirm removal window to removes the selected resource from being managed through the application. _Remember,_ only resources with an assigned owner will be visible in the table. Removing a resource from this table does not delete the resource from the application database. See the [Confirm Removal Window](/versioned_docs/accessinformationcenter_11.6/access/informationcenter/resourceowners/window/confirmremoval.md) topic for additional information. |
-| Request Confirmation | Opens the Confirm Ownership wizard. Sends an email to the assigned owner(s) for the selected resource requesting ownership confirmation. See the [Confirm Ownership Wizard](/versioned_docs/accessinformationcenter_11.6/access/informationcenter/resourceowners/wizard/confirm.md) topic for additional information.                                                                                                                                                           |
-| Edit Notes           | Opens the Edit Notes window for the selected resource and allows free-text editing of the notes. See the [Edit Notes Window](/versioned_docs/accessinformationcenter_11.6/access/general/editnotes.md) topic for additional information.                                                                                                                                                                                                                                        |
-| Resource Audit       | Opens the Resource Audit interface for the selected resource. See the [Resource Audit Overview](/versioned_docs/accessinformationcenter_11.6/access/informationcenter/resourceaudit/overview.md) topic for additional information.                                                                                                                                                                                                                                              |
+| Add                  | Launches the Add new resource wizard to add a new resource to the list. This allows you to add one resource at a time, assign a reviewer, and optionally assign access groups. See the [Add New Resource Wizard](/docs/accessinformationcenter/11.6/access/informationcenter/resourceowners/wizard/add.md) topic for additional information.                                                                                                                          |
+| Import               | Opens the Import Owners window to perform a bulk import of resources and assigned owners from a CSV file. See the [Import Owners Wizard](/docs/accessinformationcenter/11.6/access/informationcenter/resourceowners/wizard/import.md) topic for additional information.                                                                                                                                                                                               |
+| Update               | Launches the Update resource wizard for the selected resource. This allows you to make changes to the assigned owners, to enable Access Requests, to enable owner ad hoc changes, and to change or assign access groups. See the [Update Resource Wizard](/docs/accessinformationcenter/11.6/access/informationcenter/resourceowners/wizard/update.md) topic for additional information.                                                                              |
+| Remove               | Opens the Confirm removal window to removes the selected resource from being managed through the application. _Remember,_ only resources with an assigned owner will be visible in the table. Removing a resource from this table does not delete the resource from the application database. See the [Confirm Removal Window](/docs/accessinformationcenter/11.6/access/informationcenter/resourceowners/window/confirmremoval.md) topic for additional information. |
+| Request Confirmation | Opens the Confirm Ownership wizard. Sends an email to the assigned owner(s) for the selected resource requesting ownership confirmation. See the [Confirm Ownership Wizard](/docs/accessinformationcenter/11.6/access/informationcenter/resourceowners/wizard/confirm.md) topic for additional information.                                                                                                                                                           |
+| Edit Notes           | Opens the Edit Notes window for the selected resource and allows free-text editing of the notes. See the [Edit Notes Window](/docs/accessinformationcenter/11.6/access/general/editnotes.md) topic for additional information.                                                                                                                                                                                                                                        |
+| Resource Audit       | Opens the Resource Audit interface for the selected resource. See the [Resource Audit Overview](/docs/accessinformationcenter/11.6/access/informationcenter/resourceaudit/overview.md) topic for additional information.                                                                                                                                                                                                                                              |
 
 ## Notes & Descriptions
 

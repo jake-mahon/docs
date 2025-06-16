@@ -17,11 +17,11 @@ It performs the following functions:
   specified dates.
 - The Membership Life Cycle schedule executes the Membership Life Cycle policy for the identity
   store. See the
-  [Manage Membership Life Cycle Policies](/versioned_docs/groupid_11.0/groupid/admincenter/identitystore/configure/directoryservice/membershiplifecycle.md)
+  [Manage Membership Life Cycle Policies](/docs/groupid/11.0/groupid/admincenter/identitystore/configure/directoryservice/membershiplifecycle.md)
   topic.
 - The schedule also removes members when group owners inactivate them during group attestation. See
   the
-  [Enable Group Attestation](/versioned_docs/groupid_11.0/groupid/admincenter/identitystore/configure/directoryservice/grouplifecycle.md#enable-group-attestation)
+  [Enable Group Attestation](/docs/groupid/11.0/groupid/admincenter/identitystore/configure/directoryservice/grouplifecycle.md#enable-group-attestation)
   topic.
 
 Let’s assume that the Membership Life Cycle schedule is scheduled to run once a week, say Mondays.
@@ -32,7 +32,7 @@ your temporary membership requirements.
 
 GroupID generates notifications when the Membership Life Cycle schedule adds or removes users from
 group membership. See the
-[Manage Membership Life Cycle Notifications](/versioned_docs/groupid_11.0/groupid/admincenter/identitystore/configure/smtpserver.md#manage-membership-life-cycle-notifications)
+[Manage Membership Life Cycle Notifications](/docs/groupid/11.0/groupid/admincenter/identitystore/configure/smtpserver.md#manage-membership-life-cycle-notifications)
 topic.
 
 What do you want to do?
@@ -56,11 +56,11 @@ What do you want to do?
    responsible for triggering this schedule. The number of services displayed in the list depend on
    the number of Elasticsearch clusters in the environment, as each cluster has its own Scheduler
    service. See the
-   [Scheduler Service](/versioned_docs/groupid_11.0/groupid/admincenter/service/schedulerservice.md)
+   [Scheduler Service](/docs/groupid/11.0/groupid/admincenter/service/schedulerservice.md)
    topic.
 9. You can specify containers as targets for the schedule. The schedule will process all groups in
    these containers and their sub-containers. To specific containers as target, follow step 9 in the
-   [Create a Group Usage Service Schedule](/versioned_docs/groupid_11.0/groupid/admincenter/schedule/groupusageservice.md#create-a-group-usage-service-schedule)
+   [Create a Group Usage Service Schedule](/docs/groupid/11.0/groupid/admincenter/schedule/groupusageservice.md#create-a-group-usage-service-schedule)
    topic.
 
     NOTE: Membership Lifecycle policies are not applied to OUs specified here. Target OUs and groups
@@ -68,18 +68,18 @@ What do you want to do?
 
 10. Click **Add Triggers** in the **Triggers** area to specify a triggering criterion for the
     schedule, that, when met, starts the execution of the schedule. Follow step 11 in the
-    [Create a Group Usage Service Schedule](/versioned_docs/groupid_11.0/groupid/admincenter/schedule/groupusageservice.md#create-a-group-usage-service-schedule)
+    [Create a Group Usage Service Schedule](/docs/groupid/11.0/groupid/admincenter/schedule/groupusageservice.md#create-a-group-usage-service-schedule)
     topic to add triggers.
 11. Click **Add Authentication** in the **Authentication** area to specify an account for running
     the schedule in the identity store. Follow step 12 in the
-    [Create a Group Usage Service Schedule](/versioned_docs/groupid_11.0/groupid/admincenter/schedule/groupusageservice.md#create-a-group-usage-service-schedule)
+    [Create a Group Usage Service Schedule](/docs/groupid/11.0/groupid/admincenter/schedule/groupusageservice.md#create-a-group-usage-service-schedule)
     topic for details.
 12. On the **Create Schedule** page, click **Create Schedule**.
 13. On the **Schedules** page, click **Save**.  
     The schedule is displayed under **Membership Life Cycle**. See the
-    [View the Schedules in an Identity Store ](/versioned_docs/groupid_11.0/groupid/admincenter/schedule/manage.md#view-the-schedules-in-an-identity-store)
+    [View the Schedules in an Identity Store ](/docs/groupid/11.0/groupid/admincenter/schedule/manage.md#view-the-schedules-in-an-identity-store)
     topic for more info.
 
 See Also
 
-- [Schedules](/versioned_docs/groupid_11.0/groupid/admincenter/schedule/overview.md)
+- [Schedules](/docs/groupid/11.0/groupid/admincenter/schedule/overview.md)

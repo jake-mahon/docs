@@ -50,19 +50,19 @@ Enterprise Auditor Vault. Certain types of credentials can be stored in CyberArk
 
 Choosing to store passwords in either the Enterprise Auditor application or the Enterprise Auditor
 Vault is a global setting configured in the **Settings** > **Application** node. See the
-[Application](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/settings/application/overview.md) topic
+[Application](/docs/accessanalyzer/11.6/enterpriseauditor/admin/settings/application/overview.md) topic
 for additional information.
 
 The Enterprise Auditor vault provides enhanced security through enhanced encryption to various
 credentials stored by the Enterprise Auditor application. See the
-[Vault](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/settings/application/vault.md)
+[Vault](/docs/accessanalyzer/11.6/enterpriseauditor/admin/settings/application/vault.md)
 topic for additional information.
 
 CyberArk integration stores supported credentials in the CyberArk Enterprise Password Vault.
 CyberArk Privileged Account Security Solution offers components designed to discover, secure,
 rotate, and control access to privileged account passwords used to access systems through the
 enterprise IT environment. See the
-[CyberArk Integration](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/settings/connection/cyberarkintegration.md)
+[CyberArk Integration](/docs/accessanalyzer/11.6/enterpriseauditor/admin/settings/connection/cyberarkintegration.md)
 topic for additional information.
 
 ![Cancel and Save options](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/settings/connection/cancelsavebuttons.webp)

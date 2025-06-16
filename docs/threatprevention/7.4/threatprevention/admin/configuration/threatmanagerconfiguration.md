@@ -113,7 +113,7 @@ Follow the steps to include the Forged PAC information in events.
 the window to open the Configure Analytics window.
 
 **Step 3 –** Add or remove the RIDs of groups to be monitored on the Settings tab. See the
-[Forged PAC Analytic Type](/versioned_docs/threatprevention_7.4/threatprevention/admin/analytics/forgedpac.md)
+[Forged PAC Analytic Type](/docs/threatprevention/7.4/threatprevention/admin/analytics/forgedpac.md)
 topic for additional information.
 
 **Step 4 –** On the Policy tab, configure the following:

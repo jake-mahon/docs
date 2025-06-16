@@ -21,7 +21,7 @@ The window has the following features:
 - Available Resources — Shows all available resources
 - Resources And Groups to Add — Shows selected resources
 - Service Account — Provides a list of available Service Accounts. See the
-  [Service Accounts Page](/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/configuration/page/serviceaccounts.md)
+  [Service Accounts Page](/docs/privilegesecure/4.1/privilegesecure/accessmanagement/admin/configuration/page/serviceaccounts.md)
   topic for additional information.
 - Add — Onboards resources and closes the window
 - Cancel — Discards modifications and closes the window
@@ -67,11 +67,11 @@ The window has the following features:
 - Import CSV — Opens Window Explore to select the file
 - Download CSV Template — Downloads the `nps-resource-import-template.csv` file with required
   columns. See the
-  [Create Resource Import CSV File](/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/policy/resourceimportcsv.md)
+  [Create Resource Import CSV File](/docs/privilegesecure/4.1/privilegesecure/accessmanagement/admin/policy/resourceimportcsv.md)
   topic for additional information.
 - Remove — Removes the selected item
 - Service Account — Provides a list of available Service Accounts. See the
-  [Service Accounts Page](/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/configuration/page/serviceaccounts.md)
+  [Service Accounts Page](/docs/privilegesecure/4.1/privilegesecure/accessmanagement/admin/configuration/page/serviceaccounts.md)
   topic for additional information.
 - Add — Onboards resources and closes the window
 - Cancel — Discards modifications and closes the window
@@ -137,7 +137,7 @@ The window has the following features:
 - Add — Adds the resource in the textbox to the table
 - Remove — Removes the selected item
 - Service Account — Provides a list of available Service Accounts. See the
-  [Service Accounts Page](/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/configuration/page/serviceaccounts.md)
+  [Service Accounts Page](/docs/privilegesecure/4.1/privilegesecure/accessmanagement/admin/configuration/page/serviceaccounts.md)
   topic for additional information.
 - Add — Onboards resources and closes the window
 - Cancel — Discards modifications and closes the window

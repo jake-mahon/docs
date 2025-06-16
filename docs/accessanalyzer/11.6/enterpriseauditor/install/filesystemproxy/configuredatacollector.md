@@ -18,7 +18,7 @@ On the Scan Server Selection wizard page, select either of the following options
   in the host list selected within the wizard via the **Select Hosts Lists** button
 
 See the
-[FSAA Query Configuration](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/fsaa/overview.md#fsaa-query-configuration)
+[FSAA Query Configuration](/docs/accessanalyzer/11.6/enterpriseauditor/admin/datacollector/fsaa/overview.md#fsaa-query-configuration)
 topic for additional information.
 
 **_RECOMMENDED:_** When choosing to use proxy mode as a service for any of the File System Solution

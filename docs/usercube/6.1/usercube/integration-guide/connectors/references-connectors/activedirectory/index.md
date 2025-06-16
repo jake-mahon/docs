@@ -5,7 +5,7 @@ This connector exports and fulfills users and groups from/to an
 instance.
 
 This page is about
-[Directory/Active Directory](/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/references-packages/active-directory/index.md).
+[Directory/Active Directory](/docs/usercube/6.1/usercube/integration-guide/connectors/references-packages/active-directory/index.md).
 
 ![Package: Directory/Active Directory](/img/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/references-connectors/activedirectory/packages_ad_v603.webp)
 
@@ -20,7 +20,7 @@ This connector also enables automated provisioning from the resource repository 
 Implementing this connector requires:
 
 - reading first the
-  [appsettings documentation](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/appsettings-agent/index.md);
+  [appsettings documentation](/docs/usercube/6.1/usercube/integration-guide/network-configuration/agent-configuration/appsettings-agent/index.md);
 - opening the LDAP feed from Usercube's server to the Active Directory, with the ports 389 for LDAP
   and 636 for LDAPS;
 - a service account with reading and writing permissions on the target Active Directory instance. It
@@ -65,7 +65,7 @@ command prompt.
 ### Configuration
 
 This process is configured through a
-[connection](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/connectors/connection/index.md)
+[connection](/docs/usercube/6.1/usercube/integration-guide/toolkit/xml-configuration/connectors/connection/index.md)
 in the UI and/or the XML configuration, and in the `appsettings.agent.json > Connections` section:
 
 ```
@@ -146,7 +146,7 @@ This connector is meant to generate:
   `ConnectionColumn` and each property without it but used in an entity association;
 
     Any property can be exported in a specific format when specified.
-    [See more details](/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/entitypropertymapping-format/index.md).
+    [See more details](/docs/usercube/6.1/usercube/integration-guide/connectors/entitypropertymapping-format/index.md).
 
 - an additional file for each related table other than entries;
 - a cookie file named `<connectionIdentifier>_cookie.bin`, containing the time of the last export in
@@ -160,9 +160,9 @@ This connector is meant to generate:
     can use the option `--ignore-cookies`.
 
 The CSV files are stored in the
-[ExportOutput](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/appsettings/index.md)
+[ExportOutput](/docs/usercube/6.1/usercube/integration-guide/network-configuration/agent-configuration/appsettings/index.md)
 folder, and the cookie file in the
-[ExportCookies](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/appsettings/index.md)
+[ExportCookies](/docs/usercube/6.1/usercube/integration-guide/network-configuration/agent-configuration/appsettings/index.md)
 folder.
 
 > For example, with the following configuration example:
@@ -174,7 +174,7 @@ folder.
 > ```
 >
 > We would have `C:/UsercubeContoso/Temp/ExportOutput/ADExport_entries.csv` with a column for each
-> [scalar property](/versioned_docs/usercube_6.1/usercube/integration-guide/entity-model/index.md):
+> [scalar property](/docs/usercube/6.1/usercube/integration-guide/entity-model/index.md):
 >
 > ```
 > ADExport_entries.csv
@@ -241,7 +241,7 @@ written to the same CSV file.
 
 This connector writes to the Active Directory, to create, update and delete entries, initiated
 manually through the UI or automatically by
-[enforcing the policy](/versioned_docs/usercube_6.1/usercube/integration-guide/role-assignment/evaluate-policy/index.md).
+[enforcing the policy](/docs/usercube/6.1/usercube/integration-guide/role-assignment/evaluate-policy/index.md).
 
 ### Configuration
 
@@ -369,18 +369,18 @@ order, through the `ResourceType`'s `ArgumentsExpression`.
 
 ### Password reset
 
-[See how to configure password reset settings](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/appsettings-agent/index.md).
+[See how to configure password reset settings](/docs/usercube/6.1/usercube/integration-guide/network-configuration/agent-configuration/appsettings-agent/index.md).
 
 ### Credential protection
 
 Data protection can be ensured through:
 
-- [RSA encryption](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/rsa-encryption/index.md),
+- [RSA encryption](/docs/usercube/6.1/usercube/integration-guide/network-configuration/agent-configuration/rsa-encryption/index.md),
   configured in the `appsettings.encrypted.agent.json` file;
 - an
-  [Azure Key Vault](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/azure-key-vault/index.md)
+  [Azure Key Vault](/docs/usercube/6.1/usercube/integration-guide/network-configuration/agent-configuration/azure-key-vault/index.md)
   safe;
 
 - a
-  [CyberArk Vault](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/cyberark-application-access-manager-credential-providers/index.md)
+  [CyberArk Vault](/docs/usercube/6.1/usercube/integration-guide/network-configuration/agent-configuration/cyberark-application-access-manager-credential-providers/index.md)
   able to store Active Directory's `Login`, `Password` and `Server`.

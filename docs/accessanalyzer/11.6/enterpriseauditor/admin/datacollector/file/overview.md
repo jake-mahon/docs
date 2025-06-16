@@ -6,13 +6,13 @@ the target hosts. It can target any file extension. This data collector is a cor
 Enterprise Auditor and is available with all Enterprise Auditor licenses.
 
 **NOTE:** For enhanced file system data collections, use the
-[FileSystemAccess Data Collector](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/fsaa/overview.md).
+[FileSystemAccess Data Collector](/docs/accessanalyzer/11.6/enterpriseauditor/admin/datacollector/fsaa/overview.md).
 
 Supported Platforms
 
 This data collector can target the same servers supported for the FileSystemAccess Data Collector.
 See the
-[File System Supported Platforms](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/requirements/target/filesystems.md)
+[File System Supported Platforms](/docs/accessanalyzer/11.6/enterpriseauditor/requirements/target/filesystems.md)
 topic for a full list of supported platforms.
 
 Protocols
@@ -36,10 +36,10 @@ The **File** Data Collector is configured through the File Search Wizard, which 
 following wizard pages:
 
 - Welcome
-- [File: Category](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/file/category.md)
-- [File: Target Files](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/file/targetfiles.md)
-- [File: Results](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/file/results.md)
-- [File: Summary](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/file/summary.md)
+- [File: Category](/docs/accessanalyzer/11.6/enterpriseauditor/admin/datacollector/file/category.md)
+- [File: Target Files](/docs/accessanalyzer/11.6/enterpriseauditor/admin/datacollector/file/targetfiles.md)
+- [File: Results](/docs/accessanalyzer/11.6/enterpriseauditor/admin/datacollector/file/results.md)
+- [File: Summary](/docs/accessanalyzer/11.6/enterpriseauditor/admin/datacollector/file/summary.md)
 
 ![File Search Wizard Welcome page](/img/versioned_docs/activitymonitor_7.1/activitymonitor/install/welcome.webp)
 

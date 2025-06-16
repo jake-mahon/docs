@@ -8,10 +8,10 @@ and collects the results for reporting.
 
 The jobs and job groups in the Security Utilities job group are:
 
-- [OpenPortScan Job Group](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/windows/securityutilities/openportscan/overview.md)
+- [OpenPortScan Job Group](/docs/accessanalyzer/11.6/enterpriseauditor/solutions/windows/securityutilities/openportscan/overview.md)
   – Reveals all open ports along with the associated executable on the targeted systems leveraging
   the jobs within this group. This is accomplished through remotely executing a netstat command on
   the target hosts and collecting the results for reporting.
-- [SG_PowerShellCommands Job](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/windows/securityutilities/sg_powershellcommands.md)
+- [SG_PowerShellCommands Job](/docs/accessanalyzer/11.6/enterpriseauditor/solutions/windows/securityutilities/sg_powershellcommands.md)
   – This job highlights instances where suspicious PowerShell commands have been found in a host’s
   PowerShell log

@@ -2,13 +2,13 @@
 
 After roles are assigned to users, Usercube can use mining rules to perform role mining. Role mining
 means that Usercube analyzes existing assignments in order to suggest
-[single role rules](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/provisioning/singlerolerule/index.md)
+[single role rules](/docs/usercube/6.1/usercube/integration-guide/toolkit/xml-configuration/provisioning/singlerolerule/index.md)
 which will assign
-[single roles](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/provisioning/singlerole/index.md)
+[single roles](/docs/usercube/6.1/usercube/integration-guide/toolkit/xml-configuration/provisioning/singlerole/index.md)
 to certain users matching given criteria.
 
 The
-[role mining task](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/jobs/tasks/server/getroleminingtask/index.md)
+[role mining task](/docs/usercube/6.1/usercube/integration-guide/toolkit/xml-configuration/jobs/tasks/server/getroleminingtask/index.md)
 replaces the existing single role rules in the specified rule policy with the new generated ones.
 
 ## Examples

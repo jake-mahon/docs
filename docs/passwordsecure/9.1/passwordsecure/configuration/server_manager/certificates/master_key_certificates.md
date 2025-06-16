@@ -3,7 +3,7 @@
 #### What is a Master Key certificate?
 
 If Active Directory is accessed via
-[Masterkey mode](/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/advanced_view/clientmodule/organisationalstructures/directoryservices/activedirectorylink/masterkey_mode.md),
+[Masterkey mode](/docs/passwordsecure/9.1/passwordsecure/configuration/advanced_view/clientmodule/organisationalstructures/directoryservices/activedirectorylink/masterkey_mode.md),
 a certificate will be created. This has the name
 
 Active Directory: Domain:

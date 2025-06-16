@@ -18,5 +18,5 @@ The options on the Category page are:
 
     - Drop AWS DC Tables – Removes AWS data collector data and tables from the Enterprise Auditor
       database. See the
-      [Drop AWS Tables](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/aws/droptables.md)
+      [Drop AWS Tables](/docs/accessanalyzer/11.6/enterpriseauditor/admin/datacollector/aws/droptables.md)
       topic for additional information.

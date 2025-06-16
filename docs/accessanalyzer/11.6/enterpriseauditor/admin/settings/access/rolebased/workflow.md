@@ -36,14 +36,14 @@ approved by the grayed-out **Unlock Job** option in the right-click menu.
 - Publish – To publish reports which have already been generated to the Web Console
 
     - See the
-      [Report Settings Tab](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/jobs/job/properties/reportsettings.md)
+      [Report Settings Tab](/docs/accessanalyzer/11.6/enterpriseauditor/admin/jobs/job/properties/reportsettings.md)
       topic for additional information
 
 ![Report under the Results Node in the Jobs Tree](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/settings/access/rolebased/reportjobstree.webp)
 
 **Step 4 –** After a job has been successfully run, the **Job Viewer** can now view the results of
 the job under the job’s Status and Results node, or in the Web Console. See the
-[Viewing Generated Reports](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/report/view.md)
+[Viewing Generated Reports](/docs/accessanalyzer/11.6/enterpriseauditor/admin/report/view.md)
 topic for additional information.
 
 **NOTE:** The Job Builder, Job Approver, and Job Initiator may also view these results within the

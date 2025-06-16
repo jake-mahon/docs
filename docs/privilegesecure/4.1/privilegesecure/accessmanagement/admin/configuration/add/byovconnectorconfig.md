@@ -166,7 +166,7 @@ else {
 **Step 5 –** Click **Save** to create the BYOV connector.
 
 See the
-[Bring Your Own Vault (BYOV) Integration](/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/configuration/add/integrationbyov.md)
+[Bring Your Own Vault (BYOV) Integration](/docs/privilegesecure/4.1/privilegesecure/accessmanagement/admin/configuration/add/integrationbyov.md)
 topic for additional information on configuring a BYOV connector.
 
 ### Create a User
@@ -190,7 +190,7 @@ next to the account name.
 **NOTE:** Ensure the user is not already managed or added into Privilege Secure.
 
 See the
-[Credentials Dashboard](/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/dashboard/credentials.md)
+[Credentials Dashboard](/docs/privilegesecure/4.1/privilegesecure/accessmanagement/admin/dashboard/credentials.md)
 topic for additional information on creating a managed account.
 
 ### Set the Account Password
@@ -216,7 +216,7 @@ account.
 Password feature is not available.
 
 See the
-[Manage Internal Service Accounts](/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/policy/window/credentials/manageinternalserviceaccount.md)
+[Manage Internal Service Accounts](/docs/privilegesecure/4.1/privilegesecure/accessmanagement/admin/policy/window/credentials/manageinternalserviceaccount.md)
 topic for additional information on manually managing an account.
 
 ### Create an Activity
@@ -253,7 +253,7 @@ the password must be rotated once prior to use with an activity.
 NWXTECH\dgrayson).
 
 See the
-[Add Activity](/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/policy/add/activity.md)
+[Add Activity](/docs/privilegesecure/4.1/privilegesecure/accessmanagement/admin/policy/add/activity.md)
 topic for additional information on creating an Activity.
 
 ### Configure a New Policy
@@ -267,7 +267,7 @@ Follow the steps to create a Policy.
 ![Create a new policy for the BYOV Connector](/img/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/configuration/add/byovconnectorpolicy.webp)
 
 **Step 2 –** Click the **Plus** icon and create a new Policy. See the
-[Add Access Policy](/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/policy/add/accesspolicy.md)
+[Add Access Policy](/docs/privilegesecure/4.1/privilegesecure/accessmanagement/admin/policy/add/accesspolicy.md)
 topic for additional information.
 
 - Set the Type as **Resource Based** and select a Connection Profile, with **Default** being
@@ -278,17 +278,17 @@ topic for additional information.
 **Step 4 –** Once the Access Policy is created, add the following:
 
 - Users to the Policy. See the
-  [Users Tab for Resource Based Access Policies](/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/policy/tab/policyresource/users.md)
+  [Users Tab for Resource Based Access Policies](/docs/privilegesecure/4.1/privilegesecure/accessmanagement/admin/policy/tab/policyresource/users.md)
   topic for additional information.
 - Activity created for the BYOV Connector. See the
-  [Activities Tab for Resource Based Access Policies](/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/policy/tab/policyresource/activities.md)
+  [Activities Tab for Resource Based Access Policies](/docs/privilegesecure/4.1/privilegesecure/accessmanagement/admin/policy/tab/policyresource/activities.md)
   topic for additional information.
 - Associated resources intended for this Activity. See the
-  [Resources Tab for Resource Based Access Policies](/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/policy/tab/policyresource/resources.md)
+  [Resources Tab for Resource Based Access Policies](/docs/privilegesecure/4.1/privilegesecure/accessmanagement/admin/policy/tab/policyresource/resources.md)
   topic for additional information.
 
 See the
-[Add Access Policy](/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/policy/add/accesspolicy.md)
+[Add Access Policy](/docs/privilegesecure/4.1/privilegesecure/accessmanagement/admin/policy/add/accesspolicy.md)
 topic for additional information on creating an Access Policy.
 
 After completing these steps, you can use the specified manually-managed user on the resources

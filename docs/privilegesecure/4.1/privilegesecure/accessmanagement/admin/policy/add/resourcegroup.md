@@ -39,7 +39,7 @@ Follow the steps to add resource groups to the console.
 **Step 5 –** With the new resource group selected, configure the following settings:
 
 - Add resources to the resource group. See the
-  [Add Resources Window for Resource Group](/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/policy/window/resources/addresourcestogroup.md)
+  [Add Resources Window for Resource Group](/docs/privilegesecure/4.1/privilegesecure/accessmanagement/admin/policy/window/resources/addresourcestogroup.md)
   topic for additional information.
 
 The new resource group is added to the console and is shown in the Resource Groups list.

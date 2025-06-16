@@ -15,14 +15,14 @@ entitlements.
 
 | Input                                                                                                          | Output             |
 | -------------------------------------------------------------------------------------------------------------- | ------------------ |
-| [Provisioning](/versioned_docs/usercube_6.1/usercube/user-guide/administrate/provisioning/index.md) (required) | Complying accounts |
+| [Provisioning](/docs/usercube/6.1/usercube/user-guide/administrate/provisioning/index.md) (required) | Complying accounts |
 
 ## Review an Unauthorized Account
 
 Review an unauthorized account by proceeding as follows:
 
 1. Ensure that the
-   [`ComputeRoleModelTask`](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/jobs/tasks/server/computerolemodeltask/index.md)
+   [`ComputeRoleModelTask`](/docs/usercube/6.1/usercube/integration-guide/toolkit/xml-configuration/jobs/tasks/server/computerolemodeltask/index.md)
    was launched recently, through the complete job on the **Job Execution** page�
 
     ![Home Page - Job Execution](/img/versioned_docs/usercube_6.1/usercube/user-guide/set-up/synchronization/home_jobexecution_v602.webp)
@@ -51,11 +51,11 @@ Review an unauthorized account by proceeding as follows:
 
     The displayed confidence rate means that a rule actually assigned the account to the identity,
     but with a
-    [confidence rate](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/categorization/classification/index.md)
+    [confidence rate](/docs/usercube/6.1/usercube/user-guide/set-up/categorization/classification/index.md)
     too low to imply full automatic assignment. Approval will be required.
 
     The **Resource Properties** frame shows all the properties of the resources. They can be
-    [updated](/versioned_docs/usercube_6.1/usercube/user-guide/administrate/non-conforming-assignment-review/property-reconciliation/index.md)
+    [updated](/docs/usercube/6.1/usercube/user-guide/administrate/non-conforming-assignment-review/property-reconciliation/index.md)
     by clicking on the edit button.
 
     ![Edit Button](/img/versioned_docs/usercube_6.1/usercube/user-guide/administrate/non-conforming-assignment-review/unauthorized-account-review/unauth_updateprop_v522.webp)
@@ -67,7 +67,7 @@ Review an unauthorized account by proceeding as follows:
 7. Click on **Confirm Account Deletion** or **Authorize Account** according to the previous
    decision.
 8. Trigger
-   [provisioning](/versioned_docs/usercube_6.1/usercube/user-guide/administrate/provisioning/index.md)
+   [provisioning](/docs/usercube/6.1/usercube/user-guide/administrate/provisioning/index.md)
    by launching, on the appropriate connector's overview page, **Jobs** > **Generate Provisioning
    Orders**, then, after this first task is done, **Jobs** > **Fulfill**.
 

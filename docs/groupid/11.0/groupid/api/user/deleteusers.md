@@ -66,5 +66,5 @@ DELETE
 See Also
 
 - Common Errors
-- [User APIs](/versioned_docs/groupid_11.0/groupid/api/user/userapis.md)
+- [User APIs](/docs/groupid/11.0/groupid/api/user/userapis.md)
 - Group APIs

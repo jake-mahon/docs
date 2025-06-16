@@ -10,7 +10,7 @@ This topic provides information on the installation and upgrade processes of the
 Discovery Add-On. For information on the required prerequisites, see the Server Requirements topic.
 
 The version of the SharePoint Agent must also match the major version of Enterprise Auditor. See the
-[What's New](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/whatsnew.md) topic for release
+[What's New](/docs/accessanalyzer/11.6/enterpriseauditor/whatsnew.md) topic for release
 information.
 
 ## Supported Platforms
@@ -21,14 +21,14 @@ The Sensitive Data Discovery Add-On can be installed on the following servers:
     - On the Enterprise Auditor Console Server
     - On the Windows proxy server hosting the File System Proxy service
         - See the
-          [File System Proxy as a Service Overview](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/install/filesystemproxy/overview.md)
+          [File System Proxy as a Service Overview](/docs/accessanalyzer/11.6/enterpriseauditor/install/filesystemproxy/overview.md)
           topic for additional information
     - Install the Sensitive Data Add-on – FSAA & SPAA Agentless (or x86) version of the Sensitive
       Data Discovery Add-On
 - SharePoint 2013+
     - On the SharePoint server hosting the SharePoint Agent
         - See the
-          [SharePoint Agent Installation](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/install/sharepointagent/overview.md)
+          [SharePoint Agent Installation](/docs/accessanalyzer/11.6/enterpriseauditor/install/sharepointagent/overview.md)
           topic for additional information
     - Install the Sensitive Data Add-on – SPAA Agent (or x64) version of the Sensitive Data
       Discovery Add-On

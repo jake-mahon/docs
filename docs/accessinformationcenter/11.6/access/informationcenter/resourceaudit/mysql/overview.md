@@ -15,4 +15,4 @@ node in the Access Information Center. MySQL reports fall into the following cat
 
 The following report is available at the **MySQL** node:
 
-- [Sensitive Content Summary Report](/versioned_docs/accessinformationcenter_11.6/access/informationcenter/resourceaudit/mysql/sensitivecontentsummary.md)
+- [Sensitive Content Summary Report](/docs/accessinformationcenter/11.6/access/informationcenter/resourceaudit/mysql/sensitivecontentsummary.md)

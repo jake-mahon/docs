@@ -2,7 +2,7 @@
 
 The purpose of this chapter is to provide the basic steps needed for upgrading Activity Monitor. See
 the
-[Software Compatibility & Versions](/versioned_docs/activitymonitor_7.1/activitymonitor/install/overview.md#software-compatibility--versions)
+[Software Compatibility & Versions](/docs/activitymonitor/7.1/activitymonitor/install/overview.md#software-compatibility--versions)
 section for information on integration with other Netwrix products.
 
 ## Considerations
@@ -24,7 +24,7 @@ _Prerequisite_ – Ensure console and agent servers have .NET Framework 4.7.2 in
 
 **Step 1 –** Install the Activity Monitor 7.1 on the same machine where the V7.0 console resides
 following the instructions in the
-[Install Application](/versioned_docs/activitymonitor_7.1/activitymonitor/install/application.md)
+[Install Application](/docs/activitymonitor/7.1/activitymonitor/install/application.md)
 section.
 
 **CAUTION:** Launch the Activity Monitor Console and navigate to the Agents tab.

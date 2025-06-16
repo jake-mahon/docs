@@ -22,7 +22,7 @@ Administrator automatically checks the Console Operator role.
 
 _Remember,_ the Report User role was a legacy role for the IIS-based SI Reporting Console and does
 not apply to the Netwrix Threat Manager Reporting Module console. See the
-[User Access Page](/versioned_docs/threatprevention_7.4/threatprevention/reportingmodule/configuration/systemsettings/useraccess.md)
+[User Access Page](/docs/threatprevention/7.4/threatprevention/reportingmodule/configuration/systemsettings/useraccess.md)
 topic for information on granting report access.
 
 **Step 5 –** _(Optional)_ Create as many users as required before clicking OK.

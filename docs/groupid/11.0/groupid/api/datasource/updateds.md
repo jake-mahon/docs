@@ -50,5 +50,5 @@ PUT
 
 See Also
 
-- [Data Source APIs](/versioned_docs/groupid_11.0/groupid/api/datasource/datasourceapis.md)
-- [Common Errors](/versioned_docs/groupid_11.0/groupid/api/commonerrors.md)
+- [Data Source APIs](/docs/groupid/11.0/groupid/api/datasource/datasourceapis.md)
+- [Common Errors](/docs/groupid/11.0/groupid/api/commonerrors.md)

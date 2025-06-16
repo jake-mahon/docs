@@ -48,7 +48,7 @@ If you want to monitor Auditor health status in more depth, you can do the follo
 - Create a monitoring plan for this log using Event Log Manager too to collect activity data. See
   the Monitoring Overview topic for additional information.
 - Configure alerts triggered by specific events in the product's health log.
-  [Create Alerts on Health Status](/versioned_docs/auditor_10.6/auditor/admin/alertsettings/createhealthstatus.md)
+  [Create Alerts on Health Status](/docs/auditor/10.6/auditor/admin/alertsettings/createhealthstatus.md)
 
 ## Inspect Events in Health Log
 

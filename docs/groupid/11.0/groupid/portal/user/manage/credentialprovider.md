@@ -23,4 +23,4 @@ The Credential Provider package consists of:
 
 See Also
 
-- [Install GroupID Credential Provider](/versioned_docs/groupid_11.0/groupid/portal/user/manage/installcp.md)
+- [Install GroupID Credential Provider](/docs/groupid/11.0/groupid/portal/user/manage/installcp.md)

@@ -9,7 +9,7 @@ table.
 An exception is defined as a problem or risk to data governance security. Exceptions include open
 shares and permissions granted to stale or disabled users. This table is blank unless an Exception
 icon is attached to the resource in the Resources pane, indicating exceptions were found. See the
-[Resources Pane](/versioned_docs/accessinformationcenter_11.6/access/informationcenter/resourceaudit/navigate/resource.md#resources-pane)
+[Resources Pane](/docs/accessinformationcenter/11.6/access/informationcenter/resourceaudit/navigate/resource.md#resources-pane)
 topic for additional information.
 
 This report is comprised of the following columns:

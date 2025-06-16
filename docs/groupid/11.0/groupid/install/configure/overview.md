@@ -13,4 +13,4 @@ Use the Configuration Tool to configure a new GroupID server. The tool configure
 
 See Also
 
-- [Configuration Tool](/versioned_docs/groupid_11.0/groupid/install/configure/configure.md)
+- [Configuration Tool](/docs/groupid/11.0/groupid/install/configure/configure.md)

@@ -5,9 +5,9 @@ automatically. Create a Synchronize schedule and add Synchronize jobs and job co
 targets. When the schedule runs, the target jobs and job collections are executed.
 
 To create a Synchronize schedule, see the
-[Synchronize Schedule](/versioned_docs/groupid_11.0/groupid/admincenter/schedule/synchronize.md)
+[Synchronize Schedule](/docs/groupid/11.0/groupid/admincenter/schedule/synchronize.md)
 topic.
 
 See Also
 
-- [Schedules](/versioned_docs/groupid_11.0/groupid/admincenter/schedule/overview.md)
+- [Schedules](/docs/groupid/11.0/groupid/admincenter/schedule/overview.md)

@@ -6,10 +6,10 @@ based on several variables according to the type of resource. This report includ
 Source table.
 
 See the
-[Effective Access Report](/versioned_docs/accessinformationcenter_11.6/access/informationcenter/resourceaudit/filesystem/sharesubfolder/effectiveaccess.md)
+[Effective Access Report](/docs/accessinformationcenter/11.6/access/informationcenter/resourceaudit/filesystem/sharesubfolder/effectiveaccess.md)
 topic for File Systems for additional information on the effective access calculations for file
 system resources. See the
-[Effective Access Report](/versioned_docs/accessinformationcenter_11.6/access/informationcenter/resourceaudit/sharepoint/sitecollections/effectiveaccess.md)
+[Effective Access Report](/docs/accessinformationcenter/11.6/access/informationcenter/resourceaudit/sharepoint/sitecollections/effectiveaccess.md)
 topic for SharePoint for additional information on the effective access calculations for SharePoint
 resources.
 
@@ -28,7 +28,7 @@ to load until all data has been analyzed for the audited group.
 The scoping options allow Access Information Center users to specifying what collected data should
 be analyzed in order to generate this report. Unlike other filter options, this can impact the
 loading time depending on the scoping options selected. See the
-[Scope an Effective Access Report](/versioned_docs/accessinformationcenter_11.6/access/informationcenter/resourceaudit/navigate/scopeeffectiveaccess.md)
+[Scope an Effective Access Report](/docs/accessinformationcenter/11.6/access/informationcenter/resourceaudit/navigate/scopeeffectiveaccess.md)
 topic for instructions on using this feature.
 
 This report is comprised of the following columns:

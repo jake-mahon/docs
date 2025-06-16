@@ -8,7 +8,7 @@ compatible with Netwrix-provided XSD schemas.
 
 In Netwrix Auditor 9.0, Netwrix has updated API schemas. Make sure to check and update your custom
 scripts and add-ons.
-[Compatibility Notice](/versioned_docs/auditor_10.6/auditor/api/compatibility.md)
+[Compatibility Notice](/docs/auditor/10.6/auditor/api/compatibility.md)
 
 The file must be formatted in accordance with XML standard. The following symbols must be replaced
 with corresponding XML entities: & (ampersand), " (double quotes), ' (single quotes), < (less than),
@@ -29,6 +29,6 @@ preceded with the \ character: " (double quotes), / (slash), \ (backslash). E.g.
 
 Review the following for additional information:
 
-- [Continuation Mark](/versioned_docs/auditor_10.6/auditor/api/postdata/continuationmark.md)
-- [Search Parameters](/versioned_docs/auditor_10.6/auditor/api/postdata/searchparameters.md)
-- [Activity Records](/versioned_docs/auditor_10.6/auditor/api/postdata/activityrecords.md)
+- [Continuation Mark](/docs/auditor/10.6/auditor/api/postdata/continuationmark.md)
+- [Search Parameters](/docs/auditor/10.6/auditor/api/postdata/searchparameters.md)
+- [Activity Records](/docs/auditor/10.6/auditor/api/postdata/activityrecords.md)

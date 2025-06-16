@@ -5,7 +5,7 @@ sure that an SMS gateway account is linked with the identity store. Using this g
 GroupID sends confirmation codes to the users' mobile phone numbers for verification.
 
 See the
-[Manage SMS Gateway Accounts](/versioned_docs/groupid_11.0/groupid/admincenter/smsgateway/manage.md)
+[Manage SMS Gateway Accounts](/docs/groupid/11.0/groupid/admincenter/smsgateway/manage.md)
 topic for creating and managing SMS gateway accounts.
 
 What do you want to do?
@@ -20,7 +20,7 @@ The SMS authentication type must be enabled for an identity store before users c
 factor authentication and multi-factor authentication.
 
 To enable it, see the
-[Enable Authentication Types](/versioned_docs/groupid_11.0/groupid/admincenter/identitystore/configure/authtypes.md)
+[Enable Authentication Types](/docs/groupid/11.0/groupid/admincenter/identitystore/configure/authtypes.md)
 topic.
 
 ## Link an SMS Gateway Account to an Identity Store
@@ -41,7 +41,7 @@ topic.
 ## Enforce SMS Authentication for a Security Role
 
 To enforce an authentication type, see the
-[Authentication Policy for Security Roles](/versioned_docs/groupid_11.0/groupid/admincenter/securityrole/policy/authentication.md)
+[Authentication Policy for Security Roles](/docs/groupid/11.0/groupid/admincenter/securityrole/policy/authentication.md)
 topic.
 
 Role members must use an enforced authentication type for multifactor authentication. When an
@@ -50,5 +50,5 @@ and authentication.
 
 **See Also**
 
-- [Authentication Policy](/versioned_docs/groupid_11.0/groupid/admincenter/identitystore/configure/authpolicy.md)
-- [Manage SMS Gateway Accounts](/versioned_docs/groupid_11.0/groupid/admincenter/smsgateway/manage.md)
+- [Authentication Policy](/docs/groupid/11.0/groupid/admincenter/identitystore/configure/authpolicy.md)
+- [Manage SMS Gateway Accounts](/docs/groupid/11.0/groupid/admincenter/smsgateway/manage.md)

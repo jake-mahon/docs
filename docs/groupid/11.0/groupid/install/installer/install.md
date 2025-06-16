@@ -36,11 +36,11 @@ To install GroupID:
 
     Click **Close** on the title bar to close the GroupID Installer and configure GroupID later.  
     See the
-    [Configuration Tool](/versioned_docs/groupid_11.0/groupid/install/configure/configure.md) topic
+    [Configuration Tool](/docs/groupid/11.0/groupid/install/configure/configure.md) topic
     to configure GroupID.
 
 See Also
 
-- [Requirements](/versioned_docs/groupid_11.0/groupid/install/requirements.md)
-- [Preparation Tool](/versioned_docs/groupid_11.0/groupid/install/installer/preparationtool.md)
-- [Configuration Tool](/versioned_docs/groupid_11.0/groupid/install/configure/configure.md)
+- [Requirements](/docs/groupid/11.0/groupid/install/requirements.md)
+- [Preparation Tool](/docs/groupid/11.0/groupid/install/installer/preparationtool.md)
+- [Configuration Tool](/docs/groupid/11.0/groupid/install/configure/configure.md)

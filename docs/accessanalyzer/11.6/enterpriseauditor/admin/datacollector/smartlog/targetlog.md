@@ -7,9 +7,9 @@ wizard page that change based on log type. This version is a wizard page for the
 - Internet Information Server Log
 
 See the
-[SMARTLog: Target Log for Windows Event Log Type](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/smartlog/targetlogtype/windowseventlog.md)
+[SMARTLog: Target Log for Windows Event Log Type](/docs/accessanalyzer/11.6/enterpriseauditor/admin/datacollector/smartlog/targetlogtype/windowseventlog.md)
 and
-[SMARTLog: Target Log for File Detection Log Type](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/smartlog/targetlogtype/filedetectionlog.md)
+[SMARTLog: Target Log for File Detection Log Type](/docs/accessanalyzer/11.6/enterpriseauditor/admin/datacollector/smartlog/targetlogtype/filedetectionlog.md)
 topics for information on the other versions of this wizard page.
 
 ![SMART Log DC Wizard Target Log page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/smartlog/targetlog.webp)

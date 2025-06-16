@@ -1,9 +1,9 @@
 # Select Group Window
 
 The Select Group window opens from either the
-[Add New Resource Wizard](/versioned_docs/accessinformationcenter_11.6/access/informationcenter/resourceowners/wizard/add.md)
+[Add New Resource Wizard](/docs/accessinformationcenter/11.6/access/informationcenter/resourceowners/wizard/add.md)
 or the
-[Update Resource Wizard](/versioned_docs/accessinformationcenter_11.6/access/informationcenter/resourceowners/wizard/update.md).
+[Update Resource Wizard](/docs/accessinformationcenter/11.6/access/informationcenter/resourceowners/wizard/update.md).
 
 ![Select Group window](/img/versioned_docs/accessinformationcenter_11.6/access/informationcenter/resourceowners/window/selectgroup.webp)
 

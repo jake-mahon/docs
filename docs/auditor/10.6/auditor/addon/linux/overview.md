@@ -22,7 +22,7 @@ Records). Each Activity Record contains the user account, action, time, and othe
 **Step 4 –** Using the Integration API, the add-on sends the activity records to the Netwrix Auditor
 Server, which writes them to the Long-Term Archive and the Audit Database.
 
-See the [Integration API](/versioned_docs/auditor_10.6/auditor/api/overview.md) topic for additional
+See the [Integration API](/docs/auditor/10.6/auditor/api/overview.md) topic for additional
 information on the structure of the Activity Record and the capabilities of the NIntegration API.
 
 ## Prerequisites

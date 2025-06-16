@@ -20,7 +20,7 @@ The Replication service only replicates changes that are made to these objects o
 server. Changes made to these objects using Admin Center, GroupID portal, Management Shell, or the
 GroupID mobile app, are directly saved in the Elasticsearch repository and replicated to the GroupID
 database by the Data service. See the
-[Data Service](/versioned_docs/groupid_11.0/groupid/admincenter/service/dataservice/overview.md)
+[Data Service](/docs/groupid/11.0/groupid/admincenter/service/dataservice/overview.md)
 topic.
 
 Synchronize directly updates objects in the directory. As soon as objects are provisioned,
@@ -42,15 +42,15 @@ an identity store.
 
 - At the global level, you can schedule the service to run every x minutes to replicate object
   attributes to Elasticsearch. You can also manually restore object data to Elasticsearch. See the
-  [Manage Global Replication Settings](/versioned_docs/groupid_11.0/groupid/admincenter/replication/settings.md)
+  [Manage Global Replication Settings](/docs/groupid/11.0/groupid/admincenter/replication/settings.md)
   topic.
 - For an identity store, you can specify the object attributes the service should replicate to
   Elasticsearch. See the
-  [Manage Local Replication Settings](/versioned_docs/groupid_11.0/groupid/admincenter/identitystore/replication.md)
+  [Manage Local Replication Settings](/docs/groupid/11.0/groupid/admincenter/identitystore/replication.md)
   topic.
 
 NOTE: The Replication service does not replicate excluded domains for an identity store. See the
-[Exclude an Active Directory Domain from Replication](/versioned_docs/groupid_11.0/groupid/admincenter/identitystore/manage.md#exclude-an-active-directory-domain-from-replication)
+[Exclude an Active Directory Domain from Replication](/docs/groupid/11.0/groupid/admincenter/identitystore/manage.md#exclude-an-active-directory-domain-from-replication)
 topic.
 
 ## Replication Service Logs
@@ -71,6 +71,6 @@ with the original name. X in .Log.X is a number from 1 to 10 representing the ar
 
 **See Also**
 
-- [Manage Global Replication Settings](/versioned_docs/groupid_11.0/groupid/admincenter/replication/settings.md)
-- [Manage Local Replication Settings](/versioned_docs/groupid_11.0/groupid/admincenter/identitystore/replication.md)
-- [Replication Service](/versioned_docs/groupid_11.0/groupid/admincenter/service/replicationservice.md)
+- [Manage Global Replication Settings](/docs/groupid/11.0/groupid/admincenter/replication/settings.md)
+- [Manage Local Replication Settings](/docs/groupid/11.0/groupid/admincenter/identitystore/replication.md)
+- [Replication Service](/docs/groupid/11.0/groupid/admincenter/service/replicationservice.md)

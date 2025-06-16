@@ -5,7 +5,7 @@ This section identifies hardware and software requirements for Usercube's server
 ## License Key
 
 The server requires a
-[license key](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/server-configuration/general-purpose/index.md)
+[license key](/docs/usercube/6.1/usercube/integration-guide/network-configuration/server-configuration/general-purpose/index.md)
 provided by NETWRIX.
 
 ## Software
@@ -47,34 +47,34 @@ Server. Hence NETWRIX recommends using a domain account.
 ### Working directory permissions
 
 The agent's service account needs specific permissions on the
-[working directory](/versioned_docs/usercube_6.1/usercube/installation-guide/production-ready/working-directory/index.md):
+[working directory](/docs/usercube/6.1/usercube/installation-guide/production-ready/working-directory/index.md):
 
 - _Read_ and _List folder contents_ on the working directory;
 - _Read & Execute_ and _List folder contents_ on the
-  [`Runtime` directory](/versioned_docs/usercube_6.1/usercube/installation-guide/production-ready/working-directory/index.md),
+  [`Runtime` directory](/docs/usercube/6.1/usercube/installation-guide/production-ready/working-directory/index.md),
   usually `C:/Usercube<Organization>/Runtime`, in order to run the agent executable;
 - _Read_ and _List folder contents_ on the directory for provisioning orders, whose path depends on
   the
-  [`Work` folder's path](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/appsettings/index.md);
+  [`Work` folder's path](/docs/usercube/6.1/usercube/integration-guide/network-configuration/agent-configuration/appsettings/index.md);
 - _Read_, _List folder contents_, and _Write_ on the directory for data collection, whose path
   depends on the
-  [`Work` folder's path](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/appsettings/index.md).
+  [`Work` folder's path](/docs/usercube/6.1/usercube/integration-guide/network-configuration/agent-configuration/appsettings/index.md).
 
 Other permissions should be denied.
 
 > **FAQ**:
-> [How to set up directory permissions in Windows Server?](/versioned_docs/usercube_6.1/usercube/installation-guide/production-ready/server.md)
+> [How to set up directory permissions in Windows Server?](/docs/usercube/6.1/usercube/installation-guide/production-ready/server.md)
 
 ### Database permissions
 
 If Windows' authentication is used for SQL Server, then the server should be able to authenticate to
 SQL Server with its assigned service account. It means that the server's service account needs to be
 assigned an SQL Server login with the relevant
-[roles](/versioned_docs/usercube_6.1/usercube/installation-guide/requirements/database-requirements/index.md),
+[roles](/docs/usercube/6.1/usercube/installation-guide/requirements/database-requirements/index.md),
 including necessarily either `sysadmin` or `securityadmin`.
 
 For more information, see the
-[server installation procedure](/versioned_docs/usercube_6.1/usercube/installation-guide/production-ready/server.md).
+[server installation procedure](/docs/usercube/6.1/usercube/installation-guide/production-ready/server.md).
 
 ## Hostname and DNS
 
@@ -101,12 +101,12 @@ Authority.
 Usercube on-premises offering requires the use of an SSL certificate trusted by all the target
 end-users' browsers. Standard practices use a certificate signed by the target organization's Public
 Key Infrastructure (PKI) root certificate authority.
-[The on-premise SSL certificate must be set up in IIS](/versioned_docs/usercube_6.1/usercube/installation-guide/production-ready/server.md).
+[The on-premise SSL certificate must be set up in IIS](/docs/usercube/6.1/usercube/installation-guide/production-ready/server.md).
 
 ## Emails
 
 The server needs access to an SMTP server to send
-[email notifications](/versioned_docs/usercube_6.1/usercube/installation-guide/production-ready/email-server/index.md).
+[email notifications](/docs/usercube/6.1/usercube/installation-guide/production-ready/email-server/index.md).
 
 ## Encryption and Identity Server Key Pairs
 
@@ -140,4 +140,4 @@ The key pair can be generated with tools such as
 ## What's Next?
 
 Let's move on to
-[Usercube's agent requirements](/versioned_docs/usercube_6.1/usercube/installation-guide/requirements/agent-requirements/index.md).
+[Usercube's agent requirements](/docs/usercube/6.1/usercube/installation-guide/requirements/agent-requirements/index.md).

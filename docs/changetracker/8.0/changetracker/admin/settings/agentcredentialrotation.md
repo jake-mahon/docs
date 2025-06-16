@@ -6,7 +6,7 @@ described in this document.
 
 If authentication details are being rotated as part of a routine process, then the in band
 alternative is to set all agents to use new credentials from within the Hub's web console. See the
-[Agent Configuration](/versioned_docs/changetracker_8.0/changetracker/admin/settings/agentconfiguration.md)
+[Agent Configuration](/docs/changetracker/8.0/changetracker/admin/settings/agentconfiguration.md)
 topic for additional information.
 
 The scripts at the bottom of this page can be used to update authentication details on devices.

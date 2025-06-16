@@ -1,7 +1,7 @@
 # ManageConfigurationIndexesTask
 
 Manage indexes for configuration items with the
-tool[Usercube-Manage-ConfigurationDependantIndexes](/versioned_docs/usercube_6.1/usercube/integration-guide/executables/references/manage-configurationdependantindexes/index.md).
+tool[Usercube-Manage-ConfigurationDependantIndexes](/docs/usercube/6.1/usercube/integration-guide/executables/references/manage-configurationdependantindexes/index.md).
 
 ## Examples
 

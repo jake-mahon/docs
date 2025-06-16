@@ -11,7 +11,7 @@ Thresholds can be deactivated via the value `0`, though **they should not all be
 be "guarded" by at least one threshold.
 
 Once the changes have been reviewed,
-[the blocked job can be resumed](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/synchronization/index.md)
+[the blocked job can be resumed](/docs/usercube/6.1/usercube/user-guide/set-up/synchronization/index.md)
 (or not).
 
 As long as a synchronization job is blocked for a connector, the export, prepare-synchronization and
@@ -23,7 +23,7 @@ launched in complete mode.
 
 Synchronization thresholds can be configured in XML files via:
 
-- [entity type mappings](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/connectors/entitytypemapping/index.md)
+- [entity type mappings](/docs/usercube/6.1/usercube/integration-guide/toolkit/xml-configuration/connectors/entitytypemapping/index.md)
   to count the number of resources impacted by synchronization inside a given entity type. They are
   configured with:
 
@@ -33,7 +33,7 @@ Synchronization thresholds can be configured in XML files via:
     | `MaximumInsertedLines` | `MaxPercentageInsertedLines` |
     | `MaximumUpdatedLines`  | `MaxPercentageUpdatedLines`  |
 
-- [entity association mappings](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/connectors/entityassociationmapping/index.md)
+- [entity association mappings](/docs/usercube/6.1/usercube/integration-guide/toolkit/xml-configuration/connectors/entityassociationmapping/index.md)
   to count the number of navigation properties impacted by synchronization inside a given entity
   type. They are configured with:
 
@@ -42,7 +42,7 @@ Synchronization thresholds can be configured in XML files via:
     | `MaximumLinkDeletedLines`  | `MaxLinkPercentageDeletedLines`  |
     | `MaximumLinkInsertedLines` | `MaxLinkPercentageInsertedLines` |
 
-- [connectors](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/connectors/connector/index.md)
+- [connectors](/docs/usercube/6.1/usercube/integration-guide/toolkit/xml-configuration/connectors/connector/index.md)
   to count the number of resources and/or navigation properties impacted by synchronization inside
   all entity types of a given connector. They are configured with:
 
@@ -71,4 +71,4 @@ synchronization as soon as the number of modifications exceeds the connector's t
 resources or 1000 navigation properties).
 
 Distinct
-[thresholds are configurable for provisioning](/versioned_docs/usercube_6.1/usercube/integration-guide/provisioning/prov-thresholds/index.md).
+[thresholds are configurable for provisioning](/docs/usercube/6.1/usercube/integration-guide/provisioning/prov-thresholds/index.md).

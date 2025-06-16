@@ -20,7 +20,7 @@ The Status node tables are:
     **NOTE:** The Job Statistics Retention settings in the **Settings** > **Application** node
     control how long the job statistics history is kept in the database and displayed Job Stats and
     Task Stats tables. See the
-    [Application](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/settings/application/overview.md)
+    [Application](/docs/accessanalyzer/11.6/enterpriseauditor/admin/settings/application/overview.md)
     topic for additional information.
 
 - Messages table – Provides a list of any warning or error messages that occurred during the

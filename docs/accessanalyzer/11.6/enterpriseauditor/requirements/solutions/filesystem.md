@@ -2,12 +2,12 @@
 
 The core components for Netwrix Enterprise Auditor are the Enterprise Auditor Console server, SQL
 Server, and Access Information Center. See the
-[Requirements](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/requirements/overview.md)
+[Requirements](/docs/accessanalyzer/11.6/enterpriseauditor/requirements/overview.md)
 topic for the core requirements.
 
 The File System solution can be configure to use Proxy servers either an applet or as a service. See
 the
-[File System Scan Options](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/requirements/solutions/filesystem/scanoptions.md)
+[File System Scan Options](/docs/accessanalyzer/11.6/enterpriseauditor/requirements/solutions/filesystem/scanoptions.md)
 topic for additional information.
 
 In addition to these, integration with either the Netwrix Activity Monitor or the Netwrix Threat
@@ -25,8 +25,8 @@ Discovery Add-On to be installed on those servers as well.
 
 See the following topics for target environment requirements:
 
-- [File System Scan Options](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/requirements/solutions/filesystem/scanoptions.md)
-- [File System Supported Platforms](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/requirements/target/filesystems.md)
+- [File System Scan Options](/docs/accessanalyzer/11.6/enterpriseauditor/requirements/solutions/filesystem/scanoptions.md)
+- [File System Supported Platforms](/docs/accessanalyzer/11.6/enterpriseauditor/requirements/target/filesystems.md)
 
 ## File System Solution Requirements on the Enterprise Auditor Console
 
@@ -106,9 +106,9 @@ application, when manually executing jobs from the console, or the Schedule Serv
 within Enterprise Auditor, when running jobs as a scheduled tasks.
 
 See the
-[File System Scan Options](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/requirements/solutions/filesystem/scanoptions.md)
+[File System Scan Options](/docs/accessanalyzer/11.6/enterpriseauditor/requirements/solutions/filesystem/scanoptions.md)
 topic and the
-[File System Supported Platforms](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/requirements/target/filesystems.md)
+[File System Supported Platforms](/docs/accessanalyzer/11.6/enterpriseauditor/requirements/target/filesystems.md)
 topic for permissions required to scan the environment.
 
 ## File System Solution Requirements on the SQL Server

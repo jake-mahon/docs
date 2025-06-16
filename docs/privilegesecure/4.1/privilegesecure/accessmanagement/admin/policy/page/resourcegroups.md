@@ -12,7 +12,7 @@ has the following features:
 - Search — Searches the table or list for matches to the search string. When matches are found, the
   table or list is filtered to the matching results.
 - Blue + button — Create a resource group. See the
-  [Add a Resource Group](/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/policy/add/resourcegroup.md)
+  [Add a Resource Group](/docs/privilegesecure/4.1/privilegesecure/accessmanagement/admin/policy/add/resourcegroup.md)
   topic for additional information.
 - Copy icon — Duplicates the resource group. Icon appears when group is hovered over.
 - Trashcan icon — Deletes the resource group. Icon appears when group is hovered over. A
@@ -39,7 +39,7 @@ based on the type of resource group:
   resources in this group should be automatically managed when the resource is on-boarded. The
   account to be managed will correspond with the **Built-in Account** field on the resource's
   platform. See the
-  [Platforms Page](/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/policy/page/platforms/overview.md)
+  [Platforms Page](/docs/privilegesecure/4.1/privilegesecure/accessmanagement/admin/policy/page/platforms/overview.md)
   topic for additional information.
 
     - Off (Do Not Manage Accounts) — Do not manage any Local Administrator accounts on the resources
@@ -57,7 +57,7 @@ The table has the following features:
 - Search — Searches the table or list for matches to the search string. When matches are found, the
   table or list is filtered to the matching results.
 - Add — Opens the Add Resources window. See the
-  [Add Resources Window for Resource Group](/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/policy/window/resources/addresourcestogroup.md)
+  [Add Resources Window for Resource Group](/docs/privilegesecure/4.1/privilegesecure/accessmanagement/admin/policy/window/resources/addresourcestogroup.md)
   topic for additional information.
 - Remove — Removes the selected item from the group
 - Manage — Set the selected account to be managed by Privilege Secure. This button is only available
@@ -66,11 +66,11 @@ The table has the following features:
 - Unmanage — Remove the account from being managed by Privilege Secure
 - Change Platform — Opens the Change Platform window to modify the type of platform for the selected
   host resource. See the
-  [Change Platform Window](/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/policy/window/resources/changeplatform.md)
+  [Change Platform Window](/docs/privilegesecure/4.1/privilegesecure/accessmanagement/admin/policy/window/resources/changeplatform.md)
   topic for additional information.
 - Change Service Account — Opens the Change Service Account window to modify the service account
   associated with the selected host resource. See the
-  [Change Service Account Window](/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/policy/window/resources/changeserviceaccount.md)
+  [Change Service Account Window](/docs/privilegesecure/4.1/privilegesecure/accessmanagement/admin/policy/window/resources/changeserviceaccount.md)
   topic for additional information.
 - Schedule Rotation — Add the credential rotation task to the queue. This button is only available
   when the Method is Automatic managed.

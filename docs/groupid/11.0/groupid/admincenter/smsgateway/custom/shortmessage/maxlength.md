@@ -27,4 +27,4 @@ more from the gateway.
 
 See Also
 
-- [ShortMessage class](/versioned_docs/groupid_11.0/groupid/admincenter/smsgateway/custom/shortmessage/class.md)
+- [ShortMessage class](/docs/groupid/11.0/groupid/admincenter/smsgateway/custom/shortmessage/class.md)

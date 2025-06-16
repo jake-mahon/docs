@@ -7,7 +7,7 @@ they will not be able to sign into GroupID.
 To enroll, a user must register his or her identity store account in GroupID using one or more
 authentication types. When a user enrolls for multifactor authentication, it also suffices for
 second factor authentication, and vice versa. See the
-[Authentication Policy](/versioned_docs/groupid_11.0/groupid/admincenter/identitystore/configure/authpolicy.md)
+[Authentication Policy](/docs/groupid/11.0/groupid/admincenter/identitystore/configure/authpolicy.md)
 topic for a list of supported authentication types.
 
 Account enrollment is a one-time process. Enrolled users must authenticate their identity store
@@ -17,7 +17,7 @@ accounts every time they have to pass multifactor or second factor authenticatio
   authentication type.
 - For multifactor authentication, a user may have to enroll with more than one authentication type,
   depending on what the administrator has configured for a security role. See
-  the[Enforce Authentication Types for Multifactor Authentication](/versioned_docs/groupid_11.0/groupid/admincenter/securityrole/policy/authentication.md#enforce-authentication-types-for-multifactor-authentication)
+  the[Enforce Authentication Types for Multifactor Authentication](/docs/groupid/11.0/groupid/admincenter/securityrole/policy/authentication.md#enforce-authentication-types-for-multifactor-authentication)
   topic.
 
 What do you want to do?
@@ -34,7 +34,7 @@ What do you want to do?
 To enroll your identity store account with the Security Questions authentication type, select a
 question and then provide an answer for it. The number of questions you must answer are configured
 by the administrator for your role. See the
-[Define Security Question Settings for a Security Role](/versioned_docs/groupid_11.0/groupid/admincenter/securityrole/policy/password.md#define-security-question-settings-for-a-security-role)
+[Define Security Question Settings for a Security Role](/docs/groupid/11.0/groupid/admincenter/securityrole/policy/password.md#define-security-question-settings-for-a-security-role)
 topic.
 
 **To enroll with security questions:**
@@ -45,7 +45,7 @@ topic.
    page represent the different authentication types the administrator has enabled for enrollment.  
    You can also launch the **Your Enrollments** page from Admin Center and the GroupID portal. See
    the
-   [Enroll your Account](/versioned_docs/groupid_11.0/groupid/admincenter/general/accessapplications.md#enroll-your-account)
+   [Enroll your Account](/docs/groupid/11.0/groupid/admincenter/general/accessapplications.md#enroll-your-account)
    topic.
 3. Click the **Security Question** tab.
 4. From a **Question X** list, select a security question of your choice (X represents the question
@@ -63,7 +63,7 @@ sends a verification code to this number via SMS and you have to enter it in Gro
 successfully.
 
 To draft the SMS message text, see the
-[Link an SMS Gateway Account to an Identity Store](/versioned_docs/groupid_11.0/groupid/admincenter/identitystore/configure/security/smsauthentication.md#link-an-sms-gateway-account-to-an-identity-store)
+[Link an SMS Gateway Account to an Identity Store](/docs/groupid/11.0/groupid/admincenter/identitystore/configure/security/smsauthentication.md#link-an-sms-gateway-account-to-an-identity-store)
 topic.
 
 **To enroll using mobile:**
@@ -74,7 +74,7 @@ topic.
    page represent the different authentication types the administrator has enabled for enrollment.  
    You can also launch the **Your Enrollments** page from Admin Center and the GroupID portal. See
    the
-   [Enroll your Account](/versioned_docs/groupid_11.0/groupid/admincenter/general/accessapplications.md#enroll-your-account)
+   [Enroll your Account](/docs/groupid/11.0/groupid/admincenter/general/accessapplications.md#enroll-your-account)
    topic.
 3. Click the **Mobile** tab.
 4. Select your country and then type your mobile number in the box.
@@ -93,7 +93,7 @@ sends a verification code to this email address and you have to enter it in Grou
 successfully.
 
 To draft a subject line and body for the email, see the
-[Modify the Email Template](/versioned_docs/groupid_11.0/groupid/admincenter/setupauth/email.md#modify-the-email-template)
+[Modify the Email Template](/docs/groupid/11.0/groupid/admincenter/setupauth/email.md#modify-the-email-template)
 topic.
 
 **To enroll using email:**
@@ -104,7 +104,7 @@ topic.
    page represent the different authentication types the administrator has enabled for enrollment.  
    You can also launch the **Your Enrollments** page from Admin Center and the GroupID portal. See
    the
-   [Enroll your Account](/versioned_docs/groupid_11.0/groupid/admincenter/general/accessapplications.md#enroll-your-account)
+   [Enroll your Account](/docs/groupid/11.0/groupid/admincenter/general/accessapplications.md#enroll-your-account)
    topic.
 3. Click the **Email** tab.
 4. Type your email address in the box and click **Send verification code**.
@@ -128,7 +128,7 @@ Google Authenticator or Microsoft Authenticator, on your phone.
    page represent the different authentication types the administrator has enabled for enrollment.  
    You can also launch the **Your Enrollments** page from Admin Center and the GroupID portal. See
    the
-   [Enroll your Account](/versioned_docs/groupid_11.0/groupid/admincenter/general/accessapplications.md#enroll-your-account)
+   [Enroll your Account](/docs/groupid/11.0/groupid/admincenter/general/accessapplications.md#enroll-your-account)
    topic.
 3. Click the **Authenticator** tab.
 4. Scan the QR code with the authenticator app installed on your smartphone.  
@@ -144,7 +144,7 @@ Google Authenticator or Microsoft Authenticator, on your phone.
    page represent the different authentication types the administrator has enabled for enrollment.  
    You can also launch the **Your Enrollments** page from Admin Center and the GroupID portal. See
    the
-   [Enroll your Account](/versioned_docs/groupid_11.0/groupid/admincenter/general/accessapplications.md#enroll-your-account)
+   [Enroll your Account](/docs/groupid/11.0/groupid/admincenter/general/accessapplications.md#enroll-your-account)
    topic.
 3. Insert the YubiKey device in the USB slot of your computer.
 4. Click the **YubiKey** tab.
@@ -167,7 +167,7 @@ GroupID allows enrollment on one Windows Hello device only.
    page represent the different authentication types the administrator has enabled for enrollment.  
    You can also launch the **Your Enrollments** page from Admin Center and the GroupID portal. See
    the
-   [Enroll your Account](/versioned_docs/groupid_11.0/groupid/admincenter/general/accessapplications.md#enroll-your-account)
+   [Enroll your Account](/docs/groupid/11.0/groupid/admincenter/general/accessapplications.md#enroll-your-account)
    topic.
 3. Click the **Windows Hello** tab.
 4. Enter a name for your authentication device in the box and click **Start Registration**. You will
@@ -175,7 +175,7 @@ GroupID allows enrollment on one Windows Hello device only.
 
 **See Also**
 
-- [Authentication Policy](/versioned_docs/groupid_11.0/groupid/admincenter/identitystore/configure/authpolicy.md)
-- [Enable Authentication Types](/versioned_docs/groupid_11.0/groupid/admincenter/identitystore/configure/authtypes.md)
-- [Authentication Policy for Security Roles](/versioned_docs/groupid_11.0/groupid/admincenter/securityrole/policy/authentication.md)
-- [Authenticate with Authentication Types](/versioned_docs/groupid_11.0/groupid/admincenter/authenticate.md)
+- [Authentication Policy](/docs/groupid/11.0/groupid/admincenter/identitystore/configure/authpolicy.md)
+- [Enable Authentication Types](/docs/groupid/11.0/groupid/admincenter/identitystore/configure/authtypes.md)
+- [Authentication Policy for Security Roles](/docs/groupid/11.0/groupid/admincenter/securityrole/policy/authentication.md)
+- [Authenticate with Authentication Types](/docs/groupid/11.0/groupid/admincenter/authenticate.md)

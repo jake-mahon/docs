@@ -18,6 +18,6 @@ Follow the steps to add a Protection policy to the console.
 The new protection policy has been created. The next step is to associate Resources, Users, and
 Schedule to the policy. See the following topics for additional information:
 
-- [Resources Tab for Protection Policies](/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/policy/tab/policyprotection/resources.md)
-- [Allowed Members Tab for Protection Policies](/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/policy/tab/policyprotection/allowedmembers.md)
-- [Schedule Tab for Protection Policies](/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/policy/tab/policyprotection/schedule.md)
+- [Resources Tab for Protection Policies](/docs/privilegesecure/4.1/privilegesecure/accessmanagement/admin/policy/tab/policyprotection/resources.md)
+- [Allowed Members Tab for Protection Policies](/docs/privilegesecure/4.1/privilegesecure/accessmanagement/admin/policy/tab/policyprotection/allowedmembers.md)
+- [Schedule Tab for Protection Policies](/docs/privilegesecure/4.1/privilegesecure/accessmanagement/admin/policy/tab/policyprotection/schedule.md)

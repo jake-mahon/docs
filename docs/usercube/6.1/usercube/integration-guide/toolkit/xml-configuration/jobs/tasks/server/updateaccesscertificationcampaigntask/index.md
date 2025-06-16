@@ -2,9 +2,9 @@
 
 Starts or stops the access certification campaigns according to their `StartDate` and `EndDate`. The
 task also computes the Access Certification Items to certify (applying
-[Access Certification Data Filter](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/access-certification/accesscertificationdatafilter/index.md)
+[Access Certification Data Filter](/docs/usercube/6.1/usercube/integration-guide/toolkit/xml-configuration/access-certification/accesscertificationdatafilter/index.md)
 and
-[Access Certification Owner Filter](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/access-certification/accesscertificationownerfilter/index.md)),
+[Access Certification Owner Filter](/docs/usercube/6.1/usercube/integration-guide/toolkit/xml-configuration/access-certification/accesscertificationownerfilter/index.md)),
 and fill the database with them.
 
 ## Examples

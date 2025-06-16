@@ -3,7 +3,7 @@
 The Password Policy Client reduces user frustration and password related helpdesk calls by helping
 users to choose a compliant password. You do not have to install the Password Policy Client to use
 Password Policy Enforcer, but the
-[Similarity Rule](/versioned_docs/passwordreset_3.23/password_policy_enforcer/administration/rules.md#similarity-rule)
+[Similarity Rule](/docs/passwordreset/3.23/password_policy_enforcer/administration/rules.md#similarity-rule)
 is only enforced if the PPC is installed.
 
 The PPC helps users to choose a compliant password by explaining the password policy to them, and by
@@ -45,7 +45,7 @@ Policy, or use your regular software distribution tool to do the same.
 A distribution point can either be a UNC path to a server share, or a DFS (Distributed File System)
 path. You can use the distribution point you created earlier for Password Policy Enforcer to
 distribute the PPC. See the
-[Automated Installation (Advanced Setup)](/versioned_docs/passwordreset_3.23/password_policy_enforcer/administration/installation.md#automated-installation-advanced-setup)
+[Automated Installation (Advanced Setup)](/docs/passwordreset/3.23/password_policy_enforcer/administration/installation.md#automated-installation-advanced-setup)
 topic for additional information.
 
 If you did not create a distribution point for Password Policy Enforcer, then create one now.

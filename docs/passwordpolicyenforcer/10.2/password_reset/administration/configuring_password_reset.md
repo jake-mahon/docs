@@ -9,10 +9,10 @@ Configuration Console.
 
 Information about the configuration console tabs can be found in the following topics:
 
-- [General Tab](/versioned_docs/passwordpolicyenforcer_10.2/password_reset/administration/general_tab.md)
-- [Enroll Tab](/versioned_docs/passwordpolicyenforcer_10.2/password_reset/administration/enroll_tab.md)
-- [E-mail Tab](/versioned_docs/passwordpolicyenforcer_10.2/password_reset/administration/email_tab.md)
-- [Verification Tab](/versioned_docs/passwordpolicyenforcer_10.2/password_reset/administration/verification_tab.md)
-- [Security Tab](/versioned_docs/passwordpolicyenforcer_10.2/password_reset/administration/security_tab.md)
-- [Permissions Tab](/versioned_docs/passwordpolicyenforcer_10.2/password_reset/administration/permissions_tab.md)
-- [About Tab](/versioned_docs/passwordpolicyenforcer_10.2/password_reset/administration/about_tab.md)
+- [General Tab](/docs/passwordpolicyenforcer/10.2/password_reset/administration/general_tab.md)
+- [Enroll Tab](/docs/passwordpolicyenforcer/10.2/password_reset/administration/enroll_tab.md)
+- [E-mail Tab](/docs/passwordpolicyenforcer/10.2/password_reset/administration/email_tab.md)
+- [Verification Tab](/docs/passwordpolicyenforcer/10.2/password_reset/administration/verification_tab.md)
+- [Security Tab](/docs/passwordpolicyenforcer/10.2/password_reset/administration/security_tab.md)
+- [Permissions Tab](/docs/passwordpolicyenforcer/10.2/password_reset/administration/permissions_tab.md)
+- [About Tab](/docs/passwordpolicyenforcer/10.2/password_reset/administration/about_tab.md)

@@ -194,11 +194,11 @@ Permissions are discussed in the following table:
 | 5.  | Remove user / group                  | Enables role members to remove users and groups from the permission list of document libraries in the site. Removed users and groups will not be able to access the respective document library in the site.                                                                                                                                                                                                                                                      |
 
 NOTE: For more information on role permissions, see the
-[User Roles in Microsoft Entra ID and GroupID](/versioned_docs/groupid_11.0/groupid/admincenter/identitystore/moreinfo/advsentraid.md#user-roles-in-microsoft-entra-id-and-groupid)
+[User Roles in Microsoft Entra ID and GroupID](/docs/groupid/11.0/groupid/admincenter/identitystore/moreinfo/advsentraid.md#user-roles-in-microsoft-entra-id-and-groupid)
 topic.
 
 **See Also**
 
-- [Security Roles](/versioned_docs/groupid_11.0/groupid/admincenter/securityrole/overview.md)
-- [Create a Security Role](/versioned_docs/groupid_11.0/groupid/admincenter/securityrole/create.md)
-- [Manage Security Roles](/versioned_docs/groupid_11.0/groupid/admincenter/securityrole/manage.md)
+- [Security Roles](/docs/groupid/11.0/groupid/admincenter/securityrole/overview.md)
+- [Create a Security Role](/docs/groupid/11.0/groupid/admincenter/securityrole/create.md)
+- [Manage Security Roles](/docs/groupid/11.0/groupid/admincenter/securityrole/manage.md)

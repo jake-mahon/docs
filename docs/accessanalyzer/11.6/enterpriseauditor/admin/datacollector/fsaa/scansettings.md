@@ -22,7 +22,7 @@ In the middle section, select the desired checkboxes for additional settings:
   this wizard to scan for protection labels and encrypted files for sensitive data
 
     - See the
-      [Azure Information Protection Target Requirements](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/requirements/target/config/azureinformationprotection.md)
+      [Azure Information Protection Target Requirements](/docs/accessanalyzer/11.6/enterpriseauditor/requirements/target/config/azureinformationprotection.md)
       for additional information.
 
 - Use SQL query to manually specify shares – For advanced SQL users. This option provides a least

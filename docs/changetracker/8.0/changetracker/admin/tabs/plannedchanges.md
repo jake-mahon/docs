@@ -30,5 +30,5 @@ list of devices with changes below.
 ![PlannedChangesTab](/img/versioned_docs/changetracker_8.0/changetracker/admin/tabs/plannedchangestab.webp)
 
 For more detail on Planned Change Schedule and Rule setup, see the
-[Planned Changes Administration](/versioned_docs/changetracker_8.0/changetracker/admin/tabs/plannedchangeadministration.md)
+[Planned Changes Administration](/docs/changetracker/8.0/changetracker/admin/tabs/plannedchangeadministration.md)
 topic for additional information.

@@ -17,20 +17,20 @@ target host:
 These permissions grant the credential the ability to enumerate shares, access the remote registry,
 and bypass NTFS security on folders. The credential used within the assigned Connection Profile for
 these target hosts requires these permissions. See the
-[NetApp Data ONTAP 7-Mode Access & Sensitive Data Auditing Configuration](/versioned_docs/enterpriseauditor_11.6/config/netapp7mode/access.md)
+[NetApp Data ONTAP 7-Mode Access & Sensitive Data Auditing Configuration](/docs/accessanalyzer/11.6/config/netapp7mode/access.md)
 topic for instructions.
 
 **NOTE:** These permissions are in addition to those needed to either deploy applet scans for
 running scans in proxy mode with applet or installing the File System Proxy Service Permissions for
 running scans in proxy mode as a service. See the
-[File System Scan Options](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/requirements/solutions/filesystem/scanoptions.md)
+[File System Scan Options](/docs/accessanalyzer/11.6/enterpriseauditor/requirements/solutions/filesystem/scanoptions.md)
 topic for additional information.
 
 ## Access & Sensitive Data Auditing Port Requirements
 
 The firewall ports required by Enterprise Auditor for Access Auditing (FSAA) and/or Sensitive Data
 Discovery Auditing scans are based on the File System scan mode to be used. See the
-[File System Scan Options](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/requirements/solutions/filesystem/scanoptions.md)
+[File System Scan Options](/docs/accessanalyzer/11.6/enterpriseauditor/requirements/solutions/filesystem/scanoptions.md)
 topic for additional information.
 
 ## Activity Auditing Permissions
@@ -87,7 +87,7 @@ The credential must also have the following permissions on the target device:
     - ONTAP Backup Operators
 
 See the
-[NetApp Data ONTAP 7-Mode Activity Auditing Configuration](/versioned_docs/enterpriseauditor_11.6/config/netapp7mode/activity.md)
+[NetApp Data ONTAP 7-Mode Activity Auditing Configuration](/docs/accessanalyzer/11.6/config/netapp7mode/activity.md)
 topic for instructions.
 
 Activity Monitor Archive Location

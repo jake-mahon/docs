@@ -45,5 +45,5 @@ What do you want to do?
 
 **See Also**
 
-- [Design a Portal with Display Types](/versioned_docs/groupid_11.0/groupid/admincenter/portal/displaytype/overview.md)
-- [Specify Attributes for the Object Card](/versioned_docs/groupid_11.0/groupid/admincenter/portal/design/objectcard.md)
+- [Design a Portal with Display Types](/docs/groupid/11.0/groupid/admincenter/portal/displaytype/overview.md)
+- [Specify Attributes for the Object Card](/docs/groupid/11.0/groupid/admincenter/portal/design/objectcard.md)

@@ -6,7 +6,7 @@ configuration must be validated to ensure events are being monitored.
 ## Validate CEE Registry Key Settings
 
 **NOTE:** See the
-[Configure Dell Registry Key Settings](/versioned_docs/enterpriseauditor_11.6/config/dellcelerravnx/installcee.md#configure-dell-registry-key-settings)
+[Configure Dell Registry Key Settings](/docs/accessanalyzer/11.6/config/dellcelerravnx/installcee.md#configure-dell-registry-key-settings)
 topic for information on manually setting the registry key.
 
 After the Activity Monitor activity agent has been configured to monitor the Dell device, it will

@@ -11,7 +11,7 @@ only locked jobs can be run. Therefore, the Job Initiator can only run or schedu
 already been locked.
 
 **NOTE:** Locked jobs do not affect the functionality of the Administrator role. See the
-[Role Definitions](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/settings/access/rolebased/roledefinitions.md)
+[Role Definitions](/docs/accessanalyzer/11.6/enterpriseauditor/admin/settings/access/rolebased/roledefinitions.md)
 topic for more information.
 
 How can I make sure that a lock on a job will not get tampered with through the associated XML file?
@@ -24,9 +24,9 @@ the associated XML file.
 
 **NOTE:** If using a Job Initiator’s credentials for a Schedule Service Account, all jobs must be
 locked in order for them to be executed. See the
-[Role Definitions](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/settings/access/rolebased/roledefinitions.md)
+[Role Definitions](/docs/accessanalyzer/11.6/enterpriseauditor/admin/settings/access/rolebased/roledefinitions.md)
 and
-[Roles & the Schedule Service Account](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/settings/access/rolebased/scheduleserviceaccount.md)
+[Roles & the Schedule Service Account](/docs/accessanalyzer/11.6/enterpriseauditor/admin/settings/access/rolebased/scheduleserviceaccount.md)
 topics for more information.
 
 Why can the Host Management Administrator not manage settings for the Host Discovery and Host
@@ -37,7 +37,7 @@ Therefore, this role does not grant access to the global settings menu under the
 
 **NOTE:** In order to access this node, the user must have either the Administrator or the Global
 Options Administrator role. See the
-[Role Definitions](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/settings/access/rolebased/roledefinitions.md)
+[Role Definitions](/docs/accessanalyzer/11.6/enterpriseauditor/admin/settings/access/rolebased/roledefinitions.md)
 topic for more information.
 
 What rights do I need to give the user on the local machine in order to use Enterprise Auditor?
@@ -56,9 +56,9 @@ membership. The capabilities of the new role will not come into effect until the
 application has been restarted.
 
 **NOTE:** See the
-[Edit Role Members' Responsibilities](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/settings/access/rolebased/assignroles.md#edit-role-members-responsibilities)
+[Edit Role Members' Responsibilities](/docs/accessanalyzer/11.6/enterpriseauditor/admin/settings/access/rolebased/assignroles.md#edit-role-members-responsibilities)
 and
-[Delete Role Member](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/settings/access/rolebased/assignroles.md#delete-role-member)
+[Delete Role Member](/docs/accessanalyzer/11.6/enterpriseauditor/admin/settings/access/rolebased/assignroles.md#delete-role-member)
 topics for more information.
 
 I locked a job, but when going back to it, it appears to be unlocked. Why?
@@ -72,10 +72,10 @@ Auditor Event Log.
 
 **NOTE:** If using a Job Initiator’s credentials for the Schedule Service Account, all jobs must be
 locked in order for them to execute. See the
-[Role Definitions](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/settings/access/rolebased/roledefinitions.md),
-[Workflow with Role Based Access Enabled](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/settings/access/rolebased/workflow.md),
+[Role Definitions](/docs/accessanalyzer/11.6/enterpriseauditor/admin/settings/access/rolebased/roledefinitions.md),
+[Workflow with Role Based Access Enabled](/docs/accessanalyzer/11.6/enterpriseauditor/admin/settings/access/rolebased/workflow.md),
 and
-[Roles and the Event Log](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/settings/access/rolebased/eventlog.md)
+[Roles and the Event Log](/docs/accessanalyzer/11.6/enterpriseauditor/admin/settings/access/rolebased/eventlog.md)
 topics for more information.
 
 What should be the group type when assigning Role Based Access to an AD group in a multi-domain

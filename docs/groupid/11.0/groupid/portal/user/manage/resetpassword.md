@@ -8,7 +8,7 @@ The new password must meet the complexity requirements specified for the identit
 
 1. Select the account from the list.
 2. Search for the user whose password you need to reset on the
-   [Directory Search](/versioned_docs/groupid_11.0/groupid/portal/search/search.md) dialog box.
+   [Directory Search](/docs/groupid/11.0/groupid/portal/search/search.md) dialog box.
 3. On the toolbars tab, select **Reset Password** enter the information for the given fields:
 
     - **Identity Store** - Shows the name of the identity store the portal is connected to.
@@ -23,5 +23,5 @@ The new password must meet the complexity requirements specified for the identit
 
 **See Also**
 
-- [Access Portal](/versioned_docs/groupid_11.0/groupid/portal/login.md)
-- [Dashboard](/versioned_docs/groupid_11.0/groupid/portal/dashboard.md)
+- [Access Portal](/docs/groupid/11.0/groupid/portal/login.md)
+- [Dashboard](/docs/groupid/11.0/groupid/portal/dashboard.md)

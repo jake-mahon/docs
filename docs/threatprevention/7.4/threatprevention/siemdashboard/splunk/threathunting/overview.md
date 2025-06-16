@@ -43,7 +43,7 @@ run `<ifconfig>`. If Splunk is hosted on a Windows machine, run `<ipconfig>`. Th
 required for the following:
 
 - To configure Threat Prevention to send data to Splunk. See the
-  [SIEM Tab](/versioned_docs/threatprevention_7.4/threatprevention/admin/configuration/systemalerting/siem.md)
+  [SIEM Tab](/docs/threatprevention/7.4/threatprevention/admin/configuration/systemalerting/siem.md)
   topic for additional information.
 - To configure Netwrix File Activity Monitor to send data to Splunk. See the File Activity Monitor
   App for Splunk topic in the

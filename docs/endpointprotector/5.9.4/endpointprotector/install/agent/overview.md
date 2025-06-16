@@ -5,7 +5,7 @@ Server on the protected endpoints (Windows, Mac, and Linux).
 
 You can download the Endpoint Protector Agent directly from the Endpoint Protector UI. For detailed
 information about downloading the Endpoint Protector Agent, refer to the
-[Client Software](/versioned_docs/endpointprotector_5.9.4/endpointprotector/admin/systemconfiguration/overview.md#client-software)
+[Client Software](/docs/endpointprotector/5.9.4/endpointprotector/admin/systemconfiguration/overview.md#client-software)
 topic.
 
 **NOTE:** You can use tools like Active Directory or JAMF to deploy the Endpoint Protector Agent in
@@ -193,7 +193,7 @@ define specific applications or processes associated with WSL that you want to r
 Follow the steps to use use Denylists to control WSL applications.
 
 **Step 1 –** Navigate to the
-[Denylists and Allowlists](/versioned_docs/endpointprotector_5.9.4/endpointprotector/admin/denylistsallowlists/overview.md)
+[Denylists and Allowlists](/docs/endpointprotector/5.9.4/endpointprotector/admin/denylistsallowlists/overview.md)
 section within the Endpoint Protector Console.
 
 **Step 2 –** Create a new **Denylist entry**.

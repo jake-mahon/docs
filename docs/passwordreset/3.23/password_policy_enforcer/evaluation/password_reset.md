@@ -9,7 +9,7 @@ password, reset a forgotten password, and unlock their account without calling t
 includes the Password Reset Client, which allows users to access APR from the Windows Logon and
 Unlock screens.
 
-The [Web](/versioned_docs/passwordreset_3.23/password_policy_enforcer/web/web_overview.md)
+The [Web](/docs/passwordreset/3.23/password_policy_enforcer/web/web_overview.md)
 application allows users to change their password from a web browser.
 
 Go

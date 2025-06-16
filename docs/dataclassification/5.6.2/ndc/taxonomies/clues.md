@@ -88,6 +88,6 @@ support for stemming and/or stop-word analysis:
 
 See also:
 
-[Types of Clues](/versioned_docs/dataclassification_5.6.2/ndc/taxonomies/clues_types.md)
+[Types of Clues](/docs/dataclassification/5.6.2/ndc/taxonomies/clues_types.md)
 
-[Manage Clues](/versioned_docs/dataclassification_5.6.2/ndc/taxonomies/manage_clues.md)
+[Manage Clues](/docs/dataclassification/5.6.2/ndc/taxonomies/manage_clues.md)

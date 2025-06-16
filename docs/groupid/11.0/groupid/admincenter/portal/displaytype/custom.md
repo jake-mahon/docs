@@ -3,14 +3,14 @@
 In GroupID, several predefined custom display types are used in the default portal template. To
 customize the portal, you can use the predefined custom display types as well as define new ones.
 
-- [Text Box Display Type](/versioned_docs/groupid_11.0/groupid/admincenter/portal/displaytype/textbox.md)
-- [Drop-down List Display Type](/versioned_docs/groupid_11.0/groupid/admincenter/portal/displaytype/dropdownlist.md)
-- [Linked Field Drop-down List Display Type](/versioned_docs/groupid_11.0/groupid/admincenter/portal/displaytype/linkeddropdown.md)
-- [Image Display Type](/versioned_docs/groupid_11.0/groupid/admincenter/portal/displaytype/image.md)
-- [Grid Display Type](/versioned_docs/groupid_11.0/groupid/admincenter/portal/displaytype/grid.md)
-- [Radio Button Display Type](/versioned_docs/groupid_11.0/groupid/admincenter/portal/displaytype/radio.md)
-- [Multiline Textbox Display Type](/versioned_docs/groupid_11.0/groupid/admincenter/portal/displaytype/multilinetextbox.md)
-- [Linked Combo Display Type](/versioned_docs/groupid_11.0/groupid/admincenter/portal/linkedcombo/overview.md)
+- [Text Box Display Type](/docs/groupid/11.0/groupid/admincenter/portal/displaytype/textbox.md)
+- [Drop-down List Display Type](/docs/groupid/11.0/groupid/admincenter/portal/displaytype/dropdownlist.md)
+- [Linked Field Drop-down List Display Type](/docs/groupid/11.0/groupid/admincenter/portal/displaytype/linkeddropdown.md)
+- [Image Display Type](/docs/groupid/11.0/groupid/admincenter/portal/displaytype/image.md)
+- [Grid Display Type](/docs/groupid/11.0/groupid/admincenter/portal/displaytype/grid.md)
+- [Radio Button Display Type](/docs/groupid/11.0/groupid/admincenter/portal/displaytype/radio.md)
+- [Multiline Textbox Display Type](/docs/groupid/11.0/groupid/admincenter/portal/displaytype/multilinetextbox.md)
+- [Linked Combo Display Type](/docs/groupid/11.0/groupid/admincenter/portal/linkedcombo/overview.md)
 
 ## How to Implement Display Types
 
@@ -43,5 +43,5 @@ To delete a custom display type:
 
 **See Also**
 
-- [Design a Portal with Display Types](/versioned_docs/groupid_11.0/groupid/admincenter/portal/displaytype/overview.md)
-- [Display Type Categories](/versioned_docs/groupid_11.0/groupid/admincenter/portal/displaytype/categories.md)
+- [Design a Portal with Display Types](/docs/groupid/11.0/groupid/admincenter/portal/displaytype/overview.md)
+- [Display Type Categories](/docs/groupid/11.0/groupid/admincenter/portal/displaytype/categories.md)

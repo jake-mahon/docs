@@ -43,5 +43,5 @@ when the installation is successful. The Netwrix PostgreSQL Setup wizard closes.
 
 The PostgreSQL database application is now installed. Nest you can install the Netwrix Threat
 Manager Reporting Module application. See the
-[Install the Netwrix Threat Manager Reporting Module](/versioned_docs/threatprevention_7.4/threatprevention/install/reportingmodule/application.md)
+[Install the Netwrix Threat Manager Reporting Module](/docs/threatprevention/7.4/threatprevention/install/reportingmodule/application.md)
 topic for additional information.

@@ -12,7 +12,7 @@ Agent:
 - Dell Unity
 - Hitachi
 - Linux – Configuration of a Linux host is done during agent deployment. See the
-  [Linux Agent Deployment](/versioned_docs/activitymonitor_7.1/activitymonitor/admin/agents/add/linux.md)
+  [Linux Agent Deployment](/docs/activitymonitor/7.1/activitymonitor/admin/agents/add/linux.md)
   topic for additional information.
 - Nasuni
 - NetApp
@@ -26,7 +26,7 @@ Agent:
 - SQL Server
 
 See the
-[Add New Host Window](/versioned_docs/activitymonitor_7.1/activitymonitor/admin/monitoredhosts/add/overview.md)
+[Add New Host Window](/docs/activitymonitor/7.1/activitymonitor/admin/monitoredhosts/add/overview.md)
 topic for additional information.
 
 Agents
@@ -111,7 +111,7 @@ For integration with Netwrix Enterprise Auditor, only one configuration of a ‘
 set as the Netwrix Enterprise Auditor output. After a ‘monitored host’ has been added, use the Edit
 feature to identify the configuration as being for Netwrix Enterprise Auditor on the Log Files tab
 of the host’s Properties window. See the
-[Log Files Tab](/versioned_docs/activitymonitor_7.1/activitymonitor/admin/outputs/logfiles.md) topic
+[Log Files Tab](/docs/activitymonitor/7.1/activitymonitor/admin/outputs/logfiles.md) topic
 for additional information.
 
 ## Monitoring Status

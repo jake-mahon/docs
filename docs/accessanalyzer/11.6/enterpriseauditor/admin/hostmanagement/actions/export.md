@@ -5,7 +5,7 @@ selected host list to a HTML, XML , or CSV file. Follow the steps to export data
 
 **Step 1 –** Select the Host Management or individual host list node to export data from, and
 configure the data grid to contain all the columns you want to export. See the
-[Host Inventory Data Grid](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/hostmanagement/datagrid.md)
+[Host Inventory Data Grid](/docs/accessanalyzer/11.6/enterpriseauditor/admin/hostmanagement/datagrid.md)
 topic for additional information.
 
 ![Export Data option on the Activities pane](/img/versioned_docs/groupid_11.0/groupid/portal/export.webp)
@@ -19,7 +19,7 @@ Save As window opens.
 and provide a name and location for the export file.
 
 This export is now shareable. Unlike the
-[View/Edit Host](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/hostmanagement/actions/viewhost.md)
+[View/Edit Host](/docs/accessanalyzer/11.6/enterpriseauditor/admin/hostmanagement/actions/viewhost.md)
 export option, this file will be in the same format as the data grid.
 
 ## Export Examples

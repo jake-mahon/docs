@@ -52,5 +52,5 @@ CSV file with comma-separated values.
 
 Once the list in the Deploy Agents to These Computers box is complete, you can continue through the
 wizard to deploy the Agent. See the
-[Set Options Window ](/versioned_docs/threatprevention_7.4/threatprevention/admin/agents/deploy/setoptions.md)topic
+[Set Options Window ](/docs/threatprevention/7.4/threatprevention/admin/agents/deploy/setoptions.md)topic
 for the next step.

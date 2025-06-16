@@ -22,7 +22,7 @@ left of the Results pane. Theses panes have the following functions:
 - [Results Pane](#results-pane) – Displays the report content
 - [Group Membership Pane](#group-membership-pane) – Displays group membership for group trustees
   selected in the Results pane
-- [Resources Pane](/versioned_docs/accessinformationcenter_11.6/access/informationcenter/resourceaudit/navigate/resource.md#resources-pane)
+- [Resources Pane](/docs/accessinformationcenter/11.6/access/informationcenter/resourceaudit/navigate/resource.md#resources-pane)
   – Navigation tree for the selected resource (only present in the Resource Audit interface)
 
 ### Reports Pane
@@ -41,7 +41,7 @@ Reports pane. Reports may consist of multiple tables and graphs.
 ![Results pane](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/navigate/resultspane.webp)
 
 Tables and graphs that display at the bottom of the pane vary according to the selected report. See
-the [Data Grid Features](/versioned_docs/accessinformationcenter_11.6/access/general/datagrid.md)
+the [Data Grid Features](/docs/accessinformationcenter/11.6/access/general/datagrid.md)
 topic for additional information on table options. See the individual report topics for specific
 information on columns and displayed data for a report.
 
@@ -55,7 +55,7 @@ There are two checkbox options depending on the report selected:
   a yellow icon is displayed for the permission type to indicate the access level used to perform
   the activity. Therefore, access level cells not highlighted when activity is being monitored
   represent permissions that are identified as stale. See the
-  [Stale Permissions](/versioned_docs/accessinformationcenter_11.6/access/informationcenter/resourceaudit/filesystem/sharesubfolder/permissions.md#stale-permissions)
+  [Stale Permissions](/docs/accessinformationcenter/11.6/access/informationcenter/resourceaudit/filesystem/sharesubfolder/permissions.md#stale-permissions)
   topic for additional information.
 
 #### Activity Report Results Pane Features
@@ -97,7 +97,7 @@ Results pane. Groups can also be searched for using the textbox at the top of th
 All group members are listed, including any nested group membership. The **Change Group Membership**
 button displays any access changes being modeled. This is a primary component of change modeling.
 See the
-[Change Modeling](/versioned_docs/accessinformationcenter_11.6/access/informationcenter/resourceaudit/changemodeling/overview.md)
+[Change Modeling](/docs/accessinformationcenter/11.6/access/informationcenter/resourceaudit/changemodeling/overview.md)
 topic for additional information.
 
 **NOTE:** If the Access Information Center has been configured to commit changes to Active

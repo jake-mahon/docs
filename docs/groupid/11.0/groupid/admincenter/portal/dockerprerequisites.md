@@ -95,5 +95,5 @@ Select a container and click **Inspect** to view its details.
 
 **See Also**
 
-- [GroupID Applications](/versioned_docs/groupid_11.0/groupid/admincenter/portal/applications.md)
-- [GroupID Portal](/versioned_docs/groupid_11.0/groupid/admincenter/portal/overview.md)
+- [GroupID Applications](/docs/groupid/11.0/groupid/admincenter/portal/applications.md)
+- [GroupID Portal](/docs/groupid/11.0/groupid/admincenter/portal/overview.md)

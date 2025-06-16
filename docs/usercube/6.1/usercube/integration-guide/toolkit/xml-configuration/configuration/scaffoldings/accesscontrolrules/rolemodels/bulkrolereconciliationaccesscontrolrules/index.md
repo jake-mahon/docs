@@ -4,7 +4,7 @@ Generates the permissions to perform bulk validations on the **Role Reconciliati
 
 The scaffolding generates the following scaffoldings:
 
-- [ReconciliateRolesAccessControlRules](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/rolemodels/reconciliaterolesaccesscontrolrules/index.md):
+- [ReconciliateRolesAccessControlRules](/docs/usercube/6.1/usercube/integration-guide/toolkit/xml-configuration/configuration/scaffoldings/accesscontrolrules/rolemodels/reconciliaterolesaccesscontrolrules/index.md):
   Generates the permissions to access the role reconciliation pages for a given entity type and
   profile.
 

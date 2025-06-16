@@ -2,7 +2,7 @@
 
 The Scope by Public Folders page is used to define specific public folders to search. This page is
 enabled when the **Scope by Public Folder** option is selected on the Scope page. See the
-[ExchangePS: Scope](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/exchangeps/scope.md) topic
+[ExchangePS: Scope](/docs/accessanalyzer/11.6/enterpriseauditor/admin/datacollector/exchangeps/scope.md) topic
 for additional information.
 
 Configure the **Scope** option using the drop-down. The available options are:

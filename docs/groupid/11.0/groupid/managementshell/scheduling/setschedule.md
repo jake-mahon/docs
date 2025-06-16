@@ -115,6 +115,6 @@ Set-Schedule -ScheduleName smm4_ -TriggerOperation Add -TriggerType Monthly -Sta
 
 See Also
 
-- [All Commands](/versioned_docs/groupid_11.0/groupid/managementshell/commands.md)
-- [Scheduling Commands](/versioned_docs/groupid_11.0/groupid/managementshell/scheduling/overview.md)
-- [Parameters](/versioned_docs/groupid_11.0/groupid/managementshell/parameters/parameters.md)
+- [All Commands](/docs/groupid/11.0/groupid/managementshell/commands.md)
+- [Scheduling Commands](/docs/groupid/11.0/groupid/managementshell/scheduling/overview.md)
+- [Parameters](/docs/groupid/11.0/groupid/managementshell/parameters/parameters.md)

@@ -18,9 +18,9 @@ this case, it will require authentication, such as password.
 
 You can apply the MIP labels to the file share and ShareЗoint sources. Specify this information
 using the
-[Create a Workflow using Add Workflow Wizard](/versioned_docs/dataclassification_5.6.2/ndc/workflows/workflow_add_workflow_wizard.md).
+[Create a Workflow using Add Workflow Wizard](/docs/dataclassification/5.6.2/ndc/workflows/workflow_add_workflow_wizard.md).
 Review the following for additional information:
 
-- [Set Up MIP Integration](/versioned_docs/dataclassification_5.6.2/ndc/workflows/mip_labels/mip_configure_infrastructure.md)
-- [MIP Labels Configuration](/versioned_docs/dataclassification_5.6.2/ndc/workflows/mip_labels/mip_configure_ndc.md)
-- [Modify MIP Label](/versioned_docs/dataclassification_5.6.2/ndc/workflows/mip_labels/mip_workflow_action.md)
+- [Set Up MIP Integration](/docs/dataclassification/5.6.2/ndc/workflows/mip_labels/mip_configure_infrastructure.md)
+- [MIP Labels Configuration](/docs/dataclassification/5.6.2/ndc/workflows/mip_labels/mip_configure_ndc.md)
+- [Modify MIP Label](/docs/dataclassification/5.6.2/ndc/workflows/mip_labels/mip_workflow_action.md)

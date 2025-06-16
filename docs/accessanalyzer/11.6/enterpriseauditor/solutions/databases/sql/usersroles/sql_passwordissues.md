@@ -15,7 +15,7 @@ The Collect Weak Passwords Job uses the PowerShell Data Collector for the follow
 - Collect Weak Passwords – Locate the dictionary file containing the weak passwords and import the
   passwords
     - See
-      [PowerShell Data Collector](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/powershell/overview.md)
+      [PowerShell Data Collector](/docs/accessanalyzer/11.6/enterpriseauditor/admin/datacollector/powershell/overview.md)
       for additional information.
 
 ## Analysis Tasks for the SQL_PasswordIssues Job
@@ -35,7 +35,7 @@ The default analysis tasks are:
         - @ShowPassword – Set to **0** by default. Set to **1** to enable the analysis task to bring
           back the plain-text password that was found
         - See the
-          [Configure the Customizable Parameters in an Analysis Task](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/jobs/job/configure/analysiscustomizableparameters.md)
+          [Configure the Customizable Parameters in an Analysis Task](/docs/accessanalyzer/11.6/enterpriseauditor/admin/jobs/job/configure/analysiscustomizableparameters.md)
           topic for additional information on modifying analysis parameters.
 - Shared Passwords – Highlights SQL Server Logins with shared password hashes
 - No Password – Inserts users that do not have a password set into the details table

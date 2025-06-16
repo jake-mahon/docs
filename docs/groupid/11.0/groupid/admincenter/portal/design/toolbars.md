@@ -86,7 +86,7 @@ What do you want to do?
 
     8. **Visibility Level** – Select a security role. The toolbar button would be visible to users
        of this role and roles with a priority value higher than this role. See
-       [Priority](/versioned_docs/groupid_11.0/groupid/admincenter/securityrole/manage.md).  
+       [Priority](/docs/groupid/11.0/groupid/admincenter/securityrole/manage.md).  
        Select _Never_ to hide the button from all users.
 
 8. Click **OK**.
@@ -109,4 +109,4 @@ What do you want to do?
 
 See Also
 
-- [Design a Portal with Display Types](/versioned_docs/groupid_11.0/groupid/admincenter/portal/displaytype/overview.md)
+- [Design a Portal with Display Types](/docs/groupid/11.0/groupid/admincenter/portal/displaytype/overview.md)

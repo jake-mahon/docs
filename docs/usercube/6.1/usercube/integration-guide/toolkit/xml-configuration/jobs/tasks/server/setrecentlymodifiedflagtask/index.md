@@ -3,13 +3,13 @@
 When synchronizing in full or incremental mode, it is possible to optimize the compute performance
 of the role model by taking into account only the changes made by the synchronization. This
 optimization is based on the `dirty` property of the entity
-[Resource](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/resources/resource/index.md).
+[Resource](/docs/usercube/6.1/usercube/integration-guide/toolkit/xml-configuration/resources/resource/index.md).
 The task
-[Usercube-Compute-RoleModel](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/jobs/tasks/server/computerolemodeltask/index.md)
+[Usercube-Compute-RoleModel](/docs/usercube/6.1/usercube/integration-guide/toolkit/xml-configuration/jobs/tasks/server/computerolemodeltask/index.md)
 with option `dirty` set to `true` will treat only resources marked as dirty.
 
 This task is used to set the `dirty` flag on all resources based on
-[ResourceChange, ResourceLinkChange and ResourceFileChange entities](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/resources/index.md).
+[ResourceChange, ResourceLinkChange and ResourceFileChange entities](/docs/usercube/6.1/usercube/integration-guide/toolkit/xml-configuration/resources/index.md).
 After this, it clears this changes tables.
 
 This task works correctly only if **previous synchronization tasks have not cleared the change

@@ -13,7 +13,7 @@ run in future and set the notifications settings for the job.
        manually or from the Synchronize job scheduler.
 
         If you are modifying an existing job, you can also a new schedule for the job. Visit
-        [Synchronize Schedule](/versioned_docs/groupid_11.0/groupid/admincenter/schedule/synchronize.md)
+        [Synchronize Schedule](/docs/groupid/11.0/groupid/admincenter/schedule/synchronize.md)
 
 2. Set up email notification of job run results:
 
@@ -84,13 +84,13 @@ run in future and set the notifications settings for the job.
 10. Click **Finish** and create the job.
 11. Once you run the job, a workflow request is triggered.
 12. Generated workflow request will be displayed in the
-    [Requests](/versioned_docs/groupid_11.0/groupid/portal/request/overview.md) section for the
+    [Requests](/docs/groupid/11.0/groupid/portal/request/overview.md) section for the
     workflow approver(s). If the approver approves the workflow request, the job will execute the
     results.
 
 **See Also**
 
-- [Create a Job](/versioned_docs/groupid_11.0/groupid/portal/synchronize/job/create.md)
-- [Create a Job Collection ](/versioned_docs/groupid_11.0/groupid/portal/synchronize/collection/create.md)
-- [Transform](/versioned_docs/groupid_11.0/groupid/portal/synchronize/transformation/overview.md)
-- [Auto-Generate Unique, Complex Passwords](/versioned_docs/groupid_11.0/groupid/portal/synchronize/transformation/autogenerateuniquepassword.md)
+- [Create a Job](/docs/groupid/11.0/groupid/portal/synchronize/job/create.md)
+- [Create a Job Collection ](/docs/groupid/11.0/groupid/portal/synchronize/collection/create.md)
+- [Transform](/docs/groupid/11.0/groupid/portal/synchronize/transformation/overview.md)
+- [Auto-Generate Unique, Complex Passwords](/docs/groupid/11.0/groupid/portal/synchronize/transformation/autogenerateuniquepassword.md)

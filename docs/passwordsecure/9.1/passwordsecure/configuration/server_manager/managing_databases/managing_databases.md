@@ -21,7 +21,7 @@ required service, specify the respective access data. You must also configure va
 this case, you can specify on the client which methods will be used by the individual users.
 
 Further information on this subject can be found in the
-section[Multifactor Authentication](/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/server_manager/managing_databases/database_settings/multifactor_authentication_ac.md).
+section[Multifactor Authentication](/docs/passwordsecure/9.1/passwordsecure/configuration/server_manager/managing_databases/database_settings/multifactor_authentication_ac.md).
 
 PKCS#11
 

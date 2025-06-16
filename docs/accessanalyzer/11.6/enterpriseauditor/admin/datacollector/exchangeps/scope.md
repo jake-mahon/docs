@@ -11,7 +11,7 @@ Available scoping options vary based on the category selected. Scoping options i
 
     - If this option is selected, then the data collector should be run against the host specified
       on the Summary page. See the
-      [ExchangePS: Summary](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/exchangeps/summary.md) topic
+      [ExchangePS: Summary](/docs/accessanalyzer/11.6/enterpriseauditor/admin/datacollector/exchangeps/summary.md) topic
       for additional information.
     - When using the applet, the data collector gathers information about the Exchange Forest in
       which the Enterprise Auditor Console currently resides
@@ -22,11 +22,11 @@ Available scoping options vary based on the category selected. Scoping options i
 
 - Scope by Database Target Host: Local Host – Scope query to return results for specific databases.
   If this option is selected, the Scope by Database page is enabled in the wizard. See the
-  [ExchangePS: Scope by DB](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/exchangeps/scopedatabases.md) topic
+  [ExchangePS: Scope by DB](/docs/accessanalyzer/11.6/enterpriseauditor/admin/datacollector/exchangeps/scopedatabases.md) topic
   for additional information.
 - Scope by Mailbox Target Host: Local Host – Scope query to return results for specific mailboxes.
   If this option is selected, the Scope by Mailboxes page is enabled in the wizard. See the
-  [ExchangePS: Scope by Mailboxes](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/exchangeps/scopemailboxes.md) topic
+  [ExchangePS: Scope by Mailboxes](/docs/accessanalyzer/11.6/enterpriseauditor/admin/datacollector/exchangeps/scopemailboxes.md) topic
   for additional information.
 - Scope by Server Target Host: Exchange MB Server – Scope query to return results for specific
   servers selected in the job’s **Configure** > **Hosts** node
@@ -35,14 +35,14 @@ Available scoping options vary based on the category selected. Scoping options i
       PowerShell on that server
     - For Remote PowerShell, the data collector does not deploy anapplet and utilizes the WinRM
       protocol to gather information about the objects on that server. See the
-      [Remote PowerShell](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/exchangeps/overview.md#remote-powershell)
+      [Remote PowerShell](/docs/accessanalyzer/11.6/enterpriseauditor/admin/datacollector/exchangeps/overview.md#remote-powershell)
       and
-      [The Exchange Applet](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/exchangeps/overview.md#the-exchange-applet)
+      [The Exchange Applet](/docs/accessanalyzer/11.6/enterpriseauditor/admin/datacollector/exchangeps/overview.md#the-exchange-applet)
       topics for additional information.
 
 - Scope by Public Folder – Scope query to return results for specific Public Folders. If this option
   is selected, the Scope by Public Folders page is enabled in the wizard. See the
-  [ExchangePS: Scope by Public Folders](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/exchangeps/scopepublicfolders.md) topic
+  [ExchangePS: Scope by Public Folders](/docs/accessanalyzer/11.6/enterpriseauditor/admin/datacollector/exchangeps/scopepublicfolders.md) topic
   for additional information.
 - View entire forest when querying for objects – Select this checkbox to scan the entire forest when
   querying for objects

@@ -2,14 +2,14 @@
 
 This tool is used to encrypt a JSON file containing sensitive connection data, for example the
 `appsettings-agent.json` file, with
-[RSA encryption](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/rsa-encryption/index.md).
+[RSA encryption](/docs/usercube/6.1/usercube/integration-guide/network-configuration/agent-configuration/rsa-encryption/index.md).
 The encryption is based on the information given in your `appsettings.json` file about either a PFX
 file or the location of the
-[encryption certificate](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/appsettings/index.md#encryption-certificate)
+[encryption certificate](/docs/usercube/6.1/usercube/integration-guide/network-configuration/agent-configuration/appsettings/index.md#encryption-certificate)
 in the Microsoft store.
 
 This tool `Usercube-Protect-X509JsonFile` is used to encrypt a whole file, in comparison to the
-[`Usercube-Protect-X509JsonValue`](/versioned_docs/usercube_6.1/usercube/integration-guide/executables/references/protect-x509jsonvalue/index.md)
+[`Usercube-Protect-X509JsonValue`](/docs/usercube/6.1/usercube/integration-guide/executables/references/protect-x509jsonvalue/index.md)
 tool that encrypts only a given value. This tool is more appropriate than
 `Usercube-Protect-X509JsonValue` when you have many lines to encrypt.
 
@@ -89,7 +89,7 @@ The previous command can be useful to encrypt, for example, an Active Directory'
 agent during the synchronization process.
 
 The login to encrypt is stored in the following format, compliant with the
-[appsettings.agent.json structure](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/appsettings-agent/index.md):
+[appsettings.agent.json structure](/docs/usercube/6.1/usercube/integration-guide/network-configuration/agent-configuration/appsettings-agent/index.md):
 
 appsettings.beforeEncryption.json
 
@@ -108,7 +108,7 @@ appsettings.beforeEncryption.json
 
 This command writes encrypted values from `appsettings.agent.json` to
 `C:/UsercubeTraining/appsettings.encrypted.agent.json` following the
-[appsettings.agent.json structure](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/appsettings-agent/index.md):
+[appsettings.agent.json structure](/docs/usercube/6.1/usercube/integration-guide/network-configuration/agent-configuration/appsettings-agent/index.md):
 
 ```
 appsettings.encrypted.agent.json

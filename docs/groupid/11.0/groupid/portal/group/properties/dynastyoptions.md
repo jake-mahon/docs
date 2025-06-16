@@ -49,7 +49,7 @@ You can view and change the attributes for parent and middle Dynasties.
 - Click **Remove** to remove the selected attribute.
 
 See the
-[Dynasty Options page](/versioned_docs/groupid_11.0/groupid/portal/group/dynasty/dynastyoptionsorggeocus.md)
+[Dynasty Options page](/docs/groupid/11.0/groupid/portal/group/dynasty/dynastyoptionsorggeocus.md)
 for details.
 
 **Inheritance**
@@ -92,7 +92,7 @@ managers as members of a single group.
 
 You can view and change these structure options for parent and middle Dynasties. For details, see
 the
-[Dynasty Options page (Managerial Dynasty)](/versioned_docs/groupid_11.0/groupid/portal/group/dynasty/dynastyoptionsmanagerial.md).
+[Dynasty Options page (Managerial Dynasty)](/docs/groupid/11.0/groupid/portal/group/dynasty/dynastyoptionsmanagerial.md).
 
 NOTE: (1) If the **Set manager as owner** check box is selected, the **Always inherit** option is
 set for Inheritance, and the managedBy attribute is specified for inheritance, the **Set manager as
@@ -110,7 +110,7 @@ Dynasties, replacing their respective primary owners.
 Set a custom attribute to create a managerial lineage in the context of this attribute.
 
 See the
-[Dynasty Options page (Managerial Dynasty)](/versioned_docs/groupid_11.0/groupid/portal/group/dynasty/dynastyoptionsmanagerial.md)for
+[Dynasty Options page (Managerial Dynasty)](/docs/groupid/11.0/groupid/portal/group/dynasty/dynastyoptionsmanagerial.md)for
 a discussion on attributes.
 
 In addition to the scenarios discussed, the following also apply on Dynasty update:
@@ -186,5 +186,5 @@ See Inheritance.
 
 **See Also**
 
-- [Group Properties](/versioned_docs/groupid_11.0/groupid/portal/group/properties/overview.md)
-- [Dynasty](/versioned_docs/groupid_11.0/groupid/portal/group/dynasty/overview.md)
+- [Group Properties](/docs/groupid/11.0/groupid/portal/group/properties/overview.md)
+- [Dynasty](/docs/groupid/11.0/groupid/portal/group/dynasty/overview.md)

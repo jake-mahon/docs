@@ -12,13 +12,13 @@ The type of script determines the nature of the script result:
 ## Examples and Language Overview
 
 - For examples of transform scripts, see the
-  [Sample Transform Scripts](/versioned_docs/groupid_11.0/groupid/portal/synchronize/script/sampletransformscript.md)
+  [Sample Transform Scripts](/docs/groupid/11.0/groupid/portal/synchronize/script/sampletransformscript.md)
   topic
 - For examples of container scripts, see the
-  [Sample Container Scripts](/versioned_docs/groupid_11.0/groupid/portal/synchronize/script/samplecontainerscript.md)
+  [Sample Container Scripts](/docs/groupid/11.0/groupid/portal/synchronize/script/samplecontainerscript.md)
   topic
 - For general information, see
-  [Visual Basic .NET for GroupID](/versioned_docs/groupid_11.0/groupid/portal/synchronize/script/visualbasicnetbasic.md)
+  [Visual Basic .NET for GroupID](/docs/groupid/11.0/groupid/portal/synchronize/script/visualbasicnetbasic.md)
   topic
 - For general information, see Python for GroupID topic
 
@@ -163,6 +163,6 @@ file as follows:
 
 **See Also**
 
-- [Visual Basic .NET for GroupID](/versioned_docs/groupid_11.0/groupid/portal/synchronize/script/visualbasicnetbasic.md)
-- [Sample Transform Scripts](/versioned_docs/groupid_11.0/groupid/portal/synchronize/script/sampletransformscript.md)
-- [Sample Container Scripts](/versioned_docs/groupid_11.0/groupid/portal/synchronize/script/samplecontainerscript.md)
+- [Visual Basic .NET for GroupID](/docs/groupid/11.0/groupid/portal/synchronize/script/visualbasicnetbasic.md)
+- [Sample Transform Scripts](/docs/groupid/11.0/groupid/portal/synchronize/script/sampletransformscript.md)
+- [Sample Container Scripts](/docs/groupid/11.0/groupid/portal/synchronize/script/samplecontainerscript.md)

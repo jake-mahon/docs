@@ -13,7 +13,7 @@ open the output Properties window.
 The tab contains the following settings and features:
 
 - Add – Opens the Add or Edit Process window to add a new process to the list. See the
-  [Add or Edit Process Window](/versioned_docs/activitymonitor_7.1/activitymonitor/admin/outputs/window/addeditprocess.md)
+  [Add or Edit Process Window](/docs/activitymonitor/7.1/activitymonitor/admin/outputs/window/addeditprocess.md)
   topic for additional information.
 - Remove – Removes the selected path from the list. Confirmation is not requested.
 
@@ -21,7 +21,7 @@ The tab contains the following settings and features:
     change.
 
 - Edit – Opens the Add or Edit Process window to modify the selected process. See the
-  [Add or Edit Process Window](/versioned_docs/activitymonitor_7.1/activitymonitor/admin/outputs/window/addeditprocess.md)
+  [Add or Edit Process Window](/docs/activitymonitor/7.1/activitymonitor/admin/outputs/window/addeditprocess.md)
   topic for additional information.
 
 The table lists process that will be excluded, displaying columns for Process Name and Events.

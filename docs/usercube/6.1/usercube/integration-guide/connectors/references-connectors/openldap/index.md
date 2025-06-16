@@ -4,7 +4,7 @@ This connector exports and fulfills entries from/to an [OpenLDAP](https://www.op
 directory.
 
 This page is about
-[Directory/Open LDAP](/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/references-packages/open-ldap/index.md).
+[Directory/Open LDAP](/docs/usercube/6.1/usercube/integration-guide/connectors/references-packages/open-ldap/index.md).
 
 ![Package: Directory/Open LDAP](/img/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/references-connectors/openldap/packages_ldapopen_v603.webp)
 
@@ -17,12 +17,12 @@ OpenLDAP is an open source implementation of the Lightweight Directory Access Pr
 Implementing this connector requires:
 
 - reading first the
-  [appsettings documentation](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/appsettings-agent/index.md);
+  [appsettings documentation](/docs/usercube/6.1/usercube/integration-guide/network-configuration/agent-configuration/appsettings-agent/index.md);
 - a service account with reading and writing permissions on the target OpenLDAP server;
 - enabling SyncProv Overlay for the OpenLDAP server.
 
     To perform a complete export without the SyncProv Overlay enabled, use rather the
-    [LDAP connector](/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/references-connectors/ldap/index.md).
+    [LDAP connector](/docs/usercube/6.1/usercube/integration-guide/connectors/references-connectors/ldap/index.md).
 
 ## Export
 
@@ -31,7 +31,7 @@ This connector exports to CSV files the content of an OpenLDAP Directory.
 ### Configuration
 
 This process is configured through a
-[connection](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/connectors/connection/index.md)
+[connection](/docs/usercube/6.1/usercube/integration-guide/toolkit/xml-configuration/connectors/connection/index.md)
 in the UI and/or the XML configuration, and in the `appsettings.agent.json > Connections` section:
 
 ```
@@ -96,14 +96,14 @@ The identifier of the connection and thus the name of the subsection must:
 ### Output details
 
 This connector is meant to generate to the
-[`ExportOutput`](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/appsettings/index.md)
+[`ExportOutput`](/docs/usercube/6.1/usercube/integration-guide/network-configuration/agent-configuration/appsettings/index.md)
 folder:
 
 - a CSV file, named `<connectionIdentifier>_entry.csv`, with one column for each property having a
   `ConnectionColumn` and each property without it but used in an entity association;
 
     Any property can be exported in a specific format when specified.
-    [See more details](/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/entitypropertymapping-format/index.md).
+    [See more details](/docs/usercube/6.1/usercube/integration-guide/connectors/entitypropertymapping-format/index.md).
 
 - a CSV file for each `ConnectionTable` in a related `EntityTypeMapping` or
   `EntityAssociationMapping`, and which is not an `entry`, named
@@ -123,9 +123,9 @@ folder:
     can use the option `--ignore-cookies`.
 
 The CSV files are stored in the
-[ExportOutput](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/appsettings/index.md)
+[ExportOutput](/docs/usercube/6.1/usercube/integration-guide/network-configuration/agent-configuration/appsettings/index.md)
 folder, and the cookie file in the
-[ExportCookies](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/appsettings/index.md)
+[ExportCookies](/docs/usercube/6.1/usercube/integration-guide/network-configuration/agent-configuration/appsettings/index.md)
 folder.
 
 > For example, with the following configuration:
@@ -158,7 +158,7 @@ This connector fulfills via the LDAP connector's fulfill process.
 
 The LDAP connector fulfills the creation, deletion and update of LDAP entries, initiated through the
 Usercube UI or by
-[assignment policy enforcement](/versioned_docs/usercube_6.1/usercube/integration-guide/role-assignment/evaluate-policy/index.md).
+[assignment policy enforcement](/docs/usercube/6.1/usercube/integration-guide/role-assignment/evaluate-policy/index.md).
 
 ### Configuration
 
@@ -239,12 +239,12 @@ order, through the `ResourceType`'s `ArgumentsExpression`.
 
 Data protection can be ensured through:
 
-- [RSA encryption](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/rsa-encryption/index.md),
+- [RSA encryption](/docs/usercube/6.1/usercube/integration-guide/network-configuration/agent-configuration/rsa-encryption/index.md),
   configured in the `appsettings.encrypted.agent.json` file;
 - an
-  [Azure Key Vault](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/azure-key-vault/index.md)
+  [Azure Key Vault](/docs/usercube/6.1/usercube/integration-guide/network-configuration/agent-configuration/azure-key-vault/index.md)
   safe;
 
 - a
-  [CyberArk Vault](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/cyberark-application-access-manager-credential-providers/index.md)
+  [CyberArk Vault](/docs/usercube/6.1/usercube/integration-guide/network-configuration/agent-configuration/cyberark-application-access-manager-credential-providers/index.md)
   able to store OpenLDAP's `Login`, `Password` and `Server`.

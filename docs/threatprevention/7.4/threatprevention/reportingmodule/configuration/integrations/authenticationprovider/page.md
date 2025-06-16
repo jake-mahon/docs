@@ -45,11 +45,11 @@ The following authentication provider types are supported; you can configure an 
 provider for any of these:
 
 - RADIUS – See the
-  [RADIUS Authentication Provider](/versioned_docs/threatprevention_7.4/threatprevention/reportingmodule/configuration/integrations/authenticationprovider/radius.md)
+  [RADIUS Authentication Provider](/docs/threatprevention/7.4/threatprevention/reportingmodule/configuration/integrations/authenticationprovider/radius.md)
   topic for additional information.
 - OpenID – See the
-  [OpenID Authentication Provider](/versioned_docs/threatprevention_7.4/threatprevention/reportingmodule/configuration/integrations/authenticationprovider/openid.md)
+  [OpenID Authentication Provider](/docs/threatprevention/7.4/threatprevention/reportingmodule/configuration/integrations/authenticationprovider/openid.md)
   topic for additional information.
 - SAML – See the
-  [SAML Authentication Provider](/versioned_docs/threatprevention_7.4/threatprevention/reportingmodule/configuration/integrations/authenticationprovider/saml.md)
+  [SAML Authentication Provider](/docs/threatprevention/7.4/threatprevention/reportingmodule/configuration/integrations/authenticationprovider/saml.md)
   topic for additional information.

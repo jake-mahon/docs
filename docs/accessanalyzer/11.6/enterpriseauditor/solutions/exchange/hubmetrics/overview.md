@@ -9,21 +9,21 @@ database.
 
 The following job groups and jobs comprise the 1. HUB Metrics Job Group:
 
-- [0. Collection Job Group](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/exchange/hubmetrics/collection/overview.md)
+- [0. Collection Job Group](/docs/accessanalyzer/11.6/enterpriseauditor/solutions/exchange/hubmetrics/collection/overview.md)
   – Comprised of jobs that process and analyze the message tracking logs on the Exchange Servers in
   the environment
-- [EX_DeliveryTimes Job](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/exchange/hubmetrics/ex_deliverytimes.md)
+- [EX_DeliveryTimes Job](/docs/accessanalyzer/11.6/enterpriseauditor/solutions/exchange/hubmetrics/ex_deliverytimes.md)
   – Provides information around organizational and server level delivery times
-- [EX_DLMetrics Job](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/exchange/hubmetrics/ex_dlmetrics.md)
+- [EX_DLMetrics Job](/docs/accessanalyzer/11.6/enterpriseauditor/solutions/exchange/hubmetrics/ex_dlmetrics.md)
   – Provides information around distribution list usage
-- [EX_DomainMetrics Job](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/exchange/hubmetrics/ex_domainmetrics.md)
+- [EX_DomainMetrics Job](/docs/accessanalyzer/11.6/enterpriseauditor/solutions/exchange/hubmetrics/ex_domainmetrics.md)
   – Provides information about which domains mail-flow is going to and coming from
-- [EX_HourlyMetrics Job](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/exchange/hubmetrics/ex_hourlymetrics.md)
+- [EX_HourlyMetrics Job](/docs/accessanalyzer/11.6/enterpriseauditor/solutions/exchange/hubmetrics/ex_hourlymetrics.md)
   – Provides visibility into how much mail-flow the organization sends and receives each hour
-- [EX_MessageSize Job](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/exchange/hubmetrics/ex_messagesize.md)
+- [EX_MessageSize Job](/docs/accessanalyzer/11.6/enterpriseauditor/solutions/exchange/hubmetrics/ex_messagesize.md)
   – Provides information around size of messages sent and received
-- [EX_ServerMetrics Job](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/exchange/hubmetrics/ex_servermetrics.md)
+- [EX_ServerMetrics Job](/docs/accessanalyzer/11.6/enterpriseauditor/solutions/exchange/hubmetrics/ex_servermetrics.md)
   – Provides visibility into server mail-flow statistics, such as, sent, received, journaling,
   transport and NDR counts and sizes
-- [EX_UserMetrics Job](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/exchange/hubmetrics/ex_usermetrics.md)
+- [EX_UserMetrics Job](/docs/accessanalyzer/11.6/enterpriseauditor/solutions/exchange/hubmetrics/ex_usermetrics.md)
   – Provides information around each user’s mail-flow in the organization

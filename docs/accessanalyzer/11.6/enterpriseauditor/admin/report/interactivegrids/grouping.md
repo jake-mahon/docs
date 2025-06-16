@@ -7,7 +7,7 @@ data can be grouped.
 Filter icon is disabled in the report.
 
 The following example shows an interactive grid in which grouping has been enabled. See the
-[Grid](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/report/wizard/widgets.md#grid)
+[Grid](/docs/accessanalyzer/11.6/enterpriseauditor/admin/report/wizard/widgets.md#grid)
 topic for additional information.
 
 ![Group by option](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/report/interactivegrids/groupby.webp)

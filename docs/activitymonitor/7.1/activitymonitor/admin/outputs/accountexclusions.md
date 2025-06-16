@@ -14,10 +14,10 @@ The tab contains the following settings:
 
 - Add Windows Account – Opens the Specify account or group window to add an account for exclusion.
   See the
-  [Specify Account or Group Window](/versioned_docs/activitymonitor_7.1/activitymonitor/admin/outputs/window/specifywindowsaccount.md)
+  [Specify Account or Group Window](/docs/activitymonitor/7.1/activitymonitor/admin/outputs/window/specifywindowsaccount.md)
   topic for additional information.
 - Add Unix Account – Opens the Specify Unix Account window to add an account for exclusion. See the
-  [Specify Unix Account Window](/versioned_docs/activitymonitor_7.1/activitymonitor/admin/outputs/window/specifyunixaccount.md)
+  [Specify Unix Account Window](/docs/activitymonitor/7.1/activitymonitor/admin/outputs/window/specifyunixaccount.md)
   topic for additional information.
 - Remove – Removes the selected account from exclusion. Confirmation is not requested.
 
@@ -41,10 +41,10 @@ The tab contains the following settings:
 
 - Add Windows Account – Opens the Specify account or group window to add an account for exclusion.
   See the
-  [Specify Account or Group Window](/versioned_docs/activitymonitor_7.1/activitymonitor/admin/outputs/window/specifywindowsaccount.md)
+  [Specify Account or Group Window](/docs/activitymonitor/7.1/activitymonitor/admin/outputs/window/specifywindowsaccount.md)
   topic for additional information.
 - Add Unix Account – Opens the Specify Unix Account window to add an account for exclusion. See the
-  [Specify Unix Account Window](/versioned_docs/activitymonitor_7.1/activitymonitor/admin/outputs/window/specifyunixaccount.md)
+  [Specify Unix Account Window](/docs/activitymonitor/7.1/activitymonitor/admin/outputs/window/specifyunixaccount.md)
   topic for additional information.
 - Remove – Removes the selected account from exclusion. Confirmation is not requested.
 
@@ -68,10 +68,10 @@ The tab contains the following settings:
 
 - Add Windows Account – Opens the Specify account or group window to add an account for exclusion.
   See the
-  [Specify Account or Group Window](/versioned_docs/activitymonitor_7.1/activitymonitor/admin/outputs/window/specifywindowsaccount.md)
+  [Specify Account or Group Window](/docs/activitymonitor/7.1/activitymonitor/admin/outputs/window/specifywindowsaccount.md)
   topic for additional information.
 - Add Unix Account – Opens the Specify Unix Account window to add an account for exclusion. See the
-  [Specify Unix Account Window](/versioned_docs/activitymonitor_7.1/activitymonitor/admin/outputs/window/specifyunixaccount.md)
+  [Specify Unix Account Window](/docs/activitymonitor/7.1/activitymonitor/admin/outputs/window/specifyunixaccount.md)
   topic for additional information.
 - Remove – Removes the selected account from exclusion. Confirmation is not requested.
 
@@ -95,10 +95,10 @@ The tab contains the following settings:
 
 - Add Windows Account – Opens the Specify account or group window to add an account for exclusion.
   See the
-  [Specify Account or Group Window](/versioned_docs/activitymonitor_7.1/activitymonitor/admin/outputs/window/specifywindowsaccount.md)
+  [Specify Account or Group Window](/docs/activitymonitor/7.1/activitymonitor/admin/outputs/window/specifywindowsaccount.md)
   topic for additional information.
 - Add SharePoint Account – Opens the Specify account window to add an account for exclusion. See the
-  [Specify Account Window](/versioned_docs/activitymonitor_7.1/activitymonitor/admin/outputs/window/specifysharepointaccount.md)
+  [Specify Account Window](/docs/activitymonitor/7.1/activitymonitor/admin/outputs/window/specifysharepointaccount.md)
   topic for additional information.
 - Remove – Removes the selected account from exclusion. Confirmation is not requested.
 
@@ -121,7 +121,7 @@ The tab contains the following settings:
 ![sqlhosts](/img/versioned_docs/activitymonitor_7.1/activitymonitor/admin/outputs/sqlhosts.webp)
 
 - Add Sql User – Opens the Specify Sql User name window to add an account for exclusion. See the
-  [Specify Sql User Name Window](/versioned_docs/activitymonitor_7.1/activitymonitor/admin/outputs/window/specifysqluser.md)
+  [Specify Sql User Name Window](/docs/activitymonitor/7.1/activitymonitor/admin/outputs/window/specifysqluser.md)
   topic for additional information.
 - Remove – Removes the selected account from exclusion. Confirmation is not requested.
 
@@ -145,7 +145,7 @@ The tab contains the following settings:
 
 - Add Windows Account – Opens the Specify account or group window to add an account for exclusion.
   See the
-  [Specify Account or Group Window](/versioned_docs/activitymonitor_7.1/activitymonitor/admin/outputs/window/specifywindowsaccount.md)
+  [Specify Account or Group Window](/docs/activitymonitor/7.1/activitymonitor/admin/outputs/window/specifywindowsaccount.md)
   topic for additional information.
 - Remove – Removes the selected account from exclusion. Confirmation is not requested.
 

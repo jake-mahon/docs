@@ -1,11 +1,11 @@
 # Create an HR Connector
 
 How to create a
-[connector](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/connect-system/index.md)
+[connector](/docs/usercube/6.1/usercube/user-guide/set-up/connect-system/index.md)
 dedicated to the automation of identity management (creation, update, deletion), via the
-[synchronization](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/synchronization/index.md)
+[synchronization](/docs/usercube/6.1/usercube/user-guide/set-up/synchronization/index.md)
 of HR data into Usercube and internal
-[provisioning](/versioned_docs/usercube_6.1/usercube/user-guide/administrate/provisioning/index.md).
+[provisioning](/docs/usercube/6.1/usercube/user-guide/administrate/provisioning/index.md).
 
 ## Overview
 
@@ -31,7 +31,7 @@ as contractor data, or the projects employees are working on. This can mean that
   most of the time.
 
 Hence we choose to build the first iteration of the project upon a manual data upload to
-[create the initial identity repository](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/initial-identities-loading/index.md).
+[create the initial identity repository](/docs/usercube/6.1/usercube/user-guide/set-up/initial-identities-loading/index.md).
 
 This way, we do not have to wait for the agent's implementation to create the first profiles and
 start connecting systems (AD, SAB, SAP, etc.). Thus value is created faster and we can focus on IGA
@@ -50,7 +50,7 @@ inside Usercube.
 
 As Usercube is able to feed all managed systems, it can also feed itself thanks to specific
 connections such as the
-[InternalWorkflow](/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/references-connectors/internalworkflow/index.md)
+[InternalWorkflow](/docs/usercube/6.1/usercube/integration-guide/connectors/references-connectors/internalworkflow/index.md)
 connection. It means that the corresponding connector is able to launch workflows within Usercube
 and keep track.
 
@@ -63,25 +63,25 @@ This operation should be performed in cooperation with HR staff who can access H
 
 | Input                                                                                                                         | Output       |
 | ----------------------------------------------------------------------------------------------------------------------------- | ------------ |
-| [Identity repository](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/initial-identities-loading/index.md) (required) | HR connector |
+| [Identity repository](/docs/usercube/6.1/usercube/user-guide/set-up/initial-identities-loading/index.md) (required) | HR connector |
 
 ## Create an HR Connector
 
 Create an HR connector by proceeding as follows:
 
 1. Outside Usercube,
-   [model your connector](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/connect-system/connector-modeling/index.md).
-2. [Declare an HR connector](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/connect-system/connector-declaration/index.md)
+   [model your connector](/docs/usercube/6.1/usercube/user-guide/set-up/connect-system/connector-modeling/index.md).
+2. [Declare an HR connector](/docs/usercube/6.1/usercube/user-guide/set-up/connect-system/connector-declaration/index.md)
    using your local agent.
 
     ![HR Connector Declaration](/img/versioned_docs/usercube_6.1/usercube/user-guide/optimize/hr-connector-creation/hr_connectordeclaration_v602.webp)
 
-3. [Create an Export CSV connection](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/connect-system/connection-creation/index.md)
+3. [Create an Export CSV connection](/docs/usercube/6.1/usercube/user-guide/set-up/connect-system/connection-creation/index.md)
    for each HR file to connect.
 
     ![HR Connection](/img/versioned_docs/usercube_6.1/usercube/user-guide/optimize/hr-connector-creation/hr_connection_v602.webp)
 
-4. [Create the entity types](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/connect-system/entity-type-creation/index.md)
+4. [Create the entity types](/docs/usercube/6.1/usercube/user-guide/set-up/connect-system/entity-type-creation/index.md)
    corresponding to your model. For example:
 
     ![HR Entity Type - Scalar Properties](/img/versioned_docs/usercube_6.1/usercube/user-guide/optimize/hr-connector-creation/hr_entitytypes_v602.webp)
@@ -89,9 +89,9 @@ Create an HR connector by proceeding as follows:
     ![HR Entity Type - Navigation Properties](/img/versioned_docs/usercube_6.1/usercube/user-guide/optimize/hr-connector-creation/hr_entitytypen_v602.webp)
 
 5. Don't forget to
-   [reload](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/connect-system/entity-type-creation/index.md)
+   [reload](/docs/usercube/6.1/usercube/user-guide/set-up/connect-system/entity-type-creation/index.md)
    and
-   [synchronize](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/synchronization/index.md)
+   [synchronize](/docs/usercube/6.1/usercube/user-guide/set-up/synchronization/index.md)
    to access HR data within Usercube.
 
     ![Reload](/img/versioned_docs/usercube_6.1/usercube/user-guide/set-up/connect-system/entity-type-creation/key-selection/entitytypecreation_reload_v522.webp)

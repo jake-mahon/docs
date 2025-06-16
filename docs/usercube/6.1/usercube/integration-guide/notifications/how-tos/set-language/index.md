@@ -15,7 +15,7 @@ defined, then notifications use the first language.
 Set the first language for the whole application by proceeding as follows:
 
 1. In the XML configuration, create a `Language` with `IndicatorNumber` set to `1`.
-   [See more details on `Language`](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/metadata/language/index.md).
+   [See more details on `Language`](/docs/usercube/6.1/usercube/integration-guide/toolkit/xml-configuration/metadata/language/index.md).
 
     > For example, to set English as the first language:
     >
@@ -32,7 +32,7 @@ Set the first language for the whole application by proceeding as follows:
 Set the language explicitly for server-side-task notifications by proceeding as follows:
 
 1. In the XML configuration, configure `MailSetting` with a `LanguageCode`.
-   [See more details on `MailSetting`](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/metadata/settings/mailsetting/index.md).
+   [See more details on `MailSetting`](/docs/usercube/6.1/usercube/integration-guide/toolkit/xml-configuration/metadata/settings/mailsetting/index.md).
 
     > For example, to set the language to English:
     >

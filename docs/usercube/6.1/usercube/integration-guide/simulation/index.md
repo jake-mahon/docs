@@ -8,22 +8,22 @@ role or rule, before it is applied.
 Usercube's simulations gather roles and rules which are to be created, modified or deleted, without
 being inserted in the actual role model straight away. More specifically, a simulation can involve:
 
-- [correlation rules](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/provisioning/resourcecorrelationrule/index.md)
+- [correlation rules](/docs/usercube/6.1/usercube/integration-guide/toolkit/xml-configuration/provisioning/resourcecorrelationrule/index.md)
   and
-  [classification rules](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/provisioning/resourceclassificationrule/index.md);
-- [scalar rules](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/provisioning/resourcetype/index.md)
+  [classification rules](/docs/usercube/6.1/usercube/integration-guide/toolkit/xml-configuration/provisioning/resourceclassificationrule/index.md);
+- [scalar rules](/docs/usercube/6.1/usercube/integration-guide/toolkit/xml-configuration/provisioning/resourcetype/index.md)
   and
-  [navigation rules](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/provisioning/resourcetype/index.md);
-- [resource type rules](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/provisioning/resourcetype/index.md);
-- [single roles](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/provisioning/singlerole/index.md)
+  [navigation rules](/docs/usercube/6.1/usercube/integration-guide/toolkit/xml-configuration/provisioning/resourcetype/index.md);
+- [resource type rules](/docs/usercube/6.1/usercube/integration-guide/toolkit/xml-configuration/provisioning/resourcetype/index.md);
+- [single roles](/docs/usercube/6.1/usercube/integration-guide/toolkit/xml-configuration/provisioning/singlerole/index.md)
   and
-  [composite roles](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/provisioning/compositerole/index.md);
-- [single role rules](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/provisioning/singlerolerule/index.md)
+  [composite roles](/docs/usercube/6.1/usercube/integration-guide/toolkit/xml-configuration/provisioning/compositerole/index.md);
+- [single role rules](/docs/usercube/6.1/usercube/integration-guide/toolkit/xml-configuration/provisioning/singlerolerule/index.md)
   and
-  [composite role rules](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/provisioning/compositerolerule/index.md).
+  [composite role rules](/docs/usercube/6.1/usercube/integration-guide/toolkit/xml-configuration/provisioning/compositerolerule/index.md).
 
 A simulation can also be created by the
-[role mining tool](/versioned_docs/usercube_6.1/usercube/user-guide/optimize/assignment-automation/role-mining/index.md)
+[role mining tool](/docs/usercube/6.1/usercube/user-guide/optimize/assignment-automation/role-mining/index.md)
 for the automation of role assignments.
 
 Through simulation, integrators can:
@@ -41,4 +41,4 @@ on the role model.
 
 ## Perform a Simulation
 
-[See how to perform a simulation](/versioned_docs/usercube_6.1/usercube/user-guide/optimize/simulation/index.md).
+[See how to perform a simulation](/docs/usercube/6.1/usercube/user-guide/optimize/simulation/index.md).

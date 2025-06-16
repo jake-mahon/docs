@@ -2,7 +2,7 @@
 
 There are two options for accessing the Access Information Center. You can either go to the Access
 Information Center website directly or you can access it via the Web Console. See the
-[URL & Login](/versioned_docs/accessinformationcenter_11.6/access/informationcenter/admin/login.md)
+[URL & Login](/docs/accessinformationcenter/11.6/access/informationcenter/admin/login.md)
 topic for additional information.
 
 - Web Console – This console uses an embedded website installed with the Enterprise Auditor Console.
@@ -121,7 +121,7 @@ for additional information.
 
 **NOTE:** The Access Information Center also supports using Microsoft Entra ID single sign-on. See
 the
-[Microsoft Entra ID Single Sign-On](/versioned_docs/accessinformationcenter_11.6/access/informationcenter/admin/additionalconfig/entraidsso.md)
+[Microsoft Entra ID Single Sign-On](/docs/accessinformationcenter/11.6/access/informationcenter/admin/additionalconfig/entraidsso.md)
 topic for additional information.
 
 Follow the steps to enable SSO for accessing the Access Information Center website directly.

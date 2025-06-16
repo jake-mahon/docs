@@ -12,5 +12,5 @@ Provide a password for the user account and set other password-specific options.
 
 **See Also**
 
-- [Create an AD User](/versioned_docs/groupid_11.0/groupid/portal/user/create/activedirectory/user.md)
-- [Create an AD Mailbox](/versioned_docs/groupid_11.0/groupid/portal/user/create/activedirectory/mailbox/mailbox.md)
+- [Create an AD User](/docs/groupid/11.0/groupid/portal/user/create/activedirectory/user.md)
+- [Create an AD Mailbox](/docs/groupid/11.0/groupid/portal/user/create/activedirectory/mailbox/mailbox.md)

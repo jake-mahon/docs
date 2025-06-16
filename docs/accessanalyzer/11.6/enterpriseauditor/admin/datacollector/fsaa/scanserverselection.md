@@ -23,7 +23,7 @@ Using the radio buttons, select where the execution of the applet will take plac
   System Proxy deployed.
 
     - See the
-      [File System Proxy Service Installation](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/install/filesystemproxy/wizard.md)
+      [File System Proxy Service Installation](/docs/accessanalyzer/11.6/enterpriseauditor/install/filesystemproxy/wizard.md)
       topic for additional information
 
 - Specific Remote Servers by Host List – Assign hosts from a custom created host list for scanning.
@@ -31,7 +31,7 @@ Using the radio buttons, select where the execution of the applet will take plac
   Proxy deployed
 
     - See the
-      [File System Proxy Service Installation](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/install/filesystemproxy/wizard.md)
+      [File System Proxy Service Installation](/docs/accessanalyzer/11.6/enterpriseauditor/install/filesystemproxy/wizard.md)
       topic for additional information
 
     ![Select Host Lists window](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/fsaa/selecthostlists.webp)
@@ -44,7 +44,7 @@ Using the radio buttons, select where the execution of the applet will take plac
 It is best practice in global implementations to utilize a specific remote server or proxy scanner
 that is located in the same data center as the target hosts. This is particularly beneficial if the
 Enterprise Auditor Console server is in a different data center. See the
-[Proxy Scanning Architecture](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/install/filesystemproxy/overview.md#proxy-scanning-architecture)
+[Proxy Scanning Architecture](/docs/accessanalyzer/11.6/enterpriseauditor/install/filesystemproxy/overview.md#proxy-scanning-architecture)
 topic for additional information.
 
 In the bottom section, the checkbox options affect the execution of the applet:

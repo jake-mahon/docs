@@ -40,11 +40,11 @@ default browser for security authentication.
 close the browser window.
 
 The requester will receive an email notification on the updated status of the request. See the
-[Access Request Updated Email](/versioned_docs/accessinformationcenter_11.6/access/informationcenter/accessrequests/email/updated.md)
+[Access Request Updated Email](/docs/accessinformationcenter/11.6/access/informationcenter/accessrequests/email/updated.md)
 topic for an example of this email.
 
 You can view the history of requests processed for your resources in the Owner portal. See the
-[Access Request History](/versioned_docs/accessinformationcenter_11.6/access/informationcenter/accessrequests/owners/requesthistory.md)
+[Access Request History](/docs/accessinformationcenter/11.6/access/informationcenter/accessrequests/owners/requesthistory.md)
 topic for additional information.
 
 ### Decline Request
@@ -69,9 +69,9 @@ close the browser window.
 
 The requester will receive an email notification on the updated status of the request, including any
 note you added. See the
-[Access Request Updated Email](/versioned_docs/accessinformationcenter_11.6/access/informationcenter/accessrequests/email/updated.md)
+[Access Request Updated Email](/docs/accessinformationcenter/11.6/access/informationcenter/accessrequests/email/updated.md)
 topic for an example of this email.
 
 You can view the history of requests processed for your resources in the Owner portal. See the
-[Access Request History](/versioned_docs/accessinformationcenter_11.6/access/informationcenter/accessrequests/owners/requesthistory.md)
+[Access Request History](/docs/accessinformationcenter/11.6/access/informationcenter/accessrequests/owners/requesthistory.md)
 topic for additional information.

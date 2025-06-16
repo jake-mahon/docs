@@ -55,4 +55,4 @@ box from.
 
 **See Also**
 
-- [Directory Search](/versioned_docs/groupid_11.0/groupid/portal/search/search.md)
+- [Directory Search](/docs/groupid/11.0/groupid/portal/search/search.md)

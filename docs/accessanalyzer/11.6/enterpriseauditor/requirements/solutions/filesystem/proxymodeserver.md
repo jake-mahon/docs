@@ -101,10 +101,10 @@ use:
 
 - Proxy Mode with Applet
 
-    - [Proxy Mode with Applet Permissions](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/requirements/solutions/filesystem/proxymodeappletpermissions.md)
-    - [Proxy Mode with Applet Port Requirements](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/requirements/solutions/filesystem/proxymodeappletports.md)
+    - [Proxy Mode with Applet Permissions](/docs/accessanalyzer/11.6/enterpriseauditor/requirements/solutions/filesystem/proxymodeappletpermissions.md)
+    - [Proxy Mode with Applet Port Requirements](/docs/accessanalyzer/11.6/enterpriseauditor/requirements/solutions/filesystem/proxymodeappletports.md)
 
 - Proxy Mode as a Service
 
-    - [Proxy Mode as a Service Permissions](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/requirements/solutions/filesystem/proxymodeservicepermissions.md)
-    - [Proxy Mode as a Service Port Requirements](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/requirements/solutions/filesystem/proxymodeserviceports.md)
+    - [Proxy Mode as a Service Permissions](/docs/accessanalyzer/11.6/enterpriseauditor/requirements/solutions/filesystem/proxymodeservicepermissions.md)
+    - [Proxy Mode as a Service Port Requirements](/docs/accessanalyzer/11.6/enterpriseauditor/requirements/solutions/filesystem/proxymodeserviceports.md)

@@ -7,16 +7,16 @@ to mitigate risks once the suspicious action occurs.
 
 Review the following to take advantage of the Alerts functionality:
 
-- See the[Manage Alerts](/versioned_docs/auditor_10.6/auditor/admin/alertsettings/manage.md) topic
+- See the[Manage Alerts](/docs/auditor/10.6/auditor/admin/alertsettings/manage.md) topic
   for additional information on how to edit and enable existing predefined alerts, and create new
   alerts based on the predefined ones.
-- See the [Create Alerts](/versioned_docs/auditor_10.6/auditor/admin/alertsettings/create.md) topic
+- See the [Create Alerts](/docs/auditor/10.6/auditor/admin/alertsettings/create.md) topic
   for additional information on how to create custom alerts with your personal filters.
 - If you need to be alerted on specific events in your Event Logs or non-owner mailbox access
   attempts, see the
-  [Create Alerts for Event Log](/versioned_docs/auditor_10.6/auditor/admin/alertsettings/createeventlog.md)
+  [Create Alerts for Event Log](/docs/auditor/10.6/auditor/admin/alertsettings/createeventlog.md)
   and
-  [Create Alerts for Non-Owner Mailbox Access Events](/versioned_docs/auditor_10.6/auditor/admin/alertsettings/createmailboxaccess.md)
+  [Create Alerts for Non-Owner Mailbox Access Events](/docs/auditor/10.6/auditor/admin/alertsettings/createmailboxaccess.md)
   topics for additional information.
 
 The example alert is triggered when a new user is created in the monitored domain.
@@ -35,5 +35,5 @@ cannot assign or create tags on this page.
 
 To apply tags to an alert, navigate to alert settings and locate the Apply tags section on the
 General tab. See the
-[Create Alerts](/versioned_docs/auditor_10.6/auditor/admin/alertsettings/create.md) topic to receive
+[Create Alerts](/docs/auditor/10.6/auditor/admin/alertsettings/create.md) topic to receive
 information about tags applying.

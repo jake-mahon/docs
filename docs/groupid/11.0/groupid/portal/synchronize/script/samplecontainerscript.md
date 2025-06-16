@@ -73,6 +73,6 @@
 
 **See Also**
 
-- [Script](/versioned_docs/groupid_11.0/groupid/portal/synchronize/script/dtmscript.md)
-- [Visual Basic .NET for GroupID](/versioned_docs/groupid_11.0/groupid/portal/synchronize/script/visualbasicnetbasic.md)
-- [Sample Transform Scripts](/versioned_docs/groupid_11.0/groupid/portal/synchronize/script/sampletransformscript.md)
+- [Script](/docs/groupid/11.0/groupid/portal/synchronize/script/dtmscript.md)
+- [Visual Basic .NET for GroupID](/docs/groupid/11.0/groupid/portal/synchronize/script/visualbasicnetbasic.md)
+- [Sample Transform Scripts](/docs/groupid/11.0/groupid/portal/synchronize/script/sampletransformscript.md)

@@ -18,7 +18,7 @@ The toolbar in an interactive grid can display the following options:
 - Up arrow and down arrow – Click to expand or collapse the groups
 - Download Data – Click to download all data to a CSV file. This option is displayed when the
   **Export table data as CSV** checkbox has been selected for the report, see the
-  [Grid](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/report/wizard/widgets.md#grid)
+  [Grid](/docs/accessanalyzer/11.6/enterpriseauditor/admin/report/wizard/widgets.md#grid)
   topic for additional information.
 
 When enumeration is set on an interactive grid, a second download button is displayed. A CSV file

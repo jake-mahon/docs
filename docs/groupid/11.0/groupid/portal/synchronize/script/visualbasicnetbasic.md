@@ -178,6 +178,6 @@ function of the .Net Char class.
 
 **See Also**
 
-- [Script](/versioned_docs/groupid_11.0/groupid/portal/synchronize/script/dtmscript.md)
-- [Sample Transform Scripts](/versioned_docs/groupid_11.0/groupid/portal/synchronize/script/sampletransformscript.md)
-- [Sample Container Scripts](/versioned_docs/groupid_11.0/groupid/portal/synchronize/script/samplecontainerscript.md)
+- [Script](/docs/groupid/11.0/groupid/portal/synchronize/script/dtmscript.md)
+- [Sample Transform Scripts](/docs/groupid/11.0/groupid/portal/synchronize/script/sampletransformscript.md)
+- [Sample Container Scripts](/docs/groupid/11.0/groupid/portal/synchronize/script/samplecontainerscript.md)

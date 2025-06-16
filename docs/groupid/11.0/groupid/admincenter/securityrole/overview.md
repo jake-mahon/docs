@@ -20,21 +20,21 @@ security roles.
 **View security role info**
 
 To view information about a security role, see the
-[View Security Roles](/versioned_docs/groupid_11.0/groupid/admincenter/securityrole/manage.md#view-security-roles)
+[View Security Roles](/docs/groupid/11.0/groupid/admincenter/securityrole/manage.md#view-security-roles)
 topic.
 
 **User policies and permissions**
 
 Settings defined for an identity store apply to all users while role-based permissions and policies
 only apply to members of a role. See the
-[Configure an Identity Store](/versioned_docs/groupid_11.0/groupid/admincenter/identitystore/configure.md)topic.
+[Configure an Identity Store](/docs/groupid/11.0/groupid/admincenter/identitystore/configure.md)topic.
 
 ## Assign Distinct Roles to a User in Different GroupID Clients
 
 You can assign different roles to a user in different GroupID clients. For example, a user can have
 the administrator role in GroupID Management Shell and the role of a standard user in a GroupID
 portal. This flexibility is built into security roles using client-based criteria. See the
-[Security Role – Criteria](/versioned_docs/groupid_11.0/groupid/admincenter/securityrole/criteria.md)
+[Security Role – Criteria](/docs/groupid/11.0/groupid/admincenter/securityrole/criteria.md)
 topic.
 
 GroupID clients include:
@@ -56,14 +56,14 @@ As a result, User A has two different roles in two GroupID clients.
 
 Not only that, a user can also have multiple roles in a GroupIDGroupID client, in which case role
 priority is used to determine the access level of the user on the specific client. See
-[Priority](/versioned_docs/groupid_11.0/groupid/admincenter/securityrole/manage.md).
+[Priority](/docs/groupid/11.0/groupid/admincenter/securityrole/manage.md).
 
 To view the highest priority role of a user with respect to a GroupID client, see the
-[Check the Roles of a User](/versioned_docs/groupid_11.0/groupid/admincenter/securityrole/checkrole.md)
+[Check the Roles of a User](/docs/groupid/11.0/groupid/admincenter/securityrole/checkrole.md)
 topic.
 
 See Also
 
-- [Identity Stores](/versioned_docs/groupid_11.0/groupid/admincenter/identitystore/overview.md)
-- [Create a Security Role](/versioned_docs/groupid_11.0/groupid/admincenter/securityrole/create.md)
-- [Manage Security Roles](/versioned_docs/groupid_11.0/groupid/admincenter/securityrole/manage.md)
+- [Identity Stores](/docs/groupid/11.0/groupid/admincenter/identitystore/overview.md)
+- [Create a Security Role](/docs/groupid/11.0/groupid/admincenter/securityrole/create.md)
+- [Manage Security Roles](/docs/groupid/11.0/groupid/admincenter/securityrole/manage.md)

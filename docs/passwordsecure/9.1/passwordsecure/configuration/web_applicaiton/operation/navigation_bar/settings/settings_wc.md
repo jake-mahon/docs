@@ -1,7 +1,7 @@
 # Settings
 
 The settings are called up via the
-[Navigation bar](/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/web_applicaiton/operation/navigation_bar/navigation_bar.md).
+[Navigation bar](/docs/passwordsecure/9.1/passwordsecure/configuration/web_applicaiton/operation/navigation_bar/navigation_bar.md).
 The following options are available:
 
 #### Language
@@ -51,9 +51,9 @@ The following options can be managed via this menu item:
 
 The management of these settings is based on the client. Further information can be found under
 global
-[User rights](/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/advanced_view/mainmenu/user_rights/user_rights.md)
+[User rights](/docs/passwordsecure/9.1/passwordsecure/configuration/advanced_view/mainmenu/user_rights/user_rights.md)
 and
-[User settings](/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/advanced_view/mainmenu/user_settings/user_settings.md)
+[User settings](/docs/passwordsecure/9.1/passwordsecure/configuration/advanced_view/mainmenu/user_settings/user_settings.md)
 
 The following settings are not available on the Web Application:
 

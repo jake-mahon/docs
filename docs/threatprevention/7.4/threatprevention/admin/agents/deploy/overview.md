@@ -10,7 +10,7 @@ The Threat Prevention Agent can be deployed through any of the following methods
 - Manually through the Windows Agent Setup Wizard – Run the Agent executable to launch this wizard
 
 See the
-[Manual Agent Deployment](/versioned_docs/threatprevention_7.4/threatprevention/install/agent/manual.md)
+[Manual Agent Deployment](/docs/threatprevention/7.4/threatprevention/install/agent/manual.md)
 topic for additional information.
 
 ## Deploy Agents Wizard
@@ -19,7 +19,7 @@ The Deploy Agents wizard enables you to deploy Agents from the Administration Co
 targeted for Agent deployment must meet the minimum .NET Framework version required by the Agent or
 the deployment fails. Remember to check server requirements before deploying the Agent, including
 compatibility with other security products. See the
-[Agent Server Requirements](/versioned_docs/threatprevention_7.4/threatprevention/requirements/agent.md)
+[Agent Server Requirements](/docs/threatprevention/7.4/threatprevention/requirements/agent.md)
 topic for additional information.
 
 **NOTE:** The wizard does not block access to the Administration Console and can be minimized while
@@ -47,11 +47,11 @@ option for that machine in the grid. The Select Computers window opens.
 **Step 3 –** On the Select Computers window, add the host or IP addresses of the target machines to
 the Deploy Agents to These Computers box. Use any of the three methods, as represented by the three
 tabs on the window. See the
-[Select Computers Window](/versioned_docs/threatprevention_7.4/threatprevention/admin/agents/deploy/selectcomputers.md)
+[Select Computers Window](/docs/threatprevention/7.4/threatprevention/admin/agents/deploy/selectcomputers.md)
 topic for additional information. Click **Next**.
 
 If you open this window through the
-[Right-Click Menu](/versioned_docs/threatprevention_7.4/threatprevention/admin/agents/overview.md#right-click-menu)
+[Right-Click Menu](/docs/threatprevention/7.4/threatprevention/admin/agents/overview.md#right-click-menu)
 action, the list is auto-populated with the computer(s) selected on the Agents interface.
 
 ![Deploy Agents wizard – Set Options page](/img/versioned_docs/threatprevention_7.4/threatprevention/admin/agents/deploy/setoptions.webp)
@@ -60,7 +60,7 @@ action, the list is auto-populated with the computer(s) selected on the Agents i
 selected machine(s). Review the Enterprise Manager IP address/name and port for accuracy and select
 the desired modules to install for this Agent. You can also set other properties for the Agent. See
 the
-[Set Options Window ](/versioned_docs/threatprevention_7.4/threatprevention/admin/agents/deploy/setoptions.md)topic
+[Set Options Window ](/docs/threatprevention/7.4/threatprevention/admin/agents/deploy/setoptions.md)topic
 for additional information.
 
 **Step 5 –** Once configurations are set, click **Next**.
@@ -70,14 +70,14 @@ for additional information.
 **Step 6 –** On the Prerequisites Check window, the credentials provided on the Set Options window
 either succeed or fail during a prerequisites or verification check. It also initiates a
 prerequisite check for the Agent. See the
-[Prerequisites Check Window](/versioned_docs/threatprevention_7.4/threatprevention/admin/agents/deploy/prerequisitescheck.md)
+[Prerequisites Check Window](/docs/threatprevention/7.4/threatprevention/admin/agents/deploy/prerequisitescheck.md)
 topic for additional information.
 
 ![Deploy Agents wizard – Installing page](/img/versioned_docs/threatprevention_7.4/threatprevention/admin/agents/deploy/installing.webp)
 
 **Step 7 –** The Installing window performs the installation and displays whether or not the action
 was successful. See the
-[Installing Window ](/versioned_docs/threatprevention_7.4/threatprevention/admin/agents/deploy/installing.md)
+[Installing Window ](/docs/threatprevention/7.4/threatprevention/admin/agents/deploy/installing.md)
 topic for additional information.
 
 **Step 8 –** When the task is successfully completed, click **Finish** to close the window.
@@ -87,7 +87,7 @@ The Agent will be listed in the table on the Agents interface.
 **NOTE:** If the server where the Agent is deployed has multiple network adapters (multi-homed),
 then it is necessary to bind the Agent to an adapter that can communicate with the Enterprise
 Manager. See the
-[Bind To](/versioned_docs/threatprevention_7.4/threatprevention/troubleshooting/agentcommunication.md#bind-to)
+[Bind To](/docs/threatprevention/7.4/threatprevention/troubleshooting/agentcommunication.md#bind-to)
 topic for additional information.
 
 ## Update Agent Settings
@@ -97,23 +97,23 @@ Follow the steps to update the settings for a deployed Agent through the Agents 
 **Step 1 –** Click Agents in the left pane to launch the Agents interface.
 
 **Step 2 –** On the Agents interface, right-click the Agent and select Update Agent Settings on the
-[Right-Click Menu](/versioned_docs/threatprevention_7.4/threatprevention/admin/agents/overview.md#right-click-menu).
+[Right-Click Menu](/docs/threatprevention/7.4/threatprevention/admin/agents/overview.md#right-click-menu).
 The Select Computers window opens.
 
 **Step 3 –** On the Select Computers window, the computer where the Agent is deployed is
 automatically added to the Update Agent settings on These Computers box. See the
-[Select Computers Window](/versioned_docs/threatprevention_7.4/threatprevention/admin/agents/deploy/selectcomputers.md)
+[Select Computers Window](/docs/threatprevention/7.4/threatprevention/admin/agents/deploy/selectcomputers.md)
 topic for additional information. Click **Next**.
 
 **Step 4 –** On the Set Options window, ensure the proper credentials, modules, and Enterprise
 Manager location are accurate alongside additional options. To make changes to the settings, uncheck
 the **Keep Existing Settings** box. Make necessary updates as needed. See the
-[Set Options Window ](/versioned_docs/threatprevention_7.4/threatprevention/admin/agents/deploy/setoptions.md)
+[Set Options Window ](/docs/threatprevention/7.4/threatprevention/admin/agents/deploy/setoptions.md)
 topic for additional information.
 
 **Step 5 –** On the Prerequisites Check window, the credentials provided on the Set Options window
 either succeed or fail during a prerequisites or verification check. See the
-[Prerequisites Check Window](/versioned_docs/threatprevention_7.4/threatprevention/admin/agents/deploy/prerequisitescheck.md)
+[Prerequisites Check Window](/docs/threatprevention/7.4/threatprevention/admin/agents/deploy/prerequisitescheck.md)
 topic for additional information. Click **Next**.
 
 **Step 6 –** On the Updating Settings window, the Agent will be stopped and restarted. One of two

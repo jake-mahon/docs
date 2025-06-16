@@ -20,7 +20,7 @@ Reviews interface is only accessible to users who have been assigned ownership o
 resource. Owners without a console user role are directed to the My Reviews interface at login.
 Owners with a console user role access the pending and historical reviews for their resources by
 clicking the My Reviews tab. See the
-[Pending Reviews](/versioned_docs/auditor_10.6/access/reviews/entitlementreviews/pendingreviews.md)
+[Pending Reviews](/docs/auditor/10.6/access/reviews/entitlementreviews/pendingreviews.md)
 topic for additional information.
 
 Who Can Assign Ownership (Ownership Administrators)?
@@ -44,7 +44,7 @@ What Can Resource Owners Do?
 - View historical information on access reviews
 
 See the
-[Resource Owners Interface](/versioned_docs/auditor_10.6/access/reviews/resourceowners/interface.md)
+[Resource Owners Interface](/docs/auditor/10.6/access/reviews/resourceowners/interface.md)
 topic for additional information.
 
 ## Workflow of Ownership Assignment
@@ -52,7 +52,7 @@ topic for additional information.
 Prerequisite:
 
 - Optional: The Access Reviews application is configured to send Notifications. See the
-  [Notifications Page](/versioned_docs/auditor_10.6/access/reviews/admin/configuration/notifications.md)
+  [Notifications Page](/docs/auditor/10.6/access/reviews/admin/configuration/notifications.md)
   topic for additional information.
 
     **NOTE:** By default, the application is configured to send notifications only to the primary
@@ -72,10 +72,10 @@ Workflow:
 workflow.
 
 - Add resources to be managed by associating a business data owner with a resource. See the
-  [Add New Resource Wizard](/versioned_docs/auditor_10.6/access/reviews/resourceowners/wizard/add.md)
+  [Add New Resource Wizard](/docs/auditor/10.6/access/reviews/resourceowners/wizard/add.md)
   topic for additional information.
 - Confirm resource ownership. See the
-  [Ownership Confirmation](/versioned_docs/auditor_10.6/access/reviews/resourceowners/confirmation.md)
+  [Ownership Confirmation](/docs/auditor/10.6/access/reviews/resourceowners/confirmation.md)
   topic for additional information.
 - Notify owners of their responsibilities. See the [Notification to Owners](#notification-to-owners)
   topic for additional information.
@@ -90,6 +90,6 @@ information:
 - How owners should log into the application console, specifically what URL and credentials to use.
 - Expectation on response times
 - How to access instructions on how to complete a review. You can link to the
-  [Owners & Access Reviews](/versioned_docs/auditor_10.6/access/reviews/resourceowners/owneroverview.md)
+  [Owners & Access Reviews](/docs/auditor/10.6/access/reviews/resourceowners/owneroverview.md)
   topic or download that topic and its subtopics as a PDF and make it available within your
   corporate resources.

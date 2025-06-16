@@ -8,13 +8,13 @@ Compression Services. Refer to the following sections for detailed information:
 
 It also includes advanced scenarios such as:
 
-- [Install Client via Group Policy](/versioned_docs/auditor_10.6/auditor/install/viagrouppolicy.md)
-- [Install in Silent Mode](/versioned_docs/auditor_10.6/auditor/install/silentmode.md)
+- [Install Client via Group Policy](/docs/auditor/10.6/auditor/install/viagrouppolicy.md)
+- [Install in Silent Mode](/docs/auditor/10.6/auditor/install/silentmode.md)
 
 ## Install Netwrix Auditor
 
 For instructions on upgrade procedures, refer to
-[Upgrade to the Latest Version](/versioned_docs/auditor_10.6/auditor/install/upgrade.md).
+[Upgrade to the Latest Version](/docs/auditor/10.6/auditor/install/upgrade.md).
 
 **CAUTION:** To keep your systems safe, Netwrix Auditor should not be exposed to inbound access from
 the internet.
@@ -54,14 +54,14 @@ collects statistical information on how the Licensee uses the product in accorda
 law. Select Skip if you do not want to participate in the program.
 
 You can always opt-out of the Netwrix Customer Experience Program later. See the
-[About Netwrix Auditor](/versioned_docs/auditor_10.6/auditor/admin/settings/about.md) topic for
+[About Netwrix Auditor](/docs/auditor/10.6/auditor/admin/settings/about.md) topic for
 additional information.
 
 **Step 7 –** Click Install.
 
 After a successful installation, Auditor shortcut will be added to the **Start** menu and screen and
 the product will start. See the
-[First Launch](/versioned_docs/auditor_10.6/auditor/install/firstlaunch.md) topic for additional
+[First Launch](/docs/auditor/10.6/auditor/install/firstlaunch.md) topic for additional
 information on the product navigation.
 
 ![welcome_screen](/img/versioned_docs/auditor_10.6/auditor/install/welcome_screen.webp)
@@ -80,5 +80,5 @@ either automatically when setting up auditing in Netwrix Auditor, or manually.
 
 Refer to the following sections below for manual installation instructions:
 
-- [Install for SharePoint Core Service](/versioned_docs/auditor_10.6/auditor/install/sharepointcoreservice.md)
-- [Install for User Activity Core Service](/versioned_docs/auditor_10.6/auditor/install/useractivitycoreservice.md)
+- [Install for SharePoint Core Service](/docs/auditor/10.6/auditor/install/sharepointcoreservice.md)
+- [Install for User Activity Core Service](/docs/auditor/10.6/auditor/install/useractivitycoreservice.md)

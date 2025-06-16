@@ -53,18 +53,18 @@ Use the buttons in the Objects and Containers, Collections of Objects and Contai
 areas to edit the lists.
 
 - Objects and Containers area – The Add (+) button opens the
-  [Select Active Directory Contexts Window](/versioned_docs/threatprevention_7.4/threatprevention/admin/policies/eventtype/window/selectactivedirectory/context.md).
+  [Select Active Directory Contexts Window](/docs/threatprevention/7.4/threatprevention/admin/policies/eventtype/window/selectactivedirectory/context.md).
 - Collection of Objects and Containers area – The Collection button opens the
-  [List of Collections Window](/versioned_docs/threatprevention_7.4/threatprevention/admin/configuration/collectionmanager/listcollections.md)
+  [List of Collections Window](/docs/threatprevention/7.4/threatprevention/admin/configuration/collectionmanager/listcollections.md)
   to the appropriate Collection category.
 - GUIDs area – The Add (+) button opens the
-  [Select Active Directory Contexts Window](/versioned_docs/threatprevention_7.4/threatprevention/admin/policies/eventtype/window/selectactivedirectory/context.md).
+  [Select Active Directory Contexts Window](/docs/threatprevention/7.4/threatprevention/admin/policies/eventtype/window/selectactivedirectory/context.md).
 
 - The Remove (x) button deletes the selected item(s) from that box.
 
 **NOTE:** To enable a Dynamic Policy, use the Collection button to select the desired Dynamic
 Collection. See the
-[Dynamic Collections](/versioned_docs/threatprevention_7.4/threatprevention/admin/configuration/collectionmanager/dynamic.md)
+[Dynamic Collections](/docs/threatprevention/7.4/threatprevention/admin/configuration/collectionmanager/dynamic.md)
 topic for additional information.
 
 Sub Tree
@@ -87,17 +87,17 @@ Select the **Block** or **Allow** option button and then edit the list.
 Use the buttons in the Classes and Attributes areas to edit the lists.
 
 - Classes area – The Add (+) buttons open the
-  [Class List Window](/versioned_docs/threatprevention_7.4/threatprevention/admin/policies/eventtype/window/classlist.md).
+  [Class List Window](/docs/threatprevention/7.4/threatprevention/admin/policies/eventtype/window/classlist.md).
 - Attributes area – The Attributes Add (+) button opens the
-  [Attribute List Window](/versioned_docs/threatprevention_7.4/threatprevention/admin/policies/eventtype/window/attributelist.md).
+  [Attribute List Window](/docs/threatprevention/7.4/threatprevention/admin/policies/eventtype/window/attributelist.md).
 - The Collection button opens the
-  [List of Collections Window](/versioned_docs/threatprevention_7.4/threatprevention/admin/configuration/collectionmanager/listcollections.md)
+  [List of Collections Window](/docs/threatprevention/7.4/threatprevention/admin/configuration/collectionmanager/listcollections.md)
   to the appropriate Collection category.
 - The Remove (x) button deletes the selected item(s) from that box.
 
 **NOTE:** To enable a Dynamic Policy, use the Collection button to select the desired Dynamic
 Collection. See the
-[Dynamic Collections](/versioned_docs/threatprevention_7.4/threatprevention/admin/configuration/collectionmanager/dynamic.md)
+[Dynamic Collections](/docs/threatprevention/7.4/threatprevention/admin/configuration/collectionmanager/dynamic.md)
 topic for additional information.
 
 ## AD Perpetrator Filter
@@ -111,7 +111,7 @@ from being locked down.
 Select the **Block** or **Allow** option button and then edit the list.
 
 **NOTE:** For the
-[Password Enforcement Event Type](/versioned_docs/threatprevention_7.4/threatprevention/admin/policies/eventtype/passwordenforcement.md),
+[Password Enforcement Event Type](/docs/threatprevention/7.4/threatprevention/admin/policies/eventtype/passwordenforcement.md),
 selecting **Allow** means that this policy will not validate the new passwords for the accounts
 listed here. Selecting **Block** means that this policy will validate the new passwords for the
 accounts listed here.
@@ -119,15 +119,15 @@ accounts listed here.
 Use the buttons in the Perpetrators and Collections of Perpetrators areas to edit the lists.
 
 - Perpetrators area – The Add (+) button opens the
-  [Select Active Directory Perpetrators Window](/versioned_docs/threatprevention_7.4/threatprevention/admin/policies/eventtype/window/selectactivedirectory/perpetrators.md).
+  [Select Active Directory Perpetrators Window](/docs/threatprevention/7.4/threatprevention/admin/policies/eventtype/window/selectactivedirectory/perpetrators.md).
 - Collections of Perpetrators area - The Collection button opens the
-  [List of Collections Window](/versioned_docs/threatprevention_7.4/threatprevention/admin/configuration/collectionmanager/listcollections.md)
+  [List of Collections Window](/docs/threatprevention/7.4/threatprevention/admin/configuration/collectionmanager/listcollections.md)
   to the appropriate Collection category.
 - The Remove (x) button deletes the selected item(s) from that box.
 
 **NOTE:** To enable a Dynamic Policy, use the Collection button to select the desired Dynamic
 Collection. See the
-[Dynamic Collections](/versioned_docs/threatprevention_7.4/threatprevention/admin/configuration/collectionmanager/dynamic.md)
+[Dynamic Collections](/docs/threatprevention/7.4/threatprevention/admin/configuration/collectionmanager/dynamic.md)
 topic for additional information.
 
 ## Hosts (from) Filter
@@ -140,18 +140,18 @@ hosts as originators of an event.
 Select the **Block** or **Allow** option button and then edit the list.
 
 - For the
-  [Password Enforcement Event Type](/versioned_docs/threatprevention_7.4/threatprevention/admin/policies/eventtype/passwordenforcement.md),
+  [Password Enforcement Event Type](/docs/threatprevention/7.4/threatprevention/admin/policies/eventtype/passwordenforcement.md),
   selecting **Allow** means that this policy will not validate the new passwords for the accounts
   listed here. Selecting **Block** means that this policy will validate the new passwords for the
   accounts listed here.
 - For the
-  [Authentication Lockdown Event Type](/versioned_docs/threatprevention_7.4/threatprevention/admin/policies/eventtype/authenticationlockdown.md),
+  [Authentication Lockdown Event Type](/docs/threatprevention/7.4/threatprevention/admin/policies/eventtype/authenticationlockdown.md),
   this filter blocks or only allows authentication from the identified host(s).
 
 Use the buttons in the Include Hosts area to edit the list.
 
 - The Hosts Add (+) button opens the
-  [Select Computer Window](/versioned_docs/threatprevention_7.4/threatprevention/admin/policies/eventtype/window/selectcomputers.md).
+  [Select Computer Window](/docs/threatprevention/7.4/threatprevention/admin/policies/eventtype/window/selectcomputers.md).
 - The Remove (x) button deletes the selected item(s) from that box.
 
 ## User Account Control Filter

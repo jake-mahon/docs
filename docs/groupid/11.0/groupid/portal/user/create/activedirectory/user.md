@@ -20,22 +20,22 @@ What do you want to do?
     The **Create User** wizard opens to the Account page.
 
 2. On the
-   [Account page](/versioned_docs/groupid_11.0/groupid/portal/user/create/activedirectory/account.md),
+   [Account page](/docs/groupid/11.0/groupid/portal/user/create/activedirectory/account.md),
    specify basic account info, such as the user's first name, last name, login ID and the UPN
    suffix.
 3. On the
-   [Password page](/versioned_docs/groupid_11.0/groupid/portal/user/create/activedirectory/password.md),
+   [Password page](/docs/groupid/11.0/groupid/portal/user/create/activedirectory/password.md),
    provide a password for the user account and set other password-specific options.
 4. Use the
-   [Exchange page](/versioned_docs/groupid_11.0/groupid/portal/user/create/activedirectory/messaging.md),
+   [Exchange page](/docs/groupid/11.0/groupid/portal/user/create/activedirectory/messaging.md),
    to create the user as mail-enabled.
 5. On the
-   [Summary Page](/versioned_docs/groupid_11.0/groupid/portal/user/create/activedirectory/summary.md),
+   [Summary Page](/docs/groupid/11.0/groupid/portal/user/create/activedirectory/summary.md),
    review the settings and then click Finish to complete the wizard.
 
 NOTE: If the GroupID administrator has specified the user creation action for review, your changes
 will not take effect until verified by an approver. See the
-[Requests](/versioned_docs/groupid_11.0/groupid/portal/request/overview.md) topic.
+[Requests](/docs/groupid/11.0/groupid/portal/request/overview.md) topic.
 
 ## Create a non mail-enabled user in Active Directory
 
@@ -44,28 +44,28 @@ will not take effect until verified by an approver. See the
     The **Create User** wizard opens to the Account page.
 
 2. On the
-   [Account page](/versioned_docs/groupid_11.0/groupid/portal/user/create/activedirectory/account.md),
+   [Account page](/docs/groupid/11.0/groupid/portal/user/create/activedirectory/account.md),
    specify basic account info, such as the user's first name, last name, login ID and the UPN
    suffix.
 3. On the
-   [Password page](/versioned_docs/groupid_11.0/groupid/portal/user/create/activedirectory/password.md),
+   [Password page](/docs/groupid/11.0/groupid/portal/user/create/activedirectory/password.md),
    provide a password for the user account and set other password-specific options.
 4. On the
-   [Exchange page](/versioned_docs/groupid_11.0/groupid/portal/user/create/activedirectory/messaging.md),
+   [Exchange page](/docs/groupid/11.0/groupid/portal/user/create/activedirectory/messaging.md),
    clear the **Mail-Enabled** check box to create the user as non mail-enabled. This disables the
    remaining fields on the page.
 
     A non mail-enabled user does not have an email address.
 
 5. On the
-   [Summary Page](/versioned_docs/groupid_11.0/groupid/portal/user/create/activedirectory/summary.md),
+   [Summary Page](/docs/groupid/11.0/groupid/portal/user/create/activedirectory/summary.md),
    review the settings and then click Finish to complete the wizard.
 
 NOTE: If the GroupID administrator has specified the user creation action for review, your changes
 will not take effect until verified by an approver. See the
-[Requests](/versioned_docs/groupid_11.0/groupid/portal/request/overview.md) topic.
+[Requests](/docs/groupid/11.0/groupid/portal/request/overview.md) topic.
 
 **See Also**
 
-- [Directory Search](/versioned_docs/groupid_11.0/groupid/portal/search/search.md)
-- [User Properties](/versioned_docs/groupid_11.0/groupid/portal/user/properties/overview.md)
+- [Directory Search](/docs/groupid/11.0/groupid/portal/search/search.md)
+- [User Properties](/docs/groupid/11.0/groupid/portal/user/properties/overview.md)

@@ -8,9 +8,9 @@ across your SharePoint environment.
 
 The job groups in the 7.Activity Job Group are:
 
-- [Forensics Job Group](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/sharepoint/activity/forensics/overview.md)
+- [Forensics Job Group](/docs/accessanalyzer/11.6/enterpriseauditor/solutions/sharepoint/activity/forensics/overview.md)
   – Highlights deletions, group membership changes, permission changes, and activity around
   sensitive data
-- [Usage Statistics Job Group](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/sharepoint/activity/usagestatistics/overview.md)–
+- [Usage Statistics Job Group](/docs/accessanalyzer/11.6/enterpriseauditor/solutions/sharepoint/activity/usagestatistics/overview.md)–
   Identifies long term trends of activity across your SharePoint environment highlighting most
   active sites and users as well as stale users

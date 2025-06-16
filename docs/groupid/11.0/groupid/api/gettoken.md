@@ -42,7 +42,7 @@ application/x-www-form-urlencoded
 
 See Also
 
-- [Common Errors](/versioned_docs/groupid_11.0/groupid/api/commonerrors.md)
+- [Common Errors](/docs/groupid/11.0/groupid/api/commonerrors.md)
 - Get Token
-- [User APIs](/versioned_docs/groupid_11.0/groupid/api/user/userapis.md)
-- [Group APIs](/versioned_docs/groupid_11.0/groupid/api/group/groupapis.md)
+- [User APIs](/docs/groupid/11.0/groupid/api/user/userapis.md)
+- [Group APIs](/docs/groupid/11.0/groupid/api/group/groupapis.md)

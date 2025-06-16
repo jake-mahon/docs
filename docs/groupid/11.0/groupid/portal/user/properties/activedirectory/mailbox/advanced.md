@@ -25,7 +25,7 @@ If selected, the user will not be visible in the address book.
 Specify an alternate recipient to receive the emails sent to this user.
 
 Click the ellipsis button to launch the
-[Find Dialog Box](/versioned_docs/groupid_11.0/groupid/portal/search/find.md), where you can search
+[Find Dialog Box](/docs/groupid/11.0/groupid/portal/search/find.md), where you can search
 and select the required recipient.
 
 To remove the alternate recipient, click the **Remove** button.
@@ -50,4 +50,4 @@ Indicates whether to send every email for this user to the alternate recipient a
 
 **See Also**
 
-- [User Properties](/versioned_docs/groupid_11.0/groupid/portal/user/properties/overview.md)
+- [User Properties](/docs/groupid/11.0/groupid/portal/user/properties/overview.md)

@@ -77,7 +77,7 @@ updated with values from Microsoft Entra ID. Follow the steps to enable the SSO
 
 _Remember,_ Enabling Entra ID SSO requires SSL to be enabled. If this was not done during the
 installation, then you must manually configure it. See the
-[Securing the Access Information Center](/versioned_docs/accessinformationcenter_11.6/access/informationcenter/installation/secure.md)
+[Securing the Access Information Center](/docs/accessinformationcenter/11.6/access/informationcenter/installation/secure.md)
 topic for additional information.
 
 **Step 1 –** Open the `AccessInformationCenter.Service.exe.config` file in a text editor, such as

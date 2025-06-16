@@ -16,15 +16,15 @@ The User Investigation dashboard contains the following cards:
   time interval
 - Activity – Timeline of all events associated with the user over the specified time interval. See
   the
-  [Graph Card Features](/versioned_docs/threatprevention_7.4/threatprevention/siemdashboard/qradar/navigate.md#graph-card-features)
+  [Graph Card Features](/docs/threatprevention/7.4/threatprevention/siemdashboard/qradar/navigate.md#graph-card-features)
   topic for additional information.
 - Latest Events – Tabular format of all events associated with the user over the specified time
   interval. See the
-  [Table Card Features](/versioned_docs/threatprevention_7.4/threatprevention/siemdashboard/qradar/navigate.md#table-card-features)
+  [Table Card Features](/docs/threatprevention/7.4/threatprevention/siemdashboard/qradar/navigate.md#table-card-features)
   topic for additional information.
 - Offenses Related to User – QRadar offenses associated with the user during the specified time
   interval. See the
-  [Table Card Features](/versioned_docs/threatprevention_7.4/threatprevention/siemdashboard/qradar/navigate.md#table-card-features)
+  [Table Card Features](/docs/threatprevention/7.4/threatprevention/siemdashboard/qradar/navigate.md#table-card-features)
   topic for additional information.
 
 The time interval is identified in the upper-right corner with the _Start_ and _End_ boxes. This is

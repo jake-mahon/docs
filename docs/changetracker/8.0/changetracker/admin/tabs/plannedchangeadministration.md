@@ -24,7 +24,7 @@ Any Planned Change comprises the following elements:
   Change Schedule and Rule Set.
 
 **NOTE:** Rules can also be created directly from an observed event using the Actions button on the
-[Events Tab](/versioned_docs/changetracker_8.0/changetracker/admin/tabs/events.md), or by recording
+[Events Tab](/docs/changetracker/8.0/changetracker/admin/tabs/events.md), or by recording
 events directly from a device group. Note that an additional Planned Change Schedule filter is
 available in the **Filter Control** panel. Planned Change Schedules can be re-used – use the Clone
 button to create a copy.

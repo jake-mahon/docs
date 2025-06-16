@@ -25,4 +25,4 @@ following:
 
 See also:
 
-- [Manage Search Requests](/versioned_docs/dataclassification_5.6.2/ndc/dsar/dsar_searches.md)
+- [Manage Search Requests](/docs/dataclassification/5.6.2/ndc/dsar/dsar_searches.md)

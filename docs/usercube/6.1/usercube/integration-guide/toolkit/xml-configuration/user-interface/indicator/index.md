@@ -10,9 +10,9 @@ The banner is displayed wherever the associated resource appears.
 
 For example, if we create an indicator pointing out the risk score of a user, the banner will show
 on the left-side of the user
-[tile](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/user-interface/tile/index.md)
+[tile](/docs/usercube/6.1/usercube/integration-guide/toolkit/xml-configuration/user-interface/tile/index.md)
 and the user
-[form](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/user-interface/form/index.md).
+[form](/docs/usercube/6.1/usercube/integration-guide/toolkit/xml-configuration/user-interface/form/index.md).
 If we create an indicator pointing out whether an AD account is unused or disabled, the banner will
 show on the left-side of the AD Entries tile and form.
 

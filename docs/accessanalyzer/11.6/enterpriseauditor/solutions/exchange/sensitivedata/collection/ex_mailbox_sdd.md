@@ -7,7 +7,7 @@ Special Dependency
 - Sensitive Data Discovery Add-On installed on the Enterprise Auditor Console server
 
     - See the
-      [Sensitive Data Discovery Add-On Installation](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/install/sensitivedatadiscovery/overview.md)
+      [Sensitive Data Discovery Add-On Installation](/docs/accessanalyzer/11.6/enterpriseauditor/install/sensitivedatadiscovery/overview.md)
       topic for additional information
 
     **NOTE:** Though the job is visible within the console, it requires an additional installer
@@ -60,21 +60,21 @@ purpose of this job.
 **Step 4 –** To scope the query for specific mailboxes, navigate to the Scope page. The query is
 configured by default to target **All mailboxes**. Change the Mailboxes to be queried to **Select
 mailboxes from list.**See the
-[EWSMailbox: Scope](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/ewsmailbox/scope.md)
+[EWSMailbox: Scope](/docs/accessanalyzer/11.6/enterpriseauditor/admin/datacollector/ewsmailbox/scope.md)
 topic for additional information.
 
 ![EWS Mailbox Data Collector Wizard Scope select page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/exchange/sensitivedata/collection/mailboxscopeselect.webp)
 
 **Step 5 –** To retrieve available mailboxes, click **Retrieve** on the Scope Select page. Select
 the desired mailboxes and click **Add**. See the
-[EWSMailbox: Scope Select](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/ewsmailbox/scopeselect.md)
+[EWSMailbox: Scope Select](/docs/accessanalyzer/11.6/enterpriseauditor/admin/datacollector/ewsmailbox/scopeselect.md)
 topic for additional information.
 
 ![EWS Mailbox Data Collector Wizard SDD Options page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/ewsmailbox/sddoptions.webp)
 
 **Step 6 –** To enable storage of discovered sensitive data, navigate to the SDD Options page.
 Sensitive data matches can be limited to reduce storage space. See the
-[EWSMailbox: SDD Options](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/ewsmailbox/sddoptions.md)
+[EWSMailbox: SDD Options](/docs/accessanalyzer/11.6/enterpriseauditor/admin/datacollector/ewsmailbox/sddoptions.md)
 topic for additional information.
 
 **NOTE:** By default, discovered sensitive data strings are not stored in the Enterprise Auditor
@@ -84,18 +84,18 @@ database.
 
 **Step 7 –** To modify criteria, navigate to the Criteria page. Add or remove criteria as desired.
 See the
-[EWSMailbox: Criteria](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/ewsmailbox/criteria.md)
+[EWSMailbox: Criteria](/docs/accessanalyzer/11.6/enterpriseauditor/admin/datacollector/ewsmailbox/criteria.md)
 topic for additional information.
 
 - (Optional) To create custom criteria, see the
-  [Sensitive Data Criteria Editor](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/sensitivedatadiscovery/criteriaeditor/overview.md)
+  [Sensitive Data Criteria Editor](/docs/accessanalyzer/11.6/enterpriseauditor/sensitivedatadiscovery/criteriaeditor/overview.md)
   topic for additional information
 
 ![EWS Mailbox Data Collector Wizard Filter page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/exchange/sensitivedata/collection/mailboxfiltersettings.webp)
 
 **Step 8 –** To filter the scan to specific mailbox folders, navigate to the Filter page. Include or
 exclude folders and attachments as desired. See the
-[EWSMailbox Data Collector](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/ewsmailbox/overview.md)
+[EWSMailbox Data Collector](/docs/accessanalyzer/11.6/enterpriseauditor/admin/datacollector/ewsmailbox/overview.md)
 topic for additional information.
 
 - To modify the threshold for message size, set the **Limit message size to** value as desired. The
@@ -107,7 +107,7 @@ topic for additional information.
 
 **Step 9 –** Navigate to the Results page to select which properties are gathered based on category.
 See the
-[EWSMailbox: Results](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/ewsmailbox/results.md)
+[EWSMailbox: Results](/docs/accessanalyzer/11.6/enterpriseauditor/admin/datacollector/ewsmailbox/results.md)
 topic for additional information.
 
 **NOTE:** By default, all categories are selected under sensitive data.

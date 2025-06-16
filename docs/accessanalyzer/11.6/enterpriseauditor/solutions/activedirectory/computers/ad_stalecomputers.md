@@ -6,7 +6,7 @@ The AD_StaleComputers Job provides details on stale computers that may be candid
 
 The Configuration section on a Job's overview page allows you to easily modify any customizable
 parameters used by analysis tasks in the job. See the
-[Parameter Configuration](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/jobs/job/overview.md#parameter-configuration)
+[Parameter Configuration](/docs/accessanalyzer/11.6/enterpriseauditor/admin/jobs/job/overview.md#parameter-configuration)
 topic for instructions on how to edit parameters on a job overview page.
 
 The AD_StaleComputers Job has the following configurable parameters:
@@ -57,5 +57,5 @@ Analysis parameters that can be customized have the following default values:
 | 1. Identify Stale Computers | @consider_disable           | 1             | A computer object that has been disabled: - Value 1 = Disabled computers are included as stale - Value 0 = Disabled computers are not included as stale |
 
 See the
-[Configure the Customizable Parameters in an Analysis Task](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/jobs/job/configure/analysiscustomizableparameters.md)
+[Configure the Customizable Parameters in an Analysis Task](/docs/accessanalyzer/11.6/enterpriseauditor/admin/jobs/job/configure/analysiscustomizableparameters.md)
 topic for additional information.

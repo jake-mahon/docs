@@ -131,7 +131,7 @@ list.
 **Step 3 –** Save this value in a text file.
 
 This is needed for adding a Exchange Online host in the Activity Monitor. See the
-[Exchange Online](/versioned_docs/activitymonitor_7.1/activitymonitor/admin/monitoredhosts/add/exchangeonline.md)
+[Exchange Online](/docs/activitymonitor/7.1/activitymonitor/admin/monitoredhosts/add/exchangeonline.md)
 topic for additional information. Next identify the Tenant ID.
 
 ## Identify the Tenant ID
@@ -148,7 +148,7 @@ to copy the Tenant ID from the registered application Overview blade.
 **Step 2 –** Save this value in a text file.
 
 This is needed for adding a Exchange Online host in the Activity Monitor. See the
-[Exchange Online](/versioned_docs/activitymonitor_7.1/activitymonitor/admin/monitoredhosts/add/exchangeonline.md)
+[Exchange Online](/docs/activitymonitor/7.1/activitymonitor/admin/monitoredhosts/add/exchangeonline.md)
 topic for additional information. Next identify the Tenant ID. Next generate the application’s
 Client Secret Key.
 
@@ -167,7 +167,7 @@ additional information.
 **Step 3 –** Save this value in a text file.
 
 This is needed for adding a Exchange Online host in the Activity Monitor. See the
-[Exchange Online](/versioned_docs/activitymonitor_7.1/activitymonitor/admin/monitoredhosts/add/exchangeonline.md)
+[Exchange Online](/docs/activitymonitor/7.1/activitymonitor/admin/monitoredhosts/add/exchangeonline.md)
 topic for additional information. Next identify the Tenant ID. Next generate the application’s
 Client Secret Key.
 
@@ -210,7 +210,7 @@ Copy to clipboard button to copy the Client Secret.
 **Step 7 –** Save this value in a text file.
 
 This is needed for adding a Exchange Online host in the Activity Monitor. See the
-[Exchange Online](/versioned_docs/activitymonitor_7.1/activitymonitor/admin/monitoredhosts/add/exchangeonline.md)
+[Exchange Online](/docs/activitymonitor/7.1/activitymonitor/admin/monitoredhosts/add/exchangeonline.md)
 topic for additional information.
 
 ## Enable Auditing for Exchange Online

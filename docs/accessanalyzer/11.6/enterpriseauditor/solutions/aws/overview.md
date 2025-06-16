@@ -25,7 +25,7 @@ Supported Platforms
 Requirements, Permissions, and Ports
 
 See the
-[Target Amazon Web Service Requirements, Permissions, and Ports](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/requirements/target/aws.md)
+[Target Amazon Web Service Requirements, Permissions, and Ports](/docs/accessanalyzer/11.6/enterpriseauditor/requirements/target/aws.md)
 topic for additional information.
 
 Sensitive Data Discovery Considerations
@@ -46,7 +46,7 @@ Location
 
 The AWS Solution requires a special Enterprise Auditor license. It can be installed from the
 Enterprise Auditor Instant Job Wizard. See the
-[Instant Job Wizard](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/jobs/instantjobs/overview.md)
+[Instant Job Wizard](/docs/accessanalyzer/11.6/enterpriseauditor/admin/jobs/instantjobs/overview.md)
 topic for information on installing instant solutions from the Enterprise Auditor Library.
 
 Once it has been installed into the Jobs tree, navigate to the solution: **Jobs** > **AWS**.
@@ -61,28 +61,28 @@ sensitive data from target AWS accounts.
 
 The AWS Solution is comprised of the following job groups:
 
-- [0.Collection Job Group](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/aws/collection/overview.md)
+- [0.Collection Job Group](/docs/accessanalyzer/11.6/enterpriseauditor/solutions/aws/collection/overview.md)
   – The 0.Collection Job Group scans and collects details on IAM and S3 buckets within an AWS
   organization
-- [1.Organizations Job Group](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/aws/organizations/overview.md)
+- [1.Organizations Job Group](/docs/accessanalyzer/11.6/enterpriseauditor/solutions/aws/organizations/overview.md)
   – The 1.Organizations Job Group provides details on AWS accounts and users
-- [2.Users Job Group](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/aws/users/overview.md)
+- [2.Users Job Group](/docs/accessanalyzer/11.6/enterpriseauditor/solutions/aws/users/overview.md)
   – The 2.Users Job Group provides details on AWS IAM user MFA status, access key usage, and
   staleness
-- [3.Groups Job Group](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/aws/groups/overview.md)
+- [3.Groups Job Group](/docs/accessanalyzer/11.6/enterpriseauditor/solutions/aws/groups/overview.md)
   – The 3.Groups Job Group provides details on AWS IAM group membership, orphaned groups (those with
   no policy assigned to them), sensitive security group membership, and stale groups
-- [4.Roles Job Group](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/aws/roles/overview.md)
+- [4.Roles Job Group](/docs/accessanalyzer/11.6/enterpriseauditor/solutions/aws/roles/overview.md)
   – The 4.Roles Job Group provides details on roles in the AWS IAM environment
-- [5.Policies Job Group](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/aws/policies/overview.md)
+- [5.Policies Job Group](/docs/accessanalyzer/11.6/enterpriseauditor/solutions/aws/policies/overview.md)
   – The 5.Policies Job Group provides details on AWS IAM policies including the various types of
   policies, the permissions they grant, and where they are applied in the AWS organization
-- [6.S3 Permissions Job Group](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/aws/s3permissions/overview.md)
+- [6.S3 Permissions Job Group](/docs/accessanalyzer/11.6/enterpriseauditor/solutions/aws/s3permissions/overview.md)
   – The 6.S3 Permissions Job Group provides details on permissions assigned to AWS S3 buckets,
   highlighting specific threats like broken inheritance and open buckets
-- [7.S3 Content Job Group](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/aws/s3content/overview.md)
+- [7.S3 Content Job Group](/docs/accessanalyzer/11.6/enterpriseauditor/solutions/aws/s3content/overview.md)
   – The 7.S3 Content Job Group provide details on AWS S3 buckets and objects contained in those
   buckets
-- [8.S3 Sensitive Data Job Group](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/aws/sensitivedata/overview.md)
+- [8.S3 Sensitive Data Job Group](/docs/accessanalyzer/11.6/enterpriseauditor/solutions/aws/sensitivedata/overview.md)
   – The 8.S3 Sensitive Data Job Group provides details on AWS S3 buckets and objects containing
   sensitive data

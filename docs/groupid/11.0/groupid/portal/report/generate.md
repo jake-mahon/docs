@@ -79,13 +79,13 @@ is joined to a domain, techwr5.local, reports would display data for techwr5.loc
 ## Scheduled Report job
 
 You can create a **Scheduled Report job** on GroupID Admin Center. See
-[Reports Schedule](/versioned_docs/groupid_11.0/groupid/admincenter/schedule/reports.md)
+[Reports Schedule](/docs/groupid/11.0/groupid/admincenter/schedule/reports.md)
 
 **See Also:**
 
-- [Reports](/versioned_docs/groupid_11.0/groupid/portal/report/dashboard.md)
-- [Manage Reports](/versioned_docs/groupid_11.0/groupid/portal/report/manage.md)
-- [Group Reports](/versioned_docs/groupid_11.0/groupid/portal/report/group.md)
-- [User Reports](/versioned_docs/groupid_11.0/groupid/portal/report/user.md)
-- [Computer Reports](/versioned_docs/groupid_11.0/groupid/portal/report/computer.md)
-- [Contact Reports](/versioned_docs/groupid_11.0/groupid/portal/report/contact.md)
+- [Reports](/docs/groupid/11.0/groupid/portal/report/dashboard.md)
+- [Manage Reports](/docs/groupid/11.0/groupid/portal/report/manage.md)
+- [Group Reports](/docs/groupid/11.0/groupid/portal/report/group.md)
+- [User Reports](/docs/groupid/11.0/groupid/portal/report/user.md)
+- [Computer Reports](/docs/groupid/11.0/groupid/portal/report/computer.md)
+- [Contact Reports](/docs/groupid/11.0/groupid/portal/report/contact.md)

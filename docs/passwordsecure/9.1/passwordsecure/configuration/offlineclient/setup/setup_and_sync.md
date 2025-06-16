@@ -16,9 +16,9 @@ initially created.
 ![Properties](/img/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/offlineclient/setup/installation_with_parameters_265-en.webp)
 
 You will find further information on this subject in the
-sections:[ Creating databases](/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/server_manager/creatingdatabase/creating_databases.md)
+sections:[ Creating databases](/docs/passwordsecure/9.1/passwordsecure/configuration/server_manager/creatingdatabase/creating_databases.md)
 and
-[Managing databases](/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/server_manager/managing_databases/managing_databases.md)
+[Managing databases](/docs/passwordsecure/9.1/passwordsecure/configuration/server_manager/managing_databases/managing_databases.md)
 
 User rights
 
@@ -46,7 +46,7 @@ possible to use several offline databases with an Offline Add-on.
 In order to keep the data always consistent, the offline database must be synchronized regularly.
 Synchronization is automatically performed by the client in the background. The interval can be
 freely configured in the
-[User settings](/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/advanced_view/mainmenu/user_settings/user_settings.md).
+[User settings](/docs/passwordsecure/9.1/passwordsecure/configuration/advanced_view/mainmenu/user_settings/user_settings.md).
 The synchronization is completed every 30 minutes by default. When creating and editing records, it
 is also possible to synchronize outside of the synchronization cycle so that the changes are
 directly available offline. In addition, the synchronization can also be started manually in

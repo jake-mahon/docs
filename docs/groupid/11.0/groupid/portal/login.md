@@ -55,8 +55,8 @@ You can opt for single sign-on across all GroupID clients, provided that a SAML 
 configured with GroupID. See the following topics for additional information on the SAML provider
 configuration:
 
-- [Configure GroupID in Microsoft Entra ID for SSO](/versioned_docs/groupid_11.0/groupid/authenticate/asserviceprovider/entrasso/configureinentra.md)
-- [Configure the Microsoft Entra SSO Application in GroupID](/versioned_docs/groupid_11.0/groupid/authenticate/asserviceprovider/entrasso/configureprovideringroupid.md)
+- [Configure GroupID in Microsoft Entra ID for SSO](/docs/groupid/11.0/groupid/authenticate/asserviceprovider/entrasso/configureinentra.md)
+- [Configure the Microsoft Entra SSO Application in GroupID](/docs/groupid/11.0/groupid/authenticate/asserviceprovider/entrasso/configureprovideringroupid.md)
 
 On the **GroupID Authenticate** page, click the button or image for the provider and proceed to sign
 in.
@@ -89,7 +89,7 @@ the following applies:
   displayed. You must enroll your identity store account using at least one authentication type.
 
     See the
-    [Enroll Your Identity Store Account](/versioned_docs/groupid_11.0/groupid/portal/user/authentication/enrollaccount.md)
+    [Enroll Your Identity Store Account](/docs/groupid/11.0/groupid/portal/user/authentication/enrollaccount.md)
     topic.
 
 - If you have already enrolled your identity store account in GroupID, the Authenticate window is
@@ -97,7 +97,7 @@ the following applies:
   authenticate your identity store account with one authentication type.
 
     See the
-    [Authenticate Your Identity Store Account](/versioned_docs/groupid_11.0/groupid/portal/user/authentication/authenticateaccount.md)
+    [Authenticate Your Identity Store Account](/docs/groupid/11.0/groupid/portal/user/authentication/authenticateaccount.md)
     topic.
 
 ## Sign Out
@@ -106,6 +106,6 @@ In GroupID portal, click your profile info in the top right corner and select **
 
 **See Also**
 
-- [Second Factor Authentication](/versioned_docs/groupid_11.0/groupid/portal/user/authentication/secondfactorauthentication.md)
-- [Unlock your accounts](/versioned_docs/groupid_11.0/groupid/portal/user/manage/unlockaccount.md)
-- [Reset Passwords](/versioned_docs/groupid_11.0/groupid/portal/user/authentication/passwordreset.md)
+- [Second Factor Authentication](/docs/groupid/11.0/groupid/portal/user/authentication/secondfactorauthentication.md)
+- [Unlock your accounts](/docs/groupid/11.0/groupid/portal/user/manage/unlockaccount.md)
+- [Reset Passwords](/docs/groupid/11.0/groupid/portal/user/authentication/passwordreset.md)

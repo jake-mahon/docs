@@ -47,5 +47,5 @@ The following tabs are used when configuring GroupID as an identity provider:
 
 See Also
 
-- [GroupID as a Service Provider](/versioned_docs/groupid_11.0/groupid/authenticate/asserviceprovider/overview.md)
-- [GroupID as an Identity Provider](/versioned_docs/groupid_11.0/groupid/authenticate/asidentityprovider/overview.md)
+- [GroupID as a Service Provider](/docs/groupid/11.0/groupid/authenticate/asserviceprovider/overview.md)
+- [GroupID as an Identity Provider](/docs/groupid/11.0/groupid/authenticate/asidentityprovider/overview.md)

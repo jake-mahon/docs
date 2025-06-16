@@ -4,7 +4,7 @@ The FileSystemAccess (FSAA) Data Collector collects permissions, content, and ac
 sensitive data information for Windows and NAS file systems. The FSAA Data Collector has been
 preconfigured within the File System Solution. Both this data collector and the solution are
 available with a special Enterprise Auditor license. See the
-[File System Solution](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/filesystem/overview.md)
+[File System Solution](/docs/accessanalyzer/11.6/enterpriseauditor/solutions/filesystem/overview.md)
 topic for additional information.
 
 Protocols
@@ -15,13 +15,13 @@ Protocols
 Ports
 
 - Ports vary based on the Scan Mode Option selected. See the
-  [File System Scan Options](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/requirements/solutions/filesystem/scanoptions.md)
+  [File System Scan Options](/docs/accessanalyzer/11.6/enterpriseauditor/requirements/solutions/filesystem/scanoptions.md)
   topic for additional information.
 
 Permissions
 
 - Permissions vary based on the Scan Mode Option selected. See the
-  [File System Supported Platforms](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/requirements/target/filesystems.md)
+  [File System Supported Platforms](/docs/accessanalyzer/11.6/enterpriseauditor/requirements/target/filesystems.md)
   topic for additional information.
 
 Sensitive Data Discovery Considerations
@@ -42,16 +42,16 @@ service is installed.
 The FSAA Data Collector is configured through the File System Access Auditor Data Collector Wizard.
 The wizard contains the following pages, which change based up on the query category selected:
 
-- [FSAA: Query Selection](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/fsaa/queryselection.md)
-- [FSAA: Applet Settings](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/fsaa/appletsettings.md)
-- [FSAA: Scan Server Selection](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/fsaa/scanserverselection.md)
-- [FSAA: Scan Settings](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/fsaa/scansettings.md)
-- [FSAA: Azure Tenant Mapping](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/fsaa/azuretenantmapping.md)
-- [FSAA: Activity Settings](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/fsaa/activitysettings.md)
-- [FSAA: Default Scoping Options](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/fsaa/defaultscopingoptions.md)
-- [FSAA: Scoping Options](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/fsaa/scopingoptions.md)
-- [FSAA: Scoping Queries](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/fsaa/scopingqueries.md)
-- [FSAA: Sensitive Data Settings](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/fsaa/sensitivedatasettings.md)
-- [FSAA: SDD Criteria Settings](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/fsaa/sddcriteria.md)
-- [FSAA: Bulk Import Settings](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/fsaa/bulkimport.md)
-- [FSAA: FSAA Update Service Setting](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/fsaa/updateservicesettings.md)
+- [FSAA: Query Selection](/docs/accessanalyzer/11.6/enterpriseauditor/admin/datacollector/fsaa/queryselection.md)
+- [FSAA: Applet Settings](/docs/accessanalyzer/11.6/enterpriseauditor/admin/datacollector/fsaa/appletsettings.md)
+- [FSAA: Scan Server Selection](/docs/accessanalyzer/11.6/enterpriseauditor/admin/datacollector/fsaa/scanserverselection.md)
+- [FSAA: Scan Settings](/docs/accessanalyzer/11.6/enterpriseauditor/admin/datacollector/fsaa/scansettings.md)
+- [FSAA: Azure Tenant Mapping](/docs/accessanalyzer/11.6/enterpriseauditor/admin/datacollector/fsaa/azuretenantmapping.md)
+- [FSAA: Activity Settings](/docs/accessanalyzer/11.6/enterpriseauditor/admin/datacollector/fsaa/activitysettings.md)
+- [FSAA: Default Scoping Options](/docs/accessanalyzer/11.6/enterpriseauditor/admin/datacollector/fsaa/defaultscopingoptions.md)
+- [FSAA: Scoping Options](/docs/accessanalyzer/11.6/enterpriseauditor/admin/datacollector/fsaa/scopingoptions.md)
+- [FSAA: Scoping Queries](/docs/accessanalyzer/11.6/enterpriseauditor/admin/datacollector/fsaa/scopingqueries.md)
+- [FSAA: Sensitive Data Settings](/docs/accessanalyzer/11.6/enterpriseauditor/admin/datacollector/fsaa/sensitivedatasettings.md)
+- [FSAA: SDD Criteria Settings](/docs/accessanalyzer/11.6/enterpriseauditor/admin/datacollector/fsaa/sddcriteria.md)
+- [FSAA: Bulk Import Settings](/docs/accessanalyzer/11.6/enterpriseauditor/admin/datacollector/fsaa/bulkimport.md)
+- [FSAA: FSAA Update Service Setting](/docs/accessanalyzer/11.6/enterpriseauditor/admin/datacollector/fsaa/updateservicesettings.md)

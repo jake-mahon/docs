@@ -29,9 +29,9 @@ individual requirements.
 ![forms](/img/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/advanced_view/clientmodule/forms/forms_2-em.webp)
 
 The associated preview for the form selected in
-[List view](/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/advanced_view/operation_and_setup/listview/list_view.md)
+[List view](/docs/passwordsecure/9.1/passwordsecure/configuration/advanced_view/operation_and_setup/listview/list_view.md)
 appears in the
-[Reading pane](/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/advanced_view/operation_and_setup/readingpane/reading_pane.md).
+[Reading pane](/docs/passwordsecure/9.1/passwordsecure/configuration/advanced_view/operation_and_setup/readingpane/reading_pane.md).
 Both the field name and also the field type are visible.
 
 ## Creating new forms
@@ -49,7 +49,7 @@ relevant buttons in the ribbon.
 The following field settings thus appear for the field type "Password": "Mandatory field, reveal
 only with reason, check only generated passwords and password policy". These can now be defined as
 desired. (**Note**: It is possible to select
-[Password rules](/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/advanced_view/mainmenu/extras/password_rules/password_rules.md)
+[Password rules](/docs/passwordsecure/9.1/passwordsecure/configuration/advanced_view/mainmenu/extras/password_rules/password_rules.md)
 within the field settings; they are defined as part of the options in the main menu)
 
 **CAUTION:** If a form has been created, it can then be selected for use when creating new records.
@@ -95,7 +95,7 @@ the RDP session.
 ![updated form](/img/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/advanced_view/clientmodule/forms/forms_7-en.webp)
 
 NOTE: The **forms module** is based on the
-[Web Application](/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/web_applicaiton/web_application.md)
+[Web Application](/docs/passwordsecure/9.1/passwordsecure/configuration/web_applicaiton/web_application.md)
 module of the same name. Both modules have a different scope and design but are almost identical to
 use.
 

@@ -10,7 +10,7 @@ Microsoft SQL Server.
 If the administrator has defined a Query Designer access policy for your role, you can create
 queries as per the defined policy. A banner is displayed on the Query Designer dialog box indicating
 that the administrator has implemented a policy for your role. See the
-[ Query Designer Policy](/versioned_docs/groupid_11.0/groupid/admincenter/securityrole/policy/querydesigner.md)
+[ Query Designer Policy](/docs/groupid/11.0/groupid/admincenter/securityrole/policy/querydesigner.md)
 topic.
 
 The query language depends on the identity store type.
@@ -86,13 +86,13 @@ View the provider query in the LDAP Query box.
 
 The Query Designer has the following tabs:
 
-- [Query Designer - General tab](/versioned_docs/groupid_11.0/groupid/portal/group/querydesigner/general.md)
-- [Query Designer - Storage tab](/versioned_docs/groupid_11.0/groupid/portal/group/querydesigner/storage.md)
-- [Query Designer - Filter Criteria tab](/versioned_docs/groupid_11.0/groupid/portal/group/querydesigner/filtercriteria.md)
-- [Query Designer - Include/Exclude tab](/versioned_docs/groupid_11.0/groupid/portal/group/querydesigner/includeexclude.md)
-- [Query Designer - Database tab](/versioned_docs/groupid_11.0/groupid/portal/group/querydesigner/database.md)
-- [Query Designer - Script tab](/versioned_docs/groupid_11.0/groupid/portal/group/querydesigner/script.md)
-- [Query Designer - Password Expiry Options tab](/versioned_docs/groupid_11.0/groupid/portal/group/querydesigner/passwordexpiryoptions.md)[Query Designer - Password Expiry Options tab](/versioned_docs/groupid_11.0/groupid/portal/group/querydesigner/passwordexpiryoptions.md)
+- [Query Designer - General tab](/docs/groupid/11.0/groupid/portal/group/querydesigner/general.md)
+- [Query Designer - Storage tab](/docs/groupid/11.0/groupid/portal/group/querydesigner/storage.md)
+- [Query Designer - Filter Criteria tab](/docs/groupid/11.0/groupid/portal/group/querydesigner/filtercriteria.md)
+- [Query Designer - Include/Exclude tab](/docs/groupid/11.0/groupid/portal/group/querydesigner/includeexclude.md)
+- [Query Designer - Database tab](/docs/groupid/11.0/groupid/portal/group/querydesigner/database.md)
+- [Query Designer - Script tab](/docs/groupid/11.0/groupid/portal/group/querydesigner/script.md)
+- [Query Designer - Password Expiry Options tab](/docs/groupid/11.0/groupid/portal/group/querydesigner/passwordexpiryoptions.md)[Query Designer - Password Expiry Options tab](/docs/groupid/11.0/groupid/portal/group/querydesigner/passwordexpiryoptions.md)
   (only available for Smart Groups with a password expiry condition)
 
 NOTE: The **Storage** and **Script** tabs are not available for groups in a Microsoft Entra ID
@@ -100,5 +100,5 @@ identity store.
 
 **See Also**
 
-- [Group Properties](/versioned_docs/groupid_11.0/groupid/portal/group/properties/overview.md)
-- [Group properties - Smart Group/Query Designer tab](/versioned_docs/groupid_11.0/groupid/portal/group/properties/smartgroup.md)
+- [Group Properties](/docs/groupid/11.0/groupid/portal/group/properties/overview.md)
+- [Group properties - Smart Group/Query Designer tab](/docs/groupid/11.0/groupid/portal/group/properties/smartgroup.md)

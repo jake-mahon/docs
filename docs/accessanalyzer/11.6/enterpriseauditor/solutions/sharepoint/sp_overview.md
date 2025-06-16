@@ -7,12 +7,12 @@ found during scans.
 ![SP_Overview Job in the Jobs Tree](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/sharepoint/overviewjobstree.webp)
 
 It is dependent on data collected by the
-[SharePoint Access Auditing](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/sharepoint/collection/overview.md#sharepoint-access-auditing),
-[SharePoint Sensitive Data Discovery Auditing (SEEK)](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/sharepoint/collection/overview.md#sharepoint-sensitive-data-discovery-auditing-seek),
+[SharePoint Access Auditing](/docs/accessanalyzer/11.6/enterpriseauditor/solutions/sharepoint/collection/overview.md#sharepoint-access-auditing),
+[SharePoint Sensitive Data Discovery Auditing (SEEK)](/docs/accessanalyzer/11.6/enterpriseauditor/solutions/sharepoint/collection/overview.md#sharepoint-sensitive-data-discovery-auditing-seek),
 and
-[SharePoint Activity Auditing](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/sharepoint/collection/overview.md#sharepoint-activity-auditing)
+[SharePoint Activity Auditing](/docs/accessanalyzer/11.6/enterpriseauditor/solutions/sharepoint/collection/overview.md#sharepoint-activity-auditing)
 components of the
-[0.Collection Job Group](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/sharepoint/collection/overview.md).
+[0.Collection Job Group](/docs/accessanalyzer/11.6/enterpriseauditor/solutions/sharepoint/collection/overview.md).
 It also depends on the running of the sub-job groups within the solution. If only select sub-job
 groups have been run, there will be blank sections of this overview report.
 

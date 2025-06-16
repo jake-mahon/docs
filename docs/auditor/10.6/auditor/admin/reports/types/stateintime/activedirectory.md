@@ -6,7 +6,7 @@ Examine the Active Directory state-in-time data on the user account attributes:
 
 To instruct Netwrix Auditor to collect data needed for the report, make sure that **Collect data for
 state-in-time reports** option is selected in the corresponding monitoring plan properties. See the
-[Settings for Data Collection](/versioned_docs/auditor_10.6/auditor/admin/monitoringplans/create.md#settings-for-data-collection)
+[Settings for Data Collection](/docs/auditor/10.6/auditor/admin/monitoringplans/create.md#settings-for-data-collection)
 topic for additional information.
 
 ## User Accounts - Attributes
@@ -16,12 +16,12 @@ criteria. Use this report to discover user accounts with settings that violate c
 applicable compliance standards.
 
 Supported object types and attributes are listed in the
-[Active Directory](/versioned_docs/auditor_10.6/auditor/configuration/activedirectory/overview.md)
+[Active Directory](/docs/auditor/10.6/auditor/configuration/activedirectory/overview.md)
 topic.
 
 For this report to function properly, you must enable the **Collect data for state-in-time reports**
 option for the data source in the monitoring plan settings. See the
-[Settings for Data Collection](/versioned_docs/auditor_10.6/auditor/admin/monitoringplans/create.md#settings-for-data-collection)
+[Settings for Data Collection](/docs/auditor/10.6/auditor/admin/monitoringplans/create.md#settings-for-data-collection)
 topic for additional information.
 
 ### Tips to Work with Report

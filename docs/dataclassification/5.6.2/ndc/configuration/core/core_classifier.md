@@ -13,15 +13,15 @@ has an indication of the values that have been changed from the default setting.
 
 The following options can be configured for Classifier:
 
-- [General Options](/versioned_docs/dataclassification_5.6.2/ndc/configuration/core/classifier_general.md)
-- [Monitored Content](/versioned_docs/dataclassification_5.6.2/ndc/configuration/core/classifier_monitored_content.md)
-- [conceptClassifier App Options](/versioned_docs/dataclassification_5.6.2/ndc/configuration/core/classifier_app.md)
+- [General Options](/docs/dataclassification/5.6.2/ndc/configuration/core/classifier_general.md)
+- [Monitored Content](/docs/dataclassification/5.6.2/ndc/configuration/core/classifier_monitored_content.md)
+- [conceptClassifier App Options](/docs/dataclassification/5.6.2/ndc/configuration/core/classifier_app.md)
   (advanced settings)
-- [Engine Options](/versioned_docs/dataclassification_5.6.2/ndc/configuration/core/classifier_engine.md)
+- [Engine Options](/docs/dataclassification/5.6.2/ndc/configuration/core/classifier_engine.md)
 
 You can also use the following option buttons:
 
 - Start Product Tour—Run a product tour taking you around the key areas of the product.
 - Run Cleaner—Run built-in tool to automate maintenance operations.
-  [See Index Maintenance for more information.](/versioned_docs/dataclassification_5.6.2/ndc/utilities/utilities_cleaner.md)
+  [See Index Maintenance for more information.](/docs/dataclassification/5.6.2/ndc/utilities/utilities_cleaner.md)
 - Reset Cache—Force the QS caches to be reset.

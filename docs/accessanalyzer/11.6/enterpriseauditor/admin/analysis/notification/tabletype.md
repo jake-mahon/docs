@@ -11,7 +11,7 @@ The following options are available:
   the option of **Show only tables for this job** becomes the default selection on the Select Table
   page. This option targets only change detection tables within the current job. Possible tables (if
   any) display on the Select Table page. See the
-  [Notification: Select Table](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/analysis/notification/selecttable.md) topic
+  [Notification: Select Table](/docs/accessanalyzer/11.6/enterpriseauditor/admin/analysis/notification/selecttable.md) topic
   for additional information.
 
     **NOTE:** Change Detection Table also locks selections to tables on the Select Table page that

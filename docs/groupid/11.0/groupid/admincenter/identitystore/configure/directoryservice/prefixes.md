@@ -37,7 +37,7 @@ Consider the following:
 
 A group naming policy defined in Microsoft Entra Admin Center has no impact in GroupID. For details,
 see the
-[Group Naming Policy](/versioned_docs/groupid_11.0/groupid/admincenter/identitystore/moreinfo/advsentraid.md#group-naming-policy)
+[Group Naming Policy](/docs/groupid/11.0/groupid/admincenter/identitystore/moreinfo/advsentraid.md#group-naming-policy)
 topic.
 
 What do you want to do?
@@ -89,5 +89,5 @@ Delete a Prefix
 
 **See Also**
 
-- [Security Roles](/versioned_docs/groupid_11.0/groupid/admincenter/securityrole/overview.md)
-- [Security Role Policies](/versioned_docs/groupid_11.0/groupid/admincenter/securityrole/policy/overview.md)
+- [Security Roles](/docs/groupid/11.0/groupid/admincenter/securityrole/overview.md)
+- [Security Role Policies](/docs/groupid/11.0/groupid/admincenter/securityrole/policy/overview.md)

@@ -20,7 +20,7 @@ The query for the SG_ServiceAccounts job is:
 - Service Accounts – Collects information on service accounts
 
 See the
-[Services Data Collector](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/services.md)
+[Services Data Collector](/docs/accessanalyzer/11.6/enterpriseauditor/admin/datacollector/services.md)
 topic for additional information.
 
 ## Analysis Tasks for the SG_ServiceAccounts Job

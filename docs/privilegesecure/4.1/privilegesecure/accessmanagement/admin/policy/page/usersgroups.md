@@ -3,7 +3,7 @@
 The Users & Groups page shows session information for onboarded users and groups. Onboarded users
 and can log into the application to manager policies or run sessions. The Users & Groups page
 displays the same information as the
-[Users Dashboard](/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/dashboard/users.md).
+[Users Dashboard](/docs/privilegesecure/4.1/privilegesecure/accessmanagement/admin/dashboard/users.md).
 
 ![Users and Groups Page](/img/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/policy/page/usersgroupspage.webp)
 
@@ -14,13 +14,13 @@ The Users table has the following features:
 - Filter — Provides options to filter results based on a chosen criterion: User, Group, Application,
   and Local User
 - Add User — Opens the Add Users and Groups window. See the
-  [Add Users & Groups Window](/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/policy/window/usersgroups/addusersandgroups.md)
+  [Add Users & Groups Window](/docs/privilegesecure/4.1/privilegesecure/accessmanagement/admin/policy/window/usersgroups/addusersandgroups.md)
   topic for additional information.
 - Add Application — Opens the Add Application page. See the
-  [Add Application](/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/policy/add/application.md)
+  [Add Application](/docs/privilegesecure/4.1/privilegesecure/accessmanagement/admin/policy/add/application.md)
   for additional information.
 - Add Local User — Opens the Add Local User page. See
-  [Add Local User](/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/policy/add/localuser.md)
+  [Add Local User](/docs/privilegesecure/4.1/privilegesecure/accessmanagement/admin/policy/add/localuser.md)
   topic for additional information.
 - Remove — Removes console access from the selected account
 - Refresh — Reload the information displayed
@@ -30,7 +30,7 @@ The table has the following columns:
 - Checkbox — Check to select one or more items
 - Type — Icon indicates the type of object
 - Name — Displays the name of the account. Click the link to view additional details. See the
-  [User, Group, & Application Details Page](/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/policy/page/details/usergroupapplication.md)
+  [User, Group, & Application Details Page](/docs/privilegesecure/4.1/privilegesecure/accessmanagement/admin/policy/page/details/usergroupapplication.md)
   topic for additional information.
 - User Name — Displays the sAMAccountName for the account
 - User Principal Name — Displays the UPN value for the account

@@ -34,7 +34,7 @@ job.
 ![Sensitive Data Scan Settings](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/databases/mysql/collection/sensitivedatscan_optionspage.webp)
 
 **Step 4 –** To modify sensitive data scan options, select the desired scan options. See the
-[SQL: Options](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/sql/options.md)
+[SQL: Options](/docs/accessanalyzer/11.6/enterpriseauditor/admin/datacollector/sql/options.md)
 page for additional information.
 
 **NOTE:** The Sensitive Data Scan Settings are pre-configured for optimal performance for a
@@ -44,10 +44,10 @@ may significantly increase scan time.
 ![DLP Criteria for Scan](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/databases/mysql/collection/sensitivedatscan_criteriapage.webp)
 
 **Step 5 –** To modify criteria, navigate to the
-[SQL: Criteria](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/sql/criteria.md)
+[SQL: Criteria](/docs/accessanalyzer/11.6/enterpriseauditor/admin/datacollector/sql/criteria.md)
 page. By default, the Sensitive Data Scan job is configured to scan for criteria configured in the
 Global Criteria settings. See the
-[Sensitive Data Criteria Editor](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/sensitivedatadiscovery/criteriaeditor/overview.md)
+[Sensitive Data Criteria Editor](/docs/accessanalyzer/11.6/enterpriseauditor/sensitivedatadiscovery/criteriaeditor/overview.md)
 topic for additional information.
 
 ![Filters Page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/databases/mysql/collection/sensitivedatscan_filterspage.webp)

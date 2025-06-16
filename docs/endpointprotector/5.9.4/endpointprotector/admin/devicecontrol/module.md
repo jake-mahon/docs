@@ -7,7 +7,7 @@ Protector, it is activated by default in every conﬁguration provided.
 
 For a detailed overview of the devices that are discovered and covered under the Device Control
 settings, please refer to the
-[Device Types (Standard)](/versioned_docs/endpointprotector_5.9.4/endpointprotector/admin/devicecontrol/globalrights.md#device-types-standard) subtopic.
+[Device Types (Standard)](/docs/endpointprotector/5.9.4/endpointprotector/admin/devicecontrol/globalrights.md#device-types-standard) subtopic.
 
 ## Dashboard
 

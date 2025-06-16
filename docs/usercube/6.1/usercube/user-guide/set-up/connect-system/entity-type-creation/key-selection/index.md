@@ -1,11 +1,11 @@
 # Select Primary Keys
 
 How to choose
-[key properties](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/metadata/entitytype/index.md)
+[key properties](/docs/usercube/6.1/usercube/integration-guide/toolkit/xml-configuration/metadata/entitytype/index.md)
 and a
-[mapping key](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/connectors/entitytypemapping/index.md)
+[mapping key](/docs/usercube/6.1/usercube/integration-guide/toolkit/xml-configuration/connectors/entitytypemapping/index.md)
 in order to uniquely identify the
-[entity type](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/metadata/entitytype/index.md)'s
+[entity type](/docs/usercube/6.1/usercube/integration-guide/toolkit/xml-configuration/metadata/entitytype/index.md)'s
 resources at different points in a resource's lifecycle.
 
 ## Overview
@@ -45,7 +45,7 @@ resources to be uniquely identifiable at t time.
 > The `dn` attribute of a resource in the Active Directory usually depends on the resource's
 > position, which often changes during the resource's lifecycle. However, `dn` is unique at a given
 > time, and rather useful to define for example
-> [query rules](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/provisioning-rule-creation/index.md)
+> [query rules](/docs/usercube/6.1/usercube/user-guide/set-up/provisioning-rule-creation/index.md)
 > for `parentdn`.
 
 Only one key property is required, but using several key properties can sometimes help with the
@@ -65,7 +65,7 @@ until a corresponding resource is found.
 
 The mapping key is also chosen from among scalar properties, and serves to uniquely identify any
 resource during
-[synchronization](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/synchronization/index.md).
+[synchronization](/docs/usercube/6.1/usercube/user-guide/set-up/synchronization/index.md).
 It must be unique and immutable, i.e. must not change during the whole lifecycle of the resource.
 
 > A mapping key cannot be based on properties subject to change, such as the display name of any
@@ -93,7 +93,7 @@ key is always part of your key properties.
 Create an entity type by proceeding as follows:
 
 1. Start by
-   [defining the entity type's scalar properties](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/connect-system/entity-type-creation/scalar-property-definition/index.md).
+   [defining the entity type's scalar properties](/docs/usercube/6.1/usercube/user-guide/set-up/connect-system/entity-type-creation/scalar-property-definition/index.md).
 
     ![Keys](/img/versioned_docs/usercube_6.1/usercube/user-guide/set-up/connect-system/entity-type-creation/key-selection/entitytypecreation_keys_v522.webp)
 
@@ -117,6 +117,6 @@ You can find the **Reload** button either on the green warning, or on the connec
 ## Next Steps
 
 After the entity type is created with its scalar properties and keys, you can
-[define navigation properties](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/connect-system/entity-type-creation/navigation-property-definition/index.md)
+[define navigation properties](/docs/usercube/6.1/usercube/user-guide/set-up/connect-system/entity-type-creation/navigation-property-definition/index.md)
 and/or
-[set the resources' display name](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/connect-system/entity-type-creation/display-name-setting/index.md).
+[set the resources' display name](/docs/usercube/6.1/usercube/user-guide/set-up/connect-system/entity-type-creation/display-name-setting/index.md).

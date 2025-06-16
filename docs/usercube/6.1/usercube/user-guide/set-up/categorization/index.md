@@ -1,7 +1,7 @@
 # Categorize Resources
 
 How to correlate managed systems' resources with identities, classifying resources into
-[resource types](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/provisioning/resourcetype/index.md).
+[resource types](/docs/usercube/6.1/usercube/integration-guide/toolkit/xml-configuration/provisioning/resourcetype/index.md).
 
 ## Overview
 
@@ -39,7 +39,7 @@ Thus, a resource type is a name that informs users about the intent of a resourc
 it serves to implement our two elements of categorization. This happens with two distinct sets of
 rules, one for correlation, and the other for classification.
 
-[**Classification**](/versioned_docs/usercube_6.1/usercube/introduction-guide/overview/entitlement-management/index.md)
+[**Classification**](/docs/usercube/6.1/usercube/introduction-guide/overview/entitlement-management/index.md)
 is a process that simply aims to assign a resource type to specific resources. A specific resource
 can only be assigned a single resource type.
 
@@ -47,7 +47,7 @@ can only be assigned a single resource type.
 
 Any resource that is unclassified will not be available for review.
 
-[**Correlation**](/versioned_docs/usercube_6.1/usercube/introduction-guide/overview/entitlement-management/index.md)
+[**Correlation**](/docs/usercube/6.1/usercube/introduction-guide/overview/entitlement-management/index.md)
 is a process that aims to establish an ownership relationship between two resources. In most cases,
 an identity resource that becomes the owner of an account resource.
 
@@ -91,7 +91,7 @@ Sometimes you may not know if your rules are always going to apply. Therefore, e
 certain level of confidence. Usercube will establish a priority order between rules based on the
 confidence rate, and will also act differently depending on whether the confidence rate is above or
 below 100%.
-[Find more details](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/categorization/correlation/index.md).
+[Find more details](/docs/usercube/6.1/usercube/user-guide/set-up/categorization/correlation/index.md).
 
 A resource type can have zero correlation rules, since accounts can be without owners. But a
 resource type with neither correlation nor classification rules serves no purpose.
@@ -111,15 +111,15 @@ In the same way, Usercube will apply correlation rules before classification rul
 
 Now that you have created resource types and their correlation/classification rules, you have
 created the first elements for your
-[role model](/versioned_docs/usercube_6.1/usercube/introduction-guide/overview/entitlement-management/index.md).
+[role model](/docs/usercube/6.1/usercube/introduction-guide/overview/entitlement-management/index.md).
 The role model contains all the roles and rules which drive the entitlement assignment logic inside
 Usercube.
 
 A role model is made up of
-[policies](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/provisioning/policy/index.md)
+[policies](/docs/usercube/6.1/usercube/integration-guide/toolkit/xml-configuration/provisioning/policy/index.md)
 which contain roles, rules and resource types. Most often the default policy is enough. However, in
 more complex situations,
-[additional policies can be created](/versioned_docs/usercube_6.1/usercube/user-guide/optimize/policy-creation/index.md)
+[additional policies can be created](/docs/usercube/6.1/usercube/user-guide/optimize/policy-creation/index.md)
 to separate groups of roles, rules and resource types.
 
 ## Participants and Artifacts
@@ -129,28 +129,28 @@ application's users, entitlements and data model.
 
 | Input                                                                                                                                                                                                                                                                                                                                                  | Output                                                          |
 | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | --------------------------------------------------------------- |
-| [Identity repository](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/initial-identities-loading/index.md) (required) [Connector](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/connect-system/index.md) (required) [Synchronized data](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/synchronization/index.md) (required) | Categorized resources Correlated accounts Orphaned account list |
+| [Identity repository](/docs/usercube/6.1/usercube/user-guide/set-up/initial-identities-loading/index.md) (required) [Connector](/docs/usercube/6.1/usercube/user-guide/set-up/connect-system/index.md) (required) [Synchronized data](/docs/usercube/6.1/usercube/user-guide/set-up/synchronization/index.md) (required) | Categorized resources Correlated accounts Orphaned account list |
 
 ## Categorize Resources
 
 Categorize resources by proceeding as follows:
 
 1. Create at least one
-   [resource type](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/categorization/resource-type-creation/index.md);
+   [resource type](/docs/usercube/6.1/usercube/user-guide/set-up/categorization/resource-type-creation/index.md);
 2. Create the appropriate
-   [correlation rules](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/categorization/correlation/index.md);
+   [correlation rules](/docs/usercube/6.1/usercube/user-guide/set-up/categorization/correlation/index.md);
 3. Create the appropriate
-   [classification rules](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/categorization/classification/index.md)
+   [classification rules](/docs/usercube/6.1/usercube/user-guide/set-up/categorization/classification/index.md)
    for accounts that do not have an owner.
 
 NETWRIX recommends creating/modifying/deleting correlation and classification rules using
-[simulations](/versioned_docs/usercube_6.1/usercube/user-guide/optimize/simulation/index.md) in
+[simulations](/docs/usercube/6.1/usercube/user-guide/optimize/simulation/index.md) in
 order to previsualize changes.
 
 ## Next Steps
 
 Once accounts are categorized, integrators can start
-[creating provisioning rules](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/provisioning-rule-creation/index.md).
+[creating provisioning rules](/docs/usercube/6.1/usercube/user-guide/set-up/provisioning-rule-creation/index.md).
 
 Categorization also enables the
-[review of orphaned and unused accounts](/versioned_docs/usercube_6.1/usercube/user-guide/administrate/orphan-unused-account-review/index.md).
+[review of orphaned and unused accounts](/docs/usercube/6.1/usercube/user-guide/administrate/orphan-unused-account-review/index.md).

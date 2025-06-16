@@ -23,7 +23,7 @@ Analytic Workflow
 1. Configure the analytic policy
 2. Enable the analytic policy
 3. Enable alerting on incidents through the
-   [System Alerting Window](/versioned_docs/threatprevention_7.4/threatprevention/admin/configuration/systemalerting/overview.md).
+   [System Alerting Window](/docs/threatprevention/7.4/threatprevention/admin/configuration/systemalerting/overview.md).
 
 See the [Bad User ID (by User) Analytic Data Grid](#bad-user-id-by-user-analytic-data-grid) topic
 for information on event data collected per incident.
@@ -60,13 +60,13 @@ Policy Tab
 The **Policy** tab for configuring analytics consists of three sub-tabs:
 
 - General tab – Configured the same way a regular policy’s
-  [General Tab](/versioned_docs/threatprevention_7.4/threatprevention/admin/policies/general.md) is
+  [General Tab](/docs/threatprevention/7.4/threatprevention/admin/policies/general.md) is
   configured. The only exception is that the Name and Description are hard coded, and cannot be
   modified. The Tags field is disabled for analytics.
 - Event Type tab – Configured the same way a regular policy’s
-  [Event Type Tab](/versioned_docs/threatprevention_7.4/threatprevention/admin/policies/eventtype/overview.md)
+  [Event Type Tab](/docs/threatprevention/7.4/threatprevention/admin/policies/eventtype/overview.md)
   is configured. The only exception is that the
-  [Authentication Monitoring Event Type](/versioned_docs/threatprevention_7.4/threatprevention/admin/policies/eventtype/authenticationmonitoring.md)
+  [Authentication Monitoring Event Type](/docs/threatprevention/7.4/threatprevention/admin/policies/eventtype/authenticationmonitoring.md)
   is hard coded, and the Success filter cannot be modified. Additionally, there is no AD Perpetrator
   filter.
 
@@ -88,13 +88,13 @@ The **Policy** tab for configuring analytics consists of three sub-tabs:
         filter values.
 
 - Actions tab – Configured the same way a regular policy’s
-  [Actions Tab](/versioned_docs/threatprevention_7.4/threatprevention/admin/policies/actions/overview.md)
+  [Actions Tab](/docs/threatprevention/7.4/threatprevention/admin/policies/actions/overview.md)
   is configured. The only exceptions are that the “Send to Event DB” and “Email Notifications”
   options are disabled. The event data collected by analytic policies are stored in memory until an
   incident is triggered. For the “Send Raw Data to SIEM” option, use _caution_, as this will send
   all event data not the triggered incident, which could be a large volume of data. To send
   notifications on incidents, use the
-  [System Alerting Window](/versioned_docs/threatprevention_7.4/threatprevention/admin/configuration/systemalerting/overview.md)
+  [System Alerting Window](/docs/threatprevention/7.4/threatprevention/admin/configuration/systemalerting/overview.md)
   to configure Email and SIEM alerts.
 
 ## Bad User ID (by User) Analytic Data Grid
@@ -105,7 +105,7 @@ incidences are grouped per unique bad user name.
 ![Bad User ID (by User) Analytic Type  window](/img/versioned_docs/threatprevention_7.4/threatprevention/admin/analytics/baduseriduser.webp)
 
 The data grid can be filtered according to the Event Tracker status: All, New, or Reviewed. See the
-[Event Tracker Window](/versioned_docs/threatprevention_7.4/threatprevention/admin/policies/recentevents/eventtracker.md)
+[Event Tracker Window](/docs/threatprevention/7.4/threatprevention/admin/policies/recentevents/eventtracker.md)
 topic for additional information.
 
 The top data grid includes the following information for each incident:
@@ -135,5 +135,5 @@ incident:
   the Enterprise Manager time (displayed in the Date/Time column) due to latency.
 
 This data grid employs features for sorting, filtering, searching, and more. See the
-[ Data Grid Functionality](/versioned_docs/threatprevention_7.4/threatprevention/admin/navigation/datagrid.md)
+[ Data Grid Functionality](/docs/threatprevention/7.4/threatprevention/admin/navigation/datagrid.md)
 topic for additional information.

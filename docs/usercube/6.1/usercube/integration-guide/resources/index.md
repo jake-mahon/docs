@@ -5,7 +5,7 @@ Usercube stores managed systems' data and identities as resources within a resou
 ## Resource Repository
 
 The source of truth for the engine is the data from external sources that are
-[copied](/versioned_docs/usercube_6.1/usercube/integration-guide/synchronization/upward-data-sync/index.md)
+[copied](/docs/usercube/6.1/usercube/integration-guide/synchronization/upward-data-sync/index.md)
 into Usercube's database. This persisted set of data, called _resources_, is stored in the
 **Resource Repository**.
 
@@ -15,13 +15,13 @@ possible to retrieve a resource's value at a given date or what has been changed
 Resources can be added to the resource repository from one of four ways:
 
 1. Input data directly from the
-   [applicative configuration](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/index.md).
+   [applicative configuration](/docs/usercube/6.1/usercube/integration-guide/toolkit/index.md).
    This is useful for a very limited amount of data. This is very often used for debugging or
    testing, less often in production.
 2. Input data from the UI. This requires configuring the UI and is the most straightforward way for
    a reasonable amount of data. This is often used to input reference data that is not in the
    managed systems, or for which no source of truth exists.
-3. [Load data from a CSV file](/versioned_docs/usercube_6.1/usercube/integration-guide/synchronization/upward-data-sync/index.md).
+3. [Load data from a CSV file](/docs/usercube/6.1/usercube/integration-guide/synchronization/upward-data-sync/index.md).
    This is how data from managed systems are loaded most of the time. Any reference of identity data
    can be loaded into Usercube using CSV files. This is useful if the target organization already
    possess such files or can produce them easily.
@@ -34,6 +34,6 @@ Resources can be added to the resource repository from one of four ways:
 When using methods 1. and 5., make sure to choose, for new resources, an `Id` that is not yet used
 for another resource in the database. Only use positive integer `Id`s for resource-identity (that
 is, the resource to which you plan on assigning roles). More on that
-[later](/versioned_docs/usercube_6.1/usercube/integration-guide/role-assignment/assignments-of-entitlements/index.md).
+[later](/docs/usercube/6.1/usercube/integration-guide/role-assignment/assignments-of-entitlements/index.md).
 
 Resources need a model: the entity model.

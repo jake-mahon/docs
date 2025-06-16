@@ -18,19 +18,19 @@ Use the New Mailbox Action Wizard to target mailboxes or folders and to define t
 perform against the selected objects. The wizard has the following pages:
 
 - Welcome
-- [Mailbox: Operations](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/action/mailbox/operations.md)
-- [Mailbox: Criteria Selection](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/action/mailbox/criteriaselection.md)
-- [Mailbox: Sampling Host](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/action/mailbox/samplinghost.md)
-- [Mailbox: Mailbox Identification](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/action/mailbox/identification.md)
-- [Mailbox: Folder Identification](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/action/mailbox/folderidentification.md)
-- [Mailbox: Folder Conditions](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/action/mailbox/folderconditions.md)
-- [Mailbox: Message Conditions](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/action/mailbox/messageconditions.md)
-- [Mailbox: Message Actions](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/action/mailbox/messageactions.md)
-- [Mailbox: Permissions](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/action/mailbox/permissions.md)
-- [Mailbox: Affected Mailboxes](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/action/mailbox/affectedmailboxes.md)
-- [Mailbox: Trusted Users](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/action/mailbox/trustedusers.md)
-- [Mailbox: Delegate Rights](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/action/mailbox/delegaterights.md)
-- [Mailbox: Summary](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/action/mailbox/summary.md)
+- [Mailbox: Operations](/docs/accessanalyzer/11.6/enterpriseauditor/admin/action/mailbox/operations.md)
+- [Mailbox: Criteria Selection](/docs/accessanalyzer/11.6/enterpriseauditor/admin/action/mailbox/criteriaselection.md)
+- [Mailbox: Sampling Host](/docs/accessanalyzer/11.6/enterpriseauditor/admin/action/mailbox/samplinghost.md)
+- [Mailbox: Mailbox Identification](/docs/accessanalyzer/11.6/enterpriseauditor/admin/action/mailbox/identification.md)
+- [Mailbox: Folder Identification](/docs/accessanalyzer/11.6/enterpriseauditor/admin/action/mailbox/folderidentification.md)
+- [Mailbox: Folder Conditions](/docs/accessanalyzer/11.6/enterpriseauditor/admin/action/mailbox/folderconditions.md)
+- [Mailbox: Message Conditions](/docs/accessanalyzer/11.6/enterpriseauditor/admin/action/mailbox/messageconditions.md)
+- [Mailbox: Message Actions](/docs/accessanalyzer/11.6/enterpriseauditor/admin/action/mailbox/messageactions.md)
+- [Mailbox: Permissions](/docs/accessanalyzer/11.6/enterpriseauditor/admin/action/mailbox/permissions.md)
+- [Mailbox: Affected Mailboxes](/docs/accessanalyzer/11.6/enterpriseauditor/admin/action/mailbox/affectedmailboxes.md)
+- [Mailbox: Trusted Users](/docs/accessanalyzer/11.6/enterpriseauditor/admin/action/mailbox/trustedusers.md)
+- [Mailbox: Delegate Rights](/docs/accessanalyzer/11.6/enterpriseauditor/admin/action/mailbox/delegaterights.md)
+- [Mailbox: Summary](/docs/accessanalyzer/11.6/enterpriseauditor/admin/action/mailbox/summary.md)
 
 The Welcome page gives an overview of the action module. The steps navigation pane contains links to
 the pages in the wizard, which change based on the operation selected on the Operations page.

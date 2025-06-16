@@ -2,7 +2,7 @@
 
 At the job group level, the Storage node identifies the Storage Profile assigned for the job group.
 All Storage Profiles are created at the global level (**Settings** > **Storage**). See the
-[Storage](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/settings/storage/overview.md)
+[Storage](/docs/accessanalyzer/11.6/enterpriseauditor/admin/settings/storage/overview.md)
 topic for additional information.
 
 ![Job Group Storage Settings](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/settings/storage/storage.webp)

@@ -4,7 +4,7 @@ The Report Roles tab is part of the Role Bases Access feature of Enterprise Audi
 Access has been enabled, the table displays all accounts that can view reports within the Web
 Console. If Role Based Access has not been enabled, all accounts have access to all reports, and the
 table is blank. See the
-[Role Based Access](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/settings/access/rolebased/overview.md)
+[Role Based Access](/docs/accessanalyzer/11.6/enterpriseauditor/admin/settings/access/rolebased/overview.md)
 topic for additional information.
 
 ![Report Roles tab of Job Properties](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/jobs/job/properties/reportroles.webp)

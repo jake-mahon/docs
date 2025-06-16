@@ -72,7 +72,7 @@ This section discusses the GroupID application registration and permission assig
     ![Application permissions tab](/img/versioned_docs/groupid_11.0/groupid/configureentraid/register/application_permission.webp)
 
     Permissions get listed on the page. See the
-    [Microsoft Entra ID Permissions](/versioned_docs/groupid_11.0/groupid/configureentraid/register/apppermissions.md)
+    [Microsoft Entra ID Permissions](/docs/groupid/11.0/groupid/configureentraid/register/apppermissions.md)
     topic for the mandatory permissions that are required for creating the desired directory object.
 
 13. [Optional] To add a permission from Office 365 Exchange Online API, click the **Add a
@@ -94,13 +94,13 @@ This section discusses the GroupID application registration and permission assig
     ![SharePoint Delegated permissions](/img/versioned_docs/groupid_11.0/groupid/configureentraid/register/sharepoint_delegated_permissions.webp)
 
     See
-    [SharePoint Delegated Permissions](/versioned_docs/groupid_11.0/groupid/configureentraid/register/apppermissions.md#sharepoint-delegated-permissions)
+    [SharePoint Delegated Permissions](/docs/groupid/11.0/groupid/configureentraid/register/apppermissions.md#sharepoint-delegated-permissions)
     section of the
-    [Microsoft Entra ID Permissions](/versioned_docs/groupid_11.0/groupid/configureentraid/register/apppermissions.md)
+    [Microsoft Entra ID Permissions](/docs/groupid/11.0/groupid/configureentraid/register/apppermissions.md)
     topic for the required permission name.
 
 This completes the registration process of GroupID in Microsoft Entra ID.
 
 See Also
 
-- [Register in Microsoft Entra ID](/versioned_docs/groupid_11.0/groupid/configureentraid/register/overview.md)
+- [Register in Microsoft Entra ID](/docs/groupid/11.0/groupid/configureentraid/register/overview.md)

@@ -40,6 +40,6 @@ What do you want to do?
 
 **See Also**
 
-- [Event Logging](/versioned_docs/groupid_11.0/groupid/admincenter/identitystore/history/eventlogging.md)
+- [Event Logging](/docs/groupid/11.0/groupid/admincenter/identitystore/history/eventlogging.md)
 - For a Portal -
-  [Manage Log Settings](/versioned_docs/groupid_11.0/groupid/admincenter/portal/server/log.md)
+  [Manage Log Settings](/docs/groupid/11.0/groupid/admincenter/portal/server/log.md)

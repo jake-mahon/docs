@@ -1,13 +1,13 @@
 # Define Navigation Properties
 
 How to define the properties which describe the
-[entity type](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/metadata/entitytype/index.md)'s
+[entity type](/docs/usercube/6.1/usercube/integration-guide/toolkit/xml-configuration/metadata/entitytype/index.md)'s
 relationships to other entity types.
 
 ## Overview
 
 Here you will learn to define navigation properties, which contain scalar values just like
-[scalar properties](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/connect-system/entity-type-creation/scalar-property-definition/index.md),
+[scalar properties](/docs/usercube/6.1/usercube/user-guide/set-up/connect-system/entity-type-creation/scalar-property-definition/index.md),
 but which are also linked to and point to other properties, from the same entity type or to another
 entity type.
 
@@ -67,14 +67,14 @@ This can be used to store data needed for assignment management, but which you c
 connected system. Since these properties do not exist in the connected system, they cannot be
 written or read.
 
-[See the example for scalar properties](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/connect-system/entity-type-creation/scalar-property-definition/index.md).
+[See the example for scalar properties](/docs/usercube/6.1/usercube/user-guide/set-up/connect-system/entity-type-creation/scalar-property-definition/index.md).
 
 ## Define the Entity Type's Navigation Properties
 
 Define the entity type's navigation properties by proceeding as follows:
 
 1.  Start by
-    [declaring the entity type](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/connect-system/entity-type-creation/entity-type-declaration/index.md).
+    [declaring the entity type](/docs/usercube/6.1/usercube/user-guide/set-up/connect-system/entity-type-creation/entity-type-declaration/index.md).
 2.  In the entity type's **Properties** section, click on **Navigation Properties** tab.
 3.  Click on **Map a navigation property** to display existing columns from the external source, and
     select the properties to be used as navigations in the entity type.
@@ -151,7 +151,7 @@ Define the entity type's navigation properties by proceeding as follows:
       will be displayed with the property among users' data.
     - **Source Expression**: expression that defines the property based on at least one source
       object. Can be defined by a property path and/or an
-      [expression](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/expressions/index.md).
+      [expression](/docs/usercube/6.1/usercube/integration-guide/toolkit/expressions/index.md).
 
         > For example, the scalar property `isUnused` is created to spot unused accounts via a
         > combination of `accountExpires` and `lastLogonTimestamp`:
@@ -159,7 +159,7 @@ Define the entity type's navigation properties by proceeding as follows:
         > ![Advanced Settings](/img/versioned_docs/usercube_6.1/usercube/user-guide/set-up/connect-system/entity-type-creation/scalar-property-definition/entitytypecreation_sourceexpressionexample_v60.webp)
 
     - `Flexible Comparison Expression`: expression that inserts adaptable
-      [comparison flexibility](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/provisioning-rule-creation/index.md)
+      [comparison flexibility](/docs/usercube/6.1/usercube/user-guide/set-up/provisioning-rule-creation/index.md)
       when using a searchbar for the property.
     - `History Precision`: time period over which Usercube historically records only one value.
 
@@ -192,4 +192,4 @@ You can find the **Reload** button either on the green warning, or on the connec
 
 After the entity type is created with its scalar properties and keys, and navigation properties, you
 can
-[set the resources' display names](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/connect-system/entity-type-creation/display-name-setting/index.md).
+[set the resources' display names](/docs/usercube/6.1/usercube/user-guide/set-up/connect-system/entity-type-creation/display-name-setting/index.md).

@@ -10,7 +10,7 @@ as Active Directory) to the Elasticsearch repository.
 - Organizational Unit
 
 For more on the Replication service, see the
-[Elasticsearch and Replication ](/versioned_docs/groupid_11.0/groupid/admincenter/replication/overview.md)topic.
+[Elasticsearch and Replication ](/docs/groupid/11.0/groupid/admincenter/replication/overview.md)topic.
 
 The service is also responsible for syncing data between the Elasticsearch clusters in your
 environment.
@@ -28,10 +28,10 @@ What do you want to do?
    The tab displays the default Replication service hosted in native IIS. When multiple GroupID
    instances have been deployed, you will find multiple default Replication services on this tab
    page, as each instance has its own default Replication service. See the
-   [Elasticsearch Clusters, Nodes, and GroupID](/versioned_docs/groupid_11.0/groupid/admincenter/service/overview.md#elasticsearch-clusters-nodes-and-groupid)
+   [Elasticsearch Clusters, Nodes, and GroupID](/docs/groupid/11.0/groupid/admincenter/service/overview.md#elasticsearch-clusters-nodes-and-groupid)
    topic.  
    For details displayed on a service card, see the table in the
-   [View Data Service Details](/versioned_docs/groupid_11.0/groupid/admincenter/service/dataservice/manage.md#view-data-service-details)
+   [View Data Service Details](/docs/groupid/11.0/groupid/admincenter/service/dataservice/manage.md#view-data-service-details)
    topic.
 
     You cannot create a Replication Service or delete an existing one from Admin Center.
@@ -40,10 +40,10 @@ What do you want to do?
 
 You can manage the following settings for a Replication service:
 
-- [Change a Service’s Display Name](/versioned_docs/groupid_11.0/groupid/admincenter/service/dataservice/manage.md#change-a-services-display-name)
-- [Start or Stop a Service](/versioned_docs/groupid_11.0/groupid/admincenter/service/dataservice/manage.md#start-or-stop-a-service)
-- [View the Deployment Settings for a Service](/versioned_docs/groupid_11.0/groupid/admincenter/service/dataservice/manage.md#view-the-deployment-settings-for-a-service)
-- [Specify Log Settings for a Service](/versioned_docs/groupid_11.0/groupid/admincenter/service/dataservice/manage.md#specify-log-settings-for-a-service)
+- [Change a Service’s Display Name](/docs/groupid/11.0/groupid/admincenter/service/dataservice/manage.md#change-a-services-display-name)
+- [Start or Stop a Service](/docs/groupid/11.0/groupid/admincenter/service/dataservice/manage.md#start-or-stop-a-service)
+- [View the Deployment Settings for a Service](/docs/groupid/11.0/groupid/admincenter/service/dataservice/manage.md#view-the-deployment-settings-for-a-service)
+- [Specify Log Settings for a Service](/docs/groupid/11.0/groupid/admincenter/service/dataservice/manage.md#specify-log-settings-for-a-service)
 
 ## Enable Elastic Cluster Syncing
 
@@ -74,5 +74,5 @@ To sync data:
 
 **See Also**
 
-- [GroupID Applications](/versioned_docs/groupid_11.0/groupid/admincenter/portal/applications.md)
-- [Services](/versioned_docs/groupid_11.0/groupid/admincenter/service/overview.md)
+- [GroupID Applications](/docs/groupid/11.0/groupid/admincenter/portal/applications.md)
+- [Services](/docs/groupid/11.0/groupid/admincenter/service/overview.md)

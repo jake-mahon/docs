@@ -16,7 +16,7 @@ The table has the following columns:
 
 - Checkbox — Check to select one or more items
 - Role — List of available roles. See the
-  [Role Management Page](/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/policy/page/rolemanagement.md)
+  [Role Management Page](/docs/privilegesecure/4.1/privilegesecure/accessmanagement/admin/policy/page/rolemanagement.md)
   topic for additional details.
 - Assigned — Indicates whether the role has been assigned
 

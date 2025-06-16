@@ -21,7 +21,7 @@ collection methods allow the kind of deep rich information, which can usually be
 substantial manual effort.
 
 See the
-[Data Collectors](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/overview.md)
+[Data Collectors](/docs/accessanalyzer/11.6/enterpriseauditor/admin/datacollector/overview.md)
 topic for additional information.
 
 ## Analysis Modules Overview
@@ -41,7 +41,7 @@ ease:
   how often alerts are generated
 
 See the
-[Analysis Modules](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/analysis/overview.md)
+[Analysis Modules](/docs/accessanalyzer/11.6/enterpriseauditor/admin/analysis/overview.md)
 topic for additional information.
 
 ## Action Modules Overview
@@ -53,7 +53,7 @@ in conjunction with other Action Modules and datasets to instantiate workflows i
 such as data custodians to obtain answers and verifications.
 
 See the
-[Action Modules](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/action/overview.md)
+[Action Modules](/docs/accessanalyzer/11.6/enterpriseauditor/admin/action/overview.md)
 topic for additional information.
 
 ## Reporting Overview
@@ -69,5 +69,5 @@ Stealthbits Web Console, which is created during the installation of Enterprise 
 Console can also provide access to the Access Information Center, and other Stealthbits products.
 
 See the
-[Reporting](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/report/overview.md) topic
+[Reporting](/docs/accessanalyzer/11.6/enterpriseauditor/admin/report/overview.md) topic
 for additional information.

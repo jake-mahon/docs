@@ -28,23 +28,23 @@ What do you want to do?
    responsible for triggering this schedule. The number of services displayed in the list depend on
    the number of Elasticsearch clusters in the environment, as each cluster has its own Scheduler
    service. See the
-   [Scheduler Service](/versioned_docs/groupid_11.0/groupid/admincenter/service/schedulerservice.md)
+   [Scheduler Service](/docs/groupid/11.0/groupid/admincenter/service/schedulerservice.md)
    topic.
 9. Click **Add Triggers** in the **Triggers** area to specify a triggering criterion for the
    schedule, that, when met, starts the execution of the schedule. Follow step 11 in the
-   [Create a Group Usage Service Schedule](/versioned_docs/groupid_11.0/groupid/admincenter/schedule/groupusageservice.md#create-a-group-usage-service-schedule)
+   [Create a Group Usage Service Schedule](/docs/groupid/11.0/groupid/admincenter/schedule/groupusageservice.md#create-a-group-usage-service-schedule)
    topic to add triggers.
 10. Click **Add Authentication** in the **Authentication** area to specify an account for running
     the schedule in the identity store. Follow step 12 in the
-    [Create a Group Usage Service Schedule](/versioned_docs/groupid_11.0/groupid/admincenter/schedule/groupusageservice.md#create-a-group-usage-service-schedule)
+    [Create a Group Usage Service Schedule](/docs/groupid/11.0/groupid/admincenter/schedule/groupusageservice.md#create-a-group-usage-service-schedule)
     topic for details.
 11. On the **Create Schedule** page, click **Create Schedule**.
 12. On the **Schedules** page, click **Save**.  
     The schedule is displayed under **User Life Cycle**. See the
-    [View the Schedules in an Identity Store ](/versioned_docs/groupid_11.0/groupid/admincenter/schedule/manage.md#view-the-schedules-in-an-identity-store)topic
+    [View the Schedules in an Identity Store ](/docs/groupid/11.0/groupid/admincenter/schedule/manage.md#view-the-schedules-in-an-identity-store)topic
     for more info.
 
 See Also
 
-- [Schedules](/versioned_docs/groupid_11.0/groupid/admincenter/schedule/overview.md)
-- [Configure User Profile Validation](/versioned_docs/groupid_11.0/groupid/admincenter/identitystore/configure/directoryservice/profilevalidation.md)
+- [Schedules](/docs/groupid/11.0/groupid/admincenter/schedule/overview.md)
+- [Configure User Profile Validation](/docs/groupid/11.0/groupid/admincenter/identitystore/configure/directoryservice/profilevalidation.md)

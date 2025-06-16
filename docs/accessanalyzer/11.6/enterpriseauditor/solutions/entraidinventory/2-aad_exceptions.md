@@ -73,7 +73,7 @@ The default values for parameters that can be customized are:
 See the
 [Configure the Analysis Tasks for the 2-AAD_Exceptions Job](#configure-the-analysis-tasks-for-the-2-aad_exceptions-job)
 section for instructions to modify parameters. See the
-[AzureADInventory Exception Types Translated](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/azureadinventory/standardtables.md#azureadinventory-exception-types-translated)
+[AzureADInventory Exception Types Translated](/docs/accessanalyzer/11.6/enterpriseauditor/admin/datacollector/azureadinventory/standardtables.md#azureadinventory-exception-types-translated)
 topic for an explanation of Exception Types.
 
 ### Configure the Analysis Tasks for the 2-AAD_Exceptions Job

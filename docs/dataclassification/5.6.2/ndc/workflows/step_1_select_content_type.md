@@ -17,4 +17,4 @@ which content sources of that type should be included in processing.
 
 Click Next to proceed.
 
-See also: [Content Sources](/versioned_docs/dataclassification_5.6.2/ndc/sources/sources_intro.md).
+See also: [Content Sources](/docs/dataclassification/5.6.2/ndc/sources/sources_intro.md).

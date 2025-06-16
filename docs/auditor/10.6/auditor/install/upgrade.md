@@ -61,27 +61,27 @@ operation. The issues listed below apply to upgrade from 9.96 and 10.
   rights and permissions to perform initial data collection and upgrade. Review the following for
   more information about required rights and permissions:
 
-    - [Permissions for Microsoft Entra ID Auditing](/versioned_docs/auditor_10.6/auditor/configuration/microsoft365/microsoftentraid/permissions.md)
-    - [Permissions for Exchange Online Auditing](/versioned_docs/auditor_10.6/auditor/configuration/microsoft365/exchangeonline/permissions.md)
-    - [Permissions for SharePoint Online Auditing ](/versioned_docs/auditor_10.6/auditor/configuration/microsoft365/sharepointonline/permissions.md)
-    - [Permissions for Teams Auditing](/versioned_docs/auditor_10.6/auditor/configuration/microsoft365/teams/permissions.md)
+    - [Permissions for Microsoft Entra ID Auditing](/docs/auditor/10.6/auditor/configuration/microsoft365/microsoftentraid/permissions.md)
+    - [Permissions for Exchange Online Auditing](/docs/auditor/10.6/auditor/configuration/microsoft365/exchangeonline/permissions.md)
+    - [Permissions for SharePoint Online Auditing ](/docs/auditor/10.6/auditor/configuration/microsoft365/sharepointonline/permissions.md)
+    - [Permissions for Teams Auditing](/docs/auditor/10.6/auditor/configuration/microsoft365/teams/permissions.md)
 
 - For auditing cloud-based applications (Microsoft Entra ID, Exchange Online, SharePoint Online, and
   MS Teams) with Netwrix Auditor using modern authentication: additional configuration of the Entra
   ID app permissions is required. Review the following for more information about required rights
   and permissions:
 
-    - [Permissions for Microsoft Entra ID Auditing](/versioned_docs/auditor_10.6/auditor/configuration/microsoft365/microsoftentraid/permissions.md)
-    - [Permissions for Exchange Online Auditing](/versioned_docs/auditor_10.6/auditor/configuration/microsoft365/exchangeonline/permissions.md)
-    - [Permissions for SharePoint Online Auditing ](/versioned_docs/auditor_10.6/auditor/configuration/microsoft365/sharepointonline/permissions.md)
-    - [Permissions for Teams Auditing](/versioned_docs/auditor_10.6/auditor/configuration/microsoft365/teams/permissions.md)
+    - [Permissions for Microsoft Entra ID Auditing](/docs/auditor/10.6/auditor/configuration/microsoft365/microsoftentraid/permissions.md)
+    - [Permissions for Exchange Online Auditing](/docs/auditor/10.6/auditor/configuration/microsoft365/exchangeonline/permissions.md)
+    - [Permissions for SharePoint Online Auditing ](/docs/auditor/10.6/auditor/configuration/microsoft365/sharepointonline/permissions.md)
+    - [Permissions for Teams Auditing](/docs/auditor/10.6/auditor/configuration/microsoft365/teams/permissions.md)
 
 - Netwrix Auditor for Oracle Database. If you use the following combination of the audit settings:
   Mixed Mode + Fine Grained Auditing, please check your configuration. You may need to re-configure
   your audit since the Oracle Database data collection mechanism was changed. See the
-  [Supported Data Sources](/versioned_docs/auditor_10.6/auditor/requirements/supporteddatasources.md)
+  [Supported Data Sources](/docs/auditor/10.6/auditor/requirements/supporteddatasources.md)
   and
-  [Verify Your Oracle Database Audit Settings](/versioned_docs/auditor_10.6/auditor/configuration/oracle/verifysettings.md)
+  [Verify Your Oracle Database Audit Settings](/docs/auditor/10.6/auditor/configuration/oracle/verifysettings.md)
   topics for additional information.
 - During the initial data collection, the product automatically upgrades services responsible for
   Windows Server and SharePoint network traffic compression. Consider the following:
@@ -121,7 +121,7 @@ Follow the steps to perform the upgrade.
 **Step 1 –** Make sure you have completed the preparatory steps above.
 
 **Step 2 –** Run the setup on the computer where the Auditor  Server resides. See the
-[Installation](/versioned_docs/auditor_10.6/auditor/install/overview.md) topic for additional
+[Installation](/docs/auditor/10.6/auditor/install/overview.md) topic for additional
 information.
 
 **Step 3 –** If you have a client-server deployment, then after upgrading the server run the setup

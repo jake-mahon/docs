@@ -21,7 +21,7 @@ The following commands are available on the **General** tab of the **Sources** s
   classification rules
 
 **NOTE:** See
-[Index Maintenance](/versioned_docs/dataclassification_5.6.2/ndc/utilities/utilities_cleaner.md) for
+[Index Maintenance](/docs/dataclassification/5.6.2/ndc/utilities/utilities_cleaner.md) for
 more information on these operations.
 
 - Pause—Temporarily pauses source content processing
@@ -31,7 +31,7 @@ more information on these operations.
 
 Besides, in the source list on the **General** tab you can do the following for selected source:
 
-- [View Results](/versioned_docs/dataclassification_5.6.2/ndc/sources/view_content.md)
+- [View Results](/docs/dataclassification/5.6.2/ndc/sources/view_content.md)
 - **Edit** the source details by clicking on the "gear" icon
 - **View source-specific statistics** by clicking on the "chart" icon
 - **View detailed information** by clicking on the “i” icon
@@ -43,19 +43,19 @@ Besides, in the source list on the **General** tab you can do the following for 
 settings are displayed by default. However, some source types have additional configuration options
 that can be displayed by clicking the Advanced Settings ("wrench" icon). You can allow these
 advanced settings to be always shown to authorized users.
-[See Users and Security Settings for more information.](/versioned_docs/dataclassification_5.6.2/ndc/security/users.md)
+[See Users and Security Settings for more information.](/docs/dataclassification/5.6.2/ndc/security/users.md)
 
 ## Modify Source Settings
 
 To edit configuration settings for the certain source, select the source and go to the corresponding
 tab, e.g. **Box** or **SharePoint**. Then you can, in particular, specify **Write configuration**
 (i.e. "tagging") settings and apply source-specific parameters. See
-[Use Tagging](/versioned_docs/dataclassification_5.6.2/ndc/sources/tagging.md) for more information.
+[Use Tagging](/docs/dataclassification/5.6.2/ndc/sources/tagging.md) for more information.
 
 See also:
 
-- [Database](/versioned_docs/dataclassification_5.6.2/ndc/sources/database/manage_database.md)
-- [Exchange Mailbox](/versioned_docs/dataclassification_5.6.2/ndc/sources/database/manage_exchange.md)
-- [File System](/versioned_docs/dataclassification_5.6.2/ndc/sources/file_system/manage_file_system.md)
-- [ Google Drive](/versioned_docs/dataclassification_5.6.2/ndc/sources/google_drive/manage_googledrive.md)
-- [SharePoint](/versioned_docs/dataclassification_5.6.2/ndc/sources/sharepoint/manage_sharepoint.md)
+- [Database](/docs/dataclassification/5.6.2/ndc/sources/database/manage_database.md)
+- [Exchange Mailbox](/docs/dataclassification/5.6.2/ndc/sources/database/manage_exchange.md)
+- [File System](/docs/dataclassification/5.6.2/ndc/sources/file_system/manage_file_system.md)
+- [ Google Drive](/docs/dataclassification/5.6.2/ndc/sources/google_drive/manage_googledrive.md)
+- [SharePoint](/docs/dataclassification/5.6.2/ndc/sources/sharepoint/manage_sharepoint.md)

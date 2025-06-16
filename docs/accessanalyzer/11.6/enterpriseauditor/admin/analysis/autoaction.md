@@ -5,7 +5,7 @@ execution. To add an action to an analysis via the Auto Action analysis module, 
 already exist and it must reside within the current job.
 
 **NOTE:** The Actions node can also automatically execute actions. See the
-[Action Modules](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/action/overview.md)
+[Action Modules](/docs/accessanalyzer/11.6/enterpriseauditor/admin/action/overview.md)
 topic for additional information.
 
 ## Select Action Window

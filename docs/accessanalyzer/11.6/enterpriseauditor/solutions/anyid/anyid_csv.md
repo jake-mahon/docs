@@ -29,7 +29,7 @@ The AnyID_CSV job does not require a connection profile.
 History Retention
 
 Default Retention Period. See the
-[History](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/settings/history.md) topic
+[History](/docs/accessanalyzer/11.6/enterpriseauditor/admin/settings/history.md) topic
 for additional information.
 
 Multi-Console Support

@@ -30,7 +30,7 @@ activities involve consumer, patient, resident, and other subject data.
 
 The AnyID Connectors Solution requires a special Enterprise Auditor license. It can be installed
 from the Instant Job Wizard. See the
-[Instant Job Wizard](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/jobs/instantjobs/overview.md)
+[Instant Job Wizard](/docs/accessanalyzer/11.6/enterpriseauditor/admin/jobs/instantjobs/overview.md)
 topic for additional information.
 
 ![AnyID Connectors Solution in the Jobs Tree](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/hostmanagement/jobstree.webp)
@@ -53,17 +53,17 @@ repository.
 
 The jobs in the AnyID Connectors Solution are:
 
-- [AnyID_CSV Job](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/anyid/anyid_csv.md)
+- [AnyID_CSV Job](/docs/accessanalyzer/11.6/enterpriseauditor/solutions/anyid/anyid_csv.md)
   – Imports a list of identities and attributes from a CSV file. Use this when a native integration
   may not be available, or an export is the best option.
-- [AnyID_EpicClarity Job](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/anyid/anyid_epicclarity.md)
+- [AnyID_EpicClarity Job](/docs/accessanalyzer/11.6/enterpriseauditor/solutions/anyid/anyid_epicclarity.md)
   – Collects patient information from Epic including MRNs, SSNs, Subscriber IDs, and Account IDs. An
   account with read access to the underlying Clarity Oracle database is required in order to run
   queries.
-- [AnyID_Paycom Job](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/anyid/anyid_paycom.md)
+- [AnyID_Paycom Job](/docs/accessanalyzer/11.6/enterpriseauditor/solutions/anyid/anyid_paycom.md)
   – Pulls employee information from Paycom including Name, Address, Date of Birth, and SSN. Contact
   your Paycom administrator in order to generate the CSV export required for this job.
-- [AnyID_Salesforce Job](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/anyid/anyid_salesforce.md)
+- [AnyID_Salesforce Job](/docs/accessanalyzer/11.6/enterpriseauditor/solutions/anyid/anyid_salesforce.md)
   – Collects Salesforce Contact details including Phone, Address, Email, and Date of birth. This job
   requires API access to Salesforce in order to collect this information.
 

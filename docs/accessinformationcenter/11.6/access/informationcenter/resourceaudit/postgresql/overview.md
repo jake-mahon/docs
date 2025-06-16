@@ -16,4 +16,4 @@ categories:
 
 The following report is available at the **PostgreSQL** node:
 
-- [Sensitive Content Summary Report](/versioned_docs/accessinformationcenter_11.6/access/informationcenter/resourceaudit/postgresql/sensitivecontentsummary.md)
+- [Sensitive Content Summary Report](/docs/accessinformationcenter/11.6/access/informationcenter/resourceaudit/postgresql/sensitivecontentsummary.md)

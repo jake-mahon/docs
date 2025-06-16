@@ -1,8 +1,8 @@
 # Create a Connection
 
 How to create a
-[connection](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/connectors/connection/index.md)
-inside a [connector](/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/index.md)
+[connection](/docs/usercube/6.1/usercube/integration-guide/toolkit/xml-configuration/connectors/connection/index.md)
+inside a [connector](/docs/usercube/6.1/usercube/integration-guide/connectors/index.md)
 and choose the appropriate package.
 
 ## Overview
@@ -11,9 +11,9 @@ A connection is the information that allows to connect to a managed system, whic
 credentials and path.
 
 There is a minimum of one connection per connector. In many cases, there is one connection for
-[synchronization](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/synchronization/index.md)
+[synchronization](/docs/usercube/6.1/usercube/user-guide/set-up/synchronization/index.md)
 and one connection for
-[provisioning](/versioned_docs/usercube_6.1/usercube/user-guide/administrate/provisioning/index.md).
+[provisioning](/docs/usercube/6.1/usercube/user-guide/administrate/provisioning/index.md).
 
 A connection is associated with a package, representing the technology to use for the data transfer.
 
@@ -24,7 +24,7 @@ purpose of the application.
 
 | Input                                                                                                                                                                                                                                                                    | Output        |
 | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------- |
-| [Connector container](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/connect-system/connector-declaration/index.md) (required) [Connector model](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/connect-system/connector-modeling/index.md) (required) | Connection(s) |
+| [Connector container](/docs/usercube/6.1/usercube/user-guide/set-up/connect-system/connector-declaration/index.md) (required) [Connector model](/docs/usercube/6.1/usercube/user-guide/set-up/connect-system/connector-modeling/index.md) (required) | Connection(s) |
 
 ## Create a Connection
 
@@ -57,17 +57,17 @@ A package is chosen according to the following constraints:
     > An Active Directory, a plain CSV file, etc.
 
 - Do we need
-  [incremental or complete](/versioned_docs/usercube_6.1/usercube/integration-guide/tasks-jobs/jobs/index.md)[synchronizations](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/synchronization/index.md),
+  [incremental or complete](/docs/usercube/6.1/usercube/integration-guide/tasks-jobs/jobs/index.md)[synchronizations](/docs/usercube/6.1/usercube/user-guide/set-up/synchronization/index.md),
   or both?
 
-    [Incremental synchronizations](/versioned_docs/usercube_6.1/usercube/integration-guide/synchronization/upward-data-sync/index.md),
+    [Incremental synchronizations](/docs/usercube/6.1/usercube/integration-guide/synchronization/upward-data-sync/index.md),
     usually launched approximatively every two hours, are to be performed for real-time needs, while
-    [complete synchronizations](/versioned_docs/usercube_6.1/usercube/integration-guide/synchronization/upward-data-sync/index.md),
+    [complete synchronizations](/docs/usercube/6.1/usercube/integration-guide/synchronization/upward-data-sync/index.md),
     scheduled no more than once a day, will recover any changes that may have slipped through the
     cracks of the incremental synchronizations.
 
 - Do we need
-  [provisioning](/versioned_docs/usercube_6.1/usercube/user-guide/administrate/provisioning/index.md)?
+  [provisioning](/docs/usercube/6.1/usercube/user-guide/administrate/provisioning/index.md)?
   If so, should provisioning be performed manually or automatically by Usercube?
 
 NETWRIX recommends starting by creating a connector that only does synchronization, and do not worry
@@ -83,7 +83,7 @@ One connector can contain several connections, and each connection contains one 
 > need more security.
 
 Each type of package needs its own settings, and
-[secured options](/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/configuration-details/connections/index.md#secured-options)
+[secured options](/docs/usercube/6.1/usercube/integration-guide/connectors/configuration-details/connections/index.md#secured-options)
 can be used to store sensitive connection information.
 
 ## Refresh Schemas
@@ -134,7 +134,7 @@ In order to verify the process:
     ![Check Connection](/img/versioned_docs/usercube_6.1/usercube/user-guide/set-up/connect-system/connection-creation/connectioncreation_checkconnection_v602.webp)
 
     Some connectors have both
-    [incremental and complete](/versioned_docs/usercube_6.1/usercube/integration-guide/tasks-jobs/jobs/index.md)
+    [incremental and complete](/docs/usercube/6.1/usercube/integration-guide/tasks-jobs/jobs/index.md)
     setting modes. They are relatively independent so they both need to be tested.
 
 2. check that the connection appears in the **Connections** frame with the right options, and

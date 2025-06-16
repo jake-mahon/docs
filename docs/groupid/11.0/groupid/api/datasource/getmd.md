@@ -3,7 +3,7 @@
 Using this API, you can get metadata information of data sources defined so far in GroupID.
 
 See the
-[Create a Data Source](/versioned_docs/groupid_11.0/groupid/admincenter/datasource/create.md) topic
+[Create a Data Source](/docs/groupid/11.0/groupid/admincenter/datasource/create.md) topic
 for creating a data source using the GroupID interface.
 
 ## Endpoint
@@ -31,5 +31,5 @@ GET
 
 See Also
 
-- [Data Source APIs](/versioned_docs/groupid_11.0/groupid/api/datasource/datasourceapis.md)
-- [Common Errors](/versioned_docs/groupid_11.0/groupid/api/commonerrors.md)
+- [Data Source APIs](/docs/groupid/11.0/groupid/api/datasource/datasourceapis.md)
+- [Common Errors](/docs/groupid/11.0/groupid/api/commonerrors.md)

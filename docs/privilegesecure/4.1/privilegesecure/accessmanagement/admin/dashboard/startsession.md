@@ -56,7 +56,7 @@ is necessary to add additional ciphers to machines with older (insecure) ciphers
 managed with SSH. You can “opt-in” by configuring the cipher suites used by the Proxy Service.
 
 See the
-[Proxy Service Install](/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/install/proxyservice.md)
+[Proxy Service Install](/docs/privilegesecure/4.1/privilegesecure/accessmanagement/install/proxyservice.md)
 topic for additional information.
 
 ## DirectConnect Inline Password Prompt

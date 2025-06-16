@@ -5,7 +5,7 @@ system policies.
 
 The UsersGroups Data Collector has been preconfigured within the Windows Solution. Both this data
 collector and the solution are available with a special Enterprise Auditor license. See the
-[Windows Solution](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/windows/overview.md)
+[Windows Solution](/docs/accessanalyzer/11.6/enterpriseauditor/solutions/windows/overview.md)
 topic for additional information.
 
 Protocols
@@ -36,8 +36,8 @@ The UsersGroups Data Collector is configured through the Users and Groups Browse
 contains the following wizard pages:
 
 - Welcome
-- [UsersGroups: Results](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/usersgroups/results.md)
-- [UsersGroups: Summary](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/usersgroups/summary.md)
+- [UsersGroups: Results](/docs/accessanalyzer/11.6/enterpriseauditor/admin/datacollector/usersgroups/results.md)
+- [UsersGroups: Summary](/docs/accessanalyzer/11.6/enterpriseauditor/admin/datacollector/usersgroups/summary.md)
 
 ![Users and Groups Browser wizard Welcome page](/img/versioned_docs/activitymonitor_7.1/activitymonitor/install/welcome.webp)
 

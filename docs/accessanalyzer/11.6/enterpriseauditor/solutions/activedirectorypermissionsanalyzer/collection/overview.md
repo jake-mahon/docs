@@ -8,19 +8,19 @@ The jobs which comprise the 0.Collection Job Group process analysis tasks.
 
 The jobs in the 0.Collection Job Group are:
 
-- [AD_ComputerRights Job](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/activedirectorypermissionsanalyzer/collection/ad_computerrights.md)
+- [AD_ComputerRights Job](/docs/accessanalyzer/11.6/enterpriseauditor/solutions/activedirectorypermissionsanalyzer/collection/ad_computerrights.md)
   – Collects all Active Directory permissions applied to computer objects within the targeted
   domains
-- [AD_ContainerRights Job](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/activedirectorypermissionsanalyzer/collection/ad_containerrights.md)
+- [AD_ContainerRights Job](/docs/accessanalyzer/11.6/enterpriseauditor/solutions/activedirectorypermissionsanalyzer/collection/ad_containerrights.md)
   – Collects all Active Directory permissions applied to container objects within the targeted
   domains
-- [AD_DomainRights Job](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/activedirectorypermissionsanalyzer/collection/ad_domainrights.md)
+- [AD_DomainRights Job](/docs/accessanalyzer/11.6/enterpriseauditor/solutions/activedirectorypermissionsanalyzer/collection/ad_domainrights.md)
   – Collects all Active Directory permissions applied to domain objects within the targeted domains
-- [AD_GroupRights Job](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/activedirectorypermissionsanalyzer/collection/ad_grouprights.md)
+- [AD_GroupRights Job](/docs/accessanalyzer/11.6/enterpriseauditor/solutions/activedirectorypermissionsanalyzer/collection/ad_grouprights.md)
   – Collects all Active Directory permissions applied to group objects within the targeted domains
-- [AD_OURights Job](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/activedirectorypermissionsanalyzer/collection/ad_ourights.md)
+- [AD_OURights Job](/docs/accessanalyzer/11.6/enterpriseauditor/solutions/activedirectorypermissionsanalyzer/collection/ad_ourights.md)
   – Collects all Active Directory permissions applied to group objects within the targeted domains
-- [AD_SiteRights Job](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/activedirectorypermissionsanalyzer/collection/ad_siterights.md)
+- [AD_SiteRights Job](/docs/accessanalyzer/11.6/enterpriseauditor/solutions/activedirectorypermissionsanalyzer/collection/ad_siterights.md)
   – Collects all Active Directory permissions applied to site objects within the targeted domains
-- [AD_UserRights Job](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/activedirectorypermissionsanalyzer/collection/ad_userrights.md)
+- [AD_UserRights Job](/docs/accessanalyzer/11.6/enterpriseauditor/solutions/activedirectorypermissionsanalyzer/collection/ad_userrights.md)
   – Collects all Active Directory permissions applied to user objects within the targeted domains

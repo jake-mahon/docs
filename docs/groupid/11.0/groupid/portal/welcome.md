@@ -35,12 +35,12 @@ different user roles within an identity stores, you may not have access to all p
 
 **See Also**
 
-- [Access Portal](/versioned_docs/groupid_11.0/groupid/portal/login.md)
-- [Dashboard](/versioned_docs/groupid_11.0/groupid/portal/dashboard.md)
-- [Group Management](/versioned_docs/groupid_11.0/groupid/portal/group/overview.md)
-- [User Management](/versioned_docs/groupid_11.0/groupid/portal/user/overview.md)
-- [Requests](/versioned_docs/groupid_11.0/groupid/portal/request/overview.md)
-- [History](/versioned_docs/groupid_11.0/groupid/portal/history/overview.md)
-- [ Entitlement](/versioned_docs/groupid_11.0/groupid/portal/entitlement/overview.md)
-- [Synchronize](/versioned_docs/groupid_11.0/groupid/portal/synchronize/overview.md)
-- [Reports](/versioned_docs/groupid_11.0/groupid/portal/report/dashboard.md)
+- [Access Portal](/docs/groupid/11.0/groupid/portal/login.md)
+- [Dashboard](/docs/groupid/11.0/groupid/portal/dashboard.md)
+- [Group Management](/docs/groupid/11.0/groupid/portal/group/overview.md)
+- [User Management](/docs/groupid/11.0/groupid/portal/user/overview.md)
+- [Requests](/docs/groupid/11.0/groupid/portal/request/overview.md)
+- [History](/docs/groupid/11.0/groupid/portal/history/overview.md)
+- [ Entitlement](/docs/groupid/11.0/groupid/portal/entitlement/overview.md)
+- [Synchronize](/docs/groupid/11.0/groupid/portal/synchronize/overview.md)
+- [Reports](/docs/groupid/11.0/groupid/portal/report/dashboard.md)

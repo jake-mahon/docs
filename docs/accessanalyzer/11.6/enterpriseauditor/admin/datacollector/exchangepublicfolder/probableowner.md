@@ -2,7 +2,7 @@
 
 The Probable Owner Settings page provides configuration options to determine an owner. It is enabled
 when the Probable Owner property is selected on the Properties page. See the
-[ExchangePublicFolder: Properties](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/exchangepublicfolder/properties.md) topic
+[ExchangePublicFolder: Properties](/docs/accessanalyzer/11.6/enterpriseauditor/admin/datacollector/exchangepublicfolder/properties.md) topic
 for additional information.
 
 ![Exchange Public Folder Data Collector Wizard Probable Owner page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/exchangepublicfolder/probableowner.webp)

@@ -48,7 +48,7 @@ Follow these steps for data recovery of the Enterprise Auditor Console server.
 
 **Step 1 –** Confirm the prerequisites have been met on the Enterprise Auditor Console Server. See
 the
-[Requirements](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/requirements/overview.md)
+[Requirements](/docs/accessanalyzer/11.6/enterpriseauditor/requirements/overview.md)
 topic for specific prerequisites.
 
 **Step 2 –** Install the Enterprise Auditor application. Do not start the Enterprise Auditor
@@ -94,7 +94,7 @@ Where SA_Node = @OHost;
 - Use the **Add Access**, **Edit Member Role**, and **Delete Member Role** buttons to add, remove,
   and edit roles
 - See the
-  [Role Based Access](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/settings/access/rolebased/overview.md)
+  [Role Based Access](/docs/accessanalyzer/11.6/enterpriseauditor/admin/settings/access/rolebased/overview.md)
   topic for more information
 
 The Enterprise Auditor Console Server is now restored.

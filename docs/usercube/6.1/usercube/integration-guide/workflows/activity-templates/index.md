@@ -1,7 +1,7 @@
 # Activity Templates
 
 This section describes the activities that constitute and model a
-[workflow](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/workflows/workflow/index.md).
+[workflow](/docs/usercube/6.1/usercube/integration-guide/toolkit/xml-configuration/workflows/workflow/index.md).
 Each activity is assigned a template, made of states and transitions.
 
 ## Overview

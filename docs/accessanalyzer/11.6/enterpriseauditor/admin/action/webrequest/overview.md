@@ -13,11 +13,11 @@ The Web Request action module is configured through the Web Request Action Modul
 contains the following wizard pages:
 
 - Welcome
-- [Web Request: Destination](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/action/webrequest/destination.md)
-- [Web Request: Header](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/action/webrequest/header.md)
-- [Web Request: Parameters](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/action/webrequest/parameters.md)
-- [Web Request: Settings](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/action/webrequest/settings.md)
-- [Web Request: Summary](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/action/webrequest/summary.md)
+- [Web Request: Destination](/docs/accessanalyzer/11.6/enterpriseauditor/admin/action/webrequest/destination.md)
+- [Web Request: Header](/docs/accessanalyzer/11.6/enterpriseauditor/admin/action/webrequest/header.md)
+- [Web Request: Parameters](/docs/accessanalyzer/11.6/enterpriseauditor/admin/action/webrequest/parameters.md)
+- [Web Request: Settings](/docs/accessanalyzer/11.6/enterpriseauditor/admin/action/webrequest/settings.md)
+- [Web Request: Summary](/docs/accessanalyzer/11.6/enterpriseauditor/admin/action/webrequest/summary.md)
 
 The Welcome page gives an overview of the action module. The navigation pane contains links to the
 pages in the wizard.

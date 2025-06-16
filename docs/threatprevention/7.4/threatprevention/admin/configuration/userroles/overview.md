@@ -2,7 +2,7 @@
 
 On the Users and Roles window, you can grant role based access to users on the Administration
 Console. See the
-[User Access Page](/versioned_docs/threatprevention_7.4/threatprevention/reportingmodule/configuration/systemsettings/useraccess.md)
+[User Access Page](/docs/threatprevention/7.4/threatprevention/reportingmodule/configuration/systemsettings/useraccess.md)
 topic for information on granting access to the Netwrix Threat Manager Reporting Module console.
 
 Click **Configuration** > **Users** on the menu to open the Users and Roles window.
@@ -25,7 +25,7 @@ There are two roles that can be applied to a Threat Prevention user:
 
 **NOTE:** The Report User role was a legacy feature for the IIS-based Reporting Console and is no
 longer applicable. See the
-[Reporting Module](/versioned_docs/threatprevention_7.4/threatprevention/reportingmodule/overview.md)
+[Reporting Module](/docs/threatprevention/7.4/threatprevention/reportingmodule/overview.md)
 topic for information on the new reporting console.
 
 Administration Console Rights
@@ -48,7 +48,7 @@ Administration Console Rights
 generated.
 
 See the
-[Policies Interface](/versioned_docs/threatprevention_7.4/threatprevention/admin/policies/overview.md)
+[Policies Interface](/docs/threatprevention/7.4/threatprevention/admin/policies/overview.md)
 topic for information on protected and unprotected policies.
 
 A user must have the following minimum permissions on the SQL Server databases, both the
@@ -58,7 +58,7 @@ NVMonitorConfig and NVMonitorData databases, according to the assigned role:
 
     - Read/Write data
     - If using
-      [Database Maintenance Window](/versioned_docs/threatprevention_7.4/threatprevention/admin/configuration/databasemaintenance/overview.md)
+      [Database Maintenance Window](/docs/threatprevention/7.4/threatprevention/admin/configuration/databasemaintenance/overview.md)
       – SQL Admin (sa) rights are required
 
 - Console Operator Role

@@ -7,7 +7,7 @@ Enterprise Auditor:
 - File Archive Repository
 
 See the
-[File Archive Repository Option](/versioned_docs/enterpriseauditor_11.6/config/activedirectory/filearchive.md)
+[File Archive Repository Option](/docs/accessanalyzer/11.6/config/activedirectory/filearchive.md)
 topic for additional information on that option.
 
 ## API Server Option

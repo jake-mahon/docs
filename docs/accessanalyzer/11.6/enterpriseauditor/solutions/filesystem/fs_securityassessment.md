@@ -5,20 +5,20 @@ information from targeted file servers. It is dependent upon the following jobs:
 
 - 2.Direct Permissions Job Group
 
-    - [FS_LocalUsersAndGroups Job](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/filesystem/directpermissions/fs_localusersandgroups.md)
-    - [FS_NestedShares Job](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/filesystem/directpermissions/fs_nestedshares.md)
-    - [FS_SIDHistory Job](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/filesystem/directpermissions/fs_sidhistory.md)
+    - [FS_LocalUsersAndGroups Job](/docs/accessanalyzer/11.6/enterpriseauditor/solutions/filesystem/directpermissions/fs_localusersandgroups.md)
+    - [FS_NestedShares Job](/docs/accessanalyzer/11.6/enterpriseauditor/solutions/filesystem/directpermissions/fs_nestedshares.md)
+    - [FS_SIDHistory Job](/docs/accessanalyzer/11.6/enterpriseauditor/solutions/filesystem/directpermissions/fs_sidhistory.md)
 
-- [3.Broken Inheritance > FS_BrokenInheritance Job](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/filesystem/fs_brokeninheritance.md)
+- [3.Broken Inheritance > FS_BrokenInheritance Job](/docs/accessanalyzer/11.6/enterpriseauditor/solutions/filesystem/fs_brokeninheritance.md)
 - 5.Activity Job Group
 
-    - [Least Privileged Access > FS_LeastPrivilegedAccess Job](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/filesystem/activity/fs_leastprivilegedaccess.md)
+    - [Least Privileged Access > FS_LeastPrivilegedAccess Job](/docs/accessanalyzer/11.6/enterpriseauditor/solutions/filesystem/activity/fs_leastprivilegedaccess.md)
     - Security >
-      [FS_HighRiskActivity Job](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/filesystem/activity/security/fs_highriskactivity.md)
+      [FS_HighRiskActivity Job](/docs/accessanalyzer/11.6/enterpriseauditor/solutions/filesystem/activity/security/fs_highriskactivity.md)
 
 - 7.Sensitive Data Job Group
 
-    - [7.Sensitive Data > FS_DLPResults Job](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/filesystem/fs_dlpresults.md)
+    - [7.Sensitive Data > FS_DLPResults Job](/docs/accessanalyzer/11.6/enterpriseauditor/solutions/filesystem/fs_dlpresults.md)
 
 If only select sub-job groups have been run, there are blank sections in the overview report.
 

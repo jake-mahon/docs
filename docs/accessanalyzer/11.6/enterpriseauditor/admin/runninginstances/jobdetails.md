@@ -63,7 +63,7 @@ or Message.
 ![Custom Filter window](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/runninginstances/jobdetailshistorycustomfilter.webp)
 
 If you select Custom, you can create a complex filter. See the
-[Custom Filter](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/navigate/datagrid.md#custom-filter)
+[Custom Filter](/docs/accessanalyzer/11.6/enterpriseauditor/admin/navigate/datagrid.md#custom-filter)
 topic for additional information.
 
 ## Queued Jobs Tab

@@ -55,4 +55,4 @@ single sign-on solution that support the SAML standard, into GroupID via any of 
 
 **See Also**
 
-- [Server Settings](/versioned_docs/groupid_11.0/groupid/admincenter/portal/server/overview.md)
+- [Server Settings](/docs/groupid/11.0/groupid/admincenter/portal/server/overview.md)

@@ -26,7 +26,7 @@ Update resource wizard opens.
 click **Next** to continue.
 
 - Add new owners — Click **Add** to browse for a new owner. See the
-  [Add Owner Window](/versioned_docs/auditor_10.6/access/reviews/resourceowners/window/addowner.md)
+  [Add Owner Window](/docs/auditor/10.6/access/reviews/resourceowners/window/addowner.md)
   topic for additional information.
 - Remove an owner — Select an owner and click **Remove**
 - Change owner priority — Select an owner and use the arrow buttons to change the order

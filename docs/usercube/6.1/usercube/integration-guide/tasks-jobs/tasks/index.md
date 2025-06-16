@@ -15,9 +15,9 @@ the UI, or even scheduled to be launched automatically periodically.
 
 > For example, Usercube's tasks include synchronization, computation of entitlement assignments, or
 > provisioning of varied managed systems.
-> [See the list of all available tasks](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/jobs/tasks/index.md).
+> [See the list of all available tasks](/docs/usercube/6.1/usercube/integration-guide/toolkit/xml-configuration/jobs/tasks/index.md).
 
-[See how to configure tasks](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/jobs/tasks/index.md).
+[See how to configure tasks](/docs/usercube/6.1/usercube/integration-guide/toolkit/xml-configuration/jobs/tasks/index.md).
 
 ## Data Consistency
 

@@ -37,7 +37,7 @@ purpose of this job.
 
 **Step 4 –** On the NIS Settings page, enter the **NIS Domain Name** for the targeted NIS domain.
 This step is required prior to running this query. See the
-[NIS: NIS Settings](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/nis/settings.md)
+[NIS: NIS Settings](/docs/accessanalyzer/11.6/enterpriseauditor/admin/datacollector/nis/settings.md)
 topic for additional information.
 
 - Optional: Test the connection to the domain using the Sample NIS Server section of the page
@@ -45,7 +45,7 @@ topic for additional information.
 ![SID Mappings page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/nis/sidmappings.webp)
 
 **Step 5 –** On the SID Mappings page, you can add multiple SID mapping entries. See the
-[NIS: SID Mappings](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/nis/sidmappings.md)
+[NIS: SID Mappings](/docs/accessanalyzer/11.6/enterpriseauditor/admin/datacollector/nis/sidmappings.md)
 topic for additional information.
 
 **Step 6 –** Navigate to the Summary page. Click **Finish** to save any setting modifications or

@@ -16,13 +16,13 @@ The entitlement fulfillment can be performed in different ways:
 - Usercube automatically triggers the provisioning of the entitlements needed by the new user,
   without any more human input.
 
-[See more information about entitlement assignment](/versioned_docs/usercube_6.1/usercube/integration-guide/role-assignment/index.md).
+[See more information about entitlement assignment](/docs/usercube/6.1/usercube/integration-guide/role-assignment/index.md).
 
 The automation of the entitlement assignment processes can be really helpful. However, you should
 not be looking for a full automation, but rather the smart automation of basic assignments such as
 "birthrights", while the sensitive ones keep a manual process.
 
-[See more information about assignment automation](/versioned_docs/usercube_6.1/usercube/user-guide/optimize/assignment-automation/index.md).
+[See more information about assignment automation](/docs/usercube/6.1/usercube/user-guide/optimize/assignment-automation/index.md).
 
 ## Offboarding
 
@@ -43,16 +43,16 @@ the user's contract in the company.
 
 These dates should then be part of entity types' properties (for example as `StartDate` and
 `EndDate`), in order to be used in
-[record sections](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/provisioning/recordsection/index.md)
+[record sections](/docs/usercube/6.1/usercube/integration-guide/toolkit/xml-configuration/provisioning/recordsection/index.md)
 and
-[context rules](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/provisioning/contextrule/index.md).
+[context rules](/docs/usercube/6.1/usercube/integration-guide/toolkit/xml-configuration/provisioning/contextrule/index.md).
 
 ![Identities - Validity Period](/img/versioned_docs/usercube_6.1/usercube/integration-guide/identity-management/joiners-movers-leavers/on-offboarding/validityperiod.webp)
 
 At the start date, the resource is created and a few entitlements are assigned to the identity.
 
 Between the start and end dates, the identity is part of all of Usercube's calculations
-([role model](/versioned_docs/usercube_6.1/usercube/integration-guide/role-model/index.md), etc.).
+([role model](/docs/usercube/6.1/usercube/integration-guide/role-model/index.md), etc.).
 
 At the end date, all the entitlements previously assigned to the identity are removed.
 

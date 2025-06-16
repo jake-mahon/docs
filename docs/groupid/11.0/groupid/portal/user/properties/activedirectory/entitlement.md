@@ -40,9 +40,9 @@ as navigate file servers and SharePoint sites, grant permissions to objects on s
 revoke permissions, and more.
 
 Entitlement-related permissions for a security role in an identity store are discussed in the
-[Entitlement](/versioned_docs/groupid_11.0/groupid/admincenter/securityrole/permissions.md#entitlement)
+[Entitlement](/docs/groupid/11.0/groupid/admincenter/securityrole/permissions.md#entitlement)
 section.
 
 **See Also**
 
-- [User Properties](/versioned_docs/groupid_11.0/groupid/portal/user/properties/overview.md)
+- [User Properties](/docs/groupid/11.0/groupid/portal/user/properties/overview.md)

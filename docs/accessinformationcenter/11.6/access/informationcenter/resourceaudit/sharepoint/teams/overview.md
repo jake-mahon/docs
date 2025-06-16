@@ -3,4 +3,4 @@
 The following reports are available at the **Teams** node and provide information for SharePoint
 Online instances:
 
-- [Teams Scan Summary](/versioned_docs/accessinformationcenter_11.6/access/informationcenter/resourceaudit/sharepoint/teams/teamsscansummary.md)
+- [Teams Scan Summary](/docs/accessinformationcenter/11.6/access/informationcenter/resourceaudit/sharepoint/teams/teamsscansummary.md)

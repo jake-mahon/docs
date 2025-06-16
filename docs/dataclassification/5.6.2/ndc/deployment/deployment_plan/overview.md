@@ -6,6 +6,6 @@ options depending on the IT infrastructure and data sources you are going to pro
 
 In this section:
 
-- [NDC Server](/versioned_docs/dataclassification_5.6.2/ndc/deployment/deployment_plan/ndc_server_client.md)
+- [NDC Server](/docs/dataclassification/5.6.2/ndc/deployment/deployment_plan/ndc_server_client.md)
 - Scalability and Performance
-- [Data Storages and Sizing](/versioned_docs/dataclassification_5.6.2/ndc/deployment/deployment_plan/data_storages.md)
+- [Data Storages and Sizing](/docs/dataclassification/5.6.2/ndc/deployment/deployment_plan/data_storages.md)

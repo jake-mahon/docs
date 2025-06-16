@@ -38,7 +38,7 @@ There are four key stages in this procedure:
 
 This section describes steps 1 and 2 that are performed on the Box side. Steps 3 and 4 are performed
 on the Netwrix Data Classification side and described in the
-[Box](/versioned_docs/dataclassification_5.6.2/ndc/sources/box/box.md)section.
+[Box](/docs/dataclassification/5.6.2/ndc/sources/box/box.md)section.
 
 ### Step 1. Create the App
 

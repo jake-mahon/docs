@@ -27,7 +27,7 @@ server and storage for the query to fetch the records from.
 **Query Designer**
 
 To modify the query, click the **Query Designer** button. This launches the
-[Query Designer](/versioned_docs/groupid_11.0/groupid/portal/group/querydesigner/overview.md) dialog
+[Query Designer](/docs/groupid/11.0/groupid/portal/group/querydesigner/overview.md) dialog
 box, where you can modify the query.
 
 Smart Groups and Dynasties in a Microsoft Entra IDbased identity store use a device structured query
@@ -64,4 +64,4 @@ You can create a new schedule other than the ones on the list.
 
 **See Also**
 
-- [Group Properties](/versioned_docs/groupid_11.0/groupid/portal/group/properties/overview.md)
+- [Group Properties](/docs/groupid/11.0/groupid/portal/group/properties/overview.md)

@@ -44,4 +44,4 @@ Install IIS via Server Manager by proceeding as follows:
 ## Next Steps
 
 To continue,
-[configure the application pool and website via IIS](/versioned_docs/usercube_6.1/usercube/user-guide/deploy/production-agent-installation/iis-configuration/index.md).
+[configure the application pool and website via IIS](/docs/usercube/6.1/usercube/user-guide/deploy/production-agent-installation/iis-configuration/index.md).

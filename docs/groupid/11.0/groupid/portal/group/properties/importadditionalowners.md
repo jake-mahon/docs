@@ -62,6 +62,6 @@ launch the **Import Additional Owners** wizard.
 
 **See Also**
 
-- [Groups](/versioned_docs/groupid_11.0/groupid/portal/group/create/overview.md)
-- [Dynasty](/versioned_docs/groupid_11.0/groupid/portal/group/dynasty/overview.md)
-- [Group Properties](/versioned_docs/groupid_11.0/groupid/portal/group/properties/overview.md)
+- [Groups](/docs/groupid/11.0/groupid/portal/group/create/overview.md)
+- [Dynasty](/docs/groupid/11.0/groupid/portal/group/dynasty/overview.md)
+- [Group Properties](/docs/groupid/11.0/groupid/portal/group/properties/overview.md)

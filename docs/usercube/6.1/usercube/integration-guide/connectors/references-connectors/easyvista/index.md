@@ -4,7 +4,7 @@ This connector exports and fulfills users from/to an
 [EasyVista](https://wiki.easyvista.com/xwiki/bin/view/Documentation/?language=en)-compliant system.
 
 This page is about
-[ITSM/EasyVista](/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/references-packages/easyvista/index.md).
+[ITSM/EasyVista](/docs/usercube/6.1/usercube/integration-guide/connectors/references-packages/easyvista/index.md).
 
 ![Package: ITSM/EasyVista](/img/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/references-connectors/easyvista/packages_easyvista_v603.webp)
 
@@ -19,7 +19,7 @@ interface.
 Implementing this connector requires:
 
 - reading first the
-  [appsettings documentation](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/appsettings-agent/index.md);
+  [appsettings documentation](/docs/usercube/6.1/usercube/integration-guide/network-configuration/agent-configuration/appsettings-agent/index.md);
 - an EasyVista account with reading/writing permissions on the target instance;
 - a view to be created in EasyVista for each type of entity to export.
 
@@ -33,7 +33,7 @@ It can also export any custom entity, provided that a view exists for it in Easy
 ### Configuration
 
 This process is configured through a
-[connection](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/connectors/connection/index.md)
+[connection](/docs/usercube/6.1/usercube/integration-guide/toolkit/xml-configuration/connectors/connection/index.md)
 in the UI and/or the XML configuration, and in the `appsettings.agent.json > Connections` section:
 
 ```
@@ -95,7 +95,7 @@ entities.
 ### Output details
 
 This connector is meant to generate to the
-[`ExportOutput`](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/appsettings/index.md)
+[`ExportOutput`](/docs/usercube/6.1/usercube/integration-guide/network-configuration/agent-configuration/appsettings/index.md)
 folder:
 
 - a CSV file, named `<connectionIdentifier>_Employees.csv`, with one column for each property having
@@ -152,7 +152,7 @@ Users created from the API are retrieved by Usercube only after a complete synch
 
 The EasyVista connector writes to EasyVista to create, archive (delete from Usercube's point of
 view) and update employees, initiated manually through the UI or automatically by
-[enforcing the policy](/versioned_docs/usercube_6.1/usercube/integration-guide/role-assignment/evaluate-policy/index.md).
+[enforcing the policy](/docs/usercube/6.1/usercube/integration-guide/role-assignment/evaluate-policy/index.md).
 
 ### Configuration
 
@@ -203,18 +203,18 @@ This connector can:
 
 ### Password reset
 
-[See how to configure password reset settings](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/appsettings-agent/index.md).
+[See how to configure password reset settings](/docs/usercube/6.1/usercube/integration-guide/network-configuration/agent-configuration/appsettings-agent/index.md).
 
 ### Credential protection
 
 Data protection can be ensured through:
 
-- [RSA encryption](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/rsa-encryption/index.md),
+- [RSA encryption](/docs/usercube/6.1/usercube/integration-guide/network-configuration/agent-configuration/rsa-encryption/index.md),
   configured in the `appsettings.encrypted.agent.json` file;
 - an
-  [Azure Key Vault](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/azure-key-vault/index.md)
+  [Azure Key Vault](/docs/usercube/6.1/usercube/integration-guide/network-configuration/agent-configuration/azure-key-vault/index.md)
   safe;
 
 - a
-  [CyberArk Vault](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/cyberark-application-access-manager-credential-providers/index.md)
+  [CyberArk Vault](/docs/usercube/6.1/usercube/integration-guide/network-configuration/agent-configuration/cyberark-application-access-manager-credential-providers/index.md)
   able to store EasyVista's `Login`, `Password`, `Account` and `Server`.

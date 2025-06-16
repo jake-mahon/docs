@@ -5,7 +5,7 @@ Configuration informations are accessible on:
 `[Usercube application URL]/.well-known/openid-configuration`.
 
 An OpenId client must be previously defined using an
-[OpenIdClient](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/access-control/openidclient/index.md)
+[OpenIdClient](/docs/usercube/6.1/usercube/integration-guide/toolkit/xml-configuration/access-control/openidclient/index.md)
 configuration element.
 
 The `client_id` parameter to use in calls to the OpenIdConnect protocol endpoints must be the

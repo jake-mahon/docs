@@ -7,7 +7,7 @@ transactions that transpire during the running of host discovery and host invent
 
 The Discovery Log logging level is configured within the **Settings** > **Host Discovery** node. See
 the
-[Host Discovery](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/settings/hostdiscovery.md)
+[Host Discovery](/docs/accessanalyzer/11.6/enterpriseauditor/admin/settings/hostdiscovery.md)
 topic for additional information.
 
 The following options are above the data grid:

@@ -18,9 +18,9 @@ When modeling your connectors, you had to decide what data you wanted Usercube t
 external systems. You configured your connectors, and among other things you chose the appropriate
 connections and packages, to manage identities and their entitlements by writing directly to the
 managed systems. This is done through said connectors' provisioning capabilities. See the
-[ Model the Data ](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/connect-system/connector-modeling/index.md)
+[ Model the Data ](/docs/usercube/6.1/usercube/user-guide/set-up/connect-system/connector-modeling/index.md)
 and
-[ Create a Connection ](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/connect-system/connection-creation/index.md)
+[ Create a Connection ](/docs/usercube/6.1/usercube/user-guide/set-up/connect-system/connection-creation/index.md)
 topics for additional information.
 
 When changes are performed on identity data, entitlements or the role model inside Usercube,
@@ -29,9 +29,9 @@ These changes can be written automatically or manually. Manual provisioning is u
 humans and make them act on the external systems, instead of Usercube. Automatic provisioning is
 used to minimize human intervention and trust Usercube with role model enforcement in external
 systems. See the
-[ Provision Manually ](/versioned_docs/usercube_6.1/usercube/user-guide/administrate/provisioning/manual-provisioning/index.md)
+[ Provision Manually ](/docs/usercube/6.1/usercube/user-guide/administrate/provisioning/manual-provisioning/index.md)
 and
-[ Provision Automatically ](/versioned_docs/usercube_6.1/usercube/user-guide/administrate/provisioning/automatic-provisioning/index.md)topics
+[ Provision Automatically ](/docs/usercube/6.1/usercube/user-guide/administrate/provisioning/automatic-provisioning/index.md)topics
 for additional information.
 
 ### Provisioning states
@@ -54,9 +54,9 @@ Here is the list of provisioning states and their description:
 
 These states are detailed with their transitions on the individual pages specific to provisioning
 review, manual provisioning and automated provisioning. See the
-[ Entitlement Assignment ](/versioned_docs/usercube_6.1/usercube/integration-guide/role-assignment/assignments-of-entitlements/index.md)
+[ Entitlement Assignment ](/docs/usercube/6.1/usercube/integration-guide/role-assignment/assignments-of-entitlements/index.md)
 and
-[ Review Provisioning ](/versioned_docs/usercube_6.1/usercube/user-guide/administrate/provisioning/provisioning-review/index.md)
+[ Review Provisioning ](/docs/usercube/6.1/usercube/user-guide/administrate/provisioning/provisioning-review/index.md)
 topics for additional information.
 
 ### Provisioning review
@@ -65,14 +65,14 @@ For security purposes, provisioning orders sometimes need to be reviewed before 
 the managed system. Then, a user with the right entitlements accesses the **Provisioning Review**
 page. Users can either approve provisioning orders that will then be unblocked and finally
 propagated, or they can decline orders that will subsequently be ignored. See the
-[ Configure a User Profile ](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/user-profile-configuration/index.md)topic
+[ Configure a User Profile ](/docs/usercube/6.1/usercube/user-guide/set-up/user-profile-configuration/index.md)topic
 for additional information.
 
 The review prior to the provisioning of entitlement assignments is usually performed based on the
 resource type of given identities. For example, the assignment of sensitive entitlements will
 require a review before being provisioned, whereas basic rights can be assigned at once. Therefore,
 resources must be carefully classified beforehand. See the
-[ Classify Resources ](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/categorization/classification/index.md)
+[ Classify Resources ](/docs/usercube/6.1/usercube/user-guide/set-up/categorization/classification/index.md)
 topic for additional information.
 
 ## Participants and Artifacts
@@ -84,11 +84,11 @@ This operation should be performed in cooperation with the staff in charge of ma
 | Connector's data model (required) Classified resources (required) Provisioning Rules (required) Role catalog (required) | Provisioned system |
 
 See the
-[ Model the Data ](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/connect-system/connector-modeling/index.md),
-[ Classify Resources ](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/categorization/classification/index.md),
-[ Create a Provisioning Rule ](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/provisioning-rule-creation/index.md),
+[ Model the Data ](/docs/usercube/6.1/usercube/user-guide/set-up/connect-system/connector-modeling/index.md),
+[ Classify Resources ](/docs/usercube/6.1/usercube/user-guide/set-up/categorization/classification/index.md),
+[ Create a Provisioning Rule ](/docs/usercube/6.1/usercube/user-guide/set-up/provisioning-rule-creation/index.md),
 and
-[ Create Roles in the Role Catalog ](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/single-roles-catalog-creation/index.md)
+[ Create Roles in the Role Catalog ](/docs/usercube/6.1/usercube/user-guide/set-up/single-roles-catalog-creation/index.md)
 topics for additional information.
 
 ## Perform Provisioning

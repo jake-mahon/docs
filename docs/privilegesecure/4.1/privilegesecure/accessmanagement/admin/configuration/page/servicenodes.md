@@ -21,8 +21,8 @@ The right of the page shows details of the selected service:
 
 The following service types are managed on the Service Nodes page.
 
-- [Action Service](/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/configuration/servicetype/action.md)
-- [Email Service](/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/configuration/servicetype/email.md)
-- [Proxy Service](/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/configuration/servicetype/proxy.md)
-- [Scheduler Service](/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/configuration/servicetype/scheduler.md)
-- [SIEM Service](/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/configuration/servicetype/siem.md)
+- [Action Service](/docs/privilegesecure/4.1/privilegesecure/accessmanagement/admin/configuration/servicetype/action.md)
+- [Email Service](/docs/privilegesecure/4.1/privilegesecure/accessmanagement/admin/configuration/servicetype/email.md)
+- [Proxy Service](/docs/privilegesecure/4.1/privilegesecure/accessmanagement/admin/configuration/servicetype/proxy.md)
+- [Scheduler Service](/docs/privilegesecure/4.1/privilegesecure/accessmanagement/admin/configuration/servicetype/scheduler.md)
+- [SIEM Service](/docs/privilegesecure/4.1/privilegesecure/accessmanagement/admin/configuration/servicetype/siem.md)

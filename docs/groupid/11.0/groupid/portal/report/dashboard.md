@@ -5,10 +5,10 @@ wizard guided report generation process that accounts for quick and easy reporti
 
 GroupID reports are organized into four categories:
 
-- [User Reports](/versioned_docs/groupid_11.0/groupid/portal/report/user.md)
-- [Group Reports](/versioned_docs/groupid_11.0/groupid/portal/report/group.md)
-- [Computer Reports](/versioned_docs/groupid_11.0/groupid/portal/report/computer.md)
-- [Contact Reports](/versioned_docs/groupid_11.0/groupid/portal/report/contact.md)
+- [User Reports](/docs/groupid/11.0/groupid/portal/report/user.md)
+- [Group Reports](/docs/groupid/11.0/groupid/portal/report/group.md)
+- [Computer Reports](/docs/groupid/11.0/groupid/portal/report/computer.md)
+- [Contact Reports](/docs/groupid/11.0/groupid/portal/report/contact.md)
 
 NOTE: A Microsoft Entra ID based identity store does not support the computer and contact object
 types.
@@ -61,16 +61,16 @@ Different elements of the Dashboard are described below:
 - Look on the left side of the page for the navigation pane, which lists links to the following:
 
     - Dashboard
-    - [User Reports](/versioned_docs/groupid_11.0/groupid/portal/report/user.md)
-    - [Group Reports](/versioned_docs/groupid_11.0/groupid/portal/report/group.md)
-    - [Computer Reports](/versioned_docs/groupid_11.0/groupid/portal/report/computer.md)
-    - [Contact Reports](/versioned_docs/groupid_11.0/groupid/portal/report/contact.md)
+    - [User Reports](/docs/groupid/11.0/groupid/portal/report/user.md)
+    - [Group Reports](/docs/groupid/11.0/groupid/portal/report/group.md)
+    - [Computer Reports](/docs/groupid/11.0/groupid/portal/report/computer.md)
+    - [Contact Reports](/docs/groupid/11.0/groupid/portal/report/contact.md)
 
 **See Also:**
 
-- [Generate Reports](/versioned_docs/groupid_11.0/groupid/portal/report/generate.md)
-- [Manage Reports](/versioned_docs/groupid_11.0/groupid/portal/report/manage.md)
-- [Group Reports](/versioned_docs/groupid_11.0/groupid/portal/report/group.md)
-- [User Reports](/versioned_docs/groupid_11.0/groupid/portal/report/user.md)
-- [Computer Reports](/versioned_docs/groupid_11.0/groupid/portal/report/computer.md)
-- [Contact Reports](/versioned_docs/groupid_11.0/groupid/portal/report/contact.md)
+- [Generate Reports](/docs/groupid/11.0/groupid/portal/report/generate.md)
+- [Manage Reports](/docs/groupid/11.0/groupid/portal/report/manage.md)
+- [Group Reports](/docs/groupid/11.0/groupid/portal/report/group.md)
+- [User Reports](/docs/groupid/11.0/groupid/portal/report/user.md)
+- [Computer Reports](/docs/groupid/11.0/groupid/portal/report/computer.md)
+- [Contact Reports](/docs/groupid/11.0/groupid/portal/report/contact.md)

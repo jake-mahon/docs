@@ -54,7 +54,7 @@ being locked down.
     **CAUTION:** Saving all TGT and/or TGS authentication data results in the bloating of the Threat
     Prevention database. Configure policy filters and use Database Maintenance while monitoring
     these protocols to retain data for the necessary timeframe. See the
-    [Database Maintenance Window](/versioned_docs/threatprevention_7.4/threatprevention/admin/configuration/databasemaintenance/overview.md)
+    [Database Maintenance Window](/docs/threatprevention/7.4/threatprevention/admin/configuration/databasemaintenance/overview.md)
     topic for additional information.
 
     **_RECOMMENDED:_** Save only a few days' worth of TGT and TGS data at a time.
@@ -77,7 +77,7 @@ from being locked down.
 Select the **Block** or **Allow** option button and then edit the list.
 
 **NOTE:** For the
-[Password Enforcement Event Type](/versioned_docs/threatprevention_7.4/threatprevention/admin/policies/eventtype/passwordenforcement.md),
+[Password Enforcement Event Type](/docs/threatprevention/7.4/threatprevention/admin/policies/eventtype/passwordenforcement.md),
 selecting **Allow** means that this policy will not validate the new passwords for the accounts
 listed here. Selecting **Block** means that this policy will validate the new passwords for the
 accounts listed here.
@@ -85,15 +85,15 @@ accounts listed here.
 Use the buttons in the Perpetrators and Collections of Perpetrators areas to edit the lists.
 
 - Perpetrators area – The Add (+) button opens the
-  [Select Active Directory Perpetrators Window](/versioned_docs/threatprevention_7.4/threatprevention/admin/policies/eventtype/window/selectactivedirectory/perpetrators.md).
+  [Select Active Directory Perpetrators Window](/docs/threatprevention/7.4/threatprevention/admin/policies/eventtype/window/selectactivedirectory/perpetrators.md).
 - Collections of Perpetrators area - The Collection button opens the
-  [List of Collections Window](/versioned_docs/threatprevention_7.4/threatprevention/admin/configuration/collectionmanager/listcollections.md)
+  [List of Collections Window](/docs/threatprevention/7.4/threatprevention/admin/configuration/collectionmanager/listcollections.md)
   to the appropriate Collection category.
 - The Remove (x) button deletes the selected item(s) from that box.
 
 **NOTE:** To enable a Dynamic Policy, use the Collection button to select the desired Dynamic
 Collection. See the
-[Dynamic Collections](/versioned_docs/threatprevention_7.4/threatprevention/admin/configuration/collectionmanager/dynamic.md)
+[Dynamic Collections](/docs/threatprevention/7.4/threatprevention/admin/configuration/collectionmanager/dynamic.md)
 topic for additional information.
 
 ## Hosts (from) Filter
@@ -106,7 +106,7 @@ hosts as originators of an event.
 Select the **Block** or **Allow** option button and then edit the list.
 
 - For the
-  [Password Enforcement Event Type](/versioned_docs/threatprevention_7.4/threatprevention/admin/policies/eventtype/passwordenforcement.md),
+  [Password Enforcement Event Type](/docs/threatprevention/7.4/threatprevention/admin/policies/eventtype/passwordenforcement.md),
   selecting **Allow** means that this policy will not validate the new passwords for the accounts
   listed here. Selecting **Block** means that this policy will validate the new passwords for the
   accounts listed here.
@@ -116,7 +116,7 @@ Select the **Block** or **Allow** option button and then edit the list.
 Use the buttons in the Include Hosts area to edit the list.
 
 - The Hosts Add (+) button opens the
-  [Select Computer Window](/versioned_docs/threatprevention_7.4/threatprevention/admin/policies/eventtype/window/selectcomputers.md).
+  [Select Computer Window](/docs/threatprevention/7.4/threatprevention/admin/policies/eventtype/window/selectcomputers.md).
 - The Remove (x) button deletes the selected item(s) from that box.
 
 ## Hosts (to) Filter
@@ -129,7 +129,7 @@ hosts as target hosts of an event.
 Use the buttons in the Include Hosts area to edit the list.
 
 - The Hosts Add (+) button opens the
-  [Select Computer Window](/versioned_docs/threatprevention_7.4/threatprevention/admin/policies/eventtype/window/selectcomputers.md).
+  [Select Computer Window](/docs/threatprevention/7.4/threatprevention/admin/policies/eventtype/window/selectcomputers.md).
 - The Remove (x) button deletes the selected item(s) from that box.
 
 ## Rule Preview Filter

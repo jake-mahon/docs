@@ -136,4 +136,4 @@ displayed in the results.
 
 **See Also**
 
-- [ Entitlement](/versioned_docs/groupid_11.0/groupid/portal/entitlement/overview.md)
+- [ Entitlement](/docs/groupid/11.0/groupid/portal/entitlement/overview.md)

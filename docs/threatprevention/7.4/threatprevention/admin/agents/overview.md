@@ -15,9 +15,9 @@ The Threat Prevention Agent can be deployed through any of the following methods
 - Manually through the Windows Agent Setup Wizard – Run the Agent executable to launch this wizard
 
 See the
-[Deploy Agents](/versioned_docs/threatprevention_7.4/threatprevention/admin/agents/deploy/overview.md)
+[Deploy Agents](/docs/threatprevention/7.4/threatprevention/admin/agents/deploy/overview.md)
 and
-[Manual Agent Deployment](/versioned_docs/threatprevention_7.4/threatprevention/install/agent/manual.md)
+[Manual Agent Deployment](/docs/threatprevention/7.4/threatprevention/install/agent/manual.md)
 topics for additional information.
 
 Click **Agents** in the left pane to open the Agents interface.
@@ -46,7 +46,7 @@ information for an Agent:
       the Enterprise Manager received it
 
         **NOTE:** When the **Send Latency Alerts** option is enabled in the
-        [Event Filtering Configuration Window](/versioned_docs/threatprevention_7.4/threatprevention/admin/configuration/eventfilteringconfiguration.md),
+        [Event Filtering Configuration Window](/docs/threatprevention/7.4/threatprevention/admin/configuration/eventfilteringconfiguration.md),
         a warning symbol appears to indicate excessive latency. This warning symbol also appears
         when the Agent fails to load the instrumentation DLL into the LSASS process or when it fails
         to load the instrumentation DLL to MS Exchange.
@@ -57,7 +57,7 @@ information for an Agent:
   names.
 
     **NOTE:** You can use the FSMO roles information in combination with a policy created for the
-    [FSMO Role Monitoring Event Type](/versioned_docs/threatprevention_7.4/threatprevention/admin/policies/eventtype/fsmorolemonitoring.md)
+    [FSMO Role Monitoring Event Type](/docs/threatprevention/7.4/threatprevention/admin/policies/eventtype/fsmorolemonitoring.md)
     to view events about which machine acquired a FSMO role and which machine relinquished it.
 
 - Operating System – Operating system for the machine where the Agent is deployed with version
@@ -72,7 +72,7 @@ information for an Agent:
       Enterprise Manager
     - Active (Modules Pending) – The Agent is active, but the Windows AD Events module has not been
       loaded due to Safe Mode. See the
-      [Agent Safe Mode](/versioned_docs/threatprevention_7.4/threatprevention/admin/agents/safemode.md)
+      [Agent Safe Mode](/docs/threatprevention/7.4/threatprevention/admin/agents/safemode.md)
       topic for additional information.
     - Stopped (orange) – The Agent has been stopped and is not monitoring/blocking events
     - Lost Connection (red) – The Agent is not actively communicating with the Enterprise Manager
@@ -108,7 +108,7 @@ information for an Agent:
   Windows
 
 This data grid employs features for sorting, filtering, searching, and more. See the
-[ Data Grid Functionality](/versioned_docs/threatprevention_7.4/threatprevention/admin/navigation/datagrid.md)
+[ Data Grid Functionality](/docs/threatprevention/7.4/threatprevention/admin/navigation/datagrid.md)
 topic for additional information.
 
 ## Agents Action Buttons
@@ -120,12 +120,12 @@ interface
 | --------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | ![Agents Interface - Export Agent List icon](/img/versioned_docs/threatprevention_7.4/threatprevention/admin/agents/exporticon.webp)                 | Export Agent List…      | Save the information to an XML file for export                                                                                                                                                                                                                                                                                                                    |
 | ![Agents Interface - Refresh Agent List icon](/img/versioned_docs/threatprevention_7.4/threatprevention/admin/agents/refreshicon.webp)               | Refresh Agent List…     | Refresh the Agent information                                                                                                                                                                                                                                                                                                                                     |
-| ![Agents Interface - Update Logging Levels icon](/img/versioned_docs/threatprevention_7.4/threatprevention/admin/agents/updateloggingicon.webp)      | Update Logging Levels…  | Configure the log levels for the Agent(s). It opens the [Log Level Configuration Window](/versioned_docs/threatprevention_7.4/threatprevention/admin/agents/window/loglevelconfiguration.md).                                                                                                                                                                     |
-| ![Agents Interface - Get Agent Log icon](/img/versioned_docs/threatprevention_7.4/threatprevention/admin/agents/getagentlogicon.webp)                | Get Agent Log…          | Access Agent log files. See the [Access Agent Log Files](/versioned_docs/threatprevention_7.4/threatprevention/admin/agents/window/loglevelconfiguration.md#access-agent-log-files) topic for additional information.                                                                                                                                             |
-| ![Agents Interface - Update Agent Installer icon](/img/versioned_docs/threatprevention_7.4/threatprevention/admin/agents/updateinstallericon.webp)   | Update Agent Installer  | Check with Netwrix for a newer version of the Agent Installer according to the version in use. It opens the [Agent Installer Update Window](/versioned_docs/threatprevention_7.4/threatprevention/admin/agents/window/agentinstallerupdate.md).                                                                                                                   |
-| ![Agents Interface - Configure Auto Deploy icon](/img/versioned_docs/threatprevention_7.4/threatprevention/admin/agents/autodeployicon.webp)         | Configure Auto Deploy   | If enabled, the Agent is automatically deployed to all domain controllers without an Agent. This feature requires at least one Agent to be present in the domain in order to detect additional domain controllers. It opens the [Configure Auto Deploy Window](/versioned_docs/threatprevention_7.4/threatprevention/admin/agents/window/configureautodeploy.md). |
-| ![Agents Interface - Agent Enrollment Secret icon](/img/versioned_docs/threatprevention_7.4/threatprevention/admin/agents/enrollmentsecreticon.webp) | Agent Enrollment Secret | Generate the enrollment secret used to deploy the Agent. Opens the [Enrollment Secret Configuration Window](/versioned_docs/threatprevention_7.4/threatprevention/admin/agents/window/enrollmentsecretconfiguration.md).                                                                                                                                          |
-| ![Agents Interface - Deploy Agent icon](/img/versioned_docs/threatprevention_7.4/threatprevention/admin/agents/deployagent.webp)                     | Deploy Agent            | Deploy the Agent to selected servers. It opens the Deploy Agents wizard. See the [Deploy Agents](/versioned_docs/threatprevention_7.4/threatprevention/admin/agents/deploy/overview.md) topic for additional information.                                                                                                                                         |
+| ![Agents Interface - Update Logging Levels icon](/img/versioned_docs/threatprevention_7.4/threatprevention/admin/agents/updateloggingicon.webp)      | Update Logging Levels…  | Configure the log levels for the Agent(s). It opens the [Log Level Configuration Window](/docs/threatprevention/7.4/threatprevention/admin/agents/window/loglevelconfiguration.md).                                                                                                                                                                     |
+| ![Agents Interface - Get Agent Log icon](/img/versioned_docs/threatprevention_7.4/threatprevention/admin/agents/getagentlogicon.webp)                | Get Agent Log…          | Access Agent log files. See the [Access Agent Log Files](/docs/threatprevention/7.4/threatprevention/admin/agents/window/loglevelconfiguration.md#access-agent-log-files) topic for additional information.                                                                                                                                             |
+| ![Agents Interface - Update Agent Installer icon](/img/versioned_docs/threatprevention_7.4/threatprevention/admin/agents/updateinstallericon.webp)   | Update Agent Installer  | Check with Netwrix for a newer version of the Agent Installer according to the version in use. It opens the [Agent Installer Update Window](/docs/threatprevention/7.4/threatprevention/admin/agents/window/agentinstallerupdate.md).                                                                                                                   |
+| ![Agents Interface - Configure Auto Deploy icon](/img/versioned_docs/threatprevention_7.4/threatprevention/admin/agents/autodeployicon.webp)         | Configure Auto Deploy   | If enabled, the Agent is automatically deployed to all domain controllers without an Agent. This feature requires at least one Agent to be present in the domain in order to detect additional domain controllers. It opens the [Configure Auto Deploy Window](/docs/threatprevention/7.4/threatprevention/admin/agents/window/configureautodeploy.md). |
+| ![Agents Interface - Agent Enrollment Secret icon](/img/versioned_docs/threatprevention_7.4/threatprevention/admin/agents/enrollmentsecreticon.webp) | Agent Enrollment Secret | Generate the enrollment secret used to deploy the Agent. Opens the [Enrollment Secret Configuration Window](/docs/threatprevention/7.4/threatprevention/admin/agents/window/enrollmentsecretconfiguration.md).                                                                                                                                          |
+| ![Agents Interface - Deploy Agent icon](/img/versioned_docs/threatprevention_7.4/threatprevention/admin/agents/deployagent.webp)                     | Deploy Agent            | Deploy the Agent to selected servers. It opens the Deploy Agents wizard. See the [Deploy Agents](/docs/threatprevention/7.4/threatprevention/admin/agents/deploy/overview.md) topic for additional information.                                                                                                                                         |
 
 ## Right-Click Menu
 
@@ -138,17 +138,17 @@ The right-click menu contains the following selections:
 
 | Right-Click Command      | Description                                                                                                                                                                                                                                                                                                                                                                                                                                       |
 | ------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Install Agent            | Deploys the Agent to the desired machines. Opens the Deploy Agent wizard. See the [Deploy Agents](/versioned_docs/threatprevention_7.4/threatprevention/admin/agents/deploy/overview.md) topic for additional information.                                                                                                                                                                                                                        |
-| Uninstall Agent          | Uninstalls a previously deployed Agent from its server. See the [Uninstall Agent](/versioned_docs/threatprevention_7.4/threatprevention/install/upgrade/uninstallagent.md) topic for additional information.                                                                                                                                                                                                                                      |
-| Upgrade Agent            | Upgrades the Agent to a newer version. See the [Upgrade Agent](/versioned_docs/threatprevention_7.4/threatprevention/install/upgrade/agent.md) topic for additional information.                                                                                                                                                                                                                                                                  |
-| Update Agent Settings    | Allows for modification of the Agent settings, such as the modules, Enterprise Manager address, or enabling/disabling the DNS Host Name Resolution option. It opens the Deploy Agent wizard. See the [Update Agent Settings](/versioned_docs/threatprevention_7.4/threatprevention/admin/agents/deploy/overview.md#update-agent-settings) topic for additional information.                                                                       |
-| Start Agent              | Starts the Agent service on the selected machine(s). See the [Start Agent](/versioned_docs/threatprevention_7.4/threatprevention/admin/agents/management/start.md) topic for additional information.                                                                                                                                                                                                                                              |
-| Stop Agent               | Stops the Agent service on the selected machine(s). See the [Stop Agent](/versioned_docs/threatprevention_7.4/threatprevention/admin/agents/management/stop.md) sections for additional information.                                                                                                                                                                                                                                              |
-| Start Pending Modules    | Starts Agent service modules that did not start with the Agent due to a change in LSASS (only available on Agents configured to use Safe Mode). See the [Agent Safe Mode](/versioned_docs/threatprevention_7.4/threatprevention/admin/agents/safemode.md) topic and the [Start Pending Modules](/versioned_docs/threatprevention_7.4/threatprevention/admin/agents/management/startpendingmodules.md) topic for additional information.           |
-| Harden Agent             | Protects an Agent from being altered, stopped, or started from within the local Service Control Manager. See the [Harden Agent](/versioned_docs/threatprevention_7.4/threatprevention/admin/agents/management/harden.md) topic for additional information.                                                                                                                                                                                        |
-| Soften Agent             | Unlocks the Agent so it can be controlled from within the local Service Control Manager. See the [Soften Agent](/versioned_docs/threatprevention_7.4/threatprevention/admin/agents/management/soften.md) topic for additional information.                                                                                                                                                                                                        |
-| Remove Server from List  | Removes a server from the Agent data grid. If the server has a deployed Agent, it will be added back to the list the next time the Agent sends information to the Enterprise Manager. See the [Remove Server from List](/versioned_docs/threatprevention_7.4/threatprevention/admin/agents/management/removeserver.md) topic for additional information.                                                                                          |
-| Clear SQLite Agent Queue | When the Agent is unable to communicate with the Enterprise Manager, Agent events queue up in the Agents local SQLite database until the Enterprise Manager is available to accept events. The Clear SQLite Agent Queue option dumps the queue and all pending events are lost. See the [Clear SQLite Agent Queue](/versioned_docs/threatprevention_7.4/threatprevention/admin/agents/management/clearqueue.md) topic for additional information. |
+| Install Agent            | Deploys the Agent to the desired machines. Opens the Deploy Agent wizard. See the [Deploy Agents](/docs/threatprevention/7.4/threatprevention/admin/agents/deploy/overview.md) topic for additional information.                                                                                                                                                                                                                        |
+| Uninstall Agent          | Uninstalls a previously deployed Agent from its server. See the [Uninstall Agent](/docs/threatprevention/7.4/threatprevention/install/upgrade/uninstallagent.md) topic for additional information.                                                                                                                                                                                                                                      |
+| Upgrade Agent            | Upgrades the Agent to a newer version. See the [Upgrade Agent](/docs/threatprevention/7.4/threatprevention/install/upgrade/agent.md) topic for additional information.                                                                                                                                                                                                                                                                  |
+| Update Agent Settings    | Allows for modification of the Agent settings, such as the modules, Enterprise Manager address, or enabling/disabling the DNS Host Name Resolution option. It opens the Deploy Agent wizard. See the [Update Agent Settings](/docs/threatprevention/7.4/threatprevention/admin/agents/deploy/overview.md#update-agent-settings) topic for additional information.                                                                       |
+| Start Agent              | Starts the Agent service on the selected machine(s). See the [Start Agent](/docs/threatprevention/7.4/threatprevention/admin/agents/management/start.md) topic for additional information.                                                                                                                                                                                                                                              |
+| Stop Agent               | Stops the Agent service on the selected machine(s). See the [Stop Agent](/docs/threatprevention/7.4/threatprevention/admin/agents/management/stop.md) sections for additional information.                                                                                                                                                                                                                                              |
+| Start Pending Modules    | Starts Agent service modules that did not start with the Agent due to a change in LSASS (only available on Agents configured to use Safe Mode). See the [Agent Safe Mode](/docs/threatprevention/7.4/threatprevention/admin/agents/safemode.md) topic and the [Start Pending Modules](/docs/threatprevention/7.4/threatprevention/admin/agents/management/startpendingmodules.md) topic for additional information.           |
+| Harden Agent             | Protects an Agent from being altered, stopped, or started from within the local Service Control Manager. See the [Harden Agent](/docs/threatprevention/7.4/threatprevention/admin/agents/management/harden.md) topic for additional information.                                                                                                                                                                                        |
+| Soften Agent             | Unlocks the Agent so it can be controlled from within the local Service Control Manager. See the [Soften Agent](/docs/threatprevention/7.4/threatprevention/admin/agents/management/soften.md) topic for additional information.                                                                                                                                                                                                        |
+| Remove Server from List  | Removes a server from the Agent data grid. If the server has a deployed Agent, it will be added back to the list the next time the Agent sends information to the Enterprise Manager. See the [Remove Server from List](/docs/threatprevention/7.4/threatprevention/admin/agents/management/removeserver.md) topic for additional information.                                                                                          |
+| Clear SQLite Agent Queue | When the Agent is unable to communicate with the Enterprise Manager, Agent events queue up in the Agents local SQLite database until the Enterprise Manager is available to accept events. The Clear SQLite Agent Queue option dumps the queue and all pending events are lost. See the [Clear SQLite Agent Queue](/docs/threatprevention/7.4/threatprevention/admin/agents/management/clearqueue.md) topic for additional information. |
 
 For certain actions, you can select multiple Agents listed in the data grid, to perform that action
 on all the selected Agents. The appropriate right-click menu options will not be grayed out if
@@ -164,7 +164,7 @@ configuration files are located (install path). Next, WMI is used to stop the Ag
 the configuration files, and restart the Agent.
 
 See the
-[Firewall Ports](/versioned_docs/threatprevention_7.4/threatprevention/requirements/ports.md) topic
+[Firewall Ports](/docs/threatprevention/7.4/threatprevention/requirements/ports.md) topic
 for default ports required for WMI communication. See the Microsoft
 [WMI Diagnosis Utility](<https://docs.microsoft.com/en-us/previous-versions/tn-archive/ff404265(v=msdn.10)?redirectedfrom=MSDN>)
 article for additional information.
@@ -176,7 +176,7 @@ Below are some considerations:
 - Occasionally a Microsoft Security Bulletin impacting LSASS can interfere with the Agent
   instrumentation resulting in LSASS shutting down. The Agent is configured to monitor for an LSASS
   process termination shortly after a server reboot. The
-  [LSASS Process Terminated](/versioned_docs/threatprevention_7.4/threatprevention/troubleshooting/lsass.md)
+  [LSASS Process Terminated](/docs/threatprevention/7.4/threatprevention/troubleshooting/lsass.md)
   alert (Operations alert) is triggered in this event and the Agent is stopped. As a result, all
   monitoring/blocking by that Agent will be stopped. To resolve the issue, the Threat
   Prevention administrator should check if the Agent service is set to manual start. The most likely
@@ -184,7 +184,7 @@ Below are some considerations:
 
     **_RECOMMENDED:_** Activate an email notification for the _LSASS process terminated_ alert. See
     the
-    [Enable the 'LSASS Process Terminated' Email Alert](/versioned_docs/threatprevention_7.4/threatprevention/troubleshooting/lsass.md#enable-the-lsass-process-terminated-email-alert)
+    [Enable the 'LSASS Process Terminated' Email Alert](/docs/threatprevention/7.4/threatprevention/troubleshooting/lsass.md#enable-the-lsass-process-terminated-email-alert)
     topic for additional information.
 
 - In addition to the LSASS process termination check, the Agent can be configured for a Safe Mode.
@@ -195,11 +195,11 @@ Below are some considerations:
   monitoring/blocking by that Agent stops. The 'Agent Started in AD Monitor pending mode' alert
   (Operations alert) is triggered in this event. To resolve the issue, the Threat Prevention
   administrator must start the pending modules. See the
-  [Start Pending Modules](/versioned_docs/threatprevention_7.4/threatprevention/admin/agents/management/startpendingmodules.md)
+  [Start Pending Modules](/docs/threatprevention/7.4/threatprevention/admin/agents/management/startpendingmodules.md)
   topic for additional information.
 
     **_RECOMMENDED:_** Activate an email notification for this alert. See the
-    [Enable Agent Started in AD Monitor Pending Mode Email Alert](/versioned_docs/threatprevention_7.4/threatprevention/admin/agents/safemode.md#enable-agent-started-in-ad-monitor-pending-mode-email-alert)
+    [Enable Agent Started in AD Monitor Pending Mode Email Alert](/docs/threatprevention/7.4/threatprevention/admin/agents/safemode.md#enable-agent-started-in-ad-monitor-pending-mode-email-alert)
     topic and the
-    [Agent Safe Mode](/versioned_docs/threatprevention_7.4/threatprevention/admin/agents/safemode.md)
+    [Agent Safe Mode](/docs/threatprevention/7.4/threatprevention/admin/agents/safemode.md)
     topic for additional information.

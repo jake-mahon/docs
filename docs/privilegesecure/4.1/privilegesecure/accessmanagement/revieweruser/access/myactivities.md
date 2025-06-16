@@ -18,5 +18,5 @@ one Access Policy. When sorted by Access Policy, the list of resources displayed
 the resource list of the Access Policy.
 
 To create an Activity Session, click the **plus** button to begin. See the
-[Create Activity Session](/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/enduser/dashboard/createsession.md)
+[Create Activity Session](/docs/privilegesecure/4.1/privilegesecure/accessmanagement/enduser/dashboard/createsession.md)
 topic for additional information.

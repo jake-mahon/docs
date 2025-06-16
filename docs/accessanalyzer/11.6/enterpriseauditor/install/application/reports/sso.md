@@ -6,7 +6,7 @@ domain, the user will be prompted for credentials from a pop-up windows. After a
 user will be automatically logged in the Web Console.
 
 **NOTE:** The Web Console also supports using Microsoft Entra ID single sign-on. See the
-[Microsoft Entra ID Single Sign-On](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/install/application/reports/entraidsso.md)
+[Microsoft Entra ID Single Sign-On](/docs/accessanalyzer/11.6/enterpriseauditor/install/application/reports/entraidsso.md)
 topic for additional information.
 
 Follow the steps to enable single sign-on for the Web Console.

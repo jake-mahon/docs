@@ -22,7 +22,7 @@ becomes the **primary** server. Other federation servers you add to the farm wil
 **secondary** servers.
 
 Make sure you have Windows Remote Management properly configured on your Auditor console computer.
-See the [Software Requirements](/versioned_docs/auditor_10.6/auditor/requirements/software.md) topic
+See the [Software Requirements](/docs/auditor/10.6/auditor/requirements/software.md) topic
 for additional information.
 
 You can configure your IT Infrastructure for monitoring in one of the following ways:
@@ -61,7 +61,7 @@ You can configure your IT Infrastructure for monitoring in one of the following
 
     - Adjust log size and retention settings for **Security** log and for **AD FS Admin** log (under
       **Applications and Service logs**). See
-      [Adjusting Event Log Size and Retention Settings](/versioned_docs/auditor_10.6/auditor/configuration/windowsserver/eventlog.md)
+      [Adjusting Event Log Size and Retention Settings](/docs/auditor/10.6/auditor/configuration/windowsserver/eventlog.md)
       for details.
     - If AD FS Admin logging is disabled, you should enable it.
     - See the [Configure AD FS farm manually](#configure-ad-fs-farm-manually) topic for additional
@@ -117,7 +117,7 @@ server versions
 
 **Step 3 –** Adjust log size and retention settings for **Security** log and for **AD FS Admin** log
 (under **Applications and Service logs**). See the
-[Adjusting Event Log Size and Retention Settings](/versioned_docs/auditor_10.6/auditor/configuration/windowsserver/eventlog.md)
+[Adjusting Event Log Size and Retention Settings](/docs/auditor/10.6/auditor/configuration/windowsserver/eventlog.md)
 topic for additional information.
 
 If AD FS Admin logging is disabled, you should enable it.
@@ -125,10 +125,10 @@ If AD FS Admin logging is disabled, you should enable it.
 _Remember,_ do the following:
 
 - Configure Data Collecting Account as described in the
-  [Permissions for AD FS Auditing](/versioned_docs/auditor_10.6/auditor/configuration/activedirectoryfederatedservices/permissions.md)
+  [Permissions for AD FS Auditing](/docs/auditor/10.6/auditor/configuration/activedirectoryfederatedservices/permissions.md)
   topic.
 - Configure ports as described in the
-  [AD FS Ports](/versioned_docs/auditor_10.6/auditor/configuration/activedirectoryfederatedservices/ports.md)
+  [AD FS Ports](/docs/auditor/10.6/auditor/configuration/activedirectoryfederatedservices/ports.md)
   topic.
 
 ## AD FS Servers Data Collection

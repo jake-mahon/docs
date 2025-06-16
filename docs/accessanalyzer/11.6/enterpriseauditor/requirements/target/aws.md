@@ -11,7 +11,7 @@ Data Collector
 
 This solution employs the following data collector to scan the target environment:
 
-- [AWS Data Collector](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/aws/overview.md)
+- [AWS Data Collector](/docs/accessanalyzer/11.6/enterpriseauditor/admin/datacollector/aws/overview.md)
 
 ## Permissions
 
@@ -39,7 +39,7 @@ collected:
     - s3:List\*
 
 This provides a least privilege model for your auditing needs. See the
-[Configure AWS for Scans](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/requirements/target/config/aws.md)
+[Configure AWS for Scans](/docs/accessanalyzer/11.6/enterpriseauditor/requirements/target/config/aws.md)
 topic for additional information.
 
 ## Ports

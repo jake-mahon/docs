@@ -4,7 +4,7 @@ The Unix Data collector provides host inventory, software inventory, and logical
 UNIX & Linux platforms. The Unix Data Collector has been preconfigured within the Unix Solution.
 Both this data collector and the solution are available with a special Enterprise Auditor license.
 See the
-[Unix Solution](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/unix/overview.md)
+[Unix Solution](/docs/accessanalyzer/11.6/enterpriseauditor/solutions/unix/overview.md)
 topic for additional information.
 
 Protocols
@@ -21,7 +21,7 @@ Permissions
 - Root permissions in Unix/Linux
 
 If the Root permission is unavailable, a least privileged model can be used. See the
-[Least Privilege Model](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/requirements/target/unix.md#least-privilege-model)
+[Least Privilege Model](/docs/accessanalyzer/11.6/enterpriseauditor/requirements/target/unix.md#least-privilege-model)
 topic additional information.
 
 ## Unix Query Configuration
@@ -29,8 +29,8 @@ topic additional information.
 The Unix Data Collector is configured through the Unix Data Collector Wizard. It is designed to scan
 and import information from UNIX / Linux systems. The Unix Data Collector has these pages:
 
-- [Unix: Settings](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/unix/settings.md)
-- [Unix: Input](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/unix/input.md)
-- [Unix: Edit Script](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/unix/editscript.md)
-- [Unix: Parsing](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/unix/parsing.md)
-- [Unix: Results](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/unix/results.md)
+- [Unix: Settings](/docs/accessanalyzer/11.6/enterpriseauditor/admin/datacollector/unix/settings.md)
+- [Unix: Input](/docs/accessanalyzer/11.6/enterpriseauditor/admin/datacollector/unix/input.md)
+- [Unix: Edit Script](/docs/accessanalyzer/11.6/enterpriseauditor/admin/datacollector/unix/editscript.md)
+- [Unix: Parsing](/docs/accessanalyzer/11.6/enterpriseauditor/admin/datacollector/unix/parsing.md)
+- [Unix: Results](/docs/accessanalyzer/11.6/enterpriseauditor/admin/datacollector/unix/results.md)

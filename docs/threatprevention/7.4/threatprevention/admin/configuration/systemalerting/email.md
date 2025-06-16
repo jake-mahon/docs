@@ -165,7 +165,7 @@ can be removed, but partial tokens do not retrieve data from the database.
 
 Now that at least one Message Profile has been created, it can be assigned to an event either
 through the System Altering window’s Email tab or assigned to a policy on the
-[Actions Tab](/versioned_docs/threatprevention_7.4/threatprevention/admin/policies/actions/overview.md)
+[Actions Tab](/docs/threatprevention/7.4/threatprevention/admin/policies/actions/overview.md)
 of the policy configuration or the
-[Actions Tab](/versioned_docs/threatprevention_7.4/threatprevention/admin/templates/actions.md) of
+[Actions Tab](/docs/threatprevention/7.4/threatprevention/admin/templates/actions.md) of
 the template configuration.

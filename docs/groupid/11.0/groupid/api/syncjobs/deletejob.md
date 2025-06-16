@@ -4,8 +4,8 @@ After creating job, you can modify a job or even delete a job if it is no more r
 API to delete job(s) specified in the end point URL.
 
 See the
-[Deleting a Job](/versioned_docs/groupid_11.0/groupid/portal/synchronize/manage/job.md#deleting-a-job)
-section of the [Manage a Job](/versioned_docs/groupid_11.0/groupid/portal/synchronize/manage/job.md)
+[Deleting a Job](/docs/groupid/11.0/groupid/portal/synchronize/manage/job.md#deleting-a-job)
+section of the [Manage a Job](/docs/groupid/11.0/groupid/portal/synchronize/manage/job.md)
 topic for additional information.
 
 ## Endpoint
@@ -36,5 +36,5 @@ DELETE
 
 See Also
 
-- [Common Errors](/versioned_docs/groupid_11.0/groupid/api/commonerrors.md)
-- [Synchronize Jobs APIs](/versioned_docs/groupid_11.0/groupid/api/syncjobs/jobsapis.md)
+- [Common Errors](/docs/groupid/11.0/groupid/api/commonerrors.md)
+- [Synchronize Jobs APIs](/docs/groupid/11.0/groupid/api/syncjobs/jobsapis.md)

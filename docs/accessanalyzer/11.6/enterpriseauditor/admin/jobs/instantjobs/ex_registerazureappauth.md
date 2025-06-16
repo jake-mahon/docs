@@ -50,7 +50,7 @@ wish to place the EX_RegistureAzureApp job into).
 **Step 3 –** Install the EX_RegisterAzureAppAuth Job from the Instant Job Library under the Exchange
 General library. After installation, the job tree automatically refreshes with the new job available
 within the selected Job Group. See the
-[Instant Job Wizard](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/jobs/instantjobs/overview.md)
+[Instant Job Wizard](/docs/accessanalyzer/11.6/enterpriseauditor/admin/jobs/instantjobs/overview.md)
 topic for additional information.
 
 **Step 4 –** On the job description page, in the Configuration section, select the edit button for
@@ -87,5 +87,5 @@ Online scans. There will be a new Connection Profile for this Application. Resta
 Auditor Console and enter a password to use this Connection Profile.
 
 _Remember,_ the required rights and roles for Exchange Online still need to be configured. See the
-[Target Exchange Online Requirements, Permissions, and Ports](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/requirements/target/exchangeonline.md)
+[Target Exchange Online Requirements, Permissions, and Ports](/docs/accessanalyzer/11.6/enterpriseauditor/requirements/target/exchangeonline.md)
 topic for additional information.

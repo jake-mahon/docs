@@ -8,7 +8,7 @@ running the 1-AD_Scan Job, also located in the .Active Directory Inventory Job G
 
 The Configuration section on a Job's overview page allows you to easily modify any customizable
 parameters used by analysis tasks in the job. See the
-[Parameter Configuration](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/jobs/job/overview.md#parameter-configuration)
+[Parameter Configuration](/docs/accessanalyzer/11.6/enterpriseauditor/admin/jobs/job/overview.md#parameter-configuration)
 topic for instructions on how to edit parameters on a job overview page.
 
 The 3-AD_Exceptions Job has the following configurable parameters:
@@ -134,7 +134,7 @@ parameters:
 | Admin Historical SID | #ADMIN_GROUPS               | - Domain Admins - Enterprise Admins - Schema Admins | List of administrative groups                                         |
 
 See the
-[Configure the Customizable Parameters in an Analysis Task](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/jobs/job/configure/analysiscustomizableparameters.md)
+[Configure the Customizable Parameters in an Analysis Task](/docs/accessanalyzer/11.6/enterpriseauditor/admin/jobs/job/configure/analysiscustomizableparameters.md)
 topic for instructions to modify the parameters. See the
-[AD Exception Types Translated](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/adinventory/standardtables.md#ad-exception-types-translated)
+[AD Exception Types Translated](/docs/accessanalyzer/11.6/enterpriseauditor/admin/datacollector/adinventory/standardtables.md#ad-exception-types-translated)
 topic for an explanation of Exception Types.

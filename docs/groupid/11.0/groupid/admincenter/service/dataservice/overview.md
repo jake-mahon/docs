@@ -19,7 +19,7 @@ created within GroupIDSite11.
 Admin Center uses the default Data service and Security service; you cannot change this binding.
 
 To view the default services, see the
-[View Data Service Details](/versioned_docs/groupid_11.0/groupid/admincenter/service/dataservice/manage.md#view-data-service-details)
+[View Data Service Details](/docs/groupid/11.0/groupid/admincenter/service/dataservice/manage.md#view-data-service-details)
 topic.
 
 ## Why Create Multiple Data Services?
@@ -34,6 +34,6 @@ remote IIS, and Docker.
 
 See Also
 
-- [GroupID Applications](/versioned_docs/groupid_11.0/groupid/admincenter/portal/applications.md)
-- [Create a Data Service](/versioned_docs/groupid_11.0/groupid/admincenter/service/dataservice/create.md)
-- [Manage Data Service Settings](/versioned_docs/groupid_11.0/groupid/admincenter/service/dataservice/manage.md)
+- [GroupID Applications](/docs/groupid/11.0/groupid/admincenter/portal/applications.md)
+- [Create a Data Service](/docs/groupid/11.0/groupid/admincenter/service/dataservice/create.md)
+- [Manage Data Service Settings](/docs/groupid/11.0/groupid/admincenter/service/dataservice/manage.md)

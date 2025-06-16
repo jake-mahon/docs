@@ -4,10 +4,10 @@ This connector exports and fulfills entries from/to an [LDAP](https://ldap.com/)
 
 This page is about:
 
-- [Directory/Generic LDAP](/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/references-packages/generic-ldap/index.md);
-- [Directory/Oracle LDAP](/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/references-packages/oracle-ldap/index.md);
-- [Directory/Apache Directory](/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/references-packages/apache-directory/index.md);
-- [Directory/Red Hat Directory Server](/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/references-packages/red-hat-directory-server/index.md).
+- [Directory/Generic LDAP](/docs/usercube/6.1/usercube/integration-guide/connectors/references-packages/generic-ldap/index.md);
+- [Directory/Oracle LDAP](/docs/usercube/6.1/usercube/integration-guide/connectors/references-packages/oracle-ldap/index.md);
+- [Directory/Apache Directory](/docs/usercube/6.1/usercube/integration-guide/connectors/references-packages/apache-directory/index.md);
+- [Directory/Red Hat Directory Server](/docs/usercube/6.1/usercube/integration-guide/connectors/references-packages/red-hat-directory-server/index.md).
 
 ![Package: Directory/Generic LDAP](/img/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/references-connectors/ldap/packages_ldapgeneric_v603.webp)
 
@@ -25,7 +25,7 @@ mechanism for interacting with directory servers.
 ## Prerequisites
 
 Implementing this connector requires reading first the
-[appsettings documentation](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/appsettings-agent/index.md).
+[appsettings documentation](/docs/usercube/6.1/usercube/integration-guide/network-configuration/agent-configuration/appsettings-agent/index.md).
 
 ## Export
 
@@ -35,7 +35,7 @@ connector's configuration.
 ### Configuration
 
 This process is configured through a
-[connection](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/connectors/connection/index.md)
+[connection](/docs/usercube/6.1/usercube/integration-guide/toolkit/xml-configuration/connectors/connection/index.md)
 in the UI and/or the XML configuration, and in the `appsettings.agent.json > Connections` section:
 
 ```
@@ -141,13 +141,13 @@ The identifier of the connection and thus the name of the subsection must:
 ### Output details
 
 This connector is meant to generate to the
-[ExportOutput](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/appsettings/index.md)
+[ExportOutput](/docs/usercube/6.1/usercube/integration-guide/network-configuration/agent-configuration/appsettings/index.md)
 folder one file per element in **Tables**, named `<connectionIdentifier>_<tableName>.csv`, with one
 column for each property having a `ConnectionColumn` and each property without it but used in an
 entity association.
 
 Any property can be exported in a specific format when specified.
-[See more details](/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/entitypropertymapping-format/index.md).
+[See more details](/docs/usercube/6.1/usercube/integration-guide/connectors/entitypropertymapping-format/index.md).
 
 > With the previous example and the following entity type mapping:
 >
@@ -179,7 +179,7 @@ Any property can be exported in a specific format when specified.
 
 The LDAP connector fulfills the creation, deletion and update of LDAP entries, initiated through the
 Usercube UI or by
-[assignment policy enforcement](/versioned_docs/usercube_6.1/usercube/integration-guide/role-assignment/evaluate-policy/index.md).
+[assignment policy enforcement](/docs/usercube/6.1/usercube/integration-guide/role-assignment/evaluate-policy/index.md).
 
 ### Configuration
 
@@ -269,18 +269,18 @@ order, through the `ResourceType`'s `ArgumentsExpression`.
 
 ### Password reset
 
-[See how to configure password reset settings](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/appsettings-agent/index.md).
+[See how to configure password reset settings](/docs/usercube/6.1/usercube/integration-guide/network-configuration/agent-configuration/appsettings-agent/index.md).
 
 ### Credential protection
 
 Data protection can be ensured through:
 
-- [RSA encryption](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/rsa-encryption/index.md),
+- [RSA encryption](/docs/usercube/6.1/usercube/integration-guide/network-configuration/agent-configuration/rsa-encryption/index.md),
   configured in the `appsettings.encrypted.agent.json` file;
 - an
-  [Azure Key Vault](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/azure-key-vault/index.md)
+  [Azure Key Vault](/docs/usercube/6.1/usercube/integration-guide/network-configuration/agent-configuration/azure-key-vault/index.md)
   safe;
 
 - a
-  [CyberArk Vault](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/cyberark-application-access-manager-credential-providers/index.md)
+  [CyberArk Vault](/docs/usercube/6.1/usercube/integration-guide/network-configuration/agent-configuration/cyberark-application-access-manager-credential-providers/index.md)
   able to store LDAP's `Login`, `Password` and `Server`.

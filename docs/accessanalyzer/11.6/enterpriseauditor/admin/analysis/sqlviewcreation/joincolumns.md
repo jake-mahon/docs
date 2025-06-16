@@ -7,7 +7,7 @@ Input Source page.
 **NOTE:** The SQLViewCreation analysis module can join two tables, using a simple equi-join
 condition of two predicates. For composite joins with two or more tables using a conjunction of
 predicates, use the SQLscripting analysis module. See the
-[SQLscripting Analysis Module](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/analysis/sqlscripting.md) topic
+[SQLscripting Analysis Module](/docs/accessanalyzer/11.6/enterpriseauditor/admin/analysis/sqlscripting.md) topic
 for additional information.
 
 ![View and Table Creation Analysis Module wizard Join Columns page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/analysis/sqlviewcreation/joincolumns.webp)

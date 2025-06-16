@@ -6,9 +6,9 @@ Usercube provides a few options to protect sensitive data via RSA encryption.
 
 Sensitive data can be RSA encrypted by using Usercube's tools:
 
-- [`Usercube-Protect-X509JsonValue.exe`](/versioned_docs/usercube_6.1/usercube/integration-guide/executables/references/protect-x509jsonvalue/index.md)
+- [`Usercube-Protect-X509JsonValue.exe`](/docs/usercube/6.1/usercube/integration-guide/executables/references/protect-x509jsonvalue/index.md)
   to encrypt given values;
-- [`Usercube-Protect-X509JsonFile.exe`](/versioned_docs/usercube_6.1/usercube/integration-guide/executables/references/protect-x509jsonfile/index.md)
+- [`Usercube-Protect-X509JsonFile.exe`](/docs/usercube/6.1/usercube/integration-guide/executables/references/protect-x509jsonfile/index.md)
   to encrypt a whole file.
 
     The file encryption tool should be used only on files that contain only plain text values, not
@@ -30,7 +30,7 @@ The `appsettings.encrypted.json` file contains the `appsettings.json` file's sen
 values which are protected by RSA encryption.
 
 This file follows the exact same structure as the
-[server's configuration files](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/server-configuration/index.md).
+[server's configuration files](/docs/usercube/6.1/usercube/integration-guide/network-configuration/server-configuration/index.md).
 
 ### Read the Encrypted File
 

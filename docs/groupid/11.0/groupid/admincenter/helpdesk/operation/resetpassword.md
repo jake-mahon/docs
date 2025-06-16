@@ -7,7 +7,7 @@ NOTE: You can reset passwords of unenrolled users if (a) the **Reset Any Passwor
 been granted to your role and (b) the Helpdesk policy for your role is set to the unrestricted mode.
 
 Helpdesk users may have to authenticate end users before resetting their passwords. See the
-[Helpdesk Policy ](/versioned_docs/groupid_11.0/groupid/admincenter/helpdesk/overview.md#helpdesk-policy)
+[Helpdesk Policy ](/docs/groupid/11.0/groupid/admincenter/helpdesk/overview.md#helpdesk-policy)
 topic.
 
 What do you want to do?
@@ -20,7 +20,7 @@ What do you want to do?
 1. In Admin Center, click **Helpdesk** in the left pane.
 2. The **Helpdesk** page opens to the **Helpdesk Operations** tab. Locate your required user. To
    search for a user, see
-   the[Search Users](/versioned_docs/groupid_11.0/groupid/admincenter/helpdesk/operation/search.md)
+   the[Search Users](/docs/groupid/11.0/groupid/admincenter/helpdesk/operation/search.md)
    topic.
 3. Click the ellipsis button for the user and select **Reset Password**. For enrolled users, the
    **Reset Password** dialog box has two pages: **Authenticate** and **Reset**. Under the
@@ -28,7 +28,7 @@ What do you want to do?
    only the **Reset** page is available.  
    Use the **History** button to view user history, i.e., the actions performed on the user and by
    the user. This history is specific to helpdesk functions, as listed in the
-   [History in Helpdesk](/versioned_docs/groupid_11.0/groupid/admincenter/helpdesk/history.md)
+   [History in Helpdesk](/docs/groupid/11.0/groupid/admincenter/helpdesk/history.md)
    topic.
 4. The **Reset** page displays the user name, the identity store where this user resides, the last
    time the user changed his or her password, and the lock status of the account. In case the user
@@ -69,7 +69,7 @@ could be restricted to:
   before resetting their passwords. The Security Questions authentication type may be mandatory.
 
 See the
-[Helpdesk Policy](/versioned_docs/groupid_11.0/groupid/admincenter/securityrole/policy/helpdesk.md)
+[Helpdesk Policy](/docs/groupid/11.0/groupid/admincenter/securityrole/policy/helpdesk.md)
 topic.
 
 **To reset a password in restricted mode:**
@@ -77,13 +77,13 @@ topic.
 1. In Admin Center, click **Helpdesk** in the left pane.
 2. The **Helpdesk** page opens to the **Helpdesk Operations** tab. Locate your required user. To
    search for a user, see
-   the[Search Users](/versioned_docs/groupid_11.0/groupid/admincenter/helpdesk/operation/search.md)
+   the[Search Users](/docs/groupid/11.0/groupid/admincenter/helpdesk/operation/search.md)
    topic.
 3. Click the ellipsis button for the user and select **Reset Password**. The **Reset Password**
    dialog box has two pages: **Authenticate** and **Reset**.  
    Use the **History** button to view user history, i.e., the actions performed on the user and by
    the user. This history is specific to helpdesk functions, as listed in the
-   [History in Helpdesk](/versioned_docs/groupid_11.0/groupid/admincenter/helpdesk/history.md)
+   [History in Helpdesk](/docs/groupid/11.0/groupid/admincenter/helpdesk/history.md)
    topic.
 4. The **Authenticate** page displays the authentication type(s) the user's account is enrolled
    with. You could be restricted to authenticate the user according to the authentication policy
@@ -124,5 +124,5 @@ topic.
 
 **See Also**
 
-- [Helpdesk](/versioned_docs/groupid_11.0/groupid/admincenter/helpdesk/overview.md)
-- [Helpdesk Operations](/versioned_docs/groupid_11.0/groupid/admincenter/helpdesk/operation/overview.md)
+- [Helpdesk](/docs/groupid/11.0/groupid/admincenter/helpdesk/overview.md)
+- [Helpdesk Operations](/docs/groupid/11.0/groupid/admincenter/helpdesk/operation/overview.md)

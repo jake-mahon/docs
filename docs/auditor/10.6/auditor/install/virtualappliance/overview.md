@@ -24,8 +24,8 @@ environment.
 Review the following for additional information:
 
 - [Requirements to Deploy Virtual Appliance](#requirements-to-deploy-virtual-appliance)
-- [Import Virtual Machine from Image to VMware](/versioned_docs/auditor_10.6/auditor/install/virtualappliance/importvmware.md)
-- [Import Virtual Machine from Image to Hyper-V ](/versioned_docs/auditor_10.6/auditor/install/virtualappliance/importhyperv.md)
+- [Import Virtual Machine from Image to VMware](/docs/auditor/10.6/auditor/install/virtualappliance/importvmware.md)
+- [Import Virtual Machine from Image to Hyper-V ](/docs/auditor/10.6/auditor/install/virtualappliance/importhyperv.md)
 
 ## Available Configurations
 
@@ -59,7 +59,7 @@ The virtual appliance also contains Access Information Center for Auditor versio
 - Microsoft SQL Server Express Edition is only recommended for evaluation, PoC or small deployments.
   For production deployment planning in bigger environments, refer to requirements and
   recommendations listed in the
-  [Requirements for SQL Server to Store Audit Data](/versioned_docs/auditor_10.6/auditor/requirements/sqlserver.md)
+  [Requirements for SQL Server to Store Audit Data](/docs/auditor/10.6/auditor/requirements/sqlserver.md)
   section.
 
 ## Requirements to Deploy Virtual Appliance
@@ -68,7 +68,7 @@ This section lists supported virtualization platforms and default hardware confi
 for the virtual machine where Auditor virtual appliance will be deployed.
 
 The requirements below are sufficient for evaluation purposes only. See the
-[Requirements](/versioned_docs/auditor_10.6/auditor/requirements/overview.md) topic for additional
+[Requirements](/docs/auditor/10.6/auditor/requirements/overview.md) topic for additional
 information.
 
 ### Supported Platforms

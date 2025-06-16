@@ -31,13 +31,13 @@ Groups that are deleted by the Group Life Cycle job are considered to be logical
 deletes expired groups automatically based on the Group Life Cycle policy for the identity store.
 
 Logically deleted groups are moved to the
-[My Deleted Groups](/versioned_docs/groupid_11.0/groupid/portal/group/mydeletedgroups.md) page with
+[My Deleted Groups](/docs/groupid/11.0/groupid/portal/group/mydeletedgroups.md) page with
 the 'Deleted_' prefix added to their names. Such groups have all their attributes intact. As a
 result, a logically deleted group, when renewed, returns to the state it had at the time of
 deletion.
 
 See the
-[What Happens When a Group is Deleted](/versioned_docs/groupid_11.0/groupid/admincenter/identitystore/configure/directoryservice/groupexpirydeletion.md#what-happens-when-a-group-is-deleted)
+[What Happens When a Group is Deleted](/docs/groupid/11.0/groupid/admincenter/identitystore/configure/directoryservice/groupexpirydeletion.md#what-happens-when-a-group-is-deleted)
 topic for additional information on group deletion.
 
 ## Group Deletion Notifications
@@ -50,6 +50,6 @@ Deleted groups are locked for further operations until renewed.
 
 **See Also**
 
-- [Working with Groups](/versioned_docs/groupid_11.0/groupid/portal/group/manage/workingwithgroups.md)
-- [ Group Expiry and Deletion](/versioned_docs/groupid_11.0/groupid/admincenter/identitystore/configure/directoryservice/groupexpirydeletion.md)
-- [Manage Group Lifecycle Settings](/versioned_docs/groupid_11.0/groupid/admincenter/identitystore/configure/directoryservice/grouplifecycle.md)
+- [Working with Groups](/docs/groupid/11.0/groupid/portal/group/manage/workingwithgroups.md)
+- [ Group Expiry and Deletion](/docs/groupid/11.0/groupid/admincenter/identitystore/configure/directoryservice/groupexpirydeletion.md)
+- [Manage Group Lifecycle Settings](/docs/groupid/11.0/groupid/admincenter/identitystore/configure/directoryservice/grouplifecycle.md)

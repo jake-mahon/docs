@@ -7,16 +7,16 @@ within the past three (3) hours. It has the following cards:
 
 - Authentication Attacks – Number of authentication attacks that started in the specified timeframe,
   i.e., last three (3) hours. The value for this card is a hyperlink to the
-  [Authentication Attacks Dashboard](/versioned_docs/threatprevention_7.4/threatprevention/siemdashboard/qradar/dashboard/authenticationattacks.md).
+  [Authentication Attacks Dashboard](/docs/threatprevention/7.4/threatprevention/siemdashboard/qradar/dashboard/authenticationattacks.md).
 - AD Changes – Number of Active Directory changes recorded in the specified timeframe, i.e., last
   three (3) hours. The value for this card is a hyperlink to the
-  [AD Changes Dashboard](/versioned_docs/threatprevention_7.4/threatprevention/siemdashboard/qradar/dashboard/adchanges.md).
+  [AD Changes Dashboard](/docs/threatprevention/7.4/threatprevention/siemdashboard/qradar/dashboard/adchanges.md).
 - GPO Changes – Number of group policy object changes recorded in the specified timeframe, i.e.,
   last three (3) hours. The value for this card is a hyperlink to the
-  [GPO Monitoring Dashboard](/versioned_docs/threatprevention_7.4/threatprevention/siemdashboard/qradar/dashboard/gpomonitoring.md).
+  [GPO Monitoring Dashboard](/docs/threatprevention/7.4/threatprevention/siemdashboard/qradar/dashboard/gpomonitoring.md).
 - Administrator Events – Number of events related to Administrators that have been recorded in the
   specified timeframe, i.e., last three (3) hours. The value for this card is a hyperlink to the
-  [Administrator Auditing Dashboard](/versioned_docs/threatprevention_7.4/threatprevention/siemdashboard/qradar/dashboard/administratorauditing.md).
+  [Administrator Auditing Dashboard](/docs/threatprevention/7.4/threatprevention/siemdashboard/qradar/dashboard/administratorauditing.md).
 - Active Users – Number of distinct users who have been involved with events that have been recorded
   in the specified timeframe, i.e., past three (3) hours
 - Monitored Domains – Number of distinct domains involved with events that have been recorded in the
@@ -25,9 +25,9 @@ within the past three (3) hours. It has the following cards:
   last three (3) hours
 - Attacks by Type – Breakdown of authentication attacks that started within the last three (3) hours
   by type of attack. See the
-  [Graph Card Features](/versioned_docs/threatprevention_7.4/threatprevention/siemdashboard/qradar/navigate.md#graph-card-features)
+  [Graph Card Features](/docs/threatprevention/7.4/threatprevention/siemdashboard/qradar/navigate.md#graph-card-features)
   topic for additional information.
 - Active Directory Changes – Breakdown of Active Directory change events recorded in the specified
   timeframe, i.e., last three (3) hours. See the
-  [Graph Card Features](/versioned_docs/threatprevention_7.4/threatprevention/siemdashboard/qradar/navigate.md#graph-card-features)
+  [Graph Card Features](/docs/threatprevention/7.4/threatprevention/siemdashboard/qradar/navigate.md#graph-card-features)
   topic for additional information.

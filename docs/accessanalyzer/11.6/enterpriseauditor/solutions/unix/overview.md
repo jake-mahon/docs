@@ -17,7 +17,7 @@ Supported Platforms
 Requirements, Permissions, and Ports
 
 See the
-[Target Unix Requirements, Permissions, and Ports](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/requirements/target/unix.md)
+[Target Unix Requirements, Permissions, and Ports](/docs/accessanalyzer/11.6/enterpriseauditor/requirements/target/unix.md)
 topic for additional information.
 
 Location
@@ -35,17 +35,17 @@ Linux administration concepts.
 
 The job groups in the Unix Solution are:
 
-- [1.Users and Groups Job Group](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/unix/usersgroups/overview.md)
+- [1.Users and Groups Job Group](/docs/accessanalyzer/11.6/enterpriseauditor/solutions/unix/usersgroups/overview.md)
   – The jobs within this group provide visibility into users and groups, helping to pinpoint
   potential areas of administrative concern
-- [2.Privileged Access Job Group](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/unix/privilegedaccess/overview.md)
+- [2.Privileged Access Job Group](/docs/accessanalyzer/11.6/enterpriseauditor/solutions/unix/privilegedaccess/overview.md)
   – The jobs within this group provide visibility into privileged users within audited Unix and
   Linux environments by identifying all rights granted via sudoers and the owners of critical files
   such as passwd, shadow, sudoers, hosts.deny, and more
-- [3.Sharing Job Group](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/unix/sharing/overview.md)
+- [3.Sharing Job Group](/docs/accessanalyzer/11.6/enterpriseauditor/solutions/unix/sharing/overview.md)
   – Provides information on NFS and Samba share configuration, and highlights potentially high-risk
   shares
 
 Each job group within the Unix Solution is designed to run independently. See the
-[Recommended Configurations for the Unix Job Group](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/unix/recommended.md)
+[Recommended Configurations for the Unix Job Group](/docs/accessanalyzer/11.6/enterpriseauditor/solutions/unix/recommended.md)
 topic for information on frequency and job group settings.

@@ -4,7 +4,7 @@ Where required, Netwrix Change Tracker can also execute commands on the endpoint
 commands must be pre-approved for usage. All standard commands employed within Change Tracker
 Compliance Reports and the built-in Policy Templates are pre-approved but if you add any new
 commands these may require Admin approval. See the
-[Allowed Commands](/versioned_docs/changetracker_8.0/changetracker/admin/settings/allowedcommands.md)
+[Allowed Commands](/docs/changetracker/8.0/changetracker/admin/settings/allowedcommands.md)
 topic for additional information.
 
 - **Agent-Based Monitoring** – Where an Agent is being used for monitoring the commands will be

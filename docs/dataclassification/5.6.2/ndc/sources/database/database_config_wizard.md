@@ -66,4 +66,4 @@ When the database configuration has been completed you will be redirected to the
 Configuration, this allows you to define how the database will be crawled. It is possible to crawl
 either specific tables, or crawl custom queries (defined select statements, which may use JOIN
 statements across multiple tables).
-[See Database for more information.](/versioned_docs/dataclassification_5.6.2/ndc/sources/database/manage_database.md)
+[See Database for more information.](/docs/dataclassification/5.6.2/ndc/sources/database/manage_database.md)

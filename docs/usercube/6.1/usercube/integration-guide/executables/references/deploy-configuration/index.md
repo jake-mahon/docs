@@ -29,7 +29,7 @@ remote configuration:
 
 To be able to deploy a SaaS configuration, you must first provide your Usercube administrator with
 identity information.
-[See how to deploy a SaaS configuration](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/how-tos/deploy-configuration/index.md)
+[See how to deploy a SaaS configuration](/docs/usercube/6.1/usercube/integration-guide/toolkit/how-tos/deploy-configuration/index.md)
 for the first time.
 
 ## Arguments
@@ -60,7 +60,7 @@ for the first time.
 |                                           |                                                                                                                                                                                                                                                                        |
 | ---                                       | ---                                                                                                                                                                                                                                                                    |
 | --database-connection-string optional     | **Type** String **Description** Connection string of the database. **Note:** required when `--api-url` is not specified.                                                                                                                                               |
-| --product-translation optional            | **Type** No Value **Description** Path of the JSON file that contains the application's translations. [See more details on how to import the product's translations](/versioned_docs/usercube_6.1/usercube/integration-guide/ui/how-tos/producttranslations/index.md). |
+| --product-translation optional            | **Type** No Value **Description** Path of the JSON file that contains the application's translations. [See more details on how to import the product's translations](/docs/usercube/6.1/usercube/integration-guide/ui/how-tos/producttranslations/index.md). |
 | --scope optional                          | **Type** String **Description** Path of a folder or file to export/deploy, instead of exporting/deploying the whole configuration.                                                                                                                                     |
 |                                           |                                                                                                                                                                                                                                                                        |
 | ---                                       | ---                                                                                                                                                                                                                                                                    |

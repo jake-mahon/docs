@@ -174,7 +174,7 @@ steps from the output locations.
 All of the required FSAA certificates have been stored in the FSAA managed certificate stores. The
 FSAA queries need to be configured to use the **Manual** certificate exchange option. This option
 can be found under Applet Settings in the FSAA Data Collector Wizard. See the
-[FSAA: Applet Settings](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/fsaa/appletsettings.md)
+[FSAA: Applet Settings](/docs/accessanalyzer/11.6/enterpriseauditor/admin/datacollector/fsaa/appletsettings.md)
 topic for additional information.
 
 For additional information on how to use the `FSAACertificateManager.exe` tool, run the

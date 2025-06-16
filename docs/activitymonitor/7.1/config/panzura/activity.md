@@ -31,7 +31,7 @@ for monitoring. Additionally, the IP address of the port is 4497 by default and 
 the properties for the Agent.
 
 **NOTE:** See the
-[Panzura](/versioned_docs/activitymonitor_7.1/activitymonitor/admin/monitoredhosts/add/panzura.md)
+[Panzura](/docs/activitymonitor/7.1/activitymonitor/admin/monitoredhosts/add/panzura.md)
 topic for additional information on Panzura Host.
 
 To prepare Panzura CloudFS for monitoring, auditing must be enabled.

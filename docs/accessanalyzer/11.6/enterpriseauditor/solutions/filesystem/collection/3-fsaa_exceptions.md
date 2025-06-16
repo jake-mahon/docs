@@ -7,7 +7,7 @@ returned by the Access Auditing collection jobs to identify potential security c
 
 The Configuration section on a Job's overview page allows you to easily modify any customizable
 parameters used by analysis tasks in the job. See the
-[Parameter Configuration](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/jobs/job/overview.md#parameter-configuration)
+[Parameter Configuration](/docs/accessanalyzer/11.6/enterpriseauditor/admin/jobs/job/overview.md#parameter-configuration)
 topic for instructions on how to edit parameters on a job overview page.
 
 The 3-FSAA Exceptions job has the following customizable parameter:
@@ -35,7 +35,7 @@ The following analysis tasks are selected by default:
 
     - Well known high risk SIDS have been set in the `#SIDS` parameter. Do not remove these, but
       additional custom SIDS can be added. See the
-      [Configure the Customizable Parameters in an Analysis Task](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/jobs/job/configure/analysiscustomizableparameters.md)
+      [Configure the Customizable Parameters in an Analysis Task](/docs/accessanalyzer/11.6/enterpriseauditor/admin/jobs/job/configure/analysiscustomizableparameters.md)
       topic for additional information.
 
 - Disabled users – Any folders where disabled users have been granted access

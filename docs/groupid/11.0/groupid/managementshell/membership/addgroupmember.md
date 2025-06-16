@@ -36,7 +36,7 @@ Example 1:
 
 The following command adds the user **Brian Regan** to the membership of the **Event Management**
 group using the credentials set in the **$Credentials** environment variable. See the
-[Set the $Credentials Environment Variable](/versioned_docs/groupid_11.0/groupid/managementshell/parameters/setthecredential.md)
+[Set the $Credentials Environment Variable](/docs/groupid/11.0/groupid/managementshell/parameters/setthecredential.md)
 topic for setting credentials in an environment variable.
 
 ```
@@ -48,7 +48,7 @@ Example 2:
 The following command gets all users from the **Local Recruiting** container and adds them to the
 membership of the **Event Management** group. For detailed information about the Get-Object
 commandlet, see
-[Get-Object](/versioned_docs/groupid_11.0/groupid/managementshell/membership/getobject.md). The
+[Get-Object](/docs/groupid/11.0/groupid/managementshell/membership/getobject.md). The
 **OUT-NULL** commandlet is used here to restrict the retrieved users information from appearing on
 the console.
 
@@ -58,6 +58,6 @@ Get-Object -SearchContainer "OU=Local Recruiting,OU=Recruiting,DC=HR,DC=Imanami,
 
 See Also
 
-- [All Commands](/versioned_docs/groupid_11.0/groupid/managementshell/commands.md)
-- [Membership Commands](/versioned_docs/groupid_11.0/groupid/managementshell/membership/overview.md)
-- [Parameters](/versioned_docs/groupid_11.0/groupid/managementshell/parameters/parameters.md)
+- [All Commands](/docs/groupid/11.0/groupid/managementshell/commands.md)
+- [Membership Commands](/docs/groupid/11.0/groupid/managementshell/membership/overview.md)
+- [Parameters](/docs/groupid/11.0/groupid/managementshell/parameters/parameters.md)

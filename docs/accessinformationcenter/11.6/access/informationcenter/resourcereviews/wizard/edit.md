@@ -1,7 +1,7 @@
 # Edit Review Wizard
 
 The Edit Review wizard is opened with the **Edit** button on the Resource Reviews interface. See the
-[Manage Reviews Page](/versioned_docs/accessinformationcenter_11.6/access/informationcenter/resourcereviews/interface.md#manage-reviews-page)
+[Manage Reviews Page](/docs/accessinformationcenter/11.6/access/informationcenter/resourcereviews/interface.md#manage-reviews-page)
 topic for additional information.
 
 ![Edit Review wizard](/img/versioned_docs/accessinformationcenter_11.6/access/informationcenter/resourcereviews/wizard/reviewtype.webp)
@@ -33,7 +33,7 @@ edited.
 - Notify the review creator when resources are reviewed — When selected, an email is sent to the
   review creator when the review has been completed by the resource owner. If the review contains
   multiple resources, an email is sent when each resource is reviewed. See the
-  [Resource Reviewed Email](/versioned_docs/accessinformationcenter_11.6/access/informationcenter/resourcereviews/email/resourcereviewed.md)
+  [Resource Reviewed Email](/docs/accessinformationcenter/11.6/access/informationcenter/resourcereviews/email/resourcereviewed.md)
   topic for additional information.
 
 **NOTE:** If creating a Sensitive Data review, continue to Step 3. For all other review types, skip
@@ -89,12 +89,12 @@ or removing parent resources from the review also adds or removes their children
 - Select the desired resource(s) and click **Add**. The **View Selections** button indicates how
   many resources have been selected. Click the button to open the Selected Resources window, where
   you can view and modify the selections. See the
-  [Selected Resources Window](/versioned_docs/accessinformationcenter_11.6/access/informationcenter/resourcereviews/window/selectedresources.md)
+  [Selected Resources Window](/docs/accessinformationcenter/11.6/access/informationcenter/resourcereviews/window/selectedresources.md)
   topic for additional information.
 - Alternatively you can import a list of resources from a CSV file. Click the **Import** button and
   then select the CSV file. A message displays if items are not found or not valid for the review.
   Any valid resources are selected and can be viewed in the Selected Resources window.  See the
-  [Missing Items Window](/versioned_docs/accessinformationcenter_11.6/access/informationcenter/resourcereviews/window/missingitems.md)
+  [Missing Items Window](/docs/accessinformationcenter/11.6/access/informationcenter/resourcereviews/window/missingitems.md)
   topic for additional information
 
     The CSV file must use the following format for the resources:

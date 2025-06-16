@@ -71,7 +71,7 @@ mailboxes that you wish to crawl. This requires the setup of two permissions:
 If you plan to implement the scenario that involves modern authentication, you should do the
 following:
 
-1. [Create Azure AD app for Modern Authentication](/versioned_docs/dataclassification_5.6.2/ndc/config_infrastructure/create_azureapp_exchangeonline_mfa.md)
+1. [Create Azure AD app for Modern Authentication](/docs/dataclassification/5.6.2/ndc/config_infrastructure/create_azureapp_exchangeonline_mfa.md)
 2. Configure
-   [Exchange Server](/versioned_docs/dataclassification_5.6.2/ndc/sources/exchange_mailbox/exchange_server.md)
+   [Exchange Server](/docs/dataclassification/5.6.2/ndc/sources/exchange_mailbox/exchange_server.md)
    source settings.

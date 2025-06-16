@@ -25,7 +25,7 @@ Console.
 - Synchronize Now button — Scans the domain for users, groups, members, and computers. The Cancel
   button, which is only visible when scanning can be used to stop the resource scan. This scan can
   also be scheduled from the
-  [Platforms Page](/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/policy/page/platforms/overview.md).
+  [Platforms Page](/docs/privilegesecure/4.1/privilegesecure/accessmanagement/admin/policy/page/platforms/overview.md).
 - Service Account — Displays the service account associated with the resource
 -   - Visit icon — Go to the Service Account page to view details of the selected service account.
     - Add New Service Account icon — Open the Add New Service Account window. The fields are
@@ -34,5 +34,5 @@ Console.
 **Step 4 –** Click **Save** to add the Microsoft Entra ID Tenant to the console.
 
 The new Microsoft Entra ID tenant has been on-boarded. See the
-[Microsoft Entra ID Details Page](/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/policy/page/details/entraid.md)
+[Microsoft Entra ID Details Page](/docs/privilegesecure/4.1/privilegesecure/accessmanagement/admin/policy/page/details/entraid.md)
 topic for additional information.

@@ -22,12 +22,12 @@ blocked.
 After enabling an Exchange login blocking policy, mail clients with existing connections to Outlook,
 OWA, PowerShell, EWS, ECP, and ActiveSync will not be blocked while the existing connection remains.
 See the
-[Exchange Lockdown Considerations](/versioned_docs/threatprevention_7.4/threatprevention/troubleshooting/exchangelockdown.md)
+[Exchange Lockdown Considerations](/docs/threatprevention/7.4/threatprevention/troubleshooting/exchangelockdown.md)
 topic for information on resolving this.
 
 **NOTE:** There are additional factors to consider in order to block delegations through Outlook.
 See the
-[Troubleshooting FAQs](/versioned_docs/threatprevention_7.4/threatprevention/troubleshooting/overview.md#troubleshooting-faqs)
+[Troubleshooting FAQs](/docs/threatprevention/7.4/threatprevention/troubleshooting/overview.md#troubleshooting-faqs)
 topic for additional information.
 
 ## Exchange Event Filter
@@ -63,9 +63,9 @@ specific objects or containers from being locked down.
 Select the **Include** or **Exclude** button and then edit the list.
 
 - The **Add** (+) button opens the
-  [Select Exchange Objects from Active Directory Window](/versioned_docs/threatprevention_7.4/threatprevention/admin/policies/eventtype/window/selectactivedirectory/exchangeobjects.md).
+  [Select Exchange Objects from Active Directory Window](/docs/threatprevention/7.4/threatprevention/admin/policies/eventtype/window/selectactivedirectory/exchangeobjects.md).
 - The Collection button opens the
-  [List of Collections Window](/versioned_docs/threatprevention_7.4/threatprevention/admin/configuration/collectionmanager/listcollections.md)
+  [List of Collections Window](/docs/threatprevention/7.4/threatprevention/admin/configuration/collectionmanager/listcollections.md)
   to the appropriate Collection category.
 - The Remove (x) button deletes the selected item(s) from that box.
 
@@ -83,9 +83,9 @@ Select the **Block** or **Allow** option button and then edit the list.
 Use the buttons in the Trustees and Collections of Trustees areas to edit the lists.
 
 - The Trustees **Add** (+) button opens the
-  [Select Active Directory Trustees Window](/versioned_docs/threatprevention_7.4/threatprevention/admin/policies/eventtype/window/selectactivedirectory/trustees.md).
+  [Select Active Directory Trustees Window](/docs/threatprevention/7.4/threatprevention/admin/policies/eventtype/window/selectactivedirectory/trustees.md).
 - The Collection button opens the
-  [List of Collections Window](/versioned_docs/threatprevention_7.4/threatprevention/admin/configuration/collectionmanager/listcollections.md)
+  [List of Collections Window](/docs/threatprevention/7.4/threatprevention/admin/configuration/collectionmanager/listcollections.md)
   to the appropriate Collection category.
 - The Remove (x) button deletes the selected item(s) from that box.
 
@@ -167,15 +167,15 @@ Both the checkboxes and the option buttons have their own set of Block or Allow 
 Use the buttons in the Perpetrators and Collections of Perpetrators areas to edit the lists.
 
 - The Perpetrators Add (+) button opens the
-  [Select Active Directory Perpetrators Window](/versioned_docs/threatprevention_7.4/threatprevention/admin/policies/eventtype/window/selectactivedirectory/perpetrators.md).
+  [Select Active Directory Perpetrators Window](/docs/threatprevention/7.4/threatprevention/admin/policies/eventtype/window/selectactivedirectory/perpetrators.md).
 - The Collection button opens the
-  [List of Collections Window](/versioned_docs/threatprevention_7.4/threatprevention/admin/configuration/collectionmanager/listcollections.md)
+  [List of Collections Window](/docs/threatprevention/7.4/threatprevention/admin/configuration/collectionmanager/listcollections.md)
   to the appropriate Collection category.
 - The Remove (x) button deletes the selected item(s) from that box.
 
 **NOTE:** To enable a Dynamic Policy, use the Collection button to select the desired Dynamic
 Collection. See the
-[Dynamic Collections](/versioned_docs/threatprevention_7.4/threatprevention/admin/configuration/collectionmanager/dynamic.md)
+[Dynamic Collections](/docs/threatprevention/7.4/threatprevention/admin/configuration/collectionmanager/dynamic.md)
 topic for additional information.
 
 ## Rule Preview Filter

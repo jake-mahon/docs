@@ -25,9 +25,9 @@ The SendMail Action module is configured through the SendMail Action Module Wiza
 the following wizard pages:
 
 - Welcome
-- [SendMail Action: Properties](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/action/sendmail/properties.md)
-- [SendMail Action: Message](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/action/sendmail/message.md)
-- [SendMail Action: Summary](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/action/sendmail/summary.md)
+- [SendMail Action: Properties](/docs/accessanalyzer/11.6/enterpriseauditor/admin/action/sendmail/properties.md)
+- [SendMail Action: Message](/docs/accessanalyzer/11.6/enterpriseauditor/admin/action/sendmail/message.md)
+- [SendMail Action: Summary](/docs/accessanalyzer/11.6/enterpriseauditor/admin/action/sendmail/summary.md)
 
 The Welcome page displays first and gives an overview of the action module. The navigation pane
 contains links to the pages in the wizard.

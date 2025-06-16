@@ -19,7 +19,7 @@ also have the Allow access requests option selected.
 **_RECOMMENDED:_** When deploying the Access Information Center in an organization to enable
 Self-Service Access Requests, notifications should be sent to assigned owners as well as domain
 users. See the
-[Owner Confirmation Request Email](/versioned_docs/accessinformationcenter_11.6/access/informationcenter/resourceowners/email/confirmationrequest.md)
+[Owner Confirmation Request Email](/docs/accessinformationcenter/11.6/access/informationcenter/resourceowners/email/confirmationrequest.md)
 topic for additional information.
 
 The Your Access portal provides domain users with the ability to view current access to managed
@@ -31,7 +31,7 @@ Home page. Domain users without an Access Information Center user role who are a
 owners navigate to the Your Access portal with the My Access link in the Owner portal. Domain users
 without an Access Information Center role and who are not assigned resource ownership are directed
 to the Your Access portal at login. See the
-[Your Access Portal Overview](/versioned_docs/accessinformationcenter_11.6/access/informationcenter/accessrequests/youraccessportal/overview.md)
+[Your Access Portal Overview](/docs/accessinformationcenter/11.6/access/informationcenter/accessrequests/youraccessportal/overview.md)
 topic for additional information.
 
 Who Can Manage Self-Service Access Requests (Request Administrators)?
@@ -46,7 +46,7 @@ Who Participates in Self-Service Access Requests?
 - Request Administrators — Manage requests and nudge owners to respond to pending requests
 
 See the
-[Access Requests Interface](/versioned_docs/accessinformationcenter_11.6/access/informationcenter/accessrequests/interface.md)
+[Access Requests Interface](/docs/accessinformationcenter/11.6/access/informationcenter/accessrequests/interface.md)
 section for information.
 
 ## Workflow of Self-Service Access Requests
@@ -55,29 +55,29 @@ Prerequisites:
 
 - Self-Service Access License
 - Access Information Center configured to send Notifications. See the
-  [Notifications Page](/versioned_docs/accessinformationcenter_11.6/access/informationcenter/admin/configuration/notifications.md)
+  [Notifications Page](/docs/accessinformationcenter/11.6/access/informationcenter/admin/configuration/notifications.md)
   topic for additional information.
 
     **NOTE:** By default, the Access Information Center is configured to send notifications only to
     the primary owner. However, this can be customized to send notifications to all assigned owners.
     See the
-    [Notifications Page](/versioned_docs/accessinformationcenter_11.6/access/informationcenter/admin/configuration/notifications.md)
+    [Notifications Page](/docs/accessinformationcenter/11.6/access/informationcenter/admin/configuration/notifications.md)
     topic for additional information.
 
 - Access Information Center configured to commit AD changes
 - Resources and groups must be known to the Access Information Center, having been audited by
   Enterprise Auditor
 - Owners assigned to resources within the Resource Owners interface. See the
-  [Resource Owners Overview](/versioned_docs/accessinformationcenter_11.6/access/informationcenter/resourceowners/overview.md)
+  [Resource Owners Overview](/docs/accessinformationcenter/11.6/access/informationcenter/resourceowners/overview.md)
   topic for additional information.
 - Resource is configured to Allow access requests when it is assigned an owner. See the
-  [Add New Resource Wizard](/versioned_docs/accessinformationcenter_11.6/access/informationcenter/resourceowners/wizard/add.md)
+  [Add New Resource Wizard](/docs/accessinformationcenter/11.6/access/informationcenter/resourceowners/wizard/add.md)
   and
-  [Update Resource Wizard](/versioned_docs/accessinformationcenter_11.6/access/informationcenter/resourceowners/wizard/update.md)
+  [Update Resource Wizard](/docs/accessinformationcenter/11.6/access/informationcenter/resourceowners/wizard/update.md)
   topics for additional information.
 - Access groups configured within the environment for resources to be managed through the Access
   Information Center. See the
-  [Access Groups](/versioned_docs/accessinformationcenter_11.6/access/informationcenter/resourceowners/accessgroups.md)
+  [Access Groups](/docs/accessinformationcenter/11.6/access/informationcenter/resourceowners/accessgroups.md)
   topic for additional information.
 
 Workflow:
@@ -105,6 +105,6 @@ groups. Netwrix recommends notifying them with the following information:
       or directly to the Access Information Center website.
 
 - How to access the instructions on how to submit access requests. You can link to the
-  [Your Access Portal Overview](/versioned_docs/accessinformationcenter_11.6/access/informationcenter/accessrequests/youraccessportal/overview.md)
+  [Your Access Portal Overview](/docs/accessinformationcenter/11.6/access/informationcenter/accessrequests/youraccessportal/overview.md)
   topic or download that topic and its subtopics as a PDF and make it available within your
   corporate resources

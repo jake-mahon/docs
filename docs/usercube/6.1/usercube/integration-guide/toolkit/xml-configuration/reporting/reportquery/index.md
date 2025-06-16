@@ -2,7 +2,7 @@
 
 Allows the user to define queries to generate a report in a CSV file. When creating a new
 ReportQuery it is recommended to also create the linked
-[MenuItem](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/user-interface/menuitem/index.md).
+[MenuItem](/docs/usercube/6.1/usercube/integration-guide/toolkit/xml-configuration/user-interface/menuitem/index.md).
 
 ## Examples
 

@@ -25,7 +25,7 @@ options:
     - Safe Mode – If selected, the Agent checks LSASS versions on start up. Any changes in LSASS
       since the previous start prevents the Windows AD Events monitoring module from loading. See
       the
-      [Agent Safe Mode](/versioned_docs/threatprevention_7.4/threatprevention/admin/agents/safemode.md)
+      [Agent Safe Mode](/docs/threatprevention/7.4/threatprevention/admin/agents/safemode.md)
       topic for additional information.
     - EM IP Address/Name – Displays the IP address of the machine where Enterprise Manager is
       installed

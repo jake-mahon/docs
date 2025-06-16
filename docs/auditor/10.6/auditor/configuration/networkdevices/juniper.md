@@ -45,7 +45,7 @@ To configure you Juniper devices, do the following:
 
     `<port number>` is the name of the UDP port used to listen to network devices (514 port used by
     default).
-    [Network Devices](/versioned_docs/auditor_10.6/auditor/admin/monitoringplans/networkdevices.md)
+    [Network Devices](/docs/auditor/10.6/auditor/admin/monitoringplans/networkdevices.md)
 
     # set system syslog time-format `<current year>`
 

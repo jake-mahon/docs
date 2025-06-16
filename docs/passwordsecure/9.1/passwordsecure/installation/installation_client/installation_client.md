@@ -3,7 +3,7 @@
 ## Guide
 
 The MSI installation files and the associated
-[Client configuration](/versioned_docs/passwordsecure_9.1/passwordsecure/installation/requirements/client_configuration.md)
+[Client configuration](/docs/passwordsecure/9.1/passwordsecure/installation/requirements/client_configuration.md)
 can be found in the corresponding sections. The following step-by-step guide will accompany you
 through the wizards.
 

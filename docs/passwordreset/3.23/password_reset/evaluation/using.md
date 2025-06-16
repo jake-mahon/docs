@@ -19,5 +19,5 @@ Password Policy Enforcer Evaluator's Guide will help you to install and configur
 Enforcer if you are not currently using it.
 
 An Password Reset license does not include a Password Policy Enforcer license. See
-[Administration](/versioned_docs/passwordreset_3.23/password_policy_enforcer/administration/administration_overview.md)
+[Administration](/docs/passwordreset/3.23/password_policy_enforcer/administration/administration_overview.md)
 in Password Policy Enforcer topic for additional information.

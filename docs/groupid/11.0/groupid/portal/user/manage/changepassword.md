@@ -53,5 +53,5 @@ GroupID.
 
 **See Also**
 
-- [Access Portal](/versioned_docs/groupid_11.0/groupid/portal/login.md)
-- [Dashboard](/versioned_docs/groupid_11.0/groupid/portal/dashboard.md)
+- [Access Portal](/docs/groupid/11.0/groupid/portal/login.md)
+- [Dashboard](/docs/groupid/11.0/groupid/portal/dashboard.md)

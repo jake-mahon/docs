@@ -71,4 +71,4 @@ minutes.
 
 **See Also**
 
-- [Group Ownership Functions](/versioned_docs/groupid_11.0/groupid/portal/group/manage/groupownershipfunction.md)
+- [Group Ownership Functions](/docs/groupid/11.0/groupid/portal/group/manage/groupownershipfunction.md)

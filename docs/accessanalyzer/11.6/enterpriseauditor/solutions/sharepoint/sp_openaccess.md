@@ -14,11 +14,11 @@ vulnerability. The SP_OpenAccess Job will identify places in the environment whe
 be accessed by a very large amount of employees.
 
 It is dependent on data collected by the
-[SharePoint Access Auditing](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/sharepoint/collection/overview.md#sharepoint-access-auditing)
+[SharePoint Access Auditing](/docs/accessanalyzer/11.6/enterpriseauditor/solutions/sharepoint/collection/overview.md#sharepoint-access-auditing)
 or
-[SharePoint Sensitive Data Discovery Auditing (SEEK)](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/sharepoint/collection/overview.md#sharepoint-sensitive-data-discovery-auditing-seek)
+[SharePoint Sensitive Data Discovery Auditing (SEEK)](/docs/accessanalyzer/11.6/enterpriseauditor/solutions/sharepoint/collection/overview.md#sharepoint-sensitive-data-discovery-auditing-seek)
 components of the
-[0.Collection Job Group](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/sharepoint/collection/overview.md).
+[0.Collection Job Group](/docs/accessanalyzer/11.6/enterpriseauditor/solutions/sharepoint/collection/overview.md).
 
 ## Analysis Tasks for the SP_OpenAccess Job
 

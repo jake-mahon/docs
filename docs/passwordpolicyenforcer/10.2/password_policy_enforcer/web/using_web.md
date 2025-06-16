@@ -18,7 +18,7 @@ You can also include the username and/or domain in the URL:
 
 **_RECOMMENDED:_** Install the SSL Certificate the web server and use the HTTPS protocol if Password
 Policy Enforcer/Web will be used on an unencrypted network. See the
-[Installing and Using an SSL Certificate](/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/web/securing_web.md#installing-and-using-an-sslcertificate)
+[Installing and Using an SSL Certificate](/docs/passwordpolicyenforcer/10.2/password_policy_enforcer/web/securing_web.md#installing-and-using-an-sslcertificate)
 topic for additional information.
 
 **NOTE:** A license reminder message is shown occasionally when Password Policy Enforcer/Web is used
@@ -60,5 +60,5 @@ error message, but most critical errors are beyond the user's control.
 
 Validation and critical error messages are stored in the HTML templates. You can modify the default
 messages by editing the templates. See the
-[Editing HTML Templates](/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/web/editing_html_templates.md)
+[Editing HTML Templates](/docs/passwordpolicyenforcer/10.2/password_policy_enforcer/web/editing_html_templates.md)
 topic for additional information.

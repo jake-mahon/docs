@@ -18,7 +18,7 @@ Follow the steps to add activity groups to the console.
 **Step 5 –** With the new activity group selected, configure the following settings:
 
 - Add activities to the activity group. See the
-  [Add Activities Window](/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/policy/window/activities/addactivities.md)
+  [Add Activities Window](/docs/privilegesecure/4.1/privilegesecure/accessmanagement/admin/policy/window/activities/addactivities.md)
   topic for additional information.
 
 The new activity group is added to the console and is shown in the Activity Groups list.

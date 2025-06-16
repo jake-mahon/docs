@@ -1,16 +1,16 @@
 # Configure a User Profile
 
 How to tweak the
-[permissions](/versioned_docs/usercube_6.1/usercube/integration-guide/profiles-permissions/permissions/index.md)
+[permissions](/docs/usercube/6.1/usercube/integration-guide/profiles-permissions/permissions/index.md)
 for actions within Usercube, for a set of basic
-[profiles](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/access-control/assignedprofile/index.md).
+[profiles](/docs/usercube/6.1/usercube/integration-guide/toolkit/xml-configuration/access-control/assignedprofile/index.md).
 
 ## Overview
 
 All the permissions for accessing items and performing actions in Usercube are managed by assigning
-[profiles](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/access-control/assignedprofile/index.md)
+[profiles](/docs/usercube/6.1/usercube/integration-guide/toolkit/xml-configuration/access-control/assignedprofile/index.md)
 to users and
-[permissions](/versioned_docs/usercube_6.1/usercube/integration-guide/profiles-permissions/permissions/index.md)
+[permissions](/docs/usercube/6.1/usercube/integration-guide/profiles-permissions/permissions/index.md)
 to profiles.
 
 ![Schema - Profile Assignment](/img/versioned_docs/usercube_6.1/usercube/user-guide/set-up/user-profile-configuration/profiles_schema.webp)
@@ -23,14 +23,14 @@ We define here a permission as an entitlement within Usercube.
 Permissions can be about:
 
 - administration, which gives access to
-  [administration](/versioned_docs/usercube_6.1/usercube/user-guide/administrate/index.md) actions,
+  [administration](/docs/usercube/6.1/usercube/user-guide/administrate/index.md) actions,
   accessible in the **Administration** section on the home page;
 - directory, which gives access to users' data (with several available levels of access), and also
   any other data accessible in the **Directory** section on the home page;
 - workflows, which gives access to actions for users' lifecycle (onboarding-movement-offboarding),
   through the workflows provided by Usercube within the **Directory** pages;
 - reports, which gives access to Usercube's
-  [predefined reports](/versioned_docs/usercube_6.1/usercube/user-guide/administrate/reporting/index.md)
+  [predefined reports](/docs/usercube/6.1/usercube/user-guide/administrate/reporting/index.md)
   about workforce.
 - notifications, which enables notification reception when specific workflows are launched.
 
@@ -50,7 +50,7 @@ A user can have up to 10 assigned profiles.
 
 The goal here is to create profiles and link specific permissions to the profiles, in order to build
 a set of typical profiles that will later be
-[assigned to power users](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/user-profile-assignment/index.md).
+[assigned to power users](/docs/usercube/6.1/usercube/user-guide/set-up/user-profile-assignment/index.md).
 Instead of assigning permissions one by one to users, you will assign them sets of permissions (i.e.
 profiles).
 
@@ -71,7 +71,7 @@ Integrators must have the knowledge of the organization strategy towards the IGA
 
 | Input                                                                                                                         | Output        |
 | ----------------------------------------------------------------------------------------------------------------------------- | ------------- |
-| [Identity repository](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/initial-identities-loading/index.md) (required) | User profiles |
+| [Identity repository](/docs/usercube/6.1/usercube/user-guide/set-up/initial-identities-loading/index.md) (required) | User profiles |
 
 ## Configure a User Profile
 
@@ -109,9 +109,9 @@ Configure a user profile by proceeding as follows:
 
 Before you can see the profile in action, it needs to be assigned to a user.
 
-[See these instructions for assigning profiles to users](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/user-profile-assignment/index.md).
+[See these instructions for assigning profiles to users](/docs/usercube/6.1/usercube/user-guide/set-up/user-profile-assignment/index.md).
 
 ## Next Steps
 
 Once user profiles are configured, integrators can start
-[configuring onboarding workflows](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/connect-system/index.md).
+[configuring onboarding workflows](/docs/usercube/6.1/usercube/user-guide/set-up/connect-system/index.md).

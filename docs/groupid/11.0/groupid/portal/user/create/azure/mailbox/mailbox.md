@@ -27,9 +27,9 @@ What do you want to do?
 
 NOTE: If the GroupID administrator has specified the mailbox creation action for review, your
 changes will not take effect until verified by an approver. See the
-[Requests](/versioned_docs/groupid_11.0/groupid/portal/request/overview.md) topic.
+[Requests](/docs/groupid/11.0/groupid/portal/request/overview.md) topic.
 
 See Also
 
-- [Directory Search](/versioned_docs/groupid_11.0/groupid/portal/search/search.md)
-- [User Properties](/versioned_docs/groupid_11.0/groupid/portal/user/properties/overview.md)
+- [Directory Search](/docs/groupid/11.0/groupid/portal/search/search.md)
+- [User Properties](/docs/groupid/11.0/groupid/portal/user/properties/overview.md)

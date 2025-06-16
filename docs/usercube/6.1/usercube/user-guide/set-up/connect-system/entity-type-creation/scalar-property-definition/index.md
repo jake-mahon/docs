@@ -1,7 +1,7 @@
 # Define Scalar Properties
 
 How to define the simple, or scalar, properties of an
-[entity type](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/metadata/entitytype/index.md)'s
+[entity type](/docs/usercube/6.1/usercube/integration-guide/toolkit/xml-configuration/metadata/entitytype/index.md)'s
 resources.
 
 ## Overview
@@ -37,7 +37,7 @@ any property from the AD, but will be recalculated based on the other properties
 Define the entity type's scalar properties by proceeding as follows:
 
 1. Start by
-   [declaring the entity type](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/connect-system/entity-type-creation/entity-type-declaration/index.md).
+   [declaring the entity type](/docs/usercube/6.1/usercube/user-guide/set-up/connect-system/entity-type-creation/entity-type-declaration/index.md).
 2. In the entity type's **Properties** section, click on **Map scalar properties** to display
    existing columns from the external source, and select the properties to be used in the entity
    type.
@@ -63,7 +63,7 @@ Define the entity type's scalar properties by proceeding as follows:
         - `Format`: format used for the property's display in Usercube, for search tools and
           computation based on said property. Do not keep the default string format if the property
           is not a string.
-          [See more details on available formats](/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/entitypropertymapping-format/index.md).
+          [See more details on available formats](/docs/usercube/6.1/usercube/integration-guide/connectors/entitypropertymapping-format/index.md).
 
             > For example, dates, booleans, integers, etc.
 
@@ -105,7 +105,7 @@ Define the entity type's scalar properties by proceeding as follows:
       will be displayed with the property among users' data.
     - **Source Expression**: expression that defines the property based on at least one source
       object. Can be defined by a property path and/or an
-      [expression](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/expressions/index.md).
+      [expression](/docs/usercube/6.1/usercube/integration-guide/toolkit/expressions/index.md).
 
         > For example, `isUnused` is created to spot unused accounts via a combination of
         > `accountExpires` and `lastLogonTimestamp`:
@@ -113,7 +113,7 @@ Define the entity type's scalar properties by proceeding as follows:
         > ![Advanced Settings](/img/versioned_docs/usercube_6.1/usercube/user-guide/set-up/connect-system/entity-type-creation/scalar-property-definition/entitytypecreation_sourceexpressionexample_v60.webp)
 
     - `Flexible Comparison Expression`: expression that inserts adaptable
-      [comparison flexibility](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/provisioning-rule-creation/index.md)
+      [comparison flexibility](/docs/usercube/6.1/usercube/user-guide/set-up/provisioning-rule-creation/index.md)
       when using a searchbar for the property.
     - `History Precision`: time period over which Usercube historically records only one value.
 
@@ -145,7 +145,7 @@ You can find the **Reload** button either on the green warning, or on the connec
 ## Next Steps
 
 Before saving, you must first
-[choose the entity type's keys](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/connect-system/entity-type-creation/key-selection/index.md)
+[choose the entity type's keys](/docs/usercube/6.1/usercube/user-guide/set-up/connect-system/entity-type-creation/key-selection/index.md)
 from among scalar properties.
 
 ## Troubleshooting

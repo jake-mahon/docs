@@ -81,7 +81,7 @@ The Data service runs within a virtual directory in remote IIS while the service
 physically located on disk.
 
 To learn about the remote IIS settings and configurations before deploying a service there, see the
-[Prerequisites for Deployments in Remote IIS](/versioned_docs/groupid_11.0/groupid/admincenter/portal/remoteiisprerequisites.md)
+[Prerequisites for Deployments in Remote IIS](/docs/groupid/11.0/groupid/admincenter/portal/remoteiisprerequisites.md)
 topic.
 
 **To create a Data service:**
@@ -96,7 +96,7 @@ topic.
    deployment name are displayed on the service card.
 7. To enter information for **API URL**, **Access Token**, **Username**, **Password**, **IIS
    Application Name**, and **Website**, refer to steps 7-11 in the
-   [Create a Portal in Remote IIS](/versioned_docs/groupid_11.0/groupid/admincenter/portal/create.md#create-a-portal-in-remote-iis)
+   [Create a Portal in Remote IIS](/docs/groupid/11.0/groupid/admincenter/portal/create.md#create-a-portal-in-remote-iis)
    topic. Replace any reference to the portal with the Data service.
 8. For entering information in the **Service Endpoints** area, follow steps 9 in the
    [Create a Data Service in Native IIS](#create-a-data-service-in-native-iis) topic.
@@ -110,7 +110,7 @@ running on a Docker deamon in your environment, so that GroupID can create a con
 service there and run the service from within that container.
 
 For an overview on application deployment in Docker, see the
-[Prerequisites for Deployments in Docker](/versioned_docs/groupid_11.0/groupid/admincenter/portal/dockerprerequisites.md)
+[Prerequisites for Deployments in Docker](/docs/groupid/11.0/groupid/admincenter/portal/dockerprerequisites.md)
 topic.
 
 NOTE: To host the Data service, Docker daemon should be configured to run Windows containers.
@@ -127,7 +127,7 @@ NOTE: To host the Data service, Docker daemon should be configured to run Window
    deployment name are displayed on the service card.
 7. To enter information for **Port**, **Service URL**, and **Container Name**, refer to steps 7-9 in
    the
-   [Create a Portal in Docker](/versioned_docs/groupid_11.0/groupid/admincenter/portal/create.md#create-a-portal-in-docker)
+   [Create a Portal in Docker](/docs/groupid/11.0/groupid/admincenter/portal/create.md#create-a-portal-in-docker)
    topic. Replace any reference to the portal with the Data service.
 8. For entering information in the **Service Endpoints** area, follow step 9 in the
    [Create a Data Service in Native IIS](#create-a-data-service-in-native-iis) topic.
@@ -136,6 +136,6 @@ NOTE: To host the Data service, Docker daemon should be configured to run Window
 
 **See Also**
 
-- [GroupID Applications](/versioned_docs/groupid_11.0/groupid/admincenter/portal/applications.md)
-- [Data Service](/versioned_docs/groupid_11.0/groupid/admincenter/service/dataservice/overview.md)
-- [Manage Data Service Settings](/versioned_docs/groupid_11.0/groupid/admincenter/service/dataservice/manage.md)
+- [GroupID Applications](/docs/groupid/11.0/groupid/admincenter/portal/applications.md)
+- [Data Service](/docs/groupid/11.0/groupid/admincenter/service/dataservice/overview.md)
+- [Manage Data Service Settings](/docs/groupid/11.0/groupid/admincenter/service/dataservice/manage.md)

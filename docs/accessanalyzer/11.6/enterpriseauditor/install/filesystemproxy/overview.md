@@ -23,7 +23,7 @@ default using HTTPSÂ requests.
 The version of the proxy service must match the major version of Enterprise Auditor.
 
 See the
-[File System Solution](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/requirements/solutions/filesystem.md)
+[File System Solution](/docs/accessanalyzer/11.6/enterpriseauditor/requirements/solutions/filesystem.md)
 topic for information on the required prerequisites.
 
 ## Supported Platforms
@@ -89,7 +89,7 @@ installation wizard is also added to the Enterprise Auditor Connection Profile a
 System Solution.
 
 See the
-[File System Proxy Service Installation](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/install/filesystemproxy/wizard.md)
+[File System Proxy Service Installation](/docs/accessanalyzer/11.6/enterpriseauditor/install/filesystemproxy/wizard.md)
 topic for additional information.
 
 ![Diagram of Enterprise Auditor server communicating securely with the proxy service on a proxy server](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/install/filesystemproxy/proxymodeasservicewithsecurerpc.webp)
@@ -116,7 +116,7 @@ The proxy functionality for the FSAA Data Collector provides security and reliab
 _Remember,_ It is recommended that the File System Proxy Service is installed on the proxy server
 before running File System scans in proxy mode as a service. Once installed, the FileSystemAccess
 (FSAA) Data Collector must be configured to use the service. See the
-[File System Data Collection Configuration for Proxy as a Service](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/install/filesystemproxy/configuredatacollector.md)
+[File System Data Collection Configuration for Proxy as a Service](/docs/accessanalyzer/11.6/enterpriseauditor/install/filesystemproxy/configuredatacollector.md)
 topic for additional information.
 
 ## Sensitive Data Discovery Auditing Consideration
@@ -125,7 +125,7 @@ Sensitive Data Discovery Auditing scans also require the Sensitive Data Add-on â
 Agentless (or x86) version of the Sensitive Data Discovery Add-On be installed on the proxy server.
 This requirement is in addition to having the Sensitive Data Discovery Add-on installed on the
 Enterprise Auditor Console server. See the
-[Sensitive Data Discovery Add-On Installation](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/install/sensitivedatadiscovery/overview.md)
+[Sensitive Data Discovery Add-On Installation](/docs/accessanalyzer/11.6/enterpriseauditor/install/sensitivedatadiscovery/overview.md)
 topic for additional information.
 
 **NOTE:** If running Sensitive Data Discovery (SDD) scans, it will be necessary to increase the

@@ -69,4 +69,4 @@ After this verification process, you can use the certificate Thumbprint in Group
 
 See Also
 
-- [Registration and Permissions Assignment](/versioned_docs/groupid_11.0/groupid/configureentraid/register/appregister.md)
+- [Registration and Permissions Assignment](/docs/groupid/11.0/groupid/configureentraid/register/appregister.md)

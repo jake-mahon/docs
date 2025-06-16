@@ -7,7 +7,7 @@ For adding and managing content sources, use the **Content Configuration**→Sou
 Netwrix Data Classification management console.
 
 **IMPORTANT!** To access the **Sources** area, users require sufficient rights. See the
-[User Management](/versioned_docs/dataclassification_5.6.2/ndc/security/user_management.md) section
+[User Management](/docs/dataclassification/5.6.2/ndc/security/user_management.md) section
 for more information.
 
 You can manage the individual content sources or organize them into source groups, which are used as
@@ -17,6 +17,6 @@ logical containers.
 
 See next:
 
-- [Add a Content Source](/versioned_docs/dataclassification_5.6.2/ndc/sources/adding_source.md)
+- [Add a Content Source](/docs/dataclassification/5.6.2/ndc/sources/adding_source.md)
 - Manage Sources
-- [Manage Sources and Control Data Processing](/versioned_docs/dataclassification_5.6.2/ndc/sources/sources_manage.md)
+- [Manage Sources and Control Data Processing](/docs/dataclassification/5.6.2/ndc/sources/sources_manage.md)

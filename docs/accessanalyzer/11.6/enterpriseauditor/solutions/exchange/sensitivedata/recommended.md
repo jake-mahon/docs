@@ -32,11 +32,11 @@ through host inventory results.
 Connection Profile
 
 A Connection Profile must be set directly on jobs within the 0.Collection job group. See the
-[Exchange Web Services API Permissions](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/requirements/solutions/exchange/webservicesapi.md)
+[Exchange Web Services API Permissions](/docs/accessanalyzer/11.6/enterpriseauditor/requirements/solutions/exchange/webservicesapi.md)
 topic for the EX_PFInfo job requirements.
 
 See the
-[Connection](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/settings/connection/overview.md)
+[Connection](/docs/accessanalyzer/11.6/enterpriseauditor/admin/settings/connection/overview.md)
 topic for additional information.
 
 Schedule Frequency

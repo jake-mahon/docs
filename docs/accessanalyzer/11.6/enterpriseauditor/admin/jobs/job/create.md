@@ -24,8 +24,8 @@ considerations for naming conventions:
   length. See the Microsoft article referenced above.
 
 The new job is now ready to be configured. See the
-[Data Collectors](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/overview.md),
-[Analysis Modules](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/analysis/overview.md),
-[Action Modules](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/action/overview.md),
-and [Reporting](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/report/overview.md)
+[Data Collectors](/docs/accessanalyzer/11.6/enterpriseauditor/admin/datacollector/overview.md),
+[Analysis Modules](/docs/accessanalyzer/11.6/enterpriseauditor/admin/analysis/overview.md),
+[Action Modules](/docs/accessanalyzer/11.6/enterpriseauditor/admin/action/overview.md),
+and [Reporting](/docs/accessanalyzer/11.6/enterpriseauditor/admin/report/overview.md)
 topics for additional information.

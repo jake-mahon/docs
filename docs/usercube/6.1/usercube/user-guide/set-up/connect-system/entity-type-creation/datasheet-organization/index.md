@@ -20,9 +20,9 @@ alphabetic order.
 Organize resources' datasheets by proceeding as follows:
 
 1. Start by creating the entity type with its
-   [scalar properties](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/connect-system/entity-type-creation/scalar-property-definition/index.md)
+   [scalar properties](/docs/usercube/6.1/usercube/user-guide/set-up/connect-system/entity-type-creation/scalar-property-definition/index.md)
    and
-   [keys](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/connect-system/entity-type-creation/key-selection/index.md).
+   [keys](/docs/usercube/6.1/usercube/user-guide/set-up/connect-system/entity-type-creation/key-selection/index.md).
 2. Ensure that the created properties are saved by clicking on **Save & Close** > **Save** at the
    top right corner.
 3. On the entity type's definition page, click on the **Display** tab.
@@ -56,7 +56,7 @@ Organize resources' datasheets by proceeding as follows:
 6. Click on **Save & Close**.
 
     Changes in display groups won't take effect until the next
-    [`Update-EntityPropertyExpressionsTask`](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/jobs/tasks/server/updateentitypropertyexpressionstask/index.md)
+    [`Update-EntityPropertyExpressionsTask`](/docs/usercube/6.1/usercube/integration-guide/toolkit/xml-configuration/jobs/tasks/server/updateentitypropertyexpressionstask/index.md)
     runs.
 
 ## Reload

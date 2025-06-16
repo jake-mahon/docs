@@ -4,10 +4,10 @@
 
 For any information about Jobs or Tasks:
 
-- [Data model: Jobs](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/jobs/index.md)
-- [Execute Jobs](/versioned_docs/usercube_6.1/usercube/integration-guide/tasks-jobs/jobs/index.md)
-- [information about all Tasks](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/jobs/tasks/index.md)
-- [Information about Jobs](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/jobs/job/index.md)
+- [Data model: Jobs](/docs/usercube/6.1/usercube/integration-guide/toolkit/xml-configuration/jobs/index.md)
+- [Execute Jobs](/docs/usercube/6.1/usercube/integration-guide/tasks-jobs/jobs/index.md)
+- [information about all Tasks](/docs/usercube/6.1/usercube/integration-guide/toolkit/xml-configuration/jobs/tasks/index.md)
+- [Information about Jobs](/docs/usercube/6.1/usercube/integration-guide/toolkit/xml-configuration/jobs/job/index.md)
 
 #### a. Powershell
 
@@ -75,16 +75,16 @@ connectors too before importing configuration.
 This API no longer exists in version 5.1. To launch a Task on the server side you must use either:
 
 - The automaton (by creating a Job and linking the Tasks you want to launch)
-- The [RunTask API](/versioned_docs/usercube_6.1/usercube/integration-guide/api/server/job/index.md)
+- The [RunTask API](/docs/usercube/6.1/usercube/integration-guide/api/server/job/index.md)
 
 #### d. Information system appsettings
 
 All the information of the information system is on this file:
-[appsettings.ConnectionInformation.json](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/appsettings-agent/index.md).
+[appsettings.ConnectionInformation.json](/docs/usercube/6.1/usercube/integration-guide/network-configuration/agent-configuration/appsettings-agent/index.md).
 To launch Tasks that need to connect to this system and that are launched with the automaton, you
 must enter this information in this file.
 
 #### f. Encryption appsettings.ConnectionInformation.json
 
 All data from external systems is in a JSON that can be encrypted with an RSA key. Encrypt this with
-[Usercube-Protect-X509JsonFile](/versioned_docs/usercube_6.1/usercube/integration-guide/executables/references/protect-x509jsonfile/index.md)
+[Usercube-Protect-X509JsonFile](/docs/usercube/6.1/usercube/integration-guide/executables/references/protect-x509jsonfile/index.md)

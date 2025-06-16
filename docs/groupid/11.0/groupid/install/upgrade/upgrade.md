@@ -172,7 +172,7 @@ Follow the steps to upgrade.
 
 See Also
 
-- [Installation Tool](/versioned_docs/groupid_11.0/groupid/install/installer/install.md)
-- [Configuration Tool](/versioned_docs/groupid_11.0/groupid/install/configure/configure.md)
-- [Uninstall GroupID](/versioned_docs/groupid_11.0/groupid/install/uninstall.md)
-- [Notes on Upgrade](/versioned_docs/groupid_11.0/groupid/install/upgrade/notes.md)
+- [Installation Tool](/docs/groupid/11.0/groupid/install/installer/install.md)
+- [Configuration Tool](/docs/groupid/11.0/groupid/install/configure/configure.md)
+- [Uninstall GroupID](/docs/groupid/11.0/groupid/install/uninstall.md)
+- [Notes on Upgrade](/docs/groupid/11.0/groupid/install/upgrade/notes.md)

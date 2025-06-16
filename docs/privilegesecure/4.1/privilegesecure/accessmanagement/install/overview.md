@@ -3,7 +3,7 @@
 These topics describes the installation and initial configuration process of Netwrix Privilege
 Secure. Prior to installing Privilege Secure, ensure that all installation requirements have been
 met. See the
-[Requirements](/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/requirements/overview.md)
+[Requirements](/docs/privilegesecure/4.1/privilegesecure/accessmanagement/requirements/overview.md)
 topic for additional information.
 
 Privilege Secure comes with a temporary 30-day license. Please contact the organization’s sales
@@ -58,7 +58,7 @@ on activity:
   the Privilege Secure Proxy service and sends the Windows events back to the application. It
   specifically monitors what windows are opened and what menus are selected during an RDP session.
   See the
-  [Install Remote Desktop Monitor Service on Target RDP Hosts](/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/install/rdpmonitor.md)
+  [Install Remote Desktop Monitor Service on Target RDP Hosts](/docs/privilegesecure/4.1/privilegesecure/accessmanagement/install/rdpmonitor.md)
   topic for additional information.
 
 ## Single Privilege Secure Server

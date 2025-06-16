@@ -13,5 +13,5 @@ The following options are available:
   equal to, or less than the value provided.
 - Advanced Criteria – Use the Filter Builder to create custom triggers when a value meets the
   defined conditions. See the
-  [Advanced Search](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/navigate/datagrid.md#advanced-search)
+  [Advanced Search](/docs/accessanalyzer/11.6/enterpriseauditor/admin/navigate/datagrid.md#advanced-search)
   topic for additional information.

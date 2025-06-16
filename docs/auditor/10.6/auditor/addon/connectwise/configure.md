@@ -59,7 +59,7 @@ settings you specified: _C:\Addon\ITSM_CW\ConnectWiseSettings.xml_.
 ![summary](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/adinventory/summary.webp)
 
 If needed, you can edit the configuration file manually. See the
-[Connection and Ticketing Settings](/versioned_docs/auditor_10.6/auditor/addon/connectwise/connectionticketingsettings.md)
+[Connection and Ticketing Settings](/docs/auditor/10.6/auditor/addon/connectwise/connectionticketingsettings.md)
 topic for additional information.
 
 Click **Finish** to restart the add-on service so that the changes can take effect.

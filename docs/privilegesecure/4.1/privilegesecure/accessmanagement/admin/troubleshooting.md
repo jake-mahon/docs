@@ -10,7 +10,7 @@ troubleshooting the application.
 
 The Toolkit is available to download as a .zip file from the Privilege Secure installer's Extras
 folder. See the
-[Install Components & Methods](/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/install/components.md)
+[Install Components & Methods](/docs/privilegesecure/4.1/privilegesecure/accessmanagement/install/components.md)
 topic for additional information.
 
 ## Prerequisites

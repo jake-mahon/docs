@@ -5,13 +5,13 @@ This connector exports data from one of various
 
 This page is about:
 
-- [Database/Generic SQL](/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/references-packages/generic-sql/index.md);
-- [Database/Microsoft SQL Server](/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/references-packages/sql-server/index.md);
-- [Database/MySQL](/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/references-packages/mysql/index.md);
-- [Database/ODBC](/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/references-packages/odbc/index.md);
-- [Database/Oracle](/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/references-packages/oracle-database/index.md);
-- [Database/PostgreSQL](/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/references-packages/postgresql/index.md);
-- [Database/SAP ASE](/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/references-packages/sapase/index.md).
+- [Database/Generic SQL](/docs/usercube/6.1/usercube/integration-guide/connectors/references-packages/generic-sql/index.md);
+- [Database/Microsoft SQL Server](/docs/usercube/6.1/usercube/integration-guide/connectors/references-packages/sql-server/index.md);
+- [Database/MySQL](/docs/usercube/6.1/usercube/integration-guide/connectors/references-packages/mysql/index.md);
+- [Database/ODBC](/docs/usercube/6.1/usercube/integration-guide/connectors/references-packages/odbc/index.md);
+- [Database/Oracle](/docs/usercube/6.1/usercube/integration-guide/connectors/references-packages/oracle-database/index.md);
+- [Database/PostgreSQL](/docs/usercube/6.1/usercube/integration-guide/connectors/references-packages/postgresql/index.md);
+- [Database/SAP ASE](/docs/usercube/6.1/usercube/integration-guide/connectors/references-packages/sapase/index.md).
 
 ![Package: Directory/Database/Generic SQL](/img/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/references-connectors/sql/packages_sqlgeneric_v603.webp)
 
@@ -60,7 +60,7 @@ This connector exports the content of any table from an SQL database and writes 
 ### Configuration
 
 This process is configured through a
-[connection](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/connectors/connection/index.md)
+[connection](/docs/usercube/6.1/usercube/integration-guide/toolkit/xml-configuration/connectors/connection/index.md)
 in the UI and/or the XML configuration, and in the `appsettings.agent.json > Connections` section:
 
 ```
@@ -107,8 +107,8 @@ The identifier of the connection and thus the name of the subsection must:
 | Timeout optional                              | **Type** Int32 **Description** Time period (in seconds) after which the request attempt is terminated and an error is generated.                                                                                                                                                                                                                                                                   |
 |                                               |                                                                                                                                                                                                                                                                                                                                                                                                    |
 | ---                                           | ---                                                                                                                                                                                                                                                                                                                                                                                                |
-| SqlCommand optional                           | **Type** String **Description** SQL request to be executed. **Note:** when not specified and `SqlFile` neither, then all the [entity type mappings](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/connectors/entitytypemapping/index.md) of this connector will be exported.                                                                                   |
-| SqlFile optional                              | **Type** String **Description** Path of the file containing the SQL request to be executed. **Note:** ignored when `SqlCommand` is specified. **Note:** when not specified and `SqlFile` neither, then all the [entity type mappings](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/connectors/entitytypemapping/index.md) of this connector will be exported. |
+| SqlCommand optional                           | **Type** String **Description** SQL request to be executed. **Note:** when not specified and `SqlFile` neither, then all the [entity type mappings](/docs/usercube/6.1/usercube/integration-guide/toolkit/xml-configuration/connectors/entitytypemapping/index.md) of this connector will be exported.                                                                                   |
+| SqlFile optional                              | **Type** String **Description** Path of the file containing the SQL request to be executed. **Note:** ignored when `SqlCommand` is specified. **Note:** when not specified and `SqlFile` neither, then all the [entity type mappings](/docs/usercube/6.1/usercube/integration-guide/toolkit/xml-configuration/connectors/entitytypemapping/index.md) of this connector will be exported. |
 | CsvEncoding default value: UTF-8              | **Type** String **Description** Encoding of the file. [See the list of available encodings](https://learn.microsoft.com/en-us/dotnet/api/system.text.encoding#see-the-list-of-available-encodings).                                                                                                                                                                                                |
 | ProviderClassFullName optional                | **Type** String **Description** Invariant name to register the provider. **Note:** required when querying a DBMS other than Microsoft SQL Server.                                                                                                                                                                                                                                                  |
 | ProviderDllName optional                      | **Type** String **Description** DLL, i.e. name and extension, to be loaded by the connector. **Note:** the DLL must be in the `Runtime` folder. **Note:** required when querying a DBMS other than Microsoft SQL Server.                                                                                                                                                                           |
@@ -127,7 +127,7 @@ Connect to a DBMS other than Microsoft SQL Server by proceeding as follows:
 3. Get the value required for `ProviderClassFullName` and `ProviderDllName`:
 
     - for a DBMS handled by Usercube's packages, by accessing the
-      [package page](/versioned_docs/usercube_6.1/usercube/integration-guide/connectors/references-packages/index.md);
+      [package page](/docs/usercube/6.1/usercube/integration-guide/connectors/references-packages/index.md);
 
         > For MySQL:
         >
@@ -186,7 +186,7 @@ Connect to a DBMS other than Microsoft SQL Server by proceeding as follows:
 ### Output details
 
 This connector is meant to generate to the
-[ExportOutput](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/appsettings/index.md)
+[ExportOutput](/docs/usercube/6.1/usercube/integration-guide/network-configuration/agent-configuration/appsettings/index.md)
 folder one CSV file, named `<connectionIdentifier>.csv` whose columns correspond to the columns
 returned by the SQL query.
 
@@ -204,10 +204,10 @@ This connector does not reset passwords.
 
 Data protection can be ensured through:
 
-- [RSA encryption](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/rsa-encryption/index.md),
+- [RSA encryption](/docs/usercube/6.1/usercube/integration-guide/network-configuration/agent-configuration/rsa-encryption/index.md),
   configured in the `appsettings.encrypted.agent.json` file;
 - an
-  [Azure Key Vault](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/azure-key-vault/index.md)
+  [Azure Key Vault](/docs/usercube/6.1/usercube/integration-guide/network-configuration/agent-configuration/azure-key-vault/index.md)
   safe;
 
 | Attribute             | Naming Convention for the Key in Azure Key Vault   |
@@ -220,5 +220,5 @@ Data protection can be ensured through:
 | ProviderDllName       | `Connections--<identifier>--ProviderDllName`       |
 | Timeout               | `Connections--<identifier>--Timeout`               |
 
-[CyberArk](/versioned_docs/usercube_6.1/usercube/integration-guide/network-configuration/agent-configuration/cyberark-application-access-manager-credential-providers/index.md)
+[CyberArk](/docs/usercube/6.1/usercube/integration-guide/network-configuration/agent-configuration/cyberark-application-access-manager-credential-providers/index.md)
 is not available for this connector.

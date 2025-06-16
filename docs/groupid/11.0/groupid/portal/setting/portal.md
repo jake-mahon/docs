@@ -50,7 +50,7 @@ language. However, a user can opt to receive notifications in a different langua
 the language settings from the **User Settings** panel in the portal.
 
 However, there are a few exceptions to it. See the
-[Localization](/versioned_docs/groupid_11.0/groupid/admincenter/notification/overview.md#localization)
+[Localization](/docs/groupid/11.0/groupid/admincenter/notification/overview.md#localization)
 topic for more information.
 
 1. Click the **Settings** icon at the top of the page.
@@ -91,9 +91,9 @@ Set the number of history items to display on the History tab. This tab is displ
 the properties for a User, Group, Contact or Mailbox.
 
 This setting also controls the number of history items displayed on the
-[My History](/versioned_docs/groupid_11.0/groupid/portal/history/myhistory.md),
-[My Direct Reports' History](/versioned_docs/groupid_11.0/groupid/portal/history/mydirectreport.md),
-and [My Groups' History](/versioned_docs/groupid_11.0/groupid/portal/history/mydirectorygroup.md)
+[My History](/docs/groupid/11.0/groupid/portal/history/myhistory.md),
+[My Direct Reports' History](/docs/groupid/11.0/groupid/portal/history/mydirectreport.md),
+and [My Groups' History](/docs/groupid/11.0/groupid/portal/history/mydirectorygroup.md)
 pages.
 
 1. Click the **Settings** icon at the top of the page.
@@ -234,9 +234,9 @@ You can reset the settings on the **User Settings** panel to their default value
 
 **See Also**
 
-- [My History](/versioned_docs/groupid_11.0/groupid/portal/history/myhistory.md)
-- [My Groups' History](/versioned_docs/groupid_11.0/groupid/portal/history/mydirectorygroup.md)
-- [My Groups](/versioned_docs/groupid_11.0/groupid/portal/group/mygroups.md)
-- [My Expiring Groups](/versioned_docs/groupid_11.0/groupid/portal/group/myexpiringgroups.md)
-- [My Expired Groups](/versioned_docs/groupid_11.0/groupid/portal/group/myexpiredgroups.md)
-- [My Deleted Groups](/versioned_docs/groupid_11.0/groupid/portal/group/mydeletedgroups.md)
+- [My History](/docs/groupid/11.0/groupid/portal/history/myhistory.md)
+- [My Groups' History](/docs/groupid/11.0/groupid/portal/history/mydirectorygroup.md)
+- [My Groups](/docs/groupid/11.0/groupid/portal/group/mygroups.md)
+- [My Expiring Groups](/docs/groupid/11.0/groupid/portal/group/myexpiringgroups.md)
+- [My Expired Groups](/docs/groupid/11.0/groupid/portal/group/myexpiredgroups.md)
+- [My Deleted Groups](/docs/groupid/11.0/groupid/portal/group/mydeletedgroups.md)

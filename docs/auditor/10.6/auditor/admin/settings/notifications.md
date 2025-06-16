@@ -29,7 +29,7 @@ etc., and click Modify to adjust them if necessary.
 
 You can configure Activity Summary frequency, format and delivery time for each monitoring plan
 individually. See
-[Fine-Tune Your Plan and Edit Settings](/versioned_docs/auditor_10.6/auditor/admin/monitoringplans/finetune.md)
+[Fine-Tune Your Plan and Edit Settings](/docs/auditor/10.6/auditor/admin/monitoringplans/finetune.md)
 for more information.
 
 After that, you can specify the recipient who will receive product activity and health summary
@@ -50,5 +50,5 @@ Follow the steps to send summary emails and notifications about critical events:
 To learn more about product health, you can also navigate to the Health status tile in the main
 window. It will take you to the Health Status dashboard that contains information on the product
 activity and system health state. See the
-[Health Status Dashboard](/versioned_docs/auditor_10.6/auditor/admin/healthstatus/dashboard/overview.md)
+[Health Status Dashboard](/docs/auditor/10.6/auditor/admin/healthstatus/dashboard/overview.md)
 topic for additional information.

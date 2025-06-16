@@ -60,7 +60,7 @@ Health Status dashboard.
 
 To estimate the amount of activity records collected and stored to the repository day by day, use
 the
-[Activity Records Statistics](/versioned_docs/auditor_10.6/auditor/admin/healthstatus/dashboard/activityrecordstatistics.md)
+[Activity Records Statistics](/docs/auditor/10.6/auditor/admin/healthstatus/dashboard/activityrecordstatistics.md)
 widget. Click View details to see how many activity records were produced by each data source,
 collected and saved to the Long-Term Archive and to the database.
 
@@ -102,7 +102,7 @@ The custom account must be granted the following rights and permissions:
 
     Subscriptions created in the Auditor client  are uploaded to file servers under the Long-Term
     Archive service account as well. See the
-    [Subscriptions](/versioned_docs/auditor_10.6/auditor/admin/subscriptions/overview.md) topic for
+    [Subscriptions](/docs/auditor/10.6/auditor/admin/subscriptions/overview.md) topic for
     additional information.
 
 ### Assign Permissions on the Long-Term Archive Folder
@@ -186,5 +186,5 @@ and the remaining free space on the target drive.
 
 To open the Long-Term Archive settings, click the corresponding link. Then you will be able to
 adjust the settings as necessary. See the
-[Long-Term Archive](/versioned_docs/auditor_10.6/auditor/admin/settings/longtermarchive.md) topic
+[Long-Term Archive](/docs/auditor/10.6/auditor/admin/settings/longtermarchive.md) topic
 for additional information.

@@ -46,7 +46,7 @@ What do you want to do?
     4. Enter a description for the radio button in the **Description** box.
     5. Select a security role in the **Visibility** drop-down list. The radio button will be visible
        to users of this role and roles with a priority value higher than this role. See
-       [Priority](/versioned_docs/groupid_11.0/groupid/admincenter/securityrole/manage.md).  
+       [Priority](/docs/groupid/11.0/groupid/admincenter/securityrole/manage.md).  
        Select _Never_ to hide the radio button from all users.
     6. Click **OK**. The radio button is listed in the **Values** area on the **New Display Type**
        pane.
@@ -66,6 +66,6 @@ What do you want to do?
 
 **See Also**
 
-- [Design a Portal with Display Types](/versioned_docs/groupid_11.0/groupid/admincenter/portal/displaytype/overview.md)
-- [Display Type Categories](/versioned_docs/groupid_11.0/groupid/admincenter/portal/displaytype/categories.md)
-- [Define Custom Display Types](/versioned_docs/groupid_11.0/groupid/admincenter/portal/displaytype/custom.md)
+- [Design a Portal with Display Types](/docs/groupid/11.0/groupid/admincenter/portal/displaytype/overview.md)
+- [Display Type Categories](/docs/groupid/11.0/groupid/admincenter/portal/displaytype/categories.md)
+- [Define Custom Display Types](/docs/groupid/11.0/groupid/admincenter/portal/displaytype/custom.md)

@@ -1,9 +1,9 @@
 # Create Roles in the Role Catalog
 
 How to define
-[single roles](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/provisioning/singlerole/index.md)
+[single roles](/docs/usercube/6.1/usercube/integration-guide/toolkit/xml-configuration/provisioning/singlerole/index.md)
 to model entitlements, and organize them in the role catalog, basis of the
-[role model](/versioned_docs/usercube_6.1/usercube/introduction-guide/overview/entitlement-management/index.md).
+[role model](/docs/usercube/6.1/usercube/introduction-guide/overview/entitlement-management/index.md).
 
 The creation of the role catalog is a time-consuming part, with an important workload concerning the
 description of the internal processes for all applications. Actors here need to really understand
@@ -12,7 +12,7 @@ the useful permissions within managed applications.
 ## Overview
 
 The aim here is to establish and create the exhaustive list of
-[roles](/versioned_docs/usercube_6.1/usercube/integration-guide/role-model/index.md#roles) needed by
+[roles](/docs/usercube/6.1/usercube/integration-guide/role-model/index.md#roles) needed by
 the organization. Roles are a way to represent entitlements which are assigned to identities, so
 that said identities are able to work with the managed systems.
 
@@ -23,22 +23,22 @@ in the organization, hiding the technical complexity of entitlements behind the 
 user-friendly names and categories, in order to:
 
 - assign roles to users, by
-  [requesting them manually](/versioned_docs/usercube_6.1/usercube/user-guide/administrate/manual-assignment-request/index.md),
+  [requesting them manually](/docs/usercube/6.1/usercube/user-guide/administrate/manual-assignment-request/index.md),
   or using
-  [rules that assign roles automatically](/versioned_docs/usercube_6.1/usercube/user-guide/optimize/assignment-automation/automate-role-assignment/index.md)
+  [rules that assign roles automatically](/docs/usercube/6.1/usercube/user-guide/optimize/assignment-automation/automate-role-assignment/index.md)
   based on users' attributes;
 - simplify the implementation of Segregation of Duties (SoD);
 - simplify the implementation and execution of access certification campaigns.
 
 Roles are not chosen at random as they must correspond to the way entitlements were modeled during
-[connector modeling](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/connect-system/connector-modeling/index.md).
+[connector modeling](/docs/usercube/6.1/usercube/user-guide/set-up/connect-system/connector-modeling/index.md).
 
 ### Technical Principles
 
 Usercube's roles are all built the same way. Technically speaking:
 
 - a role is part of a policy which is a subgroup of the role model.
-  [Read more about the concept of role model](/versioned_docs/usercube_6.1/usercube/introduction-guide/overview/entitlement-management/index.md).
+  [Read more about the concept of role model](/docs/usercube/6.1/usercube/introduction-guide/overview/entitlement-management/index.md).
 
     > Let's take the example of the unlimited Internet access, part of the default policy.
 
@@ -47,7 +47,7 @@ Usercube's roles are all built the same way. Technically speaking:
     > We choose users from `Directory_User`.
 
 - roles need to be structured so
-  [categories](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/single-roles-catalog-creation/category-creation/index.md)
+  [categories](/docs/usercube/6.1/usercube/user-guide/set-up/single-roles-catalog-creation/category-creation/index.md)
   are created to:
 
     - represent groups of roles that follow the same validation process with the same validator(s);
@@ -57,11 +57,11 @@ Usercube's roles are all built the same way. Technically speaking:
     requirements.
 
     Then single roles can be grouped together through
-    [composite roles](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/provisioning/compositerole/index.md)
+    [composite roles](/docs/usercube/6.1/usercube/integration-guide/toolkit/xml-configuration/provisioning/compositerole/index.md)
     for applicative purposes, allowing users to be assigned several entitlements simultaneously.
     Leave composite roles for later, when the system runs as is and would benefit from an additional
     layer in the
-    [role model](/versioned_docs/usercube_6.1/usercube/introduction-guide/overview/entitlement-management/index.md).
+    [role model](/docs/usercube/6.1/usercube/introduction-guide/overview/entitlement-management/index.md).
 
     > This role is part of the previously created `Internet` category.
 
@@ -75,9 +75,9 @@ Usercube's roles are all built the same way. Technically speaking:
 - to be effective, roles must be linked to actual entitlements in the managed systems. Technically
   speaking, this means that for each entitlement that you want to assign through a given role, you
   must create a
-  [navigation rule](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/provisioning/resourcetype/index.md)
+  [navigation rule](/docs/usercube/6.1/usercube/integration-guide/toolkit/xml-configuration/provisioning/resourcetype/index.md)
   to build said link. A navigation rule is specific to one
-  [resource type](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/categorization/index.md).
+  [resource type](/docs/usercube/6.1/usercube/user-guide/set-up/categorization/index.md).
 
     ![Schema - Single Role with Navigation Rule](/img/versioned_docs/usercube_6.1/usercube/user-guide/set-up/single-roles-catalog-creation/singlerolescatalog_schemarolerule.webp)
 
@@ -86,7 +86,7 @@ Usercube's roles are all built the same way. Technically speaking:
     > all users having the role.
 
     This part is about
-    [single roles](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/provisioning/singlerole/index.md),
+    [single roles](/docs/usercube/6.1/usercube/integration-guide/toolkit/xml-configuration/provisioning/singlerole/index.md),
     dealing with entitlements one-to-one. The idea is to associate one single role with one
     fine-grained entitlement.
 
@@ -106,7 +106,7 @@ Functionally speaking, the main benefit of roles is to give entitlements user-fr
 understandable by managers. And to be understandable, roles must be structured.
 
 The strategy for role creation and structuring varies according to the
-[model established](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/connect-system/connector-modeling/index.md)
+[model established](/docs/usercube/6.1/usercube/user-guide/set-up/connect-system/connector-modeling/index.md)
 for a given system. Here, we will take as example the common use-case that organizes and categorizes
 roles by application. Then, the strategy varies whether the system hosts a single application (like
 SAB or SAP) or several (like the AD or LDAP).
@@ -173,7 +173,7 @@ systems, it can't be overwritten.
 ### Automation of role creation
 
 The UI provides tools to create single roles
-[manually](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/single-roles-catalog-creation/role-manual-creation/index.md),
+[manually](/docs/usercube/6.1/usercube/user-guide/set-up/single-roles-catalog-creation/role-manual-creation/index.md),
 working top-down from abstraction (role name) to the technical aspects (navigation rule and
 technical entitlement). Most projects use thousands of single roles, which makes role creation a
 long, tedious and repetitive process.
@@ -181,7 +181,7 @@ long, tedious and repetitive process.
 ![Schema - Role Creation Top-Down](/img/versioned_docs/usercube_6.1/usercube/user-guide/set-up/single-roles-catalog-creation/singlerolescatalog_schematopdown.webp)
 
 Roles can also be created bottom-up via
-[role naming rules](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/single-roles-catalog-creation/role-naming-rule-creation/index.md).
+[role naming rules](/docs/usercube/6.1/usercube/user-guide/set-up/single-roles-catalog-creation/role-naming-rule-creation/index.md).
 Instead of the previous process, you can use the name of said entitlement in your managed system to
 create automatically the corresponding single role and rule (and category if it does not already
 exist). In other words, Usercube's naming rules are to be based on your existing naming conventions
@@ -205,33 +205,33 @@ application's users, entitlements and data model.
 
 | Input                                                                                                                                                                                                                                                                                                                                                                                            | Output              |
 | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------- |
-| [Connector's data model](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/connect-system/connector-modeling/index.md) (required) [Provisioning Rules](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/provisioning-rule-creation/index.md) (required) [Classification](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/categorization/classification/index.md) (required) | Single role catalog |
+| [Connector's data model](/docs/usercube/6.1/usercube/user-guide/set-up/connect-system/connector-modeling/index.md) (required) [Provisioning Rules](/docs/usercube/6.1/usercube/user-guide/set-up/provisioning-rule-creation/index.md) (required) [Classification](/docs/usercube/6.1/usercube/user-guide/set-up/categorization/classification/index.md) (required) | Single role catalog |
 
 ## Create the Single Role Catalog
 
 Create the single role catalog by proceeding as follows:
 
 1. Create as many single roles as possible (with their navigation rules and categories) via
-   [role naming rules](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/single-roles-catalog-creation/role-naming-rule-creation/index.md).
+   [role naming rules](/docs/usercube/6.1/usercube/user-guide/set-up/single-roles-catalog-creation/role-naming-rule-creation/index.md).
 2. Complete the role catalog if needed by creating manually additional
-   [categories](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/single-roles-catalog-creation/category-creation/index.md)
+   [categories](/docs/usercube/6.1/usercube/user-guide/set-up/single-roles-catalog-creation/category-creation/index.md)
    and
-   [single roles with their navigation rules](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/single-roles-catalog-creation/role-manual-creation/index.md).
+   [single roles with their navigation rules](/docs/usercube/6.1/usercube/user-guide/set-up/single-roles-catalog-creation/role-manual-creation/index.md).
 3. Add
-   [composite roles](/versioned_docs/usercube_6.1/usercube/user-guide/optimize/composite-role-creation/index.md)
+   [composite roles](/docs/usercube/6.1/usercube/user-guide/optimize/composite-role-creation/index.md)
    to the single role catalog only if the project is mature enough. Composite roles are more complex
    than single roles and they are not mandatory.
 
 ## Impact of Modifications
 
-[Simulations](/versioned_docs/usercube_6.1/usercube/user-guide/optimize/simulation/index.md) are
+[Simulations](/docs/usercube/6.1/usercube/user-guide/optimize/simulation/index.md) are
 available in order to anticipate the changes induced by a creation/modification/deletion in roles
 and navigation rules.
 
 ## Next Steps
 
 Once the role catalog is established, integrators can start
-[role officer management](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/role-officer-management/index.md).
+[role officer management](/docs/usercube/6.1/usercube/user-guide/set-up/role-officer-management/index.md).
 
 The role catalog is also a prerequisite for
-[risk management](/versioned_docs/usercube_6.1/usercube/user-guide/optimize/risk-management/index.md).
+[risk management](/docs/usercube/6.1/usercube/user-guide/optimize/risk-management/index.md).

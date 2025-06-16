@@ -57,6 +57,6 @@ changes and resets for the PPETestUser and PPETestAdmin accounts. Password Polic
 enforce the Users policy for PPETestUser, and the Admins policy for PPETestAdmin.
 
 **NOTE:** The
-[Administration](/versioned_docs/passwordpolicyenforcer_10.2/password_policy_enforcer/administration/administration_overview.md)
+[Administration](/docs/passwordpolicyenforcer/10.2/password_policy_enforcer/administration/administration_overview.md)
 topic contains more information about policy assignments, and how Password Policy Enforcer resolves
 policy assignment conflicts that occur when more than one policy is assigned to a user.

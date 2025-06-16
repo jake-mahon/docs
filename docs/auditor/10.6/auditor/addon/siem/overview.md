@@ -25,7 +25,7 @@ On a high level, the add-on works as follows:
 3. The add-on creates a special Windows event log named **Netwrix_Auditor_Integration** and stores
    events there. These events are structured and ready for integration with the SIEM solution.
 
-See the [Integration API](/versioned_docs/auditor_10.6/auditor/api/overview.md) topic for additional
+See the [Integration API](/docs/auditor/10.6/auditor/api/overview.md) topic for additional
 information on the structure of the Activity Record and the capabilities of the Netwrix Auditor
 Integration API.
 
@@ -65,7 +65,7 @@ On a high level, this add-on works as follows:
 
 For more information on the structure of the Activity Record and the capabilities of the Netwrix
 Auditor Integration API, refer to
-[Integration API](/versioned_docs/auditor_10.6/auditor/api/overview.md).
+[Integration API](/docs/auditor/10.6/auditor/api/overview.md).
 
 ## Netwrix Auditor Alerts to Event Log Add-on
 
@@ -73,7 +73,7 @@ This add-on works as response action to the alert, as follows:
 
 1. The administrator enables and configured response action for selected alert, as described in the
    following topic:
-   [Configure a Response Action for Alert](/versioned_docs/auditor_10.6/auditor/admin/alertsettings/responseaction.md).
+   [Configure a Response Action for Alert](/docs/auditor/10.6/auditor/admin/alertsettings/responseaction.md).
    Make sure to provide correct path to the script file and to select the Write data to CSV file
    option.
 2. When the alert is triggered, the script starts - it retrieves audit data (activity record fields)
@@ -83,5 +83,5 @@ This add-on works as response action to the alert, as follows:
    events there. These events are structured and ready for integration with SIEM system.
 
 See the
-[Configure a Response Action for Alert](/versioned_docs/auditor_10.6/auditor/admin/alertsettings/responseaction.md)
+[Configure a Response Action for Alert](/docs/auditor/10.6/auditor/admin/alertsettings/responseaction.md)
 topic for additional information on the alert response actions and CSV file.

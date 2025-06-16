@@ -9,11 +9,11 @@ Auditing (SPAA) and Sensitive Data Discovery Auditing scans against the targeted
 environment.
 
 For information on the required prerequisites and permissions, see the
-[SharePoint Agent Permissions](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/requirements/solutions/sharepoint/agentpermissions.md)
+[SharePoint Agent Permissions](/docs/accessanalyzer/11.6/enterpriseauditor/requirements/solutions/sharepoint/agentpermissions.md)
 topic.
 
 The version of the SharePoint Agent must also match the major version of Enterprise Auditor. See the
-[What's New](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/whatsnew.md) topic for
+[What's New](/docs/accessanalyzer/11.6/enterpriseauditor/whatsnew.md) topic for
 additional information.
 
 ## Supported Platforms
@@ -39,5 +39,5 @@ example, if the job is configured to scan 8 hosts at a time , then an extra 16 G
 required (8x2=16).
 
 See the
-[Sensitive Data Discovery Add-On Installation](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/install/sensitivedatadiscovery/overview.md)
+[Sensitive Data Discovery Add-On Installation](/docs/accessanalyzer/11.6/enterpriseauditor/install/sensitivedatadiscovery/overview.md)
 topic for additional information.

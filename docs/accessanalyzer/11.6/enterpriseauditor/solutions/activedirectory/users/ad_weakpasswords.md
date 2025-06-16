@@ -42,7 +42,7 @@ The query for this job are:
 - Weak Passwords – Collects password hashes to identify weak passwords
 
     - See the
-      [PasswordSecurity Data Collector](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/passwordsecurity/overview.md)
+      [PasswordSecurity Data Collector](/docs/accessanalyzer/11.6/enterpriseauditor/admin/datacollector/passwordsecurity/overview.md)
       topic for additional information
 
 ### Configure the Weak Passwords Query
@@ -72,7 +72,7 @@ password dictionary or click **Add…** to upload a custom dictionary with NTLM 
 passwords to use during the scan.
 
 - See the
-  [PasswordSecurity: Dictionaries](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/passwordsecurity/dictionaries.md)
+  [PasswordSecurity: Dictionaries](/docs/accessanalyzer/11.6/enterpriseauditor/admin/datacollector/passwordsecurity/dictionaries.md)
   topic for additional information
 
 **Step 6 –** Navigate to the Summary page, click **Finish** to save any setting modifications or

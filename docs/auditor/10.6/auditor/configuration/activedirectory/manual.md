@@ -19,37 +19,37 @@ Follow the steps to configure your domain for monitoring.
 
 **Step 1 –** Configure effective domain controllers policy (by default, Default Domain Controllers
 Policy). See the
-[Configure Basic Domain Audit Policies](/versioned_docs/auditor_10.6/auditor/configuration/activedirectory/basicpolicy.md)
+[Configure Basic Domain Audit Policies](/docs/auditor/10.6/auditor/configuration/activedirectory/basicpolicy.md)
 or
-[Configure Advanced Audit Policies](/versioned_docs/auditor_10.6/auditor/configuration/activedirectory/advancedpolicy.md)
+[Configure Advanced Audit Policies](/docs/auditor/10.6/auditor/configuration/activedirectory/advancedpolicy.md)
 topics for additional information.
 
 **Step 2 –** Configure object-level auditing. See the
-[Configure Object-Level Auditing](/versioned_docs/auditor_10.6/auditor/configuration/activedirectory/objectlevel.md)
+[Configure Object-Level Auditing](/docs/auditor/10.6/auditor/configuration/activedirectory/objectlevel.md)
 topic for additional information.
 
 **Step 3 –** Adjust the security event log size and retention settings. See the
-[Adjust Security Event Log Size and Retention](/versioned_docs/auditor_10.6/auditor/configuration/activedirectory/securitylog.md)topic
+[Adjust Security Event Log Size and Retention](/docs/auditor/10.6/auditor/configuration/activedirectory/securitylog.md)topic
 for additional information.
 
 **Step 4 –** If you have an on-premises Exchange server in your Active Directory domain, consider
 that some changes to AD can be made via that Exchange server. To be able to audit and report who
 made those changes, perform configuration steps as described in the
-[Exchange Administrator Audit Logging Settings](/versioned_docs/auditor_10.6/auditor/configuration/exchange/auditlog.md)
+[Exchange Administrator Audit Logging Settings](/docs/auditor/10.6/auditor/configuration/exchange/auditlog.md)
 topic.
 
 Optionally, you can adjust the Active Directory Tombstone Lifetime. See the
-[Adjust Active Directory Tombstone Lifetime (optional)](/versioned_docs/auditor_10.6/auditor/configuration/activedirectory/tombstone.md)
+[Adjust Active Directory Tombstone Lifetime (optional)](/docs/auditor/10.6/auditor/configuration/activedirectory/tombstone.md)
 topic for additional information.
 
 Also, remember to perform the following steps for AD auditing:
 
 **Step 1 –** Configure Data Collecting Account, as described in the
-[Additional Configuration to Review Changes Made via Exchange Server](/versioned_docs/auditor_10.6/auditor/configuration/activedirectory/additional.md)
+[Additional Configuration to Review Changes Made via Exchange Server](/docs/auditor/10.6/auditor/configuration/activedirectory/additional.md)
 topic.
 
 **Step 2 –** Configure required protocols and ports, as described in the
-[Active Directory Ports](/versioned_docs/auditor_10.6/auditor/configuration/activedirectory/ports.md)
+[Active Directory Ports](/docs/auditor/10.6/auditor/configuration/activedirectory/ports.md)
 topic.
 
 **Step 3 –** Enable Secondary Logon Service on the computer where Netwrix Auditor Server resides.

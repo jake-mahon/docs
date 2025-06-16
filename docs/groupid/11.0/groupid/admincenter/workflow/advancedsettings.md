@@ -4,7 +4,7 @@ You can specify advanced settings for workflow, such as set a default approver f
 and define approver acceleration settings.
 
 NOTE: Functions discussed in this topic are licensed under different add-ons. See the
-[ License GroupID](/versioned_docs/groupid_11.0/groupid/admincenter/general/licensing.md) topic.
+[ License GroupID](/docs/groupid/11.0/groupid/admincenter/general/licensing.md) topic.
 
 What do you want to do?
 
@@ -19,7 +19,7 @@ You can designate a recipient as the default approver for workflow requests. Req
 this recipient based on the following rules:
 
 - When approver acceleration is not enabled, the applicable rules are discussed in the
-  [Workflow Approval Scenarios](/versioned_docs/groupid_11.0/groupid/admincenter/workflow/overview.md#workflow-approval-scenarios)
+  [Workflow Approval Scenarios](/docs/groupid/11.0/groupid/admincenter/workflow/overview.md#workflow-approval-scenarios)
   topic.
 - When approver acceleration is enabled:
 
@@ -61,7 +61,7 @@ owners.
 
 The workflow approver acceleration feature ensures that no workflow request remains undecided. To
 apply setting related to approver acceleration, see the
-[Workflow Approver Acceleration](/versioned_docs/groupid_11.0/groupid/admincenter/workflow/approveracceleration.md)
+[Workflow Approver Acceleration](/docs/groupid/11.0/groupid/admincenter/workflow/approveracceleration.md)
 topic.
 
 ## Delete Workflow Requests
@@ -92,12 +92,12 @@ example, you can delete the ‘denied’ requests that are old by 30 days or mor
 ## Integrate with Microsoft Power Automate
 
 You can also link your Power Automate flows to GroupID workflows. For details, see the
-[Integrate with Power Automate](/versioned_docs/groupid_11.0/groupid/admincenter/workflow/integrate.md)
+[Integrate with Power Automate](/docs/groupid/11.0/groupid/admincenter/workflow/integrate.md)
 topic.
 
 **See Also**
 
-- [Workflows](/versioned_docs/groupid_11.0/groupid/admincenter/workflow/overview.md)
-- [Implement Workflows](/versioned_docs/groupid_11.0/groupid/admincenter/workflow/implement.md)
-- [Workflow Approver Acceleration](/versioned_docs/groupid_11.0/groupid/admincenter/workflow/approveracceleration.md)
-- [Integrate with Power Automate](/versioned_docs/groupid_11.0/groupid/admincenter/workflow/integrate.md)
+- [Workflows](/docs/groupid/11.0/groupid/admincenter/workflow/overview.md)
+- [Implement Workflows](/docs/groupid/11.0/groupid/admincenter/workflow/implement.md)
+- [Workflow Approver Acceleration](/docs/groupid/11.0/groupid/admincenter/workflow/approveracceleration.md)
+- [Integrate with Power Automate](/docs/groupid/11.0/groupid/admincenter/workflow/integrate.md)

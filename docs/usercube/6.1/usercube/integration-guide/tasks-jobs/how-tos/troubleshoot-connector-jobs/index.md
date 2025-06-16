@@ -19,7 +19,7 @@ The output is stored in `Temp/ExportOutput`.
 In order to spot what was exported or not for the next incremental export, cookie files are stored
 in `Temp/ExportCookies`.
 
-[See the details of the export executable `Usercube-Export-Configuration`](/versioned_docs/usercube_6.1/usercube/integration-guide/executables/references/export-configuration/index.md).
+[See the details of the export executable `Usercube-Export-Configuration`](/docs/usercube/6.1/usercube/integration-guide/executables/references/export-configuration/index.md).
 
 ### Prepare synchronization
 
@@ -32,7 +32,7 @@ is prepared for synchronization.
 
 The output is stored in `Work/Collect`, and sent to the server to queue in `Work/Synchronization`.
 
-[See the details of the prepare-synchronization executable `Usercube-Prepare-Synchronization`](/versioned_docs/usercube_6.1/usercube/integration-guide/executables/references/prepare-synchronization/index.md).
+[See the details of the prepare-synchronization executable `Usercube-Prepare-Synchronization`](/docs/usercube/6.1/usercube/integration-guide/executables/references/prepare-synchronization/index.md).
 
 ### Synchronize
 
@@ -52,7 +52,7 @@ The output is stored in `UR_ResourceChanges`.
 #### Synchronization: finalize
 
 When at least one
-[synchronization threshold](/versioned_docs/usercube_6.1/usercube/integration-guide/synchronization/synchro-thresholds/index.md)
+[synchronization threshold](/docs/usercube/6.1/usercube/integration-guide/synchronization/synchro-thresholds/index.md)
 is exceeded, the change list can be seen in the **Synchronization Changes** tab, accessible from the
 job progress screen.
 

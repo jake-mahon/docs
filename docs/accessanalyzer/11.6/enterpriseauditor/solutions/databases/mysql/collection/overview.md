@@ -8,20 +8,20 @@ analysis and producing respective reports.
 
 The jobs in the 0.Collection Job Group are:
 
-- [MySQL_Configuration Job](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/databases/mysql/collection/mysql_configuration.md)
+- [MySQL_Configuration Job](/docs/accessanalyzer/11.6/enterpriseauditor/solutions/databases/mysql/collection/mysql_configuration.md)
   – Designed to collect MySQL server instance and database configuration settings for use in the
   following analysis jobs and respective reports
-- [MySQL_SensitiveDataScan Job](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/databases/mysql/collection/mysql_sensitivedatascan.md)
+- [MySQL_SensitiveDataScan Job](/docs/accessanalyzer/11.6/enterpriseauditor/solutions/databases/mysql/collection/mysql_sensitivedatascan.md)
   – Designed to discover sensitive data in MySQL databases based on pre-defined or user-defined
   search criteria
-- [MySQL_TablePrivileges Job](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/solutions/databases/mysql/collection/mysql_tableprivileges.md)
+- [MySQL_TablePrivileges Job](/docs/accessanalyzer/11.6/enterpriseauditor/solutions/databases/mysql/collection/mysql_tableprivileges.md)
   – Designed to collect MySQL table privileges from all the targeted servers.
 
 Workflow
 
 1. Set a Connection Profile for the 0.Collection Job Group with the permissions listed in the
    Recommended Configurations section. See the
-   [Connection](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/settings/connection/overview.md)
+   [Connection](/docs/accessanalyzer/11.6/enterpriseauditor/admin/settings/connection/overview.md)
    topic for additional information.
 2. For Sensitive Data Discovery Auditing – Ensure the Sensitive Data Discovery Add-On is installed
    on the StealthAUDIT Console server.

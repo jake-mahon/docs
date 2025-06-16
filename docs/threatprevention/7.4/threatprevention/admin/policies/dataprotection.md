@@ -9,9 +9,9 @@ it:
   the selected folder.
 
     - View Data checkbox – Affects the ability to see events data for these policies in the policy’s
-      [Recent Events Tab](/versioned_docs/threatprevention_7.4/threatprevention/admin/policies/recentevents/overview.md)
+      [Recent Events Tab](/docs/threatprevention/7.4/threatprevention/admin/policies/recentevents/overview.md)
       and the
-      [Investigate Interface](/versioned_docs/threatprevention_7.4/threatprevention/admin/investigate/overview.md).
+      [Investigate Interface](/docs/threatprevention/7.4/threatprevention/admin/investigate/overview.md).
 
         Only users granted the View Data permission on the folder where the object has been
         identified for protection are able to view any results of events that include the object.
@@ -23,15 +23,15 @@ it:
       objects.
 
 - Protected Objects – Monitors the selected
-  [Select Active Directory Contexts Window](/versioned_docs/threatprevention_7.4/threatprevention/admin/policies/eventtype/window/selectactivedirectory/context.md)
+  [Select Active Directory Contexts Window](/docs/threatprevention/7.4/threatprevention/admin/policies/eventtype/window/selectactivedirectory/context.md)
   within the policy folder
 
     Protected objects are hidden from the following types of data no matter what policy
     monitored/blocked it:
 
-    - [Recent Events Tab](/versioned_docs/threatprevention_7.4/threatprevention/admin/policies/recentevents/overview.md)
+    - [Recent Events Tab](/docs/threatprevention/7.4/threatprevention/admin/policies/recentevents/overview.md)
       data
-    - [Investigate Interface](/versioned_docs/threatprevention_7.4/threatprevention/admin/investigate/overview.md)
+    - [Investigate Interface](/docs/threatprevention/7.4/threatprevention/admin/investigate/overview.md)
       data
 
 **NOTE:** These protections only apply to viewing event data within the Administration Console, and
@@ -58,7 +58,7 @@ is displayed.
 the policies within it.
 
 **NOTE:** Only users with rights assigned in the
-[Users and Roles Window](/versioned_docs/threatprevention_7.4/threatprevention/admin/configuration/userroles/overview.md)
+[Users and Roles Window](/docs/threatprevention/7.4/threatprevention/admin/configuration/userroles/overview.md)
 are available in the list.
 
 **Step 4 –** The window closes and the user is displayed in the Permissions list with the View Data
@@ -95,7 +95,7 @@ is displayed.
 **Step 8 –** On the Select Active Directory Contexts window, select an Agent from the drop-down menu
 and click **Connect**. Expand the domain tree in the Navigation pane. Select an item in the Results
 pane on the right and click **OK**. See the
-[Selection Windows](/versioned_docs/threatprevention_7.4/threatprevention/admin/policies/eventtype/window/overview.md)
+[Selection Windows](/docs/threatprevention/7.4/threatprevention/admin/policies/eventtype/window/overview.md)
 topic for additional information.
 
 **Step 9 –** The window closes and the object is displayed in the Protected Objects list. Only those

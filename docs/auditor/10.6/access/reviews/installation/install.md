@@ -45,7 +45,7 @@ Next to test the connection to the SQL Server.
       NWXTECH\ad.bruce
 
 **NOTE:** See the
-[Database Page](/versioned_docs/auditor_10.6/access/reviews/admin/configuration/database.md) topic
+[Database Page](/docs/auditor/10.6/access/reviews/admin/configuration/database.md) topic
 for additional information.
 
 ![Database does not exist Confirmation Window](/img/versioned_docs/auditor_10.6/access/reviews/installation/installsqldatabase.webp)
@@ -70,5 +70,5 @@ field. When the port is set as desired, click **Next**.
 **Step 9 –** Once the installation has successfully completed, click Finish to exit the wizard.
 
 The installation wizard placed a Netwrix Auditor Access Reviews icon on the desktop. Now proceed to
-the [First Launch](/versioned_docs/auditor_10.6/access/reviews/admin/firstlaunch.md) topic for next
+the [First Launch](/docs/auditor/10.6/access/reviews/admin/firstlaunch.md) topic for next
 steps.

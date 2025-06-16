@@ -145,7 +145,7 @@ You can remove a certain job from your job collection by the following methods:
 ## Pin a Job Collection
 
 To pin a job to the
-[Dashboard](/versioned_docs/groupid_11.0/groupid/portal/synchronize/dashboard.md) under the pinned
+[Dashboard](/docs/groupid/11.0/groupid/portal/synchronize/dashboard.md) under the pinned
 job card:
 
 1. On GroupID Portal, select **Synchronize** on left pane.
@@ -153,7 +153,7 @@ job card:
 3. Click the **three vertical dots** icon of the job collection and select **Pin Item** from the
    menu.
 4. The job collection is displayed on **My Pinned Job Collections** section on the
-   [Dashboard](/versioned_docs/groupid_11.0/groupid/portal/synchronize/dashboard.md).
+   [Dashboard](/docs/groupid/11.0/groupid/portal/synchronize/dashboard.md).
 
 ## Save as Template
 
@@ -240,5 +240,5 @@ The import action only requires you to select the location where the exported jo
 
 **See Also**
 
-- [Create a Job Collection ](/versioned_docs/groupid_11.0/groupid/portal/synchronize/collection/create.md)
-- [Synchronize Schedule](/versioned_docs/groupid_11.0/groupid/admincenter/schedule/synchronize.md)
+- [Create a Job Collection ](/docs/groupid/11.0/groupid/portal/synchronize/collection/create.md)
+- [Synchronize Schedule](/docs/groupid/11.0/groupid/admincenter/schedule/synchronize.md)

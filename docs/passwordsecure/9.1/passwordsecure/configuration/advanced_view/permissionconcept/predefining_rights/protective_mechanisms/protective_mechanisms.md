@@ -9,19 +9,19 @@ certain information only available to selected employees. Nevertheless, it is st
 have protective mechanisms above and beyond the authorization concept in order to handle complex
 requirements.
 
-- [Visibility](/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/advanced_view/permissionconcept/predefining_rights/protective_mechanisms/visibility/visibility.md)
+- [Visibility](/docs/passwordsecure/9.1/passwordsecure/configuration/advanced_view/permissionconcept/predefining_rights/protective_mechanisms/visibility/visibility.md)
   is not separately configured but is instead directly controlled via the authorization concept
   (read permission). Nevertheless, it represents an important component within the existing
   protective mechanisms and is why a separate section has been dedicated to this subject.
 - By configuring
-  [Temporary permissions](/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/advanced_view/permissionconcept/predefining_rights/protective_mechanisms/temporary_permissions/temporary_permissions.md),
+  [Temporary permissions](/docs/passwordsecure/9.1/passwordsecure/configuration/advanced_view/permissionconcept/predefining_rights/protective_mechanisms/temporary_permissions/temporary_permissions.md),
   it is possible to grant users or roles temporary access to data.
-- [Password masking](/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/advanced_view/permissionconcept/predefining_rights/protective_mechanisms/password_masking/password_masking.md)
+- [Password masking](/docs/passwordsecure/9.1/passwordsecure/configuration/advanced_view/permissionconcept/predefining_rights/protective_mechanisms/password_masking/password_masking.md)
   enables access to the system without having to reveal the passwords of users. The value of the
   password remains constantly hidden.
 - To link the release of highly sensitive access data to a double-check principle, it is possible to
   use
-  [Seals](/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/advanced_view/permissionconcept/predefining_rights/protective_mechanisms/seals/seals.md).
+  [Seals](/docs/passwordsecure/9.1/passwordsecure/configuration/advanced_view/permissionconcept/predefining_rights/protective_mechanisms/seals/seals.md).
   The configuration of users or roles with the permissions to issue a release is possible down to a
   granular level and is always adaptable to individual requirements.
 
@@ -31,7 +31,7 @@ the authorization concept.
 ![protective mechanism diagram](/img/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/advanced_view/permissionconcept/predefining_rights/protective_mechanisms/protective_mechanisms-en.webp)
 
 In the interplay of the
-[Authorization and protection mechanisms](/versioned_docs/passwordsecure_9.1/passwordsecure/configuration/web_applicaiton/authorization_and_protection/authorization_and_protection_mechanisms.md),
+[Authorization and protection mechanisms](/docs/passwordsecure/9.1/passwordsecure/configuration/web_applicaiton/authorization_and_protection/authorization_and_protection_mechanisms.md),
 almost all conceivable scenarios can be depicted. It is worth mentioning again that the
 authorization concept is already a very effective tool, with limited visibility of passwords and
 data records. This concept is present everywhere in Netwrix Password Secure, and will be explained

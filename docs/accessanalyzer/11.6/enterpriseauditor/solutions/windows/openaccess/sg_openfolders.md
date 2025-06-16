@@ -22,7 +22,7 @@ The query for the SG_OpenFolders job is:
 The OpenAccess query has been preconfigured to run with the default settings. However, the subfolder
 depth can optionally be increased on the Options page in the System Info Data Collector Wizard.
 Follow the steps to customize the query. See the
-[SystemInfo Data Collector](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/systeminfo/overview.md)
+[SystemInfo Data Collector](/docs/accessanalyzer/11.6/enterpriseauditor/admin/datacollector/systeminfo/overview.md)
 topic for additional information.
 
 **Step 1 –** Navigate to the **Jobs** > **Windows** > **Open Access** > **SG_OpenFolders** >

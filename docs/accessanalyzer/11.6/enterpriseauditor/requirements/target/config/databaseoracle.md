@@ -29,7 +29,7 @@ GRANT CREATE SESSION TO %USERNAME% CONTAINER=ALL;         
 
 When using a least privileged model for Oracle, **SYSDBA** must be selected for the Role in the User
 Credentials window for the Oracle Connection Profile. See the
-[Oracle for User Credentials](/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/settings/connection/profile/oracle.md)
+[Oracle for User Credentials](/docs/accessanalyzer/11.6/enterpriseauditor/admin/settings/connection/profile/oracle.md)
 topic for additional information.
 
 ## Oracle Server Discovery

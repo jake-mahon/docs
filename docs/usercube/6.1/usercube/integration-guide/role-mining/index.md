@@ -2,12 +2,12 @@
 
 Role mining aims to reduce the cost of entitlement management by automating entitlement assignments,
 via the analysis of existing assignments.
-[See more details about assignment automation](/versioned_docs/usercube_6.1/usercube/user-guide/optimize/assignment-automation/index.md).
+[See more details about assignment automation](/docs/usercube/6.1/usercube/user-guide/optimize/assignment-automation/index.md).
 
 ## Overview
 
 After the role catalog is established, the
-[Compute-RoleModel](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/jobs/tasks/server/computerolemodeltask/index.md)
+[Compute-RoleModel](/docs/usercube/6.1/usercube/integration-guide/toolkit/xml-configuration/jobs/tasks/server/computerolemodeltask/index.md)
 task is able to assign single roles to users according to their attributes which are used as
 assignment criteria.
 
@@ -20,13 +20,13 @@ assignment criteria.
 > users' attributes like their location, position title, etc.
 
 Now that users received their roles, the role mining tool can analyze these assignments and deduce
-[single role rules](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/provisioning/singlerolerule/index.md)
+[single role rules](/docs/usercube/6.1/usercube/integration-guide/toolkit/xml-configuration/provisioning/singlerolerule/index.md)
 which will assign single roles to certain users matching given criteria.
 
 ![Schema - Role Mining](/img/versioned_docs/usercube_6.1/usercube/user-guide/optimize/assignment-automation/role-mining/rolemining_schema.webp)
 
 Role mining is a Machine Learning process. It is a statistic tool used to emphasize the
-[dimensions](/versioned_docs/usercube_6.1/usercube/integration-guide/role-assignment/conformingassignmentcomputation/index.md#dimensions)
+[dimensions](/docs/usercube/6.1/usercube/integration-guide/role-assignment/conformingassignmentcomputation/index.md#dimensions)
 that constitute the key criteria for existing role assignments. It detects the most probable links
 between identities dimensions and their roles in order to suggest the appropriate entitlement
 assignment rules.
@@ -37,14 +37,14 @@ assignment rules.
 
 Role mining being a statistic tool based on existing entitlement assignments, it appears useless if
 the role model contains fewer than 2,000 role assignments. Then, start by reinforcing the
-[role catalog](/versioned_docs/usercube_6.1/usercube/user-guide/set-up/single-roles-catalog-creation/index.md).
+[role catalog](/docs/usercube/6.1/usercube/user-guide/set-up/single-roles-catalog-creation/index.md).
 
 ### Technical Principles
 
 Role mining works through
-[mining rules](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/provisioning/miningrule/index.md)
+[mining rules](/docs/usercube/6.1/usercube/integration-guide/toolkit/xml-configuration/provisioning/miningrule/index.md)
 that Usercube applies with the
-[`GetRoleMiningTask`](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/jobs/tasks/server/getroleminingtask/index.md).
+[`GetRoleMiningTask`](/docs/usercube/6.1/usercube/integration-guide/toolkit/xml-configuration/jobs/tasks/server/getroleminingtask/index.md).
 
 ### Entitlement differentiation with rule types
 
@@ -108,21 +108,21 @@ Starting from the previous example, consider now that, as a result of a reorgani
 certification for example, some users do not have the role anymore. If the ratio is below the
 threshold, then role mining will remove the single role rule. If the role (or its policy) is
 configured with a
-[grace period](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/provisioning/singlerole/index.md),
+[grace period](/docs/usercube/6.1/usercube/integration-guide/toolkit/xml-configuration/provisioning/singlerole/index.md),
 users who need the role will not lose it. Then users' entitlements remain unchanged:
 
 ![Impact Example - Use Case 5](/img/versioned_docs/usercube_6.1/usercube/integration-guide/role-mining/rolemining_impact_usecase5.webp)
 
 ## Perform Role Mining
 
-[See how to perform role mining](/versioned_docs/usercube_6.1/usercube/user-guide/optimize/assignment-automation/role-mining/index.md).
+[See how to perform role mining](/docs/usercube/6.1/usercube/user-guide/optimize/assignment-automation/role-mining/index.md).
 
 ### Simulation
 
 Be aware that you can configure the
-[mining task](/versioned_docs/usercube_6.1/usercube/integration-guide/toolkit/xml-configuration/jobs/tasks/server/getroleminingtask/index.md)
+[mining task](/docs/usercube/6.1/usercube/integration-guide/toolkit/xml-configuration/jobs/tasks/server/getroleminingtask/index.md)
 to generate role assignment rules either directly or in a
-[simulation](/versioned_docs/usercube_6.1/usercube/integration-guide/simulation/index.md).
+[simulation](/docs/usercube/6.1/usercube/integration-guide/simulation/index.md).
 
 Simulating the results of role mining allows a knowledgeable user to analyze the impact of role
 mining on the role model, before applying them.
