@@ -135,9 +135,16 @@ EOF
                 }
               }
 
-              const summary = "## 🤖 Claude Docusaurus Review\n\n" +
-                              reviewContent +
-                              "\n\n---\n<sub>Automated review by Claude Code</sub>";
+              // Escape backticks that might break template literal
+              const safeContent = reviewContent.replace(/`/g, '\\`');
+
+              const summary = `## 🤖 Claude Docusaurus Review
+
+${safeContent}
+
+---
+
+<sub>Automated review by Claude Code</sub>`;
 
               await github.rest.issues.createComment({
                 issue_number: context.issue.number,
