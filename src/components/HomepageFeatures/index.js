@@ -38,14 +38,124 @@ const SECTION_TITLES = [
  */
 const ProductCategories = [
   {
-    title: 'Identity Management',
+    title: 'Identity',
     description: 'Comprehensive identity and user management solutions',
     icon: '👤',
     products: [
       {
+        name: 'Access Analyzer',
+        description: 'Analyze and audit file system permissions',
+        link: '/docs/accessanalyzer/12.0',
+        versions: ['12.0', '11.6'],
+        displayType: 'badge'
+      },
+      {
+        name: 'Access Information Center',
+        description: 'Centralized access information management',
+        link: '/docs/accessinformationcenter/12.0',
+        versions: ['12.0', '11.6'],
+        displayType: 'badge'
+      },
+      {
+        name: 'Group ID',
+        description: 'Active Directory group management',
+        link: '/docs/groupid/11.1',
+        versions: ['11.1', '11.0'],
+        displayType: 'badge'
+      },
+      {
         name: 'UserCube',
         description: 'User provisioning and management',
-        link: '/docs/usercube',
+        link: '/docs/usercube/6.2',
+        versions: ['6.2', '6.1'],
+        displayType: 'badge'
+      },
+    ],
+  },
+  {
+    title: 'Privilege',
+    description: 'Control and monitor privileged access to critical systems',
+    icon: '🔐',
+    products: [
+      {
+        name: 'Password Policy Enforcer',
+        description: 'Enforce strong password policies',
+        link: '/docs/passwordpolicyenforcer/11.0',
+        versions: ['11.0', '10.2'],
+        displayType: 'badge'
+      },
+      {
+        name: 'Password Reset',
+        description: 'Self-service password reset solution',
+        link: '/docs/passwordreset/3.3',
+        versions: ['3.3', '3.23'],
+        displayType: 'badge'
+      },
+      {
+        name: 'Password Secure',
+        description: 'Secure password management',
+        link: '/docs/passwordsecure/9.2',
+        versions: ['9.2', '9.1'],
+        displayType: 'badge'
+      },
+      {
+        name: 'Privilege Secure',
+        description: 'Privileged access management',
+        link: '/docs/privilegesecure/4.2',
+        versions: ['4.2', '4.1'],
+        displayType: 'badge'
+      },
+    ],
+  },
+  {
+    title: 'Directory',
+    description: 'Active Directory management and password policy enforcement',
+    icon: '📁',
+    products: [
+      {
+        name: 'Activity Monitor',
+        description: 'Track user activities across IT infrastructure',
+        link: '/docs/activitymonitor/8.0',
+        versions: ['8.0', '7.1'],
+        displayType: 'badge'
+      },
+      {
+        name: 'Auditor',
+        description: 'Comprehensive IT infrastructure auditing',
+        link: '/docs/auditor/10.7',
+        versions: ['10.7', '10.6'],
+        displayType: 'badge'
+      },
+      {
+        name: 'Recovery for Active Directory',
+        description: 'Active Directory backup and recovery',
+        link: '/docs/recoveryforactivedirectory/2.6',
+      },
+      {
+        name: 'PolicyPak',
+        description: 'Group Policy management and enforcement',
+        link: '/docs/policypak',
+      },
+    ],
+  },
+  {
+    title: 'Endpoint',
+    description: 'Comprehensive endpoint protection and policy management',
+    icon: '💻',
+    products: [
+      {
+        name: 'Endpoint Protector',
+        description: 'Comprehensive endpoint security',
+        link: '/docs/endpointprotector/5.9.4.2',
+        versions: ['5.9.4.2', '5.9.4'],
+        displayType: 'badge'
+      },
+      {
+        name: 'Change Tracker',
+        description: 'Real-time change monitoring and alerts',
+        link: '/docs/changetracker/8.1',
+        versions: ['8.1', '8.0'],
+        displayType: 'badge'
       },
       {
         name: 'UserCube SaaS',
@@ -53,161 +163,23 @@ const ProductCategories = [
         link: '/docs/usercube_saas',
       },
       {
-        name: 'GroupID',
-        description: 'Active Directory group management',
-        link: '/docs/groupid',
-      },
-      {
-        name: 'StrongPoint',
-        description: 'Platform governance and compliance',
-        link: '/docs/strongpointfornetsuite',
+        name: 'Product Name',
+        description: 'Product description placeholder',
+        link: '#',
       },
     ],
   },
   {
-    title: 'Privileged Access Management (PAM)',
-    description: 'Control and monitor privileged access to critical systems',
-    icon: '🔐',
-    products: [
-      {
-        name: 'Privilege Secure',
-        description: 'Privileged access management',
-        link: '/docs/privilegesecure',
-      },
-      {
-        name: 'Endpoint Privilege Manager',
-        description: 'Endpoint privilege management',
-        link: '/docs/policypak',
-      },
-      {
-        name: 'Password Secure',
-        description: 'Secure password management',
-        link: '/docs/passwordsecure',
-      },
-    ],
-  },
-  {
-    title: 'Directory Management',
-    description: 'Active Directory management and password policy enforcement',
-    icon: '📁',
-    products: [
-      {
-        name: 'Auditor',
-        description: 'Comprehensive IT infrastructure auditing',
-        link: '/docs/auditor',
-      },
-      {
-        name: 'GroupID',
-        description: 'Active Directory group management',
-        link: '/docs/groupid',
-      },
-      {
-        name: 'Password Policy Enforcer',
-        description: 'Enforce strong password policies',
-        link: '/docs/passwordpolicyenforcer',
-      },
-    ],
-  },
-  {
-    title: 'Endpoint Management',
-    description: 'Comprehensive endpoint protection and policy management',
-    icon: '💻',
-    products: [
-      {
-        name: 'Endpoint Protector',
-        description: 'Comprehensive endpoint security',
-        link: '/docs/endpointprotector',
-      },
-      {
-        name: 'PolicyPak',
-        description: 'Group Policy management and enforcement',
-        link: '/docs/policypak',
-      },
-      {
-        name: 'Change Tracker',
-        description: 'Real-time change monitoring and alerts',
-        link: '/docs/changetracker',
-      },
-    ],
-  },
-  {
-    title: 'Data Security Posture Management (DSPM)',
+    title: 'DSPM',
     description: 'Protect and classify your organization\'s sensitive data',
     icon: '🛡️',
     products: [
       {
-        name: '1Secure',
-        description: 'Cloud-based security monitoring and compliance',
-        link: '/docs/1secure',
-      },
-      {
-        name: 'Auditor',
-        description: 'Comprehensive IT infrastructure auditing',
-        link: '/docs/auditor',
-      },
-      {
-        name: 'Access Analyzer',
-        description: 'Analyze and audit file system permissions',
-        link: '/docs/accessanalyzer',
-      },
-      {
         name: 'Data Classification',
         description: 'Classify and protect sensitive data',
-        link: '/docs/dataclassification',
-      },
-    ],
-  },
-  {
-    title: 'Identity Threat Detection & Response (ITDR)',
-    description: 'Advanced threat detection and incident response capabilities',
-    icon: '🚨',
-    products: [
-      {
-        name: 'PingCastle',
-        description: 'Active Directory security assessment',
-        link: '/docs/pingcastle',
-      },
-      {
-        name: 'Access Analyzer',
-        description: 'Analyze and audit file system permissions',
-        link: '/docs/accessanalyzer',
-      },
-      {
-        name: 'Threat Manager',
-        description: 'Advanced threat detection and response',
-        link: '/docs/threatmanager',
-      },
-      {
-        name: 'Threat Prevention',
-        description: 'Proactive threat prevention',
-        link: '/docs/threatprevention',
-      },
-      {
-        name: 'Recovery for Active Directory',
-        description: 'Active Directory backup and recovery',
-        link: '/docs/recoveryforactivedirectory',
-      },
-    ],
-  },
-  {
-    title: 'Other',
-    description: 'Additional security and management tools',
-    icon: '🔧',
-    products: [
-      {
-        name: 'Access Information Center',
-        description: 'Centralized access information management',
-        link: '/docs/accessinformationcenter',
-      },
-      {
-        name: 'Activity Monitor',
-        description: 'Track user activities across IT infrastructure',
-        link: '/docs/activitymonitor',
-      },
-      {
-        name: 'Password Reset',
-        description: 'Self-service password reset solution',
-        link: '/docs/passwordreset',
+        link: '/docs/dataclassification/5.7',
+        versions: ['5.7', '5.6.2'],
+        displayType: 'badge'
       },
       {
         name: 'StrongPoint for NetSuite',
@@ -224,6 +196,30 @@ const ProductCategories = [
         description: 'Lightweight NetSuite documentation and analysis',
         link: '/docs/strongpointnetsuiteflashlight',
       },
+    ],
+  },
+  {
+    title: 'ITDR',
+    description: 'Advanced threat detection and incident response capabilities',
+    icon: '🚨',
+    products: [
+      {
+        name: 'Threat Prevention',
+        description: 'Proactive threat prevention',
+        link: '/docs/threatprevention/7.5',
+        versions: ['7.5', '7.4'],
+        displayType: 'badge'
+      },
+      {
+        name: 'Threat Manager',
+        description: 'Advanced threat detection and response',
+        link: '/docs/threatmanager/3.0',
+      },
+      {
+        name: '1Secure',
+        description: 'Cloud-based security monitoring and compliance',
+        link: '/docs/1secure',
+      },
       {
         name: 'StrongPoint Salesforce Flashlight',
         description: 'Lightweight Salesforce documentation and analysis',
@@ -232,6 +228,113 @@ const ProductCategories = [
     ],
   },
 ];
+
+/**
+ * Renders a product card with version display based on displayType
+ */
+function ProductCard({ product, idx }) {
+  const hasVersions = product.versions && product.versions.length > 0;
+  
+  if (!hasVersions) {
+    // Standard product card without versions
+    return (
+      <Link key={idx} to={product.link} className={styles.productCard}>
+        <h4 className={styles.productName}>{product.name}</h4>
+        <p className={styles.productDescription}>{product.description}</p>
+        <span className={styles.learnMore}>Learn more →</span>
+      </Link>
+    );
+  }
+
+  const renderVersionDisplay = () => {
+    switch (product.displayType) {
+      case 'diagonal':
+        return (
+          <div className={styles.versionDiagonal}>
+            <div className={styles.versionTop}>{product.versions[0]}</div>
+            <div className={styles.versionBottom}>{product.versions[1]}</div>
+          </div>
+        );
+      
+      case 'stacked':
+        return (
+          <div className={styles.versionStacked}>
+            {product.versions.map((version, i) => (
+              <div key={i} className={styles.versionStackedItem}>v{version}</div>
+            ))}
+          </div>
+        );
+      
+      case 'badge':
+        return (
+          <div className={styles.versionBadges}>
+            {product.versions.map((version, i) => (
+              <span key={i} className={styles.versionBadge}>v{version}</span>
+            ))}
+          </div>
+        );
+      
+      case 'badge-classic':
+        return (
+          <div className={styles.versionBadgesClassic}>
+            {product.versions.map((version, i) => (
+              <span key={i} className={styles.versionBadgeClassic}>v{version}</span>
+            ))}
+          </div>
+        );
+      
+      case 'badge-modern':
+        return (
+          <div className={styles.versionBadgesModern}>
+            {product.versions.map((version, i) => (
+              <span key={i} className={styles.versionBadgeModern}>v{version}</span>
+            ))}
+          </div>
+        );
+      
+      case 'badge-minimal':
+        return (
+          <div className={styles.versionBadgesMinimal}>
+            {product.versions.map((version, i) => (
+              <span key={i} className={styles.versionBadgeMinimal}>{version}</span>
+            ))}
+          </div>
+        );
+      
+      case 'badge-gradient':
+        return (
+          <div className={styles.versionBadgesGradient}>
+            {product.versions.map((version, i) => (
+              <span key={i} className={styles.versionBadgeGradient}>v{version}</span>
+            ))}
+          </div>
+        );
+      
+      case 'tabs':
+        return (
+          <div className={styles.versionTabs}>
+            {product.versions.map((version, i) => (
+              <div key={i} className={styles.versionTab}>v{version}</div>
+            ))}
+          </div>
+        );
+      
+      default:
+        return null;
+    }
+  };
+
+  return (
+    <Link key={idx} to={product.link} className={clsx(styles.productCard, styles[`productCard--${product.displayType}`])}>
+      {renderVersionDisplay()}
+      <div className={styles.productContent}>
+        <h4 className={styles.productName}>{product.name}</h4>
+        <p className={styles.productDescription}>{product.description}</p>
+        <span className={styles.learnMore}>Learn more →</span>
+      </div>
+    </Link>
+  );
+}
 
 /**
  * Renders a single product category with its products
@@ -251,11 +354,7 @@ function ProductCategory({ title, description, icon, products }) {
       </div>
       <div className={styles.productsGrid}>
         {products.map((product, idx) => (
-          <Link key={idx} to={product.link} className={styles.productCard}>
-            <h4 className={styles.productName}>{product.name}</h4>
-            <p className={styles.productDescription}>{product.description}</p>
-            <span className={styles.learnMore}>Learn more →</span>
-          </Link>
+          <ProductCard key={idx} product={product} idx={idx} />
         ))}
       </div>
     </div>

@@ -172,6 +172,283 @@
   }
 }
 
+/* Version Display Styles */
+
+/* Common styles for versioned product cards */
+.productCard--diagonal,
+.productCard--stacked,
+.productCard--badge,
+.productCard--tabs,
+.productCard--badge-classic,
+.productCard--badge-modern,
+.productCard--badge-minimal,
+.productCard--badge-gradient {
+  position: relative;
+  overflow: hidden;
+}
+
+.productContent {
+  position: relative;
+  z-index: 2;
+}
+
+/* Add spacing for version badges to prevent overlap with bottom badges */
+.productCard--badge .productContent {
+  margin-bottom: 8px;
+}
+
+/* Diagonal Split Design */
+.versionDiagonal {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 80px;
+  height: 80px;
+  overflow: hidden;
+}
+
+.versionTop {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  background: var(--ifm-color-primary);
+  color: white;
+  padding: 4px 8px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  border-radius: 4px;
+  transform: rotate(45deg);
+  transform-origin: center;
+  white-space: nowrap;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.versionBottom {
+  position: absolute;
+  bottom: 8px;
+  left: 8px;
+  background: var(--ifm-color-secondary);
+  color: white;
+  padding: 4px 8px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  border-radius: 4px;
+  transform: rotate(45deg);
+  transform-origin: center;
+  white-space: nowrap;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Stacked Design */
+.versionStacked {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.versionStackedItem {
+  background: linear-gradient(135deg, var(--ifm-color-primary), var(--ifm-color-primary-dark));
+  color: white;
+  padding: 4px 8px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  border-radius: 6px;
+  text-align: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  min-width: 40px;
+}
+
+.versionStackedItem:nth-child(2) {
+  background: linear-gradient(135deg, var(--ifm-color-secondary), var(--ifm-color-secondary-dark));
+}
+
+/* Badge Design */
+.versionBadges {
+  position: absolute;
+  bottom: 12px;
+  right: 12px;
+  display: flex;
+  gap: 6px;
+  z-index: 10;
+}
+
+.versionBadge {
+  background: var(--ifm-color-primary);
+  color: white;
+  padding: 4px 8px;
+  font-size: 0.7rem;
+  font-weight: 600;
+  border-radius: 12px;
+  border: 2px solid white;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+}
+
+.versionBadge:nth-child(2) {
+  background: var(--ifm-color-secondary);
+}
+
+/* Badge Classic Design - Round badges with border */
+.versionBadgesClassic {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  display: flex;
+  gap: 8px;
+}
+
+.versionBadgeClassic {
+  background: var(--ifm-color-primary);
+  color: white;
+  padding: 6px 12px;
+  font-size: 0.7rem;
+  font-weight: 700;
+  border-radius: 20px;
+  border: 3px solid white;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.2);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.versionBadgeClassic:nth-child(2) {
+  background: var(--ifm-color-success);
+}
+
+/* Badge Modern Design - Sleek rectangular badges */
+.versionBadgesModern {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  display: flex;
+  gap: 4px;
+}
+
+.versionBadgeModern {
+  background: rgba(var(--ifm-color-primary-rgb), 0.9);
+  color: white;
+  padding: 4px 10px;
+  font-size: 0.7rem;
+  font-weight: 600;
+  border-radius: 6px;
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.1);
+}
+
+.versionBadgeModern:nth-child(2) {
+  background: rgba(var(--ifm-color-info-rgb), 0.9);
+}
+
+/* Badge Minimal Design - Simple text badges */
+.versionBadgesMinimal {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  display: flex;
+  gap: 6px;
+}
+
+.versionBadgeMinimal {
+  background: rgba(var(--ifm-color-emphasis-200), 0.8);
+  color: var(--ifm-color-emphasis-800);
+  padding: 3px 8px;
+  font-size: 0.65rem;
+  font-weight: 600;
+  border-radius: 4px;
+  border: 1px solid var(--ifm-color-emphasis-300);
+  font-family: var(--ifm-font-family-monospace);
+}
+
+.versionBadgeMinimal:nth-child(2) {
+  background: rgba(var(--ifm-color-emphasis-300), 0.8);
+}
+
+/* Badge Gradient Design - Colorful gradient badges */
+.versionBadgesGradient {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  display: flex;
+  gap: 6px;
+}
+
+.versionBadgeGradient {
+  background: linear-gradient(135deg, var(--ifm-color-primary), var(--ifm-color-secondary));
+  color: white;
+  padding: 5px 10px;
+  font-size: 0.7rem;
+  font-weight: 700;
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+  position: relative;
+  overflow: hidden;
+}
+
+.versionBadgeGradient:nth-child(2) {
+  background: linear-gradient(135deg, var(--ifm-color-info), var(--ifm-color-success));
+}
+
+.versionBadgeGradient::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.3), transparent);
+  transition: left 0.5s ease;
+}
+
+.versionBadgeGradient:hover::before {
+  left: 100%;
+}
+
+/* Tabs Design */
+.versionTabs {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+}
+
+.versionTab {
+  flex: 1;
+  background: var(--ifm-color-primary);
+  color: white;
+  padding: 8px 12px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-align: center;
+  border-bottom: 3px solid var(--ifm-color-primary-dark);
+}
+
+.versionTab:nth-child(2) {
+  background: var(--ifm-color-secondary);
+  border-bottom-color: var(--ifm-color-secondary-dark);
+}
+
+.versionTab:first-child {
+  border-top-left-radius: 12px;
+}
+
+.versionTab:last-child {
+  border-top-right-radius: 12px;
+}
+
+/* Adjust content padding for tabbed design */
+.productCard--tabs .productContent {
+  padding-top: 1rem;
+}
+
+/* Dark mode adjustments */
+[data-theme='dark'] .versionBadge {
+  border-color: var(--ifm-color-emphasis-300);
+}
+
 @media screen and (max-width: 768px) {
   .categoriesContainer {
     gap: 2rem;
@@ -183,5 +460,33 @@
 
   .sectionHeader {
     margin-bottom: 2.5rem;
+  }
+
+  /* Make version displays smaller on mobile */
+  .versionDiagonal {
+    width: 60px;
+    height: 60px;
+  }
+  
+  .versionTop,
+  .versionBottom {
+    font-size: 0.65rem;
+    padding: 3px 6px;
+  }
+  
+  .versionStackedItem,
+  .versionBadge,
+  .versionTab,
+  .versionBadgeClassic,
+  .versionBadgeModern,
+  .versionBadgeMinimal,
+  .versionBadgeGradient {
+    font-size: 0.65rem;
+    padding: 3px 6px;
+  }
+  
+  .versionBadgeClassic {
+    padding: 4px 8px;
+    border-width: 2px;
   }
 }

@@ -83,6 +83,23 @@ const config = {
   tagline: 'Documentation for Netwrix Products',
   favicon: 'img/branding/favicon.ico',
 
+  scripts: [
+    {
+      src: "https://widget.kapa.ai/kapa-widget.bundle.js",
+      "data-website-id": "c8052612-e9cf-49f8-b7a4-e717c6adc398",
+      "data-project-name": "Netwrix",
+      "data-project-color": "#F5F5F5",
+      "data-project-logo": "https://img.netwrix.com/elements/social_communities/netwrix_blog.svg",
+      "data-user-analytics-cookie-enabled": "true",
+      "data-modal-title": "Netwrix Help Center AI Assistant",
+      "data-modal-example-questions-title": "Try asking me...",
+      "data-modal-disclaimer": "This **AI assistant answers Netwrix questions** using the documentation",
+      "data-modal-example-questions": "How to reduce Audit DB size?,How to scan for sensitive data?,How to migrate NEA to new server?,How to upload archive to SQL DB?",
+      "data-button-text-color": "#E32C2D",
+      async: true,
+    },
+  ],
+
   // Set the production url of your site here
   // Use environment variable for dynamic URL configuration
   url: process.env.RENDER_EXTERNAL_URL || 'http://localhost:3000',
@@ -771,138 +788,70 @@ const config = {
         items: [
           {
             type: 'dropdown',
-            label: 'Security Admin',
+            label: 'Identity',
             position: 'left',
             items: [
               {
-                label: '1Secure',
-                to: '/docs/1secure',
+                label: 'Product Name',
+                to: '#',
               },
               {
-                label: 'Access Analyzer - 12.0',
-                to: '/docs/accessanalyzer/12.0',
+                label: 'Product Name',
+                to: '#',
               },
               {
-                label: 'Access Analyzer - 11.6',
-                to: '/docs/accessanalyzer/11.6',
+                label: 'Product Name',
+                to: '#',
               },
               {
-                label: 'Activity Monitor - 8.0',
-                to: '/docs/activitymonitor/8.0',
-              },
-              {
-                label: 'Activity Monitor - 7.1',
-                to: '/docs/activitymonitor/7.1',
-              },
-              {
-                label: 'Auditor - 10.7',
-                to: '/docs/auditor/10.7',
-              },
-              {
-                label: 'Auditor - 10.6',
-                to: '/docs/auditor/10.6',
-              },
-              {
-                label: 'Threat Manager - 3.0',
-                to: '/docs/threatmanager/3.0',
+                label: 'Product Name',
+                to: '#',
               },
             ],
           },
           {
             type: 'dropdown',
-            label: 'Identity & Access',
+            label: 'Privilege',
             position: 'left',
             items: [
               {
-                label: 'Access Information Center - 12.0',
-                to: '/docs/accessinformationcenter/12.0',
+                label: 'Product Name',
+                to: '#',
               },
               {
-                label: 'Access Information Center - 11.6',
-                to: '/docs/accessinformationcenter/11.6',
+                label: 'Product Name',
+                to: '#',
               },
               {
-                label: 'Group ID - 11.1',
-                to: '/docs/groupid/11.1',
+                label: 'Product Name',
+                to: '#',
               },
               {
-                label: 'Group ID - 11.0',
-                to: '/docs/groupid/11.0',
-              },
-              {
-                label: 'Password Policy Enforcer - 11.0',
-                to: '/docs/passwordpolicyenforcer/11.0',
-              },
-              {
-                label: 'Password Policy Enforcer - 10.2',
-                to: '/docs/passwordpolicyenforcer/10.2',
-              },
-              {
-                label: 'Password Reset - 3.3',
-                to: '/docs/passwordreset/3.3',
-              },
-              {
-                label: 'Password Reset - 3.23',
-                to: '/docs/passwordreset/3.23',
-              },
-              {
-                label: 'Password Secure - 9.2',
-                to: '/docs/passwordsecure/9.2',
-              },
-              {
-                label: 'Password Secure - 9.1',
-                to: '/docs/passwordsecure/9.1',
-              },
-              {
-                label: 'Privilege Secure - 4.2',
-                to: '/docs/privilegesecure/4.2',
-              },
-              {
-                label: 'Privilege Secure - 4.1',
-                to: '/docs/privilegesecure/4.1',
+                label: 'Product Name',
+                to: '#',
               },
             ],
           },
           {
             type: 'dropdown',
-            label: 'Compliance',
+            label: 'Directory',
             position: 'left',
             items: [
               {
-                label: 'Change Tracker - 8.1',
-                to: '/docs/changetracker/8.1',
+                label: 'Product Name',
+                to: '#',
               },
               {
-                label: 'Change Tracker - 8.0',
-                to: '/docs/changetracker/8.0',
+                label: 'Product Name',
+                to: '#',
               },
               {
-                label: 'StrongPoint for NetSuite',
-                to: '/docs/strongpointfornetsuite',
+                label: 'Product Name',
+                to: '#',
               },
               {
-                label: 'StrongPoint for Salesforce',
-                to: '/docs/strongpointforsalesforce',
-              },
-              {
-                label: 'StrongPoint NetSuite Flashlight',
-                to: '/docs/strongpointnetsuiteflashlight',
-              },
-              {
-                label: 'StrongPoint Salesforce Flashlight',
-                to: '/docs/strongpointsalesforceflashlight',
-              },
-              {
-                label: 'Data Classification - 5.7',
-                to: '/docs/dataclassification/5.7',
-              },
-              {
-                label: 'Data Classification - 5.6.2',
-                to: '/docs/dataclassification/5.6.2',
-              },
-              {
-                label: 'Recovery for Active Directory - 2.6',
-                to: '/docs/recoveryforactivedirectory/2.6',
+                label: 'Product Name',
+                to: '#',
               },
             ],
           },
@@ -912,36 +861,66 @@ const config = {
             position: 'left',
             items: [
               {
-                label: 'Endpoint Protector - 5.9.4.2',
-                to: '/docs/endpointprotector/5.9.4.2',
+                label: 'Product Name',
+                to: '#',
               },
               {
-                label: 'Endpoint Protector - 5.9.4',
-                to: '/docs/endpointprotector/5.9.4',
+                label: 'Product Name',
+                to: '#',
               },
               {
-                label: 'PolicyPak',
-                to: '/docs/policypak',
+                label: 'Product Name',
+                to: '#',
               },
               {
-                label: 'Threat Prevention - 7.5',
-                to: '/docs/threatprevention/7.5',
+                label: 'Product Name',
+                to: '#',
+              },
+            ],
+          },
+          {
+            type: 'dropdown',
+            label: 'DSPM',
+            position: 'left',
+            items: [
+              {
+                label: 'Product Name',
+                to: '#',
               },
               {
-                label: 'Threat Prevention - 7.4',
-                to: '/docs/threatprevention/7.4',
+                label: 'Product Name',
+                to: '#',
               },
               {
-                label: 'UserCube - 6.2',
-                to: '/docs/usercube/6.2',
+                label: 'Product Name',
+                to: '#',
               },
               {
-                label: 'UserCube - 6.1',
-                to: '/docs/usercube/6.1',
+                label: 'Product Name',
+                to: '#',
+              },
+            ],
+          },
+          {
+            type: 'dropdown',
+            label: 'ITDR',
+            position: 'left',
+            items: [
+              {
+                label: 'Product Name',
+                to: '#',
               },
               {
-                label: 'UserCube SaaS',
-                to: '/docs/usercube_saas',
+                label: 'Product Name',
+                to: '#',
+              },
+              {
+                label: 'Product Name',
+                to: '#',
+              },
+              {
+                label: 'Product Name',
+                to: '#',
               },
             ],
           },
