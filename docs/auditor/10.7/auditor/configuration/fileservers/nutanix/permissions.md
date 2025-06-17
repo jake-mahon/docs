@@ -58,7 +58,7 @@ format and select the **File Server Admin** or **Backup Admin** role to assign
 **Step 8 –** Enter the local user account and password, then click **Save** next to these cells to
 save the settings.
 
-![nutanix_user_thumb_0_0](../../../../../../static/img/product_docs/auditor/auditor/configuration/fileservers/nutanix/nutanix_user_thumb_0_0.webp)
+![nutanix_user_thumb_0_0](../../../../../../../static/img/product_docs/auditor/auditor/configuration/fileservers/nutanix/nutanix_user_thumb_0_0.webp)
 
 **Step 9 –** When finished, click **Close**.
 

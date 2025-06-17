@@ -38,7 +38,7 @@ To create a new user account with Nutanix Prism:
 4. In the **Manage roles** dialog locate the **REST API access user** section and click **+New
    user**.
 
-    ![nutanix_user_thumb_0_0](../../../../../../static/img/product_docs/auditor/auditor/configuration/fileservers/nutanix/nutanix_user_thumb_0_0.webp)
+    ![nutanix_user_thumb_0_0](../../../../../../../static/img/product_docs/auditor/auditor/configuration/fileservers/nutanix/nutanix_user_thumb_0_0.webp)
 
 5. Enter local user account name and password, then click **Save** next to them to save the
    settings.
