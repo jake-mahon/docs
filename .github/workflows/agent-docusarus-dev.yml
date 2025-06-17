@@ -184,7 +184,7 @@ jobs:
           anthropic_api_key: ${{ secrets.ANTHROPIC_API_KEY }}
           timeout_minutes: "15"
           max_turns: "10"
-          model: "claude-4-0-sonnet-20250219"
+          model: "claude-opus-4-20250514"
       
       - name: Generate GitHub App token (for commenting)
         id: app-token
