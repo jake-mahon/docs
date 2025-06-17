@@ -66,7 +66,7 @@ jobs:
       - name: Create review prompt
         if: steps.check-files.outputs.skip_review != 'true'
         run: |
-          cat > /tmp/review-prompt.txt << 'REVIEW_PROMPT_EOF'
+          cat > /tmp/review-prompt.txt << 'EOF'
           Review this pull request focusing exclusively on Docusaurus infrastructure and configuration files. 
 
           Analyze changes to:
@@ -83,7 +83,7 @@ jobs:
           3. Potential impact on the documentation site
 
           Ignore all .md and .mdx files - focus only on the technical infrastructure.
-          REVIEW_PROMPT_EOF
+          EOF
 
       - name: Read system prompt for append
         if: steps.check-files.outputs.skip_review != 'true'
@@ -119,11 +119,19 @@ jobs:
             exit 0
           fi
 
-          # Extract the last assistant message using jq
-          REVIEW_CONTENT=$(jq -r '.[] | select(.role == "assistant") | .content' "$EXECUTION_FILE" | tail -1)
+          # Extract the last assistant message using jq - handle the nested structure
+          REVIEW_CONTENT=$(jq -r '
+            .[] | 
+            select(.type == "assistant") | 
+            .message.content[]? | 
+            select(.type == "text") | 
+            .text
+          ' "$EXECUTION_FILE" | tail -1)
 
           if [ -z "$REVIEW_CONTENT" ]; then
             echo "No review content found"
+            echo "Execution file contents:"
+            cat "$EXECUTION_FILE" | jq '.' | head -100
             exit 0
           fi
 
