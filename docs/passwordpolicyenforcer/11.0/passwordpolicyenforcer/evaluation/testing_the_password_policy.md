@@ -59,7 +59,7 @@ the Password Policy Client is installed. This helps users to choose a compliant 
 Password Policy Client also changes the message that users see when their password is rejected. Both
 these messages are customizable.
 
-![introduction_3](../../../../static/img/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/evaluation/introduction_3.webp)
+![introduction_3](../../../../../static/img/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/evaluation/introduction_3.webp)
 
 The Password Policy Client does not modify any Windows system files, and you do not have to install
 it to enforce a Password Policy Enforcer password policy. Web browser based versions of the Password

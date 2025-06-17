@@ -70,7 +70,7 @@ The Password Policy Client for Windows 10 and 11 maximizes the available screen 
 non-essential user interface elements on small screens. It can also display the Password Policy
 message in a message box to draw attention to the password policy.
 
-![the_password_policy_client_3](../../../../static/img/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/administration/the_password_policy_client_3.webp)
+![the_password_policy_client_3](../../../../../static/img/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/administration/the_password_policy_client_3.webp)
 
 You can change the default display settings to control which user interface elements are hidden, and
 the point at which they are hidden. The display of the Password Policy message box is also

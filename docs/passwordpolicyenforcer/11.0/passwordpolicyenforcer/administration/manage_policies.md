@@ -115,7 +115,7 @@ This flowchart shows how Password Policy Enforcer determines a policy for each u
 [Test Policy](testpolicy.md) tool to quickly determine which policy Password Policy Enforcer is
 enforced for a particular user.
 
-![managing_policies](../../../../static/img/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/administration/managing_policies.webp)
+![managing_policies](../../../../../static/img/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/administration/managing_policies.webp)
 
 ## Export
 
