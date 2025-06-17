@@ -135,10 +135,18 @@ EOF
                 }
               }
 
-              // Use string concatenation instead of template literals to avoid syntax errors
-              const summary = '## 🤖 Claude Docusaurus Review\n\n' + 
-                              reviewContent + 
-                              '\n\n---\n\n<sub>Automated review by Claude Code</sub>';
+              // Create comment body without using template literals or concatenation
+              const commentParts = [
+                '## 🤖 Claude Docusaurus Review',
+                '',
+                reviewContent,
+                '',
+                '---',
+                '',
+                '<sub>Automated review by Claude Code</sub>'
+              ];
+              
+              const summary = commentParts.join('\n');
 
               await github.rest.issues.createComment({
                 issue_number: context.issue.number,
@@ -150,18 +158,5 @@ EOF
               console.log('Review posted successfully');
             } catch (error) {
               console.error('Error processing review:', error);
-              
-              // Post error comment to notify about the failure
-              try {
-                await github.rest.issues.createComment({
-                  issue_number: context.issue.number,
-                  owner: context.repo.owner,
-                  repo: context.repo.repo,
-                  body: '## ❌ Claude Review Error\n\nFailed to process the review output. Please check the action logs for details.'
-                });
-              } catch (commentError) {
-                console.error('Failed to post error comment:', commentError);
-              }
-              
               core.setFailed(error.message);
             }
