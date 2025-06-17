@@ -4,6 +4,7 @@ on:
     branches: 
       - main
       - dev
+      - fix/homepage-updates
     paths-ignore:
       - '**.md'
       - '**.mdx'
