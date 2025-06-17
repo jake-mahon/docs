@@ -165,13 +165,19 @@ jobs:
           # Save prompt to file
           echo "$PROMPT" > /tmp/review-prompt.txt
           echo "Review prompt prepared successfully"
+          
+          # Read system prompt for append_system_prompt
+          SYSTEM_PROMPT=$(cat /tmp/system-prompt.md)
+          echo "system_prompt<<EOF" >> $GITHUB_OUTPUT
+          echo "$SYSTEM_PROMPT" >> $GITHUB_OUTPUT
+          echo "EOF" >> $GITHUB_OUTPUT
       
       - name: Run Claude Code Review
         id: claude-review
         uses: anthropics/claude-code-base-action@beta
         with:
           prompt_file: /tmp/review-prompt.txt
-          system_prompt_file: /tmp/system-prompt.md
+          append_system_prompt: ${{ steps.prepare-prompt.outputs.system_prompt }}
           allowed_tools: ""  # Empty string allows all tools
           anthropic_api_key: ${{ secrets.ANTHROPIC_API_KEY }}
           timeout_minutes: "45"
