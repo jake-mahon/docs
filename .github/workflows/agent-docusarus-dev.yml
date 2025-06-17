@@ -111,6 +111,8 @@ EOF
       - name: Post review summary
         if: steps.claude-review.conclusion == 'success'
         uses: actions/github-script@v7
+        env:
+          EXECUTION_FILE: ${{ steps.claude-review.outputs.execution_file }}
         with:
           github-token: ${{ secrets.NETWRIX_PROMPT_REPO_TOKEN }}
           script: |
