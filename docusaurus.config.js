@@ -136,14 +136,15 @@ const config = {
   ],
 
   plugins: [
+    // 1Secure
     [
       '@docusaurus/plugin-content-docs',
       {
         id: '1secure',
         path: 'docs/1secure',
         routeBasePath: 'docs/1secure',
-        sidebarPath: 'sidebars/sidebar.js',
-        editUrl: 'https://github.com/netwrix/docs/tree/main/packages/create-docusaurus/templates/shared/',
+        sidebarPath: require.resolve('./sidebars/sidebar.js'),
+        editUrl: 'https://github.com/netwrix/docs/tree/main/',
         exclude: ['**/CLAUDE.md'],
         versions: {
           current: {
@@ -152,17 +153,18 @@ const config = {
         },
       },
     ],
+    // Access Analyzer versions
     [
       '@docusaurus/plugin-content-docs',
       {
         id: 'accessanalyzer12_0',
         path: 'docs/accessanalyzer/12.0',
         routeBasePath: 'docs/accessanalyzer/12.0',
-        sidebarPath: 'sidebars/sidebar.js',
-        editUrl: 'https://github.com/netwrix/docs/tree/main/packages/create-docusaurus/templates/shared/',
+        sidebarPath: require.resolve('./sidebars/sidebar.js'),
+        editUrl: 'https://github.com/netwrix/docs/tree/main/',
         exclude: ['**/CLAUDE.md'],
         versions: {
-          current: {
+          'current': {
             label: '12.0',
           },
         },
@@ -174,12 +176,29 @@ const config = {
         id: 'accessanalyzer11_6',
         path: 'docs/accessanalyzer/11.6',
         routeBasePath: 'docs/accessanalyzer/11.6',
-        sidebarPath: 'sidebars/sidebar.js',
-        editUrl: 'https://github.com/netwrix/docs/tree/main/packages/create-docusaurus/templates/shared/',
+        sidebarPath: require.resolve('./sidebars/sidebar.js'),
+        editUrl: 'https://github.com/netwrix/docs/tree/main/',
         exclude: ['**/CLAUDE.md'],
         versions: {
-          previous: {
+          'current': {
             label: '11.6',
+          },
+        },
+      },
+    ],
+    // Access Information Center versions
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'accessinformationcenter12_0',
+        path: 'docs/accessinformationcenter/12.0',
+        routeBasePath: 'docs/accessinformationcenter/12.0',
+        sidebarPath: require.resolve('./sidebars/sidebar.js'),
+        editUrl: 'https://github.com/netwrix/docs/tree/main/',
+        exclude: ['**/CLAUDE.md'],
+        versions: {
+          'current': {
+            label: '12.0',
           },
         },
       },
@@ -187,14 +206,31 @@ const config = {
     [
       '@docusaurus/plugin-content-docs',
       {
-        id: 'activitymonitor8_0',
-        path: 'docs/activitymonitor/8.0',
-        routeBasePath: 'docs/activitymonitor/8.0', 
-        sidebarPath: 'sidebars/sidebar.js',
-        editUrl: 'https://github.com/netwrix/docs/tree/main/packages/create-docusaurus/templates/shared/',
+        id: 'accessinformationcenter11_6',
+        path: 'docs/accessinformationcenter/11.6',
+        routeBasePath: 'docs/accessinformationcenter/11.6',
+        sidebarPath: require.resolve('./sidebars/sidebar.js'),
+        editUrl: 'https://github.com/netwrix/docs/tree/main/',
         exclude: ['**/CLAUDE.md'],
         versions: {
-          current: {
+          'current': {
+            label: '11.6',
+          },
+        },
+      },
+    ],
+    // Activity Monitor versions
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'activitymonitor8_0',
+        path: 'docs/activitymonitor/8.0',
+        routeBasePath: 'docs/activitymonitor/8.0',
+        sidebarPath: require.resolve('./sidebars/sidebar.js'),
+        editUrl: 'https://github.com/netwrix/docs/tree/main/',
+        exclude: ['**/CLAUDE.md'],
+        versions: {
+          'current': {
             label: '8.0',
           },
         },
@@ -205,13 +241,30 @@ const config = {
       {
         id: 'activitymonitor7_1',
         path: 'docs/activitymonitor/7.1',
-        routeBasePath: 'docs/activitymonitor/7.1', 
-        sidebarPath: 'sidebars/sidebar.js',
-        editUrl: 'https://github.com/netwrix/docs/tree/main/packages/create-docusaurus/templates/shared/',
+        routeBasePath: 'docs/activitymonitor/7.1',
+        sidebarPath: require.resolve('./sidebars/sidebar.js'),
+        editUrl: 'https://github.com/netwrix/docs/tree/main/',
         exclude: ['**/CLAUDE.md'],
         versions: {
-          previous: {
+          'current': {
             label: '7.1',
+          },
+        },
+      },
+    ],
+    // Auditor versions
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'auditor10_7',
+        path: 'docs/auditor/10.7',
+        routeBasePath: 'docs/auditor/10.7',
+        sidebarPath: require.resolve('./sidebars/sidebar.js'),
+        editUrl: 'https://github.com/netwrix/docs/tree/main/',
+        exclude: ['**/CLAUDE.md'],
+        versions: {
+          'current': {
+            label: '10.7',
           },
         },
       },
@@ -219,20 +272,482 @@ const config = {
     [
       '@docusaurus/plugin-content-docs',
       {
-        id: 'accessinformationcenter12_0',
-        path: 'docs/accessinformationcenter/12.0',
-        routeBasePath: 'docs/accessinformationcenter/12.0', 
-        sidebarPath: 'sidebars/sidebar.js',
-        editUrl: 'https://github.com/netwrix/docs/tree/main/packages/create-docusaurus/templates/shared/',
+        id: 'auditor10_6',
+        path: 'docs/auditor/10.6',
+        routeBasePath: 'docs/auditor/10.6',
+        sidebarPath: require.resolve('./sidebars/sidebar.js'),
+        editUrl: 'https://github.com/netwrix/docs/tree/main/',
         exclude: ['**/CLAUDE.md'],
         versions: {
-          current: {
-            label: '12.0',
+          'current': {
+            label: '10.6',
           },
         },
       },
     ],
-    
+    // Change Tracker versions
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'changetracker8_1',
+        path: 'docs/changetracker/8.1',
+        routeBasePath: 'docs/changetracker/8.1',
+        sidebarPath: require.resolve('./sidebars/sidebar.js'),
+        editUrl: 'https://github.com/netwrix/docs/tree/main/',
+        exclude: ['**/CLAUDE.md'],
+        versions: {
+          'current': {
+            label: '8.1',
+          },
+        },
+      },
+    ],
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'changetracker8_0',
+        path: 'docs/changetracker/8.0',
+        routeBasePath: 'docs/changetracker/8.0',
+        sidebarPath: require.resolve('./sidebars/sidebar.js'),
+        editUrl: 'https://github.com/netwrix/docs/tree/main/',
+        exclude: ['**/CLAUDE.md'],
+        versions: {
+          'current': {
+            label: '8.0',
+          },
+        },
+      },
+    ],
+    // Data Classification versions
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'dataclassification5_7',
+        path: 'docs/dataclassification/5.7',
+        routeBasePath: 'docs/dataclassification/5.7',
+        sidebarPath: require.resolve('./sidebars/sidebar.js'),
+        editUrl: 'https://github.com/netwrix/docs/tree/main/',
+        exclude: ['**/CLAUDE.md'],
+        versions: {
+          'current': {
+            label: '5.7',
+          },
+        },
+      },
+    ],
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'dataclassification5_6_2',
+        path: 'docs/dataclassification/5.6.2',
+        routeBasePath: 'docs/dataclassification/5.6.2',
+        sidebarPath: require.resolve('./sidebars/sidebar.js'),
+        editUrl: 'https://github.com/netwrix/docs/tree/main/',
+        exclude: ['**/CLAUDE.md'],
+        versions: {
+          'current': {
+            label: '5.6.2',
+          },
+        },
+      },
+    ],
+    // Endpoint Protector versions
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'endpointprotector5_9_4_2',
+        path: 'docs/endpointprotector/5.9.4.2',
+        routeBasePath: 'docs/endpointprotector/5.9.4.2',
+        sidebarPath: require.resolve('./sidebars/sidebar.js'),
+        editUrl: 'https://github.com/netwrix/docs/tree/main/',
+        exclude: ['**/CLAUDE.md'],
+        versions: {
+          'current': {
+            label: '5.9.4.2',
+          },
+        },
+      },
+    ],
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'endpointprotector5_9_4',
+        path: 'docs/endpointprotector/5.9.4',
+        routeBasePath: 'docs/endpointprotector/5.9.4',
+        sidebarPath: require.resolve('./sidebars/sidebar.js'),
+        editUrl: 'https://github.com/netwrix/docs/tree/main/',
+        exclude: ['**/CLAUDE.md'],
+        versions: {
+          'current': {
+            label: '5.9.4',
+          },
+        },
+      },
+    ],
+    // Group ID versions
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'groupid11_1',
+        path: 'docs/groupid/11.1',
+        routeBasePath: 'docs/groupid/11.1',
+        sidebarPath: require.resolve('./sidebars/sidebar.js'),
+        editUrl: 'https://github.com/netwrix/docs/tree/main/',
+        exclude: ['**/CLAUDE.md'],
+        versions: {
+          'current': {
+            label: '11.1',
+          },
+        },
+      },
+    ],
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'groupid11_0',
+        path: 'docs/groupid/11.0',
+        routeBasePath: 'docs/groupid/11.0',
+        sidebarPath: require.resolve('./sidebars/sidebar.js'),
+        editUrl: 'https://github.com/netwrix/docs/tree/main/',
+        exclude: ['**/CLAUDE.md'],
+        versions: {
+          'current': {
+            label: '11.0',
+          },
+        },
+      },
+    ],
+    // Password Policy Enforcer versions
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'passwordpolicyenforcer11_0',
+        path: 'docs/passwordpolicyenforcer/11.0',
+        routeBasePath: 'docs/passwordpolicyenforcer/11.0',
+        sidebarPath: require.resolve('./sidebars/sidebar.js'),
+        editUrl: 'https://github.com/netwrix/docs/tree/main/',
+        exclude: ['**/CLAUDE.md'],
+        versions: {
+          'current': {
+            label: '11.0',
+          },
+        },
+      },
+    ],
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'passwordpolicyenforcer10_2',
+        path: 'docs/passwordpolicyenforcer/10.2',
+        routeBasePath: 'docs/passwordpolicyenforcer/10.2',
+        sidebarPath: require.resolve('./sidebars/sidebar.js'),
+        editUrl: 'https://github.com/netwrix/docs/tree/main/',
+        exclude: ['**/CLAUDE.md'],
+        versions: {
+          'current': {
+            label: '10.2',
+          },
+        },
+      },
+    ],
+    // Password Reset versions
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'passwordreset3_3',
+        path: 'docs/passwordreset/3.3',
+        routeBasePath: 'docs/passwordreset/3.3',
+        sidebarPath: require.resolve('./sidebars/sidebar.js'),
+        editUrl: 'https://github.com/netwrix/docs/tree/main/',
+        exclude: ['**/CLAUDE.md'],
+        versions: {
+          'current': {
+            label: '3.3',
+          },
+        },
+      },
+    ],
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'passwordreset3_23',
+        path: 'docs/passwordreset/3.23',
+        routeBasePath: 'docs/passwordreset/3.23',
+        sidebarPath: require.resolve('./sidebars/sidebar.js'),
+        editUrl: 'https://github.com/netwrix/docs/tree/main/',
+        exclude: ['**/CLAUDE.md'],
+        versions: {
+          'current': {
+            label: '3.23',
+          },
+        },
+      },
+    ],
+    // Password Secure versions
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'passwordsecure9_2',
+        path: 'docs/passwordsecure/9.2',
+        routeBasePath: 'docs/passwordsecure/9.2',
+        sidebarPath: require.resolve('./sidebars/sidebar.js'),
+        editUrl: 'https://github.com/netwrix/docs/tree/main/',
+        exclude: ['**/CLAUDE.md'],
+        versions: {
+          'current': {
+            label: '9.2',
+          },
+        },
+      },
+    ],
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'passwordsecure9_1',
+        path: 'docs/passwordsecure/9.1',
+        routeBasePath: 'docs/passwordsecure/9.1',
+        sidebarPath: require.resolve('./sidebars/sidebar.js'),
+        editUrl: 'https://github.com/netwrix/docs/tree/main/',
+        exclude: ['**/CLAUDE.md'],
+        versions: {
+          'current': {
+            label: '9.1',
+          },
+        },
+      },
+    ],
+    // Privilege Secure versions
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'privilegesecure4_2',
+        path: 'docs/privilegesecure/4.2',
+        routeBasePath: 'docs/privilegesecure/4.2',
+        sidebarPath: require.resolve('./sidebars/sidebar.js'),
+        editUrl: 'https://github.com/netwrix/docs/tree/main/',
+        exclude: ['**/CLAUDE.md'],
+        versions: {
+          'current': {
+            label: '4.2',
+          },
+        },
+      },
+    ],
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'privilegesecure4_1',
+        path: 'docs/privilegesecure/4.1',
+        routeBasePath: 'docs/privilegesecure/4.1',
+        sidebarPath: require.resolve('./sidebars/sidebar.js'),
+        editUrl: 'https://github.com/netwrix/docs/tree/main/',
+        exclude: ['**/CLAUDE.md'],
+        versions: {
+          'current': {
+            label: '4.1',
+          },
+        },
+      },
+    ],
+    // Recovery for Active Directory
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'recoveryforactivedirectory2_6',
+        path: 'docs/recoveryforactivedirectory/2.6',
+        routeBasePath: 'docs/recoveryforactivedirectory/2.6',
+        sidebarPath: require.resolve('./sidebars/sidebar.js'),
+        editUrl: 'https://github.com/netwrix/docs/tree/main/',
+        exclude: ['**/CLAUDE.md'],
+        versions: {
+          'current': {
+            label: '2.6',
+          },
+        },
+      },
+    ],
+    // Threat Manager
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'threatmanager3_0',
+        path: 'docs/threatmanager/3.0',
+        routeBasePath: 'docs/threatmanager/3.0',
+        sidebarPath: require.resolve('./sidebars/sidebar.js'),
+        editUrl: 'https://github.com/netwrix/docs/tree/main/',
+        exclude: ['**/CLAUDE.md'],
+        versions: {
+          'current': {
+            label: '3.0',
+          },
+        },
+      },
+    ],
+    // Threat Prevention versions
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'threatprevention7_5',
+        path: 'docs/threatprevention/7.5',
+        routeBasePath: 'docs/threatprevention/7.5',
+        sidebarPath: require.resolve('./sidebars/sidebar.js'),
+        editUrl: 'https://github.com/netwrix/docs/tree/main/',
+        exclude: ['**/CLAUDE.md'],
+        versions: {
+          'current': {
+            label: '7.5',
+          },
+        },
+      },
+    ],
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'threatprevention7_4',
+        path: 'docs/threatprevention/7.4',
+        routeBasePath: 'docs/threatprevention/7.4',
+        sidebarPath: require.resolve('./sidebars/sidebar.js'),
+        editUrl: 'https://github.com/netwrix/docs/tree/main/',
+        exclude: ['**/CLAUDE.md'],
+        versions: {
+          'current': {
+            label: '7.4',
+          },
+        },
+      },
+    ],
+    // UserCube versions
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'usercube6_2',
+        path: 'docs/usercube/6.2',
+        routeBasePath: 'docs/usercube/6.2',
+        sidebarPath: require.resolve('./sidebars/sidebar.js'),
+        editUrl: 'https://github.com/netwrix/docs/tree/main/',
+        exclude: ['**/CLAUDE.md'],
+        versions: {
+          'current': {
+            label: '6.2',
+          },
+        },
+      },
+    ],
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'usercube6_1',
+        path: 'docs/usercube/6.1',
+        routeBasePath: 'docs/usercube/6.1',
+        sidebarPath: require.resolve('./sidebars/sidebar.js'),
+        editUrl: 'https://github.com/netwrix/docs/tree/main/',
+        exclude: ['**/CLAUDE.md'],
+        versions: {
+          'current': {
+            label: '6.1',
+          },
+        },
+      },
+    ],
+    // PolicyPak (no versions)
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'policypak',
+        path: 'docs/policypak',
+        routeBasePath: 'docs/policypak',
+        sidebarPath: require.resolve('./sidebars/sidebar.js'),
+        editUrl: 'https://github.com/netwrix/docs/tree/main/',
+        exclude: ['**/CLAUDE.md'],
+        versions: {
+          'current': {
+            label: 'Current',
+          },
+        },
+      },
+    ],
+    // StrongPoint products (no versions)
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'strongpointfornetsuite',
+        path: 'docs/strongpointfornetsuite',
+        routeBasePath: 'docs/strongpointfornetsuite',
+        sidebarPath: require.resolve('./sidebars/sidebar.js'),
+        editUrl: 'https://github.com/netwrix/docs/tree/main/',
+        exclude: ['**/CLAUDE.md'],
+        versions: {
+          'current': {
+            label: 'Current',
+          },
+        },
+      },
+    ],
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'strongpointforsalesforce',
+        path: 'docs/strongpointforsalesforce',
+        routeBasePath: 'docs/strongpointforsalesforce',
+        sidebarPath: require.resolve('./sidebars/sidebar.js'),
+        editUrl: 'https://github.com/netwrix/docs/tree/main/',
+        exclude: ['**/CLAUDE.md'],
+        versions: {
+          'current': {
+            label: 'Current',
+          },
+        },
+      },
+    ],
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'strongpointnetsuiteflashlight',
+        path: 'docs/strongpointnetsuiteflashlight',
+        routeBasePath: 'docs/strongpointnetsuiteflashlight',
+        sidebarPath: require.resolve('./sidebars/sidebar.js'),
+        editUrl: 'https://github.com/netwrix/docs/tree/main/',
+        exclude: ['**/CLAUDE.md'],
+        versions: {
+          'current': {
+            label: 'Current',
+          },
+        },
+      },
+    ],
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'strongpointsalesforceflashlight',
+        path: 'docs/strongpointsalesforceflashlight',
+        routeBasePath: 'docs/strongpointsalesforceflashlight',
+        sidebarPath: require.resolve('./sidebars/sidebar.js'),
+        editUrl: 'https://github.com/netwrix/docs/tree/main/',
+        exclude: ['**/CLAUDE.md'],
+        versions: {
+          'current': {
+            label: 'Current',
+          },
+        },
+      },
+    ],
+    // UserCube SaaS (no versions)
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'usercube_saas',
+        path: 'docs/usercube_saas',
+        routeBasePath: 'docs/usercube_saas',
+        sidebarPath: require.resolve('./sidebars/sidebar.js'),
+        editUrl: 'https://github.com/netwrix/docs/tree/main/',
+        exclude: ['**/CLAUDE.md'],
+        versions: {
+          'current': {
+            label: 'Current',
+          },
+        },
+      },
+    ],
   ],
 
   themeConfig:
@@ -272,12 +787,12 @@ const config = {
                 to: '/docs/accessanalyzer/11.6',
               },
               {
-                label: 'Activity Monitor - 12.0',
-                to: '/docs/activitymonitor/12.0',
+                label: 'Activity Monitor - 8.0',
+                to: '/docs/activitymonitor/8.0',
               },
               {
-                label: 'Activity Monitor - 11.6',
-                to: '/docs/activitymonitor/11.6',
+                label: 'Activity Monitor - 7.1',
+                to: '/docs/activitymonitor/7.1',
               },
               {
                 label: 'Auditor - 10.7',
@@ -299,8 +814,12 @@ const config = {
             position: 'left',
             items: [
               {
-                label: 'Access Information Center - 11.1',
-                to: '/docs/accessinformationcenter/11.1',
+                label: 'Access Information Center - 12.0',
+                to: '/docs/accessinformationcenter/12.0',
+              },
+              {
+                label: 'Access Information Center - 11.6',
+                to: '/docs/accessinformationcenter/11.6',
               },
               {
                 label: 'Group ID - 11.1',
