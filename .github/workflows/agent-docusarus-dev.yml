@@ -67,23 +67,23 @@ jobs:
         if: steps.check-files.outputs.skip_review != 'true'
         run: |
           cat > /tmp/review-prompt.txt << 'EOF'
-Review this pull request focusing exclusively on Docusaurus infrastructure and configuration files. 
+          Review this pull request focusing exclusively on Docusaurus infrastructure and configuration files. 
 
-Analyze changes to:
-- docusaurus.config.js (site configuration, plugins, themes)
-- sidebars.js (navigation structure)
-- package.json (dependencies, scripts)
-- Build configuration files
-- Source code in src/ directory
-- GitHub Actions workflows
+          Analyze changes to:
+          - docusaurus.config.js (site configuration, plugins, themes)
+          - sidebars.js (navigation structure)
+          - package.json (dependencies, scripts)
+          - Build configuration files
+          - Source code in src/ directory
+          - GitHub Actions workflows
 
-For each issue found, provide:
-1. Clear explanation of the problem
-2. Specific code suggestion with reasoning
-3. Potential impact on the documentation site
+          For each issue found, provide:
+          1. Clear explanation of the problem
+          2. Specific code suggestion with reasoning
+          3. Potential impact on the documentation site
 
-Ignore all .md and .mdx files - focus only on the technical infrastructure.
-EOF
+          Ignore all .md and .mdx files - focus only on the technical infrastructure.
+          EOF
 
       - name: Read system prompt for append
         if: steps.check-files.outputs.skip_review != 'true'
@@ -107,7 +107,7 @@ EOF
           max_turns: "20"
           model: "claude-sonnet-4-20250514"
 
-- name: Post review summary (bash)
+      - name: Post review summary (bash)
         if: steps.claude-review.conclusion == 'success'
         env:
           EXECUTION_FILE: ${{ steps.claude-review.outputs.execution_file }}
@@ -137,9 +137,9 @@ EOF
 
           # Create comment file with proper escaping
           cat > /tmp/comment.md << 'HEADER'
-## 🤖 Claude Docusaurus Review
+          ## 🤖 Claude Docusaurus Review
 
-HEADER
+          HEADER
 
           # Append the review content
           echo "$REVIEW_CONTENT" >> /tmp/comment.md
@@ -147,10 +147,10 @@ HEADER
           # Add footer
           cat >> /tmp/comment.md << 'FOOTER'
 
----
+          ---
 
-<sub>Automated review by Claude Code</sub>
-FOOTER
+          <sub>Automated review by Claude Code</sub>
+          FOOTER
 
           # Post comment using GitHub API
           jq -n --arg body "$(cat /tmp/comment.md)" '{body: $body}' | \
