@@ -1,4 +1,4 @@
-name: Docusaurus Project Evaluation
+name: Claude Code Documentation Review
 
 on:
   pull_request:
@@ -135,12 +135,9 @@ jobs:
                 }
               }
               
-              const summary = `## 🤖 Claude Docusaurus Review
-              
-              ${reviewContent}
-              
-              ---
-              <sub>Automated review by Claude Code</sub>`;
+              const summary = "## 🤖 Claude Docusaurus Review\n\n" + 
+                             reviewContent + 
+                             "\n\n---\n<sub>Automated review by Claude Code</sub>";
               
               await github.rest.issues.createComment({
                 issue_number: context.issue.number,
