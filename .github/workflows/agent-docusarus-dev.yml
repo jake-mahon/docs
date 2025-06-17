@@ -1,14 +1,13 @@
 name: Claude Code Documentation Review
-
 on:
   pull_request:
     branches: 
       - main
       - dev
+      - fix/homepage-updates
     paths-ignore:
       - '**.md'
       - '**.mdx'
-
 jobs:
   claude-review:
     runs-on: ubuntu-latest
