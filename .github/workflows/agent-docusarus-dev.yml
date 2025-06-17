@@ -5,9 +5,6 @@ on:
       - main
       - dev
       - fix/homepage-updates
-    paths-ignore:
-      - '**.md'
-      - '**.mdx'
 jobs:
   claude-review:
     runs-on: ubuntu-latest
