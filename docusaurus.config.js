@@ -136,32 +136,104 @@ const config = {
   ],
 
   plugins: [
-    process.env.RSDOCTOR === 'true' && [
-      'rsdoctor',
-      {
-        rsdoctorOptions: {
-          mode: 'lite', // or 'full' for more detailed analysis
-        },
-      },
-    ],
-    // Product configurations
-    ...discoveredProducts.map(product => [
+    [
       '@docusaurus/plugin-content-docs',
       {
-        id: product.id,
-        path: `docs/${product.id}`,
-        routeBasePath: `docs/${product.id}`,
-        sidebarPath: getSidebarPath(product.id, product.versions.length > 0 ? product.versions[0] : null),
+        id: '1secure',
+        path: 'docs/1secure',
+        routeBasePath: 'docs/1secure',
+        sidebarPath: 'sidebars/sidebar.js',
         editUrl: 'https://github.com/netwrix/docs/tree/main/packages/create-docusaurus/templates/shared/',
         exclude: ['**/CLAUDE.md'],
         versions: {
           current: {
-            label: product.label,
+            label: 'Current',
           },
         },
       },
-    ]),
-  ].filter(Boolean),
+    ],
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'accessanalyzer12_0',
+        path: 'docs/accessanalyzer/12.0',
+        routeBasePath: 'docs/accessanalyzer/12.0',
+        sidebarPath: 'sidebars/sidebar.js',
+        editUrl: 'https://github.com/netwrix/docs/tree/main/packages/create-docusaurus/templates/shared/',
+        exclude: ['**/CLAUDE.md'],
+        versions: {
+          current: {
+            label: '12.0',
+          },
+        },
+      },
+    ],
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'accessanalyzer11_6',
+        path: 'docs/accessanalyzer/11.6',
+        routeBasePath: 'docs/accessanalyzer/11.6',
+        sidebarPath: 'sidebars/sidebar.js',
+        editUrl: 'https://github.com/netwrix/docs/tree/main/packages/create-docusaurus/templates/shared/',
+        exclude: ['**/CLAUDE.md'],
+        versions: {
+          previous: {
+            label: '11.6',
+          },
+        },
+      },
+    ],
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'activitymonitor8_0',
+        path: 'docs/activitymonitor/8.0',
+        routeBasePath: 'docs/activitymonitor/8.0', 
+        sidebarPath: 'sidebars/sidebar.js',
+        editUrl: 'https://github.com/netwrix/docs/tree/main/packages/create-docusaurus/templates/shared/',
+        exclude: ['**/CLAUDE.md'],
+        versions: {
+          current: {
+            label: '8.0',
+          },
+        },
+      },
+    ],
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'activitymonitor7_1',
+        path: 'docs/activitymonitor/7.1',
+        routeBasePath: 'docs/activitymonitor/7.1', 
+        sidebarPath: 'sidebars/sidebar.js',
+        editUrl: 'https://github.com/netwrix/docs/tree/main/packages/create-docusaurus/templates/shared/',
+        exclude: ['**/CLAUDE.md'],
+        versions: {
+          previous: {
+            label: '7.1',
+          },
+        },
+      },
+    ],
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'accessinformationcenter12_0',
+        path: 'docs/accessinformationcenter/12.0',
+        routeBasePath: 'docs/accessinformationcenter/12.0', 
+        sidebarPath: 'sidebars/sidebar.js',
+        editUrl: 'https://github.com/netwrix/docs/tree/main/packages/create-docusaurus/templates/shared/',
+        exclude: ['**/CLAUDE.md'],
+        versions: {
+          current: {
+            label: '12.0',
+          },
+        },
+      },
+    ],
+    
+  ],
 
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
@@ -192,20 +264,32 @@ const config = {
                 to: '/docs/1secure',
               },
               {
-                label: 'Access Analyzer',
-                to: '/docs/accessanalyzer',
+                label: 'Access Analyzer - 12.0',
+                to: '/docs/accessanalyzer/12.0',
               },
               {
-                label: 'Activity Monitor',
-                to: '/docs/activitymonitor',
+                label: 'Access Analyzer - 11.6',
+                to: '/docs/accessanalyzer/11.6',
               },
               {
-                label: 'Auditor',
-                to: '/docs/auditor',
+                label: 'Activity Monitor - 12.0',
+                to: '/docs/activitymonitor/12.0',
               },
               {
-                label: 'Threat Manager',
-                to: '/docs/threatmanager',
+                label: 'Activity Monitor - 11.6',
+                to: '/docs/activitymonitor/11.6',
+              },
+              {
+                label: 'Auditor - 10.7',
+                to: '/docs/auditor/10.7',
+              },
+              {
+                label: 'Auditor - 10.6',
+                to: '/docs/auditor/10.6',
+              },
+              {
+                label: 'Threat Manager - 3.0',
+                to: '/docs/threatmanager/3.0',
               },
             ],
           },
@@ -215,28 +299,48 @@ const config = {
             position: 'left',
             items: [
               {
-                label: 'Access Information Center',
-                to: '/docs/accessinformationcenter',
+                label: 'Access Information Center - 11.1',
+                to: '/docs/accessinformationcenter/11.1',
               },
               {
-                label: 'Group ID',
-                to: '/docs/groupid',
+                label: 'Group ID - 11.1',
+                to: '/docs/groupid/11.1',
               },
               {
-                label: 'Password Policy Enforcer',
-                to: '/docs/passwordpolicyenforcer',
+                label: 'Group ID - 11.0',
+                to: '/docs/groupid/11.0',
               },
               {
-                label: 'Password Reset',
-                to: '/docs/passwordreset',
+                label: 'Password Policy Enforcer - 11.0',
+                to: '/docs/passwordpolicyenforcer/11.0',
               },
               {
-                label: 'Password Secure',
-                to: '/docs/passwordsecure',
+                label: 'Password Policy Enforcer - 10.2',
+                to: '/docs/passwordpolicyenforcer/10.2',
               },
               {
-                label: 'Privilege Secure',
-                to: '/docs/privilegesecure',
+                label: 'Password Reset - 3.3',
+                to: '/docs/passwordreset/3.3',
+              },
+              {
+                label: 'Password Reset - 3.23',
+                to: '/docs/passwordreset/3.23',
+              },
+              {
+                label: 'Password Secure - 9.2',
+                to: '/docs/passwordsecure/9.2',
+              },
+              {
+                label: 'Password Secure - 9.1',
+                to: '/docs/passwordsecure/9.1',
+              },
+              {
+                label: 'Privilege Secure - 4.2',
+                to: '/docs/privilegesecure/4.2',
+              },
+              {
+                label: 'Privilege Secure - 4.1',
+                to: '/docs/privilegesecure/4.1',
               },
             ],
           },
@@ -246,8 +350,12 @@ const config = {
             position: 'left',
             items: [
               {
-                label: 'Change Tracker',
-                to: '/docs/changetracker',
+                label: 'Change Tracker - 8.1',
+                to: '/docs/changetracker/8.1',
+              },
+              {
+                label: 'Change Tracker - 8.0',
+                to: '/docs/changetracker/8.0',
               },
               {
                 label: 'StrongPoint for NetSuite',
@@ -266,12 +374,16 @@ const config = {
                 to: '/docs/strongpointsalesforceflashlight',
               },
               {
-                label: 'Data Classification',
-                to: '/docs/dataclassification',
+                label: 'Data Classification - 5.7',
+                to: '/docs/dataclassification/5.7',
               },
               {
-                label: 'Recovery for Active Directory',
-                to: '/docs/recoveryforactivedirectory',
+                label: 'Data Classification - 5.6.2',
+                to: '/docs/dataclassification/5.6.2',
+              },
+              {
+                label: 'Recovery for Active Directory - 2.6',
+                to: '/docs/recoveryforactivedirectory/2.6',
               },
             ],
           },
@@ -281,20 +393,32 @@ const config = {
             position: 'left',
             items: [
               {
-                label: 'Endpoint Protector',
-                to: '/docs/endpointprotector',
+                label: 'Endpoint Protector - 5.9.4.2',
+                to: '/docs/endpointprotector/5.9.4.2',
+              },
+              {
+                label: 'Endpoint Protector - 5.9.4',
+                to: '/docs/endpointprotector/5.9.4',
               },
               {
                 label: 'PolicyPak',
                 to: '/docs/policypak',
               },
               {
-                label: 'Threat Prevention',
-                to: '/docs/threatprevention',
+                label: 'Threat Prevention - 7.5',
+                to: '/docs/threatprevention/7.5',
               },
               {
-                label: 'UserCube',
-                to: '/docs/usercube',
+                label: 'Threat Prevention - 7.4',
+                to: '/docs/threatprevention/7.4',
+              },
+              {
+                label: 'UserCube - 6.2',
+                to: '/docs/usercube/6.2',
+              },
+              {
+                label: 'UserCube - 6.1',
+                to: '/docs/usercube/6.1',
               },
               {
                 label: 'UserCube SaaS',
