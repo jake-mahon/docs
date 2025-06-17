@@ -182,8 +182,8 @@ jobs:
             Replace,
             BatchTool
           anthropic_api_key: ${{ secrets.ANTHROPIC_API_KEY }}
-          timeout_minutes: "15"
-          max_turns: "10"
+          timeout_minutes: "45"
+          max_turns: "150"
           model: "claude-4-0-sonnet-20250219"
       
       - name: Generate GitHub App token (for commenting)
