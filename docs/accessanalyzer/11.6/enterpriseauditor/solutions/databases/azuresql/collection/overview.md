@@ -11,7 +11,7 @@ The jobs in 0.Collection Jobs Group are:
 - 0-AzureSQL_InstanceDiscovery Job — Enumerates a list of Azure SQL Server Instances from target
   endpoints and populates the necessary instance connection information which is used throughout the
   solution set
-- [1-AzureSQL_PermissionScan Job](/docs/accessanalyzer/11.6/enterpriseauditor/solutions/databases/azuresql/collection/1-azuresql_permissionscan.md)
+- [1-AzureSQL_PermissionScan Job](/docs/accessanalyzer/11.6/enterpriseauditor/solutions/databases/azuresql/collection/azuresql_permissionscan-1.md)
   — Collects Azure SQL database level permissions from all targeted Azure SQL database servers
 - [2-AzureSQL_SensitiveDataScan Job](/docs/accessanalyzer/11.6/enterpriseauditor/solutions/databases/azuresql/collection/2-azuresql_sensitivedatascan.md)
   — Discovers sensitive data in Azure SQL databases across all targeted Azure SQL database servers
