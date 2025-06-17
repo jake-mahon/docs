@@ -1,5 +1,4 @@
 name: Claude Code Documentation Review
-
 on:
   pull_request:
     branches: 
@@ -8,7 +7,6 @@ on:
     paths-ignore:
       - '**.md'
       - '**.mdx'
-
 jobs:
   claude-review:
     runs-on: ubuntu-latest
