@@ -1,26 +1,21 @@
-name: Claude Code Documentation Review
+name: Claude Documentation Review
 
 on:
-  # Trigger on pull requests to main or dev branch
   pull_request:
-    branches: 
-      - main
-      - dev
+    branches: [main, dev]
     paths-ignore:
       - '**.md'
       - '**.mdx'
   
-  # Trigger on issue comments (for tagging)
   issue_comment:
     types: [created]
   
-  # Trigger on PR review comments
   pull_request_review_comment:
     types: [created]
 
 jobs:
   claude-review:
-    # Only run if it's a PR or if the comment contains the trigger phrase
+    # Only run if it's a PR or if the comment contains @claude
     if: |
       github.event_name == 'pull_request' || 
       (github.event_name == 'issue_comment' && contains(github.event.comment.body, '@claude')) ||
@@ -39,218 +34,128 @@ jobs:
         with:
           fetch-depth: 0
       
-      - name: Fetch system prompt from private repo
-        id: fetch-prompt
+      # Optional: Fetch custom system prompt
+      - name: Fetch custom system prompt
+        id: custom-prompt
+        continue-on-error: true
         env:
-          GH_TOKEN: ${{ secrets.NETWRIX_PROMPT_REPO_TOKEN || secrets.GITHUB_TOKEN }}
+          TOKEN: ${{ secrets.NETWRIX_PROMPT_REPO_TOKEN }}
         run: |
-          # Fetch the system prompt file from the private repository
-          echo "Fetching system prompt from netwrix/action-agent-prompts..."
-          
-          RESPONSE=$(curl -s -w "\n%{http_code}" \
-               -H "Authorization: token $GH_TOKEN" \
-               -H "Accept: application/vnd.github.v3.raw" \
-               https://api.github.com/repos/netwrix/action-agent-prompts/contents/docs-dev.md?ref=main)
-          
-          HTTP_CODE=$(echo "$RESPONSE" | tail -n1)
-          CONTENT=$(echo "$RESPONSE" | head -n-1)
-          
-          if [ "$HTTP_CODE" != "200" ]; then
-            echo "Failed to fetch system prompt file (HTTP $HTTP_CODE)"
-            echo "Response: $CONTENT"
-            exit 1
-          fi
-          
-          # Save the content to a file
-          echo "$CONTENT" > /tmp/system-prompt.md
-          
-          # Verify the file was created and has content
-          if [ ! -s /tmp/system-prompt.md ]; then
-            echo "System prompt file is empty"
-            exit 1
-          fi
-          
-          echo "System prompt fetched successfully"
-          echo "File size: $(wc -c < /tmp/system-prompt.md) bytes"
-      
-      - name: Determine trigger context
-        id: context
-        run: |
-          if [[ "${{ github.event_name }}" == "pull_request" ]]; then
-            echo "is_pr=true" >> $GITHUB_OUTPUT
-            echo "is_comment=false" >> $GITHUB_OUTPUT
-            echo "trigger_type=pull_request" >> $GITHUB_OUTPUT
-          else
-            echo "is_pr=false" >> $GITHUB_OUTPUT
-            echo "is_comment=true" >> $GITHUB_OUTPUT
-            echo "trigger_type=${{ github.event_name }}" >> $GITHUB_OUTPUT
+          if [ -n "$TOKEN" ]; then
+            echo "Attempting to fetch custom prompt..."
+            curl -s -H "Authorization: token $TOKEN" \
+                 -H "Accept: application/vnd.github.v3.raw" \
+                 -o /tmp/system-prompt.txt \
+                 https://api.github.com/repos/netwrix/action-agent-prompts/contents/docs-dev.md?ref=main
+            
+            if [ -s /tmp/system-prompt.txt ]; then
+              echo "has_custom=true" >> $GITHUB_OUTPUT
+              echo "✅ Custom prompt fetched"
+            fi
           fi
       
-      - name: Extract comment prompt (if triggered by comment)
-        id: extract-prompt
-        if: steps.context.outputs.is_comment == 'true'
-        run: |
-          # Extract the comment after the trigger phrase
-          COMMENT="${{ github.event.comment.body }}"
-          # Remove @claude and trim whitespace
-          PROMPT=$(echo "$COMMENT" | sed 's/@claude//' | sed 's/^[[:space:]]*//;s/[[:space:]]*$//')
-          
-          # If prompt is empty after removing trigger, provide a default
-          if [ -z "$PROMPT" ]; then
-            PROMPT="Please review the changes in this PR and provide feedback on documentation-related aspects."
-          fi
-          
-          echo "comment_prompt<<EOF" >> $GITHUB_OUTPUT
-          echo "$PROMPT" >> $GITHUB_OUTPUT
-          echo "EOF" >> $GITHUB_OUTPUT
-      
-      - name: Check for important file changes
-        id: check-files
-        if: steps.context.outputs.is_pr == 'true'
-        run: |
-          # Get list of changed files
-          CHANGED_FILES=$(git diff --name-only origin/${{ github.base_ref }}...HEAD || git diff --name-only HEAD~1)
-          
-          # Check if docusaurus.config.js or sidebar files were modified
-          IMPORTANT_FILES=$(echo "$CHANGED_FILES" | grep -E "(docusaurus\.config\.js|.*sidebar.*\.js)" || true)
-          
-          # Check for any non-markdown changes
-          NON_MD_FILES=$(echo "$CHANGED_FILES" | grep -v -E "\.(md|mdx)$" || true)
-          
-          if [ -n "$IMPORTANT_FILES" ]; then
-            echo "has_important_changes=true" >> $GITHUB_OUTPUT
-            echo "### 🎯 Important Documentation Files Changed" >> $GITHUB_STEP_SUMMARY
-            echo '```' >> $GITHUB_STEP_SUMMARY
-            echo "$IMPORTANT_FILES" >> $GITHUB_STEP_SUMMARY
-            echo '```' >> $GITHUB_STEP_SUMMARY
-          else
-            echo "has_important_changes=false" >> $GITHUB_OUTPUT
-          fi
-          
-          if [ -n "$NON_MD_FILES" ]; then
-            echo "### 📝 Non-Markdown Files Changed" >> $GITHUB_STEP_SUMMARY
-            echo '```' >> $GITHUB_STEP_SUMMARY
-            echo "$NON_MD_FILES" >> $GITHUB_STEP_SUMMARY
-            echo '```' >> $GITHUB_STEP_SUMMARY
-          fi
-      
+      # Prepare the review prompt
       - name: Prepare review prompt
         id: prepare-prompt
         run: |
-          if [[ "${{ steps.context.outputs.is_pr }}" == "true" ]]; then
+          if [[ "${{ github.event_name }}" == "pull_request" ]]; then
             # For PRs, create a comprehensive review prompt
-            PROMPT="You are reviewing a pull request for a Docusaurus-based documentation site. "
-            
-            if [[ "${{ steps.check-files.outputs.has_important_changes }}" == "true" ]]; then
-              PROMPT+="IMPORTANT: This PR includes changes to critical configuration files (docusaurus.config.js and/or sidebar files). Please pay special attention to these changes. "
-            fi
-            
-            PROMPT+="Please review the changes and check for:
-            
-            1. **Configuration Integrity**: Ensure docusaurus.config.js changes are valid and won't break the build
-            2. **Sidebar Structure**: Verify sidebar configurations are properly formatted and all referenced docs exist
-            3. **Build Impact**: Identify any changes that might affect the documentation build process
-            4. **Link Validity**: Check that internal links and references are correct
-            5. **Best Practices**: Ensure changes follow Docusaurus best practices
-            6. **Performance**: Flag any changes that might impact site performance
-            
-            Focus primarily on non-markdown files that affect the documentation infrastructure.
-            
-            Provide specific, actionable feedback with code suggestions where appropriate."
+            cat > /tmp/review-prompt.txt << 'EOF'
+          You are reviewing a pull request for a Docusaurus-based documentation site.
+          
+          Please review the changes and check for:
+          1. Configuration Integrity: Ensure docusaurus.config.js changes are valid
+          2. Sidebar Structure: Verify sidebar configurations are properly formatted
+          3. Build Impact: Identify any changes that might affect the documentation build
+          4. Link Validity: Check that internal links and references are correct
+          5. Best Practices: Ensure changes follow Docusaurus best practices
+          
+          Focus on non-markdown files that affect documentation infrastructure.
+          Provide specific, actionable feedback with code suggestions where appropriate.
+          EOF
           else
-            # For comments, use the extracted prompt
-            PROMPT="${{ steps.extract-prompt.outputs.comment_prompt }}"
+            # For comments, extract the user's request
+            COMMENT="${{ github.event.comment.body }}"
+            echo "${COMMENT//@claude/}" | sed 's/^[[:space:]]*//;s/[[:space:]]*$//' > /tmp/review-prompt.txt
+          fi
+      
+      # Load system prompt if available
+      - name: Prepare system prompt
+        id: system-prompt
+        run: |
+          if [ -f /tmp/system-prompt.txt ]; then
+            PROMPT=$(cat /tmp/system-prompt.txt)
+          else
+            PROMPT="You are a documentation expert specializing in Docusaurus sites. Focus on infrastructure, configuration, and build-related changes."
           fi
           
-          # Save prompt to file
-          echo "$PROMPT" > /tmp/review-prompt.txt
-          echo "Review prompt prepared successfully"
+          # GitHub Actions multiline output
+          echo "content<<EOF" >> $GITHUB_OUTPUT
+          echo "$PROMPT" >> $GITHUB_OUTPUT
+          echo "EOF" >> $GITHUB_OUTPUT
       
+      # Run Claude with the correct model
       - name: Run Claude Code Review
         id: claude-review
         uses: anthropics/claude-code-base-action@beta
         with:
           prompt_file: /tmp/review-prompt.txt
-          system_prompt: $(cat /tmp/system-prompt.md)
+          system_prompt: ${{ steps.system-prompt.outputs.content }}
           allowed_tools: |
-            Bash(git:*),
-            View,
-            GlobTool,
-            GrepTool,
-            Write,
-            Edit,
-            Replace,
-            BatchTool
+            View
+            Glob
+            Grep
+            Read
           anthropic_api_key: ${{ secrets.ANTHROPIC_API_KEY }}
           timeout_minutes: "15"
           max_turns: "10"
-          model: "claude-opus-4-20250514"
+          model: "claude-opus-4-20250514"  # Fixed model name
       
-      - name: Generate GitHub App token (for commenting)
-        id: app-token
-        if: success() || failure()
-        uses: actions/create-github-app-token@v2
-        with:
-          app-id: ${{ secrets.CLAUDE_APP_ID || vars.CLAUDE_APP_ID }}
-          private-key: ${{ secrets.CLAUDE_APP_PRIVATE_KEY }}
-      
-      - name: Post review summary
-        if: (success() || failure()) && steps.context.outputs.is_pr == 'true'
+      # Post results without needing GitHub App
+      - name: Post review results
+        if: always() && github.event_name == 'pull_request'
         uses: actions/github-script@v7
         with:
-          github-token: ${{ steps.app-token.outputs.token || secrets.GITHUB_TOKEN }}
+          github-token: ${{ secrets.GITHUB_TOKEN }}
           script: |
             const fs = require('fs');
             const executionFile = '${{ steps.claude-review.outputs.execution_file }}';
             
-            let reviewContent = '';
-            let status = '${{ steps.claude-review.outputs.conclusion }}';
+            let reviewContent = '⚠️ Review could not be completed.';
             
-            if (status === 'success' && fs.existsSync(executionFile)) {
+            if (fs.existsSync(executionFile)) {
               try {
-                const executionLog = JSON.parse(fs.readFileSync(executionFile, 'utf8'));
+                const content = fs.readFileSync(executionFile, 'utf8');
+                const data = JSON.parse(content);
                 
-                // Find the last assistant message which should contain the review
-                for (let i = executionLog.length - 1; i >= 0; i--) {
-                  if (executionLog[i].role === 'assistant' && executionLog[i].content) {
-                    reviewContent = executionLog[i].content;
+                // Extract the last assistant message
+                for (let i = data.length - 1; i >= 0; i--) {
+                  if (data[i].role === 'assistant' && data[i].content) {
+                    reviewContent = data[i].content;
                     break;
                   }
                 }
-              } catch (error) {
-                console.error('Error parsing execution log:', error);
-                reviewContent = 'Error: Could not parse Claude\'s response.';
+              } catch (e) {
+                console.error('Error reading results:', e);
               }
-            } else if (status === 'failure') {
-              reviewContent = '⚠️ The review could not be completed. Please check the action logs for details.';
             }
-            
-            const summary = `## 🤖 Claude Documentation Review
-            
-            ${reviewContent || 'No review content was generated.'}
-            
-            ---
-            <sub>Generated by Claude Code Documentation Review Action</sub>`;
             
             await github.rest.issues.createComment({
               issue_number: context.issue.number,
               owner: context.repo.owner,
               repo: context.repo.repo,
-              body: summary
+              body: `## 🤖 Claude Documentation Review\n\n${reviewContent}\n\n---\n<sub>Generated by Claude Documentation Review</sub>`
             });
       
-      - name: Add workflow summary
+      # Summary
+      - name: Job Summary
         if: always()
         run: |
-          echo "## 📊 Claude Review Summary" >> $GITHUB_STEP_SUMMARY
-          echo "" >> $GITHUB_STEP_SUMMARY
-          echo "- **Trigger Type**: ${{ steps.context.outputs.trigger_type }}" >> $GITHUB_STEP_SUMMARY
-          echo "- **Review Status**: ${{ steps.claude-review.outputs.conclusion || 'Not completed' }}" >> $GITHUB_STEP_SUMMARY
-          echo "- **Important Files Changed**: ${{ steps.check-files.outputs.has_important_changes || 'N/A' }}" >> $GITHUB_STEP_SUMMARY
-          echo "" >> $GITHUB_STEP_SUMMARY
-          
-          if [ -f "${{ steps.claude-review.outputs.execution_file }}" ]; then
-            echo "✅ Review completed. Check the PR comments for Claude's feedback." >> $GITHUB_STEP_SUMMARY
+          echo "## Claude Review Summary" >> $GITHUB_STEP_SUMMARY
+          echo "- Status: ${{ steps.claude-review.outputs.conclusion || 'Unknown' }}" >> $GITHUB_STEP_SUMMARY
+          echo "- Trigger: ${{ github.event_name }}" >> $GITHUB_STEP_SUMMARY
+          if [ -f /tmp/system-prompt.txt ]; then
+            echo "- Custom Prompt: ✅ Loaded" >> $GITHUB_STEP_SUMMARY
           else
-            echo "❌ Review did not complete successfully." >> $GITHUB_STEP_SUMMARY
+            echo "- Custom Prompt: ❌ Using default" >> $GITHUB_STEP_SUMMARY
           fi
