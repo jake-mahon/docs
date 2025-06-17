@@ -10,13 +10,13 @@ With the setup and login via server mode, the access data can now be added autom
 visiting a website whose credentials have not yet been stored in Netwrix Password Secure, you get
 automatically asked whether they should be created.
 
-![new password detected](../../../../../../static/img/product_docs/passwordsecure/passwordsecure/configuration/browseradd-ons/how_to_save_passwords/addon-create-password-en.webp)
+![new password detected](../../../../../../../static/img/product_docs/passwordsecure/passwordsecure/configuration/browseradd-ons/how_to_save_passwords/addon-create-password-en.webp)
 
 By confirming, you will be directly forwarded to the Web Application and registered there. If there
 are less fields in the deposited or selected form than in the login mask, the missing fields are
 automatically created as web form fields by default.
 
-![WebClient prefilled](../../../../../../static/img/product_docs/passwordsecure/passwordsecure/configuration/browseradd-ons/how_to_save_passwords/webclient-prefilled-form-en.webp)
+![WebClient prefilled](../../../../../../../static/img/product_docs/passwordsecure/passwordsecure/configuration/browseradd-ons/how_to_save_passwords/webclient-prefilled-form-en.webp)
 
 Known access data
 

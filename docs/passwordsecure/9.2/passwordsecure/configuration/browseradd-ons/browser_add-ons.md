@@ -40,14 +40,14 @@ First, the database profile can be created manually. Therefore, he following inf
 required: IP address, Web Application URL and database name. Please note that /api is appended to
 the end of the IP address.
 
-![database profil](../../../../../static/img/product_docs/passwordsecure/passwordsecure/configuration/browseradd-ons/manual-database-profile-en.webp)
+![database profil](../../../../../../static/img/product_docs/passwordsecure/passwordsecure/configuration/browseradd-ons/manual-database-profile-en.webp)
 
 It is also possible that the database profile is filled out automatically. For this, you need to log
 on to a database via Web Application. By clicking on the add-on in the Web Application, its profile
 can be taken over. Now all necessary information such as profile name, IP address, Web Application
 and database name are transferred.
 
-![Adopt WebClient profile](../../../../../static/img/product_docs/passwordsecure/passwordsecure/configuration/browseradd-ons/adopt-database-profile-en.webp)
+![Adopt WebClient profile](../../../../../../static/img/product_docs/passwordsecure/passwordsecure/configuration/browseradd-ons/adopt-database-profile-en.webp)
 
 ## The server mode benefits
 
@@ -61,7 +61,7 @@ mode and the Autofill Add-on has not been started, SSO applications do not work!
 After successful connection, the number of data records available for the current Internet page is
 displayed on the icon.
 
-![record found](../../../../../static/img/product_docs/passwordsecure/passwordsecure/configuration/browseradd-ons/record-found-en.webp)
+![record found](../../../../../../static/img/product_docs/passwordsecure/passwordsecure/configuration/browseradd-ons/record-found-en.webp)
 
 ## Settings
 

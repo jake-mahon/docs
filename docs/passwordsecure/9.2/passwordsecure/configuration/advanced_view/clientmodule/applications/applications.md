@@ -101,4 +101,4 @@ manually.
 Alternatively, it is possible to connect several records with one RDP connection. In this way, you
 can combine different users with an RDP connection and register them straightforward.
 
-![connect RDP sessions](../../../../../../../static/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/clientmodule/applications/applications_9-en.webp)
+![connect RDP sessions](../../../../../../../../static/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/clientmodule/applications/applications_9-en.webp)
