@@ -8,6 +8,7 @@ on:
     paths-ignore:
       - '**.md'
       - '**.mdx'
+<<<<<<< fix/homepage-updates
 jobs:
   claude-review:
     runs-on: ubuntu-latest
@@ -139,6 +140,8 @@ on:
     paths-ignore:
       - '**.md'
       - '**.mdx'
+=======
+>>>>>>> dev
 jobs:
   claude-review:
     runs-on: ubuntu-latest
@@ -291,6 +294,7 @@ FOOTER
             "https://api.github.com/repos/${{ github.repository }}/issues/$PR_NUMBER/comments" \
             -d @-
 
+<<<<<<< fix/homepage-updates
           echo "Review posted successfully"eview
 
           HEADER
@@ -315,3 +319,6 @@ FOOTER
             -d @-
 
           echo "Review posted successfully"
+=======
+          echo "Review posted successfully"
+>>>>>>> dev
