@@ -108,55 +108,49 @@ EOF
           max_turns: "20"
           model: "claude-sonnet-4-20250514"
 
-      - name: Post review summary
+      - name: Post review summary (bash)
         if: steps.claude-review.conclusion == 'success'
-        uses: actions/github-script@v7
         env:
           EXECUTION_FILE: ${{ steps.claude-review.outputs.execution_file }}
-        with:
-          github-token: ${{ secrets.NETWRIX_PROMPT_REPO_TOKEN }}
-          script: |
-            const fs = require('fs');
-            const executionFile = process.env.EXECUTION_FILE;
+          GH_TOKEN: ${{ secrets.NETWRIX_PROMPT_REPO_TOKEN }}
+          PR_NUMBER: ${{ github.event.pull_request.number }}
+        run: |
+          if [ ! -f "$EXECUTION_FILE" ]; then
+            echo "No execution file found"
+            exit 0
+          fi
 
-            if (!fs.existsSync(executionFile)) {
-              console.log('No execution file found');
-              return;
-            }
+          # Extract the last assistant message using jq
+          REVIEW_CONTENT=$(jq -r '.[] | select(.role == "assistant") | .content' "$EXECUTION_FILE" | tail -1)
 
-            try {
-              const executionLog = JSON.parse(fs.readFileSync(executionFile, 'utf8'));
+          if [ -z "$REVIEW_CONTENT" ]; then
+            echo "No review content found"
+            exit 0
+          fi
 
-              let reviewContent = '';
-              for (let i = executionLog.length - 1; i >= 0; i--) {
-                if (executionLog[i].role === 'assistant' && executionLog[i].content) {
-                  reviewContent = executionLog[i].content;
-                  break;
-                }
-              }
+          # Create comment file with proper escaping
+          cat > /tmp/comment.md << 'HEADER'
+## 🤖 Claude Docusaurus Review
 
-              // Create comment body without using template literals or concatenation
-              const commentParts = [
-                '## 🤖 Claude Docusaurus Review',
-                '',
-                reviewContent,
-                '',
-                '---',
-                '',
-                '<sub>Automated review by Claude Code</sub>'
-              ];
-              
-              const summary = commentParts.join('\n');
+HEADER
 
-              await github.rest.issues.createComment({
-                issue_number: context.issue.number,
-                owner: context.repo.owner,
-                repo: context.repo.repo,
-                body: summary
-              });
-              
-              console.log('Review posted successfully');
-            } catch (error) {
-              console.error('Error processing review:', error);
-              core.setFailed(error.message);
-            }
+          # Append the review content
+          echo "$REVIEW_CONTENT" >> /tmp/comment.md
+
+          # Add footer
+          cat >> /tmp/comment.md << 'FOOTER'
+
+---
+
+<sub>Automated review by Claude Code</sub>
+FOOTER
+
+          # Post comment using GitHub API
+          jq -n --arg body "$(cat /tmp/comment.md)" '{body: $body}' | \
+          curl -X POST \
+            -H "Authorization: token $GH_TOKEN" \
+            -H "Accept: application/vnd.github.v3+json" \
+            "https://api.github.com/repos/${{ github.repository }}/issues/$PR_NUMBER/comments" \
+            -d @-
+
+          echo "Review posted successfully"
