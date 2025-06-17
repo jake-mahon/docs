@@ -115,7 +115,7 @@ EOF
           github-token: ${{ secrets.NETWRIX_PROMPT_REPO_TOKEN }}
           script: |
             const fs = require('fs');
-            const executionFile = '${{ steps.claude-review.outputs.execution_file }}';
+            const executionFile = process.env.EXECUTION_FILE;
 
             if (!fs.existsSync(executionFile)) {
               console.log('No execution file found');
