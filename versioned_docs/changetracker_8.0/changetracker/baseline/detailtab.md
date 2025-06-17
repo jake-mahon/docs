@@ -1,7 +1,0 @@
-# Detail Tab
-
-This provides the detail behind individual report runs and specifically shows the devices in each
-decile or percentile selected. See the Reports topic for the additional information about passes and
-failures.
-
-![baselinedetailstab](/img/versioned_docs/changetracker_8.0/changetracker/baseline/baselinedetailstab.webp)
