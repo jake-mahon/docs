@@ -66,18 +66,18 @@ database. You may proceed through the migration process in the following menu.
 **NOTE:** The migration of PostgreSQL 10 to 14 may require significant disk space to perform safely.
 The disk space required for the backup does not need to be on the same disk as the database itself.
 
-![updatentm](../../../../../../static/img/product_docs/threatmanager/threatmanager/install/updatentm.webp)
+![updatentm](../../../../../static/img/product_docs/threatmanager/threatmanager/install/updatentm.webp)
 
 **Step 4 –** Install the new version of Threat Manager.
 
 **Step 5 –** Click **Test** on the **Connect to a Threat Manager Database** page. The installer
 should see the existing PostgreSQL database and prompt to migrate.
 
-![postgresqlwarning](../../../../../../static/img/product_docs/threatmanager/threatmanager/install/postgresqlwarning.webp)
+![postgresqlwarning](../../../../../static/img/product_docs/threatmanager/threatmanager/install/postgresqlwarning.webp)
 
 **Step 6 –** Click **OK**, click **Next**, then click **Test**. You will see the following message.
 
-![readyformigration](../../../../../../static/img/product_docs/threatmanager/threatmanager/install/readyformigration.webp)
+![readyformigration](../../../../../static/img/product_docs/threatmanager/threatmanager/install/readyformigration.webp)
 
 **Step 7 –** Click **Next**.
 
@@ -123,7 +123,7 @@ presence of a red warning triangle.
 **NOTE:** Non-local action services will need their app tokens updated. Local action services will
 be automatically updated.
 
-![apptokensdep](../../../../../../static/img/product_docs/threatmanager/threatmanager/install/apptokensdep.webp)
+![apptokensdep](../../../../../static/img/product_docs/threatmanager/threatmanager/install/apptokensdep.webp)
 
 **Step 3 –** Take note of the app token name and description and create a new one to be used with
 the application. See the

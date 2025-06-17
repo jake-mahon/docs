@@ -6,7 +6,7 @@ behaviors that deviate from the user's normal behavioral profile. Abnormal behav
 when a user has been active for a minimum of 30 days, with up to 120 days of activity used to
 establish the baseline behavior for a user.
 
-![abnormalbehavior](../../../../../../../static/img/product_docs/threatmanager/threatmanager/administration/threatdetails/abnormalbehavior.webp)
+![abnormalbehavior](../../../../../../static/img/product_docs/threatmanager/threatmanager/administration/threatdetails/abnormalbehavior.webp)
 
 The top of the page shows the number of each of the following:
 

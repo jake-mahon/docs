@@ -2,7 +2,7 @@
 
 Follow the steps to edit a playbook step.
 
-![playbookstep](../../../../../../../static/img/product_docs/threatmanager/threatmanager/administration/playbooks/playbookstep.webp)
+![playbookstep](../../../../../../static/img/product_docs/threatmanager/threatmanager/administration/playbooks/playbookstep.webp)
 
 **Step 1 –** Click the step in the playbook to expand it.
 

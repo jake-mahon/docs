@@ -12,7 +12,7 @@ about the various resources related to threats and events in Threat Manager. Pag
 
 - [Application Details Page](entraidapplication.md)
 
-![threatlist](../../../../../../../static/img/product_docs/threatmanager/threatmanager/administration/threatlist.webp)
+![threatlist](../../../../../../static/img/product_docs/threatmanager/threatmanager/administration/threatlist.webp)
 
 The [Threats Page](../threats.md) contains a threats list with hyperlinks which can be clicked to
 access these pages.
@@ -26,7 +26,7 @@ elements.
 
 The profile card displays information about the selected user, application, group, or role.
 
-![Entra ID User Profile Card](../../../../../../../static/img/product_docs/threatmanager/threatmanager/administration/threatdetails/entraiduserprofilecard.webp)
+![Entra ID User Profile Card](../../../../../../static/img/product_docs/threatmanager/threatmanager/administration/threatdetails/entraiduserprofilecard.webp)
 
 - Name
 - UPN
@@ -42,7 +42,7 @@ The profile card displays information about the selected user, application, grou
 
 Depending on the selected user, group, application or role, the following tabs may be displayed:
 
-![Tabs](../../../../../../../static/img/product_docs/threatmanager/threatmanager/administration/threatdetails/tabs.webp)
+![Tabs](../../../../../../static/img/product_docs/threatmanager/threatmanager/administration/threatdetails/tabs.webp)
 
 - Threats Tab – Displays a chart with threats detected for a Microsoft Entra ID object
 - Activity Summary Tab – Depending on the selected object, the page may display the following
@@ -71,7 +71,7 @@ Add an Existing Tag
 
 Follow the steps to add a tag to a user, group, or computer
 
-![Existing Tags List](../../../../../../../static/img/product_docs/threatmanager/threatmanager/administration/threatdetails/addtagbutton.webp)
+![Existing Tags List](../../../../../../static/img/product_docs/threatmanager/threatmanager/administration/threatdetails/addtagbutton.webp)
 
 **Step 1 –** Click the Add Tag button.
 

@@ -3,7 +3,7 @@
 The Home page provides an "at a glance" overview of the possible threats detected in an
 organization's environment for the past 24 hours.
 
-![homepage](../../../../../../static/img/product_docs/threatmanager/threatmanager/administration/homepage.webp)
+![homepage](../../../../../static/img/product_docs/threatmanager/threatmanager/administration/homepage.webp)
 
 The daily activity summary bar graphs at the top of the page contains the following items:
 

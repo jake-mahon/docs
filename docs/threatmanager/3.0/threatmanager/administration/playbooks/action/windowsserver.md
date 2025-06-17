@@ -4,7 +4,7 @@ The following actions target Windows servers.
 
 ## Close SMB Session
 
-![closesmbsession](../../../../../../../../static/img/product_docs/threatmanager/threatmanager/administration/playbooks/action/closesmbsession.webp)
+![closesmbsession](../../../../../../../static/img/product_docs/threatmanager/threatmanager/administration/playbooks/action/closesmbsession.webp)
 
 This action closes any active SMB sessions for the threat perpetrator on a target host.
 
@@ -15,7 +15,7 @@ This action closes any active SMB sessions for the threat perpetrator on a targe
 
 ## Create Windows Firewall Rule
 
-![windowsfirewall](../../../../../../../../static/img/product_docs/threatmanager/threatmanager/administration/playbooks/action/windowsfirewall.webp)
+![windowsfirewall](../../../../../../../static/img/product_docs/threatmanager/threatmanager/administration/playbooks/action/windowsfirewall.webp)
 
 This action adds a Windows Firewall Rule to block inbound or outbound network protocol traffic for
 specified hosts.
@@ -43,7 +43,7 @@ specified hosts.
 
 ## Disable User Remote Desktop Access
 
-![disableuserremote](../../../../../../../../static/img/product_docs/threatmanager/threatmanager/administration/playbooks/action/disableuserremote.webp)
+![disableuserremote](../../../../../../../static/img/product_docs/threatmanager/threatmanager/administration/playbooks/action/disableuserremote.webp)
 
 This action disconnects the user from the host and disables login rights for the user.
 

@@ -33,7 +33,7 @@ timeframe, to generate the report.
 The Event Details tab provides a view of all events matching the criteria specified for the
 investigation.
 
-![Events Detaisl section of an investigation report](../../../../../../../static/img/product_docs/threatprevention/threatprevention/reportingmodule/investigations/eventdetails.webp)
+![Events Detaisl section of an investigation report](../../../../../../static/img/product_docs/threatprevention/threatprevention/reportingmodule/investigations/eventdetails.webp)
 
 The table displays the following data:
 
@@ -71,7 +71,7 @@ See the [Host Details Page](../threatdetails/host.md) topic and the
 The Events Over Time section displays a bar graph and pie chart for events matching the criteria
 specified for the investigation.
 
-![Events Over Time section of an Investigations report](../../../../../../../static/img/product_docs/threatprevention/threatprevention/reportingmodule/investigations/eventsovertime.webp)
+![Events Over Time section of an Investigations report](../../../../../../static/img/product_docs/threatprevention/threatprevention/reportingmodule/investigations/eventsovertime.webp)
 
 - Hover over a time period to view the type of event and number of events logged for that timeframe.
 - Hover over the pie chart to view the total number of each type of event. The total number of all
@@ -82,7 +82,7 @@ specified for the investigation.
 The Top Resources tab displays summary statistics for perpetrators (users) and targets (hosts)
 associated with the events matching the criteria specified for the investigation.
 
-![Top Resources section of an Investigations report](../../../../../../../static/img/product_docs/threatprevention/threatprevention/reportingmodule/investigations/topresources.webp)
+![Top Resources section of an Investigations report](../../../../../../static/img/product_docs/threatprevention/threatprevention/reportingmodule/investigations/topresources.webp)
 
 The tab contains two tables:
 

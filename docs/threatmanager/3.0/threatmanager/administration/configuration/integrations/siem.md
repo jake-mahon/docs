@@ -6,7 +6,7 @@ SIEM server.
 
 Follow the instructions to enable SIEM notifications.
 
-![siempage](../../../../../../../../static/img/product_docs/threatmanager/threatmanager/administration/configuration/integrations/siempage.webp)
+![siempage](../../../../../../../static/img/product_docs/threatmanager/threatmanager/administration/configuration/integrations/siempage.webp)
 
 **Step 1 –** In the Integrations box, click **SIEM**. The SIEM window opens.
 

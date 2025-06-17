@@ -2,12 +2,12 @@
 
 The installer places the following icon on the desktop, which opens the Threat Manager console:
 
-![Desktop icon](../../../../../../static/img/product_docs/threatprevention/threatprevention/install/desktopicon.webp)
+![Desktop icon](../../../../../static/img/product_docs/threatprevention/threatprevention/install/desktopicon.webp)
 
 **Step 1 –** Double-click the **Netwrix Threat Manager Dashboard** icon to open the console for the
 first time.
 
-![First launch showing fields for setting up the builtin Administrator account](../../../../../../static/img/product_docs/threatprevention/threatprevention/install/reportingmodule/builtinadminpassword.webp)
+![First launch showing fields for setting up the builtin Administrator account](../../../../../static/img/product_docs/threatprevention/threatprevention/install/reportingmodule/builtinadminpassword.webp)
 
 There is a built-in ADMIN account used for the initial configuration steps and granting user access.
 The User Name is "admin". You will set the password and optionally enable MFA for this account
@@ -43,7 +43,7 @@ the Configure MFA for the Bultin Administrator Account topic.
 If MFA was enabled for the buildtin Administrator account during first launch, follow the steps to
 configure MFA for the account.
 
-![registerauthenticator](../../../../../../static/img/product_docs/threatprevention/threatprevention/install/reportingmodule/registerauthenticator.webp)
+![registerauthenticator](../../../../../static/img/product_docs/threatprevention/threatprevention/install/reportingmodule/registerauthenticator.webp)
 
 **Step 1 –** Register the MFA authenticator. The Register Authenticator prompt will provide
 instructions to configure multi-factor authentication with an external or third-party application.

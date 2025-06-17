@@ -6,7 +6,7 @@ and third-party systems and applications.
 Use the gear icon in the upper right corner of the console to open the Configuration menu. Then
 select **Integrations** to open the Integrations interface.
 
-![interface](../../../../../../../../static/img/product_docs/threatprevention/threatprevention/reportingmodule/interface.webp)
+![interface](../../../../../../../static/img/product_docs/threatprevention/threatprevention/reportingmodule/interface.webp)
 
 It contains the following integration pages:
 

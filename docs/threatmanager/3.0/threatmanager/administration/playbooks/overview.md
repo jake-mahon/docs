@@ -17,7 +17,7 @@ Threat Manager threats and threat responses, automatic triggering of playbooks c
 
 Follow the steps to add a playbook.
 
-![threatresponse](../../../../../../../static/img/product_docs/threatmanager/threatmanager/administration/configuration/threatresponse.webp)
+![threatresponse](../../../../../../static/img/product_docs/threatmanager/threatmanager/administration/configuration/threatresponse.webp)
 
 **Step 1 –** In the Threat Response box, click New Playbook. A new playbook called "My Playbook 1"
 is created. As additional Playbooks are added, sequential numbers are appended to My Playbook.
@@ -40,7 +40,7 @@ Tab topic for additional information.
 
 Playbooks are configured using the tabs on the Threat Response page.
 
-![playbooktabs](../../../../../../../static/img/product_docs/threatmanager/threatmanager/administration/playbooks/playbooktabs.webp)
+![playbooktabs](../../../../../../static/img/product_docs/threatmanager/threatmanager/administration/playbooks/playbooktabs.webp)
 
 The Threat Response page contains the following configuration tabs:
 
@@ -54,7 +54,7 @@ The Threat Response page contains the following configuration tabs:
 The General Tab contains the Allowed Threats box which allows customization of which threats are
 applicable for the selected playbook.
 
-![generaltab](../../../../../../../static/img/product_docs/threatprevention/threatprevention/admin/policies/generaltab.webp)
+![generaltab](../../../../../../static/img/product_docs/threatprevention/threatprevention/admin/policies/generaltab.webp)
 
 The General tab has the following configuration options:
 
@@ -76,7 +76,7 @@ additional information.
 
 Follow the instructions to add steps to a Playbook.
 
-![actionstab](../../../../../../../static/img/product_docs/threatprevention/threatprevention/admin/policies/actions/actionstab.webp)
+![actionstab](../../../../../../static/img/product_docs/threatprevention/threatprevention/admin/policies/actions/actionstab.webp)
 
 **Step 1 –** Select the playbook from the Playbooks list in the Threat Response box or on the
 Playbooks overview.
@@ -86,7 +86,7 @@ playbook.
 
 **Step 3 –** Enter the following information in the box:
 
-![addstep](../../../../../../../static/img/product_docs/threatmanager/threatmanager/administration/playbooks/addstep.webp)
+![addstep](../../../../../../static/img/product_docs/threatmanager/threatmanager/administration/playbooks/addstep.webp)
 
 - Display Name – The desired name for the step
 - Action Type – The type of action to take for the threat response. Select the desired action from
@@ -105,7 +105,7 @@ Follow-Up Playbooks can be configured on the Follow-Up tab. Follow-Up playbooks 
 playbooks to run once the playbook has completed. This allows a (Undefined variable: SD.Product
 Short Name) administrator to sequence a series of playbooks together as part of a threat response.
 
-![followuptab](../../../../../../../static/img/product_docs/threatmanager/threatmanager/administration/playbooks/followuptab.webp)
+![followuptab](../../../../../../static/img/product_docs/threatmanager/threatmanager/administration/playbooks/followuptab.webp)
 
 The Follow-Up tab has the following configuration options:
 
@@ -121,7 +121,7 @@ Click **Save** to save the configured settings.
 Click the Logs tab to access the Playbook Execution History table. The table lists all playbook
 executions and also provides the ability to search the table.
 
-![This screenshot displays the Logs tab on the Threat Response page.](../../../../../../../static/img/product_docs/threatmanager/threatmanager/administration/playbooks/logstab.webp)
+![This screenshot displays the Logs tab on the Threat Response page.](../../../../../../static/img/product_docs/threatmanager/threatmanager/administration/playbooks/logstab.webp)
 
 The table provides the following information:
 
@@ -149,7 +149,7 @@ The Action Log window contains a Logs tab and a Step Details tab.
 
 The Logs tab displays logs for the playbook execution.
 
-![This screenshot displays the Logs tab on the Action Log window.](../../../../../../../static/img/product_docs/threatmanager/threatmanager/administration/playbooks/logstab.webp)
+![This screenshot displays the Logs tab on the Action Log window.](../../../../../../static/img/product_docs/threatmanager/threatmanager/administration/playbooks/logstab.webp)
 
 The Logs tab displays a table with the following columns:
 
@@ -161,7 +161,7 @@ The Logs tab displays a table with the following columns:
 
 The Step Details tab displays information about the action steps in the playbook execution.
 
-![This screenshot displays the Step Details tab on the Action Log window.](../../../../../../../static/img/product_docs/threatmanager/threatmanager/administration/playbooks/stepdetailstab.webp)
+![This screenshot displays the Step Details tab on the Action Log window.](../../../../../../static/img/product_docs/threatmanager/threatmanager/administration/playbooks/stepdetailstab.webp)
 
 The Step Details tab contains a table with the following columns:
 
