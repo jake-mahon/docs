@@ -66,24 +66,24 @@ jobs:
       - name: Create review prompt
         if: steps.check-files.outputs.skip_review != 'true'
         run: |
-          cat > /tmp/review-prompt.txt << 'EOF'
-Review this pull request focusing exclusively on Docusaurus infrastructure and configuration files. 
+          cat > /tmp/review-prompt.txt << 'REVIEW_PROMPT_EOF'
+          Review this pull request focusing exclusively on Docusaurus infrastructure and configuration files. 
 
-Analyze changes to:
-- docusaurus.config.js (site configuration, plugins, themes)
-- sidebars.js (navigation structure)
-- package.json (dependencies, scripts)
-- Build configuration files
-- Source code in src/ directory
-- GitHub Actions workflows
+          Analyze changes to:
+          - docusaurus.config.js (site configuration, plugins, themes)
+          - sidebars.js (navigation structure)
+          - package.json (dependencies, scripts)
+          - Build configuration files
+          - Source code in src/ directory
+          - GitHub Actions workflows
 
-For each issue found, provide:
-1. Clear explanation of the problem
-2. Specific code suggestion with reasoning
-3. Potential impact on the documentation site
+          For each issue found, provide:
+          1. Clear explanation of the problem
+          2. Specific code suggestion with reasoning
+          3. Potential impact on the documentation site
 
-Ignore all .md and .mdx files - focus only on the technical infrastructure.
-EOF
+          Ignore all .md and .mdx files - focus only on the technical infrastructure.
+          REVIEW_PROMPT_EOF
 
       - name: Read system prompt for append
         if: steps.check-files.outputs.skip_review != 'true'
@@ -129,6 +129,145 @@ EOF
 
           # Create comment file with proper escaping
           cat > /tmp/comment.md << 'HEADER'
+          ## 🤖 Claude Docusaurus Rname: Claude Code Documentation Review
+on:
+  pull_request:
+    branches: 
+      - main
+      - dev
+      - fix/homepage-updates
+    paths-ignore:
+      - '**.md'
+      - '**.mdx'
+jobs:
+  claude-review:
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: read
+      pull-requests: write
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
+
+      - name: Fetch system prompt from private repo
+        id: fetch-prompt
+        env:
+          GH_TOKEN: ${{ secrets.NETWRIX_PROMPT_REPO_TOKEN }}
+        run: |
+          echo "Fetching system prompt..."
+          
+          RESPONSE=$(curl -s -w "\n%{http_code}" \
+               -H "Authorization: token $GH_TOKEN" \
+               -H "Accept: application/vnd.github.v3.raw" \
+               https://api.github.com/repos/netwrix/action-agent-prompts/contents/docs-dev.md?ref=main)
+          
+          HTTP_CODE=$(echo "$RESPONSE" | tail -n1)
+          CONTENT=$(echo "$RESPONSE" | head -n-1)
+          
+          if [ "$HTTP_CODE" != "200" ]; then
+            echo "Failed to fetch system prompt (HTTP $HTTP_CODE)"
+            exit 1
+          fi
+          
+          echo "$CONTENT" > /tmp/system-prompt.md
+          echo "System prompt fetched successfully"
+
+      - name: Check for Docusaurus changes
+        id: check-files
+        run: |
+          CHANGED_FILES=$(git diff --name-only HEAD~1)
+
+          DOCUSAURUS_FILES=$(echo "$CHANGED_FILES" | grep -E "(docusaurus\.config\.js|sidebars?\.js|babel\.config\.js|package\.json|\.github/|src/)" || true)
+
+          if [ -z "$DOCUSAURUS_FILES" ]; then
+            echo "No Docusaurus infrastructure files changed. Skipping review."
+            echo "skip_review=true" >> $GITHUB_OUTPUT
+          else
+            echo "skip_review=false" >> $GITHUB_OUTPUT
+            echo "### 🎯 Docusaurus Files Changed" >> $GITHUB_STEP_SUMMARY
+            echo '```' >> $GITHUB_STEP_SUMMARY
+            echo "$DOCUSAURUS_FILES" >> $GITHUB_STEP_SUMMARY
+            echo '```' >> $GITHUB_STEP_SUMMARY
+          fi
+
+      - name: Create review prompt
+        if: steps.check-files.outputs.skip_review != 'true'
+        run: |
+          cat > /tmp/review-prompt.txt << 'EOF'
+Review this pull request focusing exclusively on Docusaurus infrastructure and configuration files. 
+
+Analyze changes to:
+- docusaurus.config.js (site configuration, plugins, themes)
+- sidebars.js (navigation structure)
+- package.json (dependencies, scripts)
+- Build configuration files
+- Source code in src/ directory
+- GitHub Actions workflows
+
+For each issue found, provide:
+1. Clear explanation of the problem
+2. Specific code suggestion with reasoning
+3. Potential impact on the documentation site
+
+Ignore all .md and .mdx files - focus only on the technical infrastructure.
+EOF
+
+      - name: Read system prompt for append
+        if: steps.check-files.outputs.skip_review != 'true'
+        id: read-prompt
+        run: |
+          SYSTEM_PROMPT=$(cat /tmp/system-prompt.md)
+          echo "system_content<<EOF" >> $GITHUB_OUTPUT
+          echo "$SYSTEM_PROMPT" >> $GITHUB_OUTPUT
+          echo "EOF" >> $GITHUB_OUTPUT
+
+      - name: Run Claude Code Review
+        if: steps.check-files.outputs.skip_review != 'true'
+        id: claude-review
+        uses: anthropics/claude-code-base-action@beta
+        with:
+          prompt_file: /tmp/review-prompt.txt
+          append_system_prompt: ${{ steps.read-prompt.outputs.system_content }}
+          allowed_tools: "Read,Grep,Glob,LS"
+          anthropic_api_key: ${{ secrets.ANTHROPIC_API_KEY }}
+          timeout_minutes: "15"
+          max_turns: "20"
+          model: "claude-sonnet-4-20250514"
+
+- name: Post review summary (bash)
+        if: steps.claude-review.conclusion == 'success'
+        env:
+          EXECUTION_FILE: ${{ steps.claude-review.outputs.execution_file }}
+          GH_TOKEN: ${{ secrets.NETWRIX_PROMPT_REPO_TOKEN }}
+          PR_NUMBER: ${{ github.event.pull_request.number }}
+        run: |
+          if [ ! -f "$EXECUTION_FILE" ]; then
+            echo "No execution file found"
+            exit 0
+          fi
+
+          # Extract the last assistant message using jq - handle the nested structure
+          REVIEW_CONTENT=$(jq -r '
+            .[] | 
+            select(.type == "assistant") | 
+            .message.content[]? | 
+            select(.type == "text") | 
+            .text
+          ' "$EXECUTION_FILE" | tail -1)
+
+          if [ -z "$REVIEW_CONTENT" ]; then
+            echo "No review content found"
+            echo "Execution file contents:"
+            cat "$EXECUTION_FILE" | jq '.' | head -100
+            exit 0
+          fi
+
+          # Create comment file with proper escaping
+          cat > /tmp/comment.md << 'HEADER'
 ## 🤖 Claude Docusaurus Review
 
 HEADER
@@ -143,6 +282,29 @@ HEADER
 
 <sub>Automated review by Claude Code</sub>
 FOOTER
+
+          # Post comment using GitHub API
+          jq -n --arg body "$(cat /tmp/comment.md)" '{body: $body}' | \
+          curl -X POST \
+            -H "Authorization: token $GH_TOKEN" \
+            -H "Accept: application/vnd.github.v3+json" \
+            "https://api.github.com/repos/${{ github.repository }}/issues/$PR_NUMBER/comments" \
+            -d @-
+
+          echo "Review posted successfully"eview
+
+          HEADER
+
+          # Append the review content
+          echo "$REVIEW_CONTENT" >> /tmp/comment.md
+
+          # Add footer
+          cat >> /tmp/comment.md << 'FOOTER'
+
+          ---
+
+          <sub>Automated review by Claude Code</sub>
+          FOOTER
 
           # Post comment using GitHub API
           jq -n --arg body "$(cat /tmp/comment.md)" '{body: $body}' | \
