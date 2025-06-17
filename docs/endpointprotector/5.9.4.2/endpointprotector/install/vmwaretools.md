@@ -78,7 +78,7 @@ to the path where your virtual machines are stored.
 **Step 5 –** If asked if the Virtual Machine was copied or moved, select **I moved it** (if it is
 the only Endpoint Protector Virtual Appliance in your network).
 
-![Select I moved it](../../../../static/img/product_docs/endpointprotector/endpointprotector/install/vmwaremoved.webp)
+![Select I moved it](../../../../../static/img/product_docs/endpointprotector/endpointprotector/install/vmwaremoved.webp)
 
 The Virtual Machine is started and ready for use.
 
@@ -133,7 +133,7 @@ extracted it and then click **Open**.
 **Step 5 –** If asked if the Virtual Machine was copied or moved, select **I moved it** (if it is
 the only Endpoint Protector Virtual Appliance in your network).
 
-![Select I moved it](../../../../static/img/product_docs/endpointprotector/endpointprotector/install/vmwaremoved.webp)
+![Select I moved it](../../../../../static/img/product_docs/endpointprotector/endpointprotector/install/vmwaremoved.webp)
 
 At this point, the Virtual Machine is ready to be started.
 

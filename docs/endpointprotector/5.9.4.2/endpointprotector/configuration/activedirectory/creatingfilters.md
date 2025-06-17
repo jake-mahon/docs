@@ -23,7 +23,7 @@ providing the name, description, and queries;
 
 **Step 4 –** The new filters will be displayed in the WMI Filters folder.
 
-![Newly Created Windows Management Instrumentation Filters](../../../../../static/img/product_docs/endpointprotector/endpointprotector/configuration/activedirectory/createdwmifilters_118x25.webp)
+![Newly Created Windows Management Instrumentation Filters](../../../../../../static/img/product_docs/endpointprotector/endpointprotector/configuration/activedirectory/createdwmifilters_118x25.webp)
 
 Selecting the 32-bit and 64-bit operating systems:
 
