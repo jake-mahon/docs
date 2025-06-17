@@ -87,18 +87,27 @@ jobs:
           Ignore all .md and .mdx files - focus only on the technical infrastructure.
           EOF
       
+      - name: Read system prompt for append
+        if: steps.check-files.outputs.skip_review != 'true'
+        id: read-prompt
+        run: |
+          SYSTEM_PROMPT=$(cat /tmp/system-prompt.md)
+          echo "system_content<<EOF" >> $GITHUB_OUTPUT
+          echo "$SYSTEM_PROMPT" >> $GITHUB_OUTPUT
+          echo "EOF" >> $GITHUB_OUTPUT
+      
       - name: Run Claude Code Review
         if: steps.check-files.outputs.skip_review != 'true'
         id: claude-review
         uses: anthropics/claude-code-base-action@beta
         with:
           prompt_file: /tmp/review-prompt.txt
-          append_system_prompt_file: /tmp/system-prompt.md
+          append_system_prompt: ${{ steps.read-prompt.outputs.system_content }}
           allowed_tools: "Read,Grep,Glob,LS"
           anthropic_api_key: ${{ secrets.ANTHROPIC_API_KEY }}
           timeout_minutes: "15"
           max_turns: "20"
-          model: "claude-3-opus-20240229"
+          model: "claude-sonnet-4-20250514"
       
       - name: Post review summary
         if: steps.claude-review.conclusion == 'success'
@@ -142,4 +151,5 @@ jobs:
               
             } catch (error) {
               console.error('Error processing review:', error);
+            }
             }
