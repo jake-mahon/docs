@@ -49,5 +49,5 @@ jobs:
           # Allow all tools - Claude will have full capabilities
           # This includes file operations, searching, editing, etc.
           allowed_tools: ""
-          max_turns: "10"
-          timeout_minutes: "15"
+          max_turns: "150"
+          timeout_minutes: "30"
