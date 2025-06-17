@@ -12,17 +12,17 @@ on:
 jobs:
   claude-review:
     runs-on: ubuntu-latest
-    
+
     permissions:
       contents: read
       pull-requests: write
-    
+
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
         with:
           fetch-depth: 2
-      
+
       - name: Fetch system prompt from private repo
         id: fetch-prompt
         env:
@@ -45,15 +45,14 @@ jobs:
           
           echo "$CONTENT" > /tmp/system-prompt.md
           echo "System prompt fetched successfully"
-      
+
       - name: Check for Docusaurus changes
         id: check-files
         run: |
           CHANGED_FILES=$(git diff --name-only HEAD~1)
-          
-          # Focus on Docusaurus infrastructure files
+
           DOCUSAURUS_FILES=$(echo "$CHANGED_FILES" | grep -E "(docusaurus\.config\.js|sidebars?\.js|babel\.config\.js|package\.json|\.github/|src/)" || true)
-          
+
           if [ -z "$DOCUSAURUS_FILES" ]; then
             echo "No Docusaurus infrastructure files changed. Skipping review."
             echo "skip_review=true" >> $GITHUB_OUTPUT
@@ -64,29 +63,29 @@ jobs:
             echo "$DOCUSAURUS_FILES" >> $GITHUB_STEP_SUMMARY
             echo '```' >> $GITHUB_STEP_SUMMARY
           fi
-      
+
       - name: Create review prompt
         if: steps.check-files.outputs.skip_review != 'true'
         run: |
           cat > /tmp/review-prompt.txt << 'EOF'
-          Review this pull request focusing exclusively on Docusaurus infrastructure and configuration files. 
+Review this pull request focusing exclusively on Docusaurus infrastructure and configuration files. 
 
-          Analyze changes to:
-          - docusaurus.config.js (site configuration, plugins, themes)
-          - sidebars.js (navigation structure)
-          - package.json (dependencies, scripts)
-          - Build configuration files
-          - Source code in src/ directory
-          - GitHub Actions workflows
+Analyze changes to:
+- docusaurus.config.js (site configuration, plugins, themes)
+- sidebars.js (navigation structure)
+- package.json (dependencies, scripts)
+- Build configuration files
+- Source code in src/ directory
+- GitHub Actions workflows
 
-          For each issue found, provide:
-          1. Clear explanation of the problem
-          2. Specific code suggestion with reasoning
-          3. Potential impact on the documentation site
+For each issue found, provide:
+1. Clear explanation of the problem
+2. Specific code suggestion with reasoning
+3. Potential impact on the documentation site
 
-          Ignore all .md and .mdx files - focus only on the technical infrastructure.
-          EOF
-      
+Ignore all .md and .mdx files - focus only on the technical infrastructure.
+EOF
+
       - name: Read system prompt for append
         if: steps.check-files.outputs.skip_review != 'true'
         id: read-prompt
@@ -95,7 +94,7 @@ jobs:
           echo "system_content<<EOF" >> $GITHUB_OUTPUT
           echo "$SYSTEM_PROMPT" >> $GITHUB_OUTPUT
           echo "EOF" >> $GITHUB_OUTPUT
-      
+
       - name: Run Claude Code Review
         if: steps.check-files.outputs.skip_review != 'true'
         id: claude-review
@@ -108,7 +107,7 @@ jobs:
           timeout_minutes: "15"
           max_turns: "20"
           model: "claude-sonnet-4-20250514"
-      
+
       - name: Post review summary
         if: steps.claude-review.conclusion == 'success'
         uses: actions/github-script@v7
@@ -117,16 +116,15 @@ jobs:
           script: |
             const fs = require('fs');
             const executionFile = '${{ steps.claude-review.outputs.execution_file }}';
-            
+
             if (!fs.existsSync(executionFile)) {
               console.log('No execution file found');
               return;
             }
-            
+
             try {
               const executionLog = JSON.parse(fs.readFileSync(executionFile, 'utf8'));
-              
-              // Get Claude's final response
+
               let reviewContent = '';
               for (let i = executionLog.length - 1; i >= 0; i--) {
                 if (executionLog[i].role === 'assistant' && executionLog[i].content) {
@@ -134,18 +132,17 @@ jobs:
                   break;
                 }
               }
-              
-              const summary = "## 🤖 Claude Docusaurus Review\n\n" + 
-                             reviewContent + 
-                             "\n\n---\n<sub>Automated review by Claude Code</sub>";
-              
+
+              const summary = "## 🤖 Claude Docusaurus Review\n\n" +
+                              reviewContent +
+                              "\n\n---\n<sub>Automated review by Claude Code</sub>";
+
               await github.rest.issues.createComment({
                 issue_number: context.issue.number,
                 owner: context.repo.owner,
                 repo: context.repo.repo,
                 body: summary
               });
-              
             } catch (error) {
               console.error('Error processing review:', error);
             }
