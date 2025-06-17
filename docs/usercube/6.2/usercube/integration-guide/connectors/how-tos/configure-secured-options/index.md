@@ -31,7 +31,7 @@ Configure a secured option by proceeding as follows:
 
 2. Fill the field(s) and, if needed, click on the eye icon to make the content visible.
 
-    ![Eye Icon](../../../../../../../static/img/product_docs/usercube/usercube/user-guide/set-up/synchronization/iconeye_v600.svg)
+    ![Eye Icon](../../../../../../../../static/img/product_docs/usercube/usercube/user-guide/set-up/synchronization/iconeye_v600.svg)
 
     > For example, for a simple field in an AD connection, the **Login** and **Password** are by
     > default hidden with ??????:

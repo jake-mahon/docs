@@ -6,7 +6,7 @@ The following action targets Threat Manager.
 
 This action adds tags to objects associated with a threat.
 
-![tagobject](../../../../../../../static/img/product_docs/threatmanager/threatmanager/administration/playbooks/action/tagobject.webp)
+![tagobject](../../../../../../../../static/img/product_docs/threatmanager/threatmanager/administration/playbooks/action/tagobject.webp)
 
 - Tags – Select the tags to be applied to the object.
 - Action – Specify whether to add or remove tags. If not specified, the tag will be added.
@@ -17,7 +17,7 @@ This action adds tags to objects associated with a threat.
 
 This action adds or removes a user from a blocking policy.
 
-![manageblockingpolicy](../../../../../../../static/img/product_docs/threatmanager/threatmanager/administration/playbooks/action/manageblockingpolicy.webp)
+![manageblockingpolicy](../../../../../../../../static/img/product_docs/threatmanager/threatmanager/administration/playbooks/action/manageblockingpolicy.webp)
 
 - Users – The users to have their RDP Session ended. If not specified, the user who triggered the
   threat will be used. Select the users from the drop-down list.

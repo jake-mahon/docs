@@ -4,7 +4,7 @@ The Folder Settings page within the Integrations interface allows users to desig
 Investigation exports folder location. Additionally, a shared folder can be provided for
 subscription purposes.
 
-![Integrations interface on the Folder Settings page](../../../../../../../static/img/product_docs/threatprevention/threatprevention/reportingmodule/configuration/systemsettings/page.webp)
+![Integrations interface on the Folder Settings page](../../../../../../../../static/img/product_docs/threatprevention/threatprevention/reportingmodule/configuration/systemsettings/page.webp)
 
 By default, Investigation exports are placed in the Downloads folder of the logged in user, on the
 machine where that user is accessing the application. When a Local Folder path is designated, all
@@ -12,7 +12,7 @@ Investigation exports are also stored in the specified folder on the application
 
 When shared folders are added, they are displayed in a table at bottom of the page.
 
-![Shared Folder table on the Folders Settings page](../../../../../../../static/img/product_docs/threatprevention/threatprevention/reportingmodule/configuration/integrations/sharedfoldertable.webp)
+![Shared Folder table on the Folders Settings page](../../../../../../../../static/img/product_docs/threatprevention/threatprevention/reportingmodule/configuration/integrations/sharedfoldertable.webp)
 
 The Shared Folders table has the following columns:
 
@@ -27,7 +27,7 @@ Additional Options
 
 When you hover over a row within the Shared Folders table, three additional options are displayed:
 
-![Shared Folder table on the Folders Settings page showing additional options](../../../../../../../static/img/product_docs/threatprevention/threatprevention/reportingmodule/configuration/integrations/additionaloptions.webp)
+![Shared Folder table on the Folders Settings page showing additional options](../../../../../../../../static/img/product_docs/threatprevention/threatprevention/reportingmodule/configuration/integrations/additionaloptions.webp)
 
 - Refresh Arrow – Tests the shared folder configuration
 - Edit – Opens the Add New Shared Folder window to edit the configured settings
@@ -42,7 +42,7 @@ menu. Then select **Integrations** to open the Integrations interface.
 
 **Step 2 –** On the Integrations interface, click **Folder Settings** in the navigation pane.
 
-![Local Folder settings on the Folder Settings page](../../../../../../../static/img/product_docs/threatprevention/threatprevention/reportingmodule/configuration/integrations/localfolder.webp)
+![Local Folder settings on the Folder Settings page](../../../../../../../../static/img/product_docs/threatprevention/threatprevention/reportingmodule/configuration/integrations/localfolder.webp)
 
 **Step 3 –** In the Path field, enter a valid folder path on the server where the application is
 installed. For example, C:\Reports.
@@ -68,7 +68,7 @@ menu. Then select **Integrations** to open the Integrations interface.
 
 **Step 3 –** Click **Add Shared Folder**. The Add New Shared Folder window opens.
 
-![Add New Shared Folder window](../../../../../../../static/img/product_docs/threatprevention/threatprevention/reportingmodule/configuration/integrations/addnewsharedfolderwindow.webp)
+![Add New Shared Folder window](../../../../../../../../static/img/product_docs/threatprevention/threatprevention/reportingmodule/configuration/integrations/addnewsharedfolderwindow.webp)
 
 **Step 4 –** Enter the following information:
 

@@ -99,7 +99,7 @@ Configure the generation of unique properties by proceeding as follows:
 
 5. Click on the Save icon at the top.
 
-    ![Save Icon](../../../../../../../static/img/product_docs/usercube/usercube/user-guide/set-up/user-profile-configuration/iconsave_v602.svg)
+    ![Save Icon](../../../../../../../../static/img/product_docs/usercube/usercube/user-guide/set-up/user-profile-configuration/iconsave_v602.svg)
 
 6. Click on the **Reload** button to apply the recent changes to the application.
 

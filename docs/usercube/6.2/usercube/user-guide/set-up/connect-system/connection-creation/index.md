@@ -142,13 +142,13 @@ In order to verify the process:
 2. check that the connection appears in the **Connections** frame with the right options, and
    without the Failed icon.
 
-![Decline Icon](../../../../../../../static/img/product_docs/usercube/usercube/user-guide/set-up/connect-system/connection-creation/certifcampaign_icondecline_v522.svg)
+![Decline Icon](../../../../../../../../static/img/product_docs/usercube/usercube/user-guide/set-up/connect-system/connection-creation/certifcampaign_icondecline_v522.svg)
 
 ## Troubleshooting
 
 If the Failed icon appears, then:
 
-![Decline Icon](../../../../../../../static/img/product_docs/usercube/usercube/user-guide/set-up/connect-system/connection-creation/certifcampaign_icondecline_v522.svg)
+![Decline Icon](../../../../../../../../static/img/product_docs/usercube/usercube/user-guide/set-up/connect-system/connection-creation/certifcampaign_icondecline_v522.svg)
 
 Ensure that the schema of the connection is refreshed.
 

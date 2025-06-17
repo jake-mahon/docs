@@ -21,7 +21,7 @@ Create the entity type by proceeding as follows:
 
 2. On the connector's page, in the **Entity Types** frame, click on the addition button.
 
-    ![Addition Icon](../../../../../../../../static/img/product_docs/usercube/usercube/user-guide/set-up/categorization/classification/iconadd_v602.svg)
+    ![Addition Icon](../../../../../../../../../static/img/product_docs/usercube/usercube/user-guide/set-up/categorization/classification/iconadd_v602.svg)
 
 3. Fill in the information fields.
 

@@ -36,7 +36,7 @@ Create a connector container by proceeding as follows:
 
 2. Click on the addition icon and fill in the information fields.
 
-    ![Addition Icon](../../../../../../../static/img/product_docs/usercube/usercube/user-guide/set-up/categorization/classification/iconadd_v602.svg)
+    ![Addition Icon](../../../../../../../../static/img/product_docs/usercube/usercube/user-guide/set-up/categorization/classification/iconadd_v602.svg)
 
     ![Connector creation](../../../../../../../../static/img/product_docs/usercube/usercube/user-guide/set-up/connect-system/connector-declaration/connectorcreation_declaration_v602.webp)
 

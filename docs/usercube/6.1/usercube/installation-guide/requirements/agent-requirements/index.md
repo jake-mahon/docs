@@ -66,7 +66,7 @@ The agent's service account needs specific permissions on the
 Other permissions should be denied.
 
 > **FAQ**:
-> [How to set up directory permissions in Windows Server?](/docs/usercube/6.1/usercube/installation-guide/production-ready/server.md)
+> [How to set up directory permissions in Windows Server?](/docs/usercube/6.1/usercube/installation-guide/production-ready/server/index.md)
 
 ### Managed systems' permissions
 

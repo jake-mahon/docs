@@ -107,7 +107,7 @@ The certificate from a Windows certificate store is set up using these attribute
 Usercube Server won't start if the [PKCS #12](https://en.wikipedia.org/wiki/PKCS_12) archive set up
 during this step is identical to the one provided with the SDK. Users must provide their own
 certificate.
-[Self-signed certificates](/docs/usercube/6.1/usercube/installation-guide/production-ready/server.md)
+[Self-signed certificates](/docs/usercube/6.1/usercube/installation-guide/production-ready/server/index.md)
 are accepted as valid.
 
 ## Configuration Section Description

@@ -63,7 +63,7 @@ The agent's service account needs specific permissions on the
 Other permissions should be denied.
 
 > **FAQ**:
-> [How to set up directory permissions in Windows Server?](/docs/usercube/6.1/usercube/installation-guide/production-ready/server.md)
+> [How to set up directory permissions in Windows Server?](/docs/usercube/6.1/usercube/installation-guide/production-ready/server/index.md)
 
 ### Database permissions
 
@@ -74,7 +74,7 @@ assigned an SQL Server login with the relevant
 including necessarily either `sysadmin` or `securityadmin`.
 
 For more information, see the
-[server installation procedure](/docs/usercube/6.1/usercube/installation-guide/production-ready/server.md).
+[server installation procedure](/docs/usercube/6.1/usercube/installation-guide/production-ready/server/index.md).
 
 ## Hostname and DNS
 
@@ -101,7 +101,7 @@ Authority.
 Usercube on-premises offering requires the use of an SSL certificate trusted by all the target
 end-users' browsers. Standard practices use a certificate signed by the target organization's Public
 Key Infrastructure (PKI) root certificate authority.
-[The on-premise SSL certificate must be set up in IIS](/docs/usercube/6.1/usercube/installation-guide/production-ready/server.md).
+[The on-premise SSL certificate must be set up in IIS](/docs/usercube/6.1/usercube/installation-guide/production-ready/server/index.md).
 
 ## Emails
 

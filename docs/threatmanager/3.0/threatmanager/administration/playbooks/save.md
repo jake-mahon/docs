@@ -5,7 +5,7 @@ recreating the step.
 
 Follow the steps to save a step to the My Steps list.
 
-![playbookstep](../../../../../../static/img/product_docs/threatmanager/threatmanager/administration/playbooks/playbookstep.webp)
+![playbookstep](../../../../../../../static/img/product_docs/threatmanager/threatmanager/administration/playbooks/playbookstep.webp)
 
 **Step 1 –** Click the step in the playbook to expand it.
 

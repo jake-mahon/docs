@@ -64,7 +64,7 @@ Load identities for the first time by proceeding as follows:
 
 2. On the **Workforce** > **Data Upload** page, download the empty Excel template.
 
-    ![Upload Icon](../../../../../../../static/img/product_docs/usercube/usercube/user-guide/set-up/initial-identities-loading/load-identities/icondownload_v602.svg)
+    ![Upload Icon](../../../../../../../../static/img/product_docs/usercube/usercube/user-guide/set-up/initial-identities-loading/load-identities/icondownload_v602.svg)
 
 3. Collect identity and organizational data.
 
@@ -146,7 +146,7 @@ Load identities for the first time by proceeding as follows:
 5. Back on the **Workforce** > **Data Upload** page, upload the filled Excel file to the server in
    order to feed the data back to Identity Manager.
 
-    ![Upload Icon](../../../../../../../static/img/product_docs/usercube/usercube/user-guide/set-up/initial-identities-loading/load-identities/iconupload_v602.svg)
+    ![Upload Icon](../../../../../../../../static/img/product_docs/usercube/usercube/user-guide/set-up/initial-identities-loading/load-identities/iconupload_v602.svg)
 
     The latest uploaded file overwrites the previous one.
 

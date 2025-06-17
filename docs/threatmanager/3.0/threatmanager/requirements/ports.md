@@ -2,7 +2,7 @@
 
 Netwrix Threat Manager architecture and components interactions are shown in the figure below.
 
-![threatmanagerserver](../../../../../static/img/product_docs/threatmanager/threatmanager/requirements/threatmanagerserver.webp)
+![threatmanagerserver](../../../../../../static/img/product_docs/threatmanager/threatmanager/requirements/threatmanagerserver.webp)
 
 Configure appropriate firewall rules to allow these connections.
 

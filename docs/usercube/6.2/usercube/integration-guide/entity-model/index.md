@@ -210,7 +210,7 @@ We need to transform the input data, from the export, into something readable by
 Manager and, when writing to the external system, transform Identity Manager's data back into
 something readable by the external system.
 
-![Export and Fulfill Data transformation](../../../../../../../static/img/product_docs/usercube/usercube/integration-guide/connectors/entitypropertymapping-format/entitypropertymapping-format-flowchart.webp)
+![Export and Fulfill Data transformation](../../../../../../static/img/product_docs/usercube/usercube/integration-guide/connectors/entitypropertymapping-format/entitypropertymapping-format-flowchart.webp)
 
 The format used in the external system can be provided through the
 [Entity Type Mapping](../toolkit/xml-configuration/connectors/entitytypemapping/index.md) using the

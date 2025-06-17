@@ -103,7 +103,7 @@ Create a mining rule by proceeding as follows:
 
 2. Click on the addition button at the top right and fill in the fields.
 
-    ![Addition Icon](../../../../../../../static/img/product_docs/usercube/usercube/user-guide/set-up/categorization/classification/iconadd_v602.svg)
+    ![Addition Icon](../../../../../../../../static/img/product_docs/usercube/usercube/user-guide/set-up/categorization/classification/iconadd_v602.svg)
 
     ![New Mining Rule](../../../../../../../../static/img/product_docs/usercube/usercube/user-guide/optimize/assignment-automation/role-mining/rolemining_miningrule_v602.webp)
 

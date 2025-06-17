@@ -13,20 +13,20 @@ Follow the steps to upgrade from PostgreSQL 14.8.x to 14.13.x.
 **Step 1 –** Run `Netwrix_Setup.exe` as an administrator. The Netwrix Setup Launcher window is
 displayed.
 
-![Netwrix Threat Manager Setup window](../../../../../static/img/product_docs/threatprevention/threatprevention/install/upgrade/tm3installation.webp)
+![Netwrix Threat Manager Setup window](../../../../../../static/img/product_docs/threatprevention/threatprevention/install/upgrade/tm3installation.webp)
 
 **Step 2 –** Click **PostgreSQL Setup** to upgrade the PostgreSQL version. The following message is
 displayed, indicating the currently installed version:
 
-![Threat Manager Reporting - Upgrade DB Confirmation dialog box](../../../../../static/img/product_docs/threatprevention/threatprevention/install/upgrade/upgradedbprompt.webp)
+![Threat Manager Reporting - Upgrade DB Confirmation dialog box](../../../../../../static/img/product_docs/threatprevention/threatprevention/install/upgrade/upgradedbprompt.webp)
 
 **Step 3 –** Click **OK** to upgrade. The Netwrix PostgreSQL Setup wizard opens.
 
-![Netwrix PostgreSQL Setup wizard](../../../../../static/img/product_docs/threatprevention/threatprevention/install/upgrade/install.webp)
+![Netwrix PostgreSQL Setup wizard](../../../../../../static/img/product_docs/threatprevention/threatprevention/install/upgrade/install.webp)
 
 **Step 4 –** Click **Install**.
 
-![Netwrix PostgreSQL Setup wizard on the EULA page](../../../../../static/img/product_docs/activitymonitor/activitymonitor/install/eula.webp)
+![Netwrix PostgreSQL Setup wizard on the EULA page](../../../../../../static/img/product_docs/activitymonitor/activitymonitor/install/eula.webp)
 
 **Step 5 –** Read the End User License Agreement and select the I accept the license agreement
 checkbox. Click Next.
@@ -51,20 +51,20 @@ PostgreSQL may fail to start or behave unexpectedly when monitored by any tool.
 **Step 1 –** Click the Netwrix Threat Manager **Setup** button on the Netwrix Threat Manager setup
 window. The following message displays:
 
-![Existing Threat Manager version message](../../../../../static/img/product_docs/threatmanager/threatmanager/install/existingtmvver.webp)
+![Existing Threat Manager version message](../../../../../../static/img/product_docs/threatmanager/threatmanager/install/existingtmvver.webp)
 
 **Step 2 –** Click **OK**. The following window is displayed:
 
-![Install Threat Manager 3.0 Page](../../../../../static/img/product_docs/threatmanager/threatmanager/install/installtm3.0.webp)
+![Install Threat Manager 3.0 Page](../../../../../../static/img/product_docs/threatmanager/threatmanager/install/installtm3.0.webp)
 
 **Step 3 –** Click **Install**.
 
-![Install Netwrix Threat Manager 3.0 page](../../../../../static/img/product_docs/threatmanager/threatmanager/install/tm3eula.webp)
+![Install Netwrix Threat Manager 3.0 page](../../../../../../static/img/product_docs/threatmanager/threatmanager/install/tm3eula.webp)
 
 **Step 4 –** On the End User License Agreement page, review and accept the licensing agreement and
 then click **Next**.
 
-![Threat Manager 3.0 Defalt Setup Folder](../../../../../static/img/product_docs/threatmanager/threatmanager/install/tm3defaultfolder.webp)
+![Threat Manager 3.0 Defalt Setup Folder](../../../../../../static/img/product_docs/threatmanager/threatmanager/install/tm3defaultfolder.webp)
 
 **Step 5 –** By default, the installation directory is set to:
 
@@ -72,7 +72,7 @@ C:\Program Files\STEALTHbits\StealthDEFEND\
 
 Enter a new path or use the Browse button to modify as desired. Click **Next**.
 
-![Connect to a Threat Manager Database page](../../../../../static/img/product_docs/threatmanager/threatmanager/install/tmdatababse.webp)
+![Connect to a Threat Manager Database page](../../../../../../static/img/product_docs/threatmanager/threatmanager/install/tmdatababse.webp)
 
 **Step 6 –** On the database page, ensure the host and port are set correctly.
 
@@ -84,17 +84,17 @@ it can be modified as desired.
 
 **Step 8 –** After successful validation, click **Next**.
 
-![Firewall Rules Page of Threat Manager Installation wizard](../../../../../static/img/product_docs/threatprevention/threatprevention/install/reportingmodule/firewallrules.webp)
+![Firewall Rules Page of Threat Manager Installation wizard](../../../../../../static/img/product_docs/threatprevention/threatprevention/install/reportingmodule/firewallrules.webp)
 
 **Step 9 –** By default, the installer will Create Inbound Windows Firewall Rules. Deselect the
 checkbox if you do not want the installer to automatically create these rules, because you have
 already created them. Click **Next**.
 
-![Threat Manager Installation Progress page](../../../../../static/img/product_docs/threatmanager/threatmanager/install/installprogress.webp)
+![Threat Manager Installation Progress page](../../../../../../static/img/product_docs/threatmanager/threatmanager/install/installprogress.webp)
 
 **Step 10 –** The installation process will begin and the Setup wizard will display the progress.
 
-![Threat Manager 3.0 Installed Successfully page](../../../../../static/img/product_docs/threatprevention/threatprevention/install/reportingmodule/completed.webp)
+![Threat Manager 3.0 Installed Successfully page](../../../../../../static/img/product_docs/threatprevention/threatprevention/install/reportingmodule/completed.webp)
 
 **Step 11 –** Click **Exit** when the installation completes successfully. The Netwrix Threat
 Manager Setup wizard closes.

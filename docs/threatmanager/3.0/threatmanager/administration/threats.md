@@ -10,7 +10,7 @@ The Threats section contains a bar chart and a pie chart. The Threats bar chart 
 of each type of threat by date range increments of one week, over a 13-week time span. The Threats
 pie chart displays the total number of threats by type of threat.
 
-![threatspage](../../../../../static/img/product_docs/threatmanager/threatmanager/administration/threatspage.webp)
+![threatspage](../../../../../../static/img/product_docs/threatmanager/threatmanager/administration/threatspage.webp)
 
 Hover over the bar chart or pie chart to view the number of threats by threat type.
 
@@ -20,7 +20,7 @@ The Historical Events section provides a drop-down menu to select threats for a 
 Threats can also be filtered by specifying a timeframe. A predefined time span can also be selected
 from the menu options in the right pane.
 
-![historicalevents](../../../../../static/img/product_docs/threatmanager/threatmanager/administration/historicalevents.webp)
+![historicalevents](../../../../../../static/img/product_docs/threatmanager/threatmanager/administration/historicalevents.webp)
 
 These threats are displayed in a list format below the Historical Events section.
 
@@ -28,7 +28,7 @@ These threats are displayed in a list format below the Historical Events section
 
 The Threats list is displayed below the Historical Events section.
 
-![threatlist](../../../../../static/img/product_docs/threatmanager/threatmanager/administration/threatlist.webp)
+![threatlist](../../../../../../static/img/product_docs/threatmanager/threatmanager/administration/threatlist.webp)
 
 The list displays threats that have a threat level of Low, Medium, High, or Audit for the selected
 timeframe. Each threat in the list contains a link which opens the
@@ -78,7 +78,7 @@ additional information on Access Analyzer Sensitive Data Discovery capabilities.
 
 When a threat event contains sensitive data, a Sensitive Data tag is displayed next to the threat:
 
-![threatsensitivedatafilter](../../../../../static/img/product_docs/threatmanager/threatmanager/administration/threatsensitivedatafilter.webp)
+![threatsensitivedatafilter](../../../../../../static/img/product_docs/threatmanager/threatmanager/administration/threatsensitivedatafilter.webp)
 
 To view the type of sensitive data contain in a threat, click View Details on the threat containing
 a Sensitive Data tag. The type of sensitive data is displayed in the Sensitive Data column.
@@ -130,7 +130,7 @@ Follow the steps to edit a threat.
 
 **Step 1 –** Select a threat from the list and click Edit. The Workflow window opens.
 
-![editthreats](../../../../../static/img/product_docs/threatmanager/threatmanager/administration/editthreats.webp)
+![editthreats](../../../../../../static/img/product_docs/threatmanager/threatmanager/administration/editthreats.webp)
 
 **Step 2 –** Enter the following information:
 

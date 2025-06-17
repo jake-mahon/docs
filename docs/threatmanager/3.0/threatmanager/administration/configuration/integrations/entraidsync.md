@@ -5,7 +5,7 @@ the application is configured to sync.See the
 [Application Permissions for Entra ID Sync](../../../requirements/permissions/entraidsync.md)topic
 for additional information about the permissions required for Microsoft Entra ID syncing.
 
-![Entra ID Sync Page](../../../../../../../static/img/product_docs/threatmanager/threatmanager/administration/configuration/integrations/entraidsync.webp)
+![Entra ID Sync Page](../../../../../../../../static/img/product_docs/threatmanager/threatmanager/administration/configuration/integrations/entraidsync.webp)
 
 Microsoft Entra ID Sync schedules the Azure service to collect Microsoft Entra ID data for the
 specified Microsoft Entra ID tenant(s). The Microsoft Entra ID Sync runs continuously, evaluating
@@ -38,7 +38,7 @@ Follow the steps to add a policy Microsoft Entra ID Sync.
 **Step 1 –** On the Integrations interface, click Add New Integration in the navigation pane. The
 Add New Integration window opens.
 
-![Add New Integration window with Entra ID Sync type selected](../../../../../../../static/img/product_docs/threatmanager/threatmanager/administration/configuration/integrations/addnewinteg.webp)
+![Add New Integration window with Entra ID Sync type selected](../../../../../../../../static/img/product_docs/threatmanager/threatmanager/administration/configuration/integrations/addnewinteg.webp)
 
 **Step 2 –** In the Type drop-down menu, select Entra ID Sync.
 
@@ -66,7 +66,7 @@ tenants.
 The Microsoft Entra ID Sync policy details can be viewed by selecting the tenant from the table or
 the navigation pane.
 
-![Tenant Configuration tab](../../../../../../../static/img/product_docs/threatmanager/threatmanager/administration/configuration/integrations/entraidsync_tenantconfiguration.webp)
+![Tenant Configuration tab](../../../../../../../../static/img/product_docs/threatmanager/threatmanager/administration/configuration/integrations/entraidsync_tenantconfiguration.webp)
 
 Select the tenant from the list to see modification options:
 
@@ -86,7 +86,7 @@ Select the tenant from the list to see modification options:
 The Tenant Configuration tab displays the sync policy settings entered for the selected tenant. With
 the exception of the Tenant and Azure Cloud fields, these settings can be updated as needed.
 
-![tenantconfigurationtab](../../../../../../../static/img/product_docs/threatmanager/threatmanager/administration/configuration/integrations/tenantconfigurationtab.webp)
+![tenantconfigurationtab](../../../../../../../../static/img/product_docs/threatmanager/threatmanager/administration/configuration/integrations/tenantconfigurationtab.webp)
 
 The Tenant Configuration tab displays the following settings:
 
@@ -113,7 +113,7 @@ leaving the page.
 The Sync History tab displays the information on each synchronization event. This includes general
 information about user, group, and computer objects within the Entra ID tenant.
 
-![Entra ID Sync details page for a specific Entra ID tenant showing the Sync History tab](../../../../../../../static/img/product_docs/threatprevention/threatprevention/reportingmodule/configuration/integrations/synchistorytab.webp)
+![Entra ID Sync details page for a specific Entra ID tenant showing the Sync History tab](../../../../../../../../static/img/product_docs/threatprevention/threatprevention/reportingmodule/configuration/integrations/synchistorytab.webp)
 
 The table provides the following information:
 
@@ -141,7 +141,7 @@ Follow the steps to modify the Entra ID Sync policy for the selected Microsoft 
 
 _Remember,_ the Tenant and Azure Cloud fields cannot be modified.
 
-![tenantconfigurationtab](../../../../../../../static/img/product_docs/threatmanager/threatmanager/administration/configuration/integrations/tenantconfigurationtab.webp)
+![tenantconfigurationtab](../../../../../../../../static/img/product_docs/threatmanager/threatmanager/administration/configuration/integrations/tenantconfigurationtab.webp)
 
 **Step 3 –** To modify the Credential Profile, select the Credential Profile by name from the
 drop-down menu. This was pre-created in the Credential Profiles page.

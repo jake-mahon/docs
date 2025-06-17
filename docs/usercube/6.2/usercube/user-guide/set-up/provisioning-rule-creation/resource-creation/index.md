@@ -46,7 +46,7 @@ Create a resource type rule by proceeding as follows:
 
 3. Click on the **Resource Types** tab and on the addition button at the top right corner.
 
-    ![Addition Icon](../../../../../../../static/img/product_docs/usercube/usercube/user-guide/set-up/categorization/classification/iconadd_v602.svg)
+    ![Addition Icon](../../../../../../../../static/img/product_docs/usercube/usercube/user-guide/set-up/categorization/classification/iconadd_v602.svg)
 
 4. Fill in the fields.
 

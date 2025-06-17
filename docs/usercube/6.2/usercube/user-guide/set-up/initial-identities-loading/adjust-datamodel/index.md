@@ -47,7 +47,7 @@ Adjust the data model by proceeding as follows:
 2. On the **Workforce** > **Data Model** page, click on the following icon to adjust the data model
    to your specific situation.
 
-    ![Scan Data Model](../../../../../../../static/img/product_docs/usercube/usercube/user-guide/set-up/initial-identities-loading/adjust-datamodel/iconscandatamodel_v602.svg)
+    ![Scan Data Model](../../../../../../../../static/img/product_docs/usercube/usercube/user-guide/set-up/initial-identities-loading/adjust-datamodel/iconscandatamodel_v602.svg)
 
     ![Scan Data Model](../../../../../../../../static/img/product_docs/usercube/usercube/user-guide/set-up/initial-identities-loading/adjust-datamodel/initialload_scandatamodel_v60.webp)
 
@@ -78,7 +78,7 @@ Adjust the data model by proceeding as follows:
 
 4. Click on the Save icon at the top.
 
-    ![Save Icon](../../../../../../../static/img/product_docs/usercube/usercube/user-guide/set-up/user-profile-configuration/iconsave_v602.svg)
+    ![Save Icon](../../../../../../../../static/img/product_docs/usercube/usercube/user-guide/set-up/user-profile-configuration/iconsave_v602.svg)
 
 5. Click on the **Reload** button to apply the recent changes to the application.
 

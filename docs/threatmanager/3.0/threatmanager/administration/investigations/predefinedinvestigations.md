@@ -4,7 +4,7 @@ The Predefined Investigations page in the Investigations interface provides a li
 out-of-the-box investigations with applied filters for Applications, Computers, Groups,
 iNetOrgPerson, Roles and User activity reports.
 
-![Investigations interface on the Predefined Investigations page](../../../../../../static/img/product_docs/threatprevention/threatprevention/reportingmodule/investigations/predefinedinvestigations.webp)
+![Investigations interface on the Predefined Investigations page](../../../../../../../static/img/product_docs/threatprevention/threatprevention/reportingmodule/investigations/predefinedinvestigations.webp)
 
 The table displays the list of investigations with the following columns:
 

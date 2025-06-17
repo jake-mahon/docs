@@ -67,7 +67,7 @@ Create a resource type by proceeding as follows:
 
 1. On the relevant connector page, click on the addition button in the **Resource Types** frame.
 
-    ![Addition Icon](../../../../../../../static/img/product_docs/usercube/usercube/user-guide/set-up/categorization/classification/iconadd_v602.svg)
+    ![Addition Icon](../../../../../../../../static/img/product_docs/usercube/usercube/user-guide/set-up/categorization/classification/iconadd_v602.svg)
 
     Resource types can also be created through the **Access Roles** screen (accessible from the home
     page, in the **Configuration** section), using the **+ New** button and selecting

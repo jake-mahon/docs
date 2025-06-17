@@ -88,15 +88,15 @@ Handle an addition order by proceeding as follows:
 
     - Either click on the approval icon to order the property creation with the proposed value.
 
-    ![Addition - Approval Icon](../../../../../../../static/img/product_docs/usercube/usercube/user-guide/administrate/provisioning/provisioning-review/provmanual_iconapprove_v602.svg)
+    ![Addition - Approval Icon](../../../../../../../../static/img/product_docs/usercube/usercube/user-guide/administrate/provisioning/provisioning-review/provmanual_iconapprove_v602.svg)
 
     - Or click on the decline icon to refuse the property creation.
 
-    ![Addition - Decline Icon](../../../../../../../static/img/product_docs/usercube/usercube/user-guide/administrate/provisioning/provisioning-review/provmanual_icondecline_v522.svg)
+    ![Addition - Decline Icon](../../../../../../../../static/img/product_docs/usercube/usercube/user-guide/administrate/provisioning/provisioning-review/provmanual_icondecline_v522.svg)
 
     - Or click on the postponement icon to delay the decision.
 
-    ![Addition - Postponement Icon](../../../../../../../static/img/product_docs/usercube/usercube/user-guide/administrate/provisioning/provisioning-review/provmanual_iconpostpone_v522.svg)
+    ![Addition - Postponement Icon](../../../../../../../../static/img/product_docs/usercube/usercube/user-guide/administrate/provisioning/provisioning-review/provmanual_iconpostpone_v522.svg)
 
 2. Choose to confirm or ignore the creation.
 
@@ -129,19 +129,19 @@ Handle an association order by proceeding as follows:
 
     - Either click on the approval icon to validate the proposed property value.
 
-        ![Addition Icon](../../../../../../../static/img/product_docs/usercube/usercube/user-guide/administrate/provisioning/provisioning-review/provmanual_iconapprove_v602.svg)
+        ![Addition Icon](../../../../../../../../static/img/product_docs/usercube/usercube/user-guide/administrate/provisioning/provisioning-review/provmanual_iconapprove_v602.svg)
 
-        ![Edition Icon](../../../../../../../static/img/product_docs/usercube/usercube/user-guide/administrate/provisioning/provisioning-review/provmanual_iconedit_v602.svg)
+        ![Edition Icon](../../../../../../../../static/img/product_docs/usercube/usercube/user-guide/administrate/provisioning/provisioning-review/provmanual_iconedit_v602.svg)
 
-        ![Deletion Icon](../../../../../../../static/img/product_docs/usercube/usercube/user-guide/administrate/provisioning/provisioning-review/reviewrole_icondelete_v602.svg)
+        ![Deletion Icon](../../../../../../../../static/img/product_docs/usercube/usercube/user-guide/administrate/provisioning/provisioning-review/reviewrole_icondelete_v602.svg)
 
     - Or click on the decline icon to refuse the property association.
 
-        ![Addition - Decline Icon](../../../../../../../static/img/product_docs/usercube/usercube/user-guide/administrate/provisioning/provisioning-review/provmanual_icondecline_v522.svg)
+        ![Addition - Decline Icon](../../../../../../../../static/img/product_docs/usercube/usercube/user-guide/administrate/provisioning/provisioning-review/provmanual_icondecline_v522.svg)
 
     - Or click on the postponement icon to delay the decision.
 
-        ![Addition - Postponement Icon](../../../../../../../static/img/product_docs/usercube/usercube/user-guide/administrate/provisioning/provisioning-review/provmanual_iconpostpone_v522.svg)
+        ![Addition - Postponement Icon](../../../../../../../../static/img/product_docs/usercube/usercube/user-guide/administrate/provisioning/provisioning-review/provmanual_iconpostpone_v522.svg)
 
 2. Choose to confirm or deny the association.
 
@@ -170,17 +170,17 @@ Handle an update order by proceeding as follows:
 
     - Either click on the approval icon to order the property update with the proposed value.
 
-        ![Edition - Addition Icon](../../../../../../../static/img/product_docs/usercube/usercube/user-guide/administrate/provisioning/provisioning-review/provmanual_iconapprove_v602.svg)
+        ![Edition - Addition Icon](../../../../../../../../static/img/product_docs/usercube/usercube/user-guide/administrate/provisioning/provisioning-review/provmanual_iconapprove_v602.svg)
 
-        ![Edition Icon](../../../../../../../static/img/product_docs/usercube/usercube/user-guide/administrate/provisioning/provisioning-review/provmanual_iconedit_v602.svg)
+        ![Edition Icon](../../../../../../../../static/img/product_docs/usercube/usercube/user-guide/administrate/provisioning/provisioning-review/provmanual_iconedit_v602.svg)
 
     - Or click on the decline icon to refuse the property update.
 
-        ![Addition - Decline Icon](../../../../../../../static/img/product_docs/usercube/usercube/user-guide/administrate/provisioning/provisioning-review/provmanual_icondecline_v522.svg)
+        ![Addition - Decline Icon](../../../../../../../../static/img/product_docs/usercube/usercube/user-guide/administrate/provisioning/provisioning-review/provmanual_icondecline_v522.svg)
 
     - Or click on the postponement icon to delay the decision.
 
-        ![Addition - Postponement Icon](../../../../../../../static/img/product_docs/usercube/usercube/user-guide/administrate/provisioning/provisioning-review/provmanual_iconpostpone_v522.svg)
+        ![Addition - Postponement Icon](../../../../../../../../static/img/product_docs/usercube/usercube/user-guide/administrate/provisioning/provisioning-review/provmanual_iconpostpone_v522.svg)
 
 2. Click on **Confirm Property Values**.
 

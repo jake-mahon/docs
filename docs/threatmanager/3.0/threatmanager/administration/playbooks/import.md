@@ -6,7 +6,7 @@ that file for import to Threat Manager.
 
 Follow the steps to import a playbook.
 
-![importbutton](../../../../../../static/img/product_docs/threatmanager/threatmanager/administration/playbooks/importbutton.webp)
+![importbutton](../../../../../../../static/img/product_docs/threatmanager/threatmanager/administration/playbooks/importbutton.webp)
 
 **Step 1 –** Go to the Playbooks tab and select Import. This opens the Windows File Explorer.
 

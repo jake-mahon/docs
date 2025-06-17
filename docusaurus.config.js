@@ -182,124 +182,124 @@ const config = {
           href: '/',
         },
         items: [
-          {
-            type: 'dropdown',
-            label: 'Security Admin',
-            position: 'left',
-            items: [
-              {
-                label: '1Secure',
-                to: '/docs/1secure',
-              },
-              {
-                label: 'Access Analyzer',
-                to: '/docs/accessanalyzer',
-              },
-              {
-                label: 'Activity Monitor',
-                to: '/docs/activitymonitor',
-              },
-              {
-                label: 'Auditor',
-                to: '/docs/auditor',
-              },
-              {
-                label: 'Threat Manager',
-                to: '/docs/threatmanager',
-              },
-            ],
-          },
-          {
-            type: 'dropdown',
-            label: 'Identity & Access',
-            position: 'left',
-            items: [
-              {
-                label: 'Access Information Center',
-                to: '/docs/accessinformationcenter',
-              },
-              {
-                label: 'Group ID',
-                to: '/docs/groupid',
-              },
-              {
-                label: 'Password Policy Enforcer',
-                to: '/docs/passwordpolicyenforcer',
-              },
-              {
-                label: 'Password Reset',
-                to: '/docs/passwordreset',
-              },
-              {
-                label: 'Password Secure',
-                to: '/docs/passwordsecure',
-              },
-              {
-                label: 'Privilege Secure',
-                to: '/docs/privilegesecure',
-              },
-            ],
-          },
-          {
-            type: 'dropdown',
-            label: 'Compliance',
-            position: 'left',
-            items: [
-              {
-                label: 'Change Tracker',
-                to: '/docs/changetracker',
-              },
-              {
-                label: 'StrongPoint for NetSuite',
-                to: '/docs/strongpointfornetsuite',
-              },
-              {
-                label: 'StrongPoint for Salesforce',
-                to: '/docs/strongpointforsalesforce',
-              },
-              {
-                label: 'StrongPoint NetSuite Flashlight',
-                to: '/docs/strongpointnetsuiteflashlight',
-              },
-              {
-                label: 'StrongPoint Salesforce Flashlight',
-                to: '/docs/strongpointsalesforceflashlight',
-              },
-              {
-                label: 'Data Classification',
-                to: '/docs/dataclassification',
-              },
-              {
-                label: 'Recovery for Active Directory',
-                to: '/docs/recoveryforactivedirectory',
-              },
-            ],
-          },
+          // {
+          //   type: 'dropdown',
+          //   label: 'Security Admin',
+          //   position: 'left',
+          //   items: [
+          //     {
+          //       label: '1Secure',
+          //       to: '/docs/1secure',
+          //     },
+          //     {
+          //       label: 'Access Analyzer',
+          //       to: '/docs/accessanalyzer',
+          //     },
+          //     {
+          //       label: 'Activity Monitor',
+          //       to: '/docs/activitymonitor',
+          //     },
+          //     {
+          //       label: 'Auditor',
+          //       to: '/docs/auditor',
+          //     },
+          //     {
+          //       label: 'Threat Manager',
+          //       to: '/docs/threatmanager',
+          //     },
+          //   ],
+          // },
+          // {
+          //   type: 'dropdown',
+          //   label: 'Identity & Access',
+          //   position: 'left',
+          //   items: [
+          //     {
+          //       label: 'Access Information Center',
+          //       to: '/docs/accessinformationcenter',
+          //     },
+          //     {
+          //       label: 'Group ID',
+          //       to: '/docs/groupid',
+          //     },
+          //     {
+          //       label: 'Password Policy Enforcer',
+          //       to: '/docs/passwordpolicyenforcer',
+          //     },
+          //     {
+          //       label: 'Password Reset',
+          //       to: '/docs/passwordreset',
+          //     },
+          //     {
+          //       label: 'Password Secure',
+          //       to: '/docs/passwordsecure',
+          //     },
+          //     {
+          //       label: 'Privilege Secure',
+          //       to: '/docs/privilegesecure',
+          //     },
+          //   ],
+          // },
+          // {
+          //   type: 'dropdown',
+          //   label: 'Compliance',
+          //   position: 'left',
+          //   items: [
+          //     {
+          //       label: 'Change Tracker',
+          //       to: '/docs/changetracker',
+          //     },
+          //     {
+          //       label: 'StrongPoint for NetSuite',
+          //       to: '/docs/strongpointfornetsuite',
+          //     },
+          //     {
+          //       label: 'StrongPoint for Salesforce',
+          //       to: '/docs/strongpointforsalesforce',
+          //     },
+          //     {
+          //       label: 'StrongPoint NetSuite Flashlight',
+          //       to: '/docs/strongpointnetsuiteflashlight',
+          //     },
+          //     {
+          //       label: 'StrongPoint Salesforce Flashlight',
+          //       to: '/docs/strongpointsalesforceflashlight',
+          //     },
+          //     {
+          //       label: 'Data Classification',
+          //       to: '/docs/dataclassification',
+          //     },
+          //     {
+          //       label: 'Recovery for Active Directory',
+          //       to: '/docs/recoveryforactivedirectory',
+          //     },
+          //   ],
+          // },
           {
             type: 'dropdown',
             label: 'Endpoint',
             position: 'left',
             items: [
-              {
-                label: 'Endpoint Protector',
-                to: '/docs/endpointprotector',
-              },
-              {
-                label: 'PolicyPak',
-                to: '/docs/policypak',
-              },
-              {
-                label: 'Threat Prevention',
-                to: '/docs/threatprevention',
-              },
+              // {
+              //   label: 'Endpoint Protector',
+              //   to: '/docs/endpointprotector',
+              // },
+              // {
+              //   label: 'PolicyPak',
+              //   to: '/docs/policypak',
+              // },
+              // {
+              //   label: 'Threat Prevention',
+              //   to: '/docs/threatprevention',
+              // },
               {
                 label: 'UserCube',
                 to: '/docs/usercube',
               },
-              {
-                label: 'UserCube SaaS',
-                to: '/docs/usercube_saas',
-              },
+              // {
+              //   label: 'UserCube SaaS',
+              //   to: '/docs/usercube_saas',
+              // },
             ],
           },
           {

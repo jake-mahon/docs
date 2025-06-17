@@ -154,7 +154,7 @@ below.
 The following implies that a
 [custom service account](https://docs.microsoft.com/en-us/windows/security/identity-protection/access-control/service-accounts)
 has already been created for Usercube's agent. This can be achieved by following the
-[same steps as for the server](/docs/usercube/6.1/usercube/installation-guide/production-ready/server.md#create-the-service-account):
+[same steps as for the server](/docs/usercube/6.1/usercube/installation-guide/production-ready/server/index.md#create-the-service-account):
 
 1. Open the IIS Manager (`INETMGR.MSC`).
 2. Open the **Application Pools** node underneath the machine node.

@@ -6,7 +6,7 @@ The following actions target Windows File System.
 
 This action deletes the file associated with the threat.
 
-![deletefile](../../../../../../../static/img/product_docs/threatmanager/threatmanager/administration/playbooks/action/deletefile.webp)
+![deletefile](../../../../../../../../static/img/product_docs/threatmanager/threatmanager/administration/playbooks/action/deletefile.webp)
 
 - Credential – Select a credential profile that contains valid Active Directory credentials.
   Credential profiles are configured on the
@@ -17,7 +17,7 @@ This action deletes the file associated with the threat.
 
 The Revert Permission Change action reverts a permission change on an Active Directory Object.
 
-![revertpermissionchange](../../../../../../../static/img/product_docs/threatmanager/threatmanager/administration/playbooks/action/revertpermissionchange.webp)
+![revertpermissionchange](../../../../../../../../static/img/product_docs/threatmanager/threatmanager/administration/playbooks/action/revertpermissionchange.webp)
 
 - Credential – Select a credential profile that contains valid Active Directory credentials.
   Credential profiles are configured on the Integrations Interface. If not specified, the action
@@ -30,7 +30,7 @@ information.
 
 This action saves the file hash to the properties of the threat.
 
-![savefilehash](../../../../../../../static/img/product_docs/threatmanager/threatmanager/administration/playbooks/action/savefilehash.webp)
+![savefilehash](../../../../../../../../static/img/product_docs/threatmanager/threatmanager/administration/playbooks/action/savefilehash.webp)
 
 - Credential – Select a credential profile that contains valid Active Directory credentials.
   Credential profiles are configured on the

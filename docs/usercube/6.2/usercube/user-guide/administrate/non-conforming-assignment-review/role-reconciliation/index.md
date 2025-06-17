@@ -86,7 +86,7 @@ Review a non-conforming permission by proceeding as follows:
 
     Each non-conforming permission can be commented by clicking on the corresponding icon.
 
-    ![Comment Icon](../../../../../../../static/img/product_docs/usercube/usercube/user-guide/administrate/access-certification/certification-campaign-execution/certifcampaign_iconcomment_v522.svg)
+    ![Comment Icon](../../../../../../../../static/img/product_docs/usercube/usercube/user-guide/administrate/access-certification/certification-campaign-execution/certifcampaign_iconcomment_v522.svg)
 
 3. Choose one of the two possibilities to verify the permission:
 
@@ -95,11 +95,11 @@ Review a non-conforming permission by proceeding as follows:
 
     - Either click on the approval icon to keep the non-conforming permission.
 
-    ![Approval Icon](../../../../../../../static/img/product_docs/usercube/usercube/user-guide/administrate/non-conforming-assignment-review/role-reconciliation/orphan_iconapprove_v602.svg)
+    ![Approval Icon](../../../../../../../../static/img/product_docs/usercube/usercube/user-guide/administrate/non-conforming-assignment-review/role-reconciliation/orphan_iconapprove_v602.svg)
 
     - Or click on the decline icon to delete the non-conforming permission.
 
-    ![Decline Icon](../../../../../../../static/img/product_docs/usercube/usercube/user-guide/administrate/non-conforming-assignment-review/role-reconciliation/orphan_icondecline_v522.svg)
+    ![Decline Icon](../../../../../../../../static/img/product_docs/usercube/usercube/user-guide/administrate/non-conforming-assignment-review/role-reconciliation/orphan_icondecline_v522.svg)
 
 4. Trigger [provisioning](../../provisioning/index.md) by launching, on the appropriate connector's
    overview page, **Jobs** > **Generate Provisioning Orders**, then, after this first task is done,

@@ -5,7 +5,7 @@ Manager. This page provides a Threats list and an overview table that provides a
 threats. Clicking on a threat in the Threats list or the Overview table displays details and
 configuration options for the threat.
 
-![Threat Detection page](../../../../../../static/img/product_docs/threatprevention/threatprevention/reportingmodule/configuration/systemsettings/page.webp)
+![Threat Detection page](../../../../../../../static/img/product_docs/threatprevention/threatprevention/reportingmodule/configuration/systemsettings/page.webp)
 
 Custom threats can also be created on this page.
 
@@ -15,7 +15,7 @@ The Threats box displays the threats that are pre-configured with Threat Manager
 with the Investigation page or through the Custom Threat button. Threats that are crossed out are
 disabled.
 
-![Threats Box](../../../../../../static/img/product_docs/threatmanager/threatmanager/threats/threatsbox.webp)
+![Threats Box](../../../../../../../static/img/product_docs/threatmanager/threatmanager/threats/threatsbox.webp)
 
 The Threats list divides the threats into sections:
 
@@ -33,7 +33,7 @@ Threats box.
 The Overview table provides a high-level status of all threats. The table includes the following
 information:
 
-![This screenshot displays the Overview table on the Threat Detection page.](../../../../../../static/img/product_docs/threatmanager/threatmanager/administration/configuration/overviewtable.webp)
+![This screenshot displays the Overview table on the Threat Detection page.](../../../../../../../static/img/product_docs/threatmanager/threatmanager/administration/configuration/overviewtable.webp)
 
 - Name – The threat name
 - Enabled – A green check mark indicates that the threat type is enabled for threat detection. A

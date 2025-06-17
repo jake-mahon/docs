@@ -109,11 +109,11 @@ Review an unreconciled property by proceeding as follows:
     - Either click on the approval icon to update the property with the proposed value. It discards
       the whole property history.
 
-        ![Addition Icon](../../../../../../../static/img/product_docs/usercube/usercube/user-guide/administrate/provisioning/provisioning-review/provmanual_iconapprove_v602.svg)
+        ![Addition Icon](../../../../../../../../static/img/product_docs/usercube/usercube/user-guide/administrate/provisioning/provisioning-review/provmanual_iconapprove_v602.svg)
 
-        ![Edition Icon](../../../../../../../static/img/product_docs/usercube/usercube/user-guide/administrate/provisioning/provisioning-review/provmanual_iconedit_v602.svg)
+        ![Edition Icon](../../../../../../../../static/img/product_docs/usercube/usercube/user-guide/administrate/provisioning/provisioning-review/provmanual_iconedit_v602.svg)
 
-        ![Deletion Icon](../../../../../../../static/img/product_docs/usercube/usercube/user-guide/administrate/provisioning/provisioning-review/reviewrole_icondelete_v602.svg)
+        ![Deletion Icon](../../../../../../../../static/img/product_docs/usercube/usercube/user-guide/administrate/provisioning/provisioning-review/reviewrole_icondelete_v602.svg)
 
         Automatic changes are essential for frequently-changing attributes. However, saving history
         information can sometimes be important for some attributes such as logins and emails.
@@ -121,7 +121,7 @@ Review an unreconciled property by proceeding as follows:
     - Or click on the decline icon to not update the property and keep the resource value. In the
       future, this property will no longer be changed automatically.
 
-        ![Decline Icon](../../../../../../../static/img/product_docs/usercube/usercube/user-guide/administrate/provisioning/provisioning-review/provmanual_icondecline_v522.svg)
+        ![Decline Icon](../../../../../../../../static/img/product_docs/usercube/usercube/user-guide/administrate/provisioning/provisioning-review/provmanual_icondecline_v522.svg)
 
         Retaining manual control of changes for sensitive data (i.e. `SAMAccountName`) can be of
         interest. Identity Manager won't be able to change this data and the service account manager
@@ -132,7 +132,7 @@ Review an unreconciled property by proceeding as follows:
     - Or click on the postponement icon to delay the decision. An unreconciled property is ignored
       by Identity Manager, and therefore cannot be modified.
 
-        ![Postponement Icon](../../../../../../../static/img/product_docs/usercube/usercube/user-guide/administrate/provisioning/provisioning-review/provmanual_iconpostpone_v522.svg)
+        ![Postponement Icon](../../../../../../../../static/img/product_docs/usercube/usercube/user-guide/administrate/provisioning/provisioning-review/provmanual_iconpostpone_v522.svg)
 
 7. Click on **Confirm Property Values**.
 8. Trigger provisioning by launching, on the appropriate connector's overview page, **Jobs** >

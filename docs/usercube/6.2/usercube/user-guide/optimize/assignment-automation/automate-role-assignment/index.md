@@ -40,7 +40,7 @@ Create a role assignment rule by proceeding as follows:
 3. Click on the **Composite Roles** or **Single Roles** tab and on the addition button at the top
    right corner.
 
-    ![Addition Icon](../../../../../../../static/img/product_docs/usercube/usercube/user-guide/set-up/categorization/classification/iconadd_v602.svg)
+    ![Addition Icon](../../../../../../../../static/img/product_docs/usercube/usercube/user-guide/set-up/categorization/classification/iconadd_v602.svg)
 
 4. Fill in the fields.
 

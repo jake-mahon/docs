@@ -52,7 +52,7 @@ containing another subsection for every authentication method such as OpenId or 
 This means that every setting value either belongs to the settings root node or to a section, itself
 belonging to a parent section.
 
-![tree like structure](../../../../../../../static/img/product_docs/usercube/usercube/integration-guide/network-configuration/tree-like-structure.webp)
+![tree like structure](../../../../../../static/img/product_docs/usercube/usercube/integration-guide/network-configuration/tree-like-structure.webp)
 
 ### Configuration files
 

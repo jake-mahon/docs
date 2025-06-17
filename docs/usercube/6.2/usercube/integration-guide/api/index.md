@@ -13,7 +13,7 @@ The page `[Usercube application's URL]/swagger` can be used to explore and test 
 This page is built by the [Swagger UI tool](https://swagger.io/tools/swagger-ui/) from the Identity
 Manager [OpenAPI](https://swagger.io/specification/) definition.
 
-![Usercube server swagger page](../../../../../../../static/img/product_docs/usercube/usercube/integration-guide/api/swagger.webp)
+![Usercube server swagger page](../../../../../../static/img/product_docs/usercube/usercube/integration-guide/api/swagger.webp)
 
 A function can have several versions. This is why the API description is split into several OpenAPI
 definition files.
