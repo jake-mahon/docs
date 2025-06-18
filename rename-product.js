@@ -129,17 +129,24 @@ function updateMarkdownReferences(renamedPaths) {
         hasChanges = true;
       }
       
-      // Replace absolute doc references (/docs/oldname)
-      const absoluteDocsRegex = new RegExp(`(/docs/)${oldProductName}(/[^\\s"')<>|]*)?`, 'g');
+      // Replace absolute doc references (/docs/product/version/oldname)  
+      const absoluteDocsRegex = new RegExp(`(/docs/[^\\s"')<>|]*/)${oldProductName}(/[^\\s"')<>|]*)?`, 'g');
       if (absoluteDocsRegex.test(content)) {
         content = content.replace(absoluteDocsRegex, `$1${newProductName}$2`);
         hasChanges = true;
       }
       
-      // Replace doc links without leading slash (docs/oldname)
-      const docLinksRegex = new RegExp(`(docs/)${oldProductName}(/[^\\s"')<>|]*)?`, 'g');
+      // Replace doc links without leading slash (docs/product/version/oldname)
+      const docLinksRegex = new RegExp(`(docs/[^\\s"')<>|]*/)${oldProductName}(/[^\\s"')<>|]*)?`, 'g');
       if (docLinksRegex.test(content)) {
         content = content.replace(docLinksRegex, `$1${newProductName}$2`);
+        hasChanges = true;
+      }
+      
+      // Replace ANY path containing oldProductName (catches nested references)
+      const anyPathRegex = new RegExp(`([^\\s"')<>|]*/)${oldProductName}(/[^\\s"')<>|]*)?`, 'g');
+      if (anyPathRegex.test(content)) {
+        content = content.replace(anyPathRegex, `$1${newProductName}$2`);
         hasChanges = true;
       }
       
