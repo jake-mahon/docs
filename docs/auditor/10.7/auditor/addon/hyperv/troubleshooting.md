@@ -46,7 +46,7 @@ Alternatively, you can use **Windows Task Scheduler**.
 
 The WinRM client cannot process the request.
 
-See the [Deployment Scenarios](deployment.md)topic for additional information.
+See the [Deployment Scenarios](/docs/auditor/10.7/auditor/addon/hyperv/deployment.md)topic for additional information.
 
 If the authentication scheme is different from Kerberos, or if the client computer is not joined to
 a domain, then HTTPS transport must be used or the destination machine must be added to the

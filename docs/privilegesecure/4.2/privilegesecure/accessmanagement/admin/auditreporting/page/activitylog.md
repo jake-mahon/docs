@@ -3,7 +3,7 @@
 The Activity Log page shows the activity logs for users and resources. From here, search and
 investigate the records.
 
-![activitylogpage](../../../../../../../../static/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/auditreporting/page/activitylogpage.webp)
+![activitylogpage](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/auditreporting/page/activitylogpage.webp)
 
 The Activity Log page has the following features:
 
@@ -38,7 +38,7 @@ The Top 5 Users for the Date Range table lists the users with the most sessions:
 - Column headers can be resized and sorted in ascending or descending order:
 
     - User — The user logged in to the session. Click to open the
-      [User, Group, & Application Details Page](../../policy/page/details/usergroupapplication.md).
+      [User, Group, & Application Details Page](/docs/privilegesecure/4.2/privilegesecure/accessmanagement/admin/policy/page/details/usergroupapplication.md).
     - Sessions — Number of sessions per user
     - Total Duration — Total duration of all sessions per user
     - Average — The average duration of a session per user
@@ -50,15 +50,15 @@ The Sessions by All Users table lists all user sessions:
 - Column headers can be resized and sorted in ascending or descending order:
 
     - Session User — The user logged in to the session. See the
-      [User, Group, & Application Details Page](../../policy/page/details/usergroupapplication.md)
+      [User, Group, & Application Details Page](/docs/privilegesecure/4.2/privilegesecure/accessmanagement/admin/policy/page/details/usergroupapplication.md)
       topic for additional information.
     - Host — The resource the session is using. The details vary based on the type of resource. See
-      the [Resources Page](../../policy/page/resources.md) topic for additional information.
+      the [Resources Page](/docs/privilegesecure/4.2/privilegesecure/accessmanagement/admin/policy/page/resources.md) topic for additional information.
     - Login Account — Account user is logged in with
     - Policy — Policy associated with the session. See the
-      [Access Policy Page](../../policy/page/accesspolicy.md) topic for additional information.
+      [Access Policy Page](/docs/privilegesecure/4.2/privilegesecure/accessmanagement/admin/policy/page/accesspolicy.md) topic for additional information.
     - Activity — Activity associated with the session. See the
-      [Activities Page](../../policy/page/activities.md) topic for additional information.
+      [Activities Page](/docs/privilegesecure/4.2/privilegesecure/accessmanagement/admin/policy/page/activities.md) topic for additional information.
     - Start — Start time of the session
     - Duration — Duration of the session
     - End — End time of the session

@@ -4,7 +4,7 @@ The Sensitive Content Summary report at the on-premise farm and online instance 
 count of files where criteria matches were found on the site collection. This report includes a
 Details table.
 
-![Sensitive Content Summary report at the on-premise farm and online instance levels](../../../../../../../../static/img/product_docs/accessinformationcenter/access/informationcenter/resourceaudit/postgresql/instance/instancesensitivecontentsummary.webp)
+![Sensitive Content Summary report at the on-premise farm and online instance levels](/img/product_docs/accessinformationcenter/access/informationcenter/resourceaudit/postgresql/instance/instancesensitivecontentsummary.webp)
 
 This report is comprised of the following columns:
 

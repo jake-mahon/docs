@@ -17,18 +17,18 @@ OpenOffice 4.0, the version is 8u40.
 Notepad. Note the AppID in the might be different than what is in this screenshot and/or have
 multiple AppIDs. Simply preserve the existing ID, and append as seen here.
 
-![147_1_image0052](../../../../static/img/product_docs/policypak/policypak/applicationsettings/147_1_image0052.webp)
+![147_1_image0052](/img/product_docs/policypak/policypak/applicationsettings/147_1_image0052.webp)
 
 **Step 5 –** Open the Java Pak XML in the Endpoint Policy Manager DesignStudio. Update the Project
 name so it's clear what it's doing. Then recompile.
 
-![147_2_image003](../../../../static/img/product_docs/policypak/policypak/applicationsettings/147_2_image003.webp)
+![147_2_image003](/img/product_docs/policypak/policypak/applicationsettings/147_2_image003.webp)
 
 **Step 6 –** Give the Pak a new DLL name and Recompile the Pak
 
-![147_3_image004](../../../../static/img/product_docs/policypak/policypak/applicationsettings/147_3_image004.webp)
+![147_3_image004](/img/product_docs/policypak/policypak/applicationsettings/147_3_image004.webp)
 
 **Step 7 –** Use the new Pak in Endpoint Policy Manager Application Settings Manager . Your ThinApp
 package's Java will automatically be configured at this point with the settings you dictate.
 
-![147_4_image0061](../../../../static/img/product_docs/policypak/policypak/applicationsettings/147_4_image0061.webp)
+![147_4_image0061](/img/product_docs/policypak/policypak/applicationsettings/147_4_image0061.webp)

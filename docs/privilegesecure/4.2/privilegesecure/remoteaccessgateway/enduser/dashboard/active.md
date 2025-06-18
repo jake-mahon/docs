@@ -4,12 +4,12 @@ The Active sessions dashboard shows all currently active sessions. Create an Act
 grant temporary privileges and gain access to the resources defined by an Access Policy created by
 your administrator.
 
-![End User Active Dashboard](../../../../../../../static/img/product_docs/privilegesecure/privilegesecure/accessmanagement/enduser/activedashboarduser.webp)
+![End User Active Dashboard](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/enduser/activedashboarduser.webp)
 
 The Active Sessions table has the following features:
 
 - Create Session — Open the Activity Request window. See the
-  [Create My Activity Session](../access/createsession.md) topic for additional information.
+  [Create My Activity Session](/docs/privilegesecure/4.2/privilegesecure/remoteaccessgateway/enduser/access/createsession.md) topic for additional information.
 - End Session — Cancel the selected session(s)
 - View Logs — Opens the Session Logs window to view the action log for the selected session.
 - Refresh — Reload the information displayed
@@ -20,15 +20,15 @@ The Active Sessions table has the following features:
 The table has the following columns:
 
 - Checkbox — Check to select one or more items
-- Expand icon — Click the expand (>) icon to show additional information for the session
+- Expand icon — Click the expand () icon to show additional information for the session
 - Status — Shows status information for the session:
 
     - Provisioning — Pre-Session stage of the Activity is processing and assigning permissions to
       the login account
     - Waiting for Approval — The session requires approval to begin. See the
-      [Approvals Dashboard](approvals.md) topic for additional information.
+      [Approvals Dashboard](/docs/privilegesecure/4.2/privilegesecure/remoteaccessgateway/enduser/dashboard/approvals.md) topic for additional information.
     - Available — The activity session is ready. Click the icon to begin the session, or log in
-      through a client. See the [Sessions Interface](sessions.md) topic for additional information.
+      through a client. See the [Sessions Interface](/docs/privilegesecure/4.2/privilegesecure/remoteaccessgateway/enduser/dashboard/sessions.md) topic for additional information.
     - Failed — Pre-Session stage of the Activity has encountered an error
     - Logged In — User is successfully logged in to the Resource either directly or via the Proxy.
       Direct log-in is detected by polling the Resource at regular intervals and may not update

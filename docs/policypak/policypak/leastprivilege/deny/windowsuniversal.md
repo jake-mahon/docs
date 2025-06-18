@@ -1,7 +1,7 @@
 # Denying UWP Applications
 
 **NOTE:** For an overview of how to manage UWP applications, see the
-[Manage, block and allow Windows Universal (UWP) applications](../../video/leastprivilege/windowsuniversalapplications.md)
+[Manage, block and allow Windows Universal (UWP) applications](/docs/policypak/policypak/video/leastprivilege/windowsuniversalapplications.md)
 video.
 
 Endpoint Policy Manager can be used to manage Universal Windows Platform (UWP) applications,
@@ -10,7 +10,7 @@ allowing you to block one or more applications. To do this, select **Add** > **N
 ![A screenshot of a computer
 
 Description automatically
-generated](../../../../../static/img/product_docs/policypak/policypak/leastprivilege/deny/denying_uwp_applications.webp)
+generated](/img/product_docs/policypak/policypak/leastprivilege/deny/denying_uwp_applications.webp)
 
 There are several options for managing UWP apps:
 
@@ -23,14 +23,14 @@ Here we have chosen the option for **All UWP apps**.
 ![A screenshot of a computer
 
 Description automatically
-generated](../../../../../static/img/product_docs/policypak/policypak/leastprivilege/deny/denying_uwp_applications_1.webp)
+generated](/img/product_docs/policypak/policypak/leastprivilege/deny/denying_uwp_applications_1.webp)
 
 Next, you can deny execution for all of the apps at one time, or allow and log them, as shown here.
 
 ![A screenshot of a computer
 
 Description automatically
-generated](../../../../../static/img/product_docs/policypak/policypak/leastprivilege/deny/denying_uwp_applications_2.webp)
+generated](/img/product_docs/policypak/policypak/leastprivilege/deny/denying_uwp_applications_2.webp)
 
 If you choose to deny the apps, you must select your desired deny action. In this example, the
 default Windows block message will pop up when a user attempts to open any UWP application.
@@ -38,7 +38,7 @@ default Windows block message will pop up when a user attempts to open any UWP a
 ![A screenshot of a computer
 
 Description automatically
-generated](../../../../../static/img/product_docs/policypak/policypak/leastprivilege/deny/denying_uwp_applications_3.webp)
+generated](/img/product_docs/policypak/policypak/leastprivilege/deny/denying_uwp_applications_3.webp)
 
 Using the other options for managing apps, you can block all Microsoft Store apps, or all Enterprise
 UWP apps at one time in a similar fashion. You can also allow or block specific UWP apps as well.
@@ -49,7 +49,7 @@ To choose to block only designated apps, select the **Specific UWP apps** option
 ![A screenshot of a computer
 
 Description automatically
-generated](../../../../../static/img/product_docs/policypak/policypak/leastprivilege/deny/denying_uwp_applications_4.webp)
+generated](/img/product_docs/policypak/policypak/leastprivilege/deny/denying_uwp_applications_4.webp)
 
 Next, you will need to provide some information about the app, such as the Package Name and
 Publisher. You can retrieve this information by either pointing to it using the **Select an
@@ -60,7 +60,7 @@ required information to manage the Microsoft Xbox app has been entered.
 ![A screenshot of a computer
 
 Description automatically
-generated](../../../../../static/img/product_docs/policypak/policypak/leastprivilege/deny/denying_uwp_applications_5.webp)
+generated](/img/product_docs/policypak/policypak/leastprivilege/deny/denying_uwp_applications_5.webp)
 
 Next, finish creating the policy by selecting the block/allow action and further targeting the
 policy.
@@ -73,4 +73,4 @@ the publisher are allowed to run as shown below.
 ![A screenshot of a computer
 
 Description automatically
-generated](../../../../../static/img/product_docs/policypak/policypak/leastprivilege/deny/denying_uwp_applications_6.webp)
+generated](/img/product_docs/policypak/policypak/leastprivilege/deny/denying_uwp_applications_6.webp)

@@ -14,7 +14,7 @@ and the Signing Key utility is not applied on that Directory Manager on that mac
 Configuration Tool will change the Signing Key and displays a disclaimer message on the Directory
 Manager is successfully configured page as follows:
 
-![GroupID is successfully configured page with Signing Key Disclaimer](../../../../../../static/img/product_docs/groupid/groupid/install/configure/signkeydisclaimer.webp)
+![GroupID is successfully configured page with Signing Key Disclaimer](/img/product_docs/groupid/groupid/install/configure/signkeydisclaimer.webp)
 
 Remember, after the Signing Key update, your existing schedules will not work as their
 authentication mechanism will no longer be considered valid. Therefore, the authentication mechanism
@@ -38,8 +38,8 @@ configured page as shown in the Single Directory Manager instance section.
 
 Step 2 – Export the Signing Key so that the slave node also has the same Signing Key as of the
 master node. See the
-[Export a Signing Key ](../../admincenter/service/securityservice/signkeyutility.md#export-a-signing-key)section
-of the [Signing Key Utility](../../admincenter/service/securityservice/signkeyutility.md) topic for
+[Export a Signing Key ](/docs/groupid/11.1/groupid/admincenter/service/securityservice/signkeyutility.md#export-a-signing-key)section
+of the [Signing Key Utility](/docs/groupid/11.1/groupid/admincenter/service/securityservice/signkeyutility.md) topic for
 information on how to export the Signing Key.
 
 Step 3 – On the slave node copy the exported Signing Key file into a folder.
@@ -47,7 +47,7 @@ Step 3 – On the slave node copy the exported Signing Key file into a folder.
 Step 4 – Run the Configuration Tool on the slave node until you reach the Import Signing Key page of
 the wizard:
 
-![Import Signing Key page](../../../../../../static/img/product_docs/groupid/groupid/install/configure/importkey.webp)
+![Import Signing Key page](/img/product_docs/groupid/groupid/install/configure/importkey.webp)
 
 1. Click **Browse** next to the Select file box to browse to the folder where you have copied the
    Signing Key file.
@@ -57,7 +57,7 @@ the wizard:
 Step 5 – The Configuration Tool displays the Directory Manager is successfully configured page
 without the disclaimer.
 
-![GroupID is successfully configured page](../../../../../../static/img/product_docs/groupid/groupid/install/configure/success.webp)
+![GroupID is successfully configured page](/img/product_docs/groupid/groupid/install/configure/success.webp)
 
 Remember, after the Signing Key update, your existing schedules will not work as their
 authentication mechanism will no longer be considered valid. Therefore, the authentication mechanism
@@ -85,8 +85,8 @@ is successfully configured page as shown in the Single Directory Manager instanc
 
 Step 2 – Export the Signing Key so that the slave nodes of both the clusters also have the same
 Signing Key as of the master node of cluster A. See the
-[Export a Signing Key ](../../admincenter/service/securityservice/signkeyutility.md#export-a-signing-key)section
-of the [Signing Key Utility](../../admincenter/service/securityservice/signkeyutility.md) topic for
+[Export a Signing Key ](/docs/groupid/11.1/groupid/admincenter/service/securityservice/signkeyutility.md#export-a-signing-key)section
+of the [Signing Key Utility](/docs/groupid/11.1/groupid/admincenter/service/securityservice/signkeyutility.md) topic for
 information on how to export the Signing Key file.
 
 Step 3 – On the slave nodes of Cluster A and Cluster B (_i.e. instances 2 and 4_) copy the exported
@@ -95,7 +95,7 @@ Signing Key file into a folder.
 Step 4 – Run the Configuration Tool on instance 2 and 4 until you reach the Import Signing Key page
 of the wizard.
 
-![Import Signing Key page](../../../../../../static/img/product_docs/groupid/groupid/install/configure/importkey.webp)
+![Import Signing Key page](/img/product_docs/groupid/groupid/install/configure/importkey.webp)
 
 1. Click **Browse** next to the Select file box to browse to the folder where you have copied the
    Signing Key file.
@@ -110,10 +110,10 @@ Configuration Tool displays the Directory Manager is successfully configured pag
 disclaimer as shown in the Single Directory Manager instance section.
 
 Step 7 – On the master node of Cluster B (_i.e. instance 3_), run the
-[Signing Key Utility](../../admincenter/service/securityservice/signkeyutility.md) and import the
+[Signing Key Utility](/docs/groupid/11.1/groupid/admincenter/service/securityservice/signkeyutility.md) and import the
 copied Signing Key file using the commandlet given in the
-[Import a Signing Key ](../../admincenter/service/securityservice/signkeyutility.md#import-a-signing-key)section
-of the [Signing Key Utility](../../admincenter/service/securityservice/signkeyutility.md) topic for
+[Import a Signing Key ](/docs/groupid/11.1/groupid/admincenter/service/securityservice/signkeyutility.md#import-a-signing-key)section
+of the [Signing Key Utility](/docs/groupid/11.1/groupid/admincenter/service/securityservice/signkeyutility.md) topic for
 information on how to import the Signing Key.
 
 Remember, after the Signing Key update, your existing schedules will not work as their

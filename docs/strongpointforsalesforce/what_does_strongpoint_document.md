@@ -4,7 +4,7 @@
 
 Platform Governance for Salesforce documents over 120 Salesforce metadata types. Metadata is
 organized into eight categories and 18 subcategories. Policies are set and applied at the
-subcategory level. Open [Documented Metadata Types](change_management/documented_metadata_types.md)
+subcategory level. Open [Documented Metadata Types](/docs/strongpointforsalesforce/change_management/documented_metadata_types.md)
 for a complete list of Metadata sorted by **Type** and by **Category**.
 
 | Metadata Category      | Description                                                                                                  |
@@ -18,4 +18,4 @@ for a complete list of Metadata sorted by **Type** and by **Category**.
 | Analytics              | Reports, Dashboards, List Views, and Einstein                                                                |
 | Configuration          | Data Quality settings such as Duplicate Rules, Matching Rules, and Validation Rules. Other general settings. |
 
-![Metadata Categories documented by Strongpoint](../../static/img/product_docs/strongpointforsalesforce/metadata_categories.webp)
+![Metadata Categories documented by Strongpoint](/img/product_docs/strongpointforsalesforce/metadata_categories.webp)

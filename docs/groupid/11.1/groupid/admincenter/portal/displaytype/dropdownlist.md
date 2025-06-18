@@ -46,7 +46,7 @@ A few drop-down list display types used in the default portal template are:
        database attribute.)
     3. In the **Visibility** drop-down list, select a security role. The value in the drop-down list
        will be visible to users of this role and roles with a priority value higher than this role.
-       See [Priority](../../securityrole/manage.md).  
+       See [Priority](/docs/groupid/11.1/groupid/admincenter/securityrole/manage.md).  
        Select _Never_ to hide the value from all users.
     4. Click **OK**. The value is listed in the **Values** area, represented by its display text.
 
@@ -63,6 +63,6 @@ A few drop-down list display types used in the default portal template are:
 
 **See Also**
 
-- [Design a Portal with Display Types](overview.md)
-- [Display Type Categories](categories.md)
-- [Define Custom Display Types](custom.md)
+- [Design a Portal with Display Types](/docs/groupid/11.1/groupid/admincenter/portal/displaytype/overview.md)
+- [Display Type Categories](/docs/groupid/11.1/groupid/admincenter/portal/displaytype/categories.md)
+- [Define Custom Display Types](/docs/groupid/11.1/groupid/admincenter/portal/displaytype/custom.md)

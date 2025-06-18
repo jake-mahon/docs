@@ -62,6 +62,6 @@ Test Reports are available for both **User Role Test Violations** and **Employee
 4. Select **SoD Testing** and one of the tabs:. There are links to **View Violation Details** and to
    open the Role Record.
 
-    ![SoD Test Report](../../../static/img/product_docs/strongpointfornetsuite/sod/sod_test_report.webp)
+    ![SoD Test Report](/img/product_docs/strongpointfornetsuite/sod/sod_test_report.webp)
 
     Details can be exported in an Excel format.

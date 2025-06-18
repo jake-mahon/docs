@@ -8,14 +8,14 @@ Password Policy Enforcer is a configurable password filter that enforces granula
 with many advanced features. Password Policy Enforcer helps to secure your network by ensuring that
 users choose strong passwords.
 
-![using_npr_with_password_policy](../../../../../static/img/product_docs/passwordreset/passwordreset/evaluation/using_npr_with_password_policy.webp)
+![using_npr_with_password_policy](/img/product_docs/passwordreset/passwordreset/evaluation/using_npr_with_password_policy.webp)
 
 Password Reset can integrate with Password Policy Enforcer to help users choose a compliant
 password. Password Reset displays the Password Policy Enforcer password policy message when a user
 is prompted for their new password, and the Password Policy Enforcer rejection message if the new
 password does not comply with the password policy.
 
-![using_npr_with_password_policy_1](../../../../../static/img/product_docs/passwordreset/passwordreset/evaluation/using_npr_with_password_policy_1.webp)
+![using_npr_with_password_policy_1](/img/product_docs/passwordreset/passwordreset/evaluation/using_npr_with_password_policy_1.webp)
 
 Select the **Password Policy Enforcer integration** check box in the General tab of the Password
 Reset Configuration Console if you have installed and configured Password Policy Enforcer. The
@@ -23,5 +23,5 @@ Password Policy Enforcer Evaluator's Guide will help you to install and configur
 Enforcer if you are not currently using it.
 
 An Password Reset license does not include a Password Policy Enforcer license. See
-[Administration](../../passwordpolicyenforcer/administration/administration_overview.md) in Password
+[Administration](/docs/passwordreset/3.3/passwordpolicyenforcer/administration/administration_overview.md) in Password
 Policy Enforcer topic for additional information.

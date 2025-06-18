@@ -15,7 +15,7 @@ manufacturer such as Microsoft, Red Hat, Oracle or Cisco, for example. Complianc
 supported by Change Tracker include PCI DSS, DISA STIG, NERC CIP, ISO 27001, GLBA), FISMA), HIPAA
 HITECH, S-OX, NIST 800-53/171 and GPG 13.
 
-![TechnicalOverview](../../../../static/img/product_docs/changetracker/changetracker/technicaloverview.webp)
+![TechnicalOverview](/img/product_docs/changetracker/changetracker/technicaloverview.webp)
 
 Devices are then monitored continuously using either a Change Tracker Agent installed directly onto
 the device, or using a periodically scheduled agentless interaction with the device. Any changes
@@ -49,13 +49,13 @@ Netwrix Change Tracker is delivered as a 100% software solution. The central ser
 installed on either a Windows or Linux platform. A virtual host is supported but resources, and in
 particular disk I/O performance, are critical. For more information please see:
 
-- [Installing Gen 7 Agent for Windows](install/agent/windows.md)
-- [Installing Gen 7 Agent for Linux](install/agent/linuxos.md)
+- [Installing Gen 7 Agent for Windows](/docs/changetracker/8.1/changetracker/install/agent/windows.md)
+- [Installing Gen 7 Agent for Linux](/docs/changetracker/8.1/changetracker/install/agent/linuxos.md)
 
-![Architecture](../../../../static/img/product_docs/changetracker/changetracker/architecture.webp)
+![Architecture](/img/product_docs/changetracker/changetracker/architecture.webp)
 
 For a full list of supported operating systems see
-[OS Support Matrix](requirements/ossupportmatrix.md).
+[OS Support Matrix](/docs/changetracker/8.1/changetracker/requirements/ossupportmatrix.md).
 
 Administration and everyday usage for reporting on the change history of a device and managing
 planned changes is all provided via the secure web interface. Integration options include alert

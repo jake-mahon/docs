@@ -32,7 +32,7 @@ The SQL Script Editor window has the following options:
 - Copy – Copies the highlighted script into the SQL script editor (Ctrl+C)
 - Paste – Pastes cut or copied script into the SQL script editor (Ctrl+V)
 - Online SQL Language Reference – Opens the Microsoft
-  [Transact-SQL Reference](<https://learn.microsoft.com/en-us/previous-versions/sql/sql-server-2005/ms189826(v=sql.90)>)
+  [Transact-SQL Reference](https://learn.microsoft.com/en-us/previous-versions/sql/sql-server-2005/ms189826(v=sql.90))
   article
 
 Click **Save and Close** to return to the Analysis Properties page. If no changes were made or

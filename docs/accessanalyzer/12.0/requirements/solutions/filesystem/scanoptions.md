@@ -17,14 +17,14 @@ conducted by the Access Analyzer Console server across the network. The data is 
 SQLite database(s), or Tier 2 database(s), on the Access Analyzer Console server, and then imported
 into the Access Analyzer database, or Tier 1 database, on the SQL Server.
 
-![Illustrates the Enterprise Auditor server running the scan against a file server](../../../../../../static/img/product_docs/accessanalyzer/requirements/solutions/filesystem/localmode.webp)
+![Illustrates the Enterprise Auditor server running the scan against a file server](/img/product_docs/accessanalyzer/requirements/solutions/filesystem/localmode.webp)
 
 The diagram illustrates the Access Analyzer server running the scan against a file server.
 
 See the following topics for additional information:
 
-- [Local Mode Permissions](localmodepermissions.md)
-- [Local Mode Port Requirements](localmodeports.md)
+- [Local Mode Permissions](/docs/accessanalyzer/12.0/requirements/solutions/filesystem/localmodepermissions.md)
+- [Local Mode Port Requirements](/docs/accessanalyzer/12.0/requirements/solutions/filesystem/localmodeports.md)
 
 ## Applet Mode
 
@@ -39,15 +39,15 @@ data collected in the SQLite database(s), or Tier 2 database(s), back to the Acc
 server. If the target host is a NAS device, the File System scans will default to local mode for
 that host.
 
-![Illustrates the Enterprise Auditor server sending an FSAA applet to a targeted Windows file server, which runs the scan against locally, and then returns data to the Enterprise Auditor server](../../../../../../static/img/product_docs/accessanalyzer/requirements/solutions/filesystem/appletmode.webp)
+![Illustrates the Enterprise Auditor server sending an FSAA applet to a targeted Windows file server, which runs the scan against locally, and then returns data to the Enterprise Auditor server](/img/product_docs/accessanalyzer/requirements/solutions/filesystem/appletmode.webp)
 
 The diagram illustrates the Access Analyzer server sending an FSAA applet to a targeted Windows file
 server, which runs the scan against locally, and then returns data to the Access Analyzer server.
 
 See the following topics for additional information:
 
-- [Applet Mode Permissions](appletmodepermissions.md)
-- [Applet Mode Port Requirements](appletmodeports.md)
+- [Applet Mode Permissions](/docs/accessanalyzer/12.0/requirements/solutions/filesystem/appletmodepermissions.md)
+- [Applet Mode Port Requirements](/docs/accessanalyzer/12.0/requirements/solutions/filesystem/appletmodeports.md)
 
 ## Proxy Mode with Applet
 
@@ -61,16 +61,16 @@ local mode-type scan to each of the target hosts. The final step in data collect
 and transfer the data collected in the SQLite databases, or Tier 2 databases, back to the Access
 Analyzer Console server.
 
-![Diagram of Enterprise Auditor server sending an FSAA applet to a proxy server](../../../../../../static/img/product_docs/accessanalyzer/install/filesystemproxy/proxymodewithapplet.webp)
+![Diagram of Enterprise Auditor server sending an FSAA applet to a proxy server](/img/product_docs/accessanalyzer/install/filesystemproxy/proxymodewithapplet.webp)
 
 The diagram illustrates the Access Analyzer server sending an FSAA applet to a proxy server, which
 runs the scan against a file server, and then returns data to the Access Analyzer server.
 
 See the following topics for additional information:
 
-- [Proxy Mode Server Requirements](proxymodeserver.md)
-- [Proxy Mode with Applet Permissions](proxymodeappletpermissions.md)
-- [Proxy Mode with Applet Port Requirements](proxymodeappletports.md)
+- [Proxy Mode Server Requirements](/docs/accessanalyzer/12.0/requirements/solutions/filesystem/proxymodeserver.md)
+- [Proxy Mode with Applet Permissions](/docs/accessanalyzer/12.0/requirements/solutions/filesystem/proxymodeappletpermissions.md)
+- [Proxy Mode with Applet Port Requirements](/docs/accessanalyzer/12.0/requirements/solutions/filesystem/proxymodeappletports.md)
 
 ## Proxy Mode as a Service
 
@@ -94,10 +94,10 @@ Auditing Data Collector Wizard. The credential provided for the secure communica
 installation wizard is also added to the Access Analyzer Connection Profile assigned to the File
 System Solution.
 
-See the [File System Proxy Service Installation](../../../install/filesystemproxy/wizard.md) topic
+See the [File System Proxy Service Installation](/docs/accessanalyzer/12.0/install/filesystemproxy/wizard.md) topic
 for additional information.
 
-![Diagram of Enterprise Auditor server communicating securely with the proxy service on a proxy server](../../../../../../static/img/product_docs/accessanalyzer/install/filesystemproxy/proxymodeasservicewithsecurerpc.webp)
+![Diagram of Enterprise Auditor server communicating securely with the proxy service on a proxy server](/img/product_docs/accessanalyzer/install/filesystemproxy/proxymodeasservicewithsecurerpc.webp)
 
 The diagram illustrates the Access Analyzer server communicating securely with the proxy service on
 a proxy server, which runs the scan against a file server, collecting the data locally and securely.
@@ -105,6 +105,6 @@ Then the proxy service returns data securely to the Access Analyzer server.
 
 See the following topics for additional information:
 
-- [Proxy Mode Server Requirements](proxymodeserver.md)
-- [Proxy Mode as a Service Permissions](proxymodeservicepermissions.md)
-- [Proxy Mode as a Service Port Requirements](proxymodeserviceports.md)
+- [Proxy Mode Server Requirements](/docs/accessanalyzer/12.0/requirements/solutions/filesystem/proxymodeserver.md)
+- [Proxy Mode as a Service Permissions](/docs/accessanalyzer/12.0/requirements/solutions/filesystem/proxymodeservicepermissions.md)
+- [Proxy Mode as a Service Port Requirements](/docs/accessanalyzer/12.0/requirements/solutions/filesystem/proxymodeserviceports.md)

@@ -23,7 +23,7 @@ be met in the order listed:
           Analyzer users should be given the Administrator role
         - No additional Role Based Access prerequisites are required for this option
 
-    - See the [Access](../access/overview.md) topic for additional information on Role Based Access
+    - See the [Access](/docs/accessanalyzer/12.0/admin/settings/access/overview.md) topic for additional information on Role Based Access
 
     **NOTE:** Once the vault has been enabled, it is not possible to disable Role Based Access
     without first disabling the vault. Please contact
@@ -32,7 +32,7 @@ be met in the order listed:
 
 - The Profile Security section of the Application node must be set to **Vault**
 
-    ![Vault Security](../../../../../../static/img/product_docs/accessanalyzer/admin/settings/application/vaultrbaerror.webp)
+    ![Vault Security](/img/product_docs/accessanalyzer/admin/settings/application/vaultrbaerror.webp)
 
     If the previous prerequisites have not been met, then one of the following errors will occur
     when attempting to save the Vault Profile Security setting:

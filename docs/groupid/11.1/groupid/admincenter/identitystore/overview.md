@@ -31,7 +31,7 @@ Manager. Contact Netwrix Client Services for support.
 
 **See Also**
 
-- [Create an Identity Store](create.md)
-- [Manage an Identity Store](manage.md)
-- [Configure an Identity Store](configure.md)
-- [Link Identity Stores](link/overview.md)
+- [Create an Identity Store](/docs/groupid/11.1/groupid/admincenter/identitystore/create.md)
+- [Manage an Identity Store](/docs/groupid/11.1/groupid/admincenter/identitystore/manage.md)
+- [Configure an Identity Store](/docs/groupid/11.1/groupid/admincenter/identitystore/configure.md)
+- [Link Identity Stores](/docs/groupid/11.1/groupid/admincenter/identitystore/link/overview.md)

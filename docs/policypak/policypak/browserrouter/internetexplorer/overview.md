@@ -17,7 +17,7 @@ Enterprise and Document Modes, please see
 
 **NOTE:** To learn more about Internet Explorer 11 Enterprise and Document Modes, see the following
 Microsoft websites: Enterprise Mode is at:
-[Internet Explorer to Endpoint Policy Manager Browser Router Site lists](../../video/browserrouter/iesitelists.md)
+[Internet Explorer to Endpoint Policy Manager Browser Router Site lists](/docs/policypak/policypak/video/browserrouter/iesitelists.md)
 and Document Modes is at:
 [https://technet.microsoft.com/en-us/library/dn321432.aspx](http://www.policypak.com/video/policypak-using-pp-browser-router-on-citrix-or-rds-servers-with-published-browser-applications.html).
 
@@ -29,7 +29,7 @@ Policy Manager Browser Router to perform this function.
 Using Endpoint Policy Manager Browser Router, you can require particular websites to use a specific
 Internet Explorer Enterprise Mode or Document Mode.
 
-![about_policypak_browser_router_25](../../../../../static/img/product_docs/policypak/policypak/browserrouter/internetexplorer/about_policypak_browser_router_25.webp)
+![about_policypak_browser_router_25](/img/product_docs/policypak/policypak/browserrouter/internetexplorer/about_policypak_browser_router_25.webp)
 
 Internet Explorer 11's Enterprise Mode has two specifications: v1 and v2. Endpoint Policy Manager
 Browser Router automatically detectsthe version of Internet Explorer installed on your endpoint
@@ -52,19 +52,19 @@ You can easily see if Endpoint Policy Manager Browser Router and the Internet Ex
 Mode are working. There's an Internet Explorer 11 EM icon in the title bar next to the address bar
 that demonstrates that EM is active.
 
-![about_policypak_browser_router_26](../../../../../static/img/product_docs/policypak/policypak/browserrouter/internetexplorer/about_policypak_browser_router_26.webp)
+![about_policypak_browser_router_26](/img/product_docs/policypak/policypak/browserrouter/internetexplorer/about_policypak_browser_router_26.webp)
 
 If you've chosen to use one of the Internet Explorer Document Modes, you might have a hard time
 locating them if they are applying correctly since they are difficult to see. For instance, here
 we've set a page to display in IE5 Document Mode using Endpoint Policy Manager Browser Router.
 
-![about_policypak_browser_router_27](../../../../../static/img/product_docs/policypak/policypak/browserrouter/internetexplorer/about_policypak_browser_router_27.webp)
+![about_policypak_browser_router_27](/img/product_docs/policypak/policypak/browserrouter/internetexplorer/about_policypak_browser_router_27.webp)
 
 When users visit the website at this point, Endpoint Policy Manager Browser Router correctly sets
 the IE Document Mode accordingly. To see the DM, you need to press F12 within Internet Explorer 11
 for **Developer Tools**, and then click the Emulation tab.
 
-![about_policypak_browser_router_28](../../../../../static/img/product_docs/policypak/policypak/browserrouter/internetexplorer/about_policypak_browser_router_28.webp)
+![about_policypak_browser_router_28](/img/product_docs/policypak/policypak/browserrouter/internetexplorer/about_policypak_browser_router_28.webp)
 
 In this way, you can easily create routes for all webpages that need special rendering modes using
 Endpoint Policy Manager Browser Router.

@@ -40,4 +40,4 @@ EXAMPLE
 PS C:\> Start-PPEHibpUpdater -Folder "C:\HIBP\DB" -File "C:\Users\Administrator\Desktop\db for HIBP
 Updater not real small\stealthintercept-hibp-database-1.0.0.zip
 
-![HIBP Update](../../../../../static/img/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/administration/cmdletstartppehibpupdater.webp)
+![HIBP Update](/img/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/administration/cmdletstartppehibpupdater.webp)

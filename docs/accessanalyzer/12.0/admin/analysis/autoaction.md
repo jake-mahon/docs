@@ -5,14 +5,14 @@ execution. To add an action to an analysis via the Auto Action analysis module, 
 already exist and it must reside within the current job.
 
 **NOTE:** The Actions node can also automatically execute actions. See the
-[Action Modules](../action/overview.md) topic for additional information.
+[Action Modules](/docs/accessanalyzer/12.0/admin/action/overview.md) topic for additional information.
 
 ## Select Action Window
 
 The Select Action window lists the actions that currently exist within the Job that can be selected
 to automatically run upon job execution.
 
-![Select Action Window](../../../../../static/img/product_docs/accessanalyzer/admin/analysis/autoaction.webp)
+![Select Action Window](/img/product_docs/accessanalyzer/admin/analysis/autoaction.webp)
 
 Select an action from the list. Click **OK** to exit the window, and then click **Save** to preserve
 the changes made to the analysis module. The action now executes as part of the analysis task. If no

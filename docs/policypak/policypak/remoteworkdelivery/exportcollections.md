@@ -1,19 +1,19 @@
 # Exporting Collections
 
-In Appendix A:[Using Endpoint Policy Manager with MDM and UEM Tools](../mdm/uemtools.md), you can
+In Appendix A:[Using Endpoint Policy Manager with MDM and UEM Tools](/docs/policypak/policypak/mdm/uemtools.md), you can
 learn how to use the Netwrix Endpoint Policy Manager (formerly PolicyPak) Exporter to wrap up
 Endpoint Policy Manager directives and deliver them using Endpoint Policy Manager Cloud, an MDM
 service, or a non-Group Policy method such as MEMCM, KACE, and so on.
 
 **NOTE:** For a video demonstrating the use of Endpoint Policy Manager Remote Work Delivery Manager
 with Endpoint Policy Manager MDM see
-[Copy files and keep them up to date with your MDM service](../video/remoteworkdelivery/mdm.md).
+[Copy files and keep them up to date with your MDM service](/docs/policypak/policypak/video/remoteworkdelivery/mdm.md).
 
 Remember that Endpoint Policy Manager Remote Work Delivery Manager policies can be created and
 exported on the User side or Computer side. In the example below you can see an export from the User
 side.
 
-![exporting_collections](../../../../static/img/product_docs/policypak/policypak/remoteworkdelivery/exporting_collections.webp)
+![exporting_collections](/img/product_docs/policypak/policypak/remoteworkdelivery/exporting_collections.webp)
 
 Choosing this option from the User side will allow the user to export the policy or collection for
 later use with Endpoint Policy Manager Cloud or an MDM service.
@@ -21,7 +21,7 @@ later use with Endpoint Policy Manager Cloud or an MDM service.
 Below you can see an Export of Endpoint Policy Manager Remote Work Delivery Manager XML from the
 Computer side.
 
-![exporting_collections_1](../../../../static/img/product_docs/policypak/policypak/remoteworkdelivery/exporting_collections_1.webp)
+![exporting_collections_1](/img/product_docs/policypak/policypak/remoteworkdelivery/exporting_collections_1.webp)
 
 Choosing this option from the Computer side will allow the user to export the Policy or collection
 for later use with Endpoint Policy Manager Cloud or an MDM service.
@@ -37,7 +37,7 @@ Here are some helpful tips to decide which side to use:
   switched mode).
 
 **NOTE:** See
-[Deploying Endpoint Policy Managerdirectives without Group Policy (Endpoint Policy Manager Exporter Utility)](../video/mdm/exporterutility.md)
+[Deploying Endpoint Policy Managerdirectives without Group Policy (Endpoint Policy Manager Exporter Utility)](/docs/policypak/policypak/video/mdm/exporterutility.md)
 for additional information on how to export policies and use Endpoint Policy Manager Exporter
 
 Note that exported collections or policies maintain any Item-Level Targeting set within them. If

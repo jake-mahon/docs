@@ -13,15 +13,15 @@ guidance.
 **NOTE:** That note all STIG guidance is convertible into Endpoint Policy Manager Application
 Manager format, so we only convert the ones that make sense.
 
-![539_1_image-20200219201318-1_950x682](../../../../static/img/product_docs/policypak/policypak/tips/539_1_image-20200219201318-1_950x682.webp)
+![539_1_image-20200219201318-1_950x682](/img/product_docs/policypak/policypak/tips/539_1_image-20200219201318-1_950x682.webp)
 
 You can investigate this whole process end-to-end by watching
-[Import STIG files to make your applications more secure](../video/gpocompilancereporter/importstig.md)
+[Import STIG files to make your applications more secure](/docs/policypak/policypak/video/gpocompilancereporter/importstig.md)
 on how to consume the converted STIG information:
 
 Then, you can also use Endpoint Policy Manager Group Policy Compliance Reporter (Free version) to
 verify that your settings delivered via Endpoint Policy Manager Application Manager were delivered
-correctly.[Endpoint Policy Manager GP Compliance Reporter: Using an Existing GPO as a test](../video/gpocompilancereporter/existinggpos.md)
+correctly.[Endpoint Policy Manager GP Compliance Reporter: Using an Existing GPO as a test](/docs/policypak/policypak/video/gpocompilancereporter/existinggpos.md)
 on that process.
 
 As already explained though, STIG conversion from its downloadable form from the DoD into Endpoint
@@ -79,7 +79,7 @@ see if those settings actually applied.
 
 **Step 1 –** Use the Endpoint Policy Manager Merge Utility to locate CIS Benchmark GPOs with ADMX
 settings, and converting them to Endpoint Policy Manager Admin Templates Manager format.
-([Reduce GPOs (and/or export them for use with Endpoint Policy Manager Cloud or with MDM)](../video/administrativetemplates/reducegpos.md))
+([Reduce GPOs (and/or export them for use with Endpoint Policy Manager Cloud or with MDM)](/docs/policypak/policypak/video/administrativetemplates/reducegpos.md))
 
 **Step 2 –** Once in Endpoint Policy Manager Admin Templates Manager format, use the Endpoint Policy
 Manager Group Policy Compliance Reporter (Free Version) to report on those converted settings.
@@ -94,11 +94,11 @@ specific Users or Groups, on specific IP addresses, etc etc.).
 
 **Step 1 –** Use the Endpoint Policy Manager Merge Utility to locate CIS Benchmark GPOs with ADMX
 settings, and converting them to Endpoint Policy Manager Admin Templates Manager format.
-([Reduce GPOs (and/or export them for use with Endpoint Policy Manager Cloud or with MDM)](../video/administrativetemplates/reducegpos.md))
+([Reduce GPOs (and/or export them for use with Endpoint Policy Manager Cloud or with MDM)](/docs/policypak/policypak/video/administrativetemplates/reducegpos.md))
 
 **Step 2 –** Once in Endpoint Policy Manager Admin Templates Manager format, take advantage of Item
 Level Targeting to specifically dictate where settings should be used
-([Endpoint Policy Manager Admin Templates: Collections and Item Level Targeting](../video/administrativetemplates/collections.md))
+([Endpoint Policy Manager Admin Templates: Collections and Item Level Targeting](/docs/policypak/policypak/video/administrativetemplates/collections.md))
 
 ### Endpoint Policy Manager + CIS Benchmarks Item #4: Export CIS Benchmarks for use with Endpoint Policy Manager Cloud or Endpoint Policy Manager MDM (for domain joined or non-domain joined machines.)
 
@@ -117,9 +117,9 @@ MDM.
 
 The basics for how to take existing Group Policy settings (from CIS Benchmarks or any source) and
 use with Endpoint Policy Manager Cloud
-[Endpoint Policy ManagerCloud: How to deploy Microsoft Group Policy Settings using Endpoint Policy Manager Cloud](../video/cloud/deploy/grouppolicysettings.md).
+[Endpoint Policy ManagerCloud: How to deploy Microsoft Group Policy Settings using Endpoint Policy Manager Cloud](/docs/policypak/policypak/video/cloud/deploy/grouppolicysettings.md).
 
 The basics for how to take existing Group Policy settings (from CIS Benchmarks or any source) and
 use with Endpoint Policy Manager MDM can be found
-[Reduce GPOs (and/or export them for use with Endpoint Policy Manager Cloud or with MDM)](../video/mdm/exportgpos.md)
-and [Endpoint Policy Manager and Microsoft Intune](../video/mdm/microsoftintune.md).
+[Reduce GPOs (and/or export them for use with Endpoint Policy Manager Cloud or with MDM)](/docs/policypak/policypak/video/mdm/exportgpos.md)
+and [Endpoint Policy Manager and Microsoft Intune](/docs/policypak/policypak/video/mdm/microsoftintune.md).

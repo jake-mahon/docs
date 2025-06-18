@@ -11,9 +11,9 @@ It provides the ability to feed activity data to SIEM products. The following da
 specifically created for Activity Monitor event data:
 
 - For IBM® QRadar®, see the
-  [Netwrix File Activity Monitor App for QRadar](../../../siem/qradar/overview.md) for additional
+  [Netwrix File Activity Monitor App for QRadar](/docs/activitymonitor/8.0/activitymonitor/siem/qradar/overview.md) for additional
   information.
-- For Splunk®, see the [File Activity Monitor App for Splunk](../../../siem/splunk/overview.md) for
+- For Splunk®, see the [File Activity Monitor App for Splunk](/docs/activitymonitor/8.0/activitymonitor/siem/splunk/overview.md) for
   additional information.
 
 It also provides the ability to feed activity data to other Netwrix products:
@@ -24,7 +24,7 @@ It also provides the ability to feed activity data to other Netwrix products:
 
 Prior to adding a Dell Celerra or VNX host to the Activity Monitor, the prerequisites for the target
 environment must be met. See the
-[Dell Celerra & Dell VNX Activity Auditing Configuration](../../../../config/dellcelerravnx/Activity.md)
+[Dell Celerra & Dell VNX Activity Auditing Configuration](/docs/activitymonitor/8.0/config/dellcelerravnx/Activity.md)
 topic for additional information.
 
 _Remember,_ the Activity Agent must be deployed to a Windows server that acts as a proxy for
@@ -36,12 +36,12 @@ Follow the steps to add a Dell Celerra or VNX host to be monitored.
 
 **Step 1 –** Navigate to the Monitored Hosts tab and click Add. The Add New Host window opens.
 
-![Choose Agent Page](../../../../../../../static/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/chooseagent.webp)
+![Choose Agent Page](/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/chooseagent.webp)
 
 **Step 2 –** On the Choose Agent page, select the **Agent** to monitor the storage device. Click
 **Next**.
 
-![Add Dell VNX or Celerra Host](../../../../../../../static/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/addhostemcvnxcelerra.webp)
+![Add Dell VNX or Celerra Host](/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/addhostemcvnxcelerra.webp)
 
 **Step 3 –** On the Add Host page, select the Dell VNX/Celerra radio button and enter the **CIFS
 Server NetBIOS Name** for the device. If desired, add a **Comment**. Click **Next**.
@@ -50,14 +50,14 @@ Server NetBIOS Name** for the device. If desired, add a **Comment**. Click **Nex
 order to collect events. Activity Monitor will detect if the CEE Monitor is not installed and
 display a warning to install the service. If the CEE Monitor service is installed on a remote
 machine, manual configuration is required. See the
-[Dell CEE Options Tab](../../agents/properties/dellceeoptions.md) topic for additional information.
+[Dell CEE Options Tab](/docs/activitymonitor/8.0/activitymonitor/admin/agents/properties/dellceeoptions.md) topic for additional information.
 
-![Protocol Monitoring Options](../../../../../../../static/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/isilonprotocols.webp)
+![Protocol Monitoring Options](/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/isilonprotocols.webp)
 
 **Step 4 –** On the Protocols page, select which protocols to monitor. The list of protocols that
 can be monitored are All, CIFS, or NIFS. Click **Next**.
 
-![Configure Operations Page](../../../../../../../static/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/configureoperationsforemcisilon.webp)
+![Configure Operations Page](/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/configureoperationsforemcisilon.webp)
 
 **Step 5 –** On the Configure Operations page, select the **File Operations** and **Directory
 Operations** to be monitored. Additional options include:
@@ -69,7 +69,7 @@ feature may delay reporting of activity.
 
 Click **Next**.
 
-![Configure Basic Options Page](../../../../../../../static/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/configurebasicoptions.webp)
+![Configure Basic Options Page](/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/configurebasicoptions.webp)
 
 **Step 6 –** On the Configure Basic Options page, choose which settings to enable. The "Log files"
 are the activity logs created by the activity agent on the proxy host. Select the desired options:
@@ -98,12 +98,12 @@ are the activity logs created by the activity agent on the proxy host. Select th
 
 Click **Next**.
 
-![Where to Log the Activity Page Generic](../../../../../../../static/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/wheretologgeneric.webp)
+![Where to Log the Activity Page Generic](/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/wheretologgeneric.webp)
 
 **Step 7 –** On the Where To Log The Activity page, select whether to send the activity to either a
 **Log File** or **Syslog Server**. Click **Next**.
 
-![File Output Page](../../../../../../../static/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/fileoutputpage.webp)
+![File Output Page](/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/fileoutputpage.webp)
 
 **Step 8 –** If **Log File** is selected on the **Where To Log The Activity** page, the **File
 Output** page can be configured.
@@ -127,7 +127,7 @@ Output** page can be configured.
 
 Click **Next**.
 
-![Syslog Output Page](../../../../../../../static/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/syslogoutput.webp)
+![Syslog Output Page](/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/syslogoutput.webp)
 
 **Step 9 –** If Syslog Server is selected on the **Where To Log The Activity** page, the Syslog
 Output page can be configured.
@@ -145,7 +145,7 @@ Output page can be configured.
     - TLS
 
     The TCP and TLS protocols add the Message framing drop-down menu. See the
-    [Syslog Tab](../../outputs/syslog.md) topic for additional information.
+    [Syslog Tab](/docs/activitymonitor/8.0/activitymonitor/admin/outputs/syslog.md) topic for additional information.
 
 - Syslog message template – Click the ellipsis (…) to open the Syslog Message Template window. The
   following Syslog templates have been provided:
@@ -190,23 +190,23 @@ Output page can be configured.
     - TCP/TLS – Sends test message and verifies connection
     - TLS – Shows error if TLS handshake fails
 
-    See the [Syslog Tab](../../outputs/syslog.md) topic for additional information.
+    See the [Syslog Tab](/docs/activitymonitor/8.0/activitymonitor/admin/outputs/syslog.md) topic for additional information.
 
 Click **Finish**.
 
-![activitymonitoremcvnxcelerra](../../../../../../../static/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/activitymonitoremcvnxcelerra.webp)
+![activitymonitoremcvnxcelerra](/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/activitymonitoremcvnxcelerra.webp)
 
 The added Dell Celerra or VNX host is displayed in the Monitored Hosts table. Once a host has been
 added for monitoring, configure the desired ouptuts. See the
-[Output for Monitored Hosts](../output.md) topic for additional information.
+[Output for Monitored Hosts](/docs/activitymonitor/8.0/activitymonitor/admin/monitoredhosts/output.md) topic for additional information.
 
 ## Host Properties for Dell Celerra or VNX
 
 Configuration settings can be edited through the tabs in the host's Properties window. The
 configurable host properties are:
 
-- [Dell Tab](../properties/dell.md)
-- [Inactivity Alerts Tab](../properties/inactivityalerts.md)
-- [Unix IDs Tab](../properties/unixids.md)
+- [Dell Tab](/docs/activitymonitor/8.0/activitymonitor/admin/monitoredhosts/properties/dell.md)
+- [Inactivity Alerts Tab](/docs/activitymonitor/8.0/activitymonitor/admin/monitoredhosts/properties/inactivityalerts.md)
+- [Unix IDs Tab](/docs/activitymonitor/8.0/activitymonitor/admin/monitoredhosts/properties/unixids.md)
 
-See the [Host Properties Window](../properties/overview.md) topic for additional information.
+See the [Host Properties Window](/docs/activitymonitor/8.0/activitymonitor/admin/monitoredhosts/properties/overview.md) topic for additional information.

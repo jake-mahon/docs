@@ -2,7 +2,7 @@
 
 The Users Query category collects information for users in different contexts.
 
-![Users and Groups Browser wizard Results page Users category](../../../../../../../static/img/product_docs/activitymonitor/activitymonitor/admin/monitoreddomains/admonitoringconfiguration/users.webp)
+![Users and Groups Browser wizard Results page Users category](/img/product_docs/activitymonitor/activitymonitor/admin/monitoreddomains/admonitoringconfiguration/users.webp)
 
 In the Users section, select from the following options:
 
@@ -50,7 +50,7 @@ offline.
 Clicking the ellipses for the **All users in the following groups** and the **These users** options
 opens the Find a Group or Find a User browser.
 
-![Find a group window](../../../../../../../static/img/product_docs/accessanalyzer/admin/datacollector/usersgroups/category/findagroup.webp)
+![Find a group window](/img/product_docs/accessanalyzer/admin/datacollector/usersgroups/category/findagroup.webp)
 
 The Find a Group and Find a User browsers display a list of groups or users, depending on which one
 is being used, that can be selected for the option. Select from a specific host using the Sample

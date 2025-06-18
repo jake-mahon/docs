@@ -6,7 +6,7 @@ with the exception that Applications are not able to log on through the product 
 has a unique name that is used to identify the application calling the API; authentication is via a
 combination of certificate serial number and API key.
 
-![addapplication](../../../../../../../../static/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/add/addapplication.webp)
+![addapplication](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/add/addapplication.webp)
 
 Follow the steps to add an Application to an Access Policy.
 

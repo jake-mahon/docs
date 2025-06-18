@@ -3,7 +3,7 @@
 Start by installing the Netwrix Endpoint Policy Manager (formerly PolicyPak) PowerShell module,
 found in the Endpoint Policy Manager Extras Folder in the DOWNLOAD…
 
-![548_1_gpe-fag-06-img-01](../../../../../static/img/product_docs/policypak/policypak/troubleshooting/powershell/548_1_gpe-fag-06-img-01.webp)
+![548_1_gpe-fag-06-img-01](/img/product_docs/policypak/policypak/troubleshooting/powershell/548_1_gpe-fag-06-img-01.webp)
 
 The Endpoint Policy Manager PowerShell modules are installed
 to: `C:\Program Files (x86)\PolicyPak\Tools\Modules\PolicyPak.`
@@ -18,4 +18,4 @@ commands:
 An example output can be seen below, which returns all the GPOs and which Endpoint Policy Manager
 Client Side Extension data types are inside them.
 
-![548_2_gpe-fag-06-img-02](../../../../../static/img/product_docs/policypak/policypak/troubleshooting/powershell/548_2_gpe-fag-06-img-02.webp)
+![548_2_gpe-fag-06-img-02](/img/product_docs/policypak/policypak/troubleshooting/powershell/548_2_gpe-fag-06-img-02.webp)

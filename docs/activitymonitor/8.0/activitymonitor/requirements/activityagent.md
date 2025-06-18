@@ -23,7 +23,7 @@ and the retention settings. Number of events per user per day may vary from tens
 single file system event is roughly 300 bytes.
 
 Old files are zipped, typical compression ratio is 20. Optionally, old files are moved from the
-server to a network share. See the [Archiving Tab](../admin/agents/properties/archiving.md) topic
+server to a network share. See the [Archiving Tab](/docs/activitymonitor/8.0/activitymonitor/admin/agents/properties/archiving.md) topic
 for additional information.
 
 Additional Server Requirements
@@ -46,7 +46,7 @@ The following permission is required to install and manage the agent:
 
 Activity Agent Ports
 
-See the [Activity Agent Ports](activityagentports.md) topic for firewall port requirements.
+See the [Activity Agent Ports](/docs/activitymonitor/8.0/activitymonitor/requirements/activityagentports.md) topic for firewall port requirements.
 
 ## Supported Exchange Online
 
@@ -57,7 +57,7 @@ that acts as a proxy for monitoring the target environment.
 
 - Exchange Online
 
-See the [Exchange Online Activity Auditing Configuration](../../config/exchangeonline/activity.md)
+See the [Exchange Online Activity Auditing Configuration](/docs/activitymonitor/8.0/config/exchangeonline/activity.md)
 topic for target environment requirements.
 
 ## Supported Microsoft Entra ID
@@ -69,7 +69,7 @@ that acts as a proxy for monitoring the target environment.
 
 - Microsoft Entra ID (formerly Azure AD)
 
-See the [Microsoft Entra ID Activity Auditing Configuration](../../config/entraid/activity.md) topic
+See the [Microsoft Entra ID Activity Auditing Configuration](/docs/activitymonitor/8.0/config/entraid/activity.md) topic
 for target environment requirements.
 
 ## Supported Network Attached Storage Devices
@@ -84,7 +84,7 @@ CTERA Edge Filter
 - CTERA Portal 7.5.x+
 - CTERA Edge Filer 7.5.x+
 
-See the [CTERA Activity Auditing Configuration](../../config/ctera/Activity.md) topic for target
+See the [CTERA Activity Auditing Configuration](/docs/activitymonitor/8.0/config/ctera/Activity.md) topic for target
 environment requirements.
 
 Dell Celerra® & VNX
@@ -94,7 +94,7 @@ Dell Celerra® & VNX
 - VNX 8.1
 
 See the
-[Dell Celerra & Dell VNX Activity Auditing Configuration](../../config/dellcelerravnx/Activity.md)
+[Dell Celerra & Dell VNX Activity Auditing Configuration](/docs/activitymonitor/8.0/config/dellcelerravnx/Activity.md)
 topic for target environment requirements.
 
 Dell Isilon/PowerScale
@@ -102,31 +102,31 @@ Dell Isilon/PowerScale
 - 7.0+
 
 See the
-[Dell Isilon/PowerScale Activity Auditing Configuration](../../config/dellpowerscale/activity.md)
+[Dell Isilon/PowerScale Activity Auditing Configuration](/docs/activitymonitor/8.0/config/dellpowerscale/activity.md)
 topic for target environment requirements.
 
 Dell PowerStore®
 
-See the [Dell PowerStore Activity Auditing Configuration](../../config/dellpowerstore/activity.md)
+See the [Dell PowerStore Activity Auditing Configuration](/docs/activitymonitor/8.0/config/dellpowerstore/activity.md)
 topic for target environment requirements.
 
 Dell Unity
 
-See the [Dell Unity Activity Auditing Configuration](../../config/dellunity/activity.md) topic for
+See the [Dell Unity Activity Auditing Configuration](/docs/activitymonitor/8.0/config/dellunity/activity.md) topic for
 target environment requirements.
 
 Hitachi
 
 - 11.2+
 
-See the [Hitachi Activity Auditing Configuration](../../config/hitachi/activity.md) topic for target
+See the [Hitachi Activity Auditing Configuration](/docs/activitymonitor/8.0/config/hitachi/activity.md) topic for target
 environment requirements.
 
 Nasuni Nasuni Edge Appliances
 
 - 8.0+
 
-See the [Nasuni Edge Appliance Activity Auditing Configuration](../../config/nasuni/activity.md)
+See the [Nasuni Edge Appliance Activity Auditing Configuration](/docs/activitymonitor/8.0/config/nasuni/activity.md)
 topic for target environment requirements.
 
 NetApp Data ONTAP
@@ -136,24 +136,24 @@ NetApp Data ONTAP
 
 See the following topics for target environment requirements:
 
-- [NetApp Data ONTAP 7-Mode Activity Auditing Configuration](../../config/netapp7mode/activity.md)
-- [NetApp Data ONTAP Cluster-Mode Activity Auditing Configuration](../../config/netappcmode/activity.md)
+- [NetApp Data ONTAP 7-Mode Activity Auditing Configuration](/docs/activitymonitor/8.0/config/netapp7mode/activity.md)
+- [NetApp Data ONTAP Cluster-Mode Activity Auditing Configuration](/docs/activitymonitor/8.0/config/netappcmode/activity.md)
 
 Nutanix
 
-See the [Nutanix Files Activity Auditing Configuration](../../config/nutanix/activity.md) topic for
+See the [Nutanix Files Activity Auditing Configuration](/docs/activitymonitor/8.0/config/nutanix/activity.md) topic for
 target environment requirements.
 
 Panzura
 
-See the [Panzura CloudFS Monitoring](../../config/panzura/activity.md) topic for target environment
+See the [Panzura CloudFS Monitoring](/docs/activitymonitor/8.0/config/panzura/activity.md) topic for target environment
 requirements.
 
 Qumulo
 
 - Qumulo Core 5.0.0.1B+
 
-See the [Qumulo Activity Auditing Configuration](../../config/qumulo/activity.md) topic for target
+See the [Qumulo Activity Auditing Configuration](/docs/activitymonitor/8.0/config/qumulo/activity.md) topic for target
 environment requirements.
 
 ## Supported SharePoint Farms Platforms
@@ -169,7 +169,7 @@ Application server that hosts the "Central Administration" component of the Shar
 
 - SharePoint® Server Subscription Edition
 
-See the [SharePoint On-Premise Activity Auditing Configuration](../../config/sharepoint/activity.md)
+See the [SharePoint On-Premise Activity Auditing Configuration](/docs/activitymonitor/8.0/config/sharepoint/activity.md)
 topic for target environment requirements.
 
 ## Supported SharePoint Online
@@ -182,7 +182,7 @@ that acts as a proxy for monitoring the target environment.
 - SharePoint Online®
 
 See the
-[SharePoint Online Activity Auditing Configuration](../../config/sharepointonline/activity.md) topic
+[SharePoint Online Activity Auditing Configuration](/docs/activitymonitor/8.0/config/sharepointonline/activity.md) topic
 for target environment requirements.
 
 ## Supported SQL Server Platforms
@@ -199,7 +199,7 @@ deployed to a Windows server that acts as a proxy for monitoring the target envi
 - SQL Server 2017
 - SQL Server 2016
 
-See the [SQL Server Activity Auditing Configuration](../../config/sqlserver/activity.md) topic for
+See the [SQL Server Activity Auditing Configuration](/docs/activitymonitor/8.0/config/sqlserver/activity.md) topic for
 target environment requirements.
 
 ## Supported Windows File Servers Platforms
@@ -213,5 +213,5 @@ It cannot be deployed to a proxy server.
 - Windows Server 2019
 - Windows Server 2016
 
-See the [Windows File Server Activity Auditing Configuration](../../config/windowsfile/activity.md)
+See the [Windows File Server Activity Auditing Configuration](/docs/activitymonitor/8.0/config/windowsfile/activity.md)
 topic for target environment requirements.

@@ -8,7 +8,7 @@ Gets or sets the user name of the account registered with the SMS gateway provid
 
 **Syntax**
 
-[Copy](<javascript:void(0);>)
+[Copy](javascript:void(0);)
 
 ```
 string UserId { get; set; }

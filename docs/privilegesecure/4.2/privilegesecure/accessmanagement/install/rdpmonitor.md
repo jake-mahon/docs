@@ -6,8 +6,8 @@ on the target host to install and enable this service. The EXE file is located 
 of the Privilege Secure installation download ZIP file.
 
 The Windows event activity that occurs during an RDP session is then displayed and is searchable
-within the [Live Session Viewer Window](../admin/dashboard/window/liveviewer.md) and the
-[Replay Viewer Window](../admin/dashboard/window/replayviewer.md) with keystroke details, which are
+within the [Live Session Viewer Window](/docs/privilegesecure/4.2/privilegesecure/accessmanagement/admin/dashboard/window/liveviewer.md) and the
+[Replay Viewer Window](/docs/privilegesecure/4.2/privilegesecure/accessmanagement/admin/dashboard/window/replayviewer.md) with keystroke details, which are
 monitored and recorded without this service.
 
 Follow the steps to install the Remote Desktop Monitor service.
@@ -36,5 +36,5 @@ The service is now listening for terminal services connections.
 
 **NOTE:** It is necessary for the Record Proxy Sessions option to be enabled on the connection
 profile for the associated access policy. See the
-[Connection Profiles Page](../admin/policy/page/connectionprofiles.md) topic for additional
+[Connection Profiles Page](/docs/privilegesecure/4.2/privilegesecure/accessmanagement/admin/policy/page/connectionprofiles.md) topic for additional
 information.

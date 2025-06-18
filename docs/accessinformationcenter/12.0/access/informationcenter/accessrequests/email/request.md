@@ -2,7 +2,7 @@
 
 When a domain user submits a request, you receive an email notification.
 
-![User Access Request email](../../../../../../../static/img/product_docs/accessinformationcenter/access/informationcenter/accessrequests/owners/request.webp)
+![User Access Request email](/img/product_docs/accessinformationcenter/access/informationcenter/accessrequests/owners/request.webp)
 
 The email will include the following information:
 
@@ -21,7 +21,7 @@ See the Process Request Via Email topic for additional information.
 
 There are options for accepting or declining the request in the original email notification.
 
-![Request email response buttons](../../../../../../../static/img/product_docs/accessinformationcenter/access/informationcenter/accessrequests/email/requestbuttons.webp)
+![Request email response buttons](/img/product_docs/accessinformationcenter/access/informationcenter/accessrequests/email/requestbuttons.webp)
 
 You can use these buttons to either accept or decline the request from the email notification.
 
@@ -34,16 +34,16 @@ default browser for security authentication.
 
 **Step 2 –** Log into the Access Information Center using your domain credentials.
 
-![Request accepted message](../../../../../../../static/img/product_docs/accessinformationcenter/access/informationcenter/accessrequests/email/requestaccepted.webp)
+![Request accepted message](/img/product_docs/accessinformationcenter/access/informationcenter/accessrequests/email/requestaccepted.webp)
 
 **Step 3 –** A message displays confirming that your response has been saved. Click **Close** to
 close the browser window.
 
 The requester will receive an email notification on the updated status of the request. See the
-[Access Request Updated Email](updated.md) topic for an example of this email.
+[Access Request Updated Email](/docs/accessinformationcenter/12.0/access/informationcenter/accessrequests/email/updated.md) topic for an example of this email.
 
 You can view the history of requests processed for your resources in the Owner portal. See the
-[Access Request History](../owners/requesthistory.md) topic for additional information.
+[Access Request History](/docs/accessinformationcenter/12.0/access/informationcenter/accessrequests/owners/requesthistory.md) topic for additional information.
 
 ### Decline Request
 
@@ -54,20 +54,20 @@ default browser for security authentication.
 
 **Step 2 –** Log into the Access Information Center using your domain credentials.
 
-![Decline access message](../../../../../../../static/img/product_docs/accessinformationcenter/access/informationcenter/accessrequests/email/requestdecline.webp)
+![Decline access message](/img/product_docs/accessinformationcenter/access/informationcenter/accessrequests/email/requestdecline.webp)
 
 **Step 3 –** A message displays giving you the option to add an explanation for the user before the
 response is processed. Any note added here is included in the email nonfiction to the requesting
 user. Optionally enter an explanation into the Notes box, and click **Submit**.
 
-![Access declined message](../../../../../../../static/img/product_docs/accessinformationcenter/access/informationcenter/accessrequests/email/requestdeclined.webp)
+![Access declined message](/img/product_docs/accessinformationcenter/access/informationcenter/accessrequests/email/requestdeclined.webp)
 
 **Step 4 –** A message displays confirming that your response has been saved. Click **Close** to
 close the browser window.
 
 The requester will receive an email notification on the updated status of the request, including any
-note you added. See the [Access Request Updated Email](updated.md) topic for an example of this
+note you added. See the [Access Request Updated Email](/docs/accessinformationcenter/12.0/access/informationcenter/accessrequests/email/updated.md) topic for an example of this
 email.
 
 You can view the history of requests processed for your resources in the Owner portal. See the
-[Access Request History](../owners/requesthistory.md) topic for additional information.
+[Access Request History](/docs/accessinformationcenter/12.0/access/informationcenter/accessrequests/owners/requesthistory.md) topic for additional information.

@@ -8,7 +8,7 @@ Utility allows you to do just that. Identify the source GPOs that contain Micros
 settings (known as REG.POL settings), and then specify a target GPO, to create a collection.
 
 **NOTE:** See the
-[Reduce GPOs (and/or export them for use with Endpoint Policy Manager Cloud or with MDM)](../video/mdm/exportgpos.md)
+[Reduce GPOs (and/or export them for use with Endpoint Policy Manager Cloud or with MDM)](/docs/policypak/policypak/video/mdm/exportgpos.md)
 topic for more information.
 
 A secondary use for the Endpoint Policy Manager **Group Policy Merge Utility** is to merge multiple
@@ -17,12 +17,12 @@ for use with Endpoint Policy Manager Cloud or an MDM service. This way, you can 
 Group Policy settings and export them quickly and easily into one export file, which is uploaded
 into Endpoint Policy Manager Cloud or an MDM service for use later.
 
-![merging_and_reducing_existing](../../../../static/img/product_docs/policypak/policypak/adminstrativetemplates/merging_and_reducing_existing.webp)
+![merging_and_reducing_existing](/img/product_docs/policypak/policypak/adminstrativetemplates/merging_and_reducing_existing.webp)
 
 To run the tool, locate the downloadable ISO file in the Endpoint Policy Manager Extras folder, as
 seen below.
 
-![merging_and_reducing_existing_1](../../../../static/img/product_docs/policypak/policypak/adminstrativetemplates/merging_and_reducing_existing_1.webp)
+![merging_and_reducing_existing_1](/img/product_docs/policypak/policypak/adminstrativetemplates/merging_and_reducing_existing_1.webp)
 
 Currently, the Endpoint Policy Manager **Group Policy Merge Tool** can only migrate GPOs containing
 ADM/ADMX (REG.POL) items. In the future, more formats will be available for other scenarios.

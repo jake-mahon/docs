@@ -2,7 +2,7 @@
 
 To instruct Netwrix Auditor to collect data needed for the report, make sure that Collect data for
 state-in-time reports option is selected in the corresponding monitoring plan properties. See
-[Create a New Monitoring Plan](../../../monitoringplans/create.md).
+[Create a New Monitoring Plan](/docs/auditor/10.7/auditor/admin/monitoringplans/create.md).
 
 **NOTE:** For Microsoft Entra ID, only the current date snapshot can be used for Reports.
 
@@ -14,7 +14,7 @@ settings that violate company policies or applicable compliance standards.
 
 For this report to function properly, you must enable the Collect data for state-in-time reports
 option for the data source in the monitoring plan settings. See the
-[Settings for Data Collection](../../../monitoringplans/create.md#settings-for-data-collection)
+[Settings for Data Collection](/docs/auditor/10.7/auditor/admin/monitoringplans/create.md#settings-for-data-collection)
 topic for more information.
 
 ### Tips to Work with Report

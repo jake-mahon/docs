@@ -7,7 +7,7 @@ populated.
 ![A screenshot of a computer
 
 Description automatically
-generated](../../../../../static/img/product_docs/policypak/policypak/leastprivilege/bestpractices/deeper_dive_on_file_info.webp)
+generated](/img/product_docs/policypak/policypak/leastprivilege/bestpractices/deeper_dive_on_file_info.webp)
 
 The MMC-based File Info editor can read file attributes and perform work depending on the internal
 values of the program.
@@ -22,14 +22,14 @@ values of the program.
 ![A screenshot of a computer
 
 Description automatically
-generated](../../../../../static/img/product_docs/policypak/policypak/leastprivilege/bestpractices/deeper_dive_on_file_info_1.webp)
+generated](/img/product_docs/policypak/policypak/leastprivilege/bestpractices/deeper_dive_on_file_info_1.webp)
 
 This screen shot shows an older iTunes Setup as an additional example.
 
 ![A screenshot of a computer
 
 Description automatically
-generated](../../../../../static/img/product_docs/policypak/policypak/leastprivilege/bestpractices/deeper_dive_on_file_info_2.webp)
+generated](/img/product_docs/policypak/policypak/leastprivilege/bestpractices/deeper_dive_on_file_info_2.webp)
 
 MSI files have different characteristics than EXE files, so Endpoint Policy Manager Least Privilege
 Manager has a different GUI when you are using the **File Match** condition. Here you can see the
@@ -38,7 +38,7 @@ MSI and File Match GUI after Skype Installer MSI has been selected.
 ![A screenshot of a computer
 
 Description automatically
-generated](../../../../../static/img/product_docs/policypak/policypak/leastprivilege/bestpractices/deeper_dive_on_file_info_3.webp)
+generated](/img/product_docs/policypak/policypak/leastprivilege/bestpractices/deeper_dive_on_file_info_3.webp)
 
 Getting the product code from the file system isn’t possible, which is why you need the Endpoint
 Policy Manager File Information Viewer.
@@ -46,7 +46,7 @@ Policy Manager File Information Viewer.
 ![A screenshot of a computer
 
 Description automatically
-generated](../../../../../static/img/product_docs/policypak/policypak/leastprivilege/bestpractices/deeper_dive_on_file_info_4.webp)
+generated](/img/product_docs/policypak/policypak/leastprivilege/bestpractices/deeper_dive_on_file_info_4.webp)
 
 To get to the information you need, use the Endpoint Policy Manager File Information Viewer (found
 in the Extras folder in the Download) and select the application to see some of the MSI internals,
@@ -62,7 +62,7 @@ Product Info match for MSI files will match on all the fields highlighted in red
 ![A screenshot of a computer
 
 Description automatically
-generated](../../../../../static/img/product_docs/policypak/policypak/leastprivilege/bestpractices/deeper_dive_on_file_info_5.webp)
+generated](/img/product_docs/policypak/policypak/leastprivilege/bestpractices/deeper_dive_on_file_info_5.webp)
 
 One way to use File Info match could be to make a rule that says, "Allow install of Skype Setup
 .MSI, provided it is version 7 or later." In order to do that, you would make an MSI Combo rule with
@@ -71,7 +71,7 @@ three conditions, as shown here.
 ![A screenshot of a computer
 
 Description automatically
-generated](../../../../../static/img/product_docs/policypak/policypak/leastprivilege/bestpractices/deeper_dive_on_file_info_6.webp)
+generated](/img/product_docs/policypak/policypak/leastprivilege/bestpractices/deeper_dive_on_file_info_6.webp)
 
 The three conditions could be:
 
@@ -85,6 +85,6 @@ for matching MSI product codes.
 ![A screenshot of a computer
 
 Description automatically
-generated](../../../../../static/img/product_docs/policypak/policypak/leastprivilege/bestpractices/deeper_dive_on_file_info_7.webp)
+generated](/img/product_docs/policypak/policypak/leastprivilege/bestpractices/deeper_dive_on_file_info_7.webp)
 
 This makes the **Product Info Condition** a powerful tool, when used alone or with a Combo rule.

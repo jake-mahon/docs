@@ -2,8 +2,8 @@
 
 Before making any changes, it is important to understand the scope of the planned change, potential
 impacts and the level of change required. Documentation is also available if you are using the old
-[Change Request](creating_change_request_old_form.md) form. Refer to
-[Setting Preferred Forms](../customizations/setting_preferred_forms.md) for information on
+[Change Request](/docs/strongpointfornetsuite/change_management/creating_change_request_old_form.md) form. Refer to
+[Setting Preferred Forms](/docs/strongpointfornetsuite/customizations/setting_preferred_forms.md) for information on
 designating your preferred Change Request form.
 
 SuiteCloud Development Framework (SDF) users can upload their Sandbox development file directly into
@@ -20,7 +20,7 @@ request in your sandbox account.
    Started_.
 2. Enter information in the **Main** and **Scope** sections:
 
-    ![change_request_new](../../../static/img/product_docs/strongpointfornetsuite/change_management/change_request_new.webp)
+    ![change_request_new](/img/product_docs/strongpointfornetsuite/change_management/change_request_new.webp)
 
     - **Name**: Add a name to the change request.
     - **Stage**: Select the type of change you want to make.
@@ -29,7 +29,7 @@ request in your sandbox account.
       current account or a different account:
         - Click **Change Account** to log into another account or sandbox and look up
           customizations. You can use the **Set up TBA Credentials** procedure in
-          [Comparing Environments](comparing_environments.md) to save your credentials for each
+          [Comparing Environments](/docs/strongpointfornetsuite/change_management/comparing_environments.md) to save your credentials for each
           environment you use.
         - Enter a **Name** and click **Lookup** to find a customization by all or part of a name.
           For example, **a** shows everything beginning with **A**.
@@ -71,7 +71,7 @@ request in your sandbox account.
       automatic ReSpidering is turned off, there is a risk of changes being marked as non-compliant
       if the change logs are not complete when the user changes the status to **Completed**. The
       default for the **Do Not ReSpider Automically** is set on the
-      [Configuration and Stats Change Management](../installing_strongpoint/installation_settings_report.md)
+      [Configuration and Stats Change Management](/docs/strongpointfornetsuite/installing_strongpoint/installation_settings_report.md)
       tab.
     - **Proposed Customizations**: Use this field when you are adding customizations that do not yet
       exist in your account. You can add multiple Script IDs by separating them with commas. Can be
@@ -95,8 +95,8 @@ request in your sandbox account.
 4. **Save** the Change Request. New sections and tabs are available once you save:
 
     1. **Push to Jira** button is available if the
-       [Jira integration](../integrations/jira_integration.md) is available, and
-       [Allow NS to Push to Jira](../integrations/jira_integration.md) is enabled. When prompted,
+       [Jira integration](/docs/strongpointfornetsuite/integrations/jira_integration.md) is available, and
+       [Allow NS to Push to Jira](/docs/strongpointfornetsuite/integrations/jira_integration.md) is enabled. When prompted,
        select the Jira project and click **Push**. A Jira ticket is created. The ticket number is
        added to the **Related Change Records** tab as an **External Change Request Number**. The
        customizations are added to the new Jira ticket.
@@ -104,7 +104,7 @@ request in your sandbox account.
     3. The **Approval** section is visible. Click **Edit to** add **Additional Approvers** or
        **Approver Notes**. Click **Save** if you make changes.
 
-        ![change_request_new_saved](../../../static/img/product_docs/strongpointfornetsuite/change_management/change_request_new_saved.webp)
+        ![change_request_new_saved](/img/product_docs/strongpointfornetsuite/change_management/change_request_new_saved.webp)
 
     4. **Impact Analysis** is automatically run. The results are shown on the **Impact Analysis**
        tab. In addition to all of the direct dependencies, indirect dependencies are also considered
@@ -145,12 +145,12 @@ request in your sandbox account.
    confirmation prompt is displayed. When confirmed, Approval Notifications are sent to the
    approvers.
 
-    ![change_request_new_pendapprove](../../../static/img/product_docs/strongpointfornetsuite/change_management/change_request_new_pendapprove.webp)
+    ![change_request_new_pendapprove](/img/product_docs/strongpointfornetsuite/change_management/change_request_new_pendapprove.webp)
 
 6. Approvers approve or reject the Change Request. **Deploy** is available for approved Change
    Requests.
 
-    ![change_request_new_approved](../../../static/img/product_docs/strongpointfornetsuite/change_management/change_request_new_approved.webp)
+    ![change_request_new_approved](/img/product_docs/strongpointfornetsuite/change_management/change_request_new_approved.webp)
 
 7. Validate the Change Request.
 
@@ -167,13 +167,13 @@ Status is changed to **Cancelled CR**.
 
 ## Status Bar States
 
-![change_request_bar_not_started](../../../static/img/product_docs/strongpointfornetsuite/change_management/change_request_bar_not_started.webp)
+![change_request_bar_not_started](/img/product_docs/strongpointfornetsuite/change_management/change_request_bar_not_started.webp)
 
 New Change Request. Click **In Progress** to advance the status.
 
 Impact Analysis is run when the Change Request is Saved.
 
-![change_request_bar_inprogress](../../../static/img/product_docs/strongpointfornetsuite/change_management/change_request_bar_inprogress.webp)
+![change_request_bar_inprogress](/img/product_docs/strongpointfornetsuite/change_management/change_request_bar_inprogress.webp)
 
 Change Request **In Progress**.
 
@@ -183,7 +183,7 @@ Impact Analysis is run when the Change Request is Saved.
 
 When ready for approval, click **Pending Approval**.
 
-![change_request_bar_pending](../../../static/img/product_docs/strongpointfornetsuite/change_management/change_request_bar_pending.webp)
+![change_request_bar_pending](/img/product_docs/strongpointfornetsuite/change_management/change_request_bar_pending.webp)
 
 Approvers are notified.
 
@@ -193,7 +193,7 @@ Status can be demoted.
 
 Status promoted based on Approvers actions.
 
-![change_request_bar_approved](../../../static/img/product_docs/strongpointfornetsuite/change_management/change_request_bar_approved.webp)
+![change_request_bar_approved](/img/product_docs/strongpointfornetsuite/change_management/change_request_bar_approved.webp)
 
 Status when all approvers have approved.
 
@@ -201,11 +201,11 @@ Can be returned to a previous status or rejected.
 
 **Deploy** button is available.
 
-![change_request_bar_approved_partial](../../../static/img/product_docs/strongpointfornetsuite/change_management/change_request_bar_approved_partial.webp)
+![change_request_bar_approved_partial](/img/product_docs/strongpointfornetsuite/change_management/change_request_bar_approved_partial.webp)
 
 Status when Change Request is partially approved. Wait for all approvers to finish.
 
-![change_request_bar_approved_override](../../../static/img/product_docs/strongpointfornetsuite/change_management/change_request_bar_approved_override.webp)
+![change_request_bar_approved_override](/img/product_docs/strongpointfornetsuite/change_management/change_request_bar_approved_override.webp)
 
 Status when an administrator has approved in place of a specified approver.
 
@@ -213,7 +213,7 @@ Status when an administrator has approved in place of a specified approver.
 
 **Deploy** button is available.
 
-![change_request_bar_approved_completed](../../../static/img/product_docs/strongpointfornetsuite/change_management/change_request_bar_approved_completed.webp)
+![change_request_bar_approved_completed](/img/product_docs/strongpointfornetsuite/change_management/change_request_bar_approved_completed.webp)
 
 Approved and Completed.
 
@@ -221,7 +221,7 @@ Can be returned to a previous status.
 
 **Deploy** button not available.
 
-![change_request_bar_approved_canceled](../../../static/img/product_docs/strongpointfornetsuite/change_management/change_request_bar_approved_canceled.webp)
+![change_request_bar_approved_canceled](/img/product_docs/strongpointfornetsuite/change_management/change_request_bar_approved_canceled.webp)
 
 Approved and Canceled.
 
@@ -229,7 +229,7 @@ Can be returned to a previous status.
 
 **Deploy** button not available.
 
-![change_request_bar_rejected](../../../static/img/product_docs/strongpointfornetsuite/change_management/change_request_bar_rejected.webp)
+![change_request_bar_rejected](/img/product_docs/strongpointfornetsuite/change_management/change_request_bar_rejected.webp)
 
 Rejected and Completed.
 

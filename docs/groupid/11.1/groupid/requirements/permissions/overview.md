@@ -5,5 +5,5 @@ elevated privileges. You can also use a Group Managed Service Account (gMSA) for
 
 See the following topics for details on these accounts:
 
-- [Service Account for Active Directory and Exchange](adserviceaccount.md)
-- [gMSA for Active Directory](gmsarequirements.md)
+- [Service Account for Active Directory and Exchange](/docs/groupid/11.1/groupid/requirements/permissions/adserviceaccount.md)
+- [gMSA for Active Directory](/docs/groupid/11.1/groupid/requirements/permissions/gmsarequirements.md)

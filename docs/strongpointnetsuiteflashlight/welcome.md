@@ -22,8 +22,8 @@ Flashlight provides your organization these key benefits:
 
 #### Move Faster
 
-- Use the Flashlight [Dashboard](getting_started/dashboard.md) and the
-  [Entity Relationship Diagrams](using_flashlight/using_erd.md) to spot problems before they happen
+- Use the Flashlight [Dashboard](/docs/strongpointnetsuiteflashlight/getting_started/dashboard.md) and the
+  [Entity Relationship Diagrams](/docs/strongpointnetsuiteflashlight/using_flashlight/using_erd.md) to spot problems before they happen
   and respond to your users more quickly.
 - Now you can make better, faster decisions to drive your business forward.
 

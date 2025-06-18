@@ -38,4 +38,4 @@ within the Connection Profile assigned to the File System scans must be properly
 explained above. Also the firewall rules must be configured to allow for communication between the
 applicable servers.
 
-See the [Applet Mode Port Requirements](appletmodeports.md) topic for firewall rule information.
+See the [Applet Mode Port Requirements](/docs/accessanalyzer/12.0/requirements/solutions/filesystem/appletmodeports.md) topic for firewall rule information.

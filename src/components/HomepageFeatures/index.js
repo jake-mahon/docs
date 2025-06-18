@@ -43,14 +43,19 @@ const ProductCategories = [
     icon: '👤',
     products: [
       {
-        name: 'UserCube',
+        name: 'Identity Manager 6.1',
         description: 'User provisioning and management',
-        link: '/docs/usercube',
+        link: '/docs/identitymanager/6.1',
       },
       {
-        name: 'UserCube SaaS',
+        name: 'Identity Manager 6.2',
+        description: 'User provisioning and management',
+        link: '/docs/identitymanager/6.2',
+      },
+      {
+        name: 'Identity Manager SaaS',
         description: 'Cloud-based user management',
-        link: '/docs/usercube_saas',
+        link: '/docs/identitymanager/saas',
       },
       {
         name: 'GroupID',

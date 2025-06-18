@@ -20,11 +20,11 @@ The account used for data collection must meet the following requirements:
   Domain Admins group:
 
     - The Manage auditing and security log policy must be defined for this account. See the
-      [Permissions for Active Directory Auditing](../activedirectory/permissions.md) topic for
+      [Permissions for Active Directory Auditing](/docs/auditor/10.7/auditor/configuration/activedirectory/permissions.md) topic for
       additional information.
     - If you plan to process the Active Directory Deleted Objects container, Read permission on this
       container is required. See the
-      [Permissions for Active Directory Auditing](../activedirectory/permissions.md) topic for
+      [Permissions for Active Directory Auditing](/docs/auditor/10.7/auditor/configuration/activedirectory/permissions.md) topic for
       additional information.
     - The account must belong to the Organization Management or Records Management group. See the
       Add Account to the Organization Management Group topic for additional information.
@@ -58,7 +58,7 @@ in the root domain of the forest where Microsoft Exchange 2019, 2016, or 2013 is
 **Step 4 –** In the **Organization Management Properties** dialog that opens, select the **Members**
 tab and click **Add**.
 
-![manualconfig_orgmanagement2016](../../../../../../static/img/product_docs/auditor/auditor/configuration/exchange/manualconfig_orgmanagement2016.webp)
+![manualconfig_orgmanagement2016](/img/product_docs/auditor/auditor/configuration/exchange/manualconfig_orgmanagement2016.webp)
 
 If for some reason you do not want this account to belong to the Organization Management group, you
 can add it to the Records Management group in the same way. The Records Management group is less
@@ -93,7 +93,7 @@ Domain Admins group.
 This permission should be assigned on each domain controller in the audited domain, so if your
 domain contains multiple domain controllers, it is recommended to assign permissions through Group
 Policy, or automatically using
-[Audit Configuration Assistant](../../tools/auditconfigurationassistant.md).
+[Audit Configuration Assistant](/docs/auditor/10.7/auditor/tools/auditconfigurationassistant.md).
 
 To assign permissions manually, use the Registry Editor snap-in or the Group Policy Management
 console.

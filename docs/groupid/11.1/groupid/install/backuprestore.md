@@ -26,7 +26,7 @@ data folder. The default folder location is:
 `C:/ProgramData/Imanami/GroupID 10.0/Replication/data/`
 
 ```
-ldifde -f c:\groupinfobeforeGroupID.ldf -r "(&(objectClass=group)(objectCategory=group)(|(extensionData=*)(extensionAttribute15=*)(extensionAttribute14=*)(extensionAttribute13=*)(extensionAttribute12=*)))" -p Subtree -l extensionData,extensionAttribute15,extensionAttribute14,extensionAttribute13,extensionAttribute12
+ldifde -f c:\groupinfobeforeGroupID.ldf -r "(&(objectClass=group)(objectCategory=group)(|(extensionData=*)(extensionAttribute15=*)(extensionAttribute14=*)(extensionAttribute13=*)(extensionAttribute12=*)" -p Subtree -l extensionData,extensionAttribute15,extensionAttribute14,extensionAttribute13,extensionAttribute12
 ```
 
 ## GroupID Self-Service Portals

@@ -26,7 +26,7 @@ In Directory Manager, history for an identity store is tracked at two levels:
     - workflows
     - security roles
 
-    See the [Identity Store History](../../history/view.md) topic to view the tracked history data.
+    See the [Identity Store History](/docs/groupid/11.1/groupid/admincenter/identitystore/history/view.md) topic to view the tracked history data.
 
 By default, history tracking is disabled. You can:
 
@@ -39,8 +39,8 @@ RECOMMENDED: History tracking can slow down system performance. For optimal perf
 recommended that you track only specific, more important actions and limit Directory Manager history
 data storage to the most recent records.
 
-See the [History in Directory Manager](../../../history.md) and
-[Event Logging](../../history/eventlogging.md) topics for additional information.
+See the [History in Directory Manager](/docs/groupid/11.1/groupid/admincenter/history.md) and
+[Event Logging](/docs/groupid/11.1/groupid/admincenter/identitystore/history/eventlogging.md) topics for additional information.
 
 What do you want to do?
 
@@ -132,7 +132,7 @@ database forever.
 You can set Directory Manager to retain an identity store's history data for a specified length of
 time in the database. When the retention period is over, the History Retention schedule archives
 this data by moving it from the database to CSV files. See the
-[History Retention Schedule](../../../schedule/historyretention.md) topic.
+[History Retention Schedule](/docs/groupid/11.1/groupid/admincenter/schedule/historyretention.md) topic.
 
 **To retain history data for a specific period:**
 

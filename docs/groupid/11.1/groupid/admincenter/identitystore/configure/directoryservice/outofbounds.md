@@ -157,5 +157,5 @@ Smart Group Update schedule responsible for updating the respective group.
 
 **See Also**
 
-- [Manage Dynasty Settings](dynastysettings.md)
-- [Smart Group Update Schedule](../../../schedule/smartgroupupdate.md)
+- [Manage Dynasty Settings](/docs/groupid/11.1/groupid/admincenter/identitystore/configure/directoryservice/dynastysettings.md)
+- [Smart Group Update Schedule](/docs/groupid/11.1/groupid/admincenter/schedule/smartgroupupdate.md)

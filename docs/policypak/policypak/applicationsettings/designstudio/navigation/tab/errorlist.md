@@ -4,7 +4,7 @@ The Error List tab is only active after a compile error occurs (see Figure 57). 
 generally rare, and we request that you send any pXMLs which do not properly compile to
 [support@policypak.com](mailto:support@policypak.com) for analysis.
 
-![getting_around_9_624x460](../../../../../../../static/img/product_docs/policypak/policypak/applicationsettings/designstudio/navigation/tab/getting_around_9_624x460.webp)
+![getting_around_9_624x460](/img/product_docs/policypak/policypak/applicationsettings/designstudio/navigation/tab/getting_around_9_624x460.webp)
 
 Figure 57. A Endpoint Policy Manager DesignStudio compile error.
 
@@ -12,7 +12,7 @@ When errors do occur, the error list pops up and suggests some fixes, as shown i
 Double-click the proposed fix (or right-click and select "Apply Default Fix") for any errors found,
 as shown in Figure 58.
 
-![getting_around_10_624x671](../../../../../../../static/img/product_docs/policypak/policypak/applicationsettings/designstudio/navigation/tab/getting_around_10_624x671.webp)
+![getting_around_10_624x671](/img/product_docs/policypak/policypak/applicationsettings/designstudio/navigation/tab/getting_around_10_624x671.webp)
 
 Figure 58. Applying the default fix to errors.
 

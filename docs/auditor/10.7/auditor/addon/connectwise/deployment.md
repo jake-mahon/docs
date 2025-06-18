@@ -5,9 +5,9 @@ Follow the steps to deploy the Add-On for ConnectWise.
 **Step 1 –** Prepare Auditor for using the add-on:
 
 1. In the Auditor settings, enable Integration API and specify connection port. See the
-   [Integrations](../../admin/settings/integrations.md) topic for additional information.
+   [Integrations](/docs/auditor/10.7/auditor/admin/settings/integrations.md) topic for additional information.
 2. Make sure your monitoring plans set up in Auditor are using Audit Databases to store collected
-   data. See the [Audit Database](../../admin/settings/auditdatabase.md) topic for additional
+   data. See the [Audit Database](/docs/auditor/10.7/auditor/admin/settings/auditdatabase.md) topic for additional
    information.
 
 **Step 2 –** Download the add-on package and copy it to the computer where Auditor Server resides.
@@ -20,10 +20,10 @@ Manage Integration Service**.
 
 **Step 5 –** Run the ConfigureConnection.exe and follow the steps of the wizard to configure
 connection and ticketing settings for ConectWise Manage. See the
-[Configure ConnectWise ](configure.md)topic for additional information.
+[Configure ConnectWise ](/docs/auditor/10.7/auditor/addon/connectwise/configure.md)topic for additional information.
 
 **Step 6 –** (optional) To adjust the add-on operation and data flow settings, edit the
-ITSMSettings.xml file. See the [Operational Settings](operationalsettings.md) topic for additional
+ITSMSettings.xml file. See the [Operational Settings](/docs/auditor/10.7/auditor/addon/connectwise/operationalsettings.md) topic for additional
 information.
 
 **Step 7 –** In Auditor, go to Alerts, select the required alerts, click Edit, and in the Response

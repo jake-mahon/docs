@@ -10,7 +10,7 @@ agent to a new server. The credentials can be updated or modified as well.
 
 _Remember,_ **Test** the credentials before clicking OK to ensure a successful connection.
 
-![Connection Tab for Agent Properties](../../../../../../../static/img/product_docs/activitymonitor/activitymonitor/admin/agents/properties/connectiontab.webp)
+![Connection Tab for Agent Properties](/img/product_docs/activitymonitor/activitymonitor/admin/agents/properties/connectiontab.webp)
 
 Agent server fields:
 
@@ -41,7 +41,7 @@ the local Administrators group.
 
 The Specify account or group window is opened from a field where a Windows account is needed.
 
-![Specify Account or Group popup window](../../../../../../../static/img/product_docs/activitymonitor/activitymonitor/admin/agents/properties/windowsspecifyaccountorgroup.webp)
+![Specify Account or Group popup window](/img/product_docs/activitymonitor/activitymonitor/admin/agents/properties/windowsspecifyaccountorgroup.webp)
 
 Follow the steps to use this window.
 
@@ -71,7 +71,7 @@ agent to a new server. The credentials can be updated or modified as well.
 
 _Remember,_ **Test** the credentials before clicking OK to ensure a successful connection.
 
-![linuxconnectiontab](../../../../../../../static/img/product_docs/activitymonitor/activitymonitor/admin/agents/properties/linuxconnectiontab.webp)
+![linuxconnectiontab](/img/product_docs/activitymonitor/activitymonitor/admin/agents/properties/linuxconnectiontab.webp)
 
 Agent server fields:
 

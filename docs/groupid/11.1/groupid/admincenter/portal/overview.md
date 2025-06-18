@@ -49,14 +49,14 @@ linking, the identity stores must be built on Active Directory or Microsoft Entr
 purpose is to link identical objects in different domains.
 
 To learn about linked identity stores and how they work in a Directory Manager portal, see the
-[Linked Identity Stores and the Directory Manager Portal](../identitystore/link/overview.md#linked-identity-stores-and-the-directory-manager-portal)
+[Linked Identity Stores and the Directory Manager Portal](/docs/groupid/11.1/groupid/admincenter/identitystore/link/overview.md#linked-identity-stores-and-the-directory-manager-portal)
 topic.
 
 ## Notifications in the Portal
 
 A Directory Manager portal can send email notifications to designated recipients when a user makes a
 change to objects in an identity store. To specify notification recipients, see the
-[Specify Notification Recipients](../identitystore/configure/smtpserver.md#specify-notification-recipients)
+[Specify Notification Recipients](/docs/groupid/11.1/groupid/admincenter/identitystore/configure/smtpserver.md#specify-notification-recipients)
 topic.
 
 By default, notifications are sent to users in the English language. However, a user can opt to
@@ -65,6 +65,6 @@ receive notifications in a supported language by personalizing the language sett
 
 **See Also**
 
-- [Directory Manage Applications](applications.md)
-- [Create a Portal](create.md)
-- [Delete a Portal](delete.md)
+- [Directory Manage Applications](/docs/groupid/11.1/groupid/admincenter/portal/applications.md)
+- [Create a Portal](/docs/groupid/11.1/groupid/admincenter/portal/create.md)
+- [Delete a Portal](/docs/groupid/11.1/groupid/admincenter/portal/delete.md)

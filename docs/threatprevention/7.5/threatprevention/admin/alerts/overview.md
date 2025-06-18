@@ -5,12 +5,12 @@ Configuration events for Threat Prevention - all of which are known as alerts. T
 system-generated and do not require any prior configuration.
 
 You can choose to view alerts related to analytics configuration and monitoring status on the Alerts
-interface. See the [Alerts Cleanup Window](window/alertscleanup.md) topic for options to display
+interface. See the [Alerts Cleanup Window](/docs/threatprevention/7.5/threatprevention/admin/alerts/window/alertscleanup.md) topic for options to display
 this data.
 
 Click **Alerts** in the left pane to launch the Alerts interface.
 
-![Alerts interface](../../../../../../static/img/product_docs/threatprevention/threatprevention/admin/alerts/alertsinterface.webp)
+![Alerts interface](/img/product_docs/threatprevention/threatprevention/admin/alerts/alertsinterface.webp)
 
 The following options are available on the toolbar:
 
@@ -57,7 +57,7 @@ The data grid displays the following information for each event:
     - Threat Prevention Configuration events
 
     For a list of the events that fall under each component, see the
-    [System Alerting Window](../configuration/systemalerting/overview.md)
+    [System Alerting Window](/docs/threatprevention/7.5/threatprevention/admin/configuration/systemalerting/overview.md)
 
 - Machine – Name of the originating host
 - Alert – Name of the event that triggered the alert
@@ -65,12 +65,12 @@ The data grid displays the following information for each event:
 - Message – Description and details about the event. The **Policy updated on server
   Changeset #[number]** link is displayed for events that represent a change to a policy, be it a
   policy under the Policies node or one defined for analytics. Click it to open the
-  [Policy Comparison Window](window/policycomparison.md) where you can view any changes made to the
+  [Policy Comparison Window](/docs/threatprevention/7.5/threatprevention/admin/alerts/window/policycomparison.md) where you can view any changes made to the
   policy. Alerts generated for an archive database maintenance job have "Archive DB:" as the message
   prefix to differentiate them from those generated for the database maintenance job.
 
 This data grid employs features for sorting, filtering, searching, and more. See the
-[ Data Grid Functionality](../navigation/datagrid.md) topic for additional information.
+[ Data Grid Functionality](/docs/threatprevention/7.5/threatprevention/admin/navigation/datagrid.md) topic for additional information.
 
 Select an event in the data grid to view its details.
 
@@ -83,15 +83,15 @@ Below are some considerations:
 - Occasionally a Microsoft Security Bulletin impacting LSASS can interfere with the Agent
   instrumentation resulting in LSASS shutting down. The Agent is configured to monitor for an LSASS
   process termination shortly after a server reboot. The
-  [LSASS Process Terminated](../../troubleshooting/lsass.md) alert (Operations alert) is triggered
+  [LSASS Process Terminated](/docs/threatprevention/7.5/threatprevention/troubleshooting/lsass.md) alert (Operations alert) is triggered
   in this event and the Agent is stopped. As a result, all monitoring/blocking by that Agent stops.
   To resolve the issue, either upgrade to the latest version of the Agent or simply upgrade
   SI.ActiveDirectoryMonitor.dll - commonly known as ADMonitor DLL (recommended). See the
-  [Upgrade ADMonitor](../agents/management/upgradeadmonitor.md)topic for additional information.
+  [Upgrade ADMonitor](/docs/threatprevention/7.5/threatprevention/admin/agents/management/upgradeadmonitor.md)topic for additional information.
 
     **_RECOMMENDED:_** Activate an email notification for the _LSASS process terminated_ alert. See
     the
-    [Enable the 'LSASS Process Terminated' Email Alert](../../troubleshooting/lsass.md#enable-the-lsass-process-terminated-email-alert)
+    [Enable the 'LSASS Process Terminated' Email Alert](/docs/threatprevention/7.5/threatprevention/troubleshooting/lsass.md#enable-the-lsass-process-terminated-email-alert)
     topic for additional information.
 
 - In addition to the LSASS process termination check, the Agent can be configured for a Safe Mode.
@@ -102,11 +102,11 @@ Below are some considerations:
   monitoring/blocking by that Agent stops. The 'Agent Started in AD Monitor pending mode' alert
   (Operations alert) is triggered in this event. To resolve the issue temporarily, the Threat
   Prevention administrator should start the pending modules. See the
-  [Start Pending Modules](../agents/management/startpendingmodules.md) topic for additional
+  [Start Pending Modules](/docs/threatprevention/7.5/threatprevention/admin/agents/management/startpendingmodules.md) topic for additional
   information. It is also recommended to upgrade SI.ActiveDirectoryMonitor.dll (commonly known as
   ADMonitor DLL) to resolve the issue permanently. See the
-  [Upgrade ADMonitor](../agents/management/upgradeadmonitor.md) topic for additional information.
+  [Upgrade ADMonitor](/docs/threatprevention/7.5/threatprevention/admin/agents/management/upgradeadmonitor.md) topic for additional information.
 
     **_RECOMMENDED:_** Activate an email notification for this alert. See the
-    [Enable Agent Started in AD Monitor Pending Mode Email Alert](../agents/safemode.md#enable-agent-started-in-ad-monitor-pending-mode-email-alert)
-    topic and the [Agent Safe Mode](../agents/safemode.md) topic for additional information.
+    [Enable Agent Started in AD Monitor Pending Mode Email Alert](/docs/threatprevention/7.5/threatprevention/admin/agents/safemode.md#enable-agent-started-in-ad-monitor-pending-mode-email-alert)
+    topic and the [Agent Safe Mode](/docs/threatprevention/7.5/threatprevention/admin/agents/safemode.md) topic for additional information.

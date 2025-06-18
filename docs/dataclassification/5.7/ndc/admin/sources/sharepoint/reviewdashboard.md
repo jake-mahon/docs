@@ -1,7 +1,7 @@
 # Reviewing SharePoint Dashboard
 
 The SharePoint dashboard is similar to the main reporting dashboard, with the results filtered to
-SharePoint types. See [Operations and Health Dashboards](../../reporting/dashboards.md) for more
+SharePoint types. See [Operations and Health Dashboards](/docs/dataclassification/5.7/ndc/admin/reporting/dashboards.md) for more
 information on the reporting dashboard.
 
 To open the SharePoint dashboard:
@@ -15,4 +15,4 @@ Here you can examine:
 - **Classification coverage** diagram that identifies the percentage of content that has had
   classifications applied, and the percentage that has not.
 
-![sharepointdashboard_thumb_0_0](../../../../../../../static/img/product_docs/dataclassification/ndc/admin/sources/sharepoint/sharepointdashboard_thumb_0_0.webp)
+![sharepointdashboard_thumb_0_0](/img/product_docs/dataclassification/ndc/admin/sources/sharepoint/sharepointdashboard_thumb_0_0.webp)

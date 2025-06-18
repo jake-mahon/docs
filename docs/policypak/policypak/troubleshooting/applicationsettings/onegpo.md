@@ -1,6 +1,6 @@
 # Should I put lots of Paks (or other PP directives into one GPO?)
 
-[How many Endpoint Policy Manager policies can I create within one Group Policy Object?](limitations.md)
+[How many Endpoint Policy Manager policies can I create within one Group Policy Object?](/docs/policypak/policypak/troubleshooting/applicationsettings/limitations.md)
 
 Then, as a suggestion, the best practice for Netwrix Endpoint Policy Manager (formerly PolicyPak) is
 to have one GPO for each "thing" you want to do.
@@ -10,7 +10,7 @@ Targeting to specify the conditions of WHO would get the settings WHEN.
 
 Here is an example:
 
-![345_1_2015-09-01_1047](../../../../../static/img/product_docs/policypak/policypak/troubleshooting/applicationsettings/345_1_2015-09-01_1047.webp)
+![345_1_2015-09-01_1047](/img/product_docs/policypak/policypak/troubleshooting/applicationsettings/345_1_2015-09-01_1047.webp)
 
 Then you would do the same for another GPO, say, for Firefox, and another GPO for Internet Explorer
 settings, and so on.

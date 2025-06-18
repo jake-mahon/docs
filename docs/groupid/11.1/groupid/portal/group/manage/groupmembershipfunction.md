@@ -40,7 +40,7 @@ will exist but without any link to Group A. Hence, Group A’s membership will b
 
 You can add one or more objects to the membership of one or more groups. These objects would be
 added as permanent members. You will find them listed as members on the Members tab in
-[Group Properties](../properties/overview.md).
+[Group Properties](/docs/groupid/11.1/groupid/portal/group/properties/overview.md).
 
 NOTE: In a Microsoft Entra ID based identity store, only user objects can be added as members of an
 Office 365 group.
@@ -49,21 +49,21 @@ Use any of the following methods to add members to groups.
 
 ### Method 1:
 
-1. [Directory Search](../../search/search.md) the required objects.
+1. [Directory Search](/docs/groupid/11.1/groupid/portal/search/search.md) the required objects.
 2. Select these objects on the **Search Results** page and click **Add to Group** on the toolbar.
-3. The [Find Dialog Box](../../search/find.md) is displayed, where you can search and select the
+3. The [Find Dialog Box](/docs/groupid/11.1/groupid/portal/search/find.md) is displayed, where you can search and select the
    group(s) to add the objects to.
 
 ### Method 2:
 
-1. [Directory Search](../../search/search.md) the group you want to add members to.
+1. [Directory Search](/docs/groupid/11.1/groupid/portal/search/search.md) the group you want to add members to.
 2. Select this group on the **Search Results** page and click **Properties** on the toolbar.
 
-    The group's [Group Properties](../properties/overview.md) page is displayed.
+    The group's [Group Properties](/docs/groupid/11.1/groupid/portal/group/properties/overview.md) page is displayed.
 
 3. On the **Members** tab, click **Add**.
 4. Enter a search string to locate the objects to add as members, or click **Advanced** to use the
-   [Find Dialog Box](../../search/find.md) for performing a search.
+   [Find Dialog Box](/docs/groupid/11.1/groupid/portal/search/find.md) for performing a search.
 5. Save the changes.
 
 NOTE: These methods for adding members are recommended for static (unmanaged) groups only. For Smart
@@ -79,11 +79,11 @@ membership type of an object from permanent to temporary and vice versa.
 
 You can also add or remove an object from a group's membership for a temporary period.
 
-1. [Directory Search](../../search/search.md) a group to change the membership type of its
+1. [Directory Search](/docs/groupid/11.1/groupid/portal/search/search.md) a group to change the membership type of its
    member(s).
 2. Select this group on the **Search Results** page and click **Properties** on the toolbar.
 
-    The group's [Group Properties](../properties/overview.md) page is displayed, where the
+    The group's [Group Properties](/docs/groupid/11.1/groupid/portal/group/properties/overview.md) page is displayed, where the
     **Members** tab lists the group members.
 
 3. To change the membership type of a member, click anywhere in the respective row to make it
@@ -150,10 +150,10 @@ days for temporary membership update.
 
 Follow the steps to remove members permanently from a group.
 
-1. [Directory Search](../../search/search.md) the group you want to remove member(s) from.
+1. [Directory Search](/docs/groupid/11.1/groupid/portal/search/search.md) the group you want to remove member(s) from.
 2. Select this group on the **Search Results** page and click **Properties** on the toolbar.
 
-    The group's [Group Properties](../properties/overview.md) page is displayed.
+    The group's [Group Properties](/docs/groupid/11.1/groupid/portal/group/properties/overview.md) page is displayed.
 
 3. On the **Members** tab, select the group members you want to remove and click **Remove**.
 4. Save the changes.
@@ -172,7 +172,7 @@ Follow the steps to add a group to the membership of another group (nesting).
 2. Select the My Groups, **My Memberships**, or **My Expiring Groups** tab.
 3. Select the group(s) to add to the membership of another group and click **Add to Group** on the
    toolbar.
-4. On the [Find Dialog Box](../../search/find.md), search and select the group to add members to it,
+4. On the [Find Dialog Box](/docs/groupid/11.1/groupid/portal/search/find.md), search and select the group to add members to it,
    and click **OK**.
 
 ## Import members to a group
@@ -188,11 +188,11 @@ Office 365 group.
 
 2. Select the group you want to import members to, and click **Properties** on the toolbar.
 
-    The group's [Group Properties](../properties/overview.md) page is displayed.
+    The group's [Group Properties](/docs/groupid/11.1/groupid/portal/group/properties/overview.md) page is displayed.
 
-3. On the [Group properties - Members tab](../properties/members.md), click **Import** to launch the
+3. On the [Group properties - Members tab](/docs/groupid/11.1/groupid/portal/group/properties/members.md), click **Import** to launch the
    **Import Members** wizard.
-4. See [Import Group Members](../properties/importmembers.md) for further information and
+4. See [Import Group Members](/docs/groupid/11.1/groupid/portal/group/properties/importmembers.md) for further information and
    instructions.
 5. Save the changes.
 
@@ -200,10 +200,10 @@ Office 365 group.
 
 You can export members of a group to an external file.
 
-1. [Directory Search](../../search/search.md) a group to export its members to an external file.
+1. [Directory Search](/docs/groupid/11.1/groupid/portal/search/search.md) a group to export its members to an external file.
 2. Select this group on the **Search Results** page and click **Properties** on the toolbar.
 
-    The group's [Group Properties](../properties/overview.md) page is displayed.
+    The group's [Group Properties](/docs/groupid/11.1/groupid/portal/group/properties/overview.md) page is displayed.
 
 3. On the **Members** tab, click **Export** to launch the **Export Members** wizard.
 4. On the **Attributes** page:
@@ -236,10 +236,10 @@ Microsoft Entra ID tenant to the membership of a group in your domain.
 
     Or
 
-    [Directory Search](../../search/search.md) the group you want to invite a guest user to.
+    [Directory Search](/docs/groupid/11.1/groupid/portal/search/search.md) the group you want to invite a guest user to.
 
 2. Select the required group from the list and click **Properties** on the toolbar. The group's
-   [Group Properties](../properties/overview.md) page is displayed.
+   [Group Properties](/docs/groupid/11.1/groupid/portal/group/properties/overview.md) page is displayed.
 3. On the **Members** tab, click the **Invite User** button.
 4. On the **Invite User** dialog box, provide the following information:
 

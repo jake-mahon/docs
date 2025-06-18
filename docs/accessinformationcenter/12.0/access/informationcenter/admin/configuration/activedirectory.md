@@ -13,7 +13,7 @@ connecting to the database. If your Database service account uses:
 - Windows authentication credentials — The same domain credentials are also used for the Active
   Directory service account
 
-![Configuration interface showing the Active Directory page](../../../../../../../static/img/product_docs/accessanalyzer/admin/hostdiscovery/wizard/activedirectory.webp)
+![Configuration interface showing the Active Directory page](/img/product_docs/accessanalyzer/admin/hostdiscovery/wizard/activedirectory.webp)
 
 There are two options for the type of Active Directory service account:
 
@@ -21,7 +21,7 @@ There are two options for the type of Active Directory service account:
 
     - A group Managed Service Account (gMSA) can be used by configuring it to run the Netwrix Access
       Information Center service. See the
-      [Group Managed Service Account (gMSA) Configuration](../additionalconfig/gmsa.md) topic for
+      [Group Managed Service Account (gMSA) Configuration](/docs/accessinformationcenter/12.0/access/informationcenter/admin/additionalconfig/gmsa.md) topic for
       additional information.
 
 - Use the following Active Directory account – Uses a domain account with the required permissions
@@ -57,7 +57,7 @@ permissions and setup. Once the prerequisites are in place, it can be enabled on
 
 When checked, the **Allow this account to make changes to group membership** option uses the Active
 Directory service account to commit group membership changes. See the
-[Commit Active Directory Changes](../additionalconfig/commitchanges.md) topic for additional
+[Commit Active Directory Changes](/docs/accessinformationcenter/12.0/access/informationcenter/admin/additionalconfig/commitchanges.md) topic for additional
 information on provisioning the Active Directory service account and best practices for group and
 resource management through the Access Information Center
 
@@ -70,7 +70,7 @@ the **Use the following Active Directory account** option.
 
 **Step 1 –** On the Active Directory page, enter the new password in the correct field.
 
-![Saving configuration window](../../../../../../../static/img/product_docs/accessinformationcenter/access/informationcenter/admin/configuration/savedchangeswindow.webp)
+![Saving configuration window](/img/product_docs/accessinformationcenter/access/informationcenter/admin/configuration/savedchangeswindow.webp)
 
 **Step 2 –** Click **Save**. Then click **OK** to confirm. After the settings are saved, a
 re-authentication is required to continue using the Access Information Center.

@@ -1,6 +1,6 @@
 # Archive Data
 
-To use the Move operation on the [Database Maintenance Window](overview.md), you must specify a
+To use the Move operation on the [Database Maintenance Window](/docs/threatprevention/7.5/threatprevention/admin/configuration/databasemaintenance/overview.md), you must specify a
 database where data is archived. You can also define settings to delete data aged beyond a specified
 threshold from the archive database.
 
@@ -14,7 +14,7 @@ Follow the steps to configure settings for the archive database.
 **Step 1 –** Click **Configuration** > **Database** > **Maintenance** on the menu. The Database
 Maintenance window is displayed. Click the **Archive DB** tab.
 
-![Database Maintenance window - Archive DB tab](../../../../../../../static/img/product_docs/threatprevention/threatprevention/admin/configuration/databasemaintenance/archivedb.webp)
+![Database Maintenance window - Archive DB tab](/img/product_docs/threatprevention/threatprevention/admin/configuration/databasemaintenance/archivedb.webp)
 
 **Step 2 –** Enter the following information for the database where data is to be archived:
 
@@ -29,7 +29,7 @@ Maintenance window is displayed. Click the **Archive DB** tab.
 **Step 3 –** Click **Save** to save the configurations.
 
 To query archived event data, use the Investigate interface. See the
-[Investigate Interface](../../investigate/overview.md) topic for additional information.
+[Investigate Interface](/docs/threatprevention/7.5/threatprevention/admin/investigate/overview.md) topic for additional information.
 
 ## Enable Database Maintenance for the Archive Database
 
@@ -39,7 +39,7 @@ three options can be enabled with different retention periods, the Event Type ma
 take precedence over Policy maintenance settings where the selected policy employs that event type.
 
 Alerts generated for the archive database maintenance job are displayed on the
-[Alerts Interface](../../alerts/overview.md) with "Archive DB:" as prefix in the Message column.
+[Alerts Interface](/docs/threatprevention/7.5/threatprevention/admin/alerts/overview.md) with "Archive DB:" as prefix in the Message column.
 This helps differnciate between alerts generated for database maintenance and archive database
 maintenance.
 
@@ -54,7 +54,7 @@ once.
 **Step 2 –** Click the **Configure Archive DB Maintenance** button. The Archive DB Maintenance
 window is displayed.
 
-![Archive DB Maintenance window](../../../../../../../static/img/product_docs/threatprevention/threatprevention/admin/configuration/databasemaintenance/archivedbmaintenance.webp)
+![Archive DB Maintenance window](/img/product_docs/threatprevention/threatprevention/admin/configuration/databasemaintenance/archivedbmaintenance.webp)
 
 The following information is displayed at the top of the window:
 
@@ -86,7 +86,7 @@ Agent that will run the maintenance job.
   NVMonitorData database.
 
 **Step 4 –** On the Event Type, Analytics, and/or Policy tabs, enable maintenance for all or some of
-the options. See the [Enable Database Maintenance](enable.md) topic for additional information.
+the options. See the [Enable Database Maintenance](/docs/threatprevention/7.5/threatprevention/admin/configuration/databasemaintenance/enable.md) topic for additional information.
 
 The [Event Type Tab](overview.md#event-type-tab), [Analytics Tab](overview.md#analytics-tab), and
 [Policy Tab](overview.md#policy-tab) on the Archive DB Maintenance window are the same as on the
@@ -94,7 +94,7 @@ Database Maintenance window, except that only the 'Delete' operation is availabl
 database.
 
 **Step 5 –** On the Schedule tab, set the frequency and time when the database maintenance job runs.
-See the [Schedule Database Maintenance](schedule.md) topic for additional information.
+See the [Schedule Database Maintenance](/docs/threatprevention/7.5/threatprevention/admin/configuration/databasemaintenance/schedule.md) topic for additional information.
 
 **Step 6 –** Click **OK** on the Archive DB Maintenance window.
 

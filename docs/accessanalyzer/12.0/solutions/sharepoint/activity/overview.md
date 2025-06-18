@@ -4,11 +4,11 @@ The 7.Activity job group generates summary and detail reports of SharePoint acti
 specified sites. These reports can be used for identifying file, folder, and user related activity
 across your SharePoint environment.
 
-![7.Activity Job Group in the Jobs Tree](../../../../../../static/img/product_docs/accessanalyzer/admin/hostmanagement/jobstree.webp)
+![7.Activity Job Group in the Jobs Tree](/img/product_docs/accessanalyzer/admin/hostmanagement/jobstree.webp)
 
 The job groups in the 7.Activity Job Group are:
 
-- [Forensics Job Group](forensics/overview.md) – Highlights deletions, group membership changes,
+- [Forensics Job Group](/docs/accessanalyzer/12.0/solutions/sharepoint/activity/forensics/overview.md) – Highlights deletions, group membership changes,
   permission changes, and activity around sensitive data
-- [Usage Statistics Job Group](usagestatistics/overview.md)– Identifies long term trends of activity
+- [Usage Statistics Job Group](/docs/accessanalyzer/12.0/solutions/sharepoint/activity/usagestatistics/overview.md)– Identifies long term trends of activity
   across your SharePoint environment highlighting most active sites and users as well as stale users

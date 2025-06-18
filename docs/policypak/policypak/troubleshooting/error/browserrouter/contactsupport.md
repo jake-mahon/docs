@@ -5,7 +5,7 @@ If you see a message like what's seen below…
 "Please contact your support personnel who can gather logs and work with Netwrix Endpoint Policy
 Manager (formerly PolicyPak) support."
 
-![206_1_image](../../../../../../static/img/product_docs/policypak/policypak/troubleshooting/error/browserrouter/206_1_image.webp)
+![206_1_image](/img/product_docs/policypak/policypak/troubleshooting/error/browserrouter/206_1_image.webp)
 
 This could happen for a variety of reasons.
 
@@ -28,7 +28,7 @@ Tips:
   [https://community.ivanti.com/docs/DOC-59389](https://community.ivanti.com/docs/DOC-59389)
 - For your AV / other software, see your own vendor's exclusions.
 - Endpoint Policy Manager AV Exclusions:
-  [How must I configure my Anti-virus or system-level software to work with Endpoint Policy Manager CSE?](../../../install/antivirus.md)
+  [How must I configure my Anti-virus or system-level software to work with Endpoint Policy Manager CSE?](/docs/policypak/policypak/install/antivirus.md)
 - If you have a FEW or ONE machine showing the issue: FAQ.
 
 **Step 3 –** After that, it could still be a bug. But it would typically appear on MANY machines and
@@ -36,6 +36,6 @@ not just a SINGLE or a FEW machines. That being said, if you would like for us t
 logs, in these cases, we need AT LEAST TWO machines to see a PATTERN in the logs. So be prepared to
 get logs from multiple machines showing the issue so we can do some deeper investigation.
 
-[What must I send to Endpoint Policy Manager support in order to get the FASTEST support?](../../fastsupport.md)
+[What must I send to Endpoint Policy Manager support in order to get the FASTEST support?](/docs/policypak/policypak/troubleshooting/fastsupport.md)
 
 _Remember,_ We need AT LEAST two machines of logs to check in this case.

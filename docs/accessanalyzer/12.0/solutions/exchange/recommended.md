@@ -3,14 +3,14 @@
 Each job group within the Exchange Solution has its own Recommended Configurations topic. See the
 relevant topic for specific information on job group settings and recommended schedule frequency.
 
-- [Recommended Configurations for the 1. HUB Metrics Job Group](hubmetrics/recommended.md)
-- [Recommended Configurations for the 2. CAS Metrics Job Group](casmetrics/recommended.md)
-- [Recommended Configurations for the 3. Databases Job Group](databases/recommended.md)
-- [Recommended Configurations for the 4. Mailboxes Job Group](mailboxes/recommended.md)
-- [Recommended Configurations for the 5. Public Folders Job Group](publicfolders/recommended.md)
-- [Recommended Configurations for the 6. Distribution Lists Job Group](distributionlists/recommended.md)
-- [Recommended Configurations for the 7. Sensitive Data Job Group](sensitivedata/recommended.md)
-- [Recommended Configurations for the 8. Exchange Online Job Group](online/recommended.md)
+- [Recommended Configurations for the 1. HUB Metrics Job Group](/docs/accessanalyzer/12.0/solutions/exchange/hubmetrics/recommended.md)
+- [Recommended Configurations for the 2. CAS Metrics Job Group](/docs/accessanalyzer/12.0/solutions/exchange/casmetrics/recommended.md)
+- [Recommended Configurations for the 3. Databases Job Group](/docs/accessanalyzer/12.0/solutions/exchange/databases/recommended.md)
+- [Recommended Configurations for the 4. Mailboxes Job Group](/docs/accessanalyzer/12.0/solutions/exchange/mailboxes/recommended.md)
+- [Recommended Configurations for the 5. Public Folders Job Group](/docs/accessanalyzer/12.0/solutions/exchange/publicfolders/recommended.md)
+- [Recommended Configurations for the 6. Distribution Lists Job Group](/docs/accessanalyzer/12.0/solutions/exchange/distributionlists/recommended.md)
+- [Recommended Configurations for the 7. Sensitive Data Job Group](/docs/accessanalyzer/12.0/solutions/exchange/sensitivedata/recommended.md)
+- [Recommended Configurations for the 8. Exchange Online Job Group](/docs/accessanalyzer/12.0/solutions/exchange/online/recommended.md)
 
 ## ExchangePS Data Collector & Client Access Server
 
@@ -41,11 +41,11 @@ Wizard opens.
 **CAUTION:** Unless otherwise indicated within the job group section, do not make changes to other
 wizard pages as they have been pre-configured for the purpose of the job.
 
-![CAS name on ExchangePS Data Collector Wizard Category page](../../../../../static/img/product_docs/accessanalyzer/solutions/exchange/exchangepscas.webp)
+![CAS name on ExchangePS Data Collector Wizard Category page](/img/product_docs/accessanalyzer/solutions/exchange/exchangepscas.webp)
 
 **Step 4 –** On the Category page, select the **Use specific server** option and enter the CAS name
 in the text box. See the
-[ExchangePS: Category](../../admin/datacollector/exchangeps/category.md) topic for additional
+[ExchangePS: Category](/docs/accessanalyzer/12.0/admin/datacollector/exchangeps/category.md) topic for additional
 information.
 
 **Step 5 –** Navigate to the Summary page. Click **Finish**.

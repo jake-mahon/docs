@@ -21,7 +21,7 @@ To remove all classifications:
 In the **Add Action** dialog, from the **Action Type** list select **Remove Classifications** under
 **Classification**.
 
-[<!-- Image removed: transparent.gif not found -->To configure terms](<javascript:void(0)>)
+[<!-- Image removed: transparent.gif not found -->To configure terms](javascript:void(0))
 
 1. In the **Select Term** field, click the tag icon.
 2. In the **Details** dialog, specify filter settings to use when filtering out the documents:

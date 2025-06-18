@@ -7,4 +7,4 @@ the number of times executed to remember.
 
 See this video for additional information.
 
-![Remember Justification and Authentication](../../../../../../static/img/product_docs/policypak/policypak/video/leastprivilege/selfelevatemode/rememberjustificationandauthentication.webp)
+![Remember Justification and Authentication](/img/product_docs/policypak/policypak/video/leastprivilege/selfelevatemode/rememberjustificationandauthentication.webp)

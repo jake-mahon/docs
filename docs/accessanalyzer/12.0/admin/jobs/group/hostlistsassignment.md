@@ -3,12 +3,12 @@
 At the job group level, the Host Lists Assignment node identifies target host lists assigned for the
 job group.
 
-![Job Group Host Lists Assignment](../../../../../../static/img/product_docs/accessanalyzer/admin/jobs/group/hostlistassignment.webp)
+![Job Group Host Lists Assignment](/img/product_docs/accessanalyzer/admin/jobs/group/hostlistassignment.webp)
 
 At a top-level job group, there is no host list to be inherited. The **Use Default Settings** option
 is grayed-out. However, a sub-job group can inherit host lists from a parent job group. Host lists
 are configured through the **Host Management** node. See the
-[Host Management](../../hostmanagement/overview.md) topic for additional information.
+[Host Management](/docs/accessanalyzer/12.0/admin/hostmanagement/overview.md) topic for additional information.
 
 Several pre-defined solutions have default host lists already assigned to the solution, for example
 the .Active Directory Inventory Job Group has the Default domain controller assigned at the job

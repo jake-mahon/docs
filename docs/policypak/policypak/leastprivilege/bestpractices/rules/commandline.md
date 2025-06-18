@@ -6,7 +6,7 @@ could occur in day-to-day use or with items that must run from a logon script an
 with elevated rights.
 
 **NOTE:** See the
-[Prevent Users Running some commands with command lines](../../../video/leastprivilege/preventusercommands.md)
+[Prevent Users Running some commands with command lines](/docs/policypak/policypak/video/leastprivilege/preventusercommands.md)
 video for an overview of using Endpoint Policy Manager (formerly PolicyPak) Least Privilege Manager
 and command-line arguments.
 
@@ -18,7 +18,7 @@ A Combo rule addresses this issue, by using Path and Command-line argument rules
 ![A screenshot of a computer
 
 Description automatically
-generated](../../../../../../static/img/product_docs/policypak/policypak/leastprivilege/bestpractices/rules/creating_and_using_command.webp)
+generated](/img/product_docs/policypak/policypak/leastprivilege/bestpractices/rules/creating_and_using_command.webp)
 
 The first step, as shown here, is to specify the Path Condition, such as
 `%SYSTEMROOT%\System32\sc.exe`.
@@ -26,7 +26,7 @@ The first step, as shown here, is to specify the Path Condition, such as
 ![A screenshot of a computer
 
 Description automatically
-generated](../../../../../../static/img/product_docs/policypak/policypak/leastprivilege/bestpractices/rules/creating_and_using_command_1.webp)
+generated](/img/product_docs/policypak/policypak/leastprivilege/bestpractices/rules/creating_and_using_command_1.webp)
 
 For the command-line arguments in this example, the argument **stop wsearch**, which stops the
 Windows Search Service, is specified.
@@ -34,7 +34,7 @@ Windows Search Service, is specified.
 ![A screenshot of a computer
 
 Description automatically
-generated](../../../../../../static/img/product_docs/policypak/policypak/leastprivilege/bestpractices/rules/creating_and_using_command_2.webp)
+generated](/img/product_docs/policypak/policypak/leastprivilege/bestpractices/rules/creating_and_using_command_2.webp)
 
 For **Check Mode**, there are four choices:
 
@@ -58,7 +58,7 @@ elevated rights.
 ![A computer screen with a black and white text
 
 Description automatically
-generated](../../../../../../static/img/product_docs/policypak/policypak/leastprivilege/bestpractices/rules/creating_and_using_command_3.webp)
+generated](/img/product_docs/policypak/policypak/leastprivilege/bestpractices/rules/creating_and_using_command_3.webp)
 
 Another example would be to enable Standard Users to perform their own Registry merge. To do this,
 make a Combo rule, which starts with the Path Condition running `%SYSTEMROOT%\System32\reg.exe` (not
@@ -70,7 +70,7 @@ For the Command-line Arguments, select **Strict equality**, and then specify the
 ![A screenshot of a computer
 
 Description automatically
-generated](../../../../../../static/img/product_docs/policypak/policypak/leastprivilege/bestpractices/rules/creating_and_using_command_4.webp)
+generated](/img/product_docs/policypak/policypak/leastprivilege/bestpractices/rules/creating_and_using_command_4.webp)
 
 Since the arguments are being specified, a user cannot add their own .REG files; they can only add
 those specified by the admin (e.g., on a server where they could only read and not modify it).

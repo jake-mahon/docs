@@ -21,7 +21,7 @@ What do you want to do?
 
 ## Set Password Restrictions and Rules for an Identity Store
 
-See the [Configure Password Options](../../identitystore/configure/security/passwordoptions.md)
+See the [Configure Password Options](/docs/groupid/11.1/groupid/admincenter/identitystore/configure/security/passwordoptions.md)
 topic.
 
 ## Define Security Question Settings for a Security Role
@@ -134,5 +134,5 @@ properties in the Directory Manager portal.
 
 **See Also**
 
-- [Security Roles](../overview.md)
-- [Security Role Policies](overview.md)
+- [Security Roles](/docs/groupid/11.1/groupid/admincenter/securityrole/overview.md)
+- [Security Role Policies](/docs/groupid/11.1/groupid/admincenter/securityrole/policy/overview.md)

@@ -11,7 +11,7 @@ node and select Analysis.
 **CAUTION:** Do not modify or deselect the last three selected analysis tasks. The analysis tasks
 are preconfigured for this job.
 
-![Analysis Selection](../../../../../../static/img/product_docs/accessanalyzer/solutions/filesystem/adhocaudits/shareauditanalysis.webp)
+![Analysis Selection](/img/product_docs/accessanalyzer/solutions/filesystem/adhocaudits/shareauditanalysis.webp)
 
 The following analysis tasks are selected by default:
 
@@ -22,7 +22,7 @@ The following analysis tasks are selected by default:
       then selecting the #UNC table in the SQL Script Editor window and clicking **Edit Table**.
         - This brings up the Edit Table window where the user can manually enter UNC paths of each
           share to be audited or upload a CSV file containing one row for each share to be audited.
-          See the [SQLscripting Analysis Module](../../../admin/analysis/sqlscripting.md) section
+          See the [SQLscripting Analysis Module](/docs/accessanalyzer/12.0/admin/analysis/sqlscripting.md) section
           for additional information.
     - List one shared folder per row, using the format: \\HOST\SHARE.
 -   2. Direct Permissions – Creates the SA_FS_ShareAudit_DirectPermissions table accessible under

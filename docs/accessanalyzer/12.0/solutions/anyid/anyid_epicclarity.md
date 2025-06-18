@@ -4,7 +4,7 @@ The AnyID_EpicClarity job collects patient information from Epic including MRNs,
 IDs, and Account IDs. An account with read access to the underlying Clarity Oracle database is
 required in order to run queries.
 
-![AnyID_EpicClarity Job in the Jobs Tree](../../../../../static/img/product_docs/accessanalyzer/solutions/anyid/epicclarityjoblocation.webp)
+![AnyID_EpicClarity Job in the Jobs Tree](/img/product_docs/accessanalyzer/solutions/anyid/epicclarityjoblocation.webp)
 
 The AnyID_EpicClarity job is located in the **Jobs** > **AnyID Connectors** job group.
 
@@ -29,7 +29,7 @@ Read Access to the underlying Clarity Oracle database.
 
 History Retention
 
-Default Retention Period. See the [History](../../admin/settings/history.md) topic for additional
+Default Retention Period. See the [History](/docs/accessanalyzer/12.0/admin/settings/history.md) topic for additional
 information.
 
 Multi-Console Support
@@ -62,7 +62,7 @@ Workflow
 
 The AnyID_EpicClarity job uses the PowerShell Data Collector for queries.
 
-![Queries for the AnyID_EpicClarity Job](../../../../../static/img/product_docs/accessanalyzer/solutions/anyid/epicclarityqueries.webp)
+![Queries for the AnyID_EpicClarity Job](/img/product_docs/accessanalyzer/solutions/anyid/epicclarityqueries.webp)
 
 The queries are:
 
@@ -88,11 +88,11 @@ Properties window opens.
 **Step 3 –** Select the **Data Source** tab, and click **Configure**. The PowerShell Data Collector
 Wizard opens.
 
-![Edit Query Page](../../../../../static/img/product_docs/accessanalyzer/solutions/anyid/epicclarityqueryeditquery.webp)
+![Edit Query Page](/img/product_docs/accessanalyzer/solutions/anyid/epicclarityqueryeditquery.webp)
 
 **Step 4 –** Navigate to the Edit Query page. Click the **Parameters** tab on the right-hand side of
 the page to expand the Parameters window. See the
-[PowerShell: Edit Query](../../admin/datacollector/powershell/editquery.md) topic for additional
+[PowerShell: Edit Query](/docs/accessanalyzer/12.0/admin/datacollector/powershell/editquery.md) topic for additional
 information. Configure the following attributes as needed:
 
 - $portNumber – The port number used to access the Oracle Database Server
@@ -126,7 +126,7 @@ select **Analysis** to view the analysis tasks.
 **CAUTION:** Do not modify or deselect the selected analysis tasks. The analysis tasks are
 preconfigured for this job.
 
-![Analysis Tasks for the AnyID_EpicClarity Job](../../../../../static/img/product_docs/accessanalyzer/solutions/anyid/epicclarityanalyses.webp)
+![Analysis Tasks for the AnyID_EpicClarity Job](/img/product_docs/accessanalyzer/solutions/anyid/epicclarityanalyses.webp)
 
 The default analysis tasks are:
 

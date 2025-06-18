@@ -12,7 +12,7 @@ screen shows ‘All Devices’ and check the ‘**Automatically refresh page**�
 attribute type, change type and keywords.
 
 **Step 4 –** The **Query/Report** button can be used to specify events to include in a scheduled
-report or re-useable query for users. See the [Reports Tab](reportstab.md) topic for additional
+report or re-useable query for users. See the [Reports Tab](/docs/changetracker/8.1/changetracker/admin/tabs/reportstab.md) topic for additional
 information.
 
 **Step 5 –** Select **Events** of interest then use **Actions** to either acknowledge or

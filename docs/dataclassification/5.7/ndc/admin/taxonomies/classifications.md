@@ -5,7 +5,7 @@ type, and language.
 
 To see the current classifications for a selected document click the Classification link:
 
-![classifications_thumb_0_0](../../../../../../static/img/product_docs/dataclassification/ndc/admin/taxonomies/classifications_thumb_0_0.webp)
+![classifications_thumb_0_0](/img/product_docs/dataclassification/ndc/admin/taxonomies/classifications_thumb_0_0.webp)
 
 Classifications are clickable – clicking the link will select the relevant term in the taxonomy tree
 view.

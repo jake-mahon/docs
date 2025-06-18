@@ -3,7 +3,7 @@
 Endpoint Policy ManagerLeast Privilege Manager uses Windows event logs to generate interesting
 events that you can audit. You can use these events to audit what has occurred.
 
-**NOTE:** See the [Events](../../video/leastprivilege/events.md) video for a demo of the Endpoint
+**NOTE:** See the [Events](/docs/policypak/policypak/video/leastprivilege/events.md) video for a demo of the Endpoint
 Policy Manager Least Privilege Manager Events in action.
 
 You can also use these events, before you fully roll out Endpoint Policy Manager Least Privilege
@@ -11,7 +11,7 @@ Manager, to discover what rules you would need to make when you transition from 
 to SecureRun™.
 
 **NOTE:** See the
-[Use Discovery to know what rules to make as you transition from Local Admin rights](../../video/leastprivilege/discovery.md)
+[Use Discovery to know what rules to make as you transition from Local Admin rights](/docs/policypak/policypak/video/leastprivilege/discovery.md)
 video for a demo of Endpoint Policy Manager Least Privilege Manager Discovery in action.
 
 Events are logged on each endpoint machine and only when the interesting event occurs. You can find
@@ -22,19 +22,19 @@ forwarding to capture and forward events from multiple machines. In this way you
 multiple users are doing and look through the events for interesting ideas to convert into rules.
 
 - See the
-  [How to forward interesting events for Least Privilege Manager (or anything else) to a centralized location using Windows Event Forwarding.](../windowseventforwarding.md)
+  [How to forward interesting events for Least Privilege Manager (or anything else) to a centralized location using Windows Event Forwarding.](/docs/policypak/policypak/leastprivilege/windowseventforwarding.md)
   topic to learn more about event forwarding.
 - You can also use Netwrix Auditor to capture events from endpoints to bring them to a centralized
   source for investigation. See the
-  [How to use Netwrix Auditor to Report on Endpoint Policy Manager events](../../integration/auditor/reports.md)
+  [How to use Netwrix Auditor to Report on Endpoint Policy Manager events](/docs/policypak/policypak/integration/auditor/reports.md)
   topic for additional information.
 - You can use Azure Log Analytics to store Endpoint Policy Manager Least Privilege Manager events.
   See the
-  [Windows 10 (and Server) Event Logs to Azure Log Analytics Walkthru](../../tips/eventlogs.md)
+  [Windows 10 (and Server) Event Logs to Azure Log Analytics Walkthru](/docs/policypak/policypak/tips/eventlogs.md)
   topic for additional information.
 - You can use Endpoint Policy Manager Cloud to store Endpoint Policy ManagerLeast Privilege Manager
   events and make rules from stored events. See the
-  [Endpoint Policy Manager Cloud + PPLPM + Events: Collect Events in the Cloud](../../video/leastprivilege/cloudevents.md)video
+  [Endpoint Policy Manager Cloud + PPLPM + Events: Collect Events in the Cloud](/docs/policypak/policypak/video/leastprivilege/cloudevents.md)video
   for additional information.
 
 Endpoint Policy Manager Least Privilege Manager has two event sources, which can be seen in Event
@@ -46,4 +46,4 @@ Viewer.
 ![A screenshot of a computer
 
 Description automatically
-generated](../../../../../static/img/product_docs/policypak/policypak/leastprivilege/events/discovery_auditing_and_events.webp)
+generated](/img/product_docs/policypak/policypak/leastprivilege/events/discovery_auditing_and_events.webp)

@@ -16,7 +16,7 @@ part. Follow the instructions to add actions to the activity.
 
 These actions may be paired with a corresponding Pre-Session action.
 
-![addactionwindow](../../../../../../../../../static/img/product_docs/threatprevention/threatprevention/admin/policies/actions/addactionwindow.webp)
+![addactionwindow](/img/product_docs/threatprevention/threatprevention/admin/policies/actions/addactionwindow.webp)
 
 **Step 4 –** Complete the following fields:
 
@@ -32,7 +32,7 @@ These actions may be paired with a corresponding Pre-Session action.
 - Action Name - Action Name — (Optional) Edit the name of the action.
 - Paired Actions Name - Paired Action's Name — (Optional) Edit the name of the paired action
 
-See the [Action Types](../../activityactiontypes.md) section for detailed descriptions of the
+See the [Action Types](/docs/privilegesecure/4.2/privilegesecure/accessmanagement/admin/policy/activityactiontypes.md) section for detailed descriptions of the
 fields.
 
 **NOTE:** The fields will change depending on the selected Action Type.
@@ -47,7 +47,7 @@ existing action and then create a new action to get a new Action Type.
 
 **Step 7 –** If desired, it is possible to automatically run any Protection Policies associated with
 the resource when the session completes. Simply add the _Invoke Protection Policies_ action to the
-Post-Session group. See the [Protection Policies Page](../../page/protectionpolicies.md) topic for
+Post-Session group. See the [Protection Policies Page](/docs/privilegesecure/4.2/privilegesecure/accessmanagement/admin/policy/page/protectionpolicies.md) topic for
 additional information.
 
 **NOTE:** It is not necessary to select a protection policy. All protection policies that apply to

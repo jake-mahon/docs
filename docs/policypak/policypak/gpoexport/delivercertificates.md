@@ -5,10 +5,10 @@ example, by following thse steps:
 
 **Step 1 –** Create a real GPO.
 
-![663_1_q10-img-1](../../../../static/img/product_docs/policypak/policypak/cloud/security/580_1_q10-img-1.webp)
+![663_1_q10-img-1](/img/product_docs/policypak/policypak/cloud/security/580_1_q10-img-1.webp)
 
 **Step 2 –** Export it using PP Settings Manager to an XML. See the
-[Endpoint Policy ManagerCloud: How to deploy Microsoft Group Policy Settings using Endpoint Policy Manager Cloud](../video/cloud/deploy/grouppolicysettings.md) topic
+[Endpoint Policy ManagerCloud: How to deploy Microsoft Group Policy Settings using Endpoint Policy Manager Cloud](/docs/policypak/policypak/video/cloud/deploy/grouppolicysettings.md) topic
 for additional information.
 
 **Step 3 –** Uplaod it to Endpoint Policy Manager Cloud. This would make the specified cert Trusted
@@ -23,4 +23,4 @@ MDM.
 
 Inside the exported XML you can see the certificate embedded like this and ready for use.
 
-![663_2_q10-img-2](../../../../static/img/product_docs/policypak/policypak/cloud/security/580_2_q10-img-2.webp)
+![663_2_q10-img-2](/img/product_docs/policypak/policypak/cloud/security/580_2_q10-img-2.webp)

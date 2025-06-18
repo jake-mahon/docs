@@ -7,6 +7,6 @@ This computer then transitions to the WAITING LIST and can pick up a new license
 available.
 
 To learn more about the WAITING LIST,
-[Endpoint Policy Manager Cloud Client: Why are computers appearing in WAITING LIST and how can I fix it?](waitinglist.md).
+[Endpoint Policy Manager Cloud Client: Why are computers appearing in WAITING LIST and how can I fix it?](/docs/policypak/policypak/troubleshooting/cloud/waitinglist.md).
 
-![308_1_jhhj](../../../../../static/img/product_docs/policypak/policypak/troubleshooting/cloud/308_1_jhhj.webp)
+![308_1_jhhj](/img/product_docs/policypak/policypak/troubleshooting/cloud/308_1_jhhj.webp)

@@ -53,7 +53,7 @@ The **Send email after update** options is enabled after the group is created.
 Warning emails are not sent to group members (users) whose passwords are set to 'never expire'. Such
 users are included in group membership when you select the **Include users whose password never
 expires** check box or add such users to the **Include** list on the
-[Query Designer - Include/Exclude tab](includeexclude.md).
+[Query Designer - Include/Exclude tab](/docs/groupid/11.1/groupid/portal/group/querydesigner/includeexclude.md).
 
 For warning emails to be sent, you must have an SMTP server configured for the identity store.
 

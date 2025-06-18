@@ -15,9 +15,9 @@ To use the entity diagram:
    expand the results. **Next** loads the next 10 entries, **Back** loads the previous list.
 5. Click **Open Record** to open the customization record for the item.
 
-![entity_diagram](../../../static/img/product_docs/strongpointforsalesforce/tools/entity_diagram.webp)
+![entity_diagram](/img/product_docs/strongpointforsalesforce/tools/entity_diagram.webp)
 
 Here is an example showing the Next feature for **Account (StandardObject)** > **Test 1
 (Parent:Account)**.
 
-![DRD entry showing Next option if there are more than 10 entries](../../../static/img/product_docs/strongpointforsalesforce/tools/drd_next.webp)
+![DRD entry showing Next option if there are more than 10 entries](/img/product_docs/strongpointforsalesforce/tools/drd_next.webp)

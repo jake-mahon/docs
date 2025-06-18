@@ -21,7 +21,7 @@ standard. Supported identity providers include:
 You can also implement multifactor authentication in `Directory Manager using a third-party single
 sign-on solution or with the options available in Directory Manager.
 
-See the [Directory Manager as a Service Provider](asserviceprovider/overview.md) topic for
+See the [Directory Manager as a Service Provider](/docs/groupid/11.1/groupid/authenticate/asserviceprovider/overview.md) topic for
 additional information.
 
 #### As an Identity Provider
@@ -29,7 +29,7 @@ additional information.
 Directory Manager can be implemented as an identity provider in your organization. The administrator
 can configure third-party applications (service providers) with Directory Manager, in which case
 Directory Manager authenticates and authorizes users for those applications. See the
-[Directory Manager as an Identity Provider](asidentityprovider/overview.md) topic for additional
+[Directory Manager as an Identity Provider](/docs/groupid/11.1/groupid/authenticate/asidentityprovider/overview.md) topic for additional
 information.
 
 ## Launch Authenticate

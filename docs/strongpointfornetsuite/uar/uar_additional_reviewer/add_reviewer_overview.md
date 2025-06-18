@@ -2,7 +2,7 @@
 
 Additional Reviewers are assigned by the UAR owners to perform reviews. Additional Reviewers are
 notified with an email message when a new review has been assigned. You can click one of the links
-in the email, or login to NetSuite and open [User Access Review](../access_app.md) to access the
+in the email, or login to NetSuite and open [User Access Review](/docs/strongpointfornetsuite/uar/access_app.md) to access the
 dashboard.
 
 1. Open **User Access Review** from NetSuite.
@@ -10,13 +10,13 @@ dashboard.
 
 Here is an example additional reviewer dashboard showing new assignments.
 
-![Additional Reviewer Dashboard](../../../../static/img/product_docs/strongpointfornetsuite/uar/uar_additional_reviewer/dashboard_add_reviewer.webp)
+![Additional Reviewer Dashboard](/img/product_docs/strongpointfornetsuite/uar/uar_additional_reviewer/dashboard_add_reviewer.webp)
 
 ## Dashboard Controls
 
 - **Home** icon is your dashboard overview, and the default display when you log in.
-- **UAR List** is your **[User Access Reviews List](add_reviewer_uar_list.md)**.
-- **UAR History** is your **[User Access Reviews History](../uar_history.md)**.
+- **UAR List** is your **[User Access Reviews List](/docs/strongpointfornetsuite/uar/uar_additional_reviewer/add_reviewer_uar_list.md)**.
+- **UAR History** is your **[User Access Reviews History](/docs/strongpointfornetsuite/uar/uar_history.md)**.
 - **User Access Reviews** shortcut shows the number of open reviews. Opens your **User Access
   Reviews List**.
 - **Notifications** is a list of your assignment notifications and reminders:

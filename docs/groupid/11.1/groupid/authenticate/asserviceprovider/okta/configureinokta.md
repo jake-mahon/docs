@@ -26,7 +26,7 @@ To configure Directory Manager in Okta, follow these steps:
 10. On the **Configure SAML** tab of the **Create SAML Integration** page, provide the consumer URL
     and audience URL that you generated for the Directory Manager client In the **Single sign on
     URL** and **Audience URI (SP Entity ID)** boxes respectively. See the
-    [Generate URLs](generateurls.md) topic.
+    [Generate URLs](/docs/groupid/11.1/groupid/authenticate/asserviceprovider/okta/generateurls.md) topic.
 11. We will not specify any default relay state, so leave the **Default Relay State** field blank.
 12. Leave the **Name ID format** field selected to _Unspecified_.
 13. In the **Application username** list, make sure _Okta username_ is selected. This implies that
@@ -65,7 +65,7 @@ Okta provider in Directory Manager.
 ### Configure Users in Okta
 
 You must define users in Okta. Only these users can authenticate on the Directory Manager portal
-_Wizard_ using Okta. See the [Sign In Using Okta](signin.md) topic.
+_Wizard_ using Okta. See the [Sign In Using Okta](/docs/groupid/11.1/groupid/authenticate/asserviceprovider/okta/signin.md) topic.
 
 There are multiple ways to define users in Okta, such as:
 

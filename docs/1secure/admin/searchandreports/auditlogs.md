@@ -27,7 +27,7 @@ right.
 by default. However, you can select a different organization from the drop-down menu at the top of
 the left pane to view its All Self Audit Activity report.
 
-![All Self Audit Activity Report](../../../../static/img/product_docs/1secure/admin/searchandreports/selfaudit.webp)
+![All Self Audit Activity Report](/img/product_docs/1secure/admin/searchandreports/selfaudit.webp)
 
 **Step 3 –** In this report, a default filter is applied with the following settings:
 

@@ -5,7 +5,7 @@ Manager (formerly PolicyPak) the client-side extension (CSE) and tools are updat
 those specific parts in the following sections.
 
 For a video overview of this topic, see
-[Keeping Application Settings Manager and Paks up to date](../../video/applicationsettings/uptodate.md).
+[Keeping Application Settings Manager and Paks up to date](/docs/policypak/policypak/video/applicationsettings/uptodate.md).
 
 ## Updating the AppSets
 
@@ -40,7 +40,7 @@ For extra protection within each Endpoint Policy Manager Application Settings Ma
 you can choose to open the definition and then click the **Options** button. Then, select **Export
 XML Settings Data**.
 
-![specific_upgrades_for_application_624x386](../../../../../static/img/product_docs/policypak/policypak/install/upgrade/specific_upgrades_for_application_624x386.webp)
+![specific_upgrades_for_application_624x386](/img/product_docs/policypak/policypak/install/upgrade/specific_upgrades_for_application_624x386.webp)
 
 **NOTE:** This step is optional but will provide a second backup of your Endpoint Policy Manager
 Application Settings Manager definitions in case of a mishap and is therefore recommended.
@@ -54,4 +54,4 @@ Endpoint Policy Manager GPOTouch. It is recommended to use the Endpoint Policy M
 utility to update each GPO automatically with the latest version of the AppSet DLL file.
 
 To see a video overview of how to manually touch a GPO, see
-[GPOTouch Utility](../../video/applicationsettings/touchutility.md).
+[GPOTouch Utility](/docs/policypak/policypak/video/applicationsettings/touchutility.md).

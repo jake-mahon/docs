@@ -2,12 +2,12 @@
 
 Approvers are populated from the Change/Approval Policy for the Change Request. Approval
 notifications are sent when the Change Request owner advances the status to **Pending Approval**.
-Approvers must be [licensed](../installing_strongpoint/license_manager.md) Platform Governance for
+Approvers must be [licensed](/docs/strongpointfornetsuite/installing_strongpoint/license_manager.md) Platform Governance for
 NetSuite users and have the correct
-[role permissions](../installing_strongpoint/setting_permissions.md) if they are using a custom
+[role permissions](/docs/strongpointfornetsuite/installing_strongpoint/setting_permissions.md) if they are using a custom
 (non-Strongpoint) role.
 
-![change_request_approving_change_request](../../../static/img/product_docs/strongpointfornetsuite/change_management/change_request_approving_change_request.webp)
+![change_request_approving_change_request](/img/product_docs/strongpointfornetsuite/change_management/change_request_approving_change_request.webp)
 
 1. Approver receives an email with a link to the Change Request.
 2. When the Change Request opens, **Approve** and **Reject** buttons are available at the top of the
@@ -21,7 +21,7 @@ NetSuite users and have the correct
       there are errors or omissions.
 
 3. Change Request owner
-   [Completes and Validates the Change Request](completing_validating_change_request.md).
+   [Completes and Validates the Change Request](/docs/strongpointfornetsuite/change_management/completing_validating_change_request.md).
 
 Administrators can approve a Change Request. The status is set to **Approved (Override)** and the
 administrator's name is displayed in the **Approval Override By** field.

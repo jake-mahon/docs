@@ -11,7 +11,7 @@ Your goal with Endpoint Policy Manager DesignStudio is to bring in as much of th
 interface (UI) that you want to configure as possible. Then, you can use the DesignStudio to tweak
 the design and configure each setting (see Figure 49.
 
-![getting_around](../../../../../../static/img/product_docs/policypak/policypak/applicationsettings/designstudio/navigation/getting_around.webp)
+![getting_around](/img/product_docs/policypak/policypak/applicationsettings/designstudio/navigation/getting_around.webp)
 
 Figure 49. Some of the main Endpoint Policy Manager DesignStudio components.
 

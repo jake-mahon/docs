@@ -158,6 +158,6 @@ To perform a search:
 
 **See Also**
 
-- [Dashboard](../general/dashboard.md)
-- [Search Users](operation/search.md)
-- [History in Directory Manager](../history.md)
+- [Dashboard](/docs/groupid/11.1/groupid/admincenter/general/dashboard.md)
+- [Search Users](/docs/groupid/11.1/groupid/admincenter/helpdesk/operation/search.md)
+- [History in Directory Manager](/docs/groupid/11.1/groupid/admincenter/history.md)

@@ -12,12 +12,12 @@ Threat Manager, feeding them AD activity data.
 Activity Monitor Agents: This option focuses solely on monitoring AD activity, providing basic
 visibility into AD events without additional features.
 
-![nam_admodule](../../../../../static/img/product_docs/activitymonitor/activitymonitor/requirements/nam_admodule.webp)
+![nam_admodule](/img/product_docs/activitymonitor/activitymonitor/requirements/nam_admodule.webp)
 
 Netwrix Threat Prevention: Offers a more comprehensive and flexible monitoring experience, including
 advanced features like operation blocking and enhanced monitoring capabilities.
 
-![ntp](../../../../../static/img/product_docs/activitymonitor/activitymonitor/requirements/ntp.webp)
+![ntp](/img/product_docs/activitymonitor/activitymonitor/requirements/ntp.webp)
 
 These methods provide organizations with a choice between basic AD activity monitoring and a more
 versatile, security-enhanced option.
@@ -55,7 +55,7 @@ The disk space requirement covers the following:
 - Diagnostic Logging – 1 GB
 
 Old files are zipped, typical compression ratio is 20. Optionally, old files are moved from the
-server to a network share. See the [Archiving Tab](../admin/agents/properties/archiving.md) topic
+server to a network share. See the [Archiving Tab](/docs/activitymonitor/8.0/activitymonitor/admin/agents/properties/archiving.md) topic
 for additional information.
 
 Additional Server Requirements
@@ -85,7 +85,7 @@ controllers within the domain to be monitored.
 - Windows Server 2019
 - Windows Server 2016
 
-See the [Active Directory Activity Auditing Configuration](../../config/activedirectory/activity.md)
+See the [Active Directory Activity Auditing Configuration](/docs/activitymonitor/8.0/config/activedirectory/activity.md)
 topic for target environment requirements.
 
 ## AD Agent Compatibility with Non-Netwrix Security Products

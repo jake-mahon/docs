@@ -3,21 +3,21 @@
 Endpoint Policy Manager is now installed on an endpoint (which is temporarily licensed) and you have
 a management station from which to create policies. To get a quick rundown of Endpoint Policy
 Manager using the Group Policy Method, watch the
-[Endpoint Policy Manager with Group Policy Method: Getting Started](../../video/grouppolicy/gettingstarted.md)
+[Endpoint Policy Manager with Group Policy Method: Getting Started](/docs/policypak/policypak/video/grouppolicy/gettingstarted.md)
 video. To get a quick rundown of Endpoint Policy Manager using the MDM / Intune Method, watch the
-[Endpoint Policy Manager and MDM walk before you run](../../video/mdm/testsample.md) video.
+[Endpoint Policy Manager and MDM walk before you run](/docs/policypak/policypak/video/mdm/testsample.md) video.
 
 TIPS:
 
 - You won’t need a license file because you’re licensed with COMPUTER in the computer name.
 - See the Getting Started with MDM > Video Learning Center >
-  [Getting Started](../../mdm/overview/videolearningcenter.md#getting-started) topic for additional
+  [Getting Started](/docs/policypak/policypak/mdm/overview/videolearningcenter.md#getting-started) topic for additional
   demonstrations using specific MDM services like Intune and VMware Workspace one.
 
 If you want to go beyond the basics and really dive in to each component, like Endpoint Policy
 Manager Least Privilege Manager or Endpoint Policy Manager Device Manager, or any of our components,
 see the
-[Netwrix Endpoint Policy Manager (formerly PolicyPak) Knowledge Base Articles](../../knowledgebase.md)
+[Netwrix Endpoint Policy Manager (formerly PolicyPak) Knowledge Base Articles](/docs/policypak/policypak/knowledgebase.md)
 topic, then locate the component of interest and its corresponding Knowledge Base articles and Video
 Learning Center topics. For true mastery on the basics of a component, you should watch all the
 videos in order within the Getting Started section of the Video Learning Center topics. These answer

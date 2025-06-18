@@ -8,12 +8,12 @@ helpdesk-specific tasks, such as:
 - Unenroll user accounts from identity stores.
 - View users' activities, such as enrollment, authentication, account unlock, and password-related
   functions. Toast notifications and history tracking are also enabled for these actions. See the
-  [Helpdesk Operations](operation/overview.md) topic for additional information.
+  [Helpdesk Operations](/docs/groupid/11.1/groupid/admincenter/helpdesk/operation/overview.md) topic for additional information.
 
 NOTE: The Admin Center for helpdesk role is available in Helpdesk mode only. By default, only the
 Helpdesk node of Admin Center is visible to the Helpdesk role members. The administrator can also
 restrict access of a security role by selecting the Helpdesk Role check box on the Security Role
-page. See the [Create a Security Role](../securityrole/create.md) topic for additional information.
+page. See the [Create a Security Role](/docs/groupid/11.1/groupid/admincenter/securityrole/create.md) topic for additional information.
 
 ## Helpdesk Permissions
 
@@ -24,8 +24,8 @@ helpdesk-specific functions:
 - Unlock Any Account
 - Unenroll
 
-See [Password Management](../securityrole/permissions.md#password-management) in the
-[Security Role – Permissions](../securityrole/permissions.md) topic.
+See [Password Management](/docs/groupid/11.1/groupid/admincenter/securityrole/permissions.md#password-management) in the
+[Security Role – Permissions](/docs/groupid/11.1/groupid/admincenter/securityrole/permissions.md) topic.
 
 ## Helpdesk Policy
 
@@ -36,7 +36,7 @@ mode to perform the account unlock and reset password functions.
 NOTE: In unrestricted mode, helpdesk can unlock accounts and reset passwords of both enrolled and
 unenrolled users. In restricted mode, helpdesk can perform these functions for enrolled users only.
 
-See the [Helpdesk Policy](../securityrole/policy/helpdesk.md) topic.
+See the [Helpdesk Policy](/docs/groupid/11.1/groupid/admincenter/securityrole/policy/helpdesk.md) topic.
 
 ## Helpdesk Analytics
 
@@ -45,11 +45,11 @@ users' activities (such as enrollment, account unlock, and password reset) in an
 
 The dashboard displays the following helpdesk-specific cards:
 
-- [Enrollment Summary](../general/dashboard.md#enrollment-summary): displays the number of enrolled
+- [Enrollment Summary](/docs/groupid/11.1/groupid/admincenter/general/dashboard.md#enrollment-summary): displays the number of enrolled
   users in an identity store.
-- [Auth Summary](../general/dashboard.md#auth-summary): displays information about failed and
+- [Auth Summary](/docs/groupid/11.1/groupid/admincenter/general/dashboard.md#auth-summary): displays information about failed and
   successful authentication attempts for each authentication type.
-- [Activity Summary](../general/dashboard.md#activity-summary): displays a summary of users'
+- [Activity Summary](/docs/groupid/11.1/groupid/admincenter/general/dashboard.md#activity-summary): displays a summary of users'
   activities related to password change, password reset, account unlock, and enrollment.
 
 ## Desktop Notifications
@@ -66,5 +66,5 @@ end-user performs any of the following actions in the Directory Manager portal:
 - Enrolls account
 - Authenticates with password, authentication types, or any other medium
 
-These actions are also logged in helpdesk history. See the [History in Helpdesk](history.md) topic
+These actions are also logged in helpdesk history. See the [History in Helpdesk](/docs/groupid/11.1/groupid/admincenter/helpdesk/history.md) topic
 for additional information.

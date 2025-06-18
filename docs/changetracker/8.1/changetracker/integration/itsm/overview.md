@@ -18,7 +18,7 @@ Change Tracker.
 
 Change Tracker will attempt to link existing Devices and Groups to a Planned Change where similar
 names are found to Configuration Items (CMDB items) in the ITSM system. See the
-[Planned Changes Tab](../../admin/tabs/plannedchanges.md) topic for additional information.
+[Planned Changes Tab](/docs/changetracker/8.1/changetracker/admin/tabs/plannedchanges.md) topic for additional information.
 
 The service works by periodically polling the source ITSM system for Change Requests which have been
 modified since the most recent poll. A new Planned Change is created in Change Tracker if a new CR

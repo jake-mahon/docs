@@ -17,12 +17,12 @@ The Deployment Record status must be **Completed** to be eligible for Rollback.
    change the view to **Deployments**.
 2. Click **Rollback**
 
-    ![Rollback button is only available for Completed Deployment Records](../../../static/img/product_docs/strongpointforsalesforce/release_management/rollback_button.webp)
+    ![Rollback button is only available for Completed Deployment Records](/img/product_docs/strongpointforsalesforce/release_management/rollback_button.webp)
 
 3. Click **Test Connection** to ensure your credentials are working. If your credentials are not
    correct, you can click on **Save Credentials** and edit.
 
-    ![Rollback selected customizations](../../../static/img/product_docs/strongpointforsalesforce/release_management/rollback_selected.webp)
+    ![Rollback selected customizations](/img/product_docs/strongpointforsalesforce/release_management/rollback_selected.webp)
 
 4. By default, all of the customizations are selected for rollback. Deselect any customizations to
    keep. The **Rollback Type** specifies the effect of the rollback:
@@ -34,7 +34,7 @@ The Deployment Record status must be **Completed** to be eligible for Rollback.
 
 5. Click **Rollback Selected Customizations**. The **Rollback Confirmation** is displayed.
 
-    ![Rollback confirmation](../../../static/img/product_docs/strongpointforsalesforce/release_management/rollback_confirmation.webp)
+    ![Rollback confirmation](/img/product_docs/strongpointforsalesforce/release_management/rollback_confirmation.webp)
 
 6. Click **Yes** to continue. A Rollback Record is created.
 7. Click **Submit for Approval** on the Rollback Record.
@@ -49,12 +49,12 @@ The Rollback Record must be approved before it can be executed.
 3. Click **Execute Rollback**. A Confirmation is displayed. Click **Yes** to continue.
 4. When the rollback is complete, click **Validate Rollback**.
 
-    ![Validate the Rollback](../../../static/img/product_docs/strongpointforsalesforce/release_management/rollback_validation.webp)
+    ![Validate the Rollback](/img/product_docs/strongpointforsalesforce/release_management/rollback_validation.webp)
 
 5. Open **Netwrix Dashboard** > **Reports** > **Release and Deployment** > **Rollback Logs**  
    You can use **Customize** to add the **Status** column to your report. Here is an example of a
-   failed rollback [deployment log](deployment_logs.md).
+   failed rollback [deployment log](/docs/strongpointforsalesforce/release_management/deployment_logs.md).
 
-    ![Review the Rollback log](../../../static/img/product_docs/strongpointforsalesforce/release_management/rollback_log.webp)
+    ![Review the Rollback log](/img/product_docs/strongpointforsalesforce/release_management/rollback_log.webp)
 
 6. Click on the report to open it. Check the **Notes & Attachments** for a rollback validation file.

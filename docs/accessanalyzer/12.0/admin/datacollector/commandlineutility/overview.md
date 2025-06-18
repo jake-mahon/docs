@@ -26,15 +26,15 @@ configured through the Command Line Utility Data Collector Wizard, which contain
 pages:
 
 - Welcome
-- [CLU: Profile Type](profiletype.md)
-- [CLU: Profile Parameters](profileparameters.md)
-- [CLU: Execution Options](executionoptions.md)
-- [CLU: Define Fields](definefields.md)
-- [CLU: Script Editor](scripteditor.md)
-- [CLU: Results](results.md)
-- [CLU: Summary](summary.md)
+- [CLU: Profile Type](/docs/accessanalyzer/12.0/admin/datacollector/commandlineutility/profiletype.md)
+- [CLU: Profile Parameters](/docs/accessanalyzer/12.0/admin/datacollector/commandlineutility/profileparameters.md)
+- [CLU: Execution Options](/docs/accessanalyzer/12.0/admin/datacollector/commandlineutility/executionoptions.md)
+- [CLU: Define Fields](/docs/accessanalyzer/12.0/admin/datacollector/commandlineutility/definefields.md)
+- [CLU: Script Editor](/docs/accessanalyzer/12.0/admin/datacollector/commandlineutility/scripteditor.md)
+- [CLU: Results](/docs/accessanalyzer/12.0/admin/datacollector/commandlineutility/results.md)
+- [CLU: Summary](/docs/accessanalyzer/12.0/admin/datacollector/commandlineutility/summary.md)
 
-![Command Line Utility Data Collector Wizard Welcome page](../../../../../../static/img/product_docs/activitymonitor/activitymonitor/install/welcome.webp)
+![Command Line Utility Data Collector Wizard Welcome page](/img/product_docs/activitymonitor/activitymonitor/install/welcome.webp)
 
 The Welcome page can be hidden by selecting the **Do not display this page the next time** checkbox
 when the wizard is open and configuration settings are saved.

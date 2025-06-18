@@ -26,7 +26,7 @@ Use **[docusaurus.new](https://docusaurus.new)** to test Docusaurus immediately 
 
 ## Scaffold project website {#scaffold-project-website}
 
-The easiest way to install Docusaurus is to use the [`create-docusaurus`](./api/misc/create-docusaurus.mdx) command line tool that helps you scaffold a skeleton Docusaurus website. You can run this command anywhere in a new empty repository or within an existing repository, it will create a new directory containing the scaffolded files.
+The easiest way to install Docusaurus is to use the [`create-docusaurus`](/reference-docs/docusaurus/api/misc/create-docusaurus.mdx) command line tool that helps you scaffold a skeleton Docusaurus website. You can run this command anywhere in a new empty repository or within an existing repository, it will create a new directory containing the scaffolded files.
 
 ```bash
 npx create-docusaurus@latest my-website classic
@@ -34,7 +34,7 @@ npx create-docusaurus@latest my-website classic
 
 We recommend the `classic` template so that you can get started quickly, and it contains features found in Docusaurus 1. The `classic` template contains `@docusaurus/preset-classic` which includes standard documentation, a blog, custom pages, and a CSS framework (with dark mode support). You can get up and running extremely quickly with the classic template and customize things later on when you have gained more familiarity with Docusaurus.
 
-You can also use the template's TypeScript variant by passing the `--typescript` flag. See [TypeScript support](./typescript-support.mdx) for more information.
+You can also use the template's TypeScript variant by passing the `--typescript` flag. See [TypeScript support](/reference-docs/docusaurus/typescript-support.mdx) for more information.
 
 ```bash
 npx create-docusaurus@latest my-website classic --typescript
@@ -61,7 +61,7 @@ npm init docusaurus
 
 </details>
 
-Run `npx create-docusaurus@latest --help`, or check out its [API docs](./api/misc/create-docusaurus.mdx) for more information about all available flags.
+Run `npx create-docusaurus@latest --help`, or check out its [API docs](/reference-docs/docusaurus/api/misc/create-docusaurus.mdx) for more information about all available flags.
 
 ## Project structure {#project-structure}
 
@@ -95,10 +95,10 @@ my-website
 
 ### Project structure rundown {#project-structure-rundown}
 
-- `/blog/` - Contains the blog Markdown files. You can delete the directory if you've disabled the blog plugin, or you can change its name after setting the `path` option. More details can be found in the [blog guide](blog.mdx)
-- `/docs/` - Contains the Markdown files for the docs. Customize the order of the docs sidebar in `sidebars.js`. You can delete the directory if you've disabled the docs plugin, or you can change its name after setting the `path` option. More details can be found in the [docs guide](./guides/docs/docs-introduction.mdx)
+- `/blog/` - Contains the blog Markdown files. You can delete the directory if you've disabled the blog plugin, or you can change its name after setting the `path` option. More details can be found in the [blog guide](/reference-docs/docusaurus/blog.mdx)
+- `/docs/` - Contains the Markdown files for the docs. Customize the order of the docs sidebar in `sidebars.js`. You can delete the directory if you've disabled the docs plugin, or you can change its name after setting the `path` option. More details can be found in the [docs guide](/reference-docs/docusaurus/guides/docs/docs-introduction.mdx)
 - `/src/` - Non-documentation files like pages or custom React components. You don't have to strictly put your non-documentation files here, but putting them under a centralized directory makes it easier to specify in case you need to do some sort of linting/processing
-  - `/src/pages` - Any JSX/TSX/MDX file within this directory will be converted into a website page. More details can be found in the [pages guide](guides/creating-pages.mdx)
+  - `/src/pages` - Any JSX/TSX/MDX file within this directory will be converted into a website page. More details can be found in the [pages guide](/reference-docs/docusaurus/guides/creating-pages.mdx)
 - `/static/` - Static directory. Any contents inside here will be copied into the root of the final `build` directory
 - `/docusaurus.config.js` - A config file containing the site configuration. This is the equivalent of `siteConfig.js` in Docusaurus v1
 - `/package.json` - A Docusaurus website is a React app. You can install and use any npm packages you like in them
@@ -122,7 +122,7 @@ my-monorepo
 
 In this case, you should run `npx create-docusaurus` within the `./my-monorepo` folder.
 
-If you're using a hosting provider such as Netlify or Vercel, you will need to change the `Base directory` of the site to where your Docusaurus root is. In this case, that would be `./website`. Read more about configuring ignore commands in the [deployment docs](./deployment.mdx#deploying-to-netlify).
+If you're using a hosting provider such as Netlify or Vercel, you will need to change the `Base directory` of the site to where your Docusaurus root is. In this case, that would be `./website`. Read more about configuring ignore commands in the [deployment docs](./deployment.mdx#deploying-to-netlify))).
 
 Read more about monorepos in the [Yarn documentation](https://yarnpkg.com/features/workspaces) (Yarn is not the only way to set up a monorepo, but it's a common solution), or checkout [Docusaurus](https://github.com/facebook/docusaurus) and [Jest](https://github.com/facebook/jest) for some real-world examples.
 
@@ -147,7 +147,7 @@ Docusaurus is a modern static website generator so we need to build the website 
 npm run build
 ```
 
-and contents will be generated within the `/build` directory, which can be copied to any static file hosting service like [GitHub pages](https://pages.github.com/), [Vercel](https://vercel.com/) or [Netlify](https://www.netlify.com/). Check out the docs on [deployment](deployment.mdx) for more details.
+and contents will be generated within the `/build` directory, which can be copied to any static file hosting service like [GitHub pages](https://pages.github.com/), [Vercel](https://vercel.com/) or [Netlify](https://www.netlify.com/). Check out the docs on [deployment](/reference-docs/docusaurus/deployment.mdx) for more details.
 
 ## Updating your Docusaurus version {#updating-your-docusaurus-version}
 

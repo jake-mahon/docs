@@ -254,12 +254,12 @@ There are two kinds of customizations possible with admonitions: **parsing** and
 
 ### Customizing rendering behavior {#customizing-rendering-behavior}
 
-You can customize how each individual admonition type is rendered through [swizzling](../../swizzling.mdx). You can often achieve your goal through a simple wrapper. For example, in the follow example, we swap out the icon for `info` admonitions only.
+You can customize how each individual admonition type is rendered through [swizzling](/reference-docs/docusaurus/swizzling.mdx). You can often achieve your goal through a simple wrapper. For example, in the follow example, we swap out the icon for `info` admonitions only.
 
 ```jsx title="src/theme/Admonition.js"
 import React from 'react';
 import Admonition from '@theme-original/Admonition';
-import MyCustomNoteIcon from '@site/static/img/info.svg';
+import MyCustomNoteIcon from '@site/img/info.svg';
 
 export default function AdmonitionWrapper(props) {
   if (props.type !== 'info') {
@@ -271,7 +271,7 @@ export default function AdmonitionWrapper(props) {
 
 ### Customizing parsing behavior {#customizing-parsing-behavior}
 
-Admonitions are implemented with a [Remark plugin](./markdown-features-plugins.mdx). The plugin is designed to be configurable. To customize the Remark plugin for a specific content plugin (docs, blog, pages), pass the options through the `admonitions` key.
+Admonitions are implemented with a [Remark plugin](/reference-docs/docusaurus/guides/markdown-features/markdown-features-plugins.mdx). The plugin is designed to be configurable. To customize the Remark plugin for a specific content plugin (docs, blog, pages), pass the options through the `admonitions` key.
 
 ```js title="docusaurus.config.js"
 export default {

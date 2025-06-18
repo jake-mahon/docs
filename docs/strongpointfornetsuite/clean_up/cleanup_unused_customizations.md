@@ -38,21 +38,21 @@ The basic clean up process:
 2. Enter filtering information to streamline your search. Searching on all unused customizations can
    take a long time to load and can time out.
 
-    ![Enter criteria prior to searching for unused customizations](../../../static/img/product_docs/strongpointfornetsuite/clean_up/customizations_cleanup_unused_filters.webp)
+    ![Enter criteria prior to searching for unused customizations](/img/product_docs/strongpointfornetsuite/clean_up/customizations_cleanup_unused_filters.webp)
 
 3. Click **Search**.  
     The results are coded with a flag in the first column and the text either blue (Inactive owner)
    or black.  
-   ![Cleanup Key](../../../static/img/product_docs/strongpointfornetsuite/clean_up/customizations_cleanup_key.webp)  
+   ![Cleanup Key](/img/product_docs/strongpointfornetsuite/clean_up/customizations_cleanup_key.webp)  
     You can hover over the flag for more information. If the text is blue, **Inactive Owner** is
    displayed regardless of the flag color.
 
-    ![customizations_cleanup_list](../../../static/img/product_docs/strongpointfornetsuite/clean_up/customizations_cleanup_list.webp)
+    ![customizations_cleanup_list](/img/product_docs/strongpointfornetsuite/clean_up/customizations_cleanup_list.webp)
 
 4. Click **View** next to each Customization to investigate. You can right-click on **View** and
    select **Open in a new tab or window** to keep your results page available.
 
-    ![View the Customization Record](../../../static/img/product_docs/strongpointfornetsuite/clean_up/customizations_cleanup_view_record.webp)
+    ![View the Customization Record](/img/product_docs/strongpointfornetsuite/clean_up/customizations_cleanup_view_record.webp)
 
 5. Use the **ERD**, **Base Record** and **Related Objects** links to review the dependencies.  
    If you have a **Documentation and Optimization** license:
@@ -75,7 +75,7 @@ The Impact Analysis is available in the Advanced Change Management Module. This 
 Up** or **Impact Analysis** as a tab at the bottom of the Change Request. It provides specific
 warnings and status for each customization attached to the Change Request.
 
-![cleanupimpactanalysis](../../../static/img/product_docs/strongpointfornetsuite/clean_up/cleanupimpactanalysis.webp)
+![cleanupimpactanalysis](/img/product_docs/strongpointfornetsuite/clean_up/cleanupimpactanalysis.webp)
 
 The **Impact Analysis** tab has the following elements:
 
@@ -111,7 +111,7 @@ practices to determine if it is appropriate to delete any of the customizations.
 Once a Change Request has been approved the **Archive Customizations** button is available. When
 clicked, any fields in the change request are archived and stored in the **File Cabinet**.
 
-![archive](../../../static/img/product_docs/strongpointfornetsuite/clean_up/archive.webp)
+![archive](/img/product_docs/strongpointfornetsuite/clean_up/archive.webp)
 
 The status of those fields changes to **Archived**. The customization moves to the **Can Be Safely
 Deleted or Modified** tab.

@@ -7,7 +7,7 @@ To access the SQL Library:
 
 Open **Flashlight** > **Tools** > **SQL Library**
 
-![SQL Library](../../../static/img/product_docs/strongpointnetsuiteflashlight/using_flashlight/sql_library_800x251.webp)
+![SQL Library](/img/product_docs/strongpointnetsuiteflashlight/using_flashlight/sql_library_800x251.webp)
 
 This report displays a list of all formulas used in Saved Searches. The report contains the
 following information:

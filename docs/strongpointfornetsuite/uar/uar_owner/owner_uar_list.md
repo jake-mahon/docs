@@ -6,9 +6,9 @@ controlled with the **Sort By** selection in the Filters section.
 
 Here are examples of the **Global** and **Single** review lists:
 
-![Owner UAR list](../../../../static/img/product_docs/strongpointfornetsuite/uar/uar_owner/uar_list_owner.webp)
+![Owner UAR list](/img/product_docs/strongpointfornetsuite/uar/uar_owner/uar_list_owner.webp)
 
-![UAR Single Review list](../../../../static/img/product_docs/strongpointfornetsuite/uar/uar_owner/uar_list_owner_single.webp)
+![UAR Single Review list](/img/product_docs/strongpointfornetsuite/uar/uar_owner/uar_list_owner_single.webp)
 
 ## Filters
 
@@ -37,8 +37,8 @@ Use **Clear** to reset the Filters.
 - **Export** exports the list of selected reviews as either a **CSV** or **PDF** file. There is an
   option to **Export All Reviews**. The exported file is named _User_Access_Reviews_List_.
 - **Name** is a link. For a **global** review, the link opens the Review list showing all of the
-  associated reviews. For a **single** review the [Membership](owner_membership_reviews.md) or
-  [Permission ](owner_permission_reviews.md)**Review** tab is opened. Reviews can also be opened via
+  associated reviews. For a **single** review the [Membership](/docs/strongpointfornetsuite/uar/uar_owner/owner_membership_reviews.md) or
+  [Permission ](/docs/strongpointfornetsuite/uar/uar_owner/owner_permission_reviews.md)**Review** tab is opened. Reviews can also be opened via
   links in dashboard or email **Notifications**.
 - **Number of Reviews** (global) is the number of single reviews in the global review.
 - **Review Type** is the type of review. Global can be **Both**, **Membership**, or **Permission**.
@@ -50,7 +50,7 @@ Use **Clear** to reset the Filters.
     - **Not Started** Email notification has been sent, review has not been started.
     - **In Progress** Review has been started.
     - **Additional Reviewer** Review has been assigned to an
-      [](#)[additional reviewer](owner_membership_reviews.md).
+      [](#)[additional reviewer](/docs/strongpointfornetsuite/uar/uar_owner/owner_membership_reviews.md).
     - **Change Request** Change request has been created. The **Change Request ID** is added to the
       row. The link opens the Change Request. **CR Rejected**, **CR Cancelled**, and **CR Complete**
       are the other Change Request status values.
@@ -73,7 +73,7 @@ Use **Clear** to reset the Filters.
 When you open a global review using the **Name** link in the UAR list, the Review list is displayed,
 showing all of the single reviews associated with the global review.
 
-![Review list of associated single reviews under a global review](../../../../static/img/product_docs/strongpointfornetsuite/uar/uar_owner/review_list.webp)
+![Review list of associated single reviews under a global review](/img/product_docs/strongpointfornetsuite/uar/uar_owner/review_list.webp)
 
 - **Export** exports the list of selected reviews as either a **CSV** or **PDF** file. The exported
   file is named _Reviews_Group_List_.
@@ -81,8 +81,8 @@ showing all of the single reviews associated with the global review.
   details for the reviews.
 - **Extract Permission Detail**creates a CSV file (_Permission_Report.csv_) of the permission
   details for the reviews.
-- **Review Name** is a link to the [Membership](owner_membership_reviews.md) or
-  [Permission ](owner_permission_reviews.md)**Review** tab. Reviews can also be opened via links in
+- **Review Name** is a link to the [Membership](/docs/strongpointfornetsuite/uar/uar_owner/owner_membership_reviews.md) or
+  [Permission ](/docs/strongpointfornetsuite/uar/uar_owner/owner_permission_reviews.md)**Review** tab. Reviews can also be opened via links in
   dashboard or email **Notifications**.
 - **Role Name** the role being reviewed.
 - **Review Type** is the type of review: **Membership** or **Permission**. The review type is set
@@ -93,7 +93,7 @@ showing all of the single reviews associated with the global review.
     - **Not Started** Email notification has been sent, review has not been started.
     - **In Progress** Review has been started.
     - **Additional Reviewer** Review has been assigned to an
-      [additional reviewer](owner_membership_reviews.md).
+      [additional reviewer](/docs/strongpointfornetsuite/uar/uar_owner/owner_membership_reviews.md).
     - **Change Request** Change request has been created. The **Change Request ID** is added to the
       row. The link opens the Change Request. **CR Rejected**, **CR Cancelled**, and **CR Complete**
       are the other Change Request status values.
@@ -109,5 +109,5 @@ showing all of the single reviews associated with the global review.
 - **Due Date** an optional due date for the review, set by the Administrator.
 - **Complete Date** the date the review was completed.
 
-Continue with the procedures to complete your [Membership](owner_membership_reviews.md) or
-[Permission ](owner_permission_reviews.md)reviews.
+Continue with the procedures to complete your [Membership](/docs/strongpointfornetsuite/uar/uar_owner/owner_membership_reviews.md) or
+[Permission ](/docs/strongpointfornetsuite/uar/uar_owner/owner_permission_reviews.md)reviews.

@@ -23,7 +23,7 @@ Modify `docusaurus.config.js` to add the i18n support for the French language.
 
 ### Site configuration {#site-configuration}
 
-Use the [site i18n configuration](./../api/docusaurus.config.js.mdx#i18n) to declare the i18n locales:
+Use the [site i18n configuration](./../api/docusaurus.config.js.mdx#i18n))) to declare the i18n locales:
 
 ```js title="docusaurus.config.js"
 export default {
@@ -114,7 +114,7 @@ After copying files around, restart your site with `npm run start -- --locale fr
 
 ### Translate your React code {#translate-your-react-code}
 
-For any React code you've written yourself: React pages, React components, etc., you will use the [**translation APIs**](../docusaurus-core.mdx#translate).
+For any React code you've written yourself: React pages, React components, etc., you will use the [**translation APIs**](../docusaurus-core.mdx#translate))).
 
 Locate all text labels in your React code that will be visible to your users, and mark them with the translation APIs. There are two kinds of APIs:
 
@@ -226,7 +226,7 @@ export default function Home() {
 
 :::info
 
-Docusaurus provides a **very small and lightweight translation runtime** on purpose, and only supports basic [placeholders interpolation](../docusaurus-core.mdx#interpolate), using a subset of the [ICU Message Format](https://formatjs.io/docs/core-concepts/icu-syntax/).
+Docusaurus provides a **very small and lightweight translation runtime** on purpose, and only supports basic [placeholders interpolation](../docusaurus-core.mdx#interpolate))), using a subset of the [ICU Message Format](https://formatjs.io/docs/core-concepts/icu-syntax/).
 
 Most documentation websites are generally **static** and don't need advanced i18n features (**plurals**, **genders**, etc.). Use a library like [react-intl](https://www.npmjs.com/package/react-intl) for more advanced use-cases.
 
@@ -316,7 +316,7 @@ function ItemsList({items}) {
   return (
     <>
       <h2>{message}</h2>
-      <ul>{items.map((item) => <li key={item.id}>{item.title}</li>)}<ul>
+      <ul>{items.map((item) => <li key={item.id}>{item.title}</li)}<ul>
     </>
   );
 }
@@ -338,7 +338,7 @@ JSON translation files are used for everything that is interspersed in your code
 - Blog sidebar title in plugin options
 - ...
 
-Run the [write-translations](../cli.mdx#docusaurus-write-translations-sitedir) command:
+Run the [write-translations](../cli.mdx#docusaurus-write-translations-sitedir))) command:
 
 ```bash npm2yarn
 npm run write-translations -- --locale fr
@@ -407,7 +407,7 @@ cp -r docs/** i18n/fr/docusaurus-plugin-content-docs/current
 
 :::info
 
-Notice that the `docusaurus-plugin-content-docs` plugin always divides its content by versions. The data in `./docs` folder will be translated in the `current` subfolder and `current.json` file. See [the doc versioning guide](../guides/docs/versioning.mdx#terminology) for more information about what "current" means.
+Notice that the `docusaurus-plugin-content-docs` plugin always divides its content by versions. The data in `./docs` folder will be translated in the `current` subfolder and `current.json` file. See [the doc versioning guide](../guides/docs/versioning.mdx#terminology))) for more information about what "current" means.
 
 :::
 
@@ -447,7 +447,7 @@ Generated IDs are not always a good fit for localized sites, as it requires you 
 + [link](#bonjour-le-monde)
 ```
 
-For localized sites, it is recommended to use **[explicit heading IDs](../guides/markdown-features/markdown-features-toc.mdx#heading-ids)**.
+For localized sites, it is recommended to use **[explicit heading IDs](../guides/markdown-features/markdown-features-toc.mdx#heading-ids)))**.
 
 :::
 
@@ -468,7 +468,7 @@ Docusaurus will build **one single-page application per locale**:
 - `website/build`: for the default, English language
 - `website/build/fr`: for the French language
 
-You can now [deploy](../deployment.mdx) the `build` folder to the static hosting solution of your choice.
+You can now [deploy](/reference-docs/docusaurus/deployment.mdx) the `build` folder to the static hosting solution of your choice.
 
 :::note
 
@@ -499,7 +499,7 @@ npm run build -- --locale fr
 
 Docusaurus will not add the `/fr/` URL prefix.
 
-On your [static hosting provider](../deployment.mdx):
+On your [static hosting provider](/reference-docs/docusaurus/deployment.mdx):
 
 - create one deployment per locale
 - configure the appropriate build command, using the `--locale` option
@@ -524,4 +524,4 @@ It is also possible to deploy each locale as a separate subdomain, assemble the 
 
 Docusaurus doesn't care about how you manage your translations: all it needs is that all translation files (JSON, Markdown, or other data files) are available in the file system during building. However, as site creators, you would need to consider how translations are managed so your translation contributors could collaborate well.
 
-We will share two common translation collaboration strategies: [**using git**](./i18n-git.mdx) and [**using Crowdin**](./i18n-crowdin.mdx).
+We will share two common translation collaboration strategies: [**using git**](/reference-docs/docusaurus/i18n/i18n-git.mdx) and [**using Crowdin**](/reference-docs/docusaurus/i18n/i18n-crowdin.mdx).

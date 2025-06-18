@@ -7,7 +7,7 @@ button to open this window.
 Trustees are the objects that rights are assigned to, e.g. Exchange mailboxes or Exchange
 distribution lists.
 
-![Select Active Directory Trustees Window](../../../../../../../../../static/img/product_docs/threatprevention/threatprevention/admin/policies/eventtype/window/selectactivedirectory/adtrustees.webp)
+![Select Active Directory Trustees Window](/img/product_docs/threatprevention/threatprevention/admin/policies/eventtype/window/selectactivedirectory/adtrustees.webp)
 
 - Select either Browse Mode or Search Mode.
 
@@ -16,7 +16,7 @@ distribution lists.
   right.
 - Then click **OK** to close the window.
 
-See the [Selection Windows](../overview.md) topic for additional information.
+See the [Selection Windows](/docs/threatprevention/7.5/threatprevention/admin/policies/eventtype/window/overview.md) topic for additional information.
 
 The selection is displayed in the appropriate box of the Exchange Trustees filter.
 

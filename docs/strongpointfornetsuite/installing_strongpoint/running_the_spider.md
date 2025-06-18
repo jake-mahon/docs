@@ -4,7 +4,7 @@ The first time the spider is run the entire account is scanned. Subsequent spide
 changes since the last run.
 
 The **Strongpoint** tab is only available to Administrators unless you specifically add it to other
-roles. Refer to [Setting Access and Permissions](setting_strongpoint_tab_access.md) for more
+roles. Refer to [Setting Access and Permissions](/docs/strongpointfornetsuite/installing_strongpoint/setting_strongpoint_tab_access.md) for more
 information.
 
 You must keep this window open for the spider to complete. Do not change roles or accounts during
@@ -49,7 +49,7 @@ any issues that arise are captured during the data validation phase.
 Open **Strongpoint** > **Strongpoint Support** > **Installation Settings** and review the **Spider
 Status** tab to confirm the **Last Completed Spider** shows a date.
 
-![Review the Spider Status tab of the Installation Settings](../../../static/img/product_docs/strongpointfornetsuite/installing_strongpoint/install_settings_spider_status.webp)
+![Review the Spider Status tab of the Installation Settings](/img/product_docs/strongpointfornetsuite/installing_strongpoint/install_settings_spider_status.webp)
 
 - **Strongpoint Record Server Side Spider Scheduled Script** is no longer running.
 - **Strongpoint Search Customization to Make Join (By Join Proc)** should not have any results. If
@@ -158,4 +158,4 @@ Spiders that run during off peak hours begin running at the hour set on the scri
 5:00 pm based on the company timezone if not set.  
 Negative Spiders are run sequentially.
 
-**Next Step:** [ Setting Up the AutoSpider and Alerts](setting_up_auto_spider_alerts.md)
+**Next Step:** [ Setting Up the AutoSpider and Alerts](/docs/strongpointfornetsuite/installing_strongpoint/setting_up_auto_spider_alerts.md)

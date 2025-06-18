@@ -3,13 +3,13 @@
 An Entitlement Scope schedule is automatically created for an identity store when:
 
 - A server is added for permission analysis on the Entitlement page in an Active Directory identity
-  store. See the [Manage File Servers](../entitlement/ad/manage.md) for additional information on
+  store. See the [Manage File Servers](/docs/groupid/11.1/groupid/admincenter/entitlement/ad/manage.md) for additional information on
   adding a server.
 
     Or
 
 - A SharePoint site is added for permission analysis on the Entitlement page in a Microsoft Entra ID
-  identity store. See the [Manage SharePoint Sites](../entitlement/entraid/manage.md) topic for
+  identity store. See the [Manage SharePoint Sites](/docs/groupid/11.1/groupid/admincenter/entitlement/entraid/manage.md) topic for
   additional information on adding a SharePoint site.
 
 Using the Directory Manager portal, users can update the permissions on files and folders residing
@@ -24,7 +24,7 @@ sub-trees, till the nth level. Changes made to permissions outside of Directory 
 the scope of this schedule.
 
 Permissions replicated by the Entitlement Scope schedule are also replicated by the
-[GroupID Entitlement Schedule](entitlement.md), as the latter replicates permissions from scratch.
+[GroupID Entitlement Schedule](/docs/groupid/11.1/groupid/admincenter/schedule/entitlement.md), as the latter replicates permissions from scratch.
 However, the default triggering frequency for the Directory Manager Entitlement schedule (i.e.,
 weekly) necessitates a separate Entitlement Scope schedule.
 
@@ -33,12 +33,12 @@ The Entitlement Scope schedule runs in the context of the following accounts:
 - For file servers, the schedule runs in the context of the service account defined for the identity
   store. In case you specify a different account for a file server, the schedule runs in the context
   of the changed account. See the
-  [Connect to a File Server Using a Different Account](../entitlement/ad/manage.md#connect-to-a-file-server-using-a-different-account)
+  [Connect to a File Server Using a Different Account](/docs/groupid/11.1/groupid/admincenter/entitlement/ad/manage.md#connect-to-a-file-server-using-a-different-account)
   topic for additional information.
 - For a SharePoint site, the schedule runs in the context of the account you specified to connect to
   the SharePoint admin site. In case you specify a different account for a site, the schedule runs
   in the context of the changed account. See the
-  [Connect to a Site Using a Different Account](../entitlement/entraid/manage.md#connect-to-a-site-using-a-different-account)
+  [Connect to a Site Using a Different Account](/docs/groupid/11.1/groupid/admincenter/entitlement/entraid/manage.md#connect-to-a-site-using-a-different-account)
   topic for additional information.
 
 You cannot create or delete an Entitlement Scope schedule; only edit the existing schedule.
@@ -64,7 +64,7 @@ _Entitlement_`<the name of the machine the schedule is created on>`_Scope_.
 Step 6 – In the **Scheduler Service Name** drop-down list, select a Scheduler service that would be
 responsible for triggering this schedule. The number of services displayed in the list depend on the
 number of nodes in all Elasticsearch clusters in the environment, as each node has its own Scheduler
-service. See the [Scheduler Service](../service/schedulerservice.md) topic for additional
+service. See the [Scheduler Service](/docs/groupid/11.1/groupid/admincenter/service/schedulerservice.md) topic for additional
 information.
 
 Please note the following while selecting a Scheduler service:

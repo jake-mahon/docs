@@ -6,11 +6,11 @@ through Directory Manager.
 
 To use Directory Manager as an identity provider, you have to: register an application (service
 provider) in Directory Manager. See the
-[Register an Application (Service Provider) in Directory Manager](register.md) topic for additional
+[Register an Application (Service Provider) in Directory Manager](/docs/groupid/11.1/groupid/authenticate/asidentityprovider/register.md) topic for additional
 information.
 
 You can also specify default values for the issuer URL and signing certificate, that are used to
 configure Directory Manager in the service provider. See the
-[Specify Default Metadata Values](metadata.md) topic for additional information.
+[Specify Default Metadata Values](/docs/groupid/11.1/groupid/authenticate/asidentityprovider/metadata.md) topic for additional information.
 
-To sign in using Directory Manager, see the [Sign In Using Directory Manager](signin.md) topic.
+To sign in using Directory Manager, see the [Sign In Using Directory Manager](/docs/groupid/11.1/groupid/authenticate/asidentityprovider/signin.md) topic.

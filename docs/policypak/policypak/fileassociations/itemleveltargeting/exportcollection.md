@@ -1,6 +1,6 @@
 # Exporting Collections
 
-[Using Endpoint Policy Manager with MDM and UEM Tools](../../mdm/uemtools.md) explains how to use
+[Using Endpoint Policy Manager with MDM and UEM Tools](/docs/policypak/policypak/mdm/uemtools.md) explains how to use
 the Endpoint Policy Manager Exporter to wrap up any Endpoint Policy Manager directives and deliver
 them using Microsoft Endpoint Manager (SCCM and Intune), KACE, you own MDM service, or Endpoint
 Policy Manager Cloud. However, we recommend NOT using Endpoint Policy Manager File Associations
@@ -11,11 +11,11 @@ File Associations Manager, so if you decide to use Endpoint Policy Manager Cloud
 domain-joined machines, Endpoint Policy Manager File Associations Manager will function as expected
 using Endpoint Policy Manager Cloud.
 
-![using_item_level_targeting_8](../../../../../static/img/product_docs/policypak/policypak/remotedesktopprotocol/itemleveltargeting/using_item_level_targeting_8.webp)
+![using_item_level_targeting_8](/img/product_docs/policypak/policypak/remotedesktopprotocol/itemleveltargeting/using_item_level_targeting_8.webp)
 
 **NOTE:** For a video demonstrating the use of Endpoint Policy Manager Cloud with domain-joined
 machines. See the
-[Endpoint Policy ManagerCloud and Endpoint Policy Manager OnPremise – Together using PPCloud Licenses](../../video/cloud/integration/onpremise.md)
+[Endpoint Policy ManagerCloud and Endpoint Policy Manager OnPremise – Together using PPCloud Licenses](/docs/policypak/policypak/video/cloud/integration/onpremise.md)
 topic for additional information.
 
 To export a policy for later use with Endpoint Policy Manager Exporter or Endpoint Policy Manager
@@ -23,12 +23,12 @@ Cloud, right-click the collection or the policy, and select **Export to XML**.
 
 **NOTE:** For a video showing how to export policies and how to use Endpoint Policy Manager
 Exporter.See the
-[Deploying Endpoint Policy Managerdirectives without Group Policy (Endpoint Policy Manager Exporter Utility)](../../video/mdm/exporterutility.md)
+[Deploying Endpoint Policy Managerdirectives without Group Policy (Endpoint Policy Manager Exporter Utility)](/docs/policypak/policypak/video/mdm/exporterutility.md)
 topic for additional information.
 
-![using_item_level_targeting_9](../../../../../static/img/product_docs/policypak/policypak/fileassociations/itemleveltargeting/using_item_level_targeting_9.webp)
+![using_item_level_targeting_9](/img/product_docs/policypak/policypak/fileassociations/itemleveltargeting/using_item_level_targeting_9.webp)
 
-![using_item_level_targeting_10](../../../../../static/img/product_docs/policypak/policypak/fileassociations/itemleveltargeting/using_item_level_targeting_10.webp)
+![using_item_level_targeting_10](/img/product_docs/policypak/policypak/fileassociations/itemleveltargeting/using_item_level_targeting_10.webp)
 
 **NOTE:** Exported collections or policies maintain any Item-Level Targeting set within them. If
 you've used items that represent Group Membership in Active Directory, then those items will only

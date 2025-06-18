@@ -83,7 +83,7 @@ and click **Create policy**.
 **NOTE:** If the designated scanning account is not in Root (Master Account), create a second policy
 in the Master Account with the following JSON definition:
 
-[Copy](<javascript:void(0);>)
+[Copy](javascript:void(0);)
 
 ```
 {

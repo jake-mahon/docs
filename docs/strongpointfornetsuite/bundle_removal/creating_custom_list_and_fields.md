@@ -18,7 +18,7 @@ belongs to and six different check boxes, one for each scenario.
     5. Outside bundle referencing inside
     6. In bundle referenced by outside
 
-        ![Create a Custom List](../../../static/img/product_docs/strongpointfornetsuite/bundle_removal/customlist.webp)
+        ![Create a Custom List](/img/product_docs/strongpointfornetsuite/bundle_removal/customlist.webp)
 
 ## Create Custom Fields
 
@@ -39,4 +39,4 @@ belongs to and six different check boxes, one for each scenario.
 
 6. Click **Save**
 
-**Next Step:** [Categorizing Customizations](categorizing_customizations.md)
+**Next Step:** [Categorizing Customizations](/docs/strongpointfornetsuite/bundle_removal/categorizing_customizations.md)

@@ -20,21 +20,21 @@ to create a new report.
 
 **Step 1 –** Navigate to **Jobs** > **[Job]** > **Configure** and select the **Reports** node.
 
-![Create report option](../../../../../static/img/product_docs/threatprevention/threatprevention/eperestsite/create.webp)
+![Create report option](/img/product_docs/threatprevention/threatprevention/eperestsite/create.webp)
 
 **Step 2 –** On the Reports page, click Create.
 
 **Step 3 –** The Report Configuration wizard is automatically launched. Use the wizard to configure
-the new report as required, see the [Report Configuration Wizard](wizard/overview.md) topic for
+the new report as required, see the [Report Configuration Wizard](/docs/accessanalyzer/12.0/admin/report/wizard/overview.md) topic for
 instructions. Click **Finish** on the final page of the wizard to create the report.
 
 The new report is added to the Reports table.
 
-![Generate report](../../../../../static/img/product_docs/accessanalyzer/admin/report/generate.webp)
+![Generate report](/img/product_docs/accessanalyzer/admin/report/generate.webp)
 
 **Step 4 –** Click the vertical ellipsis menu next to the report and select Generate.
 
-The report is now created. To access the new report, see the [Viewing Generated Reports](view.md)
+The report is now created. To access the new report, see the [Viewing Generated Reports](/docs/accessanalyzer/12.0/admin/report/view.md)
 topic.
 
 ## Copy an Existing Report
@@ -43,12 +43,12 @@ You can create a new report by copying an existing report and pasting it in a jo
 You can then optionally customize the report as required. Follow the steps to create a copy of an
 existing report.
 
-![Copy Report](../../../../../static/img/product_docs/accessanalyzer/admin/navigate/copy.webp)
+![Copy Report](/img/product_docs/accessanalyzer/admin/navigate/copy.webp)
 
 **Step 1 –** Navigate to the Reports node where the desired report to copy is located. Click the
 vertical ellipsis menu next to the report and select Copy.
 
-![Paste Report](../../../../../static/img/product_docs/accessanalyzer/admin/navigate/paste.webp)
+![Paste Report](/img/product_docs/accessanalyzer/admin/navigate/paste.webp)
 
 **Step 2 –** Navigate to the Reports node in the desired destination for the new report. Click the
 vertical ellipsis menu in the header row of the Reports table and select Paste.
@@ -62,9 +62,9 @@ report is named Exceptions Summary, then the new report is named `Exceptions Sum
 
 **Step 3 –** (Optional) Click the **Configure** button next to the report. Use the Report
 Configuration wizard to modify the reports settings. See the
-[Report Configuration Wizard](wizard/overview.md) topic for instructions.
+[Report Configuration Wizard](/docs/accessanalyzer/12.0/admin/report/wizard/overview.md) topic for instructions.
 
 **Step 4 –** Click the vertical ellipsis menu next to the report and select Generate.
 
-The report is now created. To access the new report, see the [Viewing Generated Reports](view.md)
+The report is now created. To access the new report, see the [Viewing Generated Reports](/docs/accessanalyzer/12.0/admin/report/view.md)
 topic.

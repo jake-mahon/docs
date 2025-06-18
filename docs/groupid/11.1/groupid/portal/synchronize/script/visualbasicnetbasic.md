@@ -8,9 +8,9 @@ article for additional information.
 
 Visual Basic .NET is largely a superset of Visual Basic 6. If you are familiar with Visual Basic
 before the advent of .NET technology, you may wish to refer to
-[Language Changes in Visual Basic](<https://docs.microsoft.com/en-us/previous-versions/visualstudio/visual-studio-2008/skw8dhdd(v%3dvs.90)>),
+[Language Changes in Visual Basic](https://docs.microsoft.com/en-us/previous-versions/visualstudio/visual-studio-2008/skw8dhdd(v%3dvs.90)),
 and particularly to
-[Programming Element Support Changes Summary](<https://docs.microsoft.com/en-us/previous-versions/visualstudio/visual-studio-2008/kaf4ssya(v%3dvs.90)>).
+[Programming Element Support Changes Summary](https://docs.microsoft.com/en-us/previous-versions/visualstudio/visual-studio-2008/kaf4ssya(v%3dvs.90)).
 For the most part, statements and constructs that worked in Visual Basic 6, Visual BasicScript, and
 Visual BasicA continue to work in Visual Basic .NET.
 
@@ -96,7 +96,7 @@ the first character occupies position 0) instead of 1-based (the first character
     ```
 
 For a list of such string methods, see
-[.NET String Methods](<https://msdn.microsoft.com/en-us/library/system.string_methods(v%3dvs.110).aspx>).
+[.NET String Methods](https://msdn.microsoft.com/en-us/library/system.string_methods(v%3dvs.110).aspx).
 
 ## Line Continuation
 

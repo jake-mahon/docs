@@ -33,10 +33,10 @@ adding a **Network Scan**!
 - The service: “Windows Management Instrumentation” must have been started on the computer to be
   scanned (carried out by Windows as standard).
 - Help section for starting the service:
-  [Microsoft Website](<https://msdn.microsoft.com/de-de/library/aa826517(v=vs.85).aspx>)
+  [Microsoft Website](https://msdn.microsoft.com/de-de/library/aa826517(v=vs.85).aspx)
 - The firewall must not block WMI requests (not blocked as standard).
 - Help section for configuring the firewall:
-  [Microsoft Website](<https://msdn.microsoft.com/de-de/library/aa822854(v=vs.85).aspx>)
+  [Microsoft Website](https://msdn.microsoft.com/de-de/library/aa822854(v=vs.85).aspx)
 
 NOTE: Only **IPv4 addresses** can currently be scanned.
 

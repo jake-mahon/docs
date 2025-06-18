@@ -15,4 +15,4 @@ Use the Export to XLS option to export your results to an XLS file where you ca
 analyze your information using the full power of Excel. You can then update your records using
 Salesforce tools like Import Wizard and Data Loader to save time and effort.
 
-![finder](../../../static/img/product_docs/strongpointforsalesforce/tools/finder.webp)
+![finder](/img/product_docs/strongpointforsalesforce/tools/finder.webp)

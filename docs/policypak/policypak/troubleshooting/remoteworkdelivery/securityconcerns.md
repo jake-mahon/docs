@@ -7,11 +7,11 @@ to all authenticated users.
 In Figure 49 and Figure 50, you can see a Group Policy HTML report of the source file path of an SMB
 file and a web-based file.
 
-![tips_security_and_troubleshooting](../../../../../static/img/product_docs/policypak/policypak/troubleshooting/remoteworkdelivery/tips_security_and_troubleshooting.webp)
+![tips_security_and_troubleshooting](/img/product_docs/policypak/policypak/troubleshooting/remoteworkdelivery/tips_security_and_troubleshooting.webp)
 
 Figure 49. By default, Standard Users can see the source path you have specified.
 
-![tips_security_and_troubleshooting_1](../../../../../static/img/product_docs/policypak/policypak/troubleshooting/remoteworkdelivery/tips_security_and_troubleshooting_1.webp)
+![tips_security_and_troubleshooting_1](/img/product_docs/policypak/policypak/troubleshooting/remoteworkdelivery/tips_security_and_troubleshooting_1.webp)
 
 Figure 50. Standard Users can see your HTTP source URLs by default.
 
@@ -25,7 +25,7 @@ know-how, use their own user access to read the underlying XML within the GPO it
 we can see Standard User EastSalesUser1 reading the XML contents of a GPO within SYSVOL and seeing
 the location of the web file.
 
-![tips_security_and_troubleshooting_2](../../../../../static/img/product_docs/policypak/policypak/troubleshooting/remoteworkdelivery/tips_security_and_troubleshooting_2.webp)
+![tips_security_and_troubleshooting_2](/img/product_docs/policypak/policypak/troubleshooting/remoteworkdelivery/tips_security_and_troubleshooting_2.webp)
 
 Figure 51. Standard Users can read the contents of the GPOs that apply to them.
 
@@ -46,14 +46,14 @@ Figure 52 shows an example of a hardened GPO within the Delegation tab of the GP
 EastSalesUser1 would be able to determine the contents of the GPO (and hence, see the HTML report or
 read the GPO data).
 
-![tips_security_and_troubleshooting_3](../../../../../static/img/product_docs/policypak/policypak/troubleshooting/remoteworkdelivery/tips_security_and_troubleshooting_3.webp)
+![tips_security_and_troubleshooting_3](/img/product_docs/policypak/policypak/troubleshooting/remoteworkdelivery/tips_security_and_troubleshooting_3.webp)
 
 Figure 52. Hardening a GPO.
 
 Note that on the Scope tab (see Figure 53), you will only see the name of the group with read rights
 and "Apply group policy" rights, which is in this case, EastSalesUsers.
 
-![tips_security_and_troubleshooting_4](../../../../../static/img/product_docs/policypak/policypak/troubleshooting/remoteworkdelivery/tips_security_and_troubleshooting_4.webp)
+![tips_security_and_troubleshooting_4](/img/product_docs/policypak/policypak/troubleshooting/remoteworkdelivery/tips_security_and_troubleshooting_4.webp)
 
 Figure 53. The Security Filtering section will only show you who has read rights and "Apply group
 policy" rights.
@@ -63,6 +63,6 @@ user-side portion of the GPO. In Figure 54, WestSalesUser1 attempts to read the 
 because authenticated users are removed, and only EastSalesUser1 Active Directory Group has
 permissions, the user cannot read the User side of the GPO's contents.
 
-![tips_security_and_troubleshooting_5](../../../../../static/img/product_docs/policypak/policypak/troubleshooting/remoteworkdelivery/tips_security_and_troubleshooting_5.webp)
+![tips_security_and_troubleshooting_5](/img/product_docs/policypak/policypak/troubleshooting/remoteworkdelivery/tips_security_and_troubleshooting_5.webp)
 
 Figure 54. The result of hardening a GPO.

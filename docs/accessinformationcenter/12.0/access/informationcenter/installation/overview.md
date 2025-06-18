@@ -39,7 +39,7 @@ these will be referred to as the Database service account and the Active Directo
   and Resource Audits require the Active Directory service account to have rights to read Active
   Directory. This credential is configured during installation based on the account used for
   connecting to the database. See the
-  [Active Directory Page](../admin/configuration/activedirectory.md) topic for additional
+  [Active Directory Page](/docs/accessinformationcenter/12.0/access/informationcenter/admin/configuration/activedirectory.md) topic for additional
   information.
 
 Commit Active Directory Changes
@@ -56,7 +56,7 @@ groups to be managed:
 - Allow Read Members
 - Allow Write Members
 
-See the [Commit Active Directory Changes](../admin/additionalconfig/commitchanges.md) topic for
+See the [Commit Active Directory Changes](/docs/accessinformationcenter/12.0/access/informationcenter/admin/additionalconfig/commitchanges.md) topic for
 additional information and best practices.
 
 ### SSL Certificate
@@ -98,7 +98,7 @@ Latest Version Compatibility
 | Netwrix Access Analyzer (formerly Enterprise Auditor) | Ver. 12.0\*     |
 | Netwrix Access Information Center                     | Ver. v12.0\*    |
 
-See the [Upgrade Procedure](upgrade.md) topic for additional information.
+See the [Upgrade Procedure](/docs/accessinformationcenter/12.0/access/informationcenter/installation/upgrade.md) topic for additional information.
 
 ## Supported Browsers
 

@@ -21,19 +21,19 @@ The Public Folder action module is configured through the Public Folder Action M
 contains the following wizard pages:
 
 - Welcome
-- [Public Folder: Action](action.md)
-- [Public Folder: Prior Actions](prioractions.md)
-- [Public Folder: Folders](folders.md)
-- [Public Folder: MAPI Settings](mapisettings.md)
-- [Public Folder: Operations](operations.md)
-- [Public Folder: Rollback](rollback.md)
-- [Public Folder: Options](options.md)
-- [Public Folder: Summary](summary.md)
+- [Public Folder: Action](/docs/accessanalyzer/12.0/admin/action/publicfolder/action.md)
+- [Public Folder: Prior Actions](/docs/accessanalyzer/12.0/admin/action/publicfolder/prioractions.md)
+- [Public Folder: Folders](/docs/accessanalyzer/12.0/admin/action/publicfolder/folders.md)
+- [Public Folder: MAPI Settings](/docs/accessanalyzer/12.0/admin/action/publicfolder/mapisettings.md)
+- [Public Folder: Operations](/docs/accessanalyzer/12.0/admin/action/publicfolder/operations.md)
+- [Public Folder: Rollback](/docs/accessanalyzer/12.0/admin/action/publicfolder/rollback.md)
+- [Public Folder: Options](/docs/accessanalyzer/12.0/admin/action/publicfolder/options.md)
+- [Public Folder: Summary](/docs/accessanalyzer/12.0/admin/action/publicfolder/summary.md)
 
 The Welcome page gives an overview of the action module. The navigation pane contains links to the
 pages in the wizard. Review the introductory and caution information about the Public Folder Action
 Module before proceeding.
 
-![Public Folder Action Module Wizard Welcome page](../../../../../../static/img/product_docs/activitymonitor/activitymonitor/install/welcome.webp)
+![Public Folder Action Module Wizard Welcome page](/img/product_docs/activitymonitor/activitymonitor/install/welcome.webp)
 
 To proceed, click **Next** or use the Steps navigation pane to open another page in the wizard.

@@ -46,10 +46,10 @@ built-in Power User group, even when stripped of all roles, still has more file 
 capabilities than any other non-built-in group.
 
 If only running the Access Auditing (FSAA) and/or Sensitive Data Discovery Auditing scans, proceed
-to the [Provision Account](provisionaccess.md) topic for instructions. If also running Activity
+to the [Provision Account](/docs/accessanalyzer/12.0/config/netapp7mode/provisionaccess.md) topic for instructions. If also running Activity
 Auditing (FSAC) scan, then the FPolicy Account Provisioned for the Netwrix Activity Monitor will
 meet the needs of the Access Auditing (FSAA) and/or Sensitive Data Discovery Auditing scans. Proceed
-to the [NetApp Data ONTAP 7-Mode Activity Auditing Configuration](activity.md) topic for
+to the [NetApp Data ONTAP 7-Mode Activity Auditing Configuration](/docs/accessanalyzer/12.0/config/netapp7mode/activity.md) topic for
 instructions.
 
 This credential is used within the Connection Profile assigned to the File System scans.

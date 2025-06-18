@@ -46,11 +46,11 @@ a user must select an identity store to connect to, for performing password mana
 
 NOTE: You may observe the following message on the **Server Settings – General** page:
 
-![linked_message](../../../../../../../static/img/product_docs/groupid/groupid/admincenter/portal/linked_message.webp)
+![linked_message](/img/product_docs/groupid/groupid/admincenter/portal/linked_message.webp)
 
 It relates to the scenario when identity stores in Directory Manager have been linked, as discussed
 in the
-[Linked Identity Stores and the Directory Manager Portal](../../identitystore/link/overview.md#linked-identity-stores-and-the-directory-manager-portal)
+[Linked Identity Stores and the Directory Manager Portal](/docs/groupid/11.1/groupid/admincenter/identitystore/link/overview.md#linked-identity-stores-and-the-directory-manager-portal)
 topic. Hence, when two identity stores, IdentityStoreA and IdentityStoreB, are linked and you
 associate IdentityStoreA with the portal, this message is displayed. It alerts you to associate the
 second identity store in the linked pair (dentityStoreB) with the portal too, in order to benefit
@@ -76,13 +76,13 @@ settings for each deployment instance of a portal.
       Select an instance to view the name of the instance directory in IIS, the IIS site that hosts
       the instance, the URL for the instance, the Data service and Security service associated with
       the instance, and logging levels. See the
-      [Manage Settings for a Native IIS Deployment](nativeiis.md) topic for details.
+      [Manage Settings for a Native IIS Deployment](/docs/groupid/11.1/groupid/admincenter/portal/server/nativeiis.md) topic for details.
     - The **Remote IIS** tab is available when one or more portal instances are deployed in remote
       IIS. Select an instance to view the Microsoft IIS Administration API URL and access token that
       Directory Manager uses to communicate with the remote IIS server, the credentials used to
       communicate with the API, the site that hosts the instance, the Data service and Security
       service associated with the instance, and logging levels. See the
-      [Manage Settings for a Remote IIS Deployment](remoteiis.md) topic for details.
+      [Manage Settings for a Remote IIS Deployment](/docs/groupid/11.1/groupid/admincenter/portal/server/remoteiis.md) topic for details.
     - The **Docker** tab is available when one or more portal instances are deployed in Docker.
       Select an instance to view the port and Service URL used for deployment. See the
-      [Manage Settings for a Docker Deployment](docker.md) topic for details.
+      [Manage Settings for a Docker Deployment](/docs/groupid/11.1/groupid/admincenter/portal/server/docker.md) topic for details.

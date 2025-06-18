@@ -6,7 +6,7 @@ Policy Override, that credential's scheduled change policy and verification sche
 inherited from the Credential Policy Override, rather than being inherited from the credential's
 platform.
 
-![Credential Policy Overrides Page](../../../../../../../../static/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/page/credentialpolicyoverridepage.webp)
+![Credential Policy Overrides Page](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/page/credentialpolicyoverridepage.webp)
 
 The pane on the left side of the page displays a list of the configured Credential Policy Overrides.
 This pane has the following features:
@@ -14,7 +14,7 @@ This pane has the following features:
 - Search — Searches the table or list for matches to the search string. When matches are found, the
   table or list is filtered to the matching results.
 - Blue + button — Create a new credential group. See the
-  [Add Credential Policy Override](../add/credentialpolicyoverrides.md) topic for additional
+  [Add Credential Policy Override](/docs/privilegesecure/4.2/privilegesecure/accessmanagement/admin/policy/add/credentialpolicyoverrides.md) topic for additional
   information.
 - Trashcan icon — Deletes the policy. Icon appears when policy is hovered over. A confirmation
   window will display.
@@ -32,7 +32,7 @@ The table has the following features:
 - Search — Searches the table or list for matches to the search string. When matches are found, the
   table or list is filtered to the matching results.
 - Add Credentials — Opens the Add Credentials window. See the
-  [Add Credentials Window](../window/credentials/addcredentials.md) topic for additional
+  [Add Credentials Window](/docs/privilegesecure/4.2/privilegesecure/accessmanagement/admin/policy/window/credentials/addcredentials.md) topic for additional
   information.
 - Remove — Removes the selected item
 - Refresh — Reload the information displayed
@@ -51,7 +51,7 @@ The table has the following columns:
 - Age — Number of days since the last credential rotation or from when the password was first
   created
 - Status — Indicates if the account credentials have been verified by Privilege Secure. See the
-  [Platforms Page](platforms/overview.md) topic for additional information on configuring a
+  [Platforms Page](/docs/privilegesecure/4.2/privilegesecure/accessmanagement/admin/policy/page/platforms/overview.md) topic for additional information on configuring a
   verification schedule.
 
     - Unspecified — Verification check has not run

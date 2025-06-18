@@ -22,7 +22,7 @@ Reports** check box on the User Settings panel.
   report's vCard and prompts you to save it on your machine. You can then use it to add the direct
   report's email address to your email contact list.
 - Select a direct report and click **Add to Group** on the toolbar to the direct report to the
-  membership of a group. The [Find Dialog Box](../../search/find.md) is displayed, where you can
+  membership of a group. The [Find Dialog Box](/docs/groupid/11.1/groupid/portal/search/find.md) is displayed, where you can
   search and select the group(s) to add the direct report as a member.
 - Select a direct report and click **Send email** on the toolbar to send an email to the direct
   report. This launches the default Windows email application for sending an email to the direct
@@ -41,4 +41,4 @@ to add or remove your direct reports.
 You can also transfer and terminate your direct reports while you validate your Profile.
 
 To view any changes made to your direct reports, see the
-[My Direct Reports' History](../../history/mydirectreport.md) topic for additional information.
+[My Direct Reports' History](/docs/groupid/11.1/groupid/portal/history/mydirectreport.md) topic for additional information.

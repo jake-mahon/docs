@@ -22,7 +22,7 @@ other Data service that you have created.
 
 When multiple Directory Manager instances have been deployed, you will find multiple default Data
 services on this tab page, as each instance has its own default Data service. See the
-[Elasticsearch Clusters, Nodes, and Directory Manager](../overview.md#elasticsearch-clusters-nodes-and-directory-manager)
+[Elasticsearch Clusters, Nodes, and Directory Manager](/docs/groupid/11.1/groupid/admincenter/service/overview.md#elasticsearch-clusters-nodes-and-directory-manager)
 topic.
 
 Step 3 – The card for a Data service displays the following information:
@@ -32,7 +32,7 @@ Step 3 – The card for a Data service displays the following information:
 | Name                 | The name given to the service.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
 | Deployment Instances | Displays the deployment name of the service and the web server where it is deployed.                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
 | Status               | A service has one of the following statuses: - Running – Indicates that the service is up and running. - Stopped – Indicates that Directory Manager is unable to communicate with the service. To troubleshoot, go to the web server where the service is deployed (IIS, remote IIS, or Docker) and make sure the service is running. - Error – Any issue other than _stopped_ is categorized as _error_. Contact your system administrator to resolve it.                                                                                              |
-| Launch Application   | Click it to launch the service page. - For a Data service, Replication service, Email service, and Scheduler service, a page is displayed that simply shows the status of the service as _running_, _stopped_, or _error_. - For a Security service, the **GroupID Applications** page is displayed. Performing an action on this page will be carried out through the respective Security service. See the [Access your Applications](../../general/accessapplications.md) topic. - For Admin Center, this link launches the Admin Center application. |
+| Launch Application   | Click it to launch the service page. - For a Data service, Replication service, Email service, and Scheduler service, a page is displayed that simply shows the status of the service as _running_, _stopped_, or _error_. - For a Security service, the **GroupID Applications** page is displayed. Performing an action on this page will be carried out through the respective Security service. See the [Access your Applications](/docs/groupid/11.1/groupid/admincenter/general/accessapplications.md) topic. - For Admin Center, this link launches the Admin Center application. |
 | Ellipsis             | Click it to launch a shortcut menu with the following options: - Settings – launches the service settings page, where you can manage deployment settings and log settings. - Delete – deletes the service. This option is not available for the default services.                                                                                                                                                                                                                                                                                       |
 
 ## Change a Service’s Display Name
@@ -136,8 +136,8 @@ Directory Manager uses file logging and Windows logging to monitor events from a
 set the logging level for a service to track a specific set of information for it.
 
 For details on file logging and Windows logging, see the
-[File Logging](../../portal/server/log.md#file-logging) and
-[Windows Logging](../../portal/server/log.md#windows-logging) topics. Replace references to the
+[File Logging](/docs/groupid/11.1/groupid/admincenter/portal/server/log.md#file-logging) and
+[Windows Logging](/docs/groupid/11.1/groupid/admincenter/portal/server/log.md#windows-logging) topics. Replace references to the
 portal with the respective service.
 
 NOTE: Windows logging is not available for Data service and Security service.
@@ -164,7 +164,7 @@ Step 6 – In the File Logging area, select a logging level for the service in t
 drop-down list.  
 File logging groups events into different levels, based on the type of information captured. See the
 table in the
-[Change the File Logging Level for a Portal Instance](../../portal/server/log.md#change-the-file-logging-level-for-a-portal-instance)topic
+[Change the File Logging Level for a Portal Instance](/docs/groupid/11.1/groupid/admincenter/portal/server/log.md#change-the-file-logging-level-for-a-portal-instance)topic
 for information on the logging levels. Replace references to the portal with the respective service.
 
 Step 7 – Click **Save**.
@@ -213,7 +213,7 @@ Step 6 – In the Windows Logging area, select a logging level for the service i
 drop-down list.  
 Windows logging groups events into different levels, based on the type of information captured. See
 the table in the
-[Change the File Logging Level for a Portal Instance](../../portal/server/log.md#change-the-file-logging-level-for-a-portal-instance)topic
+[Change the File Logging Level for a Portal Instance](/docs/groupid/11.1/groupid/admincenter/portal/server/log.md#change-the-file-logging-level-for-a-portal-instance)topic
 for information on the logging levels. Replace references to the portal with the respective service.
 
 Step 7 – Click **Save**.

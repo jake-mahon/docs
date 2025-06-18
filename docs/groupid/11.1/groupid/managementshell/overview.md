@@ -40,20 +40,20 @@ to launch Directory Manager Management Shell 11.1.
 Step 2 – On the Netwrix Netwrix Directory Manager Authenticate page, select an identity store to
 connect to.
 
-![Login page](../../../../../static/img/product_docs/groupid/groupid/managementshell/login.webp)
+![Login page](/img/product_docs/groupid/groupid/managementshell/login.webp)
 
 NOTE: If your required identity store is not listed, contact the Directory Manager administrator.
 
 Step 3 – In the **Username** and **Password** boxes, provide the user name and password of your
 identity store account and click **Sign In**.
 
-![Login page](../../../../../static/img/product_docs/groupid/groupid/managementshell/login-2.webp)
+![Login page](/img/product_docs/groupid/groupid/managementshell/login-2.webp)
 
 NOTE: Click the **Edit** icon if you want to select another identity store to connect to.
 
 The Management Shell window appears as follows:
 
-![GroupID Management Shell 11.0](../../../../../static/img/product_docs/groupid/groupid/managementshell/shell.webp)
+![GroupID Management Shell 11.0](/img/product_docs/groupid/groupid/managementshell/shell.webp)
 
 It displays information about the connected identity store.
 
@@ -92,7 +92,7 @@ Step 2 – At the command prompt, type:
 enable-psremoting
 ```
 
-![powershellwindow](../../../../../static/img/product_docs/groupid/groupid/managementshell/powershellwindow.webp)
+![powershellwindow](/img/product_docs/groupid/groupid/managementshell/powershellwindow.webp)
 
 NOTE: By default, on Windows Server 2016, Windows PowerShell remoting is enabled. Use this command
 to re-enable remoting on Windows Server 2016 if it becomes disabled.
@@ -110,7 +110,7 @@ new-PSSession –ComputerName <computer name>
 This command creates a remote session on the local computer and returns an object that represents
 the session. The output should look as shown in the following snapshot:
 
-![Management Shell Remote session](../../../../../static/img/product_docs/groupid/groupid/managementshell/pssessioncommand.webp)
+![Management Shell Remote session](/img/product_docs/groupid/groupid/managementshell/pssessioncommand.webp)
 
 ### Access Directory Manager Management Shell Remotely
 
@@ -145,7 +145,7 @@ desired identity store exists:
 1. Login to SQL server (having Directory Manager database) with account having read permissions.
 2. View the table “Svc.Identitystore” top 100 rows. See the following snapshot for details:
 
-    ![groupiddatabase](../../../../../static/img/product_docs/groupid/groupid/managementshell/groupiddatabase.webp)
+    ![groupiddatabase](/img/product_docs/groupid/groupid/managementshell/groupiddatabase.webp)
 
 Once the script has run, a remote session will be created. You can now run all Directory Manager
 cmdlets through PowerShell 7.4.6 without the need of signing into the Directory Manager server.

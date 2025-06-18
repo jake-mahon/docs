@@ -64,17 +64,17 @@ will be removed when PS script is deployed with PP Scripts Manager.
 
 **Step 1 –** BR Extension folder location.
 
-![870_1_image-20220217002324-1](../../../../../../static/img/product_docs/policypak/policypak/troubleshooting/browserrouter/chrome/870_1_image-20220217002324-1.webp)
+![870_1_image-20220217002324-1](/img/product_docs/policypak/policypak/troubleshooting/browserrouter/chrome/870_1_image-20220217002324-1.webp)
 
 **Step 2 –** Create a User-side PP Scripts Manager policy. Use the Google Chrome PS script from PS
 Scripts section.
 
-![870_2_image-20220217002324-2](../../../../../../static/img/product_docs/policypak/policypak/troubleshooting/browserrouter/chrome/870_2_image-20220217002324-2.webp)
+![870_2_image-20220217002324-2](/img/product_docs/policypak/policypak/troubleshooting/browserrouter/chrome/870_2_image-20220217002324-2.webp)
 
 **Step 3 –** Create a User-side PP Scripts Manager policy. Use the Microsoft Edge PS script from PS
 Scripts section.
 
-![870_3_image-20220217002324-3](../../../../../../static/img/product_docs/policypak/policypak/troubleshooting/browserrouter/chrome/870_3_image-20220217002324-3.webp)
+![870_3_image-20220217002324-3](/img/product_docs/policypak/policypak/troubleshooting/browserrouter/chrome/870_3_image-20220217002324-3.webp)
 
 **Step 4 –** At next `GPUPDATE `or when`/FORCE`switch is used the respective folders for the
 extension will be removed.
@@ -87,10 +87,10 @@ below.
 
 Microsoft Edge:
 
-![870_4_image-20220217002324-4](../../../../../../static/img/product_docs/policypak/policypak/troubleshooting/browserrouter/chrome/870_4_image-20220217002324-4.webp)
+![870_4_image-20220217002324-4](/img/product_docs/policypak/policypak/troubleshooting/browserrouter/chrome/870_4_image-20220217002324-4.webp)
 
 Google Chrome:
 
-![870_5_image-20220217002324-5](../../../../../../static/img/product_docs/policypak/policypak/troubleshooting/browserrouter/chrome/870_5_image-20220217002324-5.webp)
+![870_5_image-20220217002324-5](/img/product_docs/policypak/policypak/troubleshooting/browserrouter/chrome/870_5_image-20220217002324-5.webp)
 
 Use this Endpoint Policy Manager Scripts Manager policy to mass deploy for any future issues.

@@ -2,7 +2,7 @@
 
 The core components for Netwrix Access Analyzer (formerly Enterprise Auditor) are the Access
 Analyzer Console server, SQL Server, and Access Information Center. See the
-[Requirements](../overview.md) topic for the core requirements.
+[Requirements](/docs/accessanalyzer/12.0/requirements/overview.md) topic for the core requirements.
 
 In addition to these, integration with either the Netwrix Activity Monitor or the Netwrix Threat
 Prevention is required for event activity data to be scanned. See the
@@ -13,8 +13,8 @@ for installation requirements and information on collecting activity data.
 
 See the following topics for target environment requirements:
 
-- [Target Exchange Servers Requirements, Permissions, and Ports](../target/exchange.md)
-- [Target Exchange Online Requirements, Permissions, and Ports](../target/exchangeonline.md)
+- [Target Exchange Servers Requirements, Permissions, and Ports](/docs/accessanalyzer/12.0/requirements/target/exchange.md)
+- [Target Exchange Online Requirements, Permissions, and Ports](/docs/accessanalyzer/12.0/requirements/target/exchangeonline.md)
 
 ## Exchange Solution Requirements on the Access Analyzer Console
 
@@ -48,7 +48,7 @@ the Exchange Solution:
 
 - Outlook should not be installed
 - StealthAUDIT MAPI CDO installed (for MAPI- based data collectors). See the
-  [StealthAUDIT MAPI CDO Installation](../../stealthaudit/install_guides/mapi_cdo_install/stealthaudit_mapi_cdo_installation.md)
+  [StealthAUDIT MAPI CDO Installation](/docs/accessanalyzer/12.0/stealthaudit/install_guides/mapi_cdo_install/stealthaudit_mapi_cdo_installation.md)
   topic for additional information.
 - Exchange MAPI CDO installed (for MAPI- based data collectors)
 - For targeting Exchange 2010 – Exchange Management Tools 2010 installed on the Access Analyzer

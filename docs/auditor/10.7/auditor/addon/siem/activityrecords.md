@@ -4,7 +4,7 @@
 
 To export only important audit data, that is, the Activity Records that led to the alert triggering,
 configure the alert response action, providing path to
-**Netwrix_Auditor_Alerts_to_Event_Log_Add-on.ps1**. See the [SIEM](overview.md) topic for additional
+**Netwrix_Auditor_Alerts_to_Event_Log_Add-on.ps1**. See the [SIEM](/docs/auditor/10.7/auditor/addon/siem/overview.md) topic for additional
 information.
 
 ## Export Activity Records in Bulk
@@ -42,7 +42,7 @@ while. Ensure the script execution completed successfully. The Netwrix Auditor I
 will be created and filled with events.
 
 By default, the Netwrix Auditor Integration event log size is set to _1GB_, and retention is set to
-_"Overwrite events as needed"_. See the [Integration Event Log Fields](integrationeventlog.md) topic
+_"Overwrite events as needed"_. See the [Integration Event Log Fields](/docs/auditor/10.7/auditor/addon/siem/integrationeventlog.md) topic
 for additional information.
 
 Event records with more than 30,000 characters length will be trimmed.

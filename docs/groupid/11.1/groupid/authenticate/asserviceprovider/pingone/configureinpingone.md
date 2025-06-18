@@ -84,7 +84,7 @@ You must define users in PingOne. These users are authenticated in Directory Man
 an attribute, as discussed in the Attribute Mapping in PingOne topic.
 
 Only the users you define here can authenticate on the Directory Manager portal _Wizard_ using
-PingOne. See the [Sign In Using PingOne](signin.md) topic.
+PingOne. See the [Sign In Using PingOne](/docs/groupid/11.1/groupid/authenticate/asserviceprovider/pingone/signin.md) topic.
 
 **To configure users:**
 

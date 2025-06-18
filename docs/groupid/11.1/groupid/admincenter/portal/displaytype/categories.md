@@ -6,7 +6,7 @@ A field can be anything from a text box to a drop-down list to a check box, depe
 type linked to it. You must also link each field to a schema attribute in the directory. Users can
 use the fields in a portal to add and update values for the respective attributes.
 
-See the [Design a Portal with Display Types](overview.md) topic fr additional information.
+See the [Design a Portal with Display Types](/docs/groupid/11.1/groupid/admincenter/portal/displaytype/overview.md) topic fr additional information.
 
 ## Schema Attributes and Display Types
 
@@ -45,7 +45,7 @@ You can link a basic display type to a schema attribute straight away. Basic dis
     Use it to collect and display a single value for an attribute. You can link it directly to a
     schema attribute. However, to apply additional rules to it, such as assigning a default value or
     implementing a regular expression to validate the data entered, you must create a custom display
-    type from this basic type. See the [Text Box Display Type](textbox.md) topic.
+    type from this basic type. See the [Text Box Display Type](/docs/groupid/11.1/groupid/admincenter/portal/displaytype/textbox.md) topic.
 
 - **Password**
 
@@ -58,7 +58,7 @@ You can link a basic display type to a schema attribute straight away. Basic dis
     Use it for schema attributes that can accept multiple string values.  
      A multi-value display type is displayed in the portal as:
 
-    ![multi-value_display_type](../../../../../../../static/img/product_docs/groupid/groupid/admincenter/portal/displaytype/multi-value_display_type.webp)
+    ![multi-value_display_type](/img/product_docs/groupid/groupid/admincenter/portal/displaytype/multi-value_display_type.webp)
 
     Clicking **Add** launches a dialog box where users can add new values.
 
@@ -74,7 +74,7 @@ You can link a basic display type to a schema attribute straight away. Basic dis
     this display type appears as a button that launches the **Find** dialog box, where users can
     search and select objects. It is as:
 
-    ![dn](../../../../../../../static/img/product_docs/groupid/groupid/admincenter/portal/displaytype/dn.webp)
+    ![dn](/img/product_docs/groupid/groupid/admincenter/portal/displaytype/dn.webp)
 
 - **DNs**
 
@@ -82,7 +82,7 @@ You can link a basic display type to a schema attribute straight away. Basic dis
     Directory attributes _member_ and _memberOf_. The user interface element for this display type
     is as follows:
 
-    ![multi-value_display_type](../../../../../../../static/img/product_docs/groupid/groupid/admincenter/portal/displaytype/multi-value_display_type.webp)
+    ![multi-value_display_type](/img/product_docs/groupid/groupid/admincenter/portal/displaytype/multi-value_display_type.webp)
 
     Clicking **Add** displays a quick search field along with an option to launch the **Find**
     dialog box where users can search and select the desired objects.
@@ -114,7 +114,7 @@ Some applications of display type are:
   phone number and fax number.
 
 The default portal template uses several predefined custom display types. See the
-[Define Custom Display Types](custom.md) topic to add more display types as needed.
+[Define Custom Display Types](/docs/groupid/11.1/groupid/admincenter/portal/displaytype/custom.md) topic to add more display types as needed.
 
 The **Custom Display Types** page in a portal’s design settings lists all the predefined custom
 display types and any custom display types you may have added.

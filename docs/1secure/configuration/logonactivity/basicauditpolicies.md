@@ -11,7 +11,7 @@ description: "Learn how to configure basic domain audit policies for tracking us
 
 Basic local audit policies allow tracking changes to user accounts and groups and identifying
 originating workstations. You can configure advanced audit policies for the same purpose too. See
-[Configure Advanced Audit Policies](advancedaudit.md)
+[Configure Advanced Audit Policies](/docs/1secure/configuration/logonactivity/advancedaudit.md)
 
 **Step 1 –** Open the **Group Policy Management** console on any domain controller in the target
 domain: navigate to Start > Windows Administrative Tools (Windows Server 2016 and higher) or
@@ -33,7 +33,7 @@ node on the left and navigate to **Policies** > **Windows Settings** > **Securit
 | Audit account logon events | _"Success"_ and _"Failure"_ |
 | Audit system events        | _"Success"_                 |
 
-![manualconfig_nla_auditpolicies2016](../../../../static/img/product_docs/1secure/configuration/logonactivity/manualconfig_nla_auditpolicies2016.webp)
+![manualconfig_nla_auditpolicies2016](/img/product_docs/1secure/configuration/logonactivity/manualconfig_nla_auditpolicies2016.webp)
 
 **Step 5 –** Set the Audit system events policy to **Success**.
 

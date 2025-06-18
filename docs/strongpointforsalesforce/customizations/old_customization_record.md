@@ -1,7 +1,7 @@
 # Old Customization Record
 
 This topic details the old-style customization record. Refer to
-[Understanding the Customization Record](understanding_customization_record.md) for the updated
+[Understanding the Customization Record](/docs/strongpointforsalesforce/customizations/understanding_customization_record.md) for the updated
 Platform Governance for Salesforce Lightning customization record.
 
 The customization detail contains general information about the customization record. The
@@ -27,7 +27,7 @@ Customization record fields include:
 - **Details**: Tabs to access details about the customization. Tabs include **Metadata**,
   **Improvement**, **Permissions**, **Control**, **DRD**, **Raw Data** and **Related Lists**.
 
-![customization_record](../../../static/img/product_docs/strongpointforsalesforce/customizations/customization_record.webp)
+![customization_record](/img/product_docs/strongpointforsalesforce/customizations/customization_record.webp)
 
 ## Customization Record Tabs
 
@@ -56,7 +56,7 @@ These are the tabs inside a customization record:
 The metadata tab provides the metadata information about the customization, including:
 
 - **Date Last Used**: date the customization was last used. Refer to
-  [DLU](../clean_up/date_last_used.md) for more information.
+  [DLU](/docs/strongpointforsalesforce/clean_up/date_last_used.md) for more information.
 - **Data type**: data type of the custom field.
 - **Last Modified Date**: last date the customization was modified.
 - **Active**: indicates whether the customization is a active.
@@ -105,7 +105,7 @@ The Health Settings tab is located on the customization pages for the Salesforce
 as Session Settings, Password Policies and Certificates. This example shows the **Health Settings**
 tab for the **PasswordPolicies** customization.
 
-![Example of the PasswordPolicies Health Settings tab](../../../static/img/product_docs/strongpointforsalesforce/customizations/health_settings_tab_example.webp)
+![Example of the PasswordPolicies Health Settings tab](/img/product_docs/strongpointforsalesforce/customizations/health_settings_tab_example.webp)
 
 ### Data Classification
 
@@ -140,7 +140,7 @@ on a financial report.
 
 ### DRD
 
-Dependency Relationship Diagram ([DRD](../tools/viewing_drd.md)) displays objects, customizations
+Dependency Relationship Diagram ([DRD](/docs/strongpointforsalesforce/tools/viewing_drd.md)) displays objects, customizations
 and their relationships and dependencies.
 
 ### Raw Data

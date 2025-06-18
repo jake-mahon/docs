@@ -12,7 +12,7 @@ transfer or terminate a direct report.
 
 NOTE: A user can also manage his/her direct reports and change his/her primary manager while
 validating his/her profile in the portal. See the
-[Validate your profile](../../manage/validateprofile.md) topic.
+[Validate your profile](/docs/groupid/11.1/groupid/portal/user/manage/validateprofile.md) topic.
 
 ## Dotted line management
 
@@ -26,14 +26,14 @@ changed. If the primary manager rejects the request, the user remains with the m
 
 NOTE: This is the default flow for the ‘Workflow to Change Manager’ workflow, with the primary
 manager set as the approver. If the administrator disables the workflow or changes the workflow
-approver, the flow changes accordingly. See the [Requests](../../../request/overview.md) topic.
+approver, the flow changes accordingly. See the [Requests](/docs/groupid/11.1/groupid/portal/request/overview.md) topic.
 
 Manager
 
 Displays the contact/user's primary manager, if specified. The user/contact can change his or her
 primary manager.
 
-Click the ellipsis button to launch the [Find Dialog Box](../../../search/find.md), where you can
+Click the ellipsis button to launch the [Find Dialog Box](/docs/groupid/11.1/groupid/portal/search/find.md), where you can
 search and select a user to set as the manager.
 
 Reports
@@ -42,7 +42,7 @@ Displays a list of objects that report directly to this user or contact. These m
 groups and contacts.
 
 - To add a direct report, click **Add**. Enter a search string to locate the object to add as a
-  direct report, or click **Advance** to use the [Find Dialog Box](../../../search/find.md) for
+  direct report, or click **Advance** to use the [Find Dialog Box](/docs/groupid/11.1/groupid/portal/search/find.md) for
   performing a search.
 - To transfer a direct report, select it and click **Transfer**.
 
@@ -53,7 +53,7 @@ groups and contacts.
 
     NOTE: This is the default flow for the ‘Workflow to Transfer a User’ workflow, with the direct
     report set as the approver. If the administrator disables the workflow or changes the approver,
-    the flow changes accordingly. See the [Requests](../../../request/overview.md) topic.
+    the flow changes accordingly. See the [Requests](/docs/groupid/11.1/groupid/portal/request/overview.md) topic.
 
 - To terminate a direct report, select it and click **Terminate**.
 
@@ -65,7 +65,7 @@ groups and contacts.
 Additional Manager
 
 To add a manager, click **Add**. Enter a search string to locate the object to add as an additional
-manager, or click **Advance** to use the [Find Dialog Box](../../../search/find.md) for performing a
+manager, or click **Advance** to use the [Find Dialog Box](/docs/groupid/11.1/groupid/portal/search/find.md) for performing a
 search.
 
 To remove an additional manager, select it and click **Remove**.

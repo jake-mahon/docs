@@ -18,8 +18,8 @@ available as separate clients.
 Follow the steps to generate the consumer URL for a Directory Managerclient.
 
 Step 1 – In Authenticate, click the **Generate URL's** tab. The Generate URL's page is displayed.  
-See the [Launch Authenticate](../../overview.md#launch-authenticate) section of the
-[Authenticate](../../overview.md) topic for additional information.
+See the [Launch Authenticate](/docs/groupid/11.1/groupid/authenticate/overview.md#launch-authenticate) section of the
+[Authenticate](/docs/groupid/11.1/groupid/authenticate/overview.md) topic for additional information.
 
 Step 2 – In the Select Client to Generate Consumer URL drop-down list, select a Directory Manager
 client to set up AD FS with it. Let’s suppose you select the Directory Manager portal named
@@ -37,8 +37,8 @@ Manager client configured with AD FS, and update it in AD FS.
 Follow the steps to generate Entity ID/Audience URL.
 
 Step 1 – In Authenticate, click the **SAML Providers** tab. The SAML Providers page is displayed.  
-See the [Launch Authenticate](../../overview.md#launch-authenticate) section of the
-[Authenticate](../../overview.md) topic for additional information.
+See the [Launch Authenticate](/docs/groupid/11.1/groupid/authenticate/overview.md#launch-authenticate) section of the
+[Authenticate](/docs/groupid/11.1/groupid/authenticate/overview.md) topic for additional information.
 
 Step 2 – Click **New Provider**.
 

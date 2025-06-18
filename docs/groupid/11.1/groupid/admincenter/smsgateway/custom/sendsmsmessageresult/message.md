@@ -1,7 +1,7 @@
 # SendSmsMessageResult.Message
 
-Returns the [ShortMessage class](../shortmessage/class.md) object processed by the
-[ISmsGateway.SendShortMessage](../sendshortmessage.md) method.
+Returns the [ShortMessage class](/docs/groupid/11.1/groupid/admincenter/smsgateway/custom/shortmessage/class.md) object processed by the
+[ISmsGateway.SendShortMessage](/docs/groupid/11.1/groupid/admincenter/smsgateway/custom/sendshortmessage.md) method.
 
 **Namespace:** Imanami.GroupID.DataTransferObjects.DataContracts.SMS
 
@@ -21,6 +21,6 @@ Object containing elements of the text message.
 
 See Also
 
-- [SendSmsMessageResult class](class.md)
-- [ShortMessage class](../shortmessage/class.md)
-- [Implement and Deploy a Custom SMS Gateway](../../implementcustom.md)
+- [SendSmsMessageResult class](/docs/groupid/11.1/groupid/admincenter/smsgateway/custom/sendsmsmessageresult/class.md)
+- [ShortMessage class](/docs/groupid/11.1/groupid/admincenter/smsgateway/custom/shortmessage/class.md)
+- [Implement and Deploy a Custom SMS Gateway](/docs/groupid/11.1/groupid/admincenter/smsgateway/implementcustom.md)

@@ -6,7 +6,7 @@ them.
 
 Each option has an associated “**i**” which describes the nature of the setting.
 
-![core_thumb_0_0](../../../../../../static/img/product_docs/dataclassification/ndc/configuration/core_thumb_0_0.webp)
+![core_thumb_0_0](/img/product_docs/dataclassification/ndc/configuration/core_thumb_0_0.webp)
 
 **NOTE:** To view a complete list of the **Config** settings, click the Details tab. The list also
 has an indication of the values that have been changed from the default setting.

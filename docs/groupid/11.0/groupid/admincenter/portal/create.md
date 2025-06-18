@@ -12,7 +12,7 @@ A portal is hosted on a web server, with native IIS, remote IIS, and Docker as t
 servers.
 
 - **IIS deployment** - Your GroupID portal is hosted within a site in IIS. To launch IIS,
-  see [Opening IIS Manager](<https://learn.microsoft.com/en-us/previous-versions/iis/6.0-sdk/ms525920(v=vs.90)>).
+  see [Opening IIS Manager](https://learn.microsoft.com/en-us/previous-versions/iis/6.0-sdk/ms525920(v=vs.90)).
 
     ![in_iis](/img/versioned_docs/groupid_11.0/groupid/admincenter/portal/in_iis.webp)
 

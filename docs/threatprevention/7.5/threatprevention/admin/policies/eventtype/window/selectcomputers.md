@@ -3,7 +3,7 @@
 The Select Computer window provides a list of available computers. Selected objects are added to the
 filter from where you clicked the **Add** (+) button to open this window.
 
-![Select Computer Window](../../../../../../../../static/img/product_docs/threatprevention/threatprevention/admin/agents/deploy/selectcomputers.webp)
+![Select Computer Window](/img/product_docs/threatprevention/threatprevention/admin/agents/deploy/selectcomputers.webp)
 
 - Select either Browse Mode or Search Mode.
 
@@ -12,12 +12,12 @@ filter from where you clicked the **Add** (+) button to open this window.
   right.
 - Then click **OK** to close the window.
 
-See the [Selection Windows](overview.md) topic for additional information.
+See the [Selection Windows](/docs/threatprevention/7.5/threatprevention/admin/policies/eventtype/window/overview.md) topic for additional information.
 
 The selection is displayed in the appropriate box of the Hosts (from) filter or the Hosts (to)
 filter.
 
 **NOTE:** If the selected Agent is not configured to "Enable DNS Host Name Resolution," then the
 Results pane may not include the DNS name or IP address for computer identification purposes. See
-the [DNS Host Name Resolution ](../../../agents/deploy/setoptions.md#dns-host-name-resolution)topic
+the [DNS Host Name Resolution ](/docs/threatprevention/7.5/threatprevention/admin/agents/deploy/setoptions.md#dns-host-name-resolution)topic
 for additional information.

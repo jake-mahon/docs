@@ -10,4 +10,4 @@ Here is the general process:
 We then create licensing keys, one for each domain.
 
 See
-[How to install UNIVERSAL licenses for NEW Customers (via GPO, SCCM or MDM)](../../video/license/installuniversal.md)
+[How to install UNIVERSAL licenses for NEW Customers (via GPO, SCCM or MDM)](/docs/policypak/policypak/video/license/installuniversal.md)

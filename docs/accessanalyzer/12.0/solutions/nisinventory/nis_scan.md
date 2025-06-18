@@ -11,7 +11,7 @@ The NIS Scan Job uses the NIS Data Collector for the following query:
 **CAUTION:** This query must be modified. See the
 [Configure the NIS Scan Query](#configure-the-nis-scan-query) topic for additional information.
 
-![Query for the NIS Scan Job](../../../../../static/img/product_docs/accessanalyzer/solutions/nisinventory/nisscanquery.webp)
+![Query for the NIS Scan Job](/img/product_docs/accessanalyzer/solutions/nisinventory/nisscanquery.webp)
 
 - Inventory Scan – Targets a NIS server to collect inventory data for user and group objects
 
@@ -33,18 +33,18 @@ opens.
 **CAUTION:** Do not make changes to other wizard pages as they have been pre-configured for the
 purpose of this job.
 
-![NIS Settings page](../../../../../static/img/product_docs/activitymonitor/config/dellpowerscale/settings.webp)
+![NIS Settings page](/img/product_docs/activitymonitor/config/dellpowerscale/settings.webp)
 
 **Step 4 –** On the NIS Settings page, enter the **NIS Domain Name** for the targeted NIS domain.
 This step is required prior to running this query. See the
-[NIS: NIS Settings](../../admin/datacollector/nis/settings.md) topic for additional information.
+[NIS: NIS Settings](/docs/accessanalyzer/12.0/admin/datacollector/nis/settings.md) topic for additional information.
 
 - Optional: Test the connection to the domain using the Sample NIS Server section of the page
 
-![SID Mappings page](../../../../../static/img/product_docs/accessanalyzer/admin/datacollector/nis/sidmappings.webp)
+![SID Mappings page](/img/product_docs/accessanalyzer/admin/datacollector/nis/sidmappings.webp)
 
 **Step 5 –** On the SID Mappings page, you can add multiple SID mapping entries. See the
-[NIS: SID Mappings](../../admin/datacollector/nis/sidmappings.md) topic for additional information.
+[NIS: SID Mappings](/docs/accessanalyzer/12.0/admin/datacollector/nis/sidmappings.md) topic for additional information.
 
 **Step 6 –** Navigate to the Summary page. Click **Finish** to save any setting modifications or
 click **Cancel** if no changes were made. Then click **OK** to close the Query Properties window.
@@ -59,7 +59,7 @@ and select **Analysis**.
 **CAUTION:** Most of these analysis tasks are preconfigured and should not be modified or
 deselected. There is one that is deselected by default, as it is for troubleshooting purposes.
 
-![Analysis Tasks for the NIS Scan Job](../../../../../static/img/product_docs/accessanalyzer/solutions/nisinventory/nisscananalysis.webp)
+![Analysis Tasks for the NIS Scan Job](/img/product_docs/accessanalyzer/solutions/nisinventory/nisscananalysis.webp)
 
 The following analysis tasks are selected by default:
 

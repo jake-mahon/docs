@@ -6,13 +6,13 @@ or computers. In this example, we want the collection named **Control Panel Sett
 Users** to apply only to the East Sales Users. To do this, right-click the collection and then
 select **Change Item Level Targeting**, as seen below.
 
-![about_policypak_admin_templates_11](../../../../static/img/product_docs/policypak/policypak/adminstrativetemplates/about_policypak_admin_templates_11.webp)
+![about_policypak_admin_templates_11](/img/product_docs/policypak/policypak/adminstrativetemplates/about_policypak_admin_templates_11.webp)
 
 The **Edit Item Level Targeting** menu item brings up the **Targeting Editor**. You can select any
 combination of characteristics you want to test for. The interface is similar to that used in Group
 Policy Preferences' Item-Level Targeting.
 
-![about_policypak_admin_templates_12](../../../../static/img/product_docs/policypak/policypak/adminstrativetemplates/about_policypak_admin_templates_12.webp)
+![about_policypak_admin_templates_12](/img/product_docs/policypak/policypak/adminstrativetemplates/about_policypak_admin_templates_12.webp)
 
 You can apply one or more targeting items to a policy, which enables targeting items to be joined
 logically. You can also add targeting collections, which group together targeting items in much the
@@ -38,20 +38,20 @@ Below are some real-world examples of how you can use Item-Level Targeting.
 - IP range — You can specify different settings for various IP ranges, like different settings for
   the home office and each field office
 
-![about_policypak_admin_templates_13](../../../../static/img/product_docs/policypak/policypak/adminstrativetemplates/about_policypak_admin_templates_13.webp)
+![about_policypak_admin_templates_13](/img/product_docs/policypak/policypak/adminstrativetemplates/about_policypak_admin_templates_13.webp)
 
 After you are done editing, close the editor. In the GP Management editor, you see that the
 collection's icon has changed to orange, which shows that it now has Item-Level Targeting on the
 whole collection. In other words, none of the items in the collection will apply unless the
 Item-Level Targeting on the collection evaluates to **True**.
 
-![about_policypak_admin_templates_14](../../../../static/img/product_docs/policypak/policypak/adminstrativetemplates/about_policypak_admin_templates_14.webp)
+![about_policypak_admin_templates_14](/img/product_docs/policypak/policypak/adminstrativetemplates/about_policypak_admin_templates_14.webp)
 
 You can also see that Item-Level Targeting is set on the collection when you click a higher node,
 where you'll see the name of the collection and a column designating if Item-Level Targeting is on
 (**Yes**) or off (**No**).
 
-![about_policypak_admin_templates_15](../../../../static/img/product_docs/policypak/policypak/adminstrativetemplates/about_policypak_admin_templates_15.webp)
+![about_policypak_admin_templates_15](/img/product_docs/policypak/policypak/adminstrativetemplates/about_policypak_admin_templates_15.webp)
 
 You may also right-click any policy directive and select **Edit Item Level Targeting**.
 
@@ -62,7 +62,7 @@ or not you want Item-Level Targeting applied to the following settings:
 - Only apply the **Prevent Changing theme** policy setting (within the collection) to users on
   laptops
 
-![about_policypak_admin_templates_16](../../../../static/img/product_docs/policypak/policypak/adminstrativetemplates/about_policypak_admin_templates_16.webp)
+![about_policypak_admin_templates_16](/img/product_docs/policypak/policypak/adminstrativetemplates/about_policypak_admin_templates_16.webp)
 
 If you put Item-Level Targeting on a specific policy setting, you can see the icon's color change to
 orange, and the field **Item Level Targeting** will change to **Yes**.

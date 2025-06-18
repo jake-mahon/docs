@@ -28,7 +28,7 @@ On the Risk Assessment dashboard, you can check:
 
 _Remember,_ each organization has a risk profile associated with it and the risk analysis of an
 organization is based on the metrics included in the risk profile. See the
-[Manage Risk Profiles](index.md) topic for additional information.
+[Manage Risk Profiles](/docs/1secure/admin/riskprofiles/index.md) topic for additional information.
 
 ## View the Risk Assessment Dashboard
 
@@ -43,7 +43,7 @@ of the following:
   page, then click the Risk Assessment card. It opens the Risk Assessment dashboard that displays
   risk-related data for the organization.
 
-![Risk Assessment Dashboard](../../../../static/img/product_docs/1secure/admin/riskprofiles/riskassessmentdashboard.webp)
+![Risk Assessment Dashboard](/img/product_docs/1secure/admin/riskprofiles/riskassessmentdashboard.webp)
 
 ## Filter Data
 
@@ -148,7 +148,7 @@ The Risk Assessment dashboard provides a list of risks detected for an organizat
 applied filters.
 
 _Remember,_ each risk is basically a metric included in the risk profile associated with the
-organization. See the [Risk Metrics List](metrics_list.md) topic for details on each of the risk
+organization. See the [Risk Metrics List](/docs/1secure/admin/riskprofiles/metrics_list.md) topic for details on each of the risk
 metrics.
 
 Risks are categorized into two types:
@@ -162,7 +162,7 @@ Risks are categorized into two types:
 In the Risks list, the information displayed for each risk varies depending on its type – enumerated
 or Boolean.
 
-![Risks List](../../../../static/img/product_docs/1secure/admin/riskprofiles/dashboard_riskslist.webp)
+![Risks List](/img/product_docs/1secure/admin/riskprofiles/dashboard_riskslist.webp)
 
 Enumerated Risks
 
@@ -200,7 +200,7 @@ left pane.
 
 Enumerated Risk Details
 
-![Enumerated Risk Details pane](../../../../static/img/product_docs/1secure/admin/riskprofiles/dashboard_riskdetails.webp)
+![Enumerated Risk Details pane](/img/product_docs/1secure/admin/riskprofiles/dashboard_riskdetails.webp)
 
 The left pane displays the following details for an enumerated risk:
 
@@ -231,17 +231,17 @@ The left pane displays the following details for an enumerated risk:
 - NIST Regulations – Displays the NIST regulation names associated with the risk metric
 - Open Report – Click this button to navigate to the State In Time Risk Reports page, where you can
   view a detailed report for that risk metric. See the
-  [State In Time Risks Reports](../searchandreports/stateintime.md) topic for additional
+  [State In Time Risks Reports](/docs/1secure/admin/searchandreports/stateintime.md) topic for additional
   information.
 - Remediate – On clicking this button, the Remediate `<risk name>` pane is displayed, which provides
   AI-generated step-by-step guidance to help you remediate the risk.
 - Edit risk settings – Click this link to navigate to the Risk Profiles page where you can manage
-  the risk profiles. See the [Manage Risk Profiles](index.md) topic for additional
+  the risk profiles. See the [Manage Risk Profiles](/docs/1secure/admin/riskprofiles/index.md) topic for additional
   information.
 
 Boolean Risk Details
 
-![Boolean Risk Details pane](../../../../static/img/product_docs/1secure/admin/riskprofiles/booleanriskdetails.webp)
+![Boolean Risk Details pane](/img/product_docs/1secure/admin/riskprofiles/booleanriskdetails.webp)
 
 The left pane displays the following details for a Boolean risk:
 
@@ -257,7 +257,7 @@ The left pane displays the following details for a Boolean risk:
 - Remediate – On clicking this button, the Remediate `<risk name>` pane is displayed, which provides
   AI-generated step-by-step guidance to help you remediate the risk.
 - Edit risk settings – Click this link to navigate to the Risk Profiles page where you can manage
-  the risk profiles. See the [Manage Risk Profiles](index.md) topic for additional
+  the risk profiles. See the [Manage Risk Profiles](/docs/1secure/admin/riskprofiles/index.md) topic for additional
   information.
 
 ## Export a Risk Assessment Report for an Organization
@@ -274,7 +274,7 @@ one if needed.
 **Step 2 –** Click **Export** in the upper right corner; the Exporting Risk Assessment pane is
 displayed.
 
-![Exporting Risk Assessment pane](../../../../static/img/product_docs/1secure/admin/riskprofiles/export_riskassessment.webp)
+![Exporting Risk Assessment pane](/img/product_docs/1secure/admin/riskprofiles/export_riskassessment.webp)
 
 **Step 3 –** In the **File Name** field, specify the name of the file the intended recipient(s) will
 receive. The default name is: Risk Assessment Report for `<organization name>` `<Export date>`. For
@@ -296,7 +296,7 @@ report. By default, this option is selected.
 You can subscribe to the Risk Assessment report of a managed organization. A subscription is a
 regularly-scheduled report, which you can send to specific email addresses automatically, or upload
 it to a designated folder in SharePoint Online. See the
-[Subscriptions](../searchandreports/subscriptions.md) topic for additional information.
+[Subscriptions](/docs/1secure/admin/searchandreports/subscriptions.md) topic for additional information.
 
 Follow the steps to subscribe to a Risk Assessment report for an organization.
 
@@ -306,6 +306,6 @@ one if needed.
 
 **Step 2 –** Click **Subscribe** in the upper right corner; the Subscription to
 `<organization name>` Risk Assessment pane is displayed. See the
-[Add a Subscription](../searchandreports/subscriptions.md#add-a-subscription) topic for additional
+[Add a Subscription](/docs/1secure/admin/searchandreports/subscriptions.md#add-a-subscription) topic for additional
 information on adding a subscription, starting at Step 6. Remember to select the Include Low Risks
 check box if you want to include low risks in the report.

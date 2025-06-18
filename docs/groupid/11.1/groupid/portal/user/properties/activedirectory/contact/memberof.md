@@ -12,7 +12,7 @@ Add
 Click it to add the contact to the memberships of one or more groups.
 
 Enter a search string to locate the required group, or click **Advance** to use the
-[Find Dialog Box](../../../../search/find.md) for performing a search.
+[Find Dialog Box](/docs/groupid/11.1/groupid/portal/search/find.md) for performing a search.
 
 Remove
 

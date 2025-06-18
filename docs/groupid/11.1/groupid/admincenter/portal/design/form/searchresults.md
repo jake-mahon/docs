@@ -45,7 +45,7 @@ The following table lists the search results pages that you can customize:
 9. In the **Tooltip** box, enter the text to appear when a user hovers the mouse over the field.
 10. In the **Display Type** drop-down list, select the display type to use to render this field in
     the portal. Available options are limited to textbox, DN, DNs, and Link, which are basic display
-    Types. See the [Basic Display Types](../../displaytype/categories.md#basic-display-types) topic.
+    Types. See the [Basic Display Types](/docs/groupid/11.1/groupid/admincenter/portal/displaytype/categories.md#basic-display-types) topic.
 11. Click **OK.** The field is displayed in the **Fields** area on the **Edit Search Results**
     pane.  
     To rearrange the fields on the search form, click the equal sign for a field and drag to change
@@ -92,7 +92,7 @@ You can change the following for a field on a search results page:
 
 **See Also**
 
-- [Design a Portal with Display Types](../../displaytype/overview.md)
-- [Display Type Categories](../../displaytype/categories.md)
+- [Design a Portal with Display Types](/docs/groupid/11.1/groupid/admincenter/portal/displaytype/overview.md)
+- [Display Type Categories](/docs/groupid/11.1/groupid/admincenter/portal/displaytype/categories.md)
 - Customize Search Results
-- [Customize Quick Search](quicksearch.md)
+- [Customize Quick Search](/docs/groupid/11.1/groupid/admincenter/portal/design/form/quicksearch.md)

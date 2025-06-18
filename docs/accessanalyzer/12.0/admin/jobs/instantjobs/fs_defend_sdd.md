@@ -2,13 +2,13 @@
 
 The FS_DEFEND_SDD Job exports sensitive data matches collected by the File System Solution Sensitive
 Data Discovery Auditing jobs to Threat Manager. It is available through the Instant Job Library
-under the File System library. See the [Instant Job Wizard](overview.md) topic for instructions to
+under the File System library. See the [Instant Job Wizard](/docs/accessanalyzer/12.0/admin/jobs/instantjobs/overview.md) topic for instructions to
 add this instant job into the Jobs tree.
 
 For installing the job, select **Local host** on the Hosts page of the Instant Job Wizard. Then set
 the host list according to the following information.
 
-![FS_DEFEND_SDD job in the Jobs tree](../../../../../../static/img/product_docs/accessanalyzer/admin/hostmanagement/jobstree.webp)
+![FS_DEFEND_SDD job in the Jobs tree](/img/product_docs/accessanalyzer/admin/hostmanagement/jobstree.webp)
 
 Runtime Details:
 
@@ -34,7 +34,7 @@ Runtime Details:
     - Threat Manager target host is the Threat Manager host name with port, [HOST]:8080
     - Format – [HOST]:8080
     - Assign host list at the **FS_DEFEND_SDD** > **Configure** > **Hosts** (see the
-      [Hosts Node](../job/configure/hosts.md) topic for additional information)
+      [Hosts Node](/docs/accessanalyzer/12.0/admin/jobs/job/configure/hosts.md) topic for additional information)
 - Scheduling – This job should be scheduled to run as desired
 - History Retention – Not supported and should be turned off
 - Multi-console Support – Not supported
@@ -48,7 +48,7 @@ Request Action Module to send the data to Threat Manager.
 Navigate to the **Jobs** > **FS_DEFEND_SDD** > **Configure** node and select **Analysis** to view
 the analysis tasks.
 
-![Default Analysis tasks for the job](../../../../../../static/img/product_docs/accessanalyzer/admin/jobs/instantjobs/analysistasks.webp)
+![Default Analysis tasks for the job](/img/product_docs/accessanalyzer/admin/jobs/instantjobs/analysistasks.webp)
 
 The default analysis tasks are:
 
@@ -62,7 +62,7 @@ actions.
 
 **CAUTION:** This action is enabled by default.
 
-![Default Action Tasks for the Job](../../../../../../static/img/product_docs/accessanalyzer/admin/jobs/instantjobs/actiontasks.webp)
+![Default Action Tasks for the Job](/img/product_docs/accessanalyzer/admin/jobs/instantjobs/actiontasks.webp)
 
 The default action is:
 
@@ -83,4 +83,4 @@ Create a Connection Profile and set the following information on the User Creden
   selected at the **Settings** > **Application** node
 - Access Token – Copy and paste the Threat Manager App Token
 
-See the [Application](../../settings/application/overview.md) topic for additional information.
+See the [Application](/docs/accessanalyzer/12.0/admin/settings/application/overview.md) topic for additional information.

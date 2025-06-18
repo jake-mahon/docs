@@ -9,7 +9,7 @@ group, all its members are considered as owners.
 - The **Owner** box displays your name as the primary owner of the group.
 
     To change the primary owner, click **Browse** next to the **Owner** box to launch the
-    [Find Dialog Box](../../../search/find.md), where you can search and select a primary owner.
+    [Find Dialog Box](/docs/groupid/11.1/groupid/portal/search/find.md), where you can search and select a primary owner.
 
 - If the administrator has not enforced the selection of a primary owner (see Role policies), you
   can also remove the primary owner. Click the **Remove** button next to the **Owner** box to remove
@@ -17,11 +17,11 @@ group, all its members are considered as owners.
 - To specify additional owner(s) for the group, click **Add**.
 
     Enter a search string to locate the object to add as an additional owner, or click **Advance**
-    to use the [Find Dialog Box](../../../search/find.md) for performing a search.
+    to use the [Find Dialog Box](/docs/groupid/11.1/groupid/portal/search/find.md) for performing a search.
 
 - You can also specify additional owners for the group using an external file. Click **Import** to
   launch the **Import Additional Owners** wizard for importing additional owners. See
-  [Import Additional Owners](../../properties/importadditionalowners.md) for further information and
+  [Import Additional Owners](/docs/groupid/11.1/groupid/portal/group/properties/importadditionalowners.md) for further information and
   instructions.
 - To remove an object from the additional owners list, select it and click **Remove**.
 

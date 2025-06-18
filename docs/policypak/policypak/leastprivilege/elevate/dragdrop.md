@@ -4,7 +4,7 @@ When Netwrix Endpoint Policy Manager (formerly PolicyPak) elevates a process it 
 Integrity level.
 
 **NOTE:** To learn more about this topic please see the Microsoft article on
-[What is the Windows Integrity Mechanism?](<https://learn.microsoft.com/en-us/previous-versions/dotnet/articles/bb625957(v=msdn.10)?redirectedfrom=MSDN>)
+[What is the Windows Integrity Mechanism?](https://learn.microsoft.com/en-us/previous-versions/dotnet/articles/bb625957(v=msdn.10)?redirectedfrom=MSDN)
 
 As such, a newly elevated process may not be able to communicate with a normally running process.
 
@@ -15,6 +15,6 @@ token**.
 This enables you to change the Integrity level. You'll want to try Medium-High first, then fall back
 to Medium or Low, stopping at the first one which works.
 
-![402_1_q3-img-1](../../../../../static/img/product_docs/policypak/policypak/leastprivilege/elevate/402_1_q3-img-1.webp)
+![402_1_q3-img-1](/img/product_docs/policypak/policypak/leastprivilege/elevate/402_1_q3-img-1.webp)
 
-![402_2_q3-img-2](../../../../../static/img/product_docs/policypak/policypak/leastprivilege/elevate/402_2_q3-img-2.webp)
+![402_2_q3-img-2](/img/product_docs/policypak/policypak/leastprivilege/elevate/402_2_q3-img-2.webp)

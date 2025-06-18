@@ -14,18 +14,18 @@ NetSuite to make it easy to access the Netwrix support site at
 [https://www.netwrix.com/support.html](https://www.netwrix.com/support.html)
 
 - Click **Submit a Support Case** from the
-  [Strongpoint Overview Dashboard](../navigating_strongpoint.md) in your Production or Sandbox
+  [Strongpoint Overview Dashboard](/docs/strongpointfornetsuite/navigating_strongpoint.md) in your Production or Sandbox
   accounts.
 - Open **Strongpoint** > **Strongpoint Support** > **Contact Support** to open the Netwrix Support
   site.
 
-![Contact Strongpoint Support](../../../static/img/product_docs/strongpointfornetsuite/troubleshooting/report_bug.webp)
+![Contact Strongpoint Support](/img/product_docs/strongpointfornetsuite/troubleshooting/report_bug.webp)
 
 ## Comment on a User Guide Topic
 
 There is a comment button at the end of each topic, enabling you to easily send feedback to Support
 on the topic.
 
-![Click to leave feedback on the current topic.](../../../static/img/product_docs/strongpointfornetsuite/troubleshooting/comment_button.webp)
+![Click to leave feedback on the current topic.](/img/product_docs/strongpointfornetsuite/troubleshooting/comment_button.webp)
 
-![Enter your feedback on the current topic.](../../../static/img/product_docs/strongpointfornetsuite/troubleshooting/comment_form.webp)
+![Enter your feedback on the current topic.](/img/product_docs/strongpointfornetsuite/troubleshooting/comment_form.webp)

@@ -8,22 +8,22 @@ to install the FSAA service on the targeted proxy servers.
 **Step 1 –** Run the `FileSystemProxy.exe` executable. The Netwrix Access Analyzer (formerly
 Enterprise Auditor) File System Scanning Proxy Setup wizard opens.
 
-![File System Proxy Setup Wizard Welcome page](../../../../../static/img/product_docs/activitymonitor/activitymonitor/install/welcome.webp)
+![File System Proxy Setup Wizard Welcome page](/img/product_docs/activitymonitor/activitymonitor/install/welcome.webp)
 
 **Step 2 –** On the Welcome page, click **Next** to begin the installation.
 
-![File System Proxy Setup Wizard End-User License Agreement page](../../../../../static/img/product_docs/activitymonitor/activitymonitor/install/eula.webp)
+![File System Proxy Setup Wizard End-User License Agreement page](/img/product_docs/activitymonitor/activitymonitor/install/eula.webp)
 
 **Step 3 –** On the End-User License Agreement page, select the **I accept the terms in the License
 Agreement** checkbox and click **Next**.
 
-![File System Proxy Setup Wizard Destination Folder page](../../../../../static/img/product_docs/accessanalyzer/install/filesystemproxy/destination.webp)
+![File System Proxy Setup Wizard Destination Folder page](/img/product_docs/accessanalyzer/install/filesystemproxy/destination.webp)
 
 **Step 4 –** On the Destination Folder page, click **Next** to install to the default folder or
 click **Change** to select a different location. Clicking **Change** opens the Change destination
 folder page.
 
-![File System Proxy Setup Wizard Change destination folder page](../../../../../static/img/product_docs/activitymonitor/activitymonitor/install/agent/changedestination.webp)
+![File System Proxy Setup Wizard Change destination folder page](/img/product_docs/activitymonitor/activitymonitor/install/agent/changedestination.webp)
 
 On the Change destination folder page, choose a different destination folder for the installation.
 
@@ -36,7 +36,7 @@ On the Change destination folder page, choose a different destination folder for
 Click **OK** to save changes or click **Cancel** to return to the Destination Folder page without
 saving.
 
-![File System Proxy Setup Wizard Configure Service page](../../../../../static/img/product_docs/accessanalyzer/install/filesystemproxy/configureservice.webp)
+![File System Proxy Setup Wizard Configure Service page](/img/product_docs/accessanalyzer/install/filesystemproxy/configureservice.webp)
 
 **Step 5 –** On the Configure Service page, configure the credential to run the service using the
 radio buttons. Then, click **Next**.
@@ -47,11 +47,11 @@ radio buttons. Then, click **Next**.
   Administrator on the proxy server and have the Log on as a service privilege in the proxy server's
   Local Security Policy.
 
-![File System Proxy Setup Wizard Ready to install page](../../../../../static/img/product_docs/activitymonitor/activitymonitor/install/ready.webp)
+![File System Proxy Setup Wizard Ready to install page](/img/product_docs/activitymonitor/activitymonitor/install/ready.webp)
 
 **Step 6 –** On the Ready to install page, click **Install** to start installation.
 
-![File System Proxy Setup Wizard Completed page](../../../../../static/img/product_docs/activitymonitor/activitymonitor/install/complete.webp)
+![File System Proxy Setup Wizard Completed page](/img/product_docs/activitymonitor/activitymonitor/install/complete.webp)
 
 **Step 7 –** When the installation completes, click **Finish** to exit the wizard.
 
@@ -60,7 +60,7 @@ of proxy servers should also be created in Netwrix Access Analyzer (formerly Ent
 
 Once the File System Proxy Service has been installed on any proxy server, it is necessary to
 configure the File System Solution certificate exchange method for Proxy Mode as a Service. See the
-[FSAA Applet Certificate Management Overview](../../admin/datacollector/fsaa/certificatemanagement.md)
+[FSAA Applet Certificate Management Overview](/docs/accessanalyzer/12.0/admin/datacollector/fsaa/certificatemanagement.md)
 topic for additional information.
 
 ## Custom Parameters for File System Proxy Service
@@ -85,13 +85,13 @@ HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\services\StealthAUDITFSAA\ImagePath
 
 Follow the steps to configure these service parameters.
 
-![Netwrix Enterprise Auditor FSAA Proxy Scanner service in the Services Management Console](../../../../../static/img/product_docs/accessanalyzer/install/filesystemproxy/service.webp)
+![Netwrix Enterprise Auditor FSAA Proxy Scanner service in the Services Management Console](/img/product_docs/accessanalyzer/install/filesystemproxy/service.webp)
 
 **Step 1 –** After installing the File System Proxy Service, open Services Management Console
 (`services.msc`). To stop the service, right-click on the Netwrix Access Analyzer (formerly
 Enterprise Auditor) FSAA Proxy Scanner service and select **Stop**.
 
-![File System Proxy ImagePath registry key in the Registry Editor](../../../../../static/img/product_docs/accessanalyzer/install/filesystemproxy/regedit.webp)
+![File System Proxy ImagePath registry key in the Registry Editor](/img/product_docs/accessanalyzer/install/filesystemproxy/regedit.webp)
 
 **Step 2 –** Open Registry Editor (`regedit`) and navigate to the following registry key:
 
@@ -117,14 +117,14 @@ during installation according to the installation directory location selected.
 **Step 5 –** Return to the Services Management Console and start the Netwrix Access Analyzer
 (formerly Enterprise Auditor) FSAA Proxy Scanner service. Close the Services Management Console.
 
-![Port number on File System Access Auditor Data Collector Wizard Applet Settings page](../../../../../static/img/product_docs/accessanalyzer/install/filesystemproxy/dcwizardportnumber.webp)
+![Port number on File System Access Auditor Data Collector Wizard Applet Settings page](/img/product_docs/accessanalyzer/install/filesystemproxy/dcwizardportnumber.webp)
 
 **Step 6 –** In the Access Analyzer Console, navigate to the **FileSystem** > **0.Collection** >
 **[Job]** > **Configure** > **Queries** node and open the File System Access Auditor Data Collector
 Wizard. On the Applet Settings wizard page, change the **Port number** to the custom port.
 
 **NOTE:** See the
-[File System Data Collection Configuration for Proxy as a Service](configuredatacollector.md)
+[File System Data Collection Configuration for Proxy as a Service](/docs/accessanalyzer/12.0/install/filesystemproxy/configuredatacollector.md)
 section for additional configurations required to run scans in proxy mode as a service.
 
 **Step 7 –** Repeat the previous step for each of the **FileSystem** > **0.Collection** jobs to

@@ -3,7 +3,7 @@
 The Minimum Age rule stops users from quickly cycling through a series of passwords in order to
 evade the History and Similarity rules. This rule can only be enforced by domain policies.
 
-![Minimum age rule](../../../../../static/img/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/administration/agemin.webp)
+![Minimum age rule](/img/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/administration/agemin.webp)
 
 Select the **Age (Min)** check box to enable the Minimum Age rule.
 
@@ -13,7 +13,7 @@ Select the number of days before a user can change their password.
 password; they must wait until the required number of days has elapsed. The Password Policy Client
 consequently handles rejections by this rule differently to other rules. Rather than displaying the
 usual message components, the Password Policy Client only displays the Minimum Age rule's Reason
-insert. See [Password Policy Client](password_policy_client.md) topic for additional information.
+insert. See [Password Policy Client](/docs/passwordpolicyenforcer/11.0/passwordpolicyenforcer/administration/password_policy_client.md) topic for additional information.
 The Rejection Reason template, macros, and inserts from other rules are not displayed when a
 password change is denied by the Minimum Age rule.
 

@@ -15,24 +15,24 @@ away?
 route into another website. This setting is not supported, and as such you might have to remove it
 from all routes.
 
-![814_1_img-01](../../../../../static/img/product_docs/policypak/policypak/troubleshooting/browserrouter/814_1_img-01.webp)
+![814_1_img-01](/img/product_docs/policypak/policypak/troubleshooting/browserrouter/814_1_img-01.webp)
 
 **Step 4 –** After steps 1, 2 and 3… if you can REPRODUCE using latest CSE... then and only then..
 send us log files (user and computer) via Sharefile (do not attach.)
 
-[What must I send to Endpoint Policy Manager support in order to get the FASTEST support?](../fastsupport.md)
+[What must I send to Endpoint Policy Manager support in order to get the FASTEST support?](/docs/policypak/policypak/troubleshooting/fastsupport.md)
 
 **Step 5 –** AFTER you install the latest CSE, you might want to attempt to disable the in-Browser
 Extensions for the affected browser, but keep Browser Router operating. Here's how to do that (see
 screenshot below.)
 
-![814_3_img-02](../../../../../static/img/product_docs/policypak/policypak/troubleshooting/browserrouter/814_3_img-02.webp)
+![814_3_img-02](/img/product_docs/policypak/policypak/troubleshooting/browserrouter/814_3_img-02.webp)
 
 **Step 6 –** AFTER you install the latest CSE and the in-browser Extension, and are STILL able to
 reproduce the issue, you could kill JUST the affected component like Browser Router. Use these
 instructions:
 
-[What is the Chrome Extension ID for all the published versions of Endpoint Policy Manager Browser Router Client Side Extension?](clientsideextension/chromeextensionid.md)
+[What is the Chrome Extension ID for all the published versions of Endpoint Policy Manager Browser Router Client Side Extension?](/docs/policypak/policypak/troubleshooting/browserrouter/clientsideextension/chromeextensionid.md)
 (KB shows killing PPPreferences, but in this case you would kill Endpoint Policy Manager Browser
 Router.)
 

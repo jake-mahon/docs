@@ -53,7 +53,7 @@ Example 2:
 The command below creates a new mail-enabled, domain-local, semi-private, security group in the
 container specified by the **OrganizationalUnit** parameter, using the credentials set in the
 **$Credentials** environment variable. See the
-[Set the $Credentials Environment Variable](../parameters/setthecredential.md) topic for setting
+[Set the $Credentials Environment Variable](/docs/groupid/11.1/groupid/managementshell/parameters/setthecredential.md) topic for setting
 credentials in an environment variable.
 
 ```

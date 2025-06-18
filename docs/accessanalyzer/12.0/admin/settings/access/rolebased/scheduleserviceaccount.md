@@ -58,7 +58,7 @@ Do not choose the **Use local System account to schedule tasks** option. This ac
 the appropriate rights to apply locks on jobs. Therefore, it does not work in conjunction with Role
 Based Access.
 
-See the [Schedule](../../schedule.md) topic for additional instructions on configuring the Schedule
+See the [Schedule](/docs/accessanalyzer/12.0/admin/settings/schedule.md) topic for additional instructions on configuring the Schedule
 Service Account.
 
 _Remember,_ these credentials must be for a user with local Administrator privileges or rights to

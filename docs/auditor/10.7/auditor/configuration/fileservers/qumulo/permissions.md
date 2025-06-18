@@ -7,7 +7,7 @@ Then you will provide this account in the monitoring plan wizard (or monitored i
 Starting with version 9.96, you can use group Managed Service Accounts (gMSA) as data collecting
 accounts.
 
-See the [Use Group Managed Service Account (gMSA)](../../../requirements/gmsa.md) topic and the
+See the [Use Group Managed Service Account (gMSA)](/docs/auditor/10.7/auditor/requirements/gmsa.md) topic and the
 [Group Managed Service Accounts Overview](https://docs.microsoft.com/en-us/windows-server/security/group-managed-service-accounts/group-managed-service-accounts-overview)
 Microsoft article for additional information.
 

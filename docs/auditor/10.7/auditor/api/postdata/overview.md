@@ -7,7 +7,7 @@ Database. Data is sent in the request body and must be formatted according to XM
 compatible with Netwrix-provided XSD schemas.
 
 In Netwrix Auditor 9.0, Netwrix has updated API schemas. Make sure to check and update your custom
-scripts and add-ons. [Compatibility Notice](../compatibility.md)
+scripts and add-ons. [Compatibility Notice](/docs/auditor/10.7/auditor/api/compatibility.md)
 
 The file must be formatted in accordance with XML standard. The following symbols must be replaced
 with corresponding XML entities: & (ampersand), " (double quotes), ' (single quotes), < (less than),
@@ -28,6 +28,6 @@ preceded with the \ character: " (double quotes), / (slash), \ (backslash). E.g.
 
 Review the following for additional information:
 
-- [Continuation Mark](continuationmark.md)
-- [Search Parameters](searchparameters.md)
-- [Activity Records](activityrecords.md)
+- [Continuation Mark](/docs/auditor/10.7/auditor/api/postdata/continuationmark.md)
+- [Search Parameters](/docs/auditor/10.7/auditor/api/postdata/searchparameters.md)
+- [Activity Records](/docs/auditor/10.7/auditor/api/postdata/activityrecords.md)

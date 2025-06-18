@@ -23,19 +23,19 @@ Follow the steps to create a custom threat.
 
 - Select an existing investigation, or
 - Save a new one. See the
-  [New Investigation Page](../administration/investigations/newinvestigation.md) for additional
+  [New Investigation Page](/docs/threatmanager/3.0/threatmanager/administration/investigations/newinvestigation.md) for additional
   information.
 
 **Step 5 –** In the selected investigation, click the **Create Threat** option.
 
-![CreateThreat Option](../../../../../static/img/product_docs/threatmanager/threatmanager/threats/createthreat.webp)
+![CreateThreat Option](/img/product_docs/threatmanager/threatmanager/threats/createthreat.webp)
 
 The Custom Threat page opens.
 
-![Create Threat Dialog Box](../../../../../static/img/product_docs/threatmanager/threatmanager/threats/createthreatdialogbox.webp)
+![Create Threat Dialog Box](/img/product_docs/threatmanager/threatmanager/threats/createthreatdialogbox.webp)
 
 **Step 6 –** Severity – The relative severity level, or risk level, of the threat. See the
-[Fine Tune a Threat](../administration/configuration/threatconfiguration.md) topic for additional
+[Fine Tune a Threat](/docs/threatmanager/3.0/threatmanager/administration/configuration/threatconfiguration.md) topic for additional
 information.
 
 **Step 7 –** Description – Description of the threat.
@@ -45,7 +45,7 @@ associate the user that committed the threat.
 
 **Step 8 –** Definition – The threat definition is a detailed explanation of the threat providing
 insight into why the incident is a potential risk. It appears at the top of the Threat Details page.
-See the [Threat Details Page](../administration/threatdetails/overview.md) topic for additional
+See the [Threat Details Page](/docs/threatmanager/3.0/threatmanager/administration/threatdetails/overview.md) topic for additional
 information.
 
 **Step 9 –** The Custom Threat page has two tabs for threat configuration:
@@ -74,7 +74,7 @@ Exclusions Tab
 The Exclusions tab lists existing exclusions for the threat. Exclusions allow rule-based definitions
 to be defined for specific criteria to be excluded from threat detection for the threat type.
 
-![Threat Exclusion Tab](../../../../../static/img/product_docs/threatmanager/threatmanager/threats/exclusionstab.webp)
+![Threat Exclusion Tab](/img/product_docs/threatmanager/threatmanager/threats/exclusionstab.webp)
 
 **Step 10 –** Click **Save**. The investigation is now saved as a custom threat.
 

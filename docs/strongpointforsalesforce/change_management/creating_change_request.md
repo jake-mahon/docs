@@ -4,16 +4,16 @@ Change requests are the method to plan, analyze, track and approve changes. You 
 types of Change Requests to match the change you want to manage. Here are two options:
 
 - **Customization** Change request is used for Metadata changes, such as
-  [Customizations](../customizations/customizations_overview.md).
+  [Customizations](/docs/strongpointforsalesforce/customizations/customizations_overview.md).
 - **Data Record** - Change request is used for Data Changes to Revenue Cloud/
-  [CPQ](enhanced_cpq_support.md).
+  [CPQ](/docs/strongpointforsalesforce/change_management/enhanced_cpq_support.md).
 
 Data Record Change Requests are only available with an Enterprise Compliance license.
 
 1. Open the **Change Requests** tab.
 2. Click **New**
 
-    ![New Change Request](../../../static/img/product_docs/strongpointforsalesforce/change_management/change_request_new_light.webp)
+    ![New Change Request](/img/product_docs/strongpointforsalesforce/change_management/change_request_new_light.webp)
 
 3. Enter information as needed.
 
@@ -28,7 +28,7 @@ Data Record Change Requests are only available with an Enterprise Compliance lic
 
 4. **Save** the **Change Request**. A confirmation is displayed when the change request is saved.
 
-    ![Continue with the Change Request](../../../static/img/product_docs/strongpointforsalesforce/change_management/change_request_new2_light.webp)
+    ![Continue with the Change Request](/img/product_docs/strongpointforsalesforce/change_management/change_request_new2_light.webp)
 
 5. Add or change information as needed:
 
@@ -45,16 +45,16 @@ Data Record Change Requests are only available with an Enterprise Compliance lic
 6. Expand the **Customizations** section. **Customizations** is selected by default. Click
    **Customizations** to access the **Add/Remove** function.
 
-    ![Expand the Customizations section](../../../static/img/product_docs/strongpointforsalesforce/change_management/change_request_new3_light.webp)
+    ![Expand the Customizations section](/img/product_docs/strongpointforsalesforce/change_management/change_request_new3_light.webp)
 
     - Click **Add/Remove** to add existing Customizations to the change request.
 
-        ![Add an existing customization to a change request](../../../static/img/product_docs/strongpointforsalesforce/change_management/change_request_new4_light.webp)
+        ![Add an existing customization to a change request](/img/product_docs/strongpointforsalesforce/change_management/change_request_new4_light.webp)
 
         - Enter filters to search for existing customizations. For this example, the **Metadata
           Type** is set to **CustomField**. The matching customizations are displayed.
 
-            ![Enter filters to search for customizations](../../../static/img/product_docs/strongpointforsalesforce/change_management/change_request_new5_light.webp)
+            ![Enter filters to search for customizations](/img/product_docs/strongpointforsalesforce/change_management/change_request_new5_light.webp)
 
     - Select one or more customizations. Use **Search**, **First**, **Previous**, **Next** and
       **Last** to navigate through the list if needed.
@@ -67,11 +67,11 @@ Data Record Change Requests are only available with an Enterprise Compliance lic
 
     - Click **Add/Remove**.
 
-        ![Add Proposed Customizations to the Change Request](../../../static/img/product_docs/strongpointforsalesforce/change_management/change_request_new6_light.webp)
+        ![Add Proposed Customizations to the Change Request](/img/product_docs/strongpointforsalesforce/change_management/change_request_new6_light.webp)
 
     - Click **+** (Add).
 
-        ![Add the information for the proposed customization](../../../static/img/product_docs/strongpointforsalesforce/change_management/change_request_new7_light.webp)
+        ![Add the information for the proposed customization](/img/product_docs/strongpointforsalesforce/change_management/change_request_new7_light.webp)
 
     - Enter the **API Name** and **Salesforce Metadata Type**. Click **+** to add additional
       proposed customizations. Can be used in conjunction with customizations that already exist.
@@ -84,7 +84,7 @@ Data Record Change Requests are only available with an Enterprise Compliance lic
 
 Your change request is created.
 
-![Your Change Request is created](../../../static/img/product_docs/strongpointforsalesforce/change_management/change_request_new8_light.webp)
+![Your Change Request is created](/img/product_docs/strongpointforsalesforce/change_management/change_request_new8_light.webp)
 
 ## Preparing the Change Request for Approval
 
@@ -102,7 +102,7 @@ Modified**, **Cannot Be Safely Deleted or Modified**, and **Inactive Customizati
 Here is an example of items on the **Cannot Be Safely Deleted or Modified** tab. The Customizations
 and Impacted Customizations are links to each customization record.
 
-![Impact Analysis Cannot Be Safely Deleted or Modified tab](../../../static/img/product_docs/strongpointforsalesforce/change_management/change_request_new_impact_analysis.webp)
+![Impact Analysis Cannot Be Safely Deleted or Modified tab](/img/product_docs/strongpointforsalesforce/change_management/change_request_new_impact_analysis.webp)
 
 Use the **Edit** button to return to the change request and make any required modifications.
 
@@ -111,7 +111,7 @@ Use the **Edit** button to return to the change request and make any required mo
 Open the **DRD** tab to review the dependency diagram. Use the **Edit** button to return to the
 change request and make any required modifications.
 
-![Open the DRD tab to view the dependency diagram](../../../static/img/product_docs/strongpointforsalesforce/change_management/change_request_drd.webp)
+![Open the DRD tab to view the dependency diagram](/img/product_docs/strongpointforsalesforce/change_management/change_request_drd.webp)
 
 ### Send the Change Request for Approval
 
@@ -121,7 +121,7 @@ add additional approvers, approver notes and begin the approval process.
 1. Click **Edit** to modify the change request.
 2. Expand the **Approval** section.
 
-    ![Expand Approval section](../../../static/img/product_docs/strongpointforsalesforce/change_management/change_request_new_approvals.webp)
+    ![Expand Approval section](/img/product_docs/strongpointforsalesforce/change_management/change_request_new_approvals.webp)
 
 3. Add the approval information:
 
@@ -136,7 +136,7 @@ add additional approvers, approver notes and begin the approval process.
 
 4. Click **Save**.
 
-    ![Change Request Pending Approval](../../../static/img/product_docs/strongpointforsalesforce/change_management/change_request_new_send_approval.webp)
+    ![Change Request Pending Approval](/img/product_docs/strongpointforsalesforce/change_management/change_request_new_send_approval.webp)
 
 5. Click **Submit for Approval** to start the process. Approval notifications are sent to the
    approvers.

@@ -16,7 +16,7 @@ the service account to assume the configured role in each target account.
 
 **Step 4 –** Add Role to Access Analyzer. The Role created in the scanning account will need to be
 added to the **1-AWS_OrgScan**, **2-AWS_S3Scan**, and **3-AWS_IAMScan** job query configurations.
-See the [AWS: Login Roles](../../../admin/datacollector/aws/loginroles.md) topic for additional
+See the [AWS: Login Roles](/docs/accessanalyzer/12.0/admin/datacollector/aws/loginroles.md) topic for additional
 information.
 
 Once these steps are completed, the role must be added to the AWS queries within Access Analyzer.
@@ -28,12 +28,12 @@ The following steps will need to be completed in each target account.
 **Step 1 –** Sign into the Identity and Access Management Console (IAM) as an administrator of the
 Trusting account.
 
-![Create policy in Identity and Access Management (IAM) Console](../../../../../../static/img/product_docs/accessanalyzer/requirements/target/config/policies.webp)
+![Create policy in Identity and Access Management (IAM) Console](/img/product_docs/accessanalyzer/requirements/target/config/policies.webp)
 
 **Step 2 –** Browse to the Identity and Access Management (IAM) Console. Navigate to **Policies**
 and click **Create policy**.
 
-![JSON tab in the Policy editor](../../../../../../static/img/product_docs/accessanalyzer/requirements/target/config/jsontabpolicies.webp)
+![JSON tab in the Policy editor](/img/product_docs/accessanalyzer/requirements/target/config/jsontabpolicies.webp)
 
 **Step 3 –** Select the **JSON** tab.
 
@@ -75,14 +75,14 @@ and click **Create policy**.
 
 **Step 6 –** Enter a name for the policy in the **Name** box.
 
-![Review policy page](../../../../../../static/img/product_docs/accessanalyzer/requirements/target/config/reviewpolicy.webp)
+![Review policy page](/img/product_docs/accessanalyzer/requirements/target/config/reviewpolicy.webp)
 
 **Step 7 –** Click **Create Policy**.
 
 **NOTE:** If the designated scanning account is not in Root (Master Account), create a second policy
 in the Master Account with the following JSON definition:
 
-[Copy](<javascript:void(0);>)
+[Copy](javascript:void(0);)
 
 ```
 {
@@ -116,18 +116,18 @@ scanning account as well.
 **Step 1 –** Sign into the Identity and Access Management Console (IAM) as an administrator of the
 target account.
 
-![Create role in Identity and Access Management (IAM) Console](../../../../../../static/img/product_docs/accessanalyzer/requirements/target/config/roles.webp)
+![Create role in Identity and Access Management (IAM) Console](/img/product_docs/accessanalyzer/requirements/target/config/roles.webp)
 
 **Step 2 –** Navigate to **Access management** > **Roles** and click **Create role**.
 
-![Create role page Another AWS account option](../../../../../../static/img/product_docs/accessanalyzer/requirements/target/config/createrole.webp)
+![Create role page Another AWS account option](/img/product_docs/accessanalyzer/requirements/target/config/createrole.webp)
 
 **Step 3 –** Select the **Another AWS Account** option and add the Account ID of the scanning
 account that will be leveraged within Access Analyzer.
 
 **Step 4 –** Click **Next: Permissions**.
 
-![Add policies to role](../../../../../../static/img/product_docs/accessanalyzer/requirements/target/config/policiesadd.webp)
+![Add policies to role](/img/product_docs/accessanalyzer/requirements/target/config/policiesadd.webp)
 
 **Step 5 –** Add the policy or policies created earlier in this topic to this role.
 
@@ -135,7 +135,7 @@ account that will be leveraged within Access Analyzer.
 
 **Step 7 –** Click **Next: Review**.
 
-![Create role Review page](../../../../../../static/img/product_docs/accessanalyzer/requirements/target/config/reviewrole.webp)
+![Create role Review page](/img/product_docs/accessanalyzer/requirements/target/config/reviewrole.webp)
 
 **Step 8 –** Enter a **Role name**.
 
@@ -152,11 +152,11 @@ roles configured in each target account.
 **Step 1 –** Sign into the Identity and Access Management Console (IAM) as an administrator of the
 scanning account.
 
-![Create policy in Identity and Access Management (IAM) Console](../../../../../../static/img/product_docs/accessanalyzer/requirements/target/config/policies.webp)
+![Create policy in Identity and Access Management (IAM) Console](/img/product_docs/accessanalyzer/requirements/target/config/policies.webp)
 
 **Step 2 –** Navigate to **Access Management** > **Policies** and click **Create policy**.
 
-![JSON tab in the Policy editor](../../../../../../static/img/product_docs/accessanalyzer/requirements/target/config/jsontabaccount.webp)
+![JSON tab in the Policy editor](/img/product_docs/accessanalyzer/requirements/target/config/jsontabaccount.webp)
 
 **Step 3 –** Select the **JSON** tab.
 
@@ -191,7 +191,7 @@ different in each account, then a policy will need to be created for each distin
 
 **Step 5 –** Click **Review Policy**.
 
-![Review policy page Name field](../../../../../../static/img/product_docs/accessanalyzer/requirements/target/config/reviewpolicyaccount.webp)
+![Review policy page Name field](/img/product_docs/accessanalyzer/requirements/target/config/reviewpolicyaccount.webp)
 
 **Step 6 –** Enter a **Policy Name**.
 
@@ -201,11 +201,11 @@ different in each account, then a policy will need to be created for each distin
 
 **Step 9 –** Under **Access Management** > **Users**, select the service account user.
 
-![Security credentials tab](../../../../../../static/img/product_docs/accessanalyzer/requirements/target/config/securitycredentials.webp)
+![Security credentials tab](/img/product_docs/accessanalyzer/requirements/target/config/securitycredentials.webp)
 
 **Step 10 –** In the Security credentials tab, click **Create access key**. Make sure to note the
 Access key ID and Secret access key which need to be input into Access Analyzer.
 
 You can now create the Connection Profile for the AWS Solution. See the
-[Amazon Web Services for User Credentials](../../../admin/settings/connection/profile/aws.md) topic
+[Amazon Web Services for User Credentials](/docs/accessanalyzer/12.0/admin/settings/connection/profile/aws.md) topic
 for additional information.

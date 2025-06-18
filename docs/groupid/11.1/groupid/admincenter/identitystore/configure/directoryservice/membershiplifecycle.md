@@ -44,7 +44,7 @@ Some main features of the membership lifecycle policies are:
   be effective.
 - **Notifications** - Directory Manager generates notifications when users are temporarily added or
   removed from a group’s membership. See the
-  [Manage Membership Life Cycle Notifications](../smtpserver.md#manage-membership-life-cycle-notifications)
+  [Manage Membership Life Cycle Notifications](/docs/groupid/11.1/groupid/admincenter/identitystore/configure/smtpserver.md#manage-membership-life-cycle-notifications)
   topic.
 
 What do you want to do?
@@ -268,4 +268,4 @@ To delete a policy:
 
 **See Also**
 
-- [Membership Life Cycle Schedule](../../../schedule/membershiplifecycle.md)
+- [Membership Life Cycle Schedule](/docs/groupid/11.1/groupid/admincenter/schedule/membershiplifecycle.md)

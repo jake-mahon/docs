@@ -30,7 +30,7 @@ Step 2 – On the Data Sources page, click the tab for the provider the data sou
 
 Step 3 – Click **Edit** for a data source. The **Update Data Source** page is displayed, that
 differs by provider. Refer to the steps for creating the respective data source in the
-[Create a Data Source](create.md) topic to modify the info.
+[Create a Data Source](/docs/groupid/11.1/groupid/admincenter/datasource/create.md) topic to modify the info.
 
 Step 4 – Click **Update Data Source**.
 

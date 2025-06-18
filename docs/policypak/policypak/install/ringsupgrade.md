@@ -5,13 +5,13 @@ patches. As such, Netwrix Endpoint Policy Manager (formerly PolicyPak) also stro
 do the same.
 
 Please familiarize yourself with this article before continuing:
-[Using Rings to Test and Update the Endpoint Policy Manager Client-Side Extension and/or Cloud Client (And How to Stay Supported)](rings.md)
+[Using Rings to Test and Update the Endpoint Policy Manager Client-Side Extension and/or Cloud Client (And How to Stay Supported)](/docs/policypak/policypak/install/rings.md)
 
 If you wish to configure or fine-tune the CSE auto-download process, you may create a file called
 `update.config`, which must be placed within the Endpoint Policy Manager Central Storage CSE folder,
 as seen below.
 
-![640_1_hfkb-1128-img-01](../../../../static/img/product_docs/policypak/policypak/install/640_1_hfkb-1128-img-01.webp)
+![640_1_hfkb-1128-img-01](/img/product_docs/policypak/policypak/install/640_1_hfkb-1128-img-01.webp)
 
 This file can be manually created in order to configure or fine-tune the CSE auto-download process.
 This file should be created in the Endpoint Policy Manager Central Storage CSE folder, and the file
@@ -140,12 +140,12 @@ The share for reports should have the following permissions:
 2. Domain Computers should be set to Read, Write, Create (but not Delete)
 3. NTFS permissions should allow for All.
 
-![640_2_hfkb-1128-img-02](../../../../static/img/product_docs/policypak/policypak/install/640_2_hfkb-1128-img-02.webp)
+![640_2_hfkb-1128-img-02](/img/product_docs/policypak/policypak/install/640_2_hfkb-1128-img-02.webp)
 
 NTFS permissions should be set up as shown below, where Domain Computers has all rights, except Full
 Control.
 
-![640_3_hfkb-1128-img-03_950x424](../../../../static/img/product_docs/policypak/policypak/install/640_3_hfkb-1128-img-03_950x424.webp)
+![640_3_hfkb-1128-img-03_950x424](/img/product_docs/policypak/policypak/install/640_3_hfkb-1128-img-03_950x424.webp)
 
 This way, domain computers (that is, endpoints) will be able to write reports but not delete reports
 that they create. When enabled and configured, inside the share, you'll see log files named in the
@@ -182,7 +182,7 @@ Endpoint Policy Manager products have four command-line commands to help with up
 **NOTE:** This is necessary only when the` update.config` file's enabled variable is set to "False"
 and, thus, not performing any updates normally.
 
-![640_4_hfkb-1128-img-04](../../../../static/img/product_docs/policypak/policypak/install/640_4_hfkb-1128-img-04.webp)
+![640_4_hfkb-1128-img-04](/img/product_docs/policypak/policypak/install/640_4_hfkb-1128-img-04.webp)
 
 ## Troubleshooting CSE Automatic Updates
 

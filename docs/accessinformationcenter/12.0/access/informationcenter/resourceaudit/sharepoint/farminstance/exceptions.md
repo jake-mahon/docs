@@ -3,7 +3,7 @@
 The Exceptions report at the on-premise farm and online instance levels provides a list of
 exceptions that were found within the selected farm/instance. This report includes a Details table.
 
-![Exceptions report at the on-premise farm and online instance levels](../../../../../../../../static/img/product_docs/accessinformationcenter/access/informationcenter/resourceaudit/sharepoint/farminstance/instanceexceptions.webp)
+![Exceptions report at the on-premise farm and online instance levels](/img/product_docs/accessinformationcenter/access/informationcenter/resourceaudit/sharepoint/farminstance/instanceexceptions.webp)
 
 An exception is defined as a problem or risk to data governance security. Exceptions include open
 access and permissions granted to stale or disabled users. This report will be blank if no

@@ -8,7 +8,7 @@ the monitored item settings).
 The account used for data collection must meet the following requirements on the target servers:
 
 - The "Manage auditing and security log" policy must be defined for this account. See the
-  [Permissions for Active Directory Auditing](../activedirectory/permissions.md) topic for
+  [Permissions for Active Directory Auditing](/docs/auditor/10.7/auditor/configuration/activedirectory/permissions.md) topic for
   additional information.
 - This account must be a member of the local Administrators group.
 

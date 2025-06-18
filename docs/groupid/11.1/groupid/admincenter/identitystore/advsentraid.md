@@ -7,7 +7,7 @@ store in Directory Manager.
 
 Microsoft Entra ID offers limited options to define a default expiry policy for groups whereas
 Directory Manager provides a comprehensive Group Life Cycle policy. See the
-[Manage Group Lifecycle Settings](configure/directoryservice/grouplifecycle.md) topic.
+[Manage Group Lifecycle Settings](/docs/groupid/11.1/groupid/admincenter/identitystore/configure/directoryservice/grouplifecycle.md) topic.
 
 Since these policies are not integrated; you should either useMicrosoft Entra ID’s or Directory
 Manager’s expiration policy settings for groups in an Microsoft Entra ID identity store.
@@ -23,7 +23,7 @@ policy in Directory Manager. As a result:
 
 To use the same prefixes for group names as are defined in Microsoft Entra Admin Center, the
 administrator should define the same prefixes in Directory Manager. See the
-[Group Name Prefixes](configure/directoryservice/prefixes.md) topic.
+[Group Name Prefixes](/docs/groupid/11.1/groupid/admincenter/identitystore/configure/directoryservice/prefixes.md) topic.
 
 ## Dynamic Groups in Microsoft Entra ID
 
@@ -73,7 +73,7 @@ discretion.
     - The nesting option in the _Out of Bounds_ settings for an identity store will empty the
       membership of a Smart Group of the Office 365 type, because nested groups cannot be added as
       group members. See the
-      [Manage Group Membership Settings](configure/directoryservice/outofbounds.md)topic.
+      [Manage Group Membership Settings](/docs/groupid/11.1/groupid/admincenter/identitystore/configure/directoryservice/outofbounds.md)topic.
     - A Dynasty cannot be created as an Office 365 group.
 
 - You can create and manage distribution groups.

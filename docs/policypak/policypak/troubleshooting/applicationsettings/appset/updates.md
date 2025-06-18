@@ -6,7 +6,7 @@ needed. We typically update Java and Firefox and Internet Explorer right away as
 Most of the time, AppSets doesn't need any updates at all, even if the application's version number
 changes
 
-[AppSets: How will I know that an existing AppSet will work with the version of the application I have today (and tomorrow)?](versionsupport.md)
+[AppSets: How will I know that an existing AppSet will work with the version of the application I have today (and tomorrow)?](/docs/policypak/policypak/troubleshooting/applicationsettings/appset/versionsupport.md)
 
 Other times, an AppSet does need to be updated or fully re-made depending on the app (rare).
 

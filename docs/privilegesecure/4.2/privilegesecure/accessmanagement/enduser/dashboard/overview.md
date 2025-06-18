@@ -3,17 +3,17 @@
 The Dashboard interface displays an overview of activity sessions, users, resources and related
 information.
 
-![Dashboard Interface](../../../../../../../static/img/product_docs/privilegesecure/privilegesecure/accessmanagement/enduser/activedashboarduser.webp)
+![Dashboard Interface](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/enduser/activedashboarduser.webp)
 
 The overview section shows information for the following:
 
-- Active Dashboard – Shows all currently active sessions. See the [Active Dashboard](active.md)
+- Active Dashboard – Shows all currently active sessions. See the [Active Dashboard](/docs/privilegesecure/4.2/privilegesecure/accessmanagement/enduser/dashboard/active.md)
   topic for additional information.
-- Scheduled Dashboard – Shows all scheduled sessions. See the [Scheduled Dashboard](scheduled.md)
+- Scheduled Dashboard – Shows all scheduled sessions. See the [Scheduled Dashboard](/docs/privilegesecure/4.2/privilegesecure/accessmanagement/enduser/dashboard/scheduled.md)
   topic for additional information.
 - Approvals Dashboard – Shows sessions waiting for approval. See the
-  [Approvals Dashboard](approvals.md) topic for additional information.
-- Historical Dashboard – Shows previous sessions. See the [Historical Dashboard](historical.md)
+  [Approvals Dashboard](/docs/privilegesecure/4.2/privilegesecure/accessmanagement/enduser/dashboard/approvals.md) topic for additional information.
+- Historical Dashboard – Shows previous sessions. See the [Historical Dashboard](/docs/privilegesecure/4.2/privilegesecure/accessmanagement/enduser/dashboard/historical.md)
   topic for additional information.
 
 The table shows information on the selected activity session.

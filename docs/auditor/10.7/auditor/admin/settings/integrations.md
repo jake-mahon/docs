@@ -18,7 +18,7 @@ integrations.
 Netwrix recommends adding a special data source to your monitoring plan—Netwrix API.
 
 In Netwrix Auditor 9.0, Netwrix has updated API schemas. See the
-[Compatibility Notice](../../api/compatibility.md) topic for additional information.
+[Compatibility Notice](/docs/auditor/10.7/auditor/api/compatibility.md) topic for additional information.
 
 To learn more about Integration API capabilities, refer to the
-[Integration API](../../api/overview.md).
+[Integration API](/docs/auditor/10.7/auditor/api/overview.md).

@@ -5,14 +5,14 @@
 The structure of the Server Manager is based to a high degree on the structure of the actual client.
 The control elements such as the ribbon and the info and detail areas can be derived from the
 section dealing with the
-client([Operation and Setup](../../advanced_view/operation_and_setup/operation_and_setup.md)).
+client([Operation and Setup](/docs/passwordsecure/9.2/passwordsecure/configuration/advanced_view/operation_and_setup/operation_and_setup.md)).
 
 NOTE: An initial password is required for the first login on Server Manager. The password is
 “admin”. This password should be changed directly after login and carefully documented.
 
 #### Status module
 
-![Status Admin Client](../../../../../../../static/img/product_docs/passwordsecure/passwordsecure/configuration/server_manager/operation_and_setup/installation_with_parameters_248-en.webp)
+![Status Admin Client](/img/product_docs/passwordsecure/passwordsecure/configuration/server_manager/operation_and_setup/installation_with_parameters_248-en.webp)
 
 1. Ribbon
 
@@ -54,7 +54,7 @@ column headings. The period shown can be limited using .
 Databases are managed in a dedicated module. All relevant information on the existing databases can
 also be called up – completely without accessing the SQL server.
 
-![Databases Admin Client](../../../../../../../static/img/product_docs/passwordsecure/passwordsecure/configuration/server_manager/operation_and_setup/installation_with_parameters_252-en.webp)
+![Databases Admin Client](/img/product_docs/passwordsecure/passwordsecure/configuration/server_manager/operation_and_setup/installation_with_parameters_252-en.webp)
 
 1. Ribbon
 
@@ -85,7 +85,7 @@ carried out in the same way as the server log according to the colours applied.
 There is also a separate module for configuring the backups. This means that all backups can be
 configured and managed directly from the Server Manager.
 
-![backup-ac](../../../../../../../static/img/product_docs/passwordsecure/passwordsecure/configuration/server_manager/operation_and_setup/backup-ac.webp)
+![backup-ac](/img/product_docs/passwordsecure/passwordsecure/configuration/server_manager/operation_and_setup/backup-ac.webp)
 
 1. Ribbon
 

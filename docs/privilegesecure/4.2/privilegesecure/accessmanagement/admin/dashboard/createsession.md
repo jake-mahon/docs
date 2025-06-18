@@ -6,7 +6,7 @@ Follow the steps to create an activity session.
 
 **Step 2 –** In the Active Session table, click Create Session to open the Activity Request window.
 
-![Create Activity Session Interface](../../../../../../../static/img/product_docs/privilegesecure/privilegesecure/accessmanagement/enduser/dashboard/createsessionuser.webp)
+![Create Activity Session Interface](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/enduser/dashboard/createsessionuser.webp)
 
 **Step 3 –** On the Request Type page, enter the following information:
 
@@ -14,7 +14,7 @@ Follow the steps to create an activity session.
 
 **Step 4 –** Click Next to go to the Resource Selection page.
 
-![Create Session window Resource Selection](../../../../../../../static/img/product_docs/privilegesecure/privilegesecure/accessmanagement/enduser/dashboard/createsessionresourceselection.webp)
+![Create Session window Resource Selection](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/enduser/dashboard/createsessionresourceselection.webp)
 
 **Step 5 –** On the Resource Selection page, enter the following information:
 
@@ -23,7 +23,7 @@ Follow the steps to create an activity session.
 
 **Step 6 –** Click **Next** to go to the Notes page.
 
-![Create Session Notes Page](../../../../../../../static/img/product_docs/privilegesecure/privilegesecure/accessmanagement/enduser/dashboard/createsessionnotes.webp)
+![Create Session Notes Page](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/enduser/dashboard/createsessionnotes.webp)
 
 **Step 7 –** On the Notes page, enter the following information:
 
@@ -32,7 +32,7 @@ Follow the steps to create an activity session.
 
 **Step 8 –** Click Next to go to the Scheduling page.
 
-![Create Session Schedule Page](../../../../../../../static/img/product_docs/privilegesecure/privilegesecure/accessmanagement/enduser/dashboard/createsessionscheduling.webp)
+![Create Session Schedule Page](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/enduser/dashboard/createsessionscheduling.webp)
 
 **Step 9 –** On the Scheduling page, enter the following information:
 
@@ -40,7 +40,7 @@ Follow the steps to create an activity session.
 
 **Step 10 –** Click Next to go to the Review page.
 
-![Create Session Review Page](../../../../../../../static/img/product_docs/privilegesecure/privilegesecure/accessmanagement/enduser/dashboard/createsessionreview.webp)
+![Create Session Review Page](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/enduser/dashboard/createsessionreview.webp)
 
 **Step 11 –** On the Review page, review the summary of the new session.
 
@@ -53,4 +53,4 @@ session until the request is approved and the status changes to Available.
 When the status Available is shown, the remote session is ready. Click the Connection icon to begin
 the session, or log in through a client.
 
-See the [Start Activity Session](startsession.md) topic for additional information.
+See the [Start Activity Session](/docs/privilegesecure/4.2/privilegesecure/accessmanagement/admin/dashboard/startsession.md) topic for additional information.

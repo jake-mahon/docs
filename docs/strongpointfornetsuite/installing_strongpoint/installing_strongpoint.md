@@ -22,7 +22,7 @@ The Bundle ID has been updated due to NetSuite changes.
 3. Enter **294336** in **Keywords**
 4. Click **Search**
 
-    ![Search for the Strongpoint Bundle](../../../static/img/product_docs/strongpointfornetsuite/installing_strongpoint/searchandinstallbundles.webp)
+    ![Search for the Strongpoint Bundle](/img/product_docs/strongpointfornetsuite/installing_strongpoint/searchandinstallbundles.webp)
 
 5. Click **Strongpoint**
 6. Click **Install** to start the bundle installation.
@@ -31,14 +31,14 @@ The Bundle ID has been updated due to NetSuite changes.
    In the **Installed Bundles** list, the **Strongpoint** bundle is marked with a green check in the
    **Status** column when the bundle is installed.
 
-    ![Verify Strongpoint Bundle Installation](../../../static/img/product_docs/strongpointfornetsuite/installing_strongpoint/verify_bundle_install.webp)
+    ![Verify Strongpoint Bundle Installation](/img/product_docs/strongpointfornetsuite/installing_strongpoint/verify_bundle_install.webp)
 
 ## Set the Number of Row in List Segments
 
 It is important that you set your NUMBER OF ROWS IN LIST SEGMENTS to 1,000. This is a NetSuite best
 practice and critical for the proper spidering of your workflows. If you are unable to edit this
 field, refer to
-[Cannot Change the Number of Rows in List Segments](../troubleshooting/list_segments_not_editable)
+[Cannot Change the Number of Rows in List Segments](/docs/strongpointfornetsuite/troubleshooting/list_segments_not_editable)
 
 To set the Number of Rows in List Segments:
 

@@ -4,4 +4,4 @@ You can add your own note or description to each policy directive. When you deci
 must open and edit the setting and then add the comment. The comments can be seen in the table view
 within the GPO.
 
-![about_policypak_admin_templates_20](../../../../static/img/product_docs/policypak/policypak/adminstrativetemplates/about_policypak_admin_templates_20.webp)
+![about_policypak_admin_templates_20](/img/product_docs/policypak/policypak/adminstrativetemplates/about_policypak_admin_templates_20.webp)

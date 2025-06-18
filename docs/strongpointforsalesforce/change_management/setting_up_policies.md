@@ -55,7 +55,7 @@ information and history.
 
 ### Information
 
-![New Policy form](../../../static/img/product_docs/strongpointforsalesforce/change_management/policy_new1.webp)
+![New Policy form](/img/product_docs/strongpointforsalesforce/change_management/policy_new1.webp)
 
 - **Change/Approval Policy Name**
 - **Default Policy**: Check if this is the default change/approval policy.
@@ -73,62 +73,62 @@ Set the required Change Level for each Metadata Type. The Default is shown in th
 
 ### Code and Data Model Changes
 
-![Code and Data Model Changes](../../../static/img/product_docs/strongpointforsalesforce/change_management/policy_new2.webp)
+![Code and Data Model Changes](/img/product_docs/strongpointforsalesforce/change_management/policy_new2.webp)
 
 ### Automation Changes
 
-![Automation Change Levels](../../../static/img/product_docs/strongpointforsalesforce/change_management/policy_new3.webp)
+![Automation Change Levels](/img/product_docs/strongpointforsalesforce/change_management/policy_new3.webp)
 
 ### Sharing and Visibility Changes
 
-![Sharing and Visbility Change Level](../../../static/img/product_docs/strongpointforsalesforce/change_management/policy_new4.webp)
+![Sharing and Visbility Change Level](/img/product_docs/strongpointforsalesforce/change_management/policy_new4.webp)
 
 ### Integration Changes
 
-![Integration Change Levels](../../../static/img/product_docs/strongpointforsalesforce/change_management/policy_new5.webp)
+![Integration Change Levels](/img/product_docs/strongpointforsalesforce/change_management/policy_new5.webp)
 
 ### Configuration Changes
 
-![Configuration Change Levels](../../../static/img/product_docs/strongpointforsalesforce/change_management/policy_new6.webp)
+![Configuration Change Levels](/img/product_docs/strongpointforsalesforce/change_management/policy_new6.webp)
 
 ### Display and UI Changes
 
-![Display / UI Change Levels](../../../static/img/product_docs/strongpointforsalesforce/change_management/policy_new7.webp)
+![Display / UI Change Levels](/img/product_docs/strongpointforsalesforce/change_management/policy_new7.webp)
 
 ### Analytics Changes
 
-![Analytics Change Levels](../../../static/img/product_docs/strongpointforsalesforce/change_management/policy_new8.webp)
+![Analytics Change Levels](/img/product_docs/strongpointforsalesforce/change_management/policy_new8.webp)
 
 ### Control Changes
 
-![Control Change Levels](../../../static/img/product_docs/strongpointforsalesforce/change_management/policy_new9.webp)
+![Control Change Levels](/img/product_docs/strongpointforsalesforce/change_management/policy_new9.webp)
 
 Controls the change level required for different types of changes. Health Check Changes affect the
 way changes are handled for the customization records for each Salesforce Health Check group
 (session settings, file upload and security settings), so you can track and report on current
-settings. There is a [Health Settings](../customizations/understanding_customization_record.md) tab
+settings. There is a [Health Settings](/docs/strongpointforsalesforce/customizations/understanding_customization_record.md) tab
 for the specific records on the customization record.
 
 ### Application Configuration Changes (Data)
 
-![Application Configuration Changes (Data)](../../../static/img/product_docs/strongpointforsalesforce/change_management/policy_new16.webp)
+![Application Configuration Changes (Data)](/img/product_docs/strongpointforsalesforce/change_management/policy_new16.webp)
 
 Set objects and fields that are **Tracked Non-blocking** or **Tracked Blocking** to be part of the
 policy and require a Ticket and an approval.
 
-Refer to [Set Up Data Tracking](set_up_data_tracking.md) for more information on activating and
+Refer to [Set Up Data Tracking](/docs/strongpointforsalesforce/change_management/set_up_data_tracking.md) for more information on activating and
 validating tracked fields.
 
 ### Health Check Changes
 
-![Health Check Changes](../../../static/img/product_docs/strongpointforsalesforce/change_management/policy_new16_a.webp)
+![Health Check Changes](/img/product_docs/strongpointforsalesforce/change_management/policy_new16_a.webp)
 
 Select the change level for **Health Check Changes**: **None**, **Log Changes Only**, **Change
 Request**, **Sandbox Development & Testing**, or **Full Software Development Lifecycle**.
 
 ### IT Policies
 
-![Set IT Policies](../../../static/img/product_docs/strongpointforsalesforce/change_management/policy_new10.webp)
+![Set IT Policies](/img/product_docs/strongpointforsalesforce/change_management/policy_new10.webp)
 
 Specify the **Preliminary Approver**. Enter part of the name to see a matching list. For critical
 changes, you can also set a **Final Approver**. This person must approve all changes affected by the
@@ -136,14 +136,14 @@ rule.
 
 ### Customization Policies
 
-![Customization Policies](../../../static/img/product_docs/strongpointforsalesforce/change_management/policy_new12.webp)
+![Customization Policies](/img/product_docs/strongpointforsalesforce/change_management/policy_new12.webp)
 
 **Require Impacted Customization Approval**: select this option to require approval from all
 impacted Customization owners.
 
 ### Management Policies
 
-![Set Management Policies](../../../static/img/product_docs/strongpointforsalesforce/change_management/policy_new13.webp)
+![Set Management Policies](/img/product_docs/strongpointforsalesforce/change_management/policy_new13.webp)
 
 **Executive Approver**: a business executive who must approve the change.
 
@@ -155,7 +155,7 @@ approvals occur in the order specified.
 
 ### Change Enablement Defaults
 
-![Change Enablement Defaults](../../../static/img/product_docs/strongpointforsalesforce/change_management/policy_new15.webp)
+![Change Enablement Defaults](/img/product_docs/strongpointforsalesforce/change_management/policy_new15.webp)
 
 **Merge Approval Lists**: select this option to merge lists when multiple policies apply to a
 change.
@@ -175,7 +175,7 @@ for easy navigation to each item.
 
 Change Logs are created when customizations are added or removed.
 
-![Policy Related tab](../../../static/img/product_docs/strongpointforsalesforce/change_management/policy_related_tab.webp)
+![Policy Related tab](/img/product_docs/strongpointforsalesforce/change_management/policy_related_tab.webp)
 
 ### Add or Remove Customizations
 
@@ -192,14 +192,14 @@ the CustomObject Policy when added.
 1. Open the policy and click the **Related** tab.
 2. Click **Add Customizations**.
 
-    ![Add customizations](../../../static/img/product_docs/strongpointfornetsuite/change_management/policy_add_customizations.webp)
+    ![Add customizations](/img/product_docs/strongpointfornetsuite/change_management/policy_add_customizations.webp)
 
 3. Select a **Metadata Type** to filter the list.
 4. Enter a search term or scroll through the list to locate customizations.
 5. Click to select a customization. Use Shift-click or click and drag to select multiple contiguous
    items or Ctrl-click to select multiple customizations.
 
-    ![Selecting Customizations](../../../static/img/product_docs/strongpointforsalesforce/change_management/policy_add_customizations2.webp)
+    ![Selecting Customizations](/img/product_docs/strongpointforsalesforce/change_management/policy_add_customizations2.webp)
 
 6. Click **Add** to add the customizations to the **Selected Customizations** list. For existing
    customizations, select them in the **Selected Customizations** and click **Remove** to take them
@@ -215,18 +215,18 @@ available on the **Related** tab on the policy.
 2. Click **Select Change Level by SF Type**. You can set the policy as the **Default** and toggle it
    as **Active** in the **Policy Details**.
 
-    ![Adding customizations by Salesforce Type](../../../static/img/product_docs/strongpointforsalesforce/change_management/policy_change_by_sf_type.webp)
+    ![Adding customizations by Salesforce Type](/img/product_docs/strongpointforsalesforce/change_management/policy_change_by_sf_type.webp)
 
 3. Set **Category** and **Sub-Category** filters if you want to narrow the list. Sub-categories are
    not available for all Categories.
 
-    ![Set filters for Salesforce type](../../../static/img/product_docs/strongpointforsalesforce/change_management/policy_add_sf_type2.webp)
+    ![Set filters for Salesforce type](/img/product_docs/strongpointforsalesforce/change_management/policy_add_sf_type2.webp)
 
 4. Click to select a **Salesforce Type** from the **Available Salesforce Type List**. Use
    Shift-click or click and drag to select multiple contiguous items or Ctrl-click to select
    multiple types.
 
-    ![Add selections to the Selected Salesforce Type List](../../../static/img/product_docs/strongpointforsalesforce/change_management/policy_add_sf_type3.webp)
+    ![Add selections to the Selected Salesforce Type List](/img/product_docs/strongpointforsalesforce/change_management/policy_add_sf_type3.webp)
 
 5. Click the right arrow to add selections to the **Selected Salesforce Type List**. Click the left
    arrow to remove items from the selected list.

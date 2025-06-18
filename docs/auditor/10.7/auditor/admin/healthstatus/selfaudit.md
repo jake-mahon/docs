@@ -8,7 +8,7 @@ workflows adopted by our organization.
 The corresponding option is available on the General tab of Netwrix AuditorSettings. By default, the
 **Collect data for self-audit checkbox** is selected (enabled).
 
-![selfaudit_thumb_0_0](../../../../../../static/img/product_docs/auditor/auditor/admin/healthstatus/selfaudit_thumb_0_0.webp)
+![selfaudit_thumb_0_0](/img/product_docs/auditor/auditor/admin/healthstatus/selfaudit_thumb_0_0.webp)
 
 ### Search for Self-audit Results
 
@@ -22,13 +22,13 @@ Follow the steps to search for self-audit results.
 
 **Step 3 –** Click Search to review results:
 
-![selfaudit_search_thumb_0_0](../../../../../../static/img/product_docs/auditor/auditor/admin/healthstatus/selfaudit_search_thumb_0_0.webp)
+![selfaudit_search_thumb_0_0](/img/product_docs/auditor/auditor/admin/healthstatus/selfaudit_search_thumb_0_0.webp)
 
 **NOTE:** After reviewing your search results, apply filters to narrow your data. See the
-[View Reports](../reports/view.md) topic for additional information.
+[View Reports](/docs/auditor/10.7/auditor/admin/reports/view.md) topic for additional information.
 
 **Step 4 –** After browsing your data, navigate to Tools to use the search results as intended. See
-the [View and Search Collected Data](../search/overview.md) topic for additional information.
+the [View and Search Collected Data](/docs/auditor/10.7/auditor/admin/search/overview.md) topic for additional information.
 
 ### Review Auditor Self-Audit Report
 
@@ -42,7 +42,7 @@ Follow the steps to review the Self-audit report.
 
 **Step 2 –** Select the Netwrix Auditor Self-Audit report and click View.
 
-![selfaudit_report](../../../../../../static/img/product_docs/auditor/auditor/admin/healthstatus/selfaudit_report.webp)
+![selfaudit_report](/img/product_docs/auditor/auditor/admin/healthstatus/selfaudit_report.webp)
 
 ## Netwrix Auditor Self-Audit Scope
 

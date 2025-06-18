@@ -81,7 +81,7 @@ can update a few details for a button, such as its name and image.
 
     8. **Visibility Level** – Select a security role. The toolbar button would be visible to users
        of this role and roles with a priority value higher than this role. See
-       [Priority](../../securityrole/manage.md).  
+       [Priority](/docs/groupid/11.1/groupid/admincenter/securityrole/manage.md).  
        Select _Never_ to hide the button from all users.
 
 8. Click **OK**.
@@ -104,4 +104,4 @@ can update a few details for a button, such as its name and image.
 
 See Also
 
-- [Design a Portal with Display Types](../displaytype/overview.md)
+- [Design a Portal with Display Types](/docs/groupid/11.1/groupid/admincenter/portal/displaytype/overview.md)

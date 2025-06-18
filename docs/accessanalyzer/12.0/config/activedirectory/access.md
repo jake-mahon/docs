@@ -24,14 +24,14 @@ permissions in a Microsoft® Active Directory® environment described in this to
 subtopics. This solution employs the following data collectors to scan for groups, users, computers,
 passwords, permissions, group policies, and domain information:
 
-- [ADInventory Data Collector](../../admin/datacollector/adinventory/overview.md)
-- [ActiveDirectory Data Collector](../../admin/datacollector/activedirectory/overview.md)
-- [ADActivity Data Collector](../../admin/datacollector/adactivity/overview.md)
-- [GroupPolicy Data Collector](../../admin/datacollector/grouppolicy/overview.md)
-- [LDAP Data Collector](../../admin/datacollector/ldap.md)
-- [PasswordSecurity Data Collector](../../admin/datacollector/passwordsecurity/overview.md)
-- [PowerShell Data Collector](../../admin/datacollector/powershell/overview.md)
-- [Registry Data Collector](../../admin/datacollector/registry.md)
+- [ADInventory Data Collector](/docs/accessanalyzer/12.0/admin/datacollector/adinventory/overview.md)
+- [ActiveDirectory Data Collector](/docs/accessanalyzer/12.0/admin/datacollector/activedirectory/overview.md)
+- [ADActivity Data Collector](/docs/accessanalyzer/12.0/admin/datacollector/adactivity/overview.md)
+- [GroupPolicy Data Collector](/docs/accessanalyzer/12.0/admin/datacollector/grouppolicy/overview.md)
+- [LDAP Data Collector](/docs/accessanalyzer/12.0/admin/datacollector/ldap.md)
+- [PasswordSecurity Data Collector](/docs/accessanalyzer/12.0/admin/datacollector/passwordsecurity/overview.md)
+- [PowerShell Data Collector](/docs/accessanalyzer/12.0/admin/datacollector/powershell/overview.md)
+- [Registry Data Collector](/docs/accessanalyzer/12.0/admin/datacollector/registry.md)
 
 ## Permissions
 
@@ -107,7 +107,7 @@ minimum requirements, which must be configured at the Domain level in Active Dir
     **NOTE:** See the Microsoft
     [Searching for Deleted Objects](https://technet.microsoft.com/en-us/library/cc978013.aspx)
     article and the Microsoft
-    [Dsacls](<https://technet.microsoft.com/en-us/library/cc771151(v=ws.11).aspx>) article for
+    [Dsacls](https://technet.microsoft.com/en-us/library/cc771151(v=ws.11).aspx) article for
     additional information.
 
 AD_WeakPasswords Job Permissions

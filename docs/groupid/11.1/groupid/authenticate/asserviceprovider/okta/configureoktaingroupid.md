@@ -20,12 +20,12 @@ file to configure all settings for this identity provider.
 7. When Okta is configured with a Directory Manager client, it will be available on the login page
    of that client (the Wizard portal in our example) for single sign-on. You can choose to display
    the Okta authentication option as an image or a button. See the
-   [Upload an Image for the Identity Provider](../adfs/configureadfsingroupid.md#upload-an-image-for-the-identity-provider)
+   [Upload an Image for the Identity Provider](/docs/groupid/11.1/groupid/authenticate/asserviceprovider/adfs/configureadfsingroupid.md#upload-an-image-for-the-identity-provider)
    topic for details, replacing references to AD FS with Okta.
 8. Expand the **Advanced** section on the **Create New Provider** page.  
    View the settings and leave them to defaults.
 9. For _Disable GroupID Authentication_, see step 2 in the
-   [Specify Advanced Configurations](../adfs/configureadfsingroupid.md#specify-advanced-configurations)
+   [Specify Advanced Configurations](/docs/groupid/11.1/groupid/authenticate/asserviceprovider/adfs/configureadfsingroupid.md#specify-advanced-configurations)
    topic. Replace references to AD FS with the Okta provider.
 10. Click the **Create Provider** button. The identity provider is created and displayed on the
     **SAML Providers** page.

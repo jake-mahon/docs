@@ -5,8 +5,8 @@ is safer. In today’s world, slower is simply not an option. Platform Governanc
 realized that **Faster** can also be **Safer** and sometimes **Very Fast** can be **Extremely
 Safe**.
 
-In [Change Monitoring](tech_debt_change_monitoring.md), we discussed setting up automated change
-monitoring to deliver instant oversight of your org. [Org Clean Up](tech_debt_org_clean_up.md)
+In [Change Monitoring](/docs/strongpointforsalesforce/tech_debt/tech_debt_change_monitoring.md), we discussed setting up automated change
+monitoring to deliver instant oversight of your org. [Org Clean Up](/docs/strongpointforsalesforce/tech_debt/tech_debt_org_clean_up.md)
 described ongoing monitoring of specific changes. Automated Risk Management takes these disciplines
 and combines them with three goals:
 

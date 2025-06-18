@@ -21,12 +21,12 @@ What do you want to do?
 The Linked Account authentication type must be enabled for an identity store before it can be used
 for multifactor authentication.
 
-To enable it, see the [Enable Authentication Types](../identitystore/configure/authtypes.md) topic.
+To enable it, see the [Enable Authentication Types](/docs/groupid/11.1/groupid/admincenter/identitystore/configure/authtypes.md) topic.
 
 ## Enforce Linked Account Authentication for a Security Role
 
 To enforce an authentication type, see the
-[Enforce Authentication Types for Multifactor Authentication](../securityrole/policy/authentication.md#enforce-authentication-types-for-multifactor-authentication)
+[Enforce Authentication Types for Multifactor Authentication](/docs/groupid/11.1/groupid/admincenter/securityrole/policy/authentication.md#enforce-authentication-types-for-multifactor-authentication)
 topic.
 
 Role members must use an enforced authentication type for multifactor authentication. When an
@@ -35,4 +35,4 @@ and authentication.
 
 See Also
 
-- [Authentication Policy](../identitystore/configure/authpolicy.md)
+- [Authentication Policy](/docs/groupid/11.1/groupid/admincenter/identitystore/configure/authpolicy.md)

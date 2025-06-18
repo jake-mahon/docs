@@ -22,7 +22,7 @@ Step 1 – On Directory Manager portal, select **Synchronize** on left pane.
 Step 2 – On the Synchronize portal, click **Job Collections**.
 
 Step 3 – In the Job Collections view, click
-![option](../../../../../../../static/img/product_docs/groupid/groupid/portal/synchronize/manage/option.webp)
+![option](/img/product_docs/groupid/groupid/portal/synchronize/manage/option.webp)
 on the job collection you want to save as a template and click **Save As Template**.
 
 Step 4 – Now click **Job Collection Templates** and refresh the page. The newly created job group
@@ -92,7 +92,7 @@ OR
 
 Double-click the job collection template you want to use for the new job collection.
 
-Step 4 – This will launch [Create a Job Collection ](../collection/create.md) wizard starting from
+Step 4 – This will launch [Create a Job Collection ](/docs/groupid/11.1/groupid/portal/synchronize/collection/create.md) wizard starting from
 the Job Collection(s) page. Proceed to map the settings stored in the template on to the new job
 collection.
 

@@ -5,7 +5,7 @@
 Netwrix Password Secure supports administrators and users by automating repetitive tasks. These are
 represented as system tasks. Predefined tasks can thus be carried out at freely defined intervals.
 
-![System Tasks](../../../../../../../../../static/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/mainmenu/extras/system_tasks/installation_with_parameters_85-en.webp)
+![System Tasks](/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/mainmenu/extras/system_tasks/installation_with_parameters_85-en.webp)
 
 ## Relevant rights
 
@@ -38,7 +38,7 @@ System tasks can be initiated as usual via the ribbon or also the context menu t
 using the right mouse button. The desired process to be automated using system tasks is then
 selected from the four above-mentioned work processes.
 
-![installation_with_parameters_86](../../../../../../../../../static/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/mainmenu/extras/system_tasks/installation_with_parameters_86.webp)
+![installation_with_parameters_86](/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/mainmenu/extras/system_tasks/installation_with_parameters_86.webp)
 
 Naturally, the four work processes also share some similarities in their configuration.
 
@@ -55,7 +55,7 @@ The differences between the four work processes to be automated are described be
 differences are always part of the task settings within the system task form – the example here
 shows an HTML WebViewer export to be configured.
 
-![installation_with_parameters_87](../../../../../../../../../static/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/mainmenu/extras/system_tasks/installation_with_parameters_87.webp)
+![installation_with_parameters_87](/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/mainmenu/extras/system_tasks/installation_with_parameters_87.webp)
 
 WebViewer generator
 
@@ -89,4 +89,4 @@ Status
 
 A corresponding note will be displayed to indicate if a task is currently being executed.
 
-![installation_with_parameters_88](../../../../../../../../../static/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/mainmenu/extras/system_tasks/installation_with_parameters_88.webp)
+![installation_with_parameters_88](/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/mainmenu/extras/system_tasks/installation_with_parameters_88.webp)

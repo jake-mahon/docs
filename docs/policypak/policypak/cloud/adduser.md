@@ -2,7 +2,7 @@
 
 **NOTE:** This article pertains to portal.policypak.com.  If you need to manage users in the Netwrix
 Endpoint Policy Manager (formerly PolicyPak) Cloud Portal (cloud.policypak.com)
-see [Endpoint Policy Manager Cloud: Adding New Admins](../video/cloud/add/administrator.md)
+see [Endpoint Policy Manager Cloud: Adding New Admins](/docs/policypak/policypak/video/cloud/add/administrator.md)
 
 There are three steps in the process:
 
@@ -14,9 +14,9 @@ There are three steps in the process:
 **Step 3 –** You can then select **Invitation** to send Invites to new Secondaries or Accounting
 people.
 
-![819_1_hfkb-1067-01_950x324](../../../../static/img/product_docs/policypak/policypak/cloud/819_1_hfkb-1067-01_950x324.webp)
+![819_1_hfkb-1067-01_950x324](/img/product_docs/policypak/policypak/cloud/819_1_hfkb-1067-01_950x324.webp)
 
-![819_2_hfkb-1067-02_950x279](../../../../static/img/product_docs/policypak/policypak/cloud/819_2_hfkb-1067-02_950x279.webp)
+![819_2_hfkb-1067-02_950x279](/img/product_docs/policypak/policypak/cloud/819_2_hfkb-1067-02_950x279.webp)
 
 - Secondaries get technical AND renewal emails
 - Accounting people get ONLY renewal emails

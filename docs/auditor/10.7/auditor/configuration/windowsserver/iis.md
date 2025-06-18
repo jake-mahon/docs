@@ -1,7 +1,7 @@
 # Internet Information Services (IIS)
 
 To be able to process Internet Information Services (IIS) events, you must enable the Remote
-Registry service on the target computers. [Windows Server](overview.md)
+Registry service on the target computers. [Windows Server](/docs/auditor/10.7/auditor/configuration/windowsserver/overview.md)
 
 To configure the Operational log size and retention method
 
@@ -11,7 +11,7 @@ To configure the Operational log size and retention method
    the IIS-Configuration node.
 3. Right-click the Operational log and select Properties.
 
-    ![manualconfig_iis2016](../../../../../../static/img/product_docs/auditor/auditor/configuration/windowsserver/manualconfig_iis2016.webp)
+    ![manualconfig_iis2016](/img/product_docs/auditor/auditor/configuration/windowsserver/manualconfig_iis2016.webp)
 
 4. Make sure **Enable logging** is enabled.
 5. Set **Maximum log size** to 4 GB.

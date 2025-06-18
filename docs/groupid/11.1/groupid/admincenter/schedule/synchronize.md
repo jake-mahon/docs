@@ -26,7 +26,7 @@ schedule is displayed with this name in email notifications.
 Step 7 – In the Scheduler Service Name drop-down list, select a Scheduler service that would be
 responsible for triggering this schedule. The number of services displayed in the list depend on the
 number of nodes in all Elasticsearch clusters in the environment, as each node has its own Scheduler
-service. See the [Scheduler Service](../service/schedulerservice.md) topic for additional
+service. See the [Scheduler Service](/docs/groupid/11.1/groupid/admincenter/service/schedulerservice.md) topic for additional
 information.
 
 Please note the following while selecting a Scheduler service:

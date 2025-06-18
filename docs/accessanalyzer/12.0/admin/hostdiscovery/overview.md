@@ -8,11 +8,11 @@ The Host Discovery queries view displays a list of previously configured queries
 Discovery Wizard to create new queries, and is where host inventory process can be automated. The
 **Host Discovery** node houses the Discovery Log. The **Settings** > **Host Discovery** node
 contains the global settings that affect discovery queries. See the
-[Host Discovery](../settings/hostdiscovery.md) topic for additional information.
+[Host Discovery](/docs/accessanalyzer/12.0/admin/settings/hostdiscovery.md) topic for additional information.
 
 The Discovery node has four main panes:
 
-- [Host Discovery Queries](queries.md)
-- [Host Discovery Queries Activities Pane](activities.md)
-- [Host Discovery Wizard](wizard/overview.md)
-- [Discovery Log](log.md)
+- [Host Discovery Queries](/docs/accessanalyzer/12.0/admin/hostdiscovery/queries.md)
+- [Host Discovery Queries Activities Pane](/docs/accessanalyzer/12.0/admin/hostdiscovery/activities.md)
+- [Host Discovery Wizard](/docs/accessanalyzer/12.0/admin/hostdiscovery/wizard/overview.md)
+- [Discovery Log](/docs/accessanalyzer/12.0/admin/hostdiscovery/log.md)

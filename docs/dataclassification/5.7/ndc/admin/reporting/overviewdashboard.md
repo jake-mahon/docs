@@ -8,12 +8,12 @@ customize it for their needs. See Customize Dashboard for more information.
 **NOTE:** To review the dashboard a user requires the Access Reports permission and must have at
 least one Netwrix built-in taxonomy downloaded. See the following sections for more information:
 
-- [User Management](../../security/usermanagement.md)
-- [Built-in Taxonomies Overview ](../taxonomies/builtintaxonomies.md)
+- [User Management](/docs/dataclassification/5.7/ndc/security/usermanagement.md)
+- [Built-in Taxonomies Overview ](/docs/dataclassification/5.7/ndc/admin/taxonomies/builtintaxonomies.md)
 
 The dashboard is the home page for the administrative web console.
 
-![sensitive_dashboard_thumb_0_0](../../../../../../static/img/product_docs/dataclassification/ndc/admin/reporting/sensitive_dashboard_thumb_0_0.webp)
+![sensitive_dashboard_thumb_0_0](/img/product_docs/dataclassification/ndc/admin/reporting/sensitive_dashboard_thumb_0_0.webp)
 
 If you want to switch to the dashboard page after doing any other tasks in the administrative web
 console, do the following:
@@ -24,7 +24,7 @@ console, do the following:
 
 - Locate the Data Analysis top level menu and select Reports:
 
-    ![switch_dashboard](../../../../../../static/img/product_docs/dataclassification/ndc/admin/reporting/switch_dashboard.webp)
+    ![switch_dashboard](/img/product_docs/dataclassification/ndc/admin/reporting/switch_dashboard.webp)
 
 - Select the Dashboard tab on the left.
 
@@ -41,7 +41,7 @@ The dashboard includes the following sections:
 
 - Sensitive Files – helps you identify how many files have been tagged at least once in any of
   Netwrix built-in sensitive taxonomies except for the following: File Type, File Size, Language.
-  Review the [Built-in Taxonomies Overview ](../taxonomies/builtintaxonomies.md) section for the
+  Review the [Built-in Taxonomies Overview ](/docs/dataclassification/5.7/ndc/admin/taxonomies/builtintaxonomies.md) section for the
   full list of predefined taxonomies.
 
     **NOTE:** Custom taxonomies are not counted.
@@ -76,7 +76,7 @@ To apply filters
 
 1. Select Custom view in the upper left corner of the dashboard.
 
-    ![dashboard_filters_thumb_0_0](../../../../../../static/img/product_docs/dataclassification/ndc/admin/reporting/dashboard_filters_thumb_0_0.webp)
+    ![dashboard_filters_thumb_0_0](/img/product_docs/dataclassification/ndc/admin/reporting/dashboard_filters_thumb_0_0.webp)
 
 2. Select a taxonomy(-ies) and/or a source group(s) you want to see real-time data for.
 3. Click Apply Filters to immediately review classified data matching your filtering criteria.
@@ -89,7 +89,7 @@ later.
 
 1. Apply custom filters as described above.
 
-    ![dashboard_filters_thumb_0_0](../../../../../../static/img/product_docs/dataclassification/ndc/admin/reporting/dashboard_filters_thumb_0_0.webp)
+    ![dashboard_filters_thumb_0_0](/img/product_docs/dataclassification/ndc/admin/reporting/dashboard_filters_thumb_0_0.webp)
 
 2. Click Save Configuration.
 

@@ -7,7 +7,7 @@ allows you to create new Endpoint Policy Manager Feature Manager collections or 
 **NOTE:** You will only see the Endpoint Policy Manager Feature Manager for Windows node when the
 latest Admin Console MSI is installed on the management station.
 
-![getting_to_know_feature_manager](../../../../static/img/product_docs/policypak/policypak/feature/getting_to_know_feature_manager.webp)
+![getting_to_know_feature_manager](/img/product_docs/policypak/policypak/feature/getting_to_know_feature_manager.webp)
 
 The functions of collections and policies are as follows:
 

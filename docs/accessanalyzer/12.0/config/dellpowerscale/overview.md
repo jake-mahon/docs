@@ -24,7 +24,7 @@ these target hosts requires these permissions. See the topic for instructions.
 **NOTE:** These permissions are in addition to those needed to either deploy applet scans for
 running scans in proxy mode with applet or installing the File System Proxy Service Permissions for
 running scans in proxy mode as a service. See the
-[File System Scan Options](../../requirements/solutions/filesystem/scanoptions.md)
+[File System Scan Options](/docs/accessanalyzer/12.0/requirements/solutions/filesystem/scanoptions.md)
 topic for additional information.
 
 Additional Sensitive Data Discovery Auditing Permission
@@ -45,12 +45,12 @@ Administration Console.
 **Step 1 –** Navigate to the **Access** tab, and select **Membership & Roles** for the System Access
 Zone.
 
-![Groups tab](../../../../../static/img/product_docs/accessanalyzer/config/dellpowerscale/groupstab.webp)
+![Groups tab](/img/product_docs/accessanalyzer/config/dellpowerscale/groupstab.webp)
 
 **Step 2 –** On the **Groups** tab, set the Providers to **LOCAL: System**. Then select **View /
 Edit** for the Administrators group. The View Group Details window opens.
 
-![Edit Group window](../../../../../static/img/product_docs/dataclassification/ndc/admin/sources/sourcegroups/editgroup.webp)
+![Edit Group window](/img/product_docs/dataclassification/ndc/admin/sources/sourcegroups/editgroup.webp)
 
 **Step 3 –** Click **Edit Group** and the Edit Group window opens. Click **Add Members**, and enter
 the User Name and Provider in the Select a User window. Click **Select**, and then click **Save
@@ -67,12 +67,12 @@ Administration Console.
 
 **Step 1 –** Navigate to the **Access** tab > **Membership & Roles** for the System Access Zone.
 
-![One FS Dashboard](../../../../../static/img/product_docs/accessanalyzer/config/dellpowerscale/rolestab.webp)
+![One FS Dashboard](/img/product_docs/accessanalyzer/config/dellpowerscale/rolestab.webp)
 
 **Step 2 –** On the Roles tab, select **View / Edit** for the BackupAdmin role. The View Role
 Details window opens.
 
-![One FS Role Details Window](../../../../../static/img/product_docs/accessanalyzer/config/dellpowerscale/viewroledetails.webp)
+![One FS Role Details Window](/img/product_docs/accessanalyzer/config/dellpowerscale/viewroledetails.webp)
 
 **Step 3 –** Click **Edit** role and the Edit role details window opens.
 
@@ -135,7 +135,7 @@ be able to mount it.
 
 The firewall ports required by Access Analyzer for Access Auditing (FSAA) and/or Sensitive Data
 Discovery Auditing scans are based on the File System scan mode to be used. See the
-[File System Scan Options](../../requirements/solutions/filesystem/scanoptions.md)
+[File System Scan Options](/docs/accessanalyzer/12.0/requirements/solutions/filesystem/scanoptions.md)
 topic for additional information.
 
 ## Activity Auditing Permissions
@@ -165,7 +165,7 @@ where the activity agent is deployed.
 EMC CEE requires .NET Framework 3.5 to be installed on the Windows proxy server in order for the EMC
 CEE service to start.
 
-See the [Dell Isilon/PowerScale Activity Auditing Configuration](activity.md) topic for
+See the [Dell Isilon/PowerScale Activity Auditing Configuration](/docs/accessanalyzer/12.0/config/dellpowerscale/activity.md) topic for
 instructions.
 
 Activity Monitor Archive Location
@@ -186,7 +186,7 @@ are required for communication between the Agent server and the Netwrix Activity
 The Windows firewall rules need to be configured on the Windows server, which require certain
 inbound rules be created if the scans are running in applet mode. These scans operate over a default
 port range, which cannot be specified via an inbound rule. For more information, see the Microsoft
-[Connecting to WMI on a Remote Computer](<https://msdn.microsoft.com/en-us/library/windows/desktop/aa389290(v=vs.85).aspx>)
+[Connecting to WMI on a Remote Computer](https://msdn.microsoft.com/en-us/library/windows/desktop/aa389290(v=vs.85).aspx)
 article.
 
 Additional Firewall Rules for Dell Isilon/PowerScale Devices

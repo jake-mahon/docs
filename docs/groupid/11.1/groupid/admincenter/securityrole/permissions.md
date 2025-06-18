@@ -190,5 +190,5 @@ Permissions are discussed in the following table:
 | 5.  | Remove user / group                  | Enables role members to remove users and groups from the permission list of document libraries in the site. Removed users and groups will not be able to access the respective document library in the site.                                                                                                                                                                                                                                                      |
 
 NOTE: For more information on role permissions, see the
-[User Roles in Microsoft Entra ID and Directory Manager ](../identitystore/advsentraid.md#user-roles-in-microsoft-entra-id-and-directory-manager)
+[User Roles in Microsoft Entra ID and Directory Manager ](/docs/groupid/11.1/groupid/admincenter/identitystore/advsentraid.md#user-roles-in-microsoft-entra-id-and-directory-manager)
 topic.

@@ -54,5 +54,5 @@ Click the ellipsis button for a user to perform any of these actions:
 
 **See Also**
 
-- [Helpdesk](../overview.md)
-- [Helpdesk Operations](overview.md)
+- [Helpdesk](/docs/groupid/11.1/groupid/admincenter/helpdesk/overview.md)
+- [Helpdesk Operations](/docs/groupid/11.1/groupid/admincenter/helpdesk/operation/overview.md)

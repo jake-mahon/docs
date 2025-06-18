@@ -3,8 +3,8 @@
 Use this API to delete job collections specified in the end point URL.
 
 See the
-[Delete a Job Collection](../../portal/synchronize/manage/jobcollection.md#delete-a-job-collection)
-section of the [Manage a Job Collection ](../../portal/synchronize/manage/jobcollection.md) topic
+[Delete a Job Collection](/docs/groupid/11.1/groupid/portal/synchronize/manage/jobcollection.md#delete-a-job-collection)
+section of the [Manage a Job Collection ](/docs/groupid/11.1/groupid/portal/synchronize/manage/jobcollection.md) topic
 for additional information on job collection.
 
 ## Endpoint

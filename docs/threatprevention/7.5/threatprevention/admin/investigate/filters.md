@@ -1,13 +1,13 @@
 # Investigate Filters
 
-On the [Investigate Interface](overview.md), there are six filter categories that can be applied to
+On the [Investigate Interface](/docs/threatprevention/7.5/threatprevention/admin/investigate/overview.md), there are six filter categories that can be applied to
 the recent events available in the data grid. By default, no filters are applied. For the Policy
 filter, all enabled unprotected policies and any protected policies the current user has rights to
 view are selected, and the other filter categories are blank. Filters can be applied using any
 combination of the filter categories. Use the Refresh button to repopulate the data grid with the
 current information for the selected filter(s).
 
-![Investigate Interface - Filter Categories](../../../../../../static/img/product_docs/threatprevention/threatprevention/admin/investigate/filtercategories.webp)
+![Investigate Interface - Filter Categories](/img/product_docs/threatprevention/threatprevention/admin/investigate/filtercategories.webp)
 
 Filter categories are discussed below.
 
@@ -104,4 +104,4 @@ slow for large databases.
 Click the arrow on the filter category header ribbon to expand or collapse the category. You can
 also clear all filters by clicking the Reset Filters button on the ribbon between the filter
 categories and the data grid. Filtered views can also be saved. See the
-[Saved Investigations](saved.md) topic for additional information.
+[Saved Investigations](/docs/threatprevention/7.5/threatprevention/admin/investigate/saved.md) topic for additional information.

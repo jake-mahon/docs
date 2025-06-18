@@ -5,7 +5,7 @@ which is downloadable in the Netwrix Endpoint Policy Manager (formerly PolicyPak
 
 Use this video to see how to get the guidance and use the XML file we've pre-created:
 
-[Installing applications-and-Preconfigured-Rules](../../video/leastprivilege/installapplications.md)
+[Installing applications-and-Preconfigured-Rules](/docs/policypak/policypak/video/leastprivilege/installapplications.md)
 
 That being said the same customer reported that when opening a report, Sage will hang for several
 minutes while attempting to "Look for a printer."
@@ -16,7 +16,7 @@ The customer's own remediation was to elevate the Print spooler also needs to be
 However, this is likely more than required, and instead, we would advise to merely attempt to change
 the integrity level of the spooler using these directions:
 
-[I elevated an application, but drag and drop between the elevated and other non-elevated applications isn't working anymore. What can I try?](../../leastprivilege/elevate/dragdrop.md)
+[I elevated an application, but drag and drop between the elevated and other non-elevated applications isn't working anymore. What can I try?](/docs/policypak/policypak/leastprivilege/elevate/dragdrop.md)
 
 Both avenues to adjust the spooler service are "use at your own risk."
 

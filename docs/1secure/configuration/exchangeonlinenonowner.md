@@ -18,7 +18,7 @@ Events report. See the Filters topic for additional information.
 
 **NOTE:** To start auditing the data for the report, you need to select the **Collect non-owner
 mailbox audit data** check box when adding the Exchange Online source. See the
-[Add a Source and Connectors for Exchange Online](../admin/organizations/sourcesandconnectors/exchangeonline.md)topic
+[Add a Source and Connectors for Exchange Online](/docs/1secure/admin/organizations/sourcesandconnectors/exchangeonline.md)topic
 for additional information.
 
 **NOTE:** Unified audit log must be enabled for a tenant. See the Microsoft

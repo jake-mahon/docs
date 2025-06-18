@@ -17,7 +17,7 @@ Click on your policy name on the Configuration Console dashboard if needed.
 
 **Step 1 –** Open the **Dictionary** rule.
 
-![Open the Dictionary rule](../../../../../static/img/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/evaluation/evaldict.webp)
+![Open the Dictionary rule](/img/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/evaluation/evaldict.webp)
 
 **Step 2 –** Select the **Detect character substitution** and **Detect words typed backwards** check
 boxes.

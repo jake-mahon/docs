@@ -32,7 +32,7 @@ Options.
 **Step 4 –** Locate the Audit: Force audit policy subcategory settings to override audit policy
 category settings and make sure that policy setting is set to _"Enabled"_.
 
-![manualconfig_ad_nla_audit_force_winserver2016](../../../../static/img/product_docs/1secure/configuration/ad/manualconfig_ad_nla_audit_force_winserver2016.webp)
+![manualconfig_ad_nla_audit_force_winserver2016](/img/product_docs/1secure/configuration/ad/manualconfig_ad_nla_audit_force_winserver2016.webp)
 
 **Step 5 –** Navigate to **Start** > **Run** and type _"cmd"_. Input the `gpupdate /force` command
 and press **Enter**. The group policy will be updated.
@@ -61,7 +61,7 @@ Configuration > Audit Policies .
 | - Audit Logon                      | _"Success"_ and _"Failure"_                                                                                      |                             |
 | System                             | - Audit Security State Change                                                                                    | _"Success"_                 |
 
-![manualconfig_nla_advpol2016](../../../../static/img/product_docs/1secure/configuration/logonactivity/manualconfig_nla_advpol2016.webp)
+![manualconfig_nla_advpol2016](/img/product_docs/1secure/configuration/logonactivity/manualconfig_nla_advpol2016.webp)
 
 **Step 10 –** Set the following advanced audit policies to _"Success"_ and _"Failure"_:
 

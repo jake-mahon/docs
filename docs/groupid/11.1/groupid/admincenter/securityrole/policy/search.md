@@ -60,7 +60,7 @@ What do you want to do?
 NOTE: An advanced setting for the Directory Manager portal, _Search Default_, controls the search
 scope of the portal. If its value is "Global Catalog", the container specified here is ignored and
 the portal shows objects from the entire directory. See the
-[Manage Advanced Settings](../../portal/server/advanced.md) topic.
+[Manage Advanced Settings](/docs/groupid/11.1/groupid/admincenter/portal/server/advanced.md) topic.
 
 ## Set the Search Scope to all Containers in the Identity Store
 
@@ -119,7 +119,7 @@ them.
     - **AND:** to display the objects having the specified values for all attributes.
     - **OR:** to display objects having the specified value for any one of the attributes.
 
-    ![search_query](../../../../../../../static/img/product_docs/groupid/groupid/admincenter/securityrole/policy/search_query.webp)
+    ![search_query](/img/product_docs/groupid/groupid/admincenter/securityrole/policy/search_query.webp)
 
 2. Click the ellipsis button for an applied operator to display the context menu, which has the
    following options:
@@ -143,5 +143,5 @@ them.
 
 **See Also**
 
-- [Security Roles](../overview.md)
-- [Security Role Policies](overview.md)
+- [Security Roles](/docs/groupid/11.1/groupid/admincenter/securityrole/overview.md)
+- [Security Role Policies](/docs/groupid/11.1/groupid/admincenter/securityrole/policy/overview.md)

@@ -7,18 +7,18 @@ Follow the steps to define rules a PPE policy
 
 Step 1 – The Rules tab opens by default and the following rules are listed in the left pane.
 
-- [Age (Max) Rule](maximum_age_rule.md)
-- [Age (Min) Rule](minimum_age_rule.md)
-- [Characters (Complexity) Rule](complexityrule.md)
-- [Character (Granular) Rules](characterrules.md)
-- [Compromised Rule](compromisedrule.md)
-- [Dictionary Rule](dictionaryrule.md)
-- [History Rule](historyrule.md)
-- [Length Rule](lengthrule.md)
-- [Patterns Rule](patternsrule.md)
-- [Repetition Rule](repetitionrule.md)
-- [Similarity Rule](similarityrule.md)
-- [Unique Characters Rule](uniquecharacters.md)
+- [Age (Max) Rule](/docs/groupid/11.1/groupid/admincenter/identitystore/configure/directoryservice/ppe/rules/maximum_age_rule.md)
+- [Age (Min) Rule](/docs/groupid/11.1/groupid/admincenter/identitystore/configure/directoryservice/ppe/rules/minimum_age_rule.md)
+- [Characters (Complexity) Rule](/docs/groupid/11.1/groupid/admincenter/identitystore/configure/directoryservice/ppe/rules/complexityrule.md)
+- [Character (Granular) Rules](/docs/groupid/11.1/groupid/admincenter/identitystore/configure/directoryservice/ppe/rules/characterrules.md)
+- [Compromised Rule](/docs/groupid/11.1/groupid/admincenter/identitystore/configure/directoryservice/ppe/rules/compromisedrule.md)
+- [Dictionary Rule](/docs/groupid/11.1/groupid/admincenter/identitystore/configure/directoryservice/ppe/rules/dictionaryrule.md)
+- [History Rule](/docs/groupid/11.1/groupid/admincenter/identitystore/configure/directoryservice/ppe/rules/historyrule.md)
+- [Length Rule](/docs/groupid/11.1/groupid/admincenter/identitystore/configure/directoryservice/ppe/rules/lengthrule.md)
+- [Patterns Rule](/docs/groupid/11.1/groupid/admincenter/identitystore/configure/directoryservice/ppe/rules/patternsrule.md)
+- [Repetition Rule](/docs/groupid/11.1/groupid/admincenter/identitystore/configure/directoryservice/ppe/rules/repetitionrule.md)
+- [Similarity Rule](/docs/groupid/11.1/groupid/admincenter/identitystore/configure/directoryservice/ppe/rules/similarityrule.md)
+- [Unique Characters Rule](/docs/groupid/11.1/groupid/admincenter/identitystore/configure/directoryservice/ppe/rules/uniquecharacters.md)
 
 A button beside a rule indicates that the rule is enabled (being enforced) or not. Click a rule to
 set the rule's properties and save it.

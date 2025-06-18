@@ -11,9 +11,9 @@ It provides the ability to feed activity data to SIEM products. The following da
 specifically created for Activity Monitor event data:
 
 - For IBM® QRadar®, see the
-  [Netwrix File Activity Monitor App for QRadar](../../../siem/qradar/overview.md) for additional
+  [Netwrix File Activity Monitor App for QRadar](/docs/activitymonitor/8.0/activitymonitor/siem/qradar/overview.md) for additional
   information.
-- For Splunk®, see the [File Activity Monitor App for Splunk](../../../siem/splunk/overview.md) for
+- For Splunk®, see the [File Activity Monitor App for Splunk](/docs/activitymonitor/8.0/activitymonitor/siem/splunk/overview.md) for
   additional information.
 
 It also provides the ability to feed activity data to other Netwrix products:
@@ -24,7 +24,7 @@ It also provides the ability to feed activity data to other Netwrix products:
 
 Prior to adding a Nutanix files host to the Activity Monitor, the prerequisites for the target
 environment must be met. See
-[Nutanix Files Activity Auditing Configuration](../../../../config/nutanix/activity.md) for more
+[Nutanix Files Activity Auditing Configuration](/docs/activitymonitor/8.0/config/nutanix/activity.md) for more
 information.
 
 _Remember,_ the Activity Agent must be deployed to a Windows server that acts as a proxy for
@@ -35,11 +35,11 @@ monitoring the target environment.
 Ensure that the correct network adapter is specified in the Network page for an agent before adding
 a Nutanix file server to be monitored.
 
-![nutanixnetworkadapter](../../../../../../../static/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/nutanixnetworkadapter.webp)
+![nutanixnetworkadapter](/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/nutanixnetworkadapter.webp)
 
 The agent registers the IP address of the network adapter in the Nutanix auditing configuration for
 activity delivery. Nutanix Files server connects to the agent using the TCP port 4501. See the
-[Network Tab](../../agents/properties/network.md) topic for additional information.
+[Network Tab](/docs/activitymonitor/8.0/activitymonitor/admin/agents/properties/network.md) topic for additional information.
 
 ## Add Nutanix Host
 
@@ -48,17 +48,17 @@ Follow the steps to add a Nutanix files host to be monitored.
 **Step 1 –** In Activity Monitor, go to the Monitored Hosts tab and click **Add**. The Add New Host
 window opens.
 
-![Choose Agent](../../../../../../../static/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/addagent01.webp)
+![Choose Agent](/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/addagent01.webp)
 
 **Step 2 –** On the Choose Agent page, select the Agent to monitor the file server from the
 drop-down list. Click **Next**.
 
-![Add Host](../../../../../../../static/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/addhost02.webp)
+![Add Host](/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/addhost02.webp)
 
 **Step 3 –** On the Add Host page, select the **Nutanix Files** radio button and enter the file
 server name. Click **Next**.
 
-![Nutanix Options](../../../../../../../static/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/nutanixoptions_04.webp)
+![Nutanix Options](/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/nutanixoptions_04.webp)
 
 **Step 4 –** On the Nutanix Options page, enter the user name and password.
 
@@ -74,14 +74,14 @@ access.
 
 Click **Next**.
 
-![Configure Operations](../../../../../../../static/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/nutanixoptions_05.webp)
+![Configure Operations](/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/nutanixoptions_05.webp)
 
 **Step 5 –** On the Configure Operations page, select the File Operations and Directory Operations
 to be monitored.
 
 Click **Next**.
 
-![Configure Operations](../../../../../../../static/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/nutanixoptions_06.webp)
+![Configure Operations](/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/nutanixoptions_06.webp)
 
 **Step 6 –** On the Configure Basic Operations page, choose which settings to enable. The “Log
 files” are the activity logs created by the activity agent on the agent's server. Select one of the
@@ -98,14 +98,14 @@ following options:
 
 Click **Next**.
 
-![Where to log the activity](../../../../../../../static/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/nutanixoptions_07.webp)
+![Where to log the activity](/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/nutanixoptions_07.webp)
 
 **Step 7 –** On the Where To Log The Activity page, select whether to send the activity to either a
 Log File or Syslog Server. Click **Next**.
 
 **NOTE:** An option must be selected before moving to the next step.
 
-![File Output](../../../../../../../static/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/nutanixoptions_08.webp)
+![File Output](/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/nutanixoptions_08.webp)
 
 **Step 8 –** If Log File is selected on the Where To Log The Activity page, configure the File
 Output page.
@@ -132,7 +132,7 @@ Output page.
 
 Click **Next**.
 
-![Syslog Output](../../../../../../../static/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/nutanixoptions_09.webp)
+![Syslog Output](/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/nutanixoptions_09.webp)
 
 **Step 9 –** If Syslog Server is selected on the Where To Log The Activity page, configure the
 Syslog Output page.
@@ -149,7 +149,7 @@ Syslog Output page.
     - TLS
 
     The TCP and TLS protocols add the **Message framing** drop-down menu. See the
-    [Syslog Tab](../../outputs/syslog.md) topic for additional information.
+    [Syslog Tab](/docs/activitymonitor/8.0/activitymonitor/admin/outputs/syslog.md) topic for additional information.
 
 - The Test button sends a test message to the Syslog server to check the connection. A green check
   mark or red will determine whether the test message has been sent or failed to send. Messages vary
@@ -159,14 +159,14 @@ Syslog Output page.
     - TCP/TLS – Sends test message and verifies connection
     - TLS – Shows error if TLS handshake fails
 
-    See the [Syslog Tab](../../outputs/syslog.md) topic for additional information.
+    See the [Syslog Tab](/docs/activitymonitor/8.0/activitymonitor/admin/outputs/syslog.md) topic for additional information.
 
 Click **Finish**.
 
-![nutanixoptions_10](../../../../../../../static/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/nutanixoptions_10.webp)
+![nutanixoptions_10](/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/nutanixoptions_10.webp)
 
 The added Nutanix host is displayed in the monitored hosts table. Once a host has been added for
-monitoring, configure the desired ouptuts. See the [Output for Monitored Hosts](../output.md) topic
+monitoring, configure the desired ouptuts. See the [Output for Monitored Hosts](/docs/activitymonitor/8.0/activitymonitor/admin/monitoredhosts/output.md) topic
 for additional information.
 
 ## Host Properties for Nutanix
@@ -174,7 +174,7 @@ for additional information.
 Configuration settings can be edited through the tabs in the host’s Properties window. The
 configurable host properties are:
 
-- [Nutanix Tab](../properties/nutanix.md)
-- [Inactivity Alerts Tab](../properties/inactivityalerts.md)
+- [Nutanix Tab](/docs/activitymonitor/8.0/activitymonitor/admin/monitoredhosts/properties/nutanix.md)
+- [Inactivity Alerts Tab](/docs/activitymonitor/8.0/activitymonitor/admin/monitoredhosts/properties/inactivityalerts.md)
 
-See the [Host Properties Window](../properties/overview.md) topic for additional information.
+See the [Host Properties Window](/docs/activitymonitor/8.0/activitymonitor/admin/monitoredhosts/properties/overview.md) topic for additional information.

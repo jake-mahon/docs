@@ -3,7 +3,7 @@
 The Protection Policies tab shows information about the protection policies associated with the
 selected resource.
 
-![Host Protection Policies Tab](../../../../../../../../../static/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/tab/resources/protectionpolicieshost.webp)
+![Host Protection Policies Tab](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/tab/resources/protectionpolicieshost.webp)
 
 The Protection Policies tab has the following feature:
 
@@ -13,7 +13,7 @@ The Protection Policies tab has the following feature:
 The table has the following columns:
 
 - Name — Displays the name of the policy. Click the link to view additional details. See the
-  [Protection Policies Page](../../page/protectionpolicies.md) topic for additional information.
+  [Protection Policies Page](/docs/privilegesecure/4.2/privilegesecure/accessmanagement/admin/policy/page/protectionpolicies.md) topic for additional information.
 - Description — Description of the policy
 
 The table columns can be resized and sorted in ascending or descending order.

@@ -66,7 +66,7 @@ an older Client Side Extension, we won't ever fix that one. We only ever fix the
 sure BEFORE YOU CONTINUE that you've tested the problem out with the LATEST Client Side Extension.
 
 **Step 2 –** Perform an exclusion to your AntiVirus/Antimalware using
-[How must I configure my Anti-virus or system-level software to work with Endpoint Policy Manager CSE?](../install/antivirus.md)
+[How must I configure my Anti-virus or system-level software to work with Endpoint Policy Manager CSE?](/docs/policypak/policypak/install/antivirus.md)
 
 **Step 3 –** Uninstall (not just disable) your AntiVirus/Antimalware. Does that clear it up?
 
@@ -83,7 +83,7 @@ We can take a "first look" at your log files… but there are no guarantees here
 jump out and just tell us what it is. Do NOT attach this to an EMAIL. You must get an SRX first by
 emailing support, then, in the AUTORESPONSE, you'll get directions for how to UPLOAD your log files.
 Here is how to get us log files and results reports (perform EVERY step):
-L[Why does my mail anti-virus service claim that the Endpoint Policy Manager download ISO or ZIP has a virus?](antivirus.md)
+L[Why does my mail anti-virus service claim that the Endpoint Policy Manager download ISO or ZIP has a virus?](/docs/policypak/policypak/troubleshooting/antivirus.md)
 
 The items above are generally the causes of change and problems. Therefore, to get us close to the
 goal, your team will have to narrow it down.
@@ -92,7 +92,7 @@ One thing to TRY (but this is not a solution, this just narrows it down for us) 
 Policy Manager DRIVER. Sometimes the DRIVER can get in the way of things. Knowing the DRIVER is a
 problem can be helpful. Only test this out if installing the LATEST Client Side Extension doesn't
 clear up the
-problem.[What can I do if I installed a new CSE version and it's causing problems (slowdowns or other issues?)](install/newversionissues.md).
+problem.[What can I do if I installed a new CSE version and it's causing problems (slowdowns or other issues?)](/docs/policypak/policypak/troubleshooting/install/newversionissues.md).
 
 ## Troubleshooting Scenario 1 (best): Bring up a new machine and triangulate where the problem is
 
@@ -109,7 +109,7 @@ APPLICATIONS AT ALL.. Warning /
 - If YES, then the problem is likely something in Group Policy; some security setting which is
   preventing Endpoint Policy Manager from performing it's function. Provide us with PPLOGS and
   GPRESULT reports from
-  [How to import GPOs to Endpoint Policy Manager Cloud](../video/cloud/import.md). Do not miss any
+  [How to import GPOs to Endpoint Policy Manager Cloud](/docs/policypak/policypak/video/cloud/import.md). Do not miss any
   steps
 - If NO.. then you need to BUILD UP the machine until you find the cause.
 - Remember: If this was a problem / bug affecting all customers, we would know it immediately. So
@@ -139,7 +139,7 @@ extensions).
 result?
 
 **Step 5 –** Here is how to get us log files and results reports (perform EVERY step):
-[What must I send to Endpoint Policy Manager support in order to get the FASTEST support?](fastsupport.md)
+[What must I send to Endpoint Policy Manager support in order to get the FASTEST support?](/docs/policypak/policypak/troubleshooting/fastsupport.md)
 
 ## Troubleshooting Scenario 3 (also less good): Bring up a "deployed" machine and install old Endpoint Policy Manager CSEs to reveal the problem
 
@@ -159,4 +159,4 @@ anymore we can look to see what changed on OUR side and then build a new Client 
 version for you to test.
 
 **Step 4 –** Here is how to get us log files and results reports (perform EVERY
-step):[What must I send to Endpoint Policy Manager support in order to get the FASTEST support?](fastsupport.md)
+step):[What must I send to Endpoint Policy Manager support in order to get the FASTEST support?](/docs/policypak/policypak/troubleshooting/fastsupport.md)

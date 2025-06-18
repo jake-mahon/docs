@@ -2,5 +2,5 @@
 
 Review the following for additional information:
 
-- [Linux](databasecustompathlinux.md)
-- [Windows](databasecustompathwindows.md)
+- [Linux](/docs/changetracker/8.1/changetracker/install/deployment/databasecustompathlinux.md)
+- [Windows](/docs/changetracker/8.1/changetracker/install/deployment/databasecustompathwindows.md)

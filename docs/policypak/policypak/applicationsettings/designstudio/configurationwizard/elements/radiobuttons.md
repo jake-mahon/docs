@@ -3,13 +3,13 @@
 Radio buttons can only be configured in a group. If you use the Endpoint Policy Manager Capture
 Wizard, radio buttons are always grouped together automatically, as shown in Figure 126.
 
-![configuring_elements_using_19](../../../../../../../static/img/product_docs/policypak/policypak/applicationsettings/designstudio/configurationwizard/elements/configuring_elements_using_19.webp)
+![configuring_elements_using_19](/img/product_docs/policypak/policypak/applicationsettings/designstudio/configurationwizard/elements/configuring_elements_using_19.webp)
 
 Figure 126. Radio buttons are configured in a group.
 
 It's also possible to un-group radio buttons, as shown in Figure 127.
 
-![configuring_elements_using_20](../../../../../../../static/img/product_docs/policypak/policypak/applicationsettings/designstudio/configurationwizard/elements/configuring_elements_using_20.webp)
+![configuring_elements_using_20](/img/product_docs/policypak/policypak/applicationsettings/designstudio/configurationwizard/elements/configuring_elements_using_20.webp)
 
 Figure 127. Ungrouping radio buttons.
 
@@ -24,14 +24,14 @@ this, press and hold the Ctrl key, then click on the first two radio button item
 both. Then right-click and select "Group," as shown in Figure 128. Repeat this proces for the second
 group.
 
-![configuring_elements_using_21](../../../../../../../static/img/product_docs/policypak/policypak/applicationsettings/designstudio/configurationwizard/elements/configuring_elements_using_21.webp)
+![configuring_elements_using_21](/img/product_docs/policypak/policypak/applicationsettings/designstudio/configurationwizard/elements/configuring_elements_using_21.webp)
 
 Figure 128. Grouping radio buttons.
 
 Then, once the buttons are grouped, you can run the Configuration Wizard over each group
 independently, as shown in Figure 129.
 
-![configuring_elements_using_22](../../../../../../../static/img/product_docs/policypak/policypak/applicationsettings/designstudio/configurationwizard/elements/configuring_elements_using_22.webp)
+![configuring_elements_using_22](/img/product_docs/policypak/policypak/applicationsettings/designstudio/configurationwizard/elements/configuring_elements_using_22.webp)
 
 Figure 129. Using the Configuration Wizard on each group of buttons.
 

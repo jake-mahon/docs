@@ -10,7 +10,7 @@ in order to proceed with using Privilege Secure. It is recommended to check with
 Administrators for login requirements.
 
 There is also a Browser Extension that can be installed for Privilege Secure users. See the
-[Browser Extension App](browserextension/browserextension.md) topic for additional information.
+[Browser Extension App](/docs/privilegesecure/4.2/privilegesecure/accessmanagement/enduser/browserextension/browserextension.md) topic for additional information.
 
 ## First Time Login
 
@@ -39,13 +39,13 @@ Authentication Connector that is set as the default.
 DUO, Symantec VIP, etc) for all user accounts unless otherwise configured by an Administrator. If
 required, first time users must register with an MFA to use with their login credentials.
 
-![Default Login](../../../../../../static/img/product_docs/privilegesecure/privilegesecure/accessmanagement/enduser/defaultloginuser.webp)
+![Default Login](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/enduser/defaultloginuser.webp)
 
 **Step 2 –** Either click the default authentication connector button, or click **Log In with a
 Different Account** to display all of the authentication connectors that are registered with
 Privilege Secure.
 
-![Alternate Login](../../../../../../static/img/product_docs/privilegesecure/privilegesecure/accessmanagement/enduser/alternatelogin.webp)
+![Alternate Login](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/enduser/alternatelogin.webp)
 
 **Step 3 –** Login to Privilege Secure with a configured authentication connector, or enter the user
 credentials.
@@ -53,7 +53,7 @@ credentials.
 - When using an authentication connector, there's no 'username' or 'password' field for the user to
   enter. Instead there's just a single button to login.
 
-![Okta authentication connector](../../../../../../static/img/product_docs/privilegesecure/privilegesecure/accessmanagement/enduser/oktadefault.webp)
+![Okta authentication connector](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/enduser/oktadefault.webp)
 
 - Clicking the authentication connector will redirect the user to the IdP login screen, which will
   log the user in (with whatever MFA is set up in the IdP) and then revert the user back to the
@@ -65,10 +65,10 @@ credentials.
 
 **Step 6 –** Enter the code provided by the registered multi-factor authenticator (MFA).
 
-![Multi Factor Authentication Login](../../../../../../static/img/product_docs/privilegesecure/privilegesecure/accessmanagement/enduser/mfalogin.webp)
+![Multi Factor Authentication Login](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/enduser/mfalogin.webp)
 
 **Step 7 –** Click MFA Login. Privilege Secure opens on the Dashboard Interface.
 
-![Dashboard Interface](../../../../../../static/img/product_docs/privilegesecure/privilegesecure/accessmanagement/enduser/activedashboarduser.webp)
+![Dashboard Interface](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/enduser/activedashboarduser.webp)
 
 Privilege Secure is ready to use.

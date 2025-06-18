@@ -3,7 +3,7 @@
 Use the Folder Identification page to specify folders to target. It is a wizard page for the Delete
 Mailbox Contents operation.
 
-![New Mailbox Action Wizard Folder Identification page](../../../../../../static/img/product_docs/accessanalyzer/admin/action/mailbox/folderidentification.webp)
+![New Mailbox Action Wizard Folder Identification page](/img/product_docs/accessanalyzer/admin/action/mailbox/folderidentification.webp)
 
 Select whether the query results contain a mailbox identification column using the following
 options:
@@ -20,4 +20,4 @@ options:
 
 - No, the query results do not contain a mailbox folder identification column – Selecting this
   enables the Folder Conditions page, used to identify specific folders to target. See the
-  [Mailbox: Folder Conditions](folderconditions.md) topic for additional information.
+  [Mailbox: Folder Conditions](/docs/accessanalyzer/12.0/admin/action/mailbox/folderconditions.md) topic for additional information.

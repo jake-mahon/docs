@@ -2,10 +2,10 @@
 
 The core components for Netwrix Access Analyzer (formerly Enterprise Auditor) are the Access
 Analyzer Console server, SQL Server, and Access Information Center. See the
-[Requirements](../overview.md) topic for the core requirements.
+[Requirements](/docs/accessanalyzer/12.0/requirements/overview.md) topic for the core requirements.
 
 The SharePoint solution can be configured to run without an agent or to use the Access Analyzer
-SharePoint Agent. See the [SharePoint Agent Installation](../../install/sharepointagent/overview.md)
+SharePoint Agent. See the [SharePoint Agent Installation](/docs/accessanalyzer/12.0/install/sharepointagent/overview.md)
 topic for additional information.
 
 In addition to these, integration with either the Netwrix Activity Monitor is required for event
@@ -21,13 +21,13 @@ in both the Documents and Items section and the List, Libraries, and Site sectio
 
 See the following topics for the SharePoint Agent and the target environment requirements:
 
-- [SharePoint Scan Options](sharepoint/scanoptions.md)
-- [SharePoint Support](../target/sharepoint.md)
+- [SharePoint Scan Options](/docs/accessanalyzer/12.0/requirements/solutions/sharepoint/scanoptions.md)
+- [SharePoint Support](/docs/accessanalyzer/12.0/requirements/target/sharepoint.md)
 
 **NOTE:** You can use the **SP_RegisterAzureAppAuth** instant job to make the configuration for
 SharePoint Online easier. This job registers the necessary Microsoft Entra ID application and
 provisions it with the required permissions. See the
-[SP_RegisterAzureAppAuth Job](../../admin/jobs/instantjobs/sp_registerazureappauth.md) topic for
+[SP_RegisterAzureAppAuth Job](/docs/accessanalyzer/12.0/admin/jobs/instantjobs/sp_registerazureappauth.md) topic for
 additional information.
 
 ## SharePoint Solution Requirements on the Access Analyzer Console

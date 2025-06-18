@@ -11,7 +11,7 @@ version management system, which records all versions of a document that were sa
 thus enables you to revert back to historical versions. The configuration of visibility is explained
 in a similar way to the other modules in one place..
 
-![Document modul](../../../../../../../../static/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/clientmodule/documents/documents_1-en.webp)
+![Document modul](/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/clientmodule/documents/documents_1-en.webp)
 
 ## Relevant rights
 
@@ -32,7 +32,7 @@ There are two ways to manage documents and files in Netwrix Password Secure v8:
   saved within the database and can be made available selectively to employees for further
   processing in the future based on their permissions.
 
-![New document](../../../../../../../../static/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/clientmodule/documents/documents_2-en.webp)
+![New document](/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/clientmodule/documents/documents_2-en.webp)
 
 ## Document selection
 
@@ -40,7 +40,7 @@ When selecting the file to be uploaded, you can either browse your file system v
 or add objects by drag & drop. The latter gives you the possibility to directly import several
 documents in one step.
 
-![searching document](../../../../../../../../static/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/clientmodule/documents/documents_3-en.webp)
+![searching document](/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/clientmodule/documents/documents_3-en.webp)
 
 ## Versioning
 
@@ -48,7 +48,7 @@ The heart of each document management system is the ability to capture and archi
 documents or files. All versions of a document can be compared with each other and historical
 versions can be restored if necessary. Netwrix Password Secure provides this functionality via the
 history in the ribbon, as well as in the footer area for ​​the detailed view of a document. This can
-be used in the same way as the [History](../passwords/history.md). The interplay between the
+be used in the same way as the [History](/docs/passwordsecure/9.2/passwordsecure/configuration/advanced_view/clientmodule/passwords/history.md). The interplay between the
 document-specific event logbook and the history provides a complete list of all information that is
 relevant to the handling of sensitive data. Version management can be used to restore any historical
 versions of a document.

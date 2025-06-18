@@ -15,7 +15,7 @@ Configure the credential(s) with the following rights on the proxy server(s):
 - If the applet is deployed as a service, the service account requires the Log on as a service
   privilege
 
-    - See the [FSAA: Applet Settings](../../../admin/datacollector/fsaa/appletsettings.md) topic for
+    - See the [FSAA: Applet Settings](/docs/accessanalyzer/12.0/admin/datacollector/fsaa/appletsettings.md) topic for
       additional information on the applet launch mechanism
 
 - If running FSAC, the service account in the credential profile requires access to the admin share
@@ -55,7 +55,7 @@ within the Connection Profile assigned to the File System scans must be properly
 explained above. Also the firewall rules must be configured to allow for communication between the
 applicable servers.
 
-See the [Proxy Mode with Applet Port Requirements](proxymodeappletports.md) topic for firewall rule
+See the [Proxy Mode with Applet Port Requirements](/docs/accessanalyzer/12.0/requirements/solutions/filesystem/proxymodeappletports.md) topic for firewall rule
 information.
 
 Secure Proxy Communication Considerations
@@ -63,5 +63,5 @@ Secure Proxy Communication Considerations
 For Proxy Mode with Applet scans, the certificate exchange mechanism and certificate exchange port
 must be configured via the File System Access Auditing Data Collector Wizard prior to executing a
 scan. See the
-[FSAA Applet Certificate Management Overview](../../../admin/datacollector/fsaa/certificatemanagement.md)
+[FSAA Applet Certificate Management Overview](/docs/accessanalyzer/12.0/admin/datacollector/fsaa/certificatemanagement.md)
 topic for additional information.

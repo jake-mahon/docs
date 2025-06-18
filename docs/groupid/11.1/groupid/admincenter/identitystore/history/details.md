@@ -65,5 +65,5 @@ On the **History Details** dialog box, the **Note** box displays your note. Remo
 
 **See Also**
 
-- [Identity Store History](view.md)
-- [Admin Center History](../../general/history.md)
+- [Identity Store History](/docs/groupid/11.1/groupid/admincenter/identitystore/history/view.md)
+- [Admin Center History](/docs/groupid/11.1/groupid/admincenter/general/history.md)

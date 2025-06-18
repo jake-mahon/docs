@@ -5,4 +5,4 @@ to run automatically. Create a Synchronize schedule and add Synchronize jobs and
 targets. When the schedule runs, the target jobs and job collections are executed.
 
 To create a Synchronize schedule, see the
-[Synchronize Schedule](../../../admincenter/schedule/synchronize.md) topic.
+[Synchronize Schedule](/docs/groupid/11.1/groupid/admincenter/schedule/synchronize.md) topic.

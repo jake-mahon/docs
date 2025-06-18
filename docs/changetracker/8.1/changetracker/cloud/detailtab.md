@@ -1,6 +1,6 @@
 # Detail Tab
 
-![clouddetailtab](../../../../../static/img/product_docs/changetracker/changetracker/cloud/clouddetailtab.webp)
+![clouddetailtab](/img/product_docs/changetracker/changetracker/cloud/clouddetailtab.webp)
 
 Compliance Score Report:
 

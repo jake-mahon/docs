@@ -13,7 +13,7 @@ For FILE target type, you have to specify a file path. For instance:
 
 **Method 2: Using FOLDER and/or Folder+ Recurse type**.
 
-![478_1_2018-10-11_1352](../../../../../static/img/product_docs/policypak/policypak/leastprivilege/elevate/478_1_2018-10-11_1352.webp)
+![478_1_2018-10-11_1352](/img/product_docs/policypak/policypak/leastprivilege/elevate/478_1_2018-10-11_1352.webp)
 
 you should specify a folder path, such as
 

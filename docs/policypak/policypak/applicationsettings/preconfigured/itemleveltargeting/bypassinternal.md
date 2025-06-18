@@ -24,4 +24,4 @@ You might want to do this for several reasons:
 
 For a video expressing how to bypass Internal ILT, see:
 
-[Bypassing Internal Item Level Targeting Filters](../../../video/applicationsettings/itemleveltargetingbypass.md)
+[Bypassing Internal Item Level Targeting Filters](/docs/policypak/policypak/video/applicationsettings/itemleveltargetingbypass.md)

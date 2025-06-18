@@ -10,7 +10,7 @@ as Active Directory) to the Elasticsearch repository.
 - Organizational Unit
 
 For more on the Replication service, see the
-[Elasticsearch and Replication ](../replication/overview.md)topic for additional information.
+[Elasticsearch and Replication ](/docs/groupid/11.1/groupid/admincenter/replication/overview.md)topic for additional information.
 
 The service is also responsible for syncing data between the Elasticsearch clusters in your
 environment.

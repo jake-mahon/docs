@@ -50,5 +50,5 @@ What do you want to do?
 
 **See Also**
 
-- [Manage the Global Question Pool ](../../../general/globalpool.md)
-- [Set up Authentication via Security Questions](../../../setupauth/securityquestions.md)
+- [Manage the Global Question Pool ](/docs/groupid/11.1/groupid/admincenter/general/globalpool.md)
+- [Set up Authentication via Security Questions](/docs/groupid/11.1/groupid/admincenter/setupauth/securityquestions.md)

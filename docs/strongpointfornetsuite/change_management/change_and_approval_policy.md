@@ -8,7 +8,7 @@ Policies. These Change and Approval Policies define:
 - Level of approval required
 - Approvers
 
-The [Setting Up Policies](setting_up_policies.md) topic has details on setting up the Change /
+The [Setting Up Policies](/docs/strongpointfornetsuite/change_management/setting_up_policies.md) topic has details on setting up the Change /
 Approval Policies.
 
 When Process Issues or Change Requests are created, the impacted customizations and processes are
@@ -36,14 +36,14 @@ Once in place, the policies remind users of the level of change management requi
 monitors the changes that do occur and raises alerts to IT if there are any change violations.
 
 You can create a custom change request form for a Policy Approval. Refer to
-[Using Custom Change Request Forms](use_custom_cr_forms.md) for information on implementing your
+[Using Custom Change Request Forms](/docs/strongpointfornetsuite/change_management/use_custom_cr_forms.md) for information on implementing your
 custom form.
 
 ## Non-Material Changes
 
 Non-material changes are changes detected in objects that are not performed by a human and do not
 have functional impact. You can review these changes on the
-[Non-Material Changes report](change_management_reports.md).
+[Non-Material Changes report](/docs/strongpointfornetsuite/change_management/change_management_reports.md).
 
 Here is the criteria for non-material changes:
 

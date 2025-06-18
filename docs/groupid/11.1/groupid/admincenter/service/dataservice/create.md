@@ -35,7 +35,7 @@ The service is displayed with this name in Directory Manager.
 Step 6 – In the Deployment Name box, enter a deployment name for the service.  
 The application name and deployment name are displayed on the service card. It is as:
 
-![Data Service Card](../../../../../../../static/img/product_docs/groupid/groupid/admincenter/service/dataservice/dataservicecard.webp)
+![Data Service Card](/img/product_docs/groupid/groupid/admincenter/service/dataservice/dataservicecard.webp)
 
 Step 7 – In the IIS Application Name box, enter an IIS deployment name for the service. The name
 should be unique for each Data service deployed in IIS.  
@@ -85,7 +85,7 @@ The Data service runs within a virtual directory in remote IIS while the service
 physically located on disk.
 
 To learn about the remote IIS settings and configurations before deploying a service there, see the
-[Prerequisites for Deployments in Remote IIS](../../portal/remoteiisprerequisites.md) topic.
+[Prerequisites for Deployments in Remote IIS](/docs/groupid/11.1/groupid/admincenter/portal/remoteiisprerequisites.md) topic.
 
 Follow the steps to create a Data service.
 
@@ -105,7 +105,7 @@ and deployment name are displayed on the service card.
 
 Step 7 – To enter information for API URL, Access Token, Username, Password, IIS Application Name,
 and Website, refer to steps 7-11 in the
-[Create a Portal in Remote IIS](../../portal/create.md#create-a-portal-in-remote-iis) topic. Replace
+[Create a Portal in Remote IIS](/docs/groupid/11.1/groupid/admincenter/portal/create.md#create-a-portal-in-remote-iis) topic. Replace
 any reference to the portal with the Data service.
 
 Step 8 – For entering information in the Service Endpoints area, follow steps 9 in the Create a Data
@@ -121,7 +121,7 @@ the API running on a Docker deamon in your environment, so that Directory Manage
 container for the service there and run the service from within that container.
 
 For an overview on application deployment in Docker, see the
-[Prerequisites for Deployments in Docker](../../portal/dockerprerequisites.md) topic.
+[Prerequisites for Deployments in Docker](/docs/groupid/11.1/groupid/admincenter/portal/dockerprerequisites.md) topic.
 
 NOTE: To host the Data service, Docker daemon should be configured to run Windows containers.
 
@@ -142,7 +142,7 @@ Step 6 – In the Deployment Name box, enter a deployment name for the service. 
 and deployment name are displayed on the service card.
 
 Step 7 – To enter information for Port, Service URL, and Container Name, refer to steps 7-9 in the
-[Create a Portal in Docker](../../portal/create.md#create-a-portal-in-docker) topic. Replace any
+[Create a Portal in Docker](/docs/groupid/11.1/groupid/admincenter/portal/create.md#create-a-portal-in-docker) topic. Replace any
 reference to the portal with the Data service.
 
 Step 8 – For entering information in the Service Endpoints area, follow step 9 in the Create a Data

@@ -6,7 +6,7 @@ reset their password at an exorbitant cost or have a self-service tool. Director
 both these functions. Using it:
 
 - Helpdesk – Can reset passwords and unlock accounts for users after authentication. See the
-  [Reset Passwords](../../../admincenter/helpdesk/operation/resetpassword.md) topic for detailed
+  [Reset Passwords](/docs/groupid/11.1/groupid/admincenter/helpdesk/operation/resetpassword.md) topic for detailed
   information.
 - Users – Can reset their own passwords and their own accounts after passing multifactor
   authentication. They can perform these password related functions through various mediums, such
@@ -15,21 +15,21 @@ both these functions. Using it:
     - Directory Manager portal – Using it, they can:
 
         - reset their forgotten passwords. See the
-          [Reset Passwords](../authentication/passwordreset.md) topic for further information on how
+          [Reset Passwords](/docs/groupid/11.1/groupid/portal/user/authentication/passwordreset.md) topic for further information on how
           to reset forgotten passwords.
-        - change their account passwords. See the [ Change your password](changepassword.md) topic
+        - change their account passwords. See the [ Change your password](/docs/groupid/11.1/groupid/portal/user/manage/changepassword.md) topic
           for further information on how to change their account passwords.
         - reset their own password or password of any other user. See the
-          [Reset your password](resetpassword.md) topic for additional information.
-        - unlock their identity store account. See the [Unlock your accounts](unlockaccount.md)
+          [Reset your password](/docs/groupid/11.1/groupid/portal/user/manage/resetpassword.md) topic for additional information.
+        - unlock their identity store account. See the [Unlock your accounts](/docs/groupid/11.1/groupid/portal/user/manage/unlockaccount.md)
           topic for detailed information on how to unlock their identity store accounts.
 
     - Client Software and Web Access
 
         The client software to install on user workstations is called
-        [ Credential Provider](credentialprovider.md) and available for distribution using various
+        [ Credential Provider](/docs/groupid/11.1/groupid/portal/user/manage/credentialprovider.md) and available for distribution using various
         IT enabled distribution methods such as group policy and Microsoft System Center
-        Configuration Manager (SCCM). See the [Install Credential Provider](installcp.md) topic for
+        Configuration Manager (SCCM). See the [Install Credential Provider](/docs/groupid/11.1/groupid/portal/user/manage/installcp.md) topic for
         additional information.
 
         The distributed client enables the **Forgot Password?** and **Unlock Account** links on the

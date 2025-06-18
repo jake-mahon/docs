@@ -40,7 +40,7 @@ SharePoint Solution-Specific Components
 - Access Analyzer SharePoint Agent Server – For agent-based scans, this application can be installed
   on the SharePoint application server that hosts the “Central Administration” component of the
   targeted farm(s) to auditing permissions, content, and sensitive data for SharePoint On-Premise.
-  See the [SharePoint Scan Options](solutions/sharepoint/scanoptions.md) topic for server
+  See the [SharePoint Scan Options](/docs/accessanalyzer/12.0/requirements/solutions/sharepoint/scanoptions.md) topic for server
   requirements.
 
 Activity Event Data Considerations

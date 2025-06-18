@@ -3,7 +3,7 @@
 The Add or Edit Path window is opened from the Path Filtering tab of a monitored host's output
 Properties window.
 
-![addoreditpath](../../../../../../../static/img/product_docs/activitymonitor/activitymonitor/admin/outputs/window/addoreditpath.webp)
+![addoreditpath](/img/product_docs/activitymonitor/activitymonitor/admin/outputs/window/addoreditpath.webp)
 
 - Specify a path to filter during collection – Enter a file path in the textbox or use the ellipsis
   (…) to browse for a folder
@@ -16,7 +16,7 @@ the monitored host.
 
 For NAS devices, the activity agent can configured to add ‘C:\’ to the beginning of the path, which
 is a requirement for the output that is designated for StealthAUDIT.exe or being read by a Netwrix
-Threat Prevention agent. That configuration is on the [Log Files Tab](../logfiles.md). If the option
+Threat Prevention agent. That configuration is on the [Log Files Tab](/docs/activitymonitor/8.0/activitymonitor/admin/outputs/logfiles.md). If the option
 is enabled for this monitored device, start your paths with C:\.
 
 ## Wildcard

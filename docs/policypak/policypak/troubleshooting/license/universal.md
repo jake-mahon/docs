@@ -6,4 +6,4 @@ manipulate the storage location of licenses before new licenses were put in plac
 
 As such you will still see licenses in place when running `PPUPDATE` command.
 
-![826_1_img-01](../../../../../static/img/product_docs/policypak/policypak/troubleshooting/license/826_1_img-01.webp)
+![826_1_img-01](/img/product_docs/policypak/policypak/troubleshooting/license/826_1_img-01.webp)

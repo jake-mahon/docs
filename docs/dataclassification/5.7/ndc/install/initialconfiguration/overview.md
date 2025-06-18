@@ -10,13 +10,13 @@ initial configuration steps.
 On the Instance step, provide the unique name for your Netwrix Data Classification instance. For
 example, _"Production"_.
 
-![initial_config](../../../../../../static/img/product_docs/dataclassification/ndc/install/initialconfiguration/initial_config.webp)
+![initial_config](/img/product_docs/dataclassification/ndc/install/initialconfiguration/initial_config.webp)
 
 Click Next to proceed. See also:
 
-- [Select Processing Mode](modes.md)
-- [Processing Settings](processingsettings.md)
-- [Add Taxonomy](taxonomies.md)
-- [Security](security.md)
-- [Configure Health Alerting](healthalert.md)
-- [Review Your Configuration](reviewconfig.md)
+- [Select Processing Mode](/docs/dataclassification/5.7/ndc/install/initialconfiguration/modes.md)
+- [Processing Settings](/docs/dataclassification/5.7/ndc/install/initialconfiguration/processingsettings.md)
+- [Add Taxonomy](/docs/dataclassification/5.7/ndc/install/initialconfiguration/taxonomies.md)
+- [Security](/docs/dataclassification/5.7/ndc/install/initialconfiguration/security.md)
+- [Configure Health Alerting](/docs/dataclassification/5.7/ndc/install/initialconfiguration/healthalert.md)
+- [Review Your Configuration](/docs/dataclassification/5.7/ndc/install/initialconfiguration/reviewconfig.md)

@@ -4,7 +4,7 @@ The Activity Details report at the server level provides details on every operat
 the selected date range. Activity on DFS Namespaces at this level is rolled up to the server hosting
 the DFS Namespace. This report includes a Permission Changes table.
 
-![Activity Details report at the server level](../../../../../../../../static/img/product_docs/accessinformationcenter/access/informationcenter/resourceaudit/filesystem/server/serveractivitydetails.webp)
+![Activity Details report at the server level](/img/product_docs/accessinformationcenter/access/informationcenter/resourceaudit/filesystem/server/serveractivitydetails.webp)
 
 This report is comprised of the following columns:
 

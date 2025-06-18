@@ -16,7 +16,7 @@ nodes are:
 On expanding a node, its sub-nodes are displayed. On clicking a sub-node, users are redirected to a
 page that contains tabs under that sub-node. It is as:
 
-![navigation_bar](../../../../../../../static/img/product_docs/groupid/groupid/admincenter/portal/design/navigation_bar.webp)
+![navigation_bar](/img/product_docs/groupid/groupid/admincenter/portal/design/navigation_bar.webp)
 
 Directory Manager enables you to customize the nodes, sub-nodes, and their respective tabs.
 
@@ -82,7 +82,7 @@ Note the following:
    navigation bar.
 8. In the **Access Level** drop-down list, select a security role. The node would be visible to
    users of this role and roles with a priority value higher than this role. For all other users,
-   the node would be hidden. See [Priority](../../securityrole/manage.md).  
+   the node would be hidden. See [Priority](/docs/groupid/11.1/groupid/admincenter/securityrole/manage.md).  
    Select _Never_ to hide the node for all users.
 9. In the **Tooltip Text** box, enter the text to appear when a user hovers the mouse over the node.
 10. Use the **Icon Class** box to upload the image (icon) to be displayed with the node name.
@@ -200,7 +200,7 @@ that:
     the browser’s back button to return to the previous page.
 13. In the **Access Level** drop-down list, select a security role. The sub-node would be visible
     for users of this role and roles with a priority value higher than this role. For all other
-    users, the sub-node would be hidden. See [Priority](../../securityrole/manage.md).  
+    users, the sub-node would be hidden. See [Priority](/docs/groupid/11.1/groupid/admincenter/securityrole/manage.md).  
     Select _Never_ to hide the sub-node for all users.
 14. Click **OK**.
 15. Click **Save** on the **Navigation Bar** page.
@@ -298,7 +298,7 @@ You can modify the following for a tab:
     4. **URL** – The address of the webpage to display when a user clicks the tab.
     5. **Access Level** – Select a security role. The tab would be visible to users of this role and
        roles with a priority value higher than this role. For all other users, the tab would be
-       hidden. See [Priority](../../securityrole/manage.md).  
+       hidden. See [Priority](/docs/groupid/11.1/groupid/admincenter/securityrole/manage.md).  
        Select _Never_ to hide the tab for all users.
 
 9. Click **OK** twice on the **Edit Link** pane.
@@ -343,4 +343,4 @@ You can modify the following for a tab:
 
 See Also
 
-- [Design a Portal with Display Types](../displaytype/overview.md)
+- [Design a Portal with Display Types](/docs/groupid/11.1/groupid/admincenter/portal/displaytype/overview.md)

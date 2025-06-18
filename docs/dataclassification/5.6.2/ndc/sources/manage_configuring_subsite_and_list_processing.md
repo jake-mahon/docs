@@ -21,7 +21,7 @@ When new content is defined for crawling (i.e. included), a re-index operation s
 - The **Edit** link allows you to modify settings for the selected list or subsite. See below for
   details.
 
-[<!-- Image removed: transparent.gif not found -->List Configuration](<javascript:void(0)>)
+[<!-- Image removed: transparent.gif not found -->List Configuration](javascript:void(0))
 
 1. To modify list/library settings, select it and click Edit.
 2. In the properties window, configure **Content Fields** and **Special Field mapping** as needed.
@@ -35,7 +35,7 @@ Consider the following:
 - In the absence of a list level configuration the appropriate source defaults will automatically be
   used.
 
-[<!-- Image removed: transparent.gif not found -->Subsite Configuration](<javascript:void(0)>)
+[<!-- Image removed: transparent.gif not found -->Subsite Configuration](javascript:void(0))
 
 1. To modify subsite settings, select the subsite and click Edit.
 2. In the properties window, configure **Content Fields** and **Special Field mapping** as needed.

@@ -13,7 +13,7 @@ subscribe or re-subscribe:
    _Looks like you've opted out of email communication. Click here to get an email and opt back in._
 4. Click on the link. An email is sent to enable you to update your subscription preferences:
 
-    ![Resubscribe to receive Release Note notifications.](../../../static/img/product_docs/strongpointnetsuiteflashlight/troubleshooting/resubscribe.webp)
+    ![Resubscribe to receive Release Note notifications.](/img/product_docs/strongpointnetsuiteflashlight/troubleshooting/resubscribe.webp)
 
 5. Click _update your subscription preferences_.
 6. Click **Yes, resubscribe me!**  

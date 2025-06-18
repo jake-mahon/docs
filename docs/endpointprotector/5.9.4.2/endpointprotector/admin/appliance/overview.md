@@ -5,7 +5,7 @@
 From this section you can view general information about the Server, the System Fail/Over status,
 information on Disk Space usage and Database, and the Server Uptime.
 
-![View general information about the Server](../../../../../../static/img/product_docs/endpointprotector/endpointprotector/admin/appliance/serverinformation.webp)
+![View general information about the Server](/img/product_docs/endpointprotector/endpointprotector/admin/appliance/serverinformation.webp)
 
 ## Server Maintenance
 
@@ -13,7 +13,7 @@ In this section, you can set up a preferential time zone and NTP synchronization
 the IP and DNS, register the client certiﬁcate, set up a self-signing certiﬁcate, perform routine
 operations and manage the SSH access.
 
-![ Set up a preferential time zone and NTP synchronization server](../../../../../../static/img/product_docs/endpointprotector/endpointprotector/admin/appliance/servermaintenance.webp)
+![ Set up a preferential time zone and NTP synchronization server](/img/product_docs/endpointprotector/endpointprotector/admin/appliance/servermaintenance.webp)
 
 ### Time Zone
 
@@ -33,7 +33,7 @@ In this section you can set a preferential time zone and/or sync the appliance t
   Alerts and Logs will be reported after the 5 minutes in a format of your choice
 - Click Refresh Current Time to update the Current server time ﬁeld
 
-![Set a preferential time zone and/or sync the appliance to an NTP source](../../../../../../static/img/product_docs/endpointprotector/endpointprotector/admin/appliance/timezone.webp)
+![Set a preferential time zone and/or sync the appliance to an NTP source](/img/product_docs/endpointprotector/endpointprotector/admin/appliance/timezone.webp)
 
 ### IP Conﬁguration
 
@@ -43,13 +43,13 @@ your network.
 **NOTE:** Once you change the IP address, close and open again the Internet browser and then access
 the Endpoint Protector Administration and Reporting Tool with the new IP address.
 
-![ Change the network settings for the appliance to communicate correctly in your network](../../../../../../static/img/product_docs/endpointprotector/endpointprotector/admin/appliance/ipconfg.webp)
+![ Change the network settings for the appliance to communicate correctly in your network](/img/product_docs/endpointprotector/endpointprotector/admin/appliance/ipconfg.webp)
 
 ### DNS Conﬁguration
 
 In this section you can modify or add a DNS server address and then Save your changes.
 
-![Modify or add a DNS server address and then Save your changes](../../../../../../static/img/product_docs/endpointprotector/endpointprotector/admin/appliance/dnsconfg.webp)
+![Modify or add a DNS server address and then Save your changes](/img/product_docs/endpointprotector/endpointprotector/admin/appliance/dnsconfg.webp)
 
 ### Client Registration Certiﬁcate
 
@@ -88,7 +88,7 @@ the endpoints.
 - On Windows they should be placed in the Certiﬁcate Manager's Local Computer\Certiﬁcates\Personal
   section
 
-![Register and then verify the Endpoint Protector Client certiﬁcate signature](../../../../../../static/img/product_docs/endpointprotector/endpointprotector/admin/appliance/clientregcert.webp)
+![Register and then verify the Endpoint Protector Client certiﬁcate signature](/img/product_docs/endpointprotector/endpointprotector/admin/appliance/clientregcert.webp)
 
 ### Server Certiﬁcate Validation
 
@@ -111,7 +111,7 @@ ensuring trusted and valid certiﬁcates are used.
 
 In this section you can perform appliance operations such as Reboot or Shutdown.
 
-![Perform appliance operations such as Reboot or Shutdown](../../../../../../static/img/product_docs/endpointprotector/endpointprotector/admin/appliance/applianceoperations.webp)
+![Perform appliance operations such as Reboot or Shutdown](/img/product_docs/endpointprotector/endpointprotector/admin/appliance/applianceoperations.webp)
 
 ### SSH Server
 
@@ -119,7 +119,7 @@ In this section you can manage user access to the Appliance through the SSH prot
 
 **_RECOMMENDED:_** Set this option to **Enable** before requesting Support access.
 
-![Manage user access to the Appliance through the SSH protocol](../../../../../../static/img/product_docs/endpointprotector/endpointprotector/admin/appliance/sshserver.webp)
+![Manage user access to the Appliance through the SSH protocol](/img/product_docs/endpointprotector/endpointprotector/admin/appliance/sshserver.webp)
 
 ## SIEM Integration
 
@@ -132,7 +132,7 @@ a SIEM Server you need to select an available SIEM server integration.
 
 **CAUTION:** You can conﬁgure a maximum number of 4 SIEM Server integrations.
 
-![Add, edit or delete an existing SIEM Server integration](../../../../../../static/img/product_docs/endpointprotector/endpointprotector/admin/appliance/siemserverintegration.webp)
+![Add, edit or delete an existing SIEM Server integration](/img/product_docs/endpointprotector/endpointprotector/admin/appliance/siemserverintegration.webp)
 
 To create a SIEM Server, click **Add New** and provide the following information:
 
@@ -156,7 +156,7 @@ To create a SIEM Server, click **Add New** and provide the following information
 
 - Log Types – select from the available options the logs to send to the SIEM Server
 
-![SIEM Intergration - Adding a New Server](../../../../../../static/img/product_docs/endpointprotector/endpointprotector/admin/appliance/siemintegrationnewserver.webp)
+![SIEM Intergration - Adding a New Server](/img/product_docs/endpointprotector/endpointprotector/admin/appliance/siemintegrationnewserver.webp)
 
 **CAUTION:** Please be aware that the SIEM integration feature in Endpoint Protector comes with
 certain limitations. To make use of the latest features of this SIEM integration, your environment

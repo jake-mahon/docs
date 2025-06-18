@@ -4,10 +4,10 @@ The Queries node uses a Access Analyzer data collector to run scans against the 
 Different data collectors are designed for different types of collection. It is necessary for the
 Connection Profile associated with the target hosts to have a sufficient level of rights for the
 selected data collector. See the
-[Permissions by Data Collector (Matrix)](../../../datacollector/permissionmatrix.md) topic for a
+[Permissions by Data Collector (Matrix)](/docs/accessanalyzer/12.0/admin/datacollector/permissionmatrix.md) topic for a
 chart with recommended permissions per data collector.
 
-![Query Selection page](../../../../../../../static/img/product_docs/accessanalyzer/admin/datacollector/queryselection.webp)
+![Query Selection page](/img/product_docs/accessanalyzer/admin/datacollector/queryselection.webp)
 
 The Query Selection view lists all queries for the selected job. Though it is possible to have
 multiple queries in a single job, it is not usually recommended. The listed information includes:
@@ -30,7 +30,7 @@ multiple queries in a single job, it is not usually recommended. The listed info
 
 Add and configure native data tables through the Tables section in the Query Selection view.
 
-![Tables section of Query Selection page](../../../../../../../static/img/product_docs/accessanalyzer/admin/jobs/job/configure/queryselectiontables.webp)
+![Tables section of Query Selection page](/img/product_docs/accessanalyzer/admin/jobs/job/configure/queryselectiontables.webp)
 
 The Tables section at the top has three options:
 
@@ -47,21 +47,21 @@ The Tables section at the top has three options:
 The Queries section is where the job’s preconfigured queries can be edited and where new queries can
 be added.
 
-![Queries section of Query Selection page](../../../../../../../static/img/product_docs/accessanalyzer/admin/jobs/job/configure/queryselectionqueries.webp)
+![Queries section of Query Selection page](/img/product_docs/accessanalyzer/admin/jobs/job/configure/queryselectionqueries.webp)
 
 The Queries section has four options and includes the list of queries for the selected job:
 
 - Add from Library – Opens the Libraries window to select preconfigured data collection queries. See
-  the [Add Query from Library](../../../datacollector/overview.md#add-query-from-library) topic for
+  the [Add Query from Library](/docs/accessanalyzer/12.0/admin/datacollector/overview.md#add-query-from-library) topic for
   additional information.
 - Create Query – Opens the Query Properties window for creating and configuring queries
 - Delete Query – Deletes the selected query from the list. This action does require confirmation.
 - Query Properties – Opens the Query Properties window for the selected query
     - This option is used for query modifications
     - See the
-      [Create or Modify a Query](../../../datacollector/overview.md#create-or-modify-a-query) topic
+      [Create or Modify a Query](/docs/accessanalyzer/12.0/admin/datacollector/overview.md#create-or-modify-a-query) topic
       for additional information
-    - See the topics for the individual [Data Collectors](../../../datacollector/overview.md) for
+    - See the topics for the individual [Data Collectors](/docs/accessanalyzer/12.0/admin/datacollector/overview.md) for
       additional information
 
 ## Right-click Menu
@@ -69,7 +69,7 @@ The Queries section has four options and includes the list of queries for the se
 The Query Selection view also has its own right-click menu for taking action on the queries, tables,
 or the job.
 
-![Right-click menu on the Query Selection page](../../../../../../../static/img/product_docs/accessanalyzer/admin/jobs/job/configure/queryrightclickmenu.webp)
+![Right-click menu on the Query Selection page](/img/product_docs/accessanalyzer/admin/jobs/job/configure/queryrightclickmenu.webp)
 
 The options in the Queries node right-click menu are:
 
@@ -85,7 +85,7 @@ The options in the Queries node right-click menu are:
 - Delete Table – Deletes the selected table
 - Rename Table – Opens the Rename Table window
 - Run Job – Starts job execution for the selected job
-- Add Instant Job – Opens the [Instant Job Wizard](../../instantjobs/overview.md)
+- Add Instant Job – Opens the [Instant Job Wizard](/docs/accessanalyzer/12.0/admin/jobs/instantjobs/overview.md)
 - Create Job (**Ctrl + Alt + A**) – Creates a new job at the same location as the selected job
 
 ## Host List
@@ -93,15 +93,15 @@ The options in the Queries node right-click menu are:
 Jobs with configured queries require a host list to be assigned. This can be done at either the Job
 Group or Job level. Whichever location is used to set the host list for query execution should also
 be the location where the Connection Profile is assigned. See the
-[Job Properties](../properties/overview.md) topic for additional information.
+[Job Properties](/docs/accessanalyzer/12.0/admin/jobs/job/properties/overview.md) topic for additional information.
 
 - Job Groups
     - Host List Assigned – **[Job Group]** > **Settings** > **Host Lists Assignment**. See the
-      [Host Lists Assignment](../../group/hostlistsassignment.md) topic for additional information.
+      [Host Lists Assignment](/docs/accessanalyzer/12.0/admin/jobs/group/hostlistsassignment.md) topic for additional information.
     - Connection Profile Selected – **[Job Group]** > **Settings** > **Connection**. See the
-      [Connection Node](../../group/connection.md) topic for additional information.
+      [Connection Node](/docs/accessanalyzer/12.0/admin/jobs/group/connection.md) topic for additional information.
 - Job Level
-    - Host List Assigned – **[Job]** > **Configure** > **Hosts**. See the [Hosts Node](hosts.md)
+    - Host List Assigned – **[Job]** > **Configure** > **Hosts**. See the [Hosts Node](/docs/accessanalyzer/12.0/admin/jobs/job/configure/hosts.md)
       topic for additional information.
     - Connection Profile Selected – Connection tab of the Job’s Properties Window. See the
-      [Connection Tab](../properties/connection.md) topic for additional information.
+      [Connection Tab](/docs/accessanalyzer/12.0/admin/jobs/job/properties/connection.md) topic for additional information.

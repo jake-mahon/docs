@@ -23,7 +23,7 @@ here.
 Additionally, if you have MULTIPLE Paks for the same application, INCLUDING, say the Firefox
 ABOUT:config Paks, you ALSO need to perform this same UN-check in ALL those Paks.
 
-![568_1_img-1](../../../../../static/img/product_docs/policypak/policypak/troubleshooting/applicationsettings/568_1_img-1.webp)
+![568_1_img-1](/img/product_docs/policypak/policypak/troubleshooting/applicationsettings/568_1_img-1.webp)
 
 ## Method 2
 
@@ -32,4 +32,4 @@ Block all applications from performing settings re-application using ADMX
 This method causes a universal block to Reapply of application settings. You can try this method if
 the first method doesn't operate as expected.
 
-[How do I turn off "Reapply on Launch" for all applications if asked by tech support?](reapplylaunchdisable.md)
+[How do I turn off "Reapply on Launch" for all applications if asked by tech support?](/docs/policypak/policypak/troubleshooting/applicationsettings/reapplylaunchdisable.md)

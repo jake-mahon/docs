@@ -3,18 +3,18 @@
 The E-mail page of the Report Configuration wizard gives you the option to break inheritance and
 select report specific settings for emailing the report.
 
-![Report Configuration wizard E-mail page](../../../../../../static/img/product_docs/accessanalyzer/admin/settings/email.webp)
+![Report Configuration wizard E-mail page](/img/product_docs/accessanalyzer/admin/settings/email.webp)
 
 The default setting for new and included reports is **Use default setting**, which keeps the
 inheritance from the global, job group, or job settings (see the
-[Email Report Options](../../settings/reporting.md#email-report-options),
-[Reporting Node](../../jobs/group/reporting.md), and
-[Report Settings Tab](../../jobs/job/properties/reportsettings.md) topics for additional
+[Email Report Options](/docs/accessanalyzer/12.0/admin/settings/reporting.md#email-report-options),
+[Reporting Node](/docs/accessanalyzer/12.0/admin/jobs/group/reporting.md), and
+[Report Settings Tab](/docs/accessanalyzer/12.0/admin/jobs/job/properties/reportsettings.md) topics for additional
 information). If you want to keep the default, then you can skip this page of the wizard by clicking
 **Next**.
 
 **NOTE:** In order for reports to be emailed, the SMTP server information must be configured in the
-**Settings** > **Notification** node. See the [Notification](../../settings/notification.md) topic
+**Settings** > **Notification** node. See the [Notification](/docs/accessanalyzer/12.0/admin/settings/notification.md) topic
 for additional information.
 
 To configure the setting for the report, use the Settings drop-down menu to select one of the
@@ -29,7 +29,7 @@ following options:
   report. If it is selected, you must then configure the additional fields below.
 - Do not email this report – Select this option to not email the report
 
-![Settings configured to email the report](../../../../../../static/img/product_docs/accessanalyzer/admin/report/wizard/emailconfigured.webp)
+![Settings configured to email the report](/img/product_docs/accessanalyzer/admin/report/wizard/emailconfigured.webp)
 
 If the **Email this report** setting is selected, then the following fields are enabled for you to
 configure:

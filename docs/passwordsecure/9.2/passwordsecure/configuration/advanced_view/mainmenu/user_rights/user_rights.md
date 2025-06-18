@@ -3,7 +3,7 @@
 ## What are user rights?
 
 In the user rights, access to functionalities is configured. Amongst tother things, this category
-includes both the visibility of individual [Client Module](../../clientmodule/client_module.md), as
+includes both the visibility of individual [Client Module](/docs/passwordsecure/9.2/passwordsecure/configuration/advanced_view/clientmodule/client_module.md), as
 well as the use of the import, export or management of rights templates functions. A complete
 listing is directly visible in the user rights.
 
@@ -11,22 +11,22 @@ listing is directly visible in the user rights.
 
 Managing all user rights exclusively at the level of the user would be a time intensive process and
 thus require a disproportionate amount of care and maintenance. In the same way as with the
-[Authorization and protection mechanisms](../../../web_applicaiton/authorization_and_protection/authorization_and_protection_mechanisms.md),
+[Authorization and protection mechanisms](/docs/passwordsecure/9.2/passwordsecure/configuration/web_applicaiton/authorization_and_protection/authorization_and_protection_mechanisms.md),
 an approach can be used in which several users are grouped together. Nevertheless, it must still be
 possible to additionally address the specific requirements of individual users. Some
 functionalities, on the other hand, should be available to all users. In order to do this, Netwrix
 Password Secure offers a three-step concept.
 
-![installation_with_parameters_111](../../../../../../../../static/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/mainmenu/user_rights/installation_with_parameters_111.webp)
+![installation_with_parameters_111](/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/mainmenu/user_rights/installation_with_parameters_111.webp)
 
 When it comes to user rights, the focus is always on the user. The user can receive user rights in
 one of the following three ways:
 
 1. The **personal user right** only applies to a specific user. This is always configured via
-   the[Organisational structure](../../clientmodule/organisationalstructures/organisational_structure.md).
+   the[Organisational structure](/docs/passwordsecure/9.2/passwordsecure/configuration/advanced_view/clientmodule/organisationalstructures/organisational_structure.md).
 
 **User rights to role**s apply to all members of a role and are specified in the
-[Roles](../../clientmodule/roles/roles.md)
+[Roles](/docs/passwordsecure/9.2/passwordsecure/configuration/advanced_view/clientmodule/roles/roles.md)
 
 1. The **global user right** applies to all users of a database without exception. You can configure
    it in the client settings.
@@ -41,22 +41,22 @@ are assigned via roles and not via organisational units!
 NOTE: Only those user rights that the current user possesses themselves can be issued. However, all
 rights can be removed.
 
-![installation_with_parameters_112](../../../../../../../../static/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/mainmenu/user_rights/installation_with_parameters_112.webp)
+![installation_with_parameters_112](/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/mainmenu/user_rights/installation_with_parameters_112.webp)
 
 ## Configuring the security level
 
 The **security level** is an essential element that is also specified in the user rights. This is
-the basis for the configuration of the [User settings](../user_settings/user_settings.md).
+the basis for the configuration of the [User settings](/docs/passwordsecure/9.2/passwordsecure/configuration/advanced_view/mainmenu/user_settings/user_settings.md).
 
-![installation_with_parameters_113](../../../../../../../../static/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/mainmenu/user_rights/installation_with_parameters_113.webp)
+![installation_with_parameters_113](/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/mainmenu/user_rights/installation_with_parameters_113.webp)
 
 ## Searching within user rights
 
 Due to the large number of possible configurations, the search function helps you to quickly find
 the desired configuration. This process is based as usual on the List
-[Search](../../operation_and_setup/search/search.md).
+[Search](/docs/passwordsecure/9.2/passwordsecure/configuration/advanced_view/operation_and_setup/search/search.md).
 
-![installation_with_parameters_114](../../../../../../../../static/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/mainmenu/user_rights/installation_with_parameters_114.webp)
+![installation_with_parameters_114](/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/mainmenu/user_rights/installation_with_parameters_114.webp)
 
 #### Database administrator
 

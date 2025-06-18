@@ -44,7 +44,7 @@ topic for additional information.
 The table has the following columns:
 
 - Checkbox — Check to select one or more items
-- Expand icon — Click the expand (>) icon to show additional information for the session:
+- Expand icon — Click the expand () icon to show additional information for the session:
 
     - The live session viewer allows an admin to watch a remote session that is in progress for
       another user. See the

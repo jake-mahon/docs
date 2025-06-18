@@ -3,7 +3,7 @@
 There are multiple ways to set values in an agent's configuration file on installation. Once an
 agent has been configured and has successfully registered with the Hub, its configuration can be
 managed remotely with the Agent Updates tab.See the
-[Agent Installation](../../install/agent/overview.md) topic for additional information.
+[Agent Installation](/docs/changetracker/8.1/changetracker/install/agent/overview.md) topic for additional information.
 
 Follow these steps to update the agent hub configuration.
 
@@ -11,11 +11,11 @@ Follow these steps to update the agent hub configuration.
 that loads to display the options for Upload an Agent Update andUpdateHubDetails. HubDetails is the
 name of the config file used for agents.
 
-![remoteagentconfig](../../../../../../static/img/product_docs/changetracker/changetracker/admin/settings/remoteagentconfig.webp)
+![remoteagentconfig](/img/product_docs/changetracker/changetracker/admin/settings/remoteagentconfig.webp)
 
 **Step 2 –** Select **Update HubDetails** to open the Update agent hub details window.
 
-![remoteagentconfigsettings](../../../../../../static/img/product_docs/changetracker/changetracker/admin/settings/remoteagentconfigsettings.webp)
+![remoteagentconfigsettings](/img/product_docs/changetracker/changetracker/admin/settings/remoteagentconfigsettings.webp)
 
 **Step 3 –** Select the devices or groups of devices to configure and then enter the desired values.
 
@@ -36,6 +36,6 @@ remove any existing prefix for the target devices.
 
 **Step 4 –** Click **OK** to broadcast the new configuration to the agents on the target devices.
 
-![broadcastagentconfig](../../../../../../static/img/product_docs/changetracker/changetracker/admin/settings/broadcastagentconfig.webp)
+![broadcastagentconfig](/img/product_docs/changetracker/changetracker/admin/settings/broadcastagentconfig.webp)
 
 This should take less than a minute to apply.

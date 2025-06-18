@@ -1,14 +1,14 @@
 # Scenario 4: Elevating a Service Account
 
 **NOTE:** For an overview of this scenario see the
-[Reduce or specify Service Account Rights](../../video/leastprivilege/bestpractices/serviceaccountrights.md)
+[Reduce or specify Service Account Rights](/docs/policypak/policypak/video/leastprivilege/bestpractices/serviceaccountrights.md)
 video.
 
 You might have a service which requires specific privileges. Maybe your service, by default, uses
 Local System, and you want to give it lessrights.
 
 With Endpoint Policy Manager
-[Reduce or specify Service Account Rights](../../video/leastprivilege/bestpractices/serviceaccountrights.md),
+[Reduce or specify Service Account Rights](/docs/policypak/policypak/video/leastprivilege/bestpractices/serviceaccountrights.md),
 you can remove the powerful privileges of the service account and strip out LOCAL SYSTEM and grant a
 specific user the permissions required.
 
@@ -29,4 +29,4 @@ should be trimmed to the specific account you specified to run the service runs 
 Tip: It's also possible to use Scope Filter = SERVICES to make the rule apply to all services that
 run from the specified .exe, regardless of the user.
 
-![A screenshot of a computer Description automatically generated](../../../../../static/img/product_docs/policypak/policypak/leastprivilege/scopefilters/scenario_4_elevating_a_service.webp)
+![A screenshot of a computer Description automatically generated](/img/product_docs/policypak/policypak/leastprivilege/scopefilters/scenario_4_elevating_a_service.webp)

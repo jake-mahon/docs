@@ -14,6 +14,6 @@ PolicyPak) DesignStudio:
 You can see the list of items from the Endpoint Policy Manager DesignStudio Tools menu in
 Figure 164.
 
-![using_designstudio_tools](../../../../../../static/img/product_docs/policypak/policypak/applicationsettings/designstudio/tools/using_designstudio_tools.webp)
+![using_designstudio_tools](/img/product_docs/policypak/policypak/applicationsettings/designstudio/tools/using_designstudio_tools.webp)
 
 Figure 164. DesignStudio Tools menu.

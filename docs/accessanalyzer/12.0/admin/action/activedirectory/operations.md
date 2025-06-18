@@ -3,24 +3,24 @@
 Use Operations page to select one or more operations for the action to perform on the targeted
 Active Directory objects. Some operations have wizard pages to specify the configuration settings.
 
-![Active Directory Action Module Wizard Operations page](../../../../../../static/img/product_docs/activitymonitor/activitymonitor/admin/monitoreddomains/admonitoringconfiguration/operations.webp)
+![Active Directory Action Module Wizard Operations page](/img/product_docs/activitymonitor/activitymonitor/admin/monitoreddomains/admonitoringconfiguration/operations.webp)
 
 The Operations drop-down menu contains the following operations:
 
-- [Clear/Set SID History ](operations/sidhistory.md)
-- [Computer Details](operations/computerdetails.md)
-- [Disable/Enable Computers](operations/disableenablecomputers.md)
-- [Create Groups](operations/creategroups.md)
-- [Create Users](operations/createusers.md)
+- [Clear/Set SID History ](/docs/accessanalyzer/12.0/admin/action/activedirectory/operations/sidhistory.md)
+- [Computer Details](/docs/accessanalyzer/12.0/admin/action/activedirectory/operations/computerdetails.md)
+- [Disable/Enable Computers](/docs/accessanalyzer/12.0/admin/action/activedirectory/operations/disableenablecomputers.md)
+- [Create Groups](/docs/accessanalyzer/12.0/admin/action/activedirectory/operations/creategroups.md)
+- [Create Users](/docs/accessanalyzer/12.0/admin/action/activedirectory/operations/createusers.md)
 - [Delete Objects](#delete-objects)
-- [Disable/Enable Users](operations/disableenableusers.md)
-- [Group Details](operations/groupdetails.md)
-- [Group Membership](operations/groupmembership.md)
+- [Disable/Enable Users](/docs/accessanalyzer/12.0/admin/action/activedirectory/operations/disableenableusers.md)
+- [Group Details](/docs/accessanalyzer/12.0/admin/action/activedirectory/operations/groupdetails.md)
+- [Group Membership](/docs/accessanalyzer/12.0/admin/action/activedirectory/operations/groupmembership.md)
 - [Groups Remove All Members ](#groups-remove-all-members)
-- [Move Objects](operations/moveobjects.md)
-- [Set/Reset Users Password ](operations/setresetpassword.md)
+- [Move Objects](/docs/accessanalyzer/12.0/admin/action/activedirectory/operations/moveobjects.md)
+- [Set/Reset Users Password ](/docs/accessanalyzer/12.0/admin/action/activedirectory/operations/setresetpassword.md)
 - [Unlock Users ](#unlock-users)
-- [Users Details ](operations/usersdetails.md)
+- [Users Details ](/docs/accessanalyzer/12.0/admin/action/activedirectory/operations/usersdetails.md)
 
 Select an operation from the drop-down list and then click **Add**. The selection appears in the
 Selections pane as well as the navigation pane if there is an associated configuration page. If

@@ -34,7 +34,7 @@ viewed in Admin Center.
     The **Identity Store History** page displays history data in a descriptive and concise manner.
     Items are sorted according to the date and time they were last updated, with the most recent at
     the top.  
-    Click a history item to view its details. See the [History Item Details](details.md) topic.
+    Click a history item to view its details. See the [History Item Details](/docs/groupid/11.1/groupid/admincenter/identitystore/history/details.md) topic.
 
 ## Filter History Data
 
@@ -156,6 +156,6 @@ You can export identity store history to Microsoft Excel, CSV, and XML formats.
 
 **See Also**
 
-- [Configure History Tracking](../configure/directoryservice/historytracking.md)
-- [History in Directory Manager](../../history.md)
-- [Event Logging](eventlogging.md)
+- [Configure History Tracking](/docs/groupid/11.1/groupid/admincenter/identitystore/configure/directoryservice/historytracking.md)
+- [History in Directory Manager](/docs/groupid/11.1/groupid/admincenter/history.md)
+- [Event Logging](/docs/groupid/11.1/groupid/admincenter/identitystore/history/eventlogging.md)

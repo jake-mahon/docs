@@ -14,9 +14,9 @@ Dependencies
 - For the **AD_WeakPassword** Job:
 
     - Requires the DSInternals PowerShell Module, which is a third-party package. See the
-      [AD_WeakPasswords Job](ad_weakpasswords.md) topic for additional information.
+      [AD_WeakPasswords Job](/docs/accessanalyzer/12.0/solutions/activedirectory/users/ad_weakpasswords.md) topic for additional information.
     - The AD_WeakPasswords Job depends on a dictionary file. See the
-      [PasswordSecurity: Dictionaries](../../../admin/datacollector/passwordsecurity/dictionaries.md)
+      [PasswordSecurity: Dictionaries](/docs/accessanalyzer/12.0/admin/datacollector/passwordsecurity/dictionaries.md)
       topic for additional information.
 
     **_RECOMMENDED:_** If this job is not to be used, disable the job to prevent execution when the
@@ -35,7 +35,7 @@ Only the **AD_WeakPasswords** Job requires a Connection Profile. It must be set 
 **AD_WeakPasswords** Job (through the Job Properties window) with Domain Administrator privileges.
 
 **NOTE:** The **AD_WeakPassword** Job can be executed with a least privilege credential. See the
-[Active Directory Auditing Configuration](../../../config/activedirectory/access.md) topic for
+[Active Directory Auditing Configuration](/docs/accessanalyzer/12.0/config/activedirectory/access.md) topic for
 additional information.
 
 Schedule Frequency

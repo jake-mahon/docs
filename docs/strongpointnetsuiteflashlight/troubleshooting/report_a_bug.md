@@ -9,4 +9,4 @@ within Flashlight:
 1. Open **Flashlight** > **Support** > **Report a Bug**
 2. Click on **Submit a Ticket** and follow the prompts.
 
-![Report a Bug](../../../static/img/product_docs/strongpointnetsuiteflashlight/troubleshooting/report_bug_800x556.webp)
+![Report a Bug](/img/product_docs/strongpointnetsuiteflashlight/troubleshooting/report_bug_800x556.webp)

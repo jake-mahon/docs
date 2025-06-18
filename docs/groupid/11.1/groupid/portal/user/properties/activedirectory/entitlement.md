@@ -40,4 +40,4 @@ section, such as navigate file servers and SharePoint sites, grant permissions t
 resources, revoke permissions, and more.
 
 Entitlement-related permissions for a security role in an identity store are discussed in the
-[Entitlement](../../../../admincenter/securityrole/permissions.md#entitlement) section.
+[Entitlement](/docs/groupid/11.1/groupid/admincenter/securityrole/permissions.md#entitlement) section.

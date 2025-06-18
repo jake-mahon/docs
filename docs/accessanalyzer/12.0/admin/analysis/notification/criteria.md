@@ -2,7 +2,7 @@
 
 Use the Notification Criteria page to specify criteria to trigger a notification.
 
-![Notification Data Analysis Module wizard Criteria page](../../../../../../static/img/product_docs/accessanalyzer/admin/datacollector/ewsmailbox/criteria.webp)
+![Notification Data Analysis Module wizard Criteria page](/img/product_docs/accessanalyzer/admin/datacollector/ewsmailbox/criteria.webp)
 
 The following options are available:
 
@@ -12,5 +12,5 @@ The following options are available:
   or column in the database. The trigger can be if the property or column value is greater than,
   equal to, or less than the value provided.
 - Advanced Criteria – Use the Filter Builder to create custom triggers when a value meets the
-  defined conditions. See the [Advanced Search](../../navigate/datagrid.md#advanced-search) topic
+  defined conditions. See the [Advanced Search](/docs/accessanalyzer/12.0/admin/navigate/datagrid.md#advanced-search) topic
   for additional information.

@@ -2,12 +2,12 @@
 
 Collections can be edited as well and their properties changed.
 
-![advanced_manipulations_of_3](../../../../../static/img/product_docs/policypak/policypak/feature/advanced/advanced_manipulations_of_3.webp)
+![advanced_manipulations_of_3](/img/product_docs/policypak/policypak/feature/advanced/advanced_manipulations_of_3.webp)
 
 The collection editor enables you to add a comment and change the state of the collection. It also
 allows you to change three settings.
 
-![advanced_manipulations_of_4](../../../../../static/img/product_docs/policypak/policypak/feature/advanced/advanced_manipulations_of_4.webp)
+![advanced_manipulations_of_4](/img/product_docs/policypak/policypak/feature/advanced/advanced_manipulations_of_4.webp)
 
 - **Existing Features Option**
 

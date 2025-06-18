@@ -8,13 +8,13 @@ a subsequent scan (i.e. scanning fewer web applications, scanning fewer site col
 shallower depth scan). Those resources not included in a subsequent scan are marked as deleted in
 the Tier 2 database and subsequently removed from the Tier 1 database.
 
-![Select DLP criteria for this scan page](../../../../../../static/img/product_docs/accessanalyzer/admin/datacollector/spaa/selectdlpcriteria.webp)
+![Select DLP criteria for this scan page](/img/product_docs/accessanalyzer/admin/datacollector/spaa/selectdlpcriteria.webp)
 
 The options on the Select DLP Criteria page are:
 
 - Use Global Criterion Selection – Select this option to inherit sensitive data criteria settings
   from the **Settings** > **Sensitive Data** node. See the
-  [Sensitive Data](../../settings/sensitivedata/overview.md) topic for additional information.
+  [Sensitive Data](/docs/accessanalyzer/12.0/admin/settings/sensitivedata/overview.md) topic for additional information.
 - Use the following selected criteria – Select this option to use the table to select which
   sensitive data criteria to scan for
 - Select All – Click **Select All** to enable all sensitive data criteria for scanning
@@ -29,5 +29,5 @@ The table contains the following types of criteria:
 
     Use the Sensitive Data Criteria Editor in **Settings** > **Sensitive Data** to create and edit
     user-defined criteria. See the
-    [Sensitive Data Criteria Editor](../../../sensitivedatadiscovery/criteriaeditor/overview.md)
+    [Sensitive Data Criteria Editor](/docs/accessanalyzer/12.0/sensitivedatadiscovery/criteriaeditor/overview.md)
     topic for additional information.

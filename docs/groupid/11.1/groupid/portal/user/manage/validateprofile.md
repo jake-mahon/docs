@@ -24,7 +24,7 @@ an extension period. If they do not validate their profile information within th
 either, Directory Manager expires them again and their managers are informed by email. To reactivate
 these accounts, users’ managers must send a request to the administrator or Helpdesk. The
 administrator or Helpdesk user can extend the profile validation period on the
-[Disabled Users](../disableduser.md) page of the portal.
+[Disabled Users](/docs/groupid/11.1/groupid/portal/user/disableduser.md) page of the portal.
 
 NOTE: For notifications to be sent, an SMTP server must be configured for the identity store.
 
@@ -51,7 +51,7 @@ a scheduled job that runs on a set frequency and does the following:
 If profile validation applies to you, then you will see the following message displayed on the **My
 Account** panel:
 
-![validateprofile](../../../../../../../static/img/product_docs/groupid/groupid/portal/user/manage/validateprofile.webp)
+![validateprofile](/img/product_docs/groupid/groupid/portal/user/manage/validateprofile.webp)
 
 The message displays the number of days left to validate your profile.
 
@@ -81,7 +81,7 @@ window.
 The **Manager** field displays the name of your primary manager (if you have one); else it is blank.
 
 To add or change your primary manager, click the ellipsis button next to the field. This launches
-the [Find Dialog Box](../../search/find.md), where you can search and select your primary manager.
+the [Find Dialog Box](/docs/groupid/11.1/groupid/portal/search/find.md), where you can search and select your primary manager.
 
 When you change your primary manager (Manager A), then Manager A is notified by email to accept or
 reject the request. If Manager A accepts, your manager is changed. If Manager A rejects the request,
@@ -89,7 +89,7 @@ you remain with Manager A and a notification is sent to you and Manager A.
 
 NOTE: This is the default flow of the ‘Workflow to Change Manager’ workflow. If the administrator
 disables the workflow or changes the approver, the flow changes accordingly. See
-[Requests](../../request/overview.md).
+[Requests](/docs/groupid/11.1/groupid/portal/request/overview.md).
 
 ## Transfer your direct report
 
@@ -100,7 +100,7 @@ back to the old manager, i.e., you.
 
 NOTE: This is the default flow of the ‘Workflow to Transfer a User’ workflow, with the direct report
 set as the workflow approver. If the administrator disables the workflow or changes the approver,
-the flow changes accordingly. See [Requests](../../request/overview.md).
+the flow changes accordingly. See [Requests](/docs/groupid/11.1/groupid/portal/request/overview.md).
 
 ## Terminate your direct report
 

@@ -9,7 +9,7 @@ Included in the results columns of these saved searches, you will find the follo
 - **Name**: to identify the customization.
 - **ScriptID**: to locate the customization.
 - **Type**: to know more about the customization.
-- **Date Last Used ([DLU](../clean_up/date_last_used.md))**: to know the last time the customization
+- **Date Last Used ([DLU](/docs/strongpointfornetsuite/clean_up/date_last_used.md))**: to know the last time the customization
   was used.
 
 The columns show the existing relationships for the customizations that use:
@@ -21,7 +21,7 @@ The columns show the existing relationships for the customizations that use:
 - Data Sources
 - Forms
 - List  
-  ![Results columns of Saved Searches](../../../static/img/product_docs/strongpointfornetsuite/bundle_removal/results_saved_searches.webp)
+  ![Results columns of Saved Searches](/img/product_docs/strongpointfornetsuite/bundle_removal/results_saved_searches.webp)
 
 **Next Step:**
-[](exporting_information_to_excel.md)[Exporting Information to Excel](exporting_information_to_excel.md)
+[](/docs/strongpointfornetsuite/bundle_removal/exporting_information_to_excel.md)[Exporting Information to Excel](/docs/strongpointfornetsuite/bundle_removal/exporting_information_to_excel.md)

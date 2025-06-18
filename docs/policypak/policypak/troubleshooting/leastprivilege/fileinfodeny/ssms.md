@@ -16,10 +16,10 @@ the screenshot below you will see that even though the version shows 14.0.17289.
 is "Microsoft SQL Server Management Studio - 17.9.1" and is specific to only one version of
 Microsoft SQL Server Management Studio.
 
-![845_1_image-20210418215120-1](../../../../../../static/img/product_docs/policypak/policypak/troubleshooting/leastprivilege/fileinfodeny/845_1_image-20210418215120-1.webp)
+![845_1_image-20210418215120-1](/img/product_docs/policypak/policypak/troubleshooting/leastprivilege/fileinfodeny/845_1_image-20210418215120-1.webp)
 
 ## SOLUTION:
 
 To work around this issue, you can replace the PRODUCT name with a wildcard.
 
-![845_2_image-20210419165857-2](../../../../../../static/img/product_docs/policypak/policypak/troubleshooting/leastprivilege/fileinfodeny/845_2_image-20210419165857-2.webp)
+![845_2_image-20210419165857-2](/img/product_docs/policypak/policypak/troubleshooting/leastprivilege/fileinfodeny/845_2_image-20210419165857-2.webp)

@@ -13,7 +13,7 @@ You can create identity stores for the following providers:
 To create an identity store, you have to specify an identity provider and its connection details.
 
 After creating an identity store, you must configure certain settings for it. These configurations
-are discussed in the [Configure an Identity Store](configure.md) topic.
+are discussed in the [Configure an Identity Store](/docs/groupid/11.1/groupid/admincenter/identitystore/configure.md) topic.
 
 ## Create an Identity Store for Active Directory
 
@@ -39,13 +39,13 @@ service account (gMSA) to connect to Active Directory.
 - For a service account – The service account must have sufficient privileges on the provider to
   facilitate group and identity management operations using Directory Manager. The minimum
   permissions the service account requires for Active Directory are discussed in the
-  [Service Account for Active Directory and Exchange](../../requirements/permissions/adserviceaccount.md)
+  [Service Account for Active Directory and Exchange](/docs/groupid/11.1/groupid/requirements/permissions/adserviceaccount.md)
   topic.
 - For a gMSA – If you provide a service account with
   ‘$’ as its last character (as in MyAdminAccounts$), Directory Manager entertains it as a Group
   Managed Service Account (gMSA). To use a gMSA to connect an identity store to Active Directory,
   make sure the gMSA is configured properly and has sufficient permissions. See the
-  [gMSA for Active Directory](../../requirements/permissions/gmsarequirements.md) topic.
+  [gMSA for Active Directory](/docs/groupid/11.1/groupid/requirements/permissions/gmsarequirements.md) topic.
 
 Step 7 – In the **Service Account Password** box, enter the service account password.  
 Skip this box for a gMSA.
@@ -87,7 +87,7 @@ want to create the identity store for.
 Step 6 – Specify the path to the .pfx certificate in the PFX Certificate box. For that, click
 **Choose File** and browse for the file. Select it and click **Open**.  
 As a prerequisite, the .pfx certificate must be generated on the Directory Manager machine. See the
-[Certificate for Entra ID Authentication ](../../configureentraid/register/modauth.md)topic for
+[Certificate for Entra ID Authentication ](/docs/groupid/11.1/groupid/configureentraid/register/modauth.md)topic for
 information on generating a certificate and then converting it into the .pfx format.
 
 Step 7 – In the PFX Certificate Password box, enter the password that was created while exporting

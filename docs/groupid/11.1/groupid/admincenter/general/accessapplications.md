@@ -33,7 +33,7 @@ To add a third-party application:
 2. Click **Add Apps** on the **GroupID Applications** page to add a third-party application. You are
    redirected to the **Create Application** page, where you can provide the details of the
    application you want to add as a service provider in Directory Manager. See the
-   [Register an Application (Service Provider) in Directory Manager](../../authenticate/asidentityprovider/register.md)
+   [Register an Application (Service Provider) in Directory Manager](/docs/groupid/11.1/groupid/authenticate/asidentityprovider/register.md)
    topic.
 
 ## Enroll your Account
@@ -41,4 +41,4 @@ To add a third-party application:
 1. In Admin Center, click your name in the top right corner and select **My Applications**.
 2. Click **Enroll your account** on the **GroupID Applications** page to enroll the identity store
    account with which you are signed into Admin Center. See the
-   [Enroll your Identity Store Account](../enroll.md) topic for enrollment details.
+   [Enroll your Identity Store Account](/docs/groupid/11.1/groupid/admincenter/enroll.md) topic for enrollment details.

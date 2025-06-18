@@ -14,8 +14,8 @@ following:
   field criterion is met.
 - Approver – The object to send the workflow request for approval.
 
-See the [Create a New Workflow](../../admincenter/workflow/implement.md#create-a-new-workflow)
-section of the [Implement Workflows](../../admincenter/workflow/implement.md) topic for additional
+See the [Create a New Workflow](/docs/groupid/11.1/groupid/admincenter/workflow/implement.md#create-a-new-workflow)
+section of the [Implement Workflows](/docs/groupid/11.1/groupid/admincenter/workflow/implement.md) topic for additional
 information.
 
 ## Endpoint

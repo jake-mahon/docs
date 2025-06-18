@@ -14,10 +14,10 @@ Activity Monitor Agent and is the HTTPS access to the log files.
 
 See the following topics for additional information:
 
-- [Security and Access Control](security.md)
-- [Schema and Resources](resources.md)
+- [Security and Access Control](/docs/activitymonitor/8.0/activitymonitor/restapi/security.md)
+- [Schema and Resources](/docs/activitymonitor/8.0/activitymonitor/restapi/resources.md)
 
-    - [Agent](agent.md)
-    - [Domain](domain.md)
-    - [Host](host.md)
-    - [Output](output.md)
+    - [Agent](/docs/activitymonitor/8.0/activitymonitor/restapi/agent.md)
+    - [Domain](/docs/activitymonitor/8.0/activitymonitor/restapi/domain.md)
+    - [Host](/docs/activitymonitor/8.0/activitymonitor/restapi/host.md)
+    - [Output](/docs/activitymonitor/8.0/activitymonitor/restapi/output.md)

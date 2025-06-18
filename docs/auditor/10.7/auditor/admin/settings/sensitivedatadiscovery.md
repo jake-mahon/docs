@@ -152,7 +152,7 @@ For NDC SQL Database Provider:
 
 Review your sensitive data in Data Discovery and Classification reports. Refer to the following
 Netwrix Auditor help center article for more information about these reports:
-[Data Discovery and Classification Reports](../reports/types/datadiscoveryclassification.md).
+[Data Discovery and Classification Reports](/docs/auditor/10.7/auditor/admin/reports/types/datadiscoveryclassification.md).
 
 ForNDC Endpoint Provider:
 
@@ -171,10 +171,10 @@ ForNDC Endpoint Provider:
 - Click the **Select** column in the Tools menu and review data categories (taxonomies) of your
   sensitive documents.
 - Use filtering capabilities to narrow your search results. See the
-  [Use Filters in Advanced Mode](../search/filteradvanced.md) topic for additional information.
+  [Use Filters in Advanced Mode](/docs/auditor/10.7/auditor/admin/search/filteradvanced.md) topic for additional information.
 - Create an alert triggered by specific actions with your sensitive data.
 
 **_RECOMMENDED:_** Netwrix recommends enable threshold to trigger the new alert. In this case, a
 single alert will be sent instead of many alerts. This can be helpful when Netwrix Auditor detects
 many activity records matching the filters you specified. See the
-[Alerts](../alertsettings/overview.md) topic for additional information.
+[Alerts](/docs/auditor/10.7/auditor/admin/alertsettings/overview.md) topic for additional information.

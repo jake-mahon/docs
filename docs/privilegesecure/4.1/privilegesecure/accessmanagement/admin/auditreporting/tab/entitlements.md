@@ -85,7 +85,7 @@ attribute so that it can be re-enabled in the future.
 
 **Step 6 –** When the entitlements have been reviewed, click Close. Changes are saved to the
 selected access certification task and shown on the
-[Entitlements Tab for Access Certification](entitlements.md).
+[Entitlements Tab for Access Certification](/docs/privilegesecure/4.1/privilegesecure/accessmanagement/admin/auditreporting/tab/entitlements.md).
 
 **NOTE:** It is not necessary to review all entitlements at once. Changes are automatically saved to
 the selected access certification task and can be returned to at any time (the Status will show as

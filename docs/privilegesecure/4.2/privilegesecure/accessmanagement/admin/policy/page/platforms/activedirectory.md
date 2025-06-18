@@ -2,7 +2,7 @@
 
 The Active Directory menu displays the configuration options for Active Directory platforms.
 
-![Active Directory Platform Configuration](../../../../../../../../../static/img/product_docs/accessanalyzer/admin/hostdiscovery/wizard/activedirectory.webp)
+![Active Directory Platform Configuration](/img/product_docs/accessanalyzer/admin/hostdiscovery/wizard/activedirectory.webp)
 
 Details for the selected platform are displayed on the right side of the page. Below are the
 configuration options for an Active Directory Platform.
@@ -16,16 +16,16 @@ configuration options for an Active Directory Platform.
   platform during its discovery process.
 - Password Complexity Policy — The password complexity rules for managed accounts created on the
   resources defined by the selected platform. See the
-  [Password Complexity Page](../passwordcomplexity.md) topic for additional information.
+  [Password Complexity Page](/docs/privilegesecure/4.2/privilegesecure/accessmanagement/admin/policy/page/passwordcomplexity.md) topic for additional information.
 - Password Length — The number of characters required by the selected password policy
 - Arrow icon — Show or Hide password policy details. Click the icon to display the password
   complexity requirements of the selected password policy.
 - Scheduled Change Policy — How often the credentials for a managed account are changed (credential
-  rotation). See the [Credentials Dashboard](../../../dashboard/credentials.md) and
-  [Schedule Policies Page](../schedulepolicies.md) topic for additional information.
+  rotation). See the [Credentials Dashboard](/docs/privilegesecure/4.2/privilegesecure/accessmanagement/admin/dashboard/credentials.md) and
+  [Schedule Policies Page](/docs/privilegesecure/4.2/privilegesecure/accessmanagement/admin/policy/page/schedulepolicies.md) topic for additional information.
 - Verification Schedule — How often to verify the credentials for managed accounts on the resources
   defined by the selected platform. See the
-  [Credentials Dashboard](../../../dashboard/credentials.md) topic for additional information on
+  [Credentials Dashboard](/docs/privilegesecure/4.2/privilegesecure/accessmanagement/admin/dashboard/credentials.md) topic for additional information on
   managed accounts.
 - Reset on Mismatch — When selected, this option will force a password rotation if the password
   verification step finds that the existing password for an account does not match what Privilege

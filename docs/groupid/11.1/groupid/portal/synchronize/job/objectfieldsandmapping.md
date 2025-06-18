@@ -34,15 +34,15 @@ On the **Object, Fields and Mappings** page, map the a attributes with source fi
 
         It displays the following list of new providers that you can use to create a job.
 
-        - [Google Workspace Subscription](googleapp.md)
+        - [Google Workspace Subscription](/docs/groupid/11.1/groupid/portal/synchronize/job/googleapp.md)
 
             Add connection details for Google Workspace.
 
-        - [Office 365 Subscription](office365.md)
+        - [Office 365 Subscription](/docs/groupid/11.1/groupid/portal/synchronize/job/office365.md)
 
             Add Connection details for Office 365.
 
-        - [Exchange Subscription](exchange.md)
+        - [Exchange Subscription](/docs/groupid/11.1/groupid/portal/synchronize/job/exchange.md)
 
             Add connection details for Exchange.
 
@@ -57,7 +57,7 @@ On the **Object, Fields and Mappings** page, map the a attributes with source fi
 3. In the **Script Language** section, specify the scripting language you want to use. Select one of
    the following language:
 
-    - [Visual Basic .NET for Directory Manager (formerly GroupID)](../script/visualbasicnetbasic.md)
+    - [Visual Basic .NET for Directory Manager (formerly GroupID)](/docs/groupid/11.1/groupid/portal/synchronize/script/visualbasicnetbasic.md)
     - Python for Directory Manager (formerly GroupID)
 
 4. The Global Script Editor allows the script author to extend the functionality of Synchronize by
@@ -98,21 +98,21 @@ On the **Object, Fields and Mappings** page, map the a attributes with source fi
 
         | Icon                                                                                                           | Description                                            |
         | -------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------ |
-        | ![undo](../../../../../../../static/img/product_docs/groupid/groupid/portal/synchronize/job/undo.webp)             | Reverses the last change.                              |
-        | ![redo](../../../../../../../static/img/product_docs/groupid/groupid/portal/synchronize/job/redo.webp)             | Re-applies a change reversed using the Undo action.    |
-        | ![indent](../../../../../../../static/img/product_docs/groupid/groupid/portal/synchronize/job/indent.webp)         | Increases the indenting of the current text selection. |
-        | ![outdent](../../../../../../../static/img/product_docs/groupid/groupid/portal/synchronize/job/outdent.webp)       | Decreases the indenting of the current text selection. |
-        | ![comment](../../../../../../../static/img/product_docs/groupid/groupid/portal/synchronize/job/comment.webp)       | Comments the current text selection.                   |
-        | ![uncomment](../../../../../../../static/img/product_docs/groupid/groupid/portal/synchronize/job/uncomment.webp)   | Uncomments the current text selection.                 |
-        | ![uppercase](../../../../../../../static/img/product_docs/groupid/groupid/portal/synchronize/job/uppercase.webp)   | Converts the current text selection to uppercase.      |
-        | ![lowercase](../../../../../../../static/img/product_docs/groupid/groupid/portal/synchronize/job/lowercase.webp)   | Converts the current text selection to lowercase.      |
-        | ![darktheme](../../../../../../../static/img/product_docs/groupid/groupid/portal/synchronize/job/darktheme.webp)   | Switch the theme of the script editor to dark.         |
-        | ![lighttheme](../../../../../../../static/img/product_docs/groupid/groupid/portal/synchronize/job/lighttheme.webp) | Switch the theme of the script editor to light.        |
-        | ![selectall](../../../../../../../static/img/product_docs/groupid/groupid/portal/synchronize/job/selectall.webp)   | Selects all the text in the editor.                    |
+        | ![undo](/img/product_docs/groupid/groupid/portal/synchronize/job/undo.webp)             | Reverses the last change.                              |
+        | ![redo](/img/product_docs/groupid/groupid/portal/synchronize/job/redo.webp)             | Re-applies a change reversed using the Undo action.    |
+        | ![indent](/img/product_docs/groupid/groupid/portal/synchronize/job/indent.webp)         | Increases the indenting of the current text selection. |
+        | ![outdent](/img/product_docs/groupid/groupid/portal/synchronize/job/outdent.webp)       | Decreases the indenting of the current text selection. |
+        | ![comment](/img/product_docs/groupid/groupid/portal/synchronize/job/comment.webp)       | Comments the current text selection.                   |
+        | ![uncomment](/img/product_docs/groupid/groupid/portal/synchronize/job/uncomment.webp)   | Uncomments the current text selection.                 |
+        | ![uppercase](/img/product_docs/groupid/groupid/portal/synchronize/job/uppercase.webp)   | Converts the current text selection to uppercase.      |
+        | ![lowercase](/img/product_docs/groupid/groupid/portal/synchronize/job/lowercase.webp)   | Converts the current text selection to lowercase.      |
+        | ![darktheme](/img/product_docs/groupid/groupid/portal/synchronize/job/darktheme.webp)   | Switch the theme of the script editor to dark.         |
+        | ![lighttheme](/img/product_docs/groupid/groupid/portal/synchronize/job/lighttheme.webp) | Switch the theme of the script editor to light.        |
+        | ![selectall](/img/product_docs/groupid/groupid/portal/synchronize/job/selectall.webp)   | Selects all the text in the editor.                    |
 
     8. Click **Save** to save the changes made to the script.
 
-5. On the [Selected Fields for object types](selectedfield.md) type section, click **Add/Edit
+5. On the [Selected Fields for object types](/docs/groupid/11.1/groupid/portal/synchronize/job/selectedfield.md) type section, click **Add/Edit
    Fields**. You can specify the action to take if the data or object being exported from the source
    does not exist at the destination.
 6. Use the **Map Field** section to map the source and destination fields and to apply
@@ -122,12 +122,12 @@ On the **Object, Fields and Mappings** page, map the a attributes with source fi
 
         Do one of the following:
 
-        - [Map Fields](mappingfield.md)
+        - [Map Fields](/docs/groupid/11.1/groupid/portal/synchronize/job/mappingfield.md)
 
             In the Source column of each destination item, select the source fields that contribute
             the data for the destination.
 
-        - **Apply a [Transform](../transformation/overview.md)**
+        - **Apply a [Transform](/docs/groupid/11.1/groupid/portal/synchronize/transformation/overview.md)**
 
             In the **Transform** column, click the **More Options** button to open the **Transform**
             [ _field_] dialog box and apply a transformation to the field value before it is saved

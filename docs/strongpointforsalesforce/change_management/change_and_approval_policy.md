@@ -40,7 +40,7 @@ determines that a script changed and a Full Software Development Lifecycle was r
 compliance, it looks for an approved Deployment Record. If it does not find one, it flags the change
 as non-compliant. An alert is sent to the Object owners notifying them of the non-compliant change.
 
-1. **Detect the Change**: [Automated Scanner](../installing_strongpoint/setting_up_initial_scan.md)
+1. **Detect the Change**: [Automated Scanner](/docs/strongpointforsalesforce/installing_strongpoint/setting_up_initial_scan.md)
    must be enabled forPlatform Governance for Salesforce to detect a change.
 2. **Log the Change**: creates a Change Log.
 3. **Locate the Relevant Policy**: locates the correct policy for the object.
@@ -55,5 +55,5 @@ as non-compliant. An alert is sent to the Object owners notifying them of the no
       and document what needs to be done to make the change compliant.
 
 6. **Change Reporting and Resolution**: Platform Governance for Salesforce provides predefined
-   [reports](change_management_reports.md) you can review as part of your regular Change Management
+   [reports](/docs/strongpointforsalesforce/change_management/change_management_reports.md) you can review as part of your regular Change Management
    Process.

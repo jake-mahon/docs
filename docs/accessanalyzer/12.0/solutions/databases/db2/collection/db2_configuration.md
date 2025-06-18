@@ -7,7 +7,7 @@ respective reports.
 
 The 3-Db2_Configuration Job uses the SQL Data Collector for queries.
 
-![Query Selection](../../../../../../../static/img/product_docs/accessanalyzer/solutions/databases/postgresql/collection/configurationquery.webp)
+![Query Selection](/img/product_docs/accessanalyzer/solutions/databases/postgresql/collection/configurationquery.webp)
 
 The query is:
 
@@ -22,4 +22,4 @@ changes be made to the 0.Collection jobs before they run.
 It is also recommended that the connection only be established for the 1-Db2 SensitiveDataScan Job.
 Once the connection is established, it applies to all jobs in the 0.Collection job group. It does
 not apply to any other job groups. For additional information on establishing a database connection,
-see [1-Db2_SensitiveDataScan](db2_sensitivedatascan.md).
+see [1-Db2_SensitiveDataScan](/docs/accessanalyzer/12.0/solutions/databases/db2/collection/db2_sensitivedatascan.md).

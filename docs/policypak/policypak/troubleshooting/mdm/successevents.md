@@ -9,7 +9,7 @@ file MSI, and the Endpoint Policy Manager wrapped up policies MSI. However, if 1
 appear, it does not necessarily mean something has gone wrong. MDM could be taking a long time to
 install the MSIs.
 
-![using_policypak_with_mdm_and_20](../../../../../static/img/product_docs/policypak/policypak/troubleshooting/mdm/using_policypak_with_mdm_and_20.webp)
+![using_policypak_with_mdm_and_20](/img/product_docs/policypak/policypak/troubleshooting/mdm/using_policypak_with_mdm_and_20.webp)
 
 If you want to take Endpoint Policy Manager out of the picture and verify that your MDM service is
 correctly deploying any MSI, we recommend the following free MSI, called Terminals MSI. The starting

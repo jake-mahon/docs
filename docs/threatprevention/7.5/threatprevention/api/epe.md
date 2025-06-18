@@ -2,8 +2,8 @@
 
 You can use APIs to perform functions related to Threat Prevention's Enterprise Password Enforcer
 (EPE) solution. These functions pertain to the
-[EPE Settings Window](../admin/configuration/epesettings.md) and the
-[Password Rules Filter](../admin/policies/eventtype/passwordenforcement.md#password-rules-filter) of
+[EPE Settings Window](/docs/threatprevention/7.5/threatprevention/admin/configuration/epesettings.md) and the
+[Password Rules Filter](/docs/threatprevention/7.5/threatprevention/admin/policies/eventtype/passwordenforcement.md#password-rules-filter) of
 the Password Enforcement event type.
 
 - Password Validation Test Against EPE Rules
@@ -19,7 +19,7 @@ the Password Enforcement event type.
 
 The `Test-ValidatePassword` command checks if a user supplied password passes the Enterprise Manager
 Enforcer (EPE) rules configured in the Password Rules event filter and the global settings in the
-[EPE Settings Window](../admin/configuration/epesettings.md).
+[EPE Settings Window](/docs/threatprevention/7.5/threatprevention/admin/configuration/epesettings.md).
 
 The following parameters are required:
 
@@ -39,7 +39,7 @@ Test-ValidatePassword –Server “domain\server” –User “Username” –Pa
 
 The `Import-SICharacterSubstitution` command imports the EPE Character Substitution Dictionary to
 the Enterprise Manager. Imported file content is displayed in the
-[Substitutions Editor Window](../admin/configuration/epesettings.md#substitutions-editor-window)
+[Substitutions Editor Window](/docs/threatprevention/7.5/threatprevention/admin/configuration/epesettings.md#substitutions-editor-window)
 accessed through the EPE Settings window.
 
 The following parameter is required:
@@ -54,7 +54,7 @@ Import-SICharacterSubstitution -FileName "c:\Import\CharacterSubstitution.txt"
 
 The `Export-SICharacterSubstitution` command exports the character substitution data currently being
 used by the Enterprise Manager. The content exported is the same as displayed in the
-[Substitutions Editor Window](../admin/configuration/epesettings.md#substitutions-editor-window).
+[Substitutions Editor Window](/docs/threatprevention/7.5/threatprevention/admin/configuration/epesettings.md#substitutions-editor-window).
 
 Example:
 
@@ -64,7 +64,7 @@ Export-SICharacterSubstitution
 
 The `Import-SICharacterSubstitutionWords` command imports the EPE words subject to character
 substitution to the Enterprise Manager. Imported file content is added to the
-[Words List Dictionary Window](../admin/configuration/epesettings.md#words-list-dictionary-window)
+[Words List Dictionary Window](/docs/threatprevention/7.5/threatprevention/admin/configuration/epesettings.md#words-list-dictionary-window)
 accessed through the EPE Settings window.
 
 The following parameter is required:
@@ -80,7 +80,7 @@ Import-SICharacterSubstitutionWords -FileName "C:\Import\CharacterSubstitutionWo
 The `Export-SICharacterSubstitutionWords` command exports the EPE Words subject to character
 substitution currently being used by the Enterprise Manager. The content exported is the same as
 displayed in the
-[Words List Dictionary Window](../admin/configuration/epesettings.md#words-list-dictionary-window).
+[Words List Dictionary Window](/docs/threatprevention/7.5/threatprevention/admin/configuration/epesettings.md#words-list-dictionary-window).
 
 Example:
 
@@ -90,7 +90,7 @@ Export-SICharacterSubstitutionWords
 
 The `Import-SIPasswordsDictionary` command imports the EPE Password Dictionary to the Enterprise
 Manager from the specified file. Imported file content is displayed in the
-[Password Dictionary Window](../admin/configuration/epesettings.md#password-dictionary-window)
+[Password Dictionary Window](/docs/threatprevention/7.5/threatprevention/admin/configuration/epesettings.md#password-dictionary-window)
 accessed through the EPE Settings window.
 
 The following parameter is required:
@@ -101,7 +101,7 @@ The following parameter is required:
 
 The `Export-SIPasswordsDictionary` command exports the EPE Password Dictionary currently being used
 by the Enterprise Manager. The content exported is the same as displayed in the
-[Password Dictionary Window](../admin/configuration/epesettings.md#password-dictionary-window).
+[Password Dictionary Window](/docs/threatprevention/7.5/threatprevention/admin/configuration/epesettings.md#password-dictionary-window).
 
 Example:
 

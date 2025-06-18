@@ -15,7 +15,7 @@ select **Integrations** to open the Integrations interface.
 On the Integrations interface, select an authentication provider under the Authentication Provider
 node in the navigation pane or from the table to configure, view, or modify its details.
 
-![Integrations interface displaying the details for a Radius authneication provider](../../../../../../../../static/img/product_docs/threatprevention/threatprevention/reportingmodule/configuration/integrations/authenticationprovider/radius.webp)
+![Integrations interface displaying the details for a Radius authneication provider](/img/product_docs/threatprevention/threatprevention/reportingmodule/configuration/integrations/authenticationprovider/radius.webp)
 
 The details page for a RADIUS authentication provider has three tabs:
 
@@ -27,7 +27,7 @@ The details page for a RADIUS authentication provider has three tabs:
 
 Configure the following settings for a RADIUS provider on the Configuration tab:
 
-![Configuration tab for a RADIUS authneication provider](../../../../../../../../static/img/product_docs/threatprevention/threatprevention/reportingmodule/configuration/integrations/authenticationprovider/configurationradius.webp)
+![Configuration tab for a RADIUS authneication provider](/img/product_docs/threatprevention/threatprevention/reportingmodule/configuration/integrations/authenticationprovider/configurationradius.webp)
 
 - Default – The default profile applied when a user is assigned multiple authentication profiles.
   When off, the profile will be determined in alphabetical order of the profile name. Toggle off and
@@ -75,7 +75,7 @@ Click Save to commit the configuration settings.
 The Customization tab is unique to RADIUS authentication providers. It contains the following
 settings that need to be configured:
 
-![Customization tab for a Radius authneication provider](../../../../../../../../static/img/product_docs/threatprevention/threatprevention/reportingmodule/configuration/integrations/authenticationprovider/customizationtab.webp)
+![Customization tab for a Radius authneication provider](/img/product_docs/threatprevention/threatprevention/reportingmodule/configuration/integrations/authenticationprovider/customizationtab.webp)
 
 - Title for MFA Authentication dialog – The title that is displayed to the user when prompted for
   MFA
@@ -100,7 +100,7 @@ profile. To give access to the application to new users, click the New Access bu
 the Add Console Access window. To assign this authentication provider to existing users, go to
 System Settings > User Access Page.
 
-![UserGroups tab for an authneication provider](../../../../../../../../static/img/product_docs/threatprevention/threatprevention/reportingmodule/configuration/integrations/authenticationprovider/usersgroupstab.webp)
+![UserGroups tab for an authneication provider](/img/product_docs/threatprevention/threatprevention/reportingmodule/configuration/integrations/authenticationprovider/usersgroupstab.webp)
 
 The table displays the following information:
 
@@ -122,4 +122,4 @@ The table displays the following information:
       login. This option is only available if an MFA authentication type is applied to the user or
       group.
 
-See the [User Access Page](../../systemsettings/useraccess.md) topic for additional information.
+See the [User Access Page](/docs/threatprevention/7.5/threatprevention/reportingmodule/configuration/systemsettings/useraccess.md) topic for additional information.

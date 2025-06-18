@@ -7,9 +7,9 @@ The VBscript examples we use are being detected...as just that. VBscripts in a z
 
 They are in this location, and sometimes they are caught, and sometimes they are not.
 
-![756_1_img1](../../../../static/img/product_docs/policypak/policypak/troubleshooting/756_1_img1.webp)
+![756_1_img1](/img/product_docs/policypak/policypak/troubleshooting/756_1_img1.webp)
 
 The example files we provide are examples to use or ignore. And, we even put it into the readme of
 the folder about the possibility of this file being seen by download filters.
 
-![756_3_img2](../../../../static/img/product_docs/policypak/policypak/troubleshooting/756_3_img2.webp)
+![756_3_img2](/img/product_docs/policypak/policypak/troubleshooting/756_3_img2.webp)

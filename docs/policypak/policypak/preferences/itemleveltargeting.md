@@ -3,7 +3,7 @@
 One of the best features of Microsoft Group Policy Preferences is its Item-Level Targeting. It
 enables you to filter where a particular Group Policy Preference item will take effect.
 
-**NOTE:** See [Group Policy Preferences: Item Level Targeting](../archive/itemleveltartgeting.md)
+**NOTE:** See [Group Policy Preferences: Item Level Targeting](/docs/policypak/policypak/archive/itemleveltartgeting.md)
 for a video of Group Policy Preferences and Item-Level targeting
 
 If you followed the Quickstart guide in the previous section, then you deployed a Group Policy
@@ -30,11 +30,11 @@ In this example, the net result of using these methods is that your Group Policy
 will only apply to Windows 10 machines that are laptops and within a specific IP address range
 (192.168.2.0–192.168.3.0), and when the user is a member of the Sales Active Directory group.
 
-![group_policy_preferences_item](../../../../static/img/product_docs/policypak/policypak/preferences/group_policy_preferences_item.webp)
+![group_policy_preferences_item](/img/product_docs/policypak/policypak/preferences/group_policy_preferences_item.webp)
 
 You can then choose which item you want to target:
 
-![group_policy_preferences_item_1](../../../../static/img/product_docs/policypak/policypak/preferences/group_policy_preferences_item_1.webp)
+![group_policy_preferences_item_1](/img/product_docs/policypak/policypak/preferences/group_policy_preferences_item_1.webp)
 
 You can apply one or more targeting items to a Microsoft Group Policy Preference item, which enables
 targeting items to be joined logically. You can also add targeting collections, which group together
@@ -42,7 +42,7 @@ targeting items in much the same way parentheses are used in an equation. In thi
 create a complex determination about where a policy will be applied. Collections may be set to And,
 Or, Is, or Is Not.
 
-![group_policy_preferences_item_2](../../../../static/img/product_docs/policypak/policypak/preferences/group_policy_preferences_item_2.webp)
+![group_policy_preferences_item_2](/img/product_docs/policypak/policypak/preferences/group_policy_preferences_item_2.webp)
 
 In the example above the Pak would only apply to (1) Windows 10 machines when (2) the machine is
 portable and (3) the user is in the FABRIKAM\Traveling Sales Users group.
@@ -65,8 +65,8 @@ When Item-Level Targeting is used, it can be seen and verified in the XML view o
 Preference item by choosing the Display Xml option. The Item-Level Targeting is highlighted in the
 Filters section.
 
-![group_policy_preferences_item_3](../../../../static/img/product_docs/policypak/policypak/preferences/group_policy_preferences_item_3.webp)
+![group_policy_preferences_item_3](/img/product_docs/policypak/policypak/preferences/group_policy_preferences_item_3.webp)
 
-![group_policy_preferences_item_4](../../../../static/img/product_docs/policypak/policypak/preferences/group_policy_preferences_item_4.webp)
+![group_policy_preferences_item_4](/img/product_docs/policypak/policypak/preferences/group_policy_preferences_item_4.webp)
 
 The XML of the Group Policy Preference item verifies that Item-Level Targeting is being used.

@@ -89,7 +89,7 @@ requests as appropriate.
 ### Manage the Change or Clean Up
 
 You can find more information about how to use the Change Request under
-[Managing Change](../change_management/change_management_overview.md). Once the appropriate
+[Managing Change](/docs/strongpointforsalesforce/change_management/change_management_overview.md). Once the appropriate
 investigations are conducted and approvals are obtained the customization can be changed as
 appropriate based on company policies and procedures.
 

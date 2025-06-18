@@ -3,7 +3,7 @@
 The information in this section applies to **Select Account Type > Amazon Web Services** account
 type in the User Credentials window.
 
-![User Credentials Window - AWS](../../../../../../../static/img/product_docs/accessanalyzer/admin/settings/connection/profile/connectionaws.webp)
+![User Credentials Window - AWS](/img/product_docs/accessanalyzer/admin/settings/connection/profile/connectionaws.webp)
 
 The required credentials for Amazon Web Services are:
 
@@ -27,7 +27,7 @@ A new connection profile will need to be created to be leveraged in the AWS Solu
 Access Token section.
 
 _Remember,_ these are obtained from AWS when the permissions are configured. See the
-[Configure AWS for Scans](../../../../requirements/target/config/aws.md) topic for additional
+[Configure AWS for Scans](/docs/accessanalyzer/12.0/requirements/target/config/aws.md) topic for additional
 information.
 
 **Step 4 –** Click OK in the User Credentials modal, name the Connection Profile, and click Save.

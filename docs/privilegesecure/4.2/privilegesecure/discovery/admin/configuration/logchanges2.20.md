@@ -155,8 +155,8 @@ Removed various low level Windows log messages (use new “connector action” l
     - "Adding user to local admin group: ((user))"
     - "Successfully added user to local admin group: ((user))"
     - "Successfully removed user from local admin group: ((user))"
-    - "User already removed from admins (((e.type_name))): ((e)), user=((user))"
-    - "User does not exist to remove from admins (((e.type_name))): ((e)), user=((user))"
+    - "User already removed from admins (((e.type_name): ((e)), user=((user))"
+    - "User does not exist to remove from admins (((e.type_name): ((e)), user=((user))"
 
 - Added "debugging": true flag and possibly changed other fields in the following log messages (use
   new “connector action” logs).

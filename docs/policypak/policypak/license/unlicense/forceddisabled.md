@@ -22,15 +22,15 @@ But when the machine is domain joined and GPPreferences policies are being deliv
 Policy, the Endpoint Policy Manager Preferences component can cause an issue because of timing
 outside of our control between the Group Policy / GPPreferences engine and Endpoint Policy Manager.
 This has been a known issue for years. You can
-see[Why do I see slowdowns on my machines when Endpoint Policy Manager Preferences is licensed and computers domain joined? Can this be worked around?](../../troubleshooting/preferences/domainjoined.md)
+see[Why do I see slowdowns on my machines when Endpoint Policy Manager Preferences is licensed and computers domain joined? Can this be worked around?](/docs/policypak/policypak/troubleshooting/preferences/domainjoined.md)
 
 In order to minimize conflicts, we have, in the past, suggested that customers un-license Endpoint
 Policy Manager Preferences when the machine is domain joined.
 
 See
-[How to Un-License any Endpoint Policy ManagerComponent via ADMX or Endpoint Policy Manager Cloud](../../video/license/unlicense.md)/
+[How to Un-License any Endpoint Policy ManagerComponent via ADMX or Endpoint Policy Manager Cloud](/docs/policypak/policypak/video/license/unlicense.md)/
 for additional information. There is also a video you can watch on
-[Troubleshooting with ADMX files](../../video/troubleshooting/admxfiles.md)
+[Troubleshooting with ADMX files](/docs/policypak/policypak/video/troubleshooting/admxfiles.md)
 
 More recently, Universal licenses are delivered with Endpoint Policy Manager Preferences disabled
 (for customers which have domain joined machines), and you need to specifically enable it. In this
@@ -50,7 +50,7 @@ Customers must change this value if they wish to enable this component (which th
 explained later.)
 
 See
-[How do I specifically exclude or prevent a component from performing processing by modifying the license file?](componentsexclude.md)
+[How do I specifically exclude or prevent a component from performing processing by modifying the license file?](/docs/policypak/policypak/license/unlicense/componentsexclude.md)
 
 In logs, CSE shows a message:
 
@@ -69,7 +69,7 @@ Therefore, as an additional precaution to prevent conflicts in domain joined mac
 build 2682 this license must be set to ENABLED=TRUE (or omitted) and we now require this component
 (and only this component) to be explicitly enabled via ADMX setting, as seen below:
 
-![655_1_image001_950x529](../../../../../static/img/product_docs/policypak/policypak/license/unlicense/655_1_image001_950x529.webp)
+![655_1_image001_950x529](/img/product_docs/policypak/policypak/license/unlicense/655_1_image001_950x529.webp)
 
 Starting with build 2682, it will now take two steps for Endpoint Policy Manager Preferences to be
 enabled:
@@ -154,7 +154,7 @@ away from on-prem GPPreferences and use CLOUD or MDM with Endpoint Policy Manage
 then PolicyPak Preferences will always be unlicensed and disabled (even if the aforementioned
 **Specifically enable PolicyPak Preferences (Original version) if licensed** ADMX setting is set.
 
-![forcedisabled1](../../../../../static/img/product_docs/policypak/policypak/license/unlicense/forcedisabled1.webp)
+![forcedisabled1](/img/product_docs/policypak/policypak/license/unlicense/forcedisabled1.webp)
 
 In the future, we plan for Endpoint Policy Manager Preferences to evolve to enable co-existence from
 multiple sources.

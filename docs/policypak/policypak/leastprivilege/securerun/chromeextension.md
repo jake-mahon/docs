@@ -17,25 +17,25 @@ To allow the extensions to be installed, create a New Executable Policy for each
 being blocked. This can be done on either the Computer or User side, depending on who is a member of
 the OU.
 
-![700_1_image-20211111230736-1](../../../../../static/img/product_docs/policypak/policypak/leastprivilege/securerun/700_1_image-20211111230736-1.webp)
+![700_1_image-20211111230736-1](/img/product_docs/policypak/policypak/leastprivilege/securerun/700_1_image-20211111230736-1.webp)
 
 **Step 1 –** Create a Combo Rule.
 
-![700_2_image-20211111230736-2](../../../../../static/img/product_docs/policypak/policypak/leastprivilege/securerun/700_2_image-20211111230736-2.webp)
+![700_2_image-20211111230736-2](/img/product_docs/policypak/policypak/leastprivilege/securerun/700_2_image-20211111230736-2.webp)
 
 **Step 2 –** Select **Path**, **Command-line arguments** and **Apply to child processes**.
 
-![700_3_image-20211111230736-3](../../../../../static/img/product_docs/policypak/policypak/leastprivilege/securerun/700_3_image-20211111230736-3.webp)
+![700_3_image-20211111230736-3](/img/product_docs/policypak/policypak/leastprivilege/securerun/700_3_image-20211111230736-3.webp)
 
 **Step 3 –** Under Path Condition, add file `%SYSTEMROOT%\System32\cmd.exe`.
 
-![700_4_image-20211111230736-4](../../../../../static/img/product_docs/policypak/policypak/leastprivilege/securerun/700_4_image-20211111230736-4.webp)
+![700_4_image-20211111230736-4](/img/product_docs/policypak/policypak/leastprivilege/securerun/700_4_image-20211111230736-4.webp)
 
 **Step 4 –** Under Command-line Arguments, select **Strict equality**; check **Ignore arguments
 case**; under Arguments, we are going to take the first part of the installation command, after
 `cmd.exe`, and replace the last part with asterisks.
 
-![700_5_image-20211111230736-5](../../../../../static/img/product_docs/policypak/policypak/leastprivilege/securerun/700_5_image-20211111230736-5.webp)
+![700_5_image-20211111230736-5](/img/product_docs/policypak/policypak/leastprivilege/securerun/700_5_image-20211111230736-5.webp)
 
 ```
 /d /c "C:\Program Files (x86)\Power Automate Desktop\PAD.EdgeMessageHost.exe" chrome-extension://*/*
@@ -47,8 +47,8 @@ case**; under Arguments, we are going to take the first part of the installation
 
 **Step 5 –** Set action as .Allow and Log.
 
-![700_6_image-20211111230736-6](../../../../../static/img/product_docs/policypak/policypak/leastprivilege/securerun/700_6_image-20211111230736-6.webp)
+![700_6_image-20211111230736-6](/img/product_docs/policypak/policypak/leastprivilege/securerun/700_6_image-20211111230736-6.webp)
 
 **Step 6 –** Rename, set ILT if required and click **Finish**.
 
-![700_7_image-20211111230736-7](../../../../../static/img/product_docs/policypak/policypak/leastprivilege/securerun/700_7_image-20211111230736-7.webp)
+![700_7_image-20211111230736-7](/img/product_docs/policypak/policypak/leastprivilege/securerun/700_7_image-20211111230736-7.webp)

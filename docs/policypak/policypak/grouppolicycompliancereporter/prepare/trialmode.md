@@ -6,7 +6,7 @@ enable trial mode, start out by renaming one Windows 10 endpoint computer to hav
 "computer" in the name, as shown in Figure 4. Ensure it is properly joined to the domain and getting
 Group Policy. Endpoints act fully licensed when they have "computer" in the name.
 
-![gpcr_concepts_and_quickstart_3](../../../../../static/img/product_docs/policypak/policypak/grouppolicycompliancereporter/prepare/gpcr_concepts_and_quickstart_3.webp)
+![gpcr_concepts_and_quickstart_3](/img/product_docs/policypak/policypak/grouppolicycompliancereporter/prepare/gpcr_concepts_and_quickstart_3.webp)
 
 Figure 4. The word "computer" must appear within the name for the test machine.
 

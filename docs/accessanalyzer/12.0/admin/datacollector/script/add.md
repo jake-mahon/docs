@@ -12,9 +12,9 @@ Follow the steps to add a script.
 **Step 3 –** Select the **Data Source** tab and select the desired data collector in the Data
 Collector drop-down menu.
 
-![Query Properties window](../../../../../../static/img/product_docs/accessanalyzer/admin/datacollector/script/querypropertiesexisting.webp)
+![Query Properties window](/img/product_docs/accessanalyzer/admin/datacollector/script/querypropertiesexisting.webp)
 
 **Step 4 –** Click the **Browse Data Source** button to open the VBScript Editor page and add the
 script to run after data collection.
 
-See the [VBScript Editor](editor.md) topic for additional information.
+See the [VBScript Editor](/docs/accessanalyzer/12.0/admin/datacollector/script/editor.md) topic for additional information.

@@ -63,18 +63,18 @@ Endpoint Policy Manager-specific GPO settings:
 - What was changed
 - History and differences of the changes
 
-![921_1_image-1](../../../../static/img/product_docs/policypak/policypak/troubleshooting/921_1_image-1.webp)
+![921_1_image-1](/img/product_docs/policypak/policypak/troubleshooting/921_1_image-1.webp)
 
-![921_2_image-2](../../../../static/img/product_docs/policypak/policypak/troubleshooting/921_2_image-2.webp)
+![921_2_image-2](/img/product_docs/policypak/policypak/troubleshooting/921_2_image-2.webp)
 
 However, Endpoint Policy Manager’s history and differences function applies only to its own
 settings. For instance, Microsoft Group Policy Preferences (like "Services") do not have a history
 function, as they are not managed by Endpoint Policy Manager.
 
-![921_2_image-3](../../../../static/img/product_docs/policypak/policypak/troubleshooting/921_2_image-3.webp)
+![921_2_image-3](/img/product_docs/policypak/policypak/troubleshooting/921_2_image-3.webp)
 
 You can watch a demo of how Endpoint Policy Manager stores and tracks changes in this video:
-[Endpoint Policy Manager MMC: Showing History of items you create](../video/changemanagementutilities/history.md).
+[Endpoint Policy Manager MMC: Showing History of items you create](/docs/policypak/policypak/video/changemanagementutilities/history.md).
 
 ## Summary of Endpoint Policy Manager vs. GPO Change Management Tools
 
@@ -93,22 +93,22 @@ Endpoint Policy Manager-specific settings.
 Here are examples of Endpoint Policy Manager working alongside popular GPO Change Management tools:
 
 - Endpoint Policy Manager with AGPM, see the
-  [Endpoint Policy Manager and AGPM](../video/changemanagementutilities/advancedgrouppolicymanagement.md)
+  [Endpoint Policy Manager and AGPM](/docs/policypak/policypak/video/changemanagementutilities/advancedgrouppolicymanagement.md)
   topic for additional information.
 - Endpoint Policy Manager with Quest's GPOADmin Tool, see the
-  [Endpoint Policy Manager and Quest's GPOADmin Tool](../video/changemanagementutilities/gpoadmintool.md)
+  [Endpoint Policy Manager and Quest's GPOADmin Tool](/docs/policypak/policypak/video/changemanagementutilities/gpoadmintool.md)
   topic for additional information.
 - Endpoint Policy Manager integrated with NetIQ GPA, see the
-  [Endpoint Policy Manager Integrates with NetIQ GPA](../video/changemanagementutilities/netiq.md) topic
+  [Endpoint Policy Manager Integrates with NetIQ GPA](/docs/policypak/policypak/video/changemanagementutilities/netiq.md) topic
   for additional information.
 - Endpoint Policy Manager with Quest (ScriptLogic) Active Administrator, see the
-  [Endpoint Policy Manager and Quest (ScriptLogic) ActiveAdministrator](../video/changemanagementutilities/scriptlogicactiveadministrator.md) topic
+  [Endpoint Policy Manager and Quest (ScriptLogic) ActiveAdministrator](/docs/policypak/policypak/video/changemanagementutilities/scriptlogicactiveadministrator.md) topic
   for additional information.
 - Endpoint Policy Manager with SDM Change Manager, see the
-  [Endpoint Policy Manager and SDM CHANGE MANAGER](../video/changemanagementutilities/sdmchangemanager.md) topic
+  [Endpoint Policy Manager and SDM CHANGE MANAGER](/docs/policypak/policypak/video/changemanagementutilities/sdmchangemanager.md) topic
   for additional information.
 
 Additionally, tools like Netwrix Auditor can monitor all GPO changes for both Microsoft and Endpoint
 Policy Manager-specific and alert you to unwanted changes.
 
-![921_3_image-20230207205126-1](../../../../static/img/product_docs/policypak/policypak/troubleshooting/921_3_image-20230207205126-1.webp)
+![921_3_image-20230207205126-1](/img/product_docs/policypak/policypak/troubleshooting/921_3_image-20230207205126-1.webp)

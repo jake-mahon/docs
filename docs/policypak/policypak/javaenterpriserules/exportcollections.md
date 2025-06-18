@@ -6,7 +6,7 @@ own MDM service, or Endpoint Policy Manager Cloud. To export a policy for later 
 Policy Manager Exporter or Endpoint Policy Manager Cloud, right-click the collection or the policy
 and select **Export to XML**. This will enable you to save an XML file, which you can use later.
 
-![using_policypak_java_rules_13](../../../../static/img/product_docs/policypak/policypak/javaenterpriserules/using_policypak_java_rules_13.webp)
+![using_policypak_java_rules_13](/img/product_docs/policypak/policypak/javaenterpriserules/using_policypak_java_rules_13.webp)
 
 **NOTE:** Exported collections or policies maintain any Item-Level Targeting that has already been
 set. Also, note that Endpoint Policy Manager Java Rules Manager policies are always contained within

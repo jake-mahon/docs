@@ -11,4 +11,4 @@ will use the default Integration API port **9699**. Unless specified, the servic
 
 To use the add-on, you should check the prerequisites and specify configuration settings, as
 described in the next sections. After that, run the installer that will apply settings and start the
-service. See the [Deploy the Service](deployment.md) topic for additional information.
+service. See the [Deploy the Service](/docs/auditor/10.7/auditor/addon/servicenow/deployment.md) topic for additional information.

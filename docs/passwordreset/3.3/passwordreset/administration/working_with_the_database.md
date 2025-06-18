@@ -21,7 +21,7 @@ using SQL Server include:
 - Improved availability if SQL Server is configured for high availability.
 - Increased security.
 
-See solutions to these disadvantages in the [Moving to SQL Server](moving_to_sql_server.md) topic.
+See solutions to these disadvantages in the [Moving to SQL Server](/docs/passwordreset/3.3/passwordreset/administration/moving_to_sql_server.md) topic.
 
 ## Backing up the Database
 

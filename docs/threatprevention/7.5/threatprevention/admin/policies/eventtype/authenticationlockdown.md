@@ -11,7 +11,7 @@ The event filters for the Authentication Lockdown event type are:
 - Hosts (to)
 - Rule Preview
 
-![Policy window - Authentication Lockdown Event Type](../../../../../../../static/img/product_docs/threatprevention/threatprevention/admin/policies/eventtype/authenticationlockdown.webp)
+![Policy window - Authentication Lockdown Event Type](/img/product_docs/threatprevention/threatprevention/admin/policies/eventtype/authenticationlockdown.webp)
 
 Each filter tab acts like an "AND" statement for the filter. Any filter tab left blank is treated
 like an "ALL" for that filter set.
@@ -43,7 +43,7 @@ Use the Authentication Protocol filter for lockdown to set the scope of the poli
 specific authentication event protocols or to exclude specific authentication event protocols from
 being locked down.
 
-![Policy window - Authentication Protocol filter for lockdown](../../../../../../../static/img/product_docs/threatprevention/threatprevention/admin/policies/eventtype/authenticationprotocollockdown.webp)
+![Policy window - Authentication Protocol filter for lockdown](/img/product_docs/threatprevention/threatprevention/admin/policies/eventtype/authenticationprotocollockdown.webp)
 
 - In the Block These Protocols section, check the **All** box to include all protocols or select
   specific protocols::
@@ -54,7 +54,7 @@ being locked down.
     **CAUTION:** Saving all TGT and/or TGS authentication data results in the bloating of the Threat
     Prevention database. Configure policy filters and use Database Maintenance while monitoring
     these protocols to retain data for the necessary timeframe. See the
-    [Database Maintenance Window](../../configuration/databasemaintenance/overview.md) topic for
+    [Database Maintenance Window](/docs/threatprevention/7.5/threatprevention/admin/configuration/databasemaintenance/overview.md) topic for
     additional information.
 
     **_RECOMMENDED:_** Save only a few days' worth of TGT and TGS data at a time.
@@ -72,25 +72,25 @@ Use the AD Perpetrator filter for lockdown to set the scope of the policy to loc
 security principals committing changes or to exclude specific security principals committing changes
 from being locked down.
 
-![AD Perpetrator Protect filter](../../../../../../../static/img/product_docs/threatprevention/threatprevention/admin/policies/eventtype/adperpetratorprotect.webp)
+![AD Perpetrator Protect filter](/img/product_docs/threatprevention/threatprevention/admin/policies/eventtype/adperpetratorprotect.webp)
 
 Select the **Block** or **Allow** option button and then edit the list.
 
-**NOTE:** For the [Password Enforcement Event Type](passwordenforcement.md), selecting **Allow**
+**NOTE:** For the [Password Enforcement Event Type](/docs/threatprevention/7.5/threatprevention/admin/policies/eventtype/passwordenforcement.md), selecting **Allow**
 means that this policy will not validate the new passwords for the accounts listed here. Selecting
 **Block** means that this policy will validate the new passwords for the accounts listed here.
 
 Use the buttons in the Perpetrators and Collections of Perpetrators areas to edit the lists.
 
 - Perpetrators area – The Add (+) button opens the
-  [Select Active Directory Perpetrators Window](window/selectactivedirectory/perpetrators.md).
+  [Select Active Directory Perpetrators Window](/docs/threatprevention/7.5/threatprevention/admin/policies/eventtype/window/selectactivedirectory/perpetrators.md).
 - Collections of Perpetrators area - The Collection button opens the
-  [List of Collections Window](../../configuration/collectionmanager/listcollections.md) to the
+  [List of Collections Window](/docs/threatprevention/7.5/threatprevention/admin/configuration/collectionmanager/listcollections.md) to the
   appropriate Collection category.
 - The Remove (x) button deletes the selected item(s) from that box.
 
 **NOTE:** To enable a Dynamic Policy, use the Collection button to select the desired Dynamic
-Collection. See the [Dynamic Collections](../../configuration/collectionmanager/dynamic.md) topic
+Collection. See the [Dynamic Collections](/docs/threatprevention/7.5/threatprevention/admin/configuration/collectionmanager/dynamic.md) topic
 for additional information.
 
 ## Hosts (from) Filter
@@ -98,11 +98,11 @@ for additional information.
 Use the Hosts (from) filter for lockdown to set the scope of the policy to only lockdown specific
 hosts as originators of an event.
 
-![Policy window - Hosts (from) filter](../../../../../../../static/img/product_docs/threatprevention/threatprevention/admin/policies/eventtype/hostsfromlockdown.webp)
+![Policy window - Hosts (from) filter](/img/product_docs/threatprevention/threatprevention/admin/policies/eventtype/hostsfromlockdown.webp)
 
 Select the **Block** or **Allow** option button and then edit the list.
 
-- For the [Password Enforcement Event Type](passwordenforcement.md), selecting **Allow** means that
+- For the [Password Enforcement Event Type](/docs/threatprevention/7.5/threatprevention/admin/policies/eventtype/passwordenforcement.md), selecting **Allow** means that
   this policy will not validate the new passwords for the accounts listed here. Selecting **Block**
   means that this policy will validate the new passwords for the accounts listed here.
 - For the Authentication Lockdown Event Type, this filter blocks or only allows authentication from
@@ -110,7 +110,7 @@ Select the **Block** or **Allow** option button and then edit the list.
 
 Use the buttons in the Include Hosts area to edit the list.
 
-- The Hosts Add (+) button opens the [Select Computer Window](window/selectcomputers.md).
+- The Hosts Add (+) button opens the [Select Computer Window](/docs/threatprevention/7.5/threatprevention/admin/policies/eventtype/window/selectcomputers.md).
 - The Remove (x) button deletes the selected item(s) from that box.
 
 ## Hosts (to) Filter
@@ -118,11 +118,11 @@ Use the buttons in the Include Hosts area to edit the list.
 Use the Hosts (to) filter for lockdown to set the scope of the policy to only lockdown specific
 hosts as target hosts of an event.
 
-![Policy window - Hosts (to) filter for lockdown](../../../../../../../static/img/product_docs/threatprevention/threatprevention/admin/policies/eventtype/hoststolockdown.webp)
+![Policy window - Hosts (to) filter for lockdown](/img/product_docs/threatprevention/threatprevention/admin/policies/eventtype/hoststolockdown.webp)
 
 Use the buttons in the Include Hosts area to edit the list.
 
-- The Hosts Add (+) button opens the [Select Computer Window](window/selectcomputers.md).
+- The Hosts Add (+) button opens the [Select Computer Window](/docs/threatprevention/7.5/threatprevention/admin/policies/eventtype/window/selectcomputers.md).
 - The Remove (x) button deletes the selected item(s) from that box.
 
 ## Rule Preview Filter
@@ -130,7 +130,7 @@ Use the buttons in the Include Hosts area to edit the list.
 The Rule Preview filter displays a summary of the selected filter options. This is primarily used
 for troubleshooting.
 
-![Event Type - Rule Preview filter](../../../../../../../static/img/product_docs/threatprevention/threatprevention/admin/policies/eventtype/rulepreview.webp)
+![Event Type - Rule Preview filter](/img/product_docs/threatprevention/threatprevention/admin/policies/eventtype/rulepreview.webp)
 
 The text displayed represents the rules created based on the policy’s selected filters. Each row is
 a selected filter. Notice the Word Wrap checkox. If checked, a filter statement may cover multiple

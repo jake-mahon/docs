@@ -3,8 +3,8 @@
 Use this APi to create a new data source.
 
 See the
-[Create a Data Source for ODBC](../../admincenter/datasource/create.md#create-a-data-source-for-odbc)
-section of the [Create a Data Source](../../admincenter/datasource/create.md) topic to create an
+[Create a Data Source for ODBC](/docs/groupid/11.1/groupid/admincenter/datasource/create.md#create-a-data-source-for-odbc)
+section of the [Create a Data Source](/docs/groupid/11.1/groupid/admincenter/datasource/create.md) topic to create an
 ODBC data source using Directory Manager.
 
 ## Endpoint
@@ -44,7 +44,7 @@ an ODBC-compatible provider.
 
 #### Sample Request Syntax
 
-[Copy](<javascript:void(0);>)
+[Copy](javascript:void(0);)
 
 ```
 {

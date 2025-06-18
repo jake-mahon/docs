@@ -6,7 +6,7 @@ Follow the steps to add a Website Resource to the Privilege Secure Console.
 
 **Step 2 –** Click the Plus icon and select New Website from the drop-down list.
 
-![Add New Website Resource](../../../../../../../../static/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/add/addnewwebsite.webp)
+![Add New Website Resource](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/add/addnewwebsite.webp)
 
 **Step 3 –** Enter the following information:
 
@@ -23,7 +23,7 @@ Follow the steps to add a Website Resource to the Privilege Secure Console.
 - Service Account – _(optional)_ The service account used when activity _actions_ require a
   provisioned account to interact with the resource, e.g. custom PowerShell. From the drop-down
   menu, select a previously added service account. See the
-  [Service Accounts Page](../../configuration/page/serviceaccounts.md) topic for additional
+  [Service Accounts Page](/docs/privilegesecure/4.2/privilegesecure/accessmanagement/admin/configuration/page/serviceaccounts.md) topic for additional
   information.
 
     - Add New Service Account — Open the Add New Service Account window. The fields are identical to
@@ -31,5 +31,5 @@ Follow the steps to add a Website Resource to the Privilege Secure Console.
 
 **Step 4 –** Click **Save** to add the website to the console.
 
-The new website has been onboarded. See the [Website Details Page](../page/details/website.md) topic
+The new website has been onboarded. See the [Website Details Page](/docs/privilegesecure/4.2/privilegesecure/accessmanagement/admin/policy/page/details/website.md) topic
 for additional information.

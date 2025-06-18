@@ -59,7 +59,7 @@ The `Export-SIPolicy` command retrieves the specified policy or policies as an X
 Prevention into PowerShell or a specified location if you use PowerShell file redirection. The data
 produced by this command is identical in format to that produced by the Administration Console
 export function. See the
-[Export Policies and Templates Window](../admin/tools/exportpoliciestemplates.md) topic for
+[Export Policies and Templates Window](/docs/threatprevention/7.5/threatprevention/admin/tools/exportpoliciestemplates.md) topic for
 additional information.
 
 The following parameter(s) are required:
@@ -79,7 +79,7 @@ Export-SIPolicy -PolicyIDs "255" >>c:\Import\ExampleExport1.xml
 The `Import-SIPolicy` command imports a policy into the Enterprise Manager from an external XML
 file. This command is used to replace/modify an existing policy or create a new one. The data
 produced by this command is identical in format to that produced by the Administration Console
-import function. See the [Import Window](../admin/tools/import.md) topic for additional information.
+import function. See the [Import Window](/docs/threatprevention/7.5/threatprevention/admin/tools/import.md) topic for additional information.
 
 During the import process, the `Import-SIPolicy`command checks existing policy GUIDs against the
 GUIDs in the XML file. One of the following actions occur:
@@ -99,7 +99,7 @@ The following parameter is required:
 
 - FileName [String] – Path to file with valid XML content
 
-Policies exported from the [Policies Interface](../admin/policies/overview.md) have the option to be
+Policies exported from the [Policies Interface](/docs/threatprevention/7.5/threatprevention/admin/policies/overview.md) have the option to be
 password protected. When importing these policies, the following parameter is required along with
 the FileName:
 

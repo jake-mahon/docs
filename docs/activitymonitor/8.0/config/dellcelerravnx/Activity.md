@@ -34,7 +34,7 @@ Checklist Item 2: Install Dell CEE
     - Dell CEE 8.4.2 through Dell CEE 8.6.1 are not supported for use with the VCAPS feature
     - Dell CEE requires .NET Framework 3.5 to be installed on the Windows proxy server
 
-- See the [Install & Configure Dell CEE](InstallCEE.md) topic for instructions.
+- See the [Install & Configure Dell CEE](/docs/activitymonitor/8.0/config/dellcelerravnx/InstallCEE.md) topic for instructions.
 
 Checklist Item 3: Dell Device Configuration
 

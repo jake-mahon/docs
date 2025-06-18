@@ -98,7 +98,7 @@ attachment’s file type is a scan-able format, then it can extract text from th
 Character Recognition (OCR) scans for Raster image files by enabling the option on the SDD Audit
 Settings page in the File System Access Auditor Data Collector Wizard. This is an option for the
 Sensitive Data Scan category. See the
-[1-SEEK System Scans Job](../solutions/filesystem/collection/1-seek_system_scans.md) topic for
+[1-SEEK System Scans Job](/docs/accessanalyzer/12.0/solutions/filesystem/collection/1-seek_system_scans.md) topic for
 additional information.
 
 ### Spreadsheet

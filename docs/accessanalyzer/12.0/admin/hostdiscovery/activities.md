@@ -2,7 +2,7 @@
 
 The Activities pane provides several options for managing Host Discovery queries.
 
-![Activities pane](../../../../../static/img/product_docs/accessanalyzer/admin/hostdiscovery/activities.webp)
+![Activities pane](/img/product_docs/accessanalyzer/admin/hostdiscovery/activities.webp)
 
 The options are:
 
@@ -24,10 +24,10 @@ The options are:
 
 - Schedule – Opens the Schedule wizard to schedule query execution
 
-    - See the [Schedule](../settings/schedule.md) topic for additional information on the Schedule
+    - See the [Schedule](/docs/accessanalyzer/12.0/admin/settings/schedule.md) topic for additional information on the Schedule
       wizard
 
-- View Host List – Opens the [Host Management](../hostmanagement/overview.md) node directly to the
+- View Host List – Opens the [Host Management](/docs/accessanalyzer/12.0/admin/hostmanagement/overview.md) node directly to the
   selected query’s generated host list
 
 These options are also available through a pop-up menu accessed by right-clicking on a query.

@@ -6,14 +6,14 @@ Manager GPCR Server the Auditor folder is created within
 `c:\ProgramFiles(x86)\PolicyPak\PolicyPak Group Policy Compliance Reporter Server`, as shown in
 Figure 48. Share that folder as Read::Everyone.
 
-![gpcr_server_with_push_mode_12](../../../../../../../static/img/product_docs/policypak/policypak/grouppolicycompliancereporter/mode/push/setup/gpcr_server_with_push_mode_12.webp)
+![gpcr_server_with_push_mode_12](/img/product_docs/policypak/policypak/grouppolicycompliancereporter/mode/push/setup/gpcr_server_with_push_mode_12.webp)
 
 Figure 48. Sharing the Auditor folder.
 
 **Step 2 –** Next, in the wizard, specify the UNC path to `PPGPCR.Auditor.exe`, as shown in
 Figure 49.
 
-![gpcr_server_with_push_mode_13](../../../../../../../static/img/product_docs/policypak/policypak/grouppolicycompliancereporter/mode/push/setup/gpcr_server_with_push_mode_13.webp)
+![gpcr_server_with_push_mode_13](/img/product_docs/policypak/policypak/grouppolicycompliancereporter/mode/push/setup/gpcr_server_with_push_mode_13.webp)
 
 Figure 49. Entering the UNC path for the auditor EXE.
 

@@ -8,7 +8,7 @@ policy for them.
 The Endpoint Policy Manager Device Manager Help Tool can be found in the download in the Endpoint
 Policy Manager Extras folder.
 
-![helper1](../../../../../static/img/product_docs/policypak/policypak/device/devicemanager/helper1.webp)
+![helper1](/img/product_docs/policypak/policypak/device/devicemanager/helper1.webp)
 
 **NOTE:** The Endpoint Policy Manager Device Manager Helper tool may need local administrative
 rights to run and also needs the WinRM service started.
@@ -17,7 +17,7 @@ rights to run and also needs the WinRM service started.
 
 Follow the steps to generate a device list that can be used for creating Device Manager policies.
 
-![helper2](../../../../../static/img/product_docs/policypak/policypak/device/devicemanager/helper2.webp)
+![helper2](/img/product_docs/policypak/policypak/device/devicemanager/helper2.webp)
 
 **Step 1 –** Open the Endpoint Policy Manager Device Manager Helper.
 
@@ -27,12 +27,12 @@ and/or CD-ROMs. Only pages for detected devices are shown.
 The Device Manager Helper tool enables you to quickly gather Instance Paths for connected and
 non-connected devices.
 
-![helper3](../../../../../static/img/product_docs/policypak/policypak/device/devicemanager/helper3.webp)
+![helper3](/img/product_docs/policypak/policypak/device/devicemanager/helper3.webp)
 
 **Step 2 –** On the Select Disk Devices window, right-click to automatically copy the detail to the
 buffer for later pasting.
 
-![helper4](../../../../../static/img/product_docs/policypak/policypak/device/devicemanager/helper4.webp)
+![helper4](/img/product_docs/policypak/policypak/device/devicemanager/helper4.webp)
 
 You can also save the list of all devices at the end of the Wizard using the **Save application list
 to this XML** option.
@@ -40,4 +40,4 @@ to this XML** option.
 Then, you may use this list using the previously described wizard pages such as Allow Device by
 Serial Number and Allow Device by BitLocker Key, as shown in the example screen below.
 
-![helper5](../../../../../static/img/product_docs/policypak/policypak/device/devicemanager/helper5.webp)
+![helper5](/img/product_docs/policypak/policypak/device/devicemanager/helper5.webp)

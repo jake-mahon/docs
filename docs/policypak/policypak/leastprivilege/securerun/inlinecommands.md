@@ -11,7 +11,7 @@ cmd /c "mkdir C:\TEST & copy c:\Windows\notepad.exe C:\TEST"
 ![A screenshot of a computer error
 
 Description automatically
-generated](../../../../../static/img/product_docs/policypak/policypak/leastprivilege/securerun/securerun_and_inline_commands.webp)
+generated](/img/product_docs/policypak/policypak/leastprivilege/securerun/securerun_and_inline_commands.webp)
 
 Normally, users don’t do this. But it could be valid during an application installation or program
 setup. You can see an example of this used in the Microsoft
@@ -20,5 +20,5 @@ article.
 
 SecureRun will automatically try to block such attempts. For more information on how to deal wit
 this issue, please see
-[Why does Endpoint Policy Manager SecureRun block "inline commands" and what can I do to overcome or revert the behavior ?](../../troubleshooting/leastprivilege/securerun/inlinecommands.md)
+[Why does Endpoint Policy Manager SecureRun block "inline commands" and what can I do to overcome or revert the behavior ?](/docs/policypak/policypak/troubleshooting/leastprivilege/securerun/inlinecommands.md)
 for guidance and details.

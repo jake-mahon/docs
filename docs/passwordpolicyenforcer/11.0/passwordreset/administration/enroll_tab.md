@@ -2,7 +2,7 @@
 
 Use the **Enroll** tab to maintain the list of enrollment questions and options.
 
-![configuring_npr_2](../../../../../static/img/product_docs/passwordpolicyenforcer/passwordreset/administration/configuring_npr_2.webp)
+![configuring_npr_2](/img/product_docs/passwordpolicyenforcer/passwordreset/administration/configuring_npr_2.webp)
 
 ### Question List
 
@@ -35,7 +35,7 @@ Follow the steps below to remove a question from the list.
 
 **NOTE:** You can rearrange questions by dragging them. You can also replace question lists with
 text boxes so users can enter their own questions. See the
-[Editing the HTML Templates](editing_the_html_templates.md) document for more information
+[Editing the HTML Templates](/docs/passwordpolicyenforcer/11.0/passwordreset/administration/editing_the_html_templates.md) document for more information
 
 ### Options
 

@@ -49,7 +49,7 @@ credentials. For example:
 Windows-based platforms:
 
 WALLET_LOCATION = (SOURCE = (METHOD = file) (METHOD_DATA =
-(DIRECTORY="D:\\myapp\\atp_credentials")))
+(DIRECTORY="D:\\myapp\\atp_credentials")
 
 SSL_SERVER_DN_MATCH=yes
 
@@ -136,7 +136,7 @@ Do the following:
 1. Update your sqlnet.ora file. Example:
 
     WALLET_LOCATION = (SOURCE = (METHOD = file) (METHOD_DATA =
-    (DIRECTORY="/home/atpc_credentials")))
+    (DIRECTORY="/home/atpc_credentials")
 
 2. Copy the entries in the `tnsnames.ora` file provided in the Autonomous Transaction Processing
    wallet to your existing `tnsnames.ora` file.

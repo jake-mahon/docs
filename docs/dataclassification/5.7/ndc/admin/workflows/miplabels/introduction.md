@@ -17,9 +17,9 @@ example, you use the protection label to be available by the person from the dom
 this case, it will require authentication, such as password.
 
 You can apply the MIP labels to the file share and SharePoint sources. Specify this information
-using the [Create a Workflow using Add Workflow Wizard](../addworkflowwizard.md). Review the
+using the [Create a Workflow using Add Workflow Wizard](/docs/dataclassification/5.7/ndc/admin/workflows/addworkflowwizard.md). Review the
 following for additional information:
 
-- [Set Up MIP Integration](configureinfrastructure.md)
-- [MIP Labels Configuration](configurendc.md)
+- [Set Up MIP Integration](/docs/dataclassification/5.7/ndc/admin/workflows/miplabels/configureinfrastructure.md)
+- [MIP Labels Configuration](/docs/dataclassification/5.7/ndc/admin/workflows/miplabels/configurendc.md)
 - Modify MIP Label

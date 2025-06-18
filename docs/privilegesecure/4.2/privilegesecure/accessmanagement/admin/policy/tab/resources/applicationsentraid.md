@@ -3,7 +3,7 @@
 The Applications tab for Microsoft Entra ID (formerly Azure AD) shows information about the
 applications installed on the selected resource.
 
-![Applications Tab Entra ID](../../../../../../../../../static/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/tab/resources/applicationsazuread.webp)
+![Applications Tab Entra ID](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/tab/resources/applicationsazuread.webp)
 
 The Applications tab has the following features:
 

@@ -7,7 +7,7 @@ enrolling, they will not be able to sign into Directory Manager.
 To enroll, a user must register his or her identity store account in Directory Manager using one or
 more authentication types. When a user enrolls for multifactor authentication, it also suffices for
 second factor authentication, and vice versa. See the
-[Authentication Policy](identitystore/configure/authpolicy.md) topic for a list of supported
+[Authentication Policy](/docs/groupid/11.1/groupid/admincenter/identitystore/configure/authpolicy.md) topic for a list of supported
 authentication types.
 
 - For second factor authentication, a user must enroll his or her account with any one

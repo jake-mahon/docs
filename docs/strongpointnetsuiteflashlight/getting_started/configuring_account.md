@@ -8,8 +8,8 @@ accomplish this configuration:
 2. Scroll down to the **Optimizing NetSuite** section.
 3. Set **Number of Rows in List Segments** to _1000_  
    If the field is grayed and cannot be edited, refer to the troubleshooting article
-   [List Segments Field Cannot be Edited](../troubleshooting/list_segments_not_editable.md).
+   [List Segments Field Cannot be Edited](/docs/strongpointnetsuiteflashlight/troubleshooting/list_segments_not_editable.md).
 
-![listsegments](../../../static/img/product_docs/strongpointnetsuiteflashlight/getting_started/listsegments.webp)
+![listsegments](/img/product_docs/strongpointnetsuiteflashlight/getting_started/listsegments.webp)
 
 You are now ready to use Flashlight to document your account.

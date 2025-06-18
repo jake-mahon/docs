@@ -15,11 +15,11 @@ To access the ERD view:
 1. Open **Flashlight** > **Tools** > **ERD**
 2. Select a **Record Type**
 
-    ![ERD Filter Options](../../../static/img/product_docs/strongpointnetsuiteflashlight/using_flashlight/erd_filters_800x231.webp)
+    ![ERD Filter Options](/img/product_docs/strongpointnetsuiteflashlight/using_flashlight/erd_filters_800x231.webp)
 
 3. Click **Show Record ERD** to generate the diagram.
 
-    ![ERD](../../../static/img/product_docs/strongpointnetsuiteflashlight/using_flashlight/erd_800x517.webp)
+    ![ERD](/img/product_docs/strongpointnetsuiteflashlight/using_flashlight/erd_800x517.webp)
 
 4. The left panel displays your selected **Record Type**
 5. Click on any field in the ERD to see:

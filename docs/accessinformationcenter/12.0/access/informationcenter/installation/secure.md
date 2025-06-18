@@ -3,7 +3,7 @@
 There are two options for accessing the Access Information Center. You can either go to the Access
 Information Center website directly or you can access it via the Web Console. The Web Console uses
 an embedded website installed with Access Analyzer. It provides a consolidated logon for both Access
-Analyzer reports and the Access Information Center. See the [URL & Login](../admin/login.md)
+Analyzer reports and the Access Information Center. See the [URL & Login](/docs/accessinformationcenter/12.0/access/informationcenter/admin/login.md)
 topic for additional information.
 
 In order to secure the Access Information Center, it is first necessary to enable SSL for theAccess
@@ -14,7 +14,7 @@ topic in the
 additional information.
 
 **NOTE:** SSL for the Access Information Center can be enabled during installation. See the
-[Install the Access Information Center](install.md) topic for additional information.
+[Install the Access Information Center](/docs/accessinformationcenter/12.0/access/informationcenter/installation/install.md) topic for additional information.
 
 ## Enable SSL for the AIC Website
 
@@ -82,7 +82,7 @@ Notepad. The file is located in the Access Information Center installation direc
 
 …\Program Files\STEALTHbits\Access Information Center
 
-![AccessInformationCenter.Service.exe config file](../../../../../../static/img/product_docs/accessinformationcenter/access/informationcenter/installation/configfilessl.webp)
+![AccessInformationCenter.Service.exe config file](/img/product_docs/accessinformationcenter/access/informationcenter/installation/configfilessl.webp)
 
 **Step 2 –** Change the `BindingUrl` key value to `"https://+:481"` (ensure the port number matches
 the port number used in the PowerShell command run to create the SSL Binding).
@@ -103,7 +103,7 @@ Follow the steps to update the AIC’s desktop icon's Access Information Center'
 **Step 1 –** Right click on the **Access Information Center** desktop shortcut and click
 **Properties**.
 
-![Access Information Center desktop icon properties](../../../../../../static/img/product_docs/accessinformationcenter/access/informationcenter/installation/aicproperties.webp)
+![Access Information Center desktop icon properties](/img/product_docs/accessinformationcenter/access/informationcenter/installation/aicproperties.webp)
 
 **Step 2 –** On the **Web Document** tab, enter the updated **URL** in the text box to:
 `https://[hostname.domain.com]:481/v2/login`
@@ -123,19 +123,19 @@ configured for the Web Console. See the Enable Single Sign-On topic of the
 additional information.
 
 **NOTE:** The Access Information Center also supports using Microsoft Entra ID single sign-on. See
-the [Microsoft Entra ID Single Sign-On](../admin/additionalconfig/entraidsso.md) topic for
+the [Microsoft Entra ID Single Sign-On](/docs/accessinformationcenter/12.0/access/informationcenter/admin/additionalconfig/entraidsso.md) topic for
 additional information.
 
 Follow the steps to enable SSO for accessing the Access Information Center website directly.
 
-![AccessInformationCenter.Service.exe config file in File Explorer](../../../../../../static/img/product_docs/accessinformationcenter/access/informationcenter/installation/configfilelocation.webp)
+![AccessInformationCenter.Service.exe config file in File Explorer](/img/product_docs/accessinformationcenter/access/informationcenter/installation/configfilelocation.webp)
 
 **Step 1 –** Open the `AccessInformationCenter.Service.exe.config` file in a text editor, such as
 Notepad. The file is located in the Access Information Center installation directory:
 
 …\Program Files\STEALTHbits\Access Information Center
 
-![AccessInformationCenter.Service.exe config file](../../../../../../static/img/product_docs/accessinformationcenter/access/informationcenter/installation/configfilesso.webp)
+![AccessInformationCenter.Service.exe config file](/img/product_docs/accessinformationcenter/access/informationcenter/installation/configfilesso.webp)
 
 **Step 2 –** Locate the line containing the `AuthAllowWindowsAuthentication` parameter. By default,
 the value will be set to `False`:
@@ -168,16 +168,16 @@ Follow the steps to configure local intranet settings.
 **Step 1 –** Open Windows Internet Properties (**Control Panel** > **Network and
 Internet** > **Internet Options**).
 
-![ConfigureLocalIntranetSettingsforSSO - 1](../../../../../../static/img/product_docs/accessanalyzer/install/application/reports/internetproperties.webp)
+![ConfigureLocalIntranetSettingsforSSO - 1](/img/product_docs/accessanalyzer/install/application/reports/internetproperties.webp)
 
 **Step 2 –** Go to the Security tab, and select the **Local Intranet** option. Then, click the
 **Sites** button.
 
-![localintranet](../../../../../../static/img/product_docs/accessanalyzer/install/application/reports/localintranet.webp)
+![localintranet](/img/product_docs/accessanalyzer/install/application/reports/localintranet.webp)
 
 **Step 3 –** Click the **Advanced** button.
 
-![localintranetadvanced](../../../../../../static/img/product_docs/accessanalyzer/install/application/reports/localintranetadvanced.webp)
+![localintranetadvanced](/img/product_docs/accessanalyzer/install/application/reports/localintranetadvanced.webp)
 
 **Step 4 –** Enter a domain in the **Add this website in the zone** field. Ensure the fully
 qualified domain name is in the following format: `https://<server>.<domain>.com`

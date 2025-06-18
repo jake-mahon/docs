@@ -2,13 +2,13 @@
 
 The 2.Users Job Group provides a workflow to deprovision stale and unused user accounts.
 
-![2.Users Job Group in the Jobs Tree](../../../../../../../static/img/product_docs/accessanalyzer/solutions/activedirectory/cleanup/users/usersjobtree.webp)
+![2.Users Job Group in the Jobs Tree](/img/product_docs/accessanalyzer/solutions/activedirectory/cleanup/users/usersjobtree.webp)
 
 The jobs in the 2.Users Job Group are:
 
-- [AD_DeprovisionUsers Job](ad_deprovisionusers.md) – Provides a simple and automated workflow to
+- [AD_DeprovisionUsers Job](/docs/accessanalyzer/12.0/solutions/activedirectory/cleanup/users/ad_deprovisionusers.md) – Provides a simple and automated workflow to
   deprovisions stale and unused user accounts
-- [AD_DeprovisionUsers_Status Job](ad_deprovisionusers_status.md) – Tracks and reports all actions
+- [AD_DeprovisionUsers_Status Job](/docs/accessanalyzer/12.0/solutions/activedirectory/cleanup/users/ad_deprovisionusers_status.md) – Tracks and reports all actions
   taken by the included Deprovisioning workflow
 
 Workflow

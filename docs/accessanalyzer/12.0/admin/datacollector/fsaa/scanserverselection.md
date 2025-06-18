@@ -7,7 +7,7 @@ wizard page for the categories of:
 - File System Activity Scan
 - Sensitive Data Scan
 
-![FSAA Data Collector Wizard Scan Server Selection page](../../../../../../static/img/product_docs/accessanalyzer/admin/datacollector/fsaa/scanserverselection.webp)
+![FSAA Data Collector Wizard Scan Server Selection page](/img/product_docs/accessanalyzer/admin/datacollector/fsaa/scanserverselection.webp)
 
 Using the radio buttons, select where the execution of the applet will take place:
 
@@ -22,17 +22,17 @@ Using the radio buttons, select where the execution of the applet will take plac
   textbox. This option uses proxy architecture and requires the targeted server to have the File
   System Proxy deployed.
 
-    - See the [File System Proxy Service Installation](../../../install/filesystemproxy/wizard.md)
+    - See the [File System Proxy Service Installation](/docs/accessanalyzer/12.0/install/filesystemproxy/wizard.md)
       topic for additional information
 
 - Specific Remote Servers by Host List – Assign hosts from a custom created host list for scanning.
   This option uses proxy architecture and requires the targeted servers to have the File System
   Proxy deployed
 
-    - See the [File System Proxy Service Installation](../../../install/filesystemproxy/wizard.md)
+    - See the [File System Proxy Service Installation](/docs/accessanalyzer/12.0/install/filesystemproxy/wizard.md)
       topic for additional information
 
-    ![Select Host Lists window](../../../../../../static/img/product_docs/accessanalyzer/admin/datacollector/fsaa/selecthostlists.webp)
+    ![Select Host Lists window](/img/product_docs/accessanalyzer/admin/datacollector/fsaa/selecthostlists.webp)
 
 - Select Host Lists – Opens the Select Host Lists window displaying all the available hosts to
   choose from. If more than one list is selected, scanning is distributed across each host.
@@ -42,7 +42,7 @@ Using the radio buttons, select where the execution of the applet will take plac
 It is best practice in global implementations to utilize a specific remote server or proxy scanner
 that is located in the same data center as the target hosts. This is particularly beneficial if the
 Access Analyzer Console server is in a different data center. See the
-[Proxy Scanning Architecture](../../../install/filesystemproxy/overview.md#proxy-scanning-architecture)
+[Proxy Scanning Architecture](/docs/accessanalyzer/12.0/install/filesystemproxy/overview.md#proxy-scanning-architecture)
 topic for additional information.
 
 In the bottom section, the checkbox options affect the execution of the applet:

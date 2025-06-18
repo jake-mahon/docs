@@ -5,10 +5,10 @@ This page is opened from any linked resource within the various interfaces.
 
 Secret Vaults are used to store any manually-managed resource, username, or password combination.
 Credentials are assigned via Credential Based access policies for password release. See the
-[Credentials Tab for Credential Based Access Policies](../../tab/policycredentials/credentials.md)
+[Credentials Tab for Credential Based Access Policies](/docs/privilegesecure/4.2/privilegesecure/accessmanagement/admin/policy/tab/policycredentials/credentials.md)
 topic for additional information.
 
-![Secrete Vault Details Page](../../../../../../../../../static/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/page/details/seretvaultdetailspage.webp)
+![Secrete Vault Details Page](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/page/details/seretvaultdetailspage.webp)
 
 The details page shows the following information:
 
@@ -23,6 +23,6 @@ commit the modifications. Click **Cancel** to discard the modifications.
 
 The details page has the following tabs:
 
-- [Accounts Tab for Secret Vault](../../tab/resources/accountssecretvault.md)
-- [Sessions Tab for Secret Vault](../../tab/resources/sessionssecretvault.md)
-- [History Tab for Secret Vault](../../tab/resources/historysecretvault.md)
+- [Accounts Tab for Secret Vault](/docs/privilegesecure/4.2/privilegesecure/accessmanagement/admin/policy/tab/resources/accountssecretvault.md)
+- [Sessions Tab for Secret Vault](/docs/privilegesecure/4.2/privilegesecure/accessmanagement/admin/policy/tab/resources/sessionssecretvault.md)
+- [History Tab for Secret Vault](/docs/privilegesecure/4.2/privilegesecure/accessmanagement/admin/policy/tab/resources/historysecretvault.md)

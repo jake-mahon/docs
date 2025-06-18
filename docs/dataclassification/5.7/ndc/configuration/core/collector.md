@@ -3,7 +3,7 @@
 This configuration tab contains the classification engine settings. Each configuration option has an
 associated “i” which describes the nature of the setting.
 
-![core_collector](../../../../../../static/img/product_docs/dataclassification/ndc/configuration/core/core_collector.webp)
+![core_collector](/img/product_docs/dataclassification/ndc/configuration/core/core_collector.webp)
 
 | Option                             | Description                                                                                                                                                                                                                                                                                                                                                                  | Comment                                                                                                                                                                                                                               |
 | ---------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |

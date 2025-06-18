@@ -19,7 +19,7 @@ following steps.
 
 HKEY_LOCAL_MACHINE\SOFTWARE\EMC\CEE\CEPP\Audit\Configuration
 
-![registryeditorendpoint](../../../../../static/img/product_docs/activitymonitor/config/dellunity/registryeditorendpoint.webp)
+![registryeditorendpoint](/img/product_docs/activitymonitor/config/dellunity/registryeditorendpoint.webp)
 
 **Step 2 –** Ensure that the Enabled parameter is set to 1.
 
@@ -75,7 +75,7 @@ CEE services should be running. If the Activity Agent is not registering events 
 set accurately, validate that the Dell CEE services are running. Open the Services (run
 `services.msc`).
 
-![services](../../../../../static/img/product_docs/activitymonitor/config/dellpowerstore/services.webp)
+![services](/img/product_docs/activitymonitor/config/dellpowerstore/services.webp)
 
 The following services laid down by the Dell CEE installer should have Running as their status:
 

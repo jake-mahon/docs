@@ -20,5 +20,5 @@ Again, the AppSets themselves are not officially supported. Those are "examples"
 we provide "best effort" support on those if a problem is found.
 
 (See the FAQ question
-"[HowTo: What do I do if I find a problem with a preconfigured AppSet?](issue.md)" for more
+"[HowTo: What do I do if I find a problem with a preconfigured AppSet?](/docs/policypak/policypak/troubleshooting/applicationsettings/issue.md)" for more
 information.)

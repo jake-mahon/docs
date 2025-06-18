@@ -3,13 +3,13 @@
 The Schedule node contains objects referred to as Schedule Service Accounts. A Schedule Service
 Account is used to run scheduled tasks on the Access Analyzer Console server.
 
-![Schedule node](../../../../../static/img/product_docs/threatprevention/threatprevention/admin/configuration/databasemaintenance/schedule.webp)
+![Schedule node](/img/product_docs/threatprevention/threatprevention/admin/configuration/databasemaintenance/schedule.webp)
 
 Jobs can be executed manually as desired or scheduled to execute at designated times. For example,
 you could schedule a job to run during hours when the office is closed and network traffic is low.
 Windows uses the Schedule Service Account to access the task folders when launching scheduled tasks.
 Schedule Service Accounts are configured at the global level, and this account can be used to
-schedule jobs in the Schedule Wizard. See the [Schedules](../schedule/overview.md) topic for
+schedule jobs in the Schedule Wizard. See the [Schedules](/docs/accessanalyzer/12.0/admin/schedule/overview.md) topic for
 additional information.
 
 **CAUTION:** On Windows 2016 servers, the Schedule Service Account cannot be signed into an active
@@ -23,7 +23,7 @@ Access Analyzer Vault.
 
 Choosing between the Access Analyzer application and Access Analyzer Vault is a global setting
 configured in the **Settings** > **Application** node. See the
-[Application](application/overview.md) topic for additional information.
+[Application](/docs/accessanalyzer/12.0/admin/settings/application/overview.md) topic for additional information.
 
 Permissions
 
@@ -47,10 +47,10 @@ least the following to meet Least Privileged specifications:
     - Write Extended Attributes
 
 - To configure Least Privilege Model Schedule Service Accounts when Role Based Access is enabled,
-  see the [Role Based Access](access/rolebased/overview.md) topic for additional information
+  see the [Role Based Access](/docs/accessanalyzer/12.0/admin/settings/access/rolebased/overview.md) topic for additional information
 - If using Windows authentication for the Storage Profile, the Schedule Service Account must have a
   sufficient level of rights to connect to and interact with the Access Analyzer database. See the
-  [Storage](storage/overview.md) topic for additional information.
+  [Storage](/docs/accessanalyzer/12.0/admin/settings/storage/overview.md) topic for additional information.
 
 The **Cancel** and **Save** buttons are in the lower-right corner of the Schedule view. These
 buttons become enabled when modifications are made to the Schedule global settings. Whenever changes
@@ -58,14 +58,14 @@ are made at the global level, click **Save** and then **OK** to confirm the chan
 click **Cancel** if no changes were intended.
 
 The Access Analyzer vault provides enhanced security through enhanced encryption to various
-credentials stored by the Access Analyzer application. See the [Vault](application/vault.md) topic
+credentials stored by the Access Analyzer application. See the [Vault](/docs/accessanalyzer/12.0/admin/settings/application/vault.md) topic
 for additional information.
 
 ## Schedule Service Account Types
 
 There are two types of accounts that can be used to configure the Schedule Service Account.
 
-![serviceaccounttypes](../../../../../static/img/product_docs/accessanalyzer/admin/settings/serviceaccounttypes.webp)
+![serviceaccounttypes](/img/product_docs/accessanalyzer/admin/settings/serviceaccounttypes.webp)
 
 Use one of the following options for the Schedule Service Account:
 
@@ -94,12 +94,12 @@ _Remember,_ the Schedule Service Account cannot be signed into an active session
 Analyzer Console server when the time comes for a scheduled task to start when it has a Windows 2016
 operating system.
 
-![Add User credential option in the Schedule view](../../../../../static/img/product_docs/accessanalyzer/admin/settings/addusercredential.webp)
+![Add User credential option in the Schedule view](/img/product_docs/accessanalyzer/admin/settings/addusercredential.webp)
 
 **Step 1 –** Click **Add User credential** at the top of the Schedule view. The User Credentials
 window opens.
 
-![User Credentials window](../../../../../static/img/product_docs/accessanalyzer/admin/settings/usercredentialswindow.webp)
+![User Credentials window](/img/product_docs/accessanalyzer/admin/settings/usercredentialswindow.webp)
 
 **Step 2 –** The window options change according to the value for the **Selected Account Type**
 field. Select the appropriate account type and then provide the required information. The account
@@ -116,7 +116,7 @@ types are:
           the **Settings** > **Application** node
         - Managed Service Account – Use previously configured MSA and gMSAs for authentication. The
           password fields are not applicable when this option is selected. See the
-          [Group Managed Service Accounts (gMSA) Configuration](connection/gmsa.md) topic for
+          [Group Managed Service Accounts (gMSA) Configuration](/docs/accessanalyzer/12.0/admin/settings/connection/gmsa.md) topic for
           additional information.
 
     - Password – Type the password
@@ -139,28 +139,28 @@ messages might appear:
 
 - Passwords Do Not Match Error
 
-    ![Passwords Do Not Match Error](../../../../../static/img/product_docs/accessanalyzer/admin/settings/passwordsdontmatch.webp)
+    ![Passwords Do Not Match Error](/img/product_docs/accessanalyzer/admin/settings/passwordsdontmatch.webp)
 
     - This error indicates the two password entries do not match. Click **OK** and reenter the
       passwords.
 
 - Bad User Name or Password Error
 
-    ![Bad User Name or Password Error](../../../../../static/img/product_docs/accessanalyzer/admin/settings/incorrectlogondetails.webp)
+    ![Bad User Name or Password Error](/img/product_docs/accessanalyzer/admin/settings/incorrectlogondetails.webp)
 
     - This error indicates either the user account does not exist or the username and password do
       not match. Click **OK** and reenter the information.
 
 - Insufficient Rights Error
 
-    ![Insufficient Rights Error](../../../../../static/img/product_docs/accessanalyzer/admin/settings/insufficientrights.webp)
+    ![Insufficient Rights Error](/img/product_docs/accessanalyzer/admin/settings/insufficientrights.webp)
 
     - This error indicates the account supplied does not have sufficient rights to create and run
       scheduled tasks. Click **OK** and provide credentials with sufficient rights.
 
 - GPO Network Security Error
 
-    ![GPO Network Security Error](../../../../../static/img/product_docs/accessanalyzer/admin/settings/gponetworksecurity.webp)
+    ![GPO Network Security Error](/img/product_docs/accessanalyzer/admin/settings/gponetworksecurity.webp)
 
     - This error indicates that the GPO Network Security settings are configured to not allow
       storage of passwords and credentials for network authentication. Click OK. Disable the
@@ -183,7 +183,7 @@ _Remember,_ the Schedule Service Account cannot be signed into an active session
 Analyzer Console server when the time comes for a scheduled task to start when it has a Windows 2016
 operating system.
 
-![Edit option in the Schedule view](../../../../../static/img/product_docs/accessanalyzer/admin/settings/edit.webp)
+![Edit option in the Schedule view](/img/product_docs/accessanalyzer/admin/settings/edit.webp)
 
 **Step 1 –** Select a credential from the User Credentials list and click on **Edit**. The User
 Credentials window opens.
@@ -201,12 +201,12 @@ Access Analyzer can now schedule tasks with this Scheduled Service Account.
 
 Follow the steps to delete a Schedule Service Account.
 
-![Delete option in the Schedule view](../../../../../static/img/product_docs/strongpointfornetsuite/integrations/delete.webp)
+![Delete option in the Schedule view](/img/product_docs/strongpointfornetsuite/integrations/delete.webp)
 
 **Step 1 –** Select the credential from the User Credentials list and click **Delete**. The Delete
 Credentials confirmation window appears.
 
-![Delete Credentials confirmation window](../../../../../static/img/product_docs/accessanalyzer/admin/settings/deletecredentials.webp)
+![Delete Credentials confirmation window](/img/product_docs/accessanalyzer/admin/settings/deletecredentials.webp)
 
 **Step 2 –** Click **OK** to confirm the deletion or **Cancel** to exit the deletion process.
 

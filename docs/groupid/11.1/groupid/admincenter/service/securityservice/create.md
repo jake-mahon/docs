@@ -34,7 +34,7 @@ located on disk.
 6. In the **Deployment Name** box, enter a deployment name for the service. The application name and
    deployment name are displayed on the service card, as shown below:
 
-    ![securityservicecard](../../../../../../../static/img/product_docs/groupid/groupid/admincenter/service/securityservice/securityservicecard.webp)
+    ![securityservicecard](/img/product_docs/groupid/groupid/admincenter/service/securityservice/securityservicecard.webp)
 
 7. In the **IIS Application Name** box, enter an IIS deployment name for the service. This name is
    used to name the service’s directory in IIS and its physical directory under X:\Program
@@ -65,7 +65,7 @@ The Security service runs within a virtual directory in remote IIS while the ser
 physically located on disk.
 
 To learn about the remote IIS settings and configurations before deploying a service there, see the
-[Prerequisites for Deployments in Remote IIS](../../portal/remoteiisprerequisites.md) topic.
+[Prerequisites for Deployments in Remote IIS](/docs/groupid/11.1/groupid/admincenter/portal/remoteiisprerequisites.md) topic.
 
 **To create a Security service:**
 
@@ -79,7 +79,7 @@ To learn about the remote IIS settings and configurations before deploying a ser
    deployment name are displayed on the service card.
 7. To enter information for **API URL**, **Access Token**, **Username**, **Password**, **IIS
    Application Name**, and **Website**, refer to steps 7-11 in the
-   [Create a Portal in Remote IIS](../../portal/create.md#create-a-portal-in-remote-iis) topic.
+   [Create a Portal in Remote IIS](/docs/groupid/11.1/groupid/admincenter/portal/create.md#create-a-portal-in-remote-iis) topic.
    Replace any reference to the portal with the Security service.
 8. In the **Data Service** drop-down list, select a Data service to bind to this Security service.  
    A Security service needs a Data service to perform various tasks, such as authentication and
@@ -94,7 +94,7 @@ with the API running on a Docker deamon in your environment, so that Directory M
 container for the service there and run the service from within that container.
 
 For an overview on application deployment in Docker, see the
-[Prerequisites for Deployments in Docker](../../portal/dockerprerequisites.md) topic.
+[Prerequisites for Deployments in Docker](/docs/groupid/11.1/groupid/admincenter/portal/dockerprerequisites.md) topic.
 
 NOTE: To host the Security service, Docker daemon should be configured to run Windows containers.
 
@@ -109,7 +109,7 @@ NOTE: To host the Security service, Docker daemon should be configured to run Wi
 6. In the **Deployment Name** box, enter a deployment name for the service. The application name and
    deployment name are displayed on the service card.
 7. To enter information for **Port**, **Service URL**, and **Container Name**, refer to steps 7-9 in
-   the [Create a Portal in Docker](../../portal/create.md#create-a-portal-in-docker) topic. Replace
+   the [Create a Portal in Docker](/docs/groupid/11.1/groupid/admincenter/portal/create.md#create-a-portal-in-docker) topic. Replace
    any reference to the portal with the Security service.
 8. In the **Data Service** drop-down list, select a Data service to bind to this Security service.  
    A Security service needs a Data service to perform various tasks, such as authentication and
@@ -122,11 +122,11 @@ NOTE: To host the Security service, Docker daemon should be configured to run Wi
 1. In Admin Center, select **Applications** in the left pane.
 2. On the **Security Service** tab, click **Launch Application** for a service. The **GroupID
    Applications** page is displayed. Options on this page are discussed in the
-   [Access your Applications](../../general/accessapplications.md) topic. Any actions you perform
+   [Access your Applications](/docs/groupid/11.1/groupid/admincenter/general/accessapplications.md) topic. Any actions you perform
    will be carried out through the respective Security service.
 
 **See Also**
 
-- [Directory Manage Applications](../../portal/applications.md)
-- [Services](../overview.md)
-- [Manage Security Service Settings](manage.md)
+- [Directory Manage Applications](/docs/groupid/11.1/groupid/admincenter/portal/applications.md)
+- [Services](/docs/groupid/11.1/groupid/admincenter/service/overview.md)
+- [Manage Security Service Settings](/docs/groupid/11.1/groupid/admincenter/service/securityservice/manage.md)

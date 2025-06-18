@@ -2,25 +2,25 @@
 
 The Sessions tab shows information about the sessions of the selected resource.
 
-![Sessions Tab for Secret Vault Resource](../../../../../../../../../static/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/tab/resources/sessionstabforsecretvault.webp)
+![Sessions Tab for Secret Vault Resource](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/tab/resources/sessionstabforsecretvault.webp)
 
 The Sessions tab has the following features:
 
 - Search — Searches the table or list for matches to the search string. When matches are found, the
   table or list is filtered to the matching results.
 - View Logs — Opens the Session Logs window to view the action log for the selected session. See the
-  [Session Logs Window](../../../dashboard/window/sessionlogs.md) topic for additional information.
+  [Session Logs Window](/docs/privilegesecure/4.2/privilegesecure/accessmanagement/admin/dashboard/window/sessionlogs.md) topic for additional information.
 - Refresh — Reload the information displayed
 
 The table has the following columns:
 
 - Requested — Date and time of when the session was created
 - Requested By — User who requested the session. Click the link to view additional details. See the
-  [User, Group, & Application Details Page](../../page/details/usergroupapplication.md) topic for
+  [User, Group, & Application Details Page](/docs/privilegesecure/4.2/privilegesecure/accessmanagement/admin/policy/page/details/usergroupapplication.md) topic for
   additional information.
 - Login Account — Displays the account used to log onto the resource
 - Activity — Displays the name of the activity. Click the link to view additional details. See the
-  [Activities Page](../../page/activities.md) topic for additional information.
+  [Activities Page](/docs/privilegesecure/4.2/privilegesecure/accessmanagement/admin/policy/page/activities.md) topic for additional information.
 - Start — Indicates when the activity started. This refers to when the activity’s actions were
   executed and not when the user was logged on to the resource.
 - End — Indicates when the session is scheduled to end the activity, which is determined by the
@@ -41,6 +41,6 @@ The table has the following columns:
       Secure administrator.
     - Failed — Pre-Session stage of the Activity has encountered an error
     - Locked — The session has been locked by an Privilege Secure administrator. See the
-      [Lock Session](../../../dashboard/window/locksession.md) topic for additional information.
+      [Lock Session](/docs/privilegesecure/4.2/privilegesecure/accessmanagement/admin/dashboard/window/locksession.md) topic for additional information.
 
 The table columns can be resized and sorted in ascending or descending order.

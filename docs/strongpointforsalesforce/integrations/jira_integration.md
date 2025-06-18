@@ -26,7 +26,7 @@ To set up the Jira integration:
 4. Set Up Status Mapping
 
 You can map custom fields between Change Requests and Jira. Refer to
-[Jira Field Mapping](jira_field_map.md) for details.
+[Jira Field Mapping](/docs/strongpointforsalesforce/integrations/jira_field_map.md) for details.
 
 ## Review Your Jira Statuses
 
@@ -54,7 +54,7 @@ your Jira system administrator if you do not have administrative permissions.
 2. Select **Apps** > **Explore more Apps >**
 3. Search for **Strongpoint**.
 
-    ![Strongpoint apps in the Jira Marketplace](../../../static/img/product_docs/strongpointforsalesforce/integrations/jira_marketplace.webp)
+    ![Strongpoint apps in the Jira Marketplace](/img/product_docs/strongpointforsalesforce/integrations/jira_marketplace.webp)
 
 4. Click **Strongpoint for Salesforce** to install the app.
 
@@ -73,7 +73,7 @@ Configure the connected app:
 2. Open the Connected App:  
    **Setup** > **Apps** > **App Manager** > **Strongpoint** (where **App Type** = **Connected**)
 
-    ![Open the Strongpoint Connected App](../../../static/img/product_docs/strongpointforsalesforce/integrations/connected_app.webp)
+    ![Open the Strongpoint Connected App](/img/product_docs/strongpointforsalesforce/integrations/connected_app.webp)
 
 3. Click the drop down arrow on the right side and select **Edit**.
 4. Set the **Callback URL** to **https://spjira.my.salesforce-sites.com/SpHandleJiraAuth**
@@ -86,7 +86,7 @@ Configure the connected app:
 
 7. Click **Manage Consumer Details**.
 
-    ![Click Manage Consumer Details](../../../static/img/product_docs/strongpointforsalesforce/integrations/manage_consumer_details.webp)
+    ![Click Manage Consumer Details](/img/product_docs/strongpointforsalesforce/integrations/manage_consumer_details.webp)
 
 8. Copy the Consumer Key and the Consumer Secret codes to a clipboard. You are prompted for this
    information when you use the app.
@@ -100,7 +100,7 @@ alternative.
    open **Settings** > **Configuration and Stats**.
 2. Open the **Jira Configuration** tab.
 
-    ![Open the credentials](../../../static/img/product_docs/strongpointforsalesforce/integrations/jira_sp_credentials.webp)
+    ![Open the credentials](/img/product_docs/strongpointforsalesforce/integrations/jira_sp_credentials.webp)
 
 3. Enter your credentials:
 
@@ -127,7 +127,7 @@ Groups/Profiles Visibility to grant the user appropriate access.
 
 1. Open a Jira project.
 
-    ![Open a project](../../../static/img/product_docs/strongpointforsalesforce/integrations/jira_restrict_access1.webp)
+    ![Open a project](/img/product_docs/strongpointforsalesforce/integrations/jira_restrict_access1.webp)
 
 2. Select **Strongpoint Sf Settings**.
 3. Select the **Project Visability Settings** tab.
@@ -157,7 +157,7 @@ Groups/Profiles Visibility to grant the user appropriate access.
    **Selected Groups** are groups that can see the Platform Governance for Salesforce Jira
    integration. If **Selected Groups** is blank, all groups have access to the integration.
 
-    ![Profile Visibility Settings](../../../static/img/product_docs/strongpointforsalesforce/integrations/profile_visability1.webp)
+    ![Profile Visibility Settings](/img/product_docs/strongpointforsalesforce/integrations/profile_visability1.webp)
 
 4. Select an existing group and click **Add** to include it as a **Selected Group**. To remove a
    group from the selected list, select it and click **Remove**. If **Selected Groups** is blank,
@@ -171,7 +171,7 @@ Groups/Profiles Visibility to grant the user appropriate access.
 2. Open the **Jira Configuration** tab.
 3. Open the **Status Mapping** tab.
 
-    ![Set up the Jira status mappings for Change Request status](../../../static/img/product_docs/strongpointforsalesforce/integrations/jira_status_settings.webp)
+    ![Set up the Jira status mappings for Change Request status](/img/product_docs/strongpointforsalesforce/integrations/jira_status_settings.webp)
 
 4. Enter the mappings between your Jira statuses and the Change Request statuses. You must define
    your Jira statuses prior to this step. You can enter multiple Jira statuses for each Change
@@ -196,4 +196,4 @@ Groups/Profiles Visibility to grant the user appropriate access.
    changes.
 7. Click **Save**.
 
-**Next Step:** [Jira Walkthrough Example](jira_walkthrough_example.md)
+**Next Step:** [Jira Walkthrough Example](/docs/strongpointforsalesforce/integrations/jira_walkthrough_example.md)

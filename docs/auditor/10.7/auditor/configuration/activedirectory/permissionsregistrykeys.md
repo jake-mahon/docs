@@ -4,9 +4,9 @@ This permission is required only if the account selected for data collection is 
 Domain Admins group. This permission should be assigned on each domain controller in the audited
 domain, so if your domain contains multiple domain controllers, it is recommended to assign
 permissions through Group Policy, or automatically using
-[Audit Configuration Assistant](../../tools/auditconfigurationassistant.md). To assign permissions
+[Audit Configuration Assistant](/docs/auditor/10.7/auditor/tools/auditconfigurationassistant.md). To assign permissions
 manually, use the Registry Editor snap-in or the Group Policy Management console. See the
-[Permissions for Group Policy Auditing ](../grouppolicy/permissions.md)topic for additional
+[Permissions for Group Policy Auditing ](/docs/auditor/10.7/auditor/configuration/grouppolicy/permissions.md)topic for additional
 information.
 
 ## Assign Permission Via the Registry Editor Snap-in

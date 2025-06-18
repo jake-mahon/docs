@@ -6,7 +6,7 @@ initiated manually or on a defined interval.
 You can see the Group Policy Client Service from Microsoft here. This is what downloads GPOs, which
 may or may not contain Netwrix Endpoint Policy Manager (formerly PolicyPak) data.
 
-![322_1_grouppolicyclient](../../../../static/img/product_docs/policypak/policypak/install/322_1_grouppolicyclient.webp)
+![322_1_grouppolicyclient](/img/product_docs/policypak/policypak/install/322_1_grouppolicyclient.webp)
 
 Endpoint Policy Manager provides (via Group Policy, Endpoint Policy Manager Cloud or MDM delivery) a
 vast array of powerful and unique policies not possible with Group Policy alone. Many of these
@@ -18,7 +18,7 @@ There are 3 services created by the CSE.
 - Endpoint Policy Manager Watcher Service (64-bit)
 - Endpoint Policy Manager Watcher Service (32-bit)
 
-![322_2_policypakservices](../../../../static/img/product_docs/policypak/policypak/install/322_2_policypakservices.webp)
+![322_2_policypakservices](/img/product_docs/policypak/policypak/install/322_2_policypakservices.webp)
 
 The Endpoint Policy Manager services provide this real-time enforcement of policies. For instance,
 when you use Endpoint Policy Manager to perform the following:
@@ -39,7 +39,7 @@ We need three services because we support both 32 & 64 bit applications (on 64-b
 The Watcher Service is also involved in the PolicyPak CSE Auto-Updater. When the Watcher Service is
 disabled, you cannot perform the automatic on-prem update of the CSE. For more information on the
 automatic update feature, see the
-[Rings with Endpoint Policy Manager and Active Directory](upgrade/rings/activedirectory.md) topic.
+[Rings with Endpoint Policy Manager and Active Directory](/docs/policypak/policypak/install/upgrade/rings/activedirectory.md) topic.
 
 The Helper Service is required, handles a variety of functions, and is used across all of PP's
 components. We need more services than just Group Policy because we do much more than Group Policy

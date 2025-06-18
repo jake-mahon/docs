@@ -12,7 +12,7 @@ Configure** node and select **Analysis** to view the analysis tasks.
 **CAUTION:** Do not modify or deselect the selected analysis tasks. The analysis tasks are
 preconfigured for this job.
 
-![Analysis Selection](../../../../../../../static/img/product_docs/accessanalyzer/solutions/databases/oracle/configuration/analysisinstancenameissues.webp)
+![Analysis Selection](/img/product_docs/accessanalyzer/solutions/databases/oracle/configuration/analysisinstancenameissues.webp)
 
 The default analysis tasks are:
 

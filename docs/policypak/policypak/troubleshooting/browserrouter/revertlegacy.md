@@ -8,10 +8,10 @@ First, be sure you are eligible to use this function by copying the latest Endpo
 `ADMX` files to your Central Store or using Endpoint Policy Manager Cloud.
 
 Directions for Central Store:
-[Troubleshooting with ADMX files](../../video/troubleshooting/admxfiles.md)
+[Troubleshooting with ADMX files](/docs/policypak/policypak/video/troubleshooting/admxfiles.md)
 
 Directions for Endpoint Policy Manager Cloud (if they are not already pre-placed
-there):[Endpoint Policy ManagerCloud: Upload and use your own ADMX files to Endpoint Policy Manager Cloud](../../video/cloud/admxfiles.md)
+there):[Endpoint Policy ManagerCloud: Upload and use your own ADMX files to Endpoint Policy Manager Cloud](/docs/policypak/policypak/video/cloud/admxfiles.md)
 
 Then, the setting you should use if directed by support is entitled:
 
@@ -19,7 +19,7 @@ Computer Configuration | Policies | Admin Templates | Endpoint Policy Manager AD
 Client-side Extensions | Browser Router | Revert to Legacy Browser Router Method & Features and set
 to enabled to return back to the legacy behavior.
 
-![764_1_image-20201027210325-1_950x612](../../../../../static/img/product_docs/policypak/policypak/troubleshooting/browserrouter/764_1_image-20201027210325-1_950x612.webp)
+![764_1_image-20201027210325-1_950x612](/img/product_docs/policypak/policypak/troubleshooting/browserrouter/764_1_image-20201027210325-1_950x612.webp)
 
 ## What does "Revert to Legacy Browser Router Method & Features" mean?
 
@@ -39,4 +39,4 @@ original methods. What this essentially means is:
 An example of the user required to manually specify Endpoint Policy Manager Browser Router can be
 seen here.
 
-![764_3_image-20201027210423-2](../../../../../static/img/product_docs/policypak/policypak/troubleshooting/browserrouter/764_3_image-20201027210423-2.webp)
+![764_3_image-20201027210423-2](/img/product_docs/policypak/policypak/troubleshooting/browserrouter/764_3_image-20201027210423-2.webp)

@@ -233,5 +233,5 @@ attributes:
 
 **See Also**
 
-- [Security Roles](../overview.md)
-- [Security Role Policies](overview.md)
+- [Security Roles](/docs/groupid/11.1/groupid/admincenter/securityrole/overview.md)
+- [Security Role Policies](/docs/groupid/11.1/groupid/admincenter/securityrole/policy/overview.md)

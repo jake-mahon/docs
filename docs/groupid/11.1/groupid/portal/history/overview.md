@@ -20,7 +20,7 @@ history-tracking was turned off.
 
 A user can add a note to a history action that he/she performed. Other users can just view that
 note. This note may explain the reason for performing that action. See the
-[Configure History Tracking](../../admincenter/identitystore/configure/directoryservice/historytracking.md)
+[Configure History Tracking](/docs/groupid/11.1/groupid/admincenter/identitystore/configure/directoryservice/historytracking.md)
 topic.
 
 ## History views in the portal
@@ -31,13 +31,13 @@ The Directory Manager Portal displays history as below:
   Displays a list of actions performed by the logged-on user.
 - The **History** tab in group / user / mailbox / contact properties.  
   Displays the actions performed on the object by different users.
-- The [My History](myhistory.md) page.  
+- The [My History](/docs/groupid/11.1/groupid/portal/history/myhistory.md) page.  
   Displays the actions performed by the logged-on user and any changes made to this user's profile
   by another user.
-- The [My Direct Reports' History](mydirectreport.md) page.  
+- The [My Direct Reports' History](/docs/groupid/11.1/groupid/portal/history/mydirectreport.md) page.  
   Displays the changes made to the logged-on user's direct reports by this user or by any other
   user.
-- The [My Groups' History](mydirectorygroup.md) page.  
+- The [My Groups' History](/docs/groupid/11.1/groupid/portal/history/mydirectorygroup.md) page.  
   Displays the changes made by the logged-on user to a group that they own.
 
 Use the **History items to display on home page** setting on the User Settings panel to specify the

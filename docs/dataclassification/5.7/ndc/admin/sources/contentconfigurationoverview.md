@@ -9,12 +9,12 @@ following areas
   **Workflows**.
 
 **IMPORTANT!** To access the **Sources** area, users require sufficient rights. See the
-[User Management](../../security/usermanagement.md) section for more information.
+[User Management](/docs/dataclassification/5.7/ndc/security/usermanagement.md) section for more information.
 
-![content_config_thumb_0_0](../../../../../../static/img/product_docs/dataclassification/ndc/admin/sources/content_config_thumb_0_0.webp)
+![content_config_thumb_0_0](/img/product_docs/dataclassification/ndc/admin/sources/content_config_thumb_0_0.webp)
 
 See next:
 
-- [Content Sources](introduction.md)
-- [Taxonomies](../taxonomies/introduction.md)
-- [Understanding Workflows](../workflows/overview.md)
+- [Content Sources](/docs/dataclassification/5.7/ndc/admin/sources/introduction.md)
+- [Taxonomies](/docs/dataclassification/5.7/ndc/admin/taxonomies/introduction.md)
+- [Understanding Workflows](/docs/dataclassification/5.7/ndc/admin/workflows/overview.md)

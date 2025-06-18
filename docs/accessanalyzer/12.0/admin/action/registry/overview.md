@@ -26,14 +26,14 @@ The Registry action module is configured through the Registry Action Module Wiza
 the following wizard pages:
 
 - Welcome
-- [Registry: Target Hosts](targethosts.md)
-- [Registry: Operations](operations.md)
-- [Registry: Summary](summary.md)
+- [Registry: Target Hosts](/docs/accessanalyzer/12.0/admin/action/registry/targethosts.md)
+- [Registry: Operations](/docs/accessanalyzer/12.0/admin/action/registry/operations.md)
+- [Registry: Summary](/docs/accessanalyzer/12.0/admin/action/registry/summary.md)
 
 The Welcome page gives an overview of the Registry Action Module Wizard. The steps navigation pane
 contains links to the pages in the wizard. Review the introductory and caution information about the
 Registry Action Module before proceeding.
 
-![Registry Action Module Wizard Welcome page](../../../../../../static/img/product_docs/activitymonitor/activitymonitor/install/welcome.webp)
+![Registry Action Module Wizard Welcome page](/img/product_docs/activitymonitor/activitymonitor/install/welcome.webp)
 
 To proceed, click Next or use the Steps navigation pane to open another page in the wizard.

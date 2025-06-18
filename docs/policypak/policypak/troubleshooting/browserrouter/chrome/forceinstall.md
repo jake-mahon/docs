@@ -12,7 +12,7 @@ RESULT: You only see Endpoint Policy Manager Browser Router's extension and NOT 
 user-side extensions for Chrome.. Workaround: Endpoint Policy Manager Provides ADMX settings to work
 around various items in Endpoint Policy Manager On-Prem. See this video to implement the ADMX:
 
-[Troubleshooting with ADMX files](../../../video/troubleshooting/admxfiles.md)
+[Troubleshooting with ADMX files](/docs/policypak/policypak/video/troubleshooting/admxfiles.md)
 
 **NOTE:** You shouldn't need to perform these steps (any of them) if you want to dictate Chrome
 "forced installed" extensions on the COMPUTER side. On the COMPUTER side... when you force install
@@ -23,17 +23,17 @@ extensions on the USER side.
 Then, the policy setting which must be applied to the computer side which is called PREVENT COMPUTER
 SIDED INSTALLATION OF CHROME EXTENSION
 
-![171_1_image004](../../../../../../static/img/product_docs/policypak/policypak/troubleshooting/browserrouter/chrome/171_1_image004.webp)
+![171_1_image004](/img/product_docs/policypak/policypak/troubleshooting/browserrouter/chrome/171_1_image004.webp)
 
 Then… Using Chrome's own ADMX setting named "Configure the list of force-installed apps and
 extensions" (seen below) to manually add the Endpoint Policy Manager Browser Router using Chrome's
 ADMX setting on USER or COMPUTER side.
 
-![171_2_image006](../../../../../../static/img/product_docs/policypak/policypak/troubleshooting/browserrouter/chrome/171_2_image006.webp)
+![171_2_image006](/img/product_docs/policypak/policypak/troubleshooting/browserrouter/chrome/171_2_image006.webp)
 
 Use this string found in this article:
 
-[What is the Chrome Extension ID for all the published versions of Endpoint Policy Manager Browser Router Client Side Extension?](../clientsideextension/chromeextensionid.md)
+[What is the Chrome Extension ID for all the published versions of Endpoint Policy Manager Browser Router Client Side Extension?](/docs/policypak/policypak/troubleshooting/browserrouter/clientsideextension/chromeextensionid.md)
 
 For instance, an example string might look like …
 
@@ -45,7 +45,7 @@ Which will manually install the Endpoint Policy Manager Browser Router Chrome Ex
 Endpoint Policy Manager Application Settings Manager and our Chrome Pak, you can use this field
 (user or computer side.)
 
-![171_3_image009](../../../../../../static/img/product_docs/policypak/policypak/troubleshooting/browserrouter/chrome/171_3_image009.webp)
+![171_3_image009](/img/product_docs/policypak/policypak/troubleshooting/browserrouter/chrome/171_3_image009.webp)
 
 Use the same string:
 
@@ -59,4 +59,4 @@ the optional extensions you wish for Chrome.
 Again, the example extension ID above is just an example. Please use the correct one based upon your
 CSE.
 
-[What is the Chrome Extension ID for all the published versions of Endpoint Policy Manager Browser Router Client Side Extension?](../clientsideextension/chromeextensionid.md)
+[What is the Chrome Extension ID for all the published versions of Endpoint Policy Manager Browser Router Client Side Extension?](/docs/policypak/policypak/troubleshooting/browserrouter/clientsideextension/chromeextensionid.md)

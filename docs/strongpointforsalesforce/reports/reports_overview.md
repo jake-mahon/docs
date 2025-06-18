@@ -25,7 +25,7 @@ Open **Strongpoint** > **Scanner** > **Scheduler**
 set to **Daily**.  
 If you have questions, contact your CSM or Salesforce Specialist.
 
-![Enabling reports](../../../static/img/product_docs/strongpointforsalesforce/reports/access_reports_enabled.webp)
+![Enabling reports](/img/product_docs/strongpointforsalesforce/reports/access_reports_enabled.webp)
 
 ## Access Reports
 
@@ -42,12 +42,12 @@ name. Separate each name with a comma.
 > **Permissions by Object**: Displays the permissions on each object for all Permission Sets and
 > Profiles.
 >
-> ![Permission by object](../../../static/img/product_docs/strongpointforsalesforce/reports/access_reports_permission_by_object.webp)
+> ![Permission by object](/img/product_docs/strongpointforsalesforce/reports/access_reports_permission_by_object.webp)
 >
 > **Object Permission by Profile/PermSet**: Displays the object permissions organized by Permission
 > Set and Profile.
 >
-> ![Access report by PermissionSet/Profile](../../../static/img/product_docs/strongpointforsalesforce/reports/access_reports_permission_by_permset.webp)
+> ![Access report by PermissionSet/Profile](/img/product_docs/strongpointforsalesforce/reports/access_reports_permission_by_permset.webp)
 >
 > **Users to Profiles/PermissionSets**: Displays the Profile, PermissionSet and PermissionSet Group
 > assigned to each user. You can filter the report information. For example, if you want a list of
@@ -60,17 +60,17 @@ name. Separate each name with a comma.
 > Profiles. If your org does not use the **Expires on** feature, you can remove the column from the
 > report.
 >
-> ![Users to Profile/PermissionSets](../../../static/img/product_docs/strongpointforsalesforce/reports/access_reports_users_to_profile.webp)
+> ![Users to Profile/PermissionSets](/img/product_docs/strongpointforsalesforce/reports/access_reports_users_to_profile.webp)
 >
 > **Profiles to PermissionsSets Changes**: Displays the changes made to your Profiles,
 > PermissionSets,and PermissionSet Groups. If there is an active policy, the **Compliance** column
 > displays whether the change was Compliant or Non-Compliant. If no policy, all changes are
 > Compliant.
 >
-> ![Access Report Profile Permissions Changes](../../../static/img/product_docs/strongpointforsalesforce/reports/access_reports_profile_changes.webp)
+> ![Access Report Profile Permissions Changes](/img/product_docs/strongpointforsalesforce/reports/access_reports_profile_changes.webp)
 >
 > **Changes to Users**: Displays the changes to tracked user data fields. Refer to
-> [Enhanced CPQ Support](../change_management/enhanced_cpq_support.md) for more information on
+> [Enhanced CPQ Support](/docs/strongpointforsalesforce/change_management/enhanced_cpq_support.md) for more information on
 > setting up tracking.
 >
 > If you see the message: _--String too long - Skipped lines due to CPU limit reached--_ it simply
@@ -78,23 +78,23 @@ name. Separate each name with a comma.
 > Platform Governance for Salesforcet skips the record and continues the scan the next day to ensure
 > there is no impact to your org.
 >
-> ![Changes to Users](../../../static/img/product_docs/strongpointforsalesforce/reports/accses_reports_user_changes.webp)
+> ![Changes to Users](/img/product_docs/strongpointforsalesforce/reports/accses_reports_user_changes.webp)
 >
 > **Record Types and Page Layout Assignments**: Displays the objects, record types and assigned
 > layouts organized by profile.
 >
-> ![Access Reports Record Types and Layouts](../../../static/img/product_docs/strongpointforsalesforce/reports/access_reports_record_types.webp)
+> ![Access Reports Record Types and Layouts](/img/product_docs/strongpointforsalesforce/reports/access_reports_record_types.webp)
 >
 > **System Permissions**: displays the list of System Permissions, the Profile or Permission set
 > that has access to it and the list of Users that have this system permission enabled.
 >
-> ![System Permissions](../../../static/img/product_docs/strongpointforsalesforce/reports/report_systems_permissions.webp)
+> ![System Permissions](/img/product_docs/strongpointforsalesforce/reports/report_systems_permissions.webp)
 >
 > **Field Permissions**: Displays the related objects, shows if there is a Read / Edit permission,
 > the Profile or Permission set that give that field level access and the users related to those
 > Profiles and permission sets.
 >
-> ![Field Permissions report](../../../static/img/product_docs/strongpointforsalesforce/reports/report_field_permissions.webp)
+> ![Field Permissions report](/img/product_docs/strongpointforsalesforce/reports/report_field_permissions.webp)
 >
 > To generate this report:
 >
@@ -175,27 +175,27 @@ These reports are available from **Netwrix Dashboard** > **Reports** > **Customi
 
 These reports are available from **Netwrix Dashboard** > **Reports** > **Clean Up**.
 
-> [Default Clean Up List View](../clean_up/cleanup_reports.md#default-clean-up-list-view)
+> [Default Clean Up List View](/docs/strongpointforsalesforce/clean_up/cleanup_reports.md#default-clean-up-list-view)
 >
-> [Open Clean Up Status](../clean_up/cleanup_reports.md#open-clean-up-status)
+> [Open Clean Up Status](/docs/strongpointforsalesforce/clean_up/cleanup_reports.md#open-clean-up-status)
 >
-> [Clean Up Waiting for Info](../clean_up/cleanup_reports.md#clean-up-waiting-for-info)
+> [Clean Up Waiting for Info](/docs/strongpointforsalesforce/clean_up/cleanup_reports.md#clean-up-waiting-for-info)
 >
-> [Customizations Excluded from Clean Up](../clean_up/cleanup_reports.md#customizations-excluded-from-clean-up)
+> [Customizations Excluded from Clean Up](/docs/strongpointforsalesforce/clean_up/cleanup_reports.md#customizations-excluded-from-clean-up)
 >
-> [Unused Fields](../clean_up/cleanup_reports.md#unused-fields)
+> [Unused Fields](/docs/strongpointforsalesforce/clean_up/cleanup_reports.md#unused-fields)
 >
-> [Unused Apex Code](../clean_up/cleanup_reports.md#unused-apex-code)
+> [Unused Apex Code](/docs/strongpointforsalesforce/clean_up/cleanup_reports.md#unused-apex-code)
 >
-> [Unused Reports](../clean_up/cleanup_reports.md#unused-reports)
+> [Unused Reports](/docs/strongpointforsalesforce/clean_up/cleanup_reports.md#unused-reports)
 >
-> [Customizations with Inactive Owners](../clean_up/cleanup_reports.md#customizations-with-inactive-owners)
+> [Customizations with Inactive Owners](/docs/strongpointforsalesforce/clean_up/cleanup_reports.md#customizations-with-inactive-owners)
 >
-> [Customizations without Related Processes](../clean_up/cleanup_reports.md#customizations-without-related-processes)
+> [Customizations without Related Processes](/docs/strongpointforsalesforce/clean_up/cleanup_reports.md#customizations-without-related-processes)
 >
-> [Custom Fields without Help Text](../clean_up/cleanup_reports.md#custom-fields-without-help-text)
+> [Custom Fields without Help Text](/docs/strongpointforsalesforce/clean_up/cleanup_reports.md#custom-fields-without-help-text)
 >
-> [Custom Fields without Description](../clean_up/cleanup_reports.md#custom-fields-without-description)
+> [Custom Fields without Description](/docs/strongpointforsalesforce/clean_up/cleanup_reports.md#custom-fields-without-description)
 
 ## Change Enablement
 
@@ -236,13 +236,13 @@ These reports are available from **Netwrix Dashboard** > **Reports** > **Change 
 
 These reports are available from **Netwrix Dashboard** > **Reports** > **Release and Deployment**.
 
-> [Success Deployments](deployment_logs_success.md)
+> [Success Deployments](/docs/strongpointforsalesforce/reports/deployment_logs_success.md)
 >
-> [Deployments with Failures](deployment_logs_failures.md)
+> [Deployments with Failures](/docs/strongpointforsalesforce/reports/deployment_logs_failures.md)
 >
-> [Deployments Pending Approval](deployment_logs_pending_approval.md)
+> [Deployments Pending Approval](/docs/strongpointforsalesforce/reports/deployment_logs_pending_approval.md)
 >
-> [Rollback Logs](deployment_logs_rollback.md)
+> [Rollback Logs](/docs/strongpointforsalesforce/reports/deployment_logs_rollback.md)
 
 ## Audit Reports
 

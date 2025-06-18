@@ -2,7 +2,7 @@
 
 While configuring history tracking for an identity store, you can choose to keep history records
 forever in the Directory Manager database or retain history for a specific period. See the
-[Configure History Tracking](../identitystore/configure/directoryservice/historytracking.md) topic
+[Configure History Tracking](/docs/groupid/11.1/groupid/admincenter/identitystore/configure/directoryservice/historytracking.md) topic
 for additional information. In case you select the latter option, the History Retention schedule is
 auto created for the identity store. This schedule runs on a specified frequency to check if the
 retention period is over for any history records, and if so, move them from the Directory Manager
@@ -12,13 +12,13 @@ database to the following .csv files:
   Management Shell, and scheduled jobs. It also contains history data for the identity store,
   security roles, and workflow configurations.
 - AuditingHistory – Contains history data of all authentication actions performed in Directory
-  Manager, as logged in Helpdek history. See the [History in Helpdesk](../helpdesk/history.md) topic
+  Manager, as logged in Helpdek history. See the [History in Helpdesk](/docs/groupid/11.1/groupid/admincenter/helpdesk/history.md) topic
   for additional information.
 - PasswordCenterHistory – Contains history data of all actions tracked in Helpdesk, except the
-  authentication action. See the [History in Helpdesk](../helpdesk/history.md) topic for additional
+  authentication action. See the [History in Helpdesk](/docs/groupid/11.1/groupid/admincenter/helpdesk/history.md) topic for additional
   information.
 - AdminCenterHistory – Contains Admin Center history data. See the
-  [Admin Center History](../general/history.md) topic for additional information.
+  [Admin Center History](/docs/groupid/11.1/groupid/admincenter/general/history.md) topic for additional information.
 
 These files are available at the following location on the Directory Manager server:
 
@@ -36,7 +36,7 @@ identity store that user belongs to.
 After the History Retention schedule runs, the following information is displayed on the **History**
 page in identity store configurations:
 
-![History Retension Information ](../../../../../../static/img/product_docs/groupid/groupid/admincenter/schedule/historyretention.webp)
+![History Retension Information ](/img/product_docs/groupid/groupid/admincenter/schedule/historyretention.webp)
 
 You cannot create or delete a History Retention schedule; only update the existing one.
 
@@ -62,7 +62,7 @@ displayed with this name in email notifications.
 Step 7 – In the Scheduler Service Name drop-down list, select a Scheduler service that would be
 responsible for triggering this schedule. The number of services displayed in the list depend on the
 number of nodes in all Elasticsearch clusters in the environment, as each node has its own Scheduler
-service. See the [Scheduler Service](../service/schedulerservice.md) topic for additional
+service. See the [Scheduler Service](/docs/groupid/11.1/groupid/admincenter/service/schedulerservice.md) topic for additional
 information.
 
 Please note the following while selecting a Scheduler service:

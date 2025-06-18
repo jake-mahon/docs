@@ -2,18 +2,18 @@
 
 There are two ways to access Platform Governance for NetSuite's functionality: the **Strongpoint**
 tab on the NetSuite tab bar or from the **Strongpoint Overview**. Menu options are available based
-on your [License Type](installing_strongpoint/features_by_license_type.md). In addition, menu items
-can be hidden for each account through [Menu Management](installing_strongpoint/managing_menus.md).
+on your [License Type](/docs/strongpointfornetsuite/installing_strongpoint/features_by_license_type.md). In addition, menu items
+can be hidden for each account through [Menu Management](/docs/strongpointfornetsuite/installing_strongpoint/managing_menus.md).
 These examples show all the options for an **Enterprise Compliance** license.
 
 If you do not see the **Strongpoint** tab, contact your Administrator regarding
-[Setting Tab Access](installing_strongpoint/setting_strongpoint_tab_access.md).
+[Setting Tab Access](/docs/strongpointfornetsuite/installing_strongpoint/setting_strongpoint_tab_access.md).
 
 ## Strongpoint Tab Menu
 
 The Strongpoint tab menu provides navigation to all the key tools:
 
-![strongpoint_menu](../../static/img/product_docs/strongpointfornetsuite/strongpoint_menu.webp)
+![strongpoint_menu](/img/product_docs/strongpointfornetsuite/strongpoint_menu.webp)
 
 Strongpoint Menu tab includes:
 
@@ -43,4 +43,4 @@ Strongpoint Menu tab includes:
 Click **Strongpoint** > **Strongpoint Overview** to open the dashboard, providing an at-a-glance
 overview of your reminders, automated documentation summary and easy access to all the features.
 
-![Strongpoint Overview Dashboard](../../static/img/product_docs/strongpointfornetsuite/dashboard_overview.webp)
+![Strongpoint Overview Dashboard](/img/product_docs/strongpointfornetsuite/dashboard_overview.webp)

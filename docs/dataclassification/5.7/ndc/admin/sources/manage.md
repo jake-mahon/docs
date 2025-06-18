@@ -20,7 +20,7 @@ The following commands are available on the **General** tab of the **Sources** s
 - Re-Classify—Queues a source or item to be re-classified against the latest configured
   classification rules
 
-**NOTE:** See [Index Maintenance](../utilities/indexmaintenance.md) for more information on these
+**NOTE:** See [Index Maintenance](/docs/dataclassification/5.7/ndc/admin/utilities/indexmaintenance.md) for more information on these
 operations.
 
 - Pause—Temporarily pauses source content processing
@@ -30,31 +30,31 @@ operations.
 
 Besides, in the source list on the **General** tab you can do the following for selected source:
 
-- [View Results](viewcontent.md)
+- [View Results](/docs/dataclassification/5.7/ndc/admin/sources/viewcontent.md)
 - **Edit** the source details by clicking on the "gear" icon
 - **View source-specific statistics** by clicking on the "chart" icon
 - **View detailed information** by clicking on the “i” icon
 - **Navigate to the source** by clicking on the “link” icon
 
-![sources](../../../../../../static/img/product_docs/dataclassification/ndc/admin/sources/sources.webp)
+![sources](/img/product_docs/dataclassification/ndc/admin/sources/sources.webp)
 
 **NOTE:** When adding a source or managing source configuration, the most commonly used source
 settings are displayed by default. However, some source types have additional configuration options
 that can be displayed by clicking the Advanced Settings ("wrench" icon). You can allow these
 advanced settings to be always shown to authorized users.
-[See Users and Security Settings for more information.](../../security/users.md)
+[See Users and Security Settings for more information.](/docs/dataclassification/5.7/ndc/security/users.md)
 
 ## Modify Source Settings
 
 To edit configuration settings for the certain source, select the source and go to the corresponding
 tab, e.g. **Box** or **SharePoint**. Then you can, in particular, specify **Write configuration**
-(i.e. "tagging") settings and apply source-specific parameters. See [Use Tagging](tagging.md) for
+(i.e. "tagging") settings and apply source-specific parameters. See [Use Tagging](/docs/dataclassification/5.7/ndc/admin/sources/tagging.md) for
 more information.
 
 See also:
 
-- [Database](database/managedatabase.md)
-- [Exchange Mailbox](database/exchangemailbox.md)
-- [Manage File System](filesystem/managefilesystem.md)
-- [ Google Drive](googledrive/managegoogledrive.md)
-- [SharePoint](sharepoint/introduction.md)
+- [Database](/docs/dataclassification/5.7/ndc/admin/sources/database/managedatabase.md)
+- [Exchange Mailbox](/docs/dataclassification/5.7/ndc/admin/sources/database/exchangemailbox.md)
+- [Manage File System](/docs/dataclassification/5.7/ndc/admin/sources/filesystem/managefilesystem.md)
+- [ Google Drive](/docs/dataclassification/5.7/ndc/admin/sources/googledrive/managegoogledrive.md)
+- [SharePoint](/docs/dataclassification/5.7/ndc/admin/sources/sharepoint/introduction.md)

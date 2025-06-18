@@ -7,7 +7,7 @@ retrieve the current settings:
 - Get-SIDefendConfig
 
 The following APIs are related to the LDAP Deception trap options on the Honey Token Tab of the
-[Netwrix Threat Manager Configuration Window](../admin/configuration/threatmanagerconfiguration.md):
+[Netwrix Threat Manager Configuration Window](/docs/threatprevention/7.5/threatprevention/admin/configuration/threatmanagerconfiguration.md):
 
 - Get-SILdapDeception
 - Set-SILdapDeception
@@ -16,7 +16,7 @@ The following APIs are related to the LDAP Deception trap options on the Honey T
 
 The `Set-SIDefendConfig` command tells Threat Prevention where to send the event data from all tab
 settings on the
-[Netwrix Threat Manager Configuration Window](../admin/configuration/threatmanagerconfiguration.md).
+[Netwrix Threat Manager Configuration Window](/docs/threatprevention/7.5/threatprevention/admin/configuration/threatmanagerconfiguration.md).
 There are three methods available for data output:
 
 - Threat Manager AMQP (URI/Port) – Sends event data directly to Threat Manager
@@ -56,18 +56,18 @@ Example using Activity Monitor to send to Threat Manager:
 ## Get Threat Manager Configuration
 
 The `Get-SIDefendConfig` command is used to return all settings on the Event Sink Tab of the
-[Netwrix Threat Manager Configuration Window](../admin/configuration/threatmanagerconfiguration.md).
+[Netwrix Threat Manager Configuration Window](/docs/threatprevention/7.5/threatprevention/admin/configuration/threatmanagerconfiguration.md).
 
 ## Get LDAP Deception
 
 The `Get-SILdapDeception` command provides the current information configured in the Honey Token Tab
 of the
-[Netwrix Threat Manager Configuration Window](../admin/configuration/threatmanagerconfiguration.md).
+[Netwrix Threat Manager Configuration Window](/docs/threatprevention/7.5/threatprevention/admin/configuration/threatmanagerconfiguration.md).
 
 ## Set LDAP Deception
 
 The `Set-SILdapDeception` command changes the settings on the Honey Token Tab of the
-[Netwrix Threat Manager Configuration Window](../admin/configuration/threatmanagerconfiguration.md).
+[Netwrix Threat Manager Configuration Window](/docs/threatprevention/7.5/threatprevention/admin/configuration/threatmanagerconfiguration.md).
 
 _Remember,_ these settings must be an exact match to the configuration set up in the Threat Manager
 Honey Token threat.

@@ -31,7 +31,7 @@ The table has the following columns:
 
 - Actions — Contains icons for available actions:
 
-    - Expand icon — Click the expand (>) icon to show additional information for the session:
+    - Expand icon — Click the expand () icon to show additional information for the session:
 
         - If a recording of the session is available, the replay viewer allows an admin to watch a
           replay of the remote session. See the

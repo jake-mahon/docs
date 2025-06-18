@@ -11,7 +11,7 @@ user can view it for any user in the organization.
 ## View the direct reports of a user
 
 Step 1 – In the Directory Manager portal, go to **My Profile** or search for the user whose
-organizational hierarchy you want to view on the [Directory Search](../../search/search.md) dialog
+organizational hierarchy you want to view on the [Directory Search](/docs/groupid/11.1/groupid/portal/search/search.md) dialog
 box.
 
 Step 2 – On the toolbar tab of the user profile's page, select **Organizational Hierarchy**. The
@@ -20,7 +20,7 @@ the nth level.
 
 Step 3 – To view the chart for another user, click the ellipsis button next to **Select User**.
 
-On the [Find Dialog Box](../../search/find.md), search and select the required user and click
+On the [Find Dialog Box](/docs/groupid/11.1/groupid/portal/search/find.md), search and select the required user and click
 **OK**. This displays the organizational hierarchy chart for the selected user.
 
 Step 4 – You can:

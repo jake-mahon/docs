@@ -10,8 +10,8 @@ So if we have a different version on the target machine that doesn't mean there 
 the changes. We can still get Netwrix Endpoint Policy Manager (formerly PolicyPak) to deliver the
 setting by disabling the internal item-level targeting.
 
-![323_1_image011dftyrty](../../../../../../static/img/product_docs/policypak/policypak/troubleshooting/applicationsettings/java/323_1_image011dftyrty.webp)
+![323_1_image011dftyrty](/img/product_docs/policypak/policypak/troubleshooting/applicationsettings/java/323_1_image011dftyrty.webp)
 
 To see a demonstration video about Internal Filters and bypassing them, please see this
 
-[Bypassing Internal Item Level Targeting Filters](../../../video/applicationsettings/itemleveltargetingbypass.md)
+[Bypassing Internal Item Level Targeting Filters](/docs/policypak/policypak/video/applicationsettings/itemleveltargetingbypass.md)

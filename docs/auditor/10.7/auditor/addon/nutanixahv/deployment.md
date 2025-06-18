@@ -23,7 +23,7 @@ https://172.28.6.19:9699/netwrix/api/v1/activity_records</NetwrixAuditorEndpoint
 
 Configuration parameters __NetwrixAuditorUserName__ and __NetwrixAuditorPassword__ are not required.
 
-You will be prompted for the corresponding set of credentials (user name and password) when you run the __install.ps1__ script. For that, use the Netwrix Auditor __Add-on for Nutanix AHV Configurator__ tool (see steps 4 and 5 of the [Deploy the Add-On](install.md)). Credentials for connection to Nutanix Prism server will be then encrypted and stored in the solution configuration. Consider that user account should have the __User Admin__ role in Nutanix Prism.
+You will be prompted for the corresponding set of credentials (user name and password) when you run the __install.ps1__ script. For that, use the Netwrix Auditor __Add-on for Nutanix AHV Configurator__ tool (see steps 4 and 5 of the [Deploy the Add-On](/docs/auditor/10.7/auditor/addon/nutanixahv/install.md)). Credentials for connection to Nutanix Prism server will be then encrypted and stored in the solution configuration. Consider that user account should have the __User Admin__ role in Nutanix Prism.
 
 ## Example 2
 

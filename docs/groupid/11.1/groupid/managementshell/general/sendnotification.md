@@ -57,7 +57,7 @@ Example 2:
 
 The following command sends a notification to the New Arrivals group. It uses a custom template with
 an in-line image and uses the credentials of the user set in the $Credentials environment variable.
-See the [Set the $Credentials Environment Variable](../parameters/setthecredential.md) topic for
+See the [Set the $Credentials Environment Variable](/docs/groupid/11.1/groupid/managementshell/parameters/setthecredential.md) topic for
 setting credentials in an environment variable.
 
 ```

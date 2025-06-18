@@ -5,6 +5,6 @@ detected. You are then able to select the default and revert values and also the
 can choose the default of what was originally captured in the text box, or select the value you
 changed to. See Figure 134 for an example of a numeric box.
 
-![configuring_elements_using_27](../../../../../../../static/img/product_docs/policypak/policypak/applicationsettings/designstudio/configurationwizard/elements/configuring_elements_using_27.webp)
+![configuring_elements_using_27](/img/product_docs/policypak/policypak/applicationsettings/designstudio/configurationwizard/elements/configuring_elements_using_27.webp)
 
 Figure 134. Numeric box example.

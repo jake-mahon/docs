@@ -20,7 +20,7 @@ Other
 - The Configuration Console prompts for elevation to ensure that user has sufficient permissions to
   write configuration settings.
 - Imports PPE Web V6.x configuration settings. See the
-  [Install Password Policy Enforcer Web](../install/installationweb.md) topic for additional
+  [Install Password Policy Enforcer Web](/docs/passwordpolicyenforcer/11.0/passwordpolicyenforcer/install/installationweb.md) topic for additional
   information.
 
 **NOTE:** PPE Web V7.11 integrates with Password Policy Enforcer V7.0 or later. Disable Password

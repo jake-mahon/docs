@@ -8,10 +8,10 @@ Follow the steps to change the platform type for a host resource.
 
 **Step 3 –** Click Change Platform to open the Change Platform window.
 
-![Change Resource Platform Window](../../../../../../../../../static/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/window/resources/changeplatform.webp)
+![Change Resource Platform Window](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/window/resources/changeplatform.webp)
 
 **Step 4 –** In the Platform drop-down menu, select a previously added platform. See the
-[Platforms Page](../../page/platforms/overview.md) topic for additional information.
+[Platforms Page](/docs/privilegesecure/4.2/privilegesecure/accessmanagement/admin/policy/page/platforms/overview.md) topic for additional information.
 
 **Step 5 –** When a platform is entered, the Okay button is enabled. Click **Okay** to update the
 platform type for the selected resource(s).

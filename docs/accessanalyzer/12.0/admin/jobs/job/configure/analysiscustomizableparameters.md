@@ -13,7 +13,7 @@ Configuration**. The SQL Script Editor opens.
 **NOTE:** The image shown is a generic example. Table names and customizable parameters will change
 based on the Job.
 
-![SQL Script Editor](../../../../../../../static/img/product_docs/accessanalyzer/admin/jobs/job/configure/customizableparameters.webp)
+![SQL Script Editor](/img/product_docs/accessanalyzer/admin/jobs/job/configure/customizableparameters.webp)
 
 **Step 4 –** In the parameters section at the bottom of the editor, find the Value column.
 
@@ -25,5 +25,5 @@ based on the Job.
 
 Repeat the steps as needed to customize analysis parameters.
 
-See the [SQLscripting Analysis Module](../../../analysis/sqlscripting.md) topic for additional
+See the [SQLscripting Analysis Module](/docs/accessanalyzer/12.0/admin/analysis/sqlscripting.md) topic for additional
 information.

@@ -6,4 +6,4 @@ Open **Flashlight** > **Support** > **Stop Scripts**
 
 This stops the next execution of the scheduled scripts.
 
-![Stop Scripts](../../../static/img/product_docs/strongpointnetsuiteflashlight/troubleshooting/stop_scripts.webp)
+![Stop Scripts](/img/product_docs/strongpointnetsuiteflashlight/troubleshooting/stop_scripts.webp)

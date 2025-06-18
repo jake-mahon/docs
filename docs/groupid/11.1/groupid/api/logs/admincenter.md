@@ -1,6 +1,6 @@
 # Admin Center Logs
 
-Use this API to get Admin Center logs. See the [Get Logs](../../admincenter/general/logs.md) topic
+Use this API to get Admin Center logs. See the [Get Logs](/docs/groupid/11.1/groupid/admincenter/general/logs.md) topic
 for additional information.
 
 ## Endpoint

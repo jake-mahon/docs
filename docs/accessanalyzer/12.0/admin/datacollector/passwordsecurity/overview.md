@@ -8,7 +8,7 @@ The PasswordSecurity Data Collector is a core component of Access Analyzer, but 
 preconfigured within the Active Directory Solution. While the data collector is available with all
 Access Analyzer license options, the Active Directory Solution is only available with a special
 Access Analyzer license. See the
-[Active Directory Solution](../../../solutions/activedirectory/overview.md) topic for additional
+[Active Directory Solution](/docs/accessanalyzer/12.0/solutions/activedirectory/overview.md) topic for additional
 information.
 
 Protocols
@@ -34,8 +34,8 @@ Permissions
 The PasswordSecurity Data Collector is configured through the Password Security Data Collector
 Wizard, which contains the following wizard pages:
 
-- [PasswordSecurity: Category](category.md)
-- [PasswordSecurity: Options](options.md)
-- [PasswordSecurity: Dictionaries](dictionaries.md)
-- [PasswordSecurity: Results](results.md)
-- [PasswordSecurity: Summary](summary.md)
+- [PasswordSecurity: Category](/docs/accessanalyzer/12.0/admin/datacollector/passwordsecurity/category.md)
+- [PasswordSecurity: Options](/docs/accessanalyzer/12.0/admin/datacollector/passwordsecurity/options.md)
+- [PasswordSecurity: Dictionaries](/docs/accessanalyzer/12.0/admin/datacollector/passwordsecurity/dictionaries.md)
+- [PasswordSecurity: Results](/docs/accessanalyzer/12.0/admin/datacollector/passwordsecurity/results.md)
+- [PasswordSecurity: Summary](/docs/accessanalyzer/12.0/admin/datacollector/passwordsecurity/summary.md)

@@ -16,7 +16,7 @@ configurations for the master account apply.
 
 In addition to these password restrictions, you can define a password policy for a security role in
 an identity store. See the
-[Directory Manage Password Policy ](../../../securityrole/policy/password.md) topic.
+[Directory Manage Password Policy ](/docs/groupid/11.1/groupid/admincenter/securityrole/policy/password.md) topic.
 
 What do you want to do?
 
@@ -51,7 +51,7 @@ expression.
       not allowed.
     - **Regular Expression:** passwords that satisfy the regular expression you specify in the
       **Exception Value** box are not allowed. See the
-      [What are Regular Expressions?](../../../portal/displaytype/textbox.md#what-are-regular-expressions)
+      [What are Regular Expressions?](/docs/groupid/11.1/groupid/admincenter/portal/displaytype/textbox.md#what-are-regular-expressions)
       topic to learn about regular expressions and their syntax.
 
 6. Type a value for the selected operator in the **Exception Value** box.
@@ -80,7 +80,7 @@ users follow certain rules and patterns.
 4. In the **Password Rules** area on the **Password Options** page, click **Add Password Rule**.
 5. On the **Add Rules** dialog box, type a regular expression in the **Regular Expression** box.  
    See the
-   [What are Regular Expressions?](../../../portal/displaytype/textbox.md#what-are-regular-expressions)
+   [What are Regular Expressions?](/docs/groupid/11.1/groupid/admincenter/portal/displaytype/textbox.md#what-are-regular-expressions)
    topic to learn about regular expressions and their syntax.
 6. Click **OK**. The regular expression is displayed in the In the **Password Rules** area.
 7. Follow steps 4 to 6 to define as many regular expressions as required. Passwords that satisfy any
@@ -114,4 +114,4 @@ importing another file will replace the existing one.
 
 **See Also**
 
-- [Directory Manage Password Policy ](../../../securityrole/policy/password.md)
+- [Directory Manage Password Policy ](/docs/groupid/11.1/groupid/admincenter/securityrole/policy/password.md)

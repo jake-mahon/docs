@@ -6,7 +6,7 @@ Dashboard** > **Settings** > **Platform Governor Status**
 When Platform Governance for Salesforce reaches the threshold, executions are reschedule for the
 next day so the organization limit is not reached.
 
-![governor](../../../static/img/product_docs/strongpointforsalesforce/installing_strongpoint/governor.webp)
+![governor](/img/product_docs/strongpointforsalesforce/installing_strongpoint/governor.webp)
 
 ## Set a Threshold
 

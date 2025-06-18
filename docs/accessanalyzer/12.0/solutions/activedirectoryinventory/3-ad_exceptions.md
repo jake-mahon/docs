@@ -8,7 +8,7 @@ running the 1-AD_Scan Job, also located in the .Active Directory Inventory Job G
 
 The Configuration section on a Job's overview page allows you to easily modify any customizable
 parameters used by analysis tasks in the job. See the
-[Parameter Configuration](../../admin/jobs/job/overview.md#parameter-configuration) topic for
+[Parameter Configuration](/docs/accessanalyzer/12.0/admin/jobs/job/overview.md#parameter-configuration) topic for
 instructions on how to edit parameters on a job overview page.
 
 The 3-AD_Exceptions Job has the following configurable parameters:
@@ -34,7 +34,7 @@ the security concerns within them can be modified.
 **CAUTION:** Do not modify or deselect the selected analysis tasks. The analysis tasks are
 preconfigured for this job.
 
-![Analysis Tasks for the 3-AD_Exceptions Job](../../../../../static/img/product_docs/accessanalyzer/solutions/activedirectoryinventory/exceptionsanalysis.webp)
+![Analysis Tasks for the 3-AD_Exceptions Job](/img/product_docs/accessanalyzer/solutions/activedirectoryinventory/exceptionsanalysis.webp)
 
 The following analysis tasks are selected by default:
 
@@ -134,7 +134,7 @@ parameters:
 | Admin Historical SID | #ADMIN_GROUPS               | - Domain Admins - Enterprise Admins - Schema Admins | List of administrative groups                                         |
 
 See the
-[Configure the Customizable Parameters in an Analysis Task](../../admin/jobs/job/configure/analysiscustomizableparameters.md)
+[Configure the Customizable Parameters in an Analysis Task](/docs/accessanalyzer/12.0/admin/jobs/job/configure/analysiscustomizableparameters.md)
 topic for instructions to modify the parameters. See the
-[AD Exception Types Translated](../../admin/datacollector/adinventory/standardtables.md#ad-exception-types-translated)
+[AD Exception Types Translated](/docs/accessanalyzer/12.0/admin/datacollector/adinventory/standardtables.md#ad-exception-types-translated)
 topic for an explanation of Exception Types.

@@ -4,7 +4,7 @@ Once a job has been executed, it always generates the tables providing informati
 connection status, job statistics, job task statistics, and error and warning messages can be viewed
 under the job’s Status node:
 
-![Status Node](../../../../../../static/img/product_docs/accessanalyzer/admin/jobs/job/statusnode.webp)
+![Status Node](/img/product_docs/accessanalyzer/admin/jobs/job/statusnode.webp)
 
 The Status node tables are:
 
@@ -19,7 +19,7 @@ The Status node tables are:
 
     **NOTE:** The Job Statistics Retention settings in the **Settings** > **Application** node
     control how long the job statistics history is kept in the database and displayed Job Stats and
-    Task Stats tables. See the [Application](../../settings/application/overview.md) topic for
+    Task Stats tables. See the [Application](/docs/accessanalyzer/12.0/admin/settings/application/overview.md) topic for
     additional information.
 
 - Messages table – Provides a list of any warning or error messages that occurred during the

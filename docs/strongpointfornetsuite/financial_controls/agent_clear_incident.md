@@ -9,7 +9,7 @@ Here is the process to clear/resolve a control incident:
 2. Click on the **Customization** to display the incidents.
 3. Click **Edit** on the Incident record to clear/resolve.
 
-    ![Clearing a Control Incident](../../../static/img/product_docs/strongpointfornetsuite/financial_controls/agent_clear_incident.webp)
+    ![Clearing a Control Incident](/img/product_docs/strongpointfornetsuite/financial_controls/agent_clear_incident.webp)
 
 4. Add the **Resolution Description**.
 5. Set **Status** to **Closed**.
@@ -25,4 +25,4 @@ Report::
    edited.
 3. Click in the column to open a text box.
 
-![Clearing an incident with inline editing](../../../static/img/product_docs/strongpointfornetsuite/financial_controls/agent_clear_incident_inline.webp)
+![Clearing an incident with inline editing](/img/product_docs/strongpointfornetsuite/financial_controls/agent_clear_incident_inline.webp)

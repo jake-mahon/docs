@@ -4,11 +4,11 @@ In Directory Manager, history is tracked for:
 
 - Admin Center - Actions performed in Admin Center, such as creating identity stores, SMS gateway
   accounts, changes to notification templates, and more. See the
-  [Admin Center History](general/history.md) topic to view the history.
+  [Admin Center History](/docs/groupid/11.1/groupid/admincenter/general/history.md) topic to view the history.
 - Helpdesk - Helpdesk-specific actions, such as account unlock and enrollment. See the
-  [History in Helpdesk](helpdesk/history.md) topic to view the history.
+  [History in Helpdesk](/docs/groupid/11.1/groupid/admincenter/helpdesk/history.md) topic to view the history.
 - Identity store configurations - Changes made to identity store configurations, including changes
-  to security roles and workflows. See the [Identity Store History](identitystore/history/view.md)
+  to security roles and workflows. See the [Identity Store History](/docs/groupid/11.1/groupid/admincenter/identitystore/history/view.md)
   topic to view the history.
 - Identity store objects - Modifications made to objects in an identity store, such as creating
   objects, updating attributes for an object, etc. It includes modifications made through:
@@ -19,7 +19,7 @@ In Directory Manager, history is tracked for:
     - Admin Center (actions performed by schedules only)
     - Directory Manager APIs
 
-    See the [History](../portal/history/overview.md) topic to view this history.
+    See the [History](/docs/groupid/11.1/groupid/portal/history/overview.md) topic to view this history.
 
 Enable History Tracking
 
@@ -27,7 +27,7 @@ History for Admin Center and helpdesk is tracked by default and you cannot disab
 
 However, history for identity store configurations and objects is disabled by default. You can
 enable it for an identity store as well as choose to track all or specific actions. See the
-[Configure History Tracking](identitystore/configure/directoryservice/historytracking.md) topic.
+[Configure History Tracking](/docs/groupid/11.1/groupid/admincenter/identitystore/configure/directoryservice/historytracking.md) topic.
 
 Where is History Displayed?
 
@@ -58,4 +58,4 @@ Event Logging
 
 In addition to history tracking, Directory Manager provides event logging, which includes file
 logging and Windows logging for Directory Manager clients and services. See the
-[Event Logging](identitystore/history/eventlogging.md) topic.
+[Event Logging](/docs/groupid/11.1/groupid/admincenter/identitystore/history/eventlogging.md) topic.

@@ -12,7 +12,7 @@ viewers to the reports to which they should have access.
 
 Report security through Role Based Access can be applied without implementing a least privileged
 access model to the Access Analyzer Console. See the
-[Securing Published Reports Only](securereports.md) topic for additional information.
+[Securing Published Reports Only](/docs/accessanalyzer/12.0/admin/settings/access/rolebased/securereports.md) topic for additional information.
 
 **NOTE:** The least privileged access model to the Access Analyzer Console does not work in
 conjunction with the Exchange Solution. Role Based Access can be enabled, but the Administrator role
@@ -38,4 +38,4 @@ role officially enables Role Based Access within Access Analyzer. When Role Base
 enabled, an NEAUsers local group is created on the Access Analyzer server with the required
 permissions to the Access Analyzer application directory. When a user is assigned a role, they are
 added to the NEAUsers group to give them the necessary access. See the
-[Assign User to Role Members](assignroles.md) topic for additional information.
+[Assign User to Role Members](/docs/accessanalyzer/12.0/admin/settings/access/rolebased/assignroles.md) topic for additional information.

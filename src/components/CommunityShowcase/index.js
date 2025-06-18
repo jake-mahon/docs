@@ -21,11 +21,11 @@ const PRODUCT_TAGS = [
   'policypak',
   'recovery-active-directory',
   'threat-manager',
-  'usercube',
+  'identitymanager',
   'activity-monitor',
   'access-analyzer',
   'platform-governance-salesforce',
-  'usercube-onprem',
+  'identitymanager-onprem',
   'identity-manager',
   'directory-manager',
   'platform-governance-netsuite',
@@ -209,7 +209,7 @@ function CommunityShowcase() {
 
           <CommunityCard title="Product Updates" icon="📢">
             {announcements.length > 0 ? (
-              announcements.map((topic, idx) => <TopicItem key={idx} topic={topic} />)
+              announcements.map((topic, idx) => <TopicItem key={idx} topic={topic} /)
             ) : (
               <p className={styles.emptyState}>No recent announcements</p>
             )}

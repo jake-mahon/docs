@@ -9,10 +9,10 @@ The following prerequisites must be met before you can rollback or recover an ob
 
 - You must register the RSAT Extension on the Recovery Application Server to add the Rollback and
   Restore options to the ADUC console. See the
-  [Register/Unregister the RSAT Extension](../install/configurationutility.md#registerunregister-the-rsat-extension)
+  [Register/Unregister the RSAT Extension](/docs/recoveryforactivedirectory/2.6/recoveryforactivedirectory/install/configurationutility.md#registerunregister-the-rsat-extension)
   topic for additional information.
 - At least one backup of the domain must be available in the Recovery for Active Directory Console.
-  See the [Domains Page](../admin/configuration/domain.md) topic for additional information.
+  See the [Domains Page](/docs/recoveryforactivedirectory/2.6/recoveryforactivedirectory/admin/configuration/domain.md) topic for additional information.
 
 ## Rollback an Object Using ADUC
 
@@ -24,11 +24,11 @@ organizational units.
 **Step 1 –** Open ADUC and select one or more objects to rollback. Right-click on the object(s) and
 select **Rollback** on the menu.
 
-![Rollback selection in ADUC](../../../../../static/img/product_docs/recoveryforactivedirectory/recoveryforactivedirectory/rsatextension/aducrollback.webp)
+![Rollback selection in ADUC](/img/product_docs/recoveryforactivedirectory/recoveryforactivedirectory/rsatextension/aducrollback.webp)
 
 The Object Rollback wizard opens.
 
-![Object Rollback wizard - Object Backups Page](../../../../../static/img/product_docs/recoveryforactivedirectory/recoveryforactivedirectory/admin/activedirectory/objectbackups.webp)
+![Object Rollback wizard - Object Backups Page](/img/product_docs/recoveryforactivedirectory/recoveryforactivedirectory/admin/activedirectory/objectbackups.webp)
 
 **Step 2 –** On the Object Backups page, select a backup date and then select the object and
 attribute(s) to rollback. This page consists of two sections:
@@ -48,7 +48,7 @@ However, only one backup date can be selected in order to select attributes for 
 
 Click **Next**.
 
-![Object Rollback wizard - Domian Controller Page](../../../../../static/img/product_docs/recoveryforactivedirectory/recoveryforactivedirectory/rsatextension/domiancontroller.webp)
+![Object Rollback wizard - Domian Controller Page](/img/product_docs/recoveryforactivedirectory/recoveryforactivedirectory/rsatextension/domiancontroller.webp)
 
 **Step 3 –** On the Domain Controller page, select the Domain Controller to run the rollback action.
 This page consists of two sections:
@@ -63,7 +63,7 @@ This page consists of two sections:
 
 Click **Next**.
 
-![Object Rollback wizard - Alternate Credentials Page](../../../../../static/img/product_docs/recoveryforactivedirectory/recoveryforactivedirectory/rsatextension/alternatecredentials.webp)
+![Object Rollback wizard - Alternate Credentials Page](/img/product_docs/recoveryforactivedirectory/recoveryforactivedirectory/rsatextension/alternatecredentials.webp)
 
 **Step 4 –** The account preforming the operation must have Domain Admin privileges to access the
 domain tree area where the object resides. On the Alternate Credentials page:
@@ -75,14 +75,14 @@ domain tree area where the object resides. On the Alternate Credentials page:
 
 For a Least Privilege Access Model to provision an Active Directory security group with the
 permissions that are necessary to perform backups, rollbacks and recovery, see the
-[Least Privilege Access Model](../requirements/targetdomain.md#least-privilege-access-model) topic.
+[Least Privilege Access Model](/docs/recoveryforactivedirectory/2.6/recoveryforactivedirectory/requirements/targetdomain.md#least-privilege-access-model) topic.
 
-![Object Rollback wizard - Confirm Page](../../../../../static/img/product_docs/recoveryforactivedirectory/recoveryforactivedirectory/admin/forest/confirm.webp)
+![Object Rollback wizard - Confirm Page](/img/product_docs/recoveryforactivedirectory/recoveryforactivedirectory/admin/forest/confirm.webp)
 
 **Step 5 –** On the Confirm page, review the object information, changes, and the domain controller
 selection. Click **Finish** to rollback the object.
 
-![Successful Rollback window](../../../../../static/img/product_docs/recoveryforactivedirectory/recoveryforactivedirectory/rsatextension/rollbacksuccessful.webp)
+![Successful Rollback window](/img/product_docs/recoveryforactivedirectory/recoveryforactivedirectory/rsatextension/rollbacksuccessful.webp)
 
 **Step 6 –** The Rollback window displays the action status. Click **Close** to exit.
 

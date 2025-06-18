@@ -9,8 +9,8 @@ three slashes after file like this.
 file:///c:/
 ```
 
-![38_1_image001](../../../../../../static/img/product_docs/policypak/policypak/applicationsettings/preconfigured/chrome/38_1_image001.webp)
+![38_1_image001](/img/product_docs/policypak/policypak/applicationsettings/preconfigured/chrome/38_1_image001.webp)
 
 Result:
 
-![38_2_image002](../../../../../../static/img/product_docs/policypak/policypak/applicationsettings/preconfigured/chrome/38_2_image002.webp)
+![38_2_image002](/img/product_docs/policypak/policypak/applicationsettings/preconfigured/chrome/38_2_image002.webp)

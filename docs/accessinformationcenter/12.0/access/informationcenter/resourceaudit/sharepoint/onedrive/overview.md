@@ -3,5 +3,5 @@
 The following reports are available at the **OneDrive for Business** node and provide information
 for SharePoint Online instances:
 
-- [Anonymous Access Links Report](anonymousaccesslinks.md)
-- [OneDrive Scan Summary Report](onedrivescansummary.md)
+- [Anonymous Access Links Report](/docs/accessinformationcenter/12.0/access/informationcenter/resourceaudit/sharepoint/onedrive/anonymousaccesslinks.md)
+- [OneDrive Scan Summary Report](/docs/accessinformationcenter/12.0/access/informationcenter/resourceaudit/sharepoint/onedrive/onedrivescansummary.md)

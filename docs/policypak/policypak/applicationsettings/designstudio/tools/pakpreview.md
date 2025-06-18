@@ -5,13 +5,13 @@ capture additional tabs and configuration settings.  You can even do this for e
 you have downloaded from the Endpoint Policy Manager Portal.  To do so, go to` Tools > Pak Preview`,
 as shown in Figure 183.
 
-![using_designstudio_tools_19_624x304](../../../../../../static/img/product_docs/policypak/policypak/applicationsettings/designstudio/tools/using_designstudio_tools_19_624x304.webp)
+![using_designstudio_tools_19_624x304](/img/product_docs/policypak/policypak/applicationsettings/designstudio/tools/using_designstudio_tools_19_624x304.webp)
 
 Figure 183. Using Pak Preview to edit AppSets.
 
 Then, select the compiled DLL file you want to preview. Figure 184 shows a preview of Adobe Acrobat
 Pro settings.
 
-![using_designstudio_tools_20](../../../../../../static/img/product_docs/policypak/policypak/applicationsettings/designstudio/tools/using_designstudio_tools_20.webp)
+![using_designstudio_tools_20](/img/product_docs/policypak/policypak/applicationsettings/designstudio/tools/using_designstudio_tools_20.webp)
 
 Figure 184. A preview of Adobe Acrobat Pro settings.

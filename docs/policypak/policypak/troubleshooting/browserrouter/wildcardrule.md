@@ -16,7 +16,7 @@ to visit
 http://www.microsoft.com that the site still opens in Internet Explorer instead of Edge. The website
 http://docs.microsoft.com however, opens correctly in Edge.
 
-![712_1_image-20201230005141-1](../../../../../static/img/product_docs/policypak/policypak/troubleshooting/browserrouter/712_1_image-20201230005141-1.webp)
+![712_1_image-20201230005141-1](/img/product_docs/policypak/policypak/troubleshooting/browserrouter/712_1_image-20201230005141-1.webp)
 
 Assuming that the Browser Router Policy and prerequisites are all configured correctly, (i.e., the
 Default Browser policy, and/or other BR policies are working as expected) the reason this is
@@ -33,8 +33,8 @@ policy for \*Microsoft\*. Either of the policies below will resolve this issue.
 
 **NOTE:** There is no "www" in the URL rule below.
 
-![712_2_image-20201230005141-2](../../../../../static/img/product_docs/policypak/policypak/troubleshooting/browserrouter/712_2_image-20201230005141-2.webp)
+![712_2_image-20201230005141-2](/img/product_docs/policypak/policypak/troubleshooting/browserrouter/712_2_image-20201230005141-2.webp)
 
 OR
 
-![712_3_image-20201230005141-3](../../../../../static/img/product_docs/policypak/policypak/troubleshooting/browserrouter/712_3_image-20201230005141-3.webp)
+![712_3_image-20201230005141-3](/img/product_docs/policypak/policypak/troubleshooting/browserrouter/712_3_image-20201230005141-3.webp)

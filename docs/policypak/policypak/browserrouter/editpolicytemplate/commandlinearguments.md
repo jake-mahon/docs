@@ -17,7 +17,7 @@ PPBR rule as shown below.
 
 **NOTE:** Please note that the syntax `%url%` is case sensitive.
 
-![881_1_image-20221228073914-1](../../../../../static/img/product_docs/policypak/policypak/browserrouter/editpolicytemplate/881_1_image-20221228073914-1.webp)
+![881_1_image-20221228073914-1](/img/product_docs/policypak/policypak/browserrouter/editpolicytemplate/881_1_image-20221228073914-1.webp)
 
 **NOTE:** Please note that Chromium often removes a flag's support or replaces it with ADMX
 settings.

@@ -25,19 +25,19 @@ The Survey action module is configured through the Survey Action Module Wizard, 
 following wizard pages:
 
 - Welcome
-- [Survey: Template](template.md) (Legacy feature)
-- [Survey: Introduction](introduction.md)
-- [Survey: Questions](questions.md)
-- [Survey HTML Style](htmlstyle.md)
-- [Survey: Web Server](webserver.md)
-- [Survey: Mail – Properties](mailproperties.md)
-- [Survey: Mail – Message](mailmessage.md)
-- [Survey: Test Survey](testsurvey.md)
-- [Survey: Summary](summary.md)
+- [Survey: Template](/docs/accessanalyzer/12.0/admin/action/survey/template.md) (Legacy feature)
+- [Survey: Introduction](/docs/accessanalyzer/12.0/admin/action/survey/introduction.md)
+- [Survey: Questions](/docs/accessanalyzer/12.0/admin/action/survey/questions.md)
+- [Survey HTML Style](/docs/accessanalyzer/12.0/admin/action/survey/htmlstyle.md)
+- [Survey: Web Server](/docs/accessanalyzer/12.0/admin/action/survey/webserver.md)
+- [Survey: Mail – Properties](/docs/accessanalyzer/12.0/admin/action/survey/mailproperties.md)
+- [Survey: Mail – Message](/docs/accessanalyzer/12.0/admin/action/survey/mailmessage.md)
+- [Survey: Test Survey](/docs/accessanalyzer/12.0/admin/action/survey/testsurvey.md)
+- [Survey: Summary](/docs/accessanalyzer/12.0/admin/action/survey/summary.md)
 
 The Welcome page displays first and gives an overview of the action module. The navigation pane
 contains links to the pages in the wizard.
 
-![Survey Action Module Wizard Welcome page](../../../../../../static/img/product_docs/activitymonitor/activitymonitor/install/welcome.webp)
+![Survey Action Module Wizard Welcome page](/img/product_docs/activitymonitor/activitymonitor/install/welcome.webp)
 
 To proceed, click **Next** or use the Steps navigation pane to open another page in the wizard.

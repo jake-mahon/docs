@@ -39,7 +39,7 @@ updates. After you create the copy, you must add all of the appropriate category
    Leave this window open so you can see all of the categories.  
    This example shows **Engineering** as the new **Center**
 
-    ![Saving to Engineering Center.](../../../static/img/product_docs/strongpointfornetsuite/installing_strongpoint/engineeringexample.webp)
+    ![Saving to Engineering Center.](/img/product_docs/strongpointfornetsuite/installing_strongpoint/engineeringexample.webp)
 
 5. Create the Category links:
 
@@ -47,7 +47,7 @@ updates. After you create the copy, you must add all of the appropriate category
        Click **Edit** by the Label of your first category **(Strongpoint Support** in the example)
        and your selected **Center Type** (**Engineering** in the example).
 
-        ![Select Category for New Center.](../../../static/img/product_docs/strongpointfornetsuite/installing_strongpoint/copy_categories.webp)
+        ![Select Category for New Center.](/img/product_docs/strongpointfornetsuite/installing_strongpoint/copy_categories.webp)
 
     2. Open **Customization** > **Centers and Tabs** > **Center Categories** in a second new
        window.  
@@ -56,7 +56,7 @@ updates. After you create the copy, you must add all of the appropriate category
        as a guide. A drop down completion list is shown as you type. Click **Add** after each
        addition.
 
-        ![Two category windows open to copy links to your new Center.](../../../static/img/product_docs/strongpointfornetsuite/installing_strongpoint/copy_categories2.webp)
+        ![Two category windows open to copy links to your new Center.](/img/product_docs/strongpointfornetsuite/installing_strongpoint/copy_categories2.webp)
 
     4. When complete, click **Save** in your new **Center** and **Cancel** in the **Classic
        Center**.
@@ -73,6 +73,6 @@ updates. After you create the copy, you must add all of the appropriate category
 4. Assign the audience. This can be role(s) or specific employees.
 5. Click **Save**
 
-    ![Assigning permissions.](../../../static/img/product_docs/strongpointfornetsuite/installing_strongpoint/engineeringexample2.webp)
+    ![Assigning permissions.](/img/product_docs/strongpointfornetsuite/installing_strongpoint/engineeringexample2.webp)
 
-**Next Step:** [ Setting Role Permissions](setting_permissions.md)
+**Next Step:** [ Setting Role Permissions](/docs/strongpointfornetsuite/installing_strongpoint/setting_permissions.md)

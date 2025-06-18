@@ -8,10 +8,10 @@ categories of:
 - File System Access/Permission Auditing Scan
 - Sensitive Data Scan
 
-![FSAA Data Collector Wizard Default Scoping Options page](../../../../../../static/img/product_docs/accessanalyzer/admin/datacollector/fsaa/scansettings.webp)
+![FSAA Data Collector Wizard Default Scoping Options page](/img/product_docs/accessanalyzer/admin/datacollector/fsaa/scansettings.webp)
 
 See the Scoping Options tab setting topics to target individual resources for the scan:
 
-- [Scan Settings Tab](defaultscopingoptions/scansettings.md)
-- [File Details Tab](defaultscopingoptions/filedetails.md)
-- [File Properties (Folder Summary) Tab](defaultscopingoptions/fileproperties.md)
+- [Scan Settings Tab](/docs/accessanalyzer/12.0/admin/datacollector/fsaa/defaultscopingoptions/scansettings.md)
+- [File Details Tab](/docs/accessanalyzer/12.0/admin/datacollector/fsaa/defaultscopingoptions/filedetails.md)
+- [File Properties (Folder Summary) Tab](/docs/accessanalyzer/12.0/admin/datacollector/fsaa/defaultscopingoptions/fileproperties.md)

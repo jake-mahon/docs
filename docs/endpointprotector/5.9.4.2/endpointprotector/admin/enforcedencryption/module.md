@@ -5,7 +5,7 @@ with government-approved 256 bit AES CBC-mode encryption. For USB devices, it ne
 on the root of the device. With the intuitive Drag & Drop interface, ﬁles can be quickly copied to
 and from the device.
 
-![Enforced Encryption, Formerly known as EasyLock](../../../../../../static/img/product_docs/endpointprotector/endpointprotector/install/agent/jamf/enforcedencryption.webp)
+![Enforced Encryption, Formerly known as EasyLock](/img/product_docs/endpointprotector/endpointprotector/install/agent/jamf/enforcedencryption.webp)
 
 Used in combination with Endpoint Protector, Enforced Encryption allows USB storage devices to be
 identiﬁed as Trusted Device™ Level 1. This can ensure that USB Enforced Encryption is used on
@@ -31,7 +31,7 @@ decrypted, except for NTFS due to incompatibility with Enforced Encryption.
 
 Enforced Encryption is supported for both Mac and Windows computers.
 
-![Enforced Encryption is supported for both Mac and Windows computers](../../../../../../static/img/product_docs/endpointprotector/endpointprotector/admin/enforcedencryption/deployment.webp)
+![Enforced Encryption is supported for both Mac and Windows computers](/img/product_docs/endpointprotector/endpointprotector/admin/enforcedencryption/deployment.webp)
 
 Deployment can be done automatically if **Allow Access if Trusted Device™ Level 1+** is selected
 for the USB Storage Devices. This can be done by going to Device Control, Global Rights section, or
@@ -58,7 +58,7 @@ Encryption and Trusted Device™ Level 1.
 This section allows you to remotely manage Enforced Encryption encrypted devices. Before being able
 to take advantage of these features, you must conﬁgure a Master Password.
 
-![Enforced Encryption Settings](../../../../../../static/img/versioned_docs/activitymonitor_7.1/config/dellpowerscale/settings.webp)
+![Enforced Encryption Settings](/img/versioned_docs/activitymonitor_7.1/config/dellpowerscale/settings.webp)
 
 In the Settings section, the Master Password can be conﬁgured, the Enforced Encryption File Tracing
 enabled, as well as deﬁning the installation and execution of Enforced Encryption only on computers
@@ -67,13 +67,13 @@ where the Endpoint Protector Client is present.
 For both the Master Password and the User Password, complex rules can be enforced. If these are
 enabled, the password lengths, minimum characters, validity, history, and other settings can be set.
 
-![ Master Password Settings](../../../../../../static/img/product_docs/endpointprotector/endpointprotector/admin/enforcedencryption/masterpasswordsettings.webp)
+![ Master Password Settings](/img/product_docs/endpointprotector/endpointprotector/admin/enforcedencryption/masterpasswordsettings.webp)
 
 Endpoint Protector allows tracing of ﬁles copied and encrypted on portable devices using Enforced
 Encryption. This option can be activated from inside the Settings windows located under the Enforced
 Encryption tab.
 
-![File Tracing Settings](../../../../../../static/img/product_docs/endpointprotector/endpointprotector/admin/enforcedencryption/filetracing.webp)
+![File Tracing Settings](/img/product_docs/endpointprotector/endpointprotector/admin/enforcedencryption/filetracing.webp)
 
 By checking the File Tracing option, all data transferred to and from devices using Enforced
 Encryption is recorded and logged for later auditing. The logged information is automatically sent
@@ -105,7 +105,7 @@ Manage Client Action a list of Actions History is displayed, as well as the opti
 sending a message, changing the user’s password, resetting the device, resending the master
 password, and more.
 
-![Enforced Encryption Clients](../../../../../../static/img/product_docs/endpointprotector/endpointprotector/admin/enforcedencryption/clientslist.webp)
+![Enforced Encryption Clients](/img/product_docs/endpointprotector/endpointprotector/admin/enforcedencryption/clientslist.webp)
 
 ### Trusted Device™
 

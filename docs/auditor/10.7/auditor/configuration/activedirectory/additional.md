@@ -10,11 +10,11 @@ requirements:
 OR
 
 - The Audit Logs management role (see the
-  [Assign Management Roles](../exchange/permissions.md#assign-management-roles) topic for additional
+  [Assign Management Roles](/docs/auditor/10.7/auditor/configuration/exchange/permissions.md#assign-management-roles) topic for additional
   information)
 
 You will also need to configure Exchange Administrator Audit Logging (AAL) settings. See the
-[Exchange Administrator Audit Logging Settings](../exchange/auditlog.md) topic for additional
+[Exchange Administrator Audit Logging Settings](/docs/auditor/10.7/auditor/configuration/exchange/auditlog.md) topic for additional
 information.
 
 ## Additional Configuration for Domain Controller's Event Logs Auto-backup
@@ -122,7 +122,7 @@ navigate to Start > Windows Administrative Tools and select Local Security Polic
 **Step 2 –** In the Local Security Policy snap-in, navigate to **Security Settings** > **Local
 Policies > User Rights Assignment** and locate the **Log on as a batch job** policy.
 
-![manualconfig_ws_logonasbatch](../../../../../../static/img/product_docs/1secure/admin/datacollection/activedirectory/manualconfig_ws_logonasbatch.webp)
+![manualconfig_ws_logonasbatch](/img/product_docs/1secure/admin/datacollection/activedirectory/manualconfig_ws_logonasbatch.webp)
 
 **Step 3 –** Double-click the **Log on as a batch job** policy, and click **Add User or Group**.
 Specify the account that you want to define this policy for.
@@ -166,7 +166,7 @@ Domain Admins group.
 This permission should be assigned on each domain controller in the audited domain, so if your
 domain contains multiple domain controllers, it is recommended to assign permissions through Group
 Policy, or automatically using
-[Audit Configuration Assistant](../../tools/auditconfigurationassistant.md).
+[Audit Configuration Assistant](/docs/auditor/10.7/auditor/tools/auditconfigurationassistant.md).
 
 To assign permissions manually, use the Registry Editor snap-in or the Group Policy Management
 console.

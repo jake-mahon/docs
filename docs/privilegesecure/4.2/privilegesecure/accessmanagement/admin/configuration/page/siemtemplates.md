@@ -8,7 +8,7 @@ Two out of the box templates are provided for most common use cases, CEF and LEE
 be configured according to the requirements of the target SIEM solution, and the specific event data
 that needs to be sent. Privilege Secure supports 1.0 versions of CEF and LEEF.
 
-![SIEM Templates Page](../../../../../../../../static/img/product_docs/threatprevention/threatprevention/admin/configuration/systemalerting/siemtemplates.webp)
+![SIEM Templates Page](/img/product_docs/threatprevention/threatprevention/admin/configuration/systemalerting/siemtemplates.webp)
 
 ## Custom SIEM Templates
 
@@ -18,7 +18,7 @@ Follow the steps to add a custom SIEM template to the Privilege Secure Console.
 
 **Step 2 –** Click the Plus icon.
 
-![Add SIEM Template](../../../../../../../../static/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/configuration/page/siemtemplate.webp)
+![Add SIEM Template](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/configuration/page/siemtemplate.webp)
 
 **Step 3 –** Enter the following information:
 

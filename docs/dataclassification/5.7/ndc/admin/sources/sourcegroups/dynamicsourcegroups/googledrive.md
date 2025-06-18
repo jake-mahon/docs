@@ -4,7 +4,7 @@ This section contains information on how to configure Google Drive dynamic sourc
 between Basic and Advanced configuration settings by clicking the icons in the Settings button in
 the bottom left corner of the page.
 
-![dynamicsourcegroupgd](../../../../../../../../static/img/product_docs/dataclassification/ndc/admin/sources/sourcegroups/dynamicsourcegroups/dynamicsourcegroupgd.webp)
+![dynamicsourcegroupgd](/img/product_docs/dataclassification/ndc/admin/sources/sourcegroups/dynamicsourcegroups/dynamicsourcegroupgd.webp)
 
 The following options can be configured for File Servers Dynamic Source Groups:
 

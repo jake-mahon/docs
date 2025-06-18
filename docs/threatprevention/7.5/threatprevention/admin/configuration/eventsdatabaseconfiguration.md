@@ -5,12 +5,12 @@ Events database. Click **Configuration** > **Database** > **Server** on the menu
 
 This window is only available to Threat Prevention administrators.
 
-![Events Database Configuration Window](../../../../../../static/img/product_docs/threatprevention/threatprevention/admin/configuration/eventsdatabaseconfig.webp)
+![Events Database Configuration Window](/img/product_docs/threatprevention/threatprevention/admin/configuration/eventsdatabaseconfig.webp)
 
 The Event database is originally configured when installing the Threat Prevention Enterprise Manager
-package. See the [Application Server Install](../../install/application.md) topic for additional
+package. See the [Application Server Install](/docs/threatprevention/7.5/threatprevention/install/application.md) topic for additional
 information. This window displays the current connection settings for the Event database.
 
 Credentials and/or SQL Server host information can be changed in the DB Connection Manager
-application. See the [DB Connection Manager Wizard](../../install/dbconnectionmanager.md) topic for
+application. See the [DB Connection Manager Wizard](/docs/threatprevention/7.5/threatprevention/install/dbconnectionmanager.md) topic for
 additional information.

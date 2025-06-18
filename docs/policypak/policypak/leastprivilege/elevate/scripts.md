@@ -2,7 +2,7 @@
 
 **NOTE:** For an overview on elevating scripts and preventing scripts from running, which could need
 admin rights, see the
-[Elevate (or smack down) scripts and Java JAR files](../../video/leastprivilege/elevate/scripts.md)
+[Elevate (or smack down) scripts and Java JAR files](/docs/policypak/policypak/video/leastprivilege/elevate/scripts.md)
 video.
 
 You might need to elevate a script that has contents that would perform admin-only functions, like
@@ -16,7 +16,7 @@ Kick off the process to create a policy for scripts by going to **Add** > **New 
 ![A screenshot of a computer
 
 Description automatically
-generated](../../../../../static/img/product_docs/policypak/policypak/leastprivilege/elevate/elevating_scripts.webp)
+generated](/img/product_docs/policypak/policypak/leastprivilege/elevate/elevating_scripts.webp)
 
 The script types that are supported for elevation and for blocking are:
 

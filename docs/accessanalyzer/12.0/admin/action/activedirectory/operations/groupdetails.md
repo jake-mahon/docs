@@ -2,7 +2,7 @@
 
 Use Groups Details page to edit selected group attributes.
 
-![Active Directory Action Module Wizard Group Details page](../../../../../../../static/img/product_docs/threatprevention/threatprevention/reportingmodule/investigations/groupdetails.webp)
+![Active Directory Action Module Wizard Group Details page](/img/product_docs/threatprevention/threatprevention/reportingmodule/investigations/groupdetails.webp)
 
 Highlight the attribute to edit. Add or delete attributes using the buttons to the right of Insert
 field.
@@ -33,7 +33,7 @@ to use the Custom Attributes Import Wizard.
 **Step 1 –** On the Group Details page of the Active Directory Action Module Wizard, click
 **Import**. The Custom Attribute Import Wizard opens.
 
-![Custom Attributes Import Wizard Credentials page](../../../../../../../static/img/product_docs/activitymonitor/activitymonitor/install/agent/credentials.webp)
+![Custom Attributes Import Wizard Credentials page](/img/product_docs/activitymonitor/activitymonitor/install/agent/credentials.webp)
 
 **Step 2 –** On the Credentials page, identify a domain either by entering one manually or selecting
 one from the **Domain Name** drop-down menu which displays a list of domains trusted by the one in
@@ -46,13 +46,13 @@ attributes list from the domain:
 
 **Step 3 –** Click **Next**.
 
-![Custom Attributes Import Wizard Attributes page](../../../../../../../static/img/product_docs/accessanalyzer/admin/action/activedirectory/operations/attributesgroup.webp)
+![Custom Attributes Import Wizard Attributes page](/img/product_docs/accessanalyzer/admin/action/activedirectory/operations/attributesgroup.webp)
 
 **Step 4 –** The wizard populates available attributes from the domain specified on the Attributes
 page. Expand the desired object class and select the checkboxes for the custom attributes to be
 imported. Then click **Next**.
 
-![Custom Attributes Import Wizard Completion page](../../../../../../../static/img/product_docs/accessanalyzer/admin/action/activedirectory/operations/completionpage.webp)
+![Custom Attributes Import Wizard Completion page](/img/product_docs/accessanalyzer/admin/action/activedirectory/operations/completionpage.webp)
 
 **Step 5 –** On the Completion page, click **Finish**. On the Completion page, click **Finish**.
 

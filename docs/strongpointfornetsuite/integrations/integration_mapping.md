@@ -37,7 +37,7 @@ NetSuite. The file is uploaded when you run the tool. You can create a file with
 headings, or download the template with the link on the first page of the Integration Mapping tool.
 Do not change the specified headings. Here is the template:
 
-![int_map_csv_template](../../../static/img/product_docs/strongpointfornetsuite/integrations/int_map_csv_template.webp)
+![int_map_csv_template](/img/product_docs/strongpointfornetsuite/integrations/int_map_csv_template.webp)
 
 - **External Name** is the Object’s **Name** in the external system.
 - **External Script ID** is the Object’s **Identifier** in the external system.
@@ -51,12 +51,12 @@ Do not change the specified headings. Here is the template:
 ## Step 3: Open Integration Mapping tool
 
 The Mapping Tool menu item is hidden by default. If you do not see the option in your menu, refer to
-the [Managing Menus](../installing_strongpoint/managing_menus.md) topic for information on making it
+the [Managing Menus](/docs/strongpointfornetsuite/installing_strongpoint/managing_menus.md) topic for information on making it
 available.
 
 Open **Strongpoint** > **Integrations** > **Mapping Tool**
 
-**![int_mapping_menu](../../../static/img/product_docs/strongpointfornetsuite/integrations/int_mapping_menu.webp)**
+**![int_mapping_menu](/img/product_docs/strongpointfornetsuite/integrations/int_mapping_menu.webp)**
 
 ## Step 4: Select or Enter the External System
 
@@ -64,7 +64,7 @@ Open **Strongpoint** > **Integrations** > **Mapping Tool**
    name to have the tool automatically create a new External System, for example: _Salesforce_.
    Strongpoint appends (External System) to the Name. For example, _Salesforce (External System)_.
 
-    ![int_map_ext_sys](../../../static/img/product_docs/strongpointfornetsuite/integrations/int_map_ext_sys.webp)
+    ![int_map_ext_sys](/img/product_docs/strongpointfornetsuite/integrations/int_map_ext_sys.webp)
 
 2. You can use the link to download the **.csv** template if you have not already created the file.
 3. Click **Next** to continue.
@@ -73,7 +73,7 @@ Open **Strongpoint** > **Integrations** > **Mapping Tool**
 
 1. Click **Choose File**.
 
-    ![int_map_upload_csv](../../../static/img/product_docs/strongpointfornetsuite/integrations/int_map_upload_csv.webp)
+    ![int_map_upload_csv](/img/product_docs/strongpointfornetsuite/integrations/int_map_upload_csv.webp)
 
 2. Navigate to the**.csv file** containing your mappings.
 3. Click **Next** to continue.
@@ -83,17 +83,17 @@ Open **Strongpoint** > **Integrations** > **Mapping Tool**
 1. Review customization mappings. If you entered a **ScriptID** in your **.csv**, the associated
    **Link Object** is shown.
 
-    ![int_map_map_cust](../../../static/img/product_docs/strongpointfornetsuite/integrations/int_map_map_cust.webp)
+    ![int_map_map_cust](/img/product_docs/strongpointfornetsuite/integrations/int_map_map_cust.webp)
 
 2. Click **Search** to open the search form and select or research additional **Link Objects**.
 
-    ![int_map_search](../../../static/img/product_docs/strongpointfornetsuite/integrations/int_map_search.webp)
+    ![int_map_search](/img/product_docs/strongpointfornetsuite/integrations/int_map_search.webp)
 
 3. Search by all or part of a **Name**, **Type** or all or part of a **ScriptID**. For example,
    enter _cust_ for **Name** and click **Search** to find all customizations containing the search
    term:
 
-    ![int_map_search_results](../../../static/img/product_docs/strongpointfornetsuite/integrations/int_map_search_results.webp)
+    ![int_map_search_results](/img/product_docs/strongpointfornetsuite/integrations/int_map_search_results.webp)
 
     - Click in the **Add** column to select one or more objects.
     - Click **Select**.
@@ -106,11 +106,11 @@ Open **Strongpoint** > **Integrations** > **Mapping Tool**
 
 1. Check the Summary for any **Import Errors**.
 
-    ![int_map_summary](../../../static/img/product_docs/strongpointfornetsuite/integrations/int_map_summary.webp)
+    ![int_map_summary](/img/product_docs/strongpointfornetsuite/integrations/int_map_summary.webp)
 
 2. Click the linked **Internal ID** to display the ERD for each mapped customization.
 
 Here is an example of an expanded ERD showing **Integrations**, **Sources**, and **External
 Dependent Fields**. Note the **External Dependent Fields** is highlighted with a green header.
 
-![int_mapping_ext_erd](../../../static/img/product_docs/strongpointfornetsuite/integrations/int_mapping_ext_erd.webp)
+![int_mapping_ext_erd](/img/product_docs/strongpointfornetsuite/integrations/int_mapping_ext_erd.webp)

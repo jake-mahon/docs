@@ -291,27 +291,27 @@ try
 {
 sw = new System.IO.StreamWriter("c:\\si_eventdata.txt", true);
 sw.WriteLine("===========================================");
-sw.WriteLine(("TimeLogged:  " + helper.TimeLogged.ToString()));
-sw.WriteLine(("TimeLoggedUtc:  " + helper.TimeLoggedUtc.ToString()));
+sw.WriteLine(("TimeLogged:  " + helper.TimeLogged.ToString();
+sw.WriteLine(("TimeLoggedUtc:  " + helper.TimeLoggedUtc.ToString();
 sw.WriteLine(("EventSourceType: " + helper.EventSourceType));
 sw.WriteLine(("EventSourceName: " + helper.EventSourceName));
 sw.WriteLine(("SettingName: " + helper.SettingName));
 sw.WriteLine(("EventName: " + helper.EventName));
-sw.WriteLine(("DN:  " + helper.DN.ToString()));
+sw.WriteLine(("DN:  " + helper.DN.ToString();
 sw.WriteLine(("ClassName: " + helper.ClassName));
 sw.WriteLine(("Perpetrator: " + helper.Perpetrator));
 sw.WriteLine(("OriginatingServer: " + helper.OriginatingServer));
 sw.WriteLine(("OriginatingClient: " + helper.OriginatingClient));
-sw.WriteLine(("Success: " + helper.Success.ToString()));
+sw.WriteLine(("Success: " + helper.Success.ToString();
 sw.WriteLine(("Status: " + helper.Status));
-sw.WriteLine(("BlockedEvent: " + helper.BlockedEvent.ToString()));
-sw.WriteLine(("EventsCount: " + helper.EventsCount.ToString()));
+sw.WriteLine(("BlockedEvent: " + helper.BlockedEvent.ToString();
+sw.WriteLine(("EventsCount: " + helper.EventsCount.ToString();
 sw.WriteLine(("OriginatingClientProtocol: " + helper.OriginatingClientProtocol));
 sw.WriteLine(("FromHost: " + helper.FromHost));
 sw.WriteLine(("FromHostIp: " + helper.FromHostIp));
 sw.WriteLine(("ToHost: " + helper.ToHost));
 sw.WriteLine(("ToHostIp: " + helper.ToHostIp));
-sw.WriteLine(("LoginType: " + helper.LoginType.ToString()));
+sw.WriteLine(("LoginType: " + helper.LoginType.ToString();
 sw.WriteLine(("AffectedObjectSid: " + helper.AffectedObjectSid));
 sw.WriteLine(("OriginatingServerIp: " + helper.OriginatingServerIp));
 sw.WriteLine(("PerpetratorName: " + helper.PerpetratorName));
@@ -363,7 +363,7 @@ sb.Append(attrName);
 sb.Append(": ");
 if ((de.Value != null))
 {
-if ((de.Value.GetType() == typeof(SI.Common.Messages.NvMessageArray)))
+if ((de.Value.GetType() == typeof(SI.Common.Messages.NvMessageArray)
 {
 SI.Common.Messages.NvMessageArray values = ((SI.Common.Messages.NvMessageArray)(de.Value));
 if ((values.Count > 0))

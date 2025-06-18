@@ -7,10 +7,10 @@ the categories of:
 - Collect IAM data
 - Collect S3
 
-![AWS Query Login Roles](../../../../../../static/img/product_docs/accessanalyzer/admin/datacollector/aws/loginroles.webp)
+![AWS Query Login Roles](/img/product_docs/accessanalyzer/admin/datacollector/aws/loginroles.webp)
 
 Add the login roles that will allow Access Analyzer to scan the AWS accounts. See the
-[Configure AWS for Scans](../../../requirements/target/config/aws.md) topic for additional
+[Configure AWS for Scans](/docs/accessanalyzer/12.0/requirements/target/config/aws.md) topic for additional
 information. The page has the following options:
 
 - Import From File – Browse to the location of a CSV file from which to import the roles

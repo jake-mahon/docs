@@ -6,7 +6,7 @@ This is a live status update of the Strongpoint Usage of SFDC Governor Limit. Ac
 When Strongpoint reaches the threshold, executions are reschedule for the next day so the
 organization limit is not reached.
 
-![governor_800x271](../../../static/img/product_docs/strongpointsalesforceflashlight/getting_started/governor_800x271.webp)
+![governor_800x271](/img/product_docs/strongpointsalesforceflashlight/getting_started/governor_800x271.webp)
 
 ## Setting a Threshold
 

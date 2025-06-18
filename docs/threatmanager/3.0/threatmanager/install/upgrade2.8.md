@@ -4,7 +4,7 @@ Follow the steps to upgrade Threat Manager 2.6/2.7 to 2.8 or to apply a hotfix t
 
 **Step 1 –** Install the new version of PostreSQL.
 
-![postgresql](../../../../../static/img/product_docs/threatmanager/threatmanager/install/postgresql.webp)
+![postgresql](/img/product_docs/threatmanager/threatmanager/install/postgresql.webp)
 
 **NOTE:** The migration of PostgreSQL 10 to 14 will require a migration of theThreat Manager
 database. You may proceed through the migration process in the following menu.
@@ -17,7 +17,7 @@ database. You may proceed through the migration process in the following menu.
 
     - PG Tools Directory – Path to the directory where PostgreSQL binaries are located
 
-        ![postgresqlcompression](../../../../../static/img/product_docs/threatmanager/threatmanager/install/postgresqlcompression.webp)
+        ![postgresqlcompression](/img/product_docs/threatmanager/threatmanager/install/postgresqlcompression.webp)
 
     - Compression Level – Select the compression level to be applied to the data. It contains the
       following options:
@@ -32,7 +32,7 @@ database. You may proceed through the migration process in the following menu.
         **NOTE:** The compression algorithm option is used on the exported data. It does not affect
         either the old or the new database.
 
-        ![postgresqlthreads](../../../../../static/img/product_docs/threatmanager/threatmanager/install/postgresqlthreads.webp)
+        ![postgresqlthreads](/img/product_docs/threatmanager/threatmanager/install/postgresqlthreads.webp)
 
     - Number of Threads – Select the number of threads to be applied. Adding more threads can
       considerably reduce the time to import data to the target server. It contains the following
@@ -66,18 +66,18 @@ database. You may proceed through the migration process in the following menu.
 **NOTE:** The migration of PostgreSQL 10 to 14 may require significant disk space to perform safely.
 The disk space required for the backup does not need to be on the same disk as the database itself.
 
-![updatentm](../../../../../static/img/product_docs/threatmanager/threatmanager/install/updatentm.webp)
+![updatentm](/img/product_docs/threatmanager/threatmanager/install/updatentm.webp)
 
 **Step 4 –** Install the new version of Threat Manager.
 
 **Step 5 –** Click **Test** on the **Connect to a Threat Manager Database** page. The installer
 should see the existing PostgreSQL database and prompt to migrate.
 
-![postgresqlwarning](../../../../../static/img/product_docs/threatmanager/threatmanager/install/postgresqlwarning.webp)
+![postgresqlwarning](/img/product_docs/threatmanager/threatmanager/install/postgresqlwarning.webp)
 
 **Step 6 –** Click **OK**, click **Next**, then click **Test**. You will see the following message.
 
-![readyformigration](../../../../../static/img/product_docs/threatmanager/threatmanager/install/readyformigration.webp)
+![readyformigration](/img/product_docs/threatmanager/threatmanager/install/readyformigration.webp)
 
 **Step 7 –** Click **Next**.
 
@@ -98,8 +98,8 @@ the Threat Manager. To do this, uninstall the following dependencies:
 Complete any post-installation tasks required for your configured environment. See the following
 topics for additional information:
 
-- [Optionally Install the Action Service on Additional Servers](actionservice.md)
-- [Secure the Threat Manager Console](secure.md)
+- [Optionally Install the Action Service on Additional Servers](/docs/threatmanager/3.0/threatmanager/install/actionservice.md)
+- [Secure the Threat Manager Console](/docs/threatmanager/3.0/threatmanager/install/secure.md)
 
 Clear the cache of the browser that will be used to view the Threat Manager Console prior to
 launching Threat Manager.
@@ -123,14 +123,14 @@ presence of a red warning triangle.
 **NOTE:** Non-local action services will need their app tokens updated. Local action services will
 be automatically updated.
 
-![apptokensdep](../../../../../static/img/product_docs/threatmanager/threatmanager/install/apptokensdep.webp)
+![apptokensdep](/img/product_docs/threatmanager/threatmanager/install/apptokensdep.webp)
 
 **Step 3 –** Take note of the app token name and description and create a new one to be used with
 the application. See the
-[App Tokens Page](../administration/configuration/integrations/apptoken.md) topic for additional
+[App Tokens Page](/docs/threatmanager/3.0/threatmanager/administration/configuration/integrations/apptoken.md) topic for additional
 information.
 
 **Step 4 –** Update the application to use the new app token. See the
-[Integration with Other Netwrix Products](integration/overview.md) topic for additional information.
+[Integration with Other Netwrix Products](/docs/threatmanager/3.0/threatmanager/install/integration/overview.md) topic for additional information.
 
 **Step 5 –** Delete the old, deprecated app token.

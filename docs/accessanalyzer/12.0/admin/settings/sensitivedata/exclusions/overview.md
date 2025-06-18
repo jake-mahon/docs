@@ -4,23 +4,23 @@ Configure False Positive exclusion filters using the options in the False Positi
 Positives Filters listed here as False Positives results in the corresponding matches being removed
 from Access Analyzer and Access Information Center reports.
 
-![False Positives tab](../../../../../../../static/img/product_docs/accessanalyzer/admin/settings/sensitivedata/exclusions/falsepositivestab.webp)
+![False Positives tab](/img/product_docs/accessanalyzer/admin/settings/sensitivedata/exclusions/falsepositivestab.webp)
 
 The options under the False Positives Tab are:
 
 - Add Filter – Opens the Add False Positive Exclusion Filter window to add False Positive Exclusion
-  Filters. See the [Adding False Positive Exclusion Filters](add.md) topic for additional
+  Filters. See the [Adding False Positive Exclusion Filters](/docs/accessanalyzer/12.0/admin/settings/sensitivedata/exclusions/add.md) topic for additional
   information.
 - Edit Filter – Opens the Edit False Positive Exclusion Filter window to edit the selected filters
-  in the list. See the [Editing False Positive Exclusion Filters](edit.md) topic for additional
+  in the list. See the [Editing False Positive Exclusion Filters](/docs/accessanalyzer/12.0/admin/settings/sensitivedata/exclusions/edit.md) topic for additional
   information.
 - Delete Filter – Deletes the selected false positive exclusion filter. See the
-  [Deleting False Positive Exclusion Filters](delete.md) topic for additional information.
+  [Deleting False Positive Exclusion Filters](/docs/accessanalyzer/12.0/admin/settings/sensitivedata/exclusions/delete.md) topic for additional information.
 - Import – Imports a text file to populate the False Positives tab with False Positive Exclusion
-  Filters. See the [Importing False Positive Exclusion Filters](import.md) topic for additional
+  Filters. See the [Importing False Positive Exclusion Filters](/docs/accessanalyzer/12.0/admin/settings/sensitivedata/exclusions/import.md) topic for additional
   information.
 - Export – Exports selected false positive exclusion filters in a text file. See the
-  [Exporting False Positive Exclusion Filters](export.md) topic for additional information.
+  [Exporting False Positive Exclusion Filters](/docs/accessanalyzer/12.0/admin/settings/sensitivedata/exclusions/export.md) topic for additional information.
 
 The False Positives view displays the following information for the False Positive Exclusion
 Filters:

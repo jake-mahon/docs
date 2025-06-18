@@ -4,7 +4,7 @@ Password Policy Enforcer can be configured to use the Have I Been Pwnd (HIBP) da
 this database is hosted on the Netwrix website. The HIBP database contains a list of the hashes of
 known compromised passwords. During password change operations, the application can be configured to
 reject passwords with a hash that matches a hash in the HIBP database. See the Password Policy
-Enforcer [Compromised Password Check](compromisedpasswordcheck.md) topic for HIBP database
+Enforcer [Compromised Password Check](/docs/passwordpolicyenforcer/11.0/passwordpolicyenforcer/administration/compromisedpasswordcheck.md) topic for HIBP database
 information and configuration options.
 
 The HIBP database must be initially deployed to a server or workstation with an internet connection
@@ -32,7 +32,7 @@ The HIBP Updater is installed when you install the Password Policy Enforcer Conf
 
 ...\Program Files\Password Policy Enforcer\HIBP\
 
-![hibpfolder](../../../../../static/img/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/administration/hibpfolder.webp)
+![hibpfolder](/img/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/administration/hibpfolder.webp)
 
 **Step 2 –** Click HIBPWINUpdater.
 
@@ -45,7 +45,7 @@ breach.
 **NOTE:** First-time configuration of this window requires downloading the HIBP database from the
 Netwrix website.
 
-![HIBP Updater](../../../../../static/img/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/administration/hibpupdater.webp)
+![HIBP Updater](/img/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/administration/hibpupdater.webp)
 
 **CAUTION:** Ensure the initial update of the database occurs during non-office hours. Due to the
 size of the hash file, this download takes up a significant amount of CPU and download time.
@@ -98,7 +98,7 @@ Compromised rule to read the files from:
 
 \\127.0.0.1\sysvol\your.domain\filename.db
 
-See the [Compromised Rule](compromised_rule.md) topic for additional information.
+See the [Compromised Rule](/docs/passwordpolicyenforcer/11.0/passwordpolicyenforcer/administration/compromised_rule.md) topic for additional information.
 
 The path above only works if the computer has a Sysvol share. This will not be the case if you are
 using a workstation for policy testing, or if you are using Password Policy Enforcer to enforce
@@ -124,7 +124,7 @@ Follow the steps to schedule a task.
 **Step 2 –** Click **Add Schedule**. An Edit Schedule window appears that looks similar to the HIBP
 Updater window.
 
-![editschedule](../../../../../static/img/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/administration/editschedule.webp)
+![editschedule](/img/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/administration/editschedule.webp)
 
 **Step 3 –** Enter the Name and Description of the schedule.
 
@@ -143,6 +143,6 @@ The HIBP database will be updated according to the configurations.
 The Schedule List window shows the names, run times, next run times, and whether the schedule is
 enabled or not.
 
-![schedulelist](../../../../../static/img/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/administration/schedulelist.webp)
+![schedulelist](/img/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/administration/schedulelist.webp)
 
 Use this window to Add, Edit, or Delete schedules for the HIBP Updater.

@@ -5,7 +5,7 @@ the logging level for a deployment instance of a portal to track a specific set 
 it.
 
 To dump the log files to a desired location for easy access, see the
-[Get Logs](../../general/logs.md) topic.
+[Get Logs](/docs/groupid/11.1/groupid/admincenter/general/logs.md) topic.
 
 ## File Logging
 

@@ -4,7 +4,7 @@ The Deploy Agents wizard's Prerequisites Check window is the third in a sequence
 deploy the Agent on a computer. On this window, Threat Prevention checks if the provided credentials
 successfully allow Agent deployment.
 
-![Deploy Agents wizard – Prerequisites Check page](../../../../../../../static/img/product_docs/threatprevention/threatprevention/admin/agents/deploy/prerequisitescheck.webp)
+![Deploy Agents wizard – Prerequisites Check page](/img/product_docs/threatprevention/threatprevention/admin/agents/deploy/prerequisitescheck.webp)
 
 After the check is run, the status registers as either Success or Failed. Select a host to view the
 full message in the box at the bottom of the window.
@@ -19,4 +19,4 @@ full message in the box at the bottom of the window.
 In addition to confirming access, Threat Prevention also verifies if the target machine has the
 minimum .NET Framework version needed by the Agent already installed; else the deployment fails.
 
-See the [Installing Window ](installing.md)topic for the next step.
+See the [Installing Window ](/docs/threatprevention/7.5/threatprevention/admin/agents/deploy/installing.md)topic for the next step.

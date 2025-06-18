@@ -3,11 +3,11 @@
 The **Add Hosts** option creates a new host list. It can be accessed through the **Host Management**
 node. Follow the steps to add a new host list.
 
-![Add Hosts option on Activities pane of the Host Management node](../../../../../../static/img/product_docs/accessanalyzer/admin/hostmanagement/actions/addhosts.webp)
+![Add Hosts option on Activities pane of the Host Management node](/img/product_docs/accessanalyzer/admin/hostmanagement/actions/addhosts.webp)
 
 **Step 1 –** Click **Add Hosts** to open the Host List Wizard in the Results pane.
 
-![Host List Wizard Specify Manual Host Entry page](../../../../../../static/img/product_docs/accessanalyzer/admin/hostmanagement/actions/hostlistwizardhostentry.webp)
+![Host List Wizard Specify Manual Host Entry page](/img/product_docs/accessanalyzer/admin/hostmanagement/actions/hostlistwizardhostentry.webp)
 
 **Step 2 –** On the Manual Host Entry page, choose to either enter the hosts manually one at a time,
 or use the **Import** option. When the list is completed, click **Next**.
@@ -15,11 +15,11 @@ or use the **Import** option. When the list is completed, click **Next**.
 - To enter hosts manually, type the host name in the **Host name** textbox. Then click **Add**. The
   entry will appear in the **Host list** box. Repeat the process until all hosts for this list have
   been entered.
-- The **Import** option opens the Import Hosts window. See the [Import Hosts Option](importhost.md)
+- The **Import** option opens the Import Hosts window. See the [Import Hosts Option](/docs/accessanalyzer/12.0/admin/hostmanagement/actions/importhost.md)
   topic for additional information.
 - Use **Remove** to delete a selected host from the **Host list** box
 
-![Host List Wizard Specify Host List Properties page](../../../../../../static/img/product_docs/accessanalyzer/admin/hostmanagement/actions/hostlistwizardproperties.webp)
+![Host List Wizard Specify Host List Properties page](/img/product_docs/accessanalyzer/admin/hostmanagement/actions/hostlistwizardproperties.webp)
 
 **Step 3 –** On the Specify Host List Properties page, provide a unique descriptive **Host List
 Name**.
@@ -43,7 +43,7 @@ refreshed for hosts in the list and set the credentials to use to conduct the ho
     - Credentials in this connection profile – Use the dropdown list to select a Connection Profile
       from those preconfigured at the global level (**Settings** > **Connection**)
 
-    See the [Connection](../../settings/connection/overview.md) topic for additional information on
+    See the [Connection](/docs/accessanalyzer/12.0/admin/settings/connection/overview.md) topic for additional information on
     Connection Profiles.
 
 **Step 5 –** Click **Finish** to save the host list and close the Host Lost Wizard.

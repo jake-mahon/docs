@@ -7,7 +7,7 @@ When a Smart Group or Dynasty is updated using a scheduled job, it involves the 
 
     If the administrator has defined a Query Designer policy for your role, group membership is
     updated as per the defined policy. See the
-    [ Query Designer Policy](../../../admincenter/securityrole/policy/querydesigner.md)topic for
+    [ Query Designer Policy](/docs/groupid/11.1/groupid/admincenter/securityrole/policy/querydesigner.md)topic for
     additional information.
 
     NOTE: Whatever the records returned by the query, the membership of an Office 365 group is
@@ -46,10 +46,10 @@ In Directory Manager portal, you can perform the following functions for Smart G
 
     Or
 
-    [Directory Search](../../search/search.md) the group you want to modify the query for.
+    [Directory Search](/docs/groupid/11.1/groupid/portal/search/search.md) the group you want to modify the query for.
 
 2. Select the required Smart Group or Dynasty and click **Properties** on the toolbar.
-3. Use the [Group properties - Smart Group/Query Designer tab](../properties/smartgroup.md) to view
+3. Use the [Group properties - Smart Group/Query Designer tab](/docs/groupid/11.1/groupid/portal/group/properties/smartgroup.md) to view
    the query defined for the group.
 
     Click the **Query Designer** button to launch the **Query Designer** dialog box, where you can
@@ -75,12 +75,12 @@ membership update.
 
     Or
 
-    [Directory Search](../../search/search.md) the group you want to associate a Smart Group Update
+    [Directory Search](/docs/groupid/11.1/groupid/portal/search/search.md) the group you want to associate a Smart Group Update
     job with.
 
 2. Select the required Smart Group or Dynasty and click **Properties** on the toolbar.
 
-    The group's [Group Properties](../properties/overview.md) page is displayed.
+    The group's [Group Properties](/docs/groupid/11.1/groupid/portal/group/properties/overview.md) page is displayed.
 
 3. On the **Smart Group/Query Designer** tab, select a Smart Group Update job from the **Scheduled
    Job** list.

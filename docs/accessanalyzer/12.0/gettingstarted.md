@@ -2,7 +2,7 @@
 
 Once Access Analyzer is installed, the following workflow will quickly enable users to begin
 auditing the organization’s IT infrastructure. See the
-[Navigating the Console](admin/navigate/overview.md) topic for additional information and data grid
+[Navigating the Console](/docs/accessanalyzer/12.0/admin/navigate/overview.md) topic for additional information and data grid
 functionality.
 
 ## Initial Configuration During First Launch
@@ -17,19 +17,19 @@ several key global settings:
       Analyzer database
     - Option to either create a new database or point to an existing database
     - If using Windows Authentication, the Schedule node must be configured also
-    - See the [Storage](admin/settings/storage/overview.md) topic for additional information
+    - See the [Storage](/docs/accessanalyzer/12.0/admin/settings/storage/overview.md) topic for additional information
 
 - Schedule
 
     - Only appears if the Storage Profile is configured to use Windows Authentication
     - If the Storage Profile is configured to use SQL Authentication, the setting is configured
       later
-    - See the [Schedule](admin/settings/schedule.md) topic for additional information
+    - See the [Schedule](/docs/accessanalyzer/12.0/admin/settings/schedule.md) topic for additional information
 
 - Instant Job
 
     - Install the pre-configured solutions for which the organization is licensed
-    - See the [Instant Job Wizard](admin/jobs/instantjobs/overview.md) topic for additional
+    - See the [Instant Job Wizard](/docs/accessanalyzer/12.0/admin/jobs/instantjobs/overview.md) topic for additional
       information
 
 ## Global Settings Configured
@@ -38,40 +38,40 @@ The global Settings have an overall impact on the running of Access Analyzer job
 through the Settings node at the top of the Navigation pane. The following global Settings require
 configuration from the start:
 
-- [Connection](admin/settings/connection/overview.md) – Configure the Default Connection Profile and
+- [Connection](/docs/accessanalyzer/12.0/admin/settings/connection/overview.md) – Configure the Default Connection Profile and
   additional Connection Profiles as needed for intended data collection
-- [Schedule](admin/settings/schedule.md) – Configure the Default Scheduled Service Account for
+- [Schedule](/docs/accessanalyzer/12.0/admin/settings/schedule.md) – Configure the Default Scheduled Service Account for
   scheduling Access Analyzer job execution, if not configured via the initial configuration wizard
-- [Notification](admin/settings/notification.md) – Configure an SMTP server for Access Analyzer to
+- [Notification](/docs/accessanalyzer/12.0/admin/settings/notification.md) – Configure an SMTP server for Access Analyzer to
   use for sending email notifications
 
 The other global Settings provide additional options for impacting how Access Analyzer functions:
 
-- [Access](admin/settings/access/overview.md) – Enable and configure Role Based Access for a least
+- [Access](/docs/accessanalyzer/12.0/admin/settings/access/overview.md) – Enable and configure Role Based Access for a least
   privileged application of Access Analyzer and report viewing or the enable the REST API
 
     **NOTE:** If Role Based Access is enabled by accident, contact
     [Netwrix Support](https://www.netwrix.com/support.html) for assistance in disabling it.
 
-- [Application](admin/settings/application/overview.md) – Configure additional settings not included
+- [Application](/docs/accessanalyzer/12.0/admin/settings/application/overview.md) – Configure additional settings not included
   in the other nodes
-- [Exchange](admin/settings/exchange.md) – Configure Microsoft® Exchange Server connections
+- [Exchange](/docs/accessanalyzer/12.0/admin/settings/exchange.md) – Configure Microsoft® Exchange Server connections
 
 **CAUTION:** Do not configure data retention at the global level without ensuring History is
 supported by ALL solutions to be run.
 
-- [History](admin/settings/history.md) – Configure data retention and log retention settings
-- [Host Discovery](admin/settings/hostdiscovery.md) – Configure Host Discovery task settings
-- [Host Inventory](admin/settings/hostinventory.md) – Configure Host Inventory settings
-- [Reporting](admin/settings/reporting.md) – Configure reporting options, if necessary
-- [Sensitive Data](admin/settings/sensitivedata/overview.md) – Flag false positive within discovered
+- [History](/docs/accessanalyzer/12.0/admin/settings/history.md) – Configure data retention and log retention settings
+- [Host Discovery](/docs/accessanalyzer/12.0/admin/settings/hostdiscovery.md) – Configure Host Discovery task settings
+- [Host Inventory](/docs/accessanalyzer/12.0/admin/settings/hostinventory.md) – Configure Host Inventory settings
+- [Reporting](/docs/accessanalyzer/12.0/admin/settings/reporting.md) – Configure reporting options, if necessary
+- [Sensitive Data](/docs/accessanalyzer/12.0/admin/settings/sensitivedata/overview.md) – Flag false positive within discovered
   potential sensitive data files
-- [ServiceNow](admin/settings/servicenow.md) – Configure the ServiceNow Action Module authentication
+- [ServiceNow](/docs/accessanalyzer/12.0/admin/settings/servicenow.md) – Configure the ServiceNow Action Module authentication
   credentials
-- [Storage](admin/settings/storage/overview.md) – Configure additional SQL Server database Storage
+- [Storage](/docs/accessanalyzer/12.0/admin/settings/storage/overview.md) – Configure additional SQL Server database Storage
   Profiles
 
-See the [Global Settings](admin/settings/overview.md) topic for additional information.
+See the [Global Settings](/docs/accessanalyzer/12.0/admin/settings/overview.md) topic for additional information.
 
 ## Discover Hosts
 
@@ -82,7 +82,7 @@ Hosts are manually introduced at the Host Management node.
 
 Host management consists of maintaining up-to-date host inventories and host lists which can be
 assigned to job groups or jobs as targeted hosts. See the
-[Host Management](admin/hostmanagement/overview.md) topic for additional information.
+[Host Management](/docs/accessanalyzer/12.0/admin/hostmanagement/overview.md) topic for additional information.
 
 ## Job Workflow
 
@@ -97,4 +97,4 @@ Solutions are pre-configured job groups which have been designed to target speci
 environments to audit for specific data sets, typically the most common types of information
 desired.
 
-See the [Jobs Tree](admin/jobs/overview.md) topic for additional information.
+See the [Jobs Tree](/docs/accessanalyzer/12.0/admin/jobs/overview.md) topic for additional information.

@@ -4,7 +4,7 @@ Authorized users can create, modify or delete automated workflows that apply to 
 For that, in the administrative web console select Content from the top menu and go to the
 **Workflows** tab.
 
-![workflows_thumb_0_0](../../../../../../static/img/product_docs/dataclassification/ndc/admin/workflows/workflows_thumb_0_0.webp)
+![workflows_thumb_0_0](/img/product_docs/dataclassification/ndc/admin/workflows/workflows_thumb_0_0.webp)
 
 **NOTE:** To manage the automated workflows, users require sufficient access rights that are
 assigned based on either their Windows identity or using non-Windows based access controls. See
@@ -24,22 +24,22 @@ or **Advanced** dialogs.
 
 See next:
 
-- [Create a Workflow using Add Workflow Wizard](addworkflowwizard.md)
-- [Configure a Workflow using Advanced dialog](advancedwindow/createworkflow.md)
+- [Create a Workflow using Add Workflow Wizard](/docs/dataclassification/5.7/ndc/admin/workflows/addworkflowwizard.md)
+- [Configure a Workflow using Advanced dialog](/docs/dataclassification/5.7/ndc/admin/workflows/advancedwindow/createworkflow.md)
 
 ## Modifying or Deleting a Workflow
 
-To modify a workflow, follow the steps described in the [Edit Workflow settings](editsettings.md)
+To modify a workflow, follow the steps described in the [Edit Workflow settings](/docs/dataclassification/5.7/ndc/admin/workflows/editsettings.md)
 section.
 
-To delete a workflow, follow the steps described in the [Delete Workflow](delete.md)section.
+To delete a workflow, follow the steps described in the [Delete Workflow](/docs/dataclassification/5.7/ndc/admin/workflows/delete.md)section.
 
 ## Cloning, Enabling or Renaming a Workflow
 
 1. Click the link in the **Name** column for the required workflow ( e.g. Global for Google Drive in
    the figure below):
 
-![workflow_delete_single_thumb_0_0](../../../../../../static/img/product_docs/dataclassification/ndc/admin/workflows/workflow_delete_single_thumb_0_0.webp)
+![workflow_delete_single_thumb_0_0](/img/product_docs/dataclassification/ndc/admin/workflows/workflow_delete_single_thumb_0_0.webp)
 
 2. This will open the list of workflows for selected scope. You can sort the list by **Details**
    (workflow action) or by **Active** (workflow state) field.
@@ -53,7 +53,7 @@ To delete a workflow, follow the steps described in the [Delete Workflow](delete
 workflows can be copied within any groups of the same type. The clone workflow will be disabled by
 default.
 
-![workflows_category_list_thumb_0_0](../../../../../../static/img/product_docs/dataclassification/ndc/admin/workflows/workflows_category_list_thumb_0_0.webp)
+![workflows_category_list_thumb_0_0](/img/product_docs/dataclassification/ndc/admin/workflows/workflows_category_list_thumb_0_0.webp)
 
 To provide another name to a workflow, select it from the list and click **Rename**.
 

@@ -75,17 +75,17 @@ The following information is displayed for a file server in the **Included File 
   performed by the GroupID Entitlement schedule. Different statuses are:
 
     - **Request
-      ![rc_request](../../../../../../../static/img/product_docs/groupid/groupid/admincenter/entitlement/ad/rc_request.webp):**
+      ![rc_request](/img/product_docs/groupid/groupid/admincenter/entitlement/ad/rc_request.webp):**
       permission data for the file server has never been replicated to Elasticsearch.
     - **Success
-      ![rc_success](../../../../../../../static/img/product_docs/groupid/groupid/admincenter/entitlement/ad/rc_success.webp):**
+      ![rc_success](/img/product_docs/groupid/groupid/admincenter/entitlement/ad/rc_success.webp):**
       permission data for the file server was successfully replicated when the GroupID Entitlement
       schedule last ran.
     - **Fail
-      ![rc_fail](../../../../../../../static/img/product_docs/groupid/groupid/admincenter/entitlement/ad/rc_fail.webp):**
+      ![rc_fail](/img/product_docs/groupid/groupid/admincenter/entitlement/ad/rc_fail.webp):**
       replication failed for the server due to an error.
     - **Running
-      ![rc_running](../../../../../../../static/img/product_docs/groupid/groupid/admincenter/entitlement/ad/rc_running.webp):**
+      ![rc_running](/img/product_docs/groupid/groupid/admincenter/entitlement/ad/rc_running.webp):**
       the GroupID Entitlement schedule is running and replication is in progress.
 
 - **Last Replicated**: the date and time the GroupID Entitlement schedule last replicated
@@ -175,7 +175,7 @@ for entitlement management.
    a server and select **Edit**. On the **Edit Server** dialog box:
 
     - The **Server Shares** area displays the shared folders on the server.
-    - The name of the [GroupID Entitlement Schedule](../../schedule/entitlement.md) that computes
+    - The name of the [GroupID Entitlement Schedule](/docs/groupid/11.1/groupid/admincenter/schedule/entitlement.md) that computes
       the permissions on shared files and folders residing on the server and replicates them to
       Elasticsearch, is displayed next to **Job**.
 
@@ -215,9 +215,9 @@ can designate a different account for this activity.
    a server and select **Edit**.
 5. On the **Edit Server** dialog box, you can change the service account used to connect to the
    server for reading and updating permissions. The
-   [GroupID Entitlement Schedule](../../schedule/entitlement.md),
-   [Entitlement Scope Schedule](../../schedule/entitlementscope.md), and
-   [Entitlement Temporary Permissions Schedule](../../schedule/entitlementtemporarypermissions.md)
+   [GroupID Entitlement Schedule](/docs/groupid/11.1/groupid/admincenter/schedule/entitlement.md),
+   [Entitlement Scope Schedule](/docs/groupid/11.1/groupid/admincenter/schedule/entitlementscope.md), and
+   [Entitlement Temporary Permissions Schedule](/docs/groupid/11.1/groupid/admincenter/schedule/entitlementtemporarypermissions.md)
    run in the context of the account specified here.
 
     - The **Use Identity Store Service Account** check box is selected by default, indicating that
@@ -237,7 +237,7 @@ can designate a different account for this activity.
 After adding a file server for entitlement management, it is essential to replicate object
 permissions from the file server to Elasticsearch.
 
-The [GroupID Entitlement Schedule](../../schedule/entitlement.md) runs on a set frequency to
+The [GroupID Entitlement Schedule](/docs/groupid/11.1/groupid/admincenter/schedule/entitlement.md) runs on a set frequency to
 replicate the effective NTFS permission for the file servers. You can also run this schedule any
 time manually for a specific file server or all file servers listed in the **Included File Servers**
 section on the **Entitlement** page.
@@ -256,7 +256,7 @@ section on the **Entitlement** page.
       select the check boxes for the servers you want to replicate. To replicate all servers, select
       the check box in the header row. This displays the following icons:
 
-        **![replicate_permissions](../../../../../../../static/img/product_docs/groupid/groupid/admincenter/entitlement/ad/replicate_permissions.webp)**
+        **![replicate_permissions](/img/product_docs/groupid/groupid/admincenter/entitlement/ad/replicate_permissions.webp)**
 
         Either click the **Replicate** icon or the **Replicate** button.
 
@@ -288,7 +288,7 @@ You can exclude a file server in the identity store from replication and entitle
         want to replicate. To exclude all servers, select the check box in the header row. This
         displays the following icons:
 
-        ![replicate_permissions](../../../../../../../static/img/product_docs/groupid/groupid/admincenter/entitlement/ad/replicate_permissions.webp)
+        ![replicate_permissions](/img/product_docs/groupid/groupid/admincenter/entitlement/ad/replicate_permissions.webp)
 
         Click **Remove**. The servers are moved to the **Excluded File Servers** area.
 
@@ -311,5 +311,5 @@ You can restore an excluded server in the identity store for replication and ent
 
 See Also
 
-- [Entitlement](../overview.md)
-- [Manage SharePoint Sites](../entraid/manage.md)
+- [Entitlement](/docs/groupid/11.1/groupid/admincenter/entitlement/overview.md)
+- [Manage SharePoint Sites](/docs/groupid/11.1/groupid/admincenter/entitlement/entraid/manage.md)

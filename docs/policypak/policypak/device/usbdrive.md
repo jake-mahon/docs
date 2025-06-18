@@ -25,15 +25,15 @@ There are a few ways you can do this using Endpoint Policy Manager Least Privile
 
 1. You can block MSIEXEC directly from an .EXE rule with a DENY Executable policy.
 
-    ![984_1_image-20230725214430-5_950x637](../../../../static/img/product_docs/policypak/policypak/device/984_1_image-20230725214430-5_950x637.webp)
+    ![984_1_image-20230725214430-5_950x637](/img/product_docs/policypak/policypak/device/984_1_image-20230725214430-5_950x637.webp)
 
 2. You can block all .MSIs with a DENY Windows Installer Policy.
 
-    ![984_2_image-20230725214430-6_950x580](../../../../static/img/product_docs/policypak/policypak/device/984_2_image-20230725214430-6_950x580.webp)
+    ![984_2_image-20230725214430-6_950x580](/img/product_docs/policypak/policypak/device/984_2_image-20230725214430-6_950x580.webp)
 
 3. You can turn on Admin Approval.
 
-    ![984_3_image-20230725214430-7_950x691](../../../../static/img/product_docs/policypak/policypak/device/984_3_image-20230725214430-7_950x691.webp)
+    ![984_3_image-20230725214430-7_950x691](/img/product_docs/policypak/policypak/device/984_3_image-20230725214430-7_950x691.webp)
 
 Why is an extra step in Least Privilege Manager needed? Because Endpoint Policy Manager Least
 Privilege Manager is a process driver which handles processes. If you specify what to do on a

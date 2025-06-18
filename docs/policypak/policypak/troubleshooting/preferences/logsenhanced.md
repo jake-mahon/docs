@@ -5,7 +5,7 @@ normal logs aren't producing enough troubleshooting information. Only enable the
 with technical support. To enable these logs, go to` HKLM\SOFTWARE\Policies\PolicyPak\Config\CSE\`
 and create a` REG_DWORD` named extendedlogs with a value of 1 as seen in Figure 22.
 
-![troubleshooting_3](../../../../../static/img/product_docs/policypak/policypak/troubleshooting/preferences/troubleshooting_3.webp)
+![troubleshooting_3](/img/product_docs/policypak/policypak/troubleshooting/preferences/troubleshooting_3.webp)
 
 Figure 22. Turning on enhanced client logging.
 
@@ -15,7 +15,7 @@ support, you would change the log level of the `ppService.log` by first creating
 logs called `Service`. Then within `Service` add a `Reg_DWORD` called Verbose and set it to
 `0xFFFFFFFF`, as seen in Figure 23.
 
-![troubleshooting_4](../../../../../static/img/product_docs/policypak/policypak/troubleshooting/preferences/troubleshooting_4.webp)
+![troubleshooting_4](/img/product_docs/policypak/policypak/troubleshooting/preferences/troubleshooting_4.webp)
 
 Figure 23. The Service key will not exist by default and must be created before the value is set
 within it.

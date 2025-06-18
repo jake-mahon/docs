@@ -34,7 +34,7 @@ To access the customization list:
 1. Open **Strongpoint**> **Customizations** > **Customization**
 2. The recommended view is **Strongpoint Filter** to enable the filters to narrow down your search.
 
-![customization-list](../../../static/img/product_docs/strongpointfornetsuite/customizations/customization-list.webp)
+![customization-list](/img/product_docs/strongpointfornetsuite/customizations/customization-list.webp)
 
 ## Customization Quick Search
 
@@ -44,7 +44,7 @@ Quick Search**
 You can search using several factors and submit. When looking up by **Name**, using **Contains**
 helps if you do not have the exact name.
 
-![custquicksearch](../../../static/img/product_docs/strongpointfornetsuite/customizations/custquicksearch.webp)
+![custquicksearch](/img/product_docs/strongpointfornetsuite/customizations/custquicksearch.webp)
 
 ## ERD View
 
@@ -67,20 +67,20 @@ name brings up the customization record.
 
 4. Click **Show Record ERD**.
 
-    ![erd-view](../../../static/img/product_docs/strongpointfornetsuite/customizations/erd-view.webp)
+    ![erd-view](/img/product_docs/strongpointfornetsuite/customizations/erd-view.webp)
 
 5. Click on any item to expand the view. For large lists, click **More** to see the additional
    items.  
    External sources headers are highlighted in green.
 
-    ![ERD with an External Source](../../../static/img/product_docs/strongpointfornetsuite/customizations/celigo_erd.webp)
+    ![ERD with an External Source](/img/product_docs/strongpointfornetsuite/customizations/celigo_erd.webp)
 
 6. Click **Open Record** on any Customization to open the actual record.
 
 ## ERD Search Form
 
 The ERD search form enables you to search by different record types. You can also use it to create a
-Process Issue or a Change Request. Refer to [Enabling the ERD Search](using_erd.md).
+Process Issue or a Change Request. Refer to [Enabling the ERD Search](/docs/strongpointfornetsuite/customizations/using_erd.md).
 
 From the ERD Search Form, you can search by:
 
@@ -90,12 +90,12 @@ From the ERD Search Form, you can search by:
 - Parent
 - Quick Add
 
-![erdsearchform-2](../../../static/img/product_docs/strongpointfornetsuite/customizations/erdsearchform-2.webp)
+![erdsearchform-2](/img/product_docs/strongpointfornetsuite/customizations/erdsearchform-2.webp)
 
 Once you have finished your search, you can create a Process Issue or a Change Request from the
 results.
 
-![erdsearchform-3](../../../static/img/product_docs/strongpointfornetsuite/customizations/erdsearchform-3.webp)
+![erdsearchform-3](/img/product_docs/strongpointfornetsuite/customizations/erdsearchform-3.webp)
 
 ## Customization Impact Search
 
@@ -108,7 +108,7 @@ To access a customization quick search:
 1. Select **Strongpoint** > **Customizations** > **Customization Impact Search Form**.
 2. Enter any criteria to narrow the results as required.
 
-![impactsearchform](../../../static/img/product_docs/strongpointfornetsuite/customizations/impactsearchform.webp)
+![impactsearchform](/img/product_docs/strongpointfornetsuite/customizations/impactsearchform.webp)
 
 ## Other Customizations
 

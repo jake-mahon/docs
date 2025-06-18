@@ -15,7 +15,7 @@ listed in the table below.
 
 **IMPORTANT!** Before you add the **Migration** action to your workflow, you should configure
 migration destinations. See
-[Configure destinations for Migration action](../migrationdestinations.md).
+[Configure destinations for Migration action](/docs/dataclassification/5.7/ndc/admin/workflows/migrationdestinations.md).
 
 When running the Workflow wizard and having selected **Migration** as action, you will be prompted
 to configure related settings.
@@ -29,7 +29,7 @@ On the What do you want to do step, select Migrate Document action. do the follo
     - Select migration destination under Which type of repository should the document be migrated
       to?. You can add migration destination directly from wizard:
 
-        ![migration_destination_thumb_0_0](../../../../../../../static/img/product_docs/dataclassification/ndc/admin/workflows/actions/migration_destination_thumb_0_0.webp)
+        ![migration_destination_thumb_0_0](/img/product_docs/dataclassification/ndc/admin/workflows/actions/migration_destination_thumb_0_0.webp)
 
     - If you created several sources for migration destinations, select on one in the under Where
       should the document be migrated to?
@@ -57,7 +57,7 @@ While creating a stub file, you can leave a message where the document is migrat
 reasons. You can use the drop-down list to add metadata from the document to the stub file message.
 Please see below:
 
-![workflow_stubfile](../../../../../../../static/img/product_docs/dataclassification/ndc/admin/workflows/actions/workflow_stubfile.webp)
+![workflow_stubfile](/img/product_docs/dataclassification/ndc/admin/workflows/actions/workflow_stubfile.webp)
 
 ## Applying the redaction
 
@@ -69,10 +69,10 @@ To use redaction in a workflow, you need to set up one or more redaction plans. 
 redact the predefined entities by selecting the plans from the drop-down list on the screenshot
 below or create custom groups of entities first.
 
-![workflow_redaction](../../../../../../../static/img/product_docs/dataclassification/ndc/admin/workflows/actions/workflow_redaction.webp)
+![workflow_redaction](/img/product_docs/dataclassification/ndc/admin/workflows/actions/workflow_redaction.webp)
 
 If the redaction has failed for such files as PDF, that had OCR with images and cannot be fully
 recognized, these files will get quarantined, leaving a stub file, instead of a redacted file.
 
 To modify action settings for the certain workflow, select the workflow and use the Advanced UI
-window. See [Modify Migration action settings](../advancedwindow/migration.md) for more information.
+window. See [Modify Migration action settings](/docs/dataclassification/5.7/ndc/admin/workflows/advancedwindow/migration.md) for more information.

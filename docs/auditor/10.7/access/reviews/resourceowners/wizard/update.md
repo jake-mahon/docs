@@ -2,7 +2,7 @@
 
 The Update resource wizard is opened with the **Update** button in the Resource Owners interface.
 
-![Update Resource wizard showing 1. Select Owners page](../../../../../../../static/img/product_docs/accessinformationcenter/access/informationcenter/resourceowners/wizard/selectowners.webp)
+![Update Resource wizard showing 1. Select Owners page](/img/product_docs/accessinformationcenter/access/informationcenter/resourceowners/wizard/selectowners.webp)
 
 It contains three pages:
 
@@ -20,13 +20,13 @@ Follow the steps to update ownership configuration for a resource.
 **Step 1 –** In the Resource Owners interface, select the desired resource and click **Update**. The
 Update resource wizard opens.
 
-![Update resource wizard showing 1. Select Owners page](../../../../../../../static/img/product_docs/accessinformationcenter/access/informationcenter/resourceowners/wizard/selectowners.webp)
+![Update resource wizard showing 1. Select Owners page](/img/product_docs/accessinformationcenter/access/informationcenter/resourceowners/wizard/selectowners.webp)
 
 **Step 2 –** The Select Owners page lists the currently assigned owner(s). Modify as desired and
 click **Next** to continue.
 
 - Add new owners — Click **Add** to browse for a new owner. See the
-  [Add Owner Window](../window/addowner.md) topic for additional information.
+  [Add Owner Window](/docs/auditor/10.7/access/reviews/resourceowners/window/addowner.md) topic for additional information.
 - Remove an owner — Select an owner and click **Remove**
 - Change owner priority — Select an owner and use the arrow buttons to change the order
 
@@ -42,18 +42,18 @@ information on the owners:
   Tool-tips display when hovering over the icons indicating whether the resource ownership has been
   confirmed, declined, pending response, or that a confirmation has not been requested.
 
-![Update resource wizard showing 2. Description page](../../../../../../../static/img/product_docs/accessanalyzer/admin/action/servicenow/description.webp)
+![Update resource wizard showing 2. Description page](/img/product_docs/accessanalyzer/admin/action/servicenow/description.webp)
 
 **Step 3 –** The Description page displays any description that has been provided by either the
 Ownership Administrator or the assigned owner(s) for the resource. Modify as desired by typing in
 the textbox. Then click **Next** to continue.
 
-![Update resource wizard showing 3. Summary page](../../../../../../../static/img/product_docs/accessanalyzer/admin/datacollector/adinventory/summary.webp)
+![Update resource wizard showing 3. Summary page](/img/product_docs/accessanalyzer/admin/datacollector/adinventory/summary.webp)
 
 **Step 4 –** On the Summary page, review the settings and click Finish. The Access Reviews
 application begins to process the ownership changes.
 
-![Update resource wizard with 3. Summary page showing action status 100% complete](../../../../../../../static/img/product_docs/auditor/access/reviews/resourceowners/wizard/summarytaskcompleted.webp)
+![Update resource wizard with 3. Summary page showing action status 100% complete](/img/product_docs/auditor/access/reviews/resourceowners/wizard/summarytaskcompleted.webp)
 
 **Step 5 –** The action status displays on the page. When the update has completed (100%), click
 **Close**. The Update resource wizard closes.

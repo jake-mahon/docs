@@ -3,7 +3,7 @@
 The Integration Connectors page is accessible from the Navigation pane under Configuration. It shows
 the configured integration settings with other products.
 
-![Integration Connectors Page](../../../../../../../../static/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/configuration/page/integrationconnectorspage.webp)
+![Integration Connectors Page](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/configuration/page/integrationconnectorspage.webp)
 
 The pane on the left side of the page displays a list of the configured integration connectors. This
 pane has the following features:
@@ -21,16 +21,16 @@ The selected connector details display at the top of the main pane:
 - Connector Type — Indicates the type of integration:
 
     - BYOV — Configure integration with any vault, or Bring Your Own Vault. See the
-      [Bring Your Own Vault (BYOV) Integration](../add/integrationbyov.md) topic for additional
+      [Bring Your Own Vault (BYOV) Integration](/docs/privilegesecure/4.2/privilegesecure/accessmanagement/admin/configuration/add/integrationbyov.md) topic for additional
       information.
     - CyberArk — Configure integration with CyberArk. See the
-      [CyberArk Integration](../add/integrationcyberark.md) topic for additional information.
+      [CyberArk Integration](/docs/privilegesecure/4.2/privilegesecure/accessmanagement/admin/configuration/add/integrationcyberark.md) topic for additional information.
     - HashiCorp — Configure integration with HashiCorp. See the
-      [HashiCorp Integration](../add/integrationhashicorp.md) topic for additional information.
-    - LAPS — Configure integration with LAPS. See the [LAPS Integration](../add/integrationlaps.md)
+      [HashiCorp Integration](/docs/privilegesecure/4.2/privilegesecure/accessmanagement/admin/configuration/add/integrationhashicorp.md) topic for additional information.
+    - LAPS — Configure integration with LAPS. See the [LAPS Integration](/docs/privilegesecure/4.2/privilegesecure/accessmanagement/admin/configuration/add/integrationlaps.md)
       topic for additional information.
     - StealthAUDIT — Configure integration with Netwrix Access Analyzer (formerly Enterprise
-      Auditor). See the [Enterprise Auditor Integration](../add/integrationenterpriseauditor.md)
+      Auditor). See the [Enterprise Auditor Integration](/docs/privilegesecure/4.2/privilegesecure/accessmanagement/admin/configuration/add/integrationenterpriseauditor.md)
       topic for additional information.
 
     **NOTE:** The remaining fields vary based on the type selected.

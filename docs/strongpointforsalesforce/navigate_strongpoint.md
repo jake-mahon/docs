@@ -4,11 +4,11 @@ To access Platform Governance for Salesforce:
 
 - Click the Apps Launcher in the upper left of Salesforce.
 
-    ![Salesforce App launcher](../../static/img/product_docs/strongpointforsalesforce/app_launcher.webp)
+    ![Salesforce App launcher](/img/product_docs/strongpointforsalesforce/app_launcher.webp)
 
 - Click **Netwrix Lightning**. You may have to click **View All** to see the choices.
 
-    ![Select Netwrix Lightning](../../static/img/product_docs/strongpointforsalesforce/app_netwrix_lightning.webp)
+    ![Select Netwrix Lightning](/img/product_docs/strongpointforsalesforce/app_netwrix_lightning.webp)
 
 ## Netwrix Dashboard
 
@@ -25,7 +25,7 @@ Use + to add other tabs.
 
 The **Netwrix Dashboard** displays menu tabs, status information, apps, and links.
 
-![sf_home_screen](../../static/img/product_docs/strongpointforsalesforce/sf_home_screen.webp)
+![sf_home_screen](/img/product_docs/strongpointforsalesforce/sf_home_screen.webp)
 
 Menu tabs access functions through drop down menus:
 
@@ -52,4 +52,4 @@ Click **Find**.
 **Download Files** opens a list of files created by Platform Governance for Salesforce and the
 current status. Click on files to download them.
 
-![Download Files](../../static/img/product_docs/strongpointforsalesforce/download_files.webp)
+![Download Files](/img/product_docs/strongpointforsalesforce/download_files.webp)

@@ -7,7 +7,7 @@
 3. Click on bundle name **ServiceNow Integration**
 4. When the **Bundle Details** opens, click **Install**.
 
-    ![servicenowinstall2](../../../static/img/product_docs/strongpointfornetsuite/integrations/servicenowinstall2.webp)
+    ![servicenowinstall2](/img/product_docs/strongpointfornetsuite/integrations/servicenowinstall2.webp)
 
 5. When **Preview Bundle** opens, review the bundle and click **Install** to finish.
 6. Open **Strongpoint** > **Strongpoint Support** > **Installation Settings** > **View**
@@ -24,7 +24,7 @@
 2. Click **New**.
 3. Select **Basic Auth Credentials**.
 
-    ![Create a Credentials Record](../../../static/img/product_docs/strongpointfornetsuite/integrations/servicenow_credentials_record.webp)
+    ![Create a Credentials Record](/img/product_docs/strongpointfornetsuite/integrations/servicenow_credentials_record.webp)
 
 4. Enter the user credentials:  
    **User Name**: **sp-integrations**  
@@ -32,14 +32,14 @@
    Click **Submit** when complete.
 5. Open **System Applications** > **Studio** or enter **Studio** in the Menu Search box.
 
-    ![servicenowinstall4](../../../static/img/product_docs/strongpointfornetsuite/integrations/servicenowinstall4.webp)
+    ![servicenowinstall4](/img/product_docs/strongpointfornetsuite/integrations/servicenowinstall4.webp)
 
 6. If a pop-up window appears, click **Import From Source Control**.
 
-    ![servicenowinstall5](../../../static/img/product_docs/strongpointfornetsuite/integrations/servicenowinstall5.webp)
+    ![servicenowinstall5](/img/product_docs/strongpointfornetsuite/integrations/servicenowinstall5.webp)
 
     Otherwise, open **File** > **Import From Source Control**.  
-    ![servicenowinstall6](../../../static/img/product_docs/strongpointfornetsuite/integrations/servicenowinstall6.webp)
+    ![servicenowinstall6](/img/product_docs/strongpointfornetsuite/integrations/servicenowinstall6.webp)
 
 7. Enter the required information:
 
@@ -51,11 +51,11 @@
 
     **Branch**: master
 
-    ![servicenowinstall7](../../../static/img/product_docs/strongpointfornetsuite/integrations/servicenowinstall7.webp)
+    ![servicenowinstall7](/img/product_docs/strongpointfornetsuite/integrations/servicenowinstall7.webp)
 
 8. Click **Import**. You see the **Strongpoint NetSuite Integration**.
 
-    ![Select Strongpoint NetSuite Integration](../../../static/img/product_docs/strongpointfornetsuite/integrations/servicenowinstall7-2.webp)
+    ![Select Strongpoint NetSuite Integration](/img/product_docs/strongpointfornetsuite/integrations/servicenowinstall7-2.webp)
 
 9. Click **Strongpoint NetSuite Integration** to open the Application Explorer. You use this for the
    **Configure ServiceNow** procedure.
@@ -86,7 +86,7 @@ administrator for help.
 1. In the ServiceNow Application Explorer for the NetSuite Integration, open **Server
    Development** > **UI Action** > **Select Account**
 
-    ![servicenowinstall8](../../../static/img/product_docs/strongpointfornetsuite/integrations/servicenowinstall8.webp)
+    ![servicenowinstall8](/img/product_docs/strongpointfornetsuite/integrations/servicenowinstall8.webp)
 
     To open the Application Explorer, open **System Applications** > **Studio** and select
     **Strongpoint NetSuite Integration**
@@ -97,7 +97,7 @@ administrator for help.
    condition to be:  
    **current.cmdb_ci == 'configuration_item_sys_id'**
 
-    ![servicenowinstall9](../../../static/img/product_docs/strongpointfornetsuite/integrations/servicenowinstall9.webp)
+    ![servicenowinstall9](/img/product_docs/strongpointfornetsuite/integrations/servicenowinstall9.webp)
 
 3. Click **Update**.
 4. Repeat these steps to complete the setup on the other UI Actions: **ERD**, **Push Deployment
@@ -117,7 +117,7 @@ Service Now Administrator.
 3. Open **Server Development** > **UI Action** > **Push Deployment Record**
 4. Set **Condition** to **current.state > -3**
 
-    ![servicenowinstall10](../../../static/img/product_docs/strongpointfornetsuite/integrations/servicenowinstall10.webp)
+    ![servicenowinstall10](/img/product_docs/strongpointfornetsuite/integrations/servicenowinstall10.webp)
 
     If you set action button conditions in the Display Action Buttons Only for Specific Conditions
     procedure, add this condition to the existing ones. For example,  
@@ -130,7 +130,7 @@ Service Now Administrator.
 By default, all user can see the Strongpoint NetSuite tab in ServiceNow Change Requests. You can
 modify this to only allow configured users to see the tab.
 
-![Strongpoint NetSuite tab](../../../static/img/product_docs/strongpointfornetsuite/integrations/servicenow_tab.webp)
+![Strongpoint NetSuite tab](/img/product_docs/strongpointfornetsuite/integrations/servicenow_tab.webp)
 
 1. Log in to ServiceNow as an administrator to manage your instance.
 2. Obtain the system identifiers for each user you want to have access to the Strongpoint NetSuite
@@ -139,12 +139,12 @@ modify this to only allow configured users to see the tab.
     1. Filter for **configuration**
     2. Open **Base Items** > **Computers**
 
-        ![Open the ServiceNow Configuration items](../../../static/img/product_docs/strongpointfornetsuite/integrations/servicenow_tab1.webp)
+        ![Open the ServiceNow Configuration items](/img/product_docs/strongpointfornetsuite/integrations/servicenow_tab1.webp)
 
     3. Select the system for the user to grant access to the tab.
     4. Select **Copy sys_id** from the drop down menu.
 
-        ![Select Copy sys_id from the drop down menu](../../../static/img/product_docs/strongpointfornetsuite/integrations/servicenow_tab2.webp)
+        ![Select Copy sys_id from the drop down menu](/img/product_docs/strongpointfornetsuite/integrations/servicenow_tab2.webp)
 
     5. Paste the identifier in a file where you can access it to add to the script when you are
        finished locating the system identifiers. An example identifer is
@@ -154,7 +154,7 @@ modify this to only allow configured users to see the tab.
 4. Select **Strongpoint NetSuite Integration**.
 5. Open **Client Development** > **Client Scripts** > **Strongpoint Initialize**
 
-    ![Open the Strongpoint Initialize Script](../../../static/img/product_docs/strongpointfornetsuite/integrations/servicenow_tab3.webp)
+    ![Open the Strongpoint Initialize Script](/img/product_docs/strongpointfornetsuite/integrations/servicenow_tab3.webp)
 
 6. Add all of your copied System Identifiers to the **allowedCIs**. Separate multiple IDs with a
    comma (,). For example:

@@ -15,7 +15,7 @@ the first time.
 Please [contact Netwrix support](mailto:support@netwrix.com) if you have any questions, or if you
 encounter any problems during your evaluation.
 
-![introduction_1_1](../../../../../static/img/product_docs/passwordpolicyenforcer/passwordreset/evaluation/introduction_1_1.webp)
+![introduction_1_1](/img/product_docs/passwordpolicyenforcer/passwordreset/evaluation/introduction_1_1.webp)
 
 The Password Reset Administrator's Guide contains additional installation and configuration
 information. Refer to the Administrator's Guide for more detailed coverage of the topics discussed

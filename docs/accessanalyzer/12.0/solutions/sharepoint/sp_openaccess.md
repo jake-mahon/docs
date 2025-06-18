@@ -6,7 +6,7 @@ entire organization through modification of SharePoint permissions to apply well
 principals such as NT AUTHORITY\Authenticated Users. The data must be monitored closely because of
 its exposure.
 
-![2.High Risk Sites > SP_OpenAccess Job in the Jobs Tree](../../../../../static/img/product_docs/accessanalyzer/solutions/filesystem/openaccessjobstree.webp)
+![2.High Risk Sites > SP_OpenAccess Job in the Jobs Tree](/img/product_docs/accessanalyzer/solutions/filesystem/openaccessjobstree.webp)
 
 The job group is comprised of the SP_OpenAccess Job. Minimizing your attack surface is the goal.
 Open site collections can potentially provide access to privileged data, greatly increasing your
@@ -16,7 +16,7 @@ be accessed by a very large amount of employees.
 It is dependent on data collected by the
 [SharePoint Access Auditing](collection/overview.md#sharepoint-access-auditing) or
 [SharePoint Sensitive Data Discovery Auditing (SEEK)](collection/overview.md#sharepoint-sensitive-data-discovery-auditing-seek)
-components of the [0.Collection Job Group](collection/overview.md).
+components of the [0.Collection Job Group](/docs/accessanalyzer/12.0/solutions/sharepoint/collection/overview.md).
 
 ## Analysis Tasks for the SP_OpenAccess Job
 
@@ -26,7 +26,7 @@ Navigate to the **Jobs** > **SharePoint** > **2.High Risk Sites** > **SP_OpenAcc
 **CAUTION:** Do not modify or deselect the selected analysis tasks. The analysis tasks are
 preconfigured for this job.
 
-![Analysis Tasks for the SP_OpenAccess Job](../../../../../static/img/product_docs/accessanalyzer/solutions/filesystem/openaccessanalysis.webp)
+![Analysis Tasks for the SP_OpenAccess Job](/img/product_docs/accessanalyzer/solutions/filesystem/openaccessanalysis.webp)
 
 The default analysis tasks are:
 

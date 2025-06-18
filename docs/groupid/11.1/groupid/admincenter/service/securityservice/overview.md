@@ -11,20 +11,20 @@ Directory Manager.
 
 ## The Default Security Service
 
-See [The Default Data Service](../dataservice/overview.md#the-default-data-service) topic.
+See [The Default Data Service](/docs/groupid/11.1/groupid/admincenter/service/dataservice/overview.md#the-default-data-service) topic.
 
 At the time of Directory Manager installation, a generic signing key is assigned to the Directory
 Manager Security Service. For security reasons, it is recommended that a unique signing key is used
 which is specific to your environment. Using Netwrix Directory Manager (formerly GroupID) Signing
 Key Utility you can replace the old signing key with a new key. See the
-[Signing Key Utility](signkeyutility.md) topic for additional information.
+[Signing Key Utility](/docs/groupid/11.1/groupid/admincenter/service/securityservice/signkeyutility.md) topic for additional information.
 
 ## Why Create Multiple Security Services?
 
 See the
-[Why Create Multiple Data Services?](../dataservice/overview.md#why-create-multiple-data-services)
+[Why Create Multiple Data Services?](/docs/groupid/11.1/groupid/admincenter/service/dataservice/overview.md#why-create-multiple-data-services)
 topic while replacing references to Data service with Security service. After defining multiple
 Security services, you can enable communication between them. As a result of their communication,
 logged in session-related information persists across multiple Directory Manager clients. See the
 [Manage Advanced Settings](manage.md#manage-advanced-settings) section of the
-[Manage Security Service Settings](manage.md) topics for additional information.
+[Manage Security Service Settings](/docs/groupid/11.1/groupid/admincenter/service/securityservice/manage.md) topics for additional information.

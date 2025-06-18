@@ -25,27 +25,27 @@ on this computer.
 
 Here are the two methods of how to rename a computer in Windows to have Computer in the name.
 
-![prepareendpoint1](../../../../../static/img/product_docs/policypak/policypak/gettingstarted/quickstart/prepareendpoint1.webp)
+![prepareendpoint1](/img/product_docs/policypak/policypak/gettingstarted/quickstart/prepareendpoint1.webp)
 
 After the example computer is renamed and rebooted, you are ready to install the Endpoint Policy
 Manager CSE (Client Side Extension.)
 
 Locate the Endpoint Policy Manager Build folder and the Client Side Extension (CSE) folder.
 
-![prepareendpoint2](../../../../../static/img/product_docs/policypak/policypak/gettingstarted/quickstart/prepareendpoint2.webp)
+![prepareendpoint2](/img/product_docs/policypak/policypak/gettingstarted/quickstart/prepareendpoint2.webp)
 
 Next, install the Endpoint Policy Manager CSE on the endpoint. Use x64 for 64 bit and x86 for 32 bit
 machines.
 
 **NOTE:** See the
-[Endpoint Policy Manager ARM Support Supportability Statement](../../requirements/support/arm.md)
+[Endpoint Policy Manager ARM Support Supportability Statement](/docs/policypak/policypak/requirements/support/arm.md)
 topic about Endpoint Policy Manager Support on Arm processors.
 
 After the Endpoint Policy Manager CSE is installed, you can test verify that the license is valid
 because you renamed the computer to have COMPUTER in the name. Open a new command prompt and type
 the command ppupdate. You should see something similar to the output shown here.
 
-![prepareendpoint3](../../../../../static/img/product_docs/policypak/policypak/gettingstarted/quickstart/prepareendpoint3.webp)
+![prepareendpoint3](/img/product_docs/policypak/policypak/gettingstarted/quickstart/prepareendpoint3.webp)
 
 The important points to look for are:
 
@@ -58,8 +58,8 @@ days after you perform the installation. Therefore, be aware of your Expiration 
 be sooner than expected.
 
 See the
-[How can I tell how a machine is licensed (by GPO, MDM, or XML file), and also know for what components it is licensed?](../../troubleshooting/license/components.md)
+[How can I tell how a machine is licensed (by GPO, MDM, or XML file), and also know for what components it is licensed?](/docs/policypak/policypak/troubleshooting/license/components.md)
 topic for further details on validating licensing. See also the
-[Testing and Troubleshooting By Renaming an endpoint Computer](../../video/troubleshooting/mdm.md)
+[Testing and Troubleshooting By Renaming an endpoint Computer](/docs/policypak/policypak/video/troubleshooting/mdm.md)
 topic for further details showing what happens when you rename a computer and how Endpoint Policy
 Manager reacts.

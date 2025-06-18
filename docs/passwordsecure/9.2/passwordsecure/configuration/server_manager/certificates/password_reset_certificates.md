@@ -2,11 +2,11 @@
 
 ## What is a Netwrix Password Secure certificate?
 
-If a [Password Reset](../../advanced_view/clientmodule/passwordreset/password_reset.md) is created,
+If a [Password Reset](/docs/passwordsecure/9.2/passwordsecure/configuration/advanced_view/clientmodule/passwordreset/password_reset.md) is created,
 a corresponding certificate is created. This ensures that the passwords are transferred in encrypted
 form.
 
-![password-reset](../../../../../../../static/img/product_docs/passwordsecure/passwordsecure/configuration/server_manager/certificates/password-reset.webp)
+![password-reset](/img/product_docs/passwordsecure/passwordsecure/configuration/server_manager/certificates/password-reset.webp)
 
 NOTE: The Password Reset certificate cannot be replaced by your own certificate.
 
@@ -18,5 +18,5 @@ Reset certificate is also transferred!
 
 #### Exporting and importing the certificate
 
-The section [Certificates](certificates.md)explains how to back up the certificate and link it
+The section [Certificates](/docs/passwordsecure/9.2/passwordsecure/configuration/server_manager/certificates/certificates.md)explains how to back up the certificate and link it
 again.

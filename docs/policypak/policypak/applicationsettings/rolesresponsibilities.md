@@ -18,4 +18,4 @@ Policy Manager piece fits in. In the table, you'll see which Active Directory el
 based upon operating system type, the role it plays, and which Endpoint Policy Manager component
 needs to be installed (if any).
 
-![190_1_2014-09-22_0927](../../../../static/img/product_docs/policypak/policypak/applicationsettings/190_1_2014-09-22_0927.webp)
+![190_1_2014-09-22_0927](/img/product_docs/policypak/policypak/applicationsettings/190_1_2014-09-22_0927.webp)

@@ -6,7 +6,7 @@ The 3-FSAC Exceptions job is designed to analyze collected access information fo
 
 The Configuration section on a Job's overview page allows you to easily modify any customizable
 parameters used by analysis tasks in the job. See the
-[Parameter Configuration](../../../admin/jobs/job/overview.md#parameter-configuration) topic for
+[Parameter Configuration](/docs/accessanalyzer/12.0/admin/jobs/job/overview.md#parameter-configuration) topic for
 instructions on how to edit parameters on a job overview page.
 
 The 3-FSAC Exceptions job has many customizable parameters. See the
@@ -21,7 +21,7 @@ Exceptions** > **Configure** node and select **Analysis**.
 **CAUTION:** Do not modify or deselect the selected analysis tasks. The analysis tasks are
 preconfigured for this job.
 
-![Analysis Tasks for the 3-FSAC Exceptions Job](../../../../../../static/img/product_docs/accessanalyzer/solutions/filesystem/collection/fsacexceptionsanalysis.webp)
+![Analysis Tasks for the 3-FSAC Exceptions Job](/img/product_docs/accessanalyzer/solutions/filesystem/collection/fsacexceptionsanalysis.webp)
 
 The following analysis tasks are selected by default:
 
@@ -109,5 +109,5 @@ analysis. The 3-FSAC Exceptions job contains the following customizable paramete
 | Unusual user stale data activity     | @STALETHRESHOLD             | 365           | Number of days after which resources are considered stale                       |
 
 See the
-[Configure the Customizable Parameters in an Analysis Task](../../../admin/jobs/job/configure/analysiscustomizableparameters.md)
+[Configure the Customizable Parameters in an Analysis Task](/docs/accessanalyzer/12.0/admin/jobs/job/configure/analysiscustomizableparameters.md)
 topic for additional information on modifying analysis parameters.

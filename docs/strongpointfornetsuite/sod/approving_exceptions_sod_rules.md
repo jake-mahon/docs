@@ -6,7 +6,7 @@ To create a change request:
 
 1. Open **SoD** > **Change Management** > **New SoD Approval**
 
-    ![sod_new_change_request](../../../static/img/product_docs/strongpointfornetsuite/sod/sod_new_change_request.webp)
+    ![sod_new_change_request](/img/product_docs/strongpointfornetsuite/sod/sod_new_change_request.webp)
 
 2. Enter information in the following fields:
 
@@ -23,7 +23,7 @@ To create a change request:
 5. **Save** the Change Request.
 6. The Approval section is now available. Click **Edit** to add **Additional Approvers** or
    **Approver Notes**. Click **Save** if you make changes. Refer to
-   [Create a Change Request](../change_management/creating_change_request.md) for more details about
+   [Create a Change Request](/docs/strongpointfornetsuite/change_management/creating_change_request.md) for more details about
    the status bar.
 7. Click **Pending Approval** on the status bar.
 

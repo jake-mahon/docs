@@ -11,4 +11,4 @@ administration is carried out via the organisational structure module.
 When creating new users, you must pay attention to whether it is a **User (Basic View)** or a
 **Advanced User (View)**.
 
-![installation_with_parameters_166](../../../../../../../../../static/img/product_docs/passwordsecure/passwordsecure/configuration/web_applicaiton/functional_scope/organisational_structure/user_management/installation_with_parameters_166.webp)
+![installation_with_parameters_166](/img/product_docs/passwordsecure/passwordsecure/configuration/web_applicaiton/functional_scope/organisational_structure/user_management/installation_with_parameters_166.webp)

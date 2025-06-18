@@ -10,7 +10,7 @@ import APITable from '@site/src/components/APITable';
 
 :::info
 
-Refer to the Getting Started [**Configuration**](../configuration.mdx) for examples.
+Refer to the Getting Started [**Configuration**](/reference-docs/docusaurus/configuration.mdx) for examples.
 
 :::
 
@@ -20,7 +20,7 @@ Refer to the Getting Started [**Configuration**](../configuration.mdx) for examp
 
 :::note
 
-With a [TypeScript](../typescript-support.mdx) Docusaurus codebase your config file may be called `docusaurus.config.ts`. The syntax is broadly identical to the `js` config file with the addition of types. You can see an example on the [Docusaurus Website](https://github.com/facebook/docusaurus/blob/main/website/docusaurus.config.ts) itself.
+With a [TypeScript](/reference-docs/docusaurus/typescript-support.mdx) Docusaurus codebase your config file may be called `docusaurus.config.ts`. The syntax is broadly identical to the `js` config file with the addition of types. You can see an example on the [Docusaurus Website](https://github.com/facebook/docusaurus/blob/main/website/docusaurus.config.ts) itself.
 
 :::
 
@@ -30,7 +30,7 @@ The `docusaurus.config.js` file supports:
 
 - [**ES Modules**](https://flaviocopes.com/es-modules/)
 - [**CommonJS**](https://flaviocopes.com/commonjs/)
-- [**TypeScript**](../typescript-support.mdx#typing-config)
+- [**TypeScript**](../typescript-support.mdx#typing-config)))
 
 Examples:
 
@@ -54,7 +54,7 @@ export default async function createConfigAsync() {
 
 :::tip
 
-Refer to [**Syntax to declare `docusaurus.config.js`**](../configuration.mdx#syntax-to-declare-docusaurus-config) for a more exhaustive list of examples and explanations.
+Refer to [**Syntax to declare `docusaurus.config.js`**](../configuration.mdx#syntax-to-declare-docusaurus-config))) for a more exhaustive list of examples and explanations.
 
 :::
 
@@ -124,7 +124,7 @@ Allow to customize the presence/absence of a trailing slash at the end of URLs/l
 
 Each static hosting provider serves static files differently (this behavior may even change over time).
 
-Refer to the [deployment guide](../deployment.mdx) and [slorber/trailing-slash-guide](https://github.com/slorber/trailing-slash-guide) to choose the appropriate setting.
+Refer to the [deployment guide](/reference-docs/docusaurus/deployment.mdx) and [slorber/trailing-slash-guide](https://github.com/slorber/trailing-slash-guide) to choose the appropriate setting.
 
 :::
 
@@ -132,7 +132,7 @@ Refer to the [deployment guide](../deployment.mdx) and [slorber/trailing-slash-g
 
 - Type: `Object`
 
-The i18n configuration object to [localize your site](../i18n/i18n-introduction.mdx).
+The i18n configuration object to [localize your site](/reference-docs/docusaurus/i18n/i18n-introduction.mdx).
 
 Example:
 
@@ -222,7 +222,7 @@ export default {
 
 - `v4`: Permits to opt-in for upcoming Docusaurus v4 breaking changes and features, to prepare your site in advance for this new version. Use `true` as a shorthand to enable all the flags.
   - [`removeLegacyPostBuildHeadAttribute`](https://github.com/facebook/docusaurus/pull/10435): Removes the legacy `plugin.postBuild({head})` API that prevents us from applying useful SSG optimizations ([explanations](https://github.com/facebook/docusaurus/pull/10850)).
-  - [`useCssCascadeLayers`](https://github.com/facebook/docusaurus/pull/11142): This enables the [Docusaurus CSS Cascade Layers plugin](./plugins/plugin-css-cascade-layers.mdx) with pre-configured layers that we plan to apply by default for Docusaurus v4.
+  - [`useCssCascadeLayers`](https://github.com/facebook/docusaurus/pull/11142): This enables the [Docusaurus CSS Cascade Layers plugin](/reference-docs/docusaurus/api/plugins/plugin-css-cascade-layers.mdx) with pre-configured layers that we plan to apply by default for Docusaurus v4.
 - `experimental_faster`: An object containing feature flags to make the Docusaurus build faster. This requires adding the `@docusaurus/faster` package to your site's dependencies. Use `true` as a shorthand to enable all flags. Read more on the [Docusaurus Faster](https://github.com/facebook/docusaurus/issues/10556) issue. Available feature flags:
   - [`swcJsLoader`](https://github.com/facebook/docusaurus/pull/10435): Use [SWC](https://swc.rs/) to transpile JS (instead of [Babel](https://babeljs.io/)).
   - [`swcJsMinimizer`](https://github.com/facebook/docusaurus/pull/10441): Use [SWC](https://swc.rs/) to minify JS (instead of [Terser](https://github.com/terser/terser)).
@@ -366,7 +366,7 @@ export default {
 
 - Type: `Object`
 
-The [theme configuration](./themes/theme-configuration.mdx) object to customize your site UI like navbar and footer.
+The [theme configuration](/reference-docs/docusaurus/api/themes/theme-configuration.mdx) object to customize your site UI like navbar and footer.
 
 Example:
 
@@ -437,7 +437,7 @@ export default {
 type PluginConfig = string | [string, any] | PluginModule | [PluginModule, any];
 ```
 
-See [plugin method references](./plugin-methods/README.mdx) for the shape of a `PluginModule`.
+See [plugin method references](/reference-docs/docusaurus/api/plugin-methods/README.mdx) for the shape of a `PluginModule`.
 
 ```js title="docusaurus.config.js"
 export default {
@@ -557,7 +557,7 @@ export default {
 | `format`              | `'mdx' \| 'md' \| 'detect'` | `'mdx'`                                                 | The default parser format to use for Markdown content. Using 'detect' will select the appropriate format automatically based on file extensions: `.md` vs `.mdx`.                                                 |
 | `mermaid`             | `boolean`                   | `false`                                                 | When `true`, allows Docusaurus to render Markdown code blocks with `mermaid` language as Mermaid diagrams.                                                                                                        |
 | `preprocessor`        | `MarkdownPreprocessor`      | `undefined`                                             | Gives you the ability to alter the Markdown content string before parsing. Use it as a last-resort escape hatch or workaround: it is almost always better to implement a Remark/Rehype plugin.                    |
-| `parseFrontMatter`    | `ParseFrontMatter`          | `undefined`                                             | Gives you the ability to provide your own front matter parser, or to enhance the default parser. Read our [front matter guide](../guides/markdown-features/markdown-features-intro.mdx#front-matter) for details. |
+| `parseFrontMatter`    | `ParseFrontMatter`          | `undefined`                                             | Gives you the ability to provide your own front matter parser, or to enhance the default parser. Read our [front matter guide](../guides/markdown-features/markdown-features-intro.mdx#front-matter))) for details. |
 | `mdx1Compat`          | `MDX1CompatOptions`         | `{comments: true, admonitions: true, headingIds: true}` | Compatibility options to make it easier to upgrade to Docusaurus v3+.                                                                                                                                             |
 | `anchors`             | `MarkdownAnchorsConfig`     | `{maintainCase: false}`                                 | Options to control the behavior of anchors generated from Markdown headings                                                                                                                                       |
 | `remarkRehypeOptions` | `object`                    | `undefined`                                             | Makes it possible to pass custom [`remark-rehype` options](https://github.com/remarkjs/remark-rehype#options).                                                                                                    |
@@ -678,7 +678,7 @@ By default, the `<link>` tags will have `rel="stylesheet"`, but you can explicit
 
 ### `clientModules` {#clientModules}
 
-An array of [client modules](../advanced/client.mdx#client-modules) to load globally on your site.
+An array of [client modules](../advanced/client.mdx#client-modules))) to load globally on your site.
 
 Example:
 

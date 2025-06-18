@@ -226,11 +226,11 @@ for Exchange. See the following Microsoft articles:
   [Enable mailbox auditing in Office 365](https://technet.microsoft.com/en-us/library/dn879651.aspx)
   article
 - Exchange 2016 – Exchange 2019 –
-  [Enable or disable mailbox audit logging for a mailbox](<https://technet.microsoft.com/en-us/library/ff461937(v=exchg.160).aspx>)
+  [Enable or disable mailbox audit logging for a mailbox](https://technet.microsoft.com/en-us/library/ff461937(v=exchg.160).aspx)
   article
 - Exchange 2013 –
-  [Enable or disable mailbox audit logging for a mailbox](<https://technet.microsoft.com/en-us/library/ff461937(v=exchg.150).aspx>)
+  [Enable or disable mailbox audit logging for a mailbox](https://technet.microsoft.com/en-us/library/ff461937(v=exchg.150).aspx)
   article
 - Exchange 2010 –
-  [Enable or Disable Mailbox Audit Logging for a Mailbox](<https://technet.microsoft.com/en-us/library/ff461937(v=exchg.141).aspx>)
+  [Enable or Disable Mailbox Audit Logging for a Mailbox](https://technet.microsoft.com/en-us/library/ff461937(v=exchg.141).aspx)
   article

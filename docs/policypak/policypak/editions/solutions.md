@@ -24,13 +24,13 @@ details of where Endpoint Policy Manager data is stored.
 The most popular method of using Endpoint Policy Manager is via Group Policy.
 
 **Note**: For more information on this topic, please see this
-video:[Knowledge Base](../grouppolicy/overview/knowledgebase.md) > Group Policy
+video:[Knowledge Base](/docs/policypak/policypak/grouppolicy/overview/knowledgebase.md) > Group Policy
 
 When you use the Group Policy method, you are 100% in control of your data because it is all
 contained within your Active Directory.The image below shows what Endpoint Policy Manager looks like
 whenusing Group Policy.
 
-![editions_solutions_paks_and](../../../../static/img/product_docs/policypak/policypak/editions/editions_solutions_paks_and.webp)
+![editions_solutions_paks_and](/img/product_docs/policypak/policypak/editions/editions_solutions_paks_and.webp)
 
 Group Policy is automatically stored in Active Directory on all domain controllers (DCs), so you
 don't have to install anything on any DCs or extend the Active Directory schema. Because GPOs are
@@ -45,7 +45,7 @@ directives must have the Endpoint Policy Manager admin console on it, enabling y
 Endpoint Policy Manager policies within GPOs. Below you can see how Endpoint Policy Manager works
 with Group Policy.
 
-![editions_solutions_paks_and_1](../../../../static/img/product_docs/policypak/policypak/editions/editions_solutions_paks_and_1.webp)
+![editions_solutions_paks_and_1](/img/product_docs/policypak/policypak/editions/editions_solutions_paks_and_1.webp)
 
 When using Group Policy to deploy Endpoint Policy Manager directives, Endpoint Policy Manager will
 leverage Group Policy to the fullest extent possible. That is, Endpoint Policy Manager honors (at a
@@ -72,10 +72,10 @@ URLs to Group Policy management videos.
 
 | Product Name                                      | Video link to Endpoint Policy Manager and the Group Policy Management Product                                                               |
 | ------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------- |
-| Microsoft AGPM (Advanced Group Policy Management) | [Endpoint Policy Manager and AGPM](../video/changemanagementutilities/advancedgrouppolicymanagement.md)                                     |
-| Quest GPO Administrator                           | [Endpoint Policy Manager and Quest's GPOADmin Tool](../video/changemanagementutilities/gpoadmintool.md)                                     |
-| Quest Active Administrator                        | [Endpoint Policy Manager and Quest (ScriptLogic) ActiveAdministrator](../video/changemanagementutilities/scriptlogicactiveadministrator.md) |
-| NetIQ Group Policy Administrator                  | [Endpoint Policy Manager Integrates with NetIQ GPA](../video/changemanagementutilities/netiq.md)                                            |
+| Microsoft AGPM (Advanced Group Policy Management) | [Endpoint Policy Manager and AGPM](/docs/policypak/policypak/video/changemanagementutilities/advancedgrouppolicymanagement.md)                                     |
+| Quest GPO Administrator                           | [Endpoint Policy Manager and Quest's GPOADmin Tool](/docs/policypak/policypak/video/changemanagementutilities/gpoadmintool.md)                                     |
+| Quest Active Administrator                        | [Endpoint Policy Manager and Quest (ScriptLogic) ActiveAdministrator](/docs/policypak/policypak/video/changemanagementutilities/scriptlogicactiveadministrator.md) |
+| NetIQ Group Policy Administrator                  | [Endpoint Policy Manager Integrates with NetIQ GPA](/docs/policypak/policypak/video/changemanagementutilities/netiq.md)                                            |
 
 ## MDM Method
 
@@ -83,7 +83,7 @@ You can use Endpoint Policy Manager with your mobile device management (MDM) ser
 as Microsoft Endpoint Manager (SCCM and Intune), MobileIron, or VMware Workspace ONE.
 
 **Note**: For more information on this topic, please see this
-video:[Video Learning Center](../mdm/overview/videolearningcenter.md) > Started with MDM.
+video:[Video Learning Center](/docs/policypak/policypak/mdm/overview/videolearningcenter.md) > Started with MDM.
 
 To get started, create directives using the Endpoint Policy Manager MMC, follow these steps:
 
@@ -95,16 +95,16 @@ exporter).
 **Step 3 –** Upload your finished MSI files into your MDM service. Below is a diagram of the
 process.
 
-![editions_solutions_paks_and_2](../../../../static/img/product_docs/policypak/policypak/mdm/service/using_policypak_with_mdm_and_1.webp)
+![editions_solutions_paks_and_2](/img/product_docs/policypak/policypak/mdm/service/using_policypak_with_mdm_and_1.webp)
 
 Below is an example of an uploaded Endpoint Policy Manager MSI file containing XML directives along
 with the MDM service deploying the Endpoint Policy Manager CSE and license files.
 
-![editions_solutions_paks_and_3](../../../../static/img/product_docs/policypak/policypak/editions/editions_solutions_paks_and_3.webp)
+![editions_solutions_paks_and_3](/img/product_docs/policypak/policypak/editions/editions_solutions_paks_and_3.webp)
 
 If you plan to use Endpoint Policy Manager with your MDM service, you can find more information
 about the Endpoint Policy Manager exporter in this topic:
-[Using Endpoint Policy Manager with MDM and UEM Tools](../mdm/uemtools.md)Using with MDM and UEM
+[Using Endpoint Policy Manager with MDM and UEM Tools](/docs/policypak/policypak/mdm/uemtools.md)Using with MDM and UEM
 Tools.
 
 ## Cloud Method
@@ -113,16 +113,16 @@ You can use the Endpoint Policy Manager Cloud service to create Microsoft Group 
 Policy Manager directives and deliver them through the Internet.
 
 **NOTE:** For a video overview of Endpoint Policy Manager Cloud, see
-[Endpoint Policy Manager Cloud: QuickStart](../video/cloud/quickstart.md).
+[Endpoint Policy Manager Cloud: QuickStart](/docs/policypak/policypak/video/cloud/quickstart.md).
 
 The diagram below shows how Endpoint Policy Manager Cloud works to deliver directives. Computers can
 be domain-joined or non-domain-joined. When you are a Endpoint Policy Manager SaaS customer, the
 Cloud method is the only method available to you.
 
-![editions_solutions_paks_and_4](../../../../static/img/product_docs/policypak/policypak/editions/editions_solutions_paks_and_4.webp)
+![editions_solutions_paks_and_4](/img/product_docs/policypak/policypak/editions/editions_solutions_paks_and_4.webp)
 
 For a more detailed coverage of Endpoint Policy Manager Cloud see the quick start topic:  Endpoint
-Policy Manager [Setup, Download, Install, and Verify](../cloud/quickstart.md).
+Policy Manager [Setup, Download, Install, and Verify](/docs/policypak/policypak/cloud/quickstart.md).
 
 ## Cloud Hybrid Method
 
@@ -131,11 +131,11 @@ installed on the endpoint. Once this is done, it claims a license. Then, Endpoin
 performs the work. Some customers may want to bootstrap the installation of the Endpoint Policy
 Manager Cloud client using an RMM or MDM tool they already have hooked into the client. More details
 on how to do this can be found in the quick start topic:
-[Setup, Download, Install, and Verify](../cloud/quickstart.md)
+[Setup, Download, Install, and Verify](/docs/policypak/policypak/cloud/quickstart.md)
 
 **NOTE:** For a video overview of using Endpoint Policy Manager with an MDM or RMM tool to bootstrap
 the Endpoint Policy Manager Cloud installer, see:
-[Endpoint Policy Manager Cloud + MDM Services: Install Cloud Client + automatically join PPC Groups and get policy.](../video/cloud/mdm.md).
+[Endpoint Policy Manager Cloud + MDM Services: Install Cloud Client + automatically join PPC Groups and get policy.](/docs/policypak/policypak/video/cloud/mdm.md).
 
 ## Unified Endpoint Management Method
 
@@ -148,13 +148,13 @@ KACE) visit:
 
 Below we can see what Endpoint Policy Manager would look like using a tool like SCCM.
 
-![editions_solutions_paks_and_5](../../../../static/img/product_docs/policypak/policypak/mdm/using_policypak_with_mdm_and.webp)
+![editions_solutions_paks_and_5](/img/product_docs/policypak/policypak/mdm/using_policypak_with_mdm_and.webp)
 
 We provide the Endpoint Policy Manager Exporter Tool. This topic is not discussed in this section
 but you can get more information here:
-[Using Endpoint Policy Manager with MDM and UEM Tools](../mdm/uemtools.md).
+[Using Endpoint Policy Manager with MDM and UEM Tools](/docs/policypak/policypak/mdm/uemtools.md).
 
-![editions_solutions_paks_and_6](../../../../static/img/product_docs/policypak/policypak/editions/editions_solutions_paks_and_6.webp)
+![editions_solutions_paks_and_6](/img/product_docs/policypak/policypak/editions/editions_solutions_paks_and_6.webp)
 
 The job of Endpoint Policy Manager Exporter Tool is to enable you to make Endpoint Policy Manager
 directives and wrap them in an MSI file that you can then deploy using whatever technique you wish.
@@ -178,4 +178,4 @@ Directory and it's active, it counts your Endpoint Policy Manager licensing. In 
 use it with Endpoint Policy Manager SaaS/Cloud.
 
 For more answers about licensing Endpoint Policy Manager with virtualized systems, see:
-[Knowledge Base](../license/overview/knowledgebase.md) > All Things Licensing.
+[Knowledge Base](/docs/policypak/policypak/license/overview/knowledgebase.md) > All Things Licensing.

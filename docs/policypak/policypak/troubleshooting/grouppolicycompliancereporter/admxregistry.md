@@ -5,10 +5,10 @@ happens. There are two ways to turn on extended logging: downloadable REG files 
 would use the downloadable REG files when you want to enable extended logging on just one machine,
 and you would use the ADMX/ADML files to enable extended logging on multiple machines. The
 downloadable REG files are found on our website at: PolicyPak GP Compliance Reporter >
-[Knowledge Base](../../grouppolicycompliancereporter/overview/knowledgebase.md). The ADMX files are
+[Knowledge Base](/docs/policypak/policypak/grouppolicycompliancereporter/overview/knowledgebase.md). The ADMX files are
 in the download of Endpoint Policy Manager GPCR, as shown in Figure 77.
 
-![tuning_and_troubleshooting_18](../../../../../static/img/product_docs/policypak/policypak/troubleshooting/grouppolicycompliancereporter/tuning_and_troubleshooting_18.webp)
+![tuning_and_troubleshooting_18](/img/product_docs/policypak/policypak/troubleshooting/grouppolicycompliancereporter/tuning_and_troubleshooting_18.webp)
 
 Figure 77. Downloaded ADMX files.
 
@@ -26,7 +26,7 @@ administrator, install the files to enable them. When enabled correctly, the com
 diagnostics folder, and logs will be placed inside it. In Figure 78 you can see the enhanced logging
 enabled for the endpoint.
 
-![tuning_and_troubleshooting_19](../../../../../static/img/product_docs/policypak/policypak/troubleshooting/grouppolicycompliancereporter/tuning_and_troubleshooting_19.webp)
+![tuning_and_troubleshooting_19](/img/product_docs/policypak/policypak/troubleshooting/grouppolicycompliancereporter/tuning_and_troubleshooting_19.webp)
 
 Figure 78. Enhanced logging enabled.
 
@@ -37,7 +37,7 @@ ADMX/ADML files. First, copy the PolicyDefinitions folder into `\\<DC>\sysvol\<d
 `C:\Windows`. Then, create and link a GPO. The new policies are at Computer Configuration | Policies
 | Administrative Templates | Endpoint Policy Manager, as shown in Figure 79.
 
-![tuning_and_troubleshooting_20](../../../../../static/img/product_docs/policypak/policypak/troubleshooting/grouppolicycompliancereporter/tuning_and_troubleshooting_20.webp)
+![tuning_and_troubleshooting_20](/img/product_docs/policypak/policypak/troubleshooting/grouppolicycompliancereporter/tuning_and_troubleshooting_20.webp)
 
 Figure 79. The available GPCR policy settings.
 

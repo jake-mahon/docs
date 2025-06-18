@@ -1,13 +1,13 @@
 # Owner List
 
 Access your **Owner List** from your menu bar. This is where Administrators can add or remove owners
-from reviews. All changes are captured in the [UAR History](../uar_history.md).
+from reviews. All changes are captured in the [UAR History](/docs/strongpointfornetsuite/uar/uar_history.md).
 
 Auditors can view the Owner list and Owner notes, but cannot add or remove owners.
 
 Here is an example of the **Owner List**:
 
-![Administrator Owner list](../../../../static/img/product_docs/strongpointfornetsuite/uar/uar_admin/owner_list.webp)
+![Administrator Owner list](/img/product_docs/strongpointfornetsuite/uar/uar_admin/owner_list.webp)
 
 ## Filters
 
@@ -45,7 +45,7 @@ Use **Clear** to reset the Filters.
 1. Open **Owner List** from your menu bar.
 2. Click **Add Owner** to add a new role.
 
-    ![Add Owner](../../../../static/img/product_docs/strongpointfornetsuite/uar/uar_admin/add_owner.webp)
+    ![Add Owner](/img/product_docs/strongpointfornetsuite/uar/uar_admin/add_owner.webp)
 
 3. **Select Role** from the drop down. From Bundle, Custom/Standard and Center Type are
    automatically added.
@@ -75,7 +75,7 @@ You can change any of the owners from the Owner List.
 The **Owner Notes** tab displays the details for each change in the Owner List. Click the **Owner
 Notes** tab to access this detail. You can filter the Owner Notes by **Create Date**.
 
-![Owner notes](../../../../static/img/product_docs/strongpointfornetsuite/uar/uar_admin/owner_notes.webp)
+![Owner notes](/img/product_docs/strongpointfornetsuite/uar/uar_admin/owner_notes.webp)
 
 1. Open **Owner List** from your menu bar.
 2. Open the **Owner Notes** tab.

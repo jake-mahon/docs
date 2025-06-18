@@ -16,7 +16,7 @@ Linux/Solaris requires the latest NNT Mono runtime. Gen 7 Agent also supports ad
 NamePrefix, NameSuffix.
 
 \*The Thumbprint uniquely identifies the Web Server certificate, see the Microsoft
-[How to: Retrieve the Thumbprint of a Certificate](<https://msdn.microsoft.com/en-us/library/ms734695(v=vs.110).aspx>)
+[How to: Retrieve the Thumbprint of a Certificate](https://msdn.microsoft.com/en-us/library/ms734695(v=vs.110).aspx)
 article for more information.
 
 **Step 1 –** Open **IIS**.

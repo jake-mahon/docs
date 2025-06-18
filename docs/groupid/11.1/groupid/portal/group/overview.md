@@ -19,7 +19,7 @@ groups, thus ensuring that groups are never out of date.
 This allows administrators to easily maintain large groups without having to manually add and remove
 members.
 
-NOTE: You must [Log in](../login.md#log-in) before using it for group management.
+NOTE: You must [Log in](/docs/groupid/11.1/groupid/portal/login.md#log-in) before using it for group management.
 
 NOTE: When two identity stores (say, ID1 and ID2) are connected to the same domain (for example,
 demo1.com), then objects in demo1.com would have a distinct state in ID1 and ID2. For example, an

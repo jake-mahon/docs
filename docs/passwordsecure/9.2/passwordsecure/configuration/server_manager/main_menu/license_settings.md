@@ -5,7 +5,7 @@
 Licenses for the Netwrix Password Secure are managed within the license settings. In addition, all
 current license details are displayed in the window provided for this purpose.
 
-![License settings](../../../../../../../static/img/product_docs/passwordsecure/passwordsecure/configuration/server_manager/main_menu/installation_with_parameters_262-en.webp)
+![License settings](/img/product_docs/passwordsecure/passwordsecure/configuration/server_manager/main_menu/installation_with_parameters_262-en.webp)
 
 ## Licenses
 
@@ -43,6 +43,6 @@ connection problems, the firewall and, if relevant, the proxy should be checked.
 3. Open the main menu and select the License settings area.
 4. Open the License file tab.
 5. Click Upload license file.  
-   ![license_file_tab](../../../../../../../static/img/product_docs/passwordsecure/passwordsecure/configuration/server_manager/main_menu/license_file_tab.webp)
+   ![license_file_tab](/img/product_docs/passwordsecure/passwordsecure/configuration/server_manager/main_menu/license_file_tab.webp)
 6. Select the file from this email and then click Open.  
-   ![activated_license](../../../../../../../static/img/product_docs/passwordsecure/passwordsecure/configuration/server_manager/main_menu/activated_license.webp)
+   ![activated_license](/img/product_docs/passwordsecure/passwordsecure/configuration/server_manager/main_menu/activated_license.webp)

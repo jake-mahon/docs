@@ -4,7 +4,7 @@ Regular Expression criteria are a set of pattern matching rules that provide a c
 means for matching strings of text. This criteria type can be used to verify a series of numbers as
 potentially valid, for example credit card numbers.
 
-![Regular Expression window](../../../../../../static/img/product_docs/accessanalyzer/sensitivedatadiscovery/criteriaeditor/criteriatype/regularexpression.webp)
+![Regular Expression window](/img/product_docs/accessanalyzer/sensitivedatadiscovery/criteriaeditor/criteriatype/regularexpression.webp)
 
 The options on the Regular Expression window are:
 
@@ -15,7 +15,7 @@ The options on the Regular Expression window are:
 - Validation – Select a validation method from the Validation drop-down. The default value is **No
   validation required**.
 
-    **NOTE:** See the [Sensitive Data System Criteria](../../systemcriteria.md) topic for additional
+    **NOTE:** See the [Sensitive Data System Criteria](/docs/accessanalyzer/12.0/sensitivedatadiscovery/systemcriteria.md) topic for additional
     information on validation methods.
 
 - Sample Value – Text entered into the Sample Value text box is used to test pattern matches for the

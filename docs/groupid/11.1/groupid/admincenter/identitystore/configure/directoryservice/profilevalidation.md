@@ -14,7 +14,7 @@ applies.
 
 By default, a few attributes (fields) are available in the Directory Manager portal for profile
 validation. You can add and remove fields as required. See the
-[Manage Property Validation Attributes](../../../portal/design/propertyvalidation.md) topic.
+[Manage Property Validation Attributes](/docs/groupid/11.1/groupid/admincenter/portal/design/propertyvalidation.md) topic.
 
 ## What can Users do While Validating their Profiles?
 
@@ -43,7 +43,7 @@ When performing profile validation, a user can:
   rejects it, the direct report remains with the manager.
 
 For workflows in an identity store, see the
-[System Workflows](../../../workflow/overview.md#system-workflows) topic.
+[System Workflows](/docs/groupid/11.1/groupid/admincenter/workflow/overview.md#system-workflows) topic.
 
 ## What Happens When Users do not Validate their Profiles?
 
@@ -61,7 +61,7 @@ Accounts Expired due to Non-Profile Validation topic.
 
 ## The User Life Cycle Schedule
 
-The [User Life Cycle Schedule](../../../schedule/userlifecycle.md) monitors the profile validation
+The [User Life Cycle Schedule](/docs/groupid/11.1/groupid/admincenter/schedule/userlifecycle.md) monitors the profile validation
 function in Directory Manager. It:
 
 - Monitors the profile validation dates for users.
@@ -198,7 +198,7 @@ You can change the number of reminders to be sent along with their _Before # of 
 User Life Cycle schedule sends reminder notifications to users according to the specified settings.
 
 For email notifications, an SMTP Server must be configured for the identity store. See the an
-[Configure an SMTP Server](../smtpserver.md) topic.
+[Configure an SMTP Server](/docs/groupid/11.1/groupid/admincenter/identitystore/configure/smtpserver.md) topic.
 
 **To set a new reminder:**
 

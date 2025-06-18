@@ -5,7 +5,7 @@ environment. Dropbox can scan the contents of over 400 file types to discover wh
 sensitive data using Sensitive Data Discovery. The DropboxAccess Data Collector has been
 preconfigured within the Dropbox Solution. Both this data collector and the solution are available
 with a special Access Analyzer license. See the
-[Dropbox Solution](../../../solutions/dropbox/overview.md) topic for additional information.
+[Dropbox Solution](/docs/accessanalyzer/12.0/solutions/dropbox/overview.md) topic for additional information.
 
 Protocols
 
@@ -34,14 +34,14 @@ Wizard. The wizard contains the following pages, which change based upon the que
 selected:
 
 - Welcome
-- [DropboxAccess: Category](category.md)
-- [DropboxAccess: Scan Options](scanoptions.md)
-- [DropboxAccess: Scoping](scoping.md)
-- [DropboxAccess: DLP Audit Settings](dlpauditsettings.md)
-- [DropboxAccess: Select DLP Criteria](selectdlpcriteria.md)
-- [DropboxAccess: Summary (Completion)](completion.md)
+- [DropboxAccess: Category](/docs/accessanalyzer/12.0/admin/datacollector/dropboxaccess/category.md)
+- [DropboxAccess: Scan Options](/docs/accessanalyzer/12.0/admin/datacollector/dropboxaccess/scanoptions.md)
+- [DropboxAccess: Scoping](/docs/accessanalyzer/12.0/admin/datacollector/dropboxaccess/scoping.md)
+- [DropboxAccess: DLP Audit Settings](/docs/accessanalyzer/12.0/admin/datacollector/dropboxaccess/dlpauditsettings.md)
+- [DropboxAccess: Select DLP Criteria](/docs/accessanalyzer/12.0/admin/datacollector/dropboxaccess/selectdlpcriteria.md)
+- [DropboxAccess: Summary (Completion)](/docs/accessanalyzer/12.0/admin/datacollector/dropboxaccess/completion.md)
 
-![Dropbox Access Auditor Data Collector Wizard Welcome page](../../../../../../static/img/product_docs/activitymonitor/activitymonitor/install/welcome.webp)
+![Dropbox Access Auditor Data Collector Wizard Welcome page](/img/product_docs/activitymonitor/activitymonitor/install/welcome.webp)
 
 The Welcome page can be hidden by selecting the **Do not display this page the next time** checkbox
 when the wizard is open and configuration settings are saved.

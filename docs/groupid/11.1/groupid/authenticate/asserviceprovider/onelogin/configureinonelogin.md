@@ -38,7 +38,7 @@ You also have to:
 8. Click the **Configurations** link. The **Configurations** page for the new app is displayed.
 9. In the **ACS (Consumer) URL Validator** and **ACS (Consumer) URL** boxes, provide the consumer
    URL that you generated for the Directory Manager client _Wizard_. See the
-   [Generate URLs](generateurls.md) topic.
+   [Generate URLs](/docs/groupid/11.1/groupid/authenticate/asserviceprovider/onelogin/generateurls.md) topic.
 10. In the **Audience** box. provide the audience URL that you generated for the Directory Manager
     client _Wizard_.
 
@@ -83,7 +83,7 @@ OneLogin provider in Directory Manager.
 ### Define Users in OneLogin
 
 You must define users in OneLogin. Only these users can authenticate on the Directory Manager portal
-_Wizard_ using OneLogin. See the [Sign In Using OneLogin](signin.md) topic.
+_Wizard_ using OneLogin. See the [Sign In Using OneLogin](/docs/groupid/11.1/groupid/authenticate/asserviceprovider/onelogin/signin.md) topic.
 
 **To define a user:**
 

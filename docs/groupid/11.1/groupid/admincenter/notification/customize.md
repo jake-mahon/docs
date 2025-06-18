@@ -3,7 +3,7 @@
 Directory Manager generates a variety of notifications for different events, such as when changes
 are made to a group, when workflows are triggered, and when profile validation is due for users.
 Supported languages for notifications are listed in the
-[Localization](../../gettingstarted.md#localization) topic.
+[Localization](/docs/groupid/11.1/groupid/gettingstarted.md#localization) topic.
 
 Templates for all Directory Manager notifications are available in these languages. You can
 customize a notification template for the following in each of the supported languages:
@@ -101,7 +101,7 @@ will show the email address of the requester, and so on.
 1. In the Source Code view, click the **Dictionary** tile to view the recommended tags to replace
    the default tags with.
 
-    ![tagdictionary](../../../../../../static/img/product_docs/groupid/groupid/admincenter/notification/tagdictionary.webp)
+    ![tagdictionary](/img/product_docs/groupid/groupid/admincenter/notification/tagdictionary.webp)
 
     Each notification template has its own set of recommended tags.
 

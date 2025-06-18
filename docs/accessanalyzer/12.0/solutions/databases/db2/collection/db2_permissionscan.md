@@ -8,7 +8,7 @@ The 2-Db2_PermissionScan Job uses the SQL Data Collector for queries.
 
 **CAUTION:** Do not modify the query. The query is preconfigured for this job.
 
-![Query Selection](../../../../../../../static/img/product_docs/accessanalyzer/solutions/databases/db2/collection/permissionsscanquery.webp)
+![Query Selection](/img/product_docs/accessanalyzer/solutions/databases/db2/collection/permissionsscanquery.webp)
 
 The query is:
 
@@ -23,7 +23,7 @@ changes be made to the 0.Collection jobs before they run.
 It is also recommended that the connection only be established for the 1-Db2 SensitiveDataScan Job.
 Once the connection is established, it applies to all jobs in the 0.Collection job group. It does
 not apply to any other job groups. For additional information on establishing a database connection,
-see [1-Db2_SensitiveDataScan](db2_sensitivedatascan.md).
+see [1-Db2_SensitiveDataScan](/docs/accessanalyzer/12.0/solutions/databases/db2/collection/db2_sensitivedatascan.md).
 
 ## Analysis Tasks for the 2-Db2_PermissionScan Job
 
@@ -33,7 +33,7 @@ Navigate to the **Databases** > **0.Collection** > **Db2** > **2-Db2_PermissionS
 **CAUTION:** Do not modify or deselect the selected analysis tasks. The analysis tasks are
 preconfigured for this job.
 
-![Analysis Selection](../../../../../../../static/img/product_docs/accessanalyzer/solutions/databases/db2/collection/permissionsscananalysis.webp)
+![Analysis Selection](/img/product_docs/accessanalyzer/solutions/databases/db2/collection/permissionsscananalysis.webp)
 
 The default analysis tasks are:
 

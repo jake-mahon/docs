@@ -6,7 +6,7 @@ file. Click the Logs tab to view the corresponding audit trails.
 Here you can change the display period or the number of logs displayed, sort the list or copy its
 content, or clear the logs you do not need.
 
-![workflowlogs_thumb_0_0](../../../../../../static/img/product_docs/dataclassification/ndc/admin/workflows/workflowlogs_thumb_0_0.webp)
+![workflowlogs_thumb_0_0](/img/product_docs/dataclassification/ndc/admin/workflows/workflowlogs_thumb_0_0.webp)
 
 # Workflow Plugins
 

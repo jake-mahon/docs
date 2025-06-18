@@ -6,7 +6,7 @@ their respective parent Dynasties.
 
 A Dynasty retrieves data from the directory on the same pattern as a Smart Group does, but it has
 its own mechanism of dividing the query results into child groups. To learn more about Dynasties,
-see the [Dynasties](../../../general/concepts.md#dynasties) topic.
+see the [Dynasties](/docs/groupid/11.1/groupid/admincenter/general/concepts.md#dynasties) topic.
 
 You can control how Directory Manager processes Dynasties through the following settings:
 
@@ -24,7 +24,7 @@ The Directory Manager portal provides two methods to update Smart Groups and Dyn
 - Manual update - You can manually execute the query for a Dynasty and Smart Group any time.
 - Scheduled update - Scheduled updates, powered by a Smart Group Update schedule, auto run at a
   specified frequency to update the target groups and Dynasties. See the
-  [Smart Group Update Schedule](../../../schedule/smartgroupupdate.md) topic.
+  [Smart Group Update Schedule](/docs/groupid/11.1/groupid/admincenter/schedule/smartgroupupdate.md) topic.
 
 **What happens on Dynasty update?**
 

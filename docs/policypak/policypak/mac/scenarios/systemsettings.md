@@ -1,7 +1,7 @@
 # System Settings Policy
 
 **NOTE:** See the
-[Endpoint Policy Manager for Mac / Least Priv Manager: System Settings policy](../../video/leastprivilege/mac/systemsettings.md)
+[Endpoint Policy Manager for Mac / Least Priv Manager: System Settings policy](/docs/policypak/policypak/video/leastprivilege/mac/systemsettings.md)
 video for an overview of this section.
 
 Standard Users are prompted when they access System Settings in MacOS. For instance, trying to
@@ -10,7 +10,7 @@ modify Date&Time or Wi-Fi settings prompts standard users for admin credentials.
 ![Screens screenshot of a computer
 
 Description automatically
-generated](../../../../../static/img/product_docs/policypak/policypak/mac/scenarios/system_settings_policy.webp)
+generated](/img/product_docs/policypak/policypak/mac/scenarios/system_settings_policy.webp)
 
 System Settings Policy enables you to:
 
@@ -25,7 +25,7 @@ Wi-Fi System Settings.
 ![A screenshot of a computer
 
 Description automatically
-generated](../../../../../static/img/product_docs/policypak/policypak/mac/scenarios/system_settings_policy_1.webp)
+generated](/img/product_docs/policypak/policypak/mac/scenarios/system_settings_policy_1.webp)
 
 Without Endpoint Policy Manager policy, the system asks for administrator confirmation to change
 system settings for the standard user. With Endpoint Policy Manager you are able to provide the

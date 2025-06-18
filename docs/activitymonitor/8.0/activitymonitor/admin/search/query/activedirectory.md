@@ -4,7 +4,7 @@ You can search domain activity that has been monitored and recorded to a File ou
 select **Active Directory** from the magnifying glass drop-down menu, a New Search tab opens with
 the applicable query filters.
 
-![Search - Active Directory New Search Tab](../../../../../../../static/img/product_docs/activitymonitor/activitymonitor/admin/search/query/activedirectorynewsearchtab.webp)
+![Search - Active Directory New Search Tab](/img/product_docs/activitymonitor/activitymonitor/admin/search/query/activedirectorynewsearchtab.webp)
 
 The filters are separated into the following categories:
 
@@ -19,8 +19,8 @@ filters will scope results returned.
 
 Set the filters as desired and click **Search**. The application searches through the appropriate
 activity log files and returns the events that match the filters. You can
-[Filter](../overview.md#filter) and [Sort](../overview.md#sort) the results using the column
-headers. Below the Search button is the [Export](../overview.md#export) option.
+[Filter](/docs/activitymonitor/8.0/activitymonitor/admin/search/overview.md#filter) and [Sort](/docs/activitymonitor/8.0/activitymonitor/admin/search/overview.md#sort) the results using the column
+headers. Below the Search button is the [Export](/docs/activitymonitor/8.0/activitymonitor/admin/search/overview.md#export) option.
 
 Filter Value Entry
 
@@ -43,7 +43,7 @@ The General category addresses who, what, where, and when an object, user, host,
 controller is affected by the events selected in the other categories. The time frame filter must be
 configured for every search query.
 
-![Active Directory Search - General Filter](../../../../../../../static/img/product_docs/activitymonitor/activitymonitor/admin/search/query/generalfilters.webp)
+![Active Directory Search - General Filter](/img/product_docs/activitymonitor/activitymonitor/admin/search/query/generalfilters.webp)
 
 This section has the following filters:
 
@@ -64,7 +64,7 @@ This section has the following filters:
 
     - Specify account or group (...) – The ellipsis button beside the User textbox opens the Specify
       account or group window. Use this window to resolve the account for the user. See the
-      [Specify Account or Group Window](../../outputs/window/specifywindowsaccount.md) topic for
+      [Specify Account or Group Window](/docs/activitymonitor/8.0/activitymonitor/admin/outputs/window/specifywindowsaccount.md) topic for
       additional information.
 
 - From Hosts – Filter the data for a specific originating host of the event
@@ -75,7 +75,7 @@ This section has the following filters:
 
 The Object Changes category scopes the query by objects with change activity.
 
-![Object Changes Filter](../../../../../../../static/img/product_docs/activitymonitor/activitymonitor/admin/search/query/objectchangesfilters.webp)
+![Object Changes Filter](/img/product_docs/activitymonitor/activitymonitor/admin/search/query/objectchangesfilters.webp)
 
 This section has the following filters:
 
@@ -94,7 +94,7 @@ This section has the following filters:
 
 The LSASS Guardian category scopes the query by LSASS Guardian activity.
 
-![LSASS Guardian Filters](../../../../../../../static/img/product_docs/activitymonitor/activitymonitor/admin/search/query/lsassguardianfilters.webp)
+![LSASS Guardian Filters](/img/product_docs/activitymonitor/activitymonitor/admin/search/query/lsassguardianfilters.webp)
 
 This section has the following filters:
 
@@ -106,7 +106,7 @@ This section has the following filters:
 
 The LDAP Queries category scopes the query by LDAP query activity.
 
-![LDAP Queries Filter](../../../../../../../static/img/product_docs/activitymonitor/activitymonitor/admin/search/query/ldapqueriesfilters.webp)
+![LDAP Queries Filter](/img/product_docs/activitymonitor/activitymonitor/admin/search/query/ldapqueriesfilters.webp)
 
 This section has the following filters:
 
@@ -117,7 +117,7 @@ This section has the following filters:
 
 The Authentication category scopes the query by authentication activity.
 
-![Authentication Filters](../../../../../../../static/img/product_docs/activitymonitor/activitymonitor/admin/search/query/authenticationfilters.webp)
+![Authentication Filters](/img/product_docs/activitymonitor/activitymonitor/admin/search/query/authenticationfilters.webp)
 
 This section has the following filters:
 

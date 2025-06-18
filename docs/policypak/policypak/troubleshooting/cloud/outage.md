@@ -5,7 +5,7 @@ unavailable or "goes down". This is rare, but it can happen.
 
 First, to verify and ensure the problem is with the Endpoint Policy Manager Cloud service, and not
 something on your end, please see the following article
-[Troubleshoot communication from the Cloud Client and Cloud Service](servicecommunication.md) (and
+[Troubleshoot communication from the Cloud Client and Cloud Service](/docs/policypak/policypak/troubleshooting/cloud/servicecommunication.md) (and
 the sub-KB articles at the end).
 
 However, if the Endpoint Policy Manager Cloud service itself is down, you might see the following
@@ -13,7 +13,7 @@ behavior:
 
 **Step 1 –** Computers cannot be joined / re-joined to Endpoint Policy Manager Cloud
 
-![612_1_rt](../../../../../static/img/product_docs/policypak/policypak/troubleshooting/cloud/612_1_rt.webp)
+![612_1_rt](/img/product_docs/policypak/policypak/troubleshooting/cloud/612_1_rt.webp)
 
 **Step 2 –** Endpoint Policy Manager Cloud /sync might show the following message…
 

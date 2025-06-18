@@ -3,32 +3,32 @@
 The Configuration interface provides information and management options for advanced configuration
 settings.
 
-![Configuration Interface](../../../../../../../static/img/product_docs/threatprevention/threatprevention/reportingmodule/interface.webp)
+![Configuration Interface](/img/product_docs/threatprevention/threatprevention/reportingmodule/interface.webp)
 
 Expand the Configuration menu in the Navigation pane for related pages:
 
-- [Service Accounts Page](page/serviceaccounts.md) — Add or modify service accounts
+- [Service Accounts Page](/docs/privilegesecure/4.2/privilegesecure/accessmanagement/admin/configuration/page/serviceaccounts.md) — Add or modify service accounts
 - Service Nodes:
 
-    - [Service Nodes Page](page/servicenodes.md) — View the status and details of Privilege Secure
+    - [Service Nodes Page](/docs/privilegesecure/4.2/privilegesecure/accessmanagement/admin/configuration/page/servicenodes.md) — View the status and details of Privilege Secure
       Services
-    - [Scheduled Tasks Page](page/scheduledtasks.md) — View or modify recurring tasks
+    - [Scheduled Tasks Page](/docs/privilegesecure/4.2/privilegesecure/accessmanagement/admin/configuration/page/scheduledtasks.md) — View or modify recurring tasks
 
 - System Settings — Modify the system settings:
 
-    - [Action Service Settings Page](page/actionservicesettings.md)
-    - [Database Page](page/database.md)
-    - [Email Configuration Page](page/emailconfiguration.md)
-    - [Global Settings Page](page/globalsettings.md)
-    - [Local Account Password Options Page](page/localaccountpasswordoptions.md)
-    - [Password History Options Page](page/passwordhistoryoptions.md)
-    - [Local Account Password Options Page](page/localaccountpasswordoptions.md)
-    - [Services Page](page/services.md)
+    - [Action Service Settings Page](/docs/privilegesecure/4.2/privilegesecure/accessmanagement/admin/configuration/page/actionservicesettings.md)
+    - [Database Page](/docs/privilegesecure/4.2/privilegesecure/accessmanagement/admin/configuration/page/database.md)
+    - [Email Configuration Page](/docs/privilegesecure/4.2/privilegesecure/accessmanagement/admin/configuration/page/emailconfiguration.md)
+    - [Global Settings Page](/docs/privilegesecure/4.2/privilegesecure/accessmanagement/admin/configuration/page/globalsettings.md)
+    - [Local Account Password Options Page](/docs/privilegesecure/4.2/privilegesecure/accessmanagement/admin/configuration/page/localaccountpasswordoptions.md)
+    - [Password History Options Page](/docs/privilegesecure/4.2/privilegesecure/accessmanagement/admin/configuration/page/passwordhistoryoptions.md)
+    - [Local Account Password Options Page](/docs/privilegesecure/4.2/privilegesecure/accessmanagement/admin/configuration/page/localaccountpasswordoptions.md)
+    - [Services Page](/docs/privilegesecure/4.2/privilegesecure/accessmanagement/admin/configuration/page/services.md)
 
-- [Authentication Page](page/authentication.md) — Add or modify multi-factor authentication (MFA)
-- [Integration Connectors Page](page/integrationconnectors.md) — Configure settings for integration
+- [Authentication Page](/docs/privilegesecure/4.2/privilegesecure/accessmanagement/admin/configuration/page/authentication.md) — Add or modify multi-factor authentication (MFA)
+- [Integration Connectors Page](/docs/privilegesecure/4.2/privilegesecure/accessmanagement/admin/configuration/page/integrationconnectors.md) — Configure settings for integration
   with other applications
 - SIEM:
 
-    - [SIEM Server Page](page/siemserver.md) — Add or modify SIEM servers
-    - [SIEM Templates Page](page/siemtemplates.md) — Add or modify SIEM templates
+    - [SIEM Server Page](/docs/privilegesecure/4.2/privilegesecure/accessmanagement/admin/configuration/page/siemserver.md) — Add or modify SIEM servers
+    - [SIEM Templates Page](/docs/privilegesecure/4.2/privilegesecure/accessmanagement/admin/configuration/page/siemtemplates.md) — Add or modify SIEM templates

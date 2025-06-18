@@ -7,7 +7,7 @@ msDS-SupportedEncryptionTypes value supports RC4 as the highest encryption type.
 _Remember,_ the 1-AD_Scan Job needs to be configured to collect these Custom Attributes:
 
 - servicePrincipalName – Provides service account information. See the Microsoft
-  [Service Principal Names](<https://docs.microsoft.com/en-us/previous-versions/windows/it-pro/windows-2000-server/cc961723(v=technet.10)>)
+  [Service Principal Names](https://docs.microsoft.com/en-us/previous-versions/windows/it-pro/windows-2000-server/cc961723(v=technet.10))
   article for additional information.
 - msDS-SupportedEncryptionTypes – Identifies service accounts vulnerable to Kerberoasting attacks
 

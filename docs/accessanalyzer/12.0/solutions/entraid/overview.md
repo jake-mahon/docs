@@ -11,13 +11,13 @@ Supported Platforms
 
 Requirements, Permissions, and Ports
 
-See the [Microsoft Entra ID Tenant Target Requirements](../../config/entraid/overview.md) topic
+See the [Microsoft Entra ID Tenant Target Requirements](/docs/accessanalyzer/12.0/config/entraid/overview.md) topic
 for additional information.
 
 Location
 
 The Entra ID Solution requires a special Access Analyzer license. It can be installed from the
-Instant Job Wizard, see the [Instant Job Wizard](../../admin/jobs/instantjobs/overview.md) topic for
+Instant Job Wizard, see the [Instant Job Wizard](/docs/accessanalyzer/12.0/admin/jobs/instantjobs/overview.md) topic for
 additional information. Once it has been installed into the Jobs tree, navigate to the solution:
 **Jobs** > **Entra ID**.
 
@@ -26,11 +26,11 @@ generate reports on the collected data.
 
 ## Job Groups
 
-![Entra ID Job Group Overview page](../../../../../static/img/product_docs/accessanalyzer/admin/runninginstances/overviewpage.webp)
+![Entra ID Job Group Overview page](/img/product_docs/accessanalyzer/admin/runninginstances/overviewpage.webp)
 
 The job groups in the Entra ID Solution are:
 
-- [1.Groups Job Group](groups/overview.md) – Identifies group conditions and pinpoints potential
+- [1.Groups Job Group](/docs/accessanalyzer/12.0/solutions/entraid/groups/overview.md) – Identifies group conditions and pinpoints potential
   areas of administrative concern
-- [2.Users Job Group](users/overview.md) – Identifies areas of administrative concern related to
+- [2.Users Job Group](/docs/accessanalyzer/12.0/solutions/entraid/users/overview.md) – Identifies areas of administrative concern related to
   Microsoft Entra ID users

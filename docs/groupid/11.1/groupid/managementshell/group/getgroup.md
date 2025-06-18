@@ -42,7 +42,7 @@ The following command retrieves all groups with a display name beginning with S 
 containers specified by the SearchContainer parameter including sub-containers of the first base
 container and excluding sub-containers of the second one using the credentials set in the
 $Credentials environment variable. See the
-[Set the $Credentials Environment Variable](../parameters/setthecredential.md) topic for setting
+[Set the $Credentials Environment Variable](/docs/groupid/11.1/groupid/managementshell/parameters/setthecredential.md) topic for setting
 credentials in an environment variable.
 
 ```

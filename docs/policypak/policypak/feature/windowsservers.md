@@ -7,19 +7,19 @@ snap-in. If you want to configure a selection of servers to turn on Network Load
 off SMB 1.0, it is easy to do. The server defaults are below, followed by the steps for the
 configuration.
 
-![using_feature_manager_for](../../../../static/img/product_docs/policypak/policypak/feature/using_feature_manager_for.webp)
+![using_feature_manager_for](/img/product_docs/policypak/policypak/feature/using_feature_manager_for.webp)
 
 **Step 1 –** Select Server as the OS type from within Endpoint Policy Manager Feature Manager MMC
 console.
 
-![using_feature_manager_for_1](../../../../static/img/product_docs/policypak/policypak/feature/using_feature_manager_for_1.webp)
+![using_feature_manager_for_1](/img/product_docs/policypak/policypak/feature/using_feature_manager_for_1.webp)
 
 **Step 2 –** Pick the server version from the drop-down.
 
-![using_feature_manager_for_2](../../../../static/img/product_docs/policypak/policypak/feature/using_feature_manager_for_2.webp)
+![using_feature_manager_for_2](/img/product_docs/policypak/policypak/feature/using_feature_manager_for_2.webp)
 
 **Step 3 –** Make your selection as usual. You can turn a feature on or turn a feature off .
 
-![using_feature_manager_for_3](../../../../static/img/product_docs/policypak/policypak/feature/using_feature_manager_for_3.webp)
+![using_feature_manager_for_3](/img/product_docs/policypak/policypak/feature/using_feature_manager_for_3.webp)
 
-![using_feature_manager_for_4](../../../../static/img/product_docs/policypak/policypak/feature/using_feature_manager_for_4.webp)
+![using_feature_manager_for_4](/img/product_docs/policypak/policypak/feature/using_feature_manager_for_4.webp)

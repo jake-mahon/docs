@@ -1,6 +1,6 @@
 # Dynasties
 
-A [Dynasty](dynasty/overview.md)is a Smart Group that creates and manages other Smart Groups using
+A [Dynasty](/docs/groupid/11.1/groupid/portal/group/dynasty/overview.md)is a Smart Group that creates and manages other Smart Groups using
 information in the directory. This view lists only the Dynasties created in Directory Manager in the
 connected identity store, and does not include expired and deleted Dynasties.
 

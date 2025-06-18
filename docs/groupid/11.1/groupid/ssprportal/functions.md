@@ -33,24 +33,24 @@ in.
 
 The Your Enrollments page opens, where you can enroll the identity store account you used to sign
 into the portal. Tabs on this page represent the different authentication types the administrator
-has enabled for enrollment. See the [Enroll your identity store account](../admincenter/enroll.md)
+has enabled for enrollment. See the [Enroll your identity store account](/docs/groupid/11.1/groupid/admincenter/enroll.md)
 topic for enrollment details, starting at step 3.
 
 ## Unlock your Account
 
 Click the **Unlock** tile to unlock your account. See the
-[Unlock your accounts](../portal/user/manage/unlockaccount.md) topic for additional information.
+[Unlock your accounts](/docs/groupid/11.1/groupid/portal/user/manage/unlockaccount.md) topic for additional information.
 
 ## Reset your Account Password
 
 Click the **Reset Password** tile to reset your identity store account password. See the
-[Reset Passwords](../portal/user/authentication/passwordreset.md) topic for additional information.
+[Reset Passwords](/docs/groupid/11.1/groupid/portal/user/authentication/passwordreset.md) topic for additional information.
 
 ## Change your Account Password
 
 You can change the password of any of your identity store accounts. Click the **Change Password**
 tile. Then sign into the portal, if not signed in. See
-the[ Change your password](../portal/user/manage/changepassword.md) topic for additional
+the[ Change your password](/docs/groupid/11.1/groupid/portal/user/manage/changepassword.md) topic for additional
 information.
 
 ## Link your Identity Store Accounts
@@ -63,4 +63,4 @@ Active Directory and another in Microsoft Entra ID. This has multiple benefits, 
 - A user can then unlock or reset the password of any linked account through the master account.
 
 After signing into the portal, click the **Linked Accounts** tile. See the
-[Linked Accounts](../portal/user/linkedaccounts.md) topic for additional information.
+[Linked Accounts](/docs/groupid/11.1/groupid/portal/user/linkedaccounts.md) topic for additional information.

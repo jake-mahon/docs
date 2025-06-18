@@ -4,7 +4,7 @@ Licensing Netwrix Endpoint Policy Manager (formerly PolicyPak) is easy. We have 
 information about Active Directory and Intune.
 
 **NOTE:** For a video overview of the process, watch this tutorial:
-[How to Request Licenses from Endpoint Policy Manager by Creating a "License Request Key"](video/license/licenserequestkey.md)
+[How to Request Licenses from Endpoint Policy Manager by Creating a "License Request Key"](/docs/policypak/policypak/video/license/licenserequestkey.md)
 
 Here are the basics:
 
@@ -77,7 +77,7 @@ We only want you to pay for the computers you're actually going to use with the 
 Manager. Endpoint Policy Manager's LT has an option, "Find and Disable unused computers," as seen in
 Figure 12.
 
-![licensing_policypak](../../../static/img/product_docs/policypak/policypak/licensing_policypak.webp)
+![licensing_policypak](/img/product_docs/policypak/policypak/licensing_policypak.webp)
 
 Figure 12. The option to disable unused computers.
 
@@ -85,7 +85,7 @@ When you select this option, you are led through an wizard that finds any comput
 been logged into for 90 days (or any other number of days you select). You can then select the
 computers you want to disable and click "Next," as shown in Figure 13.
 
-![licensing_policypak_1](../../../static/img/product_docs/policypak/policypak/licensing_policypak_1.webp)
+![licensing_policypak_1](/img/product_docs/policypak/policypak/licensing_policypak_1.webp)
 
 Figure 13. Selecting the unused computers.
 
@@ -171,7 +171,7 @@ The licensing modes are:
   enabled when your test computers' names have the word "computer" in them. For instance, a computer
   named "COMPUTER1" would automatically be in Trial Mode and act as if fully licensed. To see an
   example of how and why this works, see this video:
-  [Testing and Troubleshooting By Renaming an endpoint Computer](video/cloud/testlab/renameendpoint.md)
+  [Testing and Troubleshooting By Renaming an endpoint Computer](/docs/policypak/policypak/video/cloud/testlab/renameendpoint.md)
 
 We want you to use this Endpoint Policy Manager in your testing similarly to how you would use it in
 the real world. So in Trial Mode, we allow you to do the following:
@@ -194,13 +194,13 @@ with your sales team to declare the number of Windows 10 machines you want to li
 you would use the MDM reporting system to express how many Windows 10 machines you have enrolled and
 the number you plan add in the current year. All the details on exactly how to perform a count and
 what to send back to Endpoint Policy Manager Sales can be found here:
-[When licensing Endpoint Policy Managerwith an MDM provider, what do I need to send in to Endpoint Policy Manager? ](license/mdm/setup.md).
+[When licensing Endpoint Policy Managerwith an MDM provider, what do I need to send in to Endpoint Policy Manager? ](/docs/policypak/policypak/license/mdm/setup.md).
 
 An example of an MDM system account with a very low number of machines can be seen in Figure 14.
 Note that the company information is obscured in this demonstration, but you would have to provide
 it.
 
-![licensing_policypak_2](../../../static/img/product_docs/policypak/policypak/licensing_policypak_2.webp)
+![licensing_policypak_2](/img/product_docs/policypak/policypak/licensing_policypak_2.webp)
 
 Figure 14. An example of an MDM system account.
 
@@ -220,7 +220,7 @@ You may receive multiple license files for Endpoint Policy Manager:
 To deploy your licenses, you can use the following:
 
 Use these key installation instructions (which demonstrate Active Directory, SCCM, and MDM methods):
-[How to install UNIVERSAL licenses for NEW Customers (via GPO, SCCM or MDM)](video/license/installuniversal.md)
+[How to install UNIVERSAL licenses for NEW Customers (via GPO, SCCM or MDM)](/docs/policypak/policypak/video/license/installuniversal.md)
 
 ## Licensing Endpoint Policy Manager Through Endpoint Policy Manager Cloud
 
@@ -239,7 +239,7 @@ mechanism is automatic because the client has consumed the Cloud license. In thi
 free on-premise (Group Policy Edition) license automatically when a client has consumed a license
 with Endpoint Policy Manager Cloud (and continues to check in within the check-in period). For
 information on how to do this, see this video:
-[Endpoint Policy ManagerStart Screen & Taskbar Manager: Manage non-domain joined machines using Endpoint Policy Manager Cloud](video/startscreentaskbar/nondomainjoined.md).
+[Endpoint Policy ManagerStart Screen & Taskbar Manager: Manage non-domain joined machines using Endpoint Policy Manager Cloud](/docs/policypak/policypak/video/startscreentaskbar/nondomainjoined.md).
 
 ### Endpoint Policy Manager Professional and Endpoint Policy Manager Enterprise Edition customers:
 

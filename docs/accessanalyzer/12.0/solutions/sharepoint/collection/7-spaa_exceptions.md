@@ -7,7 +7,7 @@ summary of SharePoint exceptions per host.
 
 The Configuration section on a Job's overview page allows you to easily modify any customizable
 parameters used by analysis tasks in the job. See the
-[Parameter Configuration](../../../admin/jobs/job/overview.md#parameter-configuration) topic for
+[Parameter Configuration](/docs/accessanalyzer/12.0/admin/jobs/job/overview.md#parameter-configuration) topic for
 instructions on how to edit parameters on a job overview page.
 
 The 7-SPAA_Exceptions page has the following configurable parameters:
@@ -31,7 +31,7 @@ returned by the 2-SPAA_BulkImport Job. View the analysis tasks by navigating to 
 **CAUTION:** The analysis tasks are preconfigured for this job. Never modify or deselect the
 selected analysis tasks.
 
-![Analysis Selection](../../../../../../static/img/product_docs/accessanalyzer/solutions/sharepoint/collection/spaaexceptionsanalysis.webp)
+![Analysis Selection](/img/product_docs/accessanalyzer/solutions/sharepoint/collection/spaaexceptionsanalysis.webp)
 
 The default analysis tasks are:
 
@@ -58,5 +58,5 @@ The default values for customizable parameters are:
 | Open resources | #opengroups                 | Empty         | Groups must be entered exactly as they are listed in SA_SPAA_Trustees. Copy and paste the Group name as it appears in the Name Column. |
 
 See the
-[Configure the Customizable Parameters in an Analysis Task](../../../admin/jobs/job/configure/analysiscustomizableparameters.md)
+[Configure the Customizable Parameters in an Analysis Task](/docs/accessanalyzer/12.0/admin/jobs/job/configure/analysiscustomizableparameters.md)
 for additional information.

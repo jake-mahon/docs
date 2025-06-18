@@ -27,4 +27,4 @@ To find the relationships that only exist within the bundle:
 3. This shows you the bundle components that are being used so you are aware of what will be removed
    when the bundle is gone. These are the records that need to be replicated.
 
-**Next Step:** [](final_tasks.md)[Final Tasks](final_tasks.md)
+**Next Step:** [](/docs/strongpointfornetsuite/bundle_removal/final_tasks.md)[Final Tasks](/docs/strongpointfornetsuite/bundle_removal/final_tasks.md)

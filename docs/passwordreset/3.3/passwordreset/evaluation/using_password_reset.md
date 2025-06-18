@@ -9,11 +9,11 @@ Password Reset is a web application. Open a web browser on the server and go to
 access Password Reset from another computer by replacing 127.0.0.1 in the URL with the IP address or
 hostname of the evaluation server.
 
-![using_npr_1](../../../../../static/img/product_docs/passwordreset/passwordreset/evaluation/using_npr_1.webp)
+![using_npr_1](/img/product_docs/passwordreset/passwordreset/evaluation/using_npr_1.webp)
 
 You should install an SSL certificate on the web server when using Password Reset on a production
 network with real passwords. See the
-[Securing Password Reset](../administration/securing_password_reset.md) topic for additional
+[Securing Password Reset](/docs/passwordreset/3.3/passwordreset/administration/securing_password_reset.md) topic for additional
 information.
 
 ## Enrolling into Password Reset
@@ -26,7 +26,7 @@ Follow the steps below to manually enroll into Password Reset.
 
 **Step 1 –** Click the **Enroll** item in the menu.
 
-![using_npr_1_1](../../../../../static/img/product_docs/passwordreset/passwordreset/evaluation/using_npr_1_1.webp)
+![using_npr_1_1](/img/product_docs/passwordreset/passwordreset/evaluation/using_npr_1_1.webp)
 
 **Step 2 –** Enter a **Username**, **Domain**, and **Password** in the respective fields.
 
@@ -84,5 +84,5 @@ respective field. Click **Next**.
 Password Reset's user interface is built with customizable templates. You can easily modify the user
 interface by editing the templates. Even the error messages are defined in the templates, so you can
 edit those too. See the
-[Editing the HTML Templates](../administration/editing_the_html_templates.md) topic of the
+[Editing the HTML Templates](/docs/passwordreset/3.3/passwordreset/administration/editing_the_html_templates.md) topic of the
 Administrator's Guide for additional information.

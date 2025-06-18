@@ -2,7 +2,7 @@
 
 The EX_ActiveSync job provides visibility into ActiveSync Traffic in the Organization.
 
-![ActiveSync > EX_ActiveSync Job in the Jobs Tree](../../../../../../static/img/product_docs/accessanalyzer/solutions/exchange/casmetrics/activesyncjobstree.webp)
+![ActiveSync > EX_ActiveSync Job in the Jobs Tree](/img/product_docs/accessanalyzer/solutions/exchange/casmetrics/activesyncjobstree.webp)
 
 The EX_ActiveSync job is located in the ActiveSync job group.
 
@@ -14,7 +14,7 @@ View the analysis tasks by navigating to the **Exchange** > **2. CAS Metrics** >
 **CAUTION:** Most of these analysis tasks are preconfigured and should not be modified or
 deselected. There are some that are deselected by default, as they are for troubleshooting purposes.
 
-![Analysis Tasks for the EX_ActiveSync Job](../../../../../../static/img/product_docs/accessanalyzer/solutions/exchange/casmetrics/activesyncanalysis.webp)
+![Analysis Tasks for the EX_ActiveSync Job](/img/product_docs/accessanalyzer/solutions/exchange/casmetrics/activesyncanalysis.webp)
 
 The following analysis tasks are selected by default:
 
@@ -34,7 +34,7 @@ The following analysis tasks are selected by default:
 
     - The default is **6 months**. It can be modified.
     - See the
-      [Exchange History Retention](../hubmetrics/collection/ex_metricscollection.md#exchange-history-retention)
+      [Exchange History Retention](/docs/accessanalyzer/12.0/solutions/exchange/hubmetrics/collection/ex_metricscollection.md#exchange-history-retention)
       topic for additional information
 
 The following analysis task deletes table data from the analysis jobs. This analysis task should
@@ -46,7 +46,7 @@ troubleshooting and cleanup only. Data will be deleted from the database.
 -   0. Delete all History
 
     - See the
-      [Troubleshooting Data Collection](../hubmetrics/collection/ex_metricscollection.md#troubleshooting-data-collection)
+      [Troubleshooting Data Collection](/docs/accessanalyzer/12.0/solutions/exchange/hubmetrics/collection/ex_metricscollection.md#troubleshooting-data-collection)
       topic for additional information
 
 The following analysis task updates the table to clean the data so that any UserAgent information

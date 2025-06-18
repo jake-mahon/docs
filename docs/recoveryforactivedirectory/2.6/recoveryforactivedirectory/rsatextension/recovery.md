@@ -9,10 +9,10 @@ The following prerequisites must be met before you can rollback or recover an ob
 
 - You must register the RSAT Extension on the Recovery Application Server to add the Rollback and
   Restore options to the ADUC console. See the
-  [Register/Unregister the RSAT Extension](../install/configurationutility.md#registerunregister-the-rsat-extension)
+  [Register/Unregister the RSAT Extension](/docs/recoveryforactivedirectory/2.6/recoveryforactivedirectory/install/configurationutility.md#registerunregister-the-rsat-extension)
   topic for additional information.
 - At least one backup of the domain must be available in the Recovery for Active Directory Console.
-  See the [Domains Page](../admin/configuration/domain.md) topic for additional information.
+  See the [Domains Page](/docs/recoveryforactivedirectory/2.6/recoveryforactivedirectory/admin/configuration/domain.md) topic for additional information.
 
 ## Restore an Object Using ADUC
 
@@ -20,18 +20,18 @@ Follow the steps to restore a deleted object.
 
 **Step 1 –** Open ADUC and select the Recycle Bin.
 
-![ADUC with the Restore option selected](../../../../../static/img/product_docs/recoveryforactivedirectory/recoveryforactivedirectory/rsatextension/aducrestore.webp)
+![ADUC with the Restore option selected](/img/product_docs/recoveryforactivedirectory/recoveryforactivedirectory/rsatextension/aducrestore.webp)
 
 **Step 2 –** In the Recycle Bin, right-click on the object to be restored and select **Restore** on
 the menu. The Object Recovery wizard opens.
 
-![Object Recovery Wizard - Object Backups page](../../../../../static/img/product_docs/recoveryforactivedirectory/recoveryforactivedirectory/admin/activedirectory/objectbackups.webp)
+![Object Recovery Wizard - Object Backups page](/img/product_docs/recoveryforactivedirectory/recoveryforactivedirectory/admin/activedirectory/objectbackups.webp)
 
 **Step 3 –** On the Object Backups page, select the desired date timestamp to identify the backup
 for recovery. Multiple backups may be available for a single day depending on the configured
 schedule. Click **Next** to continue.
 
-![Object Recovery Wizard - Recovery Options page](../../../../../static/img/product_docs/recoveryforactivedirectory/recoveryforactivedirectory/admin/activedirectory/recoveryoptions.webp)
+![Object Recovery Wizard - Recovery Options page](/img/product_docs/recoveryforactivedirectory/recoveryforactivedirectory/admin/activedirectory/recoveryoptions.webp)
 
 **Step 4 –** On the Recovery Options page, select the Container and Naming Conflict actions for the
 recovery process.
@@ -57,7 +57,7 @@ recovery process.
 
 Click **Next**.
 
-![Object Recovery Wizard - User Options page](../../../../../static/img/product_docs/recoveryforactivedirectory/recoveryforactivedirectory/admin/activedirectory/useroptions.webp)
+![Object Recovery Wizard - User Options page](/img/product_docs/recoveryforactivedirectory/recoveryforactivedirectory/admin/activedirectory/useroptions.webp)
 
 **Step 5 –** The User Options page is displayed when user objects are being restored. When a user
 object is included as a child object being restored, this page is also displayed. Consider the
@@ -81,7 +81,7 @@ Select the desired checkboxes relating to the state of a user password upon rest
 
 Click **Next**.
 
-![Object Recovery Wizard - Domain Controller page](../../../../../static/img/product_docs/activitymonitor/activitymonitor/install/agent/domaincontroller.webp)
+![Object Recovery Wizard - Domain Controller page](/img/product_docs/activitymonitor/activitymonitor/install/agent/domaincontroller.webp)
 
 **Step 6 –** On the Domain Controller page, select the Domain Controller to run the restoration
 action. This page consists of two sections:
@@ -96,7 +96,7 @@ action. This page consists of two sections:
 
 Click **Next**.
 
-![Object Recovery Wizard - Alternate Credentials page](../../../../../static/img/product_docs/recoveryforactivedirectory/recoveryforactivedirectory/rsatextension/alternatecredentials.webp)
+![Object Recovery Wizard - Alternate Credentials page](/img/product_docs/recoveryforactivedirectory/recoveryforactivedirectory/rsatextension/alternatecredentials.webp)
 
 **Step 7 –** The account preforming the operation must have Domain Admin privileges to access the
 domain tree area where the object resides. On the Alternate Credentials page:
@@ -108,14 +108,14 @@ domain tree area where the object resides. On the Alternate Credentials page:
 
 For a Least Privilege Access Model to provision an Active Directory security group with the
 permissions that are necessary to perform backups, rollbacks and recovery, see the
-[Least Privilege Access Model](../requirements/targetdomain.md#least-privilege-access-model) topic.
+[Least Privilege Access Model](/docs/recoveryforactivedirectory/2.6/recoveryforactivedirectory/requirements/targetdomain.md#least-privilege-access-model) topic.
 
-![Object Recovery Wizard - Confirm page](../../../../../static/img/product_docs/recoveryforactivedirectory/recoveryforactivedirectory/admin/forest/confirm.webp)
+![Object Recovery Wizard - Confirm page](/img/product_docs/recoveryforactivedirectory/recoveryforactivedirectory/admin/forest/confirm.webp)
 
 **Step 8 –** On the Confirm page, review the summarized object restore settings. Click **Finish** to
 start the recovery.
 
-![Recovery Success Status](../../../../../static/img/product_docs/recoveryforactivedirectory/recoveryforactivedirectory/rsatextension/recvoerysuccessful.webp)
+![Recovery Success Status](/img/product_docs/recoveryforactivedirectory/recoveryforactivedirectory/rsatextension/recvoerysuccessful.webp)
 
 **Step 9 –** The Recovery window displays the action status. Click **Close** to exit.
 

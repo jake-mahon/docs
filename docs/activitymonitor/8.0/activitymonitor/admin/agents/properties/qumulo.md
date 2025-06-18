@@ -2,7 +2,7 @@
 
 The Qumulo tab provides features to configure settings for monitoring Qumulo devices.
 
-![Agent Properties - Qumulo](../../../../../../../static/img/product_docs/activitymonitor/activitymonitor/admin/agents/properties/qumulo.webp)
+![Agent Properties - Qumulo](/img/product_docs/activitymonitor/activitymonitor/admin/agents/properties/qumulo.webp)
 
 The available options are:
 

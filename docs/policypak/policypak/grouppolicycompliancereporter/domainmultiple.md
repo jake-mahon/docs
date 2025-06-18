@@ -11,12 +11,12 @@ you recently downloaded the BITS from the portal
 
 **Step 3 –** Work through this video to install Compliance Reporter
 
-- [Installing Compliance Reporter Server and Client](../video/gpocompilancereporter/install.md)
+- [Installing Compliance Reporter Server and Client](/docs/policypak/policypak/video/gpocompilancereporter/install.md)
 
 **Step 4 –** Work through this video to setup Compliance Reporter and for machines to report in
 (this is the Server version)
 
-- [Setting up Client-less Endpoint Auditing (Push Mode with Server)](../video/gpocompilancereporter/modepush.md)
+- [Setting up Client-less Endpoint Auditing (Push Mode with Server)](/docs/policypak/policypak/video/gpocompilancereporter/modepush.md)
 
 ## From within the videos above, here is a summary of some important steps:
 
@@ -77,7 +77,7 @@ that are representative of the site and its population (and how the AD group pla
 2. Will need the server name (shortname or FQDN) for this step
 3. Will need to be able to create a GPO or export and import later for this step
 
-![758_1_image-20200130171300-1_950x485](../../../../static/img/product_docs/policypak/policypak/grouppolicycompliancereporter/758_1_image-20200130171300-1_950x485.webp)
+![758_1_image-20200130171300-1_950x485](/img/product_docs/policypak/policypak/grouppolicycompliancereporter/758_1_image-20200130171300-1_950x485.webp)
 
 ## Enabling Other Domains to connect to GPCR
 
@@ -105,4 +105,4 @@ Domain 2 and deploy it there
 - Therefore the workaround as noted above is to create the corresponding local domain group of the
   same name as the primary GPCR domain
 
-    ![758_3_image-20200130171300-2](../../../../static/img/product_docs/policypak/policypak/grouppolicycompliancereporter/758_3_image-20200130171300-2.webp)
+    ![758_3_image-20200130171300-2](/img/product_docs/policypak/policypak/grouppolicycompliancereporter/758_3_image-20200130171300-2.webp)

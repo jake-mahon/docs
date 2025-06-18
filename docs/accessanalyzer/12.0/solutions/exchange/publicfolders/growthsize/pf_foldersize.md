@@ -10,7 +10,7 @@ Size** > **PF_FolderSize** > **Configure** node and select **Analysis**.
 **CAUTION:** Do not modify or deselect the selected analysis tasks. The analysis tasks are
 preconfigured for this job.
 
-![Analysis Tasks for the PF_FolderSize Job](../../../../../../../static/img/product_docs/accessanalyzer/solutions/exchange/publicfolders/growthsize/foldersizeanalysis.webp)
+![Analysis Tasks for the PF_FolderSize Job](/img/product_docs/accessanalyzer/solutions/exchange/publicfolders/growthsize/foldersizeanalysis.webp)
 
 The following analysis tasks are selected by default:
 
@@ -20,7 +20,7 @@ The following analysis tasks are selected by default:
 
     - The default is 3 months. It can be modified.
     - See the
-      [Exchange History Retention](../../hubmetrics/collection/ex_metricscollection.md#exchange-history-retention)
+      [Exchange History Retention](/docs/accessanalyzer/12.0/solutions/exchange/hubmetrics/collection/ex_metricscollection.md#exchange-history-retention)
       topic for additional information
 
 - 03.Latest Run Per Folder – Creates the SA_PF_FolderSize_Latest table, accessible under the job’s
@@ -36,7 +36,7 @@ troubleshooting and cleanup only. Data will be deleted from the database.
 
 - 00.Delete all Historical Data
     - See the
-      [Troubleshooting Data Collection](../../hubmetrics/collection/ex_metricscollection.md#troubleshooting-data-collection)
+      [Troubleshooting Data Collection](/docs/accessanalyzer/12.0/solutions/exchange/hubmetrics/collection/ex_metricscollection.md#troubleshooting-data-collection)
       topic for additional information
 
 In addition to the tables and views created by the analysis tasks, the PF_FolderSize job produces

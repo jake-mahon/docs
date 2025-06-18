@@ -23,8 +23,8 @@ Successful use of the Access Analyzer Active Directory Permissions Analyzer solu
 necessary settings and permissions in a Microsoft® Active Directory® environment described in this
 topic and its subtopics. This solution employs the following data collectors to scan the domain:
 
-- [ADInventory Data Collector](../../admin/datacollector/adinventory/overview.md)
-- [ADPermissions Data Collector](../../admin/datacollector/adpermissions/overview.md)
+- [ADInventory Data Collector](/docs/accessanalyzer/12.0/admin/datacollector/adinventory/overview.md)
+- [ADPermissions Data Collector](/docs/accessanalyzer/12.0/admin/datacollector/adpermissions/overview.md)
 
 ## Permissions
 

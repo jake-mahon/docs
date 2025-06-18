@@ -17,11 +17,11 @@ It performs the following functions:
   specified dates.
 - The Membership Life Cycle schedule executes the Membership Life Cycle policy for the identity
   store. See the
-  [Manage Membership Life Cycle Policies](../identitystore/configure/directoryservice/membershiplifecycle.md)
+  [Manage Membership Life Cycle Policies](/docs/groupid/11.1/groupid/admincenter/identitystore/configure/directoryservice/membershiplifecycle.md)
   topic.
 - The schedule also removes members when group owners inactivate them during group attestation. See
   the
-  [Enable Group Attestation](../identitystore/configure/directoryservice/grouplifecycle.md#enable-group-attestation)
+  [Enable Group Attestation](/docs/groupid/11.1/groupid/admincenter/identitystore/configure/directoryservice/grouplifecycle.md#enable-group-attestation)
   topic.
 
 Let’s assume that the Membership Life Cycle schedule is scheduled to run once a week, say Mondays.
@@ -32,7 +32,7 @@ your temporary membership requirements.
 
 Directory Manager generates notifications when the Membership Life Cycle schedule adds or removes
 users from group membership. See the
-[Manage Membership Life Cycle Notifications](../identitystore/configure/smtpserver.md#manage-membership-life-cycle-notifications)
+[Manage Membership Life Cycle Notifications](/docs/groupid/11.1/groupid/admincenter/identitystore/configure/smtpserver.md#manage-membership-life-cycle-notifications)
 topic.
 
 ## Create a Membership Life Cycle Schedule
@@ -61,7 +61,7 @@ necessary action.
 Step 8 – In the Scheduler Service Name drop-down list, select a Scheduler service that would be
 responsible for triggering this schedule. The number of services displayed in the list depend on the
 number of nodes in all Elasticsearch clusters in the environment, as each node has its own Scheduler
-service. See the [Scheduler Service](../service/schedulerservice.md) topic for additional
+service. See the [Scheduler Service](/docs/groupid/11.1/groupid/admincenter/service/schedulerservice.md) topic for additional
 information.
 
 Please note the following while selecting a Scheduler service:

@@ -19,14 +19,14 @@ how to kick off your first spider:
 
 1. Open **Flashlight** > **Tools** > **Spider**.
 
-    ![mainmenu](../../../static/img/product_docs/strongpointnetsuiteflashlight/getting_started/mainmenu.webp)
+    ![mainmenu](/img/product_docs/strongpointnetsuiteflashlight/getting_started/mainmenu.webp)
 
 2. If you are receive a NetSuite alert about segment preferences, you need to set the **Number of
    Rows in List Segments** in your account so that the spider can function properly. Refer to
-   [Configuring your Account](configuring_account.md) for details. Do not update this field while
+   [Configuring your Account](/docs/strongpointnetsuiteflashlight/getting_started/configuring_account.md) for details. Do not update this field while
    the spider is running. Once you are ready, start your spider.
 
-    ![spider_800x368](../../../static/img/product_docs/strongpointnetsuiteflashlight/getting_started/spider_800x368.webp)
+    ![spider_800x368](/img/product_docs/strongpointnetsuiteflashlight/getting_started/spider_800x368.webp)
 
 3. Set the following fields:
 

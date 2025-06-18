@@ -74,7 +74,7 @@ The name of the Exchange assistant for the mailbox/contact. Any email sent to th
 also forwarded to this assistant.
 
 Enter a search string to locate the object to add as an Exchange assistant, or click **Browse** to
-use the [Find Dialog Box](../../../search/find.md) for performing a search.
+use the [Find Dialog Box](/docs/groupid/11.1/groupid/portal/search/find.md) for performing a search.
 
 This field is not available for a user.
 

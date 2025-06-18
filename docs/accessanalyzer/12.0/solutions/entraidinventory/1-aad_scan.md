@@ -6,14 +6,14 @@ activity with the scan.
 
 **NOTE:** This job requires an Microsoft Entra ID application with the appropriate permissions to
 perform the scan. See the
-[Microsoft Entra ID Tenant Target Requirements](../../config/entraid/overview.md) topic for
+[Microsoft Entra ID Tenant Target Requirements](/docs/accessanalyzer/12.0/config/entraid/overview.md) topic for
 information on the prerequisites for this job.
 
 ## Queries for the 1-AAD_Scan Job
 
 The 1-AAD_Scan job uses the AzureADInventory and Entra Data Collectors for the following queries:
 
-![Query Selection page](../../../../../static/img/product_docs/accessanalyzer/solutions/entraidinventory/scanqueryselection.webp)
+![Query Selection page](/img/product_docs/accessanalyzer/solutions/entraidinventory/scanqueryselection.webp)
 
 - AAD Inventory – Targets Microsoft Entra tenants to collect inventory data for user group objects
 
@@ -31,17 +31,17 @@ ID. Follow the steps to customize configurations.
 **Step 1 –** Navigate to the **.Entra ID Inventory** > **1-AAD_Scan** > **Configure** node and
 select **Queries**.
 
-![Query Properties button on Query Selection page](../../../../../static/img/product_docs/accessanalyzer/solutions/entraidinventory/scanqueryselectionproperties.webp)
+![Query Properties button on Query Selection page](/img/product_docs/accessanalyzer/solutions/entraidinventory/scanqueryselectionproperties.webp)
 
 **Step 2 –** In the Query Selection view, click on **Query Properties** to open the Query Properties
 window.
 
-![Query Properties window](../../../../../static/img/product_docs/accessanalyzer/solutions/entraidinventory/scanqueryproperties.webp)
+![Query Properties window](/img/product_docs/accessanalyzer/solutions/entraidinventory/scanqueryproperties.webp)
 
 **Step 3 –** Select the **Data Source** tab, and click **Configure** to open the Entra ID Inventory
 DC Wizard.
 
-![Entra ID Inventory DC Wizard Options page](../../../../../static/img/product_docs/accessanalyzer/solutions/activedirectoryinventory/scandcwizardoptions.webp)
+![Entra ID Inventory DC Wizard Options page](/img/product_docs/accessanalyzer/solutions/activedirectoryinventory/scandcwizardoptions.webp)
 
 **Step 4 –** On the Options page, select the different Scan Options as needed:
 
@@ -54,7 +54,7 @@ DC Wizard.
   objects. A message will alert users that deselecting this option will disable this function.
 - Collect Directory Audit Events – Collect Microsoft Entra ID audit logs
 
-![Entra ID Inventory DC Wizard Custom Attributes page](../../../../../static/img/product_docs/accessanalyzer/solutions/activedirectoryinventory/scandcwizardcustomattributes.webp)
+![Entra ID Inventory DC Wizard Custom Attributes page](/img/product_docs/accessanalyzer/solutions/activedirectoryinventory/scandcwizardcustomattributes.webp)
 
 **Step 5 –** On the Custom Attributes page, click **Add** or **Import** to add or import custom
 attributes.
@@ -65,7 +65,7 @@ attributes.
     **NOTE:** Enabling this option overrides the differential scan setting and will direct the data
     controller to run a full scan every time the job is run.
 
-- See the [AzureADInventory Data Collector](../../admin/datacollector/azureadinventory/overview.md)
+- See the [AzureADInventory Data Collector](/docs/accessanalyzer/12.0/admin/datacollector/azureadinventory/overview.md)
   topic for additional information on adding and importing custom attributes.
 
 **Step 6 –** Navigate to the Summary page. Click **Finish** to save changes or click **Cancel** to
@@ -81,7 +81,7 @@ Navigate to the **.Entra ID Inventory** > **1-AAD_Scan** > **Configure** node an
 **CAUTION:** Do not modify or deselect the selected analysis tasks. The analysis tasks are
 preconfigured for this job.
 
-![Analysis Tasks for 1-AAD_Scan Job](../../../../../static/img/product_docs/accessanalyzer/solutions/entraidinventory/scananalysistasks.webp)
+![Analysis Tasks for 1-AAD_Scan Job](/img/product_docs/accessanalyzer/solutions/entraidinventory/scananalysistasks.webp)
 
 The default analysis tasks are:
 
@@ -100,7 +100,7 @@ The default analysis tasks are:
   and report generation
 
 In addition to the tables and views listed in the
-[Standard Reference Tables & Views for the AzureADInventory Data Collector](../../admin/datacollector/azureadinventory/standardtables.md)
+[Standard Reference Tables & Views for the AzureADInventory Data Collector](/docs/accessanalyzer/12.0/admin/datacollector/azureadinventory/standardtables.md)
 topic, the 1-AAD_Scan job produces the following preconfigured report.
 
 | Report           | Description                                                        | Default Tags | Report Elements                                                                                                                                                                                                                |

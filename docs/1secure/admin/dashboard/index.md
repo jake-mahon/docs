@@ -14,15 +14,15 @@ organizations, enabling managing organizations, such as Managed Service Provider
 identify and prioritize what requires immediate attention. It displays the alerts triggered by
 specific events, offering drill-down capabilities that enable you to access detailed information on
 specific alerts and issues, ensuring timely and effective responses. See the
-[Alerts](../alerts) topic for additional information on alerts.
+[Alerts](/docs/1secure/admin/alerts) topic for additional information on alerts.
 
 Click **Home** at the top of the page to access the dashboard. This page is also the default landing
 page of the application when you sign in.
 
-![Dashboard Page for managing user](../../../../static/img/product_docs/1secure/admin/dashboard/dashboardpage.webp)
+![Dashboard Page for managing user](/img/product_docs/1secure/admin/dashboard/dashboardpage.webp)
 
 If you are a managed organization user, this page displays insights specific to your organization.
-See the [Organization Statistics](organizationstatistics.md) topic for additional information.
+See the [Organization Statistics](/docs/1secure/admin/dashboard/organizationstatistics.md) topic for additional information.
 
 If you are a managing organization (MSP) user, this page provides insights for all your
 organizations.
@@ -31,21 +31,21 @@ Top 5 Triggered Alerts by Type
 
 This card displays a bar chart that highlights the five most frequently triggered alert types. Hover
 over a bar to view the exact number of alerts for that type. Click a bar to navigate to the Alerts
-Timeline page. See the [Alerts Timeline](../alerts/timeline.md) topic for additional information.
+Timeline page. See the [Alerts Timeline](/docs/1secure/admin/alerts/timeline.md) topic for additional information.
 
 Top 5 Organizations with Most Alerts
 
 This card displays a bar chart that highlights the five organizations with the highest number of
 triggered alerts. Hover over a bar to view the exact number of alerts triggered for that
 organization. Click a bar to navigate to the Alerts Timeline page. See the
-[Alerts Timeline](../alerts/timeline.md) topic for additional information.
+[Alerts Timeline](/docs/1secure/admin/alerts/timeline.md) topic for additional information.
 
 Top 5 Organizations at Risk
 
 This card lists the five organizations with the highest risk levels. Each record includes the
 organization’s name, risk level (high, medium, or low), and the number of risks detected. Click a
 record to navigate to the Risk Assessment dashboard. See the
-[Risk Assessment Dashboard](../riskprofiles/riskassessmentdashboard.md) topic for additional
+[Risk Assessment Dashboard](/docs/1secure/admin/riskprofiles/riskassessmentdashboard.md) topic for additional
 information.
 
 Health Status
@@ -58,20 +58,20 @@ Organizations List
 This section lists all managed organizations with the following information:
 
 - Name – Displays the name of an organization. Click an organization name to navigate to the
-  Organization Statistics page. See the [Organization Statistics](organizationstatistics.md) topic
+  Organization Statistics page. See the [Organization Statistics](/docs/1secure/admin/dashboard/organizationstatistics.md) topic
   for additional information.
 
 - Alerts – Displays the total number of alerts triggered for the organization. Click the value to
-  navigate to the Alerts Timeline page. See the [Alerts Timeline](../alerts/timeline.md) topic for
+  navigate to the Alerts Timeline page. See the [Alerts Timeline](/docs/1secure/admin/alerts/timeline.md) topic for
   additional information.
 - Risk Level – Displays the risk level for the organization such as, high, medium, or low. Click the
   value to navigate to the Risk Assessment dashboard. See the
-  [Risk Assessment Dashboard](../riskprofiles/riskassessmentdashboard.md) topic for additional
+  [Risk Assessment Dashboard](/docs/1secure/admin/riskprofiles/riskassessmentdashboard.md) topic for additional
   information.
 - Users – Displays the total number of users in the organization along with their percentage share
   with respect to the total number of users in the managed organizations (tenant) in 1Secure. Click
   the value to navigate to the Billable Users page. See the
-  [System Reports](../searchandreports/system.md) topic for additional information.
+  [System Reports](/docs/1secure/admin/searchandreports/system.md) topic for additional information.
 - Status – Displays the current health status of the organization, which can be: Healthy, Trial in
   Progress, New, Update Recommended, Needs Attention, Experiencing Issues, Offline, Disabled, Not
   Configured, and Pending Deletion. Click the value to navigate to the Health Status for
@@ -85,7 +85,7 @@ to sort the data in descending order.
 Add Organization
 
 Click the Add Organization button to add a new organization. See the
-[Add Organizations](../organizations/addorganizations.md) topic for additional information.
+[Add Organizations](/docs/1secure/admin/organizations/addorganizations.md) topic for additional information.
 
 ## Filter Data
 

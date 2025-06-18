@@ -18,7 +18,7 @@ Auto-Classification.
 
 4. Finally, click **Generate**.
 
-![reports_doctagging_thumb_0_0](../../../../../../static/img/product_docs/dataclassification/ndc/admin/reporting/reports_doctagging_thumb_0_0.webp)
+![reports_doctagging_thumb_0_0](/img/product_docs/dataclassification/ndc/admin/reporting/reports_doctagging_thumb_0_0.webp)
 
 The report will be displayed in the preview pane.
 
@@ -38,7 +38,7 @@ and System reports).
 To view all templates available to you, open the **Reports** tab and select **Report Templates** on
 the left.
 
-![reporttemplates](../../../../../../static/img/product_docs/dataclassification/ndc/admin/reporting/reporttemplates.webp)
+![reporttemplates](/img/product_docs/dataclassification/ndc/admin/reporting/reporttemplates.webp)
 
 To save a report configuration template
 
@@ -47,7 +47,7 @@ To save a report configuration template
    include data from the specific source).
 3. Click the **Save Report Configuration** button.
 
-    ![report_template](../../../../../../static/img/product_docs/dataclassification/ndc/admin/reporting/report_template.webp)
+    ![report_template](/img/product_docs/dataclassification/ndc/admin/reporting/report_template.webp)
 
     NOTE: Report configuration templates are saved per user.
 
@@ -71,12 +71,12 @@ Subscriptions for report templates enable you to schedule email delivery of a va
 set of specific search criteria. Subscriptions are helpful if you are a rare guest of Netwrix Data
 Classification and you only need to get statistics based on individual criteria. For example, an IT
 manager can easily provide auditors with weekly reports to prove compliance with regulations.
-[See Report Subscriptions for more information.](reportsuscriptions.md)
+[See Report Subscriptions for more information.](/docs/dataclassification/5.7/ndc/admin/reporting/reportsuscriptions.md)
 
 To view existing subscriptions for reports, navigate to the **Report Templates** page on the left
 and click **View Subscriptions** next to an existing template to view and edit subscriptions.
 
-![managesubscription](../../../../../../static/img/product_docs/dataclassification/ndc/admin/reporting/managesubscription.webp)
+![managesubscription](/img/product_docs/dataclassification/ndc/admin/reporting/managesubscription.webp)
 
 Checking the **Create a Subscription** box when saving a new report configuration will enable users
 to create a new subscription. The following options are configured on the **Manage Subscriptions**

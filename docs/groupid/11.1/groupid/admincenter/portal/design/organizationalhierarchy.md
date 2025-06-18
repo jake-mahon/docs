@@ -35,10 +35,10 @@ What do you want to do?
    attribute on the organizational hierarchy chart. The display type must match the attribute. For
    example, the ‘TreePicture’ display type matches the ‘thumbnailPhoto’ attribute.  
    This list contains basic display types and custom display types defined on the **Custom Display
-   Types** page. See the [Display Type Categories](../displaytype/categories.md) topic.
+   Types** page. See the [Display Type Categories](/docs/groupid/11.1/groupid/admincenter/portal/displaytype/categories.md) topic.
 9. Click **OK**.
 10. Click **Save** on the **Organizational Hierarchy** page.
 
 **See Also**
 
-- [Design a Portal with Display Types](../displaytype/overview.md)
+- [Design a Portal with Display Types](/docs/groupid/11.1/groupid/admincenter/portal/displaytype/overview.md)

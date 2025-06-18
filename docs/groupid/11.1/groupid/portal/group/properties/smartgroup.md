@@ -27,7 +27,7 @@ server and storage for the query to fetch the records from.
 **Query Designer**
 
 To modify the query, click the **Query Designer** button. This launches the
-[Query Designer](../querydesigner/overview.md) dialog box, where you can modify the query.
+[Query Designer](/docs/groupid/11.1/groupid/portal/group/querydesigner/overview.md) dialog box, where you can modify the query.
 
 Smart Groups and Dynasties in a Microsoft Entra IDbased identity store use a device structured query
 language while those in an Active Directory based identity store use LDAP queries to update group

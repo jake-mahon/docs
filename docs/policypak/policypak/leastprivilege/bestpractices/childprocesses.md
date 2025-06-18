@@ -1,14 +1,14 @@
 # When to Use “Apply to Child Processes”
 
 **NOTE:** See the
-[Security and Child Processes](../../video/leastprivilege/bestpractices/securitychildprocesses.md)
+[Security and Child Processes](/docs/policypak/policypak/video/leastprivilege/bestpractices/securitychildprocesses.md)
 video for an overview of using Endpoint Policy Manager (formerly PolicyPak) Least Privilege Manager
 and Child Processes rules.
 
 ![A screenshot of a computer
 
 Description automatically
-generated](../../../../../static/img/product_docs/policypak/policypak/leastprivilege/bestpractices/when_to_use_apply_to_child.webp)
+generated](/img/product_docs/policypak/policypak/leastprivilege/bestpractices/when_to_use_apply_to_child.webp)
 
 We suggest leaving the checkbox on for **Apply to Child Processes** when installing software. This
 will enable a `Setup.exe` to elevate anything it unpacks and needs to continue to install. However,

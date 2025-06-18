@@ -24,6 +24,6 @@ for more information.
 
 Review the following for additional information:
 
-- [Requirements to Deploy Virtual Appliance](systemrequirements.md)
-- [Import Virtual Machine from Image to VMware](importvmfromimagetovmware.md)
-- [Import Virtual Machine from Image to Hyper-V ](importvmfromimagetohyperv.md)
+- [Requirements to Deploy Virtual Appliance](/docs/dataclassification/5.7/ndc/virtualappliance/systemrequirements.md)
+- [Import Virtual Machine from Image to VMware](/docs/dataclassification/5.7/ndc/virtualappliance/importvmfromimagetovmware.md)
+- [Import Virtual Machine from Image to Hyper-V ](/docs/dataclassification/5.7/ndc/virtualappliance/importvmfromimagetohyperv.md)

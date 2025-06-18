@@ -7,7 +7,7 @@ targeted servers.
 
 The 1-SQL_PermissionsScan Job uses the SQL Data Collector for the following query:
 
-![Query Selection](../../../../../../../static/img/product_docs/accessanalyzer/solutions/databases/sql/collection/sqljobgroup6.webp)
+![Query Selection](/img/product_docs/accessanalyzer/solutions/databases/sql/collection/sqljobgroup6.webp)
 
 - PermissionsScan – Collects permissions from targeted instances
     - (Optional) This query can be modified to target specific databases/instances. See the
@@ -30,10 +30,10 @@ Properties. The Query Properties window appears.
 **CAUTION:** Do not make changes to other wizard pages as they have been pre-configured for this
 job.
 
-![Filters](../../../../../../../static/img/product_docs/accessanalyzer/solutions/databases/azuresql/collection/1sqlpermissionscanfilterpage.webp)
+![Filters](/img/product_docs/accessanalyzer/solutions/databases/azuresql/collection/1sqlpermissionscanfilterpage.webp)
 
 **Step 4 –** To query for specific databases/instances, navigate to the
-[SQL Data Collector](../../../../admin/datacollector/sql/overview.md) page. The default query target
+[SQL Data Collector](/docs/accessanalyzer/12.0/admin/datacollector/sql/overview.md) page. The default query target
 is All databases. The default query scope is Only select database objects and click Retrieve. The
 Available database objects will be populated. Databases and instances can be added in the following
 ways:
@@ -55,7 +55,7 @@ select Analysis to view the analysis tasks.
 **CAUTION:** Do not modify or deselect the selected analysis task(s). The analysis task(s) are
 preconfigured for this job.
 
-![Analysis Selection](../../../../../../../static/img/product_docs/accessanalyzer/solutions/databases/sql/collection/sqljobgroup8.webp)
+![Analysis Selection](/img/product_docs/accessanalyzer/solutions/databases/sql/collection/sqljobgroup8.webp)
 
 The default analysis tasks are:
 

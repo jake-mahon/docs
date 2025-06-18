@@ -68,5 +68,5 @@ Applicable for:
 In addition to reviewing reports, you can customize them with filters and create report
 subscriptions. Review the following for additional information:
 
-- [View Reports](../view.md)
-- [Create Subscriptions](../../subscriptions/create.md)
+- [View Reports](/docs/auditor/10.7/auditor/admin/reports/view.md)
+- [Create Subscriptions](/docs/auditor/10.7/auditor/admin/subscriptions/create.md)

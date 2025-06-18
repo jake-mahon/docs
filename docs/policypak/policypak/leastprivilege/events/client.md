@@ -7,4 +7,4 @@ Privilege Manager policies. An example of this kind of event can be seen here.
 ![A screenshot of a computer
 
 Description automatically
-generated](../../../../../static/img/product_docs/policypak/policypak/leastprivilege/events/client_events.webp)
+generated](/img/product_docs/policypak/policypak/leastprivilege/events/client_events.webp)

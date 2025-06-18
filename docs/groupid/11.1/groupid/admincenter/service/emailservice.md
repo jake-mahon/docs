@@ -8,7 +8,7 @@ When the SMTP server for an identity store is down, notifications stay in the qu
 delivered when the server is up again. Successfully delivered emails are removed from the queue.
 
 For more on the notification queue, see the
-[Manage the Notification Queue](../notification/queue.md) topic.
+[Manage the Notification Queue](/docs/groupid/11.1/groupid/admincenter/notification/queue.md) topic.
 
 ## View Email Service Details
 

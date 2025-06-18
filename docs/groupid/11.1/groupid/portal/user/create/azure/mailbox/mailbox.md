@@ -28,4 +28,4 @@ Step 5 – On the Summary page, review the settings and then click **Finish** to
 
 NOTE: If the Directory Manager administrator has specified the mailbox creation action for review,
 your changes will not take effect until verified by an approver. See the
-[Requests](../../../../request/overview.md) topic for additional information.
+[Requests](/docs/groupid/11.1/groupid/portal/request/overview.md) topic for additional information.

@@ -2,7 +2,7 @@
 
 The EX_OWATraffic Job provides visibility into Outlook Web Access Traffic in the organization.
 
-![Outlook Web Access > EX_OWATraffic Job in the Jobs Tree](../../../../../../static/img/product_docs/accessanalyzer/solutions/exchange/casmetrics/outlookwebaccessjobstree.webp)
+![Outlook Web Access > EX_OWATraffic Job in the Jobs Tree](/img/product_docs/accessanalyzer/solutions/exchange/casmetrics/outlookwebaccessjobstree.webp)
 
 The EX_OWATraffic job is located in the Outlook Web Access Job Group.
 
@@ -14,7 +14,7 @@ Access** > **EX_OWATraffic** > **Configure** node and select **Analysis**.
 **CAUTION:** Most of these analysis tasks are preconfigured and should not be modified ordeselected.
 There is one that is deselected by default, as it is for troubleshooting purposes.
 
-![Analysis Tasks for the EX_OWATraffic Job](../../../../../../static/img/product_docs/accessanalyzer/solutions/exchange/casmetrics/owatrafficanalysis.webp)
+![Analysis Tasks for the EX_OWATraffic Job](/img/product_docs/accessanalyzer/solutions/exchange/casmetrics/owatrafficanalysis.webp)
 
 The following analysis tasks are selected by default:
 
@@ -30,7 +30,7 @@ The following analysis tasks are selected by default:
 
     - By default it is set to retain 6 months. This can be modified.
     - See the
-      [Exchange History Retention](../hubmetrics/collection/ex_metricscollection.md#exchange-history-retention)
+      [Exchange History Retention](/docs/accessanalyzer/12.0/solutions/exchange/hubmetrics/collection/ex_metricscollection.md#exchange-history-retention)
       topic for additional information
 
 The following analysis task deletes table data from data collection and analysis jobs. This analysis
@@ -41,7 +41,7 @@ troubleshooting and cleanup only. Data will be deleted from the database.
 
 -   0. Deletes all History - LEAVE UNCHECKED – Clears all historical data
     - See the
-      [Troubleshooting Data Collection](../hubmetrics/collection/ex_metricscollection.md#troubleshooting-data-collection)
+      [Troubleshooting Data Collection](/docs/accessanalyzer/12.0/solutions/exchange/hubmetrics/collection/ex_metricscollection.md#troubleshooting-data-collection)
       topic for additional information
 
 In addition to the tables and views created by the analysis tasks, the EX_OWATraffic Job produces

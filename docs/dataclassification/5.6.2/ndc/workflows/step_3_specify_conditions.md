@@ -21,7 +21,7 @@ The following options are available:
     If you have selected any of the **Specific Classification** variants, you should then specify
     taxonomy terms that will be applied to filter out the documents for your workflow.
 
-[<!-- Image removed: transparent.gif not found -->To configure terms](<javascript:void(0)>)
+[<!-- Image removed: transparent.gif not found -->To configure terms](javascript:void(0))
 
 1. In the **Select Term** field, click the tag icon.
 2. In the **Details** dialog, specify filter settings to use when filtering out the documents:

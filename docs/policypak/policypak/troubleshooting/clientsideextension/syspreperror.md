@@ -10,7 +10,7 @@ IMAGE_STATE_GENERALIZE_RESEAL_TO_OOBE. Actual image state is IMAGE_STATE_Complet
 
 In setupcat.log you’ll find the following error:
 
-[Copy](<javascript:void(0);>)
+[Copy](javascript:void(0);)
 
 setupcat.log error
 
@@ -35,7 +35,7 @@ Resolution:
 To fix the error please remove the LPM appx package prior to SYSPREP with the following PowerShell
 command:
 
-[Copy](<javascript:void(0);>)
+[Copy](javascript:void(0);)
 
 Remove LPM appx package
 

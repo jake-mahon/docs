@@ -13,14 +13,14 @@ Directory components:
 The RSAT Extension Recovery Diagnostics flow chart helps diagnose issues when the Recycle Bin is
 missing or empty in Active Directory Users and Computers (ADUC).
 
-![RSAT Extension Recover Diagnostics](../../../../../static/img/product_docs/recoveryforactivedirectory/recoveryforactivedirectory/troubleshooting/recoverrsat.webp)
+![RSAT Extension Recover Diagnostics](/img/product_docs/recoveryforactivedirectory/recoveryforactivedirectory/troubleshooting/recoverrsat.webp)
 
 ## RSAT Extension Rollback
 
 The RSAT Extension Rollback Diagnostics flow chart helps diagnose issues when the rollback
 right-click menu option is missing in ADUC.
 
-![RSAT Extension Rollback Diagnostics](../../../../../static/img/product_docs/recoveryforactivedirectory/recoveryforactivedirectory/troubleshooting/rollbackrsat.webp)
+![RSAT Extension Rollback Diagnostics](/img/product_docs/recoveryforactivedirectory/recoveryforactivedirectory/troubleshooting/rollbackrsat.webp)
 
 ## RSAT Extension Registration Validation
 
@@ -68,7 +68,7 @@ If the GUID matches the number above, the RSAT Extension is successfully registe
 The Recovery Application Server Diagnostics flow chart helps diagnose issues when the Netwrix
 Recovery Server service is not running.
 
-![Application Server Diagnostics](../../../../../static/img/product_docs/recoveryforactivedirectory/recoveryforactivedirectory/troubleshooting/applicationserver.webp)
+![Application Server Diagnostics](/img/product_docs/recoveryforactivedirectory/recoveryforactivedirectory/troubleshooting/applicationserver.webp)
 
 ## Log Files
 

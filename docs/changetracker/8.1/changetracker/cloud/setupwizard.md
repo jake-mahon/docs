@@ -5,7 +5,7 @@
 **Step 2 –** Cloud Report Template: Templates presented here will be filtered to show all Cloud
 reports available in your system.
 
-![cloudsystemsetup](../../../../../static/img/product_docs/changetracker/changetracker/cloud/cloudsystemsetup.webp)
+![cloudsystemsetup](/img/product_docs/changetracker/changetracker/cloud/cloudsystemsetup.webp)
 
 **Step 3 –** Create a new Cloud System and Credentials: The Cloud Set-Up Wizard is context-sensitive
 so depending on which Cloud Platform you select will determine the Credentials dialogue you will be
@@ -16,7 +16,7 @@ Google Cloud Platform Credentials example:
 ![Graphical user interface, text, application, email
 
 Description automatically
-generated](../../../../../static/img/product_docs/changetracker/changetracker/cloud/cloudgoogleplatformcredentials.webp)
+generated](/img/product_docs/changetracker/changetracker/cloud/cloudgoogleplatformcredentials.webp)
 
 **NOTE:** Just click the Query icon to get a quick tip on what the Credential field requires.
 
@@ -38,14 +38,14 @@ them and verify they have been entered correctly.
 Cloud security is higher and more complex than standard access credentials for regular servers and
 hypervisors so please ask for help if needed!
 
-![cloudcompletedsetup](../../../../../static/img/product_docs/changetracker/changetracker/cloud/cloudcompletedsetup.webp)
+![cloudcompletedsetup](/img/product_docs/changetracker/changetracker/cloud/cloudcompletedsetup.webp)
 
 At this point you are ready to run your first Cloud Compliance Report – just hit the Run Report
 button!
 
 AWS Platform Credentials Example:
 
-![cloudaws-credentials](../../../../../static/img/product_docs/changetracker/changetracker/cloud/cloudaws-credentials.webp)
+![cloudaws-credentials](/img/product_docs/changetracker/changetracker/cloud/cloudaws-credentials.webp)
 
 - Credential Name – Enter a name to uniquely identify these credentials Cloud
 - Platform – Select from the drop-down options presented
@@ -88,7 +88,7 @@ Azure Platform Credentials Example:
 ![Graphical user interface, text, application
 
 Description automatically
-generated](../../../../../static/img/product_docs/changetracker/changetracker/cloud/cloudazure-credentials.webp)
+generated](/img/product_docs/changetracker/changetracker/cloud/cloudazure-credentials.webp)
 
 - Credential Name – Enter a name to uniquely identify these credentials
 - Cloud Platform – Select from the drop-down options presented

@@ -14,13 +14,13 @@ knowledge base article for additional information.
 The following topics list the operations with files and folders that can be monitored and reported
 by Auditor on these supported storage systems.:
 
-- [Dell Data Storage](delldatastorage/overview.md)
-- [Dell Isilon/PowerScale](dellisilon/overview.md)
-- [NetApp Data ONTAP](netappcmode/overview.md)
-- [Nutanix](nutanix/overview.md)
-- [Qumulo](qumulo/overview.md)
-- [Synology](synology/overview.md)
-- [Windows File Servers](windows/overview.md)
+- [Dell Data Storage](/docs/auditor/10.7/auditor/configuration/fileservers/delldatastorage/overview.md)
+- [Dell Isilon/PowerScale](/docs/auditor/10.7/auditor/configuration/fileservers/dellisilon/overview.md)
+- [NetApp Data ONTAP](/docs/auditor/10.7/auditor/configuration/fileservers/netappcmode/overview.md)
+- [Nutanix](/docs/auditor/10.7/auditor/configuration/fileservers/nutanix/overview.md)
+- [Qumulo](/docs/auditor/10.7/auditor/configuration/fileservers/qumulo/overview.md)
+- [Synology](/docs/auditor/10.7/auditor/configuration/fileservers/synology/overview.md)
+- [Windows File Servers](/docs/auditor/10.7/auditor/configuration/fileservers/windows/overview.md)
 
 ## State-in-Time Data
 
@@ -33,7 +33,7 @@ corresponding option in the data source settings within the monitoring plan.
 Starting with the version 10, the product is able to report about sensitive data in your IT
 infrastructure. Pay attention to the "_Data categories_" column in search and reports (for the
 "_File_" object types only). See the
-[Sensitive Data Discovery ](../../admin/settings/sensitivedatadiscovery.md) topic for additional
+[Sensitive Data Discovery ](/docs/auditor/10.7/auditor/admin/settings/sensitivedatadiscovery.md) topic for additional
 information on how to enable monitoring of sensitive data in Auditor.
 
 ## Monitored Object Attributes
@@ -41,7 +41,7 @@ information on how to enable monitoring of sensitive data in Auditor.
 The table below lists the object types and attributes that can be monitored by Auditor.
 
 For more information on the attributes marked with (\*) , refer to the following Microsoft article:
-[File Attribute Constants](<https://msdn.microsoft.com/en-us/library/windows/desktop/gg258117(v=vs.85).aspx>).
+[File Attribute Constants](https://msdn.microsoft.com/en-us/library/windows/desktop/gg258117(v=vs.85).aspx).
 
 | Object type | Attributes                                                                                                                                                                                                                                                                                                                               |
 | ----------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |

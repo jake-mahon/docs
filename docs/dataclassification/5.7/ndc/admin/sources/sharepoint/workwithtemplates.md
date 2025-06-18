@@ -10,7 +10,7 @@ source onto others. First you manually configure one source. Then you save that 
 you apply that template to other sources.
 
 To get more details about the tagging function, review the
-[Configuring Tagging](../../../configuration/configinfrastructure/spotagging.md) article.
+[Configuring Tagging](/docs/dataclassification/5.7/ndc/configuration/configinfrastructure/spotagging.md) article.
 
 In this article, we will cover:
 
@@ -23,7 +23,7 @@ In this article, we will cover:
 ## Setting up prerequisites
 
 As part of configuring tagging, make sure you have set the prerequisites, specified in the
-[Configuring Tagging](../../../configuration/configinfrastructure/spotagging.md) article.
+[Configuring Tagging](/docs/dataclassification/5.7/ndc/configuration/configinfrastructure/spotagging.md) article.
 
 ## Using SharePoint API
 

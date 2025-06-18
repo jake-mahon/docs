@@ -6,7 +6,7 @@ The safest passwords are those that you do not know. Password masking follows th
 prevents the password from being shown, while allowing the use of the automatic sign-on. You can
 apply it via the button of the same name in the ribbon.
 
-![button password masking](../../../../../../../../../../static/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/permissionconcept/predefining_rights/protective_mechanisms/password_masking/password_masking_1-en.webp)
+![button password masking](/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/permissionconcept/predefining_rights/protective_mechanisms/password_masking/password_masking_1-en.webp)
 
 ## Relevant rights
 
@@ -18,7 +18,7 @@ The following option is required to apply password masking.
 
 ### Required permissions
 
-In the same way as for the [Seals](../seals/seals.md) configuration, the **authorize permission**
+In the same way as for the [Seals](/docs/passwordsecure/9.2/passwordsecure/configuration/advanced_view/permissionconcept/predefining_rights/protective_mechanisms/seals/seals.md) configuration, the **authorize permission**
 for the record is required to apply or remove the masking. Users who have the **authorize
 permission** for a record can continue to use the record without limitations after applying password
 masking. Password masking only applies to users without the "can apply password masking" right.
@@ -34,11 +34,11 @@ permission, but not the permission **authorize**.
 ### Password masking via form field permissions
 
 As an alternative, you can also apply password masking via the
-[Form field permissions](../../../../clientmodule/passwords/form_field_permissions.md). In the
-[List view](../../../../operation_and_setup/listview/list_view.md) of a record, there is a separate
+[Form field permissions](/docs/passwordsecure/9.2/passwordsecure/configuration/advanced_view/clientmodule/passwords/form_field_permissions.md). In the
+[List view](/docs/passwordsecure/9.2/passwordsecure/configuration/advanced_view/operation_and_setup/listview/list_view.md) of a record, there is a separate
 button in the ribbon for that purpose. Ensure that the password field is highlighted.
 
-![form field permissions](../../../../../../../../../../static/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/permissionconcept/predefining_rights/protective_mechanisms/password_masking/password_masking_2-en.webp)
+![form field permissions](/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/permissionconcept/predefining_rights/protective_mechanisms/password_masking/password_masking_2-en.webp)
 
 The special feature when setting or editing masking via the form field permissions is that you can
 individually select users to whom masking will be applied. In the following example, masking has
@@ -46,7 +46,7 @@ been specified only for the role of “trainees”, although the “IT” role d
 permission** either. In addition to the name of the role or the user, the icon symbolizes the fact
 that visa protection applies to trainees.
 
-![example password masking](../../../../../../../../../../static/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/permissionconcept/predefining_rights/protective_mechanisms/password_masking/password_masking_3-en.webp)
+![example password masking](/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/permissionconcept/predefining_rights/protective_mechanisms/password_masking/password_masking_3-en.webp)
 
 NOTE: Use the icon in the ribbon to apply password masking to all users who have read permission on
 the record, but not the **authorize permission**. If you wish to specify more precisely for which

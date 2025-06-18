@@ -21,7 +21,7 @@ server that already has an SSL certificate if you would rather not purchase anot
 The IIS documentation explains how request, install, and use SSL certificates.
 
 See the
-[Configure Server Certificates in IIS 7](<https://docs.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc732230(v=ws.10)?redirectedfrom=MSDN>)
+[Configure Server Certificates in IIS 7](https://docs.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc732230(v=ws.10)?redirectedfrom=MSDN)
 Microsoft knowledge base article for additional information.
 
 Ensure that users only access Password Policy Enforcer Web over an encrypted connection after the

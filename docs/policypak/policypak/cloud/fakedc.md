@@ -16,7 +16,7 @@ station.
 
 For a good overview, you can check our videos on Endpoint Policy ManagerCloud, particularly the ones
 on requirements and procedures to get started. You can find the videos at the
-[Video Learning Center](../license/overview/videolearningcenter.md)
+[Video Learning Center](/docs/policypak/policypak/license/overview/videolearningcenter.md)
 
 ## Part 2: MMC vs in-cloud editors
 
@@ -55,7 +55,7 @@ Here’s an example. Black text are policy types which are available. Grayed out
 available yet. Some policy types might be some percent complete, or might never be ported over at
 all.
 
-![622_1_sadf_950x462](../../../../static/img/product_docs/policypak/policypak/cloud/622_1_sadf_950x462.webp)
+![622_1_sadf_950x462](/img/product_docs/policypak/policypak/cloud/622_1_sadf_950x462.webp)
 
 Lastly, here is the table of what’s currently in Endpoint Policy Manager Cloud editors and our own
 self-assessed ranking of Percent complete.

@@ -3,7 +3,7 @@
 The Active Directory Sync page within the Integrations interface lists the domains that are synced
 to theThreat Manager database. The sync operation gets all information about an Active Directory
 environment (users, groups, hosts, etc).See the
-[Permissions for Active Directory Sync ](../../../requirements/permissions/adsync.md) topic for
+[Permissions for Active Directory Sync ](/docs/threatmanager/3.0/threatmanager/requirements/permissions/adsync.md) topic for
 additional information about the permissions required for Active Directory syncing.
 
 Use the gear icon in the upper right corner of the console to open the Configuration menu. Then
@@ -12,7 +12,7 @@ select **Integrations** to open the Integrations interface.
 Click **Active Directory Sync** in the navigation pane to view a list of the already added Active
 Directory domains, if any. Each added domain represents a sync policy.
 
-![Integrations interface on the Active Directory Sync page](../../../../../../../static/img/product_docs/threatprevention/threatprevention/reportingmodule/configuration/systemsettings/page.webp)
+![Integrations interface on the Active Directory Sync page](/img/product_docs/threatprevention/threatprevention/reportingmodule/configuration/systemsettings/page.webp)
 
 A service named Active Directory Service continuously runs to collect data for the specified
 domain(s). It evaluates the USN value of an object and syncs when the object changes. The table
@@ -36,8 +36,8 @@ Directory Sync in the navigation pane.
 
 **NOTE:** Prior to adding an Active Directory Sync policy, you must first configure a Credential
 Profile with credentials properly provisioned for running the sync operation for the domain. See the
-[Application Server Requirements](../../../requirements/server.md) topic for the permissions. See
-the [Credential Profile Page](credentialprofile.md) topic for additional information on creating a
+[Application Server Requirements](/docs/threatmanager/3.0/threatmanager/requirements/server.md) topic for the permissions. See
+the [Credential Profile Page](/docs/threatmanager/3.0/threatmanager/administration/configuration/integrations/credentialprofile.md) topic for additional information on creating a
 profile.
 
 Follow the steps to add a domain/Active Directory sync policy.
@@ -48,7 +48,7 @@ menu. Then select **Integrations** to open the Integrations interface.
 **Step 2 –** On the Integrations interface, click Add New Integration in the navigation pane. The
 Add New Integration window opens.
 
-![Add New Integration window with Active Directory Sync type selected](../../../../../../../static/img/product_docs/threatprevention/threatprevention/reportingmodule/configuration/integrations/activedirectorysync.webp)
+![Add New Integration window with Active Directory Sync type selected](/img/product_docs/threatprevention/threatprevention/reportingmodule/configuration/integrations/activedirectorysync.webp)
 
 **Step 3 –** In the Type drop-down menu, select Active Directory Sync.
 
@@ -98,7 +98,7 @@ represented by the domain for which it is created.
 **Step 9 –** Select a domain from the table or the navigation pane to view the details of the Active
 Directory Sync policy created for that domain.
 
-![Active Directory Sync details page for a specific domain](../../../../../../../static/img/product_docs/threatprevention/threatprevention/reportingmodule/configuration/integrations/details.webp)
+![Active Directory Sync details page for a specific domain](/img/product_docs/threatprevention/threatprevention/reportingmodule/configuration/integrations/details.webp)
 
 Select the domain from the list to see modification options:
 
@@ -118,7 +118,7 @@ Select the domain from the list to see modification options:
 The Domain Configuration tab displays the sync policy settings entered for the selected domain. With
 the exception of the domain itself, these settings can be updated as needed.
 
-![Active Directory Sync details page for a specific domain showing the Domain Configuration tab](../../../../../../../static/img/product_docs/threatprevention/threatprevention/reportingmodule/configuration/integrations/domainconfigurationtab.webp)
+![Active Directory Sync details page for a specific domain showing the Domain Configuration tab](/img/product_docs/threatprevention/threatprevention/reportingmodule/configuration/integrations/domainconfigurationtab.webp)
 
 The Domain Configuration tab displays the following settings:
 
@@ -161,7 +161,7 @@ leaving the page.
 The Sync History tab displays the information on each synchronization event. This includes general
 information about user, group, and computer objects within the selected domain.
 
-![Active Directory Sync details page for a specific domain showing the Sync History tab](../../../../../../../static/img/product_docs/threatprevention/threatprevention/reportingmodule/configuration/integrations/synchistorytab.webp)
+![Active Directory Sync details page for a specific domain showing the Sync History tab](/img/product_docs/threatprevention/threatprevention/reportingmodule/configuration/integrations/synchistorytab.webp)
 
 The table provides the following information:
 
@@ -193,7 +193,7 @@ represented by the domain for which it is created.
 
 _Remember,_ the domain cannot be modified.
 
-![Active Directory Sync details page for a specific domain showing the Domain Configuration tab](../../../../../../../static/img/product_docs/threatprevention/threatprevention/reportingmodule/configuration/integrations/domainconfigurationtab.webp)
+![Active Directory Sync details page for a specific domain showing the Domain Configuration tab](/img/product_docs/threatprevention/threatprevention/reportingmodule/configuration/integrations/domainconfigurationtab.webp)
 
 **Step 3 –** To modify the Credential Profile, select the Credential Profile by name from the
 drop-down menu. This was pre-created in the Credential Profiles page.

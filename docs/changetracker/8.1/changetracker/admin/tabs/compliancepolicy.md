@@ -3,7 +3,7 @@
 Detail on current and previous compliance assessments can be seen here with details of failures
 where they exist.
 
-![compliancepolicytab](../../../../../../static/img/product_docs/changetracker/changetracker/admin/tabs/compliancepolicytab.webp)
+![compliancepolicytab](/img/product_docs/changetracker/changetracker/admin/tabs/compliancepolicytab.webp)
 
 - **Timeline**– Click to see the detail for previous compliance assessments.
 - **Group Performance** – An overall comparison for all systems within the group, current and

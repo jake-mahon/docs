@@ -1,10 +1,10 @@
 # Alerts Cleanup Window
 
-You can clear alert data displayed on the [Alerts Interface](../overview.md) as well as schedule
+You can clear alert data displayed on the [Alerts Interface](/docs/threatprevention/7.5/threatprevention/admin/alerts/overview.md) as well as schedule
 cleanups for this data.
 
 **_RECOMMENDED:_** Export alert data before using the Clear option. See the
-[Alerts Export Window](alertsexport.md) topic for additional information.
+[Alerts Export Window](/docs/threatprevention/7.5/threatprevention/admin/alerts/window/alertsexport.md) topic for additional information.
 
 Follow the steps to clear the alerts data.
 
@@ -12,7 +12,7 @@ Follow the steps to clear the alerts data.
 
 **Step 2 –** On the Alerts interface, click the **Clear** icon in the top right corner.
 
-![Alerts Cleanup window](../../../../../../../static/img/product_docs/threatprevention/threatprevention/admin/alerts/window/alertscleanup.webp)
+![Alerts Cleanup window](/img/product_docs/threatprevention/threatprevention/admin/alerts/window/alertscleanup.webp)
 
 **Step 3 –** The Alerts Cleanup window has these options:
 
@@ -21,7 +21,7 @@ Follow the steps to clear the alerts data.
   number of days.
 - Log Level – Deletes alerts that have the log levels that are checked. The log levels are
   equivalent to the alert severity levels in the data grid on the
-  [Alerts Interface](../overview.md).
+  [Alerts Interface](/docs/threatprevention/7.5/threatprevention/admin/alerts/overview.md).
 - Save deleted to File – Saves alert data to a CSV file before it is deleted from the database. On
   clicking Start, the Save As window appears. Specify a file name and location; the default name is
   “Alerts*Backup*[date]\_[timestamp]”. Then click Save.

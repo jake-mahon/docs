@@ -13,8 +13,8 @@ name, description, state, and change history.
 
 The **Authentication** tab enables you to specify additional authorization for the integration:
 
-![Integration record example](../../../static/img/product_docs/strongpointfornetsuite/customizations/integration_record.webp)
+![Integration record example](/img/product_docs/strongpointfornetsuite/customizations/integration_record.webp)
 
 When you make changes to this record, a change log is created. Here is an example:
 
-![Access token change log](../../../static/img/product_docs/strongpointfornetsuite/customizations/access_token_change_log.webp)
+![Access token change log](/img/product_docs/strongpointfornetsuite/customizations/access_token_change_log.webp)

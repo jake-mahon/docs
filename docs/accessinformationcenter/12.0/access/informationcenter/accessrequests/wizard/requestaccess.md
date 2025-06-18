@@ -2,7 +2,7 @@
 
 The Request Access wizard is opened with the **Request Access** button in the Your Access portal.
 
-![Request Access Wizard Select Resource page](../../../../../../../static/img/product_docs/accessinformationcenter/access/informationcenter/accessrequests/wizard/selectresource.webp)
+![Request Access Wizard Select Resource page](/img/product_docs/accessinformationcenter/access/informationcenter/accessrequests/wizard/selectresource.webp)
 
 It contains two pages:
 
@@ -21,7 +21,7 @@ Follow the steps to submit a resource request.
 
 **Step 1 –** In the Your Access portal, click **Request Access**. The Request Access wizard opens.
 
-![Request Access Wizard Select Resource page](../../../../../../../static/img/product_docs/accessinformationcenter/access/informationcenter/accessrequests/wizard/selectresource.webp)
+![Request Access Wizard Select Resource page](/img/product_docs/accessinformationcenter/access/informationcenter/accessrequests/wizard/selectresource.webp)
 
 **Step 2 –** On the Select Resource page, locate the desired resources using the Search Catalog and
 browse options.
@@ -61,14 +61,14 @@ indicated by the green plus (+) button, click the button to rotate through and s
 access level. Multiple resources can be selected using ether the Ctrl or Shift key with mouse click
 combinations. Click **Add** to place a selected resource into your list.
 
-![Selected Resources Window](../../../../../../../static/img/product_docs/accessinformationcenter/access/informationcenter/accessrequests/wizard/selectedresources.webp)
+![Selected Resources Window](/img/product_docs/accessinformationcenter/access/informationcenter/accessrequests/wizard/selectedresources.webp)
 
 **Step 4 –** Use the **View Selections** button to open the Selected Resources window. If an extra
 resource is in your list, select it and click **Remove**. Click **OK** to close the window.
 
 **Step 5 –** When you selection list is set as desired, click **Next**.
 
-![Request Access wizard Add Notes page](../../../../../../../static/img/product_docs/accessinformationcenter/access/informationcenter/accessrequests/wizard/addnotes.webp)
+![Request Access wizard Add Notes page](/img/product_docs/accessinformationcenter/access/informationcenter/accessrequests/wizard/addnotes.webp)
 
 **Step 6 –** On the Add Notes page, enter the following information:
 
@@ -83,7 +83,7 @@ resource is in your list, select it and click **Remove**. Click **OK** to close
 
 **Step 7 –** Click **Next** and the Access Information Center starts the action.
 
-![Request Access wizard request sent message](../../../../../../../static/img/product_docs/threatprevention/threatprevention/install/reportingmodule/completed.webp)
+![Request Access wizard request sent message](/img/product_docs/threatprevention/threatprevention/install/reportingmodule/completed.webp)
 
 **Step 8 –** The action status displays on the page. When the action has completed (100%), click
 **Finish**. The Request Access wizard closes.
@@ -91,7 +91,7 @@ resource is in your list, select it and click **Remove**. Click **OK** to close
 The Access Information Center sends an email to the owner containing the note you supplied. You also
 receive an email about the pending request. The access request is pending until the owner approves
 or denies it. You can check on the status of your request on the
-[Request History Page](../youraccessportal/requesthistory.md).
+[Request History Page](/docs/accessinformationcenter/12.0/access/informationcenter/accessrequests/youraccessportal/requesthistory.md).
 
 When the request has been processed by the owner, you will be notified via email. See the
-[Access Request Updated Email](../email/updated.md) topic for additional information.
+[Access Request Updated Email](/docs/accessinformationcenter/12.0/access/informationcenter/accessrequests/email/updated.md) topic for additional information.

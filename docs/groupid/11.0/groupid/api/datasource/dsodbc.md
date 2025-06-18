@@ -45,7 +45,7 @@ an ODBC-compatible provider.
 
 #### Sample Request Syntax
 
-[Copy](<javascript:void(0);>)
+[Copy](javascript:void(0);)
 
 ```
 {

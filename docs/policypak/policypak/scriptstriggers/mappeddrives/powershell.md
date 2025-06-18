@@ -6,7 +6,7 @@ need to receive the drive mapping.
 **Step 2 –** Edit the GPO and expand the User Configuration > Netwrix Endpoint Policy Manager
 (formerly PolicyPak) > Scripts Manager Section.
 
-![216_1_image-20200220185019-1](../../../../../static/img/product_docs/policypak/policypak/scriptstriggers/mappeddrives/216_1_image-20200220185019-1.webp)
+![216_1_image-20200220185019-1](/img/product_docs/policypak/policypak/scriptstriggers/mappeddrives/216_1_image-20200220185019-1.webp)
 
 **Step 3 –** With the Scripts Manager section selected click "ADD NEW COLLECTION" then give the
 collection a descriptive name, and click OK.
@@ -16,7 +16,7 @@ double-click on the collection name to open the collection.
 
 **Step 5 –** With the collection name selected click "ADD NEW POLICY".
 
-![216_3_image-20200220185019-2](../../../../../static/img/product_docs/policypak/policypak/scriptstriggers/mappeddrives/216_3_image-20200220185019-2.webp)
+![216_3_image-20200220185019-2](/img/product_docs/policypak/policypak/scriptstriggers/mappeddrives/216_3_image-20200220185019-2.webp)
 
 **Step 6 –** Click Next to get to the "On apply action" screen, then choose "PowerShell script" from
 the dropdown menu.
@@ -34,7 +34,7 @@ replace \\server\share with the UNC path of the share you wish to map.
 
 The "On apply action" screen should look similar to below:
 
-![216_5_image-20200220185019-3](../../../../../static/img/product_docs/policypak/policypak/scriptstriggers/mappeddrives/216_5_image-20200220185019-3.webp)
+![216_5_image-20200220185019-3](/img/product_docs/policypak/policypak/scriptstriggers/mappeddrives/216_5_image-20200220185019-3.webp)
 
 **Step 8 –** Then click Next, then Next again (skipping the "On revert action"screen) until you get
 to the "Specify process mode" screen. Ensure that the "Always" radio button is selected then click
@@ -44,7 +44,7 @@ Next, give the policy a descriptive name, then click Finish.
 from the (User) OU or Domain where this GPO is linked then run `"gpupdate"`, afterward open File
 Explorer and verify that you see the new drive mapping.
 
-![216_7_image-20200220185019-9](../../../../../static/img/product_docs/policypak/policypak/scriptstriggers/mappeddrives/216_7_image-20200220185019-9.webp)
+![216_7_image-20200220185019-9](/img/product_docs/policypak/policypak/scriptstriggers/mappeddrives/216_7_image-20200220185019-9.webp)
 
 **NOTE:** If using Endpoint Policy Manager Scripts Manager VPN Triggers to map drives on VPN connect
 you may need to add a delay to allow DNS to be updated before the drives are mapped, (i.e. to wait
@@ -54,4 +54,4 @@ If you do not see the drive mapping in File Explorer but can see the drive mapp
 Use" from the CMD prompt try enabling the "Launch folder windows in a separate process" option (see
 image below) to see if that resolves the issue.
 
-![216_9_image-20210204105234-1](../../../../../static/img/product_docs/policypak/policypak/scriptstriggers/mappeddrives/216_9_image-20210204105234-1.webp)
+![216_9_image-20210204105234-1](/img/product_docs/policypak/policypak/scriptstriggers/mappeddrives/216_9_image-20210204105234-1.webp)

@@ -5,7 +5,7 @@ Azure tenant. This job produces a host list containing the storage accounts to t
 Files scans.
 
 You can add this job from the Access Analyzer Instant Job Library. See the
-[Instant Job Wizard](../../../admin/jobs/instantjobs/overview.md) topic for additional information.
+[Instant Job Wizard](/docs/accessanalyzer/12.0/admin/jobs/instantjobs/overview.md) topic for additional information.
 
 Before running the FS_AzureTenantScan job, you must ensure all the below prerequisites have been
 met, and that the required host list and connection profile have been assigned to the job.
@@ -51,17 +51,17 @@ The host list must target the Azure tenant name. For example, `YourTenantName.on
 
 The FS_AzureTenantScan job requires a connection profile with the following user credentials:
 
-![User Credentials for FS_AzureTenantScan job](../../../../../../static/img/product_docs/accessanalyzer/solutions/filesystem/collection/azuretenantscanusercredentials.webp)
+![User Credentials for FS_AzureTenantScan job](/img/product_docs/accessanalyzer/solutions/filesystem/collection/azuretenantscanusercredentials.webp)
 
 - Select Account Type – Azure Active Directory
 - Client ID – Application ID for the app registration created in Azure that is assigned to your
   desired resource group
 - Password Storage – Application (Uses the configured Profile Security setting as selected at the
   **Settings** > **Application** node. See the
-  [Application](../../../admin/settings/application/overview.md) topic for additional information.)
+  [Application](/docs/accessanalyzer/12.0/admin/settings/application/overview.md) topic for additional information.)
 - Key – Client secret value for the app registration
 
-See the [Connection](../../../admin/settings/connection/overview.md) topic for additional
+See the [Connection](/docs/accessanalyzer/12.0/admin/settings/connection/overview.md) topic for additional
 information.
 
 ## Query for the FS_AzureTenantScan Job
@@ -71,7 +71,7 @@ Scan and import category.
 
 **CAUTION:** Do not modify the query. The query is preconfigured for this job.
 
-![Query for the FS_AzureTenantScan Job](../../../../../../static/img/product_docs/accessanalyzer/solutions/filesystem/collection/azuretenantscanquery.webp)
+![Query for the FS_AzureTenantScan Job](/img/product_docs/accessanalyzer/solutions/filesystem/collection/azuretenantscanquery.webp)
 
 The job has the following query:
 

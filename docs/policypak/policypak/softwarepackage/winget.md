@@ -9,7 +9,7 @@ do. Simply have the latest Netwrix Endpoint Policy Manager (formerly PolicyPak) 
 you're ready to go. You can verify this by opening any command prompt and typing Winget.  If Winget
 returns with its help text, you're ready to go.
 
-![820_1_image-20230824192325-1_950x534](../../../../static/img/product_docs/policypak/policypak/softwarepackage/820_1_image-20230824192325-1_950x534.webp)
+![820_1_image-20230824192325-1_950x534](/img/product_docs/policypak/policypak/softwarepackage/820_1_image-20230824192325-1_950x534.webp)
 
 However, Winget is not present on Windows Servers, which you may be using as your Group Policy
 Object creation / management station. As such you might wish to install Winget on a server to then
@@ -31,8 +31,8 @@ installs Chocolaty on your server.
 
 **Step 2 –** Run the command  `choco install winget-cli`
 
-![820_2_image-20230824192325-2_950x262](../../../../static/img/product_docs/policypak/policypak/softwarepackage/820_2_image-20230824192325-2_950x262.webp)
+![820_2_image-20230824192325-2_950x262](/img/product_docs/policypak/policypak/softwarepackage/820_2_image-20230824192325-2_950x262.webp)
 
-![820_3_image-20230824192325-3_950x265](../../../../static/img/product_docs/policypak/policypak/softwarepackage/820_3_image-20230824192325-3_950x265.webp)
+![820_3_image-20230824192325-3_950x265](/img/product_docs/policypak/policypak/softwarepackage/820_3_image-20230824192325-3_950x265.webp)
 
-![820_4_image-20230824192325-4_950x521](../../../../static/img/product_docs/policypak/policypak/softwarepackage/820_4_image-20230824192325-4_950x521.webp)
+![820_4_image-20230824192325-4_950x521](/img/product_docs/policypak/policypak/softwarepackage/820_4_image-20230824192325-4_950x521.webp)

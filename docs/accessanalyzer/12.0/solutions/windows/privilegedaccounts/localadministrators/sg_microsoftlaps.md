@@ -4,7 +4,7 @@ The SG_MicrosoftLAPS job assesses the Local Administrator Password Solution (LAP
 all targeted hosts. This offers insight into LAPS enablement and configuration across an
 environment. LAPS allows for centralized local administrator password management within Active
 Directory. See the Microsoft
-[Local Administrator Password Solution](<https://learn.microsoft.com/en-us/previous-versions/mt227395(v=msdn.10)>)
+[Local Administrator Password Solution](https://learn.microsoft.com/en-us/previous-versions/mt227395(v=msdn.10))
 article for additional information.
 
 ## Queries for the SG_MicrosoftLAPS Job
@@ -13,7 +13,7 @@ The SG_MicrosoftLAPS job uses the Registry Data Collector for the following quer
 
 **CAUTION:** The query is preconfigured for this job. Never modify the query.
 
-![Queries for the SG_MicrosoftLAPS Job](../../../../../../../static/img/product_docs/accessanalyzer/solutions/windows/privilegedaccounts/localadministrators/microsoftlapsquery.webp)
+![Queries for the SG_MicrosoftLAPS Job](/img/product_docs/accessanalyzer/solutions/windows/privilegedaccounts/localadministrators/microsoftlapsquery.webp)
 
 The query for the SG_MicrosoftLAPS job is:
 
@@ -27,7 +27,7 @@ Navigate to the **Windows** > **Privileged Accounts** > **Local Administrators**
 **CAUTION:** Do not modify or deselect the selected analysis task. The analysis task is
 preconfigured for this job.
 
-![Analysis Tasks for the SG_MicrosoftLAPS Job](../../../../../../../static/img/product_docs/accessanalyzer/solutions/windows/privilegedaccounts/localadministrators/microsoftlapsanalysis.webp)
+![Analysis Tasks for the SG_MicrosoftLAPS Job](/img/product_docs/accessanalyzer/solutions/windows/privilegedaccounts/localadministrators/microsoftlapsanalysis.webp)
 
 The default analysis task is:
 

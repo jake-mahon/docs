@@ -80,6 +80,6 @@ mailboxes that you wish to crawl. This requires the setup of two permissions:
 If you plan to implement the scenario that involves modern authentication, you should do the
 following:
 
-1. [Create Azure AD app for Modern Authentication](azureappexchangeonlinemfa.md)
-2. Configure [Exchange Server](../../admin/sources/exchangemailbox/exchangeserver.md) source
+1. [Create Azure AD app for Modern Authentication](/docs/dataclassification/5.7/ndc/configuration/configinfrastructure/azureappexchangeonlinemfa.md)
+2. Configure [Exchange Server](/docs/dataclassification/5.7/ndc/admin/sources/exchangemailbox/exchangeserver.md) source
    settings.

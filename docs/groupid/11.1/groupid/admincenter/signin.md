@@ -17,7 +17,7 @@ Use any of the following methods to connect and sign in:
     NOTE: To sign in using the Directory Manager provider, enter the username and password you
     provided for the _GroupID administrator_ on the Service Account Settings page of the
     Configuration Tool. See the
-    [Configure a New Directory Manager Server with a New or an Existing Database](../install/configure/gidserver.md)
+    [Configure a New Directory Manager Server with a New or an Existing Database](/docs/groupid/11.1/groupid/install/configure/gidserver.md)
     topic.
 
 - Select an identity store and sign in using a SAML provider. This option is available if a SAML
@@ -64,8 +64,8 @@ You can opt for single sign-on across all Directory Manager clients, provided th
 is configured with Directory Manager. See the following topics for additional information on the
 SAML provider configuration:
 
-- [Configure Directory Manager in Microsoft Entra ID for SSO](../authenticate/asserviceprovider/entrasso/configureinentra.md)
-- [Configure the Microsoft Entra SSO Application in Directory Manager](../authenticate/asserviceprovider/entrasso/configureprovideringroupid.md)
+- [Configure Directory Manager in Microsoft Entra ID for SSO](/docs/groupid/11.1/groupid/authenticate/asserviceprovider/entrasso/configureinentra.md)
+- [Configure the Microsoft Entra SSO Application in Directory Manager](/docs/groupid/11.1/groupid/authenticate/asserviceprovider/entrasso/configureprovideringroupid.md)
 
 On the **GroupID Authenticate** page, click the button or image for the provider and proceed to sign
 in.
@@ -84,11 +84,11 @@ For second factor authentication, one of the following applies:
 
 - If you have not enrolled your identity store account in Directory Manager, the Enroll Account page
   is displayed. You must enroll using at least one authentication type. See the
-  [Enroll your Identity Store Account](enroll.md) topic.
+  [Enroll your Identity Store Account](/docs/groupid/11.1/groupid/admincenter/enroll.md) topic.
 - If you have already enrolled your identity store account in Directory Manager, the Authenticate
   page is displayed. It lists the authentication type(s) your account is enrolled with. Select an
   authentication type to authenticate. See the
-  [Authenticate your Identity Store Account](authenticate.md) topic.
+  [Authenticate your Identity Store Account](/docs/groupid/11.1/groupid/admincenter/authenticate.md) topic.
 
 ## Sign Out
 
@@ -103,6 +103,6 @@ Directory Manager version.
 
 See Also
 
-- [Getting Started](../gettingstarted.md)
-- [Dashboard](general/dashboard.md)
-- [Navigation](general/navigation.md)
+- [Getting Started](/docs/groupid/11.1/groupid/gettingstarted.md)
+- [Dashboard](/docs/groupid/11.1/groupid/admincenter/general/dashboard.md)
+- [Navigation](/docs/groupid/11.1/groupid/admincenter/general/navigation.md)

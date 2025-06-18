@@ -21,8 +21,8 @@ Agent server back to the Access Analyzer Console server.
 
 See the following topics for additional information:
 
-- [SharePoint Agent Permissions](agentpermissions.md)
-- [SharePoint Agent Ports](agentports.md)
+- [SharePoint Agent Permissions](/docs/accessanalyzer/12.0/requirements/solutions/sharepoint/agentpermissions.md)
+- [SharePoint Agent Ports](/docs/accessanalyzer/12.0/requirements/solutions/sharepoint/agentports.md)
 
 ## Agent-Less Type
 
@@ -39,10 +39,10 @@ See the following topics for additional information:
 
 - SharePoint Online
 
-    - [SharePoint Online Permissions](onlinepermissions.md)
-    - [SharePoint Online Ports](onlineports.md)
+    - [SharePoint Online Permissions](/docs/accessanalyzer/12.0/requirements/solutions/sharepoint/onlinepermissions.md)
+    - [SharePoint Online Ports](/docs/accessanalyzer/12.0/requirements/solutions/sharepoint/onlineports.md)
 
 - SharePoint On-Premise
 
-    - [SharePoint Agent-Less Permissions](agentlesspermissions.md)
-    - [SharePoint Agent-Less Ports](agentlessports.md)
+    - [SharePoint Agent-Less Permissions](/docs/accessanalyzer/12.0/requirements/solutions/sharepoint/agentlesspermissions.md)
+    - [SharePoint Agent-Less Ports](/docs/accessanalyzer/12.0/requirements/solutions/sharepoint/agentlessports.md)

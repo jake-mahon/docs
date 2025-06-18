@@ -89,7 +89,7 @@ it, you must enable one or more authentication types.
 
     NOTE: If an SMTP server is not defined for the identity store, **Configure Now** is displayed in
     place of the toggle button. Click it to go to the **Notifications** page for configuring an SMTP
-    server. See the [Configure an SMTP Server](../smtpserver.md) topic.
+    server. See the [Configure an SMTP Server](/docs/groupid/11.1/groupid/admincenter/identitystore/configure/smtpserver.md) topic.
 
 5. In the **Email Attribute** drop-down list, select an attribute that stores email addresses in the
    directory.  
@@ -119,6 +119,6 @@ type(s) they want to use for authentication.
 
 **See Also**
 
-- [Authentication Policy](../authpolicy.md)
-- [Configure an SMTP Server](../smtpserver.md)
-- [SMS Gateway](../../../smsgateway/overview.md)
+- [Authentication Policy](/docs/groupid/11.1/groupid/admincenter/identitystore/configure/authpolicy.md)
+- [Configure an SMTP Server](/docs/groupid/11.1/groupid/admincenter/identitystore/configure/smtpserver.md)
+- [SMS Gateway](/docs/groupid/11.1/groupid/admincenter/smsgateway/overview.md)

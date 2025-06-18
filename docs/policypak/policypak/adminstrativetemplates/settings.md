@@ -4,7 +4,7 @@ Netwrix Endpoint Policy Manager (formerly PolicyPak) Admin Templates Manager del
 Group Policy Admin Template settings (User side or Computer side) to your Windows users and
 machines.
 
-![688_1_ppatm-gpme-user_400x1188](../../../../static/img/product_docs/policypak/policypak/adminstrativetemplates/688_1_ppatm-gpme-user_400x1188.webp)
+![688_1_ppatm-gpme-user_400x1188](/img/product_docs/policypak/policypak/adminstrativetemplates/688_1_ppatm-gpme-user_400x1188.webp)
 
 The Administrative Templates for the User Configuration settings contains the following:
 
@@ -15,7 +15,7 @@ The Administrative Templates for the User Configuration settings contains the fo
 - System
 - Windows Components
 
-![688_2_ppatm-gpme-comp_400x1180](../../../../static/img/product_docs/policypak/policypak/adminstrativetemplates/688_2_ppatm-gpme-comp_400x1180.webp)
+![688_2_ppatm-gpme-comp_400x1180](/img/product_docs/policypak/policypak/adminstrativetemplates/688_2_ppatm-gpme-comp_400x1180.webp)
 
 The Administrative Templates for the Computer Configuration settings contains the following:
 

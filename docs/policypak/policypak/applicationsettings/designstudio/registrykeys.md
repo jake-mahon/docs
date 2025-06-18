@@ -5,7 +5,7 @@ capture. In the example in Figure 159, the "Mute Yahoo! Games" setting is discov
 application's registry keys of the specific user (JeremyM) where the capture was performed. The
 discovered key is within `\Profiles\JeremyM\Games`.
 
-![applying_settings_within_multiple](../../../../../static/img/product_docs/policypak/policypak/applicationsettings/designstudio/applying_settings_within_multiple.webp)
+![applying_settings_within_multiple](/img/product_docs/policypak/policypak/applicationsettings/designstudio/applying_settings_within_multiple.webp)
 
 Figure 159. Capturing a setting.
 
@@ -17,7 +17,7 @@ registry with another user, JeremyM200, logged in using this application. This u
 new setting would be `\Profiles\JeremyM200\Games\`. The original path would be
 `\Profiles\JeremyM\Games`.
 
-![applying_settings_within_multiple_1](../../../../../static/img/product_docs/policypak/policypak/applicationsettings/designstudio/applying_settings_within_multiple_1.webp)
+![applying_settings_within_multiple_1](/img/product_docs/policypak/policypak/applicationsettings/designstudio/applying_settings_within_multiple_1.webp)
 
 Figure 160. The user's path to the mute setting.
 
@@ -25,7 +25,7 @@ To teach DesignStudio to globally replace "JeremyM" with whatever is inside "pro
 an asterisk for the username, as shown in Figure 161. This will perform a special global replace
 operation on all subkeys within this application's "profiles" key.
 
-![applying_settings_within_multiple_2](../../../../../static/img/product_docs/policypak/policypak/applicationsettings/designstudio/applying_settings_within_multiple_2.webp)
+![applying_settings_within_multiple_2](/img/product_docs/policypak/policypak/applicationsettings/designstudio/applying_settings_within_multiple_2.webp)
 
 Figure 161. Replacing the username with an asterisk.
 

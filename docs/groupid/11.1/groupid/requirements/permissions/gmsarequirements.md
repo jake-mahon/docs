@@ -53,4 +53,4 @@ NOTE: Restart the Directory Manager server if you apply any of the above.
 
 **See Also**
 
-- [Manage an Identity Store](../../admincenter/identitystore/manage.md)
+- [Manage an Identity Store](/docs/groupid/11.1/groupid/admincenter/identitystore/manage.md)

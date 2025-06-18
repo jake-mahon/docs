@@ -33,7 +33,7 @@ To create an approved change request:
 4. **Save** the Change Request.
 5. The Approval section is now available. Click **Edit** to add **Additional Approvers** or
    **Approver Notes**. Click **Save** if you make changes. Refer to
-   [Create a Change Request](../change_management/creating_change_request.md) for more details about
+   [Create a Change Request](/docs/strongpointfornetsuite/change_management/creating_change_request.md) for more details about
    the status bar.
 
 The violation clears in the employee record after the approved Change Request is saved.

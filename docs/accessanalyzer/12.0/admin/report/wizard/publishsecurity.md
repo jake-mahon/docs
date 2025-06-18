@@ -4,10 +4,10 @@ The Publish Security page of the Report Configuration wizard contains the accoun
 with inherited permissions to view the generated report.
 
 **NOTE:** This page is only enabled if Role Based Access is configured for the Access Analyzer
-Console. See the [Role Based Access](../../settings/access/rolebased/overview.md) topic for
+Console. See the [Role Based Access](/docs/accessanalyzer/12.0/admin/settings/access/rolebased/overview.md) topic for
 additional information.
 
-![Publish Security page](../../../../../../static/img/product_docs/accessanalyzer/admin/report/wizard/publishsecurity.webp)
+![Publish Security page](/img/product_docs/accessanalyzer/admin/report/wizard/publishsecurity.webp)
 
 Roles assigned at the global level are inherited down to the report configuration. Additional report
 viewer privileges can also be added at the job group or job levels.
@@ -21,12 +21,12 @@ steps to add an account.
 
 **Step 1 –** Click **Add**.
 
-![Select User, Service Account, or Group window](../../../../../../static/img/product_docs/accessanalyzer/admin/report/wizard/addreportviewer.webp)
+![Select User, Service Account, or Group window](/img/product_docs/accessanalyzer/admin/report/wizard/addreportviewer.webp)
 
 **Step 2 –** On the Select User, Service Account or Group window, select the desired account and
 then click **OK**.
 
-![Report Viewer user added in wizard](../../../../../../static/img/product_docs/accessanalyzer/admin/report/wizard/reportviewer.webp)
+![Report Viewer user added in wizard](/img/product_docs/accessanalyzer/admin/report/wizard/reportviewer.webp)
 
 The selected account is added to the list with a Role of Report Viewer.
 

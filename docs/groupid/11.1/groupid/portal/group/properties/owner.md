@@ -13,7 +13,7 @@ group.
  If you specify a group, all its members are considered additional owners.
 
 You can also specify Exchange additional owners for the group. See the
-[Group properties - Email tab](email.md) in group properties.
+[Group properties - Email tab](/docs/groupid/11.1/groupid/portal/group/properties/email.md) in group properties.
 
 NOTE: 1. For groups in an Microsoft Entra ID based identity store, only users can be set as primary
 owners. Moreover, Microsoft Entra ID supports multiple primary owners for a group. Exchange
@@ -25,7 +25,7 @@ additional owners are not supported.
 The primary owner of the group.
 
 To change the primary owner, click **Browse** next to the **Owner** box to launch the
-[Find Dialog Box](../../search/find.md), where you can search and select a primary owner.
+[Find Dialog Box](/docs/groupid/11.1/groupid/portal/search/find.md), where you can search and select a primary owner.
 
 If the administrator has not enforced the selection of a primary owner in the Group Owner policy,
 you can also remove the primary owner. Click the **Remove** button next to the **Owner** box to
@@ -81,13 +81,13 @@ not run on the particular days for temporary ownership update.
 To specify additional owner(s) for the group, click **Add**.
 
 Enter a search string to locate the object to add as an additional owner, or click **Advance** to
-use the [Find Dialog Box](../../search/find.md) for performing a search.
+use the [Find Dialog Box](/docs/groupid/11.1/groupid/portal/search/find.md) for performing a search.
 
 **Import**
 
 You can also specify additional owners for the group using an external file. Click **Import** to
 launch the **Import Additional Owners** wizard for importing additional owners. See
-[Import Additional Owners](importadditionalowners.md) for further information and instructions.
+[Import Additional Owners](/docs/groupid/11.1/groupid/portal/group/properties/importadditionalowners.md) for further information and instructions.
 
 **Export**
 
@@ -96,7 +96,7 @@ You can export the list of additional owners to an external file. Supported file
 
 Click **Export** to launch the **Export Additional Owners** wizard for exporting additional owners.
 Select the attributes you want to export. For information and instructions, see
-[Export additional owners](../manage/groupownershipfunction.md#export-additional-owners).
+[Export additional owners](/docs/groupid/11.1/groupid/portal/group/manage/groupownershipfunction.md#export-additional-owners).
 
 **Remove**
 

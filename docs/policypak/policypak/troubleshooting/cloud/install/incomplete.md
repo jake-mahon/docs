@@ -15,7 +15,7 @@ As the PPC Client is already downloaded, it's the CSE that would be the issue he
 indication something is wrong when the Installation complete. You may end up with a message
 something like this:
 
-![968_1_image-20230925200947-1](../../../../../../static/img/product_docs/policypak/policypak/troubleshooting/cloud/install/968_1_image-20230925200947-1.webp)
+![968_1_image-20230925200947-1](/img/product_docs/policypak/policypak/troubleshooting/cloud/install/968_1_image-20230925200947-1.webp)
 
 Note missing group membership.
 
@@ -78,5 +78,5 @@ September or October 2023.
 __NOTE:__  If you have a slow connection on the endpoint, the CSE can be
 downloaded from our customer portal and pre-installed. Please refer to the following KB article ->
 
-[How can I best install Endpoint Policy Manager Cloud for remote clients over a slow link/internet connection?](../../../install/cloud/slowinternet.md)
+[How can I best install Endpoint Policy Manager Cloud for remote clients over a slow link/internet connection?](/docs/policypak/policypak/install/cloud/slowinternet.md)
 ````

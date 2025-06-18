@@ -3,7 +3,7 @@
 The EX_RPCTraffic job provides visibility into Outlook Anywhere or RPC\HTTPs Traffic in the
 organization.
 
-![Outlook Anywhere > EX_RPCTraffic Job in the Jobs Tree](../../../../../../static/img/product_docs/accessanalyzer/solutions/exchange/casmetrics/outlookanywherejobstree.webp)
+![Outlook Anywhere > EX_RPCTraffic Job in the Jobs Tree](/img/product_docs/accessanalyzer/solutions/exchange/casmetrics/outlookanywherejobstree.webp)
 
 The EX_RPCTraffic job is located in the Outlook Anywhere job group.
 
@@ -15,7 +15,7 @@ Anywhere** > **EX_RPCTraffic** > **Configure** node and select **Analysis**.
 **CAUTION:** Do not modify or deselect the selected analysis tasks. The analysis tasks are
 preconfigured for this job.
 
-![Analysis Tasks for the EX_RPCTraffic Job](../../../../../../static/img/product_docs/accessanalyzer/solutions/exchange/casmetrics/rpctrafficanalysis.webp)
+![Analysis Tasks for the EX_RPCTraffic Job](/img/product_docs/accessanalyzer/solutions/exchange/casmetrics/rpctrafficanalysis.webp)
 
 The following analysis tasks are selected by default:
 
@@ -31,7 +31,7 @@ The following analysis tasks are selected by default:
 
     - The default is 6 months. It can be modified.
     - See the
-      [Exchange History Retention](../hubmetrics/collection/ex_metricscollection.md#exchange-history-retention)
+      [Exchange History Retention](/docs/accessanalyzer/12.0/solutions/exchange/hubmetrics/collection/ex_metricscollection.md#exchange-history-retention)
       topic for additional information
 
 The following analysis tasks deletes table data from data collection and analysis jobs. These
@@ -43,7 +43,7 @@ troubleshooting and cleanup only. Data will be deleted from the database.
 -   0. Delete all History - LEAVE UNCHECKED – Clears all historical data
 
     - See the
-      [Troubleshooting Data Collection](../hubmetrics/collection/ex_metricscollection.md#troubleshooting-data-collection)
+      [Troubleshooting Data Collection](/docs/accessanalyzer/12.0/solutions/exchange/hubmetrics/collection/ex_metricscollection.md#troubleshooting-data-collection)
       topic for additional information
 
 In addition to the tables and views created by the analysis tasks, the EX_RPCTraffic Job produces

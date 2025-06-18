@@ -12,7 +12,7 @@ Use this page to specify basic information about the group.
    name for the group.
 
     NOTE: The prefix box is displayed if the administrator has defined the prefixes. See the
-    [Group Name Prefixes](../../../../admincenter/identitystore/configure/directoryservice/prefixes.md)
+    [Group Name Prefixes](/docs/groupid/11.1/groupid/admincenter/identitystore/configure/directoryservice/prefixes.md)
     topic for additional information.  
      These prefixes, when appended to group names, help standardize the group naming convention
     across the enterprise.

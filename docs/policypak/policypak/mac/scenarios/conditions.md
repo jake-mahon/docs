@@ -5,7 +5,7 @@ To make a match you need to match one or more Conditions: Path, Hash or Signatur
 ![A screenshot of a computer
 
 Description automatically
-generated](../../../../../static/img/product_docs/policypak/policypak/mac/scenarios/conditions_1.webp)
+generated](/img/product_docs/policypak/policypak/mac/scenarios/conditions_1.webp)
 
 - Path – The name of the file and/or the location. This is the least secure method so use it with
   caution. You may also provide a folder or folder recursively.
@@ -17,18 +17,18 @@ You can see the dialogs for Path, Hash and Signature condition here:
 ![A screenshot of a computer
 
 Description automatically
-generated](../../../../../static/img/product_docs/policypak/policypak/mac/scenarios/conditions_2.webp)
+generated](/img/product_docs/policypak/policypak/mac/scenarios/conditions_2.webp)
 
 To acquire the Path, you may use the Finder.
 
-![conditions_3](../../../../../static/img/product_docs/policypak/policypak/mac/scenarios/conditions_3.webp)
+![conditions_3](/img/product_docs/policypak/policypak/mac/scenarios/conditions_3.webp)
 
 To acquirethe application's Hash or Signature, you can use the `ppfileinfo` tool:
 
 ![A computer screen with white text
 
 Description automatically
-generated](../../../../../static/img/product_docs/policypak/policypak/mac/scenarios/conditions_4.webp)
+generated](/img/product_docs/policypak/policypak/mac/scenarios/conditions_4.webp)
 
 Actions:
 
@@ -41,7 +41,7 @@ Actions:
 ![A screenshot of a computer
 
 Description automatically
-generated](../../../../../static/img/product_docs/policypak/policypak/mac/scenarios/conditions_5.webp)
+generated](/img/product_docs/policypak/policypak/mac/scenarios/conditions_5.webp)
 
 Additional Approve settings may be:
 
@@ -58,4 +58,4 @@ Teacher2, etc.) to perform the work.
 ![A screenshot of a computer
 
 Description automatically
-generated](../../../../../static/img/product_docs/policypak/policypak/mac/scenarios/conditions_6.webp)
+generated](/img/product_docs/policypak/policypak/mac/scenarios/conditions_6.webp)

@@ -4,14 +4,14 @@ The 7.Certificate Authority job group collects settings, permissions, and config
 Certificate Authorities. It details access rights for the Certificate Authority and reports on
 certificate requests, highlighting any that might expire soon.
 
-![7.Certificate Authority job group in the Jobs tree](../../../../../../static/img/product_docs/accessanalyzer/admin/hostmanagement/jobstree.webp)
+![7.Certificate Authority job group in the Jobs tree](/img/product_docs/accessanalyzer/admin/hostmanagement/jobstree.webp)
 
 The following jobs comprise the job group:
 
-- [Collection > AD_CACollection Job](ad_cacollection.md) – Collects Certificate Authority details
+- [Collection > AD_CACollection Job](/docs/accessanalyzer/12.0/solutions/activedirectory/certificateauthority/ad_cacollection.md) – Collects Certificate Authority details
   and settings for analysis against potential vulnerabilities that exist in Active Directory
   Certificate Services configurations
-- [AD_CertificateAudit Job](ad_certificateaudit.md) – Provides details on access rights to the
+- [AD_CertificateAudit Job](/docs/accessanalyzer/12.0/solutions/activedirectory/certificateauthority/ad_certificateaudit.md) – Provides details on access rights to the
   Certificate Authority
-- [AD_CertificateRequests Job](ad_certificaterequests.md) – Provides details about certificate
+- [AD_CertificateRequests Job](/docs/accessanalyzer/12.0/solutions/activedirectory/certificateauthority/ad_certificaterequests.md) – Provides details about certificate
   requests, and highlights any that are expiring soon

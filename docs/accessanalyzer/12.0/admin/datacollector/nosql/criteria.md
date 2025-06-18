@@ -3,13 +3,13 @@
 The Criteria page is where the criteria to be used for discovering sensitive data is configured. It
 is a wizard page for the category of Sensitive Data Collection.
 
-![NoSQL Data Collector Wizard Criteria page](../../../../../../static/img/product_docs/accessanalyzer/admin/datacollector/ewsmailbox/criteria.webp)
+![NoSQL Data Collector Wizard Criteria page](/img/product_docs/accessanalyzer/admin/datacollector/ewsmailbox/criteria.webp)
 
 The options on the Criteria page are:
 
 - Use Global Criteria Selection – Select this option to inherit sensitive data criteria settings
   from the **Settings** > **Sensitive Data** node. See the
-  [Sensitive Data](../../settings/sensitivedata/overview.md) topic for additional information.
+  [Sensitive Data](/docs/accessanalyzer/12.0/admin/settings/sensitivedata/overview.md) topic for additional information.
 - Use the following selected criteria – Select this option to use the table to select which
   sensitive data criteria to scan for
 
@@ -25,7 +25,7 @@ The table contains the following types of criteria:
 
     Use the Sensitive Data Criteria Editor in **Settings** > **Sensitive Data** to create and edit
     user-defined criteria. See the
-    [Sensitive Data Criteria Editor](../../../sensitivedatadiscovery/criteriaeditor/overview.md)
+    [Sensitive Data Criteria Editor](/docs/accessanalyzer/12.0/sensitivedatadiscovery/criteriaeditor/overview.md)
     topic for additional information.
 
 **NOTE:** Adding unnecessary criteria can adversely impact the scanner performance and can cause the

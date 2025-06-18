@@ -24,7 +24,7 @@ Recipient
 
 Specify an alternate recipient to receive the emails sent to this user.
 
-Click the ellipsis button to launch the [Find Dialog Box](../../../../search/find.md), where you can
+Click the ellipsis button to launch the [Find Dialog Box](/docs/groupid/11.1/groupid/portal/search/find.md), where you can
 search and select the required recipient.
 
 To remove the alternate recipient, click the **Remove** button.

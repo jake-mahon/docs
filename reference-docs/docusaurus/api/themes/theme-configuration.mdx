@@ -9,7 +9,7 @@ toc_max_heading_level: 4
 
 import APITable from '@site/src/components/APITable';
 
-This configuration applies to all [main themes](./overview.mdx).
+This configuration applies to all [main themes](/reference-docs/docusaurus/api/themes/overview.mdx).
 
 ## Common {#common}
 
@@ -160,7 +160,7 @@ export default {
 
 ## Plugins
 
-Our [main themes](./overview.mdx) offer additional theme configuration options for Docusaurus core content plugins.
+Our [main themes](/reference-docs/docusaurus/api/themes/overview.mdx) offer additional theme configuration options for Docusaurus core content plugins.
 
 ### Docs
 
@@ -597,7 +597,7 @@ Accepted fields:
 | `dropdownItemsAfter`          | <code>[LinkLikeItem](#navbar-dropdown)[]</code> | `[]`         | Add additional dropdown items at the end of the dropdown.                                                                                                   |
 | `docsPluginId`                | `string`                                        | `'default'`  | The ID of the docs plugin that the doc versioning belongs to.                                                                                               |
 | `dropdownActiveClassDisabled` | `boolean`                                       | `false`      | Do not add the link active class when browsing docs.                                                                                                        |
-| `versions`                    | `DropdownVersions`                              | `undefined`  | Specify a custom list of versions to include in the dropdown. See [the versioning guide](../../guides/docs/versioning.mdx#docsVersionDropdown) for details. |
+| `versions`                    | `DropdownVersions`                              | `undefined`  | Specify a custom list of versions to include in the dropdown. See [the versioning guide](../../guides/docs/versioning.mdx#docsVersionDropdown))) for details. |
 
 ```mdx-code-block
 </APITable>
@@ -680,7 +680,7 @@ export default {
 
 #### Navbar locale dropdown {#navbar-locale-dropdown}
 
-If you use the [i18n feature](../../i18n/i18n-introduction.mdx), this special navbar item type will render a dropdown with all your site's available locales.
+If you use the [i18n feature](/reference-docs/docusaurus/i18n/i18n-introduction.mdx), this special navbar item type will render a dropdown with all your site's available locales.
 
 The user will be able to switch from one locale to another, while staying on the same page.
 
@@ -729,7 +729,7 @@ export default {
 
 #### Navbar search {#navbar-search}
 
-If you use the [search](../../search.mdx), the search bar will be the rightmost element in the navbar.
+If you use the [search](/reference-docs/docusaurus/search.mdx), the search bar will be the rightmost element in the navbar.
 
 However, with this special navbar item type, you can change the default location.
 
@@ -848,7 +848,7 @@ Accepted fields:
 | `theme`           | `PrismTheme`           | `palenight` | The Prism theme to use for light-theme code blocks.                                                                   |
 | `darkTheme`       | `PrismTheme`           | `palenight` | The Prism theme to use for dark-theme code blocks.                                                                    |
 | `defaultLanguage` | `string`               | `undefined` | The default language to use for code blocks not declaring any explicit language.                                      |
-| `magicComments`   | `MagicCommentConfig[]` | _see below_ | The list of [magic comments](../../guides/markdown-features/markdown-features-code-blocks.mdx#custom-magic-comments). |
+| `magicComments`   | `MagicCommentConfig[]` | _see below_ | The list of [magic comments](../../guides/markdown-features/markdown-features-code-blocks.mdx#custom-magic-comments))). |
 
 ```mdx-code-block
 </APITable>
@@ -895,7 +895,7 @@ export default {
 
 :::note
 
-If you use the line highlighting Markdown syntax, you might need to specify a different highlight background color for the dark mode syntax highlighting theme. Refer to the [docs for guidance](../../guides/markdown-features/markdown-features-code-blocks.mdx#line-highlighting).
+If you use the line highlighting Markdown syntax, you might need to specify a different highlight background color for the dark mode syntax highlighting theme. Refer to the [docs for guidance](../../guides/markdown-features/markdown-features-code-blocks.mdx#line-highlighting))).
 
 :::
 
@@ -1220,13 +1220,13 @@ function ExamplePage() {
 
 ## i18n {#i18n}
 
-Read the [i18n introduction](../../i18n/i18n-introduction.mdx) first.
+Read the [i18n introduction](/reference-docs/docusaurus/i18n/i18n-introduction.mdx) first.
 
 ### Translation files location {#translation-files-location}
 
 - **Base path**: `website/i18n/[locale]/docusaurus-theme-[themeName]`
 - **Multi-instance path**: N/A
-- **JSON files**: extracted with [`docusaurus write-translations`](../../cli.mdx#docusaurus-write-translations-sitedir)
+- **JSON files**: extracted with [`docusaurus write-translations`](../../cli.mdx#docusaurus-write-translations-sitedir)))
 - **Markdown files**: N/A
 
 ### Example file-system structure {#example-file-system-structure}

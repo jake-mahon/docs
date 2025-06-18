@@ -44,4 +44,4 @@ significant cost and slows down innovation.
 It is time to tackle your tech debt and unleash your team’s innovation on the task of delivering
 great solutions to your business.
 
-**Next Technical Debt Topic:** [Managing Orgs in the Real World](tech_debt_managing_orgs.md)
+**Next Technical Debt Topic:** [Managing Orgs in the Real World](/docs/strongpointforsalesforce/tech_debt/tech_debt_managing_orgs.md)

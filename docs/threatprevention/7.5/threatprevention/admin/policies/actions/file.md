@@ -3,12 +3,12 @@
 A File action can output the event data collected by a policy to a log file. Follow the steps to add
 a File action to a policy/template.
 
-![Actions tab - Actions Configurations area](../../../../../../../static/img/product_docs/threatprevention/threatprevention/admin/policies/actions/actionsconfigurationsarea.webp)
+![Actions tab - Actions Configurations area](/img/product_docs/threatprevention/threatprevention/admin/policies/actions/actionsconfigurationsarea.webp)
 
 **Step 1 –** On a policy or template **Actions** tab, click **Add** (+) to open the Add Action
 window.
 
-![Policy > Actions tab > Add Actions window](../../../../../../../static/img/product_docs/threatprevention/threatprevention/admin/policies/actions/addactionwindow.webp)
+![Policy > Actions tab > Add Actions window](/img/product_docs/threatprevention/threatprevention/admin/policies/actions/addactionwindow.webp)
 
 **Step 2 –** In the left pane, select the **File** radio button.
 
@@ -42,7 +42,7 @@ window.
 
 **Step 4 –** Click **Save** to apply changes and close the Add Action window.
 
-![Actions tab - File action created](../../../../../../../static/img/product_docs/threatprevention/threatprevention/admin/policies/actions/fileaction.webp)
+![Actions tab - File action created](/img/product_docs/threatprevention/threatprevention/admin/policies/actions/fileaction.webp)
 
 The Actions tab now displays the configured settings for the specified File action. The action
 configuration can be directly edited through this display as well.

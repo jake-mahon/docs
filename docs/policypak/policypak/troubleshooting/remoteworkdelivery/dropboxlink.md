@@ -15,7 +15,7 @@ Create the policy to be used as a template
 **Step 2 –** Under either Computer or User Configuration, expand "PolicyPak -> App Delivery &
 Patching Pak" and select "Remote Work Delivery Manager"
 
-![800_1_image-20210602100219-1](../../../../../static/img/product_docs/policypak/policypak/troubleshooting/remoteworkdelivery/800_1_image-20210602100219-1.webp)
+![800_1_image-20210602100219-1](/img/product_docs/policypak/policypak/troubleshooting/remoteworkdelivery/800_1_image-20210602100219-1.webp)
 
 **Step 3 –** Add a "New Web Policy"
 
@@ -25,12 +25,12 @@ Patching Pak" and select "Remote Work Delivery Manager"
 this link below can be used.
 [https://z_deleteme.s3.amazonaws.com/7z.msi](https://z_deleteme.s3.amazonaws.com/7z.msi)
 
-![800_2_image-20210602100219-2](../../../../../static/img/product_docs/policypak/policypak/troubleshooting/remoteworkdelivery/800_2_image-20210602100219-2.webp)
+![800_2_image-20210602100219-2](/img/product_docs/policypak/policypak/troubleshooting/remoteworkdelivery/800_2_image-20210602100219-2.webp)
 
 **Step 6 –** On the "Specify the Copy Destination" page, enter in the directory to copy the file to
 and set the file name as it should be for the destination file.
 
-![800_3_image-20210602100219-3](../../../../../static/img/product_docs/policypak/policypak/troubleshooting/remoteworkdelivery/800_3_image-20210602100219-3.webp)
+![800_3_image-20210602100219-3](/img/product_docs/policypak/policypak/troubleshooting/remoteworkdelivery/800_3_image-20210602100219-3.webp)
 
 **Step 7 –** If this an application distribution and installation, fill in the appropriate Post-copy
 and Revert actions
@@ -43,7 +43,7 @@ In this next step we need to grab the XML and manually update it with the correc
 
 **Step 1 –** Export to XML
 
-![800_4_image-20210602100219-4](../../../../../static/img/product_docs/policypak/policypak/troubleshooting/remoteworkdelivery/800_4_image-20210602100219-4.webp)
+![800_4_image-20210602100219-4](/img/product_docs/policypak/policypak/troubleshooting/remoteworkdelivery/800_4_image-20210602100219-4.webp)
 
 **Step 2 –** Open the saved XML file in your text editor
 
@@ -52,11 +52,11 @@ link.
 
 Example:
 
-![800_5_image-20210602100219-5](../../../../../static/img/product_docs/policypak/policypak/troubleshooting/remoteworkdelivery/800_5_image-20210602100219-5.webp)
+![800_5_image-20210602100219-5](/img/product_docs/policypak/policypak/troubleshooting/remoteworkdelivery/800_5_image-20210602100219-5.webp)
 
 TO
 
-![800_6_image-20210602100219-6](../../../../../static/img/product_docs/policypak/policypak/troubleshooting/remoteworkdelivery/800_6_image-20210602100219-6.webp)
+![800_6_image-20210602100219-6](/img/product_docs/policypak/policypak/troubleshooting/remoteworkdelivery/800_6_image-20210602100219-6.webp)
 
 **NOTE:** by default, when you create a DropBox link it ends with [dl=0]. If it does, it must be
 changed it to [dl=1] to work. This would normally be done by the application automatically.
@@ -65,14 +65,14 @@ changed it to [dl=1] to work. This would normally be done by the application aut
 configured within Netwrix Endpoint Policy Manager (formerly PolicyPak) (e.g. destination, afterApply
 (post-copy action) or beforeRevert (revert action), then save the file
 
-![800_7_image-20210602100219-7](../../../../../static/img/product_docs/policypak/policypak/troubleshooting/remoteworkdelivery/800_7_image-20210602100219-7.webp)
+![800_7_image-20210602100219-7](/img/product_docs/policypak/policypak/troubleshooting/remoteworkdelivery/800_7_image-20210602100219-7.webp)
 
 **Step 5 –** If importing back into the same server as the originating template, and the policy
 still exists, on the policy line (usually line 2), find "id" and change at least one of the
 characters, any one of them will do. Endpoint Policy Manager will not allow the policy to be
 imported if a policy already exists with the same ID.
 
-![800_8_image-20210602100219-8](../../../../../static/img/product_docs/policypak/policypak/troubleshooting/remoteworkdelivery/800_8_image-20210602100219-8.webp)
+![800_8_image-20210602100219-8](/img/product_docs/policypak/policypak/troubleshooting/remoteworkdelivery/800_8_image-20210602100219-8.webp)
 
 **Step 6 –** Save and close.
 

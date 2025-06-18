@@ -36,7 +36,7 @@ generic definition is:
 > _The last date the Customization, or the data it contains, was created, changed, accessed,
 > processed or used._
 
-[DLU](../clean_up/date_last_used.md) is calculated differently for each Customization type.
+[DLU](/docs/strongpointforsalesforce/clean_up/date_last_used.md) is calculated differently for each Customization type.
 
 For all clean up activities, consider the following items:
 
@@ -50,14 +50,14 @@ For all clean up activities, consider the following items:
 Like all Salesforce Date fields, DLU can be filtered using relative date formats (typically what you
 will want). You can also filter on specific dates.
 
-![DLU Filter](../../../static/img/product_docs/strongpointforsalesforce/tech_debt/tech_debt_2.webp)
+![DLU Filter](/img/product_docs/strongpointforsalesforce/tech_debt/tech_debt_2.webp)
 
 ## Automated Report Clean Up
 
 The most common unused Customizations are Reports. In most orgs, new Reports are created every day.
 Some are critical to ongoing business processes, others are quick solutions to day-to-day problems.
 These one-time quick reports accumulate in your orgs, causing confusion and inefficiency. Refer to
-[Automated Report Clean Up](../tools/automated_report_clean_up.md) for more details.
+[Automated Report Clean Up](/docs/strongpointforsalesforce/tools/automated_report_clean_up.md) for more details.
 
 Automated Report Clean Up safely archives Reports following the rules and criteria you set up. The
 process is simple:
@@ -122,7 +122,7 @@ the execution history of APEX-related objects.
 **Users referred to in objects**: Fields are not created for everything, but all the metadata is
 available. You can identify users (and other things) referred to in dashboard filters, formula
 fields, SOQL, or even code, by searching the raw XML, JSON or code. The
-[Specific Clean Up Approaches](tech_debt_org_specific_clean_up_approaches.md) section contains
+[Specific Clean Up Approaches](/docs/strongpointforsalesforce/tech_debt/tech_debt_org_specific_clean_up_approaches.md) section contains
 examples.
 
 ### Owners
@@ -137,4 +137,4 @@ cases such as Reports, this is useful to understand who needs to approve a chang
 > change, is to update the Process record, which then updates the owner for all the affected
 > Customizations.
 
-**Next Technical Debt Topic:**[ Org Clean Up Example](tech_debt_org_clean_up_example.md)
+**Next Technical Debt Topic:**[ Org Clean Up Example](/docs/strongpointforsalesforce/tech_debt/tech_debt_org_clean_up_example.md)

@@ -71,7 +71,7 @@ The basic idea is that you put a delay between your rings.
 - Fast Ring (10-50%): 5-day delay.
 - Slow Ring (51-100%): 10-day delay.
 
-![71_1_hfkb-1094-img-01](../../../../static/img/product_docs/policypak/policypak/install/71_1_hfkb-1094-img-01.webp)
+![71_1_hfkb-1094-img-01](/img/product_docs/policypak/policypak/install/71_1_hfkb-1094-img-01.webp)
 
 Microsoft updates can be a little complicated because they also deal with channels, or the types of
 versions you want to install. Additionally, Microsoft's model is more complex than Endpoint Policy
@@ -137,7 +137,7 @@ the latest CSE and/or Cloud Client to opt-in more groups.
 remaining PCs all at once (again, after you've done some pre-testing.)
 
 See the
-[Endpoint Policy Manager Cloud Groups CSE and Cloud Client Small-Scale Testing and Updates](../video/cloud/groups.md) topic
+[Endpoint Policy Manager Cloud Groups CSE and Cloud Client Small-Scale Testing and Updates](/docs/policypak/policypak/video/cloud/groups.md) topic
 for additional information and a video on this process.
 
 ## Recommendations when using Endpoint Policy Manager with your Active Directory: Rings and Rollouts
@@ -203,7 +203,7 @@ of the CSE Auto-Updater. The CSE Auto-Updater will honor one of two types of rin
   you will set your rings apart with number of hours between updates.
 
 See the
-[How can I roll out the latest Endpoint Policy Manager CSE with Active Directory in a controlled manner using Rings ?](ringsupgrade.md) topic
+[How can I roll out the latest Endpoint Policy Manager CSE with Active Directory in a controlled manner using Rings ?](/docs/policypak/policypak/install/ringsupgrade.md) topic
 for additional information.
 
 ### Active Directory Option 3: Using the Built-in Endpoint Policy Manager CSE Update mechanism in an alternate manner.
@@ -230,9 +230,9 @@ Manager Remote Work Delivery Manager. You could create the rings using Active D
 any other targeting, then, shoot down a CSE update to specific machines as you saw fit.
 
 See the
-[How do I use Endpoint Policy Manager Remote Work Delivery Manager to update the Client Side Extension?](../remoteworkdelivery/updateclientsideextension.md)
+[How do I use Endpoint Policy Manager Remote Work Delivery Manager to update the Client Side Extension?](/docs/policypak/policypak/remoteworkdelivery/updateclientsideextension.md)
 and
-[Using Remote Work Delivery Manager to Update the Endpoint Policy Manager Client Side Extension](../video/remoteworkdelivery/updateclientsideextension.md) topics
+[Using Remote Work Delivery Manager to Update the Endpoint Policy Manager Client Side Extension](/docs/policypak/policypak/video/remoteworkdelivery/updateclientsideextension.md) topics
 for additional information.
 
 ## Recommendations when using Endpoint Policy Manager with your MDM: Rings and Rollouts

@@ -2,9 +2,9 @@
 
 The Schedule tab shows the schedule tasks for the resources in the selected protection policy. The
 protection policy schedule is run based on the platform type configuration on the
-[Platforms Page](../../page/platforms/overview.md).
+[Platforms Page](/docs/privilegesecure/4.2/privilegesecure/accessmanagement/admin/policy/page/platforms/overview.md).
 
-![schedule](../../../../../../../../../static/img/product_docs/threatprevention/threatprevention/admin/configuration/databasemaintenance/schedule.webp)
+![schedule](/img/product_docs/threatprevention/threatprevention/admin/configuration/databasemaintenance/schedule.webp)
 
 The Schedule tab has the following features:
 
@@ -16,7 +16,7 @@ The Schedule tab has the following features:
 The table has the following columns:
 
 - Task Name — Displays the name of the scheduled task. See the
-  [Schedule Policies Page](../../page/schedulepolicies.md) topic for additional information.
+  [Schedule Policies Page](/docs/privilegesecure/4.2/privilegesecure/accessmanagement/admin/policy/page/schedulepolicies.md) topic for additional information.
 - Last Run Time — Date timestamp of the previous scheduled task
 - Next Run Time — Date timestamp of the next scheduled task
 - Recurrence — Indicates the scheduled recurrence

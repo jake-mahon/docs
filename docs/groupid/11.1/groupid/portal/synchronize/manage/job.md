@@ -37,7 +37,7 @@ All the jobs that match the specified criterion are displayed.
 ## Open a Job
 
 When you open a job to view or change its settings, the **Edit Job** wizard opens, which is
-virtually identical to the [Create a Job](../job/create.md) wizard.
+virtually identical to the [Create a Job](/docs/groupid/11.1/groupid/portal/synchronize/job/create.md) wizard.
 
 Step 1 – On Directory Manager portal, select **Synchronize** on left pane.
 
@@ -57,7 +57,7 @@ Step 1 – On Directory Manager portal, select **Synchronize** on left pane.
 Step 2 – On the **Synchronize** portal, click **All Jobs**.
 
 Step 3 – In the jobs list, click
-![option](../../../../../../../static/img/product_docs/groupid/groupid/portal/synchronize/manage/option.webp)
+![option](/img/product_docs/groupid/groupid/portal/synchronize/manage/option.webp)
 on the job that you want to run and click **Run**.
 
 Step 4 – If workflow requests are enabled, the request for running the job will go to the approver.
@@ -116,12 +116,12 @@ Step 2 – On Synchronize portal, click **All Jobs**.
 
 Step 3 – Click the **three vertical dots** icon of the job and select **Schedule** from the menu.
 
-It will take you to the **Schedule and Job Notifications** page of [Create a Job](../job/create.md).
+It will take you to the **Schedule and Job Notifications** page of [Create a Job](/docs/groupid/11.1/groupid/portal/synchronize/job/create.md).
 Update the schedule and click **Finish** to save the changes.
 
 ## Pin a Job
 
-To pin a job to the [Dashboard](../dashboard.md) under the pinned job card:
+To pin a job to the [Dashboard](/docs/groupid/11.1/groupid/portal/synchronize/dashboard.md) under the pinned job card:
 
 Step 1 – On Directory Manager portal, select **Synchronize** on left pane.
 
@@ -129,7 +129,7 @@ Step 2 – On Synchronize portal, click **All Jobs**.
 
 Step 3 – Click the **three vertical dots** icon of the job and select **Pin Item** from the menu.
 
-Step 4 – The job is displayed on **My Pinned Jobs** card on the [Dashboard](../dashboard.md).
+Step 4 – The job is displayed on **My Pinned Jobs** card on the [Dashboard](/docs/groupid/11.1/groupid/portal/synchronize/dashboard.md).
 
 ## Save as Template
 

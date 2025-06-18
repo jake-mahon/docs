@@ -7,7 +7,7 @@ Let’s assume you want to view the groups that are similar to Group A. On the *
 in Group A’s properties, six groups that bear the most similarity to Group A will be displayed, with
 the strongest match at the top. It is as:
 
-![similar_groups](../../../../../../../static/img/product_docs/groupid/groupid/admincenter/portal/design/similar_groups.webp)
+![similar_groups](/img/product_docs/groupid/groupid/admincenter/portal/design/similar_groups.webp)
 
 For a similar group, three attributes are displayed:
 
@@ -45,5 +45,5 @@ What do you want to do?
 
 **See Also**
 
-- [Design a Portal with Display Types](../displaytype/overview.md)
-- [Specify Attributes for the Object Card](objectcard.md)
+- [Design a Portal with Display Types](/docs/groupid/11.1/groupid/admincenter/portal/displaytype/overview.md)
+- [Specify Attributes for the Object Card](/docs/groupid/11.1/groupid/admincenter/portal/design/objectcard.md)

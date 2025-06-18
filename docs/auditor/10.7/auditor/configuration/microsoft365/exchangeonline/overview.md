@@ -34,8 +34,8 @@ logging must be enabled for user, shared, equipment, linked, and room mailboxes:
 Perform the following configuration procedures:
 
 - Prepare a Data Collecting Account as described in the
-  [Permissions for Exchange Online Auditing](permissions.md) topic
-- Configure required protocols and ports, as described in the [Exchange Online Ports](ports.md)
+  [Permissions for Exchange Online Auditing](/docs/auditor/10.7/auditor/configuration/microsoft365/exchangeonline/permissions.md) topic
+- Configure required protocols and ports, as described in the [Exchange Online Ports](/docs/auditor/10.7/auditor/configuration/microsoft365/exchangeonline/ports.md)
   topic
 
 ## Monitored Object Types and Attributes

@@ -12,12 +12,12 @@ There is not a direct restore tool for fields, however you can get your archived
    of Accounts.
 4. Click **Select**
 
-    ![importassistant-2](../../../static/img/product_docs/strongpointfornetsuite/clean_up/importassistant-2.webp)
+    ![importassistant-2](/img/product_docs/strongpointfornetsuite/clean_up/importassistant-2.webp)
 
 5. Select your CSV archive file. and click **Open**
 6. Click **Next**
 
-    ![importoptions](../../../static/img/product_docs/strongpointfornetsuite/clean_up/importoptions.webp)
+    ![importoptions](/img/product_docs/strongpointfornetsuite/clean_up/importoptions.webp)
 
 7. Under **Data Handling**, choose **UPDATE**
 8. Click **Next**
@@ -26,19 +26,19 @@ There is not a direct restore tool for fields, however you can get your archived
 11. Under **Your Fields**, select the column from your CSV archive file that you want to restore and
     select the relevant NetSuite Field where you want them restored.
 
-    ![fieldmapping](../../../static/img/product_docs/strongpointfornetsuite/clean_up/fieldmapping.webp)
+    ![fieldmapping](/img/product_docs/strongpointfornetsuite/clean_up/fieldmapping.webp)
 
 12. Click **Next**
 13. Click **Run**
 
-    ![savemapping](../../../static/img/product_docs/strongpointfornetsuite/clean_up/savemapping.webp)
+    ![savemapping](/img/product_docs/strongpointfornetsuite/clean_up/savemapping.webp)
 
     A finished screen appears with a confirmation message and a link to the **Import Job Status**.
 
 14. Click **Import Job Status**.
 
-    ![jobstatus](../../../static/img/product_docs/strongpointfornetsuite/clean_up/jobstatus.webp)
+    ![jobstatus](/img/product_docs/strongpointfornetsuite/clean_up/jobstatus.webp)
 
 15. Click **Refresh** until the import process is completed.
 
-    ![jobstatus-1](../../../static/img/product_docs/strongpointfornetsuite/clean_up/jobstatus-1.webp)
+    ![jobstatus-1](/img/product_docs/strongpointfornetsuite/clean_up/jobstatus-1.webp)

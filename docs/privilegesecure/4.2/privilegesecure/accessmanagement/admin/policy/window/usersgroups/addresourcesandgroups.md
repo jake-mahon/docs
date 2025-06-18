@@ -1,9 +1,9 @@
 # Add Resources and Groups Window
 
 The Add Resources And Groups window provides a list of resources that have been onboarded. Resources
-are onboarded in the [Resources Page](../../page/resources.md).
+are onboarded in the [Resources Page](/docs/privilegesecure/4.2/privilegesecure/accessmanagement/admin/policy/page/resources.md).
 
-![Add resources and rescource groups window](../../../../../../../../../static/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/window/usersgroups/addresourcesandresourcegroups.webp)
+![Add resources and rescource groups window](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/window/usersgroups/addresourcesandresourcegroups.webp)
 
 The window has the following features:
 
@@ -22,7 +22,7 @@ Both tables have the following columns:
 - Checkbox — Check to select one or more items
 - Type — Classification of the activity
 - Name — Displays the name of the resource. Click the link to view additional details. See the
-  [Resources Page](../../page/resources.md) topic for addition information.
+  [Resources Page](/docs/privilegesecure/4.2/privilegesecure/accessmanagement/admin/policy/page/resources.md) topic for addition information.
 - Operating System— Displays the operating system of the resource
 
 ## Add Resources

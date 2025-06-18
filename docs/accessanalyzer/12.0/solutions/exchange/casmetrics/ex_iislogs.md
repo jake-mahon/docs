@@ -4,7 +4,7 @@ The 0.Collection > EX_IISLogs Job provides data collection to be utilized in the
 Web Access, and Outlook Anywhere Reports. This job goes out to each server that contains the
 IIS Logs and parses the log to return the data to the Access Analyzer database.
 
-![0.Collection > EX_IISLogs Job in the Jobs Tree](../../../../../../static/img/product_docs/accessanalyzer/solutions/exchange/databases/collection/collectionjobstree.webp)
+![0.Collection > EX_IISLogs Job in the Jobs Tree](/img/product_docs/accessanalyzer/solutions/exchange/databases/collection/collectionjobstree.webp)
 
 The EX_IISLogs job is located in the 0.Collection Job Group.
 
@@ -12,7 +12,7 @@ The EX_IISLogs job is located in the 0.Collection Job Group.
 
 The EX_IISLogs Job uses the SMARTLog Data Collector.
 
-![Queries for the EX_IISLogs Job](../../../../../../static/img/product_docs/accessanalyzer/solutions/exchange/casmetrics/iislogsquery.webp)
+![Queries for the EX_IISLogs Job](/img/product_docs/accessanalyzer/solutions/exchange/casmetrics/iislogsquery.webp)
 
 The following query is included in the EX_IISLogs Job:
 
@@ -27,7 +27,7 @@ The following query is included in the EX_IISLogs Job:
 The EX_IISLogs Job has been preconfigured to run with the default settings with the Log Type of
 Internet Information Server Log. However, the time frame for the log files to be processed can be
 modified on the Target Log page of the SMART Log DC Wizard. See the
-[SMARTLog Data Collector](../../../admin/datacollector/smartlog/overview.md) topic for additional
+[SMARTLog Data Collector](/docs/accessanalyzer/12.0/admin/datacollector/smartlog/overview.md) topic for additional
 information.
 
 Follow the steps to modify the query configuration.
@@ -43,10 +43,10 @@ opens.
 **CAUTION:** Do not modify other wizard pages. The other wizard pages are pre-configured for this
 job.
 
-![SMART Log DC Wizard Target Log page](../../../../../../static/img/product_docs/accessanalyzer/solutions/exchange/casmetrics/smartlogdctargetlog.webp)
+![SMART Log DC Wizard Target Log page](/img/product_docs/accessanalyzer/solutions/exchange/casmetrics/smartlogdctargetlog.webp)
 
 **Step 4 –** Navigate to the Target Log page, and configure the time frame as required. See the
-[SMARTLog: Target Log](../../../admin/datacollector/smartlog/targetlog.md) topic for additional
+[SMARTLog: Target Log](/docs/accessanalyzer/12.0/admin/datacollector/smartlog/targetlog.md) topic for additional
 information.
 
 _Remember,_ if the date range configuration includes data older than the last scan, the **Persist

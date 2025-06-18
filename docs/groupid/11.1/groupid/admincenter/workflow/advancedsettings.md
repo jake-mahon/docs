@@ -4,7 +4,7 @@ You can specify advanced settings for workflow, such as set a default approver f
 and define approver acceleration settings.
 
 NOTE: Functions discussed in this topic are licensed under different add-ons. See the
-[ Licensing ](../general/licensing.md) topic.
+[ Licensing ](/docs/groupid/11.1/groupid/admincenter/general/licensing.md) topic.
 
 ## Specify a Default Approver
 
@@ -53,7 +53,7 @@ owners.
 
 The workflow approver acceleration feature ensures that no workflow request remains undecided. To
 apply setting related to approver acceleration, see the
-[Workflow Approver Acceleration](approveracceleration.md) topic.
+[Workflow Approver Acceleration](/docs/groupid/11.1/groupid/admincenter/workflow/approveracceleration.md) topic.
 
 ## Delete Workflow Requests
 
@@ -83,4 +83,4 @@ example, you can delete the ‘denied’ requests that are old by 30 days or mor
 ## Integrate with Microsoft Power Automate
 
 You can also link your Power Automate flows to Directory Manager workflows. For details, see the
-[Integrate with Power Automate](integrate.md) topic.
+[Integrate with Power Automate](/docs/groupid/11.1/groupid/admincenter/workflow/integrate.md) topic.

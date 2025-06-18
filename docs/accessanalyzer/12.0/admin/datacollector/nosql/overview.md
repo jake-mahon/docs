@@ -6,7 +6,7 @@ data. It also supports the execution of custom queries against all targeted Mong
 
 The NoSQL Data Collector has been preconfigured within the MongoDB Solution. Both this data
 collector and the solution are available with a special Access Analyzer license. See the
-[MongoDB Solution](../../../solutions/databases/mongodb/overview.md) topic for additional
+[MongoDB Solution](/docs/accessanalyzer/12.0/solutions/databases/mongodb/overview.md) topic for additional
 information.
 
 Protocols
@@ -44,9 +44,9 @@ is configured to scan 8 hosts at a time , then an extra 16 GB of RAM are require
 The NoSQL Data Collector is configured through the NoSQL Data Collector Wizard. The wizard contains
 the following pages, which change based upon the query category selected:
 
-- [NoSQL: Category](category.md)
-- [NoSQL: Options](options.md)
-- [NoSQL: Criteria](criteria.md)
-- [NoSQL: Filter](filter.md)
-- [NoSQL: Results](results.md)
-- [NoSQL: Summary](summary.md)
+- [NoSQL: Category](/docs/accessanalyzer/12.0/admin/datacollector/nosql/category.md)
+- [NoSQL: Options](/docs/accessanalyzer/12.0/admin/datacollector/nosql/options.md)
+- [NoSQL: Criteria](/docs/accessanalyzer/12.0/admin/datacollector/nosql/criteria.md)
+- [NoSQL: Filter](/docs/accessanalyzer/12.0/admin/datacollector/nosql/filter.md)
+- [NoSQL: Results](/docs/accessanalyzer/12.0/admin/datacollector/nosql/results.md)
+- [NoSQL: Summary](/docs/accessanalyzer/12.0/admin/datacollector/nosql/summary.md)

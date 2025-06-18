@@ -38,7 +38,7 @@ Example 2:
 
 The following command updates all Smart Groups and Dynasties present in the container Training,
 using the credentials set in the $Credentials environment variable. See the
-[Set the $Credentials Environment Variable](../parameters/setthecredential.md) topic for setting
+[Set the $Credentials Environment Variable](/docs/groupid/11.1/groupid/managementshell/parameters/setthecredential.md) topic for setting
 credentials in an environment variable.
 
 ```

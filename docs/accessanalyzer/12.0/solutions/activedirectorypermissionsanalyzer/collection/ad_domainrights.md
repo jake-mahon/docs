@@ -9,11 +9,11 @@ The AD_DomainRights Job uses the ADPermissions Data Collector for the following 
 
 **CAUTION:** Do not modify the query. The query is preconfigured for this job.
 
-![Query for the AD_DomainRights Job](../../../../../../static/img/product_docs/accessanalyzer/solutions/activedirectorypermissionsanalyzer/collection/domainrightsquery.webp)
+![Query for the AD_DomainRights Job](/img/product_docs/accessanalyzer/solutions/activedirectorypermissionsanalyzer/collection/domainrightsquery.webp)
 
 - Domain Access Permissions – Returns domain access permissions
 
-    - See the [ADPermissions Data Collector](../../../admin/datacollector/adpermissions/overview.md)
+    - See the [ADPermissions Data Collector](/docs/accessanalyzer/12.0/admin/datacollector/adpermissions/overview.md)
       topic for additional information
 
 ## Analysis Tasks for the AD_DomainRights Job
@@ -24,7 +24,7 @@ Navigate to the **Active Directory Permissions Analyzer** > **0.Collection** > *
 **CAUTION:** Do not modify or deselect the selected analysis tasks. The analysis tasks are
 preconfigured for this job.
 
-![Analysis Tasks for the AD_DomainRights Job](../../../../../../static/img/product_docs/accessanalyzer/solutions/activedirectorypermissionsanalyzer/collection/domainrightsanalysis.webp)
+![Analysis Tasks for the AD_DomainRights Job](/img/product_docs/accessanalyzer/solutions/activedirectorypermissionsanalyzer/collection/domainrightsanalysis.webp)
 
 The default analysis tasks are:
 

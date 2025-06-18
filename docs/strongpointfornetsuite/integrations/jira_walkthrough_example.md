@@ -1,8 +1,8 @@
 # Jira Walkthrough Example
 
 This walkthrough is one example based on our test account. You must
-[install and configure](jira_integration.md) the Jira integration, including setting up the
-**[Jira Statuses](jira_integration.md)** prior to using this walkthrough.
+[install and configure](/docs/strongpointfornetsuite/integrations/jira_integration.md) the Jira integration, including setting up the
+**[Jira Statuses](/docs/strongpointfornetsuite/integrations/jira_integration.md)** prior to using this walkthrough.
 
 The walkthrough demonstrates these steps:
 
@@ -19,7 +19,7 @@ The walkthrough demonstrates these steps:
 2. Open a Project.
 3. Click **Create** (**+**).
 
-    ![jira_example_create_issue](../../../static/img/product_docs/strongpointfornetsuite/integrations/jira_example_create_issue.webp)
+    ![jira_example_create_issue](/img/product_docs/strongpointfornetsuite/integrations/jira_example_create_issue.webp)
 
 4. Enter your information on the **Create issue** form:
 
@@ -39,13 +39,13 @@ example, override alert, notifications for approvers, and notification for the c
    in your account**.
 2. Expand **Comments** and select **Strongpoint NetSuite**.
 
-    ![jira_example_credentials](../../../static/img/product_docs/strongpointfornetsuite/integrations/jira_example_credentials.webp)
+    ![jira_example_credentials](/img/product_docs/strongpointfornetsuite/integrations/jira_example_credentials.webp)
 
 3. Select your NetSuite **Account** and enter your **Consumer Key**/**Secret** and **Token
-   ID**/**Secret**. If your account has an optional _[Integration User](jira_integration.md)_ role,
+   ID**/**Secret**. If your account has an optional _[Integration User](/docs/strongpointfornetsuite/integrations/jira_integration.md)_ role,
    enter the Email and Password credentials supplied by your administrator
 
-    ![Check Token Based Authentication](../../../static/img/product_docs/strongpointfornetsuite/integrations/jira_token_authentication.webp)
+    ![Check Token Based Authentication](/img/product_docs/strongpointfornetsuite/integrations/jira_token_authentication.webp)
 
 4. Click **Connect**. If the connection is successful, the form is displayed (see Add Customizations
    section). The **Synchronized with**status displays the account you are logged into for NetSuite.
@@ -55,12 +55,12 @@ You cannot login if you do not have the **appropriate role permissions to create
 If you do not enter the correct email or password, an error is displayed. After six unsuccessful
 consecutive attempts to login, your account is suspended for 30 minutes.
 
-![jira_example_credentials_error](../../../static/img/product_docs/strongpointfornetsuite/integrations/jira_example_credentials_error.webp)
+![jira_example_credentials_error](/img/product_docs/strongpointfornetsuite/integrations/jira_example_credentials_error.webp)
 
 ## Add Customizations
 
 Once you have logged in, the form is displayed.  
-![Jira Strongpoint form](../../../static/img/product_docs/strongpointfornetsuite/release_notes/jira_strongpoint_form.webp)
+![Jira Strongpoint form](/img/product_docs/strongpointfornetsuite/release_notes/jira_strongpoint_form.webp)
 
 - **Synchronized with** displays the connected account. Click **Change Account** to switch to a
   different Account.
@@ -68,7 +68,7 @@ Once you have logged in, the form is displayed.
   Customization with the strictest policy.
 - **Affected Bundle ID** can be added to the ticket. Enter the ID in the **Add Bundle ID** entry box
   and click (**+**) to add it. You can delete an Affected Bundle ID with the
-  ![delete](../../../static/img/product_docs/strongpointfornetsuite/integrations/delete.webp)icon.
+  ![delete](/img/product_docs/strongpointfornetsuite/integrations/delete.webp)icon.
 - **Change Level Required** is **Log Changes Only** until Customizations have been added. If there
   are multiple change levels, the most stringent one is applied.
 - Specify the Customizations you are changing or adding.
@@ -81,9 +81,9 @@ Once you have logged in, the form is displayed.
       are added to the **Proposed Customizations** list.
     - **Add Proposed Customization** adds a new customizations are added to the **Proposed
       Customizations** list. You can delete added Customizations with the
-      ![delete](../../../static/img/product_docs/strongpointfornetsuite/integrations/delete.webp)icon.
+      ![delete](/img/product_docs/strongpointfornetsuite/integrations/delete.webp)icon.
 - **Push** creates the Change Request in NetSuite. **Push** is also used to manually update your
-  Change Request if you are not using the [Automatic Synchronization](jira_integration.md) feature.
+  Change Request if you are not using the [Automatic Synchronization](/docs/strongpointfornetsuite/integrations/jira_integration.md) feature.
 - **Push External** same as **Push** except you can specify a different Jira account.
 - **Impact Analysis** and **View ERD** are tools to Perform Risk Assessment.
 
@@ -94,14 +94,14 @@ Once you have logged in, the form is displayed.
 3. Click **+** to search for matching Customizations. **View** displays the **Type** and **Script
    ID** for a Customization.
 
-    ![Add a Customization by Name](../../../static/img/product_docs/strongpointfornetsuite/integrations/jira_example_add_name.webp)
+    ![Add a Customization by Name](/img/product_docs/strongpointfornetsuite/integrations/jira_example_add_name.webp)
 
 4. Select one or more Customizations. For this example, select **New Opportunities Created
    (Search)**.
 5. Click **Add Selected Customizations**. The selected Customization is added to the **Existing
    Customizations** list.
 
-    ![New Opportunities Created (Search) added to Existing Customizations](../../../static/img/product_docs/strongpointfornetsuite/integrations/jira_example_new_opp.webp)
+    ![New Opportunities Created (Search) added to Existing Customizations](/img/product_docs/strongpointfornetsuite/integrations/jira_example_new_opp.webp)
 
 6. Enter the Script ID **custentity_fmt_cust_credit_on_hold** in **Add Customizations** and click
    **+**.
@@ -119,7 +119,7 @@ In this procedure, we are adding a new Customization.
 2. Click (**+**) to add it. If the Script ID is valid, and does not match an existing Script ID, the
    new Customization is added to the **Proposed Customizations** list.
 
-    ![Customization added to Proposed Customization list](../../../static/img/product_docs/strongpointfornetsuite/integrations/jira_example_proposed_customization.webp)
+    ![Customization added to Proposed Customization list](/img/product_docs/strongpointfornetsuite/integrations/jira_example_proposed_customization.webp)
 
 ### Create the Change Request
 
@@ -135,7 +135,7 @@ Strongpoint**.
 3. Expand the **Change Request** field on the right. The status is now **In Progress**. There is a
    link to open the Change Request in NetSuite.
 
-    ![Change Request set to In Progress](../../../static/img/product_docs/strongpointfornetsuite/integrations/jira_example_in_progress.webp)
+    ![Change Request set to In Progress](/img/product_docs/strongpointfornetsuite/integrations/jira_example_in_progress.webp)
 
 ### Import Customizations from Jira
 
@@ -144,12 +144,12 @@ is an alternative if you have a lot of customizations.
 
 1. Click **Import Customization**.
 
-    ![Import customizations from an xml file.](../../../static/img/product_docs/strongpointfornetsuite/integrations/jira_import_cust.webp)
+    ![Import customizations from an xml file.](/img/product_docs/strongpointfornetsuite/integrations/jira_import_cust.webp)
 
 2. Click **Choose File**, navigate to your xml file and click **Open**.
 3. Click **Import**. The customizations appear in the **Existing Customizations** list.
 
-    ![The customizations appear in the Existing Customizations list.](../../../static/img/product_docs/strongpointfornetsuite/integrations/jira_import_cust2.webp)
+    ![The customizations appear in the Existing Customizations list.](/img/product_docs/strongpointfornetsuite/integrations/jira_import_cust2.webp)
 
 ## Perform Risk Assessment
 
@@ -158,7 +158,7 @@ is an alternative if you have a lot of customizations.
 The impact analysis tool reviews your customizations for dependencies or risks. Click **Impact
 Analysis** to run the tool. Here is an example report:
 
-![Impact analysis report](../../../static/img/product_docs/strongpointfornetsuite/integrations/jira_example_impact_analysis.webp)
+![Impact analysis report](/img/product_docs/strongpointfornetsuite/integrations/jira_example_impact_analysis.webp)
 
 Before proceeding with your changes, review each warning to ensure your change does not break
 something. Dependencies can easily be reviewed with the ERD tool.
@@ -174,7 +174,7 @@ dependencies.
 3. When the diagram opens, you can explore the dependencies to evaluate the effect of your intended
    changes.
 
-    ![Run the ERD to view dependencies](../../../static/img/product_docs/strongpointfornetsuite/integrations/jira_example_erd.webp)
+    ![Run the ERD to view dependencies](/img/product_docs/strongpointfornetsuite/integrations/jira_example_erd.webp)
 
 ## Ready for Development
 
@@ -182,16 +182,16 @@ Once you have resolved any risk or conflicts, your changes are ready for develop
 
 1. Change the Jira status of your ticket to match the status set up for **Jira Statuses for Pending
    Approval Status**. For example, **Selected for Development**.
-2. Click **Push** if you are not using [Automatic Synchronization](jira_integration.md) to push
+2. Click **Push** if you are not using [Automatic Synchronization](/docs/strongpointfornetsuite/integrations/jira_integration.md) to push
    status changes. A confirmation your Change Request was Created/Updated is displayed.
 3. Expand the **Change Request** field on the right. The status is now **Pending Approval**. There
    is a link to open the Change Request in NetSuite.
 
-    ![Change Request is set to Pending Approval](../../../static/img/product_docs/strongpointfornetsuite/integrations/jira_example_pending_approval.webp)
+    ![Change Request is set to Pending Approval](/img/product_docs/strongpointfornetsuite/integrations/jira_example_pending_approval.webp)
 
 4. Click the **Go To Record** link to view the Change Request.
 
-    ![Change Request is Pending Approval](../../../static/img/product_docs/strongpointfornetsuite/integrations/jira_example_change_request.webp)
+    ![Change Request is Pending Approval](/img/product_docs/strongpointfornetsuite/integrations/jira_example_change_request.webp)
 
 ## Deploy Changes and Complete the Ticket
 
@@ -199,13 +199,13 @@ When development is done, and the Change Request is approved according to your p
 ticket is ready to be updated.
 
 1. Expand the **Change Request** field on the right. The status is **Approved**.  
-   ![Change Request is now Approved](../../../static/img/product_docs/strongpointfornetsuite/integrations/jira_example_approved.webp)
+   ![Change Request is now Approved](/img/product_docs/strongpointfornetsuite/integrations/jira_example_approved.webp)
 2. Change the Jira status of your ticket to match the status set up for **Jira Statuses for Approved
    Status**. In our example set up, we have two possible statuses: **Ready for Deployment** and
    **Done**. Setting up two statuses enables you to split up the deployment and the ticket closure
    if you want to monitor the deployment task separately. Both statuses are valid for Deployment,
    but only **Done** closes the Jira ticket and updates the Change Request to **Completed**.
-3. Click **Push** if you are not using [Automatic Synchronization](jira_integration.md) to push
+3. Click **Push** if you are not using [Automatic Synchronization](/docs/strongpointfornetsuite/integrations/jira_integration.md) to push
    status changes. A confirmation your Change Request was Created/Updated is displayed.
 4. If you used **Ready for Deployment**, update your Jira status to **Done** once your deployment
    and verification activities are complete.
@@ -220,4 +220,4 @@ If you open the Change Request in NetSuite:
   are populated on the **Related Change Records** tab.
 - If the Jira status is **Done**, the Change Request shows as **Completed**.
 
-    ![The completed change request](../../../static/img/product_docs/strongpointfornetsuite/integrations/jira_example_completed.webp)
+    ![The completed change request](/img/product_docs/strongpointfornetsuite/integrations/jira_example_completed.webp)

@@ -4,7 +4,7 @@ The AnyID_Salesforce job collects Salesforce contact details including phone, ad
 date of birth. This job requires API access to Salesforce in order to collect this information. The
 list of collected attributes can be adjusted as necessary.
 
-![AnyID_Salesforce Job in the Jobs Tree](../../../../../static/img/product_docs/accessanalyzer/solutions/anyid/salesforcejoblocation.webp)
+![AnyID_Salesforce Job in the Jobs Tree](/img/product_docs/accessanalyzer/solutions/anyid/salesforcejoblocation.webp)
 
 The AnyID_Salesforce job is located in the **Jobs** > **AnyID Connectors** job group.
 
@@ -36,7 +36,7 @@ Ensure that a connection profile is configured with the required credentials. Se
 
 History Retention
 
-Default Retention Period. See the [History](../../admin/settings/history.md) topic for additional
+Default Retention Period. See the [History](/docs/accessanalyzer/12.0/admin/settings/history.md) topic for additional
 information.
 
 Multi-Console Support
@@ -71,7 +71,7 @@ Workflow
 
 The AnyID_Salesforce job uses the PowerShell Data Collector for the query.
 
-![Query for the AnyID_Salesforce Job](../../../../../static/img/product_docs/accessanalyzer/solutions/anyid/salesforcequeries.webp)
+![Query for the AnyID_Salesforce Job](/img/product_docs/accessanalyzer/solutions/anyid/salesforcequeries.webp)
 
 The query is:
 
@@ -92,11 +92,11 @@ Properties**. The Query Properties window opens.
 **Step 3 –** Select the **Data Source** tab, and click **Configure**. The PowerShell Data Collector
 Wizard opens.
 
-![Edit Query Page](../../../../../static/img/product_docs/accessanalyzer/solutions/anyid/salesforcequeryeditquery.webp)
+![Edit Query Page](/img/product_docs/accessanalyzer/solutions/anyid/salesforcequeryeditquery.webp)
 
 **Step 4 –** Navigate to the Edit Query page. Click the **Parameters** tab on the right-hand side of
 the page to expand the Parameters window. See the
-[PowerShell: Edit Query](../../admin/datacollector/powershell/editquery.md) topic for additional
+[PowerShell: Edit Query](/docs/accessanalyzer/12.0/admin/datacollector/powershell/editquery.md) topic for additional
 information. Configure the following attributes as needed:
 
 - $SAHOSTNAME – Created during execution. This parameter cannot be modified.
@@ -131,7 +131,7 @@ select **Analysis** to view the analysis tasks.
 **CAUTION:** Do not modify or deselect the selected analysis tasks. The analysis tasks are
 preconfigured for this job.
 
-![Analysis Tasks for the AnyID_Salesforce Job](../../../../../static/img/product_docs/accessanalyzer/solutions/anyid/salesforceanalyses.webp)
+![Analysis Tasks for the AnyID_Salesforce Job](/img/product_docs/accessanalyzer/solutions/anyid/salesforceanalyses.webp)
 
 The default analysis tasks are:
 

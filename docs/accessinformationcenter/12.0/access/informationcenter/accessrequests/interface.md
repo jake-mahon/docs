@@ -17,7 +17,7 @@ For both tabs the interface also includes:
 The Pending Requests tab in the Access Requests interface displays information for pending requests
 that are awaiting an owner response.
 
-![Access Requests interface Pending Requests tab](../../../../../../static/img/product_docs/accessinformationcenter/access/informationcenter/accessrequests/interfacepending.webp)
+![Access Requests interface Pending Requests tab](/img/product_docs/accessinformationcenter/access/informationcenter/accessrequests/interfacepending.webp)
 
 The information displayed in the table includes:
 
@@ -65,24 +65,24 @@ The information displayed in the table includes:
   Active Directory
 
 The table data grid functions the same way as other table grids. See the
-[Data Grid Features](../../general/datagrid.md) topic for additional information.
+[Data Grid Features](/docs/accessinformationcenter/12.0/access/general/datagrid.md) topic for additional information.
 
 The buttons at the bottom enable you to perform the following actions:
 
-![Pending Requests tab buttons](../../../../../../static/img/product_docs/accessinformationcenter/access/informationcenter/accessrequests/interfacependingbuttons.webp)
+![Pending Requests tab buttons](/img/product_docs/accessinformationcenter/access/informationcenter/accessrequests/interfacependingbuttons.webp)
 
 | Button         | Description                                                                                                                                                                                                              |
 | -------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | Send Reminders | Opens the Sending Reminder window, which displays the status of the notification action. The action sends email reminders to owners with pending requests. Click **OK** to close the window once the status is complete. |
 | View Notes     | Opens the View Notes window for the selected request. Clicking on the Notes icon in the table will also open the View Notes window. Click **OK** to close the window.                                                    |
-| Cancel         | Opens the Cancel Request wizard. See the [Cancel Request Wizard](wizard/cancel.md) topic for additional information.                                                                                                     |
+| Cancel         | Opens the Cancel Request wizard. See the [Cancel Request Wizard](/docs/accessinformationcenter/12.0/access/informationcenter/accessrequests/wizard/cancel.md) topic for additional information.                                                                                                     |
 
 ## Request History Tab
 
 The Request History tab in the Access Requests interface displays information for processed
 requests.
 
-![Access Requests interface Request History tab](../../../../../../static/img/product_docs/accessinformationcenter/access/informationcenter/accessrequests/interfacehistory.webp)
+![Access Requests interface Request History tab](/img/product_docs/accessinformationcenter/access/informationcenter/accessrequests/interfacehistory.webp)
 
 The information displayed in the table includes:
 
@@ -141,13 +141,13 @@ The information displayed in the table includes:
   Active Directory
 
 The table data grid functions the same way as other table grids. See the
-[Data Grid Features](../../general/datagrid.md) topic for additional information.
+[Data Grid Features](/docs/accessinformationcenter/12.0/access/general/datagrid.md) topic for additional information.
 
 The buttons at the bottom enable you to perform the following actions:
 
-![Request History tab buttons](../../../../../../static/img/product_docs/accessinformationcenter/access/informationcenter/accessrequests/interfacehistorybuttons.webp)
+![Request History tab buttons](/img/product_docs/accessinformationcenter/access/informationcenter/accessrequests/interfacehistorybuttons.webp)
 
 | Button       | Description                                                                                                                                                           |
 | ------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| View Changes | Opens the Changes window to view all access changes for the selected trustee. See the [Changes Window](window/changes.md) topic for additional information.           |
+| View Changes | Opens the Changes window to view all access changes for the selected trustee. See the [Changes Window](/docs/accessinformationcenter/12.0/access/informationcenter/accessrequests/window/changes.md) topic for additional information.           |
 | View Notes   | Opens the View Notes window for the selected request. Clicking on the Notes icon in the table will also open the View Notes window. Click **OK** to close the window. |

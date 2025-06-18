@@ -9,7 +9,7 @@ The Enablement Toolkit is a utility that offers a GUI for common testing scenari
 troubleshooting the application.
 
 The Toolkit is available to download as a .zip file from the Privilege Secure installer's Extras
-folder. See the [Install Components & Methods](../install/components.md) topic for additional
+folder. See the [Install Components & Methods](/docs/privilegesecure/4.2/privilegesecure/accessmanagement/install/components.md) topic for additional
 information.
 
 ## Prerequisites
@@ -27,7 +27,7 @@ Enablement Toolkit.exe from the **Privilege Secure Installer Package** > **Extr
 account running the toolkit is not a local administrator, Windows will request administrator
 credentials.
 
-![SbPAM Enablement Toolkit - EULA Agreement window](../../../../../../static/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/sbpamenablementtoolkit_-_1_-_eula_agreement.webp)
+![SbPAM Enablement Toolkit - EULA Agreement window](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/sbpamenablementtoolkit_-_1_-_eula_agreement.webp)
 
 **Step 2 –** Click **I Accept** on the Enablement Toolkit EULA window. The Enablement Toolkit window
 opens.
@@ -37,7 +37,7 @@ opens.
 The Enablement Toolkit window fields vary depending on the selected operation. The window has the
 following fields for all operations:
 
-![SbPAM Enablement Toolkit - Default Interface](../../../../../../static/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/sbpamenablementtoolkit_-_2_-_main_interface.webp)
+![SbPAM Enablement Toolkit - Default Interface](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/sbpamenablementtoolkit_-_2_-_main_interface.webp)
 
 - File Menu Options:
 
@@ -84,7 +84,7 @@ Follow the steps to execute an operation.
 **Step 2 –** _Optional_: Open the Help menu for the selected operation by clicking **Help** > **Help
 (Selected Operation)** or pressing **F1**. Click **Close** to close the Help menu.
 
-![Stealthbits Enablement Toolkit - Help Menu](../../../../../../static/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/sbpamenablementtoolkit_-_3_-_help_window.webp)
+![Stealthbits Enablement Toolkit - Help Menu](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/sbpamenablementtoolkit_-_3_-_help_window.webp)
 
 **NOTE:** The Help menu displays key information regarding the selected operation. The Help menu for
 the Enumerate Active Directory Objects operation displays the operation name, required fields,
@@ -93,7 +93,7 @@ for each operation you intend to execute.
 
 **Step 3 –** Configure the fields for the selected operation.
 
-![Stealthbits Enablement Toolkit - Execution Complete](../../../../../../static/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/sbpamenablementtoolkit_-_4_-_execution_complete.webp)
+![Stealthbits Enablement Toolkit - Execution Complete](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/sbpamenablementtoolkit_-_4_-_execution_complete.webp)
 
 **Step 4 –** Click **Execute**. The interface will display the results of the selected operation.
 
@@ -141,7 +141,7 @@ Follow the steps below to obtain a certificate thumbprint.
 **Step 6 –** Navigate to **Configuration** > **System Settings** > **Global Settings**.
 
 **Step 7 –** Paste the thumbprint in the Certificate Thumbprint field of the Netwrix Privilege
-Secure console. See the [Global Settings Page](configuration/page/globalsettings.md) topic for
+Secure console. See the [Global Settings Page](/docs/privilegesecure/4.2/privilegesecure/accessmanagement/admin/configuration/page/globalsettings.md) topic for
 additional information.
 
 **Step 8 –** Click **Save**.
@@ -161,14 +161,14 @@ Components** > **Remote Desktop Services** > **Remote Desktop Connection Client*
 
 **NOTE:** Do not expand the Remote Desktop Connection Client folder.
 
-![Troubleshooting - GPO Settings](../../../../../../static/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/troubleshootinggposettings.webp)
+![Troubleshooting - GPO Settings](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/troubleshootinggposettings.webp)
 
 **Step 3 –** Click **Specify SHA1 thumbprints of certificates representing trusted .rdp
 publishers**.
 
 **Step 4 –** Click **Policy Settings** in the upper left-hand corner.
 
-![Troubleshooting - SHA1](../../../../../../static/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/troubleshootingsha1.webp)
+![Troubleshooting - SHA1](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/troubleshootingsha1.webp)
 
 **Step 5 –** Click the **Enabled** radio button.
 

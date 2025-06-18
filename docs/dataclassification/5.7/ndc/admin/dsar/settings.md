@@ -4,7 +4,7 @@ This section describes Netwrix Data Classification configuration required to run
 Requests (DSAR).
 
 **NOTE:** Only users with 'Super User' permissions are able to configure DSAR.
-[See DSAR Roles for more information.](roles.md)
+[See DSAR Roles for more information.](/docs/dataclassification/5.7/ndc/admin/dsar/roles.md)
 
 1. In administrative web console , navigate to Data Analysis → DSAR.
 2. Locate the Settings tab.
@@ -35,5 +35,5 @@ degrading.
 
 See also:
 
-- [DSAR Roles](roles.md)
-- [Create Search Requests](crestesearchrequests.md)
+- [DSAR Roles](/docs/dataclassification/5.7/ndc/admin/dsar/roles.md)
+- [Create Search Requests](/docs/dataclassification/5.7/ndc/admin/dsar/crestesearchrequests.md)

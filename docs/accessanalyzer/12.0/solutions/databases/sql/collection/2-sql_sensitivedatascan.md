@@ -6,9 +6,9 @@ databases based on a pre-defined or user defined search criteria.
 Special Dependency
 
 - Sensitive Data Discovery Add-On installed on the Access Analyzer Console server
-    - See the [Installation & Configuration Overview](../../../../install/application/overview.md)
+    - See the [Installation & Configuration Overview](/docs/accessanalyzer/12.0/install/application/overview.md)
       topic for installation information.
-    - See the [Sensitive Data Discovery](../../../../sensitivedatadiscovery/overview.md) topic for
+    - See the [Sensitive Data Discovery](/docs/accessanalyzer/12.0/sensitivedatadiscovery/overview.md) topic for
       additional information.
 
 Though the job is visible within the console, it requires an additional installer package before
@@ -18,7 +18,7 @@ data collection occurs.
 
 The SensitiveDataScan Job uses the SQL Data Collector for the following query:
 
-![Query Selection](../../../../../../../static/img/product_docs/accessanalyzer/solutions/databases/sql/collection/sqljobgroup9.webp)
+![Query Selection](/img/product_docs/accessanalyzer/solutions/databases/sql/collection/sqljobgroup9.webp)
 
 - SensitiveDataScan – Collects Sensitive Data from targeting instances
     - (Optional) This query can be modified to target specific databases/instances. See the
@@ -41,19 +41,19 @@ Properties. The Query Properties window appears.
 **CAUTION:** Do not make changes to other wizard pages as they have been pre-configured for this
 job.
 
-![2sqlsensitivedatascanoptionspage](../../../../../../../static/img/product_docs/accessanalyzer/solutions/databases/sql/collection/2sqlsensitivedatascanoptionspage.webp)
+![2sqlsensitivedatascanoptionspage](/img/product_docs/accessanalyzer/solutions/databases/sql/collection/2sqlsensitivedatascanoptionspage.webp)
 
 **Step 4 –** Select the desired scan options. Navigate to the
-[SQL: Options](../../../../admin/datacollector/sql/options.md) page for additional information.
+[SQL: Options](/docs/accessanalyzer/12.0/admin/datacollector/sql/options.md) page for additional information.
 
 **NOTE:** The Sensitive Data Scan Settings are pre-configured for optimal performance for a
 high-level table scan. Configuring these settings to increase the scope of the sensitive data scan
 may significantly increase scan time.
 
-![Criteria Page](../../../../../../../static/img/product_docs/accessanalyzer/solutions/databases/sql/collection/2sqlsensitivedatascanquerycriteriapage.webp)
+![Criteria Page](/img/product_docs/accessanalyzer/solutions/databases/sql/collection/2sqlsensitivedatascanquerycriteriapage.webp)
 
 **Step 5 –** To modify criteria, navigate to the
-[SQL: Criteria](../../../../admin/datacollector/sql/criteria.md) page. By default, the following
+[SQL: Criteria](/docs/accessanalyzer/12.0/admin/datacollector/sql/criteria.md) page. By default, the following
 System Criteria have been selected:
 
 - Credit Cards
@@ -63,13 +63,13 @@ System Criteria have been selected:
 - Password
 
     Add or remove criteria if needed. See the
-    [Sensitive Data Criteria Editor](../../../../sensitivedatadiscovery/criteriaeditor/overview.md)
+    [Sensitive Data Criteria Editor](/docs/accessanalyzer/12.0/sensitivedatadiscovery/criteriaeditor/overview.md)
     topic for additional information.
 
-![Filter Page](../../../../../../../static/img/product_docs/accessanalyzer/solutions/databases/sql/collection/2sqlsensitivedatascanfilterpage.webp)
+![Filter Page](/img/product_docs/accessanalyzer/solutions/databases/sql/collection/2sqlsensitivedatascanfilterpage.webp)
 
 **Step 6 –** To query for specific database/instance, navigate to the
-[SQL: Filter](../../../../admin/datacollector/sql/filter.md) page. The query is configured by
+[SQL: Filter](/docs/accessanalyzer/12.0/admin/datacollector/sql/filter.md) page. The query is configured by
 default to target Only select database objects. Click Retrieve. The Available database objects box
 will populate. Databases and instances can be added in the following ways:
 
@@ -90,7 +90,7 @@ select Analysis to view the analysis task.
 **CAUTION:** Do not modify or deselect the selected analysis task(s). The analysis task(s) are
 preconfigured for this job.
 
-![Analysis Selection](../../../../../../../static/img/product_docs/accessanalyzer/solutions/databases/sql/collection/sqljobgroup13.webp)
+![Analysis Selection](/img/product_docs/accessanalyzer/solutions/databases/sql/collection/sqljobgroup13.webp)
 
 The default analysis task is:
 

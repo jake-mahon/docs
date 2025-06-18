@@ -17,8 +17,8 @@ them to perform their job:
 
 If these permissions are denied, the Helpdesk policy would have no impact, as role members would not
 be authorized to perform the respective operations. See
-[Password Management](../permissions.md#password-management) in the
-[Security Role – Permissions](../permissions.md) topic.
+[Password Management](/docs/groupid/11.1/groupid/admincenter/securityrole/permissions.md#password-management) in the
+[Security Role – Permissions](/docs/groupid/11.1/groupid/admincenter/securityrole/permissions.md) topic.
 
 The Helpdesk policy defines:
 
@@ -152,7 +152,7 @@ authenticate end-users before unlocking their identity store accounts or resetti
 RECOMMENDED: As a prerequisite to applying this setting, make sure that the Security Questions
 authentication type is enabled and configured for the identity store, as well as enforced as an
 account enrollment method for security roles. See the
-[Set up Authentication via Security Questions](../../setupauth/securityquestions.md) topic.
+[Set up Authentication via Security Questions](/docs/groupid/11.1/groupid/admincenter/setupauth/securityquestions.md) topic.
 
 Follow the steps to enforce security questions for authentication.
 
@@ -283,10 +283,10 @@ Step 10 – On the Security Roles page, click **Save**.
 
 NOTE: (1) An SMS gateway account must be linked with the identity store for an SMS to be sent on the
 end-users’ mobile phones. See the
-[Link an SMS Gateway Account to an Identity Store](../../identitystore/configure/security/smsauthentication.md#link-an-sms-gateway-account-to-an-identity-store)
+[Link an SMS Gateway Account to an Identity Store](/docs/groupid/11.1/groupid/admincenter/identitystore/configure/security/smsauthentication.md#link-an-sms-gateway-account-to-an-identity-store)
 topic.  
  (2) An SMTP server must be configured for the identity store for email to be sent to end-users. See
-the [Configure an SMTP Server](../../identitystore/configure/smtpserver.md) topic.
+the [Configure an SMTP Server](/docs/groupid/11.1/groupid/admincenter/identitystore/configure/smtpserver.md) topic.
 
 ### Force Users to Change Password on Next Logon
 

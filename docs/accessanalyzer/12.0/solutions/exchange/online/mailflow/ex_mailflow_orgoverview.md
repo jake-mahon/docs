@@ -7,7 +7,7 @@ This job is set to analyze the last 30 days.
 
 The Configuration section on a Job's overview page allows you to easily modify any customizable
 parameters used by analysis tasks in the job. See the
-[Parameter Configuration](../../../../admin/jobs/job/overview.md#parameter-configuration) topic for
+[Parameter Configuration](/docs/accessanalyzer/12.0/admin/jobs/job/overview.md#parameter-configuration) topic for
 instructions on how to edit parameters on a job overview page.
 
 The EX_Mailflow_OrgOverview job has the following configurable parameter:
@@ -23,7 +23,7 @@ topic for additional information.
 View the analysis tasks by navigating to the **Exchange** > **8. Exchange Online** >
 **EX_OrgOverview_Mailbox** > **Configure** node and select **Analysis**.
 
-![Analysis Tasks for the EX_Mailflow_OrgOverview Job](../../../../../../../static/img/product_docs/accessanalyzer/solutions/exchange/online/mailflow/mailfloworgoverviewanalysis.webp)
+![Analysis Tasks for the EX_Mailflow_OrgOverview Job](/img/product_docs/accessanalyzer/solutions/exchange/online/mailflow/mailfloworgoverviewanalysis.webp)
 
 The following analysis task is selected by default:
 
@@ -33,7 +33,7 @@ The following analysis task is selected by default:
     - By default, data for 30 days is displayed. This number of days can be modified by a parameter.
       See the [Parameter Configuration](#parameter-configuration) topic for additional information.
     - Alternatively, the `@Days` parameter can be modified in the SQL Script Editor. See the
-      [Configure the Customizable Parameters in an Analysis Task](../../../../admin/jobs/job/configure/analysiscustomizableparameters.md)
+      [Configure the Customizable Parameters in an Analysis Task](/docs/accessanalyzer/12.0/admin/jobs/job/configure/analysiscustomizableparameters.md)
       topic for additional information.
 
 In addition to the tables and views created by the analysis task, the EX_Mailflow_OrgOverview job

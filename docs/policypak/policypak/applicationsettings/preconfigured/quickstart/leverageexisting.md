@@ -22,7 +22,7 @@ file to the `C:\Program` Files `(x86)\PolicyPak\Extensions` folder (on 64-bit ma
 `C:\Program Files\PolicyPak\Extensions (on 32-bit machines)`. You can see how this is done in
 Figure 1.
 
-![policypak_application_settings](../../../../../../static/img/product_docs/policypak/policypak/applicationsettings/designstudio/quickstart/policypak_application_settings.webp)
+![policypak_application_settings](/img/product_docs/policypak/policypak/applicationsettings/designstudio/quickstart/policypak_application_settings.webp)
 
 Figure 1. Copying the `DLL` file to the C: drive.
 

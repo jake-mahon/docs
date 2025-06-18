@@ -14,7 +14,7 @@ Here is the process to create a control to monitor changes:
 4. Check **Public**
 5. Add filters on the **Criteria** tab:
 
-    ![Create the Saved Search for the Example](../../../static/img/product_docs/strongpointfornetsuite/financial_controls/agent_example1.webp)
+    ![Create the Saved Search for the Example](/img/product_docs/strongpointfornetsuite/financial_controls/agent_example1.webp)
 
     | Select Filter           | What to Set                                                                                        | Resulting Description                             | Formula To Set                           |
     | ----------------------- | -------------------------------------------------------------------------------------------------- | ------------------------------------------------- | ---------------------------------------- |
@@ -34,7 +34,7 @@ Here is the process to create a control to monitor changes:
 
 6. Open the **Results** tab. You can Remove all to clear the defaults. Add the following fields:
 
-    ![Adding the Results columns](../../../static/img/product_docs/strongpointfornetsuite/financial_controls/agent_example2.webp)
+    ![Adding the Results columns](/img/product_docs/strongpointfornetsuite/financial_controls/agent_example2.webp)
 
 7. **Save** the search.
 8. Note the assigned **ID** for your new Search. For example, **customsearch5673**
@@ -54,7 +54,7 @@ You can wait until the next AutoSpider run, or manually create the customization
     - **Type**: Select **Search**
     - **Script ID**: Enter the **ID** from your Saved Search. For example, **customsearch5673**
 
-        ![Create the Customization for the Example](../../../static/img/product_docs/strongpointfornetsuite/financial_controls/agent_example3.webp)
+        ![Create the Customization for the Example](/img/product_docs/strongpointfornetsuite/financial_controls/agent_example3.webp)
 
 3. **Save** the customization.
 4. Click **Respider Now**  
@@ -88,7 +88,7 @@ From the customization record:
 
 5. **Save** the record.
 
-    ![Designating the customization as a control](../../../static/img/product_docs/strongpointfornetsuite/financial_controls/agent_example4.webp)
+    ![Designating the customization as a control](/img/product_docs/strongpointfornetsuite/financial_controls/agent_example4.webp)
 
 The control is triggered as configured and all instances are logged under **Unresolved Control
 Incidents**, **Resolved Control Incidents** or **Pre-approved Control Incidents**.

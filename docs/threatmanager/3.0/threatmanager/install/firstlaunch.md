@@ -2,12 +2,12 @@
 
 The installer places the following icon on the desktop, which opens the Threat Manager console:
 
-![Desktop icon](../../../../../static/img/product_docs/threatprevention/threatprevention/install/desktopicon.webp)
+![Desktop icon](/img/product_docs/threatprevention/threatprevention/install/desktopicon.webp)
 
 **Step 1 –** Double-click the **Netwrix Threat Manager Dashboard** icon to open the console for the
 first time.
 
-![First launch showing fields for setting up the builtin Administrator account](../../../../../static/img/product_docs/threatprevention/threatprevention/install/reportingmodule/builtinadminpassword.webp)
+![First launch showing fields for setting up the builtin Administrator account](/img/product_docs/threatprevention/threatprevention/install/reportingmodule/builtinadminpassword.webp)
 
 There is a built-in ADMIN account used for the initial configuration steps and granting user access.
 The User Name is "admin". You will set the password and optionally enable MFA for this account
@@ -32,7 +32,7 @@ password will be required to sign in.
 The built-in ADMIN account password is now set.
 
 If the Enable MFA option is set to OFF, no additional configuration is required and the Threat
-Manager Console opens. See the [Getting Started with Threat Manager](../gettingstarted.md) topic for
+Manager Console opens. See the [Getting Started with Threat Manager](/docs/threatmanager/3.0/threatmanager/gettingstarted.md) topic for
 next steps.
 
 If the Enable MFA option is set to ON, registration of an MFA authenticator is required. Proceed to
@@ -43,7 +43,7 @@ the Configure MFA for the Bultin Administrator Account topic.
 If MFA was enabled for the buildtin Administrator account during first launch, follow the steps to
 configure MFA for the account.
 
-![registerauthenticator](../../../../../static/img/product_docs/threatprevention/threatprevention/install/reportingmodule/registerauthenticator.webp)
+![registerauthenticator](/img/product_docs/threatprevention/threatprevention/install/reportingmodule/registerauthenticator.webp)
 
 **Step 1 –** Register the MFA authenticator. The Register Authenticator prompt will provide
 instructions to configure multi-factor authentication with an external or third-party application.
@@ -58,4 +58,4 @@ of codes to access for account recovery, if needed.
 **Step 4 –** Click **Continue**.
 
 Once MFA is configured for this account, the Threat Manager Console opens. See the
-[Getting Started with Threat Manager](../gettingstarted.md) topic for next steps.
+[Getting Started with Threat Manager](/docs/threatmanager/3.0/threatmanager/gettingstarted.md) topic for next steps.

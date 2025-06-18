@@ -154,7 +154,7 @@ IMPORTANT:
 
 - The Activity Monitor must register with the NetApp device as an FPolicy server. By default, it
   looks for a policy named `StealthAUDIT`. See the
-  [Customize FPolicy Policy Name](customizefpolicy.md) section for information on using a different
+  [Customize FPolicy Policy Name](/docs/accessanalyzer/12.0/config/netapp7mode/customizefpolicy.md) section for information on using a different
   policy name.
 
 Use the following command to enable the FPolicy to monitor disconnected sessions:

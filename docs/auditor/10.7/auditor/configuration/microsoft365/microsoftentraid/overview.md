@@ -26,9 +26,9 @@ You can configure your IT Infrastructure for monitoring in one of the following
     - While no special settings are required. Remember to do the following:
 
         - Prepare a Data Collecting Account as described in
-          [Permissions for Microsoft Entra ID Auditing](permissions.md) topic
+          [Permissions for Microsoft Entra ID Auditing](/docs/auditor/10.7/auditor/configuration/microsoft365/microsoftentraid/permissions.md) topic
         - Configure required protocols and ports, as described in the
-          [Microsoft Entra ID Ports](ports.md) topic
+          [Microsoft Entra ID Ports](/docs/auditor/10.7/auditor/configuration/microsoft365/microsoftentraid/ports.md) topic
 
 ## Monitored Object Types and Attributes
 

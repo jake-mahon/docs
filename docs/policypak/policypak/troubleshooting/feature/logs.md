@@ -39,11 +39,11 @@ Start troubleshooting by verifying that you are set up with the following scenar
 Figure 45 shows an example of a Endpoint Policy Manager Feature Manager for Windows log with some
 annotations during a single run/GPupdate.
 
-![troubleshooting](../../../../../static/img/product_docs/policypak/policypak/troubleshooting/preferences/troubleshooting.webp)
+![troubleshooting](/img/product_docs/policypak/policypak/troubleshooting/preferences/troubleshooting.webp)
 
-![troubleshooting_1](../../../../../static/img/product_docs/policypak/policypak/troubleshooting/preferences/troubleshooting_1.webp)
+![troubleshooting_1](/img/product_docs/policypak/policypak/troubleshooting/preferences/troubleshooting_1.webp)
 
-![troubleshooting_2](../../../../../static/img/product_docs/policypak/policypak/troubleshooting/preferences/troubleshooting_2.webp)
+![troubleshooting_2](/img/product_docs/policypak/policypak/troubleshooting/preferences/troubleshooting_2.webp)
 
 Figure 45. An example of a Endpoint Policy Manager Feature Manager for Windows log.
 
@@ -51,9 +51,9 @@ Then, to see details of what Endpoint Policy Manager Feature Manager for Windows
 you can open up the PPComputerOperational.log (see Figure 46) located at
 `Programdata\PolicyPak\PolicyPak Feature Manager for Windows`.
 
-![troubleshooting_3](../../../../../static/img/product_docs/policypak/policypak/troubleshooting/preferences/troubleshooting_3.webp)
+![troubleshooting_3](/img/product_docs/policypak/policypak/troubleshooting/preferences/troubleshooting_3.webp)
 
-![troubleshooting_4](../../../../../static/img/product_docs/policypak/policypak/troubleshooting/preferences/troubleshooting_4.webp)
+![troubleshooting_4](/img/product_docs/policypak/policypak/troubleshooting/preferences/troubleshooting_4.webp)
 
 Figure 46. Log files showing when a policy installs and uninstalls items.
 

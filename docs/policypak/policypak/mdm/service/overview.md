@@ -4,10 +4,10 @@ You can use Endpoint Policy Manager with any MDM service you already have, like 
 Workspace ONE (formerly Airwatch), MobileIron, etc. Below we see a systems hierarchical breakdown
 when using Endpoint Policy Manager with any MDM system.
 
-![using_policypak_with_mdm_and_1](../../../../../static/img/product_docs/policypak/policypak/mdm/service/using_policypak_with_mdm_and_1.webp)
+![using_policypak_with_mdm_and_1](/img/product_docs/policypak/policypak/mdm/service/using_policypak_with_mdm_and_1.webp)
 
 **NOTE:**
-[Deploying Real Group Policy (and Extra Endpoint Policy Manager Settings) Overview](../../video/mdm/realgrouppolicy.md)a
+[Deploying Real Group Policy (and Extra Endpoint Policy Manager Settings) Overview](/docs/policypak/policypak/video/mdm/realgrouppolicy.md)a
 video overview of Endpoint Policy Manager and MDM.
 
 The ultimate goal is to upload the following Endpoint Policy Manager items to your MDM service and
@@ -33,7 +33,7 @@ On one machine proceed in the following manner:
 This will ensure all the correct parts are working in concert before you attempt to use an MDM
 service to deliver these components.
 
-**NOTE:** See [Endpoint Policy Manager and MDM walk before you run](../../video/mdm/testsample.md) a
+**NOTE:** See [Endpoint Policy Manager and MDM walk before you run](/docs/policypak/policypak/video/mdm/testsample.md) a
 video of this process.
 
 Once you've completed these procedures, you're ready to actually perform the steps needed to get the
@@ -45,7 +45,7 @@ system.
 Optionally, you can view or hide these components by using the Add/Remove Programs applet in the
 Control Panel. An example of a final deployment would look something like this:
 
-![using_policypak_with_mdm_and_2](../../../../../static/img/product_docs/policypak/policypak/mdm/service/using_policypak_with_mdm_and_2.webp)
+![using_policypak_with_mdm_and_2](/img/product_docs/policypak/policypak/mdm/service/using_policypak_with_mdm_and_2.webp)
 
 The typical command you want your MDM service to run for each component would be something like
 this:

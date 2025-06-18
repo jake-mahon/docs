@@ -2,7 +2,7 @@
 
 Change Logs allow you to see the type of change, who made the change and view the system notes of
 the NetSuite record. Change Logs are accessed from the
-[Change Management Reports](change_management_reports.md).
+[Change Management Reports](/docs/strongpointfornetsuite/change_management/change_management_reports.md).
 
 Once a change request is complete, best practice is to change the status to **Completed**. If there
 are multiple open change requests referencing the same object, any changes to the object result in
@@ -13,7 +13,7 @@ To open a Change Log:
 1. Open **Strongpoint** > **Change Management Reports** and select a report.
 2. Click **View** beside the Change Log to open.
 
-![changelog-1](../../../static/img/product_docs/strongpointfornetsuite/change_management/changelog-1.webp)
+![changelog-1](/img/product_docs/strongpointfornetsuite/change_management/changelog-1.webp)
 
 If the **Actual Change Date** is empty or **Change By** is set to **Could Not Be Determined** or
 **Pending Autospider**, a **Refresh Changed By** button is available. When clicked, it populates
@@ -22,7 +22,7 @@ If the **Actual Change Date** is empty or **Change By** is set to **Could Not Be
 The button is only available for Object types where the **Actual Change Date** and **Change By**
 fields can be retrieved.
 
-![Refresh Changed By](../../../static/img/product_docs/strongpointfornetsuite/change_management/change_log_refresh.webp)
+![Refresh Changed By](/img/product_docs/strongpointfornetsuite/change_management/change_log_refresh.webp)
 
 ## Change Log Header
 
@@ -101,7 +101,7 @@ The **Values** tab displays the changes that occurred in the Change Log.
 
 **Data Error**: Checked if a data error occurred.
 
-![values_tab](../../../static/img/product_docs/strongpointfornetsuite/change_management/values_tab.webp)
+![values_tab](/img/product_docs/strongpointfornetsuite/change_management/values_tab.webp)
 
 ## Finding Users Who Have Made Changes
 
@@ -132,9 +132,9 @@ In an open Change Log:
 1. Click on a linked **Customization** to open the Customization Record. **Strongpoint Return Jira
    Ticket Info (Suitelet Script)** in this example.
 
-    ![Change Log Customization link](../../../static/img/product_docs/strongpointfornetsuite/change_management/change_log_customization_link.webp)
+    ![Change Log Customization link](/img/product_docs/strongpointfornetsuite/change_management/change_log_customization_link.webp)
 
 2. Click **Go to Record**
 3. Open **System Notes**
 
-![systemsnotes](../../../static/img/product_docs/strongpointfornetsuite/change_management/systemsnotes.webp)
+![systemsnotes](/img/product_docs/strongpointfornetsuite/change_management/systemsnotes.webp)

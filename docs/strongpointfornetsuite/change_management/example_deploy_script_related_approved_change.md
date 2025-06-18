@@ -6,7 +6,7 @@ A developer plans to make changes to a Suitelet, including the Suitelet library 
 
 1. Developer creates a Change Request and attaches the Suitelet:
 
-    ![opp_clearance_case1-1](../../../static/img/product_docs/strongpointfornetsuite/change_management/opp_clearance_case1-1.webp)
+    ![opp_clearance_case1-1](/img/product_docs/strongpointfornetsuite/change_management/opp_clearance_case1-1.webp)
 
 2. IT Approvers approve the change.
 3. Developer makes necessary changes to the script.
@@ -16,8 +16,8 @@ A developer plans to make changes to a Suitelet, including the Suitelet library 
 1. The change logs for the Suitelet, the Suitelet library script and deployment are attached to the
    related script approved Change Request.
 
-    ![opp_clearance_case1-2](../../../static/img/product_docs/strongpointfornetsuite/change_management/opp_clearance_case1-2.webp)
+    ![opp_clearance_case1-2](/img/product_docs/strongpointfornetsuite/change_management/opp_clearance_case1-2.webp)
 
 2. The logs are compliant.
 
-    ![opp_clearance_case1-3](../../../static/img/product_docs/strongpointfornetsuite/change_management/opp_clearance_case1-3.webp)
+    ![opp_clearance_case1-3](/img/product_docs/strongpointfornetsuite/change_management/opp_clearance_case1-3.webp)

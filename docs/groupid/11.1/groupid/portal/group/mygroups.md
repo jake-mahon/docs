@@ -3,17 +3,17 @@
 To view and manage the groups that you own in the identity store, click **Groups** on the left
 navigation pane and select **My Groups**. This page lists all your active groups:
 
-- [My Memberships](mymemberships.md)
-- [My Expired Groups](myexpiredgroups.md)
-- [My Expiring Groups](myexpiringgroups.md)
-- [My Deleted Groups](mydeletedgroups.md)
-- [My Smart Groups](mysmartgroups.md)
-- [My Dynasties](mydynasties.md)
-- [My Teams](myteams.md) (for Microsoft Entra ID based identity store)
+- [My Memberships](/docs/groupid/11.1/groupid/portal/group/mymemberships.md)
+- [My Expired Groups](/docs/groupid/11.1/groupid/portal/group/myexpiredgroups.md)
+- [My Expiring Groups](/docs/groupid/11.1/groupid/portal/group/myexpiringgroups.md)
+- [My Deleted Groups](/docs/groupid/11.1/groupid/portal/group/mydeletedgroups.md)
+- [My Smart Groups](/docs/groupid/11.1/groupid/portal/group/mysmartgroups.md)
+- [My Dynasties](/docs/groupid/11.1/groupid/portal/group/mydynasties.md)
+- [My Teams](/docs/groupid/11.1/groupid/portal/group/myteams.md) (for Microsoft Entra ID based identity store)
 
 By default, the **My Groups** tab displays the groups that you are the primary owner for. To include
 the groups for which you are an additional owner, select the **Display additional group ownership in
-My Groups** check box on the [Portal Settings](../setting/portal.md) panel. This tab lists active
+My Groups** check box on the [Portal Settings](/docs/groupid/11.1/groupid/portal/setting/portal.md) panel. This tab lists active
 groups only; expired and deleted groups are not displayed.
 
 You can [Modify Search Directory](allgroups.md#modify-search-directory) to search your groups and
@@ -25,7 +25,7 @@ your groups matching the filters will be displayed.
 - Manually update the membership of a Smart Group using the **Update** command. You can also view
   update details on **Processing Object (s)** wizard. Click **OK** once done. If you click
   **Background**, the update runs in the background and will show in the **Background Tasks** tab.
-- View and modify the [Group Properties](properties/overview.md) of a group.
+- View and modify the [Group Properties](/docs/groupid/11.1/groupid/portal/group/properties/overview.md) of a group.
 - Manually expire your groups. After expiring the group, it will be listed in **My Expired Groups**
   list.
 - Select a smart group and click **Renew** on the toolbar; this re-applies the expiry policy of the
@@ -63,7 +63,7 @@ your groups matching the filters will be displayed.
     - **Me:** You can set yourself as the Owner
     - **Other:** You can select some other user as the owner.
 
-- Manually [ Group Deletion](manage/groupdeletion.md) any of your group.
+- Manually [ Group Deletion](/docs/groupid/11.1/groupid/portal/group/manage/groupdeletion.md) any of your group.
 - Get a list of all groups managed by s particular group (i.e., all groups for which the selected
   group is a primary or additional owner)
 
@@ -77,7 +77,7 @@ your groups matching the filters will be displayed.
 Use the page numbers under the group listing to page through all groups.
 
 You can control the number of records to be displayed per page by modifying the **Search results per
-page** setting on the [Portal Settings](../setting/portal.md) panel.
+page** setting on the [Portal Settings](/docs/groupid/11.1/groupid/portal/setting/portal.md) panel.
 
 ## Modify Search Directory
 
@@ -86,7 +86,7 @@ a domain to search active groups from.
 
 ## Transfer Ownership
 
-You can find [Transfer Ownership](transferownership.md) option on the top right corner. Transfer
+You can find [Transfer Ownership](/docs/groupid/11.1/groupid/portal/group/transferownership.md) option on the top right corner. Transfer
 Ownership enables you to:
 
 - Assign owners to orphan groups.

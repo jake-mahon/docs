@@ -6,20 +6,20 @@ privileges.
 
 Activities are for singular activities based on a specific platform whereas Activity Groups can be
 used for cross platform activities such as granting local administrator access. See the
-[Activity Groups Page](activitygroups.md) topic for additional information.
+[Activity Groups Page](/docs/privilegesecure/4.2/privilegesecure/accessmanagement/admin/policy/page/activitygroups.md) topic for additional information.
 
 It is also possible to configure an activity to automatically run any Protection Policy associated
 with the resource when the session completes, instead of waiting for the scheduled sync. See the
-[Add Action Window](../window/activities/addaction.md) topic for additional information.
+[Add Action Window](/docs/privilegesecure/4.2/privilegesecure/accessmanagement/admin/policy/window/activities/addaction.md) topic for additional information.
 
-![Activities Page](../../../../../../../../static/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/page/activitiespage.webp)
+![Activities Page](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/page/activitiespage.webp)
 
 The pane on the left side of the page displays a list of the configured activity. This pane has the
 following features:
 
 - Search — Searches the table or list for matches to the search string. When matches are found, the
   table or list is filtered to the matching results.
-- Green + button — Create a new activity. See the [Add Activity](../add/activity.md) topic for
+- Green + button — Create a new activity. See the [Add Activity](/docs/privilegesecure/4.2/privilegesecure/accessmanagement/admin/policy/add/activity.md) topic for
   additional information.
 - Copy icon — Clones the activity and adds a new entry to the Activities list. Icon appears when
   activity is hovered over.
@@ -48,7 +48,7 @@ The selected activity details display at the top of the main pane:
 - Login Account Template — Template determines the format of the account created for Managed,
   Activity Token, Resource, and Vault Login Accounts. The template is also used if the Requester
   login format is set to Custom. See the
-  [Login Account Templates](../activityloginaccounttemplates.md) topic for additional information.
+  [Login Account Templates](/docs/privilegesecure/4.2/privilegesecure/accessmanagement/admin/policy/activityloginaccounttemplates.md) topic for additional information.
 - Create Account checkbox — Indicates whether an account is created at the beginning of the activity
   if it does not already exist. When the Activity starts, a check is made to determine if an account
   exists. If the account exists, the user is connected to the account on the resource. If the
@@ -69,7 +69,7 @@ The selected activity details display at the top of the main pane:
 
     **NOTE:** To view the password fetched from the vault, the Allow User to View Password checkbox
     must be selected in the connection profile associated with the access policy that gives the
-    requester rights to the activity. See the [Connection Profiles Page](connectionprofiles.md)
+    requester rights to the activity. See the [Connection Profiles Page](/docs/privilegesecure/4.2/privilegesecure/accessmanagement/admin/policy/page/connectionprofiles.md)
     topic for additional information.
 
 - Application to Launch — Indicates the application that will be launched on the RDS server that the
@@ -91,8 +91,8 @@ The selected activity details display at the top of the main pane:
   is only visible when the Platform is set to Active Directory.
 - Logon URL — Displays the primary logon page. When this field has a value, it will override the
   Logon URL defined on the Website resource. This option is only visible when the Platform is set to
-  Microsoft Entra ID or Website. See the [Microsoft Entra ID Details Page](details/entraid.md) and
-  [Website Details Page](details/website.md) topics for additional information.
+  Microsoft Entra ID or Website. See the [Microsoft Entra ID Details Page](/docs/privilegesecure/4.2/privilegesecure/accessmanagement/admin/policy/page/details/entraid.md) and
+  [Website Details Page](/docs/privilegesecure/4.2/privilegesecure/accessmanagement/admin/policy/page/details/website.md) topics for additional information.
 
 If any of these settings are modified, Save and Cancel buttons are displayed. Click **Save** to
 commit the modifications. Click **Cancel** to discard the modifications.
@@ -107,7 +107,7 @@ before, during, and after the session:
   may be paired with a corresponding Pre-Session action.
 
 A Link icon shows actions that are linked. Deleting a linked action will delete the corresponding
-action it is paired with. See the [Add Action Window](../window/activities/addaction.md) topic for
+action it is paired with. See the [Add Action Window](/docs/privilegesecure/4.2/privilegesecure/accessmanagement/admin/policy/window/activities/addaction.md) topic for
 additional information.
 
 **NOTE:** It is not possible to edit the Action Type. Delete the existing action and then create a
@@ -122,6 +122,6 @@ the environment. See each account type for a description.
 | -------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Requester      | The Requester login account type will use the user's own account to run the activity. The user will either log onto the resource directly or be connected to the resource via the proxy. In both cases the user will have to enter their user name and password. This login account should be used to avoid having a separately managed account. The user needs to have a matching account on the endpoint and needs to know the password to login.                                                                                                                                                                                                                                                                                                           |
 | Managed        | The Managed login account type will used an account managed by Privilege Secure to run the activity. Once created, a Managed account will persist to the endpoint. When a session ends or is canceled, the password is automatically rotated. The account will not be removed afterward, but it will be disabled when at rest. The primary use case is for instances where the user desktop experience should persist across sessions. A Managed account can be a specific account name or based on any variable added to the Login Account Template. The password for a managed account is available to the user via the UI during an active session.                                                                                                        |
-| Activity Token | The Activity Token login account will use a unique time-limited ephemeral account created when the Activity is started and removed when it is completed. The account name is automatically generated from the user’s sAMAccountName and Session ID, filled out to as many characters as configured for the activity token. See the [Activity Token Complexity Page](activitytokencomplexity.md) topic for additional information. The account name can be entirely random or based on variables or text added to the Login Account Template. The primary use case is where the user profile should be destroyed after each session and have the user log-in to a clean desktop every time they connect; a common use case for remote vendors and contractors. |
+| Activity Token | The Activity Token login account will use a unique time-limited ephemeral account created when the Activity is started and removed when it is completed. The account name is automatically generated from the user’s sAMAccountName and Session ID, filled out to as many characters as configured for the activity token. See the [Activity Token Complexity Page](/docs/privilegesecure/4.2/privilegesecure/accessmanagement/admin/policy/page/activitytokencomplexity.md) topic for additional information. The account name can be entirely random or based on variables or text added to the Login Account Template. The primary use case is where the user profile should be destroyed after each session and have the user log-in to a clean desktop every time they connect; a common use case for remote vendors and contractors. |
 | Resource       | The Resource login account is only available when the Platform is set to Website. It allows manually managed user accounts on website resources to be used to log into activities. The user name is defined in the Requester Login Format field and must exactly match the username defined on the website resource.                                                                                                                                                                                                                                                                                                                                                                                                                                          |
 | Vault          | The Vault login account will use an account that is checked out of the specified vault to run the activity. The password provided by the vault is available to the user via the UI during an active session. When a session ends or is canceled, the password is checked into the vault.                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |

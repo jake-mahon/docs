@@ -10,7 +10,7 @@ to correlate file system activity with any log source.
 
 Preconfigured Stealthbits File Activity Monitor Apps are:
 
-- Splunk - See the [File Activity Monitor App for Splunk](splunk/overview.md) topic for additional
+- Splunk - See the [File Activity Monitor App for Splunk](/docs/activitymonitor/8.0/activitymonitor/siem/splunk/overview.md) topic for additional
   information
-- QRadar - See the [Netwrix File Activity Monitor App for QRadar](qradar/overview.md) topic for
+- QRadar - See the [Netwrix File Activity Monitor App for QRadar](/docs/activitymonitor/8.0/activitymonitor/siem/qradar/overview.md) topic for
   additional information

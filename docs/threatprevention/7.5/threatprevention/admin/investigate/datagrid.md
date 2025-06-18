@@ -12,14 +12,14 @@ Follow the steps to view events in the data grid.
 - Use the arrow between the filter categories and the grid view to collapse the entire filter
   category section
 
-![Investigate interface - Data Grid](../../../../../../static/img/product_docs/threatprevention/threatprevention/admin/investigate/datagrid.webp)
+![Investigate interface - Data Grid](/img/product_docs/threatprevention/threatprevention/admin/investigate/datagrid.webp)
 
 **Step 3 –** Select the **Production** or **Archive** option button to view events from the
 respective database.
 
 The archive database is part of the Threat Prevention Database Maintenance feature and it can only
 be queried from the Administration Console. See the
-[Archive Data](../configuration/databasemaintenance/archive.md) topic for additional information.
+[Archive Data](/docs/threatprevention/7.5/threatprevention/admin/configuration/databasemaintenance/archive.md) topic for additional information.
 
 **Step 4 –** Use the **Get Top [number] Events** box to specify the number of events to be
 displayed.
@@ -36,7 +36,7 @@ from view.
 
 Each column in the data grid has a prefix identifying the type of information displayed.
 Double-click a populated grid column to access the
-[Event Viewer Window](../policies/recentevents/eventviewer.md) with detailed information on the
+[Event Viewer Window](/docs/threatprevention/7.5/threatprevention/admin/policies/recentevents/eventviewer.md) with detailed information on the
 event. The columns display the following information for each event:
 
 - Event: Policy Name – Policy which monitored or blocked the event
@@ -103,7 +103,7 @@ event. The columns display the following information for each event:
 Select an event in the data grid to view additional information for it at the bottom of the
 Investigate interface.
 
-![Investigate Interface - Attributes area](../../../../../../static/img/product_docs/threatprevention/threatprevention/admin/investigate/attributes.webp)
+![Investigate Interface - Attributes area](/img/product_docs/threatprevention/threatprevention/admin/investigate/attributes.webp)
 
 The following information (as applicable to the event) is displayed:
 
@@ -113,7 +113,7 @@ The following information (as applicable to the event) is displayed:
 - New Value – Value after the monitored change
 
 This data grid employs features for sorting, filtering, searching, and more. See the
-[ Data Grid Functionality](../navigation/datagrid.md) topic for additional information.
+[ Data Grid Functionality](/docs/threatprevention/7.5/threatprevention/admin/navigation/datagrid.md) topic for additional information.
 
 To export the data displayed in the grid to a CSV file, see the
-[Export Data](../navigation/datagrid.md#export-data) topic.
+[Export Data](/docs/threatprevention/7.5/threatprevention/admin/navigation/datagrid.md#export-data) topic.

@@ -3,7 +3,7 @@
 The Scope page is used to define which folders will be included will be searched by this query. It
 is a wizard page for all of the categories.
 
-![Exchange Public Folder Data Collector Wizard Scope page](../../../../../../static/img/product_docs/activitymonitor/config/activedirectory/scope.webp)
+![Exchange Public Folder Data Collector Wizard Scope page](/img/product_docs/activitymonitor/config/activedirectory/scope.webp)
 
 In the Choose Type of Public Folders to be queried section, select either:
 
@@ -36,7 +36,7 @@ In the Choose Scope of Public Folders to be queried section, select one of the f
 When Scope to **Selected Public Folders** is selected on the Scope page, the options to specify the
 desired folders are enabled.
 
-![Scope page with Selected Public Folders option selected](../../../../../../static/img/product_docs/accessanalyzer/admin/datacollector/exchangepublicfolder/scopeselectedpublicfolders.webp)
+![Scope page with Selected Public Folders option selected](/img/product_docs/accessanalyzer/admin/datacollector/exchangepublicfolder/scopeselectedpublicfolders.webp)
 
 Configure the scope of the selected public folders to be queried:
 
@@ -57,7 +57,7 @@ selected word from the filter list.
 When Scope to **Selected Table** is selected on the Scope page, the options to specify the desired
 tables are enabled.
 
-![Scope page with Selected Table option selected](../../../../../../static/img/product_docs/accessanalyzer/admin/datacollector/exchangepublicfolder/scopeselectedtable.webp)
+![Scope page with Selected Table option selected](/img/product_docs/accessanalyzer/admin/datacollector/exchangepublicfolder/scopeselectedtable.webp)
 
 Configure the selected tables to be queried:
 

@@ -12,7 +12,7 @@ that workflow. Designated users can approve or deny workflow requests using the 
 portal.
 
 NOTE: Workflows require an SMTP server to be configured for the identity store. See the
-[Configure an SMTP Server](../identitystore/configure/smtpserver.md) topic.
+[Configure an SMTP Server](/docs/groupid/11.1/groupid/admincenter/identitystore/configure/smtpserver.md) topic.
 
 ## System Workflows
 

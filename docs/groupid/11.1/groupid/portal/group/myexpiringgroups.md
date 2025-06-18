@@ -10,7 +10,7 @@ reaches the expiry date.
 
 By default, the tab lists the groups that you are the primary owner for. To include the groups for
 which you are an additional owner, select the **Display additional group ownership in My Expiring
-Groups** check box on the [Portal Settings](../setting/portal.md) panel.
+Groups** check box on the [Portal Settings](/docs/groupid/11.1/groupid/portal/setting/portal.md) panel.
 
 You can [Modify Search Directory](allgroups.md#modify-search-directory) to search expiring groups
 and add [Filter All Groups](allgroups.md#filter-all-groups)by clicking **My Expiring Group Grid

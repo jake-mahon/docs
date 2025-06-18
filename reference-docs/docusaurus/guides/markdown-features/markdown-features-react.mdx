@@ -108,7 +108,7 @@ import BrowserWindow from '@site/src/components/BrowserWindow';
 
 :::tip
 
-The `@site` alias points to your website's directory, usually where the `docusaurus.config.js` file is. Using an alias instead of relative paths (`'../../src/components/BrowserWindow'`) saves you from updating import paths when moving files around, or when [versioning docs](../docs/versioning.mdx) and [translating](../../i18n/i18n-tutorial.mdx).
+The `@site` alias points to your website's directory, usually where the `docusaurus.config.js` file is. Using an alias instead of relative paths (`'../../src/components/BrowserWindow'`) saves you from updating import paths when moving files around, or when [versioning docs](/reference-docs/docusaurus/guides/docs/versioning.mdx) and [translating](/reference-docs/docusaurus/i18n/i18n-tutorial.mdx).
 
 :::
 
@@ -162,9 +162,9 @@ It will be compiled to a React component containing `ul`, `li`, `p`, and `Highli
 
 In Docusaurus, the MDX component scope is provided by the `@theme/MDXComponents` file. It's not a React component, _per se_, unlike most other exports under the `@theme/` alias: it is a record from tag names like `Highlight` to their React component implementations.
 
-If you [swizzle](../../swizzling.mdx) this component, you will find all tags that have been implemented, and you can further customize our implementation by swizzling the respective sub-component, like `@theme/MDXComponents/Code` (which is used to render [Markdown code blocks](./markdown-features-code-blocks.mdx)).
+If you [swizzle](/reference-docs/docusaurus/swizzling.mdx) this component, you will find all tags that have been implemented, and you can further customize our implementation by swizzling the respective sub-component, like `@theme/MDXComponents/Code` (which is used to render [Markdown code blocks](/reference-docs/docusaurus/guides/markdown-features/markdown-features-code-blocks.mdx)).
 
-If you want to register extra tag names (like the `<Highlight>` tag above), you should consider [wrapping `@theme/MDXComponents`](../../swizzling.mdx#wrapping), so you don't have to maintain all the existing mappings. Since the swizzle CLI doesn't allow wrapping non-component files yet, you should manually create the wrapper:
+If you want to register extra tag names (like the `<Highlight>` tag above), you should consider [wrapping `@theme/MDXComponents`](../../swizzling.mdx#wrapping))), so you don't have to maintain all the existing mappings. Since the swizzle CLI doesn't allow wrapping non-component files yet, you should manually create the wrapper:
 
 ```js title="src/theme/MDXComponents.js"
 import React from 'react';
@@ -285,7 +285,7 @@ import MyComponentSource from '!!raw-loader!@site/src/pages/examples/_myComponen
 </BrowserWindow>
 ```
 
-See [using code blocks in JSX](./markdown-features-code-blocks.mdx#usage-in-jsx) for more details of the `<CodeBlock>` component.
+See [using code blocks in JSX](./markdown-features-code-blocks.mdx#usage-in-jsx))) for more details of the `<CodeBlock>` component.
 
 :::note
 
@@ -333,7 +333,7 @@ This way, you can reuse content among multiple pages and avoid duplicating mater
 Within the MDX page, the following variables are available as globals:
 
 - `frontMatter`: the front matter as a record of string keys and values;
-- `toc`: the table of contents, as a tree of headings. See also [Inline TOC](./markdown-features-toc.mdx#inline-table-of-contents) for a more concrete use-case.
+- `toc`: the table of contents, as a tree of headings. See also [Inline TOC](./markdown-features-toc.mdx#inline-table-of-contents))) for a more concrete use-case.
 - `contentTitle`: the Markdown title, which is the first `h1` heading in the Markdown text. It's `undefined` if there isn't one (e.g. title specified in the front matter).
 
 ```jsx
@@ -347,7 +347,7 @@ The table of contents for this page, serialized:
 The front matter of this page:
 
 <ul>
-  {Object.entries(frontMatter).map(([key, value]) => <li key={key}><b>{key}</b>: {value}</li>)}
+  {Object.entries(frontMatter).map(([key, value]) => <li key={key}><b>{key}</b>: {value}</li)}
 </ul>
 
 <p>The title of this page is: <b>{contentTitle}</b></p>
@@ -365,7 +365,7 @@ The table of contents for this page, serialized:
 The front matter of this page:
 
 <ul>
-  {Object.entries(frontMatter).map(([key, value]) => <li key={key}><b>{key}</b>: {value}</li>)}
+  {Object.entries(frontMatter).map(([key, value]) => <li key={key}><b>{key}</b>: {value}</li)}
 </ul>
 
 <p>The title of this page is: <b>{contentTitle}</b></p>

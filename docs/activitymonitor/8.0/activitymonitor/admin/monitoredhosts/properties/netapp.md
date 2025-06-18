@@ -3,7 +3,7 @@
 The NetApp tab on a host’s Properties window allows users to modify settings, which are populated
 with the information entered when the NetApp host is added to the monitored hosts table.
 
-![Host Properties NetApp Tab](../../../../../../../static/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/properties/netapptab.webp)
+![Host Properties NetApp Tab](/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/properties/netapptab.webp)
 
 Modify the targeted NetApp device by specifying a NetApp device to be monitored for activity and
 credentials to access it with the Data ONTAP API.
@@ -15,7 +15,7 @@ credentials to access it with the Data ONTAP API.
     - HTTP
 - Connect – Click to connect using the selected protocol and validate the connection with NetApp
 
-![Trusted Server Certificate popup window](../../../../../../../static/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/trustedservercertificate.webp)-
+![Trusted Server Certificate popup window](/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/trustedservercertificate.webp)-
 HTTPS Options – Opens the Trusted server certificate window to customize the certificate
 verification during a TLS session
 

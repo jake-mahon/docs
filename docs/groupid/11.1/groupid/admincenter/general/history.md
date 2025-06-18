@@ -18,8 +18,8 @@ History can be viewed using the **History** node in Admin Center. You can:
 - Narrow down the history items using filters.
 - Export history data to Microsoft Excel, CSV, and XML formats.
 
-See the [History in Directory Manager](../history.md) and
-[Event Logging](../identitystore/history/eventlogging.md) topics for additional information.
+See the [History in Directory Manager](/docs/groupid/11.1/groupid/admincenter/history.md) and
+[Event Logging](/docs/groupid/11.1/groupid/admincenter/identitystore/history/eventlogging.md) topics for additional information.
 
 What do you want to do?
 
@@ -48,28 +48,28 @@ To view history:
     - **Removed Item(s):** This box is displayed for actions showing deletion. It displays a short
       description of the action.
 3. The **Add Note** button is available if you performed this action. See
-   [Annotate History Items](../identitystore/history/details.md#annotate-history-items) to manage
+   [Annotate History Items](/docs/groupid/11.1/groupid/admincenter/identitystore/history/details.md#annotate-history-items) to manage
    notes.
 4. Click **Close**.
 
 ### Filter History Data
 
 Filters on the **Admin Center History** page are similar to those on the **Identity Store History**
-page. Refer to the [Filter History Data](../identitystore/history/view.md#filter-history-data) topic
+page. Refer to the [Filter History Data](/docs/groupid/11.1/groupid/admincenter/identitystore/history/view.md#filter-history-data) topic
 to apply the filters.
 
 ### Navigate the History Data
 
 Navigation options on the **Admin Center History** page are similar to those on the **Identity Store
 History** page. Refer to the
-[Navigate Through History Items](../identitystore/history/view.md#navigate-through-history-items)
+[Navigate Through History Items](/docs/groupid/11.1/groupid/admincenter/identitystore/history/view.md#navigate-through-history-items)
 topic for help.
 
 ## Annotate History Items
 
 1. In Admin Center, click **History** in the left pane.
 2. On the **Admin Center History** page, click a history item and proceed to add a note. See the
-   [Annotate History Items](../identitystore/history/details.md#annotate-history-items) topic for
+   [Annotate History Items](/docs/groupid/11.1/groupid/admincenter/identitystore/history/details.md#annotate-history-items) topic for
    details.
 
 ## Export Admin Center History

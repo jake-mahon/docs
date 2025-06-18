@@ -6,11 +6,11 @@ they are appropriate:
 - **Role Permission Review**: Review Permissions and Permission Levels granted within the Role
 - **Membership Review**: Review the individuals assigned to the Role
 
-The [Owner User Access Reviews List](owner_uar_list.md) topic has details for accomplishing your
+The [Owner User Access Reviews List](/docs/strongpointfornetsuite/uar/uar_owner/owner_uar_list.md) topic has details for accomplishing your
 reviews.
 
 Owners are notified with an email message when a new review has been assigned. You can click one of
-the links in the email, or login to NetSuite and open [User Access Review](../access_app.md) to
+the links in the email, or login to NetSuite and open [User Access Review](/docs/strongpointfornetsuite/uar/access_app.md) to
 access the dashboard.
 
 1. Open **User Access Review** from NetSuite.
@@ -18,14 +18,14 @@ access the dashboard.
 
 Here is an example owner dashboard showing new assignments.
 
-![UAR Owner dashboard](../../../../static/img/product_docs/strongpointfornetsuite/uar/uar_owner/dashboard_owner.webp)
+![UAR Owner dashboard](/img/product_docs/strongpointfornetsuite/uar/uar_owner/dashboard_owner.webp)
 
 ## Dashboard Controls
 
 - **Home** icon is your dashboard overview, and the default display when you log in.
-- **UAR List** is your **[User Access Reviews List](owner_uar_list.md)**.
-- **UAR History** is your **[User Access Reviews History](../uar_history.md)**.
-- **My Roles** is a list of all your assigned [Roles](owner_uar_roles.md).
+- **UAR List** is your **[User Access Reviews List](/docs/strongpointfornetsuite/uar/uar_owner/owner_uar_list.md)**.
+- **UAR History** is your **[User Access Reviews History](/docs/strongpointfornetsuite/uar/uar_history.md)**.
+- **My Roles** is a list of all your assigned [Roles](/docs/strongpointfornetsuite/uar/uar_owner/owner_uar_roles.md).
 - **Open Global Reviews** shortcut shows the number of open reviews. Opens your **User Access
   Reviews List**.
 - **Open Reviews with Additional Reviewers** shortcut shows the number of open reviews. Opens your

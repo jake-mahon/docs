@@ -97,10 +97,10 @@ use:
 
 - Proxy Mode with Applet
 
-    - [Proxy Mode with Applet Permissions](proxymodeappletpermissions.md)
-    - [Proxy Mode with Applet Port Requirements](proxymodeappletports.md)
+    - [Proxy Mode with Applet Permissions](/docs/accessanalyzer/12.0/requirements/solutions/filesystem/proxymodeappletpermissions.md)
+    - [Proxy Mode with Applet Port Requirements](/docs/accessanalyzer/12.0/requirements/solutions/filesystem/proxymodeappletports.md)
 
 - Proxy Mode as a Service
 
-    - [Proxy Mode as a Service Permissions](proxymodeservicepermissions.md)
-    - [Proxy Mode as a Service Port Requirements](proxymodeserviceports.md)
+    - [Proxy Mode as a Service Permissions](/docs/accessanalyzer/12.0/requirements/solutions/filesystem/proxymodeservicepermissions.md)
+    - [Proxy Mode as a Service Port Requirements](/docs/accessanalyzer/12.0/requirements/solutions/filesystem/proxymodeserviceports.md)

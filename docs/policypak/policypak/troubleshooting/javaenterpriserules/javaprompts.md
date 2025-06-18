@@ -15,12 +15,12 @@ If you see a message "Application Blocked by Java Security" (like what is seen b
 to automate and work around this message; you can try to add the site to the Java Exceptions Site
 list.
 
-![558_1_ppjrm-img-01](../../../../../static/img/product_docs/policypak/policypak/troubleshooting/javaenterpriserules/558_1_ppjrm-img-01.webp)
+![558_1_ppjrm-img-01](/img/product_docs/policypak/policypak/troubleshooting/javaenterpriserules/558_1_ppjrm-img-01.webp)
 
 The fastest way to automate this is with Netwrix Endpoint Policy Manager (formerly PolicyPak)
 Application Settings Manager's Java Paks (any of them starting with Java 7 U 25 have this feature).
 The video is here:
-[Manage and Lock down Java Site List Exceptions](../../video/applicationsettings/java/lockdown.md).
+[Manage and Lock down Java Site List Exceptions](/docs/policypak/policypak/video/applicationsettings/java/lockdown.md).
 
 Other Java prompts you might encounter, which Endpoint Policy Manager Application Settings Manager
 can overcome are:
@@ -38,15 +38,15 @@ and look for the KB articles which start with the word "Java:"
 
 When an end user sees a Java applet on a website, they are asked to Activate Java.
 
-![558_2_ppjrm-img-02](../../../../../static/img/product_docs/policypak/policypak/troubleshooting/javaenterpriserules/558_2_ppjrm-img-02.webp)
+![558_2_ppjrm-img-02](/img/product_docs/policypak/policypak/troubleshooting/javaenterpriserules/558_2_ppjrm-img-02.webp)
 
 Then they are asked to "Allow Now" or "Allow and Remember".
 
-![558_3_ppjrm-img-03](../../../../../static/img/product_docs/policypak/policypak/troubleshooting/javaenterpriserules/558_3_ppjrm-img-03.webp)
+![558_3_ppjrm-img-03](/img/product_docs/policypak/policypak/troubleshooting/javaenterpriserules/558_3_ppjrm-img-03.webp)
 
 The fastest way to automate "Allow and Remember" for Firefox per website is to read and follow this
 KB:
-[Firefox: How do I set "Allow Now", "Allow and Remember" or "Block Plugin" as plug-ins are requested?](../../applicationsettings/preconfigured/firefox/allowremember.md)
+[Firefox: How do I set "Allow Now", "Allow and Remember" or "Block Plugin" as plug-ins are requested?](/docs/policypak/policypak/applicationsettings/preconfigured/firefox/allowremember.md)
 
 ### Type 3: Java Messages Specifically Found in Internet Explorer
 
@@ -58,29 +58,29 @@ Mode for this site and allow the control to run."
 
 The message can be seen below.
 
-![558_4_ppjrm-img-04](../../../../../static/img/product_docs/policypak/policypak/troubleshooting/javaenterpriserules/558_4_ppjrm-img-04.webp)
+![558_4_ppjrm-img-04](/img/product_docs/policypak/policypak/troubleshooting/javaenterpriserules/558_4_ppjrm-img-04.webp)
 
 Or this occurs...
 
-![558_5_2017-01-23_1038](../../../../../static/img/product_docs/policypak/policypak/troubleshooting/javaenterpriserules/558_5_2017-01-23_1038.webp)
+![558_5_2017-01-23_1038](/img/product_docs/policypak/policypak/troubleshooting/javaenterpriserules/558_5_2017-01-23_1038.webp)
 
 This message occurs when these items are set manually or with Group Policy:
 
-![558_6_ppjrm-img-05](../../../../../static/img/product_docs/policypak/policypak/troubleshooting/javaenterpriserules/558_6_ppjrm-img-05.webp)
+![558_6_ppjrm-img-05](/img/product_docs/policypak/policypak/troubleshooting/javaenterpriserules/558_6_ppjrm-img-05.webp)
 
 The way to remove the prompt when running the Java applet is the make the site a Trusted Site in IE.
 You can do this manually in IE like this:
 
-![558_7_ppjrm-img-06](../../../../../static/img/product_docs/policypak/policypak/troubleshooting/javaenterpriserules/558_7_ppjrm-img-06.webp)
+![558_7_ppjrm-img-06](/img/product_docs/policypak/policypak/troubleshooting/javaenterpriserules/558_7_ppjrm-img-06.webp)
 
 Or using Endpoint Policy Manager Application Settings Manager like this:
 
-![558_8_ppjrm-img-07](../../../../../static/img/product_docs/policypak/policypak/troubleshooting/javaenterpriserules/558_8_ppjrm-img-07.webp)
+![558_8_ppjrm-img-07](/img/product_docs/policypak/policypak/troubleshooting/javaenterpriserules/558_8_ppjrm-img-07.webp)
 
 Or use Endpoint Policy Manager Application Settings Manager to merge your site with what the user
 already has:
 
-![558_9_ppjrm-img-08](../../../../../static/img/product_docs/policypak/policypak/troubleshooting/javaenterpriserules/558_9_ppjrm-img-08.webp)
+![558_9_ppjrm-img-08](/img/product_docs/policypak/policypak/troubleshooting/javaenterpriserules/558_9_ppjrm-img-08.webp)
 
 IE Message 2:
 
@@ -92,11 +92,11 @@ Publisher: Microsoft Windows
 
 The message can be seen as below:
 
-![558_10_ppjrm-img-09](../../../../../static/img/product_docs/policypak/policypak/troubleshooting/javaenterpriserules/558_10_ppjrm-img-09.webp)
+![558_10_ppjrm-img-09](/img/product_docs/policypak/policypak/troubleshooting/javaenterpriserules/558_10_ppjrm-img-09.webp)
 
 You get this specific prompt when these are set manually or via Group Policy / PolicyPak:
 
-![558_11_ppjrm-img-10](../../../../../static/img/product_docs/policypak/policypak/troubleshooting/javaenterpriserules/558_11_ppjrm-img-10.webp)
+![558_11_ppjrm-img-10](/img/product_docs/policypak/policypak/troubleshooting/javaenterpriserules/558_11_ppjrm-img-10.webp)
 
 You can automatically make this prompt never occur again (automatically) using Group Policy
 Preferences:
@@ -116,7 +116,7 @@ And set the following values:
 
 Like this:
 
-![558_12_ppjrm-img-11](../../../../../static/img/product_docs/policypak/policypak/troubleshooting/javaenterpriserules/558_12_ppjrm-img-11.webp)
+![558_12_ppjrm-img-11](/img/product_docs/policypak/policypak/troubleshooting/javaenterpriserules/558_12_ppjrm-img-11.webp)
 
 Result:You no longer get the prompt for iCacls, but the Java applet will not run.
 
@@ -128,11 +128,11 @@ your computer. If you do not trust this website, do not open this program."
 Name: Java SE Runntime Environment 8 Update…  
 Publisher: Oracle America, Inc.
 
-![558_13_ppjrm-img-12](../../../../../static/img/product_docs/policypak/policypak/troubleshooting/javaenterpriserules/558_13_ppjrm-img-12.webp)
+![558_13_ppjrm-img-12](/img/product_docs/policypak/policypak/troubleshooting/javaenterpriserules/558_13_ppjrm-img-12.webp)
 
 You see this message when these are set like this manually or using Group Policy / PolicyPak:
 
-![558_14_ppjrm-img-13](../../../../../static/img/product_docs/policypak/policypak/troubleshooting/javaenterpriserules/558_14_ppjrm-img-13.webp)
+![558_14_ppjrm-img-13](/img/product_docs/policypak/policypak/troubleshooting/javaenterpriserules/558_14_ppjrm-img-13.webp)
 
 You can automatically make this prompt never occur again (automatically) using Group Policy
 Preferences:
@@ -153,6 +153,6 @@ And set the following values:
 
 Like this:
 
-![558_15_ppjrm-img-14](../../../../../static/img/product_docs/policypak/policypak/troubleshooting/javaenterpriserules/558_15_ppjrm-img-14.webp)
+![558_15_ppjrm-img-14](/img/product_docs/policypak/policypak/troubleshooting/javaenterpriserules/558_15_ppjrm-img-14.webp)
 
 Result: The Java applet is ALLOWED.

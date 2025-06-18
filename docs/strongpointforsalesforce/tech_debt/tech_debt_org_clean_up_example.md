@@ -11,7 +11,7 @@ Using the steps outlined Org Clean Up, we can proceed quickly, efficiently and w
 
 We are going to use the out-of-the-box Default Clean Up List View with these filters:
 
-![Filters](../../../static/img/product_docs/strongpointforsalesforce/tech_debt/tech_debt_9.webp)
+![Filters](/img/product_docs/strongpointforsalesforce/tech_debt/tech_debt_9.webp)
 
 - Filter on the single Record Type **Objects & Fields** to enable editing the Customizations
   directly from the List View. This filter selects all Objects and their related Fields.
@@ -49,7 +49,7 @@ complications.
 
 1. Set the **Clean Up Status** on any field without dependencies to **To Be Cleaned Up**. In the
    List View, click the
-   ![Edit icon](../../../static/img/product_docs/strongpointforsalesforce/tech_debt/edit_icon.webp)
+   ![Edit icon](/img/product_docs/strongpointforsalesforce/tech_debt/edit_icon.webp)
    icon and edit the **Clean Up Status** and other Clean Up Fields. You can select multiple fields
    using the checkboxes to set the values for the group.
 2. For easy reference later, set a project name in the **Clean Up Classification** field such as
@@ -116,18 +116,18 @@ a Change Request directly from the List View:
    **Clean Up**. If you are using an external change approval system such as Jira or ServiceNow, you
    can enter the **External Change Request Number**.
 
-    ![Edit Change Request](../../../static/img/product_docs/strongpointforsalesforce/tech_debt/tech_debt_3.webp)
+    ![Edit Change Request](/img/product_docs/strongpointforsalesforce/tech_debt/tech_debt_3.webp)
 
 3. On your List View, set the **Add To Change Request** field for the Customizations you are
    planning to clean up with this Change Request.
 
-    ![Default Clean Up List View](../../../static/img/product_docs/strongpointforsalesforce/tech_debt/tech_debt_12.webp)
+    ![Default Clean Up List View](/img/product_docs/strongpointforsalesforce/tech_debt/tech_debt_12.webp)
 
 4. Open your Change Request and view the Impact Analysis for the Customizations you want to clean
    up. You are warned if there are SOQL, code, workflow, role, profile filter report or List View
    dependencies or if the field affects actively used Reports.
 
-    ![Clean Up Unused Fields](../../../static/img/product_docs/strongpointforsalesforce/tech_debt/tech_debt_4.webp)
+    ![Clean Up Unused Fields](/img/product_docs/strongpointforsalesforce/tech_debt/tech_debt_4.webp)
 
 5. If you need to make changes to the Customizations, **Edit** the Change Request and select **View
    All** in the Customizations field. You can **Add** or **Remove** Customizations to the **Selected
@@ -183,8 +183,8 @@ required by policy, but either not created or not approved. The report includes 
 - Diff Summary (detailed comparison of before and after)
 - Related Change Requests, if they exist
 
-The [Change Enablement Reports](../change_management/change_management_reports.md) and List Views
+The [Change Enablement Reports](/docs/strongpointforsalesforce/change_management/change_management_reports.md) and List Views
 give you visibility into the changes occurring in your orgs.
 
 **Next Technical Debt Topic:**
-[Specific Clean Up Approaches](tech_debt_org_specific_clean_up_approaches.md)
+[Specific Clean Up Approaches](/docs/strongpointforsalesforce/tech_debt/tech_debt_org_specific_clean_up_approaches.md)

@@ -26,7 +26,7 @@ The Users tab has the following features:
 The table has the following columns:
 
 - Checkbox — Check to select one or more items
-- Expand — Click the expand (>) icon to show additional information about the activities and
+- Expand — Click the expand () icon to show additional information about the activities and
   resources authorized for the selected user or group
 - Name — Displays the name of the account. Click the link to view additional details.See the
   [User, Group, & Application Details Page](/docs/privilegesecure/4.1/privilegesecure/accessmanagement/admin/policy/page/details/usergroupapplication.md)

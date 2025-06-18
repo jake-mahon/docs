@@ -21,9 +21,9 @@ may not be able to be run based upon the processor you are using. For instance, 
 Surface Pro X can run `c:\windows\SysArm32\Calc.exe`, but a Mac M1 cannot run that same problem
 (both examples are below).
 
-![992_1_image-20231203190233-1_950x681](../../../../../static/img/product_docs/policypak/policypak/requirements/support/992_1_image-20231203190233-1_950x681.webp)
+![992_1_image-20231203190233-1_950x681](/img/product_docs/policypak/policypak/requirements/support/992_1_image-20231203190233-1_950x681.webp)
 
-![992_2_image-20231203190233-2_950x744](../../../../../static/img/product_docs/policypak/policypak/requirements/support/992_2_image-20231203190233-2_950x744.webp)
+![992_2_image-20231203190233-2_950x744](/img/product_docs/policypak/policypak/requirements/support/992_2_image-20231203190233-2_950x744.webp)
 
 **NOTE:** When Endpoint Policy Manager CSE is installed we will not install some components which
 don't apply when the processor is determined to be unable to run ARM32 applications.

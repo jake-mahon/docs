@@ -51,7 +51,7 @@ Customizations can be added to any open Change Request. On the Change Request, c
 Customization** to launch a window where you can search for customizations, or enter existing
 customizations in the **Customizations** field. The **Proposed Customizations** are for new
 customizations that do not exist in any account. Refer to
-[Creating a Change Request](../change_management/creating_change_request.md) for details.
+[Creating a Change Request](/docs/strongpointfornetsuite/change_management/creating_change_request.md) for details.
 
 ## Search for Customizations
 
@@ -61,7 +61,7 @@ Quick Search**
 You can search using several factors and submit. When looking up by **Name**, using **Contains**
 helps if you do not have the exact name.
 
-![custquicksearch](../../../static/img/product_docs/strongpointfornetsuite/customizations/custquicksearch.webp)
+![custquicksearch](/img/product_docs/strongpointfornetsuite/customizations/custquicksearch.webp)
 
 ## Prototype Customizations
 
@@ -87,7 +87,7 @@ Administrators can perform Approval Overrides on a Change Request.
 2. Click **Edit**.
 3. Select **Approved** from the **Approval Status** list.
 
-    ![Change Status to Approved](../../../static/img/product_docs/strongpointfornetsuite/installing_strongpoint/golive_approval_override.webp)
+    ![Change Status to Approved](/img/product_docs/strongpointfornetsuite/installing_strongpoint/golive_approval_override.webp)
 
 The Status bar is set to **Approved (Override)** and the administrator's name is displayed in the
 **Approval Override By** field.
@@ -98,7 +98,7 @@ If the AutoSpider is not run, your Change Logs will be missing the **Changed by*
 Change Date** fields. When the Change Log is newly created, the fields contain **Pending
 AutoSpider**. If too many days go by, the fields change to **Could not be determined**.
 
-Refer to [Setting Up the AutoSpider and Alerts](running_the_spider.md) for details.
+Refer to [Setting Up the AutoSpider and Alerts](/docs/strongpointfornetsuite/installing_strongpoint/running_the_spider.md) for details.
 
 ## New Script Deployments on Non-Compliant Changes Report
 
@@ -111,7 +111,7 @@ Deployment Record on the Change Request. To properly add and deploy a script:
 4. Add the Deployment Record to the Change Request.
 5. Deploy the script.
 
-If your site uses [Opportunistic Clearance](../change_management/opportunistic_clearance.md), the
+If your site uses [Opportunistic Clearance](/docs/strongpointfornetsuite/change_management/opportunistic_clearance.md), the
 deployment record is handled automatically. You should make sure you understand all of the
 ramifications of Opportunistic Clearance prior to enabling it for your account.
 
@@ -134,4 +134,4 @@ No action is required to fix this situation.
 ## You do not have a Valid License Message
 
 If a user sees a License message, you need to grant them a license. Refer to the
-[License Manager](license_manager.md) topic.
+[License Manager](/docs/strongpointfornetsuite/installing_strongpoint/license_manager.md) topic.

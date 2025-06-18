@@ -118,7 +118,7 @@ To verify that you have selected the correct binding type, do the following:
 
 Step 4 – In AD FS, we configured an Active Directory attribute that the identity provider will use
 for authenticating users (see step 16 in the
-[Configure Relaying Party Trust in AD FS](configurerelayingpartytrust.md) topic). In our example, we
+[Configure Relaying Party Trust in AD FS](/docs/groupid/11.1/groupid/authenticate/asserviceprovider/adfs/configurerelayingpartytrust.md) topic). In our example, we
 used the UPN attribute that stores the user principal name. Now in the Advanced section, we have to
 refer to this attribute.  
 In the Identity Location list, select the _Identity is an attribute element_ option.

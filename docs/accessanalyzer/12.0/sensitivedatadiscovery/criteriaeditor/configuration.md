@@ -3,12 +3,12 @@
 Use the configuration pane to view sub-criteria information for System Criteria and to view, add,
 edit, and remove sub-criteria information for User Criteria.
 
-![Configuration Pane](../../../../../static/img/product_docs/accessanalyzer/sensitivedatadiscovery/criteriaeditor/configurationpanesystemcriteria.webp)
+![Configuration Pane](/img/product_docs/accessanalyzer/sensitivedatadiscovery/criteriaeditor/configurationpanesystemcriteria.webp)
 
 The information in the configuration pane changes based on the criteria currently selected in the
 navigation pane.
 
-![Options at the top of the configuration pane](../../../../../static/img/product_docs/accessanalyzer/sensitivedatadiscovery/criteriaeditor/configurationpanetop.webp)
+![Options at the top of the configuration pane](/img/product_docs/accessanalyzer/sensitivedatadiscovery/criteriaeditor/configurationpanetop.webp)
 
 The options at the top of the Configuration Pane are:
 
@@ -40,7 +40,7 @@ The options at the top of the Configuration Pane are:
     - Minimum Matches – Minimum number of match hits required for a sub-criteria match hit
     - Match Type – Displays whether the sub-criteria **Must match** or **Must not match**
 
-![Options at the bottom of the configuration pane](../../../../../static/img/product_docs/accessanalyzer/sensitivedatadiscovery/criteriaeditor/configurationpanebottom.webp)
+![Options at the bottom of the configuration pane](/img/product_docs/accessanalyzer/sensitivedatadiscovery/criteriaeditor/configurationpanebottom.webp)
 
 The options at the bottom of the configuration pane are:
 
@@ -50,9 +50,9 @@ The options at the bottom of the configuration pane are:
   that can be added are **Keyword**, **Pattern**, and **Summary**. See the following topics for
   additional information:
 
-    - [Keyword Criteria](criteriatype/keyword.md)
-    - [Regular Expression (Pattern) Criteria](criteriatype/regularexpression.md)
-    - [Summary Criteria](criteriatype/summary.md)
+    - [Keyword Criteria](/docs/accessanalyzer/12.0/sensitivedatadiscovery/criteriaeditor/criteriatype/keyword.md)
+    - [Regular Expression (Pattern) Criteria](/docs/accessanalyzer/12.0/sensitivedatadiscovery/criteriaeditor/criteriatype/regularexpression.md)
+    - [Summary Criteria](/docs/accessanalyzer/12.0/sensitivedatadiscovery/criteriaeditor/criteriatype/summary.md)
 
 - Remove – Remove sub-criteria from the Required matched sub-criteria list
 - Edit – Edit the currently selected sub-criteria
@@ -84,7 +84,7 @@ The options at the bottom of the configuration pane are:
   the criteria. Delete a metadata type by clicking the **X** button in the gray metadata tag.
 
     - For a list of available out-of-the-box metadata tags, see the
-      [Default Metadata Tag Values](../metadatatags.md) topic for additional information
+      [Default Metadata Tag Values](/docs/accessanalyzer/12.0/sensitivedatadiscovery/metadatatags.md) topic for additional information
 
 - Cancel – Exit the Sensitive Data Criteria Editor without saving changes
 - Save – Save changes made to the current criteria
@@ -93,7 +93,7 @@ The options at the bottom of the configuration pane are:
 
 Use the Criteria Tester window to test current criteria configurations.
 
-![Criteria Tester window](../../../../../static/img/product_docs/accessanalyzer/sensitivedatadiscovery/criteriaeditor/criteriatester.webp)
+![Criteria Tester window](/img/product_docs/accessanalyzer/sensitivedatadiscovery/criteriaeditor/criteriatester.webp)
 
 The options in the Criteria Tester are:
 

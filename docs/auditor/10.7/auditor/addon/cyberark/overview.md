@@ -30,7 +30,7 @@ into actions related to CyberArk tools, in particular:
 The add-on is implemented as a syslog service that collects activity data from CyberArk system (PAS)
 and sends it to Auditor using the Integration API.
 
-![HIW_CyberArch](../../../../../../static/img/product_docs/auditor/auditor/addon/cyberark/diagram_thumb_0_0.webp)
+![HIW_CyberArch](/img/product_docs/auditor/auditor/addon/cyberark/diagram_thumb_0_0.webp)
 
 The add-on operates as a syslog listener for the CyberArk system. On a high level, the solution
 works as follows:
@@ -46,7 +46,7 @@ works as follows:
    parameters for syslog message forwarding, including add-on installation server settings, the IDs
    of events to be monitored, etc.
 
-    See the [Monitored Events](monitoredevents.md) topic for additional information on the events
+    See the [Monitored Events](/docs/auditor/10.7/auditor/addon/cyberark/monitoredevents.md) topic for additional information on the events
     supported for monitoring out of the box.
 
 3. On the add-on installation server, the administrator runs the installation file and configures
@@ -60,7 +60,7 @@ works as follows:
    them to the Audit Database and Long-Term Archive. Data is sent periodically, by default every 5
    seconds.
 
-See the [Integration API](../../api/overview.md) topic for additional information on the structure
+See the [Integration API](/docs/auditor/10.7/auditor/api/overview.md) topic for additional information on the structure
 of the activity record and the capabilities of the Integration API.
 
 7. Users open Auditor Client to work with collected data:
@@ -77,7 +77,7 @@ follows:
 
 | Where                                                                          | Prerequisite to check                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
 | ------------------------------------------------------------------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| The Auditor Server side                                                        | - The Integration API and Audit Database settings are configured in Auditor Server settings. See the [Prerequisites](../../api/prerequisites.md) and [Audit Database](../../admin/settings/auditdatabase.md) topics for additional information. - The **TCP 9699** port must be open on Windows firewall for inbound connections. - User account under which data will be written to the Audit Database requires the **Contributor** role in Auditor. See the [Role-Based Access and Delegation](../../admin/monitoringplans/delegation.md) for additional information. Alternatively, you can grant it the **Global administrator** role, or add that account to the **Netwrix Auditor Administrators** group. |
+| The Auditor Server side                                                        | - The Integration API and Audit Database settings are configured in Auditor Server settings. See the [Prerequisites](/docs/auditor/10.7/auditor/api/prerequisites.md) and [Audit Database](/docs/auditor/10.7/auditor/admin/settings/auditdatabase.md) topics for additional information. - The **TCP 9699** port must be open on Windows firewall for inbound connections. - User account under which data will be written to the Audit Database requires the **Contributor** role in Auditor. See the [Role-Based Access and Delegation](/docs/auditor/10.7/auditor/admin/monitoringplans/delegation.md) for additional information. Alternatively, you can grant it the **Global administrator** role, or add that account to the **Netwrix Auditor Administrators** group. |
 | The machine where the Add-On will be installed (Auditor Server is recommended) | - The **UDP 514** port must be open on Windows firewall for inbound connections. If you are using Netwrix Auditor for Network Devices, this port may be already in use, and you should provide another one. Another option is to install the add-on and Auditor Server on different machines. - .Net Framework 4.7.2 and above is installed. Review the following Microsoft technical article for additional information on how to install .Net Framework 4.7.2: [Microsoft .NET Framework 4.7.2 offline installer for Windows](https://support.microsoft.com/en-us/topic/microsoft-net-framework-4-7-2-offline-installer-for-windows-05a72734-2127-a15d-50cf-daf56d5faec2).                                    |
 | CyperArk PAS                                                                   | Version 10.10.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
 
@@ -86,7 +86,7 @@ follows:
 By default, the add-on will run under the _Local System_ account. So, if the add-on and Auditor will
 be running on different machines, the corresponding computer account will require at least the
 **Contributor** role in Auditor. See the
-[Role-Based Access and Delegation](../../admin/monitoringplans/delegation.md) topic for additional
+[Role-Based Access and Delegation](/docs/auditor/10.7/auditor/admin/monitoringplans/delegation.md) topic for additional
 information.
 
 In case the add-on and Auditor are installed on the same server, no special settings are needed.
@@ -99,7 +99,7 @@ In case the add-on and Auditor are installed on the same server, no special sett
   space usage.
 - If you are using Netwrix Auditor for Network Devices, the 514 UDP port may be already in use, and
   you should specify another port when configuring the add-on settings (see
-  [Deploy the Add-On](deployment.md) and [Add-On Parameters](parameters.md) topics for additional
+  [Deploy the Add-On](/docs/auditor/10.7/auditor/addon/cyberark/deployment.md) and [Add-On Parameters](/docs/auditor/10.7/auditor/addon/cyberark/parameters.md) topics for additional
   information). Another option is to install the add-on and Auditor Server on different machines.
 
 ## Compatibility Notice

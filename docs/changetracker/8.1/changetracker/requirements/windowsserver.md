@@ -4,7 +4,7 @@ This topic lists the hardware requirements and software requirements for Netwrix
 
 ## Hardware Requirements
 
-|      | Standard Install (< 100 devices) | Large Install (~ 1k devices) |
+|      | Standard Install ( 100 devices) | Large Install (~ 1k devices) |
 | ---- | -------------------------------- | ---------------------------- |
 | CPU  | 4 cores                          | 16 cores                     |
 | RAM  | 8 GB                             | 32 GB                        |
@@ -18,7 +18,7 @@ This topic lists the hardware requirements and software requirements for Netwrix
 
     - Server roles:
 
-![Software Requirements](../../../../../static/img/product_docs/changetracker/changetracker/requirements/performancecheckbox.webp)
+![Software Requirements](/img/product_docs/changetracker/changetracker/requirements/performancecheckbox.webp)
 
 - .NET Hosting Bundle – v8.0
 - Redis
@@ -43,7 +43,7 @@ Disk space based on limited trial implementations only. For production, we size 
 of 4GB per device, per annum, based on typical change event and report volumes (4 Compliance Reports
 per month, 200 change events per month)
 
-- See the [Installation](../install/overview.md) topic for additional information on the
+- See the [Installation](/docs/changetracker/8.1/changetracker/install/overview.md) topic for additional information on the
   installation process.
 
 Please run a Windows Update to ensure all above components are fully up to date.

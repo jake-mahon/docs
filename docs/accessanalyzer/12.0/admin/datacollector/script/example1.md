@@ -20,7 +20,7 @@ minutes, and seconds. These values are then recorded in the Query object so that
 store this data.
 
 **NOTE:** In this task, the hours, minutes, and seconds properties were specified manually using the
-task dialog. See the [Script Properties](properties.md) topic for additional information.
+task dialog. See the [Script Properties](/docs/accessanalyzer/12.0/admin/datacollector/script/properties.md) topic for additional information.
 
 ## Example of Conversion of Data Script
 

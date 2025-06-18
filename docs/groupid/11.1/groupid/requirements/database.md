@@ -19,10 +19,10 @@ case, you have to type the server name in the **SQL Server** box to select the r
 manually.
 
 To enable the SQL Server Browser service, see
-[How to: Start and Stop the SQL Server Browser Service](<http://technet.microsoft.com/en-us/library/ms189093(v=sql.105).aspx>).
+[How to: Start and Stop the SQL Server Browser Service](http://technet.microsoft.com/en-us/library/ms189093(v=sql.105).aspx).
 
 NOTE: Directory Manager now uses .NetCore 8 and it requires a SQL certificate to access database
 using Windows Authentication. Therefore, if you want to access the Directory Manager database using
 Windows Authentication, then a SQL certificate must be added to the Trusted Root Certification
 Authorities certificate store on connecting clients or servers such as Directory Manager. See the
-[SQL Certificate for Windows Authentication](sqlcertificate.md) topic for additional information.
+[SQL Certificate for Windows Authentication](/docs/groupid/11.1/groupid/requirements/sqlcertificate.md) topic for additional information.

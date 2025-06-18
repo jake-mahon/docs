@@ -5,20 +5,20 @@ tab hiding, but won't honor Endpoint Policy Manager AppLock™. For instance, Fi
 doesn't honor Endpoint Policy Manager AppLock™ in practice. For this reason, in the GPO, this would
 not be honored when affecting the client, as shown in Figure 149.
 
-![removing_applock_guids](../../../../../static/img/product_docs/policypak/policypak/applicationsettings/designstudio/removing_applock_guids.webp)
+![removing_applock_guids](/img/product_docs/policypak/policypak/applicationsettings/designstudio/removing_applock_guids.webp)
 
 Figure 149. An example of an application that does not honor Endpoint Policy Manager AppLock™.
 
 Another application that does not honor Endpoint Policy Manager AppLock™ is Acrobat Reader, as
 shown in Figure 150, since it doesn't have tabs at all.
 
-![removing_applock_guids_1](../../../../../static/img/product_docs/policypak/policypak/applicationsettings/designstudio/removing_applock_guids_1.webp)
+![removing_applock_guids_1](/img/product_docs/policypak/policypak/applicationsettings/designstudio/removing_applock_guids_1.webp)
 
 Figure 150. Example of an application without any tabs.
 
 For this reason, trying to disable the tab in the GPO doesn't make much sense (see Figure 151).
 
-![removing_applock_guids_2](../../../../../static/img/product_docs/policypak/policypak/applicationsettings/designstudio/removing_applock_guids_2.webp)
+![removing_applock_guids_2](/img/product_docs/policypak/policypak/applicationsettings/designstudio/removing_applock_guids_2.webp)
 
 Figure 151. Disabling tabs does not work for applications that do not have tabs.
 
@@ -26,7 +26,7 @@ In these cases, you might want to remove the AppLock™ GUIDs from the project s
 possible to right-click on a tab in the Group Policy MMC. To do that, follow the steps presented in
 Figure 152.
 
-![removing_applock_guids_3](../../../../../static/img/product_docs/policypak/policypak/applicationsettings/designstudio/removing_applock_guids_3.webp)
+![removing_applock_guids_3](/img/product_docs/policypak/policypak/applicationsettings/designstudio/removing_applock_guids_3.webp)
 
 Figure 152. Disabling AppLock™ GUIDs.
 
@@ -34,6 +34,6 @@ When you do this, each tab in the compiled project will no longer have the optio
 tab in target application" or "Force display of whole tab in target application," as shown in
 Figure 153.
 
-![removing_applock_guids_4](../../../../../static/img/product_docs/policypak/policypak/applicationsettings/designstudio/removing_applock_guids_4.webp)
+![removing_applock_guids_4](/img/product_docs/policypak/policypak/applicationsettings/designstudio/removing_applock_guids_4.webp)
 
 Figure 153. AppLock™ GUIDs have been removed.

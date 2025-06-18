@@ -9,7 +9,7 @@ Follow the steps to export the alerts data.
 **Step 2 –** On the Alerts interface, click the **Export Data** icon in the top right corner; the
 Alerts Export window is displayed.
 
-![Alerts Export window](../../../../../../../static/img/product_docs/threatprevention/threatprevention/admin/navigation/export.webp)
+![Alerts Export window](/img/product_docs/threatprevention/threatprevention/admin/navigation/export.webp)
 
 **Step 3 –** Export options include:
 

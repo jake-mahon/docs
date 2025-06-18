@@ -8,13 +8,13 @@ Once the changes are complete, validate the Change Request and mark it **Complet
 3. Click **Respider Now** to start the change documentation process.
 4. Click the **Deployment Validation** tab.
 
-    ![deployment_validation](../../../static/img/product_docs/strongpointfornetsuite/change_management/deployment_validation.webp)
+    ![deployment_validation](/img/product_docs/strongpointfornetsuite/change_management/deployment_validation.webp)
 
 5. Click **Run Compare Tool**. Validate the changes are what you expected. Refer to
-   [Comparing Environments](comparing_environments.md) for details.
+   [Comparing Environments](/docs/strongpointfornetsuite/change_management/comparing_environments.md) for details.
 6. View the **Open Non-Compliant Changes** or **Compliant Changes**
-   [Change Management Reports](change_management_reports.md).
+   [Change Management Reports](/docs/strongpointfornetsuite/change_management/change_management_reports.md).
 7. When all changes are validated, click **Complete** on the Change Request status bar to mark it
    **Completed**.
 
-    ![change_request_bar_approved_completed](../../../static/img/product_docs/strongpointfornetsuite/change_management/change_request_bar_approved_completed.webp)
+    ![change_request_bar_approved_completed](/img/product_docs/strongpointfornetsuite/change_management/change_request_bar_approved_completed.webp)

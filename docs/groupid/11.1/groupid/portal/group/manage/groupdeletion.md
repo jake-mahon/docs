@@ -31,12 +31,12 @@ To renew a physically deleted group, contact the Directory Manager administrator
 Groups that are deleted by the Group Life Cycle job are considered to be logically deleted. This job
 deletes expired groups automatically based on the Group Life Cycle policy for the identity store.
 
-Logically deleted groups are moved to the [My Deleted Groups](../mydeletedgroups.md) page with the
+Logically deleted groups are moved to the [My Deleted Groups](/docs/groupid/11.1/groupid/portal/group/mydeletedgroups.md) page with the
 'Deleted\_' prefix added to their names. Such groups have all their attributes intact. As a result,
 a logically deleted group, when renewed, returns to the state it had at the time of deletion.
 
 See the
-[What Happens When a Group is Deleted](../../../admincenter/identitystore/configure/directoryservice/groupexpirydeletion.md#what-happens-when-a-group-is-deleted)
+[What Happens When a Group is Deleted](/docs/groupid/11.1/groupid/admincenter/identitystore/configure/directoryservice/groupexpirydeletion.md#what-happens-when-a-group-is-deleted)
 topic for additional information on group deletion.
 
 ## Group Deletion Notifications

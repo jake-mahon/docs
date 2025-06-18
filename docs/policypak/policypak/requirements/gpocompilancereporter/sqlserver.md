@@ -25,14 +25,14 @@ By default Endpoint Policy Manager Group Policy Compliance Reporter will keep 99
 
 You are generally advised to tune this down. General recommendation would be like 5 or so.
 
-![762_1_image-20191028221305-1_950x522](../../../../../static/img/product_docs/policypak/policypak/requirements/gpocompilancereporter/762_1_image-20191028221305-1_950x522.webp)
+![762_1_image-20191028221305-1_950x522](/img/product_docs/policypak/policypak/requirements/gpocompilancereporter/762_1_image-20191028221305-1_950x522.webp)
 
 ## Estimates for Auditor Scheduled Task
 
 When computers send data to the PPGPCR Server via the Scheduled Task, you will see computers
 checking in here:
 
-![762_3_image-20191028221305-2_950x504](../../../../../static/img/product_docs/policypak/policypak/requirements/gpocompilancereporter/762_3_image-20191028221305-2_950x504.webp)
+![762_3_image-20191028221305-2_950x504](/img/product_docs/policypak/policypak/requirements/gpocompilancereporter/762_3_image-20191028221305-2_950x504.webp)
 
 Endpoint Policy Manager Group Policy Compliance Server stores multiple pushes of data for historical
 purposes, althought this data is not exposed for customers at this time, and is not tunable.
@@ -43,7 +43,7 @@ per day.
 The maximum the auditor can run by default is 20 times. This is configurable via the PPGPCR Auditor
 Endpoints: Maximum check-ins per day policy setting.
 
-![762_5_image-20191028221305-3_950x623](../../../../../static/img/product_docs/policypak/policypak/requirements/gpocompilancereporter/762_5_image-20191028221305-3_950x623.webp)
+![762_5_image-20191028221305-3_950x623](/img/product_docs/policypak/policypak/requirements/gpocompilancereporter/762_5_image-20191028221305-3_950x623.webp)
 
 For very large environments we recommend you tune this to 1 time per day, so the database doesn't
 grow unnecessarily. The database will grow (essentially) as follows:
@@ -55,4 +55,4 @@ Old auditor data is auto-expunged every 36 hours, where all the previous auditor
 most current is marked for future deletion. You can tune when this occurs with this PPGPCR ADMX
 setting:
 
-![762_7_image-20191028221305-4_950x726](../../../../../static/img/product_docs/policypak/policypak/requirements/gpocompilancereporter/762_7_image-20191028221305-4_950x726.webp)
+![762_7_image-20191028221305-4_950x726](/img/product_docs/policypak/policypak/requirements/gpocompilancereporter/762_7_image-20191028221305-4_950x726.webp)

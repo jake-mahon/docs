@@ -6,7 +6,7 @@ Click **Investigate** in the application header bar to open the Investigations i
 a folder in the navigation pane to access a saved investigation. An investigation is located in the
 folder where it was saved.
 
-![Options available for an Investigation](../../../../../../../static/img/product_docs/threatprevention/threatprevention/reportingmodule/investigations/options/investigationoptions.webp)
+![Options available for an Investigation](/img/product_docs/threatprevention/threatprevention/reportingmodule/investigations/options/investigationoptions.webp)
 
 Every investigation has the following options at the top of the page:
 
@@ -14,10 +14,10 @@ Every investigation has the following options at the top of the page:
   description, and folder of the saved investigation. If you save the investigation to a different
   folder, it will be moved from the original location to the new folder. You can also update the
   user roles granted ownership and access to the investigation report. See the
-  [Edit or Duplicate an Investigation](edit.md) topic for additional information.
+  [Edit or Duplicate an Investigation](/docs/threatprevention/7.5/threatprevention/reportingmodule/investigations/options/edit.md) topic for additional information.
 - Subscriptions – Click the Subscriptions link to open the Subscription to window. You can specify
   recipients to receive this report as an email attachment in a specified format. See the
-  [Add Subscription](subscription.md) topic for additional information.
+  [Add Subscription](/docs/threatprevention/7.5/threatprevention/reportingmodule/investigations/options/subscription.md) topic for additional information.
 - Export – The Export option provides choices for how you can export the report results for an
   investigation. The report can be exported in a specified format and can be downloaded, emailed, or
   scheduled as desired. See the Export Report topic for additional information.
@@ -27,20 +27,20 @@ Every investigation has the following options at the top of the page:
       that you can share it with users who have access to the report
     - Open as new – The Open as New option opens the investigation in Duplicate mode. The filter is
       the same as that of the base investigation. You can save it as a new investigation. See the
-      [Edit or Duplicate an Investigation](edit.md) topic for additional information.
+      [Edit or Duplicate an Investigation](/docs/threatprevention/7.5/threatprevention/reportingmodule/investigations/options/edit.md) topic for additional information.
     - Delete – This option is available for a custom investigation. It is not possible to delete an
       out-of-the-box investigation.
 
 - Run Query – The Run Query button pulls available activity data that match the set filters and
   timeframe. The data is displayed on the Event Details, Events Over Time, and Top Resources tabs.
-  See the [Investigation Reports](../reports.md) topic for additional information.
+  See the [Investigation Reports](/docs/threatprevention/7.5/threatprevention/reportingmodule/investigations/reports.md) topic for additional information.
 - Filters – The Filters section provides options to build a filter statement by selecting the
   Attribute, Operator, and Filter value. A time period for the report data is also configured here.
   If multiple data sources have been configured, there is also a Source drop-down menu. See the
-  [Filters Section](filters.md) topic for additional information.
+  [Filters Section](/docs/threatprevention/7.5/threatprevention/reportingmodule/investigations/options/filters.md) topic for additional information.
 
 **NOTE:** For an investigations to return information on user display names, groups, or email
 addresses, the StealthDEFEND Active Directory Service must be running to collect Active Directory
 data prior to running an investigation. See the
-[Active Directory Sync Page](../../configuration/integrations/activedirectorysync.md) topic for
+[Active Directory Sync Page](/docs/threatprevention/7.5/threatprevention/reportingmodule/configuration/integrations/activedirectorysync.md) topic for
 additional information.

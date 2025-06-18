@@ -3,14 +3,14 @@
 When using Endpoint Policy Manager Admin Templates Manager to create a policy on the Computer side,
 you can tap into both Computer and User policy settings.
 
-![about_policypak_admin_templates_6](../../../../../static/img/product_docs/policypak/policypak/adminstrativetemplates/gettoknow/about_policypak_admin_templates_6.webp)
+![about_policypak_admin_templates_6](/img/product_docs/policypak/policypak/adminstrativetemplates/gettoknow/about_policypak_admin_templates_6.webp)
 
 With both computer and user policy settings available in Endpoint Policy Manager Admin Templates
 Manager you can deliver user-side settings to any computer that has this GPO.
 
 **NOTE:** For more information on the Endpoint Policy Manager Admin Templates Manager delivering
 user-side settings to computers, see the
-[Endpoint Policy Manager Admin Templates Manager: Switched Policies (without Loopback)](../../video/administrativetemplates/switchedpolicies.md)
+[Endpoint Policy Manager Admin Templates Manager: Switched Policies (without Loopback)](/docs/policypak/policypak/video/administrativetemplates/switchedpolicies.md)
 topic for additional information.
 
 This feature allows you to avoid the complex process of Group Policy Loopback processing just for

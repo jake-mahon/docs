@@ -9,7 +9,7 @@ Once the changes are complete, validate the Change Request and mark it **Complet
 2. Locate your Change Request and click the linked **Name**.
 3. Click **Rescan** to start the change documentation process.
 4. Run **Netwrix Dashboard** > **Tools** > **Environment Comparison**. Validate the changes are what
-   you expected. Refer to [Comparing Environments](../tools/environment_comparison.md) for details.
+   you expected. Refer to [Comparing Environments](/docs/strongpointforsalesforce/tools/environment_comparison.md) for details.
 5. View the **Open Non-Compliant Changes** or **Compliant Changes** Change Management Reports
    (**Netwrix Dashboard** > **Reports** > **Change Enablement**).
 6. When all changes are validated, click **Complete CR** on the Change Request status bar to mark it

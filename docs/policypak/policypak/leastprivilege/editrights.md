@@ -14,11 +14,11 @@ enabled.
 
 Should look like this:
 
-![949_1_image-20230719020305-1_950x641](../../../../static/img/product_docs/policypak/policypak/leastprivilege/949_1_image-20230719020305-1_950x641.webp)
+![949_1_image-20230719020305-1_950x641](/img/product_docs/policypak/policypak/leastprivilege/949_1_image-20230719020305-1_950x641.webp)
 
-![949_2_image-20230719020305-2_950x635](../../../../static/img/product_docs/policypak/policypak/leastprivilege/949_2_image-20230719020305-2_950x635.webp)
+![949_2_image-20230719020305-2_950x635](/img/product_docs/policypak/policypak/leastprivilege/949_2_image-20230719020305-2_950x635.webp)
 
-![949_3_image-20230719020305-3_950x638](../../../../static/img/product_docs/policypak/policypak/leastprivilege/949_3_image-20230719020305-3_950x638.webp)
+![949_3_image-20230719020305-3_950x638](/img/product_docs/policypak/policypak/leastprivilege/949_3_image-20230719020305-3_950x638.webp)
 
 **NOTE:** Keep in mind you are elevating the Application (Notepad in this case), not the file
 itself.

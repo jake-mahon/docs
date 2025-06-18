@@ -2,7 +2,7 @@
 
 The Import Owners wizard is opened with the **Import** button in the Resource Owners interface.
 
-![Import Owners wizard showing 1. Select File page](../../../../../../../static/img/product_docs/accessinformationcenter/access/informationcenter/resourceowners/wizard/selectfile.webp)
+![Import Owners wizard showing 1. Select File page](/img/product_docs/accessinformationcenter/access/informationcenter/resourceowners/wizard/selectfile.webp)
 
 It contains two pages:
 
@@ -17,7 +17,7 @@ The CSV file should list one resource per row using the following format:
 
 [ResourcePath],[Owner1];[Owner2];[Owner3],[Description]
 
-![Example CSV File showing file system, SharePoint, and group resource formats](../../../../../../../static/img/product_docs/accessinformationcenter/access/informationcenter/resourceowners/wizard/csvfileformat.webp)
+![Example CSV File showing file system, SharePoint, and group resource formats](/img/product_docs/accessinformationcenter/access/informationcenter/resourceowners/wizard/csvfileformat.webp)
 
 - Resource Formats:
 
@@ -45,7 +45,7 @@ The CSV file should list one resource per row using the following format:
 
 _Remember,_ if the CSV file contains resources other than just Groups, this method only imports
 resources with owners. It will be necessary to update each resource to enable Access Requests and
-Owner Ad Hoc changes. See the [Update Resource Wizard](update.md) topic for additional information.
+Owner Ad Hoc changes. See the [Update Resource Wizard](/docs/accessinformationcenter/12.0/access/informationcenter/resourceowners/wizard/update.md) topic for additional information.
 
 See the Import Owners topic for additional information.
 
@@ -56,12 +56,12 @@ interface.
 
 **Step 1 –** In the Resource Owners interface, click **Import**. The Import Owners wizard opens.
 
-![Import Owners wizard showing 1. Select File page](../../../../../../../static/img/product_docs/accessinformationcenter/access/informationcenter/resourceowners/wizard/selectfile.webp)
+![Import Owners wizard showing 1. Select File page](/img/product_docs/accessinformationcenter/access/informationcenter/resourceowners/wizard/selectfile.webp)
 
 **Step 2 –** On the Select Files page, click **Add**.Navigate to the CSV file to be imported and
 click **Open**.
 
-![Import Owners wizard with the 1. Select File page showing resources with assigned owners to be imported](../../../../../../../static/img/product_docs/accessinformationcenter/access/informationcenter/resourceowners/wizard/selectfilepreview.webp)
+![Import Owners wizard with the 1. Select File page showing resources with assigned owners to be imported](/img/product_docs/accessinformationcenter/access/informationcenter/resourceowners/wizard/selectfilepreview.webp)
 
 **Step 3 –** A preview of the resources and owners appears in the table. The Status column indicates
 whether or not there is a problem (invalid resource or owner). Ensure all resources in the table
@@ -72,7 +72,7 @@ exclamation icon. You can not continue with the import if any row contains an in
 owner. To remove a resource from the table, select the row and click **Remove**. The row is removed
 from the table.
 
-![Import Owners wizard 2. Options page](../../../../../../../static/img/product_docs/accessanalyzer/install/application/options.webp)
+![Import Owners wizard 2. Options page](/img/product_docs/accessanalyzer/install/application/options.webp)
 
 **Step 4 –** On the Options page, configure the available options as required.
 
@@ -89,11 +89,11 @@ from the table.
 
 **Step 5 –** Click **Next**. The Access Information Center will begin to process the import.
 
-![Import Owners wizard completed import page](../../../../../../../static/img/product_docs/threatprevention/threatprevention/install/reportingmodule/completed.webp)
+![Import Owners wizard completed import page](/img/product_docs/threatprevention/threatprevention/install/reportingmodule/completed.webp)
 
 **Step 6 –** The action status displays on the page. When the update has completed (100%), click
 **Close**. The Import Owners wizard closes.
 
 These resources are now being manages by the Access Information Center. See the
-[Update Resource Wizard](update.md) topic for information on making alterations to the imported
+[Update Resource Wizard](/docs/accessinformationcenter/12.0/access/informationcenter/resourceowners/wizard/update.md) topic for information on making alterations to the imported
 resources.

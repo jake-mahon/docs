@@ -32,14 +32,14 @@ You can create multiple Data services and Security services while hosting them o
 servers. For example, you can host one Data service in native IIS and another in Docker.
 
 - To launch IIS on a machine, see
-  [Opening IIS Manager](<https://docs.microsoft.com/en-us/previous-versions/iis/6.0-sdk/ms525920(v=vs.90)>).
+  [Opening IIS Manager](https://docs.microsoft.com/en-us/previous-versions/iis/6.0-sdk/ms525920(v=vs.90)).
 
-![in_iis](../../../../../../static/img/product_docs/groupid/groupid/admincenter/portal/in_iis.webp)
+![in_iis](/img/product_docs/groupid/groupid/admincenter/portal/in_iis.webp)
 
 - To open Docker Desktop on Windows, search for Docker and select Docker Desktop in the search
   results.
 
-![indocker](../../../../../../static/img/product_docs/groupid/groupid/admincenter/service/indocker.webp)
+![indocker](/img/product_docs/groupid/groupid/admincenter/service/indocker.webp)
 
 ## Third-party Services
 
@@ -58,7 +58,7 @@ Third-party services are created as Windows services in Windows Services Manager
 To launch the Services Manager, type ‘ services.msc’ in the Run dialog box and click OK. Here is an
 example of services in Windows Services Manager. You can start, stop, disable, and delay a service.
 
-![inwindowsservicesmanager](../../../../../../static/img/product_docs/groupid/groupid/admincenter/service/inwindowsservicesmanager.webp)
+![inwindowsservicesmanager](/img/product_docs/groupid/groupid/admincenter/service/inwindowsservicesmanager.webp)
 
 ## Accounts to Run the Services
 
