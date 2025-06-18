@@ -1,10 +1,10 @@
 ---
 id: connectwise
-title: "ConnectWise"
-pagination_label: "ConnectWise"
-sidebar_label: "ConnectWise"
+title: 'ConnectWise'
+pagination_label: 'ConnectWise'
+sidebar_label: 'ConnectWise'
 sidebar_position: 201
-description: "This page explains how to configure ConnectWise integration to deliver Netwrix 1Secure alerts as tickets for help desk services."
+description: 'This page explains how to configure ConnectWise integration to deliver Netwrix 1Secure alerts as tickets for help desk services.'
 ---
 
 # ConnectWise
@@ -16,8 +16,8 @@ tech services. In ConnectWise, you can create a Company and match with the Organ
 
 Image keys:
 
-| Icon                                                                                                                      | Description                                                                            |
-| ------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------- |
+| Icon                                                                                                       | Description                                                                            |
+| ---------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------- |
 | ![alerts_editicon](/img/product_docs/1secure/integration/alerts_editicon.webp)                             | Edit Icon. Click the Edit Icon to edit the settings of the integration type.           |
 | ![alerts_connectwisesprocketpng](/img/product_docs/1secure/integration/alerts_connectwisesprocketpng.webp) | ConnectWise Icon. Click the ConnectWise icon to make the settings for the ConnectWise. |
 | ![deletebutton](/img/product_docs/1secure/integration/deletebutton.webp)                                   | Bin Icon. Click the Bin icon to delete the ConnectWise integration                     |
@@ -62,7 +62,7 @@ After adding your ConnectWise company, you can link it to your organization and 
 settings.
 
 Also, when you add a new organization, you can specify your ConnectWise company from the start. See
-the [Add Organizations](/docs/1secure/admin/organizations/addorganizations.md) topic for additional
+the [Add Organizations](/docs/1secure/administration/organizations/managing-organizations.md) topic for additional
 information.
 
 Follow the steps to manage delivery settings for ConnectWise.
