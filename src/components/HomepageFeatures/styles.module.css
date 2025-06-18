@@ -97,6 +97,10 @@
   height: 100%;
 }
 
+.versionedCard {
+  position: relative;
+}
+
 [data-theme='dark'] .productCard {
   background: rgba(255, 255, 255, 0.02);
   border-color: var(--ifm-color-emphasis-300);
@@ -128,6 +132,72 @@
   font-size: 0.875rem;
   font-weight: 600;
   color: var(--ifm-color-primary);
+}
+
+/* Version Badges */
+.versionBadgesContainer {
+  position: absolute;
+  bottom: 12px;
+  right: 12px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+  align-items: flex-end;
+  justify-content: flex-end;
+  max-width: 50%;
+}
+
+.versionBadge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 4px 8px;
+  background: var(--ifm-color-primary-light);
+  color: white;
+  font-size: 0.75rem;
+  font-weight: 500;
+  border-radius: 6px;
+  text-decoration: none;
+  transition: all 0.2s ease;
+  min-width: 0;
+  white-space: nowrap;
+}
+
+.versionBadge:hover {
+  background: var(--ifm-color-primary);
+  color: white;
+  text-decoration: none;
+  transform: scale(1.05);
+}
+
+.latestBadge {
+  background: var(--ifm-color-success);
+  box-shadow: 0 2px 8px rgba(22, 163, 74, 0.3);
+}
+
+.latestBadge:hover {
+  background: var(--ifm-color-success-dark);
+  color: white;
+}
+
+[data-theme='dark'] .versionBadge {
+  background: var(--ifm-color-primary-darker);
+  color: var(--ifm-color-primary-lightest);
+}
+
+[data-theme='dark'] .versionBadge:hover {
+  background: var(--ifm-color-primary);
+  color: white;
+}
+
+[data-theme='dark'] .latestBadge {
+  background: var(--ifm-color-success-darker);
+  color: var(--ifm-color-success-lightest);
+}
+
+[data-theme='dark'] .latestBadge:hover {
+  background: var(--ifm-color-success);
+  color: white;
 }
 
 /* Dark mode color improvements */
@@ -183,5 +253,16 @@
 
   .sectionHeader {
     margin-bottom: 2.5rem;
+  }
+
+  .versionBadgesContainer {
+    max-width: 60%;
+    bottom: 8px;
+    right: 8px;
+  }
+
+  .versionBadge {
+    font-size: 0.7rem;
+    padding: 3px 6px;
   }
 }
