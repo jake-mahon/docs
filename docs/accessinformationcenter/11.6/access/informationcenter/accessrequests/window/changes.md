@@ -4,7 +4,7 @@ Select the desired request on the
 [Request History Tab](/docs/accessinformationcenter/11.6/access/informationcenter/accessrequests/interface.md#request-history-tab)
 of the Access Requests interface and click **View Changes**. The Changes window opens.
 
-![Changes window](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/install/application/upgrade/changes.webp)
+![Changes window](/img/versioned_docs/accessanalyzer_11.6/accessanalyzer/install/application/upgrade/changes.webp)
 
 The table displays the following information for selected trustee:
 

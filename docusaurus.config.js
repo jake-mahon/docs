@@ -670,9 +670,9 @@ const config = {
     [
       '@docusaurus/plugin-content-docs',
       {
-        id: 'platgfornetsuite',
-        path: 'docs/platgfornetsuite',
-        routeBasePath: 'docs/platgfornetsuite',
+        id: 'platgovnetsuite',
+        path: 'docs/platgovnetsuite',
+        routeBasePath: 'docs/platgovnetsuite',
         sidebarPath: require.resolve('./sidebars/sidebar.js'),
         editUrl: 'https://github.com/netwrix/docs/tree/main/',
         exclude: ['**/CLAUDE.md'],
@@ -686,9 +686,9 @@ const config = {
     [
       '@docusaurus/plugin-content-docs',
       {
-        id: 'platgforsalesforce',
-        path: 'docs/platgforsalesforce',
-        routeBasePath: 'docs/platgforsalesforce',
+        id: 'platgovsalesforce',
+        path: 'docs/platgovsalesforce',
+        routeBasePath: 'docs/platgovsalesforce',
         sidebarPath: require.resolve('./sidebars/sidebar.js'),
         editUrl: 'https://github.com/netwrix/docs/tree/main/',
         exclude: ['**/CLAUDE.md'],
@@ -878,11 +878,11 @@ const config = {
               },
               {
                 label: 'Platform Governance for NetSuite',
-                to: '/docs/platgfornetsuite',
+                to: '/docs/platgovnetsuite',
               },
               {
                 label: 'Platform Governance for Salesforce',
-                to: '/docs/platgforsalesforce',
+                to: '/docs/platgovsalesforce',
               },
               {
                 label: 'Platform Governance for NetSuite Flashlight',

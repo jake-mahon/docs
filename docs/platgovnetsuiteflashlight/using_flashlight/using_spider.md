@@ -37,4 +37,4 @@ Run the manual spider:
 You can also update the documentation for a specific customization record. Simply click **Respider
 Now** on the customization record and your documentation is updated in real time.
 
-![Re-Spider Now](/img/product_docs/platgfornetsuite/respider_now.webp)
+![Re-Spider Now](/img/product_docs/platgovnetsuite/respider_now.webp)

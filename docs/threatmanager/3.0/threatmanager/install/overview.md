@@ -106,6 +106,6 @@ data into Threat Manager:
   data to Threat Manager
 - [Netwrix Threat Prevention Integration](/docs/threatmanager/3.0/threatmanager/install/integration/threatprevention.md) – Configure Netwrix
   Threat Prevention to send Active Directory data to Threat Manager
-- [Netwrix Access Analyzer (formerly Enterprise Auditor) Integration](/docs/threatmanager/3.0/threatmanager/install/integration/enterpriseauditor.md)
+- [Netwrix Access Analyzer (formerly Enterprise Auditor) Integration](/docs/threatmanager/3.0/threatmanager/install/integration/accessanalyzer.md)
   – Configure Netwrix Access Analyzer (formerly Enterprise Auditor) to send Sensitive Data to Threat
   Manager

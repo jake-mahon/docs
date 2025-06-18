@@ -4,7 +4,7 @@ SQL Server reports are accessed through the Resource Audit interface. Explore th
 resources by expanding the levels within the Resources pane and selecting the desired resource. The
 data within these reports is collected by the Enterprise Auditor SQL solution. See the SQL Solution
 topic in the
-[Netwrix Enterprise Auditor Documentation](https://helpcenter.netwrix.com/category/enterpriseauditor)
+[Netwrix Enterprise Auditor Documentation](https://helpcenter.netwrix.com/category/accessanalyzer)
 for additional information.
 
 A single SQL Server can have multiple instances. Each instance where data is collected has its own

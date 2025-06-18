@@ -8,7 +8,7 @@ topic for detailed descriptions of the fields.
 
 **Step 2 –** In the Connection Profiles list, click the **Plus** icon.
 
-![Add Connection Profile](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/settings/connection/profile/addconnectionprofile.webp)
+![Add Connection Profile](/img/versioned_docs/accessanalyzer_11.6/accessanalyzer/admin/settings/connection/profile/addconnectionprofile.webp)
 
 **Step 3 –** Enter the desired information to configure a new connection profile.
 

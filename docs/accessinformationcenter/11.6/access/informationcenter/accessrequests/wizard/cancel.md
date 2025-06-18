@@ -26,7 +26,7 @@ click **Cancel**. The Cancel Request wizard opens.
 be included in the e-mail notification sent to the requester. Click **Next** and the Access
 Information Center starts the action.
 
-![Cancel Request wizard complete message](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/install/sensitivedatadiscovery/completed.webp)
+![Cancel Request wizard complete message](/img/versioned_docs/accessanalyzer_11.6/accessanalyzer/install/sensitivedatadiscovery/completed.webp)
 
 **Step 3 –** The action status displays on the page. When the cancellation action has completed
 (100%), click **Finish**. The Cancel Request wizard closes.

@@ -7,7 +7,7 @@ the Access Information Center user. See the
 [Results Pane](/docs/accessinformationcenter/11.6/access/informationcenter/resourceaudit/navigate/overview.md#results-pane)
 topic for information on filter options.
 
-![Permissions report](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/action/mailbox/permissions.webp)
+![Permissions report](/img/versioned_docs/accessanalyzer_11.6/accessanalyzer/admin/action/mailbox/permissions.webp)
 
 This report is comprised of the following columns:
 

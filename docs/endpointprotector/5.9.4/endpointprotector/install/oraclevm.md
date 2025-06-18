@@ -26,7 +26,7 @@ from the extracted zip.
 
 **Step 5 –** Click **Open**.
 
-![Selecting the Virtual Appliance to Import](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/hostdiscovery/wizard/fileimport.webp)
+![Selecting the Virtual Appliance to Import](/img/versioned_docs/accessanalyzer_11.6/accessanalyzer/admin/hostdiscovery/wizard/fileimport.webp)
 
 **Step 6 –** Click **Import**.
 

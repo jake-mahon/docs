@@ -56,7 +56,7 @@ Sensitive data is collected by Access Analyzer. It requires a license for the Ac
 System Solution with the Sensitive Data Discovery Add-on. Access Analyzer has a custom job which can
 be added to the FileSystem > 0.Collection Job Group to stream data after the collection tasks
 complete. See the
-[Netwrix Access Analyzer (formerly Enterprise Auditor) Integration](install/integration/enterpriseauditor) topic
+[Netwrix Access Analyzer (formerly Enterprise Auditor) Integration](install/integration/accessanalyzer) topic
 for additional information.
 
 ## Enable Features in the Threat Manager Console

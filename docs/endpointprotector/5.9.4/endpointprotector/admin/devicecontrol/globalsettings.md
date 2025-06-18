@@ -9,7 +9,7 @@ From this section, you can apply settings globally to all Endpoint Protector ent
 **NOTE:** Several settings from this section also relate to other modules apart from the Device
 Control module (Content Aware Protection, eDiscovery, etc.).
 
-![Apply settings globally to all Netwrix Endpoint Protector entities](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/settings/globalsettings.webp)
+![Apply settings globally to all Netwrix Endpoint Protector entities](/img/versioned_docs/accessanalyzer_11.6/accessanalyzer/admin/settings/globalsettings.webp)
 
 ## Client Settings
 

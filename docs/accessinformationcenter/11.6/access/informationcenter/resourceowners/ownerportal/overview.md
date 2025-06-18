@@ -11,7 +11,7 @@ been assigned a user role beyond owner.
 - For an owner without an assigned user role, the Access Information Center will open directly to
   the Owner portal.
 
-![Owner Portal interface with 3 sections identified](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/runninginstances/overview.webp)
+![Owner Portal interface with 3 sections identified](/img/versioned_docs/accessanalyzer_11.6/accessanalyzer/admin/runninginstances/overview.webp)
 
 The Owner portal has three sections:
 

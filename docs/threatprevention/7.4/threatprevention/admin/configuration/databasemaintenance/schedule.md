@@ -7,7 +7,7 @@ on a regular rotation.
 
 Follow the steps to configure a schedule.
 
-![Database Maintenance window - Schedule tab](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/settings/schedule.webp)
+![Database Maintenance window - Schedule tab](/img/versioned_docs/accessanalyzer_11.6/accessanalyzer/admin/settings/schedule.webp)
 
 **Step 1 –** Click **Configuration** > **Database** > **Maintenance** on the menu. The Database
 Maintenance window is displayed.

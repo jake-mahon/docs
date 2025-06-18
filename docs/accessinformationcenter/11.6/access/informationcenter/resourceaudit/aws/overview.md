@@ -4,7 +4,7 @@ Amazon (AWS) reports are accessed through the Resource Audit interface. Explore 
 resources by expanding the levels within the Resources pane and selecting the desired resource. The
 data within these reports is collected by the Enterprise Auditor AWS solution. See the AWS Solution
 topic in the
-[Netwrix Enterprise Auditor Documentation](https://helpcenter.netwrix.com/category/enterpriseauditor)
+[Netwrix Enterprise Auditor Documentation](https://helpcenter.netwrix.com/category/accessanalyzer)
 for additional information.
 
 Amazon (AWS) reports fall into the following categories:

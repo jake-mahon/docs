@@ -9,7 +9,7 @@ and Group Membership.
 In order to enable the criteria match search feature, the **Store discovered sensitive data** option
 must be enabled in the Enterprise Auditor data collector scanning the target environment. See the
 relevant solution topic in the
-[Netwrix Enterprise Auditor Documentation](https://helpcenter.netwrix.com/category/enterpriseauditor)
+[Netwrix Enterprise Auditor Documentation](https://helpcenter.netwrix.com/category/accessanalyzer)
 for additional information on the data collection options.
 
 ![Sensitive Content Audit Interface](/img/versioned_docs/accessinformationcenter_11.6/access/informationcenter/resourceaudit/navigate/files.webp)

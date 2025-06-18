@@ -15,7 +15,7 @@ file.
 5. Click the right arrow to move the items to the **Selected Profiles** list. To remove an item from
    the **Selected Profiles** list, select it and click the left arrow.
 6. Select the **Settings to be exported**.  
-   ![export_profile_ui_settings](/img/product_docs/platgforsalesforce/tools/export_profile_ui_settings.webp)
+   ![export_profile_ui_settings](/img/product_docs/platgovsalesforce/tools/export_profile_ui_settings.webp)
 7. Click **Test Connection**.
 8. Click **Download XLS**. The file _ProfileExport.xls_ is created.
 
@@ -24,14 +24,14 @@ file.
 When you open an exported file, this message may be displayed, as the exported _ProfilesExport.xls_
 file is in XML instead of the Excel format. Click **Yes** to load the file.
 
-![Excel error message - Click Yes to continue.](/img/product_docs/platgforsalesforce/tools/export_excel_error_msg.webp)
+![Excel error message - Click Yes to continue.](/img/product_docs/platgovsalesforce/tools/export_excel_error_msg.webp)
 
 The _ProfilesExport.xls_ file contains a **Summary** tab and a separate tab for each selected
 profile.
 
 The **Summary** tab shows who created the export, the creation date and time, and the list of
 selected profiles.  
-![export_profile_summary](/img/product_docs/platgforsalesforce/tools/export_profile_summary.webp)
+![export_profile_summary](/img/product_docs/platgovsalesforce/tools/export_profile_summary.webp)
 
 The **Profile** tabs contain all of the requested information for each profile.
 ![export_profile_profile_800x728](/img/product_docs/platgovsalesforceflashlight/tools/export_profile_profile_800x728.webp)

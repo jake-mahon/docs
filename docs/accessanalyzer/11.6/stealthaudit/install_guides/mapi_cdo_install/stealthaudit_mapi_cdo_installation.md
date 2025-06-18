@@ -3,10 +3,10 @@
 Both the Enterprise Auditor MAPI CDO and the Microsoft® Exchange MAPI CDO must to be installed in
 order to enable the Settings > Exchange node.
 
-![exchangenode](/img/versioned_docs/enterpriseauditor_11.6/stealthaudit/install_guides/mapi_cdo_install/exchangenode.webp)
+![exchangenode](/img/versioned_docs/accessanalyzer_11.6/stealthaudit/install_guides/mapi_cdo_install/exchangenode.webp)
 
 The Microsoft Exchange MAPI CDO is only required to run the MAPI-based data collectors. See the
-[Exchange Solution](/docs/accessanalyzer/11.6/enterpriseauditor/solutions/exchange/overview.md)
+[Exchange Solution](/docs/accessanalyzer/11.6/accessanalyzer/solutions/exchange/overview.md)
 topic for additional information.
 
 The Enterprise Auditor MAPI CDO can be downloaded from the
@@ -32,7 +32,7 @@ Follow the steps to install the Enterprise Auditor MAPI CDO.
 
 **Step 1 –** Run the StealthAuditMapiCDO executable.
 
-![stealthaudit_mapi_cdo_installation_1](/img/versioned_docs/enterpriseauditor_11.6/stealthaudit/install_guides/mapi_cdo_install/stealthaudit_mapi_cdo_installation_1.webp)
+![stealthaudit_mapi_cdo_installation_1](/img/versioned_docs/accessanalyzer_11.6/stealthaudit/install_guides/mapi_cdo_install/stealthaudit_mapi_cdo_installation_1.webp)
 
 **Step 2 –** Click OK to confirm the path.
 

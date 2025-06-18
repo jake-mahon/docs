@@ -71,7 +71,7 @@ Sensitive Data tags are displayed in threats containing sensitive data when Acce
 Sensitive Data Discovery Add-on are installed in addition to Threat Manager. When installed with the
 Sensitive Data Discovery Add-on, Access Analyzer scans for sensitive data using File System
 Sensitive Data Discovery Auditing. See the
-[Netwrix Access Analyzer (formerly Enterprise Auditor) Integration](/docs/threatmanager/3.0/threatmanager/install/integration/enterpriseauditor.md)
+[Netwrix Access Analyzer (formerly Enterprise Auditor) Integration](/docs/threatmanager/3.0/threatmanager/install/integration/accessanalyzer.md)
 topic for additional information. See the File System Solution topic in the
 [Netwrix Access Analyzer Documentation](https://helpcenter.netwrix.com/category/accessanalyzer) for
 additional information on Access Analyzer Sensitive Data Discovery capabilities.

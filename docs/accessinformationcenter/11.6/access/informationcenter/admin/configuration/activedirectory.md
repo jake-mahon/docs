@@ -13,7 +13,7 @@ connecting to the database. If your Database service account uses:
 - Windows authentication credentials — The same domain credentials are also used for the Active
   Directory service account
 
-![Configuration interface showing the Active Directory page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/hostdiscovery/wizard/activedirectory.webp)
+![Configuration interface showing the Active Directory page](/img/versioned_docs/accessanalyzer_11.6/accessanalyzer/admin/hostdiscovery/wizard/activedirectory.webp)
 
 There are two options for the type of Active Directory service account:
 
@@ -43,7 +43,7 @@ Center resides.
 If the Web Console is enabled for access from multiple domains, the Access Information Center should
 be configured to be accessible by the same domains. See the Enable Multiple Domain Access topic of
 the
-[Netwrix Enterprise Auditor Documentation](https://helpcenter.netwrix.com/category/enterpriseauditor)
+[Netwrix Enterprise Auditor Documentation](https://helpcenter.netwrix.com/category/accessanalyzer)
 for additional information.
 
 **NOTE:** All domains enabled to access the Access Information Center must also have data collected

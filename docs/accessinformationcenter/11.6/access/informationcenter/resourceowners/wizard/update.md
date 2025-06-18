@@ -55,7 +55,7 @@ information on the owners:
   Tool-tips display when hovering over the icons indicating whether the resource ownership has been
   confirmed, declined, pending response, or that a confirmation has not been requested.
 
-![Update resource wizard showing 2. Description page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/action/servicenow/description.webp)
+![Update resource wizard showing 2. Description page](/img/versioned_docs/accessanalyzer_11.6/accessanalyzer/admin/action/servicenow/description.webp)
 
 **Step 3 –** The Description page displays any description that has been provided by either the
 Ownership Administrator or the assigned owner(s) for the resource. Modify as desired by typing in
@@ -80,12 +80,12 @@ desired. See the
 [Select Group Window](/docs/accessinformationcenter/11.6/access/informationcenter/resourceowners/window/selectgroup.md)
 topic for additional information.
 
-![Update resource wizard showing 4. Summary page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/adinventory/summary.webp)
+![Update resource wizard showing 4. Summary page](/img/versioned_docs/accessanalyzer_11.6/accessanalyzer/admin/datacollector/adinventory/summary.webp)
 
 **Step 5 –** On the Summary page, review the settings and click **Next**. The Access Information
 Center begins to process the ownership configuration.
 
-![Update resource wizard completed page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/install/sensitivedatadiscovery/completed.webp)
+![Update resource wizard completed page](/img/versioned_docs/accessanalyzer_11.6/accessanalyzer/install/sensitivedatadiscovery/completed.webp)
 
 **Step 6 –** The action status displays on the page. When the update has completed (100%), click
 **Close**. The Update resource wizard closes.
