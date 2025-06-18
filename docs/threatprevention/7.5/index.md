@@ -13,21 +13,21 @@ Netwrix Threat Prevention strengthens an organization's defense against internal
 
 ## What's New in 7.5
 
-- **[SIEM Output Viewer](/docs/threatprevention/7.5/threatprevention/admin/configuration/siemoutputviewer.md)** - Real-time SIEM data viewing capability
-- **[ADMonitor Upgrade](/docs/threatprevention/7.5/threatprevention/admin/agents/management/upgradeadmonitor.md)** - Update ADMonitor DLL without full agent reinstall
+- **[SIEM Output Viewer](/docs/threatprevention/7.5/admin/configuration/siemoutputviewer.md)** - Real-time SIEM data viewing capability
+- **[ADMonitor Upgrade](/docs/threatprevention/7.5/admin/agents/management/upgradeadmonitor.md)** - Update ADMonitor DLL without full agent reinstall
 - Enhanced feature descriptions and improved documentation
 
 ## Quick Start
 
-- [Getting Started](/docs/threatprevention/7.5/threatprevention/gettingstarted.md)
-- [System Requirements](/docs/threatprevention/7.5/threatprevention/requirements/overview.md)
-- [Installation Overview](/docs/threatprevention/7.5/threatprevention/install/overview.md)
-- [Product Overview](/docs/threatprevention/7.5/threatprevention/overview.md)
+- [Getting Started](/docs/threatprevention/7.5/gettingstarted.md)
+- [System Requirements](/docs/threatprevention/7.5/requirements/overview.md)
+- [Installation Overview](/docs/threatprevention/7.5/install/overview.md)
+- [Product Overview](/docs/threatprevention/7.5/overview.md)
 
 ## Key Sections
 
-- **[Administration](/docs/threatprevention/7.5/threatprevention/admin/overview.md)** - Agent management, policies, and configuration
-- **[Solutions](/docs/threatprevention/7.5/threatprevention/solutions/overview.md)** - Active Directory, Exchange, File System, and LDAP protection
-- **[Reporting](/docs/threatprevention/7.5/threatprevention/reportingmodule/overview.md)** - Investigations and analytics
-- **[SIEM Integration](/docs/threatprevention/7.5/threatprevention/siemdashboard/overview.md)** - QRadar and Splunk dashboards
-- **[Troubleshooting](/docs/threatprevention/7.5/threatprevention/troubleshooting/overview.md)** - Common issues and solutions
+- **[Administration](/docs/threatprevention/7.5/admin/overview.md)** - Agent management, policies, and configuration
+- **[Solutions](/docs/threatprevention/7.5/solutions/overview.md)** - Active Directory, Exchange, File System, and LDAP protection
+- **[Reporting](/docs/threatprevention/7.5/reportingmodule/overview.md)** - Investigations and analytics
+- **[SIEM Integration](/docs/threatprevention/7.5/siemdashboard/overview.md)** - QRadar and Splunk dashboards
+- **[Troubleshooting](/docs/threatprevention/7.5/troubleshooting/overview.md)** - Common issues and solutions

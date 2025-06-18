@@ -13,15 +13,15 @@ Netwrix Threat Prevention safeguards organizations from internal and external th
 
 ## Quick Start
 
-- [Getting Started](/docs/threatprevention/7.4/threatprevention/gettingstarted.md)
-- [System Requirements](/docs/threatprevention/7.4/threatprevention/requirements/overview.md)
-- [Installation Overview](/docs/threatprevention/7.4/threatprevention/install/overview.md)
-- [Product Overview](/docs/threatprevention/7.4/threatprevention/overview.md)
+- [Getting Started](/docs/threatprevention/7.4/gettingstarted.md)
+- [System Requirements](/docs/threatprevention/7.4/requirements/overview.md)
+- [Installation Overview](/docs/threatprevention/7.4/install/overview.md)
+- [Product Overview](/docs/threatprevention/7.4/overview.md)
 
 ## Key Sections
 
-- **[Administration](/docs/threatprevention/7.4/threatprevention/admin/overview.md)** - Agent management, policies, and configuration
-- **[Solutions](/docs/threatprevention/7.4/threatprevention/solutions/overview.md)** - Active Directory, Exchange, File System, and LDAP protection
-- **[Reporting](/docs/threatprevention/7.4/threatprevention/reportingmodule/overview.md)** - Investigations and analytics
-- **[SIEM Integration](/docs/threatprevention/7.4/threatprevention/siemdashboard/overview.md)** - QRadar and Splunk dashboards
-- **[Troubleshooting](/docs/threatprevention/7.4/threatprevention/troubleshooting/overview.md)** - Common issues and solutions
+- **[Administration](/docs/threatprevention/7.4/admin/overview.md)** - Agent management, policies, and configuration
+- **[Solutions](/docs/threatprevention/7.4/solutions/overview.md)** - Active Directory, Exchange, File System, and LDAP protection
+- **[Reporting](/docs/threatprevention/7.4/reportingmodule/overview.md)** - Investigations and analytics
+- **[SIEM Integration](/docs/threatprevention/7.4/siemdashboard/overview.md)** - QRadar and Splunk dashboards
+- **[Troubleshooting](/docs/threatprevention/7.4/troubleshooting/overview.md)** - Common issues and solutions
