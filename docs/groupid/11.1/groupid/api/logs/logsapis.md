@@ -3,12 +3,12 @@
 Directory Manager generates logs for its services, clients, and Windows events. Using the following
 APIs, you can collect and dump your required logs to a desired location.
 
-See the [Get Logs](../../admincenter/general/logs.md) topic for additional information on logs.
+See the [Get Logs](/docs/groupid/11.1/groupid/admincenter/general/logs.md) topic for additional information on logs.
 
-- [Admin Center Logs](admincenter.md)
-- [Data Service Logs](dataservice.md)
-- [Email Service Logs](emailservice.md)
-- [Portal Logs](portal.md)
-- [Replication Service Logs](replicationservice.md)
-- [Scheduler Service Logs](schedulerservice.md)
-- [Security Service Logs](securityservice.md)
+- [Admin Center Logs](/docs/groupid/11.1/groupid/api/logs/admincenter.md)
+- [Data Service Logs](/docs/groupid/11.1/groupid/api/logs/dataservice.md)
+- [Email Service Logs](/docs/groupid/11.1/groupid/api/logs/emailservice.md)
+- [Portal Logs](/docs/groupid/11.1/groupid/api/logs/portal.md)
+- [Replication Service Logs](/docs/groupid/11.1/groupid/api/logs/replicationservice.md)
+- [Scheduler Service Logs](/docs/groupid/11.1/groupid/api/logs/schedulerservice.md)
+- [Security Service Logs](/docs/groupid/11.1/groupid/api/logs/securityservice.md)

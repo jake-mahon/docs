@@ -16,7 +16,7 @@ process. An archive folder must be created before the Clean Up process.
 9. Note the **Internal ID** for your new **Strongpoint Archived Data Files** folder. **48783** in
    this example.
 
-    ![Finding the Internal ID of the Archive Folder](../../../static/img/product_docs/strongpointfornetsuite/clean_up/internal_id.webp)
+    ![Finding the Internal ID of the Archive Folder](/img/product_docs/strongpointfornetsuite/clean_up/internal_id.webp)
 
 ## Assign the Internal ID to the Deployed Script
 
@@ -26,17 +26,17 @@ To assign the internal ID to a deployed script:
 2. Change the **Type** Filter to **Scheduled** and **From Bundle** to **294336**
 3. Click **View** by the **Strongpoint Auto Archive**
 
-![scripts-1](../../../static/img/product_docs/strongpointfornetsuite/clean_up/scripts-1.webp)
+![scripts-1](/img/product_docs/strongpointfornetsuite/clean_up/scripts-1.webp)
 
 4. Open the **Deployments** tab.
 5. Click on **Strongpoint Auto Archive – OD**.
 
-    ![scripts-2](../../../static/img/product_docs/strongpointfornetsuite/clean_up/scripts-2.webp)
+    ![scripts-2](/img/product_docs/strongpointfornetsuite/clean_up/scripts-2.webp)
 
 6. Click **Edit**
 7. Open the **Parameters** tab, add the internal ID of your **Archive Folder**
 8. Click Save
 
-    ![scripts-3](../../../static/img/product_docs/strongpointfornetsuite/clean_up/scripts-3.webp)
+    ![scripts-3](/img/product_docs/strongpointfornetsuite/clean_up/scripts-3.webp)
 
 The archiving function on Change Requests is now set up and ready to use.

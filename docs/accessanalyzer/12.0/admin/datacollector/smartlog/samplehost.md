@@ -2,7 +2,7 @@
 
 The Sample Host page is used to configure the host. It is a wizard page for all log types.
 
-![SMART Log DC Wizard Sample Host page](../../../../../../static/img/product_docs/accessanalyzer/admin/datacollector/wmicollector/samplehost.webp)
+![SMART Log DC Wizard Sample Host page](/img/product_docs/accessanalyzer/admin/datacollector/wmicollector/samplehost.webp)
 
 Select a host for running a test query on the Criteria page from the following radio buttons:
 
@@ -13,7 +13,7 @@ Select a host for running a test query on the Criteria page from the following r
 
 ## Select Computer Window
 
-![Select Computer window](../../../../../../static/img/product_docs/accessanalyzer/admin/datacollector/smartlog/selectcomputerwindow.webp)
+![Select Computer window](/img/product_docs/accessanalyzer/admin/datacollector/smartlog/selectcomputerwindow.webp)
 
 If selecting another computer for the host, click the ellipsis to open the Select Computer window
 and select a computer. The options in the Select Computer window are:
@@ -24,13 +24,13 @@ and select a computer. The options in the Select Computer window are:
 - Enter the object name to select – Manually enter objects into the text field
 
     - Click the **examples** link to access the Microsoft
-      [Object Picker UI](<https://docs.microsoft.com/en-us/previous-versions/orphan-topics/ws.11/dn789205(v=ws.11)?redirectedfrom=MSDN>)
+      [Object Picker UI](https://docs.microsoft.com/en-us/previous-versions/orphan-topics/ws.11/dn789205(v=ws.11)?redirectedfrom=MSDN)
       article for additional information
 
 - Check Names – Click to verify the object names in the text field
 - Advanced – Opens a window to perform advanced configurations of the Select Computer function
 
-![Advanced Select Computer window](../../../../../../static/img/product_docs/accessanalyzer/admin/datacollector/smartlog/selectcomputerwindowadvanced.webp)
+![Advanced Select Computer window](/img/product_docs/accessanalyzer/admin/datacollector/smartlog/selectcomputerwindowadvanced.webp)
 
 The Common Queries section is included on the advanced Select Computer window in addition to object
 type and location in the original Select Computer window.
@@ -44,7 +44,7 @@ type and location in the original Select Computer window.
 - Select the number of **Days since last logon** from the drop-down menu
 - Click the **Columns** button to open the Choose Columns window
 
-    ![Choose Columns window](../../../../../../static/img/product_docs/accessanalyzer/admin/datacollector/smartlog/choosecolumnswindow.webp)
+    ![Choose Columns window](/img/product_docs/accessanalyzer/admin/datacollector/smartlog/choosecolumnswindow.webp)
 
     Select a column from the Columns available or Columns shown lists and click **Add** or
     **Remove** to add or remove them from each column

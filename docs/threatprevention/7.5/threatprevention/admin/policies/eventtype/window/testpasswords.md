@@ -1,11 +1,11 @@
 # Test Passwords Window
 
 The Test Password window enables users to test the password complexity requirements set in the
-[Password Rules Filter](../passwordenforcement.md#password-rules-filter) against a pending password.
+[Password Rules Filter](/docs/threatprevention/7.5/threatprevention/admin/policies/eventtype/passwordenforcement.md#password-rules-filter) against a pending password.
 This window does not change a user’s password but allows pending user passwords to be tested in the
 domain.
 
-![Test Passwords Window](../../../../../../../../static/img/product_docs/threatprevention/threatprevention/admin/policies/eventtype/window/testpasswords.webp)
+![Test Passwords Window](/img/product_docs/threatprevention/threatprevention/admin/policies/eventtype/window/testpasswords.webp)
 
 This window has the following options:
 
@@ -19,8 +19,8 @@ This window has the following options:
 
 Password Test Result - Passed
 
-![passwordtestpassed](../../../../../../../../static/img/product_docs/threatprevention/threatprevention/admin/policies/eventtype/window/passwordtestpassed.webp)
+![passwordtestpassed](/img/product_docs/threatprevention/threatprevention/admin/policies/eventtype/window/passwordtestpassed.webp)
 
 Password Test Result - Does Not Pass
 
-![passwordtestfailed](../../../../../../../../static/img/product_docs/threatprevention/threatprevention/admin/policies/eventtype/window/passwordtestfailed.webp)
+![passwordtestfailed](/img/product_docs/threatprevention/threatprevention/admin/policies/eventtype/window/passwordtestfailed.webp)

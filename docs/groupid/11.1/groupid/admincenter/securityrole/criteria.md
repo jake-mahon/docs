@@ -86,6 +86,6 @@ you may want role members to access Portal A only.
 
 See Also
 
-- [Security Roles](overview.md)
-- [Create a Security Role](create.md)
-- [Manage Security Roles](manage.md)
+- [Security Roles](/docs/groupid/11.1/groupid/admincenter/securityrole/overview.md)
+- [Create a Security Role](/docs/groupid/11.1/groupid/admincenter/securityrole/create.md)
+- [Manage Security Roles](/docs/groupid/11.1/groupid/admincenter/securityrole/manage.md)

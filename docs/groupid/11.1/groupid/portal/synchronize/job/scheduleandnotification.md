@@ -13,7 +13,7 @@ run in future and set the notifications settings for the job.
        manually or from the Synchronize job scheduler.
 
         If you are modifying an existing job, you can also a new schedule for the job. Visit
-        [Synchronize Schedule](../../../admincenter/schedule/synchronize.md)
+        [Synchronize Schedule](/docs/groupid/11.1/groupid/admincenter/schedule/synchronize.md)
 
 2. Set up email notification of job run results:
 
@@ -83,6 +83,6 @@ run in future and set the notifications settings for the job.
 9. **Review your Changes** before finishing the job.
 10. Click **Finish** and create the job.
 11. Once you run the job, a workflow request is triggered.
-12. Generated workflow request will be displayed in the [Requests](../../request/overview.md)
+12. Generated workflow request will be displayed in the [Requests](/docs/groupid/11.1/groupid/portal/request/overview.md)
     section for the workflow approver(s). If the approver approves the workflow request, the job
     will execute the results.

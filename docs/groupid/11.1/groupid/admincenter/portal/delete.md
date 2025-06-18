@@ -58,5 +58,5 @@ Deleting a portal removes all its deployments and configurations from Directory 
 
 **See Also**
 
-- [Directory Manage Applications](applications.md)
-- [ Directory Manager Portal](overview.md)
+- [Directory Manage Applications](/docs/groupid/11.1/groupid/admincenter/portal/applications.md)
+- [ Directory Manager Portal](/docs/groupid/11.1/groupid/admincenter/portal/overview.md)

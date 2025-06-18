@@ -34,7 +34,7 @@ In the next section, we will discuss the following three main ideas:
 Our recommended tool of choice to get the Endpoint Policy Manager CSE deployed to multiple machines
 is PDQ Deploy. PDQ Deploy has a free mode and a paid mode, which is reasonably priced. You can see
 how to deploy a package with PDQ Deploy please see the
-[Managing Group Policy using Endpoint Policy Manager and PDQ Deploy](../integration/pdqdeploy.md)
+[Managing Group Policy using Endpoint Policy Manager and PDQ Deploy](/docs/policypak/policypak/integration/pdqdeploy.md)
 topic for additional information.
 
 ## MDM, UEM, or RMM Tools
@@ -64,33 +64,33 @@ containing the target computers.
 **Step 4 –** Use Group Policy Software Installation to deploy that file to all target computers.
 
 **NOTE:** To see a demonstration of this section, please watch these two tutorial videos:
-[Mass Deploy the Endpoint Policy Manager CSE using GPSI](../archive/massdeploy.md) and
-[Upgrading the CSE using GPSI](../archive/upgrading.md). In this example, we've created a GPO named
+[Mass Deploy the Endpoint Policy Manager CSE using GPSI](/docs/policypak/policypak/archive/massdeploy.md) and
+[Upgrading the CSE using GPSI](/docs/policypak/policypak/archive/upgrading.md). In this example, we've created a GPO named
 Deploy PP Client and linked it to East Sales Desktops.
 
-![Deploying Client Side](../../../../static/img/product_docs/policypak/policypak/install/deploying_the_client_side_350x474.webp)
+![Deploying Client Side](/img/product_docs/policypak/policypak/install/deploying_the_client_side_350x474.webp)
 
 **Step 5 –** Next, right-click the GPO and select **Edit**. Once you're inside the Group Policy
 Editor, scroll down to **Computer** > **Configuration** > **Software Settings** > **Software
 Installation**. Right-click, and select **New** > **Package**.
 
-![deploying_the_client_side_1_620x359](../../../../static/img/product_docs/policypak/policypak/install/deploying_the_client_side_1_620x359.webp)
+![deploying_the_client_side_1_620x359](/img/product_docs/policypak/policypak/install/deploying_the_client_side_1_620x359.webp)
 
 **Step 6 –** Once this is complete, type in the server and share names you used. In our example, our
 server is `\\DC-Computer` and our share is Endpoint Policy Manager. Then select the Endpoint Policy
 Manager CSE Setup x64.msi file, and click **Open**. Next, choose **Assigned**, and select **OK**.
 
-![deploying_the_client_side_2_620x389](../../../../static/img/product_docs/policypak/policypak/install/deploying_the_client_side_2_620x389.webp)
+![deploying_the_client_side_2_620x389](/img/product_docs/policypak/policypak/install/deploying_the_client_side_2_620x389.webp)
 
-![deploying_the_client_side_3_550x381](../../../../static/img/product_docs/policypak/policypak/install/deploying_the_client_side_3_550x381.webp)
+![deploying_the_client_side_3_550x381](/img/product_docs/policypak/policypak/install/deploying_the_client_side_3_550x381.webp)
 
 When you're done, the GPO should look like this:.
 
-![deploying_the_client_side_4_1200x309](../../../../static/img/product_docs/policypak/policypak/install/deploying_the_client_side_4_1200x309.webp)
+![deploying_the_client_side_4_1200x309](/img/product_docs/policypak/policypak/install/deploying_the_client_side_4_1200x309.webp)
 
 **Step 7 –** Repeat this process until both the x86 and x64 MSIs appear.
 
-![deploying_the_client_side_5_1200x240](../../../../static/img/product_docs/policypak/policypak/install/deploying_the_client_side_5_1200x240.webp)
+![deploying_the_client_side_5_1200x240](/img/product_docs/policypak/policypak/install/deploying_the_client_side_5_1200x240.webp)
 
 **NOTE:** Be sure that the source field is pointing to a network path (e.g., `\\server\share`) and
 not a local path (e.g., `c:\something\`).
@@ -99,4 +99,4 @@ If you have an older version of the Endpoint Policy Manager CSE and wish to upda
 Policy Software Installation, it's easy to do.
 
 For more information on how to perform an upgrade using Group Policy Software Installation. See the
-[Upgrading the CSE using GPSI](../archive/upgrading.md) topic for additional information.
+[Upgrading the CSE using GPSI](/docs/policypak/policypak/archive/upgrading.md) topic for additional information.

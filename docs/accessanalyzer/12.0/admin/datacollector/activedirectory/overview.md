@@ -3,7 +3,7 @@
 The ActiveDirectory Data Collector audits objects published in Active Directory. It has been
 preconfigured within the Active Directory Solution. Both this data collector and the solution are
 available with a special Access Analyzer license. See the
-[Active Directory Solution](../../../solutions/activedirectory/overview.md) topic for additional
+[Active Directory Solution](/docs/accessanalyzer/12.0/solutions/activedirectory/overview.md) topic for additional
 information.
 
 Protocols
@@ -28,13 +28,13 @@ The ActiveDirectory Data Collector is configured through the Active Directory Da
 which contains the following wizard pages:
 
 - Welcome
-- [ActiveDirectory: Category](category.md)
-- [ActiveDirectory: Directory Scope](directoryscope.md)
-- [ActiveDirectory: Results](results.md)
-- [ActiveDirectory: Options](options.md)
-- [ActiveDirectory: Summary](summary.md)
+- [ActiveDirectory: Category](/docs/accessanalyzer/12.0/admin/datacollector/activedirectory/category.md)
+- [ActiveDirectory: Directory Scope](/docs/accessanalyzer/12.0/admin/datacollector/activedirectory/directoryscope.md)
+- [ActiveDirectory: Results](/docs/accessanalyzer/12.0/admin/datacollector/activedirectory/results.md)
+- [ActiveDirectory: Options](/docs/accessanalyzer/12.0/admin/datacollector/activedirectory/options.md)
+- [ActiveDirectory: Summary](/docs/accessanalyzer/12.0/admin/datacollector/activedirectory/summary.md)
 
-![Active Directory Data Collector Wizard Welcome page](../../../../../../static/img/product_docs/activitymonitor/activitymonitor/install/welcome.webp)
+![Active Directory Data Collector Wizard Welcome page](/img/product_docs/activitymonitor/activitymonitor/install/welcome.webp)
 
 The Welcome page can be hidden by selecting the **Do not display this page the next time** checkbox
 when the wizard is open and configuration settings are saved.

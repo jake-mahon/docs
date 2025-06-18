@@ -29,21 +29,21 @@ If using PowerShell ISE:
 
 Enter the password in the window that appears when the script above is run.
 
-![923_1_image-20221221103111-1](../../../../static/img/product_docs/policypak/policypak/scriptstriggers/923_1_image-20221221103111-1.webp)
+![923_1_image-20221221103111-1](/img/product_docs/policypak/policypak/scriptstriggers/923_1_image-20221221103111-1.webp)
 
 If running PowerShell from CMD:
 
-![923_2_image-20221221103111-2](../../../../static/img/product_docs/policypak/policypak/scriptstriggers/923_2_image-20221221103111-2.webp)
+![923_2_image-20221221103111-2](/img/product_docs/policypak/policypak/scriptstriggers/923_2_image-20221221103111-2.webp)
 
 The resulting encrypted password is then stored at a secure location that is accessible from the
 endpoints (in this case a file on a secure network share `(\\server\share\file.txt)`.
 
-![923_3_image-20221221103111-3](../../../../static/img/product_docs/policypak/policypak/scriptstriggers/923_3_image-20221221103111-3.webp)
+![923_3_image-20221221103111-3](/img/product_docs/policypak/policypak/scriptstriggers/923_3_image-20221221103111-3.webp)
 
 The next step is to create a computer side PowerShell policy in Endpoint Policy Manager Scripts &
 Triggers.
 
-![923_4_image-20221221103111-4](../../../../static/img/product_docs/policypak/policypak/scriptstriggers/923_4_image-20221221103111-4.webp)
+![923_4_image-20221221103111-4](/img/product_docs/policypak/policypak/scriptstriggers/923_4_image-20221221103111-4.webp)
 
 Then at the "On Apply action" screen choose PowerShell script for the type of script from the
 dropdown, and then paste in the script below after editing it to reflect your Security Key, and the
@@ -65,7 +65,7 @@ update any local user account you have defined in your script.
 In the example below we are setting the password for a local user called "EastSalesUser1", see $user
 below).
 
-![923_5_image-20221221103111-5](../../../../static/img/product_docs/policypak/policypak/scriptstriggers/923_5_image-20221221103111-5.webp)
+![923_5_image-20221221103111-5](/img/product_docs/policypak/policypak/scriptstriggers/923_5_image-20221221103111-5.webp)
 
 **CAUTION:** The targeted endpoint must have rights to read the share and file used above (i.e.,
 `\\server\share\file.txt`).

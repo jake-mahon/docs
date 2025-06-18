@@ -22,5 +22,5 @@ To adjust audit settings automatically, do any of the following:
 
 See also:
 
-- [Configure Domain for Monitoring Active Directory](admanual.md)
-- [Active Directory: manual configuration](cfgmanual.md)
+- [Configure Domain for Monitoring Active Directory](/docs/1secure/configuration/activedirectory/admanual.md)
+- [Active Directory: manual configuration](/docs/1secure/configuration/activedirectory/cfgmanual.md)

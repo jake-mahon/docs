@@ -19,16 +19,16 @@ There are some items which will not work if the computer is not domain joined…
 
 1. Chrome's plug SHOULD work and activate automatically, but in might need to be activated if it
    doesn't operate as expected.
-   [Browser Router now supports Chrome on Non-Domain Joined machines](../../video/browserrouter/chromenondomainjoined.md).
+   [Browser Router now supports Chrome on Non-Domain Joined machines](/docs/policypak/policypak/video/browserrouter/chromenondomainjoined.md).
 2. Endpoint Policy Manager Application Manager will work as expected, except managing some areas of
    CHROME when non-domain joined. Chrome simply has a self-imposed limitation for non-domain joined
    machines. The list of settings which WILL and WON'T work is documented
-   [Which items in Chrome will, and will not work when non-domain joined?](chrome.md).
+   [Which items in Chrome will, and will not work when non-domain joined?](/docs/policypak/policypak/troubleshooting/nondomain/chrome.md).
 3. Windows Edge (original) will report at each launch "We've turned off extensions from unknown
    sources. They might be risky so we recommend keeping them off." (See picture below.) There is NO
    workaround at this time.
 
-    ![359_1_tyr](../../../../../static/img/product_docs/policypak/policypak/troubleshooting/nondomain/359_1_tyr.webp)
+    ![359_1_tyr](/img/product_docs/policypak/policypak/troubleshooting/nondomain/359_1_tyr.webp)
 
 4. Windows Edge + Chromium: The Browser Router Extension will not install automatically. There is NO
    workaround at this time except to manually install the Chrome Extension on Edge by hand.

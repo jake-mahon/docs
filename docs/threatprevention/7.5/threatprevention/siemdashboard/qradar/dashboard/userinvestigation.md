@@ -7,7 +7,7 @@ bar.
 
 The User Investigation dashboard contains the following cards:
 
-![User Investigation Dashboard](../../../../../../../static/img/product_docs/threatprevention/threatprevention/siemdashboard/qradar/dashboard/userinvestigation.webp)
+![User Investigation Dashboard](/img/product_docs/threatprevention/threatprevention/siemdashboard/qradar/dashboard/userinvestigation.webp)
 
 - Total Actions – Number of all events associated with the user over the specified time interval
 - Source Hosts – Number of source IP addresses associated with the user over the specified time
@@ -15,12 +15,12 @@ The User Investigation dashboard contains the following cards:
 - Destination Hosts – Number of destination IP addresses associated with the user over the specified
   time interval
 - Activity – Timeline of all events associated with the user over the specified time interval. See
-  the [Graph Card Features](../navigate.md#graph-card-features) topic for additional information.
+  the [Graph Card Features](/docs/threatprevention/7.5/threatprevention/siemdashboard/qradar/navigate.md#graph-card-features) topic for additional information.
 - Latest Events – Tabular format of all events associated with the user over the specified time
-  interval. See the [Table Card Features](../navigate.md#table-card-features) topic for additional
+  interval. See the [Table Card Features](/docs/threatprevention/7.5/threatprevention/siemdashboard/qradar/navigate.md#table-card-features) topic for additional
   information.
 - Offenses Related to User – QRadar offenses associated with the user during the specified time
-  interval. See the [Table Card Features](../navigate.md#table-card-features) topic for additional
+  interval. See the [Table Card Features](/docs/threatprevention/7.5/threatprevention/siemdashboard/qradar/navigate.md#table-card-features) topic for additional
   information.
 
 The time interval is identified in the upper-right corner with the _Start_ and _End_ boxes. This is

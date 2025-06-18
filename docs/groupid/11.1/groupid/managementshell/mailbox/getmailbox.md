@@ -38,6 +38,6 @@ Get-MailBox -Identity "OsamaMailBox"
 
 See Also
 
-- [All Commands](../commands.md)
-- [Mailbox Commands](overview.md)
-- [Parameters](../parameters/parameters.md)
+- [All Commands](/docs/groupid/11.1/groupid/managementshell/commands.md)
+- [Mailbox Commands](/docs/groupid/11.1/groupid/managementshell/mailbox/overview.md)
+- [Parameters](/docs/groupid/11.1/groupid/managementshell/parameters/parameters.md)

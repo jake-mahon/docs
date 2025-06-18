@@ -2,7 +2,7 @@
 
 **NOTE:** For more information on Endpoint Policy Manager Least Privilege Manager and Item Level
 Targeting, please see the
-[Endpoint Privilege Manager: Use Item Level Targeting to hone in when rules apply.](../video/leastprivilege/itemleveltargeting.md)
+[Endpoint Privilege Manager: Use Item Level Targeting to hone in when rules apply.](/docs/policypak/policypak/video/leastprivilege/itemleveltargeting.md)
 video.
 
 Item-Level Targeting is used in Microsoft Group Policy Preferences and other areas of Endpoint
@@ -17,14 +17,14 @@ another for West Sales Users. .
 ![A screenshot of a computer
 
 Description automatically
-generated](../../../../static/img/product_docs/policypak/policypak/leastprivilege/item_level_targeting_with.webp)
+generated](/img/product_docs/policypak/policypak/leastprivilege/item_level_targeting_with.webp)
 
 Below you can see two created collections that can hold other collections or policies.
 
 ![A screenshot of a computer
 
 Description automatically
-generated](../../../../static/img/product_docs/policypak/policypak/leastprivilege/item_level_targeting_with_1.webp)
+generated](/img/product_docs/policypak/policypak/leastprivilege/item_level_targeting_with_1.webp)
 
 Right-click any Endpoint Policy Manager Least Privilege Manager Collection or Policy and select
 **Change Item-Level Targeting**, to set filtering conditions on when the policy will apply.
@@ -32,14 +32,14 @@ Right-click any Endpoint Policy Manager Least Privilege Manager Collection or Po
 ![A screenshot of a computer
 
 Description automatically
-generated](../../../../static/img/product_docs/policypak/policypak/leastprivilege/item_level_targeting_with_2.webp)
+generated](/img/product_docs/policypak/policypak/leastprivilege/item_level_targeting_with_2.webp)
 
 The **Change Item Level Targeting** menu item brings up the Targeting Editor.
 
 ![A screenshot of a computer
 
 Description automatically
-generated](../../../../static/img/product_docs/policypak/policypak/leastprivilege/item_level_targeting_with_3.webp)
+generated](/img/product_docs/policypak/policypak/leastprivilege/item_level_targeting_with_3.webp)
 
 You can select any combination of characteristics you want to test for. Administrators familiar with
 Group Policy Preferences’ Item-Level Targeting will be at home in this interface as it is
@@ -53,7 +53,7 @@ Not**.
 
 **NOTE:** Additionally, Endpoint Policy Manager Least Privilege Manager allows you to target users
 or user groups, even if the policy is on the computer side. See the
-[Link to Computer, Filter by User](../video/leastprivilege/userfilter.md) video for details on this
+[Link to Computer, Filter by User](/docs/policypak/policypak/video/leastprivilege/userfilter.md) video for details on this
 superpower.
 
 Below are some real-world examples of how you can use Item-Level Targeting.
@@ -79,7 +79,7 @@ Level Targeting, as seen below.
 ![A screenshot of a computer
 
 Description automatically
-generated](../../../../static/img/product_docs/policypak/policypak/leastprivilege/item_level_targeting_with_4.webp)
+generated](/img/product_docs/policypak/policypak/leastprivilege/item_level_targeting_with_4.webp)
 
 When Item-Level Targeting is on, the policy won’t apply unless the conditions are true. If
 Item-Level Targeting is applied to a collection, then none of the items in the collection will apply

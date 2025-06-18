@@ -7,13 +7,13 @@ dictionaries and other exceptions. Exceptions include:
 - AES Key Missing – Account is set up using older functional AD levels, so has no AES key. These
   accounts use weaker encryption methods susceptible to brute force attacks.
 - Clear Text Password – Account has passwords stored with reversible encryption. See the Microsoft
-  [Store passwords using reversible encryption](<https://docs.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/hh994559(v=ws.11)>)
+  [Store passwords using reversible encryption](https://docs.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/hh994559(v=ws.11))
   article for additional information.
 - Default Computer Password – Computer has default computer passwords set
 - Delegable Admins – Administrator account is allowed to be delegated to a service
 - DES Encryption Only – Account is using Kerberos DES encryption. DES encryption is considered weak
   as the 56-bit key is prone to brute force attacks. See the Microsoft
-  [AD DS: User accounts and trusts in this domain should not be configured for DES only](<https://docs.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/ff646918(v=ws.10)>)
+  [AD DS: User accounts and trusts in this domain should not be configured for DES only](https://docs.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/ff646918(v=ws.10))
   article for additional information.
 - Empty Password – Account has an empty password
 - Kerberos Pre-authentication is not required – Account does not require Kerberos

@@ -21,14 +21,14 @@ You can review the Active Directory/Microsoft Entra ID users on the following da
 
 - Managing Organization
 
-![tabs](../../../../static/img/product_docs/threatmanager/threatmanager/administration/threatdetails/tabs.webp)
+![tabs](/img/product_docs/threatmanager/threatmanager/administration/threatdetails/tabs.webp)
 
 - Managed Organization
 
-![billableaccountsmanagedorg](../../../../static/img/product_docs/1secure/admin/organizations/billableaccountsmanagedorg.webp)
+![billableaccountsmanagedorg](/img/product_docs/1secure/admin/organizations/billableaccountsmanagedorg.webp)
 
 You can also review the Billable Users reports with the detailed information for each account. See
-the [Billable Users Report](../searchandreports/billableusers.md) topic for additional information.
+the [Billable Users Report](/docs/1secure/admin/searchandreports/billableusers.md) topic for additional information.
 
 ## Calculation of the Numbers
 
@@ -77,6 +77,6 @@ Directory accounts by default:
 You can also exclude service accounts from your billable accounts. To do this, add these accounts to
 an Azure Group or Active Directory Organizational Unit respectively and specify it in the source
 settings. See the
-[Add a Source and Connectors for Microsoft Entra ID](sourcesandconnectors/entraid.md) or
-[Add a Source and Connectors for Active Directory](sourcesandconnectors/activedirectory.md) topics
+[Add a Source and Connectors for Microsoft Entra ID](/docs/1secure/admin/organizations/sourcesandconnectors/entraid.md) or
+[Add a Source and Connectors for Active Directory](/docs/1secure/admin/organizations/sourcesandconnectors/activedirectory.md) topics
 for additional information.

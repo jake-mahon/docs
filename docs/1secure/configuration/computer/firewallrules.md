@@ -28,7 +28,7 @@ settings** on the left.
 **Step 3 –** In the Windows Firewall with Advanced Security dialog, select Inbound Rules on the
 left.
 
-![Windows Firewall Advanced Security window](../../../../static/img/product_docs/1secure/configuration/logonactivity/manualconfig_nla_inbound_connections2016.webp)
+![Windows Firewall Advanced Security window](/img/product_docs/1secure/configuration/logonactivity/manualconfig_nla_inbound_connections2016.webp)
 
 **Step 4 –** Enable the following inbound connection rules:
 

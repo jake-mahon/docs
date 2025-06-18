@@ -11,7 +11,7 @@ Installer Policy** from the drop-down menu, as shown here.
 ![A screenshot of a computer
 
 Description automatically
-generated](../../../../../static/img/product_docs/policypak/policypak/leastprivilege/elevate/elevating_msi_installer_files.webp)
+generated](/img/product_docs/policypak/policypak/leastprivilege/elevate/elevating_msi_installer_files.webp)
 
 At this point, a prompt will appear for a Simple rule or a Combo rule. For the Quick Start, we
 suggest choosing **Use Simple rule (recommended)** as we have shown previously. Then, on the
@@ -20,7 +20,7 @@ available. For this Quick Start, we suggest you select **Hash**.
 
 **NOTE:** We realize that hash values often change for installers, but using Hash is only for the
 Quick Start. To learn how to authorize users to keep applications up to do date, learn about Combo
-rules in [Best Practices and Miscellaneous Topics](../bestpractices/overviewmisc.md).
+rules in [Best Practices and Miscellaneous Topics](/docs/policypak/policypak/leastprivilege/bestpractices/overviewmisc.md).
 
 On the next page, click **Select windows installer** and select the SkypeSetup.MSI package
 (previously downloaded).
@@ -28,7 +28,7 @@ On the next page, click **Select windows installer** and select the SkypeSetup.M
 ![A screenshot of a computer
 
 Description automatically
-generated](../../../../../static/img/product_docs/policypak/policypak/leastprivilege/elevate/elevating_msi_installer_files_1.webp)
+generated](/img/product_docs/policypak/policypak/leastprivilege/elevate/elevating_msi_installer_files_1.webp)
 
 You will then see the Hash information automatically entered. Click **Next**. On the Select Action
 page, select **Run with elevated privileges** and click **Next**. On the Settings page, enter a name
@@ -37,7 +37,7 @@ for the policy and click **Finish**.
 ![A screenshot of a computer
 
 Description automatically
-generated](../../../../../static/img/product_docs/policypak/policypak/leastprivilege/elevate/elevating_msi_installer_files_2.webp)
+generated](/img/product_docs/policypak/policypak/leastprivilege/elevate/elevating_msi_installer_files_2.webp)
 
 Now you will see an entry in the Endpoint Policy Manager (formerly PolicyPak) Least Privilege
 Manager MMC.
@@ -45,7 +45,7 @@ Manager MMC.
 ![A screenshot of a computer
 
 Description automatically
-generated](../../../../../static/img/product_docs/policypak/policypak/leastprivilege/elevate/elevating_msi_installer_files_3.webp)
+generated](/img/product_docs/policypak/policypak/leastprivilege/elevate/elevating_msi_installer_files_3.webp)
 
 Run GPupdate on the endpoint, and then, as a Standard User, try to run the Skype MSI installer
 again. This time the UAC prompt is removed from the Install icon, and the MSI application should
@@ -54,4 +54,4 @@ install as expected.
 ![A screenshot of a computer
 
 Description automatically
-generated](../../../../../static/img/product_docs/policypak/policypak/leastprivilege/elevate/elevating_msi_installer_files.webp)
+generated](/img/product_docs/policypak/policypak/leastprivilege/elevate/elevating_msi_installer_files.webp)

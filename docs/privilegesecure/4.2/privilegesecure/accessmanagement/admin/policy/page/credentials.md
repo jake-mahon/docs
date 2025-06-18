@@ -4,9 +4,9 @@ The Credentials page shows all accounts discovered within your environment. It i
 focused on managing service account password rotation. A managed account is any host local account,
 domain account, or Privilege Secure application local account that has its credentials managed by
 the application. This includes managed user accounts created by activity sessions. The Credentials
-page displays the same information as the [Credentials Dashboard](../../dashboard/credentials.md).
+page displays the same information as the [Credentials Dashboard](/docs/privilegesecure/4.2/privilegesecure/accessmanagement/admin/dashboard/credentials.md).
 
-![Credentials page](../../../../../../../../static/img/product_docs/activitymonitor/activitymonitor/install/agent/credentials.webp)
+![Credentials page](/img/product_docs/activitymonitor/activitymonitor/install/agent/credentials.webp)
 
 The page has the following features:
 
@@ -25,21 +25,21 @@ The page has the following features:
 - Manage — Set the selected account to be managed by Privilege Secure. This button is only available
   when the account Managed Type is Standard or Internal. For an Internal account, a pop up window
   will display. See the
-  [Manage Internal Service Accounts](../window/credentials/manageinternalserviceaccount.md) section
+  [Manage Internal Service Accounts](/docs/privilegesecure/4.2/privilegesecure/accessmanagement/admin/policy/window/credentials/manageinternalserviceaccount.md) section
   for additional information.
 - Unmanage — Remove the account from being managed by Privilege Secure
 - Rotate Service Account — Opens the Account Dependencies window. This button is only available when
   the Managed Type is Service. See the
-  [Account Dependencies Window](../window/credentials/accountdependencies.md) topic for additional
+  [Account Dependencies Window](/docs/privilegesecure/4.2/privilegesecure/accessmanagement/admin/policy/window/credentials/accountdependencies.md) topic for additional
   information.
 - Schedule Rotation — Add the credential rotation task to the queue. This button is only available
   when the Method is Automatic managed. See the
-  [Scheduled Tasks Page](../../configuration/page/scheduledtasks.md) topic for additional
+  [Scheduled Tasks Page](/docs/privilegesecure/4.2/privilegesecure/accessmanagement/admin/configuration/page/scheduledtasks.md) topic for additional
   information.
 - Verify — Checks that the credentials for the selected account match the credentials set by
   Privilege Secure
 - View History — Opens the Password History window to displays the password history for the account.
-  See the [Password History Window](../window/credentials/passwordhistory.md) topic for additional
+  See the [Password History Window](/docs/privilegesecure/4.2/privilegesecure/accessmanagement/admin/policy/window/credentials/passwordhistory.md) topic for additional
   information.
 - Refresh — Reload the information displayed
 
@@ -50,12 +50,12 @@ The table has the following columns:
 
     - Set Password icon — Opens the Set Password for Credential window to set a new password for the
       selected account. See the
-      [Manage Internal Service Accounts](../window/credentials/manageinternalserviceaccount.md)
+      [Manage Internal Service Accounts](/docs/privilegesecure/4.2/privilegesecure/accessmanagement/admin/policy/window/credentials/manageinternalserviceaccount.md)
       topic for more information.
     - Clipboard icon — Copies the password for the selected account
     - Information icon — Opens the View Password window to view the password and copy it to the
       clipboard. The window stays open for 20 seconds. See the
-      [View Password Window](../window/credentials/viewpassword.md) topic for additional
+      [View Password Window](/docs/privilegesecure/4.2/privilegesecure/accessmanagement/admin/policy/window/credentials/viewpassword.md) topic for additional
       information.
 
 - Resource — Name of the resource that the account is on. Click the link to view additional details.
@@ -64,23 +64,23 @@ The table has the following columns:
 - Method — Indicates how the account is managed:
 
     - Automatic — Credential rotation is managed by Privilege Secure according to the change policy
-      for that platform type. See the [Platforms Page](platforms/overview.md) topic for additional
+      for that platform type. See the [Platforms Page](/docs/privilegesecure/4.2/privilegesecure/accessmanagement/admin/policy/page/platforms/overview.md) topic for additional
       information.
     - Manual — Credential rotation must be initiated manually with the Rotate Service Account
       button, or the credential must be manually updated on both the resource and in Privilege
-      Secure. See the [Service Accounts Page](../../configuration/page/serviceaccounts.md) section
+      Secure. See the [Service Accounts Page](/docs/privilegesecure/4.2/privilegesecure/accessmanagement/admin/configuration/page/serviceaccounts.md) section
       for information on updating credentials for Internal service accounts.
     - Not Managed — Not currently managed by Privilege Secure and no credentials have ever been
       stored
 
-    **NOTE:** See the [Rotation Methods](../credentialrotationmethod.md) topic for additional
+    **NOTE:** See the [Rotation Methods](/docs/privilegesecure/4.2/privilegesecure/accessmanagement/admin/policy/credentialrotationmethod.md) topic for additional
     information.
 
 - Managed Type — Type of managed account:
 
     - Standard — Local or domain user account, including managed users created by activity sessions
     - Internal — Internal service account used by Privilege Secure with no dependencies. See the
-      [Service Accounts Page](../../configuration/page/serviceaccounts.md) topic for additional
+      [Service Accounts Page](/docs/privilegesecure/4.2/privilegesecure/accessmanagement/admin/configuration/page/serviceaccounts.md) topic for additional
       information.
     - Service — Local or domain service account with one or more dependencies. Includes Internal
       service accounts with one or more dependencies.
@@ -90,7 +90,7 @@ The table has the following columns:
 - Age — Number of days since the last credential rotation or from when the password was first
   created
 - Status — Indicates if the account credentials have been verified by Privilege Secure. See the
-  [Platforms Page](platforms/overview.md) topic for additional information on configuring a
+  [Platforms Page](/docs/privilegesecure/4.2/privilegesecure/accessmanagement/admin/policy/page/platforms/overview.md) topic for additional information on configuring a
   verification schedule.
 
     - Unspecified — Verification check has not run

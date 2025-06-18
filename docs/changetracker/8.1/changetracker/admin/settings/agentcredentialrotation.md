@@ -6,7 +6,7 @@ described in this document.
 
 If authentication details are being rotated as part of a routine process, then the in band
 alternative is to set all agents to use new credentials from within the Hub's web console. See the
-[Agent Configuration](agentconfiguration.md) topic for additional information.
+[Agent Configuration](/docs/changetracker/8.1/changetracker/admin/settings/agentconfiguration.md) topic for additional information.
 
 The scripts at the bottom of this page can be used to update authentication details on devices.
 These scripts can be rolled out to all devices with an IT automation system. These scripts stop the
@@ -24,7 +24,7 @@ other roles, it can only be used by agents to authenticate.
 
 The existing agent account can be seen in the Users section of the Hub.
 
-![agentaccountmanagement](../../../../../../static/img/product_docs/changetracker/changetracker/admin/settings/agentaccountmanagement.webp)
+![agentaccountmanagement](/img/product_docs/changetracker/changetracker/admin/settings/agentaccountmanagement.webp)
 
 **CAUTION:** Changing the password of an account used by agents to authenticate will cause the
 agents to go offline as they will be attempting to authenticate with the old password.
@@ -38,7 +38,7 @@ Follow the steps to create the new agent account.
 
 **Step 1 –** Click **Create New User**, give it a user name and just the Agent role.
 
-![newpassword](../../../../../../static/img/product_docs/changetracker/changetracker/admin/settings/newpassword.webp)
+![newpassword](/img/product_docs/changetracker/changetracker/admin/settings/newpassword.webp)
 
 **Step 2 –** Click **Update**, and the User Password dialog opens with a complex password. This is
 only shown once. It is recommended that this be saved in a password management system for future
@@ -55,7 +55,7 @@ match the new agent account.
 Running the script will set the new authentication details and restart the agent while producing the
 output below.
 
-![newagentscript_1049x168](../../../../../../static/img/product_docs/changetracker/changetracker/admin/settings/newagentscript_1049x168.webp)
+![newagentscript_1049x168](/img/product_docs/changetracker/changetracker/admin/settings/newagentscript_1049x168.webp)
 
 ChangePasswordOOB.ps1
 
@@ -113,7 +113,7 @@ the new agent account.
 
 Running the script will set the password and restart the agent while producing the output below.
 
-![agentpasswordscript_1028x217](../../../../../../static/img/product_docs/changetracker/changetracker/admin/settings/agentpasswordscript_1028x217.webp)
+![agentpasswordscript_1028x217](/img/product_docs/changetracker/changetracker/admin/settings/agentpasswordscript_1028x217.webp)
 
 UpdatePasswordOOB.sh
 

@@ -1,7 +1,7 @@
 # Quick Start - Start Screen Manager
 
 **NOTE:** For some video overviews of Start Screen & Taskbar Manager, see Start Screen & Task Bar
-Manager > [Video Learning Center](../overview/videolearningcenter.md).
+Manager > [Video Learning Center](/docs/policypak/policypak/startscreentaskbar/overview/videolearningcenter.md).
 
 If you want to follow along with this Quickstart guide for Start Screen Manager, we suggest you
 first download some applications on your Windows 10 management station and your endpoint. Start
@@ -16,7 +16,7 @@ endpoint.
 
 You should be able to see Acrobat Reader in the Start Menu, as shown in Figure 5.
 
-![quickstart_start_screen_manager](../../../../../static/img/product_docs/policypak/policypak/startscreentaskbar/startscreen/quickstart_start_screen_manager.webp)
+![quickstart_start_screen_manager](/img/product_docs/policypak/policypak/startscreentaskbar/startscreen/quickstart_start_screen_manager.webp)
 
 Figure 5. Adobe Reader is installed on the GPMC machine and the Windows 10 Endpoint.
 

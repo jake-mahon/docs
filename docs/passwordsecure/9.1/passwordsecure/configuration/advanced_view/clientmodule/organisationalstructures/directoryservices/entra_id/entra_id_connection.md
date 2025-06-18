@@ -49,7 +49,7 @@ NOTE: You need an account with administrative permissions
 
 - Write down your "Tenant ID" shown in the Azure console or by using PowerShell:
 
-[Copy](<javascript:void(0);>)
+[Copy](javascript:void(0);)
 
 ```
 Connect-AzureAD
@@ -79,7 +79,7 @@ have booked the Azure package Entra ID Premium P1!
 
 NOTE: Your Netwrix Password Secure user need the following permissions:
 
-[Copy](<javascript:void(0);>)
+[Copy](javascript:void(0);)
 
 ```
 - Display organisational structure module

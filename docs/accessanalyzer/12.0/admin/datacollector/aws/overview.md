@@ -4,7 +4,7 @@ The AWS Data Collector collects IAM users, groups, roles, and policies, as well 
 content, and sensitive data from the target Amazon Web Services (AWS) accounts. The AWS Data
 Collector has been preconfigured for the AWS Solution. Both this data collector and the solution are
 available with a special Access Analyzer license. See the
-[AWS Solution](../../../solutions/aws/overview.md) topic for additional information.
+[AWS Solution](/docs/accessanalyzer/12.0/solutions/aws/overview.md) topic for additional information.
 
 Protocols
 
@@ -47,10 +47,10 @@ is configured to scan 8 hosts at a time , then an extra 16 GB of RAM are require
 The AWS Data Collector is configured through the Amazon Web Services Data Collector Wizard. The
 wizard contains the following pages, which change based up on the query category selected:
 
-- [AWS: Category](category.md)
-- [AWS: Login Roles](loginroles.md)
-- [AWS: Filter S3 Objects](filters3objects.md)
-- [AWS: Sensitive Data Settings](sensitivedata.md)
-- [AWS: Criteria ](criteria.md)
-- [AWS: Results](results.md)
-- [AWS: Summary](summary.md)
+- [AWS: Category](/docs/accessanalyzer/12.0/admin/datacollector/aws/category.md)
+- [AWS: Login Roles](/docs/accessanalyzer/12.0/admin/datacollector/aws/loginroles.md)
+- [AWS: Filter S3 Objects](/docs/accessanalyzer/12.0/admin/datacollector/aws/filters3objects.md)
+- [AWS: Sensitive Data Settings](/docs/accessanalyzer/12.0/admin/datacollector/aws/sensitivedata.md)
+- [AWS: Criteria ](/docs/accessanalyzer/12.0/admin/datacollector/aws/criteria.md)
+- [AWS: Results](/docs/accessanalyzer/12.0/admin/datacollector/aws/results.md)
+- [AWS: Summary](/docs/accessanalyzer/12.0/admin/datacollector/aws/summary.md)

@@ -8,37 +8,37 @@ The integration can be configured for the following Auditor data sources:
 - Active Directory.
 
     See the
-    [Use Netwrix Privilege Secure as a Data Collecting Account](../monitoringplans/activedirectory/overview.md#use-netwrix-privilege-secure-as-a-data-collecting-account)
+    [Use Netwrix Privilege Secure as a Data Collecting Account](/docs/auditor/10.7/auditor/admin/monitoringplans/activedirectory/overview.md#use-netwrix-privilege-secure-as-a-data-collecting-account)
     topic for additional information.
 
 - Group Policy.
 
     See the
-    [Use Netwrix Privilege Secure as a Data Collecting Account](../monitoringplans/grouppolicy/overview.md#use-netwrix-privilege-secure-as-a-data-collecting-account)
+    [Use Netwrix Privilege Secure as a Data Collecting Account](/docs/auditor/10.7/auditor/admin/monitoringplans/grouppolicy/overview.md#use-netwrix-privilege-secure-as-a-data-collecting-account)
     topic for additional information.
 
 - Logon Activity.
 
     See the
-    [Use Netwrix Privilege Secure as a Data Collecting Account](../monitoringplans/logonactivity/overview.md#use-netwrix-privilege-secure-as-a-data-collecting-account)
+    [Use Netwrix Privilege Secure as a Data Collecting Account](/docs/auditor/10.7/auditor/admin/monitoringplans/logonactivity/overview.md#use-netwrix-privilege-secure-as-a-data-collecting-account)
     topic for additional information.
 
 - Microsoft Entra ID.
 
     See the
-    [How to Add Microsoft Entra ID Monitoring Plan Using Netwrix Privilege Secure](../monitoringplans/microsoftentraid/overview.md#how-to-add-microsoft-entra-id-monitoring-plan-using-netwrix-privilege-secure)
+    [How to Add Microsoft Entra ID Monitoring Plan Using Netwrix Privilege Secure](/docs/auditor/10.7/auditor/admin/monitoringplans/microsoftentraid/overview.md#how-to-add-microsoft-entra-id-monitoring-plan-using-netwrix-privilege-secure)
     topic for additional information.
 
 - Windows File Server.
 
     See the
-    [Use Netwrix Privilege Secure as a Data Collecting Account](../monitoringplans/fileservers/windowsfileserver.md#use-netwrix-privilege-secure-as-a-data-collecting-account)
+    [Use Netwrix Privilege Secure as a Data Collecting Account](/docs/auditor/10.7/auditor/admin/monitoringplans/fileservers/windowsfileserver.md#use-netwrix-privilege-secure-as-a-data-collecting-account)
     topic for additional information.
 
 - Windows Server.
 
     See the
-    [Use Netwrix Privilege Secure as a Data Collecting Account](../monitoringplans/windows/overview.md#use-netwrix-privilege-secure-as-a-data-collecting-account)
+    [Use Netwrix Privilege Secure as a Data Collecting Account](/docs/auditor/10.7/auditor/admin/monitoringplans/windows/overview.md#use-netwrix-privilege-secure-as-a-data-collecting-account)
     topic for additional information.
 
 ## Software Requirements
@@ -66,7 +66,7 @@ options are available:
 - New/Generate certificate – Create a new certificate.
 - Select an existing certificate – Select an available certificate from the drop-down list.
 
-![npsclientcertificate](../../../../../../static/img/product_docs/auditor/auditor/admin/settings/npsclientcertificate.webp)
+![npsclientcertificate](/img/product_docs/auditor/auditor/admin/settings/npsclientcertificate.webp)
 
 **Step 6 –** Click **Next**.
 
@@ -102,11 +102,11 @@ documentation for additional instructions.
 
 **Step 10 –** Provide the security key you got in Netwrix Privilege Secure.
 
-![npsintegrationparameters](../../../../../../static/img/product_docs/auditor/auditor/admin/settings/npsintegrationparameters.webp)
+![npsintegrationparameters](/img/product_docs/auditor/auditor/admin/settings/npsintegrationparameters.webp)
 
 **Step 11 –** Click **Next**.
 
-![npsintegrationfinished](../../../../../../static/img/product_docs/auditor/auditor/admin/settings/npsintegrationfinished.webp)
+![npsintegrationfinished](/img/product_docs/auditor/auditor/admin/settings/npsintegrationfinished.webp)
 
 **Step 12 –** After the validation, click **Finish**.
 

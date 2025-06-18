@@ -7,7 +7,7 @@ bar, or one of the review shortcuts.
 Reviews open on the **Review** tab. The **Review Notes** tab lists the review details for the
 review.
 
-![Permission Review](../../../../static/img/product_docs/strongpointfornetsuite/uar/uar_owner/permission_review.webp)
+![Permission Review](/img/product_docs/strongpointfornetsuite/uar/uar_owner/permission_review.webp)
 
 ## Filters
 
@@ -50,7 +50,7 @@ Other available actions:
 1. Select one or more **Role Permissions**.
 2. Review the **Permission** and the **Level** are appropriate for the role. If correct, click
    **Mark Completed**. The status is updated. You cannot undo this action.  
-   ![Mark the Permission review complete](../../../../static/img/product_docs/strongpointfornetsuite/uar/uar_owner/permission_review_complete.webp)
+   ![Mark the Permission review complete](/img/product_docs/strongpointfornetsuite/uar/uar_owner/permission_review_complete.webp)
 
 ### Change Permission Level
 
@@ -64,14 +64,14 @@ To change a permission level:
 4. Enter a brief description of why the change is requested when prompted for the **Reason for
    Change**. Click **Accept** when complete.
 
-    ![Reason for change](../../../../static/img/product_docs/strongpointfornetsuite/uar/uar_owner/change_request_reason.webp)
+    ![Reason for change](/img/product_docs/strongpointfornetsuite/uar/uar_owner/change_request_reason.webp)
 
     A Change Request is generated for each level change. Status is changed to either **Change
     Request** and the **Change Request ID** added, or **Waiting for CR** if there is an existing
     change request in progress as part of another review. Click the **Change Request ID** to open
     the Change Request.
 
-    ![Change requests for Level changes](../../../../static/img/product_docs/strongpointfornetsuite/uar/uar_owner/permission_review_cr.webp)
+    ![Change requests for Level changes](/img/product_docs/strongpointfornetsuite/uar/uar_owner/permission_review_cr.webp)
 
     If the Change Request is approved, the status changes to **CR Approved**. If the Change Request
     is rejected (**CR Rejected status**) or canceled (**CR Cancelled**), the permission row is
@@ -84,7 +84,7 @@ To change a permission level:
 To add a permission:
 
 1. Click + **Add**.  
-   ![Add a permission](../../../../static/img/product_docs/strongpointfornetsuite/uar/uar_owner/permission_review_add.webp)
+   ![Add a permission](/img/product_docs/strongpointfornetsuite/uar/uar_owner/permission_review_add.webp)
 2. Select the **Permission**, **Category**, and **Level**.
 3. Click **Submit**.
 4. Enter a brief description of why the change is requested when prompted for the **Reason for
@@ -95,7 +95,7 @@ To add a permission:
     change request in progress as part of another review. Click the **Change Request ID** to open
     the Change Request.
 
-    ![Adding a new permission](../../../../static/img/product_docs/strongpointfornetsuite/uar/uar_owner/permission_review_add2.webp)
+    ![Adding a new permission](/img/product_docs/strongpointfornetsuite/uar/uar_owner/permission_review_add2.webp)
 
     If the Change Request is rejected or canceled, the added permission row is removed from the
     list.
@@ -106,10 +106,10 @@ Each permission must be in the **Complete** or **CR Complete status**, with all
 finished before you can click **Complete Review**. Once a review is complete, no further changes can
 be made.
 
-![Permission review complete when all rows are complete](../../../../static/img/product_docs/strongpointfornetsuite/uar/uar_owner/permission_review_complete.webp)
+![Permission review complete when all rows are complete](/img/product_docs/strongpointfornetsuite/uar/uar_owner/permission_review_complete.webp)
 
 When you click **Complete Review**, the review status is updated to **Complete**, and the review is
-added to the [UAR History](../uar_history.md).
+added to the [UAR History](/docs/strongpointfornetsuite/uar/uar_history.md).
 
 ## Review Notes
 
@@ -117,7 +117,7 @@ Every record has review notes with details about the changes. Only submitted cha
 The UAR list opens on the **Review** tab. Click **Review Notes** to open the notes tab. You can
 **Export** the notes as a CSV or PDF file.
 
-![Open the Review Notes tab](../../../../static/img/product_docs/strongpointfornetsuite/uar/uar_owner/review_notes_tab.webp)
+![Open the Review Notes tab](/img/product_docs/strongpointfornetsuite/uar/uar_owner/review_notes_tab.webp)
 
 The notes have the following fields:
 

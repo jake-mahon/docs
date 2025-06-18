@@ -76,4 +76,4 @@ Step 19 – Click the **Delegation Authorization Rules** tab. We do not need to 
 **Apply** and then **OK**. The AD FS console is displayed with the new relying party trust added.
 
 The next step is to configure the AD FS provider in Directory Manager. See the
-[Configure the AD FS Provider In Directory Manager](configureadfsingroupid.md) topic.
+[Configure the AD FS Provider In Directory Manager](/docs/groupid/11.1/groupid/authenticate/asserviceprovider/adfs/configureadfsingroupid.md) topic.

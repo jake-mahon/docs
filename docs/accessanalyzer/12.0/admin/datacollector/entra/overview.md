@@ -5,7 +5,7 @@ tenant. This data collector is preconfigured in the .Entra ID Inventory solutio
 
 Both this data collector and the .Entra Inventory solution are available with all Access Analyzer
 license options. See the
-[.Entra ID Inventory Solution](../../../solutions/entraidinventory/overview.md) topic for additional
+[.Entra ID Inventory Solution](/docs/accessanalyzer/12.0/solutions/entraidinventory/overview.md) topic for additional
 information.
 
 Protocols
@@ -40,6 +40,6 @@ Permissions
 The Entra data collector is configured through the Entra Data Collector Wizard, which contains the
 following wizard pages:
 
-- [Entra: Scan options](options.md)
-- [Entra: Results](results.md)
-- [Entra: Summary](summary.md)
+- [Entra: Scan options](/docs/accessanalyzer/12.0/admin/datacollector/entra/options.md)
+- [Entra: Results](/docs/accessanalyzer/12.0/admin/datacollector/entra/results.md)
+- [Entra: Summary](/docs/accessanalyzer/12.0/admin/datacollector/entra/summary.md)

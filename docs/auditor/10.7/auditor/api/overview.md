@@ -16,7 +16,7 @@ Integration API provides the following capabilities:
 - Data out: Further automate your business processes, IT security and operations workflows by
   enriching third-party solutions with actionable audit data.
 
-![diagram_thumb_0_0](../../../../../static/img/product_docs/auditor/auditor/addon/cyberark/diagram_thumb_0_0.webp)
+![diagram_thumb_0_0](/img/product_docs/auditor/auditor/addon/cyberark/diagram_thumb_0_0.webp)
 
 Netwrix Auditor Integration API operates with XML- and JSON-formatted Activity Records—minimal
 chunks of audit data containing information on _who_ changed _what_, _when_ and _where_ this change
@@ -48,6 +48,6 @@ Complete the following fields:
 | Specify a name for your integration | Specify the add-on name or provide any other name that distinguishes this custom source from any other. This name will be listed in the Item filter in the interactive search. |
 
 Make sure Integration API is enabled. To check it, navigate to Settings → Integrations tab. See
-[Integrations](../admin/settings/integrations.md) for more information.
+[Integrations](/docs/auditor/10.7/auditor/admin/settings/integrations.md) for more information.
 
 Make sure to provide a monitoring plan name and item name in activity records before importing data.

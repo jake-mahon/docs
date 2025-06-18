@@ -7,7 +7,7 @@ Auditing Data." This will query all computers at once and give you a report. Alt
 have any sets defined, you may pick a set and see the results of only the computers in that set, as
 shown in Figure 57.
 
-![gpcr_server_with_push_mode_21](../../../../../../static/img/product_docs/policypak/policypak/grouppolicycompliancereporter/mode/push/gpcr_server_with_push_mode_21.webp)
+![gpcr_server_with_push_mode_21](/img/product_docs/policypak/policypak/grouppolicycompliancereporter/mode/push/gpcr_server_with_push_mode_21.webp)
 
 Figure 57. Viewing the results for computers within a specific set.
 

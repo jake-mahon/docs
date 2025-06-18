@@ -2,7 +2,7 @@
 
 The configuration wizard opens in the default web browser:
 
-![PrivilegedUsersConfigWizard](../../../../../../static/img/product_docs/auditor/auditor/addon/privilegeduserlinux/configwizard.webp)
+![PrivilegedUsersConfigWizard](/img/product_docs/auditor/auditor/addon/privilegeduserlinux/configwizard.webp)
 
 Click **Proceed** and complete the following fields:
 

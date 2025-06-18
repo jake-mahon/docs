@@ -3,7 +3,7 @@
 The Select AD Groups window provides a list of available Active Directory groups. Selected objects
 are added to the filter from where you clicked the **Add** (+) button to open this window.
 
-![Select AD Groups Window](../../../../../../../../../static/img/product_docs/threatprevention/threatprevention/admin/policies/eventtype/adgroups.webp)
+![Select AD Groups Window](/img/product_docs/threatprevention/threatprevention/admin/policies/eventtype/adgroups.webp)
 
 - Select either Browse Mode or Search Mode.
 
@@ -12,6 +12,6 @@ are added to the filter from where you clicked the **Add** (+) button to open th
   right.
 - Then click **OK** to close the window.
 
-See the [Selection Windows](../overview.md) topic for additional information.
+See the [Selection Windows](/docs/threatprevention/7.5/threatprevention/admin/policies/eventtype/window/overview.md) topic for additional information.
 
 The selection is displayed in the appropriate box of the AD Account filter or the AD Groups filter.

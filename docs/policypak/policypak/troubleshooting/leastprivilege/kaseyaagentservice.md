@@ -23,16 +23,16 @@ Steps:
 
 **Step 1 –** Create a Endpoint Policy Manager Scripts Manager policy under Computer container
 
-![873_1_image-20211130233051-1](../../../../../static/img/product_docs/policypak/policypak/troubleshooting/leastprivilege/873_1_image-20211130233051-1.webp)
+![873_1_image-20211130233051-1](/img/product_docs/policypak/policypak/troubleshooting/leastprivilege/873_1_image-20211130233051-1.webp)
 
 **Step 2 –** Select PowerShell script from the drop-down at On apply action window and paste the
 PowerShell script from below.
 
-![873_2_image-20211130233051-2](../../../../../static/img/product_docs/policypak/policypak/troubleshooting/leastprivilege/873_2_image-20211130233051-2.webp)
+![873_2_image-20211130233051-2](/img/product_docs/policypak/policypak/troubleshooting/leastprivilege/873_2_image-20211130233051-2.webp)
 
 **Step 3 –** Select ‘Once or when forced' at Specify process mode window.
 
-![873_3_image-20211130233051-3](../../../../../static/img/product_docs/policypak/policypak/troubleshooting/leastprivilege/873_3_image-20211130233051-3.webp)
+![873_3_image-20211130233051-3](/img/product_docs/policypak/policypak/troubleshooting/leastprivilege/873_3_image-20211130233051-3.webp)
 
 **Step 4 –** Finish the Wizard to complete the policy creation.
 
@@ -41,7 +41,7 @@ Optional:
 - Revert script when policy no longer applies or you do not need Endpoint Policy Manager services
   dependencies for Kaseya Agent Service.
 
-    ![873_4_image-20211130233051-4](../../../../../static/img/product_docs/policypak/policypak/troubleshooting/leastprivilege/873_4_image-20211130233051-4.webp)
+    ![873_4_image-20211130233051-4](/img/product_docs/policypak/policypak/troubleshooting/leastprivilege/873_4_image-20211130233051-4.webp)
 
 \*\*\*\*\* Powershell 'apply' script:
 

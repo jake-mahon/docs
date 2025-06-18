@@ -33,7 +33,7 @@ you open them. Click **Search** to generate reports with a predefined filter set
 
 **Step 5 –** Click **Export**. The report is sent to you as an .xlsx file by email.
 
-![Roports - Export option](../../../../static/img/product_docs/1secure/admin/searchandreports/exportreport.webp)
+![Roports - Export option](/img/product_docs/1secure/admin/searchandreports/exportreport.webp)
 
 **NOTE:** A report cannot be exported if no data is available for it. In this case, the Export
 button remains disabled.
@@ -49,7 +49,7 @@ opens to the Activity tab with New Investigation selected in the left pane.
 its reports. An organization is selected by default, but you can choose a different one if needed.
 
 **Step 3 –** Define a filter criteria, then click **Search** to generate the investigation results
-based on it. See the [Apply Filters](applyfilters.md) topic for additional information.
+based on it. See the [Apply Filters](/docs/1secure/admin/searchandreports/applyfilters.md) topic for additional information.
 
 **Step 4 –** Click **Export**. The investigation results report is sent to you as an .xlsx file by
 email.

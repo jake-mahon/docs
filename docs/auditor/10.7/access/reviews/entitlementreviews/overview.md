@@ -40,37 +40,37 @@ There are two types of reviews:
 - Access – Review user access rights to resources
 - Membership – Review group membership
 
-See the [Entitlement Reviews Interface](interface.md) topic for additional information.
+See the [Entitlement Reviews Interface](/docs/auditor/10.7/access/reviews/entitlementreviews/interface.md) topic for additional information.
 
 ## Workflow of Reviews
 
 Prerequisite:
 
 - The Access Reviews application is configured to send Notifications. See the
-  [Notifications Page](../admin/configuration/notifications.md) topic for additional information.
+  [Notifications Page](/docs/auditor/10.7/access/reviews/admin/configuration/notifications.md) topic for additional information.
 
     **NOTE:** By default, the application is configured to send notifications only to the primary
     owner. However, this can be customized on the Configuration > Notifications page to send
     notifications to all assigned owners.
 
 - Owners assigned to resources within the Resource Owners interface. See the
-  [Resource Owners Overview](../resourceowners/overview.md) topic for additional information.
+  [Resource Owners Overview](/docs/auditor/10.7/access/reviews/resourceowners/overview.md) topic for additional information.
 
 Workflow:
 
 **_RECOMMENDED:_** When deploying the Access Reviews application in an organization to process
 reviews, owners should be notified prior to launching the first set of reviews. See the
-[Notification to Owners](../resourceowners/overview.md#notification-to-owners) topic for additional
+[Notification to Owners](/docs/auditor/10.7/access/reviews/resourceowners/overview.md#notification-to-owners) topic for additional
 information.
 
 1. Review Administrator creates a review or starts a new review instance. See the
-   [Create Review Wizard](wizard/create.md) topic for additional information.
-2. Owner performs a review. See the [Pending Reviews](pendingreviews.md) topic for additional
+   [Create Review Wizard](/docs/auditor/10.7/access/reviews/entitlementreviews/wizard/create.md) topic for additional information.
+2. Owner performs a review. See the [Pending Reviews](/docs/auditor/10.7/access/reviews/entitlementreviews/pendingreviews.md) topic for additional
    information.
 3. Review Administrator approves owner recommendations. See the
-   [Approval Process](approvalprocess.md) topic for additional information.
+   [Approval Process](/docs/auditor/10.7/access/reviews/entitlementreviews/approvalprocess.md) topic for additional information.
 4. Implement approved changes in your organization. Manually, export a list of approved changes and
    deliver it to your IT department.
 
 When desired, the Review Administrator runs another instance of the review and the workflow starts
-again. See the [Review Instances](reviewinstances.md) topic for additional information.
+again. See the [Review Instances](/docs/auditor/10.7/access/reviews/entitlementreviews/reviewinstances.md) topic for additional information.

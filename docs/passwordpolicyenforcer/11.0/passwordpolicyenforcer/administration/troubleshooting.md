@@ -11,7 +11,7 @@ them. Select the first (blank) item in the drop-down list if you do not want a d
 
 Open the Programs and Features list in Control Panel on the computer you are changing the password
 from, and check if the Password Policy Client is in the list of installed programs. If it is not,
-then install the Password Policy Client. See the [Password Policy Client](password_policy_client.md)
+then install the Password Policy Client. See the [Password Policy Client](/docs/passwordpolicyenforcer/11.0/passwordpolicyenforcer/administration/password_policy_client.md)
 topic for additional information.
 
 If Password Policy Enforcer is enforcing a domain policy, then search the Windows Application Event
@@ -30,10 +30,10 @@ Use the Test Policies page to test a password for the user. Click the **Log** ta
 password policy is assigned to the user.
 
 Make sure that the Password Policy Server is enabled. See the
-[Configuration Console](configconsoleoverview.md) topic for additional information.
+[Configuration Console](/docs/passwordpolicyenforcer/11.0/passwordpolicyenforcer/administration/configconsoleoverview.md) topic for additional information.
 
 Make sure that the Password Policy Client is enabled. See
-[Password Policy Client](password_policy_client.md) topic for additional information.
+[Password Policy Client](/docs/passwordpolicyenforcer/11.0/passwordpolicyenforcer/administration/password_policy_client.md) topic for additional information.
 
 #### Accepting passwords that do not comply with the policy
 

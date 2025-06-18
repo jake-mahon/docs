@@ -30,7 +30,7 @@ they have an audit trail and approvals can be shown.
 9. Set the **Account ID Target** (this is automatically loaded upon selecting Target account).
 10. Set the **Account Target Role**.
 11. Click **Push**.
-    ![push_change_request](../../../static/img/product_docs/strongpointfornetsuite/change_management/push_change_request.webp)
+    ![push_change_request](/img/product_docs/strongpointfornetsuite/change_management/push_change_request.webp)
 
 ## Update the Change Request in Testing/Development
 
@@ -39,12 +39,12 @@ they have an audit trail and approvals can be shown.
 
 - Attach **customizations created/updated**.
 
-    ![multi_env_1](../../../static/img/product_docs/strongpointfornetsuite/change_management/multi_env_1.webp)
+    ![multi_env_1](/img/product_docs/strongpointfornetsuite/change_management/multi_env_1.webp)
 
 - **Stage**: **Deployment Record**
 - **Set Approval Status**: **Approved** (this is optional)
 
-    ![multi_env_2](../../../static/img/product_docs/strongpointfornetsuite/change_management/multi_env_2.webp)
+    ![multi_env_2](/img/product_docs/strongpointfornetsuite/change_management/multi_env_2.webp)
 
 3. Open the **Sync Tool** tab.
 4. **Push** the updated Change Request back into Production. This adds a related deployment record
@@ -56,7 +56,7 @@ they have an audit trail and approvals can be shown.
 2. Enter the login credentials of the **Target** and **Source** Accounts.
 3. Set the **Comparison Type** to **Target Newer than Source**.
 4. Click the **Compare** button.  
-   Refer to [Comparing Environments](comparing_environments.md) for more details.
+   Refer to [Comparing Environments](/docs/strongpointfornetsuite/change_management/comparing_environments.md) for more details.
 
 ## Create the Deployment Record
 
@@ -71,7 +71,7 @@ In your Production environment:
 4. Open **Change Request** tab.
 5. Click **Edit** (deployment record).
 
-    ![multi_env_3](../../../static/img/product_docs/strongpointfornetsuite/change_management/multi_env_3.webp)
+    ![multi_env_3](/img/product_docs/strongpointfornetsuite/change_management/multi_env_3.webp)
 
 6. Push the Change Request from Production to Development/Testing.
 7. Install any customizations in Development/Testing.
@@ -82,7 +82,7 @@ In your Production environment:
 2. Enter the login credentials of the **Target** and **Source** Accounts.
 3. Set the **Comparison Type** to **Target Newer than Source**.
 4. Click the **Compare** button.  
-   Refer to [Comparing Environments](comparing_environments.md) for more details.
+   Refer to [Comparing Environments](/docs/strongpointfornetsuite/change_management/comparing_environments.md) for more details.
 
 ## Completing the Process
 

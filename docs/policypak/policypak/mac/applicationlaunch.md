@@ -1,7 +1,7 @@
 # Using MacOS + Admin Approval (aka Application Launch + Challenge)
 
 **NOTE:** See the
-[Endpoint Policy Manager for Mac and Admin Approval](../video/leastprivilege/mac/adminapproval.md)
+[Endpoint Policy Manager for Mac and Admin Approval](/docs/policypak/policypak/video/leastprivilege/mac/adminapproval.md)
 video for an overview of this section.
 
 You might want users to only be able to run applications (normally or those which require admin
@@ -14,12 +14,12 @@ has multiple executables.
 ![A screen shot of a computer
 
 Description automatically
-generated](../../../../static/img/product_docs/policypak/policypak/mac/using_macos_admin_approval.webp)
+generated](/img/product_docs/policypak/policypak/mac/using_macos_admin_approval.webp)
 
 ![A computer screen with a screen showing a login page
 
 Description automatically
-generated](../../../../static/img/product_docs/policypak/policypak/mac/using_macos_admin_approval_1.webp)
+generated](/img/product_docs/policypak/policypak/mac/using_macos_admin_approval_1.webp)
 
 **NOTE:** The Endpoint Policy Manager Least Privilege Admin Approval tool for Windows must be used
 to perform approval requests.
@@ -29,4 +29,4 @@ The following options are honored in the Mac (and Windows) client:
 ![A screenshot of a computer
 
 Description automatically
-generated](../../../../static/img/product_docs/policypak/policypak/mac/using_macos_admin_approval_2.webp)
+generated](/img/product_docs/policypak/policypak/mac/using_macos_admin_approval_2.webp)

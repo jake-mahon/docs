@@ -12,27 +12,27 @@ Starting recently in Firefox, you can only see permissions and pop-ups by doing 
 
 **Step 5 –** After doing this, you will reach the Permissions tab, as shown in Figure 8.
 
-![permissions_and_pop_ups](../../../../../../static/img/product_docs/policypak/policypak/applicationsettings/preconfigured/firefox/permissions_and_pop_ups.webp)
+![permissions_and_pop_ups](/img/product_docs/policypak/policypak/applicationsettings/preconfigured/firefox/permissions_and_pop_ups.webp)
 
 Figure 6. To see permissions and pop-ups click, one must click on the lock icon and then on the
 right arrow.
 
-![permissions_and_pop_ups_1](../../../../../../static/img/product_docs/policypak/policypak/applicationsettings/preconfigured/firefox/permissions_and_pop_ups_1.webp)
+![permissions_and_pop_ups_1](/img/product_docs/policypak/policypak/applicationsettings/preconfigured/firefox/permissions_and_pop_ups_1.webp)
 
 Figure 7. The next step to see the permissions and pop-ups is to click on "More Information."
 
-![permissions_and_pop_ups_2](../../../../../../static/img/product_docs/policypak/policypak/applicationsettings/preconfigured/firefox/permissions_and_pop_ups_2.webp)
+![permissions_and_pop_ups_2](/img/product_docs/policypak/policypak/applicationsettings/preconfigured/firefox/permissions_and_pop_ups_2.webp)
 
 Figure 8. The Permissions tab.
 
 You can see Firefox's pop-up exceptions using Options | Privacy & Security | Exceptions, as shown in
 Figure 9 and Figure 10.
 
-![permissions_and_pop_ups_3](../../../../../../static/img/product_docs/policypak/policypak/applicationsettings/preconfigured/firefox/permissions_and_pop_ups_3.webp)
+![permissions_and_pop_ups_3](/img/product_docs/policypak/policypak/applicationsettings/preconfigured/firefox/permissions_and_pop_ups_3.webp)
 
 Figure 9. Firefox's pop-up exceptions.
 
-![permissions_and_pop_ups_4](../../../../../../static/img/product_docs/policypak/policypak/applicationsettings/preconfigured/firefox/permissions_and_pop_ups_4.webp)
+![permissions_and_pop_ups_4](/img/product_docs/policypak/policypak/applicationsettings/preconfigured/firefox/permissions_and_pop_ups_4.webp)
 
 Figure 10. The pop-up exceptions page.
 
@@ -40,7 +40,7 @@ Netwrix Endpoint Policy Manager (formerly PolicyPak) can manipulate most areas o
 pop-ups. Within the Firefox AppSet, you can use the Permissions tab to enter in the values you wish
 for the sites that are allowed to have pop-ups and you can set permissions, as shown in Figure 11.
 
-![permissions_and_pop_ups_5](../../../../../../static/img/product_docs/policypak/policypak/applicationsettings/preconfigured/firefox/permissions_and_pop_ups_5.webp)
+![permissions_and_pop_ups_5](/img/product_docs/policypak/policypak/applicationsettings/preconfigured/firefox/permissions_and_pop_ups_5.webp)
 
 Figure 11. Using Endpoint Policy Manager to configure the Permissions tab.
 
@@ -80,14 +80,14 @@ ICA plugin is always set to ALLOW for that site, you would need to know the Citr
 name, which is "npican." Then, you would enter http://site.com, plugin:npican, allow. This is
 illustrated in Figure 12.
 
-![permissions_and_pop_ups_6](../../../../../../static/img/product_docs/policypak/policypak/applicationsettings/preconfigured/firefox/permissions_and_pop_ups_6.webp)
+![permissions_and_pop_ups_6](/img/product_docs/policypak/policypak/applicationsettings/preconfigured/firefox/permissions_and_pop_ups_6.webp)
 
 Figure 12. The plug in short name within the Permissions tab.
 
 This will ensure on the endpoint that Firefox will perform the ALLOW command on that plugin for that
 website, as shown in Figure 13.
 
-![permissions_and_pop_ups_7](../../../../../../static/img/product_docs/policypak/policypak/applicationsettings/preconfigured/firefox/permissions_and_pop_ups_7.webp)
+![permissions_and_pop_ups_7](/img/product_docs/policypak/policypak/applicationsettings/preconfigured/firefox/permissions_and_pop_ups_7.webp)
 
 Figure 13. The plug in is allowed in Firefox.
 
@@ -100,6 +100,6 @@ do the following:
 
 **Step 3 –** Locate the website and the type, as shown in Figure 14, to discover the short name.
 
-![permissions_and_pop_ups_8](../../../../../../static/img/product_docs/policypak/policypak/applicationsettings/preconfigured/firefox/permissions_and_pop_ups_8.webp)
+![permissions_and_pop_ups_8](/img/product_docs/policypak/policypak/applicationsettings/preconfigured/firefox/permissions_and_pop_ups_8.webp)
 
 Figure 14. Finding the plug in short name.

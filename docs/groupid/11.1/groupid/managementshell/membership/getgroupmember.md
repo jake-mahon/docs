@@ -24,7 +24,7 @@ Example 1:
 
 The following command retrieves all members of the Password_Expiry group using the credentials set
 in the $Credentials environment variable. See the
-[Set the $Credentials Environment Variable](../parameters/setthecredential.md) topic for setting
+[Set the $Credentials Environment Variable](/docs/groupid/11.1/groupid/managementshell/parameters/setthecredential.md) topic for setting
 credentials in an environment variable.
 
 ```

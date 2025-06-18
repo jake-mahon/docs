@@ -157,7 +157,7 @@ The settings are grouped according to categories to provide a better overview
 NOTE: There is a version selection box in the settings. The options that were newly added in the
 selected version are correspondingly marked in the list.
 
-![installation_with_parameters_115](../../../../../../../../../static/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/mainmenu/user_rights/overview_user_rights/installation_with_parameters_115.webp)
+![installation_with_parameters_115](/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/mainmenu/user_rights/overview_user_rights/installation_with_parameters_115.webp)
 
 This makes it easier for administrators to correctly configure new options before they release the
 update for all employees.

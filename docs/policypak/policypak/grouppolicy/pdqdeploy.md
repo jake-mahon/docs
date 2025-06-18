@@ -6,7 +6,7 @@
 
 **Step 2 –** Under Steps choose **Command**.
 
-![784_1_hf-faq-914-img-01](../../../../static/img/product_docs/policypak/policypak/grouppolicy/784_1_hf-faq-914-img-01.webp)
+![784_1_hf-faq-914-img-01](/img/product_docs/policypak/policypak/grouppolicy/784_1_hf-faq-914-img-01.webp)
 
 **Step 3 –** Give the Step a descriptive name, like Collect PPLOGS as User, then, under **Details
 tab** > **Command** type or paste in the command below. Replace \\server\share with a valid network
@@ -15,16 +15,16 @@ choose.
 
 `echo y|pplogs /out:\\server\share\pplogs\%computername%\pplogs-%computername%-%username%.zip`
 
-![784_3_hf-faq-914-img-02_950x110](../../../../static/img/product_docs/policypak/policypak/grouppolicy/784_3_hf-faq-914-img-02_950x110.webp)
+![784_3_hf-faq-914-img-02_950x110](/img/product_docs/policypak/policypak/grouppolicy/784_3_hf-faq-914-img-02_950x110.webp)
 
 **Step 4 –** Under the **Options** tab set the **Run As** to **Logged on User**, then click **Save**
 to save your progress so far.
 
-![784_5_hf-faq-914-img-03_950x134](../../../../static/img/product_docs/policypak/policypak/grouppolicy/784_5_hf-faq-914-img-03_950x134.webp)
+![784_5_hf-faq-914-img-03_950x134](/img/product_docs/policypak/policypak/grouppolicy/784_5_hf-faq-914-img-03_950x134.webp)
 
 **Step 5 –** Select the **New Step** dropdown and choose **Command** from the dropdown list.
 
-![784_7_hf-faq-914-img-04](../../../../static/img/product_docs/policypak/policypak/grouppolicy/784_7_hf-faq-914-img-04.webp)
+![784_7_hf-faq-914-img-04](/img/product_docs/policypak/policypak/grouppolicy/784_7_hf-faq-914-img-04.webp)
 
 **Step 6 –** Give the Step a descriptive name, like. Collect PPLOGS as Admin), and then under
 **Details tab** > **Command** type or paste in the command below, replacing \\server\share with a
@@ -35,4 +35,4 @@ valid network path for your environment.
 **Step 7 –** Click **Save**, then test your deployment. Once the deployment has executed
 successfully check your network share to see the results.
 
-![784_9_hf-faq-914-img-05](../../../../static/img/product_docs/policypak/policypak/grouppolicy/784_9_hf-faq-914-img-05.webp)
+![784_9_hf-faq-914-img-05](/img/product_docs/policypak/policypak/grouppolicy/784_9_hf-faq-914-img-05.webp)

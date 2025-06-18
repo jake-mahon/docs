@@ -4,7 +4,7 @@ You must save the QRadar SEC token to the Settings interface of the Active Direc
 
 Click the gear icon next to the Search box to open the Settings interface.
 
-![Settings interface](../../../../../../static/img/product_docs/activitymonitor/config/dellpowerscale/settings.webp)
+![Settings interface](/img/product_docs/activitymonitor/config/dellpowerscale/settings.webp)
 
 The More information link opens the IBM Knowledge Center with information on generating the QRadar
 SEC token. Once the token is generated, copy and paste it here and click Save.
@@ -20,4 +20,4 @@ An additional feature is to add Honey Accounts to be monitored.
 - After making changes to the list, click **Save**.
 
 Authentication activity by a honey account will generate an INTERCEPT: Honey Accounts Offense. See
-the [INTERCEPT Offenses in QRadar](offenses.md) topic for additional information.
+the [INTERCEPT Offenses in QRadar](/docs/threatprevention/7.5/threatprevention/siemdashboard/qradar/offenses.md) topic for additional information.

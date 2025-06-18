@@ -25,13 +25,13 @@ What won’t work:
   Browser” will be passed onward to Edge (instead of what you might have set it to, say, Firefox,
   Chrome, etc). Use this article to understand “Endpoint Policy Manager Browser Router Default
   Policy” type
-  [What is meant by "Default Browser" within Endpoint Policy Manager Browser router?](../../browserrouter/defaultbrowser/defined.md)
+  [What is meant by "Default Browser" within Endpoint Policy Manager Browser router?](/docs/policypak/policypak/browserrouter/defaultbrowser/defined.md)
 - Delivering File Associations specifically for PDF for Endpoint Policy Manager File Associations
   Manager
 
 You will also get the same experience if you attempt to use PolicyPak File Associations Manager to
 change HTTP or HTTPS, even if you’re not using PolicyPak Browser Router. See the
-[Can I use Endpoint Policy ManagerBrowser Router and/or Endpoint Policy Manager File Associations Manager to set the default browser?](../../fileassociations/defaultbrowser.md)
+[Can I use Endpoint Policy ManagerBrowser Router and/or Endpoint Policy Manager File Associations Manager to set the default browser?](/docs/policypak/policypak/fileassociations/defaultbrowser.md)
 topic for additional information.
 
 Troubleshooting:
@@ -78,9 +78,9 @@ only using an MDM service like Intune. Legacy mode only works when the machine i
 **NOTE:** After setting these settings and the policy refresh occurs to get these policies,
 endpoints may still need two logoffs and/or reboots for this to kick in.
 
-![1326_1_2c5259c2472101dd55c56da8d1dbdb33](../../../../../static/img/product_docs/policypak/policypak/troubleshooting/browserrouter/1326_1_2c5259c2472101dd55c56da8d1dbdb33.webp)
+![1326_1_2c5259c2472101dd55c56da8d1dbdb33](/img/product_docs/policypak/policypak/troubleshooting/browserrouter/1326_1_2c5259c2472101dd55c56da8d1dbdb33.webp)
 
-![1326_2_8f4ae9cf7f0bba8ddccb128640467c25](../../../../../static/img/product_docs/policypak/policypak/troubleshooting/browserrouter/1326_2_8f4ae9cf7f0bba8ddccb128640467c25.webp)
+![1326_2_8f4ae9cf7f0bba8ddccb128640467c25](/img/product_docs/policypak/policypak/troubleshooting/browserrouter/1326_2_8f4ae9cf7f0bba8ddccb128640467c25.webp)
 
 Update 4/8/2024:
 
@@ -115,7 +115,7 @@ To fix the issue, you need to perform two steps:
 **Step 2 –** Deploy the script via Endpoint Policy Manager Scripts Manager using the hints from the
 screen shot below.
 
-![1326_3_3e0331eadab3e6c272573b5c3b67e23c](../../../../../static/img/product_docs/policypak/policypak/troubleshooting/browserrouter/1326_3_3e0331eadab3e6c272573b5c3b67e23c.webp)
+![1326_3_3e0331eadab3e6c272573b5c3b67e23c](/img/product_docs/policypak/policypak/troubleshooting/browserrouter/1326_3_3e0331eadab3e6c272573b5c3b67e23c.webp)
 
 Workaround 2 using fsLogix (Microsoft Tools)
 
@@ -124,4 +124,4 @@ following redirect rules which should overcome the concern.
 
 **NOTE:** Do not use both Workaround 1 and 2 at the same time.
 
-![1326_4_3a4d59894f3cd6623b958202447b1136](../../../../../static/img/product_docs/policypak/policypak/troubleshooting/browserrouter/1326_4_3a4d59894f3cd6623b958202447b1136.webp)
+![1326_4_3a4d59894f3cd6623b958202447b1136](/img/product_docs/policypak/policypak/troubleshooting/browserrouter/1326_4_3a4d59894f3cd6623b958202447b1136.webp)

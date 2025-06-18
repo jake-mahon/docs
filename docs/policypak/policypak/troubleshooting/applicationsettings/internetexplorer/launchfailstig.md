@@ -4,7 +4,7 @@ There are some settings, which when you use ACL lockdown, will prevent IE from l
 
 Removing ACL lockdown on either of these settings permits IE to launch:
 
-![284_1_ghjgdffhykui88dr](../../../../../../static/img/product_docs/policypak/policypak/troubleshooting/applicationsettings/internetexplorer/284_1_ghjgdffhykui88dr.webp)
+![284_1_ghjgdffhykui88dr](/img/product_docs/policypak/policypak/troubleshooting/applicationsettings/internetexplorer/284_1_ghjgdffhykui88dr.webp)
 
 Under the hood, the keys that are edited are in
 

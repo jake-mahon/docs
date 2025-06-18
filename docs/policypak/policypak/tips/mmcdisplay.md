@@ -7,4 +7,4 @@ station.
 
 This policy doesn't need to hit the end-points.. just the admin machine.
 
-![603_1_faq-5-img-1](../../../../static/img/product_docs/policypak/policypak/tips/603_1_faq-5-img-1.webp)
+![603_1_faq-5-img-1](/img/product_docs/policypak/policypak/tips/603_1_faq-5-img-1.webp)

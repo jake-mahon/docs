@@ -80,7 +80,7 @@ edit or add comments.
 ### Add a note
 
 The option to add a note is available on the My Account History card on Dashboard, and all History
-pages i.e.[My History](myhistory.md), [My Direct Reports' History](mydirectreport.md) and My Groups'
+pages i.e.[My History](/docs/groupid/11.1/groupid/portal/history/myhistory.md), [My Direct Reports' History](/docs/groupid/11.1/groupid/portal/history/mydirectreport.md) and My Groups'
 History pages.
 
 Step 8 – Click the **Add Note** button next to a history item to add a note to it.

@@ -13,7 +13,7 @@ status of object types for each domain in an identity store and alerts you to an
 have occurred during the replication process.
 
 NOTE: The Replication service does not replicate excluded domains for an identity store. See the
-[Exclude an Active Directory Domain from Replication](../identitystore/manage.md#exclude-an-active-directory-domain-from-replication)
+[Exclude an Active Directory Domain from Replication](/docs/groupid/11.1/groupid/admincenter/identitystore/manage.md#exclude-an-active-directory-domain-from-replication)
 topic.
 
 ### How to Resolve Replication Errors
@@ -45,7 +45,7 @@ What do you want to do?
 Directory Manager enables you to monitor the Elasticsearch service for the following:
 
 - The status of the Elasticsearch service. See the
-  [Elasticsearch Service](../general/dashboard.md#elasticsearch-service) card on the Admin Center
+  [Elasticsearch Service](/docs/groupid/11.1/groupid/admincenter/general/dashboard.md#elasticsearch-service) card on the Admin Center
   dashboard.
 - Elasticsearch cluster health stats, which include:
 
@@ -60,7 +60,7 @@ the cluster is intact. It also checks the health of each index.
 1. In Admin Center, click **Replication** in the left pane.
 2. On the **Replication** page, click **Elasticsearch Health Monitor**.
 
-    ![es_health_monitor](../../../../../../static/img/product_docs/groupid/groupid/admincenter/replication/es_health_monitor.webp)
+    ![es_health_monitor](/img/product_docs/groupid/groupid/admincenter/replication/es_health_monitor.webp)
 
     This dialog box lists the Elasticsearch clusters in your environment, with the following
     information for each cluster:
@@ -81,7 +81,7 @@ the cluster is intact. It also checks the health of each index.
 3. To refresh the information displayed, click the **Refresh** icon.
 4. Click a cluster name to view it in detail.
 
-    ![cluster_info](../../../../../../static/img/product_docs/groupid/groupid/admincenter/replication/cluster_info.webp)
+    ![cluster_info](/img/product_docs/groupid/groupid/admincenter/replication/cluster_info.webp)
 
     This dialog box displays the total number of nodes in the cluster. Each node is represented by a
     card, that displays the following for the node:
@@ -112,7 +112,7 @@ the cluster is intact. It also checks the health of each index.
 
 The Replication service interval applies to all identity stores defined in Admin Center. Object
 attributes to be replicated are specified in the respective identity store settings. See the
-[Manage Local Replication Settings](../identitystore/replication.md) topic.
+[Manage Local Replication Settings](/docs/groupid/11.1/groupid/admincenter/identitystore/replication.md) topic.
 
 **To set global replication interval:**
 
@@ -170,7 +170,7 @@ and which ones failed to replicate.
        yet. Similarly, a child domain that is not being used will have its status marked in red. To
        avoid these recurring errors, set the dates for these objects to a distant future date in the
        Directory Manager database. Or you can exclude a domain from replication. See the
-       [Exclude an Active Directory Domain from Replication](../identitystore/manage.md#exclude-an-active-directory-domain-from-replication)
+       [Exclude an Active Directory Domain from Replication](/docs/groupid/11.1/groupid/admincenter/identitystore/manage.md#exclude-an-active-directory-domain-from-replication)
        topic.
 
 ## Specify Interval for Deleting Tombstone Objects
@@ -279,7 +279,7 @@ value as required.
 
 Replication error notifications are sent to recipients whose email addresses are specified in the
 _To_ and _CC_ boxes on the **Notifications** page. See the
-[Specify Notification Recipients](../identitystore/configure/smtpserver.md#specify-notification-recipients)
+[Specify Notification Recipients](/docs/groupid/11.1/groupid/admincenter/identitystore/configure/smtpserver.md#specify-notification-recipients)
 topic.
 
 **To set a triggering threshold:**
@@ -295,6 +295,6 @@ topic.
 
 **See Also**
 
-- [Elasticsearch and Replication ](overview.md)
-- [Manage Local Replication Settings](../identitystore/replication.md)
-- [Replication Service](../service/replicationservice.md)
+- [Elasticsearch and Replication ](/docs/groupid/11.1/groupid/admincenter/replication/overview.md)
+- [Manage Local Replication Settings](/docs/groupid/11.1/groupid/admincenter/identitystore/replication.md)
+- [Replication Service](/docs/groupid/11.1/groupid/admincenter/service/replicationservice.md)

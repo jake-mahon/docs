@@ -8,16 +8,16 @@ Analyzer Activity Auditing (SPAC) scans.
 ## Access & Sensitive Data Auditing Permissions
 
 - Permissions vary based on the Scan Mode selected and target environment. See the
-  [SharePoint Support](../../requirements/target/sharepoint.md) topic for
+  [SharePoint Support](/docs/accessanalyzer/12.0/requirements/target/sharepoint.md) topic for
   additional information.
 
-See the [SharePoint Access & Sensitive Data Auditing Configuration](access.md) topic for
+See the [SharePoint Access & Sensitive Data Auditing Configuration](/docs/accessanalyzer/12.0/config/sharepoint/access.md) topic for
 instructions.
 
 ## Access & Sensitive Data Auditing Port Requirements
 
 - Ports vary based on the Scan Mode selected and target environment. See the
-  [SharePoint Scan Options](../../requirements/solutions/sharepoint/scanoptions.md)
+  [SharePoint Scan Options](/docs/accessanalyzer/12.0/requirements/solutions/sharepoint/scanoptions.md)
   topic for additional information.
 
 ## Activity Auditing Permissions
@@ -39,7 +39,7 @@ Analyzer to read the activity log files must have also have this permission.
 
 SharePoint Requirements
 
-See the [SharePoint On-Premise Activity Auditing Configuration](activity.md) topic for instructions.
+See the [SharePoint On-Premise Activity Auditing Configuration](/docs/accessanalyzer/12.0/config/sharepoint/activity.md) topic for instructions.
 
 Activity Monitor Archive Location
 
@@ -59,7 +59,7 @@ are required for communication between the Agent server and the Netwrix Activity
 The Windows firewall rules need to be configured on the Windows server, which require certain
 inbound rules be created if the scans are running in applet mode. These scans operate over a default
 port range, which cannot be specified via an inbound rule. For more information, see the Microsoft
-[Connecting to WMI on a Remote Computer](<https://msdn.microsoft.com/en-us/library/windows/desktop/aa389290(v=vs.85).aspx>)
+[Connecting to WMI on a Remote Computer](https://msdn.microsoft.com/en-us/library/windows/desktop/aa389290(v=vs.85).aspx)
 article.
 
 Additional Firewall Rules for Integration between Access Analyzer and Activity Monitor

@@ -18,12 +18,12 @@ page. Moreover, when you manually expire a group that has an expiry policy other
 expire’, it is also moved to this page.
 
 The Group Lifecycle job is responsible for logically deleting expired groups, but you can also
-physically delete a group. See the [ Group Deletion](manage/groupdeletion.md) topic for additional
+physically delete a group. See the [ Group Deletion](/docs/groupid/11.1/groupid/portal/group/manage/groupdeletion.md) topic for additional
 information.
 
 By default, the **My Expired Groups** tab lists the groups that you are the primary owner for. To
 include the groups for which you are an additional owner, select the **Display additional group
-ownership in My Expired Groups** check box on the [Portal Settings](../setting/portal.md) panel.
+ownership in My Expired Groups** check box on the [Portal Settings](/docs/groupid/11.1/groupid/portal/setting/portal.md) panel.
 
 You can [Modify Search Directory](allgroups.md#modify-search-directory) to search expired groups and
 add [Filter All Groups](allgroups.md#filter-all-groups)by clicking **My Expired Group Grid

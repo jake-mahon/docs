@@ -24,7 +24,7 @@ and select a computer. The options in the Select Computer window are:
 - Enter the object name to select – Manually enter objects into the text field
 
     - Click the **examples** link to access the Microsoft
-      [Object Picker UI](<https://docs.microsoft.com/en-us/previous-versions/orphan-topics/ws.11/dn789205(v=ws.11)?redirectedfrom=MSDN>)
+      [Object Picker UI](https://docs.microsoft.com/en-us/previous-versions/orphan-topics/ws.11/dn789205(v=ws.11)?redirectedfrom=MSDN)
       article for additional information
 
 - Check Names – Click to verify the object names in the text field

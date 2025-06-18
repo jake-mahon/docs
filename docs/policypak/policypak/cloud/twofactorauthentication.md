@@ -13,23 +13,23 @@ enabled, resetting 2FA settings, and requesting that it be disabled for every us
 Here's what to expect the first time (as a Primary or Secondary user) you will be prompted for a
 code which will be emailed to the address you used to log in with:
 
-![461_1_image-20220908114735-1_541x257](../../../../static/img/product_docs/policypak/policypak/cloud/461_1_image-20220908114735-1_541x257.webp)
+![461_1_image-20220908114735-1_541x257](/img/product_docs/policypak/policypak/cloud/461_1_image-20220908114735-1_541x257.webp)
 
 And the email to loo for:
 
-![461_2_image-20210507112848-3_560x180](../../../../static/img/product_docs/policypak/policypak/cloud/461_2_image-20210507112848-3_560x180.webp)
+![461_2_image-20210507112848-3_560x180](/img/product_docs/policypak/policypak/cloud/461_2_image-20210507112848-3_560x180.webp)
 
 **Step 1 –** It is recommended that the Primary user then enable **App** 2FA for the account.  This
 will provide everyone with the ability to choose either email or an app (such as Authy or Google
 Authenticator) to authenticate their login.
 
-![461_3_image-20220908115257-2_636x390](../../../../static/img/product_docs/policypak/policypak/cloud/461_3_image-20220908115257-2_636x390.webp)
+![461_3_image-20220908115257-2_636x390](/img/product_docs/policypak/policypak/cloud/461_3_image-20220908115257-2_636x390.webp)
 
 **Step 2 –** Here's how to do that.
 
-![461_4_image-20220908115629-4_734x303](../../../../static/img/product_docs/policypak/policypak/cloud/461_4_image-20220908115629-4_734x303.webp)
+![461_4_image-20220908115629-4_734x303](/img/product_docs/policypak/policypak/cloud/461_4_image-20220908115629-4_734x303.webp)
 
-![461_11_image-20220908134421-9_640x396](../../../../static/img/product_docs/policypak/policypak/cloud/461_11_image-20220908134421-9_640x396.webp)
+![461_11_image-20220908134421-9_640x396](/img/product_docs/policypak/policypak/cloud/461_11_image-20220908134421-9_640x396.webp)
 
 **Step 3 –** Navigate to Your Contacts > 2FA Config For Your Company tabLocate the 2FA Config tab
 under Your Contacts, then click **App 2FA** and click **Apply**.
@@ -47,30 +47,30 @@ yet setup their authenticator app, they will be prompted to do so.  Scan the c
 supply the code shown in the app.  If for any reason the QR code is not displayed properly, most
 apps allow the use of the alternate code that you will see displayed.
 
-![461_5_image-20220908160453-12_782x451](../../../../static/img/product_docs/policypak/policypak/cloud/461_5_image-20220908160453-12_782x451.webp)
+![461_5_image-20220908160453-12_782x451](/img/product_docs/policypak/policypak/cloud/461_5_image-20220908160453-12_782x451.webp)
 
 **Step 8 –** After supplying the code from the app they'll be returned to the logon screen where
 they will see an acknowledgment if the Authenticator app setup was successful.
 
-![461_6_image-20220908160820-13_625x427](../../../../static/img/product_docs/policypak/policypak/cloud/461_6_image-20220908160820-13_625x427.webp)
+![461_6_image-20220908160820-13_625x427](/img/product_docs/policypak/policypak/cloud/461_6_image-20220908160820-13_625x427.webp)
 
 **Step 9 –** When they log in and choose the authentication app method, they will be prompted to
 enter the code from their authenticator app.
 
-![461_7_image-20220908121115-5_763x335](../../../../static/img/product_docs/policypak/policypak/cloud/461_7_image-20220908121115-5_763x335.webp)
+![461_7_image-20220908121115-5_763x335](/img/product_docs/policypak/policypak/cloud/461_7_image-20220908121115-5_763x335.webp)
 
 ## Resetting 2FA for an Individual Secondary
 
 If an individual needs to have their App 2FA reset, they can request that when logging in. Clicking
 the link send a notification to the Primary on the account.
 
-![461_8_image-20220908121906-6_736x356](../../../../static/img/product_docs/policypak/policypak/cloud/461_8_image-20220908121906-6_736x356.webp)
+![461_8_image-20220908121906-6_736x356](/img/product_docs/policypak/policypak/cloud/461_8_image-20220908121906-6_736x356.webp)
 
 The Primary can then log in to the Portal and perform the reset as shown below.  Navigate to
 **Contacts**, select either **Secondary** or **Billing**, locate the individual and click **Reset
 App 2FA**.
 
-![461_9_image-20220908134018-7_918x317](../../../../static/img/product_docs/policypak/policypak/cloud/461_9_image-20220908134018-7_918x317.webp)
+![461_9_image-20220908134018-7_918x317](/img/product_docs/policypak/policypak/cloud/461_9_image-20220908134018-7_918x317.webp)
 
 ## Resetting 2FA for the Primary
 
@@ -84,7 +84,7 @@ If you ever need to reset 2FA, you can do this by clicking **Reset 2FA**.
 **NOTE:** This will reset the 2FA setting for all users. Everyone will need to re-setup their
 authenticator app.
 
-![461_10_image-20220908134312-8_862x390](../../../../static/img/product_docs/policypak/policypak/cloud/461_10_image-20220908134312-8_862x390.webp)
+![461_10_image-20220908134312-8_862x390](/img/product_docs/policypak/policypak/cloud/461_10_image-20220908134312-8_862x390.webp)
 
 ## Disable 2FA
 
@@ -92,12 +92,12 @@ Though we strongly advise against it, you can disable 2FA completely on your acc
 clicking **Disable 2FA** and confirming your request.  The request will be submitted on your behalf
 and handled by the support team.  You will hear from them when the request is completed.
 
-![461_11_image-20220908134421-9_640x396](../../../../static/img/product_docs/policypak/policypak/cloud/461_11_image-20220908134421-9_640x396.webp)
+![461_11_image-20220908134421-9_640x396](/img/product_docs/policypak/policypak/cloud/461_11_image-20220908134421-9_640x396.webp)
 
 You will get a confirmation email anytime 2FA is disabled for your account.  Please note that this
 is for the entire account so 2FA will be disabled for ALL users/contacts as indicated below.
 
-![461_12_image-20210507115645-15_631x225](../../../../static/img/product_docs/policypak/policypak/cloud/461_12_image-20210507115645-15_631x225.webp)
+![461_12_image-20210507115645-15_631x225](/img/product_docs/policypak/policypak/cloud/461_12_image-20210507115645-15_631x225.webp)
 
 Looking in your portal afterwards, you'll see that 2FA is entirely disabled, as neither box is
 checked. You can re-enable it at any time by simply selecting the 2FA you want to enable and

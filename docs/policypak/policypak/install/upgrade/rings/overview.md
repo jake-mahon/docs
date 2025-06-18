@@ -49,7 +49,7 @@ The basic idea is that you put a delay between your rings.
 - Fast Ring (10-50%): 5-day delay.
 - Slow Ring (51-100%): 10-day delay.
 
-![71_1_hfkb-1094-img-01](../../../../../../static/img/product_docs/policypak/policypak/install/71_1_hfkb-1094-img-01.webp)
+![71_1_hfkb-1094-img-01](/img/product_docs/policypak/policypak/install/71_1_hfkb-1094-img-01.webp)
 
 Microsoft updates can be a little complicated because they also deal with channels, or the types of
 versions you want to install. Additionally, Microsoft's model is more complex than Endpoint Policy

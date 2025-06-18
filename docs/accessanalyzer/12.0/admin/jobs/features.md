@@ -22,7 +22,7 @@ the [Publish Reports Window](#publish-reports-window) topic for additional infor
 Job Configuration Change Tracking
 
 Jobs configuration changes can be tracked using the **Changes** option in the right-click menu from
-the selected Jobs tree, job group, or job node. See the [Changes Window](./overview#changes-window)
+the selected Jobs tree, job group, or job node. See the [Changes Window](/docs/accessanalyzer/12.0/admin/jobs/overview#changes-window)
 topic for additional information.
 
 Job Export
@@ -32,7 +32,7 @@ selected job group or job node. See the
 [Export Job to Zip Archive Window](#export-job-to-zip-archive-window) topic for additional
 information.
 
-See the [Jobs Tree Right-click Menus](../navigate/pane.md#jobs-tree-right-click-menus) section for
+See the [Jobs Tree Right-click Menus](/docs/accessanalyzer/12.0/admin/navigate/pane.md#jobs-tree-right-click-menus) section for
 additional features.
 
 ## Export Job to Zip Archive Window
@@ -40,11 +40,11 @@ additional features.
 The Export Job to Zip Archive window opens from the **Export** option in the right-click menu from
 the selected job group or job node.
 
-![Export from Jobs Tree menu](../../../../../static/img/product_docs/threatprevention/threatprevention/admin/navigation/export.webp)
+![Export from Jobs Tree menu](/img/product_docs/threatprevention/threatprevention/admin/navigation/export.webp)
 
 Select **Export** from the right-click menu to open the Export Group to Zip Archive window.
 
-![Export Group to Zip Archive window](../../../../../static/img/product_docs/accessanalyzer/admin/jobs/exportgrouptoziparchive.webp)
+![Export Group to Zip Archive window](/img/product_docs/accessanalyzer/admin/jobs/exportgrouptoziparchive.webp)
 
 The **Include all job components** option will zip the job’s directory, the reports, the job log,
 and the SA_Debug log. The **Select specific components to export** option allows Access Analyzer
@@ -59,7 +59,7 @@ There are two options for where to save the ZIP file:
 The **Email this archive**checkbox provides the opportunity to send an email notification with the
 attached ZIP file.
 
-![Support Email window](../../../../../static/img/product_docs/accessanalyzer/admin/jobs/supportemail.webp)
+![Support Email window](/img/product_docs/accessanalyzer/admin/jobs/supportemail.webp)
 
 When the archive has been created, the Access Analyzer Support Email window opens. By default, the
 recipient is set to [Netwrix Support](https://www.netwrix.com/support.html) but it can be modified
@@ -78,7 +78,7 @@ Follow the steps to publish the reports.
 
 **Step 1 –** Right-click on a job group or job and select **Publish** from the drop-down list.
 
-![Publish Reports wizard Action Type page](../../../../../static/img/product_docs/accessanalyzer/admin/jobs/publishreportsactiontype.webp)
+![Publish Reports wizard Action Type page](/img/product_docs/accessanalyzer/admin/jobs/publishreportsactiontype.webp)
 
 **Step 2 –** On the Action Type page, select the type of action to be performed on the reports and
 click **Next**:
@@ -86,7 +86,7 @@ click **Next**:
 - Publish Reports
 - Delete Reports
 
-![Publish Reports wizard Report Tree page](../../../../../static/img/product_docs/accessanalyzer/admin/jobs/publishreportsreporttree.webp)
+![Publish Reports wizard Report Tree page](/img/product_docs/accessanalyzer/admin/jobs/publishreportsreporttree.webp)
 
 **Step 3 –** On the Report Tree page, select the reports to be published or removed (depending on
 the Action Type selected in the previous step). Click **Next** to proceed with the action.
@@ -95,4 +95,4 @@ the Action Type selected in the previous step). Click **Next** to proceed with t
 **Finish** to exit the wizard.
 
 Published reports can be viewed under the **[Job]** > **Results** node or through the Web Console.
-See the [Reporting](../report/overview.md) topic for additional information.
+See the [Reporting](/docs/accessanalyzer/12.0/admin/report/overview.md) topic for additional information.

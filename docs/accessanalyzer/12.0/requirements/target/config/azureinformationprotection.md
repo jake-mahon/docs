@@ -24,7 +24,7 @@ labels, certain prerequisites are required both in Access Analyzer and Azure env
 6. Enable settings in FSAA Data Collector in Access Analyzer.
 
     - See the FileSystemAccess Data Collector section in the
-      [File System Solution](../../../solutions/filesystem/overview.md) topic for additional
+      [File System Solution](/docs/accessanalyzer/12.0/solutions/filesystem/overview.md) topic for additional
       information
 
 ## Prerequisites
@@ -153,7 +153,7 @@ scan.
 
 To collect tags for files protected with Azure Information Protection, an Azure connection profile
 must be configured in Access Analyzer before an FSAA scan runs. See the
-[Global Settings](../../../admin/settings/overview.md) topic for additional information on how to
+[Global Settings](/docs/accessanalyzer/12.0/admin/settings/overview.md) topic for additional information on how to
 set up a connection profile at the global level.
 
 **Step 1 –** In Access Analyzer, add a credential for an Azure Active Directory account type to the
@@ -220,5 +220,5 @@ For SEEK System Scans:
   page only applies for SEEK scans.
 
 See the FileSystemAccess Data Collector section in the
-[File System Solution](../../../solutions/filesystem/overview.md) topic for additional information
+[File System Solution](/docs/accessanalyzer/12.0/solutions/filesystem/overview.md) topic for additional information
 on these scoping options.

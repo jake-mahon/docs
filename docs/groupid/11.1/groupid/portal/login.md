@@ -5,10 +5,10 @@ Welcome to Directory Manager page is displayed, where you can:
 
 - Log in
 - Reset forgotten or lost passwords  
-  See the [Reset Passwords](user/authentication/passwordreset.md) topic for additional information
+  See the [Reset Passwords](/docs/groupid/11.1/groupid/portal/user/authentication/passwordreset.md) topic for additional information
   on how to reset password.
 - Unlock your identity store account  
-  See the [Unlock your accounts](user/manage/unlockaccount.md) topic for additional information on
+  See the [Unlock your accounts](/docs/groupid/11.1/groupid/portal/user/manage/unlockaccount.md) topic for additional information on
   how to unlock account.
 
 To manage access in Directory Manager, security roles are defined for an identity store. Each role
@@ -60,8 +60,8 @@ You can opt for single sign-on across all Directory Manager clients by configuri
 but for an Microsoft Entra ID identity store you must configure a SAML provider. See the following
 topics for additional information on configuring a SAML provider:
 
-- [Configure Directory Manager in Microsoft Entra ID for SSO](../authenticate/asserviceprovider/entrasso/configureinentra.md)
-- [Configure the Microsoft Entra SSO Application in Directory Manager](../authenticate/asserviceprovider/entrasso/configureprovideringroupid.md)
+- [Configure Directory Manager in Microsoft Entra ID for SSO](/docs/groupid/11.1/groupid/authenticate/asserviceprovider/entrasso/configureinentra.md)
+- [Configure the Microsoft Entra SSO Application in Directory Manager](/docs/groupid/11.1/groupid/authenticate/asserviceprovider/entrasso/configureprovideringroupid.md)
 
 Follow the steps to log in with a SAML provider
 
@@ -72,17 +72,17 @@ proceed to sign in.
 
 ### Second Factor Authentication
 
-When [Second Factor Authentication](user/authentication/secondfactorauthentication.md) is enabled
+When [Second Factor Authentication](/docs/groupid/11.1/groupid/portal/user/authentication/secondfactorauthentication.md) is enabled
 for your role in the selected identity store, one of the following applies:
 
 - If you have not enrolled your identity store account in Directory Manager, the Enroll Account
   window is displayed, where you must enroll your identity store account using at least one
-  authentication type. See the [Enroll your Identity Store Account](../admincenter/enroll.md) topic
+  authentication type. See the [Enroll your Identity Store Account](/docs/groupid/11.1/groupid/admincenter/enroll.md) topic
   for additional information.
 - If you have already enrolled your identity store account in Directory Manager, the Authenticate
   window is displayed. It lists the authentication types that you enrolled your account with. You
   must authenticate your identity store account with one authentication type. See the
-  [Authenticate your Identity Store Account](../admincenter/authenticate.md) topic for additional
+  [Authenticate your Identity Store Account](/docs/groupid/11.1/groupid/admincenter/authenticate.md) topic for additional
   information.
 
 ## Sign Out

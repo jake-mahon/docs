@@ -20,6 +20,6 @@ source only.
 
 See the following topics for additional information:
 
-- [Alerts](../../admin/alertsettings/overview.md)
-- [View and Search Collected Data](../../admin/search/overview.md)
-- [Subscriptions](../../admin/subscriptions/overview.md)
+- [Alerts](/docs/auditor/10.7/auditor/admin/alertsettings/overview.md)
+- [View and Search Collected Data](/docs/auditor/10.7/auditor/admin/search/overview.md)
+- [Subscriptions](/docs/auditor/10.7/auditor/admin/subscriptions/overview.md)

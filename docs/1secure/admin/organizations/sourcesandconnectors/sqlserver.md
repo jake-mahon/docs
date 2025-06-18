@@ -20,11 +20,11 @@ page for the organization is displayed with the Sources tab selected by default.
 **Step 3 –** On the Sources tab, click **Add** to add a source. The Select Data Source (Step 1 of 3)
 pane is displayed.
 
-![Select Data Source %28Step 1 of 3%29 pane](../../../../../static/img/product_docs/1secure/admin/organizations/sourcesandconnectors/addsources_exchange.webp)
+![Select Data Source %28Step 1 of 3%29 pane](/img/product_docs/1secure/admin/organizations/sourcesandconnectors/addsources_exchange.webp)
 
 **Step 4 –** Select **SQL Server** and click **Next**.
 
-![Configure Source Details %28Step 2 of 3%29 pane](../../../../../static/img/product_docs/1secure/admin/organizations/sourcesandconnectors/configuresourcedetails%28step2-3%29.webp)
+![Configure Source Details %28Step 2 of 3%29 pane](/img/product_docs/1secure/admin/organizations/sourcesandconnectors/configuresourcedetails(step2-3).webp)
 
 **Step 5 –** On the Configure source details (Step 2 of 3) pane, use the Site drop-down menu to
 select an existing site or add a new one. To add a new site, select the **Add new site** option from
@@ -32,19 +32,19 @@ the drop-down menu or click the **Add** icon.
 
 - When you choose to add a new site, you have to provide a name for it in the New site name field.
   Then click **Next** to proceed with configuring the agent for the site. See the
-  [Install Agent](../../../install/installagent.md) topic for details on configuring the agent,
+  [Install Agent](/docs/1secure/install/installagent.md) topic for details on configuring the agent,
   starting at Step 6.
 - When you select an existing site from the drop-down menu, one of the following happens:
 
     - If the agent has not been configured for the site, the system will proceed with the agent
-      configuration when you click _Next_. See the [Install Agent](../../../install/installagent.md)
+      configuration when you click _Next_. See the [Install Agent](/docs/1secure/install/installagent.md)
       topic for details on configuring the agent, starting at Step 6.
     - If the agent has already been configured for the site, the system will proceed with the SQL
       Server source and connector settings when you click _Next_.
 
 **Step 6 –** Click **Next**.
 
-![Configure Source Details %28Step 2 of 3%29 pane](../../../../../static/img/product_docs/1secure/admin/organizations/sourcesandconnectors/configuresourcedetails%28step2-3%29a.webp)
+![Configure Source Details %28Step 2 of 3%29 pane](/img/product_docs/1secure/admin/organizations/sourcesandconnectors/configuresourcedetails(step2-3)a.webp)
 
 **Step 7 –** Specify the following settings:
 
@@ -66,12 +66,12 @@ the drop-down menu or click the **Add** icon.
 
 **Step 8 –** Click **Next**.
 
-![Choose New Connector %28Step 3 of 3%29 pane](../../../../../static/img/product_docs/1secure/admin/organizations/sourcesandconnectors/choosenewconnector%28step3of3%29.webp)
+![Choose New Connector %28Step 3 of 3%29 pane](/img/product_docs/1secure/admin/organizations/sourcesandconnectors/choosenewconnector(step3of3).webp)
 
 **Step 9 –** The Choose new connector (Step 3 of 3) pane lists one connector for SQL Server. Toggle
 the **SQL Logons** switch to ON to collect and monitor data for this connector. With this, you can
 generate logon reports on SQL Server data. See the
-[SQL Database](../../searchandreports/activity.md#sql-database) topic for additional information.
+[SQL Database](/docs/1secure/admin/searchandreports/activity.md#sql-database) topic for additional information.
 
 **Step 10 –** Choose one option from the following:
 

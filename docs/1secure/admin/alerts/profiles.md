@@ -16,7 +16,7 @@ receive notifications when alerts in the profile are triggered.
 
 To view the alert profiles, navigate to Configuration > Alerts.
 
-![Alert Profiles List](../../../../static/img/product_docs/1secure/admin/alerts/alertsprofiles.webp)
+![Alert Profiles List](/img/product_docs/1secure/admin/alerts/alertsprofiles.webp)
 
 Alert profiles are displayed in the list with the following information:
 
@@ -36,17 +36,17 @@ Follow the steps to add an alert profile.
 
 **Step 2 –** Click **Add profile**. The New alert profile pane is displayed.
 
-![New Alert Profile pane](../../../../static/img/product_docs/1secure/admin/alerts/addalertprofile.webp)
+![New Alert Profile pane](/img/product_docs/1secure/admin/alerts/addalertprofile.webp)
 
 **Step 3 –** Enter a name for the alert profile in the Name field and click **Save**.
 
 The alert profile is added to the list. You can:
 
 - Assign this profile to an organization. You can do this when creating a new organization or
-  editing an organization. See the [Add Organizations](../organizations/addorganizations.md) topic
+  editing an organization. See the [Add Organizations](/docs/1secure/admin/organizations/addorganizations.md) topic
   for additional information.
 - Click the profile to review the list of alerts, enable the desired alerts, make necessary edits
-  for alerts, and set delivery settings for the alert profile. See [Alerts](index.md) topic for
+  for alerts, and set delivery settings for the alert profile. See [Alerts](/docs/1secure/admin/alerts/index.md) topic for
   additional information.
 
 ## Modify the Name of an Alert Profile
@@ -90,7 +90,7 @@ Follow the steps to configure alerts by email.
 **Step 3 –** Click the Email icon under Delivery Settings. The Email Delivery Settings pane is
 displayed.
 
-![Email Delivery Settings pane](../../../../static/img/product_docs/1secure/admin/alerts/alertsemaildelivery.webp)
+![Email Delivery Settings pane](/img/product_docs/1secure/admin/alerts/alertsemaildelivery.webp)
 
 **Step 4 –** . Toggle the Enabled switch to ON to enable email notifications for the alert profile.
 
@@ -103,4 +103,4 @@ organization admins by email.
 **Step 7 –** Click Save.
 
 You may also link to a third-party ticketing system. See the
-[Third-party systems](../../integrations/index.md) topic for additional information.
+[Third-party systems](/docs/1secure/integrations/index.md) topic for additional information.

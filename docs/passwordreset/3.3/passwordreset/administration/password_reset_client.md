@@ -8,7 +8,7 @@ The Password Reset Client allows users to securely reset their password or unloc
 the Windows Logon and Unlock Computer screens. Users click **Reset Password** to access the Password
 Reset system.
 
-![the_password_reset_client](../../../../../static/img/product_docs/passwordreset/passwordreset/administration/the_password_reset_client.webp)
+![the_password_reset_client](/img/product_docs/passwordreset/passwordreset/administration/the_password_reset_client.webp)
 
 **NOTE:** The Password Reset Client does not modify any Windows system files.
 
@@ -65,7 +65,7 @@ this domain, and Link it here...**
 
 **Step 4 –** Enter **Password Reset Client**, then press **ENTER**.
 
-![the_password_reset_client_1](../../../../../static/img/product_docs/passwordreset/passwordreset/evaluation/the_password_reset_client_1.webp)
+![the_password_reset_client_1](/img/product_docs/passwordreset/passwordreset/evaluation/the_password_reset_client_1.webp)
 
 ### Edit the Group Policy Object
 
@@ -126,7 +126,7 @@ installation folder. (`\Program Files\Netwrix Password Reset\` by default).
 
 **Step 7 –** Select **NPRClt.adm**, and then click **Open**.
 
-![the_password_reset_client_2](../../../../../static/img/product_docs/passwordpolicyenforcer/passwordreset/administration/the_password_reset_client_2.webp)
+![the_password_reset_client_2](/img/product_docs/passwordpolicyenforcer/passwordreset/administration/the_password_reset_client_2.webp)
 
 **Step 8 –** Click **Close**.
 
@@ -143,12 +143,12 @@ domain level.
 Templates**, **Classic Administrative Templates (ADM)**, **Netwrix Password Reset**, and **Password
 Reset Client** items.
 
-![the_password_reset_client_3](../../../../../static/img/product_docs/passwordpolicyenforcer/passwordreset/administration/the_password_reset_client_3.webp)
+![the_password_reset_client_3](/img/product_docs/passwordpolicyenforcer/passwordreset/administration/the_password_reset_client_3.webp)
 
 **Step 4 –** Double-click the **Browser settings** item in the right pane of the Group Policy
 Management Editor.
 
-![the_password_reset_client_4](../../../../../static/img/product_docs/passwordpolicyenforcer/passwordreset/administration/the_password_reset_client_4.webp)
+![the_password_reset_client_4](/img/product_docs/passwordpolicyenforcer/passwordreset/administration/the_password_reset_client_4.webp)
 
 **Step 5 –** Select the **Enabled**option.
 
@@ -231,7 +231,7 @@ Editor.
 
 **Step 10 –** Click inside the **License key** text box, then paste the license key.
 
-![the_password_reset_client_5](../../../../../static/img/product_docs/passwordpolicyenforcer/passwordreset/administration/the_password_reset_client_5.webp)
+![the_password_reset_client_5](/img/product_docs/passwordpolicyenforcer/passwordreset/administration/the_password_reset_client_5.webp)
 
 **Step 11 –** Click **OK**.
 

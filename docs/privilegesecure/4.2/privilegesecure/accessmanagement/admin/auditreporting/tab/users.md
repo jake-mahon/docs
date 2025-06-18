@@ -3,7 +3,7 @@
 The Users tab shows the users and groups in the selected access certification task for which the
 reviewer must certify access entitlement.
 
-![userstab](../../../../../../../../static/img/product_docs/activitymonitor/activitymonitor/admin/monitoreddomains/admonitoringconfiguration/userstab.webp)
+![userstab](/img/product_docs/activitymonitor/activitymonitor/admin/monitoreddomains/admonitoringconfiguration/userstab.webp)
 
 The Users table has the following features:
 
@@ -12,7 +12,7 @@ The Users table has the following features:
 - Column headers can be resized and sorted by ascending or descending order:
 
     - Name – Click to open the Users and Groups Details page. See the
-      [User, Group, & Application Details Page](../../policy/page/details/usergroupapplication.md)
+      [User, Group, & Application Details Page](/docs/privilegesecure/4.2/privilegesecure/accessmanagement/admin/policy/page/details/usergroupapplication.md)
       topic for additional information.
     - User Name – Displays the name of the account
     - Email – Displays the associated email address, if available
@@ -34,7 +34,7 @@ tab
 
 **Step 3 –** Click Add to open the Add Users and Groups window.
 
-![addusers](../../../../../../../../static/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/auditreporting/tab/addusers.webp)
+![addusers](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/auditreporting/tab/addusers.webp)
 
 The Add Users and Groups window has the following features:
 
@@ -70,5 +70,5 @@ Access Certification.
 certification task is created.
 
 The reviewer can now log in to see the access certification task(s) assigned to them and begin the
-review process. See the [Entitlements Tab for Access Certification](entitlements.md) topic for
+review process. See the [Entitlements Tab for Access Certification](/docs/privilegesecure/4.2/privilegesecure/accessmanagement/admin/auditreporting/tab/entitlements.md) topic for
 additional information.

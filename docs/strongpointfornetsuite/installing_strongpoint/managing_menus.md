@@ -13,9 +13,9 @@ To Hide or Show menu items:
 2. Click **Edit** to edit the installation settings.
 3. Open the **Menu Management tab**. You only see the categories available for your license type.
    All of the optional **Menu Items** are hidden by default.  
-   ![Default Setting for Documentation and Optimization Optional Menus](../../../static/img/product_docs/strongpointfornetsuite/installing_strongpoint/menu_mgmt.webp)  
-   ![Default Setting for Intellgient Change Management Optional Menus](../../../static/img/product_docs/strongpointfornetsuite/installing_strongpoint/menu_mgmt_cm.webp)  
-   ![Default Setting for Enterprise Compliance Optional Menus](../../../static/img/product_docs/strongpointfornetsuite/installing_strongpoint/menu_mgmt_ec.webp)
+   ![Default Setting for Documentation and Optimization Optional Menus](/img/product_docs/strongpointfornetsuite/installing_strongpoint/menu_mgmt.webp)  
+   ![Default Setting for Intellgient Change Management Optional Menus](/img/product_docs/strongpointfornetsuite/installing_strongpoint/menu_mgmt_cm.webp)  
+   ![Default Setting for Enterprise Compliance Optional Menus](/img/product_docs/strongpointfornetsuite/installing_strongpoint/menu_mgmt_ec.webp)
 4. To **Hide** items: Select an item from the left and click **>** to move it to the right. Use
    Ctrl-Click or Shift-Click to select multiple items. Use **>>** to move all the items.  
    To **Show** items that have been hidden: Select one or more from the right and click \< to move

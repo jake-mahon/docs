@@ -3,7 +3,7 @@
 The Exceptions report at the server level provides a list of exceptions that were found within
 shares on the selected server. This report includes a Details table.
 
-![Exceptions report at the server level](../../../../../../../../static/img/product_docs/accessinformationcenter/access/informationcenter/resourceaudit/filesystem/server/serverexceptions.webp)
+![Exceptions report at the server level](/img/product_docs/accessinformationcenter/access/informationcenter/resourceaudit/filesystem/server/serverexceptions.webp)
 
 An exception is defined as a problem or risk to data governance security. Exceptions include open
 shares and permissions granted to stale or disabled users. This report will be blank if no

@@ -21,14 +21,14 @@ The tab displays the default Security service created while configuring Director
 other Security service that you have created. When multiple Directory Manager instances have been
 deployed, you will find multiple default Security services on this tab page, as each instance has
 its own default Security service. See the
-[Elasticsearch Clusters, Nodes, and Directory Manager](../overview.md#elasticsearch-clusters-nodes-and-directory-manager)
+[Elasticsearch Clusters, Nodes, and Directory Manager](/docs/groupid/11.1/groupid/admincenter/service/overview.md#elasticsearch-clusters-nodes-and-directory-manager)
 topic for additional information.  
 For details displayed on a service card, see the table in the
-[View Data Service Details](../dataservice/manage.md#view-data-service-details) topic.
+[View Data Service Details](/docs/groupid/11.1/groupid/admincenter/service/dataservice/manage.md#view-data-service-details) topic.
 
 ## Manage Security Service Settings
 
-See the [Manage Data Service Settings](../dataservice/manage.md) topic to manage settings for a
+See the [Manage Data Service Settings](/docs/groupid/11.1/groupid/admincenter/service/dataservice/manage.md) topic to manage settings for a
 Security service, such as deployment and log settings.
 
 ## Manage Advanced Settings
@@ -45,10 +45,10 @@ The tab displays the default Security service created while configuring Director
 other Security service that you have created. When multiple Directory Manager instances have been
 deployed, you will find multiple default Security services on this tab page, as each instance has
 its own default Security service. See the
-[Elasticsearch Clusters, Nodes, and Directory Manager](../overview.md#elasticsearch-clusters-nodes-and-directory-manager)
+[Elasticsearch Clusters, Nodes, and Directory Manager](/docs/groupid/11.1/groupid/admincenter/service/overview.md#elasticsearch-clusters-nodes-and-directory-manager)
 topics for additional information.  
 For details displayed on a service card, see the table in the
-[View Data Service Details](../dataservice/manage.md#view-data-service-details) topic for additional
+[View Data Service Details](/docs/groupid/11.1/groupid/admincenter/service/dataservice/manage.md#view-data-service-details) topic for additional
 information.
 
 Step 3 – Click the **ellipsis button** for a Security service and select **Settings**.

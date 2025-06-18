@@ -68,4 +68,4 @@ The bad words check applies to the following:
 
 See Also
 
-- [Design a Portal with Display Types](../displaytype/overview.md)
+- [Design a Portal with Display Types](/docs/groupid/11.1/groupid/admincenter/portal/displaytype/overview.md)

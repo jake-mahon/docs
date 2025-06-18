@@ -1,7 +1,7 @@
 # Zendesk Walkthrough Example
 
 This walkthrough is one example based on our test account. You must
-[install and configure](zendesk_integration.md) the Zendesk integration, prior to using this
+[install and configure](/docs/strongpointfornetsuite/integrations/zendesk_integration.md) the Zendesk integration, prior to using this
 walkthrough.
 
 Alerts and notifications may occur during this walkthrough, and are not included in these steps. For
@@ -17,11 +17,11 @@ The walkthrough demonstrates these steps:
 1. Login in to your Zendesk dashboard.
 2. Open your **Views**.
 
-    ![Open the Zendesk Views](../../../static/img/product_docs/strongpointfornetsuite/integrations/zendesk_views.webp)
+    ![Open the Zendesk Views](/img/product_docs/strongpointfornetsuite/integrations/zendesk_views.webp)
 
 3. Click **+ Add** > **Ticket**.
 
-    ![Add a ticket](../../../static/img/product_docs/strongpointfornetsuite/integrations/zendesk_add_ticket.webp)
+    ![Add a ticket](/img/product_docs/strongpointfornetsuite/integrations/zendesk_add_ticket.webp)
 
 4. Enter your information for the **Ticket**:
 
@@ -44,18 +44,18 @@ The app information is not available until the ticket is created.
 
 6. Click **Submit as New**.
 
-    ![New ticket in the Ticket view](../../../static/img/product_docs/strongpointfornetsuite/integrations/zendesk_ticket_view.webp)
+    ![New ticket in the Ticket view](/img/product_docs/strongpointfornetsuite/integrations/zendesk_ticket_view.webp)
 
 ## Create the Change Request
 
 Open your new Zendesk ticket. **Test Ticket** in this example.
 
 If you do not see the app, make sure the Apps are toggled on using the Apps icon
-![Zendesk Apps visibility icon](../../../static/img/product_docs/strongpointfornetsuite/integrations/zendesk_apps_icon.webp)
+![Zendesk Apps visibility icon](/img/product_docs/strongpointfornetsuite/integrations/zendesk_apps_icon.webp)
 and verify you are a member of a group or role
-[authorized to access the app](zendesk_integration.md).
+[authorized to access the app](/docs/strongpointfornetsuite/integrations/zendesk_integration.md).
 
-![The Strongpoint app is available after you create the ticket.](../../../static/img/product_docs/strongpointfornetsuite/integrations/zendesk_strongpoint_app_ticket.webp)
+![The Strongpoint app is available after you create the ticket.](/img/product_docs/strongpointfornetsuite/integrations/zendesk_strongpoint_app_ticket.webp)
 
 ### Use Bundles for the Scope of Change
 
@@ -66,12 +66,12 @@ Specify a Bundle to use a bundle for the scope of change. This is optional.
 3. Click + to add the bundle. 232111 in this example. You can remove a bundle using the drop down
    toggle.
 
-    ![Specify an optional Bundle ID](../../../static/img/product_docs/strongpointfornetsuite/integrations/zendesk_bundleid.webp)
+    ![Specify an optional Bundle ID](/img/product_docs/strongpointfornetsuite/integrations/zendesk_bundleid.webp)
 
 Once you have made a change, the **Request Approval** button is available if you are a member of a
 group with the [Set up Approvals](zendesk_integration.md#set-up-approvals) permission.
 
-![Request Approval button appears when a change has been made.](../../../static/img/product_docs/strongpointfornetsuite/integrations/zendesk_request_approval.webp)
+![Request Approval button appears when a change has been made.](/img/product_docs/strongpointfornetsuite/integrations/zendesk_request_approval.webp)
 
 ### Add Existing Customizations
 
@@ -80,7 +80,7 @@ feature.
 
 1. Click **Look up Customization**.
 
-    ![Add customizations to the Change Request](../../../static/img/product_docs/strongpointfornetsuite/integrations/zendesk_lookup_customization.webp)
+    ![Add customizations to the Change Request](/img/product_docs/strongpointfornetsuite/integrations/zendesk_lookup_customization.webp)
 
 2. Enter the search information in one or more of the available filters. For example, enter **new**
    for **Name** and select **Body Field** for **Type** to search for all body fields containing the
@@ -88,13 +88,13 @@ feature.
 3. Click **Lookup**.
 4. Select one or more customizations to attach to the change request.
 
-    ![Select one or more customizations.](../../../static/img/product_docs/strongpointfornetsuite/integrations/zendesk_select_customizations.webp)
+    ![Select one or more customizations.](/img/product_docs/strongpointfornetsuite/integrations/zendesk_select_customizations.webp)
 
 5. Click **Add selected Customizations**.
 
 There is an options menu available for each added customization. Options include **Remove** and
 **ERD**. Selecting **ERD** launches the
-[Entity Relationship Diagram](../customizations/using_erd.md) for the customization.
+[Entity Relationship Diagram](/docs/strongpointfornetsuite/customizations/using_erd.md) for the customization.
 
 ### Add Proposed Customizations
 
@@ -102,14 +102,14 @@ There is an options menu available for each added customization. Options include
 2. Click **+** to search for matching Customizations. **View** displays the **Type** and **Script
    ID** for a Customization.
 
-    ![Add a Customization by Name](../../../static/img/product_docs/strongpointfornetsuite/integrations/jira_example_add_name.webp)
+    ![Add a Customization by Name](/img/product_docs/strongpointfornetsuite/integrations/jira_example_add_name.webp)
 
 3. Select one or more Customizations. For this example, select **New Opportunities Created
    (Search)**.
 4. Click **Add Selected Customizations**. The selected Customization is added to the **Existing
    Customizations** list.
 
-    ![New Opportunities Created (Search) added to Existing Customizations](../../../static/img/product_docs/strongpointfornetsuite/integrations/jira_example_new_opp.webp)
+    ![New Opportunities Created (Search) added to Existing Customizations](/img/product_docs/strongpointfornetsuite/integrations/jira_example_new_opp.webp)
 
 5. Enter the Script ID **custentity_fmt_cust_credit_on_hold** in **Add Customizations** and click
    **+**.
@@ -119,6 +119,6 @@ There is an options menu available for each added customization. Options include
    Software Development Lifecycle**, which is the policy for the **Set Customer Credit on Hold**
    field.
 
-    ![Add a Customization by Script ID](../../../static/img/product_docs/strongpointfornetsuite/integrations/jira_example_scriptid.webp)
+    ![Add a Customization by Script ID](/img/product_docs/strongpointfornetsuite/integrations/jira_example_scriptid.webp)
 
 - **Impact Analysis** and **View ERD** are tools to Zendesk Walkthrough Example.

@@ -74,4 +74,4 @@ is joined to a domain, techwr5.local, reports would display data for techwr5.loc
 ## Scheduled Report job
 
 You can create a **Scheduled Report job** on Directory Manager Admin Center. See
-[Reports Schedule](../../admincenter/schedule/reports.md)
+[Reports Schedule](/docs/groupid/11.1/groupid/admincenter/schedule/reports.md)

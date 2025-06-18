@@ -12,13 +12,13 @@ If the **Take Web Site Offline for Maintenance** option is changed, you must use
 1. Open **Strongpoint** > **Strongpoint Support** > **License Manager**
 2. Depending on your account settings, you may have to click **View** to see the account record.
 
-    ![Add a New License.](../../../static/img/product_docs/strongpointfornetsuite/installing_strongpoint/license_new.webp)
+    ![Add a New License.](/img/product_docs/strongpointfornetsuite/installing_strongpoint/license_new.webp)
 
 3. Click **Get Lic. Number** if the **License Number** is blank. If the License Number is not blank,
    continue with the next step.
 4. Click **New Licensed User**.
 
-    ![Add a licensed user](../../../static/img/product_docs/strongpointfornetsuite/installing_strongpoint/license_new_user.webp)
+    ![Add a licensed user](/img/product_docs/strongpointfornetsuite/installing_strongpoint/license_new_user.webp)
 
 5. Select a **User**.
 6. Set **License Type** to **Full**.
@@ -28,7 +28,7 @@ If the **Take Web Site Offline for Maintenance** option is changed, you must use
 
 1. Open **Strongpoint** > **Strongpoint Support** > **License Manager**
 2. Click **Edit** if you need to modify your **Weekly Reports Recipients** or your **License
-   Number** or click **View** to [Manage Users](managing_users.md).
+   Number** or click **View** to [Manage Users](/docs/strongpointfornetsuite/installing_strongpoint/managing_users.md).
 3. Click **Save** if you make changes.
 
 ## License Manager Buttons and Fields
@@ -43,7 +43,7 @@ Some buttons and fields are only visible when you **Edit** the License.
 - **Full License Count**: displays the number of **Full** licenses active in your account.
 - **License Number**: displays your license.
 - **License Type**: displays your purchased License Type, controlling what
-  [Features](features_by_license_type.md) you can access. License Types are **Documentation and
+  [Features](/docs/strongpointfornetsuite/installing_strongpoint/features_by_license_type.md) you can access. License Types are **Documentation and
   Optimization**, **Intelligent Change Management** and **Enterprise**.
 - **Edition**: displays your NetSuite Edition.
 - **Subsidiaries**: displays the number of operating subsidiaries you have in your OneWorld account.

@@ -1,7 +1,7 @@
 # Privilege Elevation (aka Helper Policies)
 
 **NOTE:** See
-[Endpoint Policy Manager LPM for MacOS: Privilege Policies (for Helper Apps)](../../video/leastprivilege/mac/privilege.md)
+[Endpoint Policy Manager LPM for MacOS: Privilege Policies (for Helper Apps)](/docs/policypak/policypak/video/leastprivilege/mac/privilege.md)
 for a video overview of this section.
 
 ## Privilege Elevation / Helper Policies Overview
@@ -10,7 +10,7 @@ Some applications require special Helper Applications to get installed. In this 
 to install the Xcitium application you can see that it requires admin rights to install its helper
 tool.
 
-![helper01](../../../../../static/img/product_docs/policypak/policypak/mac/scenarios/helper01.webp)
+![helper01](/img/product_docs/policypak/policypak/mac/scenarios/helper01.webp)
 
 ## Creating Privilege Elevation / Helper Policies
 
@@ -21,11 +21,11 @@ Path (file name), along with a digital signature.
 In this test example, we'll use the simplest (least secure) method, which is a filename name with
 wildcards.
 
-![helper02](../../../../../static/img/product_docs/policypak/policypak/mac/scenarios/helper02.webp)
+![helper02](/img/product_docs/policypak/policypak/mac/scenarios/helper02.webp)
 
 Then choose the Action and Additional approve options.
 
-![helper03](../../../../../static/img/product_docs/policypak/policypak/mac/scenarios/helper03.webp)
+![helper03](/img/product_docs/policypak/policypak/mac/scenarios/helper03.webp)
 
 For now, click **Elevate** with **Not Configured**.
 
@@ -36,12 +36,12 @@ Finish up by providing a Name to the policy and clicking **Finish**.
 First synchronize your policies with Endpoint Policy Manager Cloud, using the `policypak cloud-sync`
 command.
 
-![helper04](../../../../../static/img/product_docs/policypak/policypak/mac/scenarios/macfinder07.webp)
+![helper04](/img/product_docs/policypak/policypak/mac/scenarios/macfinder07.webp)
 
 At this point, if your policies match your application you will be able to overcome the helper
 application requesting local admin rights.
 
-![helper05](../../../../../static/img/product_docs/policypak/policypak/mac/scenarios/helper05.webp)
+![helper05](/img/product_docs/policypak/policypak/mac/scenarios/helper05.webp)
 
 ## Understanding Action Types
 
@@ -61,6 +61,6 @@ The three action types on a rule are:
 - Reason — User must put in rationale code then before the task is performed.
 - Challenge — User must requests an Admin Approval code for the task to be accepted and performed.
   See
-  [Endpoint Policy Manager for Mac and Admin Approval](../../video/leastprivilege/mac/adminapproval.md)
+  [Endpoint Policy Manager for Mac and Admin Approval](/docs/policypak/policypak/video/leastprivilege/mac/adminapproval.md)
   for additional information on this topic.
 - Credentials — User must re-enter credentials for the task to be performed

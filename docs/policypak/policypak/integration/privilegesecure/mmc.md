@@ -3,7 +3,7 @@
 In the Netwrix Privilege Secure download you will find NPS for Endpoint Group Policy Snap-in x64 and
 x86 installers.
 
-![972_1_image](../../../../../static/img/product_docs/policypak/policypak/integration/privilegesecure/972_1_image.webp)
+![972_1_image](/img/product_docs/policypak/policypak/integration/privilegesecure/972_1_image.webp)
 
 This MSI is meant to increase what is possible with a Group Policy editor and let you create NPS
 Endpoint rules (aka Netwrix Endpoint Policy Manager (formerly PolicyPak) Least Privilege Manager)
@@ -13,18 +13,18 @@ When you install the NPS Endpoint Group Policy Snap-In on a machine (which has t
 Editor and/or Group Policy Management Console) you will see the Netwrix Privilege Secure node and
 Least Privilege Manager within it. All GPOs l have the same look and feel and editing ability.
 
-![972_2_image-20230627090846-2_950x515](../../../../../static/img/product_docs/policypak/policypak/integration/965_1_image-20230627091218-5_950x515.webp)
+![972_2_image-20230627090846-2_950x515](/img/product_docs/policypak/policypak/integration/965_1_image-20230627091218-5_950x515.webp)
 
 If you want to upgrade to Endpoint Policy Manager and see both Netwrix Privilege Secure and all the
 other Endpoint Policy Manager nodes, you need to install the Endpoint Policy Manager Admin Console.
 This can be installed on top of the Privilege Secure Admin Console, or installed directly.
 
-![972_3_image-20230627090846-3_950x70](../../../../../static/img/product_docs/policypak/policypak/integration/privilegesecure/972_3_image-20230627090846-3_950x70.webp)
+![972_3_image-20230627090846-3_950x70](/img/product_docs/policypak/policypak/integration/privilegesecure/972_3_image-20230627090846-3_950x70.webp)
 
 The result can be seen here with Netwrix Privilege Secure / Least Privilege Manager and all the
 Endpoint Policy Manager nodes.
 
-![972_4_image-20230627090846-4_950x534](../../../../../static/img/product_docs/policypak/policypak/integration/privilegesecure/972_4_image-20230627090846-4_950x534.webp)
+![972_4_image-20230627090846-4_950x534](/img/product_docs/policypak/policypak/integration/privilegesecure/972_4_image-20230627090846-4_950x534.webp)
 
 The Endpoint Policy Manager Admin Console MSI is a superset of the Privilege Secure Console MSI.
 

@@ -6,7 +6,7 @@ Follow the steps to add a password policy to the console.
 
 **Step 2 –** In the Password Policy list, click the **Plus** icon.
 
-![Add Password Complexity](../../../../../../../../static/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/add/add.webp)
+![Add Password Complexity](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/add/add.webp)
 
 **Step 3 –** Complete the following fields:
 

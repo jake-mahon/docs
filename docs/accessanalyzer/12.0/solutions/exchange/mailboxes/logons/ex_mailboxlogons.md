@@ -11,7 +11,7 @@ View the analysis tasks by navigating to the **Exchange** > **4. Mailboxes** > *
 **CAUTION:** Do not modify or deselect the selected analysis tasks. The analysis tasks are
 preconfigured for this job.
 
-![Analysis Tasks for the EX_MailboxLogons Job](../../../../../../../static/img/product_docs/accessanalyzer/solutions/exchange/mailboxes/logons/mailboxlogonsanalysis.webp)
+![Analysis Tasks for the EX_MailboxLogons Job](/img/product_docs/accessanalyzer/solutions/exchange/mailboxes/logons/mailboxlogonsanalysis.webp)
 
 The following analysis tasks are selected by default:
 
@@ -23,7 +23,7 @@ The following analysis tasks are selected by default:
 
     - By default set to retain 6 months. It can be modified.
     - See the
-      [Exchange History Retention](../../hubmetrics/collection/ex_metricscollection.md#exchange-history-retention)
+      [Exchange History Retention](/docs/accessanalyzer/12.0/solutions/exchange/hubmetrics/collection/ex_metricscollection.md#exchange-history-retention)
       topic for additional information
 
 - 04.Last Week Top Offenders – Creates the SA_EX_MailboxLogons_LastWeekSummary table, accessible
@@ -41,7 +41,7 @@ troubleshooting and cleanup only. Data will be deleted from the database.
 - 00.Delete All Historical Data
 
     - See the
-      [Troubleshooting Data Collection](../../hubmetrics/collection/ex_metricscollection.md#troubleshooting-data-collection)
+      [Troubleshooting Data Collection](/docs/accessanalyzer/12.0/solutions/exchange/hubmetrics/collection/ex_metricscollection.md#troubleshooting-data-collection)
       topic for additional information
 
 In addition to the tables and views created by the analysis tasks, the EX_MailboxLogons Job produces

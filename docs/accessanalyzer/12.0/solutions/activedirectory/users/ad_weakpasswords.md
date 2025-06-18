@@ -7,13 +7,13 @@ dictionaries and other exceptions. Exceptions include:
 - AES Key Missing – Account is set up using older functional AD levels, so has no AES key. These
   accounts use weaker encryption methods susceptible to brute force attacks.
 - Clear Text Password – Account has passwords stored with reversible encryption. See the Microsoft
-  [Store passwords using reversible encryption](<https://docs.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/hh994559(v=ws.11)>)
+  [Store passwords using reversible encryption](https://docs.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/hh994559(v=ws.11))
   article for additional information.
 - Default Computer Password – Computer has default computer passwords set
 - Delegable Admins – Administrator account is allowed to be delegated to a service
 - DES Encryption Only – Account is using Kerberos DES encryption. DES encryption is considered weak
   as the 56-bit key is prone to brute force attacks. See the Microsoft
-  [AD DS: User accounts and trusts in this domain should not be configured for DES only](<https://docs.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/ff646918(v=ws.10)>)
+  [AD DS: User accounts and trusts in this domain should not be configured for DES only](https://docs.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/ff646918(v=ws.10))
   article for additional information.
 - Empty Password – Account has an empty password
 - Kerberos Pre-authentication is not required – Account does not require Kerberos
@@ -35,14 +35,14 @@ dictionaries and other exceptions. Exceptions include:
 
 The AD_WeakPasswords Job uses the PasswordSecurity Data Collector.
 
-![Query for the AD_WeakPasswords Job](../../../../../../static/img/product_docs/accessanalyzer/solutions/activedirectory/users/weakpasswordsquery.webp)
+![Query for the AD_WeakPasswords Job](/img/product_docs/accessanalyzer/solutions/activedirectory/users/weakpasswordsquery.webp)
 
 The query for this job are:
 
 - Weak Passwords – Collects password hashes to identify weak passwords
 
     - See the
-      [PasswordSecurity Data Collector](../../../admin/datacollector/passwordsecurity/overview.md)
+      [PasswordSecurity Data Collector](/docs/accessanalyzer/12.0/admin/datacollector/passwordsecurity/overview.md)
       topic for additional information
 
 ### Configure the Weak Passwords Query
@@ -58,21 +58,21 @@ Properties**. The Query Properties window opens.
 **Step 3 –** Select the Data Source tab, and click **Configure**. The Password Security Data
 Collector Wizard opens.
 
-![Password Security Data Collection Wizard Scan options page](../../../../../../static/img/product_docs/accessanalyzer/solutions/activedirectory/users/optionsweakpassword.webp)
+![Password Security Data Collection Wizard Scan options page](/img/product_docs/accessanalyzer/solutions/activedirectory/users/optionsweakpassword.webp)
 
 **CAUTION:** Read the warning prior to enabling the cleartext password feature.
 
 **Step 4 –** On the Options page, configure the scan options by enabling communication with the
 Active Directory via SSL or returning cleartext password entries.
 
-![Password Security Data Collection Wizard Dictionary options page](../../../../../../static/img/product_docs/accessanalyzer/solutions/activedirectory/users/dictionariesweakpassword.webp)
+![Password Security Data Collection Wizard Dictionary options page](/img/product_docs/accessanalyzer/solutions/activedirectory/users/dictionariesweakpassword.webp)
 
 **Step 5 –** On the Dictionaries page, configure the dictionary options by enabling the Netwrix weak
 password dictionary or click **Add…** to upload a custom dictionary with NTLM hashes or plaintext
 passwords to use during the scan.
 
 - See the
-  [PasswordSecurity: Dictionaries](../../../admin/datacollector/passwordsecurity/dictionaries.md)
+  [PasswordSecurity: Dictionaries](/docs/accessanalyzer/12.0/admin/datacollector/passwordsecurity/dictionaries.md)
   topic for additional information
 
 **Step 6 –** Navigate to the Summary page, click **Finish** to save any setting modifications or
@@ -88,7 +88,7 @@ select **Analysis**.
 **CAUTION:** Do not modify or deselect the selected analysis tasks. The analysis tasks are
 preconfigured for this job.
 
-![Analysis Tasks for the AD_WeakPasswords Job](../../../../../../static/img/product_docs/accessanalyzer/solutions/activedirectory/users/weakpasswordsanalysis.webp)
+![Analysis Tasks for the AD_WeakPasswords Job](/img/product_docs/accessanalyzer/solutions/activedirectory/users/weakpasswordsanalysis.webp)
 
 The default analysis tasks are:
 

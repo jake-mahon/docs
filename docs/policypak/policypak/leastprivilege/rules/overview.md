@@ -5,7 +5,7 @@ Endpoint Policy ManagerLeast Privilege Manager is located within the Netwrix Pri
 ![A screenshot of a computer
 
 Description automatically
-generated](../../../../../static/img/product_docs/policypak/policypak/leastprivilege/rules/rules_1.webp)
+generated](/img/product_docs/policypak/policypak/leastprivilege/rules/rules_1.webp)
 
 **NOTE:** You will only see all components of Endpoint Policy Manager if you download the Endpoint
 Policy Manager Admin Console from Portal.PolicyPak.com, but not if you are using only the Netwrix
@@ -16,7 +16,7 @@ within the Netwrix Endpoint Policy Manager (formerly PolicyPak) node to demonstr
 between Endpoint Policy Manager and Netwrix Privilege Secure. That is, you can use all of Endpoint
 Policy Manager (all Endpoint Policy Manager components) or you may wish to use Endpoint Policy
 Manager alongside Netwrix Privilege Secure. For more information, see the
-[Endpoint Policy Manager & Netwrix Privilege Secure](../../integration/privilegesecure/overview.md)
+[Endpoint Policy Manager & Netwrix Privilege Secure](/docs/policypak/policypak/integration/privilegesecure/overview.md)
 topic.
 
 Endpoint Policy Manager MMC snap-in enables you to create new Endpoint Policy Manager Least
@@ -28,7 +28,7 @@ create collections, and policies within collections, on the User side, the Compu
 ![A screenshot of a computer
 
 Description automatically
-generated](../../../../../static/img/product_docs/policypak/policypak/leastprivilege/rules/rules_2.webp)
+generated](/img/product_docs/policypak/policypak/leastprivilege/rules/rules_2.webp)
 
 Endpoint Policy ManagerLeast Privilege Manager can elevate (or block) the following:
 
@@ -56,7 +56,7 @@ permitted. The application requires local admin rights, resulting in a prompt fo
 ![A screenshot of a computer
 
 Description automatically
-generated](../../../../../static/img/product_docs/policypak/policypak/leastprivilege/rules/rules_3.webp)
+generated](/img/product_docs/policypak/policypak/leastprivilege/rules/rules_3.webp)
 
 To participate in the Quick Start exercises, [download](http://go.skype.com/msi-download) Skype MSI
 for Windows via their website.
@@ -68,7 +68,7 @@ When a Standard User attempts to install Skype MSI installer, they are not allow
 ![A screenshot of a computer
 
 Description automatically
-generated](../../../../../static/img/product_docs/policypak/policypak/leastprivilege/rules/rules_4.webp)
+generated](/img/product_docs/policypak/policypak/leastprivilege/rules/rules_4.webp)
 
 The final example is downloading a portable app. A portable app is an application that can be
 downloaded anytime by a user. Sometimes it requires no installation; other times, it must be
@@ -84,7 +84,7 @@ Notepad2.
 ![A screenshot of a computer
 
 Description automatically
-generated](../../../../../static/img/product_docs/policypak/policypak/leastprivilege/rules/rules_5.webp)
+generated](/img/product_docs/policypak/policypak/leastprivilege/rules/rules_5.webp)
 
 The Standard User can now open the folder and immediately run the EXE file and use the app. Despite
 the fact that this application could be a virus or crypto-malware, the user with standard rights can
@@ -93,7 +93,7 @@ still run it.
 ![A screenshot of a computer
 
 Description automatically
-generated](../../../../../static/img/product_docs/policypak/policypak/leastprivilege/rules/rules_6.webp)
+generated](/img/product_docs/policypak/policypak/leastprivilege/rules/rules_6.webp)
 
 In the Quick Start examples with Endpoint Policy Manager Least Privilege Manager, the goals are as
 follows:
@@ -118,7 +118,7 @@ The examples we will look at are:
 ![A computer screen shot of a computer
 
 Description automatically
-generated](../../../../../static/img/product_docs/policypak/policypak/leastprivilege/rules/rules_7.webp)
+generated](/img/product_docs/policypak/policypak/leastprivilege/rules/rules_7.webp)
 
 For these examples, keep copies of Process Monitor and NotePad2 Portable handy to serve as a
 reference from your management station. These are not installed apps; you will be attempting to run

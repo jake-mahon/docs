@@ -25,4 +25,4 @@ or triggers.
 To learn more about simplifying governance and audit with Enterprise Compliance tools, reach out to
 your Customer Success Manager or Account Executive.
 
-**Next Technical Debt Topic:** [Change Enablement](tech_debt_org_change_enablement.md)
+**Next Technical Debt Topic:** [Change Enablement](/docs/strongpointforsalesforce/tech_debt/tech_debt_org_change_enablement.md)

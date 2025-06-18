@@ -13,11 +13,11 @@ Auditing must be enabled on the master Panzura node and optionally overridden on
 nodes to support different deployment scenarios depending on the expected load and network latency.
 A single agent monitors several Panzura nodes.
 
-![panzurasingleagntmonitor](../../../../../static/img/product_docs/activitymonitor/config/panzura/panzurasingleagntmonitor.webp)
+![panzurasingleagntmonitor](/img/product_docs/activitymonitor/config/panzura/panzurasingleagntmonitor.webp)
 
 Audit events are distributed between two agents. Audit settings are overridden on one Panzura node.
 
-![auditeventstwoagnt_panzura](../../../../../static/img/product_docs/activitymonitor/config/panzura/auditeventstwoagnt_panzura.webp)
+![auditeventstwoagnt_panzura](/img/product_docs/activitymonitor/config/panzura/auditeventstwoagnt_panzura.webp)
 
 The monitoring process relies on the Third Party Vendor Support auditing feature of the Panzura
 CloudFS platform, which uses the AMQP protocol for event delivery. Unlike typical uses of the AMQP
@@ -30,7 +30,7 @@ The credentials to access the API must be specified when a Panzura host is added
 for monitoring. Additionally, the IP address of the port is 4497 by default and can be customized in
 the properties for the Agent.
 
-**NOTE:** See the [Panzura](../../activitymonitor/admin/monitoredhosts/add/panzura.md) topic for
+**NOTE:** See the [Panzura](/docs/activitymonitor/8.0/activitymonitor/admin/monitoredhosts/add/panzura.md) topic for
 additional information on Panzura Host.
 
 To prepare Panzura CloudFS for monitoring, auditing must be enabled.

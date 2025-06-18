@@ -56,7 +56,7 @@ Follow the steps to configure the key exchange.
 
 **Step 2 –** Type the following commands to export the encryption keys for the secondary:
 
-[Copy](<javascript:void(0);>)
+[Copy](javascript:void(0);)
 
 Encryption Key Export
 
@@ -77,7 +77,7 @@ server.
 
 **Step 6 –** Type the following commands to import the encryption keys:
 
-[Copy](<javascript:void(0);>)
+[Copy](javascript:void(0);)
 
 Encryption Key Import
 

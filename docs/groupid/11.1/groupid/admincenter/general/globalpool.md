@@ -35,6 +35,6 @@ To search for a security question in the list, enter a search string in the sear
 
 **See Also**
 
-- [Set up Authentication via Security Questions](../setupauth/securityquestions.md)
-- [Directory Manage Password Policy ](../securityrole/policy/password.md)
-- [Manage the Local Question Pool](../identitystore/configure/security/securityquestions.md)
+- [Set up Authentication via Security Questions](/docs/groupid/11.1/groupid/admincenter/setupauth/securityquestions.md)
+- [Directory Manage Password Policy ](/docs/groupid/11.1/groupid/admincenter/securityrole/policy/password.md)
+- [Manage the Local Question Pool](/docs/groupid/11.1/groupid/admincenter/identitystore/configure/security/securityquestions.md)

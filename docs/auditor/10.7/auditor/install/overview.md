@@ -8,12 +8,12 @@ Compression Services. Refer to the following sections for detailed information:
 
 It also includes advanced scenarios such as:
 
-- [Install Client via Group Policy](viagrouppolicy.md)
-- [Install in Silent Mode](silentmode.md)
+- [Install Client via Group Policy](/docs/auditor/10.7/auditor/install/viagrouppolicy.md)
+- [Install in Silent Mode](/docs/auditor/10.7/auditor/install/silentmode.md)
 
 ## Install Netwrix Auditor
 
-For instructions on upgrade procedures, refer to [Upgrade to the Latest Version](upgrade.md).
+For instructions on upgrade procedures, refer to [Upgrade to the Latest Version](/docs/auditor/10.7/auditor/install/upgrade.md).
 
 **CAUTION:** To keep your systems safe, Netwrix Auditor should not be exposed to inbound access from
 the internet.
@@ -24,13 +24,13 @@ Follow these steps to install Netwrix Auditor
 [Netwrix website](https://www.netwrix.com/auditor.html).
 
 NOTE: Before installing Netwrix Auditor, make sure that the Windows Firewall service is started. If
-you use a third-party firewall, see [Protocols and Ports Required](../requirements/ports.md). Also,
+you use a third-party firewall, see [Protocols and Ports Required](/docs/auditor/10.7/auditor/requirements/ports.md). Also,
 you must be a member of the local Administrators group to run the Netwrix Auditor installation.
 
 **Step 2 –** Unpack the installation package. The following window will be displayed on successful
 operation completion:
 
-![installationscreen](../../../../../static/img/product_docs/auditor/auditor/install/installationscreen.webp)
+![installationscreen](/img/product_docs/auditor/auditor/install/installationscreen.webp)
 
 **Step 3 –** Follow the instructions of the setup wizard. When prompted, accept the license
 agreement.
@@ -53,15 +53,15 @@ collects statistical information on how the Licensee uses the product in accorda
 law. Select Skip if you do not want to participate in the program.
 
 You can always opt-out of the Netwrix Customer Experience Program later. See the
-[About Netwrix Auditor](../admin/settings/about.md) topic for additional information.
+[About Netwrix Auditor](/docs/auditor/10.7/auditor/admin/settings/about.md) topic for additional information.
 
 **Step 7 –** Click Install.
 
 After a successful installation, Auditor shortcut will be added to the **Start** menu and screen and
-the product will start. See the [First Launch](firstlaunch.md) topic for additional information on
+the product will start. See the [First Launch](/docs/auditor/10.7/auditor/install/firstlaunch.md) topic for additional information on
 the product navigation.
 
-![welcome_screen](../../../../../static/img/product_docs/auditor/auditor/install/welcome_screen.webp)
+![welcome_screen](/img/product_docs/auditor/auditor/install/welcome_screen.webp)
 
 Netwrix looks beyond the traditional on-premises installation and provides Auditor for cloud and
 virtual environments. For example, you can deploy Auditor on a pre-configured Microsoft Azure
@@ -77,5 +77,5 @@ either automatically when setting up auditing in Netwrix Auditor, or manually.
 
 Refer to the following sections below for manual installation instructions:
 
-- [Install for SharePoint Core Service](sharepointcoreservice.md)
-- [Install for User Activity Core Service](useractivitycoreservice.md)
+- [Install for SharePoint Core Service](/docs/auditor/10.7/auditor/install/sharepointcoreservice.md)
+- [Install for User Activity Core Service](/docs/auditor/10.7/auditor/install/useractivitycoreservice.md)

@@ -1,9 +1,9 @@
 # SUDO
 
 **NOTE:** See the
-[Endpoint Policy Manager Cloud and SUDO support](../../video/leastprivilege/mac/sudosupport.md)
+[Endpoint Policy Manager Cloud and SUDO support](/docs/policypak/policypak/video/leastprivilege/mac/sudosupport.md)
 video and the
-[Endpoint Policy Manager Cloud Mac + SUDO Using Wildcard Example](../../video/leastprivilege/mac/wildcards.md)
+[Endpoint Policy Manager Cloud Mac + SUDO Using Wildcard Example](/docs/policypak/policypak/video/leastprivilege/mac/wildcards.md)
 video for an overview of this section.
 
 The point of SUDO policies is to enable a standard user to perform SUDO commands without needing to
@@ -16,14 +16,14 @@ Sudo mkdir /Users/Sudo/test1 but is blocked with a password request.
 ![A screenshot of a computer
 
 Description automatically
-generated](../../../../../static/img/product_docs/policypak/policypak/mac/scenarios/sudo.webp)
+generated](/img/product_docs/policypak/policypak/mac/scenarios/sudo.webp)
 
 To overcome this, create a SUDO rule like this one:
 
 :![A screenshot of a computer
 
 Description automatically
-generated](../../../../../static/img/product_docs/policypak/policypak/mac/scenarios/sudo_1.webp)
+generated](/img/product_docs/policypak/policypak/mac/scenarios/sudo_1.webp)
 
 The Actions are:
 
@@ -41,4 +41,4 @@ runs without password requirement.
 ![A screenshot of a computer
 
 Description automatically
-generated](../../../../../static/img/product_docs/policypak/policypak/mac/scenarios/sudo_2.webp)
+generated](/img/product_docs/policypak/policypak/mac/scenarios/sudo_2.webp)

@@ -15,10 +15,10 @@ Follow the steps to login to Recovery for Active Directory.
 
 **Step 1 –** Launch the Recovery Console. The Log in page is displayed.
 
-![ Recovery for Active Directory - Login page](../../../../../static/img/product_docs/threatprevention/threatprevention/eperestsite/login.webp)
+![ Recovery for Active Directory - Login page](/img/product_docs/threatprevention/threatprevention/eperestsite/login.webp)
 
 **Step 2 –** Log in with credentials configured on the Administrator Role page of the Recovery for
-Active Directory Setup wizard during installation. See the [Install the Application](application.md)
+Active Directory Setup wizard during installation. See the [Install the Application](/docs/recoveryforactivedirectory/2.6/recoveryforactivedirectory/install/application.md)
 topic for additional information on the administrator role. The username must be entered in the
 following format:
 
@@ -27,9 +27,9 @@ following format:
 **Step 3 –** Click **Log in**.
 
 Once logged in, the first step is to configure a domain. See the
-[Domain Backup Configuration Page](../admin/activedirectory/domainbackupconfig.md) topic for
+[Domain Backup Configuration Page](/docs/recoveryforactivedirectory/2.6/recoveryforactivedirectory/admin/activedirectory/domainbackupconfig.md) topic for
 additional information.
 
 The administrator must also add users who can access the application. Once these users have access,
-see the [Log into the Recovery Console](login.md) topic for information on accessing and signing
+see the [Log into the Recovery Console](/docs/recoveryforactivedirectory/2.6/recoveryforactivedirectory/install/login.md) topic for information on accessing and signing
 into the Recovery Console.

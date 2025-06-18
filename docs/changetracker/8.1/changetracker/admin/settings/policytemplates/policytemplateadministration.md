@@ -9,4 +9,4 @@ changed together with the make-up of the Configuration Monitoring policy
 To configure additional File/Folder/Registry Match Pattern definitions, click on the **Show Advanced
 Options** button.
 
-![PolicyTemplatesAdministration](../../../../../../../static/img/product_docs/changetracker/changetracker/admin/settings/policytemplates/policytemplatesadministration.webp)
+![PolicyTemplatesAdministration](/img/product_docs/changetracker/changetracker/admin/settings/policytemplates/policytemplatesadministration.webp)

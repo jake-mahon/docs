@@ -7,9 +7,9 @@ browsers can be the default, but only one can be chosen as the default. Addition
 special browser called **User Selectable**. Below you can see how to select the default browser.
 
 **NOTE:** For an overview of the User Selectable option, see
-[Endpoint Policy Manager Browser Router User-Selected Default](../../video/browserrouter/userselecteddefault.md).
+[Endpoint Policy Manager Browser Router User-Selected Default](/docs/policypak/policypak/video/browserrouter/userselecteddefault.md).
 
-![about_policypak_browser_router_11](../../../../../static/img/product_docs/policypak/policypak/browserrouter/defaultbrowser/about_policypak_browser_router_11.webp)
+![about_policypak_browser_router_11](/img/product_docs/policypak/policypak/browserrouter/defaultbrowser/about_policypak_browser_router_11.webp)
 
 The **User Selectable** option enables the user to specify their desired default browser as Internet
 Explorer, Edge, Chrome, or Firefox. The Endpoint Policy Manager engine "learns" this setting at the
@@ -24,9 +24,9 @@ is assigned a default browser the first time they open a URL but can then change
 to one of their own choosing. In this case, we select the same settings as last time except we
 choose to apply the rule only one time, as sown below
 
-![about_policypak_browser_router_12](../../../../../static/img/product_docs/policypak/policypak/browserrouter/defaultbrowser/about_policypak_browser_router_12.webp)
+![about_policypak_browser_router_12](/img/product_docs/policypak/policypak/browserrouter/defaultbrowser/about_policypak_browser_router_12.webp)
 
 Users can then change the default browser to their own liking, even though their settings show that
 the web browser is managed by their organization.
 
-![about_policypak_browser_router_13](../../../../../static/img/product_docs/policypak/policypak/browserrouter/defaultbrowser/about_policypak_browser_router_13.webp)
+![about_policypak_browser_router_13](/img/product_docs/policypak/policypak/browserrouter/defaultbrowser/about_policypak_browser_router_13.webp)

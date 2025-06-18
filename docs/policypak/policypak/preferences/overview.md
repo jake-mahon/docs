@@ -1,7 +1,7 @@
 # Preferences Manager
 
 **NOTE:** Before reading this section, please ensure you have read Book 2:
-[Installation Quick Start](../gettingstarted/quickstart/overviewinstall.md), which will help you
+[Installation Quick Start](/docs/policypak/policypak/gettingstarted/quickstart/overviewinstall.md), which will help you
 learn to do the following:
 
 - Install the Admin MSI on your GPMC machine
@@ -9,7 +9,7 @@ learn to do the following:
 - Set up a computer in Trial mode or Licensed mode
 - Set up a common OU structure
 - Optionally, if you don't want to use Group Policy, read the section in Appendix A:
-  [Using Endpoint Policy Manager with MDM and UEM Tools](../mdm/uemtools.md) on Group Policy and
+  [Using Endpoint Policy Manager with MDM and UEM Tools](/docs/policypak/policypak/mdm/uemtools.md) on Group Policy and
   non–Group Policy methods (MEMCM, KACE, and MDM service or Netwrix Endpoint Policy Manager
   (formerly PolicyPak) Cloud) to deploy your directives.
 
@@ -23,7 +23,7 @@ including the following a,nd many more.
 - Device lock-down
 - Regional settings
 
-![about_policypak_gpo_export](../../../../static/img/product_docs/policypak/policypak/preferences/about_policypak_gpo_export.webp)
+![about_policypak_gpo_export](/img/product_docs/policypak/policypak/preferences/about_policypak_gpo_export.webp)
 
 Despite these advantages, Microsoft's Group Policy Preferences have some issues that cannot be
 overcome without a little help. That's where Endpoint Policy Manager Preferences Manager comes in.
@@ -41,15 +41,15 @@ Endpoint Policy Manager Preferences Manager does the following jobs:
   management (MDM) service, you can deliver Group Policy Preference items to computers over the
   Internet (to both domain-joined and non-domain-joined machines). For more information on Endpoint
   Policy Manager Cloud, see Appendix E:
-  [Setup, Download, Install, and Verify](../cloud/quickstart.md) and User Guide. For more
+  [Setup, Download, Install, and Verify](/docs/policypak/policypak/cloud/quickstart.md) and User Guide. For more
   information about using Endpoint Policy Manager with an MDM service, see Appendix A:
-  [Using Endpoint Policy Manager with MDM and UEM Tools](../mdm/uemtools.md).
+  [Using Endpoint Policy Manager with MDM and UEM Tools](/docs/policypak/policypak/mdm/uemtools.md).
 
 **NOTE:** If you use the Endpoint Policy Manager Cloud service, you can deliver Group Policy
 Preferences directives even to non-domain-joined machines.
 
 **NOTE:** See
-[Which settings can be managed with the Preferences Manager component?](settings.md)for additional
+[Which settings can be managed with the Preferences Manager component?](/docs/policypak/policypak/preferences/settings.md)for additional
 information on Endpoint Policy Manager Preferences Manager used with SCCM, Endpoint Policy Manager
 Cloud, or an MDM service,
 
@@ -89,7 +89,7 @@ Endpoint Policy Manager Preferences Manager has the following main components:
   portable MSI file for deployment using Microsoft Endpoint Manager (SCCM and Intune), or your own
   systems management software.
 
-![about_policypak_gpo_export_1](../../../../static/img/product_docs/policypak/policypak/preferences/about_policypak_gpo_export_1.webp)
+![about_policypak_gpo_export_1](/img/product_docs/policypak/policypak/preferences/about_policypak_gpo_export_1.webp)
 
 Endpoint Policy Manager Preferences Manager does not require any particular type of domain
 controllers (DCs). Nothing is installed on any DC, and you don't need to extend the Active Directory

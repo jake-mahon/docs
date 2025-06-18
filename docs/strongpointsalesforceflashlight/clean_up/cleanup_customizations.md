@@ -24,7 +24,7 @@ Use these processes to Clean up Individual Customization or Clean Up Multiple Cu
 6. Assign a **Change/Approval Policy** if there is an object specific policy (optional).
 7. Under **Clean-Up Classification**, add an overview of the clean up.
 
-![improvementtab_800x415](../../../static/img/product_docs/strongpointsalesforceflashlight/clean_up/improvementtab_800x415.webp)
+![improvementtab_800x415](/img/product_docs/strongpointsalesforceflashlight/clean_up/improvementtab_800x415.webp)
 
 ## Clean Up Multiple Customizations
 
@@ -43,7 +43,7 @@ Use these processes to Clean up Individual Customization or Clean Up Multiple Cu
 - **Clean Up Comments**
 - **Clean Up Status**
 
-![createlist_view_for_cleanup_800x403](../../../static/img/product_docs/strongpointsalesforceflashlight/clean_up/createlist_view_for_cleanup_800x403.webp)6.
+![createlist_view_for_cleanup_800x403](/img/product_docs/strongpointsalesforceflashlight/clean_up/createlist_view_for_cleanup_800x403.webp)6.
 Restrict Visibility. You can choose to have the list view:
 
 - Only visible to you,
@@ -53,11 +53,11 @@ Restrict Visibility. You can choose to have the list view:
 7. Click **Save**.
 8. Once your list view has been created, you can multi-select customizations for clean up by
    checking the box beside Action.
-   ![multi_select_cleanup_800x382](../../../static/img/product_docs/strongpointsalesforceflashlight/clean_up/multi_select_cleanup_800x382.webp)9.
+   ![multi_select_cleanup_800x382](/img/product_docs/strongpointsalesforceflashlight/clean_up/multi_select_cleanup_800x382.webp)9.
    You can now choose what you want to edit for the multiple customizations selected.  
     For example, if you want to change the clean up status:
 9. Go to **Edit Clean Up Status**.
 10. Select a status such as To Be Cleaned Up.
 11. Choose to **Apply changes to: All the selected records**.
 12. Click **Save**.
-    ![flagging_mass_customizations_800x374](../../../static/img/product_docs/strongpointsalesforceflashlight/clean_up/flagging_mass_customizations_800x374.webp)
+    ![flagging_mass_customizations_800x374](/img/product_docs/strongpointsalesforceflashlight/clean_up/flagging_mass_customizations_800x374.webp)

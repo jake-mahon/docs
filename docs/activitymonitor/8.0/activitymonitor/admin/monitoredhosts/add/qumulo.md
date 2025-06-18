@@ -11,9 +11,9 @@ It provides the ability to feed activity data to SIEM products. The following da
 specifically created for Activity Monitor event data:
 
 - For IBM® QRadar®, see the
-  [Netwrix File Activity Monitor App for QRadar](../../../siem/qradar/overview.md) for additional
+  [Netwrix File Activity Monitor App for QRadar](/docs/activitymonitor/8.0/activitymonitor/siem/qradar/overview.md) for additional
   information.
-- For Splunk®, see the [File Activity Monitor App for Splunk](../../../siem/splunk/overview.md) for
+- For Splunk®, see the [File Activity Monitor App for Splunk](/docs/activitymonitor/8.0/activitymonitor/siem/splunk/overview.md) for
   additional information.
 
 It also provides the ability to feed activity data to other Netwrix products:
@@ -23,7 +23,7 @@ It also provides the ability to feed activity data to other Netwrix products:
 - Netwrix Threat Manager
 
 Prior to adding a Qumulo host to the Activity Monitor, the prerequisites for the target environment
-must be met. See the [Qumulo Activity Auditing Configuration](../../../../config/qumulo/activity.md)
+must be met. See the [Qumulo Activity Auditing Configuration](/docs/activitymonitor/8.0/config/qumulo/activity.md)
 topic for additional information.
 
 _Remember,_ the Activity Agent must be deployed to a Windows server that acts as a proxy for
@@ -36,17 +36,17 @@ Follow the steps to add a Qumulo host to be monitored.
 **Step 1 –** In Activity Monitor, go to the Monitored Hosts tab and click **Add**. The Add New Host
 window opens.
 
-![addagent01](../../../../../../../static/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/addagent01.webp)
+![addagent01](/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/addagent01.webp)
 
 **Step 2 –** On the Choose Agent page, select the Agent to monitor the file server from the
 drop-down list. Click **Next**.
 
-![addhostqumulo01](../../../../../../../static/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/addhostqumulo01.webp)
+![addhostqumulo01](/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/addhostqumulo01.webp)
 
 **Step 3 –** On the Add Host page, select the **Qumulo** radio button and enter the file server
 name. Click **Next**.
 
-![addhostqumulo02](../../../../../../../static/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/addhostqumulo02.webp)
+![addhostqumulo02](/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/addhostqumulo02.webp)
 
 **Step 4 –** On the Qumulo Options page, enter the user name and password.
 
@@ -65,14 +65,14 @@ Qumulo.
 
 Click **Next**.
 
-![nutanixoptions_07](../../../../../../../static/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/nutanixoptions_07.webp)
+![nutanixoptions_07](/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/nutanixoptions_07.webp)
 
 **Step 5 –** On the Where To Log The Activity page, select whether to send the activity to either a
 Log File or Syslog Server. Click **Next**.
 
 **NOTE:** An option must be selected before moving to the next step.
 
-![addhostqumulo04](../../../../../../../static/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/addhostqumulo04.webp)
+![addhostqumulo04](/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/addhostqumulo04.webp)
 
 **Step 6 –** If Log File is selected on the Where To Log The Activity page, configure the File
 Output page.
@@ -98,7 +98,7 @@ Output page.
 
 Click **Next**.
 
-![nutanixoptions_09](../../../../../../../static/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/nutanixoptions_09.webp)
+![nutanixoptions_09](/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/nutanixoptions_09.webp)
 
 **Step 7 –** If Syslog Server is selected on the Where To Log The Activity page, configure the
 Syslog Output page.
@@ -115,7 +115,7 @@ Syslog Output page.
     - TLS
 
     The TCP and TLS protocols add the **Message framing** drop-down menu. See the
-    [Syslog Tab](../../outputs/syslog.md) topic for additional information.
+    [Syslog Tab](/docs/activitymonitor/8.0/activitymonitor/admin/outputs/syslog.md) topic for additional information.
 
 - The Test button sends a test message to the Syslog server to check the connection. A green check
   mark or red will determine whether the test message has been sent or failed to send. Messages vary
@@ -125,14 +125,14 @@ Syslog Output page.
     - TCP/TLS – Sends test message and verifies connection
     - TLS – Shows error if TLS handshake fails
 
-    See the [Syslog Tab](../../outputs/syslog.md) topic for additional information.
+    See the [Syslog Tab](/docs/activitymonitor/8.0/activitymonitor/admin/outputs/syslog.md) topic for additional information.
 
 Click **Finish**.
 
-![addhostqumulo06](../../../../../../../static/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/addhostqumulo06.webp)
+![addhostqumulo06](/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/addhostqumulo06.webp)
 
 The added Qumulo host is displayed in the monitored hosts table. Once a host has been added for
-monitoring, configure the desired ouptuts. See the [Output for Monitored Hosts](../output.md) topic
+monitoring, configure the desired ouptuts. See the [Output for Monitored Hosts](/docs/activitymonitor/8.0/activitymonitor/admin/monitoredhosts/output.md) topic
 for additional information.
 
 ## Host Properties for Qumulo
@@ -140,7 +140,7 @@ for additional information.
 Configuration settings can be edited through the tabs in the host’s Properties window. The
 configurable host properties are:
 
-- [Qumulo Tab](../properties/qumulo.md)
-- [Inactivity Alerts Tab](../properties/inactivityalerts.md)
+- [Qumulo Tab](/docs/activitymonitor/8.0/activitymonitor/admin/monitoredhosts/properties/qumulo.md)
+- [Inactivity Alerts Tab](/docs/activitymonitor/8.0/activitymonitor/admin/monitoredhosts/properties/inactivityalerts.md)
 
-See the [Host Properties Window](../properties/overview.md) topic for additional information.
+See the [Host Properties Window](/docs/activitymonitor/8.0/activitymonitor/admin/monitoredhosts/properties/overview.md) topic for additional information.

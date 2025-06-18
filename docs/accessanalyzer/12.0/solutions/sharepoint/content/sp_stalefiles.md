@@ -10,7 +10,7 @@ information.
 
 The Configuration section on a Job's overview page allows you to easily modify any customizable
 parameters used by analysis tasks in the job. See the
-[Parameter Configuration](../../../admin/jobs/job/overview.md#parameter-configuration) topic for
+[Parameter Configuration](/docs/accessanalyzer/12.0/admin/jobs/job/overview.md#parameter-configuration) topic for
 instructions on how to edit parameters on a job overview page.
 
 The SP_StaleFiles page has the following configurable parameters:
@@ -29,7 +29,7 @@ and select **Analysis** to view the analysis tasks.
 **CAUTION:** Do not modify or deselect the selected analysis task. The analysis task is
 preconfigured for this job. Only the `@stale` parameter can be configured for the analysis task.
 
-![Analysis Tasks for the SP_StaleFiles Job](../../../../../../static/img/product_docs/accessanalyzer/solutions/sharepoint/content/stalefilesanalysis.webp)
+![Analysis Tasks for the SP_StaleFiles Job](/img/product_docs/accessanalyzer/solutions/sharepoint/content/stalefilesanalysis.webp)
 
 The default analysis task is:
 

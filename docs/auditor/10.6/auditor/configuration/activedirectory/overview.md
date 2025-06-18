@@ -48,8 +48,8 @@ Domain, Configuration and Schema partitions. It also tracks changes to new objec
 attributes added due to the Active Directory Schema extension. For detailed information, refer to
 Microsoft articles:
 
-- [A full list of Active Directory object classes](<http://msdn.microsoft.com/en-us/library/ms680938(v=vs.85).aspx>)
-- [A full list of Active Directory object attributes](<http://msdn.microsoft.com/en-us/library/ms675090(v=vs.85).aspx>)
+- [A full list of Active Directory object classes](http://msdn.microsoft.com/en-us/library/ms680938(v=vs.85).aspx)
+- [A full list of Active Directory object attributes](http://msdn.microsoft.com/en-us/library/ms675090(v=vs.85).aspx)
 
 Review the following limitations:
 

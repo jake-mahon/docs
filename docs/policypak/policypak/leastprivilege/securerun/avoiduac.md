@@ -14,22 +14,22 @@ rule to Allow and Log a command line.
 ![A screenshot of a computer
 
 Description automatically
-generated](../../../../../static/img/product_docs/policypak/policypak/leastprivilege/securerun/creating_rules_to_avoid_uac.webp)
+generated](/img/product_docs/policypak/policypak/leastprivilege/securerun/creating_rules_to_avoid_uac.webp)
 
 The example below show a Combo rule enabling OneDriveSetup.exe to keep running (**Path Condition**
 and **Command-line Condition**) with the Allow and Log action.
 
 For more information on Combo rules, see
-[Creating and Using Executable Combo Rules](../bestpractices/rules/executablecombo.md)
+[Creating and Using Executable Combo Rules](/docs/policypak/policypak/leastprivilege/bestpractices/rules/executablecombo.md)
 
 ![A screenshot of a computer
 
 Description automatically
-generated](../../../../../static/img/product_docs/policypak/policypak/leastprivilege/securerun/creating_rules_to_avoid_uac.webp)
+generated](/img/product_docs/policypak/policypak/leastprivilege/securerun/creating_rules_to_avoid_uac.webp)
 
 ![A screenshot of a computer
 
 Description automatically
-generated](../../../../../static/img/product_docs/policypak/policypak/leastprivilege/securerun/creating_rules_to_avoid_uac_1.webp)
+generated](/img/product_docs/policypak/policypak/leastprivilege/securerun/creating_rules_to_avoid_uac_1.webp)
 
 After the rules are created, you should not see pop-ups from installers with rules in place.

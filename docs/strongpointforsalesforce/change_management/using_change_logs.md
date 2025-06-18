@@ -2,7 +2,7 @@
 
 Change Logs allow you to see the type of change, who made the change and view the system notes of
 the Salesforce record. Change Logs are accessed from the **Change Logs** tab or through
-[Change Enablement Reports](change_management_reports.md).
+[Change Enablement Reports](/docs/strongpointforsalesforce/change_management/change_management_reports.md).
 
 1. Expand the **Change Logs** tab.
 2. Change the **Recently Viewed** pinned list to show the types of Change Logs to view. For
@@ -13,11 +13,11 @@ the Salesforce record. Change Logs are accessed from the **Change Logs** tab or 
 You can also open Change Logs from **Netwrix Dashboard** > **Reports** > **Change Enablement**.
 Select a report, such as **What Changed** to see a list of Change Logs.
 
-![changelog-1](../../../static/img/product_docs/strongpointfornetsuite/change_management/changelog-1.webp)
+![changelog-1](/img/product_docs/strongpointfornetsuite/change_management/changelog-1.webp)
 
 Here is an example change log for a **Profile** Metadata type.
 
-![changelog_details](../../../static/img/product_docs/strongpointforsalesforce/change_management/changelog_details.webp)
+![changelog_details](/img/product_docs/strongpointforsalesforce/change_management/changelog_details.webp)
 
 ## Details Tab
 
@@ -83,18 +83,18 @@ There is an **Export to PDF** option.
 
 Example Diff Summary for a Data tracking Change Log:
 
-![Diff Summary for data tracking](../../../static/img/product_docs/strongpointforsalesforce/change_management/diffsummary_data.webp)
+![Diff Summary for data tracking](/img/product_docs/strongpointforsalesforce/change_management/diffsummary_data.webp)
 
 Example Diff Summary for a Profile metadata type Change Log:
 
-![Change Log Diff Summary](../../../static/img/product_docs/strongpointforsalesforce/change_management/changelog_diff.webp)
+![Change Log Diff Summary](/img/product_docs/strongpointforsalesforce/change_management/changelog_diff.webp)
 
 ### Values
 
 The **Values** section displays the **New Value** and **Old Value** of each field after the update.
 The **Created By** and **Last Modified By** users and dates are displayed at the end of the list.
 
-![changelog_values](../../../static/img/product_docs/strongpointforsalesforce/change_management/changelog_values.webp)
+![changelog_values](/img/product_docs/strongpointforsalesforce/change_management/changelog_values.webp)
 
 ### Audit
 

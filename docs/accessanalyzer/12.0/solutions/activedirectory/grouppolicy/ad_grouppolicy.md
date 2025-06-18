@@ -9,7 +9,7 @@ The AD_GroupPolicy Job uses the GroupPolicy Data Collector for the following que
 
 **CAUTION:** Do not modify the queries. The queries are preconfigured for this job.
 
-![Queries for the AD_GroupPolicy Job](../../../../../../static/img/product_docs/accessanalyzer/solutions/activedirectory/grouppolicy/grouppolicyquery.webp)
+![Queries for the AD_GroupPolicy Job](/img/product_docs/accessanalyzer/solutions/activedirectory/grouppolicy/grouppolicyquery.webp)
 
 The queries for this job are:
 
@@ -17,7 +17,7 @@ The queries for this job are:
   list for the domain
 - Settings – Targets the default domain controller known to Access Analyzer to return the state for
   domain policies for all GPOs. See the
-  [GroupPolicy Data Collector](../../../admin/datacollector/grouppolicy/overview.md) topic for
+  [GroupPolicy Data Collector](/docs/accessanalyzer/12.0/admin/datacollector/grouppolicy/overview.md) topic for
   additional information.
 
 ## Analysis Tasks for the AD_GroupPolicy Job
@@ -28,7 +28,7 @@ and select **Analysis** to view the analysis tasks.
 **CAUTION:** Do not modify or deselect the selected analysis tasks. The analysis tasks are
 preconfigured for this job.
 
-![Analysis Tasks for the AD_GroupPolicy Job](../../../../../../static/img/product_docs/accessanalyzer/solutions/activedirectory/grouppolicy/grouppolicyanalysis.webp)
+![Analysis Tasks for the AD_GroupPolicy Job](/img/product_docs/accessanalyzer/solutions/activedirectory/grouppolicy/grouppolicyanalysis.webp)
 
 The default analysis tasks are:
 

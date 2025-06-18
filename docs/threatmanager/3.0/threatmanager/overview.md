@@ -14,7 +14,7 @@ including Microsoft Teams, Slack, ServiceNow, and a wide variety of SIEM platfor
 The following diagram is a visual representation of Threat Manager architecture. It maps out the
 physical implementation of Threat Manager components.
 
-![Netwrix Threat Manager Architecture diagram](../../../../static/img/product_docs/threatmanager/threatmanager/tmarch.webp)
+![Netwrix Threat Manager Architecture diagram](/img/product_docs/threatmanager/threatmanager/tmarch.webp)
 
 ## Administration
 
@@ -40,7 +40,7 @@ documentation for additional information:
 Threat Manager monitors the following threats. See each section for information on monitored threat
 types.
 
-- [Active Directory Threats](threats/activedirectory.md)
-- [Entra ID Threats](threats/entraid.md)
-- [File System Threats](threats/filesystem.md)
-- [General Threats](threats/general.md)
+- [Active Directory Threats](/docs/threatmanager/3.0/threatmanager/threats/activedirectory.md)
+- [Entra ID Threats](/docs/threatmanager/3.0/threatmanager/threats/entraid.md)
+- [File System Threats](/docs/threatmanager/3.0/threatmanager/threats/filesystem.md)
+- [General Threats](/docs/threatmanager/3.0/threatmanager/threats/general.md)

@@ -8,7 +8,7 @@ to highest.
 ![A screenshot of a computer
 
 Description automatically
-generated](../../../../static/img/product_docs/policypak/policypak/leastprivilege/processing_order_and_precedence.webp)
+generated](/img/product_docs/policypak/policypak/leastprivilege/processing_order_and_precedence.webp)
 
 Within any collection, each policy is processed in numerical order from lowest to highest.
 

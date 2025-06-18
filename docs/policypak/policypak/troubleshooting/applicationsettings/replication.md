@@ -42,7 +42,7 @@ Here are some great troubleshooting tips however.
   results. If you get a failure notice such as the one below, than there is a GPO delivery problem
   at large.
 
-![3_1_troubleshooting-grou-policy-replication2](../../../../../static/img/product_docs/policypak/policypak/troubleshooting/applicationsettings/3_1_troubleshooting-grou-policy-replication2.webp)
+![3_1_troubleshooting-grou-policy-replication2](/img/product_docs/policypak/policypak/troubleshooting/applicationsettings/3_1_troubleshooting-grou-policy-replication2.webp)
 
 **NOTE:**
 
@@ -53,7 +53,7 @@ directives. But it's equally likely that it's another GPO as well.
   you do not have these two folders, you have an AD problem and GPOs will not be delivered from it
   properly.
 
-![3_2_troubleshooting-grou-policy-replication1](../../../../../static/img/product_docs/policypak/policypak/troubleshooting/applicationsettings/3_2_troubleshooting-grou-policy-replication1.webp)
+![3_2_troubleshooting-grou-policy-replication1](/img/product_docs/policypak/policypak/troubleshooting/applicationsettings/3_2_troubleshooting-grou-policy-replication1.webp)
 
 - DCDIAG.exe – The DCDiag (Domain Controller Diagnostic) tool will analyse the state of the domain
   controllers and services in an Active Directory forest. DCDiag is a very good general-purpose
@@ -100,6 +100,6 @@ You may also refer to these other articles as well.
 
 [http://technet.microsoft.com/en-us/library/cc978394.aspx](http://technet.microsoft.com/en-us/library/cc978394.aspx)
 
-[http://technet.microsoft.com/en-us/library/cc816596(v=ws.10).aspx](<http://technet.microsoft.com/en-us/library/cc816596(v=ws.10).aspx>)
+[http://technet.microsoft.com/en-us/library/cc816596(v=ws.10).aspx](http://technet.microsoft.com/en-us/library/cc816596(v=ws.10).aspx)
 
 [http://support.microsoft.com/kb/2218556](http://support.microsoft.com/kb/2218556)

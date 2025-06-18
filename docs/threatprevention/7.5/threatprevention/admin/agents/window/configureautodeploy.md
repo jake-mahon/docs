@@ -8,7 +8,7 @@ Follow the steps to auto deploy the Agent.
 **Step 1 –** Click **Agents** in the left pane to launch the Agents interface. Then click
 **Configure Auto Deploy** to launch the Configure Auto Deploy window.
 
-![Configure Auto Deploy window](../../../../../../../static/img/product_docs/threatprevention/threatprevention/admin/agents/window/autodeploy.webp)
+![Configure Auto Deploy window](/img/product_docs/threatprevention/threatprevention/admin/agents/window/autodeploy.webp)
 
 **Step 2 –** Select the **Enable Auto Deploy** checkbox to enable the following configuration
 options:
@@ -24,7 +24,7 @@ options:
         - Textbox – Enter the desired installation location, e.g. d:\myagent
     - Safe Mode – If selected, the Agent checks LSASS versions on start up. Any changes in LSASS
       since the previous start prevents the Windows AD Events monitoring module from loading. See
-      the [Agent Safe Mode](../safemode.md) topic for additional information.
+      the [Agent Safe Mode](/docs/threatprevention/7.5/threatprevention/admin/agents/safemode.md) topic for additional information.
     - EM IP Address/Name – Displays the IP address of the machine where Enterprise Manager is
       installed
     - Port – Displays the port the Enterprise Manager uses to communicate with the Agent

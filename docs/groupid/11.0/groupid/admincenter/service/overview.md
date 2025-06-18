@@ -33,7 +33,7 @@ different web servers. For example, you can host one Data service in native IIS 
 Docker.
 
 To launch IIS on a machine, see
-[Opening IIS Manager](<https://docs.microsoft.com/en-us/previous-versions/iis/6.0-sdk/ms525920(v=vs.90)>).
+[Opening IIS Manager](https://docs.microsoft.com/en-us/previous-versions/iis/6.0-sdk/ms525920(v=vs.90)).
 
 ![in_iis](/img/versioned_docs/groupid_11.0/groupid/admincenter/portal/in_iis.webp)
 

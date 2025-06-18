@@ -46,7 +46,7 @@ will prevent them from using Directory Manager.
 
 **See Also**
 
-- [Authentication Policy](authpolicy.md)
-- [Configure Second Factor Authentication](../../setupauth/sfa.md)
-- [Configure Multifactor Authentication](../../setupauth/mfa.md)
-- [Set Up Authentication Types](../../setupauth/overview.md)
+- [Authentication Policy](/docs/groupid/11.1/groupid/admincenter/identitystore/configure/authpolicy.md)
+- [Configure Second Factor Authentication](/docs/groupid/11.1/groupid/admincenter/setupauth/sfa.md)
+- [Configure Multifactor Authentication](/docs/groupid/11.1/groupid/admincenter/setupauth/mfa.md)
+- [Set Up Authentication Types](/docs/groupid/11.1/groupid/admincenter/setupauth/overview.md)

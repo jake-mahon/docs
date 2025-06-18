@@ -3,7 +3,7 @@
 This report lists the properties of databases and database snapshots hosted on the selected SQL
 Server instance. Use this report for your SQL Server database inventory.
 
-![sqlserverdatabases_thumb_0_0](../../../../../../../../static/img/product_docs/auditor/auditor/admin/reports/types/stateintime/sqlserverdatabases_thumb_0_0.webp)
+![sqlserverdatabases_thumb_0_0](/img/product_docs/auditor/auditor/admin/reports/types/stateintime/sqlserverdatabases_thumb_0_0.webp)
 
 ## Reported data
 

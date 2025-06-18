@@ -7,18 +7,18 @@ Router policy or collection.
 **NOTE:** The Browser Router node is only visible with the latest Admin Console MSI installed on
 your management station.
 
-![about_policypak_browser_router](../../../../static/img/product_docs/policypak/policypak/browserrouter/about_policypak_browser_router.webp)
+![about_policypak_browser_router](/img/product_docs/policypak/policypak/browserrouter/about_policypak_browser_router.webp)
 
 All Endpoint Policy Manager Browser Router policies must always reside within collections. There are
 two steps for this.
 
-![about_policypak_browser_router_1](../../../../static/img/product_docs/policypak/policypak/browserrouter/about_policypak_browser_router_1.webp)
+![about_policypak_browser_router_1](/img/product_docs/policypak/policypak/browserrouter/about_policypak_browser_router_1.webp)
 
 **Step 1 –** Create and name a collection.
 
 **Step 2 –** Put Browser Router policies (or other collections) inside the collection.
 
-![about_policypak_browser_router_2](../../../../static/img/product_docs/policypak/policypak/browserrouter/about_policypak_browser_router_2.webp)
+![about_policypak_browser_router_2](/img/product_docs/policypak/policypak/browserrouter/about_policypak_browser_router_2.webp)
 
 You can create collections and policies within collections on either the User or Computer side (or
 both). Endpoint Policy Manager Browser Router has a precedence order if you decide to have multiple
@@ -26,41 +26,41 @@ policies, collections, or GPOs, or when you choose to use a "on-Group Policy met
 settings.
 
 For more in formation on this, please see the section on
-[Understanding Processing Order and Precedence](processorderprecedence.md).
+[Understanding Processing Order and Precedence](/docs/policypak/policypak/browserrouter/processorderprecedence.md).
 
 To complete the Quickstart examples, we recommend creating a collection on the User side. Next,,
 create a new Browser Router policy, similar to the one shown below. In this example, we are routing
 all requests for www.microsoft.com to Internet Explorer.
 
-![about_policypak_browser_router_3](../../../../static/img/product_docs/policypak/policypak/browserrouter/about_policypak_browser_router_3.webp)
+![about_policypak_browser_router_3](/img/product_docs/policypak/policypak/browserrouter/about_policypak_browser_router_3.webp)
 
 Once you click **OK**, you'll get an entry such as the one shown below.
 
-![about_policypak_browser_router_4](../../../../static/img/product_docs/policypak/policypak/browserrouter/about_policypak_browser_router_4.webp)
+![about_policypak_browser_router_4](/img/product_docs/policypak/policypak/browserrouter/about_policypak_browser_router_4.webp)
 
 If you'd like to follow along, create two more Browser Router policies in the same collection. In
 the next example, we will route www.GPanswers.com to Firefox.
 
-![about_policypak_browser_router_5](../../../../static/img/product_docs/policypak/policypak/browserrouter/about_policypak_browser_router_5.webp)
+![about_policypak_browser_router_5](/img/product_docs/policypak/policypak/browserrouter/about_policypak_browser_router_5.webp)
 
 Click OK to save the entry.
 
 Create another policy to route \*.policypak.com to Edge.
 
-![about_policypak_browser_router_6](../../../../static/img/product_docs/policypak/policypak/browserrouter/about_policypak_browser_router_6.webp)
+![about_policypak_browser_router_6](/img/product_docs/policypak/policypak/browserrouter/about_policypak_browser_router_6.webp)
 
 Last, create an entry for **New Default Browser**.
 
-![about_policypak_browser_router_7](../../../../static/img/product_docs/policypak/policypak/browserrouter/about_policypak_browser_router_7.webp)
+![about_policypak_browser_router_7](/img/product_docs/policypak/policypak/browserrouter/about_policypak_browser_router_7.webp)
 
 After you do this, a dialog box with limited options appear. You can only choose a default browser,
 which will be Chrome.
 
-![about_policypak_browser_router_8](../../../../static/img/product_docs/policypak/policypak/browserrouter/about_policypak_browser_router_8.webp)
+![about_policypak_browser_router_8](/img/product_docs/policypak/policypak/browserrouter/about_policypak_browser_router_8.webp)
 
 When you've finished these actions, your entries will resemble these.
 
-![about_policypak_browser_router_9](../../../../static/img/product_docs/policypak/policypak/browserrouter/about_policypak_browser_router_9.webp)
+![about_policypak_browser_router_9](/img/product_docs/policypak/policypak/browserrouter/about_policypak_browser_router_9.webp)
 
 Below is an explanation of each column in the editor:
 
@@ -83,7 +83,7 @@ Wordpad document, and typed in each URL (www.microsoft.com, www.gpanswers.com,
 that is unrelated to anything, such as www.abc.com. Based on the rules, the correct browser is
 opened for each URL.
 
-![about_policypak_browser_router_10](../../../../static/img/product_docs/policypak/policypak/browserrouter/about_policypak_browser_router_10.webp)
+![about_policypak_browser_router_10](/img/product_docs/policypak/policypak/browserrouter/about_policypak_browser_router_10.webp)
 
 Notice that since there was no rule for www.abc.com, the overriding Default Browser rule took effect
 and launched Internet Explorer.

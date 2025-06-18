@@ -51,7 +51,7 @@ function Get-MgGraphAllPages {
                 }
             }
         } 
-        while (-Not ([string]::IsNullOrWhiteSpace($currentNextLink)))
+        while (-Not ([string]::IsNullOrWhiteSpace($currentNextLink)
         {
             # Make the call to get the next page
             try {
@@ -109,5 +109,5 @@ Out-Both @($devices).Count
 Disconnect-MgGraph | Out-Null
 ```
 
-See the [MDM Intune company name troubleshooting](../../video/license/mdm.md) video for additional
+See the [MDM Intune company name troubleshooting](/docs/policypak/policypak/video/license/mdm.md) video for additional
 information.

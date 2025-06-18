@@ -25,4 +25,4 @@ Standard blueprint.
 A simple Wizard UI walks you through the process so anyone can be building their own personalized
 baseline configuration and comparing other devices within a few minutes.
 
-![baselineoverview](../../../../../static/img/product_docs/changetracker/changetracker/baseline/baselineoverview.webp)
+![baselineoverview](/img/product_docs/changetracker/changetracker/baseline/baselineoverview.webp)

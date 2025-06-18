@@ -4,7 +4,7 @@ Details the effective permissions that the specified account has on the SQL Serv
 selected type. Use this report to review the permissions granted to users through your SQL Server
 objects.
 
-![accountpermissionssqlserver_thumb_0_0](../../../../../../../../static/img/product_docs/auditor/auditor/admin/reports/types/stateintime/accountpermissionssqlserver_thumb_0_0.webp)
+![accountpermissionssqlserver_thumb_0_0](/img/product_docs/auditor/auditor/admin/reports/types/stateintime/accountpermissionssqlserver_thumb_0_0.webp)
 
 ## Reported data
 
@@ -29,7 +29,7 @@ The detailed information under summary includes:
   reporting on the database hosted on selected SQL Server, the path will be as follows:
   _Databases\database_name_.
 - **Object type** — monitored object type; for the full list of supported object types, refer to
-  [SQL Server](../../../../configuration/sqlserver/overview.md) topic.
+  [SQL Server](/docs/auditor/10.7/auditor/configuration/sqlserver/overview.md) topic.
 - **Means granted** —how access permissions were granted to this account, e.g., _Direct permissions_
   or _Server role permissions_.
 - **Effective grant** —the effective set of permissions granted to this account on the selected
@@ -47,7 +47,7 @@ This report has the following filters:
   the report includes data obtained during the latest data collection session (_Current Session_).
   To report on other snapshots, make sure they are available through import. For details, see
   **Manage historical snapshots** option description in
-  [SQL Server](../../../monitoringplans/sqlserver/overview.md)
+  [SQL Server](/docs/auditor/10.7/auditor/admin/monitoringplans/sqlserver/overview.md)
 - **Item**— name of the SQL Server instance monitored with selected monitoring plan.
 - **Object path** — path to the monitored object, as formatted by Netwrix Auditor in the activity
   records (see '_What_' field in the reports, search results and activity summaries). Wildcard (\*)
@@ -78,8 +78,8 @@ This report has the following filters:
 ## Related reports
 
 - Clicking a Object permissions link opens the
-  [Object Permissions in SQL Server](sqlobjectpermissions.md) report.
-- Clicking a Means granted link opens the **[SQL Server Means Granted](sqlmeansgranted.md)** report.
+  [Object Permissions in SQL Server](/docs/auditor/10.7/auditor/admin/reports/types/stateintime/sqlobjectpermissions.md) report.
+- Clicking a Means granted link opens the **[SQL Server Means Granted](/docs/auditor/10.7/auditor/admin/reports/types/stateintime/sqlmeansgranted.md)** report.
 
 ## Usage example
 

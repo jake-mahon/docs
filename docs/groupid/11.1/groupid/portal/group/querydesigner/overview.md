@@ -10,7 +10,7 @@ Microsoft SQL Server.
 If the administrator has defined a Query Designer access policy for your role, you can create
 queries as per the defined policy. A banner is displayed on the Query Designer dialog box indicating
 that the administrator has implemented a policy for your role. See the
-[ Query Designer Policy](../../../admincenter/securityrole/policy/querydesigner.md) topic.
+[ Query Designer Policy](/docs/groupid/11.1/groupid/admincenter/securityrole/policy/querydesigner.md) topic.
 
 The query language depends on the identity store type.
 
@@ -85,13 +85,13 @@ View the provider query in the LDAP Query box.
 
 The Query Designer has the following tabs:
 
-- [Query Designer - General tab](general.md)
-- [Query Designer - Storage tab](storage.md)
-- [Query Designer - Filter Criteria tab](filtercriteria.md)
-- [Query Designer - Include/Exclude tab](includeexclude.md)
-- [Query Designer - Database tab](database.md)
-- [Query Designer - Script tab](script.md)
-- [Query Designer - Password Expiry Options tab](passwordexpiryoptions.md)[Query Designer - Password Expiry Options tab](passwordexpiryoptions.md)
+- [Query Designer - General tab](/docs/groupid/11.1/groupid/portal/group/querydesigner/general.md)
+- [Query Designer - Storage tab](/docs/groupid/11.1/groupid/portal/group/querydesigner/storage.md)
+- [Query Designer - Filter Criteria tab](/docs/groupid/11.1/groupid/portal/group/querydesigner/filtercriteria.md)
+- [Query Designer - Include/Exclude tab](/docs/groupid/11.1/groupid/portal/group/querydesigner/includeexclude.md)
+- [Query Designer - Database tab](/docs/groupid/11.1/groupid/portal/group/querydesigner/database.md)
+- [Query Designer - Script tab](/docs/groupid/11.1/groupid/portal/group/querydesigner/script.md)
+- [Query Designer - Password Expiry Options tab](/docs/groupid/11.1/groupid/portal/group/querydesigner/passwordexpiryoptions.md)[Query Designer - Password Expiry Options tab](/docs/groupid/11.1/groupid/portal/group/querydesigner/passwordexpiryoptions.md)
   (only available for Smart Groups with a password expiry condition)
 
 NOTE: The **Storage** and **Script** tabs are not available for groups in a Microsoft Entra ID

@@ -6,13 +6,13 @@ their goals through standard Windows processes. The result with one tool (the Ne
 tool) is shown here; the other tools will have the same result.
 
 **NOTE:** See the
-[Endpoint Policy Manager Least Priv Manager Tools Setup](../../../video/leastprivilege/toolssetup.md)
+[Endpoint Policy Manager Least Priv Manager Tools Setup](/docs/policypak/policypak/video/leastprivilege/toolssetup.md)
 video for an overview how to set up elevation for the Least Privilege Manager Helper Tools.
 
 ![A screenshot of a computer
 
 Description automatically
-generated](../../../../../../static/img/product_docs/policypak/policypak/leastprivilege/tool/helper/elevating_least_privilege.webp)
+generated](/img/product_docs/policypak/policypak/leastprivilege/tool/helper/elevating_least_privilege.webp)
 
 In order to elevate the Endpoint Policy Manager Least Privilege Manager Helper Tools so that they
 will function correctly on your endpoints, you can use our preconfigured rules, which are part of
@@ -21,12 +21,12 @@ the guidance on the Endpoint Policy Manager Portal.
 ![A screenshot of a computer
 
 Description automatically
-generated](../../../../../../static/img/product_docs/policypak/policypak/leastprivilege/tool/helper/elevating_least_privilege.webp)
+generated](/img/product_docs/policypak/policypak/leastprivilege/tool/helper/elevating_least_privilege.webp)
 
 After that, when the client is updated to acquire the new rules, the Endpoint Policy Manager Least
 Privilege Manager Helper Tools will run as expected.
 
 **NOTE:** For more information on how to get the Helper Tools as shortcuts to Desktops and other
 locations, please see
-the[Getting the helper tools as desktop shortcuts](../../../video/leastprivilege/helperdesktopshortcut.md)
+the[Getting the helper tools as desktop shortcuts](/docs/policypak/policypak/video/leastprivilege/helperdesktopshortcut.md)
 video.

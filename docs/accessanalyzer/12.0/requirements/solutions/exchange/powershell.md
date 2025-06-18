@@ -12,7 +12,7 @@ assigned to these job groups requires the following permissions:
 -   2. CAS Metrics
 
     - This job group also requires remote connection permissions for the SMARTLog Data Collector.
-      See the [Exchange Remote Connections Permissions](remoteconnections.md) topic for additional
+      See the [Exchange Remote Connections Permissions](/docs/accessanalyzer/12.0/requirements/solutions/exchange/remoteconnections.md) topic for additional
       information.
 
 -   3. Databases
@@ -34,7 +34,7 @@ assigned to these job groups requires the following permissions:
 -   8. Exchange Online
 
     - This job group uses Modern Authentication to target Exchange Online. See the
-      [Exchange Online Auditing Configuration](../../../config/exchangeonline/access.md) topic
+      [Exchange Online Auditing Configuration](/docs/accessanalyzer/12.0/config/exchangeonline/access.md) topic
       for additional information.
 
 ## Permissions Explained
@@ -98,7 +98,7 @@ Console currently resides. For Remote PowerShell, the data collector will gather
 the Exchange Organization to which the Remote PowerShell connection was made. This refers to the
 server entered in the Client Access Server (CAS) field of the global configuration from the
 **Settings** > **Exchange** node or on the Scope Page of the data collector wizard. See the
-[ExchangePS: Scope](../../../admin/datacollector/exchangeps/scope.md) topic for additional
+[ExchangePS: Scope](/docs/accessanalyzer/12.0/admin/datacollector/exchangeps/scope.md) topic for additional
 information.
 
 Scope by Database
@@ -109,7 +109,7 @@ Exchange Organization in which the Access Analyzer Console currently resides, as
 return information about those databases. For Remote PowerShell, the data collector will return
 databases in the Scope by DB page of the data collector wizard for the Exchange Forest, as well as,
 only return information about those databases. See the
-[ExchangePS: Scope by DB](../../../admin/datacollector/exchangeps/scopedatabases.md) topic for
+[ExchangePS: Scope by DB](/docs/accessanalyzer/12.0/admin/datacollector/exchangeps/scopedatabases.md) topic for
 additional information.
 
 Scope by Mailbox
@@ -120,7 +120,7 @@ the Exchange Forest in which the Access Analyzer Console currently resides, as w
 information about those mailboxes. For Remote PowerShell, the data collector will return mailboxes
 in the Scope by Mailboxes page of the data collector wizard for the Exchange Forest, as well as,
 only return information about those mailboxes. See the
-[ExchangePS: Scope by Mailboxes](../../../admin/datacollector/exchangeps/scopemailboxes.md) topic
+[ExchangePS: Scope by Mailboxes](/docs/accessanalyzer/12.0/admin/datacollector/exchangeps/scopemailboxes.md) topic
 for additional information.
 
 Scope by Server
@@ -141,7 +141,7 @@ resides, as well as, only return information about those public folders. For Rem
 data collector will return public folders in the Scope by Public Folders page of the data collector
 wizard for the Exchange Forest, as well as, only return information about those public folders. See
 the
-[ExchangePS: Scope by Public Folders](../../../admin/datacollector/exchangeps/scopepublicfolders.md)
+[ExchangePS: Scope by Public Folders](/docs/accessanalyzer/12.0/admin/datacollector/exchangeps/scopepublicfolders.md)
 topic for additional information.
 
 ## Enable Remote PowerShell for ExchangePS Data Collector
@@ -174,12 +174,12 @@ Follow these steps to enable Windows Authentication.
 **Step 1 –** On the server where Remote PowerShell was enabled, open the Internet Information
 Services (IIS) Manager.
 
-![IIS Authentication Open Feature](../../../../../../static/img/product_docs/accessanalyzer/requirements/solutions/exchange/iismanager.webp)
+![IIS Authentication Open Feature](/img/product_docs/accessanalyzer/requirements/solutions/exchange/iismanager.webp)
 
 **Step 2 –** Traverse to the **PowerShell** Virtual Directory under the **Default Web Site**. Select
 **Authentication** and click **Open Feature**.
 
-![IIS Enable Windows Authentication](../../../../../../static/img/product_docs/accessanalyzer/requirements/solutions/exchange/iismanagerauth.webp)
+![IIS Enable Windows Authentication](/img/product_docs/accessanalyzer/requirements/solutions/exchange/iismanagerauth.webp)
 
 **Step 3 –** Right-click on **Windows Authentication** and select **Enable**.
 
@@ -195,7 +195,7 @@ roles.
 
 **Step 2 –** Add a new role group by clicking on the + button, and the New Role Group window opens.
 
-![New role group window](../../../../../../static/img/product_docs/accessanalyzer/requirements/solutions/exchange/rolegroup.webp)
+![New role group window](/img/product_docs/accessanalyzer/requirements/solutions/exchange/rolegroup.webp)
 
 **Step 3 –** Configure the new role group with the following settings:
 
@@ -225,11 +225,11 @@ for Exchange. See the following Microsoft articles:
   [Enable mailbox auditing in Office 365](https://technet.microsoft.com/en-us/library/dn879651.aspx)
   article
 - Exchange 2016 – Exchange 2019 –
-  [Enable or disable mailbox audit logging for a mailbox](<https://technet.microsoft.com/en-us/library/ff461937(v=exchg.160).aspx>)
+  [Enable or disable mailbox audit logging for a mailbox](https://technet.microsoft.com/en-us/library/ff461937(v=exchg.160).aspx)
   article
 - Exchange 2013 –
-  [Enable or disable mailbox audit logging for a mailbox](<https://technet.microsoft.com/en-us/library/ff461937(v=exchg.150).aspx>)
+  [Enable or disable mailbox audit logging for a mailbox](https://technet.microsoft.com/en-us/library/ff461937(v=exchg.150).aspx)
   article
 - Exchange 2010 –
-  [Enable or Disable Mailbox Audit Logging for a Mailbox](<https://technet.microsoft.com/en-us/library/ff461937(v=exchg.141).aspx>)
+  [Enable or Disable Mailbox Audit Logging for a Mailbox](https://technet.microsoft.com/en-us/library/ff461937(v=exchg.141).aspx)
   article

@@ -3,8 +3,8 @@
 Use this API to create a new data source.
 
 See the
-[Create a Data Source for SQL Server](../../admincenter/datasource/create.md#create-a-data-source-for-sql-server)
-section of the [Create a Data Source](../../admincenter/datasource/create.md) topic for creating an
+[Create a Data Source for SQL Server](/docs/groupid/11.1/groupid/admincenter/datasource/create.md#create-a-data-source-for-sql-server)
+section of the [Create a Data Source](/docs/groupid/11.1/groupid/admincenter/datasource/create.md) topic for creating an
 SQL data source using Directory Manager.
 
 ## Endpoint

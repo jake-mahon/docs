@@ -38,7 +38,7 @@ report you generated and click on the template that you used.
 The template page will list the generated report.
 
 Step 3 – Click the **Edit** icon next to the report and follow
-[In Step 1 of generating a report:](generate.md). Make the relevant changes and click Finish to
+[In Step 1 of generating a report:](/docs/groupid/11.1/groupid/portal/report/generate.md). Make the relevant changes and click Finish to
 generate the report.
 
 ## Download a Report

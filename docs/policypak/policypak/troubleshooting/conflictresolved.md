@@ -13,7 +13,7 @@ Other sources are XML files placement; which happens automatically when you use:
 Those policy XML files get unwrapped to` c:\programData\PolicyPak\XMLData` into various folders seen
 here: Cloud, Computer, Groups, Users.
 
-![717_1_img-01](../../../../static/img/product_docs/policypak/policypak/troubleshooting/717_1_img-01.webp)
+![717_1_img-01](/img/product_docs/policypak/policypak/troubleshooting/717_1_img-01.webp)
 
 Again the only time you have to really worry about conflicts is when you attempt to set the EXACT
 same value would you have a problem. For instance, you decide to create an RDP File on the desktop
@@ -41,4 +41,4 @@ individual policies. As such you might see an undesired "flip flop" behavior whe
 
 Security Settings are delivered from multiple sources like Group Policy and Endpoint Policy Manager
 Cloud. For details on this particular problem see this existing KB:
-[Why do I sometimes see Endpoint Policy Manager Cloud security settings and sometimes see on-prem GPO security settings?](gpoexport/onpremisecloud.md)
+[Why do I sometimes see Endpoint Policy Manager Cloud security settings and sometimes see on-prem GPO security settings?](/docs/policypak/policypak/troubleshooting/gpoexport/onpremisecloud.md)

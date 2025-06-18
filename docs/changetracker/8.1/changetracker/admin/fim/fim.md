@@ -11,8 +11,8 @@ to monitoring is necessary, i.e. where the endpoint is a firewall, router, switc
 preferred to using an agent i.e. to monitor Windows or Linux where a quick, software-free
 implementation is desirable, Netwrix Change Tracker can also operate using Agentless FIM.
 
-File change events can be viewed from the [Events Tab](../tabs/events.md). See the
-[Dashboard Tab](../tabs/dashboardoverview.md) topic for additional information on how to view FIM
+File change events can be viewed from the [Events Tab](/docs/changetracker/8.1/changetracker/admin/tabs/events.md). See the
+[Dashboard Tab](/docs/changetracker/8.1/changetracker/admin/tabs/dashboardoverview.md) topic for additional information on how to view FIM
 change events.
 
 **NOTE:** The Events tab is designed to handle large enterprise estates with potentially thousands

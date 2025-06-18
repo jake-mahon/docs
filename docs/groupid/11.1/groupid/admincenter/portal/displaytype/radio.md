@@ -42,7 +42,7 @@ A few radio display types used in the default portal template are:
     4. Enter a description for the radio button in the **Description** box.
     5. Select a security role in the **Visibility** drop-down list. The radio button will be visible
        to users of this role and roles with a priority value higher than this role. See
-       [Priority](../../securityrole/manage.md).  
+       [Priority](/docs/groupid/11.1/groupid/admincenter/securityrole/manage.md).  
        Select _Never_ to hide the radio button from all users.
     6. Click **OK**. The radio button is listed in the **Values** area on the **New Display Type**
        pane.
@@ -62,6 +62,6 @@ A few radio display types used in the default portal template are:
 
 **See Also**
 
-- [Design a Portal with Display Types](overview.md)
-- [Display Type Categories](categories.md)
-- [Define Custom Display Types](custom.md)
+- [Design a Portal with Display Types](/docs/groupid/11.1/groupid/admincenter/portal/displaytype/overview.md)
+- [Display Type Categories](/docs/groupid/11.1/groupid/admincenter/portal/displaytype/categories.md)
+- [Define Custom Display Types](/docs/groupid/11.1/groupid/admincenter/portal/displaytype/custom.md)

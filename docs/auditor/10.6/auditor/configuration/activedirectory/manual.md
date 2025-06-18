@@ -12,8 +12,8 @@ To configure your domain for monitoring manually, you will need:
 
 **NOTE:** If these tools are not installed, refer to the following Microsoft articles:
 
-- [Group Policy Management Console](<https://learn.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-2012-r2-and-2012/dn265969(v=ws.11)>)
-- [ADSI Edit](<https://learn.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-2003/cc773354(v=ws.10)?redirectedfrom=MSDN>)
+- [Group Policy Management Console](https://learn.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-2012-r2-and-2012/dn265969(v=ws.11))
+- [ADSI Edit](https://learn.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-2003/cc773354(v=ws.10)?redirectedfrom=MSDN)
 
 Follow the steps to configure your domain for monitoring.
 

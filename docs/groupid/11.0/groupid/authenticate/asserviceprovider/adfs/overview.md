@@ -22,7 +22,7 @@ server.
     - Configure the types of claims that are supported by AD FS.
 
 To learn more about the AD FS console, see
-[AD FS Console](<https://learn.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/gg557729(v=ws.10)?redirectedfrom=MSDN>).
+[AD FS Console](https://learn.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/gg557729(v=ws.10)?redirectedfrom=MSDN).
 
 ## Configuration Steps
 

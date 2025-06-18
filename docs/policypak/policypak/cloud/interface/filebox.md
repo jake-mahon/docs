@@ -7,16 +7,16 @@ The **File Box** tab provides access to two features:
 - ADMX Files - files with your own ADMX settings for custom applications that you can upload and
   that Endpoint Policy Manager (the company) doesn't automatically provide for you.
 
-![web_interface_and_controls_44_625x138](../../../../../static/img/product_docs/policypak/policypak/cloud/interface/web_interface_and_controls_44_625x138.webp)
+![web_interface_and_controls_44_625x138](/img/product_docs/policypak/policypak/cloud/interface/web_interface_and_controls_44_625x138.webp)
 
 ## External Links
 
 Video: You can learn more about external links and Endpoint Policy Manager Remote Work Delivery
 Manager from this video:
-[Deploy software with Endpoint Policy Manager Cloud](../../video/remoteworkdelivery/cloud.md).
+[Deploy software with Endpoint Policy Manager Cloud](/docs/policypak/policypak/video/remoteworkdelivery/cloud.md).
 
 You can learn more about the external links function in
-[How to use Remote Work Delivery Manager to apply Firewall policies](../remoteworkdeliverymanager.md).
+[How to use Remote Work Delivery Manager to apply Firewall policies](/docs/policypak/policypak/cloud/remoteworkdeliverymanager.md).
 But in short, you can use public web services, like Amazon S3, to house software and then deploy it
 to your remote PCs. However, Endpoint Policy Manager Cloud needs to know about this link before it
 can be used. For this reason, you need to select the **Add external link** action and then specify
@@ -25,12 +25,12 @@ After you do this, click **Validate Link**. Finally, click **Save** to continue,
 be available within the in-cloud editor for Endpoint Policy Manager Cloud Remote Work Delivery
 Manager.
 
-![web_interface_and_controls_45_499x230](../../../../../static/img/product_docs/policypak/policypak/cloud/interface/web_interface_and_controls_45_499x230.webp)
+![web_interface_and_controls_45_499x230](/img/product_docs/policypak/policypak/cloud/interface/web_interface_and_controls_45_499x230.webp)
 
 ## ADMX Files
 
 Video: You can see an overview of this section in the video:
-[Endpoint Policy ManagerCloud: Upload and use your own ADMX files to Endpoint Policy Manager Cloud](../../video/cloud/admxfiles.md).
+[Endpoint Policy ManagerCloud: Upload and use your own ADMX files to Endpoint Policy Manager Cloud](/docs/policypak/policypak/video/cloud/admxfiles.md).
 
 While Endpoint Policy Manager (the company) automatically keeps many important ADMX settings
 automatically updated for you, there could be a time when you have a third-party or custom
@@ -44,21 +44,21 @@ In this example, we'll use the v10.1 templates, but you can do the same process 
 which has both ADMX and ADML formatted files. In short, you need to ensure that your ZIP file has
 exactly two files in it: an ADMX file and an ADML file.
 
-![web_interface_and_controls_46_624x346](../../../../../static/img/product_docs/policypak/policypak/cloud/interface/web_interface_and_controls_46_624x346.webp)
+![web_interface_and_controls_46_624x346](/img/product_docs/policypak/policypak/cloud/interface/web_interface_and_controls_46_624x346.webp)
 
 Once you have this ZIP file downloaded from your manufacturer or compiled on your own, you are ready
 to use it with the **Upload ADMX Files** action. After selecting **Upload ADMX Files**, select the
 file. Then, change the display path to describe the ADMX file, and trim anything not useful in the
 name.
 
-![web_interface_and_controls_47_624x396](../../../../../static/img/product_docs/policypak/policypak/cloud/interface/web_interface_and_controls_47_624x396.webp)
+![web_interface_and_controls_47_624x396](/img/product_docs/policypak/policypak/cloud/interface/web_interface_and_controls_47_624x396.webp)
 
 Click **Save** to continue. Now you can see your ADMX settings, and you can also peruse your upload
 to see all the settings.
 
-![web_interface_and_controls_48_625x200](../../../../../static/img/product_docs/policypak/policypak/cloud/interface/web_interface_and_controls_48_625x200.webp)
+![web_interface_and_controls_48_625x200](/img/product_docs/policypak/policypak/cloud/interface/web_interface_and_controls_48_625x200.webp)
 
 Now you're ready to use the uploaded ADMX and ADML files when using the Endpoint Policy Manager
 Cloud in-cloud ADMX editors to create administrative template policies.
 
-![web_interface_and_controls_49_624x318](../../../../../static/img/product_docs/policypak/policypak/cloud/interface/web_interface_and_controls_49_624x318.webp)
+![web_interface_and_controls_49_624x318](/img/product_docs/policypak/policypak/cloud/interface/web_interface_and_controls_49_624x318.webp)

@@ -91,7 +91,7 @@ On the **Object, Fields and Mapping** page:
         1. On the **Transform** dialog box, select _Static - assign a static value_ from the **Set
            the destination field to** box.
         2. Click
-           [Auto-Generate Unique, Complex Passwords](../transformation/autogenerateuniquepassword.md).
+           [Auto-Generate Unique, Complex Passwords](/docs/groupid/11.1/groupid/portal/synchronize/transformation/autogenerateuniquepassword.md).
         3. On the Password Complexity Options dialog box, enter 10 in the **Password Length** box.
         4. Clear the **Special symbols** check box.
         5. Click **Transform.**

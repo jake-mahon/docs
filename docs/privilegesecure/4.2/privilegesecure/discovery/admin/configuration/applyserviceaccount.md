@@ -70,7 +70,7 @@ machines within Privilege Secure.
 In order to populate the Provision Account column the following formula can be entered.
 
 =IF(ISNA(INDEX('Admin List'!D:D,MATCH(1,(B2= 'Admin List'!B:B)\*("Domain Admins"='Admin
-List'!D:D),0))),"","Service Account;true")
+List'!D:D),0),"","Service Account;true")
 
 This formula must be entered using `<Ctrl>` `<Shift>` `<Enter>` (unless using Office 365). This will
 enter the formula as an array formula and the {} curly braces will appear around the formula. This
@@ -124,7 +124,7 @@ Creating the upload file:
   Computer Data tab:
 
 =IF(ISNA(INDEX('Admin List'!D:D,MATCH(1,(B2= 'Admin
-List'!$B$1:$B$40000)\*("TARGET_GROUP"='Admin List'!$D$1:$D$40000),0))),"","Service
+List'!$B$1:$B$40000)\*("TARGET_GROUP"='Admin List'!$D$1:$D$40000),0),"","Service
 Account;true,Service Account2;true")
 
 - Change TARGET_GROUP to the group that contains the service accounts.

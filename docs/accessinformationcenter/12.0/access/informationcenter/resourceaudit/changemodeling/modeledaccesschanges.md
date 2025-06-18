@@ -8,7 +8,7 @@ changes have no impact on the environment. This report includes the following ta
 - Activity – Displays additional information on recent activity performed by the trustee which would
   have been impacted by the modeled change
 
-![Modeled Access Changes report](../../../../../../../static/img/product_docs/accessinformationcenter/access/informationcenter/resourceaudit/changemodeling/modeledaccesschanges.webp)
+![Modeled Access Changes report](/img/product_docs/accessinformationcenter/access/informationcenter/resourceaudit/changemodeling/modeledaccesschanges.webp)
 
 This report is comprised of the following columns:
 
@@ -86,7 +86,7 @@ will be blank if any of the following are true:
 - The FSAC jobs within Access Analyzer have not been run
 - There were no operation events logged for the selected trustee
 
-![Activity Table](../../../../../../../static/img/product_docs/accessinformationcenter/access/informationcenter/resourceaudit/sensitivecontent/activitytable.webp)
+![Activity Table](/img/product_docs/accessinformationcenter/access/informationcenter/resourceaudit/sensitivecontent/activitytable.webp)
 
 This table is comprised of the following columns:
 

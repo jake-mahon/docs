@@ -7,7 +7,7 @@ configure notifications.
 Click **Configuration** in the left pane. Then click the **Notification tab** on the Configuration
 page to open the Notification page.
 
-![Notifications Page](../../../../../../static/img/product_docs/1secure/admin/notifications.webp)
+![Notifications Page](/img/product_docs/1secure/admin/notifications.webp)
 
 Follow the steps to configure notifications.
 

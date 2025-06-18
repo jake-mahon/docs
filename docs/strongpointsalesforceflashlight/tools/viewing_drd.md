@@ -13,4 +13,4 @@ To use the entity diagram:
    relationships.
 5. Click **Open Record** to open the customization record for the item.
 
-![entity_diagram_800x309](../../../static/img/product_docs/strongpointsalesforceflashlight/tools/entity_diagram_800x309.webp)
+![entity_diagram_800x309](/img/product_docs/strongpointsalesforceflashlight/tools/entity_diagram_800x309.webp)

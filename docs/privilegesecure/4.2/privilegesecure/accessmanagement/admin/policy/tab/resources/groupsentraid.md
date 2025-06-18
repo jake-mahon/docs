@@ -7,7 +7,7 @@ selected resource.
 domain resource (if the on-premises domain has been synced by Privilege Secure). This view will show
 cloud-only EntraID groups.
 
-![Groups Tab Entra ID](../../../../../../../../../static/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/tab/resources/groupsazuread.webp)
+![Groups Tab Entra ID](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/tab/resources/groupsazuread.webp)
 
 The table has the following columns:
 

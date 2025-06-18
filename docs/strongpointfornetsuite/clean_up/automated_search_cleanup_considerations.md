@@ -1,7 +1,7 @@
 # Automated Search Clean Up Considerations
 
 This list describes some of the special cases encountered when using the
-[Automated Search Clean Up](automated_search_cleanup.md) tool
+[Automated Search Clean Up](/docs/strongpointfornetsuite/clean_up/automated_search_cleanup.md) tool
 
 1. When an archived search contains **Date** filters, you must have the same date format preference
    as the Company’s date preference to accurately restore the filter.
@@ -36,4 +36,4 @@ restored:
 - Audit Trail: the restored search is assigned a new Internal ID. The audit trail only contains
   entries for the new Internal ID.
 
-![Search form](../../../static/img/product_docs/strongpointfornetsuite/clean_up/limitation_restoring_searches.webp)
+![Search form](/img/product_docs/strongpointfornetsuite/clean_up/limitation_restoring_searches.webp)

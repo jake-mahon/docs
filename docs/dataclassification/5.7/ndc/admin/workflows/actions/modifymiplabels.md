@@ -10,4 +10,4 @@ prompted to configure related settings
 When finished, click **Next** to proceed with the wizard.
 
 To configure advanced actions or modify action settings, select the workflow and use the Advanced UI
-window. See [Advanced Actions for File System](../advancedwindow/files.md).
+window. See [Advanced Actions for File System](/docs/dataclassification/5.7/ndc/admin/workflows/advancedwindow/files.md).

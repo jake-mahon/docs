@@ -8,18 +8,18 @@ Firefox to compensate.
 New releases of Firefox comes with the setting where we can enable multi-process windows for the
 browsers. See the following screenshot:
 
-![492_1_image001](../../../../../static/img/product_docs/policypak/policypak/troubleshooting/browserrouter/492_1_image001.webp)
+![492_1_image001](/img/product_docs/policypak/policypak/troubleshooting/browserrouter/492_1_image001.webp)
 
 The above screenshot means that its enabled and you should expect the Endpoint Policy Manager
 Browser Router will have problem in routing. To make it working please disable the setting using
 Endpoint Policy Manager's pre-configured Pak for Firefox about:config as illustrated in the
 screenshot:
 
-![492_2_image002](../../../../../static/img/product_docs/policypak/policypak/troubleshooting/browserrouter/492_2_image002.webp)
+![492_2_image002](/img/product_docs/policypak/policypak/troubleshooting/browserrouter/492_2_image002.webp)
 
 So once you check and uncheck the above option it will set the value as false like shown in below
 screenshot:
 
-![492_3_image003](../../../../../static/img/product_docs/policypak/policypak/troubleshooting/browserrouter/492_3_image003.webp)
+![492_3_image003](/img/product_docs/policypak/policypak/troubleshooting/browserrouter/492_3_image003.webp)
 
 You should be all set for now with Endpoint Policy Manager Browser Router. Let us know if otherwise.

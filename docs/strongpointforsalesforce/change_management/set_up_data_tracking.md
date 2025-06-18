@@ -17,7 +17,7 @@ Here are the requirements to set up data tracking:
    **Setup** > **Users** > **Permission Sets** > **Strongpoint Administrator** > **Manage
    Assignments**
 
-    ![You must have these permissions to open the Configuration tool](../../../static/img/product_docs/strongpointforsalesforce/change_management/strongpoint_permissions.webp)
+    ![You must have these permissions to open the Configuration tool](/img/product_docs/strongpointforsalesforce/change_management/strongpoint_permissions.webp)
 
 ## Add Objects to Track
 
@@ -25,7 +25,7 @@ Here are the requirements to set up data tracking:
 2. Click **View All** to expand the app list.
 3. Select **Strongpoint Configuration**. The **Recommended Objects** list is displayed.
 
-    ![Review the recommended objects for data tracking](../../../static/img/product_docs/strongpointforsalesforce/change_management/data_tracking_recommended.webp)
+    ![Review the recommended objects for data tracking](/img/product_docs/strongpointforsalesforce/change_management/data_tracking_recommended.webp)
 
 4. Click the checkbox to select each **Recommended Object** to track.
 5. Set the **Tracking** for each selected Object:
@@ -53,7 +53,7 @@ Here are the requirements to set up data tracking:
 13. Click **Save All Records**.
 14. Wait until the **Deployment Status** is complete, then click **Done**.
 
-    ![Wait for the Deployment Status to complete](../../../static/img/product_docs/strongpointforsalesforce/change_management/data_tracking_deployment.webp)
+    ![Wait for the Deployment Status to complete](/img/product_docs/strongpointforsalesforce/change_management/data_tracking_deployment.webp)
 
 15. Open the App Launcher and return to the **Strongpoint Lightning** app.
 
@@ -62,12 +62,12 @@ Here are the requirements to set up data tracking:
 1. Open **Customizations**.
 2. Enter **CustomField** in the **Search** box.
 
-    ![Open CustomField Tracking](../../../static/img/product_docs/strongpointforsalesforce/change_management/data_tracking_customfield.webp)
+    ![Open CustomField Tracking](/img/product_docs/strongpointforsalesforce/change_management/data_tracking_customfield.webp)
 
 3. Select **CustomField Tracking**.
 4. Select a customization and edit the Data Change Tracking field.
 
-    ![Edit the Data Change Tracking](../../../static/img/product_docs/strongpointforsalesforce/change_management/data_tracking_customfield3.webp)
+    ![Edit the Data Change Tracking](/img/product_docs/strongpointforsalesforce/change_management/data_tracking_customfield3.webp)
 
 5. Click **Save** at the bottom of the form to save your changes.
 
@@ -84,7 +84,7 @@ level for tracked components by adding them to a specific policy.
 4. Click **Add Customizations**.
 5. Enter **(Data Records** in the Search Customization box.
 
-    ![Select the customizations](../../../static/img/product_docs/strongpointfornetsuite/change_management/policy_add_customizations.webp)
+    ![Select the customizations](/img/product_docs/strongpointfornetsuite/change_management/policy_add_customizations.webp)
 
 6. Select the customization to add. Use Shift-click (contiguous items) or Ctrl-click to select
    multiple customizations.
@@ -93,7 +93,7 @@ level for tracked components by adding them to a specific policy.
 
 ## Change Logs
 
-![CPQ Change Log](../../../static/img/product_docs/strongpointforsalesforce/change_management/cpq_discount_change_log.webp)
+![CPQ Change Log](/img/product_docs/strongpointforsalesforce/change_management/cpq_discount_change_log.webp)
 
 **Tracked, Non-Blocking** generates a Compliant Change Log (CL-11674) if there is an approved Change
 Request or a Non-Compliant Change Log (CL-11672) for changes made without an approved Change

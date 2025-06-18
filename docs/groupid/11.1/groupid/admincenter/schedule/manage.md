@@ -112,7 +112,7 @@ Step 6 – On the Edit Schedule page, the Triggers area displays the trigger(s) 
 - To add a new trigger, click **Add Trigger**.
 - To remove a trigger, click **Remove** for it.
 
-Follow step 11 in the [Group Usage Service Schedule](groupusageservice.md) topic to manage triggers.
+Follow step 11 in the [Group Usage Service Schedule](/docs/groupid/11.1/groupid/admincenter/schedule/groupusageservice.md) topic to manage triggers.
 
 Step 7 – Click **Update Schedule**.
 

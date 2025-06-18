@@ -2,7 +2,7 @@
 
 The Result Columns page lists the tables selected on the Input Select page.
 
-![View and Table Creation Analysis Module wizard Result Columns page](../../../../../../static/img/product_docs/accessanalyzer/admin/analysis/sqlviewcreation/columns.webp)
+![View and Table Creation Analysis Module wizard Result Columns page](/img/product_docs/accessanalyzer/admin/analysis/sqlviewcreation/columns.webp)
 
 Expand the table to show its columns. Then, select the checkbox next to the column to include it in
 the resulting table or view. If two data tables are being joined, the resulting table displays at
@@ -45,7 +45,7 @@ The grid provides the following options for formatting the resulting table or vi
     - Descending
 
 **NOTE:** If at least one columns is sorted by value, the **With ties** option is enabled on the
-Result Constraints page. See the [SQLViewCreation: Result Constraints](resultconstraints.md) topic
+Result Constraints page. See the [SQLViewCreation: Result Constraints](/docs/accessanalyzer/12.0/admin/analysis/sqlviewcreation/resultconstraints.md) topic
 for additional information.
 
 After selecting the columns to include in the resulting table or view, click **Next** to further

@@ -9,11 +9,11 @@ To resolve this:
 3. Select **General Preferences**.
 4. Set the **Number of Rows in List Segments** to 1000.
 
-![rowsinlistsegments](../../../static/img/product_docs/strongpointfornetsuite/troubleshooting/rowsinlistsegments.webp)
+![rowsinlistsegments](/img/product_docs/strongpointfornetsuite/troubleshooting/rowsinlistsegments.webp)
 
 If the field is still gray:
 
 1. Scroll down the page to the tab **Overriding Preferences**
 2. Check the box for Number of Rows in List Segments.
 
-![setlinesegments](../../../static/img/product_docs/strongpointfornetsuite/troubleshooting/setlinesegments.webp)
+![setlinesegments](/img/product_docs/strongpointfornetsuite/troubleshooting/setlinesegments.webp)

@@ -58,7 +58,7 @@ There is also an option to distribute database profiles. The profiles are specif
 corresponding registry entry. The next time Netwrix Password Secure is started, the profiles will be
 saved in the local configuration file. The database connection can be made with the following keys:
 
-[Copy](<javascript:void(0);>)
+[Copy](javascript:void(0);)
 
 ```
 HKEY_CURRENT_USER\SOFTWARE\MATESO\Password Safe and Repository 8\DatabaseProfiles
@@ -76,7 +76,7 @@ These keys are structured like this:
 
 Is the profile set with the following entries?
 
-[Copy](<javascript:void(0);>)
+[Copy](javascript:void(0);)
 
 ```
 HKEY_LOCAL_MACHINE\SOFTWARE\MATESO\Password Safe and Repository 8\DatabaseProfiles
@@ -86,7 +86,7 @@ HKEY_LOCAL_MACHINE\SOFTWARE\MATESO\Password Safe and Repository 8\DatabaseProfil
 Then the last used date base as well as the last registered user are created with the following ID,
 when you log in for the first time:
 
-[Copy](<javascript:void(0);>)
+[Copy](javascript:void(0);)
 
 ```
 HKEY_CURRENT_USER\SOFTWARE\MATESO\Password Safe and Repository 8\DatabaseProfiles

@@ -19,6 +19,6 @@ Additionally, you can perform the following actions, which create new policies:
 - Create Policy From Template
 - Import Policies From GPO Backup
 
-![web_interface_and_controls_5_624x199](../../../../../../static/img/product_docs/policypak/policypak/cloud/interface/xmldatafiles/web_interface_and_controls_5_624x199.webp)
+![web_interface_and_controls_5_624x199](/img/product_docs/policypak/policypak/cloud/interface/xmldatafiles/web_interface_and_controls_5_624x199.webp)
 
 These functions and actions are described in more detail in the sections that follow.

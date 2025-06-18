@@ -71,7 +71,7 @@ would enable the object to delegate the Send As permission to users.
     visible to users of this role and roles with a priority value higher than this role. It would
     not even be visible to group owners (for their respective groups) and user managers (for their
     direct reports) if they fall in a lower priority role. See
-    [Priority](../../securityrole/manage.md).
+    [Priority](/docs/groupid/11.1/groupid/admincenter/securityrole/manage.md).
 
     - Select _Never_ to hide the field from all users.
     - Select _Manager and Owner_ to make the field visible only to the owner (in case of a group) or
@@ -136,7 +136,7 @@ would enable the object to delegate the Send As permission to users.
 Launch the portal and go to the properties of the target object (group or mailbox) you defined the
 Send As field for, then click the respective tab. The Send As field is displayed as follows:
 
-![sendas](../../../../../../../static/img/product_docs/groupid/groupid/admincenter/portal/design/sendas.webp)
+![sendas](/img/product_docs/groupid/groupid/admincenter/portal/design/sendas.webp)
 
 Use the **Add** and **Remove** buttons to add and remove objects in the Send As list. The added
 objects can send email for the target object in accordance with the Send As functionality.
@@ -167,7 +167,7 @@ This would enable the object to delegate the Send on Behalf permission to users.
 11. In the **Visibility Level** drop-down list, select a security role. The Send on Behalf field
     would be visible to users of this role and roles with a priority value higher than this role. It
     would not be visible to group owners (for their groups) and user managers (for their direct
-    reports) if they fall in a lower priority role. See [Priority](../../securityrole/manage.md).
+    reports) if they fall in a lower priority role. See [Priority](/docs/groupid/11.1/groupid/admincenter/securityrole/manage.md).
 
     - Select _Never_ to hide the field from all users.
     - Select _Manager and Owner_ to make the field visible only to the owner (in case of a group) or
@@ -231,7 +231,7 @@ Launch the portal and go to the properties of the target object (group or mailbo
 Send on Behalf field for, then click the respective tab. The Send on Behalf field is displayed as
 follows:
 
-![sendonbehalf](../../../../../../../static/img/product_docs/groupid/groupid/admincenter/portal/design/sendonbehalf.webp)
+![sendonbehalf](/img/product_docs/groupid/groupid/admincenter/portal/design/sendonbehalf.webp)
 
 Use the **Add** and **Remove** buttons to add and remove objects in the Send on Behalf list. The
 added objects can send email on behalf of the target object in accordance with the Send on Behalf

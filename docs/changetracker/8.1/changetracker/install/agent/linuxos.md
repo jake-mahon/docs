@@ -96,4 +96,4 @@ You’ll then want to remove the Gen 7 Agent files which will be found at:
 
 # rm -fr /opt/nnt
 
-Run the Agent UI. See the [ Agent First Run](firstrun.md) topic for additional information.
+Run the Agent UI. See the [ Agent First Run](/docs/changetracker/8.1/changetracker/install/agent/firstrun.md) topic for additional information.

@@ -9,4 +9,4 @@ server verification https" are both UNDERLINED and UN-Checked.
 
 This will deliver "un-check" to these settings, allowing for HTTP zones.
 
-![240_1_image002](../../../../../../static/img/product_docs/policypak/policypak/troubleshooting/applicationsettings/internetexplorer/240_1_image002.webp)
+![240_1_image002](/img/product_docs/policypak/policypak/troubleshooting/applicationsettings/internetexplorer/240_1_image002.webp)

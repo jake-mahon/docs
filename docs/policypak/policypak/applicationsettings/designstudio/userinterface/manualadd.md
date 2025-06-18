@@ -5,7 +5,7 @@ more elements or replace the existing ones. To do this, select an element from t
 hover over it for a tooltip about what the element is. The element will be placed on the tab or
 subdialog you are editing and will be shown with a thick green line, as shown in Figure 77.
 
-![crafting_the_user_interface_18_624x507](../../../../../../static/img/product_docs/policypak/policypak/applicationsettings/designstudio/userinterface/crafting_the_user_interface_18_624x507.webp)
+![crafting_the_user_interface_18_624x507](/img/product_docs/policypak/policypak/applicationsettings/designstudio/userinterface/crafting_the_user_interface_18_624x507.webp)
 
 Figure 77. Adding elements from the toolbar.
 

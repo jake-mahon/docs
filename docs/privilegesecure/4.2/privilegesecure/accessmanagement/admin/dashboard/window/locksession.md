@@ -1,8 +1,8 @@
 # Lock Session
 
 It is possible to lock out the user in the event that suspicious or unauthorized activity is
-observed, either from the [Active Dashboard](../active.md), or the
-[Live Session Viewer Window](liveviewer.md).
+observed, either from the [Active Dashboard](/docs/privilegesecure/4.2/privilegesecure/accessmanagement/admin/dashboard/active.md), or the
+[Live Session Viewer Window](/docs/privilegesecure/4.2/privilegesecure/accessmanagement/admin/dashboard/window/liveviewer.md).
 
 Follow the steps to lock a session.
 
@@ -14,7 +14,7 @@ Follow the steps to lock a session.
 
 - From the Live Session Viewer, click the **lock** icon.
 
-![Lock User Session](../../../../../../../../static/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/dashboard/window/locksession.webp)
+![Lock User Session](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/dashboard/window/locksession.webp)
 
 **Step 2 –** In the Lock Session window, enter the following information:
 
@@ -39,5 +39,5 @@ or SSH clients. To unlock an active session, either:
 - From the Live Session Viewer, click the **Unlock** icon.
 
 To unlock an account, see the
-[User, Group, & Application Details Page](../../policy/page/details/usergroupapplication.md) topic
+[User, Group, & Application Details Page](/docs/privilegesecure/4.2/privilegesecure/accessmanagement/admin/policy/page/details/usergroupapplication.md) topic
 for additional information.

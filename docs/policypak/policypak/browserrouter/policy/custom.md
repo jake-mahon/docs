@@ -6,18 +6,18 @@ instance, Opera and Vivaldi are two browsers you may have installed on endpoints
 route to.
 
 **NOTE:** For an overview of using custom policies, see the following video:
-[Browser Router with Custom Browsers](../../video/browserrouter/custombrowsers.md).
+[Browser Router with Custom Browsers](/docs/policypak/policypak/video/browserrouter/custombrowsers.md).
 
 You might also want to route websites to virtualized browsers. In this example you can see a
 virtualized Firefox. To route to virtualized browsers, simply take the icon's launch target and copy
 it.
 
-![about_policypak_browser_router_19](../../../../../static/img/product_docs/policypak/policypak/browserrouter/policy/about_policypak_browser_router_19.webp)
+![about_policypak_browser_router_19](/img/product_docs/policypak/policypak/browserrouter/policy/about_policypak_browser_router_19.webp)
 
 Then, using Endpoint Policy Manager Browser Router, make a custom route and paste the target path
 into the **Custom Browser Path** field.
 
-![about_policypak_browser_router_20](../../../../../static/img/product_docs/policypak/policypak/browserrouter/policy/about_policypak_browser_router_20.webp)
+![about_policypak_browser_router_20](/img/product_docs/policypak/policypak/browserrouter/policy/about_policypak_browser_router_20.webp)
 
 This technique works for most virtualized browsers such as Microsoft App-V, VMware ThinApp, etc.
 Note that once a virtualized browser is opened, Endpoint Policy Manager Browser Router cannot route

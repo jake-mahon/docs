@@ -1,7 +1,7 @@
 # Denying Standard Applications
 
 **NOTE:** For an overview of Endpoint Policy Manager performing Application control see the
-[Endpoint Policy Manager Application Control with PP Least Privilege Manager](../../video/leastprivilege/applicationcontrol.md)
+[Endpoint Policy Manager Application Control with PP Least Privilege Manager](/docs/policypak/policypak/video/leastprivilege/applicationcontrol.md)
 video.
 
 To do this, first create a rule type which matches your scenario. Then pick the condition to match.
@@ -11,21 +11,21 @@ seen here.
 ![A screenshot of a computer
 
 Description automatically
-generated](../../../../../static/img/product_docs/policypak/policypak/leastprivilege/deny/denying_standard_applications.webp)
+generated](/img/product_docs/policypak/policypak/leastprivilege/deny/denying_standard_applications.webp)
 
 Then select the **Action** type **Deny execution**.
 
 ![A screenshot of a computer
 
 Description automatically
-generated](../../../../../static/img/product_docs/policypak/policypak/leastprivilege/deny/denying_standard_applications_1.webp)
+generated](/img/product_docs/policypak/policypak/leastprivilege/deny/denying_standard_applications_1.webp)
 
 The MMC will take action to deny the desired user rights.
 
 ![A screenshot of a computer
 
 Description automatically
-generated](../../../../../static/img/product_docs/policypak/policypak/leastprivilege/deny/denying_standard_applications_2.webp)
+generated](/img/product_docs/policypak/policypak/leastprivilege/deny/denying_standard_applications_2.webp)
 
 The result is that Firefox and every other application signed by this publisher would not run on the
 endpoint no matter how it made it there (even if it was properly installed). The result of a
@@ -38,4 +38,4 @@ corporate policies.
 ![A screenshot of a computer
 
 Description automatically
-generated](../../../../../static/img/product_docs/policypak/policypak/leastprivilege/deny/denying_standard_applications_3.webp)
+generated](/img/product_docs/policypak/policypak/leastprivilege/deny/denying_standard_applications_3.webp)

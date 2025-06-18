@@ -5,7 +5,7 @@
 Before you execute the migration, you must ensure that the following preparations have been made:
 
 - Installation of the latest Netwrix Password Secure-Server, Native Client and Web Client
-- Check in the [Database properties](../database_properties/database_properties.md) if the **offline
+- Check in the [Database properties](/docs/passwordsecure/9.2/passwordsecure/configuration/server_manager/database_properties/database_properties.md) if the **offline
   access** and the **mobile synchronization** are allowed  
   If that should be the case, **contact your users and make sure that they have to synchronize the
   Offline Add-on and the mobile app**.
@@ -17,9 +17,9 @@ the migration mode is enabled!
 
 **CAUTION:** Only certificate backups made through the Server Manager are valid!
 
-![Certificates](../../../../../../../static/img/product_docs/passwordsecure/passwordsecure/configuration/server_manager/ecc_migration/certificates-ac-1-en.webp)
+![Certificates](/img/product_docs/passwordsecure/passwordsecure/configuration/server_manager/ecc_migration/certificates-ac-1-en.webp)
 
-![Export certificates](../../../../../../../static/img/product_docs/passwordsecure/passwordsecure/configuration/server_manager/ecc_migration/certificates-ac-2-en.webp)
+![Export certificates](/img/product_docs/passwordsecure/passwordsecure/configuration/server_manager/ecc_migration/certificates-ac-2-en.webp)
 
 - Delete or restore all non “permanent deleted” users  
   If you have deactivated or non “permanent deleted“ users it would make sense to delete them
@@ -40,18 +40,18 @@ from the database, but it is not possible to add new or edit existing records.
 
 Clicking on the icon **“Start migration”** in the databases' module to start the migration process
 
-![start migration](../../../../../../../static/img/product_docs/passwordsecure/passwordsecure/configuration/server_manager/ecc_migration/start-migration-en.webp)
+![start migration](/img/product_docs/passwordsecure/passwordsecure/configuration/server_manager/ecc_migration/start-migration-en.webp)
 
 Select the database you want to migrate and enter the code-word.
 
 Remember, The code word is “Start”. Please make sure that you have read the whole documentation.
 Otherwise, data loss might occur!
 
-![select database](../../../../../../../static/img/product_docs/passwordsecure/passwordsecure/configuration/server_manager/ecc_migration/start-migration-2-en.webp)
+![select database](/img/product_docs/passwordsecure/passwordsecure/configuration/server_manager/ecc_migration/start-migration-2-en.webp)
 
 You should see the message, that the selected databases are now in migration mode:
 
-![start migration](../../../../../../../static/img/product_docs/passwordsecure/passwordsecure/configuration/server_manager/ecc_migration/start-migration-3-en.webp)
+![start migration](/img/product_docs/passwordsecure/passwordsecure/configuration/server_manager/ecc_migration/start-migration-3-en.webp)
 
 As written in the message, export all required certificates via the Netwrix Password Secure Server
 Manager. If you have multiple servers in use import the certificates via the Server Manager at the
@@ -64,9 +64,9 @@ end of the migration process.
 In the migration process you find all information about the current process, what is already
 migrated and what still needs to be migrated
 
-![migration progress](../../../../../../../static/img/product_docs/passwordsecure/passwordsecure/configuration/server_manager/ecc_migration/migration-progress-en.webp)
+![migration progress](/img/product_docs/passwordsecure/passwordsecure/configuration/server_manager/ecc_migration/migration-progress-en.webp)
 
 After each user has logged into the database and has been successfully migrated, the migration is
 complete.
 
-![migration finished](../../../../../../../static/img/product_docs/passwordsecure/passwordsecure/configuration/server_manager/ecc_migration/migration-finished-en.webp)
+![migration finished](/img/product_docs/passwordsecure/passwordsecure/configuration/server_manager/ecc_migration/migration-finished-en.webp)

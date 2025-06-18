@@ -3,8 +3,8 @@
 Use this API to create a new data source.
 
 See the
-[Create a Data Source for MS Excel](../../admincenter/datasource/create.md#create-a-data-source-for-ms-excel)
-section of the [Create a Data Source](../../admincenter/datasource/create.md) topic for additional
+[Create a Data Source for MS Excel](/docs/groupid/11.1/groupid/admincenter/datasource/create.md#create-a-data-source-for-ms-excel)
+section of the [Create a Data Source](/docs/groupid/11.1/groupid/admincenter/datasource/create.md) topic for additional
 information on creating an Excel data source using Directory Manager.
 
 ## Endpoint

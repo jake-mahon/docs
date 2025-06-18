@@ -8,10 +8,10 @@ servers.
 The Bulk Import query uses the FSAA Data Collector and has been preconfigured to use the File system
 activity Bulk import category.
 
-![Query for the 2-FSAC Bulk Import Job](../../../../../../static/img/product_docs/accessanalyzer/solutions/filesystem/collection/fsacbulkimportquery.webp)
+![Query for the 2-FSAC Bulk Import Job](/img/product_docs/accessanalyzer/solutions/filesystem/collection/fsacbulkimportquery.webp)
 
 - Bulk Import – Imports data into SQL Server
 
     - Typically this query is not modified. See the
-      [FileSystemAccess Data Collector](../../../admin/datacollector/fsaa/overview.md) topic for
+      [FileSystemAccess Data Collector](/docs/accessanalyzer/12.0/admin/datacollector/fsaa/overview.md) topic for
       information on when this query should be modified.

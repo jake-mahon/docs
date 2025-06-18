@@ -1,7 +1,7 @@
 # Remote Work Delivery Manager
 
 **NOTE:** Before reading this section, please ensure you have read Book 2:
-[Installation Quick Start](../gettingstarted/quickstart/overviewinstall.md), which will help you
+[Installation Quick Start](/docs/policypak/policypak/gettingstarted/quickstart/overviewinstall.md), which will help you
 learn to do the following:
 
 - Install the Admin MSI on your GPMC machine
@@ -10,7 +10,7 @@ learn to do the following:
 - Set up a common OU structure
 
 Optionally, if you don't want to use Group Policy, read the section in Appendix A:
-[Using Endpoint Policy Manager with MDM and UEM Tools](../mdm/uemtools.md) to deploy your
+[Using Endpoint Policy Manager with MDM and UEM Tools](/docs/policypak/policypak/mdm/uemtools.md) to deploy your
 directives.
 
 Netwrix Endpoint Policy Manager (formerly PolicyPak) Remote Work Delivery Manager (PPRWDM) enables
@@ -22,7 +22,7 @@ you to perform the following operations on Windows:
 - Copy files from an HTTP(S) source, like OneDrive, Dropbox, Amazon S3, and some other services, to
   a desktop
 
-**NOTE:** See [Install software with SMB (standard share)](../video/remoteworkdelivery/smb.md)for an
+**NOTE:** See [Install software with SMB (standard share)](/docs/policypak/policypak/video/remoteworkdelivery/smb.md)for an
 overview of PolicyPak Remote Work Delivery Manager.
 
 Endpoint Policy Manager Remote Work Delivery Manager allows you to do the following:
@@ -55,7 +55,7 @@ even to non-domain-joined machines over the Internet.
   Manager directives via Group Policy, or when using MEMCM, KACE, MDM, or similar utilities.
 - Endpoints — In order to use these, they must be licensed for Endpoint Policy Manager Remote Work
   Delivery Manager using one of the licensing methods, which are described in Book 1:
-  [Introduction and Basic Concepts](../basicconcepts.md).
+  [Introduction and Basic Concepts](/docs/policypak/policypak/basicconcepts.md).
 - PolicyPak Exporter (optional) — A free utility that lets you take Endpoint Policy Manager Admin
   Templates Manager and our other products' XML files and wrap them into a portable MSI file for
   deployment using MEMCM, an MDM service, or your own systems management software.

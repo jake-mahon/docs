@@ -3,10 +3,10 @@
 The Approvals Dashboard displays requested sessions that require approval. Users and group members
 designated as approvers will see the pending sessions queued here. The session must be approved
 before the requestor can log in to the session. See the
-[Connection Profiles Page](../policy/page/connectionprofiles.md) topic for additional information on
+[Connection Profiles Page](/docs/privilegesecure/4.2/privilegesecure/accessmanagement/admin/policy/page/connectionprofiles.md) topic for additional information on
 Approval Workflows.
 
-![Dashboard Approvals Page](../../../../../../../static/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/dashboard/approvals.webp)
+![Dashboard Approvals Page](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/dashboard/approvals.webp)
 
 The Approvals Dashboard has the following features:
 
@@ -30,7 +30,7 @@ The table has the following columns:
 - Host — Resource that the user will run the activity on
 - Login Account — Displays the account used to log onto the resource
 - Activity — Displays the name of the activity. Click the link to view additional details. See the
-  [Activities Page](../policy/page/activities.md) topic for additional information.
+  [Activities Page](/docs/privilegesecure/4.2/privilegesecure/accessmanagement/admin/policy/page/activities.md) topic for additional information.
 - Start — Indicates when the activity starts. This refers to when the activity’s actions will be
   executed and not when the user logs on to the resource.
 - End — Indicates when the session is scheduled to end the activity, which is determined by the

@@ -3,7 +3,7 @@
 The Service Accounts page is accessible from the Navigation pane under Configuration. It shows the
 configured service accounts required by Privilege Secure services.
 
-![serviceaccountpage](../../../../../../../../static/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/configuration/page/serviceaccountpage.webp)
+![serviceaccountpage](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/configuration/page/serviceaccountpage.webp)
 
 The pane on the left side of the page displays a list of the configured service accounts. This pane
 has the following features:
@@ -11,7 +11,7 @@ has the following features:
 - Search — Searches the table or list for matches to the search string. When matches are found, the
   table or list is filtered to the matching results.
 - Green + button — Create a new service account. See the
-  [Add Service Account](../add/serviceaccount.md) topic for additional information.
+  [Add Service Account](/docs/privilegesecure/4.2/privilegesecure/accessmanagement/admin/configuration/add/serviceaccount.md) topic for additional information.
 - Trashcan icon — Deletes the service account. Icon appears when activity is hovered over. A
   confirmation window will display.
 
@@ -27,12 +27,12 @@ The selected service account details display at the top of the main pane:
   ID platforms.
 - App ID — Displays the globally unique identifier for the targeted app registered in the Active
   Directory tenant. This field only applies to Microsoft Entra ID platforms. See the
-  [Microsoft Entra ID App Registration](../integrationdetails/entraidappregistration.md) for
+  [Microsoft Entra ID App Registration](/docs/privilegesecure/4.2/privilegesecure/accessmanagement/admin/configuration/integrationdetails/entraidappregistration.md) for
   additional information.
 - Elevation Command — Displays the elevation mechanism for the host, such as: sudo, pbrun, pmrun,
   dzdo, etc.. This field only applies to Linux platforms.
 - Vault Connector — Displays the name of the assigned vault connector. See the
-  [Bring Your Own Vault (BYOV) Integration](../add/integrationbyov.md) topic for additional
+  [Bring Your Own Vault (BYOV) Integration](/docs/privilegesecure/4.2/privilegesecure/accessmanagement/admin/configuration/add/integrationbyov.md) topic for additional
   information.
 - Authentication:
 
@@ -58,7 +58,7 @@ The selected service account details display at the top of the main pane:
       are selected.
     - App Secret — Displays the security token for the targeted app registered in the tenant. This
       field only applies to Microsoft Entra ID platforms. See the
-      [Microsoft Entra ID App Registration](../integrationdetails/entraidappregistration.md) for
+      [Microsoft Entra ID App Registration](/docs/privilegesecure/4.2/privilegesecure/accessmanagement/admin/configuration/integrationdetails/entraidappregistration.md) for
       additional information.
     - Safe — Displays the CyberArk safe where the login account is stored. This field only applies
       to CyberArk vault connectors.
@@ -71,5 +71,5 @@ If any of these settings are modified, Save and Cancel buttons are displayed. Cl
 commit the modifications. Click **Cancel** to discard the modifications.
 
 Th "Service Account is Managed by Privilege Secure when the account has been configured to be
-managed by the application. See the [Credentials Page](../../policy/page/credentials.md) topic for
+managed by the application. See the [Credentials Page](/docs/privilegesecure/4.2/privilegesecure/accessmanagement/admin/policy/page/credentials.md) topic for
 additional information.

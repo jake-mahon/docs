@@ -22,7 +22,7 @@ What do you want to do?
     - To send enrollment notifications to all users in all identity stores in Directory Manager,
       make sure _All_ is selected in the **Identity store** box. Then click **Notify All Users**.
     - To send the notification to specific recipients, search for the required users and click
-      **Notify All Users**. See the [Search Users](search.md) topic to perform a search.
+      **Notify All Users**. See the [Search Users](/docs/groupid/11.1/groupid/admincenter/helpdesk/operation/search.md) topic to perform a search.
 
     Notifications are sent to all users listed on the **Helpdesk Operations** tab, including those
     on other pages (use the navigation options at the bottom of the listing to view the pages). To
@@ -44,5 +44,5 @@ What do you want to do?
 
 **See Also**
 
-- [Helpdesk](../overview.md)
-- [Helpdesk Operations](overview.md)
+- [Helpdesk](/docs/groupid/11.1/groupid/admincenter/helpdesk/overview.md)
+- [Helpdesk Operations](/docs/groupid/11.1/groupid/admincenter/helpdesk/operation/overview.md)

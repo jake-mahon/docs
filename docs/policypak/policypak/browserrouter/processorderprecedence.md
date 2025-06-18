@@ -10,11 +10,11 @@ Within a particular GPO (Computer or User side), the processing order is counted
 So, lower-numbered collections attempt to process first, and higher-numbered collections attempt to
 process last.
 
-![about_policypak_browser_router_42](../../../../static/img/product_docs/policypak/policypak/browserrouter/about_policypak_browser_router_42.webp)
+![about_policypak_browser_router_42](/img/product_docs/policypak/policypak/browserrouter/about_policypak_browser_router_42.webp)
 
 Within any collection, each policy is processed in numerical order from lowest to highest.
 
-![about_policypak_browser_router_43](../../../../static/img/product_docs/policypak/policypak/browserrouter/about_policypak_browser_router_43.webp)
+![about_policypak_browser_router_43](/img/product_docs/policypak/policypak/browserrouter/about_policypak_browser_router_43.webp)
 
 ## Precedence
 
@@ -52,7 +52,7 @@ same collection.
 
 Endpoint Policy Manager Browser Router has four rule types.
 
-![about_policypak_browser_router_14](../../../../static/img/product_docs/policypak/policypak/browserrouter/about_policypak_browser_router_14.webp)
+![about_policypak_browser_router_14](/img/product_docs/policypak/policypak/browserrouter/about_policypak_browser_router_14.webp)
 
 The following precedence order applies to these rule types.
 

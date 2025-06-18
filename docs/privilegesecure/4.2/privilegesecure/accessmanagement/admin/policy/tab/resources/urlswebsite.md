@@ -4,14 +4,14 @@ The URLs tab shows information about the URLs associated to the selected resourc
 `https://company.lightning.force.com` and `https://salesforce.com` are both URLs associated to the
 same website.
 
-![URLs tab for Website Resource](../../../../../../../../../static/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/tab/resources/websitedetailsurlstab.webp)
+![URLs tab for Website Resource](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/tab/resources/websitedetailsurlstab.webp)
 
 The URLs tab has the following features:
 
 - Search — Searches the table or list for matches to the search string. When matches are found, the
   table or list is filtered to the matching results.
 - Add — Opens the Add Website URL window. See the
-  [Add Website URL Window](../../window/resources/addwebsiteurl.md) topic for additional
+  [Add Website URL Window](/docs/privilegesecure/4.2/privilegesecure/accessmanagement/admin/policy/window/resources/addwebsiteurl.md) topic for additional
   information.
 - Edit — Opens the Edit Website URL window. See Edit Website URL for additional information.
 - Remove — Removes the selected item

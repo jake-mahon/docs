@@ -3,7 +3,7 @@
 The Access Information Center is installed with a Builtin Administrator account used to enable
 console access. Launch the Access Information Center using the desktop icon for the first time and
 set the password for the Builtin Administrator account. Then log in with that account. See the
-[First Launch](firstlaunch.md) topic for additional information.
+[First Launch](/docs/accessinformationcenter/12.0/access/informationcenter/admin/firstlaunch.md) topic for additional information.
 
 ## Initial Configuration
 
@@ -11,7 +11,7 @@ Next, configure the Access Information Center for your environment:
 
 - Console Users — Grant users access to the application starting with an Administrator account.
   There are five levels of access: Administrator, Security Team, Reader, Data Privacy, and User
-  Access Administrator. See the [Console Access Page](configuration/consoleaccess.md) topic for
+  Access Administrator. See the [Console Access Page](/docs/accessinformationcenter/12.0/access/informationcenter/admin/configuration/consoleaccess.md) topic for
   information.
 
     - Optionally, disable the Builtin Administrator account. See the
@@ -20,9 +20,9 @@ Next, configure the Access Information Center for your environment:
 
 - Active Directory Service Account — Provide the service account to be used for accessing Active
   Directory. Optionally, enable the application to make group membership changes. See the
-  [Active Directory Page](configuration/activedirectory.md) topic for information.
+  [Active Directory Page](/docs/accessinformationcenter/12.0/access/informationcenter/admin/configuration/activedirectory.md) topic for information.
 - Notification — Configure the Notification settings required in order for the application to send
-  email. See the [Notifications Page](configuration/notifications.md) topic for information.
+  email. See the [Notifications Page](/docs/accessinformationcenter/12.0/access/informationcenter/admin/configuration/notifications.md) topic for information.
 
 ## Enable Console Users
 
@@ -37,22 +37,22 @@ Access Information Center users granted one of the available roles should be not
 You should also provide links to the appropriate topics based on the user's role:
 
 - Reader and Data Privacy — Send the URL link for the
-  [Resource Audit Overview](../resourceaudit/overview.md) topic
+  [Resource Audit Overview](/docs/accessinformationcenter/12.0/access/informationcenter/resourceaudit/overview.md) topic
 - Security Team — Need topics that align to the work the will be doing in the Access Information
   Center:
 
     - Accessing Resource Audits — Send the URL link for the
-      [Resource Audit Overview](../resourceaudit/overview.md) topic
+      [Resource Audit Overview](/docs/accessinformationcenter/12.0/access/informationcenter/resourceaudit/overview.md) topic
     - Ownership Administrator — Send the URL link for the
-      [Resource Owners Overview](../resourceowners/overview.md) topic
+      [Resource Owners Overview](/docs/accessinformationcenter/12.0/access/informationcenter/resourceowners/overview.md) topic
     - Review Administrator — Send the URL link for the
-      [Resource Reviews Overview](../resourcereviews/overview.md) topic
+      [Resource Reviews Overview](/docs/accessinformationcenter/12.0/access/informationcenter/resourcereviews/overview.md) topic
     - Request Administrator — Send the URL link for the
-      [Access Requests Overview](../accessrequests/overview.md) topic
+      [Access Requests Overview](/docs/accessinformationcenter/12.0/access/informationcenter/accessrequests/overview.md) topic
 
-- Administrator — Send the URL link for the [Administrator Overview](overview.md) topic
+- Administrator — Send the URL link for the [Administrator Overview](/docs/accessinformationcenter/12.0/access/informationcenter/admin/overview.md) topic
 - User Access Administrator — Send the URL link for the
-  [Console Access Page](configuration/consoleaccess.md) topic
+  [Console Access Page](/docs/accessinformationcenter/12.0/access/informationcenter/admin/configuration/consoleaccess.md) topic
 
 ## Resource Ownership Configuration
 
@@ -61,9 +61,9 @@ application. Also, ownership of resources must be assigned in order to use the R
 Access Requests workflows.
 
 - Resource Ownership — Assign ownership for resources to be managed through the application. See the
-  [Resource Owners Interface](../resourceowners/interface.md) topic for additional information.
+  [Resource Owners Interface](/docs/accessinformationcenter/12.0/access/informationcenter/resourceowners/interface.md) topic for additional information.
 - Enable Owners — Send a notification to your owners about resource ownership with the application.
-  See the [Notification to Owners](../resourceowners/overview.md#notification-to-owners) topic for
+  See the [Notification to Owners](/docs/accessinformationcenter/12.0/access/informationcenter/resourceowners/overview.md#notification-to-owners) topic for
   additional information.
 
 ## Resource Review Workflow
@@ -79,7 +79,7 @@ workflow consists of:
 **_RECOMMENDED:_** Set expectations for response time from owners.
 
 Reviews can be run multiple times, maintaining a historical record for each instance. See the
-[Resource Reviews Overview](../resourcereviews/overview.md) topic for additional information.
+[Resource Reviews Overview](/docs/accessinformationcenter/12.0/access/informationcenter/resourcereviews/overview.md) topic for additional information.
 
 ## Access Requests Workflow
 
@@ -89,8 +89,8 @@ consists of:
 
 - Enable Domain Users — Send a notification to your domain users about access requests with the
   Access Information Center. See the
-  [Notification to Domain Users](../accessrequests/overview.md#notification-to-domain-users) topic
+  [Notification to Domain Users](/docs/accessinformationcenter/12.0/access/informationcenter/accessrequests/overview.md#notification-to-domain-users) topic
   for additional information.
 - Owner Response — Set expectations for response time from owners
 
-See the [Access Requests Overview](../accessrequests/overview.md) topic for additional information.
+See the [Access Requests Overview](/docs/accessinformationcenter/12.0/access/informationcenter/accessrequests/overview.md) topic for additional information.

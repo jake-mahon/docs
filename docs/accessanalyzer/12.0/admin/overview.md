@@ -20,7 +20,7 @@ requirements, e.g. real-time file level activity monitoring, these agent-based a
 collection methods allow the kind of deep rich information, which can usually be obtained only by
 substantial manual effort.
 
-See the [Data Collectors](datacollector/overview.md) topic for additional information.
+See the [Data Collectors](/docs/accessanalyzer/12.0/admin/datacollector/overview.md) topic for additional information.
 
 ## Analysis Modules Overview
 
@@ -38,7 +38,7 @@ ease:
 - Notification – Get alerts based upon any condition within any dataset, with control over how and
   how often alerts are generated
 
-See the [Analysis Modules](analysis/overview.md) topic for additional information.
+See the [Analysis Modules](/docs/accessanalyzer/12.0/admin/analysis/overview.md) topic for additional information.
 
 ## Action Modules Overview
 
@@ -48,7 +48,7 @@ Distribution Lists, SharePoint sites, and Windows Registry. The Mail and Survey 
 in conjunction with other Action Modules and datasets to instantiate workflows involving end-users
 such as data custodians to obtain answers and verifications.
 
-See the [Action Modules](action/overview.md) topic for additional information.
+See the [Action Modules](/docs/accessanalyzer/12.0/admin/action/overview.md) topic for additional information.
 
 ## Reporting Overview
 
@@ -62,4 +62,4 @@ without requiring access to the Access Analyzer Console. It is accessed through 
 Console, which is created during the installation of Access Analyzer. The Web Console can also
 provide access to the Access Information Center, and other Stealthbits products.
 
-See the [Reporting](report/overview.md) topic for additional information.
+See the [Reporting](/docs/accessanalyzer/12.0/admin/report/overview.md) topic for additional information.

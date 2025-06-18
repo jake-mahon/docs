@@ -49,7 +49,7 @@ ignores the value in the source field mapped to it.
         environment variables, determine that they are supported by the Windows installed on your
         host machine
 
-- [Auto-Generate Unique, Complex Passwords](autogenerateuniquepassword.md) based on complexity rules
+- [Auto-Generate Unique, Complex Passwords](/docs/groupid/11.1/groupid/portal/synchronize/transformation/autogenerateuniquepassword.md) based on complexity rules
 
     You can assign a single password to all synced objects or generate individual passwords for each
     object.

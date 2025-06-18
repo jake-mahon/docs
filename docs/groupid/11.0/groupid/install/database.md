@@ -19,7 +19,7 @@ that case, you have to type the server name in the **SQL Server** box to select 
 manually.
 
 To enable the SQL Server Browser service, see
-[How to: Start and Stop the SQL Server Browser Service](<http://technet.microsoft.com/en-us/library/ms189093(v=sql.105).aspx>).
+[How to: Start and Stop the SQL Server Browser Service](http://technet.microsoft.com/en-us/library/ms189093(v=sql.105).aspx).
 
 See Also
 

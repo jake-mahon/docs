@@ -13,5 +13,5 @@ For AppX packages, you can do the following with Software Package Manager:
   Windows applications can and cannot run.
 
 Watch this video for an overview of See Endpoint Policy Manager Software Package Manager:
-[Endpoint Policy Manager Software Package Manager: AppX Manager](../video/softwarepackage/appxmanager.md)
+[Endpoint Policy Manager Software Package Manager: AppX Manager](/docs/policypak/policypak/video/softwarepackage/appxmanager.md)
 for additional information.

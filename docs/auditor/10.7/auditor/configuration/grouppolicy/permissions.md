@@ -6,7 +6,7 @@ you will provide this account in the monitoring plan wizard (or in the monitored
 
 You can use group Managed Service Accounts (gMSA) as data collecting accounts.
 
-See the [Use Group Managed Service Account (gMSA)](../../requirements/gmsa.md) topic and the
+See the [Use Group Managed Service Account (gMSA)](/docs/auditor/10.7/auditor/requirements/gmsa.md) topic and the
 following Microsoft article:
 [Group Managed Service Accounts Overview](https://docs.microsoft.com/en-us/windows-server/security/group-managed-service-accounts/group-managed-service-accounts-overview)
 for additional information about gMSA.
@@ -14,7 +14,7 @@ for additional information about gMSA.
 ## Account Requirements
 
 **NOTE:** These group Managed Service Accounts should also meet the related requirements. See the
-[Use Group Managed Service Account (gMSA)](../../requirements/gmsa.md) topic and the following
+[Use Group Managed Service Account (gMSA)](/docs/auditor/10.7/auditor/requirements/gmsa.md) topic and the following
 Microsoft article:
 [Group Managed Service Accounts Overview](https://docs.microsoft.com/en-us/windows-server/security/group-managed-service-accounts/group-managed-service-accounts-overview)
 for additional information about gMSA.
@@ -34,11 +34,11 @@ The account used for data collection must meet the following requirements:
   **Domain Admins** group:
 
     - **Manage auditing and security log** policy must be defined for this account.  
-      See the [Permissions for Active Directory Auditing](../activedirectory/permissions.md) topic
+      See the [Permissions for Active Directory Auditing](/docs/auditor/10.7/auditor/configuration/activedirectory/permissions.md) topic
       for additional information.
     - If you plan to process Active Directory **Deleted Objects** container, **Read** permission on
       this container is required. See the
-      [Permissions for Active Directory Auditing](../activedirectory/permissions.md) topic for
+      [Permissions for Active Directory Auditing](/docs/auditor/10.7/auditor/configuration/activedirectory/permissions.md) topic for
       additional information.
 
 ## Additional Configuration for Domain Controller's Event Logs Auto-backup
@@ -60,7 +60,7 @@ Domain Admins group.
 This permission should be assigned on each domain controller in the audited domain, so if your
 domain contains multiple domain controllers, it is recommended to assign permissions through Group
 Policy, or automatically using
-[Audit Configuration Assistant](../../tools/auditconfigurationassistant.md).
+[Audit Configuration Assistant](/docs/auditor/10.7/auditor/tools/auditconfigurationassistant.md).
 
 To assign permissions manually, use the Registry Editor snap-in or the Group Policy Management
 console.
@@ -132,7 +132,7 @@ domain controllers.
 
 Starting with version 10.7, you can use Netwrix Privilege Secure to manage the account for
 collecting data, after configuring the integration. See the
-[Netwrix Privilege Secure](../../admin/settings/privilegesecure.md) topic for additional information
+[Netwrix Privilege Secure](/docs/auditor/10.7/auditor/admin/settings/privilegesecure.md) topic for additional information
 about integration and supported data sources. In this case, the credentials will not be stored by
 Netwrix Auditor. Instead, they will be managed by Netwrix Privilege Secure and provided on demand,
 ensuring password rotation or using temporary accounts for data collection.
@@ -144,7 +144,7 @@ Follow the steps to use Netwrix Privilege Secure as an account for data collect
 **Step 2 –** In the item configuration menu, select Netwrix Privilege Secure as an option for data
 collection.
 
-![npsdatacollectingaccount](../../../../../../static/img/product_docs/auditor/auditor/configuration/grouppolicy/npsdatacollectingaccount.webp)
+![npsdatacollectingaccount](/img/product_docs/auditor/auditor/configuration/grouppolicy/npsdatacollectingaccount.webp)
 
 **Step 3 –** Select the type of the Access Policy you want to use in Netwrix Privilege Secure.
 Credential-based is the default option. Refer to the
@@ -157,7 +157,7 @@ and to which Netwrix Auditor has the access through a Credential-based access po
 **NOTE:** Netwrix recommends using different credentials for different monitoring plans and data
 sources.
 
-![npsdatacollectingaccountresourced](../../../../../../static/img/product_docs/auditor/auditor/configuration/grouppolicy/npsdatacollectingaccountresourced.webp)
+![npsdatacollectingaccountresourced](/img/product_docs/auditor/auditor/configuration/grouppolicy/npsdatacollectingaccountresourced.webp)
 
 The second option is Resource-based. To use this option, you need to provide the Activity and
 Resource names, assigned to Netwrix Auditor in the corresponding Resource-based policy. Make sure

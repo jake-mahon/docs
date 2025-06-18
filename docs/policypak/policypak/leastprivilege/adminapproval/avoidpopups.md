@@ -4,7 +4,7 @@ You might find that end users report that the Admin Approval pop-up appears even
 click on anything.
 
 **NOTE:** See the
-[Understand "Enforce Admin Approval for all installers" behavior](../../video/leastprivilege/adminapproval/enforce.md)
+[Understand "Enforce Admin Approval for all installers" behavior](/docs/policypak/policypak/video/leastprivilege/adminapproval/enforce.md)
 video to learn how to avoid pop-ups with Admin Approval.
 
 This will generally happen when two things are true:
@@ -18,7 +18,7 @@ still come up.. Two examples of pop-ups that users might see, OneDrive and Java,
 ![A screenshot of a computer
 
 Description automatically
-generated](../../../../../static/img/product_docs/policypak/policypak/leastprivilege/adminapproval/avoid_pop_ups_with_admin_approval.webp)
+generated](/img/product_docs/policypak/policypak/leastprivilege/adminapproval/avoid_pop_ups_with_admin_approval.webp)
 
 There are two ways to overcome these messages:
 
@@ -45,7 +45,7 @@ Least Privilege Manager, and open ppUser_operational.log.
 ![A screenshot of a computer program
 
 Description automatically
-generated](../../../../../static/img/product_docs/policypak/policypak/leastprivilege/adminapproval/avoid_pop_ups_with_admin_approval_1.webp)
+generated](/img/product_docs/policypak/policypak/leastprivilege/adminapproval/avoid_pop_ups_with_admin_approval_1.webp)
 
 **NOTE:** Some applications may have different ways to self-update, possibly calling more than one
 upgrade application. Thiscould result in more than one pop-up. Be sure you are noting them all
@@ -60,7 +60,7 @@ canceled dialogs, like the one shown here.
 ![A screenshot of a computer
 
 Description automatically
-generated](../../../../../static/img/product_docs/policypak/policypak/leastprivilege/adminapproval/avoid_pop_ups_with_admin_approval.webp)
+generated](/img/product_docs/policypak/policypak/leastprivilege/adminapproval/avoid_pop_ups_with_admin_approval.webp)
 
 There is more information on using Event Viewer with Endpoint Policy Manager at the end of this
 guide, with specific event IDs to search for.

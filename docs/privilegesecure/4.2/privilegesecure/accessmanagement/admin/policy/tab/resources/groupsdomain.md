@@ -2,7 +2,7 @@
 
 The Groups tab shows information about the domain groups on the selected resource.
 
-![Domain Resource Groups Tab](../../../../../../../../../static/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/tab/resources/groupsdomain.webp)
+![Domain Resource Groups Tab](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/tab/resources/groupsdomain.webp)
 
 The Groups tab has the following features:
 

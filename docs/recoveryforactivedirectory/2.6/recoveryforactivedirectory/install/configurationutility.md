@@ -7,7 +7,7 @@ To launch the Recovery Configuration Utility, double-click the Recovery_Config.e
 following location in the Recovery for Active Directory installation directory:
 `...Netwrix\Recovery for Active Directory\Recovery_Config.exe`
 
-![  Recovery Configuration Utility](../../../../../static/img/product_docs/recoveryforactivedirectory/recoveryforactivedirectory/install/configurationutility.webp)
+![  Recovery Configuration Utility](/img/product_docs/recoveryforactivedirectory/recoveryforactivedirectory/install/configurationutility.webp)
 
 The Recovery Configuration Utility window has options to:
 
@@ -28,7 +28,7 @@ for restoring deleted objects. Consider the following:
 - The Extension can be manually installed on a remote server where ADUC is installed. The Extension
   connects to the Recovery Application Server using the server name or IP address you provide while
   installing the Extension on the remote machine. See the
-  [Install the RSAT Extension](../rsatextension/installation.md) topic for additional information.
+  [Install the RSAT Extension](/docs/recoveryforactivedirectory/2.6/recoveryforactivedirectory/rsatextension/installation.md) topic for additional information.
 
 ### Register the RSAT Extension
 
@@ -41,7 +41,7 @@ Follow the steps to register the RSAT Extension.
 the RSAT Extension. On registration, the following message is displayed and the button changes to
 Unregister.
 
-![RSAT Extension Registered message](../../../../../static/img/product_docs/recoveryforactivedirectory/recoveryforactivedirectory/install/rsatextensionregistered.webp)
+![RSAT Extension Registered message](/img/product_docs/recoveryforactivedirectory/recoveryforactivedirectory/install/rsatextensionregistered.webp)
 
 **Step 2 –** Click **OK**.
 
@@ -56,7 +56,7 @@ Follow the steps to unregister the RSAT Extension.
 unregister the RSAT Extension. The following message is displayed and the button changes to
 Register.
 
-![RSAT Extension Not Registered message](../../../../../static/img/product_docs/recoveryforactivedirectory/recoveryforactivedirectory/install/rsatextensionunregistered.webp)
+![RSAT Extension Not Registered message](/img/product_docs/recoveryforactivedirectory/recoveryforactivedirectory/install/rsatextensionunregistered.webp)
 
 **Step 2 –** Click **OK**.
 
@@ -74,7 +74,7 @@ The Recovery Configuration Utility window displays the following information for
 - Save – After making any changes, click the **Save** button to save the configuration
 
 To update the password for the SQL server service account, see the
-[Update SQL Server Service Account Password](../troubleshooting/updatepassword/sqlserverserviceaccount.md)
+[Update SQL Server Service Account Password](/docs/recoveryforactivedirectory/2.6/recoveryforactivedirectory/troubleshooting/updatepassword/sqlserverserviceaccount.md)
 topic.
 
 ## View License Information

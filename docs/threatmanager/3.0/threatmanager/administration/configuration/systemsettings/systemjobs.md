@@ -3,7 +3,7 @@
 The System Jobs page within the System Settings interface contains information and configuration
 options for the application system jobs.
 
-![System Settings interface on the System Jobs page](../../../../../../../static/img/product_docs/threatprevention/threatprevention/reportingmodule/configuration/systemsettings/page.webp)
+![System Settings interface on the System Jobs page](/img/product_docs/threatprevention/threatprevention/reportingmodule/configuration/systemsettings/page.webp)
 
 The table lists the system maintenance jobs:
 
@@ -18,7 +18,7 @@ The information available varies based on the type of job selected.
 The Report Maintenance job details page has two tabs that provide configuration options and job
 health details.
 
-![System Settings interface on the System Jobs page showing the Report Maintenance job Settings tab](../../../../../../../static/img/product_docs/threatprevention/threatprevention/reportingmodule/configuration/systemsettings/reportsettings.webp)
+![System Settings interface on the System Jobs page showing the Report Maintenance job Settings tab](/img/product_docs/threatprevention/threatprevention/reportingmodule/configuration/systemsettings/reportsettings.webp)
 
 Settings Tab
 
@@ -40,7 +40,7 @@ Health Tab
 
 The Health tab displays the following information:
 
-![Health tab of the Report Maintenance job details page](../../../../../../../static/img/product_docs/threatprevention/threatprevention/reportingmodule/configuration/systemsettings/reporthealth.webp)
+![Health tab of the Report Maintenance job details page](/img/product_docs/threatprevention/threatprevention/reportingmodule/configuration/systemsettings/reporthealth.webp)
 
 - Size of Reports Directory – Displays the size of the directory where reports are stored
 - Next Run Time – Date timestamp for the next time the job will run
@@ -50,7 +50,7 @@ The Health tab displays the following information:
 The Database Maintenance job details page has two tabs that provide configuration options and job
 health details.
 
-![System Settings interface on the System Jobs page showing the Database Maintenance job Settings tab](../../../../../../../static/img/product_docs/threatmanager/threatmanager/administration/configuration/systemsettings/databasesettings.webp)
+![System Settings interface on the System Jobs page showing the Database Maintenance job Settings tab](/img/product_docs/threatmanager/threatmanager/administration/configuration/systemsettings/databasesettings.webp)
 
 Settings Tab
 
@@ -85,7 +85,7 @@ Health Tab
 
 The Health tab displays the following information:
 
-![Health tab of the Database Maintenance job details page](../../../../../../../static/img/product_docs/threatmanager/threatmanager/administration/configuration/systemsettings/databasehealth.webp)
+![Health tab of the Database Maintenance job details page](/img/product_docs/threatmanager/threatmanager/administration/configuration/systemsettings/databasehealth.webp)
 
 - Database Size – Displays the size of the database file
 - Events in queue – Displays the number of events in queue for potential threat detection purposes

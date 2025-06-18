@@ -25,7 +25,7 @@ Follow the steps to add a vault connector for HashiCorp.
 
 **Step 2 –** In the Integration Connector list, click the Add Integration Connector icon.
 
-![Add HashiCorp Connector Integration](../../../../../../../../static/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/configuration/add/addhashicorp.webp)
+![Add HashiCorp Connector Integration](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/configuration/add/addhashicorp.webp)
 
 **Step 3 –** Enter the following information:
 

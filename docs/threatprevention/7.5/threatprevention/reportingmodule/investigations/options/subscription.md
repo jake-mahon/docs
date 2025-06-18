@@ -10,10 +10,10 @@ folder where it was saved.
 Click the Subscriptions link to open the Subscription to window. You can specify recipients to
 receive this report as an email attachment in a specified format.
 
-![Subscription window](../../../../../../../static/img/product_docs/threatprevention/threatprevention/reportingmodule/investigations/options/subscription.webp)
+![Subscription window](/img/product_docs/threatprevention/threatprevention/reportingmodule/investigations/options/subscription.webp)
 
 **NOTE:** This option requires an email server to be configured.If this requirement is not met, a
-message will appear in the window. See the[Email Page](../../configuration/integrations/email.md)
+message will appear in the window. See the[Email Page](/docs/threatprevention/7.5/threatprevention/reportingmodule/configuration/integrations/email.md)
 topic for additional information.
 
 ## Subscribe to an Investigation
@@ -64,5 +64,5 @@ Viewing.
 
 The subscription is listed on the Subscriptions and Exports page of the Investigations interface.
 
-See the [Subscriptions and Exports Page](../subscriptionsexports.md) topic for additional
+See the [Subscriptions and Exports Page](/docs/threatprevention/7.5/threatprevention/reportingmodule/investigations/subscriptionsexports.md) topic for additional
 information.

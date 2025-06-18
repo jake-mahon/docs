@@ -13,7 +13,7 @@ The purpose of this document is to provide the basic steps needed for upgrading 
 the stock solutions. Contact [Netwrix Support](https://www.netwrix.com/support.html) for additional
 information.
 
-See the [What's New](../../../whatsnew.md) topic for release information.
+See the [What's New](/docs/accessanalyzer/12.0/whatsnew.md) topic for release information.
 
 ## Considerations
 
@@ -55,7 +55,7 @@ versions for the Access Analyzer database.
 
 To grant access to additional Solutions in an existing Access Analyzer installation, a new license
 key is required. To update the Access Analyzer license key without installing a new version of the
-Access Analyzer Console, see the [Update License Key](../updatelicense.md) topic for instructions.
+Access Analyzer Console, see the [Update License Key](/docs/accessanalyzer/12.0/install/application/updatelicense.md) topic for instructions.
 
 License Key Changes
 
@@ -73,5 +73,5 @@ The following changes in licensing requires the organization needing a new key:
 
     - No additional licenses are required for this version
 
-See the [Update License Key](../updatelicense.md) section for instructions on updating the license
+See the [Update License Key](/docs/accessanalyzer/12.0/install/application/updatelicense.md) section for instructions on updating the license
 key.

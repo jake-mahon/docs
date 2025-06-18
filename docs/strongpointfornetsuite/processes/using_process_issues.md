@@ -17,7 +17,7 @@ continue to use that and reference the external ticket in the Change Request.
 
 1. Open **Strongpoint** > **Process Issue** > **New**
 
-    ![Initiate a Process Issue](../../../static/img/product_docs/strongpointfornetsuite/processes/process_issue.webp)
+    ![Initiate a Process Issue](/img/product_docs/strongpointfornetsuite/processes/process_issue.webp)
 
 2. Select a **Custom Form** or use the default **Process Issue Form**.
 3. Assign a **Number** for the Process Issue. This is any alphanumeric code you use to identify this
@@ -92,7 +92,7 @@ functionality, or edit the issue to update status information.
 
 Use the ERD tab to visually view the records and see the relationships.
 
-![processissue4](../../../static/img/product_docs/strongpointfornetsuite/processes/processissue4.webp)
+![processissue4](/img/product_docs/strongpointfornetsuite/processes/processissue4.webp)
 
 ## View Process Issues
 
@@ -110,4 +110,4 @@ You can also edit some fields inline:
    edited.
 3. Click in the column to open a text box.
 
-![Process Issue Reports](../../../static/img/product_docs/strongpointfornetsuite/processes/process_issue_overview.webp)
+![Process Issue Reports](/img/product_docs/strongpointfornetsuite/processes/process_issue_overview.webp)

@@ -2,7 +2,7 @@
 
 The Access Policies tab shows information about the policies associated with the selected resource.
 
-![Host Access Policies Tab](../../../../../../../../../static/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/tab/resources/accesspolicieshost.webp)
+![Host Access Policies Tab](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/tab/resources/accesspolicieshost.webp)
 
 The Access Policies tab has the following features:
 
@@ -13,7 +13,7 @@ The Access Policies tab has the following features:
 The table has the following columns:
 
 - Name — Displays the name of the policy. Click the link to view additional details. See the
-  [Access Policy Page](../../page/accesspolicy.md) topic for additional information.
+  [Access Policy Page](/docs/privilegesecure/4.2/privilegesecure/accessmanagement/admin/policy/page/accesspolicy.md) topic for additional information.
 - Description — Description of the policy
 
 The table columns can be resized and sorted in ascending or descending order.

@@ -1,7 +1,7 @@
 # UAR Admin
 
 **UAR Admin**manages the UAR process. Administrators login to NetSuite and open
-[User Access Review](../access_app.md) to access the dashboard. UAR administrators can:
+[User Access Review](/docs/strongpointfornetsuite/uar/access_app.md) to access the dashboard. UAR administrators can:
 
 - Assign owners to a role
 - Create Reviews to a Role
@@ -9,15 +9,15 @@
 
 Here is an example of the Admin dashboard displayed when you log in:
 
-![Admin Dashboard](../../../../static/img/product_docs/strongpointfornetsuite/uar/dashboard_admin.webp)
+![Admin Dashboard](/img/product_docs/strongpointfornetsuite/uar/dashboard_admin.webp)
 
 ## Dashboard Controls
 
 - **Home** icon is your dashboard overview, and the default display when you log in.
 - **Owner List** displays all reviews with an assigned owner.
 - **Pending Role Assignments** displays all reviews without an assigned owner.
-- **UAR List** is your **[User Access Reviews List](../uar_owner/owner_uar_list.md)**.
-- **UAR History** is your **[User Access Reviews History](../uar_history.md)**.
+- **UAR List** is your **[User Access Reviews List](/docs/strongpointfornetsuite/uar/uar_owner/owner_uar_list.md)**.
+- **UAR History** is your **[User Access Reviews History](/docs/strongpointfornetsuite/uar/uar_history.md)**.
 - **Open Global Reviews** shortcut shows the number of open reviews. Opens your **User Access
   Reviews List**.
 - **Pending Role Assignments** shortcut shows the number of roles without review owners. Opens your

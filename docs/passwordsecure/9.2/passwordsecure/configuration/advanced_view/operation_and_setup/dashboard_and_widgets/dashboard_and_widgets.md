@@ -6,14 +6,14 @@ In case of large installations, the amount of information provided by Netwrix Pa
 seem overwhelming. Dashboards expand the existing filter possibilities by an arbitrarily
 customizable info area, which visually prepares important events or facts
 
-![Dashboard](../../../../../../../../static/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/operation_and_setup/dashboard_and_widgets/installation_with_parameters_50-en.webp)
+![Dashboard](/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/operation_and_setup/dashboard_and_widgets/installation_with_parameters_50-en.webp)
 
-Dashboards are available in almost all [Client Module](../../clientmodule/client_module.md)s. A
+Dashboards are available in almost all [Client Module](/docs/passwordsecure/9.2/passwordsecure/configuration/advanced_view/clientmodule/client_module.md)s. A
 separate dashboard can be set for each individual module. **Widgets** correspond to the individual
 modules of the dashboard. There are various widgets, which can be individually defined and can be
 configured separately. In the above example, three widgets are enabled and provide information about
 current notifications, password quality, and user activity. The **maximum number of possible
-widgets** is managed in the[User settings](../../mainmenu/user_settings/user_settings.md).
+widgets** is managed in the[User settings](/docs/passwordsecure/9.2/passwordsecure/configuration/advanced_view/mainmenu/user_settings/user_settings.md).
 
 NOTE: You can close the dashboard using the button in the tab. You can open it again via **View** >
 **Show dashboard** in the ribbon.
@@ -37,7 +37,7 @@ The following options are available in combination with the dashboard and widget
 If the dashboard tab is enabled, you can enable the dashboard editing mode via the ribbon. Adding
 and editing widgets is only possible in this mode.
 
-![Adding and removing widgets](../../../../../../../../static/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/operation_and_setup/dashboard_and_widgets/installation_with_parameters_51-en.webp)
+![Adding and removing widgets](/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/operation_and_setup/dashboard_and_widgets/installation_with_parameters_51-en.webp)
 
 Use the drop-down menu to select the widget to be added \* (1) . **Then add the widget to the
 dashboard using the corresponding button in the ribbon** (2). The maximum number of widgets that can
@@ -45,14 +45,14 @@ be added can be configured in the user settings. In editing mode, any widget can
 from the dashboard via the button on the upper right edge. The processing mode is ended by saving
 via the ribbon.
 
-![Adding widgets](../../../../../../../../static/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/operation_and_setup/dashboard_and_widgets/installation_with_parameters_52-en.webp)
+![Adding widgets](/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/operation_and_setup/dashboard_and_widgets/installation_with_parameters_52-en.webp)
 
 ## Customizing widgets
 
 In the editing mode, you can customize each widget separately. To do this, select the widget and
 switch to the \* widget content tab \* in the ribbon.
 
-![Customizing widgets](../../../../../../../../static/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/operation_and_setup/dashboard_and_widgets/installation_with_parameters_53-en.webp)
+![Customizing widgets](/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/operation_and_setup/dashboard_and_widgets/installation_with_parameters_53-en.webp)
 
 Separate variables can be customized for each widget. This example shows how often users have had
 passwords displayed. Naturally, the variables are distinct for each widget since other information
@@ -66,11 +66,11 @@ the dashboard not only displays all activities, but also filters them according 
 in the **Team List** widget. It therefore concerns all activities of the user “Moore”. These are
 filtered “live” and displayed in real-time.
 
-![Widget event](../../../../../../../../static/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/operation_and_setup/dashboard_and_widgets/installation_with_parameters_54-en.webp)
+![Widget event](/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/operation_and_setup/dashboard_and_widgets/installation_with_parameters_54-en.webp)
 
 ## Arranging widgets
 
 In the edit mode, the layout of the widgets is user-defined. Drag & drop allows you to place a
 widget in the corresponding position on the dashboard (left, right, top, or bottom).
 
-![Arranging widgets](../../../../../../../../static/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/operation_and_setup/dashboard_and_widgets/installation_with_parameters_55-en.webp)
+![Arranging widgets](/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/operation_and_setup/dashboard_and_widgets/installation_with_parameters_55-en.webp)

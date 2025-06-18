@@ -3,7 +3,7 @@
 The Actions tab is for configuring various responses, or event consumers, to the event data a policy
 captures.
 
-![Template – Actions tab](../../../../../../static/img/product_docs/threatprevention/threatprevention/admin/policies/actions/actionstab.webp)
+![Template – Actions tab](/img/product_docs/threatprevention/threatprevention/admin/policies/actions/actionstab.webp)
 
 The following types of actions are available:
 
@@ -50,14 +50,14 @@ alert. Reporting uses the events database.
 This action is added by selecting the desired SIEM profile to be the recipient of the SIEM
 notifications from the drop-down menu. Only SIEM profiles previously created are available for
 selection. This action can also be assigned on the
-[SIEM Tab](../configuration/systemalerting/siem.md) of the System Alerting Window.
+[SIEM Tab](/docs/threatprevention/7.5/threatprevention/admin/configuration/systemalerting/siem.md) of the System Alerting Window.
 
 All notifications sent to SIEM are also displayed on the
-[SIEM Output Viewer](../configuration/siemoutputviewer.md) window.
+[SIEM Output Viewer](/docs/threatprevention/7.5/threatprevention/admin/configuration/siemoutputviewer.md) window.
 
 **NOTE:** To enable this feature, a Threat Prevention administrator must first establish a
 connection with the SIEM server and configure the mapping file through the
-[System Alerting Window](../configuration/systemalerting/overview.md).
+[System Alerting Window](/docs/threatprevention/7.5/threatprevention/admin/configuration/systemalerting/overview.md).
 
 ## Send to Netwrix Threat Manager
 
@@ -68,7 +68,7 @@ purposes.
 
 **NOTE:** To enable this feature, the Web Request Action Module (Netwrix Threat Manager URI) must be
 created and configured by a Threat Prevention administrator through the
-[Event Sink Tab](../configuration/threatmanagerconfiguration.md#event-sink-tab) on the Netwrix
+[Event Sink Tab](/docs/threatprevention/7.5/threatprevention/admin/configuration/threatmanagerconfiguration.md#event-sink-tab) on the Netwrix
 Threat Manager Configuration window.
 
 ## Email Notifications
@@ -79,9 +79,9 @@ feature for policies where immediate notification of an event is needed.
 To enable email notifications, select the desired message profile to be recipient of the email
 notifications from the drop-down menu. Only message profiles previously created are available for
 selection. This action can also be assigned on the
-[System Alerting Window](../configuration/systemalerting/overview.md).
+[System Alerting Window](/docs/threatprevention/7.5/threatprevention/admin/configuration/systemalerting/overview.md).
 
-![Actions tab - Email Notifications section](../../../../../../static/img/product_docs/threatprevention/threatprevention/admin/policies/actions/emailnotificationssetup.webp)
+![Actions tab - Email Notifications section](/img/product_docs/threatprevention/threatprevention/admin/policies/actions/emailnotificationssetup.webp)
 
 Enable the Email Notifications checkbox, select a message profile and then choose to enable the
 **Prevent Repeat Emails by** option. If enabled:
@@ -117,7 +117,7 @@ notifications will not be generated.
 
 **NOTE:** To enable email notifications, the SMTP gateway must first be configured and message
 profiles created by a Threat Prevention  administrator, which is done through the
-[System Alerting Window](../configuration/systemalerting/overview.md).
+[System Alerting Window](/docs/threatprevention/7.5/threatprevention/admin/configuration/systemalerting/overview.md).
 
 ## Custom Scripts
 
@@ -130,12 +130,12 @@ In the Actions Configurations area at the top of the tab, assigned File, .NET Sc
 
 See the following topics for additional information:
 
-- [File Actions](../policies/actions/file.md)
-- [.NET Script Actions](../policies/actions/netscript.md)
+- [File Actions](/docs/threatprevention/7.5/threatprevention/admin/policies/actions/file.md)
+- [.NET Script Actions](/docs/threatprevention/7.5/threatprevention/admin/policies/actions/netscript.md)
 
     - Optionally, custom scripts can be provided through a Netwrix Statement of Work.
 
-- [PowerShell 4.0 Actions](../policies/actions/powershell.md)
+- [PowerShell 4.0 Actions](/docs/threatprevention/7.5/threatprevention/admin/policies/actions/powershell.md)
 
     - Optionally, custom scripts can be provided through a Netwrix Statement of Work.
 

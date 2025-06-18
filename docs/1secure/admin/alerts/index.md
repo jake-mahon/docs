@@ -18,7 +18,7 @@ impact your organization's security, enabling you to respond swiftly to potentia
 You can access the generated alerts in the following ways:
 
 - View the alerts generated for an organization on the Netwrix 1Secure dashboard. See the
-  [1Secure Dashboard](../dashboard/index.md) topic for additional information.
+  [1Secure Dashboard](/docs/1secure/admin/dashboard/index.md) topic for additional information.
 - Receive alerts as email notifications sent to the specified email address(es). See the
   [Manage Delivery Settings for an Alert Profile](profiles.md#manage-delivery-settings-for-an-alert-profile) topic
   for setting up email notifications.
@@ -29,7 +29,7 @@ Follow the steps to view the alerts within an alert profile.
 
 **Step 2 –** Click an alert profile. The alerts for the profile are displayed in a list.
 
-![Alerts List within an alert profile](../../../../static/img/product_docs/1secure/admin/alerts/alertslist.webp)
+![Alerts List within an alert profile](/img/product_docs/1secure/admin/alerts/alertslist.webp)
 
 You can view the following for each alert in the list:
 
@@ -57,10 +57,10 @@ Follow the steps to add a custom alert.
 
 **Step 3 –** Click **Add**. The New Alert pane is displayed.
 
-![New Alert Pane](../../../../static/img/product_docs/1secure/admin/alerts/addcustomalert.webp)
+![New Alert Pane](/img/product_docs/1secure/admin/alerts/addcustomalert.webp)
 
 **Step 4 –** Select a custom report from the Report drop-down menu to trigger the alert when a new
-record is generated for the report. See the [ Custom Reports](../searchandreports/customreports.md)
+record is generated for the report. See the [ Custom Reports](/docs/1secure/admin/searchandreports/customreports.md)
 topic for additional information.
 
 **Step 5 –** Specify a name and description for the alert.

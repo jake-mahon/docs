@@ -60,11 +60,11 @@ Follow the steps to change a group's primary owner.
 
 2. Select the required group and click **Properties** on the toolbar.
 3. The group's properties page is displayed.
-4. On the [Group properties - Owner tab](../properties/owner.md), the **Owner** box displays the
+4. On the [Group properties - Owner tab](/docs/groupid/11.1/groupid/portal/group/properties/owner.md), the **Owner** box displays the
    group's primary owner.
 
     To change the primary owner, click **Browse** to launch the
-    [Find Dialog Box](../../search/find.md), where you can search and select another owner.
+    [Find Dialog Box](/docs/groupid/11.1/groupid/portal/search/find.md), where you can search and select another owner.
 
 5. Save the changes.
 
@@ -87,11 +87,11 @@ impact on the number of additional owners the group can have.
     The Groups page is displayed with the **My Groups** tab in view.
 
 2. Select the required group and click **Properties** on the toolbar.
-3. The group's [Group Properties](../properties/overview.md) page is displayed.
-4. On the [Group properties - Owner tab](../properties/owner.md), click **Add** in the **Additional
+3. The group's [Group Properties](/docs/groupid/11.1/groupid/portal/group/properties/overview.md) page is displayed.
+4. On the [Group properties - Owner tab](/docs/groupid/11.1/groupid/portal/group/properties/owner.md), click **Add** in the **Additional
    Owners** area.
 5. Enter a search string to locate the object to add as an additional owner, or click **Advanced**
-   to use the [Find Dialog Box](../../search/find.md) for performing a search.
+   to use the [Find Dialog Box](/docs/groupid/11.1/groupid/portal/search/find.md) for performing a search.
 6. By default, all group-related notifications (such as group expiry, deletion, and renewal
    notifications) are sent to the primary owner and all additional owners. To exclude an additional
    owner from receiving notifications, select the **Do not notify** check box.
@@ -114,16 +114,16 @@ Follow the steps to import additional owners for a group.
 
     Or
 
-    [Directory Search](../../search/search.md) a group to import its additional owners from an
+    [Directory Search](/docs/groupid/11.1/groupid/portal/search/search.md) a group to import its additional owners from an
     external file.
 
 2. Select the required from the list. and click **Properties** on the toolbar.
 
-    The group's [Group Properties](../properties/overview.md) page is displayed.
+    The group's [Group Properties](/docs/groupid/11.1/groupid/portal/group/properties/overview.md) page is displayed.
 
-3. On the [Group properties - Owner tab](../properties/owner.md), click **Import** to launch the
+3. On the [Group properties - Owner tab](/docs/groupid/11.1/groupid/portal/group/properties/owner.md), click **Import** to launch the
    **Import Additional Owners** wizard.
-4. See [Import Additional Owners](../properties/importadditionalowners.md) for further information
+4. See [Import Additional Owners](/docs/groupid/11.1/groupid/portal/group/properties/importadditionalowners.md) for further information
    and instructions.
 5. Save the changes.
 
@@ -137,12 +137,12 @@ You can export additional owners of a group to an external file.
 
     Or
 
-    [Directory Search](../../search/search.md) a group to export its additional owners to an
+    [Directory Search](/docs/groupid/11.1/groupid/portal/search/search.md) a group to export its additional owners to an
     external file.
 
 2. Select the group and click **Properties** on the toolbar.
 
-    The group's [Group Properties](../properties/overview.md) page is displayed.
+    The group's [Group Properties](/docs/groupid/11.1/groupid/portal/group/properties/overview.md) page is displayed.
 
 3. On the **Owner** tab, click **Export** to launch the **Export Additional Owners** wizard.
 4. On the **Attributes** page:
@@ -169,10 +169,10 @@ You can export additional owners of a group to an external file.
 Ownership type indicates whether an object is a temporary or permanent additional owner of a group.
 You can change the ownership type of an additional owner from temporary to permanent and vice versa.
 
-1. [Directory Search](../../search/search.md) a group to change the ownership type of its additional
+1. [Directory Search](/docs/groupid/11.1/groupid/portal/search/search.md) a group to change the ownership type of its additional
    owner(s).
 2. Select this group on the Search Results page and click **Properties** on the toolbar.
-3. On the group's [Group Properties](../properties/overview.md) page, click the **Owner** tab.
+3. On the group's [Group Properties](/docs/groupid/11.1/groupid/portal/group/properties/overview.md) page, click the **Owner** tab.
 4. To change the ownership type of an additional owner, click anywhere in the respective row to make
    it editable, and select an option from the **Ownership** list:
 
@@ -246,10 +246,10 @@ Exchange additional group owners.
     The Groups page is displayed with the **My Groups** tab in view.
 
 2. Select the required group and click **Properties** on the toolbar.
-3. The group's [Group Properties](../properties/overview.md) page is displayed.
+3. The group's [Group Properties](/docs/groupid/11.1/groupid/portal/group/properties/overview.md) page is displayed.
 4. On the **Email** tab, click **Add** in the **Managed By** area.
 5. Enter a search string to locate the object to add as an Exchange additional owner, or click
-   **Advance** to use the [Find Dialog Box](../../search/find.md) for performing a search.
+   **Advance** to use the [Find Dialog Box](/docs/groupid/11.1/groupid/portal/search/find.md) for performing a search.
 
     NOTE: Only mail-enabled users can be set as Exchange additional owners.
 

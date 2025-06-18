@@ -2,7 +2,7 @@
 
 A Workflow Acceleration schedule facilitates the workflow approver acceleration process for workflow
 requests. This schedule is auto created when approver acceleration is enabled for the identity
-store. See the [Workflow Approver Acceleration](../workflow/approveracceleration.md) topic for
+store. See the [Workflow Approver Acceleration](/docs/groupid/11.1/groupid/admincenter/workflow/approveracceleration.md) topic for
 additional information.
 
 By default, the schedule runs daily to accelerate workflow requests to approvers, according to
@@ -32,7 +32,7 @@ notifications
 Step 6 – In the Scheduler Service Name drop-down list, select a Scheduler service that would be
 responsible for triggering this schedule. The number of services displayed in the list depend on the
 number of nodes in all Elasticsearch clusters in the environment, as each node has its own Scheduler
-service. See the [Scheduler Service](../service/schedulerservice.md) topic for additional
+service. See the [Scheduler Service](/docs/groupid/11.1/groupid/admincenter/service/schedulerservice.md) topic for additional
 information.
 
 Please note the following while selecting a Scheduler service:

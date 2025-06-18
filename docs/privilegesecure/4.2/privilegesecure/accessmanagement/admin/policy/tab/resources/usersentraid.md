@@ -7,7 +7,7 @@ selected resource.
 domain resource (if the on-premises domain has been synced by Privilege Secure). This view will show
 cloud-only EntraID users.
 
-![Users Tab Entra ID](../../../../../../../../../static/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/tab/resources/usersazuread.webp)
+![Users Tab Entra ID](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/tab/resources/usersazuread.webp)
 
 The Users tab has the following features:
 
@@ -22,7 +22,7 @@ The Users tab has the following features:
 - View History — Opens the Password History window to displays the password history for the account
 - Password Reset Options — Customize password rotation options. This option is only available for
   managed accounts. See the
-  [Password Reset Options Window](../../window/resources/passwordresetoptions.md) topic for
+  [Password Reset Options Window](/docs/privilegesecure/4.2/privilegesecure/accessmanagement/admin/policy/window/resources/passwordresetoptions.md) topic for
   additional information.
 - Search — Searches the table or list for matches to the search string. When matches are found, the
   table or list is filtered to the matching results.
@@ -38,11 +38,11 @@ The table has the following columns:
 - Age — Number of days since the last credential rotation or from when the password was first
   created
 - Managed — Indicates if the account is managed by Privilege Secure. See the
-  [Credentials Page](../../page/credentials.md) topic for additional information.
+  [Credentials Page](/docs/privilegesecure/4.2/privilegesecure/accessmanagement/admin/policy/page/credentials.md) topic for additional information.
 - Rotate Start | End — Indicates if the account will have a password rotation on session start, end,
   both, or neither
 - Status — Indicates if the account credentials have been verified by Privilege Secure. See the
-  [Platforms Page](../../page/platforms/overview.md) topic for additional information on configuring
+  [Platforms Page](/docs/privilegesecure/4.2/privilegesecure/accessmanagement/admin/policy/page/platforms/overview.md) topic for additional information on configuring
   a verification schedule.
 
     - Unspecified — Verification check has not run

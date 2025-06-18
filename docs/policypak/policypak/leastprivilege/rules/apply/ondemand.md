@@ -1,7 +1,7 @@
 # Apply on Demand Rules
 
 **NOTE:** See the
-[Least Privilege Manager: Apply On Demand](../../../video/leastprivilege/applyondemand.md) video for
+[Least Privilege Manager: Apply On Demand](/docs/policypak/policypak/video/leastprivilege/applyondemand.md) video for
 information on Endpoint Policy ManagerLeast Privilege Manager Apply on Demand.
 
 The Apply on Demand feature enables advanced users to know when they should self-elevate their own
@@ -19,7 +19,7 @@ and set the action to **Apply on Demand**.
 ![A screenshot of a computer
 
 Description automatically
-generated](../../../../../../static/img/product_docs/policypak/policypak/leastprivilege/rules/apply/apply_on_demand_rules.webp)
+generated](/img/product_docs/policypak/policypak/leastprivilege/rules/apply/apply_on_demand_rules.webp)
 
 The result of this change (after running GPupdate) is that when the end-user tries to run Procmon,
 they will see the standard UAC prompt.
@@ -31,7 +31,7 @@ prompt (if the application requires UAC), like the one shown here.
 ![A screenshot of a computer
 
 Description automatically
-generated](../../../../../../static/img/product_docs/policypak/policypak/leastprivilege/rules/apply/apply_on_demand_rules.webp)
+generated](/img/product_docs/policypak/policypak/leastprivilege/rules/apply/apply_on_demand_rules.webp)
 
 The user will now need to right-click the application and choose **Run with Endpoint Policy Manager
 On-Demand**.
@@ -39,11 +39,11 @@ On-Demand**.
 ![A screenshot of a computer
 
 Description automatically
-generated](../../../../../../static/img/product_docs/policypak/policypak/leastprivilege/rules/apply/apply_on_demand_rules_1.webp)
+generated](/img/product_docs/policypak/policypak/leastprivilege/rules/apply/apply_on_demand_rules_1.webp)
 
 **NOTE:** You can change the name of the menu item from **Run with** Endpoint Policy Manager
 **On-Demand** via Global Settings Policy.. See the
-[Best Practices and Miscellaneous Topics](../../bestpractices/overviewmisc.md) topic for additional
+[Best Practices and Miscellaneous Topics](/docs/policypak/policypak/leastprivilege/bestpractices/overviewmisc.md) topic for additional
 information on Global Settings Policy.
 
 When the user does this, the application launches, bypassing the UAC prompt.

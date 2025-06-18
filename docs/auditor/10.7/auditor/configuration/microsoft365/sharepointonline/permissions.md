@@ -26,10 +26,10 @@ administrative role will be required:
       section for additional information.
     - You will need to provide the Microsoft Entra ID app settings in the monitored item (Office 365
       tenant) properties. See the
-      [Microsoft Entra ID](../../../admin/monitoringplans/microsoftentraid/overview.md) topic for
+      [Microsoft Entra ID](/docs/auditor/10.7/auditor/admin/monitoringplans/microsoftentraid/overview.md) topic for
       additional information.
 
-See the [Using Modern Authentication with SharePoint Online](modernauth.md) topic for additional
+See the [Using Modern Authentication with SharePoint Online](/docs/auditor/10.7/auditor/configuration/microsoft365/sharepointonline/modernauth.md) topic for additional
 information.
 
 - If Basic Authentication is used:
@@ -40,7 +40,7 @@ information.
       administrative role in Microsoft Entra ID — to create an app and perform initial data
       collection.
     - Provide this user name and password in the monitored item properties. See the
-      [Microsoft Entra ID](../../../admin/monitoringplans/microsoftentraid/overview.md) topic for
+      [Microsoft Entra ID](/docs/auditor/10.7/auditor/admin/monitoringplans/microsoftentraid/overview.md) topic for
       additional information.
     - Permissions for ongoing data collection will depend on data you plan to collect:
 
@@ -49,5 +49,5 @@ information.
         - To collect activity data only, the privileged role can be revoked from the specified
           account after the initial data collection.
 
-See the [Using Basic Authentication with SharePoint Online](basicauth.md) topic for additional
+See the [Using Basic Authentication with SharePoint Online](/docs/auditor/10.7/auditor/configuration/microsoft365/sharepointonline/basicauth.md) topic for additional
 information.

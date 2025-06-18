@@ -25,7 +25,7 @@ You should familiarize yourself with the idea of rings, which is a Microsoft con
 controlled rollouts. Endpoint Policy Manager aligns with this ring philosophy and as such, getting
 familiar with those concepts is well advised. This idea is applicable for all delivery methods:
 Group Policy, MDM, SCCM, or Cloud. This manual will examine the concept of rings. See the
-[Using Rings to Test and Update the Endpoint Policy Manager Client-Side Extension and/or Cloud Client (And How to Stay Supported)](../rings.md) topic
+[Using Rings to Test and Update the Endpoint Policy Manager Client-Side Extension and/or Cloud Client (And How to Stay Supported)](/docs/policypak/policypak/install/rings.md) topic
 for additional information
 
 In general, the best route to take for upgrading from any previous version is the following:
@@ -42,11 +42,11 @@ distribute those to your admin team. Sometimes the latest helper tool must match
 the MMC editor.
 
 **Step 4 –** Update the Endpoint Policy Manager ADMX (troubleshooting) files. (Video tip:
-[Troubleshooting with ADMX files](../../video/troubleshooting/admxfiles.md))
+[Troubleshooting with ADMX files](/docs/policypak/policypak/video/troubleshooting/admxfiles.md))
 
 **Step 5 –** Roll out the CSE in a controlled fashion to your endpoints using the ring methodology.
 
-![upgrading_tips_624x267](../../../../../static/img/product_docs/policypak/policypak/install/upgrade/upgrading_tips_624x267.webp)
+![upgrading_tips_624x267](/img/product_docs/policypak/policypak/install/upgrade/upgrading_tips_624x267.webp)
 
 **CAUTION:** Do not attempt to roll out the CSE to 100% of your computer population at once. If
 Endpoint Policy Manager fails to operate in an expected manner and locks up, or otherwise makes your
@@ -57,7 +57,7 @@ the CSE to endpoint machines gradually.
 be making backups from time to time. Inside the GPMC, find the Group Policy Objects node,
 right-click, select Backup, and then follow the prompts. For additional information on how to
 preform a Group Policy backup, see the
-[Endpoint Policy Manager: Backup and Restore Options to Recover from nearly any problem](../../video/troubleshooting/backupoptions.md)
+[Endpoint Policy Manager: Backup and Restore Options to Recover from nearly any problem](/docs/policypak/policypak/video/troubleshooting/backupoptions.md)
 and
-[Endpoint Policy Manager Application Settings Manager: Backup, Restore, Export, Import](../../video/troubleshooting/backup.md)
+[Endpoint Policy Manager Application Settings Manager: Backup, Restore, Export, Import](/docs/policypak/policypak/video/troubleshooting/backup.md)
 video demos.

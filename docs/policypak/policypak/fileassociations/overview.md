@@ -10,7 +10,7 @@ This is a self-imposed limitation by Microsoft on this Windows 10 feature.
 ## About File Associations Manager
 
 **NOTE:** Before reading this section, please ensure you have read
-[Installation Quick Start](../gettingstarted/quickstart/overviewinstall.md), which will help you
+[Installation Quick Start](/docs/policypak/policypak/gettingstarted/quickstart/overviewinstall.md), which will help you
 learn to do the following:
 
 - Install the Admin MSI on your GPMC machine
@@ -21,7 +21,7 @@ learn to do the following:
 Optionally, if you don't want to use Group Policy, read the section on Advanced Concepts on Group
 Policy and non–Group Policy methods (MEMCM, KACE, and MDM service or Netwrix Endpoint Policy Manager
 (formerly PolicyPak) Cloud), located in the
-[Endpoint Privilege Manager Implementation QuickStart Guide](../leastprivilege/pplpmimplementationguide.md)
+[Endpoint Privilege Manager Implementation QuickStart Guide](/docs/policypak/policypak/leastprivilege/pplpmimplementationguide.md)
 to deploy your directives.
 
 Endpoint Policy Manager File Associations Manager enables you to perform the following operations in

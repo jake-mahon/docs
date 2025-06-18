@@ -9,14 +9,14 @@ Skype app, which is typically pre-installed in all versions of Windows 10. The f
 this would be to use the **Remove Package** function, then select **Name** and type in \*skype\*
 which will match on anything with the word Skype in the name.
 
-![appx_policies_and_settings_8](../../../../../static/img/product_docs/policypak/policypak/softwarepackage/appx/appx_policies_and_settings_8.webp)
+![appx_policies_and_settings_8](/img/product_docs/policypak/policypak/softwarepackage/appx/appx_policies_and_settings_8.webp)
 
 Then on the endpoint run GPUpdate to acquire the policy change. You should see Skype go from present
 to removed.
 
-![appx_policies_and_settings_9](../../../../../static/img/product_docs/policypak/policypak/softwarepackage/appx/appx_policies_and_settings_9.webp)
+![appx_policies_and_settings_9](/img/product_docs/policypak/policypak/softwarepackage/appx/appx_policies_and_settings_9.webp)
 
-![appx_policies_and_settings_10](../../../../../static/img/product_docs/policypak/policypak/softwarepackage/appx/appx_policies_and_settings_10.webp)
+![appx_policies_and_settings_10](/img/product_docs/policypak/policypak/softwarepackage/appx/appx_policies_and_settings_10.webp)
 
 Get-AppxPackage | Where-Object -Property 'Publisher' -NE -Value 'CN=Microsoft Windows, O=Microsoft
 Corporation, L=Redmond, S=Washington, C=US' | Where-Object -Property 'Publisher' -NE -Value

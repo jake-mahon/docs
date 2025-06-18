@@ -18,11 +18,11 @@ Browser Router problems.
 
 Problems which might arise are typically websites with "multiple tabs" like this:
 
-![589_1_img-01_950x137](../../../../../../static/img/product_docs/policypak/policypak/troubleshooting/browserrouter/editpolicytemplate/589_1_img-01_950x137.webp)
+![589_1_img-01_950x137](/img/product_docs/policypak/policypak/troubleshooting/browserrouter/editpolicytemplate/589_1_img-01_950x137.webp)
 
 In these cases, you would need to go through EACHEndpoint Policy Manager Browser Router entry and
 UN-check the Experimental flag checkbox.
 
 Then you issues should be resolved.
 
-![589_3_img-02_950x665](../../../../../../static/img/product_docs/policypak/policypak/troubleshooting/browserrouter/editpolicytemplate/589_3_img-02_950x665.webp)
+![589_3_img-02_950x665](/img/product_docs/policypak/policypak/troubleshooting/browserrouter/editpolicytemplate/589_3_img-02_950x665.webp)

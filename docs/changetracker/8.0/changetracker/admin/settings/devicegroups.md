@@ -19,7 +19,7 @@ Click on a Device Group name to configure further attributes for the Group, such
 - Device Tracking Policy
 - Compliance Report(s)
 - Group Members, with the option to export a list of group Members
-- Define the schedule for [Agent Updates](agentupdates.md)
+- Define the schedule for [Agent Updates](/docs/changetracker/8.0/changetracker/admin/settings/agentupdates.md)
 
 ![page_guide_28](/img/versioned_docs/changetracker_8.0/changetracker/admin/settings/page_guide_28.webp)
 
@@ -44,7 +44,7 @@ The key tags within the file are as follows:
 ![page_guide_29](/img/versioned_docs/changetracker_8.0/changetracker/admin/settings/page_guide_29.webp)
 
 \*The **Thumbprint** uniquely identifies the Web Server certificate, see the
-[How to: Retrieve the Thumbprint of a Certificate](<https://msdn.microsoft.com/en-us/library/ms734695(v=vs.110).aspx>)
+[How to: Retrieve the Thumbprint of a Certificate](https://msdn.microsoft.com/en-us/library/ms734695(v=vs.110).aspx)
 Microsoft article for additional information.
 
 **NOTE:** Agent also supports additional nodes – **NamePrefix** and **NameSuffix**.

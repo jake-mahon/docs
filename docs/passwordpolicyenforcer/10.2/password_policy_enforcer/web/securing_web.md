@@ -25,7 +25,7 @@ Refer to the following documentation for more information:
 - Windows 2012 & 2008
 
     - See the
-      [Configure Server Certificates in IIS 7](<https://docs.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc732230(v=ws.10)?redirectedfrom=MSDN>)
+      [Configure Server Certificates in IIS 7](https://docs.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc732230(v=ws.10)?redirectedfrom=MSDN)
       Microsoft knowledge base article for additional information.
 
 - Windows 2003

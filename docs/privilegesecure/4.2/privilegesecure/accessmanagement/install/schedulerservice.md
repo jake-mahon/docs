@@ -7,7 +7,7 @@ Privilege Secure Console installer. It is also available for download from the S
 if required.
 
 **NOTE:** Before you begin, the Proxy Service must be installed on any server running services for
-Privilege Secure. See the [Proxy Service Install](proxyservice.md) topic for installation
+Privilege Secure. See the [Proxy Service Install](/docs/privilegesecure/4.2/privilegesecure/accessmanagement/install/proxyservice.md) topic for installation
 instructions.
 
 Follow the steps to install the Scheduler Service.
@@ -22,11 +22,11 @@ server.
 **Step 3 –** Open the NPS.SchedulerService.exe and thePrivilege Secure Scheduler Service Setup
 wizard will open.
 
-![licenseagreement](../../../../../../static/img/product_docs/threatprevention/threatprevention/install/licenseagreement.webp)
+![licenseagreement](/img/product_docs/threatprevention/threatprevention/install/licenseagreement.webp)
 
 **Step 4 –** To install the Scheduler Service in an alternate location, click **Options**.
 
-![scheduleoptions](../../../../../../static/img/product_docs/privilegesecure/privilegesecure/accessmanagement/install/scheduleoptions.webp)
+![scheduleoptions](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/install/scheduleoptions.webp)
 
 **Step 5 –** Enter the destination folder for installation and click OK.
 
@@ -36,7 +36,7 @@ Agreement checkbox.
 **Step 7 –** Click Install to begin the installation. The setup wizard displays the installation
 progress.
 
-![installcompleted](../../../../../../static/img/product_docs/privilegesecure/privilegesecure/accessmanagement/install/installcompleted.webp)
+![installcompleted](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/install/installcompleted.webp)
 
 **Step 8 –** When the installation is complete, click Close to exit the installer.
 
@@ -55,7 +55,7 @@ Follow the steps to configure the key exchange.
 
 **Step 2 –** Type the following commands to export the encryption keys for the secondary:
 
-[Copy](<javascript:void(0);>)
+[Copy](javascript:void(0);)
 
 Encryption Key Export
 
@@ -76,7 +76,7 @@ server.
 
 **Step 6 –** Type the following commands to import the encryption keys:
 
-[Copy](<javascript:void(0);>)
+[Copy](javascript:void(0);)
 
 Encryption Key Import
 

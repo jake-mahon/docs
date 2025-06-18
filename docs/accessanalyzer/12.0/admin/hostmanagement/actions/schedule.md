@@ -7,16 +7,16 @@ of the following:
 - An individual host list
 - Selected hosts in a list
 
-![Schedule option on the Activities pane](../../../../../../static/img/product_docs/threatprevention/threatprevention/admin/configuration/databasemaintenance/schedule.webp)
+![Schedule option on the Activities pane](/img/product_docs/threatprevention/threatprevention/admin/configuration/databasemaintenance/schedule.webp)
 
 Select the hosts or host list to inventory and click **Schedule** in the Activities pane. The
 Schedule Wizard opens for the selected host or host list.
 
-![Schedule Wizard for Host Inventory Query](../../../../../../static/img/product_docs/accessanalyzer/admin/hostmanagement/actions/schedulewizardhostmanagement.webp)
+![Schedule Wizard for Host Inventory Query](/img/product_docs/accessanalyzer/admin/hostmanagement/actions/schedulewizardhostmanagement.webp)
 
 Use the Schedule Wizard to configure the scheduled task. See the
-[Schedule Wizard](../../schedule/wizard.md) topic for additional information.
+[Schedule Wizard](/docs/accessanalyzer/12.0/admin/schedule/wizard.md) topic for additional information.
 
 The details of the scheduled Inventory query are available in the **Schedules** view, including the
-next run date and time. See the [Schedules](../../schedule/overview.md) topic for additional
+next run date and time. See the [Schedules](/docs/accessanalyzer/12.0/admin/schedule/overview.md) topic for additional
 information.

@@ -32,7 +32,7 @@ site.
 **To create a site in remote IIS:**
 
 1. Launch Internet Information Services (IIS) Manager (see
-   [Opening IIS Manager](<https://docs.microsoft.com/en-us/previous-versions/iis/6.0-sdk/ms525920(v=vs.90)>)).
+   [Opening IIS Manager](https://docs.microsoft.com/en-us/previous-versions/iis/6.0-sdk/ms525920(v=vs.90).
 2. In the left pane, right-click **Sites** and select **Add Website**.
 
     ![Add a website in IIS](/img/versioned_docs/groupid_11.0/groupid/admincenter/portal/addsite.webp)

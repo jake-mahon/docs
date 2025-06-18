@@ -2,7 +2,7 @@
 
 Once a host is being monitored the event stream can be sent to multiple outputs.
 
-![Output Properties Overview](../../../../../../static/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/outputpropertiesoverview.webp)
+![Output Properties Overview](/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/outputpropertiesoverview.webp)
 
 Configured outputs are grouped under the host. You can have multiple outputs configured for a host.
 The host event outputs are:
@@ -19,14 +19,14 @@ Follow the steps to add a File output.
 
 **Step 2 –** Select **File** from the drop-down menu. The Add New Output window opens.
 
-![addnewoutputfile](../../../../../../static/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/addnewoutputfile.webp)
+![addnewoutputfile](/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/addnewoutputfile.webp)
 
 **Step 3 –** Configure the tab(s) as desired.
 
 **Step 4 –** Click **Add Output** to save your settings. The Add New Output window closes.
 
 The new output displays in the table. Click the **Edit** button to open the Output properties window
-to modify these settings. See the [Output Types](../outputs/overview.md) topic for additional
+to modify these settings. See the [Output Types](/docs/activitymonitor/8.0/activitymonitor/admin/outputs/overview.md) topic for additional
 information.
 
 ## Add Syslog Output
@@ -37,12 +37,12 @@ Follow the steps to add a Syslog output.
 
 **Step 2 –** Select **Syslog** from the drop-down menu. The Add New Output window opens.
 
-![addnewoutputsyslog](../../../../../../static/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/addnewoutputsyslog.webp)
+![addnewoutputsyslog](/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/addnewoutputsyslog.webp)
 
 **Step 3 –** Configure the tab(s) as desired.
 
 **Step 4 –** Click **Add Output** to save your settings. The Add New Output window closes.
 
 The new output displays in the table. Click the **Edit** button to open the Output properties window
-to modify these settings. See the [Output Types](../outputs/overview.md) topic for additional
+to modify these settings. See the [Output Types](/docs/activitymonitor/8.0/activitymonitor/admin/outputs/overview.md) topic for additional
 information.

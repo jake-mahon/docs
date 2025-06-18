@@ -15,7 +15,7 @@ data collection from the computer while working with Netwrix 1Secure.
 ## Check requirements
 
 Make sure the Windows File Servers you want to monitor meet the requirements listed in the
-[Requirements](../../requirements.md#prerequisites-for-data-sources) section.
+[Requirements](/docs/1secure/requirements.md#prerequisites-for-data-sources) section.
 
 ## Decide on audit data to collect
 
@@ -87,7 +87,7 @@ You can apply the required audit settings to your Windows file servers in one of
 
 - Automatically - The current audit settings will be applied automatically. They will be
   periodically checked and adjusted if necessary.
-  See [Data Collecting Account](../../admin/datacollection/datacollectingaccount.md) for
+  See [Data Collecting Account](/docs/1secure/admin/datacollection/datacollectingaccount.md) for
   additional information.
 
 - Manually - Perform the following action to manually apply audit settings to Windows File Servers:
@@ -97,9 +97,9 @@ You can apply the required audit settings to your Windows file servers in one of
 ## Configure Data Collecting Account
 
 Follow the instructions in the
-[Data Collecting Account](../../admin/datacollection/datacollectingaccount.md) section.
+[Data Collecting Account](/docs/1secure/admin/datacollection/datacollectingaccount.md) section.
 
 ## Configure required protocols and ports
 
 Set up protocols and ports as described in the
-[Protocols and Ports Required for Monitoring File Servers](protocolsandports.md) section.
+[Protocols and Ports Required for Monitoring File Servers](/docs/1secure/configuration/computer/protocolsandports.md) section.

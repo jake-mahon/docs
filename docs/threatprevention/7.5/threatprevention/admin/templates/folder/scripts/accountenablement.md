@@ -64,7 +64,7 @@ sb.AppendLine("<html>");
 sb.AppendLine("<body>");
 sb.AppendLine(String.Format("EventName: {0}<br>", helper.EventName));
 sb.AppendLine(String.Format("EventNameTranslated: {0}<br>", helper.EventNameTranslated));
-sb.AppendLine(String.Format("TimeLoggedUtc: {0}<br>", helper.TimeLoggedUtc.ToString("MMMM d, yyyy h:mm:ss tt")));
+sb.AppendLine(String.Format("TimeLoggedUtc: {0}<br>", helper.TimeLoggedUtc.ToString("MMMM d, yyyy h:mm:ss tt");
 sb.AppendLine(String.Format("Account: {0}<br>", helper.DN));
 sb.AppendLine(String.Format("Perpetrator: {0}<br>", helper.PerpetratorName));
 sb.AppendLine("</body>");

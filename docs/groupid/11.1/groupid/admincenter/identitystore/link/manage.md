@@ -225,4 +225,4 @@ linked anymore in the Directory Manager portal.
 
 **See Also**
 
-- [Link Identity Stores](overview.md)
+- [Link Identity Stores](/docs/groupid/11.1/groupid/admincenter/identitystore/link/overview.md)

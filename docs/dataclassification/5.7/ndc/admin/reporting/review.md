@@ -15,10 +15,10 @@ To browse classification results
 2. Select Taxonomy in the dropdown on the left and then expand specific term you are interested in.
 3. Switch to Browse tab:
 
-    ![browsetab_thumb_0_0](../../../../../../static/img/product_docs/dataclassification/ndc/admin/reporting/browsetab_thumb_0_0.webp)
+    ![browsetab_thumb_0_0](/img/product_docs/dataclassification/ndc/admin/reporting/browsetab_thumb_0_0.webp)
 
 4. Click Filter to start browsing your documents.
-   [See Browse for more information.](../taxonomies/browse.md)
+   [See Browse for more information.](/docs/dataclassification/5.7/ndc/admin/taxonomies/browse.md)
 
 To review the Document Tagging report
 

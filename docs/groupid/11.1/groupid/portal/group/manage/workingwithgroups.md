@@ -15,7 +15,7 @@ General
 - [View groups managed by an object](generalfunction.md#view-groups-managed-by-an-object)
 - [Manage group access](generalfunction.md#manage-group-access)
 - [Set email delivery restrictions](generalfunction.md#set-email-delivery-restrictions)
-- [The Send As and Send on Behalf features](sendassendonbehalf.md)
+- [The Send As and Send on Behalf features](/docs/groupid/11.1/groupid/portal/group/manage/sendassendonbehalf.md)
 
 Group Membership
 
@@ -60,12 +60,12 @@ Dynasties
 
 Group Expiry and Deletion
 
-- [Group Expiry](groupexpiry.md)
+- [Group Expiry](/docs/groupid/11.1/groupid/portal/group/manage/groupexpiry.md)
 - [Expire a group manually ](groupexpiryfunction.md#expire-a-group-manually)
 - [Change the expiry policy for a group](groupexpiryfunction.md#change-the-expiry-policy-for-a-group)
 - [Attest an expiring group](groupexpiryfunction.md#attest-an-expiring-group)
 - [Renew an expired group](groupexpiryfunction.md#renew-an-expired-group)
-- [ Group Deletion](groupdeletion.md)
+- [ Group Deletion](/docs/groupid/11.1/groupid/portal/group/manage/groupdeletion.md)
 
 Query Designer Policy for Groups
 

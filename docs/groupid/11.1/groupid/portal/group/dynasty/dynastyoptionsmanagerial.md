@@ -10,7 +10,7 @@ On the Dynasty Options page:
 1. Use the **Top Manager** field to specify the top-level manager, and thus, the start location for
    the Dynasty.
 
-    Click the ellipsis button and use the [Find Dialog Box](../../search/find.md) to select a top
+    Click the ellipsis button and use the [Find Dialog Box](/docs/groupid/11.1/groupid/portal/search/find.md) to select a top
     manager.
 
 2. Select an option from **Dynasty Type** to specify the type of managerial Dynasty you want to
@@ -89,7 +89,7 @@ On the Dynasty Options page:
 
             Members: April
 
-        On the [Query Designer](../querydesigner/overview.md) page, you can also specify a criterion
+        On the [Query Designer](/docs/groupid/11.1/groupid/portal/group/querydesigner/overview.md) page, you can also specify a criterion
         to filter the managers for whom you want to create child groups in the Dynasty.
 
 3. Select the **Include manager as member** check box to include the manager as a member of their

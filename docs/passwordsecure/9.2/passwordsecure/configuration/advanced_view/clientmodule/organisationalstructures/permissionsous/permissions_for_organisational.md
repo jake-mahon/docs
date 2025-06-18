@@ -7,13 +7,13 @@ organisational structures. In addition, there are **two mechanisms** that direct
 permissions for organisational structures.
 
 1. **Limiting visibility**: It was already explained in the section on
-   [Visibility](../../../permissionconcept/predefining_rights/protective_mechanisms/visibility/visibility.md)
+   [Visibility](/docs/passwordsecure/9.2/passwordsecure/configuration/advanced_view/permissionconcept/predefining_rights/protective_mechanisms/visibility/visibility.md)
    that selectively withholding information is a very effective
-   [Protective mechanisms](../../../permissionconcept/predefining_rights/protective_mechanisms/protective_mechanisms.md).
+   [Protective mechanisms](/docs/passwordsecure/9.2/passwordsecure/configuration/advanced_view/permissionconcept/predefining_rights/protective_mechanisms/protective_mechanisms.md).
    Configuration of the visibility is carried out directly when issuing permissions to
    organisational structures.
 2. **Inheriting permissions for records**:
-   [Inheritance from organisational structures](../../../permissionconcept/automated_settings/inheritance_from_organisational_structures/inheritance_from_organizational.md)
+   [Inheritance from organisational structures](/docs/passwordsecure/9.2/passwordsecure/configuration/advanced_view/permissionconcept/automated_settings/inheritance_from_organisational_structures/inheritance_from_organizational.md)
    is defined as a system standard. This means that there is no difference between the permissions
    for an organisational structure and the permissions for data that is stored in these
    organisational structures.
@@ -22,7 +22,7 @@ The way in which permissions for organisational structures are designed thus eff
 work with Netwrix Password Secure in many ways. The following diagram describes the above-mentioned
 interfaces.
 
-![Permissions for organizational structures](../../../../../../../../../static/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/clientmodule/organisationalstructures/permissionsous/permissions_for_organizational_structures_1-en.webp)
+![Permissions for organizational structures](/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/clientmodule/organisationalstructures/permissionsous/permissions_for_organizational_structures_1-en.webp)
 
 ## Permissions
 
@@ -32,7 +32,7 @@ have what form of permissions for a given organisational structure. Permissions 
 structures can be defined via the ribbon or also the context menu that is accessed using the right
 mouse button. A permissions tab appears:
 
-![Permissions for OU](../../../../../../../../../static/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/clientmodule/organisationalstructures/permissionsous/permissions_for_organizational_structures_2-en.webp)
+![Permissions for OU](/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/clientmodule/organisationalstructures/permissionsous/permissions_for_organizational_structures_2-en.webp)
 
 NOTE: The basic mechanisms for setting permissions is described in detail in the Authorization
 concept.

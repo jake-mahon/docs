@@ -10,14 +10,14 @@ status after a sandbox refresh.
 2. Open **Customization** > **Scripting** > **Scripts**.
 3. Set the Filter **Type** to **Suitelet** and the **Bundle ID** to **294336**.
 
-    ![Find the Suitelet](../../../static/img/product_docs/strongpointfornetsuite/release_notes/scripts.webp)
+    ![Find the Suitelet](/img/product_docs/strongpointfornetsuite/release_notes/scripts.webp)
 
 4. Click **View** by the **Strongpoint Reset Schedule Deployments** suitelet.
 5. Open the **Deployments** tab.
 
-    ![Open the Deployment tab](../../../static/img/product_docs/strongpointfornetsuite/release_notes/script_deploy_tab.webp)
+    ![Open the Deployment tab](/img/product_docs/strongpointfornetsuite/release_notes/script_deploy_tab.webp)
 
 6. Click the Suitelet name: **Strongpoint Reset Schedule Deployments**.
 7. Click on the Script **URL**.
 
-    ![Click the Script URL](../../../static/img/product_docs/strongpointfornetsuite/release_notes/script_deploy_url.webp)
+    ![Click the Script URL](/img/product_docs/strongpointfornetsuite/release_notes/script_deploy_url.webp)

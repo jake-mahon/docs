@@ -3,7 +3,7 @@
 The Set-Group commandlet modifies an unmanaged group in directory. However, you can use this
 commandlet to modify those parameters of a Smart Group that are native attributes of an unmanaged
 group in Directory. For modifying Smart Group-specific attributes, you can use the
-[Set-SmartGroup](../smartgroup/setsmartgroup.md) commandlet.
+[Set-SmartGroup](/docs/groupid/11.1/groupid/managementshell/smartgroup/setsmartgroup.md) commandlet.
 
 You can view events related to this commandlet in Directory Manager portal, against the History node
 in the left panel.
@@ -92,7 +92,7 @@ Example 2:
 
 The following command expires the group Training, using the credentials set in the $Credentials
 environment variable. See the
-[Set the $Credentials Environment Variable](../parameters/setthecredential.md) topic for setting
+[Set the $Credentials Environment Variable](/docs/groupid/11.1/groupid/managementshell/parameters/setthecredential.md) topic for setting
 credentials in an environment variable.
 
 ```

@@ -53,7 +53,7 @@ Usage data fields:
   Setting the DLU Expiration. | Older than set time period | Populated | If Field History Tracking
   is enabled for a CustomField with a **DLU Status** of either **Recent** or **Expired**, the status
   is changed to **Pending**. Here is an example:  
-  ![Example of the DLU status fields for a CustomField](../../../static/img/product_docs/strongpointsalesforceflashlight/clean_up/dlu_status_example_customfield_800x294.webp)
+  ![Example of the DLU status fields for a CustomField](/img/product_docs/strongpointsalesforceflashlight/clean_up/dlu_status_example_customfield_800x294.webp)
 
 ### Notes
 
@@ -75,11 +75,11 @@ has been disabled. To change the time period:
 1. Open **Setup**
 2. Expand **Custom Code**
 3. Select **Custom Metadata Types**  
-   ![Open Custom Metadata Types](../../../static/img/product_docs/strongpointforsalesforce/clean_up/custom_metadata_types.webp)
+   ![Open Custom Metadata Types](/img/product_docs/strongpointforsalesforce/clean_up/custom_metadata_types.webp)
 4. Click **Manage Records** by **Strongpoint DLU Parameter**.  
-   ![Click Manage Records to open the record](../../../static/img/product_docs/strongpointforsalesforce/clean_up/custom_metadata_types_dlu_exp.webp)
+   ![Click Manage Records to open the record](/img/product_docs/strongpointforsalesforce/clean_up/custom_metadata_types_dlu_exp.webp)
 5. Click **Edit** by **DLU Expiration**.  
-   ![Edit the parameters](../../../static/img/product_docs/strongpointforsalesforce/clean_up/custom_metadata_types_dlu_para.webp)
+   ![Edit the parameters](/img/product_docs/strongpointforsalesforce/clean_up/custom_metadata_types_dlu_para.webp)
 6. Set the **DLU Expiration (Months)**. The default is three.
 7. Click **Save**.
 
@@ -169,13 +169,13 @@ DLU is not used for the following metadata Extended Types:
 
 ## DLU Scheduler
 
-The [Scheduler](../getting_started/scheduler.md) is where you can add frequency, day and time for
+The [Scheduler](/docs/strongpointsalesforceflashlight/getting_started/scheduler.md) is where you can add frequency, day and time for
 processes to run. Under **Field Usage and DLU**, you can set up the scheduler to update the last
 used date field on customizations with the date the metadata was last used. It populates information
 for field usage on custom fields and custom objects and catch any permission set assignments related
 to users.
 
-![scheduler](../../../static/img/product_docs/strongpointforsalesforce/clean_up/scheduler.webp)
+![scheduler](/img/product_docs/strongpointforsalesforce/clean_up/scheduler.webp)
 
 Once the scheduler has been set up, you can view the DLU under the **Metadata** tab on the
 customization record.

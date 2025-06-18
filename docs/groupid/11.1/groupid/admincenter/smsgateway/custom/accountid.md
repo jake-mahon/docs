@@ -26,4 +26,4 @@ gateway needs for authenticating a connection.
 
 **See Also**
 
-- [Implement and Deploy a Custom SMS Gateway](../implementcustom.md)
+- [Implement and Deploy a Custom SMS Gateway](/docs/groupid/11.1/groupid/admincenter/smsgateway/implementcustom.md)

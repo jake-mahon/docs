@@ -9,7 +9,7 @@ containers (Organizational Units).
 If you are in the settings for your first policy, click the left arrow beside the policy name to
 return to the Configuration Console dashboard.
 
-![Return to the dashboard](../../../../../static/img/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/evaluation/evaldashboard.webp)
+![Return to the dashboard](/img/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/evaluation/evaldashboard.webp)
 
 Create an additional password policy.
 
@@ -17,20 +17,20 @@ Create an additional password policy.
 
 **Step 2 –** Enter **Admins Policy** for the Policy duplication.
 
-![Enter Admins Policy](../../../../../static/img/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/evaluation/evalcopypolicy2.webp)
+![Enter Admins Policy](/img/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/evaluation/evalcopypolicy2.webp)
 
 **Step 3 –** Click **Make copy**.
 
 **Step 4 –** Open the **Users & Groups** tab.
 
-![Open the Users & Groups tab](../../../../../static/img/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/evaluation/evalusergroups.webp)
+![Open the Users & Groups tab](/img/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/evaluation/evalusergroups.webp)
 
 **Step 5 –** Click the **+** in the **Groups** list and enter **Domain Admins**. Specify a Domain or
 local **Location** depending on your evaluation set up.
 
 **Step 6 –** Click **OK**. Domain Admins are added to the **Groups**.
 
-![Domain Admins added](../../../../../static/img/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/evaluation/evaldomainadmins.webp)
+![Domain Admins added](/img/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/evaluation/evaldomainadmins.webp)
 
 - Members of the Domain Admins group (or the PPETestAdmin user, if not using a domain controller)
   must now comply with the Administrators policy. All other users must comply with the Users policy.
@@ -48,7 +48,7 @@ to nine characters.
 
 **Step 3 –** Select **9** from the **At Least** drop-down list.
 
-![Set the length to 9](../../../../../static/img/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/evaluation/evallength9.webp)
+![Set the length to 9](/img/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/evaluation/evallength9.webp)
 
 **Step 4 –** Click **Save**.
 
@@ -57,13 +57,13 @@ to nine characters.
 **Step 6 –** Select the **PPETestAdmin** user. The results pane shows the **Admins Policy** is being
 applied, and the password must **contain at least 9 characters**.
 
-![Admins policy is being tested](../../../../../static/img/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/evaluation/evaladmin.webp)
+![Admins policy is being tested](/img/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/evaluation/evaladmin.webp)
 
 Use the Password Policy Enforcer configuration console, the Windows Change Password screen, the
 Active Directory Users and Computers console, or the Local Users and Groups console to test password
 changes and resets for the **PPETestUser** and **PPETestAdmin** accounts. Password Policy Enforcer
 should enforce the Eval policy for **PPETestUser**, and the Admins policy for **PPETestAdmin**.
 
-**NOTE:** The [Set Priorities](../administration/manage_policies.md#set-priorities) topic contains
+**NOTE:** The [Set Priorities](/docs/passwordpolicyenforcer/11.0/passwordpolicyenforcer/administration/manage_policies.md#set-priorities) topic contains
 more information about policy assignments, and how Password Policy Enforcer resolves policy
 assignment conflicts that occur when more than one policy is assigned to a user.

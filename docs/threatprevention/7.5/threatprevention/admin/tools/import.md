@@ -3,7 +3,7 @@
 You may need to export collections, policies, and templates from the Administration Console and them
 import them back for certain reasons, such as during a reinstall. The Export Policies and Templates
 Window enables you to export these items to an XML file. See the
-[Export Policies and Templates Window](exportpoliciestemplates.md) topic for additional information
+[Export Policies and Templates Window](/docs/threatprevention/7.5/threatprevention/admin/tools/exportpoliciestemplates.md) topic for additional information
 on export.
 
 The Import window enables you to select an already exported XML file for import and configure the
@@ -16,7 +16,7 @@ Follow the steps to import the file.
 - Click **Tools** > **Import** on the menu.
 - Use the keyboard shortcut (Alt+I).
 
-![Import Window](../../../../../../static/img/product_docs/threatprevention/threatprevention/admin/tools/import.webp)
+![Import Window](/img/product_docs/threatprevention/threatprevention/admin/tools/import.webp)
 
 The Import window includes options for specifying the locations where imported policies and
 templates will be saved, and how duplicate items will be handled.

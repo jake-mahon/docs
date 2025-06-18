@@ -24,19 +24,19 @@ To perform a **System Permission** comparison:
    expansion indicator u to expand the **Comparison** panel. Make sure **System Permission** is
    selected.
 
-    ![Open the Profile / Permission Comparison](../../../static/img/product_docs/strongpointforsalesforce/tools/permission_comparison.webp)
+    ![Open the Profile / Permission Comparison](/img/product_docs/strongpointforsalesforce/tools/permission_comparison.webp)
 
 2. Select at least two **Profile / Permission Sets**. For each item:
 
     - Enter part of the **Profile or Permission Set** name
     - Check the **View** box for the item to compare.
 
-    ![Select a Profile or Permission Set to compare](../../../static/img/product_docs/strongpointforsalesforce/tools/permission_comparison_select.webp)
+    ![Select a Profile or Permission Set to compare](/img/product_docs/strongpointforsalesforce/tools/permission_comparison_select.webp)
 
 3. Select the **System Permissions Category**: **All**, **API**, **Create**, **Edit**, **Manage**,
    **Modify**, **User**, or **View**.
 
-    ![System Permission Comparison](../../../static/img/product_docs/strongpointforsalesforce/tools/permission_comparison_display.webp)
+    ![System Permission Comparison](/img/product_docs/strongpointforsalesforce/tools/permission_comparison_display.webp)
 
 4. Review the comparison. If the permissions are identical, you can research whether one or more can
    be removed.
@@ -60,13 +60,13 @@ To perform an **Object Permission** comparison:
     - Enter part of the **Profile or Permission Set** name
     - Check the **View** box for the item to compare.
 
-    ![Select a Profile or Permission Set to compare](../../../static/img/product_docs/strongpointforsalesforce/tools/permission_comparison_select.webp)
+    ![Select a Profile or Permission Set to compare](/img/product_docs/strongpointforsalesforce/tools/permission_comparison_select.webp)
 
 3. Set the optional **Filter** for object permissions: **Create**, **Edit**, **Read**, **Delete**,
    **View All**, and **Modify All**. You can use the **Select All** and **Clear All** shortcuts to
    set the **Filter**.
 
-    ![Object Permission Comparison](../../../static/img/product_docs/strongpointforsalesforce/tools/permission_comparison_display_object.webp)
+    ![Object Permission Comparison](/img/product_docs/strongpointforsalesforce/tools/permission_comparison_display_object.webp)
 
 4. Review the comparison. If the permissions are identical, you can research whether one or more can
    be removed.

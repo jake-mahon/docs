@@ -17,7 +17,7 @@ regular expression for a US phone number of the pattern: (555) 123-4567 will be:
 
 To learn about regular expressions and their syntax, see
 
-- [Introduction to Regular Expressions](<https://docs.microsoft.com/en-us/previous-versions/visualstudio/visual-studio-2010/28hw3sce(v%3dvs.100)>)
+- [Introduction to Regular Expressions](https://docs.microsoft.com/en-us/previous-versions/visualstudio/visual-studio-2010/28hw3sce(v%3dvs.100))
 - [Regular Expression Syntax Reference](https://msdn.microsoft.com/en-us/library/ms840427.aspx)
 
 ## Predefined Text Box Display Types
@@ -98,6 +98,6 @@ NOTE: Data should be in JSON format.
 
 **See Also**
 
-- [Design a Portal with Display Types](overview.md)
-- [Display Type Categories](categories.md)
-- [Define Custom Display Types](custom.md)
+- [Design a Portal with Display Types](/docs/groupid/11.1/groupid/admincenter/portal/displaytype/overview.md)
+- [Display Type Categories](/docs/groupid/11.1/groupid/admincenter/portal/displaytype/categories.md)
+- [Define Custom Display Types](/docs/groupid/11.1/groupid/admincenter/portal/displaytype/custom.md)

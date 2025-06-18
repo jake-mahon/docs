@@ -48,7 +48,7 @@ the **Integration Connectors** submenu.
 **Step 4 –** Copy and paste the following script into the "Checkout Script Block" field. (The
 "Checkin Script Block" field may be left blank.)
 
-[Copy](<javascript:void(0);>)
+[Copy](javascript:void(0);)
 
 Checkout Script Block
 

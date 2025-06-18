@@ -8,6 +8,6 @@ other undesired behavior is occurring. In this case, since the graphic isn't bei
 deleted. You can right-click on the element in the hierarchy on the right or on the tab and then
 delete it.
 
-![deleting_stray_elements](../../../../../static/img/product_docs/policypak/policypak/applicationsettings/designstudio/deleting_stray_elements.webp)
+![deleting_stray_elements](/img/product_docs/policypak/policypak/applicationsettings/designstudio/deleting_stray_elements.webp)
 
 Figure 158. Deleting stray elements with the Hierarchy tab.

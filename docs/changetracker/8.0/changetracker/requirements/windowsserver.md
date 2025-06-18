@@ -4,7 +4,7 @@ This topic lists the hardware requirements and software requirements for Netwrix
 
 ## Hardware Requirements
 
-|      | Standard Install (< 100 devices) | Large Install (~ 1k devices) |
+|      | Standard Install ( 100 devices) | Large Install (~ 1k devices) |
 | ---- | -------------------------------- | ---------------------------- |
 | CPU  | 4 cores                          | 16 cores                     |
 | RAM  | 8 GB                             | 32 GB                        |

@@ -29,7 +29,7 @@ Netwrix 1Secure is a Microsoft Azure hosted, multi-tenant SaaS application that 
 location to manage both on-premises and cloud environments. Solution architecture and components
 interactions are shown in the figure below.
 
-![overview_table](../../static/img/product_docs/1secure/admin/overview_table.webp)
+![overview_table](/img/product_docs/1secure/admin/overview_table.webp)
 
 Netwrix 1Secure On-Prem Agent is a lightweight Windows service which you deploy in your network. The
 agent collects aggregated data from your on-premises Netwrix 1SecureAPI and/or uploads the data to
@@ -52,10 +52,10 @@ user's behalf.
 
 The Netwrix 1Secure data collection workflow is as follows:
 
-**Step 1 –** Add organizations. See the [Add Organizations](admin/organizations/addorganizations.md)
+**Step 1 –** Add organizations. See the [Add Organizations](/docs/1secure/admin/organizations/addorganizations.md)
 topic for additional information.
 
-**Step 2 –** Install the agent. See the [Install Agent](install/installagent.md) topic for
+**Step 2 –** Install the agent. See the [Install Agent](/docs/1secure/install/installagent.md) topic for
 additional information.
 
 Once you have added the organization and selected the domain for collecting the data, Netwrix
@@ -72,7 +72,7 @@ expired credentials, and others.
 
 | Icon                                                                                    | Description                                             |
 | --------------------------------------------------------------------------------------- | ------------------------------------------------------- |
-| ![selfupdate_icon](../../static/img/product_docs/1secure/admin/selfupdate_icon.webp) | Bell icon. Click the Bell icon to look for the updates. |
+| ![selfupdate_icon](/img/product_docs/1secure/admin/selfupdate_icon.webp) | Bell icon. Click the Bell icon to look for the updates. |
 
 Follow the steps to review notifications.
 
@@ -80,7 +80,7 @@ Follow the steps to review notifications.
 
 **Step 2 –** You can select and fix any of the issues on the displayed panel.
 
-![notifications](../../static/img/product_docs/1secure/admin/notifications.webp)
+![notifications](/img/product_docs/1secure/admin/notifications.webp)
 
 **Step 3 –** Select **Fix**.
 
@@ -90,14 +90,14 @@ Statuses in Netwrix 1Secure allow you check up the state of the system, specific
 agent, and connectors. As you add your sources, connectors, install the agent, Netwrix 1Secure
 provides several statuses for these:
 
-![statuses_chart](../../static/img/product_docs/1secure/admin/statuses_chart.webp)
+![statuses_chart](/img/product_docs/1secure/admin/statuses_chart.webp)
 
 **NOTE:** The New status changes to Healthy status when the agent finishes collection from the
 environment. The time frame for a change may be within a minute up to several hours depending on the
 environment size.
 
 You can also review the agent status while adding the organization. See the
-[Manage Organizations](admin/organizations) topic for more information.
+[Manage Organizations](/docs/1secure/admin/organizations) topic for more information.
 
 ### Updating Netwrix Cloud Agent
 
@@ -109,7 +109,7 @@ During the update process, your activity monitoring will not be disrupted.
 
 | Icon                                                                                    | Description                                                                                     |
 | --------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------- |
-| ![selfupdate_icon](../../static/img/product_docs/1secure/admin/selfupdate_icon.webp) | Bell Icon. Click the Bell Icon to look up for the available updates of the Netwrix Cloud Agent. |
+| ![selfupdate_icon](/img/product_docs/1secure/admin/selfupdate_icon.webp) | Bell Icon. Click the Bell Icon to look up for the available updates of the Netwrix Cloud Agent. |
 
 #### Update Agents in Bulk
 
@@ -118,7 +118,7 @@ Follow the steps to update agents in bulk.
 **Step 1 –** To update selected agents, on the Managed Organizations page, select **Bulk Update
 Agent**.
 
-![updateagents](../../static/img/product_docs/1secure/admin/updateagents.webp)
+![updateagents](/img/product_docs/1secure/admin/updateagents.webp)
 
 **Step 2 –** On the Update Agents page, check the boxes next to agents you wish to update and click
 **Confirm**.
@@ -132,7 +132,7 @@ Follow the steps to update agent schedule.
 **Step 1 –** To edit the agent update schedule, on the Managed Organizations page, select **Agent
 Update Settings**. The Edit Agent Update Schedule page displays.
 
-![editagentupdatesschedule2](../../static/img/product_docs/1secure/admin/editagentupdatesschedule2.webp)
+![editagentupdatesschedule2](/img/product_docs/1secure/admin/editagentupdatesschedule2.webp)
 
 **Step 2 –** In the Update Schedule section, select Enabled.
 
@@ -150,7 +150,7 @@ Follow the steps to enable the self-update function .
 **Step 1 –** To look up the available updates, click the **Bell** icon. The panel with available
 updates displays.
 
-![selfupdate_panel](../../static/img/product_docs/1secure/admin/selfupdate_panel.webp)
+![selfupdate_panel](/img/product_docs/1secure/admin/selfupdate_panel.webp)
 
 **Step 2 –** Click **Fix** for the agents to be updated. Now you can see the list of organizations
 and which agents may be updated to the new version.
@@ -158,14 +158,14 @@ and which agents may be updated to the new version.
 **Step 3 –** Click **Update available** to update the agent to the current version. The Edit Agent
 Update Schedule page displays, offering you the proposed version.
 
-![editagentupdatesschedule](../../static/img/product_docs/1secure/admin/editagentupdatesschedule.webp)
+![editagentupdatesschedule](/img/product_docs/1secure/admin/editagentupdatesschedule.webp)
 
 **Step 4 –** Select **Confirm**. The agent shall update and upload a new .msi file of your agent.
 
 **Step 5 –** Alternately, update the version for an organization from the Managed organizations
 page. Select the **organization** and then the **Sites** tab.
 
-![updateagents2](../../static/img/product_docs/1secure/admin/updateagents2.webp)
+![updateagents2](/img/product_docs/1secure/admin/updateagents2.webp)
 
 **Step 6 –** Click Update.
 
@@ -177,7 +177,7 @@ organization.
 **Step 9 –** On the Edit Agent Update Schedule window, select Enabled and apply the required
 parameters to specify when you want the update occur.
 
-![editagentupdatesschedule2](../../static/img/product_docs/1secure/admin/editagentupdatesschedule2.webp)
+![editagentupdatesschedule2](/img/product_docs/1secure/admin/editagentupdatesschedule2.webp)
 
 **Step 10 –** Click **Confirm**.
 

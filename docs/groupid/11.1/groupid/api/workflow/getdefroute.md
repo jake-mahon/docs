@@ -3,8 +3,8 @@
 Use this API to retrieve information about Directory Manager default workflows. These workflows are
 predefine in Directory Manager that trigger when their associated events occur.
 
-See the [System Workflows](../../admincenter/workflow/overview.md#system-workflows) section of the
-[Workflows](../../admincenter/workflow/overview.md) topic for additional information.
+See the [System Workflows](/docs/groupid/11.1/groupid/admincenter/workflow/overview.md#system-workflows) section of the
+[Workflows](/docs/groupid/11.1/groupid/admincenter/workflow/overview.md) topic for additional information.
 
 ## Endpoint
 

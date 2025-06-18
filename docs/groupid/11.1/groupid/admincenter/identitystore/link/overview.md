@@ -120,5 +120,5 @@ In this way, you can create a chain of links between identity stores.
 
 **See Also**
 
-- [Identity Stores](../overview.md)
-- [Manage Identity Store Links](manage.md)
+- [Identity Stores](/docs/groupid/11.1/groupid/admincenter/identitystore/overview.md)
+- [Manage Identity Store Links](/docs/groupid/11.1/groupid/admincenter/identitystore/link/manage.md)

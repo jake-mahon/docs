@@ -41,7 +41,7 @@ and click **Save**. The attributes are added to the Attribute Name column on the
 NOTE: If in a Microsoft Entra ID based identity store extension attributes are added, Directory
 Manager Schema Replication schedule fetches the latest schema at its next run and add the newly
 added extension attributes to the Select Replication Attributes list. See the
-[Schema Replication Schedule](../schedule/schemareplication.md) for additional information.  
+[Schema Replication Schedule](/docs/groupid/11.1/groupid/admincenter/schedule/schemareplication.md) for additional information.  
 Select the required extension attributes from the Select Replication Attributes list and add them to
 the attribute to replicate list. See the Specify Object Attributes to Replicate section of the
 Manage Local Replication Settings topic.
@@ -89,7 +89,7 @@ for an identity store to replicate object attributes to Elasticsearch.
 
 Force-starting the service has no impact on the interval set for triggering the service on the
 Replication page. See the
-[Specify a Replication Interval for Objects](../replication/settings.md#specify-a-replication-interval-for-objects)topic.
+[Specify a Replication Interval for Objects](/docs/groupid/11.1/groupid/admincenter/replication/settings.md#specify-a-replication-interval-for-objects)topic.
 
 You can force run the Replication service for an identity store in any of the following ways:
 
@@ -124,7 +124,7 @@ force run the Replication service for an identity store any time to remove delet
 
 Force-starting the service has no impact on the interval set for triggering the service on the
 **Replication** page. See the
-[Specify Interval for Deleting Tombstone Objects](../replication/settings.md#specify-interval-for-deleting-tombstone-objects)
+[Specify Interval for Deleting Tombstone Objects](/docs/groupid/11.1/groupid/admincenter/replication/settings.md#specify-interval-for-deleting-tombstone-objects)
 topic.
 
 For an identity store, you can force run the Replication service (for deleting objects) in any of

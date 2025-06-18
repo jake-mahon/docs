@@ -7,7 +7,7 @@ wish (Windows 10 or later or Server 2019 or later) as your management station.
 The Endpoint Policy Manager Admin Console MSI can be found in the download. There is one for 32-bit
 machines, one for 64-bit machines, and one for Arm machines.
 
-![preparemanagementstation1](../../../../../static/img/product_docs/policypak/policypak/gettingstarted/quickstart/preparemanagementstation1.webp)
+![preparemanagementstation1](/img/product_docs/policypak/policypak/gettingstarted/quickstart/preparemanagementstation1.webp)
 
 ## Option 1
 
@@ -17,19 +17,19 @@ Console (GPMC) installed on it. Therefore, good candidates are your own manageme
 box” or, if you wish, you may install on a Domain Controller.
 
 **TIP**: Use the instructions in the
-[What are the two ways that can I install the GPMC on my Admin Station (Server or Windows 10) machine?](../../install/methods.md)
+[What are the two ways that can I install the GPMC on my Admin Station (Server or Windows 10) machine?](/docs/policypak/policypak/install/methods.md)
 topic if you do not yet have the GPMC on your management station.
 
 **NOTE:** The Endpoint Policy Manager MMC Group Policy Snap-In does NOT require installation on a
 Domain Controller, it is simply an option. See the
-[Does Endpoint Policy Manager admin console need to be installed on Domain Controller (DC)?](../../install/adminconsole.md)
+[Does Endpoint Policy Manager admin console need to be installed on Domain Controller (DC)?](/docs/policypak/policypak/install/adminconsole.md)
 topic for details.
 
 The result of installing the Endpoint Policy Manager MMC Group Policy Snap-In on a management
 station joined to Active Directory will look like the example below. You’ll see the extra Netwrix
 nodes alongside the Microsoft nodes.
 
-![preparemanagementstation2](../../../../../static/img/product_docs/policypak/policypak/gettingstarted/quickstart/preparemanagementstation2.webp)
+![preparemanagementstation2](/img/product_docs/policypak/policypak/gettingstarted/quickstart/preparemanagementstation2.webp)
 
 ## Option 2
 
@@ -44,9 +44,9 @@ The result of installing the Endpoint Policy Manager MMC Group Policy Snap-In on
 looks similar to the example below. When you run GPEDIT.MSC with an Administrator command prompt,
 you’ll see the extra Netwrix nodes alongside the Microsoft nodes.
 
-![preparemanagementstation3](../../../../../static/img/product_docs/policypak/policypak/gettingstarted/quickstart/preparemanagementstation3.webp)
+![preparemanagementstation3](/img/product_docs/policypak/policypak/gettingstarted/quickstart/preparemanagementstation3.webp)
 
 Additional resources you may be interested in:
 
-- [How to create a DC for editing purposes](../../video/cloud/testlab/createdc.md)
-- [Admin Console And CSE Installation](../../video/grouppolicy/install.md)
+- [How to create a DC for editing purposes](/docs/policypak/policypak/video/cloud/testlab/createdc.md)
+- [Admin Console And CSE Installation](/docs/policypak/policypak/video/grouppolicy/install.md)

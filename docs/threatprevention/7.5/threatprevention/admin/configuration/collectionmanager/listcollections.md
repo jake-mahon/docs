@@ -4,10 +4,10 @@ Use the List of Collections window to add new items to a collection as well as e
 existing items.
 
 Click **Configuration** > **Collections** on the menu to launch the
-[Collection Manager Window](overview.md). Then either double-click a Collection or select a
+[Collection Manager Window](/docs/threatprevention/7.5/threatprevention/admin/configuration/collectionmanager/overview.md). Then either double-click a Collection or select a
 Collection and click the Manage button to open the List of Collections window.
 
-![List of Collections window](../../../../../../../static/img/product_docs/threatprevention/threatprevention/admin/configuration/collectionmanager/listofcollections.webp)
+![List of Collections window](/img/product_docs/threatprevention/threatprevention/admin/configuration/collectionmanager/listofcollections.webp)
 
 At the top of the window, the Collection Category is displayed. Each item in the list displays:
 
@@ -23,14 +23,14 @@ Follow the steps to add a static collection.
 
 **Step 1 –** Click **Add** on the List of Collections window to open the Add New Collection window.
 
-![Add New Collections window](../../../../../../../static/img/product_docs/threatprevention/threatprevention/admin/configuration/collectionmanager/addnewcollection.webp)
+![Add New Collections window](/img/product_docs/threatprevention/threatprevention/admin/configuration/collectionmanager/addnewcollection.webp)
 
 **Step 2 –** Select an option:
 
 - The _I will provide a list_ option button enables the default setting for a static collection.
 - The _I want a list to come from the database table_ option button enables a dynamic collection.
   Enter the table name in the textbox that appears or select it from the drop-down menu. See the
-  [Dynamic Collections](dynamic.md) topic for additional information.
+  [Dynamic Collections](/docs/threatprevention/7.5/threatprevention/admin/configuration/collectionmanager/dynamic.md) topic for additional information.
 
 **Step 3 –** Provide a unique, descriptive name for the collection in the name box.
 
@@ -43,15 +43,15 @@ populated when collections are created or changed.
 
 The Select… window opens. Select a server/Agent from the drop-down menu and click **Connect**.
 Expand the domain tree in the navigation pane. Select an item in the Results pane on the right and
-click **OK**. See the [Selection Windows](../../policies/eventtype/window/overview.md) topic for
+click **OK**. See the [Selection Windows](/docs/threatprevention/7.5/threatprevention/admin/policies/eventtype/window/overview.md) topic for
 additional information.
 
-![Select window](../../../../../../../static/img/product_docs/threatprevention/threatprevention/admin/configuration/collectionmanager/selectadobjects.webp)
+![Select window](/img/product_docs/threatprevention/threatprevention/admin/configuration/collectionmanager/selectadobjects.webp)
 
 Use the **Remove** (x) button to remove Items from the list on the Add New Collection window.
 
 Some collection can be configured to be dynamic collections. See the
-[Dynamic Collections](dynamic.md) topic for additional information. The Perpetrators and Lockdown
+[Dynamic Collections](/docs/threatprevention/7.5/threatprevention/admin/configuration/collectionmanager/dynamic.md) topic for additional information. The Perpetrators and Lockdown
 Perpetrators collections also have the option to expand group membership. See the Expand Groups
 Option for Perpetrators & Objects Collection topic for additional information.
 
@@ -67,7 +67,7 @@ collections:
 - Objects
 - Lockdown Objects
 
-![Expand Groups option on the Add New Collection window](../../../../../../../static/img/product_docs/threatprevention/threatprevention/admin/configuration/collectionmanager/expandgroups.webp)
+![Expand Groups option on the Add New Collection window](/img/product_docs/threatprevention/threatprevention/admin/configuration/collectionmanager/expandgroups.webp)
 
 - For Perpetrators – If checked, the groups and nested-groups are expanded to monitor effective
   group membership at the user level. This means the Agent monitors/blocks based on the user’s token
@@ -94,7 +94,7 @@ groups’ tokens.
 **Step 1 –** Select a collection on the List of Collections window and click **Edit**. The Edit
 Collection window opens.
 
-![Edit Collection Window](../../../../../../../static/img/product_docs/threatprevention/threatprevention/admin/configuration/collectionmanager/editcollection.webp)
+![Edit Collection Window](/img/product_docs/threatprevention/threatprevention/admin/configuration/collectionmanager/editcollection.webp)
 
 **Step 2 –** You can modify the name, description, and items in the collection. See the Add New
 Collection Window topic for additional information on these settings.
@@ -107,7 +107,7 @@ Collection Window topic for additional information on these settings.
 Dependency Count column. Remove a collection from all policies it has been assigned to before
 deleting it.
 
-![Confirm Removal window](../../../../../../../static/img/product_docs/threatprevention/threatprevention/admin/configuration/collectionmanager/confirmremoval.webp)
+![Confirm Removal window](/img/product_docs/threatprevention/threatprevention/admin/configuration/collectionmanager/confirmremoval.webp)
 
 **Step 2 –** Click **Yes** on the Confirm Removal window to delete the collection.
 
@@ -116,7 +116,7 @@ deleting it.
 **Step 1 –** Select a collection on the List of Collections window and click **Dependencies** to
 open the Collection Dependencies window.
 
-![Collection Dependencies Window](../../../../../../../static/img/product_docs/threatprevention/threatprevention/admin/configuration/collectionmanager/dependencies.webp)
+![Collection Dependencies Window](/img/product_docs/threatprevention/threatprevention/admin/configuration/collectionmanager/dependencies.webp)
 
 **Step 2 –** This window displays a list of all policy templates and policies the selected
 collection is assigned to. View the list and click **OK**.

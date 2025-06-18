@@ -13,7 +13,7 @@ notifications are sent when the Change Request owner advances the status to **Pe
       return the Change Request to **In Progress**, edit it, and reset it to **Pending Approval** if
       there are errors or omissions.
 
-3. Change Request owner [Completes and Validates the Change Request](completing_change_request.md).
+3. Change Request owner [Completes and Validates the Change Request](/docs/strongpointforsalesforce/change_management/completing_change_request.md).
 
 Once the Change Request is approved, you cannot change the customizations attached to the Change
 Request.

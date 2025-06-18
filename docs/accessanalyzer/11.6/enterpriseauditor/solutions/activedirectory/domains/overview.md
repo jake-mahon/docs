@@ -23,4 +23,4 @@ The following components comprises the 5.Domains Job Group:
   this key is set to 1 or 2, the DSRM Admin Account can be used to log in to the domain controller
   even if it has not been started in DSRM which can present a potential security vulnerability.
   Additional information on this registry key is available in this
-  [Microsoft Document](<https://docs.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc732714(v=ws.10)?redirectedfrom=MSDN>).
+  [Microsoft Document](https://docs.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc732714(v=ws.10)?redirectedfrom=MSDN).

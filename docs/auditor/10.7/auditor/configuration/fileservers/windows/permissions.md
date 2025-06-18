@@ -9,7 +9,7 @@ Data Collection Accounts should meet the following policies and permissions:
 - Data collecting account on the target server must be a member of the local Administrators group.
 - The **Manage auditing and security log** and Backup files and directories policies must be defined
   for this account. See the
-  [Permissions for Active Directory Auditing](../../activedirectory/permissions.md) and topics for
+  [Permissions for Active Directory Auditing](/docs/auditor/10.7/auditor/configuration/activedirectory/permissions.md) and topics for
   additional more information.
 - The **Read** share permission on the audited shared folders.
 - The Read NTFS permission on all objects in the audited folders.
@@ -23,7 +23,7 @@ Administrators group.
 
 For more information on gMSA, see the following:
 
-- [Use Group Managed Service Account (gMSA)](../../../requirements/gmsa.md)
+- [Use Group Managed Service Account (gMSA)](/docs/auditor/10.7/auditor/requirements/gmsa.md)
 
 - Microsoft article:
   [Group Managed Service Accounts Overview](https://docs.microsoft.com/en-us/windows-server/security/group-managed-service-accounts/group-managed-service-accounts-overview)

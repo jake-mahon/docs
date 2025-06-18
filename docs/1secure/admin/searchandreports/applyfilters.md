@@ -20,34 +20,34 @@ reports with the predefined filters. To create a unique set of filters, you can:
   value. For example, if you want to search for any of three names, do not enter _Anna Mark Bill_
   but instead create a separate filter entry for each name.
 
-![Activity Reports pane](../../../../static/img/product_docs/1secure/admin/searchandreports/reportsmain.webp)
+![Activity Reports pane](/img/product_docs/1secure/admin/searchandreports/reportsmain.webp)
 
 **NOTE:** All reports on the **Reports** > **Activity** tab are associated with the respective
 alerts. Click the **Alerts Timeline Dashboard** in the upper left corner of the page to view the
-alerts for your organization. See the [Alerts](../alerts/index.md) topic for additional
+alerts for your organization. See the [Alerts](/docs/1secure/admin/alerts/index.md) topic for additional
 information.
 
 | Icon                                                                                                | Description                                                          |
 | --------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------- |
-| ![search_icon](../../../../static/img/product_docs/1secure/admin/searchandreports/search_icon.webp) | Info Icon. Click the Info Icon to view the activity records details. |
+| ![search_icon](/img/product_docs/1secure/admin/searchandreports/search_icon.webp) | Info Icon. Click the Info Icon to view the activity records details. |
 
 Follow the steps to apply filters to your search.
 
 **Step 1 –** Select the **Reports**> **Activity** tab.
 
-![Activity reports](../../../../static/img/product_docs/1secure/admin/searchandreports/search_filters.webp)
+![Activity reports](/img/product_docs/1secure/admin/searchandreports/search_filters.webp)
 
 **NOTE:** You can also access the **Reports** > **Activity** page from your organization's page. On
 your Home screen, click **Configure** > **Reports** in the right upper corner of the page.
 
-![Organization data sources list](../../../../static/img/product_docs/1secure/admin/searchandreports/reportsreportaccess.webp)
+![Organization data sources list](/img/product_docs/1secure/admin/searchandreports/reportsreportaccess.webp)
 
 **Step 2 –** Select a filter from the Filter drop-down menu. See the
 [Filter Descriptions](#filter-descriptions) topic for additional information.
 
 **NOTE:** You must specify three columns: Filter, Operator, and Value. You may also select more than
 one filter. To review the Operator filter options, see the
-[Filter Operators ](filteroperators.md)topic for additional information. To review the Filter
+[Filter Operators ](/docs/1secure/admin/searchandreports/filteroperators.md)topic for additional information. To review the Filter
 values, see the Filter Values topic for additional information.
 
 **Step 3 –** If required, specify the property change filters.
@@ -56,7 +56,7 @@ values, see the Filter Values topic for additional information.
 have the property changes, but only those with the property change on that record. For example, if
 the permission on the Active Directory has been added or resource ID in AzureAD has been removed.
 
-![Filter property](../../../../static/img/product_docs/1secure/admin/searchandreports/reportspropertychanges.webp)
+![Filter property](/img/product_docs/1secure/admin/searchandreports/reportspropertychanges.webp)
 
 **NOTE:** The drop-down list in the **Property** field shows all the properties retrieved in your
 records' list below the Search bar. It varies depending on the displayed records. You can filter the
@@ -64,23 +64,23 @@ required Property, Action, Value operator, and Value within the list. The proper
 dynamic and are not related to a given report directly but the activity records. If the query
 changes, the shown property changes may also change.
 
-![Filters list](../../../../static/img/product_docs/1secure/admin/searchandreports/search_search_function.webp)
+![Filters list](/img/product_docs/1secure/admin/searchandreports/search_search_function.webp)
 
 **Step 4 –** Click Search to find and view your reports. The reports are displayed with the
 predefined filters. Your search results will display in the table.
 
-![Filter results](../../../../static/img/product_docs/1secure/admin/searchandreports/search_searchresults.webp)
+![Filter results](/img/product_docs/1secure/admin/searchandreports/search_searchresults.webp)
 
 **Step 5 –** Click the required activity record from the grid view the activity record details. You
 can see who, when, or where was the activity made.
 
-![Activity record details](../../../../static/img/product_docs/1secure/admin/searchandreports/activityrecorddetails.webp)
+![Activity record details](/img/product_docs/1secure/admin/searchandreports/activityrecorddetails.webp)
 
 **NOTE:** Navigate from one report to another by selecting **Prev** or **Next**. This will directly
 upload the details of the selected report.
 
 **NOTE:** You can also create your own reports with custom filters. See the
-[ Custom Reports](customreports.md) topic for additional information.
+[ Custom Reports](/docs/1secure/admin/searchandreports/customreports.md) topic for additional information.
 
 ## Filter Descriptions
 

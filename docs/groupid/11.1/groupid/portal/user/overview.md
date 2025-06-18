@@ -3,22 +3,22 @@
 With Directory Manager, you can:
 
 - Automate user provisioning and deprovisioning in bulk. See the
-  [Synchronize](../synchronize/overview.md) section.
+  [Synchronize](/docs/groupid/11.1/groupid/portal/synchronize/overview.md) section.
 - Establish ownership by defining a clear managerial hierarchy with dotted line management. See the
   [Dotted line management](properties/activedirectory/organization.md#dotted-line-management)
-  section of the [Object properties - Organization tab](properties/activedirectory/organization.md)
+  section of the [Object properties - Organization tab](/docs/groupid/11.1/groupid/portal/user/properties/activedirectory/organization.md)
   topic.
 - Delegate user management to end users by enabling them to:
 
     - Create and manage users, contacts, and mailboxes in the directory. See the
-      [ Create User Objects](create/overview.md) topic.
-    - Manage their direct reports. See the [Update your Direct Reports](manage/directreport.md)
+      [ Create User Objects](/docs/groupid/11.1/groupid/portal/user/create/overview.md) topic.
+    - Manage their direct reports. See the [Update your Direct Reports](/docs/groupid/11.1/groupid/portal/user/manage/directreport.md)
       topic.
     - Update their profiles in the directory. See the
-      [Validate your profile](manage/validateprofile.md) topic.
+      [Validate your profile](/docs/groupid/11.1/groupid/portal/user/manage/validateprofile.md) topic.
 
 - Link identical users in different directory services, such as Active Directory and Microsoft Entra
-  ID. See the [Linked Accounts](linkedaccounts.md) topic.
+  ID. See the [Linked Accounts](/docs/groupid/11.1/groupid/portal/user/linkedaccounts.md) topic.
 
 The table below displays the major functions that users can perform in Directory Manager portal.
 

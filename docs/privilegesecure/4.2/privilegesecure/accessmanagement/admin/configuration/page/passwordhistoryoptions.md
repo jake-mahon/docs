@@ -3,7 +3,7 @@
 The Password History Options page is accessible from the Navigation pane under Configuration >
 System Settings.
 
-![passwordhistoryoptionspage](../../../../../../../../static/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/configuration/page/passwordhistoryoptionspage.webp)
+![passwordhistoryoptionspage](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/configuration/page/passwordhistoryoptionspage.webp)
 
 The page shows details of the password history settings and has the following features:
 

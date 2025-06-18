@@ -8,7 +8,7 @@ cmd /c C:\temp\Random014\camplay.exe
 
 With Secure run enabled, the following message is displayed:
 
-![804_1_image-20210819150136-1](../../../../../static/img/product_docs/policypak/policypak/leastprivilege/securerun/804_1_image-20210819150136-1.webp)
+![804_1_image-20210819150136-1](/img/product_docs/policypak/policypak/leastprivilege/securerun/804_1_image-20210819150136-1.webp)
 
 To allow this process to work and CamPlay to run, it's not camplay.exe that must be allowed in this
 example, it's cmd.exe.
@@ -24,16 +24,16 @@ run with a random path.
 
 **Step 1 –** Add a **New Executable Policy**
 
-![804_2_image-20210819150136-2](../../../../../static/img/product_docs/policypak/policypak/leastprivilege/securerun/804_2_image-20210819150136-2.webp)
+![804_2_image-20210819150136-2](/img/product_docs/policypak/policypak/leastprivilege/securerun/804_2_image-20210819150136-2.webp)
 
 **Step 2 –** Select **Combo Rule**
 
-![804_3_image-20210819150136-3](../../../../../static/img/product_docs/policypak/policypak/leastprivilege/securerun/804_3_image-20210819150136-3.webp)
+![804_3_image-20210819150136-3](/img/product_docs/policypak/policypak/leastprivilege/securerun/804_3_image-20210819150136-3.webp)
 
 **Step 3 –** Select **Path**, **Command line**, and at least one other Condition to guard against a
 fraudulent parent process (cmd.exe in this case).
 
-![804_4_image-20210819150136-4](../../../../../static/img/product_docs/policypak/policypak/leastprivilege/securerun/804_4_image-20210819150136-4.webp)
+![804_4_image-20210819150136-4](/img/product_docs/policypak/policypak/leastprivilege/securerun/804_4_image-20210819150136-4.webp)
 
 **NOTE:** Either **Hash** or **File Info** may be used in addition to, or instead of,
 **Signature**, but it is recommended at least one or more conditions be used in addition
@@ -44,27 +44,27 @@ the scope further. For this example, however, it was required.
 
 **Step 4 –** Set up your **Path Condition**: be as specific as possible
 
-![804_5_image-20210819150136-5](../../../../../static/img/product_docs/policypak/policypak/leastprivilege/securerun/804_5_image-20210819150136-5.webp)
+![804_5_image-20210819150136-5](/img/product_docs/policypak/policypak/leastprivilege/securerun/804_5_image-20210819150136-5.webp)
 
 **Step 5 –** Set your secondary conditions: **Signature**, in this example
 
-![804_6_image-20210819150136-6](../../../../../static/img/product_docs/policypak/policypak/leastprivilege/securerun/804_6_image-20210819150136-6.webp)
+![804_6_image-20210819150136-6](/img/product_docs/policypak/policypak/leastprivilege/securerun/804_6_image-20210819150136-6.webp)
 
 **Step 6 –** Set your **Command-line Condition**: Use **Strict equality** and set the
 Arguments using the wildcard character "\*" to replace any randomized, or user-specific sections of
 the path or filename. Be as specific as possible while still allowing for any variation that may
 come up in the path. In this example, \Random014\ was replaced by \Random\*\
 
-![804_7_image-20210819150136-7](../../../../../static/img/product_docs/policypak/policypak/leastprivilege/securerun/804_7_image-20210819150136-7.webp)
+![804_7_image-20210819150136-7](/img/product_docs/policypak/policypak/leastprivilege/securerun/804_7_image-20210819150136-7.webp)
 
 **NOTE:** "\*" is the only supported wildcard character.
 
 **NOTE:** **Ignore arguments case** should be checked by
-default![804_8_image-20210819150136-8](../../../../../static/img/product_docs/policypak/policypak/leastprivilege/securerun/804_8_image-20210819150136-8.webp)
+default![804_8_image-20210819150136-8](/img/product_docs/policypak/policypak/leastprivilege/securerun/804_8_image-20210819150136-8.webp)
 
 **Step 7 –** Set action as needed: generally, either **Allow and Log** (this example) or **Run with
 elevated Privileges** (if needed)
 
-![804_9_image-20210819150136-9](../../../../../static/img/product_docs/policypak/policypak/leastprivilege/securerun/804_9_image-20210819150136-9.webp)
+![804_9_image-20210819150136-9](/img/product_docs/policypak/policypak/leastprivilege/securerun/804_9_image-20210819150136-9.webp)
 
 **NOTE:** For security and compatibility reasons, only elevate if necessary to do so.

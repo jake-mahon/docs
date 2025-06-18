@@ -2,7 +2,7 @@
 
 This view lists only the Smart Groups created using Directory Manager in the connected identity
 store. It does not list expired or deleted Smart Groups. To view the expired or deleted groups,
-select the [Expired Groups](allexpiredgroups.md) or [Deleted Groups](recyclebin/overview.md)
+select the [Expired Groups](/docs/groupid/11.1/groupid/portal/group/allexpiredgroups.md) or [Deleted Groups](/docs/groupid/11.1/groupid/portal/group/recyclebin/overview.md)
 respectively.
 
 You can [Modify Search Directory](allgroups.md#modify-search-directory) to search smart groups and

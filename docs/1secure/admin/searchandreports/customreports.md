@@ -23,13 +23,13 @@ opens to the Activity tab with New Investigation selected in the left pane.
 custom report for it. An organization is selected by default, but you can choose a different one if
 needed.
 
-**Step 3 –** Define a filter criteria. See the [Apply Filters](applyfilters.md) topic for additional
+**Step 3 –** Define a filter criteria. See the [Apply Filters](/docs/1secure/admin/searchandreports/applyfilters.md) topic for additional
 information.
 
 **Step 4 –** Click **Save as** in the upper right corner of the page. The Create Report pane is
 displayed.
 
-![Create Report Pane](../../../../static/img/product_docs/1secure/admin/searchandreports/searchcreatereports.webp)
+![Create Report Pane](/img/product_docs/1secure/admin/searchandreports/searchcreatereports.webp)
 
 **Step 5 –** In the Create Report pane, specify a name and description for the report in the Name
 and Description fields.
@@ -48,7 +48,7 @@ generated.
 
 **Step 8 –** Optionally, select the **Share with business users** check box to share the report with
 business users. See the
-[Add the Business Viewer Role](../organizations/addingusers.md#add-the-business-viewer-role) topic
+[Add the Business Viewer Role](/docs/1secure/admin/organizations/addingusers.md#add-the-business-viewer-role) topic
 for additional information on shared reports.
 
 **NOTE:** This check box is not available for End Customer Organizations.
@@ -58,7 +58,7 @@ for additional information on shared reports.
 Your custom report is created under the respective category.
 
 **NOTE:** You may link this report to an alert. See the
-[Add a Custom Alert](../alerts/index.md#add-a-custom-alert) topic for additional information.
+[Add a Custom Alert](/docs/1secure/admin/alerts/index.md#add-a-custom-alert) topic for additional information.
 
 ## Modify a Custom Report
 

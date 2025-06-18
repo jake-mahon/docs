@@ -4,28 +4,28 @@ When you click on the Snapshots pane, the other two panes move to the right side
 the Snapshots pane, you can right-click within the "Computer Sets and Snapshots" space and select
 "Create computer set," as shown in Figure 12.
 
-![gpcr_concepts_and_quickstart_13](../../../../../../static/img/product_docs/policypak/policypak/grouppolicycompliancereporter/mode/pull/gpcr_concepts_and_quickstart_13.webp)
+![gpcr_concepts_and_quickstart_13](/img/product_docs/policypak/policypak/grouppolicycompliancereporter/mode/pull/gpcr_concepts_and_quickstart_13.webp)
 
 Figure 12. Creating a computer set.
 
 A computer set is a specific set of OUs (or the entire domain) that contains computers. A computer
 set named "All my computers" could be used for the whole domain, as shown in Figure 13.
 
-![gpcr_concepts_and_quickstart_14](../../../../../../static/img/product_docs/policypak/policypak/grouppolicycompliancereporter/mode/pull/gpcr_concepts_and_quickstart_14.webp)
+![gpcr_concepts_and_quickstart_14](/img/product_docs/policypak/policypak/grouppolicycompliancereporter/mode/pull/gpcr_concepts_and_quickstart_14.webp)
 
 Figure 13. Selecting the entire domain as a computer set.
 
 Alternatively, you can select specific OUs or sub-OUs, as shown in Figure 14. However, note that
 when a child is selected, its parents are always selected (and cannot be unselected).
 
-![gpcr_concepts_and_quickstart_15](../../../../../../static/img/product_docs/policypak/policypak/grouppolicycompliancereporter/mode/pull/gpcr_concepts_and_quickstart_15.webp)
+![gpcr_concepts_and_quickstart_15](/img/product_docs/policypak/policypak/grouppolicycompliancereporter/mode/pull/gpcr_concepts_and_quickstart_15.webp)
 
 Figure 14. Selecting a child OU.
 
 Once you've defined a computer set, right-click on it and select "Create snapshot," as shown in
 Figure 15.
 
-![gpcr_concepts_and_quickstart_16](../../../../../../static/img/product_docs/policypak/policypak/grouppolicycompliancereporter/mode/pull/gpcr_concepts_and_quickstart_16.webp)
+![gpcr_concepts_and_quickstart_16](/img/product_docs/policypak/policypak/grouppolicycompliancereporter/mode/pull/gpcr_concepts_and_quickstart_16.webp)
 
 Figure 15. Creating a snapshot of the computer set.
 
@@ -43,7 +43,7 @@ to acquire that license (file-based, GPO-based, cloud-based, or trial). Addition
 data is pulled, you can double-click any row in the Snapshot Contents (RSOPs) pane and immediately
 obtain a report of the computer and last logged-in user, as shown in Figure 16.
 
-![gpcr_concepts_and_quickstart_17](../../../../../../static/img/product_docs/policypak/policypak/grouppolicycompliancereporter/mode/pull/gpcr_concepts_and_quickstart_17.webp)
+![gpcr_concepts_and_quickstart_17](/img/product_docs/policypak/policypak/grouppolicycompliancereporter/mode/pull/gpcr_concepts_and_quickstart_17.webp)
 
 Figure 16. Obtaining a report from the Snapshot Contents pane.
 
@@ -64,14 +64,14 @@ computers," as shown in Figure 17. If all your computers return a status of "Con
 typical problem is that the Windows firewall does not permit remote requests from administrators.
 This can be easily fixed using Group Policy (see the troubleshooting section for details).
 
-![gpcr_concepts_and_quickstart_18](../../../../../../static/img/product_docs/policypak/policypak/grouppolicycompliancereporter/mode/pull/gpcr_concepts_and_quickstart_18.webp)
+![gpcr_concepts_and_quickstart_18](/img/product_docs/policypak/policypak/grouppolicycompliancereporter/mode/pull/gpcr_concepts_and_quickstart_18.webp)
 
 Figure 17. Retrying failed computers.
 
 After a snapshot is created, you can right-click on it and rename it if you wish. In Figure 18, you
 can see a renamed snapshot after it is taken.
 
-![gpcr_concepts_and_quickstart_19](../../../../../../static/img/product_docs/policypak/policypak/grouppolicycompliancereporter/mode/pull/gpcr_concepts_and_quickstart_19.webp)
+![gpcr_concepts_and_quickstart_19](/img/product_docs/policypak/policypak/grouppolicycompliancereporter/mode/pull/gpcr_concepts_and_quickstart_19.webp)
 
 Figure 18. Renaming a snapshot once taken.
 

@@ -45,5 +45,5 @@ application log.
 
 **See Also**
 
-- [Directory Manage Applications](../../portal/applications.md)
-- [Get Logs](../../general/logs.md)
+- [Directory Manage Applications](/docs/groupid/11.1/groupid/admincenter/portal/applications.md)
+- [Get Logs](/docs/groupid/11.1/groupid/admincenter/general/logs.md)

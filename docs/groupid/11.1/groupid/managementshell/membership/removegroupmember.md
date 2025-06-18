@@ -29,7 +29,7 @@ Example:
 
 The following command removes the user Brian Regan from the membership of the group Event Management
 using the credentials set in the $Credentials environment variable. See the
-[Set the $Credentials Environment Variable](../parameters/setthecredential.md) topic for setting
+[Set the $Credentials Environment Variable](/docs/groupid/11.1/groupid/managementshell/parameters/setthecredential.md) topic for setting
 credentials in an environment variable.
 
 ```

@@ -56,7 +56,7 @@ used by any other customization, before moving onto other clean up activities.
 Most of the tools have the following columns. They might be in slightly different orders or omitted
 based on the type of clean up.
 
-![cleanupfields](../../../static/img/product_docs/strongpointfornetsuite/clean_up/cleanupfields.webp)
+![cleanupfields](/img/product_docs/strongpointfornetsuite/clean_up/cleanupfields.webp)
 
 Sample Result:
 
@@ -112,7 +112,7 @@ The statuses are:
 - **Ignore**: Removes it from the searches.
 - **Specific tasks**: Fix Script Id and Reassign Owner.
 
-![faq-clean-up-status](../../../static/img/product_docs/strongpointfornetsuite/clean_up/faq-clean-up-status.webp)
+![faq-clean-up-status](/img/product_docs/strongpointfornetsuite/clean_up/faq-clean-up-status.webp)
 
 You can report on these statuses to organize your work.
 
@@ -126,7 +126,7 @@ the results view, “Create Change Request” creates a new change request. Once
 customization it will appear under “Related Change Requests”. You can have multiple customizations
 assigned to multiple change requests as appropriate.
 
-![faq-clean-up-create-change-req](../../../static/img/product_docs/strongpointfornetsuite/clean_up/faq-clean-up-create-change-req.webp)
+![faq-clean-up-create-change-req](/img/product_docs/strongpointfornetsuite/clean_up/faq-clean-up-create-change-req.webp)
 
 ### Manage the Change or Clean Up as Appropriate
 
@@ -138,7 +138,7 @@ Some of the items being changed, such as the description or owner, can be direct
 edited like any other NetSuite data directly in a view such as Unused Fields.
 
 The Change Request has archiving and deletion tools to help clean up the account, for example,
-[deleting unused customizations](cleanup_unused_customizations.md).
+[deleting unused customizations](/docs/strongpointfornetsuite/clean_up/cleanup_unused_customizations.md).
 
 ### ReSpider
 

@@ -7,7 +7,7 @@ Follow the steps to a lock the session.
 
 **Step 1 –** In the Live Session Viewer, click the **Terminate Session** icon.
 
-![Terminate Session window](../../../../../../../../static/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/dashboard/window/terminatesession.webp)
+![Terminate Session window](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/dashboard/window/terminatesession.webp)
 
 **Step 2 –** In the Terminate Proxy Session window, select from the following options:
 
@@ -18,7 +18,7 @@ Follow the steps to a lock the session.
 
 **Step 4 –** To prevent the user from creating a new session, navigate to the **Users & Groups
 Details** page for that user and click **Lock Account**. See the
-[User, Group, & Application Details Page](../../policy/page/details/usergroupapplication.md) topic
+[User, Group, & Application Details Page](/docs/privilegesecure/4.2/privilegesecure/accessmanagement/admin/policy/page/details/usergroupapplication.md) topic
 for additional information.
 
 The session is terminated.

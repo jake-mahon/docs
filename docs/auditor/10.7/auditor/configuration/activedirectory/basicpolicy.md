@@ -2,7 +2,7 @@
 
 Basic audit policies allow tracking changes to user accounts and groups and identifying originating
 workstations. You can configure advanced audit policies for the same purpose too. See the
-[Configure Advanced Audit Policies](advancedpolicy.md)topic for additional information.
+[Configure Advanced Audit Policies](/docs/auditor/10.7/auditor/configuration/activedirectory/advancedpolicy.md)topic for additional information.
 
 1. Open the **Group Policy Management** console on any domain controller in the target domain:
    navigate to Start > Windows Administrative Tools (Windows Server 2016 and higher) or
@@ -21,7 +21,7 @@ workstations. You can configure advanced audit policies for the same purpose too
     | **Audit directory service access** | _"Success"_  |
     | **Audit logon events**             | _"Success"_  |
 
-    ![manualconfig_ad_localpolicy_winserver2016](../../../../../../static/img/product_docs/1secure/configuration/ad/manualconfig_ad_localpolicy_winserver2016.webp)
+    ![manualconfig_ad_localpolicy_winserver2016](/img/product_docs/1secure/configuration/ad/manualconfig_ad_localpolicy_winserver2016.webp)
 
     The Audit logon events policy is only required to collect the information on the originating
     workstation, i.e., the computer from which a change was made. This functionality is optional and

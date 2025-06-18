@@ -9,7 +9,7 @@ is applied to a system with the Group Policy Editor. In short, the “User in Gr
 available when editing new Group Policy Preferences or Endpoint Policy Manager items or when editing
 old items.
 
-![itemleveltargeting1](../../../../../../static/img/product_docs/policypak/policypak/troubleshooting/log/itemleveltargeting/itemleveltargeting1.webp)
+![itemleveltargeting1](/img/product_docs/policypak/policypak/troubleshooting/log/itemleveltargeting/itemleveltargeting1.webp)
 
 ## Workaround options
 
@@ -40,4 +40,4 @@ Group).
 **NOTE:** The modified policy will process correctly, but the editor still wont magically show “User
 in group.”
 
-![itemleveltargeting2](../../../../../../static/img/product_docs/policypak/policypak/troubleshooting/log/itemleveltargeting/itemleveltargeting2.webp)
+![itemleveltargeting2](/img/product_docs/policypak/policypak/troubleshooting/log/itemleveltargeting/itemleveltargeting2.webp)

@@ -18,7 +18,7 @@ Click **Configuration and Stats** in the **Resources** section, or open **Settin
 3. Copy and paste the **Authorization Token**
 4. Click **Accept**
 
-    ![input_auth_token](../../../static/img/product_docs/strongpointforsalesforce/installing_strongpoint/input_auth_token.webp)
+    ![input_auth_token](/img/product_docs/strongpointforsalesforce/installing_strongpoint/input_auth_token.webp)
 
 5. Open **Netwrix Dashboard** > **Scanner** > **Manual Scanners**
 6. Click **Name** to select all.

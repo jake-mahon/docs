@@ -2,7 +2,7 @@
 
 You can update the instrumentation DLL, SI.ActiveDirectoryMonitor.dll (commonly known as ADMonitor
 DLL), in LSASS without having to upgrade the entire Agent. To facilitate this, the
-[Agents Interface](../overview.md) displays the currently installed versions of the Agent and the
+[Agents Interface](/docs/threatprevention/7.5/threatprevention/admin/agents/overview.md) displays the currently installed versions of the Agent and the
 ADMonitor DLL.
 
 **NOTE:** The Agent and the ADMonitor DLL should have the same major/minor version, such as 7.5.x.x,

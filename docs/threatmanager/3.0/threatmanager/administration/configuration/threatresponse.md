@@ -10,7 +10,7 @@ existing resources in the organization such as email and helpdesk platforms, Act
 systems, and custom PowerShell scripts. Playbooks can be executed automatically or ad-hoc by a
 Threat Manager Administrator when a threat is detected.
 
-![threatresponse](../../../../../../static/img/product_docs/threatmanager/threatmanager/administration/configuration/threatresponse.webp)
+![threatresponse](/img/product_docs/threatmanager/threatmanager/administration/configuration/threatresponse.webp)
 
 **NOTE:** Custom playbooks can be created using the PowerShell Script action. However, this feature
 requires advanced scripting knowledge.
@@ -93,5 +93,5 @@ Threat Manager has the following preconfigured third-party applications target a
 - VirusTotal® Report – Scans the file hashes against the VirusTotal API and emails the results
 - WebHook – Executes a webhook
 
-See the [Action Configuration for Playbook Steps](../playbooks/action/overview.md) topic for
+See the [Action Configuration for Playbook Steps](/docs/threatmanager/3.0/threatmanager/administration/playbooks/action/overview.md) topic for
 additional information.

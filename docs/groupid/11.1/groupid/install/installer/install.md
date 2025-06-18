@@ -12,26 +12,26 @@ To install Directory Manager:
 Step 1 – Run `_GroupIDInstallTool.exe_` from the Directory Manager`<_version #_>` folder in the
 Directory ManagerInstallation package. It launches the Installation Tool.
 
-![Welcome page](../../../../../../static/img/product_docs/groupid/groupid/install/installer/introduction.webp)
+![Welcome page](/img/product_docs/groupid/groupid/install/installer/introduction.webp)
 
 Step 2 – Read the welcome message and click **Next**.
 
-![End User License Agreement](../../../../../../static/img/product_docs/groupid/groupid/install/installer/eula.webp)
+![End User License Agreement](/img/product_docs/groupid/groupid/install/installer/eula.webp)
 
 Step 3 – On the End User License Agreement page, review and accept the licensing agreement and click
 **Next**.
 
-![installpath](../../../../../../static/img/product_docs/threatprevention/threatprevention/admin/agents/deploy/installpath.webp)
+![installpath](/img/product_docs/threatprevention/threatprevention/admin/agents/deploy/installpath.webp)
 
 Step 4 – In the Installation Folder box, specify the location where you want to install Directory
 Manageror accept the one suggested by the Installer. Click **Install**.
 
-![installationprogress](../../../../../../static/img/product_docs/groupid/groupid/install/installer/installationprogress.webp)
+![installationprogress](/img/product_docs/groupid/groupid/install/installer/installationprogress.webp)
 
 Step 5 – The progress bar shows the installation progress while all files are copied and Directory
 Manageris installed. On successful installation, the Run Configuration Tool page is displayed.
 
-![Run Configuration Tool](../../../../../../static/img/product_docs/groupid/groupid/install/installer/runconfigurationtool.webp)
+![Run Configuration Tool](/img/product_docs/groupid/groupid/install/installer/runconfigurationtool.webp)
 
 Step 6 – Click **Next** to proceed with configuring Directory Manager.
 
@@ -40,5 +40,5 @@ or
 Click **Close** on the title bar to close the Directory ManagerInstaller and configure Directory
 Managerlater.
 
-See the [Configuration Tool](../configure/configure.md) topic for additional information on
+See the [Configuration Tool](/docs/groupid/11.1/groupid/install/configure/configure.md) topic for additional information on
 configuring Directory Manager.

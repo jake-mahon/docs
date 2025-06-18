@@ -8,7 +8,7 @@ policies, configurations, content and sensitive data.
 The 1-Dropbox_SDD Scan job has been preconfigured to run under the default settings within the
 category of Scan for Sensitive Content.
 
-![Queries for the 1-Dropbox_SDD Scan Job](../../../../../../static/img/product_docs/accessanalyzer/solutions/dropbox/collection/sddscanquery.webp)
+![Queries for the 1-Dropbox_SDD Scan Job](/img/product_docs/accessanalyzer/solutions/dropbox/collection/sddscanquery.webp)
 
 The query for the 1-Dropbox_SDD Scan job is:
 
@@ -28,16 +28,16 @@ window.
 **Step 3 –** Select the **Data Source** tab, and click **Configure**. The Dropbox Access Auditor
 Data Collector Wizard opens.
 
-![Dropbox Access Auditor Data Collector Wizard Scoping page](../../../../../../static/img/product_docs/accessanalyzer/solutions/dropbox/collection/sddscopingpage.webp)
+![Dropbox Access Auditor Data Collector Wizard Scoping page](/img/product_docs/accessanalyzer/solutions/dropbox/collection/sddscopingpage.webp)
 
 **Step 4 –** On the Scoping page, select whether to scan **All Users** or **Limited Users**. If
 **Limited Users** is selected, browse to a CSV file with one email address per row for the desired
 users. In the File Permissions section, select the **Collect File Level Permissions** checkbox to
 collect permissions at the file level. See the
-[DropboxAccess: Scoping](../../../admin/datacollector/dropboxaccess/scoping.md) topic for additional
+[DropboxAccess: Scoping](/docs/accessanalyzer/12.0/admin/datacollector/dropboxaccess/scoping.md) topic for additional
 information.
 
-![Dropbox Access Auditor Data Collector Wizard DLP Audit Settings page](../../../../../../static/img/product_docs/accessanalyzer/solutions/dropbox/collection/sdddlpsettings.webp)
+![Dropbox Access Auditor Data Collector Wizard DLP Audit Settings page](/img/product_docs/accessanalyzer/solutions/dropbox/collection/sdddlpsettings.webp)
 
 **Step 5 –** On theDLP Audit Settings page:
 
@@ -47,19 +47,19 @@ information.
 - Enable differential scanning
 
 See the
-[DropboxAccess: DLP Audit Settings](../../../admin/datacollector/dropboxaccess/dlpauditsettings.md)
+[DropboxAccess: DLP Audit Settings](/docs/accessanalyzer/12.0/admin/datacollector/dropboxaccess/dlpauditsettings.md)
 topic for additional information.
 
-![Dropbox Access Auditor Data Collector Wizard Select DLP criteria page](../../../../../../static/img/product_docs/accessanalyzer/solutions/dropbox/collection/sddselectdlpcriteria.webp)
+![Dropbox Access Auditor Data Collector Wizard Select DLP criteria page](/img/product_docs/accessanalyzer/solutions/dropbox/collection/sddselectdlpcriteria.webp)
 
 **Step 6 –** On the Select DLP Criteria for This Scan page , add or remove criteria as desired.
 
 - (Optional) Create custom criteria with the **Edit** option. See the
-  [Sensitive Data Criteria Editor](../../../sensitivedatadiscovery/criteriaeditor/overview.md) topic
+  [Sensitive Data Criteria Editor](/docs/accessanalyzer/12.0/sensitivedatadiscovery/criteriaeditor/overview.md) topic
   for additional information.
 
 See the
-[DropboxAccess: Select DLP Criteria](../../../admin/datacollector/dropboxaccess/selectdlpcriteria.md)
+[DropboxAccess: Select DLP Criteria](/docs/accessanalyzer/12.0/admin/datacollector/dropboxaccess/selectdlpcriteria.md)
 topic for additional information.
 
 **Step 7 –** On the Completion Page, click **Finish** to save any setting modifications or click

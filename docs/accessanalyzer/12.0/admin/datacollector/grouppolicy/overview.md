@@ -11,8 +11,8 @@ within the Active Directory Solution and the Windows Solution. While the data co
 with all Access Analyzer license options, the Windows Solution is only available with a special
 Access Analyzer licenses. See the following topics for additional information:
 
-- [Active Directory Solution](../../../solutions/activedirectory/overview.md)
-- [Windows Solution](../../../solutions/windows/overview.md)
+- [Active Directory Solution](/docs/accessanalyzer/12.0/solutions/activedirectory/overview.md)
+- [Windows Solution](/docs/accessanalyzer/12.0/solutions/windows/overview.md)
 
 Protocols
 
@@ -37,13 +37,13 @@ available pages change based upon the query category selected. It contains the f
 pages:
 
 - Welcome
-- [GroupPolicy: Category](category.md)
-- [GroupPolicy: Target](target.md)
-- [GroupPolicy: Policies List](policieslist.md)
-- [GroupPolicy: Options](options.md)
-- [GroupPolicy: Summary](summary.md)
+- [GroupPolicy: Category](/docs/accessanalyzer/12.0/admin/datacollector/grouppolicy/category.md)
+- [GroupPolicy: Target](/docs/accessanalyzer/12.0/admin/datacollector/grouppolicy/target.md)
+- [GroupPolicy: Policies List](/docs/accessanalyzer/12.0/admin/datacollector/grouppolicy/policieslist.md)
+- [GroupPolicy: Options](/docs/accessanalyzer/12.0/admin/datacollector/grouppolicy/options.md)
+- [GroupPolicy: Summary](/docs/accessanalyzer/12.0/admin/datacollector/grouppolicy/summary.md)
 
-![Group Policy Data Collector Wizard Welcome page](../../../../../../static/img/product_docs/activitymonitor/activitymonitor/install/welcome.webp)
+![Group Policy Data Collector Wizard Welcome page](/img/product_docs/activitymonitor/activitymonitor/install/welcome.webp)
 
 The Welcome page can be hidden by selecting the **Do not display this page the next time** checkbox
 when the wizard is open and configuration settings are saved.

@@ -24,7 +24,7 @@ select the latest CSE and/or Endpoint Policy Manager Cloud client to opt-in more
 the remaining PCs all at once (after completing some testing).
 
 See the
-[Endpoint Policy Manager Cloud Groups CSE and Cloud Client Small-Scale Testing and Updates](../../../video/cloud/groups.md)
+[Endpoint Policy Manager Cloud Groups CSE and Cloud Client Small-Scale Testing and Updates](/docs/policypak/policypak/video/cloud/groups.md)
 topic for additional information on this process.
 
 **NOTE:** Update the CSE first or the Cloud Client first in the test groups and let each part of the

@@ -7,7 +7,7 @@ Console.
 
 **Step 2 –** Click **Add** > **New Microsoft Entra ID Tenant**
 
-![Add Azure AD Tenant](../../../../../../../../static/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/add/addazureadtenant.webp)
+![Add Azure AD Tenant](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/add/addazureadtenant.webp)
 
 **Step 3 –** Enter the following information:
 
@@ -24,7 +24,7 @@ Console.
   group membership information. This is unchecked by default.
 - Synchronize Now button — Scans the domain for users, groups, members, and computers. The Cancel
   button, which is only visible when scanning can be used to stop the resource scan. This scan can
-  also be scheduled from the [Platforms Page](../page/platforms/overview.md).
+  also be scheduled from the [Platforms Page](/docs/privilegesecure/4.2/privilegesecure/accessmanagement/admin/policy/page/platforms/overview.md).
 - Service Account — Displays the service account associated with the resource
 -   - Visit icon — Go to the Service Account page to view details of the selected service account.
     - Add New Service Account icon — Open the Add New Service Account window. The fields are
@@ -33,4 +33,4 @@ Console.
 **Step 4 –** Click **Save** to add the Microsoft Entra ID Tenant to the console.
 
 The new Microsoft Entra ID tenant has been on-boarded. See the
-[Microsoft Entra ID Details Page](../page/details/entraid.md) topic for additional information.
+[Microsoft Entra ID Details Page](/docs/privilegesecure/4.2/privilegesecure/accessmanagement/admin/policy/page/details/entraid.md) topic for additional information.

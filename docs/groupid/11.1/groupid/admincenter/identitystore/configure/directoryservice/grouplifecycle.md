@@ -20,11 +20,11 @@ The Group Life Cycle schedule defined for the identity store is responsible for 
 life cycle settings to groups. This schedule runs on containers you specify as its targets, to
 process the groups that reside therein. Groups that reside outside of the target containers will not
 be processed by the schedule; hence, the group life cycle policy is not applied to them. See the
-[Group Life Cycle Schedule](../../../schedule/grouplifecycle.md) topic.
+[Group Life Cycle Schedule](/docs/groupid/11.1/groupid/admincenter/schedule/grouplifecycle.md) topic.
 
 NOTE: Before you specify a group life cycle policy for a Microsoft Entra ID identity store, see the
-[Group Expiration Policy](../../advsentraid.md#group-expiration-policy) section in the
-[Microsoft Entra ID vs. Active Directory Identity Stores](../../advsentraid.md) topic.
+[Group Expiration Policy](/docs/groupid/11.1/groupid/admincenter/identitystore/advsentraid.md#group-expiration-policy) section in the
+[Microsoft Entra ID vs. Active Directory Identity Stores](/docs/groupid/11.1/groupid/admincenter/identitystore/advsentraid.md) topic.
 
 What do you want to do?
 
@@ -194,7 +194,7 @@ information.
         Group Life Cycle schedule will reduce the life of such groups to 7 days and send an email
         notification to the group owner or the default approver (for groups without owners),
         informing them of the approaching expiry. See the
-        [Specify a Default Approver](../../../workflow/advancedsettings.md#specify-a-default-approver)
+        [Specify a Default Approver](/docs/groupid/11.1/groupid/admincenter/workflow/advancedsettings.md#specify-a-default-approver)
         topic.
 
 6. Click **Save**.
@@ -288,5 +288,5 @@ The Group Life Cycle schedule handles group expiry notifications as follows:
 
 **See Also**
 
-- [Schedules](../../../schedule/overview.md)
-- [ Group Expiry and Deletion](groupexpirydeletion.md)
+- [Schedules](/docs/groupid/11.1/groupid/admincenter/schedule/overview.md)
+- [ Group Expiry and Deletion](/docs/groupid/11.1/groupid/admincenter/identitystore/configure/directoryservice/groupexpirydeletion.md)

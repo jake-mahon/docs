@@ -18,7 +18,7 @@ Here are some guidelines to specific clean up problems:
 > Value-based Clean Up
 
 These guidelines assume you set up your List Views the same way as described
-[Step 1: Identify and Prioritize Targets](tech_debt_org_clean_up_example.md).
+[Step 1: Identify and Prioritize Targets](/docs/strongpointforsalesforce/tech_debt/tech_debt_org_clean_up_example.md).
 
 ## Unused, Risky
 
@@ -138,4 +138,4 @@ Points to consider:
   lists or record types or is a commonly-used term in Salesforce's XML or is a common
   company-specific term.
 
-**Next Technical Debt Topic:** [Ongoing Monitoring ](tech_debt_org_ongoing_monitoring.md)
+**Next Technical Debt Topic:** [Ongoing Monitoring ](/docs/strongpointforsalesforce/tech_debt/tech_debt_org_ongoing_monitoring.md)

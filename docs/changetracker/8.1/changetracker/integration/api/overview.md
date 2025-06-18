@@ -4,5 +4,5 @@ Customers who run multiple instances of Netwrix Change Tracker in multiple regio
 to pull data from each instance and use that data build global reports containing data from all
 instances.
 
-- [Agents](agents.md) – To pull data on agent statuses, configurations and group memberships, use
+- [Agents](/docs/changetracker/8.1/changetracker/integration/api/agents.md) – To pull data on agent statuses, configurations and group memberships, use
   the agentsRanked endpoint.

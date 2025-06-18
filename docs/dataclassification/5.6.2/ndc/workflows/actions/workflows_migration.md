@@ -19,7 +19,7 @@ migration destinations. See Configuring Destinations for Migration Action.
 When running the Workflow wizard and having selected **Migration** as action, you will be prompted
 to configure related settings.
 
-[<!-- Image removed: transparent.gif not found -->](<javascript:void(0)>)[To configure migration using Workflow wizard:](<javascript:void(0)>)
+[<!-- Image removed: transparent.gif not found -->](javascript:void(0))[To configure migration using Workflow wizard:](javascript:void(0))
 
 On the What do you want to do step, select Migrate Document action. do the following:
 

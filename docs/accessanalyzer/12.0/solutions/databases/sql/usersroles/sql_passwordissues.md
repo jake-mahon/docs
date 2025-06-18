@@ -10,11 +10,11 @@ The Collect Weak Passwords Job uses the PowerShell Data Collector for the follow
 
 **CAUTION:** Do not modify the query. The query is preconfigured for this job.
 
-![Query Selection](../../../../../../../static/img/product_docs/accessanalyzer/solutions/databases/sql/usersroles/sqljobgroup24.webp)
+![Query Selection](/img/product_docs/accessanalyzer/solutions/databases/sql/usersroles/sqljobgroup24.webp)
 
 - Collect Weak Passwords – Locate the dictionary file containing the weak passwords and import the
   passwords
-    - See [PowerShell Data Collector](../../../../admin/datacollector/powershell/overview.md) for
+    - See [PowerShell Data Collector](/docs/accessanalyzer/12.0/admin/datacollector/powershell/overview.md) for
       additional information.
 
 ## Analysis Tasks for the SQL_PasswordIssues Job
@@ -25,7 +25,7 @@ and select Analysis to view the analysis tasks.
 **CAUTION:** Most of these analysis tasks are preconfigured and should not be modified and or
 deselected unless otherwise specified.
 
-![Analysis Selection](../../../../../../../static/img/product_docs/accessanalyzer/solutions/databases/sql/usersroles/sqlpasswordissuesanalysistasks.webp)
+![Analysis Selection](/img/product_docs/accessanalyzer/solutions/databases/sql/usersroles/sqlpasswordissuesanalysistasks.webp)
 
 The default analysis tasks are:
 
@@ -34,7 +34,7 @@ The default analysis tasks are:
         - @ShowPassword – Set to **0** by default. Set to **1** to enable the analysis task to bring
           back the plain-text password that was found
         - See the
-          [Configure the Customizable Parameters in an Analysis Task](../../../../admin/jobs/job/configure/analysiscustomizableparameters.md)
+          [Configure the Customizable Parameters in an Analysis Task](/docs/accessanalyzer/12.0/admin/jobs/job/configure/analysiscustomizableparameters.md)
           topic for additional information on modifying analysis parameters.
 - Shared Passwords – Highlights SQL Server Logins with shared password hashes
 - No Password – Inserts users that do not have a password set into the details table

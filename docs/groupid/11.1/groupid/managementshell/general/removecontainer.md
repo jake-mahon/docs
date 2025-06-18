@@ -32,7 +32,7 @@ Example 2:
 
 The following command first shows the changes that result from executing the command. The command
 uses the credentials set in the $Credentials environment variable to perform the deletion. See the
-[Set the $Credentials Environment Variable](../parameters/setthecredential.md) topic for setting
+[Set the $Credentials Environment Variable](/docs/groupid/11.1/groupid/managementshell/parameters/setthecredential.md) topic for setting
 credentials in the environment variable.
 
 ```

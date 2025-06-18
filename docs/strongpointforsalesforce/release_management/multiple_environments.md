@@ -14,20 +14,20 @@ Salesforce is installed, and to deploy changes and promote code from one environ
 
 1. Open **Change Requests** and locate the completed change request to push/pull.
 
-    ![Open Completed Change Request](../../../static/img/product_docs/strongpointforsalesforce/release_management/push_pullcr-1.webp)
+    ![Open Completed Change Request](/img/product_docs/strongpointforsalesforce/release_management/push_pullcr-1.webp)
 
 2. Edit the change request and add all necessary details.
 
-    ![Edit the Change Request](../../../static/img/product_docs/strongpointforsalesforce/release_management/push_pull_cr.webp)
+    ![Edit the Change Request](/img/product_docs/strongpointforsalesforce/release_management/push_pull_cr.webp)
 
 3. Click on **Sync CR**.
 
-    ![Sync the Change Request](../../../static/img/product_docs/strongpointforsalesforce/release_management/push_pull_sync_cr.webp)
+    ![Sync the Change Request](/img/product_docs/strongpointforsalesforce/release_management/push_pull_sync_cr.webp)
 
 4. Choose a **Saved Environment**, where you are planning to push or pull the Change Request.
 5. Add your **Credentials**.
 
-    ![Enter Credentials](../../../static/img/product_docs/strongpointforsalesforce/release_management/push_pull_popup.webp)
+    ![Enter Credentials](/img/product_docs/strongpointforsalesforce/release_management/push_pull_popup.webp)
 
 6. Click on **Test Connection** to make sure your credentials are correct. If your credentials are
    not correct, you can click on **Save Credentials** and edit.
@@ -39,7 +39,7 @@ To push a change request into another environment:
 1. Click **Push**.
 2. Click **Push CR**.
 
-    ![pushcr](../../../static/img/product_docs/strongpointforsalesforce/release_management/pushcr.webp)
+    ![pushcr](/img/product_docs/strongpointforsalesforce/release_management/pushcr.webp)
 
 Your Change Request is pushed to your selected environment.
 
@@ -50,11 +50,11 @@ To pull a change request from the selected environment:
 1. Select **Pull**
 2. Click on **Get Change Requests**
 
-    ![pullcr](../../../static/img/product_docs/strongpointforsalesforce/release_management/pullcr.webp)
+    ![pullcr](/img/product_docs/strongpointforsalesforce/release_management/pullcr.webp)
 
 3. Add the change requests you want to pull from the selected environment.
 
-    ![pullchangerequest](../../../static/img/product_docs/strongpointforsalesforce/release_management/pullchangerequest.webp)
+    ![pullchangerequest](/img/product_docs/strongpointforsalesforce/release_management/pullchangerequest.webp)
 
 4. Click **Pull Change Request.**
 

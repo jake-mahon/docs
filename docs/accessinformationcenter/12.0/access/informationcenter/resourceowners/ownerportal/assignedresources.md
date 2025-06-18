@@ -2,7 +2,7 @@
 
 The Assigned Resources section lists all resources assigned to you.
 
-![Assigned Resources section of the Owner portal](../../../../../../../static/img/product_docs/accessinformationcenter/access/informationcenter/resourceowners/ownerportal/assignedresources.webp)
+![Assigned Resources section of the Owner portal](/img/product_docs/accessinformationcenter/access/informationcenter/resourceowners/ownerportal/assignedresources.webp)
 
 The table contains one row per assigned resource. The information in this table includes:
 
@@ -28,15 +28,15 @@ The table contains one row per assigned resource. The information in this table 
       after the owner leaves the Owner portal or logs out.
 
 The table data grid functions the same way as other table grids. See the
-[Data Grid Features](../../../general/datagrid.md) topic for additional information.
+[Data Grid Features](/docs/accessinformationcenter/12.0/access/general/datagrid.md) topic for additional information.
 
 The buttons at the bottom enable you to conduct the following actions:
 
 | Button         | Function                                                                                                                                                                                                                                                                        |
 | -------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Update         | Opens the Update Resource Window for the selected resource, which allows you to confirm or decline ownership of the resource and to add a description.                                                                                                                          |
-| Change Access  | Opens the [Change Resource Access Wizard](changeaccess.md) for the selected resource, which allows you to make ad hoc changes to access and group membership. This button is only enabled if the feature was enabled for the selected resource by the Ownership Administrators. |
-| Resource Audit | Opens the Resource Audit interface or Group Audit interface directly to the selected resource. See the [Audit Interfaces](../../resourceaudit/navigate/overview.md) topic for additional information.                                                                           |
+| Change Access  | Opens the [Change Resource Access Wizard](/docs/accessinformationcenter/12.0/access/informationcenter/resourceowners/ownerportal/changeaccess.md) for the selected resource, which allows you to make ad hoc changes to access and group membership. This button is only enabled if the feature was enabled for the selected resource by the Ownership Administrators. |
+| Resource Audit | Opens the Resource Audit interface or Group Audit interface directly to the selected resource. See the [Audit Interfaces](/docs/accessinformationcenter/12.0/access/informationcenter/resourceaudit/navigate/overview.md) topic for additional information.                                                                           |
 
 ## Update Resource Window
 
@@ -44,7 +44,7 @@ The **Update** button on the Owner portal opens the Update Resource window for t
 resource. You can confirm ownership, decline ownership, and optionally enter a description for the
 resource.
 
-![Update Resource window](../../../../../../../static/img/product_docs/accessinformationcenter/access/informationcenter/resourceowners/ownerportal/updateresource.webp)
+![Update Resource window](/img/product_docs/accessinformationcenter/access/informationcenter/resourceowners/ownerportal/updateresource.webp)
 
 There are two options for ownership confirmation:
 

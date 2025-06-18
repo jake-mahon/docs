@@ -3,7 +3,7 @@
 The Automated Search Clean Up feature runs as scheduled, or on demand, using custom rules to find
 and manage Saved Searches. Accumulated searches contribute to inefficiency in NetSuite accounts.
 
-Review the [Automated Search Clean Up Considerations](automated_search_cleanup_considerations.md)
+Review the [Automated Search Clean Up Considerations](/docs/strongpointfornetsuite/clean_up/automated_search_cleanup_considerations.md)
 prior to using this feature.
 
 Saved Searches are powerful customizations used throughout NetSuite and interconnected to other
@@ -48,7 +48,7 @@ the rule criteria. Search Clean Up rules are used for both Automatic and Run Now
 To create or edit rules, access **Strongpoint**> **Automated Search Clean Up** > **Search Clean Up
 Rules**
 
-![autocleanup](../../../static/img/product_docs/strongpointfornetsuite/clean_up/autocleanup.webp)
+![autocleanup](/img/product_docs/strongpointfornetsuite/clean_up/autocleanup.webp)
 
 - **Name** is the assigned name for the **Search Clean Up Rule Record**.
 - **Rule Owner(s)** is the administrator or owners for the rule record.
@@ -70,7 +70,7 @@ Rules**
 
 This section is available when **Automatic** is checked.
 
-![autocleanupscheduler](../../../static/img/product_docs/strongpointfornetsuite/clean_up/autocleanupscheduler.webp)
+![autocleanupscheduler](/img/product_docs/strongpointfornetsuite/clean_up/autocleanupscheduler.webp)
 
 - **Weekly Event**: check and enter the **Repeat** frequency to schedule clean up weekly.
 - **Monthly Event**: check and enter the **Repeat** frequency to schedule clean up monthly.
@@ -138,7 +138,7 @@ included for clean up. The Run Now feature begins an immediate run for the rule.
 5. After previewing, you can click **Automatic** on the Search Clean Up Rule to include the rule for
    automatic searches.
 
-![cleanup_preview](../../../static/img/product_docs/strongpointfornetsuite/clean_up/cleanup_preview.webp)
+![cleanup_preview](/img/product_docs/strongpointfornetsuite/clean_up/cleanup_preview.webp)
 
 ### Run Now
 
@@ -191,7 +191,7 @@ searches**, **retained searches**, **scheduled to be archived searches** and **a
     - Archive notifications are sent to rule owner and all search owners/users.
     - Search is added to administrator's Archived Searches list.
 
-![cleanup_tab](../../../static/img/product_docs/strongpointfornetsuite/clean_up/cleanup_tab.webp)
+![cleanup_tab](/img/product_docs/strongpointfornetsuite/clean_up/cleanup_tab.webp)
 
 ## Search Clean Up Status
 
@@ -207,11 +207,11 @@ Open **Strongpoint**> **Search Auto Clean Up** > **Search Clean Up Status** to v
   administrator.  
   **Canceled** - **Automatic** checkbox was turned off for the rule.
 
-![cleanup_status](../../../static/img/product_docs/strongpointfornetsuite/clean_up/cleanup_status.webp)
+![cleanup_status](/img/product_docs/strongpointfornetsuite/clean_up/cleanup_status.webp)
 
 Click **Notification Tracker** on the **Notifications** tab to launch the tracker.
 
-![cleanup_notifications_tab](../../../static/img/product_docs/strongpointfornetsuite/clean_up/cleanup_notifications_tab.webp)
+![cleanup_notifications_tab](/img/product_docs/strongpointfornetsuite/clean_up/cleanup_notifications_tab.webp)
 
 ### Notification Tracker
 
@@ -219,25 +219,25 @@ Accesses all of the communications and history for search clean ups. You can lis
 sent by rule or by the job. Provides traceability between the clean up rules, clean up jobs, and
 email notifications.
 
-![cleanup_notification_tracker](../../../static/img/product_docs/strongpointfornetsuite/clean_up/cleanup_notification_tracker.webp)
+![cleanup_notification_tracker](/img/product_docs/strongpointfornetsuite/clean_up/cleanup_notification_tracker.webp)
 
 ## Retaining a Search
 
 Notification emails contain a link to **Retain this search** for each listed search or **Retain
 All** to keep all of them. Use the **Preview** link to view each Search.
 
-![cleanup_warning](../../../static/img/product_docs/strongpointfornetsuite/clean_up/cleanup_warning.webp)
+![cleanup_warning](/img/product_docs/strongpointfornetsuite/clean_up/cleanup_warning.webp)
 
 **Retain this search** prevents archiving an individual search. The **Retain Search** form is
 displayed so you can add the **Reason for Retaining** the search. Click **Save and Exit** when
 complete.
 
-![Provide a reason to retain an individual search](../../../static/img/product_docs/strongpointfornetsuite/clean_up/clean_up_retain_search.webp)
+![Provide a reason to retain an individual search](/img/product_docs/strongpointfornetsuite/clean_up/clean_up_retain_search.webp)
 
 **Retain All** opens a page where you can provide the **Reason** to retain each search. Check the
 Apply box for each search. When finished, click **Retain Search**.
 
-![Retain All dialog to provide retention Reason](../../../static/img/product_docs/strongpointfornetsuite/clean_up/clean_up_retain_all.webp)
+![Retain All dialog to provide retention Reason](/img/product_docs/strongpointfornetsuite/clean_up/clean_up_retain_all.webp)
 
 The Retain process:
 
@@ -270,7 +270,7 @@ owner and administrators.
 - Updates the **Date Last Used, Retained/Restored** to the current date.
 - Adds the search to the **Automated Search Clean Up** > **Retained Searches** list.
 
-![cleanup_restore](../../../static/img/product_docs/strongpointfornetsuite/clean_up/cleanup_restore.webp)
+![cleanup_restore](/img/product_docs/strongpointfornetsuite/clean_up/cleanup_restore.webp)
 
 ### Limitations to Restoring Auto Archived Searches
 
@@ -296,4 +296,4 @@ restored:
 - Audit Trail: the restored search is assigned a new Internal ID. The audit trail only contains
   entries for the new Internal ID.
 
-![Search form](../../../static/img/product_docs/strongpointfornetsuite/clean_up/limitation_restoring_searches.webp)
+![Search form](/img/product_docs/strongpointfornetsuite/clean_up/limitation_restoring_searches.webp)

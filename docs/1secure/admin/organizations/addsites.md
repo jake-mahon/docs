@@ -17,24 +17,24 @@ for the agent updates.
 
 | Icon                                                                                             | Description                                              |
 | ------------------------------------------------------------------------------------------------ | -------------------------------------------------------- |
-| ![alerts_editicon](../../../../static/img/product_docs/1secure/integration/alerts_editicon.webp) | Edit Icon. Click the Edit Icon to edit the site details. |
-| ![addicon](../../../../static/img/product_docs/1secure/admin/organizations/addicon.webp)         | Add Icon. Click the Add Icon to add a site.              |
-| ![deletebutton](../../../../static/img/product_docs/1secure/integration/deletebutton.webp)       | Bin Icon. Click the Bin Icon to delete a site.           |
+| ![alerts_editicon](/img/product_docs/1secure/integration/alerts_editicon.webp) | Edit Icon. Click the Edit Icon to edit the site details. |
+| ![addicon](/img/product_docs/1secure/admin/organizations/addicon.webp)         | Add Icon. Click the Add Icon to add a site.              |
+| ![deletebutton](/img/product_docs/1secure/integration/deletebutton.webp)       | Bin Icon. Click the Bin Icon to delete a site.           |
 
 ## Add a New Site
 
 Follow the steps to add a site to your organization.
 
 **Step 1 –** Add your organization or add a source to the created organization. See the
-[Add Organizations](addorganizations.md) topic for additional information.
+[Add Organizations](/docs/1secure/admin/organizations/addorganizations.md) topic for additional information.
 
 **NOTE:** You can add sites only for on-prem sources - Active Directory and Computer. These sources
 require an installation of the agent. See the
-[Add a Source and Connectors for Active Directory](sourcesandconnectors/activedirectory.md) or
-[Add a Source and Connectors for Computer](sourcesandconnectors/computer.md)topic for additional
+[Add a Source and Connectors for Active Directory](/docs/1secure/admin/organizations/sourcesandconnectors/activedirectory.md) or
+[Add a Source and Connectors for Computer](/docs/1secure/admin/organizations/sourcesandconnectors/computer.md)topic for additional
 information.
 
-![addsourcessite](../../../../static/img/product_docs/1secure/admin/organizations/addsourcessite.webp)
+![addsourcessite](/img/product_docs/1secure/admin/organizations/addsourcessite.webp)
 
 **Step 2 –** On the Configure source details window (Step 2 of 3) window, add a new site. In the
 "New site name" field, specify the name for your site. This could be a geographical location like
@@ -44,8 +44,8 @@ information.
 multiple sites and each site can be associated with multiple sources.
 
 **Step 3 –** Finish adding a source for your organization. See the
-[Add a Source and Connectors for Active Directory](sourcesandconnectors/activedirectory.md) or
-[Add a Source and Connectors for Computer](sourcesandconnectors/computer.md) topic for additional
+[Add a Source and Connectors for Active Directory](/docs/1secure/admin/organizations/sourcesandconnectors/activedirectory.md) or
+[Add a Source and Connectors for Computer](/docs/1secure/admin/organizations/sourcesandconnectors/computer.md) topic for additional
 information.
 
 The site is now added.
@@ -57,11 +57,11 @@ You can now add the created sites to your source.
 **Step 2 –** Select your site from the drop-down list or click the **Add** icon, if your want to add
 a new site. Click **Next**.
 
-![sitesdropdown](../../../../static/img/product_docs/1secure/admin/organizations/sitesdropdown.webp)
+![sitesdropdown](/img/product_docs/1secure/admin/organizations/sitesdropdown.webp)
 
 **Step 3 –** Finish adding the source. Screens will vary depending on the source added. See the
-[Add a Source and Connectors for Active Directory](sourcesandconnectors/activedirectory.md) or
-[Add a Source and Connectors for Computer](sourcesandconnectors/computer.md)topic for additional
+[Add a Source and Connectors for Active Directory](/docs/1secure/admin/organizations/sourcesandconnectors/activedirectory.md) or
+[Add a Source and Connectors for Computer](/docs/1secure/admin/organizations/sourcesandconnectors/computer.md)topic for additional
 information.
 
 ## View Sites and Agent Status
@@ -72,11 +72,11 @@ Follow the steps to view the site for the organization.
 
 **Step 1 –** Navigate to Managed Organizations > "your organization" > Sites.
 
-![updateagents2](../../../../static/img/product_docs/1secure/admin/updateagents2.webp)
+![updateagents2](/img/product_docs/1secure/admin/updateagents2.webp)
 
 **Step 2 –** View the following details:
 
-- Agent status – Agent status in color. See the [Statuses](../../index.md#system-statuses) topic for additional
+- Agent status – Agent status in color. See the [Statuses](/docs/1secure/index.md#system-statuses) topic for additional
   information
 - Server name – Server from which the data is collected
 - Last Connected – Last connection time with your agent in UTC

@@ -11,11 +11,11 @@ OR
 
 Click **Start** > **Imanami** > **GroupID Upgrade Tool 11.0**.
 
-![Welcome page](../../../../../../static/img/product_docs/groupid/groupid/install/upgrade/1-welcome.webp)
+![Welcome page](/img/product_docs/groupid/groupid/install/upgrade/1-welcome.webp)
 
 Step 2 – Read the welcome message and click **Next**.
 
-![2-select_source_version](../../../../../../static/img/product_docs/groupid/groupid/install/upgrade/2-select_source_version.webp)
+![2-select_source_version](/img/product_docs/groupid/groupid/install/upgrade/2-select_source_version.webp)
 
 Step 3 – From the Select the previous version to upgrade list, select the Directory Manager version
 to upgrade from.
@@ -25,7 +25,7 @@ version. The process may vary for different source versions.
 
 Step 4 – Click **Next**.
 
-![Select modules to upgrade](../../../../../../static/img/product_docs/groupid/groupid/install/upgrade/3-select_modules.webp)
+![Select modules to upgrade](/img/product_docs/groupid/groupid/install/upgrade/3-select_modules.webp)
 
 On the Select Modules to upgrade page, select the type of Directory Manager data for upgrade. You
 can choose to upgrade all or selective data of the previous version. Options are:
@@ -34,14 +34,14 @@ can choose to upgrade all or selective data of the previous version. Options are
 - Custom – choose what data you want to upgrade. On selecting it, the following options are listed,
   from where you can choose the data to upgrade.
 
-    ![3-select_modules-custom](../../../../../../static/img/product_docs/groupid/groupid/install/upgrade/3-select_modules-custom.webp)
+    ![3-select_modules-custom](/img/product_docs/groupid/groupid/install/upgrade/3-select_modules-custom.webp)
 
     NOTE: If later on, you wish to upgrade specific groups and their history via the Upgrade-Group
     commandlet, then you must upgrade the Configuration and History in the first upgrade run. This
     will upgrade the history in the database as per Directory Manager 11.1 format and replicates it
     to Elasticsearch. Later on, when you upgrade specific groups and their history using the
     Upgrade-Group commandlet, that will be done successfully. See the
-    [Upgrade-Group](../../managementshell/smartgroup/upgradegroup.md) commandlet for additional
+    [Upgrade-Group](/docs/groupid/11.1/groupid/managementshell/smartgroup/upgradegroup.md) commandlet for additional
     information.
 
     If you want to upgrade configurations, history and all groups using the Directory Manager
@@ -52,7 +52,7 @@ Step 5 – Click **Next**.
 Step 6 – If you have an Microsoft Entra ID based identity store in Directory Manager 10, the
 following page appears.
 
-![Microsoft Entra ID Store Upgrade page](../../../../../../static/img/product_docs/groupid/groupid/install/upgrade/entraidstore.webp)
+![Microsoft Entra ID Store Upgrade page](/img/product_docs/groupid/groupid/install/upgrade/entraidstore.webp)
 
 Provide the following information:
 
@@ -70,7 +70,7 @@ Step 8 – If in the Directory Manager source version, Office 365 messaging prov
 a Microsoft Entra ID based identity store or in an AD identity store, the Upgrade wizard displays
 the following page.
 
-![ Upgrade wizard Microsoft Entra ID Messaging System page](../../../../../../static/img/product_docs/groupid/groupid/install/upgrade/entraidmessagingsystem.webp)
+![ Upgrade wizard Microsoft Entra ID Messaging System page](/img/product_docs/groupid/groupid/install/upgrade/entraidmessagingsystem.webp)
 
 Provide the following information:
 
@@ -95,7 +95,7 @@ messaging providers.
   will be auto populated but you can change them.) All jobs with destination provider for that
   forest domain or any of its child domains will be moved to the new identity store.
 
-    ![synchronize_upgrade](../../../../../../static/img/product_docs/groupid/groupid/install/upgrade/synchronize_upgrade.webp)
+    ![synchronize_upgrade](/img/product_docs/groupid/groupid/install/upgrade/synchronize_upgrade.webp)
 
     NOTE: The service account you provide here should have at least _read_ permission in the entire
     forest, so that all objects from the forest can be replicated to Elasticsearch.
@@ -109,7 +109,7 @@ the wizard would require you to provide the PFX certificate. All Synchronize job
 365 as messaging provider will be listed on the wizard page. Expand each job and provide the PFX
 certificate along with its password.
 
-![Upgrade wizard Synchronize Messaging System page](../../../../../../static/img/product_docs/groupid/groupid/install/upgrade/entraidsynmessagingsystem.webp)
+![Upgrade wizard Synchronize Messaging System page](/img/product_docs/groupid/groupid/install/upgrade/entraidsynmessagingsystem.webp)
 
 Provide the following information:
 
@@ -132,7 +132,7 @@ for that domain exists or not.
   it. It must essentially be an Active Directory identity store. The wizard will bind the reports
   generated in Directory Manager 10 to the identity store, so you will be able to view them in
   Directory Manager 11.1.  
-  ![reports_upgrade](../../../../../../static/img/product_docs/groupid/groupid/install/upgrade/reports_upgrade.webp)
+  ![reports_upgrade](/img/product_docs/groupid/groupid/install/upgrade/reports_upgrade.webp)
 
 NOTE: If no report has been generated in Directory Manager 10, the page related to reports upgrade
 will not be displayed.
@@ -153,13 +153,13 @@ Consider the following:
   wizard will display the following page that will list all such schedules. Select an identity store
   for each schedule, so that the schedule moves to that identity store.
 
-    ![store_selection_for_schedules](../../../../../../static/img/product_docs/groupid/groupid/install/upgrade/store_selection_for_schedules.webp)
+    ![store_selection_for_schedules](/img/product_docs/groupid/groupid/install/upgrade/store_selection_for_schedules.webp)
 
     The rules stated above also apply to schedules with job collections added to them.
 
 Step 14 – Click **Next**.
 
-![Summary page](../../../../../../static/img/product_docs/groupid/groupid/install/upgrade/5-summary.webp)
+![Summary page](/img/product_docs/groupid/groupid/install/upgrade/5-summary.webp)
 
 This page displays a complete summary of the data to be copied/upgraded for your selected options.
 These options were selected on the Select modules to upgrade page..
@@ -170,14 +170,14 @@ remain intact in the source Directory Manager version.
 
 Step 15 – Review the summary and click **Next**.
 
-![Upgrade Progress page](../../../../../../static/img/product_docs/groupid/groupid/install/upgrade/6-upgrade_process_complete.webp)
+![Upgrade Progress page](/img/product_docs/groupid/groupid/install/upgrade/6-upgrade_process_complete.webp)
 
 Directory Manager is upgraded while the Upgrade Process displays the upgrade progress. On successful
 upgrade, the Upgradce Completed message above the progress bar is displayed.
 
 Step 16 – Click **Next**.
 
-![Upgrade Completed page](../../../../../../static/img/product_docs/groupid/groupid/install/upgrade/7-upgrade_complete.webp)
+![Upgrade Completed page](/img/product_docs/groupid/groupid/install/upgrade/7-upgrade_complete.webp)
 
 The Upgrade Completed page displays the status of features selected for upgrade.
 

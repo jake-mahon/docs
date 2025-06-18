@@ -25,6 +25,6 @@ to an identity store.
 
 **See Also**
 
-- [Manage SMS Gateway Accounts](manage.md)
-- [Implement and Deploy a Custom SMS Gateway](implementcustom.md)
-- [Authentication Policy](../identitystore/configure/authpolicy.md)
+- [Manage SMS Gateway Accounts](/docs/groupid/11.1/groupid/admincenter/smsgateway/manage.md)
+- [Implement and Deploy a Custom SMS Gateway](/docs/groupid/11.1/groupid/admincenter/smsgateway/implementcustom.md)
+- [Authentication Policy](/docs/groupid/11.1/groupid/admincenter/identitystore/configure/authpolicy.md)

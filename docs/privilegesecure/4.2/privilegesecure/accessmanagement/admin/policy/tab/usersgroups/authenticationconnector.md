@@ -5,10 +5,10 @@ The Authentication Connector tab for a user or group shows the type of multi-fac
 displayed on the login page for the user.
 
 The list is populated from the previously configured authentication connectors on the
-Authentications page. See the [Authentication Page](../../../configuration/page/authentication.md)
+Authentications page. See the [Authentication Page](/docs/privilegesecure/4.2/privilegesecure/accessmanagement/admin/configuration/page/authentication.md)
 topic for additional information.
 
-![Users Authentication Connector Tab](../../../../../../../../../static/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/tab/usersgroups/userauthenticationtab.webp)
+![Users Authentication Connector Tab](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/tab/usersgroups/userauthenticationtab.webp)
 
 Select the method of authentication for the user or group:
 

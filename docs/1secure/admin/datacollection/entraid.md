@@ -24,5 +24,5 @@ settings to Netwrix 1Secure when configuring a monitored item.
 
 Support for modern authentication will allow you to audit the organizations where MFA is enabled for
 all users, including service accounts. See the
-[App Registration and Configuration in Microsoft Entra ID](../../configuration/entraid/registerconfig.md)
+[App Registration and Configuration in Microsoft Entra ID](/docs/1secure/configuration/entraid/registerconfig.md)
 topic for additional information.

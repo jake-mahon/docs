@@ -3,13 +3,13 @@
 The Database Connection Manager (SIDBConfigMgr.exe) allows you to update the connection options for
 the NVMonitorConfig and NVMonitorData databases. The databases are originally configured during
 initial install of the Enterprise Manager package. See the
-[Application Server Install](application.md) topic for additional information.
+[Application Server Install](/docs/threatprevention/7.5/threatprevention/install/application.md) topic for additional information.
 
 _Remember,_ the host, port, and user for the NVMonitorConfig and NVMonitorData databases are
 displayed on the
-[Events Database Configuration Window](../admin/configuration/eventsdatabaseconfiguration.md). The
+[Events Database Configuration Window](/docs/threatprevention/7.5/threatprevention/admin/configuration/eventsdatabaseconfiguration.md). The
 current Archive Database settings are located on the Archive DB tab of the Database Maintenance
-window. See the [Archive Data](../admin/configuration/databasemaintenance/archive.md) topic for
+window. See the [Archive Data](/docs/threatprevention/7.5/threatprevention/admin/configuration/databasemaintenance/archive.md) topic for
 additional information.
 
 Follow the steps to manage database settings on the DB Connection Manager Wizard.
@@ -21,7 +21,7 @@ Follow the steps to manage database settings on the DB Connection Manager Wizard
 **Step 2 –** Double-click **SIDBConfigMgr.exe** to launch the Netwrix Threat Prevention DB
 Connection Manager wizard.
 
-![Netwrix Threat Prevention DB Connection Manager wizard](../../../../../static/img/product_docs/threatprevention/threatprevention/install/dbconnectionmanager.webp)
+![Netwrix Threat Prevention DB Connection Manager wizard](/img/product_docs/threatprevention/threatprevention/install/dbconnectionmanager.webp)
 
 **Step 3 –** You can update the following:
 

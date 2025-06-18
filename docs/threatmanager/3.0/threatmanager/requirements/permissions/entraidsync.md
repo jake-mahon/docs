@@ -2,7 +2,7 @@
 
 The following permissions are required for the credential used by Threat Manager for Microsoft Entra
 ID Sync. See the
-[Active Directory Sync Page](../../administration/configuration/integrations/activedirectorysync.md)
+[Active Directory Sync Page](/docs/threatmanager/3.0/threatmanager/administration/configuration/integrations/activedirectorysync.md)
 topic for additional information about syncing the configured Microsoft Entra ID tenant(s) in Threat
 Manager.
 

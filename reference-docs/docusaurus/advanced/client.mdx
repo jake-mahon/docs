@@ -33,7 +33,7 @@ website
 
 `website/src/theme/Navbar.js` takes precedence whenever `@theme/Navbar` is imported. This behavior is called component swizzling. If you are familiar with Objective C where a function's implementation can be swapped during runtime, it's the exact same concept here with changing the target `@theme/Navbar` is pointing to!
 
-We already talked about how the "userland theme" in `src/theme` can re-use a theme component through the [`@theme-original`](../swizzling.mdx#wrapping) alias. One theme package can also wrap a component from another theme, by importing the component from the initial theme, using the `@theme-init` import.
+We already talked about how the "userland theme" in `src/theme` can re-use a theme component through the [`@theme-original`](../swizzling.mdx#wrapping))) alias. One theme package can also wrap a component from another theme, by importing the component from the initial theme, using the `@theme-init` import.
 
 Here's an example of using this feature to enhance the default theme `CodeBlock` component with a `react-live` playground feature.
 
@@ -87,9 +87,9 @@ These modules are imported globally before React even renders the initial UI.
 import '@generated/client-modules';
 ```
 
-Plugins and sites can both declare client modules, through [`getClientModules`](../api/plugin-methods/lifecycle-apis.mdx#getClientModules) and [`siteConfig.clientModules`](../api/docusaurus.config.js.mdx#clientModules), respectively.
+Plugins and sites can both declare client modules, through [`getClientModules`](../api/plugin-methods/lifecycle-apis.mdx#getClientModules))) and [`siteConfig.clientModules`](../api/docusaurus.config.js.mdx#clientModules))), respectively.
 
-Client modules are called during server-side rendering as well, so remember to check the [execution environment](./ssg.mdx#escape-hatches) before accessing client-side globals.
+Client modules are called during server-side rendering as well, so remember to check the [execution environment](./ssg.mdx#escape-hatches))) before accessing client-side globals.
 
 ```js title="mySiteGlobalJs.js"
 import ExecutionEnvironment from '@docusaurus/ExecutionEnvironment';
@@ -104,7 +104,7 @@ if (ExecutionEnvironment.canUseDOM) {
 }
 ```
 
-CSS stylesheets imported as client modules are [global](../styling-layout.mdx#global-styles).
+CSS stylesheets imported as client modules are [global](../styling-layout.mdx#global-styles))).
 
 ```css title="mySiteGlobalCss.css"
 /* This stylesheet is global. */
@@ -175,6 +175,6 @@ Both lifecycles will fire on first render, but they will not fire on server-side
 
 :::tip Prefer using React
 
-Client module lifecycles are purely imperative, and you can't use React hooks or access React contexts within them. If your operations are state-driven or involve complicated DOM manipulations, you should consider [swizzling components](../swizzling.mdx) instead.
+Client module lifecycles are purely imperative, and you can't use React hooks or access React contexts within them. If your operations are state-driven or involve complicated DOM manipulations, you should consider [swizzling components](/reference-docs/docusaurus/swizzling.mdx) instead.
 
 :::

@@ -5,7 +5,7 @@ to sign into Directory Manager and other applications that use your domain accou
 
 You can change password according to the password policy the administrator has enabled for the
 identity store. The administrator can either enable
-[Directory Manage Password Policy ](../securityrole/policy/password.md) or Netwrix Password Policy
+[Directory Manage Password Policy ](/docs/groupid/11.1/groupid/admincenter/securityrole/policy/password.md) or Netwrix Password Policy
 Enforcer policies for the identity store.
 
 ## Change your Password
@@ -26,7 +26,7 @@ Step 4 – Click **Change Password**.
 NOTE: MFA enabled Microsoft Entra ID users cannot change their passwords in Directory Manager. If
 they try to use the option, the following message is displayed:.
 
-![Admin Center Change Password error message for an Entra ID user](../../../../../../static/img/product_docs/groupid/groupid/admincenter/general/changepassword.webp)
+![Admin Center Change Password error message for an Entra ID user](/img/product_docs/groupid/groupid/admincenter/general/changepassword.webp)
 
 If the user's account is a master account, password of its child accounts also cannot be changed in
 Directory Manager.

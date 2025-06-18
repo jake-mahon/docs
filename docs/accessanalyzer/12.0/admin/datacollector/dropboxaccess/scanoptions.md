@@ -14,22 +14,22 @@ The Scan Options page is a wizard page for the following categories:
 
 Follow the steps to create the Access Token:
 
-![Dropbox Access Auditor Data Collector Wizard Scan Options page](../../../../../../static/img/product_docs/accessanalyzer/admin/datacollector/dropboxaccess/scanoptions.webp)
+![Dropbox Access Auditor Data Collector Wizard Scan Options page](/img/product_docs/accessanalyzer/admin/datacollector/dropboxaccess/scanoptions.webp)
 
 **Step 1 –** Click the **Authorize** button to access the Dropbox Authentication page.
 
-![Dropbox Log in page](../../../../../../static/img/product_docs/accessanalyzer/admin/datacollector/dropboxaccess/scanoptionsdropboxlogin.webp)
+![Dropbox Log in page](/img/product_docs/accessanalyzer/admin/datacollector/dropboxaccess/scanoptionsdropboxlogin.webp)
 
 **Step 2 –** On the Dropbox Authentication page, log in as the Team Administrator.
 
-![Copy Access Token](../../../../../../static/img/product_docs/accessanalyzer/admin/datacollector/dropboxaccess/scanoptionsaccesstoken.webp)
+![Copy Access Token](/img/product_docs/accessanalyzer/admin/datacollector/dropboxaccess/scanoptionsaccesstoken.webp)
 
 **Step 3 –** Once the Access Token has been generated, click **Copy to Clipboard**. Click **Next**
 to finish choosing the configuration options or click **Cancel** to close the Dropbox Access Auditor
 Data Collector Wizard.
 
 Create a Connection Profile using this access token as the credential. See the
-[Custom Dropbox Connection Profile & Host List](configurejob.md) topic for additional information on
+[Custom Dropbox Connection Profile & Host List](/docs/accessanalyzer/12.0/admin/datacollector/dropboxaccess/configurejob.md) topic for additional information on
 configuring the Dropbox credential.
 
 _Remember,_ assign this Connection Profile to the job group or job where the host assignment for the

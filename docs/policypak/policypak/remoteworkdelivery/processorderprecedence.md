@@ -5,7 +5,7 @@ order. So, lower-numbered policies attempt to process first, and higher-numbered
 process last. Then, lower-numbered collections attempt to process first, and higher-numbered
 collections attempt to process last.
 
-![understanding_processing_order](../../../../static/img/product_docs/policypak/policypak/remoteworkdelivery/understanding_processing_order.webp)
+![understanding_processing_order](/img/product_docs/policypak/policypak/remoteworkdelivery/understanding_processing_order.webp)
 
 Within any collection, there may be other collections, as well as policies. As such, each policy and
 collection is also processed in numerical order, starting at each level with the lowest-numbered

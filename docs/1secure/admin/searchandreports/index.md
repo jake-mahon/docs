@@ -33,6 +33,6 @@ is currently available for the following connectors:
 
 See the following topics for additional information:
 
-- [Apply Filters](applyfilters.md)
+- [Apply Filters](/docs/1secure/admin/searchandreports/applyfilters.md)
 - Create Reports with Custom Filters
-- [State In Time Risks Reports](stateintime.md)
+- [State In Time Risks Reports](/docs/1secure/admin/searchandreports/stateintime.md)

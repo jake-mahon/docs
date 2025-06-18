@@ -2,10 +2,10 @@
 
 The Access Analyzer analysis modules are capable of finding unique data and notifying users of its
 location from a variety of environments. Analysis modules are assigned to a job at the
-**Configure** > **Analysis** node. See the [Analysis Node](../jobs/job/configure/analysis.md) topic
+**Configure** > **Analysis** node. See the [Analysis Node](/docs/accessanalyzer/12.0/admin/jobs/job/configure/analysis.md) topic
 for information on the Analysis Selection view.
 
-![Configure an analysis](../../../../../static/img/product_docs/accessanalyzer/admin/analysis/configure.webp)
+![Configure an analysis](/img/product_docs/accessanalyzer/admin/analysis/configure.webp)
 
 Analysis tasks are configured through the Analysis Properties page. Navigate to the job’s
 **Configure** > Analysis node. The Analysis Properties page is opened from the Analysis Selection
@@ -22,14 +22,14 @@ Analyzer.
 
 | Analysis Module                                                 | Description                                                                                     |
 | --------------------------------------------------------------- | ----------------------------------------------------------------------------------------------- |
-| [AutoAction Analysis Module](autoaction.md)                     | Performs a specified action at the conclusion of an analysis task’s execution                   |
-| [Business Rules Analysis Module](businessrules/overview.md)     | Finds data that does not match user expectations for the target environment                     |
-| [Change Detection Analysis Module](changedetection/overview.md) | Notifies when a change occurs in the results of a job and identifies the location of the change |
-| [Notification Analysis Module](notification/overview.md)        | Sends notifications to specified recipients when a specified event occurs                       |
-| [SQLscripting Analysis Module](sqlscripting.md)                 | Executes free-form SQL scripts                                                                  |
+| [AutoAction Analysis Module](/docs/accessanalyzer/12.0/admin/analysis/autoaction.md)                     | Performs a specified action at the conclusion of an analysis task’s execution                   |
+| [Business Rules Analysis Module](/docs/accessanalyzer/12.0/admin/analysis/businessrules/overview.md)     | Finds data that does not match user expectations for the target environment                     |
+| [Change Detection Analysis Module](/docs/accessanalyzer/12.0/admin/analysis/changedetection/overview.md) | Notifies when a change occurs in the results of a job and identifies the location of the change |
+| [Notification Analysis Module](/docs/accessanalyzer/12.0/admin/analysis/notification/overview.md)        | Sends notifications to specified recipients when a specified event occurs                       |
+| [SQLscripting Analysis Module](/docs/accessanalyzer/12.0/admin/analysis/sqlscripting.md)                 | Executes free-form SQL scripts                                                                  |
 | SQLTrend                                                        | Legacy action module                                                                            |
-| [SQLViewCreation Analysis Module](sqlviewcreation/overview.md)  | Provides a scripting wizard for creating SQL tables or views                                    |
-| [VBscripting Analysis Module](vbscripting.md)                   | Executes free-form VB scripts                                                                   |
+| [SQLViewCreation Analysis Module](/docs/accessanalyzer/12.0/admin/analysis/sqlviewcreation/overview.md)  | Provides a scripting wizard for creating SQL tables or views                                    |
+| [VBscripting Analysis Module](/docs/accessanalyzer/12.0/admin/analysis/vbscripting.md)                   | Executes free-form VB scripts                                                                   |
 
 ## Executing Analyses
 
@@ -45,7 +45,7 @@ Analysis tasks can be created, deleted, and configured through the Analysis Sele
 with existing analysis tasks, the Analysis Selection page is used to change the order in which tasks
 are run, as well as enabling or disabling tasks.
 
-![Analysis Selection Page](../../../../../static/img/product_docs/accessanalyzer/admin/analysis/analysisselectionpage.webp)
+![Analysis Selection Page](/img/product_docs/accessanalyzer/admin/analysis/analysisselectionpage.webp)
 
 The Analysis Selection page has the following options:
 
@@ -62,7 +62,7 @@ The Analysis Selection page has the following options:
 
 - Select All – Enables/disables all tasks in the list
 - The **Validate**, **Validate Selected**, and **Edit Rules** buttons are specific to the Business
-  Rules Analysis Module. See the [Business Rules Analysis Module](businessrules/overview.md) topic
+  Rules Analysis Module. See the [Business Rules Analysis Module](/docs/accessanalyzer/12.0/admin/analysis/businessrules/overview.md) topic
   for additional information on these buttons.
 
 ## Analysis Properties Page
@@ -70,7 +70,7 @@ The Analysis Selection page has the following options:
 Configure task properties through the Analysis Properties page. The Analysis Properties page is
 accessed through the Analysis Selection page.
 
-![Analysis Properties Page](../../../../../static/img/product_docs/accessanalyzer/admin/analysis/analysispropertiespage.webp)
+![Analysis Properties Page](/img/product_docs/accessanalyzer/admin/analysis/analysispropertiespage.webp)
 
 The Analysis Properties page has the following options:
 

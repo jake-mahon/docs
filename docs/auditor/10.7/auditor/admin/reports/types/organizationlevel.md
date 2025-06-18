@@ -11,8 +11,8 @@ This folder includes:
 
 | Report                          | Details                                                                                                                                                                                                                                                                  |
 | ------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| Enterprise Overview             | Dashboard report with diagrams showing all activities and changes across the monitored data sources. See also: [Enterprise Overview Dashboard](enterprise.md)                                                                                                            |
-| All Activity with Review Status | Shows all activity across the entire IT infrastructure, including changes, read access and logons. Features interactive review status to supplement your change management workflow. See also: [Interactive Reports for Change Management Workflow](../reviewstatus.md). |
+| Enterprise Overview             | Dashboard report with diagrams showing all activities and changes across the monitored data sources. See also: [Enterprise Overview Dashboard](/docs/auditor/10.7/auditor/admin/reports/types/enterprise.md)                                                                                                            |
+| All Activity with Review Status | Shows all activity across the entire IT infrastructure, including changes, read access and logons. Features interactive review status to supplement your change management workflow. See also: [Interactive Reports for Change Management Workflow](/docs/auditor/10.7/auditor/admin/reports/reviewstatus.md). |
 | All Changes by Data Source      | Shows all changes across your IT infrastructure, grouped by data source.                                                                                                                                                                                                 |
 | All Changes by Server           | Shows all changes across the entire IT infrastructure, grouped by the server where the change was made.                                                                                                                                                                  |
 | All Changes by User             | Shows all changes across your IT infrastructure, grouped by the user who made the change.                                                                                                                                                                                |
@@ -20,6 +20,6 @@ This folder includes:
 | Self-Audit                      | Help to ensure that the scope of data to be audited is complete and all changes are in line with the workflows adopted by your organization.                                                                                                                             |
 
 Each report has a set of filters which help organize audit data in the most convenient way. See the
-[View Reports](../view.md) topic for additional information. You can also create a subscription to
+[View Reports](/docs/auditor/10.7/auditor/admin/reports/view.md) topic for additional information. You can also create a subscription to
 any report you want to receive on a regular basis. See the
-[Subscriptions](../../subscriptions/overview.md) topic for additional information.
+[Subscriptions](/docs/auditor/10.7/auditor/admin/subscriptions/overview.md) topic for additional information.

@@ -94,7 +94,7 @@ Center.
 
 NOTE: The registered app must have the following API permissions to access files on OneDrive:
 
-![API permissions](../../../../../../static/img/product_docs/groupid/groupid/admincenter/datasource/apipermissions.webp)
+![API permissions](/img/product_docs/groupid/groupid/admincenter/datasource/apipermissions.webp)
 
 Step 8 – In the Registered Tenant ID on Azure Active Directory box, enter the tenant ID assigned to
 the Directory Manager application when you registered it in Microsoft Entra Admin Center.
@@ -182,7 +182,7 @@ Center.
 
 NOTE: The registered app must have the following API permissions to access files on OneDrive:
 
-![API permissions](../../../../../../static/img/product_docs/groupid/groupid/admincenter/datasource/apipermissions.webp)
+![API permissions](/img/product_docs/groupid/groupid/admincenter/datasource/apipermissions.webp)
 
 Step 9 – In the Registered Tenant ID on Azure Active Directory box, enter the tenant ID assigned to
 the Directory Manager application when you registered it in Microsoft Entra Admin Center.
@@ -344,7 +344,7 @@ Center.
 
 NOTE: The registered app must have the following API permissions to access files on OneDrive:
 
-![API permissions](../../../../../../static/img/product_docs/groupid/groupid/admincenter/datasource/apipermissions.webp)
+![API permissions](/img/product_docs/groupid/groupid/admincenter/datasource/apipermissions.webp)
 
 Step 9 – In the Registered Tenant ID on Azure Active Directory box, enter the tenant ID assigned to
 the Directory Manager application when you registered it in Microsoft Entra Admin Center.

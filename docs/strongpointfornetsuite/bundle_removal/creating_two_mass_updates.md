@@ -11,7 +11,7 @@ To create the first mass update:
 2. Open **General Updates** > **Custom Records** > **Customization**.
 3. Check **Use Expressions** on the **Criteria** tab.
 
-    ![Select Use Expressions](../../../static/img/product_docs/strongpointfornetsuite/bundle_removal/bundle_removal_use_expressions.webp)
+    ![Select Use Expressions](/img/product_docs/strongpointfornetsuite/bundle_removal/bundle_removal_use_expressions.webp)
 
 4. Add the following filters on the **Criteria** tab: | | Parens | Filter | Description | Parens |
    And/Or | | --- | --- | --- | --- | --- | --- | | Filter 1 | | Inactive | Is false | | and | |
@@ -19,13 +19,13 @@ To create the first mass update:
 
 You can remove more than one bundle at a time.
 
-![Mass Update Filters](../../../static/img/product_docs/strongpointfornetsuite/bundle_removal/mass_update_filters.webp)
+![Mass Update Filters](/img/product_docs/strongpointfornetsuite/bundle_removal/mass_update_filters.webp)
 
 1. Open the **Mass Update Fields** tab.
 2. Scroll down and check the box for **Clean Up Status**.
 3. Enter the **Clean Up Status**: **To Be Cleaned Up**.
 
-    ![Set Clean Up Status](../../../static/img/product_docs/strongpointfornetsuite/bundle_removal/clean_up_status.webp)
+    ![Set Clean Up Status](/img/product_docs/strongpointfornetsuite/bundle_removal/clean_up_status.webp)
 
 4. Click **Save**.
 
@@ -46,11 +46,11 @@ Customization to **To Be Investigated**. It identifies everything needing invest
    Status | Is To Be Cleaned Up | | or | | Filter 8 | | Searches/Mass Updates: Clean-Up Status | Is
    To Be Cleaned Up | ) | |
 
-![Adding filters](../../../static/img/product_docs/strongpointfornetsuite/bundle_removal/mass_update_filters2.webp)
+![Adding filters](/img/product_docs/strongpointfornetsuite/bundle_removal/mass_update_filters2.webp)
 
 5. Open the **Mass Update Fields** tab.
 6. Scroll down and check the box for **Clean Up Status**
 7. Enter the **Clean Up Status**: **Under Investigation**
 8. Click **Save**
 
-**Next Step:** [Creating a Custom List and Fields](creating_custom_list_and_fields.md)
+**Next Step:** [Creating a Custom List and Fields](/docs/strongpointfornetsuite/bundle_removal/creating_custom_list_and_fields.md)

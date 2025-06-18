@@ -12,16 +12,16 @@ displayed to the first Administration Console administrator, showing a license k
   new license.
 
 This warning always displays when the organization’s license is within 14 days of expiring. Click
-**OK**. See the [Import the License](licenseimport.md) topic for licensing the product.
+**OK**. See the [Import the License](/docs/threatprevention/7.5/threatprevention/install/licenseimport.md) topic for licensing the product.
 
-![Import Templates dialog box](../../../../../static/img/product_docs/threatprevention/threatprevention/install/importtemplates.webp)
+![Import Templates dialog box](/img/product_docs/threatprevention/threatprevention/install/importtemplates.webp)
 
 **Step 2 –** On the Import Templates dialog box, you can choose to import policy templates now or
 later.
 
 In Threat Prevention, many policy templates are pre-configured for the most common policy types, so
 that you can quickly configure a policy. See the
-[Templates Interface](../admin/templates/overview.md) topic for details.
+[Templates Interface](/docs/threatprevention/7.5/threatprevention/admin/templates/overview.md) topic for details.
 
 - Click **Yes** on the Import Templates dialog box to import all the templates into the
   Administration Console now. Once complete, the templates are available to all Administration
@@ -30,10 +30,10 @@ that you can quickly configure a policy. See the
   again next time this application loads?”
 
 You can import the policy templates any time later. See the
-[Import Templates](../admin/templates/folder/overview.md#import-templates) topic for additional
+[Import Templates](/docs/threatprevention/7.5/threatprevention/admin/templates/folder/overview.md#import-templates) topic for additional
 information.
 
-![Install Agent dialog box](../../../../../static/img/product_docs/threatprevention/threatprevention/install/installagent.webp)
+![Install Agent dialog box](/img/product_docs/threatprevention/threatprevention/install/installagent.webp)
 
 **Step 3 –** On the Install Agents dialog box, you can choose to install the Agent on servers now or
 later.
@@ -43,8 +43,8 @@ deployed on all the servers where these events occur. Use the Administration Con
 manage the Agent.
 
 - Click **Yes** on the Install Agents dialog box to launch the **Deploy Agents** wizard. See the
-  [Deploy Agents](../admin/agents/deploy/overview.md) topic for additional information.
+  [Deploy Agents](/docs/threatprevention/7.5/threatprevention/admin/agents/deploy/overview.md) topic for additional information.
 - Click **No** if you do not want to install the Agents now. To install Agents later, see the
-  [Agents Interface](../admin/agents/overview.md) topic.
+  [Agents Interface](/docs/threatprevention/7.5/threatprevention/admin/agents/overview.md) topic.
 
-See the [Getting Started ](../gettingstarted.md)topic for the next steps.
+See the [Getting Started ](/docs/threatprevention/7.5/threatprevention/gettingstarted.md)topic for the next steps.

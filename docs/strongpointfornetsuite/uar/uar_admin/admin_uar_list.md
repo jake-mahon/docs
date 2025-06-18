@@ -3,11 +3,11 @@
 Access your owner User Access Reviews List from **UAR List** in your menu bar, or one of the review
 shortcuts. Your UAR List displays either the list of Global Reviews or Single Reviews. The view is
 controlled with the **Sort By** selection in the Filters section. All changes are captured in the
-[UAR History](../uar_history.md).
+[UAR History](/docs/strongpointfornetsuite/uar/uar_history.md).
 
 Here is an example of the **Global** review list:
 
-![Administrator UAR list](../../../../static/img/product_docs/strongpointfornetsuite/uar/uar_admin/admin_uar.webp)
+![Administrator UAR list](/img/product_docs/strongpointfornetsuite/uar/uar_admin/admin_uar.webp)
 
 ## Filters
 
@@ -73,12 +73,12 @@ Use **Clear** to reset the Filters.
 1. Open **UAR List** from your menu bar or a shortcut.
 2. Click **Create Review**.
 
-    ![Create a review](../../../../static/img/product_docs/strongpointfornetsuite/uar/uar_admin/create_review1.webp)
+    ![Create a review](/img/product_docs/strongpointfornetsuite/uar/uar_admin/create_review1.webp)
 
 3. Select **Single Review** to add to an existing review, or **Global Review** to start a new
    review. This example shows the Add to an Existing Review option.
 
-    ![Create a review](../../../../static/img/product_docs/strongpointfornetsuite/uar/uar_admin/create_review2.webp)
+    ![Create a review](/img/product_docs/strongpointfornetsuite/uar/uar_admin/create_review2.webp)
 
 4. Use the drop down to **Select Global Review** this option is only if you chose **Single**. It is
    not available if you are creating a new **Global** review. The existing information for the
@@ -93,7 +93,7 @@ Use **Clear** to reset the Filters.
 8. Assign a **Review Name**. This is only available if you are creating a new **Global** review.
 9. Click **Create**.
 
-Owners are assigned on the administrator's [Owner's List](admin_owner_list.md), available on your
+Owners are assigned on the administrator's [Owner's List](/docs/strongpointfornetsuite/uar/uar_admin/admin_owner_list.md), available on your
 menu.
 
 ### Cancel a Review
@@ -104,7 +104,7 @@ menu.
 2. Select one or more Reviews.
 3. Click **Cancel Review**. Any open change requests are canceled.
 
-    ![Cancel a review](../../../../static/img/product_docs/strongpointfornetsuite/uar/uar_admin/cancel_review.webp)
+    ![Cancel a review](/img/product_docs/strongpointfornetsuite/uar/uar_admin/cancel_review.webp)
 
 4. Click **Accept**.
 
@@ -121,7 +121,7 @@ Reminders can be sent from the administrator's UAR List or from the Review list
 
 Clicking on a **Name** in the UAR List opens the Review List. Here is an example.
 
-![Review List](../../../../static/img/product_docs/strongpointfornetsuite/uar/uar_admin/admin_review_list.webp)
+![Review List](/img/product_docs/strongpointfornetsuite/uar/uar_admin/admin_review_list.webp)
 
 ### Filters
 
@@ -157,8 +157,8 @@ There are various actions you can perform from this list:
   details for the reviews.
 - **Extract Permission Detail**creates a CSV file (_Permission_Report.csv_) of the permission
   details for the reviews.
-- **Review Name** is a link to the [Membership](../uar_owner/owner_membership_reviews.md) or
-  [Permission ](../uar_owner/owner_permission_reviews.md)**Review** tab. Reviews can also be opened
+- **Review Name** is a link to the [Membership](/docs/strongpointfornetsuite/uar/uar_owner/owner_membership_reviews.md) or
+  [Permission ](/docs/strongpointfornetsuite/uar/uar_owner/owner_permission_reviews.md)**Review** tab. Reviews can also be opened
   via links in dashboard or email **Notifications**. The Review tab and Review notes tab is the
 - **Role Name** the role being reviewed.
 - **Review Type** is the type of review: **Membership** or **Permission**. The review type is set
@@ -170,7 +170,7 @@ There are various actions you can perform from this list:
     - **Not Started** Email notification has been sent, review has not been started.
     - **In Progress** Review has been started.
     - **Additional Reviewer** Review has been assigned to an
-      [additional reviewer](../uar_owner/owner_membership_reviews.md).
+      [additional reviewer](/docs/strongpointfornetsuite/uar/uar_owner/owner_membership_reviews.md).
     - **Change Request** Change request has been created. The **Change Request ID** is added to the
       row. The link opens the Change Request. **CR Rejected**, **CR Cancelled**, and **CR Complete**
       are the other Change Request status values.

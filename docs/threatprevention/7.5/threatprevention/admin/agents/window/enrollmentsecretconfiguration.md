@@ -9,14 +9,14 @@ enrollment secret is applied depends on the method used to install the Agent.
   and use a new enrollment secret as part of automated Agent installation.
 - If installing the Agent manually, the enrollment secret must be entered in the Certificates window
   of the Agent Setup wizard during installation. See the
-  [Manual Agent Deployment](../../../install/agent/manual.md) topic for additional information.
+  [Manual Agent Deployment](/docs/threatprevention/7.5/threatprevention/install/agent/manual.md) topic for additional information.
 
 Follow the steps to generate the enrollment secret.
 
 **Step 1 –** Click **Agents** in the left pane to launch the Agents interface. Then click **Agent
 Enrollment Secret** to launch the Enrollment Secret Configuration window.
 
-![Enrollment Secret Configuration window](../../../../../../../static/img/product_docs/threatprevention/threatprevention/admin/agents/window/enrollmentsecret.webp)
+![Enrollment Secret Configuration window](/img/product_docs/threatprevention/threatprevention/admin/agents/window/enrollmentsecret.webp)
 
 The Enrollment Secret Configuration window enables you to generate the enrollment secret required to
 manually deploy the Agent. It has the following fields:

@@ -21,10 +21,10 @@ Display Type** wozard:
 
     If the source file is a Microsoft Excel (.xls or .xlsx) file, Directory Manager automatically
     creates its XML version to process it. To learn about the Excel file format, see the
-    [Excel Data File Format](fileformat.md) topic.
+    [Excel Data File Format](/docs/groupid/11.1/groupid/admincenter/portal/linkedcombo/fileformat.md) topic.
 
 3. Click **Next**.
 
 See Also
 
-- [Linked Combo Display Type](overview.md)
+- [Linked Combo Display Type](/docs/groupid/11.1/groupid/admincenter/portal/linkedcombo/overview.md)

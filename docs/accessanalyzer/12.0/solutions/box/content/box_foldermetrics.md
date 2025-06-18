@@ -14,7 +14,7 @@ Navigate to **Box** > **2.Content** > **Box_FolderMetrics** > **Configure** node
 
 **CAUTION:** Most of these analysis tasks should never be modified and never be deselected.
 
-![Analysis Tasks for the Box_FolderMetrics Job](../../../../../../static/img/product_docs/accessanalyzer/solutions/box/content/foldermetricsanalysis.webp)
+![Analysis Tasks for the Box_FolderMetrics Job](/img/product_docs/accessanalyzer/solutions/box/content/foldermetricsanalysis.webp)
 
 The following analysis tasks are selected by default:
 
@@ -46,5 +46,5 @@ The default values for parameters that can be customized are:
 | Folder Metrics Details | @STALE_THRESHOLD            | 30            | Consider content stale after 30 days |
 
 See the
-[Configure the Customizable Parameters in an Analysis Task](../../../admin/jobs/job/configure/analysiscustomizableparameters.md) topic
+[Configure the Customizable Parameters in an Analysis Task](/docs/accessanalyzer/12.0/admin/jobs/job/configure/analysiscustomizableparameters.md) topic
 for instructions on how to modify parameters.

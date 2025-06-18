@@ -3,8 +3,8 @@
 This section provides an overview of troubleshooting and maintenance steps and processes for
 Activity Monitor. See the following topics for additional information:
 
-- [Update Credential Passwords](credentialpasswords.md)
-- [Trace Logs](tracelogs.md)
-- [Antivirus Exclusions](antivirusexclusions.md)
-- [Performance Monitoring](performancemonitoring.md)
-- [Backup & Restoration](backuprestore/overview.md)
+- [Update Credential Passwords](/docs/activitymonitor/8.0/activitymonitor/troubleshooting/credentialpasswords.md)
+- [Trace Logs](/docs/activitymonitor/8.0/activitymonitor/troubleshooting/tracelogs.md)
+- [Antivirus Exclusions](/docs/activitymonitor/8.0/activitymonitor/troubleshooting/antivirusexclusions.md)
+- [Performance Monitoring](/docs/activitymonitor/8.0/activitymonitor/troubleshooting/performancemonitoring.md)
+- [Backup & Restoration](/docs/activitymonitor/8.0/activitymonitor/troubleshooting/backuprestore/overview.md)

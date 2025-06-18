@@ -73,20 +73,20 @@ In the **Active Directory Users and Computers** console:
 2. In the left pane, right-click the domain name or organizational unit and select the
    **Properties** option. On the Properties window, select the **Security** tab.
 
-    ![security_tab](../../../../../../static/img/product_docs/groupid/groupid/requirements/permissions/security_tab.webp)
+    ![security_tab](/img/product_docs/groupid/groupid/requirements/permissions/security_tab.webp)
 
 3. Click the **Advanced** button; the **Advanced Security Settings** window is displayed.
 
-    ![advsecsettings](../../../../../../static/img/product_docs/groupid/groupid/requirements/permissions/advsecsettings.webp)
+    ![advsecsettings](/img/product_docs/groupid/groupid/requirements/permissions/advsecsettings.webp)
 
 4. Click the **Add** button. The **Permission Entry** window is displayed.
 
-    ![permissionentry](../../../../../../static/img/product_docs/groupid/groupid/requirements/permissions/permissionentry.webp)
+    ![permissionentry](/img/product_docs/groupid/groupid/requirements/permissions/permissionentry.webp)
 
 5. Click the **Select a principal** link next to **Principal**. The Select User, Computer, Service
    Account, or Group dialog box is displayed.
 
-    ![select_user](../../../../../../static/img/product_docs/groupid/groupid/requirements/permissions/select_user.webp)
+    ![select_user](/img/product_docs/groupid/groupid/requirements/permissions/select_user.webp)
 
     Type the name of the service account in the **Enter the object name to select** box. Click
     **OK**. The **Permissions Entry** window is displayed with all fields enabled (see step 4).
@@ -97,12 +97,12 @@ In the **Active Directory Users and Computers** console:
     1. Scroll down the list of permissions in the **Permissions** box and select the check boxes for
        the options shown below:
 
-        ![permissions_list](../../../../../../static/img/product_docs/groupid/groupid/requirements/permissions/permissions_list.webp)
+        ![permissions_list](/img/product_docs/groupid/groupid/requirements/permissions/permissions_list.webp)
 
     2. Click **OK**. The granted permissions appear in the **Advanced Security Settings** window as
        shown below:
 
-        ![advsecsettingsgrantedpermissions](../../../../../../static/img/product_docs/groupid/groupid/requirements/permissions/advsecsettingsgrantedpermissions.webp)
+        ![advsecsettingsgrantedpermissions](/img/product_docs/groupid/groupid/requirements/permissions/advsecsettingsgrantedpermissions.webp)
 
 8. Grant permissions to modify users, contacts, and groups.
 
@@ -115,19 +115,19 @@ In the **Active Directory Users and Computers** console:
     3. In the **Applies to** box, select the **Descendant Contact objects** option and select the
        **Full control** check box in the _Permissions_ area. It is as follows:
 
-        ![fullcontrolcontact](../../../../../../static/img/product_docs/groupid/groupid/requirements/permissions/fullcontrolcontact.webp)
+        ![fullcontrolcontact](/img/product_docs/groupid/groupid/requirements/permissions/fullcontrolcontact.webp)
 
     4. Click **OK**. The granted permissions appear in the **Advanced Security Settings** window as
        shown below:
 
-        ![advsecsettingsfullcontrolcontact](../../../../../../static/img/product_docs/groupid/groupid/requirements/permissions/advsecsettingsfullcontrolcontact.webp)
+        ![advsecsettingsfullcontrolcontact](/img/product_docs/groupid/groupid/requirements/permissions/advsecsettingsfullcontrolcontact.webp)
 
     5. Repeat steps a – d for **Descendant Group objects** and **Descendant User objects** on the
        Permission Entry window.  
        The service account now has permissions to modify users, contacts, and groups. These
        permissions appear in the **Advanced Security Settings** window. It is as shown below:
 
-        ![advsecsettingsreqpermissions](../../../../../../static/img/product_docs/groupid/groupid/requirements/permissions/advsecsettingsreqpermissions.webp)
+        ![advsecsettingsreqpermissions](/img/product_docs/groupid/groupid/requirements/permissions/advsecsettingsreqpermissions.webp)
 
 9. Click **OK**.
 
@@ -148,12 +148,12 @@ Add-RoleGroupMember "Recipient Management" -Member domain name\user
 
 ## SQL Server Account and Database Permissions
 
-See the [Authentication Modes](../setupauthentication.md) topic for information about the roles and
+See the [Authentication Modes](/docs/groupid/11.1/groupid/requirements/setupauthentication.md) topic for information about the roles and
 permissions the SQL server and database accounts must have for
-[SQL Server Authentication](../setupauthentication.md#sql-server-authentication) mode and for
-[Windows Authentication](../setupauthentication.md#windows-authentication) mode.
+[SQL Server Authentication](/docs/groupid/11.1/groupid/requirements/setupauthentication.md#sql-server-authentication) mode and for
+[Windows Authentication](/docs/groupid/11.1/groupid/requirements/setupauthentication.md#windows-authentication) mode.
 
 **See Also**
 
-- [Create an Identity Store](../../admincenter/identitystore/create.md)
-- [Manage an Identity Store](../../admincenter/identitystore/manage.md)
+- [Create an Identity Store](/docs/groupid/11.1/groupid/admincenter/identitystore/create.md)
+- [Manage an Identity Store](/docs/groupid/11.1/groupid/admincenter/identitystore/manage.md)

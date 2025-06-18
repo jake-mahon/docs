@@ -5,12 +5,12 @@ syslog (SIEM) in real time.
 
 - Event data generated for a policy is sent to SIEM if the 'Send to SIEM' option is selected for
   that policy on the Actions tab. See the
-  [Send to SIEM](../policies/actions/overview.md#send-to-siem) topic for additional information.
+  [Send to SIEM](/docs/threatprevention/7.5/threatprevention/admin/policies/actions/overview.md#send-to-siem) topic for additional information.
 - Event data generated for an analytic is sent to SIEM if the 'Send Raw Data to SIEM' option is
   selected for that analytic on the Actions tab. See the
-  [Send to SIEM](../policies/actions/overview.md#send-to-siem) topic for additional information.
+  [Send to SIEM](/docs/threatprevention/7.5/threatprevention/admin/policies/actions/overview.md#send-to-siem) topic for additional information.
 - Event data generated for an event/incident/policy is sent to SIEM if a SIEM profile has been
-  assigned to it on the [SIEM Tab](systemalerting/siem.md) of the System Alerting Window.
+  assigned to it on the [SIEM Tab](/docs/threatprevention/7.5/threatprevention/admin/configuration/systemalerting/siem.md) of the System Alerting Window.
 
 While you can also use third-party tools like
 [Kiwi Syslog Server](https://www.solarwinds.com/free-tools/kiwi-free-syslog-server) to view the
@@ -22,7 +22,7 @@ Follow the steps to view real time data (messages) that Threat Prevention sends 
 **Step 1 –** Click **Configuration** > **SIEM Output Viewer** on the menu; the SIEM Output Viewer
 window opens. This window is only available to Threat Prevention administrators.
 
-![SIEM Output Viewer window](../../../../../../static/img/product_docs/threatprevention/threatprevention/admin/configuration/siemoutputviewer.webp)
+![SIEM Output Viewer window](/img/product_docs/threatprevention/threatprevention/admin/configuration/siemoutputviewer.webp)
 
 **Step 2 –** Click **Start**. As events occur and Threat Prevention writes to syslog (sends
 event/policy/analytics data to SIEM) in real time, they are displayed on the window.
@@ -59,14 +59,14 @@ This data grid employs features for sorting, filtering, searching, and more.
 
 - Right-click anywhere in the column header to get a menu with several options to sort the data in
   the grid. See the
-  [Data Grid Right-Click Menu](../navigation/rightclickmenus.md#data-grid-right-click-menu) topic
+  [Data Grid Right-Click Menu](/docs/threatprevention/7.5/threatprevention/admin/navigation/rightclickmenus.md#data-grid-right-click-menu) topic
   for additional information.
 - The Group by Box ribbon just above the header row impacts how much data is displayed. See the
-  [Sort Data](../navigation/datagrid.md#sort-data) topic for additional information.
+  [Sort Data](/docs/threatprevention/7.5/threatprevention/admin/navigation/datagrid.md#sort-data) topic for additional information.
 - Columns can be reordered as desired as well as removed from the data grid. Removed columns can be
-  added back through the [Customization Window](../navigation/datagrid.md#customization-window).
+  added back through the [Customization Window](/docs/threatprevention/7.5/threatprevention/admin/navigation/datagrid.md#customization-window).
 - The Search icon opens the **Enter text to search…** textbox where you can search for the required
-  data in the data grid. See the [Search Data](../navigation/datagrid.md#search-data) topic for
+  data in the data grid. See the [Search Data](/docs/threatprevention/7.5/threatprevention/admin/navigation/datagrid.md#search-data) topic for
   additional information.
 
 **Step 5 –** Click **Save** to save the displayed data to a text file or **Clear** to clear the

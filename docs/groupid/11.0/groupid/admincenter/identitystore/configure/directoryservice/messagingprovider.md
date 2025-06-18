@@ -170,7 +170,7 @@ Step 7 – Enter a regular expression in the Email Alias Regular Expression box;
 created in the external provider must satisfy this regular expression.  
 Follow these links for information about regular expressions and their syntax:
 
-- [Introduction to Regular Expressions](<https://docs.microsoft.com/en-us/previous-versions/visualstudio/visual-studio-2010/28hw3sce(v%3dvs.100)>)
+- [Introduction to Regular Expressions](https://docs.microsoft.com/en-us/previous-versions/visualstudio/visual-studio-2010/28hw3sce(v%3dvs.100))
 - [Regular Expression Syntax Reference](https://msdn.microsoft.com/en-us/library/ms840427.aspx)
 
 Step 8 – In the Enter Example to Validate Regular Expression box, enter an email alias as an

@@ -11,44 +11,44 @@ functionality for each associated identity store.
 You can customize the following for a portal:
 
 - **Search Forms:** control the fields to be displayed on different search forms and search result
-  pages in a portal. See the [Customize Search Forms](../design/form/searchforms.md) and
-  [Customize Search Results](../design/form/searchresults.md) topics.
+  pages in a portal. See the [Customize Search Forms](/docs/groupid/11.1/groupid/admincenter/portal/design/form/searchforms.md) and
+  [Customize Search Results](/docs/groupid/11.1/groupid/admincenter/portal/design/form/searchresults.md) topics.
 - **Quick Search:** control the schema attributes for quick search to run on. See the
-  [Customize Quick Search](../design/form/quicksearch.md) topic.
+  [Customize Quick Search](/docs/groupid/11.1/groupid/admincenter/portal/design/form/quicksearch.md) topic.
 - **Properties:** control what properties of directory objects you want to display in a portal. See
-  the [Customize Properties Pages](../design/objectproperties.md) topic.
+  the [Customize Properties Pages](/docs/groupid/11.1/groupid/admincenter/portal/design/objectproperties.md) topic.
 - **Toolbars:** customize the buttons on the portal toolbars. See the
-  [Customize the Toolbars](../design/toolbars.md) topic.
+  [Customize the Toolbars](/docs/groupid/11.1/groupid/admincenter/portal/design/toolbars.md) topic.
 - **Navigation Bar:** customize the left navigation bar in a portal. See the
-  [Customize the Navigation Bar](../design/navigationbar.md) topic.
+  [Customize the Navigation Bar](/docs/groupid/11.1/groupid/admincenter/portal/design/navigationbar.md) topic.
 - **Bad Words List:** restrict users from entering bad or offensive words while using a portal. See
-  the [Manage the Bad Words List](../design/badwords.md) topic.
+  the [Manage the Bad Words List](/docs/groupid/11.1/groupid/admincenter/portal/design/badwords.md) topic.
 - **Import/Export Attributes:** specify schema attributes to be used for importing/exporting members
   and additional owners for groups. See the
-  [Specify Attributes for Import/Export of Group Owners and Members](../design/importexport.md):
+  [Specify Attributes for Import/Export of Group Owners and Members](/docs/groupid/11.1/groupid/admincenter/portal/design/importexport.md):
   topic.
 - **Create Object Wizards:** control the schema attributes displayed in the portal for creating
   different object types. See the
-  [Customize the Create Object Wizards](../design/createobject.md) topic.
+  [Customize the Create Object Wizards](/docs/groupid/11.1/groupid/admincenter/portal/design/createobject.md) topic.
 - **Query Attributes:** control which schema attributes to display in the portal for creating
   queries for Smart Groups ad Dynasties. See the
-  [ Specify Smart Group Query Attributes](../design/queryattributes.md) topic.
+  [ Specify Smart Group Query Attributes](/docs/groupid/11.1/groupid/admincenter/portal/design/queryattributes.md) topic.
 - **Property Validation:** manage the schema attributes for user profile validation and group
-  attestation. See the [Manage Property Validation Attributes](../design/propertyvalidation.md)
+  attestation. See the [Manage Property Validation Attributes](/docs/groupid/11.1/groupid/admincenter/portal/design/propertyvalidation.md)
   topic.
 - **Organizational Hierarchy:** specify user attributes for display on the organizational hierarchy
   chart. See the
-  [Specify Attributes for Organizational Hierarchy](../design/organizationalhierarchy.md) topic.
+  [Specify Attributes for Organizational Hierarchy](/docs/groupid/11.1/groupid/admincenter/portal/design/organizationalhierarchy.md) topic.
 - **Card View:** specify the attributes to be displayed on an object card. See the
-  [Specify Attributes for the Object Card](../design/objectcard.md) topic.
+  [Specify Attributes for the Object Card](/docs/groupid/11.1/groupid/admincenter/portal/design/objectcard.md) topic.
 - **Object List View:** specify the attributes to be displayed for similar groups on the **Similar
   Groups** tab in group properties. See the
-  [Specify Attributes for Object List View](../design/objectlist.md) topic.
+  [Specify Attributes for Object List View](/docs/groupid/11.1/groupid/admincenter/portal/design/objectlist.md) topic.
 
 NOTE: Design settings are available for a standard Directory Manager portal, and not for a
 Self-Service Password Reset portal.
 
 **See Also**
 
-- [Display Type Categories](categories.md)
-- [Define Custom Display Types](custom.md)
+- [Display Type Categories](/docs/groupid/11.1/groupid/admincenter/portal/displaytype/categories.md)
+- [Define Custom Display Types](/docs/groupid/11.1/groupid/admincenter/portal/displaytype/custom.md)

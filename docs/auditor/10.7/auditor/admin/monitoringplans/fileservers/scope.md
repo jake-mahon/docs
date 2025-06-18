@@ -4,7 +4,7 @@ You can specify data that you want to include into / exclude from the Windows Fi
 Filer, and Dell Data Storage (formerly EMC) monitoring scope. For that, you can configure monitoring
 scope in Auditor client UI, as explained in the related section:
 
-- [File Servers](overview.md)
+- [File Servers](/docs/auditor/10.7/auditor/admin/monitoringplans/fileservers/overview.md)
 - Windows File Share
 
 Besides, you can configure exclusions for file servers audit using the special txt files (omit
@@ -79,7 +79,7 @@ to the specified shared folder, its subfolders and files.
 - All actions — Exclude all actions of the selected users
 - These actions — Use the drop-down list to select the actions to exclude, e.g. _Added_ and _Moved_.
 
-![Specify Filters](../../../../../../../static/img/product_docs/auditor/auditor/admin/monitoringplans/fileservers/item_computer_exclude_users_thumb_0_0.webp)
+![Specify Filters](/img/product_docs/auditor/auditor/admin/monitoringplans/fileservers/item_computer_exclude_users_thumb_0_0.webp)
 
 **Step 3 –** After configuring all filters, click **Add** to save them and return to the item
 settings.

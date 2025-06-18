@@ -36,7 +36,7 @@ It also provides the ability to feed activity data to other Netwrix products:
 
 Prior to adding aMicrosoft Entra ID host to the Activity Monitor, the prerequisites for the target
 environment must be met. See the
-[Microsoft Entra ID Activity Auditing Configuration](../../../../config/entraid/activity.md) topic
+[Microsoft Entra ID Activity Auditing Configuration](/docs/activitymonitor/8.0/config/entraid/activity.md) topic
 for additional information.
 
 _Remember,_ the Activity Agent must be deployed to a Windows server that acts as a proxy for
@@ -49,30 +49,30 @@ Follow the steps to add a Microsoft Entra ID host to be monitored.
 **Step 1 –** In the Activity Monitor, go to the Monitored Hosts tab and click Add. The Add New Host
 window opens.
 
-![Add Host - Choose Agent](../../../../../../../static/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/chooseagent.webp)
+![Add Host - Choose Agent](/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/chooseagent.webp)
 
 **Step 2 –** On the Choose Agent page, select the Agent to monitor the storage device.
 
-![Add Host page](../../../../../../../static/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/addhostentraid.webp)
+![Add Host page](/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/addhostentraid.webp)
 
 **Step 3 –** On the Add Host page, select the **Azure Active Directory / Entra ID** radio button and
 enter the Primary domain in the **Domain name** field.
 
 _(Optional)_ Enter a comment for the Microsoft Entra ID host.
 
-![entraidconnection](../../../../../../../static/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/entraidconnection.webp)
+![entraidconnection](/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/entraidconnection.webp)
 
 **Step 4 –** On the Azure AD / Entra ID Connection page, enter a Tenant ID, Client ID, and Client
 Secret. Optional add a Region. Then click **Connect** to grant permissions to read the audit log.
 Click **Open Instruction...** for steps on registering the Activity Monitor with Microsoft Entra ID.
 Click **Next**.
 
-![Add Host - Azure AD Operations page](../../../../../../../static/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/entraidoperations.webp)
+![Add Host - Azure AD Operations page](/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/entraidoperations.webp)
 
 **Step 5 –** On the Azure AD / Entra ID Operations page, select which audit activity to monitor.
 Click **Next**.
 
-![wheretologgeneric](../../../../../../../static/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/wheretologgeneric.webp)
+![wheretologgeneric](/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/wheretologgeneric.webp)
 
 **Step 6 –** On the Where To Log The Activity page, select where to send the activity events:
 
@@ -80,7 +80,7 @@ Click **Next**.
 - Syslog Server – Sends to a configured SIEM system
 - Netwrix Threat Manager (StealthDEFEND) – Sends to Netwrix Threat Manager
 
-![fileoutputpage](../../../../../../../static/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/fileoutputpage.webp)
+![fileoutputpage](/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/fileoutputpage.webp)
 
 **Step 7 –** If **Log Files** is selected on the **Where To Log The Activity** page, the **File
 Output** page can be configured. The configurable options are:
@@ -103,7 +103,7 @@ Output** page can be configured. The configurable options are:
 
 Click **Next**.
 
-![syslogoutputpage](../../../../../../../static/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/syslogoutputpage.webp)
+![syslogoutputpage](/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/syslogoutputpage.webp)
 
 **Step 8 –** If Syslog Server is selected on the **Where To Log The Activity** page, the Syslog
 Output page can be configured. The configurable options are:
@@ -121,7 +121,7 @@ Output page can be configured. The configurable options are:
     - TLS
 
     The TCP and TLS protocols add the Message framing drop-down menu. See the
-    [Syslog Tab](../../outputs/syslog.md) topic for additional information.
+    [Syslog Tab](/docs/activitymonitor/8.0/activitymonitor/admin/outputs/syslog.md) topic for additional information.
 
 - The Test button sends a test message to the Syslog server to check the connection. A green check
   mark or red will determine whether the test message has been sent or failed to send. Messages vary
@@ -131,22 +131,22 @@ Output page can be configured. The configurable options are:
     - TCP/TLS – Sends test message and verifies connection
     - TLS – Shows error if TLS handshake fails
 
-    See the [Syslog Tab](../../outputs/syslog.md) topic for additional information.
+    See the [Syslog Tab](/docs/activitymonitor/8.0/activitymonitor/admin/outputs/syslog.md) topic for additional information.
 
 Click **Finish**.
 
-![Azure Active Directory in Activity Monitor](../../../../../../../static/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/entraidadded.webp)
+![Azure Active Directory in Activity Monitor](/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/entraidadded.webp)
 
 The added Microsoft Entra ID host is displayed in the monitored hosts table. Once a host has been
 added for monitoring, configure the desired ouptuts. See the
-[Output for Monitored Hosts](../output.md) topic for additional information.
+[Output for Monitored Hosts](/docs/activitymonitor/8.0/activitymonitor/admin/monitoredhosts/output.md) topic for additional information.
 
 ## Host Properties for Microsoft Entra ID
 
 Configuration settings can be edited through the tabs in the host’s Properties window. The
 configurable host properties are:
 
-- [Connection Tab](../properties/connection.md)
-- [Inactivity Alerts Tab](../properties/inactivityalerts.md)
+- [Connection Tab](/docs/activitymonitor/8.0/activitymonitor/admin/monitoredhosts/properties/connection.md)
+- [Inactivity Alerts Tab](/docs/activitymonitor/8.0/activitymonitor/admin/monitoredhosts/properties/inactivityalerts.md)
 
-See the [Host Properties Window](../properties/overview.md) topic for additional information.
+See the [Host Properties Window](/docs/activitymonitor/8.0/activitymonitor/admin/monitoredhosts/properties/overview.md) topic for additional information.

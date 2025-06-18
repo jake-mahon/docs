@@ -2,7 +2,7 @@
 
 The Groups tab shows information about the local groups on the selected resource.
 
-![Group Tab for Host Resource](../../../../../../../../../static/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/tab/resources/groupshost.webp)
+![Group Tab for Host Resource](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/tab/resources/groupshost.webp)
 
 The table has the following columns:
 

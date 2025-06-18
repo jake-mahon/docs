@@ -5,10 +5,10 @@ offers a wizard guided report generation process that accounts for quick and eas
 
 Directory Manager reports are organized into four categories:
 
-- [User Reports](user.md)
-- [Group Reports](group.md)
-- [Computer Reports](computer.md)
-- [Contact Reports](contact.md)
+- [User Reports](/docs/groupid/11.1/groupid/portal/report/user.md)
+- [Group Reports](/docs/groupid/11.1/groupid/portal/report/group.md)
+- [Computer Reports](/docs/groupid/11.1/groupid/portal/report/computer.md)
+- [Contact Reports](/docs/groupid/11.1/groupid/portal/report/contact.md)
 
 NOTE: A Microsoft Entra ID based identity store does not support the computer and contact object
 types.
@@ -18,7 +18,7 @@ formats.
 
 The user interface of Reports Dashboard is as follows:
 
-![reportsdashboard](../../../../../../static/img/product_docs/groupid/groupid/portal/report/reportsdashboard.webp)
+![reportsdashboard](/img/product_docs/groupid/groupid/portal/report/reportsdashboard.webp)
 
 Different elements of the Dashboard are described below:
 
@@ -61,7 +61,7 @@ Different elements of the Dashboard are described below:
 - Look on the left side of the page for the navigation pane, which lists links to the following:
 
     - Dashboard
-    - [User Reports](user.md)
-    - [Group Reports](group.md)
-    - [Computer Reports](computer.md)
-    - [Contact Reports](contact.md)
+    - [User Reports](/docs/groupid/11.1/groupid/portal/report/user.md)
+    - [Group Reports](/docs/groupid/11.1/groupid/portal/report/group.md)
+    - [Computer Reports](/docs/groupid/11.1/groupid/portal/report/computer.md)
+    - [Contact Reports](/docs/groupid/11.1/groupid/portal/report/contact.md)

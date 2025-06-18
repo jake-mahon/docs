@@ -7,12 +7,12 @@ your own MDM service, or Endpoint Policy Manager Cloud.
 To export a policy for later use using Endpoint Policy Manager Exporter or Endpoint Policy Manager
 Cloud, follow thee steps:
 
-![about_policypak_browser_router_47](../../../../static/img/product_docs/policypak/policypak/browserrouter/about_policypak_browser_router_47.webp)
+![about_policypak_browser_router_47](/img/product_docs/policypak/policypak/browserrouter/about_policypak_browser_router_47.webp)
 
 **Step 1 –** Right-click the collection or the policy and select **Export to XML**. This enables you
 to save an XML file for later use.
 
-![about_policypak_browser_router_48](../../../../static/img/product_docs/policypak/policypak/browserrouter/about_policypak_browser_router_48.webp)
+![about_policypak_browser_router_48](/img/product_docs/policypak/policypak/browserrouter/about_policypak_browser_router_48.webp)
 
 Choose a policy and select Export to XML.
 

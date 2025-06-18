@@ -1,7 +1,7 @@
 # Quick Start
 
 **NOTE:** Watch this video for an overview of Java Rules Manager: See
-[Use Endpoint Policy Manager Cloud to choose which version of Java for what website](../video/javaenterpriserules/cloud.md)
+[Use Endpoint Policy Manager Cloud to choose which version of Java for what website](/docs/policypak/policypak/video/javaenterpriserules/cloud.md)
 Netwrix Endpoint Policy Manager (formerly PolicyPak).
 
 Endpoint Policy Manager Java Rules Manager editor is within the Endpoint Policy Manager node.
@@ -11,7 +11,7 @@ Rules Manager policy or collection.
 **NOTE:** You will only see the Java Rules Manager node when you have the latest Endpoint Policy
 Manager Admin Console MSI installed on your management station.
 
-![quickstart_policypak_java](../../../../static/img/product_docs/policypak/policypak/javaenterpriserules/quickstart_policypak_java.webp)
+![quickstart_policypak_java](/img/product_docs/policypak/policypak/javaenterpriserules/quickstart_policypak_java.webp)
 
 Endpoint Policy Manager Java Rules Manager rules can only be created on the Computer side. If you
 attempt to use the user-side configuration node, you will receive a message explaining that you need
@@ -24,9 +24,9 @@ Endpoint Policy Manager Java Rules Manager policies can use collections. If you 
 organized, you can create a collectioni Endpoint Policy Manager and then put Java Rules policies (or
 other collections) inside the collection.
 
-![quickstart_policypak_java_1](../../../../static/img/product_docs/policypak/policypak/javaenterpriserules/quickstart_policypak_java_1.webp)
+![quickstart_policypak_java_1](/img/product_docs/policypak/policypak/javaenterpriserules/quickstart_policypak_java_1.webp)
 
-![quickstart_policypak_java_2](../../../../static/img/product_docs/policypak/policypak/javaenterpriserules/quickstart_policypak_java_2.webp)
+![quickstart_policypak_java_2](/img/product_docs/policypak/policypak/javaenterpriserules/quickstart_policypak_java_2.webp)
 
 Endpoint Policy Manager Java Rules Manager has a precedence order. This happens if you decide to
 have multiple policies, collections, and Group Policy Objects (GPOs), or if you choose to use
@@ -37,29 +37,29 @@ that collection, create a new Endpoint Policy Manager Java Rules Manager policy,
 shown below. In this example, we are making a rule for [https://java.com ](https://java.com)by using
 Java 7 U 51. (Note that this is https, notjust http).
 
-![quickstart_policypak_java_3](../../../../static/img/product_docs/policypak/policypak/javaenterpriserules/quickstart_policypak_java_3.webp)
+![quickstart_policypak_java_3](/img/product_docs/policypak/policypak/javaenterpriserules/quickstart_policypak_java_3.webp)
 
 **Step 2 –** Once you click **OK** you will receive an entry similar to the one shown below.
 
-![quickstart_policypak_java_4](../../../../static/img/product_docs/policypak/policypak/javaenterpriserules/quickstart_policypak_java_4.webp)
+![quickstart_policypak_java_4](/img/product_docs/policypak/policypak/javaenterpriserules/quickstart_policypak_java_4.webp)
 
 **Step 3 –** If you would like to follow along with this Quickstart, create two more Endpoint Policy
 Manager Java Rules Manager policies in the same collection. The next one will make a rule so that
 [http://javatester.org ](http://javatester.org)will run with Java 8 U 25. (Note that this URL is
 http, nothttps).
 
-![quickstart_policypak_java_5](../../../../static/img/product_docs/policypak/policypak/javaenterpriserules/quickstart_policypak_java_5.webp)
+![quickstart_policypak_java_5](/img/product_docs/policypak/policypak/javaenterpriserules/quickstart_policypak_java_5.webp)
 
 **Step 4 –** Click **OK** to save the entry..
 
 **Step 5 –** Create another policy that will block `https://*.nasa.gov/`.Note that this URL is
 https.
 
-![quickstart_policypak_java_6](../../../../static/img/product_docs/policypak/policypak/javaenterpriserules/quickstart_policypak_java_6.webp)
+![quickstart_policypak_java_6](/img/product_docs/policypak/policypak/javaenterpriserules/quickstart_policypak_java_6.webp)
 
 **Step 6 –** When complete, your entries will look like this:.
 
-![quickstart_policypak_java_7](../../../../static/img/product_docs/policypak/policypak/javaenterpriserules/quickstart_policypak_java_7.webp)
+![quickstart_policypak_java_7](/img/product_docs/policypak/policypak/javaenterpriserules/quickstart_policypak_java_7.webp)
 
 Here is what each column in the above figure means:
 
@@ -71,7 +71,7 @@ Here is what each column in the above figure means:
 - Enabled (True/False) — A policy entry can be enabled, which means it will go to work. If you need
   to temporarily stop a policy entry from applying, you can disable it (set it to False).
 - Item-Level Targeting (No/Yes) — We will describe this column later on in the section
-  [Using Item-Level Targeting with Collections and Policies](itemleveltargeting.md).
+  [Using Item-Level Targeting with Collections and Policies](/docs/policypak/policypak/javaenterpriserules/itemleveltargeting.md).
 - Comment — Any entry can have a comment option, which is used to explain why you made the decision.
 
 **Step 7 –** On the endpoint, reboot the computer or run GPupdate so the GPO with the policies that
@@ -89,7 +89,7 @@ GPupdate).
 - Open Firefox and visit [www.javatester.org](http://www.javatester.org/). Then click **Test this
   version of Java**. You should see Java 1.8.0_25, that is, Java 8 U 25.
 
-![quickstart_policypak_java_8](../../../../static/img/product_docs/policypak/policypak/javaenterpriserules/quickstart_policypak_java_8.webp)
+![quickstart_policypak_java_8](/img/product_docs/policypak/policypak/javaenterpriserules/quickstart_policypak_java_8.webp)
 
 **Step 9 –** On either browser, visit
 [https://atcsim.arc.nasa.gov/version/index.html](https://atcsim.arc.nasa.gov/version/index.html).
@@ -97,14 +97,14 @@ When you visit the NASA website, you will receive a prompt warning you that the 
 out of date and will be received (which is not related to Java). Continue to run the applet. The
 result is shown below.
 
-![quickstart_policypak_java_9](../../../../static/img/product_docs/policypak/policypak/javaenterpriserules/quickstart_policypak_java_9.webp)
+![quickstart_policypak_java_9](/img/product_docs/policypak/policypak/javaenterpriserules/quickstart_policypak_java_9.webp)
 
 **Step 10 –** Click **OK**. Next, click the **Error: Click for details** message. When you do this,
 another message will pop-up.
 
-![quickstart_policypak_java_10](../../../../static/img/product_docs/policypak/policypak/javaenterpriserules/quickstart_policypak_java_10.webp)
+![quickstart_policypak_java_10](/img/product_docs/policypak/policypak/javaenterpriserules/quickstart_policypak_java_10.webp)
 
 This ends the Endpoint Policy Manager Java Rules Manager Quickstart, which demonstrated the power of
 Endpoint Policy Manager Java Enterprise Rules Manager in the fastest amount of time. Note that
 prompts for various Java-related items might be received during your Quickstart. To overcome this,
-please see section on [Overcoming Java Prompts](prompts/overview.md).
+please see section on [Overcoming Java Prompts](/docs/policypak/policypak/javaenterpriserules/prompts/overview.md).

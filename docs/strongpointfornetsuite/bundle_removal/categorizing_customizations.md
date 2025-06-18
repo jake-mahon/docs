@@ -42,13 +42,13 @@ summary criteria for this type of search.
    `{custrecord_flo_searches.custrecord_flo_cleanup_status}` = 'To Be Cleaned Up' THEN 1 ELSE 0 END
    |
 6. Click **Preview**.This step takes some time.Troubleshooting:
-   [Saved Search Times Out](../troubleshooting/saved_search_times_out.md)
+   [Saved Search Times Out](/docs/strongpointfornetsuite/troubleshooting/saved_search_times_out.md)
 
 ## Export and Import the CSV File
 
 1. Export as a CSV file.
 
-    ![Export to a CSV file](../../../static/img/product_docs/strongpointfornetsuite/bundle_removal/export_csv.webp)
+    ![Export to a CSV file](/img/product_docs/strongpointfornetsuite/bundle_removal/export_csv.webp)
 
 2. Open the CSV file and delete the **Overall Total row**.
 3. **Save** the CSV.
@@ -109,7 +109,7 @@ summary criteria for this type of search.
    Sum | CASE WHEN`{custrecord_flo_searches.custrecord_flo_cleanup_status}` = 'To Be Cleaned Up' OR
    TO_NUMBER(NVL(`{custrecord_flo_searches}`,0)) < 1 THEN 0 ELSE 1 END |
 6. Click **Preview**.This step takes some time.Troubleshooting:
-   [Saved Search Times Out](../troubleshooting/saved_search_times_out.md)
+   [Saved Search Times Out](/docs/strongpointfornetsuite/troubleshooting/saved_search_times_out.md)
 
 ## Export and Import the CSV File
 
@@ -136,4 +136,4 @@ summary criteria for this type of search.
 12. Choose **Save & Run**.
 
 **Next Step:**
-[](creating_four_mass_updates.md)[Creating Four Mass Updates](creating_four_mass_updates.md)
+[](/docs/strongpointfornetsuite/bundle_removal/creating_four_mass_updates.md)[Creating Four Mass Updates](/docs/strongpointfornetsuite/bundle_removal/creating_four_mass_updates.md)

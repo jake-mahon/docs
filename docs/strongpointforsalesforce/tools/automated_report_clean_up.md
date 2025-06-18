@@ -29,7 +29,7 @@ criteria. Report Clean Up rules are used for both Automatic and Run Now.
 To create or edit rules, access **Netwrix Dashboard**> **Tools** > **Automated Report Clean Up
 Tool**
 
-![automated_report_cleanup](../../../static/img/product_docs/strongpointforsalesforce/tools/automated_report_cleanup.webp)
+![automated_report_cleanup](/img/product_docs/strongpointforsalesforce/tools/automated_report_cleanup.webp)
 
 - **Name** is the assigned name for the **Report Clean Up Rule Record**.
 - **Description** is the purpose of the rule record. An informative description helps administrators
@@ -98,7 +98,7 @@ clean up. The Run Now feature begins an immediate run for the rule.
 4. After previewing, you can click **Automatic** on the Report Clean Up Rule to include the rule for
    automatic reports.
 
-![automated_report_cleanup_preview](../../../static/img/product_docs/strongpointforsalesforce/tools/automated_report_cleanup_preview.webp)
+![automated_report_cleanup_preview](/img/product_docs/strongpointforsalesforce/tools/automated_report_cleanup_preview.webp)
 
 #### Run Now
 
@@ -161,7 +161,7 @@ Status** to view current status.
   **Canceled** - **Automatic** checkbox was turned off for the rule.
 - **Automatic**: rule is set to **Automatic** if checked.
 
-![automated_report_cleanup_status](../../../static/img/product_docs/strongpointforsalesforce/tools/automated_report_cleanup_status.webp)
+![automated_report_cleanup_status](/img/product_docs/strongpointforsalesforce/tools/automated_report_cleanup_status.webp)
 
 ### Retaining a Report
 
@@ -186,7 +186,7 @@ report is archived. The Archive process:
 - Auto Archive notifications are sent to the rule owner and administrators. A **Restore** link is
   included in the email.
 
-![automated_report_cleanup_archive](../../../static/img/product_docs/strongpointforsalesforce/tools/automated_report_cleanup_archive.webp)
+![automated_report_cleanup_archive](/img/product_docs/strongpointforsalesforce/tools/automated_report_cleanup_archive.webp)
 
 ### Restoring an Auto Archived Report
 

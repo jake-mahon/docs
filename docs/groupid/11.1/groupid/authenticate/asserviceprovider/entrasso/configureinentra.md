@@ -62,7 +62,7 @@ Manager.
 Step 14 – On the Basic SAML Configuration card, click **Edit**.
 
 Step 15 – On the Basic SAML Configuration pane, provide the Entity ID and Consumer URL that you
-copied earlier. See the [Generate URLs](generateurls.md) topic.  
+copied earlier. See the [Generate URLs](/docs/groupid/11.1/groupid/authenticate/asserviceprovider/entrasso/generateurls.md) topic.  
 After adding the information, click **Save**.
 
 Step 16 – Back on the SAML-based sign-on page, the Attributes & Claims card displays the attributes

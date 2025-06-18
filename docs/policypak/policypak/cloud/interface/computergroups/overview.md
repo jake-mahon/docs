@@ -13,11 +13,11 @@ the following features
 
 **NOTE:** The actions that appear on the right when you click on a group are context sensitive.
 
-![web_interface_and_controls_50_593x200](../../../../../../static/img/product_docs/policypak/policypak/cloud/interface/computergroups/web_interface_and_controls_50_593x200.webp)
+![web_interface_and_controls_50_593x200](/img/product_docs/policypak/policypak/cloud/interface/computergroups/web_interface_and_controls_50_593x200.webp)
 
 This is an example of items and actions that are available when you click a policy.
 
-![web_interface_and_controls_51_593x184](../../../../../../static/img/product_docs/policypak/policypak/cloud/interface/computergroups/web_interface_and_controls_51_593x184.webp)
+![web_interface_and_controls_51_593x184](/img/product_docs/policypak/policypak/cloud/interface/computergroups/web_interface_and_controls_51_593x184.webp)
 
 In the next sections, we cover the following:
 
@@ -43,7 +43,7 @@ In the example below, we clicked on the **All** group, then selected **Create an
 Policy....** When you do this, the **Create policy** dialog appears, and you can select the in-cloud
 editor of your choice.
 
-![web_interface_and_controls_52_624x291](../../../../../../static/img/product_docs/policypak/policypak/cloud/interface/computergroups/web_interface_and_controls_52_624x291.webp)
+![web_interface_and_controls_52_624x291](/img/product_docs/policypak/policypak/cloud/interface/computergroups/web_interface_and_controls_52_624x291.webp)
 
 For details and guidance on using the in-cloud editors, refer back to the previous section on
 creating policies.
@@ -56,4 +56,4 @@ more information, refer to the **Creating a Endpoint Policy Manager Cloud On-Pre
 Once you have your exported policy XML data file, you can select the group, then select Upload and
 link a new XML here and then, paste the XML data.
 
-![web_interface_and_controls_53_623x265](../../../../../../static/img/product_docs/policypak/policypak/cloud/interface/computergroups/web_interface_and_controls_53_623x265.webp)
+![web_interface_and_controls_53_623x265](/img/product_docs/policypak/policypak/cloud/interface/computergroups/web_interface_and_controls_53_623x265.webp)

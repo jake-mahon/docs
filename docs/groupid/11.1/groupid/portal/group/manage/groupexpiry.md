@@ -70,7 +70,7 @@ to all groups in the identity store and cannot be changed for individual groups.
 
 When the Group Lifeycle job executes the Group Lifecycle policy, it monitors group expiry dates as
 determined by each group’s expiration period. See the
-[Set a Default Expiry Policy for Groups](../../../admincenter/identitystore/configure/directoryservice/grouplifecycle.md#set-a-default-expiry-policy-for-groups)
+[Set a Default Expiry Policy for Groups](/docs/groupid/11.1/groupid/admincenter/identitystore/configure/directoryservice/grouplifecycle.md#set-a-default-expiry-policy-for-groups)
 topic.
 
 ## Group Expiry Notifications
@@ -92,5 +92,5 @@ expiry, the job does the following:
   Directory Manager will extend the group’s expiration date by 7 days.
 
 Notifications are sent if an SMTP server is configured for the identity store. See the
-[Set Group Expiry Notifications](../../../admincenter/identitystore/configure/directoryservice/grouplifecycle.md#set-group-expiry-notifications)
+[Set Group Expiry Notifications](/docs/groupid/11.1/groupid/admincenter/identitystore/configure/directoryservice/grouplifecycle.md#set-group-expiry-notifications)
 topic for additional information.

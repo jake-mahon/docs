@@ -13,21 +13,21 @@ Active Directory running Domain Controllers, which comes with Group Policy. Typi
 always, these servers are on-prem. We will explore the the idea that they don't have to be on-prem a
 little later.
 
-![515_1_image-20191025230525-1](../../../../../static/img/product_docs/policypak/policypak/license/mdm/515_1_image-20191025230525-1.webp)
+![515_1_image-20191025230525-1](/img/product_docs/policypak/policypak/license/mdm/515_1_image-20191025230525-1.webp)
 
 In this case, you can license Endpoint Policy Manager with Endpoint Policy Manager Group Policy
 Edition or Endpoint Policy Manager Cloud Edition.
 
-- See All Things Licensing > [Knowledge Base](../overview/knowledgebase.md)
-- See Cloud edition: [Endpoint Policy Manager Cloud: QuickStart](../../video/cloud/quickstart.md)
-- See[Endpoint Policy ManagerCloud and Endpoint Policy Manager OnPremise – Together using PPCloud Licenses](../../video/cloud/integration/onpremise.md)
+- See All Things Licensing > [Knowledge Base](/docs/policypak/policypak/license/overview/knowledgebase.md)
+- See Cloud edition: [Endpoint Policy Manager Cloud: QuickStart](/docs/policypak/policypak/video/cloud/quickstart.md)
+- See[Endpoint Policy ManagerCloud and Endpoint Policy Manager OnPremise – Together using PPCloud Licenses](/docs/policypak/policypak/video/cloud/integration/onpremise.md)
 
 ## Azure Active Directory (also known as AAD) with or without an MDM service.
 
 Azure Active Directory (AAD) is not the traditional AD in the cloud. It is a directory service which
 has a job to create identity to services.
 
-![515_3_image-20191025230525-2](../../../../../static/img/product_docs/policypak/policypak/license/mdm/515_3_image-20191025230525-2.webp)
+![515_3_image-20191025230525-2](/img/product_docs/policypak/policypak/license/mdm/515_3_image-20191025230525-2.webp)
 
 It has no Group Policy and has no real device management. There are two ways you can use Azure AD:
 with and without an MDM service.
@@ -40,7 +40,7 @@ CEM to do more Windows management, but it is not Group Policy.
 Here is what a machine looks like when it is MDM enrolled and registered in your Azure Active
 Directory.
 
-![515_5_image-20191025230525-3](../../../../../static/img/product_docs/policypak/policypak/license/mdm/515_5_image-20191025230525-3.webp)
+![515_5_image-20191025230525-3](/img/product_docs/policypak/policypak/license/mdm/515_5_image-20191025230525-3.webp)
 
 As such, you might want to add Endpoint Policy Manager to your existing MDM service to give you the
 ability to take existing traditional AD Group Policy settings and migrate them to MDM. Additionally,
@@ -49,11 +49,11 @@ you get all the Endpoint Policy Manager features as well.
 For this method, you are not licensing Azure Active Directory, but rather your MDM service.
 
 - See
-  [When licensing Endpoint Policy Managerwith an MDM provider, what do I need to send in to Endpoint Policy Manager? ](setup.md)for
+  [When licensing Endpoint Policy Managerwith an MDM provider, what do I need to send in to Endpoint Policy Manager? ](/docs/policypak/policypak/license/mdm/setup.md)for
   additional information on how to express the UPN and number of licenses needed for licensing your
   MDM service
-- [Endpoint Policy Manager and MDM walk before you run](../../video/mdm/testsample.md)
-- See Getting Started with MDM > [Video Learning Center](../../mdm/overview/videolearningcenter.md)
+- [Endpoint Policy Manager and MDM walk before you run](/docs/policypak/policypak/video/mdm/testsample.md)
+- See Getting Started with MDM > [Video Learning Center](/docs/policypak/policypak/mdm/overview/videolearningcenter.md)
 
 2 — Azure AD with no MDM service
 
@@ -64,7 +64,7 @@ cost and moving parts.
 To do this, you would need to add Endpoint Policy Manager Cloud to your Azure AD by installing the
 Endpoint Policy Manager Cloud client on your .
 
-See [Endpoint Policy Manager Cloud: QuickStart](../../video/cloud/quickstart.md) for additional
+See [Endpoint Policy Manager Cloud: QuickStart](/docs/policypak/policypak/video/cloud/quickstart.md) for additional
 information on getting started and licensing with Endpoint Policy Manager Cloud edition
 
 ## AD Domain Controllers as VMs in Azure
@@ -81,10 +81,10 @@ You would typically use Group Policy edition and license a whole domain, OU or O
 
 Alternatively, you can use Endpoint Policy Manager Cloud edition and license each machine.
 
-- See All Things Licensing > [Knowledge Base](../overview/knowledgebase.md)
-- [Endpoint Policy Manager Cloud: QuickStart](../../video/cloud/quickstart.md)
+- See All Things Licensing > [Knowledge Base](/docs/policypak/policypak/license/overview/knowledgebase.md)
+- [Endpoint Policy Manager Cloud: QuickStart](/docs/policypak/policypak/video/cloud/quickstart.md)
 - See
-  [Endpoint Policy ManagerCloud and Endpoint Policy Manager OnPremise – Together using PPCloud Licenses](../../video/cloud/integration/onpremise.md)
+  [Endpoint Policy ManagerCloud and Endpoint Policy Manager OnPremise – Together using PPCloud Licenses](/docs/policypak/policypak/video/cloud/integration/onpremise.md)
 
 ## Azure AD Domain Services (AS DS)
 

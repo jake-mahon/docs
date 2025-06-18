@@ -3,7 +3,7 @@
 The Patterns rule rejects passwords that contain character patterns such as "abcde". Character
 patterns weaken the password.
 
-![Patterns rule](../../../../../static/img/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/administration/patterns.webp)
+![Patterns rule](/img/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/administration/patterns.webp)
 
 Select the **Patterns** check box to enable the Patterns rule.
 

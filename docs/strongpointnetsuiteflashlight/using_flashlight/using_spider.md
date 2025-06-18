@@ -20,7 +20,7 @@ Run the manual spider:
 
 1. Open **Flashlight** > **Tools** > **Spider**
 
-    ![Open the Spider](../../../static/img/product_docs/strongpointnetsuiteflashlight/getting_started/mainmenu.webp)
+    ![Open the Spider](/img/product_docs/strongpointnetsuiteflashlight/getting_started/mainmenu.webp)
 
 2. You can run the manual spider:
 
@@ -30,11 +30,11 @@ Run the manual spider:
   updated. The selected record types are added to an index. Strongpoint processes read the index,
   create customization records, and parse relationships and scripts.
 
-    ![Spider Options](../../../static/img/product_docs/strongpointnetsuiteflashlight/getting_started/spider_800x368.webp)
+    ![Spider Options](/img/product_docs/strongpointnetsuiteflashlight/getting_started/spider_800x368.webp)
 
 ## Re-spider Now
 
 You can also update the documentation for a specific customization record. Simply click **Respider
 Now** on the customization record and your documentation is updated in real time.
 
-![Re-Spider Now](../../../static/img/product_docs/strongpointfornetsuite/respider_now.webp)
+![Re-Spider Now](/img/product_docs/strongpointfornetsuite/respider_now.webp)

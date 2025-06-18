@@ -19,7 +19,7 @@ vulnerabilities in an environment. You can generate a separate state-in-time rep
 metric to get detailed information on specific security aspects of your environment.
 
 To view detailed risk-related data for your organization, see the
-[Risk Assessment Dashboard](../riskprofiles/riskassessmentdashboard.md) topic.
+[Risk Assessment Dashboard](/docs/1secure/admin/riskprofiles/riskassessmentdashboard.md) topic.
 
 State-in-time reports display data for the Active Directory, Microsoft Entra ID, and SharePoint
 Online platforms in your environment. You must enable the following connectors to collect data for
@@ -27,15 +27,15 @@ the respective platforms:
 
 - Active Directory State (AD State)  
   See Step 8 in the
-  [Add a Source and Connectors for Active Directory](../organizations/sourcesandconnectors/activedirectory.md)
+  [Add a Source and Connectors for Active Directory](/docs/1secure/admin/organizations/sourcesandconnectors/activedirectory.md)
   topic
 - Azure AD State  
   See Step 6 in the
-  [Add a Source and Connectors for Microsoft Entra ID](../organizations/sourcesandconnectors/entraid.md)
+  [Add a Source and Connectors for Microsoft Entra ID](/docs/1secure/admin/organizations/sourcesandconnectors/entraid.md)
   topic
 - SharePoint Online State  
   See Step 6 in the
-  [Add a Source and Connectors for SharePoint Online](../organizations/sourcesandconnectors/sharepointonline.md)
+  [Add a Source and Connectors for SharePoint Online](/docs/1secure/admin/organizations/sourcesandconnectors/sharepointonline.md)
   topic
 
 ## Review a Report
@@ -53,10 +53,10 @@ with the High Risk Permissions on Documents report displayed by default.
 
 **NOTE:** Click the Risk Assessment Dashboard link in the left pane to navigate to the Risk
 Assessment page, where you can monitor the risks for the selected organization. See the
-[Risk Assessment Dashboard](../riskprofiles/riskassessmentdashboard.md) topic for additional
+[Risk Assessment Dashboard](/docs/1secure/admin/riskprofiles/riskassessmentdashboard.md) topic for additional
 information.
 
-![Risk Reports page](../../../../static/img/product_docs/1secure/admin/searchandreports/sitrisks.webp)
+![Risk Reports page](/img/product_docs/1secure/admin/searchandreports/sitrisks.webp)
 
 **Step 4 –** In the left pane, click a category to view its reports. Categories are:
 
@@ -127,7 +127,7 @@ Operator, and Value drop-down menus, then click **Search**.
 You can select more than one filter.
 
 For options displayed in the Operator drop-down menu, see the
-[Filter Operators ](filteroperators.md)topic.
+[Filter Operators ](/docs/1secure/admin/searchandreports/filteroperators.md)topic.
 
 Filter Descriptions
 
@@ -142,7 +142,7 @@ This table provides a list of filters and descriptions.
 | Member through    | Specify whether a group is a member of a group explicitly or inherited from another group. For example, Group A > Admin Group (Group A is explicitly a member of Admin Group) Group B > Group C > Admin Group (Group C is explicitly a member of Admin Group while Group B is an inherited member of Admin Group) If you do not specify the value, it will include both. If your Value is Inherited, it will only show Group B, and if you Value is Explicit, it will show Group A and Group C |
 | Status            | Filters the report based on any of the following user account statuses: - Enabled - Disabled                                                                                                                                                                                                                                                                                                                                                                                                   |
 | Source Type       | Filters the report based on any of the following source types: - AD Group - Entra ID Group - Windows Local Group - SharePoint Online Group                                                                                                                                                                                                                                                                                                                                                     |
-| Source            | Filters the report based on the name of a data source. The data source name corresponds to the value specified in the Source Group field when adding a data source. See the [Sources and Connectors](../organizations/sourcesandconnectors/index.md) topic for additional information.                                                                                                                                                                                                      |
+| Source            | Filters the report based on the name of a data source. The data source name corresponds to the value specified in the Source Group field when adding a data source. See the [Sources and Connectors](/docs/1secure/admin/organizations/sourcesandconnectors/index.md) topic for additional information.                                                                                                                                                                                                      |
 | Name              | Filters the report based on the name of a user or computer account.                                                                                                                                                                                                                                                                                                                                                                                                                            |
 | Location          | Filters the report based on the location of an account in the directory. For example, Guest is an account name and its location is SSA-D4.local/Users/Guest.                                                                                                                                                                                                                                                                                                                                   |
 | Role              | Filters the report based on a role, such as Global Administrator.                                                                                                                                                                                                                                                                                                                                                                                                                              |

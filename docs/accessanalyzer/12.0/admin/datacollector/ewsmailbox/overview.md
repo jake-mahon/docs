@@ -3,7 +3,7 @@
 The EWSMailbox Data Collector provides configuration options to scan mailbox contents, permissions,
 and sensitive data, and is preconfigured within the Exchange Solution. Both this data collector and
 the solution are available with a special Access Analyzer license. See the
-[Exchange Solution](../../../solutions/exchange/overview.md) topic for additional information.
+[Exchange Solution](/docs/accessanalyzer/12.0/solutions/exchange/overview.md) topic for additional information.
 
 Protocols
 
@@ -36,13 +36,13 @@ which contains the following wizard pages:
 
 **NOTE:** The Category selected may alter the subsequent steps displayed by the wizard.
 
-- [EWSMailbox: Category](category.md)
-- [EWSMailbox: Options](options.md)
-- [EWSMailbox: Scope](scope.md)
-- [EWSMailbox: Scope Select](scopeselect.md)
-- [EWSMailbox: SDD Options](sddoptions.md)
-- [EWSMailbox: Criteria](criteria.md)
-- [EWSMailbox: Filter](filter.md)
-- [EWSMailbox: Search Filter](searchfilter.md)
-- [EWSMailbox: Results](results.md)
-- [EWSMailbox: Summary](summary.md)
+- [EWSMailbox: Category](/docs/accessanalyzer/12.0/admin/datacollector/ewsmailbox/category.md)
+- [EWSMailbox: Options](/docs/accessanalyzer/12.0/admin/datacollector/ewsmailbox/options.md)
+- [EWSMailbox: Scope](/docs/accessanalyzer/12.0/admin/datacollector/ewsmailbox/scope.md)
+- [EWSMailbox: Scope Select](/docs/accessanalyzer/12.0/admin/datacollector/ewsmailbox/scopeselect.md)
+- [EWSMailbox: SDD Options](/docs/accessanalyzer/12.0/admin/datacollector/ewsmailbox/sddoptions.md)
+- [EWSMailbox: Criteria](/docs/accessanalyzer/12.0/admin/datacollector/ewsmailbox/criteria.md)
+- [EWSMailbox: Filter](/docs/accessanalyzer/12.0/admin/datacollector/ewsmailbox/filter.md)
+- [EWSMailbox: Search Filter](/docs/accessanalyzer/12.0/admin/datacollector/ewsmailbox/searchfilter.md)
+- [EWSMailbox: Results](/docs/accessanalyzer/12.0/admin/datacollector/ewsmailbox/results.md)
+- [EWSMailbox: Summary](/docs/accessanalyzer/12.0/admin/datacollector/ewsmailbox/summary.md)

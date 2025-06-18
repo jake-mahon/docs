@@ -1,6 +1,6 @@
 # The Basic view
 
-![light-client-en](../../../../../../static/img/product_docs/passwordsecure/passwordsecure/configuration/basic_view/light-client-en.webp)
+![light-client-en](/img/product_docs/passwordsecure/passwordsecure/configuration/basic_view/light-client-en.webp)
 
 ## What is the Basic view about?
 
@@ -10,16 +10,16 @@ intuitively and without previous knowledge or training by any user. The Basic vi
 up to 50 passwords. The Basic view introduces to professional password management. It is also the
 ideal tool for the daily handling of passwords.
 
-![image1](../../../../../../static/img/product_docs/passwordsecure/passwordsecure/configuration/basic_view/image1.webp)
+![image1](/img/product_docs/passwordsecure/passwordsecure/configuration/basic_view/image1.webp)
 
 ## Requirements & required rights
 
 You don’t need any special permission to use the Basic view. However, the handling of the Basic
 views can be set via rights and settings. Read more in chapter
-[To do for Administration](administration/to_do_for_administration.md).
+[To do for Administration](/docs/passwordsecure/9.2/passwordsecure/configuration/basic_view/administration/to_do_for_administration.md).
 
 #### Installation
 
 The Basic view is installed directly with the Web Application, so you don’t need any special
 installation. For further information, visit the
-chapter[Installation Client](../../installation/installation_client/installation_client.md)
+chapter[Installation Client](/docs/passwordsecure/9.2/passwordsecure/installation/installation_client/installation_client.md)

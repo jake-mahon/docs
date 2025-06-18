@@ -8,10 +8,10 @@ is a wizard page for the categories of:
 - Sensitive Data Scan
 
 **NOTE:** This wizard page identifies options associated with the scan mode to be used. See the
-[File System Scan Options](../../../requirements/solutions/filesystem/scanoptions.md) topic for
+[File System Scan Options](/docs/accessanalyzer/12.0/requirements/solutions/filesystem/scanoptions.md) topic for
 additional information.
 
-![FSAA Data Collector Wizard Applet Settings page](../../../../../../static/img/product_docs/accessanalyzer/admin/datacollector/fsaa/appletsettings.webp)
+![FSAA Data Collector Wizard Applet Settings page](/img/product_docs/accessanalyzer/admin/datacollector/fsaa/appletsettings.webp)
 
 In the Applet Launch Mechanism section, choose one of three radio buttons:
 
@@ -20,7 +20,7 @@ In the Applet Launch Mechanism section, choose one of three radio buttons:
     - The Applet service runs as a Connection Profile credential unless the Local System checkbox is
       selected in the Applet Settings options below. Then it runs the service in Local mode.
 - Require applet to be running as a service on target (does not deploy or launch applet)
-    - See the [File System Proxy Service Installation](../../../install/filesystemproxy/wizard.md)
+    - See the [File System Proxy Service Installation](/docs/accessanalyzer/12.0/install/filesystemproxy/wizard.md)
       topic for additional information.
     - It requires the `FSAAAppletServer.exe` to run as a service on the proxy host in order to run a
       successful scan. When this radio button is selected, Access Analyzer does not deploy an applet
@@ -31,13 +31,13 @@ In the Applet Launch Mechanism section, choose one of three radio buttons:
       applet can’t start** option. This option allows the scan to run in local mode when an applet
       cannot be deployed or the service is not running.
 
-![Applet Settings section of the Applet Settings page](../../../../../../static/img/product_docs/accessanalyzer/admin/datacollector/fsaa/appletsettingsappletsettings.webp)
+![Applet Settings section of the Applet Settings page](/img/product_docs/accessanalyzer/admin/datacollector/fsaa/appletsettingsappletsettings.webp)
 
 In the Applet Settings section, configure the following options:
 
 - Port number – Default port number is 8766
     - See
-      [Custom Parameters for File System Proxy Service](../../../install/filesystemproxy/wizard.md#custom-parameters-for-file-system-proxy-service)
+      [Custom Parameters for File System Proxy Service](/docs/accessanalyzer/12.0/install/filesystemproxy/wizard.md#custom-parameters-for-file-system-proxy-service)
       topic for additional information.
 - Applet Log level – The type of log created on the target host. Checking the box to Enable Logging
   enables the Applet log level drop-down menu. The **Set To Default** button resets the log level to
@@ -96,7 +96,7 @@ In the Applet Settings section, configure the following options:
 - Scan cancellation timeout: [number] minute(s) – When checked, this option will timeout the applet
   if there is an attempt to pause the scan and the applet does not respond
 
-![Certificate Exchange Options section of the Applet Settings page](../../../../../../static/img/product_docs/accessanalyzer/admin/datacollector/fsaa/appletsettingscertificateexchangeoptions.webp)
+![Certificate Exchange Options section of the Applet Settings page](/img/product_docs/accessanalyzer/admin/datacollector/fsaa/appletsettingscertificateexchangeoptions.webp)
 
 In the Certificate Exchange Options section, configure the following options:
 
@@ -106,7 +106,7 @@ In the Certificate Exchange Options section, configure the following options:
       the default option.
     - Manual – The FSSA Data Collector and applet server expect all certificates to be valid and in
       their respective stores beforehand. See the
-      [FSAA Manual Certificate Configuration](manualcertificate.md) topic for additional
+      [FSAA Manual Certificate Configuration](/docs/accessanalyzer/12.0/admin/datacollector/fsaa/manualcertificate.md) topic for additional
       information.
 
         **NOTE:** If the FSAA Data Collector and the applet server are on separate domains without a
@@ -118,5 +118,5 @@ In the Certificate Exchange Options section, configure the following options:
 - Port – Select the checkbox to specify the port number for certificate exchange. The Default port
   number is 8767.
 
-See the [FSAA Applet Certificate Management Overview](certificatemanagement.md) topic for additional
+See the [FSAA Applet Certificate Management Overview](/docs/accessanalyzer/12.0/admin/datacollector/fsaa/certificatemanagement.md) topic for additional
 information.

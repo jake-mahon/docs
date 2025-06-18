@@ -6,13 +6,13 @@ Enterprise Manager for an enabled policy.
 
 Follow the steps to add a PowerShell 4.0 action to a policy/template.
 
-![Actions tab - Actions Configurations area](../../../../../../../static/img/product_docs/threatprevention/threatprevention/admin/policies/actions/actionsconfigurationsarea.webp)
+![Actions tab - Actions Configurations area](/img/product_docs/threatprevention/threatprevention/admin/policies/actions/actionsconfigurationsarea.webp)
 
 **Step 1 –** On a policy or template Actions tab, click **Add** (+) to open the Add Action window.
 
 **Step 2 –** In the left pane, select the radio button for **PowerShell 4.0**.
 
-![addactionwindowforpowershell](../../../../../../../static/img/product_docs/threatprevention/threatprevention/admin/policies/actions/addactionwindowforpowershell.webp)
+![addactionwindowforpowershell](/img/product_docs/threatprevention/threatprevention/admin/policies/actions/addactionwindowforpowershell.webp)
 
 **Step 3 –** Configure the PowerShell 4.0 Script action:
 
@@ -22,7 +22,7 @@ Follow the steps to add a PowerShell 4.0 action to a policy/template.
   optional but recommended.
 - Click **Edit…** to view the sample script. The Threat Prevention Script Editor opens
 
-![Script Editor for PowerShell Scripts](../../../../../../../static/img/product_docs/threatprevention/threatprevention/admin/policies/actions/scripteditorforps.webp)
+![Script Editor for PowerShell Scripts](/img/product_docs/threatprevention/threatprevention/admin/policies/actions/scripteditorforps.webp)
 
 **Step 4 –** Create or copy/paste the custom script in the Threat Prevention Script Editor. See the
 [Threat Prevention Script Editor Tools](netscript.md#threat-prevention-script-editor-tools) topic
@@ -35,7 +35,7 @@ information about the compiling of scripts.
 
 **Step 6 –** Click Save to close the Add Action window and apply changes.
 
-![Actions tab – PowerShell 4.0 Action Created](../../../../../../../static/img/product_docs/threatprevention/threatprevention/admin/policies/actions/powershellaction.webp)
+![Actions tab – PowerShell 4.0 Action Created](/img/product_docs/threatprevention/threatprevention/admin/policies/actions/powershellaction.webp)
 
 The Actions tab now displays the configured settings for the specified PowerShell 4.0 action. The
 action configuration can be directly edited through this display as well.
@@ -86,9 +86,9 @@ Try
 {
 $sw = New-Object System.IO.StreamWriter ("C:\si_eventdata.txt", $true)
 $sw.WriteLine("===========================================")
-$sw.WriteLine(("TimeLogged:  " + $helper.TimeLogged.ToString()))
+$sw.WriteLine(("TimeLogged:  " + $helper.TimeLogged.ToString()
 $sw.Flush()
-$sw.WriteLine(("TimeLoggedUtc:  " + $helper.TimeLoggedUtc.ToString()))
+$sw.WriteLine(("TimeLoggedUtc:  " + $helper.TimeLoggedUtc.ToString()
 $sw.Flush()
 $sw.WriteLine(("EventSourceType: " + $helper.EventSourceType))
 $sw.Flush()
@@ -96,21 +96,21 @@ $sw.WriteLine(("EventSourceName: " + $helper.EventSourceName))
 $sw.Flush()
 $sw.WriteLine(("SettingName: " + $helper.SettingName))
 $sw.WriteLine(("EventName: " + $helper.EventName))
-$sw.WriteLine(("DN:  " + $helper.DN.ToString()))
+$sw.WriteLine(("DN:  " + $helper.DN.ToString()
 $sw.WriteLine(("ClassName: " + $helper.ClassName))
 $sw.WriteLine(("Perpetrator: " + $helper.Perpetrator))
 $sw.WriteLine(("OriginatingServer: " + $helper.OriginatingServer))
 $sw.WriteLine(("OriginatingClient: " + $helper.OriginatingClient))
-$sw.WriteLine(("Success: " + $helper.Success.ToString()))
+$sw.WriteLine(("Success: " + $helper.Success.ToString()
 $sw.WriteLine(("Status: " + $helper.Status))
-$sw.WriteLine(("BlockedEvent: " + $helper.BlockedEvent.ToString()))
-$sw.WriteLine(("EventsCount: " + $helper.EventsCount.ToString()))
+$sw.WriteLine(("BlockedEvent: " + $helper.BlockedEvent.ToString()
+$sw.WriteLine(("EventsCount: " + $helper.EventsCount.ToString()
 $sw.WriteLine(("OriginatingClientProtocol: " + $helper.OriginatingClientProtocol))
 $sw.WriteLine(("FromHost: " + $helper.FromHost))
 $sw.WriteLine(("FromHostIp: " + $helper.FromHostIp))
 $sw.WriteLine(("ToHost: " + $helper.ToHost))
 $sw.WriteLine(("ToHostIp: " + $helper.ToHostIp))
-$sw.WriteLine(("LoginType: " + $helper.LoginType.ToString()))
+$sw.WriteLine(("LoginType: " + $helper.LoginType.ToString()
 $sw.WriteLine(("AffectedObjectSid: " + $helper.AffectedObjectSid))
 $sw.WriteLine(("OriginatingServerIp: " + $helper.OriginatingServerIp))
 $sw.WriteLine(("PerpetratorName: " + $helper.PerpetratorName))

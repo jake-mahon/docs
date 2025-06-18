@@ -21,7 +21,7 @@ This email includes a unique access link to product’s web portal. You need to 
 via the link within 2 days. If it expires, you will need to follow the link and request a new
 activation link.
 
-![accountactivation](../../../static/img/product_docs/1secure/admin/login/accountactivation.webp)
+![accountactivation](/img/product_docs/1secure/admin/login/accountactivation.webp)
 
 ## Activate an Account
 
@@ -34,7 +34,7 @@ Follow the steps to activate an account:
 
 The Change Your Password page is displayed.
 
-![Change Your Password page](../../../static/img/product_docs/groupid/groupid/admincenter/general/changepassword.webp)
+![Change Your Password page](/img/product_docs/groupid/groupid/admincenter/general/changepassword.webp)
 
 **Step 2 –** In the **New password** field, enter a password to set for your account.
 
@@ -53,21 +53,21 @@ Follow the steps to log in to 1Secure.
 **Step 1 –** Open the invitation email and click the Netwrix 1Secure tenant link. You are navigated
 to the 1Secure login page.
 
-![Log In page](../../../static/img/product_docs/1secure/admin/login/companylogin.webp)
+![Log In page](/img/product_docs/1secure/admin/login/companylogin.webp)
 
 **Step 2 –** On the login page, click the **Log In** button.
 
 **Step 3 –** In the Email address field, specify a valid email address registered with 1Secure, then
 click **Continue**. The Enter Your Password page is displayed.
 
-![Enter Your Password page](../../../static/img/product_docs/1secure/admin/login/passwordpage.webp)
+![Enter Your Password page](/img/product_docs/1secure/admin/login/passwordpage.webp)
 
 **Step 4 –** In the Password field, specify the valid password for the email address, then click
 **Continue**. The Keep Your Account Safe page is displayed, prompting you to choose an
 authentication method. When logging in for the first time, you must authorize your account using
 multi-factor authentication.
 
-![Keep Your Account Safe page](../../../static/img/product_docs/1secure/admin/login/authenticationmethods.webp)
+![Keep Your Account Safe page](/img/product_docs/1secure/admin/login/authenticationmethods.webp)
 
 **Step 5 –** Click **Google Authenticator or Similar** or **Security Key** to select an
 authentication method. After that, one of the following happens:
@@ -82,7 +82,7 @@ authentication method. After that, one of the following happens:
   article for additional information.
 
 After successful authorization, You are redirected to the dashboard. See the
-[1Secure Dashboard](dashboard/index.md) topic for additional information.
+[1Secure Dashboard](/docs/1secure/admin/dashboard/index.md) topic for additional information.
 
 Once the initial login is completed, an MSP can configure Single Sign On (SSO) using supported
 authentication services, including Entra ID, 1Secure Authentication, or OpenID Connect. See the
@@ -100,11 +100,11 @@ Follow the steps to reset the password of an account:
 **Step 3 –** In the Email address field, specify a valid email address registered with 1Secure, then
 click **Continue**. The Enter Your Password page is displayed.
 
-![Enter Your Password page](../../../static/img/product_docs/1secure/admin/login/passwordpage.webp)
+![Enter Your Password page](/img/product_docs/1secure/admin/login/passwordpage.webp)
 
 **Step 4 –** Click the **Forgot password** link. The Change Your Password page is displayed.
 
-![Change Your Password page](../../../static/img/product_docs/groupid/groupid/admincenter/general/changepassword.webp)
+![Change Your Password page](/img/product_docs/groupid/groupid/admincenter/general/changepassword.webp)
 
 **Step 5 –** In the **New password** field, enter a password to set for your account.
 
@@ -133,12 +133,12 @@ When the Netwrix team adds a new user account for your organization, you will re
 invitation. This email will be sent from "noreply-account@netwrix.com" and will have the subject
 "Welcome to Netwrix 1Secure".
 
-![1Secure Invitation Email](../../../static/img/product_docs/1secure/admin/login/1secureinvitation%28sso%29.webp)
+![1Secure Invitation Email](/img/product_docs/1secure/admin/login/1secureinvitation(sso).webp)
 
 **Step 1 –** Click **Access 1Secure** button in the invitation email. You are navigated to the
 1Secure login page.
 
-![Log In page](../../../static/img/product_docs/1secure/admin/login/companylogin.webp)
+![Log In page](/img/product_docs/1secure/admin/login/companylogin.webp)
 
 **Step 2 –** On the login page, click the **Log In** button.
 
@@ -162,7 +162,7 @@ following authentication services:
 
 **NOTE:** When you first log in to 1Secure, SSO is not enabled, and 1Secure Authentication is
 applied by default. This method requires Multi-factor authentication (MFA) to verify your identity
-for secure access. See the [Log In](index.md) topic for additional information on
+for secure access. See the [Log In](/docs/1secure/admin/index.md) topic for additional information on
 Multi-factor authentication.
 
 #### Configure SSO with Microsoft Entra ID Authentication
@@ -174,14 +174,14 @@ that lists the managed organizations defined in 1Secure.
 
 **Step 2 –** In the left pane, click **My organization**. The My organization page is displayed
 
-![My Organization page](../../../static/img/product_docs/1secure/admin/login/myorg_authentication.webp)
+![My Organization page](/img/product_docs/1secure/admin/login/myorg_authentication.webp)
 
 **Step 3 –** Under Authentication section, click **Edit Settings**. The Authentication settings pane
 is displayed.
 
 **Step 4 –** In Method drop-down menu, select **Entra ID**.
 
-![Authentication Settings pane](../../../static/img/product_docs/1secure/admin/login/entraidauth.webp)
+![Authentication Settings pane](/img/product_docs/1secure/admin/login/entraidauth.webp)
 
 **Step 5 –** In Client ID field, specify the client ID of the app registered in Microsoft Entra ID.
 See the
@@ -200,14 +200,14 @@ that lists the managed organizations defined in 1Secure.
 
 **Step 2 –** In the left pane, click **My organization**. The My organization page is displayed
 
-![My Organization page](../../../static/img/product_docs/1secure/admin/login/myorg_authentication.webp)
+![My Organization page](/img/product_docs/1secure/admin/login/myorg_authentication.webp)
 
 **Step 3 –** Under Authentication section, click **Edit Settings**. The Authentication settings pane
 is displayed.
 
 **Step 4 –** In Method drop-down menu, select **OpenID Connect**.
 
-![Authentication Settings pane](../../../static/img/product_docs/1secure/admin/login/openidconnectauth.webp)
+![Authentication Settings pane](/img/product_docs/1secure/admin/login/openidconnectauth.webp)
 
 **Step 5 –** In Client ID field, specify the client ID of the OpenID application that 1Secure uses
 to communicate with the OpenID provider.
@@ -246,4 +246,4 @@ It is recommended to copy these settings and keep them safe.
 - Application (client) ID – A client ID for the registered application
 - Directory (tenant) ID – A tenant ID for the registered application
 - Client Secret – A client secret value generated when a new client secret key is created for the
-  registered application. See the [Generate Client Secret Value](../configuration/entraid/registerconfig.md#generate-client-secret-value) topic for additional information.
+  registered application. See the [Generate Client Secret Value](/docs/1secure/configuration/entraid/registerconfig.md#generate-client-secret-value) topic for additional information.

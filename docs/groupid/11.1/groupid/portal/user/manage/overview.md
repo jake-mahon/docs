@@ -2,8 +2,8 @@
 
 Using Directory Manager portal, you can perform the following actions:
 
-- [Update your Direct Reports](directreport.md)
-- [Validate your profile](validateprofile.md)
-- [Reset your password](resetpassword.md)
-- [ Change your password](changepassword.md)
-- [Unlock your accounts](unlockaccount.md)
+- [Update your Direct Reports](/docs/groupid/11.1/groupid/portal/user/manage/directreport.md)
+- [Validate your profile](/docs/groupid/11.1/groupid/portal/user/manage/validateprofile.md)
+- [Reset your password](/docs/groupid/11.1/groupid/portal/user/manage/resetpassword.md)
+- [ Change your password](/docs/groupid/11.1/groupid/portal/user/manage/changepassword.md)
+- [Unlock your accounts](/docs/groupid/11.1/groupid/portal/user/manage/unlockaccount.md)

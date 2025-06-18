@@ -7,13 +7,13 @@ following actions are available for the **Exchange** content source type:
 - **Move email**
 
 To configure these actions, use the Advanced UI dialog window. See
-[Configure a Workflow using Advanced dialog](createworkflow.md) for details on how to invoke it.
+[Configure a Workflow using Advanced dialog](/docs/dataclassification/5.7/ndc/admin/workflows/advancedwindow/createworkflow.md) for details on how to invoke it.
 
 ## Delete Email
 
 This action will remove an email from Exchange mailbox.
 
-![action_exchange_delete_email_thumb_0_0](../../../../../../../static/img/product_docs/dataclassification/ndc/admin/workflows/advancedwindow/action_exchange_delete_email_thumb_0_0.webp)
+![action_exchange_delete_email_thumb_0_0](/img/product_docs/dataclassification/ndc/admin/workflows/advancedwindow/action_exchange_delete_email_thumb_0_0.webp)
 
 Specify the following action parameters:
 

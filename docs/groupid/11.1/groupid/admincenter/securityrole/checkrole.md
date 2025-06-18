@@ -5,7 +5,7 @@ As discussed in the
 topic, a user in an identity store can have different security roles assigned to it in different
 Directory Manager clients. Moreover, a user can also have multiple roles in a client, in which case
 the highest priority role takes precedence when the user logs into that specific client. See
-[Priority](manage.md).
+[Priority](/docs/groupid/11.1/groupid/admincenter/securityrole/manage.md).
 
 Directory Manager enables you to view the highest priority role of a user in a client. This role
 identifies the access level of that user in the client. Select a client and specify a user.
@@ -47,5 +47,5 @@ Directory Manager fetches the highest priority role of the user with respect to 
 
 See Also
 
-- [Security Roles](overview.md)
-- [Manage Security Roles](manage.md)
+- [Security Roles](/docs/groupid/11.1/groupid/admincenter/securityrole/overview.md)
+- [Manage Security Roles](/docs/groupid/11.1/groupid/admincenter/securityrole/manage.md)

@@ -12,7 +12,7 @@ Be sure to capture the Options or Configuration window of an application, and no
 which will often not capture at all and is likely not be what you wanted to capture. Remember that
 you will mostly be capturing options, properties, and configuration pages.
 
-![crafting_the_user_interface](../../../../../../static/img/product_docs/policypak/policypak/applicationsettings/designstudio/userinterface/crafting_the_user_interface.webp)
+![crafting_the_user_interface](/img/product_docs/policypak/policypak/applicationsettings/designstudio/userinterface/crafting_the_user_interface.webp)
 
 Figure 59. Selecting the target application and window.
 
@@ -22,13 +22,13 @@ how to manage Control Panel items, like the mouse properties shown in Figure 58.
 After the first tab of your application is captured, you'll be able to select more tabs using the
 "Capture another tab" button, as shown in Figure 60.
 
-![crafting_the_user_interface_1](../../../../../../static/img/product_docs/policypak/policypak/applicationsettings/designstudio/userinterface/crafting_the_user_interface_1.webp)
+![crafting_the_user_interface_1](/img/product_docs/policypak/policypak/applicationsettings/designstudio/userinterface/crafting_the_user_interface_1.webp)
 
 Figure 60. Capturing additional tabs.
 
 In most cases, your application's look and feel is exactly captured, as shown in Figure 61.
 
-![crafting_the_user_interface_2](../../../../../../static/img/product_docs/policypak/policypak/applicationsettings/designstudio/userinterface/crafting_the_user_interface_2.webp)
+![crafting_the_user_interface_2](/img/product_docs/policypak/policypak/applicationsettings/designstudio/userinterface/crafting_the_user_interface_2.webp)
 
 Figure 61. Capturing the look and feel of the application.
 

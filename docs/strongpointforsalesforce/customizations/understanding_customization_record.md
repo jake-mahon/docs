@@ -2,7 +2,7 @@
 
 This topic discusses the new Platform Governance for Salesforce Lightning customization record. It
 is only available with the Platform Governance for Salesforce Lightning app. Refer to the topic
-[Old Customization Record](old_customization_record.md) for the old style customization record.
+[Old Customization Record](/docs/strongpointforsalesforce/customizations/old_customization_record.md) for the old style customization record.
 
 **NOTE:** For installed orgs, users must load the Strongpoint Home Page first before opening the
 **Customization** tab for the first time after the 6.0 update. The new form assignment happens in
@@ -26,7 +26,7 @@ Customization record fields include:
   **Update Description and Help Text** to update.
 - **Related Objects**: Links to related objects.
 
-![Strongpoint Lightning Customization Record](../../../static/img/product_docs/strongpointforsalesforce/customizations/customization_record_lightning.webp)
+![Strongpoint Lightning Customization Record](/img/product_docs/strongpointforsalesforce/customizations/customization_record_lightning.webp)
 
 ## Customization Record Tabs
 
@@ -65,14 +65,14 @@ The **Custom** tab shows the join, scanner and DLU dates.
 - **Last Scanner Date**: last date in which the scanner ran and evaluated the current customization.
 - **Make Join Date**: date customization was last passed to Make Join script.
 - **Date Last Used**: date the customization was last used. Refer to
-  [DLU](../clean_up/date_last_used.md) for more information.
+  [DLU](/docs/strongpointforsalesforce/clean_up/date_last_used.md) for more information.
 
 ### DRD
 
-The Dependency Relationship Diagram ([DRD](../tools/viewing_drd.md)) displays objects,
+The Dependency Relationship Diagram ([DRD](/docs/strongpointforsalesforce/tools/viewing_drd.md)) displays objects,
 customizations and their relationships and dependencies.
 
-![DRD Example](../../../static/img/product_docs/strongpointforsalesforce/customizations/drd.webp)
+![DRD Example](/img/product_docs/strongpointforsalesforce/customizations/drd.webp)
 
 ### Change Enablement
 

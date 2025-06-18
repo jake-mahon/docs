@@ -7,9 +7,9 @@ An expansion event occurs when an Exchange Server expands a distribution list fo
 The event is recorded in the Exchange Server's message tracking log, which the Group Usage Service
 schedule reads, parsing for the timestamp that indicates when the distribution list was last used.
 
-The timestamp is then used by the [Group Life Cycle Schedule](grouplifecycle.md) to extend or reduce
+The timestamp is then used by the [Group Life Cycle Schedule](/docs/groupid/11.1/groupid/admincenter/schedule/grouplifecycle.md) to extend or reduce
 the life of mail-enabled distribution groups based on their usage. See the
-[Enable Group Usage Lifecycle](../identitystore/configure/directoryservice/grouplifecycle.md#enable-group-usage-lifecycle)
+[Enable Group Usage Lifecycle](/docs/groupid/11.1/groupid/admincenter/identitystore/configure/directoryservice/grouplifecycle.md#enable-group-usage-lifecycle)
 topic.
 
 While creating a Group Usage Service schedule, you have to specify a job triggering criterion, the
@@ -39,7 +39,7 @@ necessary action.
 Step 8 – In the Scheduler Service Name drop-down list, select a Scheduler service that would be
 responsible for triggering this schedule. The number of services displayed in the list depend on the
 number of nodes in all Elasticsearch clusters in the environment, as each node has its own Scheduler
-service. See the [Scheduler Service](../service/schedulerservice.md) topic for additional
+service. See the [Scheduler Service](/docs/groupid/11.1/groupid/admincenter/service/schedulerservice.md) topic for additional
 information.
 
 Please note the following while selecting a Scheduler service:
@@ -85,7 +85,7 @@ these servers.
 3. Click **Add**. The messaging server(s) are displayed in the Messaging Server area.
 
 Step 11 – Click **Add Triggers** in the Triggers area to specify a triggering criterion for the
-schedule, that, when met, starts the execution of the schedule. See the [Triggers](triggers.md)
+schedule, that, when met, starts the execution of the schedule. See the [Triggers](/docs/groupid/11.1/groupid/admincenter/schedule/triggers.md)
 topic for information on the triggering criterion setting.
 
 Step 12 – After specifying the settings for triggers, click **Add**. The trigger is displayed in the
@@ -109,7 +109,7 @@ in the identity store (for example, Administrator).
 NOTE: If you are creating this schedule in a Microsoft Entra ID identity store, you can only specify
 the logged-in user's account. See the
 [Schedules for Microsoft Entra ID Identity Store](overview.md#schedules-for-microsoft-entra-id-identity-store)
-section of the [Schedules](overview.md) topic for additional information.
+section of the [Schedules](/docs/groupid/11.1/groupid/admincenter/schedule/overview.md) topic for additional information.
 
 Step 14 – On the Create Schedule page, click **Create Schedule**.
 

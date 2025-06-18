@@ -4,7 +4,7 @@ The Activity Details report at the on-premise farm and online instance levels pr
 activity event information by user on the selected farm during the specified date range. This report
 includes a line graph for Active Users Trend.
 
-![Activity Details report at the on-premise farm and online instance levels](../../../../../../../../static/img/product_docs/accessinformationcenter/access/informationcenter/resourceaudit/sharepoint/farminstance/instanceactivitydetails.webp)
+![Activity Details report at the on-premise farm and online instance levels](/img/product_docs/accessinformationcenter/access/informationcenter/resourceaudit/sharepoint/farminstance/instanceactivitydetails.webp)
 
 This report is comprised of the following columns:
 
@@ -30,15 +30,15 @@ This report is comprised of the following columns:
 - Process Name – Name of the process which performed the operation
 
 The table data grid functions the same way as other table grids. See the
-[Data Grid Features](../../../../general/datagrid.md) topic for additional information.
+[Data Grid Features](/docs/accessinformationcenter/12.0/access/general/datagrid.md) topic for additional information.
 
 There is one line graph at the bottom displaying Active Users Trend for the selected resource.
 
-![Active Users Trend graph](../../../../../../../../static/img/product_docs/accessinformationcenter/access/informationcenter/resourceaudit/sharepoint/farminstance/instanceactivitydetailstrendgraph.webp)
+![Active Users Trend graph](/img/product_docs/accessinformationcenter/access/informationcenter/resourceaudit/sharepoint/farminstance/instanceactivitydetailstrendgraph.webp)
 
 The Active Users Trend line graph provides a visual representation of the number of active users
 over the selected date range. It indicates how many users are performing activity per day.
 
 See the
-[Activity Report Results Pane Features](../../navigate/overview.md#activity-report-results-pane-features)
+[Activity Report Results Pane Features](/docs/accessinformationcenter/12.0/access/informationcenter/resourceaudit/navigate/overview.md#activity-report-results-pane-features)
 topic for instructions on filtering the trend graph.

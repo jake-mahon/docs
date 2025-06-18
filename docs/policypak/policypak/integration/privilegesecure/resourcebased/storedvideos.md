@@ -6,4 +6,4 @@ Secure server, can you review your videos.
 Back at the Netwrix Privilege Secure server, your videos are found in the **Dashboard** >
 **Historical videos** section.
 
-![watching_stored_videos](../../../../../../static/img/product_docs/policypak/policypak/integration/privilegesecure/resourcebased/watching_stored_videos.webp)
+![watching_stored_videos](/img/product_docs/policypak/policypak/integration/privilegesecure/resourcebased/watching_stored_videos.webp)

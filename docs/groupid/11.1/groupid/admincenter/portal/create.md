@@ -15,9 +15,9 @@ A portal is hosted on a web server, with native IIS, remote IIS, and Docker as t
 servers.
 
 - IIS Deployment - Your Directory Manager portal is hosted within a site in IIS. To launch IIS, see
-  [Opening IIS Manager](<https://learn.microsoft.com/en-us/previous-versions/iis/6.0-sdk/ms525920(v=vs.90)>).
+  [Opening IIS Manager](https://learn.microsoft.com/en-us/previous-versions/iis/6.0-sdk/ms525920(v=vs.90)).
 
-    ![in_iis](../../../../../../static/img/product_docs/groupid/groupid/admincenter/portal/in_iis.webp)
+    ![in_iis](/img/product_docs/groupid/groupid/admincenter/portal/in_iis.webp)
 
 - Docker Deployment - For a Docker deployment, make sure you have a running instance of Docker
   daemon in your environment. A portal runs within a container in Docker.
@@ -76,7 +76,7 @@ located on disk.
    The application name and deployment name are displayed on the portal card on the **GroupID
    Portal** tab.
 
-    ![portal_card](../../../../../../static/img/product_docs/groupid/groupid/admincenter/portal/portal_card.webp)
+    ![portal_card](/img/product_docs/groupid/groupid/admincenter/portal/portal_card.webp)
 
 7. In the **IIS Application Name** box, enter an IIS deployment name for the portal. This name
    should be unique for each portal deployed in IIS.
@@ -139,18 +139,18 @@ located on disk.
     to manage directory objects, their directory profiles, and more.  
     While associating identity store(s), you may get the following message:
 
-    ![linked_message](../../../../../../static/img/product_docs/groupid/groupid/admincenter/portal/linked_message.webp)
+    ![linked_message](/img/product_docs/groupid/groupid/admincenter/portal/linked_message.webp)
 
     This relates to the scenario when identity stores in Directory Manager have been linked, as
     discussed in the
-    [Linked Identity Stores and the Directory Manager Portal](../identitystore/link/overview.md#linked-identity-stores-and-the-directory-manager-portal)
+    [Linked Identity Stores and the Directory Manager Portal](/docs/groupid/11.1/groupid/admincenter/identitystore/link/overview.md#linked-identity-stores-and-the-directory-manager-portal)
     topic. Hence, when two identity stores, IdentityStoreA and IdentityStoreB, are linked and you
     associate IdentityStoreA with the portal, this message is displayed. It alerts you to associate
     the second identity store in the linked pair (dentityStoreB) with the portal too, in order to
     benefit from the linking.
 
 13. Each identity store associated with a portal has its own set of design settings, as listed in
-    the [Design a Portal with Display Types](displaytype/overview.md) topic.
+    the [Design a Portal with Display Types](/docs/groupid/11.1/groupid/admincenter/portal/displaytype/overview.md) topic.
 
     If you are upgrading to Directory Manager 11 from GroupID 9 or GroupID 10, you can import the
     design settings for an identity store from a Self-Service portal in a previous version - as an
@@ -197,7 +197,7 @@ located on disk.
        combos defined in the design settings.
 
 14. A portal has certain advanced settings defined for it, as discussed in the
-    [Manage Advanced Settings](server/advanced.md) topic.  
+    [Manage Advanced Settings](/docs/groupid/11.1/groupid/admincenter/portal/server/advanced.md) topic.  
     If you are upgrading to Directory Manager 11 from GroupID 9 or GroupID 10, you can import the
     advanced settings of a Self-Service portal from a previous version as an alternate to defining
     settings from scratch. Following are the details of the file containing advanced settings for a
@@ -239,7 +239,7 @@ The portal runs within a virtual directory in remote IIS while the portal files 
 located on disk.
 
 To learn about the remote IIS settings and configurations before hosting a portal, see
-the[Prerequisites for Deployments in Remote IIS](remoteiisprerequisites.md) topic.
+the[Prerequisites for Deployments in Remote IIS](/docs/groupid/11.1/groupid/admincenter/portal/remoteiisprerequisites.md) topic.
 
 **To create a portal:**
 
@@ -291,7 +291,7 @@ running on a Docker deamon in your environment, so that Directory Manager can cr
 the portal there and run the portal from within that container.
 
 For an overview on application deployment in Docker, see the
-[Prerequisites for Deployments in Docker](dockerprerequisites.md) topic.
+[Prerequisites for Deployments in Docker](/docs/groupid/11.1/groupid/admincenter/portal/dockerprerequisites.md) topic.
 
 NOTE: To host the portal, Docker daemon should be configured to run Windows containers.
 
@@ -422,7 +422,7 @@ can choose to deploy the new portal in any of the supported web servers. Conside
 You may notice a portal with an orange card and an orange icon on the card. On hovering the mouse
 over the icon, the tooltip says that _linked mode will not be allowed_. This relates to the scenario
 when identity stores in Directory Manager have been linked, as discussed in the
-[Linked Identity Stores and the Directory Manager Portal](../identitystore/link/overview.md#linked-identity-stores-and-the-directory-manager-portal)
+[Linked Identity Stores and the Directory Manager Portal](/docs/groupid/11.1/groupid/admincenter/identitystore/link/overview.md#linked-identity-stores-and-the-directory-manager-portal)
 topic. Hence, when two identity stores, IdentityStoreA and IdentityStoreB, are linked and you
 associate IdentityStoreA with the portal, the portal card appears in orange. It informs you to
 associate the second identity store in the linked pair (dentityStoreB) with the portal too, in order
@@ -443,5 +443,5 @@ to benefit from the linking.
 
 **See Also**
 
-- [Directory Manage Applications](applications.md)
-- [ Directory Manager Portal](overview.md)
+- [Directory Manage Applications](/docs/groupid/11.1/groupid/admincenter/portal/applications.md)
+- [ Directory Manager Portal](/docs/groupid/11.1/groupid/admincenter/portal/overview.md)

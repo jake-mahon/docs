@@ -5,23 +5,23 @@ example, we will install WinZip Microsoft Store Edition, but you're welcome to u
 from the Windows 10 Microsoft Store instead. To get the store link you need to first go to an
 example machine and open the Windows 10 Microsoft Store to look for the application.
 
-![appx_policies_and_settings_4](../../../../../static/img/product_docs/policypak/policypak/softwarepackage/appx/appx_policies_and_settings_4.webp)
+![appx_policies_and_settings_4](/img/product_docs/policypak/policypak/softwarepackage/appx/appx_policies_and_settings_4.webp)
 
 Select the application, and find the Share section. Then click on **Copy link**
 
-![appx_policies_and_settings_5](../../../../../static/img/product_docs/policypak/policypak/softwarepackage/appx/appx_policies_and_settings_5.webp)
+![appx_policies_and_settings_5](/img/product_docs/policypak/policypak/softwarepackage/appx/appx_policies_and_settings_5.webp)
 
 When you paste the link into the Netwrix Endpoint Policy Manager (formerly PolicyPak) Software
 Package Manager AppX policy to install an application, the link will be verified before allowing you
 to continue. You can then also verify that the App Store ID, name, and publisher all look correct.
 
-![appx_policies_and_settings_6](../../../../../static/img/product_docs/policypak/policypak/softwarepackage/appx/appx_policies_and_settings_6.webp)
+![appx_policies_and_settings_6](/img/product_docs/policypak/policypak/softwarepackage/appx/appx_policies_and_settings_6.webp)
 
 On the client machine, login as a user who would get the GPO and run GPUpdate. While the AppX
 packages that are queued might not be available for immediate download, very often they download
 nearly instantly.
 
-![appx_policies_and_settings_7](../../../../../static/img/product_docs/policypak/policypak/softwarepackage/appx/appx_policies_and_settings_7.webp)
+![appx_policies_and_settings_7](/img/product_docs/policypak/policypak/softwarepackage/appx/appx_policies_and_settings_7.webp)
 
 You can now run your newly deployed Microsoft Store application.
 

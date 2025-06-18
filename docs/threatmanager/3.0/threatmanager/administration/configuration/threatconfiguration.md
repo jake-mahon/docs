@@ -3,7 +3,7 @@
 Selecting a threat in the Threats list displays details for that threat. The Threat Description box
 displays the name and description of the threat.
 
-![This screensot displays the Threat Details box.](../../../../../../static/img/product_docs/threatmanager/threatmanager/administration/configuration/threatdetails.webp)
+![This screensot displays the Threat Details box.](/img/product_docs/threatmanager/threatmanager/administration/configuration/threatdetails.webp)
 
 The Threat Configuration Box contains a Processing tab, an Exclusions tab, and in some cases a
 Settings tab.
@@ -12,7 +12,7 @@ Settings tab.
 
 The Processing tab contains the configuration options for processing the threat.
 
-![This screenshot displays the Processing tab.](../../../../../../static/img/product_docs/threatmanager/threatmanager/administration/configuration/processingtab.webp)
+![This screenshot displays the Processing tab.](/img/product_docs/threatmanager/threatmanager/administration/configuration/processingtab.webp)
 
 General:
 
@@ -25,17 +25,17 @@ General:
   visualizations throughout the console. This setting does not influence the behavior of the threat
   response.
     - High – Indicates a serious threat that should be investigated immediately. The high threat
-      level setting can be used as a filter on the [Threats Page](../threats.md).
+      level setting can be used as a filter on the [Threats Page](/docs/threatmanager/3.0/threatmanager/administration/threats.md).
     - Medium – Indicates a potentially serious threat of activities leading to a serious threat that
       should be investigated. The medium threat level setting can be used as a filter on the
-      [Threats Page](../threats.md).
+      [Threats Page](/docs/threatmanager/3.0/threatmanager/administration/threats.md).
     - Low – Indicates activity that is a potential risk or a bad practice. The low threat level
-      setting can be used as a filter on the [Threats Page](../threats.md).
+      setting can be used as a filter on the [Threats Page](/docs/threatmanager/3.0/threatmanager/administration/threats.md).
     - Audit – Indicates activity that is not necessarily a threat, but should be monitored. The
-      audit setting can be used as a filter on the [Threats Page](../threats.md). Some threats will
+      audit setting can be used as a filter on the [Threats Page](/docs/threatmanager/3.0/threatmanager/administration/threats.md). Some threats will
       auto-escalate from audit to a higher level, for example, threats with a high threat event
       count or if the perpetrators of the threat are sensitive users. Audit events are also shown on
-      the [Home Page](../home.md).
+      the [Home Page](/docs/threatmanager/3.0/threatmanager/administration/home.md).
     - Informational – Indicates first-time client use or first-time host use, which can be common
       events but may also indicate a threat
 
@@ -74,7 +74,7 @@ the threat is initially detected regardless of rollup configuration. When a thre
 also update the detection time of the threat, which will push it to the top of the Threats Page
 timeline.
 
-![Image is a flow chart visually explaining how a threat is dealt with with or without Rollup enabled.](../../../../../../static/img/product_docs/threatmanager/threatmanager/administration/configuration/rollupexplanationgraphic.webp)
+![Image is a flow chart visually explaining how a threat is dealt with with or without Rollup enabled.](/img/product_docs/threatmanager/threatmanager/administration/configuration/rollupexplanationgraphic.webp)
 
 The diagram provides an outline of the rollup process.
 
@@ -83,7 +83,7 @@ The diagram provides an outline of the rollup process.
 The Exclusions tab lists existing exclusions for the threat. Exclusions allow rule-based definitions
 to be defined for specific criteria to be excluded from threat detection for the threat type.
 
-![exclusionstab](../../../../../../static/img/product_docs/threatmanager/threatmanager/threats/exclusionstab.webp)
+![exclusionstab](/img/product_docs/threatmanager/threatmanager/threats/exclusionstab.webp)
 
 To view details of an existing exclusion, click the arrow next to the exclusion or the name of the
 exclusion.
@@ -106,7 +106,7 @@ Click **Add Exclusion** to Add a new Threat Detection Exclusion.
 
 Follow the steps to add an exclusion to the threat type.
 
-![This screenshot displays the Add Exclusion for Threat Detection window.](../../../../../../static/img/product_docs/threatmanager/threatmanager/administration/configuration/addexclusion.webp)
+![This screenshot displays the Add Exclusion for Threat Detection window.](/img/product_docs/threatmanager/threatmanager/administration/configuration/addexclusion.webp)
 
 **Step 1 –** Click Add Exclusion. The Add Exclusion for [Threat Type] window opens.
 
@@ -144,7 +144,7 @@ The Settings Tab provides additional threat-specific settings that are required 
 
 **NOTE:** The Settings tab is only displayed for threats that require additional settings.
 
-![This screenshot displays the Settings tab.](../../../../../../static/img/product_docs/threatmanager/threatmanager/administration/configuration/settingstab.webp)
+![This screenshot displays the Settings tab.](/img/product_docs/threatmanager/threatmanager/administration/configuration/settingstab.webp)
 
 This tab shows the settings that are required for the Forged Ticket threat.
 

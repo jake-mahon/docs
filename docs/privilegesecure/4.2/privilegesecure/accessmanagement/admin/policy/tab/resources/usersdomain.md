@@ -2,7 +2,7 @@
 
 The Users tab shows information about the domain users on the selected resource.
 
-![Domian Users Tab](../../../../../../../../../static/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/tab/resources/usersdomain.webp)
+![Domian Users Tab](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/tab/resources/usersdomain.webp)
 
 The Users tab has the following features:
 
@@ -23,7 +23,7 @@ The Users tab has the following features:
 - View History — Opens the Password History window to displays the password history for the account
 - Password Reset Options — Customize password rotation options. This option is only available for
   managed accounts. See
-  [Password Reset Options Window](../../window/resources/passwordresetoptions.md) for additional
+  [Password Reset Options Window](/docs/privilegesecure/4.2/privilegesecure/accessmanagement/admin/policy/window/resources/passwordresetoptions.md) for additional
   information.
 - Refresh — Reload the information displayed
 
@@ -39,12 +39,12 @@ The table has the following columns:
   created
 - NPS Role — Indicates the assigned Privilege Secure role
 - Managed — Indicates if the account is managed by Privilege Secure. See the
-  [Credentials Page](../../page/credentials.md) topic for additional information.
+  [Credentials Page](/docs/privilegesecure/4.2/privilegesecure/accessmanagement/admin/policy/page/credentials.md) topic for additional information.
 - Rotate Start | End — Indicates if the account will have a password rotation on session start, end,
   both, or neither
 - Dependents — Number of scheduled tasks or Windows services using this account.
 - Status — Indicates if the account credentials have been verified by Privilege Secure. See the
-  [Platforms Page](../../page/platforms/overview.md) topic for additional information on configuring
+  [Platforms Page](/docs/privilegesecure/4.2/privilegesecure/accessmanagement/admin/policy/page/platforms/overview.md) topic for additional information on configuring
   a verification schedule.
 
     - Unspecified — Verification check has not run
@@ -59,9 +59,9 @@ The table has the following columns:
 - Last Checked — Date timestamp of the last verification check
 - Next Change — Date timestamp for the next credential password rotation
 - Schedule — Shows the schedule policy used to change the password of a manged account, the
-  credential rotation. See the [Schedule Policies Page](../../page/schedulepolicies.md) topic for
+  credential rotation. See the [Schedule Policies Page](/docs/privilegesecure/4.2/privilegesecure/accessmanagement/admin/policy/page/schedulepolicies.md) topic for
   additional information.
 - Complexity — Indicates the password complexity policy used for the account. See the
-  [Password Complexity Page](../../page/passwordcomplexity.md) topic for additional information.
+  [Password Complexity Page](/docs/privilegesecure/4.2/privilegesecure/accessmanagement/admin/policy/page/passwordcomplexity.md) topic for additional information.
 
 The table columns can be resized and sorted in ascending or descending order.

@@ -19,7 +19,7 @@ accounts.
 
 The Configuration section on a Job's overview page allows you to easily modify any customizable
 parameters used by analysis tasks in the job. See the
-[Parameter Configuration](../../../../admin/jobs/job/overview.md#parameter-configuration) topic for
+[Parameter Configuration](/docs/accessanalyzer/12.0/admin/jobs/job/overview.md#parameter-configuration) topic for
 instructions on how to edit parameters on a job overview page.
 
 The AD_DeprovisionUsers page has the following configurable parameters:
@@ -35,7 +35,7 @@ topic for additional information.
 Navigate to the **Active Directory** > **Cleanup** > **2.Users** > **AD_DeprovisionUsers** >
 **Configure** node and select **Analysis** to view the analysis tasks.
 
-![Analysis Tasks for the AD_DeprovisionUsers Job](../../../../../../../static/img/product_docs/accessanalyzer/solutions/activedirectory/cleanup/users/deprovisionusersanalysis.webp)
+![Analysis Tasks for the AD_DeprovisionUsers Job](/img/product_docs/accessanalyzer/solutions/activedirectory/cleanup/users/deprovisionusersanalysis.webp)
 
 The default analysis tasks are:
 
@@ -59,7 +59,7 @@ this job’s analysis.
 | User Accounts to Delete | @days_before_deleting       | 365           | Days in the Stale Users OU before being deleted |
 
 See the
-[Configure the Customizable Parameters in an Analysis Task](../../../../admin/jobs/job/configure/analysiscustomizableparameters.md)
+[Configure the Customizable Parameters in an Analysis Task](/docs/accessanalyzer/12.0/admin/jobs/job/configure/analysiscustomizableparameters.md)
 topic for additional information.
 
 ## Action Tasks for the AD_DeprovisionUsers Job
@@ -70,7 +70,7 @@ Navigate to the **Active Directory** > **Cleanup** > **2.Users** > **AD_Deprovis
 **CAUTION:** Do not enable the actions unless it is required. Disable the actions after execution to
 prevent making unintended and potentially harmful changes to Active Directory.
 
-![Action Tasks for the AD_DeprovisionUsers Job](../../../../../../../static/img/product_docs/accessanalyzer/solutions/activedirectory/cleanup/users/deprovisionusersaction.webp)
+![Action Tasks for the AD_DeprovisionUsers Job](/img/product_docs/accessanalyzer/solutions/activedirectory/cleanup/users/deprovisionusersaction.webp)
 
 The action tasks are:
 
@@ -79,7 +79,7 @@ The action tasks are:
 - Move Users – Move users to staging OU for deletion
 
     - The target OU must be set in the Move Users Action Task prior to executing the action tasks.
-      See the [Configure the Target OU](../configuretargetou.md) topic for additional information.
+      See the [Configure the Target OU](/docs/accessanalyzer/12.0/solutions/activedirectory/cleanup/configuretargetou.md) topic for additional information.
 
 - Notify Manager – Notify assigned manager by email of the impending deletion
 - Disable Users – Disable user accounts

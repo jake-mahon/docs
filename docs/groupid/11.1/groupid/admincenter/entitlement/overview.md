@@ -27,7 +27,7 @@ the following:
   file server(s), and replicate those permissions to Elasticsearch.
 - View and manage entitlements in the Entitlement section of the Directory Manager portal.
 
-See the [Manage File Servers](ad/manage.md) topic for additional information.
+See the [Manage File Servers](/docs/groupid/11.1/groupid/admincenter/entitlement/ad/manage.md) topic for additional information.
 
 ## Entitlement for SharePoint
 
@@ -53,7 +53,7 @@ do the following:
   and replicate those permissions to Elasticsearch.
 - View and manage entitlements in the Entitlement section of the Directory Manager portal.
 
-See the [Manage SharePoint Sites](entraid/manage.md) topic for additional information.
+See the [Manage SharePoint Sites](/docs/groupid/11.1/groupid/admincenter/entitlement/entraid/manage.md) topic for additional information.
 
 ## Perpetual Entitlements vs Temporary Entitlements
 
@@ -72,12 +72,12 @@ Using Directory Manager, you can manage entitlements in the following ways:
 When you add the first server or site for entitlement management, the following three schedules are
 automatically created in the identity store:
 
-- [GroupID Entitlement Schedule](../schedule/entitlement.md) - replicates object permissions on file
+- [GroupID Entitlement Schedule](/docs/groupid/11.1/groupid/admincenter/schedule/entitlement.md) - replicates object permissions on file
   servers and SharePoint sites for an Active Directory and Microsoft Entra ID identity store
   respectively. It performs a complete replication.
-- [Entitlement Scope Schedule](../schedule/entitlementscope.md) - replicates changes made to object
+- [Entitlement Scope Schedule](/docs/groupid/11.1/groupid/admincenter/schedule/entitlementscope.md) - replicates changes made to object
   permissions on file servers and SharePoint sites using Directory Manager.
-- [Entitlement Temporary Permissions Schedule](../schedule/entitlementtemporarypermissions.md) -
+- [Entitlement Temporary Permissions Schedule](/docs/groupid/11.1/groupid/admincenter/schedule/entitlementtemporarypermissions.md) -
   updates the temporary permissions for objects on file servers and SharePoint sites.
 
 ## What is Replication?
@@ -104,4 +104,4 @@ such as navigate file servers and SharePoint sites, grant permissions to objects
 resources, revoke permissions, and more.
 
 Entitlement-related permissions for a security role are discussed in the
-[Entitlement](../securityrole/permissions.md#entitlement) topic.
+[Entitlement](/docs/groupid/11.1/groupid/admincenter/securityrole/permissions.md#entitlement) topic.

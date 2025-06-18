@@ -23,5 +23,5 @@ you will provide this account in the monitoring plan wizard (or in the monitored
 
 Refer to the following topics to access Microsoft teams:
 
-- [Using Basic Authentication with MS Teams](basicauth.md)
-- [Using Modern Authentication with MS Teams](modernauth.md)
+- [Using Basic Authentication with MS Teams](/docs/auditor/10.7/auditor/configuration/microsoft365/teams/basicauth.md)
+- [Using Modern Authentication with MS Teams](/docs/auditor/10.7/auditor/configuration/microsoft365/teams/modernauth.md)

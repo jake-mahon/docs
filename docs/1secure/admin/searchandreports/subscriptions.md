@@ -37,7 +37,7 @@ Subscribe button remains disabled.
 **Step 5 –** Click **Subscribe** on the top right of the page. The Subscription to
 `<name of the report>` pane is displayed.
 
-![Subscription to Report pane](../../../../static/img/product_docs/1secure/admin/searchandreports/subscriptions.webp)
+![Subscription to Report pane](/img/product_docs/1secure/admin/searchandreports/subscriptions.webp)
 
 **Step 6 –** Set a start date, time, and time zone for sending the report to the intended
 recipients.
@@ -70,7 +70,7 @@ Organization.
 **Step 11 –** Click the **Send reports by email** check box to specify email delivery settings. The
 Email Settings section expands to display the following:
 
-![Email Delivery Settings](../../../../static/img/product_docs/1secure/admin/searchandreports/subscriptionsemailsettings.webp)
+![Email Delivery Settings](/img/product_docs/1secure/admin/searchandreports/subscriptionsemailsettings.webp)
 
 - Recipients – Specify the email addresses of the recipients of the report subscription. You can
   enter multiple addresses separated by a comma.
@@ -85,7 +85,7 @@ Email Settings section expands to display the following:
   variables, select them one by one from the drop-down menu. The available options are: Report Name,
   Export Date, Frequency, Num Records, Managing Organization, and Managed Organization.
 
-    ![Email Subject](../../../../static/img/product_docs/1secure/admin/searchandreports/subscriptions_2.webp)
+    ![Email Subject](/img/product_docs/1secure/admin/searchandreports/subscriptions_2.webp)
 
     **NOTE:** The End Customer Organization has the Organization Name variable instead of the
     Managed Organization and Managing Organization variables.
@@ -97,7 +97,7 @@ specify the settings for SharePoint Online delivery.
 
 **NOTE:** If you encounter the message, Integration required, you must first configure your
 integration for SharePoint Online. See the
-[SharePoint Online](../../integrations/sharepointonline.md) topic for additional information.
+[SharePoint Online](/docs/1secure/integrations/sharepointonline.md) topic for additional information.
 
 Expand the SharePoint Online Settings section and specify the following settings for saving the
 report:
@@ -131,7 +131,7 @@ Processing, Error Sending).
 
 **Step 4 –** (Optional) To disable a subscription, toggle OFF the switch for it.
 
-![Organization Subscriptions Page](../../../../static/img/product_docs/1secure/admin/searchandreports/subscriptions_3.webp)
+![Organization Subscriptions Page](/img/product_docs/1secure/admin/searchandreports/subscriptions_3.webp)
 
 **Step 5 –** Click the Edit icon for a subscription to modify it. The Subscription to
 `<name of the report>` pane is displayed.

@@ -9,11 +9,11 @@ ensure reliable results and simplify the process of searching the IT estate for 
 
 All search requests are run by the scheduled time set by a Super User. If you have one or more
 pending searches and for some reason want to run them immediately, you can use the Run now option.
-For more information, see [DSAR Settings](settings.md).
+For more information, see [DSAR Settings](/docs/dataclassification/5.7/ndc/admin/dsar/settings.md).
 
 See next:
 
-- [DSAR Roles](roles.md)
-- [DSAR Settings](settings.md)
-- [Create Search Requests](crestesearchrequests.md)
-- [View Search Query Results](viewsearchresults.md)
+- [DSAR Roles](/docs/dataclassification/5.7/ndc/admin/dsar/roles.md)
+- [DSAR Settings](/docs/dataclassification/5.7/ndc/admin/dsar/settings.md)
+- [Create Search Requests](/docs/dataclassification/5.7/ndc/admin/dsar/crestesearchrequests.md)
+- [View Search Query Results](/docs/dataclassification/5.7/ndc/admin/dsar/viewsearchresults.md)

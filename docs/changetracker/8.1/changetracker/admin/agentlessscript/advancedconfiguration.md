@@ -11,7 +11,7 @@ prompt and to more precisely define the Prompt with a new line prefix for instan
 prompt (e.g. a single > or $) may appear elsewhere in the data being tracked, triggering an early
 termination of the tracking operation.
 
-![AgentlessScriptAdvConfigRegEx](../../../../../../static/img/product_docs/changetracker/changetracker/admin/agentlessscript/agentlessscriptadvconfigregex.webp)
+![AgentlessScriptAdvConfigRegEx](/img/product_docs/changetracker/changetracker/admin/agentlessscript/agentlessscriptadvconfigregex.webp)
 
 This prompt definition matches a sequence of ‘new line’’any characters’’-1700>’. Please contact
 [Netwrix Support](https://www.netwrix.com/support.html) if you have any challenging prompt or logon

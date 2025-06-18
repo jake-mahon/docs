@@ -22,7 +22,7 @@ query.
 Begin a test by creating a root folder to contain your tests. Then, create a new test by
 right-clicking on the "All tests" container and selecting "Create test," as shown in Figure 19.
 
-![gpcr_concepts_and_quickstart_20](../../../../../../static/img/product_docs/policypak/policypak/grouppolicycompliancereporter/mode/pull/gpcr_concepts_and_quickstart_20.webp)
+![gpcr_concepts_and_quickstart_20](/img/product_docs/policypak/policypak/grouppolicycompliancereporter/mode/pull/gpcr_concepts_and_quickstart_20.webp)
 
 Figure 19. Creating a root folder to contain tests.
 
@@ -41,7 +41,7 @@ tests are the following:
 When you create or edit a test, a temporary GPO is created in the domain, and the Group Policy
 Management Editor appears, as shown in Figure 20.
 
-![gpcr_concepts_and_quickstart_21](../../../../../../static/img/product_docs/policypak/policypak/grouppolicycompliancereporter/mode/pull/gpcr_concepts_and_quickstart_21.webp)
+![gpcr_concepts_and_quickstart_21](/img/product_docs/policypak/policypak/grouppolicycompliancereporter/mode/pull/gpcr_concepts_and_quickstart_21.webp)
 
 Figure 20. A temporary Group Policy Object is created.
 
@@ -56,14 +56,14 @@ domain. If the Group Policy Management Editor is closed but fails to tell Endpoi
 GPCR that it has closed, you have the option to select "Force save" using the "Waiting..." dialog
 box.
 
-![gpcr_concepts_and_quickstart_22](../../../../../../static/img/product_docs/policypak/policypak/grouppolicycompliancereporter/mode/pull/gpcr_concepts_and_quickstart_22.webp)
+![gpcr_concepts_and_quickstart_22](/img/product_docs/policypak/policypak/grouppolicycompliancereporter/mode/pull/gpcr_concepts_and_quickstart_22.webp)
 
 Figure 21. The option to force save.
 
 Once the editor is closed, the test is saved, and you can see the test contents, as shown in
 Figure 22.
 
-![gpcr_concepts_and_quickstart_23](../../../../../../static/img/product_docs/policypak/policypak/grouppolicycompliancereporter/mode/pull/gpcr_concepts_and_quickstart_23.webp)
+![gpcr_concepts_and_quickstart_23](/img/product_docs/policypak/policypak/grouppolicycompliancereporter/mode/pull/gpcr_concepts_and_quickstart_23.webp)
 
 Figure 22. Viewing the test contents once the test is saved.
 
@@ -79,7 +79,7 @@ Redirection (on the User side). You can see the resulting error that occurred.
 **NOTE:** If a test contains supported and unsupported data, the supported data will work and the
 unsupported data is will be ignored during testing.
 
-![gpcr_concepts_and_quickstart_24](../../../../../../static/img/product_docs/policypak/policypak/grouppolicycompliancereporter/mode/pull/gpcr_concepts_and_quickstart_24.webp)
+![gpcr_concepts_and_quickstart_24](/img/product_docs/policypak/policypak/grouppolicycompliancereporter/mode/pull/gpcr_concepts_and_quickstart_24.webp)
 
 Figure 23. Unsupported data within tests show up within the test contents reports.
 

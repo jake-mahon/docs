@@ -1,7 +1,7 @@
 # Overcoming Common UAC Prompts with Helper Tools
 
 **NOTE:** See the
-[Overcome Network Card, Printer, and Remove Programs UAC prompts](../../../video/leastprivilege/uacprompts.md)
+[Overcome Network Card, Printer, and Remove Programs UAC prompts](/docs/policypak/policypak/video/leastprivilege/uacprompts.md)
 video for an overview of using Endpoint Policy Manager Least Privilege Manager Helper Tools in
 action.
 
@@ -20,7 +20,7 @@ quickly going to encounter a UAC prompt, as seen here.
 ![A screenshot of a computer
 
 Description automatically
-generated](../../../../../../static/img/product_docs/policypak/policypak/leastprivilege/tool/helper/overcoming_common_uac_prompts.webp)
+generated](/img/product_docs/policypak/policypak/leastprivilege/tool/helper/overcoming_common_uac_prompts.webp)
 
 **NOTE:** We used COM / CSLID rules earlier to overcome this concern, but this section and solution
 gives you another option.
@@ -31,7 +31,7 @@ here.
 ![A screenshot of a computer
 
 Description automatically
-generated](../../../../../../static/img/product_docs/policypak/policypak/leastprivilege/tool/helper/overcoming_common_uac_prompts.webp)
+generated](/img/product_docs/policypak/policypak/leastprivilege/tool/helper/overcoming_common_uac_prompts.webp)
 
 Finally, if Standard Users try to manage their own Apps and Features by uninstalling an application
 that they no longer need, they will also be prevented by a UAC prompt, seen here.
@@ -39,6 +39,6 @@ that they no longer need, they will also be prevented by a UAC prompt, seen here
 ![A screenshot of a computer
 
 Description automatically
-generated](../../../../../../static/img/product_docs/policypak/policypak/leastprivilege/tool/helper/overcoming_common_uac_prompts_1.webp)
+generated](/img/product_docs/policypak/policypak/leastprivilege/tool/helper/overcoming_common_uac_prompts_1.webp)
 
 After setting up Endpoint Policy Manager’s Helper Tools, you can overcome all three of these issues.

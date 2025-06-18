@@ -616,13 +616,13 @@ const config = {
         },
       },
     ],
-    // UserCube versions
+    // IdentityManager versions
     [
       '@docusaurus/plugin-content-docs',
       {
-        id: 'usercube6_2',
-        path: 'docs/usercube/6.2',
-        routeBasePath: 'docs/usercube/6.2',
+        id: 'identitymanager6_2',
+        path: 'docs/identitymanager/6.2',
+        routeBasePath: 'docs/identitymanager/6.2',
         sidebarPath: require.resolve('./sidebars/sidebar.js'),
         editUrl: 'https://github.com/netwrix/docs/tree/main/',
         exclude: ['**/CLAUDE.md'],
@@ -636,9 +636,9 @@ const config = {
     [
       '@docusaurus/plugin-content-docs',
       {
-        id: 'usercube6_1',
-        path: 'docs/usercube/6.1',
-        routeBasePath: 'docs/usercube/6.1',
+        id: 'identitymanager6_1',
+        path: 'docs/identitymanager/6.1',
+        routeBasePath: 'docs/identitymanager/6.1',
         sidebarPath: require.resolve('./sidebars/sidebar.js'),
         editUrl: 'https://github.com/netwrix/docs/tree/main/',
         exclude: ['**/CLAUDE.md'],
@@ -731,13 +731,13 @@ const config = {
         },
       },
     ],
-    // UserCube SaaS (no versions)
+    // IdentityManager SaaS (no versions)
     [
       '@docusaurus/plugin-content-docs',
       {
-        id: 'usercube_saas',
-        path: 'docs/usercube_saas',
-        routeBasePath: 'docs/usercube_saas',
+        id: 'identitymanager_saas',
+        path: 'docs/identitymanager/saas',
+        routeBasePath: 'docs/identitymanager/saas',
         sidebarPath: require.resolve('./sidebars/sidebar.js'),
         editUrl: 'https://github.com/netwrix/docs/tree/main/',
         exclude: ['**/CLAUDE.md'],
@@ -932,16 +932,16 @@ const config = {
                 to: '/docs/threatprevention/7.4',
               },
               {
-                label: 'UserCube - 6.2',
-                to: '/docs/usercube/6.2',
+                label: 'IdentityManager - 6.2',
+                to: '/docs/identitymanager/6.2',
               },
               {
-                label: 'UserCube - 6.1',
-                to: '/docs/usercube/6.1',
+                label: 'IdentityManager - 6.1',
+                to: '/docs/identitymanager/6.1',
               },
               {
-                label: 'UserCube SaaS',
-                to: '/docs/usercube_saas',
+                label: 'IdentityManager SaaS',
+                to: '/docs/identitymanager/saas',
               },
             ],
           },

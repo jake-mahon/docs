@@ -1,7 +1,7 @@
 # Group Life Cycle Schedule
 
 Directory Manager enables you to define group lifecycle settings for an identity store. See the
-[Manage Group Lifecycle Settings](../identitystore/configure/directoryservice/grouplifecycle.md)
+[Manage Group Lifecycle Settings](/docs/groupid/11.1/groupid/admincenter/identitystore/configure/directoryservice/grouplifecycle.md)
 topic for additional information. Based on these settings, the Group Lifecycle schedule expires and
 logically deletes groups in the identity store on a scheduled basis, keeping your directory clean
 and preventing group glut.
@@ -12,7 +12,7 @@ containers the job will process, and notification options.
 The Group Lifecycle schedule performs the following main functions:
 
 - Expires and logically delete groups according to their respective expiry policies. See the
-  [ Group Expiry and Deletion](../identitystore/configure/directoryservice/groupexpirydeletion.md)
+  [ Group Expiry and Deletion](/docs/groupid/11.1/groupid/admincenter/identitystore/configure/directoryservice/groupexpirydeletion.md)
   topic for additional information.
 - Sends email notifications to relevant personnel before expiring a group. Also initiates
   notifications for group attestation.
@@ -43,7 +43,7 @@ necessary action.
 Step 8 – In the Scheduler Service Name drop-down list, select a Scheduler service that would be
 responsible for triggering this schedule. The number of services displayed in the list depend on the
 number of nodes in all Elasticsearch clusters in the environment, as each node has its own Scheduler
-service. See the [Scheduler Service](../service/schedulerservice.md) topic for additional
+service. See the [Scheduler Service](/docs/groupid/11.1/groupid/admincenter/service/schedulerservice.md) topic for additional
 information.
 
 Please note the following while selecting a Scheduler service:
@@ -67,7 +67,7 @@ Target(s) area in keeping with the Group Lifecycle settings for the identity sto
 
 NOTE: In Group Lifecycle settings, the administrator can specify container(s) for exclusively
 applying or not applying the Group Life cycle policy. See the
-[Apply Policy on Specific Containers](../identitystore/configure/directoryservice/grouplifecycle.md#apply-policy-on-specific-containers)
+[Apply Policy on Specific Containers](/docs/groupid/11.1/groupid/admincenter/identitystore/configure/directoryservice/grouplifecycle.md#apply-policy-on-specific-containers)
 topic. With containers specified in the Target(s) area, there may be a conflict or overlapping of
 containers, in which case, the Group Lifecycle settings take precedence.
 
@@ -87,7 +87,7 @@ Step 12 – To set notifications for the schedule, click **Notifications**.
    to send email notifications to a group’s primary and additional owners when the job extends the
    life of a group, based on group usage settings in the Group Lifecycle policy. For group usage
    settings, see the
-   [Enable Group Usage Lifecycle](../identitystore/configure/directoryservice/grouplifecycle.md#enable-group-usage-lifecycle)
+   [Enable Group Usage Lifecycle](/docs/groupid/11.1/groupid/admincenter/identitystore/configure/directoryservice/grouplifecycle.md#enable-group-usage-lifecycle)
    topic for additional information.
 2. Click **Save**.
 

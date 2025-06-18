@@ -29,7 +29,7 @@ their passwords preserved, you must modify the Schema container settings so that
 are retained when accounts are being deleted.
 
 To perform this procedure, you will need the
-[ADSI Edit](<http://technet.microsoft.com/en-us/library/cc773354(v=ws.10).aspx>) utility.utility.
+[ADSI Edit](http://technet.microsoft.com/en-us/library/cc773354(v=ws.10).aspx) utility.utility.
 
 Follow the steps to modify schema container settings.
 
@@ -42,11 +42,11 @@ drop-down list.
 **Step 3 –** Expand the Schema your_Root_Domain_name node. Right-click the CN=Unicode-Pwd attribute
 and select Properties.
 
-![ad_object_restore_1](../../../../../static/img/product_docs/auditor/auditor/tools/ad_object_restore_1.webp)
+![ad_object_restore_1](/img/product_docs/auditor/auditor/tools/ad_object_restore_1.webp)
 
 **Step 4 –** Double-click the searchFlags attribute and set its value to _"8"_.
 
-![ad_object_restore_2](../../../../../static/img/product_docs/auditor/auditor/tools/ad_object_restore_2.webp)
+![ad_object_restore_2](/img/product_docs/auditor/auditor/tools/ad_object_restore_2.webp)
 
 Now you will be able to restore deleted accounts with their passwords preserved.
 

@@ -20,4 +20,4 @@ For Change Management and Compliance, the joins between customizations are criti
 IT risk of making changes to the system. For example, they warn you if changing a search could break
 a workflow or a script.
 
-![drd](../../../static/img/product_docs/strongpointforsalesforce/customizations/drd.webp)
+![drd](/img/product_docs/strongpointforsalesforce/customizations/drd.webp)

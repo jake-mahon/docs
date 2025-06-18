@@ -45,7 +45,7 @@ Dynasties always inherit the expiry policy from the parent Dynasty and it can on
 the parent level.
 
 Depending on the inheritance option selected for the parent Dynasty on the
-[Group properties - Dynasty Options tab](../properties/dynastyoptions.md) in group properties, the
+[Group properties - Dynasty Options tab](/docs/groupid/11.1/groupid/portal/group/properties/dynastyoptions.md) in group properties, the
 modified values of inherited attributes may or may not persist.
 
 ## Multi-level Structure

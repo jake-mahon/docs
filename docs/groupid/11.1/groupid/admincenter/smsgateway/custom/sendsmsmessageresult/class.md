@@ -5,16 +5,16 @@ sending the text message to the target mobile phone numbers.
 
 Following is a list of its members with description:
 
-- [SendSmsMessageResult.ExceptionMessage](exceptionmessage.md)
-- [SendSmsMessageResult.Message](message.md)
-- [SendSmsMessageResult.Success](success.md)
+- [SendSmsMessageResult.ExceptionMessage](/docs/groupid/11.1/groupid/admincenter/smsgateway/custom/sendsmsmessageresult/exceptionmessage.md)
+- [SendSmsMessageResult.Message](/docs/groupid/11.1/groupid/admincenter/smsgateway/custom/sendsmsmessageresult/message.md)
+- [SendSmsMessageResult.Success](/docs/groupid/11.1/groupid/admincenter/smsgateway/custom/sendsmsmessageresult/success.md)
 
 | Member                    | Description                                                                                                                                       |
 | ------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------- |
 | ExceptionMessage property | Gets the exception message if one occurs while sending the text message.                                                                          |
-| Message property          | Returns the [ShortMessage class](../shortmessage/class.md) object processed by the [ISmsGateway.SendShortMessage](../sendshortmessage.md) method. |
+| Message property          | Returns the [ShortMessage class](/docs/groupid/11.1/groupid/admincenter/smsgateway/custom/shortmessage/class.md) object processed by the [ISmsGateway.SendShortMessage](/docs/groupid/11.1/groupid/admincenter/smsgateway/custom/sendshortmessage.md) method. |
 | Success property          | Returns a boolean value indicating whether the text message is successfully sent to the target mobile phone numbers.                              |
 
 **See Also**
 
-- [ISMSGateway Members](../overview.md)
+- [ISMSGateway Members](/docs/groupid/11.1/groupid/admincenter/smsgateway/custom/overview.md)

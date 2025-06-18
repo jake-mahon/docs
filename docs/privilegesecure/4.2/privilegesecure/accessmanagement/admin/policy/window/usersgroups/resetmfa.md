@@ -3,7 +3,7 @@
 Privilege Secure allows administrators to reset a user MFA directly from the Users page. Resetting
 the user's MFA will generate a TOTP secret for the user and force them to register an authenticator.
 This option is only available when the Internal MFA option is enabled on the User Details page. See
-[Authentication Connector Tab](../../tab/usersgroups/authenticationconnector.md) for additional
+[Authentication Connector Tab](/docs/privilegesecure/4.2/privilegesecure/accessmanagement/admin/policy/tab/usersgroups/authenticationconnector.md) for additional
 information.
 
 Follow the steps below to reset a user's MFA.
@@ -12,11 +12,11 @@ Follow the steps below to reset a user's MFA.
 
 **Step 2 –** Select the desired user or group account.
 
-![Reset MFA for Users and Groups Account](../../../../../../../../../static/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/window/usersgroups/usersgroupsresetmfa.webp)
+![Reset MFA for Users and Groups Account](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/window/usersgroups/usersgroupsresetmfa.webp)
 
 **Step 3 –** Click the **Reset MFA** button.
 
-![Reset MFA for Account Confermation Window](../../../../../../../../../static/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/window/usersgroups/usersgroupsresetmfawindow.webp)
+![Reset MFA for Account Confermation Window](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/window/usersgroups/usersgroupsresetmfawindow.webp)
 
 **Step 4 –** Click the **Reset MFA** button in the confirmation window.
 

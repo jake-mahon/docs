@@ -9,7 +9,7 @@ doesn't, then this is the guide for you.
 
 **Step 1 –** This troubleshooting guide assumes you have already performed the steps in this initial
 troubleshooting guide: Browser Router >
-[Knowledge Base](../../browserrouter/overview/knowledgebase.md). This will demonstrate that you are:
+[Knowledge Base](/docs/policypak/policypak/browserrouter/overview/knowledgebase.md). This will demonstrate that you are:
 
 - Getting the GPOs involved in Netwrix Endpoint Policy Manager (formerly PolicyPak) Browser Router
   and
@@ -26,7 +26,7 @@ correctly licensed.
 WORDPAD (not notepad!) to create a simple document which will open up the browser based upon your
 rules (routes.)
 
-![267_1_img1](../../../../../static/img/product_docs/policypak/policypak/troubleshooting/browserrouter/267_1_img1.webp)
+![267_1_img1](/img/product_docs/policypak/policypak/troubleshooting/browserrouter/267_1_img1.webp)
 
 Does clicking on each link open the correct expected browser?
 
@@ -61,26 +61,26 @@ the endpoint.
 
 So, some examples where Endpoint Policy Manager Browser Router will not work instantly:
 
-![267_2_img2](../../../../../static/img/product_docs/policypak/policypak/troubleshooting/browserrouter/267_2_img2.webp)
+![267_2_img2](/img/product_docs/policypak/policypak/troubleshooting/browserrouter/267_2_img2.webp)
 
-![267_3_img3](../../../../../static/img/product_docs/policypak/policypak/troubleshooting/browserrouter/267_3_img3.webp)
+![267_3_img3](/img/product_docs/policypak/policypak/troubleshooting/browserrouter/267_3_img3.webp)
 
 To ensure each browser is ready to route BETWEEN BROWSERS, you are looking for the following.
 
 Inside IE: (Gear | Manage Add-ons)
 
-![267_4_img4-1024x325](../../../../../static/img/product_docs/policypak/policypak/troubleshooting/browserrouter/267_4_img4-1024x325.webp)
+![267_4_img4-1024x325](/img/product_docs/policypak/policypak/troubleshooting/browserrouter/267_4_img4-1024x325.webp)
 
 FF: The Firefox plugin for Endpoint Policy Manager Browser Router will ONLY install into Firefox
 ESR. When using Firefox ESR, you can then see this after you launch Firefox ESR and then press
 Ctrl+Shift+J . Then look for the text the following entry:
 
-![267_5_pp-ff-img-01](../../../../../static/img/product_docs/policypak/policypak/troubleshooting/browserrouter/267_5_pp-ff-img-01.webp)
+![267_5_pp-ff-img-01](/img/product_docs/policypak/policypak/troubleshooting/browserrouter/267_5_pp-ff-img-01.webp)
 
 If you are ATTEMPTING to use Firefox RR, then it will not work and you will get the following
 (expected) error.
 
-![267_6_image_1000x626](../../../../../static/img/product_docs/policypak/policypak/troubleshooting/browserrouter/267_6_image_1000x626.webp)
+![267_6_image_1000x626](/img/product_docs/policypak/policypak/troubleshooting/browserrouter/267_6_image_1000x626.webp)
 
 Chrome: (Gear | Extensions)
 
@@ -89,7 +89,7 @@ Another Browser is not functioning, you need to ensure you have Internet connect
 time) to get the Endpoint Policy Manager Browser Router Chrome Extension automatically downloaded
 and installed on your machine.
 
-![267_7_img6](../../../../../static/img/product_docs/policypak/policypak/troubleshooting/browserrouter/267_7_img6.webp)
+![267_7_img6](/img/product_docs/policypak/policypak/troubleshooting/browserrouter/267_7_img6.webp)
 
 If you don't see the Extension listed, try:
 
@@ -107,4 +107,4 @@ webstore): [https://chrome.google.com/webstore/category/extensions?hl=en-US](ht
 **Step 6 –** Did our Chrome extension appear?
 
 **Step 7 –** Related.. If you see ONLY Chrome, and not any FORCED extensions,
-[Endpoint Policy Manager Browser Router removes other Chrome ‘force installed' extensions. How can I work around this?](chrome/forceinstall.md)
+[Endpoint Policy Manager Browser Router removes other Chrome ‘force installed' extensions. How can I work around this?](/docs/policypak/policypak/troubleshooting/browserrouter/chrome/forceinstall.md)

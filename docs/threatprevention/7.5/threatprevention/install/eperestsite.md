@@ -3,7 +3,7 @@
 The EPE Rest Site is an optional web server that third parties can use to integrate with the Threat
 Prevention Enterprise Password Enforcer (EPE) solution. It allows third-party applications to submit
 a candidate password to check whether it complies with the current EPE rules defined on the
-[EPE Settings Window](../admin/configuration/epesettings.md).
+[EPE Settings Window](/docs/threatprevention/7.5/threatprevention/admin/configuration/epesettings.md).
 
 **NOTE:** This interface does not change the password; it only validates it against the EPE rules.
 
@@ -15,16 +15,16 @@ applications that have to use the REST API.
 **Step 1 –** From the Threat Prevention Installer package, run the server executable
 (threatprevention-server-7.5.x.xxx.msi). The Netwrix Threat Prevention Server Setup wizard opens.
 
-![Threat Prevention Server Setup wizard - Welcome page](../../../../../static/img/product_docs/activitymonitor/activitymonitor/install/welcome.webp)
+![Threat Prevention Server Setup wizard - Welcome page](/img/product_docs/activitymonitor/activitymonitor/install/welcome.webp)
 
 **Step 2 –** On the Welcome page, click **Next** to begin the installation.
 
-![Threat Prevention Server Setup wizard - End-User License Agreement page](../../../../../static/img/product_docs/threatprevention/threatprevention/install/licenseagreement.webp)
+![Threat Prevention Server Setup wizard - End-User License Agreement page](/img/product_docs/threatprevention/threatprevention/install/licenseagreement.webp)
 
 **Step 3 –** On the End-User License Agreement page, select the **I accept the terms in the License
 Agreement** checkbox and click **Next**.
 
-![Threat Prevention Server Setup wizard - Custom Setup page](../../../../../static/img/product_docs/threatprevention/threatprevention/install/customsetup.webp)
+![Threat Prevention Server Setup wizard - Custom Setup page](/img/product_docs/threatprevention/threatprevention/install/customsetup.webp)
 
 **Step 4 –** The Custom Setup page displays the Threat Prevention components that are available to
 install.
@@ -51,7 +51,7 @@ installed to the `C:\Program Files\Netwrix\Netwrix Threat Prevention\` directory
 _(Optional)_ Click **Browse…** to change the installation location. The Change destination folder
 page opens.
 
-![Threat Prevention Server Setup wizard - Change Destination Folder page](../../../../../static/img/product_docs/threatprevention/threatprevention/install/changedestinationfolder.webp)
+![Threat Prevention Server Setup wizard - Change Destination Folder page](/img/product_docs/threatprevention/threatprevention/install/changedestinationfolder.webp)
 
 > - Use the Look in field to select the desired installation folder.
 > - When the Folder name box is set as desired, click **OK**.
@@ -59,7 +59,7 @@ page opens.
 The wizard returns to the Custom Setup page. You can use the **Reset** button to revert to the
 default settings on the Custom Setup page. Click **Next** to proceed.
 
-![Threat Prevention Server Setup wizard - Enterprise Manager Location Information page](../../../../../static/img/product_docs/threatprevention/threatprevention/install/emlocationforremoteconsole.webp)
+![Threat Prevention Server Setup wizard - Enterprise Manager Location Information page](/img/product_docs/threatprevention/threatprevention/install/emlocationforremoteconsole.webp)
 
 **Step 6 –** On the Enterprise Manager Location Information page, the host name or IP address for
 the Enterprise Manager server is pre-populated. Enter the ports for the Enterprise Manager service
@@ -70,11 +70,11 @@ to communicate with the other Threat Prevention components.
 Checking the **Create Windows Firewall Rules** box automatically sets the Windows firewall rules
 needed to open these ports on the server during the installation process. If using a third party
 firewall, uncheck this option and manually create the necessary firewall rules. See the
-[Firewall Ports](../requirements/ports.md) topic for additional information.
+[Firewall Ports](/docs/threatprevention/7.5/threatprevention/requirements/ports.md) topic for additional information.
 
 When the settings are configured, click **Next**.
 
-![Netwrix Threat Prevention EPE Rest Setup wizard - Database Login Information page](../../../../../static/img/product_docs/threatprevention/threatprevention/install/database.webp)
+![Netwrix Threat Prevention EPE Rest Setup wizard - Database Login Information page](/img/product_docs/threatprevention/threatprevention/install/database.webp)
 
 **Step 7 –** On the Database Login Information page, provide information for the SQL Server where
 the installer will create a database for the EPE Rest Site.
@@ -106,7 +106,7 @@ the installer will create a database for the EPE Rest Site.
         **Next**. If the credential authentication fails, the setup does not proceed and a pop-up
         window displays failure details.
 
-![Netwrix Threat Prevention EPE Rest Setup wizard - Logon page](../../../../../static/img/product_docs/threatprevention/threatprevention/install/windowsauthentication.webp)
+![Netwrix Threat Prevention EPE Rest Setup wizard - Logon page](/img/product_docs/threatprevention/threatprevention/install/windowsauthentication.webp)
 
 **Step 8 –** If Windows authentication is selected, the Logon page is displayed.
 
@@ -119,12 +119,12 @@ the installer will create a database for the EPE Rest Site.
     credential authentication fails, the setup does not proceed and a pop-up window displays failure
     details.
 
-![Threat Prevention Server Setup wizard - Ready to Install page](../../../../../static/img/product_docs/activitymonitor/activitymonitor/install/agent/readytoinstall.webp)
+![Threat Prevention Server Setup wizard - Ready to Install page](/img/product_docs/activitymonitor/activitymonitor/install/agent/readytoinstall.webp)
 
 **Step 9 –** On the Ready to Install Netwrix Threat Prevention Server page, click **Install**. When
 finished, the Completed the Netwrix Threat Prevention Server Setup Wizard page is displayed.
 
-![Threat Prevention Server Setup wizard – Completed page](../../../../../static/img/product_docs/activitymonitor/activitymonitor/install/complete.webp)
+![Threat Prevention Server Setup wizard – Completed page](/img/product_docs/activitymonitor/activitymonitor/install/complete.webp)
 
 **Step 10 –** Click **Finish**.
 
@@ -134,4 +134,4 @@ EPE Rest Site components have been installed. You will notice that:
   physical machine
 - It has created the "EPE_REST" site in IIS
 
-See the [EPE Rest Site](../eperestsite/overview.md) topic for additional information.
+See the [EPE Rest Site](/docs/threatprevention/7.5/threatprevention/eperestsite/overview.md) topic for additional information.

@@ -3,7 +3,7 @@
 Sometimes LT.exe can produce errors due to AD/access rights restrictions. This can affect the
 process of gathering information during LRK (License Request Key) generation.
 
-![960_1_image-20230719015648-1_950x814](../../../../../static/img/product_docs/policypak/policypak/troubleshooting/license/960_1_image-20230719015648-1_950x814.webp)
+![960_1_image-20230719015648-1_950x814](/img/product_docs/policypak/policypak/troubleshooting/license/960_1_image-20230719015648-1_950x814.webp)
 
 When this or any kind of issue occurs, the Support team may request logs for this tool.
 

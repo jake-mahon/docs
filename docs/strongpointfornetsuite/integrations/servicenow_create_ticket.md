@@ -1,6 +1,6 @@
 # Creating a Ticket and Change Request for ServiceNow
 
-The [ServiceNow integration](servicenow_install_configure_netsuite.md) must be installed and
+The [ServiceNow integration](/docs/strongpointfornetsuite/integrations/servicenow_install_configure_netsuite.md) must be installed and
 configured prior to use.
 
 1. Open **ServiceNow**.
@@ -8,31 +8,31 @@ configured prior to use.
 3. Enter your ServiceNow **User Name** and **Password**.
 4. Click **Change** > **Create New** in the menu to begin a new ticket.
 
-    ![servicenow_create_new](../../../static/img/product_docs/strongpointfornetsuite/integrations/servicenow_create_new.webp)
+    ![servicenow_create_new](/img/product_docs/strongpointfornetsuite/integrations/servicenow_create_new.webp)
 
 5. Open the **Strongpoint NetSuite** tab.
 6. Click **Select Account** from the menu bar.
 
-    ![servicenow_menu_bar](../../../static/img/product_docs/strongpointfornetsuite/integrations/servicenow_menu_bar.webp)
+    ![servicenow_menu_bar](/img/product_docs/strongpointfornetsuite/integrations/servicenow_menu_bar.webp)
 
 7. Enter your NetSuite credentials. You must set up Token-based authentication.  
    Check if you are using a **Sandbox Account**. Click **Connect**.
 
-    ![servicenow_sp_login](../../../static/img/product_docs/strongpointfornetsuite/integrations/servicenow_sp_login.webp)
+    ![servicenow_sp_login](/img/product_docs/strongpointfornetsuite/integrations/servicenow_sp_login.webp)
 
 8. Click **Select Customizations**.
 
-    ![servicenow_select_customizations](../../../static/img/product_docs/strongpointfornetsuite/integrations/servicenow_select_customizations.webp)
+    ![servicenow_select_customizations](/img/product_docs/strongpointfornetsuite/integrations/servicenow_select_customizations.webp)
 
 9. Enter one or more filters and click **Lookup Customization** to bring up a matching list. For
    example, entering **test** brings up the list of customizations containing _test_.
 
-    ![servicenow_select_customizations_add](../../../static/img/product_docs/strongpointfornetsuite/integrations/servicenow_select_customizations_add.webp)
+    ![servicenow_select_customizations_add](/img/product_docs/strongpointfornetsuite/integrations/servicenow_select_customizations_add.webp)
 
 10. Check one or more customizations. Click **Add Customization**.
 11. Click **Add Proposed Customization** to add a new customization:
 
-    ![Add a Proposed Customization](../../../static/img/product_docs/strongpointfornetsuite/integrations/servicenow_add_proposed_customization.webp)
+    ![Add a Proposed Customization](/img/product_docs/strongpointfornetsuite/integrations/servicenow_add_proposed_customization.webp)
 
     1. Select the customization **Type**.
     2. Enter a Script ID for the proposed customization.
@@ -40,16 +40,16 @@ configured prior to use.
 
 12. Click **Impact Analysis** in the menu bar. The impact analysis runs and displays any warnings.
 
-    ![servicenow_impact_analysis](../../../static/img/product_docs/strongpointfornetsuite/integrations/servicenow_impact_analysis.webp)
+    ![servicenow_impact_analysis](/img/product_docs/strongpointfornetsuite/integrations/servicenow_impact_analysis.webp)
 
     Click on the links to open the record in NetSuite for further research.
 
-    ![servicenow_impact_analysis_ns](../../../static/img/product_docs/strongpointfornetsuite/integrations/servicenow_impact_analysis_ns.webp)
+    ![servicenow_impact_analysis_ns](/img/product_docs/strongpointfornetsuite/integrations/servicenow_impact_analysis_ns.webp)
 
 13. Click **ERD** in the menu bar. The list is populated with the customizations added to the
     ticket. Select a customization to view the ERDs as needed.
 
-    ![servicenow_erd](../../../static/img/product_docs/strongpointfornetsuite/integrations/servicenow_erd.webp)
+    ![servicenow_erd](/img/product_docs/strongpointfornetsuite/integrations/servicenow_erd.webp)
 
 14. Click **Submit**. The list of change requests is displayed.
 15. Once the change request is moved to the Authorize state, click **Push Deployment Record** in the

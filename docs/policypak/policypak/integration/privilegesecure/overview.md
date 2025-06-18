@@ -22,7 +22,7 @@ along but, if you are using Netwrix Privilege Secure and want to try out the pow
 Policy Manager, that is included in your Netwrix Privilege Secure license.
 
 **NOTE:** See the
-[Netwrix Privilege Secure Client - Getting Started with MMC with/without Endpoint Policy Manager ](../../video/leastprivilege/integration/privilegesecure.md)video
+[Netwrix Privilege Secure Client - Getting Started with MMC with/without Endpoint Policy Manager ](/docs/policypak/policypak/video/leastprivilege/integration/privilegesecure.md)video
 for a demo on the relationship of the Netwrix Privilege Secure and Endpoint Policy Manager downloads
 and moving parts.
 

@@ -26,7 +26,7 @@ To configure approver acceleration for an identity store, you have to:
 
 A scheduled job, Workflow Acceleration, is responsible for accelerating requests to the next level,
 auto approve requests, and send notifications. See the
-[Workflow Acceleration Schedule](../schedule/workflowacceleration.md) topic.
+[Workflow Acceleration Schedule](/docs/groupid/11.1/groupid/admincenter/schedule/workflowacceleration.md) topic.
 
 **To apply approver acceleration:**
 

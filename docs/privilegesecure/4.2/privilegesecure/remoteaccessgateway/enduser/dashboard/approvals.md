@@ -7,7 +7,7 @@ before the requestor can log in to the session.
 **NOTE:** For security reasons, Remote Access Gateway can only be used by approvers to view pending
 approvals. Submitting an approval must be done through Netwrix Privilege Secure.
 
-![Approvals Dashboard](../../../../../../../static/img/product_docs/privilegesecure/privilegesecure/accessmanagement/enduser/dashboard/approvalsdashboarduser.webp)
+![Approvals Dashboard](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/enduser/dashboard/approvalsdashboarduser.webp)
 
 The Approvals Dashboard has the following features:
 

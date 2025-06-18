@@ -2,7 +2,7 @@
 
 **NOTE:** For an overview of how to block threats and unknown software like malware and similar
 applicates, see the
-[Using Least Privilege Manager's SecureRun Feature](../../video/leastprivilege/securerun/feature.md)
+[Using Least Privilege Manager's SecureRun Feature](/docs/policypak/policypak/video/leastprivilege/securerun/feature.md)
 video.
 
 In the previous section, we established that users with Standard rights and admin rights can end up
@@ -23,7 +23,7 @@ create a new SecureRun™ policy in the GPO.
 ![A screenshot of a computer
 
 Description automatically
-generated](../../../../../static/img/product_docs/policypak/policypak/leastprivilege/securerun/quick_start_using_securerun.webp)
+generated](/img/product_docs/policypak/policypak/leastprivilege/securerun/quick_start_using_securerun.webp)
 
 This will result in a new SecureRun™ policy editor, as displayed here. To turn on SecureRun click
 **Enable** and then, if desired, , change the messaging from Default to Customized (or Silently.)
@@ -31,7 +31,7 @@ This will result in a new SecureRun™ policy editor, as displayed here. To turn
 ![A screenshot of a computer
 
 Description automatically
-generated](../../../../../static/img/product_docs/policypak/policypak/leastprivilege/securerun/quick_start_using_securerun_1.webp)
+generated](/img/product_docs/policypak/policypak/leastprivilege/securerun/quick_start_using_securerun_1.webp)
 
 In the SecureRun™ Members list, you can review who and what has been added, including the defaults
 members:
@@ -60,7 +60,7 @@ enabled and is checking for file ownership (aka “Trusted”), as shown here.
 ![A screenshot of a computer
 
 Description automatically
-generated](../../../../../static/img/product_docs/policypak/policypak/leastprivilege/securerun/quick_start_using_securerun_2.webp)
+generated](/img/product_docs/policypak/policypak/leastprivilege/securerun/quick_start_using_securerun_2.webp)
 
 At the endpoint, run GPupdate or log on as a user who will receive the policy. The result is that
 all unknown applications are blocked (like previously downloaded Notepad2), and all properly
@@ -69,7 +69,7 @@ installed applications are allowed.
 ![A screenshot of a computer
 
 Description automatically
-generated](../../../../../static/img/product_docs/policypak/policypak/leastprivilege/securerun/quick_start_using_securerun_3.webp)
+generated](/img/product_docs/policypak/policypak/leastprivilege/securerun/quick_start_using_securerun_3.webp)
 
 Additionally, MSI files that attempt to launch are also subjected to Endpoint Policy Manager
 SecureRun™. If an application already has an Allow rule in place (similar to what we saw earlier
@@ -79,7 +79,7 @@ installers that don't have an Allow rule in place will be prevented from running
 ![A screenshot of a computer
 
 Description automatically
-generated](../../../../../static/img/product_docs/policypak/policypak/leastprivilege/securerun/quick_start_using_securerun_4.webp)
+generated](/img/product_docs/policypak/policypak/leastprivilege/securerun/quick_start_using_securerun_4.webp)
 
 This works because Endpoint Policy Manager Least Privilege Manager is enforcing the SecureRun™
 Members list. If we look at who owns the file for the properly installed application, we can see the
@@ -89,7 +89,7 @@ Internet, we can see the owner is EastSalesUser1.
 ![A screenshot of a computer
 
 Description automatically
-generated](../../../../../static/img/product_docs/policypak/policypak/leastprivilege/securerun/quick_start_using_securerun_5.webp)
+generated](/img/product_docs/policypak/policypak/leastprivilege/securerun/quick_start_using_securerun_5.webp)
 
 If you review the list of users allowed to run applications, you will notice that EastSalesUser1 is
 not on the list and, therefore, is not permitted to run Untrusted applications.
@@ -97,7 +97,7 @@ not on the list and, therefore, is not permitted to run Untrusted applications.
 ![A screenshot of a computer
 
 Description automatically
-generated](../../../../../static/img/product_docs/policypak/policypak/leastprivilege/securerun/quick_start_using_securerun_6.webp)
+generated](/img/product_docs/policypak/policypak/leastprivilege/securerun/quick_start_using_securerun_6.webp)
 
 If you decide you want to enable an application, such as Notepad2, to run, create a new Executable
 rule (Path, Hash, Signature, or File) as shown in the previous section. This time, select **Allow
@@ -106,14 +106,14 @@ and log**. This will run the application with Standard User rights.
 ![A screenshot of a computer
 
 Description automatically
-generated](../../../../../static/img/product_docs/policypak/policypak/leastprivilege/securerun/quick_start_using_securerun_7.webp)
+generated](/img/product_docs/policypak/policypak/leastprivilege/securerun/quick_start_using_securerun_7.webp)
 
 The result can be seen in the MMC list view.
 
 ![A screenshot of a computer
 
 Description automatically
-generated](../../../../../static/img/product_docs/policypak/policypak/leastprivilege/securerun/quick_start_using_securerun_8.webp)
+generated](/img/product_docs/policypak/policypak/leastprivilege/securerun/quick_start_using_securerun_8.webp)
 
 As a test, run GPupdate on the endpoint, and then run Notepad2, which will run with Standard User
 rights and bypass SecureRun™ as seen here.
@@ -121,7 +121,7 @@ rights and bypass SecureRun™ as seen here.
 ![A screenshot of a computer
 
 Description automatically
-generated](../../../../../static/img/product_docs/policypak/policypak/leastprivilege/securerun/quick_start_using_securerun_9.webp)
+generated](/img/product_docs/policypak/policypak/leastprivilege/securerun/quick_start_using_securerun_9.webp)
 
 To recap, Endpoint Policy ManagerLeast Privilege Manager SecureRun™ operates under the following
 criteria:
@@ -138,11 +138,11 @@ downloads and tries to run but continues to let properly installed applications 
 
 **NOTE:** An additional way to use Endpoint Policy Manager SecureRum™ is to also trap for anything
 that is unsigned. See the
-[Least Privilege Manager: Block All Unsigned with SecureRun](../../video/leastprivilege/securerun/preventunsigned.md)
+[Least Privilege Manager: Block All Unsigned with SecureRun](/docs/policypak/policypak/video/leastprivilege/securerun/preventunsigned.md)
 video for a demonstration.
 
 **NOTE:** Remember, all Endpoint Policy Manager Least Privilege Manager rules, including SecureRun,
 may be used with an MDM service, or your own management system like PDQ deploy For more information
 on this topic, please see the
-[Blocking Malware with Endpoint Policy Manager and PDQ Deploy](../../video/leastprivilege/integration/pdqdeployblockmalware.md)
+[Blocking Malware with Endpoint Policy Manager and PDQ Deploy](/docs/policypak/policypak/video/leastprivilege/integration/pdqdeployblockmalware.md)
 video demonstration.

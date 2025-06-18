@@ -69,7 +69,7 @@ information will not have changed.
 New: Jira On-Prem
 
 Atlassian is discontinuing support for the Jira On-Prem solution. Jira Cloud will be the only
-supported option. You can use the Strongpoint [Integration API](../api/api_overview.md) to create
+supported option. You can use the Strongpoint [Integration API](/docs/strongpointfornetsuite/api/api_overview.md) to create
 your own integration with your ticketing system.
 
 **Resolved Issues**
@@ -111,7 +111,7 @@ January 25, 2024
 
 - Added **Supervisor** column to the Membership Review.
 
-    ![UAR Membership Review](../../../static/img/product_docs/strongpointfornetsuite/release_notes/uar_review_supervisor.webp)
+    ![UAR Membership Review](/img/product_docs/strongpointfornetsuite/release_notes/uar_review_supervisor.webp)
 
 - New filters are available. **Permission Reviews** now have a **Status** filter. Membership Reviews
   now have **Status** and **Supervisor** filters.

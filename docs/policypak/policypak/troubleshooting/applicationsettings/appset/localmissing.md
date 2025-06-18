@@ -22,7 +22,7 @@ c:\Program Files\PolicyPak\Extensions (on 32-bit machines)
 If both conditions are true the DLL extensions stored at the location mentioned above may get
 deleted and you will see the error below.
 
-![409_1_image002](../../../../../../static/img/product_docs/policypak/policypak/troubleshooting/applicationsettings/appset/409_1_image002.webp)
+![409_1_image002](/img/product_docs/policypak/policypak/troubleshooting/applicationsettings/appset/409_1_image002.webp)
 
 To Workaround:
 
@@ -33,7 +33,7 @@ back after the upgrade
 CENTRAL STORE or SHARED STORE method.
 
 **Step 3 –**
-[How can I use the Endpoint Policy ManagerCentral store (if I was already using the Endpoint Policy Manager Local store?)](../../../applicationsettings/centralstore.md).
+[How can I use the Endpoint Policy ManagerCentral store (if I was already using the Endpoint Policy Manager Local store?)](/docs/policypak/policypak/applicationsettings/centralstore.md).
 
 This issue is fixed for any upgrade FROM 785 onwards, but it's not possible to fix "retroactively"
 as you upgrade to 785.

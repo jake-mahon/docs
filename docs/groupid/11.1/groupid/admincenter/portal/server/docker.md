@@ -34,10 +34,10 @@ After instance creation, this info cannot be changed.
 ## Set File Logging and Windows Logging for an Instance
 
 To set file logging and Windows logging levels for a deployment instance, see the
-[Manage Log Settings](log.md) topic.
+[Manage Log Settings](/docs/groupid/11.1/groupid/admincenter/portal/server/log.md) topic.
 
 ## Delete an Instance
 
 To delete a portal’s deployment instance, see the
-[Delete a Deployment Instance for a Portal](../delete.md#delete-a-deployment-instance-for-a-portal)
+[Delete a Deployment Instance for a Portal](/docs/groupid/11.1/groupid/admincenter/portal/delete.md#delete-a-deployment-instance-for-a-portal)
 topic.

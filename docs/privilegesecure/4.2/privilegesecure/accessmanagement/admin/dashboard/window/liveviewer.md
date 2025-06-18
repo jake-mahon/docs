@@ -5,13 +5,13 @@ session. Activity sessions are monitored when the Record Proxy Sessions checkbox
 connection profile assigned to the access policy. All SSH and RDP keystrokes and local commands are
 recorded using a granular metadata search that works across both live and recorded sessions.
 
-Click the expand icon for an active session on the [Active Dashboard](../active.md).
+Click the expand icon for an active session on the [Active Dashboard](/docs/privilegesecure/4.2/privilegesecure/accessmanagement/admin/dashboard/active.md).
 
-![Active Session expanded](../../../../../../../../static/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/dashboard/window/activesessionexpand.webp)
+![Active Session expanded](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/dashboard/window/activesessionexpand.webp)
 
 If the user has logged into the activity session more than once, multiple session recordings will
 display. Only the current session can be viewed live. See the
-[Replay Viewer Window](replayviewer.md) topic for additional information on recorded sessions.
+[Replay Viewer Window](/docs/privilegesecure/4.2/privilegesecure/accessmanagement/admin/dashboard/window/replayviewer.md) topic for additional information on recorded sessions.
 
 There are two types of Live Session Viewer windows:
 
@@ -24,17 +24,17 @@ Select the desired recording and the Live Session Viewer window opens.
 
 The Live Session Viewer window for RDP sessions is applicable to all resources except the Websites.
 
-![livesessionviewerrdp](../../../../../../../../static/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/dashboard/window/livesessionviewerrdp.webp)
+![livesessionviewerrdp](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/dashboard/window/livesessionviewerrdp.webp)
 
 The Live Session Viewer for RDP Sessions window has the following features:
 
 Action options
 
 - Terminate Session icon – Click the icon to disconnect the user and end the session. A confirmation
-  window will appear. See the [Terminate Proxy Session Window](terminateproxysession.md) topic for
+  window will appear. See the [Terminate Proxy Session Window](/docs/privilegesecure/4.2/privilegesecure/accessmanagement/admin/dashboard/window/terminateproxysession.md) topic for
   additional information.
 - Lock icon – Opens the Lock Session window to prevent the user from interacting with the host but
-  keeps the session active. See the [Lock Session](locksession.md) topic for additional information.
+  keeps the session active. See the [Lock Session](/docs/privilegesecure/4.2/privilegesecure/accessmanagement/admin/dashboard/window/locksession.md) topic for additional information.
 
 Session Details
 
@@ -55,24 +55,24 @@ Activity Details
     **NOTE:** If RDP Session Monitoring is enabled, then it will also include Windows metadata
     activity in the time line. This monitoring requires the Netwrix Privilege Secure Remote Desktop
     Monitor service to be installed on the target host. See the
-    [Install Remote Desktop Monitor Service on Target RDP Hosts](../../../install/rdpmonitor.md)
+    [Install Remote Desktop Monitor Service on Target RDP Hosts](/docs/privilegesecure/4.2/privilegesecure/accessmanagement/install/rdpmonitor.md)
     topic for additional information.
 
 ## Live Session Viewer for SSH Sessions
 
 The Live Session Viewer for SSH sessions is applicable to Linux and Cisco resources.
 
-![livesessionviewerssh](../../../../../../../../static/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/dashboard/window/livesessionviewerssh.webp)
+![livesessionviewerssh](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/dashboard/window/livesessionviewerssh.webp)
 
 The Live Session Viewer for SSH Sessions window has the following features:
 
 Action options
 
 - Terminate Session icon – Click the icon to disconnect the user and end the session. A confirmation
-  window will appear. See the [Terminate Proxy Session Window](terminateproxysession.md) topic for
+  window will appear. See the [Terminate Proxy Session Window](/docs/privilegesecure/4.2/privilegesecure/accessmanagement/admin/dashboard/window/terminateproxysession.md) topic for
   additional information.
 - Lock icon – Opens the Lock Session window to prevent the user from interacting with the host but
-  keeps the session active. See the [Lock Session](locksession.md) topic for additional information.
+  keeps the session active. See the [Lock Session](/docs/privilegesecure/4.2/privilegesecure/accessmanagement/admin/dashboard/window/locksession.md) topic for additional information.
 
 Session Details
 
@@ -101,17 +101,17 @@ Other Details
 The Recording Session Viewer window for Website host sessions is applicable only to Website hosts
 and Microsoft Entra ID.
 
-![recordingsessionviewer](../../../../../../../../static/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/dashboard/window/recordingsessionviewer.webp)
+![recordingsessionviewer](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/dashboard/window/recordingsessionviewer.webp)
 
 The Live Session Viewer for Recording Sessions window has the following features:
 
 Action options
 
 - Terminate Session icon – Click the icon to disconnect the user and end the session. A confirmation
-  window will appear. See the [Terminate Proxy Session Window](terminateproxysession.md) topic for
+  window will appear. See the [Terminate Proxy Session Window](/docs/privilegesecure/4.2/privilegesecure/accessmanagement/admin/dashboard/window/terminateproxysession.md) topic for
   additional information.
 - Lock icon – Opens the Lock Session window to prevent the user from interacting with the host but
-  keeps the session active. See the [Lock Session](locksession.md) topic for additional information.
+  keeps the session active. See the [Lock Session](/docs/privilegesecure/4.2/privilegesecure/accessmanagement/admin/dashboard/window/locksession.md) topic for additional information.
 
 Recording Details
 

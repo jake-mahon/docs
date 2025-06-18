@@ -69,16 +69,16 @@ Accesses change management features:
 - **Enable Opportunistic Clearance**: enables automatic clearance of qualifying low risk
   non-compliant changes. Default is off.
 - **Enable Case to Change Request Workflow**: enables the workflow
-  [Create Change Request from Case](../change_management/creating_change_request_from_case.md),
+  [Create Change Request from Case](/docs/strongpointfornetsuite/change_management/creating_change_request_from_case.md),
   based on the provided mappings. **Change Request Field Mapping** includes an optional Formula to
   handle complex fields. After the **Enable Case to Change Request Workflow** is enabled, a **Create
   Change Request** button is available on the **Case** record (**Lists** > **Support** >
   **Cases**).  
   Here is an example using a **Formula** for the **Case to Change Request Field Mapping**:  
-  ![Example of a Formula in the Case to Change Request Field Mapping](../../../static/img/product_docs/strongpointfornetsuite/installing_strongpoint/casetocrformula.webp)
+  ![Example of a Formula in the Case to Change Request Field Mapping](/img/product_docs/strongpointfornetsuite/installing_strongpoint/casetocrformula.webp)
 - **Do Not ReSpider Automatically**: sets the default condition for the **Do Not ReSpider
   Automatically** setting on the
-  [ITGC Change Request](../change_management/creating_change_request.md). The default is
+  [ITGC Change Request](/docs/strongpointfornetsuite/change_management/creating_change_request.md). The default is
   unchecked.  
   When enabled, an automatic ReSpider occurs when a Change Request status is changed to
   **Completed**. This starts the ReSpider and ensures that all change logs are complete prior to
@@ -86,7 +86,7 @@ Accesses change management features:
   marked as non-compliant if the change logs are not complete when the user changes the status to
   **Completed**.
 - **Enhanced User Provisioning**: enables access management for onboarding/offboarding and access
-  change using the **[User Access Change Request](../change_management/user_provisioning.md)**.
+  change using the **[User Access Change Request](/docs/strongpointfornetsuite/change_management/user_provisioning.md)**.
 - **Enable Auto-Provisioning**: automatically implement the onboarding changes approved though the
   **User Provisioning Change Request** when **Enhanced User Provisioning** is enabled.
 - **Enable Auto-Role Removal**: automatically implement the offboarding changes approved though the
@@ -101,8 +101,8 @@ Accesses change management features:
     - **SoD Rule Change**
 - **CR Email Template**: if you customize your **SoD Exemption Approval** or **SoD Rule Change
   Approval** CR Templates, add them here so they are not overwritten when the next bundle is
-  installed. Refer to [Advanced PDF / HTML Templates](../customizations/pdf_html_templates.md).  
-  ![CR Email Template section on the Installation Settings Change Management tab](../../../static/img/product_docs/strongpointfornetsuite/installing_strongpoint/change_management_cr_email_template.webp)
+  installed. Refer to [Advanced PDF / HTML Templates](/docs/strongpointfornetsuite/customizations/pdf_html_templates.md).  
+  ![CR Email Template section on the Installation Settings Change Management tab](/img/product_docs/strongpointfornetsuite/installing_strongpoint/change_management_cr_email_template.webp)
 
 ### Installation
 
@@ -140,15 +140,15 @@ the page drop down icon to create a new User Note.
 ### Jira Integration
 
 Specifies the Jira credentials to use when Jira and Platform Governance for NetSuite are integrated.
-Refer to [Jira Integration](../integrations/jira_integration.md) for more information.
+Refer to [Jira Integration](/docs/strongpointfornetsuite/integrations/jira_integration.md) for more information.
 
 ### ServiceNow Integration
 
 Specifies the ServiceNow credentials to use when ServiceNow and Platform Governance for NetSuite are
-integrated. Refer to [ServiceNow Integration](../integrations/servicenow_integration.md) for more
+integrated. Refer to [ServiceNow Integration](/docs/strongpointfornetsuite/integrations/servicenow_integration.md) for more
 information.
 
 ### Menu Management
 
 Enables hiding menu items you do not use, to improve navigation. Refer to
-[Managing Menus](managing_menus.md) for more information.
+[Managing Menus](/docs/strongpointfornetsuite/installing_strongpoint/managing_menus.md) for more information.

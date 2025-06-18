@@ -1,7 +1,7 @@
 # Security Settings Manager
 
 **NOTE:** Before reading this section, please ensure you have read Book 2:
-[Installation Quick Start](../gettingstarted/quickstart/overviewinstall.md), which will help you
+[Installation Quick Start](/docs/policypak/policypak/gettingstarted/quickstart/overviewinstall.md), which will help you
 learn to do the following:
 
 - Install the Admin MSI on your GPMC machine
@@ -10,7 +10,7 @@ learn to do the following:
 - Set up a common OU structure
 
 Optionally, if you don't want to use Group Policy, read the section in Appendix A:
-[Using Endpoint Policy Manager with MDM and UEM Tools](../mdm/uemtools.md) to deploy your
+[Using Endpoint Policy Manager with MDM and UEM Tools](/docs/policypak/policypak/mdm/uemtools.md) to deploy your
 directives.
 
 Netwrix Endpoint Policy Manager (formerly PolicyPak) Security Settings Manager enables
@@ -19,7 +19,7 @@ settings without Group Policy (via Microsoft Endpoint Manager [SCCM], KACE, or E
 Manager Cloud). The supported Microsoft security settings can be seen below.  Red lines indicate
 these items are not supported by Endpoint Policy Manager.
 
-![about_policypak_security_settings](../../../../static/img/product_docs/policypak/policypak/securitysettings/about_policypak_security_settings.webp)
+![about_policypak_security_settings](/img/product_docs/policypak/policypak/securitysettings/about_policypak_security_settings.webp)
 
 **NOTE:** The following items are NOT supported by Endpoint Policy Manager Security Settings
 Manager:

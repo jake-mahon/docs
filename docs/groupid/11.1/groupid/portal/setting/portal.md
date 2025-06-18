@@ -31,7 +31,7 @@ language. However, a user can opt to receive notifications in a different langua
 the language settings from the **User Settings** panel in the portal.
 
 However, there are a few exceptions to it. See the
-[Notifications](../../admincenter/notification/overview.md) topic for more information.
+[Notifications](/docs/groupid/11.1/groupid/admincenter/notification/overview.md) topic for more information.
 
 Step 1 – Click the **Settings** icon at the top of the page.
 
@@ -77,8 +77,8 @@ Set the number of history items to display on the History tab. This tab is displ
 the properties for a User, Group, Contact or Mailbox.
 
 This setting also controls the number of history items displayed on the
-[My History](../history/myhistory.md), [My Direct Reports' History](../history/mydirectreport.md),
-and [My Groups' History](../history/mydirectorygroup.md) pages.
+[My History](/docs/groupid/11.1/groupid/portal/history/myhistory.md), [My Direct Reports' History](/docs/groupid/11.1/groupid/portal/history/mydirectreport.md),
+and [My Groups' History](/docs/groupid/11.1/groupid/portal/history/mydirectorygroup.md) pages.
 
 Step 1 – Click the **Settings** icon at the top of the page.
 

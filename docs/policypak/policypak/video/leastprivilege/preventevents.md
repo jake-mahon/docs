@@ -8,4 +8,4 @@ before turning on SecureRun to know what to expect before SecureRun is used.
 
 See this video for additional information.
 
-![Prevent Events](../../../../../static/img/product_docs/policypak/policypak/video/leastprivilege/preventevents.webp)
+![Prevent Events](/img/product_docs/policypak/policypak/video/leastprivilege/preventevents.webp)

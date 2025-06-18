@@ -26,7 +26,7 @@ Example:
 
 The following command connects you to the identity store specified by the IdentityStoreId parameter
 using the specified authentication mode and credentials that you set in the $Credentials environment
-variable. See the [Set the $Credentials Environment Variable](../parameters/setthecredential.md)
+variable. See the [Set the $Credentials Environment Variable](/docs/groupid/11.1/groupid/managementshell/parameters/setthecredential.md)
 topic for setting credentials in an environment variable.
 
 ```

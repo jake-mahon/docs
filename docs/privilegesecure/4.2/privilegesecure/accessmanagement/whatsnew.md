@@ -54,7 +54,7 @@ Netwrix Secure Remote Access ensures secure, efficient, and policy-driven remote
 New: Obscured Passwords in Replay Viewer
 
 Protect sensitive information during session replays, ensuring compliance with stricter security
-regulations. See the [Replay Viewer Window](admin/dashboard/window/replayviewer.md) topic for
+regulations. See the [Replay Viewer Window](/docs/privilegesecure/4.2/privilegesecure/accessmanagement/admin/dashboard/window/replayviewer.md) topic for
 additional information.
 
 New: Proxy Auditing for SCP and SFTP
@@ -79,21 +79,21 @@ threat detection and investigation.
 New: Customizable Login Formats
 
 Create login account templates with custom formats, streamlining user provisioning and access
-management. See the [Activities Page](admin/policy/page/activities.md) and
-[Login Account Templates](admin/policy/activityloginaccounttemplates.md) topics for additional
+management. See the [Activities Page](/docs/privilegesecure/4.2/privilegesecure/accessmanagement/admin/policy/page/activities.md) and
+[Login Account Templates](/docs/privilegesecure/4.2/privilegesecure/accessmanagement/admin/policy/activityloginaccounttemplates.md) topics for additional
 information.
 
 New: "Delete Permanently" Option
 
 Provides a clear confirmation step when removing resources, preventing accidental data loss. See the
-[Remove Resource Window](admin/policy/window/resources/removeresource.md) topic for additional
+[Remove Resource Window](/docs/privilegesecure/4.2/privilegesecure/accessmanagement/admin/policy/window/resources/removeresource.md) topic for additional
 information.
 
 New: Advanced Login Account Templates
 
 Expanded string manipulation functions and a name field increase to 20 characters offer greater
 flexibility in user provisioning. See the
-[Login Account Templates](admin/policy/activityloginaccounttemplates.md) topic for additional
+[Login Account Templates](/docs/privilegesecure/4.2/privilegesecure/accessmanagement/admin/policy/activityloginaccounttemplates.md) topic for additional
 information.
 
 New: Optional Linux Software Scans
@@ -103,24 +103,24 @@ Disable "Installed Software" functionality by default to optimize scans for spec
 New: Connect Account for Interactive App Launch
 
 Simplifies application launching by pre-configuring connection accounts. See the
-[Activities Page](admin/policy/page/activities.md) topic for additional information.
+[Activities Page](/docs/privilegesecure/4.2/privilegesecure/accessmanagement/admin/policy/page/activities.md) topic for additional information.
 
 New: View Password on Set Password
 
 Allows users to confirm password entries during credential creation, reducing errors. See the
-[Manage Internal Service Accounts](admin/policy/window/credentials/manageinternalserviceaccount.md)
+[Manage Internal Service Accounts](/docs/privilegesecure/4.2/privilegesecure/accessmanagement/admin/policy/window/credentials/manageinternalserviceaccount.md)
 topic for additional information.
 
 New: Customizable Connection Profiles
 
 Add custom input fields to connection profiles for improved data collection and organization. See
-the [Connection Profiles Page](admin/policy/page/connectionprofiles.md) topic for additional
+the [Connection Profiles Page](/docs/privilegesecure/4.2/privilegesecure/accessmanagement/admin/policy/page/connectionprofiles.md) topic for additional
 information.
 
 Enhancement: Improved Scheduler Visibility
 
 The "Statistics" tab now precedes the "Action Queues" tab in Service Nodes for easier workflow
-management. See the [Scheduler Service](admin/configuration/servicetype/scheduler.md) topic for
+management. See the [Scheduler Service](/docs/privilegesecure/4.2/privilegesecure/accessmanagement/admin/configuration/servicetype/scheduler.md) topic for
 additional information.
 
 ### Additional Enhancements
@@ -133,5 +133,5 @@ New: Credential Policy Overrides
 
 Enable credential groups to override platform-level credential schedules for more granular control
 over privileged credential life cycles. See the
-[Credential Policy Overrides Page](admin/policy/page/credentialpolicyoverrides.md) topic for
+[Credential Policy Overrides Page](/docs/privilegesecure/4.2/privilegesecure/accessmanagement/admin/policy/page/credentialpolicyoverrides.md) topic for
 additional information.

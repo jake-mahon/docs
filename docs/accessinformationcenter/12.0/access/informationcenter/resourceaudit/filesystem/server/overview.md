@@ -2,10 +2,10 @@
 
 The following reports are available at the server level:
 
-- [Activity Details Report](activitydetails.md)
-- [Activity Statistics Report](activitystatistics.md)
-- [Exceptions Report](exceptions.md)
-- [Scan Summary Report](scansummary.md)
-- [Sensitive Content Details Report](sensitivecontentdetails.md)
-- [Sensitive Content Summary Report](sensitivecontentsummary.md)
-- [Share Activity Summary Report](shareactivitysummary.md)
+- [Activity Details Report](/docs/accessinformationcenter/12.0/access/informationcenter/resourceaudit/filesystem/server/activitydetails.md)
+- [Activity Statistics Report](/docs/accessinformationcenter/12.0/access/informationcenter/resourceaudit/filesystem/server/activitystatistics.md)
+- [Exceptions Report](/docs/accessinformationcenter/12.0/access/informationcenter/resourceaudit/filesystem/server/exceptions.md)
+- [Scan Summary Report](/docs/accessinformationcenter/12.0/access/informationcenter/resourceaudit/filesystem/server/scansummary.md)
+- [Sensitive Content Details Report](/docs/accessinformationcenter/12.0/access/informationcenter/resourceaudit/filesystem/server/sensitivecontentdetails.md)
+- [Sensitive Content Summary Report](/docs/accessinformationcenter/12.0/access/informationcenter/resourceaudit/filesystem/server/sensitivecontentsummary.md)
+- [Share Activity Summary Report](/docs/accessinformationcenter/12.0/access/informationcenter/resourceaudit/filesystem/server/shareactivitysummary.md)

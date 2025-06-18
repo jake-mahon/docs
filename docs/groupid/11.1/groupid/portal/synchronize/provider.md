@@ -45,7 +45,7 @@ source and destination.
     Use Google Workspace to connect to Google Workspace plans. You can use it as a source and
     destination provider.
 
-See the [Identity Stores](../../admincenter/identitystore/overview.md) topic for additional
+See the [Identity Stores](/docs/groupid/11.1/groupid/admincenter/identitystore/overview.md) topic for additional
 information on identity stores.
 
 ## Data Sources
@@ -115,5 +115,5 @@ External data sources must be created first in Data Sources tab in Admin Center.
     files or tab-separated value (TSV) text files. This provider supports automatic schema detection
     if a header row is included in the file.
 
-See the [ Data Sources](../../admincenter/datasource/overview.md) topic for additional information
+See the [ Data Sources](/docs/groupid/11.1/groupid/admincenter/datasource/overview.md) topic for additional information
 on Data Sources.

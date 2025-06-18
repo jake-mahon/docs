@@ -6,7 +6,7 @@ Follow the steps to add a Protection policy to the console.
 
 **Step 2 –** In the Protection Policy list, click the Plus icon.
 
-![Add Protection Policy](../../../../../../../../static/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/add/addprotectionpolicy.webp)
+![Add Protection Policy](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/add/addprotectionpolicy.webp)
 
 **Step 3 –** Enter the following information:
 
@@ -18,6 +18,6 @@ Follow the steps to add a Protection policy to the console.
 The new protection policy has been created. The next step is to associate Resources, Users, and
 Schedule to the policy. See the following topics for additional information:
 
-- [Resources Tab for Protection Policies](../tab/policyprotection/resources.md)
-- [Allowed Members Tab for Protection Policies](../tab/policyprotection/allowedmembers.md)
-- [Schedule Tab for Protection Policies](../tab/policyprotection/schedule.md)
+- [Resources Tab for Protection Policies](/docs/privilegesecure/4.2/privilegesecure/accessmanagement/admin/policy/tab/policyprotection/resources.md)
+- [Allowed Members Tab for Protection Policies](/docs/privilegesecure/4.2/privilegesecure/accessmanagement/admin/policy/tab/policyprotection/allowedmembers.md)
+- [Schedule Tab for Protection Policies](/docs/privilegesecure/4.2/privilegesecure/accessmanagement/admin/policy/tab/policyprotection/schedule.md)

@@ -2,7 +2,7 @@
 
 Ownership of the customizations is important for clean up and accountability in the system. Owners
 can become inactive if they quit using the system, or if their licenses have been marked
-[Inactive](../installing_strongpoint/managing_users.md). The report criteria excludes Customization
+[Inactive](/docs/strongpointfornetsuite/installing_strongpoint/managing_users.md). The report criteria excludes Customization
 types where owner does not apply.
 
 1. Open **Strongpoint** > **Clean Up** > **Inactive Owner**

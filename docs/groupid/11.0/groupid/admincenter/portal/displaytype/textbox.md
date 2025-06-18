@@ -17,7 +17,7 @@ regular expression for a US phone number of the pattern: (555) 123-4567 will be:
 
 To learn about regular expressions and their syntax, see
 
-- [Introduction to Regular Expressions](<https://docs.microsoft.com/en-us/previous-versions/visualstudio/visual-studio-2010/28hw3sce(v%3dvs.100)>)
+- [Introduction to Regular Expressions](https://docs.microsoft.com/en-us/previous-versions/visualstudio/visual-studio-2010/28hw3sce(v%3dvs.100))
 - [Regular Expression Syntax Reference](https://msdn.microsoft.com/en-us/library/ms840427.aspx)
 
 ## Predefined Text Box Display Types

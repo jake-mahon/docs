@@ -78,11 +78,11 @@ registration instead of User Administrator.
 clicking **Assign**.
 
 The service account can now be added to Privilege Secure, using the Application (Client) ID and
-Client Secret. See the [Service Accounts Page](../page/serviceaccounts.md) topic for additional
+Client Secret. See the [Service Accounts Page](/docs/privilegesecure/4.2/privilegesecure/accessmanagement/admin/configuration/page/serviceaccounts.md) topic for additional
 information.
 
 Add the Microsoft Entra ID Tenant resource to Privilege Secure using the Tenant ID. See the
-[Add New Microsoft Entra ID Tenant](../../policy/add/entraidtenant.md) topic for additional
+[Add New Microsoft Entra ID Tenant](/docs/privilegesecure/4.2/privilegesecure/accessmanagement/admin/policy/add/entraidtenant.md) topic for additional
 information.
 
 ## Rotate a Microsoft Entra ID Account Password in a Hybrid Tenant

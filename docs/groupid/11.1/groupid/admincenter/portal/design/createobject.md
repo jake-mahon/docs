@@ -18,13 +18,13 @@ as needed.
 NOTE: In the portal, the _Create Group_ wizard starts with the _Group Type_ page, where users can
 select the type of group they want to create. Options on this page vary, depending on the
 permissions assigned to the user in the identity store. (See the
-[Security Role – Permissions](../../securityrole/permissions.md) topic.)
+[Security Role – Permissions](/docs/groupid/11.1/groupid/admincenter/securityrole/permissions.md) topic.)
 
 - If a user has the _Create Static Group_ permission and is denied the _Create Smart Group_
   permission, only the _Static Group_ option is displayed on the _Group Type_ page.
 - If a user has the _Create Smart Group_ permission and is denied the _Create Static Group_
   permission, all options except _Static Group_ are displayed on the _Group Type_ page.
-  ![group_type](../../../../../../../static/img/product_docs/groupid/groupid/admincenter/portal/design/group_type.webp)
+  ![group_type](/img/product_docs/groupid/groupid/admincenter/portal/design/group_type.webp)
 
 NOTE: You can customize the _Group Type_ page individually for static group, Smart Group, and each
 of the Dynasty types. However:
@@ -62,7 +62,7 @@ What do you want to do?
    this name.
 8. In the **Visibility Level** drop-down list, select a security role. The page would be visible to
    users of this role and roles with a priority value higher than this role. See
-   [Priority](../../securityrole/manage.md).  
+   [Priority](/docs/groupid/11.1/groupid/admincenter/securityrole/manage.md).  
    Select _Never_ to hide the page from all users.
 9. To add fields to the page, see the Add a Field to a Wizard Page topic.
 10. Click **OK**.
@@ -141,10 +141,10 @@ You can update the following for a page:
 10. In the **Display Type** drop-down list, select a display type to use for rendering this field on
     the wizard.  
     The list contains basic display types and custom display types defined on the **Custom Display
-    Types** page. See the [Display Type Categories](../displaytype/categories.md) topic.
+    Types** page. See the [Display Type Categories](/docs/groupid/11.1/groupid/admincenter/portal/displaytype/categories.md) topic.
 11. In the **Visibility Level** drop-down list, select a security role. The field would be visible
     to users of the selected role and roles with a priority value higher than the selected role. See
-    [Priority](../../securityrole/manage.md).  
+    [Priority](/docs/groupid/11.1/groupid/admincenter/securityrole/manage.md).  
     Select _Never_ to hide the field from all users.
 12. As mentioned for visibility level, the field is visible to members of the selected role and
     roles with a priority value higher than the selected role.  
@@ -180,7 +180,7 @@ You can update the following for a page:
 19. Select the **Filter Bad Words** check box to ensure that users do not enter any bad word in this
     field.  
     A value entered for the field is checked against the words listed on the **Bad Words List**
-    page. Matched values cannot be saved. See the [Manage the Bad Words List](badwords.md) topic.
+    page. Matched values cannot be saved. See the [Manage the Bad Words List](/docs/groupid/11.1/groupid/admincenter/portal/design/badwords.md) topic.
 20. Click **OK**. The field is displayed in the **Fields** area on the **Edit Category** pane. You
     can rearrange the fields, update field properties, and even remove a field from the wizard page.
 21. Click **OK**.
@@ -262,4 +262,4 @@ The following field properties vary from field to field. You can:
 
 See Also
 
-- [Design a Portal with Display Types](../displaytype/overview.md)
+- [Design a Portal with Display Types](/docs/groupid/11.1/groupid/admincenter/portal/displaytype/overview.md)

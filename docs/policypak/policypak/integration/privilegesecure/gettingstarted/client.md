@@ -10,7 +10,7 @@ either within the Netwrix Privilege Secure download, or the Netwrix Endpoint Pol
 (formerly PolicyPak) CSE found in the Netwrix Endpoint Policy Manager (formerly PolicyPak) download.
 
 **NOTE:** See the
-[Netwrix Privilege Secure Client - Getting Started with MMC with/without Endpoint Policy Manager ](../../../video/leastprivilege/integration/privilegesecure.md)video
+[Netwrix Privilege Secure Client - Getting Started with MMC with/without Endpoint Policy Manager ](/docs/policypak/policypak/video/leastprivilege/integration/privilegesecure.md)video
 for a demo on the relationship of the Netwrix Privilege Secure and Netwrix Endpoint Policy Manager
 (formerly PolicyPak) downloads and their moving parts.
 
@@ -33,7 +33,7 @@ install any specific endpoint license.
 
 You can see the difference in the list view as seen here.
 
-![getting_started_client](../../../../../../static/img/product_docs/policypak/policypak/integration/privilegesecure/gettingstarted/getting_started_client.webp)
+![getting_started_client](/img/product_docs/policypak/policypak/integration/privilegesecure/gettingstarted/getting_started_client.webp)
 
 In the next section we will see how to create Netwrix Endpoint Policy Manager (formerly PolicyPak) +
 Netwrix Privilege Secure policies which will not need an endpoint license to work out of the box.

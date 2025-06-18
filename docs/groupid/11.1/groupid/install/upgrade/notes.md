@@ -17,7 +17,7 @@ The source version file system is required for the following:
 
 - When you create a new portal in Directory Manager 11, you can import the advanced settings and
   design settings of a Self-Service portal from the source version. See step 13 in the
-  [Create a Portal in Native IIS](../../admincenter/portal/create.md#create-a-portal-in-native-iis)
+  [Create a Portal in Native IIS](/docs/groupid/11.1/groupid/admincenter/portal/create.md#create-a-portal-in-native-iis)
   topic.
 - In the source version, you specified a list of attributes to replicate for an identity store.
   These attributes are saved to a file on the file system.  
@@ -85,14 +85,14 @@ Step 9 – In the source version, Replication service logs were captured under t
 no user interface to change this setting. On upgrade to Directory Manager 11, the file logging and
 Windows logging mode is set to default, i.e., ‘Error’. After upgrade, it is recommended that you go
 to Replication service settings and change file logging to the ‘Debug’ mode (if required). See the
-[Specify Log Settings for a Service](../../admincenter/service/dataservice/manage.md#specify-log-settings-for-a-service)
+[Specify Log Settings for a Service](/docs/groupid/11.1/groupid/admincenter/service/dataservice/manage.md#specify-log-settings-for-a-service)
 topic.
 
 Step 10 – In the source version, log settings for an identity store inherently applied to Date
 service logs. On upgrade to Directory Manager 11, these log settings are moved to the Data service,
 with the file logging mode set to default, i.e., ‘Error’. To change the mode in Directory Manager
 11, go to Data service settings and change it as required. See the
-[Specify Log Settings for a Service](../../admincenter/service/dataservice/manage.md#specify-log-settings-for-a-service)
+[Specify Log Settings for a Service](/docs/groupid/11.1/groupid/admincenter/service/dataservice/manage.md#specify-log-settings-for-a-service)
 topic.
 
 Step 11 – The following applies in case of upgrade from GroupID 10 SR1.  

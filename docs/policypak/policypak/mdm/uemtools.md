@@ -22,11 +22,11 @@ etc. Figure 30 shows a systems flow when using Endpoint Policy Manager with any 
 management utility, like Microsoft Endpoint Configuration Manager (MEMCM) (formerly known as SCCM),
 KACE, etc.
 
-![using_policypak_with_mdm_and](../../../../static/img/product_docs/policypak/policypak/mdm/using_policypak_with_mdm_and.webp)
+![using_policypak_with_mdm_and](/img/product_docs/policypak/policypak/mdm/using_policypak_with_mdm_and.webp)
 
 Figure 30. The correlation between applications and systems when using Endpoint Policy Manager with
 any systems management utility.
 
 **NOTE:** For a series of videos to get started with Endpoint Policy Manager and any UEM tool, like
 SCCM, KACE, etc., see the following link: Getting Started with Endpoint Policy Manager (Misc) >
-[Knowledge Base](../gettingstarted/overview/knowledgebase.md).
+[Knowledge Base](/docs/policypak/policypak/gettingstarted/overview/knowledgebase.md).

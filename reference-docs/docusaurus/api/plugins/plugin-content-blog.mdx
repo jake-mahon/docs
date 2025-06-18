@@ -11,7 +11,7 @@ Provides the [Blog](blog.mdx) feature and is the default blog plugin for Docusau
 
 :::warning some features production only
 
-The [feed feature](../../blog.mdx#feed) works by extracting the build output, and is **only active in production**.
+The [feed feature](../../blog.mdx#feed))) works by extracting the build output, and is **only active in production**.
 
 :::
 
@@ -25,7 +25,7 @@ npm install --save @docusaurus/plugin-content-blog
 
 If you use the preset `@docusaurus/preset-classic`, you don't need to install this plugin as a dependency.
 
-You can configure this plugin through the [preset options](../../using-plugins.mdx#docusauruspreset-classic).
+You can configure this plugin through the [preset options](../../using-plugins.mdx#docusauruspreset-classic))).
 
 :::
 
@@ -233,7 +233,7 @@ const config = {
 
 ## Markdown front matter {#markdown-front-matter}
 
-Markdown documents can use the following Markdown [front matter](../../guides/markdown-features/markdown-features-intro.mdx#front-matter) metadata fields, enclosed by a line `---` on either side.
+Markdown documents can use the following Markdown [front matter](../../guides/markdown-features/markdown-features-intro.mdx#front-matter))) metadata fields, enclosed by a line `---` on either side.
 
 Accepted fields:
 
@@ -243,7 +243,7 @@ Accepted fields:
 
 | Name                     | Type                    | Default                            | Description                                                                                                                                                                                                                                         |
 | ------------------------ | ----------------------- | ---------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| `authors`                | `Authors`               | `undefined`                        | List of blog post authors (or unique author). Read the [`authors` guide](../../blog.mdx#blog-post-authors) for more explanations. Prefer `authors` over the `author_*` front matter fields, even for single author blog posts.                      |
+| `authors`                | `Authors`               | `undefined`                        | List of blog post authors (or unique author). Read the [`authors` guide](../../blog.mdx#blog-post-authors))) for more explanations. Prefer `authors` over the `author_*` front matter fields, even for single author blog posts.                      |
 | `author`                 | `string`                | `undefined`                        | ⚠️ Prefer using `authors`. The blog post author's name.                                                                                                                                                                                             |
 | `author_url`             | `string`                | `undefined`                        | ⚠️ Prefer using `authors`. The URL that the author's name will be linked to. This could be a GitHub, X, Facebook profile URL, etc.                                                                                                                  |
 | `author_image_url`       | `string`                | `undefined`                        | ⚠️ Prefer using `authors`. The URL to the author's thumbnail image.                                                                                                                                                                                 |
@@ -330,7 +330,7 @@ Use the [`authors` plugin option](#authors) to configure the path of a YAML auth
 
 By convention, the plugin will look for a `authors.yml` file at the root of your blog content folder(s).
 
-This file can contain a list of predefined [global blog authors](../../blog.mdx#global-authors). You can reference these authors by their keys in Markdown files thanks to the [`authors` front matter](#markdown-front-matter).
+This file can contain a list of predefined [global blog authors](../../blog.mdx#global-authors))). You can reference these authors by their keys in Markdown files thanks to the [`authors` front matter](#markdown-front-matter).
 
 ### Types {#authors-file-types}
 
@@ -392,13 +392,13 @@ Content
 
 ## i18n {#i18n}
 
-Read the [i18n introduction](../../i18n/i18n-introduction.mdx) first.
+Read the [i18n introduction](/reference-docs/docusaurus/i18n/i18n-introduction.mdx) first.
 
 ### Translation files location {#translation-files-location}
 
 - **Base path**: `website/i18n/[locale]/docusaurus-plugin-content-blog`
 - **Multi-instance path**: `website/i18n/[locale]/docusaurus-plugin-content-blog-[pluginId]`
-- **JSON files**: extracted with [`docusaurus write-translations`](../../cli.mdx#docusaurus-write-translations-sitedir)
+- **JSON files**: extracted with [`docusaurus write-translations`](../../cli.mdx#docusaurus-write-translations-sitedir)))
 - **Markdown files**: `website/i18n/[locale]/docusaurus-plugin-content-blog`
 
 ### Example file-system structure {#example-file-system-structure}

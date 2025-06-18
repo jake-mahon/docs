@@ -13,7 +13,7 @@ Auditor supports monitoring the following domain controller operating system ver
 - Windows Server 2012 R2
 - Windows Server 2012
 
-See the [Active Directory](../configuration/activedirectory/overview.md) topic for additional
+See the [Active Directory](/docs/auditor/10.7/auditor/configuration/activedirectory/overview.md) topic for additional
 information.
 
 ## Active Directory Federation Services (AD FS)
@@ -24,7 +24,7 @@ Auditor supports monitoring the following AD FS operating system versions:
 - AD FS 4.0 – Windows Server 2016
 - AD FS 3.0 – Windows Server 2012 R2
 
-See the [AD FS](../configuration/activedirectoryfederatedservices/overview.md) topic for additional
+See the [AD FS](/docs/auditor/10.7/auditor/configuration/activedirectoryfederatedservices/overview.md) topic for additional
 information.
 
 ## Exchange
@@ -35,7 +35,7 @@ Auditor supports monitoring the following Exchange Server versions:
 - Microsoft Exchange Server 2016
 - Microsoft Exchange Server 2013
 
-See the [Exchange](../configuration/exchange/overview.md) topic for additional information.
+See the [Exchange](/docs/auditor/10.7/auditor/configuration/exchange/overview.md) topic for additional information.
 
 ## File Servers
 
@@ -57,7 +57,7 @@ Auditor supports monitoring the following device versions:
 
 **NOTE:** Only CIFS configuration is supported.
 
-See the [Dell Data Storage](../configuration/fileservers/delldatastorage/overview.md) topic for
+See the [Dell Data Storage](/docs/auditor/10.7/auditor/configuration/fileservers/delldatastorage/overview.md) topic for
 additional information.
 
 Dell Isilon/PowerScale
@@ -73,7 +73,7 @@ configuration access only. Current data should be stored in other access zones. 
 [Isilon OneFS 8.2.1 CLI Administration Guide](https://www.dellemc.com/en-us/collaterals/unauth/technical-guides-support-information/2019/09/docu95372.pdf)
 for additional information.
 
-See the [Dell Isilon/PowerScale](../configuration/fileservers/dellisilon/overview.md) topic for
+See the [Dell Isilon/PowerScale](/docs/auditor/10.7/auditor/configuration/fileservers/dellisilon/overview.md) topic for
 additional information.
 
 NetApp Data ONTAP
@@ -87,7 +87,7 @@ Auditor supports monitoring the following device versions:
 
 **NOTE:** Only CIFS configuration is supported.
 
-See the [NetApp Data ONTAP](../configuration/fileservers/netappcmode/overview.md) topic for
+See the [NetApp Data ONTAP](/docs/auditor/10.7/auditor/configuration/fileservers/netappcmode/overview.md) topic for
 additional information.
 
 Nutanix
@@ -96,7 +96,7 @@ Auditor supports monitoring the following device versions:
 
 - Files 3.6 - 4.3.0
 
-See the [Nutanix](../configuration/fileservers/nutanix/overview.md) topic for additional
+See the [Nutanix](/docs/auditor/10.7/auditor/configuration/fileservers/nutanix/overview.md) topic for additional
 information.
 
 Qumulo
@@ -105,7 +105,7 @@ Auditor supports monitoring the following device versions:
 
 - Core 3.3.5 - 6.x.x
 
-See the [Qumulo](../configuration/fileservers/qumulo/overview.md) topic for additional information.
+See the [Qumulo](/docs/auditor/10.7/auditor/configuration/fileservers/qumulo/overview.md) topic for additional information.
 
 Synology
 
@@ -116,7 +116,7 @@ Auditor supports monitoring the following device versions:
 - DSM 7.0
 - DSM 6.2.3
 
-See the [Synology](../configuration/fileservers/synology/overview.md) topic for additional
+See the [Synology](/docs/auditor/10.7/auditor/configuration/fileservers/synology/overview.md) topic for additional
 information.
 
 Windows File Servers
@@ -135,7 +135,7 @@ Auditor supports monitoring the following operating system versions:
 - Windows 8.1 (32 and 64-bit)
 - Windows 7 (32 and 64-bit)
 
-See the [Windows File Servers](../configuration/fileservers/windows/overview.md) topic for
+See the [Windows File Servers](/docs/auditor/10.7/auditor/configuration/fileservers/windows/overview.md) topic for
 additional information.
 
 ## Group Policy
@@ -149,7 +149,7 @@ Auditor supports monitoring the following domain controller operating system ver
 - Windows Server 2012 R2
 - Windows Server 2012
 
-See the [Group Policy](../configuration/grouppolicy/overview.md) topic for additional information.
+See the [Group Policy](/docs/auditor/10.7/auditor/configuration/grouppolicy/overview.md) topic for additional information.
 
 ## Logon Activity
 
@@ -162,7 +162,7 @@ Auditor supports monitoring the following domain controller operating system ver
 - Windows Server 2012 R2
 - Windows Server 2012
 
-See the [Logon Activity](../configuration/logonactivity/overview.md) topic for additional
+See the [Logon Activity](/docs/auditor/10.7/auditor/configuration/logonactivity/overview.md) topic for additional
 information.
 
 ## Microsoft 365
@@ -176,7 +176,7 @@ Auditor supports monitoring the following versions:
 
     **NOTE:** DoD tenant types are not supported.
 
-See the [Exchange Online](../configuration/microsoft365/exchangeonline/overview.md) topic for
+See the [Exchange Online](/docs/auditor/10.7/auditor/configuration/microsoft365/exchangeonline/overview.md) topic for
 additional information.
 
 Microsoft Entra ID (formerly Azure AD)
@@ -189,7 +189,7 @@ Auditor supports monitoring the following versions:
     **NOTE:** DoD tenant types are not supported.
 
 See the
-[Microsoft Entra ID (formerly Azure AD)](../configuration/microsoft365/microsoftentraid/overview.md)
+[Microsoft Entra ID (formerly Azure AD)](/docs/auditor/10.7/auditor/configuration/microsoft365/microsoftentraid/overview.md)
 topic for additional information.
 
 Microsoft Teams (MS Teams)
@@ -201,7 +201,7 @@ Auditor supports monitoring the following versions:
 
     **NOTE:** DoD tenant types are not supported.
 
-See the [MS Teams](../configuration/microsoft365/teams/overview.md) topic for additional
+See the [MS Teams](/docs/auditor/10.7/auditor/configuration/microsoft365/teams/overview.md) topic for additional
 information.
 
 SharePoint Online
@@ -213,7 +213,7 @@ Auditor supports monitoring the following versions:
 
     **NOTE:** DoD tenant types are not supported.
 
-See the [SharePoint Online](../configuration/microsoft365/sharepointonline/overview.md) topic for
+See the [SharePoint Online](/docs/auditor/10.7/auditor/configuration/microsoft365/sharepointonline/overview.md) topic for
 additional information.
 
 ## Network Devices
@@ -224,7 +224,7 @@ Auditor supports monitoring the following device versions:
 
 - ASA (Adaptive Security Appliance) 8 and above
 
-See the [Configure Cisco ASA Devices](../configuration/networkdevices/ciscoasa.md) topic for
+See the [Configure Cisco ASA Devices](/docs/auditor/10.7/auditor/configuration/networkdevices/ciscoasa.md) topic for
 additional information.
 
 Cisco IOS Devices
@@ -233,7 +233,7 @@ Auditor supports monitoring the following device versions:
 
 - IOS (Internetwork Operating System) 12, 15, 16, and 17
 
-See the [Configure Cisco IOS Devices](../configuration/networkdevices/ciscoios.md) topic for
+See the [Configure Cisco IOS Devices](/docs/auditor/10.7/auditor/configuration/networkdevices/ciscoios.md) topic for
 additional information.
 
 Cisco Meraki Dashboard
@@ -242,7 +242,7 @@ Auditor supports monitoring the following device versions:
 
 - Netwrix recommends the latest version of the Meraki Dashboard
 
-See the [Cisco Meraki Dashboard ](../configuration/networkdevices/ciscomerakidashboard.md) topic for
+See the [Cisco Meraki Dashboard ](/docs/auditor/10.7/auditor/configuration/networkdevices/ciscomerakidashboard.md) topic for
 additional information.
 
 Cisco FTD
@@ -257,7 +257,7 @@ Auditor supports monitoring the following device versions:
 
 - FortiOS 5.6 and above
 
-See the [Configure Fortinet FortiGate Devices](../configuration/networkdevices/fortinetfortigate.md)
+See the [Configure Fortinet FortiGate Devices](/docs/auditor/10.7/auditor/configuration/networkdevices/fortinetfortigate.md)
 topic for additional information.
 
 HPE Aruba Devices
@@ -266,7 +266,7 @@ Auditor supports monitoring the following device versions:
 
 - Aruba OS 6.46.4.x – 8.6.0.x (Mobility Master, Mobility Controller)
 
-See the [Configure Pulse Secure Devices](../configuration/networkdevices/pulsesecure.md) topic for
+See the [Configure Pulse Secure Devices](/docs/auditor/10.7/auditor/configuration/networkdevices/pulsesecure.md) topic for
 additional information.
 
 Juniper Devices
@@ -276,7 +276,7 @@ Auditor supports monitoring the following device versions:
 - vSRX with Junos OS 12.1, Junos OS 18.1, Junos OS 20.4R2
 - vMX with Junos OS 17.1
 
-See the [Configure Juniper Devices](../configuration/networkdevices/juniper.md) topic for additional
+See the [Configure Juniper Devices](/docs/auditor/10.7/auditor/configuration/networkdevices/juniper.md) topic for additional
 information.
 
 PaloAlto Devices
@@ -285,7 +285,7 @@ Auditor supports monitoring the following device versions:
 
 - PAN-OS 7.0, 8.0, 9.0, 10.0
 
-See the [Configure PaloAlto Devices](../configuration/networkdevices/paloalto.md) topic for
+See the [Configure PaloAlto Devices](/docs/auditor/10.7/auditor/configuration/networkdevices/paloalto.md) topic for
 additional information.
 
 Pulse Secure Devices
@@ -294,7 +294,7 @@ Auditor supports monitoring the following device versions:
 
 - 9.1R3 and above
 
-See the [Configure Pulse Secure Devices](../configuration/networkdevices/pulsesecure.md) topic for
+See the [Configure Pulse Secure Devices](/docs/auditor/10.7/auditor/configuration/networkdevices/pulsesecure.md) topic for
 additional information.
 
 SonicWall Devices
@@ -305,7 +305,7 @@ Auditor supports monitoring the following device versions:
 - NS 6.5.х.х with SonicOS 6.5.х and 7.0.x
 - SMA 12.2
 
-See the [Configure SonicWall Devices](../configuration/networkdevices/sonicwall.md) topic for
+See the [Configure SonicWall Devices](/docs/auditor/10.7/auditor/configuration/networkdevices/sonicwall.md) topic for
 additional information.
 
 ## Oracle
@@ -320,12 +320,12 @@ Auditor supports monitoring the following versions:
 - Database 11g, limited support
 
     **NOTE:** See the
-    [Considerations for Oracle Database 11g](../configuration/oracle/overview.md#considerations-for-oracle-database-11g)
+    [Considerations for Oracle Database 11g](/docs/auditor/10.7/auditor/configuration/oracle/overview.md#considerations-for-oracle-database-11g)
     topic for additional information.
 
 - Oracle Database Cloud Service (Enterprise Edition)
 
-See the [Oracle Database](../configuration/oracle/overview.md) topic for additional information.
+See the [Oracle Database](/docs/auditor/10.7/auditor/configuration/oracle/overview.md) topic for additional information.
 
 ## SharePoint
 
@@ -337,7 +337,7 @@ Auditor supports monitoring the following versions:
 - Microsoft SharePoint Foundation 2013 and SharePoint Server 2013
 - Microsoft SharePoint Foundation 2010 and SharePoint Server 2010
 
-See the [SharePoint](../configuration/sharepoint/overview.md) topic for additional information.
+See the [SharePoint](/docs/auditor/10.7/auditor/configuration/sharepoint/overview.md) topic for additional information.
 
 ## SQL Server
 
@@ -352,7 +352,7 @@ Auditor supports monitoring the following versions:
 
 **NOTE:** Linux-based versions are not supported.
 
-See the [SQL Server](../configuration/sqlserver/overview.md) topic for additional information.
+See the [SQL Server](/docs/auditor/10.7/auditor/configuration/sqlserver/overview.md) topic for additional information.
 
 ## User Activity
 
@@ -386,7 +386,7 @@ example:
 - Servers with sensitive information
 - Sessions with elevated privileges
 
-See the [User Activity](../configuration/useractivity/overview.md) topic for additional information.
+See the [User Activity](/docs/auditor/10.7/auditor/configuration/useractivity/overview.md) topic for additional information.
 
 ## VMware Servers
 
@@ -395,7 +395,7 @@ Auditor supports monitoring the following versions:
 - VMware ESX/ESXi: 6.0 – 6.7, 7.0, 8.0
 - VMware vCenter Server: 6.0 – 6.7, 7.0, 8.0
 
-See the [VMware](../configuration/vmware/overview.md) topic for additional information.
+See the [VMware](/docs/auditor/10.7/auditor/configuration/vmware/overview.md) topic for additional information.
 
 ## Windows Servers
 
@@ -435,7 +435,7 @@ Auditor supports monitoring the following operating system versions:
 
 - IIS 7.0 and above.
 
-See the [Windows Server](../configuration/windowsserver/overview.md) topic for additional
+See the [Windows Server](/docs/auditor/10.7/auditor/configuration/windowsserver/overview.md) topic for additional
 information.
 
 ## Netwrix Integration API
@@ -448,4 +448,4 @@ trails with activity from the following systems and applications.
 Also, there are even add-ons that can export data collected by Auditor to other systems (e.g.,
 ArcSight and ServiceNow).
 
-See the [Integration API](../api/overview.md) topic for additional information.
+See the [Integration API](/docs/auditor/10.7/auditor/api/overview.md) topic for additional information.

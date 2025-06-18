@@ -36,7 +36,7 @@ There are several files to check in the folder:
 Figure 33 shows an example of a Endpoint Policy Manager Scripts & Triggers Manager log with some
 annotations.
 
-![troubleshooting](../../../../../static/img/product_docs/policypak/policypak/troubleshooting/preferences/troubleshooting.webp)
+![troubleshooting](/img/product_docs/policypak/policypak/troubleshooting/preferences/troubleshooting.webp)
 
 Figure 33. An example of a Endpoint Policy Manager Scripts & Triggers Manager log.
 

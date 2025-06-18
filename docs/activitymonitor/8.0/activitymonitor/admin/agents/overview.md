@@ -3,7 +3,7 @@
 The **Agents** tab is used to deploy activity agents and manage settings. This is the only tab
 available until an agent is installed.
 
-![Image of Agents Home Page](../../../../../../static/img/product_docs/activitymonitor/activitymonitor/admin/agents/agentaddedfinalimage.webp)
+![Image of Agents Home Page](/img/product_docs/activitymonitor/activitymonitor/admin/agents/agentaddedfinalimage.webp)
 
 The Agents tab is comprised of a button bar, a table of servers hosting activity agents, and an
 Agent Messages box. The button bar allows users to take the following actions:
@@ -11,17 +11,17 @@ Agent Messages box. The button bar allows users to take the following actions:
 - Add Agent – Opens the Add New Agent(s) window to deploy the activity/AD agent to a single server
   or to multiple servers at the same time. The following sections provide additional information:
 
-    - [Single Activity Agent Deployment](add/single.md)
-    - [Multiple Activity Agents Deployment](add/multiple.md)
-    - [Active Directory Agent Deployment](add/activedirectory.md)
-    - [Linux Agent Deployment](add/linux.md)
+    - [Single Activity Agent Deployment](/docs/activitymonitor/8.0/activitymonitor/admin/agents/add/single.md)
+    - [Multiple Activity Agents Deployment](/docs/activitymonitor/8.0/activitymonitor/admin/agents/add/multiple.md)
+    - [Active Directory Agent Deployment](/docs/activitymonitor/8.0/activitymonitor/admin/agents/add/activedirectory.md)
+    - [Linux Agent Deployment](/docs/activitymonitor/8.0/activitymonitor/admin/agents/add/linux.md)
     - Remove – Opens the Remove Agents window where users can choose to remove the hosting server
       from the activity agents table or uninstalling the activity agent from the hosting server
       before removing the activity agent from the table. See the
-      [Remove Agents](../../install/removeagent.md) topic for additional information.
+      [Remove Agents](/docs/activitymonitor/8.0/activitymonitor/install/removeagent.md) topic for additional information.
 
 - Edit – Opens the selected server’s Properties window to modify the server name or credentials. See
-  the [Agent Properties Window](properties/overview.md) topic for additional information.
+  the [Agent Properties Window](/docs/activitymonitor/8.0/activitymonitor/admin/agents/properties/overview.md) topic for additional information.
 - Start pending modules – Starts AD agent monitoring modules which were not yet started
 
     - Occasionally a Microsoft Security Bulletin impacting LSASS can interfere with the AD agent
@@ -34,7 +34,7 @@ Agent Messages box. The button bar allows users to take the following actions:
 - Upgrade – [When Agent Status is Outdated] Replaces outdated activity agent with current version
 - Update Installer – Opens a browser window to select the newer AD agent installer. A confirmation
   window then opens and identifies the new installer version. See the
-  [Update AD Agent Installer](../../install/updateadagentinstaller.md) topic for additional
+  [Update AD Agent Installer](/docs/activitymonitor/8.0/activitymonitor/install/updateadagentinstaller.md) topic for additional
   information.
 - Refresh all – Refresh the status of all activity agents
 
@@ -53,7 +53,7 @@ The table of servers hosting activity agents provides the following information:
 - Archive Location – If archiving is enabled for the activity agent, displays the archive file path
 - Archive Size – If archiving is enabled for the activity agent, displays the archive size
 
-![Agent Messages](../../../../../../static/img/product_docs/activitymonitor/activitymonitor/admin/agents/agentmessages.webp)
+![Agent Messages](/img/product_docs/activitymonitor/activitymonitor/admin/agents/agentmessages.webp)
 
 The **Agent messages** box displays any error or warning messages from the selected activity agent.
 These messages are related to deployment/installation, communication between the console and the
@@ -63,4 +63,4 @@ activity/AD agent, and upgrade of an activity/AD agent.
 v4.0+ Console.
 
 For additional information on how to deploy agents manually, see the
-[Agent Information](../../install/agents.md) topic.
+[Agent Information](/docs/activitymonitor/8.0/activitymonitor/install/agents.md) topic.

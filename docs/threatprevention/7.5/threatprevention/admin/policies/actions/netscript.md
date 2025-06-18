@@ -6,14 +6,14 @@ an enabled policy.
 
 Follow the steps to add a .NET Script action to a policy/template.
 
-![Actions tab - Actions Configurations area](../../../../../../../static/img/product_docs/threatprevention/threatprevention/admin/policies/actions/actionsconfigurationsarea.webp)
+![Actions tab - Actions Configurations area](/img/product_docs/threatprevention/threatprevention/admin/policies/actions/actionsconfigurationsarea.webp)
 
 **Step 1 –** On a policy or template **Actions** tab, click **Add** (+) to open the Add Action
 window.
 
 **Step 2 –** In the left pane, select the radio button for **.NET Script**.
 
-![Policy > Actions tab > Add Actions window for .Net Script](../../../../../../../static/img/product_docs/threatprevention/threatprevention/admin/policies/actions/addactionwindowfornetscript.webp)
+![Policy > Actions tab > Add Actions window for .Net Script](/img/product_docs/threatprevention/threatprevention/admin/policies/actions/addactionwindowfornetscript.webp)
 
 **Step 3 –** Configure the .NET Script action:
 
@@ -26,7 +26,7 @@ window.
     - C#
 - Click **Edit…** to open the Threat Prevention Script Editor window and provide the script
 
-![Script Editor for .Net Scripts](../../../../../../../static/img/product_docs/threatprevention/threatprevention/admin/policies/actions/scripteditorfornet.webp)
+![Script Editor for .Net Scripts](/img/product_docs/threatprevention/threatprevention/admin/policies/actions/scripteditorfornet.webp)
 
 **Step 4 –** Create or copy/paste a custom script in the Threat Prevention Script Editor. See the
 Threat Prevention Script Editor Tools topic for additional information, i.e. Run for testing and
@@ -39,7 +39,7 @@ information about the compiling of scripts.
 
 **Step 6 –** Click Save to close the Add Action window and apply changes.
 
-![Actions tab - .Net Script Action Created](../../../../../../../static/img/product_docs/threatprevention/threatprevention/admin/policies/actions/netscriptaction.webp)
+![Actions tab - .Net Script Action Created](/img/product_docs/threatprevention/threatprevention/admin/policies/actions/netscriptaction.webp)
 
 The Actions tab now displays the configured settings for the specified .NET Script action. The
 action configuration can be directly edited through this display as well.
@@ -49,7 +49,7 @@ action configuration can be directly edited through this display as well.
 On the Add Action window, the **Edit...** button opens the Threat Prevention Script Editor. The top
 bar includes the Tools dropdown menu that provides several useful tools.
 
-![Tools Menu in the Script Editor](../../../../../../../static/img/product_docs/threatprevention/threatprevention/admin/policies/actions/toolsmenu.webp)
+![Tools Menu in the Script Editor](/img/product_docs/threatprevention/threatprevention/admin/policies/actions/toolsmenu.webp)
 
 The Tools menu contains the following options:
 
@@ -290,27 +290,27 @@ try
 {
 sw = new System.IO.StreamWriter("c:\\si_eventdata.txt", true);
 sw.WriteLine("===========================================");
-sw.WriteLine(("TimeLogged:  " + helper.TimeLogged.ToString()));
-sw.WriteLine(("TimeLoggedUtc:  " + helper.TimeLoggedUtc.ToString()));
+sw.WriteLine(("TimeLogged:  " + helper.TimeLogged.ToString();
+sw.WriteLine(("TimeLoggedUtc:  " + helper.TimeLoggedUtc.ToString();
 sw.WriteLine(("EventSourceType: " + helper.EventSourceType));
 sw.WriteLine(("EventSourceName: " + helper.EventSourceName));
 sw.WriteLine(("SettingName: " + helper.SettingName));
 sw.WriteLine(("EventName: " + helper.EventName));
-sw.WriteLine(("DN:  " + helper.DN.ToString()));
+sw.WriteLine(("DN:  " + helper.DN.ToString();
 sw.WriteLine(("ClassName: " + helper.ClassName));
 sw.WriteLine(("Perpetrator: " + helper.Perpetrator));
 sw.WriteLine(("OriginatingServer: " + helper.OriginatingServer));
 sw.WriteLine(("OriginatingClient: " + helper.OriginatingClient));
-sw.WriteLine(("Success: " + helper.Success.ToString()));
+sw.WriteLine(("Success: " + helper.Success.ToString();
 sw.WriteLine(("Status: " + helper.Status));
-sw.WriteLine(("BlockedEvent: " + helper.BlockedEvent.ToString()));
-sw.WriteLine(("EventsCount: " + helper.EventsCount.ToString()));
+sw.WriteLine(("BlockedEvent: " + helper.BlockedEvent.ToString();
+sw.WriteLine(("EventsCount: " + helper.EventsCount.ToString();
 sw.WriteLine(("OriginatingClientProtocol: " + helper.OriginatingClientProtocol));
 sw.WriteLine(("FromHost: " + helper.FromHost));
 sw.WriteLine(("FromHostIp: " + helper.FromHostIp));
 sw.WriteLine(("ToHost: " + helper.ToHost));
 sw.WriteLine(("ToHostIp: " + helper.ToHostIp));
-sw.WriteLine(("LoginType: " + helper.LoginType.ToString()));
+sw.WriteLine(("LoginType: " + helper.LoginType.ToString();
 sw.WriteLine(("AffectedObjectSid: " + helper.AffectedObjectSid));
 sw.WriteLine(("OriginatingServerIp: " + helper.OriginatingServerIp));
 sw.WriteLine(("PerpetratorName: " + helper.PerpetratorName));
@@ -362,7 +362,7 @@ sb.Append(attrName);
 sb.Append(": ");
 if ((de.Value != null))
 {
-if ((de.Value.GetType() == typeof(SI.Common.Messages.NvMessageArray)))
+if ((de.Value.GetType() == typeof(SI.Common.Messages.NvMessageArray)
 {
 SI.Common.Messages.NvMessageArray values = ((SI.Common.Messages.NvMessageArray)(de.Value));
 if ((values.Count > 0))

@@ -22,7 +22,7 @@ The Active Sessions table has the following features:
 The table has the following columns:
 
 - Checkbox — Check to select one or more items
-- Expand icon — Click the expand (>) icon to show additional information for the session
+- Expand icon — Click the expand () icon to show additional information for the session
 - Status — Shows status information for the session:
 
     - Provisioning — Pre-Session stage of the Activity is processing and assigning permissions to

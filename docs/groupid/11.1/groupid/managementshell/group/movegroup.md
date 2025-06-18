@@ -36,7 +36,7 @@ Example 2:
 
 The following command moves the group _Training_ to the _OffShore Recruiting_ organizational unit.
 The command uses the credentials set in the $Credentials environment variable for moving a group.
-See the [Set the $Credentials Environment Variable](../parameters/setthecredential.md) topic for
+See the [Set the $Credentials Environment Variable](/docs/groupid/11.1/groupid/managementshell/parameters/setthecredential.md) topic for
 setting credentials in an environment variable.
 
 ```

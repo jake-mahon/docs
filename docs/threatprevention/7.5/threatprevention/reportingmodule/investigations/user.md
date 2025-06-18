@@ -3,10 +3,10 @@
 The User Details page displays group membership details for a user.
 
 In an investigation report, user names appear as links under the Perpetrator column in the Event
-Details and Top Resources sections (see the [Investigation Reports](reports.md) topic). Click a link
+Details and Top Resources sections (see the [Investigation Reports](/docs/threatprevention/7.5/threatprevention/reportingmodule/investigations/reports.md) topic). Click a link
 to land on the User Details page.
 
-![userdetails](../../../../../../static/img/product_docs/threatprevention/threatprevention/reportingmodule/investigations/userdetails.webp)
+![userdetails](/img/product_docs/threatprevention/threatprevention/reportingmodule/investigations/userdetails.webp)
 
 The top of the page displays a user profile card which may contain the following information about
 the user:
@@ -30,6 +30,6 @@ The Group Membership tab displays the groups the user is a member of. It has the
 Each sub-tab displays a table with the following columns:
 
 - Name – The name of the group. Click the link to view group details. See the
-  [Group Details Page](group.md) topic for additional information.
+  [Group Details Page](/docs/threatprevention/7.5/threatprevention/reportingmodule/investigations/group.md) topic for additional information.
 - Domain – Name of the domain. This may be either the domain DNS name or domain controller hostname.
 - Tags – The tag present on the perpetrator, file, or host associated with the event

@@ -7,4 +7,4 @@ opens the page on the Netwrix website. Here you can review a brief description o
 standard supported by the product and download E book containing detailed requirements for the
 standards.
 
-![compliance_mappings](../../../../../static/img/product_docs/auditor/auditor/admin/compliance_mappings.webp)
+![compliance_mappings](/img/product_docs/auditor/auditor/admin/compliance_mappings.webp)

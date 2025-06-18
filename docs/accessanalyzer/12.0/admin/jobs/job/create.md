@@ -2,12 +2,12 @@
 
 Follow the steps to create a new job.
 
-![Create Job from Jobs Tree context menu](../../../../../../static/img/product_docs/accessanalyzer/admin/jobs/job/createjob.webp)
+![Create Job from Jobs Tree context menu](/img/product_docs/accessanalyzer/admin/jobs/job/createjob.webp)
 
 **Step 1 –** Select the Jobs tree or the desired job group to add the new job to. Right-click and
 select **Create Job**.
 
-![New Job added to Jobs Tree](../../../../../../static/img/product_docs/accessanalyzer/admin/navigate/newjob.webp)
+![New Job added to Jobs Tree](/img/product_docs/accessanalyzer/admin/navigate/newjob.webp)
 
 **Step 2 –** Provide a unique, descriptive name for the job. The default name is `NewJob`. Some
 considerations for naming conventions:
@@ -24,6 +24,6 @@ considerations for naming conventions:
   length. See the Microsoft article referenced above.
 
 The new job is now ready to be configured. See the
-[Data Collectors](../../datacollector/overview.md), [Analysis Modules](../../analysis/overview.md),
-[Action Modules](../../action/overview.md), and [Reporting](../../report/overview.md) topics for
+[Data Collectors](/docs/accessanalyzer/12.0/admin/datacollector/overview.md), [Analysis Modules](/docs/accessanalyzer/12.0/admin/analysis/overview.md),
+[Action Modules](/docs/accessanalyzer/12.0/admin/action/overview.md), and [Reporting](/docs/accessanalyzer/12.0/admin/report/overview.md) topics for
 additional information.

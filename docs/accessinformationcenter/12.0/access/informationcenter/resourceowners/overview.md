@@ -27,7 +27,7 @@ feature has been enabled for the resource. The Owner portal is only accessible t
 been assigned ownership of at least one resource. Owners without an Access Information Center user
 role are directed to the Owner portal at login. Owners with an Access Information Center user role
 access the Owner portal by clicking the **Manage Your Resources** link in the Your Links section of
-the Home page. See the [Owner Portal Overview](ownerportal/overview.md) topic for additional
+the Home page. See the [Owner Portal Overview](/docs/accessinformationcenter/12.0/access/informationcenter/resourceowners/ownerportal/overview.md) topic for additional
 information.
 
 Who Can Assign Ownership (Ownership Administrators)?
@@ -58,7 +58,7 @@ What Can Resource Owners Do?
 The Matches table in the report will only be populated for Console User with Security Team and
 Administrator roles.
 
-See the [Resource Owners Interface](interface.md) topic for additional information.
+See the [Resource Owners Interface](/docs/accessinformationcenter/12.0/access/informationcenter/resourceowners/interface.md) topic for additional information.
 
 ## Workflow of Ownership Assignment
 
@@ -66,7 +66,7 @@ Prerequisites:
 
 - Entitlement Reviews License or Self-Service Access License
 - Optional: The Access Information Center is configured to send Notifications. See the
-  [Notifications Page](../admin/configuration/notifications.md) topic for additional information.
+  [Notifications Page](/docs/accessinformationcenter/12.0/access/informationcenter/admin/configuration/notifications.md) topic for additional information.
 
     **NOTE:** By default, the application is configured to send notifications only to the primary
     owner. However, this can be customized on the Configuration > Notifications page to send
@@ -81,7 +81,7 @@ Prerequisites:
 - Resources and groups must be known to the application
 - Optional: Access groups configured within the environment for resources to be managed through the
   application, which requires the Access Information Center to be configured to commit AD changes.
-  See the [Access Groups](accessgroups.md) topic for additional information.
+  See the [Access Groups](/docs/accessinformationcenter/12.0/access/informationcenter/resourceowners/accessgroups.md) topic for additional information.
 
 Workflow:
 
@@ -89,11 +89,11 @@ Workflow:
 workflow.
 
 - Add resources to be managed by associating a business data owner with a resource.
-    - See the [Add New Resource Wizard](wizard/add.md) topic for additional information about adding
+    - See the [Add New Resource Wizard](/docs/accessinformationcenter/12.0/access/informationcenter/resourceowners/wizard/add.md) topic for additional information about adding
       individual resources.
-    - See the [Import Owners Wizard](wizard/import.md) topic for additional information about adding
+    - See the [Import Owners Wizard](/docs/accessinformationcenter/12.0/access/informationcenter/resourceowners/wizard/import.md) topic for additional information about adding
       resources with a bulk import.
-- Confirm resource ownership. See the [Ownership Confirmation](confirmation.md) topic for additional
+- Confirm resource ownership. See the [Ownership Confirmation](/docs/accessinformationcenter/12.0/access/informationcenter/resourceowners/confirmation.md) topic for additional
   information.
 - Notify owners of their responsibilities. See the Notification to Owners topic for additional
   information.
@@ -108,7 +108,7 @@ information:
     - You will need to decide if you are sending owners to the Web Console or directly to the Access
       Information Center.
 - How to access instructions on how to complete a review. You can link to the
-  [Resource Ownership with the Access Information Center](owneroverview.md) topic or download that
+  [Resource Ownership with the Access Information Center](/docs/accessinformationcenter/12.0/access/informationcenter/resourceowners/owneroverview.md) topic or download that
   topic and its subtopics as a PDF and make it available within your corporate resources.
 - If you plan to enable the Resource Reviews workflow, also include:
     - An explanation of what a Resource Review is and why your organization is conducting them

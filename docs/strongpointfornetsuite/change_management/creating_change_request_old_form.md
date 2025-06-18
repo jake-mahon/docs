@@ -1,8 +1,8 @@
 # Creating a Change Request with the Old Form
 
 These are the steps to create a Change Request using the old form. Refer to
-[Creating a Change Request](creating_change_request.md) for the new form. Refer to
-[Setting Preferred Forms](../customizations/setting_preferred_forms.md) for information on
+[Creating a Change Request](/docs/strongpointfornetsuite/change_management/creating_change_request.md) for the new form. Refer to
+[Setting Preferred Forms](/docs/strongpointfornetsuite/customizations/setting_preferred_forms.md) for information on
 designating your preferred Change Request form.
 
 Before making any changes, it is important to understand the scope of the planned change, potential
@@ -23,7 +23,7 @@ To do this, in your **production** account:
     - **Completion Status (optional)**: Add the stage of completion for the change request.
     - **Parent Change Request (optional)**: link to other change requests.
 
-    ![changerequestmain1](../../../static/img/product_docs/strongpointfornetsuite/change_management/changerequestmain1.webp)
+    ![changerequestmain1](/img/product_docs/strongpointfornetsuite/change_management/changerequestmain1.webp)
 
 3. Fill in the following fields in the **Scope** section of the change request:
 
@@ -38,9 +38,9 @@ To do this, in your **production** account:
         - **Affected Bundle ID**: If you are using a bundle to move objects from sandbox to
           production, use this field to add the bundle ID.
 
-    ![scope-1](../../../static/img/product_docs/strongpointfornetsuite/change_management/scope-1.webp)
+    ![scope-1](/img/product_docs/strongpointfornetsuite/change_management/scope-1.webp)
 
-    ![scope-3](../../../static/img/product_docs/strongpointfornetsuite/change_management/scope-3.webp)
+    ![scope-3](/img/product_docs/strongpointfornetsuite/change_management/scope-3.webp)
 
 4. **Save** the Change Request.
 5. In the upper right hand corner, see the **Change Control Level Required** and choose either:
@@ -55,7 +55,7 @@ To do this, in your **production** account:
    inactive. You see a list of the customization record(s) that have been included, and warnings for
    impacted customization record(s) that need to be investigated before you make a change.
 
-    ![impactanalysissubtab](../../../static/img/product_docs/strongpointfornetsuite/change_management/impactanalysissubtab.webp)
+    ![impactanalysissubtab](/img/product_docs/strongpointfornetsuite/change_management/impactanalysissubtab.webp)
 
 If you want to see if the change would have an impact in your sandbox, you can also create a change
 request in your sandbox account.

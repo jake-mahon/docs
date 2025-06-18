@@ -9,7 +9,7 @@ Microsoft Entra ID.
 
 Data Collector
 
-- [Entra Data Collector](../../../admin/datacollector/entra/overview.md)
+- [Entra Data Collector](/docs/accessanalyzer/12.0/admin/datacollector/entra/overview.md)
 
 Configuration Settings from the Registered Application
 
@@ -50,7 +50,7 @@ The following permissions are required for Microsoft Entra Roles auditing:
 You must have a registered application to assign the required permissions to. It is recommended to
 use the same registered application that is used for access auditing using the AzureADInventory data
 collector. See the
-[Register a Microsoft Entra ID Application](../../../config/entraid/access.md#register-a-microsoft-entra-id-application)
+[Register a Microsoft Entra ID Application](/docs/accessanalyzer/12.0/config/entraid/access.md#register-a-microsoft-entra-id-application)
 topic for additional information on registering an application.
 
 The Client ID and Key for the registered application are required for the Access Analyzer connection
@@ -58,7 +58,7 @@ profile. If, as recommended, you are using a single registered application for t
 do not need to add an additional user credential in the connection profile. If you create a separate
 registered application for Entra roles auditing, then the Client ID and Key for this must be added
 to the connection profile as an additional Azure Active Directory user credential. See the
-[Microsoft Entra ID Connection Profile & Host List](../../../admin/datacollector/azureadinventory/configurejob.md)
+[Microsoft Entra ID Connection Profile & Host List](/docs/accessanalyzer/12.0/admin/datacollector/azureadinventory/configurejob.md)
 topic for additional information.
 
 Once you have the registered application, the next step is to grant it the required permissions for

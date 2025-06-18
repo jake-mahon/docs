@@ -2,7 +2,7 @@
 
 Flashlight documents over 120 Salesforce metadata types. For display within the Flashlight
 application, metadata is organized into eight categories.Open the
-[Documented Metadata Types](documented_metadata_types.md) topic for a complete list of Metadata
+[Documented Metadata Types](/docs/strongpointsalesforceflashlight/documented_metadata_types.md) topic for a complete list of Metadata
 sorted by Type and by Category.
 
 | Metadata Category      | Description                                                                                                 |
@@ -16,4 +16,4 @@ sorted by Type and by Category.
 | Analytics              | Reports, Dashboards, List Views, and Einstein                                                               |
 | Configuration          | Data Quality settings such as Duplicate Rules, Matching Rules, and Validation Rules. Other general settings |
 
-![Metadata Categories](../../static/img/product_docs/strongpointsalesforceflashlight/metadata_categories_800x511.webp)
+![Metadata Categories](/img/product_docs/strongpointsalesforceflashlight/metadata_categories_800x511.webp)

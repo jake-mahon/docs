@@ -9,7 +9,7 @@ in various languages. You can change the subject line and the body text in the t
 these languages.
 
 NOTE: Before configuring Email authentication, make sure that an SMTP server is configured for the
-identity store. See the [Configure an SMTP Server](../identitystore/configure/smtpserver.md) topic.
+identity store. See the [Configure an SMTP Server](/docs/groupid/11.1/groupid/admincenter/identitystore/configure/smtpserver.md) topic.
 
 What do you want to do?
 
@@ -22,7 +22,7 @@ What do you want to do?
 The email authentication type must be enabled for an identity store before users can use it for
 second factor authentication and multifactor authentication.
 
-To enable it, see the [Enable Authentication Types](../identitystore/configure/authtypes.md) topic.
+To enable it, see the [Enable Authentication Types](/docs/groupid/11.1/groupid/admincenter/identitystore/configure/authtypes.md) topic.
 
 ## Modify the Email Template
 
@@ -44,7 +44,7 @@ accounts.
 
 3. Search for _AccessCodeEmail_ and click **Edit** in the **Actions** column to open it.
 
-    ![accesscode](../../../../../../static/img/product_docs/groupid/groupid/admincenter/setupauth/accesscode.webp)
+    ![accesscode](/img/product_docs/groupid/groupid/admincenter/setupauth/accesscode.webp)
 
 4. You can view the notification content in two distinct modes:
 
@@ -64,7 +64,7 @@ accounts.
 ## Enforce Email Authentication for a Role in an Identity Store
 
 To enforce an authentication type, see the
-[Enforce Authentication Types for Multifactor Authentication](../securityrole/policy/authentication.md#enforce-authentication-types-for-multifactor-authentication)
+[Enforce Authentication Types for Multifactor Authentication](/docs/groupid/11.1/groupid/admincenter/securityrole/policy/authentication.md#enforce-authentication-types-for-multifactor-authentication)
 topic.
 
 Role members must use an enforced authentication type for multifactor authentication. When an
@@ -73,5 +73,5 @@ and authentication.
 
 **See Also**
 
-- [Authentication Policy](../identitystore/configure/authpolicy.md)
-- [Customize Notifications](../notification/customize.md)
+- [Authentication Policy](/docs/groupid/11.1/groupid/admincenter/identitystore/configure/authpolicy.md)
+- [Customize Notifications](/docs/groupid/11.1/groupid/admincenter/notification/customize.md)

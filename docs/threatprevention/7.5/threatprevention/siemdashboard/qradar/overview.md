@@ -15,7 +15,7 @@ IBM X-Force Exchange.
 
 - Install the Active Directory App for QRadar.
 - Ensure that Threat Prevention has been configured to send events to QRadar. See the
-  [SIEM Tab](../../admin/configuration/systemalerting/siem.md) topic for additional information.
+  [SIEM Tab](/docs/threatprevention/7.5/threatprevention/admin/configuration/systemalerting/siem.md) topic for additional information.
 
 ## App Installation in QRadar
 
@@ -38,7 +38,7 @@ Then click Install.
 QRadar.
 
 The Active Directory tab will appear in QRadar. It is necessary for the QRadar SEC token to be saved
-to the Settings interface of the Active Directory App. See the [Settings](settings.md) topic for
+to the Settings interface of the Active Directory App. See the [Settings](/docs/threatprevention/7.5/threatprevention/siemdashboard/qradar/settings.md) topic for
 additional information.
 
 ## Initial Configuration for the Active Directory App for QRadar
@@ -50,7 +50,7 @@ to send data to QRadar.
 
 **Step 1 –** Determine the IP address of the QRadar console. If QRadar is hosted on a UNIX machine,
 run `ifconfig`. If QRadar is hosted on a Windows machine, run `ipconfig`. This IP address is
-required on the [SIEM Tab](../../admin/configuration/systemalerting/siem.md), where you configure
+required on the [SIEM Tab](/docs/threatprevention/7.5/threatprevention/admin/configuration/systemalerting/siem.md), where you configure
 Threat Prevention to send data to QRadar.
 
 **Step 2 –** Navigate to the Admin tab in the QRadar web interface and click Data Sources.

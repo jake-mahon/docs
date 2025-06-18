@@ -8,7 +8,7 @@ To access this report:
 
 1. Open **Flashlight** > **Tools** > **Standard Field Impact Analysis**
 
-    ![Standard Field Impact Analysis](../../../static/img/product_docs/strongpointnetsuiteflashlight/using_flashlight/standardfieldimpactanalysis.webp)
+    ![Standard Field Impact Analysis](/img/product_docs/strongpointnetsuiteflashlight/using_flashlight/standardfieldimpactanalysis.webp)
 
 2. You can optionally filter on the following fields:
 
@@ -20,4 +20,4 @@ To access this report:
    For example, you can easily understand that a change to a given field in the system has an impact
    on Scripts and Workflows that leverage the field.
 
-    ![Standard Field Impact Analysis Results](../../../static/img/product_docs/strongpointnetsuiteflashlight/using_flashlight/standardfieldimpactanalysisresults_800x261.webp)
+    ![Standard Field Impact Analysis Results](/img/product_docs/strongpointnetsuiteflashlight/using_flashlight/standardfieldimpactanalysisresults_800x261.webp)

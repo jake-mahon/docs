@@ -11,7 +11,7 @@ description: "Learn how to configure advanced audit policies to limit event trac
 
 Configure advanced audit policies to limit the range of events tracked and recorded by the product,
 thus preventing your AuditArchive and the Security event log from overfilling. Perform procedures
-below instead of those discussed in the [Configure Local Audit Policies](localpolicy.md) topic.
+below instead of those discussed in the [Configure Local Audit Policies](/docs/1secure/configuration/computer/localpolicy.md) topic.
 
 ## Enforce Advanced Policies Over Local Policies
 
@@ -27,7 +27,7 @@ Windows Administrative Tools > Local Security Policy.
 **Step 2 –** Navigate to Security Settings > Local Policies > Security Options and locate the Audit:
 Force audit policy subcategory settings policy.
 
-![Local Security Policy snap-in ](../../../../static/img/product_docs/1secure/configuration/computer/manualconfig_fileserver_graudit_secpol2016.webp)
+![Local Security Policy snap-in ](/img/product_docs/1secure/configuration/computer/manualconfig_fileserver_graudit_secpol2016.webp)
 
 **Step 3 –** Double-click the policy and enable it.
 

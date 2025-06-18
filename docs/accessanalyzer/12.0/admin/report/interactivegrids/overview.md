@@ -8,7 +8,7 @@ filter it as required. Interactive grids allow you to perform the following acti
 - Paging
 - Download data to a CSV file
 
-![Interactive Grid actions bar](../../../../../../static/img/product_docs/accessanalyzer/admin/report/interactivegrids/interactivegridoptions.webp)
+![Interactive Grid actions bar](/img/product_docs/accessanalyzer/admin/report/interactivegrids/interactivegridoptions.webp)
 
 The toolbar in an interactive grid can display the following options:
 
@@ -18,11 +18,11 @@ The toolbar in an interactive grid can display the following options:
 - Up arrow and down arrow – Click to expand or collapse the groups
 - Download Data – Click to download all data to a CSV file. This option is displayed when the
   **Export table data as CSV** checkbox has been selected for the report, see the
-  [Grid](../wizard/widgets.md#grid) topic for additional information.
+  [Grid](/docs/accessanalyzer/12.0/admin/report/wizard/widgets.md#grid) topic for additional information.
 
 When enumeration is set on an interactive grid, a second download button is displayed. A CSV file
 can be downloaded that contains only data for the selected enumeration.
 
-![Group by loading data](../../../../../../static/img/product_docs/accessanalyzer/admin/report/interactivegrids/groupbyloadingdata.webp)
+![Group by loading data](/img/product_docs/accessanalyzer/admin/report/interactivegrids/groupbyloadingdata.webp)
 
 When grouping data, interactive grids display the percentage of data that has loaded on the page.

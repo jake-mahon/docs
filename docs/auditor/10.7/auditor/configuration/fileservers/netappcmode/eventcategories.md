@@ -105,14 +105,14 @@ To configure logs retention period
     For the backup logs retention functionality to work properly, you need to specify the
     CleanAutoBackupLogs name for the newly created registry value.
 
-    ![manualconfig_fileserver_netapp_createregistryvalue_2016](../../../../../../../static/img/product_docs/auditor/auditor/configuration/fileservers/netappcmode/manualconfig_fileserver_netapp_createregistryvalue_2016.webp)
+    ![manualconfig_fileserver_netapp_createregistryvalue_2016](/img/product_docs/auditor/auditor/configuration/fileservers/netappcmode/manualconfig_fileserver_netapp_createregistryvalue_2016.webp)
 
 4. Double-click **CleanAutoBackupLogs**. The **Edit DWORD Value** dialog will open.
 5. This value defines the time period (in hours) after which security event logs archives will be
    automatically deleted. By default, it is set to _"0"_ (decimal). Modify this value, if necessary,
    and click **OK** to save the changes.
 
-    ![manualconfig_retentionperiodbackuplog_winserver2016](../../../../../../../static/img/product_docs/auditor/auditor/configuration/fileservers/netappcmode/manualconfig_retentionperiodbackuplog_winserver2016.webp)
+    ![manualconfig_retentionperiodbackuplog_winserver2016](/img/product_docs/auditor/auditor/configuration/fileservers/netappcmode/manualconfig_retentionperiodbackuplog_winserver2016.webp)
 
 6. **NOTE:** If the **CleanAutoBackupLogs** registry value is set to _"0"_, you will have to remove
    the old logs manually, or you may run out of space on your hard drive.

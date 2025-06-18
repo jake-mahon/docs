@@ -13,15 +13,15 @@ The Web Request action module is configured through the Web Request Action Modul
 contains the following wizard pages:
 
 - Welcome
-- [Web Request: Destination](destination.md)
-- [Web Request: Header](header.md)
-- [Web Request: Parameters](parameters.md)
-- [Web Request: Settings](settings.md)
-- [Web Request: Summary](summary.md)
+- [Web Request: Destination](/docs/accessanalyzer/12.0/admin/action/webrequest/destination.md)
+- [Web Request: Header](/docs/accessanalyzer/12.0/admin/action/webrequest/header.md)
+- [Web Request: Parameters](/docs/accessanalyzer/12.0/admin/action/webrequest/parameters.md)
+- [Web Request: Settings](/docs/accessanalyzer/12.0/admin/action/webrequest/settings.md)
+- [Web Request: Summary](/docs/accessanalyzer/12.0/admin/action/webrequest/summary.md)
 
 The Welcome page gives an overview of the action module. The navigation pane contains links to the
 pages in the wizard.
 
-![Web Request Action Module Wizard Welcome page](../../../../../../static/img/product_docs/activitymonitor/activitymonitor/install/welcome.webp)
+![Web Request Action Module Wizard Welcome page](/img/product_docs/activitymonitor/activitymonitor/install/welcome.webp)
 
 To proceed, click **Next** or use the Steps navigation pane to open another page in the wizard.

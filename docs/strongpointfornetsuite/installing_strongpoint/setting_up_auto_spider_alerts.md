@@ -40,7 +40,7 @@ To add the auto spider portlet:
 
 Any objects not captured by the AutoSpider are picked up by the Customizations to ReSpider alert.
 
-![Auto-Spider Portlet](../../../static/img/product_docs/strongpointfornetsuite/installing_strongpoint/auto-spider_portlet.webp)
+![Auto-Spider Portlet](/img/product_docs/strongpointfornetsuite/installing_strongpoint/auto-spider_portlet.webp)
 
 Stay on your **Home** page until you see **Spider Triggered** to ensure the spider starts.
 
@@ -51,4 +51,4 @@ workflows identify when the Customization Records have not been updated. To ensu
 your account are updating, set up the Customizations to ReSpider search to provide alerts to the
 appropriate people in your company.
 
-**Next Step:** [Managing Users](managing_users.md)
+**Next Step:** [Managing Users](/docs/strongpointfornetsuite/installing_strongpoint/managing_users.md)

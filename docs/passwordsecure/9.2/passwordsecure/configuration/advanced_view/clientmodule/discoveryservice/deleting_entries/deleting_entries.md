@@ -17,7 +17,7 @@ Task** will be retained and must be deleted via the associated **Discovery Servi
 find out which **Discovery Service Task** found a particular entry by selecting the entry via the
 **Conversion Wizard**.
 
-![Conversion Wizard.](../../../../../../../../../static/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/clientmodule/discoveryservice/deleting_entries/deleting_entries_1-en.webp)
+![Conversion Wizard.](/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/clientmodule/discoveryservice/deleting_entries/deleting_entries_1-en.webp)
 
 ## Deleting entries by changing the settings in the System Task
 

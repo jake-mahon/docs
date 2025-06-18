@@ -11,7 +11,7 @@ only locked jobs can be run. Therefore, the Job Initiator can only run or schedu
 already been locked.
 
 **NOTE:** Locked jobs do not affect the functionality of the Administrator role. See the
-[Role Definitions](roledefinitions.md) topic for more information.
+[Role Definitions](/docs/accessanalyzer/12.0/admin/settings/access/rolebased/roledefinitions.md) topic for more information.
 
 How can I make sure that a lock on a job will not get tampered with through the associated XML file?
 
@@ -22,8 +22,8 @@ the Job Approver no longer needs access to the Jobs folder and cannot manually r
 the associated XML file.
 
 **NOTE:** If using a Job Initiator’s credentials for a Schedule Service Account, all jobs must be
-locked in order for them to be executed. See the [Role Definitions](roledefinitions.md) and
-[Roles & the Schedule Service Account](scheduleserviceaccount.md) topics for more information.
+locked in order for them to be executed. See the [Role Definitions](/docs/accessanalyzer/12.0/admin/settings/access/rolebased/roledefinitions.md) and
+[Roles & the Schedule Service Account](/docs/accessanalyzer/12.0/admin/settings/access/rolebased/scheduleserviceaccount.md) topics for more information.
 
 Why can the Host Management Administrator not manage settings for the Host Discovery and Host
 Inventory nodes under Settings?
@@ -32,7 +32,7 @@ The Host Management Administrator role is designed specifically to access the Ho
 Therefore, this role does not grant access to the global settings menu under the Settings node.
 
 **NOTE:** In order to access this node, the user must have either the Administrator or the Global
-Options Administrator role. See the [Role Definitions](roledefinitions.md) topic for more
+Options Administrator role. See the [Role Definitions](/docs/accessanalyzer/12.0/admin/settings/access/rolebased/roledefinitions.md) topic for more
 information.
 
 What rights do I need to give the user on the local machine in order to use Access Analyzer?
@@ -44,7 +44,7 @@ This NEAUsers group is given the necessary permissions on the Access Analyzer ap
 When a user is assigned a role, they are added to the NEAUsers group to give them the necessary
 access to Access Analyzer.
 
-See the [Assign User to Role Members](assignroles.md) topic for additional information.
+See the [Assign User to Role Members](/docs/accessanalyzer/12.0/admin/settings/access/rolebased/assignroles.md) topic for additional information.
 
 When a user’s role is changed, when does the new role take affect?
 
@@ -68,8 +68,8 @@ unlocked. This event will be logged as a job-change related event by Administrat
 Analyzer Event Log.
 
 **NOTE:** If using a Job Initiator’s credentials for the Schedule Service Account, all jobs must be
-locked in order for them to execute. See the [Role Definitions](roledefinitions.md),
-[Workflow with Role Based Access Enabled](workflow.md), and [Roles and the Event Log](eventlog.md)
+locked in order for them to execute. See the [Role Definitions](/docs/accessanalyzer/12.0/admin/settings/access/rolebased/roledefinitions.md),
+[Workflow with Role Based Access Enabled](/docs/accessanalyzer/12.0/admin/settings/access/rolebased/workflow.md), and [Roles and the Event Log](/docs/accessanalyzer/12.0/admin/settings/access/rolebased/eventlog.md)
 topics for more information.
 
 What should be the group type when assigning Role Based Access to an AD group in a multi-domain

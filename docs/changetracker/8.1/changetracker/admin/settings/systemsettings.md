@@ -7,9 +7,9 @@ being used.
 After entering SMTP and/or Syslog Host details, test that emails/messages are being sent OK by using
 the **Test** button.
 
-![SystemSettings](../../../../../../static/img/product_docs/changetracker/changetracker/admin/settings/systemsettings.webp)
+![SystemSettings](/img/product_docs/changetracker/changetracker/admin/settings/systemsettings.webp)
 
 Clicking **Advanced Options** presents other System Settings, including a library of NNT_FILEHASH
 binaries to use in conjunction with any Agentless FIM.
 
-![SystemSettingsAdvanced](../../../../../../static/img/product_docs/changetracker/changetracker/admin/settings/systemsettingsadvanced.webp)
+![SystemSettingsAdvanced](/img/product_docs/changetracker/changetracker/admin/settings/systemsettingsadvanced.webp)

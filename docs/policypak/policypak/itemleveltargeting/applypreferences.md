@@ -6,7 +6,7 @@ Group Policy Preferences or Netwrix Endpoint Policy Manager (formerly PolicyPak)
 For example, you may wish to **Prevent access to the command prompt** for all standard users, as in
 the example below, and you want to use Item Level Targeting (ITM) to do it.
 
-![139_1_overall-faq-01-img-01](../../../../static/img/product_docs/policypak/policypak/itemleveltargeting/139_1_overall-faq-01-img-01.webp)
+![139_1_overall-faq-01-img-01](/img/product_docs/policypak/policypak/itemleveltargeting/139_1_overall-faq-01-img-01.webp)
 
 **NOTE:** Item Level Targeting is a Microsoft technology provided as part of the their Group Policy
 Preferences CSE for Group Policy.See
@@ -33,9 +33,9 @@ Here are some facts to help you understand the challenges:
 
 This is the combination that appears to work:
 
-![139_2_overall-faq-01-img-03](../../../../static/img/product_docs/policypak/policypak/itemleveltargeting/139_2_overall-faq-01-img-03.webp)
+![139_2_overall-faq-01-img-03](/img/product_docs/policypak/policypak/itemleveltargeting/139_2_overall-faq-01-img-03.webp)
 
-![139_3_overall-faq-01-img-03](../../../../static/img/product_docs/policypak/policypak/itemleveltargeting/139_2_overall-faq-01-img-03.webp)
+![139_3_overall-faq-01-img-03](/img/product_docs/policypak/policypak/itemleveltargeting/139_2_overall-faq-01-img-03.webp)
 
 There are three important things to note from the examples above.
 
@@ -53,8 +53,8 @@ DC.
 
 This is the sequence after clicking the three dots:
 
-![139_4_overall-faq-01-img-04](../../../../static/img/product_docs/policypak/policypak/itemleveltargeting/139_4_overall-faq-01-img-04.webp)
+![139_4_overall-faq-01-img-04](/img/product_docs/policypak/policypak/itemleveltargeting/139_4_overall-faq-01-img-04.webp)
 
-![139_5_overall-faq-01-img-05](../../../../static/img/product_docs/policypak/policypak/itemleveltargeting/139_5_overall-faq-01-img-05.webp)
+![139_5_overall-faq-01-img-05](/img/product_docs/policypak/policypak/itemleveltargeting/139_5_overall-faq-01-img-05.webp)
 
-![139_6_overall-faq-01-img-06](../../../../static/img/product_docs/policypak/policypak/itemleveltargeting/139_6_overall-faq-01-img-06.webp)
+![139_6_overall-faq-01-img-06](/img/product_docs/policypak/policypak/itemleveltargeting/139_6_overall-faq-01-img-06.webp)

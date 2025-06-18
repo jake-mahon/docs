@@ -44,5 +44,5 @@ ProxyUser, ProxyPassword.
 **NOTE:** These parameters are not case sensitive.
 
 For more information on the **HubDetails.xml** nodes and settings see the
-[First Run – HubDetails.xml File](../../admin/settings/devicegroups.md) topic for additional
+[First Run – HubDetails.xml File](/docs/changetracker/8.1/changetracker/admin/settings/devicegroups.md) topic for additional
 information.

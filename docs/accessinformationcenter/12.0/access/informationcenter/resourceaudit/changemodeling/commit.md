@@ -8,7 +8,7 @@ The following user roles can commit changes:
 
 - Administrators – This role can configure the Access Information Center to commit changes and can
   commit modeled changes. See the
-  [Commit Active Directory Changes](../../admin/additionalconfig/commitchanges.md) topic for
+  [Commit Active Directory Changes](/docs/accessinformationcenter/12.0/access/informationcenter/admin/additionalconfig/commitchanges.md) topic for
   additional information.
 - Security Team Members – This role can commit modeled changes, if the Access Information Center has
   already been configured to do so
@@ -21,7 +21,7 @@ portal.
 Return to the Group Membership Changes window to view the modeled changes by clicking the **Change
 Group Membership** button on the Group Membership pane.
 
-![Group Membership Changes window](../../../../../../../static/img/product_docs/accessinformationcenter/access/informationcenter/resourceaudit/changemodeling/clearcommit.webp)
+![Group Membership Changes window](/img/product_docs/accessinformationcenter/access/informationcenter/resourceaudit/changemodeling/clearcommit.webp)
 
 Additional changes can be modeled using the **Add** and **Remove** buttons.
 
@@ -29,7 +29,7 @@ Manually Commit Changes
 
 You can export the list of modeled changes as either a CSV or Excel file, which can be sent to your
 organization’s IT team. Select between the **CSV Export** and **Excel Export** buttons above the
-table. See the [Data Grid Features](../../../general/datagrid.md) topic for additional information.
+table. See the [Data Grid Features](/docs/accessinformationcenter/12.0/access/general/datagrid.md) topic for additional information.
 
 Access Information Center Automatically Commits Changes
 

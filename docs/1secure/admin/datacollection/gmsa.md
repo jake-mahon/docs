@@ -71,7 +71,7 @@ When creating a new gMSA, you will need to specify:
 1. Your Netwrix Cloud Agent host
 2. If you are going to collect data using the network traffic compression (see the following section
    for more information:
-   [Network Traffic Compression](../../configuration/networktrafficcompression.md)), provide the
+   [Network Traffic Compression](/docs/1secure/configuration/networktrafficcompression.md)), provide the
    following:
 
     - For Logon Activity — domain controllers of the monitored domain
@@ -97,4 +97,4 @@ To create a new gMSA in the root domain using PowerShell:
       ended with $, here __NCASrv$\_\_
 
 To learn about the data collecting account, which collects data from the monitored items, go
-to [Data Collecting Account](datacollectingaccount.md) article.
+to [Data Collecting Account](/docs/1secure/admin/datacollection/datacollectingaccount.md) article.

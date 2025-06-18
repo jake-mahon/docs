@@ -19,7 +19,7 @@ The following servers are required for installation of the product:
 
 See the following sections for additional information:
 
-- [Application Server](applicationserver.md)
-- [Client](client.md)
-- [Remote Service Node](proxyserver.md)
-- [Target Environments](target.md)
+- [Application Server](/docs/privilegesecure/4.2/privilegesecure/accessmanagement/requirements/applicationserver.md)
+- [Client](/docs/privilegesecure/4.2/privilegesecure/accessmanagement/requirements/client.md)
+- [Remote Service Node](/docs/privilegesecure/4.2/privilegesecure/accessmanagement/requirements/proxyserver.md)
+- [Target Environments](/docs/privilegesecure/4.2/privilegesecure/accessmanagement/requirements/target.md)

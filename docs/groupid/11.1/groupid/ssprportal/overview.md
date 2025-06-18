@@ -13,8 +13,8 @@ Using the portal, users can:
 - Unlock their identity store (directory) accounts
 - Link their accounts in different identity stores
 
-See the [Compatibility](../gettingstarted.md#compatibility) and
-[Localization](../gettingstarted.md#localization) topics for information on the devices, browsers,
+See the [Compatibility](/docs/groupid/11.1/groupid/gettingstarted.md#compatibility) and
+[Localization](/docs/groupid/11.1/groupid/gettingstarted.md#localization) topics for information on the devices, browsers,
 and languages that Directory Manager supports.
 
 ## Launch the Portal
@@ -31,10 +31,10 @@ You can either click a function and then sign in to perform that function or fir
 select a function.
 
 - Click a link to perform the specific function. Since you are not signed in, you will be redirected
-  to the GroupID Authenticate page. See the [Log in](../portal/login.md#log-in) topic for signing
+  to the GroupID Authenticate page. See the [Log in](/docs/groupid/11.1/groupid/portal/login.md#log-in) topic for signing
   into the portal. Then you can proceed to perform the specific function. See the
-  [Manage your Identity Store Accounts](functions.md) topic for a discussion of these functions.
+  [Manage your Identity Store Accounts](/docs/groupid/11.1/groupid/ssprportal/functions.md) topic for a discussion of these functions.
 - To sign in before accessing any function, click the Login link in the top right corner. You will
-  be redirected to the GroupID Authenticate page. See the [Log in](../portal/login.md#log-in) topic
+  be redirected to the GroupID Authenticate page. See the [Log in](/docs/groupid/11.1/groupid/portal/login.md#log-in) topic
   for signing into the portal. On signing in, the main portal page is displayed. See the
-  [Navigation](navigation.md) topic for additional information.
+  [Navigation](/docs/groupid/11.1/groupid/ssprportal/navigation.md) topic for additional information.

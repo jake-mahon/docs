@@ -10,11 +10,11 @@ Follow the steps to configure the initial setup for a Unity device with Unispher
 
 Required Unity events needed for CIFS Activity:
 
-![NAM Required Events For CIFS](../../../../../static/img/product_docs/activitymonitor/config/dellunity/eventscifs.webp)
+![NAM Required Events For CIFS](/img/product_docs/activitymonitor/config/dellunity/eventscifs.webp)
 
 Required Unity events needed for NFS Activity:
 
-![NAM Required Events For NFS](../../../../../static/img/product_docs/activitymonitor/config/dellunity/eventsnfs.webp)
+![NAM Required Events For NFS](/img/product_docs/activitymonitor/config/dellunity/eventsnfs.webp)
 
 **Step 2 –** Enable Events Publishing:
 

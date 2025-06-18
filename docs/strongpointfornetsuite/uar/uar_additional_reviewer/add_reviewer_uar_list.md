@@ -6,7 +6,7 @@ controlled with the **Sort By** selection in the Filters section.
 
 Here is an example of the **Global** review list:
 
-![UAR list additional reviewer](../../../../static/img/product_docs/strongpointfornetsuite/uar/uar_additional_reviewer/additional_user_uar_list.webp)
+![UAR list additional reviewer](/img/product_docs/strongpointfornetsuite/uar/uar_additional_reviewer/additional_user_uar_list.webp)
 
 ## Filters
 
@@ -30,8 +30,8 @@ Use **Clear** to reset the Filters.
 ## UAR List
 
 - **Name** is a link. For a **global** review, the link opens the Review list showing all of the
-  associated reviews. For a **single** review the [Membership](add_reviewer_membership_reviews.md)
-  or [Permission ](../uar_owner/owner_permission_reviews.md)**Review** tab is opened. Reviews can
+  associated reviews. For a **single** review the [Membership](/docs/strongpointfornetsuite/uar/uar_additional_reviewer/add_reviewer_membership_reviews.md)
+  or [Permission ](/docs/strongpointfornetsuite/uar/uar_owner/owner_permission_reviews.md)**Review** tab is opened. Reviews can
   also be opened via links in dashboard or email **Notifications**.
 - **Number of Reviews** (global) is the number of single reviews in the global review.
 - **Review Type** is the type of review. Global can be **Both**, **Membership**, or **Permission**.
@@ -61,7 +61,7 @@ Use **Clear** to reset the Filters.
 When you open a global review using the **Name** link in the UAR list, the Review list is displayed,
 showing all of the single reviews associated with the global review.
 
-![Review list of associated single reviews under a global review](../../../../static/img/product_docs/strongpointfornetsuite/uar/uar_owner/review_list.webp)
+![Review list of associated single reviews under a global review](/img/product_docs/strongpointfornetsuite/uar/uar_owner/review_list.webp)
 
 - **Export** exports the list of selected reviews as either a **CSV** or **PDF** file. The exported
   file is named _Reviews_Group_List_.
@@ -69,7 +69,7 @@ showing all of the single reviews associated with the global review.
   details for the reviews.
 - **Extract Permission Detail**creates a CSV file (_Permission_Report.csv_) of the permission
   details for the reviews.
-- **Review Name** is a link to the [Membership](add_reviewer_membership_reviews.md) **Review** tab.
+- **Review Name** is a link to the [Membership](/docs/strongpointfornetsuite/uar/uar_additional_reviewer/add_reviewer_membership_reviews.md) **Review** tab.
   Reviews can also be opened via links in dashboard or email **Notifications**.
 - **Role Name** the role being reviewed.
 - **Review Type** is the type of review: **Membership** or **Permission**. The review type is set
@@ -96,4 +96,4 @@ showing all of the single reviews associated with the global review.
 - **Complete Date** the date the review was completed.
 
 Continue with the procedures to complete your Additional Reviewer
-[Membership](add_reviewer_membership_reviews.md) reviews.
+[Membership](/docs/strongpointfornetsuite/uar/uar_additional_reviewer/add_reviewer_membership_reviews.md) reviews.

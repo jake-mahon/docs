@@ -7,12 +7,12 @@ ILT: The editor and the evaluation within the Client Side Extension.
 The ILT editor in Group Policy Preferences can be seen in every Group Policy Preferences item, like
 what's seen here.
 
-![196_1_img-01](../../../../../../static/img/product_docs/policypak/policypak/troubleshooting/log/itemleveltargeting/196_1_img-01.webp)
+![196_1_img-01](/img/product_docs/policypak/policypak/troubleshooting/log/itemleveltargeting/196_1_img-01.webp)
 
 The ILT editor in Endpoint Policy Manager can be seen in nearly all Endpoint Policy Manager items,
 like what's seen here.
 
-![196_3_img-02](../../../../../../static/img/product_docs/policypak/policypak/troubleshooting/log/itemleveltargeting/196_3_img-02.webp)
+![196_3_img-02](/img/product_docs/policypak/policypak/troubleshooting/log/itemleveltargeting/196_3_img-02.webp)
 
 If you think your Item Level Targeting isn't working, we ask that you first "backtrack" to a quick
 Group Policy Preferences test and try it there first.
@@ -32,7 +32,7 @@ not.
 So, again, use Group Policy Preferences and create a new Group Policy Preferences shortcut to
 www.1.com , on the DESKTOP, with TARGET URL being www.1.com and pick any icon you want.
 
-![196_5_img-03](../../../../../../static/img/product_docs/policypak/policypak/troubleshooting/log/itemleveltargeting/196_5_img-03.webp)
+![196_5_img-03](/img/product_docs/policypak/policypak/troubleshooting/log/itemleveltargeting/196_5_img-03.webp)
 
 ## Part 2:
 
@@ -40,17 +40,17 @@ Use Group Policy Preferences to create a Group Policy Preferences shortcut to ww
 DESKTOP, with TARGET URL being www.2.com and pick any icon you want.. then click in the COMMON tab
 and select Item Level Targeting, and put in your proposed ILT.
 
-![196_7_img-04](../../../../../../static/img/product_docs/policypak/policypak/troubleshooting/log/itemleveltargeting/196_7_img-04.webp)
+![196_7_img-04](/img/product_docs/policypak/policypak/troubleshooting/log/itemleveltargeting/196_7_img-04.webp)
 
-![196_9_img-05](../../../../../../static/img/product_docs/policypak/policypak/troubleshooting/log/itemleveltargeting/196_9_img-05.webp)
+![196_9_img-05](/img/product_docs/policypak/policypak/troubleshooting/log/itemleveltargeting/196_9_img-05.webp)
 
 Before you test, let's make sure we fully understand the experiment…
 
-![196_11_img-06](../../../../../../static/img/product_docs/policypak/policypak/troubleshooting/log/itemleveltargeting/196_11_img-06.webp)
+![196_11_img-06](/img/product_docs/policypak/policypak/troubleshooting/log/itemleveltargeting/196_11_img-06.webp)
 
 Then on the endpoint run GPupdate… Here is the result you should get:
 
-![196_13_img-07](../../../../../../static/img/product_docs/policypak/policypak/troubleshooting/log/itemleveltargeting/196_13_img-07.webp)
+![196_13_img-07](/img/product_docs/policypak/policypak/troubleshooting/log/itemleveltargeting/196_13_img-07.webp)
 
 So:
 
@@ -69,6 +69,6 @@ doesn't work. Then we can attempt to investigate it.
 That being said if you're really sure an ILT evaluation functions correctly in Group Policy
 Preferences (see above) but not in Endpoint Policy Manager … you can continue to troubleshoot by
 turning on ILT logging for Endpoint Policy Manager items using this
-KB:[How do I turn on Item Level Targeting (ILT) logging if asked by Endpoint Policy Manager Tech Support?](../itemleveltargeting.md)
+KB:[How do I turn on Item Level Targeting (ILT) logging if asked by Endpoint Policy Manager Tech Support?](/docs/policypak/policypak/troubleshooting/log/itemleveltargeting.md)
 
 All log files require a support case to analyze.

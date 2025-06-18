@@ -15,7 +15,7 @@ Some examples of use are:
 ## Getting started with Endpoint Policy Manager Network Security Manager
 
 **_RECOMMENDED:_** For an overview of this section, see this video: See
-[Endpoint Policy Manager Network Security Manager - The Basics](../video/networksecurity/basics.md)
+[Endpoint Policy Manager Network Security Manager - The Basics](/docs/policypak/policypak/video/networksecurity/basics.md)
 topic for additional information.
 
 Pick an application you wish to restrict, like a browser (such as Edge, Firefox, PaleMoon, etc) or a
@@ -34,11 +34,11 @@ Security Manager.
 
 Your first stop is to create a **New Global settings policy** like what's seen here.
 
-![nsm01](../../../../static/img/product_docs/policypak/policypak/scriptstriggers/nsm01.webp)
+![nsm01](/img/product_docs/policypak/policypak/scriptstriggers/nsm01.webp)
 
 Once selected you can see your configurable options for the machines.
 
-![nsm02](../../../../static/img/product_docs/policypak/policypak/scriptstriggers/nsm02.webp)
+![nsm02](/img/product_docs/policypak/policypak/scriptstriggers/nsm02.webp)
 
 - Enable Network Security Manager – This is the master ON switch for the feature.
 - Show Management Notifications – You can choose to show if the processes are being managed by
@@ -57,7 +57,7 @@ Microsoft Edge.
 
 Create a New Policy like what's seen here.
 
-![nsm03](../../../../static/img/product_docs/policypak/policypak/scriptstriggers/nsm03.webp)
+![nsm03](/img/product_docs/policypak/policypak/scriptstriggers/nsm03.webp)
 
 Next you'll want to match a specific application. You can do this via Simple or Combo rules. This
 example will use a Simple rule.
@@ -68,24 +68,24 @@ Manager Least Privilege Manager Manual (as they won't be repeated here).
 Specify the location for Microsoft Edge via Path rule which is
 `C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe`
 
-![nsm04](../../../../static/img/product_docs/policypak/policypak/scriptstriggers/nsm04.webp)
+![nsm04](/img/product_docs/policypak/policypak/scriptstriggers/nsm04.webp)
 
 Then in the **Add Connections Conditions** dialog, specify the following values to Allow Any
 activity to www.Netwrix.com by Domain Name.
 
-![nsm05](../../../../static/img/product_docs/policypak/policypak/scriptstriggers/nsm05.webp)
+![nsm05](/img/product_docs/policypak/policypak/scriptstriggers/nsm05.webp)
 
 Then click **Add** and make policy #2 a Block policy which blocks everything else.
 
-![nsm06](../../../../static/img/product_docs/policypak/policypak/scriptstriggers/nsm06.webp)
+![nsm06](/img/product_docs/policypak/policypak/scriptstriggers/nsm06.webp)
 
 Results should look like this.
 
-![nsm07](../../../../static/img/product_docs/policypak/policypak/scriptstriggers/nsm07.webp)
+![nsm07](/img/product_docs/policypak/policypak/scriptstriggers/nsm07.webp)
 
 Click **Next** to continue. Accept the defaults on the final Wizard page and click **Finish**.
 
-![nsm08](../../../../static/img/product_docs/policypak/policypak/scriptstriggers/nsm08.webp)
+![nsm08](/img/product_docs/policypak/policypak/scriptstriggers/nsm08.webp)
 
 ### Testing your Policy Out
 
@@ -95,27 +95,27 @@ reboot the machine to acquire the policies.
 The results will be that when Edge is launched, end users cannot go to any network location, like
 Microsoft.com, but are restricted to the specific network location you specified, www.Netwrix.com.
 
-![nsm09](../../../../static/img/product_docs/policypak/policypak/scriptstriggers/nsm09.webp)
+![nsm09](/img/product_docs/policypak/policypak/scriptstriggers/nsm09.webp)
 
 ## Auditing Events
 
 **_RECOMMENDED:_** See the
-[Endpoint Policy Manager Network Security Manager - Auditing Events](../video/networksecurity/auditingevents.md)
+[Endpoint Policy Manager Network Security Manager - Auditing Events](/docs/policypak/policypak/video/networksecurity/auditingevents.md)
 topic for additional information.
 
 Auditing Events can be useful if you want to determine if your rules are working. Each rule may be
 individually enabled like what's seen here.
 
-![nsm10](../../../../static/img/product_docs/policypak/policypak/scriptstriggers/nsm10.webp)
+![nsm10](/img/product_docs/policypak/policypak/scriptstriggers/nsm10.webp)
 
 In this example I'll have both rules set to Log.
 
-![nsm11](../../../../static/img/product_docs/policypak/policypak/scriptstriggers/nsm11.webp)
+![nsm11](/img/product_docs/policypak/policypak/scriptstriggers/nsm11.webp)
 
 The results can be pretty noisy depending on the application. In this case whenever Edge is run you
 will get a myriad of Blocked events like what's seen here.
 
-![nsm12](../../../../static/img/product_docs/policypak/policypak/scriptstriggers/nsm12.webp)
+![nsm12](/img/product_docs/policypak/policypak/scriptstriggers/nsm12.webp)
 
 You may wish to audit for blocks for a while then change gears to audit only for successes later to
 reduce the amount of noise.
@@ -125,13 +125,13 @@ reduce the amount of noise.
 Because Network Security Manager uses the same basic UI as Endpoint Policy Manager Least Privilege
 Manager, you can learn more about Simple rules here:
 
-- [Elevating Executables](../leastprivilege/elevate/executables.md)
-- [Creating and Using Executable Combo Rules](../leastprivilege/bestpractices/rules/executablecombo.md)
+- [Elevating Executables](/docs/policypak/policypak/leastprivilege/elevate/executables.md)
+- [Creating and Using Executable Combo Rules](/docs/policypak/policypak/leastprivilege/bestpractices/rules/executablecombo.md)
 
 You can learn more about the following additional Endpoint Policy Manager Network Security manager
 topics via our How-To videos:
 
 - Understanding Applications & Ports:
-  [Endpoint Policy Manager Network Security Manager - Applications and Ports](../video/networksecurity/applicationsports.md)
+  [Endpoint Policy Manager Network Security Manager - Applications and Ports](/docs/policypak/policypak/video/networksecurity/applicationsports.md)
 - Deeper Dive into Customizations & Notifications:
-  [Endpoint Policy Manager Network Security Manager - Global settings](../video/networksecurity/globalsettings.md)
+  [Endpoint Policy Manager Network Security Manager - Global settings](/docs/policypak/policypak/video/networksecurity/globalsettings.md)

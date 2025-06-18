@@ -49,9 +49,9 @@ Follow the steps to review a diagram:
 
 The example below applies to Enterprise.
 
-![dashboard](../../../../../../../static/img/product_docs/groupid/groupid/admincenter/general/dashboard.webp)
+![dashboard](/img/product_docs/groupid/groupid/admincenter/general/dashboard.webp)
 
 Each report has a set of filters which help organize audit data in the most convenient way. See the
-[View Reports](../view.md) topic for additional information. You can also create a subscription to
+[View Reports](/docs/auditor/10.7/auditor/admin/reports/view.md) topic for additional information. You can also create a subscription to
 any report you want to receive on a regular basis. See the
-[Subscriptions](../../subscriptions/overview.md) topic for additional information.
+[Subscriptions](/docs/auditor/10.7/auditor/admin/subscriptions/overview.md) topic for additional information.

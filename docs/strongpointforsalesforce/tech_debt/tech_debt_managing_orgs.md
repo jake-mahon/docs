@@ -45,4 +45,4 @@ stage.
 | Benefit                                      | Plan your changes confidently with a firm understanding of what is in use          | Monitor all changes in all orgs for technical and organizational risk    | Simplify and maintain your orgs for future success                                          | Improve time to value with automated tools that assess risk and intelligently distribute work within your team                                          |
 | How Platform Governance for Salesforce Helps | Creates visual, searchable documentation making it easy to understand complex orgs | Instantiates policies to mitigate risky changes before they are deployed | Simplifies clean up with a combination of automated tools, dependency models and usage data | Ensures changes are made properly, safely and efficiently, resulting in up to 80% reduction in enhancement requests that require a CoE or CI/CD process |
 
-**Next Technical Debt Topic:** [Automated Documentation](tech_debt_auto_documentation.md)
+**Next Technical Debt Topic:** [Automated Documentation](/docs/strongpointforsalesforce/tech_debt/tech_debt_auto_documentation.md)

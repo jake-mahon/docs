@@ -15,6 +15,6 @@ The 0.Collection Job Group is comprised of:
   If this key is set to 1 or 2, the DSRM Admin Account can be used to log in to the domain
   controller even if it has not been started in DSRM which can present a potential security
   vulnerability. Additional information on this registry key is available in this
-  [Microsoft Document](<https://docs.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc732714(v=ws.10)?redirectedfrom=MSDN>).
+  [Microsoft Document](https://docs.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc732714(v=ws.10)?redirectedfrom=MSDN).
 - [AD_TimeSync Job](/docs/accessanalyzer/11.6/enterpriseauditor/solutions/activedirectory/domains/collection/ad_timesync.md)
   – Collects TimeSync information from the registry for each domain controller within the domain

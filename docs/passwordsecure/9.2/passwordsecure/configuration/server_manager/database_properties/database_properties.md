@@ -3,15 +3,15 @@
 The properties of a database can be opened by double-clicking on the database. No login to the
 database is required.
 
-![installation_with_parameters_225](../../../../../../../static/img/product_docs/passwordsecure/passwordsecure/configuration/server_manager/database_properties/installation_with_parameters_225.webp)
+![installation_with_parameters_225](/img/product_docs/passwordsecure/passwordsecure/configuration/server_manager/database_properties/installation_with_parameters_225.webp)
 
 #### Properties
 
 The following options can be edited:
 
-- [General settings](../main_menu/general_settings.md)
-- [Syslog](syslog.md)
-- [Database firewall](database_firewall.md)
+- [General settings](/docs/passwordsecure/9.2/passwordsecure/configuration/server_manager/main_menu/general_settings.md)
+- [Syslog](/docs/passwordsecure/9.2/passwordsecure/configuration/server_manager/database_properties/syslog.md)
+- [Database firewall](/docs/passwordsecure/9.2/passwordsecure/configuration/server_manager/database_properties/database_firewall.md)
 
 General Settings
 

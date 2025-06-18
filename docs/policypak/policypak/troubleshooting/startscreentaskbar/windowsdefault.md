@@ -10,7 +10,7 @@ The problem we observe is with the following two Windows Applications:
 
 Your start menu has missing icons of the above programs, as shown in the following screenshot.
 
-![678_1_image-20191219082753-5](../../../../../static/img/product_docs/policypak/policypak/troubleshooting/startscreentaskbar/678_1_image-20191219082753-5.webp)
+![678_1_image-20191219082753-5](/img/product_docs/policypak/policypak/troubleshooting/startscreentaskbar/678_1_image-20191219082753-5.webp)
 
 The icons should come back after you apply the following workaround.
 
@@ -24,4 +24,4 @@ Workaround for many computers using GPPref Item:
 
 - Use Group Policy Preferences Item to remove those folders from the location.
 
-![678_2_image-20191219082753-6](../../../../../static/img/product_docs/policypak/policypak/troubleshooting/startscreentaskbar/678_2_image-20191219082753-6.webp)
+![678_2_image-20191219082753-6](/img/product_docs/policypak/policypak/troubleshooting/startscreentaskbar/678_2_image-20191219082753-6.webp)

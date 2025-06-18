@@ -23,7 +23,7 @@ Example:
 
 The following command restores the tombstone group Event Management, using the credentials set in
 the $Creds environment variable. See the
-[Set the $Credentials Environment Variable](../parameters/setthecredential.md) topic for setting
+[Set the $Credentials Environment Variable](/docs/groupid/11.1/groupid/managementshell/parameters/setthecredential.md) topic for setting
 credentials in an environment variable.
 
 ```

@@ -4,7 +4,7 @@ The EPE Summary and LDAP Summary folders under Investigate in the navigation pan
 reports that allow you to view consolidated recent event activity for EPE or LDAP which spans all
 EPE or LDAP policies. The reports include default grouping(s) that best show the consolidated data.
 
-![EPE Summary and LDAP Summary folders](../../../../../../static/img/product_docs/threatprevention/threatprevention/admin/investigate/summaryfolders.webp)
+![EPE Summary and LDAP Summary folders](/img/product_docs/threatprevention/threatprevention/admin/investigate/summaryfolders.webp)
 
 The investigate summary folders have the following reports:
 
@@ -27,7 +27,7 @@ The investigate summary folders have the following reports:
 
 Click a report to view it.
 
-![Summary Report](../../../../../../static/img/product_docs/threatprevention/threatprevention/admin/investigate/summaryreport.webp)
+![Summary Report](/img/product_docs/threatprevention/threatprevention/admin/investigate/summaryreport.webp)
 
 By default, the data grid is blank. Select **Refresh** to display results on the data grid.
 
@@ -44,7 +44,7 @@ available below the report name:
 
 Parameter Window
 
-![Parameter Window](../../../../../../static/img/product_docs/threatprevention/threatprevention/admin/investigate/parameter.webp)
+![Parameter Window](/img/product_docs/threatprevention/threatprevention/admin/investigate/parameter.webp)
 
 The Parameters window displays the following options. Select the desired options and click **OK** to
 display data in the report accordingly.

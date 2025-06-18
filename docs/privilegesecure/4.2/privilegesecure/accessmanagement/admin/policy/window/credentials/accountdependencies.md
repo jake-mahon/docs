@@ -3,7 +3,7 @@
 The Account Dependencies window shows all of the dependent services and scheduled tasks for the
 selected service account.
 
-![Account Dependencies Window](../../../../../../../../../static/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/window/credentials/accountdependencies.webp)
+![Account Dependencies Window](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/window/credentials/accountdependencies.webp)
 
 The window has the following details displayed at the top:
 
@@ -14,7 +14,7 @@ The window has the following details displayed at the top:
 - Age — Number of days since the last credential rotation or from when the password was first
   created
 - Status — Indicates if the account credentials have been verified by Privilege Secure. See the
-  [Platforms Page](../../page/platforms/overview.md) topic for additional information on configuring
+  [Platforms Page](/docs/privilegesecure/4.2/privilegesecure/accessmanagement/admin/policy/page/platforms/overview.md) topic for additional information on configuring
   a verification schedule.
 
     - Unspecified — Verification check has not run
@@ -56,7 +56,7 @@ The window has the following columns:
 - Last Scan — Date timestamp for the last time the resource was scanned
 - Last Change — Date timestamp for the last time the password was changed
 - Status — Indicates if the account credentials have been verified by Privilege Secure. See the
-  [Platforms Page](../../page/platforms/overview.md) topic for additional information on configuring
+  [Platforms Page](/docs/privilegesecure/4.2/privilegesecure/accessmanagement/admin/policy/page/platforms/overview.md) topic for additional information on configuring
   a verification schedule.
 
     - Unspecified — Verification check has not run

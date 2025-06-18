@@ -5,7 +5,7 @@ a wizard page for the category of:
 
 - PublicFolder search
 
-![EWS Public Folder Data Collector Wizard Search Filter page](../../../../../../static/img/product_docs/accessanalyzer/admin/datacollector/ewsmailbox/searchfilter.webp)
+![EWS Public Folder Data Collector Wizard Search Filter page](/img/product_docs/accessanalyzer/admin/datacollector/ewsmailbox/searchfilter.webp)
 
 Click **Add Filter** to open the Filter Wizard
 
@@ -13,8 +13,8 @@ Click **Add Filter** to open the Filter Wizard
 
 The Filter Wizard manages properties of the search filter. The Filter Wizard pages are:
 
-- [EWSPublicFolder FW: Search Filter](filterwizard/searchfilter.md)
-- [EWSPublicFolder FW: Folder Conditions](filterwizard/folderconditions.md)
-- [EWSPublicFolder FW: Message Conditions](filterwizard/messageconditions.md)
-- [EWSPublicFolder FW: BodyOptions](filterwizard/bodyoptions.md)
-- [EWSPublicFolder FW: Save Filter](filterwizard/savefilter.md)
+- [EWSPublicFolder FW: Search Filter](/docs/accessanalyzer/12.0/admin/datacollector/ewspublicfolder/filterwizard/searchfilter.md)
+- [EWSPublicFolder FW: Folder Conditions](/docs/accessanalyzer/12.0/admin/datacollector/ewspublicfolder/filterwizard/folderconditions.md)
+- [EWSPublicFolder FW: Message Conditions](/docs/accessanalyzer/12.0/admin/datacollector/ewspublicfolder/filterwizard/messageconditions.md)
+- [EWSPublicFolder FW: BodyOptions](/docs/accessanalyzer/12.0/admin/datacollector/ewspublicfolder/filterwizard/bodyoptions.md)
+- [EWSPublicFolder FW: Save Filter](/docs/accessanalyzer/12.0/admin/datacollector/ewspublicfolder/filterwizard/savefilter.md)

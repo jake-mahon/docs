@@ -36,7 +36,7 @@ Example 1:
 
 The following command adds the user Brian Regan to the membership of the Event Management group
 using the credentials set in the $Credentials environment variable. See the
-[Set the $Credentials Environment Variable](../parameters/setthecredential.md) topic for setting
+[Set the $Credentials Environment Variable](/docs/groupid/11.1/groupid/managementshell/parameters/setthecredential.md) topic for setting
 credentials in an environment variable.
 
 ```
@@ -47,7 +47,7 @@ Example 2:
 
 The following command gets all users from the Local Recruiting container and adds them to the
 membership of the Event Management group. For detailed information about the Get-Object commandlet,
-see [Get-Object](getobject.md). The OUT-NULL commandlet is used here to restrict the retrieved users
+see [Get-Object](/docs/groupid/11.1/groupid/managementshell/membership/getobject.md). The OUT-NULL commandlet is used here to restrict the retrieved users
 information from appearing on the console.
 
 ```

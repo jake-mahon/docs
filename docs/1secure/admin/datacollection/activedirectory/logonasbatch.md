@@ -27,7 +27,7 @@ Administrative Tools (Windows 2012) and select Local Security Policy.
 **Step 2 –** Navigate to **Security Settings → Local Policies → User Rights Assignment** and locate
 the **Log on as a batch job** policy.
 
-![manualconfig_ws_logonasbatch](../../../../../static/img/product_docs/1secure/admin/datacollection/activedirectory/manualconfig_ws_logonasbatch.webp)
+![manualconfig_ws_logonasbatch](/img/product_docs/1secure/admin/datacollection/activedirectory/manualconfig_ws_logonasbatch.webp)
 
 **Step 3 –** Double-click the **Log on as a batch job** policy, and click **Add User or Group**.
 Specify the account that you want to define this policy for.

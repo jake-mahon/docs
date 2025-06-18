@@ -28,11 +28,11 @@ They allow for common actions associated with change requests including:
 The **Advanced Change Management** Module provides additional functionality:
 
 - Automatically define the change level required for compliance based on the appropriate
-  [Change and Approval Policy](change_and_approval_policy.md).
+  [Change and Approval Policy](/docs/strongpointforsalesforce/change_management/change_and_approval_policy.md).
 - Identify impacts on other customizations.
 - Attach and manage test scripts.
 - Manage and record Pre and Post-Deployment
-  [Environment Comparisons](../tools/environment_comparison.md).
+  [Environment Comparisons](/docs/strongpointforsalesforce/tools/environment_comparison.md).
 - Archive fields.
 - Delete customizations.
 

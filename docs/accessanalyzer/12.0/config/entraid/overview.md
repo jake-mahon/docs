@@ -10,7 +10,7 @@ in order for Access Analyzer to scan the environment. This generates the Client 
 (App Key) needed for the Connection Profile credentials and the Custom Attributes Import Wizard
 page.
 
-See the [Microsoft Entra ID Auditing Configuration](access.md) topic for additional information.
+See the [Microsoft Entra ID Auditing Configuration](/docs/accessanalyzer/12.0/config/entraid/access.md) topic for additional information.
 
 ## Entra Roles Permissions
 
@@ -19,7 +19,7 @@ are required to be assigned to the registered application. This includes creatin
 the required resource manager permissions.
 
 See the
-[Microsoft Entra Roles Auditing Configuration](../../requirements/solutions/entraid/entraroles.md)
+[Microsoft Entra Roles Auditing Configuration](/docs/accessanalyzer/12.0/requirements/solutions/entraid/entraroles.md)
 topic for additional information.
 
 ## Auditing Port Requirements

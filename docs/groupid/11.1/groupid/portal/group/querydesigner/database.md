@@ -13,7 +13,7 @@ The supported external data providers are:
 - SCIM
 
 Before using any of the above external data providers, a data source for the provider must be
-defined in Admin Center. See the [Create a Data Source](../../../admincenter/datasource/create.md)
+defined in Admin Center. See the [Create a Data Source](/docs/groupid/11.1/groupid/admincenter/datasource/create.md)
 topic.
 
 A connection is configured in a data source, Directory Manager portal connects to the external

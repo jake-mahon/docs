@@ -6,7 +6,7 @@ Directory Manager Management Shell prompts for the identity of the unmanaged gro
 convert into a Smart Group. After executing, the commandlet displays the status that update is
 successful as shown in the following snapshot:
 
-![managementshell](../../../../../../static/img/product_docs/groupid/groupid/managementshell/group/managementshell.webp)
+![managementshell](/img/product_docs/groupid/groupid/managementshell/group/managementshell.webp)
 
 The converted Smart Group will not have an LDAP query attached to it. You have to define it
 manually.

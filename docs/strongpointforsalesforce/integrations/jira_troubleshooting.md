@@ -11,7 +11,7 @@ _>_ **Jira Configuration** _>_ **Credentials**
 
 Solution:
 
-Refer to [Credentials](../installing_strongpoint/config_and_stats.md#credentials) for more
+Refer to [Credentials](/docs/strongpointforsalesforce/installing_strongpoint/config_and_stats.md#credentials) for more
 information on entering your credentials.
 
 ## Error with Mapping Jira Statuses
@@ -23,7 +23,7 @@ _>_ **Jira Configuration** _->_ **Status Mapping**
 
 Solution:
 
-Refer to [Status Mapping](../installing_strongpoint/config_and_stats.md#status-mapping) for more
+Refer to [Status Mapping](/docs/strongpointforsalesforce/installing_strongpoint/config_and_stats.md#status-mapping) for more
 information on mapping your statuses.
 
 ## Error with Salesforce Credentials
@@ -58,7 +58,7 @@ Please verify the Consumers Secret from the Connected App.
 
 Solution:
 
-Refer to [Credentials](../installing_strongpoint/config_and_stats.md#credentials) for more
+Refer to [Credentials](/docs/strongpointforsalesforce/installing_strongpoint/config_and_stats.md#credentials) for more
 information on entering your credentials
 
 ## URL Errors

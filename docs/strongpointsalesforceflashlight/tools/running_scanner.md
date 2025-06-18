@@ -15,7 +15,7 @@ To run the scanner:
 2. Optional: You can enter all of part of a **Type** in **Search Types** to filter the list.
 3. You can select several types to scan or you can scan the whole environment by clicking the **+**
    by **Name** to select all the types.
-   ![scanner](../../../static/img/product_docs/strongpointforsalesforce/installing_strongpoint/scanner.webp)4.
+   ![scanner](/img/product_docs/strongpointforsalesforce/installing_strongpoint/scanner.webp)4.
    Click **Run Scanner**.
 4. The batch runs in the background. You receive an email notification when the scan is complete.
 5. You can open **Flashlight** > **Support** > **Status Report** to view the **Flashlight
@@ -24,6 +24,6 @@ To run the scanner:
 If you are missing objects, you can run a scan on a **Customization** from the open record by
 clicking **Rescan**.
 
-![rescan_example_800x289](../../../static/img/product_docs/strongpointsalesforceflashlight/tools/rescan_example_800x289.webp)
+![rescan_example_800x289](/img/product_docs/strongpointsalesforceflashlight/tools/rescan_example_800x289.webp)
 
-**Next Step:**[Validating the Data ](validating_data.md)
+**Next Step:**[Validating the Data ](/docs/strongpointsalesforceflashlight/tools/validating_data.md)

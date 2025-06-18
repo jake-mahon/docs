@@ -36,7 +36,7 @@ Consider the following:
   and cannot be changed or removed later.
 
 A group naming policy defined in Microsoft Entra Admin Center has no impact in Directory Manager.
-For details, see the [Group Naming Policy](../../advsentraid.md#group-naming-policy) topic.
+For details, see the [Group Naming Policy](/docs/groupid/11.1/groupid/admincenter/identitystore/advsentraid.md#group-naming-policy) topic.
 
 What do you want to do?
 
@@ -86,5 +86,5 @@ Delete a Prefix
 
 **See Also**
 
-- [Security Roles](../../../securityrole/overview.md)
-- [Security Role Policies](../../../securityrole/policy/overview.md)
+- [Security Roles](/docs/groupid/11.1/groupid/admincenter/securityrole/overview.md)
+- [Security Role Policies](/docs/groupid/11.1/groupid/admincenter/securityrole/policy/overview.md)

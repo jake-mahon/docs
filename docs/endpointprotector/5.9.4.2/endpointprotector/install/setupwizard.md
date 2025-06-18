@@ -11,21 +11,21 @@ Follow the steps to conﬁgure the Endpoint Protector Appliance for the ﬁrst t
 
 **Step 1 –** Select **Continue** when ﬁnished reading the End User License Agreement.
 
-![End User License Agreement](../../../../../static/img/versioned_docs/threatprevention_7.4/threatprevention/install/licenseagreement.webp)
+![End User License Agreement](/img/versioned_docs/threatprevention_7.4/threatprevention/install/licenseagreement.webp)
 
 **Step 2 –** Select **Accept**.
 
-![Accepting the term of the license](../../../../../static/img/product_docs/endpointprotector/endpointprotector/install/acceptagreement.webp)
+![Accepting the term of the license](/img/product_docs/endpointprotector/endpointprotector/install/acceptagreement.webp)
 
 **Step 3 –** Select **Networking**.
 
-![Selecting Networking](../../../../../static/img/product_docs/endpointprotector/endpointprotector/install/networking.webp)
+![Selecting Networking](/img/product_docs/endpointprotector/endpointprotector/install/networking.webp)
 
 **Step 4 –** The conﬁguration methods are now available.
 
 **CAUTION:** We recommend a manual conﬁguration of the network settings.
 
-![Automatic Network configuration for Endpoint Protector Appliance](../../../../../static/img/product_docs/endpointprotector/endpointprotector/install/autonetworkconfig.webp)
+![Automatic Network configuration for Endpoint Protector Appliance](/img/product_docs/endpointprotector/endpointprotector/install/autonetworkconfig.webp)
 
 ## Manual Conﬁguration
 
@@ -34,26 +34,26 @@ the appliance is correctly set up and accessible.
 
 **Step 1 –** Select **Conﬁgure Network manually** (recommended).
 
-![Manual Network configuration for Endpoint Protector Appliance](../../../../../static/img/product_docs/endpointprotector/endpointprotector/install/manualnetworkconfig.webp)
+![Manual Network configuration for Endpoint Protector Appliance](/img/product_docs/endpointprotector/endpointprotector/install/manualnetworkconfig.webp)
 
 **Step 2 –** Set the IP Address, and Default Gateway (in our example we set the IP Address as
 192.168.7.94 and the Default Gateway as 192.168.7.1).
 
-![Setting IP and default GateAway](../../../../../static/img/product_docs/endpointprotector/endpointprotector/install/setip.webp)
+![Setting IP and default GateAway](/img/product_docs/endpointprotector/endpointprotector/install/setip.webp)
 
 **Step 3 –** Press **Tab**.
 
-![Select tab to move to the apply button](../../../../../static/img/product_docs/endpointprotector/endpointprotector/install/netmask.webp)
+![Select tab to move to the apply button](/img/product_docs/endpointprotector/endpointprotector/install/netmask.webp)
 
 **Step 4 –** Select **Apply**. The virtual appliance is now accessible from the conﬁgured IP
 Address. (e.g., https:// 192.168.7.94).
 
-![Virtual appliance is now accessible from the conﬁgured IP Address](../../../../../static/img/product_docs/endpointprotector/endpointprotector/install/dhcpmethod.webp)
+![Virtual appliance is now accessible from the conﬁgured IP Address](/img/product_docs/endpointprotector/endpointprotector/install/dhcpmethod.webp)
 
 ## Automatic Conﬁguration
 
 Select **conﬁgure network automatically**, and click **Enter**.
 
-![ IP Address and Default Gateway conﬁgured automatically](../../../../../static/img/product_docs/endpointprotector/endpointprotector/install/staticipmethod.webp)
+![ IP Address and Default Gateway conﬁgured automatically](/img/product_docs/endpointprotector/endpointprotector/install/staticipmethod.webp)
 
 The IP Address and Default Gateway will be conﬁgured automatically.

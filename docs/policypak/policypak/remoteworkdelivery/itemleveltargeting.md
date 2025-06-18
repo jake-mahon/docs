@@ -8,12 +8,12 @@ collections. A collection enables you to group together Endpoint Policy Manager 
 Manager policies so they can act together. For instance, you might create a collection for only East
 Sales computers and another for West Sales computers.
 
-![using_item_level_targeting](../../../../static/img/product_docs/policypak/policypak/remoteworkdelivery/using_item_level_targeting.webp)
+![using_item_level_targeting](/img/product_docs/policypak/policypak/remoteworkdelivery/using_item_level_targeting.webp)
 
 You can also right-click any Endpoint Policy Manager Remote Work Delivery Manager policy, and select
 **Edit Item Level Targeting**.
 
-![using_item_level_targeting_1](../../../../static/img/product_docs/policypak/policypak/remoteworkdelivery/using_item_level_targeting_1.webp)
+![using_item_level_targeting_1](/img/product_docs/policypak/policypak/remoteworkdelivery/using_item_level_targeting_1.webp)
 
 You can also select Item-Level Targeting when a policy is created using the wizard.
 
@@ -28,7 +28,7 @@ it allows you to group together targeting items. In this way, a fairly complex d
 created for the computers the policy applies to. Collections may be set to And or Or, as well as Is
 or Is Not.
 
-![using_item_level_targeting_2](../../../../static/img/product_docs/policypak/policypak/remoteworkdelivery/using_item_level_targeting_2.webp)
+![using_item_level_targeting_2](/img/product_docs/policypak/policypak/remoteworkdelivery/using_item_level_targeting_2.webp)
 
 Here are some real-world examples of Item-Level Targeting used with Endpoint Policy Manager Remote
 Work Delivery Manager:
@@ -52,7 +52,7 @@ Work Delivery Manager:
 After editing is completed, close the editor. Note that the policy or collection's icon has changed
 to orange, which shows that it now has Item-Level Targeting.
 
-![using_item_level_targeting_3](../../../../static/img/product_docs/policypak/policypak/remoteworkdelivery/using_item_level_targeting_3.webp)
+![using_item_level_targeting_3](/img/product_docs/policypak/policypak/remoteworkdelivery/using_item_level_targeting_3.webp)
 
 **NOTE:** When Item-Level Targeting is on, the policy won't apply unless the conditions are True. If
 Item-Level Targeting is applied to a collection, then none of the items in the collection will apply

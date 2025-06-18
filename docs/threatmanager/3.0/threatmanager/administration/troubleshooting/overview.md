@@ -3,5 +3,5 @@
 In case you are experiencing issues with the Netwrix Threat Manager, see the following topics for
 additional information:
 
-- [Log Files](log.md)
-- [Updating Passwords](updatepasswords.md)
+- [Log Files](/docs/threatmanager/3.0/threatmanager/administration/troubleshooting/log.md)
+- [Updating Passwords](/docs/threatmanager/3.0/threatmanager/administration/troubleshooting/updatepasswords.md)

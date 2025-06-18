@@ -215,10 +215,10 @@ specific reports at:
 - Job level – **[Job]** > **Properties** >**Report Roles** tab
 - Report Configuration level – **[Job]** > **Configure** > **Reports** node. Click **Configure**
   next to the report, and navigate to the Publish Security page of the Report Configuration wizard.
-  See the [Publish Security Page](../../../report/wizard/publishsecurity.md) topic for additional
+  See the [Publish Security Page](/docs/accessanalyzer/12.0/admin/report/wizard/publishsecurity.md) topic for additional
   information.
 
-| ![Job Group Level](../../../../../../../static/img/product_docs/accessanalyzer/admin/settings/access/rolebased/reportviewerreport.webp) |
+| ![Job Group Level](/img/product_docs/accessanalyzer/admin/settings/access/rolebased/reportviewerreport.webp) |
 | ----------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Job Group Level                                                                                                                                             | Job Level                                                                                                                                        | Report Configuration Level                                                                                                                                           |
 

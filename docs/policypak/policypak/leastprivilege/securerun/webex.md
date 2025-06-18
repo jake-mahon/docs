@@ -3,7 +3,7 @@
 You need to create a new Least Privilege Manager policy on either the Computer or User side, and
 then create the following Elevate and Allow policies. The steps below show you how to do this.
 
-![575_1_image-20200826125733-1](../../../../../static/img/product_docs/policypak/policypak/leastprivilege/securerun/575_1_image-20200826125733-1.webp)
+![575_1_image-20200826125733-1](/img/product_docs/policypak/policypak/leastprivilege/securerun/575_1_image-20200826125733-1.webp)
 
 **Step 1 –** Executable policy for `Webex.exe` Elevated by **Signature** and **File Info**.
 
@@ -41,9 +41,9 @@ Manager (formerly PolicyPak) Event log to see if `WebEx.exe` is being blocked by
 Publisher being unknown. If it is, you can edit the policy item for` WebEx.exe` and uncheck the
 signature requirement to work around this issue.
 
-![575_3_image-20200826125733-2](../../../../../static/img/product_docs/policypak/policypak/leastprivilege/securerun/575_3_image-20200826125733-2.webp)
+![575_3_image-20200826125733-2](/img/product_docs/policypak/policypak/leastprivilege/securerun/575_3_image-20200826125733-2.webp)
 
-![575_5_image-20200826125733-3](../../../../../static/img/product_docs/policypak/policypak/leastprivilege/securerun/575_5_image-20200826125733-3.webp)
+![575_5_image-20200826125733-3](/img/product_docs/policypak/policypak/leastprivilege/securerun/575_5_image-20200826125733-3.webp)
 
 ### Method 2:
 
@@ -53,20 +53,20 @@ Export the intermediate certificate from the `Webex.exe` file.
 
 **Step 2 –** Select the Digital Signature tab and click **Details**.
 
-![575_7_01_321x213](../../../../../static/img/product_docs/policypak/policypak/leastprivilege/securerun/575_7_01_321x213.webp)
+![575_7_01_321x213](/img/product_docs/policypak/policypak/leastprivilege/securerun/575_7_01_321x213.webp)
 
 **Step 3 –** Click **View Certificate**.
 
-![575_8_02_323x239](../../../../../static/img/product_docs/policypak/policypak/leastprivilege/securerun/575_8_02_323x239.webp)
+![575_8_02_323x239](/img/product_docs/policypak/policypak/leastprivilege/securerun/575_8_02_323x239.webp)
 
 **Step 4 –** Click the **Certification Path** tab and select the second certificate from the chain.
 Click **View Certificate**.
 
-![575_9_03_319x130](../../../../../static/img/product_docs/policypak/policypak/leastprivilege/securerun/575_9_03_319x130.webp)
+![575_9_03_319x130](/img/product_docs/policypak/policypak/leastprivilege/securerun/575_9_03_319x130.webp)
 
 **Step 5 –** Click on the **Details** tab and select **Copy to File**.
 
-![575_10_04_243x307](../../../../../static/img/product_docs/policypak/policypak/leastprivilege/securerun/575_10_04_243x307.webp)
+![575_10_04_243x307](/img/product_docs/policypak/policypak/leastprivilege/securerun/575_10_04_243x307.webp)
 
 **Step 6 –** Click **Next** on the Export Certificate Wizard and select DER encoded binary X.509
 (.CER) format.
@@ -76,7 +76,7 @@ steps.
 
 **NOTE:** You can also use Endpoint Policy Manager Remote Work Delivery Manager to deliver the
 certificate file at the desired location of the remote computer. For more information on this issue,
-please see  Remote Work Delivery Manager > [Knowledge Base](../../feature/overview/knowledgebase.md)
+please see  Remote Work Delivery Manager > [Knowledge Base](/docs/policypak/policypak/feature/overview/knowledgebase.md)
 
 Use Endpoint Policy Manager Scripts Manager to deliver the Certificate in Intermediate Certification
 Authorities for a Computer.
@@ -96,4 +96,4 @@ LocalMachine$certificateStore.Open('ReadWrite')$certificateStore.Add($pathInterm
 **Step 2 –** Wait for the policy refresh and you should see the certificate in the Intermediate
 Certification Authorities folder
 
-![575_11_05_549x169](../../../../../static/img/product_docs/policypak/policypak/leastprivilege/securerun/575_11_05_549x169.webp)
+![575_11_05_549x169](/img/product_docs/policypak/policypak/leastprivilege/securerun/575_11_05_549x169.webp)

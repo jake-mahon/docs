@@ -3,7 +3,7 @@
 Permissions required for Access Analyzer to execute Access Auditing (SPAA) and/or Sensitive Data
 Discovery Auditing scans on a Windows file server are dependent upon the Scan Mode Option selected.
 See the
-[File System Supported Platforms](../../requirements/target/filesystems.md) topic
+[File System Supported Platforms](/docs/accessanalyzer/12.0/requirements/target/filesystems.md) topic
 for additional information.
 
 However, additional considerations are needed when targeting a Windows File System Clusters or DFS
@@ -21,15 +21,15 @@ Configure credentials on all cluster nodes according to the Windows Operating Sy
 permissions for the desired scan mode with these additional considerations:
 
 - For
-  [Applet Mode](../../requirements/solutions/filesystem/scanoptions.md#applet-mode)
+  [Applet Mode](/docs/accessanalyzer/12.0/requirements/solutions/filesystem/scanoptions.md#applet-mode)
   and
-  [Proxy Mode with Applet](../../requirements/solutions/filesystem/scanoptions.md#proxy-mode-with-applet):
+  [Proxy Mode with Applet](/docs/accessanalyzer/12.0/requirements/solutions/filesystem/scanoptions.md#proxy-mode-with-applet):
 
     - Applet will be deployed to each node
     - Credential used in the Connection Profile must have rights to deploy the applet to each node
 
 - For
-  [Proxy Mode as a Service](../../requirements/solutions/filesystem/scanoptions.md#proxy-mode-as-a-service):
+  [Proxy Mode as a Service](/docs/accessanalyzer/12.0/requirements/solutions/filesystem/scanoptions.md#proxy-mode-as-a-service):
 
     - Proxy Service must be installed on each node
     - For Sensitive Data Discovery Auditing scans, the Sensitive Data Discovery Add-on must be
@@ -53,7 +53,7 @@ host entries must have the name of the cluster in the `WinCluster` column in the
 data. This may need to be updated manually.
 
 See the View/Edit section of the
-[Host Management Activities](../../admin/hostmanagement/actions/overview.md) topic
+[Host Management Activities](/docs/accessanalyzer/12.0/admin/hostmanagement/actions/overview.md) topic
 for additional information on host inventory.
 
 - For FSAA and SDD scans, configure a custom host list to target the cluster's Role Server.
@@ -82,7 +82,7 @@ Activity Auditing Scans
 The Netwrix Activity Monitor must deploy an Activity Agent on all nodes that comprise the Windows
 File System Cluster. The Activity Agent generates activity log files stored on each node. Access
 Analyzer targets the Windows File Server Cluster (name of the cluster) of interest in order to read
-the activity. See the [Windows File Server Activity Auditing Configuration](activity.md) topic for
+the activity. See the [Windows File Server Activity Auditing Configuration](/docs/accessanalyzer/12.0/config/windowsfile/activity.md) topic for
 additional information.
 
 The credential used Access Analyzer to read the activity log files must have:
@@ -90,9 +90,9 @@ The credential used Access Analyzer to read the activity log files must have:
 - Membership in the local Administrators group
 
 The FileSystemAccess Data Collector needs to be specially configured to run the
-[1-FSAC System Scans Job](../../solutions/filesystem/collection/1-fsac_system_scans.md)
+[1-FSAC System Scans Job](/docs/accessanalyzer/12.0/solutions/filesystem/collection/1-fsac_system_scans.md)
 against a Windows File System Cluster. On the
-[FSAA: Activity Settings](../../admin/datacollector/fsaa/activitysettings.md),
+[FSAA: Activity Settings](/docs/accessanalyzer/12.0/admin/datacollector/fsaa/activitysettings.md),
 configure the Host Mapping option. This provides a method for mapping between the target host and
 the hosts where activity logs reside. However, this feature requires **advanced SQL scripting
 knowledge** to build the query.
@@ -128,4 +128,4 @@ DFS and Activity Auditing Consideration
 
 For activity monitoring, the Netwrix Activity Monitor must have a deployed Activity Agent on all DFS
 servers identified by the 0-FSDFS System Scans Job and populated into the dynamic host list. See the
-[Windows File Server Activity Auditing Configuration](activity.md) topic for additional information.
+[Windows File Server Activity Auditing Configuration](/docs/accessanalyzer/12.0/config/windowsfile/activity.md) topic for additional information.

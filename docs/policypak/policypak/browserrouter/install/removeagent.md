@@ -5,7 +5,7 @@ environment and your environment does not have any Endpoint Policy Manager Brows
 policies enabled, you may still notice that you see the PPBR Agent as an available option under
 **Settings** > **Default Apps** > **Web Browser**.
 
-![483_1_image-20190911221425-1](../../../../../static/img/product_docs/policypak/policypak/browserrouter/install/483_1_image-20190911221425-1.webp)
+![483_1_image-20190911221425-1](/img/product_docs/policypak/policypak/browserrouter/install/483_1_image-20190911221425-1.webp)
 
 If you would like to remove the PPBR agent from this list please see the steps under the two
 scenarios below, and follow the steps in the scenario relevant to your environment.
@@ -16,21 +16,21 @@ You can remove the PPBR Agent from this list by unlicensing the Endpoint Policy 
 Router component and removing the PPBR Agent entry from the list of default Web Browsers utilizing
 the steps below.
 
-![483_2_image-20190911221425-2](../../../../../static/img/product_docs/policypak/policypak/browserrouter/install/483_2_image-20190911221425-2.webp)
+![483_2_image-20190911221425-2](/img/product_docs/policypak/policypak/browserrouter/install/483_2_image-20190911221425-2.webp)
 
 **Step 1 –** Add a new policy under **PolicyPak** > **Administrative Templates Manager**:
 
-![483_3_image-20190911221425-3_950x559](../../../../../static/img/product_docs/policypak/policypak/browserrouter/install/483_3_image-20190911221425-3_950x559.webp)
+![483_3_image-20190911221425-3_950x559](/img/product_docs/policypak/policypak/browserrouter/install/483_3_image-20190911221425-3_950x559.webp)
 
 **Step 2 –** Under **New Admin Templates Entry** select **Administrative Templates** > **Admin
 Templates (ADMX files)** > **PolicyPak** > **Browser Router** > Prevent PPBR component from being
 licensed then click **Add** to create the policy.
 
-![483_4_image-20190911221425-4_950x354](../../../../../static/img/product_docs/policypak/policypak/browserrouter/install/483_4_image-20190911221425-4_950x354.webp)
+![483_4_image-20190911221425-4_950x354](/img/product_docs/policypak/policypak/browserrouter/install/483_4_image-20190911221425-4_950x354.webp)
 
 **Step 3 –** Next set the policy as enabled, and click **OK**.
 
-![483_5_image-20190911221425-5_950x150](../../../../../static/img/product_docs/policypak/policypak/browserrouter/install/483_5_image-20190911221425-5_950x150.webp)
+![483_5_image-20190911221425-5_950x150](/img/product_docs/policypak/policypak/browserrouter/install/483_5_image-20190911221425-5_950x150.webp)
 
 **Step 4 –** Next, create a new policy item under **Group Policy Preferences** > **Windows
 Settings** > **Registry** that will delete the following registry key.
@@ -48,25 +48,25 @@ level as needed (i.e. wherever your affected computers or users happen to live).
 
 **Step 7 –** Once GPUPDATE is successful, log off of the computer and then log back in.
 
-![483_6_image-20190911221425-6](../../../../../static/img/product_docs/policypak/policypak/browserrouter/install/483_6_image-20190911221425-6.webp)
+![483_6_image-20190911221425-6](/img/product_docs/policypak/policypak/browserrouter/install/483_6_image-20190911221425-6.webp)
 
 **Step 8 –** Now check under **Settings** > **Default Apps** > **Web Browser** and the option to
 select the PPBR Agent should no longer be present.
 
 ## SCENARIO 2: You HAVE used Endpoint Policy Manager Browser Router in Legacy Browser Mode (either currently or sometime in the past) but no longer wish to, AND currently have no PPBR policies enabled in your environment:
 
-![483_7_image-20210105155954-1](../../../../../static/img/product_docs/policypak/policypak/browserrouter/install/483_7_image-20210105155954-1.webp)
+![483_7_image-20210105155954-1](/img/product_docs/policypak/policypak/browserrouter/install/483_7_image-20210105155954-1.webp)
 
 **Step 1 –** Follow steps 1-4 above from Scenario 1 then continue with the steps below.
 
-![483_8_image-20190911221425-7_950x315](../../../../../static/img/product_docs/policypak/policypak/browserrouter/install/483_8_image-20190911221425-7_950x315.webp)
+![483_8_image-20190911221425-7_950x315](/img/product_docs/policypak/policypak/browserrouter/install/483_8_image-20190911221425-7_950x315.webp)
 
 **Step 2 –** Add a new GPPrefs Policy item to one of your existing GPOs above, or create a new GPO
 using **Group Policy** > **Policy Preferences** > **Windows Settings** to delete the following file:
 
 `C:\ProgramData\PolicyPak\Common\ppFileAssociations.xml`
 
-![483_9_image-20190911221425-8](../../../../../static/img/product_docs/policypak/policypak/browserrouter/install/483_9_image-20190911221425-8.webp)
+![483_9_image-20190911221425-8](/img/product_docs/policypak/policypak/browserrouter/install/483_9_image-20190911221425-8.webp)
 
 **Step 3 –** Set the GPO (or GPOs) containing these three policy items to apply to the OU or Domain
 level as needed (i.e. wherever your affected computers or users happen to live).
@@ -79,7 +79,7 @@ under **Settings** > **Default Apps** > **Default Apps** > **Web Browser**, open
 
 **Step 5 –** Once `GPUDATE` is successful, log off of the computer and then log back in.
 
-![483_10_image-20190911221425-9](../../../../../static/img/product_docs/policypak/policypak/browserrouter/install/483_6_image-20190911221425-6.webp)
+![483_10_image-20190911221425-9](/img/product_docs/policypak/policypak/browserrouter/install/483_6_image-20190911221425-6.webp)
 
 **Step 6 –** Now check under **Settings** > **Default Apps** > **Web Browser** and the option to
 select the PPBR Agent should no longer be present.

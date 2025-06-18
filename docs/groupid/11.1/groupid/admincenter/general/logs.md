@@ -41,5 +41,5 @@ What do you want to do?
 
 **See Also**
 
-- [Event Logging](../identitystore/history/eventlogging.md)
-- For a Portal - [Manage Log Settings](../portal/server/log.md)
+- [Event Logging](/docs/groupid/11.1/groupid/admincenter/identitystore/history/eventlogging.md)
+- For a Portal - [Manage Log Settings](/docs/groupid/11.1/groupid/admincenter/portal/server/log.md)

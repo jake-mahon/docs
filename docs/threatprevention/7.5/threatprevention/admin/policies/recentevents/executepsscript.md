@@ -19,5 +19,5 @@ _$helper.[class]_ with the data parameter. This is Threat Prevention specific. F
 $sw.WriteLine(("EventName: " + $helper.EventName))
 ```
 
-See the [Default PowerShell 4.0 Script](../actions/powershell.md#default-powershell-40-script) topic
+See the [Default PowerShell 4.0 Script](/docs/threatprevention/7.5/threatprevention/admin/policies/actions/powershell.md#default-powershell-40-script) topic
 for the full example script.

@@ -6,7 +6,7 @@ Follow the steps to add resource groups to the console.
 
 **Step 2 –** In the Resource Groups list, click the Plus icon.
 
-![Add Resource Group](../../../../../../../../static/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/add/addresourcegroup.webp)
+![Add Resource Group](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/add/addresourcegroup.webp)
 
 **Step 3 –** Enter or select the following information:
 
@@ -39,7 +39,7 @@ Follow the steps to add resource groups to the console.
 **Step 5 –** With the new resource group selected, configure the following settings:
 
 - Add resources to the resource group. See the
-  [Add Resources Window for Resource Group](../window/resources/addresourcestogroup.md) topic for
+  [Add Resources Window for Resource Group](/docs/privilegesecure/4.2/privilegesecure/accessmanagement/admin/policy/window/resources/addresourcestogroup.md) topic for
   additional information.
 
 The new resource group is added to the console and is shown in the Resource Groups list.

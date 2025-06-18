@@ -2,16 +2,16 @@
 
 The Lightweight Directory Access Protocol (LDAP) dashboard contains the following cards:
 
-![LDAP Dashboard](../../../../../../../static/img/product_docs/activitymonitor/activitymonitor/admin/monitoreddomains/admonitoringconfiguration/ldap.webp)
+![LDAP Dashboard](/img/product_docs/activitymonitor/activitymonitor/admin/monitoreddomains/admonitoringconfiguration/ldap.webp)
 
 - Top Users – Displays up to the top five (5) users related to LDAP events that have been recorded
-  in the specified timeframe. See the [Graph Card Features](../navigate.md#graph-card-features)
+  in the specified timeframe. See the [Graph Card Features](/docs/threatprevention/7.5/threatprevention/siemdashboard/qradar/navigate.md#graph-card-features)
   topic for additional information.
 - Top Source Hosts – Displays up to the top five (5) client IP addresses related to LDAP events that
   have been recorded in the specified timeframe. See the
-  [Graph Card Features](../navigate.md#graph-card-features) topic for additional information.
+  [Graph Card Features](/docs/threatprevention/7.5/threatprevention/siemdashboard/qradar/navigate.md#graph-card-features) topic for additional information.
 - LDAP Query Details – Tabular format of all non-trivial LDAP events that have been recorded in the
-  specified timeframe. See the [Table Card Features](../navigate.md#table-card-features) topic for
+  specified timeframe. See the [Table Card Features](/docs/threatprevention/7.5/threatprevention/siemdashboard/qradar/navigate.md#table-card-features) topic for
   additional information.
 
 The time interval is identified in the upper-right corner with the _Start_ and _End_ boxes. This is

@@ -16,7 +16,7 @@ Let's recall the three pieces that constitute Endpoint Policy Manager Applicatio
 ## Backup and Restore
 
 **NOTE:** Video: For an overview video of how to backup and restore, please see this
-video:[Endpoint Policy Manager Application Settings Manager: Backup, Restore, Export, Import](../../../video/troubleshooting/backup.md).
+video:[Endpoint Policy Manager Application Settings Manager: Backup, Restore, Export, Import](/docs/policypak/policypak/video/troubleshooting/backup.md).
 
 The three pieces that constitute Endpoint Policy Manager Application Settings Manager should be
 backed up in case of loss, failure, overwriting, or some other damage. Below, we describe some
@@ -37,7 +37,7 @@ stored.
 The Endpoint Policy Manager Application Settings Manager data inside a GPO is backed up and restored
 with normal GPMC backup procedures, as seen in Figure 90.
 
-![backup_restore_and_xml_export](../../../../../../static/img/product_docs/policypak/policypak/troubleshooting/applicationsettings/backup/backup_restore_and_xml_export.webp)
+![backup_restore_and_xml_export](/img/product_docs/policypak/policypak/troubleshooting/applicationsettings/backup/backup_restore_and_xml_export.webp)
 
 Figure 90. Backing up data with normal GPMC backup procedures.
 
@@ -50,7 +50,7 @@ When restoring, the Endpoint Policy Manager Application Settings Manager data an
 ## Settings for XML Export and Import
 
 **NOTE:** For an overview of exporting and importing settings, please see this video:
-[Endpoint Policy Manager Application Settings Manager: Backup, Restore, Export, Import](../../../video/troubleshooting/backup.md)
+[Endpoint Policy Manager Application Settings Manager: Backup, Restore, Export, Import](/docs/policypak/policypak/video/troubleshooting/backup.md)
 (at the 2 minute and 50 second mark).
 
 The exact settings you specified inside an AppSet within a GPO can be exported and imported. This
@@ -62,7 +62,7 @@ administrator for later implementation.
 The idea of exporting is simple: use your AppSet, set your settings, click on the Options button,
 and then select "Export" to export the data, as seen in Figure 91.
 
-![backup_restore_and_xml_export_1](../../../../../../static/img/product_docs/policypak/policypak/troubleshooting/applicationsettings/backup/backup_restore_and_xml_export_1.webp)
+![backup_restore_and_xml_export_1](/img/product_docs/policypak/policypak/troubleshooting/applicationsettings/backup/backup_restore_and_xml_export_1.webp)
 
 Figure 91. The exact settings you specified inside a Pak within a GPO can be exported and, later,
 imported by selecting one of these options.

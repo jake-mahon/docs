@@ -5,7 +5,7 @@ More info:
 
 For this example, we will be monitoring the following Registry Key and values.
 
-![630_1_image-20220507212307-1](../../../../static/img/product_docs/policypak/policypak/troubleshooting/630_1_image-20220507212307-1.webp)
+![630_1_image-20220507212307-1](/img/product_docs/policypak/policypak/troubleshooting/630_1_image-20220507212307-1.webp)
 
 **Step 1 –** Download and install ProcMon from:
 
@@ -18,7 +18,7 @@ For this example, we will be monitoring the following Registry Key and values.
 **Step 4 –** Next, in the Regedit window go to the path you wish to monitor, highlight the desired
 path in the address bar and copy the text.
 
-![630_2_image-20220507212307-2](../../../../static/img/product_docs/policypak/policypak/troubleshooting/630_2_image-20220507212307-2.webp)
+![630_2_image-20220507212307-2](/img/product_docs/policypak/policypak/troubleshooting/630_2_image-20220507212307-2.webp)
 
 **Step 5 –** Back in ProcMon click on the filter icon, select the values "Path" and "is" as shown in
 the screenshot below, then paste in the registry path you saved to your clipboard earlier in step 4
@@ -28,14 +28,14 @@ then "Ok" to save and apply the filter.
 **NOTE:** Edit the reg path and replace the text `"Computer\HKEY_CURRENT_USER"` with `"HKCU"`, or
 `"Computer\HKEY_LOCAL_MACHINE"` with `"HKLM"` as needed. See screenshots below for examples.
 
-![630_3_image-20220507212307-3](../../../../static/img/product_docs/policypak/policypak/troubleshooting/630_3_image-20220507212307-3.webp)
+![630_3_image-20220507212307-3](/img/product_docs/policypak/policypak/troubleshooting/630_3_image-20220507212307-3.webp)
 
-![630_4_image-20220507212307-4](../../../../static/img/product_docs/policypak/policypak/troubleshooting/630_4_image-20220507212307-4.webp)
+![630_4_image-20220507212307-4](/img/product_docs/policypak/policypak/troubleshooting/630_4_image-20220507212307-4.webp)
 
 **Step 6 –** Test that the filter is working by click clear results in ProcMon, then selecting the
 reg key in regedit window, you should see read events in the ProcMon capture window.
 
-![630_5_image-20220507212307-5](../../../../static/img/product_docs/policypak/policypak/troubleshooting/630_5_image-20220507212307-5.webp)
+![630_5_image-20220507212307-5](/img/product_docs/policypak/policypak/troubleshooting/630_5_image-20220507212307-5.webp)
 
 Note for this example I used the following path:
 
@@ -46,11 +46,11 @@ Preferences.
 
 Default Browser Selection via System Preferences.
 
-![630_6_image-20220507212307-6](../../../../static/img/product_docs/policypak/policypak/troubleshooting/630_6_image-20220507212307-6.webp)
+![630_6_image-20220507212307-6](/img/product_docs/policypak/policypak/troubleshooting/630_6_image-20220507212307-6.webp)
 
 **Step 7 –** Next, and most importantly enable the "Drop Filtered Events" option on the Filter menu.
 
-![630_7_image-20220507212307-7](../../../../static/img/product_docs/policypak/policypak/troubleshooting/630_7_image-20220507212307-7.webp)
+![630_7_image-20220507212307-7](/img/product_docs/policypak/policypak/troubleshooting/630_7_image-20220507212307-7.webp)
 
 **Step 8 –** Now all that is left, is to wait until the issue reoccurs.
 
@@ -68,4 +68,4 @@ on SHAREFILE:
 
 And remember to click the UPLOAD button!
 
-Video KB:[Gathering and Uploading Logs](../video/troubleshooting/logs.md)
+Video KB:[Gathering and Uploading Logs](/docs/policypak/policypak/video/troubleshooting/logs.md)

@@ -6,11 +6,11 @@ wizard page that change based on log type. This version is a wizard page for the
 - Windows Event Log (Archived)
 - Internet Information Server Log
 
-See the [SMARTLog: Target Log for Windows Event Log Type](targetlogtype/windowseventlog.md) and
-[SMARTLog: Target Log for File Detection Log Type](targetlogtype/filedetectionlog.md) topics for
+See the [SMARTLog: Target Log for Windows Event Log Type](/docs/accessanalyzer/12.0/admin/datacollector/smartlog/targetlogtype/windowseventlog.md) and
+[SMARTLog: Target Log for File Detection Log Type](/docs/accessanalyzer/12.0/admin/datacollector/smartlog/targetlogtype/filedetectionlog.md) topics for
 information on the other versions of this wizard page.
 
-![SMART Log DC Wizard Target Log page](../../../../../../static/img/product_docs/accessanalyzer/admin/datacollector/smartlog/targetlog.webp)
+![SMART Log DC Wizard Target Log page](/img/product_docs/accessanalyzer/admin/datacollector/smartlog/targetlog.webp)
 
 The configurable options are:
 

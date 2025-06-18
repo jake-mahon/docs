@@ -26,7 +26,7 @@ To view and modify the properties of a disabled or expired user, select it and c
 on the toolbar.
 
 Refer to the information for user properties to manage the properties of a disabled/expired user.
-See the [User Properties](properties/overview.md) topic for additional information.
+See the [User Properties](/docs/groupid/11.1/groupid/portal/user/properties/overview.md) topic for additional information.
 
 ## Reinstate a Disabled User
 

@@ -1,9 +1,9 @@
 # Edit Review Wizard
 
 The Edit Review wizard is opened with the **Edit** button on the Resource Reviews interface. See the
-[Manage Reviews Page](../interface.md#manage-reviews-page) topic for additional information.
+[Manage Reviews Page](/docs/accessinformationcenter/12.0/access/informationcenter/resourcereviews/interface.md#manage-reviews-page) topic for additional information.
 
-![Edit Review wizard](../../../../../../../static/img/product_docs/accessinformationcenter/access/informationcenter/resourcereviews/wizard/reviewtype.webp)
+![Edit Review wizard](/img/product_docs/accessinformationcenter/access/informationcenter/resourcereviews/wizard/reviewtype.webp)
 
 It contains four pages:
 
@@ -22,7 +22,7 @@ Follow the steps to edit an active review.
 
 **Step 1 –** On the Manage Reviews page, click **Edit**. The Edit Review wizard opens.
 
-![Edit Review wizard Review Type page](../../../../../../../static/img/product_docs/accessinformationcenter/access/informationcenter/resourcereviews/wizard/reviewtype.webp)
+![Edit Review wizard Review Type page](/img/product_docs/accessinformationcenter/access/informationcenter/resourcereviews/wizard/reviewtype.webp)
 
 **Step 2 –** On the Review Type page, configure the notify review creator option as required. The
 Review Name and type are shown on the page but can not be edited. For Permissions, Access, and
@@ -32,12 +32,12 @@ edited.
 - Notify the review creator when resources are reviewed — When selected, an email is sent to the
   review creator when the review has been completed by the resource owner. If the review contains
   multiple resources, an email is sent when each resource is reviewed. See the
-  [Resource Reviewed Email](../email/resourcereviewed.md) topic for additional information.
+  [Resource Reviewed Email](/docs/accessinformationcenter/12.0/access/informationcenter/resourcereviews/email/resourcereviewed.md) topic for additional information.
 
 **NOTE:** If creating a Sensitive Data review, continue to Step 3. For all other review types, skip
 to Step 5.
 
-![Edit Review wizard Criteria page](../../../../../../../static/img/product_docs/accessanalyzer/admin/datacollector/ewsmailbox/criteria.webp)
+![Edit Review wizard Criteria page](/img/product_docs/accessanalyzer/admin/datacollector/ewsmailbox/criteria.webp)
 
 **Step 3 –** On the Criteria page, you can modify the selected types of sensitive criteria to
 include in the Sensitive Data review if no responses have been received. If responses for one or
@@ -62,7 +62,7 @@ the “One or more resources selected have not been scanned” error occurs. The
 will not allow the review to be created until those resources have been removed or the option
 unchecked.
 
-![Edit Review wizard Resources page](../../../../../../../static/img/product_docs/strongpointnetsuiteflashlight/getting_started/resources.webp)
+![Edit Review wizard Resources page](/img/product_docs/strongpointnetsuiteflashlight/getting_started/resources.webp)
 
 **Step 5 –** On the Resources page, modify the list of resources to be included in the review.
 
@@ -88,11 +88,11 @@ or removing parent resources from the review also adds or removes their children
 - Select the desired resource(s) and click **Add**. The **View Selections** button indicates how
   many resources have been selected. Click the button to open the Selected Resources window, where
   you can view and modify the selections. See the
-  [Selected Resources Window](../window/selectedresources.md) topic for additional information.
+  [Selected Resources Window](/docs/accessinformationcenter/12.0/access/informationcenter/resourcereviews/window/selectedresources.md) topic for additional information.
 - Alternatively you can import a list of resources from a CSV file. Click the **Import** button and
   then select the CSV file. A message displays if items are not found or not valid for the review.
   Any valid resources are selected and can be viewed in the Selected Resources window.  See the
-  [Missing Items Window](../window/missingitems.md) topic for additional information
+  [Missing Items Window](/docs/accessinformationcenter/12.0/access/informationcenter/resourcereviews/window/missingitems.md) topic for additional information
 
     The CSV file must use the following format for the resources:
 
@@ -103,12 +103,12 @@ or removing parent resources from the review also adds or removes their children
 
 - Once the desired resources have been selected, click **Next**.
 
-![Edit Review wizard Summary page](../../../../../../../static/img/product_docs/accessanalyzer/admin/datacollector/adinventory/summary.webp)
+![Edit Review wizard Summary page](/img/product_docs/accessanalyzer/admin/datacollector/adinventory/summary.webp)
 
 **Step 6 –** On the Summary page, review the updated settings and click **Next**. The Access
 Information Center begins to update the review.
 
-![Edit Review wizard update completed message](../../../../../../../static/img/product_docs/threatprevention/threatprevention/install/reportingmodule/completed.webp)
+![Edit Review wizard update completed message](/img/product_docs/threatprevention/threatprevention/install/reportingmodule/completed.webp)
 
 **Step 7 –** The action status displays on the page. When the review has been updated (100%), click
 **Close**. The Edit Review wizard closes.

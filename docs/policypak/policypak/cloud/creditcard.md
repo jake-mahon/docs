@@ -7,4 +7,4 @@ Then when you're there, click on **SaaS Billing**, then **Start Subscription**.
 
 Follow the directions after that.
 
-![936_1_image001](../../../../static/img/product_docs/policypak/policypak/cloud/936_1_image001.webp)
+![936_1_image001](/img/product_docs/policypak/policypak/cloud/936_1_image001.webp)

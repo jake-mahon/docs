@@ -2,7 +2,7 @@
 
 The Password History window shows all historical passwords for the selected managed account.
 
-![Passwrod History window](../../../../../../../../../static/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/window/credentials/passwordhistory.webp)
+![Passwrod History window](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/window/credentials/passwordhistory.webp)
 
 The window has the following features:
 

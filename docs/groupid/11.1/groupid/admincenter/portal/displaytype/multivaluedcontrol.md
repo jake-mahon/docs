@@ -77,6 +77,6 @@ schema attribute you link this display type with.
 
 **See Also**
 
-- [Design a Portal with Display Types](overview.md)
-- [Display Type Categories](categories.md)
-- [Define Custom Display Types](custom.md)
+- [Design a Portal with Display Types](/docs/groupid/11.1/groupid/admincenter/portal/displaytype/overview.md)
+- [Display Type Categories](/docs/groupid/11.1/groupid/admincenter/portal/displaytype/categories.md)
+- [Define Custom Display Types](/docs/groupid/11.1/groupid/admincenter/portal/displaytype/custom.md)

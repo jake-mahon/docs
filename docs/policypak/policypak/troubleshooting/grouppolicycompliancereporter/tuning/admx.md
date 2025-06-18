@@ -18,7 +18,7 @@ troubleshooting if necessary. To use the ADMX files, do the following:
 
 You can see what copying those files to a Group Policy Central store looks like in Figure 58.
 
-![tuning_and_troubleshooting_624x274](../../../../../../static/img/product_docs/policypak/policypak/troubleshooting/grouppolicycompliancereporter/tuning/tuning_and_troubleshooting_624x274.webp)
+![tuning_and_troubleshooting_624x274](/img/product_docs/policypak/policypak/troubleshooting/grouppolicycompliancereporter/tuning/tuning_and_troubleshooting_624x274.webp)
 
 Figure 58. Copying the ADMX files to the PolicyDefinitions folder.
 
@@ -27,7 +27,7 @@ settings under `Computer Configuration\Policies\Administrative Templates\PolicyP
 tune `PPGPCR.Auditor.exe` on endpoints can be seen in the Auditor Endpoints folder, as shown in
 Figure 59.
 
-![tuning_and_troubleshooting_1_624x272](../../../../../../static/img/product_docs/policypak/policypak/troubleshooting/grouppolicycompliancereporter/tuning/tuning_and_troubleshooting_1_624x272.webp)
+![tuning_and_troubleshooting_1_624x272](/img/product_docs/policypak/policypak/troubleshooting/grouppolicycompliancereporter/tuning/tuning_and_troubleshooting_1_624x272.webp)
 
 Figure 59. The policy settings for endpoints.
 

@@ -10,7 +10,7 @@ collection does not return.
 
 The EX_MetricsDetails Job uses the ExchangeMetrics Data Collector.
 
-![Queries for the EX_MetricsDetails Job](../../../../../../../static/img/product_docs/accessanalyzer/solutions/exchange/hubmetrics/collection/metricsdetailsquery.webp)
+![Queries for the EX_MetricsDetails Job](/img/product_docs/accessanalyzer/solutions/exchange/hubmetrics/collection/metricsdetailsquery.webp)
 
 The following query is included in the EX_MetricsDetails Job:
 
@@ -38,10 +38,10 @@ Collector Wizard opens.
 
 **CAUTION:** Do not modify other wizard pages. The wizard pages are pre-configured for this job.
 
-![Exchange Metrics Data Collector Wizard Message Activity Filter page](../../../../../../../static/img/product_docs/accessanalyzer/solutions/exchange/hubmetrics/collection/exchangemetricsmessageactivityfilter.webp)
+![Exchange Metrics Data Collector Wizard Message Activity Filter page](/img/product_docs/accessanalyzer/solutions/exchange/hubmetrics/collection/exchangemetricsmessageactivityfilter.webp)
 
 **Step 4 –** Navigate to the
-[ExchangeMetrics: Message Activity Filter](../../../../admin/datacollector/exchangemetrics/messageactivityfilter.md)
+[ExchangeMetrics: Message Activity Filter](/docs/accessanalyzer/12.0/admin/datacollector/exchangemetrics/messageactivityfilter.md)
 page to configure the internal domains from which to collect the sender to recipient traffic. The
 filter should remain **Ends With**. Replace the `@netwrix.com` variable for both the **Senders** and
 **Recipients** with the `@domain.com` variable to be audited.
@@ -58,7 +58,7 @@ View the analysis tasks by navigating to the **Exchange** > **1. HUB Metrics** >
 **CAUTION:** Do not modify or deselect the selected analysis tasks. The analysis tasks are
 preconfigured for this job.
 
-![Analysis Tasks for the EX_MetricsDetails Job](../../../../../../../static/img/product_docs/accessanalyzer/solutions/exchange/hubmetrics/collection/metricsdetailsanalysis.webp)
+![Analysis Tasks for the EX_MetricsDetails Job](/img/product_docs/accessanalyzer/solutions/exchange/hubmetrics/collection/metricsdetailsanalysis.webp)
 
 The following analysis tasks are selected by default:
 

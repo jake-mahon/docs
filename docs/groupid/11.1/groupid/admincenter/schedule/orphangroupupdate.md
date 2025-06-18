@@ -22,11 +22,11 @@ sent to the promoted owner. Note the following:
 The promotion of an additional owner to primary owner may violate the Group Owners policy for the
 minimum number of additional owners required. A notification is sent to the promoted owner to add an
 additional owner to comply with the policy. See the
-[Group Owners Policy](../securityrole/policy/groupowners.md) topic.
+[Group Owners Policy](/docs/groupid/11.1/groupid/admincenter/securityrole/policy/groupowners.md) topic.
 
 With history tracking enabled, history is logged at the group level and at the promoted owner’s
 level. See the
-[Configure History Tracking](../identitystore/configure/directoryservice/historytracking.md) topic.
+[Configure History Tracking](/docs/groupid/11.1/groupid/admincenter/identitystore/configure/directoryservice/historytracking.md) topic.
 
 ## Create an Orphan Group Update Schedule
 
@@ -54,7 +54,7 @@ necessary action.
 Step 8 – In the Scheduler Service Name drop-down list, select a Scheduler service that would be
 responsible for triggering this schedule. The number of services displayed in the list depend on the
 number of nodes in all Elasticsearch clusters in the environment, as each node has its own Scheduler
-service. See the [Scheduler Service](../service/schedulerservice.md) topic for additional
+service. See the [Scheduler Service](/docs/groupid/11.1/groupid/admincenter/service/schedulerservice.md) topic for additional
 information.
 
 Please note the following while selecting a Scheduler service:

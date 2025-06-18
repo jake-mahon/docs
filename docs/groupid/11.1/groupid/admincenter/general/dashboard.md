@@ -7,7 +7,7 @@ In Admin Center, click **Dashboard** in the left pane. The dashboard displays th
 with aggregated data from all identity stores built on Active Directory, Microsoft Entra ID, Google
 Workspace, and Generic LDAP, as well as individual identity stores.
 
-![dashboard](../../../../../../static/img/product_docs/groupid/groupid/admincenter/general/dashboard.webp)
+![dashboard](/img/product_docs/groupid/groupid/admincenter/general/dashboard.webp)
 
 The dashboard displays the following information:
 
@@ -57,7 +57,7 @@ notifications that could not be delivered for any reason, such as when the SMTP 
 the recipient’s address is incorrect.
 
 Click **View All** to go to the **Notification Queue** page, where you can view the failed
-notifications in detail. See the [Manage the Notification Queue](../notification/queue.md) topic.
+notifications in detail. See the [Manage the Notification Queue](/docs/groupid/11.1/groupid/admincenter/notification/queue.md) topic.
 
 ## Upcoming Schedules
 
@@ -76,7 +76,7 @@ or select _All Identity Stores_ to view the upcoming schedules for all identity 
 Click **View All** to view a list of the upcoming schedules with their names, the next date and time
 of schedule run, and the identity store they belong to.
 
-![image38](../../../../../../static/img/product_docs/groupid/groupid/admincenter/general/image38.webp)
+![image38](/img/product_docs/groupid/groupid/admincenter/general/image38.webp)
 
 ## Replication Status of Identity Stores
 
@@ -103,7 +103,7 @@ Consider the following:
 - Hover the mouse over a bar to view the number of users enrolled with the specific authentication
   type. Click a bar to launch the **Helpdesk** page, that displays a list of users enrolled with
   that authentication type. See the
-  [View Users' Information](../helpdesk/operation/search.md#view-users-information) topic for
+  [View Users' Information](/docs/groupid/11.1/groupid/admincenter/helpdesk/operation/search.md#view-users-information) topic for
   details on the information displayed for a user. (Notice that the **Filter(s)** dialog box
   displays the selected authentication type in the **Enrolled With** box.)
 - By default, data is displayed for the last one month. You can view enrollment data for any
@@ -127,7 +127,7 @@ The pie chart is highly interactive. You can:
   for each authentication type. Another pie chart appears to display the authentication types used
   in the authentication attempt. Click this chart to navigate to the **History** tab of the
   **Helpdesk** page to view the logged history for the authentication attempts with the respective
-  authentication type. See the [History in Helpdesk](../helpdesk/history.md) topic.
+  authentication type. See the [History in Helpdesk](/docs/groupid/11.1/groupid/admincenter/helpdesk/history.md) topic.
 
 Consider the following:
 
@@ -139,7 +139,7 @@ Consider the following:
   specific period. Click the tile showing the time period to launch the calendar. Use it to specify
   a date range to view the data.
 
-See the [Authentication Policy](../identitystore/configure/authpolicy.md) topic for a list of
+See the [Authentication Policy](/docs/groupid/11.1/groupid/admincenter/identitystore/configure/authpolicy.md) topic for a list of
 supported authentication types.
 
 ## Activity Summary
@@ -162,7 +162,7 @@ Consider the following:
   all identity stores.
 - To view a list of users who used a function on a particular date, click the relevant data point on
   the function line. A list of users is displayed on the **History** tab of the **Helpdesk** page.
-  See the [History in Helpdesk](../helpdesk/history.md) topic. (Notice that the **Filter(s)** dialog
+  See the [History in Helpdesk](/docs/groupid/11.1/groupid/admincenter/helpdesk/history.md) topic. (Notice that the **Filter(s)** dialog
   box displays the selected function in the **Action Type** box.)
 - By default, data is displayed for the last one week. You can view activity summary for any
   specific period. Click the tile showing the time period to launch the calendar. Use it to specify
@@ -173,4 +173,4 @@ Consider the following:
 
 **See Also**
 
-- [Navigation](navigation.md)
+- [Navigation](/docs/groupid/11.1/groupid/admincenter/general/navigation.md)

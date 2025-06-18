@@ -14,6 +14,6 @@ security used for the session.
 
 The following event types are available for LDAP:
 
-- [LDAP Lockdown Event Type](../admin/policies/eventtype/ldaplockdown.md)
-- [LDAP Monitoring Event Type](../admin/policies/eventtype/ldapmonitoring.md)
-- [LDAP Bind Monitoring Event Type](../admin/policies/eventtype/ldapbindmonitoring.md)
+- [LDAP Lockdown Event Type](/docs/threatprevention/7.5/threatprevention/admin/policies/eventtype/ldaplockdown.md)
+- [LDAP Monitoring Event Type](/docs/threatprevention/7.5/threatprevention/admin/policies/eventtype/ldapmonitoring.md)
+- [LDAP Bind Monitoring Event Type](/docs/threatprevention/7.5/threatprevention/admin/policies/eventtype/ldapbindmonitoring.md)

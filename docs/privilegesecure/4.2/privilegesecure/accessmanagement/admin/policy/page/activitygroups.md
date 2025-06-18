@@ -5,9 +5,9 @@ configured activities groups.
 
 Activities are for singular activities based on a specific platform whereas Activity Groups can be
 used for cross platform activities such as granting local administrator access. See the
-[Activities Page](activities.md) topic for additional information.
+[Activities Page](/docs/privilegesecure/4.2/privilegesecure/accessmanagement/admin/policy/page/activities.md) topic for additional information.
 
-![addactivitygroup](../../../../../../../../static/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/page/addactivitygroup.webp)
+![addactivitygroup](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/page/addactivitygroup.webp)
 
 The pane on the left side of the page displays a list of the configured activity group. This pane
 has the following features:
@@ -15,7 +15,7 @@ has the following features:
 - Search — Searches the table or list for matches to the search string. When matches are found, the
   table or list is filtered to the matching results.
 - Green + button — Create a new activity group. See the
-  [Add Activity Groups](../add/activitygroup.md) topic for additional information.
+  [Add Activity Groups](/docs/privilegesecure/4.2/privilegesecure/accessmanagement/admin/policy/add/activitygroup.md) topic for additional information.
 - Trashcan icon — Deletes the activity group. Icon appears when activity is hovered over. A
   confirmation window will display.
 
@@ -40,7 +40,7 @@ The table has the following columns:
 
 - Checkbox — Check to select one or more items
 - Name — Displays the name of the activity. Click the link to view additional details. See the
-  [Activities Page](activities.md) topic for additional details.
+  [Activities Page](/docs/privilegesecure/4.2/privilegesecure/accessmanagement/admin/policy/page/activities.md) topic for additional details.
 - Created — Date timestamp when the item was created
 
 The table columns can be resized and sorted in ascending or descending order.

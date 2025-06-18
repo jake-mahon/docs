@@ -5,11 +5,11 @@ The Web Console is where any reports which have been published can be viewed out
 Analyzer Console. The Web Console provides a consolidated logon housing both the published reports
 and the AIC (when applicable).
 
-![Global Settings Reporting page](../../../../../static/img/product_docs/accessanalyzer/admin/settings/reporting.webp)
+![Global Settings Reporting page](/img/product_docs/accessanalyzer/admin/settings/reporting.webp)
 
 The publishing of reports can be disabled at the global level by selecting **Do not publish
 reports** from the Publish Option drop-down menu. It can also be disabled at the job group, job, or
-report configuration level. See the [Jobs Tree](../jobs/overview.md) topic for additional
+report configuration level. See the [Jobs Tree](/docs/accessanalyzer/12.0/admin/jobs/overview.md) topic for additional
 information.
 
 The **Cancel** and **Save** buttons are in the lower-right corner of the Reporting view. These
@@ -22,7 +22,7 @@ Otherwise, click **Cancel** if no changes were intended.
 The Website URL field contains address for the hosted website, the Web Console, where the published
 reports reside.
 
-![Website URL on Global Settings Reporting page](../../../../../static/img/product_docs/accessanalyzer/admin/settings/websiteurl.webp)
+![Website URL on Global Settings Reporting page](/img/product_docs/accessanalyzer/admin/settings/websiteurl.webp)
 
 The default address is:
 
@@ -44,7 +44,7 @@ topic for additional information.
 
 The Publish Option allows you to enable or disable the publishing of reports at the global level.
 
-![Publish Option on Global Settings Reporting page](../../../../../static/img/product_docs/accessanalyzer/admin/settings/publish.webp)
+![Publish Option on Global Settings Reporting page](/img/product_docs/accessanalyzer/admin/settings/publish.webp)
 
 Select the **Publish reports** option to publish all Access Analyzer reports or select **Do not
 publish reports** to disable the publishing. The inheritance of this setting can be broken at the
@@ -54,7 +54,7 @@ job group, job, or report levels.
 
 Configure email reports sent out by Access Analyzer using the Email Report options.
 
-![Email options on Global Settings Reporting page](../../../../../static/img/product_docs/accessanalyzer/admin/settings/email.webp)
+![Email options on Global Settings Reporting page](/img/product_docs/accessanalyzer/admin/settings/email.webp)
 
 The **E-mail reports** checkbox enables recipients to receive all published reports, unless
 inheritance is broken at the job group, job, or report level. Separate multiple recipients with a
@@ -65,7 +65,7 @@ semicolons when the settings are saved.
 reports which apply to them.
 
 **NOTE:** Email reports does not work unless Access Analyzer has been configured to send email
-notifications through the **Notification** node. See the [Notification](notification.md) topic for
+notifications through the **Notification** node. See the [Notification](/docs/accessanalyzer/12.0/admin/settings/notification.md) topic for
 additional information.
 
 The **Do Not Email Report If Blank** checkbox prevents reports from being sent via email if all
@@ -99,12 +99,12 @@ Follow the steps to allow JavaScript on the Web Console in Microsoft Edge.
 
 **Step 1 –** Open Microsoft Edge Settings.
 
-![javascriptsitepermissions](../../../../../static/img/product_docs/accessanalyzer/admin/settings/javascriptsitepermissions.webp)
+![javascriptsitepermissions](/img/product_docs/accessanalyzer/admin/settings/javascriptsitepermissions.webp)
 
 **Step 2 –** Go to the **Cookies and site permissions** settings page, and click **JavaScript**
 under All permissions.
 
-![javascriptsettings](../../../../../static/img/product_docs/accessanalyzer/admin/settings/javascriptsettings.webp)
+![javascriptsettings](/img/product_docs/accessanalyzer/admin/settings/javascriptsettings.webp)
 
 **Step 3 –** Click **Add** in the Allow section. On the Add a site window, enter the URL for the Web
 Console and click **Add**.

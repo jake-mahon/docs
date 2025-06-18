@@ -4,15 +4,15 @@ You can search Windows file server and NAS device activity that has been monitor
 File output. When you select **File** from the magnifying glass drop-down menu, a New Search tab
 opens with the applicable query filters.
 
-![Search UI Options Toolbar](../../../../../../../static/img/product_docs/activitymonitor/activitymonitor/admin/search/query/searchuitop.webp)
+![Search UI Options Toolbar](/img/product_docs/activitymonitor/activitymonitor/admin/search/query/searchuitop.webp)
 
 By default, the query is set to return all event activity for the past day. Configuring query
 filters will scope results returned.
 
 Set the filters as desired and click **Search**. The application searches through the appropriate
 activity log files and returns the events that match the filters. You can
-[Filter](../overview.md#filter) and [Sort](../overview.md#sort) the results using the column
-headers. Below the Search button is the [Export](../overview.md#export) option.
+[Filter](/docs/activitymonitor/8.0/activitymonitor/admin/search/overview.md#filter) and [Sort](/docs/activitymonitor/8.0/activitymonitor/admin/search/overview.md#sort) the results using the column
+headers. Below the Search button is the [Export](/docs/activitymonitor/8.0/activitymonitor/admin/search/overview.md#export) option.
 
 Filter Value Entry
 
@@ -52,7 +52,7 @@ The sections have the following filters:
 
     - Specify account or group (...) – The ellipsis button beside the User textbox opens the Specify
       account or group window. Use this window to resolve the account for the user. See the
-      [Specify Account or Group Window](../../outputs/window/specifywindowsaccount.md) topic for
+      [Specify Account or Group Window](/docs/activitymonitor/8.0/activitymonitor/admin/outputs/window/specifywindowsaccount.md) topic for
       additional information.
 
 - GID

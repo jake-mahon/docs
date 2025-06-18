@@ -3,7 +3,7 @@
 Using this API, you can get metadata information of data sources defined so far in Directory
 Manager.
 
-See the [Create a Data Source](../../admincenter/datasource/create.md) topic for creating a data
+See the [Create a Data Source](/docs/groupid/11.1/groupid/admincenter/datasource/create.md) topic for creating a data
 source using Directory Manager.
 
 ## Endpoint

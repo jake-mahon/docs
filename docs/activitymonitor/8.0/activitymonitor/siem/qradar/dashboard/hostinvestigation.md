@@ -4,7 +4,7 @@ The Host Investigation dashboard only appears when a search is conducted. This c
 clicking a hyperlink within the Destination IP column of a table card. Alternatively, type the
 complete host IP Address in the Search box on the right side of the navigation bar.
 
-![Home Investigation Dashboard for Stealthbits Activivty Monitor App for QRadar](../../../../../../../static/img/product_docs/activitymonitor/activitymonitor/siem/qradar/dashboard/userinvestigationdashboard.webp)
+![Home Investigation Dashboard for Stealthbits Activivty Monitor App for QRadar](/img/product_docs/activitymonitor/activitymonitor/siem/qradar/dashboard/userinvestigationdashboard.webp)
 
 The Host Investigation dashboard contains the following cards:
 
@@ -19,13 +19,13 @@ The Host Investigation dashboard contains the following cards:
 - Details of File Activity – Tabular format of all file activity events associated with the host
   which occurred over the specified time interval
 
-    - See the [Table Card Features ](../app.md#table-card-features) topic for additional
+    - See the [Table Card Features ](/docs/activitymonitor/8.0/activitymonitor/siem/qradar/app.md#table-card-features) topic for additional
       information.
 
 - Destination Host Offenses – QRadar offenses associated with the host which occurred over the
   specified time interval
 
-    - See the [Table Card Features ](../app.md#table-card-features) topic for additional
+    - See the [Table Card Features ](/docs/activitymonitor/8.0/activitymonitor/siem/qradar/app.md#table-card-features) topic for additional
       information.
 
 The time interval is identified in the upper-right corner with the Start and End boxes. This is set

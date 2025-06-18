@@ -41,19 +41,19 @@ list:
 Connection Profile
 
 A Connection Profile must be set directly on the collection jobs. See the
-[Exchange PowerShell Permissions](../../../requirements/solutions/exchange/powershell.md) topic for
+[Exchange PowerShell Permissions](/docs/accessanalyzer/12.0/requirements/solutions/exchange/powershell.md) topic for
 credential requirements and assign the Connection Profile to the following jobs:
 
 - **Content** > **Collection** > **PF_ContentScans** Job
 - **Growth and Size** > **Collection** > **PF_FolderScans** Job
 - **Permissions** > **Collection** > **PF_EntitlementScans** Job
 
-See the [MAPI-Based Data Collector Permissions](../../../requirements/solutions/exchange/mapi.md)
+See the [MAPI-Based Data Collector Permissions](/docs/accessanalyzer/12.0/requirements/solutions/exchange/mapi.md)
 topic for credential requirements and assign the Connection Profile to the following job:
 
 - **Ownership** > **Collection** > **PF_FolderOwnership** Job
 
-See the [Connection](../../../admin/settings/connection/overview.md) topic for additional
+See the [Connection](/docs/accessanalyzer/12.0/admin/settings/connection/overview.md) topic for additional
 information.
 
 Schedule Frequency

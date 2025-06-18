@@ -10,7 +10,7 @@ unlicensed products you might have that are available for purchase. Additionally
 columns listed as **Consumed** and **Waiting**. When you click on the number within the cell, a
 pop-up window appears showing the computers that are consumed or waiting.
 
-![web_interface_and_controls_1_624x138](../../../../../static/img/product_docs/policypak/policypak/cloud/interface/web_interface_and_controls_1_624x138.webp)
+![web_interface_and_controls_1_624x138](/img/product_docs/policypak/policypak/cloud/interface/web_interface_and_controls_1_624x138.webp)
 
 When you click the number in the **Consumed** column, you can see the computers which are actively
 taking on a Endpoint Policy Manager Cloud license. You can then determine the first and last check
@@ -18,7 +18,7 @@ in. Additionally, you can click **Show state changes** to see every time a compu
 re-claimed a license, or Show linked policies to get a quick report of which policies are affecting
 the specific computer.
 
-![web_interface_and_controls_2_624x190](../../../../../static/img/product_docs/policypak/policypak/cloud/interface/web_interface_and_controls_2_624x190.webp)
+![web_interface_and_controls_2_624x190](/img/product_docs/policypak/policypak/cloud/interface/web_interface_and_controls_2_624x190.webp)
 
 For instance, clicking on **COMPUTERMDM64** and then **how linked policies** would return the window
 shown below. Note that you can sort by the product name (component name), as well as the policy name
@@ -26,7 +26,7 @@ shown below. Note that you can sort by the product name (component name), as wel
 time for each policy. Or, if the policy has never been received, you can see a blank value. We'll go
 into further detail on reporting in a separate section on reports.
 
-![web_interface_and_controls_3_624x247](../../../../../static/img/product_docs/policypak/policypak/cloud/interface/web_interface_and_controls_3_624x247.webp)
+![web_interface_and_controls_3_624x247](/img/product_docs/policypak/policypak/cloud/interface/web_interface_and_controls_3_624x247.webp)
 
 Computers may transition from a licensed state of **consumed** to a state of **waiting**. The
 Endpoint Policy Manager Cloud waiting list is used to describe two conditions:
@@ -49,4 +49,4 @@ and those licenses becomes available.
 Below you can see that nine computers have transitioned from consumed to waiting. The switch to
 waiting for all of those nine computers was due to inactivity, not because of oversubscription.
 
-![web_interface_and_controls_4_625x326](../../../../../static/img/product_docs/policypak/policypak/cloud/interface/web_interface_and_controls_4_625x326.webp)
+![web_interface_and_controls_4_625x326](/img/product_docs/policypak/policypak/cloud/interface/web_interface_and_controls_4_625x326.webp)

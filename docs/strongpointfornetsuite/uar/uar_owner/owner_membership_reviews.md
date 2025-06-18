@@ -8,7 +8,7 @@ your menu bar, or one of the review shortcuts.
 Reviews open on the **Review** tab. The **Review Notes** tab lists the review details for the
 review.
 
-![Membership review](../../../../static/img/product_docs/strongpointfornetsuite/uar/uar_owner/membership_review.webp)
+![Membership review](/img/product_docs/strongpointfornetsuite/uar/uar_owner/membership_review.webp)
 
 ## Membership Review Actions
 
@@ -54,7 +54,7 @@ This display provides a global view of the user's access.
 2. Review their Global Permissions, Other Roles, and SoD Violations. The links all open the specific
    records for further review. If the user should retain the role, click **Mark Completed**. The
    status is updated. You cannot undo this action.  
-   ![Mark user as reviewed](../../../../static/img/product_docs/strongpointfornetsuite/uar/uar_owner/mark_complete.webp)
+   ![Mark user as reviewed](/img/product_docs/strongpointfornetsuite/uar/uar_owner/mark_complete.webp)
 
 ### Remove Users from the Role
 
@@ -69,14 +69,14 @@ To remove one or more users from the role:
 4. Enter a brief description of why the change is requested when prompted for the **Reason for
    Change**. Click **Accept** when complete.
 
-    ![Reason for change](../../../../static/img/product_docs/strongpointfornetsuite/uar/uar_owner/change_request_reason.webp)
+    ![Reason for change](/img/product_docs/strongpointfornetsuite/uar/uar_owner/change_request_reason.webp)
 
     A Change Request is generated for each user removed from the role. Status is changed to either
     **Change Request** and the **Change Request ID** added, or **Waiting for CR** if there is an
     existing change request in progress as part of another review. Click the **Change Request ID**
     to open the Change Request.
 
-    ![Remove a user from a role](../../../../static/img/product_docs/strongpointfornetsuite/uar/uar_owner/remove_user_from_role.webp)
+    ![Remove a user from a role](/img/product_docs/strongpointfornetsuite/uar/uar_owner/remove_user_from_role.webp)
 
     If the Change Request is rejected (**CR Rejected status**) or canceled (**CR Cancelled**), the
     user row is returned to a pending state and can then be reviewed again. Use the Change Request
@@ -88,11 +88,11 @@ You can add additional reviewers to the review:
 
 1. Select the user.
 2. Select an additional reviewer from the drop down list.  
-   ![Assign an additional reviewer](../../../../static/img/product_docs/strongpointfornetsuite/uar/uar_owner/additional_user_assign.webp)  
+   ![Assign an additional reviewer](/img/product_docs/strongpointfornetsuite/uar/uar_owner/additional_user_assign.webp)  
    The user line is highlighted. You can click **Undo** to cancel the addition before you click
    **Submit**.
 3. Click **Submit** or make additional changes.  
-   ![Assigning an additional user](../../../../static/img/product_docs/strongpointfornetsuite/uar/uar_owner/additional_user_assign2.webp)  
+   ![Assigning an additional user](/img/product_docs/strongpointfornetsuite/uar/uar_owner/additional_user_assign2.webp)  
    The line is highlighted, the status updated, and the email notification is sent to the reviewer.
    You can no longer undo this action.
 
@@ -107,7 +107,7 @@ Every record has review notes with details about the changes. Only submitted cha
 The UAR list opens on the **Review** tab. Click **Review Notes** to open the notes tab. You can
 **Export** the notes as a CSV or PDF file.
 
-![Open the Review Notes tab](../../../../static/img/product_docs/strongpointfornetsuite/uar/uar_owner/review_notes_tab.webp)
+![Open the Review Notes tab](/img/product_docs/strongpointfornetsuite/uar/uar_owner/review_notes_tab.webp)
 
 The notes have the following fields:
 

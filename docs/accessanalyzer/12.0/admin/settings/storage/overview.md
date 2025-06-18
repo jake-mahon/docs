@@ -3,7 +3,7 @@
 The Storage node contains objects known as Storage Profiles. Storage Profiles house the information
 Access Analyzer uses to connect to a SQL Server database within your environment.
 
-![Storage Node](../../../../../../static/img/product_docs/accessanalyzer/admin/settings/storage/storage.webp)
+![Storage Node](/img/product_docs/accessanalyzer/admin/settings/storage/storage.webp)
 
 Each Storage Profile consists of the following parts:
 
@@ -34,7 +34,7 @@ Each Storage Profile consists of the following parts:
     - Windows authentication – Leverages the account used to run the Access Analyzer Console
 
         **NOTE:** This option affects the credentials used for Schedule Service Accounts. See the
-        [Schedule](../schedule.md) topic for additional information.
+        [Schedule](/docs/accessanalyzer/12.0/admin/settings/schedule.md) topic for additional information.
 
     - SQL Server authentication – Leverages the account provided in the **User name** and
       **Password** textboxes
@@ -49,15 +49,15 @@ Each Storage Profile consists of the following parts:
     - Create new database – Access Analyzer automatically creates a new database using the name
       provided in the textbox. This value should be a unique, descriptive name.
 
-![Operations on the Storage view](../../../../../../static/img/product_docs/accessanalyzer/admin/settings/storage/storageoperations.webp)
+![Operations on the Storage view](/img/product_docs/accessanalyzer/admin/settings/storage/storageoperations.webp)
 
 At the Storage view, the following operations are available:
 
-- Add Storage profile – Create a new Storage Profile. See the [Add a Storage Profile](add.md) topic
+- Add Storage profile – Create a new Storage Profile. See the [Add a Storage Profile](/docs/accessanalyzer/12.0/admin/settings/storage/add.md) topic
   for additional information.
 - Set as default – Change the default Storage Profile. See the
-  [Set a Default Storage Profile](default.md) topic for additional information.
-- Delete – Remove a Storage Profile. See the [Delete a Storage Profile](delete.md) topic for
+  [Set a Default Storage Profile](/docs/accessanalyzer/12.0/admin/settings/storage/default.md) topic for additional information.
+- Delete – Remove a Storage Profile. See the [Delete a Storage Profile](/docs/accessanalyzer/12.0/admin/settings/storage/delete.md) topic for
   additional information.
 
 **NOTE:** A green checkmark in the Storage Profiles list indicates the default Storage Profile.
@@ -68,5 +68,5 @@ at the global level, click **Save** and then **OK** to confirm the changes. Othe
 **Cancel** if no changes were intended.
 
 The vault provides enhanced security through enhanced encryption to various credentials stored by
-the Access Analyzer application. See the [Vault](../application/vault.md) topic for additional
+the Access Analyzer application. See the [Vault](/docs/accessanalyzer/12.0/admin/settings/application/vault.md) topic for additional
 information.

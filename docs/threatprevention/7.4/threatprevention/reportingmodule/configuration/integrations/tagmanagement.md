@@ -125,7 +125,7 @@ results.
 
 **Step 5 –** In the Untagged Items box, check the box to the left of the desired object(s).
 
-**Step 6 –** Click the arrow (>) between the Untagged Items box and the Tagged Items box to add the
+**Step 6 –** Click the arrow () between the Untagged Items box and the Tagged Items box to add the
 tag to the selected object(s).
 
 The tag is applied to the selected objects.

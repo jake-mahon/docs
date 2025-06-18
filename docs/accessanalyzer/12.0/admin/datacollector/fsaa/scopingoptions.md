@@ -7,7 +7,7 @@ following categories:
 - File System Access/Permission Auditing Scan
 - Sensitive Data
 
-![FSAA Data Collector Wizard Scoping Options page](../../../../../../static/img/product_docs/accessanalyzer/admin/datacollector/fsaa/scopingoptions.webp)
+![FSAA Data Collector Wizard Scoping Options page](/img/product_docs/accessanalyzer/admin/datacollector/fsaa/scopingoptions.webp)
 
 The Scoping Options buttons have the following:
 
@@ -43,7 +43,7 @@ The Scoping Configuration Window allows a specific share or folder to be include
 the scan. Only included resources require additional scoping. Remember, these settings override the
 default scoping settings for the selected resource.
 
-![Scoping Configuration Window](../../../../../../static/img/product_docs/accessanalyzer/admin/datacollector/fsaa/scopingconfigurationwindow.webp)
+![Scoping Configuration Window](/img/product_docs/accessanalyzer/admin/datacollector/fsaa/scopingconfigurationwindow.webp)
 
 Set the Resource Name and Host Name:
 
@@ -83,7 +83,7 @@ Then set Scoping Type and Priority:
       it is excluded.
 
     **NOTE:** Any included files or folders inherit all options previously checked in the
-    [FSAA: Default Scoping Options](defaultscopingoptions.md) page. Manually apply new options if
+    [FSAA: Default Scoping Options](/docs/accessanalyzer/12.0/admin/datacollector/fsaa/defaultscopingoptions.md) page. Manually apply new options if
     the default ones are not desired in this scan.
 
 - Priority – Numerical value that determines which options are used in the case of more than one
@@ -97,9 +97,9 @@ Then set Scoping Type and Priority:
       used. The scoping option with the child takes precedence over the parent.
 - Enable Button – Adds the scoping option to the scan criteria
 
-See the [Scan Settings Tab](defaultscopingoptions/scansettings.md),
-[File Details Tab](defaultscopingoptions/filedetails.md), and
-[File Properties (Folder Summary) Tab](defaultscopingoptions/fileproperties.md) tabs for more detail
+See the [Scan Settings Tab](/docs/accessanalyzer/12.0/admin/datacollector/fsaa/defaultscopingoptions/scansettings.md),
+[File Details Tab](/docs/accessanalyzer/12.0/admin/datacollector/fsaa/defaultscopingoptions/filedetails.md), and
+[File Properties (Folder Summary) Tab](/docs/accessanalyzer/12.0/admin/datacollector/fsaa/defaultscopingoptions/fileproperties.md) tabs for more detail
 on these scoping options.
 
 ## Common Scoping Scenarios
@@ -110,7 +110,7 @@ Scenario 1
 
 Scan for all shares except one.
 
-![Common Scoping Options example Scenario 1](../../../../../../static/img/product_docs/accessanalyzer/admin/datacollector/fsaa/commonscopingoptionsscenario1.webp)
+![Common Scoping Options example Scenario 1](/img/product_docs/accessanalyzer/admin/datacollector/fsaa/commonscopingoptionsscenario1.webp)
 
 All shares included except for the ProbableOwner share.
 
@@ -118,7 +118,7 @@ Scenario 2
 
 Scan for one share and exclude all others.
 
-![Common Scoping Options example Scenario 2](../../../../../../static/img/product_docs/accessanalyzer/admin/datacollector/fsaa/commonscopingoptionsscenario2.webp)
+![Common Scoping Options example Scenario 2](/img/product_docs/accessanalyzer/admin/datacollector/fsaa/commonscopingoptionsscenario2.webp)
 
 The ProbableOwner Share is included. All other shares are excluded. Share Inclusion must have a
 priority that is greater than or equal to the Share Exclusion.
@@ -127,7 +127,7 @@ Scenario 3
 
 Scan all folders except one.
 
-![Common Scoping Options example Scenario 3](../../../../../../static/img/product_docs/accessanalyzer/admin/datacollector/fsaa/commonscopingoptionsscenario3.webp)
+![Common Scoping Options example Scenario 3](/img/product_docs/accessanalyzer/admin/datacollector/fsaa/commonscopingoptionsscenario3.webp)
 
 All Shares are scanned and all folders are included except for C:\ProbableOwner\DifferentOwner.
 
@@ -135,7 +135,7 @@ Scenario 4
 
 Scan one folder and exclude all others.
 
-![Common Scoping Options example Scenario 4](../../../../../../static/img/product_docs/accessanalyzer/admin/datacollector/fsaa/commonscopingoptionsscenario4.webp)
+![Common Scoping Options example Scenario 4](/img/product_docs/accessanalyzer/admin/datacollector/fsaa/commonscopingoptionsscenario4.webp)
 
 The ProbableOwner Share is included and all other shares are excluded. Within the ProbableOwner
 Share, Folder path C:\ProbableOwner\DifferentOwner is included. All other folder paths are excluded.
@@ -144,7 +144,7 @@ Scenario 5
 
 Scan one folder and all of its children and exclude all others.
 
-![Common Scoping Options example Scenario 5](../../../../../../static/img/product_docs/accessanalyzer/admin/datacollector/fsaa/commonscopingoptionsscenario5.webp)
+![Common Scoping Options example Scenario 5](/img/product_docs/accessanalyzer/admin/datacollector/fsaa/commonscopingoptionsscenario5.webp)
 
 The ProbableOwner Share is included and all other shares are excluded. Within the ProbableOwner
 Share, Folder path C:\ProbableOwner\DifferentOwner is included along with all of its children
@@ -154,7 +154,7 @@ Scenario 6
 
 Scan for all content within a folder except one sub-folder.
 
-![Common Scoping Options example Scenario 6](../../../../../../static/img/product_docs/accessanalyzer/admin/datacollector/fsaa/commonscopingoptionsscenario6.webp)
+![Common Scoping Options example Scenario 6](/img/product_docs/accessanalyzer/admin/datacollector/fsaa/commonscopingoptionsscenario6.webp)
 
 The ProbableOwner Share is included and all other shares are excluded. Within the ProbableOwner
 Share, Folder path C:\ProbableOwner\DifferentOwner is included along with all of its children
@@ -172,6 +172,6 @@ For example, in the scenario below, the NFS export named NFS_Export is included.
 are excluded. Within the NFS_Export export, folder path \ifs\NFS_Export\Test_Folder is included. All
 other folder paths are excluded.
 
-![FSAA Scoping Options NFS export example](../../../../../../static/img/product_docs/accessanalyzer/admin/datacollector/fsaa/commonscopingoptionsnfsexports.webp)
+![FSAA Scoping Options NFS export example](/img/product_docs/accessanalyzer/admin/datacollector/fsaa/commonscopingoptionsnfsexports.webp)
 
 Note the different slash types for exports compared to folders.

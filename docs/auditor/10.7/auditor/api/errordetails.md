@@ -1,7 +1,7 @@
 # Error Details
 
 On error, most requests contain an error description in the response body (except some requests with
-empty body, e.g., 404, 405). [Response Status Codes](responsestatuscodes.md)
+empty body, e.g., 404, 405). [Response Status Codes](/docs/auditor/10.7/auditor/api/responsestatuscodes.md)
 
 The error details include:
 

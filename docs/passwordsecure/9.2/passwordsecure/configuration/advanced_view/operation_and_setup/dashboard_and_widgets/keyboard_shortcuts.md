@@ -4,7 +4,7 @@
 
 Some actions can be executed very efficiently using keyboard shortcuts. These are configured in the
 section of the same name within the **global
-[User settings](../../mainmenu/user_settings/user_settings.md)**
+[User settings](/docs/passwordsecure/9.2/passwordsecure/configuration/advanced_view/mainmenu/user_settings/user_settings.md)**
 
 The following keyboard shortcuts are available:
 

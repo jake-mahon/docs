@@ -2,7 +2,7 @@
 
 These topics describes the installation and initial configuration process of Netwrix Privilege
 Secure. Prior to installing Privilege Secure, ensure that all installation requirements have been
-met. See the [Requirements](../requirements/overview.md) topic for additional information.
+met. See the [Requirements](/docs/privilegesecure/4.2/privilegesecure/accessmanagement/requirements/overview.md) topic for additional information.
 
 Privilege Secure comes with a temporary 30-day license. Please contact the organization’s sales
 representative to purchase a license.
@@ -55,7 +55,7 @@ on activity:
   When a session begins, the service attaches to the session when it identifies the channel used by
   the Privilege Secure Proxy service and sends the Windows events back to the application. It
   specifically monitors what windows are opened and what menus are selected during an RDP session.
-  See the [Install Remote Desktop Monitor Service on Target RDP Hosts](rdpmonitor.md) topic for
+  See the [Install Remote Desktop Monitor Service on Target RDP Hosts](/docs/privilegesecure/4.2/privilegesecure/accessmanagement/install/rdpmonitor.md) topic for
   additional information.
 
 ## Single Privilege Secure Server
@@ -65,7 +65,7 @@ architecture is only used for Proof of Concepts or testing purposes. All compone
 the application server. This scenario provides rapid start capability, and in most cases,
 installation and initial configuration can be completed in as little as 20 minutes.
 
-![Single Server Deployment](../../../../../../static/img/product_docs/privilegesecure/privilegesecure/accessmanagement/install/singleserverdeployment.webp)
+![Single Server Deployment](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/install/singleserverdeployment.webp)
 
 ## Privilege Secure Server with Remote Services
 
@@ -74,7 +74,7 @@ install Proxy and Action Services on additional hosts for scalability, redundanc
 segmentation. Adding these services to other hosts provides the option to disable these services on
 the application server.
 
-![Distributed Architecture Data Flow Diagram](../../../../../../static/img/product_docs/privilegesecure/privilegesecure/accessmanagement/install/distributedarchitecture.webp)
+![Distributed Architecture Data Flow Diagram](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/install/distributedarchitecture.webp)
 
 The user can contact the Web service over port 6500, illustrated with a blue arrow. They can also
 talk directly to the Proxy service, illustrated with a green arrow over port:
@@ -94,7 +94,7 @@ remoting over:
 - SSH port 22
 
 The Action service also needs to communicate with Active Directory on a variety of different ports.
-See the [Ports](../requirements/ports.md) topic for additional information.
+See the [Ports](/docs/privilegesecure/4.2/privilegesecure/accessmanagement/requirements/ports.md) topic for additional information.
 
 The Service Mesh connects remote services to the central Web service. Each remote “leaf” node is
 configured as a mesh so traffic may be routed via the most efficient route back to the web service.
@@ -111,7 +111,7 @@ redundancy, with a replicated database pair. When the Primary becomes unavailabl
 high-availability configuration tool is used to manually instigate failover. All external components
 on operational resources continue to service requests.
 
-![Active-Passive Database Deployment Diagram](../../../../../../static/img/product_docs/privilegesecure/privilegesecure/accessmanagement/install/activepassivedatabase.webp)
+![Active-Passive Database Deployment Diagram](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/install/activepassivedatabase.webp)
 
 The Active-Passive configuration, which is only available with the PostgreSQL database, allows you
 to leverage the embedded database. It is also the simplest option for configuring high-availability.
@@ -124,7 +124,7 @@ Server database options. No manual intervention is required. Many application se
 to the database for redundancy and scalability. However, setup is more complex than an
 Active-Passive configuration. Also, you will need an additional server for the database.
 
-![Active-Active Database Deployment Diagram](../../../../../../static/img/product_docs/privilegesecure/privilegesecure/accessmanagement/install/activeactivedatabase.webp)
+![Active-Active Database Deployment Diagram](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/install/activeactivedatabase.webp)
 
 ## Cloud-Native Database Deployment
 
@@ -133,7 +133,7 @@ built-in high-availability and auto-scaling. AWS supports databases for PostgreS
 PostgreSQL) and SQL Server (RDS SQL Server). Azure also supports databases for PostgreSQL and SQL
 Server.
 
-![AWS Acrive-Active Database Deployment Diagram](../../../../../../static/img/product_docs/privilegesecure/privilegesecure/accessmanagement/install/awsdatabase.webp)
+![AWS Acrive-Active Database Deployment Diagram](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/install/awsdatabase.webp)
 
 ## Third-Party Vault Integration
 
@@ -145,7 +145,7 @@ activities. Benefits include:
 - Onboard credentials without having to change API references in applications
 - Build on existing infrastructure
 
-![Bring Your Own Vault Integration Diagram](../../../../../../static/img/product_docs/privilegesecure/privilegesecure/accessmanagement/install/byovdatabase.webp)
+![Bring Your Own Vault Integration Diagram](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/install/byovdatabase.webp)
 
 ## LAPS Integration
 
@@ -156,4 +156,4 @@ integration allows those passwords to be utilized for Privilege Secure activitie
 - Faster deployment time
 - Offboard password changing process to Active Directory
 
-![Bring Your Own Vault LAPS Integration Diagram](../../../../../../static/img/product_docs/privilegesecure/privilegesecure/accessmanagement/install/byovlapsdatabase.webp)
+![Bring Your Own Vault LAPS Integration Diagram](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/install/byovlapsdatabase.webp)

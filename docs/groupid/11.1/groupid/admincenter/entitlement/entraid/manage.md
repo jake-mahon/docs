@@ -59,7 +59,7 @@ Step 5 – Click **Save**.
 
 The information displayed for a site in the Included SharePoint Sites area is the same as displayed
 for a file server in an Active Directory identity store. Refer to the
-[File Server Details ](../ad/manage.md#file-server-details) topic for more info. Though in this
+[File Server Details ](/docs/groupid/11.1/groupid/admincenter/entitlement/ad/manage.md#file-server-details) topic for more info. Though in this
 case, the User namecolumn displays the username of the account used to connect to the site, and it
 is not blank.
 
@@ -67,7 +67,7 @@ is not blank.
 
 Use the _Search Filters_ option in the Included SharePoint Sites area to search for a site in the
 listing. The filters are the same as displayed for a file server in an Active Directory identity
-store. Refer to the [Search File Servers ](../ad/manage.md#search-file-servers) topic for performing
+store. Refer to the [Search File Servers ](/docs/groupid/11.1/groupid/admincenter/entitlement/ad/manage.md#search-file-servers) topic for performing
 a search.
 
 ## Include Future Sites for Entitlement Management
@@ -102,7 +102,7 @@ Step 4 – In the Included SharePoint Sites area on the **Entitlement** page, cl
 button for a site and select **Edit**. On the **Edit Site** dialog box:
 
 - The Site Libraries area displays the document libraries in the site.
-- The name of the [GroupID Entitlement Schedule](../../schedule/entitlement.md) that computes the
+- The name of the [GroupID Entitlement Schedule](/docs/groupid/11.1/groupid/admincenter/schedule/entitlement.md) that computes the
   permissions on document libraries in the site and replicates them to Elasticsearch, is displayed
   next to **Job**.
 
@@ -152,9 +152,9 @@ button for a site and select **Edit**.
 
 Step 5 – On the **Edit Site** dialog box, you can change the service account used to connect to the
 site for reading and updating permissions. The
-[GroupID Entitlement Schedule](../../schedule/entitlement.md),
-[Entitlement Scope Schedule](../../schedule/entitlementscope.md), and
-[Entitlement Temporary Permissions Schedule](../../schedule/entitlementtemporarypermissions.md) run
+[GroupID Entitlement Schedule](/docs/groupid/11.1/groupid/admincenter/schedule/entitlement.md),
+[Entitlement Scope Schedule](/docs/groupid/11.1/groupid/admincenter/schedule/entitlementscope.md), and
+[Entitlement Temporary Permissions Schedule](/docs/groupid/11.1/groupid/admincenter/schedule/entitlementtemporarypermissions.md) run
 in the context of the account specified here.
 
 - The User name and Password boxes display the credentials of the account used to connect to the
@@ -179,7 +179,7 @@ Step 2 – Click **Save** on the Entitlement page.
 After adding the SharePoint admin URL to manage entitlements for document libraries in the sites, it
 is essential to replicate object permissions from the SharePoint server to Elasticsearch.
 
-The [GroupID Entitlement Schedule](../../schedule/entitlement.md) runs on a set frequency to
+The [GroupID Entitlement Schedule](/docs/groupid/11.1/groupid/admincenter/schedule/entitlement.md) runs on a set frequency to
 replicate the effective permissions on document libraries in the sites. You can also run this
 schedule any time manually for a site listed in the Included SharePoint sites area on the
 Entitlementpage.
@@ -201,7 +201,7 @@ Step 4 – On the Entitlement page, you can manually replicate permissions for o
   replicate. To replicate all sites, select the check box in the header row. This displays the
   following icons:
 
-    ![replicate_permissions](../../../../../../../static/img/product_docs/groupid/groupid/admincenter/entitlement/ad/replicate_permissions.webp)
+    ![replicate_permissions](/img/product_docs/groupid/groupid/admincenter/entitlement/ad/replicate_permissions.webp)
 
     Either click the **Replicate** icon or the **Replicate** button.
 
@@ -235,7 +235,7 @@ Step 4 – On the **Entitlement** page, you can exclude one or more sites.
     Select the check boxes for the sites you do not want to replicate. To exclude all sites, select
     the check box in the header row. This displays the following icons:
 
-    ![replicate_permissions](../../../../../../../static/img/product_docs/groupid/groupid/admincenter/entitlement/ad/replicate_permissions.webp)
+    ![replicate_permissions](/img/product_docs/groupid/groupid/admincenter/entitlement/ad/replicate_permissions.webp)
 
     Click **Remove**. The sites are moved to the **Excluded SharePoint Sites** area.
 
@@ -262,5 +262,5 @@ Step 5 – Click **Save**.
 
 See Also
 
-- [Entitlement](../overview.md)
-- [Manage File Servers](../ad/manage.md)
+- [Entitlement](/docs/groupid/11.1/groupid/admincenter/entitlement/overview.md)
+- [Manage File Servers](/docs/groupid/11.1/groupid/admincenter/entitlement/ad/manage.md)

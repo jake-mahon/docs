@@ -7,13 +7,13 @@ the other editors. To get yourself set up perfectly with a small on-prem test la
 the steps in the following videos:
 
 - Endpoint Policy Manager Cloud: What You Need to Get Started:
-  [Endpoint Policy Manager Cloud: What you need to get Started](../video/cloud/testlab/start.md)
+  [Endpoint Policy Manager Cloud: What you need to get Started](/docs/policypak/policypak/video/cloud/testlab/start.md)
 - How to Create a DC for Editing Purposes:
-  [How to create a DC for editing purposes](../video/cloud/testlab/createdc.md).
+  [How to create a DC for editing purposes](/docs/policypak/policypak/video/cloud/testlab/createdc.md).
 - Testing and Troubleshooting by Renaming an Endpoint Computer:
-  [Testing and Troubleshooting By Renaming an endpoint Computer](../video/cloud/testlab/renameendpoint.md)
+  [Testing and Troubleshooting By Renaming an endpoint Computer](/docs/policypak/policypak/video/cloud/testlab/renameendpoint.md)
 - Endpoint Policy Manager Cloud: On-Prem Test Lab: Tying it all Together:
-  [Endpoint Policy Manager Cloud: On-Prem Test Lab (tying it all together)](../video/cloud/testlab/onpremise.md)
+  [Endpoint Policy Manager Cloud: On-Prem Test Lab (tying it all together)](/docs/policypak/policypak/video/cloud/testlab/onpremise.md)
 
 By the time you have completed the videos, you will have a mini, free-to-use on-prem test lab with
 the ability to create and edit all Endpoint Policy Manager directives and test out that they are
@@ -25,8 +25,8 @@ machines (each one within a "tab" in VMware Workstation):
 - Representative cloud machine: Typically non-domain-joined, but ready to install the Endpoint
   Policy Manager Cloud client for continuous testing
 
-![concepts_logons_and_downloads_12_625x534](../../../../static/img/product_docs/policypak/policypak/cloud/concepts_logons_and_downloads_12_625x534.webp)
+![concepts_logons_and_downloads_12_625x534](/img/product_docs/policypak/policypak/cloud/concepts_logons_and_downloads_12_625x534.webp)
 
-![concepts_logons_and_downloads_13_624x282](../../../../static/img/product_docs/policypak/policypak/cloud/concepts_logons_and_downloads_13_624x282.webp)
+![concepts_logons_and_downloads_13_624x282](/img/product_docs/policypak/policypak/cloud/concepts_logons_and_downloads_13_624x282.webp)
 
-![concepts_logons_and_downloads_14_623x372](../../../../static/img/product_docs/policypak/policypak/cloud/concepts_logons_and_downloads_14_623x372.webp)
+![concepts_logons_and_downloads_14_623x372](/img/product_docs/policypak/policypak/cloud/concepts_logons_and_downloads_14_623x372.webp)

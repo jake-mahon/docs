@@ -170,7 +170,7 @@ reports.
 
 ## Pin a Job Collection
 
-Follow the steps to pin a job to the [Dashboard](../dashboard.md) under the pinned job card.
+Follow the steps to pin a job to the [Dashboard](/docs/groupid/11.1/groupid/portal/synchronize/dashboard.md) under the pinned job card.
 
 Step 1 – On Directory Manager portal, select **Synchronize** on left pane.
 
@@ -180,7 +180,7 @@ Step 3 – Click the three vertical dots icon of the job collection and select *
 menu.
 
 Step 4 – The job collection is displayed on My Pinned Job Collections section on the
-[Dashboard](../dashboard.md).
+[Dashboard](/docs/groupid/11.1/groupid/portal/synchronize/dashboard.md).
 
 ## Save as Template
 

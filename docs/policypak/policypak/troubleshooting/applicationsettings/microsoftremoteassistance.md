@@ -1,6 +1,6 @@
 # How to use Scripts Manager to workaround the "PPAppLockdr64.dll is either not designed to run on Windows or it contains an error" message when running Microsoft Remote Assistance (MSRA.exe) and the Endpoint Policy Manager CSE is installed on Windows 10 1903
 
-![280_1_image-20191015113622-1](../../../../../static/img/product_docs/policypak/policypak/troubleshooting/applicationsettings/280_1_image-20191015113622-1.webp)
+![280_1_image-20191015113622-1](/img/product_docs/policypak/policypak/troubleshooting/applicationsettings/280_1_image-20191015113622-1.webp)
 
 **Step 1 –** Create the Scripts Manager policy in PolicyPak.
 
@@ -10,20 +10,20 @@ rights (to create and link GPOs at that level) and then create a new GPO and lin
 
 For example:
 
-![280_2_image-20191015113622-4](../../../../../static/img/product_docs/policypak/policypak/troubleshooting/applicationsettings/280_2_image-20191015113622-4.webp)
+![280_2_image-20191015113622-4](/img/product_docs/policypak/policypak/troubleshooting/applicationsettings/280_2_image-20191015113622-4.webp)
 
 2. Next Edit the newly created GPO and expand the User Configuration > PolicyPak > Scripts Manager
    section.
 3. Then click "ADD NEW COLLECTION" to add a new collection, give it any descriptive name you like,
    then click "OK".
 
-![280_3_image-20191015113622-5](../../../../../static/img/product_docs/policypak/policypak/troubleshooting/applicationsettings/280_3_image-20191015113622-5.webp)
+![280_3_image-20191015113622-5](/img/product_docs/policypak/policypak/troubleshooting/applicationsettings/280_3_image-20191015113622-5.webp)
 
 4. Next, double click on the collection you just created to open the collection.
 5. Then right-click anywhere in the right pane and choose "Add > New Policy", (or alternatively
    click on the "ADD NEW POLICY" button) to create a new policy item within the collection.
 
-![280_4_image-20191015113622-6](../../../../../static/img/product_docs/policypak/policypak/troubleshooting/applicationsettings/280_4_image-20191015113622-6.webp)
+![280_4_image-20191015113622-6](/img/product_docs/policypak/policypak/troubleshooting/applicationsettings/280_4_image-20191015113622-6.webp)
 
 6. The "PolicyPak Scripts Manager Wizard" will then open.
 7. At the "On apply action" screen choose "PowerShell script" from the drop down.
@@ -44,9 +44,9 @@ For example:
 1. Log in as a domain user within the OU or Domain where the policy is applied and verify under
    Windows Settings that the custom Exploit Protection settings are present.
 
-![280_5_image-20191015113622-7](../../../../../static/img/product_docs/policypak/policypak/troubleshooting/applicationsettings/280_5_image-20191015113622-7.webp)
+![280_5_image-20191015113622-7](/img/product_docs/policypak/policypak/troubleshooting/applicationsettings/280_5_image-20191015113622-7.webp)
 
-![280_6_image-20191015113622-2](../../../../../static/img/product_docs/policypak/policypak/troubleshooting/applicationsettings/280_6_image-20191015113622-2.webp)
+![280_6_image-20191015113622-2](/img/product_docs/policypak/policypak/troubleshooting/applicationsettings/280_6_image-20191015113622-2.webp)
 
 More Info: How to configure custom Exploit Protection settings under Windows 10 GUI  to resolve this
 issue.
@@ -66,4 +66,4 @@ settings
 
 **Step 7 –** Lastly, click "Apply" to save your changes
 
-![280_6_image-20191015113622-2](../../../../../static/img/product_docs/policypak/policypak/troubleshooting/applicationsettings/280_6_image-20191015113622-2.webp)
+![280_6_image-20191015113622-2](/img/product_docs/policypak/policypak/troubleshooting/applicationsettings/280_6_image-20191015113622-2.webp)

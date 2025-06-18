@@ -4,7 +4,7 @@
 
 If a discovery service is created, a corresponding certificate is also created:
 
-![installation_with_parameters_202](../../../../../../../static/img/product_docs/passwordsecure/passwordsecure/configuration/server_manager/certificates/installation_with_parameters_202.webp)
+![installation_with_parameters_202](/img/product_docs/passwordsecure/passwordsecure/configuration/server_manager/certificates/installation_with_parameters_202.webp)
 
 NOTE: The discovery service certificate cannot be replaced by your own certificate.
 
@@ -16,5 +16,5 @@ service certificate is also transferred!**
 
 #### Exporting and importing the certificate
 
-The section [Certificates](certificates.md)explains how to back up the certificate and link it
+The section [Certificates](/docs/passwordsecure/9.2/passwordsecure/configuration/server_manager/certificates/certificates.md)explains how to back up the certificate and link it
 again.

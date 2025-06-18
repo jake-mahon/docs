@@ -9,10 +9,10 @@ While the data collector is available with all Access Analyzer license options, 
 only available with a special Access Analyzer licenses. See following sections for additional
 information:
 
-- [Active Directory Solution](../../../solutions/activedirectory/overview.md)
-- [Exchange Solution](../../../solutions/exchange/overview.md)
-- [SQL Job Group](../../../solutions/databases/sql/overview.md)
-- [Windows Solution](../../../solutions/windows/overview.md)
+- [Active Directory Solution](/docs/accessanalyzer/12.0/solutions/activedirectory/overview.md)
+- [Exchange Solution](/docs/accessanalyzer/12.0/solutions/exchange/overview.md)
+- [SQL Job Group](/docs/accessanalyzer/12.0/solutions/databases/sql/overview.md)
+- [Windows Solution](/docs/accessanalyzer/12.0/solutions/windows/overview.md)
 
 Protocols
 
@@ -32,7 +32,7 @@ Permissions
 - Member of the local Administrators group
 
 See the
-[Exchange Remote Connections Permissions](../../../requirements/solutions/exchange/remoteconnections.md)
+[Exchange Remote Connections Permissions](/docs/accessanalyzer/12.0/requirements/solutions/exchange/remoteconnections.md)
 topic for additional information related to permissions required for targeting Exchange servers.
 
 ## SMARTLog Query Configuration
@@ -41,17 +41,17 @@ The SMARTLog Data Collector is configured through the SMART Log DC Wizard, which
 following wizard pages:
 
 - Welcome
-- [SMARTLog: Log Type](logtype.md)
-- [SMARTLog: Sample Host](samplehost.md)
-- [SMARTLog: Target Log](targetlog.md)
-- [SMARTLog: Results](results.md)
-- [SMARTLog: Criteria](criteria.md)
-- [SMARTLog: Collection Method](collectionmethod.md)
-- [SMARTLog: Log State](logstate.md)
-- [SMARTLog: Event Log Options](eventlogoptions.md)
-- [SMARTLog: Summary](summary.md)
+- [SMARTLog: Log Type](/docs/accessanalyzer/12.0/admin/datacollector/smartlog/logtype.md)
+- [SMARTLog: Sample Host](/docs/accessanalyzer/12.0/admin/datacollector/smartlog/samplehost.md)
+- [SMARTLog: Target Log](/docs/accessanalyzer/12.0/admin/datacollector/smartlog/targetlog.md)
+- [SMARTLog: Results](/docs/accessanalyzer/12.0/admin/datacollector/smartlog/results.md)
+- [SMARTLog: Criteria](/docs/accessanalyzer/12.0/admin/datacollector/smartlog/criteria.md)
+- [SMARTLog: Collection Method](/docs/accessanalyzer/12.0/admin/datacollector/smartlog/collectionmethod.md)
+- [SMARTLog: Log State](/docs/accessanalyzer/12.0/admin/datacollector/smartlog/logstate.md)
+- [SMARTLog: Event Log Options](/docs/accessanalyzer/12.0/admin/datacollector/smartlog/eventlogoptions.md)
+- [SMARTLog: Summary](/docs/accessanalyzer/12.0/admin/datacollector/smartlog/summary.md)
 
-![SMART Log DC Wizard Welcome page](../../../../../../static/img/product_docs/activitymonitor/activitymonitor/install/welcome.webp)
+![SMART Log DC Wizard Welcome page](/img/product_docs/activitymonitor/activitymonitor/install/welcome.webp)
 
 There are no configurable settings on the Welcome page. Click **Next** to proceed to the Log Type
 page.

@@ -7,7 +7,7 @@ information regarding sensitive content that exists within SharePoint.
 
 The 1-SPSEEK SystemScans Job uses the SharePoint Access Data Collector for the following query:
 
-![The query for the 1-SPSEEK SystemScans Job](../../../../../../static/img/product_docs/accessanalyzer/solutions/sharepoint/collection/spseeksystemscansquery.webp)
+![The query for the 1-SPSEEK SystemScans Job](/img/product_docs/accessanalyzer/solutions/sharepoint/collection/spseeksystemscansquery.webp)
 
 The query for the 1-SPSEEK SystemScans Job is:
 
@@ -34,35 +34,35 @@ displays.
 
 **Step 3 –** Select the **Data Source** tab, and click **Configure**.
 
-![SharePoint Data Collection Settings](../../../../../../static/img/product_docs/accessanalyzer/solutions/sharepoint/collection/datacollectionsettingsspseek.webp)
+![SharePoint Data Collection Settings](/img/product_docs/accessanalyzer/solutions/sharepoint/collection/datacollectionsettingsspseek.webp)
 
 **Step 4 –** On the
-[SPAA: SharePoint Data Collection Settings](../../../admin/datacollector/spaa/settings.md) page,
+[SPAA: SharePoint Data Collection Settings](/docs/accessanalyzer/12.0/admin/datacollector/spaa/settings.md) page,
 customize as desired and click **Next**.
 
-![Scan Scoping Options](../../../../../../static/img/product_docs/accessanalyzer/admin/datacollector/spaa/scanscopingoptions.webp)
+![Scan Scoping Options](/img/product_docs/accessanalyzer/admin/datacollector/spaa/scanscopingoptions.webp)
 
 **Step 5 –** On the
-[SPAA: Scan Scoping Options](../../../admin/datacollector/spaa/scanscopingoptions.md) page, no web
+[SPAA: Scan Scoping Options](/docs/accessanalyzer/12.0/admin/datacollector/spaa/scanscopingoptions.md) page, no web
 applications or site collections have been added. If desired, limit the scope of the scan to
 specific web applications or site collections. Click **Next**.
 
-![Additional Scoping](../../../../../../static/img/product_docs/accessanalyzer/solutions/sharepoint/collection/additionalscopingspseek.webp)
+![Additional Scoping](/img/product_docs/accessanalyzer/solutions/sharepoint/collection/additionalscopingspseek.webp)
 
 **Step 6 –** On the
-[SPAA: Additional Scoping](../../../admin/datacollector/spaa/additionalscoping.md) page, **Limit
+[SPAA: Additional Scoping](/docs/accessanalyzer/12.0/admin/datacollector/spaa/additionalscoping.md) page, **Limit
 scanned depth to:** is selected with the default set at **2** levels. Customize this setting as
 desired and click **Next**.
 
-![Agent Settings](../../../../../../static/img/product_docs/activitymonitor/activitymonitor/install/agent/windowsagent.webp)
+![Agent Settings](/img/product_docs/activitymonitor/activitymonitor/install/agent/windowsagent.webp)
 
-**Step 7 –** On the [SPAA: Agent Settings](../../../admin/datacollector/spaa/agentsettings.md) page,
+**Step 7 –** On the [SPAA: Agent Settings](/docs/accessanalyzer/12.0/admin/datacollector/spaa/agentsettings.md) page,
 use the default settings unless an agent scan mode is desired. Click **Next**.
 
-![DLP Audit Settings](../../../../../../static/img/product_docs/accessanalyzer/solutions/sharepoint/collection/dlpauditsettingsspseek.webp)
+![DLP Audit Settings](/img/product_docs/accessanalyzer/solutions/sharepoint/collection/dlpauditsettingsspseek.webp)
 
 **Step 8 –** On the
-[SPAA: DLP Audit Settings](../../../admin/datacollector/spaa/dlpauditsettings.md) page, the default
+[SPAA: DLP Audit Settings](/docs/accessanalyzer/12.0/admin/datacollector/spaa/dlpauditsettings.md) page, the default
 setting is to **Don’t process files larger than: 2 MB** and to **Scan typical documents
 (recommended, fastest)**. These settings can be customized to adjust for scan time or database size.
 Click **Next**.
@@ -72,13 +72,13 @@ Click **Next**.
 .sty, .wps, .wpt, .yml, .tex, .pdf, .csv, .xlr, .xls, .xlsx, .gsheet, .nb, .numbers, .ods, .qpw,
 .sdc, .wks, .xlsb, .xltm, .xltx, .aws, .fods, .ots, .rdf, .sxc, .uos, .xlsm, .txt
 
-![Select DLP Criteria Page of the SPAA Data Collector Wizard](../../../../../../static/img/product_docs/accessanalyzer/solutions/sharepoint/collection/selectdlpcriteriaspseek.webp)
+![Select DLP Criteria Page of the SPAA Data Collector Wizard](/img/product_docs/accessanalyzer/solutions/sharepoint/collection/selectdlpcriteriaspseek.webp)
 
 **Step 9 –** On the
-[SPAA: Select DLP Criteria](../../../admin/datacollector/spaa/selectdlpcriteria.md) page, add or
+[SPAA: Select DLP Criteria](/docs/accessanalyzer/12.0/admin/datacollector/spaa/selectdlpcriteria.md) page, add or
 remove criteria as desired by either manually selecting criteria or using the **Select All** and
 **Clear All** buttons. Click **Next**. _(Optional)_ To create custom criteria, see the
-[Sensitive Data Criteria Editor](../../../sensitivedatadiscovery/criteriaeditor/overview.md) topic
+[Sensitive Data Criteria Editor](/docs/accessanalyzer/12.0/sensitivedatadiscovery/criteriaeditor/overview.md) topic
 for additional information.
 
 **CAUTION:** Do not configure the options on the Results page.

@@ -12,7 +12,7 @@ only support HTTP protocols.
 **NOTE:** Dell CEE can be installed on the same host as the activity agent, or on a different host.
 If it is installed on the same host, the activity agent can configure it automatically.
 
-![EMC CEE Options  Tab](../../../../../../../static/img/product_docs/activitymonitor/activitymonitor/admin/agents/properties/emcceeoptionstab.webp)
+![EMC CEE Options  Tab](/img/product_docs/activitymonitor/activitymonitor/admin/agents/properties/emcceeoptionstab.webp)
 
 The options are:
 

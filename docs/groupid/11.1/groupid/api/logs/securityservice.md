@@ -1,7 +1,7 @@
 # Security Service Logs
 
 This API fetches Directory Manager Security service logs. See the
-[Security Service](../../admincenter/service/securityservice/overview.md) topic for additional
+[Security Service](/docs/groupid/11.1/groupid/admincenter/service/securityservice/overview.md) topic for additional
 information on Security service.
 
 ## Endpoint

@@ -11,7 +11,7 @@ off**.
 ![A screenshot of a computer
 
 Description automatically
-generated](../../../../../../static/img/product_docs/policypak/policypak/leastprivilege/events/auditingsettings/discovery_for_elevated_apps_1.webp)
+generated](/img/product_docs/policypak/policypak/leastprivilege/events/auditingsettings/discovery_for_elevated_apps_1.webp)
 
 **NOTE:** At this time, Endpoint Policy Manager (formerly PolicyPak) Least Privilege Managerr
 Discovery cannot detect some scenarios that may trigger UAC prompts which should be recorded. These

@@ -2,10 +2,10 @@
 
 The Activity report at the Databases node displays activity across the databases logged during the
 selected date range. The **Include Subfolders** option is active by default until removed. See the
-[Results Pane](../../navigate/overview.md#results-pane) topic for information on changing this
+[Results Pane](/docs/accessinformationcenter/12.0/access/informationcenter/resourceaudit/navigate/overview.md#results-pane) topic for information on changing this
 option.
 
-![Activity report at the Databases node](../../../../../../../../static/img/product_docs/accessinformationcenter/access/informationcenter/resourceaudit/sql/databases/databasesactivity.webp)
+![Activity report at the Databases node](/img/product_docs/accessinformationcenter/access/informationcenter/resourceaudit/sql/databases/databasesactivity.webp)
 
 This report is comprised of the following columns:
 
@@ -30,4 +30,4 @@ This report is comprised of the following columns:
 - Process Name – Not populated for SQL Server reports
 
 The table data grid functions the same way as other table grids. See the
-[Data Grid Features](../../../../general/datagrid.md) topic for additional information.
+[Data Grid Features](/docs/accessinformationcenter/12.0/access/general/datagrid.md) topic for additional information.

@@ -5,13 +5,13 @@ Operator, and Filter value. A time period for the report data is also configured
 data sources have been configured, there is also a Source drop-down menu. Filter statements can be
 simple with one value statement or complex with multiple value statements.
 
-![Filters section of an investigation](../../../../../../../static/img/product_docs/threatmanager/threatmanager/administration/investigations/options/filterstm.webp)
+![Filters section of an investigation](/img/product_docs/threatmanager/threatmanager/administration/investigations/options/filterstm.webp)
 
 The section has the following options for configuring a filter statement:
 
 - Source – This menu provides a list of all integrations with the application. If there is only one
   data source configured, the Source menudisplays that only. See the
-  [Netwrix Integrations Page](../../configuration/integrations/netwrixintegrations.md) topic for
+  [Netwrix Integrations Page](/docs/threatmanager/3.0/threatmanager/administration/configuration/integrations/netwrixintegrations.md) topic for
   additional information.
 - Timeframe – This menu provides several timeframe options as well as a clock and a calendar for
   setting a custom range. You must set the timeframe for the data to be returned in the report. If
@@ -35,7 +35,7 @@ You must set a timeframe for an investigation query. When you run a query, the a
 available data for activity events that match the set filters for the specified timeframe. By
 default, the timeframe is set for the "Last Hour" of activity.
 
-![Investigations Interface showing the Timeframe drop-down menu](../../../../../../../static/img/product_docs/threatprevention/threatprevention/reportingmodule/investigations/options/timeframe.webp)
+![Investigations Interface showing the Timeframe drop-down menu](/img/product_docs/threatprevention/threatprevention/reportingmodule/investigations/options/timeframe.webp)
 
 Click the displayed timeframeto open a window, which provides several timeframe options as well as a
 clock and a calendar for setting a custom range:
@@ -88,7 +88,7 @@ to the selected investigation, unless you are running an ad hoc query.
 The Attribute menu in the Filters section has the following options grouped by the type of
 attribute:
 
-![attrributemenu](../../../../../../../static/img/product_docs/threatprevention/threatprevention/reportingmodule/investigations/options/attrributemenu.webp)
+![attrributemenu](/img/product_docs/threatprevention/threatprevention/reportingmodule/investigations/options/attrributemenu.webp)
 
 - Event ( group header in the menu):
 
@@ -173,7 +173,7 @@ attribute:
 
     - Policy – The set of rules or configurations applied within the integration., which may require
       Netwrix Threat Preventiondatabase access to be configured on the NetwrixIntegrations page. See
-      the [Netwrix Integrations Page](../../configuration/integrations/netwrixintegrations.md) page
+      the [Netwrix Integrations Page](/docs/threatmanager/3.0/threatmanager/administration/configuration/integrations/netwrixintegrations.md) page
       for additional information
 
 ## Filter Operator Menu
@@ -181,7 +181,7 @@ attribute:
 The options available for the Operator menu in the Filters section change to match the selected
 Attribute. The following is a list of all possible operator options:
 
-![Operator Menu in the investigations Filters section](../../../../../../../static/img/product_docs/threatprevention/threatprevention/reportingmodule/investigations/options/operatormenu.webp)
+![Operator Menu in the investigations Filters section](/img/product_docs/threatprevention/threatprevention/reportingmodule/investigations/options/operatormenu.webp)
 
 - Equals
 - Not Equal To
@@ -197,7 +197,7 @@ the steps to build a filter statement.
 
 **Step 1 –** Navigate to the desired investigation's Filters section.
 
-![filtersimple](../../../../../../../static/img/product_docs/threatprevention/threatprevention/reportingmodule/investigations/options/filtersimple.webp)
+![filtersimple](/img/product_docs/threatprevention/threatprevention/reportingmodule/investigations/options/filtersimple.webp)
 
 **Step 2 –** If multiple data sources are configure, select a source from the **Source** drop-down
 menu.
@@ -242,4 +242,4 @@ Once the filter is set, you can generate the report ad hoc by clicking **Run Que
 to test if your filter statement is working as desired. Save the investigation for reuse. You can
 also add subscriptions or export the report data using the options above the Filters section.
 
-See the [Investigation Reports](../reports.md) topic for additional information.
+See the [Investigation Reports](/docs/threatmanager/3.0/threatmanager/administration/investigations/reports.md) topic for additional information.

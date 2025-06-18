@@ -6,7 +6,7 @@ Endpoint Policy Manager can also be used to elevate situations within Windows it
 ![A screenshot of a computer
 
 Description automatically
-generated](../../../../../static/img/product_docs/policypak/policypak/leastprivilege/elevate/elevating_control_panel_applets.webp)
+generated](/img/product_docs/policypak/policypak/leastprivilege/elevate/elevating_control_panel_applets.webp)
 
 Next, consider a situation in which a Standard User may need access to the Device Manager and the
 Disk Defragmenter Control Panel applets. Make two policies (going through the wizard twice). The
@@ -16,21 +16,21 @@ privileges** as the action.
 ![A screenshot of a computer
 
 Description automatically
-generated](../../../../../static/img/product_docs/policypak/policypak/leastprivilege/elevate/elevating_control_panel_applets_1.webp)
+generated](/img/product_docs/policypak/policypak/leastprivilege/elevate/elevating_control_panel_applets_1.webp)
 
 The second time you run through the wizard, choose **Optimize Drives**,.
 
 ![A screenshot of a computer
 
 Description automatically
-generated](../../../../../static/img/product_docs/policypak/policypak/leastprivilege/elevate/elevating_control_panel_applets_2.webp)
+generated](/img/product_docs/policypak/policypak/leastprivilege/elevate/elevating_control_panel_applets_2.webp)
 
 The result of having gone through the wizard twice is the two MMC entries shown here.
 
 ![A screenshot of a calendar
 
 Description automatically
-generated](../../../../../static/img/product_docs/policypak/policypak/leastprivilege/elevate/elevating_control_panel_applets_3.webp)
+generated](/img/product_docs/policypak/policypak/leastprivilege/elevate/elevating_control_panel_applets_3.webp)
 
 At this point, GPupdate can be run and tested on the endpoint. You should bypass the UAC prompt and
 be prompted for Device Manager and the Disk Defragmenter, as shown here.
@@ -38,4 +38,4 @@ be prompted for Device Manager and the Disk Defragmenter, as shown here.
 ![A screenshot of a computer
 
 Description automatically
-generated](../../../../../static/img/product_docs/policypak/policypak/leastprivilege/elevate/elevating_control_panel_applets_4.webp)
+generated](/img/product_docs/policypak/policypak/leastprivilege/elevate/elevating_control_panel_applets_4.webp)

@@ -14,14 +14,14 @@ can then paste the key name into the **Compliance Hub** field.
 Click **Add new registry key** and type or paste the Key into monitor. Once you have added a Key to
 monitor, click **Insert** then **Save Settings to Device**.
 
-![PolicyTemplateRegistry](../../../../../../../static/img/product_docs/changetracker/changetracker/admin/settings/policytemplates/policytemplateregistry.webp)
+![PolicyTemplateRegistry](/img/product_docs/changetracker/changetracker/admin/settings/policytemplates/policytemplateregistry.webp)
 
 Like the **File Integrity** settings covered earlier, exclusion rules can be used, and Registry
 Trackers can also be filtered using a **Registry Key/Value Match Rule** and a **Tracked Attributes**
 dimension.
 
 Use the **Advanced Options** to create and edit new Definitions. See
-the[Registry Inclusion/Exclusion Match Rules ](../../matchrules/registryrules.md) topic for
+the[Registry Inclusion/Exclusion Match Rules ](/docs/changetracker/8.1/changetracker/admin/matchrules/registryrules.md) topic for
 additional information.
 
-![PolicyTemplateRegistryExclude](../../../../../../../static/img/product_docs/changetracker/changetracker/admin/settings/policytemplates/policytemplateregistryexclude.webp)
+![PolicyTemplateRegistryExclude](/img/product_docs/changetracker/changetracker/admin/settings/policytemplates/policytemplateregistryexclude.webp)

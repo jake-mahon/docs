@@ -10,18 +10,18 @@ individual points can also be changed later on. Separate sections are available 
 The first step is to define the authentication password for the Server Manager. The initial password
 is “admin”. A new password needs to be entered during startup – this new password should be securely
 and properly documented. It can be subsequently changed in the
-[General settings](../main_menu/general_settings.md).
+[General settings](/docs/passwordsecure/9.2/passwordsecure/configuration/server_manager/main_menu/general_settings.md).
 
-![setup-wizard-ac-en](../../../../../../../static/img/product_docs/passwordsecure/passwordsecure/configuration/server_manager/setupwizard/setup-wizard-ac-en.webp)
+![setup-wizard-ac-en](/img/product_docs/passwordsecure/passwordsecure/configuration/server_manager/setupwizard/setup-wizard-ac-en.webp)
 
 NOTE: The initial password is “admin”.
 
 #### License settings
 
 The second step is to complete the configuration for successively connecting to the licence server.
-This step can also be carried out later “in the [License settings](../main_menu/license_settings.md)
+This step can also be carried out later “in the [License settings](/docs/passwordsecure/9.2/passwordsecure/configuration/server_manager/main_menu/license_settings.md)
 
-![setup-wizard-ac-2-en](../../../../../../../static/img/product_docs/passwordsecure/passwordsecure/configuration/server_manager/setupwizard/setup-wizard-ac-2-en.webp)
+![setup-wizard-ac-2-en](/img/product_docs/passwordsecure/passwordsecure/configuration/server_manager/setupwizard/setup-wizard-ac-2-en.webp)
 
 “license.passwordsafe.de” should be entered in the field “Licence server”. The other access data
 (user name and password for the licence server will be sent to you by email).
@@ -33,9 +33,9 @@ the corresponding button.
 #### Database server
 
 The configuration of the database server is also part of the
-[Advanced settings](../main_menu/advanced_settings.md) and can also be edited there later on.
+[Advanced settings](/docs/passwordsecure/9.2/passwordsecure/configuration/server_manager/main_menu/advanced_settings.md) and can also be edited there later on.
 
-![setup-wizard-ac-3-en](../../../../../../../static/img/product_docs/passwordsecure/passwordsecure/configuration/server_manager/setupwizard/setup-wizard-ac-3-en.webp)
+![setup-wizard-ac-3-en](/img/product_docs/passwordsecure/passwordsecure/configuration/server_manager/setupwizard/setup-wizard-ac-3-en.webp)
 
 The database server must be specified along with the associated SQL instance. For simplicity, you
 can copy the server name from the login window of the SQL server.
@@ -47,10 +47,10 @@ The “Advanced” button allows you to specify a **Connection String.**
 #### SMTP server
 
 The last step is to configure the SMTP server via which all emails are sent. This is also part of
-the [Advanced settings](../main_menu/advanced_settings.md) should it be necessary to make changes
+the [Advanced settings](/docs/passwordsecure/9.2/passwordsecure/configuration/server_manager/main_menu/advanced_settings.md) should it be necessary to make changes
 later on.
 
-![setup-wizard-ac-4-en](../../../../../../../static/img/product_docs/passwordsecure/passwordsecure/configuration/server_manager/setupwizard/setup-wizard-ac-4-en.webp)
+![setup-wizard-ac-4-en](/img/product_docs/passwordsecure/passwordsecure/configuration/server_manager/setupwizard/setup-wizard-ac-4-en.webp)
 
 Once the data has been entered and successfully tested, the wizard can be completed by clicking on
 “Finish”.
@@ -64,5 +64,5 @@ module that need to be confirmed.
 
 **CAUTION:** It is recommended that you only confirm the security notes when the corresponding point
 has actually been carried out. It is absolutely essential to ensure that regular
-[Backup management](../main_menu/backup_settings/backup_management/backup_management.md) are created
-and the [Certificates](../certificates/certificates.md) are backed up.
+[Backup management](/docs/passwordsecure/9.2/passwordsecure/configuration/server_manager/main_menu/backup_settings/backup_management/backup_management.md) are created
+and the [Certificates](/docs/passwordsecure/9.2/passwordsecure/configuration/server_manager/certificates/certificates.md) are backed up.

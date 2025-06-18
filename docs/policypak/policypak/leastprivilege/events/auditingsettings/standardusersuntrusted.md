@@ -14,7 +14,7 @@ SecureRun™ was enabled.
 ![A screenshot of a computer
 
 Description automatically
-generated](../../../../../../static/img/product_docs/policypak/policypak/leastprivilege/events/auditingsettings/discovery_of_untrusted_standard.webp)
+generated](/img/product_docs/policypak/policypak/leastprivilege/events/auditingsettings/discovery_of_untrusted_standard.webp)
 
 The audit is only triggered when one of the following is true:
 

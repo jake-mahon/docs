@@ -17,12 +17,12 @@ all PowerShell executables are blocked.
 Below we have enabled the Default Block PowerShell collection from the PolicyPak Support Guidance
 download.
 
-![765_1_image-20211223014445-1](../../../../../static/img/product_docs/policypak/policypak/leastprivilege/powershell/765_1_image-20211223014445-1.webp)
+![765_1_image-20211223014445-1](/img/product_docs/policypak/policypak/leastprivilege/powershell/765_1_image-20211223014445-1.webp)
 
 But as you can see in the screenshot below, this alone does not stop the DLL from running, and the
 console window still opens, and is ready for PowerShell commands.
 
-![765_2_image-20211223014445-2](../../../../../static/img/product_docs/policypak/policypak/leastprivilege/powershell/765_2_image-20211223014445-2.webp)
+![765_2_image-20211223014445-2](/img/product_docs/policypak/policypak/leastprivilege/powershell/765_2_image-20211223014445-2.webp)
 
 These are the steps to block DLL processing:
 
@@ -36,15 +36,15 @@ Global DLL policy: Enabling the DLL processing.
 
 DLL policy: To block the execution of a DLL
 
-![765_3_image-20211223014445-3](../../../../../static/img/product_docs/policypak/policypak/leastprivilege/powershell/765_3_image-20211223014445-3.webp)
+![765_3_image-20211223014445-3](/img/product_docs/policypak/policypak/leastprivilege/powershell/765_3_image-20211223014445-3.webp)
 
 Now when a user tries to launch PowerShdll.DLL using Rundll32.exe, it will be blocked and they
 should see the following block messages:
 
 Windows:
 
-![765_4_image-20211223014445-4](../../../../../static/img/product_docs/policypak/policypak/leastprivilege/powershell/765_4_image-20211223014445-4.webp)
+![765_4_image-20211223014445-4](/img/product_docs/policypak/policypak/leastprivilege/powershell/765_4_image-20211223014445-4.webp)
 
 Netwrix Endpoint Policy Manager (formerly PolicyPak) message:
 
-![765_5_image-20211223014445-5](../../../../../static/img/product_docs/policypak/policypak/leastprivilege/powershell/765_5_image-20211223014445-5.webp)
+![765_5_image-20211223014445-5](/img/product_docs/policypak/policypak/leastprivilege/powershell/765_5_image-20211223014445-5.webp)

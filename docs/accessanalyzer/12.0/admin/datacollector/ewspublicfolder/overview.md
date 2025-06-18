@@ -3,7 +3,7 @@
 The EWSPublicFolder Data Collector provides configuration options to extract public folder contents,
 permissions, and sensitive data, and is preconfigured within the Exchange Solution. Both this data
 collector and the solution are available with a special Access Analyzer license. See the
-[Exchange Solution](../../../solutions/exchange/overview.md) topic for additional information.
+[Exchange Solution](/docs/accessanalyzer/12.0/solutions/exchange/overview.md) topic for additional information.
 
 Protocols
 
@@ -36,11 +36,11 @@ Wizard. The wizard contains the following pages:
 
 **NOTE:** The Category selected may alter the subsequent steps displayed by the wizard.
 
-- [EWSPublicFolder: Category](category.md)
-- [EWSPublicFolder: Options](options.md)
-- [EWSPublicFolder: SDD Options](sddoptions.md)
-- [EWSPublicFolder: Critieria](critieria.md)
-- [EWSPublicFolder: Filter](filter.md)
-- [EWSPublicFolder: Search Filter](searchfilter.md)
-- [EWSPublicFolder: Results](results.md)
-- [EWSPublicFolder: Summary](summary.md)
+- [EWSPublicFolder: Category](/docs/accessanalyzer/12.0/admin/datacollector/ewspublicfolder/category.md)
+- [EWSPublicFolder: Options](/docs/accessanalyzer/12.0/admin/datacollector/ewspublicfolder/options.md)
+- [EWSPublicFolder: SDD Options](/docs/accessanalyzer/12.0/admin/datacollector/ewspublicfolder/sddoptions.md)
+- [EWSPublicFolder: Critieria](/docs/accessanalyzer/12.0/admin/datacollector/ewspublicfolder/critieria.md)
+- [EWSPublicFolder: Filter](/docs/accessanalyzer/12.0/admin/datacollector/ewspublicfolder/filter.md)
+- [EWSPublicFolder: Search Filter](/docs/accessanalyzer/12.0/admin/datacollector/ewspublicfolder/searchfilter.md)
+- [EWSPublicFolder: Results](/docs/accessanalyzer/12.0/admin/datacollector/ewspublicfolder/results.md)
+- [EWSPublicFolder: Summary](/docs/accessanalyzer/12.0/admin/datacollector/ewspublicfolder/summary.md)

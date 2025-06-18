@@ -32,7 +32,7 @@
 
 - Please watch this video to help you determine your position and situation plus some advice on what
   to do.
-- Video: [Legacy License Retirement Guidance (for Feb 28, 2023)](../../video/license/legacy.md)
+- Video: [Legacy License Retirement Guidance (for Feb 28, 2023)](/docs/policypak/policypak/video/license/legacy.md)
 
 ## Where can I get UNIVERSAL licenses?
 
@@ -43,7 +43,7 @@
 - Therefore: You should be able to pick up your existing keys at portal.policypak.com. Example of
   how to find existing keys:
 
-    ![840_1_1](../../../../../static/img/product_docs/policypak/policypak/troubleshooting/license/840_1_1.webp)
+    ![840_1_1](/img/product_docs/policypak/policypak/troubleshooting/license/840_1_1.webp)
 
 - Only email [support@policypak.com](mailto:support@policypak.com) if you cannot locate your
   Universal license because it should already be in the Portal at portal.policypak.com.
@@ -53,7 +53,7 @@
 - Example download of valid dates with both Universal and Legacy keys, but only Universal keys will
   be honored past Feb 28, 2023:
 
-    ![840_2_2_950x572](../../../../../static/img/product_docs/policypak/policypak/troubleshooting/license/840_2_2_950x572.webp)
+    ![840_2_2_950x572](/img/product_docs/policypak/policypak/troubleshooting/license/840_2_2_950x572.webp)
 
 ## What must I do to keep PolicyPak working if I am affected?:
 
@@ -71,7 +71,7 @@
     - Use a Endpoint Policy Manager ADMX setting which will give you +90 days to implement the
       Universal license. See screen shot below:
 
-![1231_licenseadmxsetting](../../../../../static/img/product_docs/policypak/policypak/troubleshooting/license/1231_licenseadmxsetting.webp)
+![1231_licenseadmxsetting](/img/product_docs/policypak/policypak/troubleshooting/license/1231_licenseadmxsetting.webp)
 
 **NOTE:** This ADMX setting only affects CSE 3421 and later is only a stopgap measure if you
 literally have no way to transition from Legacy XML to Universal XML, but you do have some way to
@@ -79,14 +79,14 @@ update your CSE.
 
 - Please honor the philosophy of Rings and don't "blast out" an upgrade CSE to all of your computers
   at once so you can control a rollout or a rollback. Use
-  this guidance: [Using Rings to Test and Update the Endpoint Policy Manager Client-Side Extension and/or Cloud Client (And How to Stay Supported)](../../install/rings.md)
+  this guidance: [Using Rings to Test and Update the Endpoint Policy Manager Client-Side Extension and/or Cloud Client (And How to Stay Supported)](/docs/policypak/policypak/install/rings.md)
 
 ## How can I install UNIVERSAL licenses once I have downloaded them?
 
 - First, upgrade your Admin Console MMC snap in with the latest download from the portal. Only the
   latest Admin Consoles can import Universal licenses.
 - Video:
-  [How to install UNIVERSAL licenses for NEW Customers (via GPO, SCCM or MDM)](../../video/license/installuniversal.md)
+  [How to install UNIVERSAL licenses for NEW Customers (via GPO, SCCM or MDM)](/docs/policypak/policypak/video/license/installuniversal.md)
 
     **NOTE:**   You cannot import both Legacy and Universal licenses into the same GPO. You need
     separate GPOs for both license types. If you try to put both licenses into the same GPO you will
@@ -103,7 +103,7 @@ update your CSE.
   28, 2023.
 
     **NOTE:** Exact behavior when licenses expire can be seen here:
-    [What happens to each component when Endpoint Policy Manager gets unlicensed or the GPO or policy no longer applies?](../../license/unlicense/components.md)
+    [What happens to each component when Endpoint Policy Manager gets unlicensed or the GPO or policy no longer applies?](/docs/policypak/policypak/license/unlicense/components.md)
 
 ## What if I'm applying both Universal and Legacy licenses to an endpoint?
 
@@ -117,14 +117,14 @@ update your CSE.
 - Use the `PPUPDATE` command which will always show if you are Valid and licensing type.
 - Example of a machine getting Universal licenses successfully:
 
-    ![840_3_3_950x610](../../../../../static/img/product_docs/policypak/policypak/troubleshooting/license/840_3_3_950x610.webp)
+    ![840_3_3_950x610](/img/product_docs/policypak/policypak/troubleshooting/license/840_3_3_950x610.webp)
 
 - FAQ on error conditions:
-  [How can I tell how a machine is licensed (by GPO, MDM, or XML file), and also know for what components it is licensed?](components.md).
+  [How can I tell how a machine is licensed (by GPO, MDM, or XML file), and also know for what components it is licensed?](/docs/policypak/policypak/troubleshooting/license/components.md).
 - **NOTE:** The Latest CSE in the portal (build 3375) will also express Invalid licenses if any are
   applying to the machine. Example:
 
-    ![840_4_4_950x675](../../../../../static/img/product_docs/policypak/policypak/troubleshooting/license/840_4_4_950x675.webp)
+    ![840_4_4_950x675](/img/product_docs/policypak/policypak/troubleshooting/license/840_4_4_950x675.webp)
 
 ## Anything else I should know / Bugs & Known Issues?
 
@@ -135,7 +135,7 @@ This bug exists only in 3375 and doesn't exist in later version of the CSE, such
 
 In build 3375, you might see something like this when you test `PPUPDATE`.
 
-![840_5_image-20230126194031-1](../../../../../static/img/product_docs/policypak/policypak/troubleshooting/license/840_5_image-20230126194031-1.webp)
+![840_5_image-20230126194031-1](/img/product_docs/policypak/policypak/troubleshooting/license/840_5_image-20230126194031-1.webp)
 
 _Remember,_ this is a display bug in 3375 which has been removed in the latest CSE version. This
 message can safely be ignored.
@@ -152,11 +152,11 @@ be accepted after Feb 28th, 2023.”
 
 Example:
 
-![840_6_image-20230126194031-2_950x764](../../../../../static/img/product_docs/policypak/policypak/troubleshooting/license/840_6_image-20230126194031-2_950x764.webp)
+![840_6_image-20230126194031-2_950x764](/img/product_docs/policypak/policypak/troubleshooting/license/840_6_image-20230126194031-2_950x764.webp)
 
 What it is trying to say is that Legacy XML licenses are not honored beyond Feb 28, 2022.
 
 You can still use Universal licenses via GPO and/or MDM/XML method. The updated messaging from
 latest CSEs is as follows:
 
-![840_7_image_950x724](../../../../../static/img/product_docs/policypak/policypak/troubleshooting/license/840_7_image_950x724.webp)
+![840_7_image_950x724](/img/product_docs/policypak/policypak/troubleshooting/license/840_7_image_950x724.webp)

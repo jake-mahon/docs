@@ -17,29 +17,29 @@ Password masking
 
 The password masking follows the familiar logic of the client. Due to this function, reference
 should be made to the chapter of
-[Password masking](../../advanced_view/permissionconcept/predefining_rights/protective_mechanisms/password_masking/password_masking.md).
+[Password masking](/docs/passwordsecure/9.2/passwordsecure/configuration/advanced_view/permissionconcept/predefining_rights/protective_mechanisms/password_masking/password_masking.md).
 
 There are marginal differences in the operation. The privacy protection is fixed or edited via a
 button in the extended menu..
 
-![installation_with_parameters_183](../../../../../../../static/img/product_docs/passwordsecure/passwordsecure/configuration/web_applicaiton/authorization_and_protection/installation_with_parameters_183.webp)
+![installation_with_parameters_183](/img/product_docs/passwordsecure/passwordsecure/configuration/web_applicaiton/authorization_and_protection/installation_with_parameters_183.webp)
 
 The corresponding button is only displayed if the logged in user has the sufficient rights.
 
 If a record is provided with a privacy protection, this is shown in the header of the password.
 
-![installation_with_parameters_184](../../../../../../../static/img/product_docs/passwordsecure/passwordsecure/configuration/web_applicaiton/authorization_and_protection/installation_with_parameters_184.webp)
+![installation_with_parameters_184](/img/product_docs/passwordsecure/passwordsecure/configuration/web_applicaiton/authorization_and_protection/installation_with_parameters_184.webp)
 
 Seal
 
 The seals also correspond in function to the known logic of the client. In the chapter seal further
 explanations can be found. The
-[Seals](../../advanced_view/permissionconcept/predefining_rights/protective_mechanisms/seals/seals.md)
+[Seals](/docs/passwordsecure/9.2/passwordsecure/configuration/advanced_view/permissionconcept/predefining_rights/protective_mechanisms/seals/seals.md)
 are configured in the extended menu via a button.
 
-![installation_with_parameters_185](../../../../../../../static/img/product_docs/passwordsecure/passwordsecure/configuration/web_applicaiton/authorization_and_protection/installation_with_parameters_185.webp)
+![installation_with_parameters_185](/img/product_docs/passwordsecure/passwordsecure/configuration/web_applicaiton/authorization_and_protection/installation_with_parameters_185.webp)
 
 The button is only displayed for the users who have the rights to edit seals. If a record is sealed,
 this will be shown in the password field.
 
-![seal_wc](../../../../../../../static/img/product_docs/passwordsecure/passwordsecure/configuration/web_applicaiton/authorization_and_protection/seal_wc.webp)
+![seal_wc](/img/product_docs/passwordsecure/passwordsecure/configuration/web_applicaiton/authorization_and_protection/seal_wc.webp)

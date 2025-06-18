@@ -5,7 +5,7 @@ is to scan all objects.
 
 Open **Netwrix Dashboard** > **Scanners** > **Daily Scan Configuration**
 
-![Daily Scan configuration](../../../static/img/product_docs/strongpointforsalesforce/scanners/daily_scan.webp)
+![Daily Scan configuration](/img/product_docs/strongpointforsalesforce/scanners/daily_scan.webp)
 
 1. Select an optional **Category filter**.
 2. Select an optional **Sub-Category filter**.

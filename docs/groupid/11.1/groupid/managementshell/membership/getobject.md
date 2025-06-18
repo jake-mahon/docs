@@ -39,7 +39,7 @@ Example 2:
 
 The command below retrieves the object Event Management starting from the container Recruiting
 excluding its sub-containers using the credentials set in the $Credentials environment variable. See
-the [Set the $Credentials Environment Variable](../parameters/setthecredential.md) topic for setting
+the [Set the $Credentials Environment Variable](/docs/groupid/11.1/groupid/managementshell/parameters/setthecredential.md) topic for setting
 credentials in an environment variable.
 
 ```

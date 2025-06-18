@@ -6,11 +6,11 @@ Explorer 11.
 
 **NOTE:** To get an overview of Endpoint Policy Manager Browser Router's special policies for
 Microsoft Edge, please see
-[Endpoint Policy Manager and Edge ‘Special' policies](../../video/browserrouter/edgespecial.md).
+[Endpoint Policy Manager and Edge ‘Special' policies](/docs/policypak/policypak/video/browserrouter/edgespecial.md).
 
 The policies are **All intranet to IE** policy and **All Enterprise from Edge to IE** policy.
 
-![about_policypak_browser_router_36](../../../../../static/img/product_docs/policypak/policypak/browserrouter/internetexplorer/about_policypak_browser_router_36.webp)
+![about_policypak_browser_router_36](/img/product_docs/policypak/policypak/browserrouter/internetexplorer/about_policypak_browser_router_36.webp)
 
 The **All intranet to IE** policy takes all websites that are already defined in the Intranet zone
 and ensure that those sites open in Internet Explorer 11 if the user tries to use Microsoft Edge. In

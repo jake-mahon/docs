@@ -13,26 +13,26 @@ on the following pages in the portal:
     The schema attributes you specify would be available to portal users on the Filter Criteria tab
     of the Query Designer for building Smart Group/Dynasty queries.
 
-    ![filter_criteria_tab](../../../../../../../static/img/product_docs/groupid/groupid/admincenter/portal/design/filter_criteria_tab.webp)
+    ![filter_criteria_tab](/img/product_docs/groupid/groupid/admincenter/portal/design/filter_criteria_tab.webp)
 
 - The Sub-Manager Query Designer for a Recursive Managerial Dynasty, where you can specify a query
   for sub-manager selection.
 
-    ![submanagerquery](../../../../../../../static/img/product_docs/groupid/groupid/admincenter/portal/design/submanagerquery.webp)
+    ![submanagerquery](/img/product_docs/groupid/groupid/admincenter/portal/design/submanagerquery.webp)
 
 - The **Add Attributes** dialog box for Dynasties. The schema attributes you specify would be
   available in the _Group Items By_ field, which is used to divide the query results into groups.
   Directory Manager creates a new child group for each unique value of the attribute that users
   select in the _Group Items By_ field.
 
-    ![addattributes](../../../../../../../static/img/product_docs/accessanalyzer/admin/datacollector/addattributes.webp)
+    ![addattributes](/img/product_docs/accessanalyzer/admin/datacollector/addattributes.webp)
 
 - The Query Designer for importing members to a group using an external data source. The specified
   schema attributes would be available on the Filter Criteria tab of the Query Designer for building
   membership import queries.  
   You can launch this Query Designer using the **Import** button on the **Members** tab in group
   properties (for static groups, Smart Groups and Dynasties).  
-  ![importmembers](../../../../../../../static/img/product_docs/groupid/groupid/admincenter/portal/design/importmembers.webp)
+  ![importmembers](/img/product_docs/groupid/groupid/admincenter/portal/design/importmembers.webp)
 - The Query Designer for query-based search, where users can define a query to search the
   directory.  
   The schema attributes you specify would be available to portal users on the Filter Criteria tab of
@@ -86,14 +86,14 @@ You can also specify the following for an attribute:
    This box is not available when multiple attributes have been selected.
 9. Select a security role in the **Visibility Level** drop-down list. The attribute(s) would be
    visible to users of the selected role and roles with a priority value higher than the selected
-   role. See [Priority](../../securityrole/manage.md).  
+   role. See [Priority](/docs/groupid/11.1/groupid/admincenter/securityrole/manage.md).  
    Select _Never_ to hide the attribute(s) from all users.
 10. Use the **Display Type** drop-down list to specify the display type to use for enabling users to
     provide a value for the attribute(s) in the portal. For example, you can select a text box,
     drop-down list, or DN as display type. In case of DN, users can search and select a directory
     object as value for the attribute.  
     The list contains basic display types and custom display types defined on the **Custom Display
-    Types** page. See the [Display Type Categories](../displaytype/categories.md) topic.  
+    Types** page. See the [Display Type Categories](/docs/groupid/11.1/groupid/admincenter/portal/displaytype/categories.md) topic.  
     When multiple attributes are selected in the **Fields** box, this display type applies to each
     of them. You can edit an attribute later to apply a different display type.
 11. In the **ToolTip Text** box, enter the text to display when a user hovers the mouse over the
@@ -156,4 +156,4 @@ You can change the following for an attribute:
 
 See Also
 
-- [Design a Portal with Display Types](../displaytype/overview.md)
+- [Design a Portal with Display Types](/docs/groupid/11.1/groupid/admincenter/portal/displaytype/overview.md)

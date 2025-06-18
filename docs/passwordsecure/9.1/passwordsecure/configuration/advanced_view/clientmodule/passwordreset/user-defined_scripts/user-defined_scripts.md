@@ -22,7 +22,7 @@ The PowerShell scripts must have the following structure:
 
 Netwrix Password Secure always calls the RunScript function.
 
-[Copy](<javascript:void(0);>)
+[Copy](javascript:void(0);)
 
 ```
 function RunScript
@@ -53,7 +53,7 @@ It is important in this case that you provide Netwrix Password Secure with feedb
 been changed via a **Write-Output**. The following example simply uses the outputs **true** or
 **false**. However, it is also conceivable that an error message or similar is output.
 
-[Copy](<javascript:void(0);>)
+[Copy](javascript:void(0);)
 
 ```
     $scriptBlock = {param ($UserName, $Password)

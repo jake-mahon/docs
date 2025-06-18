@@ -13,7 +13,7 @@ The configuration of a new Password Reset comprises four steps. All of the neces
 variables for the configuration are defined in the following areas: "General", "Trigger", "Scripts"
 and "Linked passwords".
 
-![configuration password reset](../../../../../../../../../static/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/clientmodule/passwordreset/configuration/configuration_1-en.webp)
+![configuration password reset](/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/clientmodule/passwordreset/configuration/configuration_1-en.webp)
 
 ### General
 
@@ -43,7 +43,7 @@ applies.
 
 A new dialogue appears after the selection in which the type of system "to be reset2 can be defined.
 
-![new script password reset](../../../../../../../../../static/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/clientmodule/passwordreset/configuration/configuration_2-en.webp)
+![new script password reset](/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/clientmodule/passwordreset/configuration/configuration_2-en.webp)
 
 - **Script type**: You select here from the possible script types.
 - **Password**: The credentials for the record that will ultimately carry out the Password Reset.
@@ -60,4 +60,4 @@ All records that should be reset with the Password Reset according to the select
 listed under “Linked passwords”. Multiple objects can be entered. The linked Password Reset is also
 visible in the footer of the reading pane once it has been successfully configured.
 
-![new script password reset](../../../../../../../../../static/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/clientmodule/passwordreset/configuration/configuration_2-en.webp)
+![new script password reset](/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/clientmodule/passwordreset/configuration/configuration_2-en.webp)

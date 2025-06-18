@@ -12,7 +12,7 @@ three options:
   and unclickable when it is used within the Group Policy editor.
 - Leave the element as it is.
 
-![crafting_the_user_interface_15_624x362](../../../../../../../static/img/product_docs/policypak/policypak/applicationsettings/designstudio/userinterface/manualedits/crafting_the_user_interface_15_624x362.webp)
+![crafting_the_user_interface_15_624x362](/img/product_docs/policypak/policypak/applicationsettings/designstudio/userinterface/manualedits/crafting_the_user_interface_15_624x362.webp)
 
 Figure 74. Dealing with elements that cannot be controlled with Application Settings Manager.
 

@@ -25,16 +25,16 @@ already do this in step 1).
 - **For Windows** – Either use the MS Services Console Run > services.msc or use Command Line as
   Administrator: `sc stop NNTAgentService`
 
-![UpgradeAgentWindowsCommandPrompt](../../../../../../static/img/product_docs/changetracker/changetracker/install/agent/upgradeagentwindowscommandprompt.webp)
+![UpgradeAgentWindowsCommandPrompt](/img/product_docs/changetracker/changetracker/install/agent/upgradeagentwindowscommandprompt.webp)
 
 - **For Linux** – Use: `service nntagent stop`
 
 **Step 5 –** Install Gen 7 Agent. Review the following for additional information:
 
-- **Windows** – See the [Gen 7 Agent for Windows](../../requirements/gen7agentwindows.md) topic for
+- **Windows** – See the [Gen 7 Agent for Windows](/docs/changetracker/8.1/changetracker/requirements/gen7agentwindows.md) topic for
   additional information.
 
-- **Linux** – See the [Installing Gen 7 Agent for Linux](linuxos.md) topic for additional
+- **Linux** – See the [Installing Gen 7 Agent for Linux](/docs/changetracker/8.1/changetracker/install/agent/linuxos.md) topic for additional
   information.
 
 **Step 6 –** Uninstall old Agent App.

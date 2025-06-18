@@ -20,11 +20,11 @@ page for the organization is displayed with the Sources tab selected by default.
 **Step 3 –** On the Sources tab, click **Add** to add a source. The Select Data Source (Step 1 of 3)
 pane is displayed.
 
-![Select Data Source %28Step 1 of 3%29 pane](../../../../../static/img/product_docs/1secure/admin/organizations/sourcesandconnectors/addsources_exchange.webp)
+![Select Data Source %28Step 1 of 3%29 pane](/img/product_docs/1secure/admin/organizations/sourcesandconnectors/addsources_exchange.webp)
 
 **Step 4 –** Select **Active Directory** and click **Next**.
 
-![Configure Source Details %28Step 2 of 3%29 pane](../../../../../static/img/product_docs/1secure/admin/organizations/sourcesandconnectors/configuresourcedetails%28step2-3%29.webp)
+![Configure Source Details %28Step 2 of 3%29 pane](/img/product_docs/1secure/admin/organizations/sourcesandconnectors/configuresourcedetails(step2-3).webp)
 
 **Step 5 –** On the Configure source details (Step 2 of 3) pane, use the Site drop-down menu to
 select an existing site or add a new one. To add a new site, select the **Add new site** option from
@@ -32,19 +32,19 @@ the drop-down menu or click the **Add** icon.
 
 - When you choose to add a new site, you have to provide a name for it in the New site name field.
   Then click **Next** to proceed with configuring the agent for the site. See the
-  [Install Agent](../../../install/installagent.md) topic for details on configuring the agent,
+  [Install Agent](/docs/1secure/install/installagent.md) topic for details on configuring the agent,
   starting at Step 6.
 - When you select an existing site from the drop-down menu, one of the following happens:
 
     - If the agent has not been configured for the site, the system will proceed with the agent
-      configuration when you click _Next_. See the [Install Agent](../../../install/installagent.md)
+      configuration when you click _Next_. See the [Install Agent](/docs/1secure/install/installagent.md)
       topic for details on configuring the agent, starting at Step 6.
     - If the agent has already been configured for the site, the system will proceed with the Active
       Directory source and connector settings when you click _Next_.
 
 **Step 6 –** Click **Next**.
 
-![Configure Source Details %28Step 2 of 3%29 pane](../../../../../static/img/product_docs/1secure/admin/organizations/sourcesandconnectors/ad_configsourcedetails%28step2of3%29.webp)
+![Configure Source Details %28Step 2 of 3%29 pane](/img/product_docs/1secure/admin/organizations/sourcesandconnectors/ad_configsourcedetails(step2of3).webp)
 
 **Step 7 –** Specify the following settings:
 
@@ -70,29 +70,29 @@ the drop-down menu or click the **Add** icon.
 
 **Step 8 –**  Click **Next**.
 
-![Choose New Connector %28Step 3 of 3%29 pane](../../../../../static/img/product_docs/1secure/admin/organizations/sourcesandconnectors/ad_choosenewconnector.webp)
+![Choose New Connector %28Step 3 of 3%29 pane](/img/product_docs/1secure/admin/organizations/sourcesandconnectors/ad_choosenewconnector.webp)
 
 **Step 9 –** The Choose new connector (Step 3 of 3) pane lists three connectors for Active
 Directory. Specufy the following:
 
 - Active Directory Activity – Toggle the **Active Directory Activity** switch to ON to collect and
   monitor data for this connector. With this, you can generate activity reports on Active Directory
-  data. See the [Active Directory](../../searchandreports/activity.md#active-directory) topic for
+  data. See the [Active Directory](/docs/1secure/admin/searchandreports/activity.md#active-directory) topic for
   additional information.
 - Activity Directory Logons – Toggle the **Active Directory Logons** switch to ON to collect and
   monitor data for this connector. With this, you can generate logon reports on Active Directory
-  data. See the [Active Directory](../../searchandreports/activity.md#active-directory) topic for
+  data. See the [Active Directory](/docs/1secure/admin/searchandreports/activity.md#active-directory) topic for
   additional information.
 - Activity Directory State – Toggle the **Active Directory State** switch to ON to collect and
   monitor data for this connector. With this, you can generate state-in-time reports on Active
-  Directory data. See the [State In Time Risks Reports](../../searchandreports/stateintime.md) topic
+  Directory data. See the [State In Time Risks Reports](/docs/1secure/admin/searchandreports/stateintime.md) topic
   for additional information.
 
 **Step 10 –** Optionally, select the following for each connector:
 
 - Enable traffic network compression – Select this checkbox to enable traffic network compression
   for the connector. See the
-  [Network Traffic Compression](../../../configuration/networktrafficcompression.md) topic for
+  [Network Traffic Compression](/docs/1secure/configuration/networktrafficcompression.md) topic for
   additional information.
 
     **CAUTION:** If Netwrix Auditor and Netwrix 1Secure audit the same domain, make sure that the
@@ -102,7 +102,7 @@ Directory. Specufy the following:
 - Adjust audit settings automatically – Select this checkbox to adjust the audit settings
   automatically. With this approach, 1Secure will check your current audit settings at each data
   collection session and adjust them if necessary. See the
-  [Active Directory: automatic configuration](../../../configuration/activedirectory/auto.md) topic for
+  [Active Directory: automatic configuration](/docs/1secure/configuration/activedirectory/auto.md) topic for
   additional information.
 
 **Step 11 –** Click **Finish**.

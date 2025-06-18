@@ -2,13 +2,13 @@
 
 Below is an example of how you can configure Security Settings. You start by creating a real GPO:
 
-![580_1_q10-img-1](../../../../../static/img/product_docs/policypak/policypak/cloud/security/580_1_q10-img-1.webp)
+![580_1_q10-img-1](/img/product_docs/policypak/policypak/cloud/security/580_1_q10-img-1.webp)
 
 To configure Security Settings, start by opening the Group Policy Management Editor and create a
 real GPO.
 
 Then export using PP Settings Manager to an
-XML. [Endpoint Policy ManagerCloud: How to deploy Microsoft Group Policy Settings using Endpoint Policy Manager Cloud](../../video/cloud/deploy/grouppolicysettings.md)
+XML. [Endpoint Policy ManagerCloud: How to deploy Microsoft Group Policy Settings using Endpoint Policy Manager Cloud](/docs/policypak/policypak/video/cloud/deploy/grouppolicysettings.md)
 
 Then, upload it to PPCloud. This would make the specified cert a Trusted Root CA on the target
 machines.
@@ -21,4 +21,4 @@ you export, then deploy using PPCloud or Netwrix Endpoint Policy Manager (former
 
 Inside the exported XML you can see the certificate embedded like this and ready for use.
 
-![580_2_q10-img-2](../../../../../static/img/product_docs/policypak/policypak/cloud/security/580_2_q10-img-2.webp)
+![580_2_q10-img-2](/img/product_docs/policypak/policypak/cloud/security/580_2_q10-img-2.webp)

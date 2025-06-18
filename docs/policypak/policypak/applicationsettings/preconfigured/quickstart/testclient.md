@@ -26,7 +26,7 @@ perform.
 
 You can see the results in Figure 13.
 
-![policypak_application_settings_12](../../../../../../static/img/product_docs/policypak/policypak/applicationsettings/designstudio/quickstart/policypak_application_settings_12.webp)
+![policypak_application_settings_12](/img/product_docs/policypak/policypak/applicationsettings/designstudio/quickstart/policypak_application_settings_12.webp)
 
 Figure 13. The results of the Application Settings Manager setting changes.
 

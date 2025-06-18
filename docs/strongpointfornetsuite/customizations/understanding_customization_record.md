@@ -38,7 +38,7 @@ The main section of the Customization Record summarizes the key information for 
   open detailed view. For example, there could be multiple scripts and workflows that depend on this
   object. Click links to open detailed view as shown.
 
-![cust_ui_related_objects](../../../static/img/product_docs/strongpointfornetsuite/customizations/cust_ui_related_objects.webp)
+![cust_ui_related_objects](/img/product_docs/strongpointfornetsuite/customizations/cust_ui_related_objects.webp)
 
 ### Buttons
 
@@ -54,7 +54,7 @@ The main section of the Customization Record summarizes the key information for 
 The tabs provide detailed information about the customization:
 
 - **Detailed Metadata**: Details about the customization including Fields, Values, Bundle / SuiteApp
-  information, [Date Last Used](../clean_up/date_last_used.md), Last Used Status, and who uses the
+  information, [Date Last Used](/docs/strongpointfornetsuite/clean_up/date_last_used.md), Last Used Status, and who uses the
   customization. Information varies depending on the customization type. For example, Workflow
   customizations include States, Actions, and Workflow Fields not applicable when viewing Field
   customizations.
@@ -70,7 +70,7 @@ The tabs provide detailed information about the customization:
 
 This information is available on the Detailed Metadata tab for all customization types. They appear
 on the
-[Managed Bundle/App Updates](../change_management/change_management_reports.md#managed-bundleapp-updates)
+[Managed Bundle/App Updates](/docs/strongpointfornetsuite/change_management/change_management_reports.md#managed-bundleapp-updates)
 report.
 
 - _Managed Bundle/SuiteApps_ are pushed to target accounts by a third-party provider.
@@ -84,12 +84,12 @@ report.
 
 #### Detailed Metadata tab
 
-![cust_ui_detailed_metadata](../../../static/img/product_docs/strongpointfornetsuite/customizations/cust_ui_detailed_metadata.webp)
+![cust_ui_detailed_metadata](/img/product_docs/strongpointfornetsuite/customizations/cust_ui_detailed_metadata.webp)
 
 #### Detailed Metadata tab for Script Customizations
 
-![cust_ui_detailed_metadata_scripts](../../../static/img/product_docs/strongpointfornetsuite/customizations/cust_ui_detailed_metadata_scripts.webp)
+![cust_ui_detailed_metadata_scripts](/img/product_docs/strongpointfornetsuite/customizations/cust_ui_detailed_metadata_scripts.webp)
 
 #### Detailed Metadata tab with Data Sources Integration
 
-![cust_ui_detailed_metadata_data_sources](../../../static/img/product_docs/strongpointfornetsuite/customizations/cust_ui_detailed_metadata_data_sources.webp)
+![cust_ui_detailed_metadata_data_sources](/img/product_docs/strongpointfornetsuite/customizations/cust_ui_detailed_metadata_data_sources.webp)

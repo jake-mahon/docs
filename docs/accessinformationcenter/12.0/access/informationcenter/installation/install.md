@@ -9,16 +9,16 @@ information.
 **Step 1 –** Run the `AccessInformationCenter.exe` executable and the Netwrix Access Information
 Center Setup wizard opens.
 
-![Netwrix Access Information Center Setup Wizard Welcome page](../../../../../../static/img/product_docs/activitymonitor/activitymonitor/install/welcome.webp)
+![Netwrix Access Information Center Setup Wizard Welcome page](/img/product_docs/activitymonitor/activitymonitor/install/welcome.webp)
 
 **Step 2 –** On the Welcome page, click **Next** to begin the installation process.
 
-![AIC Setup Wizard End-User License Agreement page](../../../../../../static/img/product_docs/activitymonitor/activitymonitor/install/eula.webp)
+![AIC Setup Wizard End-User License Agreement page](/img/product_docs/activitymonitor/activitymonitor/install/eula.webp)
 
 **Step 3 –** On the End-User License Agreement page, select the **I accept the terms in the License
 Agreement** checkbox and click **Next**.
 
-![AIC Setup Wizard Destination Folder page](../../../../../../static/img/product_docs/activitymonitor/activitymonitor/install/destinationfolder.webp)
+![AIC Setup Wizard Destination Folder page](/img/product_docs/activitymonitor/activitymonitor/install/destinationfolder.webp)
 
 **Step 4 –** On the Destination Folder page, you can choose between the default destination folder
 and a custom folder. Click **Change** to browse for a different location. When the destination is
@@ -27,7 +27,7 @@ set as desired, click **Next**.
 **NOTE:** The default location is `C:\Program Files\STEALTHbits\Access Information Center\`. There
 are no specific requirements for changing the path.
 
-![AIC Setup Wizard SQL Server Connection page](../../../../../../static/img/product_docs/accessanalyzer/install/application/sqlserver.webp)
+![AIC Setup Wizard SQL Server Connection page](/img/product_docs/accessanalyzer/install/application/sqlserver.webp)
 
 **Step 5 –** On the SQL Server Connection page, provide the required database information. Click
 **Next** to test the connection to the SQL Server. If there are no errors, the next wizard page
@@ -53,10 +53,10 @@ opens.
 **NOTE:** The Server and Database information are available in the Access Analyzer Console in the
 **Settings** > **Storage** node, and will be auto-populated if installing the Access Information
 Center on the same server as Access Analyzer. The Database settings can be modified after
-installation. See the [Database Page](../admin/configuration/database.md) topic for additional
+installation. See the [Database Page](/docs/accessinformationcenter/12.0/access/informationcenter/admin/configuration/database.md) topic for additional
 information.
 
-![AIC Setup Wizard Configure Web Server page](../../../../../../static/img/product_docs/accessanalyzer/admin/action/survey/webserver.webp)
+![AIC Setup Wizard Configure Web Server page](/img/product_docs/accessanalyzer/admin/action/survey/webserver.webp)
 
 **Step 6 –** On the Configure Web Server page, select the URL protocol and port on which the
 application will be accessible.
@@ -73,7 +73,7 @@ Access Information Center.
 When the protocol and port are set as desired, click **Next**. If you selected the http option, skip
 to step 8.
 
-![AIC Setup Wizard Configure Server Certificate page](../../../../../../static/img/product_docs/accessinformationcenter/access/informationcenter/installation/servercertificate.webp)
+![AIC Setup Wizard Configure Server Certificate page](/img/product_docs/accessinformationcenter/access/informationcenter/installation/servercertificate.webp)
 
 **Step 7 –** On the Configure Server Certificate page, provide the certificate for the SSL binding.
 
@@ -82,13 +82,13 @@ to step 8.
     - Click **Browse** to open the file explorer window. Browse to the folder where the certificate
       is located and select the certificate, then click **Open**.
 
-        ![Certificate Password window](../../../../../../static/img/product_docs/accessinformationcenter/access/informationcenter/installation/certificatepassword.webp)
+        ![Certificate Password window](/img/product_docs/accessinformationcenter/access/informationcenter/installation/certificatepassword.webp)
 
     - On the Certificate Password window, enter the password for the certificate. Click **OK**.
     - The certificate information is displayed in the fields. Optionally, select the **Import the
       certificate to the personal on the local machine for local browsing** option.
 
-    ![Certificate Missing Private Key window](../../../../../../static/img/product_docs/accessinformationcenter/access/informationcenter/installation/certificatemissingprivatekey.webp)
+    ![Certificate Missing Private Key window](/img/product_docs/accessinformationcenter/access/informationcenter/installation/certificatemissingprivatekey.webp)
 
     **NOTE:** If the selected certificate resides in any of the Local Computer stores but does not
     have a private key, or if the certificate is not found in any of the stores, then it cannot be
@@ -96,29 +96,29 @@ to step 8.
     informing you that it will be imported to the Personal store. This means that the Import option
     is selected by default and grayed out to mandate the import of the certificate.
 
-    ![Valid certficate detected bound to the port](../../../../../../static/img/product_docs/accessinformationcenter/access/informationcenter/installation/servercertificatevalid.webp)
+    ![Valid certficate detected bound to the port](/img/product_docs/accessinformationcenter/access/informationcenter/installation/servercertificatevalid.webp)
 
 - If a valid certificate is already bound to the port used by the Access Information Center, then
   this is detected automatically and the fields are populated with the certificate information
   without needing to select the certificate or provide a password. The Import option is disabled.
 
-    ![Expired certificate detected bound to the port](../../../../../../static/img/product_docs/accessinformationcenter/access/informationcenter/installation/servercertificateexpired.webp)
+    ![Expired certificate detected bound to the port](/img/product_docs/accessinformationcenter/access/informationcenter/installation/servercertificateexpired.webp)
 
 - If an expired certificate is detected, the certificate information is populated, but a warning
   message is displayed. You must provide a new valid certificate, before you can continue.
 
 Once the certificate has been provided, click **Next** to continue.
 
-![AIC Setup Wizard Ready to install page](../../../../../../static/img/product_docs/activitymonitor/activitymonitor/install/ready.webp)
+![AIC Setup Wizard Ready to install page](/img/product_docs/activitymonitor/activitymonitor/install/ready.webp)
 
 **Step 8 –** On the Ready to install page, click **Install** to begin the process.
 
-![AIC Setup Wizard Completed page](../../../../../../static/img/product_docs/threatprevention/threatprevention/install/reportingmodule/completed.webp)
+![AIC Setup Wizard Completed page](/img/product_docs/threatprevention/threatprevention/install/reportingmodule/completed.webp)
 
 **Step 9 –** Once the installation has successfully completed, click **Finish** to exit the wizard.
 
 The installation wizard placed an Netwrix Access Information Center icon on the desktop. Now proceed
-to the [First Launch](../admin/firstlaunch.md) topic for next steps.
+to the [First Launch](/docs/accessinformationcenter/12.0/access/informationcenter/admin/firstlaunch.md) topic for next steps.
 
 **NOTE:** If SSL was enabled, the provided certificate was bound to the port and the Access
 Information Center desktop icon contains the appropriate URL to the secured site.

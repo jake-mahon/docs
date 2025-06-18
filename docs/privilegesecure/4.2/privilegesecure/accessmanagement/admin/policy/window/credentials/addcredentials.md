@@ -2,9 +2,9 @@
 
 The Add Credentials window provides a list of Credentials that have been onboarded and are not
 already present in the collection. Credentials are onboarded in the
-[Credentials Page](../../page/credentials.md).
+[Credentials Page](/docs/privilegesecure/4.2/privilegesecure/accessmanagement/admin/policy/page/credentials.md).
 
-![Add Credentials Window](../../../../../../../../../static/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/add/addcredentials.webp)
+![Add Credentials Window](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/add/addcredentials.webp)
 
 The window has the following features:
 
@@ -25,23 +25,23 @@ Both tables have the following columns:
 - Method — Indicates how the account is managed:
 
     - Automatic — Credential rotation is managed by Privilege Secure according to the change policy
-      for that platform type. See the [Platforms Page](../../page/platforms/overview.md) topic for
+      for that platform type. See the [Platforms Page](/docs/privilegesecure/4.2/privilegesecure/accessmanagement/admin/policy/page/platforms/overview.md) topic for
       additional information.
     - Manual — Credential rotation must be initiated manually with the Rotate Service Account
       button, or the credential must be manually updated on both the resource and in Privilege
-      Secure. See the [Service Accounts Page](../../../configuration/page/serviceaccounts.md)
+      Secure. See the [Service Accounts Page](/docs/privilegesecure/4.2/privilegesecure/accessmanagement/admin/configuration/page/serviceaccounts.md)
       section for information on updating credentials for Internal service accounts.
     - Not Managed — Not currently managed by Privilege Secure and no credentials have ever been
       stored
 
-    **NOTE:** See the [Rotation Methods](../../credentialrotationmethod.md) topic for additional
+    **NOTE:** See the [Rotation Methods](/docs/privilegesecure/4.2/privilegesecure/accessmanagement/admin/policy/credentialrotationmethod.md) topic for additional
     information.
 
 - Managed Type — Type of managed account:
 
     - Standard — Local or domain user account, including managed users created by activity sessions
     - Internal — Internal service account used by Privilege Secure with no dependencies. See the
-      [Service Accounts Page](../../../configuration/page/serviceaccounts.md) topic for additional
+      [Service Accounts Page](/docs/privilegesecure/4.2/privilegesecure/accessmanagement/admin/configuration/page/serviceaccounts.md) topic for additional
       information.
     - Service — Local or domain service account with one or more dependencies. Includes Internal
       service accounts with one or more dependencies.
@@ -51,7 +51,7 @@ Both tables have the following columns:
 - Age — Number of days since the last credential rotation or from when the password was first
   created
 - Status — Indicates if the account credentials have been verified by Privilege Secure. See the
-  [Platforms Page](../../page/platforms/overview.md) topic for additional information on configuring
+  [Platforms Page](/docs/privilegesecure/4.2/privilegesecure/accessmanagement/admin/policy/page/platforms/overview.md) topic for additional information on configuring
   a verification schedule.
 
     - Unspecified — Verification check has not run
@@ -93,7 +93,7 @@ The new credentials are added to the applicable group.
 Follow the steps to add credentials to a Credential Policy Override. In order for an account to be
 added to add credentials window, a credential must be managed with a method of **Automatic**. Only
 one account can be added to a Credential Policy Override at a time. See the
-[Manage Internal Service Accounts](manageinternalserviceaccount.md) topic for additional
+[Manage Internal Service Accounts](/docs/privilegesecure/4.2/privilegesecure/accessmanagement/admin/policy/window/credentials/manageinternalserviceaccount.md) topic for additional
 information.
 
 **Step 1 –** Navigate to the **Policy** > **Credentials** > Credential Groups page.

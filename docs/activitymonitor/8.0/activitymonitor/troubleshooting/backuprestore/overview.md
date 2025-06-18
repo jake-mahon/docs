@@ -3,9 +3,9 @@
 The Netwrix Activity Monitor is comprised of the following components:
 
 - Activity Monitor Console - Controls configuration settings. See the
-  [Administration](../../admin/overview.md)topic for additional information.
+  [Administration](/docs/activitymonitor/8.0/activitymonitor/admin/overview.md)topic for additional information.
 - Deployed Agents - Monitor targeted servers and domains. See the
-  [Agent Information](../../install/agents.md) topic for additional information.
+  [Agent Information](/docs/activitymonitor/8.0/activitymonitor/install/agents.md) topic for additional information.
 
 The configuration settings are stored on individual agents, and the console stores which agents have
 been deployed. Agents also store activity log files of monitored environments, which can optionally
@@ -14,7 +14,7 @@ Activity Monitor Console and the activity agents.
 
 The sections in this document are:
 
-- [Agent Backup](agentbackup.md)
-- [Agent Restoration](agentrestore.md)
-- [Console Backup](consolebackup.md)
-- [Console Restoration](consolerestore.md)
+- [Agent Backup](/docs/activitymonitor/8.0/activitymonitor/troubleshooting/backuprestore/agentbackup.md)
+- [Agent Restoration](/docs/activitymonitor/8.0/activitymonitor/troubleshooting/backuprestore/agentrestore.md)
+- [Console Backup](/docs/activitymonitor/8.0/activitymonitor/troubleshooting/backuprestore/consolebackup.md)
+- [Console Restoration](/docs/activitymonitor/8.0/activitymonitor/troubleshooting/backuprestore/consolerestore.md)

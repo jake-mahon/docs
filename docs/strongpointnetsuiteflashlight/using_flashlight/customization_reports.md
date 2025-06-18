@@ -21,7 +21,7 @@ NetSuite to apply a default value.
 This report provides a list of all customizations in the system that have Script IDs not aligned
 with NetSuite's best practices.
 
-![Customizations with Poor Script IDs](../../../static/img/product_docs/strongpointnetsuiteflashlight/using_flashlight/poorscriptids_800x284.webp)
+![Customizations with Poor Script IDs](/img/product_docs/strongpointnetsuiteflashlight/using_flashlight/poorscriptids_800x284.webp)
 
 To correct this issue on a specific customization record:
 
@@ -35,7 +35,7 @@ Each object in NetSuite should have a Description that explains what the object 
 used in the system. This report provides a list of all customizations in your account that have no
 description.
 
-![Customizations with Missing Descriptions](../../../static/img/product_docs/strongpointnetsuiteflashlight/using_flashlight/missingdescriptions_800x339.webp)
+![Customizations with Missing Descriptions](/img/product_docs/strongpointnetsuiteflashlight/using_flashlight/missingdescriptions_800x339.webp)
 
 To correct this issue on a specific customization record:
 
@@ -50,7 +50,7 @@ the organization. If an inactive employee is the owner of a field or record in t
 be harmful for your account. This report displays a list of all customizations in the system that
 currently have inactive employees as owners.
 
-![Customizations with Missing Active Owner](../../../static/img/product_docs/strongpointnetsuiteflashlight/using_flashlight/activeowners_800x314.webp)
+![Customizations with Missing Active Owner](/img/product_docs/strongpointnetsuiteflashlight/using_flashlight/activeowners_800x314.webp)
 
 To correct this issue on a specific customization record:
 
@@ -65,7 +65,7 @@ It is a best practice to include help text on your fields so that your employees
 understand what the field does and how to use it. This report displays a list of all the fields in
 the system that are missing help text.
 
-![Customizations with Missing Help](../../../static/img/product_docs/strongpointnetsuiteflashlight/using_flashlight/missinghelp_800x316.webp)
+![Customizations with Missing Help](/img/product_docs/strongpointnetsuiteflashlight/using_flashlight/missinghelp_800x316.webp)
 
 To correct this issue on a specific customization record:
 
@@ -79,4 +79,4 @@ To correct this issue on a specific customization record:
 This report displays a list of all customizations in your account that were deleted. This enables
 you to easily spot undesired removals and resolve them quickly.
 
-![Deleted Customizations](../../../static/img/product_docs/strongpointnetsuiteflashlight/using_flashlight/deletedcustos_800x309.webp)
+![Deleted Customizations](/img/product_docs/strongpointnetsuiteflashlight/using_flashlight/deletedcustos_800x309.webp)

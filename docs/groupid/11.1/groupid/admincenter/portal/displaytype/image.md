@@ -16,7 +16,7 @@ can be uploaded for this display type.
 
 A custom image display type is rendered on a portal page as:
 
-![photo_placeholder](../../../../../../../static/img/product_docs/groupid/groupid/admincenter/portal/displaytype/photo_placeholder.webp)
+![photo_placeholder](/img/product_docs/groupid/groupid/admincenter/portal/displaytype/photo_placeholder.webp)
 
 Click **Edit** to launch the **Manage Photo** dialog box for uploading a photo. The dialog box also
 provides many image editing options, including rotate, crop, flip, and re-size.
@@ -50,6 +50,6 @@ photos.
 
 **See Also**
 
-- [Design a Portal with Display Types](overview.md)
-- [Display Type Categories](categories.md)
-- [Define Custom Display Types](custom.md)
+- [Design a Portal with Display Types](/docs/groupid/11.1/groupid/admincenter/portal/displaytype/overview.md)
+- [Display Type Categories](/docs/groupid/11.1/groupid/admincenter/portal/displaytype/categories.md)
+- [Define Custom Display Types](/docs/groupid/11.1/groupid/admincenter/portal/displaytype/custom.md)

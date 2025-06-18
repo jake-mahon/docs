@@ -9,14 +9,14 @@ Manager Helper Tools via the included ADMX files:
 ![A screenshot of a computer
 
 Description automatically
-generated](../../../../../../static/img/product_docs/policypak/policypak/leastprivilege/tool/helper/using_the_policypak_least.webp)
+generated](/img/product_docs/policypak/policypak/leastprivilege/tool/helper/using_the_policypak_least.webp)
 
 ## ADMX Settings with the Printer Tool
 
 The ADMX setting prevents users from configuring Print Server Properties using the Endpoint Policy
 Manager Printers tool, and will block access to the button and window highlighted here.
 
-![using_the_policypak_least](../../../../../../static/img/product_docs/policypak/policypak/leastprivilege/tool/helper/using_the_policypak_least.webp)
+![using_the_policypak_least](/img/product_docs/policypak/policypak/leastprivilege/tool/helper/using_the_policypak_least.webp)
 
 ## ADMX Settings with the Remove Programs Tool
 
@@ -27,7 +27,7 @@ Netwrix or Endpoint Policy Manager-signed installed applications or components.
 ![A screenshot of a computer
 
 Description automatically
-generated](../../../../../../static/img/product_docs/policypak/policypak/leastprivilege/tool/helper/using_the_policypak_least_1.webp)
+generated](/img/product_docs/policypak/policypak/leastprivilege/tool/helper/using_the_policypak_least_1.webp)
 
 However, using the Endpoint Policy Manager Least Privilege Manager ADMX settings you can hide or
 reveal which applications are available for users to uninstall. This is possible by using one the
@@ -56,7 +56,7 @@ named Oracle and Oracle Corporation.
 ![A screenshot of a computer
 
 Description automatically
-generated](../../../../../../static/img/product_docs/policypak/policypak/leastprivilege/tool/helper/using_the_policypak_least_1.webp)
+generated](/img/product_docs/policypak/policypak/leastprivilege/tool/helper/using_the_policypak_least_1.webp)
 
 Next, using the same tool, you specify a value name of "\*Java\*" as the program name and a value
 of 1. Since we also want to hide programs with 171 in the name, you’ll need to specify a value name
@@ -65,7 +65,7 @@ of \*171\* with a value of 0 to specifically hide programs with this value in th
 ![A screenshot of a computer
 
 Description automatically
-generated](../../../../../../static/img/product_docs/policypak/policypak/leastprivilege/tool/helper/using_the_policypak_least_2.webp)
+generated](/img/product_docs/policypak/policypak/leastprivilege/tool/helper/using_the_policypak_least_2.webp)
 
 The result of these settings can be seen here, where only a limited number of programs are available
 for removal.
@@ -73,4 +73,4 @@ for removal.
 ![A screenshot of a computer
 
 Description automatically
-generated](../../../../../../static/img/product_docs/policypak/policypak/leastprivilege/tool/helper/using_the_policypak_least_2.webp)
+generated](/img/product_docs/policypak/policypak/leastprivilege/tool/helper/using_the_policypak_least_2.webp)

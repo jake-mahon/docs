@@ -4,7 +4,7 @@
 
 There are a total of four different export wizards.
 
-![installation_with_parameters_74_548x283](../../../../../../../../../static/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/mainmenu/export/export_wizard/installation_with_parameters_74_548x283.webp)
+![installation_with_parameters_74_548x283](/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/mainmenu/export/export_wizard/installation_with_parameters_74_548x283.webp)
 
 The functionality of these wizards only differs based on the data to be exported. A distinction is
 made between passwords, organisational structures, forms and applications. **As all four wizards are
@@ -14,7 +14,7 @@ remaining three wizards function in the same way.
 ## What is the password export wizard?
 
 This wizard allows records to be exported in standard.csv format. In contrast to the
-[HTML WebViewer export](../html_webviewer-export/html_webviewer_export.md), the resulting file is
+[HTML WebViewer export](/docs/passwordsecure/9.2/passwordsecure/configuration/advanced_view/mainmenu/export/html_webviewer-export/html_webviewer_export.md), the resulting file is
 not protected by a password. It goes without saying that this feature must be used carefully.
 
 ## Starting the password export wizard
@@ -25,10 +25,10 @@ The export wizard can be accessed in a variety of different ways:
   for which the registered user has the required permissions. If the user is an administrator with
   permissions for all records, the export will include all passwords in the database.
 - **Starting via the ribbon:** The export can also be started via the
-  [Ribbon](../../../operation_and_setup/ribbon/ribbon.md) in the
-  [Passwords](../../../clientmodule/passwords/passwords.md) module.
+  [Ribbon](/docs/passwordsecure/9.2/passwordsecure/configuration/advanced_view/operation_and_setup/ribbon/ribbon.md) in the
+  [Passwords](/docs/passwordsecure/9.2/passwordsecure/configuration/advanced_view/clientmodule/passwords/passwords.md) module.
 
-![Export ribbon](../../../../../../../../../static/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/mainmenu/export/export_wizard/installation_with_parameters_75-en.webp)
+![Export ribbon](/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/mainmenu/export/export_wizard/installation_with_parameters_75-en.webp)
 
 The password export wizard can be started via the ribbon in two ways. **Selected passwords** exports
 only those passwords marked in list view, whereby **Passwords based on the filter** uses the
@@ -39,7 +39,7 @@ The wizard
 A diverse range of variables for the export and the storage location can be defined in the wizard. A
 corresponding preview is also provided.
 
-![installation_with_parameters_76](../../../../../../../../../static/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/mainmenu/export/export_wizard/installation_with_parameters_76.webp)
+![installation_with_parameters_76](/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/mainmenu/export/export_wizard/installation_with_parameters_76.webp)
 
 Once the wizard has been completed, the desired export is created and saved to the defined storage
 location.

@@ -11,7 +11,7 @@ On several Select… windows, you must select a server where the Agent has been 
 windows present live information provided by the Agent. If no Agent is found, the window does not
 open.
 
-![Selection Window - Connect to Agent/Server option](../../../../../../../../static/img/product_docs/threatprevention/threatprevention/admin/policies/eventtype/window/selectagent.webp)
+![Selection Window - Connect to Agent/Server option](/img/product_docs/threatprevention/threatprevention/admin/policies/eventtype/window/selectagent.webp)
 
 The following rules can aid in selecting the correct Agent for the Select… window when configuring
 solution related policies:
@@ -26,7 +26,7 @@ solution related policies:
 
 Select a server/Agent from the drop-down menu and click **Connect**.
 
-![Selection Window - Browse mode](../../../../../../../../static/img/product_docs/threatprevention/threatprevention/admin/policies/eventtype/window/adperpetrators.webp)
+![Selection Window - Browse mode](/img/product_docs/threatprevention/threatprevention/admin/policies/eventtype/window/adperpetrators.webp)
 
 - Select the option button for **Browse Mode**.
 - Expand the domain tree in the Navigation pane to select a container. The Results pane populates
@@ -40,7 +40,7 @@ Select… window.
 
 Select a server/Agent from the drop-down menu and click **Connect**.
 
-![Selection Window - Search Mode](../../../../../../../../static/img/product_docs/threatprevention/threatprevention/admin/policies/eventtype/window/searchmode.webp)
+![Selection Window - Search Mode](/img/product_docs/threatprevention/threatprevention/admin/policies/eventtype/window/searchmode.webp)
 
 - Select the option button for **Search Mode**.
 - Expand the domain tree in the Navigation pane to select the starting point for the search, which

@@ -9,7 +9,7 @@ Step 1 – On the **Synchronized Jobs Collection** page, add jobs to the collect
 - To add an existing job to the collection, select **Add Existing Job(s)** dialog box. Select the
   check box next to the name of each job to be added and click **Add in Collection**.
 - To add a new job to the collection, select **Add New Job** dialog box. Follow the steps from
-  [Create a Job](../job/create.md).
+  [Create a Job](/docs/groupid/11.1/groupid/portal/synchronize/job/create.md).
 
 Step 2 – Rename the jobs in the job collection by clicking the **three vertical dots** button and
 click **Rename**.

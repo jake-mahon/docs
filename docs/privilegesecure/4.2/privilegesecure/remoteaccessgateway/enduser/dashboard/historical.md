@@ -2,7 +2,7 @@
 
 The Historical sessions dashboard shows all created sessions and their status.
 
-![historicaldashboardrag](../../../../../../../static/img/product_docs/privilegesecure/privilegesecure/remoteaccessgateway/enduser/dashboard/historicaldashboardrag.webp)
+![historicaldashboardrag](/img/product_docs/privilegesecure/privilegesecure/remoteaccessgateway/enduser/dashboard/historicaldashboardrag.webp)
 
 The Historical Sessions table has the following features:
 
@@ -21,7 +21,7 @@ The table has the following columns:
 
 - Actions — Contains icons for available actions:
 
-    - Expand icon — Click the expand (>) icon to show additional information
+    - Expand icon — Click the expand () icon to show additional information
     - Rocket icon — Launches the same session (same activity on the same resource with the same
       connection profile) for any historical session that is not a Credential-based session
 

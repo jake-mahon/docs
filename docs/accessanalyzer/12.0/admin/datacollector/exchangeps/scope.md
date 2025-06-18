@@ -2,7 +2,7 @@
 
 The Scope page establishes how mailboxes are scoped. It is a wizard page for all of the categories.
 
-![ExchangePS Data Collector Wizard Scope page](../../../../../../static/img/product_docs/activitymonitor/config/activedirectory/scope.webp)
+![ExchangePS Data Collector Wizard Scope page](/img/product_docs/activitymonitor/config/activedirectory/scope.webp)
 
 Available scoping options vary based on the category selected. Scoping options include:
 
@@ -10,7 +10,7 @@ Available scoping options vary based on the category selected. Scoping options i
   Organization
 
     - If this option is selected, then the data collector should be run against the host specified
-      on the Summary page. See the [ExchangePS: Summary](summary.md) topic for additional
+      on the Summary page. See the [ExchangePS: Summary](/docs/accessanalyzer/12.0/admin/datacollector/exchangeps/summary.md) topic for additional
       information.
     - When using the applet, the data collector gathers information about the Exchange Forest in
       which the Access Analyzer Console currently resides
@@ -21,10 +21,10 @@ Available scoping options vary based on the category selected. Scoping options i
 
 - Scope by Database Target Host: Local Host – Scope query to return results for specific databases.
   If this option is selected, the Scope by Database page is enabled in the wizard. See the
-  [ExchangePS: Scope by DB](scopedatabases.md) topic for additional information.
+  [ExchangePS: Scope by DB](/docs/accessanalyzer/12.0/admin/datacollector/exchangeps/scopedatabases.md) topic for additional information.
 - Scope by Mailbox Target Host: Local Host – Scope query to return results for specific mailboxes.
   If this option is selected, the Scope by Mailboxes page is enabled in the wizard. See the
-  [ExchangePS: Scope by Mailboxes](scopemailboxes.md) topic for additional information.
+  [ExchangePS: Scope by Mailboxes](/docs/accessanalyzer/12.0/admin/datacollector/exchangeps/scopemailboxes.md) topic for additional information.
 - Scope by Server Target Host: Exchange MB Server – Scope query to return results for specific
   servers selected in the job’s **Configure** > **Hosts** node
 
@@ -32,11 +32,11 @@ Available scoping options vary based on the category selected. Scoping options i
       PowerShell on that server
     - For Remote PowerShell, the data collector does not deploy anapplet and utilizes the WinRM
       protocol to gather information about the objects on that server. See the
-      [Remote PowerShell](./overview#remote-powershell) and
-      [The Exchange Applet](./overview#the-exchange-applet) topics for additional information.
+      [Remote PowerShell](/docs/accessanalyzer/12.0/admin/datacollector/exchangeps/overview#remote-powershell) and
+      [The Exchange Applet](/docs/accessanalyzer/12.0/admin/datacollector/exchangeps/overview#the-exchange-applet) topics for additional information.
 
 - Scope by Public Folder – Scope query to return results for specific Public Folders. If this option
   is selected, the Scope by Public Folders page is enabled in the wizard. See the
-  [ExchangePS: Scope by Public Folders](scopepublicfolders.md) topic for additional information.
+  [ExchangePS: Scope by Public Folders](/docs/accessanalyzer/12.0/admin/datacollector/exchangeps/scopepublicfolders.md) topic for additional information.
 - View entire forest when querying for objects – Select this checkbox to scan the entire forest when
   querying for objects

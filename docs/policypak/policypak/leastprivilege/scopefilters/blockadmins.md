@@ -1,7 +1,7 @@
 # Scenario 3: Running or Elevating Applications or Installers, but Blocking Other Admins from Running Them
 
 **NOTE:** For an overview video of this section, see the
-[Elevate apps as standard user, BLOCK other Admins](../../video/leastprivilege/bestpractices/appblock.md)
+[Elevate apps as standard user, BLOCK other Admins](/docs/policypak/policypak/video/leastprivilege/bestpractices/appblock.md)
 video .
 
 In this scenario you want to do work with Endpoint Policy Manager Least Privilege Manager (Elevate,
@@ -22,14 +22,14 @@ this.
 **NOTE:** This group is not available when editing a GPO from a DC, and only available when creating
 the GPO from a Windows endpoint computer.)
 
-![A screenshot of a computer Description automatically generated](../../../../../static/img/product_docs/policypak/policypak/leastprivilege/scopefilters/scenario_3_running_or_elevating.webp)
+![A screenshot of a computer Description automatically generated](/img/product_docs/policypak/policypak/leastprivilege/scopefilters/scenario_3_running_or_elevating.webp)
 
 If you want toblock both local admins and domain administrators, then Rule #1 needs to look like
 this.
 
-![A screenshot of a computer Description automatically generated](../../../../../static/img/product_docs/policypak/policypak/leastprivilege/scopefilters/scenario_3_running_or_elevating_1.webp)
+![A screenshot of a computer Description automatically generated](/img/product_docs/policypak/policypak/leastprivilege/scopefilters/scenario_3_running_or_elevating_1.webp)
 
 Again, rule 2, the rule that does the ELEVATE or ALLOW, is just a standard rule, and can be done on
 the user or computer side.
 
-![A screenshot of a computer Description automatically generated](../../../../../static/img/product_docs/policypak/policypak/leastprivilege/scopefilters/scenario_3_running_or_elevating_2.webp)
+![A screenshot of a computer Description automatically generated](/img/product_docs/policypak/policypak/leastprivilege/scopefilters/scenario_3_running_or_elevating_2.webp)

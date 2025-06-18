@@ -23,7 +23,7 @@ guide to install and configure the CEE. The installation will add two services t
 **_RECOMMENDED:_** The latest version of .NET Framework and Dell CEE is recommended to use with the
 asynchronous bulk delivery (VCAPS) feature.
 
-See the [CEE Debug Logs](../dellunity/Validate.md#cee-debug-logs) section for information on
+See the [CEE Debug Logs](/docs/activitymonitor/8.0/config/dellunity/Validate.md#cee-debug-logs) section for information on
 troubleshooting issues related to Dell CEE.
 
 After Dell CEE installation is complete, it is necessary to Connect Data Movers to the Dell CEE
@@ -37,7 +37,7 @@ manually set the Dell CEE registry key to forward events.
 
 **Step 1 –** Open the Registry Editor (run regedit).
 
-![registryeditor](../../../../../static/img/product_docs/activitymonitor/config/dellpowerstore/registryeditor.webp)
+![registryeditor](/img/product_docs/activitymonitor/config/dellpowerstore/registryeditor.webp)
 
 **Step 2 –** Navigate to following location:
 
@@ -61,7 +61,7 @@ StealthAUDIT@192.168.30.15
 
 **Step 7 –** Click OK. The Edit String window closes. Registry Editor can be closed.
 
-![services](../../../../../static/img/product_docs/activitymonitor/config/dellpowerstore/services.webp)
+![services](/img/product_docs/activitymonitor/config/dellpowerstore/services.webp)
 
 **Step 8 –** Open Services (run `services.msc`). Start or Restart the EMC CEE Monitor service.
 

@@ -7,7 +7,7 @@ directories, and then combine them in a job collection. Then you can execute the
 instead of executing each job one by one.
 
 To understand how workflows work with Synchronize jobs, see the
-[Synchronize Jobs and Workflows](../../../admincenter/workflow/overview.md#synchronize-jobs-and-workflows)
+[Synchronize Jobs and Workflows](/docs/groupid/11.1/groupid/admincenter/workflow/overview.md#synchronize-jobs-and-workflows)
 topic.
 
 ## Create a job Collection
@@ -16,16 +16,16 @@ Step 1 – On Directory Manager portal, select **Synchronize** on left pane.
 
 Step 2 – On the Synchronize portal, click **Create New** and then click **Job Collection.**
 
-Step 3 – On the [Choose your Job Template](chooseyourjobcollectiontemplate.md) page, enter job
+Step 3 – On the [Choose your Job Template](/docs/groupid/11.1/groupid/portal/synchronize/collection/chooseyourjobcollectiontemplate.md) page, enter job
 collection details and select whether to use a job collection template or create the job collection
 from scratch.
 
 Step 4 – Click **Next Step**
 
-Step 5 – On the [Synchronized Job Collection](synchronizedjobcollection.md) page, add jobs to the
+Step 5 – On the [Synchronized Job Collection](/docs/groupid/11.1/groupid/portal/synchronize/collection/synchronizedjobcollection.md) page, add jobs to the
 collection. You can either add existing jobs or create new jobs to add them to the job collection.
 
-Step 6 – On the [Scheduling and Notifications](schedulingandnotification.md) page, choose a schedule
+Step 6 – On the [Scheduling and Notifications](/docs/groupid/11.1/groupid/portal/synchronize/collection/schedulingandnotification.md) page, choose a schedule
 for a job collection and set up notification settings.
 
 NOTE: After creating the job collection, you can modify the schedule for the job collection and you
@@ -44,7 +44,7 @@ for which workflow is not configured. If workflow is configured for any job, the
 generated against that specific job.
 
 Step 11 – Generated workflow request will be displayed in the
-“[Requests](../../request/overview.md)” section for the workflow approver(s). If the approver
+“[Requests](/docs/groupid/11.1/groupid/portal/request/overview.md)” section for the workflow approver(s). If the approver
 approves the workflow request, the job will execute the results.
 
 Step 12 – **Run Job Collection** dialog box displays overall collection statistics for the run,

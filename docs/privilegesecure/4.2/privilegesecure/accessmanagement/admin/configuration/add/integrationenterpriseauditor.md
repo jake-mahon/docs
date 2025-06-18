@@ -69,7 +69,7 @@ used to get data from the Access Analyzer endpoint.
 ## Add Service Account for Enterprise Auditor Connector
 
 Follow the steps to add the service accounts for the Access Analyzer integration connector. See the
-[Add Service Account](serviceaccount.md) topic for additional information.
+[Add Service Account](/docs/privilegesecure/4.2/privilegesecure/accessmanagement/admin/configuration/add/serviceaccount.md) topic for additional information.
 
 **Step 1 –** In the Privilege Secure Console, navigate to the Configuration > Service Accounts page.
 
@@ -107,7 +107,7 @@ page.
 
 **Step 2 –** In the Integration Connector list, click the Add Integration Connector icon.
 
-![Add Enterprise Auditor Integration Connector](../../../../../../../../static/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/configuration/add/addenterpriseauditor.webp)
+![Add Enterprise Auditor Integration Connector](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/configuration/add/addenterpriseauditor.webp)
 
 **Step 3 –** Enter the following information:
 
@@ -136,9 +136,9 @@ page in the menu.
 **Step 2 –** In the Integration Connector list, select the previously created Enterprise Auditor
 Import connector.
 
-![enterpriseauditorconnector](../../../../../../../../static/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/configuration/add/enterpriseauditorconnector.webp)
+![enterpriseauditorconnector](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/configuration/add/enterpriseauditorconnector.webp)
 
 **Step 3 –** Click **Sync** **StealthAUDIT** to begin the data collection. This may take some time.
 
 To view the import progress, navigate to **Service Nodes** > Action Services. See the
-[Action Service](../servicetype/action.md) topic for additional information.
+[Action Service](/docs/privilegesecure/4.2/privilegesecure/accessmanagement/admin/configuration/servicetype/action.md) topic for additional information.

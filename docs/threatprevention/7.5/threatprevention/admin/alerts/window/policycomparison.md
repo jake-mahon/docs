@@ -13,7 +13,7 @@ Follow the steps to run a comparison.
 link in the Message column for an alert. The Policy Comparison window opens, where you can view the
 changes made to the policy against the respective alert.
 
-![olicy Comparison window ](../../../../../../../static/img/product_docs/threatprevention/threatprevention/admin/alerts/window/policycomparison.webp)
+![olicy Comparison window ](/img/product_docs/threatprevention/threatprevention/admin/alerts/window/policycomparison.webp)
 
 **Step 3 –** On the Policy Comparison windowthe old xml displays on the left and the modified xml on
 the right.

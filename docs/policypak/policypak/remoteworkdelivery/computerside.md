@@ -5,7 +5,7 @@ deliver scripts on the Computer side.
 
 There are two options when you create a script policy from the Computer side.
 
-![getting_to_know_policypak_34](../../../../static/img/product_docs/policypak/policypak/remoteworkdelivery/getting_to_know_policypak_34.webp)
+![getting_to_know_policypak_34](/img/product_docs/policypak/policypak/remoteworkdelivery/getting_to_know_policypak_34.webp)
 
 The two options to select from are:
 

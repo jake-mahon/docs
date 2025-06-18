@@ -29,12 +29,12 @@ These steps can be completed after the change request is approved.
 1. Open **Change Requests** and select the approved change request.
 2. Click **Deploy** in the tool bar. **Deploy** is only available for approved change requests.
 
-    ![Deploy Button in Tool Bar](../../../static/img/product_docs/strongpointforsalesforce/release_management/deploy.webp)
+    ![Deploy Button in Tool Bar](/img/product_docs/strongpointforsalesforce/release_management/deploy.webp)
 
 3. Select the **Source** (from) environment and **Target** (to) environment.
 4. Enter your credentials for both environments.
 
-    ![Deployment Tool](../../../static/img/product_docs/strongpointforsalesforce/release_management/deployment_tool.webp)
+    ![Deployment Tool](/img/product_docs/strongpointforsalesforce/release_management/deployment_tool.webp)
 
 5. Click **Test Connection** for both environments to ensure your credentials are correct. If your
    credentials are not correct, you can click on **Save Credentials** and edit.
@@ -43,7 +43,7 @@ These steps can be completed after the change request is approved.
 7. **Save** the Deployment Record.
 8. Click **Submit for Approval**
 
-    ![Submit Deployment Record for Approval](../../../static/img/product_docs/strongpointforsalesforce/release_management/deploy.webp)
+    ![Submit Deployment Record for Approval](/img/product_docs/strongpointforsalesforce/release_management/deploy.webp)
 
 ## Deploy the Changes
 
@@ -52,11 +52,11 @@ These steps can be completed after the deployment record is approved.
 1. Open **Change Requests** and select the approved deployment record.
 2. Click **Deploy Changes**
 
-    ![Deploy the Approved Changes](../../../static/img/product_docs/strongpointforsalesforce/release_management/deployment_tool-2.webp)
+    ![Deploy the Approved Changes](/img/product_docs/strongpointforsalesforce/release_management/deployment_tool-2.webp)
 
 3. Click **Retrieve Selected Customizations**
 
-    ![Retrieve the Selected Customizations](../../../static/img/product_docs/strongpointforsalesforce/release_management/deployment_tool-3.webp)
+    ![Retrieve the Selected Customizations](/img/product_docs/strongpointforsalesforce/release_management/deployment_tool-3.webp)
 
     This creates a package to:
 
@@ -70,14 +70,14 @@ These steps can be completed after the deployment record is approved.
 5. Click **Deploy Retrieved Customizations** to start the deployment. This may take some time, since
    it runs the test cases into the target environment.
 
-    ![Run the Deployment](../../../static/img/product_docs/strongpointforsalesforce/release_management/deployment_tool-4.webp)
+    ![Run the Deployment](/img/product_docs/strongpointforsalesforce/release_management/deployment_tool-4.webp)
 
 ## Complete the Process
 
 When the deployment process is finished:
 
-1. Check the [Deployment Logs](deployment_logs.md).
+1. Check the [Deployment Logs](/docs/strongpointforsalesforce/release_management/deployment_logs.md).
 2. Fix any errors and repeat the deployment if needed.
 3. Once the deployment is successful, open the change request and set the status to **Completed**.
 
-    ![Complete the Process](../../../static/img/product_docs/strongpointforsalesforce/release_management/deployment_tool-5.webp)
+    ![Complete the Process](/img/product_docs/strongpointforsalesforce/release_management/deployment_tool-5.webp)

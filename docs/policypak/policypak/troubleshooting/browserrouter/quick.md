@@ -28,7 +28,7 @@ You need a GPO to make the routes. Make sure the following is true:
 In this example, the GPO has data / routes on the user side and is correctly linked to where users
 reside (West Sales Users.)
 
-![55_1_image007](../../../../../static/img/product_docs/policypak/policypak/troubleshooting/browserrouter/55_1_image007.webp)
+![55_1_image007](/img/product_docs/policypak/policypak/troubleshooting/browserrouter/55_1_image007.webp)
 
 **Step 3 –** Verifying you GOT the GPOs… one for licensing and one for the routes.
 
@@ -37,7 +37,7 @@ Run `GPresult /R `two times:
 - AS an ADMIN and verify that you got the LICENSING GPO.
 - As the USER and verify you got the GPO with the Endpoint Policy Manager Browser Router data.
 
-![55_2_image008-1024x395](../../../../../static/img/product_docs/policypak/policypak/troubleshooting/browserrouter/55_2_image008-1024x395.webp)
+![55_2_image008-1024x395](/img/product_docs/policypak/policypak/troubleshooting/browserrouter/55_2_image008-1024x395.webp)
 
 **Step 4 –** Is Endpoint Policy Manager Browser Router the "default browser" ?
 
@@ -47,17 +47,17 @@ In DEFAULT PROGRAMS, verify that PPBRAgent is the Default Browser for HTTP and H
 
 **CAUTION:** For Non-Domain Joined machines, we (PolicyPak) cannot set this automatically. For more
 information on this
-problem, [Which Endpoint Policy Manager items will not work when the computer is non-domain joined (or the computer is NEVER connected to the Internet)?](../nondomain/limitations.md)
+problem, [Which Endpoint Policy Manager items will not work when the computer is non-domain joined (or the computer is NEVER connected to the Internet)?](/docs/policypak/policypak/troubleshooting/nondomain/limitations.md)
 
 For Domain joined Windows 10, Look at Default Programs here,
 
-![55_3_image](../../../../../static/img/product_docs/policypak/policypak/troubleshooting/browserrouter/55_3_image.webp)
+![55_3_image](/img/product_docs/policypak/policypak/troubleshooting/browserrouter/55_3_image.webp)
 
 For Domain Joined Windows 7, check Default Programs as seen here,
 
-![55_4_image013](../../../../../static/img/product_docs/policypak/policypak/troubleshooting/browserrouter/55_4_image013.webp)
+![55_4_image013](/img/product_docs/policypak/policypak/troubleshooting/browserrouter/55_4_image013.webp)
 
-![55_5_image014](../../../../../static/img/product_docs/policypak/policypak/troubleshooting/browserrouter/55_5_image014.webp)
+![55_5_image014](/img/product_docs/policypak/policypak/troubleshooting/browserrouter/55_5_image014.webp)
 
 CHECKPOINT: If PPBRAGENT is not the default for HTTP and HTTPS then, run `GPupdate /force` then
 REBOOT the computer.
@@ -78,11 +78,11 @@ Common reasons:
 As the USER, go to `Appdata\Local\PolicyPak\PolicyPak Browser Router` and verify that ANY logs exist
 as seen here.
 
-![55_6_image009](../../../../../static/img/product_docs/policypak/policypak/troubleshooting/browserrouter/55_6_image009.webp)
+![55_6_image009](/img/product_docs/policypak/policypak/troubleshooting/browserrouter/55_6_image009.webp)
 
 Open the LATEST-created file (by date) for inspection.
 
-![55_7_image010](../../../../../static/img/product_docs/policypak/policypak/troubleshooting/browserrouter/55_7_image010.webp)
+![55_7_image010](/img/product_docs/policypak/policypak/troubleshooting/browserrouter/55_7_image010.webp)
 
 **Step 6 –** Checking what Endpoint Policy Manager Browser Router thinks are your routes. Endpoint
 Policy Manager Browser Router can take routes from various sources and multiple GPOs and/or files
@@ -92,7 +92,7 @@ Ultimately those rules are boiled down to one file: `ppBRresults.xml.`
 
 You should manually inspect this to verify that routes are generated as expected.
 
-![55_8_image011-1024x487](../../../../../static/img/product_docs/policypak/policypak/troubleshooting/browserrouter/55_8_image011-1024x487.webp)
+![55_8_image011-1024x487](/img/product_docs/policypak/policypak/troubleshooting/browserrouter/55_8_image011-1024x487.webp)
 
 **Step 7 –** Getting more help (exactly what to do and attach THREE THINGS).
 
@@ -101,7 +101,7 @@ You should manually inspect this to verify that routes are generated as expected
 - It’s good to take a screen shot too, so we can see what you’re trying to; computer or user side.
 - Attach / send both your SCREEN SHOT and your XML EXPORT file to your support case.
 
-![55_9_image001-1](../../../../../static/img/product_docs/policypak/policypak/troubleshooting/browserrouter/55_9_image001-1.webp)
+![55_9_image001-1](/img/product_docs/policypak/policypak/troubleshooting/browserrouter/55_9_image001-1.webp)
 
 Then, run `PPLOGS` twice:
 
@@ -110,7 +110,7 @@ Then, run `PPLOGS` twice:
 - Use a NORMAL command prompt and run `PPLOGS`. Rename to` ppLogs-as-USER.zip`. Attach to your
   support case.
 
-![55_10_image0012-1024x593](../../../../../static/img/product_docs/policypak/policypak/troubleshooting/browserrouter/55_10_image0012-1024x593.webp)
+![55_10_image0012-1024x593](/img/product_docs/policypak/policypak/troubleshooting/browserrouter/55_10_image0012-1024x593.webp)
 
 **NOTE:** If your email system strips ZIP files, rename it to `.ZIPP` or `.TXT` or whatever you
 want.

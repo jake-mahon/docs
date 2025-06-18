@@ -4,14 +4,14 @@ Configuration of all administrative and user settings is performed here. Select 
 the left for specific settings – contact [Netwrix Support](https://www.netwrix.com/support.html) for
 additional information.
 
-- [Agents and Devices](agentsanddevices.md) – Edit Device attributes such as Group, Type and
+- [Agents and Devices](/docs/changetracker/8.1/changetracker/admin/settings/agentsanddevices.md) – Edit Device attributes such as Group, Type and
   Credentials, or Delete Devices
-- [](#)[Device Groups](devicegroups.md) – Administer Device Group names. Click on a Device Group to
+- [](#)[Device Groups](/docs/changetracker/8.1/changetracker/admin/settings/devicegroups.md) – Administer Device Group names. Click on a Device Group to
   edit the assigned Device Tracking template and Compliance Report, and to set the reporting
   schedule
-- [Scheduling, Creating and Editing Intelligent Planned Change Rules](../tabs/plannedchangeadministration.md#scheduling-creating-and-editing-intelligent-planned-change-rules)
+- [Scheduling, Creating and Editing Intelligent Planned Change Rules](/docs/changetracker/8.1/changetracker/admin/tabs/plannedchangeadministration.md#scheduling-creating-and-editing-intelligent-planned-change-rules)
   – Edit the Schedule, Device Group assignment and Rules for Planned Changes
-- [Policy Templates](policytemplates/overview.md) – Edit and upload/download configuration policy
+- [Policy Templates](/docs/changetracker/8.1/changetracker/admin/settings/policytemplates/overview.md) – Edit and upload/download configuration policy
   templates
 
     - Edit and upload/download compliance report templates
@@ -20,21 +20,21 @@ additional information.
 
 - Users: User Administration – Edit User attributes such as username, assigned system privileges,
   email address and to assign users to Notification Groups for Alerts and Scheduled Reports.
-- [Notification Messages Explained](../credentials/notificationmessages.md) – Alert routing
+- [Notification Messages Explained](/docs/changetracker/8.1/changetracker/admin/credentials/notificationmessages.md) – Alert routing
   settings.
-- [Agent Updates](agentupdates.md) – Upload new agent versions.
-- [Agent Updates](agentupdates.md) – Administer templates and rules for Agent registration and Group
+- [Agent Updates](/docs/changetracker/8.1/changetracker/admin/settings/agentupdates.md) – Upload new agent versions.
+- [Agent Updates](/docs/changetracker/8.1/changetracker/admin/settings/agentupdates.md) – Administer templates and rules for Agent registration and Group
   assignment.
-- [Allowed Commands](allowedcommands.md) – Administer list of commands used in trackers/reports.
-- [System Settings](systemsettings.md) – Edit settings such as SMTP details and to reset the UI to
+- [Allowed Commands](/docs/changetracker/8.1/changetracker/admin/settings/allowedcommands.md) – Administer list of commands used in trackers/reports.
+- [System Settings](/docs/changetracker/8.1/changetracker/admin/settings/systemsettings.md) – Edit settings such as SMTP details and to reset the UI to
   Default.
-- [System Settings](systemsettings.md) – Schedule system backups, and exports for Support and
+- [System Settings](/docs/changetracker/8.1/changetracker/admin/settings/systemsettings.md) – Schedule system backups, and exports for Support and
   Planned Change archiving.
-- [System Settings](systemsettings.md) – Displays health of Netwrix Change Tracker system and Event
+- [System Settings](/docs/changetracker/8.1/changetracker/admin/settings/systemsettings.md) – Displays health of Netwrix Change Tracker system and Event
   Queue performance.
-- [System Settings](systemsettings.md) – Upload new license key.
+- [System Settings](/docs/changetracker/8.1/changetracker/admin/settings/systemsettings.md) – Upload new license key.
 
 ![Graphical user interface, website
 
 Description automatically
-generated](../../../../../../static/img/product_docs/changetracker/changetracker/admin/settings/page_guide_23.webp)
+generated](/img/product_docs/changetracker/changetracker/admin/settings/page_guide_23.webp)

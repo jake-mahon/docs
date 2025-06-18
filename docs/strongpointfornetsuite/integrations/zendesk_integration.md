@@ -39,27 +39,27 @@ app.
 2. Click the **Admin** icon in the left panel.
 3. Navigate to **Apps** > **Marketplace**.
 
-    ![Open the Zendesk Marketplace](../../../static/img/product_docs/strongpointfornetsuite/integrations/zendesk_admin_marketplace.webp)
+    ![Open the Zendesk Marketplace](/img/product_docs/strongpointfornetsuite/integrations/zendesk_admin_marketplace.webp)
 
 4. Search for **Strongpoint**.
 5. Click **Strongpoint for NetSuite** when it is displayed.
 
-    ![Strongpoint for NetSuite app in the Marketplace](../../../static/img/product_docs/strongpointfornetsuite/integrations/zendesk_strongpoint.webp)
+    ![Strongpoint for NetSuite app in the Marketplace](/img/product_docs/strongpointfornetsuite/integrations/zendesk_strongpoint.webp)
 
 6. Click **Install**. When installation is complete, you are prompted to sign in to your Zendesk
    dashboard to continue.
 7. Click the **Admin** icon in the left panel.
 8. Navigate to **Apps** > **Manage**.
 
-    ![Configure the Strongpoint Zendesk app](../../../static/img/product_docs/strongpointfornetsuite/integrations/zendesk_configure_app.webp)
+    ![Configure the Strongpoint Zendesk app](/img/product_docs/strongpointfornetsuite/integrations/zendesk_configure_app.webp)
 
 9. Hover on the **Strongpoint for NetSuite** tile to access the **Settings** menu.
 
-    ![Hover to access the Settings](../../../static/img/product_docs/strongpointfornetsuite/integrations/zendesk_configure_app_menu.webp)
+    ![Hover to access the Settings](/img/product_docs/strongpointfornetsuite/integrations/zendesk_configure_app_menu.webp)
 
 10. Click **Change settings**.
 
-    ![Set up the Strongpoint for NetSuite Zendesk app](../../../static/img/product_docs/strongpointfornetsuite/integrations/zendesk_change_settings.webp)
+    ![Set up the Strongpoint for NetSuite Zendesk app](/img/product_docs/strongpointfornetsuite/integrations/zendesk_change_settings.webp)
 
     - **Title**: the name associated with the app. The default is **Strongpoint for NetSuite**.
     - Account ID: enter the NetSuite account ID. The **Account ID** must be a lowercase string. For
@@ -104,4 +104,4 @@ After you install the Zendesk app, set up the approvals.
     - **Approval process** select the approval process to use. **Strongpoint Approval in Zendesk**,
       **Strongpoint Approval in NetSuite**, **No Appoval Needed**, or **Not set**.
 
-**Next Step:** [ Zendesk Walkthrough Example](zendesk_walkthrough_example.md)
+**Next Step:** [ Zendesk Walkthrough Example](/docs/strongpointfornetsuite/integrations/zendesk_walkthrough_example.md)

@@ -22,10 +22,10 @@ additional owners specified for the group.
 
 GroupID sends group expiry, deletion, and renewal notifications to all Exchange additional owners
 along with the group’s primary owner and additional owners. See
-[Group properties - Owner tab](owner.md) in group properties.
+[Group properties - Owner tab](/docs/groupid/11.1/groupid/portal/group/properties/owner.md) in group properties.
 
 - Click **Add** to add an Exchange additional owner. Enter a search string to locate the required
-  object, or click **Advance** to use the [Find Dialog Box](../../search/find.md) for performing a
+  object, or click **Advance** to use the [Find Dialog Box](/docs/groupid/11.1/groupid/portal/search/find.md) for performing a
   search.
 - To remove an Exchange additional owner, select it and click **Remove**.
 

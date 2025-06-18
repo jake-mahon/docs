@@ -7,7 +7,7 @@ below (borrowed from
 [https://docs.microsoft.com/en-us/azure/active-directory/devices/concept-azure-ad-join-hybrid](https://docs.microsoft.com/en-us/azure/active-directory/devices/concept-azure-ad-join-hybrid)
 ).
 
-![200_1_image-20200723102952-1](../../../../../static/img/product_docs/policypak/policypak/license/mdm/200_1_image-20200723102952-1.webp)
+![200_1_image-20200723102952-1](/img/product_docs/policypak/policypak/license/mdm/200_1_image-20200723102952-1.webp)
 
 In this case, if you had exactly one machine like this ,you would need to:
 
@@ -55,9 +55,9 @@ There is no easy button for this, but it is a straightforward procedure.
 
 Typically, you do this with the Endpoint Policy Manager on-prem licensing tool (preferred), or if
 you need to, you can use PowerShell.
-See[My organization doesn't permit me to run the LT (Endpoint Policy Manager Licensing Tool) or provide the XML information it produces. What are my other options?](../unlicense/options.md)
+See[My organization doesn't permit me to run the LT (Endpoint Policy Manager Licensing Tool) or provide the XML information it produces. What are my other options?](/docs/policypak/policypak/license/unlicense/options.md)
 
-![200_3_image-20200723102952-2](../../../../../static/img/product_docs/policypak/policypak/license/mdm/200_3_image-20200723102952-2.webp)
+![200_3_image-20200723102952-2](/img/product_docs/policypak/policypak/license/mdm/200_3_image-20200723102952-2.webp)
 
 ### Preparing for Steps 2 and 3: Before we count the Azure only, machines and before we count the Hybrid Azure AD joined machines
 
@@ -71,7 +71,7 @@ possible fields:
 - Hybrid Azure AD Joined — This means the machine is joined both to Azure AD and to on-prem AD.
 - Blank: Unknown.
 
-![200_5_image-20200723102952-3](../../../../../static/img/product_docs/policypak/policypak/license/mdm/200_5_image-20200723102952-3.webp)
+![200_5_image-20200723102952-3](/img/product_docs/policypak/policypak/license/mdm/200_5_image-20200723102952-3.webp)
 
 The problem is that you cannot count each type with this interface unless you have just a few
 machines. Instead you need to use Powershell and have it do the counting for you.
@@ -94,24 +94,24 @@ if ($PSVersionTable.PSEdition -eq 'Desktop' -and (Get-Module
 
 Here is the result.
 
-![200_7_image-20200723102952-4](../../../../../static/img/product_docs/policypak/policypak/license/mdm/200_7_image-20200723102952-4.webp)
+![200_7_image-20200723102952-4](/img/product_docs/policypak/policypak/license/mdm/200_7_image-20200723102952-4.webp)
 
 Start out with the Connect-AZAccount cmdlet (not shown). You will get prompted for credentials the
 first time.
 
-![200_9_image-20200724004807-5](../../../../../static/img/product_docs/policypak/policypak/license/mdm/200_9_image-20200724004807-5.webp)
+![200_9_image-20200724004807-5](/img/product_docs/policypak/policypak/license/mdm/200_9_image-20200724004807-5.webp)
 
 The command should finish and return you with a result like this:
 
-![200_11_image-20200724004807-6](../../../../../static/img/product_docs/policypak/policypak/license/mdm/200_11_image-20200724004807-6.webp)
+![200_11_image-20200724004807-6](/img/product_docs/policypak/policypak/license/mdm/200_11_image-20200724004807-6.webp)
 
 Then use the connect-azuread command and provide credentials again, for a second time.
 
-![200_13_image-20200723102952-5](../../../../../static/img/product_docs/policypak/policypak/license/mdm/200_13_image-20200723102952-5.webp)
+![200_13_image-20200723102952-5](/img/product_docs/policypak/policypak/license/mdm/200_13_image-20200723102952-5.webp)
 
 Results of connection are then seen here:
 
-![200_15_image-20200723102952-6](../../../../../static/img/product_docs/policypak/policypak/license/mdm/200_15_image-20200723102952-6.webp)
+![200_15_image-20200723102952-6](/img/product_docs/policypak/policypak/license/mdm/200_15_image-20200723102952-6.webp)
 
 You can then list all Windows 10 devices with the following command:
 
@@ -119,7 +119,7 @@ You can then list all Windows 10 devices with the following command:
 Get-AzureADDevice -all $true | select displayname, DeviceOSType, DeviceTrustType
 ```
 
-![200_17_image-20200723102952-7](../../../../../static/img/product_docs/policypak/policypak/license/mdm/200_17_image-20200723102952-7.webp)
+![200_17_image-20200723102952-7](/img/product_docs/policypak/policypak/license/mdm/200_17_image-20200723102952-7.webp)
 
 ## Step 2: Count your Joined to Azure AD only (but not on-prem domain joined machines)
 
@@ -141,7 +141,7 @@ Get-AzureADDevice -All $true | Where-Object {$_.DeviceTrustType -eq "ServerAd"} 
 
 Results examples are seen here:
 
-![200_19_image-20200723102952-8](../../../../../static/img/product_docs/policypak/policypak/license/mdm/200_19_image-20200723102952-8.webp)
+![200_19_image-20200723102952-8](/img/product_docs/policypak/policypak/license/mdm/200_19_image-20200723102952-8.webp)
 
 ## A final example with Math
 

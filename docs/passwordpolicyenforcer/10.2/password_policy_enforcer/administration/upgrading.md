@@ -37,7 +37,7 @@ topic for additional information.
 The Password Policy Enforcer 10.2 Password Policy Server is backwards compatible with the V8.x
 Password Policy Client. You can benefit from most of the new features by upgrading the Password
 Policy Server on the domain controllers. Do this before deploying the 10.2 Password Policy Client.
-See the [What's New](whatsnew.md) topic for additional information.
+See the [What's New](/docs/passwordpolicyenforcer/10.2/password_policy_enforcer/administration/whatsnew.md) topic for additional information.
 
 ### Upgrading the Password Policy Server
 
@@ -121,7 +121,7 @@ topic for additional information.
 The Password Policy Enforcer 10.2 Password Policy Server is backwards compatible with the V7.x
 Password Policy Client. You can benefit from most of the new features by upgrading the Password
 Policy Server on the domain controllers. Do this before deploying the 10.2 Password Policy Client.
-See the [What's New](whatsnew.md) topic for additional information.
+See the [What's New](/docs/passwordpolicyenforcer/10.2/password_policy_enforcer/administration/whatsnew.md) topic for additional information.
 
 ### Upgrading the Password Policy Server
 
@@ -208,7 +208,7 @@ topic for complete installation instructions.
 The Password Policy Enforcer 10.2 Password Policy Server is backwards compatible with the V6.x
 Password Policy Client. You can benefit from most of the new features by upgrading the Password
 Policy Server on the domain controllers. Do this before deploying the 10.2 Password Policy Client.
-See the [What's New](whatsnew.md) topic for additional information.
+See the [What's New](/docs/passwordpolicyenforcer/10.2/password_policy_enforcer/administration/whatsnew.md) topic for additional information.
 
 ### Upgrading the Password Policy Server
 

@@ -6,7 +6,7 @@ shows configured password complexity policies that can be applied to platforms.
 When Privilege Secure creates a managed account on a local system or domain it also sets the user
 password. The password that is generated will follow the complexity rules configured in the related
 password policy associated with that platform. The Default policy is used if a password policy
-cannot be determined. See the [Platforms Page](platforms/overview.md) topic for additional
+cannot be determined. See the [Platforms Page](/docs/privilegesecure/4.2/privilegesecure/accessmanagement/admin/policy/page/platforms/overview.md) topic for additional
 information.
 
 Password complexity requirements must adhere to any domain or local password policy applied to the
@@ -17,7 +17,7 @@ fail.
 Create password policies and configure the password complexity requirements on this page. The
 password policy only applies to managed accounts created by Privilege Secure.
 
-![Password Complexity Page](../../../../../../../../static/img/product_docs/threatprevention/threatprevention/reportingmodule/configuration/systemsettings/page.webp)
+![Password Complexity Page](/img/product_docs/threatprevention/threatprevention/reportingmodule/configuration/systemsettings/page.webp)
 
 The pane on the left side of the page displays a list of the configured password complexity
 policies. This pane has the following features:
@@ -25,7 +25,7 @@ policies. This pane has the following features:
 - Search — Searches the table or list for matches to the search string. When matches are found, the
   table or list is filtered to the matching results.
 - Blue + button — Create a new password complexity policy. See the
-  [Add Password Complexity Policy](../add/passwordcomplexity.md) topic for additional information.
+  [Add Password Complexity Policy](/docs/privilegesecure/4.2/privilegesecure/accessmanagement/admin/policy/add/passwordcomplexity.md) topic for additional information.
 - Copy icon — Create a new password complexity policy based on the current selection. Icon appears
   when policy is hovered over.
 - Trashcan icon — Deletes the password complexity policy. Icon appears when policy is hovered over.

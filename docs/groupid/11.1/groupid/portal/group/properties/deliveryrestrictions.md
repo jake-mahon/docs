@@ -23,7 +23,7 @@ Shows the objects whose emails will not be delivered to the group.
 **Add**
 
 To add an object to a list, click **Add** in the respective area. Enter a search string to locate
-the required object, or click **Advance** to use the [Find Dialog Box](../../search/find.md) for
+the required object, or click **Advance** to use the [Find Dialog Box](/docs/groupid/11.1/groupid/portal/search/find.md) for
 performing a search.
 
 **Remove**

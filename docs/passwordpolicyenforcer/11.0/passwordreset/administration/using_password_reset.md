@@ -3,14 +3,14 @@
 Netwrix Password Policy Enforcer is a web application. Users can access it from a web browser, or
 from the Password Reset Client. The default URL for the Web Interface
 is:` http://[server]/pwreset/`  
-See the [Password Reset Client](password_reset_client.md) topic for more information.
+See the [Password Reset Client](/docs/passwordpolicyenforcer/11.0/passwordreset/administration/password_reset_client.md) topic for more information.
 
 You can use URL parameters to open a specific page, and to set the user and domain names. For
 example: `http://[server]/pwreset/apr.dll? cmd=enroll&username=johnsmith&domain=CORP`
 
 Where [server] is the name or IP address of the server hosting the Web Interface.
 
-![using_npr_866x634](../../../../../static/img/product_docs/passwordpolicyenforcer/passwordreset/administration/using_npr_866x634.webp)
+![using_npr_866x634](/img/product_docs/passwordpolicyenforcer/passwordreset/administration/using_npr_866x634.webp)
 
 Users access the Enroll, Reset, Unlock, and Change features from the menu. These features are
 explained on the following pages.
@@ -28,13 +28,13 @@ answering some questions about themselves, or they can be enrolled automatically
 enrollment is enabled. Users only need to enroll once, but they can enroll again if they are locked
 out of Password Reset, or if they want to change their questions or answers. See the
 [Verification Codes](verification_tab.md#verification-codes) and
-[Verification Tab](verification_tab.md) topics for more information.
+[Verification Tab](/docs/passwordpolicyenforcer/11.0/passwordreset/administration/verification_tab.md) topics for more information.
 
 Follow the steps below to manually enroll into Password Reset.
 
 **Step 1 –** Click the **Enroll** item in the menu.
 
-![using_npr_0_765x963](../../../../../static/img/product_docs/passwordpolicyenforcer/passwordreset/administration/using_npr_0_765x963.webp)
+![using_npr_0_765x963](/img/product_docs/passwordpolicyenforcer/passwordreset/administration/using_npr_0_765x963.webp)
 
 **Step 2 –** Type a **Username**, **Domain**, and **Password**.
 
@@ -59,25 +59,25 @@ Follow the steps below to reset an account password.
 
 **Step 1 –** Click the **Reset** item in the menu.
 
-![using_npr_1_824x469](../../../../../static/img/product_docs/passwordpolicyenforcer/passwordreset/administration/using_npr_1_824x469.webp)
+![using_npr_1_824x469](/img/product_docs/passwordpolicyenforcer/passwordreset/administration/using_npr_1_824x469.webp)
 
 **Step 2 –** Type a **Username** and **Domain**, and then click **Next**.
 
-![using_npr_2_809x640](../../../../../static/img/product_docs/passwordpolicyenforcer/passwordreset/administration/using_npr_2_809x640.webp)
+![using_npr_2_809x640](/img/product_docs/passwordpolicyenforcer/passwordreset/administration/using_npr_2_809x640.webp)
 
 **Step 3 –** Type the **Answer** to the first question, and then click **Next**. Repeat until all
 questions are answered correctly.
 
-![using_npr_3](../../../../../static/img/product_docs/passwordpolicyenforcer/passwordreset/administration/using_npr_3.webp)
+![using_npr_3](/img/product_docs/passwordpolicyenforcer/passwordreset/administration/using_npr_3.webp)
 
 **Step 4 –** You may be asked to enter a verification code. The verification code is sent to your
 phone by e-mail or SMS. Type the **Code**, and then click **Next**.
 
-![using_npr_5](../../../../../static/img/product_docs/passwordpolicyenforcer/passwordreset/administration/using_npr_5.webp)
+![using_npr_5](/img/product_docs/passwordpolicyenforcer/passwordreset/administration/using_npr_5.webp)
 
 **Step 5 –** Type the new **Password** into both text boxes, and then click **Next**.
 
-![using_npr_6](../../../../../static/img/product_docs/passwordpolicyenforcer/passwordreset/administration/using_npr_6.webp)
+![using_npr_6](/img/product_docs/passwordpolicyenforcer/passwordreset/administration/using_npr_6.webp)
 
 **Step 6 –** Click **OK** to return to the menu.
 
@@ -90,21 +90,21 @@ Follow the steps below to unlock an account.
 
 **Step 1 –** Click the **Unlock** item in the menu.
 
-![using_npr_7](../../../../../static/img/product_docs/passwordpolicyenforcer/passwordreset/administration/using_npr_7.webp)
+![using_npr_7](/img/product_docs/passwordpolicyenforcer/passwordreset/administration/using_npr_7.webp)
 
 **Step 2 –** Type a **Username** and **Domain**, and then click **Next**.
 
-![using_npr_4_842x816](../../../../../static/img/product_docs/passwordpolicyenforcer/passwordreset/administration/using_npr_4_842x816.webp)
+![using_npr_4_842x816](/img/product_docs/passwordpolicyenforcer/passwordreset/administration/using_npr_4_842x816.webp)
 
 **Step 3 –** Type the **Answer** to the first question, and then click **Next**. Repeat until all
 questions are answered correctly.
 
-![using_npr_8](../../../../../static/img/product_docs/passwordpolicyenforcer/passwordreset/administration/using_npr_8.webp)
+![using_npr_8](/img/product_docs/passwordpolicyenforcer/passwordreset/administration/using_npr_8.webp)
 
 **Step 4 –** You may be asked to enter a verification code. The verification code is sent to your
 phone by e-mail or SMS. Type the **Code**, and then click **Next**.
 
-![using_npr_9_789x276](../../../../../static/img/product_docs/passwordpolicyenforcer/passwordreset/administration/using_npr_9_789x276.webp)
+![using_npr_9_789x276](/img/product_docs/passwordpolicyenforcer/passwordreset/administration/using_npr_9_789x276.webp)
 
 **Step 5 –** Click **OK** to return to the menu.
 
@@ -120,11 +120,11 @@ Follow the steps below to change an account password.
 
 **Step 1 –** Click the **Change** item in the menu.
 
-![using_npr_10_771x440](../../../../../static/img/product_docs/passwordpolicyenforcer/passwordreset/administration/using_npr_10_771x440.webp)
+![using_npr_10_771x440](/img/product_docs/passwordpolicyenforcer/passwordreset/administration/using_npr_10_771x440.webp)
 
 **Step 2 –** Type a **Username** and **Domain**, and then click **Next**.
 
-![using_npr_11_773x593](../../../../../static/img/product_docs/passwordpolicyenforcer/passwordreset/administration/using_npr_11_773x593.webp)
+![using_npr_11_773x593](/img/product_docs/passwordpolicyenforcer/passwordreset/administration/using_npr_11_773x593.webp)
 
 **Step 3 –** Type the **Old Password**, **New Password**, and **Confirm Password**, and then click
 **Next**.
@@ -141,7 +141,7 @@ Validation errors are shown in a red box below the page instructions. Validation
 caused by invalid user input. They can often be overcome by changing the value of one or more input
 fields and resubmitting the form.
 
-![using_npr_12](../../../../../static/img/product_docs/passwordpolicyenforcer/passwordreset/administration/using_npr_12.webp)
+![using_npr_12](/img/product_docs/passwordpolicyenforcer/passwordreset/administration/using_npr_12.webp)
 
 Critical errors are shown on their own page. These errors are mostly a result of configuration or
 system errors. An event may be written to the Windows Application event log on the Password Reset
@@ -149,7 +149,7 @@ Server computer when a critical error occurs. Users can sometimes overcome a cri
 following the instructions in the error message, but most critical errors are beyond the user's
 control.
 
-![using_npr_13](../../../../../static/img/product_docs/passwordpolicyenforcer/passwordreset/administration/using_npr_13.webp)
+![using_npr_13](/img/product_docs/passwordpolicyenforcer/passwordreset/administration/using_npr_13.webp)
 
 Validation and critical error messages are stored in the HTML templates. You can modify the default
 messages by editing the templates. See the

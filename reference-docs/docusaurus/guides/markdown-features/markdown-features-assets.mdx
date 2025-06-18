@@ -35,7 +35,7 @@ You can display images in three different ways: Markdown syntax, CJS require, or
 Display images using simple Markdown syntax:
 
 ```md
-![Example banner](./assets/docusaurus-asset-example-banner.png)
+![Example banner](./assets/docusaurus-asset-example-banner.png)))
 ```
 
 ```mdx-code-block
@@ -70,13 +70,13 @@ All of the above result in displaying the image:
 
 <BrowserWindow>
 
-![My image alternative text](../../assets/docusaurus-asset-example-banner.png)
+![My image alternative text](/reference-docs/docusaurus/assets/docusaurus-asset-example-banner.png)
 
 </BrowserWindow>
 
 :::note
 
-If you are using [@docusaurus/plugin-ideal-image](../../api/plugins/plugin-ideal-image.mdx), you need to use the dedicated image component, as documented.
+If you are using [@docusaurus/plugin-ideal-image](/reference-docs/docusaurus/api/plugins/plugin-ideal-image.mdx), you need to use the dedicated image component, as documented.
 
 :::
 
@@ -91,7 +91,7 @@ In the same way, you can link to existing assets by `require`'ing them and using
 
 or
 
-[Download this docx using Markdown](./assets/docusaurus-asset-example.docx)
+[Download this docx using Markdown](./assets/docusaurus-asset-example.docx)))
 ```
 
 <BrowserWindow>
@@ -100,7 +100,7 @@ or
   {'Download this docx'}
 </a>
 
-[Download this docx using Markdown](../../assets/docusaurus-asset-example.docx)
+[Download this docx using Markdown](/reference-docs/docusaurus/assets/docusaurus-asset-example.docx)
 
 </BrowserWindow>
 
@@ -121,7 +121,7 @@ import DocusaurusSvg from './docusaurus.svg';
 
 <BrowserWindow>
 
-import DocusaurusSvg from '@site/static/img/docusaurus.svg';
+import DocusaurusSvg from '@site/img/docusaurus.svg';
 
 <DocusaurusSvg />
 
@@ -206,7 +206,7 @@ To toggle the visibility of an image using the path fragment (for GitHub, it's `
 
 ## Static assets {#static-assets}
 
-If a Markdown link or image has an absolute path, the path will be seen as a file path and will be resolved from the static directories. For example, if you have configured [static directories](../../static-assets.mdx) to be `['public', 'static']`, then for the following image:
+If a Markdown link or image has an absolute path, the path will be seen as a file path and will be resolved from the static directories. For example, if you have configured [static directories](/reference-docs/docusaurus/static-assets.mdx) to be `['public', 'static']`, then for the following image:
 
 ```md title="my-doc.md"
 ![An image from the static](/img/docusaurus.png)

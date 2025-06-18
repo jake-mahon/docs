@@ -5,11 +5,11 @@ So lower-numbered collections attempt to process first, and higher-numbered coll
 process last as shown in Figure 46. Then, within any collection, each policy is processed in
 numerical order from lowest to highest, as seen in Figure 47.
 
-![collections_policy_settings_13](../../../../static/img/product_docs/policypak/policypak/startscreentaskbar/collections_policy_settings_13.webp)
+![collections_policy_settings_13](/img/product_docs/policypak/policypak/startscreentaskbar/collections_policy_settings_13.webp)
 
 Figure 46. The order in which collections are processed.
 
-![collections_policy_settings_14](../../../../static/img/product_docs/policypak/policypak/startscreentaskbar/collections_policy_settings_14.webp)
+![collections_policy_settings_14](/img/product_docs/policypak/policypak/startscreentaskbar/collections_policy_settings_14.webp)
 
 Figure 47. Within collections, group policies are processed in order, starting with the lowest
 number.
@@ -19,7 +19,7 @@ by row). Note the final placement might not be exactly as expected because of th
 might need to adjust the Position fields to get it to look precisely how you want (as shown in
 Figure 48).
 
-![collections_policy_settings_15](../../../../static/img/product_docs/policypak/policypak/startscreentaskbar/collections_policy_settings_15.webp)
+![collections_policy_settings_15](/img/product_docs/policypak/policypak/startscreentaskbar/collections_policy_settings_15.webp)
 
 Figure 48. The processing order of multiple policy items within a group contained within a
 collection.

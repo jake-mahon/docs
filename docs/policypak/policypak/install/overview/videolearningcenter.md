@@ -4,4 +4,4 @@ See the following Video topics for all things installation and upkeep.
 
 ## Method GPO (and Active Directory): Keeping up to date
 
-- [Auto-updating the CSE](../../video/install/autoupdate.md)
+- [Auto-updating the CSE](/docs/policypak/policypak/video/install/autoupdate.md)

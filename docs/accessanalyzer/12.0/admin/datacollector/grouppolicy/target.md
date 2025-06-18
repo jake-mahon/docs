@@ -7,7 +7,7 @@ identified. It is a wizard page for the categories of:
 - Policies State for all GPOs
 - Local Policies
 
-![Group Policy Data Collector Wizard Target page](../../../../../../static/img/product_docs/activitymonitor/activitymonitor/admin/search/query/target.webp)
+![Group Policy Data Collector Wizard Target page](/img/product_docs/activitymonitor/activitymonitor/admin/search/query/target.webp)
 
 In the Connect to section of the page, select from the following options:
 

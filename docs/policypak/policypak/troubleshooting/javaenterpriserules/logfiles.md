@@ -9,7 +9,7 @@ To see the \ProgramData\PolicyPak folder, run an admin command prompt as shown i
 Endpoint Policy Manager Java Rules manager logs are contained within the Endpoint Policy Manager
 Java Rules Manager folder.
 
-![troubleshooting_policypak_6](../../../../../static/img/product_docs/policypak/policypak/troubleshooting/javaenterpriserules/troubleshooting_policypak_6.webp)
+![troubleshooting_policypak_6](/img/product_docs/policypak/policypak/troubleshooting/javaenterpriserules/troubleshooting_policypak_6.webp)
 
 Figure 35. The PolicyPak Java Rules Manager logs are contained withinEndpoint Policy Manager Java
 Rules Manager folder.

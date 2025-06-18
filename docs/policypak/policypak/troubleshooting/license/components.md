@@ -19,12 +19,12 @@ Some examples below of how a computer could be licensed and the types of output 
 
 ### How can I validate on a few endpoints that I am VALID and won't expire?
 
-![681_1_image-1](../../../../../static/img/product_docs/policypak/policypak/troubleshooting/license/681_1_image-1.webp)
+![681_1_image-1](/img/product_docs/policypak/policypak/troubleshooting/license/681_1_image-1.webp)
 
 A second example, but this one using Enterprise Full (aka Enterprise+) licenses (only valid for CSE
 versions 23.6 and later):
 
-![681_3_image_950x735](../../../../../static/img/product_docs/policypak/policypak/troubleshooting/license/935_6_image-20230713042924-6_950x735.webp)
+![681_3_image_950x735](/img/product_docs/policypak/policypak/troubleshooting/license/935_6_image-20230713042924-6_950x735.webp)
 
 - Use the `PPUPDATE` command which will always show if you are VALID and licensing type.
 - Example of a machine getting Universal licenses successfully:
@@ -36,27 +36,27 @@ Additional Examples for various circumstances are below.
 
 ## Example 1: Computer in the name, acts fully licensed for all components. Very useful for testing licensing issues.
 
-![681_4_img-01](../../../../../static/img/product_docs/policypak/policypak/troubleshooting/license/681_4_img-01.webp)
+![681_4_img-01](/img/product_docs/policypak/policypak/troubleshooting/license/681_4_img-01.webp)
 
 ## Example 2: Completely unlicensed.
 
-![681_6_img-02](../../../../../static/img/product_docs/policypak/policypak/troubleshooting/license/681_6_img-02.webp)
+![681_6_img-02](/img/product_docs/policypak/policypak/troubleshooting/license/681_6_img-02.webp)
 
 ## Example 3: Some items are licensed and not others. Typical when a customer is a Professional Customer and has purchased licenses for SPECIFIC components.
 
-![681_8_img-03](../../../../../static/img/product_docs/policypak/policypak/troubleshooting/license/681_8_img-03.webp)
+![681_8_img-03](/img/product_docs/policypak/policypak/troubleshooting/license/681_8_img-03.webp)
 
 ## Example 4: Licensed by placing the XML file directly upon the machine, and not by GPO.
 
-![681_10_img-04](../../../../../static/img/product_docs/policypak/policypak/troubleshooting/license/681_10_img-04.webp)
+![681_10_img-04](/img/product_docs/policypak/policypak/troubleshooting/license/681_10_img-04.webp)
 
 ## Example 5: When a component is licensed, but expressly disabled by ADMX.
 
-![681_12_img-05](../../../../../static/img/product_docs/policypak/policypak/troubleshooting/license/681_12_img-05.webp)
+![681_12_img-05](/img/product_docs/policypak/policypak/troubleshooting/license/681_12_img-05.webp)
 
 ## Example 6: When a computer is licensed via multiple methods
 
-![681_14_image8_1490x882](../../../../../static/img/product_docs/policypak/policypak/troubleshooting/license/681_14_image8_1490x882.webp)
+![681_14_image8_1490x882](/img/product_docs/policypak/policypak/troubleshooting/license/681_14_image8_1490x882.webp)
 
 ## Example 7: When a computer is licensed for SOME components via Endpoint Policy Manager Cloud
 
@@ -64,4 +64,4 @@ Additional Examples for various circumstances are below.
 license; not the actual expiration date of all computers. (That information is only found in
 Endpoint Policy Manager Cloud Portal.)
 
-![681_16_e7_954x1262](../../../../../static/img/product_docs/policypak/policypak/troubleshooting/license/681_16_e7_954x1262.webp)
+![681_16_e7_954x1262](/img/product_docs/policypak/policypak/troubleshooting/license/681_16_e7_954x1262.webp)

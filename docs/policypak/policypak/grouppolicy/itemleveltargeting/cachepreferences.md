@@ -24,4 +24,4 @@ use the results. If it does not complete in time, we use cached results and cont
 If you want to manipulate how long the ILT timeout occurs, we have a policy setting in the Endpoint
 Policy Manager ADMX settings here:
 
-![499_1_q15-img1](../../../../../static/img/product_docs/policypak/policypak/grouppolicy/itemleveltargeting/499_1_q15-img1.webp)
+![499_1_q15-img1](/img/product_docs/policypak/policypak/grouppolicy/itemleveltargeting/499_1_q15-img1.webp)

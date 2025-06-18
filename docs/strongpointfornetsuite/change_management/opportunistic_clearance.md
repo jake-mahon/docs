@@ -27,14 +27,14 @@ Deployment or library script changes must meet these rules to be automatically c
 - Customization is a deployment or library script with one of the following:
     - Script has an Open Approved Change Request.
     - Main script has an Open Approved Change Request.
-- Change Request **Stage** meets the required [Policy Change Level](setting_up_policies.md).
+- Change Request **Stage** meets the required [Policy Change Level](/docs/strongpointfornetsuite/change_management/setting_up_policies.md).
 
 If all rules are met, the Change Request is attached to the Change Log and the log is compliant. The
 **Resolution Description** in the Change Log is set to **Automatically cleared in existing Open
 Approved CR via related customization [\_**Object Name\* \*\*(**\*ScriptID**_)]\*\*. The \_Object
 Name_ and _ScriptID_ are inserted from the original Change Request. The deployment or library script
 does not need to be present in any Open Approved Change Request.
-[Example Script Use Case](example_deploy_script_related_approved_change.md)
+[Example Script Use Case](/docs/strongpointfornetsuite/change_management/example_deploy_script_related_approved_change.md)
 
 ### Field Changes related to an Approved Record Change
 
@@ -44,13 +44,13 @@ Field changes must meet these rules to be automatically cleared:
     - Field has an Open Approved Change Request
     - Field has no script or workflow dependencies and the parent record has an Open Approved Change
       Request.
-- Change Request **Stage** meets the required [Policy Change Level](setting_up_policies.md).
+- Change Request **Stage** meets the required [Policy Change Level](/docs/strongpointfornetsuite/change_management/setting_up_policies.md).
 
 If all rules are met, the Change Request is attached to the Change Log and the log is compliant. The
 **Resolution Description** in the Change Log is set to **Automatically cleared in existing Open
 Approved CR via related customization [\_**Field Name**\_]**. The _Field Name_ is inserted from the
 original Change Request. The field does not need to be present in any Open Approved Change Request.
-[Example Field Change Use Case](example_field_changes_related_approved_change.md)
+[Example Field Change Use Case](/docs/strongpointfornetsuite/change_management/example_field_changes_related_approved_change.md)
 
 ### Record Changes related to an Approved Field Change
 
@@ -60,13 +60,13 @@ Record changes must meet these rules to be automatically cleared:
     - Record has an Open Approved Change Request
     - Record has no script **or** workflow dependencies and any field that has the record as a
       parent has an Open Approved Change Request.
-- Change Request **Stage** meets the required [Policy Change Level](setting_up_policies.md).
+- Change Request **Stage** meets the required [Policy Change Level](/docs/strongpointfornetsuite/change_management/setting_up_policies.md).
 
 If all rules are met, the Change Request is attached to the Change Log and the log is compliant. The
 **Resolution Description** in the Change Log is set to **Automatically cleared in existing Open
 Approved CR via related customization [\_**Record Name**\_]**. The _Record Name_ is inserted from
 the original Change Request. The record does not need to be present in any Open Approved Change
-Request. [Example Record Change Use Case](example_record_changes_related_approved_change.md)
+Request. [Example Record Change Use Case](/docs/strongpointfornetsuite/change_management/example_record_changes_related_approved_change.md)
 
 ### Search Changes related to an Approved Workflow Change
 
@@ -76,10 +76,10 @@ Approved Workflow changes must meet these rules to be automatically cleared:
     - Search is used in a workflow.
     - Search is not used by any script.
     - Related Workflow has an Open Approved Change Request.
-- Change Request **Stage** meets the required [Policy Change Level](setting_up_policies.md).
+- Change Request **Stage** meets the required [Policy Change Level](/docs/strongpointfornetsuite/change_management/setting_up_policies.md).
 
 If all rules are met, the Change Request is attached to the Change Log and the log is compliant. The
 **Resolution Description** in the Change Log is set to **Automatically cleared in existing Open
 Approved CR via related customization** **[\_**Search Name**\_]**. The _Search Name_ is inserted
 from the original Change Request.The search does not need to be present in any Open Approved Change
-Request.[ Example Search Change Use Case](example_search_changes_related_approved_change.md)
+Request.[ Example Search Change Use Case](/docs/strongpointfornetsuite/change_management/example_search_changes_related_approved_change.md)

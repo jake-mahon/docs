@@ -3,13 +3,13 @@
 The 3.Computers Job Group identifies stale computer accounts, providing a workflow to safely
 deprovision identified accounts.
 
-![3.Computers Job Group in the Jobs Tree](../../../../../../../static/img/product_docs/accessanalyzer/solutions/activedirectory/cleanup/computers/computersjobtree.webp)
+![3.Computers Job Group in the Jobs Tree](/img/product_docs/accessanalyzer/solutions/activedirectory/cleanup/computers/computersjobtree.webp)
 
 The jobs in the 3.Computers Job Group are:
 
-- [AD_DeprovisionComputers Job](ad_deprovisioncomputers.md) – Provides a simple, automated workflow
+- [AD_DeprovisionComputers Job](/docs/accessanalyzer/12.0/solutions/activedirectory/cleanup/computers/ad_deprovisioncomputers.md) – Provides a simple, automated workflow
   to deprovision stale and unused user accounts
-- [AD_DeprovisionComputers_Status Job](ad_deprovisioncomputers_status.md) – Tracks all actions taken
+- [AD_DeprovisionComputers_Status Job](/docs/accessanalyzer/12.0/solutions/activedirectory/cleanup/computers/ad_deprovisioncomputers_status.md) – Tracks all actions taken
   by the included deprovisioning workflow
 
 Workflow

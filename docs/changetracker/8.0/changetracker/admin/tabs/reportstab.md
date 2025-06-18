@@ -25,13 +25,13 @@ Change** tabs.
 ![ReportsAndQuesriesTab](/img/versioned_docs/changetracker_8.0/changetracker/admin/tabs/reportsandquesriestab.webp)
 
 **NOTE:** Report formatting is controlled by the built-in Compliance reports templates. See the
-[Template Management](../compliancereportstemplates.md) topic for additional information. You will
+[Template Management](/docs/changetracker/8.0/changetracker/admin/compliancereportstemplates.md) topic for additional information. You will
 see that any report has a ‘Results available until xx yy zz – this retention period is in place to
 ensure that reports are not stored forever and using storage resource unnecessarily. Most reports
 will be emailed at the time of production and either consumed or stored externally, removing the
 need to store reports long term at the Change Tracker Hub. Don’t worry, the events are retained as
 long as needed, governed by the separate DaysToKeepEventsFor system setting. See the
-[System Settings](../settings/systemsettings.md) topic for additional information. Reports can be
+[System Settings](/docs/changetracker/8.0/changetracker/admin/settings/systemsettings.md) topic for additional information. Reports can be
 regenerated at any time if needed at a subsequent future date.
 
 ![ReportsReportViewerDialog](/img/versioned_docs/changetracker_8.0/changetracker/admin/tabs/reportsreportviewerdialog.webp)
@@ -72,4 +72,4 @@ The **Report** view shows all rules and results. Report results can also export 
 Excel, or CSV format. The **Template** selector alongside the **Export** button provides options for
 either summarized pass/fail format or full results details format.
 
-See the [Overview Tab](complianceoverviewtab.md) topic for additional information.
+See the [Overview Tab](/docs/changetracker/8.0/changetracker/admin/tabs/complianceoverviewtab.md) topic for additional information.

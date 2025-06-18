@@ -12,16 +12,16 @@ Forwarding Setup).
 **Step 2 –** Edit the GPO, expand **Computer Configuration** > **Preferences** > **Control Panel
 Settings** > **Services**, then right click .**Services**. and choose .**New** > **Service**.
 
-![381_1_image-20191023214431-1](../../../../static/img/product_docs/policypak/policypak/leastprivilege/381_1_image-20191023214431-1.webp)
+![381_1_image-20191023214431-1](/img/product_docs/policypak/policypak/leastprivilege/381_1_image-20191023214431-1.webp)
 
 **Step 3 –** Under .**New Service Properties** > **General** > **Service name:** click the ellipses
 (**…**) and browse for the WinRM service, then with the WinRM service highlighted, click **Select**.
 
-![381_3_image-20191023214431-2](../../../../static/img/product_docs/policypak/policypak/leastprivilege/381_3_image-20191023214431-2.webp)
+![381_3_image-20191023214431-2](/img/product_docs/policypak/policypak/leastprivilege/381_3_image-20191023214431-2.webp)
 
 **Step 4 –** Set the **Service action:**to **"Start service**", then click **Ok**.
 
-![381_5_image-20191023214431-3](../../../../static/img/product_docs/policypak/policypak/leastprivilege/381_5_image-20191023214431-3.webp)
+![381_5_image-20191023214431-3](/img/product_docs/policypak/policypak/leastprivilege/381_5_image-20191023214431-3.webp)
 
 #### Allow the "Local Network Service" to access the event logs.
 
@@ -29,12 +29,12 @@ Settings** > **Services**, then right click .**Services**. and choose .**New** >
 Security Settings > Restricted Groups, then right-click "Restricted Groups" and select "Add Group",
 then type in "Event Log Readers" and click "Ok".
 
-![381_7_image-20191023214431-4](../../../../static/img/product_docs/policypak/policypak/leastprivilege/381_7_image-20191023214431-4.webp)
+![381_7_image-20191023214431-4](/img/product_docs/policypak/policypak/leastprivilege/381_7_image-20191023214431-4.webp)
 
 **Step 2 –** Right-click on the Event Log Readers group and select **Properties**, then add
 **NETWORK SERVICE** under Members of this group:, and click **Ok**.
 
-![381_8_image-20191023214431-5](../../../../static/img/product_docs/policypak/policypak/leastprivilege/381_8_image-20191023214431-5.webp)
+![381_8_image-20191023214431-5](/img/product_docs/policypak/policypak/leastprivilege/381_8_image-20191023214431-5.webp)
 
 #### Setting up the Event Forwarding Subscription
 
@@ -43,11 +43,11 @@ then type in "Event Log Readers" and click "Ok".
 Configure target Subscription Manager, select the radio button for **Enabled** then click
 **Show...**.
 
-![381_10_image-20191023214431-6](../../../../static/img/product_docs/policypak/policypak/leastprivilege/381_10_image-20191023214431-6.webp)
+![381_10_image-20191023214431-6](/img/product_docs/policypak/policypak/leastprivilege/381_10_image-20191023214431-6.webp)
 
 **Step 2 –** Under Show Contents configure the following:
 
-![381_12_image-20191023214431-7](../../../../static/img/product_docs/policypak/policypak/leastprivilege/381_12_image-20191023214431-7.webp)
+![381_12_image-20191023214431-7](/img/product_docs/policypak/policypak/leastprivilege/381_12_image-20191023214431-7.webp)
 
 - **NOTE:** Replace YourServerFQDN with the Fully Qualified Domain Name (FQDN) of your central
   collection machine (the one you want to forward events to). For example, if your server name was
@@ -72,25 +72,25 @@ Configure target Subscription Manager, select the radio button for **Enabled** t
 **Step 3 –** On the central collection machine or server (the one you want to forward events to)
 open Event Viewer and click on **Subscriptions**. If shown the message below, click **Yes**.
 
-![381_14_image-20191023214431-8](../../../../static/img/product_docs/policypak/policypak/leastprivilege/381_14_image-20191023214431-8.webp)
+![381_14_image-20191023214431-8](/img/product_docs/policypak/policypak/leastprivilege/381_14_image-20191023214431-8.webp)
 
 **Step 4 –** Now right click **Subscriptions** and choose **Create Subscription…**.
 
-![381_16_image-20191023214431-9](../../../../static/img/product_docs/policypak/policypak/leastprivilege/381_16_image-20191023214431-9.webp)
+![381_16_image-20191023214431-9](/img/product_docs/policypak/policypak/leastprivilege/381_16_image-20191023214431-9.webp)
 
 **Step 5 –** Give the Subscription a name (i.e. Endpoint Policy Manager Interesting Events), then
 select the **Source computer initiated** radio button, and click **Select Computer Groups**.
 
-![381_18_image-20191023214431-10](../../../../static/img/product_docs/policypak/policypak/leastprivilege/381_18_image-20191023214431-10.webp)
+![381_18_image-20191023214431-10](/img/product_docs/policypak/policypak/leastprivilege/381_18_image-20191023214431-10.webp)
 
 **Step 6 –** Under Select Computer Groups click "Add Domain Computers…" then add the **Domain
 Computers** group, and click **Ok**.
 
-![381_20_image-20191023214431-11](../../../../static/img/product_docs/policypak/policypak/leastprivilege/381_20_image-20191023214431-11.webp)
+![381_20_image-20191023214431-11](/img/product_docs/policypak/policypak/leastprivilege/381_20_image-20191023214431-11.webp)
 
 **Step 7 –** Click **Select Events…**.
 
-![381_22_image-20191023214431-12](../../../../static/img/product_docs/policypak/policypak/leastprivilege/381_22_image-20191023214431-12.webp)
+![381_22_image-20191023214431-12](/img/product_docs/policypak/policypak/leastprivilege/381_22_image-20191023214431-12.webp)
 
 **Step 8 –** If you happen to have the Endpoint Policy Manager Client Side Extensions (CSE)
 installed, under Select Events you can select the **By Log** button, then use the drop down under
@@ -98,7 +98,7 @@ Event Sources: to find **PolicyPak Least Privilege Manager Client – Operationa
 box next to it. Click**Ok**.  
  You should now see a screen similar to this one:
 
-![381_24_image-20191023214431-13](../../../../static/img/product_docs/policypak/policypak/leastprivilege/381_24_image-20191023214431-13.webp)
+![381_24_image-20191023214431-13](/img/product_docs/policypak/policypak/leastprivilege/381_24_image-20191023214431-13.webp)
 
 **NOTE:** If you don't have the CSE installed, select the **XML** tab, then check the **Edit query
 manually** check box at the bottom before pasting in the query below, and clicking **Ok**. You will
@@ -108,7 +108,7 @@ not be able to use the Filter tab after editing the XML query manually.
 <QueryList>    <Query Id="0" Path="PolicyPak">    <Select Path="PolicyPak">*[System[Provider[@Name='PolicyPak Least Privilege Manager Client - Operational']]]</Select>    </Query>    </QueryList>
 ```
 
-![381_26_image-20191023214431-14](../../../../static/img/product_docs/policypak/policypak/leastprivilege/381_26_image-20191023214431-14.webp)
+![381_26_image-20191023214431-14](/img/product_docs/policypak/policypak/leastprivilege/381_26_image-20191023214431-14.webp)
 
 **NOTE:** Once you click **Ok** the text will be formatted correctly and aligned on the left.
 
@@ -119,6 +119,6 @@ and everything else is working, you should start to see computers showing up und
 Computers column in the subscription, and start to see events from the source computers showing up
 under the Forwarded Events log.
 
-![381_28_image-20191023214431-15](../../../../static/img/product_docs/policypak/policypak/leastprivilege/381_28_image-20191023214431-15.webp)
+![381_28_image-20191023214431-15](/img/product_docs/policypak/policypak/leastprivilege/381_28_image-20191023214431-15.webp)
 
-![381_30_image-20191023214431-16_950x303](../../../../static/img/product_docs/policypak/policypak/leastprivilege/381_30_image-20191023214431-16_950x303.webp)
+![381_30_image-20191023214431-16_950x303](/img/product_docs/policypak/policypak/leastprivilege/381_30_image-20191023214431-16_950x303.webp)

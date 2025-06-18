@@ -4,7 +4,7 @@ The Dropbox_Content job provides insight into the type, size, and age of the con
 targeted Dropbox environment. It is dependent on data collected by the 0.Collection job group. This
 job processes analysis tasks and generates reports.
 
-![4.Content > Dropbox_Content Job in the Jobs Tree](../../../../../static/img/product_docs/accessanalyzer/solutions/sharepoint/content/contentjobstree.webp)
+![4.Content > Dropbox_Content Job in the Jobs Tree](/img/product_docs/accessanalyzer/solutions/sharepoint/content/contentjobstree.webp)
 
 The Dropbox_Content job is located in the 4.Content job group.
 
@@ -12,7 +12,7 @@ The Dropbox_Content job is located in the 4.Content job group.
 
 The Configuration section on a Job's overview page allows you to easily modify any customizable
 parameters used by analysis tasks in the job. See the
-[Parameter Configuration](../../admin/jobs/job/overview.md#parameter-configuration) topic for
+[Parameter Configuration](/docs/accessanalyzer/12.0/admin/jobs/job/overview.md#parameter-configuration) topic for
 instructions on how to edit parameters on a job overview page.
 
 The Dropbox_Content job has the following customizable parameter:
@@ -31,7 +31,7 @@ View the analysis tasks by navigating to the **Jobs** > **Dropbox** > **4.Conten
 **CAUTION:** Most of the analysis tasks should not be modified or deselected. The analysis tasks are
 preconfigured for this job.
 
-![Analysis Tasks for the Dropbox_Content Job](../../../../../static/img/product_docs/accessanalyzer/solutions/exchange/publicfolders/content/contentanalysis.webp)
+![Analysis Tasks for the Dropbox_Content Job](/img/product_docs/accessanalyzer/solutions/exchange/publicfolders/content/contentanalysis.webp)
 
 - Summarizes content by mimetype, classification – Creates an interim processing table in the
   database for use by downstream analysis and report generation
@@ -65,5 +65,5 @@ enables you to easily set this value.
 
 The parameter can be customized and is listed in a section at the bottom of the SQL Script Editor.
 See the
-[Configure the Customizable Parameters in an Analysis Task](../../admin/jobs/job/configure/analysiscustomizableparameters.md)
+[Configure the Customizable Parameters in an Analysis Task](/docs/accessanalyzer/12.0/admin/jobs/job/configure/analysiscustomizableparameters.md)
 topic for additional information.

@@ -68,4 +68,4 @@ indicates the current column and sort order being used for the results.
 >
 > **Source Environment**: Source environment for the deployment.
 
-![report_deploy_pend_approval](../../../static/img/product_docs/strongpointforsalesforce/reports/report_deploy_pend_approval.webp)
+![report_deploy_pend_approval](/img/product_docs/strongpointforsalesforce/reports/report_deploy_pend_approval.webp)

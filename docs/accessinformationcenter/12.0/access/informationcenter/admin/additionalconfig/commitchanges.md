@@ -15,12 +15,12 @@ interface must not only be a domain user but must also have these minimal rights
 When File System or SharePoint resources will be managed through the AIC, it is necessary to
 configure access groups for those resources in the target environment. An access group provides one
 of the following access levels to a specific resource: Read, Modify, or Full Control. See the
-[Access Groups](../../resourceowners/accessgroups.md) topic for additional information.
+[Access Groups](/docs/accessinformationcenter/12.0/access/informationcenter/resourceowners/accessgroups.md) topic for additional information.
 
 **NOTE:** The Access Information Center can only commit group membership changes to domains it has
 access to, that is the domain where it resides or domains with a trust that are known to it. Also,
 the Active Directory service account must have the required permissions for all applicable domains.
-See the [Multiple Domains](../configuration/activedirectory.md#multiple-domains) topic for
+See the [Multiple Domains](/docs/accessinformationcenter/12.0/access/informationcenter/admin/configuration/activedirectory.md#multiple-domains) topic for
 additional information.
 
 ## Best Practice for Least Privilege
@@ -39,7 +39,7 @@ two options for assigning the Active Directory service account:
   is the least privileged model.
 - The **Use the account running this service: [domain]\[username]** option is not a least privilege
   option, but can be used as the Active Directory service account. See the
-  [Active Directory Page](../configuration/activedirectory.md) topic for additional information.
+  [Active Directory Page](/docs/accessinformationcenter/12.0/access/informationcenter/admin/configuration/activedirectory.md) topic for additional information.
 
 **_RECOMMENDED:_** The best practice is to create at least two OUs for ease of organization: a
 security group OU and a distribution list group OU.
@@ -51,4 +51,4 @@ If access groups assigned for resource management through the Access Information
 reside within an OU with the Allow Read Members and Allow Write Members rights delegated to the
 Active Directory service account, attempting to change Active Directory membership from within the
 Access Information Center will result in an error message. See the
-[Service Account Delegation](../troubleshooting/delegation.md) topic for additional information.
+[Service Account Delegation](/docs/accessinformationcenter/12.0/access/informationcenter/admin/troubleshooting/delegation.md) topic for additional information.

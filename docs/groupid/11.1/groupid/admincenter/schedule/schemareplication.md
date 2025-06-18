@@ -15,7 +15,7 @@ manually or according to its triggers.
 When the Schema Replication schedule runs for the first time, it replicates schema from scratch. In
 all subsequent runs, it replicates any changes made to the schema. Of this replicated schema, you
 can choose the object attributes you actually want to use in an identity store. See the
-[Specify Object Attributes to Replicate](../identitystore/replication.md#specify-object-attributes-to-replicate)
+[Specify Object Attributes to Replicate](/docs/groupid/11.1/groupid/admincenter/identitystore/replication.md#specify-object-attributes-to-replicate)
 topic for details.
 
 NOTE: For Microsoft Entra ID, schema is replicated from the schema file for Graph API v 3.26.0.
@@ -42,7 +42,7 @@ schedule as read-only.
 Step 6 – In the Scheduler Service Name drop-down list, select a Scheduler service that would be
 responsible for triggering this schedule. The number of services displayed in the list depend on the
 number of nodes in all Elasticsearch clusters in the environment, as each node has its own Scheduler
-service. See the [Scheduler Service](../service/schedulerservice.md) topic for additional
+service. See the [Scheduler Service](/docs/groupid/11.1/groupid/admincenter/service/schedulerservice.md) topic for additional
 information.
 
 Please note the following while selecting a Scheduler service:

@@ -17,11 +17,11 @@ Environments and to use the **Change Account** feature on a Change Requests.
 
 1. Open **Strongpoint** > **Change Management Tools** > **Compare Environments**
 
-    ![Set up your TBA Credentials](../../../static/img/product_docs/strongpointfornetsuite/change_management/tba_cred_1.webp)
+    ![Set up your TBA Credentials](/img/product_docs/strongpointfornetsuite/change_management/tba_cred_1.webp)
 
 2. Click New (**+**) beside the **Source** field.
 
-    ![TBA Credentials](../../../static/img/product_docs/strongpointfornetsuite/change_management/tba_cred_2.webp)
+    ![TBA Credentials](/img/product_docs/strongpointfornetsuite/change_management/tba_cred_2.webp)
 
 3. Enter the information for the environment:
 
@@ -37,7 +37,7 @@ Environments and to use the **Change Account** feature on a Change Requests.
 
 Repeat this process for all environments you use for environment compare or looking up
 customizations with the **Change Account** feature on a Change Request. Refer to
-[Creating a Change Request](creating_change_request.md).
+[Creating a Change Request](/docs/strongpointfornetsuite/change_management/creating_change_request.md).
 
 ## Run Compare Environments
 
@@ -48,7 +48,7 @@ TBA Credentials** section the first time you use this feature.
 
 1. Open **Strongpoint** > **Change Management Tools** > **Compare Environments**
 
-    ![Compare Environments](../../../static/img/product_docs/strongpointfornetsuite/change_management/comp_env.webp)
+    ![Compare Environments](/img/product_docs/strongpointfornetsuite/change_management/comp_env.webp)
 
 2. Enter the information for the target account and source accounts. Tokens are persistent between
    your sessions.
@@ -173,15 +173,15 @@ In this example, **Cash Register** appears in both environments.
 
 On the **Source** tab:
 
-![Source target](../../../static/img/product_docs/strongpointfornetsuite/change_management/comp_env_source.webp)
+![Source target](/img/product_docs/strongpointfornetsuite/change_management/comp_env_source.webp)
 
 On the **Target** tab:
 
-![compare_accounts_-_target_ss](../../../static/img/product_docs/strongpointfornetsuite/change_management/compare_accounts_-_target_ss.webp)
+![compare_accounts_-_target_ss](/img/product_docs/strongpointfornetsuite/change_management/compare_accounts_-_target_ss.webp)
 
 On the **Diff** tab:
 
-![compare_accounts_-_diff_ss](../../../static/img/product_docs/strongpointfornetsuite/change_management/compare_accounts_-_diff_ss.webp)
+![compare_accounts_-_diff_ss](/img/product_docs/strongpointfornetsuite/change_management/compare_accounts_-_diff_ss.webp)
 
 ### Search Exists in Only One Environment
 
@@ -189,4 +189,4 @@ In this example, **Special Scheme Code** body field only exists in the **Target*
 
 On the **Diff** tab:
 
-![compare_accounts_-_diff_only_one_ss](../../../static/img/product_docs/strongpointfornetsuite/change_management/compare_accounts_-_diff_only_one_ss.webp)
+![compare_accounts_-_diff_only_one_ss](/img/product_docs/strongpointfornetsuite/change_management/compare_accounts_-_diff_only_one_ss.webp)

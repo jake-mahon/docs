@@ -1,8 +1,8 @@
 # Jira Walkthrough Example
 
 This walkthrough is one example based on our test account. You must
-[install and configure](jira_integration.md) the Platform Governance for Salesforce Salesforce Jira
-integration, including setting up the **[Jira Statuses](jira_integration.md)** prior to using this
+[install and configure](/docs/strongpointforsalesforce/integrations/jira_integration.md) the Platform Governance for Salesforce Salesforce Jira
+integration, including setting up the **[Jira Statuses](/docs/strongpointforsalesforce/integrations/jira_integration.md)** prior to using this
 walkthrough.
 
 The walkthrough demonstrates these steps:
@@ -20,7 +20,7 @@ The walkthrough demonstrates these steps:
 2. Open a Project.
 3. Click **Create** (**+**).
 
-    ![Create a Jira ticket](../../../static/img/product_docs/strongpointfornetsuite/integrations/jira_example_create_issue.webp)
+    ![Create a Jira ticket](/img/product_docs/strongpointfornetsuite/integrations/jira_example_create_issue.webp)
 
 4. Enter your information on the **Create issue** form:
 
@@ -38,11 +38,11 @@ The walkthrough demonstrates these steps:
 
 1. Open the **Comments** tab and select **Strongpoint Salesforce**.
 
-    ![Accessing the Strongpoint Salesforce app](../../../static/img/product_docs/strongpointforsalesforce/integrations/jira_comments_open_app.webp)
+    ![Accessing the Strongpoint Salesforce app](/img/product_docs/strongpointforsalesforce/integrations/jira_comments_open_app.webp)
 
 2. There are two ways to connect: **Login User** or **Connected App** tabs.
 
-    ![Connection options](../../../static/img/product_docs/strongpointforsalesforce/integrations/connection_options.webp)
+    ![Connection options](/img/product_docs/strongpointforsalesforce/integrations/connection_options.webp)
 
 ### Connected App
 
@@ -51,7 +51,7 @@ Use the **Connected App** tab if you set up the connected app using the procedur
 
 1. Open the **Connected App** tab.
 
-    ![Using the connected app](../../../static/img/product_docs/strongpointforsalesforce/integrations/connection_options_app.webp)
+    ![Using the connected app](/img/product_docs/strongpointforsalesforce/integrations/connection_options_app.webp)
 
 2. Enter the **Consumer Key** and **Consumer Secret**.
 3. Click **Is Sandbox account?** if you are logging in to a sandbox.
@@ -65,7 +65,7 @@ If the configuration fails, an error message is displayed. For example,
 > **error=redirect_uri_mismatch**
 >
 > - The 10 minutes timing slot from Salesforce is not completed yet. Please wait
-> - If the error persists, check the [Callback URL](jira_integration.md).
+> - If the error persists, check the [Callback URL](/docs/strongpointforsalesforce/integrations/jira_integration.md).
 >
 >     - You may have left a space between the two Callback URLs
 >     - You may have an error in the newly added Callback URL it should be:  
@@ -77,13 +77,13 @@ Enter your Salesforce **Username**, **Password** and **Security Token**. If you 
 SSO: use your SSO Password. The Security token is the changing 6 digit code from your SSO or MFA
 app.
 
-![Enter your Jira credentials](../../../static/img/product_docs/strongpointforsalesforce/integrations/jira_credentials.webp)
+![Enter your Jira credentials](/img/product_docs/strongpointforsalesforce/integrations/jira_credentials.webp)
 
 If you do not have your security token, you can use these steps to reset your token:
 
 1. Log in to your Salesforce account.
 2. Open **View Profile** > **Settings**.  
-   ![Open your Salesforce Profile settings](../../../static/img/product_docs/strongpointforsalesforce/integrations/jira_example_settings.webp)
+   ![Open your Salesforce Profile settings](/img/product_docs/strongpointforsalesforce/integrations/jira_example_settings.webp)
 3. Select **Reset My Security Token** from the menu.
 4. Click **Reset Security Token**. Check your email for your new token.
 5. Click **Sandbox Account?** if you are using your sandbox.
@@ -99,7 +99,7 @@ consecutive attempts to login, your account is suspended for 30 minutes.
 
 Once you have logged in, the form is displayed.
 
-![Connection details for the ticket](../../../static/img/product_docs/strongpointforsalesforce/integrations/jira_connection.webp)
+![Connection details for the ticket](/img/product_docs/strongpointforsalesforce/integrations/jira_connection.webp)
 
 - **Synchronized with** displays the connected Org. Click **Change Account** if you need to switch
   Orgs.
@@ -111,10 +111,10 @@ Once you have logged in, the form is displayed.
   the Customization exists in your account, it is added to the **Select Customizations** list. **Add
   Proposed Customizations** are added to the **Proposed Customizations** list. You can delete added
   Customizations with the
-  ![delete](../../../static/img/product_docs/strongpointfornetsuite/integrations/delete.webp) icon.
+  ![delete](/img/product_docs/strongpointfornetsuite/integrations/delete.webp) icon.
 - **View DRD** and **Impact Analysis** are tools to Perform Risk Assessment.
 - **Push** creates the Change Request in Salesforce. **Push** is also used to manually update your
-  Change Request if you are not using the [Automatic Synchronization](jira_integration.md) feature.
+  Change Request if you are not using the [Automatic Synchronization](/docs/strongpointforsalesforce/integrations/jira_integration.md) feature.
 
 ### Add Existing Customizations by Name or API Name
 
@@ -123,14 +123,14 @@ Once you have logged in, the form is displayed.
 2. Click **+** to search for matching Customizations. Hover over **View** to display the **Type**
    and **API Name** for a Customization.
 
-    ![Add an existing customization](../../../static/img/product_docs/strongpointforsalesforce/integrations/jira_customization_add.webp)
+    ![Add an existing customization](/img/product_docs/strongpointforsalesforce/integrations/jira_customization_add.webp)
 
 3. Select one or more Customizations. This example uses **Maintenance Type (Parent: Account)**, a
    customization in the _Strongpoint Demo Org_.
 4. Click **Add Selected Customizations**. The selected Customization is added to the **Existing
    Customizations** list.
 
-    ![Add an existing customization](../../../static/img/product_docs/strongpointforsalesforce/integrations/jira_example_add_existing.webp)
+    ![Add an existing customization](/img/product_docs/strongpointforsalesforce/integrations/jira_example_add_existing.webp)
 
 5. Enter an **API Name** in **Add customization** for **Existing Customizations** and click **+**.
    This example uses **UpsellOpportunities**, an API in the _Strongpoint Demo Org_.
@@ -138,7 +138,7 @@ Once you have logged in, the form is displayed.
    Customization is added to the **Existing Customizations** list. This example shows
    **UpsellOpportunities (ApexClass)**, an API in the _Strongpoint Demo Org_.
 
-    ![Add an existing customization by API Name](../../../static/img/product_docs/strongpointforsalesforce/integrations/jira_example_add_existing_api.webp)
+    ![Add an existing customization by API Name](/img/product_docs/strongpointforsalesforce/integrations/jira_example_add_existing_api.webp)
 
 ### Add Proposed Customizations
 
@@ -149,29 +149,29 @@ In this procedure, we are adding a new Customization.
 2. Click (**+**) to add it. If the API Name is valid, and does not match an existing API Name, the
    new Customization is added to the **Proposed Customizations** list.
 
-    ![Add a proposed customization](../../../static/img/product_docs/strongpointforsalesforce/integrations/jira_example_proposed.webp)
+    ![Add a proposed customization](/img/product_docs/strongpointforsalesforce/integrations/jira_example_proposed.webp)
 
 ### Create the Change Request
 
 Using the Platform Governance for Salesforce Jira integration, your Change Requests are created
 automatically when you add a Customization. To setup or update the status mapping, refer to setting
-up the **[Jira Statuses](jira_integration.md)** procedure.
+up the **[Jira Statuses](/docs/strongpointforsalesforce/integrations/jira_integration.md)** procedure.
 
 1. Change the Jira status of your ticket to match the status set up for **CR In Progress**. For
-   example, **In Progress**. Refer to setting up the **[Jira Statuses](jira_integration.md)**
+   example, **In Progress**. Refer to setting up the **[Jira Statuses](/docs/strongpointforsalesforce/integrations/jira_integration.md)**
    procedure.
 2. Click **Push** to create the Change Request if you are not using the
-   [Automatic Synchronization](jira_integration.md) feature. The change request is created in
+   [Automatic Synchronization](/docs/strongpointforsalesforce/integrations/jira_integration.md) feature. The change request is created in
    Salesforce with the **In Progress** status.
 3. Expand the **Change Request** field on the right. The status is now **None/In Progress**. There
    is a link to open the Change Request in Salesforce.
 
-    ![Change Request is In Progress](../../../static/img/product_docs/strongpointforsalesforce/integrations/jira_example_in_progress_status.webp)
+    ![Change Request is In Progress](/img/product_docs/strongpointforsalesforce/integrations/jira_example_in_progress_status.webp)
 
 Note the **Policy** and **Change Level Req** reflect the most stringent requirement for your
 selected customizations, in this example, **Change Request**.
 
-![Policy and Change Level Req have been updated](../../../static/img/product_docs/strongpointforsalesforce/integrations/jira_example_policy.webp)
+![Policy and Change Level Req have been updated](/img/product_docs/strongpointforsalesforce/integrations/jira_example_policy.webp)
 
 ## Perform Risk Assessment
 
@@ -181,21 +181,21 @@ The impact analysis tool reviews your customizations for dependencies or risks. 
 Analysis** to run the tool. Here is an example report showing the Customizations that **Cannot be
 Safely Deleted or Modified** tab:
 
-![Impact analysis report](../../../static/img/product_docs/strongpointfornetsuite/integrations/jira_example_impact_analysis.webp)
+![Impact analysis report](/img/product_docs/strongpointfornetsuite/integrations/jira_example_impact_analysis.webp)
 
 Before proceeding with your changes, review each warning to ensure your change does not break
 something. Dependencies can easily be reviewed with the DRD tool.
 
 ### View DRD
 
-The [Dependency Relationship Diagram](../tools/viewing_drd.md) (DRD) tool graphically displays your
+The [Dependency Relationship Diagram](/docs/strongpointforsalesforce/tools/viewing_drd.md) (DRD) tool graphically displays your
 Customizations and all dependencies.
 
 1. Click **View DRD**.
 2. When the diagram opens, you can explore the dependencies to evaluate the effect of your intended
    changes.
 
-![Use the DRD to explore dependencies](../../../static/img/product_docs/strongpointforsalesforce/integrations/jira_example_drd.webp)
+![Use the DRD to explore dependencies](/img/product_docs/strongpointforsalesforce/integrations/jira_example_drd.webp)
 
 ## Ready for Development
 
@@ -203,16 +203,16 @@ Once you have resolved any risk or conflicts, your changes are ready for develop
 
 1. Change the Jira status of your ticket to match the status set up for **CR Pending Approval**. For
    example, **Selected for Development**.
-2. Click **Push** if you are not using [Automatic Synchronization](jira_integration.md) to push
+2. Click **Push** if you are not using [Automatic Synchronization](/docs/strongpointforsalesforce/integrations/jira_integration.md) to push
    status changes.
 3. Expand the **Change Request** field on the right. The status is now **Pending Approval / In
    Progress**. There is a link to open the Change Request in Salesforce.
 
-    ![Change Request in Pending Approval](../../../static/img/product_docs/strongpointforsalesforce/integrations/jira_example_pending_approval_status.webp)
+    ![Change Request in Pending Approval](/img/product_docs/strongpointforsalesforce/integrations/jira_example_pending_approval_status.webp)
 
 4. Click the **Go To Record** link to view the Change Request.
 
-    ![Change Request is In Progress / Pending Approval](../../../static/img/product_docs/strongpointforsalesforce/integrations/jira_example_pending_approval_change_request.webp)
+    ![Change Request is In Progress / Pending Approval](/img/product_docs/strongpointforsalesforce/integrations/jira_example_pending_approval_change_request.webp)
 
 ## Deploy Changes and Complete the Ticket
 
@@ -221,11 +221,11 @@ ticket is ready to be updated.
 
 1. Expand the **Change Request** field on the right. The status is **Approved / In Progress**.
 
-    ![Change Request is approved](../../../static/img/product_docs/strongpointforsalesforce/integrations/jira_example_approved_status.webp)
+    ![Change Request is approved](/img/product_docs/strongpointforsalesforce/integrations/jira_example_approved_status.webp)
 
 2. Change the Jira status of your ticket to match the status set up for **CR Approved**. For
    example, **Ready for Deployment**.
-3. Click **Push** if you are not using [Automatic Synchronization](jira_integration.md) to push
+3. Click **Push** if you are not using [Automatic Synchronization](/docs/strongpointforsalesforce/integrations/jira_integration.md) to push
    status changes.
 4. Once your deployment and verification activities are complete, change the Jira status of your
    ticket to match the status set up **CR Complete**. For example, **Done**.
@@ -239,4 +239,4 @@ If you open the Change Request in Salesforce:
 - **External Created By**: is the user that created the Jira ticket .
 - **External last Modified by**: is the last user who modified the Jira ticket.
 
-    ![user_guide_example](../../../static/img/product_docs/strongpointforsalesforce/integrations/user_guide_example.webp)
+    ![user_guide_example](/img/product_docs/strongpointforsalesforce/integrations/user_guide_example.webp)

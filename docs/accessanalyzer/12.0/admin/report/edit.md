@@ -11,17 +11,17 @@ Follow the steps to modify an existing report.
 
 **Step 1 –** Navigate to the Reports node that contains the report.
 
-![Configure Report](../../../../../static/img/product_docs/accessanalyzer/admin/analysis/configure.webp)
+![Configure Report](/img/product_docs/accessanalyzer/admin/analysis/configure.webp)
 
 **Step 2 –** Click the **Configure** button next to the report you want to modify.
 
 **Step 3 –** Use the Report Configuration wizard to make any required changes. See the
-[Report Configuration Wizard](wizard/overview.md) topic for instructions.
+[Report Configuration Wizard](/docs/accessanalyzer/12.0/admin/report/wizard/overview.md) topic for instructions.
 
 - You must go through all pages of the wizard, and click **Finish** on the final page to save your
   changes. Skip any sections or pages that do not require changes to the existing configuration. You
   can click **Cancel** on any page to exit the wizard without saving your changes.
 
 Your configuration updates have been saved. To view the updated report you need to first generate
-the report or run it's associated job. See the [Viewing Generated Reports](view.md) topic for
+the report or run it's associated job. See the [Viewing Generated Reports](/docs/accessanalyzer/12.0/admin/report/view.md) topic for
 additional information.

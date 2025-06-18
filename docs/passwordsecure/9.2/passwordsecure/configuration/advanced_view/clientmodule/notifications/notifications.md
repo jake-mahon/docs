@@ -8,9 +8,9 @@ for the currently registered Netwrix Password Secure user. It is not possible to
 notification for another user. Each user can and should define himself which passwords, which
 triggers as well as changes are important and informative for him. The configuration of visibility
 is explained in a similar way to the other modules in one place
-[Visibility](../../permissionconcept/predefining_rights/protective_mechanisms/visibility/visibility.md)
+[Visibility](/docs/passwordsecure/9.2/passwordsecure/configuration/advanced_view/permissionconcept/predefining_rights/protective_mechanisms/visibility/visibility.md)
 
-![Notifications modul](../../../../../../../../static/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/clientmodule/applications/rdp_and_ssh_applications/recording_a_session/notifications_1-en.webp)
+![Notifications modul](/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/clientmodule/applications/rdp_and_ssh_applications/recording_a_session/notifications_1-en.webp)
 
 NOTE: The reading pane is deactivated in this module by default. It can be activated in the
 "Display" tab in the ribbon.
@@ -21,7 +21,7 @@ There are also some ribbon functionalities that are exclusively available for th
 module. In particular, the function **Forward important notifications to email addresses** enables
 administrators and users to maintain control and transparency independent of the location.
 
-![Ribbon notifications](../../../../../../../../static/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/clientmodule/notifications/notifications_2-en.webp)
+![Ribbon notifications](/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/clientmodule/notifications/notifications_2-en.webp)
 
 ### Mark notifications as read
 
@@ -29,7 +29,7 @@ The two buttons on the ribbon enable you to mark notifications as read/unread. I
 filter criterion available in this context (see following screenshot) enables fast sorting according
 to current and also historical notifications.
 
-![filter notifications](../../../../../../../../static/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/clientmodule/notifications/notifications_3-en.webp)
+![filter notifications](/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/clientmodule/notifications/notifications_3-en.webp)
 
 It is possible to mark the notifications as read/unread via the ribbon and also via the context menu
 that is accessed using the right mouse button. If the corresponding setting has been activated,
@@ -40,7 +40,7 @@ opening a notification will also mean that it is marked as read.
 Irrespective of the selected module, permissions can be configured manually for objects. The
 following dialogue can be opened via the ribbon in the "Actions" tab:
 
-![Manual configuration of notifications](../../../../../../../../static/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/clientmodule/notifications/notifications_5-en.webp)
+![Manual configuration of notifications](/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/clientmodule/notifications/notifications_5-en.webp)
 
 - **Notification**: Definition for the trigger
 - **Value**: Defines whether a notification should be created for the previously defined trigger. In
@@ -56,17 +56,17 @@ that a notification is really only triggered for relevant events.
 As well as manually configurable notifications, there are other triggers in Netwrix Password Secure
 which will result in notifications.
 
-- [Seals](../../permissionconcept/predefining_rights/protective_mechanisms/seals/seals.md): Requests
+- [Seals](/docs/passwordsecure/9.2/passwordsecure/configuration/advanced_view/permissionconcept/predefining_rights/protective_mechanisms/seals/seals.md): Requests
   to release sealed records are handled via the notification system
-- [System tasks](../../mainmenu/extras/system_tasks/system_tasks.md)s: If reports are automatically
+- [System tasks](/docs/passwordsecure/9.2/passwordsecure/configuration/advanced_view/mainmenu/extras/system_tasks/system_tasks.md)s: If reports are automatically
   created via the system tasks, these are also made available in the form of a notification. If this
   type of notification is selected, it can be directly opened via the corresponding button that
   appears on the ribbon.
 
-![Ribbon functions notifications](../../../../../../../../static/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/clientmodule/notifications/notifications_6-en.webp)
+![Ribbon functions notifications](/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/clientmodule/notifications/notifications_6-en.webp)
 
 ## Automatic deletion of old notifications
 
 If desired, notifications can be automatically cleaned up. This option can be configured on the
 **Server Manager**. Further information can be found in the section
-[Managing databases](../../../server_manager/managing_databases/managing_databases.md).
+[Managing databases](/docs/passwordsecure/9.2/passwordsecure/configuration/server_manager/managing_databases/managing_databases.md).

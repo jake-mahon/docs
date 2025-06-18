@@ -41,7 +41,7 @@ Active Directory Solution Considerations
 File System Solution Considerations
 
 - For Proxy Mode as a Service – File System Proxy Service needs to be updated on the proxy servers.
-  See the [Upgrade Proxy Service Procedure](../../filesystemproxy/upgrade.md) topic for
+  See the [Upgrade Proxy Service Procedure](/docs/accessanalyzer/12.0/install/filesystemproxy/upgrade.md) topic for
   instructions.
 - For Activity – Ensure the Netwrix Activity Monitor is a compatible version. See the Upgrade
   Instructions in the
@@ -52,7 +52,7 @@ SharePoint Solution Considerations
 
 - For SharePoint Agent – Access Analyzer SharePoint Agent needs to be updated on the SharePoint
   server where it was installed. See the
-  [Upgrade SharePoint Agent](../../sharepointagent/upgrade.md) section for instructions.
+  [Upgrade SharePoint Agent](/docs/accessanalyzer/12.0/install/sharepointagent/upgrade.md) section for instructions.
 - For Activity – Ensure the Stealthbits Activity Monitor is a compatible version. See the Upgrade
   Instructions in the
   [Netwrix Activity Monitor Documentation](https://helpcenter.netwrix.com/category/activitymonitor)
@@ -76,7 +76,7 @@ database schema.
 This database schema migration should be performed before running other jobs in the File System
 Solution after upgrading to Access Analyzer 12.0.
 
-See the [File System Solution](../../../solutions/filesystem/overview.md) topic for additional
+See the [File System Solution](/docs/accessanalyzer/12.0/solutions/filesystem/overview.md) topic for additional
 information.
 
 ## Configure Global Sensitive Data Settings
@@ -93,19 +93,19 @@ If the same Sensitive Data Criteria are used for all solutions, configure the cr
 the global **Settings** > **Sensitive Data** node, which will then be used by default in all
 solutions. The Sensitive Data node provides configuration options to manage Sensitive Data Criteria
 and false positive exclusion filters. See the
-[Sensitive Data](../../../admin/settings/sensitivedata/overview.md) topic for additional
+[Sensitive Data](/docs/accessanalyzer/12.0/admin/settings/sensitivedata/overview.md) topic for additional
 information.
 
 Follow the steps to configure Sensitive Data Criteria at the global level.
 
-![Global Settings Sensitive Data node](../../../../../../static/img/product_docs/accessanalyzer/install/application/upgrade/sensitivedata.webp)
+![Global Settings Sensitive Data node](/img/product_docs/accessanalyzer/install/application/upgrade/sensitivedata.webp)
 
 **Step 1 –** If the same Sensitive Data Criteria are used for all solutions, configure the criteria
 selection at the global Settings level, which will then be used by default in all solution sets.
 Navigate to the **Settings** > **Sensitive Data** node and click **Add** to open the Select Criteria
 window.
 
-![Sensitive Data Select Criteria window](../../../../../../static/img/product_docs/accessanalyzer/install/application/upgrade/selectcriteria.webp)
+![Sensitive Data Select Criteria window](/img/product_docs/accessanalyzer/install/application/upgrade/selectcriteria.webp)
 
 **Step 2 –** Select the desired criteria. Use the **Search Criteria** text field to filter the list
 using keywords or expand each category to view and select individual Sensitive Data search criteria,

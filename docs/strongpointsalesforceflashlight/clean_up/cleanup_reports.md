@@ -18,7 +18,7 @@ report:
 ## Using the Reports
 
 - **Filters**
-  ![filters_icon](../../../static/img/product_docs/strongpointsalesforceflashlight/clean_up/filters_icon.webp):
+  ![filters_icon](/img/product_docs/strongpointsalesforceflashlight/clean_up/filters_icon.webp):
   Open the filters to see the criteria used for the report. You can modify the unlocked filters to
   narrow the focus of the results.
 - **Column Sort Order**: Use the toggler in the column heads to change the sort order of the results

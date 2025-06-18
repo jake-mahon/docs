@@ -29,7 +29,7 @@ Add the information for the following:
     It is displayed only if you select Private from the Privacy drop-down list.
 
     Click **Add** and enter a search string to locate the user to add as a member, or click
-    **Advance** to use the [Find Dialog Box](../../search/find.md) for performing a search.
+    **Advance** to use the [Find Dialog Box](/docs/groupid/11.1/groupid/portal/search/find.md) for performing a search.
 
     Click **Remove** if you want to remove any member.
 

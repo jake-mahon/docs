@@ -4,12 +4,12 @@ The Collection Manager window enables you to manage all Microsoft Collections. C
 **Configuration** > **Collections** on the menu to launch it. This window is only available to
 Threat Prevention administrators.
 
-![Collection Manager Window](../../../../../../../static/img/product_docs/threatprevention/threatprevention/admin/configuration/collectionmanager/collectionmanager.webp)
+![Collection Manager Window](/img/product_docs/threatprevention/threatprevention/admin/configuration/collectionmanager/collectionmanager.webp)
 
 Collections are reusable lists of policy filter settings that help streamline the task of
 associating filters with event types on the Event Type tab during
-[Policy Configuration](../../policies/configuration.md) or
-[Template Configuration](../../templates/configuration.md). They are configured globally and can be
+[Policy Configuration](/docs/threatprevention/7.5/threatprevention/admin/policies/configuration.md) or
+[Template Configuration](/docs/threatprevention/7.5/threatprevention/admin/templates/configuration.md). They are configured globally and can be
 used in multiple policies in place of or in conjunction with individual filters. These collections
 are empty until you populate them with your environment information. When a collection is modified,
 the modifications affect all policies referencing the collection. At least one Agent must be
@@ -38,7 +38,7 @@ Collections are organized into the following categories for Microsoft Collection
 - File Paths – List of file paths for Windows file systems to be used with multiple agents
 
 Select a collection category and click **Manage…** i to open the
-[List of Collections Window](listcollections.md).
+[List of Collections Window](/docs/threatprevention/7.5/threatprevention/admin/configuration/collectionmanager/listcollections.md).
 
 ## Preconfigured Collections
 

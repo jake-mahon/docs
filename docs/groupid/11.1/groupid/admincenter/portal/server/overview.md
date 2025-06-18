@@ -24,11 +24,11 @@ logged out. When accessed again, the portal runs under the new configurations.
 
 **See Also**
 
-- [Create a Portal](../create.md)
-- [Manage General Server Settings](general.md)
-- [Manage Settings for a Native IIS Deployment](nativeiis.md)
-- [Manage Settings for a Remote IIS Deployment](remoteiis.md)
-- [Manage Settings for a Docker Deployment](docker.md)
-- [Manage Log Settings](log.md)
-- [Add Support for a Portal](support.md)
-- [Manage Advanced Settings](advanced.md)
+- [Create a Portal](/docs/groupid/11.1/groupid/admincenter/portal/create.md)
+- [Manage General Server Settings](/docs/groupid/11.1/groupid/admincenter/portal/server/general.md)
+- [Manage Settings for a Native IIS Deployment](/docs/groupid/11.1/groupid/admincenter/portal/server/nativeiis.md)
+- [Manage Settings for a Remote IIS Deployment](/docs/groupid/11.1/groupid/admincenter/portal/server/remoteiis.md)
+- [Manage Settings for a Docker Deployment](/docs/groupid/11.1/groupid/admincenter/portal/server/docker.md)
+- [Manage Log Settings](/docs/groupid/11.1/groupid/admincenter/portal/server/log.md)
+- [Add Support for a Portal](/docs/groupid/11.1/groupid/admincenter/portal/server/support.md)
+- [Manage Advanced Settings](/docs/groupid/11.1/groupid/admincenter/portal/server/advanced.md)

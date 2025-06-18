@@ -14,7 +14,7 @@ registry**.
 ![A screenshot of a computer
 
 Description automatically
-generated](../../../../static/img/product_docs/policypak/policypak/leastprivilege/understanding_acl_manage_file.webp)
+generated](/img/product_docs/policypak/policypak/leastprivilege/understanding_acl_manage_file.webp)
 
 Next, specify the path(s) to files or registry and change the Permission (using the dropdown or
 **Edit permissions** button.)
@@ -22,24 +22,24 @@ Next, specify the path(s) to files or registry and change the Permission (using 
 ![A screenshot of a computer
 
 Description automatically
-generated](../../../../static/img/product_docs/policypak/policypak/leastprivilege/understanding_acl_manage_file_1.webp)
+generated](/img/product_docs/policypak/policypak/leastprivilege/understanding_acl_manage_file_1.webp)
 
 As a result, when Notepadis run from the specified location it can edit the
 `c:\windows\system32\drivers\etc\hosts` file.
 
 **NOTE:** See the
-[Endpoint Policy Manager and ACL Traverse: How to give rights to modify HOSTS files and similar](../video/leastprivilege/acltraverse/modifyhosts.md)
+[Endpoint Policy Manager and ACL Traverse: How to give rights to modify HOSTS files and similar](/docs/policypak/policypak/video/leastprivilege/acltraverse/modifyhosts.md)
 video for a demo on how to use ACL Traverse to modify the hosts file.
 
 **NOTE:** See the
-[Endpoint Policy Manager: ACL Traverse to enable users to delete icons on desktop](../video/leastprivilege/acltraverse/deleteicons.md)
+[Endpoint Policy Manager: ACL Traverse to enable users to delete icons on desktop](/docs/policypak/policypak/video/leastprivilege/acltraverse/deleteicons.md)
 video for a demo on how to use ACL Traverse to delete icons on the desktop.
 
 **NOTE:** See the
-[Endpoint Policy Manager ACL and File Traverse: Let any application in Programfiles overcome NTFS permissions](../video/leastprivilege/acltraverse/ntfspermissions.md)
+[Endpoint Policy Manager ACL and File Traverse: Let any application in Programfiles overcome NTFS permissions](/docs/policypak/policypak/video/leastprivilege/acltraverse/ntfspermissions.md)
 video for a demo on how to use ACL Traverse to let any application in Programfiles overcome NTFS
 permissions.
 
 **NOTE:** See the
-[Endpoint Policy Manager: Overcome ACLs in Registry even as Standard User](../video/leastprivilege/acltraverse/registry.md)
+[Endpoint Policy Manager: Overcome ACLs in Registry even as Standard User](/docs/policypak/policypak/video/leastprivilege/acltraverse/registry.md)
 video for a demo of ACL Traverse and Registry.

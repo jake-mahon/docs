@@ -7,7 +7,7 @@ The complexity of passwords is generally determined by their randomness. In orde
 indispensable. The password generator performs this function and is completely integrated into the
 software.
 
-![installation_with_parameters_82](../../../../../../../../../static/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/mainmenu/extras/password_generator/installation_with_parameters_82.webp)
+![installation_with_parameters_82](/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/mainmenu/extras/password_generator/installation_with_parameters_82.webp)
 
 ## Opening the password generator
 
@@ -16,7 +16,7 @@ The password generator can be opened in different ways:
 - **Main menu/Extras/Password generator:** Here, the password generator is accessed directly.
   Passwords generated in the password generator can be copied to the clipboard.
 
-![Password generator](../../../../../../../../../static/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/mainmenu/extras/password_generator/installation_with_parameters_83-en.webp)
+![Password generator](/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/mainmenu/extras/password_generator/installation_with_parameters_83-en.webp)
 
 - **When creating new records:** Once the password field has been selected in the reading pane, the
   password generator can then be directly opened in the “Form field” tab via the ribbon. Passwords
@@ -42,11 +42,11 @@ syllables
 and the total length are defined in this case. Options that can be set are how the syllables are
 separated and whether to use LeetSpeak.
 
-![installation_with_parameters_84](../../../../../../../../../static/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/mainmenu/extras/password_generator/installation_with_parameters_84.webp)
+![installation_with_parameters_84](/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/mainmenu/extras/password_generator/installation_with_parameters_84.webp)
 
 Password rule
 
-Already defined[Password rules](../password_rules/password_rules.md) can be utilised for the
+Already defined[Password rules](/docs/passwordsecure/9.2/passwordsecure/configuration/advanced_view/mainmenu/extras/password_rules/password_rules.md) can be utilised for the
 automatic generation of new passwords
 
 ## Multigenerator

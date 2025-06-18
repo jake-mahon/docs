@@ -16,7 +16,7 @@ gMSA:
 
 - Netwrix Access Information Center has been installed using one of the regular authentication
   methods, and not using the gMSA. See the
-  [Install the Access Information Center](../../installation/install.md) topic for additional
+  [Install the Access Information Center](/docs/accessinformationcenter/12.0/access/informationcenter/installation/install.md) topic for additional
   information.
 - If the gMSA is to be used to connect to Active Directory or an email server, the gMSA account must
   have the necessary rights to Active Directory and Exchange
@@ -32,7 +32,7 @@ Follow the steps to configure the Netwrix Access Information Center service to r
 **Step 1 –** Open the Services Console. Right-click on the Netwrix Access Information Center service
 and select **Properties**.
 
-![Netwrix Access Information Center service properties window](../../../../../../../static/img/product_docs/accessinformationcenter/access/informationcenter/admin/additionalconfig/gmsaserviceproperties.webp)
+![Netwrix Access Information Center service properties window](/img/product_docs/accessinformationcenter/access/informationcenter/admin/additionalconfig/gmsaserviceproperties.webp)
 
 **Step 2 –** On the Log On tab of the properties window, select the **This account** option. Enter
 the gMSA account name and leave the password fields blank.
@@ -59,7 +59,7 @@ Configuration page.
 - To configure the connection to Active Directory, select the **Active Directory** page
 - To configure the connection to your email server, select the **Notifications** page
 
-![Use the windows account running this service option on Database Configuration page](../../../../../../../static/img/product_docs/accessinformationcenter/access/informationcenter/admin/additionalconfig/gmsadatabaseconfiguration.webp)
+![Use the windows account running this service option on Database Configuration page](/img/product_docs/accessinformationcenter/access/informationcenter/admin/additionalconfig/gmsadatabaseconfiguration.webp)
 
 **Step 3 –** On the Configuration page, select the **Use the account running this service** option.
 Click **Save**.

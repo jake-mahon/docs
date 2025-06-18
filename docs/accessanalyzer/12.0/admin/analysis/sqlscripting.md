@@ -2,7 +2,7 @@
 
 Use the SQLscripting analysis module to apply SQL scripting to the selected job.
 
-![SQL Script Editor](../../../../../static/img/product_docs/accessanalyzer/admin/analysis/sqlscripteditor.webp)
+![SQL Script Editor](/img/product_docs/accessanalyzer/admin/analysis/sqlscripteditor.webp)
 
 The SQLscripting analysis module evaluates the Access Analyzer user’s permission level to determine
 whether to allow the connected user to run the scripted command. Since this evaluation is based on
@@ -32,7 +32,7 @@ The SQL Script Editor window has the following options:
 - Copy – Copies the highlighted script into the SQL script editor (Ctrl+C)
 - Paste – Pastes cut or copied script into the SQL script editor (Ctrl+V)
 - Online SQL Language Reference – Opens the Microsoft
-  [Transact-SQL Reference](<https://learn.microsoft.com/en-us/previous-versions/sql/sql-server-2005/ms189826(v=sql.90)>)
+  [Transact-SQL Reference](https://learn.microsoft.com/en-us/previous-versions/sql/sql-server-2005/ms189826(v=sql.90))
   article
 
 Click **Save and Close** to return to the Analysis Properties page. If no changes were made or
@@ -44,7 +44,7 @@ accidental changes are saved.
 Use the Parameters window to add, edit, and delete temporary variables and tables defined by
 SQLscripting and users. The window only displays when **Parameters** is clicked.
 
-![Parameters window](../../../../../static/img/product_docs/accessanalyzer/admin/analysis/sqlscriptparameters.webp)
+![Parameters window](/img/product_docs/accessanalyzer/admin/analysis/sqlscriptparameters.webp)
 
 **CAUTION:** not modify any parameters where the Value states `Created during execution`.
 
@@ -80,7 +80,7 @@ The parameters have the following properties:
 
 Click **Edit Table** to open the Edit Table window to modify parameters for the selected table.
 
-![Edit Table window](../../../../../static/img/product_docs/accessanalyzer/admin/analysis/sqlscriptedittablewindow.webp)
+![Edit Table window](/img/product_docs/accessanalyzer/admin/analysis/sqlscriptedittablewindow.webp)
 
 The Edit table window has the following options:
 

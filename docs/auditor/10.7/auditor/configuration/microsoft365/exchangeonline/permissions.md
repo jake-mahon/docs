@@ -98,7 +98,7 @@ where:
 **Step 11 –** Go to **Manage > Certificates & secrets**, click **Upload certificate** and upload
 the*.crt* file you have just created.
 
-![certificates_secrets_thumb_0_0](../../../../../../../static/img/product_docs/auditor/auditor/configuration/microsoft365/exchangeonline/certificates_secrets_thumb_0_0.webp)
+![certificates_secrets_thumb_0_0](/img/product_docs/auditor/auditor/configuration/microsoft365/exchangeonline/certificates_secrets_thumb_0_0.webp)
 
 **Step 12 –** To create Exchange Online connection session, you can provide certificate file path or
 thumbprint. If you want to use a file path, run the following command:
@@ -110,7 +110,7 @@ Connect-ExchangeOnline -CertificateFilePath "full_path_to_certificate"
 
 Application (client ID) can be found in the **Overview** page.
 
-![tenant_id_thumb_0_0](../../../../../../../static/img/product_docs/auditor/auditor/configuration/microsoft365/exchangeonline/tenant_id_thumb_0_0.webp)
+![tenant_id_thumb_0_0](/img/product_docs/auditor/auditor/configuration/microsoft365/exchangeonline/tenant_id_thumb_0_0.webp)
 
 For example:
 

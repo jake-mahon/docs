@@ -58,7 +58,7 @@ significantly.
 
 NOTE:
 
-[Copy](<javascript:void(0);>)
+[Copy](javascript:void(0);)
 
 ```
 Permissions are always granted to only one user or role!
@@ -75,7 +75,7 @@ been authorized for the role.
 
 NOTE:
 
-[Copy](<javascript:void(0);>)
+[Copy](javascript:void(0);)
 
 ```
 A small technical digression into the nature of the encryption can be very helpful with the basic understanding. Each role has a key pair. The first key is used to encrypt data. Access to this information is only possible with the second key. The membership in a role is equivalent to this second key.
@@ -105,7 +105,7 @@ However, it cannot see any data that is assigned to sales. It lacks membership i
 
 NOTE:
 
-[Copy](<javascript:void(0);>)
+[Copy](javascript:void(0);)
 
 ```
 As a member of a role, it must have at least the “read” right for the role!

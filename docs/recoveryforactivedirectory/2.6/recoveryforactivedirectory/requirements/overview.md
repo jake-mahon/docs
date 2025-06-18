@@ -21,21 +21,21 @@ Core Component
 
 See the following topics for server requirements:
 
-- [Application Server Requirements](server.md)
-- [SQL Server Requirements](sqlserver.md)
-- [RSAT Extension Requirements](rsatextension.md)
+- [Application Server Requirements](/docs/recoveryforactivedirectory/2.6/recoveryforactivedirectory/requirements/server.md)
+- [SQL Server Requirements](/docs/recoveryforactivedirectory/2.6/recoveryforactivedirectory/requirements/sqlserver.md)
+- [RSAT Extension Requirements](/docs/recoveryforactivedirectory/2.6/recoveryforactivedirectory/requirements/rsatextension.md)
 
 Target Domain Considerations
 
 The target domains include the Active Directory domains that can be added through the
-[Domains Page](../admin/configuration/domain.md). See the following topic for target domain
+[Domains Page](/docs/recoveryforactivedirectory/2.6/recoveryforactivedirectory/admin/configuration/domain.md). See the following topic for target domain
 considerations:
 
-- [Target Domains](targetdomain.md)
+- [Target Domains](/docs/recoveryforactivedirectory/2.6/recoveryforactivedirectory/requirements/targetdomain.md)
 
 Target Server Considerations
 
 Target servers include the servers and environments where you want to restore a domain controller or
 an entire forest. See the following topic for target server requirements:
 
-- [Target Server Considerations](targetserver.md)
+- [Target Server Considerations](/docs/recoveryforactivedirectory/2.6/recoveryforactivedirectory/requirements/targetserver.md)

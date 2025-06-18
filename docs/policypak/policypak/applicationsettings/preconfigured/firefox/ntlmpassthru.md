@@ -33,4 +33,4 @@ configuration on ONE MACHINE (locally on Firefox) And see if you get the RESULT 
 Then, if you do, then use Endpoint Policy Manager Application Manager to actually deliver the values
 you want to all your machines that you wish to get these values.
 
-![82_1_image001](../../../../../../static/img/product_docs/policypak/policypak/applicationsettings/preconfigured/firefox/82_1_image001.webp)
+![82_1_image001](/img/product_docs/policypak/policypak/applicationsettings/preconfigured/firefox/82_1_image001.webp)

@@ -11,12 +11,12 @@ are supported only with Latin alphabet.
 
 Once connected it is possible to create an intelligent content mapping, crawling certain fields as
 unstructured index text, and other fields as mapped metadata. For more information please see the
-[Database Configuration Wizard](databaseconfigwizard.md) section.
+[Database Configuration Wizard](/docs/dataclassification/5.7/ndc/admin/sources/database/databaseconfigwizard.md) section.
 
 If you wish to make other configuration changes before collection of the source occurs ensure you
 tick the checkbox "_Pause source on creation_".
 
-![add_database_thumb_0_0](../../../../../../../static/img/product_docs/dataclassification/ndc/admin/sources/database/add_database_thumb_0_0.webp)
+![add_database_thumb_0_0](/img/product_docs/dataclassification/ndc/admin/sources/database/add_database_thumb_0_0.webp)
 
 Complete the following fields:
 
@@ -32,4 +32,4 @@ Complete the following fields:
 
 After the source configuration is completed, you will be prompted to lauch SQL crawling
 configuration wizard.
-[See Database Configuration Wizard for more information.](databaseconfigwizard.md)
+[See Database Configuration Wizard for more information.](/docs/dataclassification/5.7/ndc/admin/sources/database/databaseconfigwizard.md)

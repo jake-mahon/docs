@@ -8,7 +8,7 @@ including the impact analysis, release management and change reconciliation feat
 
 Integrations with Salesforce include:
 
-- [Jira](../change_management/creating_change_request.md)
+- [Jira](/docs/strongpointforsalesforce/change_management/creating_change_request.md)
 
 ## Jira
 
@@ -23,6 +23,6 @@ logs during an audit. This provides the following benefits to your users:
 - The ability for auditors to track compliant changes and avoid manually reconciling change tickets
   to change logs during audit.
 
-![Jira Integration](../../../static/img/product_docs/strongpointforsalesforce/integrations/jira_overview.webp)
+![Jira Integration](/img/product_docs/strongpointforsalesforce/integrations/jira_overview.webp)
 
-**Next Step:** [ Set Up the Jira Integration](jira_integration.md)
+**Next Step:** [ Set Up the Jira Integration](/docs/strongpointforsalesforce/integrations/jira_integration.md)

@@ -82,4 +82,4 @@ This mass update captures all the bundle components referenced by non bundle com
 9. Click **Save**
 
 **Next Step:**
-[](investigating_through_saved_searches.md)[Investigating Through Saved Searches](investigating_through_saved_searches.md)
+[](/docs/strongpointfornetsuite/bundle_removal/investigating_through_saved_searches.md)[Investigating Through Saved Searches](/docs/strongpointfornetsuite/bundle_removal/investigating_through_saved_searches.md)

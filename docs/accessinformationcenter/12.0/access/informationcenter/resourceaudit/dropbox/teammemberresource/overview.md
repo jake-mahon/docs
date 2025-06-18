@@ -3,5 +3,5 @@
 The following reports are available at the Team Member, Resource, and Subfolder level:
 
 - Activity Report – Displayed but not populated at the Team Member, Resource, and Subfolder level
-- [Permissions Report](permissions.md)
-- [Sensitive Content Report](sensitivecontent.md)
+- [Permissions Report](/docs/accessinformationcenter/12.0/access/informationcenter/resourceaudit/dropbox/teammemberresource/permissions.md)
+- [Sensitive Content Report](/docs/accessinformationcenter/12.0/access/informationcenter/resourceaudit/dropbox/teammemberresource/sensitivecontent.md)

@@ -4,7 +4,7 @@ Once a Hitachi host is added to the monitored hosts table, the configuration set
 through the tabs in the host’s Properties window. The Hitachi NAS tab on a host’s Properties window
 is specific to Hitachi hosts.
 
-![Host Properties - Hitachi Tab](../../../../../../../static/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/properties/hitachihostproperties.webp)
+![Host Properties - Hitachi Tab](/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/properties/hitachihostproperties.webp)
 
 The Hitachi NAS tab allows users to modify settings that were populated with the information entered
 when the Hitachi host was added. Additionally, the Path pooling interval can be configured. The Path

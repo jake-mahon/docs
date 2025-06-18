@@ -34,7 +34,7 @@
   internal changes.Recommended to leave this unchecked due to the volume of false positives you
   would need to manage.
 
-![changeandapprovalpolicy1](../../../static/img/product_docs/strongpointfornetsuite/change_management/changeandapprovalpolicy1.webp)
+![changeandapprovalpolicy1](/img/product_docs/strongpointfornetsuite/change_management/changeandapprovalpolicy1.webp)
 
 ## Set Up a Default Policy
 
@@ -44,7 +44,7 @@
 - **Header**: Everything in the Header should remain the same including the name Default.
 - **Change Controls:**
 
-    ![Policy Default Change Controls](../../../static/img/product_docs/strongpointfornetsuite/change_management/policy_default_change_controls2.webp)
+    ![Policy Default Change Controls](/img/product_docs/strongpointfornetsuite/change_management/policy_default_change_controls2.webp)
 
 - **Approvals**: Select the policy approvers on the Approvals tab.
 
@@ -122,15 +122,15 @@ To add new change levels, select **New** or use the **+** next to a field when e
   segments, enabled features and preferences. Default: Log Changes Only
 - **Accounting Lists**: Changes to accounting lists. Default: Log Changes Only
 - **Custom Segments**: Changes to custom segments. Default: Log Changes Only
-- **User Offboarding**: Available when [Enhanced User Provisioning](user_provisioning.md) is
+- **User Offboarding**: Available when [Enhanced User Provisioning](/docs/strongpointfornetsuite/change_management/user_provisioning.md) is
   enabled.
-- **User Onboarding**: Available when [Enhanced User Provisioning](user_provisioning.md) is enabled.
+- **User Onboarding**: Available when [Enhanced User Provisioning](/docs/strongpointfornetsuite/change_management/user_provisioning.md) is enabled.
 
 ## Approvals
 
 Approvers initiate the change request and enable it to move to the next stage.
 
-![Policy Approvals tab](../../../static/img/product_docs/strongpointfornetsuite/change_management/policy_approvals_tab.webp)
+![Policy Approvals tab](/img/product_docs/strongpointfornetsuite/change_management/policy_approvals_tab.webp)
 
 Policy Change Approvers
 
@@ -145,7 +145,7 @@ This section is only applies to the default policy.
     user attempts to change a policy, a notice is displayed. Click **Request Approval**. The form is
     launched, with your proposed changes populated.
 
-    ![Record Save Blocked](../../../static/img/product_docs/strongpointfornetsuite/change_management/record_save_blocked.webp)
+    ![Record Save Blocked](/img/product_docs/strongpointfornetsuite/change_management/record_save_blocked.webp)
 
 ITGC Approvers
 
@@ -237,7 +237,7 @@ To set up additional policies:
 6. Click **Edit**
 7. Open the **Customization Policies** tab.
 
-![policy_add_customizations](../../../static/img/product_docs/strongpointfornetsuite/change_management/policy_add_customizations.webp)
+![policy_add_customizations](/img/product_docs/strongpointfornetsuite/change_management/policy_add_customizations.webp)
 
 - Check **Require Object Owner Approval** if needed.
 - Check **Require Impacted Customization Approval** if needed.

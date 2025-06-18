@@ -3,25 +3,25 @@
 The 1.Groups Job Group provides a workflow to safely deprovision groups, as well as the ability to
 stamp security groups with what resources they are given access to.
 
-![1.Groups Job Group in the Jobs Tree](../../../../../../../static/img/product_docs/accessanalyzer/solutions/activedirectory/cleanup/groups/groupsjobtree.webp)
+![1.Groups Job Group in the Jobs Tree](/img/product_docs/accessanalyzer/solutions/activedirectory/cleanup/groups/groupsjobtree.webp)
 
 The jobs in the 1.Groups Job Group are:
 
-- [1.Deprovision Job Group](deprovision/overview.md) – This job group provides a simple, automated
+- [1.Deprovision Job Group](/docs/accessanalyzer/12.0/solutions/activedirectory/cleanup/groups/deprovision/overview.md) – This job group provides a simple, automated
   workflow to deprovision stale groups
 
-    - [AD_DeprovisionGroups Job](deprovision/ad_deprovisiongroups.md) – This job provides a simple
+    - [AD_DeprovisionGroups Job](/docs/accessanalyzer/12.0/solutions/activedirectory/cleanup/groups/deprovision/ad_deprovisiongroups.md) – This job provides a simple
       automated workflow to deprovision stale groups
-    - [AD_DeprovisionGroups_Status Job](deprovision/ad_deprovisiongroups_status.md) – This job
+    - [AD_DeprovisionGroups_Status Job](/docs/accessanalyzer/12.0/solutions/activedirectory/cleanup/groups/deprovision/ad_deprovisiongroups_status.md) – This job
       tracks and reports on the progress of the deprovisioning workflow
 
-- [2.Group Stamping Job Group](stamping/overview.md) – This job group updates the Notes attribute
+- [2.Group Stamping Job Group](/docs/accessanalyzer/12.0/solutions/activedirectory/cleanup/groups/stamping/overview.md) – This job group updates the Notes attribute
   for all security groups to show where the group is provisioned inside the environment.
 
-    - [AD_GroupCleanup_Permissions Job](stamping/ad_groupcleanup_permissions.md) – This job reports
+    - [AD_GroupCleanup_Permissions Job](/docs/accessanalyzer/12.0/solutions/activedirectory/cleanup/groups/stamping/ad_groupcleanup_permissions.md) – This job reports
       on where security groups are being used to assign permissions. This can be used to prioritize
       remediation for groups that are rarely used.
-    - [AD_GroupStamping Job](stamping/ad_groupstamping.md) – This job replaces the Notes attribute
+    - [AD_GroupStamping Job](/docs/accessanalyzer/12.0/solutions/activedirectory/cleanup/groups/stamping/ad_groupstamping.md) – This job replaces the Notes attribute
       for all security groups to show where the group is provisioned inside the environment. This
       overwrites the Notes field with data from Access Analyzer.
 

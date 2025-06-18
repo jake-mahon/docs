@@ -26,13 +26,13 @@ name brings up the customization record.
 
 4. Click **Show Record ERD**.
 
-    ![erd-view](../../../static/img/product_docs/strongpointfornetsuite/customizations/erd-view.webp)
+    ![erd-view](/img/product_docs/strongpointfornetsuite/customizations/erd-view.webp)
 
 5. Click on any item to expand the view. For large lists, click **More** to see the additional
    items.  
    External sources headers are highlighted in green.
 
-    ![ERD with an External Source](../../../static/img/product_docs/strongpointfornetsuite/customizations/celigo_erd.webp)
+    ![ERD with an External Source](/img/product_docs/strongpointfornetsuite/customizations/celigo_erd.webp)
 
 6. Click **Open Record** on any Customization to open the actual record.
 
@@ -46,7 +46,7 @@ To enable the ERD Search:
 4. Under **Custom Content**, select **Strongpoint ERD Search Form**
 5. Click **Save**
 
-![erdsearchform-1](../../../static/img/product_docs/strongpointfornetsuite/customizations/erdsearchform-1.webp)
+![erdsearchform-1](/img/product_docs/strongpointfornetsuite/customizations/erdsearchform-1.webp)
 
 From the ERD Search Form, you can search by:
 

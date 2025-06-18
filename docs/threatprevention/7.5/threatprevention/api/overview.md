@@ -10,11 +10,11 @@ Enterprise Manager is not located. The following PowerShell APIs can be used:
 - Informative APIs
 
     **NOTE:** These APIs do not require any additional configuration. They display Agent status from
-    the [Agents Interface](../admin/agents/overview.md) and a list of available PowerShell APIs the
+    the [Agents Interface](/docs/threatprevention/7.5/threatprevention/admin/agents/overview.md) and a list of available PowerShell APIs the
     user can utilize.
 
     - Get-SIAgentStatus – Displays Agent status from the Agent grid columns on the
-      [Agents Interface](../admin/agents/overview.md)
+      [Agents Interface](/docs/threatprevention/7.5/threatprevention/admin/agents/overview.md)
     - Get-SI Help – Lists available PowerShell APIs for Threat Prevention
     - Get-SIHelp [API Name] – Displays detailed information about the PowerShell API
 
@@ -50,7 +50,7 @@ The following prerequisites must be met before using the APIs:
 
 - The PowerShell service account must be an Active Directory account with the Threat Prevention
   administrator role assigned to it. The role is assigned through the
-  [Users and Roles Window](../admin/configuration/userroles/overview.md).
+  [Users and Roles Window](/docs/threatprevention/7.5/threatprevention/admin/configuration/userroles/overview.md).
 - The Threat Prevention PowerShell module (SI.SIMonitor.PowerShell.dll) must be loaded into
   PowerShell. This module is stored in the installation directory within the Enterprise Manager
   folder:

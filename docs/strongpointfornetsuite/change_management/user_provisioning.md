@@ -17,7 +17,7 @@ Tools** > **ITGC Change Request**. When you view the Change Log, you see **Chan
 **User Role Assignment Change** instead of **User Onboarding**.
 
 You can create a custom change request form for User Provisioning. Refer to
-[Using Custom Change Request Forms](use_custom_cr_forms.md) for information on implementing your
+[Using Custom Change Request Forms](/docs/strongpointfornetsuite/change_management/use_custom_cr_forms.md) for information on implementing your
 custom form.
 
 ## Enable Enhanced User Provisioning
@@ -25,7 +25,7 @@ custom form.
 1. Open **Strongpoint** > **Strongpoint Support** > **Installation Settings**.
 2. Open the **Change Management** tab.
 
-    ![Enabling Enhanced User Provisioning](../../../static/img/product_docs/strongpointfornetsuite/change_management/enhanced_user_provisioning.webp)
+    ![Enabling Enhanced User Provisioning](/img/product_docs/strongpointfornetsuite/change_management/enhanced_user_provisioning.webp)
 
 3. Enable **Enhanced User Provisioning**.
 4. Enable the **Auto-Provisioning** and **Auto-Role Removal** options to automatically implement the
@@ -33,13 +33,13 @@ custom form.
 5. When **Enhanced User Provisioning** is enabled, there are new **Access and Setup** controls added
    to the **Policy Change Controls** tab: **User Offboarding** and **User Onboarding**:
 
-    ![New provisioning change controls](../../../static/img/product_docs/strongpointfornetsuite/change_management/provisioning_change_controls.webp)
+    ![New provisioning change controls](/img/product_docs/strongpointfornetsuite/change_management/provisioning_change_controls.webp)
 
 ## Onboarding Users
 
 1. Open **Strongpoint** > **Change Management Tools** > **User Provisioning Change Request**.
 
-    ![New User Access Change Request form](../../../static/img/product_docs/strongpointfornetsuite/change_management/user_access_change_request.webp)
+    ![New User Access Change Request form](/img/product_docs/strongpointfornetsuite/change_management/user_access_change_request.webp)
 
 2. Enter a descriptive **Name** and **Change Overview**.
 3. Select **Role Additions** for **Access type**.
@@ -54,7 +54,7 @@ request is approved, you need to manually add the roles and update the status.
 
 A compliant Change Log is generated:
 
-![A compliant change log is created](../../../static/img/product_docs/strongpointfornetsuite/change_management/provisioning_change_log.webp)
+![A compliant change log is created](/img/product_docs/strongpointfornetsuite/change_management/provisioning_change_log.webp)
 
 The **Values** tab shows the details of the role changes.
 
@@ -68,12 +68,12 @@ The **Values** tab shows the details of the role changes.
 5. Enter one or more **Affected Employees**. The **Get Roles for Affected Employees** button is now
    visible.
 
-    ![Provisioning role reductions](../../../static/img/product_docs/strongpointfornetsuite/change_management/provisioning_role_reductions.webp)
+    ![Provisioning role reductions](/img/product_docs/strongpointfornetsuite/change_management/provisioning_role_reductions.webp)
 
 6. Enter one or more **Affected Roles**. Or, click **Get Roles for Affected Employees** to select
    from the current roles.
 
-    ![Select the roles to remove](../../../static/img/product_docs/strongpointfornetsuite/change_management/provisioning_role_reductions_selector.webp)
+    ![Select the roles to remove](/img/product_docs/strongpointfornetsuite/change_management/provisioning_role_reductions_selector.webp)
 
 7. Enter an **Offboarding Date** (YYYY-MM-DD) or select a date using the Calendar icon.
 8. Enter an **Offboarding Time** (hh:mm am/pm).

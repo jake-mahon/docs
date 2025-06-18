@@ -7,10 +7,10 @@ deployments are released.
 
 Release Management is enabled for Intelligent Change Management and Enterprise Compliance Licenses.
 
-> [Deployments](deployments.md): Documents your deployment process so you can safely moves
+> [Deployments](/docs/strongpointforsalesforce/release_management/deployments.md): Documents your deployment process so you can safely moves
 > deployments from one environment to another.
 >
-> [Rollback](rollback.md): Enables you to safely rollback your deployments.
+> [Rollback](/docs/strongpointforsalesforce/release_management/rollback.md): Enables you to safely rollback your deployments.
 >
-> [Multiple Environment Deployment](multiple_environments.md): Manages changes between your
+> [Multiple Environment Deployment](/docs/strongpointforsalesforce/release_management/multiple_environments.md): Manages changes between your
 > Production, Development and Testing accounts.

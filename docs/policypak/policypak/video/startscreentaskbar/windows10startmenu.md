@@ -130,7 +130,7 @@ right where you want to in the right group of your choice.
 
 Endpoint Policy Manager Start Screen Manager is a real game changer. Continue to watch the other
 videos, like how to change
-[Endpoint Policy Manager File Associations Manager: Manage Windows 10 & 11 File Associations](../fileassociations/windows10.md) settings,
+[Endpoint Policy Manager File Associations Manager: Manage Windows 10 & 11 File Associations](/docs/policypak/policypak/video/fileassociations/windows10.md) settings,
 to see how you can easily open PDFs, MAILTO and MP4s with the programs you want.
 
 Thanks so much for watching, and talk to you soon.

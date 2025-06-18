@@ -10,7 +10,7 @@ The event filters for the Exchange Changes event type are:
 - Exchange Perpetrators
 - Rule Preview
 
-![Policy window - Exchange Changes Event Type](../../../../../../../static/img/product_docs/threatprevention/threatprevention/admin/policies/eventtype/exchangechanges.webp)
+![Policy window - Exchange Changes Event Type](/img/product_docs/threatprevention/threatprevention/admin/policies/eventtype/exchangechanges.webp)
 
 Each filter tab acts like an "AND" statement for the filter. Any filter tab left blank is treated
 like an "ALL" for that filter set.
@@ -20,7 +20,7 @@ like an "ALL" for that filter set.
 On the Exchange Event filter for monitoring, select the types of Exchange events to be monitored by
 the policy.
 
-![Policy window - Exchange Event filter for monitoring](../../../../../../../static/img/product_docs/threatprevention/threatprevention/admin/policies/eventtype/exchangeevent.webp)
+![Policy window - Exchange Event filter for monitoring](/img/product_docs/threatprevention/threatprevention/admin/policies/eventtype/exchangeevent.webp)
 
 Check the **All** box at the top of the tab to include all operations and permissions or select
 specific operations and permissions:
@@ -48,14 +48,14 @@ Use the Exchange Mailbox Objects and Containers filter for monitoring to set the
 to monitor changes to specific objects or containers within Exchange or to exclude changes to
 specific objects or containers from being monitored.
 
-![Policy window - Exchange Mailbox Objects and Containers filter](../../../../../../../static/img/product_docs/threatprevention/threatprevention/admin/policies/eventtype/exchangemailboxobjectsandcontainers.webp)
+![Policy window - Exchange Mailbox Objects and Containers filter](/img/product_docs/threatprevention/threatprevention/admin/policies/eventtype/exchangemailboxobjectsandcontainers.webp)
 
 Select the **Include** or **Exclude** button and then edit the list.
 
 - The **Add** (+) button opens the
-  [Select Exchange Objects from Active Directory Window](window/selectactivedirectory/exchangeobjects.md).
+  [Select Exchange Objects from Active Directory Window](/docs/threatprevention/7.5/threatprevention/admin/policies/eventtype/window/selectactivedirectory/exchangeobjects.md).
 - The Collection button opens the
-  [List of Collections Window](../../configuration/collectionmanager/listcollections.md) to the
+  [List of Collections Window](/docs/threatprevention/7.5/threatprevention/admin/configuration/collectionmanager/listcollections.md) to the
   appropriate Collection category.
 - The Remove (x) button deletes the selected item(s) from that box.
 
@@ -66,7 +66,7 @@ specific Exchange trustees. Trustees are the accounts receiving permissions. For
 administrator grants Joe Smith access to Bob Wilson's mailbox, Joe Smith is the trustee that is
 granted permissions.
 
-![Policy window - Exchange Trustees filter](../../../../../../../static/img/product_docs/threatprevention/threatprevention/admin/policies/eventtype/exchangetrustees.webp)
+![Policy window - Exchange Trustees filter](/img/product_docs/threatprevention/threatprevention/admin/policies/eventtype/exchangetrustees.webp)
 
 Select the **Include** or **Exclude** button and then edit the list. Select the radio button for
 either **Include** or **Exclude**.
@@ -74,9 +74,9 @@ either **Include** or **Exclude**.
 Use the buttons in the Trustees and Collections of Trustees areas to edit the lists.
 
 - The Trustees **Add** (+) button opens the
-  [Select Active Directory Trustees Window](window/selectactivedirectory/trustees.md).
+  [Select Active Directory Trustees Window](/docs/threatprevention/7.5/threatprevention/admin/policies/eventtype/window/selectactivedirectory/trustees.md).
 - The Collection button opens the
-  [List of Collections Window](../../configuration/collectionmanager/listcollections.md) to the
+  [List of Collections Window](/docs/threatprevention/7.5/threatprevention/admin/configuration/collectionmanager/listcollections.md) to the
   appropriate Collection category.
 - The Remove (x) button deletes the selected item(s) from that box.
 
@@ -111,7 +111,7 @@ Use the Exchange Perpetrator filter for monitoring to set the scope of the polic
 specific security principals committing changes or to exclude specific security principals
 committing changes from being monitored.
 
-![Policy window - Exchange Perpetrator filter](../../../../../../../static/img/product_docs/threatprevention/threatprevention/admin/policies/eventtype/exchangeperpetrator.webp)
+![Policy window - Exchange Perpetrator filter](/img/product_docs/threatprevention/threatprevention/admin/policies/eventtype/exchangeperpetrator.webp)
 
 Options at the top enable you to include or exclude monitoring user access to mailboxes based on the
 assigned roles.
@@ -156,14 +156,14 @@ Both the checkboxes and the option buttons have their own set of Include or Excl
 Use the buttons in the Perpetrators and Collections of Perpetrators areas to edit the lists.
 
 - The Perpetrators Add (+) button opens the
-  [Select Active Directory Perpetrators Window](window/selectactivedirectory/perpetrators.md).
+  [Select Active Directory Perpetrators Window](/docs/threatprevention/7.5/threatprevention/admin/policies/eventtype/window/selectactivedirectory/perpetrators.md).
 - The Collection button opens the
-  [List of Collections Window](../../configuration/collectionmanager/listcollections.md) to the
+  [List of Collections Window](/docs/threatprevention/7.5/threatprevention/admin/configuration/collectionmanager/listcollections.md) to the
   appropriate Collection category.
 - The Remove (x) button deletes the selected item(s) from that box.
 
 **NOTE:** To enable a Dynamic Policy, use the Collection button to select the desired Dynamic
-Collection. See the [Dynamic Collections](../../configuration/collectionmanager/dynamic.md) topic
+Collection. See the [Dynamic Collections](/docs/threatprevention/7.5/threatprevention/admin/configuration/collectionmanager/dynamic.md) topic
 for additional information.
 
 ## Rule Preview Filter
@@ -171,7 +171,7 @@ for additional information.
 The Rule Preview filter displays a summary of the selected filter options. This is primarily used
 for troubleshooting.
 
-![Event Type - Rule Preview filter](../../../../../../../static/img/product_docs/threatprevention/threatprevention/admin/policies/eventtype/rulepreview.webp)
+![Event Type - Rule Preview filter](/img/product_docs/threatprevention/threatprevention/admin/policies/eventtype/rulepreview.webp)
 
 The text displayed represents the rules created based on the policy’s selected filters. Each row is
 a selected filter. Notice the Word Wrap checkox. If checked, a filter statement may cover multiple

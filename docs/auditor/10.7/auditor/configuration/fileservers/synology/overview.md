@@ -21,7 +21,7 @@ You can configure your IT Infrastructure for monitoring in one of the following
   configure them manually:
 
     - The log sending must be configured as described in the
-      [Configure Synology File Servers for Audit](configure.md) topic.
+      [Configure Synology File Servers for Audit](/docs/auditor/10.7/auditor/configuration/fileservers/synology/configure.md) topic.
 
 Review a full list of object types Netwrix Auditor can collect on Synology NAS network devices.
 

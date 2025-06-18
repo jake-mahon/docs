@@ -2,15 +2,15 @@
 
 This tab lists all groups defined in the identity store including all active groups:
 
-- [Private Groups](privategroups.md)
-- [Semi Private Groups](semiprivategroups.md)
-- [Public Groups](publicgroups.md)
-- [Expired Groups](allexpiredgroups.md)
-- [Expiring Groups](allexpiringgroups.md)
-- [Smart Groups](allsmartgroups.md)
-- [Dynasties](alldynasties.md)
-- [Password Expiry Groups](passwordexpirygroups.md)
-- [Teams](teams.md) (for Microsoft Entra ID based identity store)
+- [Private Groups](/docs/groupid/11.1/groupid/portal/group/privategroups.md)
+- [Semi Private Groups](/docs/groupid/11.1/groupid/portal/group/semiprivategroups.md)
+- [Public Groups](/docs/groupid/11.1/groupid/portal/group/publicgroups.md)
+- [Expired Groups](/docs/groupid/11.1/groupid/portal/group/allexpiredgroups.md)
+- [Expiring Groups](/docs/groupid/11.1/groupid/portal/group/allexpiringgroups.md)
+- [Smart Groups](/docs/groupid/11.1/groupid/portal/group/allsmartgroups.md)
+- [Dynasties](/docs/groupid/11.1/groupid/portal/group/alldynasties.md)
+- [Password Expiry Groups](/docs/groupid/11.1/groupid/portal/group/passwordexpirygroups.md)
+- [Teams](/docs/groupid/11.1/groupid/portal/group/teams.md) (for Microsoft Entra ID based identity store)
 
 Viewing all groups from the directory source may slow down the loading of groups in the view,
 especially when there are more than 100 groups.
@@ -23,7 +23,7 @@ especially when there are more than 100 groups.
     If you click **Background**, the update runs in the background and will show in the **Background
     Tasks** tab.
 
-- View and modify the [Group Properties](properties/overview.md) of a group.
+- View and modify the [Group Properties](/docs/groupid/11.1/groupid/portal/group/properties/overview.md) of a group.
 - [Expire a group manually ](manage/groupexpiryfunction.md#expire-a-group-manually). After expiring
   the group, it will be listed in **Expired Group** list.
 - Select a smart group and click **Renew** on the toolbar; this re-applies the expiry policy of the
@@ -90,7 +90,7 @@ especially when there are more than 100 groups.
 Use the page numbers under the group listing to page through all groups.
 
 You can also control the number of records to be displayed per page by modifying the **Search
-results per page** setting on the [Portal Settings](../setting/portal.md) panel.
+results per page** setting on the [Portal Settings](/docs/groupid/11.1/groupid/portal/setting/portal.md) panel.
 
 ## Modify Search Directory
 
@@ -99,7 +99,7 @@ a domain to search active groups from.
 
 ## Transfer Ownership
 
-You can find [Transfer Ownership](transferownership.md) option on the top right corner. Transfer
+You can find [Transfer Ownership](/docs/groupid/11.1/groupid/portal/group/transferownership.md) option on the top right corner. Transfer
 Ownership enables you to:
 
 - Assign owners to orphan groups.
