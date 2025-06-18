@@ -1,12 +1,3 @@
----
-id: filter-operators
-title: 'Filter Operators'
-pagination_label: 'Filter Operators'
-sidebar_label: 'Filter Operators'
-sidebar_position: 55
-description: 'Learn about filter operators and search conditions for precise data retrieval and comparison.'
----
-
 # Filter Operators
 
 When applying filters at search, you can specify operators that should be used as conditions for

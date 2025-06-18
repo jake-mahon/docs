@@ -1,12 +1,3 @@
----
-id: custom-reports
-title: 'Custom Reports'
-pagination_label: 'Custom Reports'
-sidebar_label: 'Custom Reports'
-sidebar_position: 53
-description: 'Learn how to create and save custom reports with specific filter sets for recurring analysis.'
----
-
 # Custom Reports
 
 You can define a filter set and create a custom report based on the filter so that you will not have

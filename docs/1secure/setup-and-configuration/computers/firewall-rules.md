@@ -1,12 +1,3 @@
----
-id: configure-windows-firewall-inbound-connection-rules
-title: 'Configure Windows Firewall Inbound Connection Rules'
-pagination_label: 'Configure Windows Firewall Inbound Connection Rules'
-sidebar_label: 'Configure Windows Firewall Inbound Connection Rules'
-sidebar_position: 134
-description: 'Learn how to configure Windows Firewall inbound connection rules on each target computer for proper data collection.'
----
-
 # Configure Windows Firewall Inbound Connection Rules
 
 You need to configure the inbound connection rules in Windows Firewall on each target computer,

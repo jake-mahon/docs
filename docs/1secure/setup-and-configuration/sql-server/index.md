@@ -1,12 +1,3 @@
----
-id: sql-server
-title: 'SQL Server'
-pagination_label: 'SQL Server'
-sidebar_label: 'SQL Server'
-sidebar_position: 140
-description: 'Learn how to configure SQL Server for monitoring with Netwrix 1Secure using native logs and audit settings.'
----
-
 # SQL Server
 
 Netwrix 1Secure relies on native logs for collecting audit data. Therefore, successful change and

@@ -1,12 +1,3 @@
----
-id: assigning-management-roles
-title: 'Assigning Management Roles'
-pagination_label: 'Assigning Management Roles'
-sidebar_label: 'Assigning Management Roles'
-sidebar_position: 66
-description: 'Learn how to assign required management roles to accounts for Exchange data collection.'
----
-
 # Assigning Management Roles
 
 Perform this procedure only if the account selected for data collection is not a member of the

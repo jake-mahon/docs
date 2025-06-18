@@ -1,12 +1,3 @@
----
-id: manage-risk-profiles
-title: 'Manage Risk Profiles'
-pagination_label: 'Manage Risk Profiles'
-sidebar_label: 'Manage Risk Profiles'
-sidebar_position: 75
-description: 'Learn how to create and manage risk profiles with configurable risk thresholds for security vulnerability analysis.'
----
-
 # Manage Risk Profiles
 
 In Netwrix 1Secure, the Managed Service Provider (MSP) can create risk profiles.  A risk profile

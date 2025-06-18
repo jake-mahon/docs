@@ -1,12 +1,3 @@
----
-id: connectwise
-title: 'ConnectWise'
-pagination_label: 'ConnectWise'
-sidebar_label: 'ConnectWise'
-sidebar_position: 201
-description: 'This page explains how to configure ConnectWise integration to deliver Netwrix 1Secure alerts as tickets for help desk services.'
----
-
 # ConnectWise
 
 ConnectWise is a flexible platform for Managed Service Providers that provides integrated services.

@@ -1,12 +1,3 @@
----
-id: sharepoint-online
-title: 'SharePoint Online'
-pagination_label: 'SharePoint Online'
-sidebar_label: 'SharePoint Online'
-sidebar_position: 203
-description: 'This page explains how to configure SharePoint Online integration for delivering Activity and Risk Assessment Dashboard report subscriptions.'
----
-
 # SharePoint Online
 
 You can use the SharePoint Online integration for the report (Activity and Risk Assessment

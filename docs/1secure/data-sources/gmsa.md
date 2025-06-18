@@ -1,12 +1,3 @@
----
-id: using-group-managed-service-account-gmsa
-title: 'Using Group Managed Service Account (gMSA)'
-pagination_label: 'Using Group Managed Service Account (gMSA)'
-sidebar_label: 'Using Group Managed Service Account (gMSA)'
-sidebar_position: 62
-description: 'Learn how to use Group Managed Service Accounts for simplified data collection and storage administration.'
----
-
 # Using Group Managed Service Account (gMSA)
 
 Netwrix 1Secure supports using Group Managed Service Accounts (gMSA) for data collection and

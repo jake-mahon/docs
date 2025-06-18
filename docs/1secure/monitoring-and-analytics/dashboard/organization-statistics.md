@@ -1,12 +1,3 @@
----
-id: organization-statistics
-title: 'Organization Statistics'
-pagination_label: 'Organization Statistics'
-sidebar_label: 'Organization Statistics'
-sidebar_position: 21
-description: 'View detailed statistics and security insights for client organizations including health status and risk assessments.'
----
-
 # Organization Statistics
 
 You can view various statistics related to an organization, such as health status, risk level,

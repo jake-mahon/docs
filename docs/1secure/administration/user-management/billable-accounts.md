@@ -1,12 +1,3 @@
----
-id: billable-accounts
-title: 'Billable Accounts'
-pagination_label: 'Billable Accounts'
-sidebar_label: 'Billable Accounts'
-sidebar_position: 34
-description: 'View and review billable Active Directory and Microsoft Entra ID accounts for your organization.'
----
-
 # Billable Accounts
 
 Netwrix 1Secure provides an information on the billable accounts – the enabled Active

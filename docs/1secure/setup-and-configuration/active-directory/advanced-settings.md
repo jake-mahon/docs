@@ -1,12 +1,3 @@
----
-id: group-policy-management-console
-title: 'Group Policy Management Console'
-pagination_label: 'Group Policy Management Console'
-sidebar_label: 'Group Policy Management Console'
-sidebar_position: 107
-description: 'Learn how to install Group Policy Management Console for managing Group Policy across your organization.'
----
-
 # Group Policy Management Console
 
 Group Policy Management Console is an administrative tool for managing Group Policy across the

@@ -1,12 +1,3 @@
----
-id: alerts
-title: 'Alerts'
-pagination_label: 'Alerts'
-sidebar_label: 'Alerts'
-sidebar_position: 79
-description: 'Learn how to configure and manage alerts that notify you of critical security events and actions in your organization.'
----
-
 # Alerts
 
 When you create an alert profile, several alerts are preconfigured for it. You can, however, choose

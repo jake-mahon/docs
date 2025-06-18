@@ -1,12 +1,3 @@
----
-id: configure-event-log-size-and-retention-settings
-title: 'Configure Event Log Size and Retention Settings'
-pagination_label: 'Configure Event Log Size and Retention Settings'
-sidebar_label: 'Configure Event Log Size and Retention Settings'
-sidebar_position: 132
-description: 'Learn how to adjust event log settings for proper security log file management and retention.'
----
-
 # Configure Event Log Size and Retention Settings
 
 The procedure below describes one of the possible ways to adjust event log settings. If you have

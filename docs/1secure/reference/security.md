@@ -1,12 +1,3 @@
----
-id: security
-title: 'Security'
-pagination_label: 'Security'
-sidebar_label: 'Security'
-sidebar_position: 3
-description: 'Netwrix 1Secure implements multiple layers of security to protect your data and ensure compliance with industry standards.'
----
-
 # Security
 
 Netwrix 1Secure implements multiple layers of security to protect your data and ensure compliance with industry standards.

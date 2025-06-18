@@ -1,12 +1,3 @@
----
-id: system-reports
-title: 'System Reports'
-pagination_label: 'System Reports'
-sidebar_label: 'System Reports'
-sidebar_position: 58
-description: 'Learn how to review automatically generated system reports including Billable Users insights.'
----
-
 # System Reports
 
 A System report named Billable Users is automatically generated and provides insights into your

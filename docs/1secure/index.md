@@ -1,12 +1,3 @@
----
-id: 1secure
-title: '1Secure'
-pagination_label: '1Secure'
-sidebar_label: '1Secure'
-sidebar_position: 1
-description: 'Netwrix 1Secure is a Microsoft Azure-hosted, multi-tenant SaaS application that provides a single location to manage both on-premises and cloud environments.'
----
-
 # 1Secure
 
 Netwrix 1Secure is a Microsoft Azure-hosted, multi-tenant SaaS application that provides a single

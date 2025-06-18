@@ -1,12 +1,3 @@
----
-id: state-in-time-risks-reports
-title: 'State In Time Risks Reports'
-pagination_label: 'State In Time Risks Reports'
-sidebar_label: 'State In Time Risks Reports'
-sidebar_position: 56
-description: 'Learn how to generate state-in-time reports based on risk profiles to analyze environment configurations at specific points in time.'
----
-
 # State In Time Risks Reports
 
 The state-in-time reports allow you to generate reports on your environment's state at a specific

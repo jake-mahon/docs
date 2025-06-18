@@ -1,12 +1,3 @@
----
-id: configure-domain-for-monitoring-active-directory
-title: 'Configure Domain for Monitoring Active Directory'
-pagination_label: 'Configure Domain for Monitoring Active Directory'
-sidebar_label: 'Configure Domain for Monitoring Active Directory'
-sidebar_position: 101
-description: 'Learn how to configure your Active Directory domain for monitoring using automatic or manual methods.'
----
-
 # Configure Domain for Monitoring Active Directory
 
 You can configure your Active Directory domain for monitoring in one of the following ways:

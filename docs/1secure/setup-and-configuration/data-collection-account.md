@@ -1,12 +1,3 @@
----
-id: data-collecting-account
-title: 'Data Collecting Account'
-pagination_label: 'Data Collecting Account'
-sidebar_label: 'Data Collecting Account'
-sidebar_position: 59
-description: 'Learn about service accounts used by 1Secure to collect audit data from monitored systems and their requirements.'
----
-
 # Data Collecting Account
 
 The data collecting account is a service account that Netwrix 1Secure uses to collect audit data

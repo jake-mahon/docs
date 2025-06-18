@@ -1,12 +1,3 @@
----
-id: 1secure-dashboard
-title: '1Secure Dashboard'
-pagination_label: '1Secure Dashboard'
-sidebar_label: '1Secure Dashboard'
-sidebar_position: 20
-description: 'Overview of the 1Secure dashboard providing single-pane-of-glass view for MSPs to manage client organizations and alerts.'
----
-
 # 1Secure Dashboard
 
 The Netwrix 1Secure dashboard provides an intuitive, single-pane-of-glass view of your clients

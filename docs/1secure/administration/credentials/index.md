@@ -1,12 +1,3 @@
----
-id: manage-credentials
-title: 'Manage Credentials'
-pagination_label: 'Manage Credentials'
-sidebar_label: 'Manage Credentials'
-sidebar_position: 36
-description: 'Learn how to set up, review, edit, and delete credentials for data source connections.'
----
-
 # Manage Credentials
 
 In Netwrix 1Secure, you need to set up credentials while adding the sources for crawling your data.

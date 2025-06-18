@@ -1,12 +1,3 @@
----
-id: view-tabs-and-dashboards-for-the-organization
-title: 'View Tabs and Dashboards for the Organization'
-pagination_label: 'View Tabs and Dashboards for the Organization'
-sidebar_label: 'View Tabs and Dashboards for the Organization'
-sidebar_position: 39
-description: 'Learn how to navigate and view available tabs and dashboards for managed organizations.'
----
-
 # View Tabs and Dashboards for the Organization
 
 After adding an organization, you can view available tabs for the organization on the **Managed

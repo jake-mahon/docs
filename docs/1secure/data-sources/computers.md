@@ -1,12 +1,3 @@
----
-id: computer-auditing
-title: 'Computer Auditing'
-pagination_label: 'Computer Auditing'
-sidebar_label: 'Computer Auditing'
-sidebar_position: 71
-description: 'Learn how to configure data collection accounts for Computer source auditing with required policies and permissions.'
----
-
 # Computer Auditing
 
 Before adding a Computer source, plan for the account that will be used for data collection. You

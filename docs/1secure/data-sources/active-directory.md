@@ -1,12 +1,3 @@
----
-id: add-a-source-and-connectors-for-active-directory
-title: 'Add a Source and Connectors for Active Directory'
-pagination_label: 'Add a Source and Connectors for Active Directory'
-sidebar_label: 'Add a Source and Connectors for Active Directory'
-sidebar_position: 41
-description: 'Step-by-step guide to add Active Directory data sources and connectors to your organization.'
----
-
 # Add a Source and Connectors for Active Directory
 
 Follow the steps to add an Active Directory data source and connector(s) to your organization.

@@ -1,12 +1,3 @@
----
-id: manage-organizations
-title: 'Manage Organizations'
-pagination_label: 'Manage Organizations'
-sidebar_label: 'Manage Organizations'
-sidebar_position: 30
-description: 'Learn how to manage organizations and configure settings for Managed Service Providers in 1Secure.'
----
-
 # Manage Organizations
 
 Netwrix 1Secure operates as a service, providing data analysis and reporting capabilities for the

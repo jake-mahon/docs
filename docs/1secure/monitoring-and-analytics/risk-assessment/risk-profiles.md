@@ -1,12 +1,3 @@
----
-id: risk-assessment-dashboard
-title: 'Risk Assessment Dashboard'
-pagination_label: 'Risk Assessment Dashboard'
-sidebar_label: 'Risk Assessment Dashboard'
-sidebar_position: 77
-description: 'Learn how to use the Risk Assessment dashboard to monitor security posture and track vulnerabilities for organizations.'
----
-
 # Risk Assessment Dashboard
 
 The Risk Assessment dashboard is designed as a diagnostic tool for Managed Service Providers (MSPs)

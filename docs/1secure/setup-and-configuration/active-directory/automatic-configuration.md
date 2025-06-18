@@ -1,12 +1,3 @@
----
-id: active-directory-automatic-configuration
-title: 'Active Directory: automatic configuration'
-pagination_label: 'Active Directory: automatic configuration'
-sidebar_label: 'Active Directory: automatic configuration'
-sidebar_position: 104
-description: 'Learn how to automatically apply Active Directory audit settings required by Netwrix 1Secure.'
----
-
 # Active Directory: automatic configuration
 
 This is a recommended method of applying Active Directory audit settings required by Netwrix 1Secure

@@ -1,12 +1,3 @@
----
-id: app-registration-and-configuration-in-microsoft-entra-id
-title: 'App Registration and Configuration in Microsoft Entra ID'
-pagination_label: 'App Registration and Configuration in Microsoft Entra ID'
-sidebar_label: 'App Registration and Configuration in Microsoft Entra ID'
-sidebar_position: 112
-description: 'Learn how to configure an app in Microsoft Entra ID to audit Microsoft 365 data sources using modern authentication.'
----
-
 # App Registration and Configuration in Microsoft Entra ID
 
 This topic explains how to configure an app in Microsoft Entra ID (formerly Azure AD) to audit

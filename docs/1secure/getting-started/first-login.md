@@ -1,12 +1,3 @@
----
-id: first-login-to-1secure
-title: 'First Login to 1Secure'
-pagination_label: 'First Login to 1Secure'
-sidebar_label: 'First Login to 1Secure'
-sidebar_position: 10
-description: 'Learn how to complete your first login to 1Secure and activate your MSP account.'
----
-
 # First Login to 1Secure
 
 This topic describes how an MSP can access the 1Secure tenant for the first time, activate their

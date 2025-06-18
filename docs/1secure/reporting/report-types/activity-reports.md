@@ -1,12 +1,3 @@
----
-id: activity-reports
-title: 'Activity Reports'
-pagination_label: 'Activity Reports'
-sidebar_label: 'Activity Reports'
-sidebar_position: 48
-description: 'Learn how to monitor and analyze user activities with detailed activity reports and custom filters.'
----
-
 # Activity Reports
 
 Activity reports help administrators monitor, track, and analyze various user activities across

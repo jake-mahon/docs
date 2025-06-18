@@ -1,12 +1,3 @@
----
-id: subscriptions
-title: 'Subscriptions'
-pagination_label: 'Subscriptions'
-sidebar_label: 'Subscriptions'
-sidebar_position: 57
-description: 'Learn how to schedule and automatically deliver reports to email addresses or SharePoint Online folders.'
----
-
 # Subscriptions
 
 The Subscriptions feature allows Managed Service Providers (MSPs) to schedule certain reports

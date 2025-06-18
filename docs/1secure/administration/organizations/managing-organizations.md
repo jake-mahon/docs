@@ -1,12 +1,3 @@
----
-id: add-organizations
-title: 'Add Organizations'
-pagination_label: 'Add Organizations'
-sidebar_label: 'Add Organizations'
-sidebar_position: 32
-description: 'Follow step-by-step instructions to add new organizations to your 1Secure system.'
----
-
 # Add Organizations
 
 Follow the steps to add an organization.

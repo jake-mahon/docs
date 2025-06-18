@@ -1,12 +1,3 @@
----
-id: alert-profiles
-title: 'Alert Profiles'
-pagination_label: 'Alert Profiles'
-sidebar_label: 'Alert Profiles'
-sidebar_position: 80
-description: 'Learn how to create and manage alert profiles with grouped configurations and delivery notification settings.'
----
-
 # Alert Profiles
 
 Alert profiles provide a way to easily group alert configurations and delivery notification settings

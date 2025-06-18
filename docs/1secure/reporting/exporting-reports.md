@@ -1,12 +1,3 @@
----
-id: export-a-report-or-investigation-results
-title: 'Export a Report or Investigation Results'
-pagination_label: 'Export a Report or Investigation Results'
-sidebar_label: 'Export a Report or Investigation Results'
-sidebar_position: 54
-description: 'Learn how to export investigation results and reports as Excel files for easier review and analysis.'
----
-
 # Export a Report or Investigation Results
 
 You can export the results of a new investigation or a report to a file for easier review. The

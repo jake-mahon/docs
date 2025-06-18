@@ -1,12 +1,3 @@
----
-id: active-directory-auditing
-title: 'Active Directory Auditing'
-pagination_label: 'Active Directory Auditing'
-sidebar_label: 'Active Directory Auditing'
-sidebar_position: 64
-description: 'Learn how to configure accounts with specific permissions for Active Directory data collection.'
----
-
 # Active Directory Auditing
 
 To collect data from Active Directory, you need an account with specific permissions. The following

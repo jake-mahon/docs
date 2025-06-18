@@ -1,12 +1,3 @@
----
-id: billable-users-report
-title: 'Billable Users Report'
-pagination_label: 'Billable Users Report'
-sidebar_label: 'Billable Users Report'
-sidebar_position: 51
-description: 'Learn how to generate reports on billable Active Directory and Microsoft Entra ID accounts for your organization.'
----
-
 # Billable Users Report
 
 A Billable Users report provides information on the billable accounts – the enabled Active

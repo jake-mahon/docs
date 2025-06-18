@@ -1,12 +1,3 @@
----
-id: exchange-online-auditing
-title: 'Exchange Online Auditing'
-pagination_label: 'Exchange Online Auditing'
-sidebar_label: 'Exchange Online Auditing'
-sidebar_position: 61
-description: 'Learn how to configure Exchange Online auditing with dedicated Microsoft Entra ID applications.'
----
-
 # Exchange Online Auditing
 
 Before adding an Exchange Online data source for your organization, plan for the account that will

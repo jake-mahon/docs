@@ -1,12 +1,3 @@
----
-id: sharepoint-online-auditing
-title: 'SharePoint Online Auditing'
-pagination_label: 'SharePoint Online Auditing'
-sidebar_label: 'SharePoint Online Auditing'
-sidebar_position: 63
-description: 'Learn how to configure SharePoint Online auditing for Office 365 organizations with modern authentication.'
----
-
 # SharePoint Online Auditing
 
 Netwrix 1Secure allows you to audit Office 365 organizations that have established modern

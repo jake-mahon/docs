@@ -1,12 +1,3 @@
----
-id: configure-advanced-audit-policies
-title: 'Configure Advanced Audit Policies'
-pagination_label: 'Configure Advanced Audit Policies'
-sidebar_label: 'Configure Advanced Audit Policies'
-sidebar_position: 121
-description: 'Learn how to configure advanced audit policies for more granular Logon Activity change tracking.'
----
-
 # Configure Advanced Audit Policies
 
 You can configure advanced audit policies instead of basic domain policies to collect Logon Activity

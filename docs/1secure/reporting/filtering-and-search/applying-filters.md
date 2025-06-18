@@ -1,12 +1,3 @@
----
-id: apply-filters
-title: 'Apply Filters'
-pagination_label: 'Apply Filters'
-sidebar_label: 'Apply Filters'
-sidebar_position: 49
-description: 'Learn how to use filters to narrow search results and create custom filter combinations for precise reporting.'
----
-
 # Apply Filters
 
 Filters are used to narrow your search results. You can create your own filters or select one of the
