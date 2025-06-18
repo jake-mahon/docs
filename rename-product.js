@@ -171,10 +171,19 @@ function updateMarkdownReferences(renamedPaths) {
         hasChanges = true;
       }
       
-      // Replace filename references that contain the old product name
-      const filenameRegex = new RegExp(`([^\\s"']*${oldProductName}[^\\s"']*\\.(png|jpg|jpeg|gif|svg|webp|pdf|docx?|xlsx?))`, 'gi');
+      // Replace filename references that contain the old product name (all file types)
+      const filenameRegex = new RegExp(`([^\\s"'()]*${oldProductName}[^\\s"'()]*\\.[a-zA-Z0-9]+)`, 'gi');
       if (filenameRegex.test(content)) {
         content = content.replace(filenameRegex, (match) => {
+          return match.replace(new RegExp(oldProductName, 'gi'), newProductName);
+        });
+        hasChanges = true;
+      }
+      
+      // Replace bare filename references (just filename.ext without path)
+      const bareFilenameRegex = new RegExp(`\\b([a-zA-Z0-9_-]*${oldProductName}[a-zA-Z0-9_-]*\\.[a-zA-Z0-9]+)\\b`, 'gi');
+      if (bareFilenameRegex.test(content)) {
+        content = content.replace(bareFilenameRegex, (match) => {
           return match.replace(new RegExp(oldProductName, 'gi'), newProductName);
         });
         hasChanges = true;
