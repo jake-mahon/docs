@@ -74,7 +74,7 @@ level.
 
 - Sender Name – Name displayed in the sent from field of the email
 - Sender Address – Sender’s email address. This does not have to be a real email address, unless
-  required by the organization. It can be something as simple as `EnterpriseAuditor@yourdomain.com`.
+  required by the organization. It can be something as simple as `accessanalyzer@yourdomain.com`.
 
 ## Email Content
 

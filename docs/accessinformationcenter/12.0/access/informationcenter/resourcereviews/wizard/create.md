@@ -97,7 +97,7 @@ Netwrix Access Analyzer (formerly Enterprise Auditor) for all of the resources s
 the One or more resources selected have not been scanned error occurs. The Create Review wizard will
 not allow the review to be created until those resources have been removed or the option unchecked.
 
-![Create Review wizard Resources page](/img/product_docs/strongpointnetsuiteflashlight/getting_started/resources.webp)
+![Create Review wizard Resources page](/img/product_docs/platgovnetsuiteflashlight/getting_started/resources.webp)
 
 **Step 5 –** On the Resources page, select the resources to be included in the review. The Search
 feature is available to filter the list of available resource that match the type of review being

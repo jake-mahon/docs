@@ -8,14 +8,14 @@ Privilege Secure can import the data:
 - Windows > Privileged Accounts > Local Administrators Job Group
 
 See the
-[Netwrix Enterprise Auditor Documentation](https://helpcenter.netwrix.com/category/enterpriseauditor)
+[Netwrix Enterprise Auditor Documentation](https://helpcenter.netwrix.com/category/accessanalyzer)
 for additional information.
 
 ## Configure the Access Role
 
 Follow the steps to configure the access role in StealthAUDIT. See the Access Role section of the
 Web Service REST API for Applications Access Data Remotely topic of the
-[Netwrix Enterprise Auditor Documentation](https://helpcenter.netwrix.com/category/enterpriseauditor)
+[Netwrix Enterprise Auditor Documentation](https://helpcenter.netwrix.com/category/accessanalyzer)
 for additional information.
 
 **Step 1 –** In Enterprise Auditor, navigate to the Access Node and click the Add Access link in the
@@ -110,7 +110,7 @@ Configuration > Integration Connectors page.
 
 **Step 2 –** In the Integration Connector list, click the Add Integration Connector icon.
 
-![Add Enterprise Auditor Integration Connector](/img/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/configuration/add/addenterpriseauditor.webp)
+![Add Enterprise Auditor Integration Connector](/img/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/configuration/add/addaccessanalyzer.webp)
 
 **Step 3 –** Enter the following information:
 
@@ -139,7 +139,7 @@ page in the menu.
 **Step 2 –** In the Integration Connector list, select the previously created Enterprise Auditor
 Import connector.
 
-![enterpriseauditorconnector](/img/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/configuration/add/enterpriseauditorconnector.webp)
+![enterpriseauditorconnector](/img/versioned_docs/privilegesecure_4.1/privilegesecure/accessmanagement/admin/configuration/add/accessanalyzerconnector.webp)
 
 **Step 3 –** Click **Sync** **StealthAUDIT** to begin the data collection. This may take some time.
 

@@ -6,7 +6,7 @@ resource. The data within these reports is collected by the Enterprise Auditor .
 Inventory solution and the Enterprise Auditor Active Directory Permissions Analyzer solution. See
 the .Active Directory Inventory Solution and the Active Directory Permissions Analyzer Solution
 topics in the
-[Netwrix Enterprise Auditor Documentation](https://helpcenter.netwrix.com/category/enterpriseauditor)
+[Netwrix Enterprise Auditor Documentation](https://helpcenter.netwrix.com/category/accessanalyzer)
 for additional information.
 
 Active Directory resource reports identify the following information in the targeted Active

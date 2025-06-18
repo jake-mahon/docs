@@ -23,7 +23,7 @@ Each component within the Jobs tree has an icon for quick reference. The icons a
 | ![lockedjob](/img/product_docs/accessanalyzer/admin/jobs/lockedjob.webp)                  | Locked Job (Only applicable to Role Based Access feature) |
 | ![status](/img/product_docs/dataclassification/ndc/admin/sources/status.webp)                               | Status node for a Job                                     |
 | ![connectstatus](/img/product_docs/accessanalyzer/admin/jobs/connectstatus.webp)          | Job’s ConnectStatus Node                                  |
-| ![jobstatus](/img/product_docs/strongpointfornetsuite/clean_up/jobstatus.webp)                              | Job Status for a Job                                      |
+| ![jobstatus](/img/product_docs/platgovnetsuite/clean_up/jobstatus.webp)                              | Job Status for a Job                                      |
 | ![taskstatus](/img/product_docs/accessanalyzer/admin/jobs/taskstatus.webp)                | Task Status for a Job                                     |
 | ![results](/img/product_docs/accessanalyzer/admin/datacollector/adinventory/results.webp) | Results node for a Job                                    |
 | ![messages](/img/product_docs/accessanalyzer/admin/jobs/messages.webp)                    | Job’s Messages table                                      |

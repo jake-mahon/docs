@@ -83,7 +83,7 @@ Authentication Type – Basic authentication
 
 Example
 
-![DELETE api/account/delete?userName=username](/img/product_docs/strongpointfornetsuite/integrations/delete.webp)
+![DELETE api/account/delete?userName=username](/img/product_docs/platgovnetsuite/integrations/delete.webp)
 
 To verify the result of this operation, you can use “GET api/account/users” or check the contents of
 the [EpeUsers].[dbo].[AspNetUsers] database table.

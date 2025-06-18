@@ -10,7 +10,7 @@ license (.lic) file are located on the server which will become the Access Analy
 **CAUTION:** If User Account Control (UAC) is enabled on the server, ensure the installation package
 is run in Administrative/privilege mode.
 
-**Step 1 –** Run the **NetwrixEnterpriseAuditor.exe** executable to open the Access Analyzer Setup
+**Step 1 –** Run the **Netwrixaccessanalyzer.exe** executable to open the Access Analyzer Setup
 Wizard.
 
 ![Setup Wizard Welcome page](/img/product_docs/activitymonitor/activitymonitor/install/welcome.webp)

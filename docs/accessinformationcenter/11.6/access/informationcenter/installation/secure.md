@@ -13,7 +13,7 @@ In order to secure the Access Information Center, it is first necessary to enabl
 Information Center website. If you access the Access Information Center via the Web Console, then
 both websites must have SSL enabled with the same certificate. See the Securing the Web Console
 topic in the
-[Netwrix Enterprise Auditor Documentation](https://helpcenter.netwrix.com/category/enterpriseauditor)
+[Netwrix Enterprise Auditor Documentation](https://helpcenter.netwrix.com/category/accessanalyzer)
 for additional information.
 
 ## Enable SSL for the AIC Website
@@ -116,7 +116,7 @@ authentication, to skip the opening login screen and authenticate automatically 
 Active Directory credentials for the user’s current domain login session directly. If you are
 accessing the Access Information Center via the Web Console, single sign-on only needs to be
 configured for the Web Console. See the Enable Single Sign-On topic of the
-[Netwrix Enterprise Auditor Documentation](https://helpcenter.netwrix.com/category/enterpriseauditor)
+[Netwrix Enterprise Auditor Documentation](https://helpcenter.netwrix.com/category/accessanalyzer)
 for additional information.
 
 **NOTE:** The Access Information Center also supports using Microsoft Entra ID single sign-on. See
@@ -166,16 +166,16 @@ Follow the steps to configure local intranet settings.
 **Step 1 –** Open Windows Internet Properties (**Control Panel** > **Network and
 Internet** > **Internet Options**).
 
-![ConfigureLocalIntranetSettingsforSSO - 1](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/install/application/reports/internetproperties.webp)
+![ConfigureLocalIntranetSettingsforSSO - 1](/img/versioned_docs/accessanalyzer_11.6/accessanalyzer/install/application/reports/internetproperties.webp)
 
 **Step 2 –** Go to the Security tab, and select the **Local Intranet** option. Then, click the
 **Sites** button.
 
-![localintranet](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/install/application/reports/localintranet.webp)
+![localintranet](/img/versioned_docs/accessanalyzer_11.6/accessanalyzer/install/application/reports/localintranet.webp)
 
 **Step 3 –** Click the **Advanced** button.
 
-![localintranetadvanced](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/install/application/reports/localintranetadvanced.webp)
+![localintranetadvanced](/img/versioned_docs/accessanalyzer_11.6/accessanalyzer/install/application/reports/localintranetadvanced.webp)
 
 **Step 4 –** Enter a domain in the **Add this website in the zone** field. Ensure the fully
 qualified domain name is in the following format: `https://<server>.<domain>.com`

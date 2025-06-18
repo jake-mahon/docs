@@ -19,7 +19,7 @@ possible to filter the list by any field.
 - Each document has an associated status (shown as the ID). Click the numeric ID to read the status
   description:
 
-![status](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/jobs/status.webp)
+![status](/img/versioned_docs/accessanalyzer_11.6/accessanalyzer/admin/jobs/status.webp)
 
 - Click the "Info" icon for the document/item to view its **Properties**, including summary,
   classifications (if any), etc.:

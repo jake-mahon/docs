@@ -40,7 +40,7 @@ results.
 
 **Step 3 –** Select the desired user and click **Next**.
 
-![Add Account Role wizard – Role page](/img/product_docs/groupid/groupid/configureentraid/register/role.webp)
+![Add Account Role wizard – Role page](/img/product_docs/directorymanager/directorymanager/configureentraid/register/role.webp)
 
 **Step 4 –** Select the Administrator or Operator role for the account from the **Role** drop-down
 menu.

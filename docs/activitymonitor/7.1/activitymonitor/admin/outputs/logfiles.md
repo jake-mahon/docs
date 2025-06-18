@@ -58,7 +58,7 @@ The tab contains the following settings:
     - For integration with Netwrix Enterprise Auditor File System Solution, this value must be
       higher than the number of days between the 0.Collection > 1-FSAC System Scans Job scans. See
       the
-      [Netwrix Enterprise Auditor Documentation](https://helpcenter.netwrix.com/category/enterpriseauditor)
+      [Netwrix Enterprise Auditor Documentation](https://helpcenter.netwrix.com/category/accessanalyzer)
       for additional information.
     - For integration with Netwrix Threat Prevention NAS monitoring, this setting only controls the
       log retention period for NAS devices, as Netwrix Threat Prevention does not read Windows file

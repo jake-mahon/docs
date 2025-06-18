@@ -34,7 +34,7 @@ per tenant.
 
 **Step 4 –** Construct the ReplytoURL using the FQDN of your Access Analyzer server:
 
-https://FQDNofEnterpriseAuditorserver.com:8082/federation
+https://FQDNofaccessanalyzerserver.com:8082/federation
 
 Edit the WebServer.exe.config File
 
@@ -84,14 +84,14 @@ Configure the App Settings for the StealthAUDIT Application
 populate the following fields.
 
 - Web Application URL – This value should follow this
-  format:`https://<FQDNofEnterpriseAuditorserver.com>:8082/`
+  format:`https://<FQDNofaccessanalyzerserver.com>:8082/`
 - Realm – This value is unique per tenant and should follow this format:
   `https://www.okta.com/<YOURVALUEHERE>`
 - Audience Restriction – This value should match the value for the Realm
 - ReplyToURL – Enter the value from the WSFederationReply setting from the **Webserver.exe.config**
   file
 
-    - `https://FQDNofEnterpriseAuditorserver.com:8082/federation`
+    - `https://FQDNofaccessanalyzerserver.com:8082/federation`
 
 - Custom Attribute Statement – This value must match the following format, including case and bold
   areas:

@@ -40,10 +40,10 @@ Interface Icons
 | Icon                                                                                                                                         | Interface           |
 | -------------------------------------------------------------------------------------------------------------------------------------------- | ------------------- |
 | ![myactivities](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/install/myactivities.webp)           | My Activities       |
-| ![dashboard](/img/product_docs/groupid/groupid/admincenter/general/dashboard.webp)                                      | Dashboard           |
+| ![dashboard](/img/product_docs/directorymanager/directorymanager/admincenter/general/dashboard.webp)                                      | Dashboard           |
 | ![policy](/img/product_docs/threatprevention/threatprevention/admin/configuration/databasemaintenance/policy.webp)      | Policy              |
 | ![users](/img/product_docs/activitymonitor/activitymonitor/admin/monitoreddomains/admonitoringconfiguration/users.webp) | Users & Groups      |
-| ![resources](/img/product_docs/strongpointnetsuiteflashlight/getting_started/resources.webp)                            | Resources           |
+| ![resources](/img/product_docs/platgovnetsuiteflashlight/getting_started/resources.webp)                            | Resources           |
 | ![credentials](/img/product_docs/activitymonitor/activitymonitor/install/agent/credentials.webp)                        | Credentials         |
 | ![activities](/img/product_docs/accessanalyzer/admin/hostdiscovery/activities.webp)                   | Activities          |
 | ![configuration](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/enduser/configuration.webp)         | Configuration       |

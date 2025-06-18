@@ -34,7 +34,7 @@ Center begins to send the confirmation email. The table provides the following i
   Tool-tips display when hovering over the icons indicating whether the resource ownership has been
   confirmed, declined, pending response, or that a confirmation has not been requested.
 
-![Owners have been notified message](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/install/sensitivedatadiscovery/completed.webp)
+![Owners have been notified message](/img/versioned_docs/accessanalyzer_11.6/accessanalyzer/install/sensitivedatadiscovery/completed.webp)
 
 **Step 3 –** The action status displays on the page. When the owner confirmation notification has
 completed (100%), click Close. The Confirm Ownership wizard closes.

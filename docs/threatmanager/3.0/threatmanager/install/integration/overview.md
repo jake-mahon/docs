@@ -9,7 +9,7 @@ The following Netwrix products can be configured to send data to Threat Manager:
 - [Netwrix Threat Prevention Integration](/docs/threatmanager/3.0/threatmanager/install/integration/threatprevention.md) – Threat Prevention can be configured
   to send file system data and/or Active Directory data to Threat Manager.
     - Requires a unique App Token to be generated within Threat Manager.
-- [Netwrix Access Analyzer (formerly Enterprise Auditor) Integration](/docs/threatmanager/3.0/threatmanager/install/integration/enterpriseauditor.md) – Access
+- [Netwrix Access Analyzer (formerly Enterprise Auditor) Integration](/docs/threatmanager/3.0/threatmanager/install/integration/accessanalyzer.md) – Access
   Analyzer, formerly Netwrix StealthAUDIT, can be configured to send File System Sensitive Data to
   Threat Manager
     - Requires a unique App Token to be generated within Threat Manager.

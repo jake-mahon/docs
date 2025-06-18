@@ -9,7 +9,7 @@ Follow the steps to export the alerts data.
 **Step 2 –** On the Alerts interface, click the **Export Data** icon in the top right corner; the
 Alerts Export window is displayed.
 
-![Alerts Export window](/img/versioned_docs/groupid_11.0/groupid/portal/export.webp)
+![Alerts Export window](/img/versioned_docs/directorymanager_11.0/directorymanager/portal/export.webp)
 
 **Step 3 –** Export options include:
 

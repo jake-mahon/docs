@@ -30,7 +30,7 @@ The selected connector details display at the top of the main pane:
     - LAPS — Configure integration with LAPS. See the [LAPS Integration](/docs/privilegesecure/4.2/privilegesecure/accessmanagement/admin/configuration/add/integrationlaps.md)
       topic for additional information.
     - StealthAUDIT — Configure integration with Netwrix Access Analyzer (formerly Enterprise
-      Auditor). See the [Enterprise Auditor Integration](/docs/privilegesecure/4.2/privilegesecure/accessmanagement/admin/configuration/add/integrationenterpriseauditor.md)
+      Auditor). See the [Enterprise Auditor Integration](/docs/privilegesecure/4.2/privilegesecure/accessmanagement/admin/configuration/add/integrationaccessanalyzer.md)
       topic for additional information.
 
     **NOTE:** The remaining fields vary based on the type selected.

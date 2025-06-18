@@ -6,7 +6,7 @@ searching for group objects on the Home page. See the
 topic for additional information. The group object being reviewed is identified in the upper-left
 corner. The data within these reports is collected by the Enterprise Auditor solutions which provide
 data to the Resource reports. See the desired solution topics in the
-[Netwrix Enterprise Auditor Documentation](https://helpcenter.netwrix.com/category/enterpriseauditor)
+[Netwrix Enterprise Auditor Documentation](https://helpcenter.netwrix.com/category/accessanalyzer)
 for additional information.
 
 Group reports identify the following information as scanned from the targeted environments:
