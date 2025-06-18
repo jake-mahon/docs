@@ -19,18 +19,20 @@ function discoverProducts() {
 
   try {
     // Read all directories in docs/
-    const productDirs = fs.readdirSync(docsPath, { withFileTypes: true })
-      .filter(dirent => dirent.isDirectory())
-      .map(dirent => dirent.name);
+    const productDirs = fs
+      .readdirSync(docsPath, { withFileTypes: true })
+      .filter((dirent) => dirent.isDirectory())
+      .map((dirent) => dirent.name);
 
     for (const productId of productDirs) {
       const productPath = path.join(docsPath, productId);
-      
+
       // Check if there are version directories
-      const versionDirs = fs.readdirSync(productPath, { withFileTypes: true })
-        .filter(dirent => dirent.isDirectory())
-        .filter(dirent => /^\d+\./.test(dirent.name)) // Match version patterns like "1.0", "2.1", etc.
-        .map(dirent => dirent.name)
+      const versionDirs = fs
+        .readdirSync(productPath, { withFileTypes: true })
+        .filter((dirent) => dirent.isDirectory())
+        .filter((dirent) => /^\d+\./.test(dirent.name)) // Match version patterns like "1.0", "2.1", etc.
+        .map((dirent) => dirent.name)
         .sort((a, b) => b.localeCompare(a, undefined, { numeric: true })); // Sort versions descending
 
       // Determine the label for the current version
@@ -43,7 +45,7 @@ function discoverProducts() {
         id: productId,
         label: currentLabel,
         hasVersions: versionDirs.length > 0,
-        versions: versionDirs
+        versions: versionDirs,
       });
     }
   } catch (error) {
@@ -64,13 +66,13 @@ function getSidebarPath(productId, version) {
       return sidebarFile;
     }
   }
-  
+
   // Check if product-specific sidebar exists
   const productSidebarFile = `./sidebars/${productId}/sidebar.js`;
   if (fs.existsSync(path.join(__dirname, 'sidebars', productId, 'sidebar.js'))) {
     return productSidebarFile;
   }
-  
+
   // Fallback to generic sidebar
   return './sidebars/sidebar.js';
 }
@@ -164,7 +166,7 @@ const config = {
         editUrl: 'https://github.com/netwrix/docs/tree/main/',
         exclude: ['**/CLAUDE.md'],
         versions: {
-          'current': {
+          current: {
             label: '12.0',
           },
         },
@@ -180,7 +182,7 @@ const config = {
         editUrl: 'https://github.com/netwrix/docs/tree/main/',
         exclude: ['**/CLAUDE.md'],
         versions: {
-          'current': {
+          current: {
             label: '11.6',
           },
         },
@@ -197,7 +199,7 @@ const config = {
         editUrl: 'https://github.com/netwrix/docs/tree/main/',
         exclude: ['**/CLAUDE.md'],
         versions: {
-          'current': {
+          current: {
             label: '12.0',
           },
         },
@@ -213,7 +215,7 @@ const config = {
         editUrl: 'https://github.com/netwrix/docs/tree/main/',
         exclude: ['**/CLAUDE.md'],
         versions: {
-          'current': {
+          current: {
             label: '11.6',
           },
         },
@@ -230,7 +232,7 @@ const config = {
         editUrl: 'https://github.com/netwrix/docs/tree/main/',
         exclude: ['**/CLAUDE.md'],
         versions: {
-          'current': {
+          current: {
             label: '8.0',
           },
         },
@@ -246,7 +248,7 @@ const config = {
         editUrl: 'https://github.com/netwrix/docs/tree/main/',
         exclude: ['**/CLAUDE.md'],
         versions: {
-          'current': {
+          current: {
             label: '7.1',
           },
         },
@@ -263,7 +265,7 @@ const config = {
         editUrl: 'https://github.com/netwrix/docs/tree/main/',
         exclude: ['**/CLAUDE.md'],
         versions: {
-          'current': {
+          current: {
             label: '10.7',
           },
         },
@@ -279,7 +281,7 @@ const config = {
         editUrl: 'https://github.com/netwrix/docs/tree/main/',
         exclude: ['**/CLAUDE.md'],
         versions: {
-          'current': {
+          current: {
             label: '10.6',
           },
         },
@@ -296,7 +298,7 @@ const config = {
         editUrl: 'https://github.com/netwrix/docs/tree/main/',
         exclude: ['**/CLAUDE.md'],
         versions: {
-          'current': {
+          current: {
             label: '8.1',
           },
         },
@@ -312,7 +314,7 @@ const config = {
         editUrl: 'https://github.com/netwrix/docs/tree/main/',
         exclude: ['**/CLAUDE.md'],
         versions: {
-          'current': {
+          current: {
             label: '8.0',
           },
         },
@@ -329,7 +331,7 @@ const config = {
         editUrl: 'https://github.com/netwrix/docs/tree/main/',
         exclude: ['**/CLAUDE.md'],
         versions: {
-          'current': {
+          current: {
             label: '5.7',
           },
         },
@@ -345,7 +347,7 @@ const config = {
         editUrl: 'https://github.com/netwrix/docs/tree/main/',
         exclude: ['**/CLAUDE.md'],
         versions: {
-          'current': {
+          current: {
             label: '5.6.2',
           },
         },
@@ -362,7 +364,7 @@ const config = {
         editUrl: 'https://github.com/netwrix/docs/tree/main/',
         exclude: ['**/CLAUDE.md'],
         versions: {
-          'current': {
+          current: {
             label: '5.9.4.2',
           },
         },
@@ -378,7 +380,7 @@ const config = {
         editUrl: 'https://github.com/netwrix/docs/tree/main/',
         exclude: ['**/CLAUDE.md'],
         versions: {
-          'current': {
+          current: {
             label: '5.9.4',
           },
         },
@@ -395,7 +397,7 @@ const config = {
         editUrl: 'https://github.com/netwrix/docs/tree/main/',
         exclude: ['**/CLAUDE.md'],
         versions: {
-          'current': {
+          current: {
             label: '11.1',
           },
         },
@@ -411,7 +413,7 @@ const config = {
         editUrl: 'https://github.com/netwrix/docs/tree/main/',
         exclude: ['**/CLAUDE.md'],
         versions: {
-          'current': {
+          current: {
             label: '11.0',
           },
         },
@@ -428,7 +430,7 @@ const config = {
         editUrl: 'https://github.com/netwrix/docs/tree/main/',
         exclude: ['**/CLAUDE.md'],
         versions: {
-          'current': {
+          current: {
             label: '11.0',
           },
         },
@@ -444,7 +446,7 @@ const config = {
         editUrl: 'https://github.com/netwrix/docs/tree/main/',
         exclude: ['**/CLAUDE.md'],
         versions: {
-          'current': {
+          current: {
             label: '10.2',
           },
         },
@@ -461,7 +463,7 @@ const config = {
         editUrl: 'https://github.com/netwrix/docs/tree/main/',
         exclude: ['**/CLAUDE.md'],
         versions: {
-          'current': {
+          current: {
             label: '3.3',
           },
         },
@@ -477,7 +479,7 @@ const config = {
         editUrl: 'https://github.com/netwrix/docs/tree/main/',
         exclude: ['**/CLAUDE.md'],
         versions: {
-          'current': {
+          current: {
             label: '3.23',
           },
         },
@@ -494,7 +496,7 @@ const config = {
         editUrl: 'https://github.com/netwrix/docs/tree/main/',
         exclude: ['**/CLAUDE.md'],
         versions: {
-          'current': {
+          current: {
             label: '9.2',
           },
         },
@@ -510,7 +512,7 @@ const config = {
         editUrl: 'https://github.com/netwrix/docs/tree/main/',
         exclude: ['**/CLAUDE.md'],
         versions: {
-          'current': {
+          current: {
             label: '9.1',
           },
         },
@@ -527,7 +529,7 @@ const config = {
         editUrl: 'https://github.com/netwrix/docs/tree/main/',
         exclude: ['**/CLAUDE.md'],
         versions: {
-          'current': {
+          current: {
             label: '4.2',
           },
         },
@@ -543,7 +545,7 @@ const config = {
         editUrl: 'https://github.com/netwrix/docs/tree/main/',
         exclude: ['**/CLAUDE.md'],
         versions: {
-          'current': {
+          current: {
             label: '4.1',
           },
         },
@@ -560,7 +562,7 @@ const config = {
         editUrl: 'https://github.com/netwrix/docs/tree/main/',
         exclude: ['**/CLAUDE.md'],
         versions: {
-          'current': {
+          current: {
             label: '2.6',
           },
         },
@@ -577,7 +579,7 @@ const config = {
         editUrl: 'https://github.com/netwrix/docs/tree/main/',
         exclude: ['**/CLAUDE.md'],
         versions: {
-          'current': {
+          current: {
             label: '3.0',
           },
         },
@@ -594,7 +596,7 @@ const config = {
         editUrl: 'https://github.com/netwrix/docs/tree/main/',
         exclude: ['**/CLAUDE.md'],
         versions: {
-          'current': {
+          current: {
             label: '7.5',
           },
         },
@@ -610,7 +612,7 @@ const config = {
         editUrl: 'https://github.com/netwrix/docs/tree/main/',
         exclude: ['**/CLAUDE.md'],
         versions: {
-          'current': {
+          current: {
             label: '7.4',
           },
         },
@@ -627,7 +629,7 @@ const config = {
         editUrl: 'https://github.com/netwrix/docs/tree/main/',
         exclude: ['**/CLAUDE.md'],
         versions: {
-          'current': {
+          current: {
             label: '6.2',
           },
         },
@@ -643,7 +645,7 @@ const config = {
         editUrl: 'https://github.com/netwrix/docs/tree/main/',
         exclude: ['**/CLAUDE.md'],
         versions: {
-          'current': {
+          current: {
             label: '6.1',
           },
         },
@@ -660,7 +662,7 @@ const config = {
         editUrl: 'https://github.com/netwrix/docs/tree/main/',
         exclude: ['**/CLAUDE.md'],
         versions: {
-          'current': {
+          current: {
             label: 'Current',
           },
         },
@@ -677,7 +679,7 @@ const config = {
         editUrl: 'https://github.com/netwrix/docs/tree/main/',
         exclude: ['**/CLAUDE.md'],
         versions: {
-          'current': {
+          current: {
             label: 'Current',
           },
         },
@@ -693,7 +695,7 @@ const config = {
         editUrl: 'https://github.com/netwrix/docs/tree/main/',
         exclude: ['**/CLAUDE.md'],
         versions: {
-          'current': {
+          current: {
             label: 'Current',
           },
         },
@@ -709,7 +711,7 @@ const config = {
         editUrl: 'https://github.com/netwrix/docs/tree/main/',
         exclude: ['**/CLAUDE.md'],
         versions: {
-          'current': {
+          current: {
             label: 'Current',
           },
         },
@@ -725,7 +727,7 @@ const config = {
         editUrl: 'https://github.com/netwrix/docs/tree/main/',
         exclude: ['**/CLAUDE.md'],
         versions: {
-          'current': {
+          current: {
             label: 'Current',
           },
         },
@@ -742,7 +744,7 @@ const config = {
         editUrl: 'https://github.com/netwrix/docs/tree/main/',
         exclude: ['**/CLAUDE.md'],
         versions: {
-          'current': {
+          current: {
             label: 'Current',
           },
         },
