@@ -3,6 +3,7 @@ import Heading from '@theme/Heading';
 import styles from './styles.module.css';
 import Link from '@docusaurus/Link';
 import { ReactTyped } from 'react-typed';
+import { useState } from 'react';
 
 /**
  * Rotating section titles with typewriter effect
@@ -24,17 +25,7 @@ const SECTION_TITLES = [
 ];
 
 /**
- * Product categories and their associated products for the homepage
- *
- * To add a new product:
- * 1. Find the appropriate category or create a new one
- * 2. Add the product object with: name, description, link
- * 3. Link should match the docs URL structure: '/docs/productname'
- *
- * To add a new category:
- * 1. Add a new object with: title, description, icon, products[]
- * 2. Choose an appropriate emoji icon
- * 3. Add products following the same structure
+ * Product categories with version support
  */
 const ProductCategories = [
   {
@@ -43,29 +34,33 @@ const ProductCategories = [
     icon: '👤',
     products: [
       {
-        name: 'Identity Manager 6.1',
-        description: 'User provisioning and management',
-        link: '/docs/identitymanager/6.1',
-      },
-      {
-        name: 'Identity Manager 6.2',
+        name: 'Identity Manager',
         description: 'User provisioning and management',
         link: '/docs/identitymanager/6.2',
-      },
-      {
-        name: 'Identity Manager SaaS',
-        description: 'Cloud-based user management',
-        link: '/docs/identitymanager/saas',
+        versions: [
+          { version: '6.2', link: '/docs/identitymanager/6.2', isLatest: true },
+          { version: '6.1', link: '/docs/identitymanager/6.1', isLatest: false },
+          { version: 'SaaS', link: '/docs/identitymanager/saas', isLatest: false }
+        ]
       },
       {
         name: 'Directory Manager',
         description: 'Active Directory group management',
-        link: '/docs/directorymanager',
+        link: '/docs/directorymanager/11.1',
+        versions: [
+          { version: '11.1', link: '/docs/directorymanager/11.1', isLatest: true },
+          { version: '11.0', link: '/docs/directorymanager/11.0', isLatest: false }
+        ]
       },
       {
         name: 'Platform Governance for NetSuite',
-        description: 'Platform governance and compliance',
+        description: 'NetSuite governance and compliance',
         link: '/docs/platgovnetsuite',
+      },
+      {
+        name: 'Platform Governance for Salesforce',
+        description: 'Salesforce governance and compliance',
+        link: '/docs/platgovsalesforce',
       },
     ],
   },
@@ -77,17 +72,25 @@ const ProductCategories = [
       {
         name: 'Privilege Secure',
         description: 'Privileged access management',
-        link: '/docs/privilegesecure',
+        link: '/docs/privilegesecure/4.2',
+        versions: [
+          { version: '4.2', link: '/docs/privilegesecure/4.2', isLatest: true },
+          { version: '4.1', link: '/docs/privilegesecure/4.1', isLatest: false }
+        ]
       },
       {
-        name: 'Endpoint Policy Manager',
-        description: 'Endpoint policy management',
-        link: '/docs/endpointpolicymanager',
+        name: 'Endpoint Privilege Manager',
+        description: 'Endpoint privilege management',
+        link: '/',
       },
       {
         name: 'Password Secure',
         description: 'Secure password management',
-        link: '/docs/passwordsecure',
+        link: '/docs/passwordsecure/9.2',
+        versions: [
+          { version: '9.2', link: '/docs/passwordsecure/9.2', isLatest: true },
+          { version: '9.1', link: '/docs/passwordsecure/9.1', isLatest: false }
+        ]
       },
     ],
   },
@@ -99,12 +102,20 @@ const ProductCategories = [
       {
         name: 'Auditor',
         description: 'Comprehensive IT infrastructure auditing',
-        link: '/docs/auditor',
+        link: '/docs/auditor/10.7',
+        versions: [
+          { version: '10.7', link: '/docs/auditor/10.7', isLatest: true },
+          { version: '10.6', link: '/docs/auditor/10.6', isLatest: false }
+        ]
       },
       {
         name: 'Directory Manager',
         description: 'Active Directory group management',
-        link: '/docs/directorymanager',
+        link: '/docs/directorymanager/11.1',
+        versions: [
+          { version: '11.1', link: '/docs/directorymanager/11.1', isLatest: true },
+          { version: '11.0', link: '/docs/directorymanager/11.0', isLatest: false }
+        ]
       },
       {
         name: 'Password Policy Enforcer',
@@ -121,7 +132,11 @@ const ProductCategories = [
       {
         name: 'Endpoint Protector',
         description: 'Comprehensive endpoint security',
-        link: '/docs/endpointprotector',
+        link: '/docs/endpointprotector/5.9.4.2',
+        versions: [
+          { version: '5.9.4.2', link: '/docs/endpointprotector/5.9.4.2', isLatest: true },
+          { version: '5.9.4', link: '/docs/endpointprotector/5.9.4', isLatest: false }
+        ]
       },
       {
         name: 'Endpoint Policy Manager',
@@ -131,7 +146,11 @@ const ProductCategories = [
       {
         name: 'Change Tracker',
         description: 'Real-time change monitoring and alerts',
-        link: '/docs/changetracker',
+        link: '/docs/changetracker/8.1',
+        versions: [
+          { version: '8.1', link: '/docs/changetracker/8.1', isLatest: true },
+          { version: '8.0', link: '/docs/changetracker/8.0', isLatest: false }
+        ]
       },
     ],
   },
@@ -148,17 +167,29 @@ const ProductCategories = [
       {
         name: 'Auditor',
         description: 'Comprehensive IT infrastructure auditing',
-        link: '/docs/auditor',
+        link: '/docs/auditor/10.7',
+        versions: [
+          { version: '10.7', link: '/docs/auditor/10.7', isLatest: true },
+          { version: '10.6', link: '/docs/auditor/10.6', isLatest: false }
+        ]
       },
       {
         name: 'Access Analyzer',
         description: 'Analyze and audit file system permissions',
-        link: '/docs/accessanalyzer',
+        link: '/docs/accessanalyzer/12.0',
+        versions: [
+          { version: '12.0', link: '/docs/accessanalyzer/12.0', isLatest: true },
+          { version: '11.6', link: '/docs/accessanalyzer/11.6', isLatest: false }
+        ]
       },
       {
         name: 'Data Classification',
         description: 'Classify and protect sensitive data',
-        link: '/docs/dataclassification',
+        link: '/docs/dataclassification/5.7',
+        versions: [
+          { version: '5.7', link: '/docs/dataclassification/5.7', isLatest: true },
+          { version: '5.6.2', link: '/docs/dataclassification/5.6.2', isLatest: false }
+        ]
       },
     ],
   },
@@ -170,12 +201,16 @@ const ProductCategories = [
       {
         name: 'PingCastle',
         description: 'Active Directory security assessment',
-        link: '/docs/pingcastle',
+        link: '/',
       },
       {
         name: 'Access Analyzer',
         description: 'Analyze and audit file system permissions',
-        link: '/docs/accessanalyzer',
+        link: '/docs/accessanalyzer/12.0',
+        versions: [
+          { version: '12.0', link: '/docs/accessanalyzer/12.0', isLatest: true },
+          { version: '11.6', link: '/docs/accessanalyzer/11.6', isLatest: false }
+        ]
       },
       {
         name: 'Threat Manager',
@@ -207,22 +242,16 @@ const ProductCategories = [
       {
         name: 'Activity Monitor',
         description: 'Track user activities across IT infrastructure',
-        link: '/docs/activitymonitor',
+        link: '/docs/activitymonitor/8.0',
+        versions: [
+          { version: '8.0', link: '/docs/activitymonitor/8.0', isLatest: true },
+          { version: '7.1', link: '/docs/activitymonitor/7.1', isLatest: false }
+        ]
       },
       {
         name: 'Password Reset',
         description: 'Self-service password reset solution',
         link: '/docs/passwordreset',
-      },
-      {
-        name: 'Platform Governance for NetSuite',
-        description: 'NetSuite change management and compliance',
-        link: '/docs/platgovnetsuite',
-      },
-      {
-        name: 'Platform Governance for Salesforce',
-        description: 'Salesforce change management platform',
-        link: '/docs/platgovsalesforce',
       },
       {
         name: 'Platform Governance for NetSuite Flashlight',
@@ -239,8 +268,48 @@ const ProductCategories = [
 ];
 
 /**
+ * Product Card with Rectangular Version Badges
+ */
+function ProductCard({ product }) {
+  const [showVersions, setShowVersions] = useState(false);
+  const hasVersions = product.versions && product.versions.length > 0;
+
+  if (!hasVersions) {
+    return (
+      <Link to={product.link} className={styles.productCard}>
+        <h4 className={styles.productName}>{product.name}</h4>
+        <p className={styles.productDescription}>{product.description}</p>
+        <span className={styles.learnMore}>Learn more →</span>
+      </Link>
+    );
+  }
+
+  return (
+    <div className={`${styles.productCard} ${styles.versionedCard}`}>
+      {/* Version badges in top-right corner */}
+      <div className={styles.versionBadgesContainer}>
+        {product.versions.map((version, idx) => (
+          <Link 
+            key={idx}
+            to={version.link}
+            className={`${styles.versionBadge} ${version.isLatest ? styles.latestBadge : ''}`}
+          >
+            v{version.version}
+          </Link>
+        ))}
+      </div>
+      
+      <h4 className={styles.productName}>{product.name}</h4>
+      <p className={styles.productDescription}>{product.description}</p>
+      <Link to={product.link} className={styles.learnMore}>
+        Learn more →
+      </Link>
+    </div>
+  );
+}
+
+/**
  * Renders a single product category with its products
- * Displays category info and a grid of product cards
  */
 function ProductCategory({ title, description, icon, products }) {
   return (
@@ -256,11 +325,7 @@ function ProductCategory({ title, description, icon, products }) {
       </div>
       <div className={styles.productsGrid}>
         {products.map((product, idx) => (
-          <Link key={idx} to={product.link} className={styles.productCard}>
-            <h4 className={styles.productName}>{product.name}</h4>
-            <p className={styles.productDescription}>{product.description}</p>
-            <span className={styles.learnMore}>Learn more →</span>
-          </Link>
+          <ProductCard key={idx} product={product} />
         ))}
       </div>
     </div>
@@ -288,8 +353,7 @@ export default function HomepageFeatures() {
             />
           </Heading>
           <p className={styles.sectionSubtitle}>
-            Explore our comprehensive security products organized by your specific needs and use
-            cases.
+            Explore our comprehensive security products with individual version tags for easy access.
           </p>
         </div>
         <div className={styles.categoriesContainer}>

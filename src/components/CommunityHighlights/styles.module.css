@@ -1,5 +1,5 @@
 .communityHighlights {
-  padding: 3rem 0;
+  padding: 2rem 0;
   background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
 }
 
@@ -13,13 +13,13 @@
 
 .sectionHeader {
   text-align: center;
-  margin-bottom: 2rem;
+  margin-bottom: 1.5rem;
 }
 
 .sectionTitle {
-  font-size: 2.5rem;
+  font-size: 2rem;
   font-weight: 700;
-  margin-bottom: 1rem;
+  margin-bottom: 0.75rem;
   color: var(--ifm-color-primary-darkest);
 }
 
@@ -37,12 +37,12 @@
 .highlightsGrid {
   display: flex;
   flex-direction: column;
-  gap: 1.5rem;
-  margin-bottom: 2rem;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
 }
 
 .carouselContainer {
-  margin-bottom: 2rem;
+  margin-bottom: 1.5rem;
   position: relative;
 }
 
@@ -94,7 +94,7 @@
 .featuredCard {
   background: white;
   border-radius: 16px;
-  padding: 2rem;
+  padding: 1.5rem;
   border: 1px solid rgba(0, 0, 0, 0.05);
   position: relative;
   overflow: hidden;
@@ -119,7 +119,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 1.5rem;
+  margin-bottom: 1rem;
 }
 
 .featuredLabel {
@@ -154,9 +154,9 @@
 }
 
 .featuredTitle {
-  font-size: 1.4rem;
+  font-size: 1.25rem;
   font-weight: 600;
-  margin-bottom: 1rem;
+  margin-bottom: 0.75rem;
   color: var(--ifm-color-emphasis-800);
   line-height: 1.3;
 }
@@ -166,10 +166,10 @@
 }
 
 .featuredExcerpt {
-  font-size: 1rem;
+  font-size: 0.95rem;
   color: var(--ifm-color-emphasis-700);
-  line-height: 1.6;
-  margin-bottom: 1.5rem;
+  line-height: 1.5;
+  margin-bottom: 1rem;
 }
 
 .featuredStats {
@@ -186,24 +186,24 @@
 
 .loadingState {
   text-align: center;
-  padding: 4rem 0;
+  padding: 3rem 0;
   color: var(--ifm-color-emphasis-600);
 }
 
 /* Responsive */
 @media screen and (max-width: 996px) {
   .communityHighlights {
-    padding: 3rem 0;
+    padding: 2rem 0;
   }
 
   .sectionTitle {
-    font-size: 2rem;
+    font-size: 1.75rem;
   }
 }
 
 @media screen and (max-width: 768px) {
   .featuredCard {
-    padding: 1.5rem;
+    padding: 1.25rem;
   }
 
   .featuredHeader {
@@ -215,5 +215,9 @@
   .featuredStats {
     flex-wrap: wrap;
     gap: 1rem;
+  }
+
+  .communityHighlights {
+    padding: 1.5rem 0;
   }
 }
