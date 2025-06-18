@@ -220,7 +220,11 @@ const ProductCategories = [
       {
         name: 'Threat Prevention',
         description: 'Proactive threat prevention',
-        link: '/docs/threatprevention',
+        link: '/docs/threatprevention/7.5',
+        versions: [
+          { version: '7.5', link: '/docs/threatprevention/7.5', isLatest: true },
+          { version: '7.4', link: '/docs/threatprevention/7.4', isLatest: false }
+        ]
       },
       {
         name: 'Recovery for Active Directory',

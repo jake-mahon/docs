@@ -590,7 +590,7 @@ const config = {
         id: 'threatprevention7_5',
         path: 'docs/threatprevention/7.5',
         routeBasePath: 'docs/threatprevention/7.5',
-        sidebarPath: require.resolve('./sidebars/sidebar.js'),
+        sidebarPath: require.resolve('./sidebars/threatprevention-7.5-sidebar.js'),
         editUrl: 'https://github.com/netwrix/docs/tree/main/',
         exclude: ['**/CLAUDE.md'],
         versions: {
@@ -606,7 +606,7 @@ const config = {
         id: 'threatprevention7_4',
         path: 'docs/threatprevention/7.4',
         routeBasePath: 'docs/threatprevention/7.4',
-        sidebarPath: require.resolve('./sidebars/sidebar.js'),
+        sidebarPath: require.resolve('./sidebars/threatprevention-7.4-sidebar.js'),
         editUrl: 'https://github.com/netwrix/docs/tree/main/',
         exclude: ['**/CLAUDE.md'],
         versions: {
