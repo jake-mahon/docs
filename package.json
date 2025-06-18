@@ -5,8 +5,10 @@
   "main": "docusaurus.config.js",
   "scripts": {
     "docusaurus": "docusaurus",
-    "start": "docusaurus start",
+    "start": "node scripts/start-wrapper.js",
+    "start:all": "docusaurus start",
     "build": "NODE_OPTIONS=--max-old-space-size=8192 npx docusaurus build",
+    "build:single": "node scripts/build-single.js",
     "swizzle": "docusaurus swizzle",
     "deploy": "docusaurus deploy",
     "clear": "docusaurus clear",
