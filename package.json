@@ -20,7 +20,10 @@
     "prepare": "husky"
   },
   "lint-staged": {
-    "*.{js,jsx,ts,tsx,json,css,scss,md}": "prettier --write"
+    "*.{js,jsx,ts,tsx,json,css,scss,md}": [
+      "prettier --write",
+      "git add"
+    ]
   },
   "dependencies": {
     "@docusaurus/core": "^3.8.1",
