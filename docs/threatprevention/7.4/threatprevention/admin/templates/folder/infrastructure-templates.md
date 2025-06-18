@@ -1,4 +1,8 @@
-# LDAP Folder Templates
+# Infrastructure Templates
+
+This section contains templates for monitoring and protecting infrastructure components.
+
+## LDAP Monitoring {#ldap}
 
 The LDAP folder contains the following templates:
 
@@ -9,3 +13,12 @@ The LDAP folder contains the following templates:
 | LDAP: Sensitive Groups        | This policy will detect LDAP queries targeting sensitive groups, such as Domain Admins, Enterprise Admins, and Schema Admins. Add to and delete from this list of groups in the LDAP Query filter per specific requirements | None |
 | LDAP: Sensitive SPNs          | This policy will detect LDAP queries targeting sensitive Service Principal Names, such as Exchange and SQL Servers. Add to and delete from this list of SPNs in the LDAP Query filter per specific requirements             | None |
 | LDAP: Service Principal Names | Detects attempts to obtain a list of SPN values                                                                                                                                                                             | None |
+
+## Threat Manager Integration {#threat-manager}
+
+The Threat Manager folder contains the following templates:
+
+| Template                   | Description                                                                                                                                                                                                                                | TAGS                                  |
+| -------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------- |
+| Threat Manager for AD      | This is the recommended policy for sending AD Events captured by Threat Prevention to Threat Manager. This policy includes:  Authentication Monitoring, Active Directory Changes, AD Replication Monitoring, and LSASS Guardian - Monitor. | - Threat Manager - NEW v6.1 TEMPLATES |
+| Threat Manager for AD LDAP | This is the recommended policy for sending LDAP events captured by Threat Prevention to Threat Manager for detecting signature queries of LDAP reconnaissance tools. Policy 1: Suspicious Queries Policy 2: Suspicious Attributes Returned | - Threat Manager - NEW v7.1 TEMPLATES |
