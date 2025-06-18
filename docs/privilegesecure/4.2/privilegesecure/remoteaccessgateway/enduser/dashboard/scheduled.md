@@ -2,14 +2,14 @@
 
 The Scheduled sessions dashboard shows all scheduled sessions.
 
-![Scheduled Dashboard](../../../../../../../static/img/product_docs/privilegesecure/privilegesecure/accessmanagement/enduser/dashboard/scheduleddashboarduser.webp)
+![Scheduled Dashboard](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/enduser/dashboard/scheduleddashboarduser.webp)
 
 The Scheduled Sessions table has the following features:
 
 - Search — Searches the table or list for matches to the search string. When matches are found, the
   table or list is filtered to the matching results.
 - Create Session — Open the Activity Request window. See the
-  [Create Activity Session](createsession.md) topic for additional information.
+  [Create Activity Session](/docs/privilegesecure/4.2/privilegesecure/remoteaccessgateway/enduser/dashboard/createsession.md) topic for additional information.
 - End Session — Cancel the selected session(s)
 - Refresh — Reload the information displayed
 
@@ -22,9 +22,9 @@ The table has the following columns:
       the login account
     - Pending — Session scheduled start time is still in the future, session is waiting to start
     - Waiting for Approval — The session requires approval to begin. See the
-      [Approvals Dashboard](approvals.md) topic for additional information.
+      [Approvals Dashboard](/docs/privilegesecure/4.2/privilegesecure/remoteaccessgateway/enduser/dashboard/approvals.md) topic for additional information.
     - Available — The activity session is ready. Click the icon to begin the session, or log in
-      through a client. See the [Sessions Interface](sessions.md) topic for additional information.
+      through a client. See the [Sessions Interface](/docs/privilegesecure/4.2/privilegesecure/remoteaccessgateway/enduser/dashboard/sessions.md) topic for additional information.
     - Failed — Pre-Session stage of the Activity has encountered an error
     - Logged In — User is successfully logged in to the Resource either directly or via the Proxy.
       Direct log-in is detected by polling the Resource at regular intervals and may not update

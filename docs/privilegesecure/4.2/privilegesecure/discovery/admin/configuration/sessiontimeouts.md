@@ -49,7 +49,7 @@ There are three primary paths for solving this problem:
 Microsoft has designed RDP to have incredibly granular controls regarding specific policies and
 actions which can be explored for additional layers of control over the RDP interface, specifically:
 
-- [https://docs.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc754272(v=ws.11)?redirectedfrom=MSDN](<https://docs.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc754272(v=ws.11)?redirectedfrom=MSDN>)
+- [https://docs.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc754272(v=ws.11)?redirectedfrom=MSDN](https://docs.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc754272(v=ws.11)?redirectedfrom=MSDN)
 
 In this context, it is important to set a policy that forces a disconnected or idle session to also
 log off.

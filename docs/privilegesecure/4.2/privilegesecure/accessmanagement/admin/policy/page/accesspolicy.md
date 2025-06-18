@@ -4,14 +4,14 @@ The Access Policies page is accessible from the Navigation pane underPolicyPolic
 configured access policies, which are used to control which users can complete which activities on
 which resources.
 
-![Access Policy Page](../../../../../../../../static/img/product_docs/threatprevention/threatprevention/reportingmodule/configuration/systemsettings/page.webp)
+![Access Policy Page](/img/product_docs/threatprevention/threatprevention/reportingmodule/configuration/systemsettings/page.webp)
 
 The pane on the left side of the page displays a list of the configured access policies. This pane
 has the following features:
 
 - Search — Searches the table or list for matches to the search string. When matches are found, the
   table or list is filtered to the matching results.
-- Green + button — Create a new access policy. See the [Add Access Policy](../add/accesspolicy.md)
+- Green + button — Create a new access policy. See the [Add Access Policy](/docs/privilegesecure/4.2/privilegesecure/accessmanagement/admin/policy/add/accesspolicy.md)
   topic for additional information.
 - Trashcan icon — Deletes the access policy. Icon appears when policy is hovered over. A
   confirmation window will display.
@@ -22,11 +22,11 @@ The selected access policy details display at the top of the main pane:
 - Description — Description of the policy
 - Type — Icon indicates the type of object: Resource Based or Credential Based
 - Connection Profile — Displays the name of the connection profile associated to the access policy.
-  The green arrow will open the [Connection Profiles Page](connectionprofiles.md) to add or edit
+  The green arrow will open the [Connection Profiles Page](/docs/privilegesecure/4.2/privilegesecure/accessmanagement/admin/policy/page/connectionprofiles.md) to add or edit
   connection profiles.
 - User icon — Shows extra group of users who can manage this access policy. The icon appears only if
   a custom role has been assigned to a policy. See the
-  [Custom Role Details Page](details/rolemanagementcustom.md) for additional information.
+  [Custom Role Details Page](/docs/privilegesecure/4.2/privilegesecure/accessmanagement/admin/policy/page/details/rolemanagementcustom.md) for additional information.
 
 If any of these settings are modified, Save and Cancel buttons are displayed. Click **Save** to
 commit the modifications. Click **Cancel** to discard the modifications.
@@ -38,11 +38,11 @@ See the following topics for additional information:
 - Resource Based Policy:
 
     - Users Tab for Resource Based Access Policies
-    - [Activities Tab for Resource Based Access Policies](../tab/policyresource/activities.md)
-    - [Resources Tab for Resource Based Access Policies](../tab/policyresource/resources.md)
+    - [Activities Tab for Resource Based Access Policies](/docs/privilegesecure/4.2/privilegesecure/accessmanagement/admin/policy/tab/policyresource/activities.md)
+    - [Resources Tab for Resource Based Access Policies](/docs/privilegesecure/4.2/privilegesecure/accessmanagement/admin/policy/tab/policyresource/resources.md)
 
 - Credential Based Policy:
 
-    - [Users Tab for Credential Based Access Policies](../tab/policycredentials/users.md)
-    - [Activities Tab for Credential Based Access Policies](../tab/policycredentials/activities.md)
-    - [Credentials Tab for Credential Based Access Policies](../tab/policycredentials/credentials.md)
+    - [Users Tab for Credential Based Access Policies](/docs/privilegesecure/4.2/privilegesecure/accessmanagement/admin/policy/tab/policycredentials/users.md)
+    - [Activities Tab for Credential Based Access Policies](/docs/privilegesecure/4.2/privilegesecure/accessmanagement/admin/policy/tab/policycredentials/activities.md)
+    - [Credentials Tab for Credential Based Access Policies](/docs/privilegesecure/4.2/privilegesecure/accessmanagement/admin/policy/tab/policycredentials/credentials.md)

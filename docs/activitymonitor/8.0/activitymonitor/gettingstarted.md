@@ -10,8 +10,8 @@ the target environment and configured to monitor activity. It is necessary to pr
 environment and configure the credentials used by the agents. Each supported environment has
 different requirements. See the following topics for additional information:
 
-- Console server [Requirements ](requirements/overview.md)
-- [Activity Agent Server Requirements](requirements/activityagent.md) for monitoring:
+- Console server [Requirements ](/docs/activitymonitor/8.0/activitymonitor/requirements/overview.md)
+- [Activity Agent Server Requirements](/docs/activitymonitor/8.0/activitymonitor/requirements/activityagent.md) for monitoring:
 
     - Exchange Online
     - Microsoft Entra ID
@@ -21,17 +21,17 @@ different requirements. See the following topics for additional information:
     - SQL Servers
     - Windows File servers
 
-- [AD Agent Server Requirements](requirements/adagent.md) for monitoring Active Directory
-- [Linux Agent Server Requirements](requirements/linuxagent.md) for monitoring Linux file servers
+- [AD Agent Server Requirements](/docs/activitymonitor/8.0/activitymonitor/requirements/adagent.md) for monitoring Active Directory
+- [Linux Agent Server Requirements](/docs/activitymonitor/8.0/activitymonitor/requirements/linuxagent.md) for monitoring Linux file servers
 
 ## Install & Deploy Agents
 
 Once the prerequisites are accomplished, you are ready to install the application and deploy agents.
 See the following topics for additional information:
 
-- [Install Application](install/application.md)
-- [Agent Information](install/agents.md)
-- [Import License Key](install/importlicensekey.md)
+- [Install Application](/docs/activitymonitor/8.0/activitymonitor/install/application.md)
+- [Agent Information](/docs/activitymonitor/8.0/activitymonitor/install/agents.md)
+- [Import License Key](/docs/activitymonitor/8.0/activitymonitor/install/importlicensekey.md)
 
 ## Configure Monitoring
 
@@ -41,11 +41,11 @@ target environments it is done after the agent is deployed. You will configure w
 monitored as well as where the collected data will go (outputs). See the following topics for
 additional information:
 
-- [Monitored Domains Tab](admin/monitoreddomains/overview.md) for Active Directory monitoring
-- [Monitored Hosts Tab](admin/monitoredhosts/overview.md) for all other target environments.
+- [Monitored Domains Tab](/docs/activitymonitor/8.0/activitymonitor/admin/monitoreddomains/overview.md) for Active Directory monitoring
+- [Monitored Hosts Tab](/docs/activitymonitor/8.0/activitymonitor/admin/monitoredhosts/overview.md) for all other target environments.
 
 ## Search Activity Event Data
 
 You can query the activity logs created by the activity agents from within the console. Using the
 search feature, set filters for the query to view monitored events. See the
-[Search Feature](admin/search/overview.md) topic for additional information.
+[Search Feature](/docs/activitymonitor/8.0/activitymonitor/admin/search/overview.md) topic for additional information.

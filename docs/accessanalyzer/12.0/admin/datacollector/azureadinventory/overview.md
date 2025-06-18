@@ -5,7 +5,7 @@ ID, formerly Azure Active Directory. This data collector is a core component of 
 is preconfigured in the .Entra ID Inventory Solution.
 
 Both this data collector and the solution are available with all Access Analyzer license options.
-See the [.Entra ID Inventory Solution](../../../solutions/entraidinventory/overview.md) topic for
+See the [.Entra ID Inventory Solution](/docs/accessanalyzer/12.0/solutions/entraidinventory/overview.md) topic for
 additional information.
 
 Protocols
@@ -47,13 +47,13 @@ The AzureADInventory Data Collector is configured through the Entra ID Inventory
 contains the following wizard pages:
 
 - Welcome
-- [AzureADInventory: Category](category.md)
-- [AzureADInventory: Options](options.md)
-- [AzureADInventory: Custom Attributes](customattributes.md)
-- [AzureADInventory: Results](results.md)
-- [AzureADInventory: Summary](summary.md)
+- [AzureADInventory: Category](/docs/accessanalyzer/12.0/admin/datacollector/azureadinventory/category.md)
+- [AzureADInventory: Options](/docs/accessanalyzer/12.0/admin/datacollector/azureadinventory/options.md)
+- [AzureADInventory: Custom Attributes](/docs/accessanalyzer/12.0/admin/datacollector/azureadinventory/customattributes.md)
+- [AzureADInventory: Results](/docs/accessanalyzer/12.0/admin/datacollector/azureadinventory/results.md)
+- [AzureADInventory: Summary](/docs/accessanalyzer/12.0/admin/datacollector/azureadinventory/summary.md)
 
-![Entra ID Inventory Data Collector Wizard Welcome page](../../../../../../static/img/product_docs/activitymonitor/activitymonitor/install/welcome.webp)
+![Entra ID Inventory Data Collector Wizard Welcome page](/img/product_docs/activitymonitor/activitymonitor/install/welcome.webp)
 
 Hide the Welcome page the next time this data collected is accessed by selecting the **Do not
 display this page the next time** checkbox.

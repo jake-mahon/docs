@@ -3,7 +3,7 @@
 Sensitive Content reports are accessed through the Content Audit interface. You can access Sensitive
 Content reports by searching for sensitive data criterion or values on the Home page. These searches
 must be preceded by `SDD` and a space, for example `SDD credit cards`. Searches are not case
-sensitive. See the [Search Features](../navigate/search.md) topic for additional information. The
+sensitive. See the [Search Features](/docs/accessinformationcenter/12.0/access/informationcenter/resourceaudit/navigate/search.md) topic for additional information. The
 sensitive data being reviewed is identified in the upper-left corner. The data within these reports
 is collected by the Access Analyzer solutions which provide data to the Resource reports. See the
 desired solution topic in the

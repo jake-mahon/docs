@@ -18,7 +18,7 @@ policies for the domain accounts.
 
 To enforce password policies for domain user accounts, you should install Password Policy Enforcer
 onto all the domain controllers in the domain. If you have read-only domain controllers and aren't
-using the [Rules](rules.md), [Password Policy Client](password_policy_client.md), or other software
+using the [Rules](/docs/passwordpolicyenforcer/11.0/passwordpolicyenforcer/administration/rules.md), [Password Policy Client](/docs/passwordpolicyenforcer/11.0/passwordpolicyenforcer/administration/password_policy_client.md), or other software
 (such as
 [Netwrix Password Reset](https://www.netwrix.com/active_directory_password_reset_tool.html)) that
 uses the Password Policy Enforcer Client protocol, then you do not need to install Password Policy
@@ -43,9 +43,9 @@ is also some information, such as the user's OU, which does not exist in the SAM
 limitations, the following rules and features cannot be used with local password policies:
 
 - The Minimum Age and Maximum Age rules (you can use the Windows version of these rules with
-  Password Policy Enforcer). See the [Rules](rules.md) topic for additional information.
+  Password Policy Enforcer). See the [Rules](/docs/passwordpolicyenforcer/11.0/passwordpolicyenforcer/administration/rules.md) topic for additional information.
 - Policy assignments by groups and containers. See the
-  [Assign Policies to Users & Groups](usersgroups.md) topic for additional information.
+  [Assign Policies to Users & Groups](/docs/passwordpolicyenforcer/11.0/passwordpolicyenforcer/administration/usersgroups.md) topic for additional information.
 
 Password Policy Enforcer's configuration is stored in Active Directory for domain password policies,
 and in the Windows registry for local password policies. The Connect To page in the Password Policy
@@ -75,7 +75,7 @@ pane.
 
 **Step 5 –** Right-click the **Registry** item, and then select **New** > **Registry Wizard**.
 
-![domain_and_local_policies](../../../../../static/img/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/administration/domain_and_local_policies.webp)
+![domain_and_local_policies](/img/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/administration/domain_and_local_policies.webp)
 
 **Step 6 –** Select the computer that contains the Password Policy Enforcer local configuration that
 you want to distribute, and then click **Next**.
@@ -85,7 +85,7 @@ you want to distribute, and then click **Next**.
 **Step 8 –** Click the **Password Policy Enforcer _version_** item, and then select the check boxes
 beside each item in the bottom pane of the window.
 
-![domain_and_local_policies_1](../../../../../static/img/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/administration/domain_and_local_policies_1.webp)
+![domain_and_local_policies_1](/img/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/administration/domain_and_local_policies_1.webp)
 
 **Step 9 –** Click **Finish**.
 

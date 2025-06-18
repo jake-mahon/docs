@@ -5,7 +5,7 @@ by user on the selected server during the specified date range. Activity on DFS 
 level is rolled up to the server hosting the DFS Namespace. This report includes line graphs for
 Active Users Trend and Traffic Trend.
 
-![Activity Statistics report at the server level](../../../../../../../../static/img/product_docs/accessinformationcenter/access/informationcenter/resourceaudit/filesystem/server/serveractivitystatistics.webp)
+![Activity Statistics report at the server level](/img/product_docs/accessinformationcenter/access/informationcenter/resourceaudit/filesystem/server/serveractivitystatistics.webp)
 
 This report is comprised of the following columns:
 
@@ -28,22 +28,22 @@ This report is comprised of the following columns:
 - Deletes – Count of delete operations on files and subfolders
 
 The table data grid functions the same way as other table grids. See the
-[Data Grid Features](../../../../general/datagrid.md) topic for additional information.
+[Data Grid Features](/docs/accessinformationcenter/12.0/access/general/datagrid.md) topic for additional information.
 
 There are two line graphs at the bottom displaying Active Users Trend and Traffic Trend for the
 selected resource.
 
-![Active Users Trend line graph](../../../../../../../../static/img/product_docs/accessinformationcenter/access/informationcenter/resourceaudit/filesystem/nfsexports/activeuserstrendgraph.webp)
+![Active Users Trend line graph](/img/product_docs/accessinformationcenter/access/informationcenter/resourceaudit/filesystem/nfsexports/activeuserstrendgraph.webp)
 
 The Active Users Trend line graph provides a visual representation of the number of active users
 over the selected date range. It indicates how many users are performing operations per day.
 
-![Traffic Trend line graph](../../../../../../../../static/img/product_docs/accessinformationcenter/access/informationcenter/resourceaudit/filesystem/nfsexports/traffictrendgraph.webp)
+![Traffic Trend line graph](/img/product_docs/accessinformationcenter/access/informationcenter/resourceaudit/filesystem/nfsexports/traffictrendgraph.webp)
 
 The Traffic Trend line graph provides a visual representation of the number of operations events
 that occurred by operation type over the selected date range. It indicates what volume of operations
 occurred per day. Each operation type is shown with a different color, as indicated by the legend.
 
 See the
-[Activity Report Results Pane Features](../../navigate/overview.md#activity-report-results-pane-features)
+[Activity Report Results Pane Features](/docs/accessinformationcenter/12.0/access/informationcenter/resourceaudit/navigate/overview.md#activity-report-results-pane-features)
 topic for instructions on filtering the trend graphs.

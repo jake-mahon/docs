@@ -6,7 +6,7 @@ configuration must be validated to ensure events are being monitored.
 ## Validate CEE Registry Key Settings
 
 **NOTE:** See the
-[Configure Dell Registry Key Settings](../dellcelerravnx/installcee.md#configure-dell-registry-key-settings)
+[Configure Dell Registry Key Settings](/docs/accessanalyzer/12.0/config/dellcelerravnx/installcee.md#configure-dell-registry-key-settings)
 topic for information on manually setting the registry key.
 
 After the Activity Monitor activity agent has been configured to monitor the Dell device, it will
@@ -23,7 +23,7 @@ following steps.
 
 HKEY_LOCAL_MACHINE\SOFTWARE\EMC\CEE\CEPP\Audit\Configuration
 
-![registryeditorendpoint](../../../../../static/img/product_docs/activitymonitor/config/dellunity/registryeditorendpoint.webp)
+![registryeditorendpoint](/img/product_docs/activitymonitor/config/dellunity/registryeditorendpoint.webp)
 
 **Step 2 –** Ensure that the Enabled parameter is set to 1.
 
@@ -80,7 +80,7 @@ CEE services should be running. If the Activity Agent is not registering events 
 set accurately, validate that the Dell CEE services are running. Open the Services (run
 `services.msc`).
 
-![services](../../../../../static/img/product_docs/activitymonitor/config/dellpowerstore/services.webp)
+![services](/img/product_docs/activitymonitor/config/dellpowerstore/services.webp)
 
 The following services laid down by the Dell CEE installer should have Running as their status:
 

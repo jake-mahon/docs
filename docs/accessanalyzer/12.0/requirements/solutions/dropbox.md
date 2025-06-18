@@ -2,7 +2,7 @@
 
 The core components for Netwrix Access Analyzer (formerly Enterprise Auditor) are the Access
 Analyzer Console server, SQL Server, and Access Information Center. See the
-[Requirements](../overview.md) topic for the core requirements.
+[Requirements](/docs/accessanalyzer/12.0/requirements/overview.md) topic for the core requirements.
 
 In addition to these, integration with either the Netwrix Activity Monitor or the Netwrix Threat
 Prevention is required for event activity data to be scanned. See the
@@ -11,7 +11,7 @@ the
 [Netwrix Threat Prevention Documentation](https://helpcenter.netwrix.com/category/threatprevention)
 for installation requirements and information on collecting activity data.
 
-See the [Target Dropbox Requirements, Permissions, and Ports](../target/dropbox.md) topic for target
+See the [Target Dropbox Requirements, Permissions, and Ports](/docs/accessanalyzer/12.0/requirements/target/dropbox.md) topic for target
 environment requirements.
 
 ## Dropbox Solution Requirements on the Access Analyzer Console

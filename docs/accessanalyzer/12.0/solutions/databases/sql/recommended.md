@@ -22,16 +22,16 @@ Dependencies
       article for additional information.
 - For the SQL_SecurityAssessment Job – One or more of the following jobs or job groups must be run
   to produce results:
-    - [0.Collection > SQL Job Group](collection/overview.md)
-    - [1.Users and Roles Job Group](usersroles/overview.md)
-    - [3.Permissions Job Group](permissions/overview.md)
-    - [5.Sensitive Data Job Group](sensitivedata/overview.md)
-    - [Privileged Accounts Job Group](../../windows/privilegedaccounts/overview.md)
-    - [Privileged Accounts Job Group](../../windows/privilegedaccounts/overview.md)
+    - [0.Collection > SQL Job Group](/docs/accessanalyzer/12.0/solutions/databases/sql/collection/overview.md)
+    - [1.Users and Roles Job Group](/docs/accessanalyzer/12.0/solutions/databases/sql/usersroles/overview.md)
+    - [3.Permissions Job Group](/docs/accessanalyzer/12.0/solutions/databases/sql/permissions/overview.md)
+    - [5.Sensitive Data Job Group](/docs/accessanalyzer/12.0/solutions/databases/sql/sensitivedata/overview.md)
+    - [Privileged Accounts Job Group](/docs/accessanalyzer/12.0/solutions/windows/privilegedaccounts/overview.md)
+    - [Privileged Accounts Job Group](/docs/accessanalyzer/12.0/solutions/windows/privilegedaccounts/overview.md)
 
 Some of the 0.Collection Job Group queries can be scoped to target specific databases/instances.
 However, it is necessary for the SA_SQL_Instances table to be populated before attempting to scope
-the queries. Therefore, the [0-SQL_InstanceDiscovery Job](collection/0-sql_instancediscovery.md)
+the queries. Therefore, the [0-SQL_InstanceDiscovery Job](/docs/accessanalyzer/12.0/solutions/databases/sql/collection/0-sql_instancediscovery.md)
 must be manually executed before attempting to scope the 0.Collection Job Group queries.
 
 Targeted Host(s)
@@ -50,7 +50,7 @@ The SQL Data Collector requires a specific set of permissions. See the Permissio
 necessary permissions. The account used can be either an Active Directory account or a SQL account.
 Once the account has been provisioned, create a custom Connection Profile containing the credentials
 for the targeted environment. See the
-[SQL Custom Connection Profile & Default Dynamic Host List](../../../admin/datacollector/sql/configurejob.md)
+[SQL Custom Connection Profile & Default Dynamic Host List](/docs/accessanalyzer/12.0/admin/datacollector/sql/configurejob.md)
 topic for additional information.
 
 The Connection Profile should be assigned under the SQL > 0.Collection > Settings > Connection node.
@@ -59,7 +59,7 @@ this may not be the Connection Profile with the necessary permissions for the as
 the radio button for the Select one of the following user defined profiles option and select the
 appropriate Connection Profile drop-down menu.
 
-See the [Connection](../../../admin/settings/connection/overview.md) topic for additional
+See the [Connection](/docs/accessanalyzer/12.0/admin/settings/connection/overview.md) topic for additional
 information.
 
 Schedule Frequency
@@ -121,7 +121,7 @@ Dependencies
     profiles to accommodate multiple credentials.
 
 - Define and validate connection information in the Connection screen
-- [0-AzureSQL_InstanceDiscovery Job](../azuresql/collection/0-azuresql_instancediscovery.md) run
+- [0-AzureSQL_InstanceDiscovery Job](/docs/accessanalyzer/12.0/solutions/databases/azuresql/collection/0-azuresql_instancediscovery.md) run
   successfully
 
 Targeted Host(s)
@@ -136,7 +136,7 @@ The SQL Data Collector requires a specific set of permissions. See the Permissio
 necessary permissions. The account used can be either an Active Directory account with database
 login enabled or a SQL account. Once the account has been provisioned, create a custom Connection
 Profile containing the credentials for the targeted environment. See the
-[SQL Custom Connection Profile & Default Dynamic Host List](../../../admin/datacollector/sql/configurejob.md)
+[SQL Custom Connection Profile & Default Dynamic Host List](/docs/accessanalyzer/12.0/admin/datacollector/sql/configurejob.md)
 topic for additional information.
 
 The Connection Profile should be assigned under the **Databases** > 0.Collection > Azure SQL >
@@ -145,7 +145,7 @@ settings level. However, since this may not be the Connection Profile with the n
 for the assigned hosts, click the radio button for the Select one of the following user defined
 profiles option and select the appropriate Connection Profile drop-down menu.
 
-See the [Connection](../../../admin/settings/connection/overview.md) topic for additional
+See the [Connection](/docs/accessanalyzer/12.0/admin/settings/connection/overview.md) topic for additional
 information.
 
 Schedule Frequency

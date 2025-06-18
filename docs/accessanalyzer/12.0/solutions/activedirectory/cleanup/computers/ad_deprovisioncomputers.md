@@ -15,7 +15,7 @@ staging OU. The default is 365 days.
 
 The Configuration section on a Job's overview page allows you to easily modify any customizable
 parameters used by analysis tasks in the job. See the
-[Parameter Configuration](../../../../admin/jobs/job/overview.md#parameter-configuration) topic for
+[Parameter Configuration](/docs/accessanalyzer/12.0/admin/jobs/job/overview.md#parameter-configuration) topic for
 instructions on how to edit parameters on a job overview page.
 
 The AD_DeprovisionComputers page has the following configurable parameters:
@@ -31,7 +31,7 @@ topic for additional information.
 Navigate to the **Active Directory** > **Cleanup** > **3.Computers** > **AD_Deprovision
 Computers** > **Configure** node and select **Analysis** to view the analysis tasks.
 
-![Analysis Tasks for the AD_DeprovisionComputers Job](../../../../../../../static/img/product_docs/accessanalyzer/solutions/activedirectory/cleanup/computers/deprovisioncomputersanalysis.webp)
+![Analysis Tasks for the AD_DeprovisionComputers Job](/img/product_docs/accessanalyzer/solutions/activedirectory/cleanup/computers/deprovisioncomputersanalysis.webp)
 
 The default analysis tasks are:
 
@@ -54,7 +54,7 @@ this job’s analysis.
 | Computer Accounts to Delete | @days_before_deleting       | 365           | Days in the staging OU before deleting account |
 
 See the
-[Configure the Customizable Parameters in an Analysis Task](../../../../admin/jobs/job/configure/analysiscustomizableparameters.md)
+[Configure the Customizable Parameters in an Analysis Task](/docs/accessanalyzer/12.0/admin/jobs/job/configure/analysiscustomizableparameters.md)
 topic for additional information.
 
 ## Action Tasks for the AD_DeprovisionComputers Job
@@ -65,7 +65,7 @@ Navigate to the **Active Directory** > **Cleanup** > **3.Computers** > **AD_Depr
 **CAUTION:** Do not enable the actions unless it is required. Disable the actions after execution to
 prevent making unintended and potentially harmful changes to Active Directory.
 
-![Action Tasks for the AD_DeprovisionComputers Job](../../../../../../../static/img/product_docs/accessanalyzer/solutions/activedirectory/cleanup/computers/deprovisioncomputersaction.webp)
+![Action Tasks for the AD_DeprovisionComputers Job](/img/product_docs/accessanalyzer/solutions/activedirectory/cleanup/computers/deprovisioncomputersaction.webp)
 
 The action tasks are:
 
@@ -74,7 +74,7 @@ The action tasks are:
 - Move Computers – Move computers to staging OU for deletion
 
     - The target staging OU must be set in the Move Computers Action Task prior to executing the
-      action tasks. See the [Configure the Target OU](../configuretargetou.md) topic for additional
+      action tasks. See the [Configure the Target OU](/docs/accessanalyzer/12.0/solutions/activedirectory/cleanup/configuretargetou.md) topic for additional
       information.
 
 - Notify Manager – Notify assigned manager by email of the impending deletion

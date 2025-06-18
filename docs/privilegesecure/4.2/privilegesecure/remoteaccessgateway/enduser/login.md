@@ -18,7 +18,7 @@ required, first time users must register with an MFA to use with their login cre
 Different Account** to display all of the authentication connectors that are registered
 with Privilege Secure.
 
-![loginrag](../../../../../../static/img/product_docs/privilegesecure/privilegesecure/remoteaccessgateway/enduser/loginrag.webp)
+![loginrag](/img/product_docs/privilegesecure/privilegesecure/remoteaccessgateway/enduser/loginrag.webp)
 
 **Step 3 –** Login to the Remote Access Gateway using federated login, or entering the AD or NPS
 local user credentials. (The method will depend on how the Remote Access Gateway has been configured
@@ -27,7 +27,7 @@ by your administrator).
 - When using an authentication connector, there's no 'username' or 'password' field for the user to
   enter. Instead there's just a single button to login.
 
-    ![mfaloginrag](../../../../../../static/img/product_docs/privilegesecure/privilegesecure/remoteaccessgateway/enduser/mfaloginrag.webp)
+    ![mfaloginrag](/img/product_docs/privilegesecure/privilegesecure/remoteaccessgateway/enduser/mfaloginrag.webp)
 
 - Clicking the authentication connector will redirect the user to the IdP login screen, which will
   log the user in (with whatever MFA is set up in the IdP) and then revert the user back to
@@ -40,11 +40,11 @@ by your administrator).
 
 **Step 6 –** Enter the code provided by the registered multi-factor authenticator (MFA).
 
-![authcoderag](../../../../../../static/img/product_docs/privilegesecure/privilegesecure/remoteaccessgateway/enduser/authcoderag.webp)
+![authcoderag](/img/product_docs/privilegesecure/privilegesecure/remoteaccessgateway/enduser/authcoderag.webp)
 
 **Step 7 –** Click **MFA Login**. Privilege Secure opens on the Access Interface.
 
-![accessdashboardrag](../../../../../../static/img/product_docs/privilegesecure/privilegesecure/remoteaccessgateway/enduser/accessdashboardrag.webp)
+![accessdashboardrag](/img/product_docs/privilegesecure/privilegesecure/remoteaccessgateway/enduser/accessdashboardrag.webp)
 
 **Step 8 –** Once the authentication is complete, the Access dashboard is displayed.
 

@@ -4,26 +4,26 @@ To create the Windows Management Instrumentation (WMI) filters, follow these ste
 
 **Step 1 –** Open the Group Policy Management console, expand Domains and then the domain tree;
 
-![Group Policy Management Window](../../../../../../static/img/product_docs/endpointprotector/endpointprotector/configuration/activedirectory/grouppolicywindow_198x327.webp)
+![Group Policy Management Window](/img/product_docs/endpointprotector/endpointprotector/configuration/activedirectory/grouppolicywindow_198x327.webp)
 
 **Step 2 –** Right-click WMI Filters and select New – this will open the New WMI Filter window;
 
-![New Windows Management Instrumentation Filter Window](../../../../../../static/img/product_docs/endpointprotector/endpointprotector/configuration/activedirectory/newwmifilter_624x202.webp)
+![New Windows Management Instrumentation Filter Window](/img/product_docs/endpointprotector/endpointprotector/configuration/activedirectory/newwmifilter_624x202.webp)
 
 **Step 3 –** On the New WMI Filter window, add entries for 32-bit and 64-bit WMI filters by
 providing the name, description, and queries;
 
 32-bit WMI Filters:
 
-![32-bit Windows Management Instrumentation Filters Wizard](../../../../../../static/img/product_docs/endpointprotector/endpointprotector/configuration/activedirectory/32bitwmi_filter_624x224.webp)
+![32-bit Windows Management Instrumentation Filters Wizard](/img/product_docs/endpointprotector/endpointprotector/configuration/activedirectory/32bitwmi_filter_624x224.webp)
 
 64-bit WMI Filters:
 
-![64-bit Windows Management Instrumentation Filters](../../../../../../static/img/product_docs/endpointprotector/endpointprotector/configuration/activedirectory/64bitwmi_filter_624x193.webp)
+![64-bit Windows Management Instrumentation Filters](/img/product_docs/endpointprotector/endpointprotector/configuration/activedirectory/64bitwmi_filter_624x193.webp)
 
 **Step 4 –** The new filters will be displayed in the WMI Filters folder.
 
-![Newly Created Windows Management Instrumentation Filters](../../../../../../static/img/product_docs/endpointprotector/endpointprotector/configuration/activedirectory/createdwmifilters_118x25.webp)
+![Newly Created Windows Management Instrumentation Filters](/img/product_docs/endpointprotector/endpointprotector/configuration/activedirectory/createdwmifilters_118x25.webp)
 
 Selecting the 32-bit and 64-bit operating systems:
 

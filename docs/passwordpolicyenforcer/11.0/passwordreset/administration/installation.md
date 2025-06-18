@@ -30,12 +30,12 @@ The Password Reset Server is the component that performs requests on behalf of u
 requests from the Web Interface, checks the user's credentials, and performs the requested task if
 the credentials are valid.
 
-![installing_npr_624x193](../../../../../static/img/product_docs/passwordpolicyenforcer/passwordreset/administration/installing_npr_624x193.webp)
+![installing_npr_624x193](/img/product_docs/passwordpolicyenforcer/passwordreset/administration/installing_npr_624x193.webp)
 
 **NOTE:** Microsoft SQL Server Compact is installed with the Password Reset Server. SQL Server
 Compact is free to use, and should only be removed if you move the database to SQL Server. SQL
 Server Compact is an embedded database. Unlike SQL Server, you do not need to configure or manage
-it. See the [Working with the Database](working_with_the_database.md) topic for additional
+it. See the [Working with the Database](/docs/passwordpolicyenforcer/11.0/passwordreset/administration/working_with_the_database.md) topic for additional
 information.
 
 ## Installation Types
@@ -85,7 +85,7 @@ account. The account will be created and added to the Domain Admins group if it 
 
 **NOTE:** You can remove the account from the Domain Admins group later. If using an existing
 account, make sure it has the required permissions. See the
-[Securing Password Reset](securing_password_reset.md) topic for additional information.
+[Securing Password Reset](/docs/passwordpolicyenforcer/11.0/passwordreset/administration/securing_password_reset.md) topic for additional information.
 
 **Step 8 –** Click **Next**.
 
@@ -148,7 +148,7 @@ account. The account will be created and added to the Domain Admins group if it 
 
 **NOTE:** You can remove the account from the Domain Admins group later. If using an existing
 account, make sure it has the required permissions. See the
-[Securing Password Reset](securing_password_reset.md) topic for additional information.
+[Securing Password Reset](/docs/passwordpolicyenforcer/11.0/passwordreset/administration/securing_password_reset.md) topic for additional information.
 
 **Step 7 –** Make sure the **Create Windows Firewall Exception for the NPR Server service** check
 box is selected, and then click **Next** twice.
@@ -197,7 +197,7 @@ Reset**, and **3.0** registry keys.
 **Step 12 –** Set the **ServerIP** registry value to the IP address of the computer that you
 installed the Password Reset Server onto.
 
-![installing_npr_1](../../../../../static/img/product_docs/passwordpolicyenforcer/passwordreset/administration/installing_npr_1.webp)
+![installing_npr_1](/img/product_docs/passwordpolicyenforcer/passwordreset/administration/installing_npr_1.webp)
 
 The Password Reset Setup wizard only installs one Web Interface on each server, but you can copy the
 files to another directory and publish several Web Interfaces from one server. This allows you to
@@ -263,13 +263,13 @@ between versions should be merged into your customized files.
 The Password Reset V3.30 data console does not read the VerificationCode or EnrollRecord columns
 from the User table on SQL Server. Access to these columns can be denied for Data Console users
 after upgrading all instances of the Data Console. See the
-[Using the Data Console](using_the_data_console.md) topic for additional information.
+[Using the Data Console](/docs/passwordpolicyenforcer/11.0/passwordreset/administration/using_the_data_console.md) topic for additional information.
 
 ## Upgrading From NPR V2.x
 
 As this is a major upgrade with many changes, some planning is needed to ensure a smooth upgrade. A
 trial run on a lab network is recommended, especially if you are customizing the user interface. See
-the [Editing the HTML Templates](editing_the_html_templates.md) topic for additional information.
+the [Editing the HTML Templates](/docs/passwordpolicyenforcer/11.0/passwordreset/administration/editing_the_html_templates.md) topic for additional information.
 
 **CAUTION:** Due to a protocol upgrade, Netwrix Password Reset v3.3 is not compatible with Netwrix
 Password Policy Enforcer v8.x and earlier versions. If you are using Netwrix Password Reset with any

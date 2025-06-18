@@ -67,7 +67,7 @@ performance and fault tolerance.
 **NOTE:** For SQL Server 2012+, it is necessary to restrict the maximum server memory value to
 60-70% of the total physical RAM to avoid a situation where SQL Server will starve other
 applications of memory. See the
-[Restrict SQL Server Maximum Server Memory](../troubleshooting/sqlserver.md) topic for additional
+[Restrict SQL Server Maximum Server Memory](/docs/threatprevention/7.5/threatprevention/troubleshooting/sqlserver.md) topic for additional
 information.
 
 Database Permissions
@@ -78,5 +78,5 @@ The following permissions are required on the databases:
 - Provisioned to use Default Schema of ‘dbo’
 
 Additional permissions are required for the optional Database Maintenance feature in Threat
-Prevention. See the [Database Maintenance Feature Requirements](dbmaintenance.md) topic for
+Prevention. See the [Database Maintenance Feature Requirements](/docs/threatprevention/7.5/threatprevention/requirements/dbmaintenance.md) topic for
 additional information.

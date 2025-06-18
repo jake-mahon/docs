@@ -8,7 +8,7 @@ The PowerShell Script action executes a specified PowerShell script. This action
 build a custom threat response, using PowerShell, to handle scenarios not covered by other
 preconfigured action steps.
 
-![powershellscriptactionstep](../../../../../../../static/img/product_docs/threatmanager/threatmanager/administration/playbooks/action/powershellscriptactionstep.webp)
+![powershellscriptactionstep](/img/product_docs/threatmanager/threatmanager/administration/playbooks/action/powershellscriptactionstep.webp)
 
 - PowerShell Script – Select the PowerShell script to execute. By default, the PowerShell script
   includes a comment section which includes Threat Manager threat variables that can be used in
@@ -25,7 +25,7 @@ preconfigured action steps.
 
 The Send Email action sends an email.
 
-![sendemail](../../../../../../../static/img/product_docs/groupid/groupid/portal/sendemail.webp)
+![sendemail](/img/product_docs/directorymanager/directorymanager/portal/sendemail.webp)
 
 - Subject – The subject of the email
 - To – Specify the email addresses receiving the email
@@ -35,11 +35,11 @@ The Send Email action sends an email.
 
 The Stop Process action stops a process running locally on the host associated with the threat.
 
-![stopprocess](../../../../../../../static/img/product_docs/threatmanager/threatmanager/administration/playbooks/action/stopprocess.webp)
+![stopprocess](/img/product_docs/threatmanager/threatmanager/administration/playbooks/action/stopprocess.webp)
 
 - Credential – Select a credential profile that contains valid Active Directory credentials.
   Credential profiles are configured on the
-  [Credential Profile Page](../../configuration/integrations/credentialprofile.md). If not
+  [Credential Profile Page](/docs/threatmanager/3.0/threatmanager/administration/configuration/integrations/credentialprofile.md). If not
   specified, the action will be run as the credentials of the Action Service.
 
 ## End User Session
@@ -47,7 +47,7 @@ The Stop Process action stops a process running locally on the host associated w
 The End User Session action attempts to log the specified user out of any active RDP sessions on the
 target client.
 
-![endusersession](../../../../../../../static/img/product_docs/threatmanager/threatmanager/administration/playbooks/action/endusersession.webp)
+![endusersession](/img/product_docs/threatmanager/threatmanager/administration/playbooks/action/endusersession.webp)
 
 - Users – The users to log out of RDP sessions. If not specified, only the perpetrator will be used.
   Select the users from the drop-down list:
@@ -66,5 +66,5 @@ target client.
 - Credential – The domain credential used to run the action. Domain credentials are populated by
   credential profiles that are created on the Integrations page. If not specified, the action will
   be run under the credentials of the action. Select the credentials from the drop-down list. See
-  the [Credential Profile Page](../../configuration/integrations/credentialprofile.md) topic for
+  the [Credential Profile Page](/docs/threatmanager/3.0/threatmanager/administration/configuration/integrations/credentialprofile.md) topic for
   additional information.

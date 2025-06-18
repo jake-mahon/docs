@@ -7,7 +7,7 @@ logbook. The logbook records which user has made exactly what changes. This modu
 (theoretically) classified as uncritical. This is because the employee only has access to those
 logbook entries to which he is actually entitled.
 
-![Logbook module](../../../../../../../../static/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/clientmodule/logbook/logbook_1-en.webp)
+![Logbook module](/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/clientmodule/logbook/logbook_1-en.webp)
 
 ## Relevant rights
 
@@ -24,7 +24,7 @@ elements based on the defined criteria. In the following example, the user is se
 entries relating to the object type “Password” that also match the event criteria "Change". In
 short: The entries are being filtered based on changes to passwords.
 
-![Logbook filter](../../../../../../../../static/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/clientmodule/logbook/logbook_2-en.webp)
+![Logbook filter](/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/clientmodule/logbook/logbook_2-en.webp)
 
 ## Grouping in the logbook
 
@@ -32,7 +32,7 @@ This list can also be grouped together by dragging and dropping column headers �
 grouping of the columns for **computer user**. The filtered results now show all changes to
 passwords carried out by the computer user "administrator".
 
-![Logbook entries](../../../../../../../../static/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/clientmodule/logbook/logbook_3-en.webp)
+![Logbook entries](/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/clientmodule/logbook/logbook_3-en.webp)
 
 ## Revision-safe archiving
 
@@ -43,10 +43,10 @@ completed in a traceable and audit-proof manner to prevent falsification.
 
 NOTE: If desired, the logbook can be automatically cleaned up. This option can be configured on the
 Server Manager. Further information can be found in the section
-[Managing databases](../../../server_manager/managing_databases/managing_databases.md).
+[Managing databases](/docs/passwordsecure/9.2/passwordsecure/configuration/server_manager/managing_databases/managing_databases.md).
 
 ## Transferring to a Syslog server
 
 The logbook can also be completely transferred to a
-[Syslog](../../../server_manager/database_properties/syslog.md) server. Further information on this
+[Syslog](/docs/passwordsecure/9.2/passwordsecure/configuration/server_manager/database_properties/syslog.md) server. Further information on this
 subject can be found in the section Syslog.

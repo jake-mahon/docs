@@ -71,7 +71,7 @@ This section has the following filters:
 
 The User category scopes the query by the user, or perpetrator of the activity.
 
-![SharePoint Online Search - User Filter](/img/versioned_docs/groupid_11.0/groupid/configureentraid/register/user.webp)
+![SharePoint Online Search - User Filter](/img/versioned_docs/directorymanager_11.0/directorymanager/configureentraid/register/user.webp)
 
 This section has the following filters:
 

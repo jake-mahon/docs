@@ -24,7 +24,7 @@ topic for instructions.
 **NOTE:** These permissions are in addition to those needed to either deploy applet scans for
 running scans in proxy mode with applet or installing the File System Proxy Service Permissions for
 running scans in proxy mode as a service. See the
-[File System Scan Options](/docs/accessanalyzer/11.6/enterpriseauditor/requirements/solutions/filesystem/scanoptions.md)
+[File System Scan Options](/docs/accessanalyzer/11.6/accessanalyzer/requirements/solutions/filesystem/scanoptions.md)
 topic for additional information.
 
 Troubleshooting Dell Celerra & Dell VNX Denied Access Errors
@@ -41,7 +41,7 @@ website.
 
 The firewall ports required by Enterprise Auditor for Access Auditing (FSAA) and/or Sensitive Data
 Discovery Auditing scans are based on the File System scan mode to be used. See the
-[File System Scan Options](/docs/accessanalyzer/11.6/enterpriseauditor/requirements/solutions/filesystem/scanoptions.md)
+[File System Scan Options](/docs/accessanalyzer/11.6/accessanalyzer/requirements/solutions/filesystem/scanoptions.md)
 topic for additional information.
 
 ## Activity Auditing Permissions
@@ -93,7 +93,7 @@ are required for communication between the Agent server and the Netwrix Activity
 The Windows firewall rules need to be configured on the Windows server, which require certain
 inbound rules be created if the scans are running in applet mode. These scans operate over a default
 port range, which cannot be specified via an inbound rule. For more information, see the Microsoft
-[Connecting to WMI on a Remote Computer](<https://msdn.microsoft.com/en-us/library/windows/desktop/aa389290(v=vs.85).aspx>)
+[Connecting to WMI on a Remote Computer](https://msdn.microsoft.com/en-us/library/windows/desktop/aa389290(v=vs.85).aspx)
 article.
 
 Additional Firewall Rules for Dell Celerra & Dell VNX Devices

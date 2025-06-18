@@ -18,7 +18,7 @@ C:\Program Files\Stealthbits\PAM\KeyTools
 
 **Step 2 –** Run the `SbPAM.RotateAwsKey` executable to launch the Rotate AWS Key wizard.
 
-![AWS Connection Settings](../../../../../../static/img/product_docs/privilegesecure/privilegesecure/accessmanagement/requirements/awsconnectionsettings.webp)
+![AWS Connection Settings](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/requirements/awsconnectionsettings.webp)
 
 **Step 3 –** Enter the **Access key** and **Secret key** created for the AWS user assigned to the
 AWS KMS key into the AWS Connection settings fields.
@@ -27,7 +27,7 @@ AWS KMS key into the AWS Connection settings fields.
 
 **Step 5 –** Select the appropriate AWS region from the dropdown list.
 
-![AWS Connection Settings Complete](../../../../../../static/img/product_docs/privilegesecure/privilegesecure/accessmanagement/requirements/awsconnectionsettingscomplete.webp)
+![AWS Connection Settings Complete](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/requirements/awsconnectionsettingscomplete.webp)
 
 **Step 6 –** When all fields are completed, click the **Rotate** button to update all encrypted
 values in the Privilege Secure system.

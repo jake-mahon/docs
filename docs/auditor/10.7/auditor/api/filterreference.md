@@ -25,8 +25,8 @@ to create a unique search. You can:
 
 Review the following for additional information:
 
-- [Filters](filters.md)
-- [Operators](filteroperators.md)
+- [Filters](/docs/auditor/10.7/auditor/api/filters.md)
+- [Operators](/docs/auditor/10.7/auditor/api/filteroperators.md)
 
 The table below shows filters and Activity Records matching them.
 

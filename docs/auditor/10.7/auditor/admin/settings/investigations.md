@@ -8,20 +8,20 @@ data stored in the Long-Term Archive. Netwrix Auditor allows importing data from
 Archive to a special "investigation" database. Having imported data there, you can run searches and
 generate reports with your past data.
 
-![investigate](../../../../../../static/img/product_docs/auditor/auditor/admin/settings/investigate.webp)
+![investigate](/img/product_docs/auditor/auditor/admin/settings/investigate.webp)
 
 To import audit data with the Archive Data Investigation wizard
 
 **NOTE:** You must be assigned the Global administrator role to import investigation data. To view
 investigation data, you must be assigned the Global administrator or Global reviewer role. See
-[Assign Roles](../monitoringplans/delegation.md#assign-roles) topic for more information.
+[Assign Roles](/docs/auditor/10.7/auditor/admin/monitoringplans/delegation.md#assign-roles) topic for more information.
 
 1. Navigate to Settings → Investigations.
 2. Complete your SQL Server settings.
 
     | Option              | Description                                                                                                                                                                                                                                                                                |
     | ------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-    | SQL Server Instance | Specify the name of the SQL Server instance to import your audit data to. If you want to run searches and generate reports, select the same SQL Server instance as the one specified on Settings → Audit Database page. See [Audit Database](auditdatabase.md) topic for more information. |
+    | SQL Server Instance | Specify the name of the SQL Server instance to import your audit data to. If you want to run searches and generate reports, select the same SQL Server instance as the one specified on Settings → Audit Database page. See [Audit Database](/docs/auditor/10.7/auditor/admin/settings/auditdatabase.md) topic for more information. |
     | Database            | Select import database name. By default, data is imported to a specially created the Netwrix_ImportDB database but you can select any other. Do not select databases that already contain data. Selecting such databases leads to data overwrites and loss.                                |
     | Authentication      | Select the authentication type you want to use to connect to the SQL Server instance: - Windows authentication - SQL Server authentication                                                                                                                                                 |
     | User name           | Specify the account to be used to connect to the SQL Server instance. This account must be granted the **database owner (db_owner)** role and the dbcreator server role.                                                                                                                   |

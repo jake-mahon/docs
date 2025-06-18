@@ -3,7 +3,7 @@
 The Access Reviews Console has four interfaces. Upon login, users granted console access are brought
 to the Resource Owners interface.
 
-![Access Information Center landing page, Resource Owners interface, with all 4 tabs available to an Administrator who is also an assigned owner](../../../../../../static/img/product_docs/threatprevention/threatprevention/reportingmodule/interface.webp)
+![Access Information Center landing page, Resource Owners interface, with all 4 tabs available to an Administrator who is also an assigned owner](/img/product_docs/threatprevention/threatprevention/reportingmodule/interface.webp)
 
 The signed in user is displayed in the upper-right corner, along with the **Sign out** link. The
 available interfaces change according to the role assigned to the user.
@@ -14,7 +14,7 @@ The Configuration tab opens the Configuration interface. Configure console acces
 service account, notification settings, database access, and diagnostic logging level.
 
 This interface is available only to users with the Administrator role. See the
-[Configuration Interface Overview](configuration/overview.md) topic for additional information.
+[Configuration Interface Overview](/docs/auditor/10.7/access/reviews/admin/configuration/overview.md) topic for additional information.
 
 For Security Team & Administrator
 
@@ -24,7 +24,7 @@ Reviews workflow must first be assigned at least one owner within the Resource O
 Assigned owners can log in to complete reviews.
 
 This interface is available only to users with either the Security Team or Administrator role. See
-the [Resource Owners Interface](../resourceowners/interface.md) topic for additional information.
+the [Resource Owners Interface](/docs/auditor/10.7/access/reviews/resourceowners/interface.md) topic for additional information.
 
 The Entitlement Reviews tab opens the Entitlement Reviews interface. Create and manage reviews.
 There are two types of reviews for resources being managed within the Access Reviews application:
@@ -32,7 +32,7 @@ resource Access reviews and group Membership reviews. This does require the Acce
 application to be configured to send notifications.
 
 This interface is available only to users with either the Security Team or Administrator role. See
-the [Entitlement Reviews Interface](../entitlementreviews/interface.md) topic for additional
+the [Entitlement Reviews Interface](/docs/auditor/10.7/access/reviews/entitlementreviews/interface.md) topic for additional
 information.
 
 For Assigned Owner
@@ -42,7 +42,7 @@ an assigned owner of at least one resource. Assigned owners without a user role 
 My Reviews interface at login.
 
 The My Reviews interface is available to any domain user who has been assigned ownership of a
-resource. See the [Owners & Access Reviews](../resourceowners/owneroverview.md) topic for additional
+resource. See the [Owners & Access Reviews](/docs/auditor/10.7/access/reviews/resourceowners/owneroverview.md) topic for additional
 information.
 
 ## Interface Quick Reference

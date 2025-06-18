@@ -3,18 +3,18 @@
 The **Application** node is for configuring general settings which affect the way the Access
 Analyzer Console functions.
 
-![Application](../../../../../../static/img/product_docs/accessanalyzer/admin/settings/application/application.webp)
+![Application](/img/product_docs/accessanalyzer/admin/settings/application/application.webp)
 
 Application Log
 
 The Access Analyzer Application Log section determines what information is stored in the Access
 Analyzer application log.
 
-![Application Log](../../../../../../static/img/product_docs/accessanalyzer/admin/settings/application/applicationlog.webp)
+![Application Log](/img/product_docs/accessanalyzer/admin/settings/application/applicationlog.webp)
 
 The Application log level controls the types of messages generated for each job and the application.
 It can be modified at the job level in the **Job Properties** window. See the
-[General Tab](../../jobs/job/properties/general.md) topic for additional information. Options
+[General Tab](/docs/accessanalyzer/12.0/admin/jobs/job/properties/general.md) topic for additional information. Options
 available in the Application log level drop-down menu include:
 
 - Debug – Records everything that happens during job execution, most verbose level of logging
@@ -52,12 +52,12 @@ Profile Security
 The Profile Security section provides the option to enable an enhanced method of encryption to
 various credentials stored by the Access Analyzer application.
 
-![Profile Security](../../../../../../static/img/product_docs/accessanalyzer/admin/settings/application/profilesecurity.webp).
+![Profile Security](/img/product_docs/accessanalyzer/admin/settings/application/profilesecurity.webp).
 
 There are two options available in the Profiles stored with drop-down menu:
 
 - Application – Default setting, does not employ the enhanced encryption
-- Vault – Enables the enhanced encryption of stored credentials. See the [Vault](vault.md) topic for
+- Vault – Enables the enhanced encryption of stored credentials. See the [Vault](/docs/accessanalyzer/12.0/admin/settings/application/vault.md) topic for
   requirements and additional information.
 
 Usage Statistics
@@ -65,7 +65,7 @@ Usage Statistics
 The Usage Statistics section allows you to select whether to send usage statistics data to Netwrix
 to help us improve our product.
 
-![Usage Statistics](../../../../../../static/img/product_docs/accessanalyzer/admin/settings/application/usagestatistics.webp)
+![Usage Statistics](/img/product_docs/accessanalyzer/admin/settings/application/usagestatistics.webp)
 
 - If selected, usage statistics are collected and sent to Netwrix
 
@@ -85,7 +85,7 @@ Host Target Options
 The Host Target Options section provides radio buttons to select the source that Access Analyzer
 should use to connect to hosts.
 
-![Host Target Options](../../../../../../static/img/product_docs/accessanalyzer/admin/settings/application/hosttargetoptions.webp)
+![Host Target Options](/img/product_docs/accessanalyzer/admin/settings/application/hosttargetoptions.webp)
 
 Select from the following two options:
 
@@ -97,7 +97,7 @@ Grid View Parameters
 The Grid View Parameters section controls how the data grids display within the Access Analyzer
 Console.
 
-![Grid View Parameters](../../../../../../static/img/product_docs/accessanalyzer/admin/settings/application/gridviewparameters.webp)
+![Grid View Parameters](/img/product_docs/accessanalyzer/admin/settings/application/gridviewparameters.webp)
 
 - Automatically rename duplicate columns within a table – Checks for and renames columns with
   duplicate names
@@ -118,14 +118,14 @@ Console.
 
 Filtered data grids are not lost if persistent filters are not saved. The Filtration Dialog
 available for every data grid maintains a list of recent filters. See the
-[Data Grid Functionality](../../navigate/datagrid.md) topic for additional information.
+[Data Grid Functionality](/docs/accessanalyzer/12.0/admin/navigate/datagrid.md) topic for additional information.
 
 Cleanup
 
 The Cleanup section is designed to conserve space in the SQL Database Transaction Log. It only works
 when the database is configured to use Simple Recovery Model.
 
-![Cleanup Options](../../../../../../static/img/product_docs/accessanalyzer/admin/settings/application/cleanup.webp)
+![Cleanup Options](/img/product_docs/accessanalyzer/admin/settings/application/cleanup.webp)
 
 - Compact Database Transaction Log – If selected, every time the Access Analyzer application is
   closed, the Database Transaction Log is compacted
@@ -144,13 +144,13 @@ Application Exit Options
 The Application Exit Options section controls whether or not a confirmation is displayed when the
 Access Analyzer application is closed.
 
-![Application Exit Options](../../../../../../static/img/product_docs/accessanalyzer/admin/settings/application/applicationexitoptions.webp)
+![Application Exit Options](/img/product_docs/accessanalyzer/admin/settings/application/applicationexitoptions.webp)
 
 If selected, the **Show Confirmation Dialog** option causes a Confirm Exit window to open when the
 Access Analyzer user attempts to exit the application. If deselected, the Access Analyzer
 application closes without confirmation.
 
-![Confirm Exit](../../../../../../static/img/product_docs/accessanalyzer/admin/settings/application/confirmexitwindow.webp)
+![Confirm Exit](/img/product_docs/accessanalyzer/admin/settings/application/confirmexitwindow.webp)
 
 The Confirm Exit window requires the **Yes** button to be clicked before the Access Analyzer
 application closes.

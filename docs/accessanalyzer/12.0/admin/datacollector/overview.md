@@ -1,15 +1,15 @@
 # Data Collectors
 
 This topic covers the configuration wizards that are unique to each data collector. See the
-[Jobs Tree](../jobs/overview.md) topic for additional information on job configuration.
+[Jobs Tree](/docs/accessanalyzer/12.0/admin/jobs/overview.md) topic for additional information on job configuration.
 
 ## Query Selection
 
 The Access Analyzer data collectors can collect information from a wide range of environments. Data
 collection tasks are assigned to jobs at the **Configure** > **Queries** node level. See the
-[Queries Node](../jobs/job/configure/queries.md) topic for additional information.
+[Queries Node](/docs/accessanalyzer/12.0/admin/jobs/job/configure/queries.md) topic for additional information.
 
-![Query Selection page](../../../../../static/img/product_docs/accessanalyzer/admin/datacollector/queryselection.webp)
+![Query Selection page](/img/product_docs/accessanalyzer/admin/datacollector/queryselection.webp)
 
 The Query Selection page is split into the Tables and Queries sections. The Tables section has the
 following options:
@@ -35,7 +35,7 @@ following options:
 
 Pre-built queries can be added to the Data Collector job through the Libraries window.
 
-![Libraries window](../../../../../static/img/product_docs/accessanalyzer/admin/datacollector/addqueryfromlibrary.webp)
+![Libraries window](/img/product_docs/accessanalyzer/admin/datacollector/addqueryfromlibrary.webp)
 
 The Libraries window toolbar has the following options:
 
@@ -68,7 +68,7 @@ all three tabs listed.
 
 Use the General tab to modify the name or description of the query.
 
-![General tab of the Query Properties window](../../../../../static/img/product_docs/accessanalyzer/admin/datacollector/querypropertiesgeneral.webp)
+![General tab of the Query Properties window](/img/product_docs/accessanalyzer/admin/datacollector/querypropertiesgeneral.webp)
 
 The General tab displays:
 
@@ -91,13 +91,13 @@ The General tab displays:
 
 When creating a new query, provide a unique, descriptive **Name** and **Description**. This
 information displays in the table on the Query Selection view. See the
-[Queries Node](../jobs/job/configure/queries.md) topic for additional information.
+[Queries Node](/docs/accessanalyzer/12.0/admin/jobs/job/configure/queries.md) topic for additional information.
 
 #### Data Source Tab
 
 Use the Data Source tab to configure the data collector and query.
 
-| ![Data Source tab of Query Properties for new Query](../../../../../static/img/product_docs/accessanalyzer/admin/datacollector/querypropertiesdatasourceexisting.webp) |
+| ![Data Source tab of Query Properties for new Query](/img/product_docs/accessanalyzer/admin/datacollector/querypropertiesdatasourceexisting.webp) |
 | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | New Query                                                                                                                                                                           | Existing Query                                                                                                                                                                                |
 
@@ -125,7 +125,7 @@ See the individual data collector section for configuration wizard page informat
 
 Use the Filters tab to include filters into the data collection process.
 
-| ![Filters tab of Query Properties window](../../../../../static/img/product_docs/accessanalyzer/admin/datacollector/querypropertiesdatafilterswithfilter.webp) |
+| ![Filters tab of Query Properties window](/img/product_docs/accessanalyzer/admin/datacollector/querypropertiesdatafilterswithfilter.webp) |
 | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | No FIlter                                                                                                                                                              | With FIlter                                                                                                                                                                                        |
 

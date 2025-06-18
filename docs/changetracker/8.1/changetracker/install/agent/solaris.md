@@ -58,4 +58,4 @@ As with all other agents, the installation process can be scripted.
 /opt/nnt/expressagent/configure-expressagent.sh `https://IPADDRESS-SERVERNAME:PORT/api/` agent passWord121 /var/nnt/expressagent
 ```
 
-Run the Agent UI. See the [ Agent First Run](firstrun.md) topic for additional information.
+Run the Agent UI. See the [ Agent First Run](/docs/changetracker/8.1/changetracker/install/agent/firstrun.md) topic for additional information.

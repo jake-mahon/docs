@@ -15,20 +15,20 @@ host:
 This is in addition to the API Key Name and Passcode which must be generated for each on-premise
 Nasuni Edge Appliance and cloud filer. The credential used within the assigned Connection Profile
 for these target hosts requires these permissions. See the
-[Nasuni Edge Appliance Access & Sensitive Data Auditing Configuration](access.md) topic for
+[Nasuni Edge Appliance Access & Sensitive Data Auditing Configuration](/docs/accessanalyzer/12.0/config/nasuni/access.md) topic for
 instructions.
 
 **NOTE:** These permissions are in addition to those needed to either deploy applet scans for
 running scans in proxy mode with applet or installing the File System Proxy Service Permissions for
 running scans in proxy mode as a service. See the
-[File System Scan Options](../../requirements/solutions/filesystem/scanoptions.md)
+[File System Scan Options](/docs/accessanalyzer/12.0/requirements/solutions/filesystem/scanoptions.md)
 topic for additional information.
 
 ## Access & Sensitive Data Auditing Port Requirements
 
 The firewall ports required by Access Analyzer for Access Auditing (FSAA) and/or Sensitive Data
 Discovery Auditing scans are based on the File System scan mode to be used. See the
-[File System Scan Options](../../requirements/solutions/filesystem/scanoptions.md)
+[File System Scan Options](/docs/accessanalyzer/12.0/requirements/solutions/filesystem/scanoptions.md)
 topic for additional information.
 
 ## Activity Auditing Permissions
@@ -51,7 +51,7 @@ Analyzer to read the activity log files must have also have this permission.
 Nasuni Edge Appliance Requirements
 
 Additionally, it is necessary to generate an API Access Key for Nasuni activity monitoring. See the
-[Nasuni Edge Appliance Activity Auditing Configuration](activity.md) topic for instructions.
+[Nasuni Edge Appliance Activity Auditing Configuration](/docs/accessanalyzer/12.0/config/nasuni/activity.md) topic for instructions.
 
 Activity Monitor Archive Location
 
@@ -71,7 +71,7 @@ are required for communication between the Agent server and the Netwrix Activity
 The Windows firewall rules need to be configured on the Windows server, which require certain
 inbound rules be created if the scans are running in applet mode. These scans operate over a default
 port range, which cannot be specified via an inbound rule. For more information, see the Microsoft
-[Connecting to WMI on a Remote Computer](<https://msdn.microsoft.com/en-us/library/windows/desktop/aa389290(v=vs.85).aspx>)
+[Connecting to WMI on a Remote Computer](https://msdn.microsoft.com/en-us/library/windows/desktop/aa389290(v=vs.85).aspx)
 article.
 
 Additional Firewall Rules for Nasuni Edge Appliance

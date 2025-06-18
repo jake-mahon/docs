@@ -20,10 +20,10 @@ See Appendix E for the full scripts used in these templates.
 These are custom scripts created by Netwrix Engineers that execute the following notification
 emails:
 
-- [Account Enablement Custom Script](scripts/accountenablement.md)
-- [Password Never Expires Custom Script](scripts/passwordneverexpires.md)
-- [Lock and/or Unlock Account Custom Script](scripts/lockunlockaccount.md)
-- [Password Changes Custom Script](scripts/passwordchanges.md)
-- [Password Rejection Custom Script](scripts/passwordrejection.md)
+- [Account Enablement Custom Script](/docs/threatprevention/7.5/threatprevention/admin/templates/folder/scripts/accountenablement.md)
+- [Password Never Expires Custom Script](/docs/threatprevention/7.5/threatprevention/admin/templates/folder/scripts/passwordneverexpires.md)
+- [Lock and/or Unlock Account Custom Script](/docs/threatprevention/7.5/threatprevention/admin/templates/folder/scripts/lockunlockaccount.md)
+- [Password Changes Custom Script](/docs/threatprevention/7.5/threatprevention/admin/templates/folder/scripts/passwordchanges.md)
+- [Password Rejection Custom Script](/docs/threatprevention/7.5/threatprevention/admin/templates/folder/scripts/passwordrejection.md)
 
 All of the actions above are used in templates found within the Actions Policy Templates folder.

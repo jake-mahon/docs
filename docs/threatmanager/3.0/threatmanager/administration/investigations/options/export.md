@@ -4,7 +4,7 @@ An export puts the report results for an investigation into a desired format. Th
 provides choices for how you can export the report results for an investigation. The report can be
 exported in a specified format and can be downloaded, emailed, or scheduled as desired.
 
-![Export option in the Investigation interface](../../../../../../../static/img/product_docs/threatprevention/threatprevention/admin/navigation/export.webp)
+![Export option in the Investigation interface](/img/product_docs/threatprevention/threatprevention/admin/navigation/export.webp)
 
 After running an investigation query, click **Export**. Then select one of the following from the
 drop-down menu:
@@ -24,13 +24,13 @@ Reports will be downloaded to the Downloads folder on your local machine, accord
 settings. You can configure a folder on the application server to place copies of all exported
 reports.
 
-See the [Folder Settings Page](../../configuration/integrations/foldersettings.md) topic for
+See the [Folder Settings Page](/docs/threatmanager/3.0/threatmanager/administration/configuration/integrations/foldersettings.md) topic for
 additional information.
 
 ## Send as Email
 
 **NOTE:** This option requires an email server to be configured. If this requirement is not met, a
-message will appear in the window. See the[Email Page](../../configuration/integrations/email.md)
+message will appear in the window. See the[Email Page](/docs/threatmanager/3.0/threatmanager/administration/configuration/integrations/email.md)
 section for additional information.
 
 You can send the report data of an investigation as an attachment to an email. The attachment can be
@@ -44,7 +44,7 @@ investigation is located in the folder where it was saved.
 **Step 2 –** After running a query and confirming the report data is displayed in the report
 sections, click the **Export** menu and select **Send as Email**. The Send as Email window opens.
 
-![Send as Email window](../../../../../../../static/img/product_docs/threatprevention/threatprevention/reportingmodule/investigations/options/sendasemail.webp)
+![Send as Email window](/img/product_docs/threatprevention/threatprevention/reportingmodule/investigations/options/sendasemail.webp)
 
 **Step 3 –** Begin typing in the **Recipients** textbox. You can enter a user name or email address.
 Available email addresses read from Active Directory that match the text string will populate in the
@@ -65,7 +65,7 @@ The recipients will receive the report as an attachment to an email.
 
 **NOTE:** This option requires a shared folder to be configured.If this requirement is not met, a
 message will appear in the window. See the
-[Folder Settings Page](../../configuration/integrations/foldersettings.md) section for additional
+[Folder Settings Page](/docs/threatmanager/3.0/threatmanager/administration/configuration/integrations/foldersettings.md) section for additional
 information.
 
 You can schedule to save the report data of an investigation to a shared folder. The file format can
@@ -81,7 +81,7 @@ sections, click the **Export** menu and select Scheduled export. The Schedule ex
 The name of the respective investigation is displayed as a link. Click it to view the filter defined
 for the investigation.
 
-![Schedule export window](../../../../../../../static/img/product_docs/threatprevention/threatprevention/reportingmodule/investigations/options/scheduleexport.webp)
+![Schedule export window](/img/product_docs/threatprevention/threatprevention/reportingmodule/investigations/options/scheduleexport.webp)
 
 **Step 3 –** By default the schedule is enabled. You can disable it with the toggle button by the
 window name.
@@ -115,5 +115,5 @@ Viewing.
 The scheduled export is listed on the Subscriptions and Exports page of the Investigations
 interface.
 
-See the [Subscriptions and Exports Page](../subscriptionsexports.md) topic for additional
+See the [Subscriptions and Exports Page](/docs/threatmanager/3.0/threatmanager/administration/investigations/subscriptionsexports.md) topic for additional
 information.

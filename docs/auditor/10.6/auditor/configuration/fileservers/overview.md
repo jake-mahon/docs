@@ -41,7 +41,7 @@ topic for additional information on how to enable monitoring of sensitive data i
 The table below lists the object types and attributes that can be monitored by Auditor.
 
 For more information on the attributes marked with (\*) , refer to the following Microsoft article:
-[File Attribute Constants](<https://msdn.microsoft.com/en-us/library/windows/desktop/gg258117(v=vs.85).aspx>).
+[File Attribute Constants](https://msdn.microsoft.com/en-us/library/windows/desktop/gg258117(v=vs.85).aspx).
 
 | Object type | Attributes                                                                                                                                                                                                                                                                                                                               |
 | ----------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |

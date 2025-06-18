@@ -40,7 +40,7 @@ To manage Content Aware Protection policies, you can:
 - Switch views between Grid or Widget mode using the controls in the top-right corner
 - Edit policy priority by double-clicking on a policy listed in the Priority column
 
-![Manage the Content Aware Protection policies](../../../../../../static/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/requirements/target/config/policies.webp)
+![Manage the Content Aware Protection policies](/img/versioned_docs/accessanalyzer_11.6/accessanalyzer/requirements/target/config/policies.webp)
 
 ## Policy Information
 
@@ -75,7 +75,7 @@ enable the setting on the speciﬁc device from Device Control, Global settings,
 
 - Policy Template – select a custom notiﬁcation from the drop-down list or create one from System
   Parameters, Device Types and Notiﬁcation,
-  [Custom Content Aware Protection Notiﬁcations](../systemparameters/overview.md#custom-content-aware-protection-notiﬁcations)
+  [Custom Content Aware Protection Notiﬁcations](/docs/endpointprotector/5.9.4.2/endpointprotector/admin/systemparameters/overview.md#custom-content-aware-protection-notiﬁcations)
   section
 - Policy Status – enable to set policy status to active
 - Client Notiﬁcations – enable this setting to send notiﬁcations to clients
@@ -115,7 +115,7 @@ numbers, emphasizing the distinctions between Regular and Global Thresholds.
     - Regular Threshold: Does not block two threats (SSN + phone number)
     - Global Threshold: Blocks two SSNs or any combination of two threats
 
-![Block & Report policies to handle Social Security Numbers (SSN) and phone numbers](../../../../../../static/img/product_docs/endpointprotector/endpointprotector/admin/contentawareprotection/policyinformation.webp)
+![Block & Report policies to handle Social Security Numbers (SSN) and phone numbers](/img/product_docs/endpointprotector/endpointprotector/admin/contentawareprotection/policyinformation.webp)
 
 ## Policy Exit Points
 
@@ -140,7 +140,7 @@ Flash Active X.
 
 **NOTE:** To distinguish OneDrive for Business from OneDrive, enable Deep Packet Inspection (DPI).
 
-![Monitor transfers from the following exit points](../../../../../../static/img/product_docs/endpointprotector/endpointprotector/admin/contentawareprotection/policyexistpoints.webp)
+![Monitor transfers from the following exit points](/img/product_docs/endpointprotector/endpointprotector/admin/contentawareprotection/policyexistpoints.webp)
 
 ### Storage Devices
 
@@ -155,7 +155,7 @@ From the storage devices tab, you can select to monitor transfers:
 **CAUTION:** On Linux the paste functionality only works when the default gnome session is Xorg. On
 other gnome sessions the paste functionality is disabled (ex: wayland).
 
-![From the storage devices tab, you can select to monitor transfers](../../../../../../static/img/product_docs/endpointprotector/endpointprotector/admin/contentawareprotection/policyexitstoragedevices.webp)
+![From the storage devices tab, you can select to monitor transfers](/img/product_docs/endpointprotector/endpointprotector/admin/contentawareprotection/policyexitstoragedevices.webp)
 
 **NOTE:** The **Block CD/DVD Burning** feature is only available for Windows, built-in or
 third-party burning features.
@@ -269,7 +269,7 @@ On-demand, Endpoint Protector can add other applications.
 control is limited due to Wayland's lack of support for detecting the focused window. To ensure
 security, content blocking occurs during the copy operation.
 
-![The Clipboard functionality enables you to monitor all content captured through Copy & Paste or Cut & Paste operations](../../../../../../static/img/product_docs/endpointprotector/endpointprotector/admin/contentawareprotection/policyexitclipboard.webp)
+![The Clipboard functionality enables you to monitor all content captured through Copy & Paste or Cut & Paste operations](/img/product_docs/endpointprotector/endpointprotector/admin/contentawareprotection/policyexitclipboard.webp)
 
 Newer Linux Ubuntu versions have 'snap'-based applications installed by default, affecting Endpoint
 Protector Client functionality. This may result in missing ﬁle-related events in Content Aware

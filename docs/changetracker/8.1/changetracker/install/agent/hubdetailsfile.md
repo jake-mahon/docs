@@ -8,7 +8,7 @@ hence it requiring your intervention to make sure settings are as needed.
 
 The key tags within the file are as follows:
 
-![AgentHubDetailsFile](../../../../../../static/img/product_docs/changetracker/changetracker/install/agent/agenthubdetailsfile.webp)
+![AgentHubDetailsFile](/img/product_docs/changetracker/changetracker/install/agent/agenthubdetailsfile.webp)
 
 _Remember,_ an unencrypted password means the Agent didn’t initialize and suggests a bad
 installation or .NET Framework issue – remember the Agent on Windows requires .NET Framework V3.5,
@@ -16,7 +16,7 @@ Linux/Solaris requires the latest NNT Mono runtime. Gen 7 Agent also supports ad
 NamePrefix, NameSuffix.
 
 \*The Thumbprint uniquely identifies the Web Server certificate, see the Microsoft
-[How to: Retrieve the Thumbprint of a Certificate](<https://msdn.microsoft.com/en-us/library/ms734695(v=vs.110).aspx>)
+[How to: Retrieve the Thumbprint of a Certificate](https://msdn.microsoft.com/en-us/library/ms734695(v=vs.110).aspx)
 article for more information.
 
 **Step 1 –** Open **IIS**.

@@ -5,9 +5,9 @@ The Sensitive Data Criteria Editor is accessed from the Criteria Tab in the
 criteria and to customize or create user-defined criteria. Sensitive Data Criteria can be configured
 in individual data collectors that use Sensitive Data Discovery or can be configured to inherit
 Sensitive Data Criteria settings from the **Settings** > **Sensitive Data** node. See the
-[Sensitive Data](../../admin/settings/sensitivedata/overview.md) topic for additional information.
+[Sensitive Data](/docs/accessanalyzer/12.0/admin/settings/sensitivedata/overview.md) topic for additional information.
 
-![Sensitive Data Criteria Editor](../../../../../static/img/product_docs/accessanalyzer/sensitivedatadiscovery/criteriaeditor/sensitivdatacriteriaeditor.webp)
+![Sensitive Data Criteria Editor](/img/product_docs/accessanalyzer/sensitivedatadiscovery/criteriaeditor/sensitivdatacriteriaeditor.webp)
 
 The Sensitive Data Criteria Editor contains two sections:
 
@@ -15,13 +15,13 @@ The Sensitive Data Criteria Editor contains two sections:
   the Add or Remove options. See the [Navigation Pane](#navigation-pane) topic for additional
   information.
 - Configuration pane – Displays configured settings for the currently selected criteria in the
-  navigation pane. See the [Configuration Pane](configuration.md) topic for additional information.
+  navigation pane. See the [Configuration Pane](/docs/accessanalyzer/12.0/sensitivedatadiscovery/criteriaeditor/configuration.md) topic for additional information.
 
 ## Navigation Pane
 
 The navigation pane lists all user-created and pre-configured Sensitive Data criteria.
 
-![Navigation Pane](../../../../../static/img/product_docs/accessanalyzer/sensitivedatadiscovery/criteriaeditor/navigationpane.webp)
+![Navigation Pane](/img/product_docs/accessanalyzer/sensitivedatadiscovery/criteriaeditor/navigationpane.webp)
 
 The options in the Navigation Pane are:
 
@@ -29,7 +29,7 @@ The options in the Navigation Pane are:
 - Remove Criteria – Removes a user-created criteria from the User Criteria list
 - User Criteria – Lists all user-created criteria
 - System Criteria – Lists all pre-configured criteria. For a list of pre-configured System Criteria,
-  see the [Sensitive Data System Criteria](../systemcriteria.md) topic for additional information.
+  see the [Sensitive Data System Criteria](/docs/accessanalyzer/12.0/sensitivedatadiscovery/systemcriteria.md) topic for additional information.
 
     - System Criteria cannot be modified or removed. To use existing System Criteria configurations
       in a User Criteria, right-click on a System Criteria and select **Duplicate** from the

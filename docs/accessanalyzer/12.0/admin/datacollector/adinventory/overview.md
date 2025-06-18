@@ -9,7 +9,7 @@ other solutions within Access Analyzer.
 The ADInventory Data Collector is a core component of Access Analyzer and has been preconfigured to
 be used within the .Active Directory Inventory Solution. Both this data collector and the solution
 are available with all Access Analyzer license options. See the
-[.Active Directory Inventory Solution](../../../solutions/activedirectoryinventory/overview.md)
+[.Active Directory Inventory Solution](/docs/accessanalyzer/12.0/solutions/activedirectoryinventory/overview.md)
 topic for additional information.
 
 Protocols
@@ -30,7 +30,7 @@ Permissions
     **NOTE:** See the Microsoft
     [Searching for Deleted Objects](https://technet.microsoft.com/en-us/library/cc978013.aspx)
     article and the Microsoft
-    [Dsacls](<https://technet.microsoft.com/en-us/library/cc771151(v=ws.11).aspx>) article for
+    [Dsacls](https://technet.microsoft.com/en-us/library/cc771151(v=ws.11).aspx) article for
     additional information.
 
 ## Functional Design of the ADInventory Data Collector
@@ -46,14 +46,14 @@ The ADInventory Data Collector is configured through the Active Directory Invent
 contains the following wizard pages:
 
 - Welcome
-- [ADInventory: Category](category.md)
-- [ADInventory: Results](results.md)
-- [ADInventory: Options](options.md)
-- [ADInventory: Index Update Options](indexupdateoptions.md)
-- [ADInventory: Custom Attributes](customattributes.md)
-- [ADInventory: Summary](summary.md)
+- [ADInventory: Category](/docs/accessanalyzer/12.0/admin/datacollector/adinventory/category.md)
+- [ADInventory: Results](/docs/accessanalyzer/12.0/admin/datacollector/adinventory/results.md)
+- [ADInventory: Options](/docs/accessanalyzer/12.0/admin/datacollector/adinventory/options.md)
+- [ADInventory: Index Update Options](/docs/accessanalyzer/12.0/admin/datacollector/adinventory/indexupdateoptions.md)
+- [ADInventory: Custom Attributes](/docs/accessanalyzer/12.0/admin/datacollector/adinventory/customattributes.md)
+- [ADInventory: Summary](/docs/accessanalyzer/12.0/admin/datacollector/adinventory/summary.md)
 
-![Active Directory Inventory DC Wizard Welcome page](../../../../../../static/img/product_docs/activitymonitor/activitymonitor/install/welcome.webp)
+![Active Directory Inventory DC Wizard Welcome page](/img/product_docs/activitymonitor/activitymonitor/install/welcome.webp)
 
 The Welcome page can be hidden by selecting the **Do not display this page the next time** checkbox
 when the wizard is open and configuration settings are saved.

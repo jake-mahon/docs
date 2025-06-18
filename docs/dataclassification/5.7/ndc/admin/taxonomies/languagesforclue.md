@@ -6,4 +6,4 @@ useful if a word in one language also appears in another language but has a diff
 In this case you can click the Languages link beside each clue and select any subset of the
 available languages:
 
-![cluelanguages](../../../../../../static/img/product_docs/dataclassification/ndc/admin/taxonomies/cluelanguages.webp)
+![cluelanguages](/img/product_docs/dataclassification/ndc/admin/taxonomies/cluelanguages.webp)

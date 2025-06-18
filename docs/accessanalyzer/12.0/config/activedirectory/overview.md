@@ -11,19 +11,19 @@ The following permission is needed:
 - Member of the Domain Administrators group
 
 Some collection jobs do allow for a least privilege model. See the
-[Active Directory Auditing Configuration](access.md) topic for additional information.
+[Active Directory Auditing Configuration](/docs/accessanalyzer/12.0/config/activedirectory/access.md) topic for additional information.
 
 ## Auditing Port Requirements
 
 Ports vary based on the data collector being used. See the
-[Active Directory Auditing Configuration](access.md) topic for additional information.
+[Active Directory Auditing Configuration](/docs/accessanalyzer/12.0/config/activedirectory/access.md) topic for additional information.
 
 ## Activity Auditing Permissions
 
 **NOTE:** Active Directory domain activity events can also be monitored through Netwrix Threat
 Prevention. This requires integration between it and Netwrix Activity Monitor to enable access to
 the data for Access Analyzer Active Directory Activity scans. See the
-[Send Active Directory Event Data from Netwrix Threat Prevention to Netwrix Access Analyzer](threatprevention.md)
+[Send Active Directory Event Data from Netwrix Threat Prevention to Netwrix Access Analyzer](/docs/accessanalyzer/12.0/config/activedirectory/threatprevention.md)
 topic for additional information.
 
 Requirements to Deploy the AD Agent on the Domain Controller
@@ -50,7 +50,7 @@ READ and WRITE permissions on the archive location.
 
 Integration with Access Analyzer
 
-See the [Active Directory Activity Auditing Configuration](activity.md) topic for target environment
+See the [Active Directory Activity Auditing Configuration](/docs/accessanalyzer/12.0/config/activedirectory/activity.md) topic for target environment
 requirements.
 
 ## Activity Auditing Port Requirements
@@ -65,7 +65,7 @@ are required for communication between the Agent server and the Netwrix Activity
 The Windows firewall rules need to be configured on the Windows server, which require certain
 inbound rules be created if the scans are running in applet mode. These scans operate over a default
 port range, which cannot be specified via an inbound rule. For more information, see the Microsoft
-[Connecting to WMI on a Remote Computer](<https://msdn.microsoft.com/en-us/library/windows/desktop/aa389290(v=vs.85).aspx>)
+[Connecting to WMI on a Remote Computer](https://msdn.microsoft.com/en-us/library/windows/desktop/aa389290(v=vs.85).aspx)
 article.
 
 Additional Firewall Rules for Integration between Access Analyzer and Activity Monitor

@@ -24,7 +24,7 @@ guide to install and configure the CEE. The installation will add two services t
 asynchronous bulk delivery (VCAPS) feature.
 
 After Dell CEE installation is complete, it is necessary to complete the
-[Unity Initial Setup with Unisphere](setupunisphere.md).
+[Unity Initial Setup with Unisphere](/docs/accessanalyzer/12.0/config/dellunity/setupunisphere.md).
 
 ## Configure Dell Registry Key Settings
 
@@ -34,7 +34,7 @@ manually set the Dell CEE registry key to forward events.
 
 **Step 1 –** Open the Registry Editor (run regedit).
 
-![registryeditor](../../../../../static/img/product_docs/activitymonitor/config/dellpowerstore/registryeditor.webp)
+![registryeditor](/img/product_docs/activitymonitor/config/dellpowerstore/registryeditor.webp)
 
 **Step 2 –** Navigate to following location:
 
@@ -58,7 +58,7 @@ StealthAUDIT@192.168.30.15
 
 **Step 7 –** Click OK. The Edit String window closes. Registry Editor can be closed.
 
-![services](../../../../../static/img/product_docs/activitymonitor/config/dellpowerstore/services.webp)
+![services](/img/product_docs/activitymonitor/config/dellpowerstore/services.webp)
 
 **Step 8 –** Open Services (run `services.msc`). Start or Restart the EMC CEE Monitor service.
 

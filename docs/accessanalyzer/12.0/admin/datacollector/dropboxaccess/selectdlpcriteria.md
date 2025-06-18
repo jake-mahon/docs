@@ -3,7 +3,7 @@
 Use the Select DLP criteria for this scan page to configure criteria to use for discovering
 sensitive data. It is a wizard page for the Scan for Sensitive Content category.
 
-![Dropbox Access Auditor Data Collector Wizard Select DLP criteria page](../../../../../../static/img/product_docs/accessanalyzer/admin/datacollector/spaa/selectdlpcriteria.webp)
+![Dropbox Access Auditor Data Collector Wizard Select DLP criteria page](/img/product_docs/accessanalyzer/admin/datacollector/spaa/selectdlpcriteria.webp)
 
 Select the checkbox next to each criteria to be included in the search for sensitive data. You can
 also use the **Select All** and **Clear All** buttons.
@@ -15,5 +15,5 @@ The table contains the following types of criteria:
 
 Use the **Edit** button to access the Criteria Editor where user-defined criteria can be created or
 customized. See the
-[Sensitive Data Criteria Editor](../../../sensitivedatadiscovery/criteriaeditor/overview.md) topic
+[Sensitive Data Criteria Editor](/docs/accessanalyzer/12.0/sensitivedatadiscovery/criteriaeditor/overview.md) topic
 for additional information.

@@ -23,12 +23,12 @@ devices for change events to be linked to. Device discovery removes this manual 
 
 Follow the steps to configure Device Discovery.
 
-![additsmcredential](../../../../../../static/img/product_docs/changetracker/changetracker/integration/itsm/additsmcredential.webp)
+![additsmcredential](/img/product_docs/changetracker/changetracker/integration/itsm/additsmcredential.webp)
 
 **Step 1 –** From the Settings menu, select **Credentials**, scroll to the ITSM System Credentials
 section and click **Add ITSM Credential**.
 
-![itsmconnection](../../../../../../static/img/product_docs/changetracker/changetracker/integration/itsm/itsmconnection.webp)
+![itsmconnection](/img/product_docs/changetracker/changetracker/integration/itsm/itsmconnection.webp)
 
 **Step 2 –** Select **ServiceNow** from the initial drop down and enter the details of the
 ServiceNow instance to connect to.
@@ -45,7 +45,7 @@ The Device Discovery Name Regex Replacement fields defines the value to replace 
 in the field above. Leaving this empty will cause the pattern matched by the regex above to be
 trimmed from device names created in Change Tracker.
 
-![devicediscovery](../../../../../../static/img/product_docs/changetracker/changetracker/integration/itsm/devicediscovery.webp)
+![devicediscovery](/img/product_docs/changetracker/changetracker/integration/itsm/devicediscovery.webp)
 
 **Step 3 –** Select a device to act as the proxy for the calls made to ServiceNow. The agent on the
 same host as the Hub is often a good choice here.
@@ -54,11 +54,11 @@ same host as the Hub is often a good choice here.
 
 **Step 5 –** Select the group to put the discovered devices into.
 
-![systemdiscovery](../../../../../../static/img/product_docs/changetracker/changetracker/integration/itsm/systemdiscovery.webp)
+![systemdiscovery](/img/product_docs/changetracker/changetracker/integration/itsm/systemdiscovery.webp)
 
 **Step 6 –** Click **OK**. A discovery task will start and create the devices.
 
-![discoverytask](../../../../../../static/img/product_docs/changetracker/changetracker/integration/itsm/discoverytask.webp)
+![discoverytask](/img/product_docs/changetracker/changetracker/integration/itsm/discoverytask.webp)
 
 ## Raise a ServiceNow Incident
 
@@ -71,13 +71,13 @@ situation.
 
 Follow the steps to raise a ServiceNow incident.
 
-![integrationsettings](../../../../../../static/img/product_docs/changetracker/changetracker/integration/itsm/integrationsettings.webp)
+![integrationsettings](/img/product_docs/changetracker/changetracker/integration/itsm/integrationsettings.webp)
 
 **Step 1 –** From the Settings menu, select System Settings and scroll to the ServiceNow Integration
 section. Insert the URL and credentials of the ServiceNow instance to raise incidents to. The test
 button will raise a test incident to prove connectivity.
 
-![editdevice](../../../../../../static/img/product_docs/changetracker/changetracker/integration/itsm/editdevice.webp)
+![editdevice](/img/product_docs/changetracker/changetracker/integration/itsm/editdevice.webp)
 
 **Step 2 –** Select the device group you want to raise incidents for (All devices is the common
 choice), select the **Un-planned Change Notification** Type and select **ServiceNow** as the
@@ -98,7 +98,7 @@ notification Method.
 | changeTrackerRestSyncProvider.password                                | String (e.g., “password”) The password of the account used to connect to Change Tracker. Note: This setting is encrypted by the service and written back to the config file under the key “E. changeTrackerRestSyncProvider.password”                                                                                                                                                                               |
 | serviceNow.deviceClassNames                                           | String (e.g., “cmdb_ci_win_server,cmdb_ci_linux_server”, default: “”) Optional comma-separated whitelist of Configuration Item class names (sourced from the cmdb_ci.sys_class_name property) which restricts which CIs can be mapped to a Device in Change Tracker.                                                                                                                                                |
 | serviceNow.groupClassNames                                            | String (default: “”) Optional comma-separated whitelist of Configuration Item class names (sourced from the cmdb_ci.sys_class_name property) which restricts which CIs can be mapped to a Group in Change Tracker. A value of DO_NOT_MATCH disables the group lookup if the device name is not found.                                                                                                               |
-| serviceNow.timeZone                                                   | String (e.g., “Eastern Standard Time”, default: “”) Optional time zone taken from this [list](<https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms912391(v=winembedded.11)>), which should match the time zone of the account used to connect to ServiceNow. Note: this should be used where it’s not possible to set the account to use GMT.                                                   |
+| serviceNow.timeZone                                                   | String (e.g., “Eastern Standard Time”, default: “”) Optional time zone taken from this [list](https://learn.microsoft.com/en-us/previous-versions/windows/embedded/ms912391(v=winembedded.11)), which should match the time zone of the account used to connect to ServiceNow. Note: this should be used where it’s not possible to set the account to use GMT.                                                   |
 | serviceNowChangeRequest.createplannedchangepertask                    | Boolean (default: false) When true, any RFC in ServiceNow that has tasks against it will result in a planned change for each task. If start or end times are missing on the tasks they will be taken from the parent RFC.                                                                                                                                                                                           |
 | serviceNowChangeRequestRestSyncAdapter.changesUrl                     | String (e.g., “https://site.service-now.com/api/now/table/change_request”, default: “”) Optional absolute URL for the REST API endpoint from which to retrieve Change Requests.                                                                                                                                                                                                                                     |
 | serviceNowChangeRequestRestSyncAdapter.taskCiUrl                      | String (e.g., “https://site.service-now.com/api/now/table/task_ci”, default: “”) Optional absolute URL for the REST API endpoint from which to retrieve Configuration Items linked to Change Requests.                                                                                                                                                                                                              |

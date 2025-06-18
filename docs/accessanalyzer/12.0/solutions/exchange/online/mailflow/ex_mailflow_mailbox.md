@@ -7,7 +7,7 @@ This job is set to analyze the last 30 days.
 
 The Configuration section on a Job's overview page allows you to easily modify any customizable
 parameters used by analysis tasks in the job. See the
-[Parameter Configuration](../../../../admin/jobs/job/overview.md#parameter-configuration) topic for
+[Parameter Configuration](/docs/accessanalyzer/12.0/admin/jobs/job/overview.md#parameter-configuration) topic for
 instructions on how to edit parameters on a job overview page.
 
 The EX_Mailflow_Mailbox job has the following configurable parameter:
@@ -27,7 +27,7 @@ View the analysis tasks by navigating to the **Exchange** > **8. Exchange Online
 **CAUTION:** Do not modify or deselect the selected analysis tasks. The analysis tasks are
 preconfigured for this job.
 
-![Analysis Tasks for the EX_Mailflow_Mailbox Job](../../../../../../../static/img/product_docs/accessanalyzer/solutions/exchange/online/mailflow/mailflowmailboxanalysis.webp)
+![Analysis Tasks for the EX_Mailflow_Mailbox Job](/img/product_docs/accessanalyzer/solutions/exchange/online/mailflow/mailflowmailboxanalysis.webp)
 
 The following analysis tasks are selected by default:
 
@@ -39,7 +39,7 @@ The following analysis tasks are selected by default:
     - By default, counts are collected for the last 30 days. The number of days can be modified with
       the `@Days` parameter.
     - See the
-      [Configure the Customizable Parameters in an Analysis Task](../../../../admin/jobs/job/configure/analysiscustomizableparameters.md)
+      [Configure the Customizable Parameters in an Analysis Task](/docs/accessanalyzer/12.0/admin/jobs/job/configure/analysiscustomizableparameters.md)
       topic for additional information
 
 - User Mailboxes by Message Size – Creates the EX_MailFlow_UserBySize table, accessible under the
@@ -48,7 +48,7 @@ The following analysis tasks are selected by default:
     - By default, sizes are selected for the last 30 days. The number of days can be modified with
       the `@Days` parameter.
     - See the
-      [Configure the Customizable Parameters in an Analysis Task](../../../../admin/jobs/job/configure/analysiscustomizableparameters.md)
+      [Configure the Customizable Parameters in an Analysis Task](/docs/accessanalyzer/12.0/admin/jobs/job/configure/analysiscustomizableparameters.md)
       topic for additional information
 
 In addition to the tables and views created by the analysis tasks, the EX_Mailflow_Mailbox job

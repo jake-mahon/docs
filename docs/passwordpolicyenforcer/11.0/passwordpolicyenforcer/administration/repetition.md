@@ -5,7 +5,7 @@ Reducing repetition increase resistance to both brute-force and dictionary crack
 Repetition rule is not case sensitive, so "mypaSssSword" contains four consecutive repeating
 characters (SssS).
 
-![Repetition Rule](../../../../../static/img/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/administration/repetition.webp)
+![Repetition Rule](/img/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/administration/repetition.webp)
 
 Select the **Repetition** check box to enable the repetition rule.
 

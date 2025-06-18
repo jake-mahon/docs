@@ -52,5 +52,5 @@ environments can be ranged as follows:
 
 Again, consider that for the large-size and extra-large environments, it is strongly recommended to
 configure a cluster of several NDC Servers and apply DQS mode to these clustered servers. See
-[Configuring NDC Servers Cluster and Load Balancing with DQS Mode](../../requirements/dqsmode.md)
+[Configuring NDC Servers Cluster and Load Balancing with DQS Mode](/docs/dataclassification/5.7/ndc/requirements/dqsmode.md)
 for details.

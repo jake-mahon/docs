@@ -32,11 +32,11 @@ built-in environment variable `%SAINSTALLDIR%`):
 user. This can be as simple as copying the contents of the tasks folder from the following two
 locations:
 
-![C:\Windows\Tasks](../../../../../static/img/product_docs/accessanalyzer/admin/maintenance/maintenance_3.webp)
+![C:\Windows\Tasks](/img/product_docs/accessanalyzer/admin/maintenance/maintenance_3.webp)
 
 - C:\Windows\Tasks
 
-![C:\Windows\System32\Tasks](../../../../../static/img/product_docs/accessanalyzer/admin/maintenance/maintenance_4.webp)
+![C:\Windows\System32\Tasks](/img/product_docs/accessanalyzer/admin/maintenance/maintenance_4.webp)
 
 - C:\Windows\System32\Tasks
 
@@ -47,7 +47,7 @@ All key components necessary for data recovery have now been backed up.
 Follow these steps for data recovery of the Access Analyzer Console server.
 
 **Step 1 –** Confirm the prerequisites have been met on the Access Analyzer Console Server. See the
-[Requirements](../../requirements/overview.md) topic for specific prerequisites.
+[Requirements](/docs/accessanalyzer/12.0/requirements/overview.md) topic for specific prerequisites.
 
 **Step 2 –** Install the Access Analyzer application. Do not start the Access Analyzer application
 at this time.
@@ -85,12 +85,12 @@ Where SA_Node = @OHost;
 
 **Step 7 –** Enable Role Based Access to write the necessary registry keys:
 
-![Role Based Access](../../../../../static/img/product_docs/accessanalyzer/admin/maintenance/maintenance_5.webp)
+![Role Based Access](/img/product_docs/accessanalyzer/admin/maintenance/maintenance_5.webp)
 
 - Navigate to the **Settings** > **Access** node in the Access Analyzer Console and select
   **Access**
 - Use the **Add Access**, **Edit Member Role**, and **Delete Member Role** buttons to add, remove,
   and edit roles
-- See the [Role Based Access](../settings/access/rolebased/overview.md) topic for more information
+- See the [Role Based Access](/docs/accessanalyzer/12.0/admin/settings/access/rolebased/overview.md) topic for more information
 
 The Access Analyzer Console Server is now restored.

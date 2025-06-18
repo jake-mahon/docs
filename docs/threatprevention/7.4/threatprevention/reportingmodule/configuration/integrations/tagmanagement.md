@@ -125,7 +125,7 @@ results.
 
 **Step 5 –** In the Untagged Items box, check the box to the left of the desired object(s).
 
-**Step 6 –** Click the arrow (>) between the Untagged Items box and the Tagged Items box to add the
+**Step 6 –** Click the arrow () between the Untagged Items box and the Tagged Items box to add the
 tag to the selected object(s).
 
 The tag is applied to the selected objects.
@@ -134,7 +134,7 @@ The tag is applied to the selected objects.
 
 Follow the steps to remove tags from objects.
 
-![Tag details page showing search results](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/report/interactivegrids/search.webp)
+![Tag details page showing search results](/img/versioned_docs/accessanalyzer_11.6/accessanalyzer/admin/report/interactivegrids/search.webp)
 
 **Step 1 –** On the Integrations interface, click **Tag Managemetn** in the navigation pane to view
 a list of tags.

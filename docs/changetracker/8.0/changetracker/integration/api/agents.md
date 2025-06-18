@@ -204,7 +204,7 @@ Try {
 Catch [Net.WebException] {
     $resp = $_.Exception.Response;
     If ( $resp.StatusCode -eq [Net.HttpStatusCode]::BadRequest ) {
-        $result = (New-Object IO.StreamReader($resp.GetResponseStream())).ReadToEnd() | ConvertFrom-Json;
+        $result = (New-Object IO.StreamReader($resp.GetResponseStream().ReadToEnd() | ConvertFrom-Json;
         # Handle errors
         Write-Output $_.Exception
     }

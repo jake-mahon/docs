@@ -4,9 +4,9 @@ The Permissions report for a group object provides a list of all resources where
 ID (formerly Azure Active Directory) group has been assigned permissions. The **Include Inherited**
 filter checkbox is active by default, which means the report displays both direct and inherited
 permissions unless modified by the Access Information Center user. See the
-[Results Pane](../../navigate/overview.md#results-pane) topic for information on filter options.
+[Results Pane](/docs/accessinformationcenter/12.0/access/informationcenter/resourceaudit/navigate/overview.md#results-pane) topic for information on filter options.
 
-![Permissions report](../../../../../../../../static/img/product_docs/accessinformationcenter/access/informationcenter/resourceaudit/group/entraid/permissionsentraid.webp)
+![Permissions report](/img/product_docs/accessinformationcenter/access/informationcenter/resourceaudit/group/entraid/permissionsentraid.webp)
 
 This report is comprised of the following columns:
 
@@ -35,4 +35,4 @@ The following columns display the combined direct and inherited rights:
   deny rights
 
 The table data grid functions the same way as other table grids. See the
-[Data Grid Features](../../../../general/datagrid.md) topic for additional information.
+[Data Grid Features](/docs/accessinformationcenter/12.0/access/general/datagrid.md) topic for additional information.

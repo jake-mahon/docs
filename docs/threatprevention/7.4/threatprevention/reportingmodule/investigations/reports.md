@@ -57,7 +57,7 @@ The table displays the following data:
   details.
 - Description – A summary of the event
 
-Click the arrow (>) in the table for a specific event to view additional details.
+Click the arrow () in the table for a specific event to view additional details.
 
 See the
 [Host Details Page](/docs/threatprevention/7.4/threatprevention/reportingmodule/investigations/host.md)

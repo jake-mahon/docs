@@ -32,7 +32,7 @@ Major benefits:
 The add-on is implemented as a Syslog service that collects activity data from Qumulo Cluster and
 sends it to Auditor using the Integration API.
 
-![diagram_thumb_0_0](../../../../../../static/img/product_docs/auditor/auditor/addon/cyberark/diagram_thumb_0_0.webp)
+![diagram_thumb_0_0](/img/product_docs/auditor/auditor/addon/cyberark/diagram_thumb_0_0.webp)
 
 On a high level, the solution works as follows:
 
@@ -57,7 +57,7 @@ On a high level, the solution works as follows:
    them to the **Netwrix_Auditor_API** database (SQL server database) and file-based Long-Term
    Archive. Data is sent periodically, by default every 5 seconds. For more information on the
    Activity Record structure and capabilities of the Integration API, refer to the
-   [Integration API](../../api/overview.md) topic.
+   [Integration API](/docs/auditor/10.7/auditor/api/overview.md) topic.
 7. Users open Auditor Client to work with collected data:
     - Search for file changes using certain criteria
     - Export data to PDF or CSV files

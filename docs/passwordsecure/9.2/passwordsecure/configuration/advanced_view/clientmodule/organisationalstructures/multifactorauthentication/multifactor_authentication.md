@@ -11,12 +11,12 @@ the user.
 To use multifactor authentication on a database, it must firstly have been activated on the Server
 Manager. In the database module, open the settings for the selected database via the ribbon.
 
-![database settings](../../../../../../../../../static/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/clientmodule/organisationalstructures/multifactorauthentication/multifactor_authentication_1-en.webp)
+![database settings](/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/clientmodule/organisationalstructures/multifactorauthentication/multifactor_authentication_1-en.webp)
 
 It is possible to separately define in the settings whether it is permitted to use each interface on
 the database.
 
-![multifactor authentication](../../../../../../../../../static/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/clientmodule/organisationalstructures/multifactorauthentication/multifactor_authentication_2-en.webp)
+![multifactor authentication](/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/clientmodule/organisationalstructures/multifactorauthentication/multifactor_authentication_2-en.webp)
 
 ### Other settings
 
@@ -29,10 +29,10 @@ important that these rights exist before Multifactor Authentication is set up.
 
 ## Configuration of multifactor authentication
 
-In the [Organisational structure](../organisational_structure.md) module, you select the user and
+In the [Organisational structure](/docs/passwordsecure/9.2/passwordsecure/configuration/advanced_view/clientmodule/organisationalstructures/organisational_structure.md) module, you select the user and
 the interface "Multifactor authentication" in the ribbon.
 
-![TOTP](../../../../../../../../../static/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/clientmodule/organisationalstructures/multifactorauthentication/multifactor_authentication_3-en.webp)
+![TOTP](/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/clientmodule/organisationalstructures/multifactorauthentication/multifactor_authentication_3-en.webp)
 
 The desired type of authentication is selected and given a title. This name is also displayed to the
 user when logging in. The subsequent process differs depending on the desired authentication type.
@@ -43,7 +43,7 @@ The prerequisite for this is that the relevant app has been started on a smartph
 has been assigned for the authentication, you generate a new secret via the corresponding button. A
 QR code is displayed, which must be scanned using the Google Authenticator app on a smartphone.
 
-![google authenticator](../../../../../../../../../static/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/clientmodule/organisationalstructures/multifactorauthentication/multifactor_authentication_4-en.webp)
+![google authenticator](/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/clientmodule/organisationalstructures/multifactorauthentication/multifactor_authentication_4-en.webp)
 
 Once the Google Authenticator app has detected the QR code, it will return a 6-digit PIN. You must
 then enter it in the appropriate field. Finally, click on **Create** in the ribbon.
@@ -53,7 +53,7 @@ then enter it in the appropriate field. Finally, click on **Create** in the ribb
 To set up multifactor authentication using RSA SecurID, simply enter the RSA user name and click
 **Create** directly in the ribbon.
 
-![RSA SecurID Token](../../../../../../../../../static/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/clientmodule/organisationalstructures/multifactorauthentication/multifactor_authentication_5-en.webp)
+![RSA SecurID Token](/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/clientmodule/organisationalstructures/multifactorauthentication/multifactor_authentication_5-en.webp)
 
 NOTE: The prerequisite for the use of RSA SecurID token is that the access data has been stored in
 the Database settings on the Server Manager.
@@ -63,14 +63,14 @@ the Database settings on the Server Manager.
 For PKI setup, the **Select** button is used to open the menu for selecting the desired certificate.
 All eligible certificates are displayed.
 
-![Public key infrastructure](../../../../../../../../../static/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/clientmodule/organisationalstructures/multifactorauthentication/multifactor_authentication_7-en.webp)
+![Public key infrastructure](/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/clientmodule/organisationalstructures/multifactorauthentication/multifactor_authentication_7-en.webp)
 
 Now just select the desired certificate from the list to confirm the process.
 
 ## Yubico One Time Password
 
 The configuration of multifactor authentication using Yubico One Time Password is described
-in[Multifactor Authentication](../../../../server_manager/managing_databases/database_settings/multifactor_authentication_ac.md).
+in[Multifactor Authentication](/docs/passwordsecure/9.2/passwordsecure/configuration/server_manager/managing_databases/database_settings/multifactor_authentication_ac.md).
 
 ## Delete Multifactor Authentication (MFA)
 

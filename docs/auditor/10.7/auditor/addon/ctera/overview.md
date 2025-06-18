@@ -15,7 +15,7 @@ On a high level, the add-on works as follows:
 3. Using the Integration API, the add-on sends the activity records to the Netwrix Auditor Server,
    which writes them to the Long-Term Archive and the Audit Database.
 
-See the [Integration API](../../api/overview.md) topic for additional information on the structure
+See the [Integration API](/docs/auditor/10.7/auditor/api/overview.md) topic for additional information on the structure
 of the Activity Record and the capabilities of the Integration API.
 
 ## Prerequisites
@@ -25,7 +25,7 @@ follows:
 
 | On...                                           | Ensure that...                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
 | ----------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| The Auditor Server side                         | - The Audit Database settings are configured in Auditor Server. See the [Prerequisites](../../api/prerequisites.md) and [Audit Database](../../admin/settings/auditdatabase.md) topics for additional information. - The TCP **9699** port (default Integration API port) is open for inbound connections. - The user writing data to the Audit Database is granted the **Contributor** role in Auditor. See the [Role-Based Access and Delegation](../../admin/monitoringplans/delegation.md) topic for additional information. Alternatively, you can grant the **Global administrator** role or add the user to the **Netwrix Auditor Administrators** group. In this case, this user will have the most extended permissions in the product. |
+| The Auditor Server side                         | - The Audit Database settings are configured in Auditor Server. See the [Prerequisites](/docs/auditor/10.7/auditor/api/prerequisites.md) and [Audit Database](/docs/auditor/10.7/auditor/admin/settings/auditdatabase.md) topics for additional information. - The TCP **9699** port (default Integration API port) is open for inbound connections. - The user writing data to the Audit Database is granted the **Contributor** role in Auditor. See the [Role-Based Access and Delegation](/docs/auditor/10.7/auditor/admin/monitoringplans/delegation.md) topic for additional information. Alternatively, you can grant the **Global administrator** role or add the user to the **Netwrix Auditor Administrators** group. In this case, this user will have the most extended permissions in the product. |
 | The computer where the add-on will be installed | - The UDP 514 port is open for inbound connections. - .Net Framework 4.7.2 and above is installed. Review the following Microsoft technical article for additional information on how to install .Net Framework 4.7.2: [Microsoft .NET Framework 4.7.2 offline installer for Windows](https://support.microsoft.com/en-us/topic/microsoft-net-framework-4-7-2-offline-installer-for-windows-05a72734-2127-a15d-50cf-daf56d5faec2).                                                                                                                                                                                                                                                                                                               |
 
 ### Configure Logging for CTERA Edge Filer
@@ -48,7 +48,7 @@ installed on the same server.
   space usage.
 - If you are using Netwrix Auditor for Network Devices, the 514 UDP port may be already in use, and
   you should specify another port when configuring the add-on settings (see the
-  [Install Add-On](install.md) and [Define Parameters](parameters.md) topics for additional
+  [Install Add-On](/docs/auditor/10.7/auditor/addon/ctera/install.md) and [Define Parameters](/docs/auditor/10.7/auditor/addon/ctera/parameters.md) topics for additional
   information). Another option is to install the add-on and Auditor Server on different machines.
 
 ## Compatibility Notice

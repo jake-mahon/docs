@@ -2,7 +2,7 @@
 
 Prior to installing Netwrix Threat Manager Reporting Module 3.0, make sure that all the
 prerequisites have been met in accordance with the
-[Reporting Module Server Requirements](../../requirements/reportingserver.md) topic.
+[Reporting Module Server Requirements](/docs/threatprevention/7.5/threatprevention/requirements/reportingserver.md) topic.
 
 The Netwrix Threat Manager Reporting Module installer (threatmanager-reportonly-3.0.x.zip) is
 available for download with the Netwrix Threat Prevention installation package, and contains three
@@ -74,17 +74,17 @@ Follow the steps to install the Netwrix Threat Manager Reporting Module applicat
 **Step 1 –** Right-click on `Netwrix_Setup.exe` and select Run as administrator. The Netwrix Setup
 launcher opens. You can now install the following components on the same server:
 
-![Stealthbits Setup Launcher for StealthINTERCEPT Reporting Powered by StealthDEFEND](../../../../../../static/img/product_docs/threatprevention/threatprevention/install/reportingmodule/setuplauncher.webp)
+![Stealthbits Setup Launcher for StealthINTERCEPT Reporting Powered by StealthDEFEND](/img/product_docs/threatprevention/threatprevention/install/reportingmodule/setuplauncher.webp)
 
 - Click PostgreSQL Setup to install the database. See the
-  [Install the PostgreSQL Database Application](database.md) topic for additional information.
+  [Install the PostgreSQL Database Application](/docs/threatprevention/7.5/threatprevention/install/reportingmodule/database.md) topic for additional information.
 - Click Netwrix Threat Manager Reporting to install the application. See the
-  [Install the Netwrix Threat Manager Reporting Module](application.md) topic for additional
+  [Install the Netwrix Threat Manager Reporting Module](/docs/threatprevention/7.5/threatprevention/install/reportingmodule/application.md) topic for additional
   information.
 
-**Step 2 –** Log into the console for the first time. See the [First Launch](firstlaunch.md) topic
+**Step 2 –** Log into the console for the first time. See the [First Launch](/docs/threatprevention/7.5/threatprevention/install/reportingmodule/firstlaunch.md) topic
 for additional information.
 
 After completing the first launch, it is time to complete the initial configuration. See the
-[Set Up the Threat Manager Reporting Module](../../gettingstarted.md#set-up-the-threat-manager-reporting-module)
+[Set Up the Threat Manager Reporting Module](/docs/threatprevention/7.5/threatprevention/gettingstarted.md#set-up-the-threat-manager-reporting-module)
 topic for additional information.

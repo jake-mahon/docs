@@ -13,7 +13,7 @@ computer where Netwrix Data Classification is installed.
 - Changes made to files (including adding new files) will not be automatically detected until the
   source is re-indexed—Netwrix recommends setting the re-index period for NFS file shares to 1 day.
 
-Add the Folder source as described in the [File System](../../admin/sources/filesystem/overview.md)
+Add the Folder source as described in the [File System](/docs/dataclassification/5.7/ndc/admin/sources/filesystem/overview.md)
 topic.
 
 **NOTE:** Do not specify username and password while adding data source.

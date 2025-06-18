@@ -17,4 +17,4 @@ only.
     - To create an alert on the specific occurrences, click **Create alert**.
     - To export filtered data to PDF or CSV, click **Export data**.
 - You can also configure and receive alerts on the events you are interested in. See the
-  [Administration](../../admin/overview.md) topic for additional information.
+  [Administration](/docs/auditor/10.7/auditor/admin/overview.md) topic for additional information.

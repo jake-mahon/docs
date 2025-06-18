@@ -3,7 +3,7 @@
 Result data is displayed using data grids on several interfaces in the Administration Console. These
 grids employ features for data sorting, filtering, searching, and more.
 
-![Data Grid Functionality pointers](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/navigate/datagridfunctionality.webp)
+![Data Grid Functionality pointers](/img/versioned_docs/accessanalyzer_11.6/accessanalyzer/admin/navigate/datagridfunctionality.webp)
 
 - The Group by Box [1] ribbon impacts how much data is displayed.
 - The Refresh [2] button populates the data grid with the current information according to the
@@ -131,7 +131,7 @@ The data grids provide an option to export data.
 
 **NOTE:** Ensure that all desired filters are set on the data grid before export.
 
-![Export window](/img/versioned_docs/groupid_11.0/groupid/portal/export.webp)
+![Export window](/img/versioned_docs/directorymanager_11.0/directorymanager/portal/export.webp)
 
 The Export window provides options for what is exported and what action(s) to take.
 

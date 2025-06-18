@@ -15,7 +15,7 @@ The AD Domains Excluded list is used to disable Active Directory expansion for c
 This is useful in a multi-Domain forest, where the Netwrix Data Classification server does not have
 access to all domains within the forest.
 
-![configaddomainsexcluded](../../../../../static/img/product_docs/dataclassification/ndc/configuration/configaddomainsexcluded.webp)
+![configaddomainsexcluded](/img/product_docs/dataclassification/ndc/configuration/configaddomainsexcluded.webp)
 
 Attachments Excluded
 
@@ -23,7 +23,7 @@ When indexing files from that potentially contain attachments (SharePoint List I
 file locations that will be ignored is defined by the Attachments Excluded list. The definitions in
 this list may be viewed and modified via the Attachments Excluded form:
 
-![configattachementsexcluded](../../../../../static/img/product_docs/dataclassification/ndc/configuration/configattachementsexcluded.webp)
+![configattachementsexcluded](/img/product_docs/dataclassification/ndc/configuration/configattachementsexcluded.webp)
 
 Any file with a path that matches one of these patterns will be ignored. Wildcards may be used
 anywhere in the pattern definition, with:
@@ -36,7 +36,7 @@ No Index
 Sometimes an application may wish to remove selected documents from all search results. This may be
 implemented by specifying No Index entries.
 
-![confignoindex](../../../../../static/img/product_docs/dataclassification/ndc/configuration/confignoindex.webp)
+![confignoindex](/img/product_docs/dataclassification/ndc/configuration/confignoindex.webp)
 
 Any number of URLs (or Filenames) may be entered and none of these will ever appear in search
 results. Wildcards may be used anywhere in the pattern definition, with:
@@ -49,7 +49,7 @@ Proxy Server
 The Proxy Server form may be used to define a proxy server to be used when crawling websites, the
 proxy server is not used for SharePoint crawling.
 
-![configproxyserver](../../../../../static/img/product_docs/dataclassification/ndc/configuration/configproxyserver.webp)
+![configproxyserver](/img/product_docs/dataclassification/ndc/configuration/configproxyserver.webp)
 
 Set Bypass Local to Yes to bypass the proxy server for local addresses (localhost etc).
 
@@ -65,7 +65,7 @@ It can be useful to suspend these services from running so that they do not impa
 during the peak hours of the working day. Sometimes it may be useful to suspend these services for
 some lower priority sources but have them continue to process higher priority sources.
 
-![configsuspendservices](../../../../../static/img/product_docs/dataclassification/ndc/configuration/configsuspendservices.webp)
+![configsuspendservices](/img/product_docs/dataclassification/ndc/configuration/configsuspendservices.webp)
 
 Service suspensions can be configured in the following ways:
 

@@ -22,7 +22,7 @@ This functionality is currently available for the following data sources:
 
 To provide data for state-in-time reports, remember to select the **Collect data for state-in-time
 reports** option when you configure a monitoring plan for the selected data source. See the
-[Settings for Data Collection](../../../monitoringplans/create.md#settings-for-data-collection)
+[Settings for Data Collection](/docs/auditor/10.7/auditor/admin/monitoringplans/create.md#settings-for-data-collection)
 topic for additional information.
 
 The state-in-time reports are available under the Reports node. Depending on the data source,
@@ -32,12 +32,12 @@ Directory\_\_**>_**\_Active Directory\_\_**>\_**\_State-in-Time**.
 In the report filters, select a monitoring plan you want to generate a report for. To review data
 sources and items included in each plan, navigate to the Monitoring Plans section.
 
-![fileshareswindowsservers](../../../../../../../../static/img/product_docs/auditor/auditor/admin/reports/types/stateintime/fileshareswindowsservers.webp)
+![fileshareswindowsservers](/img/product_docs/auditor/auditor/admin/reports/types/stateintime/fileshareswindowsservers.webp)
 
 Each report has a set of filters which help organize audit data in the most convenient way. See the
-[View Reports](../../view.md) topic for additional information. You can also create a subscription
+[View Reports](/docs/auditor/10.7/auditor/admin/reports/view.md) topic for additional information. You can also create a subscription
 to any report you want to receive on a regular basis. See the
-[Subscriptions](../../../subscriptions/overview.md) topic for additional information.
+[Subscriptions](/docs/auditor/10.7/auditor/admin/subscriptions/overview.md) topic for additional information.
 
 By default, state-in-time reports reflect the current state of the data source. If you want to
 generate a report to assess your system at a particular moment in the past, you can select the
@@ -61,7 +61,7 @@ threat or at least merits your special attention. With baselines specified right
 you can easily identify servers that are different from your corporate policies or best practices.
 Risks are marked with red color and are easy to spot in the report.
 
-![windowsserverinventory_thumb_0_0](../../../../../../../../static/img/product_docs/auditor/auditor/admin/reports/types/stateintime/windowsserverinventory_thumb_0_0.webp)
+![windowsserverinventory_thumb_0_0](/img/product_docs/auditor/auditor/admin/reports/types/stateintime/windowsserverinventory_thumb_0_0.webp)
 
 You can specify baseline values specific to your organization in one of the following ways:
 

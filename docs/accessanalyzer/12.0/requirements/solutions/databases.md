@@ -2,7 +2,7 @@
 
 The core components for Netwrix Access Analyzer (formerly Enterprise Auditor) are the Access
 Analyzer Console server, SQL Server, and Access Information Center. See the
-[Requirements](../overview.md) topic for the core requirements.
+[Requirements](/docs/accessanalyzer/12.0/requirements/overview.md) topic for the core requirements.
 
 In addition to these, integration with either the Netwrix Activity Monitor is required for event
 activity data to be scanned. See the
@@ -11,13 +11,13 @@ for installation requirements and information on collecting activity data.
 
 See the following topics for target environment requirements:
 
-- [Target Db2 Requirements, Permissions, and Ports](../target/databasedb2.md)
-- [Target MongoDB Requirements, Permissions, and Ports](../target/databasemongodb.md)
-- [Target MySQL Requirements, Permissions, and Ports](../target/databasemysql.md)
-- [Target Oracle Requirements, Permissions, and Ports](../target/databaseoracle.md)
-- [Target PostgreSQL Requirements, Permissions, and Ports](../target/databasepostgresql.md)
-- [Target Redshift Requirements, Permissions, and Ports](../target/databaseredshift.md)
-- [Target SQL Server Requirements, Permissions, and Ports](../target/databasesql.md)
+- [Target Db2 Requirements, Permissions, and Ports](/docs/accessanalyzer/12.0/requirements/target/databasedb2.md)
+- [Target MongoDB Requirements, Permissions, and Ports](/docs/accessanalyzer/12.0/requirements/target/databasemongodb.md)
+- [Target MySQL Requirements, Permissions, and Ports](/docs/accessanalyzer/12.0/requirements/target/databasemysql.md)
+- [Target Oracle Requirements, Permissions, and Ports](/docs/accessanalyzer/12.0/requirements/target/databaseoracle.md)
+- [Target PostgreSQL Requirements, Permissions, and Ports](/docs/accessanalyzer/12.0/requirements/target/databasepostgresql.md)
+- [Target Redshift Requirements, Permissions, and Ports](/docs/accessanalyzer/12.0/requirements/target/databaseredshift.md)
+- [Target SQL Server Requirements, Permissions, and Ports](/docs/accessanalyzer/12.0/requirements/target/databasesql.md)
 
 ## Databases Solution Requirements on the Access Analyzer Console
 

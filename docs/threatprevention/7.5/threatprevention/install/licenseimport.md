@@ -13,7 +13,7 @@ to recognize it and convert it to a .lic file.
 
 …\Netwrix\Netwrix Threat Prevention\SIEnterpriseManager
 
-![Import License](../../../../../static/img/product_docs/threatprevention/threatprevention/install/importlicense.webp)
+![Import License](/img/product_docs/threatprevention/threatprevention/install/importlicense.webp)
 
 **Step 3 –** The SIEnterpriseManager service automatically recognizes and imports the file.
 
@@ -21,4 +21,4 @@ to recognize it and convert it to a .lic file.
 license key as that would stop the application from alerting about the expired license.
 
 The license key has been successfully imported. The organization’s license information is available
-on the [License Manager Window](../admin/navigation/licensemanager.md).
+on the [License Manager Window](/docs/threatprevention/7.5/threatprevention/admin/navigation/licensemanager.md).

@@ -24,7 +24,7 @@ To access the Alerts Timeline page, click **Home** at the top and do one of the 
   page, then click the Alerts Timeline chart. It opens the Alerts Timeline page that displays
   alert-related data for the organization selected in the organizations list.
 
-![Alerts Timeline Page](../../../../static/img/product_docs/1secure/admin/dashboard/alertstimeline.webp)
+![Alerts Timeline Page](/img/product_docs/1secure/admin/dashboard/alertstimeline.webp)
 
 If you are a managed organization user, this page displays insights specific to your organization.
 
@@ -74,7 +74,7 @@ This section lists all the triggered alerts with the following information:
   user, etc.
 - Activity Records – Click the Activity Records link for an alert to navigate to the Activity page,
   where you can view a detailed report for that alert type. See the
-  [Activity Reports](../searchandreports/activity.md) topic for additional information.
+  [Activity Reports](/docs/1secure/admin/searchandreports/activity.md) topic for additional information.
 
 Click a column header to sort data in the alerts list by that column in ascending order. An arrow
 appears next to the column name to indicate the sort order. Click the column header again to sort
@@ -83,7 +83,7 @@ the data in descending order.
 Edit Alerts Settings
 
 Click the **Edit Alerts Settings** link to navigate to the Alerts page, where you can create a new
-alert and modify existing ones. See the [Alerts](index.md) topic for additional
+alert and modify existing ones. See the [Alerts](/docs/1secure/admin/alerts/index.md) topic for additional
 information.
 
 ## Filter Data

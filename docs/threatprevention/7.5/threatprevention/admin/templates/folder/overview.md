@@ -7,7 +7,7 @@ installation process. New policy templates can be created from scratch or from e
 When Threat Prevention is upgraded, new and updated policy templates are available for import. They
 are not automatically imported during the installation of the latest version. Updates can be made to
 upgrade existing templates for a new release. See the
-[Upgrade Policy Templates](../../../install/upgrade/policytemplates.md) topic for additional
+[Upgrade Policy Templates](/docs/threatprevention/7.5/threatprevention/install/upgrade/policytemplates.md) topic for additional
 information.
 
 When the Administration Console is launched for the first time, the administrator is asked to import
@@ -18,7 +18,7 @@ imported, they are available through an organized folder structure.
 ## Template Folders
 
 The pre-created policy templates are organized in an easy-to-navigate folder structure under
-Templates in the [Templates Interface](../overview.md).
+Templates in the [Templates Interface](/docs/threatprevention/7.5/threatprevention/admin/templates/overview.md).
 
 - The Actions folder contains several pre-configured PowerShell scripts that can be used as response
   actions to alerts.
@@ -88,7 +88,7 @@ window. The location of the default templates is:
 **Step 3 –** To import all the available Threat Prevention policy templates, select the
 `SI_Templates_All.xml` file. Click **Open**.
 
-![Import window](../../../../../../../static/img/product_docs/threatprevention/threatprevention/admin/tools/import.webp)
+![Import window](/img/product_docs/threatprevention/threatprevention/admin/tools/import.webp)
 
 **Step 4 –** The Import window auto-fills with the import file details. Do not change the defaults
 settings. Click **Import**.
@@ -98,4 +98,4 @@ templates to import and configure.
 
 **Step 5 –** When the operation is complete, click **OK**.
 
-The templates are now available in the [Templates Interface](../overview.md).
+The templates are now available in the [Templates Interface](/docs/threatprevention/7.5/threatprevention/admin/templates/overview.md).

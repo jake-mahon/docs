@@ -5,7 +5,7 @@ The Threat Prevention Agent is updated from the Agents interface.
 **NOTE:** If you are using an Endpoint Detection and Response (EDR) solution to protect LSASS, you
 must create an exclusion for Threat Prevention using any of these methods:
 
-- Add the path or names of the files listed under Agent Server in the [Installation](../overview.md)
+- Add the path or names of the files listed under Agent Server in the [Installation](/docs/threatprevention/7.5/threatprevention/install/overview.md)
   topic in the EDR.
 - Add the hash of the individual files in the EDR. In this case, every time a new Agent version is
   deployed, the hashes change and will have to be updated. If this is not done prior to upgrade, the
@@ -18,9 +18,9 @@ Follow the steps to upgrade a deployed Agent.
 
 **Step 1 –** Click **Agents** in the left pane to open the Agents interface.
 
-**Step 2 –** On the [Agents Interface](../../admin/agents/overview.md), select the desired
+**Step 2 –** On the [Agents Interface](/docs/threatprevention/7.5/threatprevention/admin/agents/overview.md), select the desired
 server/Agent in the grid and on the top toolbar, select **Update Agent Installer**. The
-[Agent Installer Update Window](../../admin/agents/window/agentinstallerupdate.md) opens.
+[Agent Installer Update Window](/docs/threatprevention/7.5/threatprevention/admin/agents/window/agentinstallerupdate.md) opens.
 
 **Step 3 –** On the Agent Installer Update window, click **Check for Newer Version of the Netwrix
 Threat Prevention Agent**. The green bar indicates the progress of checking the Agent for a newer
@@ -37,7 +37,7 @@ actions are in progress. If this wizard is hidden by clicking outside of the dia
 blue link displays on the upper right corner of the interface with the action name displayed. Click
 this link to bring back the focus to the wizard.
 
-![Access Verification window](../../../../../../static/img/product_docs/threatprevention/threatprevention/install/upgrade/accessverification.webp)
+![Access Verification window](/img/product_docs/threatprevention/threatprevention/install/upgrade/accessverification.webp)
 
 **Step 5 –** The Access Verification window displays one of the following statuses:
 
@@ -50,7 +50,7 @@ this link to bring back the focus to the wizard.
 **NOTE:** Closing the Administration Console while this action is in process causes problems with
 data collection.
 
-![Upgrade Agent window](../../../../../../static/img/product_docs/threatprevention/threatprevention/install/upgrade/upgradeagent.webp)
+![Upgrade Agent window](/img/product_docs/threatprevention/threatprevention/install/upgrade/upgradeagent.webp)
 
 **Step 6 –** On the Upgrade Agent window, the old Agent will be uninstalled and the newer version of
 the Agent installed. One of two status messages display:

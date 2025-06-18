@@ -20,5 +20,5 @@ their corresponding role:
 - Job/Group Executions
 - Access Analyzer Console launches and exits
 
-See the [Application Maintenance and Best Practices](../../../maintenance/overview.md) topic for
+See the [Application Maintenance and Best Practices](/docs/accessanalyzer/12.0/admin/maintenance/overview.md) topic for
 additional information.

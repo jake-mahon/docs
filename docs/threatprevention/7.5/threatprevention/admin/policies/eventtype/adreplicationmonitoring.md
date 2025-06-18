@@ -12,7 +12,7 @@ The event filters for the AD Replication Monitoring event type are:
 - Domains/Servers
 - Hosts (from)
 
-![Policy window - AD Replication Monitoring Event Type](../../../../../../../static/img/product_docs/threatprevention/threatprevention/admin/policies/eventtype/adreplicationmonitoring.webp)
+![Policy window - AD Replication Monitoring Event Type](/img/product_docs/threatprevention/threatprevention/admin/policies/eventtype/adreplicationmonitoring.webp)
 
 Each filter tab acts like an "AND" statement for the filter. Any filter tab left blank is treated
 like an "ALL" for that filter set.
@@ -54,25 +54,25 @@ Use the AD Perpetrator filter for monitoring to set the scope of the policy to o
 security principals committing changes or to exclude specific security principals committing changes
 from being monitored.
 
-![Event Type - AD Perpetrator Monitoring filter](../../../../../../../static/img/product_docs/threatprevention/threatprevention/admin/policies/eventtype/adperpetratormonitoring.webp)
+![Event Type - AD Perpetrator Monitoring filter](/img/product_docs/threatprevention/threatprevention/admin/policies/eventtype/adperpetratormonitoring.webp)
 
 Use the buttons in the Include Perpetrators, Include Collections, Exclude Perpetrators, and Exclude
 Collections areas to edit the lists.
 
 - The Perpetrators Add (+) button opens the
-  [Select Active Directory Perpetrators Window](window/selectactivedirectory/perpetrators.md).
+  [Select Active Directory Perpetrators Window](/docs/threatprevention/7.5/threatprevention/admin/policies/eventtype/window/selectactivedirectory/perpetrators.md).
 - The Collection button opens the
-  [List of Collections Window](../../configuration/collectionmanager/listcollections.md) to the
+  [List of Collections Window](/docs/threatprevention/7.5/threatprevention/admin/configuration/collectionmanager/listcollections.md) to the
   appropriate Collection category.
 - The Remove (x) button deletes the selected item(s) from that box.
 
 **NOTE:** To enable a Dynamic Policy, use the Collection button to select the desired Dynamic
-Collection. See the [Dynamic Collections](../../configuration/collectionmanager/dynamic.md) topic
+Collection. See the [Dynamic Collections](/docs/threatprevention/7.5/threatprevention/admin/configuration/collectionmanager/dynamic.md) topic
 for additional information.
 
 Sub Tree
 
-![Sub-Tree option in event type filters](../../../../../../../static/img/product_docs/threatprevention/threatprevention/admin/policies/eventtype/subtree.webp)
+![Sub-Tree option in event type filters](/img/product_docs/threatprevention/threatprevention/admin/policies/eventtype/subtree.webp)
 
 When contexts are added, a Sub-Tree checkbox displays. Check it to apply the filter to the parent
 and all child contexts. Uncheck it to apply the filter to the listed context only.
@@ -83,7 +83,7 @@ Use the Permissions filter to set the scope of the policy for specific replicati
 within Active Directory that are used to dump password hashes as a fake domain controller in a
 DCSync/Replication attack.
 
-![Policy window - Permissions  filter](../../../../../../../static/img/product_docs/threatprevention/threatprevention/admin/policies/permissions.webp)
+![Policy window - Permissions  filter](/img/product_docs/threatprevention/threatprevention/admin/policies/permissions.webp)
 
 The Permissions filter has two sections:
 
@@ -103,18 +103,18 @@ The Permissions filter has two sections:
 Use the Domains/Servers filter to set the scope of the policy to specific domains and/or servers or
 to exclude specific domains and/or servers.
 
-![Event Type - Domains/Servers Monitoring filter](../../../../../../../static/img/product_docs/threatprevention/threatprevention/admin/policies/eventtype/domainsserversmonitoring.webp)
+![Event Type - Domains/Servers Monitoring filter](/img/product_docs/threatprevention/threatprevention/admin/policies/eventtype/domainsserversmonitoring.webp)
 
 Use the buttons in the Include and Exclude areas to edit the lists.
 
-- The Add (+) buttons open the [Select Domains and Servers Window](window/selectdomainsservers.md).
+- The Add (+) buttons open the [Select Domains and Servers Window](/docs/threatprevention/7.5/threatprevention/admin/policies/eventtype/window/selectdomainsservers.md).
 - The Collection button opens the
-  [List of Collections Window](../../configuration/collectionmanager/listcollections.md) to the
+  [List of Collections Window](/docs/threatprevention/7.5/threatprevention/admin/configuration/collectionmanager/listcollections.md) to the
   appropriate Collection category.
 - The Remove (x) button deletes the selected item(s) from that box.
 
 **NOTE:** To enable a Dynamic Policy, use the Collection button to select the desired Dynamic
-Collection. See the [Dynamic Collections](../../configuration/collectionmanager/dynamic.md) topic
+Collection. See the [Dynamic Collections](/docs/threatprevention/7.5/threatprevention/admin/configuration/collectionmanager/dynamic.md) topic
 for additional information.
 
 ## Hosts (from) Filter
@@ -122,17 +122,17 @@ for additional information.
 Use the Hosts (from) filter for monitoring to set the scope of the policy to only monitor specific
 hosts as originators of an event or to exclude specific hosts from being monitored.
 
-![Event Type – Hosts (from) filter](../../../../../../../static/img/product_docs/threatprevention/threatprevention/admin/policies/eventtype/hostsfrom.webp)
+![Event Type – Hosts (from) filter](/img/product_docs/threatprevention/threatprevention/admin/policies/eventtype/hostsfrom.webp)
 
 Use the buttons in the Include Hosts, Include Collections, Exclude Hosts, and Exclude Collections
 areas to edit the lists.
 
-- The Hosts Add (+) button opens the [Select Computer Window](window/selectcomputers.md).
+- The Hosts Add (+) button opens the [Select Computer Window](/docs/threatprevention/7.5/threatprevention/admin/policies/eventtype/window/selectcomputers.md).
 - The Collection button opens the
-  [List of Collections Window](../../configuration/collectionmanager/listcollections.md) to the
+  [List of Collections Window](/docs/threatprevention/7.5/threatprevention/admin/configuration/collectionmanager/listcollections.md) to the
   appropriate Collection category.
 - The Remove (x) button deletes the selected item(s) from that box.
 
 **NOTE:** To enable a Dynamic Policy, use the Collection button to select the desired Dynamic
-Collection. See the [Dynamic Collections](../../configuration/collectionmanager/dynamic.md) topic
+Collection. See the [Dynamic Collections](/docs/threatprevention/7.5/threatprevention/admin/configuration/collectionmanager/dynamic.md) topic
 for additional information.

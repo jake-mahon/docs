@@ -26,8 +26,8 @@ Data Collectors
 
 This solution employs the following data collector to scan the target environment:
 
-- [ADInventory Data Collector](../../admin/datacollector/adinventory/overview.md)
-- [SQL Data Collector](../../admin/datacollector/sql/overview.md)
+- [ADInventory Data Collector](/docs/accessanalyzer/12.0/admin/datacollector/adinventory/overview.md)
+- [SQL Data Collector](/docs/accessanalyzer/12.0/admin/datacollector/sql/overview.md)
 
 ## Permissions
 
@@ -39,7 +39,7 @@ For .Active Directory Inventory Prerequisite
     **NOTE:** See the Microsoft
     [Searching for Deleted Objects](https://technet.microsoft.com/en-us/library/cc978013.aspx)
     article and the Microsoft
-    [Dsacls](<https://technet.microsoft.com/en-us/library/cc771151(v=ws.11).aspx>) article for
+    [Dsacls](https://technet.microsoft.com/en-us/library/cc771151(v=ws.11).aspx) article for
     additional information.
 
 For Redshift Data Collection

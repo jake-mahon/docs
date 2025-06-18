@@ -16,5 +16,5 @@ tenant) settings.
 Netwrix 1Secure will access the cloud-based Office 365 infrastructure using a dedicated Microsoft
 Entra ID application, formerly Azure AD. This app should be created manually by user with
 administrative role and assigned required permissions. See the
-[App Registration and Configuration in Microsoft Entra ID](../../configuration/entraid/registerconfig.md)
+[App Registration and Configuration in Microsoft Entra ID](/docs/1secure/configuration/entraid/registerconfig.md)
 topic for additional information.

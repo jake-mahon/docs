@@ -3,7 +3,7 @@
 Console access is configured through the Configuration > Console Access page. Adding users to the
 Access Reviews Console requires the Active Directory service account to be configured.
 
-![Configuration interface showing the Console Access page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/settings/access/rolebased/consoleaccess.webp)
+![Configuration interface showing the Console Access page](/img/versioned_docs/accessanalyzer_11.6/accessanalyzer/admin/settings/access/rolebased/consoleaccess.webp)
 
 There are two levels of access, or roles, which can be granted to domain users or groups:
 
@@ -31,7 +31,7 @@ of role.
 
 Follow the steps to grant domain users or groups console access.
 
-![Console Access Page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/settings/access/rolebased/consoleaccess.webp)
+![Console Access Page](/img/versioned_docs/accessanalyzer_11.6/accessanalyzer/admin/settings/access/rolebased/consoleaccess.webp)
 
 **Step 1 –** In the Configuration interface on the Console Access page, click Add. The Console
 Access wizard opens.

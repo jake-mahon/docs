@@ -3,7 +3,7 @@
 The Website Details page shows additional information for the selected website resource. This page
 is opened from any linked resource within the various interfaces.
 
-![Website Resource details page](../../../../../../../../../static/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/page/details/websitedetails.webp)
+![Website Resource details page](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/page/details/websitedetails.webp)
 
 The details page shows the following information:
 
@@ -21,10 +21,10 @@ The details page shows the following information:
   website will reference for authentication.
 - Service Account — Displays the service account associated with the resource
 - Blue arrow button — Opens the Service Account details page. See the
-  [Service Accounts Page](../../../configuration/page/serviceaccounts.md) topic for additional
+  [Service Accounts Page](/docs/privilegesecure/4.2/privilegesecure/accessmanagement/admin/configuration/page/serviceaccounts.md) topic for additional
   information.
 - Green plus button — Opens the Add New Service Account window. See the
-  [Add New Service Account Window](../../window/resources/addnewserviceaccount.md) topic for
+  [Add New Service Account Window](/docs/privilegesecure/4.2/privilegesecure/accessmanagement/admin/policy/window/resources/addnewserviceaccount.md) topic for
   additional information.
 
 If any of these settings are modified, Save and Cancel buttons are displayed. Click **Save** to
@@ -32,8 +32,8 @@ commit the modifications. Click **Cancel** to discard the modifications.
 
 The details page has the following tabs:
 
-- [URLs Tab for Website](../../tab/resources/urlswebsite.md)
-- [Users Tab for Website](../../tab/resources/userswebsite.md)
-- [Sessions Tab for Website](../../tab/resources/sessionswebsite.md)
-- [Access Policies Tab for Website](../../tab/resources/accesspolicieswebsite.md)
-- [History Tab for Website](../../tab/resources/historywebsite.md)
+- [URLs Tab for Website](/docs/privilegesecure/4.2/privilegesecure/accessmanagement/admin/policy/tab/resources/urlswebsite.md)
+- [Users Tab for Website](/docs/privilegesecure/4.2/privilegesecure/accessmanagement/admin/policy/tab/resources/userswebsite.md)
+- [Sessions Tab for Website](/docs/privilegesecure/4.2/privilegesecure/accessmanagement/admin/policy/tab/resources/sessionswebsite.md)
+- [Access Policies Tab for Website](/docs/privilegesecure/4.2/privilegesecure/accessmanagement/admin/policy/tab/resources/accesspolicieswebsite.md)
+- [History Tab for Website](/docs/privilegesecure/4.2/privilegesecure/accessmanagement/admin/policy/tab/resources/historywebsite.md)

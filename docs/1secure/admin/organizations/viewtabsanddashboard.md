@@ -16,19 +16,19 @@ organizations** page.
 
 The Managed organizations page has the following tabs:
 
-![tabsview](../../../../static/img/product_docs/1secure/admin/organizations/tabsview.webp)
+![tabsview](/img/product_docs/1secure/admin/organizations/tabsview.webp)
 
 - Sources – Add, edit, or delete sources for your organization, review its statuses, and so on. See
-  the [Sources and Connectors](sourcesandconnectors/index.md) topic for additional information.
+  the [Sources and Connectors](/docs/1secure/admin/organizations/sourcesandconnectors/index.md) topic for additional information.
 - Sites – View the sites and status of your Netwrix Cloud Agent. See the
-  [Add Sites to an Organization](addsites.md) and
-  [Update Netwrix Cloud Agent](../../index.md#updating-netwrix-cloud-agent) topic for additional information.
+  [Add Sites to an Organization](/docs/1secure/admin/organizations/addsites.md) and
+  [Update Netwrix Cloud Agent](/docs/1secure/index.md#updating-netwrix-cloud-agent) topic for additional information.
 - Credentials – Review and edit the credentials of your organization. See
-  the[ Manage Credentials ](managingcredentials.md)topic for additional information.
+  the[ Manage Credentials ](/docs/1secure/admin/organizations/managingcredentials.md)topic for additional information.
 - Users – Review or add Business Viewers or Co-managing Administrators to the audited organization.
-  See the [Add Users](addingusers.md) topic for additional information.
+  See the [Add Users](/docs/1secure/admin/organizations/addingusers.md) topic for additional information.
 - Subscriptions– Review or edit the subscriptions of your organization. See the
-  [Subscriptions](../searchandreports/subscriptions.md) topic for additional information.
+  [Subscriptions](/docs/1secure/admin/searchandreports/subscriptions.md) topic for additional information.
 
 In addition to the tabs, the right upper corner of the page has the following options:
 
@@ -41,7 +41,7 @@ Once you select **View dashboard** on your organization's tab, you can view the 
 dashboards with the data applicable to your organization. These includes the following dashboards:
 
 - New investigation – Search incidents, create reports, and browse your data
-- [Risk Assessment Dashboard](../riskprofiles/riskassessmentdashboard.md) – Go to Risk Assessment
+- [Risk Assessment Dashboard](/docs/1secure/admin/riskprofiles/riskassessmentdashboard.md) – Go to Risk Assessment
   Dashboard to review risks of your organization
 - Saved Custom Reports – Look through the list of the created custom reports
 - Alerts Timeline – Review the activity of the alerts on the time schedule

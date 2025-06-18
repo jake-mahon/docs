@@ -2,7 +2,7 @@
 
 The User Roles tab shows whether the current user has been assigned an application role.
 
-![User Roles Tab for Application User](../../../../../../../../../static/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/tab/usersgroups/userroletab.webp)
+![User Roles Tab for Application User](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/tab/usersgroups/userroletab.webp)
 
 The User Roles tab has the following features:
 
@@ -15,7 +15,7 @@ The User Roles tab has the following features:
 The table has the following columns:
 
 - Checkbox — Check to select one or more items
-- Role — List of available roles. See the [Role Management Page](../../page/rolemanagement.md) topic
+- Role — List of available roles. See the [Role Management Page](/docs/privilegesecure/4.2/privilegesecure/accessmanagement/admin/policy/page/rolemanagement.md) topic
   for additional details.
 - Assigned — Indicates whether the role has been assigned
 

@@ -17,7 +17,7 @@ prerequisites: [Linux Registrations Prerequisites](/docs/privilegesecure/4.2/pr
 
 Use Postman to craft the following GET:
 
-[Copy](<javascript:void(0);>)
+[Copy](javascript:void(0);)
 
 ```
 https://<IP_add_of_SecureONE_box>/api/v1/ping

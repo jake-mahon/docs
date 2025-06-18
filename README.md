@@ -90,7 +90,7 @@ docs/
 ├── docs/                     # Documentation content
 │   ├── 1secure/             # 1Secure product docs
 │   ├── usercube/            # UserCube on-premises docs
-│   ├── usercube_saas/       # UserCube SaaS docs
+│   ├── usercube/saas/       # UserCube SaaS docs
 │   ├── strongpoint*/        # StrongPoint product variants
 │   └── [other-products]/    # Other product documentation
 ├── static/                  # Static assets (images, files)

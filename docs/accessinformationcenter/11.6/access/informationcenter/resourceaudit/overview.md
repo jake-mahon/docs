@@ -8,7 +8,7 @@ criteria matches. Most Enterprise Auditor solutions can send data to the Access 
 Additionally, the Access Information Center Flexible Imports feature and Enterprise Auditor's AnyID
 Connectors solution can be used to introduce data from target environments not available with the
 default solutions. See the All Solutions topic of the
-[Netwrix Enterprise Auditor Documentation](https://helpcenter.netwrix.com/category/enterpriseauditor)
+[Netwrix Enterprise Auditor Documentation](https://helpcenter.netwrix.com/category/accessanalyzer)
 for additional information on the data collection options.
 
 The Access Information Center search features, found on the home page, can be used to open the other

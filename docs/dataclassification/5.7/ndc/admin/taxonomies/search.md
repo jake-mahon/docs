@@ -4,14 +4,14 @@ You can search for documents based on the class clues. For that, click on the na
 clue in the clue list in the management console (or even any suggested clue), go to the **Search**
 tab and configure search settings.
 
-![searchtab](../../../../../../static/img/product_docs/dataclassification/ndc/admin/taxonomies/searchtab.webp)
+![searchtab](/img/product_docs/dataclassification/ndc/admin/taxonomies/searchtab.webp)
 
 1. Set up the following properties that will be considered a basis for the search:
 
     - Clue type - select the required value from the **Type** list.
     - Clue itself (clue body) - enter the required keyword or phrase in the **Find** field.
 
-    **NOTE:** [See Classification Rules (Clues) for more information.](clues.md)
+    **NOTE:** [See Classification Rules (Clues) for more information.](/docs/dataclassification/5.7/ndc/admin/taxonomies/clues.md)
 
 2. To restrict the search further, you can either add a **URL** filter, or add a custom filter by
    clicking **Add custom filter** link. This can be helpful when evaluating the usefulness of a clue
@@ -26,8 +26,8 @@ tab and configure search settings.
    document movements. As a result, the “movement” of the document since the last classification
    will be shown. Possible scenarios are:
 
-![movementskey](../../../../../../static/img/product_docs/dataclassification/ndc/admin/taxonomies/movementskey.webp)
+![movementskey](/img/product_docs/dataclassification/ndc/admin/taxonomies/movementskey.webp)
 
 OR
 
-![documentmovements_thumb_0_0](../../../../../../static/img/product_docs/dataclassification/ndc/admin/taxonomies/documentmovements_thumb_0_0.webp)
+![documentmovements_thumb_0_0](/img/product_docs/dataclassification/ndc/admin/taxonomies/documentmovements_thumb_0_0.webp)

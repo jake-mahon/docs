@@ -44,12 +44,12 @@ You will need the following information to deploy agents from the console:
 - Credentials – Account used to deploy must be a member of the BUILTIN\Administrators group on the
   target server
 
-See the [Agents Tab](../admin/agents/overview.md) topic for additional information on how to deploy
+See the [Agents Tab](/docs/activitymonitor/8.0/activitymonitor/admin/agents/overview.md) topic for additional information on how to deploy
 agents using console.
 
 The Activity Monitor Agent may also be deployed manually. Use one of the following to manually
 install an agent:
 
-- [Manually Install the Activity Agent](agent/manual.md)
-- [ Manually Install the Linux Agent](agent/manuallinux.md)
-- [Manually Install the AD Module](agent/manualad.md)
+- [Manually Install the Activity Agent](/docs/activitymonitor/8.0/activitymonitor/install/agent/manual.md)
+- [ Manually Install the Linux Agent](/docs/activitymonitor/8.0/activitymonitor/install/agent/manuallinux.md)
+- [Manually Install the AD Module](/docs/activitymonitor/8.0/activitymonitor/install/agent/manualad.md)

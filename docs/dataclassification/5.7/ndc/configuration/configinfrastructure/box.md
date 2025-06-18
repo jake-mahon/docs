@@ -15,7 +15,7 @@ Box management portal.
    click **Show more features** in the bottom and examine the information on **API calls per month**
    supported by each plan.
 
-![box_lic_plans_thumb_0_0](../../../../../../static/img/product_docs/dataclassification/ndc/configuration/configinfrastructure/box_lic_plans_thumb_0_0.webp)
+![box_lic_plans_thumb_0_0](/img/product_docs/dataclassification/ndc/configuration/configinfrastructure/box_lic_plans_thumb_0_0.webp)
 
 2. Make sure you have configured a valid Google account (with multi-factor authentication supported)
    and registered it as a _Box Developer Account_. This account is needed to create an app that
@@ -38,7 +38,7 @@ There are four key stages in this procedure:
 
 This section describes steps 1 and 2 that are performed on the Box side. Steps 3 and 4 are performed
 on the Netwrix Data Classification side and described in the
-[Box](../../admin/sources/box/addbox.md)section.
+[Box](/docs/dataclassification/5.7/ndc/admin/sources/box/addbox.md)section.
 
 ### Step 1. Create the App
 
@@ -46,7 +46,7 @@ on the Netwrix Data Classification side and described in the
 2. Open the Box developer's console endpoint: `https://app.box.com/developers/console`.
 3. If you have not created an app before, you will see a screen similar to the one below:
 
-    ![box_app](../../../../../../static/img/product_docs/dataclassification/ndc/configuration/configinfrastructure/box_app.webp)
+    ![box_app](/img/product_docs/dataclassification/ndc/configuration/configinfrastructure/box_app.webp)
 
 4. Click **Create New App**.
 5. Select Custom App.
@@ -70,7 +70,7 @@ on the Netwrix Data Classification side and described in the
     verification. When finished, get back to the **Configuration** section, clicking the related
     item in the left pane.
 
-    ![box_keys](../../../../../../static/img/product_docs/dataclassification/ndc/configuration/configinfrastructure/box_keys.webp)
+    ![box_keys](/img/product_docs/dataclassification/ndc/configuration/configinfrastructure/box_keys.webp)
 
 12. You will be notified about downloading a JSON file with all configuration settings of your app.
 

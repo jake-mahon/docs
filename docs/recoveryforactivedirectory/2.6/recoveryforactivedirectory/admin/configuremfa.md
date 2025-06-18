@@ -11,7 +11,7 @@ phone.
 
 Follow the steps to enable the authenticator option for MFA.
 
-![Enable MFA page](../../../../../static/img/product_docs/recoveryforactivedirectory/recoveryforactivedirectory/admin/enablemfa.webp)
+![Enable MFA page](/img/product_docs/recoveryforactivedirectory/recoveryforactivedirectory/admin/enablemfa.webp)
 
 **Step 1 –** In the Recovery Console, click your profile icon in the top right corner of the page
 and select **Manage**. The MFA page opens.
@@ -19,7 +19,7 @@ and select **Manage**. The MFA page opens.
 **Step 2 –** Click the **Add authenticator app** button. The Configure authenticator app page is
 displayed, showing the instructions for setting up the app.
 
-![Configure authenticator app page](../../../../../static/img/product_docs/accessanalyzer/admin/analysis/configure.webp)
+![Configure authenticator app page](/img/product_docs/accessanalyzer/admin/analysis/configure.webp)
 
 **Step 3 –** Open the authenticator app on your phone and scan the QR code with it. A new account is
 created in the app for the Recovery application and a verification code is displayed under the
@@ -35,13 +35,13 @@ seconds.
 
 MFA has been enabled for your account. Now you must authenticate your account using the
 Authenticator app every time you sign into Recovery for Active Directory. See the
-[Sign In](../install/login.md#sign-in) topic for additional information.
+[Sign In](/docs/recoveryforactivedirectory/2.6/recoveryforactivedirectory/install/login.md#sign-in) topic for additional information.
 
 ## Disable Authenticator for MFA
 
 Follow the steps to disable MFA for your Recovery for Active Directory account.
 
-![Disable MFA page](../../../../../static/img/product_docs/recoveryforactivedirectory/recoveryforactivedirectory/admin/disablemfa.webp)
+![Disable MFA page](/img/product_docs/recoveryforactivedirectory/recoveryforactivedirectory/admin/disablemfa.webp)
 
 **Step 1 –** In the Recovery Console, click your profile icon in the top right corner of the page
 and select **Manage**. The MFA page opens.

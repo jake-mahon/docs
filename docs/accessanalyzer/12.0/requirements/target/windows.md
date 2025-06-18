@@ -16,16 +16,16 @@ Data Collectors
 
 This solution employs the following data collector to scan the target environment:
 
-- [GroupPolicy Data Collector](../../admin/datacollector/grouppolicy/overview.md)
-- [PowerShell Data Collector](../../admin/datacollector/powershell/overview.md)
-- [Registry Data Collector](../../admin/datacollector/registry.md)
-- [Script Data Collector](../../admin/datacollector/script/overview.md)
-- [Services Data Collector](../../admin/datacollector/services.md)
-- [SMARTLog Data Collector](../../admin/datacollector/smartlog/overview.md)
-- [SystemInfo Data Collector](../../admin/datacollector/systeminfo/overview.md)
-- [TextSearch Data Collector](../../admin/datacollector/textsearch/overview.md)
-- [UsersGroups Data Collector](../../admin/datacollector/usersgroups/overview.md)
-- [WMICollector Data Collector](../../admin/datacollector/wmicollector/overview.md)
+- [GroupPolicy Data Collector](/docs/accessanalyzer/12.0/admin/datacollector/grouppolicy/overview.md)
+- [PowerShell Data Collector](/docs/accessanalyzer/12.0/admin/datacollector/powershell/overview.md)
+- [Registry Data Collector](/docs/accessanalyzer/12.0/admin/datacollector/registry.md)
+- [Script Data Collector](/docs/accessanalyzer/12.0/admin/datacollector/script/overview.md)
+- [Services Data Collector](/docs/accessanalyzer/12.0/admin/datacollector/services.md)
+- [SMARTLog Data Collector](/docs/accessanalyzer/12.0/admin/datacollector/smartlog/overview.md)
+- [SystemInfo Data Collector](/docs/accessanalyzer/12.0/admin/datacollector/systeminfo/overview.md)
+- [TextSearch Data Collector](/docs/accessanalyzer/12.0/admin/datacollector/textsearch/overview.md)
+- [UsersGroups Data Collector](/docs/accessanalyzer/12.0/admin/datacollector/usersgroups/overview.md)
+- [WMICollector Data Collector](/docs/accessanalyzer/12.0/admin/datacollector/wmicollector/overview.md)
 
 ## Permissions
 

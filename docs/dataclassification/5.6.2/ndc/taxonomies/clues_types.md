@@ -279,7 +279,7 @@ the "Case-Insensitive Regex Processing" mode, this setting can be found in Confi
 
 Definitions of the required syntax for regular expressions can be found in many places, including
 Microsoft:
-[Regular Expression Syntax](<https://docs.microsoft.com/en-us/previous-versions/visualstudio/visual-studio-2010/ae5bf541(v=vs.100)>).
+[Regular Expression Syntax](https://docs.microsoft.com/en-us/previous-versions/visualstudio/visual-studio-2010/ae5bf541(v=vs.100)).
 
 The following example clue matches US Social Security Numbers found anywhere in the document text:
 

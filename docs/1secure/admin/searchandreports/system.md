@@ -18,7 +18,7 @@ Follow the steps to review the Billable Users report.
 
 **Step 1 –** Navigate to the **Reports** > **System** tab.
 
-![system](../../../../static/img/product_docs/1secure/admin/searchandreports/system.webp)
+![system](/img/product_docs/1secure/admin/searchandreports/system.webp)
 
 **Step 2 –** Select the **Billable Users** report in the left pane to view it.
 
@@ -33,7 +33,7 @@ Operator, and Value drop-down menus, then click **Search**.
 You can select more than one filter.
 
 For options displayed in the Operator drop-down menu, see the
-[Filter Operators ](filteroperators.md)topic.
+[Filter Operators ](/docs/1secure/admin/searchandreports/filteroperators.md)topic.
 
 ## Filter Descriptions
 

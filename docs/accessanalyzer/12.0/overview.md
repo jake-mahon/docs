@@ -33,7 +33,7 @@ accessed by other Access Analyzer solutions and the Netwrix Access Information C
 
 This is a core solution available to all Access Analyzer users.
 
-See the [.Active Directory Inventory Solution](solutions/activedirectoryinventory/overview.md) topic
+See the [.Active Directory Inventory Solution](/docs/accessanalyzer/12.0/solutions/activedirectoryinventory/overview.md) topic
 for additional information.
 
 ### .Entra ID Inventory Solution
@@ -52,7 +52,7 @@ effective role permissions.
 
 This is a core solution available to all Access Analyzer users.
 
-See the [.Entra ID Inventory Solution](solutions/entraidinventory/overview.md) topic for additional
+See the [.Entra ID Inventory Solution](/docs/accessanalyzer/12.0/solutions/entraidinventory/overview.md) topic for additional
 information.
 
 ### .NIS Inventory Solution
@@ -63,7 +63,7 @@ information to the File Systems Solution when auditing NFS shares.
 
 This is a core solution available to all Access Analyzer users.
 
-See the [.NIS Inventory Solution](solutions/nisinventory/overview.md) topic for additional
+See the [.NIS Inventory Solution](/docs/accessanalyzer/12.0/solutions/nisinventory/overview.md) topic for additional
 information.
 
 ### Active Directory Solution
@@ -72,7 +72,7 @@ The Active Directory Solution is designed to provide the information every admin
 regarding Active Directory configuration, operational management, troubleshooting, analyzing
 effective permissions, and tracking who is making what changes within your organization.
 
-See the [Active Directory Solution](solutions/activedirectory/overview.md) topic for additional
+See the [Active Directory Solution](/docs/accessanalyzer/12.0/solutions/activedirectory/overview.md) topic for additional
 information.
 
 ### Active Directory Permissions Analyzer Solution
@@ -82,7 +82,7 @@ effective permissions applied to any and all Active Directory objects, at any sc
 the most authoritative view available of who has access to what in Active Directory.
 
 See the
-[Active Directory Permissions Analyzer Solution](solutions/activedirectorypermissionsanalyzer/overview.md)
+[Active Directory Permissions Analyzer Solution](/docs/accessanalyzer/12.0/solutions/activedirectorypermissionsanalyzer/overview.md)
 topic for additional information.
 
 ### Amazon Web Services Solution
@@ -92,7 +92,7 @@ Access Analyzer for AWS allows organizations to secure their data residing in Am
 of S3 permissions, sensitive data, and ultimately a consolidated view of user access rights across
 dozens of structured and unstructured data resources both on-premises and in the cloud.
 
-See the [AWS Solution](solutions/aws/overview.md) topic for additional information.
+See the [AWS Solution](/docs/accessanalyzer/12.0/solutions/aws/overview.md) topic for additional information.
 
 ### Entra ID Solution
 
@@ -101,7 +101,7 @@ regarding Microsoft Entra ID configuration, operational management, and trouble
 within this group help pinpoint potential areas of administrative and security concerns related to
 Microsoft Entra ID users and groups, including syncing with on-premises Active Directory.
 
-See the [Entra ID Solution](solutions/entraid/overview.md) topic for additional information.
+See the [Entra ID Solution](/docs/accessanalyzer/12.0/solutions/entraid/overview.md) topic for additional information.
 
 ### Box Solution
 
@@ -109,7 +109,7 @@ The Box solution set contains jobs to provide visibility into Box access rights,
 configurations, activities, and more, ensuring you never lose sight or control of your critical
 assets residing in Box.
 
-See the [Box Solution](solutions/box/overview.md) topic for additional information.
+See the [Box Solution](/docs/accessanalyzer/12.0/solutions/box/overview.md) topic for additional information.
 
 ### Databases Solutions
 
@@ -152,7 +152,7 @@ reports that provide visibility into various aspects of supported databases.
   SQL Server database. Key capabilities include effective access calculation, sensitive data
   discovery, security configuration assessment, and database activity monitoring.
 
-See the [Databases Solutions](solutions/databases/overview.md) topic for additional information.
+See the [Databases Solutions](/docs/accessanalyzer/12.0/solutions/databases/overview.md) topic for additional information.
 
 ### Dropbox Solution
 
@@ -161,7 +161,7 @@ Key capabilities include effective access calculation, sensitive data discovery,
 inspection, inactive access and stale data identification, and entitlement collection for
 integration with Identity & Access Management (IAM) processes.
 
-See the [Dropbox Solution](solutions/dropbox/overview.md) topic for additional information.
+See the [Dropbox Solution](/docs/accessanalyzer/12.0/solutions/dropbox/overview.md) topic for additional information.
 
 **NOTE:** Sensitive data auditing requires the Sensitive Data Discovery Add-on.
 
@@ -172,7 +172,7 @@ environment to assist with identifying risk, understanding usage, and decreasing
 focus include Audit and Compliance, Maintenance and Cleanup, Metrics and Capacity, Operations and
 Health, Public Folders and Configuration Baseline.
 
-See the [Exchange Solution](solutions/exchange/overview.md) topic for additional information.
+See the [Exchange Solution](/docs/accessanalyzer/12.0/solutions/exchange/overview.md) topic for additional information.
 
 **NOTE:** Sensitive data auditing requires the Sensitive Data Discovery Add-on.
 
@@ -184,7 +184,7 @@ identification, governance workflows including entitlement reviews and self-serv
 sensitive data discovery and classification, open access remediation, least-privilege access
 transformation, and file activity monitoring.
 
-See the [File System Solution](solutions/filesystem/overview.md) topic for additional information.
+See the [File System Solution](/docs/accessanalyzer/12.0/solutions/filesystem/overview.md) topic for additional information.
 
 **NOTE:** Activity auditing requires the Activity Monitor. Sensitive data auditing requires the
 Sensitive Data Discovery Add-on.
@@ -195,7 +195,7 @@ The SharePoint Solution is a comprehensive set of audit jobs and reports which p
 information every administrator needs regarding SharePoint on-premises and SharePoint Online
 infrastructure, configuration, performance, permissions, required ports, and effective rights.
 
-See the [SharePoint Solution](solutions/sharepoint/overview.md) topic for additional information.
+See the [SharePoint Solution](/docs/accessanalyzer/12.0/solutions/sharepoint/overview.md) topic for additional information.
 
 **NOTE:** Sensitive data auditing requires the Sensitive Data Discovery Add-on.
 
@@ -205,7 +205,7 @@ The Unix Solution reports on areas of administrative concern for Unix and Linux 
 is given to users and group details, privileged access rights, and NFS and Samba sharing
 configurations.
 
-See the [Unix Solution](solutions/unix/overview.md) topic for additional information.
+See the [Unix Solution](/docs/accessanalyzer/12.0/solutions/unix/overview.md) topic for additional information.
 
 ### Windows Solution
 
@@ -214,4 +214,4 @@ desktop and server infrastructure from a central location. Key capabilities incl
 account discovery, security configuration and vulnerability assessment, compliance reporting, and
 asset inventory.
 
-See the [Windows Solution](solutions/windows/overview.md) topic for additional information.
+See the [Windows Solution](/docs/accessanalyzer/12.0/solutions/windows/overview.md) topic for additional information.

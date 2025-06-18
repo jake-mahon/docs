@@ -3,11 +3,11 @@
 The ExchangePublicFolder Data Collector audits an Exchange Public Folder, including contents,
 permissions, ownership, and replicas. This is a MAPI-based data collector which requires the
 **Settings > Exchange** node to be enabled and configured. See the
-[Exchange](../../settings/exchange.md) topic for additional information.
+[Exchange](/docs/accessanalyzer/12.0/admin/settings/exchange.md) topic for additional information.
 
 The ExchangePublicFolder Data Collector has been preconfigured within the Exchange Solution. Both
 this data collector and the solution are available with a special Access Analyzer license. See the
-[Exchange Solution](../../../solutions/exchange/overview.md) topic for additional information.
+[Exchange Solution](/docs/accessanalyzer/12.0/solutions/exchange/overview.md) topic for additional information.
 
 Protocols
 
@@ -36,17 +36,17 @@ The ExchangePublicFolder Data Collector is configured through the Exchange Publi
 Collector Wizard, which contains the following wizard pages:
 
 - Welcome
-- [ExchangePublicFolder: Category](category.md)
-- [ExchangePublicFolder: Scope](scope.md)
-- [ExchangePublicFolder: Properties](properties.md)
-- [ExchangePublicFolder: Options](options.md)
-- [ExchangePublicFolder: Probable Owner](probableowner.md)
-- [ExchangePublicFolder: Summary](summary.md)
+- [ExchangePublicFolder: Category](/docs/accessanalyzer/12.0/admin/datacollector/exchangepublicfolder/category.md)
+- [ExchangePublicFolder: Scope](/docs/accessanalyzer/12.0/admin/datacollector/exchangepublicfolder/scope.md)
+- [ExchangePublicFolder: Properties](/docs/accessanalyzer/12.0/admin/datacollector/exchangepublicfolder/properties.md)
+- [ExchangePublicFolder: Options](/docs/accessanalyzer/12.0/admin/datacollector/exchangepublicfolder/options.md)
+- [ExchangePublicFolder: Probable Owner](/docs/accessanalyzer/12.0/admin/datacollector/exchangepublicfolder/probableowner.md)
+- [ExchangePublicFolder: Summary](/docs/accessanalyzer/12.0/admin/datacollector/exchangepublicfolder/summary.md)
 
 The query requires special permissions to connect to target Exchange servers. Configure these
 permissions on the Welcome page.
 
-![Exchange Public Folder Data Collector Wizard Welcome page](../../../../../../static/img/product_docs/activitymonitor/activitymonitor/install/welcome.webp)
+![Exchange Public Folder Data Collector Wizard Welcome page](/img/product_docs/activitymonitor/activitymonitor/install/welcome.webp)
 
 In the Connection Setting section, choose to either maintain the global inheritance, or configure
 query specific settings.
@@ -59,7 +59,7 @@ break inheritance, and then select one of the following options:
 - Exchange Mailbox (2010 and newer) – Enter the Exchange mailbox
 - Client Access Server – Enter the CAS
 
-See the [Exchange](../../settings/exchange.md) topic for additional information.
+See the [Exchange](/docs/accessanalyzer/12.0/admin/settings/exchange.md) topic for additional information.
 
 In the Sampling server section, enter the Exchange server in the textbox to be used to test the
 connection settings. Click **Test sampling server** to ensure there is access to the server. The box

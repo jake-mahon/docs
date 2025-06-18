@@ -12,7 +12,7 @@ Navigate to **Box** > **2.Content** > **Box_FileMetrics** > **Configure** node a
 
 **CAUTION:** Most of these analysis tasks should never be modified and never be deselected.
 
-![Analysis Tasks for the Box_FileMetrics Job](../../../../../../static/img/product_docs/accessanalyzer/solutions/box/content/filemetricsanalysis.webp)
+![Analysis Tasks for the Box_FileMetrics Job](/img/product_docs/accessanalyzer/solutions/box/content/filemetricsanalysis.webp)
 
 The following analysis tasks are selected by default:
 
@@ -48,5 +48,5 @@ The default values for parameters that can be customized are:
 | File Metrics Details | @STALE_THRESHOLD            | 30            | Consider content stale after 30 days |
 
 See the
-[Configure the Customizable Parameters in an Analysis Task](../../../admin/jobs/job/configure/analysiscustomizableparameters.md)
+[Configure the Customizable Parameters in an Analysis Task](/docs/accessanalyzer/12.0/admin/jobs/job/configure/analysiscustomizableparameters.md)
 topic for instructions on how to modify parameters.

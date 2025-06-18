@@ -9,7 +9,7 @@ Information Center Manage Owners page. See the Resource Owners topics in the
 [Netwrix Access Information Center Documentation](https://helpcenter.netwrix.com/category/accessinformationcenter)
 for additional information.
 
-![1. Cleanup Assessment > FS_CleanupAssessment Job in the Jobs Tree](../../../../../../static/img/product_docs/accessanalyzer/admin/hostmanagement/jobstree.webp)
+![1. Cleanup Assessment > FS_CleanupAssessment Job in the Jobs Tree](/img/product_docs/accessanalyzer/admin/hostmanagement/jobstree.webp)
 
 The FS_CleanupAssessment job is located in the 1. Cleanup Assessment job group.
 
@@ -31,7 +31,7 @@ have completed.
 
 The Configuration section on a Job's overview page allows you to easily modify any customizable
 parameters used by analysis tasks in the job. See the
-[Parameter Configuration](../../../admin/jobs/job/overview.md#parameter-configuration) topic for
+[Parameter Configuration](/docs/accessanalyzer/12.0/admin/jobs/job/overview.md#parameter-configuration) topic for
 instructions on how to edit parameters on a job overview page.
 
 The FS_CleanupAssessment job has the following configurable parameters:
@@ -54,7 +54,7 @@ Navigate to the **FileSystem** > **Cleanup** > **1. Cleanup Assessment** >
 **CAUTION:** Do not modify or deselect the selected analysis tasks. The analysis tasks are
 preconfigured for this job.
 
-![Analysis Tasks for the FS_CleanupAssessment Job](../../../../../../static/img/product_docs/accessanalyzer/solutions/filesystem/cleanup/cleanupassessmentanalysis.webp)
+![Analysis Tasks for the FS_CleanupAssessment Job](/img/product_docs/accessanalyzer/solutions/filesystem/cleanup/cleanupassessmentanalysis.webp)
 
 The following analysis tasks are selected by default:
 
@@ -101,7 +101,7 @@ The default values for parameters that can be customized are:
 | @MAX_STALE_THRESHOLD            | 365                         | Set the upper bound of the files to be included in the FileDetails table (by Last Modfied, in days)    |                                                                                                     |
 
 See the
-[Configure the Customizable Parameters in an Analysis Task](../../../admin/jobs/job/configure/analysiscustomizableparameters.md)
+[Configure the Customizable Parameters in an Analysis Task](/docs/accessanalyzer/12.0/admin/jobs/job/configure/analysiscustomizableparameters.md)
 topic for instructions to modify parameters.
 
 ### Include Metadata Tag Information
@@ -119,11 +119,11 @@ Properties**. The Query Properties window opens.
 **Step 3 –** Select the **Data Source** tab, and click **Configure**. The File System Access Auditor
 Data Collector Wizard opens.
 
-![File Details tab of the FSAA Data Collector Wizard Default Scoping Options page](../../../../../../static/img/product_docs/accessanalyzer/admin/datacollector/fsaa/defaultscopingoptions/filedetails.webp)
+![File Details tab of the FSAA Data Collector Wizard Default Scoping Options page](/img/product_docs/accessanalyzer/admin/datacollector/fsaa/defaultscopingoptions/filedetails.webp)
 
 **Step 4 –** Navigate to the **Default Scoping Options** page and click the **File Details** tab.
 
-![Options to select on File Details tab](../../../../../../static/img/product_docs/accessanalyzer/solutions/filesystem/cleanup/includemetadatatagoptions.webp)
+![Options to select on File Details tab](/img/product_docs/accessanalyzer/solutions/filesystem/cleanup/includemetadatatagoptions.webp)
 
 **Step 5 –** On the File Details tab, select the **Scan file-level details** option, and then select
 the **Collect tags/keywords from file metadata properties** option.

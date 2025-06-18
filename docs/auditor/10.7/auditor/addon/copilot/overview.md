@@ -11,8 +11,8 @@ related to Copilot activity.
 The Netwrix Auditor Add-On for Microsoft Copilot works in collaboration with Netwrix Auditor. To get
 the add-on up and running, refer the following topics:
 
-- [Deployment Procedure](deployment.md)
-- [Work with Collected Data](collecteddata.md)
+- [Deployment Procedure](/docs/auditor/10.7/auditor/addon/copilot/deployment.md)
+- [Work with Collected Data](/docs/auditor/10.7/auditor/addon/copilot/collecteddata.md)
 
 ## Prerequisites
 
@@ -20,17 +20,17 @@ Before running the add-on, ensure that all the necessary components and policies
 follows:
 
 - The Audit Database settings are configured in Auditor Server. See the
-  [Prerequisites](../../api/prerequisites.md) and
-  [Audit Database](../../admin/settings/auditdatabase.md) topics for additional information.
+  [Prerequisites](/docs/auditor/10.7/auditor/api/prerequisites.md) and
+  [Audit Database](/docs/auditor/10.7/auditor/admin/settings/auditdatabase.md) topics for additional information.
 - The TCP 9699 port (default Integration API port) is open for inbound connections.
 - The user writing data to the Audit Database is granted the Contributor role in Auditor. See the
-  [Role-Based Access and Delegation](../../admin/monitoringplans/delegation.md) topic for additional
+  [Role-Based Access and Delegation](/docs/auditor/10.7/auditor/admin/monitoringplans/delegation.md) topic for additional
   information.
 - Alternatively, you can grant the Global administrator role or add the user to the Netwrix Auditor
   Administrators group. In this case, this user will have the most extended permissions in the
   product.
 - Active Directory Domain Services or Microsoft Entra Kerberos is used as an Identity source. See
-  the [Deployment Procedure](../azurefiles/deployment.md) topic for additional information.
+  the [Deployment Procedure](/docs/auditor/10.7/auditor/addon/azurefiles/deployment.md) topic for additional information.
 
 ## How the Copilot Add-on Works
 

@@ -23,16 +23,16 @@ that lists the managed organizations defined in 1Secure.
 **Step 2 –** In the left pane, click **Risk profiles**.The Risk profiles page is displayed.
 
 **Step 3 –** Click a risk profile. The risk metrics for the profile are displayed in a list. See the
-[Risk Metrics List](metrics_list.md) topic for a description of each risk metric.
+[Risk Metrics List](/docs/1secure/admin/riskprofiles/metrics_list.md) topic for a description of each risk metric.
 
-![Risks Metrics list](../../../../static/img/product_docs/1secure/admin/riskprofiles/riskslist.webp)
+![Risks Metrics list](/img/product_docs/1secure/admin/riskprofiles/riskslist.webp)
 
 You can view the following for each risk metric:
 
 - Category – The name of the preconfigured category a risk metric belongs to, which can be Data,
   Identity, or Infrastructure. The State In Time Risk report generated for this metric can be found
   under this particular category on the Risk reports page, See the
-  [State In Time Risks Reports](../searchandreports/stateintime.md) topic for additional
+  [State In Time Risks Reports](/docs/1secure/admin/searchandreports/stateintime.md) topic for additional
   information.
 - Metric – The name of the risk metric. A risk metric is a measurable security parameter that helps
   analyze potential vulnerabilities in an environment, such as disabled computer accounts, stale
@@ -64,7 +64,7 @@ that lists the managed organizations defined in 1Secure.
 
 **Step 4 –** Click the **Edit** icon for a risk metric. The `<Risk metric name>` pane is displayed.
 
-![Modify risk threshold pane](../../../../static/img/product_docs/1secure/admin/riskprofiles/modifyriskthreshold.webp)
+![Modify risk threshold pane](/img/product_docs/1secure/admin/riskprofiles/modifyriskthreshold.webp)
 
 **Step 5 –** Select a measurement type to calculate risk thresholds for the metric. Options are:
 
@@ -126,7 +126,7 @@ that lists the managed organizations defined in 1Secure.
 **Step 4 –** Click the Edit icon for a Boolean risk metric. The `<Risk metric name>` pane is
 displayed.
 
-![Modify Boolean metric pane](../../../../static/img/product_docs/1secure/admin/riskprofiles/modifyriskseverity.webp)
+![Modify Boolean metric pane](/img/product_docs/1secure/admin/riskprofiles/modifyriskseverity.webp)
 
 **Step 5 –** Select a severity level to apply when the risk is detected.
 
@@ -181,7 +181,7 @@ that lists the managed organizations defined in 1Secure.
 
 **Step 4 –** Click **Add**. The Add new risk threshold pane is displayed.
 
-![Add new risk threshold pane](../../../../static/img/product_docs/1secure/admin/riskprofiles/addnumberthreshold.webp)
+![Add new risk threshold pane](/img/product_docs/1secure/admin/riskprofiles/addnumberthreshold.webp)
 
 **Step 5 –** In the Risk Metric drop-down menu, select a number or percentage risk metric you want
 to add.
@@ -213,7 +213,7 @@ that lists the managed organizations defined in 1Secure.
 
 **Step 4 –** Click **Add**. The Add new risk threshold pane is displayed.
 
-![Add new risk threshold pane](../../../../static/img/product_docs/1secure/admin/riskprofiles/addbooleanriskmetric.webp)
+![Add new risk threshold pane](/img/product_docs/1secure/admin/riskprofiles/addbooleanriskmetric.webp)
 
 **Step 5 –** In the Risk Metric drop-down menu, select a Boolean risk metric you want to add.
 

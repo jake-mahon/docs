@@ -20,13 +20,13 @@ for more information on users' permissions.
 
 ## Core Taxonomies
 
-[<!-- Image removed: transparent.gif not found -->Financial Records](<javascript:void(0)>)
+[<!-- Image removed: transparent.gif not found -->Financial Records](javascript:void(0))
 
 - ABA routing numbers
 - IBAN/SWIFT codes
 - Bank account numbers
 
-[<!-- Image removed: transparent.gif not found -->Personally Identifiable Information (PII)](<javascript:void(0)>)
+[<!-- Image removed: transparent.gif not found -->Personally Identifiable Information (PII)](javascript:void(0))
 
 - Personal information (full name, home address, date of birth) in the following languages:
     - Danish
@@ -81,7 +81,7 @@ for more information on users' permissions.
     - United Kingdom
     - USA
 
-[<!-- Image removed: transparent.gif not found -->Payment Card Industry Data Security Standard (PCI DSS)](<javascript:void(0)>)
+[<!-- Image removed: transparent.gif not found -->Payment Card Industry Data Security Standard (PCI DSS)](javascript:void(0))
 
 Cardholder data (holder name, card number, expiration and security code) for the major payment
 systems:
@@ -94,14 +94,14 @@ systems:
 - UnionPay
 - Visa
 
-[<!-- Image removed: transparent.gif not found -->Patient Health Information (PHI)](<javascript:void(0)>)
+[<!-- Image removed: transparent.gif not found -->Patient Health Information (PHI)](javascript:void(0))
 
 Medical forms, treatment records, prescription drugs, decease names/codes, allergies, social and
 insurance numbers.
 
 ## Derived Taxonomies
 
-[<!-- Image removed: transparent.gif not found -->General Data Protection Regulation (GDPR)](<javascript:void(0)>)
+[<!-- Image removed: transparent.gif not found -->General Data Protection Regulation (GDPR)](javascript:void(0))
 
 A subset of the PII taxonomy relating to the personal information of EU residents:
 
@@ -163,7 +163,7 @@ A subset of the PII taxonomy relating to the personal information of EU resident
 - Sweden
 - United Kingdom
 
-[<!-- Image removed: transparent.gif not found -->GDPR Restricted](<javascript:void(0)>)
+[<!-- Image removed: transparent.gif not found -->GDPR Restricted](javascript:void(0))
 
 Personal data (same as in PII) accompanied by the following special categories of personal
 information (GDPR Article 9):
@@ -172,11 +172,11 @@ information (GDPR Article 9):
 - Political views
 - Religious beliefs
 
-[<!-- Image removed: transparent.gif not found -->Gramm-Leach-Bliley Act (GLBA)](<javascript:void(0)>)
+[<!-- Image removed: transparent.gif not found -->Gramm-Leach-Bliley Act (GLBA)](javascript:void(0))
 
 Combines the Financial Records, PCI DSS and PII (US social security numbers) taxonomies.
 
-[<!-- Image removed: transparent.gif not found -->Health Insurance Portability and Accountability Act (HIPAA)](<javascript:void(0)>)
+[<!-- Image removed: transparent.gif not found -->Health Insurance Portability and Accountability Act (HIPAA)](javascript:void(0))
 
 Combines the PHI and PII (US social security numbers) taxonomies.
 

@@ -11,7 +11,7 @@ Therefore, standard MSI command-line options can be used with the
 “threatprevention-agent-7.4.0.xxx.exe” install.
 
 Available command-line options can be found in the
-[Microsoft Standard Installer Command-Line Options](<https://msdn.microsoft.com/en-us/library/windows/desktop/aa372024(v=vs.85).aspx>)
+[Microsoft Standard Installer Command-Line Options](https://msdn.microsoft.com/en-us/library/windows/desktop/aa372024(v=vs.85).aspx)
 article.
 
 Two of the more useful options are:

@@ -6,7 +6,7 @@ The EX_ASPolicies Job provides insight into what policies are enabled for which 
 
 The EX_ASPolicies Job uses the ExchangePS Data Collector.
 
-![Queries for the EX_ASPolicies Job](../../../../../../static/img/product_docs/accessanalyzer/solutions/exchange/casmetrics/aspoliciesquery.webp)
+![Queries for the EX_ASPolicies Job](/img/product_docs/accessanalyzer/solutions/exchange/casmetrics/aspoliciesquery.webp)
 
 The following query is included in the EX_ASPolicies Job.
 
@@ -32,25 +32,25 @@ Wizard opens.
 
 **CAUTION:** Do not modify other wizard pages. The wizard pages are pre-configured for this job.
 
-![ExchangePS Data Collector Wizard Scope page](../../../../../../static/img/product_docs/activitymonitor/config/activedirectory/scope.webp)
+![ExchangePS Data Collector Wizard Scope page](/img/product_docs/activitymonitor/config/activedirectory/scope.webp)
 
 **Step 4 –** Navigate to the Scope page, and select the desired scoping method from those available.
-See the [ExchangePS: Scope](../../../admin/datacollector/exchangeps/scope.md) topic for additional
+See the [ExchangePS: Scope](/docs/accessanalyzer/12.0/admin/datacollector/exchangeps/scope.md) topic for additional
 information.
 
 - Scope by Database – Select the **Scope by Database Target Host: Local Host** option. Then, click
   **Next** and identify the desired databases on the Scope by Databases page. See the
-  [ExchangePS: Scope by DB](../../../admin/datacollector/exchangeps/scopedatabases.md) topic for
+  [ExchangePS: Scope by DB](/docs/accessanalyzer/12.0/admin/datacollector/exchangeps/scopedatabases.md) topic for
   additional information.
 - Scope by Mailbox – Select the **Scope by Mailbox Target Host: Local Host** option. Then, click
   **Next** and identify the desired mailboxes on the Scope by Mailboxes page. See the
-  [ExchangePS: Scope by Mailboxes](../../../admin/datacollector/exchangeps/scopemailboxes.md) topic
+  [ExchangePS: Scope by Mailboxes](/docs/accessanalyzer/12.0/admin/datacollector/exchangeps/scopemailboxes.md) topic
   for additional information.
 - Scope by Server – Select the **Scope by Server Target Host: Exchange MB Server** option. The job
   returns results for specific servers selected in job’s **Configure** > **Hosts** node.
 - Scope by Public Folder – Select the **Scope by Public Folder** option. Then, click **Next** and
   identify the desired mailboxes on the Scope by Public Folders page. See the
-  [ExchangePS: Scope by Public Folders](../../../admin/datacollector/exchangeps/scopepublicfolders.md) topic
+  [ExchangePS: Scope by Public Folders](/docs/accessanalyzer/12.0/admin/datacollector/exchangeps/scopepublicfolders.md) topic
   for additional information.
 - _Remember,_ the scoping options available vary based on the pre-defined query configurations.
 
@@ -66,7 +66,7 @@ View the analysis tasks by navigating to the **Exchange** > **2. CAS Metrics** >
 **CAUTION:** Do not modify or deselect the selected analysis task. The analysis task is
 preconfigured for this job.
 
-![Analysis Tasks for the EX_ASPolicies Job](../../../../../../static/img/product_docs/accessanalyzer/solutions/exchange/casmetrics/aspoliciesanalysis.webp)
+![Analysis Tasks for the EX_ASPolicies Job](/img/product_docs/accessanalyzer/solutions/exchange/casmetrics/aspoliciesanalysis.webp)
 
 The following analysis task is selected by default:
 

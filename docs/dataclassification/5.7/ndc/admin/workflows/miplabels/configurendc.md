@@ -12,7 +12,7 @@ the following steps to enable MIP labels:
     | Client ID                   | Application (client) ID                                                                                                         |
     | Application Name            | Display name                                                                                                                    |
     | Tenant                      | Directory (tenant) ID                                                                                                           |
-    | Certificate Thumbprint      | Provide certificate thumbprint you copied and stored on this step: [Upload the .CER file to Azure](configureinfrastructure.md). |
+    | Certificate Thumbprint      | Provide certificate thumbprint you copied and stored on this step: [Upload the .CER file to Azure](/docs/dataclassification/5.7/ndc/admin/workflows/miplabels/configureinfrastructure.md). |
 
 **NOTE:** Any labels and policies in API should be migrated / synced with O365 Security &
 Compliance. Review the following Microsoft article for more information:

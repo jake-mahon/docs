@@ -2,7 +2,7 @@
 
 Use the category page to identify which Active Directory task to perform.
 
-![Active Directory Inventory DC Wizard Category page](../../../../../../static/img/product_docs/accessanalyzer/admin/datacollector/adinventory/category.webp)
+![Active Directory Inventory DC Wizard Category page](/img/product_docs/accessanalyzer/admin/datacollector/adinventory/category.webp)
 
 The categories include the following tasks:
 
@@ -13,7 +13,7 @@ The categories include the following tasks:
   When this option is selected, the next wizard page is the Results page.
 - Remove Tables – Removes all tables and views from SQL Server database. This option is designed for
   troubleshooting. When this option is selected, the next wizard page is the Summary page. See the
-  [Clear ADInventory Tables](cleartables.md) topic for more information.
+  [Clear ADInventory Tables](/docs/accessanalyzer/12.0/admin/datacollector/adinventory/cleartables.md) topic for more information.
 - Drop Domain – Remove host domain related data from SQL server
 
 **NOTE:** The Scan Active Directory category is the pre-configured setting for the .Active Directory

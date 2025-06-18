@@ -5,7 +5,7 @@ users and groups who are effectively granted or denied access to the SharePoint 
 application through a particular web application policy with the rights being either granted or
 denied.
 
-![Effective Policy report at the web application and web application URL levels](../../../../../../../../static/img/product_docs/accessinformationcenter/access/informationcenter/resourceaudit/sharepoint/webapplication/webappeffectivepolicy.webp)
+![Effective Policy report at the web application and web application URL levels](/img/product_docs/accessinformationcenter/access/informationcenter/resourceaudit/sharepoint/webapplication/webappeffectivepolicy.webp)
 
 This report is comprised of the following columns:
 
@@ -37,6 +37,6 @@ If the selected trustee in the top section of the report is a group, the Group M
 displays the group membership, including nested groups.
 
 To view the granular rights granted through SharePoint permission levels (SharePoint Roles), see the
-**Roles** column in the [Permissions Report](../sitecollections/permissions.md). For additional
+**Roles** column in the [Permissions Report](/docs/accessinformationcenter/12.0/access/informationcenter/resourceaudit/sharepoint/sitecollections/permissions.md). For additional
 detail on what permissions each SharePoint Role grants, see the **Permission Mask** column in the
-[Site Collection Roles Report](../sitecollections/sitecollectionroles.md).
+[Site Collection Roles Report](/docs/accessinformationcenter/12.0/access/informationcenter/resourceaudit/sharepoint/sitecollections/sitecollectionroles.md).

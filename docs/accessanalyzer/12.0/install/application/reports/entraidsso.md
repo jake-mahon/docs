@@ -60,7 +60,7 @@ table, and then click **Save**.
 
 Once configured they should show under Additional claims as below:
 
-![Claims configured](../../../../../../static/img/product_docs/accessanalyzer/install/application/reports/entraidssoclaims.webp)
+![Claims configured](/img/product_docs/accessanalyzer/install/application/reports/entraidssoclaims.webp)
 
 **Step 7 –** In the **Manage** > **Users and groups** section for your application, add any required
 users or groups to give permission to access the application.
@@ -74,12 +74,12 @@ To enable Microsoft Entra ID SSO for the Web Console, the web server config fi
 with values from Microsoft Entra ID. Follow the steps to enable the SSO.
 
 _Remember,_ Enabling Entra ID SSO requires SSL to already have been enabled for the web server. See
-the [Securing the Web Console](secure.md) topic for additional information.
+the [Securing the Web Console](/docs/accessanalyzer/12.0/install/application/reports/secure.md) topic for additional information.
 
 **Step 1 –** Open the **WebServer.exe.config** file with a text editor, for example Notepad. It is
 located within the Web folder of the Access Analyzer installation directory.
 
-![Parameters in the web server config file](../../../../../../static/img/product_docs/accessanalyzer/install/application/reports/webserverexeconfigfileentrasso.webp)
+![Parameters in the web server config file](/img/product_docs/accessanalyzer/install/application/reports/webserverexeconfigfileentrasso.webp)
 
 **Step 2 –** Locate the **WsFederationMetaData**, **WsFederationRealm**, and **WsFederationReply**
 Parameters in the config file, and add the required values from your Microsoft Entra ID application:

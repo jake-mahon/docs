@@ -9,7 +9,7 @@ The event filters for the GPO Setting Changes event type are:
 - AD Perpetrator
 - Advanced Filter
 
-![Policy window - GPO Setting Changes Event Type](../../../../../../../static/img/product_docs/threatprevention/threatprevention/admin/policies/eventtype/gposettingchanges.webp)
+![Policy window - GPO Setting Changes Event Type](/img/product_docs/threatprevention/threatprevention/admin/policies/eventtype/gposettingchanges.webp)
 
 Each filter tab acts like an "AND" statement for the filter. Any filter tab left blank is treated
 like an "ALL" for that filter set.
@@ -19,7 +19,7 @@ like an "ALL" for that filter set.
 Use the AD Group Policy Object Changes filter to set the scope of the policy to monitor specific
 GPOs.
 
-![Policy window - AD Group Policy Object Changes filter](../../../../../../../static/img/product_docs/threatprevention/threatprevention/admin/policies/eventtype/adgrouppolicyobjectchanges.webp)
+![Policy window - AD Group Policy Object Changes filter](/img/product_docs/threatprevention/threatprevention/admin/policies/eventtype/adgrouppolicyobjectchanges.webp)
 
 In the Operations section, select the **All** checkbox to include all operations or select specific
 operations:
@@ -34,7 +34,7 @@ In the Group Policy Objects section, scope to specific GPOs:
 - List – Scopes to the specified GPOs
 
     - The **Add** (+) button opens the
-      [Select Active Directory Group Policy Objects Window](window/selectactivedirectory/grouppolicyobjects.md).
+      [Select Active Directory Group Policy Objects Window](/docs/threatprevention/7.5/threatprevention/admin/policies/eventtype/window/selectactivedirectory/grouppolicyobjects.md).
     - The Remove (x) button deletes the selected item(s) from that box.
 
 ## AD Perpetrator Filter
@@ -43,25 +43,25 @@ Use the AD Perpetrator filter for monitoring to set the scope of the policy to o
 security principals committing changes or to exclude specific security principals committing changes
 from being monitored.
 
-![Event Type - AD Perpetrator Monitoring filter](../../../../../../../static/img/product_docs/threatprevention/threatprevention/admin/policies/eventtype/adperpetratormonitoring.webp)
+![Event Type - AD Perpetrator Monitoring filter](/img/product_docs/threatprevention/threatprevention/admin/policies/eventtype/adperpetratormonitoring.webp)
 
 Use the buttons in the Include Perpetrators, Include Collections, Exclude Perpetrators, and Exclude
 Collections areas to edit the lists.
 
 - The Perpetrators Add (+) button opens the
-  [Select Active Directory Perpetrators Window](window/selectactivedirectory/perpetrators.md).
+  [Select Active Directory Perpetrators Window](/docs/threatprevention/7.5/threatprevention/admin/policies/eventtype/window/selectactivedirectory/perpetrators.md).
 - The Collection button opens the
-  [List of Collections Window](../../configuration/collectionmanager/listcollections.md) to the
+  [List of Collections Window](/docs/threatprevention/7.5/threatprevention/admin/configuration/collectionmanager/listcollections.md) to the
   appropriate Collection category.
 - The Remove (x) button deletes the selected item(s) from that box.
 
 **NOTE:** To enable a Dynamic Policy, use the Collection button to select the desired Dynamic
-Collection. See the [Dynamic Collections](../../configuration/collectionmanager/dynamic.md) topic
+Collection. See the [Dynamic Collections](/docs/threatprevention/7.5/threatprevention/admin/configuration/collectionmanager/dynamic.md) topic
 for additional information.
 
 Sub Tree
 
-![Sub-Tree option in event type filters](../../../../../../../static/img/product_docs/threatprevention/threatprevention/admin/policies/eventtype/subtree.webp)
+![Sub-Tree option in event type filters](/img/product_docs/threatprevention/threatprevention/admin/policies/eventtype/subtree.webp)
 
 When contexts are added, a Sub-Tree checkbox displays. Check it to apply the filter to the parent
 and all child contexts. Uncheck it to apply the filter to the listed context only.
@@ -70,7 +70,7 @@ and all child contexts. Uncheck it to apply the filter to the listed context onl
 
 Use the Advanced Filter to include or exclude attribute conditions for GPO setting changes.
 
-![Policy window - Advanced Filter](../../../../../../../static/img/product_docs/threatprevention/threatprevention/admin/policies/eventtype/advancedgpo.webp)
+![Policy window - Advanced Filter](/img/product_docs/threatprevention/threatprevention/admin/policies/eventtype/advancedgpo.webp)
 
 Filter statements can be added to the Include condition and Exclude condition boxes. The filter uses
 pre-defined logical and comparison operators to create filter criteria for the scan. You can add

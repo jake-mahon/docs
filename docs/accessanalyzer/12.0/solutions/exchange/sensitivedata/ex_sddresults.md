@@ -11,7 +11,7 @@ View the analysis tasks by navigating to the **Exchange** > **7. Sensitive Data*
 **CAUTION:** Do not modify or deselect the selected analysis tasks. The analysis tasks are
 preconfigured for this job.
 
-![Analysis Tasks for the EX_SDDResults Job](../../../../../../static/img/product_docs/accessanalyzer/solutions/exchange/sensitivedata/sddresultsanalysis.webp)
+![Analysis Tasks for the EX_SDDResults Job](/img/product_docs/accessanalyzer/solutions/exchange/sensitivedata/sddresultsanalysis.webp)
 
 The following analysis tasks are selected by default:
 
@@ -37,7 +37,7 @@ troubleshooting and cleanup only. Data will be deleted from the database.
 - Deletes all Stored Data - LEAVE UNCHECKED – Clears all historical SDD data
 
     - See the
-      [Troubleshooting Data Collection](../hubmetrics/collection/ex_metricscollection.md#troubleshooting-data-collection)
+      [Troubleshooting Data Collection](/docs/accessanalyzer/12.0/solutions/exchange/hubmetrics/collection/ex_metricscollection.md#troubleshooting-data-collection)
       topic for additional information
 
 In addition to the tables and views created by the analysis tasks, the EX_SDDResults Job produces

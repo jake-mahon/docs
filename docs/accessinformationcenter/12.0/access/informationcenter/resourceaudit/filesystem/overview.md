@@ -39,7 +39,7 @@ File System reports fall into the following categories:
     - Display information for a selected date range with local time stamps
     - Some of the reports also include trend graphs. Trend graphs provide a visual representation of
       the activity that occurred over the selected date range. See the
-      [Activity Report Results Pane Features](../navigate/overview.md#activity-report-results-pane-features)
+      [Activity Report Results Pane Features](/docs/accessinformationcenter/12.0/access/informationcenter/resourceaudit/navigate/overview.md#activity-report-results-pane-features)
       topic for instructions on selecting a date range and filtering the trend graphs.
     - Activity information is represented in two ways:
 
@@ -65,7 +65,7 @@ File System reports fall into the following categories:
 
 The following reports are available at the **File System** node:
 
-- [Activity Summary Report](activitysummary.md)
-- [Exceptions Report](exceptions.md)
-- [Sensitive Content Summary Report](sensitivecontentsummary.md)
-- [Server Summary Report](serversummary.md)
+- [Activity Summary Report](/docs/accessinformationcenter/12.0/access/informationcenter/resourceaudit/filesystem/activitysummary.md)
+- [Exceptions Report](/docs/accessinformationcenter/12.0/access/informationcenter/resourceaudit/filesystem/exceptions.md)
+- [Sensitive Content Summary Report](/docs/accessinformationcenter/12.0/access/informationcenter/resourceaudit/filesystem/sensitivecontentsummary.md)
+- [Server Summary Report](/docs/accessinformationcenter/12.0/access/informationcenter/resourceaudit/filesystem/serversummary.md)

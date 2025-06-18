@@ -1,9 +1,9 @@
 # Add Administrators Window
 
 The Add Administrators window provides a list of users that have been onboarded. Users are onboarded
-in the [Users & Groups Page](../../page/usersgroups.md).
+in the [Users & Groups Page](/docs/privilegesecure/4.2/privilegesecure/accessmanagement/admin/policy/page/usersgroups.md).
 
-![Add Administrators Window](../../../../../../../../../static/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/window/usersgroups/addadministrators.webp)
+![Add Administrators Window](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/window/usersgroups/addadministrators.webp)
 
 The window has the following features:
 
@@ -29,7 +29,7 @@ The tables in both sections have the following columns:
 ## Select Users
 
 Follow the steps to grant users the Administrator role. See the
-[Role Management Page](../../page/rolemanagement.md) section for a list of roles and their
+[Role Management Page](/docs/privilegesecure/4.2/privilegesecure/accessmanagement/admin/policy/page/rolemanagement.md) section for a list of roles and their
 functions.
 
 **Step 1 –** Navigate to the **Users & Groups** > Role Management page.

@@ -3,10 +3,10 @@
 The Activity Details report at the share and subfolder levels provides details on every operations
 logged during the selected date range. This report includes a Permission Changes table. The
 **Include subfolders** option is active by default until removed. See the
-[Results Pane](../../navigate/overview.md#results-pane) topic for information on changing this
+[Results Pane](/docs/accessinformationcenter/12.0/access/informationcenter/resourceaudit/navigate/overview.md#results-pane) topic for information on changing this
 option.
 
-![Activity Details report at the share and subfolder levels](../../../../../../../../static/img/product_docs/accessinformationcenter/access/informationcenter/resourceaudit/filesystem/sharesubfolder/shareactivitydetails.webp)
+![Activity Details report at the share and subfolder levels](/img/product_docs/accessinformationcenter/access/informationcenter/resourceaudit/filesystem/sharesubfolder/shareactivitydetails.webp)
 
 This report is comprised of the following columns:
 
@@ -50,4 +50,4 @@ the following columns:
 - Access Rights – Type of right assigned
 
 The table data grid functions the same way as other table grids. See the
-[Data Grid Features](../../../../general/datagrid.md) topic for additional information.
+[Data Grid Features](/docs/accessinformationcenter/12.0/access/general/datagrid.md) topic for additional information.

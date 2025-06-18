@@ -5,12 +5,12 @@ Follow the steps to create a Host Discovery query using the Query an Active Dire
 all computer objects. The query can be scoped to only return computer objects in specified
 containers or individual computer objects. See Step 3 for additional information.
 
-![Host Discovery Wizard Source page for AD General](../../../../../../static/img/product_docs/accessanalyzer/admin/hostdiscovery/wizard/source.webp)
+![Host Discovery Wizard Source page for AD General](/img/product_docs/accessanalyzer/admin/hostdiscovery/wizard/source.webp)
 
 **Step 1 –** Open the Host Discovery Wizard. On the Source page, select the **Query an Active
 Directory server (General)** option. Click **Next**.
 
-![Host Discovery Wizard Query page for AD General](../../../../../../static/img/product_docs/accessanalyzer/admin/datacollector/nis/query.webp)
+![Host Discovery Wizard Query page for AD General](/img/product_docs/accessanalyzer/admin/datacollector/nis/query.webp)
 
 **Step 2 –** On the Query page, name the query and select the credentials used to access the source.
 
@@ -27,12 +27,12 @@ Directory server (General)** option. Click **Next**.
     - Credentials in this connection profile – Use the dropdown list to select a Connection Profile
       from those preconfigured at the global level (**Settings** > **Connection**)
 
-    See the [Connection](../../settings/connection/overview.md) topic for additional information on
+    See the [Connection](/docs/accessanalyzer/12.0/admin/settings/connection/overview.md) topic for additional information on
     Connection Profiles.
 
 Click **Next** to continue.
 
-![Host Discovery Wizard Active Directory page](../../../../../../static/img/product_docs/accessanalyzer/admin/hostdiscovery/wizard/activedirectory.webp)
+![Host Discovery Wizard Active Directory page](/img/product_docs/accessanalyzer/admin/hostdiscovery/wizard/activedirectory.webp)
 
 **Step 3 –** On the Active Directory page, identify the organizational units (OUs) to scan.
 
@@ -62,7 +62,7 @@ Click **Next** to continue.
 
 Click **Next** to continue.
 
-![Host Discovery Wizard Options page for AD General](../../../../../../static/img/product_docs/accessanalyzer/install/application/options.webp)
+![Host Discovery Wizard Options page for AD General](/img/product_docs/accessanalyzer/install/application/options.webp)
 
 **Step 4 –** On the Options page, configure the query options as required.
 
@@ -83,7 +83,7 @@ Click **Next** to continue.
 
 Click **Next** to continue.
 
-![Host Discovery Wizard Inventory page for AD General](../../../../../../static/img/product_docs/accessanalyzer/admin/hostdiscovery/wizard/inventory.webp)
+![Host Discovery Wizard Inventory page for AD General](/img/product_docs/accessanalyzer/admin/hostdiscovery/wizard/inventory.webp)
 
 **Step 5 –** On the Inventory page, the host inventory process can be automatically included with
 the discovery query.
@@ -102,18 +102,18 @@ the discovery query.
     - Credentials in this connection profile – Use the dropdown list to select a Connection Profile
       from those preconfigured at the global level (**Settings** > **Connection**)
 
-    See the [Connection](../../settings/connection/overview.md) topic for additional information on
+    See the [Connection](/docs/accessanalyzer/12.0/admin/settings/connection/overview.md) topic for additional information on
     Connection Profiles.
 
 Click **Next** to continue.
 
-![Host Discovery Wizard Summary page for AD General](../../../../../../static/img/product_docs/accessanalyzer/admin/datacollector/adinventory/summary.webp)
+![Host Discovery Wizard Summary page for AD General](/img/product_docs/accessanalyzer/admin/datacollector/adinventory/summary.webp)
 
 **Step 6 –** The Summary page displays all the selected query configuration settings. To make
 changes, click **Back** to navigate to the relevant wizard page. Click Finish to complete the
 configuration process.
 
-![Confirm dialog box](../../../../../../static/img/product_docs/accessanalyzer/admin/hostdiscovery/wizard/wizardconfirmdialog.webp)
+![Confirm dialog box](/img/product_docs/accessanalyzer/admin/hostdiscovery/wizard/wizardconfirmdialog.webp)
 
 **Step 7 –** A Confirm dialog box opens. Click **Yes** to run the query now or **No** to run the
 query at another time.

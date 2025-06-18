@@ -2,17 +2,17 @@
 
 The data grid provides all host inventory information collected on the hosts. View this information
 at the **Host Management** node (the Host Master Table) or at individual host list nodes. See the
-[Hosts Lists](lists.md) topic for information on host lists.
+[Hosts Lists](/docs/accessanalyzer/12.0/admin/hostmanagement/lists.md) topic for information on host lists.
 
-![Host Inventory Data Grid](../../../../../static/img/product_docs/threatprevention/threatprevention/admin/investigate/datagrid.webp)
+![Host Inventory Data Grid](/img/product_docs/threatprevention/threatprevention/admin/investigate/datagrid.webp)
 
 The icon for each host entry is an indicator of its inventory state:
 
 | Icon                                                                                                                                                       | Inventory State |
 | ---------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------- |
-| ![Idle inventory state icon](../../../../../static/img/product_docs/accessanalyzer/admin/hostmanagement/inventoryidle.webp)              | Idle            |
-| ![In Queue inventory state icon](../../../../../static/img/product_docs/accessanalyzer/admin/hostmanagement/inventoryinqueue.webp)       | In Queue        |
-| ![In Progress inventory state icon](../../../../../static/img/product_docs/accessanalyzer/admin/hostmanagement/inventoryinprogress.webp) | In Progress     |
+| ![Idle inventory state icon](/img/product_docs/accessanalyzer/admin/hostmanagement/inventoryidle.webp)              | Idle            |
+| ![In Queue inventory state icon](/img/product_docs/accessanalyzer/admin/hostmanagement/inventoryinqueue.webp)       | In Queue        |
+| ![In Progress inventory state icon](/img/product_docs/accessanalyzer/admin/hostmanagement/inventoryinprogress.webp) | In Progress     |
 
 The **Name**, **HostStatus**, and **InventoryState** grid columns are fixed by default. If desired,
 you can move these columns to the scrollable section of the table.
@@ -59,11 +59,11 @@ Use the horizontal scrollbar at the bottom to view the host inventory data, whic
 - ServerRole – Indicates what role is served by the server (only applicable to Exchange servers)
 - isIIS – True or False if IIS is present on the server
 - Location – Distinct physical location, entered manually through the
-  [Import Location](actions/importlocation.md) activity
+  [Import Location](/docs/accessanalyzer/12.0/admin/hostmanagement/actions/importlocation.md) activity
 - ExchLocation – Distinct physical location of Exchange server, entered manually through the
-  [Import Location](actions/importlocation.md) activity
+  [Import Location](/docs/accessanalyzer/12.0/admin/hostmanagement/actions/importlocation.md) activity
 - AltLocation – Alternate physical location, entered manually through the
-  [Import Location](actions/importlocation.md) activity
+  [Import Location](/docs/accessanalyzer/12.0/admin/hostmanagement/actions/importlocation.md) activity
 - WinCluster – Name of the Windows cluster in which the host is a part, if applicable
 - ExchCluster – Name of the Exchange cluster in which the host is a part, if applicable
 - ExchangeServerRole – Name of the Exchange server roles served by the host
@@ -71,21 +71,21 @@ Use the horizontal scrollbar at the bottom to view the host inventory data, whic
 - IsSQLServer – True or False if host serves the role of SQL Server
 - hostID – Unique identifier of the host within the Access Analyzer inventory tables
 
-See the [Data Grid Functionality](../navigate/datagrid.md) topic for information on how to sort,
+See the [Data Grid Functionality](/docs/accessanalyzer/12.0/admin/navigate/datagrid.md) topic for information on how to sort,
 filter, and search within the data grid.
 
 The Activities pane provides several options for managing hosts within the Host Management node. See
-the [Host Management Activities](actions/overview.md) topic for information on these options.
+the [Host Management Activities](/docs/accessanalyzer/12.0/admin/hostmanagement/actions/overview.md) topic for information on these options.
 
 ## Host List Data Grid Right-Click Menus
 
 The right-click menu available in the Host Management data grid varies according to the selection in
 the Navigation pane.
 
-| ![Host Management node right-click menu](../../../../../static/img/product_docs/accessanalyzer/admin/hostmanagement/rightclickquerycreated.webp) |
+| ![Host Management node right-click menu](/img/product_docs/accessanalyzer/admin/hostmanagement/rightclickquerycreated.webp) |
 | -------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Host Management Node                                                                                                                                                 | Individual Host List                                                                                                                                                 | Query-Created Host List                                                                                                                                               |
 
 These right-click menu options contain the Host Management Activities available for the selection.
-See the [Host Management Activities](actions/overview.md) topic for additional information on these
+See the [Host Management Activities](/docs/accessanalyzer/12.0/admin/hostmanagement/actions/overview.md) topic for additional information on these
 options.

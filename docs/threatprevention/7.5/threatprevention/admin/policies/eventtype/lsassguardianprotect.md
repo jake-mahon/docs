@@ -12,7 +12,7 @@ The event filters for the LSASS Guardian – Protect event type are:
 - Processes
 - Open Process Flags
 
-![Policy window - LSASS Guardian – Protect Event Type](../../../../../../../static/img/product_docs/threatprevention/threatprevention/admin/policies/eventtype/lsassprotect.webp)
+![Policy window - LSASS Guardian – Protect Event Type](/img/product_docs/threatprevention/threatprevention/admin/policies/eventtype/lsassprotect.webp)
 
 Each filter tab acts like an "AND" statement for the filter. Any filter tab left blank is treated
 like an "ALL" for that filter set.
@@ -29,25 +29,25 @@ Use the AD Perpetrator filter for lockdown to set the scope of the policy to loc
 security principals committing changes or to exclude specific security principals committing changes
 from being locked down.
 
-![AD Perpetrator Protect filter](../../../../../../../static/img/product_docs/threatprevention/threatprevention/admin/policies/eventtype/adperpetratorprotect.webp)
+![AD Perpetrator Protect filter](/img/product_docs/threatprevention/threatprevention/admin/policies/eventtype/adperpetratorprotect.webp)
 
 Select the **Block** or **Allow** option button and then edit the list.
 
-**NOTE:** For the [Password Enforcement Event Type](passwordenforcement.md), selecting **Allow**
+**NOTE:** For the [Password Enforcement Event Type](/docs/threatprevention/7.5/threatprevention/admin/policies/eventtype/passwordenforcement.md), selecting **Allow**
 means that this policy will not validate the new passwords for the accounts listed here. Selecting
 **Block** means that this policy will validate the new passwords for the accounts listed here.
 
 Use the buttons in the Perpetrators and Collections of Perpetrators areas to edit the lists.
 
 - Perpetrators area – The Add (+) button opens the
-  [Select Active Directory Perpetrators Window](window/selectactivedirectory/perpetrators.md).
+  [Select Active Directory Perpetrators Window](/docs/threatprevention/7.5/threatprevention/admin/policies/eventtype/window/selectactivedirectory/perpetrators.md).
 - Collections of Perpetrators area - The Collection button opens the
-  [List of Collections Window](../../configuration/collectionmanager/listcollections.md) to the
+  [List of Collections Window](/docs/threatprevention/7.5/threatprevention/admin/configuration/collectionmanager/listcollections.md) to the
   appropriate Collection category.
 - The Remove (x) button deletes the selected item(s) from that box.
 
 **NOTE:** To enable a Dynamic Policy, use the Collection button to select the desired Dynamic
-Collection. See the [Dynamic Collections](../../configuration/collectionmanager/dynamic.md) topic
+Collection. See the [Dynamic Collections](/docs/threatprevention/7.5/threatprevention/admin/configuration/collectionmanager/dynamic.md) topic
 for additional information.
 
 ## Domains/Servers Filter
@@ -55,18 +55,18 @@ for additional information.
 Use the Domains/Servers filter to set the scope of the policy to specific domains and/or servers or
 to exclude specific domains and/or servers.
 
-![Event Type - Domains/Servers Monitoring filter](../../../../../../../static/img/product_docs/threatprevention/threatprevention/admin/policies/eventtype/domainsserversmonitoring.webp)
+![Event Type - Domains/Servers Monitoring filter](/img/product_docs/threatprevention/threatprevention/admin/policies/eventtype/domainsserversmonitoring.webp)
 
 Use the buttons in the Include and Exclude areas to edit the lists.
 
-- The Add (+) buttons open the [Select Domains and Servers Window](window/selectdomainsservers.md).
+- The Add (+) buttons open the [Select Domains and Servers Window](/docs/threatprevention/7.5/threatprevention/admin/policies/eventtype/window/selectdomainsservers.md).
 - The Collection button opens the
-  [List of Collections Window](../../configuration/collectionmanager/listcollections.md) to the
+  [List of Collections Window](/docs/threatprevention/7.5/threatprevention/admin/configuration/collectionmanager/listcollections.md) to the
   appropriate Collection category.
 - The Remove (x) button deletes the selected item(s) from that box.
 
 **NOTE:** To enable a Dynamic Policy, use the Collection button to select the desired Dynamic
-Collection. See the [Dynamic Collections](../../configuration/collectionmanager/dynamic.md) topic
+Collection. See the [Dynamic Collections](/docs/threatprevention/7.5/threatprevention/admin/configuration/collectionmanager/dynamic.md) topic
 for additional information.
 
 ## Processes Filter
@@ -77,7 +77,7 @@ exclude specific processes from being locked down.
 **_RECOMMENDED:_** Add undesired processes that make changes to LSASS, e.g. third-party malware
 applications, to the Allow list.
 
-![Policy window - Processes filter](../../../../../../../static/img/product_docs/threatprevention/threatprevention/admin/policies/eventtype/processesprotect.webp)
+![Policy window - Processes filter](/img/product_docs/threatprevention/threatprevention/admin/policies/eventtype/processesprotect.webp)
 
 Select the **Block** or **Allow** option button and then edit the list.
 
@@ -100,7 +100,7 @@ Type the process in the textbox. Use the buttons above the box to edit the list.
 Use the Open Process Flags filter to set the scope of the policy for requested handles that would
 maliciously impact LSASS.
 
-![openprocessflagsmonitoring](../../../../../../../static/img/product_docs/threatprevention/threatprevention/admin/policies/eventtype/openprocessflagsmonitoring.webp)
+![openprocessflagsmonitoring](/img/product_docs/threatprevention/threatprevention/admin/policies/eventtype/openprocessflagsmonitoring.webp)
 
 Check the box to select the process flag(s) to be removed from the LSASS handle that is returned to
 the requesting process.

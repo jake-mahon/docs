@@ -7,7 +7,7 @@ are expiring soon.
 
 The Configuration section on a Job's overview page allows you to easily modify any customizable
 parameters used by analysis tasks in the job. See the
-[Parameter Configuration](../../../admin/jobs/job/overview.md#parameter-configuration) topic for
+[Parameter Configuration](/docs/accessanalyzer/12.0/admin/jobs/job/overview.md#parameter-configuration) topic for
 instructions on how to edit parameters on a job overview page.
 
 The AD_CertificateRequests job has the following configurable parameter:
@@ -26,7 +26,7 @@ Navigate to the **Active Directory** > **7.Certificate Authority** > **AD_Certif
 **CAUTION:** Do not modify or deselect the selected analysis tasks. The analysis tasks are
 preconfigured for this job.
 
-![Analysis Tasks for the AD_CertificateRequests Job](../../../../../../static/img/product_docs/accessanalyzer/solutions/activedirectory/certificateauthority/certificaterequestsanalysis.webp)
+![Analysis Tasks for the AD_CertificateRequests Job](/img/product_docs/accessanalyzer/solutions/activedirectory/certificateauthority/certificaterequestsanalysis.webp)
 
 The default analysis tasks are:
 

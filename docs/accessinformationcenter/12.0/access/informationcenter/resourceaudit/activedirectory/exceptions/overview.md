@@ -2,7 +2,7 @@
 
 The following report is available at the **Exceptions** node:
 
-- [Exceptions Report](exceptions.md)
+- [Exceptions Report](/docs/accessinformationcenter/12.0/access/informationcenter/resourceaudit/activedirectory/exceptions/exceptions.md)
 
 The Exceptions node displays when exceptions have been identified on the selected domain. When it is
 present, it can be expanded to view the exception type level reports. The following nodes may show
@@ -18,4 +18,4 @@ under the Exceptions node for a domain when that exception type has been identif
 - Stale Users – Users who have not logged onto the domain for an extended period of time
 
 The Exceptions report for each exception type level displays filtered exception information. See the
-[Exceptions by Type Report](exceptionsbytype.md) topic for additional information.
+[Exceptions by Type Report](/docs/accessinformationcenter/12.0/access/informationcenter/resourceaudit/activedirectory/exceptions/exceptionsbytype.md) topic for additional information.

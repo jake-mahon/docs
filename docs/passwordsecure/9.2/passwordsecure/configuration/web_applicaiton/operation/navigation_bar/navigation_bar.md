@@ -2,7 +2,7 @@
 
 The navigation bar provides the following functions.
 
-![navigation bar](../../../../../../../../static/img/product_docs/passwordsecure/passwordsecure/configuration/web_applicaiton/operation/navigation_bar/installation_with_parameters_172-en_643x142.webp)
+![navigation bar](/img/product_docs/passwordsecure/passwordsecure/configuration/web_applicaiton/operation/navigation_bar/installation_with_parameters_172-en_643x142.webp)
 
 1. Filter
 
@@ -16,4 +16,4 @@ will do a new tab will be opend.
 
 Example
 
-![tab system](../../../../../../../../static/img/product_docs/passwordsecure/passwordsecure/configuration/web_applicaiton/operation/navigation_bar/installation_with_parameters_173-en.webp)
+![tab system](/img/product_docs/passwordsecure/passwordsecure/configuration/web_applicaiton/operation/navigation_bar/installation_with_parameters_173-en.webp)

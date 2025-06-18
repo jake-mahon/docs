@@ -34,4 +34,4 @@ The following event types are available for File System:
 
 - [File System Changes Event Type](/docs/threatprevention/7.4/threatprevention/admin/policies/eventtype/filesystemchanges.md)
 - [File System Lockdown Event Type](/docs/threatprevention/7.4/threatprevention/admin/policies/eventtype/filesystemlockdown.md)
-- [File System Enterprise Auditor Event Type](/docs/threatprevention/7.4/threatprevention/admin/policies/eventtype/filesystementerpriseauditor.md)
+- [File System Enterprise Auditor Event Type](/docs/threatprevention/7.4/threatprevention/admin/policies/eventtype/filesystemaccessanalyzer.md)

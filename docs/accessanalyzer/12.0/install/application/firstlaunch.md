@@ -3,26 +3,26 @@
 Once the Access Analyzer installation process is complete, and before performing actions within
 Access Analyzer, the initial settings for the Access Analyzer Console must be configured.
 
-![Newrix Access Governance shortcut](../../../../../static/img/product_docs/accessanalyzer/install/application/shortcut.webp)
+![Newrix Access Governance shortcut](/img/product_docs/accessanalyzer/install/application/shortcut.webp)
 
 **Step 1 –** Launch the Access Analyzer application. The installation wizard places the Access
 Analyzer icon on the desktop.
 
-![Configuration Wizard Welcome page](../../../../../static/img/product_docs/activitymonitor/activitymonitor/install/welcome.webp)
+![Configuration Wizard Welcome page](/img/product_docs/activitymonitor/activitymonitor/install/welcome.webp)
 
 **Step 2 –** On the Welcome page of the Access Analyzer Configuration Wizard, click **Next** to
 continue.
 
-![Configuration Wizard Version Selection page](../../../../../static/img/product_docs/accessanalyzer/install/application/versionselection.webp)
+![Configuration Wizard Version Selection page](/img/product_docs/accessanalyzer/install/application/versionselection.webp)
 
 **Step 3 –** On the Version Selection page, select the **I have no previous versions to migrate data
 from** and click **Next** to continue.
 
 **NOTE:** If you are upgrading from a previous version of Access Analyzer, select **Choose a
 StealthAUDIT root folder path to copy from**. See the
-[Access Analyzer Console Upgrade](upgrade/overview.md) topic for additional information.
+[Access Analyzer Console Upgrade](/docs/accessanalyzer/12.0/install/application/upgrade/overview.md) topic for additional information.
 
-![SQL Server Settings page](../../../../../static/img/product_docs/accessanalyzer/install/application/sqlserver.webp)
+![SQL Server Settings page](/img/product_docs/accessanalyzer/install/application/sqlserver.webp)
 
 **Step 4 –** Configure the options on the SQL Server Settings page.
 
@@ -63,7 +63,7 @@ topic for additional information on creating a SQL Server database for Access An
 - If Windows Server authentication is used, the **Schedule Account** page is enabled for
   configuration. Continue to Step 6.
 
-![Schedule Account Configuration page](../../../../../static/img/product_docs/accessanalyzer/install/application/scheduleaccount.webp)
+![Schedule Account Configuration page](/img/product_docs/accessanalyzer/install/application/scheduleaccount.webp)
 
 **Step 6 –** (Windows Authentication Only) Configure the schedule service account on the Scheduling
 page. The account configured here must be an Active Directory account and must have rights to the
@@ -82,7 +82,7 @@ There are two options that can be selected:
     - Password – The password for the service account
     - Confirm – Re-enter the password for the service account
 
-![Configuration wizard Options page](../../../../../static/img/product_docs/accessanalyzer/install/application/options.webp)
+![Configuration wizard Options page](/img/product_docs/accessanalyzer/install/application/options.webp)
 
 **Step 7 –** On the Options page, select whether to send usage statistics to Netwrix to help us
 improve our product. After the Usage Statistics option is set as desired, click **Next** to
@@ -101,7 +101,7 @@ continue.
 
 - If cleared, no usage statistics are collected or sent to Netwrix
 
-![Progress page when upgrade process has completed](../../../../../static/img/product_docs/threatprevention/threatprevention/install/reportingmodule/completed.webp)
+![Progress page when upgrade process has completed](/img/product_docs/threatprevention/threatprevention/install/reportingmodule/completed.webp)
 
 **Step 8 –** After the Access Analyzer Configuration Wizard finishes configuring your installation,
 click **Finish** to open the Access Analyzer Console.
@@ -109,11 +109,11 @@ click **Finish** to open the Access Analyzer Console.
 **NOTE:** To view the log for the setup process, click **View Log** to open it. If you need to view
 the log after exiting the wizard, it is located in the installation directory at
 `..\STEALTHbits\StealthAUDIT\SADatabase\Logs`. See the
-[Troubleshooting](../../admin/maintenance/troubleshooting.md) topic for more information about logs.
+[Troubleshooting](/docs/accessanalyzer/12.0/admin/maintenance/troubleshooting.md) topic for more information about logs.
 
-![Netwrix Acces Governance Settings Node](../../../../../static/img/product_docs/accessanalyzer/install/application/settingsnode.webp)
+![Netwrix Acces Governance Settings Node](/img/product_docs/accessanalyzer/install/application/settingsnode.webp)
 
 The Access Analyzer Console is now ready for custom configuration and use. There are a few
 additional steps to complete in order to begin collecting data, such as configuring a Connection
 Profile and a Schedule Service account as well as discovering hosts and setting up host lists. See
-the [Getting Started](../../gettingstarted.md) topic for additional information.
+the [Getting Started](/docs/accessanalyzer/12.0/gettingstarted.md) topic for additional information.

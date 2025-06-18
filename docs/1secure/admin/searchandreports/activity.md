@@ -152,10 +152,10 @@ Operator, and Value drop-down menus, then click **Search**.
 You can select more than one filter.
 
 For options displayed in the Operator drop-down menu, see the
-[Filter Operators ](filteroperators.md)topic.
+[Filter Operators ](/docs/1secure/admin/searchandreports/filteroperators.md)topic.
 
 Subscribe to Activity Reports
 
 You can subscribe to Activity reports to receive them automatically via email, or have them uploaded
-to a specified folder in SharePoint Online. See the [Subscriptions](subscriptions.md) topic for
+to a specified folder in SharePoint Online. See the [Subscriptions](/docs/1secure/admin/searchandreports/subscriptions.md) topic for
 additional information.

@@ -6,7 +6,7 @@ such as how to secure the Access Analyzer Database, and configuring the Web Cons
 reports outside of the Access Analyzer Console.
 
 Prior to installing Access Analyzer, please ensure that all of the prerequisites have been met. See
-the [Requirements](../../requirements/overview.md) topic for more information.
+the [Requirements](/docs/accessanalyzer/12.0/requirements/overview.md) topic for more information.
 
 ## Binaries
 
@@ -26,7 +26,7 @@ Your Netwrix Representative will provide the appropriate binaries.
 
     - If your license includes Sensitive Data Discovery (SDD), the necessary SDD components are
       installed
-    - See the [File System Proxy Service Installation](../filesystemproxy/wizard.md) topic for
+    - See the [File System Proxy Service Installation](/docs/accessanalyzer/12.0/install/filesystemproxy/wizard.md) topic for
       additional information.
 
 - Activity Monitor binary – Installation package for monitoring Windows and NAS device file system
@@ -41,14 +41,14 @@ Your Netwrix Representative will provide the appropriate binaries.
 
     - If your license includes Sensitive Data Discovery (SDD), the necessary SDD components are
       installed
-    - See the [SharePoint Agent Installation](../sharepointagent/overview.md) topic for additional
+    - See the [SharePoint Agent Installation](/docs/accessanalyzer/12.0/install/sharepointagent/overview.md) topic for additional
       information.
 
 - Access Analyzer MAPI CDO binary – One of two installation package needed to enable the Exchange
   Solution
 
     - See the
-      [StealthAUDIT MAPI CDO Installation](../../stealthaudit/install_guides/mapi_cdo_install/stealthaudit_mapi_cdo_installation.md)
+      [StealthAUDIT MAPI CDO Installation](/docs/accessanalyzer/12.0/stealthaudit/install_guides/mapi_cdo_install/stealthaudit_mapi_cdo_installation.md)
       topic for additional information.
 
 - Access Analyzer Reporting Services binary – Installation package for Survey Action Module
@@ -74,9 +74,9 @@ Your Netwrix Representative will provide the appropriate binaries.
 
 Your Netwrix Representative will provide the necessary license key. The Access Analyzer license key
 (`StealthAUDIT.lic`) is needed for the Access Analyzer Core Installation. See the
-[Access Analyzer Core Installation](wizard.md) topic for additional information.
+[Access Analyzer Core Installation](/docs/accessanalyzer/12.0/install/application/wizard.md) topic for additional information.
 
 To grant access to additional Solution sets or enable Sensitive Data Discovery in an existing Access
 Analyzer installation, a new license key is required. To update the Access Analyzer license key
 without installing a new version of the Access Analyzer Console, see the
-[Update License Key](updatelicense.md) topic for instructions.
+[Update License Key](/docs/accessanalyzer/12.0/install/application/updatelicense.md) topic for instructions.

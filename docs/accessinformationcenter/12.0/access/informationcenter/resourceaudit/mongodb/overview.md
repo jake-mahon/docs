@@ -15,4 +15,4 @@ own node in the Access Information Center. MongoDB reports fall into the followi
 
 The following report is available at the **MongoDB** node:
 
-- [Sensitive Content Summary Report](sensitivecontentsummary.md)
+- [Sensitive Content Summary Report](/docs/accessinformationcenter/12.0/access/informationcenter/resourceaudit/mongodb/sensitivecontentsummary.md)

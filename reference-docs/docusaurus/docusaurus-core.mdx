@@ -271,9 +271,9 @@ export default function VisitMyWebsiteMessage() {
 
 ### `<Translate/>` {#translate}
 
-When [localizing your site](./i18n/i18n-introduction.mdx), the `<Translate/>` component will allow providing **translation support to React components**, such as your homepage. The `<Translate>` component supports [interpolation](#interpolate).
+When [localizing your site](/reference-docs/docusaurus/i18n/i18n-introduction.mdx), the `<Translate/>` component will allow providing **translation support to React components**, such as your homepage. The `<Translate>` component supports [interpolation](#interpolate).
 
-The translation strings will statically extracted from your code with the [`docusaurus write-translations`](./cli.mdx#docusaurus-write-translations-sitedir) CLI and a `code.json` translation file will be created in `website/i18n/[locale]`.
+The translation strings will statically extracted from your code with the [`docusaurus write-translations`](./cli.mdx#docusaurus-write-translations-sitedir))) CLI and a `code.json` translation file will be created in `website/i18n/[locale]`.
 
 :::note
 
@@ -342,7 +342,7 @@ The `<Translate>` component supports interpolation. You can also implement [stri
 
 ### `useDocusaurusContext` {#useDocusaurusContext}
 
-React hook to access Docusaurus Context. The context contains the `siteConfig` object from [docusaurus.config.js](api/docusaurus.config.js.mdx) and some additional site metadata.
+React hook to access Docusaurus Context. The context contains the `siteConfig` object from [docusaurus.config.js](/reference-docs/docusaurus/api/docusaurus.config.js.mdx) and some additional site metadata.
 
 ```ts
 type PluginVersionInformation =
@@ -473,10 +473,10 @@ const SomeImage = () => {
 
 In most cases, you don't need `useBaseUrl`.
 
-Prefer a `require()` call for [assets](./guides/markdown-features/markdown-features-assets.mdx):
+Prefer a `require()` call for [assets](/reference-docs/docusaurus/guides/markdown-features/markdown-features-assets.mdx):
 
 ```jsx
-<img src={require('@site/static/img/myImage.png').default} />
+<img src={require('@site/img/myImage.png').default} />
 ```
 
 :::
@@ -643,10 +643,10 @@ The imperative counterpart of the [`<Interpolate>`](#interpolate) component.
 
 ```ts
 // Simple string interpolation
-function interpolate(text: string, values: Record<string, string>): string;
+function interpolate(text: string, values: Record<string, string): string;
 
 // JSX interpolation
-function interpolate(text: string, values: Record<string, ReactNode>): ReactNode;
+function interpolate(text: string, values: Record<string, ReactNode): ReactNode;
 ```
 
 #### Example {#example-1}

@@ -11,7 +11,7 @@ The event filters for the LSASS Guardian – Monitor event type are:
 - Processes
 - Open Process Flags
 
-![Policy window - LSASS Guardian – Monitor Event Type](../../../../../../../static/img/product_docs/threatprevention/threatprevention/admin/policies/eventtype/lsassmonitor.webp)
+![Policy window - LSASS Guardian – Monitor Event Type](/img/product_docs/threatprevention/threatprevention/admin/policies/eventtype/lsassmonitor.webp)
 
 Each filter tab acts like an "AND" statement for the filter. Any filter tab left blank is treated
 like an "ALL" for that filter set.
@@ -25,25 +25,25 @@ Use the AD Perpetrator filter for monitoring to set the scope of the policy to o
 security principals committing changes or to exclude specific security principals committing changes
 from being monitored.
 
-![Event Type - AD Perpetrator Monitoring filter](../../../../../../../static/img/product_docs/threatprevention/threatprevention/admin/policies/eventtype/adperpetratormonitoring.webp)
+![Event Type - AD Perpetrator Monitoring filter](/img/product_docs/threatprevention/threatprevention/admin/policies/eventtype/adperpetratormonitoring.webp)
 
 Use the buttons in the Include Perpetrators, Include Collections, Exclude Perpetrators, and Exclude
 Collections areas to edit the lists.
 
 - The Perpetrators Add (+) button opens the
-  [Select Active Directory Perpetrators Window](window/selectactivedirectory/perpetrators.md).
+  [Select Active Directory Perpetrators Window](/docs/threatprevention/7.5/threatprevention/admin/policies/eventtype/window/selectactivedirectory/perpetrators.md).
 - The Collection button opens the
-  [List of Collections Window](../../configuration/collectionmanager/listcollections.md) to the
+  [List of Collections Window](/docs/threatprevention/7.5/threatprevention/admin/configuration/collectionmanager/listcollections.md) to the
   appropriate Collection category.
 - The Remove (x) button deletes the selected item(s) from that box.
 
 **NOTE:** To enable a Dynamic Policy, use the Collection button to select the desired Dynamic
-Collection. See the [Dynamic Collections](../../configuration/collectionmanager/dynamic.md) topic
+Collection. See the [Dynamic Collections](/docs/threatprevention/7.5/threatprevention/admin/configuration/collectionmanager/dynamic.md) topic
 for additional information.
 
 Sub Tree
 
-![Sub-Tree option in event type filters](../../../../../../../static/img/product_docs/threatprevention/threatprevention/admin/policies/eventtype/subtree.webp)
+![Sub-Tree option in event type filters](/img/product_docs/threatprevention/threatprevention/admin/policies/eventtype/subtree.webp)
 
 When contexts are added, a Sub-Tree checkbox displays. Check it to apply the filter to the parent
 and all child contexts. Uncheck it to apply the filter to the listed context only.
@@ -53,18 +53,18 @@ and all child contexts. Uncheck it to apply the filter to the listed context onl
 Use the Domains/Servers filter to set the scope of the policy to specific domains and/or servers or
 to exclude specific domains and/or servers.
 
-![Event Type - Domains/Servers Monitoring filter](../../../../../../../static/img/product_docs/threatprevention/threatprevention/admin/policies/eventtype/domainsserversmonitoring.webp)
+![Event Type - Domains/Servers Monitoring filter](/img/product_docs/threatprevention/threatprevention/admin/policies/eventtype/domainsserversmonitoring.webp)
 
 Use the buttons in the Include and Exclude areas to edit the lists.
 
-- The Add (+) buttons open the [Select Domains and Servers Window](window/selectdomainsservers.md).
+- The Add (+) buttons open the [Select Domains and Servers Window](/docs/threatprevention/7.5/threatprevention/admin/policies/eventtype/window/selectdomainsservers.md).
 - The Collection button opens the
-  [List of Collections Window](../../configuration/collectionmanager/listcollections.md) to the
+  [List of Collections Window](/docs/threatprevention/7.5/threatprevention/admin/configuration/collectionmanager/listcollections.md) to the
   appropriate Collection category.
 - The Remove (x) button deletes the selected item(s) from that box.
 
 **NOTE:** To enable a Dynamic Policy, use the Collection button to select the desired Dynamic
-Collection. See the [Dynamic Collections](../../configuration/collectionmanager/dynamic.md) topic
+Collection. See the [Dynamic Collections](/docs/threatprevention/7.5/threatprevention/admin/configuration/collectionmanager/dynamic.md) topic
 for additional information.
 
 ## Processes Filter
@@ -75,7 +75,7 @@ exclude specific processes from being monitored.
 **_RECOMMENDED:_** Add undesired processes that make changes to LSASS, e.g. third-party malware
 applications, to the Exclude Process list.
 
-![Processes Monitoring filter](../../../../../../../static/img/product_docs/threatprevention/threatprevention/admin/policies/eventtype/processesmonitoring.webp)
+![Processes Monitoring filter](/img/product_docs/threatprevention/threatprevention/admin/policies/eventtype/processesmonitoring.webp)
 
 Type the process in the textbox for the desired option: Include Process or Exclude Process. Use the
 buttons in the respective areas to edit the lists.
@@ -95,7 +95,7 @@ activity for specific processes to see what access they are requesting.
 Use the Open Process Flags filter to set the scope of the policy for requested handles that would
 maliciously impact LSASS.
 
-![openprocessflagsmonitoring](../../../../../../../static/img/product_docs/threatprevention/threatprevention/admin/policies/eventtype/openprocessflagsmonitoring.webp)
+![openprocessflagsmonitoring](/img/product_docs/threatprevention/threatprevention/admin/policies/eventtype/openprocessflagsmonitoring.webp)
 
 Check the box to select the process flag(s) to be monitored. This will trigger an event if the
 request for an LSASS handle contains one or more of the selected process flags.

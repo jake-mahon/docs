@@ -6,7 +6,7 @@ the Agent on a computer.
 On the Set Options window, you can manage Agent settings, such as credentials, Enterprise Manager
 information, modules, DNS host name resolution, and safe mode.
 
-![Deploy Agents wizard - Set Options page](../../../../../../../static/img/product_docs/threatprevention/threatprevention/admin/agents/deploy/setoptions.webp)
+![Deploy Agents wizard - Set Options page](/img/product_docs/threatprevention/threatprevention/admin/agents/deploy/setoptions.webp)
 
 The Set Options window provides the following options:
 
@@ -25,7 +25,7 @@ The Set Options window provides the following options:
 
     - Safe Mode – The Agent checks LSASS versions on start up. Any changes in LSASS since the
       previous start prevents the AD Events monitoring module from loading. See the
-      [Agent Safe Mode](../safemode.md) topic for additional information.
+      [Agent Safe Mode](/docs/threatprevention/7.5/threatprevention/admin/agents/safemode.md) topic for additional information.
     - Use local Pwned hash DB – A local copy of the Pwned hash database is sent to the Agent after
       installation from the Enterprise Manager. Any updates to the database are sent from the
       Enterprise Manager to the Agent(s) as long as the Agent service is enabled.
@@ -40,7 +40,7 @@ The Set Options window provides the following options:
 - Install to default location – Installs the Agent on the machine to the default location or a
   specified location.
 
-![Deploy Agents wizard – Set Options page: Agent Install Path box](../../../../../../../static/img/product_docs/threatprevention/threatprevention/admin/agents/deploy/installpath.webp)
+![Deploy Agents wizard – Set Options page: Agent Install Path box](/img/product_docs/threatprevention/threatprevention/admin/agents/deploy/installpath.webp)
 
 If checked, the Agent is installed to the default location: ...\Netwrix\Netwrix Threat
 Prevention\SIWindowsAgent
@@ -48,9 +48,9 @@ Prevention\SIWindowsAgent
 If unchecked, specify the desired installation location, e.g. d:\myagent.
 
 The installation location applies to all computers where the Agent is being deployed in this session
-(as specified on the [Select Computers Window](selectcomputers.md) of the Deploy Agents wizard).
+(as specified on the [Select Computers Window](/docs/threatprevention/7.5/threatprevention/admin/agents/deploy/selectcomputers.md) of the Deploy Agents wizard).
 Once these settings are configured as desired, the Agent is ready for deployment on the selected
-machines. See the [Prerequisites Check Window](prerequisitescheck.md) topic for the next step.
+machines. See the [Prerequisites Check Window](/docs/threatprevention/7.5/threatprevention/admin/agents/deploy/prerequisitescheck.md) topic for the next step.
 
 ##### DNS Host Name Resolution
 
@@ -74,15 +74,15 @@ name resolution is not handled locally by that machine.
 ## Set Options Window for Update Agent Settings
 
 On the Agents interface, when you open the Set Options window through the Update Agent Settings
-option on the [Right-Click Menu](../overview.md#right-click-menu), the window appears as follows:
+option on the [Right-Click Menu](/docs/threatprevention/7.5/threatprevention/admin/agents/overview.md#right-click-menu), the window appears as follows:
 
-![Update Agent Settings > Set Options page](../../../../../../../static/img/product_docs/threatprevention/threatprevention/admin/agents/deploy/updatesetoptions.webp)
+![Update Agent Settings > Set Options page](/img/product_docs/threatprevention/threatprevention/admin/agents/deploy/updatesetoptions.webp)
 
 This window displays the default selections in the Modules to Set and Additional Options areas; they
 do not represent the actual current state of the Agent.
 
 **NOTE:** To view the current state and configured options for an Agent, hover over the Version
-String column on the [Agents Interface](../overview.md) data grid for the tool tip. The AD Agent
+String column on the [Agents Interface](/docs/threatprevention/7.5/threatprevention/admin/agents/overview.md) data grid for the tool tip. The AD Agent
 column indicates the Agent’s mode.
 
 This Set Options window is the same as discussed above, with the exception of the following:

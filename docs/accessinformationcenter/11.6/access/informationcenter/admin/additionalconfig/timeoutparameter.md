@@ -6,7 +6,7 @@ will be logged out. By default this is set to 15 minutes.
 **NOTE:** When accessing the Access Information Center through the Web Console, its timeout
 parameter value takes precedence over the Access Information Center timeout parameter value. See the
 Timeout Parameter for the Web Console topic of the
-[Netwrix Enterprise Auditor Documentation](https://helpcenter.netwrix.com/category/enterpriseauditor)
+[Netwrix Enterprise Auditor Documentation](https://helpcenter.netwrix.com/category/accessanalyzer)
 for instructions on modifying its timeout parameter value.
 
 The timeout parameter is configured within the `AccessInformationCenter.Service.exe.config` file in

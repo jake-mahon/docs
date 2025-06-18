@@ -12,4 +12,4 @@ select a user, then dial in **Notification Types** for the selected Device Group
 
 **NOTE:** Core system settings such as the Syslog Server and SMTP details will also need to be
 defined via **Settings** -> **System Settings** in the Change Tracker . See the
-[System Settings](settings/systemsettings.md) topic for additional information.
+[System Settings](/docs/changetracker/8.1/changetracker/admin/settings/systemsettings.md) topic for additional information.

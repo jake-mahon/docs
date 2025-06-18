@@ -25,11 +25,11 @@ The DiskInfo Data Collector is configured through the Disk Info wizard, which co
 wizard pages:
 
 - Welcome
-- [DiskInfo: Target Disks](targetdisks.md)
-- [DiskInfo: Results](results.md)
-- [DiskInfo: Summary](summary.md)
+- [DiskInfo: Target Disks](/docs/accessanalyzer/12.0/admin/datacollector/diskinfo/targetdisks.md)
+- [DiskInfo: Results](/docs/accessanalyzer/12.0/admin/datacollector/diskinfo/results.md)
+- [DiskInfo: Summary](/docs/accessanalyzer/12.0/admin/datacollector/diskinfo/summary.md)
 
-![Disk Info wizard Welcome page](../../../../../../static/img/product_docs/activitymonitor/activitymonitor/install/welcome.webp)
+![Disk Info wizard Welcome page](/img/product_docs/activitymonitor/activitymonitor/install/welcome.webp)
 
 The Welcome page can be hidden by selecting the **Do not display this page the next time** checkbox
 when the wizard is open and configuration settings are saved.

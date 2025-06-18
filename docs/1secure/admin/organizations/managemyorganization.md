@@ -12,7 +12,7 @@ description: "Learn how to review and edit your organization profile settings an
 After you added your organization, you can review or edit your profile on Configuration > My
 Organization page.
 
-![myorganization](../../../../static/img/product_docs/1secure/admin/organizations/myorganization.webp)
+![myorganization](/img/product_docs/1secure/admin/organizations/myorganization.webp)
 
 - Optionally, specify Edit settings or Request Deletion for your Organization.
 

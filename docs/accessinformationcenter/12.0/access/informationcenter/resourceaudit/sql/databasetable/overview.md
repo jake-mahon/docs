@@ -2,6 +2,6 @@
 
 The following reports are available at the database and table levels:
 
-- [Activity Report](activity.md)
-- [Permissions Report](permissions.md)
-- [Sensitive Content Report](sensitivecontent.md)
+- [Activity Report](/docs/accessinformationcenter/12.0/access/informationcenter/resourceaudit/sql/databasetable/activity.md)
+- [Permissions Report](/docs/accessinformationcenter/12.0/access/informationcenter/resourceaudit/sql/databasetable/permissions.md)
+- [Sensitive Content Report](/docs/accessinformationcenter/12.0/access/informationcenter/resourceaudit/sql/databasetable/sensitivecontent.md)

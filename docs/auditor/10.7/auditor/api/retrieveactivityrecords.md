@@ -9,7 +9,7 @@ mark.
 | Method | Endpoint                                                                                | POST Data                                         |
 | ------ | --------------------------------------------------------------------------------------- | ------------------------------------------------- |
 | GET    | `https://{host:port}/netwrix/api/v1/activity_records/enum{?format=json}{&count=Number}` | —                                                 |
-| POST   | `https://{host:port}/netwrix/api/v1/activity_records/enum{?format=json}{&count=Number}` | [Continuation Mark](postdata/continuationmark.md) |
+| POST   | `https://{host:port}/netwrix/api/v1/activity_records/enum{?format=json}{&count=Number}` | [Continuation Mark](/docs/auditor/10.7/auditor/api/postdata/continuationmark.md) |
 
 ## Request Parameters
 
@@ -54,7 +54,7 @@ Activity Records collected in braces {} and a Continuation mark.
 | `{ `````` "ActivityRecordList": [ `````` { `````` "Action": "Added", `````` "MonitoringPlan" : { `````` "ID": "{42F64379-163E-4A43-A9C5-4514C5A23798}", `````` "Name": "AD Monitoring" `````` }, `````` "DataSource": "Active Directory", `````` "Item": {"Name": "enterprise.local (Domain)"}, `````` "ObjectType": "user", `````` "RID": "20160215110503420B9451771F5964A9EAC0A5F35307EA155", `````` "What": "\\local\\enterprise\\Users\\Jason Smith", `````` "When": "2017-02-14T15:42:34Z", `````` "Where": "EnterpriseDC1.enterprise.local", `````` "Who": "ENTERPRISE\\Administrator", `````` "Workstation": "EnterpriseDC1.enterprise.local" `````` }, `````` {...}, `````` {...} `````` ], `````` "ContinuationMark": "PG5yPjxuIG49IntFNzA...PjwvYT48L24+PC9ucj4A" `````` }`                                                                                                                                                                                                                                                                                        |
 
 **Step 3 –** Continue retrieving Activity Records. Send a POST request containing this Continuation
-mark to the same endpoint. See the [Continuation Mark](postdata/continuationmark.md) topic for more
+mark to the same endpoint. See the [Continuation Mark](/docs/auditor/10.7/auditor/api/postdata/continuationmark.md) topic for more
 information. For example:
 
 |                                                                                                                                                                                                                                                                                                                                                                                                                           |

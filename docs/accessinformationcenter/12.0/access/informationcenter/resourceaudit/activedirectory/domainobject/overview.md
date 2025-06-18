@@ -2,7 +2,7 @@
 
 The following reports are displayed at the Domain Object level:
 
-- [Access Report](access.md)
+- [Access Report](/docs/accessinformationcenter/12.0/access/informationcenter/resourceaudit/activedirectory/domainobject/access.md)
 - Activity – Displayed but not populated at the Domain Object level
-- [Permissions Report](permissions.md)
+- [Permissions Report](/docs/accessinformationcenter/12.0/access/informationcenter/resourceaudit/activedirectory/domainobject/permissions.md)
 - Sensitive Content – Displayed but not populated at the Domain Object level

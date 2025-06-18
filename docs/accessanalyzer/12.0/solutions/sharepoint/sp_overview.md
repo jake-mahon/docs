@@ -4,13 +4,13 @@ The SP_Overview job provides an overview of the SharePoint Environment, providin
 into what makes up a SharePoint Environment and the types of security risks and toxic permissions
 found during scans.
 
-![SP_Overview Job in the Jobs Tree](../../../../../static/img/product_docs/accessanalyzer/solutions/sharepoint/overviewjobstree.webp)
+![SP_Overview Job in the Jobs Tree](/img/product_docs/accessanalyzer/solutions/sharepoint/overviewjobstree.webp)
 
 It is dependent on data collected by the
 [SharePoint Access Auditing](collection/overview.md#sharepoint-access-auditing),
 [SharePoint Sensitive Data Discovery Auditing (SEEK)](collection/overview.md#sharepoint-sensitive-data-discovery-auditing-seek),
 and [SharePoint Activity Auditing](collection/overview.md#sharepoint-activity-auditing) components
-of the [0.Collection Job Group](collection/overview.md). It also depends on the running of the
+of the [0.Collection Job Group](/docs/accessanalyzer/12.0/solutions/sharepoint/collection/overview.md). It also depends on the running of the
 sub-job groups within the solution. If only select sub-job groups have been run, there will be blank
 sections of this overview report.
 
@@ -22,7 +22,7 @@ Navigate to the **Jobs** > **SharePoint** > **SP_Overview** > **Configure** node
 **CAUTION:** Do not modify or deselect the selected analysis task. The analysis task is
 preconfigured for this job.
 
-![Analysis Tasks for the SP_Overview Job](../../../../../static/img/product_docs/accessanalyzer/solutions/exchange/publicfolders/overviewanalysis.webp)
+![Analysis Tasks for the SP_Overview Job](/img/product_docs/accessanalyzer/solutions/exchange/publicfolders/overviewanalysis.webp)
 
 The default analysis tasks is:
 

@@ -19,7 +19,7 @@ New: Platform Support for CTERA
 - Multitenant Configuration Support — Enables efficient security management for multiple tenants
   with scalable, flexible monitoring tailored to diverse organizational needs.
 
-See the [CTERA Activity Auditing Configuration](../config/ctera/Activity.md) topic for additional
+See the [CTERA Activity Auditing Configuration](/docs/activitymonitor/8.0/config/ctera/Activity.md) topic for additional
 information.
 
 **NOTE:** For Netwrix Access Analyzer (formerly Enterprise Auditor) users, these capabilities will
@@ -34,7 +34,7 @@ New: FPolicy Persistent Store Enhancements
   volumes to reduce setup complexity and improve storage efficiency for high-volume event data,
   without requiring additional permissions.
 
-See the [Configure FPolicy](../config/netappcmode/configurefpolicy.md) topic for additional
+See the [Configure FPolicy](/docs/activitymonitor/8.0/config/netappcmode/configurefpolicy.md) topic for additional
 information.
 
 New: Improved Microsoft Office Filtering Accuracy
@@ -51,4 +51,4 @@ New: REST API Enhancements
 - Tailor Security Solutions — Supports custom use cases and tailors security solutions with expanded
   API capabilities.
 
-See the [REST API](restapi/overview.md) topic for additional information.
+See the [REST API](/docs/activitymonitor/8.0/activitymonitor/restapi/overview.md) topic for additional information.

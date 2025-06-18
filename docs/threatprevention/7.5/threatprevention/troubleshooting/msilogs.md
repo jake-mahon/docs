@@ -40,6 +40,6 @@ cd %temp%
 
 When performing remote Agent deployment using the Administration Console, log files can be found in
 the `C:\Windows\Temp` folder on the target Agent machine. See the
-[Agents Interface](../admin/agents/overview.md) topic for additional information.
+[Agents Interface](/docs/threatprevention/7.5/threatprevention/admin/agents/overview.md) topic for additional information.
 
-See the [Best Practices and Troubleshooting](overview.md) topic for additional information.
+See the [Best Practices and Troubleshooting](/docs/threatprevention/7.5/threatprevention/troubleshooting/overview.md) topic for additional information.

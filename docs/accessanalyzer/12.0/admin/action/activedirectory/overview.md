@@ -47,15 +47,15 @@ The Active Directory Action module is configured through the Active Directory Ac
 which contains the following wizard pages:
 
 - Welcome
-- [Active Directory Action Target](target.md)
-- [Active Directory Action Operations](operations.md)
-- [Active Directory Action Options](options.md)
-- [Active Directory Action Summary](summary.md)
+- [Active Directory Action Target](/docs/accessanalyzer/12.0/admin/action/activedirectory/target.md)
+- [Active Directory Action Operations](/docs/accessanalyzer/12.0/admin/action/activedirectory/operations.md)
+- [Active Directory Action Options](/docs/accessanalyzer/12.0/admin/action/activedirectory/options.md)
+- [Active Directory Action Summary](/docs/accessanalyzer/12.0/admin/action/activedirectory/summary.md)
 
 The Welcome page displays first in the Active Directory Action Module Wizard. Review the
 introductory and caution information about the Active Directory Action Module.
 
-![Active Directory Action Module Wizard Welcome page](../../../../../../static/img/product_docs/activitymonitor/activitymonitor/install/welcome.webp)
+![Active Directory Action Module Wizard Welcome page](/img/product_docs/activitymonitor/activitymonitor/install/welcome.webp)
 
 The navigation pane contains links to the pages in the wizard. Note that the operations added on the
 Operations page will affect the list of pages in the navigation pane. Several operations have

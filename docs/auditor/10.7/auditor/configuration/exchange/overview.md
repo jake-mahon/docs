@@ -43,10 +43,10 @@ You can configure your IT Infrastructure for monitoring in one of the following
           Directory domain, consider that some changes can be made via that Exchange server. To be
           able to audit and report who made those changes, you should configure the Exchange
           Administrator Audit Logging (AAL) settings, as described in the
-          [Exchange Administrator Audit Logging Settings](auditlog.md) topic.
+          [Exchange Administrator Audit Logging Settings](/docs/auditor/10.7/auditor/configuration/exchange/auditlog.md) topic.
         - The Administrator Audit Logging settings must be configured (only required for Exchange
           2019, 2016, 2013 or 2010). See the
-          [Exchange Administrator Audit Logging Settings](auditlog.md) topic for additional
+          [Exchange Administrator Audit Logging Settings](/docs/auditor/10.7/auditor/configuration/exchange/auditlog.md) topic for additional
           information.
         - In order to audit mailbox access, native audit logging must be enabled for user, shared,
           equipment, linked, and room mailboxes:
@@ -56,7 +56,7 @@ You can configure your IT Infrastructure for monitoring in one of the following
               SendOnBehalf, Create
 
         - If you want to track non-owner access, configure mailbox monitoring. See the
-          [Configure Exchange for Monitoring Mailbox Access](mailboxacccess.md) topic for additional
+          [Configure Exchange for Monitoring Mailbox Access](/docs/auditor/10.7/auditor/configuration/exchange/mailboxacccess.md) topic for additional
           information.
 
     - On the Auditor console computer:
@@ -64,11 +64,11 @@ You can configure your IT Infrastructure for monitoring in one of the following
         - If you have enabled automatic log backup for the Security log of your domain controller,
           you can instruct Auditor to clear the old backups automatically. For that, use the
           **CleanAutoBackupLogs** registry key, as described in the
-          [Active Directory Registry Key Configuration](../activedirectory/registrykey.md) topic.
+          [Active Directory Registry Key Configuration](/docs/auditor/10.7/auditor/configuration/activedirectory/registrykey.md) topic.
 
             **_RECOMMENDED:_** Adjust retention period for the backup files accordingly (default is
             **50** hours). See the
-            [Adjust Security Event Log Size and Retention](../activedirectory/securitylog.md) topic.
+            [Adjust Security Event Log Size and Retention](/docs/auditor/10.7/auditor/configuration/activedirectory/securitylog.md) topic.
 
         - To provide for event data collection, the Secondary Logon service must be up and running .
           Open **Administrative Tools** > **Services**, right-click the **Secondary Logon** service
@@ -78,8 +78,8 @@ You can configure your IT Infrastructure for monitoring in one of the following
 _Remember,_ for Exchange auditing, do the following:
 
 1. Configure Data Collecting Account, as described in the
-   [Data Collecting Account](../../admin/monitoringplans/dataaccounts.md) topic.
-2. Configure required protocols and ports, as described in the [Exchange Ports](ports.md) topic.
+   [Data Collecting Account](/docs/auditor/10.7/auditor/admin/monitoringplans/dataaccounts.md) topic.
+2. Configure required protocols and ports, as described in the [Exchange Ports](/docs/auditor/10.7/auditor/configuration/exchange/ports.md) topic.
 
 ## Monitored Object Types, Actions, and Attributes
 

@@ -2,7 +2,7 @@
 
 Live Tracking is a style of tracking to capture all changes in real-time that can be set when
 configuring a tracking policy. See the
-[Policy Templates: FIM File Integrity](../settings/policytemplates/fimfiles.md) topic for additional
+[Policy Templates: FIM File Integrity](/docs/changetracker/8.1/changetracker/admin/settings/policytemplates/fimfiles.md) topic for additional
 information.
 
 ## Windows
@@ -38,7 +38,7 @@ empties it every 100 milliseconds.
 
 Neither the server nor the agent requires a restart after live tracking has been enabled.
 
-![minifilter_767x740](../../../../../../static/img/product_docs/changetracker/changetracker/admin/agents/minifilter_767x740.webp)
+![minifilter_767x740](/img/product_docs/changetracker/changetracker/admin/agents/minifilter_767x740.webp)
 
 The Change Tracker minifilter doesn't make any alterations to user requests, it only monitors I/O
 activity.

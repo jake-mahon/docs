@@ -30,7 +30,7 @@ Create a Connection Profile and set the following information on the User Creden
 - Confirm – Re-type the password
 
 Once the Connection Profile is created, it is time to create the custom host list. See the
-[Connection](../../settings/connection/overview.md) topic for additional information.
+[Connection](/docs/accessanalyzer/12.0/admin/settings/connection/overview.md) topic for additional information.
 
 ### SharePoint Farm Host in a Custom Host List
 
@@ -39,7 +39,7 @@ The custom host list should include:
 - One application server per farm
 - Host name without a domain suffix, this means the host name should not contain a period character
 
-See the [Add Hosts](../../hostmanagement/actions/add.md) section for instruction on creating a
+See the [Add Hosts](/docs/accessanalyzer/12.0/admin/hostmanagement/actions/add.md) section for instruction on creating a
 custom static host list.
 
 ## SharePoint Online
@@ -50,7 +50,7 @@ scanning SharePoint Online using Modern Authentication.
 ### SharePoint Online Credential for a Connection Profile using Modern Authentication
 
 The provisioned credential should be an Microsoft Entra ID Application. See the
-[SharePoint Online Access & Sensitive Data Auditing Configuration](../../../config/sharepointonline/access.md)
+[SharePoint Online Access & Sensitive Data Auditing Configuration](/docs/accessanalyzer/12.0/config/sharepointonline/access.md)
 topic for instructions on registering and provisioning the Microsoft Entra ID Application manually
 or via the SP_RegisterAzureAppAuth Instant Job.
 
@@ -60,7 +60,7 @@ Create a Connection Profile and set the following information on the User Creden
 - Client ID – Application (client) ID of the Access Analyzer application registered with Microsoft
   Entra ID
 - Password Storage – Application (Uses the configured Profile Security setting as selected at the
-  **Settings** > **Application** node. See the [Application](../../settings/application/overview.md)
+  **Settings** > **Application** node. See the [Application](/docs/accessanalyzer/12.0/admin/settings/application/overview.md)
   topic for additional information.)
 - Key – The comma delimited string containing the path to the certificate PFX file, certificate
   password, and the Microsoft Entra ID environment identifier (
@@ -87,7 +87,7 @@ Create a Connection Profile and set the following information on the User Creden
     Job if that method was used.
 
 Once the Connection Profile is created, it is time to create the custom host list. See the
-[Connection](../../settings/connection/overview.md) topic for additional information.
+[Connection](/docs/accessanalyzer/12.0/admin/settings/connection/overview.md) topic for additional information.
 
 ### SharePoint Online Host in a Custom Host List
 
@@ -100,5 +100,5 @@ The custom host list should include:
 - Do not use IP Addresses
 - Host name must be in DNS format
 
-See the [Add Hosts](../../hostmanagement/actions/add.md) topic for instructions on creating a custom
+See the [Add Hosts](/docs/accessanalyzer/12.0/admin/hostmanagement/actions/add.md) topic for instructions on creating a custom
 static host list.

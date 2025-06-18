@@ -11,10 +11,10 @@ window. The tab varies based on the type of host selected.
 
 The tab contains the following settings and features:
 
-![pathfilteringtab](../../../../../../static/img/product_docs/activitymonitor/activitymonitor/admin/outputs/pathfilteringtab.webp)
+![pathfilteringtab](/img/product_docs/activitymonitor/activitymonitor/admin/outputs/pathfilteringtab.webp)
 
 - Add – Opens the Add or Edit Path window to add a new path to the list. See the
-  [Add or Edit Path Window](window/addeditpath.md) topic for additional information.
+  [Add or Edit Path Window](/docs/activitymonitor/8.0/activitymonitor/admin/outputs/window/addeditpath.md) topic for additional information.
 - Remove – Removes the selected path from the list. Confirmation is not requested.
 
     **CAUTION:** If a path is removed by accident, use the **Cancel** button to discard the change.
@@ -22,7 +22,7 @@ The tab contains the following settings and features:
 - Move Up / Move Down – Since path filters are evaluated in the order specified by the table, these
   buttons move the selected path up or down in the list
 - Edit – Opens the Add or Edit Path window to modify the selected path. See the
-  [Add or Edit Path Window](window/addeditpath.md) topic for additional information.
+  [Add or Edit Path Window](/docs/activitymonitor/8.0/activitymonitor/admin/outputs/window/addeditpath.md) topic for additional information.
 - Type a path below to test whether it will be included or excluded – Enter a path in the textbox to
   test whether it will be included/excluded based on the path filtering list
 
@@ -52,10 +52,10 @@ Properties window closes.
 
 The tab contains the following settings and features:
 
-![Host Properties - Path Filtering Tab](../../../../../../static/img/product_docs/activitymonitor/activitymonitor/admin/outputs/pathfilteringtab.webp)
+![Host Properties - Path Filtering Tab](/img/product_docs/activitymonitor/activitymonitor/admin/outputs/pathfilteringtab.webp)
 
 - Add – Opens the Add or Edit Path window to add a new path to the list. See the
-  [Add or Edit Path Window](window/addeditpath.md) topic for additional information.
+  [Add or Edit Path Window](/docs/activitymonitor/8.0/activitymonitor/admin/outputs/window/addeditpath.md) topic for additional information.
 - Remove – Removes the selected path from the list. Confirmation is not requested.
 
     **CAUTION:** If a path is removed by accident, use the **Cancel** button to discard the change.
@@ -63,7 +63,7 @@ The tab contains the following settings and features:
 - Move Up / Move Down – Since path filters are evaluated in the order specified by the table, these
   buttons move the selected path up or down in the list
 - Edit – Opens the Add or Edit Path window to modify the selected path. See the
-  [Add or Edit Path Window](window/addeditpath.md) topic for additional information.
+  [Add or Edit Path Window](/docs/activitymonitor/8.0/activitymonitor/admin/outputs/window/addeditpath.md) topic for additional information.
 - Type a path below to test whether it will be included or excluded – Enter a path in the textbox to
   test whether it will be included/excluded based on the path filtering list
 
@@ -94,7 +94,7 @@ Properties window closes.
 For a SharePoint host, the Path Filtering tab is for including and excluding sites. The tab contains
 the following settings and features:
 
-![Path Filtering Tab for SharePoint Hosts](../../../../../../static/img/product_docs/activitymonitor/activitymonitor/admin/outputs/pathfilteringsharepointhosts.webp)
+![Path Filtering Tab for SharePoint Hosts](/img/product_docs/activitymonitor/activitymonitor/admin/outputs/pathfilteringsharepointhosts.webp)
 
 - To audit all sites, leave the textbox blank
 - To include a specific site, enter the URL
@@ -110,7 +110,7 @@ Use a semicolon (;) to separate multiple URLs.
 The tab contains the following settings and features:
 
 - Add – Opens the Add or Edit Path window to add a new path to the list. See the
-  [Add or Edit Path Window](window/addeditpath.md) topic for additional information.
+  [Add or Edit Path Window](/docs/activitymonitor/8.0/activitymonitor/admin/outputs/window/addeditpath.md) topic for additional information.
 - Remove – Removes the selected path from the list. Confirmation is not requested.
 
     **CAUTION:** If a path is removed by accident, use the **Cancel** button to discard the change.
@@ -118,7 +118,7 @@ The tab contains the following settings and features:
 - Move Up / Move Down – Since path filters are evaluated in the order specified by the table, these
   buttons move the selected path up or down in the list
 - Edit – Opens the Add or Edit Path window to modify the selected path. See the
-  [Add or Edit Path Window](window/addeditpath.md) topic for additional information.
+  [Add or Edit Path Window](/docs/activitymonitor/8.0/activitymonitor/admin/outputs/window/addeditpath.md) topic for additional information.
 - Add all local drives – Retrieves and adds all local drives to the bottom of the list with a type
   of Include
 - Type a path below to test whether it will be included or excluded – Enter a path in the textbox to

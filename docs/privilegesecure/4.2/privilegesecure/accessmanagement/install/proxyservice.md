@@ -12,7 +12,7 @@ Service, the NPS Scheduler Service, and NPS SIEM Service. This provides the opt
 defined in the application from different locations within your organization.
 
 The NPS Proxy Service installer is in the Extras folder of the ZIP file downloaded from the Netwrix
-Customer portal. See the [Install Components & Methods](components.md) topic for additional
+Customer portal. See the [Install Components & Methods](/docs/privilegesecure/4.2/privilegesecure/accessmanagement/install/components.md) topic for additional
 information.
 
 Follow the steps to install the NPS Proxy Service on another server that will run services for the
@@ -27,14 +27,14 @@ knowledge base article.
 **Step 2 –** Right-click on the installer and select Run as administrator. The Netwrix Privilege
 Secure Proxy Service Setup wizard opens.
 
-![Netwrix Privileged Secure Proxy Service Setup wizard on the EULA page](../../../../../../static/img/product_docs/threatprevention/threatprevention/install/licenseagreement.webp)
+![Netwrix Privileged Secure Proxy Service Setup wizard on the EULA page](/img/product_docs/threatprevention/threatprevention/install/licenseagreement.webp)
 
 **Step 3 –** On the End User License Agreement page, check the I agree to the license terms and
 conditions box and click Options.
 
 _Remember,_ it is a best practice to read the agreement before accepting it.
 
-![Netwrix Privileged Secure Proxy Service Setup wizard on the Setup Options page](../../../../../../static/img/product_docs/privilegesecure/privilegesecure/accessmanagement/install/setupoptions.webp)
+![Netwrix Privileged Secure Proxy Service Setup wizard on the Setup Options page](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/install/setupoptions.webp)
 
 **Step 4 –** The default installation location for Install Folder is:
 
@@ -48,7 +48,7 @@ _Remember,_ it is a best practice to read the agreement before accepting it.
 **NOTE:** The installation process begins and the wizard displays the its Progress. This may take a
 few moments.
 
-![Netwrix Privileged Secure Proxy Service Setup wizard on the Successfully Completed page](../../../../../../static/img/product_docs/threatprevention/threatprevention/install/reportingmodule/completed.webp)
+![Netwrix Privileged Secure Proxy Service Setup wizard on the Successfully Completed page](/img/product_docs/threatprevention/threatprevention/install/reportingmodule/completed.webp)
 
 **Step 6 –** When installation is complete, click Close.
 

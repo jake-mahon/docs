@@ -7,33 +7,33 @@ in detail in the relevant topics.
 
 The Access Analyzer actions are capable of changing users, permissions, files, and objects from a
 variety of environments. Action modules are assigned to a job at the **Configure** > **Actions**
-node. See the [Actions Node](../jobs/job/configure/actions.md) topic for additional information on
+node. See the [Actions Node](/docs/accessanalyzer/12.0/admin/jobs/job/configure/actions.md) topic for additional information on
 the Action Selection view.
 
-![Action Selection page](../../../../../static/img/product_docs/accessanalyzer/admin/action/actionselection.webp)
+![Action Selection page](/img/product_docs/accessanalyzer/admin/action/actionselection.webp)
 
 Configure the action through the Action Properties page. Navigate to the job’s **Configure** >
 **Actions** node. Select **Create Action** to add a new action task to a job. Select an existing
 action and click **Action Properties** to modify its configuration. The Action Properties page opens
 for either option. Pre-configured action tasks can be added from the Action Library. See the
-[Action Libraries](libraries.md) topic for additional information.
+[Action Libraries](/docs/accessanalyzer/12.0/admin/action/libraries.md) topic for additional information.
 
 Most action modules are available with a special Access Analyzer License. The following table
 provides brief descriptions of the action modules available in Access Analyzer.
 
 | Action Module    | Description                                                                                                                                                                                                 |
 | ---------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Active Directory | Make changes to Active Directory such as deleting objects, creating users, and changing group membership. See the [Active Directory Action Module](activedirectory/overview.md) for additional information. |
-| File System      | Change attributes and permissions, as well as copy, delete, move, and rename file system contents. See the [File System Action Module](filesystem/overview.md) for additional information.                  |
-| Mailbox          | Add/change permissions, remove permissions, add/remove delegates, remove zombie SIDS, and delete mailbox content. See the [Mailbox Action Module](mailbox/overview.md) for additional information.          |
-| PowerShell       | Run PowerShell scripts on the local machine or on remote hosts. See the [PowerShell Action Module](powershell/overview.md) for additional information.                                                      |
-| PublicFolder     | Make changes to Exchange Public Folders. See the [PublicFolder Action Module](publicfolder/overview.md) for additional information.                                                                         |
-| Registry         | Make changes to the system registry. See the [Registry Action Module](registry/overview.md) for additional information.                                                                                     |
-| SendMail         | Communicate with target audiences to supply users with dynamic content from selected audit data. See the [SendMail Action Module](sendmail/overview.md) for additional information.                         |
-| ServiceNow       | Creates incidents in ServiceNow. See the [ServiceNow Action Module](servicenow/overview.md) for additional information.                                                                                     |
+| Active Directory | Make changes to Active Directory such as deleting objects, creating users, and changing group membership. See the [Active Directory Action Module](/docs/accessanalyzer/12.0/admin/action/activedirectory/overview.md) for additional information. |
+| File System      | Change attributes and permissions, as well as copy, delete, move, and rename file system contents. See the [File System Action Module](/docs/accessanalyzer/12.0/admin/action/filesystem/overview.md) for additional information.                  |
+| Mailbox          | Add/change permissions, remove permissions, add/remove delegates, remove zombie SIDS, and delete mailbox content. See the [Mailbox Action Module](/docs/accessanalyzer/12.0/admin/action/mailbox/overview.md) for additional information.          |
+| PowerShell       | Run PowerShell scripts on the local machine or on remote hosts. See the [PowerShell Action Module](/docs/accessanalyzer/12.0/admin/action/powershell/overview.md) for additional information.                                                      |
+| PublicFolder     | Make changes to Exchange Public Folders. See the [PublicFolder Action Module](/docs/accessanalyzer/12.0/admin/action/publicfolder/overview.md) for additional information.                                                                         |
+| Registry         | Make changes to the system registry. See the [Registry Action Module](/docs/accessanalyzer/12.0/admin/action/registry/overview.md) for additional information.                                                                                     |
+| SendMail         | Communicate with target audiences to supply users with dynamic content from selected audit data. See the [SendMail Action Module](/docs/accessanalyzer/12.0/admin/action/sendmail/overview.md) for additional information.                         |
+| ServiceNow       | Creates incidents in ServiceNow. See the [ServiceNow Action Module](/docs/accessanalyzer/12.0/admin/action/servicenow/overview.md) for additional information.                                                                                     |
 | SharePoint       | Add/remove trustees from sites, lists, or libraries in SharePoint on-premise, apply sensitivity labels, and move files.                                                                                     |
-| Survey           | Solicit feedback from users to expedite and aid in the decision making process. See the [Survey Action Module](survey/overview.md) for additional information.                                              |
-| Web Request      | Sends data to Threat Manager. See the [WebRequest Action Module](webrequest/overview.md) for additional information.                                                                                        |
+| Survey           | Solicit feedback from users to expedite and aid in the decision making process. See the [Survey Action Module](/docs/accessanalyzer/12.0/admin/action/survey/overview.md) for additional information.                                              |
+| Web Request      | Sends data to Threat Manager. See the [WebRequest Action Module](/docs/accessanalyzer/12.0/admin/action/webrequest/overview.md) for additional information.                                                                                        |
 
 ## Basic Procedure
 
@@ -77,7 +77,7 @@ changes to a production environment.
 Use this page to view or specify properties for a selected action, including the name, description,
 action module, and source table. Access this page via the Action Selection view.
 
-![Action Properties page for new action](../../../../../static/img/product_docs/accessanalyzer/admin/action/actionproperties.webp)
+![Action Properties page for new action](/img/product_docs/accessanalyzer/admin/action/actionproperties.webp)
 
 **_RECOMMENDED:_** Provide unique and descriptive names and action task descriptions to all user
 created action tasks.
@@ -97,7 +97,7 @@ created action tasks.
   the database can distinguish actions, even those with identical configurations.
 - Data Grid – Displays a sample of the selected Source table. This data grid functions the same as
   all data grids within Access Analyzer. Data can be filtered, and columns can be regrouped. See the
-  [Data Grid Functionality](../navigate/datagrid.md) topic for additional information.
+  [Data Grid Functionality](/docs/accessanalyzer/12.0/admin/navigate/datagrid.md) topic for additional information.
 
 ### Source Table Configuration
 

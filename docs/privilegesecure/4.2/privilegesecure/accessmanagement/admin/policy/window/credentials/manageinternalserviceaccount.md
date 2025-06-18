@@ -5,7 +5,7 @@ dependencies (windows services or scheduled tasks). When an internal service acc
 _Internal_) is selected and set to be managed by Privilege Secure, a pop up window will display and
 Privilege Secure searches for a matching user.
 
-![Manage internal service account](../../../../../../../../../static/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/window/credentials/manageinternalserviceaccount.webp)
+![Manage internal service account](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/window/credentials/manageinternalserviceaccount.webp)
 
 If a matching user is found, there are three options to manage the selected account.
 
@@ -16,16 +16,16 @@ If a matching user is found, there are three options to manage the selected acco
 If the message “No matching user found” is displayed, Privilege Secure is unable to find a matching
 user in Active Directory.
 
-![No matching user found](../../../../../../../../../static/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/window/credentials/matchinguserfalse.webp)
+![No matching user found](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/window/credentials/matchinguserfalse.webp)
 
 Try the following possible solutions to resolve:
 
 - Perform an AD Sync to collect the latest AD data from the domain. See the
-  [Domain Details Page](../../page/details/domain.md) topic for additional information.
+  [Domain Details Page](/docs/privilegesecure/4.2/privilegesecure/accessmanagement/admin/policy/page/details/domain.md) topic for additional information.
 - Check the user is added to the Privilege Secure console. See the
-  [Users & Groups Page](../../page/usersgroups.md) topic for additional information.
+  [Users & Groups Page](/docs/privilegesecure/4.2/privilegesecure/accessmanagement/admin/policy/page/usersgroups.md) topic for additional information.
 - Check the spelling of the Username associated with the service account. See the
-  [Service Accounts Page](../../../configuration/page/serviceaccounts.md) topic for additional
+  [Service Accounts Page](/docs/privilegesecure/4.2/privilegesecure/accessmanagement/admin/configuration/page/serviceaccounts.md) topic for additional
   information.
 - Make sure the user is in Active Directory in the expected domain
 
@@ -33,12 +33,12 @@ Try the following possible solutions to resolve:
 
 If the manual option is selected, a new window will open to set the password for the credential.
 
-![Set password for credential window](../../../../../../../../../static/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/window/credentials/setpasswordcredential.webp)
+![Set password for credential window](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/window/credentials/setpasswordcredential.webp)
 
 After the password is created, click **Save** to update the password. The account password has been
 updated and the service account can be manually managed.
 
-![Manually Managed Account](../../../../../../../../../static/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/window/credentials/credentialsmanuallymanageaccount.webp)
+![Manually Managed Account](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/window/credentials/credentialsmanuallymanageaccount.webp)
 
 The selected account will now display the following options.
 
@@ -46,5 +46,5 @@ The selected account will now display the following options.
   selected account.
 - Clipboard icon — Copies the password for the selected account
 - Information icon — Opens the View Password window to view the password and copy it to the
-  clipboard. The window stays open for 20 seconds. See the [View Password Window](viewpassword.md)
+  clipboard. The window stays open for 20 seconds. See the [View Password Window](/docs/privilegesecure/4.2/privilegesecure/accessmanagement/admin/policy/window/credentials/viewpassword.md)
   topic for additional information.

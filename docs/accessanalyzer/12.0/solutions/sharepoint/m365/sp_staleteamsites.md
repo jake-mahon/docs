@@ -7,7 +7,7 @@ be set in the analysis (Set as 30 Days by Default).
 
 The Configuration section on a Job's overview page allows you to easily modify any customizable
 parameters used by analysis tasks in the job. See the
-[Parameter Configuration](../../../admin/jobs/job/overview.md#parameter-configuration) topic for
+[Parameter Configuration](/docs/accessanalyzer/12.0/admin/jobs/job/overview.md#parameter-configuration) topic for
 instructions on how to edit parameters on a job overview page.
 
 The SP_StaleTeamSites page has the following configurable parameters:
@@ -23,7 +23,7 @@ for additional information.
 Navigate to the **Jobs** > **SharePoint** > **8.M365** > **SP_StaleTeamSites** >**Configure** node
 and select **Analysis** to view the analysis tasks.
 
-![Analysis Tasks for the SP_StaleTeamSites Job](../../../../../../static/img/product_docs/accessanalyzer/solutions/sharepoint/m365/staleteamsitesanalysis.webp)
+![Analysis Tasks for the SP_StaleTeamSites Job](/img/product_docs/accessanalyzer/solutions/sharepoint/m365/staleteamsitesanalysis.webp)
 
 The default analysis task is:
 
@@ -50,5 +50,5 @@ The default values for customizable parameters are:
 | Find Stale Teams | @days                       | 30            | Desired number of days since last activity to determine staleness. |
 
 See the
-[Configure the Customizable Parameters in an Analysis Task](../../../admin/jobs/job/configure/analysiscustomizableparameters.md)
+[Configure the Customizable Parameters in an Analysis Task](/docs/accessanalyzer/12.0/admin/jobs/job/configure/analysiscustomizableparameters.md)
 topic for instructions on customizing the analysis parameters.

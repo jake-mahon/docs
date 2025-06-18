@@ -3,7 +3,7 @@
 The Sensitive Content Summary report at the **Amazon** node provides a count of files where criteria
 matches were found in the targeted environment. This report includes a Details table.
 
-![Sensitive Content Summary report](../../../../../../../static/img/product_docs/accessinformationcenter/access/informationcenter/resourceaudit/postgresql/sensitivecontentsummary.webp)
+![Sensitive Content Summary report](/img/product_docs/accessinformationcenter/access/informationcenter/resourceaudit/postgresql/sensitivecontentsummary.webp)
 
 This report is comprised of the following columns:
 

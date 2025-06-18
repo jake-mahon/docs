@@ -12,4 +12,4 @@ There is minimal configuration required to activate the Tracker – just check t
 and audit policy settings in this template** box and define the poll period then save settings to
 the Template. Any changes to the initial baseline will be alerted and reported.
 
-![PolicyTemplateSecurityAuditPol](../../../../../../../static/img/product_docs/changetracker/changetracker/admin/settings/policytemplates/policytemplatesecurityauditpol.webp)
+![PolicyTemplateSecurityAuditPol](/img/product_docs/changetracker/changetracker/admin/settings/policytemplates/policytemplatesecurityauditpol.webp)

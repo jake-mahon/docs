@@ -4,7 +4,7 @@
 
 A unique certificate is created for each database. This has the name **psrDatabaseKey**:
 
-![installation_with_parameters_207](../../../../../../../static/img/product_docs/passwordsecure/passwordsecure/configuration/server_manager/certificates/installation_with_parameters_207.webp)
+![installation_with_parameters_207](/img/product_docs/passwordsecure/passwordsecure/configuration/server_manager/certificates/installation_with_parameters_207.webp)
 
 The database certificate **does not encrypt the database.** Rather, it is used for the encrypted
 transfer of passwords from the client to the server in the following cases:
@@ -23,5 +23,5 @@ is also transferred!
 
 #### Exporting and importing the certificate
 
-The section [Certificates](certificates.md) explains how to back up the certificate and link it
+The section [Certificates](/docs/passwordsecure/9.2/passwordsecure/configuration/server_manager/certificates/certificates.md) explains how to back up the certificate and link it
 again.

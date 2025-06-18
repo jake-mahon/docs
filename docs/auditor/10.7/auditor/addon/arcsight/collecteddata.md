@@ -14,6 +14,6 @@ more than one Netwrix Auditor Server, add all of them in the search field.
 
 **NOTE:** You might want to modify time range and the fields shown.
 
-![activityrecords](../../../../../../static/img/product_docs/auditor/auditor/addon/arcsight/activityrecords.webp)
+![activityrecords](/img/product_docs/auditor/auditor/addon/arcsight/activityrecords.webp)
 
 **Step 4 –** Review imported Activity Records.

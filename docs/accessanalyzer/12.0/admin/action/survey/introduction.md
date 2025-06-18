@@ -1,10 +1,10 @@
 # Survey: Introduction
 
 Use this page to specify web page introductory text (if any) for the web page specified on the Web
-Server page. See the [Survey: Web Server](webserver.md) topic for additional information. The
+Server page. See the [Survey: Web Server](/docs/accessanalyzer/12.0/admin/action/survey/webserver.md) topic for additional information. The
 introductory text appears on the landing page when recipients click on the survey link in the email.
 
-![Survey Action Module Wizard Introduction Page](../../../../../../static/img/product_docs/accessanalyzer/admin/action/survey/introduction.webp)
+![Survey Action Module Wizard Introduction Page](/img/product_docs/accessanalyzer/admin/action/survey/introduction.webp)
 
 The configurable options are:
 

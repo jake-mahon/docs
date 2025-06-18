@@ -3,7 +3,7 @@
 The SDD Criteria page is where criteria to be used for discovering sensitive data are configured. It
 is a wizard page for the Mailbox sensitive data discovery category.
 
-![Exchange Mailbox Data Collector Wizard SDD Criteria page](../../../../../../static/img/product_docs/accessanalyzer/admin/datacollector/fsaa/sddcriteria.webp)
+![Exchange Mailbox Data Collector Wizard SDD Criteria page](/img/product_docs/accessanalyzer/admin/datacollector/fsaa/sddcriteria.webp)
 
 Select the checkbox for the criteria to be used to search for sensitive data. Criteria can also be
 selected using the **Select All** and **Select None** buttons.
@@ -14,7 +14,7 @@ The table contains the following types of criteria:
 - User Criteria – Lists user-defined criteria
 - Edit – Click this button to access the Criteria Editor where user-defined criteria can be created
   or customized. See the
-  [Sensitive Data Criteria Editor](../../../sensitivedatadiscovery/criteriaeditor/overview.md) topic
+  [Sensitive Data Criteria Editor](/docs/accessanalyzer/12.0/sensitivedatadiscovery/criteriaeditor/overview.md) topic
   for additional information.
 - Store discovered sensitive data – Stores the potentially sensitive data that matches the selected
   criteria in the Access Analyzer database. Select this checkbox to store a copy of the criteria

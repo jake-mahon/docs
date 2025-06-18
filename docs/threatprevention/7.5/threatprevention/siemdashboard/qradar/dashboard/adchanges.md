@@ -2,23 +2,23 @@
 
 The AD Changes dashboard contains the following cards:
 
-![AD Changes Dashboard](../../../../../../../static/img/product_docs/threatprevention/threatprevention/admin/policies/eventtype/adchanges.webp)
+![AD Changes Dashboard](/img/product_docs/threatprevention/threatprevention/admin/policies/eventtype/adchanges.webp)
 
 - Changes by Type – Breakdown of changes that have been recorded in the specified timeframe by event
-  type. See the [Graph Card Features](../navigate.md#graph-card-features) topic for additional
+  type. See the [Graph Card Features](/docs/threatprevention/7.5/threatprevention/siemdashboard/qradar/navigate.md#graph-card-features) topic for additional
   information.
 - Successful/Blocked Events – Breakdown of changes that have been recorded in the specified
   timeframe by successful/failed/blocked status. See the
-  [Graph Card Features](../navigate.md#graph-card-features) topic for additional information.
+  [Graph Card Features](/docs/threatprevention/7.5/threatprevention/siemdashboard/qradar/navigate.md#graph-card-features) topic for additional information.
 - Changes by Domain – Breakdown of changes that have been recorded in the specified timeframe by
-  domain. See the [Graph Card Features](../navigate.md#graph-card-features) topic for additional
+  domain. See the [Graph Card Features](/docs/threatprevention/7.5/threatprevention/siemdashboard/qradar/navigate.md#graph-card-features) topic for additional
   information.
 - Top Client IPs – Displays up to the top five (5) client IP addresses related to events that have
   been recorded in the specified timeframe
 - Top Perpetrators – Displays up to the top five (5) perpetrator usernames related to events that
   have been recorded in the specified timeframe
 - Change Details – Tabular format of all Active Directory change events that have been recorded in
-  the specified timeframe. See the [Table Card Features](../navigate.md#table-card-features) topic
+  the specified timeframe. See the [Table Card Features](/docs/threatprevention/7.5/threatprevention/siemdashboard/qradar/navigate.md#table-card-features) topic
   for additional information.
 
 The time interval is identified in the upper-right corner with the _Start_ and _End_ boxes. This is

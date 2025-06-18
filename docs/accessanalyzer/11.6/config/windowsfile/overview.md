@@ -8,7 +8,7 @@ Auditing (FSAC) scans.
 ## Access & Sensitive Data Auditing Permissions
 
 - Permissions vary based on the Scan Mode Option selected. See the
-  [File System Supported Platforms](/docs/accessanalyzer/11.6/enterpriseauditor/requirements/target/filesystems.md)
+  [File System Supported Platforms](/docs/accessanalyzer/11.6/accessanalyzer/requirements/target/filesystems.md)
   topic for additional information.
 
 Windows File System Cluster Requirements
@@ -27,7 +27,7 @@ topic for instructions.
 
 The firewall ports required by Enterprise Auditor for Access Auditing (FSAA) and/or Sensitive Data
 Discovery Auditing scans are based on the File System scan mode to be used. See the
-[File System Scan Options](/docs/accessanalyzer/11.6/enterpriseauditor/requirements/solutions/filesystem/scanoptions.md)
+[File System Scan Options](/docs/accessanalyzer/11.6/accessanalyzer/requirements/solutions/filesystem/scanoptions.md)
 topic for additional information.
 
 ## Activity Auditing Permissions
@@ -77,7 +77,7 @@ are required for communication between the Agent server and the Netwrix Activity
 The Windows firewall rules need to be configured on the Windows server, which require certain
 inbound rules be created if the scans are running in applet mode. These scans operate over a default
 port range, which cannot be specified via an inbound rule. For more information, see the Microsoft
-[Connecting to WMI on a Remote Computer](<https://msdn.microsoft.com/en-us/library/windows/desktop/aa389290(v=vs.85).aspx>)
+[Connecting to WMI on a Remote Computer](https://msdn.microsoft.com/en-us/library/windows/desktop/aa389290(v=vs.85).aspx)
 article.
 
 Additional Firewall Rules for Integration between Enterprise Auditor and Activity Monitor

@@ -11,7 +11,7 @@ The event filters for the File System Changes event type are:
 - AD Perpetrator
 - Success
 
-![Policy window - File System Changes Event Type](../../../../../../../static/img/product_docs/threatprevention/threatprevention/admin/policies/eventtype/filesystemchanges.webp)
+![Policy window - File System Changes Event Type](/img/product_docs/threatprevention/threatprevention/admin/policies/eventtype/filesystemchanges.webp)
 
 Each filter tab acts like an "AND" statement for the filter. Any filter tab left blank is treated
 like an "ALL" for that filter set.
@@ -59,7 +59,7 @@ Type is used by the same enabled policy.
 Use the File System filter for monitoring to select the types of file system events to be monitored
 by the policy.
 
-![Policy window - File System filter for monitoring](../../../../../../../static/img/product_docs/threatprevention/threatprevention/admin/policies/eventtype/filesystem.webp)
+![Policy window - File System filter for monitoring](/img/product_docs/threatprevention/threatprevention/admin/policies/eventtype/filesystem.webp)
 
 Access Operations area
 
@@ -137,7 +137,7 @@ Perpetrator filter.
 Use the Paths filter to set the scope of the policy to only monitor specific file system paths or to
 exclude specific file system paths from being monitored.
 
-![Policy window - Paths filter](../../../../../../../static/img/product_docs/threatprevention/threatprevention/admin/policies/eventtype/paths.webp)
+![Policy window - Paths filter](/img/product_docs/threatprevention/threatprevention/admin/policies/eventtype/paths.webp)
 
 The Include Paths section defines the top level folder or individual files for monitoring. Use the
 Exclude Paths section to refine and remove any child items from being monitored. Any files or
@@ -148,19 +148,19 @@ Use the buttons in the Include Paths, Include Collections, Exclude Paths, and Ex
 areas to edit the lists.
 
 - The Path **Add** (+) button opens the
-  [Select File System Objects Window](window/selectfilesystemobjects.md).
+  [Select File System Objects Window](/docs/threatprevention/7.5/threatprevention/admin/policies/eventtype/window/selectfilesystemobjects.md).
 - The Collection button opens the
-  [List of Collections Window](../../configuration/collectionmanager/listcollections.md) to the
+  [List of Collections Window](/docs/threatprevention/7.5/threatprevention/admin/configuration/collectionmanager/listcollections.md) to the
   appropriate Collection category.
 - The Remove (x) button deletes the selected item(s) from that box.
 
 **NOTE:** To enable a Dynamic Policy, use the Collection button to select the desired Dynamic
-Collection. See the [Dynamic Collections](../../configuration/collectionmanager/dynamic.md) topic
+Collection. See the [Dynamic Collections](/docs/threatprevention/7.5/threatprevention/admin/configuration/collectionmanager/dynamic.md) topic
 for additional information.
 
 Sub Folder
 
-![Paths filter - Sub Folder checkbox](../../../../../../../static/img/product_docs/threatprevention/threatprevention/admin/policies/eventtype/subfolder.webp)
+![Paths filter - Sub Folder checkbox](/img/product_docs/threatprevention/threatprevention/admin/policies/eventtype/subfolder.webp)
 
 When paths are added, a Sub-Folder checkbox displays. If checked, the filter is applied to the
 parent and all child content (files and folders). If unchecked, the filter is only applied to the
@@ -170,7 +170,7 @@ listed folder and its first-level contents.
 
 Use the Additional Agents filter to set the scope of the policy to specific Agents and/or domains.
 
-![Policy window - Additional Agents filter](../../../../../../../static/img/product_docs/threatprevention/threatprevention/admin/policies/eventtype/additionalagents.webp)
+![Policy window - Additional Agents filter](/img/product_docs/threatprevention/threatprevention/admin/policies/eventtype/additionalagents.webp)
 
 The Agents/Domains list on the left displays available Agents and domains. The Selected
 Agents/Domains list on the right displays Agents and domains included in the policy.
@@ -193,25 +193,25 @@ Use the AD Perpetrator filter for monitoring to set the scope of the policy to o
 security principals committing changes or to exclude specific security principals committing changes
 from being monitored.
 
-![Event Type - AD Perpetrator Monitoring filter](../../../../../../../static/img/product_docs/threatprevention/threatprevention/admin/policies/eventtype/adperpetratormonitoring.webp)
+![Event Type - AD Perpetrator Monitoring filter](/img/product_docs/threatprevention/threatprevention/admin/policies/eventtype/adperpetratormonitoring.webp)
 
 Use the buttons in the Include Perpetrators, Include Collections, Exclude Perpetrators, and Exclude
 Collections areas to edit the lists.
 
 - The Perpetrators Add (+) button opens the
-  [Select Active Directory Perpetrators Window](window/selectactivedirectory/perpetrators.md).
+  [Select Active Directory Perpetrators Window](/docs/threatprevention/7.5/threatprevention/admin/policies/eventtype/window/selectactivedirectory/perpetrators.md).
 - The Collection button opens the
-  [List of Collections Window](../../configuration/collectionmanager/listcollections.md) to the
+  [List of Collections Window](/docs/threatprevention/7.5/threatprevention/admin/configuration/collectionmanager/listcollections.md) to the
   appropriate Collection category.
 - The Remove (x) button deletes the selected item(s) from that box.
 
 **NOTE:** To enable a Dynamic Policy, use the Collection button to select the desired Dynamic
-Collection. See the [Dynamic Collections](../../configuration/collectionmanager/dynamic.md) topic
+Collection. See the [Dynamic Collections](/docs/threatprevention/7.5/threatprevention/admin/configuration/collectionmanager/dynamic.md) topic
 for additional information.
 
 Sub Tree
 
-![Sub-Tree option in event type filters](../../../../../../../static/img/product_docs/threatprevention/threatprevention/admin/policies/eventtype/subtree.webp)
+![Sub-Tree option in event type filters](/img/product_docs/threatprevention/threatprevention/admin/policies/eventtype/subtree.webp)
 
 When contexts are added, a Sub-Tree checkbox displays. Check it to apply the filter to the parent
 and all child contexts. Uncheck it to apply the filter to the listed context only.
@@ -221,7 +221,7 @@ and all child contexts. Uncheck it to apply the filter to the listed context onl
 The Success filter is where the policy is set to only monitor successful events, failed events, or
 both.
 
-![Event Type – Success filter](../../../../../../../static/img/product_docs/activitymonitor/activitymonitor/install/agent/success.webp)
+![Event Type – Success filter](/img/product_docs/activitymonitor/activitymonitor/install/agent/success.webp)
 
 Select the radio button for the desired monitoring filter:
 

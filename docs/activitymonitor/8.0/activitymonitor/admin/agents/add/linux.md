@@ -13,7 +13,7 @@ It also provides the ability to feed activity data to other Netwrix products:
 - Netwrix Threat Manager
 
 Prior to adding a Windows host to the Activity Monitor, the prerequisites for the target environment
-must be met. See the [Linux Agent Server Requirements](../../../requirements/linuxagent.md) topic
+must be met. See the [Linux Agent Server Requirements](/docs/activitymonitor/8.0/activitymonitor/requirements/linuxagent.md) topic
 for additional information.
 
 ## Deploy Linux Agent
@@ -22,17 +22,17 @@ Follow the steps to deploy the agent to the Linux host.
 
 **Step 1 –** On the Agents tab, click Add agent to open the Add New Agent(s) window.
 
-![Install New Agent page of the Add New Agent(s) Wizard](../../../../../../../static/img/product_docs/activitymonitor/activitymonitor/install/agent/installnew.webp)
+![Install New Agent page of the Add New Agent(s) Wizard](/img/product_docs/activitymonitor/activitymonitor/install/agent/installnew.webp)
 
 **Step 2 –** On the Install New Agent page, enter the server name for the Linux host. Click
 **Next**.
 
-![Specify Agent Port](../../../../../../../static/img/product_docs/activitymonitor/activitymonitor/install/agent/portdefault.webp)
+![Specify Agent Port](/img/product_docs/activitymonitor/activitymonitor/install/agent/portdefault.webp)
 
 **Step 3 –** On the Agent Port page, specify the port to be used by the new agent. The default port
 is **4498**. Click **Next**.
 
-![Credentials to Connect](../../../../../../../static/img/product_docs/activitymonitor/activitymonitor/admin/agents/add/credentialsservers.webp)
+![Credentials to Connect](/img/product_docs/activitymonitor/activitymonitor/admin/agents/add/credentialsservers.webp)
 
 **Step 4 –** On the Credentials To Connect To The Server(s) page, connect to the Linux Server using
 either a **User name** and **Password**, or a Public Key.
@@ -42,14 +42,14 @@ The options for connecting with a Password are:
 - User name
 - Password
 
-![Public Key Credentials](../../../../../../../static/img/product_docs/activitymonitor/activitymonitor/admin/agents/add/publickey.webp)
+![Public Key Credentials](/img/product_docs/activitymonitor/activitymonitor/admin/agents/add/publickey.webp)
 
 The options for connecting with a Public Key are:
 
 - User name
 - Private Key
 
-![Client Certificate Credentials](../../../../../../../static/img/product_docs/activitymonitor/activitymonitor/admin/agents/add/clientcertificate.webp)
+![Client Certificate Credentials](/img/product_docs/activitymonitor/activitymonitor/admin/agents/add/clientcertificate.webp)
 
 To connect with a Client Certificate, select the **Client Certificate** (for already installed
 agents) option. Run the following commands on the Linux machine:
@@ -87,7 +87,7 @@ cat ~/.ssh/id_ecdsa
 **Next**. If the connection is unsuccessful, see the status message that appears for information on
 the failed connection.
 
-![Linux Agent Options](../../../../../../../static/img/product_docs/activitymonitor/activitymonitor/install/agent/linuxagentoptions.webp)
+![Linux Agent Options](/img/product_docs/activitymonitor/activitymonitor/install/agent/linuxagentoptions.webp)
 
 **Step 6 –** On the Linux Agent Options page, select which user name to use to run the daemon. To
 use root, leave the **Service user name** field blank. Click **Test** to test the connection.
@@ -98,21 +98,21 @@ deployed to and installed on the target host.
 During the installation process, the status will be **Installing**. If there are any errors,
 Activity Monitor stops the installation and lists the errors in the **Agent messages** box.
 
-![Linux Agent Installed](../../../../../../../static/img/product_docs/activitymonitor/activitymonitor/admin/agents/add/activitymonitorwithlinuxagentinstalled.webp)
+![Linux Agent Installed](/img/product_docs/activitymonitor/activitymonitor/admin/agents/add/activitymonitorwithlinuxagentinstalled.webp)
 
 When the Linux agent installation is complete, the status changes to **Installed**. The Monitored
 Host is also configured, and the added Linux host is displayed in the monitored hosts table. See the
-[Monitored Hosts Tab](../../monitoredhosts/overview.md) topic for additional information.
+[Monitored Hosts Tab](/docs/activitymonitor/8.0/activitymonitor/admin/monitoredhosts/overview.md) topic for additional information.
 
 Once a host has been added for monitoring, configure the desired outputs. See the
-[Output for Monitored Hosts](../../monitoredhosts/output.md) topic for additional information.
+[Output for Monitored Hosts](/docs/activitymonitor/8.0/activitymonitor/admin/monitoredhosts/output.md) topic for additional information.
 
 ## Host Properties for Linux
 
 Configuration settings can be edited through the tabs in the host’s Properties window. The
 configurable host properties are:
 
-- [Inactivity Alerts Tab](../../monitoredhosts/properties/inactivityalerts.md)
+- [Inactivity Alerts Tab](/docs/activitymonitor/8.0/activitymonitor/admin/monitoredhosts/properties/inactivityalerts.md)
 
-See the [Host Properties Window](../../monitoredhosts/properties/overview.md) topic for additional
+See the [Host Properties Window](/docs/activitymonitor/8.0/activitymonitor/admin/monitoredhosts/properties/overview.md) topic for additional
 information.

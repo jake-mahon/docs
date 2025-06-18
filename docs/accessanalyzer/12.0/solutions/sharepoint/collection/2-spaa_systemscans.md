@@ -7,7 +7,7 @@ structural level in the SharePoint farm.
 
 The 2-SPAA_SystemScans Job uses the SharePoint Access Data Collector for the following query:
 
-![Query Selection](../../../../../../static/img/product_docs/accessanalyzer/solutions/sharepoint/collection/spaasystemscansquery.webp)
+![Query Selection](/img/product_docs/accessanalyzer/solutions/sharepoint/collection/spaasystemscansquery.webp)
 
 The query for the 2-SPAA_SystemScans Job is:
 
@@ -34,29 +34,29 @@ displays.
 
 **Step 3 –** Select the **Data Source** tab, and click **Configure**.
 
-![SharePoint Data Collection Settings](../../../../../../static/img/product_docs/accessanalyzer/solutions/sharepoint/collection/datacollectionsettingsspaa.webp)
+![SharePoint Data Collection Settings](/img/product_docs/accessanalyzer/solutions/sharepoint/collection/datacollectionsettingsspaa.webp)
 
 **Step 4 –** On the
-[SPAA: SharePoint Data Collection Settings](../../../admin/datacollector/spaa/settings.md) page,
+[SPAA: SharePoint Data Collection Settings](/docs/accessanalyzer/12.0/admin/datacollector/spaa/settings.md) page,
 customize as desired and click **Next**.
 
-![Scan Scoping Options](../../../../../../static/img/product_docs/accessanalyzer/admin/datacollector/spaa/scanscopingoptions.webp)
+![Scan Scoping Options](/img/product_docs/accessanalyzer/admin/datacollector/spaa/scanscopingoptions.webp)
 
 **Step 5 –** On the
-[SPAA: Scan Scoping Options](../../../admin/datacollector/spaa/scanscopingoptions.md) page, no web
+[SPAA: Scan Scoping Options](/docs/accessanalyzer/12.0/admin/datacollector/spaa/scanscopingoptions.md) page, no web
 applications or site collections have been added. If desired, limit the scope of the scan to
 specific web applications or site collections. Click **Next**.
 
-![Additional Scoping](../../../../../../static/img/product_docs/accessanalyzer/solutions/sharepoint/collection/additionalscopingspaa.webp)
+![Additional Scoping](/img/product_docs/accessanalyzer/solutions/sharepoint/collection/additionalscopingspaa.webp)
 
 **Step 6 –** On the
-[SPAA: Additional Scoping](../../../admin/datacollector/spaa/additionalscoping.md) page, **Limit
+[SPAA: Additional Scoping](/docs/accessanalyzer/12.0/admin/datacollector/spaa/additionalscoping.md) page, **Limit
 scanned depth to:** is selected with the default set at **2** levels. Customize this setting as
 desired and click **Next**.
 
-![Agent Settings](../../../../../../static/img/product_docs/activitymonitor/activitymonitor/install/agent/windowsagent.webp)
+![Agent Settings](/img/product_docs/activitymonitor/activitymonitor/install/agent/windowsagent.webp)
 
-**Step 7 –** On the [SPAA: Agent Settings](../../../admin/datacollector/spaa/agentsettings.md) page,
+**Step 7 –** On the [SPAA: Agent Settings](/docs/accessanalyzer/12.0/admin/datacollector/spaa/agentsettings.md) page,
 use the default settings unless an agent scan mode is desired. Click **Next**.
 
 **CAUTION:** Do not configure the options on the Results page.

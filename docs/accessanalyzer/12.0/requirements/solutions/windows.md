@@ -2,10 +2,10 @@
 
 The core components for Netwrix Access Analyzer (formerly Enterprise Auditor) are the Access
 Analyzer Console server, SQL Server, and Access Information Center. See the
-[Requirements](../overview.md) topic for the core requirements.
+[Requirements](/docs/accessanalyzer/12.0/requirements/overview.md) topic for the core requirements.
 
 See the
-[Target Windows Server and Desktop Requirements, Permissions, and Ports](../target/windows.md) topic
+[Target Windows Server and Desktop Requirements, Permissions, and Ports](/docs/accessanalyzer/12.0/requirements/target/windows.md) topic
 for target environment requirements.
 
 ## Windows Solution Requirements on the Access Analyzer Console

@@ -1,10 +1,10 @@
 # View Responses Window
 
 The View Responses window opens from the **View Response** button on the
-[Review Details Page](../interface.md#review-details-page) of the Entitlement Reviews interface. It
+[Review Details Page](/docs/auditor/10.7/access/reviews/entitlementreviews/interface.md#review-details-page) of the Entitlement Reviews interface. It
 displays all owner-recommended changes and notes for the selected resource.
 
-![View Responses window](../../../../../../../static/img/product_docs/accessinformationcenter/access/informationcenter/resourcereviews/viewresponses.webp)
+![View Responses window](/img/product_docs/accessinformationcenter/access/informationcenter/resourcereviews/viewresponses.webp)
 
 The information displayed in the table includes:
 
@@ -26,11 +26,11 @@ selecting the items with no changes in the grid, the change buttons at the botto
 disabled.
 
 The table data grid functions the same way as other table grids. See the
-[Data Grid Features](../../../general/datagrid.md) topic for additional information.
+[Data Grid Features](/docs/auditor/10.7/access/general/datagrid.md) topic for additional information.
 
 Select an item in the table, and use the action buttons at the bottom to identify the decision:
 
-![viewresponsesbuttons](../../../../../../../static/img/product_docs/accessinformationcenter/access/informationcenter/resourcereviews/window/viewresponsesbuttons.webp)
+![viewresponsesbuttons](/img/product_docs/accessinformationcenter/access/informationcenter/resourcereviews/window/viewresponsesbuttons.webp)
 
 | Button     | Description                                          |
 | ---------- | ---------------------------------------------------- |

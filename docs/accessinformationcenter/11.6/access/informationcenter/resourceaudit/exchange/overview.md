@@ -4,7 +4,7 @@ Exchange reports are accessed through the Resource Audit interface. Explore the 
 by expanding the levels within the Resources pane and selecting the desired resource. The data
 within these reports is collected by the Enterprise Auditor Exchange solution. See the Exchange
 Solution topic in the
-[Netwrix Enterprise Auditor Documentation](https://helpcenter.netwrix.com/category/enterpriseauditor)
+[Netwrix Enterprise Auditor Documentation](https://helpcenter.netwrix.com/category/accessanalyzer)
 for additional information.
 
 A single Exchange Server can have multiple instances. Each instance where data is collected has its

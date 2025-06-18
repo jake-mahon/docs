@@ -11,35 +11,35 @@ import options:
 - Load—Certain taxonomies are provided out-of-the-box these can be fully used as part of the product
   or simply used as a reference for regular expression and metadata clues.
 
-![addtaxonomies](../../../../../../static/img/product_docs/dataclassification/ndc/admin/taxonomies/addtaxonomies.webp)
+![addtaxonomies](/img/product_docs/dataclassification/ndc/admin/taxonomies/addtaxonomies.webp)
 
 [](#)Merge SQL Taxonomies
 
 SQL taxonomies also be easily merged / updated from the Global Settings page. Select the Update link
 for the taxonomy that you wish to update to load the taxonomy merge wizard:
 
-![mergesqltaxonomyupdatelink](../../../../../../static/img/product_docs/dataclassification/ndc/admin/taxonomies/mergesqltaxonomyupdatelink.webp)
+![mergesqltaxonomyupdatelink](/img/product_docs/dataclassification/ndc/admin/taxonomies/mergesqltaxonomyupdatelink.webp)
 
 Predefined taxonomies can be updated from the latest built-in definition or from an XML file in the
 standard taxonomy format:
 
-![mergesqltaxonomystage1_thumb_0_0](../../../../../../static/img/product_docs/dataclassification/ndc/admin/taxonomies/mergesqltaxonomystage1_thumb_0_0.webp)
+![mergesqltaxonomystage1_thumb_0_0](/img/product_docs/dataclassification/ndc/admin/taxonomies/mergesqltaxonomystage1_thumb_0_0.webp)
 
 The merge operation will automatically add any new terms, update the clues of existing terms, and
 when enabled delete terms that no longer exist in the new taxonomy definition.
 
-![mergesqltaxonomystage2_thumb_0_0](../../../../../../static/img/product_docs/dataclassification/ndc/admin/taxonomies/mergesqltaxonomystage2_thumb_0_0.webp)
+![mergesqltaxonomystage2_thumb_0_0](/img/product_docs/dataclassification/ndc/admin/taxonomies/mergesqltaxonomystage2_thumb_0_0.webp)
 
 Custom clues can be retained by selecting the option Retain custom clues. When enabled any clues not
 defined as Predefined will be retained. The Predefined flag can be viewed by selecting the "i" icon
 for a clue to display the following dialog:
 
-![cluelabelreference](../../../../../../static/img/product_docs/dataclassification/ndc/admin/taxonomies/cluelabelreference.webp)
+![cluelabelreference](/img/product_docs/dataclassification/ndc/admin/taxonomies/cluelabelreference.webp)
 
 Any predefined taxonomies that have been previously loaded will show an asterisk indicator when an
 update is available (post upgrade):
 
-![mergesqltaxonomypredefinedindicator](../../../../../../static/img/product_docs/dataclassification/ndc/admin/taxonomies/mergesqltaxonomypredefinedindicator.webp)
+![mergesqltaxonomypredefinedindicator](/img/product_docs/dataclassification/ndc/admin/taxonomies/mergesqltaxonomypredefinedindicator.webp)
 
 **NOTE:** The merge operation relies on matching the source definition to the destination
 definition - utilising the Term Id (GUID). If there are no matching ids then the merge operation
@@ -54,7 +54,7 @@ associated user guide available via documentation downloads).
 
 Existing taxonomies can be managed via the Global Settings tab:
 
-![taxonomyglobalsettings_thumb_0_0](../../../../../../static/img/product_docs/dataclassification/ndc/admin/taxonomies/taxonomyglobalsettings_thumb_0_0.webp)
+![taxonomyglobalsettings_thumb_0_0](/img/product_docs/dataclassification/ndc/admin/taxonomies/taxonomyglobalsettings_thumb_0_0.webp)
 
 Taxonomies can be exported as XML regardless of the taxonomy type, as well as removed. When removing
 SharePoint Term Set registrations the source Term Set remains intact - all that is removed is a link
@@ -92,7 +92,7 @@ The wizard is started run by right-clicking a node within the treeview and selec
 Update". Updates can be performed across the whole taxonomy by right-clicking the root node or
 scoped to a particular branch by right-clicking the top node of the intended branch:
 
-![bulkupdatetreeview](../../../../../../static/img/product_docs/dataclassification/ndc/admin/taxonomies/bulkupdatetreeview.webp)
+![bulkupdatetreeview](/img/product_docs/dataclassification/ndc/admin/taxonomies/bulkupdatetreeview.webp)
 
 The wizard will then walk you through performing the update. Each update will allow you to restrict
 the scope of your change by specifying:
@@ -105,7 +105,7 @@ The update can either be performed immediately or in "report-only" mode. When re
 used the scope of changes will be specified to the end-user—the end-user can then choose to commit
 the update which will perform the changes (or, leave the update if the scope was incorrect).
 
-![bulkupdate_thumb_0_0](../../../../../../static/img/product_docs/dataclassification/ndc/admin/taxonomies/bulkupdate_thumb_0_0.webp)
+![bulkupdate_thumb_0_0](/img/product_docs/dataclassification/ndc/admin/taxonomies/bulkupdate_thumb_0_0.webp)
 
 All updates, report-only or otherwise, can be found under the "Bulk Updates" tab. Updates are queued
 and processed in the background with the results exposed through this interface.
@@ -115,11 +115,11 @@ and processed in the background with the results exposed through this interface.
 To manage the term set, select the taxonomy you need, then in the taxonomy tree browse to the
 required term set and click the **Term Management** tab on the right.
 
-![term_management_thumb_0_0](../../../../../../static/img/product_docs/dataclassification/ndc/admin/taxonomies/term_management_thumb_0_0.webp)
+![term_management_thumb_0_0](/img/product_docs/dataclassification/ndc/admin/taxonomies/term_management_thumb_0_0.webp)
 
 Then you can work with the tabs you need, including Search, Browse and Working Set tabs.
 
 Review the following for additional information:
 
-- [Classifications](classifications.md)
-- [Calculations](calculations.md)
+- [Classifications](/docs/dataclassification/5.7/ndc/admin/taxonomies/classifications.md)
+- [Calculations](/docs/dataclassification/5.7/ndc/admin/taxonomies/calculations.md)

@@ -14,10 +14,10 @@ can be created manually in Step 3 or again selected from the list of available r
 
 In Step 4, the **Edit Schedule** button allows Groups and/or Devices to be added to the schedule.
 
-![PlannedChangeRulesExample](../../../../../../static/img/product_docs/changetracker/changetracker/admin/wizards/plannedchangerulesexample.webp)
+![PlannedChangeRulesExample](/img/product_docs/changetracker/changetracker/admin/wizards/plannedchangerulesexample.webp)
 
 **NOTE:** If you want to let Netwrix Change Tracker self-learn rules by recording change activity
 during the schedule, check the **In Event Recording Mode** box.
 
-![PlannedChangeEventRecordingMode](../../../../../../static/img/product_docs/changetracker/changetracker/admin/wizards/plannedchangeeventrecordingmode.webp)
-![page_guide_35](../../../../../../static/img/product_docs/changetracker/changetracker/admin/wizards/page_guide_35.webp)
+![PlannedChangeEventRecordingMode](/img/product_docs/changetracker/changetracker/admin/wizards/plannedchangeeventrecordingmode.webp)
+![page_guide_35](/img/product_docs/changetracker/changetracker/admin/wizards/page_guide_35.webp)

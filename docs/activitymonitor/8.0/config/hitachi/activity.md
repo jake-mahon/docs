@@ -42,10 +42,10 @@ Configuration Checklist
 Complete the following checklist prior to configuring activity monitoring of Hitachi devices.
 Instructions for each item of the checklist are detailed within the following topics.
 
-Checklist Item 1: [Configure Audit Logs on HNAS](configurelogs.md)
+Checklist Item 1: [Configure Audit Logs on HNAS](/docs/activitymonitor/8.0/config/hitachi/configurelogs.md)
 
 Checklist Item 2:
-[Configure Access to HNAS Audit Logs on Activity Agent Server](configureaccesstologs.md)
+[Configure Access to HNAS Audit Logs on Activity Agent Server](/docs/activitymonitor/8.0/config/hitachi/configureaccesstologs.md)
 
 Checklist Item 3: Activity Monitor Configuration
 

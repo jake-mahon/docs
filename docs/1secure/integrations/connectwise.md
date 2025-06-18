@@ -18,9 +18,9 @@ Image keys:
 
 | Icon                                                                                                                      | Description                                                                            |
 | ------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------- |
-| ![alerts_editicon](../../../static/img/product_docs/1secure/integration/alerts_editicon.webp)                             | Edit Icon. Click the Edit Icon to edit the settings of the integration type.           |
-| ![alerts_connectwisesprocketpng](../../../static/img/product_docs/1secure/integration/alerts_connectwisesprocketpng.webp) | ConnectWise Icon. Click the ConnectWise icon to make the settings for the ConnectWise. |
-| ![deletebutton](../../../static/img/product_docs/1secure/integration/deletebutton.webp)                                   | Bin Icon. Click the Bin icon to delete the ConnectWise integration                     |
+| ![alerts_editicon](/img/product_docs/1secure/integration/alerts_editicon.webp)                             | Edit Icon. Click the Edit Icon to edit the settings of the integration type.           |
+| ![alerts_connectwisesprocketpng](/img/product_docs/1secure/integration/alerts_connectwisesprocketpng.webp) | ConnectWise Icon. Click the ConnectWise icon to make the settings for the ConnectWise. |
+| ![deletebutton](/img/product_docs/1secure/integration/deletebutton.webp)                                   | Bin Icon. Click the Bin icon to delete the ConnectWise integration                     |
 
 ## Add a ConnectWise Company in a System
 
@@ -29,11 +29,11 @@ Follow the steps to add a ConnectWise company in Netwrix 1Secure.
 **Step 1 –** Go to **Configuration** > **Integrations** and click the **Add** icon to add the
 ConnectWise company.
 
-![Integration Type pane](../../../static/img/product_docs/1secure/integration/integrationtypewindowconnectwise.webp)
+![Integration Type pane](/img/product_docs/1secure/integration/integrationtypewindowconnectwise.webp)
 
 **Step 2 –** Click **ConnectWise** and then click **Next**.
 
-![Configure connection pane](../../../static/img/product_docs/1secure/integration/integrationconfigureconnectionconnectwise.webp)
+![Configure connection pane](/img/product_docs/1secure/integration/integrationconfigureconnectionconnectwise.webp)
 
 **Step 3 –** In the Configure Connection window, enter information in the required fields.
 
@@ -52,7 +52,7 @@ information.
 
 The ConnectWise company is added now. The status displays "Ok" in green.
 
-![Integrations List](../../../static/img/product_docs/1secure/integration/connectwise.webp)
+![Integrations List](/img/product_docs/1secure/integration/connectwise.webp)
 
 Use the Edit icon or the Bin icon to edit or delete the integration.
 
@@ -62,7 +62,7 @@ After adding your ConnectWise company, you can link it to your organization and 
 settings.
 
 Also, when you add a new organization, you can specify your ConnectWise company from the start. See
-the [Add Organizations](../admin/organizations/addorganizations.md) topic for additional
+the [Add Organizations](/docs/1secure/admin/organizations/addorganizations.md) topic for additional
 information.
 
 Follow the steps to manage delivery settings for ConnectWise.
@@ -72,7 +72,7 @@ Follow the steps to manage delivery settings for ConnectWise.
 **Step 2 –** Click the ConnectWise icon under the Delivery Settings. The ConnectWise Delivery
 Settings pane is displayed.
 
-![ConnectWise Delivery Settings](../../../static/img/product_docs/1secure/integration/alerts_connectwisedeliverysettings.webp)
+![ConnectWise Delivery Settings](/img/product_docs/1secure/integration/alerts_connectwisedeliverysettings.webp)
 
 **Step 3 –** Toggle on the Enabled button to enable the ConnectWise delivery.
 

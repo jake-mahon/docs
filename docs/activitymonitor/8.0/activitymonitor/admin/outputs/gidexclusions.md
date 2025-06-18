@@ -6,18 +6,18 @@ modified. These settings are initially configured when the output is added.
 Select an output for a Linux host on the Monitored Hosts tab and click **Edit** to open the output
 Properties window.
 
-![gidexclusionstab](../../../../../../static/img/product_docs/activitymonitor/activitymonitor/admin/outputs/gidexclusionstab.webp)
+![gidexclusionstab](/img/product_docs/activitymonitor/activitymonitor/admin/outputs/gidexclusionstab.webp)
 
 The tab contains the following settings:
 
 - Add – Opens the Add or Edit GID window to add a group for exclusion. See the
-  [Add or Edit GID Window](window/addeditgid.md) topic for additional information.
+  [Add or Edit GID Window](/docs/activitymonitor/8.0/activitymonitor/admin/outputs/window/addeditgid.md) topic for additional information.
 - Remove – Removes the selected group from exclusion. Confirmation is not requested.
 
     **CAUTION:** If an account is removed by group, use the **Cancel** button to discard the change.
 
 - Edit – Opens the Add or Edit GID window to edit a selected group for exclusion. See the
-  [Add or Edit GID Window](window/addeditgid.md) topic for additional information.
+  [Add or Edit GID Window](/docs/activitymonitor/8.0/activitymonitor/admin/outputs/window/addeditgid.md) topic for additional information.
 
 The table lists groups that are being excluded from monitoring, displayed in the GID column. By
 default, no groups are being excluded.

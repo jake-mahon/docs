@@ -18,7 +18,7 @@ article for additional information on kerberoasting.
 
 The Configuration section on a Job's overview page allows you to easily modify any customizable
 parameters used by analysis tasks in the job. See the
-[Parameter Configuration](../../../admin/jobs/job/overview.md#parameter-configuration) topic for
+[Parameter Configuration](/docs/accessanalyzer/12.0/admin/jobs/job/overview.md#parameter-configuration) topic for
 instructions on how to edit parameters on a job overview page.
 
 The AD_KerberoastingRisk job has the following configurable parameters:
@@ -39,7 +39,7 @@ and select **Analysis** to view the analysis tasks.
 **CAUTION:** Do not modify or deselect the selected analysis tasks. The analysis tasks are
 preconfigured for this job.
 
-![Analysis Tasks for the AD_KerberoastingRisk Job](../../../../../../static/img/product_docs/accessanalyzer/solutions/activedirectory/domains/kerberoastingriskanalysis.webp)
+![Analysis Tasks for the AD_KerberoastingRisk Job](/img/product_docs/accessanalyzer/solutions/activedirectory/domains/kerberoastingriskanalysis.webp)
 
 The default analysis tasks are:
 

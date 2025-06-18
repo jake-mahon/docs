@@ -22,7 +22,7 @@ and close the window. The task is visible in the Schedule Actions view, at the S
 The Schedule page is for setting the schedule of when and how often the task will run. This tab
 needs to be properly configured for every scheduled task.
 
-![Schedule wizard page](../../../../../static/img/product_docs/threatprevention/threatprevention/admin/configuration/databasemaintenance/schedule.webp)
+![Schedule wizard page](/img/product_docs/threatprevention/threatprevention/admin/configuration/databasemaintenance/schedule.webp)
 
 The options on the Schedule page are:
 
@@ -30,7 +30,7 @@ The options on the Schedule page are:
 - Edit – Edits the selected Trigger in the Schedule view
 - Delete – Deletes the selected trigger
 
-![Trigger window](../../../../../static/img/product_docs/accessanalyzer/admin/schedule/triggerwindow.webp)
+![Trigger window](/img/product_docs/accessanalyzer/admin/schedule/triggerwindow.webp)
 
 The options in the Trigger window are:
 
@@ -57,7 +57,7 @@ Access Analyzer task scheduling. See the Microsoft
 [Task Scheduler Overview](https://technet.microsoft.com/en-us/library/cc721871.aspx) article for
 additional information.
 
-![Trigger window Advanced settings](../../../../../static/img/product_docs/accessanalyzer/admin/schedule/triggerwindowadvancedsettings.webp)
+![Trigger window Advanced settings](/img/product_docs/accessanalyzer/admin/schedule/triggerwindowadvancedsettings.webp)
 
 The options in the Advanced settings section are:
 
@@ -70,7 +70,7 @@ The options in the Advanced settings section are:
 The Host List page identifies the host list the task being scheduled queries. Customizations to the
 configuration of this tab is optional.
 
-![Host List wizard page](../../../../../static/img/product_docs/accessanalyzer/admin/schedule/hostlist.webp)
+![Host List wizard page](/img/product_docs/accessanalyzer/admin/schedule/hostlist.webp)
 
 Choose the desired setting from the following options:
 
@@ -87,7 +87,7 @@ All** and **Clear All** links provide for quick selection and deselection.
 The Connection page identifies the Connection Profile that is applied to the targeted hosts being
 queried by the task being scheduled. Customizations to the configuration of this tab is optional.
 
-![Connection wizard page](../../../../../static/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/connection.webp)
+![Connection wizard page](/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/connection.webp)
 
 Choose the desired setting from the following options:
 
@@ -105,9 +105,9 @@ Choose the desired setting from the following options:
 
 Select the Schedule Service account to run this task with on the Run as wizard page. To create or
 edit Schedule Service accounts, go to the **Settings** > **Schedule** node. See the
-[Schedule](../settings/schedule.md) topic for additional information.
+[Schedule](/docs/accessanalyzer/12.0/admin/settings/schedule.md) topic for additional information.
 
-![Run as wizard page](../../../../../static/img/product_docs/accessanalyzer/admin/schedule/runas.webp)
+![Run as wizard page](/img/product_docs/accessanalyzer/admin/schedule/runas.webp)
 
 The options on the Run as wizard page are:
 
@@ -124,14 +124,14 @@ The options on the Run as wizard page are:
       new password
     - If you rename a task (job, job group, Host Discovery query, or Host Inventory query) after it
       has been scheduled using custom credentials, then the Rename Scheduled Task wizard displays
-      for you to update these credentials. See the [Rename Scheduled Task Wizard](renamewizard.md)
+      for you to update these credentials. See the [Rename Scheduled Task Wizard](/docs/accessanalyzer/12.0/admin/schedule/renamewizard.md)
       topic for additional information.
 
 ## Options
 
 Configure additional options for the task on the Options wizard page.
 
-![Options wizard page](../../../../../static/img/product_docs/accessanalyzer/install/application/options.webp)
+![Options wizard page](/img/product_docs/accessanalyzer/install/application/options.webp)
 
 The configurable options are:
 

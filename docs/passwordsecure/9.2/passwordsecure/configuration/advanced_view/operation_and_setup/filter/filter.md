@@ -16,7 +16,7 @@ The following option is required for editing filters:
 
 - Can edit filter
 
-![Filter](../../../../../../../../static/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/operation_and_setup/filter/installation_with_parameters_10-en.webp)
+![Filter](/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/operation_and_setup/filter/installation_with_parameters_10-en.webp)
 
 ## Who is allowed to use the filter?
 
@@ -24,11 +24,11 @@ The filter is an indispensable working tool because of the possibility to restri
 according to individual requirements. Consequently, all users can use the filter. It is, of course,
 possible to place restrictions for filter criteria. This means that the filter criteria available to
 individual employees can be restricted by means of
-[Authorization and protection mechanisms](../../../web_applicaiton/authorization_and_protection/authorization_and_protection_mechanisms.md).
-For example, an employee can only filter for the [Forms](../../clientmodule/forms/forms.md) password
+[Authorization and protection mechanisms](/docs/passwordsecure/9.2/passwordsecure/configuration/web_applicaiton/authorization_and_protection/authorization_and_protection_mechanisms.md).
+For example, an employee can only filter for the [Forms](/docs/passwordsecure/9.2/passwordsecure/configuration/advanced_view/clientmodule/forms/forms.md) password
 if he has the read permission for that form.
 
-**CAUTION:** There are no permissions for [Tags](../tags/tags.md). This means that any employee can
+**CAUTION:** There are no permissions for [Tags](/docs/passwordsecure/9.2/passwordsecure/configuration/advanced_view/operation_and_setup/tags/tags.md). This means that any employee can
 use any tags. The display order in the filter is determined by the frequency of use. This process is
 not critical to security, since tags do not grant any permissions. They are merely a supportive
 measure for filtering.
@@ -42,7 +42,7 @@ of all the records corresponding to the criteria is displayed in the list view. 
 filter without criteria, you would obtain a list of all records to which you generally have
 authorization.
 
-![editing criteria](../../../../../../../../static/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/operation_and_setup/filter/installation_with_parameters_11-en.webp)
+![editing criteria](/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/operation_and_setup/filter/installation_with_parameters_11-en.webp)
 
 As you can see, 133 records are not really manageable. In most situations you will need to reduce
 the number of records by adding filters.
@@ -57,7 +57,7 @@ restrictions, which could be formulated as in the following sentence: “Deliver
 own passwords that were created with the form **password** and which contain the expression **2016**
 and the tag **Administrator**.
 
-![Adding filter criteria](../../../../../../../../static/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/operation_and_setup/filter/installation_with_parameters_12-en.webp)
+![Adding filter criteria](/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/operation_and_setup/filter/installation_with_parameters_12-en.webp)
 
 As can be seen, the filter delivers the desired results. The extent to which the filter criteria
 match the three remaining data sets is assigned in colour.
@@ -77,9 +77,9 @@ content filter configuration in a modal window. As can be seen, the content filt
 configured to only search in the form **password** and then only in the form field **Internet
 address:**
 
-![installation_with_parameters_13](../../../../../../../../static/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/operation_and_setup/filter/installation_with_parameters_13.webp)
+![installation_with_parameters_13](/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/operation_and_setup/filter/installation_with_parameters_13.webp)
 
-![Content filter](../../../../../../../../static/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/operation_and_setup/filter/installation_with_parameters_14-en.webp)
+![Content filter](/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/operation_and_setup/filter/installation_with_parameters_14-en.webp)
 
 It is very easy to abstract, because of the present example, that the filter can be adapted to your
 personal requirements. It is thus the most important tool to be able to retrieve data once stored in

@@ -20,7 +20,7 @@ version, and only then upgrade Netwrix Password Reset to v3.3 (or later).
 
 Older versions of Netwrix Password Policy Enforcer can still enforce the policy, but Netwrix
 Password Reset 3.3 will not get the policy and rejection messages or enforce the Similarity rule
-from Netwrix Password Policy Enforcer versions older than 9.0. See the [General Tab](general_tab.md)
+from Netwrix Password Policy Enforcer versions older than 9.0. See the [General Tab](/docs/passwordreset/3.3/passwordreset/administration/general_tab.md)
 topic for more information.
 
 • **Option to enable PPC protocol encryption** — Due to a protocol upgrade, it is now recommended to
@@ -31,7 +31,7 @@ Please do not enable this option if you are using Netwrix Password Reset v3.3 wi
 Policy Enforcer v8.x or earlier versions, or with Netwrix Password Policy Enforcer/Web. If you are
 using Netwrix Password Reset v3.3 with any of those older versions of Netwrix Password Policy
 Enforcer, please consider upgrading first to a current and supported version. See the
-[General Tab](general_tab.md) topic for more information.
+[General Tab](/docs/passwordreset/3.3/passwordreset/administration/general_tab.md) topic for more information.
 
 • **Enabled ‘ServerMayChangeIPAddress’ for PPC queries** — This ensures that Netwrix Password Reset
 always displays the policy or rejection message if it queried a domain controller with more than one

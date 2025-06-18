@@ -23,7 +23,7 @@ It also provides the ability to feed activity data to other Netwrix products:
 
 Prior to adding a SharePoint host to the Activity Monitor, the prerequisites for the target
 environment must be met. See the
-[SharePoint On-Premise Activity Auditing Configuration](../../../../config/sharepoint/activity.md)
+[SharePoint On-Premise Activity Auditing Configuration](/docs/activitymonitor/8.0/config/sharepoint/activity.md)
 topic for additional information.
 
 _Remember,_ the Activity Agent must be deployed to the SharePoint Application server that hosts the
@@ -36,17 +36,17 @@ Follow the steps to add a SharePoint host to be monitored.
 **Step 1 –** In Activity Monitor, go to the Monitored Hosts tab and click Add. The Add New Host
 window opens.
 
-![Choose Agent page](../../../../../../../static/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/chooseagent.webp)
+![Choose Agent page](/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/chooseagent.webp)
 
 **Step 2 –** On the Choose Agent page, select the Agent deployed on the SharePoint Application
 server that hosts the “Central Administration” component. Click **Next**.
 
-![Add Host page with SharePoint selected](../../../../../../../static/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/addhostsharepoint.webp)
+![Add Host page with SharePoint selected](/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/addhostsharepoint.webp)
 
 **Step 3 –** On the Add Host page, select the SharePoint radio button. If desired, add a Comment.
 Click **Next**.
 
-![Add Host - SharePoint Options page](../../../../../../../static/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/sharepointoptions.webp)
+![Add Host - SharePoint Options page](/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/sharepointoptions.webp)
 
 **Step 4 –** On the SharePoint Options page, choose to audit all sites or scope the monitoring to
 specific site(s):
@@ -68,17 +68,17 @@ specific site(s):
 
 Click **Next**.
 
-![Configure Operations page for SharePoint](../../../../../../../static/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/configureoperationssharepoint.webp)
+![Configure Operations page for SharePoint](/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/configureoperationssharepoint.webp)
 
 **Step 5 –** On the Configure Operations page, select the SharePoint Operations and Permissions
 Operations to be monitored. Click **Next**.
 
-![Where to log the activity page](../../../../../../../static/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/wheretologgeneric.webp)
+![Where to log the activity page](/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/wheretologgeneric.webp)
 
 **Step 6 –** On the Where To Log The Activity page, select whether to send the activity to either a
 **Log File)** or **Syslog Server**. Click **Next**.
 
-![File Output Page](../../../../../../../static/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/fileoutputpage.webp)
+![File Output Page](/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/fileoutputpage.webp)
 
 **Step 7 –** If **Log File** is selected on the **Where To Log The Activity** page, the **File
 Output** page can be configured.
@@ -101,7 +101,7 @@ Output** page can be configured.
 
 Click **Next**.
 
-![Syslog Output Page](../../../../../../../static/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/syslogoutputpage.webp)
+![Syslog Output Page](/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/syslogoutputpage.webp)
 
 **Step 8 –** If Syslog Server is selected on the **Where To Log The Activity** page, the Syslog
 Output page can be configured. The configurable options are:
@@ -119,7 +119,7 @@ Output page can be configured. The configurable options are:
     - TLS
 
     The TCP and TLS protocols add the Message framing drop-down menu. See the
-    [Syslog Tab](../../outputs/syslog.md) topic for additional information.
+    [Syslog Tab](/docs/activitymonitor/8.0/activitymonitor/admin/outputs/syslog.md) topic for additional information.
 
 - The Test button sends a test message to the Syslog server to check the connection. A green check
   mark or red will determine whether the test message has been sent or failed to send. Messages vary
@@ -129,14 +129,14 @@ Output page can be configured. The configurable options are:
     - TCP/TLS – Sends test message and verifies connection
     - TLS – Shows error if TLS handshake fails
 
-    See the [Syslog Tab](../../outputs/syslog.md) topic for additional information.
+    See the [Syslog Tab](/docs/activitymonitor/8.0/activitymonitor/admin/outputs/syslog.md) topic for additional information.
 
 Click Finish.
 
-![Activity Monitor with SharePoint host added](../../../../../../../static/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/activitymonitorsharepoint.webp)
+![Activity Monitor with SharePoint host added](/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/add/activitymonitorsharepoint.webp)
 
 The added SharePoint host is displayed in the monitored hosts table. Once a host has been added for
-monitoring, configure the desired ouptuts. See the [Output for Monitored Hosts](../output.md) topic
+monitoring, configure the desired ouptuts. See the [Output for Monitored Hosts](/docs/activitymonitor/8.0/activitymonitor/admin/monitoredhosts/output.md) topic
 for additional information.
 
 ## Host Properties for SharePoint
@@ -144,7 +144,7 @@ for additional information.
 Configuration settings can be edited through the tabs in the host’s Properties window. The
 configurable host properties are:
 
-- [SharePoint Tab](../properties/sharepoint.md)
-- [Inactivity Alerts Tab](../properties/inactivityalerts.md)
+- [SharePoint Tab](/docs/activitymonitor/8.0/activitymonitor/admin/monitoredhosts/properties/sharepoint.md)
+- [Inactivity Alerts Tab](/docs/activitymonitor/8.0/activitymonitor/admin/monitoredhosts/properties/inactivityalerts.md)
 
-See the [Host Properties Window](../properties/overview.md) topic for additional information.
+See the [Host Properties Window](/docs/activitymonitor/8.0/activitymonitor/admin/monitoredhosts/properties/overview.md) topic for additional information.

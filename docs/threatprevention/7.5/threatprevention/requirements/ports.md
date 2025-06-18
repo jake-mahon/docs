@@ -2,15 +2,15 @@
 
 The following default ports are required for Threat Prevention functionality unless modified as per
 network requirements. If choosing the Create Windows Firewall Rules option either in step 6 of the
-[Application Server Install](../install/application.md), in step 6 of the
-[Administration Console Remote Install](../install/adminconsole.md), on the Set Options page of the
-[Deploy Agents Wizard](../admin/agents/deploy/overview.md#deploy-agents-wizard), or in step 7 of a
-[Manual Agent Deployment](../install/agent/manual.md), then Threat Prevention will create the
+[Application Server Install](/docs/threatprevention/7.5/threatprevention/install/application.md), in step 6 of the
+[Administration Console Remote Install](/docs/threatprevention/7.5/threatprevention/install/adminconsole.md), on the Set Options page of the
+[Deploy Agents Wizard](/docs/threatprevention/7.5/threatprevention/admin/agents/deploy/overview.md#deploy-agents-wizard), or in step 7 of a
+[Manual Agent Deployment](/docs/threatprevention/7.5/threatprevention/install/agent/manual.md), then Threat Prevention will create the
 necessary Windows firewall rules. If using a third party firewall, it will be necessary to manually
 set these.
 
 **NOTE:** SIEM ports are configured when SIEM alerting is enabled in Threat Prevention. See the
-[System Alerting Window](../admin/configuration/systemalerting/overview.md) topic for additional
+[System Alerting Window](/docs/threatprevention/7.5/threatprevention/admin/configuration/systemalerting/overview.md) topic for additional
 information.
 
 ## Enterprise Manager Firewall Rules
@@ -121,7 +121,7 @@ are required for communication between the Agent server and the Netwrix Activity
 The Windows firewall rules need to be configured on the Windows server, which require certain
 inbound rules be created if the scans are running in applet mode. These scans operate over a default
 port range, which cannot be specified via an inbound rule. For more information, see the Microsoft
-[Connecting to WMI on a Remote Computer](<https://msdn.microsoft.com/en-us/library/windows/desktop/aa389290(v=vs.85).aspx>)
+[Connecting to WMI on a Remote Computer](https://msdn.microsoft.com/en-us/library/windows/desktop/aa389290(v=vs.85).aspx)
 article.
 
 Dell Celerra & Dell VNX Devices Additional Firewall Rules

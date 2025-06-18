@@ -21,11 +21,11 @@ Follow the steps to add an organization group.
 
 **Step 1 –** Navigate to the **Configuration** > **Organization groups** page.
 
-![organizationggroups](../../../../static/img/product_docs/1secure/admin/organizations/organizationggroups.webp)
+![organizationggroups](/img/product_docs/1secure/admin/organizations/organizationggroups.webp)
 
 **Step 2 –** Click **Create group**. The New Group pane is displayed.
 
-![createorganizationgroup](../../../../static/img/product_docs/1secure/admin/organizations/createorganizationgroup.webp)
+![createorganizationgroup](/img/product_docs/1secure/admin/organizations/createorganizationgroup.webp)
 
 **Step 3 –** Specify the following:
 
@@ -56,7 +56,7 @@ Follow the steps to modify an organization group.
 
 **Step 1 –** Navigate to the **Configuration** > **Organization groups** page.
 
-![modifyorganizationgroup](../../../../static/img/product_docs/1secure/admin/organizations/modifyorganizationgroup.webp)
+![modifyorganizationgroup](/img/product_docs/1secure/admin/organizations/modifyorganizationgroup.webp)
 
 **Step 2 –** Click the Edit icon for the organization group you want to modify. The Editing Group
 `<group name>` pane is displayed.

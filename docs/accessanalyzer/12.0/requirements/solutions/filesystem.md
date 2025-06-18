@@ -2,10 +2,10 @@
 
 The core components for Netwrix Access Analyzer (formerly Enterprise Auditor) are the Access
 Analyzer Console server, SQL Server, and Access Information Center. See the
-[Requirements](../overview.md) topic for the core requirements.
+[Requirements](/docs/accessanalyzer/12.0/requirements/overview.md) topic for the core requirements.
 
 The File System solution can be configure to use Proxy servers either an applet or as a service. See
-the [File System Scan Options](filesystem/scanoptions.md) topic for additional information.
+the [File System Scan Options](/docs/accessanalyzer/12.0/requirements/solutions/filesystem/scanoptions.md) topic for additional information.
 
 In addition to these, integration with either the Netwrix Activity Monitor or the Netwrix Threat
 Prevention is required for event activity data to be scanned. See the
@@ -16,8 +16,8 @@ for installation requirements and information on collecting activity data.
 
 See the following topics for target environment requirements:
 
-- [File System Scan Options](filesystem/scanoptions.md)
-- [File System Supported Platforms](../target/filesystems.md)
+- [File System Scan Options](/docs/accessanalyzer/12.0/requirements/solutions/filesystem/scanoptions.md)
+- [File System Supported Platforms](/docs/accessanalyzer/12.0/requirements/target/filesystems.md)
 
 ## File System Solution Requirements on the Access Analyzer Console
 
@@ -91,8 +91,8 @@ installation directory. This is required by either the user account running the 
 application, when manually executing jobs from the console, or the Schedule Service Account assigned
 within Access Analyzer, when running jobs as a scheduled tasks.
 
-See the [File System Scan Options](filesystem/scanoptions.md) topic and the
-[File System Supported Platforms](../target/filesystems.md) topic for permissions required to scan
+See the [File System Scan Options](/docs/accessanalyzer/12.0/requirements/solutions/filesystem/scanoptions.md) topic and the
+[File System Supported Platforms](/docs/accessanalyzer/12.0/requirements/target/filesystems.md) topic for permissions required to scan
 the environment.
 
 ## File System Solution Requirements on the SQL Server

@@ -2,6 +2,6 @@
 
 The following reports are displayed at the **Databases** node:
 
-- [Activity Report](activity.md)
+- [Activity Report](/docs/accessinformationcenter/12.0/access/informationcenter/resourceaudit/sql/databases/activity.md)
 - Permissions – Displayed but not populated at the **Databases** node
-- [Sensitive Content Report](sensitivecontent.md)
+- [Sensitive Content Report](/docs/accessinformationcenter/12.0/access/informationcenter/resourceaudit/sql/databases/sensitivecontent.md)

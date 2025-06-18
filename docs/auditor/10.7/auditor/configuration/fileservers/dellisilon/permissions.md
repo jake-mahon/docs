@@ -55,4 +55,4 @@ To grant the necessary permissions to Isilon/PowerScale data collecting account 
 to perform all steps for manual audit configuration, otherwise the product will not function
 properly.
 
-See the [Normal and Enterprise Modes for Clusters](normal.md) topic for additional information.
+See the [Normal and Enterprise Modes for Clusters](/docs/auditor/10.7/auditor/configuration/fileservers/dellisilon/normal.md) topic for additional information.

@@ -4,9 +4,9 @@ The Dropbox source configuration screen allows you to enable the crawling and cl
 content stored in Dropbox cloud storage.
 
 **IMPORTANT!** Make sure you created App for Dropbox crawling before start adding the source.
-[See Configure Dropbox for Crawling for more information.](../../../configuration/configinfrastructure/dropbox.md)
+[See Configure Dropbox for Crawling for more information.](/docs/dataclassification/5.7/ndc/configuration/configinfrastructure/dropbox.md)
 
-![source_dropbox_thumb_0_0](../../../../../../../static/img/product_docs/dataclassification/ndc/admin/sources/dropbox/source_dropbox_thumb_0_0.webp)
+![source_dropbox_thumb_0_0](/img/product_docs/dataclassification/ndc/admin/sources/dropbox/source_dropbox_thumb_0_0.webp)
 
 Complete the following fields:
 

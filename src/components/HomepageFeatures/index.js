@@ -43,24 +43,29 @@ const ProductCategories = [
     icon: '👤',
     products: [
       {
-        name: 'UserCube',
+        name: 'Identity Manager 6.1',
         description: 'User provisioning and management',
-        link: '/docs/usercube',
+        link: '/docs/identitymanager/6.1',
       },
       {
-        name: 'UserCube SaaS',
+        name: 'Identity Manager 6.2',
+        description: 'User provisioning and management',
+        link: '/docs/identitymanager/6.2',
+      },
+      {
+        name: 'Identity Manager SaaS',
         description: 'Cloud-based user management',
-        link: '/docs/usercube_saas',
+        link: '/docs/identitymanager/saas',
       },
       {
-        name: 'GroupID',
+        name: 'Directory Manager',
         description: 'Active Directory group management',
-        link: '/docs/groupid',
+        link: '/docs/directorymanager',
       },
       {
-        name: 'StrongPoint',
+        name: 'Platform Governance for NetSuite',
         description: 'Platform governance and compliance',
-        link: '/docs/strongpointfornetsuite',
+        link: '/docs/platgovnetsuite',
       },
     ],
   },
@@ -75,9 +80,9 @@ const ProductCategories = [
         link: '/docs/privilegesecure',
       },
       {
-        name: 'Endpoint Privilege Manager',
-        description: 'Endpoint privilege management',
-        link: '/docs/policypak',
+        name: 'Endpoint Policy Manager',
+        description: 'Endpoint policy management',
+        link: '/docs/endpointpolicymanager',
       },
       {
         name: 'Password Secure',
@@ -97,9 +102,9 @@ const ProductCategories = [
         link: '/docs/auditor',
       },
       {
-        name: 'GroupID',
+        name: 'Directory Manager',
         description: 'Active Directory group management',
-        link: '/docs/groupid',
+        link: '/docs/directorymanager',
       },
       {
         name: 'Password Policy Enforcer',
@@ -119,9 +124,9 @@ const ProductCategories = [
         link: '/docs/endpointprotector',
       },
       {
-        name: 'PolicyPak',
+        name: 'Endpoint Policy Manager',
         description: 'Group Policy management and enforcement',
-        link: '/docs/policypak',
+        link: '/docs/endpointpolicymanager',
       },
       {
         name: 'Change Tracker',
@@ -210,24 +215,24 @@ const ProductCategories = [
         link: '/docs/passwordreset',
       },
       {
-        name: 'StrongPoint for NetSuite',
+        name: 'Platform Governance for NetSuite',
         description: 'NetSuite change management and compliance',
-        link: '/docs/strongpointfornetsuite',
+        link: '/docs/platgovnetsuite',
       },
       {
-        name: 'StrongPoint for Salesforce',
+        name: 'Platform Governance for Salesforce',
         description: 'Salesforce change management platform',
-        link: '/docs/strongpointforsalesforce',
+        link: '/docs/platgovsalesforce',
       },
       {
-        name: 'StrongPoint NetSuite Flashlight',
+        name: 'Platform Governance for NetSuite Flashlight',
         description: 'Lightweight NetSuite documentation and analysis',
-        link: '/docs/strongpointnetsuiteflashlight',
+        link: '/docs/platgovnetsuiteflashlight',
       },
       {
-        name: 'StrongPoint Salesforce Flashlight',
+        name: 'Platform Governance for Salesforce Flashlight',
         description: 'Lightweight Salesforce documentation and analysis',
-        link: '/docs/strongpointsalesforceflashlight',
+        link: '/docs/platgovsalesforceflashlight',
       },
     ],
   },

@@ -1,10 +1,10 @@
 # View Responses Window
 
 The View Responses window opens from the **View Response** button on the
-[Review Details Page](../interface.md#review-details-page) of the Resource Reviews interface. It
+[Review Details Page](/docs/accessinformationcenter/12.0/access/informationcenter/resourcereviews/interface.md#review-details-page) of the Resource Reviews interface. It
 displays all owner-recommended changes and notes for the selected resource.
 
-![View Responses window](../../../../../../../static/img/product_docs/accessinformationcenter/access/informationcenter/resourcereviews/viewresponses.webp)
+![View Responses window](/img/product_docs/accessinformationcenter/access/informationcenter/resourcereviews/viewresponses.webp)
 
 The information displayed in the table includes:
 
@@ -42,15 +42,15 @@ according to the type of review:
 - Sensitive Data — The only action that can be committed is to flag a file as a false positive for
   the selected criteria
 
-See the [Data Collection & Automation Prerequisites](../prerequisites.md) topic for additional
+See the [Data Collection & Automation Prerequisites](/docs/accessinformationcenter/12.0/access/informationcenter/resourcereviews/prerequisites.md) topic for additional
 information.
 
 The table data grid functions the same way as other table grids. See the
-[Data Grid Features](../../../general/datagrid.md) topic for additional information.
+[Data Grid Features](/docs/accessinformationcenter/12.0/access/general/datagrid.md) topic for additional information.
 
 Select an item in the table, and use the action buttons at the bottom to identify the decision:
 
-![viewresponsesbuttons](../../../../../../../static/img/product_docs/accessinformationcenter/access/informationcenter/resourcereviews/window/viewresponsesbuttons.webp)
+![viewresponsesbuttons](/img/product_docs/accessinformationcenter/access/informationcenter/resourcereviews/window/viewresponsesbuttons.webp)
 
 | Button     | Description                                                                                                                                                                                                                                                                          |
 | ---------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |

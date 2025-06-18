@@ -6,7 +6,7 @@ Follow the steps to add activities to the console.
 
 **Step 2 –** In the Activities list, click the Add Activity icon.
 
-![Add an Activity](../../../../../../../../static/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/add/addactivity.webp)
+![Add an Activity](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/add/addactivity.webp)
 
 **Step 3 –** Enter the information for the desired activity. The configuration options will vary
 depending on each selection.
@@ -39,7 +39,7 @@ options include:
 **Step 5 –** Click Save to create the new activity.
 
 **Step 6 –** With the new activity selected, configure the following settings. See the
-[Add Action Window](../window/activities/addaction.md) topic for additional information:
+[Add Action Window](/docs/privilegesecure/4.2/privilegesecure/accessmanagement/admin/policy/window/activities/addaction.md) topic for additional information:
 
 - Pre-Session (Grant) — List of actions that will run before the session begins. These actions may
   be paired with a corresponding Post-Session action.

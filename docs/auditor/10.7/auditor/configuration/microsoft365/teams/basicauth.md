@@ -10,7 +10,7 @@ user account will need an administrative role in the cloud-based infrastructure.
 
 | To...                                                                                                                 | Requirement                                                                                                                                                                                                                                  | Comment                                                                                                                                   |
 | --------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------- |
-| Create Microsoft Entra ID application, run initial data collection, and perform Auditor upgrade from previous version | Any of the following role combinations: - Application Administrator & Privileged Role Administrator & _Teams Administrator_ OR - Cloud Application Administrator & Privileged Role Administrator & _Teams Administrator_ OR - _Global Admin_ | Prepare a user account and specify it in the monitored item properties. See the [MS Teams](overview.md) topic for additional information. |
+| Create Microsoft Entra ID application, run initial data collection, and perform Auditor upgrade from previous version | Any of the following role combinations: - Application Administrator & Privileged Role Administrator & _Teams Administrator_ OR - Cloud Application Administrator & Privileged Role Administrator & _Teams Administrator_ OR - _Global Admin_ | Prepare a user account and specify it in the monitored item properties. See the [MS Teams](/docs/auditor/10.7/auditor/configuration/microsoft365/teams/overview.md) topic for additional information. |
 | Collect activity data                                                                                                 | Any of the following roles: _Application Administrator_ & _Teams Administrator_ OR _Cloud Application Administrator_ & _Teams Administrator_ OR _Global Admin_                                                                               |                                                                                                                                           |
 
 ## Assigning a Privileged Role for Microsoft Entra ID and Office 365
@@ -63,5 +63,5 @@ account with this privileged role on the Specify the account for collecting data
 
 A less privileged role has now been assigned to the account.
 
-See the [Permissions for Microsoft Entra ID Auditing](../microsoftentraid/permissions.md) topic for
+See the [Permissions for Microsoft Entra ID Auditing](/docs/auditor/10.7/auditor/configuration/microsoft365/microsoftentraid/permissions.md) topic for
 additional information.

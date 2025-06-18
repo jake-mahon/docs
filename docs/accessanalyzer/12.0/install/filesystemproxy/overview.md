@@ -22,7 +22,7 @@ using HTTPS requests.
 
 The version of the proxy service must match the major version of Access Analyzer.
 
-See the [File System Solution](../../requirements/solutions/filesystem.md) topic for information on
+See the [File System Solution](/docs/accessanalyzer/12.0/requirements/solutions/filesystem.md) topic for information on
 the required prerequisites.
 
 ## Supported Platforms
@@ -60,7 +60,7 @@ local mode-type scan to each of the target hosts. The final step in data collect
 and transfer the data collected in the SQLite databases, or Tier 2 databases, back to the Access
 Analyzer Console server.
 
-![Diagram of Enterprise Auditor server sending an FSAA applet to a proxy server](../../../../../static/img/product_docs/accessanalyzer/install/filesystemproxy/proxymodewithapplet.webp)
+![Diagram of Enterprise Auditor server sending an FSAA applet to a proxy server](/img/product_docs/accessanalyzer/install/filesystemproxy/proxymodewithapplet.webp)
 
 The diagram illustrates the Access Analyzer server sending an FSAA applet to a proxy server, which
 runs the scan against a file server, and then returns data to the Access Analyzer server.
@@ -87,9 +87,9 @@ Auditing Data Collector Wizard. The credential provided for the secure communica
 installation wizard is also added to the Access Analyzer Connection Profile assigned to the File
 System Solution.
 
-See the [File System Proxy Service Installation](wizard.md) topic for additional information.
+See the [File System Proxy Service Installation](/docs/accessanalyzer/12.0/install/filesystemproxy/wizard.md) topic for additional information.
 
-![Diagram of Enterprise Auditor server communicating securely with the proxy service on a proxy server](../../../../../static/img/product_docs/accessanalyzer/install/filesystemproxy/proxymodeasservicewithsecurerpc.webp)
+![Diagram of Enterprise Auditor server communicating securely with the proxy service on a proxy server](/img/product_docs/accessanalyzer/install/filesystemproxy/proxymodeasservicewithsecurerpc.webp)
 
 The diagram illustrates the Access Analyzer server communicating securely with the proxy service on
 a proxy server, which runs the scan against a file server, collecting the data locally and securely.
@@ -100,7 +100,7 @@ scanned across all proxy hosts. Access Analyzer monitors the scans from the cent
 all proxy hosts have completed scanning, all results and SQLite databases are returned to the Access
 Analyzer Console server.
 
-![Diagram of difference between an implementation with and without proxy servers](../../../../../static/img/product_docs/accessanalyzer/install/filesystemproxy/fsaaproxyarchitecture.webp)
+![Diagram of difference between an implementation with and without proxy servers](/img/product_docs/accessanalyzer/install/filesystemproxy/fsaaproxyarchitecture.webp)
 
 The diagram shows the difference between an implementation of Access Analyzer without proxy servers
 (on the left) and with proxy servers (on the right). On the right side of the diagram, the scans
@@ -113,7 +113,7 @@ The proxy functionality for the FSAA Data Collector provides security and reliab
 _Remember,_ It is recommended that the File System Proxy Service is installed on the proxy server
 before running File System scans in proxy mode as a service. Once installed, the FileSystemAccess
 (FSAA) Data Collector must be configured to use the service. See the
-[File System Data Collection Configuration for Proxy as a Service](configuredatacollector.md) topic
+[File System Data Collection Configuration for Proxy as a Service](/docs/accessanalyzer/12.0/install/filesystemproxy/configuredatacollector.md) topic
 for additional information.
 
 ## Sensitive Data Discovery Auditing Consideration

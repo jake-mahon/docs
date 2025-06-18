@@ -15,7 +15,7 @@ Console upon installation.
 Access Analyzer database. This may be a different account than the one used to connect Access
 Analyzer to the database. If the Access Analyzer Vault service is running, the account running the
 Web Server service must be an Access Analyzer Administrator. See the
-[Vault](../../../admin/settings/application/vault.md) topic for additional information.
+[Vault](/docs/accessanalyzer/12.0/admin/settings/application/vault.md) topic for additional information.
 
 The Web folder that the Access Analyzer installer places at the root of the Access Analyzer
 directory also contains a `WebServer.exe.config` file. This file contains configurable parameters.
@@ -23,7 +23,7 @@ directory also contains a `WebServer.exe.config` file. This file contains config
 **CAUTION:** If encryption methods have been configured for Kerberos on the Access Analyzer server
 but not on the service account running the Access Analyzer Web Server service, then users will not
 be able to log-in to the Web Console and will receive an error message. See the
-[Manage Kerberos Encryption Warning for the Web Console](kerberosencryption.md) topic for additional
+[Manage Kerberos Encryption Warning for the Web Console](/docs/accessanalyzer/12.0/install/application/reports/kerberosencryption.md) topic for additional
 information on configuring security polices to allow Kerberos encryption.
 
 ## Log into the Web Console
@@ -36,7 +36,7 @@ the username needs to be in the `domain\username` format.
 Access to reports in the Web Console can be managed through the Role Based Access feature of Access
 Analyzer (**Settings** > **Access**). The Web Administrator role and the Report Viewer role grant
 access to the published reports. See the
-[Role Based Access](../../../admin/settings/access/rolebased/overview.md) topic for addition
+[Role Based Access](/docs/accessanalyzer/12.0/admin/settings/access/rolebased/overview.md) topic for addition
 information.
 
 **NOTE:** Access to the AIC and other Netwrix products is controlled from within those products.
@@ -50,7 +50,7 @@ for additional information.
 
 **NOTE:** Any browser used to access the Web Console must have JavaScript allowed for the site. See
 the
-[Configure JavaScript Settings for the Web Console](../../../admin/settings/reporting.md#configure-javascript-settings-for-the-web-console)
+[Configure JavaScript Settings for the Web Console](/docs/accessanalyzer/12.0/admin/settings/reporting.md#configure-javascript-settings-for-the-web-console)
 topic for additional information.
 
 Follow the steps to login to the Web Console.
@@ -67,12 +67,12 @@ Follow the steps to login to the Web Console.
 
 **NOTE:** The URL that is used may need to be added to the browser’s list of trusted sites.
 
-![Web Console Login page](../../../../../../static/img/product_docs/accessanalyzer/install/application/reports/webconsolelogin.webp)
+![Web Console Login page](/img/product_docs/accessanalyzer/install/application/reports/webconsolelogin.webp)
 
 **Step 2 –** Enter your **User Name** and **Password**. Click **Login**.
 
-![Web Console Home page](../../../../../../static/img/product_docs/accessanalyzer/install/application/reports/webconsolehome.webp)
+![Web Console Home page](/img/product_docs/accessanalyzer/install/application/reports/webconsolehome.webp)
 
 The home page shows the solutions with published reports available. See the
-[Web Console](../../../admin/report/view.md#web-console) topic for information on using the Web
+[Web Console](/docs/accessanalyzer/12.0/admin/report/view.md#web-console) topic for information on using the Web
 Console.

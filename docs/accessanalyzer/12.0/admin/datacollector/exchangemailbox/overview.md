@@ -3,10 +3,10 @@
 The ExchangeMailbox Data Collector extracts configuration details from the Exchange Store to provide
 statistical, content, permission, and sensitive data reporting on mailboxes. This is a MAPI-based
 data collector which requires the **Settings** > **Exchange** node to be enabled and configured. See
-the [Exchange](../../settings/exchange.md) topic for additional information.
+the [Exchange](/docs/accessanalyzer/12.0/admin/settings/exchange.md) topic for additional information.
 
 The ExchangeMailbox Data Collector is available with a special Access Analyzer license. See the
-[Exchange Solution](../../../solutions/exchange/overview.md) topic for additional information.
+[Exchange Solution](/docs/accessanalyzer/12.0/solutions/exchange/overview.md) topic for additional information.
 
 Protocols
 
@@ -36,17 +36,17 @@ The ExchangeMailbox Data Collector is configured through the Exchange Mailbox Da
 which contains the following wizard pages:
 
 - Welcome
-- [ExchangeMailbox: Category](category.md)
-- [ExchangeMailbox: Scope](scope.md)
-- [ExchangeMailbox: Properties](properties.md)
-- [ExchangeMailbox: SDD Criteria](sddcriteria.md)
-- [ExchangeMailbox: Options](options.md)
-- [ExchangeMailbox: Summary](summary.md)
+- [ExchangeMailbox: Category](/docs/accessanalyzer/12.0/admin/datacollector/exchangemailbox/category.md)
+- [ExchangeMailbox: Scope](/docs/accessanalyzer/12.0/admin/datacollector/exchangemailbox/scope.md)
+- [ExchangeMailbox: Properties](/docs/accessanalyzer/12.0/admin/datacollector/exchangemailbox/properties.md)
+- [ExchangeMailbox: SDD Criteria](/docs/accessanalyzer/12.0/admin/datacollector/exchangemailbox/sddcriteria.md)
+- [ExchangeMailbox: Options](/docs/accessanalyzer/12.0/admin/datacollector/exchangemailbox/options.md)
+- [ExchangeMailbox: Summary](/docs/accessanalyzer/12.0/admin/datacollector/exchangemailbox/summary.md)
 
 The query requires special permissions to connect to target Exchange servers. Assign these
 permissions on the Welcome page.
 
-![Exchange Mailbox Data Collector Wizard Welcome page](../../../../../../static/img/product_docs/activitymonitor/activitymonitor/install/welcome.webp)
+![Exchange Mailbox Data Collector Wizard Welcome page](/img/product_docs/activitymonitor/activitymonitor/install/welcome.webp)
 
 Connection Setting
 

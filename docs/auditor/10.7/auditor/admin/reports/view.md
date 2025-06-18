@@ -10,26 +10,26 @@ To view reports, users need the following:
   reports.
 
 2. The Browser role on the SSRS Report Server. See the
-   [SQL Server Reporting Services](../../requirements/sqlserverreportingservice.md) topic for
+   [SQL Server Reporting Services](/docs/auditor/10.7/auditor/requirements/sqlserverreportingservice.md) topic for
    additional information.
 
 To view a report
 
 You can add any elements (a dashboard, report, alert, risk, etc.) to the Auditor Home screen to
-access them instantly. See the [Navigation](../navigation/overview.md) and
-[Customize Home Screen](../navigation/customizehome.md) topics for additional information.
+access them instantly. See the [Navigation](/docs/auditor/10.7/auditor/admin/navigation/overview.md) and
+[Customize Home Screen](/docs/auditor/10.7/auditor/admin/navigation/customizehome.md) topics for additional information.
 
 1. In Netwrix Auditor Home screen, click
-   ![reports_tile](../../../../../../static/img/product_docs/auditor/auditor/admin/reports/reports_tile.webp)on
+   ![reports_tile](/img/product_docs/auditor/auditor/admin/reports/reports_tile.webp)on
    the left, and in the tree on the left select the report you need.
 
 To speed up the process, you can use the **Search** field, entering the keyword to search by.
 
-![searchreports_thumb_0_0](../../../../../../static/img/product_docs/auditor/auditor/admin/reports/searchreports_thumb_0_0.webp)
+![searchreports_thumb_0_0](/img/product_docs/auditor/auditor/admin/reports/searchreports_thumb_0_0.webp)
 
 2. Click View button in the right pane.
 
-To learn how to subscribe to a report, see [Create Subscriptions](../subscriptions/create.md).
+To learn how to subscribe to a report, see [Create Subscriptions](/docs/auditor/10.7/auditor/admin/subscriptions/create.md).
 
 ## Troubleshooting
 
@@ -37,13 +37,13 @@ If no data is displayed in the report, you may need to do the following:
 
 1. Make sure that the Audit Database settings are configured properly in the monitoring plan, and
    that data is written to databases that reside on the default SQL Server instance. See the
-   [Audit Database](../settings/auditdatabase.md) topic for additional information.
+   [Audit Database](/docs/auditor/10.7/auditor/admin/settings/auditdatabase.md) topic for additional information.
 2. For SSRS-based reports - verify that SSRS (SQL Server Reporting Services) settings are configured
-   properly. See the [Audit Database](../settings/auditdatabase.md) topic for additional
+   properly. See the [Audit Database](/docs/auditor/10.7/auditor/admin/settings/auditdatabase.md) topic for additional
    information.
 3. For state-in-time reports - verify that the monitoring plan that provides data for the report has
    the corresponding option selected. See the
-   [Create a New Monitoring Plan](../monitoringplans/create.md) topic for additional information.
+   [Create a New Monitoring Plan](/docs/auditor/10.7/auditor/admin/monitoringplans/create.md) topic for additional information.
 
 ## Customize Report with Filters
 
@@ -71,9 +71,9 @@ of the report. The filters may vary slightly depending on the audited system and
 
 The report without filtering:
 
-![allchangesserver](../../../../../../static/img/product_docs/auditor/auditor/admin/reports/allchangesserver.webp)
+![allchangesserver](/img/product_docs/auditor/auditor/admin/reports/allchangesserver.webp)
 
 The report below displays changes for all audited systems made by the CORP\Administrator user on the
 ROOTDC2 domain controller for a month sorted by the action type.
 
-![allchangesserverfiltered](../../../../../../static/img/product_docs/auditor/auditor/admin/reports/allchangesserverfiltered.webp)
+![allchangesserverfiltered](/img/product_docs/auditor/auditor/admin/reports/allchangesserverfiltered.webp)

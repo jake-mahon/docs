@@ -388,9 +388,9 @@ const config = {
     [
       '@docusaurus/plugin-content-docs',
       {
-        id: 'groupid11_1',
-        path: 'docs/groupid/11.1',
-        routeBasePath: 'docs/groupid/11.1',
+        id: 'directorymanager11_1',
+        path: 'docs/directorymanager/11.1',
+        routeBasePath: 'docs/directorymanager/11.1',
         sidebarPath: require.resolve('./sidebars/sidebar.js'),
         editUrl: 'https://github.com/netwrix/docs/tree/main/',
         exclude: ['**/CLAUDE.md'],
@@ -404,9 +404,9 @@ const config = {
     [
       '@docusaurus/plugin-content-docs',
       {
-        id: 'groupid11_0',
-        path: 'docs/groupid/11.0',
-        routeBasePath: 'docs/groupid/11.0',
+        id: 'directorymanager11_0',
+        path: 'docs/directorymanager/11.0',
+        routeBasePath: 'docs/directorymanager/11.0',
         sidebarPath: require.resolve('./sidebars/sidebar.js'),
         editUrl: 'https://github.com/netwrix/docs/tree/main/',
         exclude: ['**/CLAUDE.md'],
@@ -616,13 +616,13 @@ const config = {
         },
       },
     ],
-    // UserCube versions
+    // IdentityManager versions
     [
       '@docusaurus/plugin-content-docs',
       {
-        id: 'usercube6_2',
-        path: 'docs/usercube/6.2',
-        routeBasePath: 'docs/usercube/6.2',
+        id: 'identitymanager6_2',
+        path: 'docs/identitymanager/6.2',
+        routeBasePath: 'docs/identitymanager/6.2',
         sidebarPath: require.resolve('./sidebars/sidebar.js'),
         editUrl: 'https://github.com/netwrix/docs/tree/main/',
         exclude: ['**/CLAUDE.md'],
@@ -636,9 +636,9 @@ const config = {
     [
       '@docusaurus/plugin-content-docs',
       {
-        id: 'usercube6_1',
-        path: 'docs/usercube/6.1',
-        routeBasePath: 'docs/usercube/6.1',
+        id: 'identitymanager6_1',
+        path: 'docs/identitymanager/6.1',
+        routeBasePath: 'docs/identitymanager/6.1',
         sidebarPath: require.resolve('./sidebars/sidebar.js'),
         editUrl: 'https://github.com/netwrix/docs/tree/main/',
         exclude: ['**/CLAUDE.md'],
@@ -649,13 +649,13 @@ const config = {
         },
       },
     ],
-    // PolicyPak (no versions)
+    // Endpoint Policy Manager (no versions)
     [
       '@docusaurus/plugin-content-docs',
       {
-        id: 'policypak',
-        path: 'docs/policypak',
-        routeBasePath: 'docs/policypak',
+        id: 'endpointpolicymanager',
+        path: 'docs/endpointpolicymanager',
+        routeBasePath: 'docs/endpointpolicymanager',
         sidebarPath: require.resolve('./sidebars/sidebar.js'),
         editUrl: 'https://github.com/netwrix/docs/tree/main/',
         exclude: ['**/CLAUDE.md'],
@@ -666,29 +666,13 @@ const config = {
         },
       },
     ],
-    // StrongPoint products (no versions)
+    // Platform Governance products (no versions)
     [
       '@docusaurus/plugin-content-docs',
       {
-        id: 'strongpointfornetsuite',
-        path: 'docs/strongpointfornetsuite',
-        routeBasePath: 'docs/strongpointfornetsuite',
-        sidebarPath: require.resolve('./sidebars/sidebar.js'),
-        editUrl: 'https://github.com/netwrix/docs/tree/main/',
-        exclude: ['**/CLAUDE.md'],
-        versions: {
-          'current': {
-            label: 'Current',
-          },
-        },
-      },
-    ],
-    [
-      '@docusaurus/plugin-content-docs',
-      {
-        id: 'strongpointforsalesforce',
-        path: 'docs/strongpointforsalesforce',
-        routeBasePath: 'docs/strongpointforsalesforce',
+        id: 'platgovnetsuite',
+        path: 'docs/platgovnetsuite',
+        routeBasePath: 'docs/platgovnetsuite',
         sidebarPath: require.resolve('./sidebars/sidebar.js'),
         editUrl: 'https://github.com/netwrix/docs/tree/main/',
         exclude: ['**/CLAUDE.md'],
@@ -702,9 +686,9 @@ const config = {
     [
       '@docusaurus/plugin-content-docs',
       {
-        id: 'strongpointnetsuiteflashlight',
-        path: 'docs/strongpointnetsuiteflashlight',
-        routeBasePath: 'docs/strongpointnetsuiteflashlight',
+        id: 'platgovsalesforce',
+        path: 'docs/platgovsalesforce',
+        routeBasePath: 'docs/platgovsalesforce',
         sidebarPath: require.resolve('./sidebars/sidebar.js'),
         editUrl: 'https://github.com/netwrix/docs/tree/main/',
         exclude: ['**/CLAUDE.md'],
@@ -718,9 +702,9 @@ const config = {
     [
       '@docusaurus/plugin-content-docs',
       {
-        id: 'strongpointsalesforceflashlight',
-        path: 'docs/strongpointsalesforceflashlight',
-        routeBasePath: 'docs/strongpointsalesforceflashlight',
+        id: 'platgovnetsuiteflashlight',
+        path: 'docs/platgovnetsuiteflashlight',
+        routeBasePath: 'docs/platgovnetsuiteflashlight',
         sidebarPath: require.resolve('./sidebars/sidebar.js'),
         editUrl: 'https://github.com/netwrix/docs/tree/main/',
         exclude: ['**/CLAUDE.md'],
@@ -731,13 +715,29 @@ const config = {
         },
       },
     ],
-    // UserCube SaaS (no versions)
     [
       '@docusaurus/plugin-content-docs',
       {
-        id: 'usercube_saas',
-        path: 'docs/usercube_saas',
-        routeBasePath: 'docs/usercube_saas',
+        id: 'platgovsalesforceflashlight',
+        path: 'docs/platgovsalesforceflashlight',
+        routeBasePath: 'docs/platgovsalesforceflashlight',
+        sidebarPath: require.resolve('./sidebars/sidebar.js'),
+        editUrl: 'https://github.com/netwrix/docs/tree/main/',
+        exclude: ['**/CLAUDE.md'],
+        versions: {
+          'current': {
+            label: 'Current',
+          },
+        },
+      },
+    ],
+    // IdentityManager SaaS (no versions)
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'identitymanager_saas',
+        path: 'docs/identitymanager/saas',
+        routeBasePath: 'docs/identitymanager/saas',
         sidebarPath: require.resolve('./sidebars/sidebar.js'),
         editUrl: 'https://github.com/netwrix/docs/tree/main/',
         exclude: ['**/CLAUDE.md'],
@@ -822,12 +822,12 @@ const config = {
                 to: '/docs/accessinformationcenter/11.6',
               },
               {
-                label: 'Group ID - 11.1',
-                to: '/docs/groupid/11.1',
+                label: 'Directory Manager - 11.1',
+                to: '/docs/directorymanager/11.1',
               },
               {
-                label: 'Group ID - 11.0',
-                to: '/docs/groupid/11.0',
+                label: 'Directory Manager - 11.0',
+                to: '/docs/directorymanager/11.0',
               },
               {
                 label: 'Password Policy Enforcer - 11.0',
@@ -877,20 +877,20 @@ const config = {
                 to: '/docs/changetracker/8.0',
               },
               {
-                label: 'StrongPoint for NetSuite',
-                to: '/docs/strongpointfornetsuite',
+                label: 'Platform Governance for NetSuite',
+                to: '/docs/platgovnetsuite',
               },
               {
-                label: 'StrongPoint for Salesforce',
-                to: '/docs/strongpointforsalesforce',
+                label: 'Platform Governance for Salesforce',
+                to: '/docs/platgovsalesforce',
               },
               {
-                label: 'StrongPoint NetSuite Flashlight',
-                to: '/docs/strongpointnetsuiteflashlight',
+                label: 'Platform Governance for NetSuite Flashlight',
+                to: '/docs/platgovnetsuiteflashlight',
               },
               {
-                label: 'StrongPoint Salesforce Flashlight',
-                to: '/docs/strongpointsalesforceflashlight',
+                label: 'Platform Governance for Salesforce Flashlight',
+                to: '/docs/platgovsalesforceflashlight',
               },
               {
                 label: 'Data Classification - 5.7',
@@ -920,8 +920,8 @@ const config = {
                 to: '/docs/endpointprotector/5.9.4',
               },
               {
-                label: 'PolicyPak',
-                to: '/docs/policypak',
+                label: 'Endpoint Policy Manager',
+                to: '/docs/endpointpolicymanager',
               },
               {
                 label: 'Threat Prevention - 7.5',
@@ -932,16 +932,16 @@ const config = {
                 to: '/docs/threatprevention/7.4',
               },
               {
-                label: 'UserCube - 6.2',
-                to: '/docs/usercube/6.2',
+                label: 'IdentityManager - 6.2',
+                to: '/docs/identitymanager/6.2',
               },
               {
-                label: 'UserCube - 6.1',
-                to: '/docs/usercube/6.1',
+                label: 'IdentityManager - 6.1',
+                to: '/docs/identitymanager/6.1',
               },
               {
-                label: 'UserCube SaaS',
-                to: '/docs/usercube_saas',
+                label: 'IdentityManager SaaS',
+                to: '/docs/identitymanager/saas',
               },
             ],
           },

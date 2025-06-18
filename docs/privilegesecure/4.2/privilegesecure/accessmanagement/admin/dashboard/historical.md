@@ -3,7 +3,7 @@
 The Historical sessions dashboard shows all created sessions and their status. Only users with the
 Administrator role can view recordings of historical sessions.
 
-![historical](../../../../../../../static/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/dashboard/historical.webp)
+![historical](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/dashboard/historical.webp)
 
 The dashboard has the following features:
 
@@ -18,7 +18,7 @@ The dashboard has the following features:
     - User Name — Filter by Session User
     - User Type — Filter by type of user: All, User, Application, or Local User
     - Recording data — Filter by keystroke data and, when enabled, RDP Windows event activity. See
-      the [Install Remote Desktop Monitor Service on Target RDP Hosts](../../install/rdpmonitor.md)
+      the [Install Remote Desktop Monitor Service on Target RDP Hosts](/docs/privilegesecure/4.2/privilegesecure/accessmanagement/install/rdpmonitor.md)
       topic for additional information.
     - Requested date — Filter by session start and/or end dates
 
@@ -30,16 +30,16 @@ The table has the following columns:
 
 - Actions — Contains icons for available actions:
 
-    - Expand icon — Click the expand (>) icon to show additional information for the session:
+    - Expand icon — Click the expand () icon to show additional information for the session:
 
         - If a recording of the session is available, the replay viewer allows an admin to watch a
-          replay of the remote session. See the [Replay Viewer Window](window/replayviewer.md) topic
+          replay of the remote session. See the [Replay Viewer Window](/docs/privilegesecure/4.2/privilegesecure/accessmanagement/admin/dashboard/window/replayviewer.md) topic
           for additional information.
 
     - Rocket icon — Launches the same session (same activity on the same resource with the same
       connection profile) for any historical session that is not a Credential-based session
     - View logs icon — Opens the Session Logs window to view the action log for the selected
-      session. See the [Session Logs Window](window/sessionlogs.md) topic for additional
+      session. See the [Session Logs Window](/docs/privilegesecure/4.2/privilegesecure/accessmanagement/admin/dashboard/window/sessionlogs.md) topic for additional
       information.
 
 - Requested — Date and time of when the session was created
@@ -52,22 +52,22 @@ The table has the following columns:
       the requestor
 
 - Session User— User who requested the session. Click the link to view additional details. See the
-  [User, Group, & Application Details Page](../policy/page/details/usergroupapplication.md) topic
+  [User, Group, & Application Details Page](/docs/privilegesecure/4.2/privilegesecure/accessmanagement/admin/policy/page/details/usergroupapplication.md) topic
   for additional information.
 - Host — Resource that the user will run the activity on. Click the link to view additional details.
   The details vary based on the type of resource. See the following topics for additional
   information:
 
-    - [Host Details Page](../policy/page/details/host.md)
-    - [Domain Details Page](../policy/page/details/domain.md)
-    - [Website Details Page](../policy/page/details/website.md)
-    - [Microsoft Entra ID Details Page](../policy/page/details/entraid.md)
-    - [Secret Vault Details Page](../policy/page/details/secretvault.md)
-    - [Database Details Page](../policy/page/details/databases.md)
+    - [Host Details Page](/docs/privilegesecure/4.2/privilegesecure/accessmanagement/admin/policy/page/details/host.md)
+    - [Domain Details Page](/docs/privilegesecure/4.2/privilegesecure/accessmanagement/admin/policy/page/details/domain.md)
+    - [Website Details Page](/docs/privilegesecure/4.2/privilegesecure/accessmanagement/admin/policy/page/details/website.md)
+    - [Microsoft Entra ID Details Page](/docs/privilegesecure/4.2/privilegesecure/accessmanagement/admin/policy/page/details/entraid.md)
+    - [Secret Vault Details Page](/docs/privilegesecure/4.2/privilegesecure/accessmanagement/admin/policy/page/details/secretvault.md)
+    - [Database Details Page](/docs/privilegesecure/4.2/privilegesecure/accessmanagement/admin/policy/page/details/databases.md)
 
 - Login Account — Displays the account used to log onto the resource
 - Activity — Displays the name of the activity. Click the link to view additional details. See the
-  [Activities Page](../policy/page/activities.md) topic for additional information.
+  [Activities Page](/docs/privilegesecure/4.2/privilegesecure/accessmanagement/admin/policy/page/activities.md) topic for additional information.
 - Start — Indicates when the activity started. This refers to when the activity’s actions were
   executed and not when the user was logged on to the resource.
 - Duration — Indicates how long the Activity ran for until it either reached its scheduled end time

@@ -11,11 +11,11 @@ description: "Learn how to generate reports on billable Active Directory and Mic
 
 A Billable Users report provides information on the billable accounts – the enabled Active
 Directory/Microsoft Entra ID (formerly Azure AD) accounts for your organization. See the
-[Billable Accounts](../organizations/billableaccounts.md) topic for additional information.
+[Billable Accounts](/docs/1secure/admin/organizations/billableaccounts.md) topic for additional information.
 
 | Icon                                                                                                            | Description                                                                                                                                                                      |
 | --------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| ![businessuserslock](../../../../static/img/product_docs/1secure/admin/searchandreports/businessuserslock.webp) | Lock Icon. It shows that the business users cannot view the report. See the [Add Users](../organizations/addingusers.md) topic for additional information on the business users. |
+| ![businessuserslock](/img/product_docs/1secure/admin/searchandreports/businessuserslock.webp) | Lock Icon. It shows that the business users cannot view the report. See the [Add Users](/docs/1secure/admin/organizations/addingusers.md) topic for additional information on the business users. |
 
 ## Review a Report
 
@@ -26,22 +26,22 @@ Users** page opens. By default, it populates the data with the Users of your org
 
 - Dashboard for Managing Organization
 
-![billableusersreportmanagingorg](../../../../static/img/product_docs/1secure/admin/searchandreports/billableusersreportmanagingorg.webp)
+![billableusersreportmanagingorg](/img/product_docs/1secure/admin/searchandreports/billableusersreportmanagingorg.webp)
 
 - Dashboard for Managed Organization
 
-![billableaccountsmanagedorg](../../../../static/img/product_docs/1secure/admin/organizations/billableaccountsmanagedorg.webp)
+![billableaccountsmanagedorg](/img/product_docs/1secure/admin/organizations/billableaccountsmanagedorg.webp)
 
 **NOTE:** You can also access the report by navigating to the **Reports** > **System** page.
 
-![BU Report screen](../../../../static/img/product_docs/1secure/admin/searchandreports/billableusersreport.webp)
+![BU Report screen](/img/product_docs/1secure/admin/searchandreports/billableusersreport.webp)
 
 **Step 2 –** If necessary, you can filter the provided data. Select a filter, operator, and value
 from the Filter, Operator, and Value drop-down menus respectively.
 
 **NOTE:** You must specify three columns: Filter, Operator, and Value. You may also select more than
 one filter. To review the Operator filter options, see the
-[Filter Operators ](filteroperators.md)topic for additional information.
+[Filter Operators ](/docs/1secure/admin/searchandreports/filteroperators.md)topic for additional information.
 
 **Step 3 –** Click **Search**.
 

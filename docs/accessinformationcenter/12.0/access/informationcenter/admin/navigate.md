@@ -3,7 +3,7 @@
 The Access Information Center has several interfaces for viewing reports and using the available
 workflows. Upon login, users granted console access are brought to the Home page.
 
-![Administrator user home page](../../../../../../static/img/product_docs/accessinformationcenter/access/informationcenter/admin/homeadmin.webp)
+![Administrator user home page](/img/product_docs/accessinformationcenter/access/informationcenter/admin/homeadmin.webp)
 
 The signed in user is displayed in the upper-right corner, along with the **Sign out** link. The
 options enabled on the Home page change according to what components are licensed as well as the
@@ -16,7 +16,7 @@ Directory service account, notification settings, database access, and diagnosti
 Additionally you can view license details and upload a new license.
 
 This interface is available only to users with the Administrator role. See the
-[Configuration Interface Overview](configuration/overview.md) topic for additional information.
+[Configuration Interface Overview](/docs/accessinformationcenter/12.0/access/informationcenter/admin/configuration/overview.md) topic for additional information.
 
 **NOTE:** Users with the User Access Administrator role have access only to the Console Access page
 of the Configuration interface.
@@ -37,7 +37,7 @@ Owners** button is associated to the Access Requests and Entitlement Reviews lic
 Center.
 
 This interface is available only to users with either the Security Team or Administrator role. See
-the [Resource Owners Interface](../resourceowners/interface.md) topic for additional information.
+the [Resource Owners Interface](/docs/accessinformationcenter/12.0/access/informationcenter/resourceowners/interface.md) topic for additional information.
 
 The **Resource Reviews** button opens the Manage Reviews interface. Create and manage reviews. There
 are four types of reviews for resources being managed within the Access Information Center: access,
@@ -49,7 +49,7 @@ Reviews license feature.
 Active Directory is an optional component of the Resource Reviews workflow.
 
 This interface is available only to users with either the Security Team or Administrator role. See
-the [Resource Reviews Interface](../resourcereviews/interface.md) topic for additional information.
+the [Resource Reviews Interface](/docs/accessinformationcenter/12.0/access/informationcenter/resourcereviews/interface.md) topic for additional information.
 
 The **Access Requests** button opens the Access Requests interface. View pending and historical
 access requests and send reminders to owners. This does require the Access Information Center to be
@@ -59,7 +59,7 @@ the target environment for the resources being managed by the Access Information
 **Access Requests** button is associated to the Access Requests license feature.
 
 This interface is available only to users with either the Security Team or Administrator role. See
-the [Access Requests Interface](../accessrequests/interface.md) topic for additional information.
+the [Access Requests Interface](/docs/accessinformationcenter/12.0/access/informationcenter/accessrequests/interface.md) topic for additional information.
 
 For Reader, Data Privacy, Security Team, & Administrator
 
@@ -68,12 +68,12 @@ groups, computers, and sensitive content. Reports are available for resources sc
 Access Analyzer (formerly Enterprise Auditor). It is available to all console users with the minimum
 of Reader role. Assigned owners without a user role can access this interface through the Owner
 portal, but it is scoped to only the owned resource. See the
-[Access Requests Interface](../accessrequests/interface.md) topic for additional information.
+[Access Requests Interface](/docs/accessinformationcenter/12.0/access/informationcenter/accessrequests/interface.md) topic for additional information.
 
 The Search Features include a **Search** bar and a **Recent Searches** box on the Home page. These
 features will direct you to the reports for the selected object: resource, user, group, computer, or
 sensitive content. These features are available to all users with an assigned user role. See the
-[Search Features](../resourceaudit/navigate/search.md) topic for additional information.
+[Search Features](/docs/accessinformationcenter/12.0/access/informationcenter/resourceaudit/navigate/search.md) topic for additional information.
 
 For Assigned Owner
 
@@ -88,7 +88,7 @@ Requests workflows.
 
 The Owner portal is available to any domain user who has been assigned ownership of a resource or
 group within the Access Information Center. See the
-[Owner Portal Overview](../resourceowners/ownerportal/overview.md) topic for additional information.
+[Owner Portal Overview](/docs/accessinformationcenter/12.0/access/informationcenter/resourceowners/ownerportal/overview.md) topic for additional information.
 
 For All Domain Users
 
@@ -98,7 +98,7 @@ access to resources managed through the Access Information Center, view their ow
 resources, and view access request history. It is part of the Self-Service Access Requests workflow.
 
 The Your Access portal is available to any domain user in the target environment. See the
-[Your Access Portal Overview](../accessrequests/youraccessportal/overview.md) topic for additional
+[Your Access Portal Overview](/docs/accessinformationcenter/12.0/access/informationcenter/accessrequests/youraccessportal/overview.md) topic for additional
 information.
 
 ## Interface Quick Reference

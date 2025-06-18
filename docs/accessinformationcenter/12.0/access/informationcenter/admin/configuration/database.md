@@ -4,7 +4,7 @@ The Access Information Center must have access to the SQL Server hosting the dat
 configured during installation. If it is necessary to modify these setting after installation, that
 is done on the Database Page of the Configuration interface.
 
-![Configuration interface showing the Database page](../../../../../../../static/img/product_docs/threatprevention/threatprevention/install/database.webp)
+![Configuration interface showing the Database page](/img/product_docs/threatprevention/threatprevention/install/database.webp)
 
 SQL Server database information:
 
@@ -35,7 +35,7 @@ Database service account information:
 
     - A group Managed Service Account (gMSA) can be used by configuring it to run the Netwrix Access
       Information Center service. See the
-      [Group Managed Service Account (gMSA) Configuration](../additionalconfig/gmsa.md) topic for
+      [Group Managed Service Account (gMSA) Configuration](/docs/accessinformationcenter/12.0/access/informationcenter/admin/additionalconfig/gmsa.md) topic for
       additional information.
 
 - Use the following SQL account – Uses SQL Authentication to the database. Provide the properly

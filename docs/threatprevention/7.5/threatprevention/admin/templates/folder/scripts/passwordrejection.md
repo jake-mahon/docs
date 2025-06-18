@@ -2,7 +2,7 @@
 
 The following C# script sends an email notification to the specified perpetrator when their Active
 Directory password is rejected by the active
-[Password Rules Filter](../../../policies/eventtype/passwordenforcement.md#password-rules-filter)
+[Password Rules Filter](/docs/threatprevention/7.5/threatprevention/admin/policies/eventtype/passwordenforcement.md#password-rules-filter)
 criteria.
 
 The following environmental variables must be added to the script prior to execution:
@@ -19,7 +19,7 @@ The following environmental variables must be added to the script prior to execu
 In the Templates > Actions folder in the Navigation pane, the _EPE: Notify Perpetrator that password
 was rejected_ template is preconfigured to use this action script.
 
-[Copy](<javascript:void(0);>)
+[Copy](javascript:void(0);)
 
 ```
 namespace ScriptNamespace
@@ -65,7 +65,7 @@ sb.AppendLine("<html>");
 sb.AppendLine("<body>");
 sb.AppendLine(String.Format("EventName: {0}<br>", helper.EventName));
 sb.AppendLine(String.Format("EventNameTranslated: {0}<br>", helper.EventNameTranslated));
-sb.AppendLine(String.Format("TimeLoggedUtc: {0}<br>", helper.TimeLoggedUtc.ToString("MMMM d, yyyy h:mm:ss tt")));
+sb.AppendLine(String.Format("TimeLoggedUtc: {0}<br>", helper.TimeLoggedUtc.ToString("MMMM d, yyyy h:mm:ss tt");
 sb.AppendLine(String.Format("DN: {0}<br>", helper.Perpetrator));
 sb.AppendLine(String.Format("Perpetrator: {0}<br>", helper.PerpetratorName));
 sb.AppendLine("</body>");

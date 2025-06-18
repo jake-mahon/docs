@@ -8,7 +8,7 @@ cleaned up in order to increase security and reduce complexity.
 parameters, including the number of days since last login to be considered stale (by default 60
 days), can be customized within the **.Active Directory Inventory** > **3-AD_Exceptions** job's
 **Stale Users** analysis task. See the
-[3-AD_Exceptions Job](../../activedirectoryinventory/3-ad_exceptions.md) topic for additional
+[3-AD_Exceptions Job](/docs/accessanalyzer/12.0/solutions/activedirectoryinventory/3-ad_exceptions.md) topic for additional
 information.
 
 ## Analysis Tasks for the AD_StaleUsers Job
@@ -19,7 +19,7 @@ select **Analysis** to view the analysis tasks.
 **CAUTION:** Do not modify or deselect the selected analysis tasks. The analysis tasks are
 preconfigured for this job.
 
-![Analysis Tasks for the AD_StaleUsers Job](../../../../../../static/img/product_docs/accessanalyzer/solutions/activedirectory/users/staleusersanalysis.webp)
+![Analysis Tasks for the AD_StaleUsers Job](/img/product_docs/accessanalyzer/solutions/activedirectory/users/staleusersanalysis.webp)
 
 The default analysis tasks are:
 

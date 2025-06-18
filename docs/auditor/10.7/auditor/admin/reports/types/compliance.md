@@ -23,5 +23,5 @@ sources and items included in each plan, navigate to the Monitoring Plans sectio
 
 Review the following for additional information:
 
-- See the [View Reports](../view.md) topic for additional information on how to find the report you
+- See the [View Reports](/docs/auditor/10.7/auditor/admin/reports/view.md) topic for additional information on how to find the report you
   need and view reports in a web browser.

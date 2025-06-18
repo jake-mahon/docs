@@ -16,17 +16,17 @@ article for additional information.
 
 Requirements, Permissions, and Ports
 
-See the [Active Directory Domain Target Requirements](../../config/activedirectory/overview.md)
+See the [Active Directory Domain Target Requirements](/docs/accessanalyzer/12.0/config/activedirectory/overview.md)
 topic for additional information.
 
 Location
 
 The Active Directory Solution requires a special Access Analyzer license. It can be installed from
 the Access Analyzer Instant Job Wizard. See the
-[Instant Job Wizard](../../admin/jobs/instantjobs/overview.md) topic for additional information.
+[Instant Job Wizard](/docs/accessanalyzer/12.0/admin/jobs/instantjobs/overview.md) topic for additional information.
 Once installed into the Jobs tree, navigate to the solution: **Jobs** > **Active Directory**.
 
-![Active Directory Solution](../../../../../static/img/product_docs/accessanalyzer/solutions/activedirectory/solutionoverview.webp)
+![Active Directory Solution](/img/product_docs/accessanalyzer/solutions/activedirectory/solutionoverview.webp)
 
 Each job group works independently from the other job groups. Some job groups run analysis tasks
 against the analyzed data collected by the .Active Directory Inventory Solution to generate reports,
@@ -44,41 +44,41 @@ information every administrator needs for Active Directory configuration, operat
 troubleshooting, analyzing effective permissions, and tracking who is making what changes within an
 organization.
 
-![Active Directory Job Group](../../../../../static/img/product_docs/accessanalyzer/solutions/activedirectory/adsolutionjobgroup.webp)
+![Active Directory Job Group](/img/product_docs/accessanalyzer/solutions/activedirectory/adsolutionjobgroup.webp)
 
 The following job groups comprise the Active Directory solution:
 
-- [1.Groups Job Group](groups/overview.md) – Identifies effective group membership and pinpoints
+- [1.Groups Job Group](/docs/accessanalyzer/12.0/solutions/activedirectory/groups/overview.md) – Identifies effective group membership and pinpoints
   potential areas of administrative concern such as nested or stale groups
-- [2.Users Job Group](users/overview.md) – Identifies user conditions and pinpoint potential areas
+- [2.Users Job Group](/docs/accessanalyzer/12.0/solutions/activedirectory/users/overview.md) – Identifies user conditions and pinpoint potential areas
   of administrative concern such as weak passwords, user token size, or stale users
-- [3.Computers Job Group](computers/overview.md) – Pinpoints potential areas of administrative
+- [3.Computers Job Group](/docs/accessanalyzer/12.0/solutions/activedirectory/computers/overview.md) – Pinpoints potential areas of administrative
   concern related to computer accounts, including stale computers and computers that have been
   trusted for delegation
-- [4.Group Policy Job Group](grouppolicy/overview.md) – Audits GPOs and their settings, and provides
+- [4.Group Policy Job Group](/docs/accessanalyzer/12.0/solutions/activedirectory/grouppolicy/overview.md) – Audits GPOs and their settings, and provides
   in depth analysis of conditions such as where GPOs have been linked, misconfigurations that can
   cause security or operational issues, and redundant GPOs that can be consolidated
-- [5.Domains Job Group](domains/overview.md) – Provides details on domains, sites, and trusts, and
+- [5.Domains Job Group](/docs/accessanalyzer/12.0/solutions/activedirectory/domains/overview.md) – Provides details on domains, sites, and trusts, and
   highlight domain level configurations that may leave your environment at risk
-- [6.Activity Job Group](activity/overview.md) – Provides insights into access sprawl, privileged
+- [6.Activity Job Group](/docs/accessanalyzer/12.0/solutions/activedirectory/activity/overview.md) – Provides insights into access sprawl, privileged
   account usage, and operational health of the Active Directory environment. Information collected
   includes Active Directory Changes, Authentication, LDAP Traffic, Replication Traffic, and
   LSASS.EXE process injection on domain controllers
 
     - Requires the Active Directory Activity license feature to function
 
-- [7.Certificate Authority Job Group](certificateauthority/overview.md) – Collects settings,
+- [7.Certificate Authority Job Group](/docs/accessanalyzer/12.0/solutions/activedirectory/certificateauthority/overview.md) – Collects settings,
   permissions, and configurations for Certificate Authorities. It details access rights for the
   Certificate Authority and reports on certificate requests, highlighting any that might expire
   soon.
-- [Cleanup Job Group](cleanup/overview.md) – Identifies potential stale and unused users, computers,
+- [Cleanup Job Group](/docs/accessanalyzer/12.0/solutions/activedirectory/cleanup/overview.md) – Identifies potential stale and unused users, computers,
   and groups as well as issues with group membership. Remediation workflows are included to
   de-provision unnecessary objects to help increase security and reduce complexity.
 
     - Requires the Active Directory Actions license feature to function
     - Requires the Active Directory Actions Module to be installed
 
-- [AD Security Assessment Job](ad_securityassessment.md) – Summarizes security related results from
+- [AD Security Assessment Job](/docs/accessanalyzer/12.0/solutions/activedirectory/ad_securityassessment.md) – Summarizes security related results from
   the Active Directory solution and the Active Directory Permissions Analyzer solution
 
 Since each job group within the Active Directory solution is designed to run independently, refer to

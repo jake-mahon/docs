@@ -3,13 +3,13 @@
 The SDD Criteria Settings page is where criteria to be used for discovering sensitive data during a
 scan is configured. It is a wizard page for the category of Sensitive Data Scan.
 
-![FSAA Data Collector Wizard SDD Criteria Settings page](../../../../../../static/img/product_docs/accessanalyzer/admin/datacollector/fsaa/sddcriteria.webp)
+![FSAA Data Collector Wizard SDD Criteria Settings page](/img/product_docs/accessanalyzer/admin/datacollector/fsaa/sddcriteria.webp)
 
 The options on the SDD Criteria Settings page are:
 
 - Use Global Criterion Selection – Select this option to inherit sensitive data criteria settings
   from the **Settings** > **Sensitive Data** node. See the
-  [Sensitive Data](../../settings/sensitivedata/overview.md) topic for additional information.
+  [Sensitive Data](/docs/accessanalyzer/12.0/admin/settings/sensitivedata/overview.md) topic for additional information.
 - Use the following selected criteria – Select this option to use the table to select which
   sensitive data criteria to scan for
 - Select All - Click **Select All** to enable all sensitive data criteria for scanning
@@ -24,5 +24,5 @@ The table contains the following types of criteria:
 
     Use the Sensitive Data Criteria Editor in the **Settings** > **Sensitive Data** to create and
     edit user-defined criteria. See the
-    [Sensitive Data Criteria Editor](../../../sensitivedatadiscovery/criteriaeditor/overview.md)
+    [Sensitive Data Criteria Editor](/docs/accessanalyzer/12.0/sensitivedatadiscovery/criteriaeditor/overview.md)
     topic for additional information.

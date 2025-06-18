@@ -5,14 +5,14 @@
 The aim of organisational structures is to reflect the hierarchies and dependencies amongst
 employees that exist in a company. Permissions are granted to these structures as usual via the
 ribbon. Further information on this subject can be found in the section
-[Permissions for organisational structures](../../../clientmodule/organisationalstructures/permissionsous/permissions_for_organisational.md).
+[Permissions for organisational structures](/docs/passwordsecure/9.2/passwordsecure/configuration/advanced_view/clientmodule/organisationalstructures/permissionsous/permissions_for_organisational.md).
 As a specific authorization concept is generally already used within organisational structures, this
 is also used as the basis for further permissions. This form of inheritance is technically
 equivalent to granting permissions based on **affiliations to a folder**. When creating a new
 record, the record receives the permissions in accordance with the defined permissions for the
 organisational unit.
 
-![explanation of authorization](../../../../../../../../../static/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/permissionconcept/automated_settings/inheritance_from_organisational_structures/inheritance-1-en.webp)
+![explanation of authorization](/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/permissionconcept/automated_settings/inheritance_from_organisational_structures/inheritance-1-en.webp)
 
 ## Relevant user settings
 
@@ -25,7 +25,7 @@ organisational structures
 Inherit permissions for new objects (without rights template) This setting is relevant for newly
 created records.
 
-![setting inherit permission](../../../../../../../../../static/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/permissionconcept/automated_settings/inheritance_from_organisational_structures/inheritance-2-en.webp)
+![setting inherit permission](/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/permissionconcept/automated_settings/inheritance_from_organisational_structures/inheritance-2-en.webp)
 
 The following values can be configured:
 
@@ -40,7 +40,7 @@ permissions for the user.
 
 Existing passwords inherit changes to the permissions for organisational units
 
-![setting inherit from OU to password](../../../../../../../../../static/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/permissionconcept/automated_settings/inheritance_from_organisational_structures/inheritance-3-en.webp)
+![setting inherit from OU to password](/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/permissionconcept/automated_settings/inheritance_from_organisational_structures/inheritance-3-en.webp)
 
 This option means that changes to permissions for an organisational unit will be inherited by all
 passwords for this organisational unit. This setting is active by default. When inheriting
@@ -60,16 +60,16 @@ should be inherited by new objects in accordance with the organisational structu
 
 The permissions for the organisational unit “marketing” are shown below:
 
-![example of permissions](../../../../../../../../../static/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/permissionconcept/automated_settings/inheritance_from_organisational_structures/inheritance-4-en.webp)
+![example of permissions](/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/permissionconcept/automated_settings/inheritance_from_organisational_structures/inheritance-4-en.webp)
 
 A new password is now created in the organisational unit “marketing”.
 
-![new password](../../../../../../../../../static/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/permissionconcept/automated_settings/inheritance_from_organisational_structures/inheritance-5-en.webp)
+![new password](/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/permissionconcept/automated_settings/inheritance_from_organisational_structures/inheritance-5-en.webp)
 
 It is important that no preset is defined for this organisational unit. The permissions for the
 record just created are now shown.
 
-![permissions example](../../../../../../../../../static/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/permissionconcept/automated_settings/inheritance_from_organisational_structures/inheritance-6-en.webp)
+![permissions example](/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/permissionconcept/automated_settings/inheritance_from_organisational_structures/inheritance-6-en.webp)
 
 ## Conclusion
 
@@ -77,7 +77,7 @@ The permissions for the “storage location” are simply used when creating new
 apply here:
 
 The value “organisational unit” must be selected in the settings for the inheritance of permissions
-There must be no [Predefining rights](../../predefining_rights/predefining_rights.md) for the
+There must be no [Predefining rights](/docs/passwordsecure/9.2/passwordsecure/configuration/advanced_view/permissionconcept/predefining_rights/predefining_rights.md) for the
 affected organisational structure This process is illustrated in the following diagram:
 
-![process for inheritance of permissions](../../../../../../../../../static/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/permissionconcept/automated_settings/inheritance_from_organisational_structures/inheritance-7-en.webp)
+![process for inheritance of permissions](/img/product_docs/passwordsecure/passwordsecure/configuration/advanced_view/permissionconcept/automated_settings/inheritance_from_organisational_structures/inheritance-7-en.webp)

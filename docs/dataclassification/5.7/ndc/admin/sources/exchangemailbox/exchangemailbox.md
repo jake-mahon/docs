@@ -18,11 +18,11 @@ specify the following:
 | ---------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Authentication type    | Select **Modern (Exchange Online)**                                                                                                                                                                                                                                                                 |
 | Admin Username         | Specify the administrative account for the required Exchange Online organization. The user must have a mailbox connected to it in order to crawl Exchange.                                                                                                                                          |
-| Tenant ID              | Enter the **Tenant ID** you obtained at [Step 5: Obtain Tenant ID](../../../configuration/configinfrastructure/azureappexchangeonlinemfa#step-5-obtain-tenant-id).                                                                                                                                  |
-| Certificate thumbprint | Enter the certificate thumbprint you prepared at [Step 4: Configure Certificates & secrets](../../../configuration/configinfrastructure/azureappexchangeonlinemfa#step-4-configure-certificates--secrets).                                                                                          |
-| Application ID         | Enter the app ID you got at application registration at [Step 2: Create and Register a new app in Azure AD](../../../configuration/configinfrastructure/azureappexchangeonlinemfa#step-2-create-and-register-a-new-app-in-azure-ad) (it can be found in the Azure AD app properties >**Overview**). |
+| Tenant ID              | Enter the **Tenant ID** you obtained at [Step 5: Obtain Tenant ID](/docs/dataclassification/5.7/ndc/configuration/configinfrastructure/azureappexchangeonlinemfa#step-5-obtain-tenant-id).                                                                                                                                  |
+| Certificate thumbprint | Enter the certificate thumbprint you prepared at [Step 4: Configure Certificates & secrets](/docs/dataclassification/5.7/ndc/configuration/configinfrastructure/azureappexchangeonlinemfa#step-4-configure-certificates--secrets).                                                                                          |
+| Application ID         | Enter the app ID you got at application registration at [Step 2: Create and Register a new app in Azure AD](/docs/dataclassification/5.7/ndc/configuration/configinfrastructure/azureappexchangeonlinemfa#step-2-create-and-register-a-new-app-in-azure-ad) (it can be found in the Azure AD app properties >**Overview**). |
 
-![exchangeonline_cfg_modern_auth_thumb_0_0](../../../../../../../static/img/product_docs/dataclassification/ndc/admin/sources/exchangemailbox/exchangeonline_cfg_modern_auth_thumb_0_0.webp)
+![exchangeonline_cfg_modern_auth_thumb_0_0](/img/product_docs/dataclassification/ndc/admin/sources/exchangemailbox/exchangeonline_cfg_modern_auth_thumb_0_0.webp)
 
 ## Authentication type: Basic
 
@@ -30,7 +30,7 @@ If you plan to use this authentication type, you will need to specify the follow
 
 | Option                   | Description                                                                                                        | Comments                                                                                                                                                          |
 | ------------------------ | ------------------------------------------------------------------------------------------------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Email Address / Password | **Administrator** account that has been assigned both: 1. **Impersonation** right 2. **Discovery Management** role | See [Configure Microsoft Exchange for Crawling and Classification](../../../configuration/configinfrastructure/exchange.md) for details on the rights assignment. |
+| Email Address / Password | **Administrator** account that has been assigned both: 1. **Impersonation** right 2. **Discovery Management** role | See [Configure Microsoft Exchange for Crawling and Classification](/docs/dataclassification/5.7/ndc/configuration/configinfrastructure/exchange.md) for details on the rights assignment. |
 
 ## Other configuration settings
 

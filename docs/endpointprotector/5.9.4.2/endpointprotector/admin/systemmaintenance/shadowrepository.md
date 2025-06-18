@@ -46,7 +46,7 @@ the Group has only Read and Execute).
 **NOTE:** If you are using the Samba V1 protocol for File Shadows on Mac, make sure that NTLMv1
 authorization is set on the Samba server.
 
-![Enable the Endpoint Protector Client to send File Shadows directly](../../../../../../static/img/product_docs/endpointprotector/endpointprotector/admin/systemmaintenance/fileshadowrepository.webp)
+![Enable the Endpoint Protector Client to send File Shadows directly](/img/product_docs/endpointprotector/endpointprotector/admin/systemmaintenance/fileshadowrepository.webp)
 
 ## Test Connection
 
@@ -136,7 +136,7 @@ When a file is uploaded, an External Repository Upload log will be displayed.
 **CAUTION:** File shadows contained in the S3 Bucket (File Shadow Repository) will not be included
 in the Audit.
 
-![S3 Bucket File Shadow Repository](../../../../../../static/img/product_docs/endpointprotector/endpointprotector/admin/systemmaintenance/fileshadowrepositorytwo.webp)
+![S3 Bucket File Shadow Repository](/img/product_docs/endpointprotector/endpointprotector/admin/systemmaintenance/fileshadowrepositorytwo.webp)
 
 **NOTE:** In the scenario where there may be an unreliable network, the Client will attempt to
 upload the artifact 10 times before the guard-rail will stop upload attempts. This will delete the
@@ -151,12 +151,12 @@ To add the Endpoint Protector Server IP to the S3 Bucket whitelist, follow these
 
 **Step 2 –** Click on an entry from the **S3 Bucket list**.
 
-![Adding the Netwrix Endpoint Protector Server IP to the S3 Bucket whitelist](../../../../../../static/img/product_docs/endpointprotector/endpointprotector/admin/systemmaintenance/amazons3one.webp)
+![Adding the Netwrix Endpoint Protector Server IP to the S3 Bucket whitelist](/img/product_docs/endpointprotector/endpointprotector/admin/systemmaintenance/amazons3one.webp)
 
 **Step 3 –** On the S3 Bucket, select the **Permission** tab, scroll down to the Bucket policy
 section, and then click **Edit**.
 
-![Adding the Netwrix Endpoint Protector Server IP to the S3 Bucket whitelist](../../../../../../static/img/product_docs/endpointprotector/endpointprotector/admin/systemmaintenance/amazons3two.webp)
+![Adding the Netwrix Endpoint Protector Server IP to the S3 Bucket whitelist](/img/product_docs/endpointprotector/endpointprotector/admin/systemmaintenance/amazons3two.webp)
 
 **Step 4 –** On the Bucket Policy, add the following IPs:
 
@@ -166,7 +166,7 @@ section, and then click **Edit**.
 **Step 5 –** Use the Policy generator from the top-right corner to help you edit or create a new
 Bucket policy. This will open a new page with the AWS Policy Generator.
 
-![Adding the Netwrix Endpoint Protector Server IP to the S3 Bucket whitelist](../../../../../../static/img/product_docs/endpointprotector/endpointprotector/admin/systemmaintenance/amazons3three.webp)
+![Adding the Netwrix Endpoint Protector Server IP to the S3 Bucket whitelist](/img/product_docs/endpointprotector/endpointprotector/admin/systemmaintenance/amazons3three.webp)
 
 On the AWS Policy Generator, provide the following information:
 
@@ -184,7 +184,7 @@ Add the Statement, click **Generate Policy**, and then use the **Bucket Policy**
 For more information on this procedure, read the
 [AWS documentation](https://docs.aws.amazon.com/AmazonS3/latest/userguide/example-bucket-policies.html).
 
-![ AWS Policy Generator](../../../../../../static/img/product_docs/endpointprotector/endpointprotector/admin/systemmaintenance/awspolicygenerator.webp)
+![ AWS Policy Generator](/img/product_docs/endpointprotector/endpointprotector/admin/systemmaintenance/awspolicygenerator.webp)
 
 ```
 Example: S3 Bucket Policy (JSON)

@@ -16,4 +16,4 @@ node in the Access Information Center. SQL Server reports fall into the followin
 
 The following report is available at the **SQL Server** node:
 
-- [Sensitive Content Summary Report](sensitivecontentsummary.md)
+- [Sensitive Content Summary Report](/docs/accessinformationcenter/12.0/access/informationcenter/resourceaudit/sql/sensitivecontentsummary.md)

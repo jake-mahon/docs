@@ -5,7 +5,7 @@ The Policy Details page displays information about the Honeytoken configuration.
 **NOTE:** Policies for Honeytokens must be enabled by configuring the settings on the Configuration
 tab.
 
-![detailspage](../../../../../../../static/img/product_docs/threatmanager/threatmanager/administration/configuration/policies/detailspage.webp)
+![detailspage](/img/product_docs/threatmanager/threatmanager/administration/configuration/policies/detailspage.webp)
 
 The Policies box displays the name of the Honeytoken policy. The Policy Information box displays the
 Honeytoken policy and a description if specified. Click the Edit button to change the name of the
@@ -23,7 +23,7 @@ The Tabs box contains the following tabs:
 
 The Configuration tab provides information on the selected policy for a Honeytoken.
 
-![configurationtab](../../../../../../../static/img/product_docs/threatprevention/threatprevention/reportingmodule/configuration/integrations/configurationtab.webp)
+![configurationtab](/img/product_docs/threatprevention/threatprevention/reportingmodule/configuration/integrations/configurationtab.webp)
 
 The Configuration tab contains the following configuration options:
 
@@ -51,7 +51,7 @@ The Configuration tab contains the following configuration options:
 - Token Domain – The domain to be used for the deployed Honeytoken. This can be selected from
   existing, known domains or a custom domain can be specified.
 - Select Credential Profile – Lists Credential Profiles added on the
-  [Integrations Interface](../integrations/overview.md). Select a Credential Profile from the
+  [Integrations Interface](/docs/threatmanager/3.0/threatmanager/administration/configuration/integrations/overview.md). Select a Credential Profile from the
   drop-down list.
 - Select Preferrred Action Service – Select the Action Service to be used for Honeytoken deployment.
 - Token Time to Reset Password – All Honeytokens for a policy will share common password. This value
@@ -94,7 +94,7 @@ Click Save to update the policy settings. Once saved, threats are detected for t
 The Hosts tab provides information on hosts that have policies deployed. The Hosts tab displays the
 following information:
 
-![This screenshot displays the Hosts tab.](../../../../../../../static/img/product_docs/threatmanager/threatmanager/administration/configuration/policies/policieshoststab.webp)
+![This screenshot displays the Hosts tab.](/img/product_docs/threatmanager/threatmanager/administration/configuration/policies/policieshoststab.webp)
 
 - Host – The host where the policy was deployed to create Honeytokens
 - Token Name – The name of the Honeytoken user
@@ -112,7 +112,7 @@ Action Service can be used to deploy Honeytokens to remote computers, or a Power
 downloaded to allow either an external mechanism to deploy Honeytokens or for manual deployment of
 the Honeytokens.
 
-![deploymenttab](../../../../../../../static/img/product_docs/threatmanager/threatmanager/administration/configuration/policies/deploymenttab.webp)
+![deploymenttab](/img/product_docs/threatmanager/threatmanager/administration/configuration/policies/deploymenttab.webp)
 
 - PowerShell Script Deployment:
 
@@ -146,11 +146,11 @@ When the Deploy Now button is clicked, Threat Manager will immediately deploy th
 hosts specified in the Hosts lists, utilizing the preferred action service selected for the
 Honeytoken policy on the Configuration tab.
 
-![honeytokeninprogress](../../../../../../../static/img/product_docs/threatmanager/threatmanager/administration/configuration/policies/honeytokeninprogress.webp)
+![honeytokeninprogress](/img/product_docs/threatmanager/threatmanager/administration/configuration/policies/honeytokeninprogress.webp)
 
 Closing this window will not cancel the deployment.
 
-![honeytokendeploymentwindowcomplete](../../../../../../../static/img/product_docs/threatmanager/threatmanager/administration/configuration/policies/honeytokendeploymentwindowcomplete.webp)
+![honeytokendeploymentwindowcomplete](/img/product_docs/threatmanager/threatmanager/administration/configuration/policies/honeytokendeploymentwindowcomplete.webp)
 
 The window will update when the deployment is complete. The hosts and statuses will be listed,
 viewable by clicking the caret. Deployment status for each host may also be viewed on the Policy
@@ -161,7 +161,7 @@ History tab. When finished, click **Close** or the gray x to exit the window.
 The History tab displays audit history for changes to this policy. It contains a table with the
 following columns:
 
-![This screenshot displays the History tab.](../../../../../../../static/img/product_docs/threatmanager/threatmanager/administration/configuration/policies/policieshistorytab.webp)
+![This screenshot displays the History tab.](/img/product_docs/threatmanager/threatmanager/administration/configuration/policies/policieshistorytab.webp)
 
 - TimeStamp – The timestamp for when the activity occurred
 - Message – A description of the activity that occurred

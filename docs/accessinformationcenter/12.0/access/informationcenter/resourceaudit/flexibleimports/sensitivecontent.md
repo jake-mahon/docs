@@ -5,10 +5,10 @@ where criteria matches were found on the selected resource. This report includes
 Access Information Center users with either Security Team Member or Administrator roles with
 criteria Matches. The Matches table requires the storage of discovered sensitive data within the
 Access Analyzer database or it will be blank. The **Include Subfolders** option is active by default
-until removed. See the [Results Pane](../navigate/overview.md#results-pane) topic for information on
+until removed. See the [Results Pane](/docs/accessinformationcenter/12.0/access/informationcenter/resourceaudit/navigate/overview.md#results-pane) topic for information on
 changing this option.
 
-![Sensitive Content report for imported data](../../../../../../../static/img/product_docs/accessinformationcenter/access/informationcenter/resourceaudit/sharepoint/sensitivecontent.webp)
+![Sensitive Content report for imported data](/img/product_docs/accessinformationcenter/access/informationcenter/resourceaudit/sharepoint/sensitivecontent.webp)
 
 This report is comprised of the following columns:
 
@@ -30,4 +30,4 @@ were found:
 - Sub File – File name if the sensitive data files reside in a PST file or a ZIP file
 
 The table data grid functions the same way as other table grids. See the
-[Data Grid Features](../../../general/datagrid.md) topic for additional information.
+[Data Grid Features](/docs/accessinformationcenter/12.0/access/general/datagrid.md) topic for additional information.

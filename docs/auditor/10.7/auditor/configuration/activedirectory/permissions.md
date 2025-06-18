@@ -26,7 +26,7 @@ The account used for data collection must meet the following requirements:
       additional information.
 
 If the account selected for data collection is not a member of the Domain Admins group, see the
-[Assign Permission To Read the Registry Key](../windowsserver/permissions.md) topic.
+[Assign Permission To Read the Registry Key](/docs/auditor/10.7/auditor/configuration/windowsserver/permissions.md) topic.
 
 ## Additional Configuration to Review Changes Made via Exchange Server
 
@@ -37,11 +37,11 @@ you should make sure that the account used for data collection has any of the fo
 - Membership in the **Organization Management** or **Records Management** group.
 
 - The **Audit Logs** management role (see the
-  [Assigning Management Roles](../exchange/permissions.md#assign-management-roles) topic for
+  [Assigning Management Roles](/docs/auditor/10.7/auditor/configuration/exchange/permissions.md#assign-management-roles) topic for
   additional information).
 
 You will also need to configure Exchange Administrator Audit Logging (AAL) settings. See the
-[Exchange Administrator Audit Logging Settings](../exchange/auditlog.md) topic for additional
+[Exchange Administrator Audit Logging Settings](/docs/auditor/10.7/auditor/configuration/exchange/auditlog.md) topic for additional
 information.
 
 ## Additional Configuration for Domain Controller's Event Logs Auto-backup
@@ -50,7 +50,7 @@ The following is required if auto-backup is enabled for the domain controller ev
 
 - Permissions to access the HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\EventLog\Security
   registry key on the domain controllers in the target domain. See the
-  [Assign Permission To Read the Registry Key](../windowsserver/permissions.md) topic for additional
+  [Assign Permission To Read the Registry Key](/docs/auditor/10.7/auditor/configuration/windowsserver/permissions.md) topic for additional
   information.
 - Membership in one of the following groups: **Administrators**, **Print Operators**, **Server
   Operators**.
@@ -87,7 +87,7 @@ If auto-backup is _enabled_ for the domain controller event logs:
 
 - Permissions to access the _HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\EventLog\Security_
   registry key on the domain controllers in the target domain. See the
-  [Assign Permission To Read the Registry Key](../windowsserver/permissions.md) topic for additional
+  [Assign Permission To Read the Registry Key](/docs/auditor/10.7/auditor/configuration/windowsserver/permissions.md) topic for additional
   information.
 - Membership in any of the following groups: Administrators, Print Operators, Server Operators
 - Read/Write share permission and Full control security permission on the logs backup folder.
@@ -101,11 +101,11 @@ you should make sure that the account used for data collection has any of the fo
 
 - Membership in the **Organization Management** or **Records Management** group.
 - The **Audit Logs** management role (see the
-  [Assigning Management Roles](../exchange/permissions.md#assign-management-roles) topic for
+  [Assigning Management Roles](/docs/auditor/10.7/auditor/configuration/exchange/permissions.md#assign-management-roles) topic for
   additional information).
 
 You will also need to configure Exchange Administrator Audit Logging (AAL) settings. See the
-[Exchange Administrator Audit Logging Settings](../exchange/auditlog.md) topic for additional
+[Exchange Administrator Audit Logging Settings](/docs/auditor/10.7/auditor/configuration/exchange/auditlog.md) topic for additional
 information.
 
 If you are using gMSA for data collection, consider that AAL event data collection from your
@@ -226,7 +226,7 @@ snap-in: navigate to Start > Windows Administrative Tools and select Local Secur
 **Step 2 –** In the **Local Security Policy** snap-in, navigate to **Security Settings** > **Local
 Policies > User Rights Assignment** and locate the **Log on as a batch job** policy.
 
-![manualconfig_ws_logonasbatch](../../../../../../static/img/product_docs/1secure/admin/datacollection/activedirectory/manualconfig_ws_logonasbatch.webp)
+![manualconfig_ws_logonasbatch](/img/product_docs/1secure/admin/datacollection/activedirectory/manualconfig_ws_logonasbatch.webp)
 
 **Step 3 –** Double-click the **Log on as a batch job** policy, and click **Add User or Group**.
 Specify the account that you want to define this policy for.

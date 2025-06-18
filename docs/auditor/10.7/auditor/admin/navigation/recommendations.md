@@ -6,7 +6,7 @@ Netwrix Service Accounts, you can start collecting data and review it with Netwr
 recommendations are based on your current product configuration and help you to experience the
 Auditor capabilities in earnest.
 
-![recommendations](../../../../../../static/img/product_docs/auditor/auditor/admin/navigation/recommendations.webp)
+![recommendations](/img/product_docs/auditor/auditor/admin/navigation/recommendations.webp)
 
 Follow the steps to review the recommendations provided by Netwrix industry experts.
 
@@ -28,7 +28,7 @@ To start collecting data with Netwrix Auditor, you need to create a monitoring p
 data collection, notification, and storage settings and add a source-specific item. This
 recommendation will appear if you don't have any monitoring plans configured. Clicking the **Add
 plan** button opens the New Monitoring Plan wizard. See the
-[Create a New Plan](../monitoringplans/create.md) topic for additional information about plans
+[Create a New Plan](/docs/auditor/10.7/auditor/admin/monitoringplans/create.md) topic for additional information about plans
 configuration. Once completed, you will be prompted to add an item to your plan, otherwise the
 configuration will be incomplete and the product will not be able to collect data. Auditor
 automatically suggests item types associated with your data source.
@@ -38,7 +38,7 @@ automatically suggests item types associated with your data source.
 If you have a license for several applications, Netwrix suggests enabling each undeployed data
 source for each purchased application if they were never deployed before. Clicking the **Add plan**
 button opens the New Monitoring Plan wizard. Select the data source you want to monitor with Netwrix
-Auditor and see the [Create a New Plan](../monitoringplans/create.md) topic for additional
+Auditor and see the [Create a New Plan](/docs/auditor/10.7/auditor/admin/monitoringplans/create.md) topic for additional
 information about further configuration.
 
 ### Enable State-in-Time Data Collection
@@ -46,10 +46,10 @@ information about further configuration.
 If you want to review the state of your system configuration at a specific moment in time, for
 example, account permissions or group membership, you need to enable the State-in-Time data
 collection for your data source. See the
-[State–in–Time Reports](../reports/types/stateintime/overview.md) topic for additional information
+[State–in–Time Reports](/docs/auditor/10.7/auditor/admin/reports/types/stateintime/overview.md) topic for additional information
 about the available reports. Clicking the **Go to data source** button opens the settings page of
 the data source to which this recommendation applies to. See the
-[Manage Data Sources](../monitoringplans/datasources.md) topic for additional information.
+[Manage Data Sources](/docs/auditor/10.7/auditor/admin/monitoringplans/datasources.md) topic for additional information.
 
 **NOTE:** This recommendation will not be shown for to the File Servers data sources (Windows-based
 file shares, NetApp Filers, Dell Data Storage, etc.). Navigate to your file server data source and
@@ -61,10 +61,10 @@ The Health Summary email includes all statistics on the product operations and h
 24 hours; it also notifies you about license status. If you have configured monitoring plans with
 data sources and items, Netwrix recommends subscribing to Health Summary emails to be notified on
 the problems that need your attention. See the
-[Health Summary Email](../healthstatus/summaryemail.md) topic for additional information.
+[Health Summary Email](/docs/auditor/10.7/auditor/admin/healthstatus/summaryemail.md) topic for additional information.
 
 Clicking the **Go to Notifications** button opens the Netwrix Auditor notifications settings page.
-See the [Notifications](../settings/notifications.md) topic for additional information.
+See the [Notifications](/docs/auditor/10.7/auditor/admin/settings/notifications.md) topic for additional information.
 
 ### Logon Activity: Start Auditing Item
 
@@ -73,7 +73,7 @@ Netwrix recommends creating a new monitoring plan for the Logon Activity data so
 details around interactive and non-interactive logons, including failed logon attempts, and users
 logon and logoff activity on domain controllers in the audited domain. Clicking the **Add plan**
 button opens the New Monitoring Plan wizard with the Logon Activity as a selected data source. See
-the [Create a New Plan](../monitoringplans/create.md) topic for additional information about further
+the [Create a New Plan](/docs/auditor/10.7/auditor/admin/monitoringplans/create.md) topic for additional information about further
 configuration.
 
 ### Enable Alerts
@@ -82,7 +82,7 @@ For the configured monitoring plans, Netwrix recommends enabling alerts to be im
 on the suspicious activity. You can enable predefined alerts or create your custom ones.
 
 Clicking the **Open** settings button opens the All Alerts wizard. See the
-[Manage Alerts](../alertsettings/overview.md) topic for additional information.
+[Manage Alerts](/docs/auditor/10.7/auditor/admin/alertsettings/overview.md) topic for additional information.
 
 ## Manage Recommendations
 
@@ -99,7 +99,7 @@ Follow the steps to manage recommendations:
 
 **Step 2 –** Click **Settings** at the bottom.
 
-![managerecommendations](../../../../../../static/img/product_docs/auditor/auditor/admin/navigation/managerecommendations.webp)
+![managerecommendations](/img/product_docs/auditor/auditor/admin/navigation/managerecommendations.webp)
 
 **Step 3 –** In the Manage recommendations dialog, do the following:
 

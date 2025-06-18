@@ -1,9 +1,9 @@
 # Add Credentials Window
 
 The Add Credentials window provides a list of Credentials that have been onboarded. Credentials are
-onboarded in the [Credentials Page](../../page/credentials.md).
+onboarded in the [Credentials Page](/docs/privilegesecure/4.2/privilegesecure/accessmanagement/admin/policy/page/credentials.md).
 
-![Add credentials window](../../../../../../../../../static/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/add/addcredentials.webp)
+![Add credentials window](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/add/addcredentials.webp)
 
 The window has the following features:
 
@@ -60,4 +60,4 @@ table and it is immediately moved to the Credentials to Add table.
 **Step 6 –** Click Add to add the credential(s) to the access policy.
 
 The new credential(s) are added to the access policy and are shown in the
-[Credentials Tab for Credential Based Access Policies](../../tab/policycredentials/credentials.md).
+[Credentials Tab for Credential Based Access Policies](/docs/privilegesecure/4.2/privilegesecure/accessmanagement/admin/policy/tab/policycredentials/credentials.md).

@@ -11,7 +11,7 @@ on the corresponding virtualization platform, in particular:
 - Nutanix AHV
 
 Note that Netwrix Data Classification supports only Windows OS versions listed in the
-[Software Requirements](softwarerequirements.md) section.
+[Software Requirements](/docs/dataclassification/5.7/ndc/requirements/softwarerequirements.md) section.
 
 ## Netwrix Data Classification Server
 
@@ -20,8 +20,8 @@ The requirements in this section apply to a single Netwrix Data Classification s
 To deploy a server cluster, make sure all planned cluster nodes meet the requirements listed below.
 Consider deploying 1 Netwrix Data Classification Server per approx. 16, 000, 000 objects to process.
 
-See [Deployment Planning](../install/deployment/overview.md) and
-[Configuring NDC Servers Cluster and Load Balancing with DQS Mode](dqsmode.md) for more information.
+See [Deployment Planning](/docs/dataclassification/5.7/ndc/install/deployment/overview.md) and
+[Configuring NDC Servers Cluster and Load Balancing with DQS Mode](/docs/dataclassification/5.7/ndc/requirements/dqsmode.md) for more information.
 
 | Hardware Component | 1 Server per 16 M objects      |
 | ------------------ | ------------------------------ |
@@ -39,7 +39,7 @@ will be deployed.
 | ------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------- | -------------------------------------------------------- |
 | Processor          | 8 cores                                                                                                                                                                                                                            | 8 cores                                                 | 8 cores                                                  |
 | RAM                | 32 GB                                                                                                                                                                                                                              | 64 GB                                                   | 128 GB                                                   |
-| Hard disk          | Estimate required disk space assuming _10 - 12 KB_ per indexed object. For example, for _5, 000, 000_ objects, the database size will be approximately _50 GB_. See also [Deployment Planning](../install/deployment/overview.md). |                                                         |                                                          |
+| Hard disk          | Estimate required disk space assuming _10 - 12 KB_ per indexed object. For example, for _5, 000, 000_ objects, the database size will be approximately _50 GB_. See also [Deployment Planning](/docs/dataclassification/5.7/ndc/install/deployment/overview.md). |                                                         |                                                          |
 | Hard disk type     | SSD storage (recommended)                                                                                                                                                                                                          |                                                         |                                                          |
 
 ## Network Access

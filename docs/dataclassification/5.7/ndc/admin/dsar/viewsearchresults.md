@@ -10,7 +10,7 @@ following:
 
     The following window appears:
 
-    ![dsar_view_results](../../../../../../static/img/product_docs/dataclassification/ndc/admin/dsar/dsar_view_results.webp)
+    ![dsar_view_results](/img/product_docs/dataclassification/ndc/admin/dsar/dsar_view_results.webp)
 
     Review the following for additional information:
 
@@ -25,4 +25,4 @@ following:
 
 See also:
 
-- [Manage Search Requests](searches.md)
+- [Manage Search Requests](/docs/dataclassification/5.7/ndc/admin/dsar/searches.md)

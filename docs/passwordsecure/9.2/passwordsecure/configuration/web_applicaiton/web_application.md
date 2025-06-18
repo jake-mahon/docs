@@ -7,9 +7,9 @@ Secure version** **8.3.0. The completely newly developed \*Web Application** wil
 for the constant enhancement of the functional scope. The desired objective is to also provide the
 full functional scope of the client in the Web Application. The **Web Application** will thus be
 constantly enhanced. All of the currently available functions can be viewed in the
-[Functional scope](functional_scope/functional_scope.md) section.
+[Functional scope](/docs/passwordsecure/9.2/passwordsecure/configuration/web_applicaiton/functional_scope/functional_scope.md) section.
 
-![WebClient](../../../../../../static/img/product_docs/passwordsecure/passwordsecure/configuration/web_applicaiton/installation_with_parameters_159.webp)
+![WebClient](/img/product_docs/passwordsecure/passwordsecure/configuration/web_applicaiton/installation_with_parameters_159.webp)
 
 **Netwrix Password Secure Web Application** enables platform-independent access to the database via
 a browser. It is irrelevant whether you are using Microsoft Windows, macOS or Linux, it is only
@@ -19,4 +19,4 @@ responsive design, it can also be used on all mobile devices such as tablets and
 The **Web Application** is based both optically and also in its operation on the Netwrix Password
 Secure client. As usual, users can only access the data for which they also have permissions. The
 installation is described in the section
-[Installation Web Application](../../installation/installation_web_application/installation_web_application.md)
+[Installation Web Application](/docs/passwordsecure/9.2/passwordsecure/installation/installation_web_application/installation_web_application.md)

@@ -79,7 +79,7 @@ automation of approved changes.
     must be manually done outside of the application. See the Sensitive Data Review Automation topic
     for additional information.
 
-See the [Access Groups](../resourceowners/accessgroups.md) topic for additional information.
+See the [Access Groups](/docs/accessinformationcenter/12.0/access/informationcenter/resourceowners/accessgroups.md) topic for additional information.
 
 ### Sensitive Data Review Automation
 

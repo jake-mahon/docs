@@ -5,7 +5,7 @@ automatically imported when you install the latest version. The Import feature c
 templates and import new templates.
 
 _Remember,_ use these steps when the Templates Update window option was selected as **No** during
-the [Upgrade Procedure](overview.md) process.
+the [Upgrade Procedure](/docs/threatprevention/7.5/threatprevention/install/upgrade/overview.md) process.
 
 Follow the steps to upgrade policy templates and import new templates.
 

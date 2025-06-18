@@ -11,13 +11,13 @@ To crawl SQL server:
 
 1. Go to **Content → Sources** and select **Add**.
 2. Select **SQL Server**.
-3. Specify [MS SQL Server](mssqlserver.md) or [Oracle Server](oracleserver.md).
+3. Specify [MS SQL Server](/docs/dataclassification/5.7/ndc/admin/sources/sqlserver/mssqlserver.md) or [Oracle Server](/docs/dataclassification/5.7/ndc/admin/sources/sqlserver/oracleserver.md).
 
-    ![sqlserver_source](../../../../../../../static/img/product_docs/dataclassification/ndc/admin/sources/sqlserver/sqlserver_source.webp)
+    ![sqlserver_source](/img/product_docs/dataclassification/ndc/admin/sources/sqlserver/sqlserver_source.webp)
 
 4. Select Save.
 
     You can then review summary, text, metadata, classifications, and properties of your crawling by
     selecting information icon against your server. You can also build the report for more details.
 
-![sqlserver_source2](../../../../../../../static/img/product_docs/dataclassification/ndc/admin/sources/sqlserver/sqlserver_source2.webp)
+![sqlserver_source2](/img/product_docs/dataclassification/ndc/admin/sources/sqlserver/sqlserver_source2.webp)

@@ -3,7 +3,7 @@
 The FS_BrokenInheritance job is designed to report on resources with Broken Inheritance from
 targeted file servers.
 
-![3.Broken Inheritance > FS_BrokenInheritance Job in the Jobs Tree](../../../../../static/img/product_docs/accessanalyzer/solutions/filesystem/brokeninheritancejobstree.webp)
+![3.Broken Inheritance > FS_BrokenInheritance Job in the Jobs Tree](/img/product_docs/accessanalyzer/solutions/filesystem/brokeninheritancejobstree.webp)
 
 The FS_BrokenInheritance job is located in the 3.Broken Inheritance job group.
 
@@ -11,7 +11,7 @@ The FS_BrokenInheritance job is located in the 3.Broken Inheritance job group.
 
 The Configuration section on a Job's overview page allows you to easily modify any customizable
 parameters used by analysis tasks in the job. See the
-[Parameter Configuration](../../admin/jobs/job/overview.md#parameter-configuration) topic for
+[Parameter Configuration](/docs/accessanalyzer/12.0/admin/jobs/job/overview.md#parameter-configuration) topic for
 instructions on how to edit parameters on a job overview page.
 
 The FS_BrokenInheritance job has the following configurable parameter:
@@ -34,7 +34,7 @@ View the analysis tasks by navigating to the **FileSystem** > **3.Broken Inherit
 **CAUTION:** Most of these analysis tasks are preconfigured and should not be modified and or
 deselected. There are some that are deselected by default, as they are for troubleshooting purposes.
 
-![Analysis Tasks for the FS_BrokenInheritance Job](../../../../../static/img/product_docs/accessanalyzer/solutions/filesystem/brokeninheritanceanalysis.webp)
+![Analysis Tasks for the FS_BrokenInheritance Job](/img/product_docs/accessanalyzer/solutions/filesystem/brokeninheritanceanalysis.webp)
 
 The following analysis tasks are selected by default:
 
@@ -56,7 +56,7 @@ The following analysis tasks are selected by default:
       information.
     - Alternatively, this can be set by modifying the `@FILTER_TO_CHANGED_RESOURCES` parameter. See
       the
-      [Configure the Customizable Parameters in an Analysis Task](../../admin/jobs/job/configure/analysiscustomizableparameters.md)
+      [Configure the Customizable Parameters in an Analysis Task](/docs/accessanalyzer/12.0/admin/jobs/job/configure/analysiscustomizableparameters.md)
       topic for additional information.
 
 -   3. Determine Permission Changes – Creates an interim processing table in the database for use by

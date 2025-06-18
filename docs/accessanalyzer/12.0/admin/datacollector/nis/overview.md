@@ -4,7 +4,7 @@ The NIS Data Collector inventories a NIS domain for user and group information, 
 Windows-style SIDs. This data collector is a core component of Access Analyzer and has been
 preconfigured within the .NIS Inventory Solution. Both this data collector and the solution are
 available with all Access Analyzer license options. See the
-[.NIS Inventory Solution](../../../solutions/nisinventory/overview.md) topic for additional
+[.NIS Inventory Solution](/docs/accessanalyzer/12.0/solutions/nisinventory/overview.md) topic for additional
 information.
 
 Protocols
@@ -26,14 +26,14 @@ The NIS Data Collector is configured through the NIS Data Collector Wizard, whic
 following wizard pages:
 
 - Welcome
-- [NIS: Category](category.md)
-- [NIS: NIS Settings](settings.md)
-- [NIS: SID Mappings](sidmappings.md)
-- [NIS: NIS Query](query.md)
-- [NIS: Results](results.md)
-- [NIS: Summary](summary.md)
+- [NIS: Category](/docs/accessanalyzer/12.0/admin/datacollector/nis/category.md)
+- [NIS: NIS Settings](/docs/accessanalyzer/12.0/admin/datacollector/nis/settings.md)
+- [NIS: SID Mappings](/docs/accessanalyzer/12.0/admin/datacollector/nis/sidmappings.md)
+- [NIS: NIS Query](/docs/accessanalyzer/12.0/admin/datacollector/nis/query.md)
+- [NIS: Results](/docs/accessanalyzer/12.0/admin/datacollector/nis/results.md)
+- [NIS: Summary](/docs/accessanalyzer/12.0/admin/datacollector/nis/summary.md)
 
-![NIS Data Collector Wizard Welcome page](../../../../../../static/img/product_docs/activitymonitor/activitymonitor/install/welcome.webp)
+![NIS Data Collector Wizard Welcome page](/img/product_docs/activitymonitor/activitymonitor/install/welcome.webp)
 
 The Welcome page can be hidden by selecting the **Do not display this page the next time** checkbox
 when the wizard is open and configuration settings are saved.

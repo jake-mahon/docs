@@ -3,7 +3,7 @@
 The Execution Options page provides options to define the mode of execution. It is a wizard page for
 the **Edit Profile** and **Create a New Profile** selections on the Profile Type page.
 
-![Command Line Utility Data Collector Wizard Execution Options page](../../../../../../static/img/product_docs/accessanalyzer/admin/datacollector/commandlineutility/executionoptions.webp)
+![Command Line Utility Data Collector Wizard Execution Options page](/img/product_docs/accessanalyzer/admin/datacollector/commandlineutility/executionoptions.webp)
 
 The available options on the page vary depending on the selected profile type. The possible options
 are as follows:
@@ -24,7 +24,7 @@ The output options include:
 - Preserve Output file – Stores the output file on the local machine
 - .Exe Present in Installed CLU Directory – Select the checkbox if the .exe utility is present in
   the installed CLU directory. The path on the Profile Parameters page should be the utility name
-  instead of the full path. See the [CLU: Profile Parameters](profileparameters.md) topic for
+  instead of the full path. See the [CLU: Profile Parameters](/docs/accessanalyzer/12.0/admin/datacollector/commandlineutility/profileparameters.md) topic for
   additional information.
 
 Remote Execution Options

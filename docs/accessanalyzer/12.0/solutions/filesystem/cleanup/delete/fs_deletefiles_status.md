@@ -1,7 +1,7 @@
 # FS_DeleteFiles_Status Job
 
 The FS_DeleteFiles_Status job is designed to report on deleted resources from targeted file servers
-that were deleted from the FS_DeleteFiles job. See the [FS_DeleteFiles Job](fs_deletefiles.md) topic
+that were deleted from the FS_DeleteFiles job. See the [FS_DeleteFiles Job](/docs/accessanalyzer/12.0/solutions/filesystem/cleanup/delete/fs_deletefiles.md) topic
 for additional information.
 
 ## Analysis Tasks for the FS_DeleteFiles_Status Job
@@ -12,7 +12,7 @@ Navigate to the **FileSystem** > **Cleanup** > **4. Delete** > **FS_DeleteFiles_
 **CAUTION:** Do not modify or deselect the selected analysis task. The analysis task is
 preconfigured for this job.
 
-![Analysis Tasks for the FS_DeleteFiles_Status Job](../../../../../../../static/img/product_docs/accessanalyzer/solutions/filesystem/cleanup/delete/deletefilesstatusanalysis.webp)
+![Analysis Tasks for the FS_DeleteFiles_Status Job](/img/product_docs/accessanalyzer/solutions/filesystem/cleanup/delete/deletefilesstatusanalysis.webp)
 
 The following analysis task is selected by default:
 

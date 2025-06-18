@@ -14,21 +14,21 @@ configuring the module. Before the wizard, collect the desired data for manipula
 The wizard contains the following pages:
 
 - Welcome
-- [SQLViewCreation: Input Scope](inputscope.md)
-- [SQLViewCreation: Input Source](input.md)
-- [SQLViewCreations: Join Columns](joincolumns.md)
-- [SQLViewCreations: Columns](columns.md)
-- [SQLViewCreation: Filter](filter.md)
-- [SQLViewCreation: Time Window](timewindow.md)
-- [SQLViewCreation: Result Constraints](resultconstraints.md)
-- [SQLViewCreation: Result Type](result.md)
-- [SQLViewCreation: Result Sample](resultsample.md)
-- [SQLViewCreation: Export](export.md)
-- [SQLViewCreation: Summary](summary.md)
+- [SQLViewCreation: Input Scope](/docs/accessanalyzer/12.0/admin/analysis/sqlviewcreation/inputscope.md)
+- [SQLViewCreation: Input Source](/docs/accessanalyzer/12.0/admin/analysis/sqlviewcreation/input.md)
+- [SQLViewCreations: Join Columns](/docs/accessanalyzer/12.0/admin/analysis/sqlviewcreation/joincolumns.md)
+- [SQLViewCreations: Columns](/docs/accessanalyzer/12.0/admin/analysis/sqlviewcreation/columns.md)
+- [SQLViewCreation: Filter](/docs/accessanalyzer/12.0/admin/analysis/sqlviewcreation/filter.md)
+- [SQLViewCreation: Time Window](/docs/accessanalyzer/12.0/admin/analysis/sqlviewcreation/timewindow.md)
+- [SQLViewCreation: Result Constraints](/docs/accessanalyzer/12.0/admin/analysis/sqlviewcreation/resultconstraints.md)
+- [SQLViewCreation: Result Type](/docs/accessanalyzer/12.0/admin/analysis/sqlviewcreation/result.md)
+- [SQLViewCreation: Result Sample](/docs/accessanalyzer/12.0/admin/analysis/sqlviewcreation/resultsample.md)
+- [SQLViewCreation: Export](/docs/accessanalyzer/12.0/admin/analysis/sqlviewcreation/export.md)
+- [SQLViewCreation: Summary](/docs/accessanalyzer/12.0/admin/analysis/sqlviewcreation/summary.md)
 
 The Welcome page provides an overview of the analysis module.
 
-![View and Table Creation Analysis Module wizard Welcome page](../../../../../../static/img/product_docs/activitymonitor/activitymonitor/install/welcome.webp)
+![View and Table Creation Analysis Module wizard Welcome page](/img/product_docs/activitymonitor/activitymonitor/install/welcome.webp)
 
 There are no configurable settings on the Welcome page. Click **Next** to begin configuring a custom
 table or view using two formatted data sources, or use the Steps navigation pane to open another

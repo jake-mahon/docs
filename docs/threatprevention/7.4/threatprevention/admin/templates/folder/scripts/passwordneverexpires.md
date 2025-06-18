@@ -17,7 +17,7 @@ The following environmental variables must be added to the script prior to execu
 In the Templates > Actions folder in the Navigation pane, the _ADChanges: Notify Admin that account
 now has Password Never Expires_ template is preconfigured to use this action script.
 
-[Copy](<javascript:void(0);>)
+[Copy](javascript:void(0);)
 
 ```
 namespace ScriptNamespace
@@ -73,7 +73,7 @@ StringBuilder sb = new StringBuilder();
 sb.AppendLine("<html>");
 sb.AppendLine("<body>");
 sb.AppendLine(String.Format("EventName: {0}<br>", helper.EventName));
-sb.AppendLine(String.Format("TimeLoggedUtc: {0}<br>", helper.TimeLoggedUtc.ToString("MMMM d, yyyy h:mm:ss tt")));
+sb.AppendLine(String.Format("TimeLoggedUtc: {0}<br>", helper.TimeLoggedUtc.ToString("MMMM d, yyyy h:mm:ss tt");
 sb.AppendLine(String.Format("Account: {0} now has 'Password Never Expires' option<br>", helper.DN));
 sb.AppendLine(String.Format("Perpetrator: {0}<br>", helper.PerpetratorName));
 sb.AppendLine("</body>");

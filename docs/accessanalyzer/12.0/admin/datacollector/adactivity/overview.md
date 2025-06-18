@@ -3,7 +3,7 @@
 The ADActivity Data Collector integrates with the Netwrix Activity Monitor by reading the Active
 Directory activity log files. It has been preconfigured within the Active Directory Solution. Both
 this data collector and the solution are available with a special Access Analyzer license. See the
-[Active Directory Solution](../../../solutions/activedirectory/overview.md) topic for additional
+[Active Directory Solution](/docs/accessanalyzer/12.0/solutions/activedirectory/overview.md) topic for additional
 information.
 
 Protocols
@@ -26,9 +26,9 @@ Permissions
 The ADActivity Data Collector is configured through the Active Directory Activity DC wizard, which
 contains the following wizard pages, which change based up on the query category selected:
 
-- [ADActivity: Category](category.md)
-- [ADActivity: SAM Connection](connection.md)
-- [ADActivity: Share](share.md)
-- [ADActivity: Scope](scope.md)
-- [ADActivity: Results](results.md)
-- [ADActivity: Summary](summary.md)
+- [ADActivity: Category](/docs/accessanalyzer/12.0/admin/datacollector/adactivity/category.md)
+- [ADActivity: SAM Connection](/docs/accessanalyzer/12.0/admin/datacollector/adactivity/connection.md)
+- [ADActivity: Share](/docs/accessanalyzer/12.0/admin/datacollector/adactivity/share.md)
+- [ADActivity: Scope](/docs/accessanalyzer/12.0/admin/datacollector/adactivity/scope.md)
+- [ADActivity: Results](/docs/accessanalyzer/12.0/admin/datacollector/adactivity/results.md)
+- [ADActivity: Summary](/docs/accessanalyzer/12.0/admin/datacollector/adactivity/summary.md)

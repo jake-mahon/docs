@@ -12,7 +12,7 @@ Agent:
 - Dell Unity
 - Hitachi
 - Linux – Configuration of a Linux host is done during agent deployment. See the
-  [Linux Agent Deployment](../agents/add/linux.md) topic for additional information.
+  [Linux Agent Deployment](/docs/activitymonitor/8.0/activitymonitor/admin/agents/add/linux.md) topic for additional information.
 - Nasuni
 - NetApp
 - Nutanix
@@ -24,7 +24,7 @@ Agent:
 - Exchange Online
 - SQL Server
 
-See the [Add New Host Window](add/overview.md) topic for additional information.
+See the [Add New Host Window](/docs/activitymonitor/8.0/activitymonitor/admin/monitoredhosts/add/overview.md) topic for additional information.
 
 Agents
 
@@ -48,7 +48,7 @@ listed under each monitored host. These are destinations to which events are for
 
 The button bar allows users to take the following actions:
 
-![Activity Monitor with Monitored Hosts tab identified](../../../../../../static/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/monitoredhoststab.webp)
+![Activity Monitor with Monitored Hosts tab identified](/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/monitoredhoststab.webp)
 
 - Toggle Collapse – Expands and collapses all Monitored Hosts for viewing or hiding host's outputs
 - Add Host – Opens the Add New Host window to configure monitoring of a new host or platform. See
@@ -108,7 +108,7 @@ For integration with Netwrix Access Analyzer (formerly Enterprise Auditor), only
 of a 'monitored host' can be set as the Netwrix Access Analyzer (formerly Enterprise Auditor)
 output. After a 'monitored host' has been added, use the Edit feature to identify the configuration
 as being for Netwrix Access Analyzer (formerly Enterprise Auditor) on the Log Files tab of the
-host's Properties window. See the [Log Files Tab](../outputs/logfiles.md) topic for additional
+host's Properties window. See the [Log Files Tab](/docs/activitymonitor/8.0/activitymonitor/admin/outputs/logfiles.md) topic for additional
 information.
 
 ## Monitoring Status
@@ -118,7 +118,7 @@ visibility into a host's monitoring state and history of state changes. Host mon
 depicted in the Monitored Hosts table under the Status column. Users can expand the Status section
 to view more information on various status conditions.
 
-![errorpropogationpopulated](../../../../../../static/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/errorpropogationpopulated.webp)
+![errorpropogationpopulated](/img/product_docs/activitymonitor/activitymonitor/admin/monitoredhosts/errorpropogationpopulated.webp)
 
 Click the **Down Arrow** to expand the Status section. The information listed is dependent on which
 host or output is currently selected in the Monitored Hosts table. Users can find information on the

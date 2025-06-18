@@ -13,7 +13,7 @@ Follow the steps to modify the timeout parameter.
 **Step 1 –** Open the `AccessInformationCenter.Service.exe.Config` file with a text editor, e.g.
 Notepad.
 
-![Notepad showing the AccessInformationCenter.Service.exe.Config file](../../../../../../../static/img/product_docs/auditor/access/reviews/admin/additionalconfig/timeout.webp)
+![Notepad showing the AccessInformationCenter.Service.exe.Config file](/img/product_docs/auditor/access/reviews/admin/additionalconfig/timeout.webp)
 
 **Step 2 –** Change the value for the `AuthSessionTimeout` parameter to the desired number of
 minutes. For example:

@@ -27,4 +27,4 @@ DSAR roles are described briefly in the table below:
 which runs the queued batch.
 
 DSAR Roles can be configured under Users → Permissions Management. For more information on how to
-configure roles, refer to [User Management](../../security/usermanagement.md) section.
+configure roles, refer to [User Management](/docs/dataclassification/5.7/ndc/security/usermanagement.md) section.

@@ -14,7 +14,7 @@ move it to the new folder.
 
 The example custom report results apply to AD or Group Policy modifications by administrator.
 
-![customreport_thumb_0_0](../../../../../../../static/img/product_docs/auditor/auditor/admin/reports/types/customreport_thumb_0_0.webp)
+![customreport_thumb_0_0](/img/product_docs/auditor/auditor/admin/reports/types/customreport_thumb_0_0.webp)
 
 Review the following for additional information:
 
@@ -28,7 +28,7 @@ Review the following for additional information:
 1. On the main Netwrix Auditor page, navigate to Search.
 2. Apply filters and click Search.
 
-    [View and Search Collected Data](../../search/overview.md) how to apply filters when searching
+    [View and Search Collected Data](/docs/auditor/10.7/auditor/admin/search/overview.md) how to apply filters when searching
     audit data.
 
 3. Navigate to Tools and select Save as report.
@@ -42,7 +42,7 @@ Review the following for additional information:
 3. Click View to open search.
 4. Modify filters and click Search.
 
-    [View and Search Collected Data](../../search/overview.md) how to apply filters when searching
+    [View and Search Collected Data](/docs/auditor/10.7/auditor/admin/search/overview.md) how to apply filters when searching
     audit data.
 
 5. Navigate to Tools and select Save as report.

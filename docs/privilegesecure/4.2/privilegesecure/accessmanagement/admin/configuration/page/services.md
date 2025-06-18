@@ -7,7 +7,7 @@ After a website certificate is installed in IIS, it is necessary to update the N
 Secure web services to ensure they are calling the correct URL. If the Web Services are set to the
 wrong address, the services will show offline in the Services Node area.
 
-![Service Settings page](../../../../../../../../static/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/configuration/page/servicessettingspage.webp)
+![Service Settings page](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/configuration/page/servicessettingspage.webp)
 
 **NOTE:** Make sure that the web certificate is updated in IIS prior to setting a new value in
 Netwrix Privilege Secure. It is important to ensure the Binding Hostname in IIS, the certificate

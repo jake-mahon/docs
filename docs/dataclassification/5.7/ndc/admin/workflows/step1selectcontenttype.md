@@ -13,8 +13,8 @@ which content sources of that type should be included in processing.
 2. Then specify which source of content you want to process. You can select All sources, or select
    the one you need.
 
-![workflow_step1_doc_type_thumb_0_0](../../../../../../static/img/product_docs/dataclassification/ndc/admin/workflows/workflow_step1_doc_type_thumb_0_0.webp)
+![workflow_step1_doc_type_thumb_0_0](/img/product_docs/dataclassification/ndc/admin/workflows/workflow_step1_doc_type_thumb_0_0.webp)
 
 Click Next to proceed.
 
-See also: [Content Sources](../sources/introduction.md).
+See also: [Content Sources](/docs/dataclassification/5.7/ndc/admin/sources/introduction.md).

@@ -27,10 +27,10 @@ Core Component
 
 See the following topics for additional information:
 
-- [Application Server Requirements](application.md)
-- [SQL Server Requirements](sqlserver.md)
-- [Agent Server Requirements](agent.md)
-- [Reporting Module Server Requirements](reportingserver.md)
+- [Application Server Requirements](/docs/threatprevention/7.5/threatprevention/requirements/application.md)
+- [SQL Server Requirements](/docs/threatprevention/7.5/threatprevention/requirements/sqlserver.md)
+- [Agent Server Requirements](/docs/threatprevention/7.5/threatprevention/requirements/agent.md)
+- [Reporting Module Server Requirements](/docs/threatprevention/7.5/threatprevention/requirements/reportingserver.md)
 
 Optional Components
 
@@ -39,15 +39,15 @@ Optional Components
 - EPE Rest Site – This is an optional web server that third parties can use to integrate with the
   Threat Prevention Enterprise Password Enforcer (EPE) solution. It allows third-party applications
   to submit a candidate password to check whether it complies with the current EPE rules defined on
-  the [EPE Settings Window](../admin/configuration/epesettings.md).
+  the [EPE Settings Window](/docs/threatprevention/7.5/threatprevention/admin/configuration/epesettings.md).
 
     **NOTE:** This interface does not change the password; it only validates it against the EPE
     rules.
 
 See the following topics for additional information:
 
-- [Remote Administration Console Machine Requirements](adminconsole.md)
-- [EPE Rest Site Requirements](eperestsite.md)
+- [Remote Administration Console Machine Requirements](/docs/threatprevention/7.5/threatprevention/requirements/adminconsole.md)
+- [EPE Rest Site Requirements](/docs/threatprevention/7.5/threatprevention/requirements/eperestsite.md)
 
 Target Environment Considerations
 

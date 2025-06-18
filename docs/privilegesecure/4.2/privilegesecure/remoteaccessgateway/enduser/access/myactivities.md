@@ -3,7 +3,7 @@
 The Access > My Activities page displays activities mapped to the user as individual cards,
 organized alphabetically or by Access Policy.
 
-![myactivitiesrag](../../../../../../../static/img/product_docs/privilegesecure/privilegesecure/remoteaccessgateway/enduser/access/myactivitiesrag.webp)
+![myactivitiesrag](/img/product_docs/privilegesecure/privilegesecure/remoteaccessgateway/enduser/access/myactivitiesrag.webp)
 
 To access the My Activities page, open the Access interface. If there is only a single activity card
 present on this page that activity will open automatically.
@@ -18,4 +18,4 @@ one Access Policy. When sorted by Access Policy, the list of resources displayed
 the resource list of the Access Policy.
 
 To create an Activity Session, click the **plus** button to begin. See the
-[Create My Activity Session](createsession.md) topic for additional information.
+[Create My Activity Session](/docs/privilegesecure/4.2/privilegesecure/remoteaccessgateway/enduser/access/createsession.md) topic for additional information.

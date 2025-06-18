@@ -3,7 +3,7 @@
 The NIS Settings page is where the NIS domain and a NIS server are configured for testing. It is a
 wizard page for both categories.
 
-![NIS Data Collector Wizard NIS Settings page](../../../../../../static/img/product_docs/activitymonitor/config/dellpowerscale/settings.webp)
+![NIS Data Collector Wizard NIS Settings page](/img/product_docs/activitymonitor/config/dellpowerscale/settings.webp)
 
 Configure the NIS domain and sample NIS server:
 

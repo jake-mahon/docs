@@ -3,7 +3,7 @@
 The Permissions report at the Team Member, Resource, and Subfolder level shows the permissions for
 the trustee on the selected resource.
 
-![Permissions report at the Team Member, Resource, and Subfolder level](../../../../../../../../static/img/product_docs/accessinformationcenter/access/informationcenter/resourceaudit/dropbox/teammemberresource/teammemberpermissions.webp)
+![Permissions report at the Team Member, Resource, and Subfolder level](/img/product_docs/accessinformationcenter/access/informationcenter/resourceaudit/dropbox/teammemberresource/teammemberpermissions.webp)
 
 This report is comprised of the following columns:
 

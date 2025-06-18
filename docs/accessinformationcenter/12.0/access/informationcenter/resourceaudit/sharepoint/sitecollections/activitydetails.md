@@ -5,10 +5,10 @@ statistical activity event information by user on the selected server during the
 range. This report includes a line graph for Active Users Trend.
 
 The **Include subfolders** option is active by default until removed. See the
-[Results Pane](../../navigate/overview.md#results-pane) topic for information on changing this
+[Results Pane](/docs/accessinformationcenter/12.0/access/informationcenter/resourceaudit/navigate/overview.md#results-pane) topic for information on changing this
 option.
 
-![Activity Details report at the site collection, site, list, library, and folder levels](../../../../../../../../static/img/product_docs/accessinformationcenter/access/informationcenter/resourceaudit/sharepoint/sitecollections/siteactivitydetails.webp)
+![Activity Details report at the site collection, site, list, library, and folder levels](/img/product_docs/accessinformationcenter/access/informationcenter/resourceaudit/sharepoint/sitecollections/siteactivitydetails.webp)
 
 This report is comprised of the following columns:
 
@@ -34,15 +34,15 @@ This report is comprised of the following columns:
 - Process Name – Name of the process which performed the operation
 
 The table data grid functions the same way as other table grids. See the
-[Data Grid Features](../../../../general/datagrid.md) topic for additional information.
+[Data Grid Features](/docs/accessinformationcenter/12.0/access/general/datagrid.md) topic for additional information.
 
 There is one line graph at the bottom displaying the Active Users Trend for the selected event.
 
-![Active Users Trend graph](../../../../../../../../static/img/product_docs/accessinformationcenter/access/informationcenter/resourceaudit/sharepoint/sitecollections/siteactivitydetailstrendgraph.webp)
+![Active Users Trend graph](/img/product_docs/accessinformationcenter/access/informationcenter/resourceaudit/sharepoint/sitecollections/siteactivitydetailstrendgraph.webp)
 
 The line graph provides a visual representation of the number of active users over the selected date
 range. It indicates how many users are performing activity per day.
 
 See the
-[Activity Report Results Pane Features](../../navigate/overview.md#activity-report-results-pane-features)
+[Activity Report Results Pane Features](/docs/accessinformationcenter/12.0/access/informationcenter/resourceaudit/navigate/overview.md#activity-report-results-pane-features)
 topic for instructions on filtering the trend graph.

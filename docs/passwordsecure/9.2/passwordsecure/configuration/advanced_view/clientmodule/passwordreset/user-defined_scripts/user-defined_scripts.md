@@ -2,7 +2,7 @@
 
 ## Individual solutions using your own scripts
 
-If your requirements cannot be met using the [Scripts](../scripts/scripts.md), it is also possible
+If your requirements cannot be met using the [Scripts](/docs/passwordsecure/9.2/passwordsecure/configuration/advanced_view/clientmodule/passwordreset/scripts/scripts.md), it is also possible
 to create your own Powershell scripts. These scripts need to meet certain requirements to be used in
 Netwrix Password Secure.
 
@@ -21,7 +21,7 @@ The PowerShell scripts must have the following structure:
 
 Netwrix Password Secure always calls the RunScript function.
 
-[Copy](<javascript:void(0);>)
+[Copy](javascript:void(0);)
 
 ```
 function RunScript
@@ -52,7 +52,7 @@ It is important in this case that you provide Netwrix Password Secure with feedb
 been changed via a **Write-Output**. The following example simply uses the outputs **true** or
 **false**. However, it is also conceivable that an error message or similar is output.
 
-[Copy](<javascript:void(0);>)
+[Copy](javascript:void(0);)
 
 ```
     $scriptBlock = {param ($UserName, $Password)

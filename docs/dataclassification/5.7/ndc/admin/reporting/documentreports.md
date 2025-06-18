@@ -22,7 +22,7 @@ Review the list of the built-in document reports:
 - Near Duplicate Detection—Details near duplicate documents across the index. Near duplicates are
   detected as a background process, to enable the background processing simply enable the option
   ‘Near Duplicate Detection’ within the NDC Indexer Settings and rebuild the necessary sources. See
-  the [Core Configuration](../../configuration/coreconfiguration.md) topic for configuration
+  the [Core Configuration](/docs/dataclassification/5.7/ndc/configuration/coreconfiguration.md) topic for configuration
   information. Supports filtering by URL, source group and excluding content types (comma delimited
   list of content types such as: “css,pdf”).
 - Page Statuses—Provides a list of documents at a given status within the index. Supports filtering

@@ -12,7 +12,7 @@ selected.
 
 The tab contains the following settings:
 
-![syslogactivedirectory](../../../../../../static/img/product_docs/activitymonitor/activitymonitor/admin/outputs/syslogactivedirectory.webp)
+![syslogactivedirectory](/img/product_docs/activitymonitor/activitymonitor/admin/outputs/syslogactivedirectory.webp)
 
 - Syslog server in SERVER:PORT format – Server name of the SIEM server and the communication port
   being used between the applications. The format must be SERVER:PORT, e.g. newyorksrv20:10000.
@@ -27,7 +27,7 @@ The tab contains the following settings:
   delimiter, NUL (ASCII 0) delimiter, and Octet Count (RFC 5425).
 - Syslog message template – Template that controls what data is sent in the event stream. The
   ellipsis (…) button opens the Syslog Message Template window. See the
-  [Message Template Window](window/messagetemplate.md) topic for additional information.
+  [Message Template Window](/docs/activitymonitor/8.0/activitymonitor/admin/outputs/window/messagetemplate.md) topic for additional information.
 - Enable periodic AD Status Check event reporting – Indicates periodic AD Status Check event
   reporting is enabled, which means the agent will send out status messages every five minutes to
   verify whether the connection is still active.
@@ -48,7 +48,7 @@ Properties window closes.
 
 The tab contains the following settings:
 
-![sysloglinux](../../../../../../static/img/product_docs/activitymonitor/activitymonitor/admin/outputs/sysloglinux.webp)
+![sysloglinux](/img/product_docs/activitymonitor/activitymonitor/admin/outputs/sysloglinux.webp)
 
 - Syslog server in SERVER:PORT format – Server name of the SIEM server and the communication port
   being used between the applications. The format must be SERVER:PORT, e.g. newyorksrv20:10000.
@@ -67,7 +67,7 @@ The tab contains the following settings:
   delimiter, NUL (ASCII 0) delimiter, and Octet Count (RFC 5425).
 - Syslog message template – Template that controls what data is sent in the event stream. The
   ellipsis (…) button opens the Syslog Message Template window. See the
-  [Message Template Window](window/messagetemplate.md) topic for additional information.
+  [Message Template Window](/docs/activitymonitor/8.0/activitymonitor/admin/outputs/window/messagetemplate.md) topic for additional information.
 - Add C:\ to the beginning of the reported file paths – Indicates a Windows-style drive path (C:\)
   is added to the beginning of the NAS file paths in the activity data stream, e.g.
   `C:\Folder\file.txt`
@@ -88,7 +88,7 @@ Properties window closes.
 
 The tab contains the following settings:
 
-![syslogentraid](../../../../../../static/img/product_docs/activitymonitor/activitymonitor/admin/outputs/syslogentraid.webp)
+![syslogentraid](/img/product_docs/activitymonitor/activitymonitor/admin/outputs/syslogentraid.webp)
 
 - Syslog server in SERVER:PORT format – Server name of the SIEM server and the communication port
   being used between the applications. The format must be SERVER:PORT, e.g. newyorksrv20:10000.
@@ -103,7 +103,7 @@ The tab contains the following settings:
   delimiter, NUL (ASCII 0) delimiter, and Octet Count (RFC 5425).
 - Syslog message template – Template that controls what data is sent in the event stream. The
   ellipsis (…) button opens the Syslog Message Template window. See the
-  [Message Template Window](window/messagetemplate.md) topic for additional information.
+  [Message Template Window](/docs/activitymonitor/8.0/activitymonitor/admin/outputs/window/messagetemplate.md) topic for additional information.
 
 The Test button sends a test message to the Syslog server to check the connection. A green check
 mark or red x will indicate whether the test message has been sent or failed to send. Test messages
@@ -121,7 +121,7 @@ Properties window closes.
 
 The tab contains the following settings:
 
-![syslognas](../../../../../../static/img/product_docs/activitymonitor/activitymonitor/admin/outputs/syslognas.webp)
+![syslognas](/img/product_docs/activitymonitor/activitymonitor/admin/outputs/syslognas.webp)
 
 - Syslog server in SERVER:PORT format – Server name of the SIEM server and the communication port
   being used between the applications. The format must be SERVER:PORT, e.g. newyorksrv20:10000.
@@ -140,7 +140,7 @@ The tab contains the following settings:
   delimiter, NUL (ASCII 0) delimiter, and Octet Count (RFC 5425).
 - Syslog message template – Template that controls what data is sent in the event stream. The
   ellipsis (…) button opens the Syslog Message Template window. See the
-  [Message Template Window](window/messagetemplate.md) topic for additional information.
+  [Message Template Window](/docs/activitymonitor/8.0/activitymonitor/admin/outputs/window/messagetemplate.md) topic for additional information.
 - Add C:\ to the beginning of the reported file paths – Indicates a Windows-style drive path (C:\)
   is added to the beginning of the NAS file paths in the activity data stream, e.g.
   `C:\Folder\file.txt`
@@ -162,7 +162,7 @@ Properties window closes.
 
 The tab contains the following settings:
 
-![syslogwindows](../../../../../../static/img/product_docs/activitymonitor/activitymonitor/admin/outputs/syslogwindows.webp)
+![syslogwindows](/img/product_docs/activitymonitor/activitymonitor/admin/outputs/syslogwindows.webp)
 
 - Syslog server in SERVER:PORT format – Server name of the SIEM server and the communication port
   being used between the applications. The format must be SERVER:PORT, e.g. newyorksrv20:10000.
@@ -181,7 +181,7 @@ The tab contains the following settings:
   delimiter, NUL (ASCII 0) delimiter, and Octet Count (RFC 5425).
 - Syslog message template – Template that controls what data is sent in the event stream. The
   ellipsis (…) button opens the Syslog Message Template window. See the
-  [Message Template Window](window/messagetemplate.md) topic for additional information.
+  [Message Template Window](/docs/activitymonitor/8.0/activitymonitor/admin/outputs/window/messagetemplate.md) topic for additional information.
 - Resolve UNC paths
 
 The Test button sends a test message to the Syslog server to check the connection. A green check

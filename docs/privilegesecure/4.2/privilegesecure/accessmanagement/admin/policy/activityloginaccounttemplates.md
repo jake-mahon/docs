@@ -30,8 +30,8 @@ There are three options for Login Account Templates in an Activity:
   “sblab\jsmith” will be connected to a local account named “sblab_jsmith”
 
 **NOTE:** The value of each mask can be customized on the
-[Properties Tab](tab/usersgroups/properties.md) of the Application details page. See the
-[User, Group, & Application Details Page](page/details/usergroupapplication.md) topic for additional
+[Properties Tab](/docs/privilegesecure/4.2/privilegesecure/accessmanagement/admin/policy/tab/usersgroups/properties.md) of the Application details page. See the
+[User, Group, & Application Details Page](/docs/privilegesecure/4.2/privilegesecure/accessmanagement/admin/policy/page/details/usergroupapplication.md) topic for additional
 information.
 
 ## Functions for Login Account Templates

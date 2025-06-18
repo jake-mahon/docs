@@ -3,13 +3,13 @@
 The information in this topic applies to **Select Account Type** > **Unix Account** in the User
 Credentials window.
 
-![User Credentials - Unix](../../../../../../../static/img/product_docs/accessanalyzer/admin/settings/connection/profile/unixaccount.webp)
+![User Credentials - Unix](/img/product_docs/accessanalyzer/admin/settings/connection/profile/unixaccount.webp)
 
 The required credentials for the Unix Account are:
 
 - User name – Enter user name
 - Password Storage – Application (Uses the configured Profile Security setting as selected at the
-  **Settings** > **Application** node. See the [Application](../../application/overview.md) topic
+  **Settings** > **Application** node. See the [Application](/docs/accessanalyzer/12.0/admin/settings/application/overview.md) topic
   for additional information.)
 - Password/Confirm
 

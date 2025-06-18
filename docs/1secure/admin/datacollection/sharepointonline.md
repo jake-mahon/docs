@@ -13,7 +13,7 @@ Netwrix 1Secure allows you to audit Office 365 organizations that have establish
 authentication as their identity management approach, including support for
 [multi-factor authentication (MFA)](https://docs.microsoft.com/en-us/azure/active-directory/authentication/concept-mfa-howitworks).
 See the Microsoft
-[App Registration and Configuration in Microsoft Entra ID](../../configuration/entraid/registerconfig.md)
+[App Registration and Configuration in Microsoft Entra ID](/docs/1secure/configuration/entraid/registerconfig.md)
 article for additional information.
 
 In this scenario, Netwrix 1Secure will access the cloud-based infrastructure via Microsoft Graph and
@@ -25,7 +25,7 @@ app and provide its settings to Netwrix 1Securewhen adding a SharePoint Online d
 
 Support for modern authentication will allow you to audit the organizations where MFA is enabled for
 all users, including service accounts. See the
-[App Registration and Configuration in Microsoft Entra ID](../../configuration/entraid/registerconfig.md)
+[App Registration and Configuration in Microsoft Entra ID](/docs/1secure/configuration/entraid/registerconfig.md)
 topic for additional information.
 
 ## Configure SharePoint Online Auditing
@@ -37,7 +37,7 @@ administrative role will be required:
 
 Microsoft Entra ID application should be created manually by user with administrative role and
 assigned required permissions. This app will allow you to collect activity. See the
-[App Registration and Configuration in Microsoft Entra ID](../../configuration/entraid/registerconfig.md)
+[App Registration and Configuration in Microsoft Entra ID](/docs/1secure/configuration/entraid/registerconfig.md)
 topic for additional information.
 
 ##

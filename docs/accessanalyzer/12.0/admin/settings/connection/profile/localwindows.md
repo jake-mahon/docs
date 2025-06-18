@@ -3,7 +3,7 @@
 The information in this topic applies to **Select Account Type** > **Local Windows Account** in the
 User Credentials window.
 
-![User Credentials - Local Windows Account](../../../../../../../static/img/product_docs/accessanalyzer/admin/settings/connection/profile/localwindowsaccount.webp)
+![User Credentials - Local Windows Account](/img/product_docs/accessanalyzer/admin/settings/connection/profile/localwindowsaccount.webp)
 
 The required credentials for the Local Windows Account are:
 
@@ -11,10 +11,10 @@ The required credentials for the Local Windows Account are:
 - Password Storage – Choose the option for credential password storage:
 
     - Application – Uses the configured Profile Security setting as selected at the **Settings** >
-      **Application** node. See the [Application](../../application/overview.md) topic for
+      **Application** node. See the [Application](/docs/accessanalyzer/12.0/admin/settings/application/overview.md) topic for
       additional information.
     - CyberArk – Uses the CyberArk Enterprise Password Vault. See the
-      [CyberArk Integration](../cyberarkintegration.md) topic for additional information. The
+      [CyberArk Integration](/docs/accessanalyzer/12.0/admin/settings/connection/cyberarkintegration.md) topic for additional information. The
       password fields do not apply for CyberArk password storage.
 
         **NOTE:** If using the CyberArk option, then the associated Connection Profile can only have

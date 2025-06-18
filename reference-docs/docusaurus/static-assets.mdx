@@ -10,8 +10,8 @@ By default, you are suggested to put these assets in the `static` folder. Every 
 
 This means that:
 
-- for site `baseUrl: '/'`, the image `/static/img/docusaurus.png` will be served at `/img/docusaurus.png`.
-- for site `baseUrl: '/subpath/'`, the image `/static/img/docusaurus.png` will be served at `/subpath/img/docusaurus.png`.
+- for site `baseUrl: '/'`, the image `/img/docusaurus.png` will be served at `/img/docusaurus.png`.
+- for site `baseUrl: '/subpath/'`, the image `/img/docusaurus.png` will be served at `/subpath/img/docusaurus.png`.
 
 You can customize the static directory sources in `docusaurus.config.js`. For example, we can add `public` as another possible path:
 
@@ -36,12 +36,12 @@ You can `import()` or `require()` the static asset (recommended), or use the `us
 Examples:
 
 ```jsx title="MyComponent.js"
-import DocusaurusImageUrl from '@site/static/img/docusaurus.png';
+import DocusaurusImageUrl from '@site/img/docusaurus.png';
 <img src={DocusaurusImageUrl} />;
 ```
 
 ```jsx title="MyComponent.js"
-<img src={require('@site/static/img/docusaurus.png').default} />
+<img src={require('@site/img/docusaurus.png').default} />
 ```
 
 ```jsx title="MyComponent.js"
@@ -52,13 +52,13 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 You can also import SVG files: they will be transformed into React components.
 
 ```jsx title="MyComponent.js"
-import DocusaurusLogoWithKeytar from '@site/static/img/docusaurus_keytar.svg';
+import DocusaurusLogoWithKeytar from '@site/img/docusaurus_keytar.svg';
 <DocusaurusLogoWithKeytar title="Docusaurus Logo" className="logo" />;
 ```
 
 ### In Markdown {#in-markdown}
 
-In Markdown, you can stick to using absolute paths when writing links or images **in Markdown syntax** because Docusaurus handles them as `require` calls instead of URLs when parsing the Markdown. See [Markdown static assets](./guides/markdown-features/markdown-features-assets.mdx).
+In Markdown, you can stick to using absolute paths when writing links or images **in Markdown syntax** because Docusaurus handles them as `require` calls instead of URLs when parsing the Markdown. See [Markdown static assets](/reference-docs/docusaurus/guides/markdown-features/markdown-features-assets.mdx).
 
 ```md
 You write a link like this: [Download this document](/files/note.docx)

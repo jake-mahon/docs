@@ -10,7 +10,7 @@ Server.
 The Web Interface and Password Reset Server always communicate over a secure channel. You do not
 have to configure the encryption for this connection, but you do need to set up SSL (Secure Sockets
 Layer) encryption for the connection between the web browser (or Password Reset Client) and the web
-server. See the [Password Reset Client](password_reset_client.md) topic for more information.
+server. See the [Password Reset Client](/docs/passwordpolicyenforcer/11.0/passwordreset/administration/password_reset_client.md) topic for more information.
 
 **CAUTION:** Do not use Password Reset on a production network without SSL encryption.
 
@@ -23,7 +23,7 @@ installation process. You can also learn more about using SSL certificates with 
 below.
 
 - [http://www.iis.net/learn/manage/configuring-security/how-to-set-up-ssl-on-iis](http://www.iis.net/learn/manage/configuring-security/how-to-set-up-ssl-on-iis)
-- [http://technet.microsoft.com/en-us/library/cc732230(WS.10).aspx](<http://technet.microsoft.com/en-us/library/cc732230(WS.10).aspx>)
+- [http://technet.microsoft.com/en-us/library/cc732230(WS.10).aspx](http://technet.microsoft.com/en-us/library/cc732230(WS.10).aspx)
 
 **NOTE:** Ensure that users only access Password Reset over an encrypted connection after the SSL
 certificate is installed. The Start address and Restricted path in the Password Reset Client
@@ -64,7 +64,7 @@ dsacls "dc=axs,dc=net" /I:S /G "axs\apr:CA;Reset Password;user"
 
 If Password Reset is configured to use an SQL Server Compact database, then give the service account
 read and write permissions to the database files. See the
-[Moving to SQL Server](moving_to_sql_server.md) topic for more information.
+[Moving to SQL Server](/docs/passwordpolicyenforcer/11.0/passwordreset/administration/moving_to_sql_server.md) topic for more information.
 
 Remove the service account from the Domain Admins group and restart the Password Reset service after
 executing these commands. Check the Windows Application event log if the service does not start.

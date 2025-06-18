@@ -4,7 +4,7 @@
 
 The Offline Add-on enables you to work without an active connection to the Netwrix Password Secure
 server. If the corresponding setting has been configured
-([Setup and sync](setup/setup_and_sync.md)), the local copy of the server database will be
+([Setup and sync](/docs/passwordsecure/9.2/passwordsecure/configuration/offlineclient/setup/setup_and_sync.md)), the local copy of the server database will be
 automatically synchronized according to freely definable cycles. This ensures that you can always
 use a (relatively) up-to-date version of the database offline.
 
@@ -25,22 +25,22 @@ together with the creation of the offline database.
 #### Operation
 
 Operation of the Offline Add-on is generally based on the
-[Operation and setup](../server_manager/operation_and_setup/operation_and_setup_admin_client.md).
+[Operation and setup](/docs/passwordsecure/9.2/passwordsecure/configuration/server_manager/operation_and_setup/operation_and_setup_admin_client.md).
 Since the Offline Add-on only has a limited range of functions, the following must be taken into
 account with regards to its operation:
 
 - There is no dashboard
 - Only the password module is available
 - The filter is not available. Records are found using the
-  [Search](../advanced_view/operation_and_setup/search/search.md)
+  [Search](/docs/passwordsecure/9.2/passwordsecure/configuration/advanced_view/operation_and_setup/search/search.md)
 - The automatic login data entry can be performed via the
-  [Autofill Add-on](../autofill_add-on/autofill_add-on.md), independently of the Offline Add-on
+  [Autofill Add-on](/docs/passwordsecure/9.2/passwordsecure/configuration/autofill_add-on/autofill_add-on.md), independently of the Offline Add-on
 
-![Offline Client](../../../../../../static/img/product_docs/passwordsecure/passwordsecure/configuration/offlineclient/installation_with_parameters_264-en.webp)
+![Offline Client](/img/product_docs/passwordsecure/passwordsecure/configuration/offlineclient/installation_with_parameters_264-en.webp)
 
 #### What data is synchronised?
 
-[Seals](../advanced_view/permissionconcept/predefining_rights/protective_mechanisms/seals/seals.md)
+[Seals](/docs/passwordsecure/9.2/passwordsecure/configuration/advanced_view/permissionconcept/predefining_rights/protective_mechanisms/seals/seals.md)
 enhance the security concept in Netwrix Password Secure to include a double-check principle that can
 be defined in fine detail. This means that releases for protected information are linked to the
 positive authentication of one or more users. Naturally, it is not possible to issue these releases

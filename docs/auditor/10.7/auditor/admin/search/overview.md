@@ -9,7 +9,7 @@ _what_, and _when_ and _where_ each change was made.
 To review collected data, you must be assigned the **Global administrator** or **Global reviewer**
 Netwrix Auditor role. Users with the **Reviewer** role on a certain plan or folder have limited
 access to data—only within their delegated scope. See the
-[Role-Based Access and Delegation](../monitoringplans/delegation.md) topic for additional
+[Role-Based Access and Delegation](/docs/auditor/10.7/auditor/admin/monitoringplans/delegation.md) topic for additional
 information.
 
 This functionality is currently available for the following data sources:
@@ -33,22 +33,22 @@ This functionality is currently available for the following data sources:
   Integration API
 - Netwrix Auditor Self-Audit
 - Netwrix Data Classification. See
-  [Sensitive Data Discovery ](../settings/sensitivedatadiscovery.md)for more information.
+  [Sensitive Data Discovery ](/docs/auditor/10.7/auditor/admin/settings/sensitivedatadiscovery.md)for more information.
 
 Netwrix Auditor executes interactive search queries against data stored in the audit databases, that
 is, on data collected in the last 180 days (default retention period). If you want to investigate
 incidents that occurred more than 180 days ago, then you should import that data from the Long-Term
-Archive. See [Investigations](../settings/investigations.md) topic for additional information.
+Archive. See [Investigations](/docs/auditor/10.7/auditor/admin/settings/investigations.md) topic for additional information.
 
 ## Browsing Your Audit Data
 
 On the main Netwrix Auditor page, click
-![search_tile](../../../../../../static/img/product_docs/auditor/auditor/admin/search/search_tile.webp)
+![search_tile](/img/product_docs/auditor/auditor/admin/search/search_tile.webp)
 on the left.
 
 You can add any elements (a dashboard, report, alert, risk, etc.) to the Auditor Home screen to
-access them instantly. See the [Navigation](../navigation/overview.md) and
-[Customize Home Screen](../navigation/customizehome.md) topics for additional information.
+access them instantly. See the [Navigation](/docs/auditor/10.7/auditor/admin/navigation/overview.md) and
+[Customize Home Screen](/docs/auditor/10.7/auditor/admin/navigation/customizehome.md) topics for additional information.
 
 There you can use the UI controls to run the variety of search queries that will fecth you exactly
 the data you need.
@@ -64,13 +64,13 @@ the data you need.
 
 - To pre-configure your search query before you click Search, you can add filters. Then the search
   query will return only data matching your filtering criteria. See
-  [Use Filters in Simple Mode](filtersimple.md) for details.
+  [Use Filters in Simple Mode](/docs/auditor/10.7/auditor/admin/search/filtersimple.md) for details.
 
     You can also use advanced filtering capabilities based on regular expressions (they involve
-    filter fields and conditions). See [Use Filters in Advanced Mode](filteradvanced.md) for
+    filter fields and conditions). See [Use Filters in Advanced Mode](/docs/auditor/10.7/auditor/admin/search/filteradvanced.md) for
     details.
 
-    ![search_filter](../../../../../../static/img/product_docs/auditor/auditor/admin/search/search_filter.webp)
+    ![search_filter](/img/product_docs/auditor/auditor/admin/search/search_filter.webp)
 
 - By default, search results are open in the same window, so the subsequent search results will
   overwrite the previous search results. To view them in different windows, click Open in new
@@ -81,7 +81,7 @@ Use search results for your own needs: save, share, create search-based alerts, 
 periodic delivery of search query results, etc. See Make Search Results Actionnable for more
 information.
 
-![search_nofilter_1](../../../../../../static/img/product_docs/auditor/auditor/admin/search/search_nofilter_1.webp)
+![search_nofilter_1](/img/product_docs/auditor/auditor/admin/search/search_nofilter_1.webp)
 
 You can also use the **Search** window to examine details for the selected activity record, or watch
 a video recording (for User Ativity data).
@@ -159,4 +159,4 @@ If you do not see the expected information in search results, try the following:
 
 See next:
 
-- [Use Filters in Advanced Mode](filteradvanced.md)
+- [Use Filters in Advanced Mode](/docs/auditor/10.7/auditor/admin/search/filteradvanced.md)

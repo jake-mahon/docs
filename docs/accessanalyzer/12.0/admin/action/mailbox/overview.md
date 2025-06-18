@@ -18,23 +18,23 @@ Use the New Mailbox Action Wizard to target mailboxes or folders and to define t
 perform against the selected objects. The wizard has the following pages:
 
 - Welcome
-- [Mailbox: Operations](operations.md)
-- [Mailbox: Criteria Selection](criteriaselection.md)
-- [Mailbox: Sampling Host](samplinghost.md)
-- [Mailbox: Mailbox Identification](identification.md)
-- [Mailbox: Folder Identification](folderidentification.md)
-- [Mailbox: Folder Conditions](folderconditions.md)
-- [Mailbox: Message Conditions](messageconditions.md)
-- [Mailbox: Message Actions](messageactions.md)
-- [Mailbox: Permissions](permissions.md)
-- [Mailbox: Affected Mailboxes](affectedmailboxes.md)
-- [Mailbox: Trusted Users](trustedusers.md)
-- [Mailbox: Delegate Rights](delegaterights.md)
-- [Mailbox: Summary](summary.md)
+- [Mailbox: Operations](/docs/accessanalyzer/12.0/admin/action/mailbox/operations.md)
+- [Mailbox: Criteria Selection](/docs/accessanalyzer/12.0/admin/action/mailbox/criteriaselection.md)
+- [Mailbox: Sampling Host](/docs/accessanalyzer/12.0/admin/action/mailbox/samplinghost.md)
+- [Mailbox: Mailbox Identification](/docs/accessanalyzer/12.0/admin/action/mailbox/identification.md)
+- [Mailbox: Folder Identification](/docs/accessanalyzer/12.0/admin/action/mailbox/folderidentification.md)
+- [Mailbox: Folder Conditions](/docs/accessanalyzer/12.0/admin/action/mailbox/folderconditions.md)
+- [Mailbox: Message Conditions](/docs/accessanalyzer/12.0/admin/action/mailbox/messageconditions.md)
+- [Mailbox: Message Actions](/docs/accessanalyzer/12.0/admin/action/mailbox/messageactions.md)
+- [Mailbox: Permissions](/docs/accessanalyzer/12.0/admin/action/mailbox/permissions.md)
+- [Mailbox: Affected Mailboxes](/docs/accessanalyzer/12.0/admin/action/mailbox/affectedmailboxes.md)
+- [Mailbox: Trusted Users](/docs/accessanalyzer/12.0/admin/action/mailbox/trustedusers.md)
+- [Mailbox: Delegate Rights](/docs/accessanalyzer/12.0/admin/action/mailbox/delegaterights.md)
+- [Mailbox: Summary](/docs/accessanalyzer/12.0/admin/action/mailbox/summary.md)
 
 The Welcome page gives an overview of the action module. The steps navigation pane contains links to
 the pages in the wizard, which change based on the operation selected on the Operations page.
 
-![New Mailbox Action Wizard Welcome page](../../../../../../static/img/product_docs/activitymonitor/activitymonitor/install/welcome.webp)
+![New Mailbox Action Wizard Welcome page](/img/product_docs/activitymonitor/activitymonitor/install/welcome.webp)
 
 To proceed, click **Next** or use the Steps navigation pane to open another page in the wizard.

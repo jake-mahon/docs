@@ -6,7 +6,7 @@ Follow the steps to add activity groups to the console.
 
 **Step 2 –** In the Activity Groups list, click the Add Activity Group icon.
 
-![addactivitygroup](../../../../../../../../static/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/page/addactivitygroup.webp)
+![addactivitygroup](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/page/addactivitygroup.webp)
 
 **Step 3 –** Enter the following information:
 
@@ -18,6 +18,6 @@ Follow the steps to add activity groups to the console.
 **Step 5 –** With the new activity group selected, configure the following settings:
 
 - Add activities to the activity group. See the
-  [Add Activities Window](../window/activities/addactivities.md) topic for additional information.
+  [Add Activities Window](/docs/privilegesecure/4.2/privilegesecure/accessmanagement/admin/policy/window/activities/addactivities.md) topic for additional information.
 
 The new activity group is added to the console and is shown in the Activity Groups list.

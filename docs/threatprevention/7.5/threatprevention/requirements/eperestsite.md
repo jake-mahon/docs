@@ -1,7 +1,7 @@
 # EPE Rest Site Requirements
 
 Requirements for the EPE Rest Site are the same as documented for the Netwrix Threat Manager
-Reporting Module. See the [Reporting Module Server Requirements](reportingserver.md) topic for
+Reporting Module. See the [Reporting Module Server Requirements](/docs/threatprevention/7.5/threatprevention/requirements/reportingserver.md) topic for
 additional information.
 
 The following additional component is required:

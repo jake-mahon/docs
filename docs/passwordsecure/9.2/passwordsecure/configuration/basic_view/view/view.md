@@ -8,30 +8,30 @@ the password is not available, a reduced Outlook view is displayed.
 
 1. view of a Basic view button with stored logo
 
-![apple-logo](../../../../../../../static/img/product_docs/passwordsecure/passwordsecure/configuration/basic_view/view/apple-logo.webp)
+![apple-logo](/img/product_docs/passwordsecure/passwordsecure/configuration/basic_view/view/apple-logo.webp)
 
 2. view of a Basic view button without logo, but with deposited web address
 
-![mindfactory-logo](../../../../../../../static/img/product_docs/passwordsecure/passwordsecure/configuration/basic_view/view/mindfactory-logo.webp)
+![mindfactory-logo](/img/product_docs/passwordsecure/passwordsecure/configuration/basic_view/view/mindfactory-logo.webp)
 
 3. view of a Basic view button without stored web address/logo
 
-![sql-server-log](../../../../../../../static/img/product_docs/passwordsecure/passwordsecure/configuration/basic_view/view/sql-server-log.webp)
+![sql-server-log](/img/product_docs/passwordsecure/passwordsecure/configuration/basic_view/view/sql-server-log.webp)
 
 Click on the tile to open the application.
 
-![SSO LightClient](../../../../../../../static/img/product_docs/passwordsecure/passwordsecure/configuration/basic_view/view/sso-lc-en.webp)
+![SSO LightClient](/img/product_docs/passwordsecure/passwordsecure/configuration/basic_view/view/sso-lc-en.webp)
 
 The tiles can be dragged and dropped to the desired position
 
-![move tiles](../../../../../../../static/img/product_docs/passwordsecure/passwordsecure/configuration/basic_view/view/move-tiles-en.webp)
+![move tiles](/img/product_docs/passwordsecure/passwordsecure/configuration/basic_view/view/move-tiles-en.webp)
 
 ## Mouseover
 
 As with add-ons, the control button is displayed as soon as you hover the mouse over the
 corresponding elements. This process is known as "mouseover".
 
-![View LightClient](../../../../../../../static/img/product_docs/passwordsecure/passwordsecure/configuration/basic_view/view/view-lc-en.webp)
+![View LightClient](/img/product_docs/passwordsecure/passwordsecure/configuration/basic_view/view/view-lc-en.webp)
 
 When you click the button, the following options become visible:
 
@@ -54,5 +54,5 @@ Please point this out to your in-house administrator if this is not the case for
 
 Usually, the setup of logos/icons in the i**mage management** is done by the in-house
 administration. You can learn more about this in the FullClient
-[Image management](../../advanced_view/mainmenu/extras/image_management/image_manager.md)
+[Image management](/docs/passwordsecure/9.2/passwordsecure/configuration/advanced_view/mainmenu/extras/image_management/image_manager.md)
 documentation.

@@ -6,13 +6,13 @@ to perform an Access review.
 **Step 1 –** On the Pending Reviews page, select the resource with a pending Access review and click
 **Begin Review**. The Resource Review page opens to the 1 Make changes tab.
 
-![Resource Reviews page showing an Access Review on 1 Make Changes tab](../../../../../../../static/img/product_docs/accessinformationcenter/access/informationcenter/resourcereviews/reviewpageaccess.webp)
+![Resource Reviews page showing an Access Review on 1 Make Changes tab](/img/product_docs/accessinformationcenter/access/informationcenter/resourcereviews/reviewpageaccess.webp)
 
 The table displays access information for the resource being reviewed:
 
 - Trustee Name — Name of the trustee with access to this resource. If the trustee is a group, click
   the hyperlink to open the Group Membership window. See the
-  [Group Membership Window](../../../general/groupmembership.md) topic for additional information.
+  [Group Membership Window](/docs/accessinformationcenter/12.0/access/general/groupmembership.md) topic for additional information.
 - User Title — Trustee's title as read from Active Directory
 - User Department — Trustee's department as read from Active Directory
 - User E-mail — Trustee's email address as read from Active Directory
@@ -37,7 +37,7 @@ pending until you submit all recommendations for this resource.
 **Step 4 –** When the recommended changes are set as desired, click **Next**. The 2 Review changes
 tab opens in the Resource Review page.
 
-![Resource Reviews page showing an Access Review on 2 Review changes tab](../../../../../../../static/img/product_docs/accessinformationcenter/access/informationcenter/resourcereviews/review/reviewpageaccess2.webp)
+![Resource Reviews page showing an Access Review on 2 Review changes tab](/img/product_docs/accessinformationcenter/access/informationcenter/resourcereviews/review/reviewpageaccess2.webp)
 
 **Step 5 –** This tab displays a filtered table of trustees with recommended changes. Confirm your
 recommendations and optionally add notes to the Review Administrator. Owners are encouraged to leave

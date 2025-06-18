@@ -4,7 +4,7 @@ The AD_ActivityCollection Job located in the 0.Collection Job Group, imports dat
 Activity Monitor logs into the Access Analyzer Database. Retention can be modified in the query (120
 days default).
 
-![AD_ActivityCollection Job in the Jobs Tree](../../../../../../static/img/product_docs/accessanalyzer/admin/hostmanagement/jobstree.webp)
+![AD_ActivityCollection Job in the Jobs Tree](/img/product_docs/accessanalyzer/admin/hostmanagement/jobstree.webp)
 
 There are two ways AD Activity data can be retrieved by Access Analyzer:
 
@@ -19,10 +19,10 @@ additional information.
 
 The Configuration section on a Job's overview page allows you to easily modify any customizable
 parameters used by analysis tasks in the job. See the
-[Parameter Configuration](../../../admin/jobs/job/overview.md#parameter-configuration) topic for
+[Parameter Configuration](/docs/accessanalyzer/12.0/admin/jobs/job/overview.md#parameter-configuration) topic for
 instructions on how to edit parameters on a job overview page.
 
-![Configuration section on the AD_ActivityCollection job Overview page](../../../../../../static/img/product_docs/accessanalyzer/solutions/activedirectory/activity/overviewconfiguration.webp)
+![Configuration section on the AD_ActivityCollection job Overview page](/img/product_docs/accessanalyzer/solutions/activedirectory/activity/overviewconfiguration.webp)
 
 The AD_ActivityCollection page has the following configurable parameters:
 
@@ -32,7 +32,7 @@ The AD_ActivityCollection page has the following configurable parameters:
     **NOTE:** The import of AD events and authentication events is disabled by default. You must
     enable these parameters for the activity data to be imported into the Netwrix Access Information
     Center. See the
-    [(Optional) Configure Import of AD Activity into Netwrix Access Information Center](../../../config/activedirectory/activity.md#optional-configure-import-of-ad-activity-into-netwrix-access-information-center)
+    [(Optional) Configure Import of AD Activity into Netwrix Access Information Center](/docs/accessanalyzer/12.0/config/activedirectory/activity.md#optional-configure-import-of-ad-activity-into-netwrix-access-information-center)
     topic for instructions.
 
 - List of attributes to track for Object Modified changes
@@ -50,7 +50,7 @@ archive logs for AD Activity.
 **NOTE:** The query can be configured to connect directly to the network share where the archive
 logs are stored or the API Server.
 
-![Queries for the AD_ActivityCollection Job](../../../../../../static/img/product_docs/accessanalyzer/admin/hostdiscovery/queries.webp)
+![Queries for the AD_ActivityCollection Job](/img/product_docs/accessanalyzer/admin/hostdiscovery/queries.webp)
 
 The AD_ActivityCollection Job uses the ADActivity Data Collector for the following query:
 
@@ -64,7 +64,7 @@ API server.
 
 **NOTE:** Ensure the Activity Monitor API Server and the required Connection Profile are
 successfully set up. See the
-[Active Directory Activity Auditing Configuration](../../../config/activedirectory/activity.md)
+[Active Directory Activity Auditing Configuration](/docs/accessanalyzer/12.0/config/activedirectory/activity.md)
 topic for additional information.
 
 **Step 1 –** Navigate to the **Jobs** > **Active Directory** > **6.Activity** > **0.Collection** >
@@ -75,11 +75,11 @@ topic for additional information.
 **Step 3 –** On the Data Source tab, select **Configure**. The Active Directory Activity DC wizard
 opens.
 
-![Active Directory Activity DC wizard Category page](../../../../../../static/img/product_docs/activitymonitor/config/activedirectory/categoryimportfromnam.webp)
+![Active Directory Activity DC wizard Category page](/img/product_docs/activitymonitor/config/activedirectory/categoryimportfromnam.webp)
 
 **Step 4 –** On the Category page, choose **Import from SAM** option and click **Next**.
 
-![Active Directory Activity DC wizard SAM connection settings page](../../../../../../static/img/product_docs/activitymonitor/config/activedirectory/namconnection.webp)
+![Active Directory Activity DC wizard SAM connection settings page](/img/product_docs/activitymonitor/config/activedirectory/namconnection.webp)
 
 **Step 5 –** On the SAM connection page, the **Port** is set to the default 4494. This needs to
 match the port configured for the Activity Monitor API Server agent.
@@ -93,7 +93,7 @@ last step.
 
 **Step 8 –** Click **Next**.
 
-![Active Directory Activity DC wizard Scoping and Retention page](../../../../../../static/img/product_docs/activitymonitor/config/activedirectory/scope.webp)
+![Active Directory Activity DC wizard Scoping and Retention page](/img/product_docs/activitymonitor/config/activedirectory/scope.webp)
 
 **Step 9 –** On the Scope page, set the Timespan as desired. There are two options:
 
@@ -132,7 +132,7 @@ share.
 
 **NOTE:** Ensure the Activity Monitor domain output and the required Connection Profile are
 successfully set up. See the
-[File Archive Repository Option](../../../config/activedirectory/filearchive.md) topic for
+[File Archive Repository Option](/docs/accessanalyzer/12.0/config/activedirectory/filearchive.md) topic for
 additional information.
 
 **Step 1 –** Navigate to the **Jobs** > **Active Directory** > **6.Activity** > **0.Collection** >
@@ -143,17 +143,17 @@ additional information.
 **Step 3 –** On the Data Source tab, select **Configure**. The Active Directory Activity DC wizard
 opens.
 
-![Active Directory Activity DC wizard Category page](../../../../../../static/img/product_docs/activitymonitor/config/activedirectory/categoryimportfromshare.webp)
+![Active Directory Activity DC wizard Category page](/img/product_docs/activitymonitor/config/activedirectory/categoryimportfromshare.webp)
 
 **Step 4 –** On the Category page, choose **Import from Share** option and click **Next**.
 
-![Active Directory Activity DC wizard Share settings page](../../../../../../static/img/product_docs/activitymonitor/config/activedirectory/share.webp)
+![Active Directory Activity DC wizard Share settings page](/img/product_docs/activitymonitor/config/activedirectory/share.webp)
 
 **Step 5 –** On the Share page, provide the UNC path to the AD Activity share archive location. If
 there are multiple archives in the same network share, check the **Include Sub-Directories** box.
 Click **Next**.
 
-![Active Directory Activity DC wizard Scoping and Retention page](../../../../../../static/img/product_docs/activitymonitor/config/activedirectory/scope.webp)
+![Active Directory Activity DC wizard Scoping and Retention page](/img/product_docs/activitymonitor/config/activedirectory/scope.webp)
 
 **Step 6 –** On the Scope page, set the Timespan as desired. There are two options:
 
@@ -183,7 +183,7 @@ Navigate to the **Jobs** > **Active Directory** > **6.Activity** > **0.Collecti
 **CAUTION:** Do not modify or deselect the selected analysis tasks. The analysis tasks are
 preconfigured for this job.
 
-![Analysis Tasks for the AD_ActivityCollection Job](../../../../../../static/img/product_docs/accessanalyzer/solutions/activedirectory/activity/analysis.webp)
+![Analysis Tasks for the AD_ActivityCollection Job](/img/product_docs/accessanalyzer/solutions/activedirectory/activity/analysis.webp)
 
 The following analysis tasks are selected by default:
 
@@ -213,5 +213,5 @@ the Netwrix Access Information Center.
 | AIC Import - Activity Retention | @Days                       | 120                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       | Number of days to retain activity data in the AIC       |
 
 See the
-[Configure the Customizable Parameters in an Analysis Task](../../../admin/jobs/job/configure/analysiscustomizableparameters.md)
+[Configure the Customizable Parameters in an Analysis Task](/docs/accessanalyzer/12.0/admin/jobs/job/configure/analysiscustomizableparameters.md)
 topic for additional information.

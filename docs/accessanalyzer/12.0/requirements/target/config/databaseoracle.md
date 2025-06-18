@@ -29,7 +29,7 @@ GRANT CREATE SESSION TO %USERNAME% CONTAINER=ALL;         
 
 When using a least privileged model for Oracle, **SYSDBA** must be selected for the Role in the User
 Credentials window for the Oracle Connection Profile. See the
-[Oracle for User Credentials](../../../admin/settings/connection/profile/oracle.md) topic for
+[Oracle for User Credentials](/docs/accessanalyzer/12.0/admin/settings/connection/profile/oracle.md) topic for
 additional information.
 
 ## Oracle Server Discovery
@@ -54,7 +54,7 @@ of plink gets installed with the Nmap utility.
 
 The syntax is as follows:
 
-![administratorcommandprompt](../../../../../../static/img/product_docs/accessanalyzer/requirements/target/config/administratorcommandprompt.webp)
+![administratorcommandprompt](/img/product_docs/accessanalyzer/requirements/target/config/administratorcommandprompt.webp)
 
 Run the following on the command prompt:
 

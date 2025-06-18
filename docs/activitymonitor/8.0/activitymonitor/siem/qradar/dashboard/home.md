@@ -2,7 +2,7 @@
 
 The File System Activity Home dashboard contains the following cards:
 
-![Home Dashboard for Stealthbits Activivty Monitor App for QRadar](../../../../../../../static/img/product_docs/activitymonitor/activitymonitor/siem/qradar/dashboard/homedashboard.webp)
+![Home Dashboard for Stealthbits Activivty Monitor App for QRadar](/img/product_docs/activitymonitor/activitymonitor/siem/qradar/dashboard/homedashboard.webp)
 
 - Active Users – Number of distinct users recorded performing any type of file activity to/from any
   host over the specified time interval
@@ -11,7 +11,7 @@ The File System Activity Home dashboard contains the following cards:
 - Open Offenses – Number of ransomware offenses detected within QRadar from the file activity event
   data
 
-    - The value for this card is a hyperlink to the [Ransomware Dashboard](ransomware.md).
+    - The value for this card is a hyperlink to the [Ransomware Dashboard](/docs/activitymonitor/8.0/activitymonitor/siem/qradar/dashboard/ransomware.md).
 
 - File Activity – Timeline of all file activity over the specified time interval
 - Top Users – Displays up-to the top five users associated with file activity over the specified
@@ -21,7 +21,7 @@ The File System Activity Home dashboard contains the following cards:
 - Latest Events – Tabular format of all file activity events which occurred over the specified time
   interval
 
-    - See the [Table Card Features ](../app.md#table-card-features) topic for additional
+    - See the [Table Card Features ](/docs/activitymonitor/8.0/activitymonitor/siem/qradar/app.md#table-card-features) topic for additional
       information.
 
 The time interval is identified in the upper-right corner with the Start and End boxes. This is set

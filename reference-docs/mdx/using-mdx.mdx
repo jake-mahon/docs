@@ -127,7 +127,7 @@ import Example from './example.mdx' // Assumes an integration is used to compile
 const container = document.getElementById('root')
 if (!container) throw new Error('Expected `root`')
 const root = createRoot(container)
-root.render(<Example />)
+root.render(Example /)
 ```
 
 The main content is exported as the default export.
@@ -207,7 +207,7 @@ import Example from './example.mdx' // Assumes an integration is used to compile
 console.log(React.createElement(Example, {name: 'Venus', year: 2021}))
 
 // Use JSX:
-console.log(<Example name="Mars" year={2022} />)
+console.log(Example name="Mars" year={2022} /)
 ```
 
 <Note type="info">
@@ -465,7 +465,7 @@ const components = {
 const container = document.getElementById('root')
 if (!container) throw new Error('Expected `root`')
 const root = createRoot(container)
-root.render(<Post components={components} />)
+root.render(Post components={components} /)
 ```
 
 That works, those components are used.
@@ -513,7 +513,7 @@ Set it up like so:
  const container = document.getElementById('root')
  if (!container) throw new Error('Expected `root`')
  const root = createRoot(container)
--root.render(<Post components={components} />)
+-root.render(Post components={components} /)
 +root.render(
 +  <MDXProvider components={components}>
 +    <Post />

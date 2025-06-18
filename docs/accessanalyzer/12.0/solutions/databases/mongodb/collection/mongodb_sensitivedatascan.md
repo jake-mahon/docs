@@ -7,7 +7,7 @@ on pre-defined or user-defined search criteria.
 
 The MongoDB_SensitiveDataScan Job uses the NOSQL Data Collector for queries.
 
-![Query Selection](../../../../../../../static/img/product_docs/accessanalyzer/solutions/databases/mongodb/collection/sensitivedatascan_job.webp)
+![Query Selection](/img/product_docs/accessanalyzer/solutions/databases/mongodb/collection/sensitivedatascan_job.webp)
 
 The query is:
 
@@ -33,36 +33,36 @@ The Query Properties window opens.
 **CAUTION:** Do not make changes to wizard pages not listed in these steps. They have been
 pre-configured for this job.
 
-**Step 4 –** Navigate to the [NoSQL: Options](../../../../admin/datacollector/nosql/options.md)
+**Step 4 –** Navigate to the [NoSQL: Options](/docs/accessanalyzer/12.0/admin/datacollector/nosql/options.md)
 page.
 
-![Sensitive Data Scan Settings](../../../../../../../static/img/product_docs/accessanalyzer/install/application/options.webp)
+![Sensitive Data Scan Settings](/img/product_docs/accessanalyzer/install/application/options.webp)
 
 **Step 5 –** Select the desired scan options.
 
-**Step 6 –** Navigate to the [NoSQL: Criteria](../../../../admin/datacollector/nosql/criteria.md)
+**Step 6 –** Navigate to the [NoSQL: Criteria](/docs/accessanalyzer/12.0/admin/datacollector/nosql/criteria.md)
 page.
 
-![Criteria Page](../../../../../../../static/img/product_docs/accessanalyzer/admin/datacollector/ewsmailbox/criteria.webp)
+![Criteria Page](/img/product_docs/accessanalyzer/admin/datacollector/ewsmailbox/criteria.webp)
 
 **Step 7 –** To modify criteria, navigate to the
-[NoSQL: Criteria](../../../../admin/datacollector/nosql/criteria.md) page. By default, the Sensitive
+[NoSQL: Criteria](/docs/accessanalyzer/12.0/admin/datacollector/nosql/criteria.md) page. By default, the Sensitive
 Data Scan job is configured to scan for criteria configured in the Global Criteria settings. See the
-[Sensitive Data Criteria Editor](../../../../sensitivedatadiscovery/criteriaeditor/overview.md)
+[Sensitive Data Criteria Editor](/docs/accessanalyzer/12.0/sensitivedatadiscovery/criteriaeditor/overview.md)
 topic for additional information.
 
 **NOTE:** The Sensitive Data Scan Settings are pre-configured for optimal performance for a
 high-level table scan. Configuring these settings to increase the scope of the sensitive data scan
 may significantly increase scan time.
 
-**Step 8 –** Navigate to the [NoSQL: Filter](../../../../admin/datacollector/nosql/filter.md) page.
+**Step 8 –** Navigate to the [NoSQL: Filter](/docs/accessanalyzer/12.0/admin/datacollector/nosql/filter.md) page.
 
-![Database Selection Settings](../../../../../../../static/img/product_docs/accessanalyzer/admin/datacollector/ewsmailbox/filter.webp)
+![Database Selection Settings](/img/product_docs/accessanalyzer/admin/datacollector/ewsmailbox/filter.webp)
 
 **Step 9 –** MongoDB databases must be added to the query before they can be scanned. Click
 **Connections** to open the Manage Connections window.
 
-![Manage Connections window](../../../../../../../static/img/product_docs/accessanalyzer/admin/datacollector/nosql/manageconnections.webp)
+![Manage Connections window](/img/product_docs/accessanalyzer/admin/datacollector/nosql/manageconnections.webp)
 
 **Step 10 –** In the Manage Connections window, click **Create New** and add the following
 information:
@@ -89,7 +89,7 @@ collections.
 
 **Step 14 –** (Optional) Right click on an object in the list to include or exclude it from the
 sensitive data scan, or build /edit a pattern to create a custom filter. See the
-[NoSQL: Filter](../../../../admin/datacollector/nosql/filter.md) topic for additional information.
+[NoSQL: Filter](/docs/accessanalyzer/12.0/admin/datacollector/nosql/filter.md) topic for additional information.
 
 **Step 15 –** Click **Validate** and then **Save** to apply the scoping. Navigating away from this
 page without saving will undo any changes made.
@@ -107,7 +107,7 @@ and select Analysis to view the analysis tasks.
 **CAUTION:** Do not modify or deselect the selected analysis tasks. The analysis tasks are
 preconfigured for this job.
 
-![Analysis Selection](../../../../../../../static/img/product_docs/accessanalyzer/solutions/databases/mongodb/collection/analysissensitivedatascan.webp)
+![Analysis Selection](/img/product_docs/accessanalyzer/solutions/databases/mongodb/collection/analysissensitivedatascan.webp)
 
 The default analysis tasks are:
 

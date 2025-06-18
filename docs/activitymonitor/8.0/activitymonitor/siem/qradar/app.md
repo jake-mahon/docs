@@ -5,7 +5,7 @@ predefined dashboards: File Activity (Home), Ransomware, Permission Changes, Del
 Investigation, and Host Investigation. There is also an About dashboard with additional information
 and a Settings interface for configuring the QRadar SEC token.
 
-![file_activity_monitor_app](../../../../../../static/img/product_docs/activitymonitor/activitymonitor/siem/qradar/file_activity_monitor_app.webp)
+![file_activity_monitor_app](/img/product_docs/activitymonitor/activitymonitor/siem/qradar/file_activity_monitor_app.webp)
 
 The User Investigation and Host Investigation dashboards only appear when a search is conducted.
 This can be done by clicking a hyperlink within the Username or Destination IP columns of a table

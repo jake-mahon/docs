@@ -69,7 +69,7 @@ the owners:
   Tool-tips display when hovering over the icons indicating whether the resource ownership has been
   confirmed, declined, pending response, or that a confirmation has not been requested.
 
-![Add new resource wizard showing 3. Description page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/action/servicenow/description.webp)
+![Add new resource wizard showing 3. Description page](/img/versioned_docs/accessanalyzer_11.6/accessanalyzer/admin/action/servicenow/description.webp)
 
 **Step 5 –** On the Description page, optionally add a description for the resource in the textbox.
 Then click **Next**.
@@ -98,12 +98,12 @@ topic for additional information.
 
 **Step 8 –** Click **Next** to continue.
 
-![Add new resource wizard showing 5. Summary page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/admin/datacollector/adinventory/summary.webp)
+![Add new resource wizard showing 5. Summary page](/img/versioned_docs/accessanalyzer_11.6/accessanalyzer/admin/datacollector/adinventory/summary.webp)
 
 **Step 9 –** On the Summary page, review the settings and click **Next**. The Access Information
 Center begins to process the ownership configuration.
 
-![Add new resource wizard completed page](/img/versioned_docs/enterpriseauditor_11.6/enterpriseauditor/install/sensitivedatadiscovery/completed.webp)
+![Add new resource wizard completed page](/img/versioned_docs/accessanalyzer_11.6/accessanalyzer/install/sensitivedatadiscovery/completed.webp)
 
 **Step 10 –** The action status displays on the page. When the task has completed (100%), click
 **Close**. The Add new resource wizard closes.

@@ -6,7 +6,7 @@ steps to perform a Sensitive Data review.
 **Step 1 –** On the Pending Reviews page, select the resource with a pending Sensitive Data review
 and click **Begin Review**. The Resource Review page opens to the 1 Make Changes tab.
 
-![Sensitive Data Resource Review Make changes page](../../../../../../../static/img/product_docs/accessinformationcenter/access/informationcenter/resourcereviews/review/reviewpagesensitivedata.webp)
+![Sensitive Data Resource Review Make changes page](/img/product_docs/accessinformationcenter/access/informationcenter/resourcereviews/review/reviewpagesensitivedata.webp)
 
 The table displays files where potentially sensitive data has been found on the resource being
 reviewed:
@@ -16,7 +16,7 @@ reviewed:
 - Last Modified – Last modified date timestamp of the file from scanned the file details
 - Owner – Owner of the file from scanned the file details
 - Criteria – Name of the criteria with match hits found within the file. The hyperlink opens the
-  Criteria Matches window. See the [Criteria Matches Window](../window/criteriamatches.md) topic for
+  Criteria Matches window. See the [Criteria Matches Window](/docs/accessinformationcenter/12.0/access/informationcenter/resourcereviews/window/criteriamatches.md) topic for
   additional information.
 
 **Step 2 –** For each file listed, make a recommendation by clicking on the icon in either the Keep,
@@ -33,7 +33,7 @@ pending until you submit all recommendations for this resource.
 **Step 3 –** When the recommended changes are set as desired, click **Next**. The 2 Review changes
 tab opens in the Resource Review page.
 
-![Sensitive Data review Review changes tab](../../../../../../../static/img/product_docs/accessinformationcenter/access/informationcenter/resourcereviews/review/reviewpagesensitivedata2.webp)
+![Sensitive Data review Review changes tab](/img/product_docs/accessinformationcenter/access/informationcenter/resourcereviews/review/reviewpagesensitivedata2.webp)
 
 **Step 4 –** This tab displays the table of files with your recommendations. Confirm your
 recommendations and optionally add notes to the Review Administrator. Owners are encouraged to leave

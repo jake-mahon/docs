@@ -12,7 +12,7 @@ include:
 
 **Step 3 –** In the Enter Database Name box, enter a unique name to identify the database.
 
-![Add Database](../../../../../../../../static/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/add/adddatabase.webp)
+![Add Database](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/add/adddatabase.webp)
 
 **Step 4 –** Select **Microsoft SQL Server** or **Oracle** from the Platform drop-down list.
 
@@ -32,7 +32,7 @@ include:
 **Step 9 –** From the drop-down menu, select a previously added service account with credentials for
 the database.
 
-- See the [Service Accounts Page](../../configuration/page/serviceaccounts.md) topic for additional
+- See the [Service Accounts Page](/docs/privilegesecure/4.2/privilegesecure/accessmanagement/admin/configuration/page/serviceaccounts.md) topic for additional
   information.
 
     - Visit icon – Go to the Service Account page to view details of the selected service account.
@@ -43,5 +43,5 @@ the database.
 
 **Step 11 –** Click **Scan Now** to begin scanning the database.
 
-The new database is now added. See the [Database Details Page](../page/details/databases.md) for
+The new database is now added. See the [Database Details Page](/docs/privilegesecure/4.2/privilegesecure/accessmanagement/admin/policy/page/details/databases.md) for
 additional details.

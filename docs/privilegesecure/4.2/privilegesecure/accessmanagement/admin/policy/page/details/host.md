@@ -3,7 +3,7 @@
 The Host Details page shows additional information for the selected host resource. This page is
 opened from any linked resource within the various interfaces.
 
-![Host Details Page](../../../../../../../../../static/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/page/details/hostdetailspage.webp)
+![Host Details Page](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/policy/page/details/hostdetailspage.webp)
 
 The details page displays the following information:
 
@@ -13,22 +13,22 @@ The details page displays the following information:
 - Active — Displays the number of active sessions on the resource
 - Scheduled — Displays the number of sessions scheduled for the resource
 - Test button — Opens the Test Resource Connectivity window. See the
-  [Test Resource Connectivity Window](../../window/resources/testresourceconnectivity.md) topic
+  [Test Resource Connectivity Window](/docs/privilegesecure/4.2/privilegesecure/accessmanagement/admin/policy/window/resources/testresourceconnectivity.md) topic
   for additional information.
 - Scan Now button — Scans a host resource for local users, groups, windows services, and scheduled
   tasks. A confirmation window will display.. The Cancel button, which is only visible when scanning
   can be used to stop the resource scan. This scan can also be scheduled from the
-  [Platforms Page](../platforms/overview.md).
+  [Platforms Page](/docs/privilegesecure/4.2/privilegesecure/accessmanagement/admin/policy/page/platforms/overview.md).
 - WinRM Config button — Opens the Configure Secure WinRM Connection window. See the
-  [Configure Secure WinRM Connection Window](../../window/resources/configuresecurewinrmconnection.md)
+  [Configure Secure WinRM Connection Window](/docs/privilegesecure/4.2/privilegesecure/accessmanagement/admin/policy/window/resources/configuresecurewinrmconnection.md)
   topic for additional information.
 - Platform — Displays the type of platform, which defines the resource
 - Service Account — Displays the service account associated with the resource
 - Blue arrow button — Opens the Service Account details page. See the
-  [Service Accounts Page](../../../configuration/page/serviceaccounts.md) topic for additional
+  [Service Accounts Page](/docs/privilegesecure/4.2/privilegesecure/accessmanagement/admin/configuration/page/serviceaccounts.md) topic for additional
   information.
 - Green plus button — Opens the Add New Service Account window. See the
-  [Add New Service Account Window](../../window/resources/addnewserviceaccount.md) topic for
+  [Add New Service Account Window](/docs/privilegesecure/4.2/privilegesecure/accessmanagement/admin/policy/window/resources/addnewserviceaccount.md) topic for
   additional information.
 - IP Address — Displays the IP address for the resource
 - SSH Port — Displays the SSH port number
@@ -55,12 +55,12 @@ commit the modifications. Click **Cancel** to discard the modifications.
 
 The details page has the following tabs:
 
-- [Sessions Tab for Host](../../tab/resources/sessionshost.md)
-- [Access Policies Tab for Host](../../tab/resources/accesspolicieshost.md)
-- [Protection Policies Tab for Host](../../tab/resources/protectionpolicieshost.md)
-- [Users Tab for Host](../../tab/resources/usershost.md)
-- [Groups Tab for Host](../../tab/resources/groupshost.md)
-- [Services Tab for Host](../../tab/resources/serviceshost.md)
-- [Scheduled Tasks Tab for Host](../../tab/resources/scheduledtaskshost.md)
-- [History Tab for Host](../../tab/resources/historyhost.md)
-- [Installed Software Tab for Host](../../tab/resources/installedsoftwarehost.md)
+- [Sessions Tab for Host](/docs/privilegesecure/4.2/privilegesecure/accessmanagement/admin/policy/tab/resources/sessionshost.md)
+- [Access Policies Tab for Host](/docs/privilegesecure/4.2/privilegesecure/accessmanagement/admin/policy/tab/resources/accesspolicieshost.md)
+- [Protection Policies Tab for Host](/docs/privilegesecure/4.2/privilegesecure/accessmanagement/admin/policy/tab/resources/protectionpolicieshost.md)
+- [Users Tab for Host](/docs/privilegesecure/4.2/privilegesecure/accessmanagement/admin/policy/tab/resources/usershost.md)
+- [Groups Tab for Host](/docs/privilegesecure/4.2/privilegesecure/accessmanagement/admin/policy/tab/resources/groupshost.md)
+- [Services Tab for Host](/docs/privilegesecure/4.2/privilegesecure/accessmanagement/admin/policy/tab/resources/serviceshost.md)
+- [Scheduled Tasks Tab for Host](/docs/privilegesecure/4.2/privilegesecure/accessmanagement/admin/policy/tab/resources/scheduledtaskshost.md)
+- [History Tab for Host](/docs/privilegesecure/4.2/privilegesecure/accessmanagement/admin/policy/tab/resources/historyhost.md)
+- [Installed Software Tab for Host](/docs/privilegesecure/4.2/privilegesecure/accessmanagement/admin/policy/tab/resources/installedsoftwarehost.md)

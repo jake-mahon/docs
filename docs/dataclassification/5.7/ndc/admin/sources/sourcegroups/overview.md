@@ -4,7 +4,7 @@ Source groups provide a way of logically grouping specific sources, perhaps by t
 an internal business specification. Selecting the option Add to Group on the main sources grid
 screen will present the following pop-up:
 
-![addtogroup](../../../../../../../static/img/product_docs/dataclassification/ndc/admin/sources/sourcegroups/addtogroup.webp)
+![addtogroup](/img/product_docs/dataclassification/ndc/admin/sources/sourcegroups/addtogroup.webp)
 
 A group can either be "mixed", which allows it to contain all source types, or source specific. In
 the example above a group would be created entitled "Demo Content", which only supports the addition
@@ -14,7 +14,7 @@ drop-down list provided. See Dynamic Source Groups for more information.
 Selecting the cog icon on the main sources grid screen for a source group allows you to amend the
 group settings:
 
-![editgroup](../../../../../../../static/img/product_docs/dataclassification/ndc/admin/sources/sourcegroups/editgroup.webp)
+![editgroup](/img/product_docs/dataclassification/ndc/admin/sources/sourcegroups/editgroup.webp)
 
 Here you can:
 
@@ -32,7 +32,7 @@ Here you can:
   entire document. After this you can run a workflow to remove the old data, using **Document Age**
   option. Unlike Discovery Mode, you can still run workflows if the workflow is triggered solely by
   metadata. To learn more, go
-  to[Step 3. Specify Conditions for Processing](../../workflows/step3specifyconditions.md) article.
+  to[Step 3. Specify Conditions for Processing](/docs/dataclassification/5.7/ndc/admin/workflows/step3specifyconditions.md) article.
 
 Deleting a group will remove all existing items from the group leaving them unassigned. You can also
 remove a specific source(s) from a group by selecting the source group in the grid and then
@@ -48,7 +48,7 @@ By going to the Settings of the Source Group, you can:
     **NOTE:** The Apply changes to all sources in Source Group option is available when you have
     more than one source in a source group.
 
-    ![source_groups_settings](../../../../../../../static/img/product_docs/dataclassification/ndc/admin/sources/sourcegroups/source_groups_settings.webp)
+    ![source_groups_settings](/img/product_docs/dataclassification/ndc/admin/sources/sourcegroups/source_groups_settings.webp)
 
 ## Dynamic Source Groups
 
@@ -57,7 +57,7 @@ accessed through the Add page in the Auto-Detect a Set of Sources section. Each 
 will have different options depending on which one is being configured. The Dynamic Source Groups
 are:
 
-- [Dynamic Source Groups — Exchange](dynamicsourcegroups/exchange.md)
-- [Dynamic Source Groups — File Servers](dynamicsourcegroups/file.md)
-- [Dynamic Source Groups — Google Drive Organization](dynamicsourcegroups/googledrive.md)
-- [Dynamic Source Groups — SharePoint Online](dynamicsourcegroups/sharepoint.md)
+- [Dynamic Source Groups — Exchange](/docs/dataclassification/5.7/ndc/admin/sources/sourcegroups/dynamicsourcegroups/exchange.md)
+- [Dynamic Source Groups — File Servers](/docs/dataclassification/5.7/ndc/admin/sources/sourcegroups/dynamicsourcegroups/file.md)
+- [Dynamic Source Groups — Google Drive Organization](/docs/dataclassification/5.7/ndc/admin/sources/sourcegroups/dynamicsourcegroups/googledrive.md)
+- [Dynamic Source Groups — SharePoint Online](/docs/dataclassification/5.7/ndc/admin/sources/sourcegroups/dynamicsourcegroups/sharepoint.md)

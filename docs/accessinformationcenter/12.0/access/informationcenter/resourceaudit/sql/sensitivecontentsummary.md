@@ -3,7 +3,7 @@
 The Sensitive Content report at the **SQL Server** node provides a count of tables where criteria
 matches were found in the targeted environment. This report includes a Details table.
 
-![Sensitive Content report](../../../../../../../static/img/product_docs/accessinformationcenter/access/informationcenter/resourceaudit/postgresql/sensitivecontentsummary.webp)
+![Sensitive Content report](/img/product_docs/accessinformationcenter/access/informationcenter/resourceaudit/postgresql/sensitivecontentsummary.webp)
 
 This report is comprised of the following columns:
 

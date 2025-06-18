@@ -43,13 +43,13 @@ wizard page for the categories of:
 It is necessary for the SA_SQL_Instances table to be populated before available databases/instances
 can populate the Available Server audits list. For Oracle and SQL, the SA_SQL_Instances table is
 populated through an instance discovery query. See the
-[0-SQL_InstanceDiscovery Job](../../../solutions/databases/sql/collection/0-sql_instancediscovery.md)
+[0-SQL_InstanceDiscovery Job](/docs/accessanalyzer/12.0/solutions/databases/sql/collection/0-sql_instancediscovery.md)
 topic for additional information. For PostgreSQL and MySQL Scans, the SA_SQL_Instances table is
 populated manually in the Manage Connections window. See the
 [Manage Connections Window](#manage-connections-window) topic for additional information. Once the
 table has been populated, a query can be scoped.
 
-![SQL Data Collector Wizard Filter page](../../../../../../static/img/product_docs/accessanalyzer/admin/datacollector/ewsmailbox/filter.webp)
+![SQL Data Collector Wizard Filter page](/img/product_docs/accessanalyzer/admin/datacollector/ewsmailbox/filter.webp)
 
 The configurable filter options are:
 
@@ -83,7 +83,7 @@ The configurable filter options are:
 The Manage Connections window enables you to add database instances to search. Click the
 **Connections** button to open it.
 
-![Manage Connections window](../../../../../../static/img/product_docs/accessanalyzer/admin/datacollector/nosql/manageconnections.webp)
+![Manage Connections window](/img/product_docs/accessanalyzer/admin/datacollector/nosql/manageconnections.webp)
 
 The Manage Connections table lists the previously added database instances and their attributes.
 Select a row in the table to edit that instance, or create a new instance to add to the table:
@@ -119,7 +119,7 @@ The Manage Connections window has the following buttons:
 The Add custom filter window opens from the Filter page of the SQL Data Collector Wizard. It enables
 you to apply a custom scoping filter to the query.
 
-![Add custom filter window](../../../../../../static/img/product_docs/accessanalyzer/admin/datacollector/sql/addcustomfilter.webp)
+![Add custom filter window](/img/product_docs/accessanalyzer/admin/datacollector/sql/addcustomfilter.webp)
 
 Type the filter in the window and click Save. The following characters can be used in the filter:
 

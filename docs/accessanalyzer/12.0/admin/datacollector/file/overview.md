@@ -6,12 +6,12 @@ the target hosts. It can target any file extension. This data collector is a cor
 Access Analyzer and is available with all Access Analyzer licenses.
 
 **NOTE:** For enhanced file system data collections, use the
-[FileSystemAccess Data Collector](../fsaa/overview.md).
+[FileSystemAccess Data Collector](/docs/accessanalyzer/12.0/admin/datacollector/fsaa/overview.md).
 
 Supported Platforms
 
 This data collector can target the same servers supported for the FileSystemAccess Data Collector.
-See the [File System Supported Platforms](../../../requirements/target/filesystems.md) topic for a
+See the [File System Supported Platforms](/docs/accessanalyzer/12.0/requirements/target/filesystems.md) topic for a
 full list of supported platforms.
 
 Protocols
@@ -35,12 +35,12 @@ The **File** Data Collector is configured through the File Search Wizard, which 
 following wizard pages:
 
 - Welcome
-- [File: Category](category.md)
-- [File: Target Files](targetfiles.md)
-- [File: Results](results.md)
-- [File: Summary](summary.md)
+- [File: Category](/docs/accessanalyzer/12.0/admin/datacollector/file/category.md)
+- [File: Target Files](/docs/accessanalyzer/12.0/admin/datacollector/file/targetfiles.md)
+- [File: Results](/docs/accessanalyzer/12.0/admin/datacollector/file/results.md)
+- [File: Summary](/docs/accessanalyzer/12.0/admin/datacollector/file/summary.md)
 
-![File Search Wizard Welcome page](../../../../../../static/img/product_docs/activitymonitor/activitymonitor/install/welcome.webp)
+![File Search Wizard Welcome page](/img/product_docs/activitymonitor/activitymonitor/install/welcome.webp)
 
 The Welcome page can be hidden by selecting the **Do not display this page the next time** checkbox
 when the wizard is open and configuration settings are saved.

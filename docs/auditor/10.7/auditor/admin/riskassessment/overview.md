@@ -8,9 +8,9 @@ you to take corrective measures in the required area, ensuring the IT risks stay
 
 Risk assessment dashboard can be accessed by clicking the Risk assessment tile in the main window of
 Netwrix Auditor. For details about using the dashboard, see
-[IT Risk Assessment Dashboard](dashboard.md).
+[IT Risk Assessment Dashboard](/docs/auditor/10.7/auditor/admin/riskassessment/dashboard.md).
 
-For details about metrics calculation, see [How Risk Levels Are Estimated ](levels.md).
+For details about metrics calculation, see [How Risk Levels Are Estimated ](/docs/auditor/10.7/auditor/admin/riskassessment/levels.md).
 
 ## Providing Data for Risk Assessment
 
@@ -52,7 +52,7 @@ have at least one item added. See the following table for the certain reports:
 
 **NOTE:** Risks marked with (\*) require both pre-configured NDC SQL database connection and NDC API
 connection. To check configuration status, go to Settings > Sensitive Data Discovery. See
-[Sensitive Data Discovery ](../settings/sensitivedatadiscovery.md)for more information.
+[Sensitive Data Discovery ](/docs/auditor/10.7/auditor/admin/settings/sensitivedatadiscovery.md)for more information.
 
 **NOTE:** Right after setting up the integration the drill down reports might be empty, while the
 risk indicator is already completed. Please wait until Auditor gets all the information from Netwrix
@@ -65,7 +65,7 @@ to the audit database.
 
 Also, consider that all risk metrics and related reports require state-in-time data to be collected.
 You can select the relevant option when creating a new monitoring plan, as described in the
-[Create a New Monitoring Plan](../monitoringplans/create.md) section. For the exising plan, refer to
+[Create a New Monitoring Plan](/docs/auditor/10.7/auditor/admin/monitoringplans/create.md) section. For the exising plan, refer to
 the procedure below.
 
 To verify the necessary settings of the existing plan
@@ -75,15 +75,15 @@ To verify the necessary settings of the existing plan
 3. Go to the Audit Database section and make sure that Disable security intelligence ... checkbox is
    cleared. This will instruct Netwrix Auditor to store data to both Long-Term Archive and audit
    database:  
-   ![edit_mp_store_data_to_db_thumb_0_0](../../../../../../static/img/product_docs/auditor/auditor/admin/riskassessment/edit_mp_store_data_to_db_thumb_0_0.webp)
+   ![edit_mp_store_data_to_db_thumb_0_0](/img/product_docs/auditor/auditor/admin/riskassessment/edit_mp_store_data_to_db_thumb_0_0.webp)
 4. Save the settings and return to the window with the monitoring plan details. Make sure you have
    at least one monitored item in the plan. If necessary, add an item.
 5. Select the data source you need (for example, Active Directory) and click Edit data source from
    the Data source section on the right.
-   ![edit_mp_open_ds_settings_thumb_0_0](../../../../../../static/img/product_docs/auditor/auditor/admin/riskassessment/edit_mp_open_ds_settings_thumb_0_0.webp)
+   ![edit_mp_open_ds_settings_thumb_0_0](/img/product_docs/auditor/auditor/admin/riskassessment/edit_mp_open_ds_settings_thumb_0_0.webp)
 6. Make sure that:
     1. Monitor this data source and collect activity data is switched ON.
     2. Collect data for state-in-time reports is switched ON.
 7. Save the settings and close the dialog.
 
-![edit_data_source_sit](../../../../../../static/img/product_docs/auditor/auditor/admin/riskassessment/edit_data_source_sit.webp)
+![edit_data_source_sit](/img/product_docs/auditor/auditor/admin/riskassessment/edit_data_source_sit.webp)

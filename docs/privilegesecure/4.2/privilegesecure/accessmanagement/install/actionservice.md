@@ -5,13 +5,13 @@ It can also be installed on additional servers. This provides the option to run 
 different locations within an organization.
 
 The NPS Proxy Service installer is in the Extras folder of the ZIP file downloaded from the Netwrix
-Customer portal. See the [Install Components & Methods](components.md) topic for additional
+Customer portal. See the [Install Components & Methods](/docs/privilegesecure/4.2/privilegesecure/accessmanagement/install/components.md) topic for additional
 information.
 
 **NOTE:** Before you begin, the NPS Proxy Service must be registered with a corresponding
 application server on the server you will be installing the Action Service prior to installation.
 The Proxy Service is installed as part of the Action Service installation package. See the
-[Proxy Service Install](proxyservice.md) topic for installation instructions.
+[Proxy Service Install](/docs/privilegesecure/4.2/privilegesecure/accessmanagement/install/proxyservice.md) topic for installation instructions.
 
 Follow the steps to install the NPS Action Service on another server.
 
@@ -29,11 +29,11 @@ server.
 **Step 3 –** Open the NPS.ActionService.exe and the Netwrix Privilege Secure Action Service Setup
 wizard will open.
 
-![licenseagreement](../../../../../../static/img/product_docs/threatprevention/threatprevention/install/licenseagreement.webp)
+![licenseagreement](/img/product_docs/threatprevention/threatprevention/install/licenseagreement.webp)
 
 **Step 4 –** To install the Action Service in an alternate location, click **Options**.
 
-![installlocation](../../../../../../static/img/product_docs/activitymonitor/activitymonitor/install/agent/installlocation.webp)
+![installlocation](/img/product_docs/activitymonitor/activitymonitor/install/agent/installlocation.webp)
 
 **Step 5 –** Enter the destination folder for installation and click OK.
 
@@ -43,7 +43,7 @@ Agreement checkbox.
 **Step 7 –** Click Install to begin the installation. The setup wizard displays the installation
 progress.
 
-![installcomplete](../../../../../../static/img/product_docs/privilegesecure/privilegesecure/accessmanagement/install/installcomplete.webp)
+![installcomplete](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/install/installcomplete.webp)
 
 **Step 8 –** When the installation is complete, click Close to exit the installer.
 
@@ -61,7 +61,7 @@ Follow the steps to configure the key exchange.
 
 **Step 2 –** Type the following commands to export the encryption keys for the secondary:
 
-[Copy](<javascript:void(0);>)
+[Copy](javascript:void(0);)
 
 Encryption Key Export
 
@@ -82,7 +82,7 @@ server.
 
 **Step 6 –** Type the following commands to import the encryption keys:
 
-[Copy](<javascript:void(0);>)
+[Copy](javascript:void(0);)
 
 Encryption Key Import
 

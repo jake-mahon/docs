@@ -11,7 +11,7 @@ for restoring deleted objects. Consider the following:
 - The Extension can be manually installed on a remote server where ADUC is installed. The Extension
   connects to the Recovery Application Server using the server name or IP address you provide while
   installing the Extension on the remote machine. See the
-  [Install the RSAT Extension](installation.md) topic for additional information.
+  [Install the RSAT Extension](/docs/recoveryforactivedirectory/2.6/recoveryforactivedirectory/rsatextension/installation.md) topic for additional information.
 
 You must register the RSAT Extension on the Recovery Application Server to add the Rollback and
 Restore options to the ADUC console.

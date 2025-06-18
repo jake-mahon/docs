@@ -2,7 +2,7 @@
 
 The header provides the following functions:
 
-![Header](../../../../../../../../static/img/product_docs/passwordsecure/passwordsecure/configuration/web_applicaiton/operation/header/installation_with_parameters_171-en_679x38.webp)
+![Header](/img/product_docs/passwordsecure/passwordsecure/configuration/web_applicaiton/operation/header/installation_with_parameters_171-en_679x38.webp)
 
 1. Logo
 
@@ -35,4 +35,4 @@ clicking on it.
 
 The user who is currently logged in can be seen under account. You can log out by clicking on the
 account. It is also possible to call up the settings in
-[Account](../../../advanced_view/mainmenu/account/account.md).
+[Account](/docs/passwordsecure/9.2/passwordsecure/configuration/advanced_view/mainmenu/account/account.md).

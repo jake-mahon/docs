@@ -14,8 +14,8 @@ Data Collectors
 
 This solution employs the following data collector to scan the target environment:
 
-- [ADInventory Data Collector](../../admin/datacollector/adinventory/overview.md)
-- [Box Data Collector](../../admin/datacollector/box/overview.md)
+- [ADInventory Data Collector](/docs/accessanalyzer/12.0/admin/datacollector/adinventory/overview.md)
+- [Box Data Collector](/docs/accessanalyzer/12.0/admin/datacollector/box/overview.md)
 
 ## Permissions
 
@@ -27,7 +27,7 @@ For .Active Directory Inventory Prerequisite
     **NOTE:** See the Microsoft
     [Searching for Deleted Objects](https://technet.microsoft.com/en-us/library/cc978013.aspx)
     article and the Microsoft
-    [Dsacls](<https://technet.microsoft.com/en-us/library/cc771151(v=ws.11).aspx>) article for
+    [Dsacls](https://technet.microsoft.com/en-us/library/cc771151(v=ws.11).aspx) article for
     additional information.
 
 For Box Data Collection
@@ -45,7 +45,7 @@ code. The following can be used as a least privilege model:
 **NOTE:** Scans run with Co-Admin account credentials will complete. However, the data returned from
 the scan might not include content owned by the Enterprise Admin account.
 
-See the [Recommended Configurations for the Box Solution](../../solutions/box/recommended.md) topic
+See the [Recommended Configurations for the Box Solution](/docs/accessanalyzer/12.0/solutions/box/recommended.md) topic
 for additional information.
 
 ## Ports

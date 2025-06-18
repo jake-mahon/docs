@@ -11,7 +11,7 @@ Follow the steps below to add a new Secret Vault.
 
 **Step 2 –** Click the Plus icon and select New Secret Vault from the drop-down list.
 
-![Add secrete Vault Resource](../../../../../../../../static/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/configuration/add/addsecretvault.webp)
+![Add secrete Vault Resource](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/configuration/add/addsecretvault.webp)
 
 **Step 3 –** Enter the following information:
 
@@ -34,13 +34,13 @@ Follow the steps below to add a new Secret Vault.
 **Step 8 –** Click **Okay** to add the account to the Secret Vault.
 
 A secret vault has been created, and a secret added to the vault. See the
-[Secret Vault Details Page](../../policy/page/details/secretvault.md) topic for additional
+[Secret Vault Details Page](/docs/privilegesecure/4.2/privilegesecure/accessmanagement/admin/policy/page/details/secretvault.md) topic for additional
 information.
 
 **NOTE:** Vaulted credentials must be manually entered and updated.
 
 See the
-[Credentials Tab for Credential Based Access Policies](../../policy/tab/policycredentials/credentials.md)
+[Credentials Tab for Credential Based Access Policies](/docs/privilegesecure/4.2/privilegesecure/accessmanagement/admin/policy/tab/policycredentials/credentials.md)
 topic for additional information.
 
 ## Create an Access Policy
@@ -48,14 +48,14 @@ topic for additional information.
 Follow these steps to add a credential-based access policy to Privilege Secure.
 
 _Remember,_ a connection profile is required to create an access policy. You can create one ahead of
-time on the [Connection Profiles Page](../../policy/page/connectionprofiles.md) page or use the
+time on the [Connection Profiles Page](/docs/privilegesecure/4.2/privilegesecure/accessmanagement/admin/policy/page/connectionprofiles.md) page or use the
 arrow button to create one during these steps.
 
 **Step 1 –** Navigate to the Policy > Access Policies page.
 
 **Step 2 –** In the Access Policy list, click the Plus icon.
 
-![Add Access Policy](../../../../../../../../static/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/configuration/add/addaccesspolicy.webp)
+![Add Access Policy](/img/product_docs/privilegesecure/privilegesecure/accessmanagement/admin/configuration/add/addaccesspolicy.webp)
 
 **Step 3 –** Enter the following information:
 
@@ -69,14 +69,14 @@ arrow button to create one during these steps.
 **Step 5 –** On the new access policy, select the **Users** tab.
 
 **Step 6 –** Click the **Add** button to add users to the access policy. See the
-[Users Tab for Credential Based Access Policies](../../policy/tab/policycredentials/users.md) for
+[Users Tab for Credential Based Access Policies](/docs/privilegesecure/4.2/privilegesecure/accessmanagement/admin/policy/tab/policycredentials/users.md) for
 additional information.
 
 **Step 7 –** Once the users have been added, select the **Credentials** tab.
 
 **Step 8 –** Click the **Add** button to add the necessary credentials to access the Secrete Vault.
 See the
-[Credentials Tab for Credential Based Access Policies](../../policy/tab/policycredentials/credentials.md)
+[Credentials Tab for Credential Based Access Policies](/docs/privilegesecure/4.2/privilegesecure/accessmanagement/admin/policy/tab/policycredentials/credentials.md)
 for additional information.
 
 The new Secret Vault access policy has been created. Users added to the policy will now have a

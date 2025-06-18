@@ -3,7 +3,7 @@
 Where required, Netwrix Change Tracker can also execute commands on the endpoint device. Note that
 commands must be pre-approved for usage. All standard commands employed within Change Tracker
 Compliance Reports and the built-in Policy Templates are pre-approved but if you add any new
-commands these may require Admin approval. See the [Allowed Commands](../allowedcommands.md) topic
+commands these may require Admin approval. See the [Allowed Commands](/docs/changetracker/8.1/changetracker/admin/settings/allowedcommands.md) topic
 for additional information.
 
 - **Agent-Based Monitoring** – Where an Agent is being used for monitoring the commands will be
@@ -15,14 +15,14 @@ for additional information.
 
 cmd /C %systemroot%\system32\inetsrv\appcmd list VDIR /text:VDIR.NAME
 
-![ProcessCommandOutput](../../../../../../../static/img/product_docs/changetracker/changetracker/admin/settings/policytemplates/processcommandoutput.webp)
+![ProcessCommandOutput](/img/product_docs/changetracker/changetracker/admin/settings/policytemplates/processcommandoutput.webp)
 
 - Commands will be executed indirectly by the **Master Proxy Agent** being used and the initial
   baseline stored in the **Proxy Agent** database, with any subsequent changes detected being
   reported back to the Hub. The commands will be run using whichever service account has been used
   in the assigned **Credentials**.
 
-![ProcessCommandOutputCredentials](../../../../../../../static/img/product_docs/changetracker/changetracker/admin/settings/policytemplates/processcommandoutputcredentials.webp)
+![ProcessCommandOutputCredentials](/img/product_docs/changetracker/changetracker/admin/settings/policytemplates/processcommandoutputcredentials.webp)
 
 - **Use of RegEx** – Whether using Agent-based or Agentless Command Output Trackers, a Regular
   Expression can be applied to the command output to filter/match specific keywords/patterns. Note

@@ -33,7 +33,7 @@ Follow the steps to remove a tile from the Home Screen.
 
 **Step 3 –** Click **close (x)**:
 
-![remove_tile](../../../../../../static/img/product_docs/auditor/auditor/admin/navigation/remove_tile.webp)
+![remove_tile](/img/product_docs/auditor/auditor/admin/navigation/remove_tile.webp)
 
 **Step 4 –** Click Apply.
 
@@ -55,7 +55,7 @@ Follow the steps to resizea tile.
 
 **Step 3 –** Click the **resize** button:
 
-![homescreenresizetile](../../../../../../static/img/product_docs/auditor/auditor/admin/navigation/homescreenresizetile.webp)
+![homescreenresizetile](/img/product_docs/auditor/auditor/admin/navigation/homescreenresizetile.webp)
 
 **Step 4 –** Select the preferred size from the drop-down list.
 

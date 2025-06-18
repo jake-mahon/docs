@@ -4,14 +4,14 @@ In the Settings section, you can configure product settings, such as default SQL
 Audit Database, the Long-Term Archive location and retention period, etc. You can also review
 information about the product version and your licenses. See the following sections:
 
-- [General](general.md)
-- [Audit Database](auditdatabase.md)
-- [Long-Term Archive](longtermarchive.md)
-- [Investigations](investigations.md)
-- [Notifications](notifications.md)
-- [Integrations](integrations.md)
-- [Licenses](licenses.md)
-- [About Netwrix Auditor](about.md)
+- [General](/docs/auditor/10.7/auditor/admin/settings/general.md)
+- [Audit Database](/docs/auditor/10.7/auditor/admin/settings/auditdatabase.md)
+- [Long-Term Archive](/docs/auditor/10.7/auditor/admin/settings/longtermarchive.md)
+- [Investigations](/docs/auditor/10.7/auditor/admin/settings/investigations.md)
+- [Notifications](/docs/auditor/10.7/auditor/admin/settings/notifications.md)
+- [Integrations](/docs/auditor/10.7/auditor/admin/settings/integrations.md)
+- [Licenses](/docs/auditor/10.7/auditor/admin/settings/licenses.md)
+- [About Netwrix Auditor](/docs/auditor/10.7/auditor/admin/settings/about.md)
 
 To modify Netwrix Auditor settings, you must be assigned the _Global administrator_ role. See
-[Role-Based Access and Delegation](../monitoringplans/delegation.md) for more information.
+[Role-Based Access and Delegation](/docs/auditor/10.7/auditor/admin/monitoringplans/delegation.md) for more information.

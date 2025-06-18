@@ -4,7 +4,7 @@ The Active Directory tab provides options to configure the agent settings for mo
 Directory domain controller. These settings are part of the Active Directory monitoring and can only
 be enabled for agents on domain controllers.
 
-![Agent Properties - Active Directory Tab](../../../../../../../static/img/product_docs/activitymonitor/activitymonitor/admin/agents/properties/mainimage.webp)
+![Agent Properties - Active Directory Tab](/img/product_docs/activitymonitor/activitymonitor/admin/agents/properties/mainimage.webp)
 
 The Agent Settings allow users to control the AD agent’s properties:
 
@@ -60,7 +60,7 @@ used for Active Directory Activity Monitoring from the Threat Prevention Admin C
 
 **Step 1 –** Configure the File, Syslog, or Threat Manager outputs on the Monitored Domains Tab in
 the Activity Monitor Console. See the
-[Output for Monitored Domains](../../monitoreddomains/output.md) topic for additional information.
+[Output for Monitored Domains](/docs/activitymonitor/8.0/activitymonitor/admin/monitoreddomains/output.md) topic for additional information.
 
 **Step 2 –** Within the Threat Prevention Admin Console, select the Threat Manager Event Sink
 Configuration Window option under the Configuration menu, and enter amqp://localhost:4499 within the

@@ -10,7 +10,7 @@ Analyzer. The two parts of the Top Navigation section are:
 
 Users can access various Access Analyzer functions and actions in the Menu Bar.
 
-![Menu Bar on Console](../../../../../static/img/product_docs/accessanalyzer/admin/navigate/menubar.webp)
+![Menu Bar on Console](/img/product_docs/accessanalyzer/admin/navigate/menubar.webp)
 
 The Menu Bar options are:
 
@@ -19,7 +19,7 @@ The Menu Bar options are:
     - Create Job – Creates a new job (Ctrl+Alt+A) at the selected location within the Jobs tree
     - Add Instant Job – Opens the Access Analyzer Instant Job Wizard to install an instant job set
       at the selected location within the Jobs tree. See the
-      [Instant Job Wizard](../jobs/instantjobs/overview.md) section for information on installing
+      [Instant Job Wizard](/docs/accessanalyzer/12.0/admin/jobs/instantjobs/overview.md) section for information on installing
       instant solutions from the Access Analyzer Library.
 
         **CAUTION:** Delete Job will also delete all data tables with the job’s base naming
@@ -27,7 +27,7 @@ The Menu Bar options are:
 
     - Delete Job – Deletes the selected job from the Jobs tree
     - Properties – Opens the Job Properties window for the selected job. See the
-      [Job Properties](../jobs/job/properties/overview.md) topic for additional information.
+      [Job Properties](/docs/accessanalyzer/12.0/admin/jobs/job/properties/overview.md) topic for additional information.
     - Export Data – Exports the selected data table or view to an HTML, XML, or CSV file format
     - Exit – Closes the Access Analyzer application
 
@@ -48,13 +48,13 @@ The Menu Bar options are:
     - Reset Current Data View – This is a legacy feature
     - Show Change Deltas – This is a legacy feature
     - Show Job Progress – Redirects the Access Analyzer Console to the Running Job Node to view the
-      running job’s progress. See the [Running Instances Node](../runninginstances/overview.md)
+      running job’s progress. See the [Running Instances Node](/docs/accessanalyzer/12.0/admin/runninginstances/overview.md)
       topic for additional information.
 - Job
 
     - Add Instant Job – Opens the Access Analyzer Instant Job Wizard to install an instant job set
       at the selected location within the Jobs tree. See the
-      [Instant Job Wizard](../jobs/instantjobs/overview.md) section for information on installing
+      [Instant Job Wizard](/docs/accessanalyzer/12.0/admin/jobs/instantjobs/overview.md) section for information on installing
       instant solutions from the Access Analyzer Library.
     - Create Job – Creates a new job (Ctrl + Alt + A) at the selected location within the Jobs tree
 
@@ -68,12 +68,12 @@ The Menu Bar options are:
 
     - Rename Job – Renames the selected job
     - Properties – Opens the Job Properties window for the selected job. See the
-      [Job Properties](../jobs/job/properties/overview.md) topic for additional information.
+      [Job Properties](/docs/accessanalyzer/12.0/admin/jobs/job/properties/overview.md) topic for additional information.
     - Execute:
         - Run Job or Group – Starts job execution for the selected job group or job
         - Stop Job or Group – Stops job execution for the selected job group or job
         - Schedule – Opens the selected job’s Schedule window. See the
-          [Schedule Jobs](../schedule/overview.md#schedule-jobs) topic for additional information.
+          [Schedule Jobs](/docs/accessanalyzer/12.0/admin/schedule/overview.md#schedule-jobs) topic for additional information.
     - Queries:
 
         - Add from Library – Opens the Library to add a query to the selected job’s Query Selection
@@ -90,7 +90,7 @@ The Menu Bar options are:
           query. See the Query Selection topic for additional information.
 
             See the Data Collectors topic for additional information. See the
-            [Data Collectors](../datacollector/overview.md) topic for additional information.
+            [Data Collectors](/docs/accessanalyzer/12.0/admin/datacollector/overview.md) topic for additional information.
 
     - Reports
         - Create Report – Creates a new report at the selected Reports node
@@ -102,14 +102,14 @@ The Menu Bar options are:
 - Schedules
     - Schedule – Opens the selected object’s Schedule window to create a new scheduled action. The
       Access Analyzer Console is redirected to the Schedules node. See the
-      [Schedule](../settings/schedule.md) topic for additional information.
+      [Schedule](/docs/accessanalyzer/12.0/admin/settings/schedule.md) topic for additional information.
     - Delete – Delete the selected scheduled task from the Scheduled Actions view of the Schedules
       node
     - Properties – Opens the selected scheduled task’s Schedule window. See the
-      [Schedule](../settings/schedule.md) topic for additional information.
+      [Schedule](/docs/accessanalyzer/12.0/admin/settings/schedule.md) topic for additional information.
 - Tools
     - Libraries – Opens the Add Query from Library window to add a query to the selected job’s Query
-      Selection view. See the [Schedule](../settings/schedule.md) topic for additional information.
+      Selection view. See the [Schedule](/docs/accessanalyzer/12.0/admin/settings/schedule.md) topic for additional information.
     - Options – Redirects the Access Analyzer Console to the Settings node
 - Help
     - Content – Opens Access Analyzer help documentation
@@ -124,21 +124,21 @@ The Menu Bar options are:
 
 The Button bar provides quick links to various actions and functions in Access Analyzer.
 
-![Button Bar](../../../../../static/img/product_docs/accessanalyzer/admin/datacollector/buttonbar.webp)
+![Button Bar](/img/product_docs/accessanalyzer/admin/datacollector/buttonbar.webp)
 
 The options in the Button Bar are:
 
 | Icon                                                                                                                              | Icon Description            | Name                                                |
 | --------------------------------------------------------------------------------------------------------------------------------- | --------------------------- | --------------------------------------------------- |
-| ![selectinstantjob](../../../../../static/img/product_docs/accessanalyzer/admin/navigate/selectinstantjob.webp) | Paper with plus sign        | Select an Instant Job                               |
-| ![newjob](../../../../../static/img/product_docs/accessanalyzer/admin/navigate/newjob.webp)                     | Paper with pencil           | Create a new job (Ctrl + Alt + A)                   |
-| ![newgroup](../../../../../static/img/product_docs/accessanalyzer/admin/navigate/newgroup.webp)                 | Folder with plus sign       | Create a new group                                  |
-| ![newquery](../../../../../static/img/product_docs/accessanalyzer/admin/navigate/newquery.webp)                 | Puzzle piece with plus sign | Create a new query and add it to the selected table |
-| ![addreport](../../../../../static/img/product_docs/accessanalyzer/admin/navigate/addreport.webp)               | Graph with plus sign        | Add a report                                        |
-| ![addquery](../../../../../static/img/product_docs/accessanalyzer/admin/navigate/addquery.webp)                 | Book with plus sign         | Add a query from a library                          |
-| ![cut](../../../../../static/img/product_docs/accessanalyzer/admin/navigate/cut.webp)                           | Scissors                    | Cut the selected query to the clipboard (Ctrl + X)  |
-| ![copy](../../../../../static/img/product_docs/accessanalyzer/admin/navigate/copy.webp)                         | Duplicate papers            | Copy the selected query to the clipboard (Ctrl + C) |
-| ![paste](../../../../../static/img/product_docs/accessanalyzer/admin/navigate/paste.webp)                       | Clipboard with paper        | Paste the query from the clipboard (Ctrl + V)       |
-| ![delete](../../../../../static/img/product_docs/strongpointfornetsuite/integrations/delete.webp)                                 | Red X                       | Delete the selected query                           |
+| ![selectinstantjob](/img/product_docs/accessanalyzer/admin/navigate/selectinstantjob.webp) | Paper with plus sign        | Select an Instant Job                               |
+| ![newjob](/img/product_docs/accessanalyzer/admin/navigate/newjob.webp)                     | Paper with pencil           | Create a new job (Ctrl + Alt + A)                   |
+| ![newgroup](/img/product_docs/accessanalyzer/admin/navigate/newgroup.webp)                 | Folder with plus sign       | Create a new group                                  |
+| ![newquery](/img/product_docs/accessanalyzer/admin/navigate/newquery.webp)                 | Puzzle piece with plus sign | Create a new query and add it to the selected table |
+| ![addreport](/img/product_docs/accessanalyzer/admin/navigate/addreport.webp)               | Graph with plus sign        | Add a report                                        |
+| ![addquery](/img/product_docs/accessanalyzer/admin/navigate/addquery.webp)                 | Book with plus sign         | Add a query from a library                          |
+| ![cut](/img/product_docs/accessanalyzer/admin/navigate/cut.webp)                           | Scissors                    | Cut the selected query to the clipboard (Ctrl + X)  |
+| ![copy](/img/product_docs/accessanalyzer/admin/navigate/copy.webp)                         | Duplicate papers            | Copy the selected query to the clipboard (Ctrl + C) |
+| ![paste](/img/product_docs/accessanalyzer/admin/navigate/paste.webp)                       | Clipboard with paper        | Paste the query from the clipboard (Ctrl + V)       |
+| ![delete](/img/product_docs/platgovnetsuite/integrations/delete.webp)                                 | Red X                       | Delete the selected query                           |
 
 Select a button for the desired action.

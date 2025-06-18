@@ -135,7 +135,7 @@ to change it.
 Password Policy Client is not installed. Windows clients display the prompt 5 days before passwords
 expire by default. You can alter this behavior in the Windows Group Policy security settings. See
 the
-[Interactive logon: Prompt user to change password before expiration](<http://technet.microsoft.com/en-us/library/jj852243(v%3Dws.10).aspx>)
+[Interactive logon: Prompt user to change password before expiration](http://technet.microsoft.com/en-us/library/jj852243(v%3Dws.10).aspx)
 Microsoft article for additional information.
 
 Password Policy Enforcer expires passwords at 1:00 AM every day on the domain controller holding the

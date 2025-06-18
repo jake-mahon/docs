@@ -51,7 +51,7 @@ To configure tagging on a global level
 | **Name/ID** or **Class** | Depending on the format, take the term labels, IDs or a combination of both                                                               | The corresponding Delimiter must be a string or array type with a maximum length of 3.                                                                    |
 | **Prefix/** **Suffix**   | Will be appended to the formatted string of classifications.                                                                              |                                                                                                                                                           |
 
-![googledrivewriteconfiguration_thumb_0_0](../../../../../../../static/img/product_docs/dataclassification/ndc/admin/sources/googledrive/googledrivewriteconfiguration_thumb_0_0.webp)
+![googledrivewriteconfiguration_thumb_0_0](/img/product_docs/dataclassification/ndc/admin/sources/googledrive/googledrivewriteconfiguration_thumb_0_0.webp)
 
 ## Configure Exclusions
 
@@ -66,7 +66,7 @@ In the management console, click **Sources** →**Google Drive**, then in the le
 1. Click **Filter** tab and in the **Filter** field specify the file locations to exclude from
    crawling.
 
-![gdrive_exclusion_filter_thumb_0_0](../../../../../../../static/img/product_docs/dataclassification/ndc/admin/sources/googledrive/gdrive_exclusion_filter_thumb_0_0.webp)
+![gdrive_exclusion_filter_thumb_0_0](/img/product_docs/dataclassification/ndc/admin/sources/googledrive/gdrive_exclusion_filter_thumb_0_0.webp)
 
 2. Wildcards can be used anywhere in the exclusion pattern definition as follows:
     - The asterisk character (\*) - matches any sequence of characters
@@ -89,7 +89,7 @@ _gdrive://corp/Year2020/\*.xlsx_
     | Has any value | Exclude the document if its metadata field has any value. With this criteria selected, specify **Field Name**.                                                                                                                                                                                                                                                                                                                                                                   |
     | Has no values | Exclude the document if metadata field value is not specified. With this criteria selected, specify **Field Name**.                                                                                                                                                                                                                                                                                                                                                              |
 
-    ![gdrive_exclusion_condition_2_thumb_0_0](../../../../../../../static/img/product_docs/dataclassification/ndc/admin/sources/box/gdrive_exclusion_condition_2_thumb_0_0.webp)
+    ![gdrive_exclusion_condition_2_thumb_0_0](/img/product_docs/dataclassification/ndc/admin/sources/box/gdrive_exclusion_condition_2_thumb_0_0.webp)
 
     When finished, click **Add**.
 

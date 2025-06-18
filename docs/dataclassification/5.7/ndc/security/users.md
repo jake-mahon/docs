@@ -9,11 +9,11 @@ You must add at least one user in order to restrict access to the administrative
 
 The following types of authentication mechanisms are supported: Windows, ADFS, Azure AD and Forms.
 
-![users_main_page_thumb_0_0](../../../../../static/img/product_docs/dataclassification/ndc/security/users_main_page_thumb_0_0.webp)
+![users_main_page_thumb_0_0](/img/product_docs/dataclassification/ndc/security/users_main_page_thumb_0_0.webp)
 
 Review the following for additional information:
 
-- [Secure Netwrix Data Classification](securendc.md)
-- [User Management](usermanagement.md)
-- [Password Manager](passwordmanager.md)
-- [Web Service Security](webservicesecurity.md)
+- [Secure Netwrix Data Classification](/docs/dataclassification/5.7/ndc/security/securendc.md)
+- [User Management](/docs/dataclassification/5.7/ndc/security/usermanagement.md)
+- [Password Manager](/docs/dataclassification/5.7/ndc/security/passwordmanager.md)
+- [Web Service Security](/docs/dataclassification/5.7/ndc/security/webservicesecurity.md)

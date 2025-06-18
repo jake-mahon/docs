@@ -18,7 +18,7 @@ Follow the steps to monitor NAS devices.
 
 **Step 3 –** In the Event Filters section, go to the Paths filter tab and click the **Add** button
 in the Include Paths area to open the
-[Select File System Objects Window](../window/selectfilesystemobjects.md).
+[Select File System Objects Window](/docs/threatprevention/7.5/threatprevention/admin/policies/eventtype/window/selectfilesystemobjects.md).
 
 _Remember,_ any files or folders to be excluded need to be a subset of a folder identified in the
 Include Paths area.

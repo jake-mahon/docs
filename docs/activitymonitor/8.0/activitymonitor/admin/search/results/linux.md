@@ -2,10 +2,10 @@
 
 When a search has been started, the Search Status table at the bottom displays the percentage
 complete according to the size and quantity of the activity log files being searched per Linux
-agent. You can [Filter](../overview.md#filter) and [Sort](../overview.md#sort) the results using the
-column headers. Below the Search button is the [Export](../overview.md#export) option.
+agent. You can [Filter](/docs/activitymonitor/8.0/activitymonitor/admin/search/overview.md#filter) and [Sort](/docs/activitymonitor/8.0/activitymonitor/admin/search/overview.md#sort) the results using the
+column headers. Below the Search button is the [Export](/docs/activitymonitor/8.0/activitymonitor/admin/search/overview.md#export) option.
 
-![linuxsearchresults](../../../../../../../static/img/product_docs/activitymonitor/activitymonitor/admin/search/results/linuxsearchresults.webp)
+![linuxsearchresults](/img/product_docs/activitymonitor/activitymonitor/admin/search/results/linuxsearchresults.webp)
 
 The results data grid columns display the following information for each event:
 

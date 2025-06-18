@@ -16,8 +16,8 @@ Data Collectors
 
 This solution employs the following data collector to scan the target environment:
 
-- [ADInventory Data Collector](../../admin/datacollector/adinventory/overview.md)
-- [FileSystemAccess Data Collector](../../admin/datacollector/fsaa/overview.md)
+- [ADInventory Data Collector](/docs/accessanalyzer/12.0/admin/datacollector/adinventory/overview.md)
+- [FileSystemAccess Data Collector](/docs/accessanalyzer/12.0/admin/datacollector/fsaa/overview.md)
 
 Permissions and Ports for ADInventory Data Collector Prerequisite
 
@@ -29,7 +29,7 @@ The following permissions are needed:
     **NOTE:** See the Microsoft
     [Searching for Deleted Objects](https://technet.microsoft.com/en-us/library/cc978013.aspx)
     article and the Microsoft
-    [Dsacls](<https://technet.microsoft.com/en-us/library/cc771151(v=ws.11).aspx>) article for
+    [Dsacls](https://technet.microsoft.com/en-us/library/cc771151(v=ws.11).aspx) article for
     additional information.
 
 The following firewall ports are needed:
@@ -51,7 +51,7 @@ The following are supported Microsoft® Windows® operating systems:
 - Windows Server 2019
 - Windows Server 2016
 
-See the [Windows File Server Target Requirements](../../config/windowsfile/overview.md) topic for
+See the [Windows File Server Target Requirements](/docs/accessanalyzer/12.0/config/windowsfile/overview.md) topic for
 target environment requirements.
 
 Windows File System Clusters
@@ -68,7 +68,7 @@ Azure Files is a fully managed, cloud-based file sharing service from Microsoft 
 access file shares from anywhere as a virtual network drive. Access Analyzer supports Access
 Auditing (FSAA) and Sensitive Data Discovery Auditing scans of Azure Files.
 
-See the [Azure Files Target Requirements](config/azurefiles.md) topic for additional information.
+See the [Azure Files Target Requirements](/docs/accessanalyzer/12.0/requirements/target/config/azurefiles.md) topic for additional information.
 
 ## Supported Network Attached Storage Devices
 
@@ -80,33 +80,33 @@ Dell Celerra® & VNX
 - VNX 7.1
 - VNX 8.1
 
-See the [Dell Celerra & Dell VNX Target Requirements](../../config/dellcelerravnx/overview.md)
+See the [Dell Celerra & Dell VNX Target Requirements](/docs/accessanalyzer/12.0/config/dellcelerravnx/overview.md)
 topic for target environment requirements.
 
 Dell Isilon/PowerScale
 
 - 7.0+
 
-See the [Dell Isilon/PowerScale Target Requirements](../../config/dellpowerscale/overview.md)
+See the [Dell Isilon/PowerScale Target Requirements](/docs/accessanalyzer/12.0/config/dellpowerscale/overview.md)
 topic for target environment requirements.
 
 Dell Unity
 
-See the [Dell Unity Target Requirements](../../config/dellunity/overview.md) topic for target
+See the [Dell Unity Target Requirements](/docs/accessanalyzer/12.0/config/dellunity/overview.md) topic for target
 environment requirements.
 
 Hitachi
 
 - 11.2+
 
-See the [Hitachi Target Requirements](../../config/hitachi/overview.md) topic for target
+See the [Hitachi Target Requirements](/docs/accessanalyzer/12.0/config/hitachi/overview.md) topic for target
 environment requirements.
 
 Nasuni Nasuni Edge Appliances
 
 - 8.0+
 
-See the [Nasuni Target Requirements](../../config/nasuni/overview.md) topic for target
+See the [Nasuni Target Requirements](/docs/accessanalyzer/12.0/config/nasuni/overview.md) topic for target
 environment requirements.
 
 NetApp Data ONTAP
@@ -116,19 +116,19 @@ NetApp Data ONTAP
 
 See the following topics for target environment requirements:
 
-- [NetApp Data ONTAP Cluster-Mode Target Requirements](../../config/netappcmode/overview.md)
-- [NetApp Data ONTAP 7-Mode Target Requirements](../../config/netapp7mode/overview.md)
+- [NetApp Data ONTAP Cluster-Mode Target Requirements](/docs/accessanalyzer/12.0/config/netappcmode/overview.md)
+- [NetApp Data ONTAP 7-Mode Target Requirements](/docs/accessanalyzer/12.0/config/netapp7mode/overview.md)
 
 Nutanix
 
-See the [Nutanix Target Requirements](../../config/nutanix/overview.md) topic for target
+See the [Nutanix Target Requirements](/docs/accessanalyzer/12.0/config/nutanix/overview.md) topic for target
 environment requirements.
 
 Qumulo
 
 - Qumulo Core 5.0.0.1B+
 
-See the [Qumulo Target Requirements](../../config/qumulo/overview.md) topic for target
+See the [Qumulo Target Requirements](/docs/accessanalyzer/12.0/config/qumulo/overview.md) topic for target
 environment requirements.
 
 ## Supported Unix Platforms

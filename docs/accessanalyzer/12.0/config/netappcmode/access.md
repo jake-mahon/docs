@@ -8,7 +8,7 @@ Configuring access to CIFS shares using FPolicy and ONTAP API for Access Anal
 following:
 
 - Configure Data LIF to Allow HTTPS Traffic
-- [Configure Empty FPolicy](configureemptyfpolicy.md)
+- [Configure Empty FPolicy](/docs/accessanalyzer/12.0/config/netappcmode/configureemptyfpolicy.md)
 
 See the [CIFS Method 2 Credential Configuration](#cifs-method-2-credential-configuration) topic for
 an alternative method.
@@ -109,7 +109,7 @@ vserver cifs share access-control show -share c$
 
 The output will list each SVM's ACL for its c$ share. For example:
 
-![ONTAP CLI Command Output Example](../../../../../static/img/product_docs/accessanalyzer/config/netappcmode/accesscifsmethod2.webp)
+![ONTAP CLI Command Output Example](/img/product_docs/accessanalyzer/config/netappcmode/accesscifsmethod2.webp)
 
 If the desired ACE does not exist on an SVM's c$ share, then one can be created with the following
 command:

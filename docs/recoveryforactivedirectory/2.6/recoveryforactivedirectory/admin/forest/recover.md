@@ -23,7 +23,7 @@ To perform a forest recovery, the following prerequisites must be in place:
 - Configure backups for one or more domain controllers in each domain in a forest.
 - Next, ensure that backups run as scheduled. You can also force-run a backup.
 
-See the [Forest Page](forest.md) topic for additional information.
+See the [Forest Page](/docs/recoveryforactivedirectory/2.6/recoveryforactivedirectory/admin/forest/forest.md) topic for additional information.
 
 ## Recover a Forest
 
@@ -31,7 +31,7 @@ Follow the steps to recover a forest.
 
 - **Step 1 –** Prepare an isolated environment to restore the forest to.
 
-    See the [Target Server Considerations](../../requirements/targetserver.md) topic to understand
+    See the [Target Server Considerations](/docs/recoveryforactivedirectory/2.6/recoveryforactivedirectory/requirements/targetserver.md) topic to understand
     the requirements for a target environment and target servers for restoring domain controllers.
 
 - **Step 2 –** Add the desired domain controllers to create a recovery playbook, also called a
@@ -77,7 +77,7 @@ adjacent pane displays the domain controllers in that domain.
 controller to add it to the recovery playbook. The Add to Recovery Playbook wizard opens, where you
 can specify the restore settings for the domain controller.
 
-![Add to Recovery Playbook wizard - Domain Controller page](../../../../../../static/img/product_docs/activitymonitor/activitymonitor/install/agent/domaincontroller.webp)
+![Add to Recovery Playbook wizard - Domain Controller page](/img/product_docs/activitymonitor/activitymonitor/install/agent/domaincontroller.webp)
 
 **Step 4 –** On the Domain Controller page, the Source Domain Controller section displays
 information for the domain controller that is being added to the playbook. It displays the domain it
@@ -91,12 +91,12 @@ In the Target Server section:
   administrator account for the target server.
 
 See the
-[Target Server and Operating System Requirements](../../requirements/targetserver.md#target-server-and-operating-system-requirements)
+[Target Server and Operating System Requirements](/docs/recoveryforactivedirectory/2.6/recoveryforactivedirectory/requirements/targetserver.md#target-server-and-operating-system-requirements)
 topic for additional information.
 
 **Step 5 –** Click **Next**.
 
-![Add to Recovery Playbook wizard - Options page](../../../../../../static/img/product_docs/accessanalyzer/install/application/options.webp)
+![Add to Recovery Playbook wizard - Options page](/img/product_docs/accessanalyzer/install/application/options.webp)
 
 **Step 6 –** From the **Backup** drop-down menu, select the backup to use for restoring the domain
 controller. The drop-down menu lists the backups available for the domain controller.
@@ -124,7 +124,7 @@ the to-be-restored domain controller.
 
 **Step 10 –** Click **Next**.
 
-![Add to Recovery Playbook wizard - Confirm page](../../../../../../static/img/product_docs/recoveryforactivedirectory/recoveryforactivedirectory/admin/forest/confirm.webp)
+![Add to Recovery Playbook wizard - Confirm page](/img/product_docs/recoveryforactivedirectory/recoveryforactivedirectory/admin/forest/confirm.webp)
 
 **Step 11 –** The Confirm page displays a summary of the settings you provided on the pages of the
 wizard. Use the Back button to return to a previous page and change any setting. Click **Complete**
@@ -136,7 +136,7 @@ Repeat this process for all the domain controllers you wish to restore in the ta
 When you add another domain controller, it appears as a new tab added to the playbook. Click the tab
 representing a domain controller to view its details.
 
-![Recovery Playbook created on the Forest Page](../../../../../../static/img/product_docs/recoveryforactivedirectory/recoveryforactivedirectory/admin/forest/recoveryplaybook.webp)
+![Recovery Playbook created on the Forest Page](/img/product_docs/recoveryforactivedirectory/recoveryforactivedirectory/admin/forest/recoveryplaybook.webp)
 
 The following information is displayed for a domain controller in the playbook:
 
@@ -158,7 +158,7 @@ Your new forest is ready for you to log in using any Administrator credentials f
 
 Notice that the Forest page displays the operations performed during the restore process.
 
-![Forest page showing a restored forest](../../../../../../static/img/product_docs/recoveryforactivedirectory/recoveryforactivedirectory/admin/forest/forestrecovered.webp)
+![Forest page showing a restored forest](/img/product_docs/recoveryforactivedirectory/recoveryforactivedirectory/admin/forest/forestrecovered.webp)
 
 From here, you can proceed to restore additional domain controllers or promote new ones to the
 forest.

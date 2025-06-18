@@ -5,7 +5,7 @@ PCI DSS, mandate use of this control. Netwrix Change Tracker will monitor and al
 folder change – a new file appearing, such as a Trojan being added to the System 32 folder, or an
 application hack/modification will be detected and alerted.
 
-![ConfigTemplatesFIMFiles](../../../../../../../static/img/product_docs/changetracker/changetracker/admin/settings/policytemplates/configtemplatesfimfiles.webp)
+![ConfigTemplatesFIMFiles](/img/product_docs/changetracker/changetracker/admin/settings/policytemplates/configtemplatesfimfiles.webp)
 
 - **Polling Frequency** – The default setting is to run a full poll (effectively a new baseline
   operation) only when the Agent has been restarted e.g. after a reboot but the Agent may be run in
@@ -65,5 +65,5 @@ will still be identified as being a changed file.
 
 Exclusions are configured in a similar manner to the inclusive tracking above.
 
-**NOTE:** For Advanced Options: see [Appendix B](../../matchrules/filefolderrules.md) for more
+**NOTE:** For Advanced Options: see [Appendix B](/docs/changetracker/8.1/changetracker/admin/matchrules/filefolderrules.md) for more
 information.

@@ -36,12 +36,12 @@ On a high level, the add-on works as follows:
 - Using the Integration API, the add-on sends the activity events to the Auditor Server, which
   writes them to the **Long-Term Archive** and the **Audit Database**.
 
-See the [Integration API](../../api/overview.md) topic for additional information.
+See the [Integration API](/docs/auditor/10.7/auditor/api/overview.md) topic for additional information.
 
 ## Compatibility Notice
 
 Make sure to check your product version, and then review and update your add-ons and scripts
 leveraging the Integration API. Download the latest add-on version in the Add-on Store.
 
-See the [Integration API](../../api/overview.md) topic for additional information about schema
+See the [Integration API](/docs/auditor/10.7/auditor/api/overview.md) topic for additional information about schema
 updates.

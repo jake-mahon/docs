@@ -7,7 +7,7 @@ scheduled.
 
 _Remember,_ the credential permissions required for the scan and host lists are affected by the scan
 mode selected. See the
-[File System Scan Options](../../requirements/solutions/filesystem/scanoptions.md) topic for
+[File System Scan Options](/docs/accessanalyzer/12.0/requirements/solutions/filesystem/scanoptions.md) topic for
 additional information.
 
 Dependencies
@@ -35,7 +35,7 @@ containing all on-premise Nasuni Edge Appliances and cloud filers.
 
 If using multiple proxy servers, these should also be configured within a different custom-created
 host list. Then assign the proxy servers host list on the
-[FSAA: Applet Settings](../../admin/datacollector/fsaa/appletsettings.md) page of the File System
+[FSAA: Applet Settings](/docs/accessanalyzer/12.0/admin/datacollector/fsaa/appletsettings.md) page of the File System
 Access Auditor Data Collector Wizard within the following jobs in the 0.Collection Job Group
 according to the type of auditing being conducted:
 
@@ -48,7 +48,7 @@ necessary to target the Windows File Server Cluster (name of the cluster) of int
 scan against a Windows File System Cluster. Within the Access Analyzer Master Host Table, there
 should be a host entry for the cluster as well as for each node. Additionally, each of these host
 entries must have the name of the cluster in the WinCluster column in the host inventory data. This
-may need to be updated manually. See the [Host Inventory](../../admin/settings/hostinventory.md)
+may need to be updated manually. See the [Host Inventory](/docs/accessanalyzer/12.0/admin/settings/hostinventory.md)
 topic for additional information.
 
 **NOTE:** The host targeted by the File System scans is only the host entry for the cluster. For
@@ -76,8 +76,8 @@ Connection Profile
 
 The FSAA Data Collector requires permissions based on the platform being targeted for data
 collection as well as the scan mode selected. See the
-[File System Scan Options](../../requirements/solutions/filesystem/scanoptions.md) topic and the
-[File System Supported Platforms](../../requirements/target/filesystems.md) topic for necessary
+[File System Scan Options](/docs/accessanalyzer/12.0/requirements/solutions/filesystem/scanoptions.md) topic and the
+[File System Supported Platforms](/docs/accessanalyzer/12.0/requirements/target/filesystems.md) topic for necessary
 permissions for the supported target platforms. See the
 [Netwrix Activity Monitor Documentation](https://helpcenter.netwrix.com/category/activitymonitor)
 for the necessary permission for collecting activity data. Then create a custom Connection Profile
@@ -94,7 +94,7 @@ Connection Profile containing the **API Access Key** and **Passcode** for each o
 Edge Appliance and cloud filer in the target environment. Nasuni API key names are case sensitive.
 When providing them, ensure they are entered in the exact same case as generated.
 
-See the [Connection](../../admin/settings/connection/overview.md) topic for additional information.
+See the [Connection](/docs/accessanalyzer/12.0/admin/settings/connection/overview.md) topic for additional information.
 
 Schedule Frequency
 
@@ -122,10 +122,10 @@ only select sub-job groups are run.
 **_RECOMMENDED:_** If only conducting one or two types of auditing, scope the solution by disabling
 the undesired collection jobs. Disabling them allows the solution to run more efficiently. It is not
 recommended to delete any jobs. See the
-[Disable or Enable a Job](../../admin/jobs/job/disableenable.md) topic for additional information.
+[Disable or Enable a Job](/docs/accessanalyzer/12.0/admin/jobs/job/disableenable.md) topic for additional information.
 
 **NOTE:** If targeting Nasuni Edge Appliances, it is necessary to add the
-[0-FS_Nasuni Job](collection/0-fs_nasuni.md) to the **0.Collection** Job Group.
+[0-FS_Nasuni Job](/docs/accessanalyzer/12.0/solutions/filesystem/collection/0-fs_nasuni.md) to the **0.Collection** Job Group.
 
 Query Configuration
 
@@ -133,7 +133,7 @@ This solution can be run with the default query configuration. However, the most
 customizations include:
 
 - Use proxy scanning architecture, see the
-  [File System Data Collection Configuration for Proxy as a Service](../../install/filesystemproxy/configuredatacollector.md)
+  [File System Data Collection Configuration for Proxy as a Service](/docs/accessanalyzer/12.0/install/filesystemproxy/configuredatacollector.md)
   topic for instructions
 - Default Scoping Options page > File Properties tab, optionally configure the following:
 
@@ -174,8 +174,8 @@ customizations include:
 - Scan Server Selection page, set the type of mode the scans will run on
 
     - The mode configured must align with the provisioning of the credential and environment. See
-      the [File System Scan Options](../../requirements/solutions/filesystem/scanoptions.md) topic
-      and the [File System Supported Platforms](../../requirements/target/filesystems.md) topic for
+      the [File System Scan Options](/docs/accessanalyzer/12.0/requirements/solutions/filesystem/scanoptions.md) topic
+      and the [File System Supported Platforms](/docs/accessanalyzer/12.0/requirements/target/filesystems.md) topic for
       additional information.
     - Local Mode – All of the data collection processing is conducted by the Access Analyzer Console
       server across the network

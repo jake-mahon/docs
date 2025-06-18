@@ -3,7 +3,7 @@
 In addition to the **Email Alert**, **Migrate Document** and additional classification, the
 following actions are available for the **SharePoint** content source type:
 
-- [Migrate Document](../actions/migratedocument.md) including copy and move operations
+- [Migrate Document](/docs/dataclassification/5.7/ndc/admin/workflows/actions/migratedocument.md) including copy and move operations
 - Document property field (metadata) update, including:
 
     - **Send fixed value**, **send crawled value** — these actions apply new metadata value entered
@@ -36,4 +36,4 @@ To configure actions for SharePoint documents using the Advanced interface:
 3. In the Add Action dialog, select the action you need from the **SharePoint** section in the
    Action Type list.
 
-![action_advanced_sp_update_field_thumb_0_0](../../../../../../../static/img/product_docs/dataclassification/ndc/admin/workflows/advancedwindow/action_advanced_sp_update_field_thumb_0_0.webp)
+![action_advanced_sp_update_field_thumb_0_0](/img/product_docs/dataclassification/ndc/admin/workflows/advancedwindow/action_advanced_sp_update_field_thumb_0_0.webp)

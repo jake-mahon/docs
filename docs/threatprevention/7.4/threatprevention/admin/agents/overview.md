@@ -166,7 +166,7 @@ the configuration files, and restart the Agent.
 See the
 [Firewall Ports](/docs/threatprevention/7.4/threatprevention/requirements/ports.md) topic
 for default ports required for WMI communication. See the Microsoft
-[WMI Diagnosis Utility](<https://docs.microsoft.com/en-us/previous-versions/tn-archive/ff404265(v=msdn.10)?redirectedfrom=MSDN>)
+[WMI Diagnosis Utility](https://docs.microsoft.com/en-us/previous-versions/tn-archive/ff404265(v=msdn.10)?redirectedfrom=MSDN)
 article for additional information.
 
 ## Additional Agent Considerations

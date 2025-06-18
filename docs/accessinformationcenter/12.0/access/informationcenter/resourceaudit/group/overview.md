@@ -1,7 +1,7 @@
 # Group Reports
 
 Group reports are accessed through the Group Audit interface. You can access Group reports by
-searching for group objects on the Home page. See the [Search Features](../navigate/search.md) topic
+searching for group objects on the Home page. See the [Search Features](/docs/accessinformationcenter/12.0/access/informationcenter/resourceaudit/navigate/search.md) topic
 for additional information. The group object being reviewed is identified in the upper-left corner.
 The data within these reports is collected by the Access Analyzer solutions which provide data to
 the Resource reports. See the desired solution topics in the
@@ -28,5 +28,5 @@ Built-in group reports are opened through a search conducted for any of the foll
 - Account Operators
 
 **NOTE:** The Members report for a built-in group contains different information than the other
-group types. See the [Members Report for a Built-in Group](membersbuiltin.md) topic for additional
+group types. See the [Members Report for a Built-in Group](/docs/accessinformationcenter/12.0/access/informationcenter/resourceaudit/group/membersbuiltin.md) topic for additional
 information.

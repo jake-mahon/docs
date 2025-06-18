@@ -7,7 +7,7 @@ SQL Server where Access Analyzer stores data.
 
 The 4-SPSEEK Bulk Import Job uses the SharePoint Access Data Collector for the following query:
 
-![Query Selection](../../../../../../static/img/product_docs/accessanalyzer/solutions/sharepoint/collection/spseekbulkimportquery.webp)
+![Query Selection](/img/product_docs/accessanalyzer/solutions/sharepoint/collection/spseekbulkimportquery.webp)
 
 The query for the 4-SPSEEK Bulk Import Job is:
 
@@ -28,10 +28,10 @@ displays.
 
 **Step 3 –** Select the **Data Source** tab, and click **Configure**.
 
-![Bulk Import Settings](../../../../../../static/img/product_docs/accessanalyzer/admin/datacollector/spaa/bulkimportsettings.webp)
+![Bulk Import Settings](/img/product_docs/accessanalyzer/admin/datacollector/spaa/bulkimportsettings.webp)
 
 **Step 4 –** On the
-[SPAA: Bulk Import Settings](../../../admin/datacollector/spaa/bulkimportsettings.md) page, the
+[SPAA: Bulk Import Settings](/docs/accessanalyzer/12.0/admin/datacollector/spaa/bulkimportsettings.md) page, the
 **Set Host Identifier** is not configured by default. Click **Next**.
 
 **NOTE:** Unless SQL Server Replication is used, it should not be necessary to adjust the **Host
@@ -54,7 +54,7 @@ Navigate to the **Jobs** > **SharePoint** > **0.Collection** > **4-SPSEEK_BulkIm
 **CAUTION:** The analysis tasks are preconfigured for this job. Never modify or deselect the
 selected analysis tasks.
 
-![Analysis Selection](../../../../../../static/img/product_docs/accessanalyzer/solutions/sharepoint/collection/spseekbulkimportanalysis.webp)
+![Analysis Selection](/img/product_docs/accessanalyzer/solutions/sharepoint/collection/spseekbulkimportanalysis.webp)
 
 The default analysis tasks are:
 
