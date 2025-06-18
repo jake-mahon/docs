@@ -11,7 +11,7 @@ import path from 'path';
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
 /**
- * Dynamically discover products and versions from the docs directory structure
+ * Dynamically discover products and versions from the docs directory structure. Test prettier.
  */
 function discoverProducts() {
   const docsPath = path.join(__dirname, 'docs');
