@@ -1,12 +1,12 @@
 # Export Object Attachment Records
 
-When [Object](/docs/strongpointsalesforceflashlight/tools/export_objects.md), [Profile and Permission Set](/docs/strongpointsalesforceflashlight/tools/export_profiles.md) or
-[User](/docs/strongpointsalesforceflashlight/tools/export_profiles.md) information is exported, an **Export Object Attachment** Record is
+When [Object](/docs/platgovsalesforceflashlight/tools/export_objects.md), [Profile and Permission Set](/docs/platgovsalesforceflashlight/tools/export_profiles.md) or
+[User](/docs/platgovsalesforceflashlight/tools/export_profiles.md) information is exported, an **Export Object Attachment** Record is
 created for the export. When an export request is completed, you receive an email notification your
 export file is ready. The link in the notification opens the **Export Object Attachment** Record in
 Salesforce. Your download file is available under **Notes & Attachments**.
 
-![Example Export Object Attachment detail](/img/product_docs/strongpointsalesforceflashlight/tools/export_object_attach_record_800x226.webp)
+![Example Export Object Attachment detail](/img/product_docs/platgovsalesforceflashlight/tools/export_object_attach_record_800x226.webp)
 
 The export history is saved in Salesforce. You can view the list, or add the Export Object
 Attachments tabs to your menu bar.

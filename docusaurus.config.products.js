@@ -156,9 +156,9 @@ const productConfigs = {
     navLabel: 'StrongPoint NetSuite Flashlight',
   },
   strongpointsalesforceflashlight: {
-    id: 'strongpointsalesforceflashlight',
-    path: 'docs/strongpointsalesforceflashlight',
-    routeBasePath: 'docs/strongpointsalesforceflashlight',
+    id: 'platgovsalesforceflashlight',
+    path: 'docs/platgovsalesforceflashlight',
+    routeBasePath: 'docs/platgovsalesforceflashlight',
     sidebarPath: './sidebars/strongpointsalesforceflashlight.js',
     navLabel: 'StrongPoint Salesforce Flashlight',
   },

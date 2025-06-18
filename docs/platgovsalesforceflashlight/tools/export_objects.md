@@ -4,7 +4,7 @@ Administrators can use this to export one or more objects, including all child o
 single view for easy review and management. For each export, you select the settings and optional
 profiles and permission sets to include in the object details. The export is done in the background
 to avoid timing out or exceeding the Salesforce Governor Limits. You will receive an email with a
-link to the [Export Object Attachment](/docs/strongpointsalesforceflashlight/tools/export_object_attachment_records.md) record, where you can
+link to the [Export Object Attachment](/docs/platgovsalesforceflashlight/tools/export_object_attachment_records.md) record, where you can
 download your file.
 
 NOTE: Strongpoint stores Object-level permissions in a Custom Object. There are two reports
@@ -16,7 +16,7 @@ information:
 1. Open **Flashlight** > **Tools** > **Export Objects**  
    **Objects** is the default tab. **Profiles and Permission Sets** and **Users** exports are on
    their own
-   tabs.![export_object_800x500](/img/product_docs/strongpointsalesforceflashlight/tools/export_object_800x500.webp)
+   tabs.![export_object_800x500](/img/product_docs/platgovsalesforceflashlight/tools/export_object_800x500.webp)
 2. Scroll through the **Select Objects to be Exported**, or enter all or part of a name in
    **Filter** to filter the list.
 3. Select one or more objects in the scroll box. Use **Shift** or **Ctrl** to select multiple
@@ -26,9 +26,9 @@ information:
 5. Select the **Settings to be exported**.  
    ![export_object_settings](/img/product_docs/strongpointforsalesforce/tools/export_object_settings.webp)
 6. Optional: Select one or more profiles to be included for more security
-   information.![export_object_profiles_800x685](/img/product_docs/strongpointsalesforceflashlight/tools/export_object_profiles_800x685.webp)
+   information.![export_object_profiles_800x685](/img/product_docs/platgovsalesforceflashlight/tools/export_object_profiles_800x685.webp)
 7. Optional: Select one or more permission sets to be included for more security
-   information.![export_object_permissions_800x130](/img/product_docs/strongpointsalesforceflashlight/tools/export_object_permissions_800x130.webp)
+   information.![export_object_permissions_800x130](/img/product_docs/platgovsalesforceflashlight/tools/export_object_permissions_800x130.webp)
 8. **Click Download XLS** to export your selections. The file _ObjectExport.xls_ is created in your
    download folder.
 
@@ -46,4 +46,4 @@ objects, and lists of any selected optional Profiles and Permission Sets.
 ![export_object_summary](/img/product_docs/strongpointforsalesforce/tools/export_object_summary.webp)
 
 The **Object** tabs contain all of the requested information for each
-object.![export_object_object_tab_800x401](/img/product_docs/strongpointsalesforceflashlight/tools/export_object_object_tab_800x401.webp)
+object.![export_object_object_tab_800x401](/img/product_docs/platgovsalesforceflashlight/tools/export_object_object_tab_800x401.webp)

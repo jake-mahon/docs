@@ -718,9 +718,9 @@ const config = {
     [
       '@docusaurus/plugin-content-docs',
       {
-        id: 'strongpointsalesforceflashlight',
-        path: 'docs/strongpointsalesforceflashlight',
-        routeBasePath: 'docs/strongpointsalesforceflashlight',
+        id: 'platgovsalesforceflashlight',
+        path: 'docs/platgovsalesforceflashlight',
+        routeBasePath: 'docs/platgovsalesforceflashlight',
         sidebarPath: require.resolve('./sidebars/sidebar.js'),
         editUrl: 'https://github.com/netwrix/docs/tree/main/',
         exclude: ['**/CLAUDE.md'],
@@ -890,7 +890,7 @@ const config = {
               },
               {
                 label: 'StrongPoint Salesforce Flashlight',
-                to: '/docs/strongpointsalesforceflashlight',
+                to: '/docs/platgovsalesforceflashlight',
               },
               {
                 label: 'Data Classification - 5.7',

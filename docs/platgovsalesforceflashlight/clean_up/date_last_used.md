@@ -53,7 +53,7 @@ Usage data fields:
   Setting the DLU Expiration. | Older than set time period | Populated | If Field History Tracking
   is enabled for a CustomField with a **DLU Status** of either **Recent** or **Expired**, the status
   is changed to **Pending**. Here is an example:  
-  ![Example of the DLU status fields for a CustomField](/img/product_docs/strongpointsalesforceflashlight/clean_up/dlu_status_example_customfield_800x294.webp)
+  ![Example of the DLU status fields for a CustomField](/img/product_docs/platgovsalesforceflashlight/clean_up/dlu_status_example_customfield_800x294.webp)
 
 ### Notes
 
@@ -169,7 +169,7 @@ DLU is not used for the following metadata Extended Types:
 
 ## DLU Scheduler
 
-The [Scheduler](/docs/strongpointsalesforceflashlight/getting_started/scheduler.md) is where you can add frequency, day and time for
+The [Scheduler](/docs/platgovsalesforceflashlight/getting_started/scheduler.md) is where you can add frequency, day and time for
 processes to run. Under **Field Usage and DLU**, you can set up the scheduler to update the last
 used date field on customizations with the date the metadata was last used. It populates information
 for field usage on custom fields and custom objects and catch any permission set assignments related

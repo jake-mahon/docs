@@ -5,12 +5,12 @@ Exports user information to an XLS file.
 Administrators can use this tool to export all user information into a single view for easy review
 and management. The export is done in the background to avoid timing out or exceeding the Salesforce
 Governor Limits. You receive an email with a link to the
-[Export Object Attachment](/docs/strongpointsalesforceflashlight/tools/export_object_attachment_records.md) record, where you can download your
+[Export Object Attachment](/docs/platgovsalesforceflashlight/tools/export_object_attachment_records.md) record, where you can download your
 file.
 
 1. Open **Flashlight** > **Tools** > **Export Objects**
 2. Open the **Users**
-   tab.![export_users_800x397](/img/product_docs/strongpointsalesforceflashlight/tools/export_users_800x397.webp)
+   tab.![export_users_800x397](/img/product_docs/platgovsalesforceflashlight/tools/export_users_800x397.webp)
 3. Scroll through the **Select User to be Exported** or enter all of part .of a user name in the
    **Filter** field.
 4. Select one or more objects in the scroll box. Use **Shift** or **Ctrl** to select multiple
@@ -32,7 +32,7 @@ The _UserExport.xls_ file contains a **Summary** tab and a separate tab for each
 
 The **Summary** tab shows who created the export, the creation date and time, and the list of
 selected
-users.![export_users_summary_800x252](/img/product_docs/strongpointsalesforceflashlight/tools/export_users_summary_800x252.webp)
+users.![export_users_summary_800x252](/img/product_docs/platgovsalesforceflashlight/tools/export_users_summary_800x252.webp)
 
 The **User** tabs contain all of the requested information for each exported
-user.![export_users_user_800x675](/img/product_docs/strongpointsalesforceflashlight/tools/export_users_user_800x675.webp)
+user.![export_users_user_800x675](/img/product_docs/platgovsalesforceflashlight/tools/export_users_user_800x675.webp)

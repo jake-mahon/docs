@@ -24,6 +24,6 @@ To run the scanner:
 If you are missing objects, you can run a scan on a **Customization** from the open record by
 clicking **Rescan**.
 
-![rescan_example_800x289](/img/product_docs/strongpointsalesforceflashlight/tools/rescan_example_800x289.webp)
+![rescan_example_800x289](/img/product_docs/platgovsalesforceflashlight/tools/rescan_example_800x289.webp)
 
-**Next Step:**[Validating the Data ](/docs/strongpointsalesforceflashlight/tools/validating_data.md)
+**Next Step:**[Validating the Data ](/docs/platgovsalesforceflashlight/tools/validating_data.md)

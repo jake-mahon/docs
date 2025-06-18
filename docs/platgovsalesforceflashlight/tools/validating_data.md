@@ -11,7 +11,7 @@ PDF.
 
 Open **Flashlight**> **Support** > **Status Report.**
 
-![statusreport_800x419](/img/product_docs/strongpointsalesforceflashlight/tools/statusreport_800x419.webp)
+![statusreport_800x419](/img/product_docs/platgovsalesforceflashlight/tools/statusreport_800x419.webp)
 
 ## Strongpoint Dependency Relationship Diagram
 
@@ -24,7 +24,7 @@ To validate data with the DRD:
 2. Select an **Object** from the pull-down menu.
 3. Click on a field and validate the data.
 
-![entity_diagram_800x309](/img/product_docs/strongpointsalesforceflashlight/tools/entity_diagram_800x309.webp)
+![entity_diagram_800x309](/img/product_docs/platgovsalesforceflashlight/tools/entity_diagram_800x309.webp)
 
 ## Strongpoint Customization Quick Search
 
@@ -37,4 +37,4 @@ To validate data with the Customization Quick Search:
 2. Scroll, **Search** or add **Filter(s)** to locate the customization.
 3. Click on the **Customization** and validate the data.
 
-![custquicksearch_800x200](/img/product_docs/strongpointsalesforceflashlight/tools/custquicksearch_800x200.webp)
+![custquicksearch_800x200](/img/product_docs/platgovsalesforceflashlight/tools/custquicksearch_800x200.webp)

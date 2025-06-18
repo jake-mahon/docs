@@ -12,9 +12,9 @@ Strongpoint:
 2. Log in to Salesforce when prompted.
 3. Select **Install for Admins Only**
 4. Click **Install**
-   ![Install Flashlight by Strongpoint](/img/product_docs/strongpointsalesforceflashlight/getting_started/install_flashlight1_800x399.webp)
+   ![Install Flashlight by Strongpoint](/img/product_docs/platgovsalesforceflashlight/getting_started/install_flashlight1_800x399.webp)
 
 NOTE: Strongpoint installs in the background. An email notification is sent to you when the
 installation is complete.
 
-**Next Step:** [Using the Getting Started Wizard](/docs/strongpointsalesforceflashlight/getting_started/using_getting_started_wizard.md)
+**Next Step:** [Using the Getting Started Wizard](/docs/platgovsalesforceflashlight/getting_started/using_getting_started_wizard.md)

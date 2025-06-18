@@ -17,5 +17,5 @@ The Flashlight **Tools** tab accesses:
 > manage reports.
 
 In addition to the menu items, this section contains information fpr
-[Accessing Reports](/docs/strongpointsalesforceflashlight/tools/reports_overview.md) from the **Reports / List Views** tab, and an example of
-how to [validate your data](/docs/strongpointsalesforceflashlight/tools/validating_data.md).
+[Accessing Reports](/docs/platgovsalesforceflashlight/tools/reports_overview.md) from the **Reports / List Views** tab, and an example of
+how to [validate your data](/docs/platgovsalesforceflashlight/tools/validating_data.md).

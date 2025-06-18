@@ -230,9 +230,9 @@ const ProductCategories = [
         link: '/docs/strongpointnetsuiteflashlight',
       },
       {
-        name: 'StrongPoint Salesforce Flashlight',
+        name: 'Platform Governance for Salesforce Flashlight',
         description: 'Lightweight Salesforce documentation and analysis',
-        link: '/docs/strongpointsalesforceflashlight',
+        link: '/docs/platgovsalesforceflashlight',
       },
     ],
   },

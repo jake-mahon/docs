@@ -21,7 +21,7 @@ The report is divided into these sections:
 
 This section displays the current status of the scanners. You can click to manually **Start** a
 scanner or to **Stop** a running Scanner.
-![Configuration and Stats - Scanner Status](/img/product_docs/strongpointsalesforceflashlight/getting_started/config_scanner_status_800x354.webp)
+![Configuration and Stats - Scanner Status](/img/product_docs/platgovsalesforceflashlight/getting_started/config_scanner_status_800x354.webp)
 
 ## Documentation Stats
 
@@ -31,7 +31,7 @@ Strongpoint has created to track the relationships between customizations. **Joi
 critical relationship information to help you determine if it is safe to delete or change something,
 and how it affects other items.
 
-![Configuration and Stats - Documentation Stats](/img/product_docs/strongpointsalesforceflashlight/getting_started/config_doc_stats_800x325.webp)
+![Configuration and Stats - Documentation Stats](/img/product_docs/platgovsalesforceflashlight/getting_started/config_doc_stats_800x325.webp)
 
 ## Scanner Logs
 
@@ -46,7 +46,7 @@ The section displays details for each of the scanner logs:
   is running. When the scan is complete, the column matches the total **Scanner Count**.
 - **Scanner Count**
 
-![Configuration and Stats - Scanner Logs](/img/product_docs/strongpointsalesforceflashlight/getting_started/config_scanner_logs_800x208.webp)
+![Configuration and Stats - Scanner Logs](/img/product_docs/platgovsalesforceflashlight/getting_started/config_scanner_logs_800x208.webp)
 
 ## Scanner Additional Information
 
@@ -56,4 +56,4 @@ This section displays each scanner function and the status:
 - Last Automated Scanner Run Date
 - Last Scanner Run Status
 
-![Configuration and Stas - Scanner Additional Information](/img/product_docs/strongpointsalesforceflashlight/getting_started/config_scan_add_info_800x127.webp)
+![Configuration and Stas - Scanner Additional Information](/img/product_docs/platgovsalesforceflashlight/getting_started/config_scan_add_info_800x127.webp)

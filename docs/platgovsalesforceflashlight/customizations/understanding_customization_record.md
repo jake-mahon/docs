@@ -23,7 +23,7 @@ Customization record fields include:
 - **Details**: Tabs to access details about the customization. Tabs include **Metadata**,
   **Improvement**, **Permissions**, **Control**, **DRD**, **Raw Data** and **Related Lists**.
 
-![customization_record_800x315](/img/product_docs/strongpointsalesforceflashlight/customizations/customization_record_800x315.webp)
+![customization_record_800x315](/img/product_docs/platgovsalesforceflashlight/customizations/customization_record_800x315.webp)
 
 ## Customization Record Tabs
 
@@ -46,7 +46,7 @@ These are the tabs inside a customization record:
 The metadata tab provides the metadata information about the customization, including:
 
 - **Date Last Used**: date the customization was last used. Refer to
-  [DLU](/docs/strongpointsalesforceflashlight/clean_up/date_last_used.md) for more information.
+  [DLU](/docs/platgovsalesforceflashlight/clean_up/date_last_used.md) for more information.
 - **Data type**: data type of the custom field.
 - **Last Modified Date**: last date the customization was modified.
 - **Active**: indicates whether the customization is a active.
@@ -104,7 +104,7 @@ on a financial report.
 
 ### DRD
 
-Dependency Relationship Diagram ([DRD](/docs/strongpointsalesforceflashlight/tools/viewing_drd.md)) displays objects, customizations
+Dependency Relationship Diagram ([DRD](/docs/platgovsalesforceflashlight/tools/viewing_drd.md)) displays objects, customizations
 and their relationships and dependencies.
 
 ### Raw Data

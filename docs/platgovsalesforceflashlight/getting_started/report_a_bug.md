@@ -7,4 +7,4 @@ Follow these simple steps to provide feedback:
 1. Open **Flashlight** > **Support** > **Report a Bug**
 2. Complete the form and our support team will contact you.
 
-![Report a Bug](/img/product_docs/strongpointsalesforceflashlight/getting_started/report_bug_800x399.webp)
+![Report a Bug](/img/product_docs/platgovsalesforceflashlight/getting_started/report_bug_800x399.webp)
