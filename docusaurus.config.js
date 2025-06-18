@@ -388,9 +388,9 @@ const config = {
     [
       '@docusaurus/plugin-content-docs',
       {
-        id: 'groupid11_1',
-        path: 'docs/groupid/11.1',
-        routeBasePath: 'docs/groupid/11.1',
+        id: 'directorymanager11_1',
+        path: 'docs/directorymanager/11.1',
+        routeBasePath: 'docs/directorymanager/11.1',
         sidebarPath: require.resolve('./sidebars/sidebar.js'),
         editUrl: 'https://github.com/netwrix/docs/tree/main/',
         exclude: ['**/CLAUDE.md'],
@@ -404,9 +404,9 @@ const config = {
     [
       '@docusaurus/plugin-content-docs',
       {
-        id: 'groupid11_0',
-        path: 'docs/groupid/11.0',
-        routeBasePath: 'docs/groupid/11.0',
+        id: 'directorymanager11_0',
+        path: 'docs/directorymanager/11.0',
+        routeBasePath: 'docs/directorymanager/11.0',
         sidebarPath: require.resolve('./sidebars/sidebar.js'),
         editUrl: 'https://github.com/netwrix/docs/tree/main/',
         exclude: ['**/CLAUDE.md'],
@@ -822,12 +822,12 @@ const config = {
                 to: '/docs/accessinformationcenter/11.6',
               },
               {
-                label: 'Group ID - 11.1',
-                to: '/docs/groupid/11.1',
+                label: 'Directory Manager - 11.1',
+                to: '/docs/directorymanager/11.1',
               },
               {
-                label: 'Group ID - 11.0',
-                to: '/docs/groupid/11.0',
+                label: 'Directory Manager - 11.0',
+                to: '/docs/directorymanager/11.0',
               },
               {
                 label: 'Password Policy Enforcer - 11.0',

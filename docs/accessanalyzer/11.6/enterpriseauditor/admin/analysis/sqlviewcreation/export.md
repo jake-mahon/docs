@@ -2,7 +2,7 @@
 
 Use the Export settings page to specify data export settings.
 
-![View and Table Creation Analysis Module wizard Export page](/img/versioned_docs/groupid_11.0/groupid/portal/export.webp)
+![View and Table Creation Analysis Module wizard Export page](/img/versioned_docs/directorymanager_11.0/directorymanager/portal/export.webp)
 
 Select the **Export results data** checkbox to enable the settings. The following options control
 the file type and destination of the exported data:

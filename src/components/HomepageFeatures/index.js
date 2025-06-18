@@ -58,9 +58,9 @@ const ProductCategories = [
         link: '/docs/identitymanager/saas',
       },
       {
-        name: 'GroupID',
+        name: 'Directory Manager',
         description: 'Active Directory group management',
-        link: '/docs/groupid',
+        link: '/docs/directorymanager',
       },
       {
         name: 'StrongPoint',
@@ -102,9 +102,9 @@ const ProductCategories = [
         link: '/docs/auditor',
       },
       {
-        name: 'GroupID',
+        name: 'Directory Manager',
         description: 'Active Directory group management',
-        link: '/docs/groupid',
+        link: '/docs/directorymanager',
       },
       {
         name: 'Password Policy Enforcer',

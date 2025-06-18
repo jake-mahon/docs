@@ -25,7 +25,7 @@ preconfigured action steps.
 
 The Send Email action sends an email.
 
-![sendemail](/img/product_docs/groupid/groupid/portal/sendemail.webp)
+![sendemail](/img/product_docs/directorymanager/directorymanager/portal/sendemail.webp)
 
 - Subject – The subject of the email
 - To – Specify the email addresses receiving the email

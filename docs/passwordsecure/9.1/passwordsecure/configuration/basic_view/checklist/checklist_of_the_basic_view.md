@@ -27,7 +27,7 @@ You can either define the user directly as Basic view user. This works by changi
 accordingly. Alternatively, you can activate the setting **Start Basic view at next login.** This
 will prompt the user to log in to the Basic view.
 
-![image2](/img/versioned_docs/groupid_11.0/groupid/admincenter/portal/linkedcombo/image2.webp)
+![image2](/img/versioned_docs/directorymanager_11.0/directorymanager/admincenter/portal/linkedcombo/image2.webp)
 
 5. Add default applications (optional)
 

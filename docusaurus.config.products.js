@@ -86,9 +86,9 @@ const productConfigs = {
     navLabel: 'Endpoint Protector',
   },
   groupid: {
-    id: 'groupid',
-    path: 'docs/groupid',
-    routeBasePath: 'docs/groupid',
+    id: 'directorymanager',
+    path: 'docs/directorymanager',
+    routeBasePath: 'docs/directorymanager',
     sidebarPath: './sidebars/groupid.js',
     navLabel: 'Group ID',
   },

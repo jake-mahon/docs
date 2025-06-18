@@ -131,7 +131,7 @@ The data grids provide an option to export data.
 
 **NOTE:** Ensure that all desired filters are set on the data grid before export.
 
-![Export window](/img/versioned_docs/groupid_11.0/groupid/portal/export.webp)
+![Export window](/img/versioned_docs/directorymanager_11.0/directorymanager/portal/export.webp)
 
 The Export window provides options for what is exported and what action(s) to take.
 

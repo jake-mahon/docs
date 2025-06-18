@@ -34,7 +34,7 @@ Follow the steps to activate an account:
 
 The Change Your Password page is displayed.
 
-![Change Your Password page](/img/product_docs/groupid/groupid/admincenter/general/changepassword.webp)
+![Change Your Password page](/img/product_docs/directorymanager/directorymanager/admincenter/general/changepassword.webp)
 
 **Step 2 –** In the **New password** field, enter a password to set for your account.
 
@@ -104,7 +104,7 @@ click **Continue**. The Enter Your Password page is displayed.
 
 **Step 4 –** Click the **Forgot password** link. The Change Your Password page is displayed.
 
-![Change Your Password page](/img/product_docs/groupid/groupid/admincenter/general/changepassword.webp)
+![Change Your Password page](/img/product_docs/directorymanager/directorymanager/admincenter/general/changepassword.webp)
 
 **Step 5 –** In the **New password** field, enter a password to set for your account.
 
