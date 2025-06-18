@@ -62,7 +62,7 @@ the “One or more resources selected have not been scanned” error occurs. The
 will not allow the review to be created until those resources have been removed or the option
 unchecked.
 
-![Edit Review wizard Resources page](/img/product_docs/strongpointnetsuiteflashlight/getting_started/resources.webp)
+![Edit Review wizard Resources page](/img/product_docs/platgovnetsuiteflashlight/getting_started/resources.webp)
 
 **Step 5 –** On the Resources page, modify the list of resources to be included in the review.
 

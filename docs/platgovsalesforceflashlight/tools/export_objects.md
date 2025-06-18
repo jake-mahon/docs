@@ -24,7 +24,7 @@ information:
 4. Click the right arrow to move the items to the **Selected Objects** list. To remove an item from
    the **Selected Objects** list, select it and click the left arrow.
 5. Select the **Settings to be exported**.  
-   ![export_object_settings](/img/product_docs/strongpointforsalesforce/tools/export_object_settings.webp)
+   ![export_object_settings](/img/product_docs/platgforsalesforce/tools/export_object_settings.webp)
 6. Optional: Select one or more profiles to be included for more security
    information.![export_object_profiles_800x685](/img/product_docs/platgovsalesforceflashlight/tools/export_object_profiles_800x685.webp)
 7. Optional: Select one or more permission sets to be included for more security
@@ -37,13 +37,13 @@ information:
 When you open an exported file, this message may be displayed, as the exported _ObjectExport.xls_
 file is in XML instead of the Excel format. Click **Yes** to load the file.
 
-![Excel error message - Click Yes to continue.](/img/product_docs/strongpointforsalesforce/tools/export_excel_error_msg.webp)
+![Excel error message - Click Yes to continue.](/img/product_docs/platgforsalesforce/tools/export_excel_error_msg.webp)
 
 The _ObjectExport.xls_ file contains a **Summary** tab and a separate tab for each selected object.
 
 The **Summary** tab shows who created the export, the creation date and time, list of selected
 objects, and lists of any selected optional Profiles and Permission Sets.  
-![export_object_summary](/img/product_docs/strongpointforsalesforce/tools/export_object_summary.webp)
+![export_object_summary](/img/product_docs/platgforsalesforce/tools/export_object_summary.webp)
 
 The **Object** tabs contain all of the requested information for each
 object.![export_object_object_tab_800x401](/img/product_docs/platgovsalesforceflashlight/tools/export_object_object_tab_800x401.webp)

@@ -22,7 +22,7 @@ Attachments tabs to your menu bar.
 1. Click the **+** in the menu bar to open the **All Tabs** list (Salesforce Classic).
 2. Select **Export Object Attachments**.
 
-![Export Object Attachments list](/img/product_docs/strongpointforsalesforce/tools/export_object_attach_record_list.webp)
+![Export Object Attachments list](/img/product_docs/platgforsalesforce/tools/export_object_attach_record_list.webp)
 
 ### Add the **Export Object Attachments** Tab
 
@@ -30,7 +30,7 @@ Attachments tabs to your menu bar.
 2. Click **Customize My Tabs**
 3. Select **Export Object Attachments** from the **Available Tabs** and add it to the **Selected
    Tabs**.  
-   ![Add Export Object Attachments to your menu bar in Classic view](/img/product_docs/strongpointforsalesforce/tools/export_object_attach_record_tab_classic.webp)
+   ![Add Export Object Attachments to your menu bar in Classic view](/img/product_docs/platgforsalesforce/tools/export_object_attach_record_tab_classic.webp)
 4. Click **Save**.
 
 ## Salesforce Lightning
@@ -45,5 +45,5 @@ Enter **Export Object Attachments** in the **Search Salesforce** entry box on th
 2. Locate **Strongpoint** in the list. From the pull down menu on the right, select **Edit**.
 3. Select **Export Object Attachments** from the **Available Tabs** and add it to the **Selected
    Tabs**.  
-   ![Add Export Object Attachments tab to your menu bar in Lightning](/img/product_docs/strongpointforsalesforce/tools/export_object_attach_record_tab_lightning.webp)
+   ![Add Export Object Attachments tab to your menu bar in Lightning](/img/product_docs/platgforsalesforce/tools/export_object_attach_record_tab_lightning.webp)
 4. Click **Save**.

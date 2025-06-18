@@ -75,11 +75,11 @@ has been disabled. To change the time period:
 1. Open **Setup**
 2. Expand **Custom Code**
 3. Select **Custom Metadata Types**  
-   ![Open Custom Metadata Types](/img/product_docs/strongpointforsalesforce/clean_up/custom_metadata_types.webp)
+   ![Open Custom Metadata Types](/img/product_docs/platgforsalesforce/clean_up/custom_metadata_types.webp)
 4. Click **Manage Records** by **Strongpoint DLU Parameter**.  
-   ![Click Manage Records to open the record](/img/product_docs/strongpointforsalesforce/clean_up/custom_metadata_types_dlu_exp.webp)
+   ![Click Manage Records to open the record](/img/product_docs/platgforsalesforce/clean_up/custom_metadata_types_dlu_exp.webp)
 5. Click **Edit** by **DLU Expiration**.  
-   ![Edit the parameters](/img/product_docs/strongpointforsalesforce/clean_up/custom_metadata_types_dlu_para.webp)
+   ![Edit the parameters](/img/product_docs/platgforsalesforce/clean_up/custom_metadata_types_dlu_para.webp)
 6. Set the **DLU Expiration (Months)**. The default is three.
 7. Click **Save**.
 
@@ -175,7 +175,7 @@ used date field on customizations with the date the metadata was last used. It p
 for field usage on custom fields and custom objects and catch any permission set assignments related
 to users.
 
-![scheduler](/img/product_docs/strongpointforsalesforce/clean_up/scheduler.webp)
+![scheduler](/img/product_docs/platgforsalesforce/clean_up/scheduler.webp)
 
 Once the scheduler has been set up, you can view the DLU under the **Metadata** tab on the
 customization record.

@@ -201,7 +201,7 @@ Access Analyzer can now schedule tasks with this Scheduled Service Account.
 
 Follow the steps to delete a Schedule Service Account.
 
-![Delete option in the Schedule view](/img/product_docs/strongpointfornetsuite/integrations/delete.webp)
+![Delete option in the Schedule view](/img/product_docs/platgfornetsuite/integrations/delete.webp)
 
 **Step 1 –** Select the credential from the User Credentials list and click **Delete**. The Delete
 Credentials confirmation window appears.

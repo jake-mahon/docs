@@ -139,6 +139,6 @@ The options in the Button Bar are:
 | ![cut](/img/product_docs/accessanalyzer/admin/navigate/cut.webp)                           | Scissors                    | Cut the selected query to the clipboard (Ctrl + X)  |
 | ![copy](/img/product_docs/accessanalyzer/admin/navigate/copy.webp)                         | Duplicate papers            | Copy the selected query to the clipboard (Ctrl + C) |
 | ![paste](/img/product_docs/accessanalyzer/admin/navigate/paste.webp)                       | Clipboard with paper        | Paste the query from the clipboard (Ctrl + V)       |
-| ![delete](/img/product_docs/strongpointfornetsuite/integrations/delete.webp)                                 | Red X                       | Delete the selected query                           |
+| ![delete](/img/product_docs/platgfornetsuite/integrations/delete.webp)                                 | Red X                       | Delete the selected query                           |
 
 Select a button for the desired action.

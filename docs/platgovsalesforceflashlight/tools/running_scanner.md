@@ -15,7 +15,7 @@ To run the scanner:
 2. Optional: You can enter all of part of a **Type** in **Search Types** to filter the list.
 3. You can select several types to scan or you can scan the whole environment by clicking the **+**
    by **Name** to select all the types.
-   ![scanner](/img/product_docs/strongpointforsalesforce/installing_strongpoint/scanner.webp)4.
+   ![scanner](/img/product_docs/platgforsalesforce/installing_strongpoint/scanner.webp)4.
    Click **Run Scanner**.
 4. The batch runs in the background. You receive an email notification when the scan is complete.
 5. You can open **Flashlight** > **Support** > **Status Report** to view the **Flashlight

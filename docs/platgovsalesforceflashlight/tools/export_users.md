@@ -18,7 +18,7 @@ file.
 5. Click the right arrow to move the items to the **Selected Users** list. To remove an item from
    the **Selected Users** list, select it and click the left arrow.
 6. Select the **Settings to be exported**.  
-   ![export_users_settings](/img/product_docs/strongpointforsalesforce/tools/export_users_settings.webp)
+   ![export_users_settings](/img/product_docs/platgforsalesforce/tools/export_users_settings.webp)
 7. Click **Download XLS**. The file _UserExport.xls_ is created.
 
 #### UserExport.xls File
@@ -26,7 +26,7 @@ file.
 When you open an exported file, this message may be displayed, as the exported _UserExport.xls_ file
 is in XML instead of the Excel format. Click **Yes** to load the file.
 
-![Excel error message - Click Yes to continue.](/img/product_docs/strongpointforsalesforce/tools/export_excel_error_msg.webp)
+![Excel error message - Click Yes to continue.](/img/product_docs/platgforsalesforce/tools/export_excel_error_msg.webp)
 
 The _UserExport.xls_ file contains a **Summary** tab and a separate tab for each selected user.
 

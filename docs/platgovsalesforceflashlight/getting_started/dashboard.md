@@ -30,13 +30,13 @@ for the 10 New Analytics Customizations:
 
 Links to key resources to help you learn to use Flashlight.
 
-![Resources](/img/product_docs/strongpointnetsuiteflashlight/getting_started/resources.webp)
+![Resources](/img/product_docs/platgovnetsuiteflashlight/getting_started/resources.webp)
 
 ## Key Tools
 
 Links to useful Flashlight tools to give you more value out of your documentation.
 
-![Key Tools](/img/product_docs/strongpointnetsuiteflashlight/getting_started/key_tools.webp)
+![Key Tools](/img/product_docs/platgovnetsuiteflashlight/getting_started/key_tools.webp)
 
 - **DRD**: Explore your customizations with Flashlight’s visual DRD and understand how
   customizations relate to each other.

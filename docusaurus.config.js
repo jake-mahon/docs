@@ -649,13 +649,13 @@ const config = {
         },
       },
     ],
-    // PolicyPak (no versions)
+    // Endpoint Policy Manager (no versions)
     [
       '@docusaurus/plugin-content-docs',
       {
-        id: 'policypak',
-        path: 'docs/policypak',
-        routeBasePath: 'docs/policypak',
+        id: 'endpointpolicymanager',
+        path: 'docs/endpointpolicymanager',
+        routeBasePath: 'docs/endpointpolicymanager',
         sidebarPath: require.resolve('./sidebars/sidebar.js'),
         editUrl: 'https://github.com/netwrix/docs/tree/main/',
         exclude: ['**/CLAUDE.md'],
@@ -666,29 +666,13 @@ const config = {
         },
       },
     ],
-    // StrongPoint products (no versions)
+    // Platform Governance products (no versions)
     [
       '@docusaurus/plugin-content-docs',
       {
-        id: 'strongpointfornetsuite',
-        path: 'docs/strongpointfornetsuite',
-        routeBasePath: 'docs/strongpointfornetsuite',
-        sidebarPath: require.resolve('./sidebars/sidebar.js'),
-        editUrl: 'https://github.com/netwrix/docs/tree/main/',
-        exclude: ['**/CLAUDE.md'],
-        versions: {
-          'current': {
-            label: 'Current',
-          },
-        },
-      },
-    ],
-    [
-      '@docusaurus/plugin-content-docs',
-      {
-        id: 'strongpointforsalesforce',
-        path: 'docs/strongpointforsalesforce',
-        routeBasePath: 'docs/strongpointforsalesforce',
+        id: 'platgfornetsuite',
+        path: 'docs/platgfornetsuite',
+        routeBasePath: 'docs/platgfornetsuite',
         sidebarPath: require.resolve('./sidebars/sidebar.js'),
         editUrl: 'https://github.com/netwrix/docs/tree/main/',
         exclude: ['**/CLAUDE.md'],
@@ -702,9 +686,25 @@ const config = {
     [
       '@docusaurus/plugin-content-docs',
       {
-        id: 'strongpointnetsuiteflashlight',
-        path: 'docs/strongpointnetsuiteflashlight',
-        routeBasePath: 'docs/strongpointnetsuiteflashlight',
+        id: 'platgforsalesforce',
+        path: 'docs/platgforsalesforce',
+        routeBasePath: 'docs/platgforsalesforce',
+        sidebarPath: require.resolve('./sidebars/sidebar.js'),
+        editUrl: 'https://github.com/netwrix/docs/tree/main/',
+        exclude: ['**/CLAUDE.md'],
+        versions: {
+          'current': {
+            label: 'Current',
+          },
+        },
+      },
+    ],
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'platgovnetsuiteflashlight',
+        path: 'docs/platgovnetsuiteflashlight',
+        routeBasePath: 'docs/platgovnetsuiteflashlight',
         sidebarPath: require.resolve('./sidebars/sidebar.js'),
         editUrl: 'https://github.com/netwrix/docs/tree/main/',
         exclude: ['**/CLAUDE.md'],
@@ -877,19 +877,19 @@ const config = {
                 to: '/docs/changetracker/8.0',
               },
               {
-                label: 'StrongPoint for NetSuite',
-                to: '/docs/strongpointfornetsuite',
+                label: 'Platform Governance for NetSuite',
+                to: '/docs/platgfornetsuite',
               },
               {
-                label: 'StrongPoint for Salesforce',
-                to: '/docs/strongpointforsalesforce',
+                label: 'Platform Governance for Salesforce',
+                to: '/docs/platgforsalesforce',
               },
               {
-                label: 'StrongPoint NetSuite Flashlight',
-                to: '/docs/strongpointnetsuiteflashlight',
+                label: 'Platform Governance for NetSuite Flashlight',
+                to: '/docs/platgovnetsuiteflashlight',
               },
               {
-                label: 'StrongPoint Salesforce Flashlight',
+                label: 'Platform Governance for Salesforce Flashlight',
                 to: '/docs/platgovsalesforceflashlight',
               },
               {
@@ -920,8 +920,8 @@ const config = {
                 to: '/docs/endpointprotector/5.9.4',
               },
               {
-                label: 'PolicyPak',
-                to: '/docs/policypak',
+                label: 'Endpoint Policy Manager',
+                to: '/docs/endpointpolicymanager',
               },
               {
                 label: 'Threat Prevention - 7.5',

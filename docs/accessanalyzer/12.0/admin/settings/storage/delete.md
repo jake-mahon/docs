@@ -5,7 +5,7 @@ Follow the steps to delete a Storage Profile.
 **NOTE:** This procedure does not delete databases from the SQL Server. It only removes the selected
 Storage Profile from this Access Analyzer Console.
 
-![Delete Storage Profile option](/img/product_docs/strongpointfornetsuite/integrations/delete.webp)
+![Delete Storage Profile option](/img/product_docs/platgfornetsuite/integrations/delete.webp)
 
 **Step 1 –** Select the Storage Profile to be removed, and click **Delete**.
 
