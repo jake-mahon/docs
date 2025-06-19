@@ -33,7 +33,6 @@ const sidebars = {
           label: 'Virtualization Platforms',
           collapsed: true,
           items: [
-            'installation/virtualization-platforms/index',
             'installation/virtualization-platforms/vmware',
             'installation/virtualization-platforms/hyper-v',
             'installation/virtualization-platforms/citrix-xenserver',
@@ -57,7 +56,6 @@ const sidebars = {
       label: 'Core Features',
       collapsed: true,
       items: [
-        'core-features/index',
         {
           type: 'category',
           label: 'Device Control',
@@ -125,7 +123,6 @@ const sidebars = {
       label: 'Security and Access',
       collapsed: true,
       items: [
-        'security-and-access/index',
         'security-and-access/directory-services',
         {
           type: 'category',
@@ -155,11 +152,7 @@ const sidebars = {
       type: 'category',
       label: 'Monitoring and Reporting',
       collapsed: true,
-      items: [
-        'monitoring-and-reporting/index',
-        'monitoring-and-reporting/alerts',
-        'monitoring-and-reporting/reports-and-analysis',
-      ],
+      items: ['monitoring-and-reporting/alerts', 'monitoring-and-reporting/reports-and-analysis'],
     },
     {
       type: 'category',
@@ -184,7 +177,6 @@ const sidebars = {
           label: 'Cloud Platforms',
           collapsed: true,
           items: [
-            'deployment-scenarios/cloud-platforms/index',
             {
               type: 'category',
               label: 'AWS',
@@ -223,7 +215,7 @@ const sidebars = {
       type: 'category',
       label: 'Reference',
       collapsed: true,
-      items: ['reference/index', 'reference/support', 'reference/appliance-management'],
+      items: ['reference/support', 'reference/appliance-management'],
     },
   ],
 };

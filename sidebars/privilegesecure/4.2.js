@@ -24,7 +24,6 @@ const sidebars = {
       label: 'Installation',
       collapsed: true,
       items: [
-        'installation/index',
         {
           type: 'category',
           label: 'System Requirements',
@@ -119,7 +118,6 @@ const sidebars = {
           label: 'Dashboard Widgets',
           collapsed: true,
           items: [
-            'user-guide/dashboard-widgets/overview-widget',
             'user-guide/dashboard-widgets/users-widget',
             'user-guide/dashboard-widgets/resources-widget',
             'user-guide/dashboard-widgets/credentials-widget',
@@ -150,7 +148,6 @@ const sidebars = {
                 'administration/resources/resource-management/add-resources',
                 'administration/resources/resource-management/import-resources-csv',
                 'administration/resources/resource-management/resource-groups',
-                'administration/resources/resource-management/resource-details',
                 'administration/resources/resource-management/change-platform',
                 'administration/resources/resource-management/remove-resources',
                 'administration/resources/resource-management/test-connectivity',

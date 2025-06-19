@@ -104,7 +104,6 @@ const sidebars = {
           label: 'Alerts & Notifications',
           items: [
             'administration/alerts-notifications/overview',
-            'administration/alerts-notifications/alert-configuration',
             'administration/alerts-notifications/notification-messages',
           ],
         },
@@ -126,7 +125,6 @@ const sidebars = {
             'administration/system-settings/overview',
             'administration/system-settings/general-settings',
             'administration/system-settings/allowed-commands',
-            'administration/system-settings/system-configuration',
           ],
         },
       ],
@@ -136,13 +134,11 @@ const sidebars = {
       label: '✨ Features',
       collapsed: true,
       items: [
-        'features/overview',
         {
           type: 'category',
           label: 'File Integrity Monitoring',
           items: [
             'features/file-integrity-monitoring/overview',
-            'features/file-integrity-monitoring/configuration',
             'features/file-integrity-monitoring/agentless-monitoring',
             'features/file-integrity-monitoring/troubleshooting',
           ],
@@ -195,7 +191,6 @@ const sidebars = {
           items: [
             'features/agentless-monitoring/overview',
             'features/agentless-monitoring/configuration-scanning',
-            'features/agentless-monitoring/script-execution',
             'features/agentless-monitoring/script-variables',
             'features/agentless-monitoring/sample-scripts',
           ],
@@ -205,9 +200,7 @@ const sidebars = {
           label: 'Event Management',
           items: [
             'features/event-management/overview',
-            'features/event-management/event-viewing',
             'features/event-management/event-filtering',
-            'features/event-management/event-export',
           ],
         },
       ],
@@ -256,11 +249,7 @@ const sidebars = {
       type: 'category',
       label: '📚 Reference',
       collapsed: true,
-      items: [
-        'reference/overview',
-        'reference/component-releases',
-        'reference/credentials-management',
-      ],
+      items: ['reference/component-releases', 'reference/credentials-management'],
     },
   ],
 };

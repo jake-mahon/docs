@@ -1471,11 +1471,9 @@ checked.
 This part will link a SingleRole to a ResourceType. This implies that the allocation of a target
 resource to a source will only be done if the SingleRole rule(s) are verified.
 
-```
-
-  <ResourceType Identifier="AD_Entry_NominativeUser" DisplayName_L1="AD User (nominative)" DisplayName_L2="Compte AD (nominatif)" Policy="Default" TargetEntityType="AD_Entry" Category="AD" SourceEntityType="Directory_User" ApprovalWorkflowType="One">    <TypeRule TimeOffsetReference="Arround" TimeOffsetBeforeReference="-10080" TimeOffsetAfterReference="43200" Policy="Default"  SingleRole="DL-INTERNET-Restricted"/>    ....
-  </ResourceType>
-
+```xml
+<ResourceType Identifier="AD_Entry_NominativeUser" DisplayName_L1="AD User (nominative)" DisplayName_L2="Compte AD (nominatif)" Policy="Default" TargetEntityType="AD_Entry" Category="AD" SourceEntityType="Directory_User" ApprovalWorkflowType="One">    <TypeRule TimeOffsetReference="Arround" TimeOffsetBeforeReference="-10080" TimeOffsetAfterReference="43200" Policy="Default"  SingleRole="DL-INTERNET-Restricted"/>    ....
+</ResourceType>
 ```
 
 ### Use a navigation rule instead of a type rule

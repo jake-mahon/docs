@@ -13,7 +13,7 @@ Agent Messages box. The button bar allows users to take the following actions:
 
   - [Single Activity Agent Deployment](/docs/activitymonitor/8.0/agents/deployment/active-directory.md)
   - [Multiple Activity Agents Deployment](/docs/activitymonitor/8.0/agents/deployment/bulk-deployment.md)
-  - [Active Directory Agent Deployment](/docs/activitymonitor/8.0/activitymonitor/admin/agents/add/activedirectory.md)
+  - [Active Directory Agent Deployment](/docs/activitymonitor/8.0/agents/deployment/active-directory.md)
   - [Linux Agent Deployment](/docs/activitymonitor/8.0/agents/deployment/linux.md)
   - Remove – Opens the Remove Agents window where users can choose to remove the hosting server
     from the activity agents table or uninstalling the activity agent from the hosting server

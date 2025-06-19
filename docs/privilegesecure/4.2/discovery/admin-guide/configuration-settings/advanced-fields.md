@@ -203,7 +203,7 @@ Troubleshooting Linux Registration:
 
 You can also specify a an excel file containing a list of linux systems and credentials to register with Privilege Secure.
 
-Example [linux_register.xlsx](/docs/privilegesecure/4.2/discovery/admin-guide/linux-management/postman-linux-registration.md):
+Example [linux_register.xlsx](/docs/privilegesecure/4.2/discovery/admin-guide/linux-management/attachments/360042878654_linux_register.xlsx):
 
 | System | Username | Password | Admins[0] | Scan | Persistent | Secure | Nondomain |
 | --- | --- | --- | --- | --- | --- | --- | --- |

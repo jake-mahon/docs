@@ -147,7 +147,6 @@ const sidebars = {
       label: 'Platform Configuration',
       collapsed: true,
       items: [
-        'platform-configuration/index',
         {
           type: 'category',
           label: 'Active Directory',
@@ -221,12 +220,7 @@ const sidebars = {
       type: 'category',
       label: 'Reference',
       collapsed: true,
-      items: [
-        'reference/index',
-        'reference/port-requirements',
-        'reference/file-formats',
-        'reference/antivirus-exclusions',
-      ],
+      items: ['reference/port-requirements', 'reference/antivirus-exclusions'],
     },
   ],
 };

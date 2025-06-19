@@ -96,7 +96,6 @@ const sidebars = {
       collapsed: true,
       items: [
         'customization-management/index',
-        'customization-management/understanding-customizations',
         'customization-management/customization-records',
         'customization-management/impact-analysis',
         'customization-management/entity-relationship-diagrams',
@@ -122,7 +121,6 @@ const sidebars = {
       label: 'Security and Compliance',
       collapsed: true,
       items: [
-        'security-and-compliance/index',
         {
           type: 'category',
           label: 'Segregation of Duties',
@@ -201,7 +199,6 @@ const sidebars = {
       label: 'Operations',
       collapsed: true,
       items: [
-        'operations/index',
         {
           type: 'category',
           label: 'Script Management',
@@ -243,7 +240,6 @@ const sidebars = {
           collapsed: true,
           items: [
             'integrations/jira/index',
-            'integrations/jira/configuration',
             'integrations/jira/walkthrough',
             'integrations/jira/troubleshooting',
           ],
@@ -300,7 +296,6 @@ const sidebars = {
       label: 'Troubleshooting',
       collapsed: true,
       items: [
-        'troubleshooting/index',
         'troubleshooting/common-issues',
         'troubleshooting/spider-issues',
         'troubleshooting/search-timeouts',
@@ -313,7 +308,6 @@ const sidebars = {
       label: 'Reference',
       collapsed: true,
       items: [
-        'reference/index',
         {
           type: 'category',
           label: 'Release Notes',

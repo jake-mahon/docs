@@ -23,7 +23,6 @@ const sidebars = {
       label: 'Getting Started',
       collapsed: false,
       items: [
-        'getting-started/index',
         'getting-started/product-editions',
         'getting-started/requirements',
         'getting-started/quick-start',
@@ -56,7 +55,6 @@ const sidebars = {
             'data-sources/active-directory/index',
             'data-sources/active-directory/configuration',
             'data-sources/active-directory/permissions',
-            'data-sources/active-directory/troubleshooting',
           ],
         },
         {
@@ -86,17 +84,12 @@ const sidebars = {
         {
           type: 'category',
           label: 'Databases',
-          items: [
-            'data-sources/databases/index',
-            'data-sources/databases/sql-server',
-            'data-sources/databases/oracle',
-          ],
+          items: ['data-sources/databases/sql-server', 'data-sources/databases/oracle'],
         },
         {
           type: 'category',
           label: 'Infrastructure',
           items: [
-            'data-sources/infrastructure/index',
             'data-sources/infrastructure/vmware',
             'data-sources/infrastructure/exchange-server',
             'data-sources/infrastructure/sharepoint-server',
@@ -108,11 +101,7 @@ const sidebars = {
         {
           type: 'category',
           label: 'Authentication',
-          items: [
-            'data-sources/authentication/index',
-            'data-sources/authentication/logon-activity',
-            'data-sources/authentication/adfs',
-          ],
+          items: ['data-sources/authentication/logon-activity', 'data-sources/authentication/adfs'],
         },
       ],
     },
@@ -134,7 +123,6 @@ const sidebars = {
       label: 'Features',
       collapsed: true,
       items: [
-        'features/index',
         {
           type: 'category',
           label: 'Alerts',
@@ -205,7 +193,6 @@ const sidebars = {
       label: 'Integrations',
       collapsed: true,
       items: [
-        'integrations/index',
         {
           type: 'category',
           label: 'SIEM',
@@ -223,25 +210,17 @@ const sidebars = {
         {
           type: 'category',
           label: 'Ticketing',
-          items: [
-            'integrations/ticketing/index',
-            'integrations/ticketing/servicenow',
-            'integrations/ticketing/connectwise',
-          ],
+          items: ['integrations/ticketing/servicenow', 'integrations/ticketing/connectwise'],
         },
         {
           type: 'category',
           label: 'Cloud',
-          items: ['integrations/cloud/index', 'integrations/cloud/aws', 'integrations/cloud/okta'],
+          items: ['integrations/cloud/aws', 'integrations/cloud/okta'],
         },
         {
           type: 'category',
           label: 'Security',
-          items: [
-            'integrations/security/index',
-            'integrations/security/cyberark',
-            'integrations/security/radius',
-          ],
+          items: ['integrations/security/cyberark', 'integrations/security/radius'],
         },
       ],
     },
@@ -269,7 +248,6 @@ const sidebars = {
           type: 'category',
           label: 'User Management',
           items: [
-            'administration/user-management/index',
             'administration/user-management/service-accounts',
             'administration/user-management/licensing',
           ],
@@ -334,13 +312,7 @@ const sidebars = {
       type: 'category',
       label: 'Reference',
       collapsed: true,
-      items: [
-        'reference/index',
-        'reference/ports-and-protocols',
-        'reference/permissions-reference',
-        'reference/deployment-scenarios',
-        'reference/troubleshooting',
-      ],
+      items: ['reference/ports-and-protocols', 'reference/deployment-scenarios'],
     },
   ],
 };

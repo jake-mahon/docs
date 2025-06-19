@@ -1,3 +1,4 @@
+/** @type {import('@docusaurus/plugin-content-docs').SidebarsConfig} */
 module.exports = {
   threatmanager30: [
     'index',
@@ -7,8 +8,7 @@ module.exports = {
       collapsible: true,
       collapsed: false,
       link: {
-        type: 'doc',
-        id: 'getting-started/index',
+        type: 'generated-index',
       },
       items: [
         'getting-started/introduction',
@@ -138,8 +138,7 @@ module.exports = {
       collapsible: true,
       collapsed: true,
       link: {
-        type: 'doc',
-        id: 'operations/index',
+        type: 'generated-index',
       },
       items: [
         {
@@ -170,7 +169,6 @@ module.exports = {
           label: 'Threat Details',
           items: [
             'operations/threat-details/viewing-threats',
-            'operations/threat-details/threat-analysis',
             'operations/threat-details/abnormal-behavior',
             'operations/threat-details/object-details',
           ],
@@ -183,8 +181,7 @@ module.exports = {
       collapsible: true,
       collapsed: true,
       link: {
-        type: 'doc',
-        id: 'reference/index',
+        type: 'generated-index',
       },
       items: [
         {

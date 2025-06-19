@@ -45,7 +45,6 @@ const sidebars = {
           label: 'Virtualization Platforms',
           collapsed: true,
           items: [
-            'installation/virtualization-platforms/index',
             'installation/virtualization-platforms/vmware',
             'installation/virtualization-platforms/hyper-v',
             'installation/virtualization-platforms/citrix-xenserver',
@@ -108,7 +107,6 @@ const sidebars = {
             'features/device-control/users-and-groups',
             'features/device-control/devices-and-computers',
             'features/device-control/custom-classes',
-            'features/device-control/use-cases',
           ],
         },
         {
@@ -190,7 +188,6 @@ const sidebars = {
       label: 'System Management',
       collapsed: true,
       items: [
-        'system-management/index',
         {
           type: 'category',
           label: 'Maintenance',

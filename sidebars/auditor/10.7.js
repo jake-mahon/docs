@@ -13,7 +13,6 @@ const sidebars = {
       label: 'Getting Started',
       collapsed: false,
       items: [
-        'getting-started/index',
         'getting-started/product-overview',
         'getting-started/product-editions',
         'getting-started/whats-new',
@@ -25,7 +24,6 @@ const sidebars = {
       label: 'Installation and Setup',
       collapsed: true,
       items: [
-        'installation-and-setup/index',
         {
           type: 'category',
           label: 'System Requirements',
@@ -54,17 +52,14 @@ const sidebars = {
           type: 'category',
           label: 'Initial Configuration',
           items: [
-            'installation-and-setup/initial-configuration/index',
             'installation-and-setup/initial-configuration/first-launch',
             'installation-and-setup/initial-configuration/license-activation',
-            'installation-and-setup/initial-configuration/database-configuration',
           ],
         },
         {
           type: 'category',
           label: 'Upgrade and Migration',
           items: [
-            'installation-and-setup/upgrade-and-migration/index',
             'installation-and-setup/upgrade-and-migration/upgrade-guide',
             'installation-and-setup/upgrade-and-migration/uninstallation',
           ],
@@ -87,7 +82,6 @@ const sidebars = {
             'data-sources/active-directory/audit-policies',
             'data-sources/active-directory/permissions-and-access',
             'data-sources/active-directory/advanced-settings',
-            'data-sources/active-directory/troubleshooting',
           ],
         },
         {
@@ -117,11 +111,7 @@ const sidebars = {
         {
           type: 'category',
           label: 'Databases',
-          items: [
-            'data-sources/databases/index',
-            'data-sources/databases/sql-server',
-            'data-sources/databases/oracle',
-          ],
+          items: ['data-sources/databases/sql-server', 'data-sources/databases/oracle'],
         },
         {
           type: 'category',
@@ -233,7 +223,6 @@ const sidebars = {
       label: 'Access Governance',
       collapsed: true,
       items: [
-        'access-governance/index',
         {
           type: 'category',
           label: 'Access Reviews',
@@ -259,7 +248,6 @@ const sidebars = {
           type: 'category',
           label: 'Entitlement Management',
           items: [
-            'access-governance/entitlement-management/index',
             'access-governance/entitlement-management/data-grid-features',
             'access-governance/entitlement-management/edit-notes',
             'access-governance/entitlement-management/group-membership',
@@ -290,7 +278,6 @@ const sidebars = {
           type: 'category',
           label: 'Report Management',
           items: [
-            'reporting/report-management/index',
             'reporting/report-management/viewing-reports',
             'reporting/report-management/report-subscriptions',
             'reporting/report-management/review-status-reports',
@@ -313,7 +300,6 @@ const sidebars = {
           type: 'category',
           label: 'SIEM Integrations',
           items: [
-            'integrations/siem-integrations/index',
             'integrations/siem-integrations/splunk',
             'integrations/siem-integrations/qradar',
             'integrations/siem-integrations/arcsight',
@@ -327,7 +313,6 @@ const sidebars = {
           type: 'category',
           label: 'Ticketing Systems',
           items: [
-            'integrations/ticketing-systems/index',
             'integrations/ticketing-systems/servicenow',
             'integrations/ticketing-systems/connectwise',
           ],
@@ -336,7 +321,6 @@ const sidebars = {
           type: 'category',
           label: 'Security Platforms',
           items: [
-            'integrations/security-platforms/index',
             'integrations/security-platforms/cyberark',
             'integrations/security-platforms/okta',
           ],
@@ -344,17 +328,12 @@ const sidebars = {
         {
           type: 'category',
           label: 'Cloud Platforms',
-          items: [
-            'integrations/cloud-platforms/index',
-            'integrations/cloud-platforms/aws',
-            'integrations/cloud-platforms/azure-files',
-          ],
+          items: ['integrations/cloud-platforms/aws', 'integrations/cloud-platforms/azure-files'],
         },
         {
           type: 'category',
           label: 'File Storage',
           items: [
-            'integrations/file-storage/index',
             'integrations/file-storage/ctera',
             'integrations/file-storage/nasuni',
             'integrations/file-storage/copilot',
@@ -364,7 +343,6 @@ const sidebars = {
           type: 'category',
           label: 'Specialized Integrations',
           items: [
-            'integrations/specialized-integrations/index',
             'integrations/specialized-integrations/radius',
             'integrations/specialized-integrations/linux-systems',
             'integrations/specialized-integrations/privileged-users',
@@ -425,7 +403,6 @@ const sidebars = {
       label: 'Reference',
       collapsed: true,
       items: [
-        'reference/index',
         'reference/deployment-scenarios',
         'reference/compliance-mappings',
         'reference/monitored-object-types',

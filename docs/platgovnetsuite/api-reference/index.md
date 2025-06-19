@@ -17,7 +17,7 @@ application are able to integrate via these APIs.
 
   - [Get Change Request](/docs/platgovnetsuite/api-reference/change-request-api/retrieve.md): Returns the change request associated with an
     External ID.
-  - [Add/Update Customizations in a Change Request](/docs/platgovnetsuite/api/add_update_change_request.md): adds/updates
+  - [Add/Update Customizations in a Change Request](/docs/platgovnetsuite/api-reference/change-request-api/create-update.md): adds/updates
     customization and/or proposed customizations.
   - [Delete Customizations in a Change Request](/docs/platgovnetsuite/api-reference/change-request-api/delete.md): removes
     customizations and/or proposed customizations.
@@ -44,7 +44,7 @@ Here are the Change Request API commands:
 
 - [Get Change Request](/docs/platgovnetsuite/api-reference/change-request-api/retrieve.md): Returns the change request associated with an
   External ID.
-- [Add/Update Customizations in a Change Request](/docs/platgovnetsuite/api/add_update_change_request.md): adds/updates
+- [Add/Update Customizations in a Change Request](/docs/platgovnetsuite/api-reference/change-request-api/create-update.md): adds/updates
   customization and/or proposed customizations.
 - [Delete Customizations in a Change Request](/docs/platgovnetsuite/api-reference/change-request-api/delete.md): removes
   customizations and/or proposed customizations.

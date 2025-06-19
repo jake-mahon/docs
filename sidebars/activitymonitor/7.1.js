@@ -35,10 +35,8 @@ const sidebars = {
       label: 'Configuration',
       collapsed: true,
       items: [
-        'configuration/overview',
         'configuration/active-directory',
         'configuration/windows-file-server',
-        'configuration/linux-systems',
         {
           type: 'category',
           label: 'Storage Platforms',

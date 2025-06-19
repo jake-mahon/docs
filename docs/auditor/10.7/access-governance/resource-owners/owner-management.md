@@ -34,7 +34,7 @@ The information displayed in the table includes:
   additional information.
 
 The table data grid functions the same way as other table grids. See the
-[Data Grid Features](/docs/auditor/10.7/access/general/datagrid.md) topic for additional information.
+[Data Grid Features](/docs/auditor/10.7/access-governance/entitlement-management/data-grid-features.md) topic for additional information.
 
 The buttons at the bottom enable you to conduct the following actions:
 

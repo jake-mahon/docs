@@ -44,7 +44,6 @@ const sidebars = {
           label: 'Administration',
           collapsed: true,
           items: [
-            'password-reset/administration/index',
             'password-reset/administration/data-console',
             'password-reset/administration/database-management',
             'password-reset/administration/html-template-customization',
@@ -56,7 +55,6 @@ const sidebars = {
           label: 'Usage',
           collapsed: true,
           items: [
-            'password-reset/usage/index',
             'password-reset/usage/password-reset-client',
             'password-reset/usage/using-password-reset',
             'password-reset/usage/filtering-and-reporting',
@@ -67,7 +65,6 @@ const sidebars = {
           label: 'Advanced',
           collapsed: true,
           items: [
-            'password-reset/advanced/index',
             'password-reset/advanced/securing-password-reset',
             'password-reset/advanced/sql-server-migration',
           ],
@@ -85,7 +82,6 @@ const sidebars = {
           label: 'Configuration',
           collapsed: true,
           items: [
-            'password-policy-enforcer/configuration/index',
             'password-policy-enforcer/configuration/password-policy-client',
             'password-policy-enforcer/configuration/similarity-rules',
           ],

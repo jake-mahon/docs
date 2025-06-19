@@ -229,11 +229,6 @@ const sidebars = {
         },
         {
           type: 'doc',
-          id: 'troubleshooting/common-issues',
-          label: 'Common Issues',
-        },
-        {
-          type: 'doc',
           id: 'troubleshooting/use-cases',
           label: 'Use Cases',
         },
@@ -242,11 +237,6 @@ const sidebars = {
           label: 'Password Updates',
           collapsed: true,
           items: [
-            {
-              type: 'doc',
-              id: 'troubleshooting/password-updates/index',
-              label: 'Password Updates Overview',
-            },
             {
               type: 'doc',
               id: 'troubleshooting/password-updates/credential-passwords',

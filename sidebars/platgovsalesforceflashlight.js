@@ -15,7 +15,6 @@ const sidebars = {
       items: [
         'getting-started/index',
         'getting-started/installation-and-setup',
-        'getting-started/first-scan',
         'getting-started/dashboard-overview',
         'getting-started/scheduling-scans',
       ],
@@ -25,7 +24,6 @@ const sidebars = {
       label: 'Core Features',
       collapsed: true,
       items: [
-        'core-features/index',
         'core-features/metadata-documentation',
         'core-features/customization-tracking',
         'core-features/dependency-analysis',
@@ -49,7 +47,6 @@ const sidebars = {
       label: 'Administration',
       collapsed: true,
       items: [
-        'administration/index',
         'administration/configuration-and-status',
         'administration/platform-governor',
         'administration/uninstalling',
@@ -59,12 +56,7 @@ const sidebars = {
       type: 'category',
       label: 'Reference',
       collapsed: true,
-      items: ['reference/index', 'reference/metadata-types', 'reference/troubleshooting'],
-    },
-    {
-      type: 'doc',
-      id: 'release-notes',
-      label: 'Release Notes',
+      items: ['reference/metadata-types', 'reference/troubleshooting'],
     },
   ],
 };

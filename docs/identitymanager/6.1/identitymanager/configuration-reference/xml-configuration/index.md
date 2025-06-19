@@ -1237,8 +1237,7 @@ are the properties shared between all records, here user properties.
 Each section must be defined with start and end dates, so that Usercube's engine is able to combine
 all periods of validity and apply the rules with the right input at any time.
 
-```
-
+```xml
 Default section:
 <RecordSection Identifier="Directory_UserRecord_Default" DisplayName_L1="User Properties" SourceEntityType="Directory_User" ResourceEntityType="Directory_UserRecord" StartProperty="StartDate" EndProperty="EndDate"> ...
 </RecordSection>
@@ -1250,7 +1249,6 @@ Contract section:
 Position section:
 <RecordSection Identifier="Directory_UserRecord_Position" DisplayName_L1="Position Properties" SourceEntityType="Directory_User" ResourceEntityType="Directory_UserRecord" StartProperty="PositionStartDate" EndProperty="PositionEndDate"> ...
   <Property Property="PositionIdentifier" />  <Property Property="JobTitle" />  <Property Property="OfficeNumber" />  <Property Property="Organization" />  <Property Property="Site"/>  <Property Property="Title" />  <Property Property="Office" />  <Property Property="Manager" />  <Property Property="IGAManager" />  <Property Property="EffectiveIGAManager" />  <Property Property="IsMainPosition" /></RecordSection>
-
 ```
 
 ### InstanceKeyExpression
@@ -1259,8 +1257,7 @@ The following example computes a unique key for each record section instance. Th
 distinguish between contracts thanks to their identifiers, same for positions, and between user
 property sets thanks to a C# expression based on the start date.
 
-```
-
+```xml
 Default section:
 <RecordSection Identifier="Directory_UserRecord_Default" DisplayName_L1="User Properties" SourceEntityType="Directory_User" ResourceEntityType="Directory_UserRecord" StartProperty="StartDate" EndProperty="EndDate" InstanceKeyExpression="C#:record:return record.StartDate.HasValue ? record.StartDate.Value.ToString("yyyyMMdd") : string.Empty;"></RecordSection>
 
@@ -1271,7 +1268,6 @@ Contract section:
 Position section:
 <RecordSection Identifier="Directory_UserRecord_Position" DisplayName_L1="Position Properties" SourceEntityType="Directory_User" ResourceEntityType="Directory_UserRecord" StartProperty="PositionStartDate" EndProperty="PositionEndDate" InstanceKeyExpression="C#:record:return record.PositionIdentifier;">  <Property Property="PositionIdentifier" />  ...
 </RecordSection>
-
 ```
 
 An instance key is required when we need to uniquely identify a context, i.e. when we may have

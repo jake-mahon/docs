@@ -83,7 +83,6 @@ const sidebars = {
       label: '🛡️ Administration',
       collapsed: true,
       items: [
-        'administration/overview',
         'administration/navigation',
         {
           type: 'category',
@@ -106,7 +105,6 @@ const sidebars = {
           items: [
             'administration/access-control/role-based-access',
             'administration/access-control/rest-api',
-            'administration/access-control/scheduled-service-account',
           ],
         },
         {
@@ -125,7 +123,6 @@ const sidebars = {
           label: 'Host Management',
           items: [
             'administration/host-management/discovery',
-            'administration/host-management/inventory',
             'administration/host-management/management',
           ],
         },
@@ -157,61 +154,36 @@ const sidebars = {
       label: '📊 Data Collection',
       collapsed: true,
       items: [
-        'data-collection/overview',
         {
           type: 'category',
           label: 'Active Directory',
-          items: [
-            'data-collection/active-directory/inventory',
-            'data-collection/active-directory/permissions',
-            'data-collection/active-directory/activity',
-            'data-collection/active-directory/configuration',
-          ],
+          items: ['data-collection/active-directory/configuration'],
         },
         {
           type: 'category',
           label: 'Entra ID',
-          items: ['data-collection/entra-id/inventory', 'data-collection/entra-id/configuration'],
+          items: ['data-collection/entra-id/configuration'],
         },
         {
           type: 'category',
           label: 'File Systems',
-          items: [
-            'data-collection/file-systems/windows',
-            'data-collection/file-systems/unix',
-            'data-collection/file-systems/nas-systems',
-            'data-collection/file-systems/configuration',
-          ],
+          items: ['data-collection/file-systems/configuration'],
         },
         {
           type: 'category',
           label: 'Exchange',
-          items: [
-            'data-collection/exchange/mailbox',
-            'data-collection/exchange/public-folders',
-            'data-collection/exchange/metrics',
-            'data-collection/exchange/configuration',
-          ],
+          items: ['data-collection/exchange/configuration'],
         },
         {
           type: 'category',
           label: 'Databases',
-          items: [
-            'data-collection/databases/sql-server',
-            'data-collection/databases/oracle',
-            'data-collection/databases/mysql',
-            'data-collection/databases/postgresql',
-            'data-collection/databases/mongodb',
-            'data-collection/databases/db2',
-            'data-collection/databases/redshift',
-          ],
+          items: ['data-collection/databases/sql-server', 'data-collection/databases/mongodb'],
         },
         {
           type: 'category',
           label: 'Cloud Platforms',
           items: [
             'data-collection/cloud-platforms/aws',
-            'data-collection/cloud-platforms/azure',
             'data-collection/cloud-platforms/box',
             'data-collection/cloud-platforms/dropbox',
           ],
@@ -219,7 +191,7 @@ const sidebars = {
         {
           type: 'category',
           label: 'SharePoint',
-          items: ['data-collection/sharepoint/on-premises', 'data-collection/sharepoint/online'],
+          items: ['data-collection/sharepoint/on-premises'],
         },
         {
           type: 'category',
@@ -238,7 +210,6 @@ const sidebars = {
       label: '🔍 Analysis and Actions',
       collapsed: true,
       items: [
-        'analysis-and-actions/overview',
         {
           type: 'category',
           label: 'Analysis',
@@ -273,7 +244,6 @@ const sidebars = {
       label: '💡 Solutions',
       collapsed: true,
       items: [
-        'solutions/overview',
         {
           type: 'category',
           label: 'Active Directory',
@@ -328,7 +298,6 @@ const sidebars = {
             'solutions/sharepoint/permissions-analysis',
             'solutions/sharepoint/activity-monitoring',
             'solutions/sharepoint/content-analysis',
-            'solutions/sharepoint/sensitive-data',
             'solutions/sharepoint/recommended-reports',
           ],
         },
@@ -360,7 +329,6 @@ const sidebars = {
           items: [
             'solutions/cross-platform/anyid-integration',
             'solutions/cross-platform/nis-inventory',
-            'solutions/cross-platform/sensitive-data-discovery',
           ],
         },
       ],
@@ -370,7 +338,6 @@ const sidebars = {
       label: '📋 Configuration Guides',
       collapsed: true,
       items: [
-        'configuration-guides/overview',
         {
           type: 'category',
           label: 'Directory Services',
@@ -416,7 +383,6 @@ const sidebars = {
       label: '🔒 Security and Compliance',
       collapsed: true,
       items: [
-        'security-and-compliance/overview',
         {
           type: 'category',
           label: 'Sensitive Data Discovery',
@@ -437,17 +403,6 @@ const sidebars = {
             'security-and-compliance/change-driven-security-assessment/presentation',
           ],
         },
-      ],
-    },
-    {
-      type: 'category',
-      label: '📚 Reference',
-      collapsed: true,
-      items: [
-        'reference/permission-matrix',
-        'reference/instant-jobs-reference',
-        'reference/api-reference',
-        'reference/troubleshooting',
       ],
     },
   ],

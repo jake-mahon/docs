@@ -13,7 +13,6 @@ const sidebars = {
       label: 'Getting Started',
       collapsed: false,
       items: [
-        'getting-started/index',
         'getting-started/installation',
         'getting-started/initial-setup',
         'getting-started/features-and-licensing',
@@ -49,7 +48,6 @@ const sidebars = {
       label: 'Org Maintenance',
       collapsed: true,
       items: [
-        'org-maintenance/index',
         'org-maintenance/cleanup-tools',
         'org-maintenance/technical-debt',
         'org-maintenance/customization-tracking',
@@ -72,7 +70,6 @@ const sidebars = {
       label: 'Administration',
       collapsed: true,
       items: [
-        'administration/index',
         'administration/scanners-and-automation',
         'administration/settings-and-credentials',
         'administration/access-permissions',

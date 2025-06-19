@@ -46,7 +46,6 @@ const sidebars = {
           label: 'Setup',
           collapsed: true,
           items: [
-            'installation/setup/index',
             'installation/setup/setup-launcher',
             'installation/setup/first-launch',
             'installation/setup/silent-installation',
@@ -78,7 +77,6 @@ const sidebars = {
             'installation/virtual-appliance/aws-marketplace-deployment',
             'installation/virtual-appliance/azure-marketplace-deployment',
             'installation/virtual-appliance/aws-configuration',
-            'installation/virtual-appliance/azure-configuration',
             'installation/virtual-appliance/general-configuration',
             'installation/virtual-appliance/ports',
             'installation/virtual-appliance/security-best-practices',
@@ -98,7 +96,6 @@ const sidebars = {
           label: 'Dashboard',
           collapsed: true,
           items: [
-            'administration/dashboard/index',
             'administration/dashboard/overview',
             'administration/dashboard/active-sessions',
             'administration/dashboard/scheduled-sessions',
@@ -108,7 +105,6 @@ const sidebars = {
             'administration/dashboard/credentials',
             'administration/dashboard/approvals',
             'administration/dashboard/session-management',
-            'administration/dashboard/session-viewer',
           ],
         },
         {
@@ -139,7 +135,6 @@ const sidebars = {
               label: 'Resource Management',
               collapsed: true,
               items: [
-                'administration/resources/resource-management/index',
                 'administration/resources/resource-management/adding-resources',
                 'administration/resources/resource-management/onboarding-resources',
                 'administration/resources/resource-management/resource-groups',
@@ -248,9 +243,7 @@ const sidebars = {
           label: 'Session Management',
           collapsed: true,
           items: [
-            'administration/session-management/index',
             'administration/session-management/create-session',
-            'administration/session-management/start-session',
             'administration/session-management/live-viewer',
             'administration/session-management/replay-viewer',
             'administration/session-management/session-logs',
@@ -313,11 +306,7 @@ const sidebars = {
           type: 'category',
           label: 'SIEM',
           collapsed: true,
-          items: [
-            'configuration/siem/index',
-            'configuration/siem/siem-server',
-            'configuration/siem/siem-templates',
-          ],
+          items: ['configuration/siem/siem-server', 'configuration/siem/siem-templates'],
         },
         'configuration/scheduled-tasks',
         'configuration/password-options',
@@ -335,7 +324,6 @@ const sidebars = {
           label: 'Audit Logs',
           collapsed: true,
           items: [
-            'monitoring-and-reporting/audit-logs/index',
             'monitoring-and-reporting/audit-logs/activity-logs',
             'monitoring-and-reporting/audit-logs/events',
             'monitoring-and-reporting/audit-logs/log-files',
@@ -347,7 +335,6 @@ const sidebars = {
           label: 'Reporting',
           collapsed: true,
           items: [
-            'monitoring-and-reporting/reporting/index',
             'monitoring-and-reporting/reporting/report-generation',
             'monitoring-and-reporting/reporting/database-change-history',
           ],
@@ -378,7 +365,6 @@ const sidebars = {
           label: 'Dashboard',
           collapsed: true,
           items: [
-            'user-guide/dashboard/index',
             'user-guide/dashboard/overview',
             'user-guide/dashboard/active-sessions',
             'user-guide/dashboard/scheduled-sessions',
@@ -391,7 +377,6 @@ const sidebars = {
           label: 'Accessing Resources',
           collapsed: true,
           items: [
-            'user-guide/accessing-resources/index',
             'user-guide/accessing-resources/create-session',
             'user-guide/accessing-resources/start-session',
             'user-guide/accessing-resources/session-logs',
@@ -426,7 +411,6 @@ const sidebars = {
           label: 'Dashboard',
           collapsed: true,
           items: [
-            'reviewer-guide/dashboard/index',
             'reviewer-guide/dashboard/overview',
             'reviewer-guide/dashboard/active-sessions',
             'reviewer-guide/dashboard/scheduled-sessions',
@@ -439,7 +423,6 @@ const sidebars = {
           label: 'Accessing Resources',
           collapsed: true,
           items: [
-            'reviewer-guide/accessing-resources/index',
             'reviewer-guide/accessing-resources/create-session',
             'reviewer-guide/accessing-resources/start-session',
             'reviewer-guide/accessing-resources/session-logs',

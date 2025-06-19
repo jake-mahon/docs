@@ -22,7 +22,6 @@ const sidebars = {
         'getting-started/installation',
         'getting-started/initial-setup',
         'getting-started/licensing',
-        'getting-started/quick-start',
       ],
     },
     {
@@ -56,11 +55,7 @@ const sidebars = {
       type: 'category',
       label: 'Administration',
       collapsed: true,
-      items: [
-        'administration/configuration',
-        'administration/documentation-management',
-        'administration/uninstallation',
-      ],
+      items: ['administration/documentation-management', 'administration/uninstallation'],
     },
     {
       type: 'category',

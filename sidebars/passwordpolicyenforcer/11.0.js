@@ -24,7 +24,6 @@ const sidebars = {
       label: 'Installation',
       collapsed: true,
       items: [
-        'installation/overview',
         'installation/server-installation',
         'installation/client-installation',
         'installation/group-policy-installation',
@@ -39,7 +38,6 @@ const sidebars = {
       label: 'Configuration',
       collapsed: true,
       items: [
-        'configuration/overview',
         'configuration/configuration-console',
         'configuration/domain-and-local-policies',
         'configuration/managing-policies',
@@ -88,14 +86,7 @@ const sidebars = {
         {
           type: 'category',
           label: 'PowerShell Cmdlets',
-          items: [
-            'administration/powershell-cmdlets/overview',
-            'administration/powershell-cmdlets/connection-cmdlets',
-            'administration/powershell-cmdlets/policy-cmdlets',
-            'administration/powershell-cmdlets/testing-cmdlets',
-            'administration/powershell-cmdlets/configuration-cmdlets',
-            'administration/powershell-cmdlets/maintenance-cmdlets',
-          ],
+          items: ['administration/powershell-cmdlets/overview'],
         },
         {
           type: 'category',
@@ -178,7 +169,7 @@ const sidebars = {
       type: 'category',
       label: 'Troubleshooting',
       collapsed: true,
-      items: ['troubleshooting/overview', 'troubleshooting/common-issues'],
+      items: ['troubleshooting/common-issues'],
     },
   ],
 };

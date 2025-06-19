@@ -55,7 +55,8 @@ The information displayed in the table includes:
   has been run multiple times, this is the date timestamp of the last instance.
 
 The table data grid functions the same way as other table grids. See the
-[Data Grid Features](/docs/auditor/10.7/access/general/datagrid.md) topic for additional information.
+
+[Data Grid Features](/docs/auditor/10.7/access-governance/entitlement-management/data-grid-features.md) topic for additional information.
 
 The buttons at the bottom enable you to conduct the following actions:
 
@@ -111,15 +112,15 @@ The information displayed in the table includes:
   [Edit Notes Window](/docs/auditor/10.7/access-governance/entitlement-management/edit-notes.md) topic for additional information.
 
 The table data grid functions the same way as other table grids. See the
-[Data Grid Features](/docs/auditor/10.7/access/general/datagrid.md) topic for additional information.
+[Data Grid Features](/docs/auditor/10.7/access-governance/entitlement-management/data-grid-features.md) topic for additional information.
 
 The buttons at the top and bottom enable you to conduct the following actions:
 
 | Button          | Description                                                                                                                                                                                                                                                                                                                                                                                                                              |
 | --------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Delete          | Opens the Delete Review window to delete selected review instance, which asks for confirmation of the action. See the [Delete Review Window](/docs/auditor/10.7/access-governance/access-reviews/managing-reviews.md) topic for additional information.                                                                                                                                                                                  |
-| Export Excel    | Exports the selected review instance information to an Excel spreadsheet. This automatically downloads the spreadsheet. See the [Data Grid Features](/docs/auditor/10.7/access/general/datagrid.md) topic for additional information.                                                                                                                                                                                                    |
-| Export CSV      | Exports the selected review instance information to a CSV file. This automatically downloads the file. See the [Data Grid Features](/docs/auditor/10.7/access/general/datagrid.md) topic for additional information.                                                                                                                                                                                                                     |
+| Export Excel    | Exports the selected review instance information to an Excel spreadsheet. This automatically downloads the spreadsheet. See the [Data Grid Features](/docs/auditor/10.7/access-governance/entitlement-management/data-grid-features.md) topic for additional information.                                                                                                                                                                |
+| Export CSV      | Exports the selected review instance information to a CSV file. This automatically downloads the file. See the [Data Grid Features](/docs/auditor/10.7/access-governance/entitlement-management/data-grid-features.md) topic for additional information.                                                                                                                                                                                 |
 | Edit Notes      | Opens the Edit Notes window for the selected resource and allows free-text editing of the notes. See the [Edit Notes Window](/docs/auditor/10.7/access-governance/entitlement-management/edit-notes.md) topic for additional information.                                                                                                                                                                                                |
 | View Responses  | Opens the View Responses window, which is only available if the owner has recommended changes for the resource. This window displays all recommended changes, notes provided by the owner for the recommended change, and action buttons to Accept, Decline, or Defer the recommended change. See the [View Responses Window](/docs/auditor/10.7/access-governance/access-reviews/managing-reviews.md) topic for additional information. |
 | Process Changes | Opens a drop-down menu to Accept, Decline, or Defer all owner-recommended changes for the selected resource. This option allows the Review Administrator to process responses in batches, so all owner-recommended changes for the selected resource will be processed with the same action.                                                                                                                                             |
@@ -163,7 +164,7 @@ The information displayed in the table includes:
 - Last Reviewed — Date timestamp when the last review took place for the resource.
 
 The table data grid functions the same way as other table grids. See the
-[Data Grid Features](/docs/auditor/10.7/access/general/datagrid.md) topic for additional information.
+[Data Grid Features](/docs/auditor/10.7/access-governance/entitlement-management/data-grid-features.md) topic for additional information.
 
 Performing a review means you are evaluating the resources. You can leave the resource unchanged or
 make recommendations for changes. Consider the following examples:
@@ -347,7 +348,7 @@ selecting the items with no changes in the grid, the change buttons at the botto
 disabled.
 
 The table data grid functions the same way as other table grids. See the
-[Data Grid Features](/docs/auditor/10.7/access/general/datagrid.md) topic for additional information.
+[Data Grid Features](/docs/auditor/10.7/access-governance/entitlement-management/data-grid-features.md) topic for additional information.
 
 Select an item in the table, and use the action buttons at the bottom to identify the decision:
 

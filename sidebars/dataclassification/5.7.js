@@ -101,14 +101,12 @@ const sidebars = {
               items: [
                 'configuration/infrastructure/exchange/index',
                 'configuration/infrastructure/exchange/exchange-online-mfa',
-                'configuration/infrastructure/exchange/exchange-server',
               ],
             },
             {
               type: 'category',
               label: 'SharePoint',
               items: [
-                'configuration/infrastructure/sharepoint/index',
                 'configuration/infrastructure/sharepoint/defaults',
                 'configuration/infrastructure/sharepoint/modern-auth',
                 'configuration/infrastructure/sharepoint/subsite-and-list',
@@ -120,7 +118,6 @@ const sidebars = {
               type: 'category',
               label: 'Cloud Storage',
               items: [
-                'configuration/infrastructure/cloud-storage/index',
                 'configuration/infrastructure/cloud-storage/box',
                 'configuration/infrastructure/cloud-storage/dropbox',
                 'configuration/infrastructure/cloud-storage/google-drive',
@@ -146,7 +143,6 @@ const sidebars = {
           type: 'category',
           label: 'Security',
           items: [
-            'configuration/security/index',
             'configuration/security/user-management',
             'configuration/security/password-manager',
             'configuration/security/secure-ndc',
@@ -191,7 +187,6 @@ const sidebars = {
           type: 'category',
           label: 'Exchange',
           items: [
-            'content-sources/exchange/index',
             'content-sources/exchange/mailbox',
             'content-sources/exchange/server',
             'content-sources/exchange/outlook-archive',
@@ -201,7 +196,6 @@ const sidebars = {
           type: 'category',
           label: 'Databases',
           items: [
-            'content-sources/databases/index',
             'content-sources/databases/add-database',
             'content-sources/databases/configuration-wizard',
             'content-sources/databases/manage-database',
@@ -220,7 +214,6 @@ const sidebars = {
           type: 'category',
           label: 'Cloud Storage',
           items: [
-            'content-sources/cloud-storage/index',
             {
               type: 'category',
               label: 'Box',
@@ -257,7 +250,6 @@ const sidebars = {
               type: 'category',
               label: 'Dynamic Groups',
               items: [
-                'content-sources/source-groups/dynamic-groups/index',
                 'content-sources/source-groups/dynamic-groups/exchange',
                 'content-sources/source-groups/dynamic-groups/file',
                 'content-sources/source-groups/dynamic-groups/google-drive',
@@ -282,7 +274,6 @@ const sidebars = {
           type: 'category',
           label: 'Import/Export',
           items: [
-            'taxonomies/import-export/index',
             'taxonomies/import-export/import',
             'taxonomies/import-export/bulk-import',
             'taxonomies/import-export/export-results',
@@ -303,7 +294,6 @@ const sidebars = {
           type: 'category',
           label: 'Configuration',
           items: [
-            'taxonomies/configuration/index',
             'taxonomies/configuration/settings',
             'taxonomies/configuration/global-settings',
             'taxonomies/configuration/term-settings',
@@ -316,7 +306,6 @@ const sidebars = {
           type: 'category',
           label: 'Advanced',
           items: [
-            'taxonomies/advanced/index',
             'taxonomies/advanced/classifications',
             'taxonomies/advanced/labels',
             'taxonomies/advanced/suggestions',
@@ -423,7 +412,7 @@ const sidebars = {
         {
           type: 'category',
           label: 'Custom Reports',
-          items: ['reporting/custom-reports/index', 'reporting/custom-reports/queued-reports'],
+          items: ['reporting/custom-reports/queued-reports'],
         },
         'reporting/manage-reports',
         'reporting/review-reports',
@@ -452,7 +441,6 @@ const sidebars = {
       label: 'Utilities',
       collapsed: true,
       items: [
-        'utilities/index',
         'utilities/configuration-backup',
         {
           type: 'category',

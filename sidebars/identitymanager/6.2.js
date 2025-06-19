@@ -3,12 +3,10 @@
 /** @type {import('@docusaurus/plugin-content-docs').SidebarsConfig} */
 const sidebars = {
   identityManager62: [
-    'index',
     {
       type: 'category',
       label: 'Getting Started',
       items: [
-        'getting-started/index',
         'getting-started/quick-start',
         'getting-started/system-requirements',
         'getting-started/architecture-overview',
@@ -91,7 +89,6 @@ const sidebars = {
           label: 'Access Certification',
           items: [
             'access-governance/access-certification/index',
-            'access-governance/access-certification/campaign-configuration',
             'access-governance/access-certification/review-process',
           ],
         },
@@ -120,7 +117,6 @@ const sidebars = {
               type: 'category',
               label: 'Connector Basics',
               items: [
-                'integration/connectors/connector-basics/index',
                 'integration/connectors/connector-basics/configuration',
                 'integration/connectors/connector-basics/connections',
                 'integration/connectors/connector-basics/credential-protection',
@@ -158,11 +154,7 @@ const sidebars = {
         {
           type: 'category',
           label: 'Workflows',
-          items: [
-            'integration/workflows/index',
-            'integration/workflows/workflow-configuration',
-            'integration/workflows/custom-workflows',
-          ],
+          items: ['integration/workflows/index', 'integration/workflows/workflow-configuration'],
         },
       ],
     },
@@ -208,7 +200,6 @@ const sidebars = {
             'administration/jobs-tasks/index',
             'administration/jobs-tasks/job-configuration',
             'administration/jobs-tasks/task-management',
-            'administration/jobs-tasks/scheduling',
           ],
         },
         {
@@ -247,20 +238,6 @@ const sidebars = {
             'development/configuration-toolkit/deployment',
           ],
         },
-        {
-          type: 'category',
-          label: 'Scripting',
-          items: [
-            'development/scripting/index',
-            'development/scripting/powershell-scripts',
-            'development/scripting/robotframework-scripts',
-          ],
-        },
-        {
-          type: 'category',
-          label: 'Customization',
-          items: ['development/customization/index', 'development/customization/best-practices'],
-        },
       ],
     },
     {
@@ -284,7 +261,6 @@ const sidebars = {
           label: 'Configuration Reference',
           items: [
             'reference/configuration-reference/index',
-            'reference/configuration-reference/xml-reference',
             'reference/configuration-reference/scaffoldings',
           ],
         },
@@ -295,12 +271,7 @@ const sidebars = {
     {
       type: 'category',
       label: 'Troubleshooting',
-      items: [
-        'troubleshooting/index',
-        'troubleshooting/common-issues',
-        'troubleshooting/connector-troubleshooting',
-        'troubleshooting/performance-optimization',
-      ],
+      items: ['troubleshooting/common-issues'],
     },
   ],
 };

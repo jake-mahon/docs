@@ -119,7 +119,6 @@ const sidebars = {
           label: 'Email Systems',
           items: [
             'data-sources/email-systems/exchange-server',
-            'data-sources/email-systems/exchange-online',
             'data-sources/email-systems/outlook-archives',
           ],
         },
@@ -181,7 +180,6 @@ const sidebars = {
           label: 'Classification',
           items: [
             'taxonomies-classification/classification/auto-classification',
-            'taxonomies-classification/classification/classification-reports',
             'taxonomies-classification/classification/metadata-configuration',
           ],
         },

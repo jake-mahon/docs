@@ -58,7 +58,6 @@ const sidebars = {
       label: 'Configuration',
       collapsed: true,
       items: [
-        'configuration/overview',
         {
           type: 'category',
           label: 'System Settings',
@@ -74,7 +73,6 @@ const sidebars = {
           type: 'category',
           label: 'Agent Configuration',
           items: [
-            'configuration/agent-configuration/overview',
             'configuration/agent-configuration/agent-settings',
             'configuration/agent-configuration/credential-rotation',
             'configuration/agent-configuration/agent-updates',
@@ -93,7 +91,6 @@ const sidebars = {
           type: 'category',
           label: 'Device Management',
           items: [
-            'configuration/device-management/overview',
             'configuration/device-management/device-groups',
             'configuration/device-management/agents-and-devices',
           ],
@@ -143,7 +140,6 @@ const sidebars = {
       label: 'Monitoring & Tracking',
       collapsed: true,
       items: [
-        'monitoring-tracking/overview',
         {
           type: 'category',
           label: 'File Integrity Monitoring',
@@ -158,7 +154,6 @@ const sidebars = {
           type: 'category',
           label: 'Agentless Monitoring',
           items: [
-            'monitoring-tracking/agentless-monitoring/overview',
             'monitoring-tracking/agentless-monitoring/agentless-cis',
             'monitoring-tracking/agentless-monitoring/agentless-fim-troubleshooting',
             'monitoring-tracking/agentless-monitoring/agentless-scripts',
@@ -206,7 +201,6 @@ const sidebars = {
           type: 'category',
           label: 'Agent Management',
           items: [
-            'administration/agent-management/overview',
             'administration/agent-management/agent-performance-metrics',
             'administration/agent-management/live-tracking',
           ],
@@ -227,7 +221,6 @@ const sidebars = {
           type: 'category',
           label: 'Compliance Management',
           items: [
-            'administration/compliance-management/overview',
             'administration/compliance-management/compliance-wizard',
             'administration/compliance-management/compliance-templates',
             'administration/compliance-management/compliance-overview',
@@ -242,7 +235,6 @@ const sidebars = {
       label: 'Reporting & Analytics',
       collapsed: true,
       items: [
-        'reporting-analytics/overview',
         {
           type: 'category',
           label: 'Events',
@@ -260,13 +252,7 @@ const sidebars = {
           items: [
             'reporting-analytics/reports/overview',
             'reporting-analytics/reports/query-settings',
-            'reporting-analytics/reports/report-generation',
           ],
-        },
-        {
-          type: 'category',
-          label: 'Dashboards',
-          items: ['reporting-analytics/dashboards/dashboard-overview'],
         },
       ],
     },
@@ -322,7 +308,6 @@ const sidebars = {
             'reference/system-requirements/gen7-agent-linux',
           ],
         },
-        'reference/glossary',
       ],
     },
   ],

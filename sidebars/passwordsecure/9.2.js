@@ -216,7 +216,6 @@ const sidebars = {
           label: 'Encryption',
           collapsed: true,
           items: [
-            'security-permissions/encryption/encryption-overview',
             'security-permissions/encryption/end-to-end-encryption',
             'security-permissions/encryption/masterkey-mode',
           ],
@@ -485,7 +484,6 @@ const sidebars = {
       collapsed: true,
       items: [
         'end-user-guide/end-user-overview',
-        'end-user-guide/getting-started-user',
         'end-user-guide/managing-passwords',
         'end-user-guide/using-browser-extension',
         'end-user-guide/organizing-passwords',

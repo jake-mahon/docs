@@ -73,7 +73,6 @@ const sidebars = {
       type: 'category',
       label: 'Access Management',
       items: [
-        'access-management/index',
         {
           type: 'category',
           label: 'Access Requests',
@@ -92,7 +91,6 @@ const sidebars = {
           items: [
             'access-management/access-portal/index',
             'access-management/access-portal/your-access',
-            'access-management/access-portal/request-management',
           ],
         },
         {
@@ -175,7 +173,6 @@ const sidebars = {
           type: 'category',
           label: 'Databases',
           items: [
-            'resource-auditing/databases/index',
             'resource-auditing/databases/sql-server',
             'resource-auditing/databases/oracle',
             'resource-auditing/databases/mysql',
@@ -187,7 +184,6 @@ const sidebars = {
           type: 'category',
           label: 'Cloud Storage',
           items: [
-            'resource-auditing/cloud-storage/index',
             'resource-auditing/cloud-storage/aws-s3',
             'resource-auditing/cloud-storage/sharepoint-online',
             'resource-auditing/cloud-storage/onedrive',

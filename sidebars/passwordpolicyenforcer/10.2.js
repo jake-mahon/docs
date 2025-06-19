@@ -25,7 +25,6 @@ const sidebars = {
       label: 'Installation and Deployment',
       collapsed: true,
       items: [
-        'installation-and-deployment/index',
         'installation-and-deployment/system-requirements',
         'installation-and-deployment/installation-types',
         'installation-and-deployment/password-policy-client',
@@ -49,7 +48,6 @@ const sidebars = {
       label: 'Password Policies',
       collapsed: true,
       items: [
-        'password-policies/index',
         'password-policies/creating-policies',
         'password-policies/policy-configuration',
         'password-policies/assigning-policies',
@@ -75,7 +73,6 @@ const sidebars = {
       label: 'Messaging and Notifications',
       collapsed: true,
       items: [
-        'messaging-and-notifications/index',
         'messaging-and-notifications/message-templates',
         'messaging-and-notifications/email-configuration',
         'messaging-and-notifications/multilingual-support',
@@ -87,7 +84,6 @@ const sidebars = {
       label: 'Tools and Utilities',
       collapsed: true,
       items: [
-        'tools-and-utilities/index',
         'tools-and-utilities/command-line-tools',
         'tools-and-utilities/support-tools',
         'tools-and-utilities/hibp-updater',
@@ -121,12 +117,6 @@ const sidebars = {
         'password-reset/data-management',
         'password-reset/best-practices',
       ],
-    },
-    {
-      type: 'category',
-      label: 'Reference',
-      collapsed: true,
-      items: ['reference/index', 'reference/api-reference'],
     },
   ],
 };

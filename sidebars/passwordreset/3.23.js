@@ -15,7 +15,6 @@ const sidebars = {
       items: [
         'getting-started/overview',
         'getting-started/whats-new',
-        'getting-started/system-requirements',
         'getting-started/evaluation-guide',
       ],
     },
@@ -23,12 +22,7 @@ const sidebars = {
       type: 'category',
       label: '⚙️ Installation & Setup',
       collapsed: true,
-      items: [
-        'installation-setup/installation-guide',
-        'installation-setup/database-setup',
-        'installation-setup/client-installation',
-        'installation-setup/post-installation',
-      ],
+      items: ['installation-setup/installation-guide'],
     },
     {
       type: 'category',
@@ -59,11 +53,7 @@ const sidebars = {
       type: 'category',
       label: '📖 User Guides',
       collapsed: true,
-      items: [
-        'user-guides/using-password-reset',
-        'user-guides/password-policy-client',
-        'user-guides/troubleshooting',
-      ],
+      items: ['user-guides/using-password-reset', 'user-guides/password-policy-client'],
     },
   ],
 };
