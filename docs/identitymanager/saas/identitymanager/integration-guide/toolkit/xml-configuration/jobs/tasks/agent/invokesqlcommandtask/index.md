@@ -14,7 +14,7 @@ script in the command line.
 
 **NOTE:** The database Identifier attribute has a specific location where the connection strings for
 the database identifiers need to be defined. See the
-[appsettings.agent](/docs/identitymanager/saas/identitymanager/integration-guide/network-configuration/agent-configuration/appsettings-agent/index.md)topic
+[appsettings.agent](/docs/identitymanager/saas/configuration/network/agent-settings/appsettings.md)topic
 for additional information.
 
 ## Properties

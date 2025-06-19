@@ -69,7 +69,7 @@ the **More** button is disabled.
 ![accesscertificationonlyapprovedeny-disabled](/img/product_docs/identitymanager/identitymanager/user-guide/set-up/configure-global-settings/accesscertificationonlyapprovedeny-disabled.webp)
 
 See the
-[Configure Global Settings](/docs/identitymanager/saas/identitymanager/user-guide/set-up/configure-global-settings/index.md)
+[Configure Global Settings](/docs/identitymanager/saas/configuration/index.md)
 topic for additional information.
 
 ## Properties

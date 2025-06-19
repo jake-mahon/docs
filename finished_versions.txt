@@ -1,5 +1,4 @@
 accessanalyzer/11.6
-accessinformationcenter/11.6
 accessinformationcenter/12.0
 activitymonitor/7.1
 activitymonitor/8.0

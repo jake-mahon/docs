@@ -168,22 +168,22 @@ See the [Governance](/docs/identitymanager/saas/identitymanager/introduction-gui
 
 ## Learn More
 
-Learn more on the [ Role Model ](/docs/identitymanager/saas/identitymanager/integration-guide/role-model/index.md).
+Learn more on the [ Role Model ](/docs/identitymanager/saas/role-management/role-model.md).
 
 Learn how to
-[ Create Roles in the Role Catalog ](/docs/identitymanager/saas/identitymanager/user-guide/set-up/single-roles-catalog-creation/index.md).
+[ Create Roles in the Role Catalog ](/docs/identitymanager/saas/role-management/index.md).
 
 Learn more on hoe to
-[Create a Composite Role](/docs/identitymanager/saas/identitymanager/user-guide/optimize/composite-role-creation/index.md).
+[Create a Composite Role](/docs/identitymanager/saas/role-management/index.md).
 
-Learn more on [Role Assignment](/docs/identitymanager/saas/identitymanager/integration-guide/role-assignment/index.md).
-
-Learn more on
-[ Create a Provisioning Rule ](/docs/identitymanager/saas/identitymanager/user-guide/set-up/provisioning-rule-creation/index.md).
+Learn more on [Role Assignment](/docs/identitymanager/saas/role-management/role-assignment/index.md).
 
 Learn more on
-[ Automate Role Assignments ](/docs/identitymanager/saas/identitymanager/user-guide/optimize/assignment-automation/automate-role-assignment/index.md)
+[ Create a Provisioning Rule ](/docs/identitymanager/saas/provisioning/index.md).
+
+Learn more on
+[ Automate Role Assignments ](/docs/identitymanager/saas/role-management/role-assignment/index.md)
 rules.
 
 Learn more on the rules of
-[ Categorize Resources ](/docs/identitymanager/saas/identitymanager/user-guide/set-up/categorization/index.md).
+[ Categorize Resources ](/docs/identitymanager/saas/connectors/configuration/index.md).

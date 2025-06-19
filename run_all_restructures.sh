@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Script to run restructure_docs.sh for all items in finished_versions.txt
+# Script to run restructure_docs.sh for all items in finished_versions.txt in parallel
 # Usage: ./run_all_restructures.sh
 
 # Check if finished_versions.txt exists
@@ -15,27 +15,22 @@ if [ ! -f "restructure_docs.sh" ]; then
     exit 1
 fi
 
-# Read each line from finished_versions.txt
-while IFS= read -r item || [ -n "$item" ]; do
-    # Skip empty lines
-    if [ -z "$item" ]; then
-        continue
-    fi
-    
-    # Construct the arguments
-    arg1="restructure/${item}/file-mappings.csv"
-    arg2="docs/${item}"
+# Function to process a single item
+process_item() {
+    local item="$1"
+    local arg1="restructure/${item}/file-mappings.csv"
+    local arg2="docs/${item}"
     
     # Check if the file-mappings.csv exists
     if [ ! -f "$arg1" ]; then
         echo "Warning: $arg1 not found, skipping $item"
-        continue
+        return 1
     fi
     
     # Check if the docs directory exists
     if [ ! -d "$arg2" ]; then
         echo "Warning: $arg2 directory not found, skipping $item"
-        continue
+        return 1
     fi
     
     echo "Processing: $item"
@@ -47,11 +42,23 @@ while IFS= read -r item || [ -n "$item" ]; do
     # Check if the command was successful
     if [ $? -eq 0 ]; then
         echo "  ✓ Successfully processed $item"
+        return 0
     else
         echo "  ✗ Error processing $item"
+        return 1
     fi
-    
-    echo ""
-done < finished_versions.txt
+}
 
+# Export the function so it's available to parallel
+export -f process_item
+
+# Get the number of CPU cores for optimal parallelization
+CORES=$(nproc 2>/dev/null || sysctl -n hw.ncpu 2>/dev/null || echo 4)
+echo "Running with parallelization (max $CORES jobs)..."
+echo ""
+
+# Process items in parallel using xargs directly from the file
+grep -v '^$' finished_versions.txt | xargs -P "$CORES" -I {} bash -c 'process_item "$@"' _ {}
+
+echo ""
 echo "All items processed."

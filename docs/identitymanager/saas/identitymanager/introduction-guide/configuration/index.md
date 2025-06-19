@@ -30,28 +30,28 @@ This is the end of the introduction guide, so you should now be able to dive int
 
 - The [User Guide](/docs/identitymanager/saas/identitymanager/user-guide/index.md) to configure Identity Manager from scratch via the UI,
   following the step-by-step procedures;
-- The [Integration Guide](/docs/identitymanager/saas/identitymanager/integration-guide/index.md) to complete Identity Manager's
+- The [Integration Guide](/docs/identitymanager/saas/getting-started/index.md) to complete Identity Manager's
   configuration in XML according to your needs;
-- The [Installation Guide](/docs/identitymanager/saas/identitymanager/installation-guide/index.md) to install Identity Manager in a
+- The [Installation Guide](/docs/identitymanager/saas/installation/index.md) to install Identity Manager in a
   production environment.
 
 ## Learn More
 
 Learn more on how to
-[ Create a Working Directory ](/docs/identitymanager/saas/identitymanager/installation-guide/production-ready/working-directory/index.md).
+[ Create a Working Directory ](/docs/identitymanager/saas/installation/production-setup/working-directory.md).
 
 See the [User Guide](/docs/identitymanager/saas/identitymanager/user-guide/index.md) topic to learn how to configure Identity Manager
 from scratch via the UI.
 
 See how to
-[ Export the Configuration ](/docs/identitymanager/saas/identitymanager/integration-guide/toolkit/how-tos/export-configuration/index.md)
+[ Export the Configuration ](/docs/identitymanager/saas/toolkit/export-configuration.md)
 to XML files.
 
 See how to
-[ Deploy the Configuration ](/docs/identitymanager/saas/identitymanager/integration-guide/toolkit/how-tos/deploy-configuration/index.md).
+[ Deploy the Configuration ](/docs/identitymanager/saas/toolkit/deploy-configuration.md).
 
 Learn more about the
-[ XML Configuration Schema ](/docs/identitymanager/saas/identitymanager/integration-guide/toolkit/xml-configuration/index.md).
+[ XML Configuration Schema ](/docs/identitymanager/saas/configuration/xml-configuration/index.md).
 
 Learn more about the
-[Network Configuration](/docs/identitymanager/saas/identitymanager/integration-guide/network-configuration/index.md).
+[Network Configuration](/docs/identitymanager/saas/configuration/network/index.md).

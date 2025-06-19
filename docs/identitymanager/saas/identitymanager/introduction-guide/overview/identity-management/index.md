@@ -115,13 +115,13 @@ Let's learn about [ Entitlement Management ](/docs/identitymanager/saas/identity
 Learn more on Identity Management .
 
 See how to
-[ Create the Workforce Repository ](/docs/identitymanager/saas/identitymanager/user-guide/set-up/initial-identities-loading/index.md).
+[ Create the Workforce Repository ](/docs/identitymanager/saas/identity-management/index.md).
 
-Learn more on [Connectors](/docs/identitymanager/saas/identitymanager/integration-guide/connectors/index.md).
+Learn more on [Connectors](/docs/identitymanager/saas/connectors/index.md).
 
 See how to create a
-[ Connect to a Managed System ](/docs/identitymanager/saas/identitymanager/user-guide/set-up/connect-system/index.md).
+[ Connect to a Managed System ](/docs/identitymanager/saas/connectors/how-to/index.md).
 
-Learn more on [Synchronization](/docs/identitymanager/saas/identitymanager/integration-guide/synchronization/index.md).
+Learn more on [Synchronization](/docs/identitymanager/saas/synchronization/index.md).
 
-Learn more on [Workflows](/docs/identitymanager/saas/identitymanager/integration-guide/workflows/index.md).
+Learn more on [Workflows](/docs/identitymanager/saas/configuration/index.md).
