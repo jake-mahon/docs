@@ -6,11 +6,11 @@ It performs the following functions:
 - Group owners (primary owner, additional owners, and Exchange additional owners) can set a start
   and end date to:
 
-    - Add an object as a temporary member of a group
-    - Remove a member for a temporary period from group membership
+  - Add an object as a temporary member of a group
+  - Remove a member for a temporary period from group membership
 
-    The Membership Life Cycle schedule temporarily adds and removes an object from group membership
-    on the specified dates.
+  The Membership Life Cycle schedule temporarily adds and removes an object from group membership
+  on the specified dates.
 
 - Managers and peers can join and leave a group temporarily on behalf of other users. When the
   Membership Life Cycle schedule runs, it adds and removes those users from group membership on the
@@ -81,7 +81,7 @@ Please note the following while selecting a Scheduler service:
 Step 9 – You can specify containers as targets for the schedule. The schedule will process all
 groups in these containers and their sub-containers. To specific containers as target, follow step 9
 in the
-[Create a Group Usage Service Schedule](groupusageservice.md#create-a-group-usage-service-schedule)
+[Create a Group Usage Service Schedule](/docs/directorymanager/11.1/directorymanager/admincenter/schedule/groupusageservice.md#create-a-group-usage-service-schedule)
 topic for additional information.
 
 NOTE: Membership Lifecycle policies are not applied to OUs specified here. Target OUs and groups are
@@ -89,17 +89,17 @@ set in the respective policy.
 
 Step 10 – Click **Add Triggers** in the Triggers area to specify a triggering criterion for the
 schedule, that, when met, starts the execution of the schedule. Follow step 11 in the
-[Create a Group Usage Service Schedule](groupusageservice.md#create-a-group-usage-service-schedule)
+[Create a Group Usage Service Schedule](/docs/directorymanager/11.1/directorymanager/admincenter/schedule/groupusageservice.md#create-a-group-usage-service-schedule)
 topic to add triggers.
 
 Step 11 – Click **Add Authentication** in the Authentication area to specify an account for running
 the schedule in the identity store. Follow step 12 in the
-[Create a Group Usage Service Schedule](groupusageservice.md#create-a-group-usage-service-schedule)
+[Create a Group Usage Service Schedule](/docs/directorymanager/11.1/directorymanager/admincenter/schedule/groupusageservice.md#create-a-group-usage-service-schedule)
 topic for additional information.
 
 Step 12 – On the Create Schedule page, click **Create Schedule**.
 
 Step 13 – On the Schedules page, click **Save**.  
 The schedule is displayed under **Membership Life Cycle**. See the
-[View the Schedules in an Identity Store ](manage.md#view-the-schedules-in-an-identity-store) topic
+[View the Schedules in an Identity Store ](/docs/directorymanager/11.1/directorymanager/admincenter/schedule/manage.md#view-the-schedules-in-an-identity-store) topic
 for additional information.

@@ -45,8 +45,8 @@ schedule:
 - Directory Manager takes a backup of the group’s membership.
 - It empties out the group’s membership in Office 365.
 
-    NOTE: When an Office 365 group is expired, its member list is backed up in the database and
-    cleared from Office 365.
+  NOTE: When an Office 365 group is expired, its member list is backed up in the database and
+  cleared from Office 365.
 
 On renewing an expired distribution group, the following happens:
 
@@ -90,7 +90,7 @@ Smart Groups and Dynasties are restored as static groups with no members and no 
 
 Groups that are deleted by the Group Life Cycle schedule are considered as logically deleted. The
 schedule deletes expired groups x number of days after group expiry, as specified in the
-[Auto Delete Expired Groups](grouplifecycle.md#auto-delete-expired-groups) topic.
+[Auto Delete Expired Groups](/docs/directorymanager/11.1/directorymanager/admincenter/identitystore/configure/directoryservice/grouplifecycle.md#auto-delete-expired-groups) topic.
 
 On deletion, logically deleted groups are moved to the Recycle Bin with all their attributes intact.
 As a result, a logically deleted group, when restored, returns to its state it had at the time of

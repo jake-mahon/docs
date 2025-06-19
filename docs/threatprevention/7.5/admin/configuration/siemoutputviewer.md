@@ -52,7 +52,7 @@ application like Notepad to examine it in detail.
 
 **NOTE:** The host, port, protocol, and SSL columns display the settings configured for the SIEM
 server where the respective message is sent. See the
-[Configure a SIEM Server ](systemalerting/siem.md#configure-a-siem-server) topic for additional
+[Configure a SIEM Server ](/docs/threatprevention/7.5/admin/configuration/systemalerting/siem.md#configure-a-siem-server) topic for additional
 information.
 
 This data grid employs features for sorting, filtering, searching, and more.

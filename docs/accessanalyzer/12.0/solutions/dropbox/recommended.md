@@ -78,9 +78,9 @@ modified:
 
 - Stale content set to default of 365 days
 
-    - Configured within the **4.Content** > **Dropbox_Content** job
-    - **Determines stale data by owner** analysis task
-    - See the [4.Content > Dropbox_Content Job](/docs/accessanalyzer/12.0/solutions/dropbox/dropbox_content.md) topic for additional information
+  - Configured within the **4.Content** > **Dropbox_Content** job
+  - **Determines stale data by owner** analysis task
+  - See the [4.Content > Dropbox_Content Job](/docs/accessanalyzer/12.0/solutions/dropbox/dropbox_content.md) topic for additional information
 
 Additional Consideration
 
@@ -102,5 +102,5 @@ Scan** job).
 
 _Remember,_ prior to running the Dropbox solution for the first time, it is necessary to generate an
 access token to be used in the Connection Profile. This only needs to be done once. See the
-[Configure the Dropbox Access Query](collection/1-dropbox_permissions_scan.md#configure-the-dropbox-access-query)
+[Configure the Dropbox Access Query](/docs/accessanalyzer/12.0/solutions/dropbox/collection/1-dropbox_permissions_scan.md#configure-the-dropbox-access-query)
 topic for additional information.

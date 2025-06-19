@@ -36,7 +36,7 @@ topic for instructions.
 
 The account used to run the Netwrix Auditor Access Reviews service can be updated using Services
 Control Manager console. See the
-[Modify the Service Account via Service Control Manager](serviceaccount.md#modify-the-service-account-via-service-control-manager)
+[Modify the Service Account via Service Control Manager](/docs/auditor/10.7/access/reviews/admin/troubleshooting/serviceaccount.md#modify-the-service-account-via-service-control-manager)
 topic for instructions.
 
 ## Builtin Administrator Account

@@ -15,9 +15,9 @@ A portal is hosted on a web server, with native IIS, remote IIS, and Docker as t
 servers.
 
 - IIS Deployment - Your Directory Manager portal is hosted within a site in IIS. To launch IIS, see
-  [Opening IIS Manager](https://learn.microsoft.com/en-us/previous-versions/iis/6.0-sdk/ms525920(v=vs.90)).
+  [Opening IIS Manager](<https://learn.microsoft.com/en-us/previous-versions/iis/6.0-sdk/ms525920(v=vs.90)>).
 
-    ![in_iis](/img/product_docs/directorymanager/directorymanager/admincenter/portal/in_iis.webp)
+  ![in_iis](/img/product_docs/directorymanager/directorymanager/admincenter/portal/in_iis.webp)
 
 - Docker Deployment - For a Docker deployment, make sure you have a running instance of Docker
   daemon in your environment. A portal runs within a container in Docker.
@@ -76,28 +76,28 @@ located on disk.
    The application name and deployment name are displayed on the portal card on the **GroupID
    Portal** tab.
 
-    ![portal_card](/img/product_docs/directorymanager/directorymanager/admincenter/portal/portal_card.webp)
+   ![portal_card](/img/product_docs/directorymanager/directorymanager/admincenter/portal/portal_card.webp)
 
 7. In the **IIS Application Name** box, enter an IIS deployment name for the portal. This name
    should be unique for each portal deployed in IIS.
 
-    - The IIS application name is used to name the portal's directory in IIS and its physical
-      directory under **X:\Program Files\Imanami\GroupID 11.0\GroupIDPortal\Inetpub** on the
-      Directory Manager server.  
-      (X represents the Directory Manager installation drive)
-    - This IIS application name is also appended to the web server address to construct the URL that
-      users click to access this deployment instance of the portal. For example:  
-      `https://web-server-name:port/IIS-application-name`  
-      Hence, a different URL is constructed for each deployment of a portal in IIS.
+   - The IIS application name is used to name the portal's directory in IIS and its physical
+     directory under **X:\Program Files\Imanami\GroupID 11.0\GroupIDPortal\Inetpub** on the
+     Directory Manager server.  
+     (X represents the Directory Manager installation drive)
+   - This IIS application name is also appended to the web server address to construct the URL that
+     users click to access this deployment instance of the portal. For example:  
+     `https://web-server-name:port/IIS-application-name`  
+     Hence, a different URL is constructed for each deployment of a portal in IIS.
 
 8. In the **IIS Site** drop-down list, select a website to host the portal files. The list displays
    the websites defined on the native IIS server. _GroupIDSite11_ is the default selection.
 9. In the **Service Endpoints** area, bind a Data service and a Security service with the portal.
 
-    1. In the **Data Service** drop-down list, select a Data service for the portal to use. The list
-       contains all Data services defined in Directory Manager.
-    2. In the **Security Service** drop-down list, select a Security service for the portal to use.
-       Thelist contains all Security services defined in Directory Manager.
+   1. In the **Data Service** drop-down list, select a Data service for the portal to use. The list
+      contains all Data services defined in Directory Manager.
+   2. In the **Security Service** drop-down list, select a Security service for the portal to use.
+      Thelist contains all Security services defined in Directory Manager.
 
 10. In the **Support Information** area, enter internal contact information and resource links for
     the portal's users to obtain help while using the portal.  
@@ -361,11 +361,11 @@ multiple instances.
    Information**, **Select Identity Stores**, and **Advanced Settings** areas are not available, as
    they remain the same for all instances.
 
-    - To deploy an instance in native IIS, follow steps 6-9 in the Create a Portal in Native IIS
-      topic.
-    - To deploy an instance in remote IIS, follow steps 6-12 in the Create a Portal in Remote IIS
-      topic.
-    - To deploy an instance in Docker, follow steps 6-10 in the Create a Portal in Docker topic.
+   - To deploy an instance in native IIS, follow steps 6-9 in the Create a Portal in Native IIS
+     topic.
+   - To deploy an instance in remote IIS, follow steps 6-12 in the Create a Portal in Remote IIS
+     topic.
+   - To deploy an instance in Docker, follow steps 6-10 in the Create a Portal in Docker topic.
 
 5. After entering the required information, click **Deploy Instance**.  
    The new instance is displayed on the portal's card.
@@ -390,19 +390,19 @@ can choose to deploy the new portal in any of the supported web servers. Conside
    The **Copy GroupID Application** page is displayed; populated with the following settings of the
    copied portal:
 
-    - The Data service and Security service linked to the portal
-    - The support information for the portal, i.e., the admin/helpdesk contact email address and the
-      portal's help URL
-    - The identity store(s) associated with the portal
+   - The Data service and Security service linked to the portal
+   - The support information for the portal, i.e., the admin/helpdesk contact email address and the
+     portal's help URL
+   - The identity store(s) associated with the portal
 
 3. You can deploy the new portal in native IIS, remote IIS, or Docker.
 
-    - To specify settings for a native IIS deployment, follow the instructions in the Create a
-      Portal in Native IIS topic, beginning at step 4.
-    - To specify settings for a remote IIS deployment, follow the instructions in the Create a
-      Portal in Remote IIS topic, beginning at step 4.
-    - To specify settings for a Docker deployment, follow the instructions in the Create a Portal in
-      Docker topic, beginning at step 4.
+   - To specify settings for a native IIS deployment, follow the instructions in the Create a
+     Portal in Native IIS topic, beginning at step 4.
+   - To specify settings for a remote IIS deployment, follow the instructions in the Create a
+     Portal in Remote IIS topic, beginning at step 4.
+   - To specify settings for a Docker deployment, follow the instructions in the Create a Portal in
+     Docker topic, beginning at step 4.
 
 ## View the Details of a Portal
 
@@ -410,14 +410,14 @@ can choose to deploy the new portal in any of the supported web servers. Conside
    The **GroupID Portal** tab displays the portals that you have created.
 2. The card for a portal displays the following information:
 
-    | Info                 | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
-    | -------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-    | Name                 | The name given to the portal. Next to the portal name is the portal logo, which enables you to differentiate between a standard Directory Manager portal and a SSPR portal, as each portal type has its own logo.                                                                                                                                                                                                                                                                                                                                                                                                                |
-    | Identity Stores      | The names of the identity stores the portal serves.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
-    | Deployment Instances | Displays the deployment instance(s) of the portal as tiles. A tile shows the deployment name of the instance and the web server where it is deployed.                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
-    | Status               | A portal has one of the following statuses: - **Running:** Indicates that the portal is up and running. - **Stopped:** Indicates that Directory Manager is unable to communicate with the portal. To troubleshoot, go to the web server where the portal is deployed and make sure the portal is running. - **Error:** Any issue other than _stopped_ is categorized as _error_. In this case, contact your system administrator.                                                                                                                                                                                                |
-    | Launch Application   | Click this link to launch the portal. When multiple deployments of a portal are available, select the tile for a deployment instance and click this link to launch that instance.                                                                                                                                                                                                                                                                                                                                                                                                                                                |
-    | Ellipsis             | Click it to launch a shortcut menu with the following options: - **Settings:** Launches the portal settings page, where you can manage server and design settings. - **Server Settings:** Includes the deployment details of each portal instance, the help URL for the portal, the identity stores linked with the portal, and more. - **Design settings:** These settings relate to the portal's user interface. - **Deploy Another Instance:** Enables you to deploy another instance of the portal. - **Copy:** Enables you to create a new portal by copying the settings of this portal. - **Delete:** Deletes the portal. |
+   | Info                 | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
+   | -------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+   | Name                 | The name given to the portal. Next to the portal name is the portal logo, which enables you to differentiate between a standard Directory Manager portal and a SSPR portal, as each portal type has its own logo.                                                                                                                                                                                                                                                                                                                                                                                                                |
+   | Identity Stores      | The names of the identity stores the portal serves.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
+   | Deployment Instances | Displays the deployment instance(s) of the portal as tiles. A tile shows the deployment name of the instance and the web server where it is deployed.                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
+   | Status               | A portal has one of the following statuses: - **Running:** Indicates that the portal is up and running. - **Stopped:** Indicates that Directory Manager is unable to communicate with the portal. To troubleshoot, go to the web server where the portal is deployed and make sure the portal is running. - **Error:** Any issue other than _stopped_ is categorized as _error_. In this case, contact your system administrator.                                                                                                                                                                                                |
+   | Launch Application   | Click this link to launch the portal. When multiple deployments of a portal are available, select the tile for a deployment instance and click this link to launch that instance.                                                                                                                                                                                                                                                                                                                                                                                                                                                |
+   | Ellipsis             | Click it to launch a shortcut menu with the following options: - **Settings:** Launches the portal settings page, where you can manage server and design settings. - **Server Settings:** Includes the deployment details of each portal instance, the help URL for the portal, the identity stores linked with the portal, and more. - **Design settings:** These settings relate to the portal's user interface. - **Deploy Another Instance:** Enables you to deploy another instance of the portal. - **Copy:** Enables you to create a new portal by copying the settings of this portal. - **Delete:** Deletes the portal. |
 
 You may notice a portal with an orange card and an orange icon on the card. On hovering the mouse
 over the icon, the tooltip says that _linked mode will not be allowed_. This relates to the scenario
@@ -433,13 +433,13 @@ to benefit from the linking.
 1. In Admin Center, select **Applications** in the left pane.
 2. On the **GroupID Portal** tab, click **Launch Application** on a portal's card to launch it.
 
-    When multiple deployments of a portal are available, select a deployment instance on the card
-    and click **Launch Application** to launch that instance.
+   When multiple deployments of a portal are available, select a deployment instance on the card
+   and click **Launch Application** to launch that instance.
 
-    Provide the URL of an instance to your users so they can access the portal. You can either copy
-    the URL from the address bar or from a portal's deployment settings. See the
-    [View the Launch URL for an Instance](server/nativeiis.md#view-the-launch-url-for-an-instance)
-    topic.
+   Provide the URL of an instance to your users so they can access the portal. You can either copy
+   the URL from the address bar or from a portal's deployment settings. See the
+   [View the Launch URL for an Instance](/docs/directorymanager/11.1/directorymanager/admincenter/portal/server/nativeiis.md#view-the-launch-url-for-an-instance)
+   topic.
 
 **See Also**
 

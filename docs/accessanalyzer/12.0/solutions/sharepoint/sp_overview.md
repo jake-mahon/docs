@@ -7,9 +7,9 @@ found during scans.
 ![SP_Overview Job in the Jobs Tree](/img/product_docs/accessanalyzer/solutions/sharepoint/overviewjobstree.webp)
 
 It is dependent on data collected by the
-[SharePoint Access Auditing](collection/overview.md#sharepoint-access-auditing),
-[SharePoint Sensitive Data Discovery Auditing (SEEK)](collection/overview.md#sharepoint-sensitive-data-discovery-auditing-seek),
-and [SharePoint Activity Auditing](collection/overview.md#sharepoint-activity-auditing) components
+[SharePoint Access Auditing](/docs/accessanalyzer/12.0/solutions/sharepoint/collection/overview.md#sharepoint-access-auditing),
+[SharePoint Sensitive Data Discovery Auditing (SEEK)](/docs/accessanalyzer/12.0/solutions/sharepoint/collection/overview.md#sharepoint-sensitive-data-discovery-auditing-seek),
+and [SharePoint Activity Auditing](/docs/accessanalyzer/12.0/solutions/sharepoint/collection/overview.md#sharepoint-activity-auditing) components
 of the [0.Collection Job Group](/docs/accessanalyzer/12.0/solutions/sharepoint/collection/overview.md). It also depends on the running of the
 sub-job groups within the solution. If only select sub-job groups have been run, there will be blank
 sections of this overview report.

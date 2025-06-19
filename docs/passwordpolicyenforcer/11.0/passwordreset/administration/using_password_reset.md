@@ -18,7 +18,7 @@ explained on the following pages.
 **CAUTION:** The connection between the Web Interface and Password Reset Server is always encrypted.
 Install an SSL certificate on the web server and use HTTPS to encrypt connections from the browser
 to the web server. See the
-[Installing and Using an SSL Certificate](securing_password_reset.md#installing-and-using-an-ssl-certificate)
+[Installing and Using an SSL Certificate](/docs/passwordpolicyenforcer/11.0/passwordreset/administration/securing_password_reset.md#installing-and-using-an-ssl-certificate)
 topic for more information.
 
 ## Enroll
@@ -27,7 +27,7 @@ Only enrolled users can reset their password and unlock their account. Users can
 answering some questions about themselves, or they can be enrolled automatically if automatic
 enrollment is enabled. Users only need to enroll once, but they can enroll again if they are locked
 out of Password Reset, or if they want to change their questions or answers. See the
-[Verification Codes](verification_tab.md#verification-codes) and
+[Verification Codes](/docs/passwordpolicyenforcer/11.0/passwordreset/administration/verification_tab.md#verification-codes) and
 [Verification Tab](/docs/passwordpolicyenforcer/11.0/passwordreset/administration/verification_tab.md) topics for more information.
 
 Follow the steps below to manually enroll into Password Reset.
@@ -39,7 +39,7 @@ Follow the steps below to manually enroll into Password Reset.
 **Step 2 –** Type a **Username**, **Domain**, and **Password**.
 
 **Step 3 –** Type an e-mail address if the **E-mail** text box is visible. See the
-[Options](enroll_tab.md#options) topic for more information.
+[Options](/docs/passwordpolicyenforcer/11.0/passwordreset/administration/enroll_tab.md#options) topic for more information.
 
 **Step 4 –** Select a question from each of the **Question** drop-down lists, and type an answer to
 each question in the **Answer** text boxes.
@@ -110,7 +110,7 @@ phone by e-mail or SMS. Type the **Code**, and then click **Next**.
 
 **NOTE:** The Unlock feature unlocks accounts in Active Directory. Users who are locked out of
 Password Reset should re-enroll to gain access to Password Reset. See the
-[Verification Codes](verification_tab.md#verification-codes) topic for more information.
+[Verification Codes](/docs/passwordpolicyenforcer/11.0/passwordreset/administration/verification_tab.md#verification-codes) topic for more information.
 
 ## Change
 
@@ -153,4 +153,4 @@ control.
 
 Validation and critical error messages are stored in the HTML templates. You can modify the default
 messages by editing the templates. See the
-[Resource Strings](editing_the_html_templates.md#resource-strings) topic for more information.
+[Resource Strings](/docs/passwordpolicyenforcer/11.0/passwordreset/administration/editing_the_html_templates.md#resource-strings) topic for more information.

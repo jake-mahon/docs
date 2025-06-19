@@ -44,7 +44,7 @@ Query Configuration
 
 This solution is designed to be run with the default query configurations. However, the
 MySQL_SensitiveDataScan Job query can be customized as needed. See the
-[Configure the SensitiveDataScan Query](collection/mysql_sensitivedatascan.md#configure-the-sensitivedatascan-query)
+[Configure the SensitiveDataScan Query](/docs/accessanalyzer/12.0/solutions/databases/mysql/collection/mysql_sensitivedatascan.md#configure-the-sensitivedatascan-query)
 topic for additional information.
 
 Analysis Configuration

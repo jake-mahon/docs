@@ -14,60 +14,60 @@ The following auditing modes are available for Oracle Database 12c, 18c, 19c:
   on how to enable Unified Auditing:
   [Enabling Unified Auditing](http://www.oracle.com/webfolder/technetwork/tutorials/obe/db/12c/r1/security/sec_uni_audit/sec_uni_audit.html).
 
-    Perform the following steps to configure Unified Auditing on your Oracle Database:
+  Perform the following steps to configure Unified Auditing on your Oracle Database:
 
-    1. Create and enable an audit policy to audit specific parameters across your Oracle Database.
+  1. Create and enable an audit policy to audit specific parameters across your Oracle Database.
 
-        After an audit policy has been enabled or disabled, Netwrix Auditor starts collecting data
-        after a successful logon session.
+     After an audit policy has been enabled or disabled, Netwrix Auditor starts collecting data
+     after a successful logon session.
 
-    2. If needed, create and enable specific audit policies to audit successful data access and
-       changes, user actions, component actions, etc.
+  2. If needed, create and enable specific audit policies to audit successful data access and
+     changes, user actions, component actions, etc.
 
 - Mixed Mode—Default auditing in a newly installed database. It enables both traditional and the new
   **Unified Auditing** facilities. Netwrix recommends using **Unified Auditing** mode if you do not
   have any trail audit facilities in your infrastructure.
 
-    The product does not log any errors on these events to the Netwrix Auditor System Health log.
+  The product does not log any errors on these events to the Netwrix Auditor System Health log.
 
 To configure Oracle Database 12c, 18c, 19c Unified Auditing
 
 1. On the computer where your database is deployed, run the sqlplus tool.
 2. Connect to your Oracle Database—use Oracle account with the `SYSDBA` privilege. For example:
 
-    `OracleUser as sysdba`
+   `OracleUser as sysdba`
 
-    Enter your password.
+   Enter your password.
 
 3. Create and enable audit policies. You can set them to audit the following:
 
-    - Configuration changes
-    - Successful and failed data access and changes
-    - `Oracle Data Pump`, `Oracle Recovery Manager (RMAN)` and `Oracle SQL*Loader Direct Path Load`
-      components | To monitor... | Execute the command... | | --- | --- | | Configuration changes
-      | - Create an audit policy (e.g., `nwx_actions_pol`) for any user:
-      `CREATE AUDIT POLICY nwx_actions_pol ACTIONS      CREATE TABLE,DROP TABLE,ALTER TABLE,GRANT,REVOKE,     CREATE VIEW,DROP VIEW,CREATE PROCEDURE,     ALTER PROCEDURE,RENAME,AUDIT,NOAUDIT,     ALTER DATABASE,ALTER USER,ALTER SYSTEM,     CREATE USER,CREATE ROLE,SET ROLE,DROP USER,     DROP ROLE,CREATE TRIGGER,ALTER TRIGGER,     DROP TRIGGER,CREATE PROFILE,DROP PROFILE,     ALTER PROFILE,DROP PROCEDURE,     CREATE MATERIALIZED VIEW,DROP MATERIALIZED VIEW,     ALTER ROLE,TRUNCATE TABLE,CREATE FUNCTION,     ALTER FUNCTION,DROP FUNCTION,CREATE PACKAGE,     ALTER PACKAGE,DROP PACKAGE,CREATE PACKAGE BODY,     ALTER PACKAGE BODY,DROP PACKAGE BODY,LOGON,LOGOFF,     CREATE DIRECTORY,DROP DIRECTORY,CREATE JAVA,     ALTER JAVA,DROP JAVA,PURGE TABLE,     CREATE PLUGGABLE DATABASE,ALTER PLUGGABLE DATABASE,     DROP PLUGGABLE DATABASE,CREATE AUDIT POLICY,     ALTER AUDIT POLICY,DROP AUDIT POLICY,     CREATE FLASHBACK ARCHIVE,ALTER FLASHBACK ARCHIVE,     DROP FLASHBACK ARCHIVE;` -
-      Enable the audit policy: `AUDIT POLICY nwx_actions_pol;` To disable audit policy, use the
-      following command: `NOAUDIT POLICY nwx_actions_pol;` | | Data access and changes (successful
-      and failed) | - Create the audit policy (e.g., `nwx_actions_obj_pol`):
-      `CREATE AUDIT POLICY nwx_actions_obj_pol ACTIONS      DELETE on hr.employees, INSERT on hr.employees,      UPDATE on hr.employees, SELECT on hr.employees, FLASHBACK on hr.employees CONTAINER = CURRENT;` -
-      Enable the audit policy (e.g., `nwx_actions_obj_pol`): `AUDIT POLICY nwx_actions_obj_pol;` | |
-      Component actions: `Oracle Data Pump`, `Oracle Recovery Manager`, and
-      `Oracle SQL*Loader Direct Path Load` | - Create the audit policies (e.g.,
-      `nwx_sqlloader_dp_pol`, etc.): No special configuration required to audit RMAN events.
-      `CREATE AUDIT POLICY nwx_datapump_exp_pol ACTIONS COMPONENT=DATAPUMP EXPORT;`
-      `CREATE AUDIT POLICY nwx_datapump_imp_pol ACTIONS COMPONENT=DATAPUMP IMPORT;`
-      `CREATE AUDIT POLICY nwx_sqlloader_dp_pol ACTIONS COMPONENT=DIRECT_LOAD LOAD;` - Enable these
-      policies: `AUDIT POLICY nwx_datapump_exp_pol;` `AUDIT POLICY nwx_datapump_imp_pol;`
-      `AUDIT POLICY nwx_sqlloader_dp_pol;` |
+   - Configuration changes
+   - Successful and failed data access and changes
+   - `Oracle Data Pump`, `Oracle Recovery Manager (RMAN)` and `Oracle SQL*Loader Direct Path Load`
+     components | To monitor... | Execute the command... | | --- | --- | | Configuration changes
+     | - Create an audit policy (e.g., `nwx_actions_pol`) for any user:
+     `CREATE AUDIT POLICY nwx_actions_pol ACTIONS      CREATE TABLE,DROP TABLE,ALTER TABLE,GRANT,REVOKE,     CREATE VIEW,DROP VIEW,CREATE PROCEDURE,     ALTER PROCEDURE,RENAME,AUDIT,NOAUDIT,     ALTER DATABASE,ALTER USER,ALTER SYSTEM,     CREATE USER,CREATE ROLE,SET ROLE,DROP USER,     DROP ROLE,CREATE TRIGGER,ALTER TRIGGER,     DROP TRIGGER,CREATE PROFILE,DROP PROFILE,     ALTER PROFILE,DROP PROCEDURE,     CREATE MATERIALIZED VIEW,DROP MATERIALIZED VIEW,     ALTER ROLE,TRUNCATE TABLE,CREATE FUNCTION,     ALTER FUNCTION,DROP FUNCTION,CREATE PACKAGE,     ALTER PACKAGE,DROP PACKAGE,CREATE PACKAGE BODY,     ALTER PACKAGE BODY,DROP PACKAGE BODY,LOGON,LOGOFF,     CREATE DIRECTORY,DROP DIRECTORY,CREATE JAVA,     ALTER JAVA,DROP JAVA,PURGE TABLE,     CREATE PLUGGABLE DATABASE,ALTER PLUGGABLE DATABASE,     DROP PLUGGABLE DATABASE,CREATE AUDIT POLICY,     ALTER AUDIT POLICY,DROP AUDIT POLICY,     CREATE FLASHBACK ARCHIVE,ALTER FLASHBACK ARCHIVE,     DROP FLASHBACK ARCHIVE;` -
+     Enable the audit policy: `AUDIT POLICY nwx_actions_pol;` To disable audit policy, use the
+     following command: `NOAUDIT POLICY nwx_actions_pol;` | | Data access and changes (successful
+     and failed) | - Create the audit policy (e.g., `nwx_actions_obj_pol`):
+     `CREATE AUDIT POLICY nwx_actions_obj_pol ACTIONS      DELETE on hr.employees, INSERT on hr.employees,      UPDATE on hr.employees, SELECT on hr.employees, FLASHBACK on hr.employees CONTAINER = CURRENT;` -
+     Enable the audit policy (e.g., `nwx_actions_obj_pol`): `AUDIT POLICY nwx_actions_obj_pol;` | |
+     Component actions: `Oracle Data Pump`, `Oracle Recovery Manager`, and
+     `Oracle SQL*Loader Direct Path Load` | - Create the audit policies (e.g.,
+     `nwx_sqlloader_dp_pol`, etc.): No special configuration required to audit RMAN events.
+     `CREATE AUDIT POLICY nwx_datapump_exp_pol ACTIONS COMPONENT=DATAPUMP EXPORT;`
+     `CREATE AUDIT POLICY nwx_datapump_imp_pol ACTIONS COMPONENT=DATAPUMP IMPORT;`
+     `CREATE AUDIT POLICY nwx_sqlloader_dp_pol ACTIONS COMPONENT=DIRECT_LOAD LOAD;` - Enable these
+     policies: `AUDIT POLICY nwx_datapump_exp_pol;` `AUDIT POLICY nwx_datapump_imp_pol;`
+     `AUDIT POLICY nwx_sqlloader_dp_pol;` |
 
 4. If necessary, enable more granular audit policies.
 
-    | To...                                                                             | Execute the command...                                                  |
-    | --------------------------------------------------------------------------------- | ----------------------------------------------------------------------- |
-    | Apply audit policy to selected users                                              | `AUDIT POLICY nwx_actions_pol BY SYS, SYSTEM, <user_name>; `            |
-    | Exclude user actions from being audited (e.g., exclude failed `Operator` actions) | `AUDIT POLICY nwx_actions_pol EXCEPT Operator WHENEVER NOT SUCCESSFUL;` |
-    | Audit successful actions of selected user (e.g., `Operator`)                      | `AUDIT POLICY nwx_actions_pol BY Operator WHENEVER SUCCESSFUL;`         |
+   | To...                                                                             | Execute the command...                                                  |
+   | --------------------------------------------------------------------------------- | ----------------------------------------------------------------------- |
+   | Apply audit policy to selected users                                              | `AUDIT POLICY nwx_actions_pol BY SYS, SYSTEM, <user_name>; `            |
+   | Exclude user actions from being audited (e.g., exclude failed `Operator` actions) | `AUDIT POLICY nwx_actions_pol EXCEPT Operator WHENEVER NOT SUCCESSFUL;` |
+   | Audit successful actions of selected user (e.g., `Operator`)                      | `AUDIT POLICY nwx_actions_pol BY Operator WHENEVER SUCCESSFUL;`         |
 
 For additional information on `CREATE AUDIT POLICY` and `AUDIT POLICY` parameters, see the following
 Oracle Database administration documents:
@@ -96,7 +96,7 @@ This section explains how to configure **Standard Auditing** on your Oracle Data
 for monitoring with the product.
 
 Starting with version 10.5, Auditor provides limited support of Oracle Database 11g. See the
-[Considerations for Oracle Database 11g](overview.md#considerations-for-oracle-database-11g) topic
+[Considerations for Oracle Database 11g](/docs/auditor/10.7/auditor/configuration/oracle/overview.md#considerations-for-oracle-database-11g) topic
 for additional information.
 
 Verify that Oracle Data Provider for .NET and Oracle Instant Client are installed and properly

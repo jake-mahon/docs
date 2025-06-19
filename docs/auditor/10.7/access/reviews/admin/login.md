@@ -13,11 +13,11 @@ the application in their default browser. Alternatively, the localhost URL can b
 
 - HTTP URL
 
-    - http://localhost:81
+  - http://localhost:81
 
 - HTTPS URL
 
-    - https://localhost:481
+  - https://localhost:481
 
 Remote Access
 
@@ -30,7 +30,7 @@ administrators may be necessary to make the web server accessible to remote user
 configurations, DNS settings, etc.).
 
 The server name in the URL can be replaced with an alias. See the
-[Notification Options](configuration/notifications.md#notification-options) topic for additional
+[Notification Options](/docs/auditor/10.7/access/reviews/admin/configuration/notifications.md#notification-options) topic for additional
 information.
 
 ## Login Page

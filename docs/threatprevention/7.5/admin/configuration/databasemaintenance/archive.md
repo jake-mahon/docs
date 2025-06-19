@@ -22,9 +22,9 @@ Maintenance window is displayed. Click the **Archive DB** tab.
 - Port – Instance port number, by default this is set to 0
 - Database – Name of the archive database
 - Authentication
-    - For Windows Authentication – Check the Use Windows Authentication box
-    - For SQL Authentication – Enter theuser name and password of an account to use for SQL
-      authentication
+  - For Windows Authentication – Check the Use Windows Authentication box
+  - For SQL Authentication – Enter theuser name and password of an account to use for SQL
+    authentication
 
 **Step 3 –** Click **Save** to save the configurations.
 
@@ -66,14 +66,14 @@ The following information is displayed at the top of the window:
 > > - Oldest Data – Date of the oldest data in the database
 
 - Job Information:
-    - Last run – Date timestamp when the last database maintenance job was executed
-    - Status – Status of the job. Different statuses are:
-        - Idle – Indicates that no database maintenance task is running
-        - Succeeded – Indicates that the most recent job finished without error
-        - Running – Indicates that a job is running
-        - Error – Indicates that the job started but terminated on an error
-    - Running Step – During job execution, this field populates with the step being executed
-    - Elapsed Time – Overall elapsed time of job execution
+  - Last run – Date timestamp when the last database maintenance job was executed
+  - Status – Status of the job. Different statuses are:
+    - Idle – Indicates that no database maintenance task is running
+    - Succeeded – Indicates that the most recent job finished without error
+    - Running – Indicates that a job is running
+    - Error – Indicates that the job started but terminated on an error
+  - Running Step – During job execution, this field populates with the step being executed
+  - Elapsed Time – Overall elapsed time of job execution
 
 The Refresh button in the upper-right corner refreshes this database and job information.
 
@@ -88,8 +88,8 @@ Agent that will run the maintenance job.
 **Step 4 –** On the Event Type, Analytics, and/or Policy tabs, enable maintenance for all or some of
 the options. See the [Enable Database Maintenance](/docs/threatprevention/7.5/admin/configuration/databasemaintenance/enable.md) topic for additional information.
 
-The [Event Type Tab](overview.md#event-type-tab), [Analytics Tab](overview.md#analytics-tab), and
-[Policy Tab](overview.md#policy-tab) on the Archive DB Maintenance window are the same as on the
+The [Event Type Tab](/docs/threatprevention/7.5/admin/configuration/databasemaintenance/overview.md#event-type-tab), [Analytics Tab](/docs/threatprevention/7.5/admin/configuration/databasemaintenance/overview.md#analytics-tab), and
+[Policy Tab](/docs/threatprevention/7.5/admin/configuration/databasemaintenance/overview.md#policy-tab) on the Archive DB Maintenance window are the same as on the
 Database Maintenance window, except that only the 'Delete' operation is available for the archive
 database.
 

@@ -66,7 +66,7 @@ New: Granular AD Authentication Control
 
 Enable or disable "Other Login" (AD authentication) for more granular access control, minimizing
 potential security risks. See the
-[Set Authentication as Default Login](admin/configuration/page/authentication.md#set-authentication-as-default-login)
+[Set Authentication as Default Login](/docs/privilegesecure/4.2/privilegesecure/accessmanagement/admin/configuration/page/authentication.md#set-authentication-as-default-login)
 topic for additional information.
 
 Enhancement: Expanded SIEM Integration

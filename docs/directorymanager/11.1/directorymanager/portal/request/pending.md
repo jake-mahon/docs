@@ -14,6 +14,6 @@ to view more details, such as the field changed along with its old and new value
 
 You can perform the following functions on **Requests Inbox** page:
 
-- [Approve a request](allrequest.md#approve-a-request).
-- [Deny a request](allrequest.md#deny-a-request).
-- [Filter requests](allrequest.md#filter-requests).
+- [Approve a request](/docs/directorymanager/11.1/directorymanager/portal/request/allrequest.md#approve-a-request).
+- [Deny a request](/docs/directorymanager/11.1/directorymanager/portal/request/allrequest.md#deny-a-request).
+- [Filter requests](/docs/directorymanager/11.1/directorymanager/portal/request/allrequest.md#filter-requests).

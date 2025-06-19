@@ -32,7 +32,7 @@ You can create multiple Data services and Security services while hosting them o
 servers. For example, you can host one Data service in native IIS and another in Docker.
 
 - To launch IIS on a machine, see
-  [Opening IIS Manager](https://docs.microsoft.com/en-us/previous-versions/iis/6.0-sdk/ms525920(v=vs.90)).
+  [Opening IIS Manager](<https://docs.microsoft.com/en-us/previous-versions/iis/6.0-sdk/ms525920(v=vs.90)>).
 
 ![in_iis](/img/product_docs/directorymanager/directorymanager/admincenter/portal/in_iis.webp)
 
@@ -87,5 +87,5 @@ Cluster syncing
 To sync data between clusters, Directory Manager uses the Replication service. You have to enable
 data sync for at least one Replication service within a cluster to sync the cluster's data to other
 clusters. See the
-[Enable Elastic Cluster Syncing](replicationservice.md#enable-elastic-cluster-syncing) topic for
+[Enable Elastic Cluster Syncing](/docs/directorymanager/11.1/directorymanager/admincenter/service/replicationservice.md#enable-elastic-cluster-syncing) topic for
 additional information.

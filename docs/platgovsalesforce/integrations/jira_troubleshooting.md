@@ -47,7 +47,7 @@ Error message:
 
 error=invalid_client_id&error_description=client%20identifier%20invalid
 
-Refer to [Access Data with API Integration](jira_integration.md#access-data-with-apiintegration) for
+Refer to [Access Data with API Integration](/docs/platgovsalesforce/integrations/jira_integration.md#access-data-with-apiintegration) for
 more information on setting up the connected app.
 
 ## Error with Consumer Secret
@@ -69,5 +69,5 @@ error=redirect_uri_mismatch
 
 Solution:
 
-Refer to [Connected App](jira_walkthrough_example.md#connected-app) Connected App for more
+Refer to [Connected App](/docs/platgovsalesforce/integrations/jira_walkthrough_example.md#connected-app) Connected App for more
 information on setting up the connected app.

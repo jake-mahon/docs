@@ -15,7 +15,7 @@ ID activity to be monitored by either the Activity Monitor or Threat Prevention.
 deployed to the server being monitored, and the products must be configured to stream data to Threat
 Manager.
 
-See the [Integration with Other Netwrix Products](install/integration/overview) topic for additional
+See the [Integration with Other Netwrix Products](/docs/threatmanager/3.0/threatmanager/install/integration/overview.md) topic for additional
 information.
 
 ### File System Activity
@@ -24,7 +24,7 @@ File system activity is monitored by the Activity Monitor or the Threat Preventi
 policy. Deploy an activity agent to every Windows file server to be monitored and/or to Windows
 proxy servers for every NAS device to be monitored. The monitored host must be configured to send
 events to Threat Manager. See the
-[Netwrix Activity Monitor Integration](install/integration/activitymonitor) topic for additional
+[Netwrix Activity Monitor Integration](/docs/threatmanager/3.0/threatmanager/install/integration/activitymonitor.md) topic for additional
 information.
 
 ### Active Directory Activity
@@ -35,19 +35,19 @@ Directory events:
 
 - Activity Monitor – Monitored domain must be configured to stream data through the domain
   properties > Threat Manager tab
-    - See the [Netwrix Activity Monitor Integration](install/integration/activitymonitor) topic for
-      additional information.
+  - See the [Netwrix Activity Monitor Integration](/docs/threatmanager/3.0/threatmanager/install/integration/activitymonitor.md) topic for
+    additional information.
 - Threat Prevention – Threat Prevention Admin Console must be configured to stream data through the
   Threat Manager Event Sink feature
-    - See the [Netwrix Threat Prevention Integration](install/integration/threatprevention) topic
-      for additional information.
+  - See the [Netwrix Threat Prevention Integration](/docs/threatmanager/3.0/threatmanager/install/integration/threatprevention.md) topic
+    for additional information.
 
 ### Microsoft Entra ID Activity
 
 Microsoft Entra ID activity can be monitored by Activity Monitor. Deploy an Activity Monitor agent
 to a Windows server and configure it to monitor an Microsoft Entra ID tenant to send events to
 Threat Manager. The monitored tenant must be configured to send events to Threat Manager. See the
-[Netwrix Activity Monitor Integration](install/integration/activitymonitor) topic for additional
+[Netwrix Activity Monitor Integration](/docs/threatmanager/3.0/threatmanager/install/integration/activitymonitor.md) topic for additional
 information.
 
 ### Sensitive Data Discovery
@@ -56,25 +56,25 @@ Sensitive data is collected by Access Analyzer. It requires a license for the Ac
 System Solution with the Sensitive Data Discovery Add-on. Access Analyzer has a custom job which can
 be added to the FileSystem > 0.Collection Job Group to stream data after the collection tasks
 complete. See the
-[Netwrix Access Analyzer (formerly Enterprise Auditor) Integration](install/integration/accessanalyzer) topic
+[Netwrix Access Analyzer (formerly Enterprise Auditor) Integration](/docs/threatmanager/3.0/threatmanager/install/integration/accessanalyzer.md) topic
 for additional information.
 
 ## Enable Features in the Threat Manager Console
 
 The Threat Manager Console has features that require initial configuration to turn them on. These
-pages are located under the [Configuration Menu](administration/configuration/overview):
+pages are located under the [Configuration Menu](/docs/threatmanager/3.0/threatmanager/administration/configuration/overview.md):
 
-- The [Integrations Interface](administration/configuration/integrations/overview) provides the
+- The [Integrations Interface](/docs/threatmanager/3.0/threatmanager/administration/configuration/integrations/overview.md) provides the
   ability to add and configure external integrations for Threat Manager including:
-    - [Active Directory Sync Page](administration/configuration/integrations/activedirectorysync)
-    - [Entra ID Sync Page](administration/configuration/integrations/entraidsync)
-    - [App Tokens Page](administration/configuration/integrations/apptoken)
-    - [Authentication Provider Page](administration/configuration/integrations/authenticationprovider/page)
-    - [Credential Profile Page](administration/configuration/integrations/credentialprofile)
-    - [Email Page](administration/configuration/integrations/email)
-    - [Folder Settings Page](administration/configuration/integrations/foldersettings)
-    - [SIEM Page](administration/configuration/integrations/siem)
-    - [Netwrix Integrations Page](administration/configuration/integrations/netwrixintegrations)
-    - [Tag Management Page](administration/configuration/integrations/tagmanagement)
-- The [Policies Page](administration/configuration/policies/overview) provides the ability to add
+  - [Active Directory Sync Page](/docs/threatmanager/3.0/threatmanager/administration/configuration/integrations/activedirectorysync.md)
+  - [Entra ID Sync Page](/docs/threatmanager/3.0/threatmanager/administration/configuration/integrations/entraidsync.md)
+  - [App Tokens Page](/docs/threatmanager/3.0/threatmanager/administration/configuration/integrations/apptoken.md)
+  - [Authentication Provider Page](/docs/threatmanager/3.0/threatmanager/administration/configuration/integrations/authenticationprovider/page.md)
+  - [Credential Profile Page](/docs/threatmanager/3.0/threatmanager/administration/configuration/integrations/credentialprofile.md)
+  - [Email Page](/docs/threatmanager/3.0/threatmanager/administration/configuration/integrations/email.md)
+  - [Folder Settings Page](/docs/threatmanager/3.0/threatmanager/administration/configuration/integrations/foldersettings.md)
+  - [SIEM Page](/docs/threatmanager/3.0/threatmanager/administration/configuration/integrations/siem.md)
+  - [Netwrix Integrations Page](/docs/threatmanager/3.0/threatmanager/administration/configuration/integrations/netwrixintegrations.md)
+  - [Tag Management Page](/docs/threatmanager/3.0/threatmanager/administration/configuration/integrations/tagmanagement.md)
+- The [Policies Page](/docs/threatmanager/3.0/threatmanager/administration/configuration/policies/overview.md) provides the ability to add
   and configure policies used for threat detection including Honeytoken threats

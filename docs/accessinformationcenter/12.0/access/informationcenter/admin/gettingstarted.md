@@ -14,9 +14,9 @@ Next, configure the Access Information Center for your environment:
   Access Administrator. See the [Console Access Page](/docs/accessinformationcenter/12.0/access/informationcenter/admin/configuration/consoleaccess.md) topic for
   information.
 
-    - Optionally, disable the Builtin Administrator account. See the
-      [Modify the Builtin Administrator Account](configuration/consoleaccess.md#modify-the-builtin-administrator-account)
-      topic for additional information.
+  - Optionally, disable the Builtin Administrator account. See the
+    [Modify the Builtin Administrator Account](/docs/accessinformationcenter/12.0/access/informationcenter/admin/configuration/consoleaccess.md#modify-the-builtin-administrator-account)
+    topic for additional information.
 
 - Active Directory Service Account — Provide the service account to be used for accessing Active
   Directory. Optionally, enable the application to make group membership changes. See the
@@ -41,14 +41,14 @@ You should also provide links to the appropriate topics based on the user's role
 - Security Team — Need topics that align to the work the will be doing in the Access Information
   Center:
 
-    - Accessing Resource Audits — Send the URL link for the
-      [Resource Audit Overview](/docs/accessinformationcenter/12.0/access/informationcenter/resourceaudit/overview.md) topic
-    - Ownership Administrator — Send the URL link for the
-      [Resource Owners Overview](/docs/accessinformationcenter/12.0/access/informationcenter/resourceowners/overview.md) topic
-    - Review Administrator — Send the URL link for the
-      [Resource Reviews Overview](/docs/accessinformationcenter/12.0/access/informationcenter/resourcereviews/overview.md) topic
-    - Request Administrator — Send the URL link for the
-      [Access Requests Overview](/docs/accessinformationcenter/12.0/access/informationcenter/accessrequests/overview.md) topic
+  - Accessing Resource Audits — Send the URL link for the
+    [Resource Audit Overview](/docs/accessinformationcenter/12.0/access/informationcenter/resourceaudit/overview.md) topic
+  - Ownership Administrator — Send the URL link for the
+    [Resource Owners Overview](/docs/accessinformationcenter/12.0/access/informationcenter/resourceowners/overview.md) topic
+  - Review Administrator — Send the URL link for the
+    [Resource Reviews Overview](/docs/accessinformationcenter/12.0/access/informationcenter/resourcereviews/overview.md) topic
+  - Request Administrator — Send the URL link for the
+    [Access Requests Overview](/docs/accessinformationcenter/12.0/access/informationcenter/accessrequests/overview.md) topic
 
 - Administrator — Send the URL link for the [Administrator Overview](/docs/accessinformationcenter/12.0/access/informationcenter/admin/overview.md) topic
 - User Access Administrator — Send the URL link for the

@@ -14,13 +14,13 @@ ways:
 Step 1 – Launch the Directory Manager portal _Wizard_.  
 On the Login page, the availability of the user name and password fields depends on whether you
 disabled Directory Manager Authentication or not (see step 2 in the
-[Specify Advanced Configurations](configureadfsindirectorymanager.md#specify-advanced-configurations)
+[Specify Advanced Configurations](/docs/directorymanager/11.1/directorymanager/authenticate/asserviceprovider/adfs/configureadfsindirectorymanager.md#specify-advanced-configurations)
 topic).  
 The AD FS option may be displayed as a button or an image.
 
 Step 2 – Click the AD FS button or image; you will be redirected to the AD FS authentication page
 with the URL you provided as the IDP login URL (see the
-[Provide IDP Login URL](configureadfsindirectorymanager.md#provide-idp-login-url) topic).
+[Provide IDP Login URL](/docs/directorymanager/11.1/directorymanager/authenticate/asserviceprovider/adfs/configureadfsindirectorymanager.md#provide-idp-login-url) topic).
 
 Step 3 – Sign in as an Active Directory regular user. On signing in, the authentication is routed to
 AD FS, that will validate the user with respect to the specified attribute (i.e., user principal

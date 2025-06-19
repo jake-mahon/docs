@@ -56,33 +56,33 @@ existing groups as well.
 6. On the **Add Policies** pane, click the **Query Designer** tab.
 7. On the **Query Designer** tab:
 
-    - enable the **Apply policy only to newly created groups** toggle button to apply the policy on
-      the new groups created in Directory Manager 11.1.
+   - enable the **Apply policy only to newly created groups** toggle button to apply the policy on
+     the new groups created in Directory Manager 11.1.
 
-        Let's say the following policy is defined for a user role:
+     Let's say the following policy is defined for a user role:
 
-        Start In Container: Users
+     Start In Container: Users
 
-        Enforce Start In Containers: Enabled
+     Enforce Start In Containers: Enabled
 
-        Objects: Users with Mailboxes
+     Objects: Users with Mailboxes
 
-        Users with External Email-Address
+     Users with External Email-Address
 
-        Objects: Users
+     Objects: Users
 
-        Enforce Objects: Enabled
+     Enforce Objects: Enabled
 
-        Default filter Criteria: Department is exactly HR
+     Default filter Criteria: Department is exactly HR
 
-        When a user of this role creates a new group the policy is applied on it.
+     When a user of this role creates a new group the policy is applied on it.
 
-    - disable the **Apply policy only to newly created groups** toggle button to apply the policy on
-      the existing groups as well.
+   - disable the **Apply policy only to newly created groups** toggle button to apply the policy on
+     the existing groups as well.
 
-    After some time, if you enable the option again for the user role, the policy (with or without
-    any modification) will no longer be applied to the existing groups. All the Query Designer
-    configurations will be available to the user for the existing groups.
+   After some time, if you enable the option again for the user role, the policy (with or without
+   any modification) will no longer be applied to the existing groups. All the Query Designer
+   configurations will be available to the user for the existing groups.
 
 ## Limit the Search Scope of the Query to Specific Containers
 
@@ -109,20 +109,20 @@ remove a container or sub-container.
    sub-container in the directory individually, indicating that the entire directory is set as the
    _Start In_ container.
 
-    - To remove a container or sub-container, click **Remove** for it.
-    - To modify the list of allowed containers, click **Modify Container**. On the **Modify
-      Container** dialog box, select the required containers and sub-containers, and click **OK**.
-      The selected containers are displayed in the **Start In Container** area.
+   - To remove a container or sub-container, click **Remove** for it.
+   - To modify the list of allowed containers, click **Modify Container**. On the **Modify
+     Container** dialog box, select the required containers and sub-containers, and click **OK**.
+     The selected containers are displayed in the **Start In Container** area.
 
-    You can allow a sub-container even if you do not allow its parent container. In this case, the
-    query will run in the sub-container but not in the parent container.
+   You can allow a sub-container even if you do not allow its parent container. In this case, the
+   query will run in the sub-container but not in the parent container.
 
 8. Use the **Enforce Start In Containers** toggle button to enforce the start-in containers.
 
-    - When you enforce the allowed containers, they will be displayed as disabled in the **Start
-      In** field on the Query Designer. Role members will not be able to change this setting.
-    - When not enforced, role members can remove any of the allowed containers but they cannot add a
-      container beyond the allowed ones.
+   - When you enforce the allowed containers, they will be displayed as disabled in the **Start
+     In** field on the Query Designer. Role members will not be able to change this setting.
+   - When not enforced, role members can remove any of the allowed containers but they cannot add a
+     container beyond the allowed ones.
 
 9. Click **OK**.
 10. On the **Edit Security Role** page, click **Update Security Role**.
@@ -152,22 +152,22 @@ the object types so that role members cannot exclude an allowed object type from
 7. The **Objects** area lists the object types with their sub-types. Here is a mapping of the object
    types displayed here with the options in the **Find** list on the Query Designer:
 
-    - Exchange = Messaging System Recipients  
-      Note that the sub-types displayed under **Exchange** are the same as displayed on the General
-      tab when you select _Messaging System Recipients_ in the **Find** drop-down list.
-    - Computer = Computers
-    - All = Users, Contacts and Groups
+   - Exchange = Messaging System Recipients  
+     Note that the sub-types displayed under **Exchange** are the same as displayed on the General
+     tab when you select _Messaging System Recipients_ in the **Find** drop-down list.
+   - Computer = Computers
+   - All = Users, Contacts and Groups
 
-    Select the check boxes for the object sub-types that you want to display to role members in the
-    Query Designer.
+   Select the check boxes for the object sub-types that you want to display to role members in the
+   Query Designer.
 
 8. Use the **Enforce Objects** toggle button to enforce the allowed objects.
 
-    - When you enforce the allowed object types, they will be displayed as disabled in the Query
-      Designer. Role members will not be able to exclude any object type; hence all the allowed
-      object types will be included in the query.
-    - When not enforced, role members can exclude any of the allowed object types but there is no
-      option to include an object type beyond the allowed ones.
+   - When you enforce the allowed object types, they will be displayed as disabled in the Query
+     Designer. Role members will not be able to exclude any object type; hence all the allowed
+     object types will be included in the query.
+   - When not enforced, role members can exclude any of the allowed object types but there is no
+     option to include an object type beyond the allowed ones.
 
 9. Click **OK**.
 10. On the **Edit Security Role** page, click **Update Security Role**.
@@ -231,10 +231,10 @@ the query (see the **Filter Criteria** tab of the Query Designer). You can:
    indicates that all attributes are available to role members on the **Filter Criteria** tab of the
    Query Designer for creating queries.
 
-    - Clear the check boxes for the attributes that you do not want to display to role members. Use
-      the search box to search for your required attributes.
-    - You can also clear the **Allow all attributes** check box to deny all attributes, then select
-      the check boxes for the required attributes. At least one attribute must be selected.
+   - Clear the check boxes for the attributes that you do not want to display to role members. Use
+     the search box to search for your required attributes.
+   - You can also clear the **Allow all attributes** check box to deny all attributes, then select
+     the check boxes for the required attributes. At least one attribute must be selected.
 
 8. For each attribute, you can specify the operator(s) that can be applied to the attribute on the
    **Filter Criteria** tab.  
@@ -244,9 +244,9 @@ the query (see the **Filter Criteria** tab of the Query Designer). You can:
    ‘Contains’ and ‘Equals’ operators for the ‘cn’ attribute, then only these operators will be
    displayed when role members select the ‘cn’ attribute.
 
-    NOTE: This schema attribute setting will override the schema attribute setting specified on the
-    Smart Group Attribute page in portal's design settings. See the
-    [ Specify Smart Group Query Attributes](/docs/directorymanager/11.1/directorymanager/admincenter/portal/design/queryattributes.md) topic.
+   NOTE: This schema attribute setting will override the schema attribute setting specified on the
+   Smart Group Attribute page in portal's design settings. See the
+   [ Specify Smart Group Query Attributes](/docs/directorymanager/11.1/directorymanager/admincenter/portal/design/queryattributes.md) topic.
 
 9. Click **Save Selection** on the **Allowed Attributes** dialog box. The **Attributes** area
    displays the allowed attributes count.  
@@ -287,23 +287,23 @@ attributes and operators are available to create a default filter criteria.
 7. Click **Add Filter** in the **Default Filter Criteria** area. A row is displayed for adding a
    default criterion.
 
-    - Select a schema attribute in the first drop-down list (for example, _title_).
-    - Select an operator in the second drop-down list (for example, _Equals_).
-    - Enter a value for the attribute in the third box (for example, _Manager_).
+   - Select a schema attribute in the first drop-down list (for example, _title_).
+   - Select an operator in the second drop-down list (for example, _Equals_).
+   - Enter a value for the attribute in the third box (for example, _Manager_).
 
-    With this filter, the query would fetch users whose job titles are set to Manager. Role members
-    can change it as required.
+   With this filter, the query would fetch users whose job titles are set to Manager. Role members
+   can change it as required.
 
 8. You can also create an advanced query by adding more rows and applying the **AND** or **OR**
    operator to group them. See steps 1-2 in the[Advanced Filter](/docs/directorymanager/11.1/directorymanager/admincenter/securityrole/policy/search.md) section of the
-   [Designate a Criterion for the Search Scope](search.md#designate-a-criterion-for-the-search-scope)
+   [Designate a Criterion for the Search Scope](/docs/directorymanager/11.1/directorymanager/admincenter/securityrole/policy/search.md#designate-a-criterion-for-the-search-scope)
    topic.  
    After creating a query, you can:
 
-    - Click **Preview** to get a list of the objects fetched by the query created by the current
-      settings on the **Query Designer** tab, namely the start-in container, objects, and default
-      filter criteria.
-    - Click **Clear** to delete the default filter criteria.
+   - Click **Preview** to get a list of the objects fetched by the query created by the current
+     settings on the **Query Designer** tab, namely the start-in container, objects, and default
+     filter criteria.
+   - Click **Clear** to delete the default filter criteria.
 
 9. Click **OK** on the **Query Designer** tab.
 10. On the **Edit Security Role** page, click **Update Security Role**.

@@ -60,7 +60,7 @@ Resource strings are mostly validation error messages, but they can contain any 
 may need to build the page. Do not modify the identifiers on the left, only edit the text on the
 right. Resource strings are always inside a range called RESOURCE_STRINGS. Password Reset deletes
 this range before sending the page to the user's web browser. See the
-[Error Messages](using_password_reset.md#error-messages) topic for additional information.
+[Error Messages](/docs/passwordpolicyenforcer/11.0/passwordreset/administration/using_password_reset.md#error-messages) topic for additional information.
 
 ### Responsive Content
 
@@ -183,7 +183,7 @@ message invites the user to enroll so they can also use the reset and unlock fea
 
 When users enroll into Password Reset, they choose their questions from the Question List. You can
 replace some or all of the question lists with text boxes so users can enter their own questions.
-See the [Question List](enroll_tab.md#question-list) topic for additional information.
+See the [Question List](/docs/passwordpolicyenforcer/11.0/passwordreset/administration/enroll_tab.md#question-list) topic for additional information.
 
 The lines you need to edit in en_enroll.htm look like this:
 
@@ -210,14 +210,14 @@ CSS to do this. For example, this is the CSS for the validation error box:
 
 ```css
 .apr_form .error {
-    background-color: #ce482f;
+  background-color: #ce482f;
 
-    border-radius: 5px;
-    color: #fff;
+  border-radius: 5px;
+  color: #fff;
 
-    margin: 0 15px 15px;
+  margin: 0 15px 15px;
 
-    padding: 10px 13px;
+  padding: 10px 13px;
 }
 ```
 

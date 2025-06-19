@@ -24,8 +24,8 @@ the `Get-SIPolicy` command. Both the following parameters are required:
 
 - PolicyID [uint32] – Policy ID
 - Enable [Bool]
-    - 1 to enable
-    - 0 to disable
+  - 1 to enable
+  - 0 to disable
 
 Example of an enable policy command:
 
@@ -50,7 +50,7 @@ Remove-SIPolicy -PolicyID "255"
 
 The `Export-SIPolicy` and` Import-SIPolicy` commands can be used to export and edit the XML file of
 an existing policy, and then import (add or replace) the edited policy. See the
-[Not a Policy XML Expert](overview.md#not-a-policy-xml-expert) topic for additional information on
+[Not a Policy XML Expert](/docs/threatprevention/7.5/api/overview.md#not-a-policy-xml-expert) topic for additional information on
 policy layout and how to make changes to the XML.
 
 ### Export Policies to an XML File

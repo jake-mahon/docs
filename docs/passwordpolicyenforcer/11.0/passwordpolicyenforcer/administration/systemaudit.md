@@ -10,7 +10,7 @@ or
 Double click the **PPE Configuration** desktop shortcut.
 
 Click the **System Audit and Support** tile on the Configuration Console dashboard. This feature is
-only available when **domain** is selected with the [Connected To](configconsole.md#connected-to)
+only available when **domain** is selected with the [Connected To](/docs/passwordpolicyenforcer/11.0/passwordpolicyenforcer/administration/configconsole.md#connected-to)
 configuration setting. System Audit and Support opens on the **Version Tracker** tab.
 
 ## Version Tracker
@@ -43,13 +43,13 @@ and open the property editor.
   where you want the report. The default filename is **PPEConfig.txt**.
 - **PPE Settings** export your PPE settings for a backup. You can import the settings to replicate
   configurations across systems.
-    - **Export** exports the PPE settings to an xml file. Browse to the folder where you want the
-      file. The default filename is **PPEExport.xml**.
-    - Import imports the settings from an exported xml PPE Settings file. Browse to the location of
-      the **PPEExport.xml** file. Click **Open**. A status message is displayed when complete.
+  - **Export** exports the PPE settings to an xml file. Browse to the folder where you want the
+    file. The default filename is **PPEExport.xml**.
+  - Import imports the settings from an exported xml PPE Settings file. Browse to the location of
+    the **PPEExport.xml** file. Click **Open**. A status message is displayed when complete.
 - **Open Property Editor** launches the Property Editor.
 
-    **NOTE:** Properties should only be changed when advised by Netwrix Support.
+  **NOTE:** Properties should only be changed when advised by Netwrix Support.
 
 ### Property Editor
 

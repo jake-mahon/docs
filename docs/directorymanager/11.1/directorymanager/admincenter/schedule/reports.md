@@ -58,26 +58,26 @@ settings here, such as the container and filter settings.
 2. The Reports drop-down list shows all reports in the selected category. On selecting a report, one
    of the following happens:
 
-    - The report is displayed in the grid on the dialog box. This is because it has previously been
-      added, and you do not need to add it again. If the report has been generated multiple times in
-      the Directory Manager portal, all instances are displayed, since each instance has its own
-      _title_, _container_, and _filter_ settings.
-    - If the report is not displayed in the grid, you have to add it using the Add button. (The Add
-      button gets enabled if this report has been generated in the Directory Manager portal.)
+   - The report is displayed in the grid on the dialog box. This is because it has previously been
+     added, and you do not need to add it again. If the report has been generated multiple times in
+     the Directory Manager portal, all instances are displayed, since each instance has its own
+     _title_, _container_, and _filter_ settings.
+   - If the report is not displayed in the grid, you have to add it using the Add button. (The Add
+     button gets enabled if this report has been generated in the Directory Manager portal.)
 
-    Notice that when you select a category, a report may get listed in the grid. This is because the
-    first report in the category is auto selected in the **Reports** drop-down list. If that report
-    has previously been added, it is displayed in the grid.
+   Notice that when you select a category, a report may get listed in the grid. This is because the
+   first report in the category is auto selected in the **Reports** drop-down list. If that report
+   has previously been added, it is displayed in the grid.
 
 3. The report is listed in the grid on the dialog box with the following info:
 
-    - Report Title – the name given to the report by the user while generating it.
-    - Report Name – the name of the report in Directory Manager.
-    - Container – the container the report will fetch results from. This container was specified by
-      the user while generating the report.
-    - Filter – the criteria applied to get the results.
+   - Report Title – the name given to the report by the user while generating it.
+   - Report Name – the name of the report in Directory Manager.
+   - Container – the container the report will fetch results from. This container was specified by
+     the user while generating the report.
+   - Filter – the criteria applied to get the results.
 
-    You can add as many reports as required.
+   You can add as many reports as required.
 
 4. Select the check box for a report and click **Add**. The selected reports are displayed in the
    Reports area on the Create Schedule page. When this Reports schedule runs, it auto generates all
@@ -86,12 +86,12 @@ settings here, such as the container and filter settings.
 
 Step 9 – Click **Add Triggers** in the Triggers area to specify a triggering criterion for the
 schedule, that, when met, starts the execution of the schedule. Follow step 11 in the
-[Create a Group Usage Service Schedule](groupusageservice.md#create-a-group-usage-service-schedule)
+[Create a Group Usage Service Schedule](/docs/directorymanager/11.1/directorymanager/admincenter/schedule/groupusageservice.md#create-a-group-usage-service-schedule)
 topic to add triggers.
 
 Step 10 – Click **Add Authentication** in the **Authentication** area to specify an account for
 running the schedule in the identity store. Follow step 12 in the
-[Create a Group Usage Service Schedule](groupusageservice.md#create-a-group-usage-service-schedule)
+[Create a Group Usage Service Schedule](/docs/directorymanager/11.1/directorymanager/admincenter/schedule/groupusageservice.md#create-a-group-usage-service-schedule)
 topic for additional information.
 
 Step 11 – To set up notifications for the schedule, click **Notifications**.
@@ -104,5 +104,5 @@ Step 12 – On the Create Schedule page, click **Create Schedule**.
 
 Step 13 – On the Schedules page, click **Save**.  
 The schedule is displayed under **Reports**. See the
-[View the Schedules in an Identity Store ](manage.md#view-the-schedules-in-an-identity-store)topic
+[View the Schedules in an Identity Store ](/docs/directorymanager/11.1/directorymanager/admincenter/schedule/manage.md#view-the-schedules-in-an-identity-store)topic
 for details.

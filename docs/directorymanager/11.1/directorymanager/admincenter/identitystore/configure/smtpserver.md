@@ -62,41 +62,41 @@ server.
 
 - **For basic authentication**
 
-    1. Select the **Basic** tile.
-    2. Enter the username and password of an authorized user account on the SMTP server in the
-       **SMTP username** and **SMTP password** boxes.
+  1. Select the **Basic** tile.
+  2. Enter the username and password of an authorized user account on the SMTP server in the
+     **SMTP username** and **SMTP password** boxes.
 
 - **For modern authentication**
 
-    OAuth settings are available when you specify a provider that supports modern authentication,
-    such as Exchange Online and Office 365.
+  OAuth settings are available when you specify a provider that supports modern authentication,
+  such as Exchange Online and Office 365.
 
-    NOTE: For OAuth to work, you must enable the Graph API’s ‘SMTP.Send’ permission for the
-    Directory Manager app in Microsoft Entra Admin Center:
+  NOTE: For OAuth to work, you must enable the Graph API’s ‘SMTP.Send’ permission for the
+  Directory Manager app in Microsoft Entra Admin Center:
 
-    1. Click the **OAuth 2.0** tile.
-    2. In the **Token Endpoint** box, provide the following URL:  
-       https://login.microsoftonline.com/organizations/oauth2/v2.0/token
+  1. Click the **OAuth 2.0** tile.
+  2. In the **Token Endpoint** box, provide the following URL:  
+     https://login.microsoftonline.com/organizations/oauth2/v2.0/token
 
-        NOTE: In case of Office 365 provider, you need to provide Graph Endpoint of your CloudType
-        in the **Token Endpoint** box, for example, https://graph.microsoft.com/v1.0
+     NOTE: In case of Office 365 provider, you need to provide Graph Endpoint of your CloudType
+     in the **Token Endpoint** box, for example, https://graph.microsoft.com/v1.0
 
-    3. In the **Client ID** box, provide the client ID assigned to the Directory Manager application
-       when you registered it in Microsoft Entra Admin Center.
-    4. In the **Client Secret** box, provide the client secret value generated against the
-       certificate uploaded to Microsoft Entra Admin Center while registering the Directory Manager
-       application.
-    5. In the **Scope** box, provide the following URL:  
-       https://outlook.office365.com/SMTP.Send
+  3. In the **Client ID** box, provide the client ID assigned to the Directory Manager application
+     when you registered it in Microsoft Entra Admin Center.
+  4. In the **Client Secret** box, provide the client secret value generated against the
+     certificate uploaded to Microsoft Entra Admin Center while registering the Directory Manager
+     application.
+  5. In the **Scope** box, provide the following URL:  
+     https://outlook.office365.com/SMTP.Send
 
-        NOTE: In case of Office 365 provider, provide name of the tenant the **Scope** box, for
-        example, abcd.onmicrosoft.com
+     NOTE: In case of Office 365 provider, provide name of the tenant the **Scope** box, for
+     example, abcd.onmicrosoft.com
 
-    6. In the **Username** and **Password** boxes, provide the credentials to connect to the SMTP
-       server.
+  6. In the **Username** and **Password** boxes, provide the credentials to connect to the SMTP
+     server.
 
-    NOTE: The user account used for SMTP Authentication for OAuth should have no MFA applied to it
-    or have a conditional bypass for GraphAPI requests.
+  NOTE: The user account used for SMTP Authentication for OAuth should have no MFA applied to it
+  or have a conditional bypass for GraphAPI requests.
 
 **Test the connection**
 
@@ -212,7 +212,7 @@ Step 4 – In the Membership Lifecycle Notifications section, select your desire
   group membership by the Membership Life Cycle schedule. This setting also applies to users who
   have been marked for removal from group membership in the group attestation process. (See the
   **Specify member inactive period** setting in the
-  [Enable Group Attestation](directoryservice/grouplifecycle.md#enable-group-attestation) topic.
+  [Enable Group Attestation](/docs/directorymanager/11.1/directorymanager/admincenter/identitystore/configure/directoryservice/grouplifecycle.md#enable-group-attestation) topic.
 
 Step 5 – Click **Save** on the **Notifications** page.
 

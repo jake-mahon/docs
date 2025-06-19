@@ -44,14 +44,14 @@ The following information is displayed for a domain controller:
 - Last Backup Time – Date and time when the last backup occurred
 - Actions – Displays the following icons:
 
-    - Start Backup – Starts a backup of the server on demand
-    - Edit Configuration – Launches the Server Backup Configuration wizard, enabling you to modify
-      the backup configurations for the domain controller
-    - Add Domain Controller to Restore Playbook – Adds the domain controller to the recovery
-      playbook. See the [Create a Recovery Playbook](recover#create-a-recovery-playbook) topic for
-      additional information.
+  - Start Backup – Starts a backup of the server on demand
+  - Edit Configuration – Launches the Server Backup Configuration wizard, enabling you to modify
+    the backup configurations for the domain controller
+  - Add Domain Controller to Restore Playbook – Adds the domain controller to the recovery
+    playbook. See the [Create a Recovery Playbook](/docs/recoveryforactivedirectory/2.6/recoveryforactivedirectory/admin/forest/recover.md#create-a-recovery-playbook) topic for
+    additional information.
 
-        This is the only action displayed for a domain controller that has not been backed up.
+    This is the only action displayed for a domain controller that has not been backed up.
 
 Use the Add link to add another forest.
 

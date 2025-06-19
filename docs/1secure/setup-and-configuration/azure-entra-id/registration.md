@@ -94,9 +94,9 @@ a category and select the required permissions under it.
 See the following topics for the list of API permissions required to audit the respective data
 source.
 
-- [Permissions to Audit Microsoft Entra ID](permissions.md#permissions-to-audit-microsoft-entra-id)
-- [Permissions to Audit SharePoint Online](permissions.md#permissions-to-audit-sharepoint-online)
-- [Permissions to Audit Exchange Online](permissions.md#permissions-to-audit-exchange-online)
+- [Permissions to Audit Microsoft Entra ID](/docs/1secure/setup-and-configuration/azure-entra-id/permissions.md#permissions-to-audit-microsoft-entra-id)
+- [Permissions to Audit SharePoint Online](/docs/1secure/setup-and-configuration/azure-entra-id/permissions.md#permissions-to-audit-sharepoint-online)
+- [Permissions to Audit Exchange Online](/docs/1secure/setup-and-configuration/azure-entra-id/permissions.md#permissions-to-audit-exchange-online)
 
 **Step 9 –** After selecting the required permission(s), click **Add Permissions** at the bottom.
 You are navigated to the API Permissions page.

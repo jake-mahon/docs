@@ -36,4 +36,4 @@ sending email notifications.
 Notifications have been configured in the system.
 
 **NOTE:** The recipients of the notification can be added from the Domains page. See the
-[Add a Domain](domain.md#add-a-domain) topic for additional information.
+[Add a Domain](/docs/recoveryforactivedirectory/2.6/recoveryforactivedirectory/admin/configuration/domain.md#add-a-domain) topic for additional information.

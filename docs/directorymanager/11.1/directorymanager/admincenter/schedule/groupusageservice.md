@@ -77,10 +77,10 @@ these servers.
 2. Select the check boxes for the messaging servers that the Group Usage Service schedule should
    process.
 
-    Or
+   Or
 
-    Select the Server Name check box if you want this job to read the expansion logs of all
-    messaging servers in the identity store.
+   Select the Server Name check box if you want this job to read the expansion logs of all
+   messaging servers in the identity store.
 
 3. Click **Add**. The messaging server(s) are displayed in the Messaging Server area.
 
@@ -108,12 +108,12 @@ in the identity store (for example, Administrator).
 
 NOTE: If you are creating this schedule in a Microsoft Entra ID identity store, you can only specify
 the logged-in user's account. See the
-[Schedules for Microsoft Entra ID Identity Store](overview.md#schedules-for-microsoft-entra-id-identity-store)
+[Schedules for Microsoft Entra ID Identity Store](/docs/directorymanager/11.1/directorymanager/admincenter/schedule/overview.md#schedules-for-microsoft-entra-id-identity-store)
 section of the [Schedules](/docs/directorymanager/11.1/directorymanager/admincenter/schedule/overview.md) topic for additional information.
 
 Step 14 – On the Create Schedule page, click **Create Schedule**.
 
 Step 15 – On the Schedules page, click **Save**.  
  The schedule is displayed under Group Usage Service. See the
-[View the Schedules in an Identity Store ](manage.md#view-the-schedules-in-an-identity-store) topic
+[View the Schedules in an Identity Store ](/docs/directorymanager/11.1/directorymanager/admincenter/schedule/manage.md#view-the-schedules-in-an-identity-store) topic
 for additional information.

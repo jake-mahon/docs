@@ -17,16 +17,16 @@ Who Can Run Resource Reviews (Review Administrators)?
 
 - Console Users with Administrator role
 
-    - Can complete the Review Administrator's approval process without impacting the visibility into
-      the review created by a Review Administrator with the Security Team role
+  - Can complete the Review Administrator's approval process without impacting the visibility into
+    the review created by a Review Administrator with the Security Team role
 
-        **CAUTION:** Visibility into a review created by a Review Administrator with the Security
-        Team role is blocked if a Review Administrator with the Administrator role starts a new
-        instance.
+    **CAUTION:** Visibility into a review created by a Review Administrator with the Security
+    Team role is blocked if a Review Administrator with the Administrator role starts a new
+    instance.
 
 - Console Users with Security Team role
 
-    - Visibility into only those reviews personally created
+  - Visibility into only those reviews personally created
 
 Who Participates in Resource Reviews?
 
@@ -63,17 +63,17 @@ Prerequisites:
 - The Access Information Center is configured to send Notifications. See the
   [Notifications Page](/docs/accessinformationcenter/12.0/access/informationcenter/admin/configuration/notifications.md) topic for additional information.
 
-    **NOTE:** By default, the application is configured to send notifications only to the primary
-    owner. However, this can be customized on the Configuration > Notifications page to send
-    notifications to all assigned owners.
+  **NOTE:** By default, the application is configured to send notifications only to the primary
+  owner. However, this can be customized on the Configuration > Notifications page to send
+  notifications to all assigned owners.
 
 - Owners assigned to resources within the Resource Owners interface. See the
   [Resource Owners Overview](/docs/accessinformationcenter/12.0/access/informationcenter/resourceowners/overview.md) topic for additional information.
 - Sensitive Data reviews have specific requirements for Access Analyzer configuration. See the
-  [Data Collection Prerequisites](prerequisites.md#data-collection-prerequisites) topic for
+  [Data Collection Prerequisites](/docs/accessinformationcenter/12.0/access/informationcenter/resourcereviews/prerequisites.md#data-collection-prerequisites) topic for
   additional information.
 - Optional: Access Information Center configured to commit AD changes. See the
-  [Automation Prerequisites](prerequisites.md#automation-prerequisites) topic for additional
+  [Automation Prerequisites](/docs/accessinformationcenter/12.0/access/informationcenter/resourcereviews/prerequisites.md#automation-prerequisites) topic for additional
   information.
 
 Workflow:
@@ -87,7 +87,7 @@ information.
 [Create Review Wizard](/docs/accessinformationcenter/12.0/access/informationcenter/resourcereviews/wizard/create.md) topic for additional information.
 
 **Step 2 –** Owner performs a review. See the
-[Pending Reviews Page](pendingreviews.md#pending-reviews-page) topic for additional information.
+[Pending Reviews Page](/docs/accessinformationcenter/12.0/access/informationcenter/resourcereviews/pendingreviews.md#pending-reviews-page) topic for additional information.
 
 **Step 3 –** Review Administrator approves owner recommendations. See the
 [Approval Process](/docs/accessinformationcenter/12.0/access/informationcenter/resourcereviews/approvalprocess.md) topic for additional information.

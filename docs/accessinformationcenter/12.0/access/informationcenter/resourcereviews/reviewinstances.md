@@ -18,7 +18,7 @@ buttons, or you can modify as desired. Completing the wizard process restarts th
 
 Previous instances for a review can be viewed on the Review Details page. Select the instance from
 the drop-down menu to show the details for it. See the
-[Review Details Page](interface.md#review-details-page) topic for additional information.
+[Review Details Page](/docs/accessinformationcenter/12.0/access/informationcenter/resourcereviews/interface.md#review-details-page) topic for additional information.
 
 ## Sensitive Data Review Instances
 

@@ -11,7 +11,7 @@ to approve, deny, or defer the changes.
 The Review Administrator may choose to model the requested changes to see how the user's overall
 access will be impacted. Change modeling is conducted through the Resource Audit interface. You can
 access this interface via the **Resource Audit** button on the
-[Review Details Page](interface.md#review-details-page). See the
+[Review Details Page](/docs/accessinformationcenter/12.0/access/informationcenter/resourcereviews/interface.md#review-details-page). See the
 [Model Changes in the AIC](/docs/accessinformationcenter/12.0/access/informationcenter/resourceaudit/changemodeling/model.md) topic for additional
 information.
 
@@ -64,7 +64,7 @@ Responses window closes.
 - Automatic — If the Access Information Center has been configured to commit AD changes, accepted
   changes were implemented if the prerequisites were met. If this was a Sensitive Data review, you
   may need to export the approved changes and send those to your IT department. See the
-  [Automation Prerequisites](prerequisites.md#automation-prerequisites) topic for additional
+  [Automation Prerequisites](/docs/accessinformationcenter/12.0/access/informationcenter/resourcereviews/prerequisites.md#automation-prerequisites) topic for additional
   information.
 - Manual — Accepted changes must be implemented outside of the application by your IT department.
   Use the **Export Excel** or **Export CSV** buttons to generate and download an export of accepted
@@ -107,7 +107,7 @@ resolution.
 - Automatic — If the Access Information Center has been configured to commit AD changes, accepted
   changes were implemented if the prerequisites were met. If this was a Sensitive Data review, you
   may need to export the approved changes and send those to your IT department. See the
-  [Automation Prerequisites](prerequisites.md#automation-prerequisites) topic for additional
+  [Automation Prerequisites](/docs/accessinformationcenter/12.0/access/informationcenter/resourcereviews/prerequisites.md#automation-prerequisites) topic for additional
   information.
 - Manual — Accepted changes must be implemented outside of the application by your IT department.
   Use the **Export Excel** or **Export CSV** buttons to generate and download an export of accepted

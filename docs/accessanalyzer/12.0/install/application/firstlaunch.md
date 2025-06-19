@@ -30,9 +30,9 @@ StealthAUDIT root folder path to copy from**. See the
 - Instance name – If the SQL Server is configured to use an instance name, provide the instance name
   in the text box. If not, leave this text box blank.
 
-    - To change the instance port number, provide the instance name in the format
-      `<Instance name>,<Port>`. For example, if using the default **MSSQLSERVER** instance and port
-      **12345**, the instance name should be entered as `MSSQLSERVER,12345`.
+  - To change the instance port number, provide the instance name in the format
+    `<Instance name>,<Port>`. For example, if using the default **MSSQLSERVER** instance and port
+    **12345**, the instance name should be entered as `MSSQLSERVER,12345`.
 
 - Command timeout [number] minutes – Number of minutes before Access Analyzer halts any SQL queries
   running for that amount of time. This prevents SQL queries from running excessively long. The
@@ -42,9 +42,9 @@ StealthAUDIT root folder path to copy from**. See the
   Schedule Service Account to have proper permissions on the SQL database.
 - SQL Server authentication – Leverages an account created within the SQL Server.
 
-    - User name and password – If SQL Server authentication is selected, provide the **User name**
-      and **Password** for the SQL account.
-    - Specify a new password below – Specify a new password for the SQL server.
+  - User name and password – If SQL Server authentication is selected, provide the **User name**
+    and **Password** for the SQL account.
+  - Specify a new password below – Specify a new password for the SQL server.
 
 - Use existing database – Confirm the SQL Server connection has been established by selecting the
   radio button for **Use existing database** and clicking the drop-down arrow. If a listing of
@@ -54,7 +54,7 @@ StealthAUDIT root folder path to copy from**. See the
   storage profile. Enter a unique, descriptive name for the new database. If multiple databases
   might exist for Access Analyzer, then the default name of Access Analyzer is not recommended.
 
-See the [Securing the Access Analyzer Database](database.md#securing-the-access-analyzer-database)
+See the [Securing the Access Analyzer Database](/docs/accessanalyzer/12.0/install/application/database.md#securing-the-access-analyzer-database)
 topic for additional information on creating a SQL Server database for Access Analyzer.
 
 **Step 5 –** Click **Next**.
@@ -77,10 +77,10 @@ There are two options that can be selected:
 - Use the following service for account – Select this radio button to configure the schedule service
   account and enter the following information:
 
-    - Domain – The domain for the service account
-    - User name – The user name for the service account
-    - Password – The password for the service account
-    - Confirm – Re-enter the password for the service account
+  - Domain – The domain for the service account
+  - User name – The user name for the service account
+  - Password – The password for the service account
+  - Confirm – Re-enter the password for the service account
 
 ![Configuration wizard Options page](/img/product_docs/accessanalyzer/install/application/options.webp)
 
@@ -90,14 +90,14 @@ continue.
 
 - If selected, usage statistics are collected and sent to Netwrix
 
-    - Upon startup of the Access Analyzer console, the system checks if usage statistics have been
-      sent in the last 7 days. If they have not been, stored procedures run against the Access
-      Analyzer database and gather data about job runs, access times, and environmental details like
-      resource counts, users counts, number of exceptions, and so on. This data is then sent back to
-      Netwrix to help us identify usage trends and common pain points, so that we can use this
-      information to improve the product.
-    - Only anonymous statistic-level data is included. No private company or personal data is
-      collected or sent to Netwrix.
+  - Upon startup of the Access Analyzer console, the system checks if usage statistics have been
+    sent in the last 7 days. If they have not been, stored procedures run against the Access
+    Analyzer database and gather data about job runs, access times, and environmental details like
+    resource counts, users counts, number of exceptions, and so on. This data is then sent back to
+    Netwrix to help us identify usage trends and common pain points, so that we can use this
+    information to improve the product.
+  - Only anonymous statistic-level data is included. No private company or personal data is
+    collected or sent to Netwrix.
 
 - If cleared, no usage statistics are collected or sent to Netwrix
 

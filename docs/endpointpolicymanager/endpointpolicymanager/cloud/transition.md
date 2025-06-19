@@ -227,7 +227,7 @@ machines' current state and policies.
 
 ![941_14_image-20230521113923-14_950x823](/img/product_docs/endpointpolicymanager/endpointpolicymanager/cloud/941_14_image-20230521113923-14_950x823.webp)
 
-See the [Manually Syncing with PolicyPak Cloud](verify.md#manually-syncing-with-policypak-cloud)
+See the [Manually Syncing with PolicyPak Cloud](/docs/endpointpolicymanager/endpointpolicymanager/cloud/verify.md#manually-syncing-with-policypak-cloud)
 topic for additional information.[](https://helpcenter.netwrix.com/en-US/bundle/Endpoint Policy
 Manager_AppendixE/page/Manually_Syncing_with_Endpoint Policy Manager_Cloud.html)
 

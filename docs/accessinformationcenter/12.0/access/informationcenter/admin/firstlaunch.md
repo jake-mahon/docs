@@ -25,7 +25,7 @@ login with the Builtin Administrator account.
 Using the Configuration interface, the Builtin Administrator account can be disabled once a domain
 account has been granted the Administrator role. You can also change the password for the Builtin
 Administrator account. See the
-[Modify the Builtin Administrator Account](configuration/consoleaccess.md#modify-the-builtin-administrator-account)
+[Modify the Builtin Administrator Account](/docs/accessinformationcenter/12.0/access/informationcenter/admin/configuration/consoleaccess.md#modify-the-builtin-administrator-account)
 topic for additional information.
 
 ![Home page for the Builtin Admin account on first launch](/img/product_docs/accessinformationcenter/access/informationcenter/admin/builtinadminhome.webp)

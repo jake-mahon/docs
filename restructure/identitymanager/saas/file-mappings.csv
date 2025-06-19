@@ -699,4 +699,3 @@ docs/identitymanager/saas/identitymanager/integration-guide/toolkit/xml-configur
 docs/identitymanager/saas/identitymanager/integration-guide/toolkit/xml-configuration/jobs/tasks/server/processaccesscertificationitemstask/index.md,docs/identitymanager/saas/configuration/xml-configuration/scaffoldings.md
 docs/identitymanager/saas/identitymanager/integration-guide/toolkit/xml-configuration/jobs/tasks/server/updateaccesscertificationcampaigntask/index.md,docs/identitymanager/saas/configuration/xml-configuration/scaffoldings.md
 docs/identitymanager/saas/identitymanager/integration-guide/toolkit/xml-configuration/jobs/tasks/server/savepreexistingaccessrightstask/index.md,docs/identitymanager/saas/configuration/xml-configuration/scaffoldings.md
-EOF < /dev/null

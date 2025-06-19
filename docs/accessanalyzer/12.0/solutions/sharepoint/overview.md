@@ -66,9 +66,9 @@ topic for database table information.
 
 The following types of auditing can be conducted with the SharePoint Solution:
 
-- [SharePoint Access Auditing](collection/overview.md#sharepoint-access-auditing)
-- [SharePoint Activity Auditing](collection/overview.md#sharepoint-activity-auditing)
-- [SharePoint Sensitive Data Discovery Auditing (SEEK)](collection/overview.md#sharepoint-sensitive-data-discovery-auditing-seek)
+- [SharePoint Access Auditing](/docs/accessanalyzer/12.0/solutions/sharepoint/collection/overview.md#sharepoint-access-auditing)
+- [SharePoint Activity Auditing](/docs/accessanalyzer/12.0/solutions/sharepoint/collection/overview.md#sharepoint-activity-auditing)
+- [SharePoint Sensitive Data Discovery Auditing (SEEK)](/docs/accessanalyzer/12.0/solutions/sharepoint/collection/overview.md#sharepoint-sensitive-data-discovery-auditing-seek)
 
 Each type of auditing depends on specific jobs within the 0.Collection Job Group to collect the data
 and its corresponding analysis/reporting job groups. The Access Auditing components represent the
@@ -93,7 +93,7 @@ the following job groups and jobs:
   information from SharePoint servers. This information is used to populate the SMP Reports based
   around the SharePoint and is a requirement for the Access Information Center – SharePoint reports.
 
-    - This job group is available with the SharePoint license feature
+  - This job group is available with the SharePoint license feature
 
 - [1.Direct Permissions Job Group](/docs/accessanalyzer/12.0/solutions/sharepoint/directpermissions/overview.md) – Provides insight into how
   directly applied permissions are configured within the SharePoint environment. The group contains
@@ -121,7 +121,7 @@ the following job groups and jobs:
 - [6.Sensitive Data > SP_SensitiveData Job](/docs/accessanalyzer/12.0/solutions/sharepoint/sp_sensitivedata.md) – Highlights sensitive data
   identified across targeted SharePoint farms
 
-    - Requires Sensitive Data Discovery
+  - Requires Sensitive Data Discovery
 
 - [7.Activity Job Group](/docs/accessanalyzer/12.0/solutions/sharepoint/activity/overview.md)– Generates summary and detail reports of SharePoint
   activity on the specified sites. These reports can be used for identifying file, folder, and user
@@ -132,7 +132,7 @@ the following job groups and jobs:
 - [Effective Access Audits Job Group](/docs/accessanalyzer/12.0/solutions/sharepoint/effectiveaccessaudits/overview.md) – Returns reports
   identifying specific trustees’ effective access across the entire SharePoint environment
 
-    - Typically, this is run independently from the rest of the solution
+  - Typically, this is run independently from the rest of the solution
 
 - [SP_Overview Job](/docs/accessanalyzer/12.0/solutions/sharepoint/sp_overview.md) – Provides an overview of the SharePoint environment, providing
   a high level view into what makes up your SharePoint environment and the types of security risks

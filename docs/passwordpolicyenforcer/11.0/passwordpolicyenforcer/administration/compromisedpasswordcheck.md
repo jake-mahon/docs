@@ -14,7 +14,7 @@ or
 Double click the **PPE Configuration** desktop shortcut.
 
 Click the **Compromised Passwords** tile on the Configuration Console dashboard. This feature is
-only available when **domain** is selected with the [Connected To](configconsole.md#connected-to)
+only available when **domain** is selected with the [Connected To](/docs/passwordpolicyenforcer/11.0/passwordpolicyenforcer/administration/configconsole.md#connected-to)
 configuration setting. The Compromised Password Check is disabled by default, and the schedule is
 set to **None**.
 
@@ -38,7 +38,7 @@ Click the **Compromised Password Check** toggle to enable/disable the feature.
 - **Set up email** click to set up the email message for users. Enter the **From** address and edit
   the subject and body template as needed. Click **Apply** to save changes.
 
-    ![Email user notification of compromised password](/img/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/administration/emailusernotification.webp)
+  ![Email user notification of compromised password](/img/product_docs/passwordpolicyenforcer/passwordpolicyenforcer/administration/emailusernotification.webp)
 
 Click **Save** to save your settings before running the check or setting up a schedule.
 

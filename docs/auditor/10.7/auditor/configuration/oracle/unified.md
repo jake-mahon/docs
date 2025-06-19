@@ -2,7 +2,7 @@
 
 Starting with 10.5 version, Netwrix Auditor provides limited support of Oracle Database 11g and
 trail auditing mode accordingly. See
-[Considerations for Oracle Database Auditing for more information.](overview.md#considerations-for-oracle-database-11g)
+[Considerations for Oracle Database Auditing for more information.](/docs/auditor/10.7/auditor/configuration/oracle/overview.md#considerations-for-oracle-database-11g)
 
 When planning your migration, consider that you can select the following scenario:
 
@@ -24,60 +24,60 @@ detailed upgrade scenario.
 1. On the computer where your database is deployed, run the sqlplus tool.
 2. Connect to your Oracle Database—use Oracle account with the `SYSDBA` privilege. For example:
 
-    sqlplus sys as sysdba
+   sqlplus sys as sysdba
 
-    Enter password: password
+   Enter password: password
 
 3. Check if your Oracle database has already been migrated to unified auditing:
 
-    SQL> SELECT VALUE FROM V$OPTION WHERE PARAMETER = 'Unified Auditing';
+   SQL> SELECT VALUE FROM V$OPTION WHERE PARAMETER = 'Unified Auditing';
 
-    If the `value` is `true`, unified auditing mode is already enabled in your database.
+   If the `value` is `true`, unified auditing mode is already enabled in your database.
 
-    In this case, you can ignore further steps and start managing your earlier audit records. Refer
-    to Oracle documentation for more information:
-    [Managing Earlier Audit Records After You Migrate to Unified Auditing](https://docs.oracle.com/database/121/UPGRD/afterup.htm#managing-earlier-audit-records-after-you-migrate-to-unified-auditing).
+   In this case, you can ignore further steps and start managing your earlier audit records. Refer
+   to Oracle documentation for more information:
+   [Managing Earlier Audit Records After You Migrate to Unified Auditing](https://docs.oracle.com/database/121/UPGRD/afterup.htm#managing-earlier-audit-records-after-you-migrate-to-unified-auditing).
 
-    If the `value` is `false`, proceed with the steps below.
+   If the `value` is `false`, proceed with the steps below.
 
 4. Stop the database. Do the following, depending on your environment:
 
-    | For...                       | Do...                                                                             |
-    | ---------------------------- | --------------------------------------------------------------------------------- |
-    | Single-instance environments | In sqlplus tool, execute the following command: SQL> SHUTDOWN IMMEDIATE SQL> EXIT |
-    | Windows systems              | Stop the Oracle service: net stop OracleService%ORACLE_SID%                       |
-    | Oracle RAC installations     | Shut down each database instance as follows: srvctl stop database -db db_name     |
+   | For...                       | Do...                                                                             |
+   | ---------------------------- | --------------------------------------------------------------------------------- |
+   | Single-instance environments | In sqlplus tool, execute the following command: SQL> SHUTDOWN IMMEDIATE SQL> EXIT |
+   | Windows systems              | Stop the Oracle service: net stop OracleService%ORACLE_SID%                       |
+   | Oracle RAC installations     | Shut down each database instance as follows: srvctl stop database -db db_name     |
 
 5. Stop the listener. Stopping the listener is not necessary for Oracle RAC and Grid Infrastructure
    listeners.
 
-    lsnrctl stop listener_name
+   lsnrctl stop listener_name
 
-    To find your listener name, execute the following command:
+   To find your listener name, execute the following command:
 
-    lsnrctl status
+   lsnrctl status
 
-    The `Alias `parameter shows listener name.
+   The `Alias `parameter shows listener name.
 
 6. Navigate to `$ORACLE_HOME /rdbms/lib` directory.
 7. Enable the unified auditing executable. Do the following depending on your infrastructure:
 
-    | For...             | Do...                                                                                           |
-    | ------------------ | ----------------------------------------------------------------------------------------------- |
-    | Windows systems    | Rename the `%ORACLE_HOME%/bin/orauniaud12.dll.dbl` file to `%ORACLE_HOME%/bin/orauniaud12.dll.` |
-    | UNIX-based systems | Execute the following command: make -f ins_rdbms.mk uniaud_on ioracle ORACLE_HOME=$ORACLE_HOME  |
+   | For...             | Do...                                                                                           |
+   | ------------------ | ----------------------------------------------------------------------------------------------- |
+   | Windows systems    | Rename the `%ORACLE_HOME%/bin/orauniaud12.dll.dbl` file to `%ORACLE_HOME%/bin/orauniaud12.dll.` |
+   | UNIX-based systems | Execute the following command: make -f ins_rdbms.mk uniaud_on ioracle ORACLE_HOME=$ORACLE_HOME  |
 
 8. Restart the listener.
 
-    lsnrctl start listener_name
+   lsnrctl start listener_name
 
 9. Restart the database. Do the following, depending on your environment:
 
-    | For...                       | Do...                                                                                                        |
-    | ---------------------------- | ------------------------------------------------------------------------------------------------------------ |
-    | Single-instance environments | In sqlplus tool, execute the following command: sqlplus sys as sysoper Enter password: password SQL> STARTUP |
-    | Windows systems              | Start the Oracle service: net start OracleService%ORACLE_SID%                                                |
-    | Oracle RAC installations     | Start each database instance as follows: srvctl start database -db db_name                                   |
+   | For...                       | Do...                                                                                                        |
+   | ---------------------------- | ------------------------------------------------------------------------------------------------------------ |
+   | Single-instance environments | In sqlplus tool, execute the following command: sqlplus sys as sysoper Enter password: password SQL> STARTUP |
+   | Windows systems              | Start the Oracle service: net start OracleService%ORACLE_SID%                                                |
+   | Oracle RAC installations     | Start each database instance as follows: srvctl start database -db db_name                                   |
 
 See also:
 

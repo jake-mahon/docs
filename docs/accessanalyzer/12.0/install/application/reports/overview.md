@@ -45,7 +45,7 @@ The address to the Web Console can be configured within the Access Analyzer Cons
 **Reporting**). The default address is `http://[hostname.domain.com]:8082`. From the Access Analyzer
 Console server, it can be accessed at `http://localhost/` with any standard browser. To access the
 Web Console from another machine in or connected to the environment, replace localhost with the name
-of the Access Analyzer Console. See the [Update Website URLs](secure.md#update-website-urls) topic
+of the Access Analyzer Console. See the [Update Website URLs](/docs/accessanalyzer/12.0/install/application/reports/secure.md#update-website-urls) topic
 for additional information.
 
 **NOTE:** Any browser used to access the Web Console must have JavaScript allowed for the site. See
@@ -61,9 +61,9 @@ Follow the steps to login to the Web Console.
   (`http://localhost:8082`)
 - For remote access – Enter one of the following URLs into a web browser:
 
-    http://[machinename]:8082
+  http://[machinename]:8082
 
-    https://[machinename]:8082
+  https://[machinename]:8082
 
 **NOTE:** The URL that is used may need to be added to the browser’s list of trusted sites.
 

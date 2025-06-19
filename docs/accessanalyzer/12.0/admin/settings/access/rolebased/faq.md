@@ -55,8 +55,8 @@ capabilities of the new role will not come into effect until the Access Analyzer
 been restarted.
 
 **NOTE:** See the
-[Edit Role Members' Responsibilities](assignroles.md#edit-role-members-responsibilities) and
-[Delete Role Member](assignroles.md#delete-role-member) topics for more information.
+[Edit Role Members' Responsibilities](/docs/accessanalyzer/12.0/admin/settings/access/rolebased/assignroles.md#edit-role-members-responsibilities) and
+[Delete Role Member](/docs/accessanalyzer/12.0/admin/settings/access/rolebased/assignroles.md#delete-role-member) topics for more information.
 
 I locked a job, but when going back to it, it appears to be unlocked. Why?
 

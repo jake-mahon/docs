@@ -6,7 +6,7 @@ To get Platform Governance for NetSuite up and running, you need to do the follo
 2. [Set the number of rows in list segments](#set-the-number-of-row-in-list-segments) to 1,000. This
    is a NetSuite best practice
 3. [Assign a Strongpoint License](#assign-a-license).
-4. [Run the spider](running_the_spider). The spider scans your account in a standardized manner. A
+4. [Run the spider](/docs/platgovnetsuite/installing_strongpoint/running_the_spider.md). The spider scans your account in a standardized manner. A
    series of scheduled scripts is run to document the connections between the customizations.
 
 Starting with Version 6.2.5, queues and priority allocation are deprecated. The bundle is now
@@ -22,7 +22,7 @@ The Bundle ID has been updated due to NetSuite changes.
 3. Enter **294336** in **Keywords**
 4. Click **Search**
 
-    ![Search for the Strongpoint Bundle](/img/product_docs/platgovnetsuite/installing_strongpoint/searchandinstallbundles.webp)
+   ![Search for the Strongpoint Bundle](/img/product_docs/platgovnetsuite/installing_strongpoint/searchandinstallbundles.webp)
 
 5. Click **Strongpoint**
 6. Click **Install** to start the bundle installation.
@@ -31,7 +31,7 @@ The Bundle ID has been updated due to NetSuite changes.
    In the **Installed Bundles** list, the **Strongpoint** bundle is marked with a green check in the
    **Status** column when the bundle is installed.
 
-    ![Verify Strongpoint Bundle Installation](/img/product_docs/platgovnetsuite/installing_strongpoint/verify_bundle_install.webp)
+   ![Verify Strongpoint Bundle Installation](/img/product_docs/platgovnetsuite/installing_strongpoint/verify_bundle_install.webp)
 
 ## Set the Number of Row in List Segments
 
@@ -64,4 +64,4 @@ If the field is grayed out, it should be set as a **Company Preference:**
 5. Select **Full** for **License Type**.
 6. Click **Save**.
 
-**Next Step:** [Running the Spider](running_the_spider)
+**Next Step:** [Running the Spider](/docs/platgovnetsuite/installing_strongpoint/running_the_spider.md)

@@ -27,12 +27,12 @@ installation process. You can also learn more about using SSL certificates with 
 below.
 
 - [http://www.iis.net/learn/manage/configuring-security/how-to-set-up-ssl-on-iis](http://www.iis.net/learn/manage/configuring-security/how-to-set-up-ssl-on-iis)
-- [http://technet.microsoft.com/en-us/library/cc732230(WS.10).aspx](http://technet.microsoft.com/en-us/library/cc732230(WS.10).aspx)
+- [http://technet.microsoft.com/en-us/library/cc732230(WS.10).aspx](<http://technet.microsoft.com/en-us/library/cc732230(WS.10).aspx>)
 
 **NOTE:** Ensure that users only access Password Reset over an encrypted connection after the SSL
 certificate is installed. The Start address and Restricted path in the Password Reset Client
 configuration should start with https://. Web browsers can be redirected to the secure URL. See the
-[Configuring the PRC](password_reset_client.md#configuring-the-prc) topic for more information.
+[Configuring the PRC](/docs/passwordreset/3.3/passwordreset/administration/password_reset_client.md#configuring-the-prc) topic for more information.
 
 ## Delegating Permissions to the Netwrix Password Reset Server Service
 

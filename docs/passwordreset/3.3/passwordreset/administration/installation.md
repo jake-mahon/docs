@@ -11,7 +11,7 @@ from a web browser, or from the Password Reset console.
 
 - Windows 2008\*, 2008 R2, 2012, 2012 R2, 2016, or 2019.
 
-    \*x64 only for NPR Server and Web Interface.
+  \*x64 only for NPR Server and Web Interface.
 
 - 20 Megabytes free disk space.
 - 20 Megabytes free RAM.
@@ -235,7 +235,7 @@ recommended if you have not installed NPR before.
 
 The database files are not overwritten during an upgrade, but you should still create a backup
 before upgrading. See the
-[Backing up the Database](working_with_the_database.md#backing-up-the-database) topic for additional
+[Backing up the Database](/docs/passwordreset/3.3/passwordreset/administration/working_with_the_database.md#backing-up-the-database) topic for additional
 information.
 
 **The Web Interface files are overwritten during an upgrade. You must backup any customized Web
@@ -288,7 +288,7 @@ later).
 **Step 2 –** Close the Data Console if it is open.
 
 **Step 3 –** Stop the Netwrix Password Reset service and backing up the database. See the
-[Backing up the Database](working_with_the_database.md#backing-up-the-database) topic for additional
+[Backing up the Database](/docs/passwordreset/3.3/passwordreset/administration/working_with_the_database.md#backing-up-the-database) topic for additional
 information.
 
 ### Upgrading to V3.23
@@ -338,7 +338,7 @@ folder.
 **Step 9 –** Start the Netwrix Password Reset service.
 
 **Step 10 –** Update the backup script to copy from the new folder. See the
-[Backing up the Database](working_with_the_database.md#backing-up-the-database) topic for additional
+[Backing up the Database](/docs/passwordreset/3.3/passwordreset/administration/working_with_the_database.md#backing-up-the-database) topic for additional
 information.
 
 Configure Password Reset Client to use IE11 emulation mode

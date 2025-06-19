@@ -8,12 +8,12 @@ modify the user interface by editing the templates.
 Password Policy Enforcer Web installs four .htm files for every language. Each filename starts with
 a language code. The files for the US English language are:
 
-| Filename        | Content                                                                                                                                |
-| --------------- | -------------------------------------------------------------------------------------------------------------------------------------- |
+| Filename        | Content                                                                                                                                                                                             |
+| --------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | en_default.htm  | Static HTML for the Welcome page. See the [Launch Password Policy Enforcer Web](/docs/passwordpolicyenforcer/11.0/passwordpolicyenforcer/web/using_web.md) topic for additional information.        |
-| en_ppeweb.htm   | Template for the Password Change page. See the [Change Password](using_web.md#change-password) topic for additional information.       |
-| en_finished.htm | Template for the Finished page.                                                                                                        |
-| en_error.htm    | Template for the Password Critical Error page. See the [Error Messages](using_web.md#error-messages) topic for additional information. |
+| en_ppeweb.htm   | Template for the Password Change page. See the [Change Password](/docs/passwordpolicyenforcer/11.0/passwordpolicyenforcer/web/using_web.md#change-password) topic for additional information.       |
+| en_finished.htm | Template for the Finished page.                                                                                                                                                                     |
+| en_error.htm    | Template for the Password Critical Error page. See the [Error Messages](/docs/passwordpolicyenforcer/11.0/passwordpolicyenforcer/web/using_web.md#error-messages) topic for additional information. |
 
 The other user interface files are language independent. Most of the formatting is in ppeweb.css,
 and some additional CSS for Internet Explorer is in ppeweb_ie.css. The image files are in the images
@@ -51,7 +51,7 @@ Templates end with a resource string section.
 `--><!--/RESOURCE_STRINGS-->`
 
 Resource strings are mostly validation error messages, but they can contain any text Password Policy
-Enforcer Web may need to build the page. See the [Error Messages](using_web.md#error-messages) topic
+Enforcer Web may need to build the page. See the [Error Messages](/docs/passwordpolicyenforcer/11.0/passwordpolicyenforcer/web/using_web.md#error-messages) topic
 for additional information. Do not modify the identifiers on the left, only edit the text on the
 right. Resource strings are always inside a range called RESOURCE_STRINGS. Password Policy Enforcer
 Web deletes this range before sending the page to the user's web browser.

@@ -16,10 +16,10 @@ Step 2 – On the Applications page, click the **Admin Center** tab.
 The tab displays Admin Center hosted in native IIS. When multiple Directory Manager instances have
 been deployed, you will find multiple Admin Center cards on this tab page, each card representing a
 separate instance. See the
-[Elasticsearch Clusters, Nodes, and Directory Manager](overview.md#elasticsearch-clusters-nodes-and-directory-manager)
+[Elasticsearch Clusters, Nodes, and Directory Manager](/docs/directorymanager/11.1/directorymanager/admincenter/service/overview.md#elasticsearch-clusters-nodes-and-directory-manager)
 topic.  
 For details displayed on an Admin Center card, see the table in the
-[View Data Service Details](dataservice/manage.md#view-data-service-details) topic for additional
+[View Data Service Details](/docs/directorymanager/11.1/directorymanager/admincenter/service/dataservice/manage.md#view-data-service-details) topic for additional
 information.
 
 You cannot create an Admin Center application or delete an existing one from Admin Center tab.
@@ -33,12 +33,12 @@ Step 1 – In Admin Center, click **Applications** in the left pane.
 Step 2 – On the Admin Center tab, click **Launch Application** on an Admin Center card.  
 Provide the Admin Center URL to admin and helpdesk users so they can access it. You can either copy
 the URL from the address bar or from Admin Center deployment settings. See the See the
-[View the Launch URL for a Service](dataservice/manage.md#view-the-launch-url-for-a-service) topic.
+[View the Launch URL for a Service](/docs/directorymanager/11.1/directorymanager/admincenter/service/dataservice/manage.md#view-the-launch-url-for-a-service) topic.
 
 ## Change the Application Display Name
 
 To change the display name of the Admin Center application, see the
-[Change a Service’s Display Name](dataservice/manage.md#change-a-services-display-name) topic.
+[Change a Service’s Display Name](/docs/directorymanager/11.1/directorymanager/admincenter/service/dataservice/manage.md#change-a-services-display-name) topic.
 Replace references to the service with Admin Center.
 
 ## View Deployment Settings
@@ -59,5 +59,5 @@ where you can view Admin Center deployment details in native IIS.
 ## Configure Event Logging
 
 To configure file logging and Windows logging for Admin Center, see the
-[Specify Log Settings for a Service](dataservice/manage.md#specify-log-settings-for-a-service) topic
+[Specify Log Settings for a Service](/docs/directorymanager/11.1/directorymanager/admincenter/service/dataservice/manage.md#specify-log-settings-for-a-service) topic
 for additional information.

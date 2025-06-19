@@ -20,7 +20,7 @@ If you do not want to enable the API because your Web Interface is accessible fr
 then you could leave the API disabled on your Internet-facing Web Interface and set up an internal
 Web Interface for API queries. Use the ServerIP registry value to point both Web Interfaces to the
 same NPR Server, and enable the API only on the internal server. See the
-[Multiple Server Installation](installation.md#multiple-server-installation) topic for more
+[Multiple Server Installation](/docs/passwordreset/3.3/passwordreset/administration/installation.md#multiple-server-installation) topic for more
 information.
 
 Follow the steps below to enable the API.

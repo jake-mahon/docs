@@ -16,7 +16,7 @@ app and provide its settings to Auditor when configuring a monitored item.
 Follow the steps to use a data collecting account with modern authentication.
 
 **Step 1 –** Create a Microsoft Entra ID app that will be used for modern authentication. See the
-[Create and Register a New App in Microsoft Entra ID](modernauth.md#create-and-register-a-new-app-in-microsoft-entra-id)
+[Create and Register a New App in Microsoft Entra ID](/docs/auditor/10.7/auditor/configuration/microsoft365/exchangeonline/modernauth.md#create-and-register-a-new-app-in-microsoft-entra-id)
 topic for additional information.
 
 **NOTE:** After you start a new monitoring plan and select a data source in the first step, you will
@@ -26,17 +26,17 @@ Instead, you will need to configure a modern authentication app and give the nec
 there.
 
 **Step 2 –** Grant required permissions to that application. See the
-[Grant Required Permissions](modernauth.md#grant-required-permissions) topic for additional
+[Grant Required Permissions](/docs/auditor/10.7/auditor/configuration/microsoft365/exchangeonline/modernauth.md#grant-required-permissions) topic for additional
 information.
 
 **Step 3 –** Grant required roles to that application. See the
-[Grant Required Roles](modernauth.md#grant-required-roles) topic for additional information.
+[Grant Required Roles](/docs/auditor/10.7/auditor/configuration/microsoft365/exchangeonline/modernauth.md#grant-required-roles) topic for additional information.
 
 **Step 4 –** Configure client secret for that application. See the
-[Configure Client Secret](modernauth.md#configure-client-secret) topic for additional information.
+[Configure Client Secret](/docs/auditor/10.7/auditor/configuration/microsoft365/exchangeonline/modernauth.md#configure-client-secret) topic for additional information.
 
 **Step 5 –** Obtain tenant ID – you will need it when configuring a monitored item (Office 365
-tenant) settings. See the [Obtain the Tenant Name](modernauth.md#obtain-the-tenant-name) topic for
+tenant) settings. See the [Obtain the Tenant Name](/docs/auditor/10.7/auditor/configuration/microsoft365/exchangeonline/modernauth.md#obtain-the-tenant-name) topic for
 additional information.
 
 ## Non-owner Mailbox Access Audit Configuration

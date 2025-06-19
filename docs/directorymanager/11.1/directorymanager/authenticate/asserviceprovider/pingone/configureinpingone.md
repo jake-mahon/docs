@@ -27,7 +27,7 @@ To configure Directory Manager in PingOne, follow these steps:
 9. On the next page, make sure the **I have the SAML configuration** tile is selected.
 10. Use the metadata file you generated for the _Wizard_ portal in Directory Manager to configure
     certain settings on this page. See the
-    [Generate the Metadata File](generatemetadata.md#generate-the-metadata-file) topic.  
+    [Generate the Metadata File](/docs/directorymanager/11.1/directorymanager/authenticate/asserviceprovider/pingone/generatemetadata.md#generate-the-metadata-file) topic.  
     Click the **Select File** button next to **Upload Metadata**. Simply select the metadata file
     and it will be uploaded, thereby bringing in the required settings to configure the Directory
     Manager client _Wizard_ within PingOne. For example, the **Entity ID** box is populated with the

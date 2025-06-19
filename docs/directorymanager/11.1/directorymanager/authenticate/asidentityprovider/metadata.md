@@ -13,7 +13,7 @@ Step 1 – In Directory Manager Authenticate, go to the Settings tab.
 
 Step 2 – On the Settings page, the Base URL box displays the default Issuer URL, which is also
 displayed in the Provider Issuer box on the Create Application page. See the
-[Directory Manager Metadata for Service Provider Configurations](register.md#directory-manager-metadata-for-service-provider-configurations)
+[Directory Manager Metadata for Service Provider Configurations](/docs/directorymanager/11.1/directorymanager/authenticate/asidentityprovider/register.md#directory-manager-metadata-for-service-provider-configurations)
 topic.  
 You may want to change the default base/Issuer URL for any reason, for example, replace it with a
 sub-domain URL or a load balancer URL.  
@@ -29,7 +29,7 @@ Step 2 – On the Settings page, the Signing Certificate box displays the Direct
 certificate created in IIS. It displays the certificate along with the private key. This certificate
 is also displayed in the Provider Signing Certificate box on the Create Application page, though
 without the private key. See the
-[Directory Manager Metadata for Service Provider Configurations](register.md#directory-manager-metadata-for-service-provider-configurations)
+[Directory Manager Metadata for Service Provider Configurations](/docs/directorymanager/11.1/directorymanager/authenticate/asidentityprovider/register.md#directory-manager-metadata-for-service-provider-configurations)
 topic.  
 You may choose to use this certificate or create a custom certificate and use that in third-party
 applications.

@@ -41,5 +41,5 @@ versa.
 
 _Remember,_ prior to running the Dropbox Solution for the first time, it is necessary to generate an
 access token to be used in the Connection Profile. This only needs to be done once. See the
-[Configure the Dropbox Access Query](1-dropbox_permissions_scan.md#configure-the-dropbox-access-query)
+[Configure the Dropbox Access Query](/docs/accessanalyzer/12.0/solutions/dropbox/collection/1-dropbox_permissions_scan.md#configure-the-dropbox-access-query)
 topic for additional information.

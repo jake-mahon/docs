@@ -51,7 +51,7 @@ reset\aprlog.bak"
 net start "Netwrix Password Reset"
 
 **NOTE:** Change the paths above if the database files are in a different folder. See the
-[Database](general_tab.md#database) topic for more information.
+[Database](/docs/passwordpolicyenforcer/11.0/passwordreset/administration/general_tab.md#database) topic for more information.
 
 **Restoring database from backup**
 

@@ -4,7 +4,7 @@ If a scheduled task has custom credentials set, then the Rename Scheduled Task w
 renaming the associated job, job group, inventory query, or discovery query. The wizard forces you
 to provide the credentials needed for the scheduled task, so that the task is still able to run
 after it has been renamed. Custom credentials are configured on the Run as page of the Schedule
-wizard. See the [Run As](wizard.md#run-as) topic for additional information.
+wizard. See the [Run As](/docs/accessanalyzer/12.0/admin/schedule/wizard.md#run-as) topic for additional information.
 
 If a scheduled task does not contain custom credentials, then the job, job group, inventory query,
 or discovery query can be renamed and the scheduled task is automatically renamed without requiring

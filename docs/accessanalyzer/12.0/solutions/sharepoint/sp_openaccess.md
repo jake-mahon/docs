@@ -14,8 +14,8 @@ vulnerability. The SP_OpenAccess Job will identify places in the environment whe
 be accessed by a very large amount of employees.
 
 It is dependent on data collected by the
-[SharePoint Access Auditing](collection/overview.md#sharepoint-access-auditing) or
-[SharePoint Sensitive Data Discovery Auditing (SEEK)](collection/overview.md#sharepoint-sensitive-data-discovery-auditing-seek)
+[SharePoint Access Auditing](/docs/accessanalyzer/12.0/solutions/sharepoint/collection/overview.md#sharepoint-access-auditing) or
+[SharePoint Sensitive Data Discovery Auditing (SEEK)](/docs/accessanalyzer/12.0/solutions/sharepoint/collection/overview.md#sharepoint-sensitive-data-discovery-auditing-seek)
 components of the [0.Collection Job Group](/docs/accessanalyzer/12.0/solutions/sharepoint/collection/overview.md).
 
 ## Analysis Tasks for the SP_OpenAccess Job
@@ -30,10 +30,10 @@ preconfigured for this job.
 
 The default analysis tasks are:
 
--   1. Determine Access to Resources – Creates the SA_SP_OpenAccess_AccessDetails table accessible
-       under the job’s Results node
--   2. Summarize by Site Collection – Creates the SA_SP_OpenAccess_SiteCollectionSummary table
-       accessible under the job’s Results node
+- 1. Determine Access to Resources – Creates the SA_SP_OpenAccess_AccessDetails table accessible
+     under the job’s Results node
+- 2. Summarize by Site Collection – Creates the SA_SP_OpenAccess_SiteCollectionSummary table
+     accessible under the job’s Results node
 
 In addition to the tables created by the analysis tasks which display resources with open access,
 the SP_OpenAccess Job produces the following pre-configured report:

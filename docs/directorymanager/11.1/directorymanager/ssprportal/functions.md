@@ -8,7 +8,7 @@ When you launch the SSPR portal, the Welcome to GroupID page lists the following
 - Unlock
 
 You can either click a function and then sign in to perform that function or first sign in and then
-select a function. See the [Launch the Portal](overview.md#launch-the-portal) topic for additional
+select a function. See the [Launch the Portal](/docs/directorymanager/11.1/directorymanager/ssprportal/overview.md#launch-the-portal) topic for additional
 information.
 
 When you sign in (without selecting any function), the main portal page is displayed. It lists the

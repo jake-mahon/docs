@@ -22,9 +22,9 @@ See the [Requirements](/docs/endpointprotector/5.9.4.2/endpointprotector/require
 
 - Access the Endpoint Protector Management Console:
 
-    - Access the appliance using the IP address configured during the deployment process, which is
-      also visible on the backend console.
-    - Log in using your administrator credentials.
+  - Access the appliance using the IP address configured during the deployment process, which is
+    also visible on the backend console.
+  - Log in using your administrator credentials.
 
 See the [Server Functionality](/docs/endpointprotector/5.9.4.2/endpointprotector/admin/dashboard/systemdashboard.md) topic for additional information.
 
@@ -32,8 +32,8 @@ See the [Server Functionality](/docs/endpointprotector/5.9.4.2/endpointprotector
 
 - Administrator Accounts:
 
-    - Create and manage administrator accounts with appropriate permissions under System
-      Configuration > System Administrators.
+  - Create and manage administrator accounts with appropriate permissions under System
+    Configuration > System Administrators.
 
 See the [System Configuration](/docs/endpointprotector/5.9.4.2/endpointprotector/admin/systemconfiguration/overview.md) topic for additional
 Information.
@@ -42,9 +42,9 @@ Information.
 
 - Create Device Control Policies:
 
-    - Navigate to Device Control.
-    - Create Custom Policies to configure device access rules.
-    - Customize policies based on device types and access requirements.
+  - Navigate to Device Control.
+  - Create Custom Policies to configure device access rules.
+  - Customize policies based on device types and access requirements.
 
 See the [Device Control](/docs/endpointprotector/5.9.4.2/endpointprotector/admin/devicecontrol/module.md) topic for additional information.
 
@@ -52,9 +52,9 @@ See the [Device Control](/docs/endpointprotector/5.9.4.2/endpointprotector/admin
 
 - Create Content Aware Policies:
 
-    - Navigate to Content Aware Protection > Content Aware Policies.
-    - Create Custom Policies to define file monitoring and protection rules.
-    - Specify Denylists, Predefined Content, or Custom Content to identify sensitive data.
+  - Navigate to Content Aware Protection > Content Aware Policies.
+  - Create Custom Policies to define file monitoring and protection rules.
+  - Specify Denylists, Predefined Content, or Custom Content to identify sensitive data.
 
 See the [Content Aware Protection](/docs/endpointprotector/5.9.4.2/endpointprotector/admin/contentawareprotection/module.md) topic for more
 information.
@@ -63,9 +63,9 @@ information.
 
 - Setup eDiscovery Scans:
 
-    - Navigate to eDiscovery > Policies and Scans.
-    - Create custom scan policies to identify sensitive data at rest on endpoint systems.
-    - Configure scan options and remediation actions (Encrypt, Decrypt, Delete).
+  - Navigate to eDiscovery > Policies and Scans.
+  - Create custom scan policies to identify sensitive data at rest on endpoint systems.
+  - Configure scan options and remediation actions (Encrypt, Decrypt, Delete).
 
 See the [eDiscovery](/docs/endpointprotector/5.9.4.2/endpointprotector/admin/ediscovery/module.md) topic for additional more information.
 
@@ -73,8 +73,8 @@ See the [eDiscovery](/docs/endpointprotector/5.9.4.2/endpointprotector/admin/edi
 
 - Customize Netwrix Endpoint Protector Client Settings:
 
-    - Navigate to Device Control > Client Settings.
-    - Configure Client Modes (Normal, Transparent, Stealth, etc.) and Notification Preferences.
+  - Navigate to Device Control > Client Settings.
+  - Configure Client Modes (Normal, Transparent, Stealth, etc.) and Notification Preferences.
 
 See the [Device Control](/docs/endpointprotector/5.9.4.2/endpointprotector/admin/devicecontrol/module.md) topic for more information.
 
@@ -82,9 +82,9 @@ See the [Device Control](/docs/endpointprotector/5.9.4.2/endpointprotector/admin
 
 - Setup User Remediation:
 
-    - Navigate to System Parameters > User Remediation.
-    - Configure settings such as Time Interval for user actions and User Remediation Pop-up
-      notifications.
+  - Navigate to System Parameters > User Remediation.
+  - Configure settings such as Time Interval for user actions and User Remediation Pop-up
+    notifications.
 
 See the [System Parameters](/docs/endpointprotector/5.9.4.2/endpointprotector/admin/systemparameters/overview.md) topic for more information.
 
@@ -92,8 +92,8 @@ See the [System Parameters](/docs/endpointprotector/5.9.4.2/endpointprotector/ad
 
 - Generate Offline Temporary Passwords:
 
-    - Navigate to Offline Temporary Passwords.
-    - Generate passwords to provide temporary access rights when User Remediation is unavailable.
+  - Navigate to Offline Temporary Passwords.
+  - Generate passwords to provide temporary access rights when User Remediation is unavailable.
 
 See the [Offline Temporary Password](/docs/endpointprotector/5.9.4.2/endpointprotector/admin/offlinetemporarypassword/overview.md) topic for more
 information.
@@ -102,9 +102,9 @@ information.
 
 - Deploy Netwrix Endpoint Protector Agents:
 
-    - Access System Configuration > Client Software.
-    - Download and deploy Endpoint Protector Client packages for Windows, macOS, and Linux systems.
-    - Utilize MDM software or other deployment tools for efficient agent deployment.
+  - Access System Configuration > Client Software.
+  - Download and deploy Endpoint Protector Client packages for Windows, macOS, and Linux systems.
+  - Utilize MDM software or other deployment tools for efficient agent deployment.
 
 See the [System Configuration](/docs/endpointprotector/5.9.4.2/endpointprotector/admin/systemconfiguration/overview.md) topic for more information.
 
@@ -112,8 +112,8 @@ See the [System Configuration](/docs/endpointprotector/5.9.4.2/endpointprotector
 
 - Transition to Blocking Policies:
 
-    - Duplicate "Report Only" CAP policies and modify them to enforce restrictions.
-    - Activate blocking policies to prevent unauthorized data movements.
+  - Duplicate "Report Only" CAP policies and modify them to enforce restrictions.
+  - Activate blocking policies to prevent unauthorized data movements.
 
 See the [Content Aware Protection](/docs/endpointprotector/5.9.4.2/endpointprotector/admin/contentawareprotection/module.md) topic for more
 information.
@@ -122,33 +122,33 @@ information.
 
 - Implement Remediation Actions:
 
-    - Review eDiscovery scan results under eDiscovery > Scan Results and Actions.
-    - Perform actions such as Encrypt, Decrypt, or Delete on identified sensitive data to mitigate
-      risks.
+  - Review eDiscovery scan results under eDiscovery > Scan Results and Actions.
+  - Perform actions such as Encrypt, Decrypt, or Delete on identified sensitive data to mitigate
+    risks.
 
 See the
-[eDiscovery Scan Result and Actions](admin/ediscovery/module.md#ediscovery-scan-result-and-actions)
+[eDiscovery Scan Result and Actions](/docs/endpointprotector/5.9.4.2/endpointprotector/admin/ediscovery/module.md#ediscovery-scan-result-and-actions)
 topic for more information.
 
 ## Deploying Enforced Encryption
 
 - Automatic Deployment:
 
-    - Go to Device Control > Global Rights.
-    - Enable Allow Access if Trusted Device™ Level 1+.
-    - Ensures automatic deployment of Enforced Encryption 2 on USB devices recognized as Trusted
-      Device™ Level 1.
+  - Go to Device Control > Global Rights.
+  - Enable Allow Access if Trusted Device™ Level 1+.
+  - Ensures automatic deployment of Enforced Encryption 2 on USB devices recognized as Trusted
+    Device™ Level 1.
 
 - Manual Deployment:
 
-    - Download Enforced Encryption installer for Windows/macOS.
-    - Copy installer to USB root.
-    - Execute installer from USB to setup Enforced Encryption.
+  - Download Enforced Encryption installer for Windows/macOS.
+  - Copy installer to USB root.
+  - Execute installer from USB to setup Enforced Encryption.
 
 - Configuration:
 
-    - Set Master Password and user policies in Settings > Enforced Encryption.
-    - Monitoring Devices:
-    - Manage Enforced Encryption devices in Clients list section.
+  - Set Master Password and user policies in Settings > Enforced Encryption.
+  - Monitoring Devices:
+  - Manage Enforced Encryption devices in Clients list section.
 
 See the [Enforced Encryption](/docs/endpointprotector/5.9.4.2/endpointprotector/admin/enforcedencryption/module.md) topic for more information.

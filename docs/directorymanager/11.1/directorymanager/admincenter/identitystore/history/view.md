@@ -31,10 +31,10 @@ viewed in Admin Center.
    **Edit**.
 3. Click **History** under **Settings** in the left pane.
 
-    The **Identity Store History** page displays history data in a descriptive and concise manner.
-    Items are sorted according to the date and time they were last updated, with the most recent at
-    the top.  
-    Click a history item to view its details. See the [History Item Details](/docs/directorymanager/11.1/directorymanager/admincenter/identitystore/history/details.md) topic.
+   The **Identity Store History** page displays history data in a descriptive and concise manner.
+   Items are sorted according to the date and time they were last updated, with the most recent at
+   the top.  
+   Click a history item to view its details. See the [History Item Details](/docs/directorymanager/11.1/directorymanager/admincenter/identitystore/history/details.md) topic.
 
 ## Filter History Data
 
@@ -52,41 +52,41 @@ value, old value, and more.
 4. In the _Select a Filter_ drop-down list, select an attribute to use for filtering history
    records. Options are:
 
-    - Action
-    - Machine Name
-    - Modified On
-    - New Value
-    - Old Value
-    - User Name
+   - Action
+   - Machine Name
+   - Modified On
+   - New Value
+   - Old Value
+   - User Name
 
 5. In the _Select an Operator_ drop-down list, select an operator to apply to the selected
    attribute. This drop-down displays the operators on the basis of the selected attribute.
    Available operators are:
 
-    | Condition           | Description                                                                                                                 |
-    | ------------------- | --------------------------------------------------------------------------------------------------------------------------- |
-    | Starts with         | Returns everything that starts with the value.                                                                              |
-    | Does not start with | Returns everything that does not start with the value.                                                                      |
-    | Ends with           | Returns everything that ends with the value. Searching with this condition is resource-intensive for the directory.         |
-    | Does not end with   | Returns everything that does not end with the value. Searching with this condition is resource-intensive for the directory. |
-    | Is exactly          | Returns everything that matches the value.                                                                                  |
-    | Is not              | Returns everything that does not match the value.                                                                           |
-    | Contains            | Returns everything that contains the value. Searching with this condition is resource-intensive for the directory.          |
-    | Not contain         | Returns everything that does not contain the value. Searching with this condition is resource-intensive for the directory.  |
-    | Present             | Returns everything that has a value.                                                                                        |
-    | Not present         | Returns everything that does not have a value.                                                                              |
-    | Greater or equal    | Returns everything with a value greater than or equal to the given value.                                                   |
-    | Less or equal       | Returns everything with a value lesser than or equal to the given value.                                                    |
+   | Condition           | Description                                                                                                                 |
+   | ------------------- | --------------------------------------------------------------------------------------------------------------------------- |
+   | Starts with         | Returns everything that starts with the value.                                                                              |
+   | Does not start with | Returns everything that does not start with the value.                                                                      |
+   | Ends with           | Returns everything that ends with the value. Searching with this condition is resource-intensive for the directory.         |
+   | Does not end with   | Returns everything that does not end with the value. Searching with this condition is resource-intensive for the directory. |
+   | Is exactly          | Returns everything that matches the value.                                                                                  |
+   | Is not              | Returns everything that does not match the value.                                                                           |
+   | Contains            | Returns everything that contains the value. Searching with this condition is resource-intensive for the directory.          |
+   | Not contain         | Returns everything that does not contain the value. Searching with this condition is resource-intensive for the directory.  |
+   | Present             | Returns everything that has a value.                                                                                        |
+   | Not present         | Returns everything that does not have a value.                                                                              |
+   | Greater or equal    | Returns everything with a value greater than or equal to the given value.                                                   |
+   | Less or equal       | Returns everything with a value lesser than or equal to the given value.                                                    |
 
 6. In the _Select a Value_ box, specify a value for the attribute. The selected attribute and
    operator determine the kind of value that can be entered in this box.  
    For some operators, such as _Present_ and _Not Present_, this field is not available. These
    operators check if a value for the attribute is present or not.
 
-    **Add more filters** - On adding a filter, the next row is displayed, so you can add another
-    filter.  
-     **Remove a filter row** - To remove a filter row, click **Remove** for it.  
-     **Remove the filter** - To remove all the filter rows, click **Clear**.
+   **Add more filters** - On adding a filter, the next row is displayed, so you can add another
+   filter.  
+    **Remove a filter row** - To remove a filter row, click **Remove** for it.  
+    **Remove the filter** - To remove all the filter rows, click **Clear**.
 
 7. To apply the filter, click **Apply**. With multiple filters, history items that satisfy all the
    filters are displayed.
@@ -133,7 +133,7 @@ add comments.
 3. Click **History** under **Settings** in the left pane.
 4. On the **Identity Store History** page, click a history item.
 5. On the **History Details** dialog box, manage notes for the history item. See the
-   [Annotate History Items](details.md#annotate-history-items) topic.
+   [Annotate History Items](/docs/directorymanager/11.1/directorymanager/admincenter/identitystore/history/details.md#annotate-history-items) topic.
 
 ## Export History Data
 

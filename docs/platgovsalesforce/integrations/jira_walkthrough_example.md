@@ -20,14 +20,14 @@ The walkthrough demonstrates these steps:
 2. Open a Project.
 3. Click **Create** (**+**).
 
-    ![Create a Jira ticket](/img/product_docs/platgovnetsuite/integrations/jira_example_create_issue.webp)
+   ![Create a Jira ticket](/img/product_docs/platgovnetsuite/integrations/jira_example_create_issue.webp)
 
 4. Enter your information on the **Create issue** form:
 
-    - **Project**: Select your Project. **NS & SF Jira Demo (SJD)** is selected for this example.
-    - **Issue Type**: Select your Jira type. **Task** is selected for this example.
-    - **Summary**: Add a name
-    - **Description** (optional)
+   - **Project**: Select your Project. **NS & SF Jira Demo (SJD)** is selected for this example.
+   - **Issue Type**: Select your Jira type. **Task** is selected for this example.
+   - **Summary**: Add a name
+   - **Description** (optional)
 
 5. Click **Create**.
 6. Alerts and notifications may occur during this walkthrough, and are not included in these steps.
@@ -38,20 +38,20 @@ The walkthrough demonstrates these steps:
 
 1. Open the **Comments** tab and select **Strongpoint Salesforce**.
 
-    ![Accessing the Strongpoint Salesforce app](/img/product_docs/platgovsalesforce/integrations/jira_comments_open_app.webp)
+   ![Accessing the Strongpoint Salesforce app](/img/product_docs/platgovsalesforce/integrations/jira_comments_open_app.webp)
 
 2. There are two ways to connect: **Login User** or **Connected App** tabs.
 
-    ![Connection options](/img/product_docs/platgovsalesforce/integrations/connection_options.webp)
+   ![Connection options](/img/product_docs/platgovsalesforce/integrations/connection_options.webp)
 
 ### Connected App
 
 Use the **Connected App** tab if you set up the connected app using the procedure:
-[Access Data with API Integration](jira_integration.md#access-data-with-apiintegration)
+[Access Data with API Integration](/docs/platgovsalesforce/integrations/jira_integration.md#access-data-with-apiintegration)
 
 1. Open the **Connected App** tab.
 
-    ![Using the connected app](/img/product_docs/platgovsalesforce/integrations/connection_options_app.webp)
+   ![Using the connected app](/img/product_docs/platgovsalesforce/integrations/connection_options_app.webp)
 
 2. Enter the **Consumer Key** and **Consumer Secret**.
 3. Click **Is Sandbox account?** if you are logging in to a sandbox.
@@ -67,9 +67,9 @@ If the configuration fails, an error message is displayed. For example,
 > - The 10 minutes timing slot from Salesforce is not completed yet. Please wait
 > - If the error persists, check the [Callback URL](/docs/platgovsalesforce/integrations/jira_integration.md).
 >
->     - You may have left a space between the two Callback URLs
->     - You may have an error in the newly added Callback URL it should be:  
->       **https://spjira.my.salesforce-sites.com/SpHandleJiraAuth**
+>   - You may have left a space between the two Callback URLs
+>   - You may have an error in the newly added Callback URL it should be:  
+>     **https://spjira.my.salesforce-sites.com/SpHandleJiraAuth**
 
 ### Login User
 
@@ -123,14 +123,14 @@ Once you have logged in, the form is displayed.
 2. Click **+** to search for matching Customizations. Hover over **View** to display the **Type**
    and **API Name** for a Customization.
 
-    ![Add an existing customization](/img/product_docs/platgovsalesforce/integrations/jira_customization_add.webp)
+   ![Add an existing customization](/img/product_docs/platgovsalesforce/integrations/jira_customization_add.webp)
 
 3. Select one or more Customizations. This example uses **Maintenance Type (Parent: Account)**, a
    customization in the _Strongpoint Demo Org_.
 4. Click **Add Selected Customizations**. The selected Customization is added to the **Existing
    Customizations** list.
 
-    ![Add an existing customization](/img/product_docs/platgovsalesforce/integrations/jira_example_add_existing.webp)
+   ![Add an existing customization](/img/product_docs/platgovsalesforce/integrations/jira_example_add_existing.webp)
 
 5. Enter an **API Name** in **Add customization** for **Existing Customizations** and click **+**.
    This example uses **UpsellOpportunities**, an API in the _Strongpoint Demo Org_.
@@ -138,7 +138,7 @@ Once you have logged in, the form is displayed.
    Customization is added to the **Existing Customizations** list. This example shows
    **UpsellOpportunities (ApexClass)**, an API in the _Strongpoint Demo Org_.
 
-    ![Add an existing customization by API Name](/img/product_docs/platgovsalesforce/integrations/jira_example_add_existing_api.webp)
+   ![Add an existing customization by API Name](/img/product_docs/platgovsalesforce/integrations/jira_example_add_existing_api.webp)
 
 ### Add Proposed Customizations
 
@@ -149,7 +149,7 @@ In this procedure, we are adding a new Customization.
 2. Click (**+**) to add it. If the API Name is valid, and does not match an existing API Name, the
    new Customization is added to the **Proposed Customizations** list.
 
-    ![Add a proposed customization](/img/product_docs/platgovsalesforce/integrations/jira_example_proposed.webp)
+   ![Add a proposed customization](/img/product_docs/platgovsalesforce/integrations/jira_example_proposed.webp)
 
 ### Create the Change Request
 
@@ -166,7 +166,7 @@ up the **[Jira Statuses](/docs/platgovsalesforce/integrations/jira_integration.m
 3. Expand the **Change Request** field on the right. The status is now **None/In Progress**. There
    is a link to open the Change Request in Salesforce.
 
-    ![Change Request is In Progress](/img/product_docs/platgovsalesforce/integrations/jira_example_in_progress_status.webp)
+   ![Change Request is In Progress](/img/product_docs/platgovsalesforce/integrations/jira_example_in_progress_status.webp)
 
 Note the **Policy** and **Change Level Req** reflect the most stringent requirement for your
 selected customizations, in this example, **Change Request**.
@@ -208,11 +208,11 @@ Once you have resolved any risk or conflicts, your changes are ready for develop
 3. Expand the **Change Request** field on the right. The status is now **Pending Approval / In
    Progress**. There is a link to open the Change Request in Salesforce.
 
-    ![Change Request in Pending Approval](/img/product_docs/platgovsalesforce/integrations/jira_example_pending_approval_status.webp)
+   ![Change Request in Pending Approval](/img/product_docs/platgovsalesforce/integrations/jira_example_pending_approval_status.webp)
 
 4. Click the **Go To Record** link to view the Change Request.
 
-    ![Change Request is In Progress / Pending Approval](/img/product_docs/platgovsalesforce/integrations/jira_example_pending_approval_change_request.webp)
+   ![Change Request is In Progress / Pending Approval](/img/product_docs/platgovsalesforce/integrations/jira_example_pending_approval_change_request.webp)
 
 ## Deploy Changes and Complete the Ticket
 
@@ -221,7 +221,7 @@ ticket is ready to be updated.
 
 1. Expand the **Change Request** field on the right. The status is **Approved / In Progress**.
 
-    ![Change Request is approved](/img/product_docs/platgovsalesforce/integrations/jira_example_approved_status.webp)
+   ![Change Request is approved](/img/product_docs/platgovsalesforce/integrations/jira_example_approved_status.webp)
 
 2. Change the Jira status of your ticket to match the status set up for **CR Approved**. For
    example, **Ready for Deployment**.
@@ -239,4 +239,4 @@ If you open the Change Request in Salesforce:
 - **External Created By**: is the user that created the Jira ticket .
 - **External last Modified by**: is the last user who modified the Jira ticket.
 
-    ![user_guide_example](/img/product_docs/platgovsalesforce/integrations/user_guide_example.webp)
+  ![user_guide_example](/img/product_docs/platgovsalesforce/integrations/user_guide_example.webp)

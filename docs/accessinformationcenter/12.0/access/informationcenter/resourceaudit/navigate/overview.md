@@ -21,7 +21,7 @@ left of the Results pane. Theses panes have the following functions:
 - Reports Pane – Lists available reports for the resource type
 - Results Pane – Displays the report content
 - Group Membership Pane – Displays group membership for group trustees selected in the Results pane
-- [Resources Pane](resource.md#resources-pane) – Navigation tree for the selected resource (only
+- [Resources Pane](/docs/accessinformationcenter/12.0/access/informationcenter/resourceaudit/navigate/resource.md#resources-pane) – Navigation tree for the selected resource (only
   present in the Resource Audit interface)
 
 ### Reports Pane

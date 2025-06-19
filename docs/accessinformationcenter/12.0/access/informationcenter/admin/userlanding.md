@@ -4,7 +4,7 @@ Role based access controls what interfaces users can see and where each user is 
 
 **_RECOMMENDED:_** Send an email to your users. Let them know why you are implementing use of the
 application, provide the URL, and explain how to login with their domain credentials and the
-username format. See the [Enable Console Users](gettingstarted.md#enable-console-users) topic for
+username format. See the [Enable Console Users](/docs/accessinformationcenter/12.0/access/informationcenter/admin/gettingstarted.md#enable-console-users) topic for
 additional information.
 
 ## Administrator Role

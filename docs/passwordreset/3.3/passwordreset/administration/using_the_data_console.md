@@ -21,7 +21,7 @@ you could click the blue bar on 2/19/2015 to see all the password resets for tha
 
 The resulting view shows only the 15 successful password resets on 2/19/2015. These are shown in the
 **Audit Log** tab. You can create your own filter to find events in this tab. See the
-[Custom Filters](filtering_data.md#custom-filters) topic for additional information. You can drag a
+[Custom Filters](/docs/passwordreset/3.3/passwordreset/administration/filtering_data.md#custom-filters) topic for additional information. You can drag a
 column's header to rearrange the columns, or click a column header to sort the records.
 
 The **Audit Log** tab has nine columns:

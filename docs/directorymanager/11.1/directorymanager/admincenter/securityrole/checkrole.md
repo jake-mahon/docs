@@ -1,7 +1,7 @@
 # Check the Roles of a User
 
 As discussed in the
-[Assign Distinct Roles to a User in Directory Manager Clients](overview.md#assign-distinct-roles-to-a-user-in-directory-manager-clients)
+[Assign Distinct Roles to a User in Directory Manager Clients](/docs/directorymanager/11.1/directorymanager/admincenter/securityrole/overview.md#assign-distinct-roles-to-a-user-in-directory-manager-clients)
 topic, a user in an identity store can have different security roles assigned to it in different
 Directory Manager clients. Moreover, a user can also have multiple roles in a client, in which case
 the highest priority role takes precedence when the user logs into that specific client. See
@@ -28,16 +28,16 @@ Directory Manager fetches the highest priority role of the user with respect to 
    **Client Name** list.
 6. In the box below, specify a user.
 
-    - Enter a search string and press **Enter**. User names starting with the string are displayed.
-      Select the required user.
+   - Enter a search string and press **Enter**. User names starting with the string are displayed.
+     Select the required user.
 
-        OR
+     OR
 
-    - Click **Advanced** to search a user by different parameters, such as name, department,
-      company, and email. Enter a search string and click **Search**. Users matching the string are
-      displayed. Select the required user.
+   - Click **Advanced** to search a user by different parameters, such as name, department,
+     company, and email. Enter a search string and click **Search**. Users matching the string are
+     displayed. Select the required user.
 
-    To remove the selected user, click **Remove** for it.
+   To remove the selected user, click **Remove** for it.
 
 7. On selecting a user, its highest priority role within the selected client is displayed along with
    the role priority number.  

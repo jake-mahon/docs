@@ -43,7 +43,7 @@ From within the Web Console, reports cannot be edited or deleted. However, the i
 functions are enabled. See the [Interactive Grids](/docs/accessanalyzer/12.0/admin/report/interactivegrids/overview.md) topic for
 additional information. An additional feature available within the Web Console is the option to
 download data as a CSV file, which can be enabled for grid elements. This exports the data within
-tables, both interactive grid and plain HTML tables. See the [Grid](wizard/widgets.md#grid) topic
+tables, both interactive grid and plain HTML tables. See the [Grid](/docs/accessanalyzer/12.0/admin/report/wizard/widgets.md#grid) topic
 for additional information.
 
 **NOTE:** Any browser used to access the Web Console must have JavaScript allowed for the site. See
