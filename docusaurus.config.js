@@ -211,7 +211,7 @@ const config = {
         id: 'accessinformationcenter11_6',
         path: 'docs/accessinformationcenter/11.6',
         routeBasePath: 'docs/accessinformationcenter/11.6',
-        sidebarPath: require.resolve('./sidebars/sidebar.js'),
+        sidebarPath: require.resolve('./sidebars/accessinformationcenter/11.6.js'),
         editUrl: 'https://github.com/netwrix/docs/tree/main/',
         exclude: ['**/CLAUDE.md'],
         versions: {
