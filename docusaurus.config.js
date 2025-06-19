@@ -761,6 +761,14 @@ const config = {
           autoCollapseCategories: false,
         },
       },
+      algolia: {
+        appId: 'KPMSCF6G6J',
+        apiKey: '1b20f30f13a874cd46f9d5c30b01d99c',
+        indexName: 'product_docs',
+        searchPagePath: false,
+        placeholder: 'Search the Netwrix docs',
+        contextualSearch: false,
+      },
       navbar: {
         logo: {
           alt: 'Netwrix Logo',
