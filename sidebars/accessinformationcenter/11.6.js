@@ -24,7 +24,6 @@ const sidebars = {
       collapsed: true,
       items: [
         'installation/overview',
-        'installation/requirements',
         'installation/install',
         'installation/secure',
         'installation/upgrade',
@@ -73,7 +72,6 @@ const sidebars = {
       label: 'Access Management',
       collapsed: true,
       items: [
-        'access-management/overview',
         {
           type: 'category',
           label: 'Access Requests',
@@ -176,7 +174,6 @@ const sidebars = {
           type: 'category',
           label: 'Databases',
           items: [
-            'resource-audit/databases/overview',
             'resource-audit/databases/sql-server',
             'resource-audit/databases/oracle',
             'resource-audit/databases/mysql',
@@ -188,17 +185,12 @@ const sidebars = {
         {
           type: 'category',
           label: 'Messaging',
-          items: [
-            'resource-audit/messaging/overview',
-            'resource-audit/messaging/exchange',
-            'resource-audit/messaging/quick-reference',
-          ],
+          items: ['resource-audit/messaging/exchange', 'resource-audit/messaging/quick-reference'],
         },
         {
           type: 'category',
           label: 'Cloud Storage',
           items: [
-            'resource-audit/cloud-storage/overview',
             'resource-audit/cloud-storage/aws-s3',
             'resource-audit/cloud-storage/dropbox',
             'resource-audit/cloud-storage/quick-reference',
@@ -207,10 +199,7 @@ const sidebars = {
         {
           type: 'category',
           label: 'Custom Imports',
-          items: [
-            'resource-audit/custom-imports/overview',
-            'resource-audit/custom-imports/flexible-imports',
-          ],
+          items: ['resource-audit/custom-imports/flexible-imports'],
         },
         {
           type: 'category',
