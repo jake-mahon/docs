@@ -11,7 +11,7 @@ You can access the generated alerts in the following ways:
 - View the alerts generated for an organization on the Netwrix 1Secure dashboard. See the
   [1Secure Dashboard](/docs/1secure/monitoring-and-analytics/dashboard/index.md) topic for additional information.
 - Receive alerts as email notifications sent to the specified email address(es). See the
-  [Manage Delivery Settings for an Alert Profile](profiles.md#manage-delivery-settings-for-an-alert-profile) topic
+  [Manage Delivery Settings for an Alert Profile](/docs/1secure/monitoring-and-analytics/alerts/alert-profiles.md#manage-delivery-settings-for-an-alert-profile) topic
   for setting up email notifications.
 
 Follow the steps to view the alerts within an alert profile.

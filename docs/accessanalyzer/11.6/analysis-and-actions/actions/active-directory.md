@@ -418,7 +418,7 @@ which contains the following wizard pages:
 
 - Welcome
 - [Active Directory Action Target](/docs/accessanalyzer/11.6/analysis-and-actions/actions/active-directory.md)
-- [Active Directory Action Operations](/docs/accessanalyzer/11.6/accessanalyzer/admin/action/activedirectory/operations.md)
+- [Active Directory Action Operations](/docs/accessanalyzer/11.6/analysis-and-actions/actions/active-directory.md)
 - [Active Directory Action Options](/docs/accessanalyzer/11.6/analysis-and-actions/actions/active-directory.md)
 - [Active Directory Action Summary](/docs/accessanalyzer/11.6/analysis-and-actions/actions/active-directory.md)
 

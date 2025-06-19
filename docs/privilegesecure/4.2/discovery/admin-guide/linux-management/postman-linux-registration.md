@@ -11,7 +11,7 @@ files locate in /etc/sudoers.d) into the /etc/sudoers file, and disable sudo per
 acquired from those sources.
 
 Linux registration
-prerequisites: [Linux Registrations Prerequisites](/docs/privilegesecure/4.2/privilegesecure/discovery/linuxregistrationsprerequisites.md)
+prerequisites: [Linux Registrations Prerequisites](/docs/privilegesecure/4.2/discovery/configuration/linux-prerequisites.md)
 
 ## Adding Linux Machines to Privilege Secure
 

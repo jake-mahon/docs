@@ -90,7 +90,7 @@ those for NAS devices when applicable.
 
 **NOTE:** These steps are specific to deploying activity agents for monitoring file systems,
 SharePoint, SQL Server, Azure and Office 365 environments. See the
-[Active Directory Agent Deployment](/docs/activitymonitor/8.0/activitymonitor/admin/agents/add/activedirectory.md) section for
+[Active Directory Agent Deployment](/docs/activitymonitor/8.0/agents/deployment/active-directory.md) section for
 instruction on deploying the AD agent. See the
 [Linux Agent Deployment](/docs/activitymonitor/8.0/agents/deployment/linux.md) topic for instructions on deploying agents
 to Linux servers.
