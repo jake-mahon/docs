@@ -1,8 +1,8 @@
-# Strongpoint for Salesforce
+# Platform Governance for Salesforce
 
 > Enterprise governance and compliance for Salesforce implementations
 
-Strongpoint for Salesforce delivers comprehensive governance, documentation, and change management capabilities directly within your Salesforce environment. This native solution automatically catalogs all customizations, tracks changes, and ensures compliance while helping organizations optimize their Salesforce investment through intelligent analysis and automated documentation that stays current with your evolving implementation.
+Platform Governance for Salesforce delivers comprehensive governance, documentation, and change management capabilities directly within your Salesforce environment. This native solution automatically catalogs all customizations, tracks changes, and ensures compliance while helping organizations optimize their Salesforce investment through intelligent analysis and automated documentation that stays current with your evolving implementation.
 
 ## Key Features
 

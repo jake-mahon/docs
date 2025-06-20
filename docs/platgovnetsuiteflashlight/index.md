@@ -1,8 +1,8 @@
-# Strongpoint NetSuite Flashlight
+# Platform Governance for NetSuite Flashlight
 
 > Instant visibility and analysis for NetSuite customizations
 
-Strongpoint NetSuite Flashlight delivers immediate insights into your NetSuite environment, providing developers and administrators with powerful search, analysis, and documentation capabilities. This lightweight yet powerful tool helps teams quickly understand complex NetSuite customizations, troubleshoot issues, and maintain clean, efficient NetSuite implementations without the overhead of full governance platforms.
+Platform Governance for NetSuite Flashlight delivers immediate insights into your NetSuite environment, providing developers and administrators with powerful search, analysis, and documentation capabilities. This lightweight yet powerful tool helps teams quickly understand complex NetSuite customizations, troubleshoot issues, and maintain clean, efficient NetSuite implementations without the overhead of full governance platforms.
 
 ## Key Features
 

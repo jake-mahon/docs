@@ -6,7 +6,7 @@ const sidebars = {
     {
       type: 'doc',
       id: 'index',
-      label: 'Strongpoint Overview',
+      label: 'Platform Governance for NetSuite',
     },
     {
       type: 'category',

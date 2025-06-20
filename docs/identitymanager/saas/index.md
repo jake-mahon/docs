@@ -1,4 +1,4 @@
-# Usercube SaaS
+# Identity Manager SaaS
 
 # A software solution to match your IGA needs
 

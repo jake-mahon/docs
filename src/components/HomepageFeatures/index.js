@@ -122,8 +122,8 @@ const ProductCategories = [
         description: 'Enforce strong password policies',
         link: '/docs/passwordpolicyenforcer/11.0',
         versions: [
-          { version: '10.2', link: '/docs/passwordpolicyenforcer/10.2', isLatest: true },
-          { version: '11.0', link: '/docs/passwordpolicyenforcer/11.0', isLatest: false },
+          { version: '11.0', link: '/docs/passwordpolicyenforcer/11.0', isLatest: true },
+          { version: '10.2', link: '/docs/passwordpolicyenforcer/10.2', isLatest: false },
         ],
       },
     ],
@@ -251,8 +251,8 @@ const ProductCategories = [
         description: 'Centralized access information management',
         link: '/docs/accessinformationcenter/12.0',
         versions: [
-          { version: '11.6', link: '/docs/accessinformationcenter/11.6', isLatest: true },
-          { version: '12.0', link: '/docs/accessinformationcenter/12.0', isLatest: false },
+          { version: '12.0', link: '/docs/accessinformationcenter/12.0', isLatest: true },
+          { version: '11.6', link: '/docs/accessinformationcenter/11.6', isLatest: false },
         ],
       },
       {

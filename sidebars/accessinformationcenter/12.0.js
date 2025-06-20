@@ -6,7 +6,7 @@ const sidebars = {
     {
       type: 'doc',
       id: 'index',
-      label: 'Access Information Center 11.6',
+      label: 'Access Information Center 12.0',
     },
     {
       type: 'category',

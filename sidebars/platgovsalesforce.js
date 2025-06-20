@@ -6,7 +6,7 @@ const sidebars = {
     {
       type: 'doc',
       id: 'index',
-      label: 'Platgovsalesforce Overview',
+      label: 'Platform Governance for Salesforce',
     },
     {
       type: 'category',

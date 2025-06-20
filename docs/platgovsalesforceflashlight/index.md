@@ -1,8 +1,8 @@
-# Strongpoint Salesforce Flashlight
+# Platform Governance for Salesforce Flashlight
 
 > Instant documentation and visibility for Salesforce organizations
 
-Strongpoint Salesforce Flashlight brings powerful documentation and analysis capabilities to every Salesforce administrator and developer. Based on the award-winning Strongpoint Documentation Engine, Flashlight automatically documents your entire Salesforce org and maintains comprehensive documentation of all customizations, helping teams make better decisions while keeping systems clean and optimized.
+Platform Governance for Salesforce Flashlight brings powerful documentation and analysis capabilities to every Salesforce administrator and developer. Based on the award-winning Strongpoint Documentation Engine, Flashlight automatically documents your entire Salesforce org and maintains comprehensive documentation of all customizations, helping teams make better decisions while keeping systems clean and optimized.
 
 ## Key Features
 

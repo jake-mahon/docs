@@ -1,4 +1,4 @@
-# Strongpoint for NetSuite
+# Platform Governance for NetSuite
 
 > Comprehensive governance and change management for NetSuite environments
 

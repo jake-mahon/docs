@@ -6,7 +6,7 @@ const sidebars = {
     {
       type: 'doc',
       id: 'index',
-      label: 'Flashlight Overview',
+      label: 'Platform Governance for Salesforce Flashlight',
     },
     {
       type: 'category',
