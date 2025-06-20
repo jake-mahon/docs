@@ -2,42 +2,22 @@
 import React from 'react';
 import Head from '@docusaurus/Head';
 import OriginalDocItem from '@theme-original/DocItem/Layout';
-import { useDoc } from '@docusaurus/theme-common/internal';
-import { useDocsSidebar } from '@docusaurus/theme-common/internal';
+import { useDoc } from '@docusaurus/plugin-content-docs/client';
 
 export default function DocItemWrapper(props) {
   const { metadata } = useDoc();
-  const { permalink } = metadata;
-  const sidebar = useDocsSidebar();
 
-  // Find category data for current doc
-  const findCategoryData = () => {
-    if (!sidebar) return {};
+  // Extract from source path or unversionedId
+  const source = metadata.source || metadata.unversionedId || '';
+  let productName = null;
+  let productVersion = null;
 
-    const findInItems = (items) => {
-      for (const item of items) {
-        if (item.type === 'category' && item.items) {
-          const hasDoc = item.items.some(
-            (subItem) => subItem.type === 'link' && subItem.href === permalink
-          );
-
-          if (hasDoc) {
-            return item.customProps || {};
-          }
-
-          const found = findInItems(item.items);
-          if (found) return found;
-        }
-      }
-      return {};
-    };
-
-    return findInItems(sidebar.items) || {};
-  };
-
-  const categoryData = findCategoryData();
-  const productName = categoryData.product_name;
-  const productVersion = categoryData.product_version;
+  // Check if it's 1secure
+  if (source.includes('1secure') || metadata.pluginId === '1secure') {
+    productName = '1Secure';
+    productVersion = 'SaaS';
+  }
+  // Add other products...
 
   return (
     <>
