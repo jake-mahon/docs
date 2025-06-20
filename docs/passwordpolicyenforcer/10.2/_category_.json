@@ -1,6 +1,7 @@
 {
-  "label": "Version 10.2",
+  "label": "Password Policy Enforcer",
   "customProps": {
+    "product_name": "Password Policy Enforcer",
     "product_version": "10.2"
   }
 }

@@ -1,6 +1,7 @@
 {
-  "label": "Version 9.2",
+  "label": "Password Secure",
   "customProps": {
+    "product_name": "Password Secure",
     "product_version": "9.2"
   }
 }

@@ -1,6 +1,7 @@
 {
-  "label": "Version 8.1",
+  "label": "Change Tracker",
   "customProps": {
+    "product_name": "Change Tracker",
     "product_version": "8.1"
   }
 }

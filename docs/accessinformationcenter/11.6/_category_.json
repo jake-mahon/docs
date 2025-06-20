@@ -1,6 +1,7 @@
 {
-  "label": "Version 11.6",
+  "label": "Access Information Center",
   "customProps": {
+    "product_name": "Access Information Center",
     "product_version": "11.6"
   }
 }
