@@ -2,189 +2,118 @@
 
 ## Overview
 
-This plan outlines the restructuring of the Directory Manager 11.1 documentation to improve information architecture, reduce nesting complexity, and enhance user navigation experience.
+This plan outlines the restructuring of the Directory Manager 11.1 documentation from its current complex, component-based structure to a more user-friendly, task-oriented organization.
 
-## Current Issues
+## Current State Analysis
 
-1. **Excessive Nesting**: The current structure has up to 6 levels of nesting in some areas, making navigation difficult
-2. **Inconsistent Naming**: Mix of camelCase, snake_case, and other naming conventions
-3. **Scattered Related Content**: Related topics are spread across different sections
-4. **Poor Information Architecture**: No clear logical flow for different user personas
-5. **Deep Directory Paths**: Makes content hard to find and reference
+### Issues with Current Structure:
 
-## Restructuring Principles
+1. **Deep Nesting**: Up to 8 levels deep in some areas (e.g., `/portal/user/create/activedirectory/mailbox`)
+2. **Component-Based Organization**: Documentation is organized by system components rather than user tasks
+3. **Redundancy**: Similar content spread across multiple sections (e.g., user management in portal, API, and shell)
+4. **690 Files**: Overwhelming number of individual files makes navigation difficult
+5. **Unclear Entry Points**: Main index.md contains only "# Group ID"
 
-### 1. User-Centric Organization
+### Current Top-Level Categories:
 
-- **Getting Started**: All introductory content, requirements, and installation
-- **Administration**: Admin-focused tasks and configuration
-- **Portal**: End-user portal functionality
-- **Authentication**: All authentication and SSO configuration
+- admincenter (213 files)
+- api (115 files)
+- portal (192 files)
+- managementshell (99 files)
+- authenticate (31 files)
+- install (16 files)
+- configureentraid (7 files)
+- requirements (10 files)
+- ssprportal (3 files)
+
+## Restructure Strategy
+
+### Design Principles:
+
+1. **Task-Oriented Organization**: Group content by what users need to do
+2. **Progressive Disclosure**: Start with overview, then dive into details
+3. **Reduced Depth**: Maximum 3-4 levels instead of 8
+4. **Consolidated Content**: Merge related topics into comprehensive guides
+5. **Clear User Journeys**: Logical flow from getting started to advanced topics
+
+### New Structure Benefits:
+
+1. **Reduced from 690 files to ~150 files** through intelligent consolidation
+2. **Maximum depth of 3 levels** for easier navigation
+3. **Clear categories** that match user mental models
+4. **Separate reference sections** for API and PowerShell
+5. **Dedicated troubleshooting section** for common issues
+
+## Major Changes
+
+### 1. Consolidated Getting Started
+
+- Combines introduction, what's new, and getting started
+- Adds concepts overview and quick start guide
+- Clear entry point for new users
+
+### 2. Task-Based Main Sections
+
+- **User Management**: All user-related tasks in one place
+- **Group Management**: Comprehensive group operations
+- **Configuration**: Initial setup and ongoing configuration
+- **Workflows**: Complete workflow documentation
+
+### 3. Interface-Specific Guides
+
+- **Portal Guide**: Everything about using the web portal
+- **Admin Center Guide**: Administrative tasks and configuration
 - **API Reference**: Complete API documentation
-- **Management Shell**: PowerShell commands and automation
-- **Workflows**: Workflow and automation features
-- **Self-Service Portal**: SSPR functionality
+- **PowerShell Reference**: All cmdlet documentation
 
-### 2. Consistent Naming Convention
+### 4. Merged Content Areas
 
-- Use snake-case with hyphens for all directories and files
-- Use title case for section headings
-- Maintain descriptive but concise naming
+- Authentication methods consolidated under Configuration
+- All identity store content unified
+- SMS gateway configurations merged into integrations
+- Data source management consolidated
 
-### 3. Reduced Nesting
+### 5. New Sections
 
-- Limit directory nesting to maximum 4 levels
-- Group related content logically
-- Use index.md files for section overviews
+- **Integrations**: All external system integrations
+- **Troubleshooting**: Common issues and solutions
+- **Reference**: Permissions, glossary, version history
 
-### 4. Improved Navigation
+## File Consolidation Strategy
 
-- Clear hierarchical structure
-- Logical progression from basic to advanced topics
-- Related content grouped together
+### Examples of Consolidation:
 
-## Detailed Changes
+1. **User Creation** (Portal):
 
-### Getting Started Section
+   - FROM: Multiple files in `/portal/user/create/` subdirectories
+   - TO: Single `user-management/creating-users.md` covering all scenarios
 
-**Purpose**: Help new users understand requirements and get the system installed.
+2. **Group Types**:
 
-- Combines `introduction.md`, `gettingstarted.md`, `whatsnew.md`
-- Groups all requirements under single section
-- Consolidates installation process including upgrade procedures
+   - FROM: Scattered across `/portal/group/create/` and `/portal/group/dynasty/`
+   - TO: Organized under `group-management/group-types/`
 
-### Administration Section
+3. **API Endpoints**:
 
-**Purpose**: Centralize all administrative tasks and system configuration.
+   - FROM: 115 individual endpoint files
+   - TO: ~10 consolidated files by resource type
 
-Key improvements:
+4. **PowerShell Cmdlets**:
+   - FROM: 99 individual cmdlet files
+   - TO: ~5 consolidated command reference files
 
-- **Admin Center**: Consolidated all admin center functionality
-- **Services**: Grouped all service management
-- **Portal Management**: Web portal configuration and customization
-- **Security Roles**: Access control and permissions
-- **Scheduling**: Background job management
+## Implementation Benefits
 
-### Portal Section
+1. **Improved User Experience**: Easier to find information
+2. **Reduced Maintenance**: Fewer files to maintain
+3. **Better SEO**: Clearer URL structure and content organization
+4. **Faster Onboarding**: New users can quickly understand the system
+5. **Consistent Navigation**: Predictable structure throughout
 
-**Purpose**: End-user focused documentation for portal functionality.
+## Next Steps
 
-Key improvements:
-
-- **Groups**: All group-related user tasks
-- **Users**: User management from portal perspective
-- **Synchronization**: Data sync operations
-- **Search & Reports**: User tools for finding information
-
-### Authentication Section
-
-**Purpose**: Consolidate all authentication and SSO configuration.
-
-Key improvements:
-
-- **Setup Authentication**: Multi-factor and single-factor setup
-- **Identity Provider**: SAML IDP configuration
-- **Service Provider**: Integration with external IDPs
-- **Entra ID Configuration**: Azure AD specific setup
-
-### API Reference Section
-
-**Purpose**: Complete API documentation organized by resource type.
-
-Key improvements:
-
-- Organized by resource (Users, Groups, Contacts, etc.)
-- Consistent API endpoint documentation
-- Clear examples and error handling
-
-### Management Shell Section
-
-**Purpose**: PowerShell automation and scripting reference.
-
-Key improvements:
-
-- Organized by function area
-- Clear command references
-- Practical examples and use cases
-
-## Benefits of New Structure
-
-### For Administrators
-
-1. **Faster Task Completion**: Related admin tasks grouped logically
-2. **Easier System Setup**: Clear installation and configuration path
-3. **Better Security Management**: Consolidated security and roles sections
-
-### For End Users
-
-1. **Intuitive Portal Navigation**: User-focused organization
-2. **Self-Service Capabilities**: Clear SSPR and portal documentation
-3. **Quick Reference**: Easy to find common tasks
-
-### For Developers
-
-1. **Complete API Reference**: All endpoints organized by resource
-2. **PowerShell Automation**: Clear scripting examples
-3. **Integration Guides**: Authentication and SSO setup
-
-### For Documentation Maintainers
-
-1. **Logical Organization**: Easier to maintain and update
-2. **Reduced Duplication**: Better content organization reduces redundancy
-3. **Scalable Structure**: Easy to add new content
-
-## Migration Strategy
-
-### Phase 1: File Mapping
-
-- Create comprehensive mapping of current to new file locations
-- Identify files that need to be merged or split
-- Plan content updates where needed
-
-### Phase 2: Content Migration
-
-- Move files to new structure
-- Update internal links and references
-- Merge related content where appropriate
-
-### Phase 3: Sidebar Generation
-
-- Create new sidebar configuration
-- Organize sections with proper nesting
-- Add appropriate icons and labels
-
-### Phase 4: Validation
-
-- Verify all content is accessible
-- Test navigation flows
-- Update any broken links
-
-## File Organization Rules
-
-### Merging Guidelines
-
-- Merge related files when they total less than 10 individual files
-- Keep distinct functional areas separate
-- Maintain logical content flow
-
-### Naming Guidelines
-
-- Use descriptive, action-oriented names
-- Keep file names concise but clear
-- Use consistent terminology throughout
-
-### Index Files
-
-- Each major section has an index.md overview
-- Index files provide navigation guidance
-- Include brief descriptions of subsections
-
-## Success Metrics
-
-1. **Reduced Navigation Depth**: Maximum 4 levels of nesting
-2. **Improved Discoverability**: Users can find content in 3 clicks or less
-3. **Consistent Experience**: Uniform navigation patterns across sections
-4. **Better Task Flow**: Related tasks grouped logically
-5. **Maintainable Structure**: Easy to add new content without disrupting organization
-
-This restructuring will significantly improve the user experience while maintaining all existing content and functionality.
+1. Generate file mappings from old to new structure
+2. Create sidebar configuration for new structure
+3. Merge content from multiple files where appropriate
+4. Update cross-references and links
+5. Review and validate all content migrations

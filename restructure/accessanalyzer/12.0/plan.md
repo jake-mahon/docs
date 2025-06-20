@@ -1,98 +1,118 @@
-# Access Analyzer 12.0 Documentation Restructure Plan
+# AccessAnalyzer 12.0 Documentation Restructure Plan
 
 ## Overview
 
-This plan outlines the restructuring of the Access Analyzer 12.0 documentation to improve information architecture, reduce excessive nesting, and create a more intuitive navigation experience for users.
-
-## Current Issues
-
-1. **Excessive Nesting**: The current `admin/` section has 4-5 levels of nesting, making navigation difficult
-2. **Poor Categorization**: Related functionality is scattered across different sections
-3. **Inconsistent Naming**: Mix of camelCase, snake_case, and spaces in file/folder names
-4. **Non-Intuitive Flow**: Users struggle to find related information due to poor organization
-
-## Restructuring Strategy
-
-### 1. Flatten Hierarchy
-
-- Reduce maximum nesting from 5 levels to 3 levels
-- Move heavily nested content into logical top-level categories
-- Combine related small sections into cohesive groups
-
-### 2. Logical Grouping
-
-- **Getting Started**: Entry point and overview content
-- **Installation**: All installation-related content (application, agents, proxies)
-- **Configuration**: Platform-specific configurations (AD, cloud platforms, databases)
-- **Data Collection**: Data collector configurations (formerly admin/datacollector)
-- **Actions**: Automated actions and workflows (formerly admin/action)
-- **Analysis**: Analytics, business rules, scripting (formerly admin/analysis)
-- **Reporting**: Report creation and management (formerly admin/report)
-- **Job Management**: Jobs, scheduling, execution (formerly admin/jobs, schedule, runninginstances)
-- **Host Management**: Host discovery and management (formerly admin/hostdiscovery, hostmanagement)
-- **Administration**: Settings, maintenance, navigation (formerly admin/settings, maintenance, navigate)
-- **Sensitive Data Discovery**: SDD-specific content
-- **Solutions**: Use case solutions and scenarios
-- **Requirements**: System and target requirements
-- **CDSA**: Change Detection and Security Analytics
-
-### 3. Naming Conventions
-
-- Use **Title Case** for all category and section names
-- Use **kebab-case** (hyphens) for all file and directory names
-- Convert camelCase to kebab-case (e.g., `activedirectory` → `active-directory`)
-- Convert underscores to hyphens (e.g., `ad_scan` → `ad-scan`)
-- Expand abbreviations where helpful (e.g., `ewsmailbox` → `ews-mailbox`)
-
-### 4. Content Consolidation
-
-- Merge small related files into comprehensive guides (max 10 files per merged document)
-- Create index files for major sections
-- Maintain granular topics for complex subjects
+This plan outlines the restructuring of the AccessAnalyzer 12.0 documentation to improve information architecture, reduce complexity, and enhance user experience.
 
 ## Key Changes
 
-### Major Restructuring
+### 1. **Consolidated Top-Level Categories**
 
-1. **Break up `admin/` section**: Distribute into 6 logical categories
-2. **Elevate platform configurations**: Move from config/ to top-level Configuration section
-3. **Create clear Getting Started flow**: Separate from scattered overview content
-4. **Streamline job management**: Combine jobs, scheduling, and monitoring
+**From**: 11 top-level directories
+**To**: 10 top-level directories
 
-### File Organization
+- Combined `install` and `requirements` into `getting-started`
+- Merged `stealthaudit` content into relevant sections
+- Simplified naming conventions
 
-- **Root level**: Core navigation files (index, overview, getting-started)
-- **Feature sections**: Logical groupings with clear purposes
-- **Deep content**: Maximum 3 levels deep with clear parent-child relationships
+### 2. **Improved Information Flow**
 
-### Navigation Improvements
+The new structure follows a logical progression:
 
-- Each major section gets an index.md with overview and links
-- Related content is co-located
-- Clear progression from basic to advanced topics
-- Consistent structure across all sections
+1. **Getting Started** - Installation and requirements
+2. **Configuration** - Initial setup for different platforms
+3. **Administration** - Day-to-day management
+4. **Data Collection** - How to collect data from various sources
+5. **Analysis Tools** - How to analyze collected data
+6. **Actions** - What actions can be taken based on analysis
+7. **Reporting** - How to create and manage reports
+8. **Solutions** - Pre-built solutions for common use cases
+9. **Sensitive Data Discovery** - Specialized feature documentation
+10. **Credential Security Assessment** - Specialized feature documentation
+11. **Reference** - API docs, troubleshooting, and reference materials
 
-## Implementation Approach
+### 3. **Simplified Naming Conventions**
 
-1. **File Mapping**: Create comprehensive mapping from old to new locations
-2. **Content Merging**: Identify files that should be merged (≤10 files per target)
-3. **Sidebar Creation**: Generate new sidebar reflecting the improved structure
-4. **Link Updates**: Update all internal links to reflect new structure
-5. **Testing**: Verify all links work and content is accessible
+- All directory names use kebab-case (lowercase with hyphens)
+- Removed redundant prefixes (e.g., `ad-` prefix in Active Directory sections)
+- Used more intuitive names (e.g., `email-systems` instead of various Exchange-related names)
+
+### 4. **Reduced Directory Depth**
+
+- Flattened deeply nested structures where possible
+- Combined related operations into single files
+- Merged similar configuration steps
+
+### 5. **Logical Grouping of Data Collectors**
+
+Reorganized data collectors by target type rather than technical implementation:
+
+- **Active Directory** - All AD-related collectors
+- **Cloud Services** - AWS, Entra ID, Box, Dropbox
+- **Email Systems** - All Exchange/email collectors
+- **File Systems** - Windows, SharePoint, Unix, NIS
+- **Databases** - All database collectors
+- **Security Assessment** - Password security, DNS, system info
+- **Custom Collectors** - PowerShell, scripts, WMI, etc.
+
+### 6. **Consolidated Solutions**
+
+Reorganized solutions by business objective:
+
+- **Active Directory Solutions** - User, group, computer management
+- **Cloud Security** - Cloud platform security solutions
+- **Data Access Governance** - Permission management across platforms
+- **Compliance** - Sensitive data discovery and audit trails
+- **Security Operations** - Privileged access, forensics, assessments
+
+### 7. **Merged Similar Content**
+
+Major consolidations:
+
+- Multiple AD operations files → single `operations.md`
+- Multiple file system parameter files → single `operations.md`
+- Multiple small configuration files → comprehensive guides
+- Wizard steps → single configuration guides
+
+## File Consolidation Strategy
+
+### Active Directory Actions
+
+- 11 operation files → `active-directory-actions/operations.md`
+
+### File System Actions
+
+- 9 parameter files → `file-system-actions/operations.md`
+
+### Configuration Guides
+
+- Multiple wizard/setup files → single platform configuration guides
+
+### Data Collectors
+
+- Merge similar collector configurations into comprehensive guides
+- Keep unique collectors as separate files
 
 ## Benefits
 
-1. **Improved Discoverability**: Related content is grouped logically
-2. **Reduced Cognitive Load**: Fewer navigation levels to traverse
-3. **Better User Flow**: Clear progression from setup to advanced features
-4. **Consistent Experience**: Standardized naming and organization
-5. **Maintainable Structure**: Easier to add new content in appropriate locations
+1. **Improved Navigation**: Users can find information more quickly
+2. **Reduced Complexity**: Fewer directories and files to navigate
+3. **Better Context**: Related information is grouped together
+4. **Clearer Purpose**: Directory names clearly indicate content
+5. **Scalability**: Structure can accommodate future growth
 
-## Validation Criteria
+## Migration Strategy
 
-- All existing files are mapped to new locations
-- No orphaned content
-- Maximum 3 levels of nesting
-- Consistent naming throughout
-- Logical grouping passes user journey testing
-- Sidebar reflects new structure accurately
+1. Create new directory structure
+2. Map existing files to new locations
+3. Merge content where appropriate
+4. Update internal links
+5. Generate new sidebar configuration
+6. Test navigation and search functionality
+
+## Considerations
+
+- Some files will be merged, requiring content consolidation
+- Internal links will need updating
+- Search indexes may need rebuilding
+- User documentation about navigation will need updating

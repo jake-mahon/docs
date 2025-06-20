@@ -1,0 +1,21 @@
+old_path,new_path,action,notes
+docs/accessanalyzer/12.0/admin/action/activedirectory/operations/computerdetails.md,docs/accessanalyzer/12.0/actions/active-directory-actions/operations.md,merge,Merge all AD operations into single file
+docs/accessanalyzer/12.0/admin/action/activedirectory/operations/creategroups.md,docs/accessanalyzer/12.0/actions/active-directory-actions/operations.md,merge,Merge all AD operations into single file
+docs/accessanalyzer/12.0/admin/action/activedirectory/operations/createusers.md,docs/accessanalyzer/12.0/actions/active-directory-actions/operations.md,merge,Merge all AD operations into single file
+docs/accessanalyzer/12.0/admin/action/activedirectory/operations/disableenablecomputers.md,docs/accessanalyzer/12.0/actions/active-directory-actions/operations.md,merge,Merge all AD operations into single file
+docs/accessanalyzer/12.0/admin/action/activedirectory/operations/disableenableusers.md,docs/accessanalyzer/12.0/actions/active-directory-actions/operations.md,merge,Merge all AD operations into single file
+docs/accessanalyzer/12.0/admin/action/activedirectory/operations/groupdetails.md,docs/accessanalyzer/12.0/actions/active-directory-actions/operations.md,merge,Merge all AD operations into single file
+docs/accessanalyzer/12.0/admin/action/activedirectory/operations/groupmembership.md,docs/accessanalyzer/12.0/actions/active-directory-actions/operations.md,merge,Merge all AD operations into single file
+docs/accessanalyzer/12.0/admin/action/activedirectory/operations/moveobjects.md,docs/accessanalyzer/12.0/actions/active-directory-actions/operations.md,merge,Merge all AD operations into single file
+docs/accessanalyzer/12.0/admin/action/activedirectory/operations/setresetpassword.md,docs/accessanalyzer/12.0/actions/active-directory-actions/operations.md,merge,Merge all AD operations into single file
+docs/accessanalyzer/12.0/admin/action/activedirectory/operations/sidhistory.md,docs/accessanalyzer/12.0/actions/active-directory-actions/operations.md,merge,Merge all AD operations into single file
+docs/accessanalyzer/12.0/admin/action/activedirectory/operations/usersdetails.md,docs/accessanalyzer/12.0/actions/active-directory-actions/operations.md,merge,Merge all AD operations into single file
+docs/accessanalyzer/12.0/admin/action/filesystem/parameters/addtags.md,docs/accessanalyzer/12.0/actions/file-system-actions/operations.md,merge,Merge all FS parameters into operations file
+docs/accessanalyzer/12.0/admin/action/filesystem/parameters/changeattributes.md,docs/accessanalyzer/12.0/actions/file-system-actions/operations.md,merge,Merge all FS parameters into operations file
+docs/accessanalyzer/12.0/admin/action/filesystem/parameters/changeowner.md,docs/accessanalyzer/12.0/actions/file-system-actions/operations.md,merge,Merge all FS parameters into operations file
+docs/accessanalyzer/12.0/admin/action/filesystem/parameters/changepermissioninheritance.md,docs/accessanalyzer/12.0/actions/file-system-actions/operations.md,merge,Merge all FS parameters into operations file
+docs/accessanalyzer/12.0/admin/action/filesystem/parameters/changepermissionsauditing.md,docs/accessanalyzer/12.0/actions/file-system-actions/operations.md,merge,Merge all FS parameters into operations file
+docs/accessanalyzer/12.0/admin/action/filesystem/parameters/changesharepermissions.md,docs/accessanalyzer/12.0/actions/file-system-actions/operations.md,merge,Merge all FS parameters into operations file
+docs/accessanalyzer/12.0/admin/action/filesystem/parameters/removefilepermissions.md,docs/accessanalyzer/12.0/actions/file-system-actions/operations.md,merge,Merge all FS parameters into operations file
+docs/accessanalyzer/12.0/admin/action/filesystem/parameters/removesharepermissions.md,docs/accessanalyzer/12.0/actions/file-system-actions/operations.md,merge,Merge all FS parameters into operations file
+docs/accessanalyzer/12.0/admin/action/filesystem/parameters/removetags.md,docs/accessanalyzer/12.0/actions/file-system-actions/operations.md,merge,Merge all FS parameters into operations file

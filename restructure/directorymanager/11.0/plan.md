@@ -1,178 +1,93 @@
-# Directory Manager 11.0 Documentation Restructure Plan
+# DirectoryManager 11.0 Documentation Restructure Plan
 
-## Overview
+## Executive Summary
 
-This plan outlines the restructuring of the Directory Manager 11.0 documentation from 671 files across 116 directories to a more logical, user-friendly structure that follows information architecture best practices.
+This plan outlines a comprehensive restructuring of the DirectoryManager 11.0 documentation to improve information architecture, reduce complexity, and enhance user experience. The current structure has 671 markdown files organized in deeply nested directories, making navigation difficult and content discovery challenging.
 
 ## Key Problems with Current Structure
 
-1. **Excessive Nesting**: Deep folder hierarchies (up to 6-7 levels) make navigation difficult
-2. **Inconsistent Naming**: Mix of camelCase, PascalCase, and inconsistent naming conventions
-3. **Poor Information Architecture**: Content scattered without clear user journey flow
-4. **Admin-Heavy Focus**: Most content buried under "directorymanager/admincenter" making it hard to find user-facing content
-5. **Duplicate Categories**: Similar functionality spread across multiple sections
+1. **Over-segmentation**: Too many small files with minimal content
+2. **Deep nesting**: Some paths go 7+ levels deep (e.g., `/directorymanager/admincenter/identitystore/configure/directoryservice/`)
+3. **Redundant structure**: Separate paths for AD/Azure that could be combined
+4. **Poor discoverability**: Important features buried in nested directories
+5. **Inconsistent organization**: Mix of feature-based and technology-based grouping
 
-## Restructuring Principles
+## Restructuring Strategy
 
-### 1. User Journey-Based Organization
+### 1. **Getting Started** (Onboarding Journey)
 
-- **Getting Started**: Quick entry point for new users
-- **Installation**: Complete installation workflow
-- **Configuration**: Admin setup and configuration tasks
-- **User Guide**: End-user portal functionality
-- **Integrations**: External system connections
-- **API Reference**: Developer documentation
-- **Management Shell**: PowerShell scripting
+- Combines installation, upgrade, and requirements into a logical flow
+- Reduces from ~30 files to ~10 focused guides
+- Clear path: Requirements → Install → Upgrade → Uninstall
 
-### 2. Reduced Nesting
+### 2. **Configuration** (System Setup)
 
-- Maximum 3-4 levels of hierarchy
-- Related content grouped logically
-- Clear parent-child relationships
+- Groups all configuration tasks by type
+- Identity Stores: Consolidates AD, Entra ID, LDAP, Google into single files
+- Authentication: Combines identity/service provider configs
+- Data Sources: Groups by type (databases, files, cloud)
+- Services: Portal, mobile, SMS gateway configuration
 
-### 3. Consistent Naming Convention
+### 3. **User Guide** (Day-to-Day Operations)
 
-- **Directories**: `kebab-case` (hyphens, no underscores)
-- **Files**: `kebab-case.md`
-- **Titles**: Title Case in frontmatter
-- **Navigation**: Clear, descriptive labels
+- **Portal**: Basic navigation and UI guidance
+- **User Management**: All user operations in one place
+- **Group Management**: Combines static groups, smart groups, dynasties
+- **Synchronization**: Jobs, transformations, schedules
+- **Entitlements**: Access management and permissions
+- **Workflows**: Approval and automation
+- **Reporting**: Built-in and custom reports
 
-### 4. Content Consolidation
+### 4. **Administration** (Admin Tasks)
 
-- Merge related small files (max 10 files per merge)
-- Create index pages for major sections
-- Eliminate single-file directories where appropriate
+- **Admin Center**: Security roles, policies, notifications
+- **Help Desk**: Operations and delegated admin
+- **Audit History**: Compliance and tracking
 
-## Major Structural Changes
+### 5. **Automation** (Programmatic Access)
 
-### Before → After
+- **Management Shell**: PowerShell cmdlets and examples
+- **APIs**: REST API reference with examples
 
-| Current Structure               | New Structure                            | Rationale                 |
-| ------------------------------- | ---------------------------------------- | ------------------------- |
-| `directorymanager/admincenter/` | `configuration/admin-center/`            | More intuitive grouping   |
-| `api/`                          | `api-reference/`                         | Clearer purpose           |
-| `authenticate/`                 | `integrations/authentication-providers/` | Better categorization     |
-| `configureentraid/`             | `integrations/entra-id/`                 | Logical grouping          |
-| `portal/`                       | `user-guide/`                            | User-focused organization |
-| `managementshell/`              | `management-shell/`                      | Consistent naming         |
+### 6. **Integrations** (External Systems)
 
-### Content Grouping Strategy
+- **Microsoft 365**: Exchange, SharePoint, Teams
+- **Identity Providers**: ADFS, Okta, Ping, OneLogin
+- **Third-party**: SCIM and other integrations
 
-#### 1. Getting Started (4 files)
+### 7. **Reference** (Support Resources)
 
-- Combines introduction, overview, getting started, and what's new
-- Single entry point for new users
+- Troubleshooting, best practices, security guidelines
+- Release notes and known issues
 
-#### 2. Installation (Reorganized from 20+ files)
+## Benefits of New Structure
 
-- **Requirements**: Hardware, software, database, Exchange
-- **Preparation**: Tools and pre-installation steps
-- **Installation Process**: Main installation workflow
-- **Configuration**: Post-install setup
-- **Upgrade**: Version upgrade procedures
+1. **Improved Navigation**: Maximum 3 levels deep
+2. **Better Content Consolidation**: Related topics in single files
+3. **Clearer User Journeys**: Task-based organization
+4. **Reduced File Count**: From 671 to ~100 files
+5. **Enhanced Discoverability**: Logical grouping by user role/task
 
-#### 3. Configuration (Major reorganization)
+## Implementation Notes
 
-- **Admin Center**: All administrative configuration
-- **Authentication Setup**: User authentication configuration
-- **Entra ID Configuration**: Moved from separate section
+1. **File Merging Strategy**:
 
-#### 4. User Guide (Portal → User Guide)
+   - Combine provider-specific variations (AD/Azure) into single files with sections
+   - Merge small property files into comprehensive property guides
+   - Consolidate API endpoints by resource type
 
-- **Portal Overview**: Getting started with the portal
-- **Groups**: Complete group management workflow
-- **Users**: User management and properties
-- **Entitlements**: Access management
-- **Search**: Search functionality
-- **Synchronization**: Data sync operations
-- **Reports**: Reporting features
-- **Requests**: Workflow requests
-- **History**: Audit and history
-- **Settings**: User and portal settings
+2. **Content Preservation**:
 
-#### 5. Integrations
+   - All existing content will be preserved
+   - Merged files will use clear section headers
+   - Cross-references updated to new locations
 
-- **Authentication Providers**: SAML/SSO integrations
-- **Entra ID**: Microsoft Entra ID specific integration
+3. **URL Redirects**:
 
-#### 6. API Reference
+   - Old URLs should redirect to new locations
+   - Maintain SEO and existing bookmarks
 
-- Organized by resource type (Users, Groups, Contacts, etc.)
-- Consistent structure for each API section
-
-#### 7. Management Shell
-
-- Organized by PowerShell module functionality
-- Clear command reference structure
-
-## File Consolidation Strategy
-
-### Files Being Merged (Examples)
-
-1. **Getting Started Section**:
-
-   - `introduction.md` + `gettingstarted.md` + overview content → `getting-started/index.md`
-
-2. **SMS Gateway Custom Settings**:
-
-   - Multiple small configuration files → consolidated into logical groupings
-
-3. **API Error Handling**:
-
-   - Similar error documentation → `api-reference/getting-started/common-errors.md`
-
-4. **PowerShell Parameter Documentation**:
-   - Parameter files consolidated with their respective command documentation
-
-## Navigation Improvements
-
-### Sidebar Structure Benefits
-
-1. **Logical Grouping**: Related content appears together
-2. **Progressive Disclosure**: Start broad, drill down to specifics
-3. **Task-Oriented**: Organized around what users want to accomplish
-4. **Reduced Cognitive Load**: Fewer top-level categories to choose from
-
-### Search and Discoverability
-
-1. **Clear Hierarchy**: Breadcrumb navigation will be more meaningful
-2. **Predictable Locations**: Users can guess where content should be
-3. **Reduced Duplication**: Less confusion about which document to read
-
-## Implementation Considerations
-
-### Content Migration
-
-- All existing content will be preserved
-- Links will need updating (handled by file mapping)
-- Frontmatter standardization (title case, descriptions)
-
-### Backward Compatibility
-
-- Old URLs will need redirects
-- Internal links updated via mapping file
-- Search indexing will need refresh
-
-### Quality Assurance
-
-- All 671 files accounted for in mapping
-- No content loss during restructuring
-- Link validation post-migration
-
-## Expected Benefits
-
-1. **Improved User Experience**: Easier to find relevant content
-2. **Reduced Time to Value**: Faster onboarding for new users
-3. **Better Maintenance**: Logical structure easier to update
-4. **Enhanced SEO**: Better URL structure and content organization
-5. **Improved Analytics**: Clearer user journey tracking
-
-## Success Metrics
-
-1. **Navigation Efficiency**: Reduced clicks to find information
-2. **User Feedback**: Improved satisfaction scores
-3. **Content Utilization**: More even distribution of page views
-4. **Maintenance Overhead**: Reduced time for content updates
-5. **Search Performance**: Better search result relevance
-
-This restructuring transforms the documentation from a feature-driven hierarchy to a user-journey-driven information architecture that better serves both administrators and end users of Directory Manager 11.0.
+4. **Search Optimization**:
+   - New structure improves search relevance
+   - Clearer page titles and descriptions
+   - Better keyword distribution
