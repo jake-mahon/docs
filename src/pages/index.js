@@ -10,21 +10,23 @@ import styles from './index.module.css';
 function HomepageHeader() {
   const { siteConfig } = useDocusaurusContext();
   return (
-    <meta name="algolia-site-verification"  content="0064B6F67914D812" />
-    <header className={clsx('hero hero--primary', styles.heroBanner)}>
-      <div className="container">
-        <h1 className={styles.heroTitle}>Netwrix Product Documentation</h1>
-        <p className={styles.heroSubtitle}>
-          Read more about the security solutions from Netwrix. Comprehensive guides, product
-          knowledge, and references for all Netwrix products.
-        </p>
-        <div className={styles.buttons}>
-          <a className="button button--secondary button--lg" href="#products">
-            Browse the docs
-          </a>
+    <>
+      <meta name="algolia-site-verification" content="0064B6F67914D812" />
+      <header className={clsx('hero hero--primary', styles.heroBanner)}>
+        <div className="container">
+          <h1 className={styles.heroTitle}>Netwrix Product Documentation</h1>
+          <p className={styles.heroSubtitle}>
+            Read more about the security solutions from Netwrix. Comprehensive guides, product
+            knowledge, and references for all Netwrix products.
+          </p>
+          <div className={styles.buttons}>
+            <a className="button button--secondary button--lg" href="#products">
+              Browse the docs
+            </a>
+          </div>
         </div>
-      </div>
-    </header>
+      </header>
+    </>
   );
 }
 
