@@ -10,12 +10,12 @@ The 5-SQL_ServerSettings Job uses the SQL Data Collector for the following queri
 ![Query Selection](/img/product_docs/accessanalyzer/solutions/databases/sql/collection/sqljobgroup19.webp)
 
 - Configuration – Collects configuration properties
-    - (Optional) This query can be modified to target specific databases/instances. See the
-      [Configure the Configuration Query](#configure-the-configuration-query) topic for additional
-      information.
+  - (Optional) This query can be modified to target specific databases/instances. See the
+    [Configure the Configuration Query](#configure-the-configuration-query) topic for additional
+    information.
 - Server – Collects server properties
-    - (Optional) This query can be modified to target specific databases/instances. See the
-      [Configure the Server Query](#configure-the-server-query) topic for additional information.
+  - (Optional) This query can be modified to target specific databases/instances. See the
+    [Configure the Server Query](#configure-the-server-query) topic for additional information.
 - Connections – Returns connections to the instance
 - Asymmetric Key Size – Returns the asymmetric key size
 - Symmetric Key Encryption – Returns the symmetric key encryptions being used by the Instance
@@ -46,7 +46,7 @@ purpose of this job.
 ![Instance Filters](/img/product_docs/accessanalyzer/solutions/databases/sql/collection/5sqlserversettingsfilterpage.webp)
 
 **Step 4 –** To scope the query for specific database/instance, navigate to the
-[SQL Data Collector](/docs/accessanalyzer/12.0/admin/datacollector/sql/overview.md) page. The query is configured
+[SQL Data Collector](/docs/accessanalyzer/12.0/administration/data-collectors/sql/overview.md) page. The query is configured
 by default to target All instances. Change the query scope to Only select instances, and click
 Retrieve. The Available server audits will be populated. Databases and instances can be added in the
 following ways:
@@ -82,7 +82,7 @@ purpose of this job.
 ![Filter Page](/img/product_docs/accessanalyzer/solutions/databases/sql/collection/5sqlserversettingsfilterpage.webp)
 
 **Step 4 –** To scope the query for specific database/instance, navigate to the
-[SQL Data Collector](/docs/accessanalyzer/12.0/admin/datacollector/sql/overview.md) page. The query is configured
+[SQL Data Collector](/docs/accessanalyzer/12.0/administration/data-collectors/sql/overview.md) page. The query is configured
 by default to target All instances. Change the query scope to Only select instances, and click
 Retrieve. The Available server audits will be populated. Databases and instances can be added in the
 following ways:
@@ -91,8 +91,8 @@ following ways:
 - Use the Import CSV button to import a list from a CSV file.
 - Optionally use the Add Custom Filter button to create and apply a custom filter.
 
-    Remember, it is necessary for the [0-SQL_InstanceDiscovery Job](/docs/accessanalyzer/12.0/solutions/databases/sql/collection/0-sql_instancediscovery.md) to
-    run before attempting to scope this query.
+  Remember, it is necessary for the [0-SQL_InstanceDiscovery Job](/docs/accessanalyzer/12.0/solutions/databases/sql/collection/0-sql_instancediscovery.md) to
+  run before attempting to scope this query.
 
 **Step 5 –** On the Summary page, click Finish to save any setting modifications or click Cancel if
 no changes were made. Then click OK to close the Query Properties window.

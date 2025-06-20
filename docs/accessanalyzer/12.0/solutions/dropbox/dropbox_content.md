@@ -12,7 +12,7 @@ The Dropbox_Content job is located in the 4.Content job group.
 
 The Configuration section on a Job's overview page allows you to easily modify any customizable
 parameters used by analysis tasks in the job. See the
-[Parameter Configuration](/docs/accessanalyzer/12.0/admin/jobs/job/overview.md#parameter-configuration) topic for
+[Parameter Configuration](/docs/accessanalyzer/12.0/administration/jobs/job/overview.md#parameter-configuration) topic for
 instructions on how to edit parameters on a job overview page.
 
 The Dropbox_Content job has the following customizable parameter:
@@ -37,13 +37,13 @@ preconfigured for this job.
   database for use by downstream analysis and report generation
 - Determines stale data by owner:
 
-    - By default, a stale file has not been modified in the past 365 days. You can modify this
-      analysis task to edit this number of days. See the
-      [Customizable Analysis Tasks for the Dropbox_Content Job](#customizable-analysis-tasks-for-the-dropbox_content-job)
-      topic for additional information.
-    - Creates an interim processing table in the database for use by downstream analysis and report
-      generation
-    - Creates the SA_Dropbox_StaleData_OwnerSummary table accessible under the job’s Results node
+  - By default, a stale file has not been modified in the past 365 days. You can modify this
+    analysis task to edit this number of days. See the
+    [Customizable Analysis Tasks for the Dropbox_Content Job](#customizable-analysis-tasks-for-the-dropbox_content-job)
+    topic for additional information.
+  - Creates an interim processing table in the database for use by downstream analysis and report
+    generation
+  - Creates the SA_Dropbox_StaleData_OwnerSummary table accessible under the job’s Results node
 
 In addition to the tables created by the analysis tasks which display content details, the
 Dropbox_Content job produces the following pre-configured reports.
@@ -65,5 +65,5 @@ enables you to easily set this value.
 
 The parameter can be customized and is listed in a section at the bottom of the SQL Script Editor.
 See the
-[Configure the Customizable Parameters in an Analysis Task](/docs/accessanalyzer/12.0/admin/jobs/job/configure/analysiscustomizableparameters.md)
+[Configure the Customizable Parameters in an Analysis Task](/docs/accessanalyzer/12.0/administration/jobs/job/configure/analysiscustomizableparameters.md)
 topic for additional information.

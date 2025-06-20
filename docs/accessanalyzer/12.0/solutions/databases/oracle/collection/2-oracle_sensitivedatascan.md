@@ -2,7 +2,7 @@
 
 The 2-Oracle_SensitiveDataScan job discovers sensitive data in Oracle databases across all targeted
 Oracle database servers based on pre-defined or user-defined search criteria. See the
-[Sensitive Data Discovery](/docs/accessanalyzer/12.0/sensitivedatadiscovery/overview.md) topic for additional
+[Sensitive Data Discovery](/docs/accessanalyzer/12.0/sensitive-data/overview.md) topic for additional
 information.
 
 ## Query for the 2-Oracle_SensitiveDataScan Job

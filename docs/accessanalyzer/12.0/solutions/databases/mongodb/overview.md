@@ -30,7 +30,7 @@ Supported Platforms
 Requirements, Permissions, and Ports
 
 See the
-[Target MongoDB Requirements, Permissions, and Ports](/docs/accessanalyzer/12.0/requirements/target/databasemongodb.md)
+[Target MongoDB Requirements, Permissions, and Ports](/docs/accessanalyzer/12.0/getting-started/requirements/target/databasemongodb.md)
 topic for additional information.
 
 Sensitive Data Discovery Considerations

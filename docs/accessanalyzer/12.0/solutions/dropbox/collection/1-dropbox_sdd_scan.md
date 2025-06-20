@@ -34,7 +34,7 @@ Data Collector Wizard opens.
 **Limited Users** is selected, browse to a CSV file with one email address per row for the desired
 users. In the File Permissions section, select the **Collect File Level Permissions** checkbox to
 collect permissions at the file level. See the
-[DropboxAccess: Scoping](/docs/accessanalyzer/12.0/admin/datacollector/dropboxaccess/scoping.md) topic for additional
+[DropboxAccess: Scoping](/docs/accessanalyzer/12.0/administration/data-collectors/dropboxaccess/scoping.md) topic for additional
 information.
 
 ![Dropbox Access Auditor Data Collector Wizard DLP Audit Settings page](/img/product_docs/accessanalyzer/solutions/dropbox/collection/sdddlpsettings.webp)
@@ -47,7 +47,7 @@ information.
 - Enable differential scanning
 
 See the
-[DropboxAccess: DLP Audit Settings](/docs/accessanalyzer/12.0/admin/datacollector/dropboxaccess/dlpauditsettings.md)
+[DropboxAccess: DLP Audit Settings](/docs/accessanalyzer/12.0/administration/data-collectors/dropboxaccess/dlpauditsettings.md)
 topic for additional information.
 
 ![Dropbox Access Auditor Data Collector Wizard Select DLP criteria page](/img/product_docs/accessanalyzer/solutions/dropbox/collection/sddselectdlpcriteria.webp)
@@ -55,11 +55,11 @@ topic for additional information.
 **Step 6 –** On the Select DLP Criteria for This Scan page , add or remove criteria as desired.
 
 - (Optional) Create custom criteria with the **Edit** option. See the
-  [Sensitive Data Criteria Editor](/docs/accessanalyzer/12.0/sensitivedatadiscovery/criteriaeditor/overview.md) topic
+  [Sensitive Data Criteria Editor](/docs/accessanalyzer/12.0/sensitive-data/criteriaeditor/overview.md) topic
   for additional information.
 
 See the
-[DropboxAccess: Select DLP Criteria](/docs/accessanalyzer/12.0/admin/datacollector/dropboxaccess/selectdlpcriteria.md)
+[DropboxAccess: Select DLP Criteria](/docs/accessanalyzer/12.0/administration/data-collectors/dropboxaccess/selectdlpcriteria.md)
 topic for additional information.
 
 **Step 7 –** On the Completion Page, click **Finish** to save any setting modifications or click

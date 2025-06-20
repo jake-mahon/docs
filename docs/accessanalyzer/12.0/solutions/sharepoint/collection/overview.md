@@ -69,7 +69,7 @@ information on permissions, users, and groups to determine who has access to eac
 in the SharePoint farm, on-premises and online, using the SPAA Data Collector. The jobs, tables, and
 views specifically incorporated into this component are prefaced with `SPAA`. See the
 SharePointAccess Data Collector
-[Standard Reference Tables & Views for the SPAA Data Collector](/docs/accessanalyzer/12.0/admin/datacollector/spaa/standardtables.md)
+[Standard Reference Tables & Views for the SPAA Data Collector](/docs/accessanalyzer/12.0/administration/data-collectors/spaa/standardtables.md)
 topic for additional information on the data collected.
 
 The 0.Collection jobs that comprise this auditing component are:
@@ -116,7 +116,7 @@ before continuing with this workflow.
 **_RECOMMENDED:_** Scope the 0.Collection Job Group to only include the collection components
 desired by disabling the undesired collection jobs. Disabling them allows the solution to run more
 efficiently. It is not recommended to delete any jobs. See the
-[Disable or Enable a Job](/docs/accessanalyzer/12.0/admin/jobs/job/disableenable.md) topic for additional
+[Disable or Enable a Job](/docs/accessanalyzer/12.0/administration/jobs/job/disableenable.md) topic for additional
 information.
 
 ## SharePoint Activity Auditing
@@ -125,7 +125,7 @@ Activity Auditing (SPAC) is the component of the 0.Collection Job Group that col
 activity, users, and groups to determine who has performed activity in each structural level in the
 SharePoint on-premises farm, or SharePoint online tenant, using the SPAA Data Collector. The jobs
 and tables specifically incorporated into this component are prefaced with SPAC. See the
-[Standard Reference Tables & Views for the SPAA Data Collector](/docs/accessanalyzer/12.0/admin/datacollector/spaa/standardtables.md)
+[Standard Reference Tables & Views for the SPAA Data Collector](/docs/accessanalyzer/12.0/administration/data-collectors/spaa/standardtables.md)
 topic for additional information on the data collected.
 
 The Access Auditing components must be run in order to create the tables in the database for the
@@ -204,7 +204,7 @@ topic before continuing with this workflow.
 **_RECOMMENDED:_** Scope the 0.Collection Job Group to only include the collection components
 desired by disabling the undesired collection jobs. Disabling them allows the solution to run more
 efficiently. It is not recommended to delete any jobs. See the
-[Disable or Enable a Job](/docs/accessanalyzer/12.0/admin/jobs/job/disableenable.md) topic for additional
+[Disable or Enable a Job](/docs/accessanalyzer/12.0/administration/jobs/job/disableenable.md) topic for additional
 information.
 
 ## SharePoint Sensitive Data Discovery Auditing (SEEK)
@@ -214,13 +214,13 @@ searches file content for sensitive data. It also collects information on permis
 groups to determine who has access to each structural level in the SharePoint farm, on-premises and
 online, using the SPAA Data Collector. The jobs for this component are prefaced with `SPSEEK`. The
 tables and views are prefaced with `SPDLP`. See the
-[SharePoint Sensitive Data Discovery Auditing Tables & Views](/docs/accessanalyzer/12.0/admin/datacollector/spaa/standardtables.md)
+[SharePoint Sensitive Data Discovery Auditing Tables & Views](/docs/accessanalyzer/12.0/administration/data-collectors/spaa/standardtables.md)
 topic for additional information on the data collected.
 
 Customized search criteria can be created with the Criteria Editor accessible through the
-[SPAA: Select DLP Criteria](/docs/accessanalyzer/12.0/admin/datacollector/spaa/selectdlpcriteria.md) page of the
+[SPAA: Select DLP Criteria](/docs/accessanalyzer/12.0/administration/data-collectors/spaa/selectdlpcriteria.md) page of the
 SharePoint Access Auditor Data Collector Wizard. See the
-[Sensitive Data](/docs/accessanalyzer/12.0/admin/settings/sensitivedata/overview.md) topic for additional
+[Sensitive Data](/docs/accessanalyzer/12.0/administration/settings/sensitivedata/overview.md) topic for additional
 information.
 
 The 0.Collection jobs that comprise this auditing component are:
@@ -288,5 +288,5 @@ topic before continuing with this workflow.
 **_RECOMMENDED:_** Scope the 0.Collection Job Group to only include the collection components
 desired by disabling the undesired collection jobs. Disabling them allows the solution to run more
 efficiently. It is not recommended to delete any jobs. See the
-[Disable or Enable a Job](/docs/accessanalyzer/12.0/admin/jobs/job/disableenable.md) topic for additional
+[Disable or Enable a Job](/docs/accessanalyzer/12.0/administration/jobs/job/disableenable.md) topic for additional
 information.

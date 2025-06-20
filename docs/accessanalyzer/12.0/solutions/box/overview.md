@@ -10,7 +10,7 @@ Supported Platforms
 
 Requirements, Permissions, and Ports
 
-See the [Target Box Requirements, Permissions, and Ports](/docs/accessanalyzer/12.0/requirements/target/box.md) topic
+See the [Target Box Requirements, Permissions, and Ports](/docs/accessanalyzer/12.0/getting-started/requirements/target/box.md) topic
 for additional information.
 
 Location

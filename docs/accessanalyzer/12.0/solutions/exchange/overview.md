@@ -16,15 +16,15 @@ Supported Platforms
 - Exchange 2010 (Limited)
 
 See the
-[Exchange Support and Permissions Explained](/docs/accessanalyzer/12.0/requirements/solutions/exchange/support.md) topic
+[Exchange Support and Permissions Explained](/docs/accessanalyzer/12.0/getting-started/requirements/solutions/exchange/support.md) topic
 for additional information.
 
 Requirements, Permissions, and Ports
 
 See the
-[Target Exchange Servers Requirements, Permissions, and Ports](/docs/accessanalyzer/12.0/requirements/target/exchange.md)
+[Target Exchange Servers Requirements, Permissions, and Ports](/docs/accessanalyzer/12.0/getting-started/requirements/target/exchange.md)
 and
-[Target Exchange Online Requirements, Permissions, and Ports](/docs/accessanalyzer/12.0/requirements/target/exchangeonline.md)
+[Target Exchange Online Requirements, Permissions, and Ports](/docs/accessanalyzer/12.0/getting-started/requirements/target/exchangeonline.md)
 topics for additional information.
 
 Sensitive Data Discovery Considerations
@@ -70,11 +70,11 @@ The following job groups comprise the Exchange Solution:
 - [4.Mailboxes Job Group](/docs/accessanalyzer/12.0/solutions/exchange/mailboxes/overview.md) – Comprised of data collection, analyses, and
   reports around mailbox features, logons, permissions, and sizing
 
-    **CAUTION:** It is not recommended to run this job group at this job group level.
+  **CAUTION:** It is not recommended to run this job group at this job group level.
 
-    - See the [Recommended Configurations for the 4. Mailboxes Job Group](/docs/accessanalyzer/12.0/solutions/exchange/mailboxes/recommended.md)
-      topic for this job group. All jobs within this group are compatible with the Office 365
-      environment.
+  - See the [Recommended Configurations for the 4. Mailboxes Job Group](/docs/accessanalyzer/12.0/solutions/exchange/mailboxes/recommended.md)
+    topic for this job group. All jobs within this group are compatible with the Office 365
+    environment.
 
 - [5. Public Folders Job Group](/docs/accessanalyzer/12.0/solutions/exchange/publicfolders/overview.md) – Comprised of data collection, analysis
   and reports that focus on public folder sizing, content aging, entitlement, ownership, and the
@@ -96,4 +96,4 @@ The following job groups comprise the Exchange Solution:
 The MAPI-based data collectors require both Access Analyzer MAPI CDO and Microsoft Exchange MAPI CDO
 to be installed on the Access Analyzer Console server. Once these have been installed, configure the
 **Settings** > **Exchange** node for proper connection to the Exchange server. See the
-[Exchange](/docs/accessanalyzer/12.0/admin/settings/exchange.md) topic for additional information.
+[Exchange](/docs/accessanalyzer/12.0/administration/settings/exchange.md) topic for additional information.

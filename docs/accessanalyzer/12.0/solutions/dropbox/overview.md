@@ -15,7 +15,7 @@ scanning the targeted Dropbox site. Key information includes:
 
 Dropbox can scan the contents of over 400 file types to discover which files contain sensitive data
 using Sensitive Data Discovery. See the
-[Sensitive Data Discovery](/docs/accessanalyzer/12.0/sensitivedatadiscovery/overview.md) topic for additional
+[Sensitive Data Discovery](/docs/accessanalyzer/12.0/sensitive-data/overview.md) topic for additional
 information.
 
 Supported Platforms
@@ -24,7 +24,7 @@ Supported Platforms
 
 Requirements, Permissions, and Ports
 
-See the [Target Dropbox Requirements, Permissions, and Ports](/docs/accessanalyzer/12.0/requirements/target/dropbox.md)
+See the [Target Dropbox Requirements, Permissions, and Ports](/docs/accessanalyzer/12.0/getting-started/requirements/target/dropbox.md)
 topic for additional information.
 
 Sensitive Data Discovery Considerations
@@ -52,7 +52,7 @@ data and generate reports.
 The Dropbox Solution offers an overview of an organization’s Dropbox environment by scanning the
 targeted Dropbox site. It is comprised of jobs which collect, analyze, and report on data. The data
 collection is conducted by the DropboxAccess Data Collector. See the
-[Standard Reference Tables & Views for the DropboxAccess Data Collector](/docs/accessanalyzer/12.0/admin/datacollector/dropboxaccess/standardtables.md)
+[Standard Reference Tables & Views for the DropboxAccess Data Collector](/docs/accessanalyzer/12.0/administration/data-collectors/dropboxaccess/standardtables.md)
 topic for database table information.
 
 ![Dropbox Solution Overview page](/img/product_docs/accessanalyzer/admin/runninginstances/overviewpage.webp)

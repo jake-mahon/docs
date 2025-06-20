@@ -6,10 +6,10 @@ databases based on a pre-defined or user defined search criteria.
 Special Dependency
 
 - Sensitive Data Discovery Add-On installed on the Access Analyzer Console server
-    - See the [Installation & Configuration Overview](/docs/accessanalyzer/12.0/install/application/overview.md)
-      topic for installation information.
-    - See the [Sensitive Data Discovery](/docs/accessanalyzer/12.0/sensitivedatadiscovery/overview.md) topic for
-      additional information.
+  - See the [Installation & Configuration Overview](/docs/accessanalyzer/12.0/installation/application/overview.md)
+    topic for installation information.
+  - See the [Sensitive Data Discovery](/docs/accessanalyzer/12.0/sensitive-data/overview.md) topic for
+    additional information.
 
 Though the job is visible within the console, it requires an additional installer package before
 data collection occurs.
@@ -21,9 +21,9 @@ The SensitiveDataScan Job uses the SQL Data Collector for the following query:
 ![Query Selection](/img/product_docs/accessanalyzer/solutions/databases/sql/collection/sqljobgroup9.webp)
 
 - SensitiveDataScan – Collects Sensitive Data from targeting instances
-    - (Optional) This query can be modified to target specific databases/instances. See the
-      [Configure the SensitiveDataScan Query](#configure-the-sensitivedatascan-query) topic for
-      additional information.
+  - (Optional) This query can be modified to target specific databases/instances. See the
+    [Configure the SensitiveDataScan Query](#configure-the-sensitivedatascan-query) topic for
+    additional information.
 
 ### Configure the SensitiveDataScan Query
 
@@ -44,7 +44,7 @@ job.
 ![2sqlsensitivedatascanoptionspage](/img/product_docs/accessanalyzer/solutions/databases/sql/collection/2sqlsensitivedatascanoptionspage.webp)
 
 **Step 4 –** Select the desired scan options. Navigate to the
-[SQL: Options](/docs/accessanalyzer/12.0/admin/datacollector/sql/options.md) page for additional information.
+[SQL: Options](/docs/accessanalyzer/12.0/administration/data-collectors/sql/options.md) page for additional information.
 
 **NOTE:** The Sensitive Data Scan Settings are pre-configured for optimal performance for a
 high-level table scan. Configuring these settings to increase the scope of the sensitive data scan
@@ -53,7 +53,7 @@ may significantly increase scan time.
 ![Criteria Page](/img/product_docs/accessanalyzer/solutions/databases/sql/collection/2sqlsensitivedatascanquerycriteriapage.webp)
 
 **Step 5 –** To modify criteria, navigate to the
-[SQL: Criteria](/docs/accessanalyzer/12.0/admin/datacollector/sql/criteria.md) page. By default, the following
+[SQL: Criteria](/docs/accessanalyzer/12.0/administration/data-collectors/sql/criteria.md) page. By default, the following
 System Criteria have been selected:
 
 - Credit Cards
@@ -62,14 +62,14 @@ System Criteria have been selected:
 - User ID
 - Password
 
-    Add or remove criteria if needed. See the
-    [Sensitive Data Criteria Editor](/docs/accessanalyzer/12.0/sensitivedatadiscovery/criteriaeditor/overview.md)
-    topic for additional information.
+  Add or remove criteria if needed. See the
+  [Sensitive Data Criteria Editor](/docs/accessanalyzer/12.0/sensitive-data/criteriaeditor/overview.md)
+  topic for additional information.
 
 ![Filter Page](/img/product_docs/accessanalyzer/solutions/databases/sql/collection/2sqlsensitivedatascanfilterpage.webp)
 
 **Step 6 –** To query for specific database/instance, navigate to the
-[SQL: Filter](/docs/accessanalyzer/12.0/admin/datacollector/sql/filter.md) page. The query is configured by
+[SQL: Filter](/docs/accessanalyzer/12.0/administration/data-collectors/sql/filter.md) page. The query is configured by
 default to target Only select database objects. Click Retrieve. The Available database objects box
 will populate. Databases and instances can be added in the following ways:
 

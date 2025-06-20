@@ -7,7 +7,7 @@ be set in the analysis (Set as 30 Days by Default).
 
 The Configuration section on a Job's overview page allows you to easily modify any customizable
 parameters used by analysis tasks in the job. See the
-[Parameter Configuration](/docs/accessanalyzer/12.0/admin/jobs/job/overview.md#parameter-configuration) topic for
+[Parameter Configuration](/docs/accessanalyzer/12.0/administration/jobs/job/overview.md#parameter-configuration) topic for
 instructions on how to edit parameters on a job overview page.
 
 The SP_StaleTeamSites page has the following configurable parameters:
@@ -29,10 +29,10 @@ The default analysis task is:
 
 - Find Stale Teams – Creates the SA_SP_StaleTeamSites table accessible under the job’s Results node
 
-    - This task contains a configurable parameter to set the number of days a Team has not had
-      activity for before it's considered stale. See the
-      [Customizable Analysis Tasks for the SP_StaleTeamSites Job](#customizable-analysis-tasks-for-the-sp_staleteamsites-job)
-      topic for additional information.
+  - This task contains a configurable parameter to set the number of days a Team has not had
+    activity for before it's considered stale. See the
+    [Customizable Analysis Tasks for the SP_StaleTeamSites Job](#customizable-analysis-tasks-for-the-sp_staleteamsites-job)
+    topic for additional information.
 
 In addition to the table created by the analysis task, the SP_StaleTeamSites Job produces the
 following preconfigured report:
@@ -50,5 +50,5 @@ The default values for customizable parameters are:
 | Find Stale Teams | @days                       | 30            | Desired number of days since last activity to determine staleness. |
 
 See the
-[Configure the Customizable Parameters in an Analysis Task](/docs/accessanalyzer/12.0/admin/jobs/job/configure/analysiscustomizableparameters.md)
+[Configure the Customizable Parameters in an Analysis Task](/docs/accessanalyzer/12.0/administration/jobs/job/configure/analysiscustomizableparameters.md)
 topic for instructions on customizing the analysis parameters.

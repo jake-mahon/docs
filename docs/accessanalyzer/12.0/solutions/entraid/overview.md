@@ -11,13 +11,13 @@ Supported Platforms
 
 Requirements, Permissions, and Ports
 
-See the [Microsoft Entra ID Tenant Target Requirements](/docs/accessanalyzer/12.0/config/entraid/overview.md) topic
+See the [Microsoft Entra ID Tenant Target Requirements](/docs/accessanalyzer/12.0/configuration/data-sources/entraid/overview.md) topic
 for additional information.
 
 Location
 
 The Entra ID Solution requires a special Access Analyzer license. It can be installed from the
-Instant Job Wizard, see the [Instant Job Wizard](/docs/accessanalyzer/12.0/admin/jobs/instantjobs/overview.md) topic for
+Instant Job Wizard, see the [Instant Job Wizard](/docs/accessanalyzer/12.0/administration/jobs/instantjobs/overview.md) topic for
 additional information. Once it has been installed into the Jobs tree, navigate to the solution:
 **Jobs** > **Entra ID**.
 

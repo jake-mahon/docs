@@ -17,7 +17,7 @@ Regarding Oracle instance discovery, there may be errors running the query that 
 additional log to store the issues has been added for instance discoveries named
 `Oracle_Server_log_[target_hostname]`. This file can be found in
 `%sainstalldir%\Jobs\GROUP_ORACLE_0.Collection\GROUP_1.Discovery\JOB_Oracle_Servers\OUTPUT`. See the
-[PowerShell Data Collector](/docs/accessanalyzer/12.0/admin/datacollector/powershell/overview.md) topic for
+[PowerShell Data Collector](/docs/accessanalyzer/12.0/administration/data-collectors/powershell/overview.md) topic for
 additional information.
 
 ## Analysis Task for the Oracle_Servers Job

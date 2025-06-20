@@ -20,18 +20,18 @@ The following queries are included in the PF_FolderOwnership job:
 
 - Probable Ownership – Collects and calculates probable owners
 
-    - By default set to search all public folders. It can be scoped.
-    - See the
-      [Scope the ExchangePublicFolder Data Collector for the PF_FolderOwnership Job](#scope-the-exchangepublicfolder-data-collector-for-the-pf_folderownership-job)
-      topic for additional information
+  - By default set to search all public folders. It can be scoped.
+  - See the
+    [Scope the ExchangePublicFolder Data Collector for the PF_FolderOwnership Job](#scope-the-exchangepublicfolder-data-collector-for-the-pf_folderownership-job)
+    topic for additional information
 
 - Assigned Ownership – Collects assigned owners
 
-    - By default set to search all public folders. It can be scoped.
-    - Probable Owner Calculation can be modified
-    - See the
-      [Scope the ExchangePublicFolder Data Collector for the PF_FolderOwnership Job](#scope-the-exchangepublicfolder-data-collector-for-the-pf_folderownership-job)
-      topic for additional information
+  - By default set to search all public folders. It can be scoped.
+  - Probable Owner Calculation can be modified
+  - See the
+    [Scope the ExchangePublicFolder Data Collector for the PF_FolderOwnership Job](#scope-the-exchangepublicfolder-data-collector-for-the-pf_folderownership-job)
+    topic for additional information
 
 ### Scope the ExchangePublicFolder Data Collector for the PF_FolderOwnership Job
 
@@ -59,28 +59,28 @@ using the following settings:
 
 - Choose Type of Public Folder to be queried – Select the type of public folder to be queried:
 
-    - Default Public Folders – Select this option to access folders directly with client
-      applications such as Microsoft Outlook. In its default configuration, Exchange System Manager
-      displays these folders when a public folder tree is expanded.
-    - System Public Folders – Select this option to access folders that cannot be directly accessed.
-      Client applications, such as Microsoft Outlook, use these folders to store information such as
-      free and busy data, offline address lists, and organizational forms. Other folders hold
-      configuration information that is used by custom applications or by Exchange itself. The
-      Public Folders tree contains extra system folders, such as the EFORMS REGISTRY folder, that do
-      not exist in general-purpose public folder trees.
+  - Default Public Folders – Select this option to access folders directly with client
+    applications such as Microsoft Outlook. In its default configuration, Exchange System Manager
+    displays these folders when a public folder tree is expanded.
+  - System Public Folders – Select this option to access folders that cannot be directly accessed.
+    Client applications, such as Microsoft Outlook, use these folders to store information such as
+    free and busy data, offline address lists, and organizational forms. Other folders hold
+    configuration information that is used by custom applications or by Exchange itself. The
+    Public Folders tree contains extra system folders, such as the EFORMS REGISTRY folder, that do
+    not exist in general-purpose public folder trees.
 
 - Choose Scope of Public Folders to be queried – Select a scoping option for public folders:
 
-    - All Public Folders – Select this option to return all public folders within the targeted
-      environment
-    - Selected Public Folders – Select this option to return only those public folders specified on
-      the Scope page of the query
-    - Selected Table – Select this option to return only those public folders within the table and
-      field name specified on the Scope page of the query
+  - All Public Folders – Select this option to return all public folders within the targeted
+    environment
+  - Selected Public Folders – Select this option to return only those public folders specified on
+    the Scope page of the query
+  - Selected Table – Select this option to return only those public folders within the table and
+    field name specified on the Scope page of the query
 
-    _Remember,_ the scoping options available vary based on the pre-defined query configurations.
+  _Remember,_ the scoping options available vary based on the pre-defined query configurations.
 
-See the [ExchangePublicFolder: Scope](/docs/accessanalyzer/12.0/admin/datacollector/exchangepublicfolder/scope.md)
+See the [ExchangePublicFolder: Scope](/docs/accessanalyzer/12.0/administration/data-collectors/exchangepublicfolder/scope.md)
 topic for additional information.
 
 ![Exchange Public Folder Data Collector Wizard Probable Owner Settings page](/img/product_docs/accessanalyzer/solutions/exchange/publicfolders/ownership/dcwizardprobableownersettings.webp)
@@ -94,7 +94,7 @@ calculation is configured with the following defaults:
 - Output options – Configures the number of returned probable owners
 
 See the
-[ExchangePublicFolder: Probable Owner](/docs/accessanalyzer/12.0/admin/datacollector/exchangepublicfolder/probableowner.md)
+[ExchangePublicFolder: Probable Owner](/docs/accessanalyzer/12.0/administration/data-collectors/exchangepublicfolder/probableowner.md)
 topic for additional information.
 
 **Step 6 –** Navigate to the Summary page. Click **Finish**.

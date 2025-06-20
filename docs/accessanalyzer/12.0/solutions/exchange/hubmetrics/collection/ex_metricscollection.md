@@ -11,7 +11,7 @@ been enabled in the query.
 **_RECOMMENDED:_** Run this job with the default configuration settings for all queries.
 
 See the
-[ExchangeMetrics Data Collector](/docs/accessanalyzer/12.0/admin/datacollector/exchangemetrics/overview.md) topic
+[ExchangeMetrics Data Collector](/docs/accessanalyzer/12.0/administration/data-collectors/exchangemetrics/overview.md) topic
 for additional information.
 
 ## Queries for the EX_MetricsCollection Job
@@ -42,25 +42,25 @@ preconfigured for this job.
 
 The following analysis tasks are selected by default:
 
--   1. Delivery Times History – Creates the SA_ExhangeMetrics_DeliveryTimes table, accessible under
-       the job’s Results node
--   2. DL History – Creates the SA*EX* ExhangeMetrics_DistributionLists table, accessible under the
-       job’s Results node
--   3. Internet Traffic History – Creates the SA_EX_ExhangeMetrics_InternetTraffic table, accessible
-       under the job’s Results node
--   4. Hourly Traffic History – Creates the SA_EX_ExhangeMetrics_HourlyTraffic table, accessible
-       under the job’s Results node
--   5. User Traffic History – Creates the SA_EX_ExhangeMetrics_UserTraffic table, accessible under
-       the job’s Results node
--   6. Message Size History – Creates the SA_EX_ExhangeMetrics_MessageSize table, accessible under
-       the job’s Results node
--   7. Server Traffic History – Creates the SA_EX_ExhangeMetrics_ServerTraffic table, accessible
-       under the job’s Results node
--   8. SET HISTORY RETENTION – Sets retention period in months
+- 1. Delivery Times History – Creates the SA_ExhangeMetrics_DeliveryTimes table, accessible under
+     the job’s Results node
+- 2. DL History – Creates the SA*EX* ExhangeMetrics_DistributionLists table, accessible under the
+     job’s Results node
+- 3. Internet Traffic History – Creates the SA_EX_ExhangeMetrics_InternetTraffic table, accessible
+     under the job’s Results node
+- 4. Hourly Traffic History – Creates the SA_EX_ExhangeMetrics_HourlyTraffic table, accessible
+     under the job’s Results node
+- 5. User Traffic History – Creates the SA_EX_ExhangeMetrics_UserTraffic table, accessible under
+     the job’s Results node
+- 6. Message Size History – Creates the SA_EX_ExhangeMetrics_MessageSize table, accessible under
+     the job’s Results node
+- 7. Server Traffic History – Creates the SA_EX_ExhangeMetrics_ServerTraffic table, accessible
+     under the job’s Results node
+- 8. SET HISTORY RETENTION – Sets retention period in months
 
-    - By default set to retain **6 months**
-    - This retention period can be modified. See the
-      [Exchange History Retention](#exchange-history-retention) topic for additional information.
+  - By default set to retain **6 months**
+  - This retention period can be modified. See the
+    [Exchange History Retention](#exchange-history-retention) topic for additional information.
 
 The following analysis task deletes table data from data collection and analysis jobs. This analysis
 task should remain deselected unless specifically needed:
@@ -68,10 +68,10 @@ task should remain deselected unless specifically needed:
 **CAUTION:** Do not select the **00. Deletes all Stored Data** option. This analysis task is for
 troubleshooting and cleanup only. Data will be deleted from the database.
 
--   0. Deletes all Stored Data - LEAVE UNCHECKED – Clears all historical data
+- 0. Deletes all Stored Data - LEAVE UNCHECKED – Clears all historical data
 
-    - See the [Troubleshooting Data Collection](#troubleshooting-data-collection) topic for
-      additional information
+  - See the [Troubleshooting Data Collection](#troubleshooting-data-collection) topic for
+    additional information
 
 ## Exchange History Retention
 
@@ -98,14 +98,14 @@ Skip to Step 5.
 - Comment out lines 4, 6, and 8 which contain the months parameter. To comment out a line add `--`
   preceding it. The months parameter section should be as follows:
 
-    ```
-    --Sets Retention Period in Months
-    --Declare @Months Float
-    --To Change the numbers of months to keep, Modify this value
-    --set @Months = 6
-    --Creates RetentionPeriod to be utilize in Where Clause
-    --Set @RetentionPeriod = CAST(DATEADD(MM, -@Months, GETDATE()) AS DATE)
-    ```
+  ```
+  --Sets Retention Period in Months
+  --Declare @Months Float
+  --To Change the numbers of months to keep, Modify this value
+  --set @Months = 6
+  --Creates RetentionPeriod to be utilize in Where Clause
+  --Set @RetentionPeriod = CAST(DATEADD(MM, -@Months, GETDATE()) AS DATE)
+  ```
 
 - Uncomment out (remove `--` from) lines 12, 13, and 14 (which contain the days parameter). The days
   parameter section should be as follows:

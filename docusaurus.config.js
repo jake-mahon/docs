@@ -88,7 +88,7 @@ const config = {
         id: 'accessanalyzer12_0',
         path: 'docs/accessanalyzer/12.0',
         routeBasePath: 'docs/accessanalyzer/12.0',
-        sidebarPath: require.resolve('./sidebars/sidebar.js'),
+        sidebarPath: require.resolve('./sidebars/accessanalyzer-12.0-sidebar.js'),
         editUrl: 'https://github.com/netwrix/docs/tree/main/',
         exclude: ['**/CLAUDE.md'],
         versions: {

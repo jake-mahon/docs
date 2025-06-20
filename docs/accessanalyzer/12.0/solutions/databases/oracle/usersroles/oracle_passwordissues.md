@@ -15,7 +15,7 @@ The Oracle_PasswordIssues Job uses the PowerShell Data Collector for the followi
 - Weak Password Hash – Locates the dictionary file used to compare Oracle passwords to determine if
   they are weak.
 
-See the [PowerShell Data Collector](/docs/accessanalyzer/12.0/admin/datacollector/powershell/overview.md) topic
+See the [PowerShell Data Collector](/docs/accessanalyzer/12.0/administration/data-collectors/powershell/overview.md) topic
 for additional information.
 
 ## Analysis Tasks for the Oracle_PasswordIssues Job

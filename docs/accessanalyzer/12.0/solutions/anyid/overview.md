@@ -29,7 +29,7 @@ activities involve consumer, patient, resident, and other subject data.
 ## Location
 
 The AnyID Connectors Solution requires a special Access Analyzer license. It can be installed from
-the Instant Job Wizard. See the [Instant Job Wizard](/docs/accessanalyzer/12.0/admin/jobs/instantjobs/overview.md) topic
+the Instant Job Wizard. See the [Instant Job Wizard](/docs/accessanalyzer/12.0/administration/jobs/instantjobs/overview.md) topic
 for additional information.
 
 ![AnyID Connectors Solution in the Jobs Tree](/img/product_docs/accessanalyzer/admin/hostmanagement/jobstree.webp)

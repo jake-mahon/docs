@@ -34,7 +34,7 @@ job.
 ![Sensitive Data Scan Settings](/img/product_docs/accessanalyzer/solutions/databases/mysql/collection/sensitivedatscan_optionspage.webp)
 
 **Step 4 –** To modify sensitive data scan options, select the desired scan options. See the
-[SQL: Options](/docs/accessanalyzer/12.0/admin/datacollector/sql/options.md) page for additional information.
+[SQL: Options](/docs/accessanalyzer/12.0/administration/data-collectors/sql/options.md) page for additional information.
 
 **NOTE:** The Sensitive Data Scan Settings are pre-configured for optimal performance for a
 high-level table scan. Configuring these settings to increase the scope of the sensitive data scan
@@ -43,9 +43,9 @@ may significantly increase scan time.
 ![DLP Criteria for Scan](/img/product_docs/accessanalyzer/solutions/databases/mysql/collection/sensitivedatscan_criteriapage.webp)
 
 **Step 5 –** To modify criteria, navigate to the
-[SQL: Criteria](/docs/accessanalyzer/12.0/admin/datacollector/sql/criteria.md) page. By default, the Sensitive
+[SQL: Criteria](/docs/accessanalyzer/12.0/administration/data-collectors/sql/criteria.md) page. By default, the Sensitive
 Data Scan job is configured to scan for criteria configured in the Global Criteria settings. See the
-[Sensitive Data Criteria Editor](/docs/accessanalyzer/12.0/sensitivedatadiscovery/criteriaeditor/overview.md)
+[Sensitive Data Criteria Editor](/docs/accessanalyzer/12.0/sensitive-data/criteriaeditor/overview.md)
 topic for additional information.
 
 ![Filters Page](/img/product_docs/accessanalyzer/solutions/databases/mysql/collection/sensitivedatscan_filterspage.webp)

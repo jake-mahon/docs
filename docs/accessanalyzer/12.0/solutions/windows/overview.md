@@ -16,13 +16,13 @@ Supported Platforms
 Requirements, Permissions, and Ports
 
 See the
-[Target Windows Server and Desktop Requirements, Permissions, and Ports](/docs/accessanalyzer/12.0/requirements/target/windows.md)
+[Target Windows Server and Desktop Requirements, Permissions, and Ports](/docs/accessanalyzer/12.0/getting-started/requirements/target/windows.md)
 topic for additional information.
 
 Location
 
 The Windows Solution requires a special Access Analyzer license. It can be installed from the
-Instant Job Wizard. See the [Instant Job Wizard](/docs/accessanalyzer/12.0/admin/jobs/instantjobs/overview.md) topic for
+Instant Job Wizard. See the [Instant Job Wizard](/docs/accessanalyzer/12.0/administration/jobs/instantjobs/overview.md) topic for
 additional information. Once it has been installed in the Jobs tree, navigate to the solution:
 **Jobs** > **Windows**.
 

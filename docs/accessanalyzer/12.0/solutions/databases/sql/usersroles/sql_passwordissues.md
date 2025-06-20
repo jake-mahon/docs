@@ -14,8 +14,8 @@ The Collect Weak Passwords Job uses the PowerShell Data Collector for the follow
 
 - Collect Weak Passwords – Locate the dictionary file containing the weak passwords and import the
   passwords
-    - See [PowerShell Data Collector](/docs/accessanalyzer/12.0/admin/datacollector/powershell/overview.md) for
-      additional information.
+  - See [PowerShell Data Collector](/docs/accessanalyzer/12.0/administration/data-collectors/powershell/overview.md) for
+    additional information.
 
 ## Analysis Tasks for the SQL_PasswordIssues Job
 
@@ -30,12 +30,12 @@ deselected unless otherwise specified.
 The default analysis tasks are:
 
 - Analyze the Weak Passwords – Compare the weak passwords list against the collected password hashes
-    - This analysis task has a configurable parameter:
-        - @ShowPassword – Set to **0** by default. Set to **1** to enable the analysis task to bring
-          back the plain-text password that was found
-        - See the
-          [Configure the Customizable Parameters in an Analysis Task](/docs/accessanalyzer/12.0/admin/jobs/job/configure/analysiscustomizableparameters.md)
-          topic for additional information on modifying analysis parameters.
+  - This analysis task has a configurable parameter:
+    - @ShowPassword – Set to **0** by default. Set to **1** to enable the analysis task to bring
+      back the plain-text password that was found
+    - See the
+      [Configure the Customizable Parameters in an Analysis Task](/docs/accessanalyzer/12.0/administration/jobs/job/configure/analysiscustomizableparameters.md)
+      topic for additional information on modifying analysis parameters.
 - Shared Passwords – Highlights SQL Server Logins with shared password hashes
 - No Password – Inserts users that do not have a password set into the details table
 - Summarize the Weak Password Results – Summarizes the data that has been collected by the weak
@@ -44,8 +44,8 @@ The default analysis tasks are:
 The following analysis task is deselected by default:
 
 - Drop SQL Login Password Hashes – Nulls the SQL password hashes for the SQLServer_SqlLogins table.
-    - Enable this analysis task only if needed. This analysis task nulls the password_hash column in
-      the SA_SqlServer_SqlLogins table.
+  - Enable this analysis task only if needed. This analysis task nulls the password_hash column in
+    the SA_SqlServer_SqlLogins table.
 
 In addition to the tables and views created by the analysis tasks, the SQL_PasswordIssues Job
 produces the following pre-configured reports.

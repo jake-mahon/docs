@@ -27,7 +27,7 @@ The AnyID_CSV job does not require a connection profile.
 
 History Retention
 
-Default Retention Period. See the [History](/docs/accessanalyzer/12.0/admin/settings/history.md) topic for additional
+Default Retention Period. See the [History](/docs/accessanalyzer/12.0/administration/settings/history.md) topic for additional
 information.
 
 Multi-Console Support
@@ -100,13 +100,13 @@ the page to expand the Parameters window. Configure the following attributes:
 - $RequiredAttributes – The list of attributes that need to be found in the document in order to
   trigger a match
 
-    - An attribute in the Attributes list will not be considered a match (in reporting and AIC)
-      unless an attribute in the RequiredAttributes list is also found in the same file
+  - An attribute in the Attributes list will not be considered a match (in reporting and AIC)
+    unless an attribute in the RequiredAttributes list is also found in the same file
 
 - $Attributes – The list of attributes that will be scanned for during sensitive data scanning
 
-    - An attribute in the Attributes list will not be considered a match (in reporting and AIC)
-      unless an attribute in the RequiredAttributes list is also found in the same file
+  - An attribute in the Attributes list will not be considered a match (in reporting and AIC)
+    unless an attribute in the RequiredAttributes list is also found in the same file
 
 - $ID – Column which uniquely identifies each subject
 - $SubjectType – Either a reference to a column in the CSV file or a string which indicates the type

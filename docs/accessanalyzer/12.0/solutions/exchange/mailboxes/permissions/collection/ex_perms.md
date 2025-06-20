@@ -13,6 +13,6 @@ The following query is included in the EX_Perms job.
 
 - Exchange Mailbox Permissions – Returns Exchange mailbox folder permissions
 
-    - By default set to search all mailboxes. It can be scoped.
-    - See the [EWSMailbox Data Collector](/docs/accessanalyzer/12.0/admin/datacollector/ewsmailbox/overview.md)
-      topic for additional information
+  - By default set to search all mailboxes. It can be scoped.
+  - See the [EWSMailbox Data Collector](/docs/accessanalyzer/12.0/administration/data-collectors/ewsmailbox/overview.md)
+    topic for additional information

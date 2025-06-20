@@ -13,9 +13,9 @@ The query is:
 
 - MongoDB SDD - Collects sensitive data from MongoDB
 
-    - (Optional) This query can be modified to target specific databases/instances. See the
-      [Configure the MongoDB SDD Query](#configure-the-mongodb-sdd-query) topic for additional
-      information.
+  - (Optional) This query can be modified to target specific databases/instances. See the
+    [Configure the MongoDB SDD Query](#configure-the-mongodb-sdd-query) topic for additional
+    information.
 
 ## Configure the MongoDB SDD Query
 
@@ -33,29 +33,29 @@ The Query Properties window opens.
 **CAUTION:** Do not make changes to wizard pages not listed in these steps. They have been
 pre-configured for this job.
 
-**Step 4 –** Navigate to the [NoSQL: Options](/docs/accessanalyzer/12.0/admin/datacollector/nosql/options.md)
+**Step 4 –** Navigate to the [NoSQL: Options](/docs/accessanalyzer/12.0/administration/data-collectors/nosql/options.md)
 page.
 
 ![Sensitive Data Scan Settings](/img/product_docs/accessanalyzer/install/application/options.webp)
 
 **Step 5 –** Select the desired scan options.
 
-**Step 6 –** Navigate to the [NoSQL: Criteria](/docs/accessanalyzer/12.0/admin/datacollector/nosql/criteria.md)
+**Step 6 –** Navigate to the [NoSQL: Criteria](/docs/accessanalyzer/12.0/administration/data-collectors/nosql/criteria.md)
 page.
 
 ![Criteria Page](/img/product_docs/accessanalyzer/admin/datacollector/ewsmailbox/criteria.webp)
 
 **Step 7 –** To modify criteria, navigate to the
-[NoSQL: Criteria](/docs/accessanalyzer/12.0/admin/datacollector/nosql/criteria.md) page. By default, the Sensitive
+[NoSQL: Criteria](/docs/accessanalyzer/12.0/administration/data-collectors/nosql/criteria.md) page. By default, the Sensitive
 Data Scan job is configured to scan for criteria configured in the Global Criteria settings. See the
-[Sensitive Data Criteria Editor](/docs/accessanalyzer/12.0/sensitivedatadiscovery/criteriaeditor/overview.md)
+[Sensitive Data Criteria Editor](/docs/accessanalyzer/12.0/sensitive-data/criteriaeditor/overview.md)
 topic for additional information.
 
 **NOTE:** The Sensitive Data Scan Settings are pre-configured for optimal performance for a
 high-level table scan. Configuring these settings to increase the scope of the sensitive data scan
 may significantly increase scan time.
 
-**Step 8 –** Navigate to the [NoSQL: Filter](/docs/accessanalyzer/12.0/admin/datacollector/nosql/filter.md) page.
+**Step 8 –** Navigate to the [NoSQL: Filter](/docs/accessanalyzer/12.0/administration/data-collectors/nosql/filter.md) page.
 
 ![Database Selection Settings](/img/product_docs/accessanalyzer/admin/datacollector/ewsmailbox/filter.webp)
 
@@ -89,7 +89,7 @@ collections.
 
 **Step 14 –** (Optional) Right click on an object in the list to include or exclude it from the
 sensitive data scan, or build /edit a pattern to create a custom filter. See the
-[NoSQL: Filter](/docs/accessanalyzer/12.0/admin/datacollector/nosql/filter.md) topic for additional information.
+[NoSQL: Filter](/docs/accessanalyzer/12.0/administration/data-collectors/nosql/filter.md) topic for additional information.
 
 **Step 15 –** Click **Validate** and then **Save** to apply the scoping. Navigating away from this
 page without saving will undo any changes made.

@@ -21,16 +21,16 @@ Supported Platforms
 Requirements, Permissions, and Ports
 
 - Permissions vary based on the Scan Mode selected and target environment. See the
-  [SharePoint Support](/docs/accessanalyzer/12.0/requirements/target/sharepoint.md) topic for additional information.
+  [SharePoint Support](/docs/accessanalyzer/12.0/getting-started/requirements/target/sharepoint.md) topic for additional information.
 
 - Ports vary based on the Scan Mode selected and target environment. See the
-  [SharePoint Scan Options](/docs/accessanalyzer/12.0/requirements/solutions/sharepoint/scanoptions.md) topic for
+  [SharePoint Scan Options](/docs/accessanalyzer/12.0/getting-started/requirements/solutions/sharepoint/scanoptions.md) topic for
   additional information.
 
 **NOTE:** You can use the **SP_RegisterAzureAppAuth** instant job to make the configuration for
 SharePoint Online easier. This job registers the necessary Microsoft Entra ID application and
 provisions it with the required permissions. See the
-[SP_RegisterAzureAppAuth Job](/docs/accessanalyzer/12.0/admin/jobs/instantjobs/sp_registerazureappauth.md) topic for
+[SP_RegisterAzureAppAuth Job](/docs/accessanalyzer/12.0/administration/jobs/instantjobs/sp_registerazureappauth.md) topic for
 additional information.
 
 Sensitive Data Discovery Considerations
@@ -59,7 +59,7 @@ This SharePoint solution offers information on multiple aspects of an organizati
 on-premises and SharePoint Online environments. This solution is comprised of 10 sub-job groups and
 an overview job which collect, analyze, and report on data. The data collection is conducted by the
 SharePointAccess (SPAA) Data Collector. See the corresponding
-[Standard Reference Tables & Views for the SPAA Data Collector](/docs/accessanalyzer/12.0/admin/datacollector/spaa/standardtables.md)
+[Standard Reference Tables & Views for the SPAA Data Collector](/docs/accessanalyzer/12.0/administration/data-collectors/spaa/standardtables.md)
 topic for database table information.
 
 ![SharePoint Job Group](/img/product_docs/accessanalyzer/solutions/sharepoint/sharepointjobgroup.webp)

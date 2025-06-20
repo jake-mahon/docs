@@ -19,7 +19,7 @@ Workflow
 
 1. Set a Connection Profile for the 0.Collection Job Group with the permissions listed in the
    Recommended Configurations section. See the
-   [Connection](/docs/accessanalyzer/12.0/admin/settings/connection/overview.md) topic for additional information.
+   [Connection](/docs/accessanalyzer/12.0/administration/settings/connection/overview.md) topic for additional information.
 2. For Sensitive Data Discovery Auditing – Ensure the Sensitive Data Discovery Add-On is installed
    on the StealthAUDIT Console server.
 3. Schedule the solution to run daily or as desired.

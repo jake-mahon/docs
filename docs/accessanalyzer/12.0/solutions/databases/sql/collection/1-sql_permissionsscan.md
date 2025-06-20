@@ -10,9 +10,9 @@ The 1-SQL_PermissionsScan Job uses the SQL Data Collector for the following quer
 ![Query Selection](/img/product_docs/accessanalyzer/solutions/databases/sql/collection/sqljobgroup6.webp)
 
 - PermissionsScan – Collects permissions from targeted instances
-    - (Optional) This query can be modified to target specific databases/instances. See the
-      [Configure the PermissionsScan Query](#configure-the-permissionsscan-query) topic for
-      additional information.
+  - (Optional) This query can be modified to target specific databases/instances. See the
+    [Configure the PermissionsScan Query](#configure-the-permissionsscan-query) topic for
+    additional information.
 
 ### Configure the PermissionsScan Query
 
@@ -33,7 +33,7 @@ job.
 ![Filters](/img/product_docs/accessanalyzer/solutions/databases/azuresql/collection/1sqlpermissionscanfilterpage.webp)
 
 **Step 4 –** To query for specific databases/instances, navigate to the
-[SQL Data Collector](/docs/accessanalyzer/12.0/admin/datacollector/sql/overview.md) page. The default query target
+[SQL Data Collector](/docs/accessanalyzer/12.0/administration/data-collectors/sql/overview.md) page. The default query target
 is All databases. The default query scope is Only select database objects and click Retrieve. The
 Available database objects will be populated. Databases and instances can be added in the following
 ways:

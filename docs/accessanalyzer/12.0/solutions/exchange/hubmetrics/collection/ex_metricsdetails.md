@@ -41,7 +41,7 @@ Collector Wizard opens.
 ![Exchange Metrics Data Collector Wizard Message Activity Filter page](/img/product_docs/accessanalyzer/solutions/exchange/hubmetrics/collection/exchangemetricsmessageactivityfilter.webp)
 
 **Step 4 –** Navigate to the
-[ExchangeMetrics: Message Activity Filter](/docs/accessanalyzer/12.0/admin/datacollector/exchangemetrics/messageactivityfilter.md)
+[ExchangeMetrics: Message Activity Filter](/docs/accessanalyzer/12.0/administration/data-collectors/exchangemetrics/messageactivityfilter.md)
 page to configure the internal domains from which to collect the sender to recipient traffic. The
 filter should remain **Ends With**. Replace the `@netwrix.com` variable for both the **Senders** and
 **Recipients** with the `@domain.com` variable to be audited.

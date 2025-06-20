@@ -13,5 +13,5 @@ Windows Event Log Type.
 ![sqljobgroup18](/img/product_docs/accessanalyzer/solutions/databases/sql/collection/sqljobgroup18.webp)
 
 - AppnLogSQL – Uses SmartLog Data Collector to gather logon events
-    - See the [SMARTLog Data Collector](/docs/accessanalyzer/12.0/admin/datacollector/smartlog/overview.md) topic
-      for additional information
+  - See the [SMARTLog Data Collector](/docs/accessanalyzer/12.0/administration/data-collectors/smartlog/overview.md) topic
+    for additional information

@@ -18,10 +18,10 @@ The following analysis tasks are selected by default:
 
 - File Metrics Details – Creates the Box_FileMetrics_Details table accessible under the job’s
   Results node
-    - Set to consider content stale after 30 days which is the @STALETHRESHOLD parameter value
-    - See the
-      [Customize Analysis Tasks for the Box_FileMetrics Job](#customize-analysis-tasks-for-the-box_filemetrics-job)
-      topic for additional information.
+  - Set to consider content stale after 30 days which is the @STALETHRESHOLD parameter value
+  - See the
+    [Customize Analysis Tasks for the Box_FileMetrics Job](#customize-analysis-tasks-for-the-box_filemetrics-job)
+    topic for additional information.
 - File Count by User – Creates the Box_FileMetrics_UserFileCount table accessible under the job’s
   Results node
 - Total File Size by User – Creates the Box_FileMetrics_UserFileSize table accessible under the
@@ -48,5 +48,5 @@ The default values for parameters that can be customized are:
 | File Metrics Details | @STALE_THRESHOLD            | 30            | Consider content stale after 30 days |
 
 See the
-[Configure the Customizable Parameters in an Analysis Task](/docs/accessanalyzer/12.0/admin/jobs/job/configure/analysiscustomizableparameters.md)
+[Configure the Customizable Parameters in an Analysis Task](/docs/accessanalyzer/12.0/administration/jobs/job/configure/analysiscustomizableparameters.md)
 topic for instructions on how to modify parameters.

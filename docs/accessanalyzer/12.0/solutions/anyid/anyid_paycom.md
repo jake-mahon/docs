@@ -27,7 +27,7 @@ The AnyID_Paycom job does not require a connection profile.
 
 History Retention
 
-Default Retention Period. See the [History](/docs/accessanalyzer/12.0/admin/settings/history.md) topic for additional
+Default Retention Period. See the [History](/docs/accessanalyzer/12.0/administration/settings/history.md) topic for additional
 information.
 
 Multi-Console Support
@@ -86,7 +86,7 @@ Wizard opens.
 
 **Step 4 –** Navigate to the Edit Query page. Click the **Parameters** tab on the right-hand side of
 the page to expand the Parameters window. See the
-[PowerShell: Edit Query](/docs/accessanalyzer/12.0/admin/datacollector/powershell/editquery.md) topic for additional
+[PowerShell: Edit Query](/docs/accessanalyzer/12.0/administration/data-collectors/powershell/editquery.md) topic for additional
 information. Configure the following attributes as needed:
 
 - $SAHOSTNAME – Created during execution. This parameter cannot be modified.
@@ -95,14 +95,14 @@ information. Configure the following attributes as needed:
 - $inputfile – File path to the CSV file which contains the identity and attribute information
 - $Attributes – The list of attributes that will be scanned for during sensitive data scanning
 
-    - An attribute in the Attributes list will not be considered a match (in reporting and AIC)
-      unless an attribute in the RequiredAttributes list is also found in the same file
+  - An attribute in the Attributes list will not be considered a match (in reporting and AIC)
+    unless an attribute in the RequiredAttributes list is also found in the same file
 
 - $RequiredAttributes – The list of attributes that need to be found in the document in order to
   trigger a match
 
-    - An attribute in the Attributes list will not be considered a match (in reporting and AIC)
-      unless an attribute in the RequiredAttributes list is also found in the same file
+  - An attribute in the Attributes list will not be considered a match (in reporting and AIC)
+    unless an attribute in the RequiredAttributes list is also found in the same file
 
 - $ID – Column which uniquely identifies each subject
 - $SubjectType – Either a reference to a column in the csv file or a string which indicates the type

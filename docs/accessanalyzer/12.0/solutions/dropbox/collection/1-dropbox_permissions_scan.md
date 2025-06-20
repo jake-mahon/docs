@@ -40,7 +40,7 @@ of the job group.
   button, and use it in the Connection Profile assigned to the Dropbox Solution. Once the access
   token has been generated and copied, if no customizations are to be made, click **Cancel** to
   close the Dropbox Access Auditor Data Collector wizard.
-- See the [DropboxAccess: Scan Options](/docs/accessanalyzer/12.0/admin/datacollector/dropboxaccess/scanoptions.md)
+- See the [DropboxAccess: Scan Options](/docs/accessanalyzer/12.0/administration/data-collectors/dropboxaccess/scanoptions.md)
   topic for full instructions on generating the access token
 
 **Step 5 –** If query customizations are desired, click **Next** to continue.

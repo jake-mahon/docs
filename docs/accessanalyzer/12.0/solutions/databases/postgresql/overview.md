@@ -30,7 +30,7 @@ Supported Platforms
 Requirements, Permissions, and Ports
 
 See the
-[Target PostgreSQL Requirements, Permissions, and Ports](/docs/accessanalyzer/12.0/requirements/target/databasepostgresql.md)
+[Target PostgreSQL Requirements, Permissions, and Ports](/docs/accessanalyzer/12.0/getting-started/requirements/target/databasepostgresql.md)
 topic for additional information.
 
 Sensitive Data Discovery Considerations

@@ -11,7 +11,7 @@ Supported Platforms
 Requirements, Permissions, and Ports
 
 See the
-[Target Db2 Requirements, Permissions, and Ports](/docs/accessanalyzer/12.0/requirements/target/databasedb2.md) topic
+[Target Db2 Requirements, Permissions, and Ports](/docs/accessanalyzer/12.0/getting-started/requirements/target/databasedb2.md) topic
 for additional information.
 
 Sensitive Data Discovery Considerations

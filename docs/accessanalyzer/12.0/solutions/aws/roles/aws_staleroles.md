@@ -8,7 +8,7 @@ configurable.
 
 The Configuration section on a Job's overview page allows you to easily modify any customizable
 parameters used by analysis tasks in the job. See the
-[Parameter Configuration](/docs/accessanalyzer/12.0/admin/jobs/job/overview.md#parameter-configuration) topic for
+[Parameter Configuration](/docs/accessanalyzer/12.0/administration/jobs/job/overview.md#parameter-configuration) topic for
 instructions on how to edit parameters on a job overview page.
 
 The AWS_StaleRoles job has the following configurable parameter:
@@ -34,10 +34,10 @@ The following analysis tasks are selected by default:
 - Stale Role Details – Highlights the roles in AWS that are considered stale. Creates the
   AWS_StaleRole_Details table accessible under the job’s Results node.
 
-    - The number of days without login to consider an account stale can be customized. By default it
-      is set to 60. See the
-      [Customizable Analysis Tasks for the AWS_StaleRoles Job](#customizable-analysis-tasks-for-the-aws_staleroles-job)
-      topic for additional information.
+  - The number of days without login to consider an account stale can be customized. By default it
+    is set to 60. See the
+    [Customizable Analysis Tasks for the AWS_StaleRoles Job](#customizable-analysis-tasks-for-the-aws_staleroles-job)
+    topic for additional information.
 
 - Stale Role Summary – Summarizes stale roles by AWS Account. Creates the AWS_StaleRole_Summary
   table accessible under the job’s Results node.
@@ -51,7 +51,7 @@ The default values for parameters that can be customized are:
 | Stale Role Details | @StaleThreshold             | 60            | Days without login to consider an account stale. |
 
 See the
-[Configure the Customizable Parameters in an Analysis Task](/docs/accessanalyzer/12.0/admin/jobs/job/configure/analysiscustomizableparameters.md)
+[Configure the Customizable Parameters in an Analysis Task](/docs/accessanalyzer/12.0/administration/jobs/job/configure/analysiscustomizableparameters.md)
 topic for instructions on how to modify parameters.
 
 ## Report for the AWS_StaleRoles Job

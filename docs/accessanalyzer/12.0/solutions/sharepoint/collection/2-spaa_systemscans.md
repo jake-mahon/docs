@@ -37,26 +37,26 @@ displays.
 ![SharePoint Data Collection Settings](/img/product_docs/accessanalyzer/solutions/sharepoint/collection/datacollectionsettingsspaa.webp)
 
 **Step 4 –** On the
-[SPAA: SharePoint Data Collection Settings](/docs/accessanalyzer/12.0/admin/datacollector/spaa/settings.md) page,
+[SPAA: SharePoint Data Collection Settings](/docs/accessanalyzer/12.0/administration/data-collectors/spaa/settings.md) page,
 customize as desired and click **Next**.
 
 ![Scan Scoping Options](/img/product_docs/accessanalyzer/admin/datacollector/spaa/scanscopingoptions.webp)
 
 **Step 5 –** On the
-[SPAA: Scan Scoping Options](/docs/accessanalyzer/12.0/admin/datacollector/spaa/scanscopingoptions.md) page, no web
+[SPAA: Scan Scoping Options](/docs/accessanalyzer/12.0/administration/data-collectors/spaa/scanscopingoptions.md) page, no web
 applications or site collections have been added. If desired, limit the scope of the scan to
 specific web applications or site collections. Click **Next**.
 
 ![Additional Scoping](/img/product_docs/accessanalyzer/solutions/sharepoint/collection/additionalscopingspaa.webp)
 
 **Step 6 –** On the
-[SPAA: Additional Scoping](/docs/accessanalyzer/12.0/admin/datacollector/spaa/additionalscoping.md) page, **Limit
+[SPAA: Additional Scoping](/docs/accessanalyzer/12.0/administration/data-collectors/spaa/additionalscoping.md) page, **Limit
 scanned depth to:** is selected with the default set at **2** levels. Customize this setting as
 desired and click **Next**.
 
 ![Agent Settings](/img/product_docs/activitymonitor/activitymonitor/install/agent/windowsagent.webp)
 
-**Step 7 –** On the [SPAA: Agent Settings](/docs/accessanalyzer/12.0/admin/datacollector/spaa/agentsettings.md) page,
+**Step 7 –** On the [SPAA: Agent Settings](/docs/accessanalyzer/12.0/administration/data-collectors/spaa/agentsettings.md) page,
 use the default settings unless an agent scan mode is desired. Click **Next**.
 
 **CAUTION:** Do not configure the options on the Results page.

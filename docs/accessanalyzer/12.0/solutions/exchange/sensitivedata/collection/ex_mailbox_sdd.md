@@ -12,14 +12,14 @@ The following query is included in the EX_Mailbox_SDD job:
 
 - Exchange Sensitive Data Discovery – Collects potentially-sensitive data from mailboxes
 
-    - Set to search all mailboxes. It can be scoped.
-    - Default sensitive data criteria includes:
+  - Set to search all mailboxes. It can be scoped.
+  - Default sensitive data criteria includes:
 
-        - Birth Records
-        - Credit Cards
-        - Passwords
-        - Tax Forms
-        - US SSN
+    - Birth Records
+    - Credit Cards
+    - Passwords
+    - Tax Forms
+    - US SSN
 
 - See the
   [Configure the EWSMailbox Data Collector for the EX_Mailbox_SDD Job](#configure-the-ewsmailbox-data-collector-for-the-ex_mailbox_sdd-job)
@@ -49,21 +49,21 @@ purpose of this job.
 **Step 4 –** To scope the query for specific mailboxes, navigate to the Scope page. The query is
 configured by default to target **All mailboxes**. Change the Mailboxes to be queried to **Select
 mailboxes from list**. See the
-[EWSMailbox: Scope](/docs/accessanalyzer/12.0/admin/datacollector/ewsmailbox/scope.md) topic for additional
+[EWSMailbox: Scope](/docs/accessanalyzer/12.0/administration/data-collectors/ewsmailbox/scope.md) topic for additional
 information.
 
 ![EWS Mailbox Data Collector Wizard Scope select page](/img/product_docs/accessanalyzer/solutions/exchange/sensitivedata/collection/mailboxscopeselect.webp)
 
 **Step 5 –** To retrieve available mailboxes, click **Retrieve** on the Scope Select page. Select
 the desired mailboxes and click **Add**. See the
-[EWSMailbox: Scope Select](/docs/accessanalyzer/12.0/admin/datacollector/ewsmailbox/scopeselect.md) topic for
+[EWSMailbox: Scope Select](/docs/accessanalyzer/12.0/administration/data-collectors/ewsmailbox/scopeselect.md) topic for
 additional information.
 
 ![EWS Mailbox Data Collector Wizard SDD Options page](/img/product_docs/accessanalyzer/admin/datacollector/ewsmailbox/sddoptions.webp)
 
 **Step 6 –** To enable storage of discovered sensitive data, navigate to the SDD Options page.
 Sensitive data matches can be limited to reduce storage space. See the
-[EWSMailbox: SDD Options](/docs/accessanalyzer/12.0/admin/datacollector/ewsmailbox/sddoptions.md) topic for
+[EWSMailbox: SDD Options](/docs/accessanalyzer/12.0/administration/data-collectors/ewsmailbox/sddoptions.md) topic for
 additional information.
 
 **NOTE:** By default, discovered sensitive data strings are not stored in the Access Analyzer
@@ -72,18 +72,18 @@ database.
 ![EWS Mailbox Data Collector Wizard Criteria page](/img/product_docs/accessanalyzer/admin/datacollector/ewsmailbox/criteria.webp)
 
 **Step 7 –** To modify criteria, navigate to the Criteria page. Add or remove criteria as desired.
-See the [EWSMailbox: Criteria](/docs/accessanalyzer/12.0/admin/datacollector/ewsmailbox/criteria.md) topic for
+See the [EWSMailbox: Criteria](/docs/accessanalyzer/12.0/administration/data-collectors/ewsmailbox/criteria.md) topic for
 additional information.
 
 - (Optional) To create custom criteria, see the
-  [Sensitive Data Criteria Editor](/docs/accessanalyzer/12.0/sensitivedatadiscovery/criteriaeditor/overview.md)
+  [Sensitive Data Criteria Editor](/docs/accessanalyzer/12.0/sensitive-data/criteriaeditor/overview.md)
   topic for additional information
 
 ![EWS Mailbox Data Collector Wizard Filter page](/img/product_docs/accessanalyzer/solutions/exchange/sensitivedata/collection/mailboxfiltersettings.webp)
 
 **Step 8 –** To filter the scan to specific mailbox folders, navigate to the Filter page. Include or
 exclude folders and attachments as desired. See the
-[EWSMailbox Data Collector](/docs/accessanalyzer/12.0/admin/datacollector/ewsmailbox/overview.md) topic for
+[EWSMailbox Data Collector](/docs/accessanalyzer/12.0/administration/data-collectors/ewsmailbox/overview.md) topic for
 additional information.
 
 - To modify the threshold for message size, set the **Limit message size to** value as desired. The
@@ -94,7 +94,7 @@ additional information.
 ![EWS Mailbox Data Collector Wizard Results page](/img/product_docs/accessanalyzer/solutions/exchange/sensitivedata/collection/mailboxresults.webp)
 
 **Step 9 –** Navigate to the Results page to select which properties are gathered based on category.
-See the [EWSMailbox: Results](/docs/accessanalyzer/12.0/admin/datacollector/ewsmailbox/results.md) topic for
+See the [EWSMailbox: Results](/docs/accessanalyzer/12.0/administration/data-collectors/ewsmailbox/results.md) topic for
 additional information.
 
 **NOTE:** By default, all categories are selected under sensitive data.

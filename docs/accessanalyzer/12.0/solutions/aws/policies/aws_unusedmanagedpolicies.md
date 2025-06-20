@@ -8,7 +8,7 @@ analysis task.
 
 The Configuration section on a Job's overview page allows you to easily modify any customizable
 parameters used by analysis tasks in the job. See the
-[Parameter Configuration](/docs/accessanalyzer/12.0/admin/jobs/job/overview.md#parameter-configuration) topic for
+[Parameter Configuration](/docs/accessanalyzer/12.0/administration/jobs/job/overview.md#parameter-configuration) topic for
 instructions on how to edit parameters on a job overview page.
 
 The AWS_UnusedManagedPolicies job has the following configurable parameter:
@@ -34,9 +34,9 @@ The following analysis tasks are selected by default:
 - Unused Managed Policies – Policies not assigned to any group or user. Creates the
   AWS_UnusedPolicies_Details table accessible under the job’s Results node.
 
-    - Optionally, AWS managed policies can be included by setting the parameter to True. See the
-      [Customizable Analysis Tasks for the AWS_UnusedManagedPolicies Job](#customizable-analysis-tasks-for-the-aws_unusedmanagedpolicies-job)
-      topic for additional information.
+  - Optionally, AWS managed policies can be included by setting the parameter to True. See the
+    [Customizable Analysis Tasks for the AWS_UnusedManagedPolicies Job](#customizable-analysis-tasks-for-the-aws_unusedmanagedpolicies-job)
+    topic for additional information.
 
 - Unused Managed Policy Summary – Summary by AWS Organization of unused managed policies. Creates
   the AWS_UnusedPolicies_Summary table accessible under the job’s Results node.
@@ -50,7 +50,7 @@ The default values for parameters that can be customized are:
 | Unused Managed Policies | @IncludeAWSManaged          | False         | True or False value to include policies managed by AWS. |
 
 See the
-[Configure the Customizable Parameters in an Analysis Task](/docs/accessanalyzer/12.0/admin/jobs/job/configure/analysiscustomizableparameters.md)
+[Configure the Customizable Parameters in an Analysis Task](/docs/accessanalyzer/12.0/administration/jobs/job/configure/analysiscustomizableparameters.md)
 topic for instructions on how to modify parameters.
 
 ## Report for the AWS_UnusedManagedPolicies Job

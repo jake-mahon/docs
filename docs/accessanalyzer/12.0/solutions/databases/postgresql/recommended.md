@@ -23,7 +23,7 @@ Connection Profile
 
 The SQL Data Collector requires a specific set of permissions. For the PostgreSQL Solution, the
 credentials configured in the Connection Profile must be able to access the PostgreSQL Database. See
-the [Connection](/docs/accessanalyzer/12.0/admin/settings/connection/overview.md) topic for additional information on
+the [Connection](/docs/accessanalyzer/12.0/administration/settings/connection/overview.md) topic for additional information on
 permissions and creating a SQL custom connection profile.
 
 The Connection Profile is set to **Use the Default Profile**, as configured at the global settings

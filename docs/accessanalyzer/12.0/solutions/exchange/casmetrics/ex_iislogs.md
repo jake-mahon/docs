@@ -18,16 +18,16 @@ The following query is included in the EX_IISLogs Job:
 
 - IIS Logs – Collects IIS Logs
 
-    - By default set to process log files for the last 3 days. This time frame can be modified
-    - See the [Configure the IIS Logs Query](#configure-the-iis-logs-query) topic for additional
-      information
+  - By default set to process log files for the last 3 days. This time frame can be modified
+  - See the [Configure the IIS Logs Query](#configure-the-iis-logs-query) topic for additional
+    information
 
 ### Configure the IIS Logs Query
 
 The EX_IISLogs Job has been preconfigured to run with the default settings with the Log Type of
 Internet Information Server Log. However, the time frame for the log files to be processed can be
 modified on the Target Log page of the SMART Log DC Wizard. See the
-[SMARTLog Data Collector](/docs/accessanalyzer/12.0/admin/datacollector/smartlog/overview.md) topic for additional
+[SMARTLog Data Collector](/docs/accessanalyzer/12.0/administration/data-collectors/smartlog/overview.md) topic for additional
 information.
 
 Follow the steps to modify the query configuration.
@@ -46,7 +46,7 @@ job.
 ![SMART Log DC Wizard Target Log page](/img/product_docs/accessanalyzer/solutions/exchange/casmetrics/smartlogdctargetlog.webp)
 
 **Step 4 –** Navigate to the Target Log page, and configure the time frame as required. See the
-[SMARTLog: Target Log](/docs/accessanalyzer/12.0/admin/datacollector/smartlog/targetlog.md) topic for additional
+[SMARTLog: Target Log](/docs/accessanalyzer/12.0/administration/data-collectors/smartlog/targetlog.md) topic for additional
 information.
 
 _Remember,_ if the date range configuration includes data older than the last scan, the **Persist

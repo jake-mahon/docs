@@ -13,17 +13,17 @@ The following query is included in the EX_PublicFolder_SDD job:
 
 - Exchange Sensitive Data Discovery – Scans Exchange public folders for specified sensitive data
 
-    - Set to search all public folders. It can be scoped.
-    - Default sensitive data criteria includes:
+  - Set to search all public folders. It can be scoped.
+  - Default sensitive data criteria includes:
 
-        - Birth Records
-        - Credit Cards
-        - Passwords
-        - Tax Forms
-        - US SSN
+    - Birth Records
+    - Credit Cards
+    - Passwords
+    - Tax Forms
+    - US SSN
 
-    - See the [Configure the EX_PublicFolder_SDD Query](#configure-the-ex_publicfolder_sdd-query)
-      topic for additional information
+  - See the [Configure the EX_PublicFolder_SDD Query](#configure-the-ex_publicfolder_sdd-query)
+    topic for additional information
 
 ### Configure the EX_PublicFolder_SDD Query
 
@@ -45,7 +45,7 @@ Collector Wizard opens.
 
 **Step 4 –** To enable storage of discovered sensitive data, navigate to the SDD Options page.
 Sensitive data matches can be limited to reduce storage space. See the
-[EWSPublicFolder: SDD Options](/docs/accessanalyzer/12.0/admin/datacollector/ewspublicfolder/sddoptions.md) topic
+[EWSPublicFolder: SDD Options](/docs/accessanalyzer/12.0/administration/data-collectors/ewspublicfolder/sddoptions.md) topic
 for additional information.
 
 **NOTE:** By default, discovered sensitive data strings are not stored in the Access Analyzer
@@ -54,18 +54,18 @@ database.
 ![EWS Public Folder Data Collector Wizard Criteria page](/img/product_docs/accessanalyzer/admin/datacollector/ewsmailbox/criteria.webp)
 
 **Step 5 –** To modify criteria, navigate to the Criteria page. Add or remove criteria as desired.
-See the [EWSPublicFolder: Critieria](/docs/accessanalyzer/12.0/admin/datacollector/ewspublicfolder/critieria.md)
+See the [EWSPublicFolder: Critieria](/docs/accessanalyzer/12.0/administration/data-collectors/ewspublicfolder/critieria.md)
 topic for additional information.
 
 - (Optional) To create custom criteria, see the
-  [Sensitive Data Criteria Editor](/docs/accessanalyzer/12.0/sensitivedatadiscovery/criteriaeditor/overview.md)
+  [Sensitive Data Criteria Editor](/docs/accessanalyzer/12.0/sensitive-data/criteriaeditor/overview.md)
   topic for additional information
 
 ![EWS Public Folder Data Collector Wizard Filter Settings page](/img/product_docs/accessanalyzer/solutions/exchange/sensitivedata/collection/publicfolderfiltersettings.webp)
 
 **Step 6 –** To filter the scan to specific mailbox folders, navigate to the Filter page. Include or
 exclude folders and attachments as desired. See the
-[EWSPublicFolder: Filter](/docs/accessanalyzer/12.0/admin/datacollector/ewspublicfolder/filter.md) topic for
+[EWSPublicFolder: Filter](/docs/accessanalyzer/12.0/administration/data-collectors/ewspublicfolder/filter.md) topic for
 additional information.
 
 - To modify the threshold for message size, set the **Limit message size to** value as desired. The
@@ -77,7 +77,7 @@ additional information.
 
 **Step 7 –** To select which properties are gathered based on category, navigate to the Results
 page.  See the
-[EWSPublicFolder: Results](/docs/accessanalyzer/12.0/admin/datacollector/ewspublicfolder/results.md) topic for
+[EWSPublicFolder: Results](/docs/accessanalyzer/12.0/administration/data-collectors/ewspublicfolder/results.md) topic for
 additional information.
 
 **NOTE:** By default, all categories are selected under sensitive data.

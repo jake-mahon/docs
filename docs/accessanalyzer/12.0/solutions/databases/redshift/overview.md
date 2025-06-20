@@ -15,7 +15,7 @@ Supported Platforms
 Requirements, Permissions, and Ports
 
 See the
-[Target Redshift Requirements, Permissions, and Ports](/docs/accessanalyzer/12.0/requirements/target/databaseredshift.md)
+[Target Redshift Requirements, Permissions, and Ports](/docs/accessanalyzer/12.0/getting-started/requirements/target/databaseredshift.md)
 topic for additional information.
 
 Sensitive Data Discovery Considerations
@@ -59,9 +59,9 @@ The following job groups comprise the Redshift Job Group:
   further analysis and producing respective report. This Job Group is comprised of the following
   jobs(s)
 
-    - [Redshift_Configuration Job](/docs/accessanalyzer/12.0/solutions/databases/redshift/collection/redshift_configuration.md)
-    - [Redshift_SensitiveDataScan Job](/docs/accessanalyzer/12.0/solutions/databases/redshift/collection/redshift_sensitivedatascan.md)
-    - [Redshift_TablePrivileges Job](/docs/accessanalyzer/12.0/solutions/databases/redshift/collection/redshift_tableprivileges.md)
+  - [Redshift_Configuration Job](/docs/accessanalyzer/12.0/solutions/databases/redshift/collection/redshift_configuration.md)
+  - [Redshift_SensitiveDataScan Job](/docs/accessanalyzer/12.0/solutions/databases/redshift/collection/redshift_sensitivedatascan.md)
+  - [Redshift_TablePrivileges Job](/docs/accessanalyzer/12.0/solutions/databases/redshift/collection/redshift_tableprivileges.md)
 
 - [Configuration > Redshift_DatabaseSizing Job](/docs/accessanalyzer/12.0/solutions/databases/redshift/redshift_databasesizing.md) — Provides insight into
   details about the Redshift environment and potential vulnerabilities relating to instance
@@ -71,5 +71,5 @@ The following job groups comprise the Redshift Job Group:
   data exists and who has access to it across all the targeted Redshift databases.This Job Group is
   comprised of the following job(s):
 
-    - [Redshift_SensitiveData Job](/docs/accessanalyzer/12.0/solutions/databases/redshift/sensitive_data/redshift_sensitivedata.md)
-    - [Redshift_SensitiveDataPermissions Job](/docs/accessanalyzer/12.0/solutions/databases/redshift/sensitive_data/redshift_sensitivedatapermissions.md)
+  - [Redshift_SensitiveData Job](/docs/accessanalyzer/12.0/solutions/databases/redshift/sensitive_data/redshift_sensitivedata.md)
+  - [Redshift_SensitiveDataPermissions Job](/docs/accessanalyzer/12.0/solutions/databases/redshift/sensitive_data/redshift_sensitivedatapermissions.md)

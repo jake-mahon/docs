@@ -10,7 +10,7 @@ information.
 
 The Configuration section on a Job's overview page allows you to easily modify any customizable
 parameters used by analysis tasks in the job. See the
-[Parameter Configuration](/docs/accessanalyzer/12.0/admin/jobs/job/overview.md#parameter-configuration) topic for
+[Parameter Configuration](/docs/accessanalyzer/12.0/administration/jobs/job/overview.md#parameter-configuration) topic for
 instructions on how to edit parameters on a job overview page.
 
 The SP_StaleFiles page has the following configurable parameters:
@@ -36,9 +36,9 @@ The default analysis task is:
 - Stale File Details – Creates the SA_SP_StaleFiles_Details table accessible under the job’s Results
   node
 
-    - This analysis task contains a configurable parameter: `@stale`. See the
-      [Customizable Analysis Tasks for the SP_StaleFiles Job](#customizable-analysis-tasks-for-the-sp_stalefiles-job)
-      topic for additional information.
+  - This analysis task contains a configurable parameter: `@stale`. See the
+    [Customizable Analysis Tasks for the SP_StaleFiles Job](#customizable-analysis-tasks-for-the-sp_stalefiles-job)
+    topic for additional information.
 
 In addition to the table created by the analysis task which displays the stale file resources, the
 SP_StaleFiles Job produces the following pre-configured report:

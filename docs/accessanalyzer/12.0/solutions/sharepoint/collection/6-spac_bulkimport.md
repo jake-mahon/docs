@@ -31,7 +31,7 @@ displays.
 ![Bulk Import Settings](/img/product_docs/accessanalyzer/admin/datacollector/spaa/bulkimportsettings.webp)
 
 **Step 4 –** On the
-[SPAA: Bulk Import Settings](/docs/accessanalyzer/12.0/admin/datacollector/spaa/bulkimportsettings.md) page, the
+[SPAA: Bulk Import Settings](/docs/accessanalyzer/12.0/administration/data-collectors/spaa/bulkimportsettings.md) page, the
 **Set Host Identifier** is not configured by default. Click **Next**.
 
 **NOTE:** Unless SQL Server Replication is used, it should not be necessary to adjust the **Host
@@ -58,5 +58,5 @@ selected analysis tasks.
 
 The default analysis tasks are:
 
--   1. Create Event Name Table – Creates the SA_SPAC_EventNames table associated with SPAC
--   2. Create Views – Creates the views associated with SPAC
+- 1. Create Event Name Table – Creates the SA_SPAC_EventNames table associated with SPAC
+- 2. Create Views – Creates the views associated with SPAC

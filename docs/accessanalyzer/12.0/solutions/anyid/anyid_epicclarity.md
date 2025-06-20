@@ -29,7 +29,7 @@ Read Access to the underlying Clarity Oracle database.
 
 History Retention
 
-Default Retention Period. See the [History](/docs/accessanalyzer/12.0/admin/settings/history.md) topic for additional
+Default Retention Period. See the [History](/docs/accessanalyzer/12.0/administration/settings/history.md) topic for additional
 information.
 
 Multi-Console Support
@@ -92,7 +92,7 @@ Wizard opens.
 
 **Step 4 –** Navigate to the Edit Query page. Click the **Parameters** tab on the right-hand side of
 the page to expand the Parameters window. See the
-[PowerShell: Edit Query](/docs/accessanalyzer/12.0/admin/datacollector/powershell/editquery.md) topic for additional
+[PowerShell: Edit Query](/docs/accessanalyzer/12.0/administration/data-collectors/powershell/editquery.md) topic for additional
 information. Configure the following attributes as needed:
 
 - $portNumber – The port number used to access the Oracle Database Server
@@ -101,14 +101,14 @@ information. Configure the following attributes as needed:
 - $Attributes – The list of attributes that will be scanned for during sensitive data scanning.
   Default values are MRN, SSN, Name, Date of Birth, Subscriber ID, Identity ID, and Account ID.
 
-    - An attribute in the Attributes list will not be considered a match (in reporting and AIC)
-      unless an attribute in the RequiredAttributes list is also found in the same file
+  - An attribute in the Attributes list will not be considered a match (in reporting and AIC)
+    unless an attribute in the RequiredAttributes list is also found in the same file
 
 - $RequiredAttributes – The list of attributes that need to be found in the document in order to
   trigger a match. The default values are SSN, MRN, and IdentityID.
 
-    - An attribute in the Attributes list will not be considered a match (in reporting and AIC)
-      unless an attribute in the RequiredAttributes list is also found in the same file
+  - An attribute in the Attributes list will not be considered a match (in reporting and AIC)
+    unless an attribute in the RequiredAttributes list is also found in the same file
 
 - $debugMode – When set to true, stores unhashed attribute values for troubleshooting purposes
 
