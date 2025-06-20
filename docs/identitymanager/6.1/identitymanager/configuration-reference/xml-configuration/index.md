@@ -1056,7 +1056,7 @@ another system and the indirect groups of the equivalent in the other system.
 
 For example:
 
-                    ```
+```
 
 <IndirectResourceRule
 	ResourceType="MicrosoftEntraID_DirectoryObject_NominativeUser"
@@ -1068,17 +1068,15 @@ For example:
 
 ```
 
-
 ## Properties
 
-| Property | Details |
-| --- | --- |
-| Correspondence   optional | __Type__    Int64   __Description__   Property used to link the resource with an associated resource in another system, like Microsoft Entra ID (formerly Microsoft Azure AD) or SharePoint groups. |
-| CorrespondenceMembershipProperty   optional | __Type__    Int64   __Description__   Same as Property but for the associated resource found in the external system. |
-| Entitlement   optional | __Type__    Int64   __Description__   Property used if the assignment is not given by the property in the external system. In the example, the assignment that we are looking for is not whether a user is in a group. Instead, it is the entitlement(s) given by the groups of which the user is a member. |
-| Property   required | __Type__    Int64   __Description__   Resource property for membership. Example: if our entity is a group, the group(s) it belongs to. |
-| ResourceType   required | __Type__    Int64   __Description__   Represents the Id of the ResourceType you want to use the rule on. |
-```
+| Property                                  | Details                                                                                                                                                                                                                                                                                              |
+| ----------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Correspondence optional                   | **Type** Int64 **Description** Property used to link the resource with an associated resource in another system, like Microsoft Entra ID (formerly Microsoft Azure AD) or SharePoint groups.                                                                                                         |
+| CorrespondenceMembershipProperty optional | **Type** Int64 **Description** Same as Property but for the associated resource found in the external system.                                                                                                                                                                                        |
+| Entitlement optional                      | **Type** Int64 **Description** Property used if the assignment is not given by the property in the external system. In the example, the assignment that we are looking for is not whether a user is in a group. Instead, it is the entitlement(s) given by the groups of which the user is a member. |
+| Property required                         | **Type** Int64 **Description** Resource property for membership. Example: if our entity is a group, the group(s) it belongs to.                                                                                                                                                                      |
+| ResourceType required                     | **Type** Int64 **Description** Represents the Id of the ResourceType you want to use the rule on.                                                                                                                                                                                                    |
 
 # MiningRule
 
@@ -1162,14 +1160,14 @@ access specific to their applications.
 Code attributes enclosed with `<>` need to be replaced with a custom value before entering the
 script in the command line.
 
-```
+```xml
 <Policy Identifier="Default" DisplayName_L1="Default Policy" IsProvisioningEnabled="true" />
 ```
 
 All `ResourceType`, `SingleRole`, `CompositeRole` and `Category` must belong to a Policy. This is
 done by specifying the `Policy` attribute.
 
-```
+```xml
 <Category Policy="Default" Identifier="AD" DisplayName_L1="Active Directory" />
 ```
 

@@ -1061,13 +1061,10 @@ rule.
 
 ## Identity Context Generation
 
-As described in the [Identity Management](/docs/identitymanager/6.2/identity-management/index.md), identities are
-complex to model. Records were introduced to tackle this complexity by allowing multiple positions
-for the same identity.
+As described in the [Identity Management](/docs/identitymanager/6.2/identity-management/index.md), identities are complex to model. Records were introduced to tackle this complexity by allowing multiple positions for the same identity.
 
 [ Record Section ](/docs/identitymanager/6.2/development/configuration-toolkit/xml-configuration.md) go further
-by modeling the relationship between positions. Indeed with record sections, it is possible to
-define:
+by modeling the relationship between positions. Indeed with record sections, it is possible to define:
 
 - what are the shared properties between all positions?
 - what are the properties unique to each position?
@@ -1127,8 +1124,7 @@ With the given configuration and the identity of `Mark Barn`, the following cont
 Each computed context will be used to create a set of dimension-value pairs, thus having 3 sets for
 the [Evaluate Policy](/docs/identitymanager/6.2/access-governance/role-management/role-assignment.md) algorithm.
 
-Any rules targeting identities with a `fulltime`Category`will be assigned to`Mark
-Barn`from`Cs`to`Ce```.
+Any rules targeting identities with a `fulltime` `Category` will be assigned to `Mark Barn` from `Cs` to `Ce`.
 
 Any rules targeting identities working in `London` will be assigned to `Mark Barn` from `S1` to
 `E2`.
@@ -1228,19 +1224,18 @@ to set up Indirect Permissions and can be done by answering the following questi
 Finally, if we compile all this information and using the naming of the standard Identity
 Manager Demo, we get the following Indirect Resource Rule:
 
-                    ```
+```
 
 <IndirectResourceRule
     ResourceType="AD_Entry_NominativeUser"    Property="memberOf"    />
 
-````
-
+```
 
 After adding this rule to the Configuration, do not forget to deploy the configuration.
 
 ### Set up a test user
 
-The aim of this section is to give you a step-by-step guide for setting up a test user. It will also cover what is displayed in Identity Manager. In this example, we will assign a ```Test Group A``` directly to the test user and the ```Test Group A``` will also be a member of the ```Test Group B```. This way, the test user will also have an indirect assignment to the ```Test Group B```. We will also create the corresponding roles.
+The aim of this section is to give you a step-by-step guide for setting up a test user. It will also cover what is displayed in Identity Manager. In this example, we will assign a `Test Group A` directly to the test user and the `Test Group A` will also be a member of the `Test Group B`. This way, the test user will also have an indirect assignment to the `Test Group B`. We will also create the corresponding roles.
 
 ![Group Membership Schema](/img/product_docs/identitymanager/identitymanager/integration-guide/role-assignment/how-tos/configureindirectpermissions/indirectpermissionsadexample.webp)
 
@@ -1248,16 +1243,16 @@ A running Active Directory instance is required to reproduce these steps yoursel
 
 #### Edit the Active Directory
 
-Create two groups in your Active Directory, ```TestGroupA``` and ```TestGroupB```. Then add ```TestGroupA``` as a member of ```TestGroupB```. Finally add a test user as a member of ```TestGroupA```. The test user can be any existing user in the AD that is known by Identity Manager.
+Create two groups in your Active Directory, `TestGroupA` and `TestGroupB`. Then add `TestGroupA` as a member of `TestGroupB`. Finally add a test user as a member of `TestGroupA`. The test user can be any existing user in the AD that is known by Identity Manager.
 
 #### Prepare Identity Manager
 
 Since we have manually edited the Active Directory, we first need to run an AD synchronization job.
-Then we create one Single Role for each group in the Active Directory. We will name them ```TestRoleA``` and ```TestRoleB``` for ```Directory > User```, :
+Then we create one Single Role for each group in the Active Directory. We will name them `TestRoleA` and `TestRoleB` for `Directory > User`, :
 
 ![Single Role Configuration Example](/img/product_docs/identitymanager/identitymanager/integration-guide/role-assignment/how-tos/configureindirectpermissions/srconf_5.2.1.webp)
 
-We will also create a test Composite Role to showcase indirect Composite Roles. We will name it ```TestCRoleAB```:
+We will also create a test Composite Role to showcase indirect Composite Roles. We will name it `TestCRoleAB`:
 
 ![Composite Role Configuration](/img/product_docs/identitymanager/identitymanager/integration-guide/role-assignment/how-tos/configureindirectpermissions/crconf_5.2.1.webp)
 
@@ -1277,17 +1272,17 @@ After running a [
 Compute Role Model Task
 ](/docs/identitymanager/6.2/development/configuration-toolkit/xml-configuration.md), Indirect Permissions should now appear for your test user.
 
-The next screenshots were taken after adding the direct assignment directly inside the Active Directory. As such, the direct permission is also flagged as ```Non-conforming```.
+The next screenshots were taken after adding the direct assignment directly inside the Active Directory. As such, the direct permission is also flagged as `Non-conforming`.
 
-If you first go on the ```View permissions``` tab of your test user, the only new role that appears in the ```Simplified view``` is the indirect Composite Role ```TestCRoleAB```:
+If you first go on the `View permissions` tab of your test user, the only new role that appears in the `Simplified view` is the indirect Composite Role `TestCRoleAB`:
 
 ![View Permissions Simplified](/img/product_docs/identitymanager/identitymanager/integration-guide/role-assignment/how-tos/configureindirectpermissions/viewpermissionssimplified_5.2.1.webp)
 
-To display Indirect Permissions, you need to switch over to the ```Advanced view```. ```TestRoleA``` and ```TestRoleB``` should then appear:
+To display Indirect Permissions, you need to switch over to the `Advanced view`. `TestRoleA` and `TestRoleB` should then appear:
 
 ![View Permissions Advanced](/img/product_docs/identitymanager/identitymanager/integration-guide/role-assignment/how-tos/configureindirectpermissions/viewpermissionsadvanced_5.2.1.webp)
 
-You can also directly display the Assigned Resource Navigations by clicking on ```AD User (nominative)```. The ```memberOf``` properties will appear in the list:
+You can also directly display the Assigned Resource Navigations by clicking on `AD User (nominative)`. The `memberOf` properties will appear in the list:
 
 ![AD Assigned Resource Navigations](/img/product_docs/identitymanager/identitymanager/integration-guide/role-assignment/how-tos/configureindirectpermissions/adassignednavigations_5.2.1.webp)
 
@@ -1296,21 +1291,21 @@ You can also directly display the Assigned Resource Navigations by clicking on `
 We can follow the same steps to configure this new rule:
 
 - What is the target Entity Type?
-  Once again, we will configure a rule for nominative users. The Entity Type is ```AzureAD_DirectoryObject_NominativeUser```.
+  Once again, we will configure a rule for nominative users. The Entity Type is `AzureAD_DirectoryObject_NominativeUser`.
 - Which permissions can be obtained transitively in the Microsoft Entra ID (formerly Microsoft Azure AD)?
-  Users get permissions by being members of a group. The property is ```memberOf```.
+  Users get permissions by being members of a group. The property is `memberOf`.
 - Do we want to look for correspondences in another system?
   Here, we do not want to (it is possible, but it is not the aim of this How-To).
-  This also means that ```Correspondence```, ```CorrespondenceMembershipProperty```, and ```Entitlement``` will remain blank.
+  This also means that `Correspondence`, `CorrespondenceMembershipProperty`, and `Entitlement` will remain blank.
 
 Finally, if we compile all this information and using the naming of the standard Identity Manager Demo, we get the following Indirect Resource Rule:
 
-                    ```
+```
 
 <IndirectResourceRule
     ResourceType="AzureAD_DirectoryObject_NominativeUser"    Property="memberOf"    />
 
-````
+```
 
 ## Configure Indirect Permissions in SharePoint using Correspondences from an Microsoft Entra ID
 
@@ -1334,25 +1329,20 @@ correspondence feature:
 Finally, if we compile all this information and use the naming convention of the standard Identity
 Manager Demo, we get the following Indirect Resource Rule:
 
-                    ```
+```
 
 <IndirectResourceRule
     ResourceType="AzureAD_DirectoryObject_NominativeUser"    Property="memberOf"    Correspondence="SharePointObject"    CorrespondenceMembershipProperty="Group"    Entitlement="Entitlement"    />
 
 ```
 
-
 This rule will also compute indirect permissions for the Microsoft Entra ID.
-```
 
 # Infer Single Roles with a Composite Role
 
 This guide shows how to assign several single roles via the assignment of one composite role.
 
-It is possible to infer SingleRoles with
-[ Composite Role ](/docs/identitymanager/6.2/development/configuration-toolkit/xml-configuration.md). The
-SingleRole can only be inferred by the CompositeRole if both the CompositeRole and SingleRole rules
-are verified.
+It is possible to infer SingleRoles with [Composite Role](/docs/identitymanager/6.2/development/configuration-toolkit/xml-configuration.md). The SingleRole can only be inferred by the CompositeRole if both the CompositeRole and SingleRole rules are verified.
 
 ## Create a Dimension
 
@@ -1374,9 +1364,7 @@ For the different examples of restrictions, the filters will be based on the Ent
 A CompositeRole is created in the same way as a SingleRole.
 
 ```
-
     <CompositeRole Identifier="FCT0711" DisplayName_L1="Developer" DisplayName_L2="Developpeur" ApprovalWorkflowType="Two" EntityType="Directory_User" Policy="Default" />
-
 ```
 
 ## Assign the Composite Role Based on the Dimension
@@ -1448,66 +1436,6 @@ We will define a
     <SingleRoleRule Role="DL-INTERNET-Restricted" D1="FCT0402" Policy="Default" />
 
 ```
-
-D1 represents the dimension whose ColumnMapping="1".
-
-```
-
-  <Dimension Identifier="Title0" DisplayName_L1="Title" DisplayName_L2="Fonction" EntityType="Directory_Title" ColumnMapping="1" />
-
-```
-
-The value in property D1 implies that the rule is checked only if the source resource has as
-association to the EntityType related to dimension 1 is "FCT0402".
-
-## Assign a Resource Type Based on the Role
-
-The restriction on the creation of these accounts is integrated directly into the type rule of the
-[Resource Type](/docs/identitymanager/6.2/development/configuration-toolkit/xml-configuration.md). This implies
-that the ResourceType will only apply if the
-[Single Role Rule](/docs/identitymanager/6.2/development/configuration-toolkit/xml-configuration.md) are
-checked.
-
-This part will link a SingleRole to a ResourceType. This implies that the allocation of a target
-resource to a source will only be done if the SingleRole rule(s) are verified.
-
-```xml
-<ResourceType Identifier="AD_Entry_NominativeUser" DisplayName_L1="AD User (nominative)" DisplayName_L2="Compte AD (nominatif)" Policy="Default" TargetEntityType="AD_Entry" Category="AD" SourceEntityType="Directory_User" ApprovalWorkflowType="One">    <TypeRule TimeOffsetReference="Arround" TimeOffsetBeforeReference="-10080" TimeOffsetAfterReference="43200" Policy="Default"  SingleRole="DL-INTERNET-Restricted"/>    ....
-</ResourceType>
-```
-
-### Use a navigation rule instead of a type rule
-
-A [Resource Type](/docs/identitymanager/6.2/development/configuration-toolkit/xml-configuration.md) in addition
-to filling a multi-valued association, also serves as an allocation context for a ResourceType.
-
-There are 3 ways to restrict the allocation of the ResourceType with a NavigationRule:
-
-- Fill in one or more dimensions directly in the NavigationRule.
-- Fill in a SingleRole.
-- Fill in one or more dimensions and a SingleRole.
-
-For the last 2 cases this will induce the ResourceType by the SingleRole.
-
-```
-
-    <ResourceType Identifier="AD_Entry_NominativeUser">        ...
-        <NavigationRule Property="memberOf" Resource="CN=SG_APP_DL-INTERNET-Restricted,OU=Applications,DC=acme,DC=internal" SingleRole="DL-INTERNET-Restricted" />    </ResourceType>
-
-```
-
-In the example above the ResourceType does not need a TypeRule because the NavigationRule already
-serves as an allocation context.
-
-# Role Assignment
-
-Once the role model is established, role assignment can be performed, i.e. missing or non-conforming
-assignments can be detected in order to give users the appropriate access rights.
-
-Be sure to read first the documentation about the role model. See the
-[ Role Model ](/docs/identitymanager/6.2/access-governance/role-management/role-model.md) topic for additional information.
-
-# Indirect Permissions
 
 Identity Manager can compute, for a given identity, permissions that are obtained implicitly or
 indirectly through assignments. The
@@ -1713,38 +1641,38 @@ Create a role assignment rule by proceeding as follows:
 1. Access the rules page by clicking on **Access Rules** on the home page in the **Configuration**
    section.
 
-   ![Home Page - Access Rules](/img/product_docs/identitymanager/identitymanager/user-guide/set-up/categorization/classification/home_rules_v602.webp)
+![Home Page - Access Rules](/img/product_docs/identitymanager/identitymanager/user-guide/set-up/categorization/classification/home_rules_v602.webp)
 
 2. In the dropdown menu at the top left, choose the source entity type for the future scalar rule.
 
-   ![Entity Type Choice](/img/product_docs/identitymanager/identitymanager/user-guide/set-up/single-roles-catalog-creation/role-naming-rule-creation/provrules_entitytype_v602.webp)
+![Entity Type Choice](/img/product_docs/identitymanager/identitymanager/user-guide/set-up/single-roles-catalog-creation/role-naming-rule-creation/provrules_entitytype_v602.webp)
 
 3. Click on the **Composite Roles** or **Single Roles** tab and on the addition button at the top
    right corner.
 
-   ![Addition Icon](/img/product_docs/identitymanager/identitymanager/user-guide/set-up/categorization/classification/iconadd_v602.svg)
+![Addition Icon](/img/product_docs/identitymanager/identitymanager/user-guide/set-up/categorization/classification/iconadd_v602.svg)
 
 4. Fill in the fields.
 
-   ![Create an Assignment Rule](/img/product_docs/identitymanager/identitymanager/user-guide/optimize/assignment-automation/automate-role-assignment/assignmentrules_newsrolerule_v602.webp)
+![Create an Assignment Rule](/img/product_docs/identitymanager/identitymanager/user-guide/optimize/assignment-automation/automate-role-assignment/assignmentrules_newsrolerule_v602.webp)
 
-   - `Single Role`: single role to be automatically assigned in a single role rule.
-     `Composite Role` for a composite role rule.
-   - `Type`: assignment type that can be: `Suggested` so that the role is listed among suggested
-     permissions in the permission basket of users matching the criteria during an entitlement
-     request, suggested assignments must be selected manually to be requested; or `Automatic` so
-     that the role is automatically assigned to users matching the criteria; or
-     `Automatic but with validation` so that the role is listed in the permission basket of new
-     workers, these assignments can still be modified.
+- `Single Role`: single role to be automatically assigned in a single role rule.
+  `Composite Role` for a composite role rule.
+- `Type`: assignment type that can be: `Suggested` so that the role is listed among suggested
+  permissions in the permission basket of users matching the criteria during an entitlement
+  request, suggested assignments must be selected manually to be requested; or `Automatic` so
+  that the role is automatically assigned to users matching the criteria; or
+  `Automatic but with validation` so that the role is listed in the permission basket of new
+  workers, these assignments can still be modified.
 
-     The rule's type can be `Suggested` only if the related role is allowed to be requested
-     manually.
+  The rule's type can be `Suggested` only if the related role is allowed to be requested
+  manually.
 
-   - `Single role denied`: option that forbids the assignment instead of applying it.
-   - **Criteria**: conditions that, if met, trigger the single role automatic assignment.
+- `Single role denied`: option that forbids the assignment instead of applying it.
+- **Criteria**: conditions that, if met, trigger the single role automatic assignment.
 
-   Role assignment rules can be based on identity dimensions. Moreover, single role rules can be
-   based on composite roles.
+Role assignment rules can be based on identity dimensions. Moreover, single role rules can be
+based on composite roles.
 
 5. Click on **Create** and see a line added on the rules page.
 
@@ -1784,15 +1712,15 @@ Then, you can:
 
 1. Select a test user in the directory, accessible from the home page.
 
-   ![Home Page - Directory User](/img/product_docs/identitymanager/identitymanager/user-guide/set-up/configure-workflows/home_directoryuser_v523.webp)
+![Home Page - Directory User](/img/product_docs/identitymanager/identitymanager/user-guide/set-up/configure-workflows/home_directoryuser_v523.webp)
 
 2. Create a role assignment rule for a role that said user doesn't already have, and based on
    criteria which the selected user satisfies.
 3. Trigger the computation of the role model through the complete job on the **Job Execution** page
    in the **Administration** section.
 
-   ![Home - Job Execution](/img/product_docs/identitymanager/identitymanager/user-guide/set-up/synchronization/home_jobexecution_v602.webp)
+![Home - Job Execution](/img/product_docs/identitymanager/identitymanager/user-guide/set-up/synchronization/home_jobexecution_v602.webp)
 
 4. See the new permission in the user's **View Permissions** tab.
 
-   ![View Permissions Tab](/img/product_docs/identitymanager/identitymanager/user-guide/set-up/provisioning-rule-creation/resource-creation/viewpermissions_v602.webp)
+![View Permissions Tab](/img/product_docs/identitymanager/identitymanager/user-guide/set-up/provisioning-rule-creation/resource-creation/viewpermissions_v602.webp)

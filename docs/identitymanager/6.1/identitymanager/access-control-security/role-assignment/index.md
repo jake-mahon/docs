@@ -415,7 +415,7 @@ Each computed context will be used to create a set of dimension-value pairs, thu
 the
 [evaluate policy algorithm](/docs/identitymanager/6.1/identitymanager/access-control-security/role-assignment/assignment-policies.md).
 
-Any rules targeting identities with a `fulltime``````Category` will be assigned to `Mark Barn` from
+Any rules targeting identities with a `fulltime` `Category` will be assigned to `Mark Barn` from
 `Cs` to `Ce`.
 
 Any rules targeting identities working in `London` will be assigned to `Mark Barn` from `S1` to
@@ -517,19 +517,18 @@ up Indirect Permissions and can be done by answering the following questions:
 Finally, if we compile all this information and using the naming of the standard Usercube Demo, we
 get the following Indirect Resource Rule:
 
-                    ```
+```
 
 <IndirectResourceRule
     ResourceType="AD_Entry_NominativeUser"    Property="memberOf"    />
 
-````
-
+```
 
 After adding this rule to the Configuration, do not forget to deploy the configuration.
 
 ### Set up a test user
 
-The aim of this section is to give you a step-by-step guide for setting up a test user. It will also cover what is displayed in Usercube. In this example, we will assign a ```Test Group A``` directly to the test user and the ```Test Group A``` will also be a member of the ```Test Group B```. This way, the test user will also have an indirect assignment to the ```Test Group B```. We will also create the corresponding roles.
+The aim of this section is to give you a step-by-step guide for setting up a test user. It will also cover what is displayed in Usercube. In this example, we will assign a `Test Group A` directly to the test user and the `Test Group A` will also be a member of the `Test Group B`. This way, the test user will also have an indirect assignment to the `Test Group B`. We will also create the corresponding roles.
 
 ![Group Membership Schema](/img/versioned_docs/identitymanager_6.1/identitymanager/integration-guide/role-assignment/how-tos/configureindirectpermissions/indirectpermissionsadexample.webp)
 
@@ -537,16 +536,16 @@ A running Active Directory instance is required to reproduce these steps yoursel
 
 #### Edit the Active Directory
 
-Create two groups in your Active Directory, ```TestGroupA``` and ```TestGroupB```. Then add ```TestGroupA``` as a member of ```TestGroupB```. Finally add a test user as a member of ```TestGroupA```. The test user can be any existing user in the AD that is known by Usercube.
+Create two groups in your Active Directory, `TestGroupA` and `TestGroupB`. Then add `TestGroupA` as a member of `TestGroupB`. Finally add a test user as a member of `TestGroupA`. The test user can be any existing user in the AD that is known by Usercube.
 
 #### Prepare Usercube
 
 Since we have manually edited the Active Directory, we first need to run an AD synchronization job.
-Then we create one Single Role for each group in the Active Directory. We will name them ```TestRoleA``` and ```TestRoleB``` for ```Directory > User```, :
+Then we create one Single Role for each group in the Active Directory. We will name them `TestRoleA` and `TestRoleB` for `Directory > User`, :
 
 ![Single Role Configuration Example](/img/versioned_docs/identitymanager_6.1/identitymanager/integration-guide/role-assignment/how-tos/configureindirectpermissions/srconf_5.2.1.webp)
 
-We will also create a test Composite Role to showcase indirect Composite Roles. We will name it ```TestCRoleAB```:
+We will also create a test Composite Role to showcase indirect Composite Roles. We will name it `TestCRoleAB`:
 
 ![Composite Role Configuration](/img/versioned_docs/identitymanager_6.1/identitymanager/integration-guide/role-assignment/how-tos/configureindirectpermissions/crconf_5.2.1.webp)
 
@@ -564,17 +563,17 @@ Even if two rules of a kind are needed, only one is pictured. Do not forget the 
 
 After running a [Compute Role Model](/docs/identitymanager/6.1/identitymanager/configuration-reference/xml-configuration/jobs-config.md) task, Indirect Permissions should now appear for your test user.
 
-The next screenshots were taken after adding the direct assignment directly inside the Active Directory. As such, the direct permission is also flagged as ```Non-conforming```.
+The next screenshots were taken after adding the direct assignment directly inside the Active Directory. As such, the direct permission is also flagged as `Non-conforming`.
 
-If you first go on the ```View permissions``` tab of your test user, the only new role that appears in the ```Simplified view``` is the indirect Composite Role ```TestCRoleAB```:
+If you first go on the `View permissions` tab of your test user, the only new role that appears in the `Simplified view` is the indirect Composite Role `TestCRoleAB`:
 
 ![View Permissions Simplified](/img/versioned_docs/identitymanager_6.1/identitymanager/integration-guide/role-assignment/how-tos/configureindirectpermissions/viewpermissionssimplified_5.2.1.webp)
 
-To display Indirect Permissions, you need to switch over to the ```Advanced view```. ```TestRoleA``` and ```TestRoleB``` should then appear:
+To display Indirect Permissions, you need to switch over to the `Advanced view`. `TestRoleA` and `TestRoleB` should then appear:
 
 ![View Permissions Advanced](/img/versioned_docs/identitymanager_6.1/identitymanager/integration-guide/role-assignment/how-tos/configureindirectpermissions/viewpermissionsadvanced_5.2.1.webp)
 
-You can also directly display the Assigned Resource Navigations by clicking on ```AD User (nominative)```. The ```memberOf``` properties will appear in the list:
+You can also directly display the Assigned Resource Navigations by clicking on `AD User (nominative)`. The `memberOf` properties will appear in the list:
 
 ![AD Assigned Resource Navigations](/img/versioned_docs/identitymanager_6.1/identitymanager/integration-guide/role-assignment/how-tos/configureindirectpermissions/adassignednavigations_5.2.1.webp)
 
@@ -583,21 +582,21 @@ You can also directly display the Assigned Resource Navigations by clicking on `
 We can follow the same steps to configure this new rule:
 
 - What is the target Entity Type?
-  Once again, we will configure a rule for nominative users. The Entity Type is ```MicrosoftEntraID_DirectoryObject_NominativeUser```.
+  Once again, we will configure a rule for nominative users. The Entity Type is `MicrosoftEntraID_DirectoryObject_NominativeUser`.
 - Which permissions can be obtained transitively in the Microsoft Entra ID (formerly Microsoft Azure AD)?
-  Users get permissions by being members of a group. The property is ```memberOf```.
+  Users get permissions by being members of a group. The property is `memberOf`.
 - Do we want to look for correspondences in another system?
   Here, we do not want to (it is possible, but it is not the aim of this How-To).
-  This also means that ```Correspondence```, ```CorrespondenceMembershipProperty```, and ```Entitlement``` will remain blank.
+  This also means that `Correspondence`, `CorrespondenceMembershipProperty`, and `Entitlement` will remain blank.
 
 Finally, if we compile all this information and using the naming of the standard Usercube Demo, we get the following Indirect Resource Rule:
 
-                    ```
+```
 
 <IndirectResourceRule
     ResourceType="MicrosoftEntraID_DirectoryObject_NominativeUser"    Property="memberOf"    />
 
-````
+```
 
 ## Configure Indirect Permissions in SharePoint using Correspondences from an Microsoft Entra ID
 
@@ -621,16 +620,14 @@ correspondence feature:
 Finally, if we compile all this information and use the naming convention of the standard Usercube
 Demo, we get the following Indirect Resource Rule:
 
-                    ```
+```
 
 <IndirectResourceRule
     ResourceType="MicrosoftEntraID_DirectoryObject_NominativeUser"    Property="memberOf"    Correspondence="SharePointObject"    CorrespondenceMembershipProperty="Group"    Entitlement="Entitlement"    />
 
 ```
 
-
 This rule will also compute indirect permissions for the Microsoft Entra ID.
-```
 
 # How-Tos
 
@@ -672,7 +669,7 @@ For the different examples of restrictions, the filters will be based on the Ent
 
 A CompositeRole is created in the same way as a SingleRole.
 
-```
+```xml
 
     <CompositeRole Identifier="FCT0711" DisplayName_L1="Developer" DisplayName_L2="D�veloppeur" ApprovalWorkflowType="Two" EntityType="Directory_User" Policy="Default" />
 
@@ -780,8 +777,7 @@ resource to a source will only be done if the SingleRole rule(s) are verified.
 
 ### Use a navigation rule instead of a type rule
 
-A
-[navigationRule](/docs/identitymanager/6.1/identitymanager/configuration-reference/xml-configuration/index.md)
+A [navigationRule](/docs/identitymanager/6.1/identitymanager/configuration-reference/xml-configuration/index.md)
 in addition to filling a multi-valued association, also serves as an allocation context for a
 ResourceType.
 
