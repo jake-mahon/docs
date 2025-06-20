@@ -10,6 +10,7 @@ import styles from './index.module.css';
 function HomepageHeader() {
   const { siteConfig } = useDocusaurusContext();
   return (
+    <meta name="algolia-site-verification"  content="0064B6F67914D812" />
     <header className={clsx('hero hero--primary', styles.heroBanner)}>
       <div className="container">
         <h1 className={styles.heroTitle}>Netwrix Product Documentation</h1>
