@@ -1,15 +1,15 @@
 # InternalWorkflow
 
-This connector triggers workflows in Identity Manager for a system's provisioning orders.
+This connector triggers workflows in Identity Manager for a system's provisioning orders.
 
-This page is about Identity Manager Internal Workflow. See the
+This page is about Identity Manager Internal Workflow. See the
 [ Workflow ](/docs/identitymanager/6.2/integration/connectors/connector-packages.md) topic for additional information.
 
 ![Package: Usercube/Workflow](/img/product_docs/identitymanager/identitymanager/integration-guide/connectors/references-connectors/internalworkflow/packages_workflow_v603.webp)
 
 ## Overview
 
-This connector is singular because it does not connect Identity Manager to an external system.
+This connector is singular because it does not connect Identity Manager to an external system.
 
 Instead, it is made to read the provisioning orders of a given connector or resource type, and
 launch specific workflows still within Identity Manager, depending on each order's type (creation,
@@ -24,7 +24,7 @@ Implementing this connector requires:
 
 - Knowledge of the basic principles of Identity Manager's workflows. See the
   [ Workflow ](/docs/identitymanager/6.2/integration/connectors/connector-packages.md) topic for additional information.
-- Configuring in Identity Manager the workflows for the arrival of a new user, the update of a
+- Configuring in Identity Manager the workflows for the arrival of a new user, the update of a
   pre-existing user, and for the departure of a user
 
 ## Export
@@ -131,7 +131,7 @@ FulfillInternalWorkflow.json
         "WorkflowIdentifier": "Directory_User_ChangeName",
         "TransitionIdentifier": "ActionWithRefine-ActionPending-Execute",
         "Message": "workflow Update: $Resource:LastName$ - $Resource:FirstName$, EmployeeId: $Resource:EmployeeId$",
-        "Body": "body of workflow Update for  $Resource:EmployeeId$ "
+        "Body": "body of workflow Update for $Resource:EmployeeId$ "
       },
       "ScalarProperties": [
         "FirstName",
@@ -233,7 +233,7 @@ Our example generates the following configuration:
 
 ```
 
-<AccessControlRule Identifier="Administrator_[ActivityTemplateTransition, /Workflows/ActivityTemplateTransition/Query]" DisplayName_L1="Administrator_ActivityTemplateTransition" DisplayName_L2="Administrator_ActivityTemplateTransition" EntityType="ActivityTemplateTransition" Profile="Administrator">  <Entry CanExecute="true" Permission="/Workflows/ActivityTemplateTransition/Query" /></AccessControlRule><AccessControlRule Identifier="Administrator_[Workflow, /Workflows/Workflow/Query]" DisplayName_L1="Administrator_Workflow" DisplayName_L2="Administrator_Workflow" EntityType="Workflow" Profile="Administrator">  <Entry CanExecute="true" Permission="/Workflows/Workflow/Query" /></AccessControlRule>
+<AccessControlRule Identifier="Administrator_[ActivityTemplateTransition, /Workflows/ActivityTemplateTransition/Query]" DisplayName_L1="Administrator_ActivityTemplateTransition" DisplayName_L2="Administrator_ActivityTemplateTransition" EntityType="ActivityTemplateTransition" Profile="Administrator"> <Entry CanExecute="true" Permission="/Workflows/ActivityTemplateTransition/Query" /></AccessControlRule><AccessControlRule Identifier="Administrator_[Workflow, /Workflows/Workflow/Query]" DisplayName_L1="Administrator_Workflow" DisplayName_L2="Administrator_Workflow" EntityType="Workflow" Profile="Administrator"> <Entry CanExecute="true" Permission="/Workflows/Workflow/Query" /></AccessControlRule>
 
 ```
 
@@ -275,7 +275,7 @@ Our example generates the following configuration:
 
 ```
 
-<AccessControlRule Identifier="Administrator_Directory_UserType_Custom_Workflows_Directory_UserType" DisplayName_L1="Administrator_Directory_UserType_Custom_Workflows_Directory_UserType" EntityType="Workflow_Directory_UserType" Profile="Administrator">  <Entry CanExecute="true" Permission="/Custom/Workflows/Directory_UserType_Create/Request/ActionPending" />  <Entry CanExecute="true" Permission="/Custom/Workflows/Directory_UserType_Delete/Request/ActionPending" />  <Entry CanExecute="true" Permission="/Custom/Workflows/Directory_UserType_Update/Request/ActionPending" /></AccessControlRule>
+<AccessControlRule Identifier="Administrator_Directory_UserType_Custom_Workflows_Directory_UserType" DisplayName_L1="Administrator_Directory_UserType_Custom_Workflows_Directory_UserType" EntityType="Workflow_Directory_UserType" Profile="Administrator"> <Entry CanExecute="true" Permission="/Custom/Workflows/Directory_UserType_Create/Request/ActionPending" /> <Entry CanExecute="true" Permission="/Custom/Workflows/Directory_UserType_Delete/Request/ActionPending" /> <Entry CanExecute="true" Permission="/Custom/Workflows/Directory_UserType_Update/Request/ActionPending" /></AccessControlRule>
 
 ```
 
@@ -319,7 +319,7 @@ Our example generates the following configuration:
 
 ```
 
-<AccessControlRule Identifier="Administrator_HR_Person_Custom_Workflows_HR_Person" DisplayName_L1="Administrator_HR_Person_Custom_Workflows_HR_Person" EntityType="Workflow_HR_Person" Profile="Administrator">  <Entry CanExecute="true" Permission="/Custom/Workflows/HR_Person_UpdateResources/Request/ActionPending" /></AccessControlRule>
+<AccessControlRule Identifier="Administrator_HR_Person_Custom_Workflows_HR_Person" DisplayName_L1="Administrator_HR_Person_Custom_Workflows_HR_Person" EntityType="Workflow_HR_Person" Profile="Administrator"> <Entry CanExecute="true" Permission="/Custom/Workflows/HR_Person_UpdateResources/Request/ActionPending" /></AccessControlRule>
 
 ```
 
@@ -359,7 +359,7 @@ Our example generates the following configuration:
 
 ```
 
-<AccessControlRule Identifier="Workforce/Self/Self_ResourcesUpdate/ReviewWorkflowDelegate_AccessControlRules_Workflow_Directory_User" DisplayName_L1="Workforce/Self/Update My Permissions (review) - WorkflowDelegate_AccessControl - Workflow for User" DisplayName_L2="Administrator - Droit_Transfert_WorkflowsWorkflow_Directory_User" EntityType="Workflow_Directory_User" Profile="Administrator">  <Entry CanExecute="true" Permission="/Custom/Workflows/Directory_Guest_AdvancedStart/Request/RefinePending" />  <Entry CanExecute="true" Permission="/Custom/Workflows/Directory_Guest_AdvancedStart/Review/RefinePending" />  <Entry CanExecute="true" Permission="/Custom/Workflows/Directory_User_ComputerRequest/Execution/RefinePending" />  <Entry CanExecute="true" Permission="/Custom/Workflows/Directory_User_ComputerRequest/Request/RefinePending" />  <Entry CanExecute="true" Permission="/Custom/Workflows/Directory_User_ComputerRequest/Review/RefinePending" />  <Entry CanExecute="true" Permission="/Custom/Workflows/Directory_User_ManageContracts/Request/RefinePending" />  <Entry CanExecute="true" Permission="/Custom/Workflows/Directory_User_ManagePositions/Request/RefinePending" />  <Entry CanExecute="true" Permission="/Custom/Workflows/Directory_User_MobileRequest/Execution/RefinePending" />  <Entry CanExecute="true" Permission="/Custom/Workflows/Directory_User_MobileRequest/Request/RefinePending" />  <Entry CanExecute="true" Permission="/Custom/Workflows/Directory_User_MobileRequest/Review/RefinePending" />  <Entry CanExecute="true" Permission="/Custom/Workflows/Directory_User_NewExternal/Request/RefinePending" />  <Entry CanExecute="true" Permission="/Custom/Workflows/Directory_User_NewInternal/Request/RefinePending" />  <Entry CanExecute="true" Permission="/Custom/Workflows/Directory_User_NewInternal/Review/RefinePending" />  <Entry CanExecute="true" Permission="/Custom/Workflows/Directory_User_Reactivate/Request/RefinePending" />  <Entry CanExecute="true" Permission="/Custom/Workflows/Directory_User_Suspend/Request/RefinePending" />  <Entry CanExecute="true" Permission="/Custom/Workflows/Directory_User_UpdatePersonalData/Request/RefinePending" />  <Entry CanExecute="true" Permission="/Custom/Workflows/Directory_User_UpdateResources/Request/RefinePending" />  <Entry CanExecute="true" Permission="/Custom/Workflows/Directory_User_VehiculeRequest/Execution/RefinePending" />  <Entry CanExecute="true" Permission="/Custom/Workflows/Directory_User_VehiculeRequest/Request/RefinePending" />  <Entry CanExecute="true" Permission="/Custom/Workflows/Directory_User_VehiculeRequest/Review/RefinePending" />  <Entry CanExecute="true" Permission="/Custom/Workflows/Helpdesk_Directory_User_Delete/Request/RefinePending" />  <Entry CanExecute="true" Permission="/Custom/Workflows/Helpdesk_Directory_User_FixRecord/Request/RefinePending" />  <Entry CanExecute="true" Permission="/Custom/Workflows/Helpdesk_Directory_User_New/Request/RefinePending" />  <Entry CanExecute="true" Permission="/Custom/Workflows/Self_ResourcesUpdate/Review/RefinePending" /></AccessControlRule><AccessControlRule Identifier="Workforce/Self/Self_ResourcesUpdate/ReviewWorkflow_AccessControlRules_Workflow_Directory_User" DisplayName_L1="Workforce/Self/Update My Permissions (review) - Workflow_AccessControl - Workflow for User" DisplayName_L2="Administrator - Droit_Global_WorkflowsWorkflow_Directory_User" EntityType="Workflow_Directory_User" Profile="Administrator">  <Entry CanExecute="true" Permission="/Workflows/UserActivityInstance/Query" />  <Entry CanExecute="true" Permission="/Workflows/WorkflowInstance/Query" /></AccessControlRule><AccessControlRule Identifier="Workforce/Self/Self_ResourcesUpdate/Review_ActivityTemplateState" DisplayName_L1="Workforce/Self/Update My Permissions (review) - Workflow Supervision" DisplayName_L2="Administrator - Supervision des Workflows" EntityType="ActivityTemplateState" Profile="Administrator">  <Entry CanExecute="true" Permission="/Workflows/ActivityTemplateState/Query" /></AccessControlRule><AccessControlRule Identifier="Workforce/Self/Self_ResourcesUpdate/Review_Directory_Application_Workflow_AccessControlRules" DisplayName_L1="Workforce/Self/Update My Permissions (review) - Review Provisioning" DisplayName_L2="Administrator - Revue du Provisioning" EntityType="Directory_Application" Profile="Administrator">  <Entry CanExecute="true" Permission="/Workflows/UserActivityInstance/Query" />  <Entry CanExecute="true" Permission="/Workflows/WorkflowInstance/Query" /></AccessControlRule><AccessControlRule Identifier="Workforce/Self/Self_ResourcesUpdate/Review_Directory_Bot_Workflow_AccessControlRules" DisplayName_L1="Workforce/Self/Update My Permissions (review) - Review Provisioning" DisplayName_L2="Administrator - Revue du Provisioning" EntityType="Directory_Bot" Profile="Administrator">  <Entry CanExecute="true" Permission="/Workflows/UserActivityInstance/Query" />  <Entry CanExecute="true" Permission="/Workflows/WorkflowInstance/Query" /></AccessControlRule><AccessControlRule Identifier="Workforce/Self/Self_ResourcesUpdate/Review_Directory_Guest_Workflow_AccessControlRules" DisplayName_L1="Workforce/Self/Update My Permissions (review) - Review Provisioning" DisplayName_L2="Administrator - Revue du Provisioning" EntityType="Directory_Guest" Profile="Administrator">  <Entry CanExecute="true" Permission="/Workflows/UserActivityInstance/Query" />  <Entry CanExecute="true" Permission="/Workflows/WorkflowInstance/Query" /></AccessControlRule><AccessControlRule Identifier="Workforce/Self/Self_ResourcesUpdate/Review_Directory_Organization_Workflow_AccessControlRules" DisplayName_L1="Workforce/Self/Update My Permissions (review) - Review Provisioning" DisplayName_L2="Administrator - Revue du Provisioning" EntityType="Directory_Organization" Profile="Administrator">  <Entry CanExecute="true" Permission="/Workflows/UserActivityInstance/Query" />  <Entry CanExecute="true" Permission="/Workflows/WorkflowInstance/Query" /></AccessControlRule><AccessControlRule Identifier="Workforce/Self/Self_ResourcesUpdate/Review_Directory_PresenceState_Workflow_AccessControlRules" DisplayName_L1="Workforce/Self/Update My Permissions (review) - Review Provisioning" DisplayName_L2="Administrator - Revue du Provisioning" EntityType="Directory_PresenceState" Profile="Administrator">  <Entry CanExecute="true" Permission="/Workflows/UserActivityInstance/Query" />  <Entry CanExecute="true" Permission="/Workflows/WorkflowInstance/Query" /></AccessControlRule><AccessControlRule Identifier="Workforce/Self/Self_ResourcesUpdate/Review_Directory_UserRecord_Workflow_AccessControlRules" DisplayName_L1="Workforce/Self/Update My Permissions (review) - Review Provisioning" DisplayName_L2="Administrator - Revue du Provisioning" EntityType="Directory_UserRecord" Profile="Administrator">  <Entry CanExecute="true" Permission="/Workflows/UserActivityInstance/Query" />  <Entry CanExecute="true" Permission="/Workflows/WorkflowInstance/Query" /></AccessControlRule><AccessControlRule Identifier="Workforce/Self/Self_ResourcesUpdate/Review_Directory_User_Workflow_AccessControlRules" DisplayName_L1="Workforce/Self/Update My Permissions (review) - Review Provisioning" DisplayName_L2="Administrator - Revue du Provisioning" EntityType="Directory_User" Profile="Administrator">  <Entry CanExecute="true" Permission="/Workflows/UserActivityInstance/Query" />  <Entry CanExecute="true" Permission="/Workflows/WorkflowInstance/Query" /></AccessControlRule><AccessControlRule Identifier="Workforce/Self/Self_ResourcesUpdate/Review_UserActivityInstance_ActivityInstance" DisplayName_L1="Workforce/Self/Update My Permissions (review) - Workflow_AccessControl - " DisplayName_L2="Administrator - Droit_Global_Workflows" EntityType="ActivityInstance" Profile="Administrator">  <Entry CanExecute="true" Permission="/Workflows/UserActivityInstance/Query" /></AccessControlRule><AccessControlRule Identifier="Workforce/Self/Self_ResourcesUpdate/Review_UserActivityInstance_Resource" DisplayName_L1="Workforce/Self/Update My Permissions (review) - Workflow_AccessControl - " DisplayName_L2="Administrator - Droit_Global_Workflows" EntityType="Resource" Profile="Administrator">  <Entry CanExecute="true" Permission="/Workflows/UserActivityInstance/Query" /></AccessControlRule><AccessControlRule Identifier="Workforce/Self/Self_ResourcesUpdate/Review_UserActivityInstance_WorkflowInstance" DisplayName_L1="Workforce/Self/Update My Permissions (review) - Workflow_AccessControl - " DisplayName_L2="Administrator - Droit_Global_Workflows" EntityType="WorkflowInstance" Profile="Administrator">  <Entry CanExecute="true" Permission="/Workflows/UserActivityInstance/Query" /></AccessControlRule><AccessControlRule Identifier="Workforce/Self/Self_ResourcesUpdate/Review_Workflow_Directory_User_Workflow_AccessControlRules" DisplayName_L1="Workforce/Self/Update My Permissions (review) - Review Provisioning" DisplayName_L2="Administrator - Revue du Provisioning" EntityType="Workflow_Directory_User" Profile="Administrator">  <Entry CanExecute="true" Permission="/Workflows/UserActivityInstance/Query" />  <Entry CanExecute="true" Permission="/Workflows/WorkflowInstance/Query" /></AccessControlRule>
+<AccessControlRule Identifier="Workforce/Self/Self_ResourcesUpdate/ReviewWorkflowDelegate_AccessControlRules_Workflow_Directory_User" DisplayName_L1="Workforce/Self/Update My Permissions (review) - WorkflowDelegate_AccessControl - Workflow for User" DisplayName_L2="Administrator - Droit_Transfert_WorkflowsWorkflow_Directory_User" EntityType="Workflow_Directory_User" Profile="Administrator"> <Entry CanExecute="true" Permission="/Custom/Workflows/Directory_Guest_AdvancedStart/Request/RefinePending" /> <Entry CanExecute="true" Permission="/Custom/Workflows/Directory_Guest_AdvancedStart/Review/RefinePending" /> <Entry CanExecute="true" Permission="/Custom/Workflows/Directory_User_ComputerRequest/Execution/RefinePending" /> <Entry CanExecute="true" Permission="/Custom/Workflows/Directory_User_ComputerRequest/Request/RefinePending" /> <Entry CanExecute="true" Permission="/Custom/Workflows/Directory_User_ComputerRequest/Review/RefinePending" /> <Entry CanExecute="true" Permission="/Custom/Workflows/Directory_User_ManageContracts/Request/RefinePending" /> <Entry CanExecute="true" Permission="/Custom/Workflows/Directory_User_ManagePositions/Request/RefinePending" /> <Entry CanExecute="true" Permission="/Custom/Workflows/Directory_User_MobileRequest/Execution/RefinePending" /> <Entry CanExecute="true" Permission="/Custom/Workflows/Directory_User_MobileRequest/Request/RefinePending" /> <Entry CanExecute="true" Permission="/Custom/Workflows/Directory_User_MobileRequest/Review/RefinePending" /> <Entry CanExecute="true" Permission="/Custom/Workflows/Directory_User_NewExternal/Request/RefinePending" /> <Entry CanExecute="true" Permission="/Custom/Workflows/Directory_User_NewInternal/Request/RefinePending" /> <Entry CanExecute="true" Permission="/Custom/Workflows/Directory_User_NewInternal/Review/RefinePending" /> <Entry CanExecute="true" Permission="/Custom/Workflows/Directory_User_Reactivate/Request/RefinePending" /> <Entry CanExecute="true" Permission="/Custom/Workflows/Directory_User_Suspend/Request/RefinePending" /> <Entry CanExecute="true" Permission="/Custom/Workflows/Directory_User_UpdatePersonalData/Request/RefinePending" /> <Entry CanExecute="true" Permission="/Custom/Workflows/Directory_User_UpdateResources/Request/RefinePending" /> <Entry CanExecute="true" Permission="/Custom/Workflows/Directory_User_VehiculeRequest/Execution/RefinePending" /> <Entry CanExecute="true" Permission="/Custom/Workflows/Directory_User_VehiculeRequest/Request/RefinePending" /> <Entry CanExecute="true" Permission="/Custom/Workflows/Directory_User_VehiculeRequest/Review/RefinePending" /> <Entry CanExecute="true" Permission="/Custom/Workflows/Helpdesk_Directory_User_Delete/Request/RefinePending" /> <Entry CanExecute="true" Permission="/Custom/Workflows/Helpdesk_Directory_User_FixRecord/Request/RefinePending" /> <Entry CanExecute="true" Permission="/Custom/Workflows/Helpdesk_Directory_User_New/Request/RefinePending" /> <Entry CanExecute="true" Permission="/Custom/Workflows/Self_ResourcesUpdate/Review/RefinePending" /></AccessControlRule><AccessControlRule Identifier="Workforce/Self/Self_ResourcesUpdate/ReviewWorkflow_AccessControlRules_Workflow_Directory_User" DisplayName_L1="Workforce/Self/Update My Permissions (review) - Workflow_AccessControl - Workflow for User" DisplayName_L2="Administrator - Droit_Global_WorkflowsWorkflow_Directory_User" EntityType="Workflow_Directory_User" Profile="Administrator"> <Entry CanExecute="true" Permission="/Workflows/UserActivityInstance/Query" /> <Entry CanExecute="true" Permission="/Workflows/WorkflowInstance/Query" /></AccessControlRule><AccessControlRule Identifier="Workforce/Self/Self_ResourcesUpdate/Review_ActivityTemplateState" DisplayName_L1="Workforce/Self/Update My Permissions (review) - Workflow Supervision" DisplayName_L2="Administrator - Supervision des Workflows" EntityType="ActivityTemplateState" Profile="Administrator"> <Entry CanExecute="true" Permission="/Workflows/ActivityTemplateState/Query" /></AccessControlRule><AccessControlRule Identifier="Workforce/Self/Self_ResourcesUpdate/Review_Directory_Application_Workflow_AccessControlRules" DisplayName_L1="Workforce/Self/Update My Permissions (review) - Review Provisioning" DisplayName_L2="Administrator - Revue du Provisioning" EntityType="Directory_Application" Profile="Administrator"> <Entry CanExecute="true" Permission="/Workflows/UserActivityInstance/Query" /> <Entry CanExecute="true" Permission="/Workflows/WorkflowInstance/Query" /></AccessControlRule><AccessControlRule Identifier="Workforce/Self/Self_ResourcesUpdate/Review_Directory_Bot_Workflow_AccessControlRules" DisplayName_L1="Workforce/Self/Update My Permissions (review) - Review Provisioning" DisplayName_L2="Administrator - Revue du Provisioning" EntityType="Directory_Bot" Profile="Administrator"> <Entry CanExecute="true" Permission="/Workflows/UserActivityInstance/Query" /> <Entry CanExecute="true" Permission="/Workflows/WorkflowInstance/Query" /></AccessControlRule><AccessControlRule Identifier="Workforce/Self/Self_ResourcesUpdate/Review_Directory_Guest_Workflow_AccessControlRules" DisplayName_L1="Workforce/Self/Update My Permissions (review) - Review Provisioning" DisplayName_L2="Administrator - Revue du Provisioning" EntityType="Directory_Guest" Profile="Administrator"> <Entry CanExecute="true" Permission="/Workflows/UserActivityInstance/Query" /> <Entry CanExecute="true" Permission="/Workflows/WorkflowInstance/Query" /></AccessControlRule><AccessControlRule Identifier="Workforce/Self/Self_ResourcesUpdate/Review_Directory_Organization_Workflow_AccessControlRules" DisplayName_L1="Workforce/Self/Update My Permissions (review) - Review Provisioning" DisplayName_L2="Administrator - Revue du Provisioning" EntityType="Directory_Organization" Profile="Administrator"> <Entry CanExecute="true" Permission="/Workflows/UserActivityInstance/Query" /> <Entry CanExecute="true" Permission="/Workflows/WorkflowInstance/Query" /></AccessControlRule><AccessControlRule Identifier="Workforce/Self/Self_ResourcesUpdate/Review_Directory_PresenceState_Workflow_AccessControlRules" DisplayName_L1="Workforce/Self/Update My Permissions (review) - Review Provisioning" DisplayName_L2="Administrator - Revue du Provisioning" EntityType="Directory_PresenceState" Profile="Administrator"> <Entry CanExecute="true" Permission="/Workflows/UserActivityInstance/Query" /> <Entry CanExecute="true" Permission="/Workflows/WorkflowInstance/Query" /></AccessControlRule><AccessControlRule Identifier="Workforce/Self/Self_ResourcesUpdate/Review_Directory_UserRecord_Workflow_AccessControlRules" DisplayName_L1="Workforce/Self/Update My Permissions (review) - Review Provisioning" DisplayName_L2="Administrator - Revue du Provisioning" EntityType="Directory_UserRecord" Profile="Administrator"> <Entry CanExecute="true" Permission="/Workflows/UserActivityInstance/Query" /> <Entry CanExecute="true" Permission="/Workflows/WorkflowInstance/Query" /></AccessControlRule><AccessControlRule Identifier="Workforce/Self/Self_ResourcesUpdate/Review_Directory_User_Workflow_AccessControlRules" DisplayName_L1="Workforce/Self/Update My Permissions (review) - Review Provisioning" DisplayName_L2="Administrator - Revue du Provisioning" EntityType="Directory_User" Profile="Administrator"> <Entry CanExecute="true" Permission="/Workflows/UserActivityInstance/Query" /> <Entry CanExecute="true" Permission="/Workflows/WorkflowInstance/Query" /></AccessControlRule><AccessControlRule Identifier="Workforce/Self/Self_ResourcesUpdate/Review_UserActivityInstance_ActivityInstance" DisplayName_L1="Workforce/Self/Update My Permissions (review) - Workflow_AccessControl - " DisplayName_L2="Administrator - Droit_Global_Workflows" EntityType="ActivityInstance" Profile="Administrator"> <Entry CanExecute="true" Permission="/Workflows/UserActivityInstance/Query" /></AccessControlRule><AccessControlRule Identifier="Workforce/Self/Self_ResourcesUpdate/Review_UserActivityInstance_Resource" DisplayName_L1="Workforce/Self/Update My Permissions (review) - Workflow_AccessControl - " DisplayName_L2="Administrator - Droit_Global_Workflows" EntityType="Resource" Profile="Administrator"> <Entry CanExecute="true" Permission="/Workflows/UserActivityInstance/Query" /></AccessControlRule><AccessControlRule Identifier="Workforce/Self/Self_ResourcesUpdate/Review_UserActivityInstance_WorkflowInstance" DisplayName_L1="Workforce/Self/Update My Permissions (review) - Workflow_AccessControl - " DisplayName_L2="Administrator - Droit_Global_Workflows" EntityType="WorkflowInstance" Profile="Administrator"> <Entry CanExecute="true" Permission="/Workflows/UserActivityInstance/Query" /></AccessControlRule><AccessControlRule Identifier="Workforce/Self/Self_ResourcesUpdate/Review_Workflow_Directory_User_Workflow_AccessControlRules" DisplayName_L1="Workforce/Self/Update My Permissions (review) - Review Provisioning" DisplayName_L2="Administrator - Revue du Provisioning" EntityType="Workflow_Directory_User" Profile="Administrator"> <Entry CanExecute="true" Permission="/Workflows/UserActivityInstance/Query" /> <Entry CanExecute="true" Permission="/Workflows/WorkflowInstance/Query" /></AccessControlRule>
 
 ```
 
@@ -385,7 +385,7 @@ Our example generates the following configuration:
 
 ```
 
-<AccessControlRule Identifier="Administrator_Workflow_CreateUpdateDelete" DisplayName_L1="Administrator_Workflow" DisplayName_L2="Administrator_Workflow" EntityType="Workflow" Profile="Administrator">  <Entry CanExecute="true" Permission="/Workflows/Workflow/Create" />  <Entry CanExecute="true" Permission="/Workflows/Workflow/Delete" />  <Entry CanExecute="true" Permission="/Workflows/Workflow/Update" /></AccessControlRule>
+<AccessControlRule Identifier="Administrator_Workflow_CreateUpdateDelete" DisplayName_L1="Administrator_Workflow" DisplayName_L2="Administrator_Workflow" EntityType="Workflow" Profile="Administrator"> <Entry CanExecute="true" Permission="/Workflows/Workflow/Create" /> <Entry CanExecute="true" Permission="/Workflows/Workflow/Delete" /> <Entry CanExecute="true" Permission="/Workflows/Workflow/Update" /></AccessControlRule>
 
 ```
 
@@ -418,7 +418,7 @@ Our example generates the following configuration:
 
 ```
 
-<AccessControlRule Identifier="HR_ActivityTemplateState" DisplayName_L1="Main/Administrator - Workflow Supervision" DisplayName_L2="M�tier/RH - Supervision des Workflows" EntityType="ActivityTemplateState" Profile="Administrator">  <Entry CanExecute="true" Permission="/Workflows/ActivityTemplateState/Query" /></AccessControlRule><AccessControlRule Identifier="HR_Directory_Application_Workflows_WorkflowInstance_Supervise" DisplayName_L1="Main/Administrator - Review Provisioning" DisplayName_L2="M�tier/RH - Revue du Provisioning" EntityType="Directory_Application" Profile="Administrator">  <Entry CanExecute="true" Permission="/Workflows/WorkflowInstance/Supervise" /></AccessControlRule><AccessControlRule Identifier="HR_Directory_Bot_Workflows_WorkflowInstance_Supervise" DisplayName_L1="Main/Administrator - Review Provisioning" DisplayName_L2="M�tier/RH - Revue du Provisioning" EntityType="Directory_Bot" Profile="Administrator">  <Entry CanExecute="true" Permission="/Workflows/WorkflowInstance/Supervise" /></AccessControlRule><AccessControlRule Identifier="HR_Directory_Guest_Workflows_WorkflowInstance_Supervise" DisplayName_L1="Main/Administrator - Review Provisioning" DisplayName_L2="M�tier/RH - Revue du Provisioning" EntityType="Directory_Guest" Profile="Administrator">  <Entry CanExecute="true" Permission="/Workflows/WorkflowInstance/Supervise" /></AccessControlRule><AccessControlRule Identifier="HR_Directory_Organization_Workflows_WorkflowInstance_Supervise" DisplayName_L1="Main/Administrator - Review Provisioning" DisplayName_L2="M�tier/RH - Revue du Provisioning" EntityType="Directory_Organization" Profile="Administrator">  <Entry CanExecute="true" Permission="/Workflows/WorkflowInstance/Supervise" /></AccessControlRule><AccessControlRule Identifier="HR_Directory_PresenceState_Workflows_WorkflowInstance_Supervise" DisplayName_L1="Main/Administrator - Review Provisioning" DisplayName_L2="M�tier/RH - Revue du Provisioning" EntityType="Directory_PresenceState" Profile="Administrator">  <Entry CanExecute="true" Permission="/Workflows/WorkflowInstance/Supervise" /></AccessControlRule><AccessControlRule Identifier="HR_Directory_UserRecord_Workflows_WorkflowInstance_Supervise" DisplayName_L1="Main/Administrator - Review Provisioning" DisplayName_L2="M�tier/RH - Revue du Provisioning" EntityType="Directory_UserRecord" Profile="Administrator">  <Entry CanExecute="true" Permission="/Workflows/WorkflowInstance/Supervise" /></AccessControlRule><AccessControlRule Identifier="HR_WorkflowSuperVision_AssignedCompositeRole" DisplayName_L1="Main/Administrator - Workflow SupervisionAssignedCompositeRole" DisplayName_L2="M�tier/RH - Supervision des WorkflowsAssignedCompositeRole" EntityType="AssignedCompositeRole" Profile="Administrator">  <Entry CanExecute="true" Permission="/Workflows/WorkflowInstance/Supervise" /></AccessControlRule><AccessControlRule Identifier="HR_WorkflowSuperVision_AssignedResourceNavigation" DisplayName_L1="Main/Administrator - Workflow SupervisionAssignedResourceNavigation" DisplayName_L2="M�tier/RH - Supervision des WorkflowsAssignedResourceNavigation" EntityType="AssignedResourceNavigation" Profile="Administrator">  <Entry CanExecute="true" Permission="/Workflows/WorkflowInstance/Supervise" /></AccessControlRule><AccessControlRule Identifier="HR_WorkflowSuperVision_AssignedResourceScalar" DisplayName_L1="Main/Administrator - Workflow SupervisionAssignedResourceScalar" DisplayName_L2="M�tier/RH - Supervision des WorkflowsAssignedResourceScalar" EntityType="AssignedResourceScalar" Profile="Administrator">  <Entry CanExecute="true" Permission="/Workflows/WorkflowInstance/Supervise" /></AccessControlRule><AccessControlRule Identifier="HR_WorkflowSuperVision_AssignedResourceType" DisplayName_L1="Main/Administrator - Workflow SupervisionAssignedResourceType" DisplayName_L2="M�tier/RH - Supervision des WorkflowsAssignedResourceType" EntityType="AssignedResourceType" Profile="Administrator">  <Entry CanExecute="true" Permission="/Workflows/WorkflowInstance/Supervise" /></AccessControlRule><AccessControlRule Identifier="HR_WorkflowSuperVision_AssignedSingleRole" DisplayName_L1="Main/Administrator - Workflow SupervisionAssignedSingleRole" DisplayName_L2="M�tier/RH - Supervision des WorkflowsAssignedSingleRole" EntityType="AssignedSingleRole" Profile="Administrator">  <Entry CanExecute="true" Permission="/Workflows/WorkflowInstance/Supervise" /></AccessControlRule><AccessControlRule Identifier="HR_WorkflowSuperVision_Category" DisplayName_L1="Main/Administrator - Workflow SupervisionCategory" DisplayName_L2="M�tier/RH - Supervision des WorkflowsCategory" EntityType="Category" Profile="Administrator">  <Entry CanExecute="true" Permission="/Workflows/WorkflowInstance/Supervise" /></AccessControlRule><AccessControlRule Identifier="HR_WorkflowSuperVision_Workflow_Directory_User" DisplayName_L1="Main/Administrator - Workflow Supervision" DisplayName_L2="M�tier/RH - Supervision des Workflows" EntityType="Workflow_Directory_User" Profile="Administrator">  <Entry CanExecute="true" Permission="/Custom/Workflows/Supervise/Workflow_Directory_User" />  <Entry CanExecute="true" Permission="/Workflows/HistorizedResourceFileByWorkflowInstanceIdQuery/Query" />  <Entry CanExecute="true" Permission="/Workflows/WorkflowInstance/Supervise" /></AccessControlRule><AccessControlRule Identifier="HR_Workflow_Directory_User_Workflows_WorkflowInstance_Supervise" DisplayName_L1="Main/Administrator - Review Provisioning" DisplayName_L2="M�tier/RH - Revue du Provisioning" EntityType="Workflow_Directory_User" Profile="Administrator">  <Entry CanExecute="true" Permission="/Workflows/WorkflowInstance/Supervise" /></AccessControlRule>
+<AccessControlRule Identifier="HR_ActivityTemplateState" DisplayName_L1="Main/Administrator - Workflow Supervision" DisplayName_L2="M�tier/RH - Supervision des Workflows" EntityType="ActivityTemplateState" Profile="Administrator"> <Entry CanExecute="true" Permission="/Workflows/ActivityTemplateState/Query" /></AccessControlRule><AccessControlRule Identifier="HR_Directory_Application_Workflows_WorkflowInstance_Supervise" DisplayName_L1="Main/Administrator - Review Provisioning" DisplayName_L2="M�tier/RH - Revue du Provisioning" EntityType="Directory_Application" Profile="Administrator"> <Entry CanExecute="true" Permission="/Workflows/WorkflowInstance/Supervise" /></AccessControlRule><AccessControlRule Identifier="HR_Directory_Bot_Workflows_WorkflowInstance_Supervise" DisplayName_L1="Main/Administrator - Review Provisioning" DisplayName_L2="M�tier/RH - Revue du Provisioning" EntityType="Directory_Bot" Profile="Administrator"> <Entry CanExecute="true" Permission="/Workflows/WorkflowInstance/Supervise" /></AccessControlRule><AccessControlRule Identifier="HR_Directory_Guest_Workflows_WorkflowInstance_Supervise" DisplayName_L1="Main/Administrator - Review Provisioning" DisplayName_L2="M�tier/RH - Revue du Provisioning" EntityType="Directory_Guest" Profile="Administrator"> <Entry CanExecute="true" Permission="/Workflows/WorkflowInstance/Supervise" /></AccessControlRule><AccessControlRule Identifier="HR_Directory_Organization_Workflows_WorkflowInstance_Supervise" DisplayName_L1="Main/Administrator - Review Provisioning" DisplayName_L2="M�tier/RH - Revue du Provisioning" EntityType="Directory_Organization" Profile="Administrator"> <Entry CanExecute="true" Permission="/Workflows/WorkflowInstance/Supervise" /></AccessControlRule><AccessControlRule Identifier="HR_Directory_PresenceState_Workflows_WorkflowInstance_Supervise" DisplayName_L1="Main/Administrator - Review Provisioning" DisplayName_L2="M�tier/RH - Revue du Provisioning" EntityType="Directory_PresenceState" Profile="Administrator"> <Entry CanExecute="true" Permission="/Workflows/WorkflowInstance/Supervise" /></AccessControlRule><AccessControlRule Identifier="HR_Directory_UserRecord_Workflows_WorkflowInstance_Supervise" DisplayName_L1="Main/Administrator - Review Provisioning" DisplayName_L2="M�tier/RH - Revue du Provisioning" EntityType="Directory_UserRecord" Profile="Administrator"> <Entry CanExecute="true" Permission="/Workflows/WorkflowInstance/Supervise" /></AccessControlRule><AccessControlRule Identifier="HR_WorkflowSuperVision_AssignedCompositeRole" DisplayName_L1="Main/Administrator - Workflow SupervisionAssignedCompositeRole" DisplayName_L2="M�tier/RH - Supervision des WorkflowsAssignedCompositeRole" EntityType="AssignedCompositeRole" Profile="Administrator"> <Entry CanExecute="true" Permission="/Workflows/WorkflowInstance/Supervise" /></AccessControlRule><AccessControlRule Identifier="HR_WorkflowSuperVision_AssignedResourceNavigation" DisplayName_L1="Main/Administrator - Workflow SupervisionAssignedResourceNavigation" DisplayName_L2="M�tier/RH - Supervision des WorkflowsAssignedResourceNavigation" EntityType="AssignedResourceNavigation" Profile="Administrator"> <Entry CanExecute="true" Permission="/Workflows/WorkflowInstance/Supervise" /></AccessControlRule><AccessControlRule Identifier="HR_WorkflowSuperVision_AssignedResourceScalar" DisplayName_L1="Main/Administrator - Workflow SupervisionAssignedResourceScalar" DisplayName_L2="M�tier/RH - Supervision des WorkflowsAssignedResourceScalar" EntityType="AssignedResourceScalar" Profile="Administrator"> <Entry CanExecute="true" Permission="/Workflows/WorkflowInstance/Supervise" /></AccessControlRule><AccessControlRule Identifier="HR_WorkflowSuperVision_AssignedResourceType" DisplayName_L1="Main/Administrator - Workflow SupervisionAssignedResourceType" DisplayName_L2="M�tier/RH - Supervision des WorkflowsAssignedResourceType" EntityType="AssignedResourceType" Profile="Administrator"> <Entry CanExecute="true" Permission="/Workflows/WorkflowInstance/Supervise" /></AccessControlRule><AccessControlRule Identifier="HR_WorkflowSuperVision_AssignedSingleRole" DisplayName_L1="Main/Administrator - Workflow SupervisionAssignedSingleRole" DisplayName_L2="M�tier/RH - Supervision des WorkflowsAssignedSingleRole" EntityType="AssignedSingleRole" Profile="Administrator"> <Entry CanExecute="true" Permission="/Workflows/WorkflowInstance/Supervise" /></AccessControlRule><AccessControlRule Identifier="HR_WorkflowSuperVision_Category" DisplayName_L1="Main/Administrator - Workflow SupervisionCategory" DisplayName_L2="M�tier/RH - Supervision des WorkflowsCategory" EntityType="Category" Profile="Administrator"> <Entry CanExecute="true" Permission="/Workflows/WorkflowInstance/Supervise" /></AccessControlRule><AccessControlRule Identifier="HR_WorkflowSuperVision_Workflow_Directory_User" DisplayName_L1="Main/Administrator - Workflow Supervision" DisplayName_L2="M�tier/RH - Supervision des Workflows" EntityType="Workflow_Directory_User" Profile="Administrator"> <Entry CanExecute="true" Permission="/Custom/Workflows/Supervise/Workflow_Directory_User" /> <Entry CanExecute="true" Permission="/Workflows/HistorizedResourceFileByWorkflowInstanceIdQuery/Query" /> <Entry CanExecute="true" Permission="/Workflows/WorkflowInstance/Supervise" /></AccessControlRule><AccessControlRule Identifier="HR_Workflow_Directory_User_Workflows_WorkflowInstance_Supervise" DisplayName_L1="Main/Administrator - Review Provisioning" DisplayName_L2="M�tier/RH - Revue du Provisioning" EntityType="Workflow_Directory_User" Profile="Administrator"> <Entry CanExecute="true" Permission="/Workflows/WorkflowInstance/Supervise" /></AccessControlRule>
 
 ```
 
@@ -455,7 +455,7 @@ Our example generates the following configuration:
 
 ```
 
-<MenuItem Identifier="Search_Directory_Country" DisplayName_L1="Country" DisplayName_L2="Pays">  <MenuItem Identifier="Search_Directory_Country_Create" DisplayName_L1="New" DisplayName_L2="Cr�er" IconCode="Add" Workflow="Directory_Country_Create" /></MenuItem><MenuItem Identifier="View_Directory_Country" DisplayName_L1="Country" DisplayName_L2="Pays">  <MenuItem Identifier="View_Directory_Country_Update" DisplayName_L1="Update" DisplayName_L2="Modifier" IconCode="Edit" Workflow="Directory_Country_Update" />  <MenuItem Identifier="View_Directory_Country_Delete" DisplayName_L1="Delete" DisplayName_L2="Supprimer" IconCode="Cancel" Workflow="Directory_Country_Delete" /></MenuItem>
+<MenuItem Identifier="Search_Directory_Country" DisplayName_L1="Country" DisplayName_L2="Pays"> <MenuItem Identifier="Search_Directory_Country_Create" DisplayName_L1="New" DisplayName_L2="Cr�er" IconCode="Add" Workflow="Directory_Country_Create" /></MenuItem><MenuItem Identifier="View_Directory_Country" DisplayName_L1="Country" DisplayName_L2="Pays"> <MenuItem Identifier="View_Directory_Country_Update" DisplayName_L1="Update" DisplayName_L2="Modifier" IconCode="Edit" Workflow="Directory_Country_Update" /> <MenuItem Identifier="View_Directory_Country_Delete" DisplayName_L1="Delete" DisplayName_L2="Supprimer" IconCode="Cancel" Workflow="Directory_Country_Delete" /></MenuItem>
 
 ```
 
@@ -481,7 +481,7 @@ Our example generates the following configuration:
 
 ```
 
-<Workflow Identifier="Directory_Country_Create" DisplayName_L1="Country - New" DisplayName_L2="Pays - Cr�er" VariablesType="Workflow_Directory_Country">  <Activity Identifier="Request" DisplayName_L1="Request" DisplayName_L2="Demande" Template="Action" />  <Activity Identifier="Persist" DisplayName_L1="Persist" DisplayName_L2="Enregistrement" Template="Persist" /></Workflow><Workflow Identifier="Directory_Country_Delete" DisplayName_L1="Country - Delete" DisplayName_L2="Pays - Supprimer" VariablesType="Workflow_Directory_Country">  <Activity Identifier="Request" DisplayName_L1="Request" DisplayName_L2="Demande" Template="Action" />  <Activity Identifier="Persist" DisplayName_L1="Persist" DisplayName_L2="Enregistrement" Template="Persist" /></Workflow><Workflow Identifier="Directory_Country_Update" DisplayName_L1="Country - Update" DisplayName_L2="Pays - Modifier" VariablesType="Workflow_Directory_Country">  <Activity Identifier="Request" DisplayName_L1="Request" DisplayName_L2="Demande" Template="Action" />  <Activity Identifier="Persist" DisplayName_L1="Persist" DisplayName_L2="Enregistrement" Template="Persist" /></Workflow>
+<Workflow Identifier="Directory_Country_Create" DisplayName_L1="Country - New" DisplayName_L2="Pays - Cr�er" VariablesType="Workflow_Directory_Country"> <Activity Identifier="Request" DisplayName_L1="Request" DisplayName_L2="Demande" Template="Action" /> <Activity Identifier="Persist" DisplayName_L1="Persist" DisplayName_L2="Enregistrement" Template="Persist" /></Workflow><Workflow Identifier="Directory_Country_Delete" DisplayName_L1="Country - Delete" DisplayName_L2="Pays - Supprimer" VariablesType="Workflow_Directory_Country"> <Activity Identifier="Request" DisplayName_L1="Request" DisplayName_L2="Demande" Template="Action" /> <Activity Identifier="Persist" DisplayName_L1="Persist" DisplayName_L2="Enregistrement" Template="Persist" /></Workflow><Workflow Identifier="Directory_Country_Update" DisplayName_L1="Country - Update" DisplayName_L2="Pays - Modifier" VariablesType="Workflow_Directory_Country"> <Activity Identifier="Request" DisplayName_L1="Request" DisplayName_L2="Demande" Template="Action" /> <Activity Identifier="Persist" DisplayName_L1="Persist" DisplayName_L2="Enregistrement" Template="Persist" /></Workflow>
 
 ```
 
@@ -532,7 +532,7 @@ Our example generates the following configuration:
 
 ```
 
-<MenuItem Identifier="View_HR_Person" DisplayName_L1="HR - User" DisplayName_L2="RH - Collaborateur">  <MenuItem Identifier="View_HR_Person_UpdateResources" DisplayName_L1="Modify Permissions" DisplayName_L2="Demander des droits" IconCode="Edit" Workflow="HR_Person_UpdateResources" /></MenuItem>
+<MenuItem Identifier="View_HR_Person" DisplayName_L1="HR - User" DisplayName_L2="RH - Collaborateur"> <MenuItem Identifier="View_HR_Person_UpdateResources" DisplayName_L1="Modify Permissions" DisplayName_L2="Demander des droits" IconCode="Edit" Workflow="HR_Person_UpdateResources" /></MenuItem>
 
 ```
 
@@ -558,7 +558,7 @@ Our example generates the following configuration:
 
 ```
 
-<Workflow Identifier="HR_Person_UpdateResources" DisplayName_L1="HR - User - Modify Permissions" DisplayName_L2="RH - Collaborateur - Demander des droits" VariablesType="Workflow_HR_Person">  <Activity Identifier="Request" DisplayName_L1="Request" DisplayName_L2="Demande" Template="Action" />  <Activity Identifier="Persist" DisplayName_L1="Persist" DisplayName_L2="Ecriture" Template="Persist" /></Workflow>
+<Workflow Identifier="HR_Person_UpdateResources" DisplayName_L1="HR - User - Modify Permissions" DisplayName_L2="RH - Collaborateur - Demander des droits" VariablesType="Workflow_HR_Person"> <Activity Identifier="Request" DisplayName_L1="Request" DisplayName_L2="Demande" Template="Action" /> <Activity Identifier="Persist" DisplayName_L1="Persist" DisplayName_L2="Ecriture" Template="Persist" /></Workflow>
 
 ```
 
@@ -584,17 +584,17 @@ Our example generates the following configuration:
 
 ```
 
-<NotificationAspect Identifier="ActorsNotification_Directory_User_StartInternal" ExpressionBinding="Workflow_Directory_User:Directory_User" RazorFile_L1="<div><div style="font-family:'Segoe UI','-apple-system','BlinkMacSystemFont','Roboto','Arial',sans-serif; color:#212121; font-size:14px; background:#f8f8f8">  <table border="0" cellpadding="0" cellspacing="0" width="100%">    <tbody>      <tr>        <td class="x_mobile-hide" style="background-color:white; border-bottom:solid #eaeaea 1px">        </td>        <td class="x_content" width="640" style="padding:0px; max-width:640px; background-color:white; border-bottom:solid #eaeaea 1px">          <table border="0" cellpadding="0" cellspacing="0" width="100%">            <tbody>              <tr>                <td style="padding:20px 24px 25px 24px; background:white">                  <table border="0" cellpadding="0" cellspacing="0" width="100%" class="x_responsive-table">                    <tbody>                      <tr>                        <td>                          <table border="0" cellpadding="0" cellspacing="0" class="x_logo" width="100%">                            <tbody>                              <tr>                                <td valign="middle" style="vertical-align:middle">                                  <img data-imagetype="External" src="@(new System.Uri(Html.Context.ApplicationUri, "logo.webp").AbsoluteUri)" height="34" width="133">                                </td>                              </tr>                            </tbody>                          </table>                        </td>                      </tr>                    </tbody>                  </table>                </td>              </tr>              <tr>                <td class="x_hero" style="padding:0px 24px">                  <table border="0" cellpadding="0" cellspacing="0" width="100%" class="x_responsive-table" style="max-width:592px">                    <tbody>                      <tr>                        <td>                          <table width="100%" border="0" cellspacing="0" cellpadding="0">                            <tbody>                              <tr>                                <td>                                  <!-- HEADER START -->                                  <table>                                    <tbody>                                      <tr>                                        <td class="x_title" style="padding:0 0 24px 0; color:#212121; font-size:28px; font-weight:bold; letter-spacing:-0.04em; line-height:40px; word-break:break-word">                                          @(Html.Context.MessageSubject ?? "Request summary")
-                                        </td>                                      </tr>                                      <tr>                                        <td class="x_message" style="padding:0 0 24px 0">                                          <div>                                            <p>Hello,</p>                                            <p>You have a new pending item that requires your attention</p>                                          </div>                                        </td>                                      </tr>                                      <tr>                                        <td style="padding:0 0 24px 0">                                          <table width="100%" border="0" cellspacing="0" cellpadding="0">                                            <tbody>                                              <tr>                                                <td>                                                  <table border="0" cellspacing="0" cellpadding="0">                                                    <tbody>                                                      <tr>                                                        <td align="center" bgcolor="#007acc" style="padding:8px 12px; border-radius:2px">                                                          <a href="@(new System.Uri(Html.Context.ApplicationUri, $"workflow-management/review/{Html.Context.WorkflowInstanceIdentifier}").AbsoluteUri)" target="_blank" rel="noopener noreferrer" data-auth="NotApplicable" class="x_mobile-button x_btn-primary" style="font-weight:500; font-size:14px; text-decoration:none; padding:0px; display:inline-block; color:#ffffff">                                                          View task
-                                                          </a>                                                        </td>                                                      </tr>                                                    </tbody>                                                  </table>                                                </td>                                              </tr>                                            </tbody>                                          </table>                                        </td>                                      </tr>                                    </tbody>                                  </table>                                  <!-- HEADER END -->                                </td>                              </tr>                            </tbody>                          </table>                        </td>                      </tr>                    </tbody>                  </table>                </td>              </tr>            </tbody>          </table>        </td>        <td class="x_mobile-hide" style="background-color:white; border-bottom:solid #eaeaea 1px">        </td>      </tr>      <tr>        <td class="x_mobile-hide" style="background:#f8f8f8"></td>        <td class="x_content" width="640" style="padding:0px; max-width:640px; background:#f8f8f8">          <table border="0" cellpadding="0" cellspacing="0" width="100%">            <tbody>              <tr>                <td style="padding:24px 24px 8px 24px; max-width:592px">                  <table border="0" width="100%" cellpadding="0" cellspacing="0" class="x_responsive-table" style="vertical-align:middle; background-color:white">                    <tbody>                      <tr>                        <td style="padding:16px 24px 24px 24px">                          @Html.WorkflowSummary(string.Empty, Model.InternalDisplayName)
+<NotificationAspect Identifier="ActorsNotification_Directory_User_StartInternal" ExpressionBinding="Workflow_Directory_User:Directory_User" RazorFile_L1="<div><div style="font-family:'Segoe UI','-apple-system','BlinkMacSystemFont','Roboto','Arial',sans-serif; color:#212121; font-size:14px; background:#f8f8f8"> <table border="0" cellpadding="0" cellspacing="0" width="100%"> <tbody> <tr> <td class="x_mobile-hide" style="background-color:white; border-bottom:solid #eaeaea 1px"> </td> <td class="x_content" width="640" style="padding:0px; max-width:640px; background-color:white; border-bottom:solid #eaeaea 1px"> <table border="0" cellpadding="0" cellspacing="0" width="100%"> <tbody> <tr> <td style="padding:20px 24px 25px 24px; background:white"> <table border="0" cellpadding="0" cellspacing="0" width="100%" class="x_responsive-table"> <tbody> <tr> <td> <table border="0" cellpadding="0" cellspacing="0" class="x_logo" width="100%"> <tbody> <tr> <td valign="middle" style="vertical-align:middle"> <img data-imagetype="External" src="@(new System.Uri(Html.Context.ApplicationUri, "logo.webp").AbsoluteUri)" height="34" width="133"> </td> </tr> </tbody> </table> </td> </tr> </tbody> </table> </td> </tr> <tr> <td class="x_hero" style="padding:0px 24px"> <table border="0" cellpadding="0" cellspacing="0" width="100%" class="x_responsive-table" style="max-width:592px"> <tbody> <tr> <td> <table width="100%" border="0" cellspacing="0" cellpadding="0"> <tbody> <tr> <td> <!-- HEADER START --> <table> <tbody> <tr> <td class="x_title" style="padding:0 0 24px 0; color:#212121; font-size:28px; font-weight:bold; letter-spacing:-0.04em; line-height:40px; word-break:break-word"> @(Html.Context.MessageSubject ?? "Request summary")
+                                        </td> </tr> <tr> <td class="x_message" style="padding:0 0 24px 0"> <div> <p>Hello,</p> <p>You have a new pending item that requires your attention</p> </div> </td> </tr> <tr> <td style="padding:0 0 24px 0"> <table width="100%" border="0" cellspacing="0" cellpadding="0"> <tbody> <tr> <td> <table border="0" cellspacing="0" cellpadding="0"> <tbody> <tr> <td align="center" bgcolor="#007acc" style="padding:8px 12px; border-radius:2px"> <a href="@(new System.Uri(Html.Context.ApplicationUri, $"workflow-management/review/{Html.Context.WorkflowInstanceIdentifier}").AbsoluteUri)" target="_blank" rel="noopener noreferrer" data-auth="NotApplicable" class="x_mobile-button x_btn-primary" style="font-weight:500; font-size:14px; text-decoration:none; padding:0px; display:inline-block; color:#ffffff"> View task
+                                                          </a> </td> </tr> </tbody> </table> </td> </tr> </tbody> </table> </td> </tr> </tbody> </table> <!-- HEADER END --> </td> </tr> </tbody> </table> </td> </tr> </tbody> </table> </td> </tr> </tbody> </table> </td> <td class="x_mobile-hide" style="background-color:white; border-bottom:solid #eaeaea 1px"> </td> </tr> <tr> <td class="x_mobile-hide" style="background:#f8f8f8"></td> <td class="x_content" width="640" style="padding:0px; max-width:640px; background:#f8f8f8"> <table border="0" cellpadding="0" cellspacing="0" width="100%"> <tbody> <tr> <td style="padding:24px 24px 8px 24px; max-width:592px"> <table border="0" width="100%" cellpadding="0" cellspacing="0" class="x_responsive-table" style="vertical-align:middle; background-color:white"> <tbody> <tr> <td style="padding:16px 24px 24px 24px"> @Html.WorkflowSummary(string.Empty, Model.InternalDisplayName)
                           @Html.MessageBody(new { style = "box-sizing: border-box; color: #74787E; font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;" })
-                        </td>                      </tr>                    </tbody>                  </table>                </td>              </tr>              <tr>                <td style="padding:24px 24px 24px 24px">                  <table border="0" cellpadding="0" cellspacing="0" width="100%" class="x_responsive-table">                    <tbody>                      <tr>                        <td style="color:#666666; font-size:12px; line-height:18px">                          This email is automatically generated by usercube. Please do not reply.
-                        </td>                      </tr>                    </tbody>                  </table>                </td>              </tr>            </tbody>          </table>        </td>        <td class="x_mobile-hide" style="background:#f8f8f8"></td>      </tr>    </tbody>  </table></div></div>" RazorFile_L2="<div><div style="font-family:'Segoe UI','-apple-system','BlinkMacSystemFont','Roboto','Arial',sans-serif; color:#212121; font-size:14px; background:#f8f8f8">  <table border="0" cellpadding="0" cellspacing="0" width="100%">    <tbody>      <tr>        <td class="x_mobile-hide" style="background-color:white; border-bottom:solid #eaeaea 1px">        </td>        <td class="x_content" width="640" style="padding:0px; max-width:640px; background-color:white; border-bottom:solid #eaeaea 1px">          <table border="0" cellpadding="0" cellspacing="0" width="100%">            <tbody>              <tr>                <td style="padding:20px 24px 25px 24px; background:white">                  <table border="0" cellpadding="0" cellspacing="0" width="100%" class="x_responsive-table">                    <tbody>                      <tr>                        <td>                          <table border="0" cellpadding="0" cellspacing="0" class="x_logo" width="100%">                            <tbody>                              <tr>                                <td valign="middle" style="vertical-align:middle">                                  <img data-imagetype="External" src="@(new System.Uri(Html.Context.ApplicationUri, "logo.webp").AbsoluteUri)" height="34" width="133">                                </td>                              </tr>                            </tbody>                          </table>                        </td>                      </tr>                    </tbody>                  </table>                </td>              </tr>              <tr>                <td class="x_hero" style="padding:0px 24px">                  <table border="0" cellpadding="0" cellspacing="0" width="100%" class="x_responsive-table" style="max-width:592px">                    <tbody>                      <tr>                        <td>                          <table width="100%" border="0" cellspacing="0" cellpadding="0">                            <tbody>                              <tr>                                <td>                                  <!-- HEADER START -->                                  <table>                                    <tbody>                                      <tr>                                        <td class="x_title" style="padding:0 0 24px 0; color:#212121; font-size:28px; font-weight:bold; letter-spacing:-0.04em; line-height:40px; word-break:break-word">                                          @(Html.Context.MessageSubject ?? "R�sum� de la demande")
-                                        </td>                                      </tr>                                      <tr>                                        <td class="x_message" style="padding:0 0 24px 0">                                          <div>                                            <p>Bonjour,</p>                                            <p>Vous avez un nouvel �l�ment en attente qui n�cessite votre attention</p>                                          </div>                                        </td>                                      </tr>                                      <tr>                                        <td style="padding:0 0 24px 0">                                          <table width="100%" border="0" cellspacing="0" cellpadding="0">                                            <tbody>                                              <tr>                                                <td>                                                  <table border="0" cellspacing="0" cellpadding="0">                                                    <tbody>                                                      <tr>                                                        <td align="center" bgcolor="#007acc" style="padding:8px 12px; border-radius:2px">                                                          <a href="@(new System.Uri(Html.Context.ApplicationUri, $"workflow-management/review/{Html.Context.WorkflowInstanceIdentifier}").AbsoluteUri)" target="_blank" rel="noopener noreferrer" data-auth="NotApplicable" class="x_mobile-button x_btn-primary" style="font-weight:500; font-size:14px; text-decoration:none; padding:0px; display:inline-block; color:#ffffff">                                                          Consulter la t�che
-                                                          </a>                                                        </td>                                                      </tr>                                                    </tbody>                                                  </table>                                                </td>                                              </tr>                                            </tbody>                                          </table>                                        </td>                                      </tr>                                    </tbody>                                  </table>                                  <!-- HEADER END -->                                </td>                              </tr>                            </tbody>                          </table>                        </td>                      </tr>                    </tbody>                  </table>                </td>              </tr>            </tbody>          </table>        </td>        <td class="x_mobile-hide" style="background-color:white; border-bottom:solid #eaeaea 1px">        </td>      </tr>      <tr>        <td class="x_mobile-hide" style="background:#f8f8f8"></td>        <td class="x_content" width="640" style="padding:0px; max-width:640px; background:#f8f8f8">          <table border="0" cellpadding="0" cellspacing="0" width="100%">            <tbody>              <tr>                <td style="padding:24px 24px 8px 24px; max-width:592px">                  <table border="0" width="100%" cellpadding="0" cellspacing="0" class="x_responsive-table" style="vertical-align:middle; background-color:white">                    <tbody>                      <tr>                        <td style="padding:16px 24px 24px 24px">                          @Html.WorkflowSummaryFR(string.Empty, Model.InternalDisplayName)
+                        </td> </tr> </tbody> </table> </td> </tr> <tr> <td style="padding:24px 24px 24px 24px"> <table border="0" cellpadding="0" cellspacing="0" width="100%" class="x_responsive-table"> <tbody> <tr> <td style="color:#666666; font-size:12px; line-height:18px"> This email is automatically generated by usercube. Please do not reply.
+                        </td> </tr> </tbody> </table> </td> </tr> </tbody> </table> </td> <td class="x_mobile-hide" style="background:#f8f8f8"></td> </tr> </tbody> </table></div></div>" RazorFile_L2="<div><div style="font-family:'Segoe UI','-apple-system','BlinkMacSystemFont','Roboto','Arial',sans-serif; color:#212121; font-size:14px; background:#f8f8f8"> <table border="0" cellpadding="0" cellspacing="0" width="100%"> <tbody> <tr> <td class="x_mobile-hide" style="background-color:white; border-bottom:solid #eaeaea 1px"> </td> <td class="x_content" width="640" style="padding:0px; max-width:640px; background-color:white; border-bottom:solid #eaeaea 1px"> <table border="0" cellpadding="0" cellspacing="0" width="100%"> <tbody> <tr> <td style="padding:20px 24px 25px 24px; background:white"> <table border="0" cellpadding="0" cellspacing="0" width="100%" class="x_responsive-table"> <tbody> <tr> <td> <table border="0" cellpadding="0" cellspacing="0" class="x_logo" width="100%"> <tbody> <tr> <td valign="middle" style="vertical-align:middle"> <img data-imagetype="External" src="@(new System.Uri(Html.Context.ApplicationUri, "logo.webp").AbsoluteUri)" height="34" width="133"> </td> </tr> </tbody> </table> </td> </tr> </tbody> </table> </td> </tr> <tr> <td class="x_hero" style="padding:0px 24px"> <table border="0" cellpadding="0" cellspacing="0" width="100%" class="x_responsive-table" style="max-width:592px"> <tbody> <tr> <td> <table width="100%" border="0" cellspacing="0" cellpadding="0"> <tbody> <tr> <td> <!-- HEADER START --> <table> <tbody> <tr> <td class="x_title" style="padding:0 0 24px 0; color:#212121; font-size:28px; font-weight:bold; letter-spacing:-0.04em; line-height:40px; word-break:break-word"> @(Html.Context.MessageSubject ?? "R�sum� de la demande")
+                                        </td> </tr> <tr> <td class="x_message" style="padding:0 0 24px 0"> <div> <p>Bonjour,</p> <p>Vous avez un nouvel �l�ment en attente qui n�cessite votre attention</p> </div> </td> </tr> <tr> <td style="padding:0 0 24px 0"> <table width="100%" border="0" cellspacing="0" cellpadding="0"> <tbody> <tr> <td> <table border="0" cellspacing="0" cellpadding="0"> <tbody> <tr> <td align="center" bgcolor="#007acc" style="padding:8px 12px; border-radius:2px"> <a href="@(new System.Uri(Html.Context.ApplicationUri, $"workflow-management/review/{Html.Context.WorkflowInstanceIdentifier}").AbsoluteUri)" target="_blank" rel="noopener noreferrer" data-auth="NotApplicable" class="x_mobile-button x_btn-primary" style="font-weight:500; font-size:14px; text-decoration:none; padding:0px; display:inline-block; color:#ffffff"> Consulter la t�che
+                                                          </a> </td> </tr> </tbody> </table> </td> </tr> </tbody> </table> </td> </tr> </tbody> </table> <!-- HEADER END --> </td> </tr> </tbody> </table> </td> </tr> </tbody> </table> </td> </tr> </tbody> </table> </td> <td class="x_mobile-hide" style="background-color:white; border-bottom:solid #eaeaea 1px"> </td> </tr> <tr> <td class="x_mobile-hide" style="background:#f8f8f8"></td> <td class="x_content" width="640" style="padding:0px; max-width:640px; background:#f8f8f8"> <table border="0" cellpadding="0" cellspacing="0" width="100%"> <tbody> <tr> <td style="padding:24px 24px 8px 24px; max-width:592px"> <table border="0" width="100%" cellpadding="0" cellspacing="0" class="x_responsive-table" style="vertical-align:middle; background-color:white"> <tbody> <tr> <td style="padding:16px 24px 24px 24px"> @Html.WorkflowSummaryFR(string.Empty, Model.InternalDisplayName)
                           @Html.MessageBody(new { style = "box-sizing: border-box; color: #74787E; font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;" })
-                        </td>                      </tr>                    </tbody>                  </table>                </td>              </tr>              <tr>                <td style="padding:24px 24px 24px 24px">                  <table border="0" cellpadding="0" cellspacing="0" width="100%" class="x_responsive-table">                    <tbody>                      <tr>                        <td style="color:#666666; font-size:12px; line-height:18px">                          This email is automatically generated by usercube. Please do not reply.
-                        </td>                      </tr>                    </tbody>                  </table>                </td>              </tr>            </tbody>          </table>        </td>        <td class="x_mobile-hide" style="background:#f8f8f8"></td>      </tr>    </tbody>  </table></div></div>" CssFile="@media only screen and (max-width: 620px) {
+                        </td> </tr> </tbody> </table> </td> </tr> <tr> <td style="padding:24px 24px 24px 24px"> <table border="0" cellpadding="0" cellspacing="0" width="100%" class="x_responsive-table"> <tbody> <tr> <td style="color:#666666; font-size:12px; line-height:18px"> This email is automatically generated by usercube. Please do not reply.
+                        </td> </tr> </tbody> </table> </td> </tr> </tbody> </table> </td> <td class="x_mobile-hide" style="background:#f8f8f8"></td> </tr> </tbody> </table></div></div>" CssFile="@media only screen and (max-width: 620px) {
   table[class=body] h1 {
       font-size: 28px !important;
       margin-bottom: 10px !important;
@@ -690,7 +690,7 @@ body {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
 }
-">  <PointCut Activity="Directory_User_StartInternal:Request" ActivityState="ActionWithRefine-Executed" />  <Recipient Type="Actor" /></NotificationAspect>
+"> <PointCut Activity="Directory_User_StartInternal:Request" ActivityState="ActionWithRefine-Executed" /> <Recipient Type="Actor" /></NotificationAspect>
 
 ```
 
@@ -719,7 +719,7 @@ Our example generates the following configuration:
 
 ```
 
-<EntityType Identifier="Directory_Country" DisplayName_L1="Country" DisplayName_L2="Pays">  <Property Identifier="Workflows" DisplayName_L1="Workflows" DisplayName_L2="Workflows" Type="ForeignKey" /></EntityType><EntityType Identifier="Workflow_Directory_Country" DisplayName_L1="Workflow for Country" DisplayName_L2="Pays">  <Property Identifier="Directory_Country" DisplayName_L1="Country" DisplayName_L10="Country" DisplayName_L11="Country" DisplayName_L12="Country" DisplayName_L13="Country" DisplayName_L14="Country" DisplayName_L15="Country" DisplayName_L16="Country" DisplayName_L2="Pays" DisplayName_L3="Country" DisplayName_L4="Country" DisplayName_L5="Country" DisplayName_L6="Country" DisplayName_L7="Country" DisplayName_L8="Country" DisplayName_L9="Country" TargetColumnIndex="128" Type="ForeignKey" /></EntityType><EntityAssociation Identifier="Workflow_Directory_Country_Directory_Country" IsProperty2Collection="true" Property1="Workflow_Directory_Country:Directory_Country" Property2="Directory_Country:Workflows" /><WorkflowEntityTypeDisplayEntityType Id="29" EntityType="Directory_Country" />
+<EntityType Identifier="Directory_Country" DisplayName_L1="Country" DisplayName_L2="Pays"> <Property Identifier="Workflows" DisplayName_L1="Workflows" DisplayName_L2="Workflows" Type="ForeignKey" /></EntityType><EntityType Identifier="Workflow_Directory_Country" DisplayName_L1="Workflow for Country" DisplayName_L2="Pays"> <Property Identifier="Directory_Country" DisplayName_L1="Country" DisplayName_L10="Country" DisplayName_L11="Country" DisplayName_L12="Country" DisplayName_L13="Country" DisplayName_L14="Country" DisplayName_L15="Country" DisplayName_L16="Country" DisplayName_L2="Pays" DisplayName_L3="Country" DisplayName_L4="Country" DisplayName_L5="Country" DisplayName_L6="Country" DisplayName_L7="Country" DisplayName_L8="Country" DisplayName_L9="Country" TargetColumnIndex="128" Type="ForeignKey" /></EntityType><EntityAssociation Identifier="Workflow_Directory_Country_Directory_Country" IsProperty2Collection="true" Property1="Workflow_Directory_Country:Directory_Country" Property2="Directory_Country:Workflows" /><WorkflowEntityTypeDisplayEntityType Id="29" EntityType="Directory_Country" />
 
 ```
 
@@ -776,7 +776,7 @@ Our example generates the following configuration:
 
 ```
 
-<Tile Identifier="Workflow_Directory_User_Tile1" DisplayName_L1="User: first/last name" EntityType="Workflow_Directory_User" TileDesignElement="picture-text">  <Item Binding="Directory_User.MainRecord.FirstName" LineDisplayOrderIndicator="1" LineNumber="2" />  <Item Binding="Directory_User.MainRecord.LastName" LineDisplayOrderIndicator="2" LineNumber="2" />  <Item Binding="Directory_User.MainRecord.Title.DisplayName" LineNumber="3" />  <Item Binding="Directory_User.Id" LineNumber="5" />  <Item Binding="Directory_User.PhotoTag" LineNumber="6" /></Tile><Tile Identifier="Workflow_Directory_User_Tile2" DisplayName_L1="User: dep/loc" EntityType="Workflow_Directory_User" TileDesignElement="inline data-icon">  <Item Binding="Directory_User.MainRecord.Organization.DisplayName" LineNumber="1" />  <Item Binding="Directory_User.MainRecord.Site.DisplayName" LineNumber="2" /></Tile><DisplayTable Identifier="Workflow_Directory_User" DisplayTableDesignElement="list" EntityType="Workflow_Directory_User" IsEntityTypeDefault="true">  <Column ColumnSize="6" DefaultSortPriority="1" IsDisplayInSummaryView="true" SortBinding="Directory_User.MainRecord.LastName" Tile="Workflow_Directory_User_Tile1" />  <Column ColumnSize="3" IsDisplayInSummaryView="true" SortBinding="Directory_User.MainRecord.FirstName" Tile="Workflow_Directory_User_Tile2" /></DisplayTable>
+<Tile Identifier="Workflow_Directory_User_Tile1" DisplayName_L1="User: first/last name" EntityType="Workflow_Directory_User" TileDesignElement="picture-text"> <Item Binding="Directory_User.MainRecord.FirstName" LineDisplayOrderIndicator="1" LineNumber="2" /> <Item Binding="Directory_User.MainRecord.LastName" LineDisplayOrderIndicator="2" LineNumber="2" /> <Item Binding="Directory_User.MainRecord.Title.DisplayName" LineNumber="3" /> <Item Binding="Directory_User.Id" LineNumber="5" /> <Item Binding="Directory_User.PhotoTag" LineNumber="6" /></Tile><Tile Identifier="Workflow_Directory_User_Tile2" DisplayName_L1="User: dep/loc" EntityType="Workflow_Directory_User" TileDesignElement="inline data-icon"> <Item Binding="Directory_User.MainRecord.Organization.DisplayName" LineNumber="1" /> <Item Binding="Directory_User.MainRecord.Site.DisplayName" LineNumber="2" /></Tile><DisplayTable Identifier="Workflow_Directory_User" DisplayTableDesignElement="list" EntityType="Workflow_Directory_User" IsEntityTypeDefault="true"> <Column ColumnSize="6" DefaultSortPriority="1" IsDisplayInSummaryView="true" SortBinding="Directory_User.MainRecord.LastName" Tile="Workflow_Directory_User_Tile1" /> <Column ColumnSize="3" IsDisplayInSummaryView="true" SortBinding="Directory_User.MainRecord.FirstName" Tile="Workflow_Directory_User_Tile2" /></DisplayTable>
 
 ```
 
@@ -807,7 +807,7 @@ Our example generates the following configuration:
 
 ```
 
-<SearchBar EntityType="Workflow_Directory_User" SearchBarDesignElement="Inline">  <Criterion Binding1="Directory_User.Identifier" ColumnSize="2" InputType="Auto" PlaceHolderText_L1="Identifier" PlaceHolderText_L2="Identifier" />  <Criterion Binding1="Directory_User.PhoneticFirstLastName" Binding2="Directory_User.PhoneticLastFirstName" Binding3="Directory_User.MainRecord.LastName" ColumnSize="2" InputType="Auto" Operator="FlexibleStartWith" PlaceHolderText_L1="Name" PlaceHolderText_L2="Nom" />  <Criterion Binding1="Directory_User.MainRecord.Organization" ColumnSize="2" InputType="Auto" PlaceHolderText_L1="Department" PlaceHolderText_L2="D�partement" />  <Criterion Binding1="Directory_User.PresenceState" ColumnSize="2" DefaultValue="-101;-102" InputType="ComboboxMultiSelection" Operator="Equal" />  <Criterion Binding1="Directory_User.MainRecord.Site" ColumnSize="2" InputType="Auto" IsVisibleInAdvancedView="true" PlaceHolderText_L1="Site" PlaceHolderText_L2="Site" />  <Criterion Binding1="Directory_User.MainRecord.Subsidiary" ColumnSize="2" InputType="Auto" IsVisibleInAdvancedView="true" PlaceHolderText_L1="Subsidiary" PlaceHolderText_L2="Filiale" />  <Criterion Binding1="Directory_User.MainRecord.Title" ColumnSize="2" InputType="Auto" IsVisibleInAdvancedView="true" PlaceHolderText_L1="Title" PlaceHolderText_L2="Fonction" />  <Criterion Binding1="Directory_User.MainRecord.UserType" ColumnSize="2" InputType="Auto" IsVisibleInAdvancedView="true" PlaceHolderText_L1="User Type" PlaceHolderText_L2="Type de collaborateur" /></SearchBar>
+<SearchBar EntityType="Workflow_Directory_User" SearchBarDesignElement="Inline"> <Criterion Binding1="Directory_User.Identifier" ColumnSize="2" InputType="Auto" PlaceHolderText_L1="Identifier" PlaceHolderText_L2="Identifier" /> <Criterion Binding1="Directory_User.PhoneticFirstLastName" Binding2="Directory_User.PhoneticLastFirstName" Binding3="Directory_User.MainRecord.LastName" ColumnSize="2" InputType="Auto" Operator="FlexibleStartWith" PlaceHolderText_L1="Name" PlaceHolderText_L2="Nom" /> <Criterion Binding1="Directory_User.MainRecord.Organization" ColumnSize="2" InputType="Auto" PlaceHolderText_L1="Department" PlaceHolderText_L2="D�partement" /> <Criterion Binding1="Directory_User.PresenceState" ColumnSize="2" DefaultValue="-101;-102" InputType="ComboboxMultiSelection" Operator="Equal" /> <Criterion Binding1="Directory_User.MainRecord.Site" ColumnSize="2" InputType="Auto" IsVisibleInAdvancedView="true" PlaceHolderText_L1="Site" PlaceHolderText_L2="Site" /> <Criterion Binding1="Directory_User.MainRecord.Subsidiary" ColumnSize="2" InputType="Auto" IsVisibleInAdvancedView="true" PlaceHolderText_L1="Subsidiary" PlaceHolderText_L2="Filiale" /> <Criterion Binding1="Directory_User.MainRecord.Title" ColumnSize="2" InputType="Auto" IsVisibleInAdvancedView="true" PlaceHolderText_L1="Title" PlaceHolderText_L2="Fonction" /> <Criterion Binding1="Directory_User.MainRecord.UserType" ColumnSize="2" InputType="Auto" IsVisibleInAdvancedView="true" PlaceHolderText_L1="User Type" PlaceHolderText_L2="Type de collaborateur" /></SearchBar>
 
 ```
 
@@ -833,15 +833,15 @@ Our example generates the following configuration:
 
 ```
 
-<NotificationAspect Identifier="PerformerNotification_Directory_User_ChangeName" ExpressionBinding="Workflow_Directory_User:Directory_User" RazorFile_L1="<div>  <div style="font-family:'Segoe UI','-apple-system','BlinkMacSystemFont','Roboto','Arial',sans-serif; color:#212121; font-size:14px; background:#f8f8f8">    <table border="0" cellpadding="0" cellspacing="0" width="100%">      <tbody>        <tr>          <td class="x_mobile-hide" style="background-color:white; border-bottom:solid #eaeaea 1px">          </td>          <td class="x_content" width="640" style="padding:0px; max-width:640px; background-color:white; border-bottom:solid #eaeaea 1px">            <table border="0" cellpadding="0" cellspacing="0" width="100%">              <tbody>                <tr>                  <td style="padding:20px 24px 25px 24px; background:white">                    <table border="0" cellpadding="0" cellspacing="0" width="100%" class="x_responsive-table">                      <tbody>                        <tr>                          <td>                            <table border="0" cellpadding="0" cellspacing="0" class="x_logo" width="100%">                              <tbody>                                <tr>                                  <td valign="middle" style="vertical-align:middle">                                    <img data-imagetype="External" src="@(new System.Uri(Html.Context.ApplicationUri, "logo.webp").AbsoluteUri)" height="34" width="133">                                  </td>                                </tr>                              </tbody>                            </table>                          </td>                        </tr>                      </tbody>                    </table>                  </td>                </tr>                <tr>                  <td class="x_hero" style="padding:0px 24px">                    <table border="0" cellpadding="0" cellspacing="0" width="100%" class="x_responsive-table" style="max-width:592px">                      <tbody>                        <tr>                          <td>                            <table width="100%" border="0" cellspacing="0" cellpadding="0">                              <tbody>                                <tr>                                  <td>                                    <!-- HEADER START -->                                    <table>                                      <tbody>                                        <tr>                                          <td class="x_title" style="padding:0 0 24px 0; color:#212121; font-size:28px; font-weight:bold; letter-spacing:-0.04em; line-height:40px; word-break:break-word">                                            @(Html.Context.MessageSubject ?? "Request summary")
-                                          </td>                                        </tr>                                        <tr>                                          <td class="x_message" style="padding:0 0 24px 0">                                            <div>                                              <p>Hello,</p>                                              <p>Your request has been taken into account</p>                                            </div>                                          </td>                                        </tr>                                        <tr>                                          <td style="padding:0 0 24px 0">                                            <table width="100%" border="0" cellspacing="0" cellpadding="0">                                              <tbody>                                                <tr>                                                  <td>                                                    <table border="0" cellspacing="0" cellpadding="0">                                                      <tbody>                                                        <tr>                                                          <td align="center" bgcolor="#007acc" style="padding:8px 12px; border-radius:2px">                                                            <a href="@(Html.Context.ApplicationUri.AbsoluteUri)" target="_blank" rel="noopener noreferrer" data-auth="NotApplicable" class="x_mobile-button x_btn-primary" style="font-weight:500; font-size:14px; text-decoration:none; padding:0px; display:inline-block; color:#ffffff">                                                              Connect to Usercube
-                                                            </a>                                                          </td>                                                        </tr>                                                      </tbody>                                                    </table>                                                  </td>                                                </tr>                                              </tbody>                                            </table>                                          </td>                                        </tr>                                      </tbody>                                    </table>                                    <!-- HEADER END -->                                  </td>                                </tr>                              </tbody>                            </table>                          </td>                        </tr>                      </tbody>                    </table>                  </td>                </tr>              </tbody>            </table>          </td>          <td class="x_mobile-hide" style="background-color:white; border-bottom:solid #eaeaea 1px">          </td>        </tr>        <tr>          <td class="x_mobile-hide" style="background:#f8f8f8"></td>          <td class="x_content" width="640" style="padding:0px; max-width:640px; background:#f8f8f8">            <table border="0" cellpadding="0" cellspacing="0" width="100%">              <tbody>                <tr>                  <td style="padding:24px 24px 8px 24px; max-width:592px">                    <table border="0" width="100%" cellpadding="0" cellspacing="0" class="x_responsive-table" style="vertical-align:middle; background-color:white">                      <tbody>                        <tr>                          <td style="padding:16px 24px 24px 24px">                            @Html.WorkflowSummary(string.Empty, Model.InternalDisplayName)
-                          </td>                        </tr>                      </tbody>                    </table>                  </td>                </tr>                <tr>                  <td style="padding:24px 24px 24px 24px">                    <table border="0" cellpadding="0" cellspacing="0" width="100%" class="x_responsive-table">                      <tbody>                        <tr>                          <td style="color:#666666; font-size:12px; line-height:18px">                            This email is automatically generated by usercube. Please do not reply.
-                          </td>                        </tr>                      </tbody>                    </table>                  </td>                </tr>              </tbody>            </table>          </td>          <td class="x_mobile-hide" style="background:#f8f8f8"></td>        </tr>      </tbody>    </table>  </div></div>" RazorFile_L2="<div>  <div style="font-family:'Segoe UI','-apple-system','BlinkMacSystemFont','Roboto','Arial',sans-serif; color:#212121; font-size:14px; background:#f8f8f8">    <table border="0" cellpadding="0" cellspacing="0" width="100%">      <tbody>        <tr>          <td class="x_mobile-hide" style="background-color:white; border-bottom:solid #eaeaea 1px">          </td>          <td class="x_content" width="640" style="padding:0px; max-width:640px; background-color:white; border-bottom:solid #eaeaea 1px">            <table border="0" cellpadding="0" cellspacing="0" width="100%">              <tbody>                <tr>                  <td style="padding:20px 24px 25px 24px; background:white">                    <table border="0" cellpadding="0" cellspacing="0" width="100%" class="x_responsive-table">                      <tbody>                        <tr>                          <td>                            <table border="0" cellpadding="0" cellspacing="0" class="x_logo" width="100%">                              <tbody>                                <tr>                                  <td valign="middle" style="vertical-align:middle">                                    <img data-imagetype="External" src="@(new System.Uri(Html.Context.ApplicationUri, "logo.webp").AbsoluteUri)" height="34" width="133">                                  </td>                                </tr>                              </tbody>                            </table>                          </td>                        </tr>                      </tbody>                    </table>                  </td>                </tr>                <tr>                  <td class="x_hero" style="padding:0px 24px">                    <table border="0" cellpadding="0" cellspacing="0" width="100%" class="x_responsive-table" style="max-width:592px">                      <tbody>                        <tr>                          <td>                            <table width="100%" border="0" cellspacing="0" cellpadding="0">                              <tbody>                                <tr>                                  <td>                                    <!-- HEADER START -->                                    <table>                                      <tbody>                                        <tr>                                          <td class="x_title" style="padding:0 0 24px 0; color:#212121; font-size:28px; font-weight:bold; letter-spacing:-0.04em; line-height:40px; word-break:break-word">                                            @(Html.Context.MessageSubject ?? "Request summary")
-                                          </td>                                        </tr>                                        <tr>                                          <td class="x_message" style="padding:0 0 24px 0">                                            <div>                                              <p>Bonjour,</p>                                              <p>Votre demande a bien �t� prise en compte</p>                                            </div>                                          </td>                                        </tr>                                        <tr>                                          <td style="padding:0 0 24px 0">                                            <table width="100%" border="0" cellspacing="0" cellpadding="0">                                              <tbody>                                                <tr>                                                  <td>                                                    <table border="0" cellspacing="0" cellpadding="0">                                                      <tbody>                                                        <tr>                                                          <td align="center" bgcolor="#007acc" style="padding:8px 12px; border-radius:2px">                                                            <a href="@(Html.Context.ApplicationUri.AbsoluteUri)" target="_blank" rel="noopener noreferrer" data-auth="NotApplicable" class="x_mobile-button x_btn-primary" style="font-weight:500; font-size:14px; text-decoration:none; padding:0px; display:inline-block; color:#ffffff">                                                              Je me connecte a Usercube
-                                                            </a>                                                          </td>                                                        </tr>                                                      </tbody>                                                    </table>                                                  </td>                                                </tr>                                              </tbody>                                            </table>                                          </td>                                        </tr>                                      </tbody>                                    </table>                                    <!-- HEADER END -->                                  </td>                                </tr>                              </tbody>                            </table>                          </td>                        </tr>                      </tbody>                    </table>                  </td>                </tr>              </tbody>            </table>          </td>          <td class="x_mobile-hide" style="background-color:white; border-bottom:solid #eaeaea 1px">          </td>        </tr>        <tr>          <td class="x_mobile-hide" style="background:#f8f8f8"></td>          <td class="x_content" width="640" style="padding:0px; max-width:640px; background:#f8f8f8">            <table border="0" cellpadding="0" cellspacing="0" width="100%">              <tbody>                <tr>                  <td style="padding:24px 24px 8px 24px; max-width:592px">                    <table border="0" width="100%" cellpadding="0" cellspacing="0" class="x_responsive-table" style="vertical-align:middle; background-color:white">                      <tbody>                        <tr>                          <td style="padding:16px 24px 24px 24px">                            @Html.WorkflowSummaryFR(string.Empty, Model.InternalDisplayName)
-                          </td>                        </tr>                      </tbody>                    </table>                  </td>                </tr>                <tr>                  <td style="padding:24px 24px 24px 24px">                    <table border="0" cellpadding="0" cellspacing="0" width="100%" class="x_responsive-table">                      <tbody>                        <tr>                          <td style="color:#666666; font-size:12px; line-height:18px">                            This email is automatically generated by usercube. Please do not reply.
-                          </td>                        </tr>                      </tbody>                    </table>                  </td>                </tr>              </tbody>            </table>          </td>          <td class="x_mobile-hide" style="background:#f8f8f8"></td>        </tr>      </tbody>    </table>  </div></div>" CssFile="@media only screen and (max-width: 620px) {
+<NotificationAspect Identifier="PerformerNotification_Directory_User_ChangeName" ExpressionBinding="Workflow_Directory_User:Directory_User" RazorFile_L1="<div> <div style="font-family:'Segoe UI','-apple-system','BlinkMacSystemFont','Roboto','Arial',sans-serif; color:#212121; font-size:14px; background:#f8f8f8"> <table border="0" cellpadding="0" cellspacing="0" width="100%"> <tbody> <tr> <td class="x_mobile-hide" style="background-color:white; border-bottom:solid #eaeaea 1px"> </td> <td class="x_content" width="640" style="padding:0px; max-width:640px; background-color:white; border-bottom:solid #eaeaea 1px"> <table border="0" cellpadding="0" cellspacing="0" width="100%"> <tbody> <tr> <td style="padding:20px 24px 25px 24px; background:white"> <table border="0" cellpadding="0" cellspacing="0" width="100%" class="x_responsive-table"> <tbody> <tr> <td> <table border="0" cellpadding="0" cellspacing="0" class="x_logo" width="100%"> <tbody> <tr> <td valign="middle" style="vertical-align:middle"> <img data-imagetype="External" src="@(new System.Uri(Html.Context.ApplicationUri, "logo.webp").AbsoluteUri)" height="34" width="133"> </td> </tr> </tbody> </table> </td> </tr> </tbody> </table> </td> </tr> <tr> <td class="x_hero" style="padding:0px 24px"> <table border="0" cellpadding="0" cellspacing="0" width="100%" class="x_responsive-table" style="max-width:592px"> <tbody> <tr> <td> <table width="100%" border="0" cellspacing="0" cellpadding="0"> <tbody> <tr> <td> <!-- HEADER START --> <table> <tbody> <tr> <td class="x_title" style="padding:0 0 24px 0; color:#212121; font-size:28px; font-weight:bold; letter-spacing:-0.04em; line-height:40px; word-break:break-word"> @(Html.Context.MessageSubject ?? "Request summary")
+                                          </td> </tr> <tr> <td class="x_message" style="padding:0 0 24px 0"> <div> <p>Hello,</p> <p>Your request has been taken into account</p> </div> </td> </tr> <tr> <td style="padding:0 0 24px 0"> <table width="100%" border="0" cellspacing="0" cellpadding="0"> <tbody> <tr> <td> <table border="0" cellspacing="0" cellpadding="0"> <tbody> <tr> <td align="center" bgcolor="#007acc" style="padding:8px 12px; border-radius:2px"> <a href="@(Html.Context.ApplicationUri.AbsoluteUri)" target="_blank" rel="noopener noreferrer" data-auth="NotApplicable" class="x_mobile-button x_btn-primary" style="font-weight:500; font-size:14px; text-decoration:none; padding:0px; display:inline-block; color:#ffffff"> Connect to Usercube
+                                                            </a> </td> </tr> </tbody> </table> </td> </tr> </tbody> </table> </td> </tr> </tbody> </table> <!-- HEADER END --> </td> </tr> </tbody> </table> </td> </tr> </tbody> </table> </td> </tr> </tbody> </table> </td> <td class="x_mobile-hide" style="background-color:white; border-bottom:solid #eaeaea 1px"> </td> </tr> <tr> <td class="x_mobile-hide" style="background:#f8f8f8"></td> <td class="x_content" width="640" style="padding:0px; max-width:640px; background:#f8f8f8"> <table border="0" cellpadding="0" cellspacing="0" width="100%"> <tbody> <tr> <td style="padding:24px 24px 8px 24px; max-width:592px"> <table border="0" width="100%" cellpadding="0" cellspacing="0" class="x_responsive-table" style="vertical-align:middle; background-color:white"> <tbody> <tr> <td style="padding:16px 24px 24px 24px"> @Html.WorkflowSummary(string.Empty, Model.InternalDisplayName)
+                          </td> </tr> </tbody> </table> </td> </tr> <tr> <td style="padding:24px 24px 24px 24px"> <table border="0" cellpadding="0" cellspacing="0" width="100%" class="x_responsive-table"> <tbody> <tr> <td style="color:#666666; font-size:12px; line-height:18px"> This email is automatically generated by usercube. Please do not reply.
+                          </td> </tr> </tbody> </table> </td> </tr> </tbody> </table> </td> <td class="x_mobile-hide" style="background:#f8f8f8"></td> </tr> </tbody> </table> </div></div>" RazorFile_L2="<div> <div style="font-family:'Segoe UI','-apple-system','BlinkMacSystemFont','Roboto','Arial',sans-serif; color:#212121; font-size:14px; background:#f8f8f8"> <table border="0" cellpadding="0" cellspacing="0" width="100%"> <tbody> <tr> <td class="x_mobile-hide" style="background-color:white; border-bottom:solid #eaeaea 1px"> </td> <td class="x_content" width="640" style="padding:0px; max-width:640px; background-color:white; border-bottom:solid #eaeaea 1px"> <table border="0" cellpadding="0" cellspacing="0" width="100%"> <tbody> <tr> <td style="padding:20px 24px 25px 24px; background:white"> <table border="0" cellpadding="0" cellspacing="0" width="100%" class="x_responsive-table"> <tbody> <tr> <td> <table border="0" cellpadding="0" cellspacing="0" class="x_logo" width="100%"> <tbody> <tr> <td valign="middle" style="vertical-align:middle"> <img data-imagetype="External" src="@(new System.Uri(Html.Context.ApplicationUri, "logo.webp").AbsoluteUri)" height="34" width="133"> </td> </tr> </tbody> </table> </td> </tr> </tbody> </table> </td> </tr> <tr> <td class="x_hero" style="padding:0px 24px"> <table border="0" cellpadding="0" cellspacing="0" width="100%" class="x_responsive-table" style="max-width:592px"> <tbody> <tr> <td> <table width="100%" border="0" cellspacing="0" cellpadding="0"> <tbody> <tr> <td> <!-- HEADER START --> <table> <tbody> <tr> <td class="x_title" style="padding:0 0 24px 0; color:#212121; font-size:28px; font-weight:bold; letter-spacing:-0.04em; line-height:40px; word-break:break-word"> @(Html.Context.MessageSubject ?? "Request summary")
+                                          </td> </tr> <tr> <td class="x_message" style="padding:0 0 24px 0"> <div> <p>Bonjour,</p> <p>Votre demande a bien �t� prise en compte</p> </div> </td> </tr> <tr> <td style="padding:0 0 24px 0"> <table width="100%" border="0" cellspacing="0" cellpadding="0"> <tbody> <tr> <td> <table border="0" cellspacing="0" cellpadding="0"> <tbody> <tr> <td align="center" bgcolor="#007acc" style="padding:8px 12px; border-radius:2px"> <a href="@(Html.Context.ApplicationUri.AbsoluteUri)" target="_blank" rel="noopener noreferrer" data-auth="NotApplicable" class="x_mobile-button x_btn-primary" style="font-weight:500; font-size:14px; text-decoration:none; padding:0px; display:inline-block; color:#ffffff"> Je me connecte a Usercube
+                                                            </a> </td> </tr> </tbody> </table> </td> </tr> </tbody> </table> </td> </tr> </tbody> </table> <!-- HEADER END --> </td> </tr> </tbody> </table> </td> </tr> </tbody> </table> </td> </tr> </tbody> </table> </td> <td class="x_mobile-hide" style="background-color:white; border-bottom:solid #eaeaea 1px"> </td> </tr> <tr> <td class="x_mobile-hide" style="background:#f8f8f8"></td> <td class="x_content" width="640" style="padding:0px; max-width:640px; background:#f8f8f8"> <table border="0" cellpadding="0" cellspacing="0" width="100%"> <tbody> <tr> <td style="padding:24px 24px 8px 24px; max-width:592px"> <table border="0" width="100%" cellpadding="0" cellspacing="0" class="x_responsive-table" style="vertical-align:middle; background-color:white"> <tbody> <tr> <td style="padding:16px 24px 24px 24px"> @Html.WorkflowSummaryFR(string.Empty, Model.InternalDisplayName)
+                          </td> </tr> </tbody> </table> </td> </tr> <tr> <td style="padding:24px 24px 24px 24px"> <table border="0" cellpadding="0" cellspacing="0" width="100%" class="x_responsive-table"> <tbody> <tr> <td style="color:#666666; font-size:12px; line-height:18px"> This email is automatically generated by usercube. Please do not reply.
+                          </td> </tr> </tbody> </table> </td> </tr> </tbody> </table> </td> <td class="x_mobile-hide" style="background:#f8f8f8"></td> </tr> </tbody> </table> </div></div>" CssFile="@media only screen and (max-width: 620px) {
     table[class=body] h1 {
         font-size: 28px !important;
         margin-bottom: 10px !important;
@@ -937,7 +937,7 @@ body {
     -ms-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%;
 }
-">    <PointCut Activity="Directory_User_ChangeName:Request" ActivityState="ActionWithRefine-Executed" />    <Recipient Activity="Directory_User_ChangeName:Request" ActivityState="ActionWithRefine-Executed" Type="Performer" />  </NotificationAspect>
+"> <PointCut Activity="Directory_User_ChangeName:Request" ActivityState="ActionWithRefine-Executed" /> <Recipient Activity="Directory_User_ChangeName:Request" ActivityState="ActionWithRefine-Executed" Type="Performer" /> </NotificationAspect>
 
 ```
 
@@ -1114,7 +1114,7 @@ allow to define customized filters for a homonym search.
 #### Simple filter
 
 ```
-<HomonymEntityLink FormEntityType="Directory_UserRecord" Identifier="Directory_UserRecord_Homonym">    <Filter
+<HomonymEntityLink FormEntityType="Directory_UserRecord" Identifier="Directory_UserRecord_Homonym"> <Filter
         Property1="LastName"
         Property2="FirstName"
     /></HomonymEntityLink>
@@ -1137,7 +1137,7 @@ A filter can be defined to compare the values in an approximate way.
 1. When the input search value is retrieved directly from the property value
 
    ```
-   <HomonymEntityLink FormEntityType="Directory_UserRecord" Identifier="Directory_UserRecord_Homonym">    <Filter
+   <HomonymEntityLink FormEntityType="Directory_UserRecord" Identifier="Directory_UserRecord_Homonym"> <Filter
            Property1="LastName" ComparisonProperty1="PhoneticLastName" Operator1="FlexibleEqual"
            Property2="FirstName" ComparisonProperty2="PhoneticFirstName" Operator2="FlexibleEqual"
        /></HomonymEntityLink>
@@ -1154,9 +1154,9 @@ the input value.
 2. When the input search value is deducted
 
    ```
-   <HomonymEntityLink FormEntityType="Directory_UserRecord" Identifier="Directory_UserRecord_Homonym">    <Filter
+   <HomonymEntityLink FormEntityType="Directory_UserRecord" Identifier="Directory_UserRecord_Homonym"> <Filter
            ComparisonProperty1="PhoneticFirstLastName" Operator1="FlexibleEqual"
-       />    <Filter
+       /> <Filter
            ComparisonProperty1="PhoneticFirstLastName" Operator1="FlexibleEqual" Expression1="C#:record:(record.LastName + ' ' + record.FirstName).Appproximate()"
        /></HomonymEntityLink>
 
@@ -1180,7 +1180,7 @@ If a filter is set on a language property, the search for homonyms is performed 
 associated to the main language.
 
 ```
-<HomonymEntityLink FormEntityType="Directory_Organization" Identifier="Directory_Organization_Homonym">    <Filter Property1="Name" /></HomonymEntityLink>
+<HomonymEntityLink FormEntityType="Directory_Organization" Identifier="Directory_Organization_Homonym"> <Filter Property1="Name" /></HomonymEntityLink>
 
 ```
 
@@ -1201,7 +1201,7 @@ where the `HomonymEntityLink` attribute is the identifier of the homonym entity 
 
 ```
 <DisplayTable Identifier="Directory_UserRecord_Homonym" EntityType="Directory_UserRecord" DisplayTableDesignElement="table" HomonymEntityLink="Directory_UserRecord">
-    <Column DefaultSortPriority="1" DisplayBinding="LastName" IsDisplayInSummaryView="true" IsResizable="true" ColumnSize="1" />    <Column DisplayBinding="FirstName" IsDisplayInSummaryView="true" IsResizable="true" ColumnSize="1" />    <Column DisplayBinding="Login" IsDisplayInSummaryView="true" IsResizable="true" IsSortable="true" CanBeFiltered="true" ColumnSize="2" />    <Column DisplayBinding="Mail" IsDisplayInSummaryView="true" IsResizable="true" IsSortable="true" CanBeFiltered="true" ColumnSize="2" />    <Column DisplayBinding="BirthDate" IsDisplayInSummaryView="true" IsResizable="true" IsSortable="true" CanBeFiltered="true" ColumnSize="4" /></DisplayTable>
+    <Column DefaultSortPriority="1" DisplayBinding="LastName" IsDisplayInSummaryView="true" IsResizable="true" ColumnSize="1" /> <Column DisplayBinding="FirstName" IsDisplayInSummaryView="true" IsResizable="true" ColumnSize="1" /> <Column DisplayBinding="Login" IsDisplayInSummaryView="true" IsResizable="true" IsSortable="true" CanBeFiltered="true" ColumnSize="2" /> <Column DisplayBinding="Mail" IsDisplayInSummaryView="true" IsResizable="true" IsSortable="true" CanBeFiltered="true" ColumnSize="2" /> <Column DisplayBinding="BirthDate" IsDisplayInSummaryView="true" IsResizable="true" IsSortable="true" CanBeFiltered="true" ColumnSize="4" /></DisplayTable>
 
 ```
 
@@ -1221,8 +1221,8 @@ the homonym control form must only contain up to 5 controls where `Binding` attr
 Indeed, a filter can only be defined on up to 5 properties.
 
 ```
-<Form Identifier="Workflow_Directory_User_AdvancedStartInternal_Base" EntityType="Directory_UserRecord">    <Control DisplayName_L1="Personal Data" DisplayName_L2="Informations personnelles" OutputType="LayoutFieldset" HomonymEntityLink="Directory_UserRecord">
-        <Control DisplayName_L1="Full Name" DisplayName_L2="Nom complet" OutputType="LayoutRowset">            <Control Binding="LastName" IsRequired="true" />            <Control Binding="FirstName" IsRequired="true" />        </Control>    </Control></Form>
+<Form Identifier="Workflow_Directory_User_AdvancedStartInternal_Base" EntityType="Directory_UserRecord"> <Control DisplayName_L1="Personal Data" DisplayName_L2="Informations personnelles" OutputType="LayoutFieldset" HomonymEntityLink="Directory_UserRecord">
+        <Control DisplayName_L1="Full Name" DisplayName_L2="Nom complet" OutputType="LayoutRowset"> <Control Binding="LastName" IsRequired="true" /> <Control Binding="FirstName" IsRequired="true" /> </Control> </Control></Form>
 
 ```
 
@@ -1303,7 +1303,7 @@ The example below creates a workflow to create a new worker.
 
 ```
 
-<Workflow Identifier="Directory_User_NewInternal" DisplayName_L1="User - New Employee" VariablesType="Workflow_Directory_User">  <Activity Identifier="Request" DisplayName_L1="Request" Template="ActionWithRefine" />  <Activity Identifier="PersistDraft" DisplayName_L1="Draft Creation" Template="PersistOnlyResources" />  <Activity Identifier="Review" DisplayName_L1="Review" Template="ReviewWithFeedback" />  <Activity Identifier="Persist" DisplayName_L1="Commit" Template="Persist" /></Workflow>
+<Workflow Identifier="Directory_User_NewInternal" DisplayName_L1="User - New Employee" VariablesType="Workflow_Directory_User"> <Activity Identifier="Request" DisplayName_L1="Request" Template="ActionWithRefine" /> <Activity Identifier="PersistDraft" DisplayName_L1="Draft Creation" Template="PersistOnlyResources" /> <Activity Identifier="Review" DisplayName_L1="Review" Template="ReviewWithFeedback" /> <Activity Identifier="Persist" DisplayName_L1="Commit" Template="Persist" /></Workflow>
 
 ```
 
@@ -1319,13 +1319,13 @@ one is to be called in our final workflow form.
 ```
 
 Preliminary form for user data:
-<Form Identifier="Workflow_Directory_User_NewInternal_PersonalData" EntityType="Directory_UserRecord">  <Control DisplayName_L1="Personal Data" OutputType="LayoutFieldset">    <Control DisplayName_L1="Full Name" OutputType="LayoutRowset">      <Control Binding="LastName" IsRequired="true" />      <Control Binding="FirstName" IsRequired="true" />    </Control>    <Control DisplayName_L1="Phone Numbers" OutputType="LayoutRowset">      <Control Binding="PhoneNumber" />      <Control Binding="MobileNumber" />    </Control>    <Control DisplayName_L1="Photo" OutputType="LayoutRowset">      <Control Binding="User.Photo" InputType="Image" />    </Control>  </Control>
+<Form Identifier="Workflow_Directory_User_NewInternal_PersonalData" EntityType="Directory_UserRecord"> <Control DisplayName_L1="Personal Data" OutputType="LayoutFieldset"> <Control DisplayName_L1="Full Name" OutputType="LayoutRowset"> <Control Binding="LastName" IsRequired="true" /> <Control Binding="FirstName" IsRequired="true" /> </Control> <Control DisplayName_L1="Phone Numbers" OutputType="LayoutRowset"> <Control Binding="PhoneNumber" /> <Control Binding="MobileNumber" /> </Control> <Control DisplayName_L1="Photo" OutputType="LayoutRowset"> <Control Binding="User.Photo" InputType="Image" /> </Control> </Control>
 
 Preliminary form for user's contract data:
-<Form Identifier="Workflow_Directory_UserRecord_NewInternal_Contract" EntityType="Directory_UserRecord">  <Control DisplayName_L1="Contract" OutputType="LayoutFieldset">    <Control Binding="UserType" IsRequired="true" />    <Control Binding="ContractStartDate" IsRequired="true" />    <Control Binding="ContractEndDate" InputType="Date" AddedMinutes="1440" />  </Control></Form>
+<Form Identifier="Workflow_Directory_UserRecord_NewInternal_Contract" EntityType="Directory_UserRecord"> <Control DisplayName_L1="Contract" OutputType="LayoutFieldset"> <Control Binding="UserType" IsRequired="true" /> <Control Binding="ContractStartDate" IsRequired="true" /> <Control Binding="ContractEndDate" InputType="Date" AddedMinutes="1440" /> </Control></Form>
 
 Preliminary form for user's position data:
-<Form Identifier="Workflow_Directory_UserRecord_NewInternal_Position" EntityType="Directory_UserRecord">  <Control DisplayName_L1="Position" OutputType="LayoutFieldset">    <Control Binding="Title" />    <Control Binding="Organization" />    <Control Binding="Site" />    <Control Binding="PositionStartDate" />    <Control Binding="PositionEndDate" />  </Control></Form>
+<Form Identifier="Workflow_Directory_UserRecord_NewInternal_Position" EntityType="Directory_UserRecord"> <Control DisplayName_L1="Position" OutputType="LayoutFieldset"> <Control Binding="Title" /> <Control Binding="Organization" /> <Control Binding="Site" /> <Control Binding="PositionStartDate" /> <Control Binding="PositionEndDate" /> </Control></Form>
 
 Main form for all data:
 <Form Identifier="Workflow_Directory_User_NewInternal" EntityType="Directory_UserRecord">
@@ -1374,7 +1374,7 @@ for additional information.
 
 ```
 
-<WorkflowCreateRecordEntityForm Identifier="Workflow_Directory_User_NewInternal" EntityType="Workflow_Directory_User" MainProperty="Workflow_Directory_User:Directory_User" RecordProperty="Directory_User:Records" WorkflowRequestType="Self" Activity="Directory_User_NewInternal:Request" FormTitle_L1="New Employee">  <MainControl OutputType="LayoutContainer" />
+<WorkflowCreateRecordEntityForm Identifier="Workflow_Directory_User_NewInternal" EntityType="Workflow_Directory_User" MainProperty="Workflow_Directory_User:Directory_User" RecordProperty="Directory_User:Records" WorkflowRequestType="Self" Activity="Directory_User_NewInternal:Request" FormTitle_L1="New Employee"> <MainControl OutputType="LayoutContainer" />
   <RecordControl OutputType="TransformImport" EmbeddedForm="Workflow_Directory_User_NewInternal" />
 </WorkflowCreateRecordEntityForm>
 
@@ -1392,7 +1392,7 @@ situation, it displays the `EmployeeId` and `Mail` attributes that the workflow 
 ```
 
 Summary form:
-<Form Identifier="Workflow_Directory_User_New_Summary" EntityType="Directory_UserRecord">  <Control DisplayName_L1="Important Information" OutputType="LayoutFieldset">    <Control Binding="UserIdentifier" />    <Control Binding="Email" />    <Control Binding="Login" />  </Control></Form><WorkflowCreateRecordEntityForm Identifier="Workflow_Directory_User_NewInternal" EntityType="Workflow_Directory_User" MainProperty="Workflow_Directory_User:Directory_User" RecordProperty="Directory_User:Records" WorkflowRequestType="Self" Activity="Directory_User_NewInternal:Request" FormTitle_L1="New Employee">  <RecordControl OutputType="TransformImport" EmbeddedForm="Workflow_Directory_User_NewInternal_Base" />
+<Form Identifier="Workflow_Directory_User_New_Summary" EntityType="Directory_UserRecord"> <Control DisplayName_L1="Important Information" OutputType="LayoutFieldset"> <Control Binding="UserIdentifier" /> <Control Binding="Email" /> <Control Binding="Login" /> </Control></Form><WorkflowCreateRecordEntityForm Identifier="Workflow_Directory_User_NewInternal" EntityType="Workflow_Directory_User" MainProperty="Workflow_Directory_User:Directory_User" RecordProperty="Directory_User:Records" WorkflowRequestType="Self" Activity="Directory_User_NewInternal:Request" FormTitle_L1="New Employee"> <RecordControl OutputType="TransformImport" EmbeddedForm="Workflow_Directory_User_NewInternal_Base" />
   <RecordSummaryControl OutputType="TransformImport" EmbeddedForm="Workflow_Directory_User_New_Summary">
 </WorkflowCreateRecordEntityForm>
 
@@ -1413,10 +1413,10 @@ for the whole creation request and review from the previously created workflow:
 <AccessControlRule Profile="Administrator" EntityType="Workflow_Directory_User" Identifier="Administrator_Workflows_Directory_User_Internal*" DisplayName_L1="Administrator_Workflows_Directory_User_Internal*">
 
   Permissions for the Request activity:
-  <Entry Permission="/Custom/Workflows/Directory_User_NewInternal/Request/ActionPending" CanExecute="true" />  <Entry Permission="/Custom/Workflows/Directory_User_NewInternal/Request/Aborted" CanExecute="true" />  <Entry Permission="/Custom/Workflows/Directory_User_NewInternal/Request/Purged" CanExecute="true" />
+  <Entry Permission="/Custom/Workflows/Directory_User_NewInternal/Request/ActionPending" CanExecute="true" /> <Entry Permission="/Custom/Workflows/Directory_User_NewInternal/Request/Aborted" CanExecute="true" /> <Entry Permission="/Custom/Workflows/Directory_User_NewInternal/Request/Purged" CanExecute="true" />
 
   Permissions for the Review activity:
-  <Entry Permission="/Custom/Workflows/Directory_User_NewInternal/Review/ReviewPending" CanExecute="true" />  <Entry Permission="/Custom/Workflows/Directory_User_NewInternal/Review/RefinePending" CanExecute="true" />  <Entry Permission="/Custom/Workflows/Directory_User_NewInternal/Review/Aborted" CanExecute="true" />  <Entry Permission="/Custom/Workflows/Directory_User_NewInternal/Review/Purged" CanExecute="true" /></AccessControlRule>
+  <Entry Permission="/Custom/Workflows/Directory_User_NewInternal/Review/ReviewPending" CanExecute="true" /> <Entry Permission="/Custom/Workflows/Directory_User_NewInternal/Review/RefinePending" CanExecute="true" /> <Entry Permission="/Custom/Workflows/Directory_User_NewInternal/Review/Aborted" CanExecute="true" /> <Entry Permission="/Custom/Workflows/Directory_User_NewInternal/Review/Purged" CanExecute="true" /></AccessControlRule>
 
 ```
 
@@ -1434,7 +1434,7 @@ existing menu items list:
 
 ```
 
-<MenuItem Identifier="Menu_Search_Directory_User" DisplayName_L1="Menu">  ...
+<MenuItem Identifier="Menu_Search_Directory_User" DisplayName_L1="Menu"> ...
   <MenuItem Identifier="Menu_Search_Directory_User_NewInternal" DisplayName_L1="New Employee" IconCode="AddFriend" Workflow="Directory_User_NewInternal" /></MenuItem Identifier="Menu_Search_Directory_User" DisplayName_L1="Menu">
 
 ```
@@ -1462,17 +1462,17 @@ Homonym detection:
   <Filter
     Property1="FirstName"
     Property2="LastName"
-  />  <Filter
+  /> <Filter
     Property1="FirstName" ComparisonProperty1="LastName"
     Property2="LastName" ComparisonProperty2="FirstName"
-  />  <Filter
+  /> <Filter
     Property1="FirstName"
     Property2="LastName" ComparisonProperty2="BirthName"
   /></HomonymEntityLink>
 
 Partial form for user data:
 ...
-<Control DisplayName_L1="Personal Data" DisplayName_L2="Informations personnelles" OutputType="LayoutFieldset" HomonymEntityLink="Homonym_Directory_UserRecord">  <Control DisplayName_L1="Full Name" DisplayName_L2="Nom complet" OutputType="LayoutRowset">    <Control Binding="LastName" IsRequired="true" />    <Control Binding="FirstName" IsRequired="true" />  </Control></Control>...
+<Control DisplayName_L1="Personal Data" DisplayName_L2="Informations personnelles" OutputType="LayoutFieldset" HomonymEntityLink="Homonym_Directory_UserRecord"> <Control DisplayName_L1="Full Name" DisplayName_L2="Nom complet" OutputType="LayoutRowset"> <Control Binding="LastName" IsRequired="true" /> <Control Binding="FirstName" IsRequired="true" /> </Control></Control>...
 
 ```
 
@@ -1508,7 +1508,7 @@ several records at once for said worker.
 
 ```
 
-<Workflow Identifier="Helpdesk_Directory_User_New" DisplayName_L1="User - New Employee (multi record)" VariablesType="Workflow_Directory_User">  <Activity Identifier="Request" DisplayName_L1="Request" Template="ActionWithRefine" />  <Activity Identifier="PersistDraft" DisplayName_L1="Draft Creation" Template="PersistOnlyResources" />  <Activity Identifier="Review" DisplayName_L1="Review" Template="ReviewWithFeedback" />  <Activity Identifier="Persist" DisplayName_L1="Commit" Template="Persist" /></Workflow>
+<Workflow Identifier="Helpdesk_Directory_User_New" DisplayName_L1="User - New Employee (multi record)" VariablesType="Workflow_Directory_User"> <Activity Identifier="Request" DisplayName_L1="Request" Template="ActionWithRefine" /> <Activity Identifier="PersistDraft" DisplayName_L1="Draft Creation" Template="PersistOnlyResources" /> <Activity Identifier="Review" DisplayName_L1="Review" Template="ReviewWithFeedback" /> <Activity Identifier="Persist" DisplayName_L1="Commit" Template="Persist" /></Workflow>
 
 ```
 
@@ -1523,19 +1523,19 @@ Here we create three structured forms, all to be called in our final workflow fo
 ```
 
 First form for the user's identification data:
-<Form Identifier="Workflow_Helpdesk_Directory_User_Base" EntityType="Directory_User">  <Control DisplayName_L1="User Information" OutputType="LayoutFieldset">    <Control Binding="Identifier" />    <Control Binding="EmployeeId" />    <Control Binding="IsDraft" />  </Control></Form>
+<Form Identifier="Workflow_Helpdesk_Directory_User_Base" EntityType="Directory_User"> <Control DisplayName_L1="User Information" OutputType="LayoutFieldset"> <Control Binding="Identifier" /> <Control Binding="EmployeeId" /> <Control Binding="IsDraft" /> </Control></Form>
 
 Second form for the user's data shared with all records:
 <Form Identifier="Workflow_Helpdesk_Directory_UserRecord_Shared" EntityType="Directory_UserRecord">
 
   Section for user's personal data, here their name and phone numbers:
-  <Control DisplayName_L1="Personal Data" OutputType="LayoutFieldset">    <Control DisplayName_L1="Full Name" OutputType="LayoutRowset">      <Control Binding="LastName" IsRequired="true" />      <Control Binding="FirstName" IsRequired="true" />    </Control>    <Control DisplayName_L1="Phone Numbers" OutputType="LayoutRowset">      <Control Binding="PhoneNumber" />      <Control Binding="MobileNumber" />    </Control>  </Control>
+  <Control DisplayName_L1="Personal Data" OutputType="LayoutFieldset"> <Control DisplayName_L1="Full Name" OutputType="LayoutRowset"> <Control Binding="LastName" IsRequired="true" /> <Control Binding="FirstName" IsRequired="true" /> </Control> <Control DisplayName_L1="Phone Numbers" OutputType="LayoutRowset"> <Control Binding="PhoneNumber" /> <Control Binding="MobileNumber" /> </Control> </Control>
 
   Section for user's contract data, here their contract's type, start and end dates:
-  <Control DisplayName_L1="Contract" OutputType="LayoutFieldset">    <Control Binding="UserType" IsRequired="true" />    <Control Binding="ContractStartDate" IsRequired="true" />    <Control Binding="ContractEndDate" InputType="Date" AddedMinutes="1440" />  </Control></Form>
+  <Control DisplayName_L1="Contract" OutputType="LayoutFieldset"> <Control Binding="UserType" IsRequired="true" /> <Control Binding="ContractStartDate" IsRequired="true" /> <Control Binding="ContractEndDate" InputType="Date" AddedMinutes="1440" /> </Control></Form>
 
 Third form for the user's data specific to each record individually, so here position information:
-<Form Identifier="Workflow_Helpdesk_Directory_UserRecord_Unique" EntityType="Directory_UserRecord">  <Control DisplayName_L1="Position" OutputType="LayoutFieldset">    <Control Binding="Title" />    <Control Binding="Organization" />    <Control Binding="Site" />    <Control Binding="StartDate"/>    <Control Binding="EndDate" InputType="Date" AddedMinutes="1440" />  </Control></Form>
+<Form Identifier="Workflow_Helpdesk_Directory_UserRecord_Unique" EntityType="Directory_UserRecord"> <Control DisplayName_L1="Position" OutputType="LayoutFieldset"> <Control Binding="Title" /> <Control Binding="Organization" /> <Control Binding="Site" /> <Control Binding="StartDate"/> <Control Binding="EndDate" InputType="Date" AddedMinutes="1440" /> </Control></Form>
 
 ```
 
@@ -1571,7 +1571,7 @@ A `WorkflowCreateSeveralRecordEntityForm` requires the following child elements:
 
 ```
 
-<WorkflowCreateSeveralRecordsEntityForm Identifier="Workflow_Helpdesk_Directory_User_New" EntityType="Workflow_Directory_User" MainProperty="Workflow_Directory_User:Directory_User" RecordProperty="Directory_User:Records" RecordTable="Directory_UserRecord_Helpdesk" WorkflowRequestType="Helpdesk" Activity="Helpdesk_Directory_User_New:Request" FormTitle_L1="New User (helpdesk)">  <MainControl OutputType="TransformImport" EmbeddedForm="Workflow_Helpdesk_Directory_User_Base"/>
+<WorkflowCreateSeveralRecordsEntityForm Identifier="Workflow_Helpdesk_Directory_User_New" EntityType="Workflow_Directory_User" MainProperty="Workflow_Directory_User:Directory_User" RecordProperty="Directory_User:Records" RecordTable="Directory_UserRecord_Helpdesk" WorkflowRequestType="Helpdesk" Activity="Helpdesk_Directory_User_New:Request" FormTitle_L1="New User (helpdesk)"> <MainControl OutputType="TransformImport" EmbeddedForm="Workflow_Helpdesk_Directory_User_Base"/>
   <RecordControl OutputType="TransformImport" EmbeddedForm="Workflow_Helpdesk_Directory_UserRecord_Shared"/>
 </WorkflowCreateSeveralRecordsEntityForm>
 
@@ -1588,9 +1588,9 @@ topic for additional information.
 
 > ```
 >
-> <WorkflowCreateSeveralRecordsEntityForm ... >  ...
->   <RecordControl OutputType="LayoutContainer">    <Control OutputType="LayoutContainer" />  </RecordControl>
->   ...
+> <WorkflowCreateSeveralRecordsEntityForm ... > ...
+> <RecordControl OutputType="LayoutContainer"> <Control OutputType="LayoutContainer" /> </RecordControl>
+> ...
 > </WorkflowCreateSeveralRecordsEntityForm>
 >
 > ```
@@ -1600,7 +1600,7 @@ topic for additional information.
 
 ```
 
-<WorkflowCreateSeveralRecordsEntityForm Identifier="Workflow_Helpdesk_Directory_User_New" EntityType="Workflow_Directory_User" MainProperty="Workflow_Directory_User:Directory_User" RecordProperty="Directory_User:Records" RecordTable="Directory_UserRecord_Helpdesk" WorkflowRequestType="Helpdesk" Activity="Helpdesk_Directory_User_New:Request" FormTitle_L1="New User (helpdesk)">  <MainControl OutputType="TransformImport" EmbeddedForm="Workflow_Helpdesk_Directory_User_Base"/>  <RecordControl OutputType="TransformImport" EmbeddedForm="Workflow_Helpdesk_Directory_UserRecord_Shared"/>
+<WorkflowCreateSeveralRecordsEntityForm Identifier="Workflow_Helpdesk_Directory_User_New" EntityType="Workflow_Directory_User" MainProperty="Workflow_Directory_User:Directory_User" RecordProperty="Directory_User:Records" RecordTable="Directory_UserRecord_Helpdesk" WorkflowRequestType="Helpdesk" Activity="Helpdesk_Directory_User_New:Request" FormTitle_L1="New User (helpdesk)"> <MainControl OutputType="TransformImport" EmbeddedForm="Workflow_Helpdesk_Directory_User_Base"/> <RecordControl OutputType="TransformImport" EmbeddedForm="Workflow_Helpdesk_Directory_UserRecord_Shared"/>
   <RecordUniqueItemControl OutputType="TransformImport" EmbeddedForm="Workflow_Helpdesk_Directory_UserRecord_Unique"/>
 </WorkflowCreateSeveralRecordsEntityForm>
 
@@ -1622,10 +1622,10 @@ for the whole creation request and review from the previously created workflow:
 <AccessControlRule Profile="Administrator" EntityType="Workflow_Directory_User" Identifier="Administrator_Workflows_Helpdesk_Directory_User_New*" DisplayName_L1="Administrator_Workflows_Helpdesk_Directory_User_New*">
 
   Permissions for the Request activity:
-  <Entry Permission="/Custom/Workflows/Helpdesk_Directory_User_New/Request/ActionPending" CanExecute="true" />  <Entry Permission="/Custom/Workflows/Helpdesk_Directory_User_New/Request/Aborted" CanExecute="true" />  <Entry Permission="/Custom/Workflows/Helpdesk_Directory_User_New/Request/Purged" CanExecute="true" />
+  <Entry Permission="/Custom/Workflows/Helpdesk_Directory_User_New/Request/ActionPending" CanExecute="true" /> <Entry Permission="/Custom/Workflows/Helpdesk_Directory_User_New/Request/Aborted" CanExecute="true" /> <Entry Permission="/Custom/Workflows/Helpdesk_Directory_User_New/Request/Purged" CanExecute="true" />
 
   Permissions for the Review activity:
-  <Entry Permission="/Custom/Workflows/Helpdesk_Directory_User_New/Review/ReviewPending" CanExecute="true" />  <Entry Permission="/Custom/Workflows/Helpdesk_Directory_User_New/Review/RefinePending" CanExecute="true" />  <Entry Permission="/Custom/Workflows/Helpdesk_Directory_User_New/Review/Aborted" CanExecute="true" />  <Entry Permission="/Custom/Workflows/Helpdesk_Directory_User_New/Review/Purged" CanExecute="true" /></AccessControlRule>
+  <Entry Permission="/Custom/Workflows/Helpdesk_Directory_User_New/Review/ReviewPending" CanExecute="true" /> <Entry Permission="/Custom/Workflows/Helpdesk_Directory_User_New/Review/RefinePending" CanExecute="true" /> <Entry Permission="/Custom/Workflows/Helpdesk_Directory_User_New/Review/Aborted" CanExecute="true" /> <Entry Permission="/Custom/Workflows/Helpdesk_Directory_User_New/Review/Purged" CanExecute="true" /></AccessControlRule>
 
 ```
 
@@ -1643,7 +1643,7 @@ existing menu items list:
 
 ```
 
-<MenuItem Identifier="Menu_Search_Directory_User" DisplayName_L1="Menu">  ...
+<MenuItem Identifier="Menu_Search_Directory_User" DisplayName_L1="Menu"> ...
   <MenuItem Identifier="Menu_Search_Directory_User_Helpdesk_New" DisplayName_L1="New User (helpdesk)" IconCode="AddFriend" Workflow="Helpdesk_Directory_User_New" />
 </MenuItem Identifier="Menu_Search_Directory_User" DisplayName_L1="Menu">
 
@@ -1672,17 +1672,17 @@ Homonym detection:
   <Filter
     Property1="FirstName"
     Property2="LastName"
-  />  <Filter
+  /> <Filter
     Property1="FirstName" ComparisonProperty1="LastName"
     Property2="LastName" ComparisonProperty2="FirstName"
-  />  <Filter
+  /> <Filter
     Property1="FirstName"
     Property2="LastName" ComparisonProperty2="BirthName"
   /></HomonymEntityLink>
 
 Partial form for user data:
 ...
-<Control DisplayName_L1="Personal Data" DisplayName_L2="Informations personnelles" OutputType="LayoutFieldset" HomonymEntityLink="Homonym_Directory_UserRecord">  <Control DisplayName_L1="Full Name" DisplayName_L2="Nom complet" OutputType="LayoutRowset">    <Control Binding="LastName" IsRequired="true" />    <Control Binding="FirstName" IsRequired="true" />  </Control></Control>...
+<Control DisplayName_L1="Personal Data" DisplayName_L2="Informations personnelles" OutputType="LayoutFieldset" HomonymEntityLink="Homonym_Directory_UserRecord"> <Control DisplayName_L1="Full Name" DisplayName_L2="Nom complet" OutputType="LayoutRowset"> <Control Binding="LastName" IsRequired="true" /> <Control Binding="FirstName" IsRequired="true" /> </Control></Control>...
 
 ```
 
@@ -1698,7 +1698,7 @@ Below is an example of a display table for our situation:
 
 ```
 
-<DisplayTable Identifier="Directory_UserRecord_SeveralRecords" EntityType="Directory_UserRecord" DisplayTableDesignElement="table">  <Column DisplayBinding="Title.InternalDisplayName" DisplayName_L1="Title" IsDisplayInSummaryView="true" ColumnSize="1" />  <Column DisplayBinding="Organization.InternalDisplayName" DisplayName_L1="Department" IsDisplayInSummaryView="true" ColumnSize="1" />  <Column DisplayBinding="Location.InternalDisplayName" DisplayName_L1="Site" IsDisplayInSummaryView="true" ColumnSize="1" />  <Column DisplayBinding="StartDate" DisplayName_L1="Start Date" IsDisplayInSummaryView="true" ColumnSize="1" />  <Column DisplayBinding="EndDate" DisplayName_L1="End Date" IsDisplayInSummaryView="true" ColumnSize="1" /></DisplayTable>
+<DisplayTable Identifier="Directory_UserRecord_SeveralRecords" EntityType="Directory_UserRecord" DisplayTableDesignElement="table"> <Column DisplayBinding="Title.InternalDisplayName" DisplayName_L1="Title" IsDisplayInSummaryView="true" ColumnSize="1" /> <Column DisplayBinding="Organization.InternalDisplayName" DisplayName_L1="Department" IsDisplayInSummaryView="true" ColumnSize="1" /> <Column DisplayBinding="Location.InternalDisplayName" DisplayName_L1="Site" IsDisplayInSummaryView="true" ColumnSize="1" /> <Column DisplayBinding="StartDate" DisplayName_L1="Start Date" IsDisplayInSummaryView="true" ColumnSize="1" /> <Column DisplayBinding="EndDate" DisplayName_L1="End Date" IsDisplayInSummaryView="true" ColumnSize="1" /></DisplayTable>
 
 ```
 
@@ -1722,7 +1722,7 @@ The example below creates a workflow to update only the user's name.
 
 ```
 
-  <Workflow Identifier="Directory_User_ChangeName" DisplayName_L1="User - Update Name" VariablesType="Workflow_Directory_User">    <Activity Identifier="Request" DisplayName_L1="Request" Template="ActionWithRefine" />    <Activity Identifier="Persist" DisplayName_L1="Commit" Template="Persist" />  </Workflow>
+  <Workflow Identifier="Directory_User_ChangeName" DisplayName_L1="User - Update Name" VariablesType="Workflow_Directory_User"> <Activity Identifier="Request" DisplayName_L1="Request" Template="ActionWithRefine" /> <Activity Identifier="Persist" DisplayName_L1="Commit" Template="Persist" /> </Workflow>
 
 ```
 
@@ -1738,7 +1738,7 @@ Here we just have the full name field to update the corresponding attributes for
 
 ```
 
-<Form Identifier="Workflow_Directory_User_ChangeName_Base" EntityType="Workflow_Directory_User">  <Control DisplayName_L1="Full Name" OutputType="LayoutRowset" EntityType="Directory_UserRecord">    <Control Binding="LastName" />    <Control Binding="FirstName" />  </Control></Form>
+<Form Identifier="Workflow_Directory_User_ChangeName_Base" EntityType="Workflow_Directory_User"> <Control DisplayName_L1="Full Name" OutputType="LayoutRowset" EntityType="Directory_UserRecord"> <Control Binding="LastName" /> <Control Binding="FirstName" /> </Control></Form>
 
 ```
 
@@ -1774,7 +1774,7 @@ not involved in the changes of this workflow.
 
 ```
 
-<WorkflowAddAndEndRecordEntityForm Identifier="Workflow_Directory_User_ChangeName" EntityType="Workflow_Directory_User" MainProperty="Workflow_Directory_User:Directory_User" RecordProperty="Directory_User:Records" WorkflowRequestType="Self" Activity="Directory_User_ChangeName:Request" HideRoles="true" FormTitle_L1="Change Name" >  <MainControl OutputType="LayoutContainer"/>
+<WorkflowAddAndEndRecordEntityForm Identifier="Workflow_Directory_User_ChangeName" EntityType="Workflow_Directory_User" MainProperty="Workflow_Directory_User:Directory_User" RecordProperty="Directory_User:Records" WorkflowRequestType="Self" Activity="Directory_User_ChangeName:Request" HideRoles="true" FormTitle_L1="Change Name" > <MainControl OutputType="LayoutContainer"/>
   <RecordControl OutputType="TransformImport" EmbeddedForm="Workflow_Directory_User_ChangeName_Base" />
 </WorkflowAddAndEndRecordEntityForm>
 
@@ -1795,7 +1795,7 @@ for the whole update request from the previously created workflow:
 
 ```
 
-<AccessControlRule Profile="Administrator" EntityType="Workflow_Directory_User" Identifier="Administrator_Workflows_Directory_User_*" DisplayName_L1="Administrator_Workflows_Directory_User_*">  <Entry Permission="/Custom/Workflows/Directory_User_ChangeName/Request/ActionPending" CanExecute="true" />  <Entry Permission="/Custom/Workflows/Directory_User_ChangeName/Request/RefinePending" CanExecute="true" />  <Entry Permission="/Custom/Workflows/Directory_User_ChangeName/Request/Aborted" CanExecute="true" />  <Entry Permission="/Custom/Workflows/Directory_User_ChangeName/Request/Purged" CanExecute="true" /></AccessControlRule>
+<AccessControlRule Profile="Administrator" EntityType="Workflow_Directory_User" Identifier="Administrator_Workflows_Directory_User_*" DisplayName_L1="Administrator_Workflows_Directory_User_*"> <Entry Permission="/Custom/Workflows/Directory_User_ChangeName/Request/ActionPending" CanExecute="true" /> <Entry Permission="/Custom/Workflows/Directory_User_ChangeName/Request/RefinePending" CanExecute="true" /> <Entry Permission="/Custom/Workflows/Directory_User_ChangeName/Request/Aborted" CanExecute="true" /> <Entry Permission="/Custom/Workflows/Directory_User_ChangeName/Request/Purged" CanExecute="true" /></AccessControlRule>
 
 ```
 
@@ -1814,9 +1814,9 @@ existing menu items list:
 
 ```
 
-<MenuItem Identifier="Menu_Directory_User" DisplayName_L1="Menu">  <MenuItem Identifier="Menu_Directory_User_Changes" DisplayName_L1="Actions">    <MenuItem Identifier="Menu_Directory_User_Changes_Update" DisplayName_L1="Section">      ...
+<MenuItem Identifier="Menu_Directory_User" DisplayName_L1="Menu"> <MenuItem Identifier="Menu_Directory_User_Changes" DisplayName_L1="Actions"> <MenuItem Identifier="Menu_Directory_User_Changes_Update" DisplayName_L1="Section"> ...
       <MenuItem Identifier="Menu_Directory_User_Changes_ChangeName" DisplayName_L1="Update Name" IconCode="Edit" Workflow="Directory_User_ChangeName" />
-    </MenuItem>  </MenuItem></MenuItem>
+    </MenuItem> </MenuItem></MenuItem>
 
 ```
 
@@ -1861,7 +1861,7 @@ The example below creates a workflow to update the records of an existing user:
 
 ```
 
-<Workflow Identifier="Directory_User_UpdateSeveralRecords" DisplayName_L1="User - Manage positions" VariablesType="Workflow_Directory_User">  <Activity Identifier="Request"  DisplayName_L1="Request" Template="ActionWithRefine" />  <Activity Identifier="Review"  DisplayName_L1="Review" Template="ReviewWithFeedback" />  <Activity Identifier="Persist"  DisplayName_L1="Commit" Template="Persist" /></Workflow>
+<Workflow Identifier="Directory_User_UpdateSeveralRecords" DisplayName_L1="User - Manage positions" VariablesType="Workflow_Directory_User"> <Activity Identifier="Request" DisplayName_L1="Request" Template="ActionWithRefine" /> <Activity Identifier="Review" DisplayName_L1="Review" Template="ReviewWithFeedback" /> <Activity Identifier="Persist" DisplayName_L1="Commit" Template="Persist" /></Workflow>
 
 ```
 
@@ -1876,10 +1876,10 @@ Here we create three structured forms, all to be called in our final workflow fo
 ```
 
 First form for the user's record data, shared with all records:
-<Form Identifier="Directory_User_UpdateSeveralRecords_Shared" EntityType="Directory_UserRecord">  <Control DisplayName_L1="Contract" OutputType="LayoutFieldset">    <Control Binding="ContractStartDate" />    <Control Binding="ContractEndDate" AddedMinutes="1440" />  </Control></Form>
+<Form Identifier="Directory_User_UpdateSeveralRecords_Shared" EntityType="Directory_UserRecord"> <Control DisplayName_L1="Contract" OutputType="LayoutFieldset"> <Control Binding="ContractStartDate" /> <Control Binding="ContractEndDate" AddedMinutes="1440" /> </Control></Form>
 
 Second form for the user's record data, specific to each record individually:
-<Form Identifier="Directory_User_UpdateSeveralRecords_Base" EntityType="Workflow_Directory_User">  <Control OutputType="LayoutContainer" EntityType="Directory_UserRecord">    <Control DisplayName_L1="Position" OutputType="LayoutFieldset">      <Control Binding="Title" IsRequired="true" />      <Control Binding="Department" />      <Control Binding="Site" DefaultValueBinding="Department.Manager.MainRecord.Site" />      <Control Binding="StartDate" />      <Control Binding="EndDate" />    </Control>  </Control></Form>
+<Form Identifier="Directory_User_UpdateSeveralRecords_Base" EntityType="Workflow_Directory_User"> <Control OutputType="LayoutContainer" EntityType="Directory_UserRecord"> <Control DisplayName_L1="Position" OutputType="LayoutFieldset"> <Control Binding="Title" IsRequired="true" /> <Control Binding="Department" /> <Control Binding="Site" DefaultValueBinding="Department.Manager.MainRecord.Site" /> <Control Binding="StartDate" /> <Control Binding="EndDate" /> </Control> </Control></Form>
 
 ```
 
@@ -1920,7 +1920,7 @@ not involved in the changes of this workflow.
 
 ```
 
-<WorkflowUpdateSeveralRecordsEntityForm RecordFilter="CurrentAndFuture" Identifier="Directory_User_UpdateSeveralRecords" EntityType="Workflow_Directory_User" MainProperty="Workflow_Directory_User:Directory_User" RecordProperty="Directory_User:Records" WorkflowRequestType="Self" Activity="Directory_User_UpdateSeveralRecords:Request" FormTitle_L1="Manage positions" RecordTable="Directory_User_UpdateSeveralRecords">  <MainControl OutputType="LayoutContainer"/>
+<WorkflowUpdateSeveralRecordsEntityForm RecordFilter="CurrentAndFuture" Identifier="Directory_User_UpdateSeveralRecords" EntityType="Workflow_Directory_User" MainProperty="Workflow_Directory_User:Directory_User" RecordProperty="Directory_User:Records" WorkflowRequestType="Self" Activity="Directory_User_UpdateSeveralRecords:Request" FormTitle_L1="Manage positions" RecordTable="Directory_User_UpdateSeveralRecords"> <MainControl OutputType="LayoutContainer"/>
   <RecordControl OutputType="TransformImport" EmbeddedForm="Directory_User_UpdateSeveralRecords_Shared" />
 </WorkflowUpdateSeveralRecordsEntityForm>
 
@@ -1931,7 +1931,7 @@ not involved in the changes of this workflow.
 
 ```
 
-<WorkflowUpdateSeveralRecordsEntityForm RecordFilter="CurrentAndFuture" Identifier="Directory_User_UpdateSeveralRecords" EntityType="Workflow_Directory_User" MainProperty="Workflow_Directory_User:Directory_User" RecordProperty="Directory_User:Records" WorkflowRequestType="Self" Activity="Directory_User_UpdateSeveralRecords:Request" FormTitle_L1="Manage positions" RecordTable="Directory_User_UpdateSeveralRecords">  <MainControl OutputType="LayoutContainer"/>  <RecordControl OutputType="TransformImport" EmbeddedForm="Directory_User_UpdateSeveralRecords_Shared"/>
+<WorkflowUpdateSeveralRecordsEntityForm RecordFilter="CurrentAndFuture" Identifier="Directory_User_UpdateSeveralRecords" EntityType="Workflow_Directory_User" MainProperty="Workflow_Directory_User:Directory_User" RecordProperty="Directory_User:Records" WorkflowRequestType="Self" Activity="Directory_User_UpdateSeveralRecords:Request" FormTitle_L1="Manage positions" RecordTable="Directory_User_UpdateSeveralRecords"> <MainControl OutputType="LayoutContainer"/> <RecordControl OutputType="TransformImport" EmbeddedForm="Directory_User_UpdateSeveralRecords_Shared"/>
   <RecordUniqueItemControl OutputType="TransformImport" EmbeddedForm="Directory_User_UpdateSeveralRecords_Base" />
 </WorkflowUpdateSeveralRecordsEntityForm>
 
@@ -1943,7 +1943,7 @@ not involved in the changes of this workflow.
 
 ```
 
-<WorkflowUpdateSeveralRecordsEntityForm RecordFilter="CurrentAndFuture" Identifier="Directory_User_UpdateSeveralRecords" EntityType="Workflow_Directory_User" MainProperty="Workflow_Directory_User:Directory_User" RecordProperty="Directory_User:Records" WorkflowRequestType="Self" Activity="Directory_User_UpdateSeveralRecords:Request" FormTitle_L1="Manage positions" RecordTable="Directory_User_UpdateSeveralRecords">  <MainControl OutputType="LayoutContainer"/>  <RecordControl OutputType="TransformImport" EmbeddedForm="Directory_User_UpdateSeveralRecords_Shared"/>  <RecordUniqueItemControl OutputType="TransformImport" EmbeddedForm="Directory_User_UpdateSeveralRecords_Base" />
+<WorkflowUpdateSeveralRecordsEntityForm RecordFilter="CurrentAndFuture" Identifier="Directory_User_UpdateSeveralRecords" EntityType="Workflow_Directory_User" MainProperty="Workflow_Directory_User:Directory_User" RecordProperty="Directory_User:Records" WorkflowRequestType="Self" Activity="Directory_User_UpdateSeveralRecords:Request" FormTitle_L1="Manage positions" RecordTable="Directory_User_UpdateSeveralRecords"> <MainControl OutputType="LayoutContainer"/> <RecordControl OutputType="TransformImport" EmbeddedForm="Directory_User_UpdateSeveralRecords_Shared"/> <RecordUniqueItemControl OutputType="TransformImport" EmbeddedForm="Directory_User_UpdateSeveralRecords_Base" />
   <RecordSlaveControl OutputType="TransformImport" EmbeddedForm="Directory_User_UpdateSeveralRecords_Base" />
 </WorkflowUpdateSeveralRecordsEntityForm>
 
@@ -1955,7 +1955,7 @@ not involved in the changes of this workflow.
 
 ```
 
-<WorkflowUpdateSeveralRecordsEntityForm RecordFilter="CurrentAndFuture" Identifier="Directory_User_UpdateSeveralRecords" EntityType="Workflow_Directory_User" MainProperty="Workflow_Directory_User:Directory_User" RecordProperty="Directory_User:Records" WorkflowRequestType="Self" Activity="Directory_User_UpdateSeveralRecords:Request" FormTitle_L1="Manage positions" RecordTable="Directory_User_UpdateSeveralRecords">  <MainControl OutputType="LayoutContainer"/>  <RecordControl OutputType="TransformImport" EmbeddedForm="Directory_User_UpdateSeveralRecords_Shared"/>  <RecordUniqueItemControl OutputType="TransformImport" EmbeddedForm="Directory_User_UpdateSeveralRecords_Base" />  <RecordSlaveControl OutputType="TransformImport" EmbeddedForm="Directory_User_UpdateSeveralRecords_Base" />
+<WorkflowUpdateSeveralRecordsEntityForm RecordFilter="CurrentAndFuture" Identifier="Directory_User_UpdateSeveralRecords" EntityType="Workflow_Directory_User" MainProperty="Workflow_Directory_User:Directory_User" RecordProperty="Directory_User:Records" WorkflowRequestType="Self" Activity="Directory_User_UpdateSeveralRecords:Request" FormTitle_L1="Manage positions" RecordTable="Directory_User_UpdateSeveralRecords"> <MainControl OutputType="LayoutContainer"/> <RecordControl OutputType="TransformImport" EmbeddedForm="Directory_User_UpdateSeveralRecords_Shared"/> <RecordUniqueItemControl OutputType="TransformImport" EmbeddedForm="Directory_User_UpdateSeveralRecords_Base" /> <RecordSlaveControl OutputType="TransformImport" EmbeddedForm="Directory_User_UpdateSeveralRecords_Base" />
   <RecordSlaveUniqueItemControl OutputType="TransformImport" EmbeddedForm="Directory_User_UpdateSeveralRecords_Shared" />
 </WorkflowUpdateSeveralRecordsEntityForm>
 
@@ -1977,7 +1977,7 @@ for the whole update request from the previously created workflow:
 
 ```
 
-<AccessControlRule Profile="Administrator" EntityType="Workflow_Directory_User" Identifier="Administrator_Workflows_Directory_User_*" DisplayName_L1="Administrator_Workflows_Directory_User_*">  <Entry Permission="/Custom/Workflows/Directory_User_UpdateSeveralRecords/Request/ActionPending" CanExecute="true" />  <Entry Permission="/Custom/Workflows/Directory_User_UpdateSeveralRecords/Request/RefinePending" CanExecute="true" />  <Entry Permission="/Custom/Workflows/Directory_User_UpdateSeveralRecords/Request/Aborted" CanExecute="true" />  <Entry Permission="/Custom/Workflows/Directory_User_UpdateSeveralRecords/Request/Purged" CanExecute="true" />  <Entry Permission="/Custom/Workflows/Directory_User_UpdateSeveralRecords/Review/ReviewPending" CanExecute="true" />  <Entry Permission="/Custom/Workflows/Directory_User_UpdateSeveralRecords/Review/RefinePending" CanExecute="true" />  <Entry Permission="/Custom/Workflows/Directory_User_UpdateSeveralRecords/Review/Aborted" CanExecute="true" />  <Entry Permission="/Custom/Workflows/Directory_User_UpdateSeveralRecords/Review/Purged" CanExecute="true" /></AccessControlRule>
+<AccessControlRule Profile="Administrator" EntityType="Workflow_Directory_User" Identifier="Administrator_Workflows_Directory_User_*" DisplayName_L1="Administrator_Workflows_Directory_User_*"> <Entry Permission="/Custom/Workflows/Directory_User_UpdateSeveralRecords/Request/ActionPending" CanExecute="true" /> <Entry Permission="/Custom/Workflows/Directory_User_UpdateSeveralRecords/Request/RefinePending" CanExecute="true" /> <Entry Permission="/Custom/Workflows/Directory_User_UpdateSeveralRecords/Request/Aborted" CanExecute="true" /> <Entry Permission="/Custom/Workflows/Directory_User_UpdateSeveralRecords/Request/Purged" CanExecute="true" /> <Entry Permission="/Custom/Workflows/Directory_User_UpdateSeveralRecords/Review/ReviewPending" CanExecute="true" /> <Entry Permission="/Custom/Workflows/Directory_User_UpdateSeveralRecords/Review/RefinePending" CanExecute="true" /> <Entry Permission="/Custom/Workflows/Directory_User_UpdateSeveralRecords/Review/Aborted" CanExecute="true" /> <Entry Permission="/Custom/Workflows/Directory_User_UpdateSeveralRecords/Review/Purged" CanExecute="true" /></AccessControlRule>
 
 ```
 
@@ -1996,9 +1996,9 @@ existing menu items list:
 
 ```
 
-<MenuItem Identifier="Menu_Directory_User" DisplayName_L1="Menu">  <MenuItem Identifier="Menu_Directory_User_Changes" DisplayName_L1="Actions">    <MenuItem Identifier="Menu_Directory_User_Changes_Update" DisplayName_L1="Section">      ...
+<MenuItem Identifier="Menu_Directory_User" DisplayName_L1="Menu"> <MenuItem Identifier="Menu_Directory_User_Changes" DisplayName_L1="Actions"> <MenuItem Identifier="Menu_Directory_User_Changes_Update" DisplayName_L1="Section"> ...
       <MenuItem Identifier="Menu_Directory_User_Changes_ManagePositions" DisplayName_L1="Manage Positions" IconCode="Edit" Workflow="Directory_User_UpdateSeveralRecords" />
-    </MenuItem>  </MenuItem></MenuItem>
+    </MenuItem> </MenuItem></MenuItem>
 
 ```
 
@@ -2040,7 +2040,7 @@ The example below creates a workflow to update only the user's `IsDraft` attribu
 
 ```
 
-<Workflow Identifier="Directory_User_ChangeIsDraft" DisplayName_L1="User - Update IsDraft" VariablesType="Workflow_Directory_User">  <Activity Identifier="Request" DisplayName_L1="Request" Template="ActionWithRefine" />  <Activity Identifier="Persist" DisplayName_L1="Commit" Template="Persist" /></Workflow>
+<Workflow Identifier="Directory_User_ChangeIsDraft" DisplayName_L1="User - Update IsDraft" VariablesType="Workflow_Directory_User"> <Activity Identifier="Request" DisplayName_L1="Request" Template="ActionWithRefine" /> <Activity Identifier="Persist" DisplayName_L1="Commit" Template="Persist" /></Workflow>
 
 ```
 
@@ -2055,7 +2055,7 @@ given user:
 
 ```
 
-<Form Identifier="Workflow_Directory_User_ChangeIsDraft_Base" EntityType="Workflow_Directory_User">  <Control DisplayName_L1="IsDraft" OutputType="LayoutRowset" EntityType="Directory_User">    <Control Binding="IsDraft" />  </Control></Form>
+<Form Identifier="Workflow_Directory_User_ChangeIsDraft_Base" EntityType="Workflow_Directory_User"> <Control DisplayName_L1="IsDraft" OutputType="LayoutRowset" EntityType="Directory_User"> <Control Binding="IsDraft" /> </Control></Form>
 
 ```
 
@@ -2094,8 +2094,8 @@ displays the `IsDraft` attribute that the user just changed:
 
 ```
 
-<WorkflowEditEntityForm Identifier="Workflow_Directory_User_ChangeIsDraft" EntityType="Workflow_Directory_User" MainProperty="Workflow_Directory_User:Directory_User" WorkflowRequestType="Self" Activity="Directory_User_ChangeIsDraft:Request" HideRoles="true" FormTitle_L1="Change IsDraft">  <MainControl OutputType="TransformImport" EmbeddedForm="Workflow_Directory_User_ChangeIsDraft_Base" />
-  <SummaryControl OutputType="LayoutContainer" EntityType="Directory_User">    <Control Binding="IsDraft" />  </SummaryControl>
+<WorkflowEditEntityForm Identifier="Workflow_Directory_User_ChangeIsDraft" EntityType="Workflow_Directory_User" MainProperty="Workflow_Directory_User:Directory_User" WorkflowRequestType="Self" Activity="Directory_User_ChangeIsDraft:Request" HideRoles="true" FormTitle_L1="Change IsDraft"> <MainControl OutputType="TransformImport" EmbeddedForm="Workflow_Directory_User_ChangeIsDraft_Base" />
+  <SummaryControl OutputType="LayoutContainer" EntityType="Directory_User"> <Control Binding="IsDraft" /> </SummaryControl>
 </WorkflowEditEntityForm>
 
 ```
@@ -2113,7 +2113,7 @@ for the whole update request from the previously created workflow:
 
 ```
 
-<AccessControlRule Profile="Administrator" EntityType="Workflow_Directory_User" Identifier="Administrator_Workflows_Directory_User_Internal*" DisplayName_L1="Administrator_Workflows_Directory_User_Internal*">  <Entry Permission="/Custom/Workflows/Directory_User_ChangeIsDraft/Request/ActionPending" CanExecute="true" />  <Entry Permission="/Custom/Workflows/Directory_User_ChangeIsDraft/Request/RefinePending" CanExecute="true" />  <Entry Permission="/Custom/Workflows/Directory_User_ChangeIsDraft/Request/Aborted" CanExecute="true" />  <Entry Permission="/Custom/Workflows/Directory_User_ChangeIsDraft/Request/Purged" CanExecute="true" /></AccessControlRule>
+<AccessControlRule Profile="Administrator" EntityType="Workflow_Directory_User" Identifier="Administrator_Workflows_Directory_User_Internal*" DisplayName_L1="Administrator_Workflows_Directory_User_Internal*"> <Entry Permission="/Custom/Workflows/Directory_User_ChangeIsDraft/Request/ActionPending" CanExecute="true" /> <Entry Permission="/Custom/Workflows/Directory_User_ChangeIsDraft/Request/RefinePending" CanExecute="true" /> <Entry Permission="/Custom/Workflows/Directory_User_ChangeIsDraft/Request/Aborted" CanExecute="true" /> <Entry Permission="/Custom/Workflows/Directory_User_ChangeIsDraft/Request/Purged" CanExecute="true" /></AccessControlRule>
 
 ```
 
@@ -2132,9 +2132,9 @@ existing menu items list:
 
 ```
 
-<MenuItem Identifier="Menu_Directory_User" DisplayName_L1="Menu">  <MenuItem Identifier="Menu_Directory_User_Changes" DisplayName_L1="Actions">    <MenuItem Identifier="Menu_Directory_User_Changes_Update" DisplayName_L1="Section">      ...
+<MenuItem Identifier="Menu_Directory_User" DisplayName_L1="Menu"> <MenuItem Identifier="Menu_Directory_User_Changes" DisplayName_L1="Actions"> <MenuItem Identifier="Menu_Directory_User_Changes_Update" DisplayName_L1="Section"> ...
       <MenuItem Identifier="Menu_Directory_User_Changes_ChangeIsDraft" DisplayName_L1="Change IsDraft" IconCode="Edit" Workflow="Directory_User_ChangeIsDraft" />
-    </MenuItem>  </MenuItem></MenuItem>
+    </MenuItem> </MenuItem></MenuItem>
 
 ```
 
@@ -2216,7 +2216,7 @@ for example.
 
 ### Form types
 
-Identity Manager provides a few form types. Each form type implies the necessity of specific
+Identity Manager provides a few form types. Each form type implies the necessity of specific
 controls as child elements with specific purposes.
 
 The following table presents the required child controls required for each form type applicable to a
@@ -2284,7 +2284,7 @@ follow the naming rule:
 A permission specifying the activity without the activity state gives the permissions for all
 activity states in this activity.
 
-For example: `Permission="/Custom/Workflows/Directory_User_StartInternal/Request"`  
+For example: `Permission="/Custom/Workflows/Directory_User_StartInternal/Request"`
 **Caution**: this way of writing permissions is unsafe in case of a modification in the activity. So
 use it only for a "super admin" kind of profile if you are certain you want to give all rights.
 
@@ -2303,7 +2303,7 @@ Identity Manager's UI is configured so that workflows are accesible from:
 ## Aspects
 
 An [Aspects](/docs/identitymanager/6.2/integration/workflows/workflow-configuration.md) definition allows an action to
-be performed at a specific point in a workflow. Identity Manager provides a few
+be performed at a specific point in a workflow. Identity Manager provides a few
 [Aspects](/docs/identitymanager/6.2/integration/workflows/workflow-configuration.md) templates that give the
 opportunity to delegate administration, to notify people of a request's progress and to compute
 special values like unique logins or email addresses.
@@ -2352,7 +2352,7 @@ Workflow in Identity Manager :
 
 ```
 
-<Workflow Identifier="User_Onboarding" DisplayName_L1="User - New Employee" VariablesType="Workflow_User">    <Activity Identifier="Request" DisplayName_L1="Request" Template="ActionWithRefine" />    <Activity Identifier="PersistDraft" DisplayName_L1="Draft Creation" Template="PersistOnlyResources" />    <Activity Identifier="Review" DisplayName_L1="Review" Template="ReviewWithFeedback" />    <Activity Identifier="Persist" DisplayName_L1="Commit" Template="Persist" /></Workflow>
+<Workflow Identifier="User_Onboarding" DisplayName_L1="User - New Employee" VariablesType="Workflow_User"> <Activity Identifier="Request" DisplayName_L1="Request" Template="ActionWithRefine" /> <Activity Identifier="PersistDraft" DisplayName_L1="Draft Creation" Template="PersistOnlyResources" /> <Activity Identifier="Review" DisplayName_L1="Review" Template="ReviewWithFeedback" /> <Activity Identifier="Persist" DisplayName_L1="Commit" Template="Persist" /></Workflow>
 
 ```
 
@@ -2371,7 +2371,7 @@ to be modified. Here is an example to create the user change name Workflow in Id
 
 ```
 
-<Workflow Identifier="User_ChangeName" DisplayName_L1="Collaborateur - Changement du nom" VariablesType="Workflow_User">    <Activity Identifier="Request" DisplayName_L1="Request" Template="ActionWithRefine" />    <Activity Identifier="Persist" DisplayName_L1="Commit" Template="Persist" /></Workflow>
+<Workflow Identifier="User_ChangeName" DisplayName_L1="Collaborateur - Changement du nom" VariablesType="Workflow_User"> <Activity Identifier="Request" DisplayName_L1="Request" Template="ActionWithRefine" /> <Activity Identifier="Persist" DisplayName_L1="Commit" Template="Persist" /></Workflow>
 
 ```
 
@@ -2383,7 +2383,7 @@ the resource modifications Workflow in Identity Manager :
 
 ```
 
-<Workflow Identifier="User_ResourcesUpdate" DisplayName_L1="Collaborateur - Gerer les droits" VariablesType="Workflow_Directory_User">    <Activity Identifier="Request" DisplayName_L1="Request" Template="ActionWithRefine" />    <Activity Identifier="Persist" DisplayName_L1="Commit" Template="Persist" /></Workflow>
+<Workflow Identifier="User_ResourcesUpdate" DisplayName_L1="Collaborateur - Gerer les droits" VariablesType="Workflow_Directory_User"> <Activity Identifier="Request" DisplayName_L1="Request" Template="ActionWithRefine" /> <Activity Identifier="Persist" DisplayName_L1="Commit" Template="Persist" /></Workflow>
 
 ```
 
@@ -2395,7 +2395,7 @@ offboarding Workflow in Identity Manager:
 
 ```
 
-<Workflow Identifier="User_Offboarding" DisplayName_L1="Depart d'un collaborateur" VariablesType="Workflow_User">    <Activity Identifier="Request" DisplayName_L1="Request" Template="ActionWithRefine" />    <Activity Identifier="Persist" DisplayName_L1="Commit" Template="Persist" /></Workflow>
+<Workflow Identifier="User_Offboarding" DisplayName_L1="Depart d'un collaborateur" VariablesType="Workflow_User"> <Activity Identifier="Request" DisplayName_L1="Request" Template="ActionWithRefine" /> <Activity Identifier="Persist" DisplayName_L1="Commit" Template="Persist" /></Workflow>
 
 ```
 
@@ -2434,7 +2434,7 @@ allow to define customized filters for a homonym detection.
 #### Simple filter
 
 ```
-<HomonymEntityLink FormEntityType="Directory_UserRecord" Identifier="Directory_UserRecord_Homonym">    <Filter
+<HomonymEntityLink FormEntityType="Directory_UserRecord" Identifier="Directory_UserRecord_Homonym"> <Filter
         Property1="LastName"
         Property2="FirstName"
     /></HomonymEntityLink>
@@ -2456,14 +2456,14 @@ A homonym entity link can contain filters on the properties from several distinc
 >
 > ```
 >
-> <HomonymEntityLink FormEntityType="Directory_UserRecord" Identifier="Directory_UserRecord">  <Filter
->       Property1="LastName"
->       Property2="FirstName"
->   />
->   <Filter
->       Property1="LastName" ComparisonProperty1="Directory_Guest:LastName"
->       Property2="FirstName" ComparisonProperty2="Directory_Guest:FirstName"
->    />
+> <HomonymEntityLink FormEntityType="Directory_UserRecord" Identifier="Directory_UserRecord"> <Filter
+> Property1="LastName"
+> Property2="FirstName"
+> />
+> <Filter
+> Property1="LastName" ComparisonProperty1="Directory_Guest:LastName"
+> Property2="FirstName" ComparisonProperty2="Directory_Guest:FirstName"
+> />
 > </HomonymEntityLink>
 >
 > ```
@@ -2480,7 +2480,7 @@ A filter can be defined to compare the values in an approximate way.
 1. When the input detection value is retrieved directly from the property value
 
    ```
-   <HomonymEntityLink FormEntityType="Directory_UserRecord" Identifier="Directory_UserRecord_Homonym">    <Filter
+   <HomonymEntityLink FormEntityType="Directory_UserRecord" Identifier="Directory_UserRecord_Homonym"> <Filter
            Property1="LastName" ComparisonProperty1="PhoneticLastName" Operator1="FlexibleEqual"
            Property2="FirstName" ComparisonProperty2="PhoneticFirstName" Operator2="FlexibleEqual"
        /></HomonymEntityLink>
@@ -2497,9 +2497,9 @@ the input value.
 2. When the input detection value is deducted
 
    ```
-   <HomonymEntityLink FormEntityType="Directory_UserRecord" Identifier="Directory_UserRecord_Homonym">    <Filter
+   <HomonymEntityLink FormEntityType="Directory_UserRecord" Identifier="Directory_UserRecord_Homonym"> <Filter
            ComparisonProperty1="PhoneticFirstLastName" Operator1="FlexibleEqual"
-       />    <Filter
+       /> <Filter
            ComparisonProperty1="PhoneticFirstLastName" Operator1="FlexibleEqual" Expression1="C#:record:(record.LastName + ' ' + record.FirstName).Appproximate()"
        /></HomonymEntityLink>
 
@@ -2524,7 +2524,7 @@ If a filter is set on a language property, the detection for homonyms is perform
 associated to the main language.
 
 ```
-<HomonymEntityLink FormEntityType="Directory_Organization" Identifier="Directory_Organization_Homonym">    <Filter Property1="Name" /></HomonymEntityLink>
+<HomonymEntityLink FormEntityType="Directory_Organization" Identifier="Directory_Organization_Homonym"> <Filter Property1="Name" /></HomonymEntityLink>
 
 ```
 
@@ -2545,7 +2545,7 @@ where the `HomonymEntityLink` attribute is the identifier of the homonym entity 
 
 ```
 <DisplayTable Identifier="Directory_UserRecord_Homonym" EntityType="Directory_UserRecord" DisplayTableDesignElement="table" HomonymEntityLink="Directory_UserRecord">
-    <Column DefaultSortPriority="1" DisplayBinding="LastName" IsDisplayInSummaryView="true" IsResizable="true" ColumnSize="1" />    <Column DisplayBinding="FirstName" IsDisplayInSummaryView="true" IsResizable="true" ColumnSize="1" />    <Column DisplayBinding="Login" IsDisplayInSummaryView="true" IsResizable="true" IsSortable="true" CanBeFiltered="true" ColumnSize="2" />    <Column DisplayBinding="Mail" IsDisplayInSummaryView="true" IsResizable="true" IsSortable="true" CanBeFiltered="true" ColumnSize="2" />    <Column DisplayBinding="BirthDate" IsDisplayInSummaryView="true" IsResizable="true" IsSortable="true" CanBeFiltered="true" ColumnSize="4" /></DisplayTable>
+    <Column DefaultSortPriority="1" DisplayBinding="LastName" IsDisplayInSummaryView="true" IsResizable="true" ColumnSize="1" /> <Column DisplayBinding="FirstName" IsDisplayInSummaryView="true" IsResizable="true" ColumnSize="1" /> <Column DisplayBinding="Login" IsDisplayInSummaryView="true" IsResizable="true" IsSortable="true" CanBeFiltered="true" ColumnSize="2" /> <Column DisplayBinding="Mail" IsDisplayInSummaryView="true" IsResizable="true" IsSortable="true" CanBeFiltered="true" ColumnSize="2" /> <Column DisplayBinding="BirthDate" IsDisplayInSummaryView="true" IsResizable="true" IsSortable="true" CanBeFiltered="true" ColumnSize="4" /></DisplayTable>
 
 ```
 
@@ -2564,8 +2564,8 @@ Indeed, a filter can only be defined on up to 5 properties, see filter definitio
 [ Homonym Entity Link ](/docs/identitymanager/6.2/integration/workflows/workflow-configuration.md).
 
 ```
-<Form Identifier="Workflow_Directory_User_AdvancedStartInternal_Base" EntityType="Directory_UserRecord">    <Control DisplayName_L1="Personal Data" DisplayName_L2="Informations personnelles" OutputType="LayoutFieldset" HomonymEntityLink="Directory_UserRecord">
-        <Control DisplayName_L1="Full Name" DisplayName_L2="Nom complet" OutputType="LayoutRowset">            <Control Binding="LastName" IsRequired="true" />            <Control Binding="FirstName" IsRequired="true" />        </Control>    </Control></Form>
+<Form Identifier="Workflow_Directory_User_AdvancedStartInternal_Base" EntityType="Directory_UserRecord"> <Control DisplayName_L1="Personal Data" DisplayName_L2="Informations personnelles" OutputType="LayoutFieldset" HomonymEntityLink="Directory_UserRecord">
+        <Control DisplayName_L1="Full Name" DisplayName_L2="Nom complet" OutputType="LayoutRowset"> <Control Binding="LastName" IsRequired="true" /> <Control Binding="FirstName" IsRequired="true" /> </Control> </Control></Form>
 
 ```
 
@@ -2577,7 +2577,7 @@ In the example below, the properties used in the `Expression1` attribute that mu
 the control bindings are `LastName` and `FirstName`.
 
 ```
-<HomonymEntityLink FormEntityType="Directory_UserRecord" Identifier="Directory_UserRecord_Homonym">    <Filter
+<HomonymEntityLink FormEntityType="Directory_UserRecord" Identifier="Directory_UserRecord_Homonym"> <Filter
         ComparisonProperty1="PhoneticFirstLastName" Operator1="FlexibleEqual" Expression1="C#:record:(record.LastName + ' ' + record.FirstName).Appproximate()"
     /></HomonymEntityLink>
 

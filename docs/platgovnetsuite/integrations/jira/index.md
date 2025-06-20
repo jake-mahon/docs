@@ -70,7 +70,7 @@ To take advantage of the automatic synchronization feature, we recommend reviewi
 statuses to be mapped to the Change Management statuses. When a ticket status is updated to a mapped
 status, Platform Governance for NetSuite handles the synchronization between Jira and NetSuite.
 
-The mapping allows multiple Jira statuses to map to each Change Request status.  
+The mapping allows multiple Jira statuses to map to each Change Request status.
 The mapping is part of the Configure NetSuite and Jira procedure.
 
 Refer to the Atlassian documentation for instructions on
@@ -89,7 +89,7 @@ Refer to the Atlassian documentation for instructions on
 1. Open **Strongpoint** > **Strongpoint Support** > **Installation Settings**
 2. Click **Edit** by the latest report to open **Configuration and Stats**.
 3. Open the **Jira Integration** tab.
-4. Enter your **Jira User name** and the **Jira Token**. Refer to the
+4. Enter your **Jira User name** and the **Jira Token**. Refer to the
    [Atlassian documentation](https://confluence.atlassian.com/cloud/api-tokens-938839638.html) to
    obtain a Token
 5. Enter the mappings between your Jira statuses and the Change Request statuses. For best practice,
@@ -112,7 +112,7 @@ Refer to the Atlassian documentation for instructions on
 
    ![Jira Integration settings with mapped statues](/img/product_docs/platgovnetsuite/release_notes/jira_example_integration.webp)
 
-7. Check **Allow NS to Jira Push** to enable pushing NetSuite change requests into Jira.
+7. Check **Allow NS to Jira Push** to enable pushing NetSuite change requests into Jira.
 8. Click **Save**.
 9. Open **Customization** > **Scripting** > **Scripts**.
 10. **View** the Suitelet script **STRONGPOINT Return Jira Ticket Info**
@@ -141,7 +141,7 @@ Refer to the Atlassian documentation for instructions on
 
 Consider creating an _Integration User_ for your users to enter for the Jira Credentials. For
 accounts that use Two Factor Authentication (2FA) or Single Sign On (SSO), the _Integration User_
-can be configured with a limited role not requiring 2FA or SSO. The only requirement is the user
+can be configured with a limited role not requiring 2FA or SSO. The only requirement is the user
 must have access granted for the **Strongpoint Developer Role**.
 
 ### Set Up Token Based Authentication
@@ -150,14 +150,14 @@ Token Based Authentication is set up through NetSuite. Here is the basic process
 
 1. NetSuite Administrator creates an Integration Record for the Platform Governance for NetSuite
    application. This only needs to be performed once per account. Open **Setup** > **Integration** >
-   **Integration Management** > **Manage Integrations** > **New**  
+   **Integration Management** > **Manage Integrations** > **New**
    Refer to the NetSuite help
-   [Create Integration Records for Applications to Use TBA](https://netsuite.custhelp.com/app/answers/detail/a_id/82077/kw/tba).  
+   [Create Integration Records for Applications to Use TBA](https://netsuite.custhelp.com/app/answers/detail/a_id/82077/kw/tba).
    To
    view a list of integration records in this account, open **Setup** > **Integration** >
    **Integration Management** > **Manage Integrations**.
 2. Each user creates their token in NetSuite. Refer to the
-   [NetSuite help Manage TBA Tokens in the NetSuite UI](https://netsuite.custhelp.com/app/answers/detail/a_id/41902)
+   [NetSuite help Manage TBA Tokens in the NetSuite UI](https://netsuite.custhelp.com/app/answers/detail/a_id/41902)
    for details. Once you have created your tokens, add them to Jira.
 3. Open **Jira**.
 4. Open your **Projects** page:

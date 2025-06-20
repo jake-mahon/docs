@@ -6,11 +6,11 @@ const sidebars = {
     {
       type: 'doc',
       id: 'index',
-      label: '🏠 Access Analyzer 11.6',
+      label: 'Access Analyzer 11.6',
     },
     {
       type: 'category',
-      label: '🚀 Getting Started',
+      label: 'Getting Started',
       collapsed: false,
       items: [
         'getting-started/overview',
@@ -29,7 +29,7 @@ const sidebars = {
     },
     {
       type: 'category',
-      label: '⚙️ Installation',
+      label: 'Installation',
       collapsed: true,
       items: [
         'installation/overview',
@@ -80,7 +80,7 @@ const sidebars = {
     },
     {
       type: 'category',
-      label: '🛡️ Administration',
+      label: 'Administration',
       collapsed: true,
       items: [
         'administration/navigation',
@@ -151,7 +151,7 @@ const sidebars = {
     },
     {
       type: 'category',
-      label: '📊 Data Collection',
+      label: 'Data Collection',
       collapsed: true,
       items: [
         {
@@ -207,7 +207,7 @@ const sidebars = {
     },
     {
       type: 'category',
-      label: '🔍 Analysis and Actions',
+      label: 'Analysis and Actions',
       collapsed: true,
       items: [
         {
@@ -241,7 +241,7 @@ const sidebars = {
     },
     {
       type: 'category',
-      label: '💡 Solutions',
+      label: 'Solutions',
       collapsed: true,
       items: [
         {
@@ -335,7 +335,7 @@ const sidebars = {
     },
     {
       type: 'category',
-      label: '📋 Configuration Guides',
+      label: 'Configuration Guides',
       collapsed: true,
       items: [
         {
@@ -380,7 +380,7 @@ const sidebars = {
     },
     {
       type: 'category',
-      label: '🔒 Security and Compliance',
+      label: 'Security and Compliance',
       collapsed: true,
       items: [
         {

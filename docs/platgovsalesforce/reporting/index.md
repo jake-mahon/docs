@@ -19,10 +19,10 @@ You can define and save your own reports.
 - You can filter test scripts from regular scripts. Test scripts can be queried to review test
   coverage and determine if they being used.
 
-To access all reports, the following setting must be enabled:  
-Open **Strongpoint** > **Scanner** > **Scheduler**  
- **PermissionSet Assignment** and **System Permission** must be **Enabled**, and the **Frequency**
-set to **Daily**.  
+To access all reports, the following setting must be enabled:
+Open **Strongpoint** > **Scanner** > **Scheduler**
+**PermissionSet Assignment** and **System Permission** must be **Enabled**, and the **Frequency**
+set to **Daily**.
 If you have questions, contact your CSM or Salesforce Specialist.
 
 ![Enabling reports](/img/product_docs/platgovsalesforce/reports/access_reports_enabled.webp)

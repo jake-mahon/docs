@@ -8,7 +8,7 @@ company.
 "Identities' lifecycles" mean any Joiners, Movers and Leavers (JML) process, i.e. staff changes,
 i.e. any user's onboarding, position modification and offboarding.
 
-[See more information on the identity repository](/docs/identitymanager/6.1/identity-management/identity-repository.md).  
+[See more information on the identity repository](/docs/identitymanager/6.1/identity-management/identity-repository.md).
 [See how Usercube handles the Joiners, Movers and Leavers (JML) process](/docs/identitymanager/6.1/identity-management/joiners-movers-leavers/index.md).
 
 Identities in Usercube are mostly humans, both internal and external workers, but can also be
@@ -27,5 +27,5 @@ Additional interesting parts of identity management are:
   computation of the
   [role model](/docs/identitymanager/6.1/core-concepts/role-model.md).
 
-[See more information about synchronization](/docs/identitymanager/6.1/automation/synchronization/index.md).  
+[See more information about synchronization](/docs/identitymanager/6.1/automation/synchronization/index.md).
 [See more information about provisioning](/docs/identitymanager/6.1/identity-management/provisioning/index.md).

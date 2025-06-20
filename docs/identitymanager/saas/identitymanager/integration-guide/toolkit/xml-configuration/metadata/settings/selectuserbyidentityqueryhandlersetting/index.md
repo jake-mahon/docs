@@ -2,7 +2,7 @@
 
 This attribute matches an end-user with a resource from the central repository.
 
-Authorization mechanisms within Identity Manager rely on assigning a profile to a resource that
+Authorization mechanisms within Identity Manager rely on assigning a profile to a resource that
 stands for the end-user digital identity.
 
 To that end, end-user authentication credentials are linked to such an identity using the following
@@ -15,7 +15,7 @@ pattern:
 4. the matching resource is used to find a profile and authorization for that digital identity.
 
 After modifying the authentication mode via `SelectUserByIdentityQueryHandlerSetting`, Identity
-Manager server must be restarted. On a SaaS environment, contact your Identity Manager
+Manager server must be restarted. On a SaaS environment, contact your Identity Manager
 administrator.
 
 ## Examples

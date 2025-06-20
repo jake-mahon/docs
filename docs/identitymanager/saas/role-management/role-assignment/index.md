@@ -90,7 +90,7 @@ cost.
 Assignments do not have to be automated all at once.
 
 On the one hand, before being automatically assigned, entitlements can be merely suggested by
-Identity Manager and assigned manually.
+Identity Manager and assigned manually.
 
 On the other hand, a distinction can be made between assignments according to their sensitivity, for
 example using different error rates, or using simulation, or automating the assignment of basic
@@ -168,7 +168,7 @@ The process of assignment automation is the following:
 
    For example, suppose an organization working with many distinct departments. If you see that the
    automation rate skyrockets when the error rate reaches the number of workers in one department,
-   then it probably means that Identity Manager misses data concerning one of the departments. Thus
+   then it probably means that Identity Manager misses data concerning one of the departments. Thus
    the error rate allows Identity Manager to "ignore" one of the departments in the organization,
    and optimize automation.
 
@@ -255,7 +255,7 @@ end date:
 - When assigning an entitlement to a user manually, the start and end dates are specified explicitly
   unless the end date is locked. See the
   [Create a Role Manually](/docs/identitymanager/saas/role-management/index.md)
-  topic for additional information.
+  topic for additional information.
 - When assigning entitlements to users via assignment rules, the start and end dates are based on
   the owner's data, for example their contract or position start/end dates. These assignments are
   automatic.
@@ -263,7 +263,7 @@ end date:
 Netwrix recommends always preferring calculated assignments over manual ones, because calculated
 assignments follow the changes in their owners' data and are consequently more secure.
 
-For example, consider a user Helen who starts working as an architect with a given role.  
+For example, consider a user Helen who starts working as an architect with a given role.
 When assigning the role manually, when Helen changes her job, her manager will have to remove the
 role manually. When assigning the role via a rule, when Helen changes a job, the role will be
 removed automatically.
@@ -441,7 +441,7 @@ a role assignment rule, and if this assignment doesn't comply with the new versi
 the corresponding role is automatically removed.
 
 A modification in a role assignment rule can trigger the removal of a role only on the Identity
-Manager side. There are several barriers to cross before said role is removed from the managed
+Manager side. There are several barriers to cross before said role is removed from the managed
 system.
 
 > For example, consider a single role rule that assigns the single role
@@ -554,7 +554,7 @@ Act on an existing identity by proceeding as follows:
 
    ````
    <img
-     src="/buttons/Home_roleReview_V523.webp"  alt="Home Page - Role Review"  style=""/>
+     src="/buttons/Home_roleReview_V523.webp" alt="Home Page - Role Review" style=""/>
 
    ```In this case, the requested entitlement will be displayed in the user's \*\*View Permissions\*\* tab only after the request is reviewed.
    ````

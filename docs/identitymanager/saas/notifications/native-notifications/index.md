@@ -1,6 +1,6 @@
 # Native Notifications
 
-Identity Manager provides native notifications for usual cases, for example role review,
+Identity Manager provides native notifications for usual cases, for example role review,
 provisioning review, access certification, manual provisioning, etc.
 
 ## Overview
@@ -14,7 +14,7 @@ Identity Manager natively sends notifications for:
 - Jobs that finished in state completed/errored/aborted/blocked/warning to the users who own a
   profile with the corresponding permissions.
 
-Concerning the notifications sent via permissions:  
+Concerning the notifications sent via permissions:
 In order to receive the notifications, a profile must have the full permission path. Having a
 (great-)parent permission will not enable notifications for all child entities.
 

@@ -40,9 +40,9 @@ With Integration API you can write Activity Records to the SQL Server-based Audi
 access audit data from remote computers. Also, Netwrix prepares add-ons—sample scripts—to help you
 integrate your SIEM solutions with Netwrix Auditor.
 
-Netwrix Auditor Integration API Service is responsible for processing API requests. This component
+Netwrix Auditor Integration API Service is responsible for processing API requests. This component
 is installed along with Netwrix Auditor Server and is enabled automatically. By default, Netwrix
-Auditor Integration API works over HTTPS protocol using an automatically generated certificate.
+Auditor Integration API works over HTTPS protocol using an automatically generated certificate.
 Default communication port is 9699.
 
 Netwrix does not limit you with applications that can be used with Integration API. You can write

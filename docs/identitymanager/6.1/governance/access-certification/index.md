@@ -79,7 +79,7 @@ so you need to give the permissions on the correct contexts:
 
 ```
 
-<AccessControlRule Profile="Administrator" EntityType="Dimension0" Identifier="Administrator_AccessCertificationCampaign_Dimension0" DisplayName_L1="Administrator_AccessCertificationCampaigns">  <Entry Permission="/AccessCertification/AccessCertificationCampaign/Create" />  <Entry Permission="/AccessCertification/AccessCertificationCampaign/Update" /></AccessControlRule>
+<AccessControlRule Profile="Administrator" EntityType="Dimension0" Identifier="Administrator_AccessCertificationCampaign_Dimension0" DisplayName_L1="Administrator_AccessCertificationCampaigns"> <Entry Permission="/AccessCertification/AccessCertificationCampaign/Create" /> <Entry Permission="/AccessCertification/AccessCertificationCampaign/Update" /></AccessControlRule>
 
 ```
 
@@ -103,7 +103,7 @@ This example shows how to set the scope of responsibility for the `Manager` prof
 <AccessControlRule Identifier="Manager_AccessCertificationItem_Custom_AccessCertification_AutoAssign_Directory_User"
   DisplayName_L1="Organization Manager - Access certification auto assign"
   EntityType="AccessCertificationItem"
-  Profile="Manager">    <Filter Binding="Owner.Directory_User:MainRecord.Organization.Id" Dimension="Organization0" />    ...
+  Profile="Manager"> <Filter Binding="Owner.Directory_User:MainRecord.Organization.Id" Dimension="Organization0" /> ...
 </AccessControlRule>
 
 ```
@@ -138,10 +138,10 @@ This example completes the previous one by adding the automatic assignment capab
 
 ```
 
-<AccessControlRule      Identifier="Manager_AccessCertificationItem_Custom_AccessCertification_AutoAssign_Directory_User"
+<AccessControlRule Identifier="Manager_AccessCertificationItem_Custom_AccessCertification_AutoAssign_Directory_User"
   DisplayName_L1="Organization Manager - Access certification auto assign"
   EntityType="AccessCertificationItem"
-  Profile="Manager">    <Filter Binding="Owner.Directory_User:MainRecord.Organization.Id" Dimension="Organization0" />    <Entry CanExecute="true" Permission="/Custom/AccessCertification/AutoAssigned/Directory_User" /></AccessControlRule>
+  Profile="Manager"> <Filter Binding="Owner.Directory_User:MainRecord.Organization.Id" Dimension="Organization0" /> <Entry CanExecute="true" Permission="/Custom/AccessCertification/AutoAssigned/Directory_User" /></AccessControlRule>
 
 ```
 
@@ -163,7 +163,7 @@ permission.
 
 ```
 
-<AccessControlRule Identifier="Manager_AccessCertificationItem_Custom_AccessCertification_ManualAssign_Directory_User" DisplayName_L1="User - Access certification manual assign" EntityType="AccessCertificationItem" Profile="Manager">    <Entry CanExecute="true" Permission="/Custom/AccessCertification/ManualAssigned/Directory_User" />  </AccessControlRule>
+<AccessControlRule Identifier="Manager_AccessCertificationItem_Custom_AccessCertification_ManualAssign_Directory_User" DisplayName_L1="User - Access certification manual assign" EntityType="AccessCertificationItem" Profile="Manager"> <Entry CanExecute="true" Permission="/Custom/AccessCertification/ManualAssigned/Directory_User" /> </AccessControlRule>
 
 ```
 
@@ -207,7 +207,7 @@ by adding a filter on the campaign policy.
   Identifier="Manager_AccessCertificationItem_Custom_AccessCertification_AutoAssign_Directory_User"
   DisplayName_L1="Organization Manager - Access certification auto assign"
   EntityType="AccessCertificationItem"
-  Profile="Manager">    <Filter Binding="Owner.Directory_User:MainRecord.Organization.Id" Dimension="Organization0" />    <Filter Binding="Campaign.Policy.Identifier" Value="Manager"/>    <Entry CanExecute="true" Permission="/Custom/AccessCertification/AutoAssigned/Directory_User" /></AccessControlRule>
+  Profile="Manager"> <Filter Binding="Owner.Directory_User:MainRecord.Organization.Id" Dimension="Organization0" /> <Filter Binding="Campaign.Policy.Identifier" Value="Manager"/> <Entry CanExecute="true" Permission="/Custom/AccessCertification/AutoAssigned/Directory_User" /></AccessControlRule>
 
 ```
 
@@ -227,7 +227,7 @@ The user needs to have the correct permission to launch the item processing:
 
 ```
 
-<AccessControlRule Profile="Administrator" EntityType="AccessCertificationCampaign" Identifier="Administrator_AccessCertificationCampaign_Process" DisplayName_L1="Administrator_AccessCertificationCampaigns">  <Entry Permission="/AccessCertification/AccessCertificationCampaign/Process" /></AccessControlRule>
+<AccessControlRule Profile="Administrator" EntityType="AccessCertificationCampaign" Identifier="Administrator_AccessCertificationCampaign_Process" DisplayName_L1="Administrator_AccessCertificationCampaigns"> <Entry Permission="/AccessCertification/AccessCertificationCampaign/Process" /></AccessControlRule>
 
 ```
 

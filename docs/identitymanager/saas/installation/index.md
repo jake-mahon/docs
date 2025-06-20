@@ -1,6 +1,6 @@
 # Installation Guide
 
-This guide is designed to help you install Identity Manager in a production environment.
+This guide is designed to help you install Identity Manager in a production environment.
 
 ## Target Audience
 
@@ -14,7 +14,7 @@ Required knowledge includes:
 
 ## Overview
 
-The installation of Identity Manager requires architectural decisions to be made. An
+The installation of Identity Manager requires architectural decisions to be made. An
 [ Overview ](/docs/identitymanager/saas/installation/overview.md) of the architecture and available configurations will help you make
 informed decisions.
 
@@ -49,7 +49,7 @@ The documentation is not yet available for this part and will be completed in th
 
 ## Verify Environment Installation
 
-In order to verify the process, try to authenticate to Identity Manager server, and access the
+In order to verify the process, try to authenticate to Identity Manager server, and access the
 configuration screens.
 
 ## Next Steps
@@ -62,7 +62,7 @@ Once the development environment is ready, integrators can start to
 - [ Plan Change Management ](/docs/identitymanager/saas/toolkit/deploy-configuration.md)
 
   How to anticipate the deep changes in the organization's applications and processes due to
-  Identity Manager installation as a new IGA tool.
+  Identity Manager installation as a new IGA tool.
 
 - [ Install the Production Agent ](/docs/identitymanager/saas/installation/production-setup/agent.md)
 

@@ -7,7 +7,7 @@ sensitive. See the [Search Features](/docs/accessinformationcenter/12.0/resource
 sensitive data being reviewed is identified in the upper-left corner. The data within these reports
 is collected by the Access Analyzer solutions which provide data to the Resource reports. See the
 desired solution topic in the
-[Netwrix Access Analyzer Documentation](https://helpcenter.netwrix.com/category/accessanalyzer) for
+[Netwrix Access Analyzer Documentation](https://helpcenter.netwrix.com/category/accessanalyzer) for
 additional information.
 
 In order to view populated Content reports, it is necessary to enable the **Store discovered

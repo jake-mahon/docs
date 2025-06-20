@@ -21,7 +21,7 @@ Privilege Secure can be consumed as an 'on-premises' solution. A scaled-down dep
 
   - [High Availability (HA) and Disaster Recovery (DR) Options](/docs/privilegesecure/4.2/discovery/requirements/ha-and-dr.md)
 
-Privilege Secure Deployed on VMWare OR Cloud (Azure, AWS, GCP)
+Privilege Secure Deployed on VMWare OR Cloud (Azure, AWS, GCP)
 
 - [Hosting Requirements](#hosting-requirements)
 - [Microsoft Active Directory Accounts](#microsoft-active-directory-accounts)
@@ -149,11 +149,11 @@ impact.
 In order forPrivilege Secure to properly gather the list of local administrators, the Privilege
 Secure service account either needs to be a local administrator of the destination system OR the
 remote system needs to be configured with the proper permissions to allow the Privilege Secure
-service account to have the ability to remotely read the local administrative group. 
+service account to have the ability to remotely read the local administrative group.
 
 Privilege SecureE requires two GPOs to be created for managing computers successfully. The method
 required uses Group Policy Preferences (GPP). There are separate guides depending on the Domain
-Controller version. 
+Controller version.
 
 - 2008-2012 Domain Controllers –
   [Scan GPO Guide (Server 2012 or 2008 Domain Controllers)](/docs/privilegesecure/4.2/discovery/configuration/gpo-scanning/server-2012-2008.md)
@@ -162,7 +162,7 @@ Controller version. 
 
 Microsoft by default (Windows 2016 & Windows 10 Creators Edition or later) restricted the ability to
 remotely enumerate members of local groups including the local Administrators group. Older operating
-systems _can_ be configured with the same functionality. That applies to these OSs: 
+systems _can_ be configured with the same functionality. That applies to these OSs:
 
 - Windows 10, version 1607 and later
 - Windows 10, version 1511 with KB 4103198 installed

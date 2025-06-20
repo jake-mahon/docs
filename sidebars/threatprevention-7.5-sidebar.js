@@ -6,11 +6,11 @@ const sidebars = {
     {
       type: 'doc',
       id: 'index',
-      label: '🏠 Threat Prevention 7.5',
+      label: 'Threat Prevention 7.5',
     },
     {
       type: 'category',
-      label: '🚀 Getting Started',
+      label: 'Getting Started',
       collapsed: false,
       items: [
         'gettingstarted',
@@ -36,7 +36,7 @@ const sidebars = {
     },
     {
       type: 'category',
-      label: '⚙️ Installation & Setup',
+      label: 'Installation & Setup',
       collapsed: true,
       items: [
         'install/overview',
@@ -85,7 +85,7 @@ const sidebars = {
     },
     {
       type: 'category',
-      label: '🛡️ Administration',
+      label: 'Administration',
       collapsed: true,
       items: [
         'admin/overview',
@@ -333,15 +333,13 @@ const sidebars = {
         {
           type: 'category',
           label: 'Tags & Organization',
-          items: [
-            'admin/tags/overview',
-          ],
+          items: ['admin/tags/overview'],
         },
       ],
     },
     {
       type: 'category',
-      label: '📊 Reporting & Analytics',
+      label: 'Reporting & Analytics',
       collapsed: true,
       items: [
         'reportingmodule/overview',
@@ -375,7 +373,7 @@ const sidebars = {
     },
     {
       type: 'category',
-      label: '🛡️ Security Solutions',
+      label: 'Security Solutions',
       collapsed: true,
       items: [
         'solutions/overview',
@@ -388,7 +386,7 @@ const sidebars = {
     },
     {
       type: 'category',
-      label: '🔍 SIEM Integration',
+      label: 'SIEM Integration',
       collapsed: true,
       items: [
         'siemdashboard/overview',
@@ -407,7 +405,7 @@ const sidebars = {
     },
     {
       type: 'category',
-      label: '🔌 API & Integrations',
+      label: 'API & Integrations',
       collapsed: true,
       items: [
         'api/overview',
@@ -430,7 +428,7 @@ const sidebars = {
     },
     {
       type: 'category',
-      label: '🆘 Troubleshooting',
+      label: 'Troubleshooting',
       collapsed: true,
       items: [
         'troubleshooting/overview',
@@ -445,11 +443,9 @@ const sidebars = {
     },
     {
       type: 'category',
-      label: '⚙️ Configuration Files',
+      label: 'Configuration Files',
       collapsed: true,
-      items: [
-        'config/activedirectory/threatprevention',
-      ],
+      items: ['config/activedirectory/threatprevention'],
     },
   ],
 };

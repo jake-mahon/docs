@@ -1,7 +1,7 @@
 # Customize Branding
 
 Netwrix Auditor allows customizing look and feel of your reports, search subscriptions and exported
-search results—you can skip Netwrix logo, add your company logo and title. However, users are not
+search results—you can skip Netwrix logo, add your company logo and title. However, users are not
 empowered to customize layout or color scheme.
 
 Review the following for additional information:
@@ -24,7 +24,7 @@ Please note the following rebranding limitations and requirements to the logo fi
 
 1. Make sure you have full Netwrix Auditor installation: Netwrix Auditor Server and Client to enable
    rebranding.
-2. Since Netwrix applies company's logo as is, keep in mind reasonable limitations of your logo
+2. Since Netwrix applies company's logo as is, keep in mind reasonable limitations of your logo
    dimensions. You can find examples of appropriate logo files in the rebranding archive (file
    Logo.webp). Re-size your logo and verify that subscriptions emails and pdf files look fine after
    rebranding.

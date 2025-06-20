@@ -17,13 +17,13 @@ const sidebars = {
     {
       type: 'doc',
       id: 'index',
-      label: '🏠 Overview',
+      label: 'Overview',
     },
 
     // Getting Started
     {
       type: 'category',
-      label: '🚀 Getting Started',
+      label: 'Getting Started',
       items: [
         'getting-started/index',
         'getting-started/overview',
@@ -48,7 +48,7 @@ const sidebars = {
     // Installation and Deployment
     {
       type: 'category',
-      label: '⚙️ Installation and Deployment',
+      label: 'Installation and Deployment',
       items: [
         'installation-and-deployment/index',
         'installation-and-deployment/installation-methods',
@@ -94,7 +94,7 @@ const sidebars = {
     // Licensing
     {
       type: 'category',
-      label: '📜 Licensing',
+      label: 'Licensing',
       items: [
         'licensing/index',
         'licensing/license-overview',
@@ -156,7 +156,7 @@ const sidebars = {
     // Policy Management
     {
       type: 'category',
-      label: '📋 Policy Management',
+      label: 'Policy Management',
       items: [
         'policy-management/index',
         {
@@ -227,7 +227,7 @@ const sidebars = {
     // Application Management
     {
       type: 'category',
-      label: '🖥️ Application Management',
+      label: 'Application Management',
       items: [
         'application-management/index',
         {
@@ -360,7 +360,7 @@ const sidebars = {
     // Security and Privilege Management
     {
       type: 'category',
-      label: '🔒 Security and Privilege Management',
+      label: 'Security and Privilege Management',
       items: [
         'security-and-privilege-management/index',
         {
@@ -512,7 +512,7 @@ const sidebars = {
     // Device and Desktop Management
     {
       type: 'category',
-      label: '🖱️ Device and Desktop Management',
+      label: 'Device and Desktop Management',
       items: [
         'device-and-desktop-management/index',
         {
@@ -563,7 +563,7 @@ const sidebars = {
     // Cloud and Remote Management
     {
       type: 'category',
-      label: '☁️ Cloud and Remote Management',
+      label: 'Cloud and Remote Management',
       items: [
         'cloud-and-remote-management/index',
         {
@@ -731,7 +731,7 @@ const sidebars = {
     // Automation and Scripting
     {
       type: 'category',
-      label: '🤖 Automation and Scripting',
+      label: 'Automation and Scripting',
       items: [
         'automation-and-scripting/index',
         {
@@ -836,7 +836,7 @@ const sidebars = {
     // Compliance and Reporting
     {
       type: 'category',
-      label: '📊 Compliance and Reporting',
+      label: 'Compliance and Reporting',
       items: [
         'compliance-and-reporting/index',
         {
@@ -934,7 +934,7 @@ const sidebars = {
     // Integrations
     {
       type: 'category',
-      label: '🔗 Integrations',
+      label: 'Integrations',
       items: [
         'integrations/index',
         {
@@ -1001,7 +1001,7 @@ const sidebars = {
     // Platform Specific
     {
       type: 'category',
-      label: '💻 Platform Specific',
+      label: 'Platform Specific',
       items: [
         'platform-specific/index',
         {
@@ -1061,7 +1061,7 @@ const sidebars = {
     // Troubleshooting
     {
       type: 'category',
-      label: '🔧 Troubleshooting',
+      label: 'Troubleshooting',
       items: [
         'troubleshooting/index',
         'troubleshooting/overview',
@@ -1078,14 +1078,14 @@ const sidebars = {
     // References
     {
       type: 'category',
-      label: '📚 References',
+      label: 'References',
       items: ['manuals'],
     },
 
     // Archive
     {
       type: 'category',
-      label: '📦 Archive',
+      label: 'Archive',
       items: [
         'archive/index',
         'archive/deprecated-features',

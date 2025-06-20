@@ -25,7 +25,7 @@ description: "This page provides manual configuration options for native audit s
 
 # Configure IT Infrastructure for Auditing and Monitoring
 
-You can configure your IT Infrastructure for monitoring in one of the following ways:
+You can configure your IT Infrastructure for monitoring in one of the following ways:
 
 - Automatically when creating an organization. This is a recommended method.
 - Manually. The table below lists the native audit settings that must be adjusted manually to ensure

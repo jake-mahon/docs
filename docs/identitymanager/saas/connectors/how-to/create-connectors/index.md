@@ -1,7 +1,7 @@
 # Create a Connector
 
 How to implement a [ Connector ](/docs/identitymanager/saas/configuration/xml-configuration/scaffoldings.md)
-via XML to connect Identity Manager to an external system.
+via XML to connect Identity Manager to an external system.
 
 See an example on how to register [For Microsoft Entra ID](/docs/identitymanager/saas/connectors/how-to/create-connectors/azure-ad.md).
 
@@ -14,13 +14,13 @@ learn how to create a connector via the UI.
 
 ### Configure the external system
 
-Some systems need additional configuration for Identity Manager to connect.
+Some systems need additional configuration for Identity Manager to connect.
 
 ### Configure Identity Manager
 
 Identity Manager's agent must be set up to access the system's data via the related connector.
 
-Netwrix Identity Manager (formerly Usercube) recommends performing the configuration via Identity
+Netwrix Identity Manager (formerly Usercube) recommends performing the configuration via Identity
 Manager's configuration files like `appsettings.json` and `appsettings.agent.json`. However, these
 settings can also be input through environment variables. See the
 [Network Configuration](/docs/identitymanager/saas/configuration/network/index.md) topic for additional information.
@@ -93,15 +93,15 @@ An association mapping is the equivalent of an entity type mapping, but for the 
 
 ### Menu items
 
-Identity Manager provides a menu item to list all connectors in the dashboard's left menu.
+Identity Manager provides a menu item to list all connectors in the dashboard's left menu.
 
 ![Menu Item - Connectors](/img/product_docs/identitymanager/identitymanager/user-guide/set-up/synchronization/home_entitytypes_v602.webp)
 
 > It is usually written like this:
 >
->                         ```
+> ```
 >
->                             Runtime/Bootstrap/Nav.xml
+> Runtime/Bootstrap/Nav.xml
 >
 > <MenuItem Identifier="Nav_Connectors" DisplayName_L1="Connectors" ParentMenuItem="Nav" />
 >
@@ -140,7 +140,7 @@ property expression.
 
 In order to access the connector, a user must have the right permissions.
 
-Permissions within Identity Manager are configured through [Access Control Rule](/docs/identitymanager/saas/configuration/xml-configuration/access-control.md).
+Permissions within Identity Manager are configured through [Access Control Rule](/docs/identitymanager/saas/configuration/xml-configuration/access-control.md).
 ````
 
 # Create the Connector
@@ -337,7 +337,7 @@ How to add a new system to the solution.
 
 ## Overview
 
-When connecting Identity Manager to a new system, several process paths can be taken according to
+When connecting Identity Manager to a new system, several process paths can be taken according to
 your strategy. There is no option fundamentally better than the others, your decision must depend on
 your needs.
 

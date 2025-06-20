@@ -4,7 +4,7 @@ module.exports = {
     // Getting Started
     {
       type: 'category',
-      label: '🚀 Getting Started',
+      label: 'Getting Started',
       items: [
         'getting-started/index',
         'getting-started/introduction',
@@ -17,7 +17,7 @@ module.exports = {
     // Installation
     {
       type: 'category',
-      label: '💾 Installation',
+      label: 'Installation',
       items: [
         'installation/index',
         {
@@ -75,7 +75,7 @@ module.exports = {
     // Configuration
     {
       type: 'category',
-      label: '⚙️ Configuration',
+      label: 'Configuration',
       items: [
         'configuration/index',
         {
@@ -340,7 +340,7 @@ module.exports = {
     // User Guide
     {
       type: 'category',
-      label: '👥 User Guide',
+      label: 'User Guide',
       items: [
         'user-guide/index',
         {
@@ -718,7 +718,7 @@ module.exports = {
     // Integrations
     {
       type: 'category',
-      label: '🔗 Integrations',
+      label: 'Integrations',
       items: [
         'integrations/index',
         {
@@ -825,7 +825,7 @@ module.exports = {
     // API Reference
     {
       type: 'category',
-      label: '🔌 API Reference',
+      label: 'API Reference',
       items: [
         'api-reference/index',
         {
@@ -1027,7 +1027,7 @@ module.exports = {
     // Management Shell
     {
       type: 'category',
-      label: '💻 Management Shell',
+      label: 'Management Shell',
       items: [
         'management-shell/index',
         {

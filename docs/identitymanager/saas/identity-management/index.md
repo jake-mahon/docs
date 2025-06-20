@@ -8,12 +8,12 @@ company.
 "Identities' lifecycles" mean any Joiners, Movers and Leavers (JML) process, i.e. staff changes,
 i.e. any user's onboarding, position modification and offboarding.
 
-See the [ Identity Repository ](/docs/identitymanager/saas/identity-management/identity-repository.md) topic for additional information.  
+See the [ Identity Repository ](/docs/identitymanager/saas/identity-management/identity-repository.md) topic for additional information.
 See the [ Identity Lifecycle: Joiners, Movers and Leavers ](/docs/identitymanager/saas/identity-management/joiners-movers-leavers/index.md) topic
 for additional information on how Identity Manager handles the Joiners, Movers and Leavers (JML)
 process.
 
-Identities in Identity Manager are mostly humans, both internal and external workers, but can also
+Identities in Identity Manager are mostly humans, both internal and external workers, but can also
 be applications, bots, service accounts, or anything.
 
 Identities are stored in the database as [ Resources ](/docs/identitymanager/saas/access-control/resources.md), which helps with
@@ -34,7 +34,7 @@ See the [Provisioning](/docs/identitymanager/saas/provisioning/index.md) topic f
 # Create the Workforce Repository
 
 How to initiate the repository for workforce identities by loading identities into Identity
-Manager with the right attributes.
+Manager with the right attributes.
 
 ## Overview
 
@@ -174,8 +174,8 @@ choose the most adequate method regarding your actual approach.
 An identifier/email/login suffix can be specified later according to users' contract types, when
 loading identities through an Excel template. See the
 [Load Identities to Identity Manager](/docs/identitymanager/saas/identity-management/index.md) topic for additional
-information.  
-For example, contractors can get `-ext` added automatically to their email addresses.  
+information.
+For example, contractors can get `-ext` added automatically to their email addresses.
 The unicity checks performed for identifiers/emails/logins do not consider prefixes nor suffixes.
 
 For example, `john.doe@acme.com` and `john.doe-ext@acme.com` cannot exist simultaneously.
@@ -279,7 +279,7 @@ of a template MS Excel file.
 
 ## Overview
 
-Loading the digital identities into Identity Manager is the very first task you have to perform,
+Loading the digital identities into Identity Manager is the very first task you have to perform,
 once you installed the development environment.
 
 The initial workforce repository is going to be the first version of a comprehensive directory

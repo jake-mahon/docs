@@ -6,11 +6,11 @@ const sidebars = {
     {
       type: 'doc',
       id: 'index',
-      label: '🏠 ChangeTracker 8.0',
+      label: 'ChangeTracker 8.0',
     },
     {
       type: 'category',
-      label: '🚀 Getting Started',
+      label: 'Getting Started',
       collapsed: false,
       items: [
         'getting-started/overview',
@@ -31,7 +31,7 @@ const sidebars = {
     },
     {
       type: 'category',
-      label: '⚙️ Installation',
+      label: 'Installation',
       collapsed: true,
       items: [
         'installation/overview',
@@ -64,7 +64,7 @@ const sidebars = {
     },
     {
       type: 'category',
-      label: '🛠️ Administration',
+      label: 'Administration',
       collapsed: true,
       items: [
         'administration/overview',
@@ -131,7 +131,7 @@ const sidebars = {
     },
     {
       type: 'category',
-      label: '✨ Features',
+      label: 'Features',
       collapsed: true,
       items: [
         {
@@ -207,7 +207,7 @@ const sidebars = {
     },
     {
       type: 'category',
-      label: '🔌 Integrations',
+      label: 'Integrations',
       collapsed: true,
       items: [
         'integrations/overview',
@@ -247,7 +247,7 @@ const sidebars = {
     },
     {
       type: 'category',
-      label: '📚 Reference',
+      label: 'Reference',
       collapsed: true,
       items: ['reference/component-releases', 'reference/credentials-management'],
     },

@@ -161,7 +161,7 @@ who used it and how long it took to execute. Schedule the Script Utilization Dat
 ## Track Progress
 
 You can monitor the progress of the script data collection with **Strongpoint** > **Script
-Management** > **Tagged scripts with No Data**  
+Management** > **Tagged scripts with No Data**
 The scripts on this list will fall off this search as data is collected. Scripts that remain on this
 list are not being executed.
 

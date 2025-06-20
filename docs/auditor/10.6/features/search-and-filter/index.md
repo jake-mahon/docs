@@ -3,9 +3,9 @@
 Filters are used to narrow your search results. To create a unique set of filters, you can:
 
 - Add different filters to your search. Search results will be sorted by all selected filters since
-  they work as a logical conjunction (e.g., Who: Administrator and  Action: Added).
+  they work as a logical conjunction (e.g., Who: Administrator and Action: Added).
 - Specify several values in the same filter to search for any of them (e.g., Action: Modified
-  or Action: Removed). To do this, select a filter again and specify a new value.
+  or Action: Removed). To do this, select a filter again and specify a new value.
 
   Spaces do not separate values, so the whole expression will be included in your search as a
   single value. For example, if you want to search for any of three names, do not enter **Anna
@@ -141,7 +141,7 @@ the data you need.
 
 Use search results for your own needs: save, share, create search-based alerts, subscribe to
 periodic delivery of search query results, etc. See
-[Make Search Results Actionnable](#make-search-results-actionnable) for more information.
+[Make Search Results Actionnable](#make-search-results-actionnable) for more information.
 
 ![search_nofilter_1](/img/versioned_docs/auditor_10.6/auditor/admin/search/search_nofilter_1.webp)
 

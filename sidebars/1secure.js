@@ -6,11 +6,11 @@ const sidebars = {
     {
       type: 'doc',
       id: 'index',
-      label: '🏠 1Secure Overview',
+      label: '1Secure Overview',
     },
     {
       type: 'category',
-      label: '🚀 Getting Started',
+      label: 'Getting Started',
       collapsed: false,
       items: [
         'getting-started/index',
@@ -21,7 +21,7 @@ const sidebars = {
     },
     {
       type: 'category',
-      label: '⚙️ Setup and Configuration',
+      label: 'Setup and Configuration',
       collapsed: true,
       items: [
         'setup-and-configuration/index',
@@ -95,7 +95,7 @@ const sidebars = {
     },
     {
       type: 'category',
-      label: '🔌 Data Sources',
+      label: 'Data Sources',
       collapsed: true,
       items: [
         'data-sources/index',
@@ -110,7 +110,7 @@ const sidebars = {
     },
     {
       type: 'category',
-      label: '👥 Administration',
+      label: 'Administration',
       collapsed: true,
       items: [
         'administration/index',
@@ -144,7 +144,7 @@ const sidebars = {
     },
     {
       type: 'category',
-      label: '📊 Monitoring and Analytics',
+      label: 'Monitoring and Analytics',
       collapsed: true,
       items: [
         'monitoring-and-analytics/index',
@@ -179,7 +179,7 @@ const sidebars = {
     },
     {
       type: 'category',
-      label: '📈 Reporting',
+      label: 'Reporting',
       collapsed: true,
       items: [
         'reporting/index',
@@ -211,7 +211,7 @@ const sidebars = {
     },
     {
       type: 'category',
-      label: '🔗 Integrations',
+      label: 'Integrations',
       collapsed: true,
       items: [
         'integrations/index',
@@ -222,7 +222,7 @@ const sidebars = {
     },
     {
       type: 'category',
-      label: '📚 Reference',
+      label: 'Reference',
       collapsed: true,
       items: ['reference/index', 'reference/security'],
     },

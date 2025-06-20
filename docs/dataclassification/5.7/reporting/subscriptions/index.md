@@ -17,9 +17,9 @@ page:
 | Option                              | Description                                                                                                                                  |
 | ----------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------- |
 | Subscription Name                   | Create a name for the report subscription                                                                                                    |
-| Email Group                         | Enter the email group(s) that will receive the reports. If no email groups are configured, click the **(+)**icon to create new email groups. |
+| Email Group                         | Enter the email group(s) that will receive the reports. If no email groups are configured, click the **(+)**icon to create new email groups. |
 | Send email when no data is reported | Check this box to send an email with the report even when there is no data. Leave this box unchecked to disable this option.                 |
-| Export Format                       | Select whether to export the report as a **CSV** or **XLSX**.                                                                                |
+| Export Format                       | Select whether to export the report as a **CSV** or **XLSX**.                                                                                |
 | Run Every:                          | Set how often email reports are sent out. Users can choose to send reports in a period of **days**, **weeks**, or **months**.                |
 | Starting On:                        | Set the date that reports will start being sent out.                                                                                         |
 

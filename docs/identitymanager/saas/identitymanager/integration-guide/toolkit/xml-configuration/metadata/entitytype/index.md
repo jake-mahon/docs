@@ -11,7 +11,7 @@ on how to configure define an EntityType.
 | DisplayName_L1 optional | **Type** String **Description** Display name of the entity type in language 1 (up to 16).                                                                                                                                                                       |
 | Identifier required     | **Type** String **Description** Unique identifier of the entity type. It must is be unique to the _entity model_ scope. Cannot be [ Reserved identifiers ](/docs/identitymanager/saas/toolkit/reserved-identifiers.md).                                         |
 | LicenseTag optional     | **Type** String **Description** Value of the `Tag` parameter of the license key (in `appsettings.json`) linked to the entity type. All the features allowed by the license key are enabled for this entity type, otherwise only default features are available. |
-| TableName optional      | **Type** String **Description** Represents the table name of hard coded entity types. Exclusively reserved to Identity Manager connector for Power BI.                                                                                                          |
+| TableName optional      | **Type** String **Description** Represents the table name of hard coded entity types. Exclusively reserved to Identity Manager connector for Power BI.                                                                                                          |
 
 ## Child Element: Property
 
@@ -31,7 +31,7 @@ For example, the _Code_ property of the _Title_ entity type is marked as a key.
 
 ```
 
-<EntityType Identifier="Title" DisplayName_L1="Title">    <Property Identifier="Code" Type="String" IsKey="true" TargetColumnIndex="4" />    ...
+<EntityType Identifier="Title" DisplayName_L1="Title"> <Property Identifier="Code" Type="String" IsKey="true" TargetColumnIndex="4" /> ...
 </EntityType>
 
 ```

@@ -1,27 +1,32 @@
-# Netwrix Threat Prevention 7.4
+# Threat Prevention 7.4
 
-Netwrix Threat Prevention safeguards organizations from internal and external threats by acting like a firewall around critical systems and applications: Active Directory, Exchange, and file systems. It empowers organizations to overcome limitations in native Windows logging and security controls.
+> Proactive security firewall for critical IT infrastructure
+
+Threat Prevention 7.4 acts as an intelligent firewall around your most critical systems including Active Directory, Exchange, and file systems. This solution intercepts and blocks malicious activities in real-time, overcoming the limitations of native Windows security controls to provide comprehensive protection against both internal and external threats while maintaining detailed audit trails for compliance and forensics.
 
 ## Key Features
 
-- **Active Monitoring** – Intercepts critical activity at the source and actively monitors user behavior
-- **Proactive Remediation** – Automatically blocks suspicious activities and compromised accounts
-- **Real-time Alerts** – Provides inspection, alerting, and policy enforcement
-- **Comprehensive Audit Trail** – Detailed records of every change, access, and authentication
-- **Third-party Integration** – Seamless SIEM dashboard integration
-- **Modern Architecture** – FIPS 140-2 compliant design
+- **Active Threat Interception**: Monitor and block suspicious activities at the source before damage occurs
+- **Automated Remediation**: Instantly disable compromised accounts and reverse unauthorized changes
+- **Policy-Based Protection**: Define granular security policies for different systems and user groups
+- **Comprehensive Forensics**: Capture detailed audit trails of all activities for investigation
 
-## Quick Start
+## Benefits
 
-- [Getting Started](/docs/threatprevention/7.4/gettingstarted.md)
-- [System Requirements](/docs/threatprevention/7.4/requirements/overview.md)
-- [Installation Overview](/docs/threatprevention/7.4/install/overview.md)
-- [Product Overview](/docs/threatprevention/7.4/overview.md)
+- **Stop Attacks in Progress**: Block malicious activities in real-time, not after the fact
+- **Protect Critical Assets**: Safeguard Active Directory, Exchange, and file systems from compromise
+- **Reduce Security Incidents**: Prevent attacks rather than just detecting them
+- **Simplify Compliance**: Maintain detailed audit trails for regulatory requirements
 
-## Key Sections
+## What's New in Version 7.4
 
-- **[Administration](/docs/threatprevention/7.4/admin/overview.md)** - Agent management, policies, and configuration
-- **[Solutions](/docs/threatprevention/7.4/solutions/overview.md)** - Active Directory, Exchange, File System, and LDAP protection
-- **[Reporting](/docs/threatprevention/7.4/reportingmodule/overview.md)** - Investigations and analytics
-- **[SIEM Integration](/docs/threatprevention/7.4/siemdashboard/overview.md)** - QRadar and Splunk dashboards
-- **[Troubleshooting](/docs/threatprevention/7.4/troubleshooting/overview.md)** - Common issues and solutions
+- Enhanced machine learning algorithms for threat detection
+- Improved SIEM integration with QRadar and Splunk
+- New policy templates for common attack scenarios
+- Performance optimizations for large-scale deployments
+
+```mdx-code-block
+import DocCardList from '@theme/DocCardList';
+
+<DocCardList />
+```

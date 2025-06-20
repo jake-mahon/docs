@@ -8,12 +8,12 @@ company.
 "Identities' lifecycles" mean any Joiners, Movers and Leavers (JML) process, i.e. staff changes,
 i.e. any user's onboarding, position modification and offboarding.
 
-See the [ Identity Repository ](/docs/identitymanager/6.2/identity-management/identity-repository.md) topic for additional information.  
+See the [ Identity Repository ](/docs/identitymanager/6.2/identity-management/identity-repository.md) topic for additional information.
 See the [ Identity Lifecycle: Joiners, Movers and Leavers ](/docs/identitymanager/6.2/identity-management/user-lifecycle/index.md) topic
 for additional information on how Identity Manager handles the Joiners, Movers and Leavers (JML)
 process.
 
-Identities in Identity Manager are mostly humans, both internal and external workers, but can also
+Identities in Identity Manager are mostly humans, both internal and external workers, but can also
 be applications, bots, service accounts, or anything.
 
 Identities are stored in the database as [ Resources ](/docs/identitymanager/6.2/integration/connectors/index.md), which helps with
@@ -90,16 +90,16 @@ system, or the representation of a department of the company, etc.
 > Smith, with the email address [john.smith@contoso.com](mailto:john.smith@contoso.com) and working
 > as an assistant manager in the accounting department.
 
-While Identity Manager provides a predefined model that should fit most organizations, it can still
-be adjusted to your exact needs. Thus, Identity Manager provides a customizable model to organize a
+While Identity Manager provides a predefined model that should fit most organizations, it can still
+be adjusted to your exact needs. Thus, Identity Manager provides a customizable model to organize a
 company's data according to its IGA-related needs, which is also most reliable because it is kept
 up-to-date.
 
 ## Connectors
 
 Each entity is related to a managed system, for example the Active Directory or SAB or ServiceNow,
-etc. The reading/writing data between the system and Identity Manager are ensured by connectors. So
-Identity Manager can be configured with one connector for each managed system.
+etc. The reading/writing data between the system and Identity Manager are ensured by connectors. So
+Identity Manager can be configured with one connector for each managed system.
 
 ![Connector Schema](/img/product_docs/identitymanager/identitymanager/user-guide/set-up/connect-system/connectorcreation_connectorschema.webp)
 
@@ -118,7 +118,7 @@ an [extract, transform, load](https://en.wikipedia.org/wiki/Extract,_transform,_
 > A typical example is the synchronization of the HR system's data to retrieve employees' personal
 > information.
 
-It also enables provisioning, i.e. Identity Manager writing to a managed system, but that is
+It also enables provisioning, i.e. Identity Manager writing to a managed system, but that is
 something we will dig into later.
 
 ![Provisioning](/img/product_docs/identitymanager/identitymanager/introduction-guide/overview/overview_provisioning.webp)

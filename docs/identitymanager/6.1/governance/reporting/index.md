@@ -48,7 +48,7 @@ the[ queries ](/docs/identitymanager/6.1/configuration-reference/scaffoldings/sc
 _Remember,_ in order to understand business intelligence, with its universes, entity instances and
 association instances. See
 the[ Universe ](/docs/identitymanager/6.1/configuration-reference/xml-configuration/business-intelligence-config.md)topic
-for additional information.  
+for additional information.
 Also note that XML objects that automatically generate XML snippets that would be complex and/or
 tedious to write manually. See
 the[ Scaffoldings ](/docs/identitymanager/6.1/configuration-reference/scaffoldings/scaffolding-reference.md)topic

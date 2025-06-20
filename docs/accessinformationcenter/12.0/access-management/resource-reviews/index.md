@@ -96,7 +96,7 @@ information.
 
 - Automatically, if the Access Information Center is configured to commit AD changes and access
   groups are assigned to the resources (limited to Access Information Center functionality)
-- Manually, export a list of approved changes and deliver it to your IT department
+- Manually, export a list of approved changes and deliver it to your IT department
 
 When desired, the Review Administrator runs another instance of the review and the workflow starts
 again. See the [Review Instances](/docs/accessinformationcenter/12.0/access-management/resource-reviews/review-management.md) topic for additional information.
@@ -237,7 +237,7 @@ The buttons at the top and bottom enable you to conduct the following actions:
 | View Responses  | Opens the View Responses window, which is only available if the owner has recommended changes for the resource. This window displays all recommended changes, notes provided by the owner for the recommended change, and action buttons to Accept, Decline, or Defer the recommended change. See the [View Responses Window](/docs/accessinformationcenter/12.0/access-management/resource-reviews/review-management.md) topic for additional information.                                                                      |
 | Process Changes | Opens a drop-down menu to Accept, Decline, or Defer all owner-recommended changes for the selected resource. This option allows the Review Administrator to process responses in batches, so all owner-recommended changes for the selected resource will be processed with the same action. **CAUTION:** If the Access Information Center has been configured to commit changes to Active Directory and the automation prerequisites have been met for this type of review, selecting Accept will commit the requested changes. |
 | Remove Changes  | Opens the Remove changes window. Clears all requested changes for the selected resource. The resource is returned to a ‘Waiting’ status, requiring the owner to review the resource again. See the [Remove Changes Window](/docs/accessinformationcenter/12.0/access-management/data-grid-operations/removing-changes.md) topic for additional information.                                                                                                                                                                      |
-| Resource Audit  | Opens the Resource Audit interface for the selected resource. See the [Resource Audit Overview](/docs/accessinformationcenter/12.0/resource-auditing/index.md) topic for additional information.                                                                                                                                                                                                                                                                                                                                 |
+| Resource Audit  | Opens the Resource Audit interface for the selected resource. See the [Resource Audit Overview](/docs/accessinformationcenter/12.0/resource-auditing/index.md) topic for additional information.                                                                                                                                                                                                                                                                                                                                 |
 
 # Data Collection & Automation Prerequisites
 
@@ -257,7 +257,7 @@ The following prerequisites are required for reviews of file system data.
 Sensitive Data Reviews Requirement
 
 Sensitive Data reviews of file system data requires the following setting be configured in the
-**FileSystem** > **0.Collection** Job Group in Netwrix Access Analyzer (formerly Enterprise
+**FileSystem** > **0.Collection** Job Group in Netwrix Access Analyzer (formerly Enterprise
 Auditor):
 
 - In the 1-FSAA System Scans Job, configure the Query by selecting the **Scan file-level details**
@@ -267,7 +267,7 @@ Auditor):
 View Sensitive Content within Reviews Requirement
 
 In order to view the potentially sensitive data during a review, the following setting must also be
-configured in the **FileSystem** > **0.Collection** Job Group in Netwrix Access Analyzer (formerly
+configured in the **FileSystem** > **0.Collection** Job Group in Netwrix Access Analyzer (formerly
 Enterprise Auditor):
 
 - In the 1-SEEK System Scans Job, configure the Query by selecting the **Store discovered sensitive
@@ -281,10 +281,10 @@ The following prerequisites are required for reviews of SharePoint data.
 View Sensitive Content within Reviews Requirement
 
 In order to view the potentially sensitive data during a review, the following setting must be
-configured in the **SharePoint** > **0.Collection** Job Group:
+configured in the **SharePoint** > **0.Collection** Job Group:
 
 - In the 1-SPSEEK System Scans Job, configure the Query by selecting the **Store discovered
-  sensitive data** checkbox on the DLP Audit Settings page of the SharePoint Access Auditor Data
+  sensitive data** checkbox on the DLP Audit Settings page of the SharePoint Access Auditor Data
   Collector Wizard.
 
 False Positive Sensitive Data
@@ -301,7 +301,7 @@ actual sensitive data.
 
 ## Automation Prerequisites
 
-When the Access Information Center has been configured to commit Active Directory group membership
+When the Access Information Center has been configured to commit Active Directory group membership
 changes, the Review Administrator approval process will automatically commit approved changes
 recommended by owners during the review. Each type of review has additional requirements for
 automation of approved changes.
