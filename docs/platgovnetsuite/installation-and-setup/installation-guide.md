@@ -38,7 +38,7 @@ The Bundle ID has been updated due to NetSuite changes.
 It is important that you set your NUMBER OF ROWS IN LIST SEGMENTS to 1,000. This is a NetSuite best
 practice and critical for the proper spidering of your workflows. If you are unable to edit this
 field, refer to
-[Cannot Change the Number of Rows in List Segments](/docs/platgovnetsuite/troubleshooting/list_segments_not_editable)
+[Cannot Change the Number of Rows in List Segments](/docs/platgovnetsuite/troubleshooting/common-issues.md)
 
 To set the Number of Rows in List Segments:
 

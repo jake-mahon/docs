@@ -380,7 +380,7 @@ Load identities for the first time by proceeding as follows:
 
    ![Template Recommendations](/img/product_docs/identitymanager/identitymanager/user-guide/set-up/initial-identities-loading/load-identities/initialload_templatereco_v600.webp)
 
-   [**Click here to download a template example**](/static/files/identitymanager/user-guide/set-up/initial-identities-loading/Directory_example_V602.xlsx).
+   [**Click here to download a template example**](/files/identitymanager/user-guide/set-up/initial-identities-loading/Directory_example_V602.xlsx).
 
    Every object (so every tab) of the directory must have a **key**, which is an attribute:
 

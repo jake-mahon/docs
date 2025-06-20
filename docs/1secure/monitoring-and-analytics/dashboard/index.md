@@ -5,7 +5,7 @@ organizations, enabling managing organizations, such as Managed Service Provider
 identify and prioritize what requires immediate attention. It displays the alerts triggered by
 specific events, offering drill-down capabilities that enable you to access detailed information on
 specific alerts and issues, ensuring timely and effective responses. See the
-[Alerts](/docs/1secure/admin/alerts) topic for additional information on alerts.
+[Alerts](/docs/1secure/monitoring-and-analytics/alerts) topic for additional information on alerts.
 
 Click **Home** at the top of the page to access the dashboard. This page is also the default landing
 page of the application when you sign in.
