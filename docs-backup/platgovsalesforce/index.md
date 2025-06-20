@@ -1,1 +1,0 @@
-# Strongpoint for Sales Force

@@ -40,8 +40,8 @@ const ProductCategories = [
         versions: [
           { version: '6.2', link: '/docs/identitymanager/6.2', isLatest: true },
           { version: '6.1', link: '/docs/identitymanager/6.1', isLatest: false },
-          { version: 'SaaS', link: '/docs/identitymanager/saas', isLatest: false }
-        ]
+          { version: 'SaaS', link: '/docs/identitymanager/saas', isLatest: false },
+        ],
       },
       {
         name: 'Directory Manager',
@@ -49,8 +49,8 @@ const ProductCategories = [
         link: '/docs/directorymanager/11.1',
         versions: [
           { version: '11.1', link: '/docs/directorymanager/11.1', isLatest: true },
-          { version: '11.0', link: '/docs/directorymanager/11.0', isLatest: false }
-        ]
+          { version: '11.0', link: '/docs/directorymanager/11.0', isLatest: false },
+        ],
       },
       {
         name: 'Platform Governance for NetSuite',
@@ -75,8 +75,8 @@ const ProductCategories = [
         link: '/docs/privilegesecure/4.2',
         versions: [
           { version: '4.2', link: '/docs/privilegesecure/4.2', isLatest: true },
-          { version: '4.1', link: '/docs/privilegesecure/4.1', isLatest: false }
-        ]
+          { version: '4.1', link: '/docs/privilegesecure/4.1', isLatest: false },
+        ],
       },
       {
         name: 'Endpoint Privilege Manager',
@@ -89,8 +89,8 @@ const ProductCategories = [
         link: '/docs/passwordsecure/9.2',
         versions: [
           { version: '9.2', link: '/docs/passwordsecure/9.2', isLatest: true },
-          { version: '9.1', link: '/docs/passwordsecure/9.1', isLatest: false }
-        ]
+          { version: '9.1', link: '/docs/passwordsecure/9.1', isLatest: false },
+        ],
       },
     ],
   },
@@ -105,8 +105,8 @@ const ProductCategories = [
         link: '/docs/auditor/10.7',
         versions: [
           { version: '10.7', link: '/docs/auditor/10.7', isLatest: true },
-          { version: '10.6', link: '/docs/auditor/10.6', isLatest: false }
-        ]
+          { version: '10.6', link: '/docs/auditor/10.6', isLatest: false },
+        ],
       },
       {
         name: 'Directory Manager',
@@ -114,13 +114,17 @@ const ProductCategories = [
         link: '/docs/directorymanager/11.1',
         versions: [
           { version: '11.1', link: '/docs/directorymanager/11.1', isLatest: true },
-          { version: '11.0', link: '/docs/directorymanager/11.0', isLatest: false }
-        ]
+          { version: '11.0', link: '/docs/directorymanager/11.0', isLatest: false },
+        ],
       },
       {
         name: 'Password Policy Enforcer',
         description: 'Enforce strong password policies',
-        link: '/docs/passwordpolicyenforcer',
+        link: '/docs/passwordpolicyenforcer/11.0',
+        versions: [
+          { version: '10.2', link: '/docs/passwordpolicyenforcer/10.2', isLatest: true },
+          { version: '11.0', link: '/docs/passwordpolicyenforcer/11.0', isLatest: false },
+        ],
       },
     ],
   },
@@ -135,8 +139,8 @@ const ProductCategories = [
         link: '/docs/endpointprotector/5.9.4.2',
         versions: [
           { version: '5.9.4.2', link: '/docs/endpointprotector/5.9.4.2', isLatest: true },
-          { version: '5.9.4', link: '/docs/endpointprotector/5.9.4', isLatest: false }
-        ]
+          { version: '5.9.4', link: '/docs/endpointprotector/5.9.4', isLatest: false },
+        ],
       },
       {
         name: 'Endpoint Policy Manager',
@@ -149,14 +153,14 @@ const ProductCategories = [
         link: '/docs/changetracker/8.1',
         versions: [
           { version: '8.1', link: '/docs/changetracker/8.1', isLatest: true },
-          { version: '8.0', link: '/docs/changetracker/8.0', isLatest: false }
-        ]
+          { version: '8.0', link: '/docs/changetracker/8.0', isLatest: false },
+        ],
       },
     ],
   },
   {
     title: 'Data Security Posture Management (DSPM)',
-    description: 'Protect and classify your organization\'s sensitive data',
+    description: "Protect and classify your organization's sensitive data",
     icon: '🛡️',
     products: [
       {
@@ -170,8 +174,8 @@ const ProductCategories = [
         link: '/docs/auditor/10.7',
         versions: [
           { version: '10.7', link: '/docs/auditor/10.7', isLatest: true },
-          { version: '10.6', link: '/docs/auditor/10.6', isLatest: false }
-        ]
+          { version: '10.6', link: '/docs/auditor/10.6', isLatest: false },
+        ],
       },
       {
         name: 'Access Analyzer',
@@ -179,8 +183,8 @@ const ProductCategories = [
         link: '/docs/accessanalyzer/12.0',
         versions: [
           { version: '12.0', link: '/docs/accessanalyzer/12.0', isLatest: true },
-          { version: '11.6', link: '/docs/accessanalyzer/11.6', isLatest: false }
-        ]
+          { version: '11.6', link: '/docs/accessanalyzer/11.6', isLatest: false },
+        ],
       },
       {
         name: 'Data Classification',
@@ -188,8 +192,8 @@ const ProductCategories = [
         link: '/docs/dataclassification/5.7',
         versions: [
           { version: '5.7', link: '/docs/dataclassification/5.7', isLatest: true },
-          { version: '5.6.2', link: '/docs/dataclassification/5.6.2', isLatest: false }
-        ]
+          { version: '5.6.2', link: '/docs/dataclassification/5.6.2', isLatest: false },
+        ],
       },
     ],
   },
@@ -209,13 +213,14 @@ const ProductCategories = [
         link: '/docs/accessanalyzer/12.0',
         versions: [
           { version: '12.0', link: '/docs/accessanalyzer/12.0', isLatest: true },
-          { version: '11.6', link: '/docs/accessanalyzer/11.6', isLatest: false }
-        ]
+          { version: '11.6', link: '/docs/accessanalyzer/11.6', isLatest: false },
+        ],
       },
       {
         name: 'Threat Manager',
         description: 'Advanced threat detection and response',
-        link: '/docs/threatmanager',
+        link: '/docs/threatmanager/3.0',
+        versions: [{ version: '3.0', link: '/docs/threatmanager/3.0', isLatest: true }],
       },
       {
         name: 'Threat Prevention',
@@ -223,13 +228,16 @@ const ProductCategories = [
         link: '/docs/threatprevention/7.5',
         versions: [
           { version: '7.5', link: '/docs/threatprevention/7.5', isLatest: true },
-          { version: '7.4', link: '/docs/threatprevention/7.4', isLatest: false }
-        ]
+          { version: '7.4', link: '/docs/threatprevention/7.4', isLatest: false },
+        ],
       },
       {
         name: 'Recovery for Active Directory',
         description: 'Active Directory backup and recovery',
-        link: '/docs/recoveryforactivedirectory',
+        link: '/docs/recoveryforactivedirectory/2.6',
+        versions: [
+          { version: '2.6', link: '/docs/recoveryforactivedirectory/2.6', isLatest: true },
+        ],
       },
     ],
   },
@@ -241,7 +249,11 @@ const ProductCategories = [
       {
         name: 'Access Information Center',
         description: 'Centralized access information management',
-        link: '/docs/accessinformationcenter',
+        link: '/docs/accessinformationcenter/12.0',
+        versions: [
+          { version: '11.6', link: '/docs/accessinformationcenter/11.6', isLatest: true },
+          { version: '12.0', link: '/docs/accessinformationcenter/12.0', isLatest: false },
+        ],
       },
       {
         name: 'Activity Monitor',
@@ -249,13 +261,17 @@ const ProductCategories = [
         link: '/docs/activitymonitor/8.0',
         versions: [
           { version: '8.0', link: '/docs/activitymonitor/8.0', isLatest: true },
-          { version: '7.1', link: '/docs/activitymonitor/7.1', isLatest: false }
-        ]
+          { version: '7.1', link: '/docs/activitymonitor/7.1', isLatest: false },
+        ],
       },
       {
         name: 'Password Reset',
         description: 'Self-service password reset solution',
-        link: '/docs/passwordreset',
+        link: '/docs/passwordreset/3.3',
+        versions: [
+          { version: '3.3', link: '/docs/passwordreset/3.3', isLatest: true },
+          { version: '3.23', link: '/docs/passwordreset/3.23', isLatest: false },
+        ],
       },
       {
         name: 'Platform Governance for NetSuite Flashlight',
@@ -293,7 +309,7 @@ function ProductCard({ product }) {
       {/* Version badges in top-right corner */}
       <div className={styles.versionBadgesContainer}>
         {product.versions.map((version, idx) => (
-          <Link 
+          <Link
             key={idx}
             to={version.link}
             className={`${styles.versionBadge} ${version.isLatest ? styles.latestBadge : ''}`}
@@ -302,7 +318,7 @@ function ProductCard({ product }) {
           </Link>
         ))}
       </div>
-      
+
       <h4 className={styles.productName}>{product.name}</h4>
       <p className={styles.productDescription}>{product.description}</p>
       <Link to={product.link} className={styles.learnMore}>
@@ -357,7 +373,8 @@ export default function HomepageFeatures() {
             />
           </Heading>
           <p className={styles.sectionSubtitle}>
-            Explore our comprehensive security products with individual version tags for easy access.
+            Explore our comprehensive security products with individual version tags for easy
+            access.
           </p>
         </div>
         <div className={styles.categoriesContainer}>

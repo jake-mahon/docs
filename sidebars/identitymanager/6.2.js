@@ -4,6 +4,11 @@
 const sidebars = {
   identityManager62: [
     {
+      type: 'doc',
+      id: 'index',
+      label: 'Identity Manager 6.2',
+    },
+    {
       type: 'category',
       label: 'Getting Started',
       items: [

@@ -1,5 +1,3 @@
-# Editing the HTML Templates
-
 Password Reset's user interface is built with customizable templates. You can easily modify the user
 interface by editing the templates. The templates are written in HTML5 and formatted with CSS3, so
 they work with all modern web browsers. Older browsers such as Internet Explorer 8 may work, but the

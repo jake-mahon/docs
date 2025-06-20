@@ -87,7 +87,7 @@ command line to send email immediately, or to troubleshoot problems.
 ## Email Message Options
 
 Email message options are set for each password policy from the Maximum Age
-rule[ ](/docs/passwordreset/3.23/configuration/password-policies.md#)properties
+rule[ ](/docs/passwordreset/3.23/configuration/password-policies.md)properties
 page.
 
 Follow the steps below to configure the email message options for a policy.

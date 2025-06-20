@@ -3,7 +3,11 @@
 /** @type {import('@docusaurus/plugin-content-docs').SidebarsConfig} */
 const sidebars = {
   accessInformationCenter120: [
-    'index',
+    {
+      type: 'doc',
+      id: 'index',
+      label: 'Access Information Center 11.6',
+    },
     {
       type: 'category',
       label: 'Getting Started',

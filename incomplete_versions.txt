@@ -1,4 +1,0 @@
-accessanalyzer/12.0
-directorymanager/11.0
-directorymanager/11.1
-endpointpolicymanager
