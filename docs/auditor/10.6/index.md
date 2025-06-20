@@ -1,4 +1,4 @@
-#Netwrix Auditor 10.6
+# Netwrix Auditor 10.6
 
 > **Complete visibility into IT system changes and data access**
 

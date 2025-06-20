@@ -1,10 +1,10 @@
-#Netwrix 1Secure
+# Netwrix 1Secure
 
 > **Your unified command center for hybrid IT security monitoring**
 
 Welcome to Netwrix 1Secure — the powerful Microsoft Azure-hosted SaaS solution that transforms how Managed Service Providers (MSPs) monitor and protect their clients' IT environments. Whether your infrastructure spans on-premises data centers or cloud platforms, 1Secure provides a single pane of glass for comprehensive security visibility.
 
-##What is 1Secure?
+## What is 1Secure?
 
 1Secure is your always-on security sentinel, continuously monitoring critical activities across your entire IT ecosystem:
 
@@ -13,37 +13,37 @@ Welcome to Netwrix 1Secure — the powerful Microsoft Azure-hosted SaaS solution
 - **Organization-wide Visibility** — Monitor configuration changes across all managed environments
 - **Intelligent Reporting** — Generate detailed reports to investigate incidents and demonstrate compliance
 
-##Key Benefits
+## Key Benefits
 
 :::tip Why MSPs Choose 1Secure
 Transform your security operations with capabilities designed specifically for modern managed service providers.
 :::
 
-###Unified Security Management
+### Unified Security Management
 
 Eliminate the complexity of juggling multiple monitoring tools. 1Secure consolidates alerts from both on-premises and cloud environments into a single, intuitive dashboard.
 
-###Accelerated Incident Response
+### Accelerated Incident Response
 
 - **Instant Alerts** — Get notified immediately when suspicious activities occur
 - **Smart Filtering** — Focus on what matters with intelligent alert prioritization
 - **Rapid Investigation** — Drill down into incidents with comprehensive audit trails
 
-###Enhanced MSP Productivity
+### Enhanced MSP Productivity
 
 - **Bulk Operations** — Manage multiple client environments efficiently
 - **Automated Reporting** — Schedule and deliver compliance reports automatically
 - **Self-Service Updates** — Keep agents current without manual intervention
 
-##How It Works
+## How It Works
 
 Experience the power of cloud-native architecture combined with on-premises flexibility:
 
-###Architecture Overview
+### Architecture Overview
 
 ![overview_table](/img/product_docs/1secure/admin/overview_table.webp)
 
-###Key Components
+### Key Components
 
 #### 1**Lightweight On-Prem Agent**
 
@@ -71,7 +71,7 @@ Access your security data from anywhere:
 - **Azure AD Integration** — Sign in with corporate credentials (OAuth 2.0)
 - **Cross-Platform Access** — Works on any device with a browser
 
-##Getting Started in 2 Simple Steps
+## Getting Started in 2 Simple Steps
 
 :::info Quick Start
 Get up and running in minutes with our streamlined deployment process!
@@ -95,9 +95,9 @@ Install our lightweight agent to start collecting security data immediately.
 > - Exchange Online
 > - SharePoint Online
 
-##System Management Features
+## System Management Features
 
-###Smart Notifications
+### Smart Notifications
 
 Stay informed with intelligent, real-time alerts that keep your security operations running smoothly:
 
@@ -114,7 +114,7 @@ Stay informed with intelligent, real-time alerts that keep your security operati
 
 ![notifications](/img/product_docs/1secure/admin/notifications.webp)
 
-###System Health Dashboard
+### System Health Dashboard
 
 Monitor the pulse of your entire security infrastructure with our visual status indicators:
 
@@ -132,7 +132,7 @@ Track real-time health for:
 
 [Learn more about organization management →](/docs/1secure/administration/organizations)
 
-###Automated Agent Updates
+### Automated Agent Updates
 
 Keep your security infrastructure current with our intelligent update system:
 
@@ -140,14 +140,14 @@ Keep your security infrastructure current with our intelligent update system:
 **Your monitoring continues uninterrupted** during the entire update process!
 :::
 
-####Update Options
+#### Update Options
 
 - **Self-Update** — Automatic updates with smart scheduling
 - **Bulk Updates** — Update multiple agents simultaneously
 - **Scheduled Updates** — Define maintenance windows that work for you
 - **Real-time Notifications** — Stay informed of available updates
 
-####Bulk Update Multiple Agents
+#### Bulk Update Multiple Agents
 
 1. Navigate to **Managed Organizations** → **Bulk Update Agent**
 2. Select the agents you want to update
@@ -155,7 +155,7 @@ Keep your security infrastructure current with our intelligent update system:
 
 ![updateagents](/img/product_docs/1secure/admin/updateagents.webp)
 
-####Configure Update Schedules
+#### Configure Update Schedules
 
 Define maintenance windows that align with your business operations:
 
@@ -166,7 +166,7 @@ Define maintenance windows that align with your business operations:
 
 ![editagentupdatesschedule2](/img/product_docs/1secure/admin/editagentupdatesschedule2.webp)
 
-####Quick Self-Update
+#### Quick Self-Update
 
 Get the latest features and security enhancements with one-click updates:
 
@@ -178,7 +178,7 @@ Get the latest features and security enhancements with one-click updates:
 
 ---
 
-##Ready to Transform Your Security Operations?
+## Ready to Transform Your Security Operations?
 
 ```mdx-code-block
 import DocCardList from '@theme/DocCardList';

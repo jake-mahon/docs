@@ -106,7 +106,7 @@ follow these steps:
 
 **Step 4 –** In the conﬁguration ﬁle, you will view the following ﬁelds for the proxy setup:
 
-#EPPCLIENT_HTTPS_PROXY=
+# EPPCLIENT_HTTPS_PROXY=
 
 #export EPPCLIENT_HTTPS_PROXY
 

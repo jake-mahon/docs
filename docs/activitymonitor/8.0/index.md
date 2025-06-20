@@ -1,4 +1,4 @@
-#Netwrix Activity Monitor 8.0
+# Netwrix Activity Monitor 8.0
 
 > **Real-time visibility into critical activities across your IT infrastructure**
 

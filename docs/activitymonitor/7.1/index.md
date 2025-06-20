@@ -1,4 +1,4 @@
-#Netwrix Activity Monitor 7.1
+# Netwrix Activity Monitor 7.1
 
 > **Real-time visibility into critical activities across your IT infrastructure**
 
