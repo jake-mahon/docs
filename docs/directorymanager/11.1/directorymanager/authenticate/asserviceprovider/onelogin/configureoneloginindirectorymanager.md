@@ -16,7 +16,7 @@ metadata file to configure all settings for it.
 
 5. Click the **Import from Metadata** button under the **Advanced** section to import the OneLogin
    metadata file that you downloaded earlier. See the
-   [Download the OneLogin Metadata File](configureinonelogin.md#download-the-onelogin-metadata-file)
+   [Download the OneLogin Metadata File](/docs/directorymanager/11.1/directorymanager/authenticate/asserviceprovider/onelogin/configureinonelogin.md#download-the-onelogin-metadata-file)
    topic.
 6. On the **Import Settings from IDP provided Metadata File** dialog box, click **Browse** to select
    the PingOne metadata file. Then click **Upload**. With this, several fields on the **Create New
@@ -27,11 +27,11 @@ metadata file to configure all settings for it.
 
 7. In the **Issuer** box, enter the issuer URL you copied from the SSO page in OneLogin. See step 15
    in the
-   [Create an App for Directory Manager in OneLogin](configureinonelogin.md#create-an-app-for-directory-manager-in-onelogin)
+   [Create an App for Directory Manager in OneLogin](/docs/directorymanager/11.1/directorymanager/authenticate/asserviceprovider/onelogin/configureinonelogin.md#create-an-app-for-directory-manager-in-onelogin)
    topic.
 8. In the **IDP Login URL** box, enter the endpoint URL for the post method. You copied this URL
    earlier from the **SAML 2.0 Endpoint (HTTP)** box on the **SSO** page in OneLogin. See step 15 in
-   the[Create an App for Directory Manager in OneLogin](configureinonelogin.md#create-an-app-for-directory-manager-in-onelogin)
+   the[Create an App for Directory Manager in OneLogin](/docs/directorymanager/11.1/directorymanager/authenticate/asserviceprovider/onelogin/configureinonelogin.md#create-an-app-for-directory-manager-in-onelogin)
    topic.
 
 **Upload an image for the identity provider:**
@@ -55,7 +55,7 @@ metadata file to configure all settings for it.
 14. In the **Response Signing Method**drop-down list, select _RSA-SHA-256_, since we configured this
     method as the signing algorithm in the **SAML Signature Algorithm** list on the **SSO** page in
     OneLogin. See step 14 in
-    the[Create an App for Directory Manager in OneLogin](configureinonelogin.md#create-an-app-for-directory-manager-in-onelogin)
+    the[Create an App for Directory Manager in OneLogin](/docs/directorymanager/11.1/directorymanager/authenticate/asserviceprovider/onelogin/configureinonelogin.md#create-an-app-for-directory-manager-in-onelogin)
     topic.
 15. Click the **Create Provider** button. The identity provider is created and displayed on the
     **SAML Providers** page.

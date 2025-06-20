@@ -55,17 +55,17 @@ Step 7 – The Triggers area displays the default triggering frequency for the s
 - To add a new trigger, click **Add Trigger**.
 
 Follow step 11 in the
-[Create a Group Usage Service Schedule](groupusageservice.md#create-a-group-usage-service-schedule)
+[Create a Group Usage Service Schedule](/docs/directorymanager/11.1/directorymanager/admincenter/schedule/groupusageservice.md#create-a-group-usage-service-schedule)
 topic to manage triggers.
 
 Step 8 – The Authentication area displays an account for running the schedule in the identity store.
 To change it, click **Add Authentication**. Follow step 12 in the
-[Create a Group Usage Service Schedule](groupusageservice.md#create-a-group-usage-service-schedule)
+[Create a Group Usage Service Schedule](/docs/directorymanager/11.1/directorymanager/admincenter/schedule/groupusageservice.md#create-a-group-usage-service-schedule)
 topic for additional information.
 
 Step 9 – Click **Update Schedule**.
 
 Step 10 – On the Schedules page, click **Save**.  
 For general schedule info, see the
-[View the Schedules in an Identity Store ](manage.md#view-the-schedules-in-an-identity-store) topic
+[View the Schedules in an Identity Store ](/docs/directorymanager/11.1/directorymanager/admincenter/schedule/manage.md#view-the-schedules-in-an-identity-store) topic
 for additional information.

@@ -4,7 +4,7 @@ This guide is designed to give a complete overview of Identity Manager's princip
 and capabilities.
 
 Netwrix Identity Manager (formerly Usercube) strongly recommends starting here to fully benefit from
-the [Integration Guide](/docs/identitymanager/saas/identitymanager/integration-guide/index.md)'s or the
+the [Integration Guide](/docs/identitymanager/saas/getting-started/index.md)'s or the
 [User Guide](/docs/identitymanager/saas/identitymanager/user-guide/index.md)'s contents.
 
 ## Target Audience

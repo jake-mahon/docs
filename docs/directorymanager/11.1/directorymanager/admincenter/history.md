@@ -13,13 +13,13 @@ In Directory Manager, history is tracked for:
 - Identity store objects - Modifications made to objects in an identity store, such as creating
   objects, updating attributes for an object, etc. It includes modifications made through:
 
-    - Directory Manager portal (whether manually, through Synchronize jobs. or changes to object
-      entitlements)
-    - Management Shell cmdlets
-    - Admin Center (actions performed by schedules only)
-    - Directory Manager APIs
+  - Directory Manager portal (whether manually, through Synchronize jobs. or changes to object
+    entitlements)
+  - Management Shell cmdlets
+  - Admin Center (actions performed by schedules only)
+  - Directory Manager APIs
 
-    See the [History](/docs/directorymanager/11.1/directorymanager/portal/history/overview.md) topic to view this history.
+  See the [History](/docs/directorymanager/11.1/directorymanager/portal/history/overview.md) topic to view this history.
 
 Enable History Tracking
 
@@ -39,9 +39,9 @@ History Retention
 
 The _history retention_ setting for an identity store enables you to choose whether you want to keep
 history data forever or for a specific period. See the
-[Retain Complete History Data](identitystore/configure/directoryservice/historytracking.md#retain-complete-history-data)
+[Retain Complete History Data](/docs/directorymanager/11.1/directorymanager/admincenter/identitystore/configure/directoryservice/historytracking.md#retain-complete-history-data)
 and
-[Retain History for a Specific Period](identitystore/configure/directoryservice/historytracking.md#retain-history-for-a-specific-period)
+[Retain History for a Specific Period](/docs/directorymanager/11.1/directorymanager/admincenter/identitystore/configure/directoryservice/historytracking.md#retain-history-for-a-specific-period)
 topics. Your desired setting applies to all history tracked for the respective identity store,
 including that tracked for helpdesk and Admin Center.
 

@@ -53,17 +53,17 @@ Please note the following while selecting a Scheduler service:
 
 Step 9 – Click **Add Triggers** in the Triggers area to specify a triggering criterion for the
 schedule, that, when met, starts the execution of the schedule. Follow step 11 in the
-[Create a Group Usage Service Schedule](groupusageservice.md#create-a-group-usage-service-schedule)
+[Create a Group Usage Service Schedule](/docs/directorymanager/11.1/directorymanager/admincenter/schedule/groupusageservice.md#create-a-group-usage-service-schedule)
 topic to add triggers.
 
 Step 10 – Click **Add Authentication** in the Authentication area to specify an account for running
 the schedule in the identity store. Follow step 12 in the
-[Create a Group Usage Service Schedule](groupusageservice.md#create-a-group-usage-service-schedule)
+[Create a Group Usage Service Schedule](/docs/directorymanager/11.1/directorymanager/admincenter/schedule/groupusageservice.md#create-a-group-usage-service-schedule)
 topic for additional information.
 
 Step 11 – On the Create Schedule page, click **Create Schedule**.
 
 Step 12 – On the Schedules page, click **Save**.  
 The schedule is displayed under **User Life Cycle**. See the
-[View the Schedules in an Identity Store ](manage.md#view-the-schedules-in-an-identity-store)topic
+[View the Schedules in an Identity Store ](/docs/directorymanager/11.1/directorymanager/admincenter/schedule/manage.md#view-the-schedules-in-an-identity-store)topic
 for additional information.

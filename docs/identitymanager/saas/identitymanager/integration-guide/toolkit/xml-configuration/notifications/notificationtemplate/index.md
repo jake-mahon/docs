@@ -8,7 +8,7 @@ Identity Manager natively sends notifications for usual cases.
 These native notifications are based on cshtml templates available inside the `Runtime` folder. If
 the provided templates do not meet your exact needs, then they can be replaced by personalized
 notification templates. See the
-[ Native Notifications ](/docs/identitymanager/saas/identitymanager/integration-guide/notifications/native/index.md)topic for additional information.
+[ Native Notifications ](/docs/identitymanager/saas/notifications/native-notifications/index.md)topic for additional information.
 
 ## Examples
 

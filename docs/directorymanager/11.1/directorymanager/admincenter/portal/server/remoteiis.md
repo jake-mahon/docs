@@ -7,7 +7,7 @@ What do you want to do?
 ## Start or Stop an Instance
 
 To start or stop a deployment instance, see the
-[Start or Stop an Instance](nativeiis.md#start-or-stop-an-instance) topic.
+[Start or Stop an Instance](/docs/directorymanager/11.1/directorymanager/admincenter/portal/server/nativeiis.md#start-or-stop-an-instance) topic.
 
 ## View the Deployment Settings for an Instance
 

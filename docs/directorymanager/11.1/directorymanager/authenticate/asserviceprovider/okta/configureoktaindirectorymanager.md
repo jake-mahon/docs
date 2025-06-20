@@ -12,7 +12,7 @@ file to configure all settings for this identity provider.
    generated the Entity ID/Audience URL and provided that while creating the Directory Manager
    application in Okta.
 5. While creating the Directory Manager application in Okta, we downloaded a metadata file. See the
-   [Download the Okta Metadata File](configureinokta.md#download-the-okta-metadata-file) topic.  
+   [Download the Okta Metadata File](/docs/directorymanager/11.1/directorymanager/authenticate/asserviceprovider/okta/configureinokta.md#download-the-okta-metadata-file) topic.  
    To import this file, click the **Import from Metadata** button under the **Advanced** section.
 6. On the **Import Settings from IDP provided Metadata File** dialog box, click **Browse** to select
    the Okta metadata file downloaded earlier. Then click **Upload**. With this, several fields on

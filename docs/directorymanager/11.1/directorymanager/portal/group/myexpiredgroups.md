@@ -25,6 +25,6 @@ By default, the **My Expired Groups** tab lists the groups that you are the prim
 include the groups for which you are an additional owner, select the **Display additional group
 ownership in My Expired Groups** check box on the [Portal Settings](/docs/directorymanager/11.1/directorymanager/portal/setting/portal.md) panel.
 
-You can [Modify Search Directory](allgroups.md#modify-search-directory) to search expired groups and
-add [Filter All Groups](allgroups.md#filter-all-groups)by clicking **My Expired Group Grid
+You can [Modify Search Directory](/docs/directorymanager/11.1/directorymanager/portal/group/allgroups.md#modify-search-directory) to search expired groups and
+add [Filter All Groups](/docs/directorymanager/11.1/directorymanager/portal/group/allgroups.md#filter-all-groups)by clicking **My Expired Group Grid
 Filters**. All the expired groups matching the filters will be displayed.

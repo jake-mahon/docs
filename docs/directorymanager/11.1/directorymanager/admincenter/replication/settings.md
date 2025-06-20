@@ -25,7 +25,7 @@ Possible actions to eliminate replication errors are:
 - Consult the Replication service logs. They provide elaborate information about the object type in
   the specific domain of the identity store the error occurred for, and whether that error comes
   from the identity provider or Elasticsearch. See the
-  [Replication Service Logs](overview.md#replication-service-logs) topic.
+  [Replication Service Logs](/docs/directorymanager/11.1/directorymanager/admincenter/replication/overview.md#replication-service-logs) topic.
 
 What do you want to do?
 
@@ -49,8 +49,8 @@ Directory Manager enables you to monitor the Elasticsearch service for the follo
   dashboard.
 - Elasticsearch cluster health stats, which include:
 
-    - Cluster name, health status, node info and shards info
-    - Cluster indices information, like health, number of documents, and status
+  - Cluster name, health status, node info and shards info
+  - Cluster indices information, like health, number of documents, and status
 
 Directory Manager checks if the Elasticsearch service is running, if all nodes are working, and if
 the cluster is intact. It also checks the health of each index.
@@ -60,51 +60,51 @@ the cluster is intact. It also checks the health of each index.
 1. In Admin Center, click **Replication** in the left pane.
 2. On the **Replication** page, click **Elasticsearch Health Monitor**.
 
-    ![es_health_monitor](/img/product_docs/directorymanager/directorymanager/admincenter/replication/es_health_monitor.webp)
+   ![es_health_monitor](/img/product_docs/directorymanager/directorymanager/admincenter/replication/es_health_monitor.webp)
 
-    This dialog box lists the Elasticsearch clusters in your environment, with the following
-    information for each cluster:
+   This dialog box lists the Elasticsearch clusters in your environment, with the following
+   information for each cluster:
 
-    - **Health:** the cluster health status denoted by the following colors:
+   - **Health:** the cluster health status denoted by the following colors:
 
-        - Green – the service is running and the cluster is intact. Moreover, two or more nodes
-          exist within the cluster.
-        - Yellow – the cluster is running but with warnings. It also indicates that a single node
-          exists within the cluster. Elasticsearch recommends a three-node topology for improved
-          performance and high availability.
-        - Red – the service has stopped or the cluster is broken (for reasons such as network
-          connectivity.
+     - Green – the service is running and the cluster is intact. Moreover, two or more nodes
+       exist within the cluster.
+     - Yellow – the cluster is running but with warnings. It also indicates that a single node
+       exists within the cluster. Elasticsearch recommends a three-node topology for improved
+       performance and high availability.
+     - Red – the service has stopped or the cluster is broken (for reasons such as network
+       connectivity.
 
-    - **Nodes:** the number of nodes in the cluster.
-    - **Master:** the name of the master node in the cluster.
+   - **Nodes:** the number of nodes in the cluster.
+   - **Master:** the name of the master node in the cluster.
 
 3. To refresh the information displayed, click the **Refresh** icon.
 4. Click a cluster name to view it in detail.
 
-    ![cluster_info](/img/product_docs/directorymanager/directorymanager/admincenter/replication/cluster_info.webp)
+   ![cluster_info](/img/product_docs/directorymanager/directorymanager/admincenter/replication/cluster_info.webp)
 
-    This dialog box displays the total number of nodes in the cluster. Each node is represented by a
-    card, that displays the following for the node:
+   This dialog box displays the total number of nodes in the cluster. Each node is represented by a
+   card, that displays the following for the node:
 
-    - The name of the node
-    - The system resources the node uses, such as hard disk space, RAM, and heap size
-    - Node health with respect to disk space usage, denoted by the following colors:
+   - The name of the node
+   - The system resources the node uses, such as hard disk space, RAM, and heap size
+   - Node health with respect to disk space usage, denoted by the following colors:
 
-        - Green – when hard disk space usage is 79.99% or less
-        - Yellow – when hard disk space usage is 80-89.99%
-        - Red – when hard disk space usage is 90% or more
+     - Green – when hard disk space usage is 79.99% or less
+     - Yellow – when hard disk space usage is 80-89.99%
+     - Red – when hard disk space usage is 90% or more
 
 5. The indices in the cluster are listed in the gird.
 
-    - The **Name** column displays the names of the indices.
-    - The **Health** column displays the health of the index, which is denoted by the following
-      colors:
+   - The **Name** column displays the names of the indices.
+   - The **Health** column displays the health of the index, which is denoted by the following
+     colors:
 
-        - Green – the index is replicated to all nodes within the cluster.
-        - Yellow – the index is replicated to some but not all nodes within the cluster.
-        - Red – the index is not replicated to any node within the cluster.
+     - Green – the index is replicated to all nodes within the cluster.
+     - Yellow – the index is replicated to some but not all nodes within the cluster.
+     - Red – the index is not replicated to any node within the cluster.
 
-    - The **Document** column shows the number of documents in the index.
+   - The **Document** column shows the number of documents in the index.
 
 6. Click the back arrow to return to the **Elasticsearch Health Monitor** dialog box.
 
@@ -119,9 +119,9 @@ attributes to be replicated are specified in the respective identity store setti
 1. In Admin Center, click **Replication** in the left pane.
 2. On the **Replication** page, the **Replication Service Interval** card displays:
 
-    - the date and time the Replication service last ran
-    - the date and time the service will run next
-    - the interval (in minutes) between each run of the service
+   - the date and time the Replication service last ran
+   - the date and time the service will run next
+   - the interval (in minutes) between each run of the service
 
 3. By default, the interval is set to 10 minutes, which indicates that the service is triggered
    every 10 minutes. In this way, changes made to objects in the directory during the last 10
@@ -153,25 +153,25 @@ and which ones failed to replicate.
 2. On the **Replication** page, click **Advanced Replication Status**. The **Advanced Replication
    Status** dialog box displays the status of object types for each domain in an identity store.
 
-    1. The domains or object types that failed to replicate in the last run of the Replication
-       service are displayed in red. Reasons could be inaccessibility or partial failure.
-       Replication errors are brought to the administrator’s notice in the following ways:
+   1. The domains or object types that failed to replicate in the last run of the Replication
+      service are displayed in red. Reasons could be inaccessibility or partial failure.
+      Replication errors are brought to the administrator’s notice in the following ways:
 
-        - On the **Identity Stores** page, the card for the identity store turns red and _Errors_ is
-          displayed as the identity store status.
-        - A notification is sent to relevant personnel. See the Set a Threshold to Trigger
-          Replication Error Notifications topic.
+      - On the **Identity Stores** page, the card for the identity store turns red and _Errors_ is
+        displayed as the identity store status.
+      - A notification is sent to relevant personnel. See the Set a Threshold to Trigger
+        Replication Error Notifications topic.
 
-        These alerts are triggered when replication fails in the last run of the Replication
-        service, or if the service does not run at the required triggering interval. To resolve
-        replication errors, see the How to Resolve Replication Errors topic.
+      These alerts are triggered when replication fails in the last run of the Replication
+      service, or if the service does not run at the required triggering interval. To resolve
+      replication errors, see the How to Resolve Replication Errors topic.
 
-    2. The ‘Never replicated’ status indicates that the particular object type is not replicated
-       yet. Similarly, a child domain that is not being used will have its status marked in red. To
-       avoid these recurring errors, set the dates for these objects to a distant future date in the
-       Directory Manager database. Or you can exclude a domain from replication. See the
-       [Exclude an Active Directory Domain from Replication](/docs/directorymanager/11.1/directorymanager/admincenter/identitystore/manage.md#exclude-an-active-directory-domain-from-replication)
-       topic.
+   2. The ‘Never replicated’ status indicates that the particular object type is not replicated
+      yet. Similarly, a child domain that is not being used will have its status marked in red. To
+      avoid these recurring errors, set the dates for these objects to a distant future date in the
+      Directory Manager database. Or you can exclude a domain from replication. See the
+      [Exclude an Active Directory Domain from Replication](/docs/directorymanager/11.1/directorymanager/admincenter/identitystore/manage.md#exclude-an-active-directory-domain-from-replication)
+      topic.
 
 ## Specify Interval for Deleting Tombstone Objects
 
@@ -190,10 +190,10 @@ directory anymore.
 1. In Admin Center, click **Replication** in the left pane.
 2. On the **Replication** page, the **Deleted Objects Replication Interval** card displays:
 
-    - the date and time the Replication service last ran to remove tombstone objects from
-      Elasticsearch
-    - the date and time the service will run again
-    - the interval (in minutes) between each run of the service
+   - the date and time the Replication service last ran to remove tombstone objects from
+     Elasticsearch
+   - the date and time the service will run again
+   - the interval (in minutes) between each run of the service
 
 3. By default, the interval is set to 60 minutes, which indicates that the service is triggered
    every 60 minutes. In this way, objects that are deleted in the directory during the last 60

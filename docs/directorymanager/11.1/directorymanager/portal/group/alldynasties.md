@@ -15,6 +15,6 @@ Dynasty names help you group a parent Dynasty with its respective child Dynastie
 - For a Managerial Dynasty - By default, the naming template for its child Dynasties starts with
   "Direct reports of `manager`".
 
-You can [Modify Search Directory](allgroups.md#modify-search-directory) to search dynasties and add
-[Filter All Groups](allgroups.md#filter-all-groups)by clicking **Dynasties Grid Filters**. All the
+You can [Modify Search Directory](/docs/directorymanager/11.1/directorymanager/portal/group/allgroups.md#modify-search-directory) to search dynasties and add
+[Filter All Groups](/docs/directorymanager/11.1/directorymanager/portal/group/allgroups.md#filter-all-groups)by clicking **Dynasties Grid Filters**. All the
 dynasties matching the filters will be displayed.

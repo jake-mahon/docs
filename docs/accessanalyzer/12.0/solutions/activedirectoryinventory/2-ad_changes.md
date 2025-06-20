@@ -7,7 +7,7 @@ Inventory Job Group.
 
 The 1-AD_Scan Job must have the Query Option to **Track changes into Change tracking tables**
 selected in order for the Analysis Tasks in the 2-AD_Changes Job to work. See Step 4 of the
-[Customize the 1-AD_Scan Query](1-ad_scan.md#customize-the-1-ad_scan-query) topic for additional
+[Customize the 1-AD_Scan Query](/docs/accessanalyzer/12.0/solutions/activedirectoryinventory/1-ad_scan.md#customize-the-1-ad_scan-query) topic for additional
 information.
 
 ## Analysis Tasks for the 2-AD_Changes Job
@@ -24,83 +24,83 @@ The following analysis tasks are selected by default:
 
 - Org Changes
 
-    - Creates the SA_AD_Changes_OrganizationalChanges table accessible under the job’s Results node
-    - Creates interim processing tables in the database for use by downstream analysis and report
-      generation
+  - Creates the SA_AD_Changes_OrganizationalChanges table accessible under the job’s Results node
+  - Creates interim processing tables in the database for use by downstream analysis and report
+    generation
 
 - Analyze Group Changes – Creates the SA_AD_Changes_GroupAnalysis table accessible under the job’s
   Results node
 - Attribute Changes
 
-    - Creates the SA_AD_Changes_AttributeChangeDetails table accessible under the job’s Results node
-    - Creates interim processing tables in the database for use by downstream analysis and report
-      generation
+  - Creates the SA_AD_Changes_AttributeChangeDetails table accessible under the job’s Results node
+  - Creates interim processing tables in the database for use by downstream analysis and report
+    generation
 
 - User Account Status
 
-    - Creates the SA_AD_Changes_UserAccountStatus table accessible under the job’s Results node
-    - Creates interim processing tables in the database for use by downstream analysis and report
-      generation
+  - Creates the SA_AD_Changes_UserAccountStatus table accessible under the job’s Results node
+  - Creates interim processing tables in the database for use by downstream analysis and report
+    generation
 
 - Group Membership Changes
 
-    - Creates the SA_AD_Changes_GroupMembershipChanges table accessible under the job’s Results node
-    - Creates interim processing tables in the database for use by downstream analysis and report
-      generation
+  - Creates the SA_AD_Changes_GroupMembershipChanges table accessible under the job’s Results node
+  - Creates interim processing tables in the database for use by downstream analysis and report
+    generation
 
 - Object Moves
 
-    - Creates the SA_AD_Changes_ObjectMoves table accessible under the job’s Results node
-    - Creates interim processing tables in the database for use by downstream analysis and report
-      generation
+  - Creates the SA_AD_Changes_ObjectMoves table accessible under the job’s Results node
+  - Creates interim processing tables in the database for use by downstream analysis and report
+    generation
 
 - New Principals – Creates interim processing tables in the database for use by downstream analysis
   and report generation
 - Deleted Principals
 
-    - Creates the SA_AD_Changes_DeletedPrincipals table accessible under the job’s Results node
-    - Creates interim processing tables in the database for use by downstream analysis and report
-      generation
+  - Creates the SA_AD_Changes_DeletedPrincipals table accessible under the job’s Results node
+  - Creates interim processing tables in the database for use by downstream analysis and report
+    generation
 
 The Notification analysis tasks are optional and require configuration before enabling them. The
 following analysis tasks are deselected by default:
 
 - Domain Admin Changes – Alerts when Domain Admins Group membership changes occur
 
-    - Importance – Security, as this is a Sensitive Security Group
+  - Importance – Security, as this is a Sensitive Security Group
 
 - Empty Groups – Alerts when group membership changes result in an empty group
 
-    - Importance – AD Clean-up
+  - Importance – AD Clean-up
 
 - Circular Nesting – Alerts when group membership changes result in a group effectively containing
   itself
 
-    - Importance – Security and AD Clean-up
+  - Importance – Security and AD Clean-up
 
 - Stale Membership – Alerts when group members become stale
 
-    - Importance – Security and AD Clean-up
+  - Importance – Security and AD Clean-up
 
 - Large Change – Alerts when group membership changes result in a group becoming large
 
-    - Importance – Security
+  - Importance – Security
 
 - Disabled Users – Alerts when user accounts become disabled
 
-    - Importance – Security
+  - Importance – Security
 
 - Locked out Users – Alerts when user accounts become locked-out
 
-    - Importance – Security  and Employee Productivity
+  - Importance – Security  and Employee Productivity
 
 - Alert on New Principals – Alerts when new user, group, or computer objects are created
 
-    - Importance – Security and AD Clean-up
+  - Importance – Security and AD Clean-up
 
 - Alert on Deleted Users – Alerts when user accounts are deleted
 
-    - Importance – Security  and Employee Productivity
+  - Importance – Security  and Employee Productivity
 
 Notification must have recipients configured for the analysis task. Optionally, the email subject
 and body can be modified. See the

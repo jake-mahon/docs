@@ -6,7 +6,7 @@ traditional authentication methods, OpenID delegates authentication to a third-p
 allowing users to authenticate with their chosen identity provider.
 
 Once you have added an authentication provider, as discussed in the
-[Add an Authentication Provider](page.md#add-an-authentication-provider)topic, the next step is to
+[Add an Authentication Provider](/docs/threatprevention/7.5/reportingmodule/configuration/integrations/authenticationprovider/page.md#add-an-authentication-provider)topic, the next step is to
 configure the provider for use with a supported authentication provider type, i.e., OpenID, RADIUS,
 or SAML.
 
@@ -65,12 +65,12 @@ The table displays the following information:
 - Authentication Type – Type of MFA authentication assigned to the user or group
 - Action – This column has the following icons for conducting actions on the user or group:
 
-    - Edit icon – Allows you to edit the columns in the selected row by enabling drop-down menus.
-      The edit icon changes to a save icon while in edit mode.
-    - Trash icon – Opens a Warning window to confirm the action of deleting the user or group.
-      Removing a user or group removes console access for it.
-    - Reset MFA button – Forces the user or every user in the group to reconfigure MFA on the next
-      login. This option is only available if an MFA authentication type is applied to the user or
-      group.
+  - Edit icon – Allows you to edit the columns in the selected row by enabling drop-down menus.
+    The edit icon changes to a save icon while in edit mode.
+  - Trash icon – Opens a Warning window to confirm the action of deleting the user or group.
+    Removing a user or group removes console access for it.
+  - Reset MFA button – Forces the user or every user in the group to reconfigure MFA on the next
+    login. This option is only available if an MFA authentication type is applied to the user or
+    group.
 
 See the [User Access Page](/docs/threatprevention/7.5/reportingmodule/configuration/systemsettings/useraccess.md) topic for additional information.

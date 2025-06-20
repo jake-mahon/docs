@@ -7,6 +7,6 @@ calculated from a group’s expiry policy. The Group Lifecycle job is responsibl
 groups on their respective expiry dates; however, you can also manually expire a group before it
 reaches the expiry date.
 
-You can [Modify Search Directory](allgroups.md#modify-search-directory) to search expiring groups
-and add [Filter All Groups](allgroups.md#filter-all-groups) by clicking **Expiring Group Grid
+You can [Modify Search Directory](/docs/directorymanager/11.1/directorymanager/portal/group/allgroups.md#modify-search-directory) to search expiring groups
+and add [Filter All Groups](/docs/directorymanager/11.1/directorymanager/portal/group/allgroups.md#filter-all-groups) by clicking **Expiring Group Grid
 Filters**. All the expiring groups matching the filters will be displayed.

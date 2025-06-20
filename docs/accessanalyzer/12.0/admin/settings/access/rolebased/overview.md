@@ -26,7 +26,7 @@ assistance in disabling it.
 The account used to perform the initial Access Analyzer installation, as well as to change Storage
 Profile settings after installation, require additional rights in order to query objects in the
 master database. See the
-[Configure the Installation Account](configureroles.md#configure-the-installation-account) topic for
+[Configure the Installation Account](/docs/accessanalyzer/12.0/admin/settings/access/rolebased/configureroles.md#configure-the-installation-account) topic for
 additional information on this account.
 
 To enable Role Based Access within Access Analyzer, corresponding roles must first be created within

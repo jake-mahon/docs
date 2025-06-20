@@ -50,7 +50,7 @@ user. This history is specific to helpdesk functions, as listed in the
 
 Step 4 – The Authenticate page displays the authentication type(s) the user's account is enrolled
 with. to authenticate the user, follow step 4 in the
-[Reset Passwords in Restricted Mode](resetpassword.md#reset-passwords-in-restricted-mode) topic.
+[Reset Passwords in Restricted Mode](/docs/directorymanager/11.1/directorymanager/admincenter/helpdesk/operation/resetpassword.md#reset-passwords-in-restricted-mode) topic.
 
 Step 5 – After authenticating the user, click **Next**.
 

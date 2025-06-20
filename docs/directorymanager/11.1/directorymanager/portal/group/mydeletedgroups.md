@@ -7,6 +7,6 @@ The **My Deleted Groups** tab lists the deleted groups that you are the primary 
 include the groups for which you are an additional owner, select the **Display additional group
 ownership in My Deleted Groups** check box on the [Portal Settings](/docs/directorymanager/11.1/directorymanager/portal/setting/portal.md) panel.
 
-You can [Modify Search Directory](allgroups.md#modify-search-directory) to search deleted groups and
-add [Filter All Groups](allgroups.md#filter-all-groups)by clicking **My Deleted Groups Grid
+You can [Modify Search Directory](/docs/directorymanager/11.1/directorymanager/portal/group/allgroups.md#modify-search-directory) to search deleted groups and
+add [Filter All Groups](/docs/directorymanager/11.1/directorymanager/portal/group/allgroups.md#filter-all-groups)by clicking **My Deleted Groups Grid
 Filters**. All your deleted groups matching the filters will be displayed.

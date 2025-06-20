@@ -6,7 +6,7 @@ An Entitlement Temporary Permissions schedule is automatically created for an id
   store. See the [Manage File Servers](/docs/directorymanager/11.1/directorymanager/admincenter/entitlement/ad/manage.md) for additional information on
   adding a server.
 
-    Or
+  Or
 
 - A SharePoint site is added for permission analysis on the **Entitlement** page in a Microsoft
   Entra ID identity store. See the [Manage SharePoint Sites](/docs/directorymanager/11.1/directorymanager/admincenter/entitlement/entraid/manage.md) topic
@@ -90,12 +90,12 @@ Step 7 – The Triggers area displays the default triggering frequency for the s
 - To add a new trigger, click **Add Trigger**.
 
 Step 8 – Follow step 11 in the
-[Create a Group Usage Service Schedule](groupusageservice.md#create-a-group-usage-service-schedule)
+[Create a Group Usage Service Schedule](/docs/directorymanager/11.1/directorymanager/admincenter/schedule/groupusageservice.md#create-a-group-usage-service-schedule)
 topic to manage triggers.
 
 Step 9 – After making the changes, click **Update Schedule**.
 
 Step 10 – On the Schedules page, click **Save**.  
 For general schedule info, see the
-[View the Schedules in an Identity Store ](manage.md#view-the-schedules-in-an-identity-store)topic
+[View the Schedules in an Identity Store ](/docs/directorymanager/11.1/directorymanager/admincenter/schedule/manage.md#view-the-schedules-in-an-identity-store)topic
 for additional information.

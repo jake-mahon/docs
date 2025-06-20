@@ -56,10 +56,10 @@ Workflows apply to Synchronize jobs as follows:
 - When a Synchronize job runs to set the manager for a user who does not already have a manager, the
   following happens:
 
-    - The _Workflow to Change Manager_ will trigger if a default approver is set in advanced
-      workflow settings.
-    - If the default approver is not set, the workflow will not trigger and the user's manager will
-      be set without requiring any approval.
+  - The _Workflow to Change Manager_ will trigger if a default approver is set in advanced
+    workflow settings.
+  - If the default approver is not set, the workflow will not trigger and the user's manager will
+    be set without requiring any approval.
 
 - When a Synchronize job updates multiple attributes for an object type and different workflows have
   been defined for the various attributes that it updates, then a separate request is triggered for
@@ -92,7 +92,7 @@ The following scenarios are valid when workflow approver acceleration settings a
 - When the object specified as an approver for a workflow is not available (such as if it is
   disabled or not specified), workflow requests are sent to the default approver. If the default
   approver is disabled or not specified either, the requests are auto approved. See the
-  [Specify a Default Approver](advancedsettings.md#specify-a-default-approver) topic.
+  [Specify a Default Approver](/docs/directorymanager/11.1/directorymanager/admincenter/workflow/advancedsettings.md#specify-a-default-approver) topic.
 - If the requester is also the approver for that workflow, the request is auto approved.
 
 ## Integration with Microsoft Power Automate

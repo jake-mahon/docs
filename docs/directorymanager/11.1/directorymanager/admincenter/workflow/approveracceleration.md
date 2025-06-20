@@ -36,14 +36,14 @@ auto approve requests, and send notifications. See the
 3. Click **Workflows** under **Settings** in the left pane.
 4. On the **Workflows** page, click the **Advanced Workflow Settings** tab.
 
-    NOTE: When an SMTP server is not defined for the identity store, approver acceleration settings
-    are disabled and a message is displayed with a **Configure Now** link to redirect you to the
-    **Notifications** page.
+   NOTE: When an SMTP server is not defined for the identity store, approver acceleration settings
+   are disabled and a message is displayed with a **Configure Now** link to redirect you to the
+   **Notifications** page.
 
 5. Use the **Approver Acceleration** toggle button to apply the approver acceleration settings and
    rules to all workflows defined for the identity store.  
    To exempt a particular workflow, open it and clear the **Approver Acceleration** check box. See
-   the [Modify a Workflow](implement.md#modify-a-workflow) topic.
+   the [Modify a Workflow](/docs/directorymanager/11.1/directorymanager/admincenter/workflow/implement.md#modify-a-workflow) topic.
 6. In the **Maximum Levels** box, specify a number, say 2. Workflow requests would be accelerated to
    a maximum of 2 levels for approval. Requests that are nor approved or denied at the maximum level
    become static.
@@ -112,12 +112,12 @@ Acceleration rules for a group approver are:
 2. If Group A’s primary owner (Object O) does not approve/deny the request in the next 5 days, the
    following happens:
 
-    - When Object O is a user, the request will accelerate to its manager (second level
-      acceleration). It will move up the acceleration chain of Object O till the maximum
-      acceleration level.
-    - When Object O is a group, the request will accelerate to all group members (second level
-      acceleration). And when none of the group members approve or deny the request in the next 5
-      days, the request will accelerate to the group;s primary owner (third level acceleration).
+   - When Object O is a user, the request will accelerate to its manager (second level
+     acceleration). It will move up the acceleration chain of Object O till the maximum
+     acceleration level.
+   - When Object O is a group, the request will accelerate to all group members (second level
+     acceleration). And when none of the group members approve or deny the request in the next 5
+     days, the request will accelerate to the group;s primary owner (third level acceleration).
 
 3. After the third (and the last) level acceleration, if the approver(s) do not approve or deny the
    request for 5 days, the request goes to the default approver. If the default approver is not

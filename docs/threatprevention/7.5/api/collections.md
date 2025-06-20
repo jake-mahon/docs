@@ -34,7 +34,7 @@ Remove-SICollection –CollectionID “222”
 
 The `Export-SICollection` and `Import-SICollection` commands can be used to export and edit the XML
 file of an existing collection, and then import (add or replace) the edited collection. See the
-[Not a Policy XML Expert](overview.md#not-a-policy-xml-expert) topic for additional information on
+[Not a Policy XML Expert](/docs/threatprevention/7.5/api/overview.md#not-a-policy-xml-expert) topic for additional information on
 and how to make changes to the XML.
 
 ### Export Collections to an XML File

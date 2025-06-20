@@ -12,15 +12,15 @@ You can designate a recipient as the default approver for workflow requests. Req
 this recipient based on the following rules:
 
 - When approver acceleration is not enabled, the applicable rules are discussed in the
-  [Workflow Approval Scenarios](overview.md#workflow-approval-scenarios) topic.
+  [Workflow Approval Scenarios](/docs/directorymanager/11.1/directorymanager/admincenter/workflow/overview.md#workflow-approval-scenarios) topic.
 - When approver acceleration is enabled:
 
-    - A request is sent to the default approver when the last approver in the acceleration chain
-      does not approve or deny it within the specific number of days.
-    - A request is routed to the default approver when the hierarchy breaks at any point in the
-      acceleration chain. For example, if the maximum acceleration level is set to 3 but there is no
-      recipient to accelerate the request after second level acceleration, the request goes to the
-      default approver.
+  - A request is sent to the default approver when the last approver in the acceleration chain
+    does not approve or deny it within the specific number of days.
+  - A request is routed to the default approver when the hierarchy breaks at any point in the
+    acceleration chain. For example, if the maximum acceleration level is set to 3 but there is no
+    recipient to accelerate the request after second level acceleration, the request goes to the
+    default approver.
 
 The default approver also receives group expiry and deletion notifications for groups without
 owners.
@@ -35,17 +35,17 @@ owners.
 5. On th **Advanced Workflow Settings** tab, use the **Default Approver** box to specify a recipient
    as the default approver. To search for a recipient:
 
-    - Enter a search string in the box. Group and user names starting with the string are displayed
-      as you type. Select a user or group to set as the default approver.
+   - Enter a search string in the box. Group and user names starting with the string are displayed
+     as you type. Select a user or group to set as the default approver.
 
-        Or
+     Or
 
-    - Click **Advanced** to search an object by different parameters, such as name, department,
-      company, and email.  
-      In the _advanced search_ box, enter a search string and click **Search**. User and group
-      objects matching the string are displayed. Select the required object.
+   - Click **Advanced** to search an object by different parameters, such as name, department,
+     company, and email.  
+     In the _advanced search_ box, enter a search string and click **Search**. User and group
+     objects matching the string are displayed. Select the required object.
 
-    To remove the default approver, click **Delete** for it.
+   To remove the default approver, click **Delete** for it.
 
 6. Click **Save**.
 
@@ -72,9 +72,9 @@ example, you can delete the ‘denied’ requests that are old by 30 days or mor
    requests that are 30 days old and older will be auto deleted.
 6. Select the type of requests you want to delete.
 
-    - **Pending:** to delete requests that are pending, including your own.
-    - **Approved:** to delete requests that have been approved.
-    - **Denied:** to delete requests that have been denied.
+   - **Pending:** to delete requests that are pending, including your own.
+   - **Approved:** to delete requests that have been approved.
+   - **Denied:** to delete requests that have been denied.
 
 7. Click **Delete**. Directory Manager deletes requests of the selected type that are old or older
    than the specified number of days.

@@ -1,12 +1,3 @@
----
-id: 1secure
-title: "1Secure"
-pagination_label: "1Secure"
-sidebar_label: "1Secure"
-sidebar_position: 1
-description: "Netwrix 1Secure is a Microsoft Azure-hosted, multi-tenant SaaS application that provides a single location to manage both on-premises and cloud environments."
----
-
 # 1Secure
 
 Netwrix 1Secure is a Microsoft Azure-hosted, multi-tenant SaaS application that provides a single
@@ -52,10 +43,10 @@ user's behalf.
 
 The Netwrix 1Secure data collection workflow is as follows:
 
-**Step 1 –** Add organizations. See the [Add Organizations](/docs/1secure/admin/organizations/addorganizations.md)
+**Step 1 –** Add organizations. See the [Add Organizations](/docs/1secure/administration/organizations/managing-organizations.md)
 topic for additional information.
 
-**Step 2 –** Install the agent. See the [Install Agent](/docs/1secure/install/installagent.md) topic for
+**Step 2 –** Install the agent. See the [Install Agent](/docs/1secure/getting-started/installation.md) topic for
 additional information.
 
 Once you have added the organization and selected the domain for collecting the data, Netwrix
@@ -70,8 +61,8 @@ Netwrix 1Secure provides real-time notifications to the users, which report on v
 the user. This includes an agent update, issues with organizations, status of the organizations,
 expired credentials, and others.
 
-| Icon                                                                                    | Description                                             |
-| --------------------------------------------------------------------------------------- | ------------------------------------------------------- |
+| Icon                                                                     | Description                                             |
+| ------------------------------------------------------------------------ | ------------------------------------------------------- |
 | ![selfupdate_icon](/img/product_docs/1secure/admin/selfupdate_icon.webp) | Bell icon. Click the Bell icon to look for the updates. |
 
 Follow the steps to review notifications.
@@ -97,7 +88,7 @@ environment. The time frame for a change may be within a minute up to several ho
 environment size.
 
 You can also review the agent status while adding the organization. See the
-[Manage Organizations](/docs/1secure/admin/organizations) topic for more information.
+[Manage Organizations](/docs/1secure/administration/organizations) topic for more information.
 
 ### Updating Netwrix Cloud Agent
 
@@ -107,8 +98,8 @@ while providing real-time notifications, managing agent schedule, and bulk updat
 
 During the update process, your activity monitoring will not be disrupted.
 
-| Icon                                                                                    | Description                                                                                     |
-| --------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------- |
+| Icon                                                                     | Description                                                                                     |
+| ------------------------------------------------------------------------ | ----------------------------------------------------------------------------------------------- |
 | ![selfupdate_icon](/img/product_docs/1secure/admin/selfupdate_icon.webp) | Bell Icon. Click the Bell Icon to look up for the available updates of the Netwrix Cloud Agent. |
 
 #### Update Agents in Bulk

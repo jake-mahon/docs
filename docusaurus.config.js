@@ -71,7 +71,7 @@ const config = {
         id: '1secure',
         path: 'docs/1secure',
         routeBasePath: 'docs/1secure',
-        sidebarPath: require.resolve('./sidebars/sidebar.js'),
+        sidebarPath: require.resolve('./sidebars/1secure.js'),
         editUrl: 'https://github.com/netwrix/docs/tree/main/',
         exclude: ['**/CLAUDE.md'],
         versions: {
@@ -104,7 +104,7 @@ const config = {
         id: 'accessanalyzer11_6',
         path: 'docs/accessanalyzer/11.6',
         routeBasePath: 'docs/accessanalyzer/11.6',
-        sidebarPath: require.resolve('./sidebars/sidebar.js'),
+        sidebarPath: require.resolve('./sidebars/accessanalyzer/11.6.js'),
         editUrl: 'https://github.com/netwrix/docs/tree/main/',
         exclude: ['**/CLAUDE.md'],
         versions: {
@@ -121,7 +121,7 @@ const config = {
         id: 'accessinformationcenter12_0',
         path: 'docs/accessinformationcenter/12.0',
         routeBasePath: 'docs/accessinformationcenter/12.0',
-        sidebarPath: require.resolve('./sidebars/sidebar.js'),
+        sidebarPath: require.resolve('./sidebars/accessinformationcenter/12.0.js'),
         editUrl: 'https://github.com/netwrix/docs/tree/main/',
         exclude: ['**/CLAUDE.md'],
         versions: {
@@ -137,7 +137,7 @@ const config = {
         id: 'accessinformationcenter11_6',
         path: 'docs/accessinformationcenter/11.6',
         routeBasePath: 'docs/accessinformationcenter/11.6',
-        sidebarPath: require.resolve('./sidebars/sidebar.js'),
+        sidebarPath: require.resolve('./sidebars/accessinformationcenter/11.6.js'),
         editUrl: 'https://github.com/netwrix/docs/tree/main/',
         exclude: ['**/CLAUDE.md'],
         versions: {
@@ -154,7 +154,7 @@ const config = {
         id: 'activitymonitor8_0',
         path: 'docs/activitymonitor/8.0',
         routeBasePath: 'docs/activitymonitor/8.0',
-        sidebarPath: require.resolve('./sidebars/sidebar.js'),
+        sidebarPath: require.resolve('./sidebars/activitymonitor/8.0.js'),
         editUrl: 'https://github.com/netwrix/docs/tree/main/',
         exclude: ['**/CLAUDE.md'],
         versions: {
@@ -170,7 +170,7 @@ const config = {
         id: 'activitymonitor7_1',
         path: 'docs/activitymonitor/7.1',
         routeBasePath: 'docs/activitymonitor/7.1',
-        sidebarPath: require.resolve('./sidebars/sidebar.js'),
+        sidebarPath: require.resolve('./sidebars/activitymonitor/7.1.js'),
         editUrl: 'https://github.com/netwrix/docs/tree/main/',
         exclude: ['**/CLAUDE.md'],
         versions: {
@@ -187,7 +187,7 @@ const config = {
         id: 'auditor10_7',
         path: 'docs/auditor/10.7',
         routeBasePath: 'docs/auditor/10.7',
-        sidebarPath: require.resolve('./sidebars/sidebar.js'),
+        sidebarPath: require.resolve('./sidebars/auditor/10.7.js'),
         editUrl: 'https://github.com/netwrix/docs/tree/main/',
         exclude: ['**/CLAUDE.md'],
         versions: {
@@ -203,7 +203,7 @@ const config = {
         id: 'auditor10_6',
         path: 'docs/auditor/10.6',
         routeBasePath: 'docs/auditor/10.6',
-        sidebarPath: require.resolve('./sidebars/sidebar.js'),
+        sidebarPath: require.resolve('./sidebars/auditor/10.6.js'),
         editUrl: 'https://github.com/netwrix/docs/tree/main/',
         exclude: ['**/CLAUDE.md'],
         versions: {
@@ -220,7 +220,7 @@ const config = {
         id: 'changetracker8_1',
         path: 'docs/changetracker/8.1',
         routeBasePath: 'docs/changetracker/8.1',
-        sidebarPath: require.resolve('./sidebars/sidebar.js'),
+        sidebarPath: require.resolve('./sidebars/changetracker/8.1.js'),
         editUrl: 'https://github.com/netwrix/docs/tree/main/',
         exclude: ['**/CLAUDE.md'],
         versions: {
@@ -236,7 +236,7 @@ const config = {
         id: 'changetracker8_0',
         path: 'docs/changetracker/8.0',
         routeBasePath: 'docs/changetracker/8.0',
-        sidebarPath: require.resolve('./sidebars/sidebar.js'),
+        sidebarPath: require.resolve('./sidebars/changetracker/8.0.js'),
         editUrl: 'https://github.com/netwrix/docs/tree/main/',
         exclude: ['**/CLAUDE.md'],
         versions: {
@@ -253,7 +253,7 @@ const config = {
         id: 'dataclassification5_7',
         path: 'docs/dataclassification/5.7',
         routeBasePath: 'docs/dataclassification/5.7',
-        sidebarPath: require.resolve('./sidebars/sidebar.js'),
+        sidebarPath: require.resolve('./sidebars/dataclassification/5.7.js'),
         editUrl: 'https://github.com/netwrix/docs/tree/main/',
         exclude: ['**/CLAUDE.md'],
         versions: {
@@ -269,7 +269,7 @@ const config = {
         id: 'dataclassification5_6_2',
         path: 'docs/dataclassification/5.6.2',
         routeBasePath: 'docs/dataclassification/5.6.2',
-        sidebarPath: require.resolve('./sidebars/sidebar.js'),
+        sidebarPath: require.resolve('./sidebars/dataclassification/5.6.2.js'),
         editUrl: 'https://github.com/netwrix/docs/tree/main/',
         exclude: ['**/CLAUDE.md'],
         versions: {
@@ -286,7 +286,7 @@ const config = {
         id: 'endpointprotector5_9_4_2',
         path: 'docs/endpointprotector/5.9.4.2',
         routeBasePath: 'docs/endpointprotector/5.9.4.2',
-        sidebarPath: require.resolve('./sidebars/sidebar.js'),
+        sidebarPath: require.resolve('./sidebars/endpointprotector/5.9.4.2.js'),
         editUrl: 'https://github.com/netwrix/docs/tree/main/',
         exclude: ['**/CLAUDE.md'],
         versions: {
@@ -302,7 +302,7 @@ const config = {
         id: 'endpointprotector5_9_4',
         path: 'docs/endpointprotector/5.9.4',
         routeBasePath: 'docs/endpointprotector/5.9.4',
-        sidebarPath: require.resolve('./sidebars/sidebar.js'),
+        sidebarPath: require.resolve('./sidebars/endpointprotector/5.9.4.js'),
         editUrl: 'https://github.com/netwrix/docs/tree/main/',
         exclude: ['**/CLAUDE.md'],
         versions: {
@@ -352,7 +352,7 @@ const config = {
         id: 'passwordpolicyenforcer11_0',
         path: 'docs/passwordpolicyenforcer/11.0',
         routeBasePath: 'docs/passwordpolicyenforcer/11.0',
-        sidebarPath: require.resolve('./sidebars/sidebar.js'),
+        sidebarPath: require.resolve('./sidebars/passwordpolicyenforcer/11.0.js'),
         editUrl: 'https://github.com/netwrix/docs/tree/main/',
         exclude: ['**/CLAUDE.md'],
         versions: {
@@ -368,7 +368,7 @@ const config = {
         id: 'passwordpolicyenforcer10_2',
         path: 'docs/passwordpolicyenforcer/10.2',
         routeBasePath: 'docs/passwordpolicyenforcer/10.2',
-        sidebarPath: require.resolve('./sidebars/sidebar.js'),
+        sidebarPath: require.resolve('./sidebars/passwordpolicyenforcer/10.2.js'),
         editUrl: 'https://github.com/netwrix/docs/tree/main/',
         exclude: ['**/CLAUDE.md'],
         versions: {
@@ -385,7 +385,7 @@ const config = {
         id: 'passwordreset3_3',
         path: 'docs/passwordreset/3.3',
         routeBasePath: 'docs/passwordreset/3.3',
-        sidebarPath: require.resolve('./sidebars/sidebar.js'),
+        sidebarPath: require.resolve('./sidebars/passwordreset/3.3.js'),
         editUrl: 'https://github.com/netwrix/docs/tree/main/',
         exclude: ['**/CLAUDE.md'],
         versions: {
@@ -401,7 +401,7 @@ const config = {
         id: 'passwordreset3_23',
         path: 'docs/passwordreset/3.23',
         routeBasePath: 'docs/passwordreset/3.23',
-        sidebarPath: require.resolve('./sidebars/sidebar.js'),
+        sidebarPath: require.resolve('./sidebars/passwordreset/3.23.js'),
         editUrl: 'https://github.com/netwrix/docs/tree/main/',
         exclude: ['**/CLAUDE.md'],
         versions: {
@@ -418,7 +418,7 @@ const config = {
         id: 'passwordsecure9_2',
         path: 'docs/passwordsecure/9.2',
         routeBasePath: 'docs/passwordsecure/9.2',
-        sidebarPath: require.resolve('./sidebars/sidebar.js'),
+        sidebarPath: require.resolve('./sidebars/passwordsecure/9.2.js'),
         editUrl: 'https://github.com/netwrix/docs/tree/main/',
         exclude: ['**/CLAUDE.md'],
         versions: {
@@ -434,7 +434,7 @@ const config = {
         id: 'passwordsecure9_1',
         path: 'docs/passwordsecure/9.1',
         routeBasePath: 'docs/passwordsecure/9.1',
-        sidebarPath: require.resolve('./sidebars/sidebar.js'),
+        sidebarPath: require.resolve('./sidebars/passwordsecure/9.1.js'),
         editUrl: 'https://github.com/netwrix/docs/tree/main/',
         exclude: ['**/CLAUDE.md'],
         versions: {
@@ -451,7 +451,7 @@ const config = {
         id: 'privilegesecure4_2',
         path: 'docs/privilegesecure/4.2',
         routeBasePath: 'docs/privilegesecure/4.2',
-        sidebarPath: require.resolve('./sidebars/sidebar.js'),
+        sidebarPath: require.resolve('./sidebars/privilegesecure/4.2.js'),
         editUrl: 'https://github.com/netwrix/docs/tree/main/',
         exclude: ['**/CLAUDE.md'],
         versions: {
@@ -467,7 +467,7 @@ const config = {
         id: 'privilegesecure4_1',
         path: 'docs/privilegesecure/4.1',
         routeBasePath: 'docs/privilegesecure/4.1',
-        sidebarPath: require.resolve('./sidebars/sidebar.js'),
+        sidebarPath: require.resolve('./sidebars/privilegesecure/4.1.js'),
         editUrl: 'https://github.com/netwrix/docs/tree/main/',
         exclude: ['**/CLAUDE.md'],
         versions: {
@@ -484,7 +484,7 @@ const config = {
         id: 'recoveryforactivedirectory2_6',
         path: 'docs/recoveryforactivedirectory/2.6',
         routeBasePath: 'docs/recoveryforactivedirectory/2.6',
-        sidebarPath: require.resolve('./sidebars/sidebar.js'),
+        sidebarPath: require.resolve('./sidebars/recoveryforactivedirectory/2.6.js'),
         editUrl: 'https://github.com/netwrix/docs/tree/main/',
         exclude: ['**/CLAUDE.md'],
         versions: {
@@ -501,7 +501,7 @@ const config = {
         id: 'threatmanager3_0',
         path: 'docs/threatmanager/3.0',
         routeBasePath: 'docs/threatmanager/3.0',
-        sidebarPath: require.resolve('./sidebars/sidebar.js'),
+        sidebarPath: require.resolve('./sidebars/threatmanager/3.0.js'),
         editUrl: 'https://github.com/netwrix/docs/tree/main/',
         exclude: ['**/CLAUDE.md'],
         versions: {
@@ -551,7 +551,7 @@ const config = {
         id: 'identitymanager6_2',
         path: 'docs/identitymanager/6.2',
         routeBasePath: 'docs/identitymanager/6.2',
-        sidebarPath: require.resolve('./sidebars/sidebar.js'),
+        sidebarPath: require.resolve('./sidebars/identitymanager/6.2.js'),
         editUrl: 'https://github.com/netwrix/docs/tree/main/',
         exclude: ['**/CLAUDE.md'],
         versions: {
@@ -567,7 +567,7 @@ const config = {
         id: 'identitymanager6_1',
         path: 'docs/identitymanager/6.1',
         routeBasePath: 'docs/identitymanager/6.1',
-        sidebarPath: require.resolve('./sidebars/sidebar.js'),
+        sidebarPath: require.resolve('./sidebars/identitymanager/6.1.js'),
         editUrl: 'https://github.com/netwrix/docs/tree/main/',
         exclude: ['**/CLAUDE.md'],
         versions: {
@@ -601,7 +601,7 @@ const config = {
         id: 'platgovnetsuite',
         path: 'docs/platgovnetsuite',
         routeBasePath: 'docs/platgovnetsuite',
-        sidebarPath: require.resolve('./sidebars/sidebar.js'),
+        sidebarPath: require.resolve('./sidebars/platgovnetsuite.js'),
         editUrl: 'https://github.com/netwrix/docs/tree/main/',
         exclude: ['**/CLAUDE.md'],
         versions: {
@@ -617,7 +617,7 @@ const config = {
         id: 'platgovsalesforce',
         path: 'docs/platgovsalesforce',
         routeBasePath: 'docs/platgovsalesforce',
-        sidebarPath: require.resolve('./sidebars/sidebar.js'),
+        sidebarPath: require.resolve('./sidebars/platgovsalesforce.js'),
         editUrl: 'https://github.com/netwrix/docs/tree/main/',
         exclude: ['**/CLAUDE.md'],
         versions: {
@@ -633,7 +633,7 @@ const config = {
         id: 'platgovnetsuiteflashlight',
         path: 'docs/platgovnetsuiteflashlight',
         routeBasePath: 'docs/platgovnetsuiteflashlight',
-        sidebarPath: require.resolve('./sidebars/sidebar.js'),
+        sidebarPath: require.resolve('./sidebars/platgovnetsuiteflashlight.js'),
         editUrl: 'https://github.com/netwrix/docs/tree/main/',
         exclude: ['**/CLAUDE.md'],
         versions: {
@@ -649,7 +649,7 @@ const config = {
         id: 'platgovsalesforceflashlight',
         path: 'docs/platgovsalesforceflashlight',
         routeBasePath: 'docs/platgovsalesforceflashlight',
-        sidebarPath: require.resolve('./sidebars/sidebar.js'),
+        sidebarPath: require.resolve('./sidebars/platgovsalesforceflashlight.js'),
         editUrl: 'https://github.com/netwrix/docs/tree/main/',
         exclude: ['**/CLAUDE.md'],
         versions: {
@@ -666,7 +666,7 @@ const config = {
         id: 'identitymanager_saas',
         path: 'docs/identitymanager/saas',
         routeBasePath: 'docs/identitymanager/saas',
-        sidebarPath: require.resolve('./sidebars/sidebar.js'),
+        sidebarPath: require.resolve('./sidebars/identitymanager/saas.js'),
         editUrl: 'https://github.com/netwrix/docs/tree/main/',
         exclude: ['**/CLAUDE.md'],
         versions: {

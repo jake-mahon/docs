@@ -47,7 +47,7 @@ Modify the following analysis tasks to customize the amount of history which is 
 | EX_MetricsCollection | SET HISTORY RETENTION | 6 Months        |
 | EX_MetricsDetails    | SET HISTORY RETENTION | 6 Months        |
 
-See the [Exchange History Retention](collection/ex_metricscollection.md#exchange-history-retention)
+See the [Exchange History Retention](/docs/accessanalyzer/12.0/solutions/exchange/hubmetrics/collection/ex_metricscollection.md#exchange-history-retention)
 topic for additional information.
 
 Query Configuration

@@ -3,12 +3,12 @@
 When synchronizing in full or incremental mode, it is possible to optimize the compute performance
 of the role model by taking into account only the changes made by the synchronization. This
 optimization is based on the `dirty` property of the entity
-[ Resource ](/docs/identitymanager/saas/identitymanager/integration-guide/toolkit/xml-configuration/resources/resource/index.md). The task
-[ Compute Role Model Task ](/docs/identitymanager/saas/identitymanager/integration-guide/toolkit/xml-configuration/jobs/tasks/server/computerolemodeltask/index.md) with option `dirty` set to `true` will
+[ Resource ](/docs/identitymanager/saas/configuration/xml-configuration/scaffoldings.md). The task
+[ Compute Role Model Task ](/docs/identitymanager/saas/configuration/xml-configuration/scaffoldings.md) with option `dirty` set to `true` will
 treat only resources marked as dirty.
 
 This task is used to set the `dirty` flag on all resources based on
-[ Resources ](/docs/identitymanager/saas/identitymanager/integration-guide/toolkit/xml-configuration/resources/index.md)Change, Resource Link Change and Resource File Change
+[ Resources ](/docs/identitymanager/saas/configuration/xml-configuration/scaffoldings.md)Change, Resource Link Change and Resource File Change
 entities. After this, it clears this changes tables.
 
 This task works correctly only if **previous synchronization tasks have not cleared the change

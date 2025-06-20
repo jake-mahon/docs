@@ -31,7 +31,7 @@ Step 6 – Click **Save**.
 
 Step 7 – Select the **Certificates & secrets** node in the left pane to uploaded a certificate for
 secure authentication in Microsoft Entra ID. See the
-[Generate a certificate](modauth.md#generate-a-certificate) section of the
+[Generate a certificate](/docs/directorymanager/11.1/directorymanager/configureentraid/register/modauth.md#generate-a-certificate) section of the
 [Certificate for Entra ID Authentication ](/docs/directorymanager/11.1/directorymanager/configureentraid/register/modauth.md)topic for additional information.
 
 ![Certificate & secrets page](/img/product_docs/directorymanager/directorymanager/configureentraid/register/pfxcertifupload.webp)
@@ -53,28 +53,28 @@ Step 10 – On the **All roles** page, add your registered application to a dire
 - **Global administrator**: For Global administrator, type global to filter out the Global
   administrator role. Click **Global administrator**.
 
-    ![All roles page](/img/product_docs/directorymanager/directorymanager/configureentraid/register/all_roles.webp)
+  ![All roles page](/img/product_docs/directorymanager/directorymanager/configureentraid/register/all_roles.webp)
 
-    Click **Add assignments**. On the Add assignment page, search your application and select it.
-    Click the **Add** button. The application will be listed on the Assignments page.
+  Click **Add assignments**. On the Add assignment page, search your application and select it.
+  Click the **Add** button. The application will be listed on the Assignments page.
 
-    ![Add assignment page](/img/product_docs/directorymanager/directorymanager/configureentraid/register/add_assignment.webp)
+  ![Add assignment page](/img/product_docs/directorymanager/directorymanager/configureentraid/register/add_assignment.webp)
 
 - For any role other than Global administrator, add the registered application to the following two
   directory roles:
 
-    - **Exchange administrators**: can manage all aspects of the Exchange product
-    - **User administrators**: (User Account Administrator) can manage all aspects of users and
-      groups, including resetting passwords for limited administrators.
+  - **Exchange administrators**: can manage all aspects of the Exchange product
+  - **User administrators**: (User Account Administrator) can manage all aspects of users and
+    groups, including resetting passwords for limited administrators.
 
-        For example, this role does not allow deleting a global administrator. User Account
-        Administrators can change passwords for users, Helpdesk administrators, and other User
-        Account Administrators only.
+    For example, this role does not allow deleting a global administrator. User Account
+    Administrators can change passwords for users, Helpdesk administrators, and other User
+    Account Administrators only.
 
-        NOTE: By default, the Directory Manager Administrator security role in a Microsoft Entra
-        IDidentity store binds to Global Administrator. If minimum role assignment for the service
-        account is used, the default Admin Security role criteria should also be changed to the
-        _User Account Administrators_ group.
+    NOTE: By default, the Directory Manager Administrator security role in a Microsoft Entra
+    IDidentity store binds to Global Administrator. If minimum role assignment for the service
+    account is used, the default Admin Security role criteria should also be changed to the
+    _User Account Administrators_ group.
 
 Step 11 – Click **Add**.
 
@@ -111,7 +111,7 @@ Step 17 – Select the **Delegated permissions** tab:
 
 ![SharePoint Delegated permissions](/img/product_docs/directorymanager/directorymanager/configureentraid/register/sharepoint_delegated_permissions.webp)
 
-See [SharePoint Delegated Permissions](apppermissions.md#sharepoint-delegated-permissions) section
+See [SharePoint Delegated Permissions](/docs/directorymanager/11.1/directorymanager/configureentraid/register/apppermissions.md#sharepoint-delegated-permissions) section
 of the [Microsoft Entra ID Permissions](/docs/directorymanager/11.1/directorymanager/configureentraid/register/apppermissions.md) topic for the required permission name.
 
 This completes the registration process of Directory Manager in Microsoft Entra ID.

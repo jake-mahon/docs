@@ -6,20 +6,20 @@ additional managers for users in an identity store. It performs the following fu
 - Group owners and users with the ‘Manage any Group’ permission in the identity store can set a
   start and end date to:
 
-    - Add an object as a temporary additional owner of a group
-    - Remove an additional owner for a temporary period
+  - Add an object as a temporary additional owner of a group
+  - Remove an additional owner for a temporary period
 
-    The Managed By Life Cycle schedule adds and removes an object as a group’s temporary additional
-    owner on the specified dates.
+  The Managed By Life Cycle schedule adds and removes an object as a group’s temporary additional
+  owner on the specified dates.
 
 - User managers and users with the ‘Manage any Profile’ permission in the identity store can set a
   start and end date to:
 
-    - Add an object (user or contact) as a temporary additional manager of a user
-    - Remove an additional manager for a temporary period
+  - Add an object (user or contact) as a temporary additional manager of a user
+  - Remove an additional manager for a temporary period
 
-    The Managed By Life Cycle schedule adds and removes an object as the user’s temporary additional
-    manager on the specified dates.
+  The Managed By Life Cycle schedule adds and removes an object as the user’s temporary additional
+  manager on the specified dates.
 
 Let’s assume that the Managed By Life Cycle schedule is scheduled to run once a week, say Mondays.
 If an object is to be added as a group’s temporary additional owner for three days - Wednesday till
@@ -64,22 +64,22 @@ information.
 Step 9 – You can specify containers as targets for the schedule. The schedule will process all
 groups in the selected containers and sub-containers. To specific containers as target, see step 9
 in the
-[Create a Group Usage Service Schedule](groupusageservice.md#create-a-group-usage-service-schedule)
+[Create a Group Usage Service Schedule](/docs/directorymanager/11.1/directorymanager/admincenter/schedule/groupusageservice.md#create-a-group-usage-service-schedule)
 topic.
 
 Step 10 – Click **Add Triggers** in the Triggers area to specify a triggering criterion for the
 schedule, that, when met, starts the execution of the schedule. Follow step 11 in the
-[Create a Group Usage Service Schedule](groupusageservice.md#create-a-group-usage-service-schedule)
+[Create a Group Usage Service Schedule](/docs/directorymanager/11.1/directorymanager/admincenter/schedule/groupusageservice.md#create-a-group-usage-service-schedule)
 topic to manage triggers.
 
 Step 11 – Click **Add Authentication** in the Authentication area to specify an account for running
 the schedule in the identity store. Follow step 12 in the
-[Create a Group Usage Service Schedule](groupusageservice.md#create-a-group-usage-service-schedule)
+[Create a Group Usage Service Schedule](/docs/directorymanager/11.1/directorymanager/admincenter/schedule/groupusageservice.md#create-a-group-usage-service-schedule)
 topic for for additional information.
 
 Step 12 – On the Create Schedule page, click **Create Schedule**.
 
 Step 13 – On the Schedules page, click **Save**.  
  The schedule is displayed under Managed By Life Cycle. See the
-[View the Schedules in an Identity Store ](manage.md#view-the-schedules-in-an-identity-store) topic
+[View the Schedules in an Identity Store ](/docs/directorymanager/11.1/directorymanager/admincenter/schedule/manage.md#view-the-schedules-in-an-identity-store) topic
 for additional information.

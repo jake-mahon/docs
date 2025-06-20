@@ -48,20 +48,20 @@ attribute, it triggers the workflow.
 3. Click **Workflows** under **Settings** in the left pane. On the **Configure Workflows** tab of
    the **Workflows** page, the following information is displayed for a workflow:
 
-    | Label       | Description                                                                                                                                                                                  |
-    | ----------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-    | Enable      | Shows whether a workflow is enabled or disabled Use the toggle button next to a workflow to enable or disable it.                                                                            |
-    | Type        | A workflow has one of these types: - **System:** workflows that are defined by default for an identity store. - **User Defined:** workflows that are defined by users for an identity store. |
-    | Name        | A descriptive name for a workflow that identifies the action the workflow audits                                                                                                             |
-    | Object(s)   | The directory object(s) the workflow applies to                                                                                                                                              |
-    | Approver(s) | The approver(s) specified for a workflow. Approver(s) are responsible for approving or denying the requests generated for the workflow.                                                      |
-    | Event       | The event that triggers a workflow                                                                                                                                                           |
+   | Label       | Description                                                                                                                                                                                  |
+   | ----------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+   | Enable      | Shows whether a workflow is enabled or disabled Use the toggle button next to a workflow to enable or disable it.                                                                            |
+   | Type        | A workflow has one of these types: - **System:** workflows that are defined by default for an identity store. - **User Defined:** workflows that are defined by users for an identity store. |
+   | Name        | A descriptive name for a workflow that identifies the action the workflow audits                                                                                                             |
+   | Object(s)   | The directory object(s) the workflow applies to                                                                                                                                              |
+   | Approver(s) | The approver(s) specified for a workflow. Approver(s) are responsible for approving or denying the requests generated for the workflow.                                                      |
+   | Event       | The event that triggers a workflow                                                                                                                                                           |
 
 4. You can perform the following actions:
 
-    - Click **Add Workflow** to create a new workflow for the identity store.
-    - Click the ellipsis button for a workflow and select **Edit** to update workflow details, such
-      as approvers, filters, and fields.
+   - Click **Add Workflow** to create a new workflow for the identity store.
+   - Click the ellipsis button for a workflow and select **Edit** to update workflow details, such
+     as approvers, filters, and fields.
 
 ## Create a New Workflow
 
@@ -76,9 +76,9 @@ attribute, it triggers the workflow.
 7. In the **Events** drop-down list, select the event (Create, Edit, Delete) that will trigger the
    workflow.
 
-    NOTE: (1) For the Create event, you can define only one workflow for an object.  
-     (2) A workflow for the Group object with the Delete event will be triggered when the group is
-    manually deleted.
+   NOTE: (1) For the Create event, you can define only one workflow for an object.  
+    (2) A workflow for the Group object with the Delete event will be triggered when the group is
+   manually deleted.
 
 8. Select the **Mail Approval** check box to enable the approver to approve or deny a workflow
    request from within the workflow email notification. These notifications contain the **Accept**
@@ -89,11 +89,11 @@ attribute, it triggers the workflow.
    requests.
 9. The **Approver Acceleration** check box applies if approver acceleration is enabled for the
    identity store. See the
-   [Apply Approver Acceleration](approveracceleration.md#apply-approver-acceleration) topic.
+   [Apply Approver Acceleration](/docs/directorymanager/11.1/directorymanager/admincenter/workflow/approveracceleration.md#apply-approver-acceleration) topic.
 
-    - To apply approver acceleration to this workflow, select the **Approver Acceleration** check
-      box.
-    - To exempt this workflow from approver acceleration, clear this check box.
+   - To apply approver acceleration to this workflow, select the **Approver Acceleration** check
+     box.
+   - To exempt this workflow from approver acceleration, clear this check box.
 
 10. Enter a brief description for the workflow in the **Description** box.
 11. In the **Portal URL** drop-down list, select a Directory Manager portal URL to include in the
@@ -107,13 +107,13 @@ attribute, it triggers the workflow.
     1. Fields on the **Add Approver(s)** dialog box vary, depending on the object and event
        selected. Then select one or more of the available options:
 
-        | Option                                             | Available For                                                  | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
-        | -------------------------------------------------- | -------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-        | Owner of the Group                                 | _Edit_ and _delete_ events of the _Group_ object               | Select it to specify the group’s primary owner as the request approver.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
-        | Owner and Additional Owner of the Group            | _Edit_ and _delete_ events of the _Group_ object               | Select it to specify the group’s primary and additional owners as the request approvers.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
-        | Manager of User                                    | _Edit_ and _Delete_ events of the _User_ and _Contact_ objects | Select it to specify the user’s or contact’s primary manager as the request approver.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
-        | Manager and Additional Manager of User             | _Edit_ and _Delete_ events of the _User_ and _Contact_ objects | Select it to specify the user’s/contact’s primary and additional managers as the request approvers.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
-        | Search Container Include Sub-Containers Search box | For all objects and events                                     | You can specify one or more users and groups as approvers. In case of a group, all its members are set as approvers. Specify a container to search for the desired object(s); then perform a search to locate and select the object. - Click the down arrow in the **Search Container** box and select a container to limit the search scope to it. - Select the **Include Sub-Containers** check box to include the sub-containers within the selected container to search for the object. - Enter a search string in the search box; objects starting with the string are displayed as you type. Click **Add** for an object to select it. You can also perform an advanced search to locate the object. Click **Advanced** in the search box and use the search fields to enter a search string. On clicking **Search**, objects matching the string are displayed. Select the user or group you want to add as approver. |
+       | Option                                             | Available For                                                  | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
+       | -------------------------------------------------- | -------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+       | Owner of the Group                                 | _Edit_ and _delete_ events of the _Group_ object               | Select it to specify the group’s primary owner as the request approver.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
+       | Owner and Additional Owner of the Group            | _Edit_ and _delete_ events of the _Group_ object               | Select it to specify the group’s primary and additional owners as the request approvers.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
+       | Manager of User                                    | _Edit_ and _Delete_ events of the _User_ and _Contact_ objects | Select it to specify the user’s or contact’s primary manager as the request approver.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
+       | Manager and Additional Manager of User             | _Edit_ and _Delete_ events of the _User_ and _Contact_ objects | Select it to specify the user’s/contact’s primary and additional managers as the request approvers.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
+       | Search Container Include Sub-Containers Search box | For all objects and events                                     | You can specify one or more users and groups as approvers. In case of a group, all its members are set as approvers. Specify a container to search for the desired object(s); then perform a search to locate and select the object. - Click the down arrow in the **Search Container** box and select a container to limit the search scope to it. - Select the **Include Sub-Containers** check box to include the sub-containers within the selected container to search for the object. - Enter a search string in the search box; objects starting with the string are displayed as you type. Click **Add** for an object to select it. You can also perform an advanced search to locate the object. Click **Advanced** in the search box and use the search fields to enter a search string. On clicking **Search**, objects matching the string are displayed. Select the user or group you want to add as approver. |
 
     2. Click **Add** to close the **Add Approver(s)** dialog box.
 
@@ -131,12 +131,12 @@ attribute, it triggers the workflow.
     2. Select a schema attribute from the _field_ list.
     3. Select an operator to evaluate the attribute from the _operator_ list.
 
-        - **Present** - returns objects that have a value specified for the attribute.
-        - **Not Present** - returns objects that do not have a value specified for the attribute.
-        - **Equals** - returns objects when the attribute value exactly matches the text you specify
-          in the value box.
-        - **Not Equals** - returns objects when the attribute value does not match the text you
-          specify in the value box.
+       - **Present** - returns objects that have a value specified for the attribute.
+       - **Not Present** - returns objects that do not have a value specified for the attribute.
+       - **Equals** - returns objects when the attribute value exactly matches the text you specify
+         in the value box.
+       - **Not Equals** - returns objects when the attribute value does not match the text you
+         specify in the value box.
 
     4. Enter a value in the _value_ box (not case-sensitive). This box is not available for the
        _Present_ and _Not Present_ operators, which are not comparison operators.
@@ -176,7 +176,7 @@ create a basic flow template there. On providing the URL of the flow template in
 are linked. As a result, the flow auto triggers when the Directory Manager workflow is triggered.
 
 For details on linking a workflow to a flow, see the
-[Trigger a Flow from Directory Manager ](integrate.md#trigger-a-flow-from-directory-manager) topic.
+[Trigger a Flow from Directory Manager ](/docs/directorymanager/11.1/directorymanager/admincenter/workflow/integrate.md#trigger-a-flow-from-directory-manager) topic.
 
 ## Modify a Workflow
 
@@ -200,7 +200,7 @@ approver acceleration, and link it to a Power Automate flow.
 6. To link this workflow to a Power Automate flow, click **Power Automate Settings** in the top
    right corner; the **Power Automate Settings** dialog box is displayed. Follow step
    [6](/docs/directorymanager/11.1/directorymanager/admincenter/workflow/integrate.md) and onwards in the
-   [Link an Identity Store Workflow to a Flow](integrate.md#link-an-identity-store-workflow-to-a-flow)
+   [Link an Identity Store Workflow to a Flow](/docs/directorymanager/11.1/directorymanager/admincenter/workflow/integrate.md#link-an-identity-store-workflow-to-a-flow)
    topic to complete the task.
 7. After making the required changes, click **Update Workflow** on the **Edit Workflow** page to
    save the settings.

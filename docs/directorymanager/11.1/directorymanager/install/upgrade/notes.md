@@ -11,7 +11,7 @@ Step 1 – Portals from the source version will not be upgraded to Directory Man
 
 Step 2 – To upgrade to Directory Manager 11 on a different box, the GroupID source version file
 system must be available on the Directory Manager 11 server. To ensure this, follow step 1 in the
-[Prerequisites for Upgrade](overview.md#prerequisites-for-upgrade) topic.
+[Prerequisites for Upgrade](/docs/directorymanager/11.1/directorymanager/install/upgrade/overview.md#prerequisites-for-upgrade) topic.
 
 The source version file system is required for the following:
 
@@ -26,12 +26,12 @@ The source version file system is required for the following:
   Manager 11 will display the default attributes for identity store replication (rather than your
   selected attributes).
 
-    File name: `<name of the domain the identity store is created on>`\_`<identity store ID>`.xml  
-     Example: techinfo.local_4.xml, techinfo.onmicrosoft.com_6.xml  
-     A separate file exists for each identity store.
+  File name: `<name of the domain the identity store is created on>`\_`<identity store ID>`.xml  
+   Example: techinfo.local_4.xml, techinfo.onmicrosoft.com_6.xml  
+   A separate file exists for each identity store.
 
-    File Path on the Directory Manager 11 server:
-    ``C:\Program Files\Imanami\GroupID `<source version>`\Replication\IdentityStoresReplicationAttributes\``
+  File Path on the Directory Manager 11 server:
+  ``C:\Program Files\Imanami\GroupID `<source version>`\Replication\IdentityStoresReplicationAttributes\``
 
 - To upgrade schedules, Synchronize jobs, and generated reports on a different box, the relevant
   files must be available on the Directory Manager 11 server.
@@ -39,14 +39,14 @@ The source version file system is required for the following:
   that file should also be available on the Directory Manager 11 server for the Upgrade wizard to
   process it.
 
-    File name: The name of the uploaded file.  
-     For example: DisallowedPasswords.txt
+  File name: The name of the uploaded file.  
+   For example: DisallowedPasswords.txt
 
-    File Path on the Directory Manager11
-    server:`` C:\Program Files\Imanami\GroupID `<source version>`\GroupIDDataService\PasswordCenter\PasswordExceptionLists\`<identity store name>`_`<identity store ID>`\``
+  File Path on the Directory Manager11
+  server:`` C:\Program Files\Imanami\GroupID `<source version>`\GroupIDDataService\PasswordCenter\PasswordExceptionLists\`<identity store name>`_`<identity store ID>`\``
 
-    Example:
-    `C:\Program Files\Imanami\GroupID 10.0\GroupIDDataService\PasswordCenter\PasswordExceptionLists\ADStore_4\`
+  Example:
+  `C:\Program Files\Imanami\GroupID 10.0\GroupIDDataService\PasswordCenter\PasswordExceptionLists\ADStore_4\`
 
 Step 3 – When importing design settings of a Self-Service portal on the same box or on a different
 box, remember the following:

@@ -29,13 +29,13 @@ The Helpdesk policy defines:
 What do you want to do?
 
 - Set Restricted Mode
-    - Limit Helpdesk to Manage Users in a Specific OU
-    - Enforce Helpdesk to Authenticate Users
-    - Enforce Helpdesk to Use Security Questions for Authentication
+  - Limit Helpdesk to Manage Users in a Specific OU
+  - Enforce Helpdesk to Authenticate Users
+  - Enforce Helpdesk to Use Security Questions for Authentication
 - Set Unrestricted Mode
 - Specify Password Reset Options
-    - Specify a Password Reset Method
-    - Force Users to Change Password on Next Logon
+  - Specify a Password Reset Method
+  - Force Users to Change Password on Next Logon
 
 ## Set Restricted Mode
 
@@ -125,10 +125,10 @@ interaction** check box, and then select one of the following options:
 - **Enforce multifactor authentication as applies to end user:** to force helpdesk role members to
   authenticate an end-user as per the authentication policy defined for the security role of that
   user. See the
-  [Enforce Authentication Types for Multifactor Authentication](authentication.md#enforce-authentication-types-for-multifactor-authentication)
+  [Enforce Authentication Types for Multifactor Authentication](/docs/directorymanager/11.1/directorymanager/admincenter/securityrole/policy/authentication.md#enforce-authentication-types-for-multifactor-authentication)
   topic.
 
-    Or
+  Or
 
 - **Enforce at least selected level of multifactor authentication:** to force helpdesk role members
   to authenticate end-users with x number of authentication types. Specify the number of

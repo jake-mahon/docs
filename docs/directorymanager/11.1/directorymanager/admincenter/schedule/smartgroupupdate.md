@@ -63,36 +63,36 @@ schedule processes all groups in it and its sub-containers. In the case of group
 processes the added groups only (i.e., it does not process nested groups).
 
 1. To specific containers as target, follow step 9 in the
-   [Create a Group Usage Service Schedule](groupusageservice.md#create-a-group-usage-service-schedule)
+   [Create a Group Usage Service Schedule](/docs/directorymanager/11.1/directorymanager/admincenter/schedule/groupusageservice.md#create-a-group-usage-service-schedule)
    topic. The schedule will process all Smart Groups and Dynasties in the containers and their
    sub-containers listed in the Target(s) area.
 2. To add Smart Groups and Dynasties as targets, click **Add Group**. On the Add Object(s) dialog
    box, specify a container to search for the desired groups; then perform a search to locate and
    select the groups.
 
-    - Click the down arrow in the **Search Container** box and select a container to limit the
-      search scope to it.
-    - Select the **Include Sub-Containers** check box to include the sub-containers within the
-      selected container to search for the group(s).
-    - Enter a search string in the search box; group names starting with the string are displayed as
-      you type. Click **Add** for a group to select it.  
-      You can also perform an advanced search to locate a group. Click **Advanced** in the search
-      box and use the search fields to enter a search string. On clicking **Search**, groups
-      matching the string are displayed. Select the group you want to add as target.
-    - After selecting one or more groups, click **Add** the groups are displayed in the Target(s)
-      area.
+   - Click the down arrow in the **Search Container** box and select a container to limit the
+     search scope to it.
+   - Select the **Include Sub-Containers** check box to include the sub-containers within the
+     selected container to search for the group(s).
+   - Enter a search string in the search box; group names starting with the string are displayed as
+     you type. Click **Add** for a group to select it.  
+     You can also perform an advanced search to locate a group. Click **Advanced** in the search
+     box and use the search fields to enter a search string. On clicking **Search**, groups
+     matching the string are displayed. Select the group you want to add as target.
+   - After selecting one or more groups, click **Add** the groups are displayed in the Target(s)
+     area.
 
 3. To remove a container or group in the Target(s) area, click **Remove** for it.  
    To remove all target objects, click **Remove All**.
 
 Step 10 – Click **Add Triggers** in the Triggers area to specify a triggering criterion for the
 schedule, that, when met, starts the execution of the schedule. Follow step 11 in the
-[Create a Group Usage Service Schedule](groupusageservice.md#create-a-group-usage-service-schedule)
+[Create a Group Usage Service Schedule](/docs/directorymanager/11.1/directorymanager/admincenter/schedule/groupusageservice.md#create-a-group-usage-service-schedule)
 topic to add triggers.
 
 Step 11 – Click **Add Authentication** in the Authentication area to specify an account for running
 the schedule in the identity store. Follow step 12 in the
-[Create a Group Usage Service Schedule](groupusageservice.md#create-a-group-usage-service-schedule)
+[Create a Group Usage Service Schedule](/docs/directorymanager/11.1/directorymanager/admincenter/schedule/groupusageservice.md#create-a-group-usage-service-schedule)
 topic for additional information.
 
 Step 12 – To enable notifications for the schedule, click **Notifications**. On the Notifications
@@ -103,41 +103,41 @@ dialog box, specify an event for triggering notifications for the schedule and a
    notification recipients, using a semicolon to separate multiple addresses. These recipients will
    get a report on the event you select for **Send Notification**.
 
-    NOTE: If the email ID of a target group’s additional owner is specified in this box, the
-    additional owner will receive notifications even if the Do not Notify check box is selected for
-    it in the respective group’s properties.
+   NOTE: If the email ID of a target group’s additional owner is specified in this box, the
+   additional owner will receive notifications even if the Do not Notify check box is selected for
+   it in the respective group’s properties.
 
 3. Select the **Send Report to group owner(s)** check box to send a report to each unique group
    owner of the groups processed by the schedule. A Dynasty owner receives a notification for its
    groups and direct child Dynasties.  
    Group owners include the primary owner, additional owner(s), and Exchange additional owner(s).
 
-    NOTE: An additional owner of a target group will not receive notifications when the Do not
-    Notify check box is selected for it in the respective group’s properties, even with the Send
-    Report to group owner(s) check box selected.
+   NOTE: An additional owner of a target group will not receive notifications when the Do not
+   Notify check box is selected for it in the respective group’s properties, even with the Send
+   Report to group owner(s) check box selected.
 
 4. In the Send Notification area, select one of the following options:
 
-    - Always – Always send notifications, whether the schedule succeeds or fails to update the
-      groups.
-    - Only when job succeeds – Send notifications when the schedule successfully updates all the
-      groups. Even when one group fails to be updated, notifications are not sent.
-    - Only when job fails – Send notifications when the schedule fails to update groups, even when
-      all except one group is not updated.
-    - Only when membership changes – Send notifications when any changes are made to group
-      membership as a result of the schedule run.
+   - Always – Always send notifications, whether the schedule succeeds or fails to update the
+     groups.
+   - Only when job succeeds – Send notifications when the schedule successfully updates all the
+     groups. Even when one group fails to be updated, notifications are not sent.
+   - Only when job fails – Send notifications when the schedule fails to update groups, even when
+     all except one group is not updated.
+   - Only when membership changes – Send notifications when any changes are made to group
+     membership as a result of the schedule run.
 
 5. Click **Save**.
 
-    NOTE: When a Smart Group Update schedule is bound to a single OU that contains all expired Smart
-    Groups/Dynasties, notifications will not be sent, even if the _Always_ option is selected.
-    Expired Smart Groups and Dynasties are not evaluated for the update process. However, even if
-    one group in the OU is not expired, notifications will be sent for all objects with _failed_
-    status for expired objects.
+   NOTE: When a Smart Group Update schedule is bound to a single OU that contains all expired Smart
+   Groups/Dynasties, notifications will not be sent, even if the _Always_ option is selected.
+   Expired Smart Groups and Dynasties are not evaluated for the update process. However, even if
+   one group in the OU is not expired, notifications will be sent for all objects with _failed_
+   status for expired objects.
 
 Step 13 – On the Create Schedule page, click **Create Schedule**.
 
 Step 14 – On the Schedules page, click **Save**.  
 The schedule is displayed under Smart Group Update. See the
-[View the Schedules in an Identity Store ](manage.md#view-the-schedules-in-an-identity-store) topic
+[View the Schedules in an Identity Store ](/docs/directorymanager/11.1/directorymanager/admincenter/schedule/manage.md#view-the-schedules-in-an-identity-store) topic
 for more info for additional information.

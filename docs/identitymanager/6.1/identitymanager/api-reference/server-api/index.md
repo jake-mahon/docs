@@ -1,0 +1,18 @@
+# Server API
+
+- #### [AccessCertification](/docs/identitymanager/6.1/identitymanager/api-reference/server-api/access-certification.md)
+- #### [AccessControl](/docs/identitymanager/6.1/identitymanager/api-reference/server-api/access-control.md)
+- #### [Connectors](/docs/identitymanager/6.1/identitymanager/api-reference/server-api/connectors.md)
+- #### [Files](/docs/identitymanager/6.1/identitymanager/api-reference/server-api/resources.md)
+- #### [Job](/docs/identitymanager/6.1/identitymanager/api-reference/server-api/jobs.md)
+- #### [Metadata](/docs/identitymanager/6.1/identitymanager/api-reference/server-api/metadata.md)
+- #### [ProvisioningEntityInstance](/docs/identitymanager/6.1/identitymanager/api-reference/server-api/provisioning.md)
+- #### [ProvisioningPolicy](/docs/identitymanager/6.1/identitymanager/api-reference/server-api/provisioning.md)
+- #### [Report](/docs/identitymanager/6.1/identitymanager/api-reference/server-api/reports.md)
+- #### [Resource](/docs/identitymanager/6.1/identitymanager/api-reference/server-api/resources.md)
+- #### [ResourceChange](/docs/identitymanager/6.1/identitymanager/api-reference/server-api/resources.md)
+- #### [ResourceFileChange](/docs/identitymanager/6.1/identitymanager/api-reference/server-api/resources.md)
+- #### [ResourceLink](/docs/identitymanager/6.1/identitymanager/api-reference/server-api/resources.md)
+- #### [ResourceLinkChange](/docs/identitymanager/6.1/identitymanager/api-reference/server-api/resources.md)
+- #### [Universes](/docs/identitymanager/6.1/identitymanager/api-reference/server-api/universes.md)
+- #### [Workflows](/docs/identitymanager/6.1/identitymanager/api-reference/server-api/workflows.md)

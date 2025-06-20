@@ -15,7 +15,7 @@ information.
 **CAUTION:** The new global Settings will overwrite any previously configured Sensitive Data
 criteria. Make a note of any configured Sensitive Data Criteria before upgrading Access Analyzer.
 Sensitive Data Criteria must be reconfigured after an upgrade. See the
-[Configure Global Sensitive Data Settings](solutionconsiderations.md#configure-global-sensitive-data-settings)
+[Configure Global Sensitive Data Settings](/docs/accessanalyzer/12.0/install/application/upgrade/solutionconsiderations.md#configure-global-sensitive-data-settings)
 topic for additional information.
 
 ![Windows Control Panel Uninstall or change a program window](/img/product_docs/accessanalyzer/install/application/controlpaneluninstall.webp)
@@ -41,8 +41,8 @@ topic for detailed instructions.
   Access Analyzer Console in order to be referenced during the installation process
 - Access Analyzer is installed to the following directory by default: `…\STEALTHbits\StealthAUDIT`
 
-    If another installation path is designated, please be sure to leave `STEALTHbits\StealthAUDIT`
-    as the path suffix in the installation wizard.
+  If another installation path is designated, please be sure to leave `STEALTHbits\StealthAUDIT`
+  as the path suffix in the installation wizard.
 
 - During the installation, any customizations to the settings in the `WebServer.exe.config` file are
   automatically restored from the backup file retained when installing the previous version. The
@@ -131,14 +131,14 @@ continue.
 
 - If selected, usage statistics are collected and sent to Netwrix
 
-    - Upon startup of the Access Analyzer console, the system checks if usage statistics have been
-      sent in the last 7 days. If they have not been, stored procedures run against the Access
-      Analyzer database and gather data about job runs, access times, and environmental details like
-      resource counts, users counts, number of exceptions, and so on. This data is then sent back to
-      Netwrix to help us identify usage trends and common pain points, so that we can use this
-      information to improve the product.
-    - Only anonymous statistic-level data is included. No private company or personal data is
-      collected or sent to Netwrix.
+  - Upon startup of the Access Analyzer console, the system checks if usage statistics have been
+    sent in the last 7 days. If they have not been, stored procedures run against the Access
+    Analyzer database and gather data about job runs, access times, and environmental details like
+    resource counts, users counts, number of exceptions, and so on. This data is then sent back to
+    Netwrix to help us identify usage trends and common pain points, so that we can use this
+    information to improve the product.
+  - Only anonymous statistic-level data is included. No private company or personal data is
+    collected or sent to Netwrix.
 
 - If cleared, no usage statistics are collected or sent to Netwrix
 

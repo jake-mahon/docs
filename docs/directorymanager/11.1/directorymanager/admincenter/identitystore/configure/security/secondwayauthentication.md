@@ -46,12 +46,12 @@ it, you must enable one or more authentication types.
    For successful authentication, the answer a user provides for the security question must match
    the value of the linked attribute.
 
-    **To edit or remove a security question:**
+   **To edit or remove a security question:**
 
-    - In the **Enable Second Way Authentication via Security Questions** area, click **Remove** for
-      a question to remove it.
-    - To remove all questions, click **Remove All**.
-    - To change the question text or link it to a different schema attribute, click **Edit** for it.
+   - In the **Enable Second Way Authentication via Security Questions** area, click **Remove** for
+     a question to remove it.
+   - To remove all questions, click **Remove All**.
+   - To change the question text or link it to a different schema attribute, click **Edit** for it.
 
 9. Click **Save** on the **Second Way Authentication** page.
 
@@ -65,11 +65,11 @@ it, you must enable one or more authentication types.
 4. On the **Second Way Authentication** page, use the toggle button for **Enable Second Way
    Authentication via Mobile** to enable it.
 
-    NOTE: If an SMS gateway account is not linked with the identity store, **Configure Now** is
-    displayed in place of the toggle button. Click it to go to the **SMS Authentication** page,
-    where you can link an SMS gateway account with the identity store. See the
-    [Link an SMS Gateway Account to an Identity Store](smsauthentication.md#link-an-sms-gateway-account-to-an-identity-store)
-    topic.
+   NOTE: If an SMS gateway account is not linked with the identity store, **Configure Now** is
+   displayed in place of the toggle button. Click it to go to the **SMS Authentication** page,
+   where you can link an SMS gateway account with the identity store. See the
+   [Link an SMS Gateway Account to an Identity Store](/docs/directorymanager/11.1/directorymanager/admincenter/identitystore/configure/security/smsauthentication.md#link-an-sms-gateway-account-to-an-identity-store)
+   topic.
 
 5. In the **Mobile Attribute** drop-down list, select an attribute that stores mobile numbers in the
    directory.  
@@ -87,9 +87,9 @@ it, you must enable one or more authentication types.
 4. On the **Second Way Authentication** page, use the toggle button for **Enable Second Way
    Authentication via Email** to enable it.
 
-    NOTE: If an SMTP server is not defined for the identity store, **Configure Now** is displayed in
-    place of the toggle button. Click it to go to the **Notifications** page for configuring an SMTP
-    server. See the [Configure an SMTP Server](/docs/directorymanager/11.1/directorymanager/admincenter/identitystore/configure/smtpserver.md) topic.
+   NOTE: If an SMTP server is not defined for the identity store, **Configure Now** is displayed in
+   place of the toggle button. Click it to go to the **Notifications** page for configuring an SMTP
+   server. See the [Configure an SMTP Server](/docs/directorymanager/11.1/directorymanager/admincenter/identitystore/configure/smtpserver.md) topic.
 
 5. In the **Email Attribute** drop-down list, select an attribute that stores email addresses in the
    directory.  

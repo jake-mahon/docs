@@ -61,7 +61,7 @@ Please note the following while selecting a Scheduler service:
   will be used.
 
 Step 9 – You can specify containers as targets for the schedule. To do so, follow step 9 in the
-[Create a Group Usage Service Schedule](groupusageservice.md#create-a-group-usage-service-schedule)
+[Create a Group Usage Service Schedule](/docs/directorymanager/11.1/directorymanager/admincenter/schedule/groupusageservice.md#create-a-group-usage-service-schedule)
 topic. The schedule will process all groups in the containers and their sub-containers listed in the
 Target(s) area in keeping with the Group Lifecycle settings for the identity store.
 
@@ -73,12 +73,12 @@ containers, in which case, the Group Lifecycle settings take precedence.
 
 Step 10 – Click **Add Triggers** in the Triggers area to specify a triggering criterion for the
 schedule, that, when met, starts the execution of the schedule. Follow step 11 in the
-[Create a Group Usage Service Schedule](groupusageservice.md#create-a-group-usage-service-schedule)
+[Create a Group Usage Service Schedule](/docs/directorymanager/11.1/directorymanager/admincenter/schedule/groupusageservice.md#create-a-group-usage-service-schedule)
 topic to manage triggers.
 
 Step 11 – Click **Add Authentication** in the Authentication area to specify an account for running
 the schedule in the identity store. Follow step 12 in the
-[Create a Group Usage Service Schedule](groupusageservice.md#create-a-group-usage-service-schedule)
+[Create a Group Usage Service Schedule](/docs/directorymanager/11.1/directorymanager/admincenter/schedule/groupusageservice.md#create-a-group-usage-service-schedule)
 topic for additional information.
 
 Step 12 – To set notifications for the schedule, click **Notifications**.
@@ -95,5 +95,5 @@ Step 13 – On the Create Schedule page, click **Create Schedule**.
 
 Step 14 – On the Schedules page, click **Save**.  
 The schedule is displayed under Group Life Cycle. See the
-[View the Schedules in an Identity Store ](manage.md#view-the-schedules-in-an-identity-store) topic
+[View the Schedules in an Identity Store ](/docs/directorymanager/11.1/directorymanager/admincenter/schedule/manage.md#view-the-schedules-in-an-identity-store) topic
 for additional information.

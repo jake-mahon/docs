@@ -20,7 +20,7 @@ created within GroupIDSite11.
 Admin Center uses the default Data service and Security service; you cannot change this binding.
 
 To view the default services, see the
-[View Data Service Details](manage.md#view-data-service-details) topic.
+[View Data Service Details](/docs/directorymanager/11.1/directorymanager/admincenter/service/dataservice/manage.md#view-data-service-details) topic.
 
 ## Why Create Multiple Data Services?
 

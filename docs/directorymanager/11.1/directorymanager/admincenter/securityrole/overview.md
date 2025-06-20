@@ -9,7 +9,7 @@ store in Directory Manager has the following built-in roles that you can assign 
   passwords and unlock identity store accounts on behalf of other users. Admin Center for this role,
   by default, is available in the Helpdesk mode only.
 
-    NOTE: The Helpdesk role is not available by default for a Microsoft Entra ID identity store.
+  NOTE: The Helpdesk role is not available by default for a Microsoft Entra ID identity store.
 
 - **User:** This role can be assigned to standard users, who can create new groups, manage their
   groups, update their directory profiles, and manage their direct reports.
@@ -22,7 +22,7 @@ topics for additional information.
 **View security role info**
 
 To view information about a security role, see the
-[View Security Roles](manage.md#view-security-roles) topic.
+[View Security Roles](/docs/directorymanager/11.1/directorymanager/admincenter/securityrole/manage.md#view-security-roles) topic.
 
 **User policies and permissions**
 

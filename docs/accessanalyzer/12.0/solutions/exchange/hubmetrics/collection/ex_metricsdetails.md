@@ -16,9 +16,9 @@ The following query is included in the EX_MetricsDetails Job:
 
 - Activity metrics – Collects user to user traffic per day
 
-    - Domains must be configured for data collection to return data
-    - See the [Configure the Activity Metrics Query](#configure-the-activity-metrics-query) topic
-      for additional information
+  - Domains must be configured for data collection to return data
+  - See the [Configure the Activity Metrics Query](#configure-the-activity-metrics-query) topic
+    for additional information
 
 ### Configure the Activity Metrics Query
 
@@ -62,14 +62,14 @@ preconfigured for this job.
 
 The following analysis tasks are selected by default:
 
--   1. User to User Traffic History – Creates the SA_EX_ExhangeMetrics_MessageTraffic table
-       accessible under the job’s Results node
--   2. SET HISTORY RETENTION – Sets retention period in months
+- 1. User to User Traffic History – Creates the SA_EX_ExhangeMetrics_MessageTraffic table
+     accessible under the job’s Results node
+- 2. SET HISTORY RETENTION – Sets retention period in months
 
-    - By default set to retain **6 months**
-    - This retention period can be modified. See the
-      [Exchange History Retention](ex_metricscollection.md#exchange-history-retention) topic for
-      additional information.
+  - By default set to retain **6 months**
+  - This retention period can be modified. See the
+    [Exchange History Retention](/docs/accessanalyzer/12.0/solutions/exchange/hubmetrics/collection/ex_metricscollection.md#exchange-history-retention) topic for
+    additional information.
 
 The following analysis task clears table data from data collection and analysis jobs. This analysis
 task should remain deselected unless specifically needed:
@@ -77,8 +77,8 @@ task should remain deselected unless specifically needed:
 **CAUTION:** Do not select the **00. DROP HISTORY** option. This analysis task is for
 troubleshooting and cleanup only. Data will be deleted from the database.
 
--   0. DROP HISTORY - LEAVE UNCHECKED – Clears all historical data
+- 0. DROP HISTORY - LEAVE UNCHECKED – Clears all historical data
 
-    - See the
-      [Troubleshooting Data Collection](ex_metricscollection.md#troubleshooting-data-collection)
-      topic for additional information
+  - See the
+    [Troubleshooting Data Collection](/docs/accessanalyzer/12.0/solutions/exchange/hubmetrics/collection/ex_metricscollection.md#troubleshooting-data-collection)
+    topic for additional information

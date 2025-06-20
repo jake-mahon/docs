@@ -16,8 +16,8 @@ the groups for which you are an additional owner, select the **Display additiona
 My Groups** check box on the [Portal Settings](/docs/directorymanager/11.1/directorymanager/portal/setting/portal.md) panel. This tab lists active
 groups only; expired and deleted groups are not displayed.
 
-You can [Modify Search Directory](allgroups.md#modify-search-directory) to search your groups and
-add [Filter All Groups](allgroups.md#filter-all-groups)by clicking **My Groups Grid Filters**. All
+You can [Modify Search Directory](/docs/directorymanager/11.1/directorymanager/portal/group/allgroups.md#modify-search-directory) to search your groups and
+add [Filter All Groups](/docs/directorymanager/11.1/directorymanager/portal/group/allgroups.md#filter-all-groups)by clicking **My Groups Grid Filters**. All
 your groups matching the filters will be displayed.
 
 **You can:**
@@ -30,22 +30,22 @@ your groups matching the filters will be displayed.
   list.
 - Select a smart group and click **Renew** on the toolbar; this re-applies the expiry policy of the
   group starting from today, thus renewing the group.
-- Join a group as a [Join a group temporarily](manage/groupjoinleave.md#join-a-group-temporarily) or
-  [Join a group permanently](manage/groupjoinleave.md#join-a-group-permanently)
+- Join a group as a [Join a group temporarily](/docs/directorymanager/11.1/directorymanager/portal/group/manage/groupjoinleave.md#join-a-group-temporarily) or
+  [Join a group permanently](/docs/directorymanager/11.1/directorymanager/portal/group/manage/groupjoinleave.md#join-a-group-permanently)
 - Leave a group’s membership
-  [Leave a group temporarily](manage/groupjoinleave.md#leave-a-group-temporarily) or
-  [Leave a group permanently](manage/groupjoinleave.md#leave-a-group-permanently).
+  [Leave a group temporarily](/docs/directorymanager/11.1/directorymanager/portal/group/manage/groupjoinleave.md#leave-a-group-temporarily) or
+  [Leave a group permanently](/docs/directorymanager/11.1/directorymanager/portal/group/manage/groupjoinleave.md#leave-a-group-permanently).
 - Join / leave a group
-  [Join or leave a group on behalf of a direct report or peer](manage/groupjoinleave.md#join-or-leave-a-group-on-behalf-of-a-direct-report-or-peer)a
+  [Join or leave a group on behalf of a direct report or peer](/docs/directorymanager/11.1/directorymanager/portal/group/manage/groupjoinleave.md#join-or-leave-a-group-on-behalf-of-a-direct-report-or-peer)a
   direct report or peer.
 - To Join/Leave the group, you can also click on **Want to write reason to group owner?** and state
   the the reason for joining or leaving the group for the group owner.
 - Update the security type of your group using **Set Security Type** option. You can select one of
   the following security types:
 
-    - Public
-    - Semi Private
-    - Private
+  - Public
+  - Semi Private
+  - Private
 
 - Select a group and click **Move Group** from the toolbar. You can specify a new container from
   **Select Container** box where you want to move the group.
@@ -53,22 +53,22 @@ your groups matching the filters will be displayed.
   contact list using the vCard. The portal creates the group's vCard and prompts you to save it on
   your machine. You can then use it to add the group's email address to your email contact list.
 - Click **Add to Group** to add the group into the membership of another group
-  ([Add a group to the membership of another group (nesting)](manage/groupmembershipfunction.md#add-a-group-to-the-membership-of-another-group-nesting)).
+  ([Add a group to the membership of another group (nesting)](/docs/directorymanager/11.1/directorymanager/portal/group/manage/groupmembershipfunction.md#add-a-group-to-the-membership-of-another-group-nesting)).
 - Select a group and click **Send Email** on the toolbar to send an email to the group. This
   launches the default Windows email application for sending an email to group members.
 - Click **Export Results** on the toolbar to export the group list to a Microsoft Excel file.
 - Update the expiration policy of your group using **Set Expiration Policy** option.
 - Update owner for your group using **Set Owner** option. The drop down list displays two options:
 
-    - **Me:** You can set yourself as the Owner
-    - **Other:** You can select some other user as the owner.
+  - **Me:** You can set yourself as the Owner
+  - **Other:** You can select some other user as the owner.
 
 - Manually [ Group Deletion](/docs/directorymanager/11.1/directorymanager/portal/group/manage/groupdeletion.md) any of your group.
 - Get a list of all groups managed by s particular group (i.e., all groups for which the selected
   group is a primary or additional owner)
 
-    Select a group and click **Managed By** on the toolbar to get a list of groups managed by the
-    selected group.
+  Select a group and click **Managed By** on the toolbar to get a list of groups managed by the
+  selected group.
 
 - Click **Attest Group** to update smart groups and dynasties, and verify your group's attributes
   and memberships.
