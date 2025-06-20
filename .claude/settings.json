@@ -16,5 +16,8 @@
       "Bash(find . -delete)",
       "Bash(find ~ -delete)"
     ]
+  },
+  "env": {
+    "CLAUDE_CODE_MAX_OUTPUT_TOKENS": "64000"
   }
 }

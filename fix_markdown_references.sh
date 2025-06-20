@@ -23,8 +23,8 @@ if [ ! -d "$search_dir" ]; then
     exit 1
 fi
 
-# Process CSV file (skip header)
-tail -n +2 "$csv_file" | while IFS=',' read -r source_path dest_path; do
+# Process CSV file
+while IFS=',' read -r source_path dest_path; do
     # Remove any leading/trailing whitespace
     source_path=$(echo "$source_path" | sed 's/^[[:space:]]*//;s/[[:space:]]*$//')
     dest_path=$(echo "$dest_path" | sed 's/^[[:space:]]*//;s/[[:space:]]*$//')
@@ -55,6 +55,6 @@ tail -n +2 "$csv_file" | while IFS=',' read -r source_path dest_path; do
             fi
         fi
     done
-done
+done < "$csv_file"
 
 echo "Path replacement complete"
