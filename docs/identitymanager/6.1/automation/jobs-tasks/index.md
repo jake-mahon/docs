@@ -39,7 +39,7 @@ This configuration is to use the fill for the LDAP and configure the Reset Passw
                       NotifiedEmailBinding="AssignedResourceType:Owner.Directory_User:MainRecord.Organization.Manager.MainRecord.Mail"
                       NotifiedFullNameBinding="AssignedResourceType:Owner.Directory_User:MainRecord.Organization.Manager.MainRecord.InternalDisplayName"
                       Mode="1" DefaultPassword="Usercube@2019" MustChange="true"
-                      AutoGenerate="false" DisableNotifications="false" GeneratedLength="12" />  <LDAPResourceTypeMapping Identifier="AD_Entry_NominativeUser" Connection="ADExportFulfillment" PasswordResetSetting="default" DefaultObjectClass="user" RDNAttributeIdentifier="CN" UsePermissiveModify="true" UseTreeDelete="false">    <Property Property="dn" IsDNProperty="true" />    <Property Property="parentdn" IsParentProperty="true" />    <Property Property="cn" IsRDNProperty="true" />    <Property Property="userAccountControl" IsUserAccountControlProperty="true" />    <Property Property="memberOf" DataSourceBacklinkColumnName="member" />  </LDAPResourceTypeMapping>
+                      AutoGenerate="false" DisableNotifications="false" GeneratedLength="12" /> <LDAPResourceTypeMapping Identifier="AD_Entry_NominativeUser" Connection="ADExportFulfillment" PasswordResetSetting="default" DefaultObjectClass="user" RDNAttributeIdentifier="CN" UsePermissiveModify="true" UseTreeDelete="false"> <Property Property="dn" IsDNProperty="true" /> <Property Property="parentdn" IsParentProperty="true" /> <Property Property="cn" IsRDNProperty="true" /> <Property Property="userAccountControl" IsUserAccountControlProperty="true" /> <Property Property="memberOf" DataSourceBacklinkColumnName="member" /> </LDAPResourceTypeMapping>
 
 ```
 
@@ -81,7 +81,7 @@ connector instead of ResourceType.
 
 ```
 
-  <FulfillTask Agent="Local" DisplayName_L1="Fulfill LDAP" Identifier="Fulfill_LDAP" OpenIdClient="Job">    <TaskResourceType ResourceType="AD_Entry_NominativeUser"/>  </FulfillTask>
+  <FulfillTask Agent="Local" DisplayName_L1="Fulfill LDAP" Identifier="Fulfill_LDAP" OpenIdClient="Job"> <TaskResourceType ResourceType="AD_Entry_NominativeUser"/> </FulfillTask>
 
 ```
 
@@ -89,8 +89,8 @@ Integrate this Task in the job that provisions the AD connector.
 
 ```
 
-<Job Identifier="AD_Provisioning" DisplayName_L1="AD - Provisioning" DisplayName_L2="AD - Provisioning" Agent="Local">  ...
-  <FulfillTask Agent="Local" DisplayName_L1="Fulfill LDAP" Identifier="Fulfill_LDAP" OpenIdClient="Job">    <TaskResourceType ResourceType="AD_Entry_NominativeUser"/>  </FulfillTask>  ...
+<Job Identifier="AD_Provisioning" DisplayName_L1="AD - Provisioning" DisplayName_L2="AD - Provisioning" Agent="Local"> ...
+  <FulfillTask Agent="Local" DisplayName_L1="Fulfill LDAP" Identifier="Fulfill_LDAP" OpenIdClient="Job"> <TaskResourceType ResourceType="AD_Entry_NominativeUser"/> </FulfillTask> ...
 </Job>
 
 ```
@@ -173,7 +173,7 @@ Example :
 
 ```
 
-<PrepareSynchronizationTask Type="ActiveDirectory" DisplayName_L1="AD - Prepare Synchronization (complete Mode)" DisplayName_L2="AD - Pr�paration de la synchronisation (mode complet)" Connector="AD" SynchronizationMode="Complete" Agent="Local" OpenIdClient="Job">  <TaskDependsOnTask ParentTask="AD_Export_Complete"/></PrepareSynchronizationTask>
+<PrepareSynchronizationTask Type="ActiveDirectory" DisplayName_L1="AD - Prepare Synchronization (complete Mode)" DisplayName_L2="AD - Pr�paration de la synchronisation (mode complet)" Connector="AD" SynchronizationMode="Complete" Agent="Local" OpenIdClient="Job"> <TaskDependsOnTask ParentTask="AD_Export_Complete"/></PrepareSynchronizationTask>
 
 ```
 
@@ -192,7 +192,7 @@ Example :
 
 ```
 
-<SynchronizeTask Type="ActiveDirectory" Identifier="AD_Synchronization" DisplayName_L1="AD - Synchronization" DisplayName_L2="AD - Synchronisation" Connector="AD">  <TaskDependsOnTask ParentTask="AD_Export_Complete"/></SynchronizeTask>
+<SynchronizeTask Type="ActiveDirectory" Identifier="AD_Synchronization" DisplayName_L1="AD - Synchronization" DisplayName_L2="AD - Synchronisation" Connector="AD"> <TaskDependsOnTask ParentTask="AD_Export_Complete"/></SynchronizeTask>
 
 ```
 
@@ -213,7 +213,7 @@ Example :
 
 ```
 
-<UpdateEntityPropertyExpressionsTask Identifier="All_ComputeAllProperties" DisplayName_L1="Overall - Computed Properties Refresh" DisplayName_L2="Global - Mise � jour des propri�t�s calcul�es">    <TaskEntityType Identifier="AD_Entry"/></UpdateEntityPropertyExpressionsTask>
+<UpdateEntityPropertyExpressionsTask Identifier="All_ComputeAllProperties" DisplayName_L1="Overall - Computed Properties Refresh" DisplayName_L2="Global - Mise � jour des propri�t�s calcul�es"> <TaskEntityType Identifier="AD_Entry"/></UpdateEntityPropertyExpressionsTask>
 
 ```
 
@@ -229,7 +229,7 @@ Example :
 
 ```
 
-<ComputeCorrelationKeysTask Identifier="All_CorrelationKeys" DisplayName_L1="All Correlation Keys" >	<TaskEntityType Identifier="AD_Entry"/></ComputeCorrelationKeysTask>
+<ComputeCorrelationKeysTask Identifier="All_CorrelationKeys" DisplayName_L1="All Correlation Keys" > <TaskEntityType Identifier="AD_Entry"/></ComputeCorrelationKeysTask>
 
 ```
 
@@ -244,7 +244,7 @@ Example :
 
 ```
 
-<ComputeRoleModelTask Identifier="Directory_ComputeRoleModel" DisplayName_L1="Directory - Provisioning Orders Generation" DisplayName_L2="R�f�rentiel - Pr�paration des ordres de provisioning">  <TaskEntityType EntityType="Directory_User"/>  <TaskEntityType EntityType="Directory_Guest"/></ComputeRoleModelTask>
+<ComputeRoleModelTask Identifier="Directory_ComputeRoleModel" DisplayName_L1="Directory - Provisioning Orders Generation" DisplayName_L2="R�f�rentiel - Pr�paration des ordres de provisioning"> <TaskEntityType EntityType="Directory_User"/> <TaskEntityType EntityType="Directory_Guest"/></ComputeRoleModelTask>
 
 ```
 
@@ -287,7 +287,7 @@ fulfillment must be not launch in the job.
 
 ```
 
-<FulfillTask Identifier="AD_Fulfill" DisplayName_L1="AD - Automated Provisioning" DisplayName_L2="AD - Alimentation automatique" Connector="AD" OpenIdClient="Job" Connection="AD_Fulfillment" Agent="Local" ContinueOnError="1">  <TaskDependsOnTask ParentTask="AD_Provisioning"/></FulfillTask>
+<FulfillTask Identifier="AD_Fulfill" DisplayName_L1="AD - Automated Provisioning" DisplayName_L2="AD - Alimentation automatique" Connector="AD" OpenIdClient="Job" Connection="AD_Fulfillment" Agent="Local" ContinueOnError="1"> <TaskDependsOnTask ParentTask="AD_Provisioning"/></FulfillTask>
 
 ```
 
@@ -299,7 +299,7 @@ are configured for the connector.
 
 ```
 
-<UpdateClassificationTask Identifier="AD_Update_Classification" DisplayName_L1="AD - Update Users Classification" DisplayName_L2="AD - Mise � jour de la classification des comptes" >  <TaskEntityType EntityType="AD_Entry"/></UpdateClassificationTask>
+<UpdateClassificationTask Identifier="AD_Update_Classification" DisplayName_L1="AD - Update Users Classification" DisplayName_L2="AD - Mise � jour de la classification des comptes" > <TaskEntityType EntityType="AD_Entry"/></UpdateClassificationTask>
 
 ```
 
@@ -318,7 +318,7 @@ becomes useless.
 
 ```
 
-<SetInternalUserProfilesTask Identifier="All_SetAllInternalUserProfiles" DisplayName_L1="Overall - Profiles Update" DisplayName_L2="Global - Mise � jour des profils">  <TaskEntityType EntityType="AD_Entry"/>  <TaskResourceType ResourceType="AD_Entry_NominativeUser"/>  <TaskDependsOnTask ParentTask="AD_Fulfill"/></SetInternalUserProfilesTask>
+<SetInternalUserProfilesTask Identifier="All_SetAllInternalUserProfiles" DisplayName_L1="Overall - Profiles Update" DisplayName_L2="Global - Mise � jour des profils"> <TaskEntityType EntityType="AD_Entry"/> <TaskResourceType ResourceType="AD_Entry_NominativeUser"/> <TaskDependsOnTask ParentTask="AD_Fulfill"/></SetInternalUserProfilesTask>
 
 ```
 
@@ -331,7 +331,7 @@ Once the tasks created. You must create the job to launch all tasks.
 
 ```
 
-<Job Identifier="Job_AD_Complete" DisplayName_L1="AD Job's (Complete mode)" DisplayName_L2="Job de l'AD (mode complet)" Agent="Local">  <ExportTask Identifier="AD_Export_Complete" Agent="Local" Connection="AD_Export_Delta" OpenIdClient="Job" DisplayName_L1="Export AD" DisplayName_L2="Export AD"/>  <PrepareSynchronizationTask Type="ActiveDirectory" DisplayName_L1="AD - Prepare Synchronization (complete Mode)" DisplayName_L2="AD - Pr�paration de la synchronisation (mode complet)" Connector="AD" SynchronizationMode="Complete" Agent="Local" OpenIdClient="Job">    <TaskDependsOnTask ParentTask="AD_Export_Complete"/>  </PrepareSynchronizationTask>  <SynchronizeTask Type="ActiveDirectory" Identifier="AD_Synchronization" DisplayName_L1="AD - Synchronization" DisplayName_L2="AD - Synchronisation" Connector="AD">    <TaskDependsOnTask ParentTask="AD_Export_Complete"/>  </SynchronizeTask>  <UpdateEntityPropertyExpressionsTask Identifier="All_ComputeAllProperties" DisplayName_L1="Overall - Computed Properties Refresh" DisplayName_L2="Global - Mise � jour des propri�t�s calcul�es">    <TaskEntityType Identifier="AD_Entry"/>  </UpdateEntityPropertyExpressionsTask>  <ComputeCorrelationKeysTask Identifier="All_CorrelationKeys" DisplayName_L1="All Correlation Keys" >	<TaskEntityType Identifier="AD_Entry"/>  </ComputeCorrelationKeysTask>  <ComputeRoleModelTask Identifier="Directory_ComputeRoleModel" DisplayName_L1="Directory - Provisioning Orders Generation" DisplayName_L2="R�f�rentiel - Pr�paration des ordres de provisioning">    <TaskEntityType EntityType="Directory_User"/>    <TaskEntityType EntityType="Directory_Guest"/>  </ComputeRoleModelTask>  <GenerateProvisioningOrdersTask Identifier="AD_Provisioning" DisplayName_L1="AD - Provisioning Orders Fetching" DisplayName_L2="AD - R�cup�ration des ordres de provisioning" Connector="AD"/>  <FulfillTask Identifier="AD_Fulfill" DisplayName_L1="AD - Automated Provisioning" DisplayName_L2="AD - Alimentation automatique" Connector="AD" OpenIdClient="Job" Connection="AD_Fulfillment" Agent="Local"  ContinueOnError="1">    <TaskDependsOnTask ParentTask="AD_Provisioning"/>  </FulfillTask>  <UpdateClassificationTask Identifier="AD_Update_Classification" DisplayName_L1="AD - Update Users Classification" DisplayName_L2="AD - Mise � jour de la classification des comptes" >    <TaskEntityType EntityType="AD_Entry"/>  </UpdateClassificationTask>  <SetInternalUserProfilesTask Identifier="All_SetAllInternalUserProfiles" DisplayName_L1="Overall - Profiles Update" DisplayName_L2="Global - Mise � jour des profils">    <TaskEntityType EntityType="AD_Entry"/>    <TaskResourceType ResourceType="AD_Entry_NominativeUser"/>    <TaskDependsOnTask ParentTask="AD_Fulfill"/>  </SetInternalUserProfilesTask>  <SendRoleModelNotificationsTask DisplayName_L1="Send Notification" DisplayName_L2="Envoie des Notifications">    <TaskEntityType EntityType="AD_Entry"/>  </SendRoleModelNotificationsTask></Job>
+<Job Identifier="Job_AD_Complete" DisplayName_L1="AD Job's (Complete mode)" DisplayName_L2="Job de l'AD (mode complet)" Agent="Local"> <ExportTask Identifier="AD_Export_Complete" Agent="Local" Connection="AD_Export_Delta" OpenIdClient="Job" DisplayName_L1="Export AD" DisplayName_L2="Export AD"/> <PrepareSynchronizationTask Type="ActiveDirectory" DisplayName_L1="AD - Prepare Synchronization (complete Mode)" DisplayName_L2="AD - Pr�paration de la synchronisation (mode complet)" Connector="AD" SynchronizationMode="Complete" Agent="Local" OpenIdClient="Job"> <TaskDependsOnTask ParentTask="AD_Export_Complete"/> </PrepareSynchronizationTask> <SynchronizeTask Type="ActiveDirectory" Identifier="AD_Synchronization" DisplayName_L1="AD - Synchronization" DisplayName_L2="AD - Synchronisation" Connector="AD"> <TaskDependsOnTask ParentTask="AD_Export_Complete"/> </SynchronizeTask> <UpdateEntityPropertyExpressionsTask Identifier="All_ComputeAllProperties" DisplayName_L1="Overall - Computed Properties Refresh" DisplayName_L2="Global - Mise � jour des propri�t�s calcul�es"> <TaskEntityType Identifier="AD_Entry"/> </UpdateEntityPropertyExpressionsTask> <ComputeCorrelationKeysTask Identifier="All_CorrelationKeys" DisplayName_L1="All Correlation Keys" > <TaskEntityType Identifier="AD_Entry"/> </ComputeCorrelationKeysTask> <ComputeRoleModelTask Identifier="Directory_ComputeRoleModel" DisplayName_L1="Directory - Provisioning Orders Generation" DisplayName_L2="R�f�rentiel - Pr�paration des ordres de provisioning"> <TaskEntityType EntityType="Directory_User"/> <TaskEntityType EntityType="Directory_Guest"/> </ComputeRoleModelTask> <GenerateProvisioningOrdersTask Identifier="AD_Provisioning" DisplayName_L1="AD - Provisioning Orders Fetching" DisplayName_L2="AD - R�cup�ration des ordres de provisioning" Connector="AD"/> <FulfillTask Identifier="AD_Fulfill" DisplayName_L1="AD - Automated Provisioning" DisplayName_L2="AD - Alimentation automatique" Connector="AD" OpenIdClient="Job" Connection="AD_Fulfillment" Agent="Local" ContinueOnError="1"> <TaskDependsOnTask ParentTask="AD_Provisioning"/> </FulfillTask> <UpdateClassificationTask Identifier="AD_Update_Classification" DisplayName_L1="AD - Update Users Classification" DisplayName_L2="AD - Mise � jour de la classification des comptes" > <TaskEntityType EntityType="AD_Entry"/> </UpdateClassificationTask> <SetInternalUserProfilesTask Identifier="All_SetAllInternalUserProfiles" DisplayName_L1="Overall - Profiles Update" DisplayName_L2="Global - Mise � jour des profils"> <TaskEntityType EntityType="AD_Entry"/> <TaskResourceType ResourceType="AD_Entry_NominativeUser"/> <TaskDependsOnTask ParentTask="AD_Fulfill"/> </SetInternalUserProfilesTask> <SendRoleModelNotificationsTask DisplayName_L1="Send Notification" DisplayName_L2="Envoie des Notifications"> <TaskEntityType EntityType="AD_Entry"/> </SendRoleModelNotificationsTask></Job>
 
 ```
 
@@ -394,7 +394,7 @@ Example :
 
 ```
 
-<PrepareSynchronizationTask Identifier="PrepareSynchronization_AD_Delta" Type="ActiveDirectory" DisplayName_L1="AD - Data Collect (incremental mode)" DisplayName_L2="AD - Collecte de donn�es (mode incr�mental)" Connector="AD" SynchronizationMode="Incremental" Agent="Local" OpenIdClient="Job">    <TaskDependsOnTask ParentTask="Export_AD_Delta"/></PrepareSynchronizationTask>
+<PrepareSynchronizationTask Identifier="PrepareSynchronization_AD_Delta" Type="ActiveDirectory" DisplayName_L1="AD - Data Collect (incremental mode)" DisplayName_L2="AD - Collecte de donn�es (mode incr�mental)" Connector="AD" SynchronizationMode="Incremental" Agent="Local" OpenIdClient="Job"> <TaskDependsOnTask ParentTask="Export_AD_Delta"/></PrepareSynchronizationTask>
 
 ```
 
@@ -425,7 +425,7 @@ Example :
 
 ```
 
-<SynchronizeTask Identifier="Synchronization_AD_Incremental" Type="ActiveDirectory" Identifier="AD_Synchronization" DisplayName_L1="AD - Synchronization" DisplayName_L2="AD - Synchronisation" Connector="AD">  <TaskDependsOnTask ParentTask="AD_Export_Complete"/>  <TaskDependsOnTask ParentTask="PrepareSynchronization_AD_Delta"/></SynchronizeTask>
+<SynchronizeTask Identifier="Synchronization_AD_Incremental" Type="ActiveDirectory" Identifier="AD_Synchronization" DisplayName_L1="AD - Synchronization" DisplayName_L2="AD - Synchronisation" Connector="AD"> <TaskDependsOnTask ParentTask="AD_Export_Complete"/> <TaskDependsOnTask ParentTask="PrepareSynchronization_AD_Delta"/></SynchronizeTask>
 
 ```
 
@@ -444,7 +444,7 @@ in the database.
 
 ```
 
-<SetRecentlyModifiedFlagTask Identifier="MarkDirty" DisplayName_L1="Set Recently Modified Flag" DisplayName_L2="Mise � jour du dirty">  <TaskDependsOnTask ParentTask="Synchronization_AD_Incremental"/></SetRecentlyModifiedFlagTask>
+<SetRecentlyModifiedFlagTask Identifier="MarkDirty" DisplayName_L1="Set Recently Modified Flag" DisplayName_L2="Mise � jour du dirty"> <TaskDependsOnTask ParentTask="Synchronization_AD_Incremental"/></SetRecentlyModifiedFlagTask>
 
 ```
 
@@ -463,7 +463,7 @@ Example :
 
 ```
 
-<UpdateEntityPropertyExpressionsTask Identifier="All_ComputeAllPropertiesWithDirty" DisplayName_L1="Overall - Computed Properties Refresh (With dirty)" DisplayName_L2="Global - Mise � jour des propri�t�s calcul�es (avec dirty)" Dirty="true">  <TaskDependsOnTask ParentTask="MarkDirty"/>  <TaskEntityType Identifier="AD_Entry"/></UpdateEntityPropertyExpressionsTask>
+<UpdateEntityPropertyExpressionsTask Identifier="All_ComputeAllPropertiesWithDirty" DisplayName_L1="Overall - Computed Properties Refresh (With dirty)" DisplayName_L2="Global - Mise � jour des propri�t�s calcul�es (avec dirty)" Dirty="true"> <TaskDependsOnTask ParentTask="MarkDirty"/> <TaskEntityType Identifier="AD_Entry"/></UpdateEntityPropertyExpressionsTask>
 
 ```
 
@@ -482,7 +482,7 @@ Example :
 
 ```
 
-<ComputeCorrelationKeysTask Identifier="All_CorrelationKeysWithDirty" DisplayName_L1="All Correlation Keys (With dirty)" Dirty="true">  <TaskEntityType Identifier="AD_Entry"/>  <TaskDependsOnTask ParentTask="MarkDirty"/></ComputeCorrelationKeysTask>
+<ComputeCorrelationKeysTask Identifier="All_CorrelationKeysWithDirty" DisplayName_L1="All Correlation Keys (With dirty)" Dirty="true"> <TaskEntityType Identifier="AD_Entry"/> <TaskDependsOnTask ParentTask="MarkDirty"/></ComputeCorrelationKeysTask>
 
 ```
 
@@ -501,7 +501,7 @@ Example :
 
 ```
 
-<ComputeRoleModelTask Identifier="Directory_ComputeRoleModel_WithDirty" DisplayName_L1="Directory - Provisioning Orders Generation (with dirty)" DisplayName_L2="R�f�rentiel - Pr�paration des ordres de provisioning (avec dirty)" Dirty="true">  <TaskEntityType EntityType="Directory_User"/>  <TaskEntityType EntityType="Directory_Guest"/>  <TaskDependsOnTask ParentTask="MarkDirty"/></ComputeRoleModelTask>
+<ComputeRoleModelTask Identifier="Directory_ComputeRoleModel_WithDirty" DisplayName_L1="Directory - Provisioning Orders Generation (with dirty)" DisplayName_L2="R�f�rentiel - Pr�paration des ordres de provisioning (avec dirty)" Dirty="true"> <TaskEntityType EntityType="Directory_User"/> <TaskEntityType EntityType="Directory_Guest"/> <TaskDependsOnTask ParentTask="MarkDirty"/></ComputeRoleModelTask>
 
 ```
 
@@ -542,7 +542,7 @@ fulfillment must be not launch in the job.
 
 ```
 
-<FulfillTask Identifier="AD_Fulfill" DisplayName_L1="AD - Automated Provisioning" DisplayName_L2="AD - Alimentation automatique" Connector="AD" OpenIdClient="Job" Connection="AD_Fulfillment" Agent="Local" ContinueOnError="1">  <TaskDependsOnTask ParentTask="AD_Provisioning"/></FulfillTask>
+<FulfillTask Identifier="AD_Fulfill" DisplayName_L1="AD - Automated Provisioning" DisplayName_L2="AD - Alimentation automatique" Connector="AD" OpenIdClient="Job" Connection="AD_Fulfillment" Agent="Local" ContinueOnError="1"> <TaskDependsOnTask ParentTask="AD_Provisioning"/></FulfillTask>
 
 ```
 
@@ -557,7 +557,7 @@ Task SetRecentlyModifiedFlag has been started.
 
 ```
 
-<UpdateClassificationTask Identifier="AD_Update_ClassificationWithDirty" DisplayName_L1="AD - Update Users Classification (With Dirty)" DisplayName_L2="AD - Mise � jour de la classification des comptes (avec Dirty)" Dirty="1">  <TaskEntityType EntityType="AD_Entry"/>  <TaskDependsOnTask ParentTask="MarkDirty"/></UpdateClassificationTask>
+<UpdateClassificationTask Identifier="AD_Update_ClassificationWithDirty" DisplayName_L1="AD - Update Users Classification (With Dirty)" DisplayName_L2="AD - Mise � jour de la classification des comptes (avec Dirty)" Dirty="1"> <TaskEntityType EntityType="AD_Entry"/> <TaskDependsOnTask ParentTask="MarkDirty"/></UpdateClassificationTask>
 
 ```
 
@@ -576,7 +576,7 @@ becomes useless.
 
 ```
 
-<SetInternalUserProfilesTask Identifier="All_SetAllInternalUserProfiles" DisplayName_L1="Overall - Profiles Update" DisplayName_L2="Global - Mise � jour des profils">  <TaskEntityType EntityType="AD_Entry"/>  <TaskResourceType ResourceType="AD_Entry_NominativeUser"/>  <TaskDependsOnTask ParentTask="AD_Fulfill"/></SetInternalUserProfilesTask>
+<SetInternalUserProfilesTask Identifier="All_SetAllInternalUserProfiles" DisplayName_L1="Overall - Profiles Update" DisplayName_L2="Global - Mise � jour des profils"> <TaskEntityType EntityType="AD_Entry"/> <TaskResourceType ResourceType="AD_Entry_NominativeUser"/> <TaskDependsOnTask ParentTask="AD_Fulfill"/></SetInternalUserProfilesTask>
 
 ```
 
@@ -590,7 +590,7 @@ Once the tasks created. You must create the job to launch all tasks.
 ```
 
 <Job Identifier="Job_AD_Incremental" DisplayName_L1="AD Job's (Incremental mode)" DisplayName_L2="Job de l'AD (mode incremental)"
-Agent="Local">  <ExportTask Identifier="Export_AD_Delta" Agent="Local" Connection="AD_Export" OpenIdClient="Job" DisplayName_L1="AD - Extraction (delta)" DisplayName_L2="AD - Extraction (delta)" ContinueOnError="1"/>  <SynchronizeTask Identifier="Synchronization_AD_Incremental" Type="ActiveDirectory" Identifier="AD_Synchronization" DisplayName_L1="AD - Synchronization" DisplayName_L2="AD - Synchronisation" Connector="AD">    <TaskDependsOnTask ParentTask="AD_Export_Complete"/>    <TaskDependsOnTask ParentTask="PrepareSynchronization_AD_Delta"/>  </SynchronizeTask>  <SetRecentlyModifiedFlagTask Identifier="MarkDirty" DisplayName_L1="Set Recently Modified Flag" DisplayName_L2="Mise � jour du dirty">    <TaskDependsOnTask ParentTask="Synchronization_AD_Incremental"/>  </SetRecentlyModifiedFlagTask>  <UpdateEntityPropertyExpressionsTask Identifier="All_ComputeAllPropertiesWithDirty" DisplayName_L1="Overall - Computed Properties Refresh (With dirty)" DisplayName_L2="Global - Mise � jour des propri�t�s calcul�es (avec dirty)" Dirty="true">    <TaskDependsOnTask ParentTask="MarkDirty"/>    <TaskEntityType Identifier="AD_Entry"/>  </UpdateEntityPropertyExpressionsTask>  <ComputeCorrelationKeysTask Identifier="All_CorrelationKeysWithDirty" DisplayName_L1="All Correlation Keys (With dirty)" Dirty="true">    <TaskEntityType Identifier="AD_Entry"/>    <TaskDependsOnTask ParentTask="MarkDirty"/>  </ComputeCorrelationKeysTask>  <ComputeRoleModelTask Identifier="Directory_ComputeRoleModel_WithDirty" DisplayName_L1="Directory - Provisioning Orders Generation (with dirty)" DisplayName_L2="R�f�rentiel - Pr�paration des ordres de provisioning (avec dirty)" Dirty="true">    <TaskEntityType EntityType="Directory_User"/>    <TaskEntityType EntityType="Directory_Guest"/>    <TaskDependsOnTask ParentTask="MarkDirty"/>  </ComputeRoleModelTask>  <GenerateProvisioningOrdersTask Identifier="AD_Provisioning" DisplayName_L1="AD - Provisioning Orders Fetching" DisplayName_L2="AD - R�cup�ration des ordres de provisioning" Connector="AD"/>  <FulfillTask Identifier="AD_Fulfill" DisplayName_L1="AD - Automated Provisioning" DisplayName_L2="AD - Alimentation automatique" Connector="AD" OpenIdClient="Job" Connection="AD_Fulfillment" Agent="Local" ContinueOnError="1">    <TaskDependsOnTask ParentTask="AD_Provisioning"/>  </FulfillTask>  <UpdateClassificationTask Identifier="AD_Update_ClassificationWithDirty" DisplayName_L1="AD - Update Users Classification (With Dirty)" DisplayName_L2="AD - Mise � jour de la classification des comptes (avec Dirty)" Dirty="1">    <TaskEntityType EntityType="AD_Entry"/>    <TaskDependsOnTask ParentTask="MarkDirty"/>  </UpdateClassificationTask>  <SetInternalUserProfilesTask Identifier="All_SetAllInternalUserProfiles" DisplayName_L1="Overall - Profiles Update" DisplayName_L2="Global - Mise � jour des profils">    <TaskEntityType EntityType="AD_Entry"/>    <TaskResourceType ResourceType="AD_Entry_NominativeUser"/>    <TaskDependsOnTask ParentTask="AD_Fulfill"/>  </SetInternalUserProfilesTask></Job>
+Agent="Local"> <ExportTask Identifier="Export_AD_Delta" Agent="Local" Connection="AD_Export" OpenIdClient="Job" DisplayName_L1="AD - Extraction (delta)" DisplayName_L2="AD - Extraction (delta)" ContinueOnError="1"/> <SynchronizeTask Identifier="Synchronization_AD_Incremental" Type="ActiveDirectory" Identifier="AD_Synchronization" DisplayName_L1="AD - Synchronization" DisplayName_L2="AD - Synchronisation" Connector="AD"> <TaskDependsOnTask ParentTask="AD_Export_Complete"/> <TaskDependsOnTask ParentTask="PrepareSynchronization_AD_Delta"/> </SynchronizeTask> <SetRecentlyModifiedFlagTask Identifier="MarkDirty" DisplayName_L1="Set Recently Modified Flag" DisplayName_L2="Mise � jour du dirty"> <TaskDependsOnTask ParentTask="Synchronization_AD_Incremental"/> </SetRecentlyModifiedFlagTask> <UpdateEntityPropertyExpressionsTask Identifier="All_ComputeAllPropertiesWithDirty" DisplayName_L1="Overall - Computed Properties Refresh (With dirty)" DisplayName_L2="Global - Mise � jour des propri�t�s calcul�es (avec dirty)" Dirty="true"> <TaskDependsOnTask ParentTask="MarkDirty"/> <TaskEntityType Identifier="AD_Entry"/> </UpdateEntityPropertyExpressionsTask> <ComputeCorrelationKeysTask Identifier="All_CorrelationKeysWithDirty" DisplayName_L1="All Correlation Keys (With dirty)" Dirty="true"> <TaskEntityType Identifier="AD_Entry"/> <TaskDependsOnTask ParentTask="MarkDirty"/> </ComputeCorrelationKeysTask> <ComputeRoleModelTask Identifier="Directory_ComputeRoleModel_WithDirty" DisplayName_L1="Directory - Provisioning Orders Generation (with dirty)" DisplayName_L2="R�f�rentiel - Pr�paration des ordres de provisioning (avec dirty)" Dirty="true"> <TaskEntityType EntityType="Directory_User"/> <TaskEntityType EntityType="Directory_Guest"/> <TaskDependsOnTask ParentTask="MarkDirty"/> </ComputeRoleModelTask> <GenerateProvisioningOrdersTask Identifier="AD_Provisioning" DisplayName_L1="AD - Provisioning Orders Fetching" DisplayName_L2="AD - R�cup�ration des ordres de provisioning" Connector="AD"/> <FulfillTask Identifier="AD_Fulfill" DisplayName_L1="AD - Automated Provisioning" DisplayName_L2="AD - Alimentation automatique" Connector="AD" OpenIdClient="Job" Connection="AD_Fulfillment" Agent="Local" ContinueOnError="1"> <TaskDependsOnTask ParentTask="AD_Provisioning"/> </FulfillTask> <UpdateClassificationTask Identifier="AD_Update_ClassificationWithDirty" DisplayName_L1="AD - Update Users Classification (With Dirty)" DisplayName_L2="AD - Mise � jour de la classification des comptes (avec Dirty)" Dirty="1"> <TaskEntityType EntityType="AD_Entry"/> <TaskDependsOnTask ParentTask="MarkDirty"/> </UpdateClassificationTask> <SetInternalUserProfilesTask Identifier="All_SetAllInternalUserProfiles" DisplayName_L1="Overall - Profiles Update" DisplayName_L2="Global - Mise � jour des profils"> <TaskEntityType EntityType="AD_Entry"/> <TaskResourceType ResourceType="AD_Entry_NominativeUser"/> <TaskDependsOnTask ParentTask="AD_Fulfill"/> </SetInternalUserProfilesTask></Job>
 
 ```
 

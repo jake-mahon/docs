@@ -6,7 +6,7 @@ resource. The data within these reports is collected by the Access Analyzer .Act
 Inventory solution and the Access Analyzer Active Directory Permissions Analyzer solution. See the
 .Active Directory Inventory Solution and the Active Directory Permissions Analyzer Solution topics
 in the
-[Netwrix Access Analyzer Documentation](https://helpcenter.netwrix.com/category/accessanalyzer) for
+[Netwrix Access Analyzer Documentation](https://helpcenter.netwrix.com/category/accessanalyzer) for
 additional information.
 
 Active Directory resource reports identify the following information in the targeted Active

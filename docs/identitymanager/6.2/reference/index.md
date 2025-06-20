@@ -60,23 +60,23 @@ The identifier of the connection and thus the name of the subsection must:
 > ```
 > appsettings.agent.json
 > {
->     "Connections": {
->         ...
->         "ExportEasyVista": {
->             "Server": "https://easy-vista.instance.com/",
->             "Account": "11111",
->             "Login": "username",
->             "Password": "userPassword",
->             "ExportSettingsOptions": {
->                 "Profiles": "https://easy-vista.instance.com/api/v1/11111/internalqueries?queryguid={019B0523-F1C4-4G84-AA04-47BA16F16EB2}&filterguid={Z8A61D04-EZEC-42F1-A3E1-E9E09654BE68}&viewguid={2740V37A-A0ZC-4E50-A1F1-CF0987B9EFEA}"
->             }
->         }
->     }
+> "Connections": {
+> ...
+> "ExportEasyVista": {
+> "Server": "https://easy-vista.instance.com/",
+> "Account": "11111",
+> "Login": "username",
+> "Password": "userPassword",
+> "ExportSettingsOptions": {
+> "Profiles": "https://easy-vista.instance.com/api/v1/11111/internalqueries?queryguid={019B0523-F1C4-4G84-AA04-47BA16F16EB2}&filterguid={Z8A61D04-EZEC-42F1-A3E1-E9E09654BE68}&viewguid={2740V37A-A0ZC-4E50-A1F1-CF0987B9EFEA}"
+> }
+> }
+> }
 > }
 > ```
 
 The `ExportSettingsOptions` attribute is necessary only if custom entities are exported. It is not
-required if only the users are exported.  
+required if only the users are exported.
 Besides, `"Profiles"` is used here as an example and corresponds to a name to identify the exported
 entities.
 
@@ -106,7 +106,7 @@ export output folder:
 >
 > ```
 >
-> <EntityType Identifier="EasyVista_User" DisplayName_L1="EasyVista User">  <Property Identifier="lastName" DisplayName_L1="lastName" TargetColumnIndex="0" Type="String" /></EntityType><EntityTypeMapping Identifier="EasyVista_User" Connector="ExportEasyVista" ConnectionTable="EasyVistaExport_Employees">  <Property Identifier="lastName" ConnectionColumn="last_name" /></EntityTypeMapping>
+> <EntityType Identifier="EasyVista_User" DisplayName_L1="EasyVista User"> <Property Identifier="lastName" DisplayName_L1="lastName" TargetColumnIndex="0" Type="String" /></EntityType><EntityTypeMapping Identifier="EasyVista_User" Connector="ExportEasyVista" ConnectionTable="EasyVistaExport_Employees"> <Property Identifier="lastName" ConnectionColumn="last_name" /></EntityTypeMapping>
 >
 > ```
 >
@@ -114,7 +114,7 @@ export output folder:
 >
 > ```
 >
-> EntityType Identifier="EasyVista_Profiles" DisplayName_L1="EasyVista Profiles"  Property Identifier="NAME_EN" DisplayName_L1="NAME_EN" TargetColumnIndex="23" Type="String" Type="String" IsKey="true" //EntityTypeEntityTypeMapping Identifier="EVProfiles" Connector="ExportEasyVista" ConnectionTable="EasyVistaExport_Profiles"  Property Identifier="PROFILE_GUID">>>> ><<<<<<ConnectionColumn="PROFILE_GUID" IsPrimaryKey="true" /  Property Identifier="NAME_EN" ConnectionColumn="NAME_EN" IsPrimaryKey="true" /></EntityTypeMapping>
+> EntityType Identifier="EasyVista_Profiles" DisplayName_L1="EasyVista Profiles" Property Identifier="NAME_EN" DisplayName_L1="NAME_EN" TargetColumnIndex="23" Type="String" Type="String" IsKey="true" //EntityTypeEntityTypeMapping Identifier="EVProfiles" Connector="ExportEasyVista" ConnectionTable="EasyVistaExport_Profiles" Property Identifier="PROFILE_GUID">>>> ><<<<<<ConnectionColumn="PROFILE_GUID" IsPrimaryKey="true" / Property Identifier="NAME_EN" ConnectionColumn="NAME_EN" IsPrimaryKey="true" /></EntityTypeMapping>
 >
 > ```
 >
@@ -163,16 +163,16 @@ Same as for export, fulfill is configured through connections.
 > ```
 > appsettings.agent.json
 > {
->   ...
->   "Connections": {
->     ...
->     "FulfillEasyVista": {
->         "Server": "https://easy-vista.instance.com/",
->         "Account": "11111",
->         "Login": "username",
->         "Password": "userPassword"
->     }
->   }
+> ...
+> "Connections": {
+> ...
+> "FulfillEasyVista": {
+> "Server": "https://easy-vista.instance.com/",
+> "Account": "11111",
+> "Login": "username",
+> "Password": "userPassword"
+> }
+> }
 > }
 > ```
 
@@ -196,7 +196,7 @@ This connector can:
 
 - Archive employees, i.e. set the `CONTRACT_END_DATE` to the date of the fulfill execution.
 
-  This action is performed when Identity Manager fulfills a provisioning order with a `Deleted`
+  This action is performed when Identity Manager fulfills a provisioning order with a `Deleted`
   change type.
 
 ## Authentication
@@ -259,7 +259,7 @@ create, update or delete a resource. It does not create a resource directly.
 
 Once created, the ticket is managed in EasyVista, not in Identity Manager.
 
-When the ticket is closed or canceled, Identity Manager updates the
+When the ticket is closed or canceled, Identity Manager updates the
 [Entitlement Assignment](/docs/identitymanager/6.2/access-governance/role-management/role-assignment.md) of the
 resource accordingly.
 
@@ -270,10 +270,10 @@ See the fulfill capabilities of the [ EasyVista ](/docs/identitymanager/6.2/refe
 > ```
 > appsettings.agent.json
 > "EasyVistaManual": {
->   "Server": "https://example.easyvista.com/",
->   "Login": "username",
->   "Password": "password",
->   "Account": "11111"
+> "Server": "https://example.easyvista.com/",
+> "Login": "username",
+> "Password": "password",
+> "Account": "11111"
 > },
 >
 > ```
@@ -361,20 +361,20 @@ The identifier of the connection and thus the name of the subsection must:
 > ```
 > appsettings.agent.json
 > {
->   ...
->   "Connections": {
->     ...
->     "HomeFolderExport": {
->       "InputDirectories": [
->         "C:/ContosoFolder",
->         "C:/ContosoFolder2",
->       ],
->       "Domain": "Windows",
->       "Interactive": true,
->       "Login": "Contoso",
->       "Password": "ContOso$123456789"
->     }
->   }
+> ...
+> "Connections": {
+> ...
+> "HomeFolderExport": {
+> "InputDirectories": [
+> "C:/ContosoFolder",
+> "C:/ContosoFolder2",
+> ],
+> "Domain": "Windows",
+> "Interactive": true,
+> "Login": "Contoso",
+> "Password": "ContOso$123456789"
+> }
+> }
 > }
 > ```
 
@@ -387,8 +387,8 @@ The identifier of the connection and thus the name of the subsection must:
 | Interactive default value: False | **Type** Boolean **Description** `True` to set the authentication as interactive. `False` to set it batch. [See Microsoft's documentation for more details](https://docs.microsoft.com/en-us/windows/win32/api/winbase/nf-winbase-logonusera#see-microsofts-documentation-for-more-details).             |
 |                                  |                                                                                                                                                                                                                                                                                                          |
 | ---                              | ---                                                                                                                                                                                                                                                                                                      |
-| Login optional                   | **Type** String **Description** Login of the account used to access the files and folders. **Note:** when not specified and `Password` neither, then the account running Identity Manager will be used. **Note:** if `Domain` is null, then `Login` must be set in the User Principal Name (UPN) format. |
-| Password optional                | **Type** String **Description** Password of the account used to access the files and folders. **Note:** when not specified and `Login` neither, then the account running Identity Manager will be used.                                                                                                  |
+| Login optional                   | **Type** String **Description** Login of the account used to access the files and folders. **Note:** when not specified and `Password` neither, then the account running Identity Manager will be used. **Note:** if `Domain` is null, then `Login` must be set in the User Principal Name (UPN) format. |
+| Password optional                | **Type** String **Description** Password of the account used to access the files and folders. **Note:** when not specified and `Login` neither, then the account running Identity Manager will be used.                                                                                                  |
 
 ### Output details
 
@@ -495,17 +495,17 @@ The identifier of the connection and thus the name of the subsection must:
 > ```
 > appsettings.agent.json
 > {
->   ...
->   "Connections": {
->     ...
->     "LdifExport": {
->         "LDIFFile": "C:/UsercubeContoso/Contoso/contoso.ldif",
->         "FilterAttribute": "objectClass",
->         "FilterValues": "user organizationalUnit",
->         "Attributes": [ "dn", "objectClass", "cn", "SAMAccountName", "Name", "userprincipalname" ],
->         "LdifEncoding": "UTF-8",
->     }
->   }
+> ...
+> "Connections": {
+> ...
+> "LdifExport": {
+> "LDIFFile": "C:/UsercubeContoso/Contoso/contoso.ldif",
+> "FilterAttribute": "objectClass",
+> "FilterValues": "user organizationalUnit",
+> "Attributes": [ "dn", "objectClass", "cn", "SAMAccountName", "Name", "userprincipalname" ],
+> "LdifEncoding": "UTF-8",
+> }
+> }
 > }
 > ```
 
@@ -515,7 +515,7 @@ The identifier of the connection and thus the name of the subsection must:
 | --------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | LDIFFile required                 | **Type** String **Description** Path of the LDIF input file.                                                                                                                                                                                                                 |
 | FilterAttribute required          | **Type** String **Description** Property from the connector's configuration whose value is to be compared with the values from `FilterValues`, in order to filter the entries to export.                                                                                     |
-| FilterValues required             | **Type** String **Description** List of values to be compared with the value of `FilterAttribute`, in order to filter the entries to export. Identity Manager will export only the entries matching the filter. **Note:** multiple values must be separated by white spaces. |
+| FilterValues required             | **Type** String **Description** List of values to be compared with the value of `FilterAttribute`, in order to filter the entries to export. Identity Manager will export only the entries matching the filter. **Note:** multiple values must be separated by white spaces. |
 | Attributes required               | **Type** String List **Description** List of properties from the connector's configuration to be exported.                                                                                                                                                                   |
 | LdifEncoding default value: UTF-8 | Encoding of the file. [See the list of available encodings](https://learn.microsoft.com/en-us/dotnet/api/system.text.encoding#see-the-list-of-available-encodings).                                                                                                          |
 
@@ -616,14 +616,14 @@ The identifier of the connection and thus the name of the subsection must:
 > ```
 > appsettings.agent.json
 > {
->   ...
->   "Connections": {
->     ...
->     "MicrosoftExchangeExport": {
->       "AuthType": "Kerberos",
->       "Server": "http://mailbox01.contoso.com/PowerShell/"
->     }
->   }
+> ...
+> "Connections": {
+> ...
+> "MicrosoftExchangeExport": {
+> "AuthType": "Kerberos",
+> "Server": "http://mailbox01.contoso.com/PowerShell/"
+> }
+> }
 > }
 > ```
 
@@ -768,15 +768,15 @@ The identifier of the connection and thus the name of the subsection must:
 >
 > appsettings.agent.json
 > {
->     ...
->     "Connections": {
->         ...
->         "ODataExport": {
->             "Server": "https://YourODataService.com/",
->             "Login": "login",
->             "Password": "password"
->         }
->     }
+> ...
+> "Connections": {
+> ...
+> "ODataExport": {
+> "Server": "https://YourODataService.com/",
+> "Login": "login",
+> "Password": "password"
+> }
+> }
 > }
 >
 > ```
@@ -858,9 +858,9 @@ extension.
 ## Export
 
 This connector extracts the information found in a RACF file and transforms it into CSV files in
-Identity Manager format.
+Identity Manager format.
 
-Be aware that Identity Manager supports only the RACF records represented by the following codes:
+Be aware that Identity Manager supports only the RACF records represented by the following codes:
 
 - [0100; 0120; 0101; 0102](https://www.ibm.com/docs/en/zos/2.1.0?topic=records-record-formats-produced-by-database-unload-utility#0100-0120-0101-0102)
   (groups);
@@ -894,19 +894,19 @@ The identifier of the connection and thus the name of the subsection must:
 - not contain `<`, `>`, `:`, `"`, `/`, `\`, `|`, `?`, `*` and `_`.
 
 > The following example reads RACF data from the `C:/UsercubeContoso/RacfFile.csv` iso-8859-1 file
-> and exports it to CSV files in Identity Manager format:
+> and exports it to CSV files in Identity Manager format:
 >
 > ```
 > appsettings.agent.json
 > {
->   ...
->   "Connections": {
->     ...
->     "RACF": {
->       "Path": "C:/UsercubeContoso/RacfFile.csv",
->       "Encoding": "iso-8859-1",
->     }
->   }
+> ...
+> "Connections": {
+> ...
+> "RACF": {
+> "Path": "C:/UsercubeContoso/RacfFile.csv",
+> "Encoding": "iso-8859-1",
+> }
+> }
 > }
 > ```
 
@@ -1319,15 +1319,15 @@ The identifier of the connection and thus the name of the subsection must:
 > ```
 > appsettings.agent.json
 > {
->   ...
->   "Connections": {
->     ...
->     "SAPExportFulfillment": {
->         "Server": "serverUrl",
->         "Login": "login",
->         "Password": "password"
->     }
->   }
+> ...
+> "Connections": {
+> ...
+> "SAPExportFulfillment": {
+> "Server": "serverUrl",
+> "Login": "login",
+> "Password": "password"
+> }
+> }
 > }
 > ```
 
@@ -1399,13 +1399,13 @@ Same as for export, fulfill is configured through connections.
 > ```
 > appsettings.agent.json
 > {
->  "Connections": {
->     "SAPExportFulfillment": {
->         "Server": "serverUrl",
->         "Login": "login",
->         "Password": "password"
->     }
->   }
+> "Connections": {
+> "SAPExportFulfillment": {
+> "Server": "serverUrl",
+> "Login": "login",
+> "Password": "password"
+> }
+> }
 > }
 > ```
 
@@ -1439,22 +1439,22 @@ Data protection can be ensured through:
   Active Directory's `Login`, `Password` and `Server`.
 
 Protected attributes are stored inside a safe in CyberArk, into an account whose identifier can be
-retrieved by Identity Manager from `appsettings.cyberark.agent.json`.
+retrieved by Identity Manager from `appsettings.cyberark.agent.json`.
 
 > For example:
 >
 > ```
 > appsettings.cyberark.agent.json
 > {
->   ...
->   "Connections": {
->     ...
->     "SAPExportFulfillment": {
->         "Login": "SAPExportFulfillment_CyberArkKey",
->         "Password": "SAPExportFulfillment_CyberArkKey",
->         "Server": "SAPExportFulfillment_CyberArkKey"
->     }
->   }
+> ...
+> "Connections": {
+> ...
+> "SAPExportFulfillment": {
+> "Login": "SAPExportFulfillment_CyberArkKey",
+> "Password": "SAPExportFulfillment_CyberArkKey",
+> "Server": "SAPExportFulfillment_CyberArkKey"
+> }
+> }
 > }
 > ```
 
@@ -1472,7 +1472,7 @@ This page is about [ ServiceNow ](/docs/identitymanager/6.2/integration/connecto
 ServiceNow is a cloud-based company that provides software as a service (SaaS) for technical
 management support. The company specializes in IT service management (ITSM), IT operations
 management (ITOM) and IT business management (ITBM), allowing users to manage projects, teams and
-customer interactions via a variety of apps and plugins.  
+customer interactions via a variety of apps and plugins.
 This section focuses on ServiceNow Entity Management. To learn about how to use this connector to
 create tickets for other resources, see
 [ ServiceNow Ticket ](/docs/identitymanager/6.2/integration/connectors/connector-packages.md).
@@ -1526,17 +1526,17 @@ The identifier of the connection and thus the name of the subsection must:
 > ```
 > appsettings.agent.json
 > {
->   ...
->   "Connections": {
->     ...
->     "ServiceNowExportFulfillment": {
->         "Server": "https://instance.service-now.com/api/now/table",
->         "Login": "login",
->         "Password": "password",
->         "ResponseSizeLimit":"5000",
->         "Filter":"sys_user#active=true"
->     }
->   }
+> ...
+> "Connections": {
+> ...
+> "ServiceNowExportFulfillment": {
+> "Server": "https://instance.service-now.com/api/now/table",
+> "Login": "login",
+> "Password": "password",
+> "ResponseSizeLimit":"5000",
+> "Filter":"sys_user#active=true"
+> }
+> }
 > }
 > ```
 >
@@ -1545,20 +1545,20 @@ The identifier of the connection and thus the name of the subsection must:
 > ```
 > appsettings.agent.json
 > {
->   ...
->   "Connections": {
->     ...
->     "ServiceNowExportFulfillment": {
->         "Server": "https://instance.service-now.com/api/now/table",
->         "Login": "login",
->         "Password": "password",
->         "ClientId": "ClientId",
->         "ClientSecret": "ClientSecret",
->         "OAuth2Url": "https://instance.service-now.com/oauth_token.do",
->         "ResponseSizeLimit":"5000",
->         "Filter":"sys_user#active=true"
->     }
->   }
+> ...
+> "Connections": {
+> ...
+> "ServiceNowExportFulfillment": {
+> "Server": "https://instance.service-now.com/api/now/table",
+> "Login": "login",
+> "Password": "password",
+> "ClientId": "ClientId",
+> "ClientSecret": "ClientSecret",
+> "OAuth2Url": "https://instance.service-now.com/oauth_token.do",
+> "ResponseSizeLimit":"5000",
+> "Filter":"sys_user#active=true"
+> }
+> }
 > }
 > ```
 
@@ -1587,7 +1587,7 @@ This connector is meant to generate to the
 [ Connection ](/docs/identitymanager/6.2/development/configuration-toolkit/xml-configuration.md) folder one CSV
 file for each table, named `<connectionIdentifier>_<tableName>.csv`.
 
-Identity Manager lists the tables to retrieve based on
+Identity Manager lists the tables to retrieve based on
 [ Entity Type Mapping ](/docs/identitymanager/6.2/development/configuration-toolkit/xml-configuration.md)'s
 and
 [ Entity Association Mapping ](/docs/identitymanager/6.2/development/configuration-toolkit/xml-configuration.md)'s
@@ -1600,7 +1600,7 @@ For the connector to work properly, the connection tables must follow the naming
 >
 > ```
 >
-> <EntityTypeMapping Identifier="User" Connector="ServiceNow"  ConnectionTable="ServiceNowExportFulfillment_sys_user">  <Property Identifier="sys_id" ConnectionColumn="sys_id" IsPrimaryKey="true" />  <Property Identifier="name" ConnectionColumn="name" />  <Property Identifier="user_name" ConnectionColumn="user_name" />  <Property Identifier="email" ConnectionColumn="email" /></EntityTypeMapping><EntityTypeMapping Identifier="User" Connector="ServiceNow"  ConnectionTable="ServiceNowExportFulfillment_sys_group">  <Property Identifier="sys_id" ConnectionColumn="sys_id" IsPrimaryKey="true" />  <Property Identifier="name" ConnectionColumn="name" />  <Property Identifier="description" ConnectionColumn="description" /></EntityTypeMapping><EntityAssociationMapping Identifier="Group_Members" Column1="user" EntityPropertyMapping1="User:sys_id" Column2="group" EntityPropertyMapping2="Group:sys_id" Connector="ServiceNow" ConnectionTable="ServiceNowExportFulfillment_sys_user_grmember" C0="sys_user_grmember"
+> <EntityTypeMapping Identifier="User" Connector="ServiceNow" ConnectionTable="ServiceNowExportFulfillment_sys_user"> <Property Identifier="sys_id" ConnectionColumn="sys_id" IsPrimaryKey="true" /> <Property Identifier="name" ConnectionColumn="name" /> <Property Identifier="user_name" ConnectionColumn="user_name" /> <Property Identifier="email" ConnectionColumn="email" /></EntityTypeMapping><EntityTypeMapping Identifier="User" Connector="ServiceNow" ConnectionTable="ServiceNowExportFulfillment_sys_group"> <Property Identifier="sys_id" ConnectionColumn="sys_id" IsPrimaryKey="true" /> <Property Identifier="name" ConnectionColumn="name" /> <Property Identifier="description" ConnectionColumn="description" /></EntityTypeMapping><EntityAssociationMapping Identifier="Group_Members" Column1="user" EntityPropertyMapping1="User:sys_id" Column2="group" EntityPropertyMapping2="Group:sys_id" Connector="ServiceNow" ConnectionTable="ServiceNowExportFulfillment_sys_user_grmember" C0="sys_user_grmember"
 > />
 >
 > ```
@@ -1636,15 +1636,15 @@ Same as for export, fulfill is configured through connections.
 > ```
 > appsettings.agent.json
 > {
->   ...
->   "Connections": {
->     ...
->     "ServiceNowExportFulfillment": {
->         "Server": "https://instance.service-now.com/api/now/table",
->         "Login": "login",
->         "Password": "password"
->     }
->   }
+> ...
+> "Connections": {
+> ...
+> "ServiceNowExportFulfillment": {
+> "Server": "https://instance.service-now.com/api/now/table",
+> "Login": "login",
+> "Password": "password"
+> }
+> }
 > }
 > ```
 >
@@ -1653,18 +1653,18 @@ Same as for export, fulfill is configured through connections.
 > ```
 > appsettings.agent.json
 > {
->   ...
->   "Connections": {
->     ...
->     "ServiceNowExportFulfillment": {
->         "Server": "https://instance.service-now.com/api/now/table",
->         "Login": "login",
->         "Password": "password",
->         "ClientId": "ClientId",
->         "ClientSecret": "ClientSecret",
->         "OAuth2Url": "https://instance.service-now.com/oauth_token.do"
->     }
->   }
+> ...
+> "Connections": {
+> ...
+> "ServiceNowExportFulfillment": {
+> "Server": "https://instance.service-now.com/api/now/table",
+> "Login": "login",
+> "Password": "password",
+> "ClientId": "ClientId",
+> "ClientSecret": "ClientSecret",
+> "OAuth2Url": "https://instance.service-now.com/oauth_token.do"
+> }
+> }
 > }
 > ```
 
@@ -1714,24 +1714,24 @@ Data protection can be ensured through:
   Active Directory's `Login`, `Password`, `Server`, `ClientId` and `ClientSecret`.
 
 Protected attributes are stored inside a safe in CyberArk, into an account whose identifier can be
-retrieved by Identity Manager from `appsettings.cyberark.agent.json`.
+retrieved by Identity Manager from `appsettings.cyberark.agent.json`.
 
 > For example:
 >
 > ```
 > appsettings.cyberark.agent.json
 > {
->   ...
->   "Connections": {
->     ...
->     "ServiceNowExportFulfillment": {
->         "Login": "ServiceNowExportFulfillment_CyberArkKey",
->         "Password": "ServiceNowExportFulfillment_CyberArkKey",
->         "Server": "ServiceNowExportFulfillment_CyberArkKey",
->         "ClientId": "ServiceNowExportFulfillment_CyberArkKey",
->         "ClientSecret": "ServiceNowExportFulfillment_CyberArkKey"
->     }
->   }
+> ...
+> "Connections": {
+> ...
+> "ServiceNowExportFulfillment": {
+> "Login": "ServiceNowExportFulfillment_CyberArkKey",
+> "Password": "ServiceNowExportFulfillment_CyberArkKey",
+> "Server": "ServiceNowExportFulfillment_CyberArkKey",
+> "ClientId": "ServiceNowExportFulfillment_CyberArkKey",
+> "ClientSecret": "ServiceNowExportFulfillment_CyberArkKey"
+> }
+> }
 > }
 > ```
 
@@ -1748,7 +1748,7 @@ This page is about [ ServiceNow Ticket ](/docs/identitymanager/6.2/integration/c
 ServiceNow is a cloud-based company that provides software as a service (SaaS) for technical
 management support. The company specializes in IT service management (ITSM), IT operations
 management (ITOM) and IT business management (ITBM), allowing users to manage projects, teams and
-customer interactions via a variety of apps and plugins.  
+customer interactions via a variety of apps and plugins.
 This section focuses on ServiceNow ticket creation for the fulfillment of resources that can't or
 shouldn't be performed with an existing fulfill. To learn about how to manage entities, see
 [ ServiceNow ](/docs/identitymanager/6.2/reference/index.md)Entity Management.
@@ -1776,7 +1776,7 @@ create, update or delete a resource. It does not create nor update a resource di
 
 Once created, the ticket is managed in ServiceNow, not in Identity Manager.
 
-When the ticket is closed or canceled, Identity Manager updates the
+When the ticket is closed or canceled, Identity Manager updates the
 [Entitlement Assignment](/docs/identitymanager/6.2/access-governance/role-management/role-assignment.md) of the
 resource accordingly.
 
@@ -1787,15 +1787,15 @@ See the fulfill capabilities of the [ ServiceNow ](/docs/identitymanager/6.2/ref
 > ```
 > appsettings.agent.json
 > {
->   ...
->   "Connections": {
->     ...
->     "ServiceNowFulfillManual": {
->         "Server": "https://instance.service-now.com/api/now/table",
->         "Login": "login",
->         "Password": "password"
->     }
->   }
+> ...
+> "Connections": {
+> ...
+> "ServiceNowFulfillManual": {
+> "Server": "https://instance.service-now.com/api/now/table",
+> "Login": "login",
+> "Password": "password"
+> }
+> }
 > }
 > ```
 
@@ -1833,24 +1833,24 @@ Data protection can be ensured through:
   Active Directory's `Login`, `Password`, `Server`, `ClientId` and `ClientSecret`.
 
 Protected attributes are stored inside a safe in CyberArk, into an account whose identifier can be
-retrieved by Identity Manager from `appsettings.cyberark.agent.json`.
+retrieved by Identity Manager from `appsettings.cyberark.agent.json`.
 
 > For example:
 >
 > ```
 > appsettings.cyberark.agent.json
 > {
->   ...
->   "Connections": {
->     ...
->     "ServiceNowFulfillManual": {
->         "Login": "ServiceNowFulfillManual_CyberArkKey",
->         "Password": "ServiceNowFulfillManual_CyberArkKey",
->         "Server": "ServiceNowFulfillManual_CyberArkKey",
->         "ClientId": "ServiceNowFulfillManual_CyberArkKey",
->         "ClientSecret": "ServiceNowFulfillManual_CyberArkKey"
->     }
->   }
+> ...
+> "Connections": {
+> ...
+> "ServiceNowFulfillManual": {
+> "Login": "ServiceNowFulfillManual_CyberArkKey",
+> "Password": "ServiceNowFulfillManual_CyberArkKey",
+> "Server": "ServiceNowFulfillManual_CyberArkKey",
+> "ClientId": "ServiceNowFulfillManual_CyberArkKey",
+> "ClientSecret": "ServiceNowFulfillManual_CyberArkKey"
+> }
+> }
 > }
 > ```
 
@@ -1864,7 +1864,7 @@ This page is about [ Shared Folders ](/docs/identitymanager/6.2/integration/conn
 
 ## Overview
 
-Also known as UFA (Identity Manager Folder Access), this connector can be used to scan the access
+Also known as UFA (Identity Manager Folder Access), this connector can be used to scan the access
 rights assigned to folders and files in computers and networks which comply with the
 [Windows File Security and Access Rights systems](https://docs.microsoft.com/en-us/windows/win32/fileio/file-security-and-access-rights).
 
@@ -1916,20 +1916,20 @@ The identifier of the connection and thus the name of the subsection must:
 > ```
 > appsettings.agent.json
 > {
->   ...
->   "Connections": {
->     ...
->     "SharedFolderExport": {
->         "InputDirectories": [ "OfficeNetwork/R&D_Projects", "OfficeNetwork/Management", "C:/" ],
->         "OnlyDirectoryScan": "true",
->         "LevelOfScan": "12",
->         "ListOfSIDToAvoid": [ "S-1-3-2-4", "S-5-7-6-8" ],
->         "Login": "account@example.com",
->         "Password": "accountexamplepassword",
->         "Domain": "Example",
->         "Interactive": true
->     }
->   }
+> ...
+> "Connections": {
+> ...
+> "SharedFolderExport": {
+> "InputDirectories": [ "OfficeNetwork/R&D_Projects", "OfficeNetwork/Management", "C:/" ],
+> "OnlyDirectoryScan": "true",
+> "LevelOfScan": "12",
+> "ListOfSIDToAvoid": [ "S-1-3-2-4", "S-5-7-6-8" ],
+> "Login": "account@example.com",
+> "Password": "accountexamplepassword",
+> "Domain": "Example",
+> "Interactive": true
+> }
+> }
 > }
 > ```
 
@@ -1945,8 +1945,8 @@ The identifier of the connection and thus the name of the subsection must:
 | OnlyDirectoryScan default value: False | **Type** Boolean **Description** `True` to scan only folders' entitlements and not files', `False` to scan all.                                                                                                                                                                                          |
 |                                        |                                                                                                                                                                                                                                                                                                          |
 | ---                                    | ---                                                                                                                                                                                                                                                                                                      |
-| Login optional                         | **Type** String **Description** Login of the account used to access the files and folders. **Note:** when not specified and `Password` neither, then the account running Identity Manager will be used. **Note:** if `Domain` is null, then `Login` must be set in the User Principal Name (UPN) format. |
-| Password optional                      | **Type** String **Description** Password of the account used to access the files and folders. **Note:** when not specified and `Login` neither, then the account running Identity Manager will be used.                                                                                                  |
+| Login optional                         | **Type** String **Description** Login of the account used to access the files and folders. **Note:** when not specified and `Password` neither, then the account running Identity Manager will be used. **Note:** if `Domain` is null, then `Login` must be set in the User Principal Name (UPN) format. |
+| Password optional                      | **Type** String **Description** Password of the account used to access the files and folders. **Note:** when not specified and `Login` neither, then the account running Identity Manager will be used.                                                                                                  |
 
 ### Output details
 
@@ -1957,7 +1957,7 @@ following CSV files:
 - `<connectionIdentifier>_ACE.csv`, with the following columns:
   - **key**: concatenation of `Right`, `Path` and `OwnerSID`;
   - **Path**: path of the folder or file;
-  - **Right**: entitlement among the following, listed from weakest to strongest:  
+  - **Right**: entitlement among the following, listed from weakest to strongest:
     ListDirectory / ReadData / CreateFiles / WriteData / AppendData / CreateDirectories /
     ReadExtendedAttributes / WriteExtendedAttributes / ExecuteFile / Traverse /
     DeleteSubdirectoriesAndFiles / ReadAttributes / WriteAttributes / Write / Delete /
@@ -2006,21 +2006,21 @@ Data protection can be ensured through:
   Active Directory's `Login` and `Password`.
 
 Protected attributes are stored inside a safe in CyberArk, into an account whose identifier can be
-retrieved by Identity Manager from `appsettings.cyberark.agent.json`.
+retrieved by Identity Manager from `appsettings.cyberark.agent.json`.
 
 > For example:
 >
 > ```
 > appsettings.cyberark.agent.json
 > {
->   ...
->   "Connections": {
->     ...
->     "SharedFolderExport": {
->         "Login": "SharedFolderSettings",
->         "Password": "SharedFolderSettings"
->     }
->   }
+> ...
+> "Connections": {
+> ...
+> "SharedFolderExport": {
+> "Login": "SharedFolderSettings",
+> "Password": "SharedFolderSettings"
+> }
+> }
 > }
 > ```
 
@@ -2276,7 +2276,7 @@ See the
 for additional information.
 
 Protected attributes are stored inside a safe in CyberArk, into an account whose identifier can be
-retrieved by Identity Manager from `appsettings.cyberark.agent.json`.
+retrieved by Identity Manager from `appsettings.cyberark.agent.json`.
 
 For example:
 
@@ -2312,7 +2312,7 @@ The documentation is not yet available for this page and will be completed in th
 
 # RSA Encryption
 
-Identity Manager provides a few options to protect sensitive data via RSA encryption.
+Identity Manager provides a few options to protect sensitive data via RSA encryption.
 
 ## Overview
 
@@ -2327,7 +2327,7 @@ Sensitive data can be RSA encrypted by using Identity Manager's tools:
   already encrypted ones.
 
 Once encrypted, sensitive values can be added to the `appsettings.encrypted.json` and
-`appsettings.encrypted.agent.json` files. Identity Manager will read first the values from the
+`appsettings.encrypted.agent.json` files. Identity Manager will read first the values from the
 encrypted appsettings files, before reading those from the usual non-encrypted appsettings files.
 
 These methods require an [X.509 public key certificate](https://en.wikipedia.org/wiki/X.509) (the
@@ -2378,7 +2378,7 @@ See how-to customize Identity Manager's User Interface.
 
 # Architecture
 
-Identity Manager is built to work via a specific architecture made of a server, an agent and a
+Identity Manager is built to work via a specific architecture made of a server, an agent and a
 database.
 
 ## Server, Agent and Database
@@ -2448,11 +2448,11 @@ Identity Manager's server and agent(s) are configured via JSON files, mainly `ap
 
 This is the end of the introduction guide, so you should now be able to dive into:
 
-- The [User Guide](/docs/identitymanager/6.2/reference/index.md) to configure Identity Manager from scratch via the UI,
+- The [User Guide](/docs/identitymanager/6.2/reference/index.md) to configure Identity Manager from scratch via the UI,
   following the step-by-step procedures;
 - The [Integration Guide](/docs/identitymanager/6.2/integration/index.md) to complete Identity Manager's
   configuration in XML according to your needs;
-- The [Installation Guide](/docs/identitymanager/6.2/installation/index.md) to install Identity Manager in a
+- The [Installation Guide](/docs/identitymanager/6.2/installation/index.md) to install Identity Manager in a
   production environment.
 
 ## Learn More
@@ -2516,7 +2516,7 @@ data on a given system, or a physical location.
 > have administrator rights in the Iris application, a user must be part of the members of the group
 > `SG_APP_IT/Development/Iris/Administrator`.
 
-Identity Manager is designed to help establish an exhaustive and reliable catalog of the
+Identity Manager is designed to help establish an exhaustive and reliable catalog of the
 entitlements available in the managed systems, and assign the right entitlements to the right users.
 
 ![Role Catalog and Users](/img/product_docs/identitymanager/identitymanager/introduction-guide/overview/entitlement-management/entitlements_rolecatalogusers.webp)
@@ -2785,7 +2785,7 @@ Let's read some [ Use Case Stories ](/docs/identitymanager/6.2/reference/index.m
 
 # Use Case Stories
 
-Here is a basic use case story to explain how Identity Manager manages IGA.
+Here is a basic use case story to explain how Identity Manager manages IGA.
 
 ## Use Case
 
@@ -2888,7 +2888,7 @@ from `RuntimeOld` to the new `Runtime`.
 
 ## Specific Information to Migrate from v6.1 to v6.2
 
-If you are looking to upgrade the Netwrix Identity Manager version from 6.1 to 6.2 you will not need
+If you are looking to upgrade the Netwrix Identity Manager version from 6.1 to 6.2 you will not need
 to take any action because the database will automatically be upgraded. If you have problems
 importing your configuration into 6.2 related to C# expressions, please run the Identity
 Manager-Check-ExpressionsConsistency tool. See the
@@ -2897,7 +2897,7 @@ topic for additional information.
 
 ## Specific Information to Migrate from v6.0 to v6.1
 
-If you are looking to upgrade the Netwrix Identity Manager version from 6.0 to 6.1 you will not need
+If you are looking to upgrade the Netwrix Identity Manager version from 6.0 to 6.1 you will not need
 to take any action because the database will automatically be upgraded.
 
 # Execute a Certification Campaign
@@ -2917,8 +2917,8 @@ assignments if they ought to be deleted or not.
 ## Participants and Artifacts
 
 The execution part should be performed in cooperation with the staff who review access in the
-campaign scheduling.  
- The monitoring part should be performed in cooperation with the staff in charge of campaign
+campaign scheduling.
+The monitoring part should be performed in cooperation with the staff in charge of campaign
 scheduling.
 
 | Input                                                                                          | Output           |
@@ -2950,7 +2950,7 @@ Execute certification by proceeding as follows:
    See the icons below this note.
 
    The Recommended icon indicates that the entitlement has been automatically granted according to
-   the security policy. You can approve it because it is compliant.  
+   the security policy. You can approve it because it is compliant.
    The Not Recommended icon indicates that the entitlement does not comply with the security
    policy. It is recommended to refuse it, unless the user really needs it.
 
@@ -3102,8 +3102,8 @@ Create an access certification campaign by proceeding as follows:
 
 ## Impact of Modifications
 
-You can modify any field in a certification campaign **before its start date**.  
-After it begins, only the name, identifier, and end date can be changed.  
+You can modify any field in a certification campaign **before its start date**.
+After it begins, only the name, identifier, and end date can be changed.
 You may delete the campaign at any time.
 
 ## Verify Campaign Scheduling
@@ -3242,7 +3242,7 @@ In the Admin section you can do the following:
 - [ Review Non-conforming Assignments ](/docs/identitymanager/6.2/reference/index.md)
 
   How to review non-conforming assignments, i.e. approve or decline the suggestions made by
-  Identity Manager after every synchronization. The aim is to handle the differences between the
+  Identity Manager after every synchronization. The aim is to handle the differences between the
   values from the managed systems and those computed by Identity Manager's role model.
 
 - [ Reconcile a Role ](/docs/identitymanager/6.2/reference/index.md)
@@ -3255,7 +3255,7 @@ In the Admin section you can do the following:
 - [ Reconcile a Property ](/docs/identitymanager/6.2/reference/index.md)
 
   How to review unreconciled properties. The aim is to handle the differences between the property
-  values from the managed systems and those computed by Identity Manager according to provisioning
+  values from the managed systems and those computed by Identity Manager according to provisioning
   rules.
 
 - [ Review an Unauthorized Account ](/docs/identitymanager/6.2/reference/index.md)
@@ -3355,7 +3355,7 @@ Act on an existing identity by proceeding as follows:
 
    ````
    <img
-     src="/buttons/Home_roleReview_V523.webp"  alt="Home Page - Role Review"  style=""/>
+     src="/buttons/Home_roleReview_V523.webp" alt="Home Page - Role Review" style=""/>
 
    ```In this case, the requested entitlement will be displayed in the user's \*\*View Permissions\*\* tab only after the request is reviewed.
    ````
@@ -3873,9 +3873,9 @@ In addition, filters can be configured in the reporting module to list orphaned 
 **User** and **AD User** (nominative) with a filter on void user's display names.
 
 **NOTE:** Some accounts are considered orphaned because of an error in the account data or
-assignment rule.  
+assignment rule.
 For an entity that is never the target of a resource type, the concept of an orphan does not apply
-because the **Owner / Resource Type** column will be hidden.  
+because the **Owner / Resource Type** column will be hidden.
 When using a display table to display these entities, use
 DisplayTableDesignElement``({{< relref "/integration-guide/toolkit/xml-configuration/user-interface/displaytable#properties" >}}) `"table"``
 or `"adaptable"`.
@@ -3901,15 +3901,15 @@ script in the command line.
 if (resource.userAccountControl == null) {
    return false;
      }
-if ((int.Parse(resource.userAccountControl) &amp; 2) != 0) {      
+if ((int.Parse(resource.userAccountControl) &amp; 2) != 0) {
 return false;
     }
- if (resource.accountExpires != null &amp;&amp; resource.accountExpires != 
+ if (resource.accountExpires != null &amp;&amp; resource.accountExpires !=
 &quot;0&quot; &amp;&amp; resource.accountExpires !=
 &quot;9223372036854775807&quot; &amp;&amp;
 Usercube.Expressions.Functions.UtilExpressions.ParseSince1601Date(resource.accountExpires)
-&lt; DateTime.UtcNow) {      
-return false;      
+&lt; DateTime.UtcNow) {
+return false;
 }
   
 return ((resource.lastLogonTimestamp == null) ||
@@ -3986,7 +3986,7 @@ You can **Select owner** from the list by clicking on the check box.
 that an orphaned account cannot be certified. .See the
 [ Perform Access Certification ](/docs/identitymanager/6.2/reference/index.md) topic for additional information.
 But a service account must not be linked to a person, for the departure of said person from the
-company may trigger the loss of the service account.  
+company may trigger the loss of the service account.
 This is why we create identities with **Application** as their **UserType**, each
 application-identity linked to a person supposed to manage it. Thus,service accounts must be
 connected to application identities, themselves owned by people. That way, if the owner of the
@@ -4112,7 +4112,7 @@ Review provisioning orders by proceeding as follows:
 
 ### Handle an addition order
 
-Identity Manager shows all the properties of the new resource to be created:
+Identity Manager shows all the properties of the new resource to be created:
 
 ![Addition Order Review](/img/product_docs/identitymanager/identitymanager/user-guide/administrate/provisioning/provisioning-review/provmanual_reviewaddition_v602.webp)
 
@@ -4193,7 +4193,7 @@ Handle an association order by proceeding as follows:
 
 ### Handle an update order
 
-Identity Manager shows a given resource and all resource properties to be verified:
+Identity Manager shows a given resource and all resource properties to be verified:
 
 ![Edition Order Review](/img/product_docs/identitymanager/identitymanager/user-guide/administrate/provisioning/provisioning-review/provmanual_reviewedition_v602.webp)
 
@@ -4315,7 +4315,7 @@ project, for example:
 
   ![Orphaned Account List](/img/product_docs/identitymanager/identitymanager/user-guide/administrate/reporting/orphan_entitytype_v523.webp)
 
-Identity Manager puts users in control of their reporting. Rich features help produce customizable
+Identity Manager puts users in control of their reporting. Rich features help produce customizable
 reports that can be used to check the assignment policy results, or gather information for an audit.
 
 Identity Manager provides several different levels of reporting according to your needs and
@@ -4339,7 +4339,7 @@ This operation can be performed by any user interested in producing IGA reports.
 
 ## Download Predefined Reports
 
-Identity Manager provides a selection of predefined reports available in the solution. They
+Identity Manager provides a selection of predefined reports available in the solution. They
 represent the most common use cases.
 
 The accessibility of these predefined reports was configured during
@@ -4390,7 +4390,7 @@ Create a custom report by proceeding as follows:
 
    ![Fields to Display](/img/product_docs/identitymanager/identitymanager/user-guide/administrate/reporting/reporting_fieldstodisplay_v522.webp)
 
-   In cases where Identity Manager doesn't display correctly the information you need, you must try
+   In cases where Identity Manager doesn't display correctly the information you need, you must try
    to understand the entity instances and association instances that constitute the
    [ Universe ](/docs/identitymanager/6.2/development/configuration-toolkit/xml-configuration.md)
    that you are working with. Perhaps the fields that you chose cannot be properly correlated.
@@ -4557,7 +4557,7 @@ The documentation is not yet available for this page and will be completed in th
 - [ Plan Change Management ](/docs/identitymanager/6.2/reference/index.md)
 
   How to anticipate the deep changes in the organization's applications and processes due to
-  Identity Manager installation as a new IGA tool.
+  Identity Manager installation as a new IGA tool.
 
 - [ Install the Production Agent ](/docs/identitymanager/6.2/reference/index.md)
 
@@ -4872,7 +4872,7 @@ This guide shows how to configure the agent's application settings via the `web.
 
 ## Overview
 
-Identity Manager provides JSON files to configure varied application settings, named appsettings
+Identity Manager provides JSON files to configure varied application settings, named appsettings
 json and appsettings.agent.json. See the
 [Application Settings](/docs/identitymanager/6.2/administration/agent-configuration/agent-settings.md)
 and
@@ -4898,7 +4898,7 @@ Configure the agent's settings by proceeding as follows:
     web.config
 
     ...
-    <aspNetCore processPath="dotnet" arguments="./identitymanager-Agent.dll" stdoutLogEnabled="true" stdoutLogFile="../Temp/stdout-server.log" hostingModel="inprocess">     ...
+    <aspNetCore processPath="dotnet" arguments="./identitymanager-Agent.dll" stdoutLogEnabled="true" stdoutLogFile="../Temp/stdout-server.log" hostingModel="inprocess"> ...
     </aspNetCore> ...
 
    ```
@@ -4916,8 +4916,8 @@ Configure the agent's settings by proceeding as follows:
      > appsettings.json
      >
      > "IdentityServer": {
-     >   "X509KeyFilePath": "./Usercube.pfx",
-     >   "X509KeyFilePassword": "secret"
+     > "X509KeyFilePath": "./Usercube.pfx",
+     > "X509KeyFilePassword": "secret"
      > }
      >
      > ```
@@ -4932,9 +4932,9 @@ Configure the agent's settings by proceeding as follows:
      > appsettings.json
      >
      > "EncryptionCertificate": {
-     >   "File": "./identitymanager-Files.pfx",
-     >   "Password": "secret",
-     >   "EncryptFile": true
+     > "File": "./identitymanager-Files.pfx",
+     > "Password": "secret",
+     > "EncryptFile": true
      > }
      >
      > ```
@@ -4985,11 +4985,11 @@ Configure the agent's settings by proceeding as follows:
      >
      > ```
      >
-     >         appsettings.agent.json
+     > appsettings.agent.json
      >
-     >         "OpenId": {
-     >           "AgentIdentifier": "MyAgent"
-     >           }
+     > "OpenId": {
+     > "AgentIdentifier": "MyAgent"
+     > }
      >
      > ```
      >
@@ -4997,7 +4997,7 @@ Configure the agent's settings by proceeding as follows:
      >
      > ```
      >
-     >         <Agent Identifier="MyAgent" DisplayName_L1="My Agent" URI="https://contoso.com" />
+     > <Agent Identifier="MyAgent" DisplayName_L1="My Agent" URI="https://contoso.com" />
      >
      > ```
 
@@ -5011,10 +5011,10 @@ Configure the agent's settings by proceeding as follows:
      > appsettings.agent.json
      >
      > "OpenId": {
-     >   "AgentIdentifier": "MyAgent",
-     >   "OpenIdClients": {
-     >       "Job": "secret"
-     >   }
+     > "AgentIdentifier": "MyAgent",
+     > "OpenIdClients": {
+     > "Job": "secret"
+     > }
      > }
      >
      > ```
@@ -5039,11 +5039,11 @@ Configure the agent's settings by proceeding as follows:
      > appsettings.agent.json
      >
      > "OpenId": {
-     >   "AgentIdentifier": "MyAgent",
-     >   "OpenIdClients": {
-     >       "Job": "secret"
-     >   },
-     >   "DefaultOpenIdClient": "Job"
+     > "AgentIdentifier": "MyAgent",
+     > "OpenIdClients": {
+     > "Job": "secret"
+     > },
+     > "DefaultOpenIdClient": "Job"
      > }
      >
      > ```
@@ -5058,9 +5058,9 @@ Configure the agent's settings by proceeding as follows:
      > appsettings.agent.json
      >
      > "PasswordResetSettings": {
-     >   "TwoFactorSettings": {
-     >       "ApplicationUri": "http://localhost:5000"
-     >   }
+     > "TwoFactorSettings": {
+     > "ApplicationUri": "http://localhost:5000"
+     > }
      > }
      >
      > ```
@@ -5075,13 +5075,13 @@ Configure the agent's settings by proceeding as follows:
      > appsettings.agent.json
      >
      > "PasswordResetSettings": {
-     >   "TwoFactorSettings": {
-     >       "ApplicationUri": "http://localhost:5000"
-     >   },
-     >   "EncryptionCertificate": {
-     >       "File": "../Usercube.pfx",
-     >       "Password": "secret"
-     >   }
+     > "TwoFactorSettings": {
+     > "ApplicationUri": "http://localhost:5000"
+     > },
+     > "EncryptionCertificate": {
+     > "File": "../Usercube.pfx",
+     > "Password": "secret"
+     > }
      > }
      >
      > ```
@@ -5096,17 +5096,17 @@ Configure the agent's settings by proceeding as follows:
      > appsettings.agent.json
      >
      > "PasswordResetSettings": {
-     >   "TwoFactorSettings": {
-     >       "ApplicationUri": "http://localhost:5000"
-     >   },
-     >   "EncryptionCertificate": {
-     >       "File": "../Usercube.pfx",
-     >       "Password": "secret"
-     >   },
-     >   "MailSettings": {
-     >       "PickupDirectory": "../Mails",
-     >       "FromAddress": "no-reply@contoso.com"
-     >   }
+     > "TwoFactorSettings": {
+     > "ApplicationUri": "http://localhost:5000"
+     > },
+     > "EncryptionCertificate": {
+     > "File": "../Usercube.pfx",
+     > "Password": "secret"
+     > },
+     > "MailSettings": {
+     > "PickupDirectory": "../Mails",
+     > "FromAddress": "no-reply@contoso.com"
+     > }
      > }
      >
      > ```
@@ -5120,7 +5120,7 @@ Configure the agent's settings by proceeding as follows:
      > appsettings.agent.json
      >
      > "SourcesRootPaths": [
-     >   "C:/identitymanager/Sources"
+     > "C:/identitymanager/Sources"
      > ]
      >
      > ```
@@ -5151,7 +5151,7 @@ How to add a new system to the solution.
 
 ## Overview
 
-When connecting Identity Manager to a new system, several process paths can be taken according to
+When connecting Identity Manager to a new system, several process paths can be taken according to
 your strategy. There is no option fundamentally better than the others, your decision must depend on
 your needs.
 
@@ -5276,7 +5276,7 @@ simultaneously.
    data model.
 
 After these first steps, two process options are available according to your needs: either aim
-directly to identity management and the opening of Identity Manager to end-users, or first connect
+directly to identity management and the opening of Identity Manager to end-users, or first connect
 Identity Manager to an external system in order to enable more administration activities. Both
 options can be started simultaneously.
 
@@ -5355,7 +5355,7 @@ process. This user guide provides the following processes that can follow one an
 intertwine.
 
 - #### [How to Start](/docs/identitymanager/6.2/reference/index.md)
-  How to start integrating Identity Manager with your own needs.- ####
+  How to start integrating Identity Manager with your own needs.- ####
   [How to Maintain the Workforce Directory](/docs/identitymanager/6.2/reference/index.md) How to keep the
   workforce directory up to date.- #### [How to Implement a New System](/docs/identitymanager/6.2/reference/index.md)
   How to add a new system to the solution.
@@ -5440,7 +5440,7 @@ Learn how to deploy the solution to a production environment.
 
 Learn how to maintain the solution, because the project is iterative. Learn how to keep the data
 model up to date according to the company's changes, or how to add new systems to the loop, while
-Identity Manager is already running in production.
+Identity Manager is already running in production.
 
 ## How to Use this Guide
 
@@ -5808,7 +5808,7 @@ In order to verify the process:
 
 - [ Troubleshoot ](/docs/identitymanager/6.2/reference/index.md)
 
-  How to troubleshoot Identity Manager when facing technical issues.
+  How to troubleshoot Identity Manager when facing technical issues.
 
 # Troubleshoot
 
@@ -6040,7 +6040,7 @@ cost.
 Assignments do not have to be automated all at once.
 
 On the one hand, before being automatically assigned, entitlements can be merely suggested by
-Identity Manager and assigned manually.
+Identity Manager and assigned manually.
 
 On the other hand, a distinction can be made between assignments according to their sensitivity, for
 example using different error rates, or using simulation, or automating the assignment of basic
@@ -6118,7 +6118,7 @@ The process of assignment automation is the following:
 
    For example, suppose an organization working with many distinct departments. If you see that the
    automation rate skyrockets when the error rate reaches the number of workers in one department,
-   then it probably means that Identity Manager misses data concerning one of the departments. Thus
+   then it probably means that Identity Manager misses data concerning one of the departments. Thus
    the error rate allows Identity Manager to "ignore" one of the departments in the organization,
    and optimize automation.
 
@@ -6205,7 +6205,7 @@ end date:
 - When assigning an entitlement to a user manually, the start and end dates are specified explicitly
   unless the end date is locked. See the
   [Create a Role Manually](/docs/identitymanager/6.2/reference/index.md)
-  topic for additional information.
+  topic for additional information.
 - When assigning entitlements to users via assignment rules, the start and end dates are based on
   the owner's data, for example their contract or position start/end dates. These assignments are
   automatic.
@@ -6213,7 +6213,7 @@ end date:
 Netwrix recommends always preferring calculated assignments over manual ones, because calculated
 assignments follow the changes in their owners' data and are consequently more secure.
 
-For example, consider a user Helen who starts working as an architect with a given role.  
+For example, consider a user Helen who starts working as an architect with a given role.
 When assigning the role manually, when Helen changes her job, her manager will have to remove the
 role manually. When assigning the role via a rule, when Helen changes a job, the role will be
 removed automatically.
@@ -6691,7 +6691,7 @@ In order to verify the process:
 - [ Create an HR Connector ](/docs/identitymanager/6.2/reference/index.md)
 
   How to create a connector dedicated to the automation of identity management (creation, update,
-  deletion), via the synchronization of HR data into Identity Manager and internal provisioning.
+  deletion), via the synchronization of HR data into Identity Manager and internal provisioning.
 
 - [ Manage Risks ](/docs/identitymanager/6.2/reference/index.md)
 
@@ -6800,8 +6800,8 @@ will be applied.
 **Step 4 –** Fill in the fields.
 
 - Decision — Action to be taken on the described assignments.
-- Criteria — Conditions that, if met, trigger the rule.  
-  Currently, the criteria are used to match the context of an assignment and not the user data.  
+- Criteria — Conditions that, if met, trigger the rule.
+  Currently, the criteria are used to match the context of an assignment and not the user data.
   For example, if a single role is assigned based on a specific Department, then the context of the
   assignment has the information about the Department. In that case, an automation rule having in
   its dimensions that given Department will match this assignment and could Deny/Accept it.
@@ -6916,14 +6916,14 @@ in XML to be displayed in the UI.
 
 **NOTE:** It is important to note that for manually assigned roles, if a new dimension is added to
 the definition of the role, the assignment's dimension will not be re-calculated, and will therefore
-not be propagated to calculate automatic assignments.  
+not be propagated to calculate automatic assignments.
 Example Scenario — Role A was created as a composite role with no parameters a long time ago. Role A
 was later updated to depend on the optional parameter X and a single role rule was created to assign
-a single role B if a user had Role A and parameter X set to value Y.  
+a single role B if a user had Role A and parameter X set to value Y.
 If a user already manually had the role A, even if its dimension X (for example its department,
 which could be calculated) was equal to value Y, got its permissions recalculated, that person would
 not get the role B. Since the modification occurred after the assignment, it is understood as if the
-role was assigned voluntarily with dimension X unset.  
+role was assigned voluntarily with dimension X unset.
 However, if a user got role A assigned after the modification, and its dimension X was equal to
 value Y, then that user would get the role B.
 
@@ -6990,7 +6990,7 @@ means, for example, one policy for workers (meaning employees and contractors), 
 partners, another one for clients. But sometimes partners are included in the same policy as
 workers, it depends on the organization.
 
-**NOTE:** Netwrix Identity Manager (formerly Usercube) provides a default policy. Only when the
+**NOTE:** Netwrix Identity Manager (formerly Usercube) provides a default policy. Only when the
 project is mature enough should integrators think about creating additional policies.
 
 ## Participants and Artifacts
@@ -7922,7 +7922,7 @@ Create a resource type by proceeding as follows:
      the workflow to launch within Identity Manager, or the identifier of the user's record to
      copy. See the [Provision](/docs/identitymanager/6.2/identity-management/provisioning/index.md) topic for additional
      information.
-   - `Allow Addition`: enables Identity Manager to automatically create new resources in the
+   - `Allow Addition`: enables Identity Manager to automatically create new resources in the
      managed system when their owners are given the right entitlements. Otherwise, resource
      managers must create resources manually directly in the managed system.
 
@@ -7940,7 +7940,7 @@ Create a resource type by proceeding as follows:
      > accounts are configured with `Allow Removal` disabled. Finally, consider a given user who
      > has the role `SAP` and the corresponding SAP account. In this case, if we deprive said
      > user from the role `SAP`, then the SAP account isn't automatically deleted. Identity
-     > Manager displays this assignment as non-conforming on the **Resource Reconciliation**
+     > Manager displays this assignment as non-conforming on the **Resource Reconciliation**
      > page, and the relevant resource manager must confirm the account deletion.
 
      **Allow Addition / Allow Removal:**
@@ -7971,7 +7971,7 @@ Create a resource type by proceeding as follows:
      Set to `No`, any manual change of a property's value made directly in the target system will
      be "protected" (only after the change is approved in Identity Manager in **Resource
      Reconciliation**). It means that a future change in the source data will not trigger the
-     provisioning of the new value. Instead, Identity Manager will keep the value of the manual
+     provisioning of the new value. Instead, Identity Manager will keep the value of the manual
      change, and state the value as `Questioned`.
 
      > Consider an HR system (source) whose data isn't often synchronized into Identity Manager.
@@ -7980,7 +7980,7 @@ Create a resource type by proceeding as follows:
      > with the new name. However, `Discard Manual Assignments` should be enabled because the HR
      > system should still be the authoritative source in case of another change.
 
-   - `Correlate Multiple Resources`: enables Identity Manager to link a single owner to several
+   - `Correlate Multiple Resources`: enables Identity Manager to link a single owner to several
      existing target objects from this resource type.
 
      > Consider records, representing users' positions in the resource type
@@ -8159,7 +8159,7 @@ writing to the system.
 One connector can contain several connections, and each connection contains one package.
 
 > For example, an `AD` connector, that will handle synchronization and provisioning between Identity
-> Manager and an AD, would generally use the `Directory/Active Directory` package which can do
+> Manager and an AD, would generally use the `Directory/Active Directory` package which can do
 > synchronization and automated provisioning. A second package for manual provisioning,
 > `Ticket/Usercube` could be added to request manual provisioning of administration accounts that
 > need more security.
@@ -8586,13 +8586,13 @@ The TSS connector is similar to RACF in its use, but manages fine-grained entitl
 level than RACF. TSS is at least as complex as RACF, and its connector follows a similar
 simplification as RACF's.
 
-Identity Manager manages users (with their accounts) and groups called here profiles. Both users and
+Identity Manager manages users (with their accounts) and groups called here profiles. Both users and
 profiles are grouped into departments, themselves grouped into partitions. Entitlements are called
 authorizations, and are linked to users through group (profile) membership.
 
 ![User-Group Example - TSS](/img/product_docs/identitymanager/identitymanager/user-guide/set-up/connect-system/connector-modeling/connectormodel_tss.webp)
 
-For TSS, Identity Manager provisions only the link between users and profiles.
+For TSS, Identity Manager provisions only the link between users and profiles.
 
 Identity Manager receives a write access for users and profiles, only a read access for the rest of
 the model. It is interesting to keep the whole model for query goals such as listing a given user's
@@ -8626,7 +8626,7 @@ through a given position and wallet.
 
 ![User-Group Example - SDGE](/img/product_docs/identitymanager/identitymanager/user-guide/set-up/connect-system/connector-modeling/connectormodel_sdge.webp)
 
-For SDGE, Identity Manager provisions only workers and the link between workers and positions.
+For SDGE, Identity Manager provisions only workers and the link between workers and positions.
 
 ### Account-Profile-Transaction
 
@@ -8692,7 +8692,7 @@ User-Group part is explained above.
 
 Transactions are called here authorizations.
 
-For TSS, Identity Manager provisions only the link between users and profiles. Transactions (and the
+For TSS, Identity Manager provisions only the link between users and profiles. Transactions (and the
 rest of the model) are only readable.
 
 ### Star
@@ -8750,7 +8750,7 @@ sites. So a user may be assigned a given entitlement for a given profile, attach
 
 ![Star Model Example](/img/product_docs/identitymanager/identitymanager/user-guide/set-up/connect-system/connector-modeling/connectormodel_starmodel.webp)
 
-For this connector, Identity Manager provisions only the links between accounts and linking objects,
+For this connector, Identity Manager provisions only the links between accounts and linking objects,
 and the links between linking objects and each criterion.
 
 Concerning roles, integrators have two options:
@@ -8892,7 +8892,7 @@ How to change the value of the display name for resources of an
 
 Here you will learn how to change a resource's display name, which is the name used by the UI to
 identify a resource of an entity type. Its value is computed from existing properties. For example
-for the entity type `HR - User`, integrators may set the display name to:  
+for the entity type `HR - User`, integrators may set the display name to:
 `<Employee_Id> - <Last_name> <First_name>`.
 
 ![Display Name - Example](/img/product_docs/identitymanager/identitymanager/user-guide/set-up/connect-system/entity-type-creation/display-name-setting/entitytypecreation_displaynameexample_v600.webp)
@@ -9145,7 +9145,7 @@ column in Identity Manager's database.
 >
 > ```
 >
-> Identity Manager needs to know what column to query to find the right resource via
+> Identity Manager needs to know what column to query to find the right resource via
 > `CN=SG_APP_AG002...`. In this example we must choose `dn` as a key property because it is the `dn`
 > property we use to represent the AD resource.
 
@@ -9237,25 +9237,25 @@ relationships to other entity types.
 ## Overview
 
 Navigation properties contain scalar values like other properties, but they link to other
-properties—either from the same entity type or another one.  
+properties—either from the same entity type or another one.
 See the [Define Scalar Properties](/docs/identitymanager/6.2/reference/index.md) topic for additional
 context.
 
-> **Example 1**: `memberOf` links a user to groups, or a group to other groups.  
+> **Example 1**: `memberOf` links a user to groups, or a group to other groups.
 > In the UI, `memberOf` behaves like a scalar property, but you can click its values to view the
-> associated groups.  
+> associated groups.
 > For the AD entry `ADM Vidal Pierre`:
 >
 > ![Navigation Property - memberOf](/img/product_docs/identitymanager/identitymanager/user-guide/set-up/connect-system/entity-type-creation/navigation-property-definition/entitytypecreation_memberof_v600.webp)
 >
 > Clicking a group shows its properties, including the reverse side of `memberOf`, called `member`,
-> which lists group members.  
+> which lists group members.
 > For the group `SG_APP_RAY_0_LDAP_READLDSFEDE`:
 >
 > ![Navigation Property - member](/img/product_docs/identitymanager/identitymanager/user-guide/set-up/connect-system/entity-type-creation/navigation-property-definition/entitytypecreation_member_v600.webp)
 
 > **Example 2**: Departments can link to managers using the `Manager` property, referencing a user’s
-> identifier.  
+> identifier.
 > In the UI, `Manager` behaves like a scalar property, but clicking it opens the manager’s user
 > profile:
 >
@@ -9271,13 +9271,13 @@ Navigation properties can link:
 - Between two entity types from the same connector
 - Between two entity types from different connectors
 
-Identity Manager uses a "flip side" for each navigation link.  
+Identity Manager uses a "flip side" for each navigation link.
 For example, in AD:
 
 - `member`: on groups, lists users
 - `memberOf`: on users, lists groups
 
-AD only stores `member` in groups; users don’t have a native `memberOf` property.  
+AD only stores `member` in groups; users don’t have a native `memberOf` property.
 Identity Manager synthesizes both ends to ensure full navigation mapping.
 
 When importing data:
@@ -9285,7 +9285,7 @@ When importing data:
 - `member` in AD updates `member` in Identity Manager
 - Identity Manager then updates `memberOf` automatically
 
-Usually, properties in Identity Manager are mapped to existing ones in the source system.  
+Usually, properties in Identity Manager are mapped to existing ones in the source system.
 If a property doesn’t exist in the source, it can still be created (e.g., for internal assignment
 logic), but it won’t support read/write operations.
 
@@ -9308,7 +9308,7 @@ Follow these steps:
 
 ### Application Metadata
 
-- `Identifier`: Must be unique, whitespace-free, and C#-compatible.  
+- `Identifier`: Must be unique, whitespace-free, and C#-compatible.
   [See Microsoft lexical structure](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/language-specification/lexical-structure#see-microsoft-lexical-structure)
 - `Entity Type`: Always refers to the current entity type. Source property can be from any.
 - `Storage Indicator`: Can be:
@@ -9317,15 +9317,15 @@ Follow these steps:
   - **Multi-valued** (1:many or many:many)
 
   Identity Manager supports up to 25 optimized mono-valued navigation properties per entity
-  type.  
-   Prioritize:
+  type.
+  Prioritize:
 
   1. Properties used in forms and search
   2. Properties used in expressions and role models
   3. All others
 
-- `Name`: Shown in the UI.  
-  Use **singular** for mono-valued, **plural** for multi-valued.  
+- `Name`: Shown in the UI.
+  Use **singular** for mono-valued, **plural** for multi-valued.
   Avoid names like `"Id"` for both identifier and display name.
 
 ### External System
@@ -9365,7 +9365,7 @@ Follow these steps:
    - `History Precision`: Sets how often the property’s value is historized.
 
      > Example: `lastLogonTimestamp` is frequently updated. To reduce historization noise, set
-     > `History Precision` to 10080 minutes (1 week).  
+     > `History Precision` to 10080 minutes (1 week).
      > This way, only one update per week is stored.
 
 Clicking **Continue** closes the window but does **not save** the configuration.
@@ -9374,7 +9374,7 @@ Clicking **Continue** closes the window but does **not save** the configuration.
 
 ## Reload
 
-After saving changes, a green popup will prompt you to reload the schema.  
+After saving changes, a green popup will prompt you to reload the schema.
 You can defer this, but **must reload after final changes**.
 
 ![Reload](/img/product_docs/identitymanager/identitymanager/user-guide/set-up/connect-system/entity-type-creation/key-selection/entitytypecreation_reload_v522.webp)
@@ -9463,7 +9463,7 @@ Define the entity type's scalar properties by proceeding as follows:
 
        > For example, dates, booleans, integers, etc.
 
-       For one entity type, Identity Manager can store up to 128 scalar properties of any
+       For one entity type, Identity Manager can store up to 128 scalar properties of any
        format, and an unlimited number of binaries which are stored differently. Among these
        128 properties, only 4 can be formatted as more-than-443-character strings (with a limit
        of 4,000 characters), and 124 as less-than-443-character strings.
@@ -9558,7 +9558,7 @@ using the provided SaaS agent. See the
 [ Architecture ](/docs/identitymanager/6.2/reference/index.md) topic for additional
 information.
 
-Identity Manager provides demo applications
+Identity Manager provides demo applications
 ([Run the Banking Demo Application](/docs/identitymanager/6.2/integration/connectors/connector-basics/configuration.md)
 and
 [Run the HR Demo Application](/docs/identitymanager/6.2/integration/connectors/connector-basics/configuration.md)) to
@@ -9574,7 +9574,7 @@ In this documentation, we talk about managed systems (sometimes called external 
 third-party applications, i.e. the applications used in your organization, such as Active Directory,
 ServiceNow, EasyVista, SAP, SharePoint, etc.
 
-A connector, therefore, acts as an interface between Identity Manager and a managed system.
+A connector, therefore, acts as an interface between Identity Manager and a managed system.
 
 ![Connector Schema](/img/product_docs/identitymanager/identitymanager/user-guide/set-up/connect-system/connectorcreation_connectorschema.webp)
 
@@ -9599,12 +9599,12 @@ In this case, data flows between Identity Manager and the managed system are als
 - synchronization in the "managed system-to-Identity Manager" direction;
 - provisioning in the "Identity Manager-to-managed system" direction.
 
-For a connector's synchronization, Identity Manager provides tools to perform a basic extraction of
+For a connector's synchronization, Identity Manager provides tools to perform a basic extraction of
 the system's data in the form of CSV files. These files are cleaned and loaded into Identity
 Manager. In other words, synchronizing means taking a snapshot of the managed system's data and
 loading into Identity Manager.
 
-For provisioning, Identity Manager generates provisioning orders and the connector provides tools to
+For provisioning, Identity Manager generates provisioning orders and the connector provides tools to
 either automatically write these orders to the managed system or to create a ticket for manual
 provisioning.
 
@@ -9613,7 +9613,7 @@ provisioning.
 > repository. See the [ Create the Workforce Repository ](/docs/identitymanager/6.2/reference/index.md)
 > topic for additional information.
 
-Identity Manager can also benefit from inbound connectors, that will write data to Identity
+Identity Manager can also benefit from inbound connectors, that will write data to Identity
 Manager's central identity repository. While both inbound and outbound connectors allow data to flow
 both ways, they do not work in the same manner.
 
@@ -9621,7 +9621,7 @@ both ways, they do not work in the same manner.
 
 Identity Manager's connectors all operate on the same basic principles. Technically speaking:
 
-> For example, let's say that we want to connect Identity Manager to our Active Directory, or AD.
+> For example, let's say that we want to connect Identity Manager to our Active Directory, or AD.
 
 - a connector must be created, first as a named container which will include the connections and
   entity types related to one managed system;
@@ -9662,7 +9662,7 @@ Identity Manager's connectors all operate on the same basic principles. Technica
   [ Categorize Resources ](/docs/identitymanager/6.2/reference/index.md) topic for additional information.
 
   > We categorize AD resources into distinct resource types: `AD User (nominative)` for basic
-  > accounts, which we want Identity Manager to provision automatically;
+  > accounts, which we want Identity Manager to provision automatically;
   > `AD User (administration)` for sensitive administration accounts, which we want to provision
   > manually through Identity Manager.
 
@@ -9746,7 +9746,7 @@ The documentation is not yet available for this part and will be completed in th
 
 ## Verify Environment Installation
 
-In order to verify the process, try to authenticate to  server, and access the configuration
+In order to verify the process, try to authenticate to server, and access the configuration
 screens.
 
 ## Next Steps
@@ -9762,11 +9762,11 @@ Once the development environment is ready, integrators can start to Create the W
 - [ Create the Workforce Repository ](/docs/identitymanager/6.2/reference/index.md)
 
   How to initiate the repository for workforce identities by loading identities into Identity
-  Manager with the right attributes.
+  Manager with the right attributes.
 
 - [ Configure Unique Property Generation ](/docs/identitymanager/6.2/reference/index.md)
 
-  How to configure Identity Manager to generate unique identifiers, mails and logins for any user
+  How to configure Identity Manager to generate unique identifiers, mails and logins for any user
   who does not have them already.
 
 - [Load Identities to Identity Manager](/docs/identitymanager/6.2/reference/index.md)
@@ -9952,7 +9952,7 @@ Adjust the data model by proceeding as follows:
    > For example, empty attributes should be excluded to simplify the data model. However, you can
    > choose to keep an empty property anyway if you know that you want to fill it in later.
 
-   Note that Identity Manager stays authoritative to activate some properties that are mandatory
+   Note that Identity Manager stays authoritative to activate some properties that are mandatory
    for Identity Manager's operation.
 
    For example the contract's start date is necessary for Identity Manager's workflows.
@@ -9979,7 +9979,7 @@ In order to validate the process:
    >
    > ![Scan Data Model - Example](/img/product_docs/identitymanager/identitymanager/user-guide/set-up/initial-identities-loading/adjust-datamodel/initialload_scan-example_v523.webp)
 
-2. Navigate within Identity Manager to find a workflow using the test field. Observe the displaying
+2. Navigate within Identity Manager to find a workflow using the test field. Observe the displaying
    mode in the UI.
 
    > Our `State` field must be filled in during the creation of a new site. It can be filled by
@@ -10015,8 +10015,8 @@ choose the most adequate method regarding your actual approach.
 An identifier/email/login suffix can be specified later according to users' contract types, when
 loading identities through an Excel template. See the
 [Load Identities to Identity Manager](/docs/identitymanager/6.2/reference/index.md) topic for additional
-information.  
-For example, contractors can get `-ext` added automatically to their email addresses.  
+information.
+For example, contractors can get `-ext` added automatically to their email addresses.
 The unicity checks performed for identifiers/emails/logins do not consider prefixes nor suffixes.
 
 For example, `john.doe@acme.com` and `john.doe-ext@acme.com` cannot exist simultaneously.
@@ -10116,7 +10116,7 @@ unique properties.
 # Create the Workforce Repository
 
 How to initiate the repository for workforce identities by loading identities into Identity
-Manager with the right attributes.
+Manager with the right attributes.
 
 ## Overview
 
@@ -10243,7 +10243,7 @@ of a template MS Excel file.
 
 ## Overview
 
-Loading the digital identities into Identity Manager is the very first task you have to perform,
+Loading the digital identities into Identity Manager is the very first task you have to perform,
 once you installed the development environment.
 
 The initial workforce repository is going to be the first version of a comprehensive directory
@@ -10826,7 +10826,7 @@ property should be computed by either navigation or query rules, not both.
 In Identity Manager, a navigation property has two "sides", one for each linked element.
 
 For example in the AD, the group membership of a user is represented by the properties `member` for
-groups (containing a list of users) and `memberOf` for users (containing a list of groups).  
+groups (containing a list of users) and `memberOf` for users (containing a list of groups).
 However, some managed systems only have one of these two sides.
 
 The AD only uses `member` from among groups' properties. Users do not have a `memberOf` property. As
@@ -11114,7 +11114,7 @@ automatically for an identity by a resource type rule, and if the user's criteri
 the new version of the rule, then the corresponding resource is automatically deleted.
 
 A modification in a resource type rule can trigger the removal of a resource only on the Identity
-Manager side. There are several barriers to cross before said resource is removed from the managed
+Manager side. There are several barriers to cross before said resource is removed from the managed
 system: first before the creation of an Assigned Resource Type in Identity Manager's database, and
 again before the actual action in the managed system.
 
@@ -11154,7 +11154,7 @@ Then, you can:
 
 How to define scalar rules to compute and provision the values of scalar properties for target
 resources based on source resources. See the
-[Resource Type](/docs/identitymanager/6.2/development/configuration-toolkit/xml-configuration.md) topic
+[Resource Type](/docs/identitymanager/6.2/development/configuration-toolkit/xml-configuration.md) topic
 for additional information.
 
 ## Overview
@@ -11183,7 +11183,7 @@ The application of a scalar rule can depend on the assignment of a single role. 
 [ Create Roles in the Role Catalog ](/docs/identitymanager/6.2/reference/index.md) topic for
 additional information.
 
-Sometimes we create in Identity Manager properties which are not directly linked to any real
+Sometimes we create in Identity Manager properties which are not directly linked to any real
 property in the managed system. A scalar rule on this kind of property will not find a property to
 provision in the managed system, and thus will not produce any result.
 
@@ -11595,7 +11595,7 @@ filling an empty field.
 > ![Appropriated Field](/img/product_docs/identitymanager/identitymanager/user-guide/set-up/single-roles-catalog-creation/singlerolescatalog_strategymultinoname_v522.webp)
 
 Thus, the needed information is added to the managed system. After the execution of synchronization,
-said data is accessible inside Identity Manager database and can be used as a naming convention.
+said data is accessible inside Identity Manager database and can be used as a naming convention.
 
 In some cases, integrators are not allowed to create/modify fields in the external systems. Then,
 the information can be added on Identity Manager side only. As the new field doesn't exist in the
@@ -12047,7 +12047,7 @@ one profile, sometimes two, and rare case have maximum three, or more.
 The goal here is to link users to basic profiles.
 
 The right time to assign profiles to users is just before they need it, so it depends on the
-deployment strategy.  
+deployment strategy.
 For example, we connected a given application and now we want to list orphaned accounts. Then we
 need to assign a role officer.
 
@@ -12094,9 +12094,9 @@ section.
 
 **NOTE:** If filters are defined in the Access Rules, and are assigned to the profile, a
 **Criteria** section will appear containing them. Filters are conditions that, if met, trigger the
-Access Control Rule Application.  
+Access Control Rule Application.
 The only filters which can be displayed in this section are filters related to dimensions or hard
-coded criteria (Single Role, Composite Role, Resource Type and Category).  
+coded criteria (Single Role, Composite Role, Resource Type and Category).
 The filters are defined in the XML configuration on the access control rules. The criteria displayed
 are a fusion of the filters of all the rules associated with the profile. See the
 [Access Control Rule](/docs/identitymanager/6.2/development/configuration-toolkit/xml-configuration.md)
@@ -12269,12 +12269,12 @@ information.
 ## New Netwrix Community!
 
 All Netwrix product announcements and bug fix lists have moved to the new Netwrix Community. See
-announcements for Netwrix Identity Manager (formerly Usercube) in the
+announcements for Netwrix Identity Manager (formerly Usercube) in the
 [Identity Manager](https://community.netwrix.com/c/identitymanager/announcements/150) area of our new
 community.
 
 The following information highlights the new and enhanced features introduced in this Netwrix
-Identity Manager (formerly Usercube) version.
+Identity Manager (formerly Usercube) version.
 
 ## Netwrix Identity Manager (formerly Usercube) November 25, 2024
 
@@ -12376,7 +12376,7 @@ simply Identity Manager.
 Identity Manager's guides include:
 
 - An [Introduction Guide](/docs/identitymanager/6.2/reference/index.md) if you are new to Identity Manager.
-- A [User Guide](/docs/identitymanager/6.2/reference/index.md) to configure Identity Manager from scratch via the UI.
+- A [User Guide](/docs/identitymanager/6.2/reference/index.md) to configure Identity Manager from scratch via the UI.
 - An [Integration Guide](/docs/identitymanager/6.2/integration/index.md) to complete Identity Manager's configuration in
   XML according to your needs.
 - An [Installation Guide](/docs/identitymanager/6.2/installation/index.md) to install Identity Managerin a production

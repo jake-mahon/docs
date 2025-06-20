@@ -149,7 +149,7 @@ property should be computed by either navigation or query rules, not both.
 In Identity Manager, a navigation property has two "sides", one for each linked element.
 
 For example in the AD, the group membership of a user is represented by the properties `member` for
-groups (containing a list of users) and `memberOf` for users (containing a list of groups).  
+groups (containing a list of users) and `memberOf` for users (containing a list of groups).
 However, some managed systems only have one of these two sides.
 
 The AD only uses `member` from among groups' properties. Users do not have a `memberOf` property. As
@@ -356,7 +356,7 @@ topics for additional information.
 
 How to define scalar rules to compute and provision the values of scalar properties for target
 resources based on source resources. See the
-[Resource Type](/docs/identitymanager/saas/configuration/xml-configuration/scaffoldings.md) topic
+[Resource Type](/docs/identitymanager/saas/configuration/xml-configuration/scaffoldings.md) topic
 for additional information.
 
 ## Overview
@@ -385,7 +385,7 @@ The application of a scalar rule can depend on the assignment of a single role. 
 [ Create Roles in the Role Catalog ](/docs/identitymanager/saas/role-management/index.md) topic for
 additional information.
 
-Sometimes we create in Identity Manager properties which are not directly linked to any real
+Sometimes we create in Identity Manager properties which are not directly linked to any real
 property in the managed system. A scalar rule on this kind of property will not find a property to
 provision in the managed system, and thus will not produce any result.
 
@@ -642,7 +642,7 @@ automatically for an identity by a resource type rule, and if the user's criteri
 the new version of the rule, then the corresponding resource is automatically deleted.
 
 A modification in a resource type rule can trigger the removal of a resource only on the Identity
-Manager side. There are several barriers to cross before said resource is removed from the managed
+Manager side. There are several barriers to cross before said resource is removed from the managed
 system: first before the creation of an Assigned Resource Type in Identity Manager's database, and
 again before the actual action in the managed system.
 
@@ -712,7 +712,7 @@ enforcement in external systems. See the [ Provision Manually ](/docs/identityma
 
 ### Provisioning states
 
-Identity Manager handles provisioning by assigning a provisioning state to assignment requests.
+Identity Manager handles provisioning by assigning a provisioning state to assignment requests.
 
 Here is the list of provisioning states and their description:
 
@@ -999,7 +999,7 @@ Review provisioning orders by proceeding as follows:
 
 ### Handle an addition order
 
-Identity Manager shows all the properties of the new resource to be created:
+Identity Manager shows all the properties of the new resource to be created:
 
 ![Addition Order Review](/img/product_docs/identitymanager/identitymanager/user-guide/administrate/provisioning/provisioning-review/provmanual_reviewaddition_v602.webp)
 
@@ -1080,7 +1080,7 @@ Handle an association order by proceeding as follows:
 
 ### Handle an update order
 
-Identity Manager shows a given resource and all resource properties to be verified:
+Identity Manager shows a given resource and all resource properties to be verified:
 
 ![Edition Order Review](/img/product_docs/identitymanager/identitymanager/user-guide/administrate/provisioning/provisioning-review/provmanual_reviewedition_v602.webp)
 

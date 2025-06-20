@@ -1070,13 +1070,13 @@ notification to inform the user.
 `--password true --assigned-resource-type 1000 --resource-type-mapping 10`
 
 For the notification to be sent, the server set at **appsettings** > **ApplicationUri** should be
-running.  
+running.
 The [resource type mapping](/docs/identitymanager/6.1/configuration-reference/xml-configuration/connector-config.md)
 should have an associated
-[password reset setting](/docs/identitymanager/6.1/configuration-reference/xml-configuration/connector-config.md).  
+[password reset setting](/docs/identitymanager/6.1/configuration-reference/xml-configuration/connector-config.md).
 For
 the notification to be sent, the password reset settings should at least contain a notified email
-binding.  
+binding.
 For the notification to make sense, the password reset settings should at least contain a beneficary
 full name binding.
 

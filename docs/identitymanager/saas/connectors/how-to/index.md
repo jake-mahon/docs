@@ -6,7 +6,7 @@ using the provided SaaS agent. See the
 [ Architecture ](/docs/identitymanager/saas/identitymanager/introduction-guide/architecture/index.md) topic for additional
 information.
 
-Identity Manager provides demo applications
+Identity Manager provides demo applications
 ([Run the Banking Demo Application](/docs/identitymanager/saas/connectors/how-to/demo-apps/banking.md)
 and
 [Run the HR Demo Application](/docs/identitymanager/saas/connectors/how-to/demo-apps/hr.md)) to
@@ -22,7 +22,7 @@ In this documentation, we talk about managed systems (sometimes called external 
 third-party applications, i.e. the applications used in your organization, such as Active Directory,
 ServiceNow, EasyVista, SAP, SharePoint, etc.
 
-A connector, therefore, acts as an interface between Identity Manager and a managed system.
+A connector, therefore, acts as an interface between Identity Manager and a managed system.
 
 ![Connector Schema](/img/product_docs/identitymanager/identitymanager/user-guide/set-up/connect-system/connectorcreation_connectorschema.webp)
 
@@ -47,12 +47,12 @@ In this case, data flows between Identity Manager and the managed system are als
 - synchronization in the "managed system-to-Identity Manager" direction;
 - provisioning in the "Identity Manager-to-managed system" direction.
 
-For a connector's synchronization, Identity Manager provides tools to perform a basic extraction of
+For a connector's synchronization, Identity Manager provides tools to perform a basic extraction of
 the system's data in the form of CSV files. These files are cleaned and loaded into Identity
 Manager. In other words, synchronizing means taking a snapshot of the managed system's data and
 loading into Identity Manager.
 
-For provisioning, Identity Manager generates provisioning orders and the connector provides tools to
+For provisioning, Identity Manager generates provisioning orders and the connector provides tools to
 either automatically write these orders to the managed system or to create a ticket for manual
 provisioning.
 
@@ -61,7 +61,7 @@ provisioning.
 > repository. See the [ Create the Workforce Repository ](/docs/identitymanager/saas/identity-management/index.md)
 > topic for additional information.
 
-Identity Manager can also benefit from inbound connectors, that will write data to Identity
+Identity Manager can also benefit from inbound connectors, that will write data to Identity
 Manager's central identity repository. While both inbound and outbound connectors allow data to flow
 both ways, they do not work in the same manner.
 
@@ -69,7 +69,7 @@ both ways, they do not work in the same manner.
 
 Identity Manager's connectors all operate on the same basic principles. Technically speaking:
 
-> For example, let's say that we want to connect Identity Manager to our Active Directory, or AD.
+> For example, let's say that we want to connect Identity Manager to our Active Directory, or AD.
 
 - a connector must be created, first as a named container which will include the connections and
   entity types related to one managed system;
@@ -110,7 +110,7 @@ Identity Manager's connectors all operate on the same basic principles. Technica
   [ Categorize Resources ](/docs/identitymanager/saas/connectors/configuration/index.md) topic for additional information.
 
   > We categorize AD resources into distinct resource types: `AD User (nominative)` for basic
-  > accounts, which we want Identity Manager to provision automatically;
+  > accounts, which we want Identity Manager to provision automatically;
   > `AD User (administration)` for sensitive administration accounts, which we want to provision
   > manually through Identity Manager.
 

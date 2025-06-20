@@ -20,7 +20,7 @@ you can choose to focus on:
   [ Manage Risks ](/docs/identitymanager/6.2/reference/index.md) topic for additional
   information.
 
-Identity Manager uses an access certification campaign to define the campaign's scope including:
+Identity Manager uses an access certification campaign to define the campaign's scope including:
 
 - The start and end date of the campaign
 - The group of entitlement assignments to be certified during the campaign.
@@ -28,7 +28,7 @@ Identity Manager uses an access certification campaign to define the campaign's
 ### Job for access certification
 
 After the campaign's creation, access certification items are assigned to reviewers (Identity
-Manager end-users) by the CreateAccessCertificationJob, composed of the following tasks:
+Manager end-users) by the CreateAccessCertificationJob, composed of the following tasks:
 
 - Identity Manager-Update-AccessCertificationCampaign simply applies the campaign's scope,
   determines which permissions are to be certified, by computing certification orders;
@@ -48,7 +48,7 @@ Configuring the Access Certification module entails:
 
 ### Campaign creation
 
-At least one Identity Manager profile needs permissions to create campaigns.
+At least one Identity Manager profile needs permissions to create campaigns.
 
 Such permission can be granted using the AccessReviewAdministrationAccessControlRules scaffolding.
 See the
@@ -68,7 +68,7 @@ Code attributes enclosed with `<>` need to be replaced with a custom value befor
 script in the command line.
 
 ```
-<AccessControlRule Profile="Administrator" EntityType="Dimension0" Identifier="Administrator_AccessCertificationCampaign_Dimension0" DisplayName_L1="Administrator_AccessCertificationCampaigns">  <Entry Permission="/AccessCertification/AccessCertificationCampaign/Create" />  <Entry Permission="/AccessCertification/AccessCertificationCampaign/Update" /></AccessControlRule>
+<AccessControlRule Profile="Administrator" EntityType="Dimension0" Identifier="Administrator_AccessCertificationCampaign_Dimension0" DisplayName_L1="Administrator_AccessCertificationCampaigns"> <Entry Permission="/AccessCertification/AccessCertificationCampaign/Create" /> <Entry Permission="/AccessCertification/AccessCertificationCampaign/Update" /></AccessControlRule>
 ```
 
 ### Profile scope of responsibility
@@ -95,7 +95,7 @@ script in the command line.
 <AccessControlRule Identifier="Manager_AccessCertificationItem_Custom_AccessCertification_AutoAssign_Directory_User"
   DisplayName_L1="Organization Manager - Access certification auto assign"
   EntityType="AccessCertificationItem"
-  Profile="Manager">    <Filter Binding="Owner.Directory_User:MainRecord.Organization.Id" Dimension="Organization0" />    ...
+  Profile="Manager"> <Filter Binding="Owner.Directory_User:MainRecord.Organization.Id" Dimension="Organization0" /> ...
 </AccessControlRule>
 ```
 
@@ -131,10 +131,10 @@ Code attributes enclosed with `<>` need to be replaced with a custom value befor
 script in the command line.
 
 ```
-<AccessControlRule      Identifier="Manager_AccessCertificationItem_Custom_AccessCertification_AutoAssign_Directory_User"
+<AccessControlRule Identifier="Manager_AccessCertificationItem_Custom_AccessCertification_AutoAssign_Directory_User"
   DisplayName_L1="Organization Manager - Access certification auto assign"
   EntityType="AccessCertificationItem"
-  Profile="Manager">    <Filter Binding="Owner.Directory_User:MainRecord.Organization.Id" Dimension="Organization0" />    <Entry CanExecute="true" Permission="/Custom/AccessCertification/AutoAssigned/Directory_User" /></AccessControlRule>
+  Profile="Manager"> <Filter Binding="Owner.Directory_User:MainRecord.Organization.Id" Dimension="Organization0" /> <Entry CanExecute="true" Permission="/Custom/AccessCertification/AutoAssigned/Directory_User" /></AccessControlRule>
 ```
 
 This example enables automatic assignments of access certification items that match the filter to
@@ -156,7 +156,7 @@ Code attributes enclosed with `<>` need to be replaced with a custom value befor
 script in the command line.
 
 ```
-<AccessControlRule Identifier="Manager_AccessCertificationItem_Custom_AccessCertification_ManualAssign_Directory_User" DisplayName_L1="User - Access certification manual assign" EntityType="AccessCertificationItem" Profile="Manager">    <Entry CanExecute="true" Permission="/Custom/AccessCertification/ManualAssigned/Directory_User" />  </AccessControlRule>
+<AccessControlRule Identifier="Manager_AccessCertificationItem_Custom_AccessCertification_ManualAssign_Directory_User" DisplayName_L1="User - Access certification manual assign" EntityType="AccessCertificationItem" Profile="Manager"> <Entry CanExecute="true" Permission="/Custom/AccessCertification/ManualAssigned/Directory_User" /> </AccessControlRule>
 ```
 
 There is no filter so the Manager profile can certify all forwarded certification orders for the
@@ -202,7 +202,7 @@ script in the command line.
   Identifier="Manager_AccessCertificationItem_Custom_AccessCertification_AutoAssign_Directory_User"
   DisplayName_L1="Organization Manager - Access certification auto assign"
   EntityType="AccessCertificationItem"
-  Profile="Manager">    <Filter Binding="Owner.Directory_User:MainRecord.Organization.Id" Dimension="Organization0" />    <Filter Binding="Campaign.Policy.Identifier" Value="Manager"/>    <Entry CanExecute="true" Permission="/Custom/AccessCertification/AutoAssigned/Directory_User" /></AccessControlRule>
+  Profile="Manager"> <Filter Binding="Owner.Directory_User:MainRecord.Organization.Id" Dimension="Organization0" /> <Filter Binding="Campaign.Policy.Identifier" Value="Manager"/> <Entry CanExecute="true" Permission="/Custom/AccessCertification/AutoAssigned/Directory_User" /></AccessControlRule>
 ```
 
 In this example, the **Manager** profile is only able to certify items for a campaign defined with
@@ -223,7 +223,7 @@ Code attributes enclosed with `<>` need to be replaced with a custom value befor
 script in the command line.
 
 ```
-<AccessControlRule Profile="Administrator" EntityType="AccessCertificationCampaign" Identifier="Administrator_AccessCertificationCampaign_Process" DisplayName_L1="Administrator_AccessCertificationCampaigns">  <Entry Permission="/AccessCertification/AccessCertificationCampaign/Process" /></AccessControlRule>
+<AccessControlRule Profile="Administrator" EntityType="AccessCertificationCampaign" Identifier="Administrator_AccessCertificationCampaign_Process" DisplayName_L1="Administrator_AccessCertificationCampaigns"> <Entry Permission="/AccessCertification/AccessCertificationCampaign/Process" /></AccessControlRule>
 ```
 
 It is also possible to add access control filters when creating the permission set so that users can

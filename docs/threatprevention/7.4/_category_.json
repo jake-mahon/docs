@@ -1,6 +1,7 @@
 {
-  "label": "Version 7.4",
+  "label": "Threat Prevention",
   "customProps": {
+    "product_name": "Threat Prevention",
     "product_version": "7.4"
   }
 }

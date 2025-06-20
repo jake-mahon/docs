@@ -1,7 +1,7 @@
 # Reports
 
 Netwrix Auditor provides a variety of reports for each data source. This helps you keep track of all
-changes in your IT infrastructure and validate compliance with various standards and regulations
+changes in your IT infrastructure and validate compliance with various standards and regulations
 (FISMA, HIPAA, PCI, SOX, etc.). You can also create your custom reports based on the Interactive
 Search technology.
 

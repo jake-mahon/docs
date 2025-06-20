@@ -155,7 +155,7 @@ How to manage several network environments.
 
 Every setting value can be overwritten to fit a specific environment.
 
-The environment within which Identity Manager runs is set by the system environment variable
+The environment within which Identity Manager runs is set by the system environment variable
 ASPNETCORE_ENVIRONMENT. The default value is Production. Usual examples include Development,
 Staging, and Production.
 
@@ -254,7 +254,7 @@ content of the corresponding HTML file depending on the currently selected langu
 
 ```
 
-    <CustomLink1Setting Url="/LegalNotice" Path_L1="LegalNotice_en.html" Path_L2="LegalNotice_fr.html" />    <CustomLink2Setting Url="/TermsOfService" Path_L1="TermsOfService_en.html" Path_L2="TermsOfService_fr.html" />
+    <CustomLink1Setting Url="/LegalNotice" Path_L1="LegalNotice_en.html" Path_L2="LegalNotice_fr.html" /> <CustomLink2Setting Url="/TermsOfService" Path_L1="TermsOfService_en.html" Path_L2="TermsOfService_fr.html" />
 
 ```
 
@@ -275,7 +275,7 @@ to navigate to the defined URI addresses.
 
 ```
 
-    <MenuItem Identifier="UserMenu_CustomLink1" DisplayName_L1="Legal Notice" DisplayName_L2="Mentions l�gales" IconCode="List" URI="/LegalNotice" ParentMenuItem="UserMenu" />    <MenuItem Identifier="UserMenu_CustomLink2" DisplayName_L1="Terms of Service" DisplayName_L2="Conditions d'utilisation" IconCode="List" URI="/TermsOfService" ParentMenuItem="UserMenu" />
+    <MenuItem Identifier="UserMenu_CustomLink1" DisplayName_L1="Legal Notice" DisplayName_L2="Mentions l�gales" IconCode="List" URI="/LegalNotice" ParentMenuItem="UserMenu" /> <MenuItem Identifier="UserMenu_CustomLink2" DisplayName_L1="Terms of Service" DisplayName_L2="Conditions d'utilisation" IconCode="List" URI="/TermsOfService" ParentMenuItem="UserMenu" />
 
 ```
 
@@ -316,7 +316,7 @@ The max number of links to display is 5.
 
 _This attribute matches an end-user with a resource from the unified resource repository._
 
-Authorization mechanisms within Identity Manager rely on assigning
+Authorization mechanisms within Identity Manager rely on assigning
 [ Profiles ](/docs/identitymanager/saas/configuration/xml-configuration/scaffoldings.md)
 to an identity-resource that stands for the end-user digital identity.
 

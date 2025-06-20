@@ -1,6 +1,7 @@
 {
-  "label": "Version 4.2",
+  "label": "Privilege Secure",
   "customProps": {
+    "product_name": "Privilege Secure",
     "product_version": "4.2"
   }
 }

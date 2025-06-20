@@ -57,11 +57,11 @@ Protect agent/server communication by proceeding as follows:
    > appsettings.json
    >
    > {
-   >   "IdentityServer": {
-   >       "X509KeyFilePath": "./Usercube.pfx",
-   >       "X509KeyFilePassword": "secret"
-   >   },
-   >   ...
+   > "IdentityServer": {
+   > "X509KeyFilePath": "./Usercube.pfx",
+   > "X509KeyFilePassword": "secret"
+   > },
+   > ...
    > }
    >
    > ```
@@ -77,12 +77,12 @@ Protect agent/server communication by proceeding as follows:
    > appsettings.json
    >
    > {
-   >   "EncryptionCertificate": {
-   >       "File": "./identitymanager-Files.pfx",
-   >       "Password": "secret",
-   >       "EncryptFile": true
-   >   },
-   >   ...
+   > "EncryptionCertificate": {
+   > "File": "./identitymanager-Files.pfx",
+   > "Password": "secret",
+   > "EncryptFile": true
+   > },
+   > ...
    > }
    >
    > ```
@@ -101,13 +101,13 @@ Protect agent/server communication by proceeding as follows:
    > appsettings.agent.json
    >
    > {
-   >   "OpenId": {
-   >       "OpenIdClients": {
-   >           "Job": "newSecret"
-   >       },
-   >       ...
-   >   }
-   >   ...
+   > "OpenId": {
+   > "OpenIdClients": {
+   > "Job": "newSecret"
+   > },
+   > ...
+   > }
+   > ...
    > }
    >
    > ```

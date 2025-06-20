@@ -32,7 +32,7 @@ The following example creates a task ```UpdateClassification``` to be used in th
 
                     ```
 
-<UpdateClassificationTask Identifier="UpdateClassification" DisplayName_L1="AD - Users Classification">  <TaskEntityType EntityType="AD_Entry"/></UpdateClassificationTask><Job Identifier="AD_Synchronization_Delta" DisplayName_L1="10: AD - Synchronization (delta)" Agent="Local">  ...
+<UpdateClassificationTask Identifier="UpdateClassification" DisplayName_L1="AD - Users Classification"> <TaskEntityType EntityType="AD_Entry"/></UpdateClassificationTask><Job Identifier="AD_Synchronization_Delta" DisplayName_L1="10: AD - Synchronization (delta)" Agent="Local"> ...
   <UpdateClassificationTaskOverride Identifier="UpdateClassification" Dirty="1">
 </Job>
 
@@ -62,7 +62,7 @@ The following example shows a typical configuration of the complete job.
 
                     ```
 
-<Job Identifier="SynchroAllConnectorComplete" DisplayName_L1="Synchronization Daily (Complete Mode)" Agent="Local">  <Step Identifier="ExportADWithIgnoreCookie"/>  <Step Identifier="AD_PrepareSynchronizationComplete"/>  <Step Identifier="AD_Synchronization"/>  <Step Identifier="Export_MicrosoftEntraIDWithIgnoreCookie"/>  <Step Identifier="MicrosoftEntraID_PrepareSynchronization"/>  <Step Identifier="MicrosoftEntraID_Synchronization"/>  <Step Identifier="Export_LDAPEntry"/>  <Step Identifier="Export_LDAPMember"/>  <Step Identifier="LDAP_PrepareSynchronization"/>  <Step Identifier="LDAP_Synchronization"/>  <Step Identifier="SAB_PrepareSynchronization"/>  <Step Identifier="SAB_Synchronization"/>  <Step Identifier="HR_PrepareSynchronization"/>  <Step Identifier="HR_Synchronization"/>  <Step Identifier="Directory_PrepareSynchronizationChange"/>  <Step Identifier="Directory_SynchronizationChange"/>  <Step Identifier="Job_Recertification_Start"/>  <Step Identifier="Recertification_MarkDirty"/>  <Step Identifier="ComputeRoleModelSynchroDaily"/>  <Step Identifier="LDAP_Provisioning"/>  <Step Identifier="MicrosoftEntraID_Provisioning"/>  <Step Identifier="AD_Fulfill"/>  <Step Identifier="LDAP_Fulfill"/>  <Step Identifier="MicrosoftEntraID_Fulfill"/>  <Step Identifier="AD_Fulfill"/>  <Step Identifier="Fulfill_Workflow_Directory"/>  <Step Identifier="All_ComputeAllAssignedProfiles"/></Job>
+<Job Identifier="SynchroAllConnectorComplete" DisplayName_L1="Synchronization Daily (Complete Mode)" Agent="Local"> <Step Identifier="ExportADWithIgnoreCookie"/> <Step Identifier="AD_PrepareSynchronizationComplete"/> <Step Identifier="AD_Synchronization"/> <Step Identifier="Export_MicrosoftEntraIDWithIgnoreCookie"/> <Step Identifier="MicrosoftEntraID_PrepareSynchronization"/> <Step Identifier="MicrosoftEntraID_Synchronization"/> <Step Identifier="Export_LDAPEntry"/> <Step Identifier="Export_LDAPMember"/> <Step Identifier="LDAP_PrepareSynchronization"/> <Step Identifier="LDAP_Synchronization"/> <Step Identifier="SAB_PrepareSynchronization"/> <Step Identifier="SAB_Synchronization"/> <Step Identifier="HR_PrepareSynchronization"/> <Step Identifier="HR_Synchronization"/> <Step Identifier="Directory_PrepareSynchronizationChange"/> <Step Identifier="Directory_SynchronizationChange"/> <Step Identifier="Job_Recertification_Start"/> <Step Identifier="Recertification_MarkDirty"/> <Step Identifier="ComputeRoleModelSynchroDaily"/> <Step Identifier="LDAP_Provisioning"/> <Step Identifier="MicrosoftEntraID_Provisioning"/> <Step Identifier="AD_Fulfill"/> <Step Identifier="LDAP_Fulfill"/> <Step Identifier="MicrosoftEntraID_Fulfill"/> <Step Identifier="AD_Fulfill"/> <Step Identifier="Fulfill_Workflow_Directory"/> <Step Identifier="All_ComputeAllAssignedProfiles"/></Job>
 
 ````
 
@@ -103,6 +103,6 @@ The basic example of a job is equivalent to the following:
 
 | Property | Details |
 | --- | --- |
-| Level   default value: -1 | __Type__    Int32   __Description__   Grouping level of the tasks within the job. When executing a job, Identity Manager will launch simultaneously the tasks of a same ```Level```. Level-2 tasks are not launched before all level-1 tasks are achieved. |
-| Task   required | __Type__    Int64   __Description__   Id of the task |
+| Level default value: -1 | __Type__ Int32 __Description__ Grouping level of the tasks within the job. When executing a job, Identity Manager will launch simultaneously the tasks of a same ```Level```. Level-2 tasks are not launched before all level-1 tasks are achieved. |
+| Task required | __Type__ Int64 __Description__ Id of the task |
 ````

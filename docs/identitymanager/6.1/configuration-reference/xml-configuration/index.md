@@ -75,7 +75,7 @@ Such a dimension must be declared as a hierarchical dimension by specifying the 
 ```
 
 <Dimension Identifier="Organization0" DisplayName_L1="Department" EntityType="Directory_Organization" ColumnMapping="0" IsHierarchical="true" ParentProperty="Parent" /><EntityType Identifier="Directory_Organization" DisplayName_L1="Department">...
-	<Property Identifier="Path" DisplayName_L1="Path" Type="String" TargetColumnIndex="6" />	<Property Identifier="Parent" DisplayName_L1="Parent Department" Type="ForeignKey" TargetColumnIndex="128" />...
+	<Property Identifier="Path" DisplayName_L1="Path" Type="String" TargetColumnIndex="6" /> <Property Identifier="Parent" DisplayName_L1="Parent Department" Type="ForeignKey" TargetColumnIndex="128" />...
 </EntityType>
 
 ```
@@ -200,7 +200,7 @@ For example, the _Code_ property of the _Title_ entity type is marked as a key.
 
 ```
 
-<EntityType Identifier="Title" DisplayName_L1="Title">    <Property Identifier="Code" Type="String" IsKey="true" TargetColumnIndex="4" />    ...
+<EntityType Identifier="Title" DisplayName_L1="Title"> <Property Identifier="Code" Type="String" IsKey="true" TargetColumnIndex="4" /> ...
 </EntityType>
 
 ```
@@ -677,7 +677,7 @@ script in the command line.
 ```
 
     This rule approves all the assignments of the "FCT0070" composite role, which are waiting for the first of two required approvals for more than one hour:
-    <AutomationRule Type="CompositeRole" CompositeRole="FCT0070" WorkflowState="PendingApproval1" HoursToWait="1"  Decision="Approve"/>
+    <AutomationRule Type="CompositeRole" CompositeRole="FCT0070" WorkflowState="PendingApproval1" HoursToWait="1" Decision="Approve"/>
     This rule approves all the assignments of the "FCT0070" composite role, which are waiting for the second of two required approvals for more than one hour:
     <CompositeRoleAutomationRule CompositeRole="FCT0070" WorkflowState="PendingApproval2" HoursToWait="1" Decision="Approve"/>
     This rule approves all the assignments of the "BO028" single role, which are waiting for their required approval for more than one hour:
@@ -799,7 +799,7 @@ The following example declares a new rule to give the composite role "HR_Account
 
 ```
 
-    <CompositeRoleRule Role="HR_Accounting" D1="FCT0008" Policy="Default" />    <CompositeRoleRule Role="HR_Accounting" D1="FCT0008" Type="Suggested" Policy="Default" />
+    <CompositeRoleRule Role="HR_Accounting" D1="FCT0008" Policy="Default" /> <CompositeRoleRule Role="HR_Accounting" D1="FCT0008" Type="Suggested" Policy="Default" />
 
 ```
 
@@ -1108,7 +1108,7 @@ still with no linked single role rules.
 
   ```
 
-    <MiningRule EntityType="Directory_User" RulePolicy="Mining" Policy="Default" IncludeNoValidation="false" IncludeSimpleValidation="false" FalsePositiveMaxPercentage="0.03"  PrecisionMinPercentage="97.0" RuleType="0" Priority="10" />
+    <MiningRule EntityType="Directory_User" RulePolicy="Mining" Policy="Default" IncludeNoValidation="false" IncludeSimpleValidation="false" FalsePositiveMaxPercentage="0.03" PrecisionMinPercentage="97.0" RuleType="0" Priority="10" />
 
   ```
 
@@ -1242,11 +1242,11 @@ Default section:
 
 Contract section:
 <RecordSection Identifier="Directory_UserRecord_Contract" DisplayName_L1="Contract Properties" SourceEntityType="Directory_User" ResourceEntityType="Directory_UserRecord" StartProperty="ContractStartDate" EndProperty="ContractEndDate"> ...
-  <Property Property="UserType"/>  <Property Property="ExternalCompany"/>  <Property Property="Subsidiary"/></RecordSection>
+  <Property Property="UserType"/> <Property Property="ExternalCompany"/> <Property Property="Subsidiary"/></RecordSection>
 
 Position section:
 <RecordSection Identifier="Directory_UserRecord_Position" DisplayName_L1="Position Properties" SourceEntityType="Directory_User" ResourceEntityType="Directory_UserRecord" StartProperty="PositionStartDate" EndProperty="PositionEndDate"> ...
-  <Property Property="PositionIdentifier" />  <Property Property="JobTitle" />  <Property Property="OfficeNumber" />  <Property Property="Organization" />  <Property Property="Site"/>  <Property Property="Title" />  <Property Property="Office" />  <Property Property="Manager" />  <Property Property="IGAManager" />  <Property Property="EffectiveIGAManager" />  <Property Property="IsMainPosition" /></RecordSection>
+  <Property Property="PositionIdentifier" /> <Property Property="JobTitle" /> <Property Property="OfficeNumber" /> <Property Property="Organization" /> <Property Property="Site"/> <Property Property="Title" /> <Property Property="Office" /> <Property Property="Manager" /> <Property Property="IGAManager" /> <Property Property="EffectiveIGAManager" /> <Property Property="IsMainPosition" /></RecordSection>
 ```
 
 ### InstanceKeyExpression
@@ -1260,11 +1260,11 @@ Default section:
 <RecordSection Identifier="Directory_UserRecord_Default" DisplayName_L1="User Properties" SourceEntityType="Directory_User" ResourceEntityType="Directory_UserRecord" StartProperty="StartDate" EndProperty="EndDate" InstanceKeyExpression="C#:record:return record.StartDate.HasValue ? record.StartDate.Value.ToString("yyyyMMdd") : string.Empty;"></RecordSection>
 
 Contract section:
-<RecordSection Identifier="Directory_UserRecord_Contract" DisplayName_L1="Contract Properties" SourceEntityType="Directory_User" ResourceEntityType="Directory_UserRecord" StartProperty="ContractStartDate" EndProperty="ContractEndDate" InstanceKeyExpression="C#:record:return record.ContractIdentifier;">  <Property Property="UserType"/>  ...
+<RecordSection Identifier="Directory_UserRecord_Contract" DisplayName_L1="Contract Properties" SourceEntityType="Directory_User" ResourceEntityType="Directory_UserRecord" StartProperty="ContractStartDate" EndProperty="ContractEndDate" InstanceKeyExpression="C#:record:return record.ContractIdentifier;"> <Property Property="UserType"/> ...
 </RecordSection>
 
 Position section:
-<RecordSection Identifier="Directory_UserRecord_Position" DisplayName_L1="Position Properties" SourceEntityType="Directory_User" ResourceEntityType="Directory_UserRecord" StartProperty="PositionStartDate" EndProperty="PositionEndDate" InstanceKeyExpression="C#:record:return record.PositionIdentifier;">  <Property Property="PositionIdentifier" />  ...
+<RecordSection Identifier="Directory_UserRecord_Position" DisplayName_L1="Position Properties" SourceEntityType="Directory_User" ResourceEntityType="Directory_UserRecord" StartProperty="PositionStartDate" EndProperty="PositionEndDate" InstanceKeyExpression="C#:record:return record.PositionIdentifier;"> <Property Property="PositionIdentifier" /> ...
 </RecordSection>
 ```
 
@@ -1285,7 +1285,7 @@ end dates of their contracts.
 ```
 
 Contract section:
-<RecordSection Identifier="Directory_UserRecord_Contract" DisplayName_L1="Contract Properties" SourceEntityType="Directory_User" ResourceEntityType="Directory_UserRecord" StartProperty="ContractStartDate" EndProperty="ContractEndDate" IsDefaultBoundariesSection="true">  <Property Property="UserType"/>  ...
+<RecordSection Identifier="Directory_UserRecord_Contract" DisplayName_L1="Contract Properties" SourceEntityType="Directory_User" ResourceEntityType="Directory_UserRecord" StartProperty="ContractStartDate" EndProperty="ContractEndDate" IsDefaultBoundariesSection="true"> <Property Property="UserType"/> ...
 </RecordSection>
 
 ```
@@ -1313,11 +1313,11 @@ The position section uses `ExtensionKind` set to `None` to block the extension m
 ```
 
 Contract section:
-<RecordSection Identifier="Directory_UserRecord_Contract" DisplayName_L1="Contract Properties" SourceEntityType="Directory_User" ResourceEntityType="Directory_UserRecord" StartProperty="ContractStartDate" EndProperty="ContractEndDate" SortKeyExpression="C#:record:return record.Main.GetValueOrDefault() && record.UserType.Id == -018 ? "C" : (!record.Main.GetValueOrDefault() && record.UserType.Id == -018 ? "B" : "A");" ExtendedSortKey="C">  <Property Property="UserType"/>  ...
+<RecordSection Identifier="Directory_UserRecord_Contract" DisplayName_L1="Contract Properties" SourceEntityType="Directory_User" ResourceEntityType="Directory_UserRecord" StartProperty="ContractStartDate" EndProperty="ContractEndDate" SortKeyExpression="C#:record:return record.Main.GetValueOrDefault() && record.UserType.Id == -018 ? "C" : (!record.Main.GetValueOrDefault() && record.UserType.Id == -018 ? "B" : "A");" ExtendedSortKey="C"> <Property Property="UserType"/> ...
 </RecordSection>
 
 Position section:
-<RecordSection Identifier="Directory_UserRecord_Position" DisplayName_L1="Position Properties" SourceEntityType="Directory_User" ResourceEntityType="Directory_UserRecord" StartProperty="PositionStartDate" EndProperty="PositionEndDate" ExtensionKind="None">  <Property Property="PositionIdentifier" />  ...
+<RecordSection Identifier="Directory_UserRecord_Position" DisplayName_L1="Position Properties" SourceEntityType="Directory_User" ResourceEntityType="Directory_UserRecord" StartProperty="PositionStartDate" EndProperty="PositionEndDate" ExtensionKind="None"> <Property Property="PositionIdentifier" /> ...
 </RecordSection>
 
 ```
@@ -1364,7 +1364,7 @@ Default section:
 
 Position section:
 <RecordSection Identifier="Directory_UserRecord_Position" DisplayName_L1="Position Properties" SourceEntityType="Directory_User" ResourceEntityType="Directory_UserRecord" StartProperty="StartDate" EndProperty="EndDate">
-    <Property Property="Organization" ExtensionKind="None" />    <Property Property="Location"/>    <Property Property="Title" ExtensionKind="None" />
+    <Property Property="Organization" ExtensionKind="None" /> <Property Property="Location"/> <Property Property="Title" ExtensionKind="None" />
 </RecordSection>
 
 ```
@@ -1536,12 +1536,12 @@ if ((provisioningOrder == null) || (provisioningOrder.ChangeType.IsNone() {
   return null;
 }
 var arguments = new System.Collections.Generic.Dictionary<string, string>();
-if (provisioningOrder.TryGetScalar("EmployeeId", out var employeeId) && (employeeId != null)) {  
+if (provisioningOrder.TryGetScalar("EmployeeId", out var employeeId) && (employeeId != null)) {
   var resources = queryHandler.Select<Directory_UserRecord>("Select Id Where EmployeeId="\" + employeeId.ToString() + "\"");
   if (resources.Any()) {
     arguments.Add("ResourceIdToCopy", resources.FirstOrDefault().Id.ToString());
   }
-}  
+}
 return arguments;" />
 ```
 
@@ -1758,8 +1758,8 @@ Code attributes enclosed with `<>` need to be replaced with a custom value befor
 script in the command line.
 
 ```
-    <ResourceType Identifier="AD_Entry_To_Directory_User" ...>    ...
-    <BinaryRule Property="Photo" Binding="thumbnailPhoto" />  </ResourceType>
+    <ResourceType Identifier="AD_Entry_To_Directory_User" ...> ...
+    <BinaryRule Property="Photo" Binding="thumbnailPhoto" /> </ResourceType>
 ```
 
 ### Properties
@@ -1769,7 +1769,7 @@ script in the command line.
 | Binding optional                           | Int64               | Defines the binding expression to get the file property.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
 | Policy required                            | Int64               | Identifier of the policy that the rule is part of.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
 | Property required                          | Int64               | Identifier of the property used to represent the file on the target EntityType.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
-| SingleRole optional                        | Int64               | Identifier of the single role. The single role must be assigned to the owner so that the file can be provisioned on the resource. See the [ SingleRole ](/docs/identitymanager/6.1/configuration-reference/xml-configuration/index.md) topic for additional information.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
+| SingleRole optional                        | Int64               | Identifier of the single role. The single role must be assigned to the owner so that the file can be provisioned on the resource. See the [ SingleRole ](/docs/identitymanager/6.1/configuration-reference/xml-configuration/index.md) topic for additional information.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
 | TimeOffsetAfterReference default value: 0  | Int32               | Defines the offset after reference (in minutes).                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
 | TimeOffsetBeforeReference default value: 0 | Int32               | Defines the offset before reference (in minutes).                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
 | TimeOffsetReference default value: 0       | TimeOffsetReference | Offset mode defining which dates to use as references, in order to apply the time offset. The time period for which the rule is applied is adjusted accordingly. 0 - Default: the offset inherited from the type rule. 1 - Around: the offset before reference is applied from the start date of the resource, and the offset after reference is applied from the end date. 2 - Before: the offset before and after reference are both applied from the start date of the resource. 3 - After: the offset before and after reference are both applied from the end date of the resource. in a situation with several binary rules, the order of application is: After, then Before, then Around, then Default. Each rule is able to overwrite those previously applied in case they overlap. two offsets of the same mode should never overlap. Resources' start and end dates can be configured through record sections and/or context rules. |
@@ -1813,7 +1813,7 @@ Code attributes enclosed with `<>` need to be replaced with a custom value befor
 script in the command line.
 
 ```
-<ResourceType Identifier="AD_Entry_NominativeUser">    ...
+<ResourceType Identifier="AD_Entry_NominativeUser"> ...
     <NavigationRule Property="memberOf" Resource="CN=SG_APP_DL-INTERNET-Restricted,OU=Applications,DC=acme,DC=internal" SingleRole="DL-INTERNET-Restricted" />
 </ResourceType>
 ```
@@ -1841,7 +1841,7 @@ Code attributes enclosed with `<>` need to be replaced with a custom value befor
 script in the command line.
 
 ```
-<SingleRole Identifier="Access/A_Brune_HR" DisplayName_L1="Zone - Brune - HR" DisplayName_L2="Zone - Brune - RH" Category="Access" ApprovalWorkflowType="One" EntityType="Directory_User" Policy="Default" RA="1" /><ResourceType ... >    <NavigationRule Property="TimeSlot" Resource="TS_5/7_8/24" SingleRole="Access/A_Brune_HR" DA="TS_5/7_8/24" />    <NavigationRule Property="TimeSlot" Resource="TS_5/7_12/24" SingleRole="Access/A_Brune_HR" DA="TS_5/7_12/24" />    <NavigationRule Property="TimeSlot" Resource="TS_7/7_24/24" SingleRole="Access/A_Brune_HR" DA="TS_7/7_24/24" /></ResourceType>
+<SingleRole Identifier="Access/A_Brune_HR" DisplayName_L1="Zone - Brune - HR" DisplayName_L2="Zone - Brune - RH" Category="Access" ApprovalWorkflowType="One" EntityType="Directory_User" Policy="Default" RA="1" /><ResourceType ... > <NavigationRule Property="TimeSlot" Resource="TS_5/7_8/24" SingleRole="Access/A_Brune_HR" DA="TS_5/7_8/24" /> <NavigationRule Property="TimeSlot" Resource="TS_5/7_12/24" SingleRole="Access/A_Brune_HR" DA="TS_5/7_12/24" /> <NavigationRule Property="TimeSlot" Resource="TS_7/7_24/24" SingleRole="Access/A_Brune_HR" DA="TS_7/7_24/24" /></ResourceType>
 ```
 
 ### Properties
@@ -1889,7 +1889,7 @@ Code attributes enclosed with `<>` need to be replaced with a custom value befor
 script in the command line.
 
 ```
-<ResourceType Identifier="AD_Entry_Guest">    ...
+<ResourceType Identifier="AD_Entry_Guest"> ...
     <QueryRule Property="parentdn" Policy="Default" TargetBinding="AD_Entry:dn" SourceExpression="C#:resource:return "OU=Guests,DC=acme,DC=internal";" TargetMatchedConfidenceLevel="100" />
 </ResourceType>
 ```
@@ -1932,8 +1932,8 @@ Code attributes enclosed with `<>` need to be replaced with a custom value befor
 script in the command line.
 
 ```
-<ResourceType Policy="Default" Identifier="App1_Standard_Account" TargetEntityType="App1_Account" SourceEntityType="Bot">    ...
-    <ScalarRule Property="Mail" Binding="AD_Entry:mail" Policy="Default" />  
+<ResourceType Policy="Default" Identifier="App1_Standard_Account" TargetEntityType="App1_Account" SourceEntityType="Bot"> ...
+    <ScalarRule Property="Mail" Binding="AD_Entry:mail" Policy="Default" />
     <ScalarRule Property="accountExpires" Expression="C#:person:return !person.EndDate.HasValue ? null : person.EndDate.Value.ToSince1601DateString();" />
 </ResourceType>
 ```
@@ -1945,7 +1945,7 @@ Code attributes enclosed with `<>` need to be replaced with a custom value befor
 script in the command line.
 
 ```
-<ResourceType Policy="Default" Identifier="App1_Standard_Account" TargetEntityType="App1_Account" SourceEntityType="User">    ...
+<ResourceType Policy="Default" Identifier="App1_Standard_Account" TargetEntityType="App1_Account" SourceEntityType="User"> ...
     <ScalarRule Property="firstName" Binding="User:FirstName" />
 </ResourceType>
 ```
@@ -1961,7 +1961,7 @@ Code attributes enclosed with `<>` need to be replaced with a custom value befor
 script in the command line.
 
 ```
-<ResourceType Policy="Default" Identifier="App1_Standard_Account" TargetEntityType="App1_Account" SourceEntityType="Bot">    ...
+<ResourceType Policy="Default" Identifier="App1_Standard_Account" TargetEntityType="App1_Account" SourceEntityType="Bot"> ...
     <ScalarRule Property="userAccountControl" Expression="Literal:66048" />
 </ResourceType>
 ```
@@ -2030,7 +2030,7 @@ Code attributes enclosed with `<>` need to be replaced with a custom value befor
 script in the command line.
 
 ```
-<ResourceType Identifier="AD_Entry_NominativeUser" Policy="Default" TargetEntityType="AD_Entry" Category="Accounts" SourceEntityType="Directory_User" ApprovalWorkflowType="None">    <ScalarRule Property="accountEnabled" Expression="C#:person:return &quot;false&quot;;" TimeOffsetReference="Before" TimeOffsetBeforeReference="-43200" TimeOffsetAfterReference="0" />    <ScalarRule Property="accountEnabled" Expression="C#:person:return person.Leave.GetValueOrDefault() ? &quot;false&quot; : &quot;true&quot;;" TimeOffsetReference="Around" TimeOffsetBeforeReference="0" TimeOffsetAfterReference="0" />    <ScalarRule Property="accountEnabled" Expression="C#:person:return &quot;false&quot;;" TimeOffsetReference="After" TimeOffsetBeforeReference="0" TimeOffsetAfterReference="259200" />    ...
+<ResourceType Identifier="AD_Entry_NominativeUser" Policy="Default" TargetEntityType="AD_Entry" Category="Accounts" SourceEntityType="Directory_User" ApprovalWorkflowType="None"> <ScalarRule Property="accountEnabled" Expression="C#:person:return &quot;false&quot;;" TimeOffsetReference="Before" TimeOffsetBeforeReference="-43200" TimeOffsetAfterReference="0" /> <ScalarRule Property="accountEnabled" Expression="C#:person:return person.Leave.GetValueOrDefault() ? &quot;false&quot; : &quot;true&quot;;" TimeOffsetReference="Around" TimeOffsetBeforeReference="0" TimeOffsetAfterReference="0" /> <ScalarRule Property="accountEnabled" Expression="C#:person:return &quot;false&quot;;" TimeOffsetReference="After" TimeOffsetBeforeReference="0" TimeOffsetAfterReference="259200" /> ...
 </ResourceType>
 ```
 
@@ -2197,7 +2197,7 @@ characters.
 
 ```
 
-<RoleMapping Identifier="AD_dn" Policy="Default" Property="AD_Entry:memberOf" ResourceType="AD_Entry_NominativeUser" WhereExpression="C#:resource:return resource.dn?.Split('_')[1].Length == 3;" >    <Rule>        <Item Property="AD_Entry:dn" Operator="StartWith" Value="SG_"/>    </Rule></RoleMapping>
+<RoleMapping Identifier="AD_dn" Policy="Default" Property="AD_Entry:memberOf" ResourceType="AD_Entry_NominativeUser" WhereExpression="C#:resource:return resource.dn?.Split('_')[1].Length == 3;" > <Rule> <Item Property="AD_Entry:dn" Operator="StartWith" Value="SG_"/> </Rule></RoleMapping>
 
 ```
 
@@ -2294,7 +2294,7 @@ navigation rule per entitlement, using the dimension as a required parameter.
 
 ```
 
-<SingleRole Identifier="Access/A_Brune_HR" DisplayName_L1="Zone - Brune - HR" DisplayName_L2="Zone - Brune - RH" Category="Access" ApprovalWorkflowType="One" EntityType="Directory_User" Policy="Default" RA="1" /><ResourceType ... >    <NavigationRule Property="TimeSlot" Resource="TS_5/7_8/24" SingleRole="Access/A_Brune_HR" DA="TS_5/7_8/24" />    <NavigationRule Property="TimeSlot" Resource="TS_5/7_12/24" SingleRole="Access/A_Brune_HR" DA="TS_5/7_12/24" />    <NavigationRule Property="TimeSlot" Resource="TS_7/7_24/24" SingleRole="Access/A_Brune_HR" DA="TS_7/7_24/24" /></ResourceType>
+<SingleRole Identifier="Access/A_Brune_HR" DisplayName_L1="Zone - Brune - HR" DisplayName_L2="Zone - Brune - RH" Category="Access" ApprovalWorkflowType="One" EntityType="Directory_User" Policy="Default" RA="1" /><ResourceType ... > <NavigationRule Property="TimeSlot" Resource="TS_5/7_8/24" SingleRole="Access/A_Brune_HR" DA="TS_5/7_8/24" /> <NavigationRule Property="TimeSlot" Resource="TS_5/7_12/24" SingleRole="Access/A_Brune_HR" DA="TS_5/7_12/24" /> <NavigationRule Property="TimeSlot" Resource="TS_7/7_24/24" SingleRole="Access/A_Brune_HR" DA="TS_7/7_24/24" /></ResourceType>
 
 ```
 
@@ -2333,7 +2333,7 @@ The following example declares a new rule to give the single role to all the "FC
 
 ```
 
-    <SingleRoleRule Role="DL-INTERNET-ALL" D1="FCT0000" Policy="Default" />    <SingleRoleRule Role="DL-INTERNET-ALL" D1="FCT0000" Type="Suggested" Policy="Default" />
+    <SingleRoleRule Role="DL-INTERNET-ALL" D1="FCT0000" Policy="Default" /> <SingleRoleRule Role="DL-INTERNET-ALL" D1="FCT0000" Type="Suggested" Policy="Default" />
 
 ```
 
@@ -2363,7 +2363,7 @@ ReportQuery it is recommended to also create the linked
 
 ```
 
-  <ReportQuery Identifier="SingleRoles" ReturnedEntityType="SingleRole" Query="select Identifier, DisplayName" DisplayName_L1="Single Roles" />  <ReportQuery Identifier="ResourceTypes" ReturnedEntityType="ResourceType" Query="select Identifier, DisplayName" DisplayName_L1="Resource Types" />  <ReportQuery Identifier="PersonRecords" ReturnedEntityType="PersonRecord" Query="join Person Person join PersonalTitle PersonalTitle join EmployeeType EmployeeType select InternalDisplayName, PersonalTitle.DisplayName, LastName, FirstName, DisplayedCR, Login, DisplayedFonction, DisplayedEDS, EmployeeType.DisplayName, EmployeeType.Category" DisplayName_L1="Users" />
+  <ReportQuery Identifier="SingleRoles" ReturnedEntityType="SingleRole" Query="select Identifier, DisplayName" DisplayName_L1="Single Roles" /> <ReportQuery Identifier="ResourceTypes" ReturnedEntityType="ResourceType" Query="select Identifier, DisplayName" DisplayName_L1="Resource Types" /> <ReportQuery Identifier="PersonRecords" ReturnedEntityType="PersonRecord" Query="join Person Person join PersonalTitle PersonalTitle join EmployeeType EmployeeType select InternalDisplayName, PersonalTitle.DisplayName, LastName, FirstName, DisplayedCR, Login, DisplayedFonction, DisplayedEDS, EmployeeType.DisplayName, EmployeeType.Category" DisplayName_L1="Users" />
 
     <ReportQuery Identifier="SGS_Report" ReturnedEntityType="SGS_User" Query="join UserMetier metier join UserDepartement dpt join ResourceAssignedResourceTypes art join art.Owner of type Person person join person.Records personRecord join personRecord.EmployeeType employeeType join personRecord.Organization eds join personRecord.Fonction fonction join personRecord.Company cr select IDUser,NomPrenomUserSgs, metier.IDMetier, dpt.IDDepartement, person.Identifier, personRecord.FirstName, personRecord.LastName,employeeType.DisplayName,eds.DisplayName,fonction.DisplayName,cr.DisplayName" DisplayName_L1="SGS Accounts" />
 
@@ -2405,7 +2405,7 @@ The `User` **Entity Type** is defined as follows:
 
 ```
 
-  <EntityType Identifier="User">    <Property Identifier="FirstName" Type="String" TargetColumnIndex="4" />    <Property Identifier="LastName" Type="String" TargetColumnIndex="5" />    <Property Identifier="Manager" Type="String" TargetColumnIndex="128" />  </EntityType>
+  <EntityType Identifier="User"> <Property Identifier="FirstName" Type="String" TargetColumnIndex="4" /> <Property Identifier="LastName" Type="String" TargetColumnIndex="5" /> <Property Identifier="Manager" Type="String" TargetColumnIndex="128" /> </EntityType>
 
 ```
 
@@ -2462,7 +2462,7 @@ the UI.
 
 ```
 
-    <DisplayEntityType PluralDisplayName_L1="Companies" IconCode="Suitcase" Identifier="Directory_Company">        <Property DisplayOrder="-1" IsRequired="true" Identifier="Identifier" />        <Property IsRequired="true" Identifier="DisplayName" />        <Property OutputType="BasicCollection" Identifier="UserRecords" NavigationBinding="Directory_UserRecord:User" />        <Property OutputType="BasicCollection" Identifier="Guests" />    </DisplayEntityType>
+    <DisplayEntityType PluralDisplayName_L1="Companies" IconCode="Suitcase" Identifier="Directory_Company"> <Property DisplayOrder="-1" IsRequired="true" Identifier="Identifier" /> <Property IsRequired="true" Identifier="DisplayName" /> <Property OutputType="BasicCollection" Identifier="UserRecords" NavigationBinding="Directory_UserRecord:User" /> <Property OutputType="BasicCollection" Identifier="Guests" /> </DisplayEntityType>
 
 ```
 
@@ -2503,7 +2503,7 @@ model. The highest priority is assigned to `Directory_User` and the lowest prior
 
 ```
 dashboard.xml
-  <DisplayEntityType Identifier="Directory_User" Priority="0" />  <DisplayEntityType Identifier="Directory_Guest" Priority="1" />  <DisplayEntityType Identifier="Directory_Bot" Priority="2" />  <DisplayEntityType Identifier="Directory_Application" Priority="3" />
+  <DisplayEntityType Identifier="Directory_User" Priority="0" /> <DisplayEntityType Identifier="Directory_Guest" Priority="1" /> <DisplayEntityType Identifier="Directory_Bot" Priority="2" /> <DisplayEntityType Identifier="Directory_Application" Priority="3" />
 
 ```
 
@@ -2536,7 +2536,7 @@ configured like this
 
 ```
 dashboard.xml
-  <DisplayEntityType Identifier="Directory_User" Priority="0" />  <DisplayEntityType Identifier="Directory_Guest" Priority="1" />
+  <DisplayEntityType Identifier="Directory_User" Priority="0" /> <DisplayEntityType Identifier="Directory_Guest" Priority="1" />
 
 ```
 
@@ -2545,7 +2545,7 @@ the My Tasks screen is configured like this.
 
 ```
 dashboard.xml
-  <DisplayEntityType Identifier="Directory_Workflow_User" Priority="0" />  <DisplayEntityType Identifier="Directory_Workflow_Guest" Priority="1" />
+  <DisplayEntityType Identifier="Directory_Workflow_User" Priority="0" /> <DisplayEntityType Identifier="Directory_Workflow_Guest" Priority="1" />
 
 ```
 
@@ -2603,7 +2603,7 @@ The following example will group a specific set of properties together, when dis
 <DisplayPropertyGroup Identifier="AD_General" DisplayName_L1="General" />
 
 Knowing that we have the following properties:
-<DisplayEntityType Identifier="AD_Entry">    <Property Identifier="displayName" Group="AD_General" DisplayOrder="100" />    <Property Identifier="givenName" Group="AD_General" DisplayOrder="101" />    <Property Identifier="initials" Group="AD_General" DisplayOrder="102" />    <Property Identifier="sn" Group="AD_General" DisplayOrder="103" />    <Property Identifier="description" Group="AD_General" DisplayOrder="104" />    <Property Identifier="thumbnailPhoto" Group="AD_General" DisplayOrder="105" />    <Property Identifier="telephoneNumber" Group="AD_General" DisplayOrder="106" />    <Property Identifier="mobile" Group="AD_General" DisplayOrder="107" />    <Property Identifier="mail" Group="AD_General" DisplayOrder="108" />    ...
+<DisplayEntityType Identifier="AD_Entry"> <Property Identifier="displayName" Group="AD_General" DisplayOrder="100" /> <Property Identifier="givenName" Group="AD_General" DisplayOrder="101" /> <Property Identifier="initials" Group="AD_General" DisplayOrder="102" /> <Property Identifier="sn" Group="AD_General" DisplayOrder="103" /> <Property Identifier="description" Group="AD_General" DisplayOrder="104" /> <Property Identifier="thumbnailPhoto" Group="AD_General" DisplayOrder="105" /> <Property Identifier="telephoneNumber" Group="AD_General" DisplayOrder="106" /> <Property Identifier="mobile" Group="AD_General" DisplayOrder="107" /> <Property Identifier="mail" Group="AD_General" DisplayOrder="108" /> ...
 </DisplayEntityType>
 
 ```
@@ -2633,7 +2633,7 @@ The following example displays sites as a table.
 
 ```
 
-<DisplayTable Identifier="Directory_Site" EntityType="Directory_Site" DisplayTableDesignElement="table" IsEntityTypeDefault="true">    <Column DefaultSortPriority="1" DisplayBinding="Region.Country.DisplayName" IsDisplayInSummaryView="true" IsResizable="true" IsSortable="true" CanBeFiltered="true" ColumnSize="2" DisplayName_L1="Country" />    <Column DefaultSortPriority="2" DisplayBinding="Region.DisplayName" IsDisplayInSummaryView="true" IsResizable="true" IsSortable="true" CanBeFiltered="true" ColumnSize="2" DisplayName_L1="State" />    <Column DefaultSortPriority="3" DisplayBinding="DisplayName" IsDisplayInSummaryView="true" IsResizable="true" IsSortable="true" CanBeFiltered="true" ColumnSize="8" /></DisplayTable>
+<DisplayTable Identifier="Directory_Site" EntityType="Directory_Site" DisplayTableDesignElement="table" IsEntityTypeDefault="true"> <Column DefaultSortPriority="1" DisplayBinding="Region.Country.DisplayName" IsDisplayInSummaryView="true" IsResizable="true" IsSortable="true" CanBeFiltered="true" ColumnSize="2" DisplayName_L1="Country" /> <Column DefaultSortPriority="2" DisplayBinding="Region.DisplayName" IsDisplayInSummaryView="true" IsResizable="true" IsSortable="true" CanBeFiltered="true" ColumnSize="2" DisplayName_L1="State" /> <Column DefaultSortPriority="3" DisplayBinding="DisplayName" IsDisplayInSummaryView="true" IsResizable="true" IsSortable="true" CanBeFiltered="true" ColumnSize="8" /></DisplayTable>
 
 ```
 
@@ -2645,7 +2645,7 @@ The following example displays users as a list.
 
 ```
 
-<DisplayTable Identifier="Directory_User" EntityType="Directory_User" DisplayTableDesignElement="list" IsEntityTypeDefault="true">    <Column DefaultSortPriority="1" ColumnSize="6" IsDisplayInSummaryView="true" SortBinding="MainRecord.LastName" Tile="Directory_User_Tile1" />    <Column ColumnSize="3" IsDisplayInSummaryView="true" Tile="Directory_User_Tile2" SortBinding="MainRecord.FirstName" />    <Column ColumnSize="3" Tile="Directory_User_Tile3" /></DisplayTable>
+<DisplayTable Identifier="Directory_User" EntityType="Directory_User" DisplayTableDesignElement="list" IsEntityTypeDefault="true"> <Column DefaultSortPriority="1" ColumnSize="6" IsDisplayInSummaryView="true" SortBinding="MainRecord.LastName" Tile="Directory_User_Tile1" /> <Column ColumnSize="3" IsDisplayInSummaryView="true" Tile="Directory_User_Tile2" SortBinding="MainRecord.FirstName" /> <Column ColumnSize="3" Tile="Directory_User_Tile3" /></DisplayTable>
 
 ```
 
@@ -2659,7 +2659,7 @@ The following example displays AD entries as a table, with an "Owner/Type" colum
 
 ```
 
-<DisplayTable Identifier="AD_Entry" EntityType="AD_Entry" DisplayTableDesignElement="resourcetable" IsEntityTypeDefault="true">    <Column DefaultSortPriority="1" DisplayBinding="dn" IsDisplayInSummaryView="true" IsResizable="true" IsSortable="true" CanBeFiltered="true" ColumnSize="5" />    <Column DisplayBinding="displayName" IsDisplayInSummaryView="true" IsResizable="true" IsSortable="true" CanBeFiltered="true" ColumnSize="2" />    <Column DisplayBinding="userPrincipalName" IsDisplayInSummaryView="true" IsResizable="true" IsSortable="true" CanBeFiltered="true" ColumnSize="4" />    <Column DisplayBinding="objectCategory" IsDisplayInSummaryView="true" IsResizable="true" IsSortable="true" CanBeFiltered="true" ColumnSize="1" /></DisplayTable>
+<DisplayTable Identifier="AD_Entry" EntityType="AD_Entry" DisplayTableDesignElement="resourcetable" IsEntityTypeDefault="true"> <Column DefaultSortPriority="1" DisplayBinding="dn" IsDisplayInSummaryView="true" IsResizable="true" IsSortable="true" CanBeFiltered="true" ColumnSize="5" /> <Column DisplayBinding="displayName" IsDisplayInSummaryView="true" IsResizable="true" IsSortable="true" CanBeFiltered="true" ColumnSize="2" /> <Column DisplayBinding="userPrincipalName" IsDisplayInSummaryView="true" IsResizable="true" IsSortable="true" CanBeFiltered="true" ColumnSize="4" /> <Column DisplayBinding="objectCategory" IsDisplayInSummaryView="true" IsResizable="true" IsSortable="true" CanBeFiltered="true" ColumnSize="1" /></DisplayTable>
 
 ```
 
@@ -2685,7 +2685,7 @@ Contains all the display table columns.
 
 ```
 
-    <Column DefaultSortPriority="1" DisplayBinding="dn" IsDisplayInSummaryView="true" IsResizable="true" IsSortable="true" CanBeFiltered="true" ColumnSize="4" />    <Column DisplayBinding="userPrincipalName" IsDisplayInSummaryView="true" IsResizable="true" IsSortable="true" CanBeFiltered="true" ColumnSize="2" />    <Column DisplayBinding="userAccountControl" IsDisplayInSummaryView="true" IsResizable="true" IsSortable="true" CanBeFiltered="true" ColumnSize="1" />    <Column DisplayBinding="rdn" IsDisplayInSummaryView="true" IsResizable="true" IsSortable="true" CanBeFiltered="true" ColumnSize="2" />    <Column DisplayBinding="displayName" IsDisplayInSummaryView="true" IsResizable="true" IsSortable="true" CanBeFiltered="true" ColumnSize="2" />    <Column DisplayBinding="objectCategory" IsDisplayInSummaryView="true" IsResizable="true" IsSortable="true" CanBeFiltered="true" ColumnSize="2" />
+    <Column DefaultSortPriority="1" DisplayBinding="dn" IsDisplayInSummaryView="true" IsResizable="true" IsSortable="true" CanBeFiltered="true" ColumnSize="4" /> <Column DisplayBinding="userPrincipalName" IsDisplayInSummaryView="true" IsResizable="true" IsSortable="true" CanBeFiltered="true" ColumnSize="2" /> <Column DisplayBinding="userAccountControl" IsDisplayInSummaryView="true" IsResizable="true" IsSortable="true" CanBeFiltered="true" ColumnSize="1" /> <Column DisplayBinding="rdn" IsDisplayInSummaryView="true" IsResizable="true" IsSortable="true" CanBeFiltered="true" ColumnSize="2" /> <Column DisplayBinding="displayName" IsDisplayInSummaryView="true" IsResizable="true" IsSortable="true" CanBeFiltered="true" ColumnSize="2" /> <Column DisplayBinding="objectCategory" IsDisplayInSummaryView="true" IsResizable="true" IsSortable="true" CanBeFiltered="true" ColumnSize="2" />
 
 ```
 
@@ -2724,7 +2724,7 @@ structured fields to fill.
 ```
 
 <Form Identifier="Directory_UserRecord_View" EntityType="Directory_UserRecord">
-    <Control DisplayName_L1="Personal Data" OutputType="LayoutFieldset">        <Control DisplayName_L1="Full Name" OutputType="LayoutRowset">            <Control Binding="LastName" />            <Control Binding="FirstName" />        </Control>        <Control Binding="Mail" ColumnSize="8" />    </Control>    <Control DisplayName_L1="Contract" OutputType="LayoutFieldset">        <Control Binding="EmployeeId" />        <Control Binding="ContractStartDate" />        <Control Binding="ContractEndDate" />        ...
+    <Control DisplayName_L1="Personal Data" OutputType="LayoutFieldset"> <Control DisplayName_L1="Full Name" OutputType="LayoutRowset"> <Control Binding="LastName" /> <Control Binding="FirstName" /> </Control> <Control Binding="Mail" ColumnSize="8" /> </Control> <Control DisplayName_L1="Contract" OutputType="LayoutFieldset"> <Control Binding="EmployeeId" /> <Control Binding="ContractStartDate" /> <Control Binding="ContractEndDate" /> ...
     </Control>
 
 </Form>
@@ -2798,7 +2798,7 @@ organization chart made of the worker and their managers.
 
 ```
 
-<Form Identifier="Directory_UserRecord_View" EntityType="Directory_UserRecord">    <Control DisplayName_L1="Personal Data" OutputType="LayoutFieldset">        <Control DisplayName_L1="Full Name" OutputType="LayoutRowset">            <Control Binding="LastName" />            <Control Binding="FirstName" />        </Control>        <Control Binding="Mail" ColumnSize="8" />    </Control>    <Control DisplayName_L1="Contract" OutputType="TransformImport" EmbeddedForm="Workflow_Directory_User_AddRecord_Base" />    </Control>
+<Form Identifier="Directory_UserRecord_View" EntityType="Directory_UserRecord"> <Control DisplayName_L1="Personal Data" OutputType="LayoutFieldset"> <Control DisplayName_L1="Full Name" OutputType="LayoutRowset"> <Control Binding="LastName" /> <Control Binding="FirstName" /> </Control> <Control Binding="Mail" ColumnSize="8" /> </Control> <Control DisplayName_L1="Contract" OutputType="TransformImport" EmbeddedForm="Workflow_Directory_User_AddRecord_Base" /> </Control>
     </Form>
 
 ```
@@ -2881,7 +2881,7 @@ will be "Medium risk". If it is lower than 30, there will be no indicator.
 
 ```
 
-  <Indicator EntityType="Directory_User" Binding="RiskScore" ComparisonOperator="GreaterThanOrEqual" Order="0">    <Item Value="75" Color="#9D0E0E" DisplayName_L1="High risk" />    <Item Value="30" Color="#E37C14" DisplayName_L1="Medium risk" />  </Indicator>
+  <Indicator EntityType="Directory_User" Binding="RiskScore" ComparisonOperator="GreaterThanOrEqual" Order="0"> <Item Value="75" Color="#9D0E0E" DisplayName_L1="High risk" /> <Item Value="30" Color="#E37C14" DisplayName_L1="Medium risk" /> </Indicator>
 
 ```
 
@@ -2890,7 +2890,7 @@ greater than 75, the banner will be orange according to the first item:
 
 ```
 
-  <Indicator EntityType="Directory_User" Binding="RiskScore" ComparisonOperator="GreaterThanOrEqual" Order="0">      <Item Value="30" Color="#E37C14" DisplayName_L1="Medium risk" />      <Item Value="75" Color="#9D0E0E" DisplayName_L1="High risk" />  </Indicator>
+  <Indicator EntityType="Directory_User" Binding="RiskScore" ComparisonOperator="GreaterThanOrEqual" Order="0"> <Item Value="30" Color="#E37C14" DisplayName_L1="Medium risk" /> <Item Value="75" Color="#9D0E0E" DisplayName_L1="High risk" /> </Indicator>
 
 ```
 
@@ -2912,7 +2912,7 @@ Defines the banner to be displayed informations. See Indicator for more details.
 
 ```
 
-        <Item Value="75" Color="#9D0E0E" DisplayName_L1="High risk" />        <Item Value="30" Color="#E37C14" DisplayName_L1="Medium risk" />
+        <Item Value="75" Color="#9D0E0E" DisplayName_L1="High risk" /> <Item Value="30" Color="#E37C14" DisplayName_L1="Medium risk" />
 
 ```
 
@@ -2932,7 +2932,7 @@ A menu item displays grouped navigation actions.
 
 ```
 
-    <MenuItem Identifier="View_AD_Entry" DisplayName_L1="AD Entry">        <MenuItem Identifier="View_AD_Entry_ResetPassword" DisplayName_L1="Reset Password" IconCode="Edit" Workflow="AD_Entry_ResetPassword" />    </MenuItem>
+    <MenuItem Identifier="View_AD_Entry" DisplayName_L1="AD Entry"> <MenuItem Identifier="View_AD_Entry_ResetPassword" DisplayName_L1="Reset Password" IconCode="Edit" Workflow="AD_Entry_ResetPassword" /> </MenuItem>
 
 ```
 
@@ -2960,7 +2960,7 @@ properties of an EntityType.
 
 ```
 
-<SearchBar EntityType="Directory_User" Menu="Menu_Search_Directory_User" SearchBarDesignElement="Inline">    <Criterion Binding1="MainRecord.EmployeeId" PlaceHolderText_L1="Employee Id"  InputType="Auto" ColumnSize="2" />    <Criterion Binding1="MainRecord.LastName" InputType="Auto" ColumnSize="2" />    <Criterion Binding1="MainRecord.FirstName" InputType="Auto" ColumnSize="2" />    <Criterion Binding1="MainRecord.Organization" PlaceHolderText_L1="Department"  InputType="Auto" ColumnSize="2" /></SearchBar>
+<SearchBar EntityType="Directory_User" Menu="Menu_Search_Directory_User" SearchBarDesignElement="Inline"> <Criterion Binding1="MainRecord.EmployeeId" PlaceHolderText_L1="Employee Id" InputType="Auto" ColumnSize="2" /> <Criterion Binding1="MainRecord.LastName" InputType="Auto" ColumnSize="2" /> <Criterion Binding1="MainRecord.FirstName" InputType="Auto" ColumnSize="2" /> <Criterion Binding1="MainRecord.Organization" PlaceHolderText_L1="Department" InputType="Auto" ColumnSize="2" /></SearchBar>
 
 ```
 
@@ -3002,7 +3002,7 @@ initials of a defined data).
 
 ```
 
-    <Tile Identifier="Referentiel_User_Tile1" DisplayName_L1="Collaborateur : pr�nom, nom" EntityType="Referentiel_User" TileDesignElement="picture-text">        <Item Binding="MainRecord.FirstName" LineDisplayOrderIndicator="1" LineNumber="2" />        <Item Binding="MainRecord.LastName" LineDisplayOrderIndicator="2" LineNumber="2" />        <Item Binding="Id" LineNumber="5" />    </Tile>    <Tile Identifier="Referentiel_User_Tile2" DisplayName_L1="Collaborateur : organisation, site" EntityType="Referentiel_User" TileDesignElement="inline data-icon">        <Item Binding="MainRecord.Site.Label" LineNumber="1" />        <Item Binding="MainRecord.Service.Label" LineNumber="2" />    </Tile>
+    <Tile Identifier="Referentiel_User_Tile1" DisplayName_L1="Collaborateur : pr�nom, nom" EntityType="Referentiel_User" TileDesignElement="picture-text"> <Item Binding="MainRecord.FirstName" LineDisplayOrderIndicator="1" LineNumber="2" /> <Item Binding="MainRecord.LastName" LineDisplayOrderIndicator="2" LineNumber="2" /> <Item Binding="Id" LineNumber="5" /> </Tile> <Tile Identifier="Referentiel_User_Tile2" DisplayName_L1="Collaborateur : organisation, site" EntityType="Referentiel_User" TileDesignElement="inline data-icon"> <Item Binding="MainRecord.Site.Label" LineNumber="1" /> <Item Binding="MainRecord.Service.Label" LineNumber="2" /> </Tile>
 
 ```
 
@@ -3023,7 +3023,7 @@ One data to display in a tile.
 
 ```
 
-    <Item Binding="MainRecord.FirstName" LineDisplayOrderIndicator="1" LineNumber="2" />    <Item Binding="MainRecord.LastName" LineDisplayOrderIndicator="2" LineNumber="2" />    <Item Binding="MainRecord.EmployeeId" LineDisplayOrderIndicator="2" LineNumber="3" />
+    <Item Binding="MainRecord.FirstName" LineDisplayOrderIndicator="1" LineNumber="2" /> <Item Binding="MainRecord.LastName" LineDisplayOrderIndicator="2" LineNumber="2" /> <Item Binding="MainRecord.EmployeeId" LineDisplayOrderIndicator="2" LineNumber="3" />
 
 ```
 

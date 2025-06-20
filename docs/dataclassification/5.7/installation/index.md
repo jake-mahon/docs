@@ -7,13 +7,13 @@
    _D:\Data\NDC\Index._
 5. On the Configuration step, specify the directory where Index files reside. For example,
    _C:\Program Files\NDC\Index_.
-6. On the SQL Database step, provide SQL Server database connection details.
+6. On the SQL Database step, provide SQL Server database connection details.
 
    Complete the following fields:
 
    | Option                | Description                                                                                                              |
    | --------------------- | ------------------------------------------------------------------------------------------------------------------------ |
-   | Server Name           | Provide the name of the SQL Server instance that hosts your NDC SQL database. For example, _"WORKSTATIONSQL\SQLSERVER"_. |
+   | Server Name           | Provide the name of the SQL Server instance that hosts your NDC SQL database. For example, _"WORKSTATIONSQL\SQLSERVER"_. |
    | Authentication Method | Select Windows or SQL Server authentication method.                                                                      |
    | Username              | Specify the account name.                                                                                                |
    | Password              | Provide your password.                                                                                                   |
@@ -21,7 +21,7 @@
 
    **NOTE:** The database is created automatically in basic configuration mode. For recommended
    configuration (required for crawling optimization in large and extra-large environments), refer
-   to [Configure NDC SQL database](/docs/dataclassification/5.7/getting-started/requirements/databases.md) section.
+   to [Configure NDC SQL database](/docs/dataclassification/5.7/getting-started/requirements/databases.md) section.
 
 7. On the Licensing step, add license. You can add license as follows:
 

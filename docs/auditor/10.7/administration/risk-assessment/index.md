@@ -74,7 +74,7 @@ To verify the necessary settings of the existing plan
 2. In the right pane of the dialog displayed, select Edit settings from the Monitoring plan section.
 3. Go to the Audit Database section and make sure that Disable security intelligence ... checkbox is
    cleared. This will instruct Netwrix Auditor to store data to both Long-Term Archive and audit
-   database:  
+   database:
    ![edit_mp_store_data_to_db_thumb_0_0](/img/product_docs/auditor/auditor/admin/riskassessment/edit_mp_store_data_to_db_thumb_0_0.webp)
 4. Save the settings and return to the window with the monitoring plan details. Make sure you have
    at least one monitored item in the plan. If necessary, add an item.

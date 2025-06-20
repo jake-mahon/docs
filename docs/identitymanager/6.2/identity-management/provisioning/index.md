@@ -1,6 +1,6 @@
 # Manual Provisioning
 
-Identity Manager natively sends notifications concerning manual provisioning.
+Identity Manager natively sends notifications concerning manual provisioning.
 
 ## Overview
 
@@ -149,7 +149,7 @@ enforcement in external systems. See the [ Provision Manually ](/docs/identityma
 
 ### Provisioning states
 
-Identity Manager handles provisioning by assigning a provisioning state to assignment requests.
+Identity Manager handles provisioning by assigning a provisioning state to assignment requests.
 
 Here is the list of provisioning states and their description:
 

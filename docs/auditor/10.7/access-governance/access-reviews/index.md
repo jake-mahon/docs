@@ -26,17 +26,17 @@ access for domain users and configure notification settings. Select the Configur
 [Notifications Page](/docs/auditor/10.7/access-governance/access-reviews/configuration.md) topics for additional information.
 
 The interfaces available to console users are controlled by the role assigned. Owners do not need to
-be assigned console access. See the [URL & Login](/docs/auditor/10.7/access-governance/access-reviews/index.md) topic for information on how users will
+be assigned console access. See the [URL & Login](/docs/auditor/10.7/access-governance/access-reviews/index.md) topic for information on how users will
 log in and where they are directed after login.
 
-See the [Navigation](/docs/auditor/10.7/access-governance/access-reviews/index.md) topic for information on each of the interfaces.
+See the [Navigation](/docs/auditor/10.7/access-governance/access-reviews/index.md) topic for information on each of the interfaces.
 
-# URL & Login
+# URL & Login
 
 The Access Reviews Console can be accessed through a supported browser from a machine within your
 company's network. The URL is the hosting machine's name and the
-port, http://[HOSTNAME.DOMAIN.COM]:81. For example, if the application was installed on a server
-named NEWYORKSRV10.NWXTech.com with the default port of 81, the URL would be
+port, http://[HOSTNAME.DOMAIN.COM]:81. For example, if the application was installed on a server
+named NEWYORKSRV10.NWXTech.com with the default port of 81, the URL would be
 http://NEWYORKSRV10.NWXTech.com:81.
 
 Administrators
@@ -55,7 +55,7 @@ the application in their default browser. Alternatively, the localhost URL can b
 Remote Access
 
 Since Access Reviews is a browser-based application, it is possible to access the web interface
-remotely. It is up to the Administrator to provide users with the correct URL for access.
+remotely. It is up to the Administrator to provide users with the correct URL for access.
 
 Depending on your network environment, you may need to use the NetBIOS name, FQDN, or IP Address of
 the hosting server in the browser. Also, additional configurations by network and system
@@ -185,7 +185,7 @@ settings reside. This topic includes the following subtopics:
 - [Navigation](/docs/auditor/10.7/access-governance/access-reviews/index.md)
 - [Configuration Interface Overview](/docs/auditor/10.7/access-governance/access-reviews/configuration.md)
 - [Additional Configuration Options](/docs/auditor/10.7/access-governance/access-reviews/configuration.md)
-- [URL & Login](/docs/auditor/10.7/access-governance/access-reviews/index.md)
+- [URL & Login](/docs/auditor/10.7/access-governance/access-reviews/index.md)
 - [Troubleshooting](/docs/auditor/10.7/administration/health-monitoring/troubleshooting.md)
 
 # Reviews Overview
@@ -260,7 +260,7 @@ information.
 3. Review Administrator approves owner recommendations. See the
    [Approval Process](/docs/auditor/10.7/access-governance/access-reviews/review-process.md) topic for additional information.
 4. Implement approved changes in your organization. Manually, export a list of approved changes and
-   deliver it to your IT department.
+   deliver it to your IT department.
 
 When desired, the Review Administrator runs another instance of the review and the workflow starts
 again. See the [Review Instances](/docs/auditor/10.7/access-governance/access-reviews/managing-reviews.md) topic for additional information.
@@ -317,7 +317,7 @@ ownership is core component for the Access Reviews workflow. See the
 information.
 
 **NOTE:** The [Owners & Access Reviews](/docs/auditor/10.7/access-governance/resource-owners/index.md) topic and
-subtopics are written for the assigned owners. You can distribute the URL to this topic or download
+subtopics are written for the assigned owners. You can distribute the URL to this topic or download
 a PDF to be distributed to your assigned resource owners.
 
 **Step 5 –** Configure and run reviews. The Entitlement Reviews interface is available to users with
@@ -353,7 +353,7 @@ Review the following considerations:
    Next, configure the Access Reviews for your environment:
 
    - Console Users — Grant users access to the application starting with an Administrator account.
-     There are two levels of access: Administrator and Security Team. See the
+     There are two levels of access: Administrator and Security Team. See the
      [Console Access Page](/docs/auditor/10.7/access-governance/access-reviews/configuration.md) topic for
      information.
 
@@ -381,12 +381,12 @@ Review the following considerations:
    - Security Team — Need topics that align to the work the will be doing in the Access Reviews
      Console:
 
-     - Ownership Administrator — Send the URL link for the
+     - Ownership Administrator — Send the URL link for the
        [Resource Owners Overview](/docs/auditor/10.7/access-governance/resource-owners/index.md) topic.
-     - Review Administrator — Send the URL link for the
+     - Review Administrator — Send the URL link for the
        [Reviews Overview](/docs/auditor/10.7/access-governance/access-reviews/index.md) topic.
 
-   - Administrator — Send the URL link for the
+   - Administrator — Send the URL link for the
      [Administrator Overview](/docs/auditor/10.7/access-governance/access-reviews/index.md) topic.
 
    ## Resource Ownership Configuration

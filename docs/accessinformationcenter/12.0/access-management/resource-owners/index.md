@@ -65,7 +65,7 @@ See the [Resource Owners Interface](/docs/accessinformationcenter/12.0/access-ma
 Prerequisites:
 
 - Entitlement Reviews License or Self-Service Access License
-- Optional: The Access Information Center is configured to send Notifications. See the
+- Optional: The Access Information Center is configured to send Notifications. See the
   [Notifications Page](/docs/accessinformationcenter/12.0/administration/configuration/notifications.md) topic for additional information.
 
   **NOTE:** By default, the application is configured to send notifications only to the primary
@@ -79,8 +79,8 @@ Prerequisites:
   - Credentials for a domain known to the application
 
 - Resources and groups must be known to the application
-- Optional: Access groups configured within the environment for resources to be managed through the
-  application, which requires the Access Information Center to be configured to commit AD changes.
+- Optional: Access groups configured within the environment for resources to be managed through the
+  application, which requires the Access Information Center to be configured to commit AD changes.
   See the [Access Groups](/docs/accessinformationcenter/12.0/access-management/resource-owners/access-groups.md) topic for additional information.
 
 Workflow:
@@ -181,7 +181,7 @@ The buttons at the bottom enable you to conduct the following actions:
 | Remove               | Opens the Confirm removal window to removes the selected resource from being managed through the application. _Remember,_ only resources with an assigned owner will be visible in the table. Removing a resource from this table does not delete the resource from the application database. See the [Confirm Removal Window](/docs/accessinformationcenter/12.0/access-management/resource-owners/managing-owners.md) topic for additional information. |
 | Request Confirmation | Opens the Confirm Ownership wizard. Sends an email to the assigned owner(s) for the selected resource requesting ownership confirmation. See the [Confirm Ownership Wizard](/docs/accessinformationcenter/12.0/access-management/resource-owners/managing-owners.md) topic for additional information.                                                                                                                                                    |
 | Edit Notes           | Opens the Edit Notes window for the selected resource and allows free-text editing of the notes. See the [Edit Notes Window](/docs/accessinformationcenter/12.0/access-management/data-grid-operations/editing-notes.md) topic for additional information.                                                                                                                                                                                                |
-| Resource Audit       | Opens the Resource Audit interface for the selected resource. See the [Resource Audit Overview](/docs/accessinformationcenter/12.0/resource-auditing/index.md) topic for additional information.                                                                                                                                                                                                                                                          |
+| Resource Audit       | Opens the Resource Audit interface for the selected resource. See the [Resource Audit Overview](/docs/accessinformationcenter/12.0/resource-auditing/index.md) topic for additional information.                                                                                                                                                                                                                                                          |
 
 ## Notes & Descriptions
 
@@ -202,7 +202,7 @@ it is to an Access Requester in the Your Access portal.
 This topic and its subtopics are written for users who have been assigned resource ownership.
 
 Through the Netwrix Access Information Center, an organization can enable business owners and data
-custodians to manage their resources without direct IT department involvement. You may be granted
+custodians to manage their resources without direct IT department involvement. You may be granted
 the ability to make ad hoc changes to access of your resources. If your organization is running
 Resource Review attestations, you will be expected to complete reviews. If your organization enables
 Self-Service Access Requests, you will be expected to process requests for your resource.
@@ -211,6 +211,6 @@ Self-Service Access Requests, you will be expected to process requests for your 
 SharePoint sites, Active Directory (AD) groups, AD distribution lists, and/or local Administrators
 groups.
 
-Your Access Information Center Administrator will let you know what URL to use for logging in as
-well as what credentials to use. The URL will require you to be connected to your organization's
+Your Access Information Center Administrator will let you know what URL to use for logging in as
+well as what credentials to use. The URL will require you to be connected to your organization's
 network. Upon login, you will be directed to the Owner portal.

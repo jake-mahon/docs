@@ -21,15 +21,15 @@ configuration replicated between them. The first AD FS federation server you set
 becomes the **primary** server. Other federation servers you add to the farm will become
 **secondary** servers.
 
-Make sure you have Windows Remote Management properly configured on your Auditor console computer.
+Make sure you have Windows Remote Management properly configured on your Auditor console computer.
 See the [Software Requirements](/docs/auditor/10.7/installation-and-setup/system-requirements/hardware-and-software.md) topic for additional information.
 
-You can configure your IT Infrastructure for monitoring in one of the following ways:
+You can configure your IT Infrastructure for monitoring in one of the following ways:
 
 - Automatically through a monitoring plan – This is a recommended method. If you select to
   automatically configure audit in the target environment, your current audit settings will be
   checked on each data collection and adjusted if necessary. See the Configure AD FS farm audit
-  settings automatically topic for additional information.
+  settings automatically topic for additional information.
 - Manually – Native audit settings must be adjusted manually to ensure collecting comprehensive and
   reliable audit data. You can enable Auditor to continually enforce the relevant audit policies or
   configure them manually:
@@ -61,7 +61,7 @@ You can configure your IT Infrastructure for monitoring in one of the following
     **Applications and Service logs**). See
     [Adjusting Event Log Size and Retention Settings](/docs/auditor/10.7/data-sources/infrastructure/windows-servers.md) for details.
   - If AD FS Admin logging is disabled, you should enable it.
-  - See the Configure AD FS farm manually topic for additional information.
+  - See the Configure AD FS farm manually topic for additional information.
 
 ## **Configure AD FS farm audit settings automatically**
 
@@ -81,7 +81,7 @@ automatically** check box.
 
 **Step 3 –** Save the settings.
 
-Auditor  will automatically configure audit settings on all servers in the AD FS farm and adjust the
+Auditor will automatically configure audit settings on all servers in the AD FS farm and adjust the
 necessary log settings on these servers.
 
 ## Configure AD FS farm manually

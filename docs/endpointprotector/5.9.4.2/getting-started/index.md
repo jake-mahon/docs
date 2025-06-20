@@ -1,4 +1,4 @@
-# Netwrix Endpoint Protector v5.9.4
+# Netwrix Endpoint Protector v5.9.4.2
 
 Netwrix Endpoint Protector is a comprehensive Data Loss Prevention (DLP) solution designed to
 safeguard endpoint systems from data ex-filtration and loss. In today's interconnected world, where

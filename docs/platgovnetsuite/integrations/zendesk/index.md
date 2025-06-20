@@ -10,7 +10,7 @@ User benefits include:
 
 - Avoid duplicate effort of creating tickets in two different systems.
 - Pull Customizations into Zendesk for scope of changes.
-- Specify Bundle ID as
+- Specify Bundle ID as
 - Perform impact analysis assessment.
 - Approve requests in either Zendesk or NetSuite.
 - Automatic ticket reconciliation between Zendesk and NetSuite.
@@ -62,7 +62,7 @@ app.
     ![Set up the Strongpoint for NetSuite Zendesk app](/img/product_docs/platgovnetsuite/integrations/zendesk_change_settings.webp)
 
     - **Title**: the name associated with the app. The default is **Strongpoint for NetSuite**.
-    - Account ID: enter the NetSuite account ID. The **Account ID** must be a lowercase string. For
+    - Account ID: enter the NetSuite account ID. The **Account ID** must be a lowercase string. For
       example, **tstdrv1724328**.
 
       Account ID must be entered in lower case.
@@ -73,11 +73,11 @@ app.
     - **Token ID**: Enter the Token ID of the Integration Record from your NetSuite account.
     - **Token Secret**: Enter the Token Secret of the Integration Record from your NetSuite account.
 
-    Token-based authentication (TBA) is required by NetSuite. Refer to the NetSuite help:
+    Token-based authentication (TBA) is required by NetSuite. Refer to the NetSuite help:
     [TBA Setup Requirements](https://netsuite.custhelp.com/app/answers/detail/a_id/51000/kw/tba) for
-    details if you have not yet set up TBA.  
-    Only administrators can view the **Consumer Key**, **Consumer Secret**, **Token ID** and **Token
-    Secret** information.  
+    details if you have not yet set up TBA.
+    Only administrators can view the **Consumer Key**, **Consumer Secret**, **Token ID** and **Token
+    Secret** information.
     This information is generated when you create your Integration Record with the Token-Based
     Authentication option enabled. If you lose or forget these credentials, you must reset them to
     obtain new values.

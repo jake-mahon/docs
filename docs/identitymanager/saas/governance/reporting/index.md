@@ -35,7 +35,7 @@ project, for example:
 
   ![Orphaned Account List](/img/product_docs/identitymanager/identitymanager/user-guide/administrate/reporting/orphan_entitytype_v523.webp)
 
-Identity Manager puts users in control of their reporting. Rich features help produce customizable
+Identity Manager puts users in control of their reporting. Rich features help produce customizable
 reports that can be used to check the assignment policy results, or gather information for an audit.
 
 Identity Manager provides several different levels of reporting according to your needs and
@@ -59,7 +59,7 @@ This operation can be performed by any user interested in producing IGA reports.
 
 ## Download Predefined Reports
 
-Identity Manager provides a selection of predefined reports available in the solution. They
+Identity Manager provides a selection of predefined reports available in the solution. They
 represent the most common use cases.
 
 The accessibility of these predefined reports was configured during profile configuration. See the
@@ -111,7 +111,7 @@ Create a custom report by proceeding as follows:
 
    ![Fields to Display](/img/product_docs/identitymanager/identitymanager/user-guide/administrate/reporting/reporting_fieldstodisplay_v522.webp)
 
-   In cases where Identity Manager doesn't display correctly the information you need, you must try
+   In cases where Identity Manager doesn't display correctly the information you need, you must try
    to understand the entity instances and association instances that constitute the
    [ Universe ](/docs/identitymanager/saas/configuration/xml-configuration/business-intelligence.md)
    that you are working with. Perhaps the fields that you chose cannot be properly correlated.

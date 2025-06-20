@@ -17,7 +17,7 @@ First read how to [Create a Connector](/docs/identitymanager/6.2/integration/con
 
 ## Build the Incremental Synchronization Job
 
-Identity Manager provides a fully-written standardized job to perform incremental synchronization
+Identity Manager provides a fully-written standardized job to perform incremental synchronization
 through the UI. See here:
 
 See how to launch incremental
@@ -45,7 +45,7 @@ and the synchronization by the
 See the [ Upward Data Synchronization ](/docs/identitymanager/6.2/identity-management/synchronization/sync-configuration.md) topic
 for additional information.
 
-Identity Manager provides a scaffolding that generates the configuration for these steps, named
+Identity Manager provides a scaffolding that generates the configuration for these steps, named
 [Create Connector Synchro Incremental](/docs/identitymanager/6.2/reference/configuration-reference/scaffoldings.md).
 
 This guide is about incremental synchronization, but complete synchronization can be configured with
@@ -59,16 +59,18 @@ In order to launch a job via the
 [ Usercube-Invoke-Job ](/docs/identitymanager/6.2/reference/command-line-tools/utility-tools.md) tool, the agent must
 use a profile with the right permissions for each task.
 
-Permissions within Identity Manager are configured through
+Permissions within Identity Manager are configured through
 [Access Control Rule](/docs/identitymanager/6.2/development/configuration-toolkit/xml-configuration.md).
 
 > For example:
 >
->                         ```
+> ```
 >
->                             Conf/Profile AgentJob.xml
+> Conf/Profile AgentJob.xml
 >
 > <Profile Identifier="AgentSynchro" DisplayName_L1="Agent Synchro" />
+>
+> ```
 >
 > ```
 >
@@ -86,7 +88,7 @@ In order to run a synchronization job, the agent requires the permissions to:
 - prepare the synchronization and synchronize via `/Connectors/Connector/Query` and
   `/Connectors/SynchronizeSession`.
 
-Identity Manager provides scaffoldings that generate the configuration for granting these
+Identity Manager provides scaffoldings that generate the configuration for granting these
 permissions:
 [ Synchronization Access Control Rules ](/docs/identitymanager/6.2/reference/configuration-reference/scaffoldings.md)
 and
@@ -94,11 +96,13 @@ and
 
 > The following example permits the `AgentSynchro` profile to run any synchronization job:
 >
->                         ```
+> ```
 >
->                             Conf/Profile AgentSynchro.xml
+> Conf/Profile AgentSynchro.xml
 >
 > <SynchronizationAccessControlRules Profile="AgentSynchro"><JobViewAccessControlRules Profile="AgentSynchro">
+>
+> ```
 >
 > ```
 >
@@ -118,11 +122,13 @@ Usable `ClientId/Secret` pairs are configured through an
 > The following example uses a secret hashed
 > by[ Usercube-New-OpenIDSecret ](/docs/identitymanager/6.2/reference/command-line-tools/utility-tools.md):
 >
->                         ```
+> ```
 >
->                             Conf/OpenIdClients.xml
+> Conf/OpenIdClients.xml
 >
 > <OpenIdClient Identifier="Job" HashedSecret="K7gNU3sdo+Op8wNhqoVWhr5v6s1xYv72ol/pe/Unols=" DisplayName_L1="ClientId for Jobs" Profile="Administrator" />
+>
+> ```
 >
 > ```
 >
@@ -136,11 +142,13 @@ file.
 
 > The following example sets the `Job/secret` pair to be used by tasks and jobs:
 >
->                         ```
+> ```
 >
->                             appsettings.agent.json
+> appsettings.agent.json
 >
 > { ... "OpenId":{ "OpenIdClients": { "Job": "secret" }, "DefaultOpenIdClient": "Job" } }
+>
+> ```
 >
 > ```
 >
@@ -150,23 +158,25 @@ file.
 
 In order to launch the job, a user must have the right permissions.
 
-Permissions within Identity Manager are configured through
+Permissions within Identity Manager are configured through
 [Access Control Rule](/docs/identitymanager/6.2/development/configuration-toolkit/xml-configuration.md).
 
 In order to launch a synchronization job, a user requires the appropriate permission:
 `/Jobs/RunJob/Launch`.
 
-Identity Manager provides a
+Identity Manager provides a
 [ Job Execution Access Control Rules ](/docs/identitymanager/6.2/reference/configuration-reference/scaffoldings.md)that
 generates the configuration for granting this permission.
 
 > For example:
 >
->                         ```
+> ```
 >
->                             Conf/Profile AgentSynchro.xml
+> Conf/Profile AgentSynchro.xml
 >
 > <JobExecutionAccessControlRules Profile="AgentSynchro">
+>
+> ```
 >
 > ```
 >
@@ -277,7 +287,7 @@ _incremental_ Prepare-Synchronization to compute the changes, if needed. See the
 topic for additional information.
 
 Tampering with the `previous` folder content would result in false changes leading to false
-computation. It would result in data corruption in the Identity Manager database. To restore the
+computation. It would result in data corruption in the Identity Manager database. To restore the
 Identity Manager database and reflect the managed system data updates, a _complete\_\_Sync Up_ would
 be required.
 
@@ -332,7 +342,7 @@ and _manager_).
 | ---                                             | ---                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
 | --api-client-id required                        | **Type** String **Description** Login used to authenticate to the server. Every request from agent to server needs to be authenticated with an OpenID Connect ClientId/Secret pair, linked to a profile with the relevant permissions. See the [ OpenIdClient ](/docs/identitymanager/6.2/development/configuration-toolkit/xml-configuration.md) topic for additional information.                                                                                                                                                                                                                                                                                                                                     |
 | --api-secret required                           | **Type** String **Description** Password used to authenticate to the server. Every request from agent to server needs to be authenticated with an OpenID Connect ClientId/Secret pair, linked to a profile with the relevant permissions. See the [ OpenIdClient ](/docs/identitymanager/6.2/development/configuration-toolkit/xml-configuration.md) topic for additional information.                                                                                                                                                                                                                                                                                                                                  |
-| --api-url required                              | **Type** String **Description** URL of Identity Manager server.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
+| --api-url required                              | **Type** String **Description** URL of Identity Manager server.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
 |                                                 |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
 | ---                                             | ---                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
 | --log-level optional                            | **Type** LogLevel **Description** Level of log information among: `Verbose`; `Debug`; `Information`; `Warning`; `Error`; `Fatal`.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
@@ -405,7 +415,7 @@ topic for additional information.
 #### Extracted data must have keys
 
 Every extracted resource must have an attribute that serves as a primary key so that Identity
-Manager can uniquely identify the resource to be added/updated/deleted during synchronization. You
+Manager can uniquely identify the resource to be added/updated/deleted during synchronization. You
 must have defined keys during Entity Type creation. See the
 [Create an Entity Type](/docs/identitymanager/6.2/reference/index.md) topic for additional
 information.

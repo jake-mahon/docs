@@ -60,7 +60,7 @@ Code attributes enclosed with `<>` need to be replaced with a custom value befor
 script in the command line.
 
 ```
-<AccessCertificationOnlyApproveDeny="true"/> 
+<AccessCertificationOnlyApproveDeny="true"/>
 ```
 
 If the feature **Only allow approving and denying on access certification items** is set to **Yes**,

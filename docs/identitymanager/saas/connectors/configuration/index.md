@@ -473,7 +473,7 @@ Create a resource type by proceeding as follows:
      the workflow to launch within Identity Manager, or the identifier of the user's record to
      copy. See the [Provision](/docs/identitymanager/saas/provisioning/index.md) topic for additional
      information.
-   - `Allow Addition`: enables Identity Manager to automatically create new resources in the
+   - `Allow Addition`: enables Identity Manager to automatically create new resources in the
      managed system when their owners are given the right entitlements. Otherwise, resource
      managers must create resources manually directly in the managed system.
 
@@ -491,7 +491,7 @@ Create a resource type by proceeding as follows:
      > accounts are configured with `Allow Removal` disabled. Finally, consider a given user who
      > has the role `SAP` and the corresponding SAP account. In this case, if we deprive said
      > user from the role `SAP`, then the SAP account isn't automatically deleted. Identity
-     > Manager displays this assignment as non-conforming on the **Resource Reconciliation**
+     > Manager displays this assignment as non-conforming on the **Resource Reconciliation**
      > page, and the relevant resource manager must confirm the account deletion.
 
      **Allow Addition / Allow Removal:**
@@ -522,7 +522,7 @@ Create a resource type by proceeding as follows:
      Set to `No`, any manual change of a property's value made directly in the target system will
      be "protected" (only after the change is approved in Identity Manager in **Resource
      Reconciliation**). It means that a future change in the source data will not trigger the
-     provisioning of the new value. Instead, Identity Manager will keep the value of the manual
+     provisioning of the new value. Instead, Identity Manager will keep the value of the manual
      change, and state the value as `Questioned`.
 
      > Consider an HR system (source) whose data isn't often synchronized into Identity Manager.
@@ -531,7 +531,7 @@ Create a resource type by proceeding as follows:
      > with the new name. However, `Discard Manual Assignments` should be enabled because the HR
      > system should still be the authoritative source in case of another change.
 
-   - `Correlate Multiple Resources`: enables Identity Manager to link a single owner to several
+   - `Correlate Multiple Resources`: enables Identity Manager to link a single owner to several
      existing target objects from this resource type.
 
      > Consider records, representing users' positions in the resource type
@@ -1066,13 +1066,13 @@ The TSS connector is similar to RACF in its use, but manages fine-grained entitl
 level than RACF. TSS is at least as complex as RACF, and its connector follows a similar
 simplification as RACF's.
 
-Identity Manager manages users (with their accounts) and groups called here profiles. Both users and
+Identity Manager manages users (with their accounts) and groups called here profiles. Both users and
 profiles are grouped into departments, themselves grouped into partitions. Entitlements are called
 authorizations, and are linked to users through group (profile) membership.
 
 ![User-Group Example - TSS](/img/product_docs/identitymanager/identitymanager/user-guide/set-up/connect-system/connector-modeling/connectormodel_tss.webp)
 
-For TSS, Identity Manager provisions only the link between users and profiles.
+For TSS, Identity Manager provisions only the link between users and profiles.
 
 Identity Manager receives a write access for users and profiles, only a read access for the rest of
 the model. It is interesting to keep the whole model for query goals such as listing a given user's
@@ -1106,7 +1106,7 @@ through a given position and wallet.
 
 ![User-Group Example - SDGE](/img/product_docs/identitymanager/identitymanager/user-guide/set-up/connect-system/connector-modeling/connectormodel_sdge.webp)
 
-For SDGE, Identity Manager provisions only workers and the link between workers and positions.
+For SDGE, Identity Manager provisions only workers and the link between workers and positions.
 
 ### Account-Profile-Transaction
 
@@ -1172,7 +1172,7 @@ User-Group part is explained above.
 
 Transactions are called here authorizations.
 
-For TSS, Identity Manager provisions only the link between users and profiles. Transactions (and the
+For TSS, Identity Manager provisions only the link between users and profiles. Transactions (and the
 rest of the model) are only readable.
 
 ### Star
@@ -1230,7 +1230,7 @@ sites. So a user may be assigned a given entitlement for a given profile, attach
 
 ![Star Model Example](/img/product_docs/identitymanager/identitymanager/user-guide/set-up/connect-system/connector-modeling/connectormodel_starmodel.webp)
 
-For this connector, Identity Manager provisions only the links between accounts and linking objects,
+For this connector, Identity Manager provisions only the links between accounts and linking objects,
 and the links between linking objects and each criterion.
 
 Concerning roles, integrators have two options:

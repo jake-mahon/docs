@@ -84,7 +84,7 @@ script in the command line.
 
 ## Built-in Functions
 
-Identity Manager provides a set of built-in function that implement basic expressions. They can be
+Identity Manager provides a set of built-in function that implement basic expressions. They can be
 used as-is or be included in a C# expression.
 
 Identity Manager's engine automatically passes the main argument to the function during the
@@ -154,7 +154,7 @@ C#:return queryHandler.Select<Directory_Organization>("Select Identifier Where I
 
 ### Logger service
 
-Identity Manager provides a logger service called "logger" to debug C# expressions.
+Identity Manager provides a logger service called "logger" to debug C# expressions.
 
 For example:
 
@@ -306,8 +306,8 @@ script in the command line.
 ```
 <ScalarRule Property="userAccountControl" Expression="C#:bot:return &quot;66048&quot;;" /><ScalarRule Property="userAccountControl" Expression="Literal:66048" />
 <QueryRule Property="parentdn" TargetBinding="dn" SourceExpression="C#:bot:return &quot;OU=Bots,DC=acme,DC=internal&quot;;" /><QueryRule Property="parentdn" TargetBinding="dn" SourceExpression="Literal:OU=Bots,DC=acme,DC=internal" />
-<EntityPropertyExpression Identifier="EntityType_BoolProperty"  EntityType="EntityType" Property="BoolProperty" Expression="Literal:false" /><EntityPropertyExpression Identifier="EntityType_BoolProperty"  EntityType="EntityType" Property="BoolProperty" Expression="Literal:True" /><EntityPropertyExpression Identifier="EntityType_IntProperty"  EntityType="EntityType" Property="IntProperty" Expression="Literal:42" />
-<EntityPropertyExpression Identifier="EntityType_BoolProperty"  EntityType="EntityType" Property="BoolProperty" Expression="Literal:42" /><EntityPropertyExpression Identifier="EntityType_IntProperty"  EntityType="EntityType" Property="IntProperty" Expression="Literal:five" />
+<EntityPropertyExpression Identifier="EntityType_BoolProperty" EntityType="EntityType" Property="BoolProperty" Expression="Literal:false" /><EntityPropertyExpression Identifier="EntityType_BoolProperty" EntityType="EntityType" Property="BoolProperty" Expression="Literal:True" /><EntityPropertyExpression Identifier="EntityType_IntProperty" EntityType="EntityType" Property="IntProperty" Expression="Literal:42" />
+<EntityPropertyExpression Identifier="EntityType_BoolProperty" EntityType="EntityType" Property="BoolProperty" Expression="Literal:42" /><EntityPropertyExpression Identifier="EntityType_IntProperty" EntityType="EntityType" Property="IntProperty" Expression="Literal:five" />
 ```
 
 Literal expressions targeting String properties can accept any value, since it is already a string

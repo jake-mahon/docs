@@ -203,8 +203,8 @@ view from several different forms. This will allow you to reuse some forms in wo
 
 ```
 
-    <Form Identifier="View_Referentiel_Guest_PersonnalData_Base" EntityType="Referentiel_Guest">        <Control DisplayName_L1="Perosnnal Data" OutputType="LayoutFieldset">            <Control DisplayName_L1="Complete Name" OutputType="LayoutRowset">                <Control Binding="LastName" IsRequired="true"/>                <Control Binding="FirstName" IsRequired="true"/>            </Control>            <Control Binding="Mail" ColumnSize="8" IsRequired="true"/>            <Control Binding="PhoneNumber" ColumnSize="8" />        </Control>    </Form>    <Form Identifier="View_Referentiel_Guest_AdditionalData_Base" EntityType="Referentiel_Guest">        <Control DisplayName_L1="Additional information" OutputType="LayoutFieldset">            <Control Binding="Contact" />            <Control Binding="StartDate" />            <Control Binding="EndDate" />        </Control>    </Form>    <Form Identifier="View_Referentiel_Guest_Base" EntityType="Referentiel_Guest" FormType="ResourceViewEntity" Menu="View_Referentiel_Guest"
-        IsDefaultViewForm="true">        <Control OutputType="TransformImport" EmbeddedForm="View_Referentiel_Guest_PersonnalData_Base" />        <Control OutputType="TransformImport" EmbeddedForm="View_Referentiel_Guest_AdditionalData_Base" />    </Form>
+    <Form Identifier="View_Referentiel_Guest_PersonnalData_Base" EntityType="Referentiel_Guest"> <Control DisplayName_L1="Perosnnal Data" OutputType="LayoutFieldset"> <Control DisplayName_L1="Complete Name" OutputType="LayoutRowset"> <Control Binding="LastName" IsRequired="true"/> <Control Binding="FirstName" IsRequired="true"/> </Control> <Control Binding="Mail" ColumnSize="8" IsRequired="true"/> <Control Binding="PhoneNumber" ColumnSize="8" /> </Control> </Form> <Form Identifier="View_Referentiel_Guest_AdditionalData_Base" EntityType="Referentiel_Guest"> <Control DisplayName_L1="Additional information" OutputType="LayoutFieldset"> <Control Binding="Contact" /> <Control Binding="StartDate" /> <Control Binding="EndDate" /> </Control> </Form> <Form Identifier="View_Referentiel_Guest_Base" EntityType="Referentiel_Guest" FormType="ResourceViewEntity" Menu="View_Referentiel_Guest"
+        IsDefaultViewForm="true"> <Control OutputType="TransformImport" EmbeddedForm="View_Referentiel_Guest_PersonnalData_Base" /> <Control OutputType="TransformImport" EmbeddedForm="View_Referentiel_Guest_AdditionalData_Base" /> </Form>
 
 ```
 
@@ -212,7 +212,7 @@ It is also possible to create only one form that contains all the information:
 
 ```
 
-  <Form Identifier="View_Directory_Guest" EntityType="Directory_Guest" FormType="ResourceViewEntity" Menu="View_Directory_Guest" IsDefaultViewForm="true">    <Control DisplayName_L1="Personal Data" DisplayName_L2="Informations personnelles" OutputType="LayoutFieldset">      <Control DisplayName_L1="Full Name" DisplayName_L2="Nom complet" OutputType="LayoutRowset">        <Control Binding="LastName" />        <Control Binding="FirstName" />      </Control>      <Control Binding="Mail" ColumnSize="8" />      <Control Binding="PhoneNumber" ColumnSize="8" />    </Control>    <Control DisplayName_L1="Additional Data" DisplayName_L2="Informations compl�mentaires" OutputType="LayoutFieldset">      <Control Binding="Contact" />      <Control Binding="Company" />      <Control Binding="StartDate" />      <Control Binding="EndDate" />      <Control Binding="Comments" />    </Control>  </Form>
+  <Form Identifier="View_Directory_Guest" EntityType="Directory_Guest" FormType="ResourceViewEntity" Menu="View_Directory_Guest" IsDefaultViewForm="true"> <Control DisplayName_L1="Personal Data" DisplayName_L2="Informations personnelles" OutputType="LayoutFieldset"> <Control DisplayName_L1="Full Name" DisplayName_L2="Nom complet" OutputType="LayoutRowset"> <Control Binding="LastName" /> <Control Binding="FirstName" /> </Control> <Control Binding="Mail" ColumnSize="8" /> <Control Binding="PhoneNumber" ColumnSize="8" /> </Control> <Control DisplayName_L1="Additional Data" DisplayName_L2="Informations compl�mentaires" OutputType="LayoutFieldset"> <Control Binding="Contact" /> <Control Binding="Company" /> <Control Binding="StartDate" /> <Control Binding="EndDate" /> <Control Binding="Comments" /> </Control> </Form>
 
 ```
 
@@ -235,9 +235,9 @@ display, you must change the
 
 ```
 
-    <Form Identifier="Referentiel_UserRecord_View" EntityType="Referentiel_UserRecord">        <Control DisplayName_L1="Personal Data" OutputType="LayoutFieldset">            <Control Binding="LastName" IsReadOnly="true"/>            <Control Binding="FirstName" IsReadOnly="true"/>        </Control>        <Control DisplayName_L1="Country" OutputType="LayoutFieldset">            <Control Binding="Country" IsReadOnly="true"/>        </Control>        <Control DisplayName_L1="Contract" OutputType="LayoutFieldset">            <Control Binding="Supervisor" IsReadOnly="true" />            <Control Binding="Category" IsReadOnly="true"/>            <Control Binding="ContractStartDate" IsReadOnly="true"/>            <Control Binding="ContractEndDate" IsReadOnly="true"/>        </Control>    </Form>    <Form Identifier="Referentiel_UserRecord_ViewPosition" EntityType="Referentiel_UserRecord">        <Control DisplayName_L1="Poste" OutputType="LayoutFieldset">            <Control Binding="Site" />            <Control Binding="Service" />            <Control Binding="StartDate" />            <Control Binding="EndDate" />        </Control>    </Form>    <Form Identifier="Referentiel_User_ViewManagement" EntityType="Referentiel_User">        <Control DisplayName_L1="Management" OutputType="LayoutFieldset">            <Control Binding="Guests" />            <Control Binding="ManagedPeople" />        </Control>    </Form>    <Form Identifier="Referentiel_User_View" EntityType="Referentiel_User" FormType="ResourceViewRecordEntity"
+    <Form Identifier="Referentiel_UserRecord_View" EntityType="Referentiel_UserRecord"> <Control DisplayName_L1="Personal Data" OutputType="LayoutFieldset"> <Control Binding="LastName" IsReadOnly="true"/> <Control Binding="FirstName" IsReadOnly="true"/> </Control> <Control DisplayName_L1="Country" OutputType="LayoutFieldset"> <Control Binding="Country" IsReadOnly="true"/> </Control> <Control DisplayName_L1="Contract" OutputType="LayoutFieldset"> <Control Binding="Supervisor" IsReadOnly="true" /> <Control Binding="Category" IsReadOnly="true"/> <Control Binding="ContractStartDate" IsReadOnly="true"/> <Control Binding="ContractEndDate" IsReadOnly="true"/> </Control> </Form> <Form Identifier="Referentiel_UserRecord_ViewPosition" EntityType="Referentiel_UserRecord"> <Control DisplayName_L1="Poste" OutputType="LayoutFieldset"> <Control Binding="Site" /> <Control Binding="Service" /> <Control Binding="StartDate" /> <Control Binding="EndDate" /> </Control> </Form> <Form Identifier="Referentiel_User_ViewManagement" EntityType="Referentiel_User"> <Control DisplayName_L1="Management" OutputType="LayoutFieldset"> <Control Binding="Guests" /> <Control Binding="ManagedPeople" /> </Control> </Form> <Form Identifier="Referentiel_User_View" EntityType="Referentiel_User" FormType="ResourceViewRecordEntity"
       Menu="Menu_Referentiel_User" RecordProperty="Referentiel_User:Records" IsDefaultViewForm="true"
-      RecordStartProperty="Referentiel_UserRecord:StartDate" RecordEndProperty="Referentiel_UserRecord:EndDate" RecordFilter="All" >        <Control OutputType="TransformImport" EmbeddedForm="Referentiel_User_ViewManagement" />        <Control OutputType="TransformImport" EmbeddedForm="Referentiel_UserRecord_View" />        <Control OutputType="TransformImport" EmbeddedForm="Referentiel_UserRecord_ViewPosition" />    </Form>
+      RecordStartProperty="Referentiel_UserRecord:StartDate" RecordEndProperty="Referentiel_UserRecord:EndDate" RecordFilter="All" > <Control OutputType="TransformImport" EmbeddedForm="Referentiel_User_ViewManagement" /> <Control OutputType="TransformImport" EmbeddedForm="Referentiel_UserRecord_View" /> <Control OutputType="TransformImport" EmbeddedForm="Referentiel_UserRecord_ViewPosition" /> </Form>
 
 ```
 
@@ -263,7 +263,7 @@ The other MenuItems are displayed from left to right.
 
 ```
 
-  <SearchBar EntityType="Directory_User" Menu="Menu_Search_Directory_User" SearchBarDesignElement="Inline">    <Criterion Binding1="MainRecord.EmployeeId" PlaceHolderText_L1="Employee Id" PlaceHolderText_L2="Matricule" InputType="Auto" ColumnSize="2" />    <Criterion Binding1="MainRecord.LastName" InputType="Auto" ColumnSize="2" />    <Criterion Binding1="MainRecord.FirstName" InputType="Auto" ColumnSize="2" />    <Criterion Binding1="MainRecord.Organization" PlaceHolderText_L1="Department" PlaceHolderText_L2="D�partement" InputType="Auto" ColumnSize="2" />    <Criterion Binding1="PresenceState" InputType="ComboboxMultiSelection" ColumnSize="2" DefaultValue="-101;-102" Operator="Equal" />    <Criterion Binding1="MainRecord.Location" PlaceHolderText_L1="Site" PlaceHolderText_L2="Site" InputType="Auto" ColumnSize="2" IsVisibleInAdvancedView="true" />    <Criterion Binding1="MainRecord.Company" PlaceHolderText_L1="Company" PlaceHolderText_L2="Soci�t�" InputType="Auto" ColumnSize="2" IsVisibleInAdvancedView="true" />    <Criterion Binding1="MainRecord.Title" PlaceHolderText_L1="Title" PlaceHolderText_L2="Fonction" InputType="Auto" ColumnSize="2" IsVisibleInAdvancedView="true" />    <Criterion Binding1="MainRecord.EmployeeType.Category" PlaceHolderText_L1="User Type" PlaceHolderText_L2="Cat�gorie de collaborateur" InputType="Auto" ColumnSize="2" IsVisibleInAdvancedView="true" />  </SearchBar>  <MenuItem Identifier="Menu_Search_Directory_User" DisplayName_L1="Menu">    <MenuItem Identifier="Menu_Search_Directory_User_StartInternal" DisplayName_L1="New Employee" DisplayName_L2="Entr�e d'un interne" IconCode="AddFriend" Workflow="Directory_User_StartInternal" />    <MenuItem Identifier="Menu_Search_Directory_User_StartExternal" DisplayName_L1="New Contractor" DisplayName_L2="Entr�e d'un externe" IconCode="AddFriend" Workflow="Directory_User_StartExternal" />    <MenuItem Identifier="Menu_Search_Directory_User_AdvancedStartInternal" DisplayName_L1="New Multi-Positions User" DisplayName_L2="Entr�e multipostes" IconCode="AddFriend" Workflow="Directory_User_AdvancedStartInternal" />    <MenuItem Identifier="Menu_Search_Directory_User_Helpdesk_Start" DisplayName_L1="New User (helpdesk)" DisplayName_L2="Entr�e (support)" IconCode="AddFriend" Workflow="Helpdesk_Directory_User_Start" />  </MenuItem>
+  <SearchBar EntityType="Directory_User" Menu="Menu_Search_Directory_User" SearchBarDesignElement="Inline"> <Criterion Binding1="MainRecord.EmployeeId" PlaceHolderText_L1="Employee Id" PlaceHolderText_L2="Matricule" InputType="Auto" ColumnSize="2" /> <Criterion Binding1="MainRecord.LastName" InputType="Auto" ColumnSize="2" /> <Criterion Binding1="MainRecord.FirstName" InputType="Auto" ColumnSize="2" /> <Criterion Binding1="MainRecord.Organization" PlaceHolderText_L1="Department" PlaceHolderText_L2="D�partement" InputType="Auto" ColumnSize="2" /> <Criterion Binding1="PresenceState" InputType="ComboboxMultiSelection" ColumnSize="2" DefaultValue="-101;-102" Operator="Equal" /> <Criterion Binding1="MainRecord.Location" PlaceHolderText_L1="Site" PlaceHolderText_L2="Site" InputType="Auto" ColumnSize="2" IsVisibleInAdvancedView="true" /> <Criterion Binding1="MainRecord.Company" PlaceHolderText_L1="Company" PlaceHolderText_L2="Soci�t�" InputType="Auto" ColumnSize="2" IsVisibleInAdvancedView="true" /> <Criterion Binding1="MainRecord.Title" PlaceHolderText_L1="Title" PlaceHolderText_L2="Fonction" InputType="Auto" ColumnSize="2" IsVisibleInAdvancedView="true" /> <Criterion Binding1="MainRecord.EmployeeType.Category" PlaceHolderText_L1="User Type" PlaceHolderText_L2="Cat�gorie de collaborateur" InputType="Auto" ColumnSize="2" IsVisibleInAdvancedView="true" /> </SearchBar> <MenuItem Identifier="Menu_Search_Directory_User" DisplayName_L1="Menu"> <MenuItem Identifier="Menu_Search_Directory_User_StartInternal" DisplayName_L1="New Employee" DisplayName_L2="Entr�e d'un interne" IconCode="AddFriend" Workflow="Directory_User_StartInternal" /> <MenuItem Identifier="Menu_Search_Directory_User_StartExternal" DisplayName_L1="New Contractor" DisplayName_L2="Entr�e d'un externe" IconCode="AddFriend" Workflow="Directory_User_StartExternal" /> <MenuItem Identifier="Menu_Search_Directory_User_AdvancedStartInternal" DisplayName_L1="New Multi-Positions User" DisplayName_L2="Entr�e multipostes" IconCode="AddFriend" Workflow="Directory_User_AdvancedStartInternal" /> <MenuItem Identifier="Menu_Search_Directory_User_Helpdesk_Start" DisplayName_L1="New User (helpdesk)" DisplayName_L2="Entr�e (support)" IconCode="AddFriend" Workflow="Helpdesk_Directory_User_Start" /> </MenuItem>
 
 ```
 
@@ -279,7 +279,7 @@ These workflows will manipulate the selected resource in the view.
 
 ```
 
-  <ResourceViewRecordEntityForm Identifier="Directory_User_View" EntityType="Directory_User" Menu="Menu_Directory_User" RecordProperty="Directory_User:Records" RecordStartProperty="Directory_UserRecord:ContractStartDate" RecordEndProperty="Directory_UserRecord:ContractEndDate" RecordFilter="All" IsDefaultViewForm="true">    <MainControl OutputType="LayoutContainer"></MainControl>    <RecordControl OutputType="TransformImport" EmbeddedForm="Directory_UserRecord_View" />    <RecordItemControl OutputType="TransformImport" EmbeddedForm="Directory_UserRecord_ViewPosition" />    <RecordUniqueItemControl OutputType="TransformImport" EmbeddedForm="Directory_UserRecord_ViewPosition" />  </ResourceViewRecordEntityForm>  <MenuItem Identifier="Menu_Directory_User" DisplayName_L1="Menu">    <MenuItem Identifier="Menu_Directory_User_Changes" DisplayName_L1="Actions" DisplayName_L2="Actions">      <MenuItem Identifier="Menu_Directory_User_Changes_Add" DisplayName_L1="Section">        <MenuItem Identifier="Menu_Directory_User_Changes_AddRecord" DisplayName_L1="Add a new Position" DisplayName_L2="Ajouter un poste" IconCode="Add" Workflow="Directory_User_AddRecord" />        <MenuItem Identifier="Menu_Directory_User_Changes_AddContract" DisplayName_L1="Add a new Contract" DisplayName_L2="Ajouter un contrat" IconCode="Add" Workflow="Directory_User_AddContract" />      </MenuItem>      <MenuItem Identifier="Menu_Directory_User_Changes_Update" DisplayName_L1="Section">        <MenuItem Identifier="Menu_Directory_User_Changes_ChangePosition" DisplayName_L1="Schedule a Job Change" DisplayName_L2="Mouvement � date" IconCode="Edit" Workflow="Directory_User_ChangePosition" />        <MenuItem Identifier="Menu_Directory_User_Changes_ManageContract" DisplayName_L1="Manage Contract" DisplayName_L2="Gestion du contrat" IconCode="Edit" Workflow="Directory_User_ManageContract" />        <MenuItem Identifier="Menu_Directory_User_Changes_ChangeName" DisplayName_L1="Update Name" DisplayName_L2="Changer le nom" IconCode="Edit" Workflow="Directory_User_ChangeName" />        <MenuItem Identifier="Menu_Directory_User_Changes_ResourcesUpdate" DisplayName_L1="Modify Permissions" DisplayName_L2="Demander des droits" IconCode="Edit" Workflow="Directory_User_ResourcesUpdate" />        <MenuItem Identifier="Menu_Directory_User_Changes_Suspend" DisplayName_L1="Suspend" DisplayName_L2="Suspendre" IconCode="Edit" Workflow="Directory_User_Suspend" />        <MenuItem Identifier="Menu_Directory_User_AdvancedUpdate" DisplayName_L1="Multi-position Update" DisplayName_L2="Modification multipostes" IconCode="Edit" Workflow="Directory_User_AdvancedUpdate" />      </MenuItem>      <MenuItem Identifier="Menu_Directory_User_Changes_Directory_User_End" DisplayName_L1="Schedule the Exit" DisplayName_L2="Planifier le d�part" IconCode="Cancel" Workflow="Directory_User_End" />    </MenuItem>    <MenuItem Identifier="Menu_Directory_User_Helpdesk" DisplayName_L1="Helpdesk" DisplayName_L2="Support" IconCode="Phone">      <MenuItem Identifier="Menu_Directory_User_Helpdesk_Update" DisplayName_L1="Section">        <MenuItem Identifier="Menu_Directory_User_Helpdesk_FixRecord" DisplayName_L1="Repair Data (helpdesk)" DisplayName_L2="Corriger des donn�es (support)" IconCode="Edit" Workflow="Helpdesk_Directory_User_FixRecord" />      </MenuItem>      <MenuItem Identifier="Menu_Directory_User_Helpdesk_Delete" DisplayName_L1="Section">        <MenuItem Identifier="Menu_Directory_User_Helpdesk_Directory_User_Delete" DisplayName_L1="Delete User (helpdesk)" DisplayName_L2="Supprimer (support)" IconCode="Cancel" Workflow="Helpdesk_Directory_User_Delete" />      </MenuItem>    </MenuItem>  </MenuItem>
+  <ResourceViewRecordEntityForm Identifier="Directory_User_View" EntityType="Directory_User" Menu="Menu_Directory_User" RecordProperty="Directory_User:Records" RecordStartProperty="Directory_UserRecord:ContractStartDate" RecordEndProperty="Directory_UserRecord:ContractEndDate" RecordFilter="All" IsDefaultViewForm="true"> <MainControl OutputType="LayoutContainer"></MainControl> <RecordControl OutputType="TransformImport" EmbeddedForm="Directory_UserRecord_View" /> <RecordItemControl OutputType="TransformImport" EmbeddedForm="Directory_UserRecord_ViewPosition" /> <RecordUniqueItemControl OutputType="TransformImport" EmbeddedForm="Directory_UserRecord_ViewPosition" /> </ResourceViewRecordEntityForm> <MenuItem Identifier="Menu_Directory_User" DisplayName_L1="Menu"> <MenuItem Identifier="Menu_Directory_User_Changes" DisplayName_L1="Actions" DisplayName_L2="Actions"> <MenuItem Identifier="Menu_Directory_User_Changes_Add" DisplayName_L1="Section"> <MenuItem Identifier="Menu_Directory_User_Changes_AddRecord" DisplayName_L1="Add a new Position" DisplayName_L2="Ajouter un poste" IconCode="Add" Workflow="Directory_User_AddRecord" /> <MenuItem Identifier="Menu_Directory_User_Changes_AddContract" DisplayName_L1="Add a new Contract" DisplayName_L2="Ajouter un contrat" IconCode="Add" Workflow="Directory_User_AddContract" /> </MenuItem> <MenuItem Identifier="Menu_Directory_User_Changes_Update" DisplayName_L1="Section"> <MenuItem Identifier="Menu_Directory_User_Changes_ChangePosition" DisplayName_L1="Schedule a Job Change" DisplayName_L2="Mouvement � date" IconCode="Edit" Workflow="Directory_User_ChangePosition" /> <MenuItem Identifier="Menu_Directory_User_Changes_ManageContract" DisplayName_L1="Manage Contract" DisplayName_L2="Gestion du contrat" IconCode="Edit" Workflow="Directory_User_ManageContract" /> <MenuItem Identifier="Menu_Directory_User_Changes_ChangeName" DisplayName_L1="Update Name" DisplayName_L2="Changer le nom" IconCode="Edit" Workflow="Directory_User_ChangeName" /> <MenuItem Identifier="Menu_Directory_User_Changes_ResourcesUpdate" DisplayName_L1="Modify Permissions" DisplayName_L2="Demander des droits" IconCode="Edit" Workflow="Directory_User_ResourcesUpdate" /> <MenuItem Identifier="Menu_Directory_User_Changes_Suspend" DisplayName_L1="Suspend" DisplayName_L2="Suspendre" IconCode="Edit" Workflow="Directory_User_Suspend" /> <MenuItem Identifier="Menu_Directory_User_AdvancedUpdate" DisplayName_L1="Multi-position Update" DisplayName_L2="Modification multipostes" IconCode="Edit" Workflow="Directory_User_AdvancedUpdate" /> </MenuItem> <MenuItem Identifier="Menu_Directory_User_Changes_Directory_User_End" DisplayName_L1="Schedule the Exit" DisplayName_L2="Planifier le d�part" IconCode="Cancel" Workflow="Directory_User_End" /> </MenuItem> <MenuItem Identifier="Menu_Directory_User_Helpdesk" DisplayName_L1="Helpdesk" DisplayName_L2="Support" IconCode="Phone"> <MenuItem Identifier="Menu_Directory_User_Helpdesk_Update" DisplayName_L1="Section"> <MenuItem Identifier="Menu_Directory_User_Helpdesk_FixRecord" DisplayName_L1="Repair Data (helpdesk)" DisplayName_L2="Corriger des donn�es (support)" IconCode="Edit" Workflow="Helpdesk_Directory_User_FixRecord" /> </MenuItem> <MenuItem Identifier="Menu_Directory_User_Helpdesk_Delete" DisplayName_L1="Section"> <MenuItem Identifier="Menu_Directory_User_Helpdesk_Directory_User_Delete" DisplayName_L1="Delete User (helpdesk)" DisplayName_L2="Supprimer (support)" IconCode="Cancel" Workflow="Helpdesk_Directory_User_Delete" /> </MenuItem> </MenuItem> </MenuItem>
 
 ```
 
@@ -302,7 +302,7 @@ Code attributes enclosed with `<>` need to be replaced with a custom value befor
 script in the command line.
 
 ```
-<DisplayTable Identifier="Referentiel_Guest" DisplayTableDesignElement="table" EntityType="Referentiel_Guest" IsEntityTypeDefault="true">        <Column CanBeFiltered="true" DisplayBinding="Referentiel_Guest:Login" IsDisplayInSummaryView="true" IsResizable="true" IsSortable="true" />        <Column CanBeFiltered="true" DefaultSortPriority="0" DisplayBinding="Referentiel_Guest:LastName" IsDisplayInSummaryView="true" IsResizable="true" IsSortable="true" />        <Column CanBeFiltered="true" DisplayBinding="Referentiel_Guest:FirstName" IsDisplayInSummaryView="true" IsResizable="true" IsSortable="true" />        <Column CanBeFiltered="false" DisplayBinding="Referentiel_Guest:PhoneNumber" DisplayName_L1="Telephone" IsDisplayInSummaryView="true" IsResizable="true" IsSortable="true" />    </DisplayTable>
+<DisplayTable Identifier="Referentiel_Guest" DisplayTableDesignElement="table" EntityType="Referentiel_Guest" IsEntityTypeDefault="true"> <Column CanBeFiltered="true" DisplayBinding="Referentiel_Guest:Login" IsDisplayInSummaryView="true" IsResizable="true" IsSortable="true" /> <Column CanBeFiltered="true" DefaultSortPriority="0" DisplayBinding="Referentiel_Guest:LastName" IsDisplayInSummaryView="true" IsResizable="true" IsSortable="true" /> <Column CanBeFiltered="true" DisplayBinding="Referentiel_Guest:FirstName" IsDisplayInSummaryView="true" IsResizable="true" IsSortable="true" /> <Column CanBeFiltered="false" DisplayBinding="Referentiel_Guest:PhoneNumber" DisplayName_L1="Telephone" IsDisplayInSummaryView="true" IsResizable="true" IsSortable="true" /> </DisplayTable>
 ```
 
 Here is the visualization of this display table on the interface:
@@ -323,7 +323,7 @@ Code attributes enclosed with `<>` need to be replaced with a custom value befor
 script in the command line.
 
 ```
-<DisplayTable Identifier="AD_Entry" EntityType="AD_Entry" DisplayTableDesignElement="resourcetable" IsEntityTypeDefault="true">    <Column DefaultSortPriority="1" DisplayBinding="dn" IsDisplayInSummaryView="true" IsResizable="true" IsSortable="true" CanBeFiltered="true" ColumnSize="4" />    <Column DisplayBinding="userPrincipalName" IsDisplayInSummaryView="true" IsResizable="true" IsSortable="true" CanBeFiltered="true" ColumnSize="2" />    <Column DisplayBinding="userAccountControl" IsDisplayInSummaryView="true" IsResizable="true" IsSortable="true" CanBeFiltered="true" ColumnSize="1" />    <Column DisplayBinding="rdn" IsDisplayInSummaryView="true" IsResizable="true" IsSortable="true" CanBeFiltered="true" ColumnSize="2" />    <Column DisplayBinding="displayName" IsDisplayInSummaryView="true" IsResizable="true" IsSortable="true" CanBeFiltered="true" ColumnSize="2" />    <Column DisplayBinding="objectCategory" IsDisplayInSummaryView="true" IsResizable="true" IsSortable="true" CanBeFiltered="true" ColumnSize="2" />  </DisplayTable>
+<DisplayTable Identifier="AD_Entry" EntityType="AD_Entry" DisplayTableDesignElement="resourcetable" IsEntityTypeDefault="true"> <Column DefaultSortPriority="1" DisplayBinding="dn" IsDisplayInSummaryView="true" IsResizable="true" IsSortable="true" CanBeFiltered="true" ColumnSize="4" /> <Column DisplayBinding="userPrincipalName" IsDisplayInSummaryView="true" IsResizable="true" IsSortable="true" CanBeFiltered="true" ColumnSize="2" /> <Column DisplayBinding="userAccountControl" IsDisplayInSummaryView="true" IsResizable="true" IsSortable="true" CanBeFiltered="true" ColumnSize="1" /> <Column DisplayBinding="rdn" IsDisplayInSummaryView="true" IsResizable="true" IsSortable="true" CanBeFiltered="true" ColumnSize="2" /> <Column DisplayBinding="displayName" IsDisplayInSummaryView="true" IsResizable="true" IsSortable="true" CanBeFiltered="true" ColumnSize="2" /> <Column DisplayBinding="objectCategory" IsDisplayInSummaryView="true" IsResizable="true" IsSortable="true" CanBeFiltered="true" ColumnSize="2" /> </DisplayTable>
 ```
 
 Here is the visualization of this resource table on the interface:
@@ -348,7 +348,7 @@ Code attributes enclosed with `<>` need to be replaced with a custom value befor
 script in the command line.
 
 ```
-<Tile Identifier="Directory_User_Tile1" DisplayName_L1="User: first/last name" DisplayName_L2="Collaborateur : nom, prenom" EntityType="Directory_User" TileDesignElement="picture-text">    <Item Binding="MainRecord.FirstName" LineDisplayOrderIndicator="1" LineNumber="2" />    <Item Binding="MainRecord.LastName" LineDisplayOrderIndicator="2" LineNumber="2" />    <Item Binding="MainRecord.Title.DisplayName" LineNumber="3" />    <Item Binding="Id" LineNumber="5" />    <Item Binding="PhotoTag" LineNumber="6" />  </Tile>  <Tile Identifier="Directory_User_Tile2" DisplayName_L1="User: dep/loc" DisplayName_L2="Collaborateur : orga/site" EntityType="Directory_User" TileDesignElement="inline data-icon">    <Item Binding="MainRecord.Organization.DisplayName" LineNumber="1" />    <Item Binding="MainRecord.Location.DisplayName" LineNumber="2" />  </Tile>  <Tile Identifier="Directory_User_Tile3" DisplayName_L1="User: contact" DisplayName_L2="Collaborateur : contact" EntityType="Directory_User" TileDesignElement="inline data-icon">    <Item Binding="MainRecord.PhoneNumber" LineNumber="1" />    <Item Binding="MainRecord.MobileNumber" LineNumber="2" />  </Tile>  <DisplayTable Identifier="Directory_User" EntityType="Directory_User" DisplayTableDesignElement="list" IsEntityTypeDefault="true">    <Column DefaultSortPriority="1" ColumnSize="6" IsDisplayInSummaryView="true" SortBinding="MainRecord.LastName" Tile="Directory_User_Tile1" />    <Column ColumnSize="3" IsDisplayInSummaryView="true" Tile="Directory_User_Tile2" />    <Column ColumnSize="3" Tile="Directory_User_Tile3" />  </DisplayTable>
+<Tile Identifier="Directory_User_Tile1" DisplayName_L1="User: first/last name" DisplayName_L2="Collaborateur : nom, prenom" EntityType="Directory_User" TileDesignElement="picture-text"> <Item Binding="MainRecord.FirstName" LineDisplayOrderIndicator="1" LineNumber="2" /> <Item Binding="MainRecord.LastName" LineDisplayOrderIndicator="2" LineNumber="2" /> <Item Binding="MainRecord.Title.DisplayName" LineNumber="3" /> <Item Binding="Id" LineNumber="5" /> <Item Binding="PhotoTag" LineNumber="6" /> </Tile> <Tile Identifier="Directory_User_Tile2" DisplayName_L1="User: dep/loc" DisplayName_L2="Collaborateur : orga/site" EntityType="Directory_User" TileDesignElement="inline data-icon"> <Item Binding="MainRecord.Organization.DisplayName" LineNumber="1" /> <Item Binding="MainRecord.Location.DisplayName" LineNumber="2" /> </Tile> <Tile Identifier="Directory_User_Tile3" DisplayName_L1="User: contact" DisplayName_L2="Collaborateur : contact" EntityType="Directory_User" TileDesignElement="inline data-icon"> <Item Binding="MainRecord.PhoneNumber" LineNumber="1" /> <Item Binding="MainRecord.MobileNumber" LineNumber="2" /> </Tile> <DisplayTable Identifier="Directory_User" EntityType="Directory_User" DisplayTableDesignElement="list" IsEntityTypeDefault="true"> <Column DefaultSortPriority="1" ColumnSize="6" IsDisplayInSummaryView="true" SortBinding="MainRecord.LastName" Tile="Directory_User_Tile1" /> <Column ColumnSize="3" IsDisplayInSummaryView="true" Tile="Directory_User_Tile2" /> <Column ColumnSize="3" Tile="Directory_User_Tile3" /> </DisplayTable>
 ```
 
 Here is the visualization of this display table on the interface:
@@ -372,7 +372,7 @@ To search on a resource list for an entity, you must enter a SearchBar tag for t
 
 ```
 
-  <SearchBar EntityType="Directory_User" Menu="Menu_Search_Directory_User" SearchBarDesignElement="Inline">    <Criterion Binding1="MainRecord.EmployeeId" PlaceHolderText_L1="Employee Id" PlaceHolderText_L2="Matricule" InputType="Auto" ColumnSize="2" />    <Criterion Binding1="MainRecord.LastName" InputType="Auto" ColumnSize="2" />    <Criterion Binding1="MainRecord.FirstName" InputType="Auto" ColumnSize="2" />    <Criterion Binding1="MainRecord.Organization" PlaceHolderText_L1="Department" PlaceHolderText_L2="D�partement" InputType="Auto" ColumnSize="2" />    <Criterion Binding1="PresenceState" InputType="ComboboxMultiSelection" ColumnSize="2" />    <Criterion Binding1="MainRecord.Location" PlaceHolderText_L1="Site" PlaceHolderText_L2="Site" InputType="Auto" ColumnSize="2" IsVisibleInAdvancedView="true" />    <Criterion Binding1="MainRecord.Company" PlaceHolderText_L1="Company" PlaceHolderText_L2="Soci�t�" InputType="Auto" ColumnSize="2" IsVisibleInAdvancedView="true" />    <Criterion Binding1="MainRecord.Title" PlaceHolderText_L1="Title" PlaceHolderText_L2="Fonction" InputType="Auto" ColumnSize="2" IsVisibleInAdvancedView="true" />    <Criterion Binding1="MainRecord.EmployeeType.Category" PlaceHolderText_L1="User Type" PlaceHolderText_L2="Cat�gorie de collaborateur" InputType="Auto" ColumnSize="2" IsVisibleInAdvancedView="true" />  </SearchBar>
+  <SearchBar EntityType="Directory_User" Menu="Menu_Search_Directory_User" SearchBarDesignElement="Inline"> <Criterion Binding1="MainRecord.EmployeeId" PlaceHolderText_L1="Employee Id" PlaceHolderText_L2="Matricule" InputType="Auto" ColumnSize="2" /> <Criterion Binding1="MainRecord.LastName" InputType="Auto" ColumnSize="2" /> <Criterion Binding1="MainRecord.FirstName" InputType="Auto" ColumnSize="2" /> <Criterion Binding1="MainRecord.Organization" PlaceHolderText_L1="Department" PlaceHolderText_L2="D�partement" InputType="Auto" ColumnSize="2" /> <Criterion Binding1="PresenceState" InputType="ComboboxMultiSelection" ColumnSize="2" /> <Criterion Binding1="MainRecord.Location" PlaceHolderText_L1="Site" PlaceHolderText_L2="Site" InputType="Auto" ColumnSize="2" IsVisibleInAdvancedView="true" /> <Criterion Binding1="MainRecord.Company" PlaceHolderText_L1="Company" PlaceHolderText_L2="Soci�t�" InputType="Auto" ColumnSize="2" IsVisibleInAdvancedView="true" /> <Criterion Binding1="MainRecord.Title" PlaceHolderText_L1="Title" PlaceHolderText_L2="Fonction" InputType="Auto" ColumnSize="2" IsVisibleInAdvancedView="true" /> <Criterion Binding1="MainRecord.EmployeeType.Category" PlaceHolderText_L1="User Type" PlaceHolderText_L2="Cat�gorie de collaborateur" InputType="Auto" ColumnSize="2" IsVisibleInAdvancedView="true" /> </SearchBar>
 
 ```
 
@@ -477,7 +477,7 @@ for example.
 
 ### Form types
 
-Identity Manager provides a few form types. Each form type implies the necessity of specific
+Identity Manager provides a few form types. Each form type implies the necessity of specific
 controls as child elements with specific purposes.
 
 The following table presents the required child controls required for each form type applicable to a
@@ -545,7 +545,7 @@ follow the naming rule:
 A permission specifying the activity without the activity state gives the permissions for all
 activity states in this activity.
 
-For example: `Permission="/Custom/Workflows/Directory_User_StartInternal/Request"`  
+For example: `Permission="/Custom/Workflows/Directory_User_StartInternal/Request"`
 **Caution**: this way of writing permissions is unsafe in case of a modification in the activity. So
 use it only for a "super admin" kind of profile if you are certain you want to give all rights.
 
@@ -562,7 +562,7 @@ Identity Manager's UI is configured so that workflows are accesible from:
 ## Aspects
 
 An [Aspects](/docs/identitymanager/saas/configuration/xml-configuration/scaffoldings.md) definition allows an action to
-be performed at a specific point in a workflow. Identity Manager provides a few
+be performed at a specific point in a workflow. Identity Manager provides a few
 [Aspects](/docs/identitymanager/saas/configuration/xml-configuration/scaffoldings.md) templates that give the
 opportunity to delegate administration, to notify people of a request's progress and to compute
 special values like unique logins or email addresses.
@@ -627,7 +627,7 @@ allow to define customized filters for a homonym detection.
 #### Simple filter
 
 ```
-<HomonymEntityLink FormEntityType="Directory_UserRecord" Identifier="Directory_UserRecord_Homonym">    <Filter
+<HomonymEntityLink FormEntityType="Directory_UserRecord" Identifier="Directory_UserRecord_Homonym"> <Filter
         Property1="LastName"
         Property2="FirstName"
     /></HomonymEntityLink>
@@ -649,14 +649,14 @@ A homonym entity link can contain filters on the properties from several distinc
 >
 > ```
 >
-> <HomonymEntityLink FormEntityType="Directory_UserRecord" Identifier="Directory_UserRecord">  <Filter
->       Property1="LastName"
->       Property2="FirstName"
->   />
->   <Filter
->       Property1="LastName" ComparisonProperty1="Directory_Guest:LastName"
->       Property2="FirstName" ComparisonProperty2="Directory_Guest:FirstName"
->    />
+> <HomonymEntityLink FormEntityType="Directory_UserRecord" Identifier="Directory_UserRecord"> <Filter
+> Property1="LastName"
+> Property2="FirstName"
+> />
+> <Filter
+> Property1="LastName" ComparisonProperty1="Directory_Guest:LastName"
+> Property2="FirstName" ComparisonProperty2="Directory_Guest:FirstName"
+> />
 > </HomonymEntityLink>
 >
 > ```
@@ -673,7 +673,7 @@ A filter can be defined to compare the values in an approximate way.
 1. When the input detection value is retrieved directly from the property value
 
    ```
-   <HomonymEntityLink FormEntityType="Directory_UserRecord" Identifier="Directory_UserRecord_Homonym">    <Filter
+   <HomonymEntityLink FormEntityType="Directory_UserRecord" Identifier="Directory_UserRecord_Homonym"> <Filter
            Property1="LastName" ComparisonProperty1="PhoneticLastName" Operator1="FlexibleEqual"
            Property2="FirstName" ComparisonProperty2="PhoneticFirstName" Operator2="FlexibleEqual"
        /></HomonymEntityLink>
@@ -690,9 +690,9 @@ the input value.
 2. When the input detection value is deducted
 
    ```
-   <HomonymEntityLink FormEntityType="Directory_UserRecord" Identifier="Directory_UserRecord_Homonym">    <Filter
+   <HomonymEntityLink FormEntityType="Directory_UserRecord" Identifier="Directory_UserRecord_Homonym"> <Filter
            ComparisonProperty1="PhoneticFirstLastName" Operator1="FlexibleEqual"
-       />    <Filter
+       /> <Filter
            ComparisonProperty1="PhoneticFirstLastName" Operator1="FlexibleEqual" Expression1="C#:record:(record.LastName + ' ' + record.FirstName).Appproximate()"
        /></HomonymEntityLink>
 
@@ -717,7 +717,7 @@ If a filter is set on a language property, the detection for homonyms is perform
 associated to the main language.
 
 ```
-<HomonymEntityLink FormEntityType="Directory_Organization" Identifier="Directory_Organization_Homonym">    <Filter Property1="Name" /></HomonymEntityLink>
+<HomonymEntityLink FormEntityType="Directory_Organization" Identifier="Directory_Organization_Homonym"> <Filter Property1="Name" /></HomonymEntityLink>
 
 ```
 
@@ -738,7 +738,7 @@ where the `HomonymEntityLink` attribute is the identifier of the homonym entity 
 
 ```
 <DisplayTable Identifier="Directory_UserRecord_Homonym" EntityType="Directory_UserRecord" DisplayTableDesignElement="table" HomonymEntityLink="Directory_UserRecord">
-    <Column DefaultSortPriority="1" DisplayBinding="LastName" IsDisplayInSummaryView="true" IsResizable="true" ColumnSize="1" />    <Column DisplayBinding="FirstName" IsDisplayInSummaryView="true" IsResizable="true" ColumnSize="1" />    <Column DisplayBinding="Login" IsDisplayInSummaryView="true" IsResizable="true" IsSortable="true" CanBeFiltered="true" ColumnSize="2" />    <Column DisplayBinding="Mail" IsDisplayInSummaryView="true" IsResizable="true" IsSortable="true" CanBeFiltered="true" ColumnSize="2" />    <Column DisplayBinding="BirthDate" IsDisplayInSummaryView="true" IsResizable="true" IsSortable="true" CanBeFiltered="true" ColumnSize="4" /></DisplayTable>
+    <Column DefaultSortPriority="1" DisplayBinding="LastName" IsDisplayInSummaryView="true" IsResizable="true" ColumnSize="1" /> <Column DisplayBinding="FirstName" IsDisplayInSummaryView="true" IsResizable="true" ColumnSize="1" /> <Column DisplayBinding="Login" IsDisplayInSummaryView="true" IsResizable="true" IsSortable="true" CanBeFiltered="true" ColumnSize="2" /> <Column DisplayBinding="Mail" IsDisplayInSummaryView="true" IsResizable="true" IsSortable="true" CanBeFiltered="true" ColumnSize="2" /> <Column DisplayBinding="BirthDate" IsDisplayInSummaryView="true" IsResizable="true" IsSortable="true" CanBeFiltered="true" ColumnSize="4" /></DisplayTable>
 
 ```
 
@@ -757,8 +757,8 @@ Indeed, a filter can only be defined on up to 5 properties, see filter definitio
 [ Homonym Entity Link ](/docs/identitymanager/saas/configuration/xml-configuration/scaffoldings.md).
 
 ```
-<Form Identifier="Workflow_Directory_User_AdvancedStartInternal_Base" EntityType="Directory_UserRecord">    <Control DisplayName_L1="Personal Data" DisplayName_L2="Informations personnelles" OutputType="LayoutFieldset" HomonymEntityLink="Directory_UserRecord">
-        <Control DisplayName_L1="Full Name" DisplayName_L2="Nom complet" OutputType="LayoutRowset">            <Control Binding="LastName" IsRequired="true" />            <Control Binding="FirstName" IsRequired="true" />        </Control>    </Control></Form>
+<Form Identifier="Workflow_Directory_User_AdvancedStartInternal_Base" EntityType="Directory_UserRecord"> <Control DisplayName_L1="Personal Data" DisplayName_L2="Informations personnelles" OutputType="LayoutFieldset" HomonymEntityLink="Directory_UserRecord">
+        <Control DisplayName_L1="Full Name" DisplayName_L2="Nom complet" OutputType="LayoutRowset"> <Control Binding="LastName" IsRequired="true" /> <Control Binding="FirstName" IsRequired="true" /> </Control> </Control></Form>
 
 ```
 
@@ -770,7 +770,7 @@ In the example below, the properties used in the `Expression1` attribute that mu
 the control bindings are `LastName` and `FirstName`.
 
 ```
-<HomonymEntityLink FormEntityType="Directory_UserRecord" Identifier="Directory_UserRecord_Homonym">    <Filter
+<HomonymEntityLink FormEntityType="Directory_UserRecord" Identifier="Directory_UserRecord_Homonym"> <Filter
         ComparisonProperty1="PhoneticFirstLastName" Operator1="FlexibleEqual" Expression1="C#:record:(record.LastName + ' ' + record.FirstName).Appproximate()"
     /></HomonymEntityLink>
 
@@ -849,7 +849,7 @@ The example below creates a workflow to update only the user's name.
 
 ```
 
-  <Workflow Identifier="Directory_User_ChangeName" DisplayName_L1="User - Update Name" VariablesType="Workflow_Directory_User">    <Activity Identifier="Request" DisplayName_L1="Request" Template="ActionWithRefine" />    <Activity Identifier="Persist" DisplayName_L1="Commit" Template="Persist" />  </Workflow>
+  <Workflow Identifier="Directory_User_ChangeName" DisplayName_L1="User - Update Name" VariablesType="Workflow_Directory_User"> <Activity Identifier="Request" DisplayName_L1="Request" Template="ActionWithRefine" /> <Activity Identifier="Persist" DisplayName_L1="Commit" Template="Persist" /> </Workflow>
 
 ```
 
@@ -865,7 +865,7 @@ Here we just have the full name field to update the corresponding attributes for
 
 ```
 
-<Form Identifier="Workflow_Directory_User_ChangeName_Base" EntityType="Workflow_Directory_User">  <Control DisplayName_L1="Full Name" OutputType="LayoutRowset" EntityType="Directory_UserRecord">    <Control Binding="LastName" />    <Control Binding="FirstName" />  </Control></Form>
+<Form Identifier="Workflow_Directory_User_ChangeName_Base" EntityType="Workflow_Directory_User"> <Control DisplayName_L1="Full Name" OutputType="LayoutRowset" EntityType="Directory_UserRecord"> <Control Binding="LastName" /> <Control Binding="FirstName" /> </Control></Form>
 
 ```
 
@@ -901,7 +901,7 @@ not involved in the changes of this workflow.
 
 ```
 
-<WorkflowAddAndEndRecordEntityForm Identifier="Workflow_Directory_User_ChangeName" EntityType="Workflow_Directory_User" MainProperty="Workflow_Directory_User:Directory_User" RecordProperty="Directory_User:Records" WorkflowRequestType="Self" Activity="Directory_User_ChangeName:Request" HideRoles="true" FormTitle_L1="Change Name" >  <MainControl OutputType="LayoutContainer"/>
+<WorkflowAddAndEndRecordEntityForm Identifier="Workflow_Directory_User_ChangeName" EntityType="Workflow_Directory_User" MainProperty="Workflow_Directory_User:Directory_User" RecordProperty="Directory_User:Records" WorkflowRequestType="Self" Activity="Directory_User_ChangeName:Request" HideRoles="true" FormTitle_L1="Change Name" > <MainControl OutputType="LayoutContainer"/>
   <RecordControl OutputType="TransformImport" EmbeddedForm="Workflow_Directory_User_ChangeName_Base" />
 </WorkflowAddAndEndRecordEntityForm>
 
@@ -922,7 +922,7 @@ for the whole update request from the previously created workflow:
 
 ```
 
-<AccessControlRule Profile="Administrator" EntityType="Workflow_Directory_User" Identifier="Administrator_Workflows_Directory_User_*" DisplayName_L1="Administrator_Workflows_Directory_User_*">  <Entry Permission="/Custom/Workflows/Directory_User_ChangeName/Request/ActionPending" CanExecute="true" />  <Entry Permission="/Custom/Workflows/Directory_User_ChangeName/Request/RefinePending" CanExecute="true" />  <Entry Permission="/Custom/Workflows/Directory_User_ChangeName/Request/Aborted" CanExecute="true" />  <Entry Permission="/Custom/Workflows/Directory_User_ChangeName/Request/Purged" CanExecute="true" /></AccessControlRule>
+<AccessControlRule Profile="Administrator" EntityType="Workflow_Directory_User" Identifier="Administrator_Workflows_Directory_User_*" DisplayName_L1="Administrator_Workflows_Directory_User_*"> <Entry Permission="/Custom/Workflows/Directory_User_ChangeName/Request/ActionPending" CanExecute="true" /> <Entry Permission="/Custom/Workflows/Directory_User_ChangeName/Request/RefinePending" CanExecute="true" /> <Entry Permission="/Custom/Workflows/Directory_User_ChangeName/Request/Aborted" CanExecute="true" /> <Entry Permission="/Custom/Workflows/Directory_User_ChangeName/Request/Purged" CanExecute="true" /></AccessControlRule>
 
 ```
 
@@ -941,9 +941,9 @@ existing menu items list:
 
 ```
 
-<MenuItem Identifier="Menu_Directory_User" DisplayName_L1="Menu">  <MenuItem Identifier="Menu_Directory_User_Changes" DisplayName_L1="Actions">    <MenuItem Identifier="Menu_Directory_User_Changes_Update" DisplayName_L1="Section">      ...
+<MenuItem Identifier="Menu_Directory_User" DisplayName_L1="Menu"> <MenuItem Identifier="Menu_Directory_User_Changes" DisplayName_L1="Actions"> <MenuItem Identifier="Menu_Directory_User_Changes_Update" DisplayName_L1="Section"> ...
       <MenuItem Identifier="Menu_Directory_User_Changes_ChangeName" DisplayName_L1="Update Name" IconCode="Edit" Workflow="Directory_User_ChangeName" />
-    </MenuItem>  </MenuItem></MenuItem>
+    </MenuItem> </MenuItem></MenuItem>
 
 ```
 
@@ -990,7 +990,7 @@ several records at once for said worker.
 
 ```
 
-<Workflow Identifier="Helpdesk_Directory_User_New" DisplayName_L1="User - New Employee (multi record)" VariablesType="Workflow_Directory_User">  <Activity Identifier="Request" DisplayName_L1="Request" Template="ActionWithRefine" />  <Activity Identifier="PersistDraft" DisplayName_L1="Draft Creation" Template="PersistOnlyResources" />  <Activity Identifier="Review" DisplayName_L1="Review" Template="ReviewWithFeedback" />  <Activity Identifier="Persist" DisplayName_L1="Commit" Template="Persist" /></Workflow>
+<Workflow Identifier="Helpdesk_Directory_User_New" DisplayName_L1="User - New Employee (multi record)" VariablesType="Workflow_Directory_User"> <Activity Identifier="Request" DisplayName_L1="Request" Template="ActionWithRefine" /> <Activity Identifier="PersistDraft" DisplayName_L1="Draft Creation" Template="PersistOnlyResources" /> <Activity Identifier="Review" DisplayName_L1="Review" Template="ReviewWithFeedback" /> <Activity Identifier="Persist" DisplayName_L1="Commit" Template="Persist" /></Workflow>
 
 ```
 
@@ -1005,19 +1005,19 @@ Here we create three structured forms, all to be called in our final workflow fo
 ```
 
 First form for the user's identification data:
-<Form Identifier="Workflow_Helpdesk_Directory_User_Base" EntityType="Directory_User">  <Control DisplayName_L1="User Information" OutputType="LayoutFieldset">    <Control Binding="Identifier" />    <Control Binding="EmployeeId" />    <Control Binding="IsDraft" />  </Control></Form>
+<Form Identifier="Workflow_Helpdesk_Directory_User_Base" EntityType="Directory_User"> <Control DisplayName_L1="User Information" OutputType="LayoutFieldset"> <Control Binding="Identifier" /> <Control Binding="EmployeeId" /> <Control Binding="IsDraft" /> </Control></Form>
 
 Second form for the user's data shared with all records:
 <Form Identifier="Workflow_Helpdesk_Directory_UserRecord_Shared" EntityType="Directory_UserRecord">
 
   Section for user's personal data, here their name and phone numbers:
-  <Control DisplayName_L1="Personal Data" OutputType="LayoutFieldset">    <Control DisplayName_L1="Full Name" OutputType="LayoutRowset">      <Control Binding="LastName" IsRequired="true" />      <Control Binding="FirstName" IsRequired="true" />    </Control>    <Control DisplayName_L1="Phone Numbers" OutputType="LayoutRowset">      <Control Binding="PhoneNumber" />      <Control Binding="MobileNumber" />    </Control>  </Control>
+  <Control DisplayName_L1="Personal Data" OutputType="LayoutFieldset"> <Control DisplayName_L1="Full Name" OutputType="LayoutRowset"> <Control Binding="LastName" IsRequired="true" /> <Control Binding="FirstName" IsRequired="true" /> </Control> <Control DisplayName_L1="Phone Numbers" OutputType="LayoutRowset"> <Control Binding="PhoneNumber" /> <Control Binding="MobileNumber" /> </Control> </Control>
 
   Section for user's contract data, here their contract's type, start and end dates:
-  <Control DisplayName_L1="Contract" OutputType="LayoutFieldset">    <Control Binding="UserType" IsRequired="true" />    <Control Binding="ContractStartDate" IsRequired="true" />    <Control Binding="ContractEndDate" InputType="Date" AddedMinutes="1440" />  </Control></Form>
+  <Control DisplayName_L1="Contract" OutputType="LayoutFieldset"> <Control Binding="UserType" IsRequired="true" /> <Control Binding="ContractStartDate" IsRequired="true" /> <Control Binding="ContractEndDate" InputType="Date" AddedMinutes="1440" /> </Control></Form>
 
 Third form for the user's data specific to each record individually, so here position information:
-<Form Identifier="Workflow_Helpdesk_Directory_UserRecord_Unique" EntityType="Directory_UserRecord">  <Control DisplayName_L1="Position" OutputType="LayoutFieldset">    <Control Binding="Title" />    <Control Binding="Organization" />    <Control Binding="Site" />    <Control Binding="StartDate"/>    <Control Binding="EndDate" InputType="Date" AddedMinutes="1440" />  </Control></Form>
+<Form Identifier="Workflow_Helpdesk_Directory_UserRecord_Unique" EntityType="Directory_UserRecord"> <Control DisplayName_L1="Position" OutputType="LayoutFieldset"> <Control Binding="Title" /> <Control Binding="Organization" /> <Control Binding="Site" /> <Control Binding="StartDate"/> <Control Binding="EndDate" InputType="Date" AddedMinutes="1440" /> </Control></Form>
 
 ```
 
@@ -1053,7 +1053,7 @@ A `WorkflowCreateSeveralRecordEntityForm` requires the following child elements:
 
 ```
 
-<WorkflowCreateSeveralRecordsEntityForm Identifier="Workflow_Helpdesk_Directory_User_New" EntityType="Workflow_Directory_User" MainProperty="Workflow_Directory_User:Directory_User" RecordProperty="Directory_User:Records" RecordTable="Directory_UserRecord_Helpdesk" WorkflowRequestType="Helpdesk" Activity="Helpdesk_Directory_User_New:Request" FormTitle_L1="New User (helpdesk)">  <MainControl OutputType="TransformImport" EmbeddedForm="Workflow_Helpdesk_Directory_User_Base"/>
+<WorkflowCreateSeveralRecordsEntityForm Identifier="Workflow_Helpdesk_Directory_User_New" EntityType="Workflow_Directory_User" MainProperty="Workflow_Directory_User:Directory_User" RecordProperty="Directory_User:Records" RecordTable="Directory_UserRecord_Helpdesk" WorkflowRequestType="Helpdesk" Activity="Helpdesk_Directory_User_New:Request" FormTitle_L1="New User (helpdesk)"> <MainControl OutputType="TransformImport" EmbeddedForm="Workflow_Helpdesk_Directory_User_Base"/>
   <RecordControl OutputType="TransformImport" EmbeddedForm="Workflow_Helpdesk_Directory_UserRecord_Shared"/>
 </WorkflowCreateSeveralRecordsEntityForm>
 
@@ -1070,9 +1070,9 @@ topic for additional information.
 
 > ```
 >
-> <WorkflowCreateSeveralRecordsEntityForm ... >  ...
->   <RecordControl OutputType="LayoutContainer">    <Control OutputType="LayoutContainer" />  </RecordControl>
->   ...
+> <WorkflowCreateSeveralRecordsEntityForm ... > ...
+> <RecordControl OutputType="LayoutContainer"> <Control OutputType="LayoutContainer" /> </RecordControl>
+> ...
 > </WorkflowCreateSeveralRecordsEntityForm>
 >
 > ```
@@ -1082,7 +1082,7 @@ topic for additional information.
 
 ```
 
-<WorkflowCreateSeveralRecordsEntityForm Identifier="Workflow_Helpdesk_Directory_User_New" EntityType="Workflow_Directory_User" MainProperty="Workflow_Directory_User:Directory_User" RecordProperty="Directory_User:Records" RecordTable="Directory_UserRecord_Helpdesk" WorkflowRequestType="Helpdesk" Activity="Helpdesk_Directory_User_New:Request" FormTitle_L1="New User (helpdesk)">  <MainControl OutputType="TransformImport" EmbeddedForm="Workflow_Helpdesk_Directory_User_Base"/>  <RecordControl OutputType="TransformImport" EmbeddedForm="Workflow_Helpdesk_Directory_UserRecord_Shared"/>
+<WorkflowCreateSeveralRecordsEntityForm Identifier="Workflow_Helpdesk_Directory_User_New" EntityType="Workflow_Directory_User" MainProperty="Workflow_Directory_User:Directory_User" RecordProperty="Directory_User:Records" RecordTable="Directory_UserRecord_Helpdesk" WorkflowRequestType="Helpdesk" Activity="Helpdesk_Directory_User_New:Request" FormTitle_L1="New User (helpdesk)"> <MainControl OutputType="TransformImport" EmbeddedForm="Workflow_Helpdesk_Directory_User_Base"/> <RecordControl OutputType="TransformImport" EmbeddedForm="Workflow_Helpdesk_Directory_UserRecord_Shared"/>
   <RecordUniqueItemControl OutputType="TransformImport" EmbeddedForm="Workflow_Helpdesk_Directory_UserRecord_Unique"/>
 </WorkflowCreateSeveralRecordsEntityForm>
 
@@ -1104,10 +1104,10 @@ for the whole creation request and review from the previously created workflow:
 <AccessControlRule Profile="Administrator" EntityType="Workflow_Directory_User" Identifier="Administrator_Workflows_Helpdesk_Directory_User_New*" DisplayName_L1="Administrator_Workflows_Helpdesk_Directory_User_New*">
 
   Permissions for the Request activity:
-  <Entry Permission="/Custom/Workflows/Helpdesk_Directory_User_New/Request/ActionPending" CanExecute="true" />  <Entry Permission="/Custom/Workflows/Helpdesk_Directory_User_New/Request/Aborted" CanExecute="true" />  <Entry Permission="/Custom/Workflows/Helpdesk_Directory_User_New/Request/Purged" CanExecute="true" />
+  <Entry Permission="/Custom/Workflows/Helpdesk_Directory_User_New/Request/ActionPending" CanExecute="true" /> <Entry Permission="/Custom/Workflows/Helpdesk_Directory_User_New/Request/Aborted" CanExecute="true" /> <Entry Permission="/Custom/Workflows/Helpdesk_Directory_User_New/Request/Purged" CanExecute="true" />
 
   Permissions for the Review activity:
-  <Entry Permission="/Custom/Workflows/Helpdesk_Directory_User_New/Review/ReviewPending" CanExecute="true" />  <Entry Permission="/Custom/Workflows/Helpdesk_Directory_User_New/Review/RefinePending" CanExecute="true" />  <Entry Permission="/Custom/Workflows/Helpdesk_Directory_User_New/Review/Aborted" CanExecute="true" />  <Entry Permission="/Custom/Workflows/Helpdesk_Directory_User_New/Review/Purged" CanExecute="true" /></AccessControlRule>
+  <Entry Permission="/Custom/Workflows/Helpdesk_Directory_User_New/Review/ReviewPending" CanExecute="true" /> <Entry Permission="/Custom/Workflows/Helpdesk_Directory_User_New/Review/RefinePending" CanExecute="true" /> <Entry Permission="/Custom/Workflows/Helpdesk_Directory_User_New/Review/Aborted" CanExecute="true" /> <Entry Permission="/Custom/Workflows/Helpdesk_Directory_User_New/Review/Purged" CanExecute="true" /></AccessControlRule>
 
 ```
 
@@ -1125,7 +1125,7 @@ existing menu items list:
 
 ```
 
-<MenuItem Identifier="Menu_Search_Directory_User" DisplayName_L1="Menu">  ...
+<MenuItem Identifier="Menu_Search_Directory_User" DisplayName_L1="Menu"> ...
   <MenuItem Identifier="Menu_Search_Directory_User_Helpdesk_New" DisplayName_L1="New User (helpdesk)" IconCode="AddFriend" Workflow="Helpdesk_Directory_User_New" />
 </MenuItem Identifier="Menu_Search_Directory_User" DisplayName_L1="Menu">
 
@@ -1154,17 +1154,17 @@ Homonym detection:
   <Filter
     Property1="FirstName"
     Property2="LastName"
-  />  <Filter
+  /> <Filter
     Property1="FirstName" ComparisonProperty1="LastName"
     Property2="LastName" ComparisonProperty2="FirstName"
-  />  <Filter
+  /> <Filter
     Property1="FirstName"
     Property2="LastName" ComparisonProperty2="BirthName"
   /></HomonymEntityLink>
 
 Partial form for user data:
 ...
-<Control DisplayName_L1="Personal Data" DisplayName_L2="Informations personnelles" OutputType="LayoutFieldset" HomonymEntityLink="Homonym_Directory_UserRecord">  <Control DisplayName_L1="Full Name" DisplayName_L2="Nom complet" OutputType="LayoutRowset">    <Control Binding="LastName" IsRequired="true" />    <Control Binding="FirstName" IsRequired="true" />  </Control></Control>...
+<Control DisplayName_L1="Personal Data" DisplayName_L2="Informations personnelles" OutputType="LayoutFieldset" HomonymEntityLink="Homonym_Directory_UserRecord"> <Control DisplayName_L1="Full Name" DisplayName_L2="Nom complet" OutputType="LayoutRowset"> <Control Binding="LastName" IsRequired="true" /> <Control Binding="FirstName" IsRequired="true" /> </Control></Control>...
 
 ```
 
@@ -1180,7 +1180,7 @@ Below is an example of a display table for our situation:
 
 ```
 
-<DisplayTable Identifier="Directory_UserRecord_SeveralRecords" EntityType="Directory_UserRecord" DisplayTableDesignElement="table">  <Column DisplayBinding="Title.InternalDisplayName" DisplayName_L1="Title" IsDisplayInSummaryView="true" ColumnSize="1" />  <Column DisplayBinding="Organization.InternalDisplayName" DisplayName_L1="Department" IsDisplayInSummaryView="true" ColumnSize="1" />  <Column DisplayBinding="Location.InternalDisplayName" DisplayName_L1="Site" IsDisplayInSummaryView="true" ColumnSize="1" />  <Column DisplayBinding="StartDate" DisplayName_L1="Start Date" IsDisplayInSummaryView="true" ColumnSize="1" />  <Column DisplayBinding="EndDate" DisplayName_L1="End Date" IsDisplayInSummaryView="true" ColumnSize="1" /></DisplayTable>
+<DisplayTable Identifier="Directory_UserRecord_SeveralRecords" EntityType="Directory_UserRecord" DisplayTableDesignElement="table"> <Column DisplayBinding="Title.InternalDisplayName" DisplayName_L1="Title" IsDisplayInSummaryView="true" ColumnSize="1" /> <Column DisplayBinding="Organization.InternalDisplayName" DisplayName_L1="Department" IsDisplayInSummaryView="true" ColumnSize="1" /> <Column DisplayBinding="Location.InternalDisplayName" DisplayName_L1="Site" IsDisplayInSummaryView="true" ColumnSize="1" /> <Column DisplayBinding="StartDate" DisplayName_L1="Start Date" IsDisplayInSummaryView="true" ColumnSize="1" /> <Column DisplayBinding="EndDate" DisplayName_L1="End Date" IsDisplayInSummaryView="true" ColumnSize="1" /></DisplayTable>
 
 ```
 
@@ -1208,7 +1208,7 @@ The example below creates a workflow to create a new worker.
 
 ```
 
-<Workflow Identifier="Directory_User_NewInternal" DisplayName_L1="User - New Employee" VariablesType="Workflow_Directory_User">  <Activity Identifier="Request" DisplayName_L1="Request" Template="ActionWithRefine" />  <Activity Identifier="PersistDraft" DisplayName_L1="Draft Creation" Template="PersistOnlyResources" />  <Activity Identifier="Review" DisplayName_L1="Review" Template="ReviewWithFeedback" />  <Activity Identifier="Persist" DisplayName_L1="Commit" Template="Persist" /></Workflow>
+<Workflow Identifier="Directory_User_NewInternal" DisplayName_L1="User - New Employee" VariablesType="Workflow_Directory_User"> <Activity Identifier="Request" DisplayName_L1="Request" Template="ActionWithRefine" /> <Activity Identifier="PersistDraft" DisplayName_L1="Draft Creation" Template="PersistOnlyResources" /> <Activity Identifier="Review" DisplayName_L1="Review" Template="ReviewWithFeedback" /> <Activity Identifier="Persist" DisplayName_L1="Commit" Template="Persist" /></Workflow>
 
 ```
 
@@ -1224,13 +1224,13 @@ one is to be called in our final workflow form.
 ```
 
 Preliminary form for user data:
-<Form Identifier="Workflow_Directory_User_NewInternal_PersonalData" EntityType="Directory_UserRecord">  <Control DisplayName_L1="Personal Data" OutputType="LayoutFieldset">    <Control DisplayName_L1="Full Name" OutputType="LayoutRowset">      <Control Binding="LastName" IsRequired="true" />      <Control Binding="FirstName" IsRequired="true" />    </Control>    <Control DisplayName_L1="Phone Numbers" OutputType="LayoutRowset">      <Control Binding="PhoneNumber" />      <Control Binding="MobileNumber" />    </Control>    <Control DisplayName_L1="Photo" OutputType="LayoutRowset">      <Control Binding="User.Photo" InputType="Image" />    </Control>  </Control>
+<Form Identifier="Workflow_Directory_User_NewInternal_PersonalData" EntityType="Directory_UserRecord"> <Control DisplayName_L1="Personal Data" OutputType="LayoutFieldset"> <Control DisplayName_L1="Full Name" OutputType="LayoutRowset"> <Control Binding="LastName" IsRequired="true" /> <Control Binding="FirstName" IsRequired="true" /> </Control> <Control DisplayName_L1="Phone Numbers" OutputType="LayoutRowset"> <Control Binding="PhoneNumber" /> <Control Binding="MobileNumber" /> </Control> <Control DisplayName_L1="Photo" OutputType="LayoutRowset"> <Control Binding="User.Photo" InputType="Image" /> </Control> </Control>
 
 Preliminary form for user's contract data:
-<Form Identifier="Workflow_Directory_UserRecord_NewInternal_Contract" EntityType="Directory_UserRecord">  <Control DisplayName_L1="Contract" OutputType="LayoutFieldset">    <Control Binding="UserType" IsRequired="true" />    <Control Binding="ContractStartDate" IsRequired="true" />    <Control Binding="ContractEndDate" InputType="Date" AddedMinutes="1440" />  </Control></Form>
+<Form Identifier="Workflow_Directory_UserRecord_NewInternal_Contract" EntityType="Directory_UserRecord"> <Control DisplayName_L1="Contract" OutputType="LayoutFieldset"> <Control Binding="UserType" IsRequired="true" /> <Control Binding="ContractStartDate" IsRequired="true" /> <Control Binding="ContractEndDate" InputType="Date" AddedMinutes="1440" /> </Control></Form>
 
 Preliminary form for user's position data:
-<Form Identifier="Workflow_Directory_UserRecord_NewInternal_Position" EntityType="Directory_UserRecord">  <Control DisplayName_L1="Position" OutputType="LayoutFieldset">    <Control Binding="Title" />    <Control Binding="Organization" />    <Control Binding="Site" />    <Control Binding="PositionStartDate" />    <Control Binding="PositionEndDate" />  </Control></Form>
+<Form Identifier="Workflow_Directory_UserRecord_NewInternal_Position" EntityType="Directory_UserRecord"> <Control DisplayName_L1="Position" OutputType="LayoutFieldset"> <Control Binding="Title" /> <Control Binding="Organization" /> <Control Binding="Site" /> <Control Binding="PositionStartDate" /> <Control Binding="PositionEndDate" /> </Control></Form>
 
 Main form for all data:
 <Form Identifier="Workflow_Directory_User_NewInternal" EntityType="Directory_UserRecord">
@@ -1279,7 +1279,7 @@ for additional information.
 
 ```
 
-<WorkflowCreateRecordEntityForm Identifier="Workflow_Directory_User_NewInternal" EntityType="Workflow_Directory_User" MainProperty="Workflow_Directory_User:Directory_User" RecordProperty="Directory_User:Records" WorkflowRequestType="Self" Activity="Directory_User_NewInternal:Request" FormTitle_L1="New Employee">  <MainControl OutputType="LayoutContainer" />
+<WorkflowCreateRecordEntityForm Identifier="Workflow_Directory_User_NewInternal" EntityType="Workflow_Directory_User" MainProperty="Workflow_Directory_User:Directory_User" RecordProperty="Directory_User:Records" WorkflowRequestType="Self" Activity="Directory_User_NewInternal:Request" FormTitle_L1="New Employee"> <MainControl OutputType="LayoutContainer" />
   <RecordControl OutputType="TransformImport" EmbeddedForm="Workflow_Directory_User_NewInternal" />
 </WorkflowCreateRecordEntityForm>
 
@@ -1297,7 +1297,7 @@ situation, it displays the `EmployeeId` and `Mail` attributes that the workflow 
 ```
 
 Summary form:
-<Form Identifier="Workflow_Directory_User_New_Summary" EntityType="Directory_UserRecord">  <Control DisplayName_L1="Important Information" OutputType="LayoutFieldset">    <Control Binding="UserIdentifier" />    <Control Binding="Email" />    <Control Binding="Login" />  </Control></Form><WorkflowCreateRecordEntityForm Identifier="Workflow_Directory_User_NewInternal" EntityType="Workflow_Directory_User" MainProperty="Workflow_Directory_User:Directory_User" RecordProperty="Directory_User:Records" WorkflowRequestType="Self" Activity="Directory_User_NewInternal:Request" FormTitle_L1="New Employee">  <RecordControl OutputType="TransformImport" EmbeddedForm="Workflow_Directory_User_NewInternal_Base" />
+<Form Identifier="Workflow_Directory_User_New_Summary" EntityType="Directory_UserRecord"> <Control DisplayName_L1="Important Information" OutputType="LayoutFieldset"> <Control Binding="UserIdentifier" /> <Control Binding="Email" /> <Control Binding="Login" /> </Control></Form><WorkflowCreateRecordEntityForm Identifier="Workflow_Directory_User_NewInternal" EntityType="Workflow_Directory_User" MainProperty="Workflow_Directory_User:Directory_User" RecordProperty="Directory_User:Records" WorkflowRequestType="Self" Activity="Directory_User_NewInternal:Request" FormTitle_L1="New Employee"> <RecordControl OutputType="TransformImport" EmbeddedForm="Workflow_Directory_User_NewInternal_Base" />
   <RecordSummaryControl OutputType="TransformImport" EmbeddedForm="Workflow_Directory_User_New_Summary">
 </WorkflowCreateRecordEntityForm>
 
@@ -1318,10 +1318,10 @@ for the whole creation request and review from the previously created workflow:
 <AccessControlRule Profile="Administrator" EntityType="Workflow_Directory_User" Identifier="Administrator_Workflows_Directory_User_Internal*" DisplayName_L1="Administrator_Workflows_Directory_User_Internal*">
 
   Permissions for the Request activity:
-  <Entry Permission="/Custom/Workflows/Directory_User_NewInternal/Request/ActionPending" CanExecute="true" />  <Entry Permission="/Custom/Workflows/Directory_User_NewInternal/Request/Aborted" CanExecute="true" />  <Entry Permission="/Custom/Workflows/Directory_User_NewInternal/Request/Purged" CanExecute="true" />
+  <Entry Permission="/Custom/Workflows/Directory_User_NewInternal/Request/ActionPending" CanExecute="true" /> <Entry Permission="/Custom/Workflows/Directory_User_NewInternal/Request/Aborted" CanExecute="true" /> <Entry Permission="/Custom/Workflows/Directory_User_NewInternal/Request/Purged" CanExecute="true" />
 
   Permissions for the Review activity:
-  <Entry Permission="/Custom/Workflows/Directory_User_NewInternal/Review/ReviewPending" CanExecute="true" />  <Entry Permission="/Custom/Workflows/Directory_User_NewInternal/Review/RefinePending" CanExecute="true" />  <Entry Permission="/Custom/Workflows/Directory_User_NewInternal/Review/Aborted" CanExecute="true" />  <Entry Permission="/Custom/Workflows/Directory_User_NewInternal/Review/Purged" CanExecute="true" /></AccessControlRule>
+  <Entry Permission="/Custom/Workflows/Directory_User_NewInternal/Review/ReviewPending" CanExecute="true" /> <Entry Permission="/Custom/Workflows/Directory_User_NewInternal/Review/RefinePending" CanExecute="true" /> <Entry Permission="/Custom/Workflows/Directory_User_NewInternal/Review/Aborted" CanExecute="true" /> <Entry Permission="/Custom/Workflows/Directory_User_NewInternal/Review/Purged" CanExecute="true" /></AccessControlRule>
 
 ```
 
@@ -1339,7 +1339,7 @@ existing menu items list:
 
 ```
 
-<MenuItem Identifier="Menu_Search_Directory_User" DisplayName_L1="Menu">  ...
+<MenuItem Identifier="Menu_Search_Directory_User" DisplayName_L1="Menu"> ...
   <MenuItem Identifier="Menu_Search_Directory_User_NewInternal" DisplayName_L1="New Employee" IconCode="AddFriend" Workflow="Directory_User_NewInternal" /></MenuItem Identifier="Menu_Search_Directory_User" DisplayName_L1="Menu">
 
 ```
@@ -1367,17 +1367,17 @@ Homonym detection:
   <Filter
     Property1="FirstName"
     Property2="LastName"
-  />  <Filter
+  /> <Filter
     Property1="FirstName" ComparisonProperty1="LastName"
     Property2="LastName" ComparisonProperty2="FirstName"
-  />  <Filter
+  /> <Filter
     Property1="FirstName"
     Property2="LastName" ComparisonProperty2="BirthName"
   /></HomonymEntityLink>
 
 Partial form for user data:
 ...
-<Control DisplayName_L1="Personal Data" DisplayName_L2="Informations personnelles" OutputType="LayoutFieldset" HomonymEntityLink="Homonym_Directory_UserRecord">  <Control DisplayName_L1="Full Name" DisplayName_L2="Nom complet" OutputType="LayoutRowset">    <Control Binding="LastName" IsRequired="true" />    <Control Binding="FirstName" IsRequired="true" />  </Control></Control>...
+<Control DisplayName_L1="Personal Data" DisplayName_L2="Informations personnelles" OutputType="LayoutFieldset" HomonymEntityLink="Homonym_Directory_UserRecord"> <Control DisplayName_L1="Full Name" DisplayName_L2="Nom complet" OutputType="LayoutRowset"> <Control Binding="LastName" IsRequired="true" /> <Control Binding="FirstName" IsRequired="true" /> </Control></Control>...
 
 ```
 
@@ -1408,7 +1408,7 @@ The example below creates a workflow to update only the user's `IsDraft` attribu
 
 ```
 
-<Workflow Identifier="Directory_User_ChangeIsDraft" DisplayName_L1="User - Update IsDraft" VariablesType="Workflow_Directory_User">  <Activity Identifier="Request" DisplayName_L1="Request" Template="ActionWithRefine" />  <Activity Identifier="Persist" DisplayName_L1="Commit" Template="Persist" /></Workflow>
+<Workflow Identifier="Directory_User_ChangeIsDraft" DisplayName_L1="User - Update IsDraft" VariablesType="Workflow_Directory_User"> <Activity Identifier="Request" DisplayName_L1="Request" Template="ActionWithRefine" /> <Activity Identifier="Persist" DisplayName_L1="Commit" Template="Persist" /></Workflow>
 
 ```
 
@@ -1423,7 +1423,7 @@ given user:
 
 ```
 
-<Form Identifier="Workflow_Directory_User_ChangeIsDraft_Base" EntityType="Workflow_Directory_User">  <Control DisplayName_L1="IsDraft" OutputType="LayoutRowset" EntityType="Directory_User">    <Control Binding="IsDraft" />  </Control></Form>
+<Form Identifier="Workflow_Directory_User_ChangeIsDraft_Base" EntityType="Workflow_Directory_User"> <Control DisplayName_L1="IsDraft" OutputType="LayoutRowset" EntityType="Directory_User"> <Control Binding="IsDraft" /> </Control></Form>
 
 ```
 
@@ -1462,8 +1462,8 @@ displays the `IsDraft` attribute that the user just changed:
 
 ```
 
-<WorkflowEditEntityForm Identifier="Workflow_Directory_User_ChangeIsDraft" EntityType="Workflow_Directory_User" MainProperty="Workflow_Directory_User:Directory_User" WorkflowRequestType="Self" Activity="Directory_User_ChangeIsDraft:Request" HideRoles="true" FormTitle_L1="Change IsDraft">  <MainControl OutputType="TransformImport" EmbeddedForm="Workflow_Directory_User_ChangeIsDraft_Base" />
-  <SummaryControl OutputType="LayoutContainer" EntityType="Directory_User">    <Control Binding="IsDraft" />  </SummaryControl>
+<WorkflowEditEntityForm Identifier="Workflow_Directory_User_ChangeIsDraft" EntityType="Workflow_Directory_User" MainProperty="Workflow_Directory_User:Directory_User" WorkflowRequestType="Self" Activity="Directory_User_ChangeIsDraft:Request" HideRoles="true" FormTitle_L1="Change IsDraft"> <MainControl OutputType="TransformImport" EmbeddedForm="Workflow_Directory_User_ChangeIsDraft_Base" />
+  <SummaryControl OutputType="LayoutContainer" EntityType="Directory_User"> <Control Binding="IsDraft" /> </SummaryControl>
 </WorkflowEditEntityForm>
 
 ```
@@ -1481,7 +1481,7 @@ for the whole update request from the previously created workflow:
 
 ```
 
-<AccessControlRule Profile="Administrator" EntityType="Workflow_Directory_User" Identifier="Administrator_Workflows_Directory_User_Internal*" DisplayName_L1="Administrator_Workflows_Directory_User_Internal*">  <Entry Permission="/Custom/Workflows/Directory_User_ChangeIsDraft/Request/ActionPending" CanExecute="true" />  <Entry Permission="/Custom/Workflows/Directory_User_ChangeIsDraft/Request/RefinePending" CanExecute="true" />  <Entry Permission="/Custom/Workflows/Directory_User_ChangeIsDraft/Request/Aborted" CanExecute="true" />  <Entry Permission="/Custom/Workflows/Directory_User_ChangeIsDraft/Request/Purged" CanExecute="true" /></AccessControlRule>
+<AccessControlRule Profile="Administrator" EntityType="Workflow_Directory_User" Identifier="Administrator_Workflows_Directory_User_Internal*" DisplayName_L1="Administrator_Workflows_Directory_User_Internal*"> <Entry Permission="/Custom/Workflows/Directory_User_ChangeIsDraft/Request/ActionPending" CanExecute="true" /> <Entry Permission="/Custom/Workflows/Directory_User_ChangeIsDraft/Request/RefinePending" CanExecute="true" /> <Entry Permission="/Custom/Workflows/Directory_User_ChangeIsDraft/Request/Aborted" CanExecute="true" /> <Entry Permission="/Custom/Workflows/Directory_User_ChangeIsDraft/Request/Purged" CanExecute="true" /></AccessControlRule>
 
 ```
 
@@ -1500,9 +1500,9 @@ existing menu items list:
 
 ```
 
-<MenuItem Identifier="Menu_Directory_User" DisplayName_L1="Menu">  <MenuItem Identifier="Menu_Directory_User_Changes" DisplayName_L1="Actions">    <MenuItem Identifier="Menu_Directory_User_Changes_Update" DisplayName_L1="Section">      ...
+<MenuItem Identifier="Menu_Directory_User" DisplayName_L1="Menu"> <MenuItem Identifier="Menu_Directory_User_Changes" DisplayName_L1="Actions"> <MenuItem Identifier="Menu_Directory_User_Changes_Update" DisplayName_L1="Section"> ...
       <MenuItem Identifier="Menu_Directory_User_Changes_ChangeIsDraft" DisplayName_L1="Change IsDraft" IconCode="Edit" Workflow="Directory_User_ChangeIsDraft" />
-    </MenuItem>  </MenuItem></MenuItem>
+    </MenuItem> </MenuItem></MenuItem>
 
 ```
 
@@ -1552,7 +1552,7 @@ allow to define customized filters for a homonym search.
 #### Simple filter
 
 ```
-<HomonymEntityLink FormEntityType="Directory_UserRecord" Identifier="Directory_UserRecord_Homonym">    <Filter
+<HomonymEntityLink FormEntityType="Directory_UserRecord" Identifier="Directory_UserRecord_Homonym"> <Filter
         Property1="LastName"
         Property2="FirstName"
     /></HomonymEntityLink>
@@ -1575,7 +1575,7 @@ A filter can be defined to compare the values in an approximate way.
 1. When the input search value is retrieved directly from the property value
 
    ```
-   <HomonymEntityLink FormEntityType="Directory_UserRecord" Identifier="Directory_UserRecord_Homonym">    <Filter
+   <HomonymEntityLink FormEntityType="Directory_UserRecord" Identifier="Directory_UserRecord_Homonym"> <Filter
            Property1="LastName" ComparisonProperty1="PhoneticLastName" Operator1="FlexibleEqual"
            Property2="FirstName" ComparisonProperty2="PhoneticFirstName" Operator2="FlexibleEqual"
        /></HomonymEntityLink>
@@ -1592,9 +1592,9 @@ the input value.
 2. When the input search value is deducted
 
    ```
-   <HomonymEntityLink FormEntityType="Directory_UserRecord" Identifier="Directory_UserRecord_Homonym">    <Filter
+   <HomonymEntityLink FormEntityType="Directory_UserRecord" Identifier="Directory_UserRecord_Homonym"> <Filter
            ComparisonProperty1="PhoneticFirstLastName" Operator1="FlexibleEqual"
-       />    <Filter
+       /> <Filter
            ComparisonProperty1="PhoneticFirstLastName" Operator1="FlexibleEqual" Expression1="C#:record:(record.LastName + ' ' + record.FirstName).Appproximate()"
        /></HomonymEntityLink>
 
@@ -1618,7 +1618,7 @@ If a filter is set on a language property, the search for homonyms is performed 
 associated to the main language.
 
 ```
-<HomonymEntityLink FormEntityType="Directory_Organization" Identifier="Directory_Organization_Homonym">    <Filter Property1="Name" /></HomonymEntityLink>
+<HomonymEntityLink FormEntityType="Directory_Organization" Identifier="Directory_Organization_Homonym"> <Filter Property1="Name" /></HomonymEntityLink>
 
 ```
 
@@ -1639,7 +1639,7 @@ where the `HomonymEntityLink` attribute is the identifier of the homonym entity 
 
 ```
 <DisplayTable Identifier="Directory_UserRecord_Homonym" EntityType="Directory_UserRecord" DisplayTableDesignElement="table" HomonymEntityLink="Directory_UserRecord">
-    <Column DefaultSortPriority="1" DisplayBinding="LastName" IsDisplayInSummaryView="true" IsResizable="true" ColumnSize="1" />    <Column DisplayBinding="FirstName" IsDisplayInSummaryView="true" IsResizable="true" ColumnSize="1" />    <Column DisplayBinding="Login" IsDisplayInSummaryView="true" IsResizable="true" IsSortable="true" CanBeFiltered="true" ColumnSize="2" />    <Column DisplayBinding="Mail" IsDisplayInSummaryView="true" IsResizable="true" IsSortable="true" CanBeFiltered="true" ColumnSize="2" />    <Column DisplayBinding="BirthDate" IsDisplayInSummaryView="true" IsResizable="true" IsSortable="true" CanBeFiltered="true" ColumnSize="4" /></DisplayTable>
+    <Column DefaultSortPriority="1" DisplayBinding="LastName" IsDisplayInSummaryView="true" IsResizable="true" ColumnSize="1" /> <Column DisplayBinding="FirstName" IsDisplayInSummaryView="true" IsResizable="true" ColumnSize="1" /> <Column DisplayBinding="Login" IsDisplayInSummaryView="true" IsResizable="true" IsSortable="true" CanBeFiltered="true" ColumnSize="2" /> <Column DisplayBinding="Mail" IsDisplayInSummaryView="true" IsResizable="true" IsSortable="true" CanBeFiltered="true" ColumnSize="2" /> <Column DisplayBinding="BirthDate" IsDisplayInSummaryView="true" IsResizable="true" IsSortable="true" CanBeFiltered="true" ColumnSize="4" /></DisplayTable>
 
 ```
 
@@ -1659,8 +1659,8 @@ the homonym control form must only contain up to 5 controls where `Binding` attr
 Indeed, a filter can only be defined on up to 5 properties.
 
 ```
-<Form Identifier="Workflow_Directory_User_AdvancedStartInternal_Base" EntityType="Directory_UserRecord">    <Control DisplayName_L1="Personal Data" DisplayName_L2="Informations personnelles" OutputType="LayoutFieldset" HomonymEntityLink="Directory_UserRecord">
-        <Control DisplayName_L1="Full Name" DisplayName_L2="Nom complet" OutputType="LayoutRowset">            <Control Binding="LastName" IsRequired="true" />            <Control Binding="FirstName" IsRequired="true" />        </Control>    </Control></Form>
+<Form Identifier="Workflow_Directory_User_AdvancedStartInternal_Base" EntityType="Directory_UserRecord"> <Control DisplayName_L1="Personal Data" DisplayName_L2="Informations personnelles" OutputType="LayoutFieldset" HomonymEntityLink="Directory_UserRecord">
+        <Control DisplayName_L1="Full Name" DisplayName_L2="Nom complet" OutputType="LayoutRowset"> <Control Binding="LastName" IsRequired="true" /> <Control Binding="FirstName" IsRequired="true" /> </Control> </Control></Form>
 
 ```
 
@@ -1686,7 +1686,7 @@ The example below creates a workflow to update the records of an existing user:
 
 ```
 
-<Workflow Identifier="Directory_User_UpdateSeveralRecords" DisplayName_L1="User - Manage positions" VariablesType="Workflow_Directory_User">  <Activity Identifier="Request"  DisplayName_L1="Request" Template="ActionWithRefine" />  <Activity Identifier="Review"  DisplayName_L1="Review" Template="ReviewWithFeedback" />  <Activity Identifier="Persist"  DisplayName_L1="Commit" Template="Persist" /></Workflow>
+<Workflow Identifier="Directory_User_UpdateSeveralRecords" DisplayName_L1="User - Manage positions" VariablesType="Workflow_Directory_User"> <Activity Identifier="Request" DisplayName_L1="Request" Template="ActionWithRefine" /> <Activity Identifier="Review" DisplayName_L1="Review" Template="ReviewWithFeedback" /> <Activity Identifier="Persist" DisplayName_L1="Commit" Template="Persist" /></Workflow>
 
 ```
 
@@ -1701,10 +1701,10 @@ Here we create three structured forms, all to be called in our final workflow fo
 ```
 
 First form for the user's record data, shared with all records:
-<Form Identifier="Directory_User_UpdateSeveralRecords_Shared" EntityType="Directory_UserRecord">  <Control DisplayName_L1="Contract" OutputType="LayoutFieldset">    <Control Binding="ContractStartDate" />    <Control Binding="ContractEndDate" AddedMinutes="1440" />  </Control></Form>
+<Form Identifier="Directory_User_UpdateSeveralRecords_Shared" EntityType="Directory_UserRecord"> <Control DisplayName_L1="Contract" OutputType="LayoutFieldset"> <Control Binding="ContractStartDate" /> <Control Binding="ContractEndDate" AddedMinutes="1440" /> </Control></Form>
 
 Second form for the user's record data, specific to each record individually:
-<Form Identifier="Directory_User_UpdateSeveralRecords_Base" EntityType="Workflow_Directory_User">  <Control OutputType="LayoutContainer" EntityType="Directory_UserRecord">    <Control DisplayName_L1="Position" OutputType="LayoutFieldset">      <Control Binding="Title" IsRequired="true" />      <Control Binding="Department" />      <Control Binding="Site" DefaultValueBinding="Department.Manager.MainRecord.Site" />      <Control Binding="StartDate" />      <Control Binding="EndDate" />    </Control>  </Control></Form>
+<Form Identifier="Directory_User_UpdateSeveralRecords_Base" EntityType="Workflow_Directory_User"> <Control OutputType="LayoutContainer" EntityType="Directory_UserRecord"> <Control DisplayName_L1="Position" OutputType="LayoutFieldset"> <Control Binding="Title" IsRequired="true" /> <Control Binding="Department" /> <Control Binding="Site" DefaultValueBinding="Department.Manager.MainRecord.Site" /> <Control Binding="StartDate" /> <Control Binding="EndDate" /> </Control> </Control></Form>
 
 ```
 
@@ -1745,7 +1745,7 @@ not involved in the changes of this workflow.
 
 ```
 
-<WorkflowUpdateSeveralRecordsEntityForm RecordFilter="CurrentAndFuture" Identifier="Directory_User_UpdateSeveralRecords" EntityType="Workflow_Directory_User" MainProperty="Workflow_Directory_User:Directory_User" RecordProperty="Directory_User:Records" WorkflowRequestType="Self" Activity="Directory_User_UpdateSeveralRecords:Request" FormTitle_L1="Manage positions" RecordTable="Directory_User_UpdateSeveralRecords">  <MainControl OutputType="LayoutContainer"/>
+<WorkflowUpdateSeveralRecordsEntityForm RecordFilter="CurrentAndFuture" Identifier="Directory_User_UpdateSeveralRecords" EntityType="Workflow_Directory_User" MainProperty="Workflow_Directory_User:Directory_User" RecordProperty="Directory_User:Records" WorkflowRequestType="Self" Activity="Directory_User_UpdateSeveralRecords:Request" FormTitle_L1="Manage positions" RecordTable="Directory_User_UpdateSeveralRecords"> <MainControl OutputType="LayoutContainer"/>
   <RecordControl OutputType="TransformImport" EmbeddedForm="Directory_User_UpdateSeveralRecords_Shared" />
 </WorkflowUpdateSeveralRecordsEntityForm>
 
@@ -1756,7 +1756,7 @@ not involved in the changes of this workflow.
 
 ```
 
-<WorkflowUpdateSeveralRecordsEntityForm RecordFilter="CurrentAndFuture" Identifier="Directory_User_UpdateSeveralRecords" EntityType="Workflow_Directory_User" MainProperty="Workflow_Directory_User:Directory_User" RecordProperty="Directory_User:Records" WorkflowRequestType="Self" Activity="Directory_User_UpdateSeveralRecords:Request" FormTitle_L1="Manage positions" RecordTable="Directory_User_UpdateSeveralRecords">  <MainControl OutputType="LayoutContainer"/>  <RecordControl OutputType="TransformImport" EmbeddedForm="Directory_User_UpdateSeveralRecords_Shared"/>
+<WorkflowUpdateSeveralRecordsEntityForm RecordFilter="CurrentAndFuture" Identifier="Directory_User_UpdateSeveralRecords" EntityType="Workflow_Directory_User" MainProperty="Workflow_Directory_User:Directory_User" RecordProperty="Directory_User:Records" WorkflowRequestType="Self" Activity="Directory_User_UpdateSeveralRecords:Request" FormTitle_L1="Manage positions" RecordTable="Directory_User_UpdateSeveralRecords"> <MainControl OutputType="LayoutContainer"/> <RecordControl OutputType="TransformImport" EmbeddedForm="Directory_User_UpdateSeveralRecords_Shared"/>
   <RecordUniqueItemControl OutputType="TransformImport" EmbeddedForm="Directory_User_UpdateSeveralRecords_Base" />
 </WorkflowUpdateSeveralRecordsEntityForm>
 
@@ -1768,7 +1768,7 @@ not involved in the changes of this workflow.
 
 ```
 
-<WorkflowUpdateSeveralRecordsEntityForm RecordFilter="CurrentAndFuture" Identifier="Directory_User_UpdateSeveralRecords" EntityType="Workflow_Directory_User" MainProperty="Workflow_Directory_User:Directory_User" RecordProperty="Directory_User:Records" WorkflowRequestType="Self" Activity="Directory_User_UpdateSeveralRecords:Request" FormTitle_L1="Manage positions" RecordTable="Directory_User_UpdateSeveralRecords">  <MainControl OutputType="LayoutContainer"/>  <RecordControl OutputType="TransformImport" EmbeddedForm="Directory_User_UpdateSeveralRecords_Shared"/>  <RecordUniqueItemControl OutputType="TransformImport" EmbeddedForm="Directory_User_UpdateSeveralRecords_Base" />
+<WorkflowUpdateSeveralRecordsEntityForm RecordFilter="CurrentAndFuture" Identifier="Directory_User_UpdateSeveralRecords" EntityType="Workflow_Directory_User" MainProperty="Workflow_Directory_User:Directory_User" RecordProperty="Directory_User:Records" WorkflowRequestType="Self" Activity="Directory_User_UpdateSeveralRecords:Request" FormTitle_L1="Manage positions" RecordTable="Directory_User_UpdateSeveralRecords"> <MainControl OutputType="LayoutContainer"/> <RecordControl OutputType="TransformImport" EmbeddedForm="Directory_User_UpdateSeveralRecords_Shared"/> <RecordUniqueItemControl OutputType="TransformImport" EmbeddedForm="Directory_User_UpdateSeveralRecords_Base" />
   <RecordSlaveControl OutputType="TransformImport" EmbeddedForm="Directory_User_UpdateSeveralRecords_Base" />
 </WorkflowUpdateSeveralRecordsEntityForm>
 
@@ -1780,7 +1780,7 @@ not involved in the changes of this workflow.
 
 ```
 
-<WorkflowUpdateSeveralRecordsEntityForm RecordFilter="CurrentAndFuture" Identifier="Directory_User_UpdateSeveralRecords" EntityType="Workflow_Directory_User" MainProperty="Workflow_Directory_User:Directory_User" RecordProperty="Directory_User:Records" WorkflowRequestType="Self" Activity="Directory_User_UpdateSeveralRecords:Request" FormTitle_L1="Manage positions" RecordTable="Directory_User_UpdateSeveralRecords">  <MainControl OutputType="LayoutContainer"/>  <RecordControl OutputType="TransformImport" EmbeddedForm="Directory_User_UpdateSeveralRecords_Shared"/>  <RecordUniqueItemControl OutputType="TransformImport" EmbeddedForm="Directory_User_UpdateSeveralRecords_Base" />  <RecordSlaveControl OutputType="TransformImport" EmbeddedForm="Directory_User_UpdateSeveralRecords_Base" />
+<WorkflowUpdateSeveralRecordsEntityForm RecordFilter="CurrentAndFuture" Identifier="Directory_User_UpdateSeveralRecords" EntityType="Workflow_Directory_User" MainProperty="Workflow_Directory_User:Directory_User" RecordProperty="Directory_User:Records" WorkflowRequestType="Self" Activity="Directory_User_UpdateSeveralRecords:Request" FormTitle_L1="Manage positions" RecordTable="Directory_User_UpdateSeveralRecords"> <MainControl OutputType="LayoutContainer"/> <RecordControl OutputType="TransformImport" EmbeddedForm="Directory_User_UpdateSeveralRecords_Shared"/> <RecordUniqueItemControl OutputType="TransformImport" EmbeddedForm="Directory_User_UpdateSeveralRecords_Base" /> <RecordSlaveControl OutputType="TransformImport" EmbeddedForm="Directory_User_UpdateSeveralRecords_Base" />
   <RecordSlaveUniqueItemControl OutputType="TransformImport" EmbeddedForm="Directory_User_UpdateSeveralRecords_Shared" />
 </WorkflowUpdateSeveralRecordsEntityForm>
 
@@ -1802,7 +1802,7 @@ for the whole update request from the previously created workflow:
 
 ```
 
-<AccessControlRule Profile="Administrator" EntityType="Workflow_Directory_User" Identifier="Administrator_Workflows_Directory_User_*" DisplayName_L1="Administrator_Workflows_Directory_User_*">  <Entry Permission="/Custom/Workflows/Directory_User_UpdateSeveralRecords/Request/ActionPending" CanExecute="true" />  <Entry Permission="/Custom/Workflows/Directory_User_UpdateSeveralRecords/Request/RefinePending" CanExecute="true" />  <Entry Permission="/Custom/Workflows/Directory_User_UpdateSeveralRecords/Request/Aborted" CanExecute="true" />  <Entry Permission="/Custom/Workflows/Directory_User_UpdateSeveralRecords/Request/Purged" CanExecute="true" />  <Entry Permission="/Custom/Workflows/Directory_User_UpdateSeveralRecords/Review/ReviewPending" CanExecute="true" />  <Entry Permission="/Custom/Workflows/Directory_User_UpdateSeveralRecords/Review/RefinePending" CanExecute="true" />  <Entry Permission="/Custom/Workflows/Directory_User_UpdateSeveralRecords/Review/Aborted" CanExecute="true" />  <Entry Permission="/Custom/Workflows/Directory_User_UpdateSeveralRecords/Review/Purged" CanExecute="true" /></AccessControlRule>
+<AccessControlRule Profile="Administrator" EntityType="Workflow_Directory_User" Identifier="Administrator_Workflows_Directory_User_*" DisplayName_L1="Administrator_Workflows_Directory_User_*"> <Entry Permission="/Custom/Workflows/Directory_User_UpdateSeveralRecords/Request/ActionPending" CanExecute="true" /> <Entry Permission="/Custom/Workflows/Directory_User_UpdateSeveralRecords/Request/RefinePending" CanExecute="true" /> <Entry Permission="/Custom/Workflows/Directory_User_UpdateSeveralRecords/Request/Aborted" CanExecute="true" /> <Entry Permission="/Custom/Workflows/Directory_User_UpdateSeveralRecords/Request/Purged" CanExecute="true" /> <Entry Permission="/Custom/Workflows/Directory_User_UpdateSeveralRecords/Review/ReviewPending" CanExecute="true" /> <Entry Permission="/Custom/Workflows/Directory_User_UpdateSeveralRecords/Review/RefinePending" CanExecute="true" /> <Entry Permission="/Custom/Workflows/Directory_User_UpdateSeveralRecords/Review/Aborted" CanExecute="true" /> <Entry Permission="/Custom/Workflows/Directory_User_UpdateSeveralRecords/Review/Purged" CanExecute="true" /></AccessControlRule>
 
 ```
 
@@ -1821,9 +1821,9 @@ existing menu items list:
 
 ```
 
-<MenuItem Identifier="Menu_Directory_User" DisplayName_L1="Menu">  <MenuItem Identifier="Menu_Directory_User_Changes" DisplayName_L1="Actions">    <MenuItem Identifier="Menu_Directory_User_Changes_Update" DisplayName_L1="Section">      ...
+<MenuItem Identifier="Menu_Directory_User" DisplayName_L1="Menu"> <MenuItem Identifier="Menu_Directory_User_Changes" DisplayName_L1="Actions"> <MenuItem Identifier="Menu_Directory_User_Changes_Update" DisplayName_L1="Section"> ...
       <MenuItem Identifier="Menu_Directory_User_Changes_ManagePositions" DisplayName_L1="Manage Positions" IconCode="Edit" Workflow="Directory_User_UpdateSeveralRecords" />
-    </MenuItem>  </MenuItem></MenuItem>
+    </MenuItem> </MenuItem></MenuItem>
 
 ```
 
@@ -2002,7 +2002,7 @@ Workflow in Identity Manager :
 
 ```
 
-<Workflow Identifier="User_Onboarding" DisplayName_L1="User - New Employee" VariablesType="Workflow_User">    <Activity Identifier="Request" DisplayName_L1="Request" Template="ActionWithRefine" />    <Activity Identifier="PersistDraft" DisplayName_L1="Draft Creation" Template="PersistOnlyResources" />    <Activity Identifier="Review" DisplayName_L1="Review" Template="ReviewWithFeedback" />    <Activity Identifier="Persist" DisplayName_L1="Commit" Template="Persist" /></Workflow>
+<Workflow Identifier="User_Onboarding" DisplayName_L1="User - New Employee" VariablesType="Workflow_User"> <Activity Identifier="Request" DisplayName_L1="Request" Template="ActionWithRefine" /> <Activity Identifier="PersistDraft" DisplayName_L1="Draft Creation" Template="PersistOnlyResources" /> <Activity Identifier="Review" DisplayName_L1="Review" Template="ReviewWithFeedback" /> <Activity Identifier="Persist" DisplayName_L1="Commit" Template="Persist" /></Workflow>
 
 ```
 
@@ -2021,7 +2021,7 @@ to be modified. Here is an example to create the user change name Workflow in Id
 
 ```
 
-<Workflow Identifier="User_ChangeName" DisplayName_L1="Collaborateur - Changement du nom" VariablesType="Workflow_User">    <Activity Identifier="Request" DisplayName_L1="Request" Template="ActionWithRefine" />    <Activity Identifier="Persist" DisplayName_L1="Commit" Template="Persist" /></Workflow>
+<Workflow Identifier="User_ChangeName" DisplayName_L1="Collaborateur - Changement du nom" VariablesType="Workflow_User"> <Activity Identifier="Request" DisplayName_L1="Request" Template="ActionWithRefine" /> <Activity Identifier="Persist" DisplayName_L1="Commit" Template="Persist" /></Workflow>
 
 ```
 
@@ -2033,7 +2033,7 @@ the resource modifications Workflow in Identity Manager :
 
 ```
 
-<Workflow Identifier="User_ResourcesUpdate" DisplayName_L1="Collaborateur - Gerer les droits" VariablesType="Workflow_Directory_User">    <Activity Identifier="Request" DisplayName_L1="Request" Template="ActionWithRefine" />    <Activity Identifier="Persist" DisplayName_L1="Commit" Template="Persist" /></Workflow>
+<Workflow Identifier="User_ResourcesUpdate" DisplayName_L1="Collaborateur - Gerer les droits" VariablesType="Workflow_Directory_User"> <Activity Identifier="Request" DisplayName_L1="Request" Template="ActionWithRefine" /> <Activity Identifier="Persist" DisplayName_L1="Commit" Template="Persist" /></Workflow>
 
 ```
 
@@ -2045,6 +2045,6 @@ offboarding Workflow in Identity Manager:
 
 ```
 
-<Workflow Identifier="User_Offboarding" DisplayName_L1="Depart d'un collaborateur" VariablesType="Workflow_User">    <Activity Identifier="Request" DisplayName_L1="Request" Template="ActionWithRefine" />    <Activity Identifier="Persist" DisplayName_L1="Commit" Template="Persist" /></Workflow>
+<Workflow Identifier="User_Offboarding" DisplayName_L1="Depart d'un collaborateur" VariablesType="Workflow_User"> <Activity Identifier="Request" DisplayName_L1="Request" Template="ActionWithRefine" /> <Activity Identifier="Persist" DisplayName_L1="Commit" Template="Persist" /></Workflow>
 
 ```

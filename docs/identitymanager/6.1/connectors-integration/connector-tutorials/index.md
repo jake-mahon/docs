@@ -299,8 +299,8 @@ path are important variables that may be changed.
 ```
 
 *** Variables ***
-${FOLDERNAME}  RobotFrameworkIdentity
-${FOLDERPATH}  C:/identitymanagerDemo/${FOLDERNAME}
+${FOLDERNAME} RobotFrameworkIdentity
+${FOLDERPATH} C:/identitymanagerDemo/${FOLDERNAME}
 
 ```
 
@@ -328,32 +328,32 @@ Open Explorer
     Open Folder
 
 Open Folder
-    Click  /Window[@Name='File Explorer']/Pane[2]/Pane[3]/ProgressBar/Pane/ToolBar/SplitButton
-    Set Text To Textbox  /Window[@Name='File Explorer']/Pane[2]/Pane[3]/ProgressBar/ComboBox/Edit[@Name='Address']  ${FOLDERPATH}
+    Click /Window[@Name='File Explorer']/Pane[2]/Pane[3]/ProgressBar/Pane/ToolBar/SplitButton
+    Set Text To Textbox /Window[@Name='File Explorer']/Pane[2]/Pane[3]/ProgressBar/ComboBox/Edit[@Name='Address'] ${FOLDERPATH}
     Press Key s'ENTER'
 
 Get File Name
-    [Arguments]  ${order}
-    [return]  ${order['Changes']['Identifier']}.txt
+    [Arguments] ${order}
+    [return] ${order['Changes']['Identifier']}.txt
 
 Set File To Read Only
-    [Arguments]  ${order}
-    ${FileName}=  Get File Name  ${order}
-    Open File Properties  ${FileName}
-    Select ReadOnly  ${FileName}
+    [Arguments] ${order}
+    ${FileName}= Get File Name ${order}
+    Open File Properties ${FileName}
+    Select ReadOnly ${FileName}
 
 Open File Properties
-    [Arguments]  ${filename}
-    Right Click  /Window[@Name='${FOLDERNAME}']/Pane[3]/Pane/Pane[2]/List/ListItem[@Name='${filename}']/Image
-    Click  /Menu[@Name='Context']/MenuItem[@Name='Properties']
+    [Arguments] ${filename}
+    Right Click /Window[@Name='${FOLDERNAME}']/Pane[3]/Pane/Pane[2]/List/ListItem[@Name='${filename}']/Image
+    Click /Menu[@Name='Context']/MenuItem[@Name='Properties']
 
 Select Read Only
-    [Arguments]  ${filename}
-    Click  /Window[@Name='${filename} Properties']/CheckBox[@Name='Read-only']
-    Click  /Window[@Name='${filename} Properties']/Button[@Name='OK']
+    [Arguments] ${filename}
+    Click /Window[@Name='${filename} Properties']/CheckBox[@Name='Read-only']
+    Click /Window[@Name='${filename} Properties']/Button[@Name='OK']
 
 Close Explorer
-    Click  /Window[@Name='${FOLDERNAME}']/TitleBar/Button[@Name='Close']
+    Click /Window[@Name='${FOLDERNAME}']/TitleBar/Button[@Name='Close']
 
 ```
 
@@ -367,15 +367,15 @@ considered, perhaps foolishly, that employees will not come out of retirement!)
 
 *** Keywords ***
 ExecuteAdd
-    [Arguments]  ${order}
+    [Arguments] ${order}
     Log To Console ExecuteAdd is not implemented
 
 ExecuteDelete
-    [Arguments]  ${order}
-    Set File To Read Only  ${order}
+    [Arguments] ${order}
+    Set File To Read Only ${order}
 
 ExecuteModify
-    [Arguments]  ${order}
+    [Arguments] ${order}
     Log To Console ExecuteModify is not implemented
 
 ```
@@ -408,20 +408,20 @@ Resource C:/identitymanagerDemo/Runtime/identitymanagerRobotFramework.resource
 Library FlaUILibrary
 
 *** Variables ***
-${FOLDERNAME}  RobotFrameworkIdentity
-${FOLDERPATH}  C:/identitymanagerDemo/${FOLDERNAME}
+${FOLDERNAME} RobotFrameworkIdentity
+${FOLDERPATH} C:/identitymanagerDemo/${FOLDERNAME}
 
 *** Keywords ***
 ExecuteAdd
-    [Arguments]  ${order}
+    [Arguments] ${order}
     Log To Console ExecuteAdd is not implemented
 
 ExecuteDelete
-    [Arguments]  ${order}
-    Set File To Read Only  ${order}
+    [Arguments] ${order}
+    Set File To Read Only ${order}
 
 ExecuteModify
-    [Arguments]  ${order}
+    [Arguments] ${order}
     Log To Console ExecuteModify is not implemented
 
 Open Explorer
@@ -430,32 +430,32 @@ Open Explorer
     Open Folder
 
 Open Folder
-    Click  /Window[@Name='File Explorer']/Pane[2]/Pane[3]/ProgressBar/Pane/ToolBar/SplitButton
-    Set Text To Textbox  /Window[@Name='File Explorer']/Pane[2]/Pane[3]/ProgressBar/ComboBox/Edit[@Name='Address']  ${FOLDERPATH}
+    Click /Window[@Name='File Explorer']/Pane[2]/Pane[3]/ProgressBar/Pane/ToolBar/SplitButton
+    Set Text To Textbox /Window[@Name='File Explorer']/Pane[2]/Pane[3]/ProgressBar/ComboBox/Edit[@Name='Address'] ${FOLDERPATH}
     Press Key s'ENTER'
 
 Get File Name
-    [Arguments]  ${order}
-    [return]  ${order['Changes']['Identifier']}.txt
+    [Arguments] ${order}
+    [return] ${order['Changes']['Identifier']}.txt
 
 Set File To Read Only
-    [Arguments]  ${order}
-    ${FileName}=  Get File Name  ${order}
-    Open File Properties  ${FileName}
-    Select ReadOnly  ${FileName}
+    [Arguments] ${order}
+    ${FileName}= Get File Name ${order}
+    Open File Properties ${FileName}
+    Select ReadOnly ${FileName}
 
 Open File Properties
-    [Arguments]  ${filename}
-    Right Click  /Window[@Name='${FOLDERNAME}']/Pane[3]/Pane/Pane[2]/List/ListItem[@Name='${filename}']/Image
-    Click  /Menu[@Name='Context']/MenuItem[@Name='Properties']
+    [Arguments] ${filename}
+    Right Click /Window[@Name='${FOLDERNAME}']/Pane[3]/Pane/Pane[2]/List/ListItem[@Name='${filename}']/Image
+    Click /Menu[@Name='Context']/MenuItem[@Name='Properties']
 
 Select Read Only
-    [Arguments]  ${filename}
-    Click  /Window[@Name='${filename} Properties']/CheckBox[@Name='Read-only']
-    Click  /Window[@Name='${filename} Properties']/Button[@Name='OK']
+    [Arguments] ${filename}
+    Click /Window[@Name='${filename} Properties']/CheckBox[@Name='Read-only']
+    Click /Window[@Name='${filename} Properties']/Button[@Name='OK']
 
 Close Explorer
-    Click  /Window[@Name='${FOLDERNAME}']/TitleBar/Button[@Name='Close']
+    Click /Window[@Name='${FOLDERNAME}']/TitleBar/Button[@Name='Close']
 
 *** Test Cases ***
 Run Provisioning
@@ -587,8 +587,8 @@ For simplicity's sake, only the user's `Login` is kept.
 
 ```
 
-	<Connector Identifier="Banking" DisplayName_L1="Banking" Agent="Local"/>	<Category Policy="Default" Identifier="Banking" DisplayName_L1="Banking" />	<Connection Connector="Banking" DisplayName_L1="Banking Extract Database" Identifier="BankingExtractDatabase" Package="Usercube.SQL.SQLServer@0000001"/>	<Connection Connector="Banking" DisplayName_L1="Banking Fulfillment" Identifier="BankingFulfillment" Package="Usercube.RobotFramework@0000001"/>	<EntityType Identifier="Banking_Group" DisplayName_L1="Banking - Group" DisplayName_L2="Banking - Groupe">		<Property Identifier="name" DisplayName_L1="Group Name" IsKey="true" TargetColumnIndex="1" Type="String" />		<Property Identifier="users" DisplayName_L1="Users" Type="ForeignKey" />	</EntityType>	<EntityType Identifier="Banking_User" DisplayName_L1="Banking - User" DisplayName_L2="Banking - Utilisateur">		<Property Identifier="login" DisplayName_L1="Login" IsKey="true" TargetColumnIndex="1" Type="String" />		<Property Identifier="groups" DisplayName_L1="Groups" Type="ForeignKey" />	</EntityType>	<EntityTypeMapping Identifier="Banking_Group" Connector="Banking" ConnectionTable="BankingExtractDatabase_&quot;dbo&quot;.&quot;um_groups&quot;">		<Property Identifier="name" ConnectionColumn="name" IsPrimaryKey="true" />	</EntityTypeMapping>	<EntityTypeMapping Identifier="Banking_User" Connector="Banking" ConnectionTable="BankingExtractDatabase_&quot;dbo&quot;.&quot;um_users&quot;">		<Property Identifier="login" ConnectionColumn="login" IsPrimaryKey="true" />	</EntityTypeMapping>
-	<EntityAssociation Identifier="Banking_Users_Groups" DisplayName_L1="User" IsProperty1Collection="true" IsProperty2Collection="true" Property1="Banking_Group:users" Property2="Banking_User:groups" />	<EntityAssociationMapping Identifier="Banking_Users_Groups" Column1="group" Column2="user" ConnectionTable="BankingExtractDatabase_&quot;dbo&quot;.&quot;um_usersgroups&quot;" EntityPropertyMapping1="Banking_Group:name" EntityPropertyMapping2="Banking_User:login" Connector="Banking" />	<ViewTargetResourceTemplate EntityType="Banking_Group" Profile="Administrator" />	<ViewTargetResourceTemplate EntityType="Banking_User" Profile="Administrator" />
+	<Connector Identifier="Banking" DisplayName_L1="Banking" Agent="Local"/> <Category Policy="Default" Identifier="Banking" DisplayName_L1="Banking" /> <Connection Connector="Banking" DisplayName_L1="Banking Extract Database" Identifier="BankingExtractDatabase" Package="Usercube.SQL.SQLServer@0000001"/> <Connection Connector="Banking" DisplayName_L1="Banking Fulfillment" Identifier="BankingFulfillment" Package="Usercube.RobotFramework@0000001"/> <EntityType Identifier="Banking_Group" DisplayName_L1="Banking - Group" DisplayName_L2="Banking - Groupe"> <Property Identifier="name" DisplayName_L1="Group Name" IsKey="true" TargetColumnIndex="1" Type="String" /> <Property Identifier="users" DisplayName_L1="Users" Type="ForeignKey" /> </EntityType> <EntityType Identifier="Banking_User" DisplayName_L1="Banking - User" DisplayName_L2="Banking - Utilisateur"> <Property Identifier="login" DisplayName_L1="Login" IsKey="true" TargetColumnIndex="1" Type="String" /> <Property Identifier="groups" DisplayName_L1="Groups" Type="ForeignKey" /> </EntityType> <EntityTypeMapping Identifier="Banking_Group" Connector="Banking" ConnectionTable="BankingExtractDatabase_&quot;dbo&quot;.&quot;um_groups&quot;"> <Property Identifier="name" ConnectionColumn="name" IsPrimaryKey="true" /> </EntityTypeMapping> <EntityTypeMapping Identifier="Banking_User" Connector="Banking" ConnectionTable="BankingExtractDatabase_&quot;dbo&quot;.&quot;um_users&quot;"> <Property Identifier="login" ConnectionColumn="login" IsPrimaryKey="true" /> </EntityTypeMapping>
+	<EntityAssociation Identifier="Banking_Users_Groups" DisplayName_L1="User" IsProperty1Collection="true" IsProperty2Collection="true" Property1="Banking_Group:users" Property2="Banking_User:groups" /> <EntityAssociationMapping Identifier="Banking_Users_Groups" Column1="group" Column2="user" ConnectionTable="BankingExtractDatabase_&quot;dbo&quot;.&quot;um_usersgroups&quot;" EntityPropertyMapping1="Banking_Group:name" EntityPropertyMapping2="Banking_User:login" Connector="Banking" /> <ViewTargetResourceTemplate EntityType="Banking_Group" Profile="Administrator" /> <ViewTargetResourceTemplate EntityType="Banking_User" Profile="Administrator" />
 
 ```
 
@@ -602,7 +602,7 @@ For simplicity's sake, only three roles are kept.
 
 ```
 
-	<SingleRole Identifier="BAGR09" DisplayName_L1="Banking role: all transactions" DisplayName_L2="M�tiers : op�rations toutes r�gions" Category="Banking" EntityType="Directory_User" Policy="Default" />	<SingleRole Identifier="BAG002" DisplayName_L1="Banking role: agency" DisplayName_L2="M�tiers : agence" Category="Banking" EntityType="Directory_User" Policy="Default" />	<SingleRole Identifier="BAG003" DisplayName_L1="Banking role: employees agency" DisplayName_L2="M�tiers : agence personnel" Category="Banking" EntityType="Directory_User" Policy="Default" />	<ResourceType Identifier="Banking_NominativeUser" DisplayName_L1="Banking User (nominative)" Policy="Default" TargetEntityType="Banking_User" Category="Banking" SourceEntityType="Directory_User" BlockProvisioning="false">		<ScalarRule Property="login" Expression="C#:person:return person.Login;" />		<NavigationRule Property="groups" Resource="Business role: all transactions" SingleRole="BAGR09" />		<NavigationRule Property="groups" Resource="Business role: agency" SingleRole="BAG002" />		<NavigationRule Property="groups" Resource="Business role: employees agency" SingleRole="BAG003" />	</ResourceType>	<ResourceTypeMapping Identifier="Banking_NominativeUser" Connection="BankingFulfillment" />	<ResourceCorrelationRule ResourceType="Banking_NominativeUser" TargetBinding="login" Policy="Default" SourceMatchedConfidenceLevel="100" SourceExpression="C#:person:return &quot;U&quot; + person.EmployeeId;" />
+	<SingleRole Identifier="BAGR09" DisplayName_L1="Banking role: all transactions" DisplayName_L2="M�tiers : op�rations toutes r�gions" Category="Banking" EntityType="Directory_User" Policy="Default" /> <SingleRole Identifier="BAG002" DisplayName_L1="Banking role: agency" DisplayName_L2="M�tiers : agence" Category="Banking" EntityType="Directory_User" Policy="Default" /> <SingleRole Identifier="BAG003" DisplayName_L1="Banking role: employees agency" DisplayName_L2="M�tiers : agence personnel" Category="Banking" EntityType="Directory_User" Policy="Default" /> <ResourceType Identifier="Banking_NominativeUser" DisplayName_L1="Banking User (nominative)" Policy="Default" TargetEntityType="Banking_User" Category="Banking" SourceEntityType="Directory_User" BlockProvisioning="false"> <ScalarRule Property="login" Expression="C#:person:return person.Login;" /> <NavigationRule Property="groups" Resource="Business role: all transactions" SingleRole="BAGR09" /> <NavigationRule Property="groups" Resource="Business role: agency" SingleRole="BAG002" /> <NavigationRule Property="groups" Resource="Business role: employees agency" SingleRole="BAG003" /> </ResourceType> <ResourceTypeMapping Identifier="Banking_NominativeUser" Connection="BankingFulfillment" /> <ResourceCorrelationRule ResourceType="Banking_NominativeUser" TargetBinding="login" Policy="Default" SourceMatchedConfidenceLevel="100" SourceExpression="C#:person:return &quot;U&quot; + person.EmployeeId;" />
 
 ```
 
@@ -614,8 +614,8 @@ provisioning. The SeleniumLibrary also needs to be imported to use its keywords.
 ```
 
 *** Settings ***
-Resource  C:/identitymanagerDemo/Runtime/identitymanagerRobotFramework.resource
-Library  SeleniumLibrary
+Resource C:/identitymanagerDemo/Runtime/identitymanagerRobotFramework.resource
+Library SeleniumLibrary
 
 ```
 
@@ -631,8 +631,8 @@ The variables in the `Variables` section can serve two purposes.
 ```
 
 *** Variables ***
-${BROWSER}  edge
-${BANKINGURL}  http://localhost:5011
+${BROWSER} edge
+${BANKINGURL} http://localhost:5011
 
 ```
 
@@ -659,69 +659,69 @@ understandable, it is important that the keywords are not long, and have descrip
 
 *** Keywords ***
 Modify User
-    [Arguments]  ${order}
-    Try Keyword  Set Password  ${order}
-    Catch Keyword  Go To  ${BANKINGURL}/User
-    Title Should Be  All Users - Banking System
-    Add All Groups  ${order}
-    Remove All Groups  ${order}
+    [Arguments] ${order}
+    Try Keyword Set Password ${order}
+    Catch Keyword Go To ${BANKINGURL}/User
+    Title Should Be All Users - Banking System
+    Add All Groups ${order}
+    Remove All Groups ${order}
 
 Restart Banking And Fail
     Close Browser
     Launch Banking App
-    Fail  ${Provisioning failed, restarting the browser}
+    Fail ${Provisioning failed, restarting the browser}
 
 Launch Banking App
-    Open Browser  ${BANKINGURL}  ${BROWSER}
-    Title Should Be  Home Page - Banking System
+    Open Browser ${BANKINGURL} ${BROWSER}
+    Title Should Be Home Page - Banking System
 
 Set Password
-    [Arguments]  ${order}
-    Go To  ${BANKINGURL}/User/SetPassword/${login}
-    Title Should Be  Edit ${login} - Banking System
-    ${password}=  Generate Password
-    Input Text  id:Password  ${password}
-    Click Element  xpath:/html/body/div/main/div[1]/div/form/div[2]/input
+    [Arguments] ${order}
+    Go To ${BANKINGURL}/User/SetPassword/${login}
+    Title Should Be Edit ${login} - Banking System
+    ${password}= Generate Password
+    Input Text id:Password ${password}
+    Click Element xpath:/html/body/div/main/div[1]/div/form/div[2]/input
     Send Password Notification
 
 Add Group To User
-    [Arguments]  ${groupName}
-    Select From List By Value  name:group  ${groupName}
-    Click Element at Coordinates  name:group  250  0
-    Click Element  xpath:/html/body/div/main/div[1]/div/form/div[2]/input
-    Title Should Be  All Users - Banking System
+    [Arguments] ${groupName}
+    Select From List By Value name:group ${groupName}
+    Click Element at Coordinates name:group 250 0
+    Click Element xpath:/html/body/div/main/div[1]/div/form/div[2]/input
+    Title Should Be All Users - Banking System
 
 Search User And Add Group
-    [Arguments]  ${login}  ${groupName}
-    Go To  ${BANKINGURL}/User/AddGroup/${login}
-    Title Should Be  Add Group to ${login} - Banking System
-    Add Group To User  ${groupName}
+    [Arguments] ${login} ${groupName}
+    Go To ${BANKINGURL}/User/AddGroup/${login}
+    Title Should Be Add Group to ${login} - Banking System
+    Add Group To User ${groupName}
 
 Add Groups
-    [Arguments]  ${order}  ${length}
-    FOR  ${i}  IN RANGE  ${length}
-        Search User And Add Group  ${order['Resource']['login']}  ${order['Changes']['groups_add'][${i}]['name']}
+    [Arguments] ${order} ${length}
+    FOR ${i} IN RANGE ${length}
+        Search User And Add Group ${order['Resource']['login']} ${order['Changes']['groups_add'][${i}]['name']}
     END
 
 Add All Groups
-    [Arguments]  ${order}
-    ${status}  ${length}=  Run Keyword And Ignore Error  Get Length  ${order['Changes']['groups_add']}
-    Run Keyword If  '${status}' == 'PASS'  Add Groups  ${order}  ${length}
+    [Arguments] ${order}
+    ${status} ${length}= Run Keyword And Ignore Error Get Length ${order['Changes']['groups_add']}
+    Run Keyword If '${status}' == 'PASS' Add Groups ${order} ${length}
 
 Remove Group From User
-    [Arguments]  ${login}  ${groupName}
-    Go To  ${BANKINGURL}/User/RemoveGroup/${login}?groupId=${groupName}
+    [Arguments] ${login} ${groupName}
+    Go To ${BANKINGURL}/User/RemoveGroup/${login}?groupId=${groupName}
 
 Remove Groups
-    [Arguments]  ${order}  ${length}
-    FOR  ${i}  IN RANGE  ${length}
-        Remove Group From User  ${order['Resource']['login']}  ${order['Changes']['groups_remove'][${i}]['name']}
+    [Arguments] ${order} ${length}
+    FOR ${i} IN RANGE ${length}
+        Remove Group From User ${order['Resource']['login']} ${order['Changes']['groups_remove'][${i}]['name']}
     END
 
 Remove All Groups
-    [Arguments]  ${order}
-    ${status}  ${length}=  Run Keyword And Ignore Error  Get Length  ${order['Changes']['groups_remove']}
-    Run Keyword If  '${status}' == 'PASS'  Remove Groups  ${order}  ${length}
+    [Arguments] ${order}
+    ${status} ${length}= Run Keyword And Ignore Error Get Length ${order['Changes']['groups_remove']}
+    Run Keyword If '${status}' == 'PASS' Remove Groups ${order} ${length}
 
 ```
 
@@ -739,17 +739,17 @@ the error handling can be handled with the `Catch Keyword` keyword.
 
 *** Keywords ***
 ExecuteAdd
-    [Arguments]  ${order}
-    Log To Console  ExecuteAdd is not implemented
+    [Arguments] ${order}
+    Log To Console ExecuteAdd is not implemented
 
 ExecuteDelete
-    [Arguments]  ${order}
-    Log To Console  ExecuteDelete is not implemented
+    [Arguments] ${order}
+    Log To Console ExecuteDelete is not implemented
 
 ExecuteModify
-    [Arguments]  ${order}
-    Try Keyword  Modify User  ${order}
-    Catch Keyword  Restart Banking And Fail
+    [Arguments] ${order}
+    Try Keyword Modify User ${order}
+    Catch Keyword Restart Banking And Fail
 
 ```
 
@@ -769,7 +769,7 @@ of the script's execution state, the browser is closed.
 Run Provisioning
     Launch Banking App
     Launch Provisioning
-    [Teardown]  Close Browser
+    [Teardown] Close Browser
 
 ```
 
@@ -780,97 +780,97 @@ The full script is as follows:
 ```
 
 *** Settings ***
-Resource  C:/identitymanagerDemo/Runtime/identitymanagerRobotFramework.resource
-Library  SeleniumLibrary
+Resource C:/identitymanagerDemo/Runtime/identitymanagerRobotFramework.resource
+Library SeleniumLibrary
 
 *** Variables ***
-${BROWSER}  edge
-${BANKINGURL}  http://localhost:5011
+${BROWSER} edge
+${BANKINGURL} http://localhost:5011
 
 *** Keywords ***
 ExecuteAdd
-    [Arguments]  ${order}
-    Log To Console  ExecuteAdd is not implemented
+    [Arguments] ${order}
+    Log To Console ExecuteAdd is not implemented
 
 ExecuteDelete
-    [Arguments]  ${order}
-    Log To Console  ExecuteDelete is not implemented
+    [Arguments] ${order}
+    Log To Console ExecuteDelete is not implemented
 
 ExecuteModify
-    [Arguments]  ${order}
-    Try Keyword  Modify User  ${order}
-    Catch Keyword  Restart Banking And Fail
+    [Arguments] ${order}
+    Try Keyword Modify User ${order}
+    Catch Keyword Restart Banking And Fail
 
 Modify User
-    [Arguments]  ${order}
-    Try Keyword  Set Password  ${order}
-    Catch Keyword  Go To  ${BANKINGURL}/User
-    Title Should Be  All Users - Banking System
-    Add All Groups  ${order}
-    Remove All Groups  ${order}
+    [Arguments] ${order}
+    Try Keyword Set Password ${order}
+    Catch Keyword Go To ${BANKINGURL}/User
+    Title Should Be All Users - Banking System
+    Add All Groups ${order}
+    Remove All Groups ${order}
 
 Restart Banking And Fail
     Close Browser
     Launch Banking App
-    Fail  ${Provisioning failed, restarting the browser}
+    Fail ${Provisioning failed, restarting the browser}
 
 Launch Banking App
-    Open Browser  ${BANKINGURL}  ${BROWSER}
-    Title Should Be  Home Page - Banking System
+    Open Browser ${BANKINGURL} ${BROWSER}
+    Title Should Be Home Page - Banking System
 
 Set Password
-    [Arguments]  ${order}
-    Go To  ${BANKINGURL}/User/SetPassword/${login}
-    Title Should Be  Edit ${login} - Banking System
-    ${password}=  Generate Password
-    Input Text  id:Password  ${password}
-    Click Element  xpath:/html/body/div/main/div[1]/div/form/div[2]/input
+    [Arguments] ${order}
+    Go To ${BANKINGURL}/User/SetPassword/${login}
+    Title Should Be Edit ${login} - Banking System
+    ${password}= Generate Password
+    Input Text id:Password ${password}
+    Click Element xpath:/html/body/div/main/div[1]/div/form/div[2]/input
     Send Password Notification
 
 Add Group To User
-    [Arguments]  ${groupName}
-    Select From List By Value  name:group  ${groupName}
-    Click Element at Coordinates  name:group  250  0
-    Click Element  xpath:/html/body/div/main/div[1]/div/form/div[2]/input
-    Title Should Be  All Users - Banking System
+    [Arguments] ${groupName}
+    Select From List By Value name:group ${groupName}
+    Click Element at Coordinates name:group 250 0
+    Click Element xpath:/html/body/div/main/div[1]/div/form/div[2]/input
+    Title Should Be All Users - Banking System
 
 Search User And Add Group
-    [Arguments]  ${login}  ${groupName}
-    Go To  ${BANKINGURL}/User/AddGroup/${login}
-    Title Should Be  Add Group to ${login} - Banking System
-    Add Group To User  ${groupName}
+    [Arguments] ${login} ${groupName}
+    Go To ${BANKINGURL}/User/AddGroup/${login}
+    Title Should Be Add Group to ${login} - Banking System
+    Add Group To User ${groupName}
 
 Add Groups
-    [Arguments]  ${order}  ${length}
-    FOR  ${i}  IN RANGE  ${length}
-        Search User And Add Group  ${order['Resource']['login']}  ${order['Changes']['groups_add'][${i}]['name']}
+    [Arguments] ${order} ${length}
+    FOR ${i} IN RANGE ${length}
+        Search User And Add Group ${order['Resource']['login']} ${order['Changes']['groups_add'][${i}]['name']}
     END
 
 Add All Groups
-    [Arguments]  ${order}
-    ${status}  ${length}=  Run Keyword And Ignore Error  Get Length  ${order['Changes']['groups_add']}
-    Run Keyword If  '${status}' == 'PASS'  Add Groups  ${order}  ${length}
+    [Arguments] ${order}
+    ${status} ${length}= Run Keyword And Ignore Error Get Length ${order['Changes']['groups_add']}
+    Run Keyword If '${status}' == 'PASS' Add Groups ${order} ${length}
 
 Remove Group From User
-    [Arguments]  ${login}  ${groupName}
-    Go To  ${BANKINGURL}/User/RemoveGroup/${login}?groupId=${groupName}
+    [Arguments] ${login} ${groupName}
+    Go To ${BANKINGURL}/User/RemoveGroup/${login}?groupId=${groupName}
 
 Remove Groups
-    [Arguments]  ${order}  ${length}
-    FOR  ${i}  IN RANGE  ${length}
-        Remove Group From User  ${order['Resource']['login']}  ${order['Changes']['groups_remove'][${i}]['name']}
+    [Arguments] ${order} ${length}
+    FOR ${i} IN RANGE ${length}
+        Remove Group From User ${order['Resource']['login']} ${order['Changes']['groups_remove'][${i}]['name']}
     END
 
 Remove All Groups
-    [Arguments]  ${order}
-    ${status}  ${length}=  Run Keyword And Ignore Error  Get Length  ${order['Changes']['groups_remove']}
-    Run Keyword If  '${status}' == 'PASS'  Remove Groups  ${order}  ${length}
+    [Arguments] ${order}
+    ${status} ${length}= Run Keyword And Ignore Error Get Length ${order['Changes']['groups_remove']}
+    Run Keyword If '${status}' == 'PASS' Remove Groups ${order} ${length}
 
 *** Test Cases ***
 Run Provisioning
     Launch Banking App
     Launch Provisioning
-    [Teardown]  Close Browser
+    [Teardown] Close Browser
 
 ```
 
@@ -950,13 +950,13 @@ target CyberArk. Use a meaningful name to remember which CyberArk is accessed vi
 > ```
 > appsettings.agent.json
 > {
->   ...
->   "Connections": {
->     ...
->     "SCIMCyberArkExport": {
->       ...
->     }
->   }
+> ...
+> "Connections": {
+> ...
+> "SCIMCyberArkExport": {
+> ...
+> }
+> }
 > }
 >
 > ```
@@ -975,23 +975,23 @@ In the newly created subsection, fill in:
 > ```
 > appsettings.agent.json
 > {
->   ...
->   "Connections": {
->     ...
->     "SCIMCyberArkExport": {
->       "Server": "https://host:port/CyberArk/scim",
->       "Login": "Usercube-user",
->       "Password": "Cyberark1"
->     }
->   }
+> ...
+> "Connections": {
+> ...
+> "SCIMCyberArkExport": {
+> "Server": "https://host:port/CyberArk/scim",
+> "Login": "Usercube-user",
+> "Password": "Cyberark1"
+> }
+> }
 > }
 > ```
 
 For pedagogical reasons, this guide focuses on the simplest way to set up the export, but it's not
 the most secure. Hence it is strongly recommended that you
 [protect credentials using Azure Key Vault or CyberArk](/docs/identitymanager/6.1/connectors-integration/connector-packages/scim.md)
-in a production environment.  
- NETWRIX recommends completing this guide once, testing the configuration, and only then, switching
+in a production environment.
+NETWRIX recommends completing this guide once, testing the configuration, and only then, switching
 to a more secure way of storing credentials.
 
 #### Set exported objects, exported attributes and export files
@@ -1147,8 +1147,8 @@ folder as a set of `xml` files organized by connector.
 > ```
 > Conf/SCIMCyberArk/CyberArk Connector.xml
 >
-> <?xml version="1.0" encoding="utf-8"?><ConfigurationFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="urn:schemas-usercube-com:configuration">    ...
->     <Connector Identifier="CyberArk" DisplayName_L1="CyberArk" Agent="Local" />    <Connection Identifier="SCIMCyberArkExport" Connector="CyberArk" DisplayName_L1="CyberArk" Package="Usercube.SCIM.CyberArk@0000001" />    ...
+> <?xml version="1.0" encoding="utf-8"?><ConfigurationFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="urn:schemas-usercube-com:configuration"> ...
+> <Connector Identifier="CyberArk" DisplayName_L1="CyberArk" Agent="Local" /> <Connection Identifier="SCIMCyberArkExport" Connector="CyberArk" DisplayName_L1="CyberArk" Package="Usercube.SCIM.CyberArk@0000001" /> ...
 > </ConfigurationFile>
 >
 > ```
@@ -1203,7 +1203,7 @@ achieved with the `<EntityType>` tag and the following attributes:
 ```
 Conf/SCIMCyberArk/CyberArk Connector.xml
 ...
-<EntityType Identifier="CyberArk_User" DisplayName_L1="CyberArk - User">  ...
+<EntityType Identifier="CyberArk_User" DisplayName_L1="CyberArk - User"> ...
 </EntityType>...
 
 ```
@@ -1244,7 +1244,7 @@ navigation properties.
 ```
 Conf/SCIMCyberArk/CyberArk Connector.xml
 ...
-<EntityType Identifier="CyberArk_User" DisplayName_L1="CyberArk User" DisplayName_L2="Compte CyberArk">    <Property Identifier="CyberArk_id" DisplayName_L1="Id" IsKey="true" TargetColumnIndex="0" Type="String" />    <Property Identifier="userName" DisplayName_L1="User Name" TargetColumnIndex="6" Type="String" />    <Property Identifier="active" DisplayName_L1="Active" TargetColumnIndex="7" Type="String" />    <Property Identifier="givenName" DisplayName_L1="First Name" TargetColumnIndex="8" Type="String" />    <Property Identifier="middleName" DisplayName_L1="Middle Name" TargetColumnIndex="9" Type="String" />    <Property Identifier="familyName" DisplayName_L1="Last Name" TargetColumnIndex="10" Type="String" />    <Property Identifier="emails" DisplayName_L1="Emails" TargetColumnIndex="11" Type="String" />    <Property Identifier="phoneNumbers" DisplayName_L1="Phone Numbers" TargetColumnIndex="12" Type="String" />    <Property Identifier="title" DisplayName_L1="Title" TargetColumnIndex="13" Type="String" />    <Property Identifier="profileUrl" DisplayName_L1="Profile Url" TargetColumnIndex="14" Type="String" />    <Property Identifier="dn" DisplayName_L1="DN" TargetColumnIndex="15" Type="String" />    <Property Identifier="source" DisplayName_L1="Source" TargetColumnIndex="16" Type="String" />    <Property Identifier="ldapFullDN" DisplayName_L1="LdapFullDN" TargetColumnIndex="17" Type="String" />    <Property Identifier="ldapDirectory" DisplayName_L1="LdapDirectory" TargetColumnIndex="18" Type="String" />    <Property Identifier="groups" DisplayName_L1="Groups" Type="ForeignKey" />    <Property Identifier="containers" DisplayName_L1="containers" Type="ForeignKey" /></EntityType>...
+<EntityType Identifier="CyberArk_User" DisplayName_L1="CyberArk User" DisplayName_L2="Compte CyberArk"> <Property Identifier="CyberArk_id" DisplayName_L1="Id" IsKey="true" TargetColumnIndex="0" Type="String" /> <Property Identifier="userName" DisplayName_L1="User Name" TargetColumnIndex="6" Type="String" /> <Property Identifier="active" DisplayName_L1="Active" TargetColumnIndex="7" Type="String" /> <Property Identifier="givenName" DisplayName_L1="First Name" TargetColumnIndex="8" Type="String" /> <Property Identifier="middleName" DisplayName_L1="Middle Name" TargetColumnIndex="9" Type="String" /> <Property Identifier="familyName" DisplayName_L1="Last Name" TargetColumnIndex="10" Type="String" /> <Property Identifier="emails" DisplayName_L1="Emails" TargetColumnIndex="11" Type="String" /> <Property Identifier="phoneNumbers" DisplayName_L1="Phone Numbers" TargetColumnIndex="12" Type="String" /> <Property Identifier="title" DisplayName_L1="Title" TargetColumnIndex="13" Type="String" /> <Property Identifier="profileUrl" DisplayName_L1="Profile Url" TargetColumnIndex="14" Type="String" /> <Property Identifier="dn" DisplayName_L1="DN" TargetColumnIndex="15" Type="String" /> <Property Identifier="source" DisplayName_L1="Source" TargetColumnIndex="16" Type="String" /> <Property Identifier="ldapFullDN" DisplayName_L1="LdapFullDN" TargetColumnIndex="17" Type="String" /> <Property Identifier="ldapDirectory" DisplayName_L1="LdapDirectory" TargetColumnIndex="18" Type="String" /> <Property Identifier="groups" DisplayName_L1="Groups" Type="ForeignKey" /> <Property Identifier="containers" DisplayName_L1="containers" Type="ForeignKey" /></EntityType>...
 
 ```
 
@@ -1304,7 +1304,7 @@ name is written to the **Identifier** xml attribute.
 ```
 Conf/SCIMCyberArk/CyberArk Connector.xml
 ...
-<EntityTypeMapping Identifier="CyberArk_User" Connector="CyberArk" ConnectionTable="SCIMCyberArkExport_Users" >  ...
+<EntityTypeMapping Identifier="CyberArk_User" Connector="CyberArk" ConnectionTable="SCIMCyberArkExport_Users" > ...
 </EntityTypeMapping>...
 
 ```
@@ -1319,7 +1319,7 @@ EntityType property which is written to the **Identifier** attribute.
 ```
 Conf/SCIMCyberArk/CyberArk Connector.xml
 ...
-<EntityTypeMapping Identifier="CyberArk_User" Connector="CyberArk" ConnectionTable="SCIMCyberArkExport_Users" >  <Property Identifier="CyberArk_id" ConnectionColumn="id" IsPrimaryKey="true" />  <Property Identifier="userName" ConnectionColumn="userName" />  <Property Identifier="active" ConnectionColumn="active" />  <Property Identifier="givenName" ConnectionColumn="name:givenName" />  <Property Identifier="middleName" ConnectionColumn="name:middleName" />  <Property Identifier="familyName" ConnectionColumn="name:familyName" />  <Property Identifier="emails" ConnectionColumn="emails:value" IsMultiValuedProperty="true" />  <Property Identifier="phoneNumbers" ConnectionColumn="phoneNumbers:value" IsMultiValuedProperty="true" />  <Property Identifier="title" ConnectionColumn="title" />  <Property Identifier="profileUrl" ConnectionColumn="profileUrl" />  <Property Identifier="ldapDirectory" ConnectionColumn="ldapDirectory" />  <Property Identifier="ldapFullDN" ConnectionColumn="ldapFullDN" />  <Property Identifier="source" ConnectionColumn="source" ScimSchema="urn:ietf:params:scim:schemas:pam:1.0:LinkedObject"/>  <Property Identifier="dn" ConnectionColumn="nativeIdentifier" ScimSchema="urn:ietf:params:scim:schemas:pam:1.0:LinkedObject" /> </EntityTypeMapping>...
+<EntityTypeMapping Identifier="CyberArk_User" Connector="CyberArk" ConnectionTable="SCIMCyberArkExport_Users" > <Property Identifier="CyberArk_id" ConnectionColumn="id" IsPrimaryKey="true" /> <Property Identifier="userName" ConnectionColumn="userName" /> <Property Identifier="active" ConnectionColumn="active" /> <Property Identifier="givenName" ConnectionColumn="name:givenName" /> <Property Identifier="middleName" ConnectionColumn="name:middleName" /> <Property Identifier="familyName" ConnectionColumn="name:familyName" /> <Property Identifier="emails" ConnectionColumn="emails:value" IsMultiValuedProperty="true" /> <Property Identifier="phoneNumbers" ConnectionColumn="phoneNumbers:value" IsMultiValuedProperty="true" /> <Property Identifier="title" ConnectionColumn="title" /> <Property Identifier="profileUrl" ConnectionColumn="profileUrl" /> <Property Identifier="ldapDirectory" ConnectionColumn="ldapDirectory" /> <Property Identifier="ldapFullDN" ConnectionColumn="ldapFullDN" /> <Property Identifier="source" ConnectionColumn="source" ScimSchema="urn:ietf:params:scim:schemas:pam:1.0:LinkedObject"/> <Property Identifier="dn" ConnectionColumn="nativeIdentifier" ScimSchema="urn:ietf:params:scim:schemas:pam:1.0:LinkedObject" /> </EntityTypeMapping>...
 
 ```
 
@@ -1440,7 +1440,7 @@ folder in order to add the CyberArk SCIM objects menu item.
 ```
 Conf/SCIMCyberArk/CyberArk Nav.xml
 ...
-<MenuItem Identifier="Nav_Connectors_CyberArk" DisplayName_L1="CyberArk" DisplayName_L2="CyberArk" ParentMenuItem="Nav_Connectors">  <MenuItem Identifier="Nav_Connectors_CyberArk_User" DisplayName_L1="CyberArk Users" DisplayName_L2="Comptes CyberArk" EntityType="CyberArk_User" />  <MenuItem Identifier="Nav_Connectors_CyberArk_Group" DisplayName_L1="CyberArk Groups" DisplayName_L2="Groupes CyberArk" EntityType="CyberArk_Group" />  <MenuItem Identifier="Nav_Connectors_CyberArk_Container" DisplayName_L1="CyberArk Safes" DisplayName_L2="Safes CyberArk" EntityType="CyberArk_Container" /></MenuItem>...
+<MenuItem Identifier="Nav_Connectors_CyberArk" DisplayName_L1="CyberArk" DisplayName_L2="CyberArk" ParentMenuItem="Nav_Connectors"> <MenuItem Identifier="Nav_Connectors_CyberArk_User" DisplayName_L1="CyberArk Users" DisplayName_L2="Comptes CyberArk" EntityType="CyberArk_User" /> <MenuItem Identifier="Nav_Connectors_CyberArk_Group" DisplayName_L1="CyberArk Groups" DisplayName_L2="Groupes CyberArk" EntityType="CyberArk_Group" /> <MenuItem Identifier="Nav_Connectors_CyberArk_Container" DisplayName_L1="CyberArk Safes" DisplayName_L2="Safes CyberArk" EntityType="CyberArk_Container" /></MenuItem>...
 
 ```
 
@@ -1465,7 +1465,7 @@ describes how a single resource should be displayed.
 ```
 Conf/SCIMCyberArk/CyberArk UI.xml
 ...
-<DisplayEntityType Identifier="CyberArk_User">  <Property OutputType="BasicCollection" Identifier="groups" />  <Property OutputType="BasicCollection" Identifier="containers" /></DisplayEntityType>...
+<DisplayEntityType Identifier="CyberArk_User"> <Property OutputType="BasicCollection" Identifier="groups" /> <Property OutputType="BasicCollection" Identifier="containers" /></DisplayEntityType>...
 
 ```
 
@@ -1497,7 +1497,7 @@ elements that identify which properties should be included in the list display.
 ```
 Conf/SCIMCyberArk/CyberArk UI.xml
 ...
-<DisplayTable Identifier="CyberArk_User" EntityType="CyberArk_User" DisplayTableDesignElement="resourcetable" IsEntityTypeDefault="true">  <Column DefaultSortPriority="1" DisplayBinding="userName" IsDisplayInSummaryView="true" IsResizable="true" IsSortable="true" CanBeFiltered="true" ColumnSize="2" />  <Column DisplayBinding="givenName" IsDisplayInSummaryView="true" IsResizable="true" IsSortable="true" CanBeFiltered="true" ColumnSize="2" />  <Column DisplayBinding="familyName" IsDisplayInSummaryView="true" IsResizable="true" IsSortable="true" CanBeFiltered="true" ColumnSize="2" />  <Column DisplayBinding="ldapDirectory" IsDisplayInSummaryView="true" IsResizable="true" IsSortable="true" CanBeFiltered="true" ColumnSize="2" />  <Column DisplayBinding="ldapFullDN" IsDisplayInSummaryView="true" IsResizable="true" IsSortable="true" CanBeFiltered="true" ColumnSize="2" />  <Column DisplayBinding="title" IsDisplayInSummaryView="true" IsResizable="true" IsSortable="true" CanBeFiltered="true" ColumnSize="2" />  <Column DisplayBinding="active" IsDisplayInSummaryView="true" IsResizable="true" IsSortable="true" CanBeFiltered="true" ColumnSize="2" /></DisplayTable>...
+<DisplayTable Identifier="CyberArk_User" EntityType="CyberArk_User" DisplayTableDesignElement="resourcetable" IsEntityTypeDefault="true"> <Column DefaultSortPriority="1" DisplayBinding="userName" IsDisplayInSummaryView="true" IsResizable="true" IsSortable="true" CanBeFiltered="true" ColumnSize="2" /> <Column DisplayBinding="givenName" IsDisplayInSummaryView="true" IsResizable="true" IsSortable="true" CanBeFiltered="true" ColumnSize="2" /> <Column DisplayBinding="familyName" IsDisplayInSummaryView="true" IsResizable="true" IsSortable="true" CanBeFiltered="true" ColumnSize="2" /> <Column DisplayBinding="ldapDirectory" IsDisplayInSummaryView="true" IsResizable="true" IsSortable="true" CanBeFiltered="true" ColumnSize="2" /> <Column DisplayBinding="ldapFullDN" IsDisplayInSummaryView="true" IsResizable="true" IsSortable="true" CanBeFiltered="true" ColumnSize="2" /> <Column DisplayBinding="title" IsDisplayInSummaryView="true" IsResizable="true" IsSortable="true" CanBeFiltered="true" ColumnSize="2" /> <Column DisplayBinding="active" IsDisplayInSummaryView="true" IsResizable="true" IsSortable="true" CanBeFiltered="true" ColumnSize="2" /></DisplayTable>...
 
 ```
 
@@ -1552,7 +1552,7 @@ It entitles an administrator to display `CyberArk SCIM` resource and role catego
 ```
 Conf/MicrosoftEntraID/MicrosoftEntraID Profile Administrator.xml
 ...
-<AccessControlRule Profile="Administrator" EntityType="ResourceType" Identifier="Administrator_ResourceTypeSelector_resourceType_CyberArk" DisplayName_L1="Administrator_ResourceTypeSelector_resourceType_CyberArk">  <Entry Permission="/Custom/Resources/CyberArk_User/View" CanExecute="true" />  <Entry Permission="/Custom/Resources/CyberArk_Group/View" CanExecute="true" />  <Entry Permission="/Custom/Resources/CyberArk_Container/View" CanExecute="true" /></AccessControlRule><AccessControlRule Profile="Administrator" EntityType="Category" Identifier="Administrator_ResourceTypeSelector_category_CyberArk" DisplayName_L1="Administrator_ResourceTypeSelector_category_CyberArk">  <Entry Permission="/Custom/Resources/CyberArk_User/View" CanExecute="true" />  <Entry Permission="/Custom/Resources/CyberArk_Group/View" CanExecute="true" />  <Entry Permission="/Custom/Resources/CyberArk_Container/View" CanExecute="true" /></AccessControlRule>...
+<AccessControlRule Profile="Administrator" EntityType="ResourceType" Identifier="Administrator_ResourceTypeSelector_resourceType_CyberArk" DisplayName_L1="Administrator_ResourceTypeSelector_resourceType_CyberArk"> <Entry Permission="/Custom/Resources/CyberArk_User/View" CanExecute="true" /> <Entry Permission="/Custom/Resources/CyberArk_Group/View" CanExecute="true" /> <Entry Permission="/Custom/Resources/CyberArk_Container/View" CanExecute="true" /></AccessControlRule><AccessControlRule Profile="Administrator" EntityType="Category" Identifier="Administrator_ResourceTypeSelector_category_CyberArk" DisplayName_L1="Administrator_ResourceTypeSelector_category_CyberArk"> <Entry Permission="/Custom/Resources/CyberArk_User/View" CanExecute="true" /> <Entry Permission="/Custom/Resources/CyberArk_Group/View" CanExecute="true" /> <Entry Permission="/Custom/Resources/CyberArk_Container/View" CanExecute="true" /></AccessControlRule>...
 
 ```
 
@@ -1575,7 +1575,7 @@ All the job steps can be found in the
 ```
 Conf/SCIMCyberArk/SCIM CyberArk Jobs.xml
 ...
-<CreateConnectorSynchroComplete Connector="CyberArk" DisplayName_L1="01: CyberArk - Synchronization Complete (scaffolding)" JobIdentifier="CyberArk_Synchronize_Complete_Scaffolding">  <OpenIdIdentifier Identifier="Job"/></CreateConnectorSynchroComplete>...
+<CreateConnectorSynchroComplete Connector="CyberArk" DisplayName_L1="01: CyberArk - Synchronization Complete (scaffolding)" JobIdentifier="CyberArk_Synchronize_Complete_Scaffolding"> <OpenIdIdentifier Identifier="Job"/></CreateConnectorSynchroComplete>...
 
 ```
 
@@ -1627,7 +1627,7 @@ Conf/Profile AgentJob.xml
 As the Principle of Least Privilege states, NETWRIX strongly recommends that you create a
 [Profile](/docs/identitymanager/6.1/configuration-reference/xml-configuration/access-control-config.md)
 to be used during the Synchronization jobs which will be different from the one used during the
-Provisioning job. This contributes to separating access rights.  
+Provisioning job. This contributes to separating access rights.
 The same principle applied even more rigorously would make Usercube create one profile per Task. It
 isn't necessary as most Synchronization tasks require the same permissions.
 
@@ -1743,15 +1743,15 @@ The Job itself uses the `DefaultOpenIdClient` value.
 >
 > ```
 > appsettings.agent.json
->  {
->     ...
->     "OpenId":{
->         "OpenIdClients": {
->             "Job": "secret"
->          },
->          "DefaultOpenIdClient": "Job"
->     }
->  }
+> {
+> ...
+> "OpenId":{
+> "OpenIdClients": {
+> "Job": "secret"
+> },
+> "DefaultOpenIdClient": "Job"
+> }
+> }
 >
 > ```
 
@@ -1770,7 +1770,7 @@ attribute.
 >
 > ```
 > Conf/SCIMCyberArk/SCIM CyberArk Jobs.xml
-> <Job Identifier="CyberArk_Synchronize_Complete_Manually" CronTabExpression="*/15 * * * *" DisplayName_L1="01: CyberArk - Synchronization Complete (manually)" DisplayName_L2="00: CyberArk - Synchronisation Complete (manuelle)" Agent="Local">  ...
+> <Job Identifier="CyberArk_Synchronize_Complete_Manually" CronTabExpression="*/15 * * * *" DisplayName_L1="01: CyberArk - Synchronization Complete (manually)" DisplayName_L2="00: CyberArk - Synchronisation Complete (manuelle)" Agent="Local"> ...
 > </Job>
 >
 > ```
@@ -1908,11 +1908,13 @@ target SharePoint.
 
 > This example connects via the `SharePointExportContoso` connection to the Contoso SharePoint site:
 >
->                         ```
+> ```
 >
->                             appsettings.agent.json
+> appsettings.agent.json
 >
 > { ... "Connections": { ... "SharePointExportContoso": { ... } } }
+>
+> ```
 >
 > ```
 >
@@ -1928,9 +1930,9 @@ In the newly created subsection, fill in:
 
 > For example:
 >
->                         ```
+> ```
 >
->                             appsettings.agent.json
+> appsettings.agent.json
 >
 > { ... "Connections": { ... "SharePointExportContoso": { "Server":
 > "https://contoso.sharepoint.com/", "Login": "usercube.service@contoso.com", "Password":
@@ -1939,11 +1941,13 @@ In the newly created subsection, fill in:
 > ```
 >
 > ```
+>
+> ```
 
 For pedagogical reasons, this guide focuses on the simplest way to set up the export, but it's not
 the most secure. Hence it is strongly recommended that you
 [protect credentials using Azure Key Vault or Cyber Ark](/docs/identitymanager/6.1/connectors-integration/connector-packages/sharepoint.md)
-in a production environment.  
+in a production environment.
 NETWRIX recommends completing this guide once, testing the configuration, and only then, switching
 to a more secure way of storing credentials.
 
@@ -2061,15 +2065,17 @@ folder as a set of `xml` files organized by connector.
 
 > This example declares the `SharePoint` connector on the `Local` agent:
 >
->                         ```
+> ```
 >
->                             Conf/SharePoint/SharePoint Connector.xml
+> Conf/SharePoint/SharePoint Connector.xml
 >
-> <?xml version="1.0" encoding="utf-8"?><ConfigurationFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="urn:schemas-usercube-com:configuration">    ...
+> <?xml version="1.0" encoding="utf-8"?><ConfigurationFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="urn:schemas-usercube-com:configuration"> ...
 >
->     <Connector Identifier="SharePoint" DisplayName_L1="SharePoint" Agent="Local"/>    <Connection Identifier="SharePointExportContoso" Connector="SharePoint" DisplayName_L1="SharePoint" Package="Usercube.SharePoint@0000001" />    ...
+> <Connector Identifier="SharePoint" DisplayName_L1="SharePoint" Agent="Local"/> <Connection Identifier="SharePointExportContoso" Connector="SharePoint" DisplayName_L1="SharePoint" Package="Usercube.SharePoint@0000001" /> ...
 >
 > </ConfigurationFile>
+>
+> ```
 >
 > ```
 >
@@ -2146,7 +2152,7 @@ The main attributes of the ```<Property>``` tag are the following:
 
                         Conf/SharePoint/SharePoint Connector.xml
 ...
-  <EntityType Identifier="SharePoint_Entity" DisplayName_L1="SharePoint - Entity">    <Property Identifier="Collection" DisplayName_L1="Collection" TargetColumnIndex="9" Type="String" />    <Property Identifier="EntityId" DisplayName_L1="Id" IsKey="true" TargetColumnIndex="0" Type="String" />    <Property Identifier="SharePointId" DisplayName_L1="SharePointId" TargetColumnIndex="10" Type="Int64" />    <Property Identifier="Name" DisplayName_L1="Name" TargetColumnIndex="1" Type="String" />    <Property Identifier="Description" DisplayName_L1="Description" TargetColumnIndex="8" Type="String" />    <Property Identifier="PrincipalType" DisplayName_L1="PrincipalType" TargetColumnIndex="2" Type="String" />    <Property Identifier="Email" DisplayName_L1="Email" TargetColumnIndex="7" Type="String" />    <Property Identifier="IsEmailAuthenticationGuestUser" DisplayName_L1="IsEmailAuthenticationGuestUser" TargetColumnIndex="3" Type="String" />    <Property Identifier="IsSiteAdmin" DisplayName_L1="IsSiteAdmin" TargetColumnIndex="4" Type="String" />    <Property Identifier="IsShareByEmailGuestUser" DisplayName_L1="IsShareByEmailGuestUser" TargetColumnIndex="5" Type="String" />    <Property Identifier="Member" DisplayName_L1="Group Members" Type="ForeignKey" />    <Property Identifier="Group" DisplayName_L1="Groups" Type="ForeignKey" />    <Property Identifier="RoleAssignment" DisplayName_L1="Role Assignement" Type="ForeignKey" />  </EntityType>  <EntityType Identifier="SharePoint_Role" DisplayName_L1="SharePoint - Role">    <Property Identifier="Collection" DisplayName_L1="Collection" TargetColumnIndex="3" Type="String" />    <Property Identifier="RoleId" DisplayName_L1="Id" IsKey="true" TargetColumnIndex="5" Type="String" />    <Property Identifier="Name" DisplayName_L1="Name" TargetColumnIndex="4" Type="String" />    <Property Identifier="Description" DisplayName_L1="Description" TargetColumnIndex="1" Type="String" />    <Property Identifier="Permissions" DisplayName_L1="Permissions list" TargetColumnIndex="2" Type="String" />    <Property Identifier="RoleAssignment" DisplayName_L1="Role Assignement" Type="ForeignKey" />  </EntityType>  <EntityType Identifier="SharePoint_Object" DisplayName_L1="SharePoint - Securable Object">    <Property Identifier="Key" DisplayName_L1="Key" IsKey="true" TargetColumnIndex="1" Type="String" />    <Property Identifier="Collection" DisplayName_L1="Collection" TargetColumnIndex="3" Type="String" />    <Property Identifier="Level" DisplayName_L1="Level" TargetColumnIndex="4" Type="String" />    <Property Identifier="Label" DisplayName_L1="Label" TargetColumnIndex="2" Type="String" />    <Property Identifier="ParentKey" DisplayName_L1="Parent" TargetColumnIndex="129" Type="ForeignKey" />    <Property Identifier="Objects" DisplayName_L1="Children" Type="ForeignKey" />    <Property Identifier="ScanStatus" DisplayName_L1="ScanStatus" TargetColumnIndex="5" Type="String" />    <Property Identifier="HasUniqueRoleAssignments" DisplayName_L1="HasUniqueRoleAssignments" TargetColumnIndex="6" Type="String" />    <Property Identifier="RoleAssignment" DisplayName_L1="Role Assignement" Type="ForeignKey" />    <Property Identifier="Inheritance" DisplayName_L1="Inherits entitlements from" Type="ForeignKey" TargetColumnIndex="128" />    <Property Identifier="GiveRights" DisplayName_L1="Gives entitlements to" Type="ForeignKey" />  </EntityType>  <EntityType Identifier="SharePoint_RoleAssignment" DisplayName_L1="SharePoint - Role Assignement">    <Property Identifier="Collection" DisplayName_L1="Collection" TargetColumnIndex="3" Type="String" />    <Property Identifier="Key" DisplayName_L1="Key" IsKey="true" TargetColumnIndex="5" Type="String" />    <Property Identifier="Entity" DisplayName_L1="Entity" Type="ForeignKey" TargetColumnIndex="128"  />    <Property Identifier="Role" DisplayName_L1="Role" Type="ForeignKey" TargetColumnIndex="129" />    <Property Identifier="Object" DisplayName_L1="Object" Type="ForeignKey" TargetColumnIndex="130" />  </EntityType>  ...
+  <EntityType Identifier="SharePoint_Entity" DisplayName_L1="SharePoint - Entity"> <Property Identifier="Collection" DisplayName_L1="Collection" TargetColumnIndex="9" Type="String" /> <Property Identifier="EntityId" DisplayName_L1="Id" IsKey="true" TargetColumnIndex="0" Type="String" /> <Property Identifier="SharePointId" DisplayName_L1="SharePointId" TargetColumnIndex="10" Type="Int64" /> <Property Identifier="Name" DisplayName_L1="Name" TargetColumnIndex="1" Type="String" /> <Property Identifier="Description" DisplayName_L1="Description" TargetColumnIndex="8" Type="String" /> <Property Identifier="PrincipalType" DisplayName_L1="PrincipalType" TargetColumnIndex="2" Type="String" /> <Property Identifier="Email" DisplayName_L1="Email" TargetColumnIndex="7" Type="String" /> <Property Identifier="IsEmailAuthenticationGuestUser" DisplayName_L1="IsEmailAuthenticationGuestUser" TargetColumnIndex="3" Type="String" /> <Property Identifier="IsSiteAdmin" DisplayName_L1="IsSiteAdmin" TargetColumnIndex="4" Type="String" /> <Property Identifier="IsShareByEmailGuestUser" DisplayName_L1="IsShareByEmailGuestUser" TargetColumnIndex="5" Type="String" /> <Property Identifier="Member" DisplayName_L1="Group Members" Type="ForeignKey" /> <Property Identifier="Group" DisplayName_L1="Groups" Type="ForeignKey" /> <Property Identifier="RoleAssignment" DisplayName_L1="Role Assignement" Type="ForeignKey" /> </EntityType> <EntityType Identifier="SharePoint_Role" DisplayName_L1="SharePoint - Role"> <Property Identifier="Collection" DisplayName_L1="Collection" TargetColumnIndex="3" Type="String" /> <Property Identifier="RoleId" DisplayName_L1="Id" IsKey="true" TargetColumnIndex="5" Type="String" /> <Property Identifier="Name" DisplayName_L1="Name" TargetColumnIndex="4" Type="String" /> <Property Identifier="Description" DisplayName_L1="Description" TargetColumnIndex="1" Type="String" /> <Property Identifier="Permissions" DisplayName_L1="Permissions list" TargetColumnIndex="2" Type="String" /> <Property Identifier="RoleAssignment" DisplayName_L1="Role Assignement" Type="ForeignKey" /> </EntityType> <EntityType Identifier="SharePoint_Object" DisplayName_L1="SharePoint - Securable Object"> <Property Identifier="Key" DisplayName_L1="Key" IsKey="true" TargetColumnIndex="1" Type="String" /> <Property Identifier="Collection" DisplayName_L1="Collection" TargetColumnIndex="3" Type="String" /> <Property Identifier="Level" DisplayName_L1="Level" TargetColumnIndex="4" Type="String" /> <Property Identifier="Label" DisplayName_L1="Label" TargetColumnIndex="2" Type="String" /> <Property Identifier="ParentKey" DisplayName_L1="Parent" TargetColumnIndex="129" Type="ForeignKey" /> <Property Identifier="Objects" DisplayName_L1="Children" Type="ForeignKey" /> <Property Identifier="ScanStatus" DisplayName_L1="ScanStatus" TargetColumnIndex="5" Type="String" /> <Property Identifier="HasUniqueRoleAssignments" DisplayName_L1="HasUniqueRoleAssignments" TargetColumnIndex="6" Type="String" /> <Property Identifier="RoleAssignment" DisplayName_L1="Role Assignement" Type="ForeignKey" /> <Property Identifier="Inheritance" DisplayName_L1="Inherits entitlements from" Type="ForeignKey" TargetColumnIndex="128" /> <Property Identifier="GiveRights" DisplayName_L1="Gives entitlements to" Type="ForeignKey" /> </EntityType> <EntityType Identifier="SharePoint_RoleAssignment" DisplayName_L1="SharePoint - Role Assignement"> <Property Identifier="Collection" DisplayName_L1="Collection" TargetColumnIndex="3" Type="String" /> <Property Identifier="Key" DisplayName_L1="Key" IsKey="true" TargetColumnIndex="5" Type="String" /> <Property Identifier="Entity" DisplayName_L1="Entity" Type="ForeignKey" TargetColumnIndex="128" /> <Property Identifier="Role" DisplayName_L1="Role" Type="ForeignKey" TargetColumnIndex="129" /> <Property Identifier="Object" DisplayName_L1="Object" Type="ForeignKey" TargetColumnIndex="130" /> </EntityType> ...
 
 ````
 
@@ -2170,7 +2176,7 @@ elements.
 <EntityAssociation Identifier="SharePoint_Object_Parent" DisplayName_L1="Parent object" IsProperty1Collection="true" Property1="SharePoint_Object:Objects" Property2="SharePoint_Object:ParentKey" />
 <EntityAssociation Identifier="SharePoint_Group_Entity_Id" DisplayName_L1="Entity_Id" IsProperty1Collection="true" IsProperty2Collection="true" Property1="SharePoint_Entity:Member" Property2="SharePoint_Entity:Group" />
 <EntityAssociation Identifier="SharePoint_Inheritance_Object" DisplayName_L1="Inheritance_Object" IsProperty1Collection="true" IsProperty2Collection="false" Property1="SharePoint_Object:GiveRights" Property2="SharePoint_Object:Inheritance" />
-<EntityAssociation Identifier="SharePoint_Entity_RoleAssignment" DisplayName_L1="SharePoint_RoleAssignment" IsProperty1Collection="false" IsProperty2Collection="true"  Property1="SharePoint_RoleAssignment:Entity" Property2="SharePoint_Entity:RoleAssignment"/>
+<EntityAssociation Identifier="SharePoint_Entity_RoleAssignment" DisplayName_L1="SharePoint_RoleAssignment" IsProperty1Collection="false" IsProperty2Collection="true" Property1="SharePoint_RoleAssignment:Entity" Property2="SharePoint_Entity:RoleAssignment"/>
 <EntityAssociation Identifier="SharePoint_Role_RoleAssignment" DisplayName_L1="SharePoint_RoleAssignment" IsProperty1Collection="false" IsProperty2Collection="true" Property1="SharePoint_RoleAssignment:Role" Property2="SharePoint_Role:RoleAssignment" />
 <EntityAssociation Identifier="SharePoint_Object_RoleAssignment" DisplayName_L1="SharePoint_RoleAssignment" IsProperty1Collection="false" IsProperty2Collection="true" Property1="SharePoint_RoleAssignment:Object" Property2="SharePoint_Object:RoleAssignment" />
 ...
@@ -2198,8 +2204,8 @@ The CSV source file path is written to the ```ConnectionTable``` xml attribute. 
 
                         Conf/SharePoint/SharePoint Connector.xml
   ...
-  <EntityTypeMapping Identifier="SharePointObject" Connector="SharePoint" ConnectionTable="SharePointExportContoso_Entity">    ...
-  </EntityTypeMapping>  ...
+  <EntityTypeMapping Identifier="SharePointObject" Connector="SharePoint" ConnectionTable="SharePointExportContoso_Entity"> ...
+  </EntityTypeMapping> ...
 
 ````
 
@@ -2263,7 +2269,7 @@ An [EntityAssociationMapping](/docs/identitymanager/6.1/configuration-reference/
 
                         Conf/SharePoint/SharePoint Connector.xml
   ...
-  <EntityAssociationMapping Identifier="SharePoint_Object_Parent" Column1="ParentKey" Column2="Key" Connector="SharePoint" ConnectionTable="SharePointExportContoso_SecurableObject" EntityPropertyMapping1="SharePoint_Object:Key" EntityPropertyMapping2="SharePoint_Object:Key" />  <EntityAssociationMapping Identifier="SharePoint_Group_Entity_Id" Column1="Group_Id" Column2="Entity_Id" Connector="SharePoint" ConnectionTable="SharePointExportContoso_GroupMember" EntityPropertyMapping1="SharePoint_Entity:EntityId" EntityPropertyMapping2="SharePoint_Entity:EntityId" />  <EntityAssociationMapping Identifier="SharePoint_Inheritance_Object" Column1="Inheritance_Key" Column2="SecurableObject_Key" Connector="SharePoint" ConnectionTable="SharePointExportContoso_SecurableObjectRightInheritance" EntityPropertyMapping1="SharePoint_Object:Key" EntityPropertyMapping2="SharePoint_Object:Key" />  <EntityAssociationMapping Identifier="SharePoint_Entity_RoleAssignment" Column1="Key" Column2="Entity_Id" Connector="SharePoint" ConnectionTable="SharePointExportContoso_RoleAssignment"  EntityPropertyMapping1="SharePoint_RoleAssignment:Key" EntityPropertyMapping2="SharePoint_Entity:EntityId" />  <EntityAssociationMapping Identifier="SharePoint_Role_RoleAssignment" Column1="Key" Column2="Role_Id" Connector="SharePoint" ConnectionTable="SharePointExportContoso_RoleAssignment" EntityPropertyMapping1="SharePoint_RoleAssignment:Key" EntityPropertyMapping2="SharePoint_Role:RoleId" />  <EntityAssociationMapping Identifier="SharePoint_Object_RoleAssignment" Column1="Key" Column2="SecurableObject_Key" Connector="SharePoint" ConnectionTable="SharePointExportContoso_RoleAssignment" EntityPropertyMapping1="SharePoint_RoleAssignment:Key" EntityPropertyMapping2="SharePoint_Object:Key" />  ...
+  <EntityAssociationMapping Identifier="SharePoint_Object_Parent" Column1="ParentKey" Column2="Key" Connector="SharePoint" ConnectionTable="SharePointExportContoso_SecurableObject" EntityPropertyMapping1="SharePoint_Object:Key" EntityPropertyMapping2="SharePoint_Object:Key" /> <EntityAssociationMapping Identifier="SharePoint_Group_Entity_Id" Column1="Group_Id" Column2="Entity_Id" Connector="SharePoint" ConnectionTable="SharePointExportContoso_GroupMember" EntityPropertyMapping1="SharePoint_Entity:EntityId" EntityPropertyMapping2="SharePoint_Entity:EntityId" /> <EntityAssociationMapping Identifier="SharePoint_Inheritance_Object" Column1="Inheritance_Key" Column2="SecurableObject_Key" Connector="SharePoint" ConnectionTable="SharePointExportContoso_SecurableObjectRightInheritance" EntityPropertyMapping1="SharePoint_Object:Key" EntityPropertyMapping2="SharePoint_Object:Key" /> <EntityAssociationMapping Identifier="SharePoint_Entity_RoleAssignment" Column1="Key" Column2="Entity_Id" Connector="SharePoint" ConnectionTable="SharePointExportContoso_RoleAssignment" EntityPropertyMapping1="SharePoint_RoleAssignment:Key" EntityPropertyMapping2="SharePoint_Entity:EntityId" /> <EntityAssociationMapping Identifier="SharePoint_Role_RoleAssignment" Column1="Key" Column2="Role_Id" Connector="SharePoint" ConnectionTable="SharePointExportContoso_RoleAssignment" EntityPropertyMapping1="SharePoint_RoleAssignment:Key" EntityPropertyMapping2="SharePoint_Role:RoleId" /> <EntityAssociationMapping Identifier="SharePoint_Object_RoleAssignment" Column1="Key" Column2="SecurableObject_Key" Connector="SharePoint" ConnectionTable="SharePointExportContoso_RoleAssignment" EntityPropertyMapping1="SharePoint_RoleAssignment:Key" EntityPropertyMapping2="SharePoint_Object:Key" /> ...
 
 ````
 
@@ -2360,7 +2366,7 @@ The [DisplayTable](/docs/identitymanager/6.1/configuration-reference/xml-configu
 
                         Conf/SharePoint/SharePoint UI.xml
 ...
-<DisplayTable Identifier="SharePoint_Entity" EntityType="SharePoint_Entity" DisplayTableDesignElement="resourcetable" IsEntityTypeDefault="true">    <Column DefaultSortPriority="1" DisplayBinding="Name" IsDisplayInSummaryView="true" IsResizable="true" IsSortable="true" CanBeFiltered="true" ColumnSize="4" />    <Column DisplayBinding="Email" IsDisplayInSummaryView="true" IsResizable="true" IsSortable="true" CanBeFiltered="true" ColumnSize="2" />    <Column DisplayBinding="PrincipalType" IsDisplayInSummaryView="true" IsResizable="true" IsSortable="true" CanBeFiltered="true" ColumnSize="2" /></DisplayTable>...
+<DisplayTable Identifier="SharePoint_Entity" EntityType="SharePoint_Entity" DisplayTableDesignElement="resourcetable" IsEntityTypeDefault="true"> <Column DefaultSortPriority="1" DisplayBinding="Name" IsDisplayInSummaryView="true" IsResizable="true" IsSortable="true" CanBeFiltered="true" ColumnSize="4" /> <Column DisplayBinding="Email" IsDisplayInSummaryView="true" IsResizable="true" IsSortable="true" CanBeFiltered="true" ColumnSize="2" /> <Column DisplayBinding="PrincipalType" IsDisplayInSummaryView="true" IsResizable="true" IsSortable="true" CanBeFiltered="true" ColumnSize="2" /></DisplayTable>...
 
 ````
 
@@ -2408,7 +2414,7 @@ It is strongly recommended that permissions be written to a new file. For exampl
 
                         Conf/SharePoint/SharePoint Profile Administrator.xml
 ...
-<AccessControlRule Profile="Administrator" EntityType="ResourceType" Identifier="Administrator_ResourceTypeSelector_resourceType_SharePoint" DisplayName_L1="Administrator_ResourceTypeSelector_resourceType_SharePoint">    <Entry Permission="/Custom/Resources/SharePoint_Entity/View" CanExecute="true" />    <Entry Permission="/Custom/Resources/SharePoint_Entity/ResetPassword" CanExecute="true" />  </AccessControlRule>  <AccessControlRule Profile="Administrator" EntityType="Category" Identifier="Administrator_ResourceTypeSelector_category_SharePoint" DisplayName_L1="Administrator_ResourceTypeSelector_category_SharePoint">    <Entry Permission="/Custom/Resources/SharePoint_Entity/View" CanExecute="true" /></AccessControlRule>...
+<AccessControlRule Profile="Administrator" EntityType="ResourceType" Identifier="Administrator_ResourceTypeSelector_resourceType_SharePoint" DisplayName_L1="Administrator_ResourceTypeSelector_resourceType_SharePoint"> <Entry Permission="/Custom/Resources/SharePoint_Entity/View" CanExecute="true" /> <Entry Permission="/Custom/Resources/SharePoint_Entity/ResetPassword" CanExecute="true" /> </AccessControlRule> <AccessControlRule Profile="Administrator" EntityType="Category" Identifier="Administrator_ResourceTypeSelector_category_SharePoint" DisplayName_L1="Administrator_ResourceTypeSelector_category_SharePoint"> <Entry Permission="/Custom/Resources/SharePoint_Entity/View" CanExecute="true" /></AccessControlRule>...
 
 ````
 
@@ -2458,7 +2464,7 @@ These three steps are all contained in a [scaffolding](/docs/identitymanager/6.1
 
                         Conf/SharePoint/SharePoint Jobs.xml
 ...
-<CreateConnectorSynchroIncremental Connector="SharePoint" DisplayName_L1="SharePoint Synchronization (delta)" DisplayName_L2="Synchronisation SharePoint (delta)">    <OpenIdIdentifier Identifier="Job"/>  </CreateConnectorSynchroIncremental>...
+<CreateConnectorSynchroIncremental Connector="SharePoint" DisplayName_L1="SharePoint Synchronization (delta)" DisplayName_L2="Synchronisation SharePoint (delta)"> <OpenIdIdentifier Identifier="Job"/> </CreateConnectorSynchroIncremental>...
 
 ````
 
@@ -2604,18 +2610,18 @@ The Job itself uses the ```DefaultOpenIdClient``` value.
 
 > This example sets the "Job/secret" pair to be used by tasks and jobs:
 >
->                         ```
+> ```
 >
->                             appsettings.agent.json
->  {
->     ...
->     "OpenId":{
->         "OpenIdClients": {
->             "Job": "secret"
->          },
->          "DefaultOpenIdClient": "Job"
->     }
->  }
+> appsettings.agent.json
+> {
+> ...
+> "OpenId":{
+> "OpenIdClients": {
+> "Job": "secret"
+> },
+> "DefaultOpenIdClient": "Job"
+> }
+> }
 >
 > ```
 
@@ -2629,10 +2635,10 @@ Use the Job [```CronTabExpression```](/docs/identitymanager/6.1/configuration-re
 
 > This example uses Usercube's scheduler to execute the ```SharePoint_Synchronization_Delta``` job every fifteen minutes:
 >
->                         ```
+> ```
 >
->                             Conf/SharePoint/SharePoint Jobs.xml
-> <Job Identifier="SharePoint_Synchronization_Delta" CronTabExpression="*/15 * * * *quot; DisplayName_L1="10: SharePoint - Synchronization (delta)" DisplayName_L2="10: SharePoint - Synchronisation (delta)" Agent="Local">   ...
+> Conf/SharePoint/SharePoint Jobs.xml
+> <Job Identifier="SharePoint_Synchronization_Delta" CronTabExpression="*/15 * * * *quot; DisplayName_L1="10: SharePoint - Synchronization (delta)" DisplayName_L2="10: SharePoint - Synchronisation (delta)" Agent="Local"> ...
 > </Job>
 >
 > ```
@@ -2684,7 +2690,7 @@ Let's consider the following `ResourceType`:
 ```
 
 ...
-<ResourceType Identifier="PowerShellCsv_User_NominativeUser" DisplayName_L1="PowerShell CSV User (nominative)" DisplayName_L2="Utilisateur PowerShell CSV (nominatif)" Policy="Default" TargetEntityType="PowerShellCsv_User" Category="PowerShellCsv" SourceEntityType="Directory_User" RemoveOrphans="true" AllowAdd="true" AllowRemove="true">  <ScalarRule Property="identifier" Binding="EmployeeId"/>  <ScalarRule Property="firstName" Binding="FirstName"/>  <ScalarRule Property="lastName" Binding="LastName"/></ResourceType>...
+<ResourceType Identifier="PowerShellCsv_User_NominativeUser" DisplayName_L1="PowerShell CSV User (nominative)" DisplayName_L2="Utilisateur PowerShell CSV (nominatif)" Policy="Default" TargetEntityType="PowerShellCsv_User" Category="PowerShellCsv" SourceEntityType="Directory_User" RemoveOrphans="true" AllowAdd="true" AllowRemove="true"> <ScalarRule Property="identifier" Binding="EmployeeId"/> <ScalarRule Property="firstName" Binding="FirstName"/> <ScalarRule Property="lastName" Binding="LastName"/></ResourceType>...
 
 ```
 
@@ -3029,14 +3035,14 @@ A Robot Framework script is divided into four main parts:
 ```
 
 *** Settings ***
-Library  Telnet
+Library Telnet
 
 *** Variables ***
-${IPADDRESS}  192.168.1.22
+${IPADDRESS} 192.168.1.22
 
 *** Keywords ***
 Open Telnet Connection
-    Open Connection  ${IPADDRESS}  prompt=$
+    Open Connection ${IPADDRESS} prompt=$
 
 *** Test Cases ***
 Run Provisioning
@@ -3055,11 +3061,11 @@ Let's analyze the four parts of this example:
   can be named anything), and which will be run when launching the script. It will use the function
   `Open Telnet Connection`.
 
-Robot Framework needs two spaces between two different instructions to parse them correctly.  
+Robot Framework needs two spaces between two different instructions to parse them correctly.
 For example, `Open Connection` consists of only one instruction. Only one space is thus needed
 between the two words. But, `Open Connection ${IPADDRESS}` consists of two instructions, the
 function and the parameter. Two spaces are then required to separate `Connection` from
-`${IPADDRESS}`.  
+`${IPADDRESS}`.
 To read your script more easily, you could also use the pipe character (`|`) between instructions,
 like this: `Open Connection | ${IPADDRESS}`.
 
@@ -3087,19 +3093,19 @@ Therefore, you will have to change the path accordingly.
 ```
 
 *** Settings ***
-Resource  C:/identitymanagerContoso/Runtime/identitymanagerRobotFramework.resource
+Resource C:/identitymanagerContoso/Runtime/identitymanagerRobotFramework.resource
 
 *** Keywords ***
 ExecuteAdd
-    [Arguments]  ${order}
+    [Arguments] ${order}
     ...
 
 ExecuteDelete
-    [Arguments]  ${order}
+    [Arguments] ${order}
     ...
 
 ExecuteModify
-    [Arguments]  ${order}
+    [Arguments] ${order}
     ...
 
 ...
@@ -3161,14 +3167,14 @@ For more details about the handling of Robot Framework objects, see the
 
 | Keyword                    | Details                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
 | -------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----- | ------- |
-| Catch Keyword              | **Arguments** `Keyword`: Keyword `*args` **Description** Launches `Keyword` with the given arguments `*args` if the keyword launched by `Try Keyword` failed. If `Try Keyword` was not called, this keyword will not do anything. `Catch Keyword` should always be called right after `Try Keyword`. **Example** Try to connect to `Usercube.com`. If the connection fails, restart the browser and try to connect to `Usercube.com`: `Connect to URL       Try Keyword  Go To  Usercube.com       Catch Keyword  Restart Browser At URL  Usercube.com`                                                                                                                                                                                        |
+| Catch Keyword              | **Arguments** `Keyword`: Keyword `*args` **Description** Launches `Keyword` with the given arguments `*args` if the keyword launched by `Try Keyword` failed. If `Try Keyword` was not called, this keyword will not do anything. `Catch Keyword` should always be called right after `Try Keyword`. **Example** Try to connect to `Usercube.com`. If the connection fails, restart the browser and try to connect to `Usercube.com`: `Connect to URL Try Keyword Go To Usercube.com Catch Keyword Restart Browser At URL Usercube.com`                                                                                                                                                                                                        |
 | Generate Password          | **Description** Generates a password based on the [password reset settings](/docs/identitymanager/6.1/configuration-reference/xml-configuration/connector-config.md) associated to the [resource type mapping](/docs/identitymanager/6.1/configuration-reference/xml-configuration/connector-config.md) being provisioned `Send Password Notification` should always be called after `Generate Password`, preferably right after the password is used. If `Send Password Notification` is not called before the provisioning of the resource is over, it will automatically be called. If multiple passwords should be generated, `Send Password Notification` should be called after each password generation. **Returns** `Password`: string |
 | Get Secure Data            | **Arguments** `Attribute`: string `Erase Data`: boolean **Description** Retrieves the secured option `Attribute` from the connector configuration. If `Erase Data` is set to true, the secured option is deleted once it is read. **Example** Get Login option and erase it: ```Get Secure Data                                                                                                                                                                                                                                                                                                                                                                                                                                                | Login | True``` |
 | Launch Provisioning        | **Description** Launches the provisioning defined by the provisioning orders. This keyword is required for any provisioning to happen.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
 | Log Debug                  | **Arguments** `Message`: string **Description** Logs `Message` at the `Debug` log level. **Example** Log a keyword failure message: `Log Debug The keyword has failed`                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
 | Log Error                  | **Arguments** `Message`: string **Description** Logs `Message` at the `Error` log level. **Example** Log a keyword failure message: `Log Error The keyword has failed`                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
 | Send Password Notification | **Description** Sends a notification containing the last password generated. If `Generate Password` is called and `Send Password Notification` is not called before the provisioning of the resource is over, `Send Password Notification` will automatically be called.                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
-| Try Keyword                | **Arguments** `Keyword`: Keyword `*args` **Description** Launches `Keyword` with the given arguments `*args`, and ignores its errors. If `Keyword` fails, the keyword sent to `Catch Keyword` will run. `Try Keyword` should always be called right before `Catch Keyword`. **Example** Try to connect to `Usercube.com`. If the connection fails, restart the browser and try to connect to `Usercube.com`: `Connect to URL       Try Keyword  Go To  Usercube.com       Catch Keyword  Restart Browser At URL  Usercube.com`                                                                                                                                                                                                                 |
+| Try Keyword                | **Arguments** `Keyword`: Keyword `*args` **Description** Launches `Keyword` with the given arguments `*args`, and ignores its errors. If `Keyword` fails, the keyword sent to `Catch Keyword` will run. `Try Keyword` should always be called right before `Catch Keyword`. **Example** Try to connect to `Usercube.com`. If the connection fails, restart the browser and try to connect to `Usercube.com`: `Connect to URL Try Keyword Go To Usercube.com Catch Keyword Restart Browser At URL Usercube.com`                                                                                                                                                                                                                                 |
 
 ## Error handling
 
@@ -3187,18 +3193,18 @@ Consider the following example using the Robot Framework Selenium library:
 Open Usercube Website
     Open Browser
     Connect To Usercube
-    [Teardown]  Close Browser
+    [Teardown] Close Browser
 
 Restart Browser
-    [Arguments]  ${url}
-    Log Debug  An error has occured, restarting the browser
+    [Arguments] ${url}
+    Log Debug An error has occured, restarting the browser
     Close Browser
-    Open Browser  ${url}
+    Open Browser ${url}
 
 Connect To Usercube
-    Try Keyword  Go To  Usercube.com
-    Catch Keyword  Restart Browser  Usercube.com
-    Page Should Contain  Usercube
+    Try Keyword Go To Usercube.com
+    Catch Keyword Restart Browser Usercube.com
+    Page Should Contain Usercube
 
 ```
 
@@ -3224,21 +3230,21 @@ To simplify error handling, consider the following structure:
 ```
 
 Execute Add
-    [Arguments]  ${order}
-    Try Keyword  Add User  ${order}
-    Catch Keyword  Restart Program And Fail  Add User failed.
+    [Arguments] ${order}
+    Try Keyword Add User ${order}
+    Catch Keyword Restart Program And Fail Add User failed.
 
 Add User
-    [Arguments]  ${order}
+    [Arguments] ${order}
     Click New User
-    Fill In Information  ${order}
+    Fill In Information ${order}
     Click Add User
 
 Restart Program And Fail
-    [Arguments]  ${failmessage}
+    [Arguments] ${failmessage}
     Close Program
     Start Program
-    Fail  ${failmessage}
+    Fail ${failmessage}
 
 ```
 
@@ -3317,7 +3323,7 @@ Let's consider the following `ResourceType`:
 ```
 
 ...
-<ResourceType Identifier="RobotFramework_User_NominativeUser" DisplayName_L1="Robot Framework User (nominative)" Policy="Default" TargetEntityType="RobotFramework_User" Category="RobotFramework" SourceEntityType="Directory_User" ApprovalWorkflowType="One">  <ScalarRule Property="identifier" Binding="EmployeeId"/>  <ScalarRule Property="firstName" Binding="FirstName"/>  <ScalarRule Property="lastName" Binding="LastName"/></ResourceType>...
+<ResourceType Identifier="RobotFramework_User_NominativeUser" DisplayName_L1="Robot Framework User (nominative)" Policy="Default" TargetEntityType="RobotFramework_User" Category="RobotFramework" SourceEntityType="Directory_User" ApprovalWorkflowType="One"> <ScalarRule Property="identifier" Binding="EmployeeId"/> <ScalarRule Property="firstName" Binding="FirstName"/> <ScalarRule Property="lastName" Binding="LastName"/></ResourceType>...
 
 ```
 
@@ -3341,8 +3347,8 @@ its functions.
 ```
 
 *** Settings ***
-Resource  C:/identitymanagerContoso/Runtime/identitymanagerRobotFramework.resource
-Library  Telnet
+Resource C:/identitymanagerContoso/Runtime/identitymanagerRobotFramework.resource
+Library Telnet
 
 ```
 
@@ -3356,8 +3362,8 @@ external system.
 ```
 
 *** Variables ***
-${CSVFILEPATH}  /home/contoso/robotframework_users.csv
-${IPADDRESS}  192.168.1.22
+${CSVFILEPATH} /home/contoso/robotframework_users.csv
+${IPADDRESS} 192.168.1.22
 
 ```
 
@@ -3379,27 +3385,27 @@ We define all the custom functions which we will use to provision the external s
 
 *** Keywords ***
 Delete CSV File
-    Execute Command  rm ${CSVFILEPATH}
+    Execute Command rm ${CSVFILEPATH}
 
 Write In CSV
-    [Arguments]  ${line}
-    Execute Command  echo ${line} >> ${CSVFILEPATH}
+    [Arguments] ${line}
+    Execute Command echo ${line} >> ${CSVFILEPATH}
 
 Write Data
-    [Arguments]  ${command}  ${identifier}  ${firstName}  ${lastName}
-    Write In CSV  '"${command}","${identifier}","${firstName}","${lastName}"'
+    [Arguments] ${command} ${identifier} ${firstName} ${lastName}
+    Write In CSV '"${command}","${identifier}","${firstName}","${lastName}"'
 
 Write Header
-    Write Data  Command  identifier  firstName  lastName
+    Write Data Command identifier firstName lastName
 
 Open Telnet Connection
-    Open Connection  ${IPADDRESS}  prompt=$
-    Read Until  login
-    ${LOGIN}=  Get Secure Data  Login  False
-    Write  ${LOGIN}
-    Read Until  Password
-    ${PASSWORD}=  Get Secure Data  Password  True
-    Write  ${PASSWORD}
+    Open Connection ${IPADDRESS} prompt=$
+    Read Until login
+    ${LOGIN}= Get Secure Data Login False
+    Write ${LOGIN}
+    Read Until Password
+    ${PASSWORD}= Get Secure Data Password True
+    Write ${PASSWORD}
 
 ```
 
@@ -3419,16 +3425,16 @@ action to perform on the external system.
 
 *** Keywords ***
 ExecuteAdd
-    [Arguments]  ${order}
-    Write Data  Insert  ${order['Changes']['identifier']}  ${order['Changes']['firstName']}  ${order['Changes']['lastName']}
+    [Arguments] ${order}
+    Write Data Insert ${order['Changes']['identifier']} ${order['Changes']['firstName']} ${order['Changes']['lastName']}
 
 ExecuteDelete
-    [Arguments]  ${order}
-    Write Data  Delete  ${order['Changes']['identifier']}  ${order['Changes']['firstName']}  ${order['Changes']['lastName']}
+    [Arguments] ${order}
+    Write Data Delete ${order['Changes']['identifier']} ${order['Changes']['firstName']} ${order['Changes']['lastName']}
 
 ExecuteModify
-    [Arguments]  ${order}
-    Write Data  Update  ${order['Changes']['identifier']}  ${order['Changes']['firstName']}  ${order['Changes']['lastName']}
+    [Arguments] ${order}
+    Write Data Update ${order['Changes']['identifier']} ${order['Changes']['firstName']} ${order['Changes']['lastName']}
 
 ```
 
@@ -3468,48 +3474,48 @@ The full script is as follows:
 ```
 
 *** Settings ***
-Resource  C:/identitymanagerContoso/Runtime/identitymanagerRobotFramework.resource
-Library  Telnet
+Resource C:/identitymanagerContoso/Runtime/identitymanagerRobotFramework.resource
+Library Telnet
 
 *** Variables ***
-${CSVFILEPATH}  /home/contoso/robotframework_users.csv
-${IPADDRESS}  192.168.1.22
+${CSVFILEPATH} /home/contoso/robotframework_users.csv
+${IPADDRESS} 192.168.1.22
 
 *** Keywords ***
 ExecuteAdd
-    [Arguments]  ${order}
-    Write Data  Insert  ${order['Changes']['identifier']}  ${order['Changes']['firstName']}  ${order['Changes']['lastName']}
+    [Arguments] ${order}
+    Write Data Insert ${order['Changes']['identifier']} ${order['Changes']['firstName']} ${order['Changes']['lastName']}
 
 ExecuteDelete
-    [Arguments]  ${order}
-    Write Data  Delete  ${order['Changes']['identifier']}  ${order['Changes']['firstName']}  ${order['Changes']['lastName']}
+    [Arguments] ${order}
+    Write Data Delete ${order['Changes']['identifier']} ${order['Changes']['firstName']} ${order['Changes']['lastName']}
 
 ExecuteModify
-    [Arguments]  ${order}
-    Write Data  Update  ${order['Changes']['identifier']}  ${order['Changes']['firstName']}  ${order['Changes']['lastName']}
+    [Arguments] ${order}
+    Write Data Update ${order['Changes']['identifier']} ${order['Changes']['firstName']} ${order['Changes']['lastName']}
 
 Delete CSV File
-    Execute Command  rm ${CSVFILEPATH}
+    Execute Command rm ${CSVFILEPATH}
 
 Write In CSV
-    [Arguments]  ${line}
-    Execute Command  echo ${line} >> ${CSVFILEPATH}
+    [Arguments] ${line}
+    Execute Command echo ${line} >> ${CSVFILEPATH}
 
 Write Data
-    [Arguments]  ${command}  ${identifier}  ${firstName}  ${lastName}
-    Write In CSV  '"${command}","${identifier}","${firstName}","${lastName}"'
+    [Arguments] ${command} ${identifier} ${firstName} ${lastName}
+    Write In CSV '"${command}","${identifier}","${firstName}","${lastName}"'
 
 Write Header
-    Write Data  Command  identifier  firstName  lastName
+    Write Data Command identifier firstName lastName
 
 Open Telnet Connection
-    Open Connection  ${IPADDRESS}  prompt=$
-    Read Until  login
-    ${LOGIN}=  Get Secure Data  Login  False
-    Write  ${LOGIN}
-    Read Until  Password
-    ${PASSWORD}=  Get Secure Data  Password  True
-    Write  ${PASSWORD}
+    Open Connection ${IPADDRESS} prompt=$
+    Read Until login
+    ${LOGIN}= Get Secure Data Login False
+    Write ${LOGIN}
+    Read Until Password
+    ${PASSWORD}= Get Secure Data Password True
+    Write ${PASSWORD}
 
 *** Test Cases ***
 Run Provisioning

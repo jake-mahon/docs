@@ -66,7 +66,7 @@ topic for additional information.
 #### Extracted data must have keys
 
 Every extracted resource must have an attribute that serves as a primary key so that Identity
-Manager can uniquely identify the resource to be added/updated/deleted during synchronization. You
+Manager can uniquely identify the resource to be added/updated/deleted during synchronization. You
 must have defined keys during Entity Type creation. See the
 [Create an Entity Type](/docs/identitymanager/saas/identity-management/entity-model.md) topic for additional
 information.

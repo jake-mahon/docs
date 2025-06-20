@@ -1,6 +1,7 @@
 {
-  "label": "Version 3.3",
+  "label": "Password Reset",
   "customProps": {
+    "product_name": "Password Reset",
     "product_version": "3.3"
   }
 }

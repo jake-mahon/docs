@@ -11,7 +11,7 @@ the
 [Antivirus Exclusions for Netwrix Auditor](https://helpcenter.netwrix.com/bundle/z-kb-articles-salesforce/page/kA04u0000000HirCAE.html)
 knowledge base article for additional information.
 
-You can configure your IT Infrastructure for monitoring in one of the following ways:
+You can configure your IT Infrastructure for monitoring in one of the following ways:
 
 - Automatically through a monitoring plan – This is a recommended method. If you select to
   automatically configure audit in the target environment, your current audit settings will be

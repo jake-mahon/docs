@@ -17,7 +17,7 @@ First read how to [Create a Connector](/docs/identitymanager/saas/connectors/how
 
 ## Build the Incremental Synchronization Job
 
-Identity Manager provides a fully-written standardized job to perform incremental synchronization
+Identity Manager provides a fully-written standardized job to perform incremental synchronization
 through the UI. See here:
 
 See how to launch incremental
@@ -45,7 +45,7 @@ and the synchronization by the
 See the [ Upward Data Synchronization ](/docs/identitymanager/saas/synchronization/upward-data-sync.md) topic
 for additional information.
 
-Identity Manager provides a scaffolding that generates the configuration for these steps, named
+Identity Manager provides a scaffolding that generates the configuration for these steps, named
 [Create Connector Synchro Incremental](/docs/identitymanager/saas/configuration/xml-configuration/scaffoldings.md).
 
 This guide is about incremental synchronization, but complete synchronization can be configured with
@@ -59,16 +59,18 @@ In order to launch a job via the
 [ Usercube-Invoke-Job ](/docs/identitymanager/saas/automation/executables/invoke-job.md) tool, the agent must
 use a profile with the right permissions for each task.
 
-Permissions within Identity Manager are configured through
+Permissions within Identity Manager are configured through
 [Access Control Rule](/docs/identitymanager/saas/configuration/xml-configuration/access-control.md).
 
 > For example:
 >
->                         ```
+> ```
 >
->                             Conf/Profile AgentJob.xml
+> Conf/Profile AgentJob.xml
 >
 > <Profile Identifier="AgentSynchro" DisplayName_L1="Agent Synchro" />
+>
+> ```
 >
 > ```
 >
@@ -86,7 +88,7 @@ In order to run a synchronization job, the agent requires the permissions to:
 - prepare the synchronization and synchronize via `/Connectors/Connector/Query` and
   `/Connectors/SynchronizeSession`.
 
-Identity Manager provides scaffoldings that generate the configuration for granting these
+Identity Manager provides scaffoldings that generate the configuration for granting these
 permissions:
 [ SynchronizationAccessControlRules ](/docs/identitymanager/saas/configuration/xml-configuration/scaffoldings.md)
 and
@@ -94,11 +96,13 @@ and
 
 > The following example permits the `AgentSynchro` profile to run any synchronization job:
 >
->                         ```
+> ```
 >
->                             Conf/Profile AgentSynchro.xml
+> Conf/Profile AgentSynchro.xml
 >
 > <SynchronizationAccessControlRules Profile="AgentSynchro"><JobViewAccessControlRules Profile="AgentSynchro">
+>
+> ```
 >
 > ```
 >
@@ -118,11 +122,13 @@ Usable `ClientId/Secret` pairs are configured through an
 > The following example uses a secret hashed
 > by[ Usercube-New-OpenIDSecret ](/docs/identitymanager/saas/automation/executables/new-openid-secret.md):
 >
->                         ```
+> ```
 >
->                             Conf/OpenIdClients.xml
+> Conf/OpenIdClients.xml
 >
 > <OpenIdClient Identifier="Job" HashedSecret="K7gNU3sdo+Op8wNhqoVWhr5v6s1xYv72ol/pe/Unols=" DisplayName_L1="ClientId for Jobs" Profile="Administrator" />
+>
+> ```
 >
 > ```
 >
@@ -136,11 +142,13 @@ file.
 
 > The following example sets the `Job/secret` pair to be used by tasks and jobs:
 >
->                         ```
+> ```
 >
->                             appsettings.agent.json
+> appsettings.agent.json
 >
 > { ... "OpenId":{ "OpenIdClients": { "Job": "secret" }, "DefaultOpenIdClient": "Job" } }
+>
+> ```
 >
 > ```
 >
@@ -150,23 +158,25 @@ file.
 
 In order to launch the job, a user must have the right permissions.
 
-Permissions within Identity Manager are configured through
+Permissions within Identity Manager are configured through
 [Access Control Rule](/docs/identitymanager/saas/configuration/xml-configuration/access-control.md).
 
 In order to launch a synchronization job, a user requires the appropriate permission:
 `/Jobs/RunJob/Launch`.
 
-Identity Manager provides a
+Identity Manager provides a
 [ Job Execution Access Control Rules ](/docs/identitymanager/saas/configuration/xml-configuration/scaffoldings.md)
 that generates the configuration for granting this permission.
 
 > For example:
 >
->                         ```
+> ```
 >
->                             Conf/Profile AgentSynchro.xml
+> Conf/Profile AgentSynchro.xml
 >
 > <JobExecutionAccessControlRules Profile="AgentSynchro">
+>
+> ```
 >
 > ```
 >

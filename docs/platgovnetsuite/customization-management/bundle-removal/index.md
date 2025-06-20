@@ -21,7 +21,7 @@ To remove a bundle:
    it takes to do the impact analysis on the object and allows for time to identify whether the
    object should be kept, removed, or recreated.
 
-   **Resources**:  
+   **Resources**:
    **Project Manager**: You should appoint a project manager, you can assign an internal technical
    resource if available or NetSuite can provide you with a Technical Account Manager (TAM). There
    is a cost for hiring a TAM if it is not included in your NetSuite support package. You may need
@@ -29,7 +29,7 @@ To remove a bundle:
    available, NetSuite can also provide you with a resource from professional services. When
    possible, it is recommended that you find a TAM resource that is familiar with Platform
    Governance for NetSuite as well as is familiar with the bundle type that you are trying to
-   remove.  
+   remove.
    **Developer and/or Administrator**: Depending on how your business processes are built around
    your scripts, when you remove the bundle the associated scripts will be removed as well. A
    developer and/or administrator should be assigned to investigate the scripts, see what scripts

@@ -1,7 +1,7 @@
 # SIEM
 
 Netwrix Auditor Add-on for SIEM helps you to get most from your SIEM investment. This topic focuses
-on the AlienVault USM SIEM solution.
+on the AlienVault USM SIEM solution.
 
 The add-on works in collaboration with Netwrix Auditor, supplying additional data that augments the
 data collected by the SIEM solution.
@@ -84,4 +84,4 @@ This add-on works as response action to the alert, as follows:
 
 See the
 [Configure a Response Action for Alert](/docs/auditor/10.6/features/alerts/response-actions.md)
-topic for additional information on the alert response actions and CSV file.
+topic for additional information on the alert response actions and CSV file.

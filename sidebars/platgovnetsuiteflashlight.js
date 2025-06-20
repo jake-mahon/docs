@@ -6,7 +6,7 @@ const sidebars = {
     {
       type: 'doc',
       id: 'index',
-      label: 'NetSuite Flashlight Home',
+      label: 'Platform Governance for NetSuite Flashlight Home',
     },
     {
       type: 'category',

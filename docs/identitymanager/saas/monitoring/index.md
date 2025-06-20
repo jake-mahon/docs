@@ -1,6 +1,6 @@
 # Monitoring
 
-Identity Manager uses [Serilog](https://github.com/serilog/), a highly customizable logging tool, to
+Identity Manager uses [Serilog](https://github.com/serilog/), a highly customizable logging tool, to
 provide monitoring capabilities.
 
 See the [ References: Logs ](/docs/identitymanager/saas/monitoring/monitoring-reference.md) topic for additional information on the list of
@@ -108,7 +108,7 @@ appsettings.json
 }
 ```
 
-Among all default properties, Identity Manager adds the ClientId log property which can be displayed
+Among all default properties, Identity Manager adds the ClientId log property which can be displayed
 when using the previous `outputTemplate` format.
 
 ## Filters
@@ -411,7 +411,7 @@ appsettings.json
 
 ## Application Insights
 
-Identity Manager supports the
+Identity Manager supports the
 [Application Insights](https://docs.microsoft.com/en-us/azure/azure-monitor/app/app-insights-overview)
 integration. It means that you can monitor the lifecycle of the application through a dedicated
 interface, which can be useful to measure performance, observe how the application is used or detect
@@ -442,7 +442,7 @@ sends metrics periodically such as the percentage of CPU usage.
 
 ## Logs Monitoring via User Interface
 
-Identity Manager offers the ability to download the application logs directly through the User
+Identity Manager offers the ability to download the application logs directly through the User
 Interface (UI) via the **Monitoring** screen in the **Administration** section on the Dashboard.
 
 SaaS installations support this feature automatically while on-premises installations support this
@@ -487,7 +487,7 @@ appsettings.json
 ```
 
 If logs are all stored in one file, provide the path to the file. If they are stored in multiple
-separate files within a directory, provide the path to the directory and Identity Manager will
+separate files within a directory, provide the path to the directory and Identity Manager will
 handle providing the most recent logs.
 
 ## Default Configuration

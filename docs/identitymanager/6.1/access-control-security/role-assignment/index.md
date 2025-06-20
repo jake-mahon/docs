@@ -394,7 +394,7 @@ Default section:
 </RecordSection>
 
 Position record section:
-<RecordSection Identifier="Directory_UserRecord_Position" DisplayName_L1="Position Properties" SourceEntityType="Directory_User" ResourceEntityType="Directory_UserRecord" StartProperty="StartDate" EndProperty="EndDate">    <Property Property="Department" ExtensionKind="None" />    <Property Property="Location" ExtensionKind="None" />    <Property Property="JobTitle" ExtensionKind="None" /></RecordSection>
+<RecordSection Identifier="Directory_UserRecord_Position" DisplayName_L1="Position Properties" SourceEntityType="Directory_User" ResourceEntityType="Directory_UserRecord" StartProperty="StartDate" EndProperty="EndDate"> <Property Property="Department" ExtensionKind="None" /> <Property Property="Location" ExtensionKind="None" /> <Property Property="JobTitle" ExtensionKind="None" /></RecordSection>
 
 ```
 
@@ -446,7 +446,7 @@ Default section:
 </RecordSection>
 
 Position record section:
-<RecordSection Identifier="Directory_UserRecord_Position" DisplayName_L1="Position Properties" SourceEntityType="Directory_User" ResourceEntityType="Directory_UserRecord" StartProperty="StartDate" EndProperty="EndDate">    <Property Property="Department" ExtensionKind="None" />
+<RecordSection Identifier="Directory_UserRecord_Position" DisplayName_L1="Position Properties" SourceEntityType="Directory_User" ResourceEntityType="Directory_UserRecord" StartProperty="StartDate" EndProperty="EndDate"> <Property Property="Department" ExtensionKind="None" />
     <Property Property="Location" />
     <Property Property="JobTitle" ExtensionKind="None" /></RecordSection>
 
@@ -476,7 +476,7 @@ Default section:
 
 Position record section:
 <RecordSection Identifier="Directory_UserRecord_Position" DisplayName_L1="Position Properties" SourceEntityType="Directory_User" ResourceEntityType="Directory_UserRecord" StartProperty="StartDate" EndProperty="EndDate">
-    <Property Property="Department" />    <Property Property="Location" />    <Property Property="JobTitle" />
+    <Property Property="Department" /> <Property Property="Location" /> <Property Property="JobTitle" />
 </RecordSection>
 
 ```
@@ -520,7 +520,7 @@ get the following Indirect Resource Rule:
 ```
 
 <IndirectResourceRule
-    ResourceType="AD_Entry_NominativeUser"    Property="memberOf"    />
+    ResourceType="AD_Entry_NominativeUser" Property="memberOf" />
 
 ```
 
@@ -594,7 +594,7 @@ Finally, if we compile all this information and using the naming of the standard
 ```
 
 <IndirectResourceRule
-    ResourceType="MicrosoftEntraID_DirectoryObject_NominativeUser"    Property="memberOf"    />
+    ResourceType="MicrosoftEntraID_DirectoryObject_NominativeUser" Property="memberOf" />
 
 ```
 
@@ -623,7 +623,7 @@ Demo, we get the following Indirect Resource Rule:
 ```
 
 <IndirectResourceRule
-    ResourceType="MicrosoftEntraID_DirectoryObject_NominativeUser"    Property="memberOf"    Correspondence="SharePointObject"    CorrespondenceMembershipProperty="Group"    Entitlement="Entitlement"    />
+    ResourceType="MicrosoftEntraID_DirectoryObject_NominativeUser" Property="memberOf" Correspondence="SharePointObject" CorrespondenceMembershipProperty="Group" Entitlement="Entitlement" />
 
 ```
 
@@ -661,7 +661,7 @@ For the different examples of restrictions, the filters will be based on the Ent
 
 ```
 
-  <Dimension Identifier="Organization0" DisplayName_L1="Department" DisplayName_L2="D�partement" EntityType="Directory_Organization" ColumnMapping="0" IsHierarchical="true" ParentProperty="Parent" />  <Dimension Identifier="Title0" DisplayName_L1="Title" DisplayName_L2="Fonction" EntityType="Directory_Title" ColumnMapping="1" />
+  <Dimension Identifier="Organization0" DisplayName_L1="Department" DisplayName_L2="D�partement" EntityType="Directory_Organization" ColumnMapping="0" IsHierarchical="true" ParentProperty="Parent" /> <Dimension Identifier="Title0" DisplayName_L1="Title" DisplayName_L2="Fonction" EntityType="Directory_Title" ColumnMapping="1" />
 
 ```
 
@@ -694,7 +694,7 @@ The link between a SingleRole and a CompositeRole is made in the SingleRoleRule.
 
 ```
 
-    <SingleRoleRule Role="DL-INTERNET-Restricted" CompositeRole="FCT0720" Policy="Default" />    <SingleRoleRule Role="RAS_0_USR-USERS_CONSOLE_DNS" CompositeRole="FCT0720" Policy="Default" />    <SingleRoleRule Role="RAS_0_USR-USERS_DES_SERVEURS_WINDOWS" CompositeRole="FCT0720" Policy="Default" />    <SingleRoleRule Role="RAY_0_GL_MUY10_MESI_ADM" CompositeRole="FCT0720" Policy="Default" />    <SingleRoleRule Role="RAY_0_GL_MUY10_MESI_ADM" CompositeRole="FCT0720" Policy="Default" />    <SingleRoleRule Role="RAY_0_LDAP_ADMINLDSFEDE" CompositeRole="FCT0720" Policy="Default" />    <SingleRoleRule Role="RAY_0_LDAP_READLDSFEDE" CompositeRole="FCT0720" Policy="Default" />    <SingleRoleRule Role="RAY_A_EASY_USER" CompositeRole="FCT0720" Policy="Default" />    <SingleRoleRule Role="RAY_A_LDAP_ADMINLDSCA" CompositeRole="FCT0720" Policy="Default" />    <SingleRoleRule Role="RAY_A_LYNC_W" CompositeRole="FCT0720" Policy="Default" />    <SingleRoleRule Role="RAY_A_XIOU_ OUTLOOK2010_PSTWRITE" CompositeRole="FCT0720" Policy="Default" />    <SingleRoleRule Role="RAY_F_ADMPDTEXT" CompositeRole="FCT0720" Policy="Default" />    <SingleRoleRule Role="RAY_F_ADMPDTFIXE" CompositeRole="FCT0720" Policy="Default" />    <SingleRoleRule Role="RAY_F_ADMPDTPORT" CompositeRole="FCT0720" Policy="Default" />    <SingleRoleRule Role="RAZ_0_APSB_RFICBUR" CompositeRole="FCT0720" Policy="Default" />    <SingleRoleRule Role="RAZ_0_GL_MUP10_BURI_DR" CompositeRole="FCT0720" Policy="Default" />    <SingleRoleRule Role="RAZ_0_GMPL_ADMIN" CompositeRole="FCT0720" Policy="Default" />    <SingleRoleRule Role="RAZ_0_GMPL_ADMINSRV" CompositeRole="FCT0720" Policy="Default" />    <SingleRoleRule Role="RAZ_0_GMPL_GESTPOSTE" CompositeRole="FCT0720" Policy="Default" />    <SingleRoleRule Role="RAZ_0_GMPL_GESTSERVEUR" CompositeRole="FCT0720" Policy="Default" />    <SingleRoleRule Role="RAZ_0_VCSPOWERUSER" CompositeRole="FCT0720" Policy="Default" />    <SingleRoleRule Role="RAZ_A_EXPLOITATION_U" CompositeRole="FCT0720" Policy="Default" />    <SingleRoleRule Role="RAZ_A_DR_V" CompositeRole="FCT0720" Policy="Default" />    <SingleRoleRule Role="RAZ_A_DW_V" CompositeRole="FCT0720" Policy="Default" />    <SingleRoleRule Role="RAZ_A_VCS_ADM" CompositeRole="FCT0720" Policy="Default" />    <SingleRoleRule Role="RAZ_A_VMW_ADM" CompositeRole="FCT0720" Policy="Default" />    <SingleRoleRule Role="RAZ_A_VMW_POW" CompositeRole="FCT0720" Policy="Default" />    <SingleRoleRule Role="SharePoint_IT_Reader" CompositeRole="FCT0720" Policy="Default" />
+    <SingleRoleRule Role="DL-INTERNET-Restricted" CompositeRole="FCT0720" Policy="Default" /> <SingleRoleRule Role="RAS_0_USR-USERS_CONSOLE_DNS" CompositeRole="FCT0720" Policy="Default" /> <SingleRoleRule Role="RAS_0_USR-USERS_DES_SERVEURS_WINDOWS" CompositeRole="FCT0720" Policy="Default" /> <SingleRoleRule Role="RAY_0_GL_MUY10_MESI_ADM" CompositeRole="FCT0720" Policy="Default" /> <SingleRoleRule Role="RAY_0_GL_MUY10_MESI_ADM" CompositeRole="FCT0720" Policy="Default" /> <SingleRoleRule Role="RAY_0_LDAP_ADMINLDSFEDE" CompositeRole="FCT0720" Policy="Default" /> <SingleRoleRule Role="RAY_0_LDAP_READLDSFEDE" CompositeRole="FCT0720" Policy="Default" /> <SingleRoleRule Role="RAY_A_EASY_USER" CompositeRole="FCT0720" Policy="Default" /> <SingleRoleRule Role="RAY_A_LDAP_ADMINLDSCA" CompositeRole="FCT0720" Policy="Default" /> <SingleRoleRule Role="RAY_A_LYNC_W" CompositeRole="FCT0720" Policy="Default" /> <SingleRoleRule Role="RAY_A_XIOU_ OUTLOOK2010_PSTWRITE" CompositeRole="FCT0720" Policy="Default" /> <SingleRoleRule Role="RAY_F_ADMPDTEXT" CompositeRole="FCT0720" Policy="Default" /> <SingleRoleRule Role="RAY_F_ADMPDTFIXE" CompositeRole="FCT0720" Policy="Default" /> <SingleRoleRule Role="RAY_F_ADMPDTPORT" CompositeRole="FCT0720" Policy="Default" /> <SingleRoleRule Role="RAZ_0_APSB_RFICBUR" CompositeRole="FCT0720" Policy="Default" /> <SingleRoleRule Role="RAZ_0_GL_MUP10_BURI_DR" CompositeRole="FCT0720" Policy="Default" /> <SingleRoleRule Role="RAZ_0_GMPL_ADMIN" CompositeRole="FCT0720" Policy="Default" /> <SingleRoleRule Role="RAZ_0_GMPL_ADMINSRV" CompositeRole="FCT0720" Policy="Default" /> <SingleRoleRule Role="RAZ_0_GMPL_GESTPOSTE" CompositeRole="FCT0720" Policy="Default" /> <SingleRoleRule Role="RAZ_0_GMPL_GESTSERVEUR" CompositeRole="FCT0720" Policy="Default" /> <SingleRoleRule Role="RAZ_0_VCSPOWERUSER" CompositeRole="FCT0720" Policy="Default" /> <SingleRoleRule Role="RAZ_A_EXPLOITATION_U" CompositeRole="FCT0720" Policy="Default" /> <SingleRoleRule Role="RAZ_A_DR_V" CompositeRole="FCT0720" Policy="Default" /> <SingleRoleRule Role="RAZ_A_DW_V" CompositeRole="FCT0720" Policy="Default" /> <SingleRoleRule Role="RAZ_A_VCS_ADM" CompositeRole="FCT0720" Policy="Default" /> <SingleRoleRule Role="RAZ_A_VMW_ADM" CompositeRole="FCT0720" Policy="Default" /> <SingleRoleRule Role="RAZ_A_VMW_POW" CompositeRole="FCT0720" Policy="Default" /> <SingleRoleRule Role="SharePoint_IT_Reader" CompositeRole="FCT0720" Policy="Default" />
 
 ```
 
@@ -714,7 +714,7 @@ For the different examples of restrictions, the filters will be based on the Ent
 
 ```
 
-  <Dimension Identifier="Organization0" DisplayName_L1="Department" DisplayName_L2="D�partement" EntityType="Directory_Organization" ColumnMapping="0" IsHierarchical="true" ParentProperty="Parent" />  <Dimension Identifier="Title0" DisplayName_L1="Title" DisplayName_L2="Fonction" EntityType="Directory_Title" ColumnMapping="1" />
+  <Dimension Identifier="Organization0" DisplayName_L1="Department" DisplayName_L2="D�partement" EntityType="Directory_Organization" ColumnMapping="0" IsHierarchical="true" ParentProperty="Parent" /> <Dimension Identifier="Title0" DisplayName_L1="Title" DisplayName_L2="Fonction" EntityType="Directory_Title" ColumnMapping="1" />
 
 ```
 
@@ -771,7 +771,7 @@ This part will link a SingleRole to a ResourceType. This implies that the alloca
 resource to a source will only be done if the SingleRole rule(s) are verified.
 
 ```xml
-<ResourceType Identifier="AD_Entry_NominativeUser" DisplayName_L1="AD User (nominative)" DisplayName_L2="Compte AD (nominatif)" Policy="Default" TargetEntityType="AD_Entry" Category="AD" SourceEntityType="Directory_User" ApprovalWorkflowType="One">    <TypeRule TimeOffsetReference="Arround" TimeOffsetBeforeReference="-10080" TimeOffsetAfterReference="43200" Policy="Default"  SingleRole="DL-INTERNET-Restricted"/>    ....
+<ResourceType Identifier="AD_Entry_NominativeUser" DisplayName_L1="AD User (nominative)" DisplayName_L2="Compte AD (nominatif)" Policy="Default" TargetEntityType="AD_Entry" Category="AD" SourceEntityType="Directory_User" ApprovalWorkflowType="One"> <TypeRule TimeOffsetReference="Arround" TimeOffsetBeforeReference="-10080" TimeOffsetAfterReference="43200" Policy="Default" SingleRole="DL-INTERNET-Restricted"/> ....
 </ResourceType>
 ```
 
@@ -791,8 +791,8 @@ For the last 2 cases this will induce the ResourceType by the SingleRole.
 
 ```
 
-    <ResourceType Identifier="AD_Entry_NominativeUser">        ...
-        <NavigationRule Property="memberOf" Resource="CN=SG_APP_DL-INTERNET-Restricted,OU=Applications,DC=acme,DC=internal" SingleRole="DL-INTERNET-Restricted" />    </ResourceType>
+    <ResourceType Identifier="AD_Entry_NominativeUser"> ...
+        <NavigationRule Property="memberOf" Resource="CN=SG_APP_DL-INTERNET-Restricted,OU=Applications,DC=acme,DC=internal" SingleRole="DL-INTERNET-Restricted" /> </ResourceType>
 
 ```
 

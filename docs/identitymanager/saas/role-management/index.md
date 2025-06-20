@@ -163,7 +163,7 @@ filling an empty field.
 > ![Appropriated Field](/img/product_docs/identitymanager/identitymanager/user-guide/set-up/single-roles-catalog-creation/singlerolescatalog_strategymultinoname_v522.webp)
 
 Thus, the needed information is added to the managed system. After the execution of synchronization,
-said data is accessible inside Identity Manager database and can be used as a naming convention.
+said data is accessible inside Identity Manager database and can be used as a naming convention.
 
 In some cases, integrators are not allowed to create/modify fields in the external systems. Then,
 the information can be added on Identity Manager side only. As the new field doesn't exist in the
@@ -737,14 +737,14 @@ in XML to be displayed in the UI.
 
 **NOTE:** It is important to note that for manually assigned roles, if a new dimension is added to
 the definition of the role, the assignment's dimension will not be re-calculated, and will therefore
-not be propagated to calculate automatic assignments.  
+not be propagated to calculate automatic assignments.
 Example Scenario — Role A was created as a composite role with no parameters a long time ago. Role A
 was later updated to depend on the optional parameter X and a single role rule was created to assign
-a single role B if a user had Role A and parameter X set to value Y.  
+a single role B if a user had Role A and parameter X set to value Y.
 If a user already manually had the role A, even if its dimension X (for example its department,
 which could be calculated) was equal to value Y, got its permissions recalculated, that person would
 not get the role B. Since the modification occurred after the assignment, it is understood as if the
-role was assigned voluntarily with dimension X unset.  
+role was assigned voluntarily with dimension X unset.
 However, if a user got role A assigned after the modification, and its dimension X was equal to
 value Y, then that user would get the role B.
 

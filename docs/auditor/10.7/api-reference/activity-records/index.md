@@ -22,7 +22,7 @@ and > (greater than) symbols.
 | > e.g., ID>500                | &gt; e.g., ID&gt;500                         |
 
 Also, Netwrix allows transferring data in JSON format (organized as name and value pairs). JSON file
-must be formatted in accordance with JSON specification. Special characters in JSON strings must be
+must be formatted in accordance with JSON specification. Special characters in JSON strings must be
 preceded with the \ character: " (double quotes), / (slash), \ (backslash). E.g.,
 "\\local\\enterprise\\Users\\Jason Smith". Trailing comma is not supported.
 

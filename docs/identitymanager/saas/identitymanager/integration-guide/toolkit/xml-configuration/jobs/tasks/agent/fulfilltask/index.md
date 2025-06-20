@@ -20,7 +20,7 @@ resource type to make the changes in ServiceNow.
 
 ```
 
-<FulfillTask Identifier="FulfillTestServiceNowWithResourceType" Agent="Local" DisplayName_L1="Fulfill ServiceNow" OpenIdClient="Job" >  <TaskResourceType ResourceType="ServiceNow_Entry_NominativeUser"/></FulfillTask>
+<FulfillTask Identifier="FulfillTestServiceNowWithResourceType" Agent="Local" DisplayName_L1="Fulfill ServiceNow" OpenIdClient="Job" > <TaskResourceType ResourceType="ServiceNow_Entry_NominativeUser"/></FulfillTask>
 
 ```
 

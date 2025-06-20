@@ -1,46 +1,25 @@
-# Strongpoint SalesForce Flashlight
+# Platform Governance for Salesforce Flashlight
 
-# Welcome
+> Instant documentation and visibility for Salesforce organizations
 
-Flashlight™ by Strongpoint is Salesforce Documentation for Everybody! Easy to install, easy to
-understand, and based on the award-winning _Strongpoint Documentation Engine_, Flashlight
-automatically documents everything and maintains the core documentation describing each
-customization. It helps you make better and faster decisions, keeping your systems clean and
-optimized.
+Platform Governance for Salesforce Flashlight brings powerful documentation and analysis capabilities to every Salesforce administrator and developer. Based on the award-winning Strongpoint Documentation Engine, Flashlight automatically documents your entire Salesforce org and maintains comprehensive documentation of all customizations, helping teams make better decisions while keeping systems clean and optimized.
 
-Flashlight provides your organization these key benefits:
+## Key Features
 
-#### Reduce Risk
+- **Automatic Documentation**: Document your entire Salesforce org automatically with continuous updates
+- **Dependency Analysis**: Instantly understand what will be impacted by proposed changes
+- **Visual Relationship Diagrams**: See connections between objects, fields, and customizations at a glance
+- **Quick Search**: Find any customization, dependency, or configuration instantly
 
-- Flashlight documents your entire Salesforce org. Answer the question “If I change this, what will
-  break?”
-- Get full visibility like you have never had before!
+## Benefits
 
-#### Save Time and Money
+- **Reduce Risk**: Answer "What will break?" before making changes with complete dependency visibility
+- **Save Time**: Eliminate hours of manual documentation and troubleshooting efforts
+- **Move Faster**: Make confident decisions with instant access to complete system documentation
+- **Improve Quality**: Keep your Salesforce org clean and optimized with usage insights
 
-- Save hundreds of hours troubleshooting and managing your system.
-- Gain instant time and cost savings so you can work on strategic projects since the heavy lifting
-  is done by Flashlight
+```mdx-code-block
+import DocCardList from '@theme/DocCardList';
 
-#### Move Faster
-
-- Use the Flashlight [Dashboard](/docs/platgovsalesforceflashlight/getting-started/dashboard-overview.md) and the Dependency Relationship
-  Diagrams to spot problems before they happen and respond to your users more quickly.
-- Now you can make better, faster decisions to drive your business forward.
-
-## Notifications
-
-If you are not receiving release note notifications, you are likely not subscribed to **HubSpot**.
-You can also check your Spam folder to ensure Strongpoint messages are not being filtered. To
-subscribe or re-subscribe:
-
-1. Open [www.strongpoint.io/subscription](https://www.strongpoint.io/subscription)
-2. Enter your information on the form. Click **Submit**.  
-   If this is a new subscription, a confirmation is displayed. You're done!
-3. If you previously unsubscribed, this link is displayed:  
-   _Looks like you've opted out of email communication. Click here to get an email and opt back in._
-4. Click on the link. An email is sent to enable you to update your subscription preferences:  
-   ![Resubscribe to receive Release Note notifications.](/img/product_docs/platgovsalesforceflashlight/resubscribe.webp)
-5. Click _update your subscription preferences_.
-6. Click **Yes, resubscribe me!**  
-   You can opt out of the Marketing Information and still receive the Release Note notifications.
+<DocCardList />
+```

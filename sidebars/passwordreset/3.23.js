@@ -6,11 +6,11 @@ const sidebars = {
     {
       type: 'doc',
       id: 'index',
-      label: '🏠 Password Reset 3.23',
+      label: 'Password Reset 3.23',
     },
     {
       type: 'category',
-      label: '🚀 Getting Started',
+      label: 'Getting Started',
       collapsed: false,
       items: [
         'getting-started/overview',
@@ -20,13 +20,13 @@ const sidebars = {
     },
     {
       type: 'category',
-      label: '⚙️ Installation & Setup',
+      label: 'Installation & Setup',
       collapsed: true,
       items: ['installation-setup/installation-guide'],
     },
     {
       type: 'category',
-      label: '🔧 Configuration',
+      label: 'Configuration',
       collapsed: true,
       items: [
         'configuration/basic-configuration',
@@ -39,7 +39,7 @@ const sidebars = {
     },
     {
       type: 'category',
-      label: '👤 Administration',
+      label: 'Administration',
       collapsed: true,
       items: [
         'administration/managing-policies',
@@ -51,7 +51,7 @@ const sidebars = {
     },
     {
       type: 'category',
-      label: '📖 User Guides',
+      label: 'User Guides',
       collapsed: true,
       items: ['user-guides/using-password-reset', 'user-guides/password-policy-client'],
     },

@@ -4,13 +4,13 @@ File System reports are accessed through the Resource Audit interface. Explore t
 resources by expanding the levels within the Resources pane and selecting the desired resource. The
 data within these reports is collected by the Access Analyzer File System solution. See the File
 System Solution topic in the
-[Netwrix Access Analyzer Documentation](https://helpcenter.netwrix.com/category/accessanalyzer) for
+[Netwrix Access Analyzer Documentation](https://helpcenter.netwrix.com/category/accessanalyzer) for
 additional information.
 
 **NOTE:** In order to populate the NFS resources within the reports, the **.Active Directory
 Inventory** job group must be configured to collect the `uid` and `uidNumber` attributes for user
 objects. See the NFS Permissions for the Access Information Center topic in the
-[Netwrix Access Analyzer Documentation](https://helpcenter.netwrix.com/category/accessanalyzer) for
+[Netwrix Access Analyzer Documentation](https://helpcenter.netwrix.com/category/accessanalyzer) for
 more information.
 
 File System resource reports identify the following information in the targeted file system
@@ -121,7 +121,7 @@ The following report is available at the NFS Exports node level:
 
 ## File System > Server > NFS Exports > Share & Subfolder Levels
 
-The following reports are available at the share and subfolder levels under the NFS Exports node:
+The following reports are available at the share and subfolder levels under the NFS Exports node:
 
 | Report                                                                                                                  | Description                                                                                                                                                                                                                                                                                                                                                                                             |
 | ----------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |

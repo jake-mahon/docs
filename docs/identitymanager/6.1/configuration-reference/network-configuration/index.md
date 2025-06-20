@@ -273,7 +273,7 @@ content of the corresponding HTML file depending on the currently selected langu
 
 ```
 
-    <CustomLink1Setting Url="/LegalNotice" Path_L1="LegalNotice_en.html" Path_L2="LegalNotice_fr.html" />    <CustomLink2Setting Url="/TermsOfService" Path_L1="TermsOfService_en.html" Path_L2="TermsOfService_fr.html" />
+    <CustomLink1Setting Url="/LegalNotice" Path_L1="LegalNotice_en.html" Path_L2="LegalNotice_fr.html" /> <CustomLink2Setting Url="/TermsOfService" Path_L1="TermsOfService_en.html" Path_L2="TermsOfService_fr.html" />
 
 ```
 
@@ -294,7 +294,7 @@ to navigate to the defined URI addresses.
 
 ```
 
-    <MenuItem Identifier="UserMenu_CustomLink1" DisplayName_L1="Legal Notice" DisplayName_L2="Mentions l�gales" IconCode="List" URI="/LegalNotice" ParentMenuItem="UserMenu" />    <MenuItem Identifier="UserMenu_CustomLink2" DisplayName_L1="Terms of Service" DisplayName_L2="Conditions d'utilisation" IconCode="List" URI="/TermsOfService" ParentMenuItem="UserMenu" />
+    <MenuItem Identifier="UserMenu_CustomLink1" DisplayName_L1="Legal Notice" DisplayName_L2="Mentions l�gales" IconCode="List" URI="/LegalNotice" ParentMenuItem="UserMenu" /> <MenuItem Identifier="UserMenu_CustomLink2" DisplayName_L1="Terms of Service" DisplayName_L2="Conditions d'utilisation" IconCode="List" URI="/TermsOfService" ParentMenuItem="UserMenu" />
 
 ```
 

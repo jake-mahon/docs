@@ -116,7 +116,7 @@ topic for additional information.
 
 **NOTE:** The
 [Owners & Access Reviews](/docs/auditor/10.6/features/access-reviews/resource-owners.md)
-topic and subtopics are written for the assigned owners. You can distribute the URL to this topic or
+topic and subtopics are written for the assigned owners. You can distribute the URL to this topic or
 download a PDF to be distributed to your assigned resource owners.
 
 **Step 5 –** Configure and run reviews. The Entitlement Reviews interface is available to users with
@@ -152,7 +152,7 @@ Review the following considerations:
    Next, configure the Access Reviews for your environment:
 
    - Console Users — Grant users access to the application starting with an Administrator account.
-     There are two levels of access: Administrator and Security Team. See the
+     There are two levels of access: Administrator and Security Team. See the
      [Console Access Page](/docs/auditor/10.6/features/access-reviews/review-administration.md)
      topic for information.
 
@@ -180,14 +180,14 @@ Review the following considerations:
    - Security Team — Need topics that align to the work the will be doing in the Access Reviews
      Console:
 
-     - Ownership Administrator — Send the URL link for the
+     - Ownership Administrator — Send the URL link for the
        [Resource Owners Overview](/docs/auditor/10.6/features/access-reviews/resource-owners.md)
        topic.
-     - Review Administrator — Send the URL link for the
+     - Review Administrator — Send the URL link for the
        [Reviews Overview](/docs/auditor/10.6/features/access-reviews/entitlement-reviews.md)
        topic.
 
-   - Administrator — Send the URL link for the
+   - Administrator — Send the URL link for the
      [Administrator Overview](/docs/auditor/10.6/features/access-reviews/review-administration.md) topic.
 
    ## Resource Ownership Configuration
