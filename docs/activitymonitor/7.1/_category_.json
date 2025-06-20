@@ -1,6 +1,7 @@
 {
   "label": "Version 7.1",
   "customProps": {
+    "product_name": "Activity Monitor",
     "product_version": "7.1"
   }
 }

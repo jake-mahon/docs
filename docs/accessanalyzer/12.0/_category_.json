@@ -1,6 +1,7 @@
 {
-  "label": "Version 12.0",
+  "label": "Access Analyzer",
   "customProps": {
+    "product_name": "Access Analyzer",
     "product_version": "12.0"
   }
 }
