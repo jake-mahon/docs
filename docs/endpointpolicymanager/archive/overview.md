@@ -1,0 +1,33 @@
+# Archive
+
+See the following Knowledge Base articles and Video topics that have been archived. This is a list
+of archived Knowledge Base articles and video topics.
+
+- [ADM/X Files – why they cannot prevent user shenanigans](/docs/endpointpolicymanager/archive/archived-guides/admxfiles.md)
+- [Manage Different Users In The Same OU (And Reduce Number of GPOs) With Endpoint Policy Manager ](/docs/endpointpolicymanager/archive/archived-guides/differentusers.md)
+- [Mass Deploy the Endpoint Policy Manager CSE using GPSI](/docs/endpointpolicymanager/archive/archived-guides/massdeploy.md)
+- [Upgrading the CSE using GPSI](/docs/endpointpolicymanager/archive/archived-guides/upgrading.md)
+- [Endpoint Policy Manager: Use the DesignStudio to manage FireFox's about:config settings](/docs/endpointpolicymanager/archive/archived-guides/designstudiofirefox.md)
+- [Deliver Group Policy to Domain Joined and non-Domain Joined machines thru the Cloud](/docs/endpointpolicymanager/archive/archived-guides/cloud.md)
+- [Understanding ADM-ADMX files Tattooing (and what to do about it)](/docs/endpointpolicymanager/archive/archived-guides/tattooing.md)
+- [Endpoint Policy Manager: Manage InfranView using Group Policy, SCCM or your own management utility](/docs/endpointpolicymanager/archive/archived-guides/infranview.md)
+- [Endpoint Policy Manager: Manage Opera Next using Group Policy, SCCM or your own management utility](/docs/endpointpolicymanager/archive/archived-guides/operanext.md)
+- [Endpoint Policy Manager: Manage GoToMeeting using Group Policy, SCCM or your own management utility](/docs/endpointpolicymanager/archive/archived-guides/gotomeeting.md)
+- [Endpoint Policy Manager Configure PARCC Testing Configuration Stations using Endpoint Policy Manager to prevent pop-ups](/docs/endpointpolicymanager/archive/archived-guides/parcctesting.md)
+- [Endpoint Policy Manager: Manage VMware Workstation Hardware and Options](/docs/endpointpolicymanager/archive/archived-guides/vmware.md)
+- [Endpoint Policy Manager: Manage and lockdown a specific VMware Workstation's VMX file settings](/docs/endpointpolicymanager/archive/archived-guides/vmwarefilesettings.md)
+- [Endpoint Policy Manager: Manage Java 7u45 using Group Policy](/docs/endpointpolicymanager/archive/archived-guides/java.md)
+- [Endpoint Policy Manager and VMware Horizon Mirage](/docs/endpointpolicymanager/archive/archived-guides/vmwarehorizonmirage.md)
+- [Lockdown Microsoft Office Suite 2013](/docs/endpointpolicymanager/archive/archived-guides/office2013.md)
+- [Endpoint Policy ManagerPreferences with Endpoint Policy Manager Exporter](/docs/endpointpolicymanager/archive/archived-guides/preferencesexporter.md)
+- [Endpoint Policy Manager Using Endpoint Policy Manager DesignStudio to modify the Java Paks for XP](/docs/endpointpolicymanager/archive/archived-guides/designstudiojava.md)
+- [Internet Explorer 10 and Internet Explorer Maintenance – the whole story](/docs/endpointpolicymanager/archive/archived-guides/ie10.md)
+- [Nuke mode, and why users can avoid your GPprefs settings](/docs/endpointpolicymanager/archive/archived-guides/modenuke.md)
+- [Endpoint Policy Manager: Manage Acrobat X Pro Using Group Policy](/docs/endpointpolicymanager/archive/archived-guides/acrobatxpro.md)
+- [Endpoint Policy Manager: Manage Internet Explorer (IE9) Using Group Policy](/docs/endpointpolicymanager/archive/archived-guides/ie9.md)
+- [Endpoint Policy Manager supplements VMware View](/docs/endpointpolicymanager/archive/archived-guides/vmwaresupplements.md)
+- [Endpoint Policy Manager: Manage Xenapp applications using Group Policy](/docs/endpointpolicymanager/archive/archived-guides/xenapp.md)
+- [Endpoint Policy Manager 3.5 Applock Update Behavior Change](/docs/endpointpolicymanager/archive/archived-guides/applock.md)
+- [Endpoint Policy Manager and Symantec Workspace Streaming and Virtualization](/docs/endpointpolicymanager/archive/archived-guides/symantecworkspace.md)
+- [The CSE auto-updater feature appears to not be working. What can I do?](/docs/endpointpolicymanager/archive/archived-guides/autoupdater.md)
+- [Group Policy Preferences: Item Level Targeting](/docs/endpointpolicymanager/archive/archived-guides/itemleveltartgeting.md)
