@@ -250,6 +250,22 @@ const config = {
     [
       '@docusaurus/plugin-content-docs',
       {
+        id: 'dataclassification5_6_2',
+        path: 'docs/dataclassification/5.6.2',
+        routeBasePath: 'docs/dataclassification/5.6.2',
+        sidebarPath: require.resolve('./sidebars/dataclassification/5.6.2.js'),
+        editUrl: 'https://github.com/netwrix/docs/tree/main/',
+        exclude: ['**/CLAUDE.md'],
+        versions: {
+          current: {
+            label: '5.6.2',
+          },
+        },
+      },
+    ],
+    [
+      '@docusaurus/plugin-content-docs',
+      {
         id: 'dataclassification5_7',
         path: 'docs/dataclassification/5.7',
         routeBasePath: 'docs/dataclassification/5.7',
@@ -263,18 +279,52 @@ const config = {
         },
       },
     ],
+    // Directory Manager Product
     [
       '@docusaurus/plugin-content-docs',
       {
-        id: 'dataclassification5_6_2',
-        path: 'docs/dataclassification/5.6.2',
-        routeBasePath: 'docs/dataclassification/5.6.2',
-        sidebarPath: require.resolve('./sidebars/dataclassification/5.6.2.js'),
+        id: 'directorymanager11_1',
+        path: 'docs/directorymanager/11.1',
+        routeBasePath: 'docs/directorymanager/11.1',
+        sidebarPath: require.resolve('./sidebars/sidebar.js'),
         editUrl: 'https://github.com/netwrix/docs/tree/main/',
         exclude: ['**/CLAUDE.md'],
         versions: {
           current: {
-            label: '5.6.2',
+            label: '11.1',
+          },
+        },
+      },
+    ],
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'directorymanager11_0',
+        path: 'docs/directorymanager/11.0',
+        routeBasePath: 'docs/directorymanager/11.0',
+        sidebarPath: require.resolve('./sidebars/sidebar.js'),
+        editUrl: 'https://github.com/netwrix/docs/tree/main/',
+        exclude: ['**/CLAUDE.md'],
+        versions: {
+          current: {
+            label: '11.0',
+          },
+        },
+      },
+    ],
+    // Endpoint Policy Manager Product
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'endpointpolicymanager',
+        path: 'docs/endpointpolicymanager',
+        routeBasePath: 'docs/endpointpolicymanager',
+        sidebarPath: require.resolve('./sidebars/sidebar.js'),
+        editUrl: 'https://github.com/netwrix/docs/tree/main/',
+        exclude: ['**/CLAUDE.md'],
+        versions: {
+          current: {
+            label: 'Current',
           },
         },
       },
@@ -312,19 +362,19 @@ const config = {
         },
       },
     ],
-    // Group ID Product
+    // IdentityManager Product
     [
       '@docusaurus/plugin-content-docs',
       {
-        id: 'directorymanager11_1',
-        path: 'docs/directorymanager/11.1',
-        routeBasePath: 'docs/directorymanager/11.1',
-        sidebarPath: require.resolve('./sidebars/sidebar.js'),
+        id: 'identitymanager6_2',
+        path: 'docs/identitymanager/6.2',
+        routeBasePath: 'docs/identitymanager/6.2',
+        sidebarPath: require.resolve('./sidebars/identitymanager/6.2.js'),
         editUrl: 'https://github.com/netwrix/docs/tree/main/',
         exclude: ['**/CLAUDE.md'],
         versions: {
           current: {
-            label: '11.1',
+            label: '6.2',
           },
         },
       },
@@ -332,15 +382,31 @@ const config = {
     [
       '@docusaurus/plugin-content-docs',
       {
-        id: 'directorymanager11_0',
-        path: 'docs/directorymanager/11.0',
-        routeBasePath: 'docs/directorymanager/11.0',
-        sidebarPath: require.resolve('./sidebars/sidebar.js'),
+        id: 'identitymanager6_1',
+        path: 'docs/identitymanager/6.1',
+        routeBasePath: 'docs/identitymanager/6.1',
+        sidebarPath: require.resolve('./sidebars/identitymanager/6.1.js'),
         editUrl: 'https://github.com/netwrix/docs/tree/main/',
         exclude: ['**/CLAUDE.md'],
         versions: {
           current: {
-            label: '11.0',
+            label: '6.1',
+          },
+        },
+      },
+    ],
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'identitymanager_saas',
+        path: 'docs/identitymanager/saas',
+        routeBasePath: 'docs/identitymanager/saas',
+        sidebarPath: require.resolve('./sidebars/identitymanager/saas.js'),
+        editUrl: 'https://github.com/netwrix/docs/tree/main/',
+        exclude: ['**/CLAUDE.md'],
+        versions: {
+          current: {
+            label: 'Current',
           },
         },
       },
@@ -440,6 +506,89 @@ const config = {
         versions: {
           current: {
             label: '9.1',
+          },
+        },
+      },
+    ],
+    // PingCastle Product
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'pingcastle',
+        path: 'docs/pingcastle',
+        routeBasePath: 'docs/pingcastle',
+        sidebarPath: require.resolve('./sidebars/pingcastle.js'),
+        editUrl: 'https://github.com/netwrix/docs/tree/main/',
+        exclude: ['**/CLAUDE.md'],
+        versions: {
+          current: {
+            label: 'Current',
+          },
+        },
+      },
+    ],
+    // Platform Governance NetSuite Product
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'platgovnetsuite',
+        path: 'docs/platgovnetsuite',
+        routeBasePath: 'docs/platgovnetsuite',
+        sidebarPath: require.resolve('./sidebars/platgovnetsuite.js'),
+        editUrl: 'https://github.com/netwrix/docs/tree/main/',
+        exclude: ['**/CLAUDE.md'],
+        versions: {
+          current: {
+            label: 'Current',
+          },
+        },
+      },
+    ],
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'platgovnetsuiteflashlight',
+        path: 'docs/platgovnetsuiteflashlight',
+        routeBasePath: 'docs/platgovnetsuiteflashlight',
+        sidebarPath: require.resolve('./sidebars/platgovnetsuiteflashlight.js'),
+        editUrl: 'https://github.com/netwrix/docs/tree/main/',
+        exclude: ['**/CLAUDE.md'],
+        versions: {
+          current: {
+            label: 'Current',
+          },
+        },
+      },
+    ],
+    // Platform Governance Salesforce Product
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'platgovsalesforce',
+        path: 'docs/platgovsalesforce',
+        routeBasePath: 'docs/platgovsalesforce',
+        sidebarPath: require.resolve('./sidebars/platgovsalesforce.js'),
+        editUrl: 'https://github.com/netwrix/docs/tree/main/',
+        exclude: ['**/CLAUDE.md'],
+        versions: {
+          current: {
+            label: 'Current',
+          },
+        },
+      },
+    ],
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'platgovsalesforceflashlight',
+        path: 'docs/platgovsalesforceflashlight',
+        routeBasePath: 'docs/platgovsalesforceflashlight',
+        sidebarPath: require.resolve('./sidebars/platgovsalesforceflashlight.js'),
+        editUrl: 'https://github.com/netwrix/docs/tree/main/',
+        exclude: ['**/CLAUDE.md'],
+        versions: {
+          current: {
+            label: 'Current',
           },
         },
       },
@@ -544,138 +693,6 @@ const config = {
         },
       },
     ],
-    // IdentityManager Product
-    [
-      '@docusaurus/plugin-content-docs',
-      {
-        id: 'identitymanager6_2',
-        path: 'docs/identitymanager/6.2',
-        routeBasePath: 'docs/identitymanager/6.2',
-        sidebarPath: require.resolve('./sidebars/identitymanager/6.2.js'),
-        editUrl: 'https://github.com/netwrix/docs/tree/main/',
-        exclude: ['**/CLAUDE.md'],
-        versions: {
-          current: {
-            label: '6.2',
-          },
-        },
-      },
-    ],
-    [
-      '@docusaurus/plugin-content-docs',
-      {
-        id: 'identitymanager6_1',
-        path: 'docs/identitymanager/6.1',
-        routeBasePath: 'docs/identitymanager/6.1',
-        sidebarPath: require.resolve('./sidebars/identitymanager/6.1.js'),
-        editUrl: 'https://github.com/netwrix/docs/tree/main/',
-        exclude: ['**/CLAUDE.md'],
-        versions: {
-          current: {
-            label: '6.1',
-          },
-        },
-      },
-    ],
-    // Endpoint Policy Manager Product
-    [
-      '@docusaurus/plugin-content-docs',
-      {
-        id: 'endpointpolicymanager',
-        path: 'docs/endpointpolicymanager',
-        routeBasePath: 'docs/endpointpolicymanager',
-        sidebarPath: require.resolve('./sidebars/sidebar.js'),
-        editUrl: 'https://github.com/netwrix/docs/tree/main/',
-        exclude: ['**/CLAUDE.md'],
-        versions: {
-          current: {
-            label: 'Current',
-          },
-        },
-      },
-    ],
-    // Platform Governance Product
-    [
-      '@docusaurus/plugin-content-docs',
-      {
-        id: 'platgovnetsuite',
-        path: 'docs/platgovnetsuite',
-        routeBasePath: 'docs/platgovnetsuite',
-        sidebarPath: require.resolve('./sidebars/platgovnetsuite.js'),
-        editUrl: 'https://github.com/netwrix/docs/tree/main/',
-        exclude: ['**/CLAUDE.md'],
-        versions: {
-          current: {
-            label: 'Current',
-          },
-        },
-      },
-    ],
-    [
-      '@docusaurus/plugin-content-docs',
-      {
-        id: 'platgovsalesforce',
-        path: 'docs/platgovsalesforce',
-        routeBasePath: 'docs/platgovsalesforce',
-        sidebarPath: require.resolve('./sidebars/platgovsalesforce.js'),
-        editUrl: 'https://github.com/netwrix/docs/tree/main/',
-        exclude: ['**/CLAUDE.md'],
-        versions: {
-          current: {
-            label: 'Current',
-          },
-        },
-      },
-    ],
-    [
-      '@docusaurus/plugin-content-docs',
-      {
-        id: 'platgovnetsuiteflashlight',
-        path: 'docs/platgovnetsuiteflashlight',
-        routeBasePath: 'docs/platgovnetsuiteflashlight',
-        sidebarPath: require.resolve('./sidebars/platgovnetsuiteflashlight.js'),
-        editUrl: 'https://github.com/netwrix/docs/tree/main/',
-        exclude: ['**/CLAUDE.md'],
-        versions: {
-          current: {
-            label: 'Current',
-          },
-        },
-      },
-    ],
-    [
-      '@docusaurus/plugin-content-docs',
-      {
-        id: 'platgovsalesforceflashlight',
-        path: 'docs/platgovsalesforceflashlight',
-        routeBasePath: 'docs/platgovsalesforceflashlight',
-        sidebarPath: require.resolve('./sidebars/platgovsalesforceflashlight.js'),
-        editUrl: 'https://github.com/netwrix/docs/tree/main/',
-        exclude: ['**/CLAUDE.md'],
-        versions: {
-          current: {
-            label: 'Current',
-          },
-        },
-      },
-    ],
-    // IdentityManager SaaS Product
-    [
-      '@docusaurus/plugin-content-docs',
-      {
-        id: 'identitymanager_saas',
-        path: 'docs/identitymanager/saas',
-        routeBasePath: 'docs/identitymanager/saas',
-        sidebarPath: require.resolve('./sidebars/identitymanager/saas.js'),
-        editUrl: 'https://github.com/netwrix/docs/tree/main/',
-        exclude: ['**/CLAUDE.md'],
-        versions: {
-          current: {
-            label: 'Current',
-          },
-        },
-      },
-    ],
   ],
 
   themeConfig:
@@ -685,7 +702,7 @@ const config = {
       image: 'img/Logo_RGB.svg',
       docs: {
         sidebar: {
-          hideable: false,
+          hideable: true,
           autoCollapseCategories: false,
         },
       },

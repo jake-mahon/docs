@@ -17,16 +17,17 @@ const [productName, version] = input.includes('/') ? input.split('/') : [input, 
 // Products that don't have versions (use product name directly)
 const versionlessProducts = [
   '1secure',
-  'endpointpolicymanager', 
+  'endpointpolicymanager',
+  'pingcastle',
   'platgovnetsuite',
   'platgovsalesforce',
   'platgovnetsuiteflashlight',
-  'platgovsalesforceflashlight'
+  'platgovsalesforceflashlight',
 ];
 
 // Special case for identitymanager/saas
 const specialCases = {
-  'identitymanager/saas': 'identitymanager_saas'
+  'identitymanager/saas': 'identitymanager_saas',
 };
 
 // Function to get plugin ID based on product and version
@@ -36,19 +37,19 @@ function getPluginId(product, version) {
   if (specialCases[specialKey]) {
     return specialCases[specialKey];
   }
-  
+
   // Handle versionless products
   if (versionlessProducts.includes(product) && !version) {
     return product;
   }
-  
+
   // Handle versioned products
   if (version) {
     // Convert version dots to underscores (e.g., "12.0" -> "12_0")
     const versionFormatted = version.replace(/\./g, '_');
     return `${product}${versionFormatted}`;
   }
-  
+
   // If no version provided for a versioned product, error
   console.error(`Product "${product}" requires a version number.`);
   console.error('Available versions can be found in the docs directory structure.');
@@ -59,7 +60,7 @@ function getPluginId(product, version) {
 function validatePlugin(pluginId, product, version) {
   const configPath = path.join(__dirname, '..', 'docusaurus.config.js');
   const configContent = fs.readFileSync(configPath, 'utf8');
-  
+
   // Check if plugin ID exists in config
   if (!configContent.includes(`id: '${pluginId}'`)) {
     console.error(`Plugin "${pluginId}" not found in docusaurus.config.js`);
@@ -75,10 +76,10 @@ function validatePlugin(pluginId, product, version) {
 // Create temporary config file for single product build
 function createTempConfig(pluginId, product, version) {
   const tempConfigPath = path.join(__dirname, '..', 'docusaurus.single.config.js');
-  
+
   // Get the path and sidebar for this specific product
   let docPath, routeBasePath, sidebarPath;
-  
+
   if (version) {
     docPath = `docs/${product}/${version}`;
     routeBasePath = '/'; // Serve at root for single product builds
@@ -92,14 +93,14 @@ function createTempConfig(pluginId, product, version) {
       routeBasePath = '/'; // Serve at root for single product builds
     }
   }
-  
+
   // Determine sidebar path
   if (product === 'threatprevention' && version) {
     sidebarPath = `./sidebars/threatprevention-${version}-sidebar.js`;
   } else {
     sidebarPath = './sidebars/sidebar.js';
   }
-  
+
   // Create minimal config with just the single plugin
   const configContent = `// @ts-check
 import { themes as prismThemes } from 'prism-react-renderer';
@@ -214,7 +215,7 @@ const config = {
 };
 
 export default config;`;
-  
+
   fs.writeFileSync(tempConfigPath, configContent);
   return tempConfigPath;
 }
@@ -242,7 +243,7 @@ try {
   console.log('Starting build...');
   execSync(`npx docusaurus build --config ${path.basename(tempConfigPath)}`, {
     stdio: 'inherit',
-    cwd: path.dirname(tempConfigPath)
+    cwd: path.dirname(tempConfigPath),
   });
   console.log('Build completed successfully!');
 } catch (error) {

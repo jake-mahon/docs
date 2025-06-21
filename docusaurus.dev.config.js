@@ -55,7 +55,7 @@ const config = {
         id: '1secure',
         path: 'docs/1secure',
         routeBasePath: '/',
-        sidebarPath: require.resolve('./sidebars/sidebar.js'),
+        sidebarPath: require.resolve('./sidebars/1secure.js'),
         editUrl: 'https://github.com/netwrix/docs/tree/main/',
         exclude: ['**/CLAUDE.md'],
         versions: {
@@ -71,7 +71,7 @@ const config = {
     image: 'img/Logo_RGB.svg',
     docs: {
       sidebar: {
-        hideable: false,
+        hideable: true,
         autoCollapseCategories: false,
       },
     },

@@ -205,7 +205,7 @@ const ProductCategories = [
       {
         name: 'PingCastle',
         description: 'Active Directory security assessment',
-        link: '/',
+        link: '/docs/pingcastle',
       },
       {
         name: 'Access Analyzer',
