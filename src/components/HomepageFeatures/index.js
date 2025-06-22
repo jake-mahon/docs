@@ -36,20 +36,20 @@ const ProductCategories = [
       {
         name: 'Identity Manager',
         description: 'User provisioning and management',
-        link: '/docs/identitymanager/6.2',
+        link: '/docs/identitymanager/6_2',
         versions: [
-          { version: '6.2', link: '/docs/identitymanager/6.2', isLatest: true },
-          { version: '6.1', link: '/docs/identitymanager/6.1', isLatest: false },
+          { version: '6.2', link: '/docs/identitymanager/6_2', isLatest: true },
+          { version: '6.1', link: '/docs/identitymanager/6_1', isLatest: false },
           { version: 'SaaS', link: '/docs/identitymanager/saas', isLatest: false },
         ],
       },
       {
         name: 'Directory Manager',
         description: 'Active Directory group management',
-        link: '/docs/directorymanager/11.1',
+        link: '/docs/directorymanager/11_1',
         versions: [
-          { version: '11.1', link: '/docs/directorymanager/11.1', isLatest: true },
-          { version: '11.0', link: '/docs/directorymanager/11.0', isLatest: false },
+          { version: '11_1', link: '/docs/directorymanager/11_1', isLatest: true },
+          { version: '11_0', link: '/docs/directorymanager/11_0', isLatest: false },
         ],
       },
       {
@@ -72,10 +72,10 @@ const ProductCategories = [
       {
         name: 'Privilege Secure',
         description: 'Privileged access management',
-        link: '/docs/privilegesecure/4.2',
+        link: '/docs/privilegesecure/4_2',
         versions: [
-          { version: '4.2', link: '/docs/privilegesecure/4.2', isLatest: true },
-          { version: '4.1', link: '/docs/privilegesecure/4.1', isLatest: false },
+          { version: '4.2', link: '/docs/privilegesecure/4_2', isLatest: true },
+          { version: '4.1', link: '/docs/privilegesecure/4_1', isLatest: false },
         ],
       },
       {
@@ -86,10 +86,10 @@ const ProductCategories = [
       {
         name: 'Password Secure',
         description: 'Secure password management',
-        link: '/docs/passwordsecure/9.2',
+        link: '/docs/passwordsecure/9_2',
         versions: [
-          { version: '9.2', link: '/docs/passwordsecure/9.2', isLatest: true },
-          { version: '9.1', link: '/docs/passwordsecure/9.1', isLatest: false },
+          { version: '9.2', link: '/docs/passwordsecure/9_2', isLatest: true },
+          { version: '9.1', link: '/docs/passwordsecure/9_1', isLatest: false },
         ],
       },
     ],
@@ -102,10 +102,10 @@ const ProductCategories = [
       {
         name: 'Auditor',
         description: 'Comprehensive IT infrastructure auditing',
-        link: '/docs/auditor/10.7',
+        link: '/docs/auditor/10_7',
         versions: [
-          { version: '10.7', link: '/docs/auditor/10.7', isLatest: true },
-          { version: '10.6', link: '/docs/auditor/10.6', isLatest: false },
+          { version: '10.7', link: '/docs/auditor/10_7', isLatest: true },
+          { version: '10.6', link: '/docs/auditor/10_6', isLatest: false },
         ],
       },
       {
@@ -120,10 +120,10 @@ const ProductCategories = [
       {
         name: 'Password Policy Enforcer',
         description: 'Enforce strong password policies',
-        link: '/docs/passwordpolicyenforcer/11.0',
+        link: '/docs/passwordpolicyenforcer/11_0',
         versions: [
-          { version: '11.0', link: '/docs/passwordpolicyenforcer/11.0', isLatest: true },
-          { version: '10.2', link: '/docs/passwordpolicyenforcer/10.2', isLatest: false },
+          { version: '11.0', link: '/docs/passwordpolicyenforcer/11_0', isLatest: true },
+          { version: '10.2', link: '/docs/passwordpolicyenforcer/10_2', isLatest: false },
         ],
       },
     ],
@@ -136,10 +136,10 @@ const ProductCategories = [
       {
         name: 'Endpoint Protector',
         description: 'Comprehensive endpoint security',
-        link: '/docs/endpointprotector/5.9.4.2',
+        link: '/docs/endpointprotector/5_9_4_2',
         versions: [
-          { version: '5.9.4.2', link: '/docs/endpointprotector/5.9.4.2', isLatest: true },
-          { version: '5.9.4', link: '/docs/endpointprotector/5.9.4', isLatest: false },
+          { version: '5.9.4.2', link: '/docs/endpointprotector/5_9_4_2', isLatest: true },
+          { version: '5.9.4', link: '/docs/endpointprotector/5_9_4', isLatest: false },
         ],
       },
       {
@@ -150,10 +150,10 @@ const ProductCategories = [
       {
         name: 'Change Tracker',
         description: 'Real-time change monitoring and alerts',
-        link: '/docs/changetracker/8.1',
+        link: '/docs/changetracker/8_1',
         versions: [
-          { version: '8.1', link: '/docs/changetracker/8.1', isLatest: true },
-          { version: '8.0', link: '/docs/changetracker/8.0', isLatest: false },
+          { version: '8.1', link: '/docs/changetracker/8_1', isLatest: true },
+          { version: '8.0', link: '/docs/changetracker/8_0', isLatest: false },
         ],
       },
     ],
@@ -171,28 +171,28 @@ const ProductCategories = [
       {
         name: 'Auditor',
         description: 'Comprehensive IT infrastructure auditing',
-        link: '/docs/auditor/10.7',
+        link: '/docs/auditor/10_7',
         versions: [
-          { version: '10.7', link: '/docs/auditor/10.7', isLatest: true },
-          { version: '10.6', link: '/docs/auditor/10.6', isLatest: false },
+          { version: '10.7', link: '/docs/auditor/10_7', isLatest: true },
+          { version: '10.6', link: '/docs/auditor/10_6', isLatest: false },
         ],
       },
       {
         name: 'Access Analyzer',
         description: 'Analyze and audit file system permissions',
-        link: '/docs/accessanalyzer/12.0',
+        link: '/docs/accessanalyzer/12_0',
         versions: [
-          { version: '12.0', link: '/docs/accessanalyzer/12.0', isLatest: true },
-          { version: '11.6', link: '/docs/accessanalyzer/11.6', isLatest: false },
+          { version: '12.0', link: '/docs/accessanalyzer/12_0', isLatest: true },
+          { version: '11.6', link: '/docs/accessanalyzer/11_6', isLatest: false },
         ],
       },
       {
         name: 'Data Classification',
         description: 'Classify and protect sensitive data',
-        link: '/docs/dataclassification/5.7',
+        link: '/docs/dataclassification/5_7',
         versions: [
-          { version: '5.7', link: '/docs/dataclassification/5.7', isLatest: true },
-          { version: '5.6.2', link: '/docs/dataclassification/5.6.2', isLatest: false },
+          { version: '5.7', link: '/docs/dataclassification/5_7', isLatest: true },
+          { version: '5.6.2', link: '/docs/dataclassification/5_6_2', isLatest: false },
         ],
       },
     ],
@@ -210,34 +210,32 @@ const ProductCategories = [
       {
         name: 'Access Analyzer',
         description: 'Analyze and audit file system permissions',
-        link: '/docs/accessanalyzer/12.0',
+        link: '/docs/accessanalyzer/12_0',
         versions: [
-          { version: '12.0', link: '/docs/accessanalyzer/12.0', isLatest: true },
-          { version: '11.6', link: '/docs/accessanalyzer/11.6', isLatest: false },
+          { version: '12.0', link: '/docs/accessanalyzer/12_0', isLatest: true },
+          { version: '11.6', link: '/docs/accessanalyzer/11_6', isLatest: false },
         ],
       },
       {
         name: 'Threat Manager',
         description: 'Advanced threat detection and response',
-        link: '/docs/threatmanager/3.0',
-        versions: [{ version: '3.0', link: '/docs/threatmanager/3.0', isLatest: true }],
+        link: '/docs/threatmanager/3_0',
+        versions: [{ version: '3.0', link: '/docs/threatmanager/3_0', isLatest: true }],
       },
       {
         name: 'Threat Prevention',
         description: 'Proactive threat prevention',
-        link: '/docs/threatprevention/7.5',
+        link: '/docs/threatprevention/7_5',
         versions: [
-          { version: '7.5', link: '/docs/threatprevention/7.5', isLatest: true },
-          { version: '7.4', link: '/docs/threatprevention/7.4', isLatest: false },
+          { version: '7.5', link: '/docs/threatprevention/7_5', isLatest: true },
+          { version: '7.4', link: '/docs/threatprevention/7_4', isLatest: false },
         ],
       },
       {
         name: 'Recovery for Active Directory',
         description: 'Active Directory backup and recovery',
-        link: '/docs/recoveryforactivedirectory/2.6',
-        versions: [
-          { version: '2.6', link: '/docs/recoveryforactivedirectory/2.6', isLatest: true },
-        ],
+        link: '/docs/recoveryforactivedirectory/2_6',
+        versions: [{ version: '2.6', link: '/docs/recoveryforactivedirectory/2_6', isLatest: true }],
       },
     ],
   },
@@ -249,28 +247,28 @@ const ProductCategories = [
       {
         name: 'Access Information Center',
         description: 'Centralized access information management',
-        link: '/docs/accessinformationcenter/12.0',
+        link: '/docs/accessinformationcenter/12_0',
         versions: [
-          { version: '12.0', link: '/docs/accessinformationcenter/12.0', isLatest: true },
-          { version: '11.6', link: '/docs/accessinformationcenter/11.6', isLatest: false },
+          { version: '12.0', link: '/docs/accessinformationcenter/12_0', isLatest: true },
+          { version: '11.6', link: '/docs/accessinformationcenter/11_6', isLatest: false },
         ],
       },
       {
         name: 'Activity Monitor',
         description: 'Track user activities across IT infrastructure',
-        link: '/docs/activitymonitor/8.0',
+        link: '/docs/activitymonitor/8_0',
         versions: [
-          { version: '8.0', link: '/docs/activitymonitor/8.0', isLatest: true },
-          { version: '7.1', link: '/docs/activitymonitor/7.1', isLatest: false },
+          { version: '8.0', link: '/docs/activitymonitor/8_0', isLatest: true },
+          { version: '7.1', link: '/docs/activitymonitor/7_1', isLatest: false },
         ],
       },
       {
         name: 'Password Reset',
         description: 'Self-service password reset solution',
-        link: '/docs/passwordreset/3.3',
+        link: '/docs/passwordreset/3_3',
         versions: [
-          { version: '3.3', link: '/docs/passwordreset/3.3', isLatest: true },
-          { version: '3.23', link: '/docs/passwordreset/3.23', isLatest: false },
+          { version: '3.3', link: '/docs/passwordreset/3_3', isLatest: true },
+          { version: '3.23', link: '/docs/passwordreset/3_23', isLatest: false },
         ],
       },
       {
@@ -309,11 +307,7 @@ function ProductCard({ product }) {
       {/* Version badges in top-right corner */}
       <div className={styles.versionBadgesContainer}>
         {product.versions.map((version, idx) => (
-          <Link
-            key={idx}
-            to={version.link}
-            className={`${styles.versionBadge} ${version.isLatest ? styles.latestBadge : ''}`}
-          >
+          <Link key={idx} to={version.link} className={`${styles.versionBadge} ${version.isLatest ? styles.latestBadge : ''}`}>
             v{version.version}
           </Link>
         ))}
@@ -358,24 +352,13 @@ function ProductCategory({ title, description, icon, products }) {
  */
 export default function HomepageFeatures() {
   return (
-    <section id="products" className={styles.features}>
+    <section className={styles.features}>
       <div className="container">
         <div className={styles.sectionHeader}>
           <Heading as="h2" className={styles.sectionTitle}>
-            <ReactTyped
-              strings={SECTION_TITLES}
-              typeSpeed={60}
-              backSpeed={30}
-              backDelay={2000}
-              loop
-              showCursor={true}
-              cursorChar="|"
-            />
+            <ReactTyped strings={SECTION_TITLES} typeSpeed={60} backSpeed={30} backDelay={2000} loop showCursor={true} cursorChar="|" />
           </Heading>
-          <p className={styles.sectionSubtitle}>
-            Explore our comprehensive security products with individual version tags for easy
-            access.
-          </p>
+          <p className={styles.sectionSubtitle}>Explore our comprehensive security products with individual version tags for easy access.</p>
         </div>
         <div className={styles.categoriesContainer}>
           {ProductCategories.map((category, idx) => (

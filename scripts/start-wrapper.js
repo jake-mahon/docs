@@ -202,7 +202,10 @@ const config = {
         },
       },
     ],
+
   ],
+
+
 
   themeConfig: {
     image: 'img/Logo_RGB.svg',

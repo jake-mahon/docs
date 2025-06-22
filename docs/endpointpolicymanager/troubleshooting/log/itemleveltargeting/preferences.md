@@ -69,6 +69,6 @@ doesn't work. Then we can attempt to investigate it.
 That being said if you're really sure an ILT evaluation functions correctly in Group Policy
 Preferences (see above) but not in Endpoint Policy Manager … you can continue to troubleshoot by
 turning on ILT logging for Endpoint Policy Manager items using this
-KB:[How do I turn on Item Level Targeting (ILT) logging if asked by Endpoint Policy Manager Tech Support?](/docs/endpointpolicymanager/troubleshooting/log/itemleveltargeting.md)
+KB:[How do I turn on Item Level Targeting (ILT) logging if asked by Endpoint Policy Manager Tech Support?](/docs/endpointpolicymanager/troubleshooting/log/itemleveltargeting/index.md)
 
 All log files require a support case to analyze.

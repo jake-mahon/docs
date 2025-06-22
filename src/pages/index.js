@@ -16,13 +16,12 @@ function HomepageHeader() {
         <div className="container">
           <h1 className={styles.heroTitle}>Netwrix Product Documentation</h1>
           <p className={styles.heroSubtitle}>
-            Read more about the security solutions from Netwrix. Comprehensive guides, product
-            knowledge, and references for all Netwrix products.
+            Read more about the security solutions from Netwrix. Comprehensive guides, product knowledge, and references for all Netwrix products.
           </p>
           <div className={styles.buttons}>
-            <a className="button button--secondary button--lg" href="#products">
+            <Link className="button button--secondary button--lg" to="/docs/1secure">
               Browse the docs
-            </a>
+            </Link>
           </div>
         </div>
       </header>
@@ -32,11 +31,9 @@ function HomepageHeader() {
 
 export default function Home() {
   const { siteConfig } = useDocusaurusContext();
+
   return (
-    <Layout
-      title={`Welcome to ${siteConfig.title}`}
-      description="Documentation for Netwrix security products"
-    >
+    <Layout title={`Welcome to ${siteConfig.title}`} description="Documentation for Netwrix security products">
       <HomepageHeader />
       <main>
         <CommunityHighlights />
