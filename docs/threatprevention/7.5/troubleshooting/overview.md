@@ -72,7 +72,7 @@ SI.ActiveDirectoryMonitor.dll - commonly known as ADMonitor DLL (recommended). S
 [Upgrade ADMonitor](/docs/threatprevention/7.5/admin/agents/management/upgradeadmonitor.md)topic for additional information.
 
 **_RECOMMENDED:_** Activate an email notification for the _LSASS process terminated_ alert. See the
-[Enable the 'LSASS Process Terminated' Email Alert](lsass.md#enable-the-lsass-process-terminated-email-alert)
+[Enable the 'LSASS Process Terminated' Email Alert](/docs/threatprevention/7.5/troubleshooting/lsass.md#enable-the-lsass-process-terminated-email-alert)
 topic for additional information.
 
 FAQ: The user interface is not displaying correctly and windows are cut off. What should I do?

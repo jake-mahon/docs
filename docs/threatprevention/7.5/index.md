@@ -1,33 +1,32 @@
-# Netwrix Threat Prevention 7.5
+# Threat Prevention 7.5
 
-Netwrix Threat Prevention strengthens an organization's defense against internal and external threats by acting as a real-time protective layer around critical systems, including Active Directory, Exchange, and file systems. Unlike native Windows logging, it intercepts and blocks risky activity at the source - before damage occurs.
+> Real-time protection layer for critical enterprise systems
+
+Threat Prevention 7.5 strengthens organizational defenses by providing a real-time protective barrier around critical IT infrastructure including Active Directory, Exchange, and file systems. Unlike traditional security solutions that only detect threats after the fact, this solution intercepts and blocks malicious activities at the source, preventing damage before it occurs while maintaining comprehensive audit trails for compliance and forensic analysis.
 
 ## Key Features
 
-- **Active Monitoring** – Continuously monitors changes, authentications, and access attempts in real time
-- **Proactive Blocking** – Automatically blocks unauthorized or suspicious actions before they impact business systems
-- **Real-Time Alerts and Enforcement** – Enforces custom security policies with immediate alerts and automated responses
-- **Comprehensive Audit Trail** – Records rich, contextual event details with pre- and post-change values
-- **Seamless Third-Party Integration** – Feeds enriched, real-time data to SIEM platforms and other tools
-- **Modern, Secure Architecture** – FIPS 140-2 compliant architecture for modern security requirements
+- **Real-Time Activity Monitoring**: Continuously track changes, authentications, and access attempts as they happen
+- **Proactive Threat Blocking**: Automatically prevent unauthorized actions before they compromise systems
+- **Policy-Based Enforcement**: Define and enforce custom security policies with automated responses
+- **Enhanced SIEM Integration**: Stream enriched security events to SIEM platforms for centralized monitoring
 
-## What's New in 7.5
+## Benefits
 
-- **[SIEM Output Viewer](/docs/threatprevention/7.5/admin/configuration/siemoutputviewer.md)** - Real-time SIEM data viewing capability
-- **[ADMonitor Upgrade](/docs/threatprevention/7.5/admin/agents/management/upgradeadmonitor.md)** - Update ADMonitor DLL without full agent reinstall
-- Enhanced feature descriptions and improved documentation
+- **Prevent Security Breaches**: Stop attacks in real-time rather than discovering them after damage
+- **Protect Business Operations**: Ensure critical systems remain secure and operational
+- **Accelerate Incident Response**: Immediate alerts and automated blocking reduce response times
+- **Strengthen Compliance**: Detailed audit trails meet regulatory requirements
 
-## Quick Start
+## What's New in Version 7.5
 
-- [Getting Started](/docs/threatprevention/7.5/gettingstarted.md)
-- [System Requirements](/docs/threatprevention/7.5/requirements/overview.md)
-- [Installation Overview](/docs/threatprevention/7.5/install/overview.md)
-- [Product Overview](/docs/threatprevention/7.5/overview.md)
+- New SIEM Output Viewer for real-time data stream monitoring
+- Simplified ADMonitor updates without full agent reinstallation
+- Enhanced reporting capabilities with improved data visualization
+- Performance improvements for high-volume environments
 
-## Key Sections
+```mdx-code-block
+import DocCardList from '@theme/DocCardList';
 
-- **[Administration](/docs/threatprevention/7.5/admin/overview.md)** - Agent management, policies, and configuration
-- **[Solutions](/docs/threatprevention/7.5/solutions/overview.md)** - Active Directory, Exchange, File System, and LDAP protection
-- **[Reporting](/docs/threatprevention/7.5/reportingmodule/overview.md)** - Investigations and analytics
-- **[SIEM Integration](/docs/threatprevention/7.5/siemdashboard/overview.md)** - QRadar and Splunk dashboards
-- **[Troubleshooting](/docs/threatprevention/7.5/troubleshooting/overview.md)** - Common issues and solutions
+<DocCardList />
+```

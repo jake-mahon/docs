@@ -104,7 +104,7 @@ displayed depend on the column it is opened from.
 The Find Panel enables you to search for data in the data grid. It is represented with a magnifying
 glass icon. It is displayed by default but you can choose to hide or show it using the Show/Hide
 Find Panel option on the
-[Data Grid Right-Click Menu](rightclickmenus.md#data-grid-right-click-menu).
+[Data Grid Right-Click Menu](/docs/threatprevention/7.5/admin/navigation/rightclickmenus.md#data-grid-right-click-menu).
 
 On clicking the magnifying glass icon, the Find box appears as:
 

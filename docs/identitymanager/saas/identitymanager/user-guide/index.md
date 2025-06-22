@@ -29,7 +29,7 @@ Manager from scratch and creating IGA value as quickly as possible.
 The procedures are meant to guide the reader through a standard setup, based on Identity Manager's
 IGA Core Solution, and with Netwrix Identity Manager (formerly Usercube) suggestions and
 recommendations. Any advanced configuration can be performed later using the content of the
-[Integration Guide](/docs/identitymanager/saas/identitymanager/integration-guide/index.md).
+[Integration Guide](/docs/identitymanager/saas/getting-started/index.md).
 
 Thus, even when having very specific needs, Netwrix Identity Manager (formerly Usercube) still
 recommends starting the project with the basics presented in this guide. The IGA solution can be
@@ -46,7 +46,7 @@ contribute to a same goal.
 
 While some activities must be carried out before others for technical and/or functional reasons, the
 order is not absolute. Please follow the instructions and recommendations detailed with the
-[ Global Process ](/docs/identitymanager/saas/identitymanager/user-guide/global-process/index.md).
+[ Global Process ](/docs/identitymanager/saas/getting-started/index.md).
 
 All activities are organized into bigger sections which are distinguishable by their functional
 intent: set up; administrate; optimize; deploy and maintain.
@@ -82,7 +82,7 @@ Identity Manager is already running in production.
 
 ## How to Use this Guide
 
-Start by studying the [ Global Process ](/docs/identitymanager/saas/identitymanager/user-guide/global-process/index.md). that details every activity in
+Start by studying the [ Global Process ](/docs/identitymanager/saas/getting-started/index.md). that details every activity in
 their respective sections and how they relate to one another. You will get a good view of the steps
 to take from start to finish.
 

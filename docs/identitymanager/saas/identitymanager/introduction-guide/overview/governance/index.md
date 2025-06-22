@@ -32,11 +32,11 @@ Let's read some [ Use Case Stories ](/docs/identitymanager/saas/identitymanager/
 
 ## Learn More
 
-Learn more on [Governance](/docs/identitymanager/saas/identitymanager/integration-guide/governance/index.md).
+Learn more on [Governance](/docs/identitymanager/saas/governance/index.md).
 
-Learn more on how to [ Generate Reports ](/docs/identitymanager/saas/identitymanager/user-guide/administrate/reporting/index.md).
+Learn more on how to [ Generate Reports ](/docs/identitymanager/saas/governance/reporting/index.md).
 
 Learn more on
-[ Perform Access Certification ](/docs/identitymanager/saas/identitymanager/user-guide/administrate/access-certification/index.md).
+[ Perform Access Certification ](/docs/identitymanager/saas/governance/access-certification.md).
 
-Learn more on how to [ Manage Risks ](/docs/identitymanager/saas/identitymanager/user-guide/optimize/risk-management/index.md).
+Learn more on how to [ Manage Risks ](/docs/identitymanager/saas/governance/risks.md).

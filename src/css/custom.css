@@ -109,7 +109,7 @@ html {
 }
 
 .navbar-item-latest::after {
-  content: "✨";
+  content: '✨';
   position: absolute;
   right: 8px;
   font-size: 0.8em;
@@ -154,13 +154,13 @@ html {
 }
 
 /* Add subtle dividers between product groups */
-.dropdown__menu .dropdown__link[class*="navbar-item-latest"] {
+.dropdown__menu .dropdown__link[class*='navbar-item-latest'] {
   margin-top: 12px;
   border-top: 1px solid var(--ifm-color-emphasis-200);
   padding-top: 8px;
 }
 
-.dropdown__menu .dropdown__link[class*="navbar-item-latest"]:first-child {
+.dropdown__menu .dropdown__link[class*='navbar-item-latest']:first-child {
   border-top: none;
   margin-top: 8px;
   padding-top: 4px;
@@ -171,12 +171,12 @@ html {
   .navbar-item-latest::after {
     display: none;
   }
-  
+
   .navbar-item-legacy {
     font-size: 0.85em;
   }
-  
-  .dropdown__menu .dropdown__link[class*="navbar-item-latest"] {
+
+  .dropdown__menu .dropdown__link[class*='navbar-item-latest'] {
     margin-top: 8px;
     padding-top: 6px;
   }
@@ -187,18 +187,21 @@ html {
   .navbar-item-legacy {
     padding-left: 16px !important;
   }
-  
-  .dropdown__menu .dropdown__link[class*="navbar-item-latest"] {
+
+  .dropdown__menu .dropdown__link[class*='navbar-item-latest'] {
     margin-top: 6px;
     padding-top: 4px;
   }
 }
 
 /* Image borders */
-img {
+/* Start of Selection */
+/* Apply borders only to images within docs pages */
+.theme-doc-markdown img {
   border: 1px solid #e0e0e0;
   border-radius: 4px;
 }
+/* End of Selection */
 
 /* Dark mode image borders */
 [data-theme='dark'] img {

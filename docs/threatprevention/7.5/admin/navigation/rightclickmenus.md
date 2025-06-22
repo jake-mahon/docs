@@ -9,8 +9,8 @@ From the Agents node, the right-click menu can be used to install the Agent.
 
 ![Agents node - Right-click Menu](/img/product_docs/threatprevention/threatprevention/admin/navigation/agentsmenu.webp)
 
-| Right-Click Command | Description                                                                         |
-| ------------------- | ----------------------------------------------------------------------------------- |
+| Right-Click Command | Description                                                                                                       |
+| ------------------- | ----------------------------------------------------------------------------------------------------------------- |
 | Install Agent       | Opens the [Deploy Agents Wizard](/docs/threatprevention/7.5/admin/agents/deploy/overview.md#deploy-agents-wizard) |
 
 Saved ‘Filtered Investigate’ Nodes
@@ -101,21 +101,21 @@ A right-click menu is also available from the column headers of a data grid.
 
 It contains the following selections:
 
-| Right-Click Command                                             | Description                                                                                                                                       |
-| --------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Full Expand                                                     | Expands all sections within the data grid. Only available from a grouped column header.                                                           |
-| Full Collapse                                                   | Collapses all sections within the data grid. Only available from a grouped column header.                                                         |
-| Sort Ascending                                                  | Sorts data by the selected column in ascending alphanumeric order (A-Z)                                                                           |
-| Sort Descending                                                 | Sorts data by the selected column in descending alphanumeric order (Z-A)                                                                          |
-| Clear Sorting / Clear All Sorting                               | Removes sorting from the selected column or removes sorting from all columns                                                                      |
-| Sort by Summary (Count by [column] – Sort Ascending/Descending) | Sorts ‘grouped’ data by severity count in ascending or descending order. Only available from a grouped column header.                             |
-| Group by This Column / UnGroup/Clear Grouping                   | Groups data or clears grouping of data by the selected column                                                                                     |
-| Hide/Show Group by Box                                          | Hides or shows the Group By box where headers can be dragged-and-dropped to group the data                                                        |
-| Group Interval                                                  | If grouped by the Time column, use this option to group by time intervals (Day, Month, Year, Smart). Only available from a grouped column header. |
-| Hide This Column                                                | Hides the selected column from the data grid. Hidden columns can be returned to the data grid through the Column Chooser option.                  |
-| Column Chooser                                                  | Opens the [Customization Window](datagrid.md#customization-window) where you can add and remove columns from the data grid                        |
-| Best Fit                                                        | Changes column width to fit the data within the selected column                                                                                   |
-| Best Fit (all columns)                                          | Changes column width for all columns to fit the data                                                                                              |
-| Filter Editor                                                   | Opens the Filter Editor window (see the [Filter Data](datagrid.md#filter-data) topic)                                                             |
-| Show / Hide Find Panel                                          | Shows or hides the Find Panel, which is the search feature (see the [Search Data](datagrid.md#search-data) topic)                                 |
-| Hide / Show Auto Filter Row                                     | Hides or shows the Auto Filter Row between the column headers and the first row of event data                                                     |
+| Right-Click Command                                             | Description                                                                                                                                                            |
+| --------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Full Expand                                                     | Expands all sections within the data grid. Only available from a grouped column header.                                                                                |
+| Full Collapse                                                   | Collapses all sections within the data grid. Only available from a grouped column header.                                                                              |
+| Sort Ascending                                                  | Sorts data by the selected column in ascending alphanumeric order (A-Z)                                                                                                |
+| Sort Descending                                                 | Sorts data by the selected column in descending alphanumeric order (Z-A)                                                                                               |
+| Clear Sorting / Clear All Sorting                               | Removes sorting from the selected column or removes sorting from all columns                                                                                           |
+| Sort by Summary (Count by [column] – Sort Ascending/Descending) | Sorts ‘grouped’ data by severity count in ascending or descending order. Only available from a grouped column header.                                                  |
+| Group by This Column / UnGroup/Clear Grouping                   | Groups data or clears grouping of data by the selected column                                                                                                          |
+| Hide/Show Group by Box                                          | Hides or shows the Group By box where headers can be dragged-and-dropped to group the data                                                                             |
+| Group Interval                                                  | If grouped by the Time column, use this option to group by time intervals (Day, Month, Year, Smart). Only available from a grouped column header.                      |
+| Hide This Column                                                | Hides the selected column from the data grid. Hidden columns can be returned to the data grid through the Column Chooser option.                                       |
+| Column Chooser                                                  | Opens the [Customization Window](/docs/threatprevention/7.5/admin/navigation/datagrid.md#customization-window) where you can add and remove columns from the data grid |
+| Best Fit                                                        | Changes column width to fit the data within the selected column                                                                                                        |
+| Best Fit (all columns)                                          | Changes column width for all columns to fit the data                                                                                                                   |
+| Filter Editor                                                   | Opens the Filter Editor window (see the [Filter Data](/docs/threatprevention/7.5/admin/navigation/datagrid.md#filter-data) topic)                                      |
+| Show / Hide Find Panel                                          | Shows or hides the Find Panel, which is the search feature (see the [Search Data](/docs/threatprevention/7.5/admin/navigation/datagrid.md#search-data) topic)          |
+| Hide / Show Auto Filter Row                                     | Hides or shows the Auto Filter Row between the column headers and the first row of event data                                                                          |

@@ -83,7 +83,7 @@ Prerequisites
 - See the [Reporting Module Server Requirements](/docs/threatprevention/7.5/requirements/reportingserver.md) topic for details
   on prerequisites.
 - See the
-  [Netwrix Threat Manager Reporting Module Ports](requirements/ports.md#netwrix-threat-manager-reporting-module-ports)
+  [Netwrix Threat Manager Reporting Module Ports](/docs/threatprevention/7.5/requirements/ports.md#netwrix-threat-manager-reporting-module-ports)
   topic for a list of firewall ports used.
 
 Installation
@@ -108,8 +108,8 @@ Configure the following:
   [Credential Profile Page](/docs/threatprevention/7.5/reportingmodule/configuration/integrations/credentialprofile.md) topic
   for additional information.
 
-    - Configure one Credential Profile for Active Directory Sync
-    - Configure one Credential Profile for connection to the Threat Prevention database
+  - Configure one Credential Profile for Active Directory Sync
+  - Configure one Credential Profile for connection to the Threat Prevention database
 
 - Active Directory Sync – Configure the application to sync with Active Directory. See the
   [Active Directory Sync Page](/docs/threatprevention/7.5/reportingmodule/configuration/integrations/activedirectorysync.md)

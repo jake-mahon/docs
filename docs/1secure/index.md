@@ -1,184 +1,191 @@
----
-id: 1secure
-title: "1Secure"
-pagination_label: "1Secure"
-sidebar_label: "1Secure"
-sidebar_position: 1
-description: "Netwrix 1Secure is a Microsoft Azure-hosted, multi-tenant SaaS application that provides a single location to manage both on-premises and cloud environments."
----
+# Netwrix 1Secure
 
-# 1Secure
+> **Your unified command center for hybrid IT security monitoring**
 
-Netwrix 1Secure is a Microsoft Azure-hosted, multi-tenant SaaS application that provides a single
-location to manage both on-premises and cloud environments. The application collects data within the IT infrastructure and notifies you on any
-actions made to the organization. These actions may include account creation or deletion, changes to
-group memberships, changes to the organization, etc.
+Welcome to Netwrix 1Secure — the powerful Microsoft Azure-hosted SaaS solution that transforms how Managed Service Providers (MSPs) monitor and protect their clients' IT environments. Whether your infrastructure spans on-premises data centers or cloud platforms, 1Secure provides a single pane of glass for comprehensive security visibility.
 
-Netwrix 1Secure allows Managed Service Providers to generate a variety of reports to investigate
-incidents and suspicious activities across the IT environment.
+## What is 1Secure?
 
-## Major Benefits
+1Secure is your always-on security sentinel, continuously monitoring critical activities across your entire IT ecosystem:
 
-- Detect system alerts — on premises and in the cloud
-- Increase productivity of IT Managed Service Provider team
-- Provide comprehensive reports based on search parameters
+- **Real-time Activity Tracking** — Instantly detect account creations, deletions, and modifications
+- **Group Membership Monitoring** — Track changes to security groups and permissions
+- **Organization-wide Visibility** — Monitor configuration changes across all managed environments
+- **Intelligent Reporting** — Generate detailed reports to investigate incidents and demonstrate compliance
+
+## Key Benefits
+
+:::tip Why MSPs Choose 1Secure
+Transform your security operations with capabilities designed specifically for modern managed service providers.
+:::
+
+### Unified Security Management
+
+Eliminate the complexity of juggling multiple monitoring tools. 1Secure consolidates alerts from both on-premises and cloud environments into a single, intuitive dashboard.
+
+### Accelerated Incident Response
+
+- **Instant Alerts** — Get notified immediately when suspicious activities occur
+- **Smart Filtering** — Focus on what matters with intelligent alert prioritization
+- **Rapid Investigation** — Drill down into incidents with comprehensive audit trails
+
+### Enhanced MSP Productivity
+
+- **Bulk Operations** — Manage multiple client environments efficiently
+- **Automated Reporting** — Schedule and deliver compliance reports automatically
+- **Self-Service Updates** — Keep agents current without manual intervention
 
 ## How It Works
 
-Netwrix 1Secure is a Microsoft Azure hosted, multi-tenant SaaS application that provides a single
-location to manage both on-premises and cloud environments. Solution architecture and components
-interactions are shown in the figure below.
+Experience the power of cloud-native architecture combined with on-premises flexibility:
+
+### Architecture Overview
 
 ![overview_table](/img/product_docs/1secure/admin/overview_table.webp)
 
-Netwrix 1Secure On-Prem Agent is a lightweight Windows service which you deploy in your network. The
-agent collects aggregated data from your on-premises Netwrix 1SecureAPI and/or uploads the data to
-your Netwrix 1Secure tenant via REST API calls over HTTPS every 15 minutes.
+### Key Components
 
-Netwrix 1SecureAPI or Azure Function App receives the data from Netwrix 1Secure On-Prem Agent.
-Token-based authentication is used for verification between the Netwrix 1Secure API and the agent.
-The service behind the Netwrix stores the data in the Azure SQL Database. The data is segregated by
-tenant (organization).
+#### 1**Lightweight On-Prem Agent**
 
-All the activity records are stored in the Cosmos Database. The configuration settings, source
-management, alerts are stored in the Main Database.
+Deploy our efficient Windows service in your network:
 
-Netwrix 1Secure Website is the presentation layer of the product that retrieves data from the Azure
-SQL database and presents it to users. Users can access this web portal with their corporate
-credentials using Azure AD Authentication (OAuth 2.0). Data is retrieved via API calls made on the
-user's behalf.
+- 🪶 Minimal resource footprint
+  -Collects and aggregates data every 15 minutes
+  -Secure HTTPS communication with your cloud tenant
 
-## Data Collection Workflow
+#### 2**Azure-Powered Backend**
 
-The Netwrix 1Secure data collection workflow is as follows:
+Leverage Microsoft Azure's enterprise-grade infrastructure:
 
-**Step 1 –** Add organizations. See the [Add Organizations](/docs/1secure/admin/organizations/addorganizations.md)
-topic for additional information.
+- **Token-based Authentication** — Secure verification between agents and API
+- **Dual Database Architecture**:
+  - **Cosmos DB** — Stores all activity records for lightning-fast queries
+  - **Azure SQL** — Manages configurations, sources, and alerts
+- **Multi-tenant Isolation** — Complete data segregation between organizations
 
-**Step 2 –** Install the agent. See the [Install Agent](/docs/1secure/install/installagent.md) topic for
-additional information.
+#### 3**Intuitive Web Portal**
 
-Once you have added the organization and selected the domain for collecting the data, Netwrix
-1Secure starts collecting audit data from the managed Active Directory, Azure AD domain, a computer,
-an Exchange Online, or a SharePoint Online collection.
+Access your security data from anywhere:
 
-## System Management
+- **Modern Web Interface** — Clean, responsive design
+- **Azure AD Integration** — Sign in with corporate credentials (OAuth 2.0)
+- **Cross-Platform Access** — Works on any device with a browser
 
-### Notifications
+## Getting Started in 2 Simple Steps
 
-Netwrix 1Secure provides real-time notifications to the users, which report on various issues for
-the user. This includes an agent update, issues with organizations, status of the organizations,
-expired credentials, and others.
+:::info Quick Start
+Get up and running in minutes with our streamlined deployment process!
+:::
 
-| Icon                                                                                    | Description                                             |
-| --------------------------------------------------------------------------------------- | ------------------------------------------------------- |
-| ![selfupdate_icon](/img/product_docs/1secure/admin/selfupdate_icon.webp) | Bell icon. Click the Bell icon to look for the updates. |
+### **Step 1** — Add Your Organizations
 
-Follow the steps to review notifications.
+Configure your managed environments with just a few clicks.
+[Learn how to add organizations →](/docs/1secure/administration/organizations/managing-organizations.md)
 
-**Step 1 –** Click the **Bell** icon in the upper right corner of your screen.
+### **Step 2** — Deploy the Agent
 
-**Step 2 –** You can select and fix any of the issues on the displayed panel.
+Install our lightweight agent to start collecting security data immediately.
+[View installation guide →](/docs/1secure/getting-started/installation.md)
+
+> **That's it!** Once configured, 1Secure automatically begins collecting audit data from:
+>
+> - Active Directory domains
+> - Azure AD/Entra ID
+> - Windows computers
+> - Exchange Online
+> - SharePoint Online
+
+## System Management Features
+
+### Smart Notifications
+
+Stay informed with intelligent, real-time alerts that keep your security operations running smoothly:
+
+:::tip Notification Types
+
+-**Agent Updates** — Know when new versions are available -**Organization Issues** — Immediate alerts for connectivity problems -**Status Updates** — Monitor health across all environments -**Credential Expiry** — Never miss a credential renewal
+:::
+
+#### How to Access Notifications
+
+1. **Click the Bell Icon**in the upper right corner
+2. **Review Active Alerts** in the notification panel
+3. **Take Action** with one-click fixes
 
 ![notifications](/img/product_docs/1secure/admin/notifications.webp)
 
-**Step 3 –** Select **Fix**.
+### System Health Dashboard
 
-### System Statuses
-
-Statuses in Netwrix 1Secure allow you check up the state of the system, specifically - sources,
-agent, and connectors. As you add your sources, connectors, install the agent, Netwrix 1Secure
-provides several statuses for these:
+Monitor the pulse of your entire security infrastructure with our visual status indicators:
 
 ![statuses_chart](/img/product_docs/1secure/admin/statuses_chart.webp)
 
-**NOTE:** The New status changes to Healthy status when the agent finishes collection from the
-environment. The time frame for a change may be within a minute up to several hours depending on the
-environment size.
+:::info Status Timeline
+**New** →**Healthy** transformation occurs automatically after the first successful data collection (typically within minutes to a few hours depending on environment size).
+:::
 
-You can also review the agent status while adding the organization. See the
-[Manage Organizations](/docs/1secure/admin/organizations) topic for more information.
+Track real-time health for:
 
-### Updating Netwrix Cloud Agent
+- **Sources** — Monitor connected systems
+- **Agents** — View agent connectivity and performance
+- **Connectors** — Check integration status
 
-With Netwrix 1Secure, you can both update the version of the agent by installing new agent or using
-Self-update function. The Self-update saves your time from installing the new version repeatedly,
-while providing real-time notifications, managing agent schedule, and bulk update option.
+[Learn more about organization management →](/docs/1secure/administration/organizations)
 
-During the update process, your activity monitoring will not be disrupted.
+### Automated Agent Updates
 
-| Icon                                                                                    | Description                                                                                     |
-| --------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------- |
-| ![selfupdate_icon](/img/product_docs/1secure/admin/selfupdate_icon.webp) | Bell Icon. Click the Bell Icon to look up for the available updates of the Netwrix Cloud Agent. |
+Keep your security infrastructure current with our intelligent update system:
 
-#### Update Agents in Bulk
+:::success Zero Downtime Updates
+**Your monitoring continues uninterrupted** during the entire update process!
+:::
 
-Follow the steps to update agents in bulk.
+#### Update Options
 
-**Step 1 –** To update selected agents, on the Managed Organizations page, select **Bulk Update
-Agent**.
+- **Self-Update** — Automatic updates with smart scheduling
+- **Bulk Updates** — Update multiple agents simultaneously
+- **Scheduled Updates** — Define maintenance windows that work for you
+- **Real-time Notifications** — Stay informed of available updates
+
+#### Bulk Update Multiple Agents
+
+1. Navigate to **Managed Organizations** → **Bulk Update Agent**
+2. Select the agents you want to update
+3. Click **Confirm** to update all selected agents simultaneously
 
 ![updateagents](/img/product_docs/1secure/admin/updateagents.webp)
 
-**Step 2 –** On the Update Agents page, check the boxes next to agents you wish to update and click
-**Confirm**.
+#### Configure Update Schedules
 
-The agents are now updated.
+Define maintenance windows that align with your business operations:
 
-#### Edit Agent Update Schedule
-
-Follow the steps to update agent schedule.
-
-**Step 1 –** To edit the agent update schedule, on the Managed Organizations page, select **Agent
-Update Settings**. The Edit Agent Update Schedule page displays.
+1. Go to **Managed Organizations** → **Agent Update Settings**
+2. Enable scheduled updates
+3. Set your preferred update window
+4. Save your configuration
 
 ![editagentupdatesschedule2](/img/product_docs/1secure/admin/editagentupdatesschedule2.webp)
 
-**Step 2 –** In the Update Schedule section, select Enabled.
+#### Quick Self-Update
 
-**Step 3 –** In the Update Window section, configure the options to specify when you want the update
-to occur.
+Get the latest features and security enhancements with one-click updates:
 
-**Step 4 –** Select Confirm.
-
-The agent update schedule is now configured.
-
-#### Enable Self-Update Function
-
-Follow the steps to enable the self-update function .
-
-**Step 1 –** To look up the available updates, click the **Bell** icon. The panel with available
-updates displays.
+1. **Click the Bell Icon**to view available updates
+2. **Select Fix** next to agents requiring updates
+3. **Confirm** the update to deploy automatically
 
 ![selfupdate_panel](/img/product_docs/1secure/admin/selfupdate_panel.webp)
 
-**Step 2 –** Click **Fix** for the agents to be updated. Now you can see the list of organizations
-and which agents may be updated to the new version.
+---
 
-**Step 3 –** Click **Update available** to update the agent to the current version. The Edit Agent
-Update Schedule page displays, offering you the proposed version.
+## Ready to Transform Your Security Operations?
 
-![editagentupdatesschedule](/img/product_docs/1secure/admin/editagentupdatesschedule.webp)
+```mdx-code-block
+import DocCardList from '@theme/DocCardList';
 
-**Step 4 –** Select **Confirm**. The agent shall update and upload a new .msi file of your agent.
+<DocCardList />
+```
 
-**Step 5 –** Alternately, update the version for an organization from the Managed organizations
-page. Select the **organization** and then the **Sites** tab.
-
-![updateagents2](/img/product_docs/1secure/admin/updateagents2.webp)
-
-**Step 6 –** Click Update.
-
-**Step 7 –** Toggle on Override Tenancy Defaults if you want to change the update defaults for that
-organization.
-
-**Step 8 –** Click Edit.
-
-**Step 9 –** On the Edit Agent Update Schedule window, select Enabled and apply the required
-parameters to specify when you want the update occur.
-
-![editagentupdatesschedule2](/img/product_docs/1secure/admin/editagentupdatesschedule2.webp)
-
-**Step 10 –** Click **Confirm**.
-
-The self-update function is now configured.
+:::tip Need Help?
+Our support team is here to ensure your success with 1Secure. Check out our [Getting Started Guide](/docs/1secure/getting-started) or contact your account manager for personalized assistance.
+:::

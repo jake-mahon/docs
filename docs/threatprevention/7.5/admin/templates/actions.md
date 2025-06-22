@@ -15,11 +15,11 @@ The following types of actions are available:
 - Email Notifications – Sends formatted email notifications to the selected message profile
 - Add Custom Scripts
 
-    - File Actions – Records the events to a log (text) file in XML or Comma Delimited (CSV) format
-    - .NET Script Actions – Runs a user‐supplied script that implements an automated action in
-      response to the event. Scripts can be written in Visual Basic or C#
-    - PowerShell 4.0 Actions – Runs a user-supplied PowerShell script that implements an automated
-      action in response to the event
+  - File Actions – Records the events to a log (text) file in XML or Comma Delimited (CSV) format
+  - .NET Script Actions – Runs a user‐supplied script that implements an automated action in
+    response to the event. Scripts can be written in Visual Basic or C#
+  - PowerShell 4.0 Actions – Runs a user-supplied PowerShell script that implements an automated
+    action in response to the event
 
 Multiple event consumers can be configured for a single policy, even multiple event consumers of the
 same type. However, only one database event consumer can be added per policy.
@@ -88,14 +88,14 @@ Enable the Email Notifications checkbox, select a message profile and then choos
 
 - Select the radio button for either Policy or Subject:
 
-    - Policy – Threat Prevention will send an email notification for the first event only, and skip
-      notifications for any other events captured by the same policy during the duration you specify
-      in the boxes below.
-    - Subject – Threat Prevention will send an email notification (say, Notification1) for the first
-      event only, and skip notifications for any other events whose email notification will have the
-      same subject line as Notification1. It will skip sending notifications for the duration you
-      specify in the boxes below. Note that the subject line is configured within the message
-      profile.
+  - Policy – Threat Prevention will send an email notification for the first event only, and skip
+    notifications for any other events captured by the same policy during the duration you specify
+    in the boxes below.
+  - Subject – Threat Prevention will send an email notification (say, Notification1) for the first
+    event only, and skip notifications for any other events whose email notification will have the
+    same subject line as Notification1. It will skip sending notifications for the duration you
+    specify in the boxes below. Note that the subject line is configured within the message
+    profile.
 
 - Set the duration (in minutes or hours) for which emails notifications are skipped after an email
   is sent for a policy/subject line.
@@ -133,11 +133,11 @@ See the following topics for additional information:
 - [File Actions](/docs/threatprevention/7.5/admin/policies/actions/file.md)
 - [.NET Script Actions](/docs/threatprevention/7.5/admin/policies/actions/netscript.md)
 
-    - Optionally, custom scripts can be provided through a Netwrix Statement of Work.
+  - Optionally, custom scripts can be provided through a Netwrix Statement of Work.
 
 - [PowerShell 4.0 Actions](/docs/threatprevention/7.5/admin/policies/actions/powershell.md)
 
-    - Optionally, custom scripts can be provided through a Netwrix Statement of Work.
+  - Optionally, custom scripts can be provided through a Netwrix Statement of Work.
 
 **NOTE:** There are custom scripts created by Netwrix Engineers that execute the notification
-emails. See the [Custom Scripts](folder/actions.md#custom-scripts) topic for additional information.
+emails. See the [Custom Scripts](/docs/threatprevention/7.5/admin/templates/folder/actions.md#custom-scripts) topic for additional information.

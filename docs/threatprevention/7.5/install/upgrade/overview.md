@@ -78,7 +78,7 @@ will be orphaned.
 Agent.
 
 See the [Upgrade Agent](/docs/threatprevention/7.5/install/upgrade/agent.md) topic for additional information. See the
-[Manual Uninstall on the Agent Server](uninstallagent.md#manual-uninstall-on-the-agent-server) topic
+[Manual Uninstall on the Agent Server](/docs/threatprevention/7.5/install/upgrade/uninstallagent.md#manual-uninstall-on-the-agent-server) topic
 for information on removing the Agent from the server where it was deployed.
 
 **NOTE:** If you are running a previous version of the Agent, you must first upgrade it to 7.3.9 ad
@@ -111,7 +111,7 @@ will be orphaned.
 Agent.
 
 See the [Upgrade Agent](/docs/threatprevention/7.5/install/upgrade/agent.md) topic for additional information. See the
-[Manual Uninstall on the Agent Server](uninstallagent.md#manual-uninstall-on-the-agent-server) topic
+[Manual Uninstall on the Agent Server](/docs/threatprevention/7.5/install/upgrade/uninstallagent.md#manual-uninstall-on-the-agent-server) topic
 for information on removing the Agent from the server where it was deployed.
 
 **NOTE:** If you are running a previous version of the Agent, you must first upgrade it to 7.3.9 and
@@ -134,5 +134,5 @@ Login Information" for the existing StealthINTERCEPT database. See the
 upgrade the Agent.
 
 See the [Upgrade Agent](/docs/threatprevention/7.5/install/upgrade/agent.md) topic for additional information. See the
-[Manual Uninstall on the Agent Server](uninstallagent.md#manual-uninstall-on-the-agent-server) topic
+[Manual Uninstall on the Agent Server](/docs/threatprevention/7.5/install/upgrade/uninstallagent.md#manual-uninstall-on-the-agent-server) topic
 for information on removing the Agent from the server where it was deployed.
