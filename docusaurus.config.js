@@ -709,20 +709,68 @@ const config = {
         },
       },
       algolia: {
+        // Your Algolia credentials
         appId: 'KPMSCF6G6J',
-        apiKey: '1b20f30f13a874cd46f9d5c30b01d99c',
-        indexName: 'product_docs',
-        searchPagePath: false,
-        placeholder: 'Search the Netwrix docs',
-        contextualSearch: false,
-        searchParameters: {
-          // Define which attributes should be available as facets
-          attributesToRetrieve: ['*'],
-          facets: ['product', 'version'],
+        apiKey: '1b20f30f13a874cd46f9d5c30b01d99c', // Use the search-only API key, not the admin key
+        indexName: 'Production Docs',
 
-          // Optional: Set default filters (these will be applied unless user changes them)
-          facetFilters: [],
+        // Enable contextual search (already great that you have product/version meta tags!)
+        contextualSearch: true,
+
+        // Search parameters for better results
+        searchParameters: {
+          // Facet filters can be combined with contextual search
+          // These will be merged with the automatic facets from contextual search
+          facetFilters: [
+            // Add any default filters here if needed
+            // e.g., 'type:content' to exclude headers-only results
+          ],
+
+          // Attributes to snippet in search results
+          attributesToSnippet: ['content:20'],
+
+          // Highlight search terms in results
+          highlightPreTag: '<mark>',
+          highlightPostTag: '</mark>',
+
+          // Number of results per page
+          hitsPerPage: 20,
+
+          // Add these for better relevance
+          distinct: true,
+          clickAnalytics: true,
+          analytics: true,
         },
+
+        // Enable search insights for better analytics
+        insights: true,
+
+        // Path for the search page (enables full-page search experience)
+        searchPagePath: 'search',
+
+        // Placeholder text for the search box
+        placeholder: 'Search the Netwrix docs...',
+
+        // Transform items before displaying (optional)
+        transformItems: (items) => {
+          return items.map((item) => {
+            // Add product badges or modify display as needed
+            return {
+              ...item,
+              // Example: Add custom badges based on product
+              _highlightResult: {
+                ...item._highlightResult,
+                // Customize highlighted results if needed
+              },
+            };
+          });
+        },
+
+        // Replace paths if you're using different deployments
+        // replaceSearchResultPathname: {
+        //   from: '/docs/',
+        //   to: '/',
+        // },
       },
       navbar: {
         logo: {
@@ -754,6 +802,17 @@ const config = {
         darkTheme: prismThemes.dracula,
       },
     }),
+  // Add preconnect for better search performance
+  headTags: [
+    {
+      tagName: 'link',
+      attributes: {
+        rel: 'preconnect',
+        href: 'https://KPMSCF6G6J-dsn.algolia.net',
+        crossorigin: 'anonymous',
+      },
+    },
+  ],
   stylesheets: ['https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap'],
 };
 
