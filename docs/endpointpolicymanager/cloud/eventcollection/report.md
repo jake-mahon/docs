@@ -37,7 +37,7 @@ The steps are as follows:
 ![1331_4_7343ac11bad81555a0df4d9b989c7992](/img/product_docs/endpointpolicymanager/endpointpolicymanager/cloud/eventcollection/1331_4_7343ac11bad81555a0df4d9b989c7992.webp)
 
 **Step 5 –** You can select the drop-down option to select the **Event IDs**. See the
-[List of Endpoint Policy Manager Event Categories and IDs](/docs/endpointpolicymanager/troubleshooting/eventcategories.md) topic for
+[List of Endpoint Policy Manager Event Categories and IDs](/docs/endpointpolicymanager/tips/eventcategories.md) topic for
 additional information on the event categories and IDs.
 
 ![1331_5_1abd34538213d5d2da7bf97cdc936d01](/img/product_docs/endpointpolicymanager/endpointpolicymanager/cloud/eventcollection/1331_5_1abd34538213d5d2da7bf97cdc936d01.webp)

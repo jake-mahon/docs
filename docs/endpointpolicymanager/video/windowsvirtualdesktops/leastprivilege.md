@@ -1,5 +1,7 @@
 # Endpoint Privilege Manager + Windows Virtual Desktop
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/VFn8yISYp6M" title="Endpoint Privilege Manager + Windows Virtual Desktop" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen="1"></iframe>
+
 Sometimes and app won't run unless you're running with local admin rights. NOT a good idea with WVD.
 Instead, use Netwrix Endpoint Policy Manager (formerly PolicyPak) Least Privilege Manager to elevate
 applications when needed, and keep Standard Users just that... users and NOT admins. Additionally,

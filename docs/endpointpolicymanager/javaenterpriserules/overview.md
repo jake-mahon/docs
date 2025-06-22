@@ -43,7 +43,7 @@ PolicyPak Java Rules Manager enables you to perform the following functions:
 - Deliver policies to the Computer side (without Group Policy Loopback mode).
 - Create exact criteria for when specific Java versions should open in a browser.
 - Export policies or collections as XML files for use with PolicyPak Exporter and PolicyPak Cloud.
-  See [Exporting Collections](/docs/endpointpolicymanager/application-management/java-enterprise-rules/exportcollections.md) for additional information.
+  See [Exporting Collections](/docs/endpointpolicymanager/javaenterpriserules/exportcollections.md) for additional information.
 - Set custom messages when blocking a Java applet.
 
 To use the Quickstart for PolicyPak Java Rules Manager, we recommend you have one endpoint (Windows

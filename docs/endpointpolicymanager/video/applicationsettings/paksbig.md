@@ -1,5 +1,7 @@
 # Endpoint Policy Manager App Settings Manager: Finding items in big Paks
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/T5rI_kg6qPU" title="Endpoint Policy Manager App Settings Manager: Finding items in big Paks" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen="1"></iframe>
+
 Here's a workaround for the lack of a SEARCH feature in PP Application Manager.
 
 Hi. This is Jeremy Moskowitz. In this video, I'm going to show you how you can work around a little

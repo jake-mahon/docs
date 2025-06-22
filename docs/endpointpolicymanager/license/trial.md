@@ -47,10 +47,10 @@ reacts:[Testing and Troubleshooting By Renaming an endpoint Computer](/docs/endp
 After you rename your computer to have Computer in the name, then:
 
 - Follow these directions to get started with on-Prem Active Directory/ Group Policy: Getting
-  Started with Group Policy > [Knowledge Base](/docs/endpointpolicymanager/resources/knowledge-base.md) and/or
+  Started with Group Policy > [Knowledge Base](/docs/endpointpolicymanager/knowledgebase.md) and/or
 - Follow these directions to get started with Endpoint Policy Manager and Intune or another MDM
   (making sure to follow the "Walk Before You Run" video): Getting Started with MDM >
-  [Video Learning Center](/docs/endpointpolicymanager/video/)
+  [Video Learning Center](/docs/endpointpolicymanager/video/index.md)
 
 ## Option 2: Licenses coming automatically from PolicyPak Cloud
 
@@ -68,7 +68,7 @@ Policy Manager Cloud Client, as shown below.
 ![812_2_image002](/img/product_docs/endpointpolicymanager/endpointpolicymanager/license/812_2_image002.webp)
 
 To get started immediately with Endpoint Policy Manager Cloud, check out the Getting Started with
-Cloud > [Video Learning Center](/docs/endpointpolicymanager/video/).
+Cloud > [Video Learning Center](/docs/endpointpolicymanager/video/index.md).
 
 ## Option 3: On-Prem / GPO Method: You give us your domain name, we give you back a Trial License File.
 
@@ -90,7 +90,7 @@ license key.
 Once we generate the key, it will be in the Endpoint Policy Manager
 Portal.[How to install UNIVERSAL licenses for NEW Customers (via GPO, SCCM or MDM)](/docs/endpointpolicymanager/video/license/installuniversal.md)Then
 follow these directions to get started with on-Prem Active Directory/ Group Policy: Group
-Policy > [Knowledge Base](/docs/endpointpolicymanager/resources/knowledge-base.md)
+Policy > [Knowledge Base](/docs/endpointpolicymanager/knowledgebase.md)
 
 ## Option 4: Intune-specific method: You give us your INTUNE company name, and we give you back a Trial License File.
 
@@ -112,7 +112,7 @@ here: [How to install UNIVERSAL licenses for NEW Customers (via GPO, SCCM or MD
 
 Then follow these directions to get started with Endpoint Policy Manager and Intune (making sure to
 follow the "Walk Before You Run" video): Getting Started with MDM >
-[Video Learning Center](/docs/endpointpolicymanager/video/)
+[Video Learning Center](/docs/endpointpolicymanager/video/index.md)
 
 ## Option 5: Non-Intune/Other-MDM Method: You give us your UPN name, and we give you back a Trial License File.
 
@@ -128,4 +128,4 @@ instructions: [How to install UNIVERSAL licenses for NEW Customers (via GPO, SC
 
 Then follow these directions to get started with Endpoint Policy Manager and your MDM service,
 making sure to follow the "Walk Before You Run" video: Getting Started with MDM >
-[Video Learning Center](/docs/endpointpolicymanager/video/)
+[Video Learning Center](/docs/endpointpolicymanager/video/index.md)

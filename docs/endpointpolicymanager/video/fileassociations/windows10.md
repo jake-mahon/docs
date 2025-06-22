@@ -1,5 +1,7 @@
 # Endpoint Policy Manager File Associations Manager: Manage Windows 10 & 11 File Associations
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/nUCLWJ3VVNg" title="Endpoint Policy Manager File Associations Manager: Manage User and Computer File Associations" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="1"></iframe>
+
 Windows 10 File Associations shouldn't be done via XML file. That's a total waste of time, and
 doesn't help you out when your needs change. Instead, use Endpoint Policy Manager File Associations
 Manager to manage both COMPUTER and USER file associations. You're gonna love it.

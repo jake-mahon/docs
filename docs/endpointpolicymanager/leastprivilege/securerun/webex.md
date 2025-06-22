@@ -76,7 +76,7 @@ steps.
 
 **NOTE:** You can also use Endpoint Policy Manager Remote Work Delivery Manager to deliver the
 certificate file at the desired location of the remote computer. For more information on this issue,
-please see  Remote Work Delivery Manager > [Knowledge Base](/docs/endpointpolicymanager/resources/knowledge-base.md)
+please see  Remote Work Delivery Manager > [Knowledge Base](/docs/endpointpolicymanager/knowledgebase.md)
 
 Use Endpoint Policy Manager Scripts Manager to deliver the Certificate in Intermediate Certification
 Authorities for a Computer.

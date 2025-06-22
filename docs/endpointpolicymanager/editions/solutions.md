@@ -24,7 +24,7 @@ details of where Endpoint Policy Manager data is stored.
 The most popular method of using Endpoint Policy Manager is via Group Policy.
 
 **Note**: For more information on this topic, please see this
-video:[Knowledge Base](/docs/endpointpolicymanager/resources/knowledge-base.md) > Group Policy
+video:[Knowledge Base](/docs/endpointpolicymanager/knowledgebase.md) > Group Policy
 
 When you use the Group Policy method, you are 100% in control of your data because it is all
 contained within your Active Directory.The image below shows what Endpoint Policy Manager looks like
@@ -83,7 +83,7 @@ You can use Endpoint Policy Manager with your mobile device management (MDM) ser
 as Microsoft Endpoint Manager (SCCM and Intune), MobileIron, or VMware Workspace ONE.
 
 **Note**: For more information on this topic, please see this
-video:[Video Learning Center](/docs/endpointpolicymanager/video/) > Started with MDM.
+video:[Video Learning Center](/docs/endpointpolicymanager/video/index.md) > Started with MDM.
 
 To get started, create directives using the Endpoint Policy Manager MMC, follow these steps:
 
@@ -178,4 +178,4 @@ Directory and it's active, it counts your Endpoint Policy Manager licensing. In 
 use it with Endpoint Policy Manager SaaS/Cloud.
 
 For more answers about licensing Endpoint Policy Manager with virtualized systems, see:
-[Knowledge Base](/docs/endpointpolicymanager/resources/knowledge-base.md) > All Things Licensing.
+[Knowledge Base](/docs/endpointpolicymanager/knowledgebase.md) > All Things Licensing.

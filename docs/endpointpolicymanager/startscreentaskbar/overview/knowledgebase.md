@@ -13,7 +13,7 @@ See the following Knowledge Base articles for Start Screen and Task Bar Manager.
 - [Why do I get the error "This app can't run on your PC" ?](/docs/endpointpolicymanager/troubleshooting/error/startscreentaskbar/appcantrun.md)
 - [Why am I seeing an Endpoint Policy Manager "advertisement" tile on my Start Screen (when I only use the TaskBar manager and NOT the Start Screen Manager?)](/docs/endpointpolicymanager/troubleshooting/startscreentaskbar/linked.md)
 - [Windows default applications are not showing in Start Menu](/docs/endpointpolicymanager/troubleshooting/startscreentaskbar/windowsdefault.md)
-- [Endpoint Policy Manager Task Bar Manager differences between MERGE and REPLACE modes](/docs/endpointpolicymanager/device-and-desktop-management/start-screen-and-taskbar/modes.md)
+- [Endpoint Policy Manager Task Bar Manager differences between MERGE and REPLACE modes](/docs/endpointpolicymanager/startscreentaskbar/modes.md)
 - [Custom icons for Endpoint Policy Manager Start Screen & Taskbar Manager aren't working as expected. What can I do?](/docs/endpointpolicymanager/troubleshooting/startscreentaskbar/customicons.md)
 - [How to Disable the "How do you want to open this? Keep using this app" Notification in Windows 10](/docs/endpointpolicymanager/troubleshooting/startscreentaskbar/windows10disablenotification.md)
 - [Why would it sometimes takes two logoffs and logons to see Start Screen or Taskbar changes?](/docs/endpointpolicymanager/troubleshooting/startscreentaskbar/logons.md)
@@ -22,10 +22,10 @@ See the following Knowledge Base articles for Start Screen and Task Bar Manager.
 
 ## Tips and Tricks
 
-- [How do I add Explorer.exe to the taskbar using Endpoint Policy Manager Start Screen & Taskbar Manager ?](/docs/endpointpolicymanager/device-and-desktop-management/start-screen-and-taskbar/explorer.md)
-- [How do I add the SCCM Software Center to the Start Screen or Taskbar?](/docs/endpointpolicymanager/device-and-desktop-management/start-screen-and-taskbar/sccmsoftwarecenter.md)
+- [How do I add Explorer.exe to the taskbar using Endpoint Policy Manager Start Screen & Taskbar Manager ?](/docs/endpointpolicymanager/startscreentaskbar/explorer.md)
+- [How do I add the SCCM Software Center to the Start Screen or Taskbar?](/docs/endpointpolicymanager/startscreentaskbar/sccmsoftwarecenter.md)
 - [Can Microsoft App-V applications work with Endpoint Policy Manager Starts Screen and Taskbar Manager?](/docs/endpointpolicymanager/integration/appv.md)
-- [How do I add the Least Privilege Manager Helper tools to the Left and Right side of the Start Menu?](/docs/endpointpolicymanager/device-and-desktop-management/start-screen-and-taskbar/helpertools.md)
-- [How-To create a folder shortcut in Windows 10 Start Menu using Endpoint Policy Manager Starts Screen Manager?](/docs/endpointpolicymanager/device-and-desktop-management/start-screen-and-taskbar/foldershortcut.md)
-- [How can I add a link to the Control Panel to the Start Screen or Taskbar using Endpoint Policy Manager Start Screen Manager?](/docs/endpointpolicymanager/device-and-desktop-management/start-screen-and-taskbar/addlink.md)
+- [How do I add the Least Privilege Manager Helper tools to the Left and Right side of the Start Menu?](/docs/endpointpolicymanager/startscreentaskbar/helpertools.md)
+- [How-To create a folder shortcut in Windows 10 Start Menu using Endpoint Policy Manager Starts Screen Manager?](/docs/endpointpolicymanager/startscreentaskbar/foldershortcut.md)
+- [How can I add a link to the Control Panel to the Start Screen or Taskbar using Endpoint Policy Manager Start Screen Manager?](/docs/endpointpolicymanager/startscreentaskbar/addlink.md)
 - [How to automatically kill explorer at 1st Logon to Bypass needing to logout and back in for Start Screen Manager to apply](/docs/endpointpolicymanager/troubleshooting/startscreentaskbar/logonworkaround.md)

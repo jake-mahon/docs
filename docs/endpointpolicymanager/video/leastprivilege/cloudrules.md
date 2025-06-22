@@ -1,5 +1,7 @@
 # Use Endpoint Policy Manager Cloud to deploy PP Least Privilege Manager rules
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/RDxfSzpZxlM" title="Use Endpoint Policy Manager Cloud to deploy PP Least Privilege Manager rules" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="1"></iframe>
+
 Why would you want people using domain joined or non-domain joined machines to have local admin
 rights? Is this 1998? No, and with Endpoint Policy Manager Cloud and Endpoint Policy Manager Least
 Privelege manager you can remove local admin rights, but ensure that Standard Users can do key tasks

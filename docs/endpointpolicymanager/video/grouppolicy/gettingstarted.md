@@ -1,5 +1,7 @@
 # Endpoint Policy Manager with Group Policy Method: Getting Started
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/5-C4szQA75o" title="PPGP Quick Rundown: Getting Started" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="1"></iframe>
+
 This video gives you a basic rundown of what our components do, where to find them, and how to get
 more in-depth information on our website. This is great if you're just getting started and want to
 get some brief information on all of our PolicyPak components.

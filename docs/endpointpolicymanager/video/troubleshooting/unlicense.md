@@ -1,5 +1,7 @@
 # Endpoint Policy Manager CSE Troubleshooting: Unlicense all components, and re-license the one to isolate
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/FC2WRAbmx-o" title="Endpoint Policy Manager CSE Troubleshooting: Unlicense all components, and re-license the one to isolate." frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="1"></iframe>
+
 If directed by Netwrix Endpoint Policy Manager (formerly PolicyPak) support, you might need to set
 some computers up to stop processing some directives by actively un-licensing all components, then
 re-enabling SOME components. This video shows you how.

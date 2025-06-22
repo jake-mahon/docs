@@ -1,5 +1,7 @@
 # Use Endpoint Policy Manager Cloud to choose which version of Java for what website
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/85lzyp5oTmg" title="Use Endpoint Policy Manager Cloud to choose which version of Java for what website" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="1"></iframe>
+
 Use Netwrix Endpoint Policy Manager (formerly PolicyPak) Cloud to deliver Endpoint Policy Manager
 Java Rules Manager policies. Configure websites to use the version of Java you choose, or block Java
 websites entirely

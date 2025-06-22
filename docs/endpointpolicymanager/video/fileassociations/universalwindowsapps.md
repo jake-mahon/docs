@@ -1,5 +1,7 @@
 # Associate Programs to Universal Windows Apps (Metro Apps)
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/7dxQa7n3ekY" title="Endpoint Policy Manager: Associate Programs to Universal Windows Apps (Metro Apps)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="1"></iframe>
+
 Once you have your Windows Universal applications installed on an endpoint, how to manage the file
 associations? Watch this video to make it 1-2-3 easy !
 

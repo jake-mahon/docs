@@ -1,5 +1,7 @@
 # Endpoint Policy Manager Admin Templates Manager: Switched Policies (without Loopback)
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/GRJBVV7yr8U" title="Endpoint Policy Manager Admin Templates Manager: Switched Policies (without Loopback)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="1"></iframe>
+
 Deliver user side settings on the computer side, but get rid of Loopback!
 
 Hi, this is Whitney with Netwrix Endpoint Policy Manager (formerly PolicyPak) Software. In this

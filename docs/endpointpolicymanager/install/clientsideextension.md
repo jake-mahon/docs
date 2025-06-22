@@ -64,8 +64,8 @@ containing the target computers.
 **Step 4 –** Use Group Policy Software Installation to deploy that file to all target computers.
 
 **NOTE:** To see a demonstration of this section, please watch these two tutorial videos:
-[Mass Deploy the Endpoint Policy Manager CSE using GPSI](/docs/endpointpolicymanager/archive/archived-guides/massdeploy.md) and
-[Upgrading the CSE using GPSI](/docs/endpointpolicymanager/archive/archived-guides/upgrading.md). In this example, we've created a GPO named
+[Mass Deploy the Endpoint Policy Manager CSE using GPSI](/docs/endpointpolicymanager/archive/massdeploy.md) and
+[Upgrading the CSE using GPSI](/docs/endpointpolicymanager/archive/upgrading.md). In this example, we've created a GPO named
 Deploy PP Client and linked it to East Sales Desktops.
 
 ![Deploying Client Side](/img/product_docs/endpointpolicymanager/endpointpolicymanager/install/deploying_the_client_side_350x474.webp)
@@ -99,4 +99,4 @@ If you have an older version of the Endpoint Policy Manager CSE and wish to upda
 Policy Software Installation, it's easy to do.
 
 For more information on how to perform an upgrade using Group Policy Software Installation. See the
-[Upgrading the CSE using GPSI](/docs/endpointpolicymanager/archive/archived-guides/upgrading.md) topic for additional information.
+[Upgrading the CSE using GPSI](/docs/endpointpolicymanager/archive/upgrading.md) topic for additional information.

@@ -70,4 +70,4 @@ following video:
 - [Endpoint Policy Manager and MDM walk before you run](/docs/endpointpolicymanager/video/mdm/testsample.md)
 
 Then, you can learn more about how to use Endpoint Policy Manager with your own MDM tool on this
-page: Getting Started with MDM > [Video Learning Center](/docs/endpointpolicymanager/video/).
+page: Getting Started with MDM > [Video Learning Center](/docs/endpointpolicymanager/video/index.md).

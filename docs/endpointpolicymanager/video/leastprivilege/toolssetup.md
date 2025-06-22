@@ -1,5 +1,7 @@
 # Endpoint Policy Manager Least Priv Manager Tools Setup
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/3SRE-N6EBuU" title="PP Least Priv Manager: Helper Tools Setup" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="1"></iframe>
+
 Learn how to set up the PP Least Privilege Manager Helper tools, so users can overcome UAC prompts
 for Printers, Network Adapters and uninstall software.
 

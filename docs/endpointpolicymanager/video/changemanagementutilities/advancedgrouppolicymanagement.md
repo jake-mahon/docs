@@ -1,5 +1,7 @@
 # Endpoint Policy Manager and AGPM
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/zv03EbuyLHc" title="Endpoint Policy Manager: Integration with Group Policy and AGPM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen="1"></iframe>
+
 If you don't know, Microsoft has a tool called Advanced Group Policy Management, or AGPM for short.
 
 AGPM is a great utility to handle the workflow around Group Policy management. But, to be super

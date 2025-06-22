@@ -1,5 +1,7 @@
 # Endpoint Policy Manager Scripts & Triggers: Events !
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ibHKk9frET4" title="Endpoint Policy Manager Scripts &amp; Triggers: Events !" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="1"></iframe>
+
 Use the Event Log to trigger when any kind of scriptable event should occur.
 
 Hi, this is Jeremy Moskowitz. In this video I'm going to show you how you can use Netwrix Endpoint

@@ -36,7 +36,7 @@ Manager Least Privilege Manager can deploy directives over the Internet, even to
 machines.
 
 For more information on this topic, please see this video:
-[Video Learning Center](/docs/endpointpolicymanager/video/) > Privilege Manager.
+[Video Learning Center](/docs/endpointpolicymanager/video/index.md) > Privilege Manager.
 
 **NOTE:** Note that Endpoint Policy Manager Least Privilege Manager has two versions: Standard and
 Complete. If a customer is a Endpoint Policy Manager Enterprise or SaaS customer, they get Least
@@ -59,7 +59,7 @@ service, you can also deliver these Endpoint Policy Manager Browser Router setti
 Internet to domain-joined and non-domain-joined machines.
 
 **Note**: For more information on this topic, please see this video:
-[Video Learning Center](/docs/endpointpolicymanager/video/) > Browser Router
+[Video Learning Center](/docs/endpointpolicymanager/video/index.md) > Browser Router
 
 ## Java Enterprise Rules Manager
 
@@ -72,7 +72,7 @@ Enterprise Rules Manager can deploy most Microsoft Security settings to computer
 even to non-domain-joined machines.
 
 **Note**: For more information on this topic, please see this
-video:[Video Learning Center](/docs/endpointpolicymanager/video/) > Java
+video:[Video Learning Center](/docs/endpointpolicymanager/video/index.md) > Java
 Enterprise Rules Manager .
 
 ## Admin Templates Manager
@@ -89,7 +89,7 @@ Template (or third-party ADMX setting) to computers over the Internet, even to n
 machines.
 
 **Note**: For more information on this topic, please see this
-video:[Administrative Templates Manager](/docs/endpointpolicymanager/administrativetemplates/overview.md).
+video:[Administrative Templates Manager](/docs/endpointpolicymanager/adminstrativetemplates/overview.md).
 
 ## File Associations Manager
 
@@ -98,7 +98,7 @@ as .pdf) to specific applications, like Acrobat Reader (standard apps and Window
 apps), and handling applications with protocols (such as MAILTO:).
 
 **Note**: For more information on this topic, please see this video:
-[Video Learning Center](/docs/endpointpolicymanager/video/) > File Associations
+[Video Learning Center](/docs/endpointpolicymanager/video/index.md) > File Associations
 Manager.
 
 ## Preferences Manager
@@ -114,10 +114,10 @@ deploys Group Policy Preference items over the Internet, even to non-domain-join
 **NOTE:** The license for this policy is not provided unless specifically requested by the customer
 when Endpoint Policy Manager is used with the Group Policy delivery mechanism. For more details on
 why the license is not automatically provided, please see the following link:
-[Where is my Endpoint Policy Manager Preferences Component license and how do I request one?](/docs/endpointpolicymanager/policy-management/preferences/componentlicense.md).
+[Where is my Endpoint Policy Manager Preferences Component license and how do I request one?](/docs/endpointpolicymanager/preferences/componentlicense.md).
 
 **Note**: For more information on this topic, please see this
-video:[Preferences Manager](/docs/endpointpolicymanager/policy-management/preferences/overview.md)
+video:[Preferences Manager](/docs/endpointpolicymanager/preferences/overview.md)
 
 ## Security Settings Manager
 
@@ -130,7 +130,7 @@ Security Manager can deploy most Microsoft Security settings to computers over t
 non-domain-joined machines.
 
 **Note**: For more information on this topic, please see this video:
-[Security Settings Manager](/docs/endpointpolicymanager/security-and-privilege-management/security-settings/overview.md).
+[Security Settings Manager](/docs/endpointpolicymanager/securitysettings/overview.md).
 
 ## Start Screen & Taskbar Manager
 
@@ -142,10 +142,10 @@ Additionally, you can use this component to pin items to the Windows 10 taskbar.
 
 **NOTE:** You may wish to watch our Quickstart videos of Endpoint Policy Manager Start Screen &
 Taskbar Manager: Start Screen & Task Bar Manager >
-[Video Learning Center](/docs/endpointpolicymanager/video/).
+[Video Learning Center](/docs/endpointpolicymanager/video/index.md).
 
 **Note**: For more information on this topic, please see this video:
-[Video Learning Center](/docs/endpointpolicymanager/video/) > Start Screen & Task
+[Video Learning Center](/docs/endpointpolicymanager/video/index.md) > Start Screen & Task
 Bar Manager
 
 ## Scripts & Triggers Manager
@@ -157,7 +157,7 @@ In conjunction with Endpoint Policy Manager Cloud or your own MDM service, you c
 deploy software over the Internet, even to non-domain-joined machines.
 
 **Note**: For more information on this topic, please see this
-video:[Video Learning Center](/docs/endpointpolicymanager/video/) > Scripts &
+video:[Video Learning Center](/docs/endpointpolicymanager/video/index.md) > Scripts &
 Triggers Manager.
 
 ## Remote Work Delivery Manager
@@ -169,7 +169,7 @@ In conjunction with Endpoint Policy Manager Cloud or your own MDM service, you c
 connections over the Internet, even to non-domain-joined machines.
 
 **Note**: For more information on this topic, please see this video: Remote Work Delivery Manager >
-[Video Learning Center](/docs/endpointpolicymanager/video/).
+[Video Learning Center](/docs/endpointpolicymanager/video/index.md).
 
 ## Feature Manager for Windows
 
@@ -181,7 +181,7 @@ Cloud or your own MDM service, Endpoint Policy Manager Feature Manager for Windo
 the Windows features and options on machines over the Internet, even to non-domain-joined machines.
 
 **Note**: For more information on this topic, please see this
-video:[Video Learning Center](/docs/endpointpolicymanager/video/) > Feature Manager for
+video:[Video Learning Center](/docs/endpointpolicymanager/video/index.md) > Feature Manager for
 Windows .
 
 ## Remote Desktop Protocol Manager
@@ -193,7 +193,7 @@ In conjunction with Endpoint Policy Manager Cloud or your own MDM service, you c
 that add or remove .rdp file connections over the Internet, even to non-domain-joined machines.
 
 **Note**: For more information on this topic, please see this
-video:[Video Learning Center](/docs/endpointpolicymanager/video/)[Video Learning Center](/docs/endpointpolicymanager/video/)[Video Learning Center](/docs/endpointpolicymanager/video/).
+video:[Video Learning Center](/docs/endpointpolicymanager/video/index.md)[Video Learning Center](/docs/endpointpolicymanager/video/index.md)[Video Learning Center](/docs/endpointpolicymanager/video/index.md).
 
 ## Network Security Manager
 
@@ -201,7 +201,7 @@ You can use Network Security Manager to specify which processes and applications
 what IP, web addresses and over what protocols.
 
 **Note**: For more information on this topic, please see this
-video:[Video Learning Center](/docs/endpointpolicymanager/video/) > Network Security
+video:[Video Learning Center](/docs/endpointpolicymanager/video/index.md) > Network Security
 Manager
 
 ## Software Package Manager
@@ -214,5 +214,5 @@ which add or remove Microsoft Store application connections over the Internet, e
 non-domain-joined machines.
 
 **Note**: For more information on this topic, please see this video:
-[Video Learning Center](/docs/endpointpolicymanager/video/) > Software Package
+[Video Learning Center](/docs/endpointpolicymanager/video/index.md) > Software Package
 Manager.

@@ -11,13 +11,13 @@ TIPS:
 
 - You won’t need a license file because you’re licensed with COMPUTER in the computer name.
 - See the Getting Started with MDM > Video Learning Center >
-  [Getting Started](/docs/endpointpolicymanager/video/#getting-started) topic for additional
+  [Getting Started](/docs/endpointpolicymanager/video/index.md#getting-started) topic for additional
   demonstrations using specific MDM services like Intune and VMware Workspace one.
 
 If you want to go beyond the basics and really dive in to each component, like Endpoint Policy
 Manager Least Privilege Manager or Endpoint Policy Manager Device Manager, or any of our components,
 see the
-[Netwrix Endpoint Policy Manager (formerly PolicyPak) Knowledge Base Articles](/docs/endpointpolicymanager/resources/knowledge-base.md)
+[Netwrix Endpoint Policy Manager (formerly PolicyPak) Knowledge Base Articles](/docs/endpointpolicymanager/knowledgebase.md)
 topic, then locate the component of interest and its corresponding Knowledge Base articles and Video
 Learning Center topics. For true mastery on the basics of a component, you should watch all the
 videos in order within the Getting Started section of the Video Learning Center topics. These answer

@@ -1,5 +1,7 @@
 # Install software with SMB (standard share)
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/RnxxP5VAlIk" title="Endpoint Policy Manager Remote Work Delivery Manager: Install software with SMB (standard share)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="1"></iframe>
+
 Want to deploy software using Netwrix Endpoint Policy Manager (formerly PolicyPak)? You can do that
 with Endpoint Policy Manager Remote Work Delivery Manager. Just point toward the file and ... that's
 it. Endpoint Policy Manager will also uninstall the software when the policy no longer applies. It's

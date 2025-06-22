@@ -1,5 +1,7 @@
 # Using LT for license cleanup
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/sxcJgME4HKY" title="Endpoint Policy Manager:  Using LT for license cleanup" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="1"></iframe>
+
 If you're a renewing customer, take a moment and find your old licenses and clean them out. This
 video shows you how.
 

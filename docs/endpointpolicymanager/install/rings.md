@@ -230,7 +230,7 @@ Manager Remote Work Delivery Manager. You could create the rings using Active D
 any other targeting, then, shoot down a CSE update to specific machines as you saw fit.
 
 See the
-[How do I use Endpoint Policy Manager Remote Work Delivery Manager to update the Client Side Extension?](/docs/endpointpolicymanager/cloud-and-remote-management/remote-work-delivery/updateclientsideextension.md)
+[How do I use Endpoint Policy Manager Remote Work Delivery Manager to update the Client Side Extension?](/docs/endpointpolicymanager/remoteworkdelivery/updateclientsideextension.md)
 and
 [Using Remote Work Delivery Manager to Update the Endpoint Policy Manager Client Side Extension](/docs/endpointpolicymanager/video/remoteworkdelivery/updateclientsideextension.md) topics
 for additional information.

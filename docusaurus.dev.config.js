@@ -52,10 +52,10 @@ const config = {
     [
       '@docusaurus/plugin-content-docs',
       {
-        id: '1secure',
-        path: 'docs/1secure',
+        id: 'endpointpolicymanager',
+        path: 'docs/endpointpolicymanager',
         routeBasePath: '/',
-        sidebarPath: require.resolve('./sidebars/1secure.js'),
+        sidebarPath: require.resolve('./sidebars/endpointpolicymanager.js'),
         editUrl: 'https://github.com/netwrix/docs/tree/main/',
         exclude: ['**/CLAUDE.md'],
         versions: {

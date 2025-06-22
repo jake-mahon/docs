@@ -10,7 +10,7 @@ about this feature first here:
 
 [Endpoint Policy Manager Browser Router User-Selected Default](/docs/endpointpolicymanager/video/browserrouter/userselecteddefault.md)
 
-[What is meant by "Default Browser" within Endpoint Policy Manager Browser router?](/docs/endpointpolicymanager/application-management/browser-router/defaultbrowser/defined.md)
+[What is meant by "Default Browser" within Endpoint Policy Manager Browser router?](/docs/endpointpolicymanager/browserrouter/defaultbrowser/defined.md)
 
 You might need to have Endpoint Policy Manager Browser Router indicate that a user specifically
 chose a particular browser, even if they did not.

@@ -44,7 +44,7 @@ Services Logs** >Netwrix Auditor Integration log.
 
 Now you can augment Windows event log with data collected by the Auditor.
 
-# Choose Appropriate Execution Scenario
+Looking at the context, I can see there are multiple sections with "Choose Appropriate Execution Scenario" headers that need to be made unique. Based on the content around each one, I can see they relate to different export methods (Event Log Export, CEF Export, etc.).
 
 Auditor Add-on for the SIEM solution runs on any computer in your environment. For example, you can
 run the add-on on the computer where Auditor is installed or on a remote server. Depending on the
@@ -602,9 +602,7 @@ leveraging Netwrix Auditor Integration API. Download the latest add-on version i
 Before running or scheduling the add-on, you must define connection details: Auditor Server host,
 user credentials, etc. Most parameters are optional, the script uses the default values unless
 parameters are explicitly defined. You can skip or define parameters depending on your execution
-scenario and security policies. See the
-[Choose Appropriate Execution Scenario](/docs/auditor/10.6/integrations/siem/generic-siem.md#choose-appropriate-execution-scenario)
-topic for additional information.
+scenario and security policies. See the [Choose Appropriate Execution Scenario](/docs/auditor/10.6/integrations/siem/generic-siem.md) topic for additional information.
 
 First, provide a path to your add-on followed by script parameters with their values. Each parameter
 is preceded with a dash; a space separates a parameter name from its value. You can skip some

@@ -1,5 +1,7 @@
 # Endpoint Policy Manager + WVD: Manage Applications Settings
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/JBBOS6oImFw" title="Endpoint Policy Manager + WVD: Manage Applications Settings" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen="1"></iframe>
+
 WVD is "all about the apps" which is great. Now how do you manage them? We have lots of videos on
 our website, but this one shows how quickly and easily you can manage your WVD apps using Netwrix
 Endpoint Policy Manager (formerly PolicyPak).

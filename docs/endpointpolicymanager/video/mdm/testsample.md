@@ -1,5 +1,7 @@
 # Endpoint Policy Manager and MDM walk before you run
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Kojo2mq3JhM?si=1vDNcZm_30k8y9QP" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 Netwrix Endpoint Policy Manager (formerly PolicyPak) and MDM work awesomely together. But you should
 watch this video and WALK BEFORE YOU RUN with Netwrix Endpoint Policy Manager (formerly PolicyPak)
 MDM, and try this example.. before using your MDM service to do all the work to deploy the MSI

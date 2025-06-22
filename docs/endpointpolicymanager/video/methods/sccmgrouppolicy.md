@@ -1,5 +1,7 @@
 # Deploy Real Group Policy using SCCM or Other Management System!
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/xwEdISFBM6Q" title="Deploy Real Group Policy using SCCM or Other Management System!" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen="1"></iframe>
+
 Do you have endpoints that you'd love to manage using REAL Group Policy, but want to deploy it using
 something else? Never fear, Netwrix Endpoint Policy Manager (formerly PolicyPak) is here to save the
 day by allowing you to deploy Admin Templates, Preferences, and Security Settings to your endpoints

@@ -1,5 +1,7 @@
 # Open required firewall ports
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/P5WS0-Ywzz4" title="PPGPCR: firewall ports" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="1"></iframe>
+
 Use this tip to open the required ports in the client machines' firewalls, so the PP GP Compliance
 Reporter can pull data from your endpoints.
 

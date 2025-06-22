@@ -1,5 +1,7 @@
 # Getting the helper tools as desktop shortcuts
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/t8MQe-kg-b4" title="Endpoint Policy Manager Least Priv: Getting the helper tools as desktop shortcuts" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="1"></iframe>
+
 Here's how to get all the PPLPM "Helper tools" affixed to the desktop using GPPrefs. (Also works for
 PP Cloud and MDM when you export the settings.)
 

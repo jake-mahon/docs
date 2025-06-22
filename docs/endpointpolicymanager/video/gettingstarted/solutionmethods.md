@@ -1,5 +1,7 @@
 # Endpoint Policy ManagerSolution Methods: Group Policy, MDM, UEM Tools, and Endpoint Policy Manager Cloud compared.
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/7XUB1hWJh9Y" title="Endpoint Policy Manager Solution Methods: Group Policy, MDM, UEM Tools, and Endpoint Policy Manager Cloud compared." frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen="1"></iframe>
+
 Netwrix Endpoint Policy Manager (formerly PolicyPak) works with whatever technique you're using
 right now. If you're using Active Directory & GPO, or a UEM tool like SCCM, or an MDM tool like
 Intune, we've got you covered. Or maybe you're using or nothing at all, where you can use Endpoint

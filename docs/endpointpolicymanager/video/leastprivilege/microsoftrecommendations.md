@@ -1,5 +1,7 @@
 # Microsoft WDAC recommended block rules Guidance
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/q7knNWexwgs" title="PP LPM: Microsoft WDAC recommended block rules Guidance" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="1"></iframe>
+
 This guide contains the information about Microsoft WDAC, security concerns and recommended blocking
 rules. Using Netwrix Endpoint Policy Manager (formerly PolicyPak), it becomes even easier to
 implement and follow these rules!

@@ -71,7 +71,7 @@ Here is what each column in the above figure means:
 - Enabled (True/False) — A policy entry can be enabled, which means it will go to work. If you need
   to temporarily stop a policy entry from applying, you can disable it (set it to False).
 - Item-Level Targeting (No/Yes) — We will describe this column later on in the section
-  [Using Item-Level Targeting with Collections and Policies](/docs/endpointpolicymanager/application-management/java-enterprise-rules/itemleveltargeting.md).
+  [Using Item-Level Targeting with Collections and Policies](/docs/endpointpolicymanager/javaenterpriserules/itemleveltargeting.md).
 - Comment — Any entry can have a comment option, which is used to explain why you made the decision.
 
 **Step 7 –** On the endpoint, reboot the computer or run GPupdate so the GPO with the policies that
@@ -107,4 +107,4 @@ another message will pop-up.
 This ends the Endpoint Policy Manager Java Rules Manager Quickstart, which demonstrated the power of
 Endpoint Policy Manager Java Enterprise Rules Manager in the fastest amount of time. Note that
 prompts for various Java-related items might be received during your Quickstart. To overcome this,
-please see section on [Overcoming Java Prompts](/docs/endpointpolicymanager/application-management/java-enterprise-rules/prompts/overview.md).
+please see section on [Overcoming Java Prompts](/docs/endpointpolicymanager/javaenterpriserules/prompts/overview.md).

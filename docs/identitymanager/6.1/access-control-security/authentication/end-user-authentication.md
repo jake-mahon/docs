@@ -163,11 +163,10 @@ code, with a mnemonic name. Any name can be used as long as all AuthenticationSc
 This guide doesn't cover how to set up authorizations within Usercube. Authorization for an end-user
 to access Usercube resources relies on assigning roles to profiles. Identity credentials used for
 authentication must be
-[linked to these profiles in the applicative configuration](/docs/identitymanager/6.1/configuration-reference/network-configuration/index.md#linked-to-these-profiles-in-the-applicative-configuration).
+[linked to these profiles in the applicative configuration](/docs/identitymanager/6.1/configuration-reference/network-configuration/index.md#selectuserbyidentityqueryhandler).
 
 Authentication-related settings are set through the following
-[_sections_](/docs/identitymanager/6.1/core-concepts/architecture/index.md#_sections_)
-of the `appsettings` set:
+sections of the `appsettings` set:
 
 - `IdentityServer`
 - `Authentication`
@@ -178,21 +177,21 @@ This is the general-purpose authentication settings section.
 
 The `IdentityServer` section allows the following attributes:
 
-| Name                                            | Details                                                                                                                                                                                        |
-| ----------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Enabled default value: true                     | **Type** Boolean **Description** Enables or disables the Identity Server.                                                                                                                      |
-| AllowWindowsAuthentication default value: false | **Type** Boolean **Description** Allows Windows authentication. Will work only when the Active Directory User Store is enabled.                                                                |
-| ShowPII default value: false                    | **Type** Boolean **Description** Sets whether or not PII is shown in logs. For security reasons, this setting should be used sparingly.                                                        |
-| ValidationKeys optional                         | **Type** String Array **Description** Allows the definition of public certificate paths for token validation.                                                                                  |
-| IssuerURI optional                              | Sets the unique name of this server instance.                                                                                                                                                  |
-| PostLogoutRedirectUri optional                  | Sets a specific URI to which the user will be redirected after a successful logout.                                                                                                            |
-| PublicOrigin optional                           | Sets the origin name for this _Usercube Server_ instance. Useful if end-users authenticate through a proxy server.                                                                             |
-| X509File required                               | Is the [PKCS #12](https://en.wikipedia.org/wiki/PKCS_12) archive path on the Agent's host file system (see [Public key certificate and private key](#public-key-certificate-and-private-key)). |
-| X509KeyFilePassword optional                    | Is the [PKCS #12](https://en.wikipedia.org/wiki/PKCS_12) archive password (see [Public key certificate and private key](#public-key-certificate-and-private-key)).                             |
-| X509SubjectDistinguishedName optional           | Sets the store certificate's _SubjectDistinguishedName_ (see [Public key certificate and private key](#public-key-certificate-and-private-key)).                                               |
-| _X509Thumbprint_ optional                       | Sets the store certificate's _Thumbprint_ (see [Public key certificate and private key](#public-key-certificate-and-private-key)).                                                             |
-| X509StoreLocation required                      | Sets the relevant Windows certificate store's location (see [Public key certificate and private key](#public-key-certificate-and-private-key)).                                                |
-| X509StoreName required                          | Sets the relevant Windows certificate store's name (see [Public key certificate and private key](#public-key-certificate-and-private-key)).                                                    |
+| Name                                            | Details                                                                                                                                                                    |
+| ----------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Enabled default value: true                     | **Type** Boolean **Description** Enables or disables the Identity Server.                                                                                                  |
+| AllowWindowsAuthentication default value: false | **Type** Boolean **Description** Allows Windows authentication. Will work only when the Active Directory User Store is enabled.                                            |
+| ShowPII default value: false                    | **Type** Boolean **Description** Sets whether or not PII is shown in logs. For security reasons, this setting should be used sparingly.                                    |
+| ValidationKeys optional                         | **Type** String Array **Description** Allows the definition of public certificate paths for token validation.                                                              |
+| IssuerURI optional                              | Sets the unique name of this server instance.                                                                                                                              |
+| PostLogoutRedirectUri optional                  | Sets a specific URI to which the user will be redirected after a successful logout.                                                                                        |
+| PublicOrigin optional                           | Sets the origin name for this _Usercube Server_ instance. Useful if end-users authenticate through a proxy server.                                                         |
+| X509File required                               | Is the [PKCS #12](https://en.wikipedia.org/wiki/PKCS_12) archive path on the Agent's host file system (see [Identity Server RSA Key Pair](#identity-server-rsa-key-pair)). |
+| X509KeyFilePassword optional                    | Is the [PKCS #12](https://en.wikipedia.org/wiki/PKCS_12) archive password (see [Identity Server RSA Key Pair](#identity-server-rsa-key-pair)).                             |
+| X509SubjectDistinguishedName optional           | Sets the store certificate's _SubjectDistinguishedName_ (see [Identity Server RSA Key Pair](#identity-server-rsa-key-pair)).                                               |
+| _X509Thumbprint_ optional                       | Sets the store certificate's _Thumbprint_ (see [Identity Server RSA Key Pair](#identity-server-rsa-key-pair)).                                                             |
+| X509StoreLocation required                      | Sets the relevant Windows certificate store's location (see [Identity Server RSA Key Pair](#identity-server-rsa-key-pair)).                                                |
+| X509StoreName required                          | Sets the relevant Windows certificate store's name (see [Identity Server RSA Key Pair](#identity-server-rsa-key-pair)).                                                    |
 
 ### Authentication
 
@@ -311,7 +310,7 @@ _Claim names_.
 For this reason, the name of the claim that is retrieved by Usercube for authorization purposes can
 be set up according to the provider's specifics.
 
-See the [**NameClaimType**](#__nameclaimtype__) configuration attribute.
+See the **NameClaimType** configuration attribute below.
 
 Users should be able to get a list of the claim names used by their authentication providers from
 their providers' portal website, documentation or administrators.
@@ -719,7 +718,7 @@ If the certificate is saved in Azure Key Vault, we must define the certificate i
 
 When _Internal Methods_ is enabled, the end-user is prompted via a _form_ to input a login and a
 password. The login to be used is defined within the
-[applicative configuration's SelectUserByIdentityQueryHandlerSetting element](/docs/identitymanager/6.1/configuration-reference/network-configuration/index.md#applicative-configurations-selectuserbyidentityqueryhandlersetting-element).
+[applicative configuration's SelectUserByIdentityQueryHandlerSetting element](/docs/identitymanager/6.1/configuration-reference/network-configuration/index.md#selectuserbyidentityqueryhandler).
 
 First, the `AllowLocalLogin` parameter needs to be set to `true` in the `Authentication` section.
 

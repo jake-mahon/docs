@@ -1,5 +1,7 @@
 # Predefined ILTs (Internal Filters)
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/xJH4MJxMhOo" title="Endpoint Policy Manager: Using Item Level Targeting with Applications Manager" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen="1"></iframe>
+
 Using build 545 and later, you can use "Internal Filters" to specify when your Pak should work on
 specific machines. For instance, you might only want an applications settings to hit the machine
 \*WHEN\* the application is actually on the machine. This video is for Pak designers only. For

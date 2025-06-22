@@ -1,5 +1,7 @@
 # Endpoint Policy Manager: Remote Work Delivery Manager Local File Copy Magic
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/u-5BzO1F3QQ" title="Endpoint Policy Manager: Remote Work Delivery Manager Local File Copy Magic" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="1"></iframe>
+
 Want to copy files from the same box to a different source? Here's the magic unlock on how to
 hand-edit the XML to do that.
 

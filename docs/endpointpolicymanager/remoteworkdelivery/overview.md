@@ -55,7 +55,7 @@ even to non-domain-joined machines over the Internet.
   Manager directives via Group Policy, or when using MEMCM, KACE, MDM, or similar utilities.
 - Endpoints — In order to use these, they must be licensed for Endpoint Policy Manager Remote Work
   Delivery Manager using one of the licensing methods, which are described in Book 1:
-  [Introduction and Basic Concepts](/docs/endpointpolicymanager/gettingstarted/basic-concepts.md).
+  [Introduction and Basic Concepts](/docs/endpointpolicymanager/basicconcepts.md).
 - PolicyPak Exporter (optional) — A free utility that lets you take Endpoint Policy Manager Admin
   Templates Manager and our other products' XML files and wrap them into a portable MSI file for
   deployment using MEMCM, an MDM service, or your own systems management software.

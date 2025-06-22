@@ -1,5 +1,7 @@
 # Endpoint Policy Manager File Associations Manager: Helper Application
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/0cL1kLhb1K8" title="PPFAM: Helper Application" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="1"></iframe>
+
 If you have an application you simply cannot install on your own Management Station, then use the
 included PPFAM Helper utility to capture the association, then bring the XML file over to your
 machine.

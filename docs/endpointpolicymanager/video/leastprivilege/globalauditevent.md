@@ -1,5 +1,7 @@
 # Auto-Create Policy from Global Audit event
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/k7VeeCwKH4E" title="PPLPM: Auto-Create Policy from Global Audit event" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="1"></iframe>
+
 In this video learn how to make a workflow between EVENTS in the endpoint event log, and your
 management station. Just make the event occur, then copy and paste, and Netwrix Endpoint Policy
 Manager (formerly PolicyPak) does the rest.

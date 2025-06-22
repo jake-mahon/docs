@@ -77,7 +77,7 @@ legacy Printer elevation method within “Endpoint Policy Manager Helper Tools�
 operations in this mode, because it doesn’t rely on the updated functionality to perform elevation
 directly upon NTPRINT.EXE. To see the Endpoint Policy Manager Helper Tools in action to add
 printers, please refer to these videos: Least Privilege Manager >
-[Video Learning Center](/docs/endpointpolicymanager/video/).
+[Video Learning Center](/docs/endpointpolicymanager/video/index.md).
 
 ## Scenario 3: I want to use the native tools to elevate printers (aka NTPRINT.EXE) AND Windows Settings (aka SystemSettingsAdminFlows.exe) and I also sometimes need to perform Run as administrator operations.
 

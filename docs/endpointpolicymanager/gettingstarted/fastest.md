@@ -77,8 +77,8 @@ oriented to get you to the success line quickly.
 Endpoint Policy Manager has an extensive library of detailed manuals and Knowledge Base and Videos.
 Consider bookmarking these important pages:
 
-- [Netwrix Endpoint Policy Manager (formerly PolicyPak) Knowledge Base Articles](/docs/endpointpolicymanager/resources/knowledge-base.md)
-- [Netwrix Endpoint Policy Manager (formerly PolicyPak) User Manuals](/docs/endpointpolicymanager/reference/index.md)
+- [Netwrix Endpoint Policy Manager (formerly PolicyPak) Knowledge Base Articles](/docs/endpointpolicymanager/knowledgebase.md)
+- [Netwrix Endpoint Policy Manager (formerly PolicyPak) User Manuals](/docs/endpointpolicymanager/knowledgebase.md)
 
 Finding what youare looking for comes down to Knowledge Base & Videos and User Manuals. Here is a
 way to get oriented on the navigation.

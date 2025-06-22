@@ -1,5 +1,7 @@
 # What is Endpoint Policy Application Manager (Group Policy Edition)
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Jh4nXMtZjPE" title="Endpoint Policy Application Manager" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen="1"></iframe>
+
 Here is a very quick demonstration of Netwrix Endpoint Policy Manager (formerly PolicyPak)
 application manager, managing Java settings using Group Policy and the Endpoint Policy Manager
 Cloud.

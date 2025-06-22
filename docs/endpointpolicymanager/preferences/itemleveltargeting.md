@@ -3,7 +3,7 @@
 One of the best features of Microsoft Group Policy Preferences is its Item-Level Targeting. It
 enables you to filter where a particular Group Policy Preference item will take effect.
 
-**NOTE:** See [Group Policy Preferences: Item Level Targeting](/docs/endpointpolicymanager/archive/archived-guides/itemleveltartgeting.md)
+**NOTE:** See [Group Policy Preferences: Item Level Targeting](/docs/endpointpolicymanager/archive/itemleveltartgeting.md)
 for a video of Group Policy Preferences and Item-Level targeting
 
 If you followed the Quickstart guide in the previous section, then you deployed a Group Policy

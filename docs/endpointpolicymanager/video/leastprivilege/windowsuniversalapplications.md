@@ -1,5 +1,7 @@
 # Manage, block and allow Windows Universal (UWP) applications
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Tn7xce6nCZg" title="Manage, block and allow Windows Universal (UWP) applications" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="1"></iframe>
+
 Want to block the Microsoft Store or Edge on your Windows Professional, Enterprise, or Professional
 machines? This video shows you how to do it, AND let users still download SOME items from the store
 as you see fit. You won't need the Microsoft Store for Business… when you're using this method to

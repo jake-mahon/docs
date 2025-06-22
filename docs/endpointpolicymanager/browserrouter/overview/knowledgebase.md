@@ -9,7 +9,7 @@ The following is a list of Knowledge Base articles for Browser Router.
 - [I launched IE and saw "PPBRAGENTIExIE_01.dll" or "PPBRExplorerExtension.dll" prompted for the user. What should I do?](/docs/endpointpolicymanager/troubleshooting/browserrouter/install/iepromptdll.md)
 - [When I unlicense or remove Endpoint Policy ManagerBrowser Router from scope,Endpoint Policy Manager Browser Router Agent still shows as OS "default browser". Why is that and is there a workaround?](/docs/endpointpolicymanager/troubleshooting/browserrouter/install/defaultbrowser.md)
 - [Why doesn't Endpoint Policy Manager Browser Router routes take effect the first time I log on to Windows 8.1 or Windows 10?](/docs/endpointpolicymanager/troubleshooting/browserrouter/install/twologons.md)
-- [How-to manually install and enable Endpoint Policy Manager Browser Router (PPBR) extension for Google Chrome?](/docs/endpointpolicymanager/application-management/browser-router/install/chromemanual.md)
+- [How-to manually install and enable Endpoint Policy Manager Browser Router (PPBR) extension for Google Chrome?](/docs/endpointpolicymanager/browserrouter/install/chromemanual.md)
 
 ## Troubleshooting
 
@@ -43,14 +43,14 @@ The following is a list of Knowledge Base articles for Browser Router.
 
 ## Tips and Tricks
 
-- [Which variables can I use in the Browser Router Advanced Blocking Message?](/docs/endpointpolicymanager/application-management/browser-router/advancedblockingmessage.md)
-- [How can I use Endpoint Policy Manager Browser router to force people to always use the SAME browser?](/docs/endpointpolicymanager/application-management/browser-router/forcebrowser.md)
-- [Is it possible to prevent all Internet websites, but allow just a few? (Blacklist websites, whitelist some?)](/docs/endpointpolicymanager/application-management/browser-router/editpolicytemplate/securityzone.md)
-- [What is meant by "Default Browser" within Endpoint Policy Manager Browser router?](/docs/endpointpolicymanager/application-management/browser-router/defaultbrowser/defined.md)
-- [How do I suppress the pop-up of the Browser Router Chrome Extension at First run?](/docs/endpointpolicymanager/application-management/browser-router/suppresspopup.md)
-- [How to remove the Endpoint Policy Manager Browser Router Agent from the list of available Web Browser handlers under Default Apps in Windows 10](/docs/endpointpolicymanager/application-management/browser-router/install/removeagent.md)
-- [Where does Browser Router store user selected browser (and how can I fake it if I need to) in versions 2536 and later?](/docs/endpointpolicymanager/application-management/browser-router/useselectablebrowser.md)
-- [How to Configure Browser Router to use IE Document Modes in Edge IE TAB](/docs/endpointpolicymanager/application-management/browser-router/editpolicytemplate/browsermode.md)
-- [How do I change the default icon for user-created shortcuts for my default browser?](/docs/endpointpolicymanager/application-management/browser-router/shortcuticons.md)
-- [Does Endpoint Policy Manager Manage Chrome or Edge "Flags"?](/docs/endpointpolicymanager/application-management/browser-router/editpolicytemplate/commandlinearguments.md)
-- [What is PPBREdgePackage and When is it used?](/docs/endpointpolicymanager/application-management/browser-router/edgelegacybrowser.md)
+- [Which variables can I use in the Browser Router Advanced Blocking Message?](/docs/endpointpolicymanager/browserrouter/advancedblockingmessage.md)
+- [How can I use Endpoint Policy Manager Browser router to force people to always use the SAME browser?](/docs/endpointpolicymanager/browserrouter/forcebrowser.md)
+- [Is it possible to prevent all Internet websites, but allow just a few? (Blacklist websites, whitelist some?)](/docs/endpointpolicymanager/browserrouter/editpolicytemplate/securityzone.md)
+- [What is meant by "Default Browser" within Endpoint Policy Manager Browser router?](/docs/endpointpolicymanager/browserrouter/defaultbrowser/defined.md)
+- [How do I suppress the pop-up of the Browser Router Chrome Extension at First run?](/docs/endpointpolicymanager/browserrouter/suppresspopup.md)
+- [How to remove the Endpoint Policy Manager Browser Router Agent from the list of available Web Browser handlers under Default Apps in Windows 10](/docs/endpointpolicymanager/browserrouter/install/removeagent.md)
+- [Where does Browser Router store user selected browser (and how can I fake it if I need to) in versions 2536 and later?](/docs/endpointpolicymanager/browserrouter/useselectablebrowser.md)
+- [How to Configure Browser Router to use IE Document Modes in Edge IE TAB](/docs/endpointpolicymanager/browserrouter/editpolicytemplate/browsermode.md)
+- [How do I change the default icon for user-created shortcuts for my default browser?](/docs/endpointpolicymanager/browserrouter/shortcuticons.md)
+- [Does Endpoint Policy Manager Manage Chrome or Edge "Flags"?](/docs/endpointpolicymanager/browserrouter/editpolicytemplate/commandlinearguments.md)
+- [What is PPBREdgePackage and When is it used?](/docs/endpointpolicymanager/browserrouter/edgelegacybrowser.md)

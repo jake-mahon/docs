@@ -114,7 +114,7 @@ of the videos at the links below in order to get prepared to use Endpoint Policy
 MDM provider.
 
 - For video overviews of using Endpoint Policy Manager with an MDM service see: Getting Started with
-  MDM > [Video Learning Center](/docs/endpointpolicymanager/video/).
+  MDM > [Video Learning Center](/docs/endpointpolicymanager/video/index.md).
 - For video overviews of using Endpoint Policy Manager with a UEM tool like SCCM see: Getting
   Started with Endpoint Policy Manager (Misc) >
-  [Knowledge Base](/docs/endpointpolicymanager/resources/knowledge-base.md).
+  [Knowledge Base](/docs/endpointpolicymanager/knowledgebase.md).

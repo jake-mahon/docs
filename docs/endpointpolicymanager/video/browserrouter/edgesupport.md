@@ -1,5 +1,7 @@
 # Browser Router now with support for MS Edge
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/1GStIc-hjhw" title="Endpoint Policy Manager: Browser Router now with support for MS Edge" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="1"></iframe>
+
 Netwrix Endpoint Policy Manager (formerly PolicyPak) now supports routing FROM EDGE to other
 browsers (Firefox, IE, and Chrome.) Its easy, and here's the only small thing you need to know to
 make it work perfectly !

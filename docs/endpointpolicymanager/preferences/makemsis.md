@@ -1,7 +1,7 @@
 # Using the Endpoint Policy Manager Exporter to Make MSIs
 
 **NOTE:** For an overview of the Endpoint Policy Manager Exporter utility, please watch this video:
-[](http://www.endpointpolicymanager.com/video/endpointpolicymanager-preferences-with-endpointpolicymanager-exporter.html)[Endpoint Policy ManagerPreferences with Endpoint Policy Manager Exporter](/docs/endpointpolicymanager/archive/archived-guides/preferencesexporter.md)l.
+[](http://www.endpointpolicymanager.com/video/endpointpolicymanager-preferences-with-endpointpolicymanager-exporter.html)[Endpoint Policy ManagerPreferences with Endpoint Policy Manager Exporter](/docs/endpointpolicymanager/archive/preferencesexporter.md)l.
 
 Endpoint Policy Manager Exporter's job is to take Microsoft or Endpoint Policy Manager items and
 wrap them up into an MSI. This MSI can then be deployed using whatever technique you want: Microsoft

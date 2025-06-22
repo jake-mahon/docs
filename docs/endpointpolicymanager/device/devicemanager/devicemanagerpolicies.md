@@ -82,7 +82,7 @@ you're adding users not-joined to Active Directory, and only using an MDM servi
 
 **NOTE:** To get an overview of how to acquire SIDs with your MDM service and then use them with
 Endpoint Policy Manager Device Manager, see the
-[How do I get Azure AD SIDs and use them with Item Level Targeting?](/docs/endpointpolicymanager/policy-management/item-level-targeting/entraidsids.md)
+[How do I get Azure AD SIDs and use them with Item Level Targeting?](/docs/endpointpolicymanager/itemleveltargeting/entraidsids.md)
 and [Block and Allow USB and CD-ROMs with your MDM solution](/docs/endpointpolicymanager/video/device/mdm.md) topics for
 additional information.
 

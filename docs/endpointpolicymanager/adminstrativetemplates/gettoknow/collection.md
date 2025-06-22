@@ -33,5 +33,5 @@ There are settings in the collection that affect only the specified users.
 
 Next, we'll ensure that only the East Sales Users get these policy settings while using Item-Level
 Targeting. See the
-[Using Item-Level Targeting with Collections and Policies](/docs/endpointpolicymanager/administrativetemplates/itemleveltargeting.md) topic for
+[Using Item-Level Targeting with Collections and Policies](/docs/endpointpolicymanager/adminstrativetemplates/itemleveltargeting.md) topic for
 additional information on the next steps.

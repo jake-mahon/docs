@@ -1,5 +1,7 @@
 # Endpoint Policy Manager Scripts + Triggers: Map a printer or drive when a process runs and un-map it when closed.
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/5tOXS2buwKU" title="Endpoint Policy Manager Scripts + Triggers: Map a printer or drive when a process runs and un-map it when closed." frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="1"></iframe>
+
 How do you map a printer or drive when you launch an application like Acrobat Reader ? Using Netwrix
 Endpoint Policy Manager (formerly PolicyPak) Scripts + Triggers of course. Its easy to do... just
 pre-try your script first, then use Endpoint Policy Manager Scripts + Triggers to do the magic. Its

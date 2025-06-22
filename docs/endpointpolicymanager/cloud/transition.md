@@ -116,7 +116,7 @@ for additional information.
 You are advised to maintain a Windows based MMC editing station for testing because not every
 editing function may be available in the Endpoint Policy Manager Cloud editors. Most items are, but
 a few are not. Details about Endpoint Policy Manager Cloud and Test Lab Best Practices are here:
-Getting Started with Cloud > [Knowledge Base](/docs/endpointpolicymanager/resources/knowledge-base.md).
+Getting Started with Cloud > [Knowledge Base](/docs/endpointpolicymanager/knowledgebase.md).
 
 ## Using Endpoint Policy Manager Cloud to create company groups and/or use the Endpoint Policy Manager Cloud to Azure connector
 

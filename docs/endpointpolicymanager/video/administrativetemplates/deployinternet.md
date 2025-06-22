@@ -1,5 +1,7 @@
 # Endpoint Policy Manager Cloud: Deploy Group Policy Admin template settings over the internet
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/mXvgyaRcaY4" title="Endpoint Policy Manager Cloud: Deploy Group Policy Admin template settings over the internet" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="1"></iframe>
+
 Want to perform real Group Policy settings over the Internet? Check out Netwrix Endpoint Policy
 Manager (formerly PolicyPak) cloud (and watch this video.)
 

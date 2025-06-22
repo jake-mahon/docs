@@ -1,5 +1,7 @@
 # Endpoint Policy Manager for Microsoft Office 2013 and 2016
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/b7MBQBnRn-c" title="Endpoint Policy Manager: Manage Office 2013 using Group Policy, SCCM or your own management utility" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen="1"></iframe>
+
 Is there a more widely used application suite in the business world than Microsoft Office?
 
 This means you need to manage and enforce the configuration settings for these applications because

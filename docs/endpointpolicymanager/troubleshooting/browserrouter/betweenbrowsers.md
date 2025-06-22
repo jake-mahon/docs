@@ -9,7 +9,7 @@ doesn't, then this is the guide for you.
 
 **Step 1 –** This troubleshooting guide assumes you have already performed the steps in this initial
 troubleshooting guide: Browser Router >
-[Knowledge Base](/docs/endpointpolicymanager/resources/knowledge-base.md). This will demonstrate that you are:
+[Knowledge Base](/docs/endpointpolicymanager/knowledgebase.md). This will demonstrate that you are:
 
 - Getting the GPOs involved in Netwrix Endpoint Policy Manager (formerly PolicyPak) Browser Router
   and

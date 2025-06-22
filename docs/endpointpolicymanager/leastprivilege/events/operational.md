@@ -7,7 +7,7 @@ Events in section are divided into the following categories:
 - Audit/Discovery events (Event ID 6200+)
 - Admin Approval events (Event ID 6300+)
 
-See the [List of Endpoint Policy Manager Event Categories and IDs](/docs/endpointpolicymanager/troubleshooting/eventcategories.md)
+See the [List of Endpoint Policy Manager Event Categories and IDs](/docs/endpointpolicymanager/tips/eventcategories.md)
 topic for all event IDs.
 
 Each event ID will have the following fields:

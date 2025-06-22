@@ -242,7 +242,7 @@ link. It contains data to help identify the underlying objects.
 
 Option 1: performing multiple health check reports (recommended)
 
-If you want to get a quick status of your infrastructure, [run the program](#performing-an-active-directory-health-check) with the "healthcheck" mode (just press enter) and enter as domain the asterisk (\*).
+If you want to get a quick status of your infrastructure, [run the program](/docs/pingcastle/basicuser.md) with the "healthcheck" mode (just press enter) and enter as domain the asterisk (\*).
 
 All reachable domains will be scanned, the reachable mode will be
 activated and the consolidation report will be made automatically. This
@@ -252,7 +252,7 @@ takes from a few minutes to one hour.
 
 Then open the cartography reports (see below).
 
-3.  Xml reports generated from multiple point of view can be used to have a consolidated map. Do not forget to check the [Getting an overview](#getting-an-overview-with-multiple-reports) or [dashboard](#scanners) section.
+3.  Xml reports generated from multiple point of view can be used to have a consolidated map. Do not forget to check the [Getting an overview](/docs/pingcastle/basicuser.md) or [dashboard](/docs/pingcastle/basicuser.md) section.
 
 Option 2: when having existing health check reports
 
@@ -375,7 +375,7 @@ audit, you can take benefits of trusts to perform this task.
 The management involvement is a critical factor of success. Here is how
 you can proceed.
 
-You can start the project by running the tool without notifying the domain administrators to get a first overview. The healthcheck mode run on all trusted server (server set as "\*") or the carto mode can help [built a big picture of all domains involved](#perform-domain-discovery).
+You can start the project by running the tool without notifying the domain administrators to get a first overview. The healthcheck mode run on all trusted server (server set as "\*") or the carto mode can help [built a big picture of all domains involved](/docs/pingcastle/basicuser.md).
 
 Then you can deploy officially in a small perimeter and use the report
 results to challenge the domain administrators. Based on the risk
@@ -716,13 +716,13 @@ structure than the detailed reports but with a higher level of detail.
 
 - ad_hc_summary_full_node_map.html
 
-The second file is a map build on all trusts. See [domain discovery](#perform-domain-discovery).
+The second file is a map build on all trusts. See [domain discovery](/docs/pingcastle/basicuser.md).
 
 [Example](https://www.pingcastle.com/PingCastleFiles/ad_hc_summary_full_node_map.html)
 
 - ad_hc_summary_simple_node_map.html
 
-The third file is a map build on all trusts. See [domain discovery](#perform-domain-discovery).
+The third file is a map build on all trusts. See [domain discovery](/docs/pingcastle/basicuser.md).
 
 [Example](https://www.pingcastle.com/PingCastleFiles/ad_hc_summary_simple_node_map.html)
 

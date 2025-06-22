@@ -1,5 +1,7 @@
 # Endpoint Policy Manager Scripts + Triggers: Shutdown scripts on computer side
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/8NjZNNXxFts" title="Endpoint Policy Manager Scripts + Triggers: Shutdown scripts on computer side" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="1"></iframe>
+
 Want to do ANY kind of shutdown script... with Group Policy, an MDM service like Intune, or
 PolicyPak cloud? Here's how to do it, with PolicyPak Scripts and Triggers.... and Shutdown triggers
 !

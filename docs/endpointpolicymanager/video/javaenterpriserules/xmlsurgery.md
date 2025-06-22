@@ -1,5 +1,7 @@
 # Endpoint Policy Manager Java Rules Manager: XML Surgery
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/YMoI_0BR4qg" title="Endpoint Policy Manager Java Rules Manager: XML Surgery" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="1"></iframe>
+
 What do you do if you want to tie a specific version of Java to a specific website, but the version
 you want isn't in the MMC? It doesn't happen often, but if it does, just a little bit of XML surgery
 does the trick.

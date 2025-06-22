@@ -3,7 +3,7 @@
 To make an XML file from a Group Policy Preference item, first create the item. Be sure to embed any
 Group Policy Preference Item-Level Targeting within your item to limit when the item will apply. For
 instance, you may want to limit by operating system, IP address range, the presence of a file, and
-so on. Refer to Book 9: [Preferences Manager](/docs/endpointpolicymanager/policy-management/preferences/overview.md), for more details.
+so on. Refer to Book 9: [Preferences Manager](/docs/endpointpolicymanager/preferences/overview.md), for more details.
 Then, drag the Group Policy Preference item from the MMC console to create the XML data file. You
 can drag this file to a folder or your desktop, as shown in Figure 19.
 

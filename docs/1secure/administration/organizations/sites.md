@@ -67,7 +67,7 @@ Follow the steps to view the site for the organization.
 
 **Step 2 –** View the following details:
 
-- Agent status – Agent status in color. See the [Statuses](/docs/1secure/index.md#system-statuses) topic for additional
+- Agent status – Agent status in color. See the [Statuses](/docs/1secure/index.md#system-health-dashboard) topic for additional
   information
 - Server name – Server from which the data is collected
 - Last Connected – Last connection time with your agent in UTC

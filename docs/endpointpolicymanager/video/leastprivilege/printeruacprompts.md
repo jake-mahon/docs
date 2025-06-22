@@ -1,5 +1,7 @@
 # Overcome Print Nightmare Standard User UAC Prompts
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/AM5fPLQch4U" title="Endpoint Policy Manager Least Priv Manager: Overcome Print Nightmare Standard User UAC Prompts" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="1"></iframe>
+
 PrintNightmare UAC prompts got you down? Here's your get-out-of-jail-free card. Only when you're a
 Netwrix Endpoint Policy Manager (formerly PolicyPak) Customer.
 

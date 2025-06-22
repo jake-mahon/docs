@@ -1,5 +1,7 @@
 # Endpoint Policy Manager Cloud: Strict vs. Loose Computer Registration Mode
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/EjsFul9yGNA" title="Endpoint Policy Manager Cloud: Strict vs. Loose Computer Registration Mode" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="1"></iframe>
+
 What happens when you nuke the Netwrix Endpoint Policy Manager (formerly PolicyPak) Cloud Client
 from an endpoint, then re-install the client and re-register your computer with the cloud? There are
 a few different options, and this video explains them all!

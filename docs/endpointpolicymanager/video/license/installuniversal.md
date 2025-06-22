@@ -1,5 +1,7 @@
 # How to install UNIVERSAL licenses for NEW Customers (via GPO, SCCM or MDM)
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/BXlR3yVoMxQ?si=BHZuzZDTOo9DsXoO" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 Just got your Netwrix Endpoint Policy Manager (formerly PolicyPak) License File but not sure how to
 get it installed? This is your "one-stop shop" video to explain it all. Just get that license file
 deployed via GPO, an on-prem tool like SCCM, or an MDM tool like Intune, and... you're done! Once

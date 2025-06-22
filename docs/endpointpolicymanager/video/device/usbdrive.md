@@ -1,5 +1,7 @@
 # Instantly Put the smackdown on USB sticks and CD-ROMs
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/eOroAq0Wakg" title="Endpoint Policy Device Manager: Instantly Put the smackdown on USB sticks and CD-ROMs" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="1"></iframe>
+
 With Netwrix Endpoint Policy Manager (formerly PolicyPak) Device Manager, it takes one policy to
 immediately put the smackdown on USB sticks and CD-ROMs. Yep, it's that easy.
 

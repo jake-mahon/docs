@@ -1,5 +1,7 @@
 # How to Request Licenses from Endpoint Policy Manager by Creating a "License Request Key"
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/VEfdj8mMM4I" title="How to Request a &quot;License Request Key&quot;" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="1"></iframe>
+
 Want to get started with Netwrix Endpoint Policy Manager (formerly PolicyPak)? We have to count the
 number of computers in on-prem AD and, if desired, in Intune. Here's how to choose which path, and a
 walk through of each scenario.

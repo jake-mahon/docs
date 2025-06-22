@@ -1,5 +1,7 @@
 # Least Privilege Manager: Apply On Demand
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/QZ_uSNABS30" title="Endpoint Privilege Manager: Apply on Demand Rules" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="1"></iframe>
+
 If you have applications which SHOULD run most of the time with STANDARD RIGHTS, but SOMETIMES with
 elevated / admin rights, this is the technique to use.
 

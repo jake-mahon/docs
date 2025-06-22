@@ -1,5 +1,7 @@
 # Deliver GPPrefs items without using loopback mode
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/9XpPQUJ9Zm4" title="Endpoint Policy Manager:  Deliver GPPrefs items without using loopback mode" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen="1"></iframe>
+
 Not every GPPrefs item can be used on the Computer side. In this demonstration learn how to use
 Printers, Drive Maps and Internet settings… and deploy them to an OU of computers… regardless of
 where the user resides.

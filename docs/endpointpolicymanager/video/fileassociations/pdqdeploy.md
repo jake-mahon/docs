@@ -1,5 +1,7 @@
 # Setting Default File Associations with Endpoint Policy Manager and PDQ Deploy
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/sEErDOmFNuk" title="Setting Default File Associations with Endpoint Policy Manager and PDQ Deploy" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="1"></iframe>
+
 PDQ is legendary when it comes to deploying applications. But when those applications are deployed,
 the file associations you expect still don't magically work. That's why you should check out
 Endpoint Policy Manager, and the Endpoint Policy Manager File Associations Manager. With Endpoint

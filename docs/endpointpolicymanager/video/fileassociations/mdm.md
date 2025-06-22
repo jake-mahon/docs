@@ -1,5 +1,7 @@
 # Managing File Associations with an MDM service
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/7OM2EJkUvsI" title="Endpoint Policy Manager: File Associations Manager ... and Microsoft Endpoint Manager (or any MDM service)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="1"></iframe>
+
 Got PDF? And don't want Edge to open it? Or MP4, and don't want the built-in movie player to open
 it? How about protocols like MAILTO: .. want to map those to Outlook? It's drop-dead easy.. with
 Netwrix Endpoint Policy Manager (formerly PolicyPak) File Associations Manager. Trying to manage

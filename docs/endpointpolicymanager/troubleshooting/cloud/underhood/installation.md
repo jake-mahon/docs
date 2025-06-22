@@ -10,7 +10,7 @@ Figure 156. The final window of the installation process.
 
 There are some common issues that occur during installation, and these client troubleshooting errors
 are documented in one place: Getting Started with Cloud >
-[Knowledge Base](/docs/endpointpolicymanager/resources/knowledge-base.md). However, three of our most common errors
+[Knowledge Base](/docs/endpointpolicymanager/knowledgebase.md). However, three of our most common errors
 are presented in the next few pages.
 
 ## No Internet Connection During Installation

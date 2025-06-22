@@ -120,7 +120,7 @@ To get out of this problem if you get into it, you have two choices:
 - Update the policy by disabling the Global Policy or turning off Device Manager.
 - Or on a single machine you may erase the value for the device you granted Permanent access to. See
   the
-  [What are the registry settings for Device Manager (and how do I reset Device Manager Admin Approval)?](/docs/endpointpolicymanager/device-and-desktop-management/device-manager/registry.md)
+  [What are the registry settings for Device Manager (and how do I reset Device Manager Admin Approval)?](/docs/endpointpolicymanager/device/registry.md)
   topic for additional information.
 
 ## Admin Approval Using Email Method

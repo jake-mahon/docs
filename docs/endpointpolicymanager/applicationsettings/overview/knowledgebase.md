@@ -113,7 +113,7 @@ See the following Knowledge Base articles for Application Manager.
 - [Troubleshooting Group Policy Replication Problems](/docs/endpointpolicymanager/troubleshooting/applicationsettings/replication.md)
 - [It appears that Endpoint Policy Manager is processing AppSet entries from another Group Policy Object. How is this possible?](/docs/endpointpolicymanager/troubleshooting/applicationsettings/appset/other.md)
 - [Troubleshooting Application Manager – Basic Steps BEFORE calling or emailing Tech Support](/docs/endpointpolicymanager/troubleshooting/applicationsettings/basicsteps.md)
-- [What are the two ways to export AppSet settings and why would I use one over the other?](/docs/endpointpolicymanager/endpointpolicymanager/troubleshooting/applicationsettings/export/appset.md)
+- [What are the two ways to export AppSet settings and why would I use one over the other?](/docs/endpointpolicymanager/troubleshooting/applicationsettings/export/appset.md)
 - [Which log file should I consult in order to troubleshoot when one or more settings are not getting applied to the Computer?](/docs/endpointpolicymanager/troubleshooting/applicationsettings/logs/settings.md)
 - [How do I know if Application Manager is not behaving properly versus the target application not behaving properly?](/docs/endpointpolicymanager/troubleshooting/applicationsettings/applicationissue.md)
 - [How is Item Level Targeting handled in reports?](/docs/endpointpolicymanager/troubleshooting/applicationsettings/itemleveltargeting/reports.md)

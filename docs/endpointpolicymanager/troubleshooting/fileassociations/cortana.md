@@ -12,7 +12,7 @@ How to solve it?
 
 You will need to install EdgeDeflector before you can send search queries from Cortana to the
 default browser, set through Endpoint Policy Manager software. More
-info: [What is meant by "Default Browser" within Endpoint Policy Manager Browser router?](/docs/endpointpolicymanager/application-management/browser-router/defaultbrowser/defined.md)
+info: [What is meant by "Default Browser" within Endpoint Policy Manager Browser router?](/docs/endpointpolicymanager/browserrouter/defaultbrowser/defined.md)
 
 Then set the Policy for PPFAM as shown in the following screenshot:
 
