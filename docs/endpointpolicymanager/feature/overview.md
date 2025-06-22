@@ -1,7 +1,7 @@
 # Feature Manager for Windows
 
 **NOTE:** Before reading this section, please ensure you have read
-[Installation Quick Start](/docs/endpointpolicymanager/getting-started/quickstart/overviewinstall.md), which will help you
+[Installation Quick Start](/docs/endpointpolicymanager/gettingstarted/quickstart/overviewinstall.md), which will help you
 with the following:
 
 - Install the Admin MSI on your GPMC machine
@@ -10,7 +10,7 @@ with the following:
 - Set up a common OU structure
 
 Optionally, if you don't want to use Group Policy, read the section on
-[MDM & UEM Tools](/docs/endpointpolicymanager/cloud-and-remote-management/mdm-integration/overview.md)[MDM & UEM Tools](/docs/endpointpolicymanager/cloud-and-remote-management/mdm-integration/overview.md).
+[MDM & UEM Tools](/docs/endpointpolicymanager/mdm/overview.md)[MDM & UEM Tools](/docs/endpointpolicymanager/mdm/overview.md).
 
 Endpoint Policy Manager Feature Manager for Windows allows you to perform the following operations
 on Windows 10 or Windows Server (2016 and later):

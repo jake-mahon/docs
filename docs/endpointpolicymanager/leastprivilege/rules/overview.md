@@ -16,7 +16,7 @@ within the Netwrix Endpoint Policy Manager (formerly PolicyPak) node to demonstr
 between Endpoint Policy Manager and Netwrix Privilege Secure. That is, you can use all of Endpoint
 Policy Manager (all Endpoint Policy Manager components) or you may wish to use Endpoint Policy
 Manager alongside Netwrix Privilege Secure. For more information, see the
-[Endpoint Policy Manager & Netwrix Privilege Secure](/docs/endpointpolicymanager/integrations/third-party-integrations/privilegesecure/overview.md)
+[Endpoint Policy Manager & Netwrix Privilege Secure](/docs/endpointpolicymanager/integration/privilegesecure/overview.md)
 topic.
 
 Endpoint Policy Manager MMC snap-in enables you to create new Endpoint Policy Manager Least

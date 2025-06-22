@@ -33,7 +33,7 @@ back after the upgrade
 CENTRAL STORE or SHARED STORE method.
 
 **Step 3 –**
-[How can I use the Endpoint Policy ManagerCentral store (if I was already using the Endpoint Policy Manager Local store?)](/docs/endpointpolicymanager/application-management/application-settings/centralstore.md).
+[How can I use the Endpoint Policy ManagerCentral store (if I was already using the Endpoint Policy Manager Local store?)](/docs/endpointpolicymanager/applicationsettings/centralstore.md).
 
 This issue is fixed for any upgrade FROM 785 onwards, but it's not possible to fix "retroactively"
 as you upgrade to 785.

@@ -1,7 +1,7 @@
 # Start Screen & Taskbar Manager
 
 **NOTE:** Before reading this section, please ensure you have read
-[Installation Quick Start](/docs/endpointpolicymanager/getting-started/quickstart/overviewinstall.md), which will help you
+[Installation Quick Start](/docs/endpointpolicymanager/gettingstarted/quickstart/overviewinstall.md), which will help you
 learn to do the following:
 
 - Install the Admin MSI on your GPMC machine
@@ -11,7 +11,7 @@ learn to do the following:
 
 Optionally, if you don't want to use Group Policy, read the section in Appendix A: Advanced Concepts
 on Group Policy and non-Group Policy methods (MEMCM, KACE, and MDM service or Endpoint Policy
-Manager Cloud) ([Using Endpoint Policy Manager with MDM and UEM Tools](/docs/endpointpolicymanager/cloud-and-remote-management/mdm-integration/uemtools.md)) to
+Manager Cloud) ([Using Endpoint Policy Manager with MDM and UEM Tools](/docs/endpointpolicymanager/mdm/uemtools.md)) to
 deploy your directives.
 
 Netwrix Endpoint Policy Manager (formerly PolicyPak) Start Screen & Taskbar Manager enables you to

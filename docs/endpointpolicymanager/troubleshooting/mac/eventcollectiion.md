@@ -70,7 +70,7 @@ Notes on Collection Configuration:
   all selected IDs will be included and uploaded at the shortest interval set.
 
 **NOTE:** See the
-[How can I keep the same or specify different parameters for Event Collection for child groups? How does a computer behave if a member of multiple groups?](/docs/endpointpolicymanager/cloud-and-remote-management/cloud-management/eventcollection/childgroups.md)
+[How can I keep the same or specify different parameters for Event Collection for child groups? How does a computer behave if a member of multiple groups?](/docs/endpointpolicymanager/cloud/eventcollection/childgroups.md)
 topic for more information.
 
 Forcing Event Submission

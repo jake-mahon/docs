@@ -153,7 +153,7 @@ just prove that real fast. Let's go ahead and "Sign out." When we log back on, a
 interesting should happen. That's the whole point. It should just keep on working. There we go.
 
 Just to lay it out one more time, using Endpoint Policy Manager
-for [Endpoint Policy Manager File Associations Manager: Manage Windows 10 & 11 File Associations](/docs/endpointpolicymanager/resources/video-tutorials/fileassociations/windows10.md) with
+for [Endpoint Policy Manager File Associations Manager: Manage Windows 10 & 11 File Associations](/docs/endpointpolicymanager/video/fileassociations/windows10.md) with
 collections, the collections have the brains. The brains are you're going to use "Change Item Level
 Targeting" and say do the stuff in the collection when I see the application I want to manage. For
 instance, this one is Acrobat Reader. This one is Acrobat Writer. Once you have that, you've

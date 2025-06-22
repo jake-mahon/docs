@@ -1,7 +1,7 @@
 # Import Policies from GPO Backup
 
 Video: For a video overview on this section, see:
-[How to import GPOs to Endpoint Policy Manager Cloud](/docs/endpointpolicymanager/resources/video-tutorials/cloud/import.md).
+[How to import GPOs to Endpoint Policy Manager Cloud](/docs/endpointpolicymanager/video/cloud/import.md).
 
 You might have the need to take existing on-prem Group Policy Objects (GPOs) and import their
 contents into Endpoint Policy Manager Cloud. With the **Import Policies from GPO Backup** action,

@@ -16,7 +16,7 @@ station.
 
 For a good overview, you can check our videos on Endpoint Policy ManagerCloud, particularly the ones
 on requirements and procedures to get started. You can find the videos at the
-[Video Learning Center](/docs/endpointpolicymanager/resources/video-tutorials.md)
+[Video Learning Center](/docs/endpointpolicymanager/video/)
 
 ## Part 2: MMC vs in-cloud editors
 

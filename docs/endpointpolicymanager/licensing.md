@@ -4,7 +4,7 @@ Licensing Netwrix Endpoint Policy Manager (formerly PolicyPak) is easy. We have 
 information about Active Directory and Intune.
 
 **NOTE:** For a video overview of the process, watch this tutorial:
-[How to Request Licenses from Endpoint Policy Manager by Creating a "License Request Key"](/docs/endpointpolicymanager/resources/video-tutorials/license/licenserequestkey.md)
+[How to Request Licenses from Endpoint Policy Manager by Creating a "License Request Key"](/docs/endpointpolicymanager/video/license/licenserequestkey.md)
 
 Here are the basics:
 
@@ -171,7 +171,7 @@ The licensing modes are:
   enabled when your test computers' names have the word "computer" in them. For instance, a computer
   named "COMPUTER1" would automatically be in Trial Mode and act as if fully licensed. To see an
   example of how and why this works, see this video:
-  [Testing and Troubleshooting By Renaming an endpoint Computer](/docs/endpointpolicymanager/resources/video-tutorials/cloud/testlab/renameendpoint.md)
+  [Testing and Troubleshooting By Renaming an endpoint Computer](/docs/endpointpolicymanager/video/cloud/testlab/renameendpoint.md)
 
 We want you to use this Endpoint Policy Manager in your testing similarly to how you would use it in
 the real world. So in Trial Mode, we allow you to do the following:
@@ -194,7 +194,7 @@ with your sales team to declare the number of Windows 10 machines you want to li
 you would use the MDM reporting system to express how many Windows 10 machines you have enrolled and
 the number you plan add in the current year. All the details on exactly how to perform a count and
 what to send back to Endpoint Policy Manager Sales can be found here:
-[When licensing Endpoint Policy Managerwith an MDM provider, what do I need to send in to Endpoint Policy Manager? ](/docs/endpointpolicymanager/licensing/mdm/setup.md).
+[When licensing Endpoint Policy Managerwith an MDM provider, what do I need to send in to Endpoint Policy Manager? ](/docs/endpointpolicymanager/license/mdm/setup.md).
 
 An example of an MDM system account with a very low number of machines can be seen in Figure 14.
 Note that the company information is obscured in this demonstration, but you would have to provide
@@ -220,7 +220,7 @@ You may receive multiple license files for Endpoint Policy Manager:
 To deploy your licenses, you can use the following:
 
 Use these key installation instructions (which demonstrate Active Directory, SCCM, and MDM methods):
-[How to install UNIVERSAL licenses for NEW Customers (via GPO, SCCM or MDM)](/docs/endpointpolicymanager/resources/video-tutorials/license/installuniversal.md)
+[How to install UNIVERSAL licenses for NEW Customers (via GPO, SCCM or MDM)](/docs/endpointpolicymanager/video/license/installuniversal.md)
 
 ## Licensing Endpoint Policy Manager Through Endpoint Policy Manager Cloud
 
@@ -239,7 +239,7 @@ mechanism is automatic because the client has consumed the Cloud license. In thi
 free on-premise (Group Policy Edition) license automatically when a client has consumed a license
 with Endpoint Policy Manager Cloud (and continues to check in within the check-in period). For
 information on how to do this, see this video:
-[Endpoint Policy ManagerStart Screen & Taskbar Manager: Manage non-domain joined machines using Endpoint Policy Manager Cloud](/docs/endpointpolicymanager/resources/video-tutorials/startscreentaskbar/nondomainjoined.md).
+[Endpoint Policy ManagerStart Screen & Taskbar Manager: Manage non-domain joined machines using Endpoint Policy Manager Cloud](/docs/endpointpolicymanager/video/startscreentaskbar/nondomainjoined.md).
 
 ### Endpoint Policy Manager Professional and Endpoint Policy Manager Enterprise Edition customers:
 

@@ -11,7 +11,7 @@ It's likely your Antivirus is preventing Endpoint Policy Manager from operating.
 Carbon Black will prevent Endpoint Policy Manager from running unless it's exempted.
 
 For more information
-[How must I configure my Anti-virus or system-level software to work with Endpoint Policy Manager CSE?](/docs/endpointpolicymanager/installation-and-deployment/antivirus.md).
+[How must I configure my Anti-virus or system-level software to work with Endpoint Policy Manager CSE?](/docs/endpointpolicymanager/install/antivirus.md).
 
 Example of error and results in Event log:
 

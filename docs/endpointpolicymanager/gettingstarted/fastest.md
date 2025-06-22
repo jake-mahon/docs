@@ -50,27 +50,27 @@ Endpoint Policy Manager has a few Quick start topics to provide specific guidanc
 
 Quick tart topics for delivery method of policies you plan to use:
 
-- [Group Policy Delivery Quick Start](/docs/endpointpolicymanager/getting-started/quickstart/grouppolicy.md)
-- [MDM / Intune Delivery Quick Start](/docs/endpointpolicymanager/getting-started/quickstart/mdm.md)
-- [Endpoint Policy Manager Cloud Delivery Quick Start](/docs/endpointpolicymanager/getting-started/quickstart/cloud.md)
+- [Group Policy Delivery Quick Start](/docs/endpointpolicymanager/gettingstarted/quickstart/grouppolicy.md)
+- [MDM / Intune Delivery Quick Start](/docs/endpointpolicymanager/gettingstarted/quickstart/mdm.md)
+- [Endpoint Policy Manager Cloud Delivery Quick Start](/docs/endpointpolicymanager/gettingstarted/quickstart/cloud.md)
 
 A detailed Installation Guide for On-Prem scenarios that takes you from download to verified.
 
-- [Step 1: Get the download and inspect its contents](/docs/endpointpolicymanager/getting-started/quickstart/downloadcontents.md)
+- [Step 1: Get the download and inspect its contents](/docs/endpointpolicymanager/gettingstarted/quickstart/downloadcontents.md)
 
 A detailed topic is available if you're in a hurry to get started with Endpoint Policy Manager
 Cloud.
 
-- [Endpoint Policy Manager Cloud Quick Start](/docs/endpointpolicymanager/cloud-and-remote-management/cloud-management/overview.md)
+- [Endpoint Policy Manager Cloud Quick Start](/docs/endpointpolicymanager/cloud/overview.md)
 
 A detailed MDM & UEM tools (like Intune) topic can be found here:
 
-- [MDM & UEM Tools](/docs/endpointpolicymanager/cloud-and-remote-management/mdm-integration/overview.md)
+- [MDM & UEM Tools](/docs/endpointpolicymanager/mdm/overview.md)
 
 A detailed PolicyPak Least Privilege Manager Implementation Quickstart Guide that is project
 oriented to get you to the success line quickly.
 
-[Endpoint Privilege Manager Implementation QuickStart Guide](/docs/endpointpolicymanager/security-and-privilege-management/least-privilege-manager/pplpmimplementationguide.md)
+[Endpoint Privilege Manager Implementation QuickStart Guide](/docs/endpointpolicymanager/leastprivilege/pplpmimplementationguide.md)
 
 ## Refer to Documentation in the Netwrix Technical Knowledge Center
 

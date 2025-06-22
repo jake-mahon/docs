@@ -23,7 +23,7 @@ saved in MS Excel or Word format by clicking the **Save** button and selecting E
 ## Policy Reports (XML Delivery) Report
 
 Video: For an overview of this section, check out this video:
-[Endpoint Policy Manager Cloud Reporting Demo](/docs/endpointpolicymanager/resources/video-tutorials/cloud/reports.md)
+[Endpoint Policy Manager Cloud Reporting Demo](/docs/endpointpolicymanager/video/cloud/reports.md)
 
 Policy Reports (XML Delivery) Report is a very powerful feature. This report enables you to know
 which computers received which XML files. To see this report, select **Add Report**, then pick a

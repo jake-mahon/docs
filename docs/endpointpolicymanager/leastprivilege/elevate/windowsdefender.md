@@ -4,7 +4,7 @@
 
 For detailed steps on how to elevate the Windows Defender Firewall snap-in, replacing Services.msc
 with WF.msc, see
-[How do I elevate MMC snap ins without granting administrative rights?](/docs/endpointpolicymanager/security-and-privilege-management/least-privilege-manager/elevate/mmcsnapin.md)
+[How do I elevate MMC snap ins without granting administrative rights?](/docs/endpointpolicymanager/leastprivilege/elevate/mmcsnapin.md)
 
 ## Option 2:
 

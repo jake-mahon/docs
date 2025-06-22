@@ -5,11 +5,11 @@ There are three ways to unlicense an individual component.
 ## 1 — When using Group Policy Objects to license Endpoint Policy Manager
 
 See
-[How to Un-License any Endpoint Policy ManagerComponent via ADMX or Endpoint Policy Manager Cloud](/docs/endpointpolicymanager/resources/video-tutorials/license/unlicense.md)
+[How to Un-License any Endpoint Policy ManagerComponent via ADMX or Endpoint Policy Manager Cloud](/docs/endpointpolicymanager/video/license/unlicense.md)
 for additional information on this topic.
 
 **NOTE:** You need to first install the Endpoint Policy Manager ADMX files as seen in
-[Troubleshooting with ADMX files](/docs/endpointpolicymanager/resources/video-tutorials/troubleshooting/admxfiles.md).
+[Troubleshooting with ADMX files](/docs/endpointpolicymanager/video/troubleshooting/admxfiles.md).
 
 The basic gist is that you'll be using Group Policy to deliver a setting which un-licenses a
 specific component like this.

@@ -13,10 +13,10 @@ The **File Box** tab provides access to two features:
 
 Video: You can learn more about external links and Endpoint Policy Manager Remote Work Delivery
 Manager from this video:
-[Deploy software with Endpoint Policy Manager Cloud](/docs/endpointpolicymanager/resources/video-tutorials/remoteworkdelivery/cloud.md).
+[Deploy software with Endpoint Policy Manager Cloud](/docs/endpointpolicymanager/video/remoteworkdelivery/cloud.md).
 
 You can learn more about the external links function in
-[How to use Remote Work Delivery Manager to apply Firewall policies](/docs/endpointpolicymanager/cloud-and-remote-management/cloud-management/remoteworkdeliverymanager.md).
+[How to use Remote Work Delivery Manager to apply Firewall policies](/docs/endpointpolicymanager/cloud/remoteworkdeliverymanager.md).
 But in short, you can use public web services, like Amazon S3, to house software and then deploy it
 to your remote PCs. However, Endpoint Policy Manager Cloud needs to know about this link before it
 can be used. For this reason, you need to select the **Add external link** action and then specify
@@ -30,7 +30,7 @@ Manager.
 ## ADMX Files
 
 Video: You can see an overview of this section in the video:
-[Endpoint Policy ManagerCloud: Upload and use your own ADMX files to Endpoint Policy Manager Cloud](/docs/endpointpolicymanager/resources/video-tutorials/cloud/admxfiles.md).
+[Endpoint Policy ManagerCloud: Upload and use your own ADMX files to Endpoint Policy Manager Cloud](/docs/endpointpolicymanager/video/cloud/admxfiles.md).
 
 While Endpoint Policy Manager (the company) automatically keeps many important ADMX settings
 automatically updated for you, there could be a time when you have a third-party or custom

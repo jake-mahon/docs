@@ -4,17 +4,17 @@ The following topics provide information on using Endpoint Policy Manager:
 
 - Introduction & Quick Start Manuals
 
-  - [Introduction and Basic Concepts](/docs/endpointpolicymanager/getting-started/basic-concepts.md)
-  - [Netwrix Endpoint Policy Manager Quick Start](/docs/endpointpolicymanager/getting-started/quickstart/overview.md)
-  - [Installation Quick Start](/docs/endpointpolicymanager/getting-started/quickstart/overviewinstall.md)
-  - [Endpoint Policy Manager Cloud Quick Start](/docs/endpointpolicymanager/cloud-and-remote-management/cloud-management/overview.md)
-  - [MDM & UEM Tools](/docs/endpointpolicymanager/cloud-and-remote-management/mdm-integration/overview.md)
-  - [Upgrade Guidance](/docs/endpointpolicymanager/installation-and-deployment/upgrade/overview.md)
+  - [Introduction and Basic Concepts](/docs/endpointpolicymanager/gettingstarted/basic-concepts.md)
+  - [Netwrix Endpoint Policy Manager Quick Start](/docs/endpointpolicymanager/gettingstarted/quickstart/overview.md)
+  - [Installation Quick Start](/docs/endpointpolicymanager/gettingstarted/quickstart/overviewinstall.md)
+  - [Endpoint Policy Manager Cloud Quick Start](/docs/endpointpolicymanager/cloud/overview.md)
+  - [MDM & UEM Tools](/docs/endpointpolicymanager/mdm/overview.md)
+  - [Upgrade Guidance](/docs/endpointpolicymanager/install/upgrade/overview.md)
 
 - Least Privilege Security Pak
 
-  - [Least Privilege Manager (Windows)](/docs/endpointpolicymanager/security-and-privilege-management/least-privilege-manager/overview.md)
-  - [Endpoint Privilege Manager Implementation QuickStart Guide](/docs/endpointpolicymanager/security-and-privilege-management/least-privilege-manager/pplpmimplementationguide.md)
+  - [Least Privilege Manager (Windows)](/docs/endpointpolicymanager/leastprivilege/overview.md)
+  - [Endpoint Privilege Manager Implementation QuickStart Guide](/docs/endpointpolicymanager/leastprivilege/pplpmimplementationguide.md)
   - [Endpoint Policy Manager Cloud for MacOS Client](/docs/endpointpolicymanager/platform-specific/mac-support/overview.md)
 
 - Device Management Pak
@@ -23,7 +23,7 @@ The following topics provide information on using Endpoint Policy Manager:
 
 - Apps, Browsers, & Java Security Pak
 
-  - [Application Settings Manager ](/docs/endpointpolicymanager/application-management/application-settings/overview.md)
+  - [Application Settings Manager ](/docs/endpointpolicymanager/applicationsettings/overview.md)
   - [Browser Router](/docs/endpointpolicymanager/application-management/browser-router/overview.md)
   - [Java Enterprise Rules Manager](/docs/endpointpolicymanager/application-management/java-enterprise-rules/overview.md)
   - [Security Settings Manager](/docs/endpointpolicymanager/security-and-privilege-management/security-settings/overview.md)
@@ -40,7 +40,7 @@ The following topics provide information on using Endpoint Policy Manager:
 
 - GPO Reduction and Transitions Pak
 
-  - [Administrative Templates Manager](/docs/endpointpolicymanager/policy-management/administrative-templates/overview.md)
+  - [Administrative Templates Manager](/docs/endpointpolicymanager/administrativetemplates/overview.md)
   - [Preferences Manager](/docs/endpointpolicymanager/policy-management/preferences/overview.md)
 
 - App Delivery & Patching Pak

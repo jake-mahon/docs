@@ -39,7 +39,7 @@ In other words, the Endpoint Policy Manager Admin Console MSI is a superset of t
 Secure Console MSI.
 
 **NOTE:** See the
-[Netwrix Privilege Secure Client - Getting Started with MMC with/without Endpoint Policy Manager ](/docs/endpointpolicymanager/resources/video-tutorials/leastprivilege/integration/privilegesecure.md)
+[Netwrix Privilege Secure Client - Getting Started with MMC with/without Endpoint Policy Manager ](/docs/endpointpolicymanager/video/leastprivilege/integration/privilegesecure.md)
 video for a demo on the relationship between the Netwrix Privilege Secure and Endpoint Policy
 Manager downloads and moving parts.
 

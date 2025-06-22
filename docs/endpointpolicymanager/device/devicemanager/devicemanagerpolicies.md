@@ -83,7 +83,7 @@ you're adding users not-joined to Active Directory, and only using an MDM servi
 **NOTE:** To get an overview of how to acquire SIDs with your MDM service and then use them with
 Endpoint Policy Manager Device Manager, see the
 [How do I get Azure AD SIDs and use them with Item Level Targeting?](/docs/endpointpolicymanager/policy-management/item-level-targeting/entraidsids.md)
-and [Block and Allow USB and CD-ROMs with your MDM solution](/docs/endpointpolicymanager/resources/video-tutorials/device/mdm.md) topics for
+and [Block and Allow USB and CD-ROMs with your MDM solution](/docs/endpointpolicymanager/video/device/mdm.md) topics for
 additional information.
 
 ![usb2](/img/product_docs/endpointpolicymanager/endpointpolicymanager/device/devicemanager/usb2.webp)
@@ -111,15 +111,15 @@ However, as a reminder you may also use Endpoint Policy Manager Device Manager t
 
 - Allow specific user(s) to use all devices. This is useful if you want some people to have blanked
   access to all devices. Not usually advised. See the
-  [Allow ONE user (or group) access to USB and/or CD-ROM and DVDs](/docs/endpointpolicymanager/resources/video-tutorials/device/usbdriveallowuser.md)
+  [Allow ONE user (or group) access to USB and/or CD-ROM and DVDs](/docs/endpointpolicymanager/video/device/usbdriveallowuser.md)
   topic for additional information.
 - Allow specific devices based upon Serial Number(s). See the
-  [Permit specific devices by serial number](/docs/endpointpolicymanager/resources/video-tutorials/device/serialnumber.md) topic for
+  [Permit specific devices by serial number](/docs/endpointpolicymanager/video/device/serialnumber.md) topic for
   additional information.
 - Allow specific devices based upon BitLocker Key ID (restricts a specific BitLocker device) or
   Allow ANY BitLocker encrypted volume (useful if you just want to make sure users are using
   Bitlocker to keep data always encrypted). See the
-  [Restrict access only to Bitlocker drives](/docs/endpointpolicymanager/resources/video-tutorials/device/bitlockerdrives.md) topic for
+  [Restrict access only to Bitlocker drives](/docs/endpointpolicymanager/video/device/bitlockerdrives.md) topic for
   additional information.
 
 ## Phone / WPD Policies

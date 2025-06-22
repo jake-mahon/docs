@@ -3,16 +3,16 @@
 You might want to use Endpoint Policy Manager along with the following UEM tools:
 
 - MEMCM (formerly known as SCCM) (video:
-  [Perform Desktop Lockdown using Microsoft SCCM and Endpoint Policy Manager ](/docs/endpointpolicymanager/resources/video-tutorials/applicationsettings/integration/sccmsoftwarecenter.md))
+  [Perform Desktop Lockdown using Microsoft SCCM and Endpoint Policy Manager ](/docs/endpointpolicymanager/video/applicationsettings/integration/sccmsoftwarecenter.md))
 - Microsoft Intune (video:
-  [Endpoint Policy Manager and Microsoft Intune](/docs/endpointpolicymanager/resources/video-tutorials/mdm/microsoftintune.md))
+  [Endpoint Policy Manager and Microsoft Intune](/docs/endpointpolicymanager/video/mdm/microsoftintune.md))
 - Symantec Altiris
 - Dell KACE
 - LabTech
 - PDQ Deploy (videos:
-  [Deploy and Manage Firefox with PDQ Deploy and Endpoint Policy Manager ](/docs/endpointpolicymanager/resources/video-tutorials/applicationsettings/integration/pdqdeployfirefox.md)
+  [Deploy and Manage Firefox with PDQ Deploy and Endpoint Policy Manager ](/docs/endpointpolicymanager/video/applicationsettings/integration/pdqdeployfirefox.md)
   and
-  [Deploy and Manage WinZip with PDQ Deploy and Endpoint Policy Manager ](/docs/endpointpolicymanager/resources/video-tutorials/applicationsettings/integration/pdqdeploy.md))
+  [Deploy and Manage WinZip with PDQ Deploy and Endpoint Policy Manager ](/docs/endpointpolicymanager/video/applicationsettings/integration/pdqdeploy.md))
 - Specops Deploy
 - Microsoft Group Policy Software Installation
 - Manual installation (when running with admin privileges)
@@ -59,7 +59,7 @@ than if you try other items, so we suggest you start with these examples.
 Below are two videos you can use to get familiar with how to export settings and then use them with
 a UEM tool.
 
-- [Deploy Real Group Policy using SCCM or Other Management System!](/docs/endpointpolicymanager/resources/video-tutorials/methods/sccmgrouppolicy.md)
+- [Deploy Real Group Policy using SCCM or Other Management System!](/docs/endpointpolicymanager/video/methods/sccmgrouppolicy.md)
 - Deploy Endpoint Policy Manager Settings Using SCCM or Other Management System!
 
 ## Quick Start with MSI files and an MDM Tool
@@ -67,7 +67,7 @@ a UEM tool.
 To get started quickly with our sample MSI files and an MDM tool, we recommend watching the
 following video:
 
-- [Endpoint Policy Manager and MDM walk before you run](/docs/endpointpolicymanager/resources/video-tutorials/mdm/testsample.md)
+- [Endpoint Policy Manager and MDM walk before you run](/docs/endpointpolicymanager/video/mdm/testsample.md)
 
 Then, you can learn more about how to use Endpoint Policy Manager with your own MDM tool on this
-page: Getting Started with MDM > [Video Learning Center](/docs/endpointpolicymanager/resources/video-tutorials.md).
+page: Getting Started with MDM > [Video Learning Center](/docs/endpointpolicymanager/video/).

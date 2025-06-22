@@ -14,4 +14,4 @@ setting by disabling the internal item-level targeting.
 
 To see a demonstration video about Internal Filters and bypassing them, please see this
 
-[Bypassing Internal Item Level Targeting Filters](/docs/endpointpolicymanager/resources/video-tutorials/applicationsettings/itemleveltargetingbypass.md)
+[Bypassing Internal Item Level Targeting Filters](/docs/endpointpolicymanager/video/applicationsettings/itemleveltargetingbypass.md)

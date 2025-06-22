@@ -1,7 +1,7 @@
 # Scenario 2: Specific Rule to Block an App from Being Run, Even as Local System
 
 **NOTE:** For an overview of this scenario, see the
-[Block PowerShell in General, Open up for specific items](/docs/endpointpolicymanager/resources/video-tutorials/leastprivilege/bestpractices/powershellblock.md)
+[Block PowerShell in General, Open up for specific items](/docs/endpointpolicymanager/video/leastprivilege/bestpractices/powershellblock.md)
 video demo.
 
 You might want to explicitly block attack vectors such as PSEXEC (which was used in WannaCry) or

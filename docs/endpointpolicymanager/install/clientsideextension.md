@@ -34,7 +34,7 @@ In the next section, we will discuss the following three main ideas:
 Our recommended tool of choice to get the Endpoint Policy Manager CSE deployed to multiple machines
 is PDQ Deploy. PDQ Deploy has a free mode and a paid mode, which is reasonably priced. You can see
 how to deploy a package with PDQ Deploy please see the
-[Managing Group Policy using Endpoint Policy Manager and PDQ Deploy](/docs/endpointpolicymanager/integrations/third-party-integrations/pdqdeploy.md)
+[Managing Group Policy using Endpoint Policy Manager and PDQ Deploy](/docs/endpointpolicymanager/integration/pdqdeploy.md)
 topic for additional information.
 
 ## MDM, UEM, or RMM Tools

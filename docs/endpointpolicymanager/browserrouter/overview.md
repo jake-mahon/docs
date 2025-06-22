@@ -1,7 +1,7 @@
 # Browser Router
 
 **NOTE:** Before reading this section, please ensure you have read
-[Installation Quick Start](/docs/endpointpolicymanager/getting-started/quickstart/overviewinstall.md), which explain how to:
+[Installation Quick Start](/docs/endpointpolicymanager/gettingstarted/quickstart/overviewinstall.md), which explain how to:
 
 - Install the Admin MSI on your GPMC machine
 - Install the CSE on a test Windows machine
@@ -11,11 +11,11 @@
 Optionally, if you don't want to use Group Policy, read the sectionon **Advanced Concepts on Group
 Policy and non-Group Policy methods** (MEMCM, KACE, and MDM service or Netwrix Endpoint Policy
 Manager (formerly PolicyPak) Cloud), located
-in[Using Endpoint Policy Manager with MDM and UEM Tools](/docs/endpointpolicymanager/cloud-and-remote-management/mdm-integration/uemtools.md). This information on
+in[Using Endpoint Policy Manager with MDM and UEM Tools](/docs/endpointpolicymanager/mdm/uemtools.md). This information on
 how to deploy your directives.
 
 **NOTE:** Watch this video for an overview of Endpoint Policy Manager Browser Router:
-[](http://www.endpointpolicymanager.com/video/endpointpolicymanager-browser-router-ensure-users-utilize-the-right-browser-for-the-right-website.html)[Ensure users utilize the RIGHT browser for the right website !](/docs/endpointpolicymanager/resources/video-tutorials/browserrouter/rightbrowser.md).
+[](http://www.endpointpolicymanager.com/video/endpointpolicymanager-browser-router-ensure-users-utilize-the-right-browser-for-the-right-website.html)[Ensure users utilize the RIGHT browser for the right website !](/docs/endpointpolicymanager/video/browserrouter/rightbrowser.md).
 
 Let's say you wanted to apply the following routing policies:
 
@@ -35,7 +35,7 @@ Browser Router enables you to perform the following functions:
 - Create exact criteria for when specific websites should open, and in which browser.
 - Export policies or collections as XML files (which can be used with Endpoint Policy Manager
   Exporter and Endpoint Policy Manager Cloud). See
-  [Using Endpoint Policy Manager with MDM and UEM Tools](/docs/endpointpolicymanager/cloud-and-remote-management/mdm-integration/uemtools.md) for more details.
+  [Using Endpoint Policy Manager with MDM and UEM Tools](/docs/endpointpolicymanager/mdm/uemtools.md) for more details.
 - Set custom messages when you have blocked a website.
 - Dynamically set Internet Explorer 11 Enterprise Mode (IE 11 EM) and Document Modes site lists.
 - Automatically write Internet Explorer 11 EM version 1 or version 2 site lists, based on the
@@ -71,7 +71,7 @@ settings over the Internet, even to non-domain-joined machines.
 
 **NOTE:** You can also use Endpoint Policy Manager Browser Router with your Citrix or RDS servers.
 See the following video for more information:
-[Using PP Browser Router on Citrix or RDS servers with published browser applications](/docs/endpointpolicymanager/resources/video-tutorials/browserrouter/citrix.md).
+[Using PP Browser Router on Citrix or RDS servers with published browser applications](/docs/endpointpolicymanager/video/browserrouter/citrix.md).
 
 ## Endpoint Policy Manager Browser Router Moving Parts
 

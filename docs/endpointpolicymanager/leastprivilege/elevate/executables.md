@@ -1,7 +1,7 @@
 # Elevating Executables
 
 **NOTE:** For an overview of how to elevate applications that need admin rights, see the
-[Kill Local Admin Rights (Run applications with Least Privilege)](/docs/endpointpolicymanager/resources/video-tutorials/leastprivilege/localadminrights.md)
+[Kill Local Admin Rights (Run applications with Least Privilege)](/docs/endpointpolicymanager/video/leastprivilege/localadminrights.md)
 video.
 
 In the previous section, we observed that when a Standard User tries to run Process Monitor, they
@@ -39,7 +39,7 @@ by using two conditions.
 
 You’ll then be asked if you want this policy to be related to an action within Netwrix Privilege
 Secure. For now, we’ll skip this (leave unchecked) and we’ll return back to it in the
-[Endpoint Policy Manager & Netwrix Privilege Secure](/docs/endpointpolicymanager/integrations/third-party-integrations/privilegesecure/overview.md)
+[Endpoint Policy Manager & Netwrix Privilege Secure](/docs/endpointpolicymanager/integration/privilegesecure/overview.md)
 topic. Future examples will purposely omit this step until we need it.
 
 ![A screenshot of a computer
@@ -92,16 +92,16 @@ These action types are:
 These Options are:
 
 - **Apply on demand**. Enables the elevation only when application is right-clicked. For more
-  information on this, see[Apply on Demand Rules](/docs/endpointpolicymanager/security-and-privilege-management/least-privilege-manager/rules/apply/ondemand.md).
+  information on this, see[Apply on Demand Rules](/docs/endpointpolicymanager/leastprivilege/rules/apply/ondemand.md).
 - **Do not generate events**. PolicyPak logs items in the Windows event log. Setting this item
   configured (checked) means that events will not be logged when this process is run.
 - **Do not elevate Open/Save dialog**. By default Endpoint Policy Manager will prevent child
   processes from gaining elevation thru the Open/Save dialogs. See the
-  [Best Practices and Miscellaneous Topics](/docs/endpointpolicymanager/security-and-privilege-management/least-privilege-manager/bestpractices/overviewmisc.md) topic for additional
+  [Best Practices and Miscellaneous Topics](/docs/endpointpolicymanager/leastprivilege/bestpractices/overviewmisc.md) topic for additional
   information.
 - **Show popup message**. Optional requirement to either force the user to reauthenticate and/or put
   in Justification text before the process starts. See the
-  [Best Practices and Miscellaneous Topics](/docs/endpointpolicymanager/security-and-privilege-management/least-privilege-manager/bestpractices/overviewmisc.md) for additional
+  [Best Practices and Miscellaneous Topics](/docs/endpointpolicymanager/leastprivilege/bestpractices/overviewmisc.md) for additional
   information.
 
 The next page provides the opportunity to enhance this policy with these final touches:
@@ -109,13 +109,13 @@ The next page provides the opportunity to enhance this policy with these final t
 - **Name**
 - **Comment**
 - **State** (default is enabled)
-- **Scope**. See the [Best Practices and Miscellaneous Topics](/docs/endpointpolicymanager/security-and-privilege-management/least-privilege-manager/bestpractices/overviewmisc.md) for
+- **Scope**. See the [Best Practices and Miscellaneous Topics](/docs/endpointpolicymanager/leastprivilege/bestpractices/overviewmisc.md) for
   additional information.
 - **Item-Level Targeting**. See the
-  [Best Practices and Miscellaneous Topics](/docs/endpointpolicymanager/security-and-privilege-management/least-privilege-manager/bestpractices/overviewmisc.md) for additional
+  [Best Practices and Miscellaneous Topics](/docs/endpointpolicymanager/leastprivilege/bestpractices/overviewmisc.md) for additional
   information.
 - **Parent Process filter**. See the
-  [Best Practices and Miscellaneous Topics](/docs/endpointpolicymanager/security-and-privilege-management/least-privilege-manager/bestpractices/overviewmisc.md) for additional
+  [Best Practices and Miscellaneous Topics](/docs/endpointpolicymanager/leastprivilege/bestpractices/overviewmisc.md) for additional
   information.
 
 ![A screenshot of a computer

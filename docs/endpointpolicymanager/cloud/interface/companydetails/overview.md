@@ -5,7 +5,7 @@ and feel of things, but many others are security related.
 
 For an overview of the major Endpoint Policy Manager Cloud security features (2FA, admin roles,
 notifications, IP block restrictions, etc.) check out this video:
-[Endpoint Policy Manager Cloud: Security Features](/docs/endpointpolicymanager/resources/video-tutorials/cloud/security/features.md).
+[Endpoint Policy Manager Cloud: Security Features](/docs/endpointpolicymanager/video/cloud/security/features.md).
 
 ![web_interface_and_controls_70_624x296](/img/product_docs/endpointpolicymanager/endpointpolicymanager/cloud/interface/companydetails/web_interface_and_controls_70_624x296.webp)
 
@@ -31,7 +31,7 @@ Additionally, we'll explore the actions available to us in the **Company Details
 ## Company Details Section
 
 Video: For an overview of this section, see this video:
-[Endpoint Policy Manager Cloud: Strict vs. Loose Computer Registration Mode](/docs/endpointpolicymanager/resources/video-tutorials/cloud/registrationmode.md).
+[Endpoint Policy Manager Cloud: Strict vs. Loose Computer Registration Mode](/docs/endpointpolicymanager/video/cloud/registrationmode.md).
 
 The **Company Details** section under the **Company Details** tab allows you to change your company
 display name and time zone, which is used for reporting on log files. However, the most important

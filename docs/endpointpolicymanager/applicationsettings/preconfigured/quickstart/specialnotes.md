@@ -6,7 +6,7 @@ similar to what we saw in the Quickstart with WinZip.
 However, UI lockout is implemented differently and, as such, comes with a caveat.
 
 **NOTE:** To see a video of Firefox UI lockout in action, watch the following video(s):
-[Understanding and fixing Endpoint Policy Manager DLL Orphans](/docs/endpointpolicymanager/resources/video-tutorials/applicationsettings/dllorphans.md).
+[Understanding and fixing Endpoint Policy Manager DLL Orphans](/docs/endpointpolicymanager/video/applicationsettings/dllorphans.md).
 
 **NOTE:** To see a video of Thunderbird UI lockout in action, watch the following video(s):
 [http://www.endpointpolicymanager.com/products/manage-thunderbird-with-group-policy.html](https://www.endpointpolicymanager.com/video/endpointpolicymanager-the-superpowers.html).

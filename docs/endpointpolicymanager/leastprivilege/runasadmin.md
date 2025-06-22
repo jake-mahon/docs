@@ -5,9 +5,9 @@ users to elevate the native printers’ dialog, known as elevating NTPRINT.EXE, 
 Windows Settings control (SystemSettingsAdminFlows.exe). You can review examples of these changes in
 these two videos:
 
-[Endpoint Privilege Manager: Install Printers via Native NTPRINT Dialog](/docs/endpointpolicymanager/resources/video-tutorials/leastprivilege/ntprintdialog.md)
+[Endpoint Privilege Manager: Install Printers via Native NTPRINT Dialog](/docs/endpointpolicymanager/video/leastprivilege/ntprintdialog.md)
 
-[Endpoint Privilege Manager: Edit IP SETTINGS EDIT VIA WIN GUI](/docs/endpointpolicymanager/resources/video-tutorials/leastprivilege/wingui.md)
+[Endpoint Privilege Manager: Edit IP SETTINGS EDIT VIA WIN GUI](/docs/endpointpolicymanager/video/leastprivilege/wingui.md)
 
 When we added this functionality, we also had to also change the behavior for any explicit elevation
 request normally handled by **Run As Administrator** requests.
@@ -15,7 +15,7 @@ request normally handled by **Run As Administrator** requests.
 Starting in Endpoint Policy Manager CSE 3425, you can modify the Run As Administrator behavior
 depending on the goal you would like to accomplish. You can use Endpoint Policy Manager ADMX
 settings to control it. Use this reference to get familiar with the Endpoint Policy Manager ADMX
-first: [Troubleshooting with ADMX files](/docs/endpointpolicymanager/resources/video-tutorials/troubleshooting/admxfiles.md)
+first: [Troubleshooting with ADMX files](/docs/endpointpolicymanager/video/troubleshooting/admxfiles.md)
 
 ![862_1_image-20230228200619-1_950x319](/img/product_docs/endpointpolicymanager/endpointpolicymanager/leastprivilege/862_1_image-20230228200619-1_950x319.webp)
 
@@ -77,7 +77,7 @@ legacy Printer elevation method within “Endpoint Policy Manager Helper Tools�
 operations in this mode, because it doesn’t rely on the updated functionality to perform elevation
 directly upon NTPRINT.EXE. To see the Endpoint Policy Manager Helper Tools in action to add
 printers, please refer to these videos: Least Privilege Manager >
-[Video Learning Center](/docs/endpointpolicymanager/resources/video-tutorials.md).
+[Video Learning Center](/docs/endpointpolicymanager/video/).
 
 ## Scenario 3: I want to use the native tools to elevate printers (aka NTPRINT.EXE) AND Windows Settings (aka SystemSettingsAdminFlows.exe) and I also sometimes need to perform Run as administrator operations.
 

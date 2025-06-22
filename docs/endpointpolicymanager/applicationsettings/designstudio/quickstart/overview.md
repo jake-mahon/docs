@@ -6,7 +6,7 @@ from your existing applications, such as WinZip, and bring them into the Endpoin
 format for later use inside Group Policy Objects (GPOs).
 
 Video: To see an overview of how to use Endpoint Policy Manager DesignStudio, watch this video:
-[Creating Your First Pak using Endpoint Policy Manager Design Studio](/docs/endpointpolicymanager/resources/video-tutorials/applicationsettings/designstudio/firstpak.md).
+[Creating Your First Pak using Endpoint Policy Manager Design Studio](/docs/endpointpolicymanager/video/applicationsettings/designstudio/firstpak.md).
 
 **NOTE:** The Endpoint Policy Manager format is properly called "pXML" format. You most likely will
 never need to edit any pXML files by hand, but you're welcome to open up and explore the files that

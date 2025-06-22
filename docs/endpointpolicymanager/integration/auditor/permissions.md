@@ -9,7 +9,7 @@ to do to minimize or eliminate these requests. An example authentication request
 **NOTE:** First, note that if your browser is Firefox you must set the "URIS / SPNEGO" settings to
 passthru authentication requests. One way to do this is via Endpoint Policy Manager Application
 Settings Manager with these instructions:
-[Firefox: How do I use the NTLM passthru (URIS) settings in the Firefox / about:config AppSets?](/docs/endpointpolicymanager/application-management/application-settings/preconfigured-applications/firefox/ntlmpassthru.md).
+[Firefox: How do I use the NTLM passthru (URIS) settings in the Firefox / about:config AppSets?](/docs/endpointpolicymanager/applicationsettings/preconfigured/firefox/ntlmpassthru.md).
 You may also use the Firefox ADMX settings to perform a similar option.
 
 If you are using Edge as your default browser, these steps are un-necessary and you will likely not

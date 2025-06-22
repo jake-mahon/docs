@@ -37,7 +37,7 @@ groups, you should install the PPC Client using the command line instead, for ex
 The JOINTOKEN value is specific to each environment, the value used above is provided as an example
 only. For more information on using JOINTOKEN to automatically assign computers to computer groups
 in PPC please see this video:
-[Endpoint Policy Manager Cloud: Automatically Join Groups with JOINTOKEN](/docs/endpointpolicymanager/resources/video-tutorials/cloud/jointoken.md)
+[Endpoint Policy Manager Cloud: Automatically Join Groups with JOINTOKEN](/docs/endpointpolicymanager/video/cloud/jointoken.md)
 
 **Step 5 –** Next, create an empty text file named `logoff.bat` under the same folder where we saved
 the PPC Client MSI earlier (`C:\PPC Client`). Edit `logoff.bat` using notepad and add the line

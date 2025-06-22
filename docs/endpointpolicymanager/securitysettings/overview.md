@@ -1,7 +1,7 @@
 # Security Settings Manager
 
 **NOTE:** Before reading this section, please ensure you have read Book 2:
-[Installation Quick Start](/docs/endpointpolicymanager/getting-started/quickstart/overviewinstall.md), which will help you
+[Installation Quick Start](/docs/endpointpolicymanager/gettingstarted/quickstart/overviewinstall.md), which will help you
 learn to do the following:
 
 - Install the Admin MSI on your GPMC machine
@@ -10,7 +10,7 @@ learn to do the following:
 - Set up a common OU structure
 
 Optionally, if you don't want to use Group Policy, read the section in Appendix A:
-[Using Endpoint Policy Manager with MDM and UEM Tools](/docs/endpointpolicymanager/cloud-and-remote-management/mdm-integration/uemtools.md) to deploy your
+[Using Endpoint Policy Manager with MDM and UEM Tools](/docs/endpointpolicymanager/mdm/uemtools.md) to deploy your
 directives.
 
 Netwrix Endpoint Policy Manager (formerly PolicyPak) Security Settings Manager enables

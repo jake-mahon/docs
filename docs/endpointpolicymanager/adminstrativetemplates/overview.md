@@ -1,7 +1,7 @@
 # Administrative Templates Manager
 
 **NOTE:** Before reading this section, please see the
-[Installation Quick Start](/docs/endpointpolicymanager/getting-started/quickstart/overviewinstall.md) topic  for more
+[Installation Quick Start](/docs/endpointpolicymanager/gettingstarted/quickstart/overviewinstall.md) topic  for more
 information on the following:
 
 - Install the Admin MSI on your GPMC machine
@@ -10,14 +10,14 @@ information on the following:
 - Set up a common OU structure
 
 Optionally, if you don't want to use Group Policy, see the
-[Using Endpoint Policy Manager with MDM and UEM Tools](/docs/endpointpolicymanager/cloud-and-remote-management/mdm-integration/uemtools.md) topic for more
+[Using Endpoint Policy Manager with MDM and UEM Tools](/docs/endpointpolicymanager/mdm/uemtools.md) topic for more
 information.
 
 Endpoint Policy Manager Admin Templates Manager enables administrators to harness the existing power
 of Microsoft's 3000+ Admin Template settings and a lot more.
 
 **NOTE:** See the
-[Endpoint Policy Manager Admin Templates: Collections and Item Level Targeting](/docs/endpointpolicymanager/resources/video-tutorials/administrativetemplates/collections.md)
+[Endpoint Policy Manager Admin Templates: Collections and Item Level Targeting](/docs/endpointpolicymanager/video/administrativetemplates/collections.md)
 topic for more in formation on Endpoint Policy Manager Admin Templates Manager.
 
 ![about_policypak_admin_templates](/img/product_docs/endpointpolicymanager/endpointpolicymanager/adminstrativetemplates/about_endpointpolicymanager_admin_templates.webp)
@@ -38,7 +38,7 @@ Endpoint Policy Manager Admin Templates Manager enables you to perform the follo
 - Search for policies that match certain words in their titles or help text
 - Export policies or collections as XML files (available with Endpoint Policy Manager Exporter and
   Endpoint Policy Manager Cloud). See the
-  [Using Endpoint Policy Manager with MDM and UEM Tools](/docs/endpointpolicymanager/cloud-and-remote-management/mdm-integration/uemtools.md) topic for more
+  [Using Endpoint Policy Manager with MDM and UEM Tools](/docs/endpointpolicymanager/mdm/uemtools.md) topic for more
   information on using Endpoint Policy Manager with MDM and UEM Tools.
 
 The basic way to use Endpoint Policy Manager Admin Templates Manager is as follows:

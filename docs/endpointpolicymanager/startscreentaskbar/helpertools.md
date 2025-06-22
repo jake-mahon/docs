@@ -8,10 +8,10 @@ This article will explain the process of adding the helper to the Windows Start 
 right side.
 
 For more information on the Helper Tools, click
-[Overcome Network Card, Printer, and Remove Programs UAC prompts](/docs/endpointpolicymanager/resources/video-tutorials/leastprivilege/uacprompts.md).
+[Overcome Network Card, Printer, and Remove Programs UAC prompts](/docs/endpointpolicymanager/video/leastprivilege/uacprompts.md).
 
 To enable the helper tools and give the power to the users, click
-[Endpoint Policy Manager Least Priv Manager Tools Setup](/docs/endpointpolicymanager/resources/video-tutorials/leastprivilege/toolssetup.md), and
+[Endpoint Policy Manager Least Priv Manager Tools Setup](/docs/endpointpolicymanager/video/leastprivilege/toolssetup.md), and
 follow the directions. The helper tool must be enabled to work.
 
 ## Adding the LPM Helper Tools to the Right Start Menu

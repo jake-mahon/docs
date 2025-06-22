@@ -10,7 +10,7 @@ The fastest way to automate this is with Netwrix Endpoint Policy Manager (former
 Application Settings Manager Java AppSets. Starting with Java 7 U 25 they all have this feature.
 
 **NOTE:** See
-[Manage and Lock down Java Site List Exceptions](/docs/endpointpolicymanager/resources/video-tutorials/applicationsettings/java/lockdown.md)
+[Manage and Lock down Java Site List Exceptions](/docs/endpointpolicymanager/video/applicationsettings/java/lockdown.md)
 for additional information.
 
 Here are some other Endpoint Policy Manager Application Settings Manager Java prompts you may

@@ -20,7 +20,7 @@ list.
 The fastest way to automate this is with Netwrix Endpoint Policy Manager (formerly PolicyPak)
 Application Settings Manager's Java Paks (any of them starting with Java 7 U 25 have this feature).
 The video is here:
-[Manage and Lock down Java Site List Exceptions](/docs/endpointpolicymanager/resources/video-tutorials/applicationsettings/java/lockdown.md).
+[Manage and Lock down Java Site List Exceptions](/docs/endpointpolicymanager/video/applicationsettings/java/lockdown.md).
 
 Other Java prompts you might encounter, which Endpoint Policy Manager Application Settings Manager
 can overcome are:
@@ -46,7 +46,7 @@ Then they are asked to "Allow Now" or "Allow and Remember".
 
 The fastest way to automate "Allow and Remember" for Firefox per website is to read and follow this
 KB:
-[Firefox: How do I set "Allow Now", "Allow and Remember" or "Block Plugin" as plug-ins are requested?](/docs/endpointpolicymanager/application-management/application-settings/preconfigured-applications/firefox/allowremember.md)
+[Firefox: How do I set "Allow Now", "Allow and Remember" or "Block Plugin" as plug-ins are requested?](/docs/endpointpolicymanager/applicationsettings/preconfigured/firefox/allowremember.md)
 
 ### Type 3: Java Messages Specifically Found in Internet Explorer
 

@@ -15,9 +15,9 @@ The Endpoint Policy Manager Cloud client can be invoked from an elevated command
   within groups.
 - `/sysprep`: Used to install the Endpoint Policy Manager Cloud client on a virtual desktop image.
   See "Option 2" in this KB article:
-  [How to install the Endpoint Policy Manager Cloud Client for use in an Azure Virtual Desktop image](/docs/endpointpolicymanager/integrations/third-party-integrations/azurevirutaldesktop.md).
+  [How to install the Endpoint Policy Manager Cloud Client for use in an Azure Virtual Desktop image](/docs/endpointpolicymanager/integration/azurevirutaldesktop.md).
   Or see this article:
-  [How to install and configure the PPC Client for a Non-Persistent VDI Image in VMware Horizon](/docs/endpointpolicymanager/integrations/third-party-integrations/vdisolutions.md).
+  [How to install and configure the PPC Client for a Non-Persistent VDI Image in VMware Horizon](/docs/endpointpolicymanager/integration/vdisolutions.md).
 - `/unregister`: Used to un-register a machine from Endpoint Policy Manager Cloud and reclaim a
   license. Used with a virtual desktops scenario.
 - `/jointoken:value`: Used in conjunction with the `/sysprep `switch to automatically join a

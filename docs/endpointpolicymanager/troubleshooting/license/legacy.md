@@ -32,7 +32,7 @@
 
 - Please watch this video to help you determine your position and situation plus some advice on what
   to do.
-- Video: [Legacy License Retirement Guidance (for Feb 28, 2023)](/docs/endpointpolicymanager/resources/video-tutorials/license/legacy.md)
+- Video: [Legacy License Retirement Guidance (for Feb 28, 2023)](/docs/endpointpolicymanager/video/license/legacy.md)
 
 ## Where can I get UNIVERSAL licenses?
 
@@ -79,14 +79,14 @@ update your CSE.
 
 - Please honor the philosophy of Rings and don't "blast out" an upgrade CSE to all of your computers
   at once so you can control a rollout or a rollback. Use
-  this guidance: [Using Rings to Test and Update the Endpoint Policy Manager Client-Side Extension and/or Cloud Client (And How to Stay Supported)](/docs/endpointpolicymanager/installation-and-deployment/rings.md)
+  this guidance: [Using Rings to Test and Update the Endpoint Policy Manager Client-Side Extension and/or Cloud Client (And How to Stay Supported)](/docs/endpointpolicymanager/install/rings.md)
 
 ## How can I install UNIVERSAL licenses once I have downloaded them?
 
 - First, upgrade your Admin Console MMC snap in with the latest download from the portal. Only the
   latest Admin Consoles can import Universal licenses.
 - Video:
-  [How to install UNIVERSAL licenses for NEW Customers (via GPO, SCCM or MDM)](/docs/endpointpolicymanager/resources/video-tutorials/license/installuniversal.md)
+  [How to install UNIVERSAL licenses for NEW Customers (via GPO, SCCM or MDM)](/docs/endpointpolicymanager/video/license/installuniversal.md)
 
   **NOTE:**   You cannot import both Legacy and Universal licenses into the same GPO. You need
   separate GPOs for both license types. If you try to put both licenses into the same GPO you will
@@ -103,7 +103,7 @@ update your CSE.
   28, 2023.
 
   **NOTE:** Exact behavior when licenses expire can be seen here:
-  [What happens to each component when Endpoint Policy Manager gets unlicensed or the GPO or policy no longer applies?](/docs/endpointpolicymanager/licensing/unlicense/components.md)
+  [What happens to each component when Endpoint Policy Manager gets unlicensed or the GPO or policy no longer applies?](/docs/endpointpolicymanager/license/unlicense/components.md)
 
 ## What if I'm applying both Universal and Legacy licenses to an endpoint?
 

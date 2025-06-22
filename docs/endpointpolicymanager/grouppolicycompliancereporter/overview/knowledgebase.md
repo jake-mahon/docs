@@ -6,7 +6,7 @@ See the following Knowledge Base articles for Endpoint Policy Manager GP Complia
 
 - [What scenarios is PPGPCR not well suited for today?](/docs/endpointpolicymanager/compliance-and-reporting/group-policy-compliance-reporter/scenarios.md)
 - [Do I need the Group Policy Compliance Reporter product if I use Endpoint Policy ManagerCloud or Endpoint Policy Manager MDM? (Or, how do I get delivery reports for Group Policy, Cloud or MDM directives?)](/docs/endpointpolicymanager/compliance-and-reporting/group-policy-compliance-reporter/deliveryreports.md)
-- [What are the storage requirements when using PPGPCR with SQL server?](/docs/endpointpolicymanager/platform-specific/windows-requirements/gpocompilancereporter/sqlserver.md)
+- [What are the storage requirements when using PPGPCR with SQL server?](/docs/endpointpolicymanager/requirements/gpocompilancereporter/sqlserver.md)
 - [Installing and Configuring Endpoint Policy Manager GPCR for use with SQL Server using SQL Authentication](/docs/endpointpolicymanager/compliance-and-reporting/group-policy-compliance-reporter/install.md)
 
 ## Getting Licensed

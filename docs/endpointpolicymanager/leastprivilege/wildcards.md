@@ -1,12 +1,12 @@
 # Using Wildcards with Endpoint Privilege Manager and Certificates
 
 **NOTE:** See the
-[Endpoint Privilege Manager and Wildcards](/docs/endpointpolicymanager/resources/video-tutorials/leastprivilege/bestpractices/wildcards.md) video
+[Endpoint Privilege Manager and Wildcards](/docs/endpointpolicymanager/video/leastprivilege/bestpractices/wildcards.md) video
 on how to use Endpoint Policy Manager Least Privilege Manager and Certificate Wildcards.
 
 Applications like Zoom, GotoMeeting, Webex and others often have certificates which change from time
 to time. So even if you’ve set up the best practice of Certificate + File Info rules (like we
-discussed in the [Best Practices](/docs/endpointpolicymanager/security-and-privilege-management/least-privilege-manager/bestpractices/overview.md) section), those automatic rules can go
+discussed in the [Best Practices](/docs/endpointpolicymanager/leastprivilege/bestpractices/overview.md) section), those automatic rules can go
 out of date quickly.
 
 To allow Endpoint Policy Manager Least Privilege Manager to permit Wildcards in Certificate

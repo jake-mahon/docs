@@ -1,7 +1,7 @@
 # Quick Start - Mapping Extensions to Applications
 
 **NOTE:** For some video overviews of Endpoint Policy Manager File Associations Manager, see the
-[Endpoint Policy Manager Cloud: Managing File Assocations](/docs/endpointpolicymanager/resources/video-tutorials/fileassociations/cloud.md) topic
+[Endpoint Policy Manager Cloud: Managing File Assocations](/docs/endpointpolicymanager/video/fileassociations/cloud.md) topic
 for additional information.
 
 Even after applications such as Acrobat, Metro Media Player, and Outlook are installed, those

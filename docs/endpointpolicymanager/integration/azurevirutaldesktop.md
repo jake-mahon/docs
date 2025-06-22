@@ -40,7 +40,7 @@ For Example:
 
 For more information on creating and using a JOINTOKEN to automatically assign computers to computer
 groups in PPC please see this video KB:
-[Endpoint Policy Manager Cloud: Automatically Join Groups with JOINTOKEN](/docs/endpointpolicymanager/resources/video-tutorials/cloud/jointoken.md)
+[Endpoint Policy Manager Cloud: Automatically Join Groups with JOINTOKEN](/docs/endpointpolicymanager/video/cloud/jointoken.md)
 
 **NOTE:** For Persistent VMs skip steps 4-7 below.
 
@@ -103,7 +103,7 @@ For Example:
 
 For more information on creating and using a JOINTOKEN to automatically assign computers to computer
 groups in PPC please see this video:
-[Endpoint Policy Manager Cloud: Automatically Join Groups with JOINTOKEN](/docs/endpointpolicymanager/resources/video-tutorials/cloud/jointoken.md)
+[Endpoint Policy Manager Cloud: Automatically Join Groups with JOINTOKEN](/docs/endpointpolicymanager/video/cloud/jointoken.md)
 
 OPTIONAL: Run `PPCloud /sync` from a command prompt to verify that you see the correct groups
 assigned. In my example I am using a JOINTOKEN for a computer group called Testing so I see the

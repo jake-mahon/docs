@@ -1,6 +1,6 @@
 # Branding and Customization
 
-**NOTE:** See the [Branding the UI and Dialogs](/docs/endpointpolicymanager/resources/video-tutorials/leastprivilege/branding.md) video for an
+**NOTE:** See the [Branding the UI and Dialogs](/docs/endpointpolicymanager/video/leastprivilege/branding.md) video for an
 overview of Branding and Customization.
 
 You can customized many of the dialogs presented to users. You start out by creating a Global

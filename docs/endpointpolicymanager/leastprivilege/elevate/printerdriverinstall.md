@@ -4,11 +4,11 @@ These directions should only be performed if asked by support. The normal method
 driver installation is to use the Netwrix Endpoint Policy Manager (formerly PolicyPak) Helper tools.
 The following videos provide you with step by step instructions:
 
-- [Overcome Network Card, Printer, and Remove Programs UAC prompts](/docs/endpointpolicymanager/resources/video-tutorials/leastprivilege/uacprompts.md)
-- [Endpoint Policy Manager Least Priv Manager Tools Setup](/docs/endpointpolicymanager/resources/video-tutorials/leastprivilege/toolssetup.md)
-- [Getting the helper tools as desktop shortcuts](/docs/endpointpolicymanager/resources/video-tutorials/leastprivilege/helperdesktopshortcut.md)
-- [Endpoint Privilege Manager: Install Printers via Native NTPRINT Dialog](/docs/endpointpolicymanager/resources/video-tutorials/leastprivilege/ntprintdialog.md)
-- [Endpoint Privilege Manager: Edit IP SETTINGS EDIT VIA WIN GUI](/docs/endpointpolicymanager/resources/video-tutorials/leastprivilege/wingui.md)
+- [Overcome Network Card, Printer, and Remove Programs UAC prompts](/docs/endpointpolicymanager/video/leastprivilege/uacprompts.md)
+- [Endpoint Policy Manager Least Priv Manager Tools Setup](/docs/endpointpolicymanager/video/leastprivilege/toolssetup.md)
+- [Getting the helper tools as desktop shortcuts](/docs/endpointpolicymanager/video/leastprivilege/helperdesktopshortcut.md)
+- [Endpoint Privilege Manager: Install Printers via Native NTPRINT Dialog](/docs/endpointpolicymanager/video/leastprivilege/ntprintdialog.md)
+- [Endpoint Privilege Manager: Edit IP SETTINGS EDIT VIA WIN GUI](/docs/endpointpolicymanager/video/leastprivilege/wingui.md)
 
 Printui.dll is the executable file that contains the functions to install a Print driver. Currently
 Endpoint Policy Manager can elevate a Control Panel applet, and it can be `.CPL` or `.DLL` files.

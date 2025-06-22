@@ -1,7 +1,7 @@
 # Apply on Demand Rules
 
 **NOTE:** See the
-[Least Privilege Manager: Apply On Demand](/docs/endpointpolicymanager/resources/video-tutorials/leastprivilege/applyondemand.md) video for
+[Least Privilege Manager: Apply On Demand](/docs/endpointpolicymanager/video/leastprivilege/applyondemand.md) video for
 information on Endpoint Policy ManagerLeast Privilege Manager Apply on Demand.
 
 The Apply on Demand feature enables advanced users to know when they should self-elevate their own
@@ -43,7 +43,7 @@ generated](/img/product_docs/endpointpolicymanager/endpointpolicymanager/leastpr
 
 **NOTE:** You can change the name of the menu item from **Run with** Endpoint Policy Manager
 **On-Demand** via Global Settings Policy.. See the
-[Best Practices and Miscellaneous Topics](/docs/endpointpolicymanager/security-and-privilege-management/least-privilege-manager/bestpractices/overviewmisc.md) topic for additional
+[Best Practices and Miscellaneous Topics](/docs/endpointpolicymanager/leastprivilege/bestpractices/overviewmisc.md) topic for additional
 information on Global Settings Policy.
 
 When the user does this, the application launches, bypassing the UAC prompt.

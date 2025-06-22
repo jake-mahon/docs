@@ -1,6 +1,6 @@
 # Exporting Collections
 
-Appendix A: [Using Endpoint Policy Manager with MDM and UEM Tools](/docs/endpointpolicymanager/cloud-and-remote-management/mdm-integration/uemtools.md) explains how
+Appendix A: [Using Endpoint Policy Manager with MDM and UEM Tools](/docs/endpointpolicymanager/mdm/uemtools.md) explains how
 to use the Endpoint Policy Manager Exporter to wrap up any Endpoint Policy Manager directive and
 deliver it using Microsoft Endpoint Manager (SCCM and Intune), KACE, your own MDM service, or
 Endpoint Policy Manager Cloud. For Endpoint Policy Manager Cloud, you should automatically acquire a
@@ -14,7 +14,7 @@ Screen & Taskbar Manager.
 
 **NOTE:** For a video demonstrating the use of Endpoint Policy Manager Cloud with Endpoint Policy
 Manager Start Screen & Taskbar Manager, see
-[Endpoint Policy ManagerStart Screen & Taskbar Manager: Manage non-domain joined machines using Endpoint Policy Manager Cloud](/docs/endpointpolicymanager/resources/video-tutorials/startscreentaskbar/nondomainjoined.md).
+[Endpoint Policy ManagerStart Screen & Taskbar Manager: Manage non-domain joined machines using Endpoint Policy Manager Cloud](/docs/endpointpolicymanager/video/startscreentaskbar/nondomainjoined.md).
 
 To export a policy for later use with Endpoint Policy Manager Exporter or Endpoint Policy Manager
 Cloud, right-click the Start Screen Manager node, or a collection, and select "Export Collections as
@@ -22,7 +22,7 @@ XML," as demonstrated in Figure 51 and Figure 52.
 
 **NOTE:** For a video of exporting Endpoint Policy Manager Start Screen & Taskbar Manager and using
 Endpoint Policy Manager Exporter with an MDM service, watch
-[Endpoint Policy Manager and MDM walk before you run](/docs/endpointpolicymanager/resources/video-tutorials/mdm/testsample.md).
+[Endpoint Policy Manager and MDM walk before you run](/docs/endpointpolicymanager/video/mdm/testsample.md).
 
 ![collections_policy_settings_18](/img/product_docs/endpointpolicymanager/endpointpolicymanager/startscreentaskbar/collections_policy_settings_18.webp)
 
@@ -36,4 +36,4 @@ Note that exported collections or policies maintain any Item-Level Targeting set
 you've used items that represent Group Membership in Active Directory, then those items will only
 function when the machine is domain-joined. For more information about exporting settings and using
 Endpoint Policy Manager Exporter utility, see Appendix A:
-[Using Endpoint Policy Manager with MDM and UEM Tools](/docs/endpointpolicymanager/cloud-and-remote-management/mdm-integration/uemtools.md).
+[Using Endpoint Policy Manager with MDM and UEM Tools](/docs/endpointpolicymanager/mdm/uemtools.md).

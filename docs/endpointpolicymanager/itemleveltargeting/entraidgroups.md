@@ -4,7 +4,7 @@ You cannot do this directly. However, we have a set of unsupported scripts which
 this.
 
 We have videos for each scenario, which can be found here: Getting Started with MDM >
-[Video Learning Center](/docs/endpointpolicymanager/resources/video-tutorials.md) We recommend you watch all three
+[Video Learning Center](/docs/endpointpolicymanager/video/) We recommend you watch all three
 videos
 
 1. Using Netwrix Endpoint Policy Manager (formerly PolicyPak) Scripts to determine Azure AD Group

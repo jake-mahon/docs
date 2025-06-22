@@ -5,7 +5,7 @@ MDM service. Use this table below to determine how to get licensed:
 
 - Intune (Automatic) — Use the Endpoint Policy Manager Portal and download the BITS. Then run the
   Licensing Tool (LT) to acquire the information and save it to your License Request Key. See
-  [How to Request Licenses from Endpoint Policy Manager by Creating a "License Request Key"](/docs/endpointpolicymanager/resources/video-tutorials/license/licenserequestkey.md)
+  [How to Request Licenses from Endpoint Policy Manager by Creating a "License Request Key"](/docs/endpointpolicymanager/video/license/licenserequestkey.md)
 - Intune (Alternate) — Only if asked, follow the directions on this page.
 - VMware Workspace One — Follow the directions on this page.
 - Citrix CEM — Follow the directions on this page.
@@ -36,7 +36,7 @@ information:
 
 If you have a mix of on-prem AD machines, Azure joined machines and Hybrid Azure AD machines please
 see
- [If I have both Azure joined and Hybrid Azure AD joined machines, how do I count the exact number of licenses I need?](/docs/endpointpolicymanager/licensing/mdm/entraid.md)
+ [If I have both Azure joined and Hybrid Azure AD joined machines, how do I count the exact number of licenses I need?](/docs/endpointpolicymanager/license/mdm/entraid.md)
 for additional information on how to express your count.
 
 ## The Billing Process

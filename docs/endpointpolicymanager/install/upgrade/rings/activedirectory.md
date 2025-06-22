@@ -65,7 +65,7 @@ Auto-Updater. The CSE Auto-Updater will honor one of two types of rings procedur
   you separate your rings by the number of hours between updates.
 
 See the
-[How can I roll out the latest Endpoint Policy Manager CSE with Active Directory in a controlled manner using Rings ?](/docs/endpointpolicymanager/installation-and-deployment/ringsupgrade.md) topic
+[How can I roll out the latest Endpoint Policy Manager CSE with Active Directory in a controlled manner using Rings ?](/docs/endpointpolicymanager/install/ringsupgrade.md) topic
 for additional information.
 
 ## Endpoint Policy Manager CSE Auto-Updater in Reverse
@@ -100,5 +100,5 @@ other targeting, and then sending a CSE update to specific machines as you see f
 topic for additional information.
 
 See the
-[Using Remote Work Delivery Manager to Update the Endpoint Policy Manager Client Side Extension](/docs/endpointpolicymanager/resources/video-tutorials/remoteworkdelivery/updateclientsideextension.md)video for
+[Using Remote Work Delivery Manager to Update the Endpoint Policy Manager Client Side Extension](/docs/endpointpolicymanager/video/remoteworkdelivery/updateclientsideextension.md)video for
 additional information.

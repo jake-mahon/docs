@@ -3,7 +3,7 @@
 Before you decide you wish to use this method, consider first using the ADMX method to disable
 specific components. The ADMX method is recommended over hand-editing the license file, and has the
 same effect. Therefore please consider this method first. See
-[What if I want to unlicense specific components via ADMX or Endpoint Policy Manager Cloud?](/docs/endpointpolicymanager/licensing/unlicense/componentscloud.md)
+[What if I want to unlicense specific components via ADMX or Endpoint Policy Manager Cloud?](/docs/endpointpolicymanager/license/unlicense/componentscloud.md)
 
 However, if you wish to hard-unlicense a component via the license file, you may do that inside your
 Universal License file.
@@ -65,7 +65,7 @@ accept the `<disabled>` block. Additionally, only MMC snap-ins 23.8 and later wi
 Full licenses with the `<disabled>` block.
 
 First, identify which component(s) you wish to unlicense.
-[What CSEs are contained within Endpoint Policy Manager, what are their CSE GUIDs, and in what release did they appear?](/docs/endpointpolicymanager/installation-and-deployment/clientsideextension/guids.md)
+[What CSEs are contained within Endpoint Policy Manager, what are their CSE GUIDs, and in what release did they appear?](/docs/endpointpolicymanager/install/clientsideextension/guids.md)
 
 For instance, if you wanted to unlicense Netwrix Endpoint Policy Manager (formerly PolicyPak)
 Browser Router and also Endpoint Policy Manager Preferences 2.0 you would create an XML block like

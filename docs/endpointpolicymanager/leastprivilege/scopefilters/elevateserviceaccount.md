@@ -1,14 +1,14 @@
 # Scenario 4: Elevating a Service Account
 
 **NOTE:** For an overview of this scenario see the
-[Reduce or specify Service Account Rights](/docs/endpointpolicymanager/resources/video-tutorials/leastprivilege/bestpractices/serviceaccountrights.md)
+[Reduce or specify Service Account Rights](/docs/endpointpolicymanager/video/leastprivilege/bestpractices/serviceaccountrights.md)
 video.
 
 You might have a service which requires specific privileges. Maybe your service, by default, uses
 Local System, and you want to give it lessrights.
 
 With Endpoint Policy Manager
-[Reduce or specify Service Account Rights](/docs/endpointpolicymanager/resources/video-tutorials/leastprivilege/bestpractices/serviceaccountrights.md),
+[Reduce or specify Service Account Rights](/docs/endpointpolicymanager/video/leastprivilege/bestpractices/serviceaccountrights.md),
 you can remove the powerful privileges of the service account and strip out LOCAL SYSTEM and grant a
 specific user the permissions required.
 

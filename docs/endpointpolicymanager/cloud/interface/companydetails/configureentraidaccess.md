@@ -1,7 +1,7 @@
 # Configure Azure AD Access
 
 For an overview of this section, please watch the following video:
-[Endpoint Policy Manager Cloud + Azure AD: Better Together for Computer ILT and Computer Policy Targeting](/docs/endpointpolicymanager/resources/video-tutorials/cloud/integration/entraid.md).
+[Endpoint Policy Manager Cloud + Azure AD: Better Together for Computer ILT and Computer Policy Targeting](/docs/endpointpolicymanager/video/cloud/integration/entraid.md).
 
 You can link your Endpoint Policy Manager Cloud to one or more Azure AD tenants. When you do this,
 you will be able to enumerate user membership within Item-Level Targeting. To begin, enter a

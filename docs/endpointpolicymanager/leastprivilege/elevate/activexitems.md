@@ -1,7 +1,7 @@
 # Elevating ActiveX Items
 
 **NOTE:** For an overview of Elevating ActiveX Items see the
-[Overcome UAC prompts for Active X controls](/docs/endpointpolicymanager/resources/video-tutorials/leastprivilege/uacpromptsactivex.md) video.
+[Overcome UAC prompts for Active X controls](/docs/endpointpolicymanager/video/leastprivilege/uacpromptsactivex.md) video.
 
 ActiveX items are still important to many organizations who rely upon them. Even though Internet
 Explorer isn’t available anymore, ActiveX controls still work in IE Mode for Windows 10 and 11 with

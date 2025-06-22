@@ -57,7 +57,7 @@ using ACL Lockdown.
 
 Video:
 
-[ACL Lockdown for Registry Based Applications](/docs/endpointpolicymanager/resources/video-tutorials/applicationsettings/acllockdown.md)
+[ACL Lockdown for Registry Based Applications](/docs/endpointpolicymanager/video/applicationsettings/acllockdown.md)
 
 If you do this, it should prevent users from working around the item, even if the AppLock doesn't
 work.

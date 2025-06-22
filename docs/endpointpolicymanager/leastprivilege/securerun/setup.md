@@ -5,12 +5,12 @@
 #### Getting Started
 
 Watch this quick video for tips on setting up Secure Run:
-[Stop Ransomware and other unknown zero day attacks with Endpoint Policy Manager SecureRun(TM)](/docs/endpointpolicymanager/resources/video-tutorials/leastprivilege/securerun/stopransomware.md).
+[Stop Ransomware and other unknown zero day attacks with Endpoint Policy Manager SecureRun(TM)](/docs/endpointpolicymanager/video/leastprivilege/securerun/stopransomware.md).
 
 In addition we have a tool called Auto Rules Generator for generating rules from a machine that has
 all your apps. It is in the Extras folder of the main Netwrix Endpoint Policy Manager (formerly
 PolicyPak) download. For more information on this issue, please see
-[Auto Rules Generator Tool (with SecureRun)](/docs/endpointpolicymanager/resources/video-tutorials/leastprivilege/autorulesgeneratortool.md).
+[Auto Rules Generator Tool (with SecureRun)](/docs/endpointpolicymanager/video/leastprivilege/autorulesgeneratortool.md).
 
 #### How do we setup SecureRun when each version of the software references more than one .exe to start the program?
 

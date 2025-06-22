@@ -20,7 +20,7 @@ available. For this Quick Start, we suggest you select **Hash**.
 
 **NOTE:** We realize that hash values often change for installers, but using Hash is only for the
 Quick Start. To learn how to authorize users to keep applications up to do date, learn about Combo
-rules in [Best Practices and Miscellaneous Topics](/docs/endpointpolicymanager/security-and-privilege-management/least-privilege-manager/bestpractices/overviewmisc.md).
+rules in [Best Practices and Miscellaneous Topics](/docs/endpointpolicymanager/leastprivilege/bestpractices/overviewmisc.md).
 
 On the next page, click **Select windows installer** and select the SkypeSetup.MSI package
 (previously downloaded).

@@ -17,7 +17,7 @@ msiexec /i "C:\Temp\PolicyPak Cloud Client for company name.msi" JOINTOKEN="AXBC
 **NOTE:** Replace `JOINTOKEN="AXBCDeVXbieqP9WUWQwnYM="` with the relevant JOINTOKEN string for your
 environment. See this video for more information on how to use JOINTOKEN:
 
-[Endpoint Policy Manager Cloud: Automatically Join Groups with JOINTOKEN](/docs/endpointpolicymanager/resources/video-tutorials/cloud/jointoken.md)
+[Endpoint Policy Manager Cloud: Automatically Join Groups with JOINTOKEN](/docs/endpointpolicymanager/video/cloud/jointoken.md)
 
 For more information on the MSIEXEC command line switches, see this article:
 [Microsoft Standard Installer command-line options](https://docs.microsoft.com/en-us/windows/win32/msi/standard-installer-command-line-options)

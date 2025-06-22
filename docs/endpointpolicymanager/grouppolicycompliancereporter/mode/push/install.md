@@ -21,7 +21,7 @@ server as shown in Figure 38.
 
 **NOTE:** To see a video on Compliance Reporter and specific group membership requirements, see the
 following link:
-[Enhanced Security for Server](/docs/endpointpolicymanager/resources/video-tutorials/gpocompilancereporter/securityenhanced.md).
+[Enhanced Security for Server](/docs/endpointpolicymanager/video/gpocompilancereporter/securityenhanced.md).
 
 ![gpcr_server_with_push_mode_2](/img/product_docs/endpointpolicymanager/endpointpolicymanager/grouppolicycompliancereporter/mode/push/gpcr_server_with_push_mode_2.webp)
 

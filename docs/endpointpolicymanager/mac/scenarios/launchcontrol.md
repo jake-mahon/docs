@@ -1,6 +1,6 @@
 # Application Launch Approval (aka Launch Control)
 
-**NOTE:** See the [Application Launch Approval](/docs/endpointpolicymanager/resources/video-tutorials/leastprivilege/mac/applicationlaunch.md)
+**NOTE:** See the [Application Launch Approval](/docs/endpointpolicymanager/video/leastprivilege/mac/applicationlaunch.md)
 video for an overview of this section.
 
 You might have an application which is part of your deployment, but you want to prevent it from

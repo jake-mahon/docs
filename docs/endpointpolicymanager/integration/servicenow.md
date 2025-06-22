@@ -1,7 +1,7 @@
 # How can I integrate Endpoint Privilege Manager and Servicenow (or any other help desk) via email?
 
 Please consider watching this video before continuing:
-[Using Email / Long Codes](/docs/endpointpolicymanager/resources/video-tutorials/leastprivilege/longcodes.md)
+[Using Email / Long Codes](/docs/endpointpolicymanager/video/leastprivilege/longcodes.md)
 
 Netwrix Endpoint Policy Manager (formerly PolicyPak) doesn't have an API integration with
 Servicenow, but you can make a nice workflow with Endpoint Policy Manager Least Privilege Manager

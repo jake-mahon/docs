@@ -11,7 +11,7 @@ which are somewhat different than the others.
 
 **NOTE:** For a video overview of how to wrap up XML data and license files into MSI files, see the
 following link:
-[Deploying Endpoint Policy Managerdirectives without Group Policy (Endpoint Policy Manager Exporter Utility)](/docs/endpointpolicymanager/resources/video-tutorials/mdm/exporterutility.md).
+[Deploying Endpoint Policy Managerdirectives without Group Policy (Endpoint Policy Manager Exporter Utility)](/docs/endpointpolicymanager/video/mdm/exporterutility.md).
 
 Now that you have your XML data files, you're ready to bundle them up and make them into an MSI for
 easy deployment using any software distribution utility, such as Microsoft Endpoint Configuration

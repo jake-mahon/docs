@@ -1,7 +1,7 @@
 # Using Group Policy Preferences to Manage Local Admin Groups
 
 **NOTE:** See the
-[Use Group Policy to remove local admin rights (then Endpoint Policy Manager to enable Least Privilege)](/docs/endpointpolicymanager/resources/video-tutorials/leastprivilege/removelocaladmin.md)
+[Use Group Policy to remove local admin rights (then Endpoint Policy Manager to enable Least Privilege)](/docs/endpointpolicymanager/video/leastprivilege/removelocaladmin.md)
 video for an overview of using Group Policy preference with Endpoint Policy Manager Least Privilege
 Manager.
 

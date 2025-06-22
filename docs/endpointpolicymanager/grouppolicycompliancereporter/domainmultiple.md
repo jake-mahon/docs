@@ -11,12 +11,12 @@ you recently downloaded the BITS from the portal
 
 **Step 3 –** Work through this video to install Compliance Reporter
 
-- [Installing Compliance Reporter Server and Client](/docs/endpointpolicymanager/resources/video-tutorials/gpocompilancereporter/install.md)
+- [Installing Compliance Reporter Server and Client](/docs/endpointpolicymanager/video/gpocompilancereporter/install.md)
 
 **Step 4 –** Work through this video to setup Compliance Reporter and for machines to report in
 (this is the Server version)
 
-- [Setting up Client-less Endpoint Auditing (Push Mode with Server)](/docs/endpointpolicymanager/resources/video-tutorials/gpocompilancereporter/modepush.md)
+- [Setting up Client-less Endpoint Auditing (Push Mode with Server)](/docs/endpointpolicymanager/video/gpocompilancereporter/modepush.md)
 
 ## From within the videos above, here is a summary of some important steps:
 

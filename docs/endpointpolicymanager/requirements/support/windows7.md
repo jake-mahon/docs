@@ -5,7 +5,7 @@ not supported with Netwrix Endpoint Policy Manager (formerly PolicyPak) installe
 
 Endpoint Policy Manager only supports versions of the operating system which are actively supported
 by Microsoft. This is covered in this
-FAQ:[Which Windows Client and Server are currently supported by Endpoint Policy Manager?](/docs/endpointpolicymanager/platform-specific/windows-requirements/support/windows.md)
+FAQ:[Which Windows Client and Server are currently supported by Endpoint Policy Manager?](/docs/endpointpolicymanager/requirements/support/windows.md)
 
 That being said, Endpoint Policy Manager and unsupported operating systems are BEST EFFORT.
 

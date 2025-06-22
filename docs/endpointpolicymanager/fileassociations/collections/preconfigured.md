@@ -7,7 +7,7 @@ usual settings).
 
 **NOTE:** For a video overview demonstrating how to use preconfigured Endpoint Policy Manager File
 Associations Manager items, see
-[Endpoint Policy Manager File Associations Manager: Use our preconfigured advice](/docs/endpointpolicymanager/resources/video-tutorials/fileassociations/preconfiguredadvice.md)
+[Endpoint Policy Manager File Associations Manager: Use our preconfigured advice](/docs/endpointpolicymanager/video/fileassociations/preconfiguredadvice.md)
 topic for additional information.
 
 For instance, for all the common Adobe products, Adobe has some advice that we have we've repackaged

@@ -14,4 +14,4 @@ applicable to many scenarios while building AppSets.
 
 Video: You may also wish to watch our DesignStudio videos, which cover some higher level details of
 Endpoint Policy Manager: Application Manager >
-[DesignStudio How-To](/docs/endpointpolicymanager/resources/video-tutorials.md#designstudio-how-to).
+[DesignStudio How-To](/docs/endpointpolicymanager/video/#designstudio-how-to).

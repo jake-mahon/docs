@@ -4,23 +4,23 @@ See the following Knowledge Base articles for all things installation and upkeep
 
 ## Method GPO: Initial Install
 
-- [Does Endpoint Policy Manager admin console need to be installed on Domain Controller (DC)?](/docs/endpointpolicymanager/installation-and-deployment/adminconsole.md)
-- [I installed the Admin Console MSI, but I don't see the Endpoint Policy Manager node when I go to edit a GPO. Why?](/docs/endpointpolicymanager/installation-and-deployment/node.md)
-- [What are the two ways that can I install the GPMC on my Admin Station (Server or Windows 10) machine?](/docs/endpointpolicymanager/installation-and-deployment/methods.md)
+- [Does Endpoint Policy Manager admin console need to be installed on Domain Controller (DC)?](/docs/endpointpolicymanager/install/adminconsole.md)
+- [I installed the Admin Console MSI, but I don't see the Endpoint Policy Manager node when I go to edit a GPO. Why?](/docs/endpointpolicymanager/install/node.md)
+- [What are the two ways that can I install the GPMC on my Admin Station (Server or Windows 10) machine?](/docs/endpointpolicymanager/install/methods.md)
 - [When I edit the GPO, the settings don't seem to "stick"](/docs/endpointpolicymanager/troubleshooting/savesettings.md)
 
 ## Method SCCM: Initial Install (or other systems)
 
-- [How do I deploy the Endpoint Policy Manager CSE via SCCM (or other systems management system) ?](/docs/endpointpolicymanager/installation-and-deployment/sccm.md)
+- [How do I deploy the Endpoint Policy Manager CSE via SCCM (or other systems management system) ?](/docs/endpointpolicymanager/install/sccm.md)
 
 ## Method PDQ Deploy (recommended)
 
-- [Managing Group Policy using Endpoint Policy Manager and PDQ Deploy](/docs/endpointpolicymanager/integrations/third-party-integrations/pdqdeploy.md)
+- [Managing Group Policy using Endpoint Policy Manager and PDQ Deploy](/docs/endpointpolicymanager/integration/pdqdeploy.md)
 
 ## AntiVirus and other System Software
 
-- [I want to use Endpoint Policy Managerwith Citrix App Layering (aka Unidesk). At which layer should I implement the Endpoint Policy Manager Client Side Extension?](/docs/endpointpolicymanager/installation-and-deployment/citrixapplayering.md)
-- [How must I configure my Anti-virus or system-level software to work with Endpoint Policy Manager CSE?](/docs/endpointpolicymanager/installation-and-deployment/antivirus.md)
+- [I want to use Endpoint Policy Managerwith Citrix App Layering (aka Unidesk). At which layer should I implement the Endpoint Policy Manager Client Side Extension?](/docs/endpointpolicymanager/install/citrixapplayering.md)
+- [How must I configure my Anti-virus or system-level software to work with Endpoint Policy Manager CSE?](/docs/endpointpolicymanager/install/antivirus.md)
 - [Why am I prompted about a Digitally Signed Driver for Endpoint Policy Manager CSE (and how do I work around it)?](/docs/endpointpolicymanager/troubleshooting/install/digitallysigneddriver.md)
 - [Why won't the Endpoint Policy Manager services start, with an error like (or similar to) "Verify that you have sufficient privileges to start system services."?](/docs/endpointpolicymanager/troubleshooting/error/install/sufficientprivileges.md)
 
@@ -41,22 +41,22 @@ See the following Knowledge Base articles for all things installation and upkeep
 ## Misc Installation questions
 
 - [What if I accidentally install the 32 bit version of Endpoint Policy Manager on a 64 bit machine or vice versa?](/docs/endpointpolicymanager/troubleshooting/bitversion.md)
-- [Why does Endpoint Policy Manager require a CSE / client installation piece? I want to do it all using what Microsoft ships in the box but don't want to install anything else.](/docs/endpointpolicymanager/installation-and-deployment/clientsideextension/why.md)
+- [Why does Endpoint Policy Manager require a CSE / client installation piece? I want to do it all using what Microsoft ships in the box but don't want to install anything else.](/docs/endpointpolicymanager/install/clientsideextension/why.md)
 - [How can I fix Outlook To-Do bar flashing when GP or Endpoint Policy Manager does a background refresh?](/docs/endpointpolicymanager/troubleshooting/outlook.md)
-- [What must I install on Windows 7 to make Endpoint Policy Manager work as expected?](/docs/endpointpolicymanager/platform-specific/windows-requirements/windows7.md)
+- [What must I install on Windows 7 to make Endpoint Policy Manager work as expected?](/docs/endpointpolicymanager/requirements/windows7.md)
 
 ## Best Practices / Keeping up to Date with releases
 
-- [Using Rings to Test and Update the Endpoint Policy Manager Client-Side Extension and/or Cloud Client (And How to Stay Supported)](/docs/endpointpolicymanager/installation-and-deployment/rings.md)
+- [Using Rings to Test and Update the Endpoint Policy Manager Client-Side Extension and/or Cloud Client (And How to Stay Supported)](/docs/endpointpolicymanager/install/rings.md)
 - [What are the Endpoint Policy Manager Build and Version numbers?](/docs/endpointpolicymanager/troubleshooting/versions.md)
-- [When should I upgrade or not upgrade the Endpoint Policy Manager CSE?](/docs/endpointpolicymanager/installation-and-deployment/upgrade/frequency.md)
-- [How often is Endpoint Policy Manager updated? And, must I update to the latest version? Are all versions supported?](/docs/endpointpolicymanager/installation-and-deployment/update/frequency.md)
-- [How to trigger an update of the Endpoint Policy ManagerClient Side Extension and Cloud Client via command line using Endpoint Policy Manager Cloud versus Group Policy (OnPrem) Edition](/docs/endpointpolicymanager/installation-and-deployment/update/commandline.md)
+- [When should I upgrade or not upgrade the Endpoint Policy Manager CSE?](/docs/endpointpolicymanager/install/upgrade/frequency.md)
+- [How often is Endpoint Policy Manager updated? And, must I update to the latest version? Are all versions supported?](/docs/endpointpolicymanager/install/update/frequency.md)
+- [How to trigger an update of the Endpoint Policy ManagerClient Side Extension and Cloud Client via command line using Endpoint Policy Manager Cloud versus Group Policy (OnPrem) Edition](/docs/endpointpolicymanager/install/update/commandline.md)
 
 ## Updating Endpoint Policy Manager with Active Directory / GPOs
 
-- [How can I roll out the latest Endpoint Policy Manager CSE with Active Directory in a controlled manner using Rings ?](/docs/endpointpolicymanager/installation-and-deployment/ringsupgrade.md)
-- [CSE Autoupdate Update.Config file Usage and Parameters (before CSE 2725)](/docs/endpointpolicymanager/installation-and-deployment/update/config.md)
+- [How can I roll out the latest Endpoint Policy Manager CSE with Active Directory in a controlled manner using Rings ?](/docs/endpointpolicymanager/install/ringsupgrade.md)
+- [CSE Autoupdate Update.Config file Usage and Parameters (before CSE 2725)](/docs/endpointpolicymanager/install/update/config.md)
 - [How can I use the Endpoint Policy ManagerPowerShell module to know which GPOs have any Endpoint Policy Manager data or directives?](/docs/endpointpolicymanager/troubleshooting/powershell/datadirectives.md)
 
 ## Backup and Restore
@@ -65,6 +65,6 @@ See the following Knowledge Base articles for all things installation and upkeep
 
 ## Uninstallation or Rollback of Endpoint Policy Manager
 
-- [How do I uninstall Endpoint Policy Manager?](/docs/endpointpolicymanager/installation-and-deployment/uninstall.md)
+- [How do I uninstall Endpoint Policy Manager?](/docs/endpointpolicymanager/install/uninstall.md)
 - [How to Rollback CSE version from newer to older using PowerShell](/docs/endpointpolicymanager/troubleshooting/clientsideextension/rollback.md)
 - [How can I uninstall the Least Privilege Manager client for MacOS?](/docs/endpointpolicymanager/troubleshooting/leastprivilege/uninstall.md)

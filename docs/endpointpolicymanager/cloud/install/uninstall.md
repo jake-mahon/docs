@@ -9,4 +9,4 @@ following happens:
 - All XML data files that are in the Cloud folder are removed.
 - Any Endpoint Policy Manager component will become unlicensed. Different licenses have different
   behaviors when they become unlicensed. Check the KB article here for more information:
-  [What happens to each component when Endpoint Policy Manager gets unlicensed or the GPO or policy no longer applies?](/docs/endpointpolicymanager/licensing/unlicense/components.md).
+  [What happens to each component when Endpoint Policy Manager gets unlicensed or the GPO or policy no longer applies?](/docs/endpointpolicymanager/license/unlicense/components.md).

@@ -10,7 +10,7 @@ automatically updated on endpoints. We'll explore both of these options in the f
 
 **NOTE:** For a video showing how to create and use Endpoint Policy Manager Cloud Lite policies with
 Endpoint Policy Manager Remote Work Delivery Manager, watch:
-[Deploy software with Endpoint Policy Manager Cloud](/docs/endpointpolicymanager/resources/video-tutorials/remoteworkdelivery/cloud.md).
+[Deploy software with Endpoint Policy Manager Cloud](/docs/endpointpolicymanager/video/remoteworkdelivery/cloud.md).
 
 You may recall from other components' manuals that you must always do the following:
 
@@ -25,7 +25,7 @@ of the policy you just created.
 ## Remote Work Delivery Manager and MDM Services
 
 **NOTE:** See
-[Copy files and keep them up to date with your MDM service](/docs/endpointpolicymanager/resources/video-tutorials/remoteworkdelivery/mdm.md)for additional
+[Copy files and keep them up to date with your MDM service](/docs/endpointpolicymanager/video/remoteworkdelivery/mdm.md)for additional
 information on how to use Endpoint Policy Manager Remote Work Delivery Manager and your MDM service
 to keep files up to date
 

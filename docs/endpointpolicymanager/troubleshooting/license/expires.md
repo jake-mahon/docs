@@ -27,10 +27,10 @@ Resolution for the Admin's GPMC editing station:
 - Unlink the old and expiring license after verifying that the new license will cover the same
   components and OUs/ domain as the soonto-be-expiring license. Delete the old GPO links as well
   from under any OUs/domain where it was linked. More details here:
-  [I just installed new license files / new GPOs. Should I keep or delete the old license files / GPOs?](/docs/endpointpolicymanager/licensing/unlicense/fileold.md)
+  [I just installed new license files / new GPOs. Should I keep or delete the old license files / GPOs?](/docs/endpointpolicymanager/license/unlicense/fileold.md)
 
 **NOTE:** You can use the LT tool to search through and find OLD licenses so you can be sure you
-only have one license remaining. [Using LT for license cleanup](/docs/endpointpolicymanager/resources/video-tutorials/license/cleanup.md)/
+only have one license remaining. [Using LT for license cleanup](/docs/endpointpolicymanager/video/license/cleanup.md)/
 
 - On an example ENDPOINT computer (one that has the Netwrix Endpoint Policy Manager (formerly
   PolicyPak) CSE; which can also include the Admin's GPMC machine) verify the endpoint got the new

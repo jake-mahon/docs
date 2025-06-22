@@ -78,5 +78,5 @@ September or October 2023.
 __NOTE:__  If you have a slow connection on the endpoint, the CSE can be
 downloaded from our customer portal and pre-installed. Please refer to the following KB article ->
 
-[How can I best install Endpoint Policy Manager Cloud for remote clients over a slow link/internet connection?](/docs/endpointpolicymanager/installation-and-deployment/cloud/slowinternet.md)
+[How can I best install Endpoint Policy Manager Cloud for remote clients over a slow link/internet connection?](/docs/endpointpolicymanager/install/cloud/slowinternet.md)
 ````

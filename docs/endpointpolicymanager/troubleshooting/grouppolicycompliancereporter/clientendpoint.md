@@ -59,7 +59,7 @@ console) and each target machine requesting RSOP. An example of these errors is 
 
 **NOTE:** For a video addressing the opening of the firewall ports as described in this section,
 please go to the following link:
-[Open required firewall ports](/docs/endpointpolicymanager/resources/video-tutorials/gpocompilancereporter/firewallports.md).
+[Open required firewall ports](/docs/endpointpolicymanager/video/gpocompilancereporter/firewallports.md).
 
 ![tuning_and_troubleshooting_6](/img/product_docs/endpointpolicymanager/endpointpolicymanager/troubleshooting/grouppolicycompliancereporter/tuning_and_troubleshooting_6.webp)
 

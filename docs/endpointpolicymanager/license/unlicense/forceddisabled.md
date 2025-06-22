@@ -28,9 +28,9 @@ In order to minimize conflicts, we have, in the past, suggested that customers u
 Policy Manager Preferences when the machine is domain joined.
 
 See
-[How to Un-License any Endpoint Policy ManagerComponent via ADMX or Endpoint Policy Manager Cloud](/docs/endpointpolicymanager/resources/video-tutorials/license/unlicense.md)/
+[How to Un-License any Endpoint Policy ManagerComponent via ADMX or Endpoint Policy Manager Cloud](/docs/endpointpolicymanager/video/license/unlicense.md)/
 for additional information. There is also a video you can watch on
-[Troubleshooting with ADMX files](/docs/endpointpolicymanager/resources/video-tutorials/troubleshooting/admxfiles.md)
+[Troubleshooting with ADMX files](/docs/endpointpolicymanager/video/troubleshooting/admxfiles.md)
 
 More recently, Universal licenses are delivered with Endpoint Policy Manager Preferences disabled
 (for customers which have domain joined machines), and you need to specifically enable it. In this
@@ -50,7 +50,7 @@ Customers must change this value if they wish to enable this component (which th
 explained later.)
 
 See
-[How do I specifically exclude or prevent a component from performing processing by modifying the license file?](/docs/endpointpolicymanager/licensing/unlicense/componentsexclude.md)
+[How do I specifically exclude or prevent a component from performing processing by modifying the license file?](/docs/endpointpolicymanager/license/unlicense/componentsexclude.md)
 
 In logs, CSE shows a message:
 

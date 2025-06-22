@@ -25,7 +25,7 @@ shown below.
 
 **Step 6 –** Run `GPUPDATE `on the client machine and verify the results. You can also view theabove
 steps in this video:
-[Enable end-users to install their own fonts](/docs/endpointpolicymanager/resources/video-tutorials/leastprivilege/elevate/installfonts.md)
+[Enable end-users to install their own fonts](/docs/endpointpolicymanager/video/leastprivilege/elevate/installfonts.md)
 
 ## Installing fonts for end-users (FOR ADMINS)
 

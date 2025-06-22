@@ -4,7 +4,7 @@ Admin Approval enables you to anticipate devices without rules and enable users 
 desk to help authorize sanctioned devices - temporarily or permanently.
 
 See the
-[Device Manager Admin Approval and Automatic Rules Creation](/docs/endpointpolicymanager/resources/video-tutorials/device/dmapprovalautorules.md)
+[Device Manager Admin Approval and Automatic Rules Creation](/docs/endpointpolicymanager/video/device/dmapprovalautorules.md)
 topic for additional information on Admin Approval & Branding and Customization.
 
 This document refers to the person doing the approval as an Approver. This can be someone on your
@@ -126,7 +126,7 @@ To get out of this problem if you get into it, you have two choices:
 ## Admin Approval Using Email Method
 
 You can use Admin Approval requests to go through your service desk as email requests. See the
-[Endpoint Policy Device Manager and End-User Emails to Support](/docs/endpointpolicymanager/resources/video-tutorials/device/enduser.md) topic
+[Endpoint Policy Device Manager and End-User Emails to Support](/docs/endpointpolicymanager/video/device/enduser.md) topic
 for additional information.
 
 The email method will attempt to use your registered mail application. Your email app must be

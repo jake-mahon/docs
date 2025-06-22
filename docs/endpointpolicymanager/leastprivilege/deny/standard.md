@@ -1,7 +1,7 @@
 # Denying Standard Applications
 
 **NOTE:** For an overview of Endpoint Policy Manager performing Application control see the
-[Endpoint Policy Manager Application Control with PP Least Privilege Manager](/docs/endpointpolicymanager/resources/video-tutorials/leastprivilege/applicationcontrol.md)
+[Endpoint Policy Manager Application Control with PP Least Privilege Manager](/docs/endpointpolicymanager/video/leastprivilege/applicationcontrol.md)
 video.
 
 To do this, first create a rule type which matches your scenario. Then pick the condition to match.

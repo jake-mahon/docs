@@ -1,7 +1,7 @@
 # System Settings Policy
 
 **NOTE:** See the
-[Endpoint Policy Manager for Mac / Least Priv Manager: System Settings policy](/docs/endpointpolicymanager/resources/video-tutorials/leastprivilege/mac/systemsettings.md)
+[Endpoint Policy Manager for Mac / Least Priv Manager: System Settings policy](/docs/endpointpolicymanager/video/leastprivilege/mac/systemsettings.md)
 video for an overview of this section.
 
 Standard Users are prompted when they access System Settings in MacOS. For instance, trying to

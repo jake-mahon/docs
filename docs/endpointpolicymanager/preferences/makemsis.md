@@ -55,5 +55,5 @@ we've saved it to the desktop as Deploy GPP MSI.msi.
 
 ![quickstart_using_policypak_8](/img/product_docs/endpointpolicymanager/endpointpolicymanager/preferences/quickstart_using_endpointpolicymanager_8.webp)
 
-See Appendix A: [Using Endpoint Policy Manager with MDM and UEM Tools](/docs/endpointpolicymanager/cloud-and-remote-management/mdm-integration/uemtools.md) for
+See Appendix A: [Using Endpoint Policy Manager with MDM and UEM Tools](/docs/endpointpolicymanager/mdm/uemtools.md) for
 additional information on the Endpoint Policy Manager Exporter utility

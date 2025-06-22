@@ -43,7 +43,7 @@ Endpoint Policy Manager Cloud Groups.
 ## Pre-testing that Endpoint Policy Manager Cloud is working at all with the built-in policies.
 
 Start by verifying that your Endpoint Policy Manager Cloud account is generally working. See the
-[Endpoint Policy Manager Cloud: QuickStart](/docs/endpointpolicymanager/resources/video-tutorials/cloud/quickstart.md) topic for additional
+[Endpoint Policy Manager Cloud: QuickStart](/docs/endpointpolicymanager/video/cloud/quickstart.md) topic for additional
 information.
 
 You will be verifying that your Endpoint Policy Manager Cloud account is licensed, operational and
@@ -67,7 +67,7 @@ Or you can export a whole category like this:
 
 You can also export settings en-mass across multiple GPOs using the Endpoint Policy Manager Exporter
 Utility. The steps to do that are here
-[Deploying Endpoint Policy Managerdirectives without Group Policy (Endpoint Policy Manager Exporter Utility)](/docs/endpointpolicymanager/resources/video-tutorials/methods/exporterutility.md)
+[Deploying Endpoint Policy Managerdirectives without Group Policy (Endpoint Policy Manager Exporter Utility)](/docs/endpointpolicymanager/video/methods/exporterutility.md)
 
 Then you can upload them straight into Endpoint Policy Manager cloud using the Upload and link a new
 XML here. Or you can go to the XML Settings tab (not shown) and also upload them there for later
@@ -80,7 +80,7 @@ cloud using the same setting, Upload and link a new XML here as seen around the 
 second mark continuing onward.
 
 See the
-[Endpoint Policy ManagerCloud: How to deploy Endpoint Policy Manager specific settings (using in-cloud editors and exporting from on-prem)](/docs/endpointpolicymanager/resources/video-tutorials/cloud/deploy/endpointpolicymanagersettings.md) topic
+[Endpoint Policy ManagerCloud: How to deploy Endpoint Policy Manager specific settings (using in-cloud editors and exporting from on-prem)](/docs/endpointpolicymanager/video/cloud/deploy/endpointpolicymanagersettings.md) topic
 for additional information.
 
 ## Optional: Backup and Restore entire GPO to Endpoint Policy Manager cloud
@@ -94,7 +94,7 @@ Policy Manager Cloud Import.
 The result will be a de-constructed GPO with all relevant parts as XML, available to re-link later
 to Company or Azure groups.
 
-See the [How to import GPOs to Endpoint Policy Manager Cloud](/docs/endpointpolicymanager/resources/video-tutorials/cloud/import.md) topic for
+See the [How to import GPOs to Endpoint Policy Manager Cloud](/docs/endpointpolicymanager/video/cloud/import.md) topic for
 additional information.
 
 ## Use In-Cloud Editors to create and update rules (for most policies)
@@ -110,7 +110,7 @@ edit Endpoint Policy Manager Least Privilege Manager items.
 ![941_7_image-20230521113923-7_950x1063](/img/product_docs/endpointpolicymanager/endpointpolicymanager/cloud/941_7_image-20230521113923-7_950x1063.webp)
 
 See the
-[Use Endpoint Policy Manager Cloud to deploy PP Least Privilege Manager rules](/docs/endpointpolicymanager/resources/video-tutorials/leastprivilege/cloudrules.md) topic
+[Use Endpoint Policy Manager Cloud to deploy PP Least Privilege Manager rules](/docs/endpointpolicymanager/video/leastprivilege/cloudrules.md) topic
 for additional information.
 
 You are advised to maintain a Windows based MMC editing station for testing because not every
@@ -122,7 +122,7 @@ Getting Started with Cloud > [Knowledge Base](/docs/endpointpolicymanager/resour
 
 Now you can craft your Company Group assignment and then adding computers to it.
 
-See the [Working with Groups](/docs/endpointpolicymanager/cloud-and-remote-management/cloud-management/interface/computergroups/workingwith.md) topic for additional
+See the [Working with Groups](/docs/endpointpolicymanager/cloud/interface/computergroups/workingwith.md) topic for additional
 information.
 
 An example of crafting your own Company groups, linking existing XMLs, creating new policies and
@@ -159,7 +159,7 @@ Cloud acts nearly the same as on-prem GPO with the following attributes:
 - Enforced is available
 - Precedence is available
 
-See the [Working with Groups](/docs/endpointpolicymanager/cloud-and-remote-management/cloud-management/interface/computergroups/workingwith.md) topic for additional
+See the [Working with Groups](/docs/endpointpolicymanager/cloud/interface/computergroups/workingwith.md) topic for additional
 information.
 
 ## Deploying the Endpoint Policy Manager Cloud Client and/or CSE to endpoints
@@ -188,8 +188,8 @@ Additionally, you may wish to investigate the idea of having computers automatic
 Endpoint Policy Manager Cloud group of your choice with the Jointoken property. Two videos on that
 topic are:
 
-- [Endpoint Policy Manager Cloud: Automatically Join Groups with JOINTOKEN](/docs/endpointpolicymanager/resources/video-tutorials/cloud/jointoken.md)
-- [Endpoint Policy Manager Cloud + MDM Services: Install Cloud Client + automatically join PPC Groups and get policy.](/docs/endpointpolicymanager/resources/video-tutorials/cloud/mdm.md)
+- [Endpoint Policy Manager Cloud: Automatically Join Groups with JOINTOKEN](/docs/endpointpolicymanager/video/cloud/jointoken.md)
+- [Endpoint Policy Manager Cloud + MDM Services: Install Cloud Client + automatically join PPC Groups and get policy.](/docs/endpointpolicymanager/video/cloud/mdm.md)
 
 **NOTE:** There are some other KB topicswith advanced scenarios on installing the Endpoint Policy
 Manager Cloud client for Azure Virtual Desktops, VDI and other scenarios. Please open a ticket at
@@ -198,7 +198,7 @@ trouble locating those articles.
 
 **NOTE:** Here's some command line examples to help install the Endpoint Policy Manager Cloud client
 silently. See the
-[How do I deploy the Endpoint Policy Manager Cloud Client via command line silently?](/docs/endpointpolicymanager/installation-and-deployment/cloud/clientsilent.md) topic
+[How do I deploy the Endpoint Policy Manager Cloud Client via command line silently?](/docs/endpointpolicymanager/install/cloud/clientsilent.md) topic
 for additional information.
 
 ## Removing existing settings to machines (GPO and Non-GPO method)
@@ -227,7 +227,7 @@ machines' current state and policies.
 
 ![941_14_image-20230521113923-14_950x823](/img/product_docs/endpointpolicymanager/endpointpolicymanager/cloud/941_14_image-20230521113923-14_950x823.webp)
 
-See the [Manually Syncing with PolicyPak Cloud](/docs/endpointpolicymanager/cloud-and-remote-management/cloud-management/verify.md#manually-syncing-with-policypak-cloud)
+See the [Manually Syncing with PolicyPak Cloud](/docs/endpointpolicymanager/cloud/verify.md#manually-syncing-with-policypak-cloud)
 topic for additional information.[](https://helpcenter.netwrix.com/en-US/bundle/Endpoint Policy
 Manager_AppendixE/page/Manually_Syncing_with_Endpoint Policy Manager_Cloud.html)
 
@@ -238,7 +238,7 @@ mechanism.
 
 ![941_15_image-20230521113923-15_950x386](/img/product_docs/endpointpolicymanager/endpointpolicymanager/cloud/941_15_image-20230521113923-15_950x386.webp)
 
-See the [Endpoint Policy Manager Cloud Reporting Demo](/docs/endpointpolicymanager/resources/video-tutorials/cloud/reports.md) topic for
+See the [Endpoint Policy Manager Cloud Reporting Demo](/docs/endpointpolicymanager/video/cloud/reports.md) topic for
 additional information.
 
 Either method will inform you if the settings you lifted and shifted to Endpoint Policy Manager
@@ -257,10 +257,10 @@ Policy Manager Cloud Client version to ensure safety before you roll it out to e
 group.
 
 See the
-[Using Rings to Test and Update the Endpoint Policy Manager Client-Side Extension and/or Cloud Client (And How to Stay Supported)](/docs/endpointpolicymanager/installation-and-deployment/rings.md) topic
+[Using Rings to Test and Update the Endpoint Policy Manager Client-Side Extension and/or Cloud Client (And How to Stay Supported)](/docs/endpointpolicymanager/install/rings.md) topic
 for additional information on the Microsoft Ring methodology, which aligns to Endpoint Policy
 Manager best practices.
 
 See the
-[Endpoint Policy Manager Cloud Groups CSE and Cloud Client Small-Scale Testing and Updates](/docs/endpointpolicymanager/resources/video-tutorials/cloud/groups.md) topic
+[Endpoint Policy Manager Cloud Groups CSE and Cloud Client Small-Scale Testing and Updates](/docs/endpointpolicymanager/video/cloud/groups.md) topic
 for additional information on how to perform small scale testing before large scale upgrades.

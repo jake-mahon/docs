@@ -60,7 +60,7 @@ network connectivity is not needed to run this command.
 ## Automatic Reapplication of Settings at Application Launch
 
 **NOTE:** For a demonstration of this feature, please see this video:
-[The Superpowers](/docs/endpointpolicymanager/resources/video-tutorials/applicationsettings/superpowers.md).
+[The Superpowers](/docs/endpointpolicymanager/video/applicationsettings/superpowers.md).
 
 When an application is run, its settings are automatically reapplied before the application is
 launched. This feature is turned on for all AppSets by default.

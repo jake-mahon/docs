@@ -23,7 +23,7 @@ To get this to work, you should use the Endpoint Policy Manager Start Screen Hel
 machine with the version of Office 2016, 2019, or Office 365 you want to add icons for.
 
 Here's the video on this
-tool:[Endpoint Policy Manager Start Screen and Taskbar Manager Helper Utility](/docs/endpointpolicymanager/resources/video-tutorials/startscreentaskbar/helperutility.md)/
+tool:[Endpoint Policy Manager Start Screen and Taskbar Manager Helper Utility](/docs/endpointpolicymanager/video/startscreentaskbar/helperutility.md)/
 
 Summary to get Office icons to appear on endpoints:
 

@@ -10,5 +10,5 @@ scenarios:
 - Specify which RDP files should go on which machines based on conditional settings
 
 **NOTE:** See
-[Create and update .RDP files for end-users for Remote Work and VDI scenarios](/docs/endpointpolicymanager/resources/video-tutorials/remotedesktopprotocol/vdiscenarios.md)
+[Create and update .RDP files for end-users for Remote Work and VDI scenarios](/docs/endpointpolicymanager/video/remotedesktopprotocol/vdiscenarios.md)
 for an overview of Endpoint Policy Manager Remote Desktop Protocol Manager

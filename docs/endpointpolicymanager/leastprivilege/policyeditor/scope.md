@@ -61,7 +61,7 @@ its work as LOCAL SYSTEM and tries to run an un-trusted file. Therefore, when th
 list, the attack attempt will fail.
 
 For a video demo of this scenario,
-see [SecureRun to block User AND System executables](/docs/endpointpolicymanager/resources/video-tutorials/leastprivilege/bestpractices/securerun/usersystemexecutables.md)
+see [SecureRun to block User AND System executables](/docs/endpointpolicymanager/video/leastprivilege/bestpractices/securerun/usersystemexecutables.md)
 
 ## Scenario 2: Specific rule to block an app from being run, even as local System.
 
@@ -99,7 +99,7 @@ Result:
 ![319_11_faq-img-11_950x375](/img/product_docs/endpointpolicymanager/endpointpolicymanager/leastprivilege/policyeditor/319_11_faq-img-11_950x375.webp)
 
 For more information on this issue, see
- [Block PowerShell in General, Open up for specific items](/docs/endpointpolicymanager/resources/video-tutorials/leastprivilege/bestpractices/powershellblock.md)
+ [Block PowerShell in General, Open up for specific items](/docs/endpointpolicymanager/video/leastprivilege/bestpractices/powershellblock.md)
 
 ## Scenario 3: Running or Elevating applications or installers, but blocking other admins from running them.
 
@@ -131,7 +131,7 @@ done on the user or computer side, like this:
 ![319_14_faq-img-14_950x458](/img/product_docs/endpointpolicymanager/endpointpolicymanager/leastprivilege/policyeditor/319_14_faq-img-14_950x458.webp)
 
 video
-3: [Elevate apps as standard user, BLOCK other Admins](/docs/endpointpolicymanager/resources/video-tutorials/leastprivilege/bestpractices/appblock.md)
+3: [Elevate apps as standard user, BLOCK other Admins](/docs/endpointpolicymanager/video/leastprivilege/bestpractices/appblock.md)
 
 ## Scenario 4:  Elevating a Service account
 
@@ -166,4 +166,4 @@ that run from the specified `.exe `regardless of the user.
 ![319_15_faq-img-15_950x467](/img/product_docs/endpointpolicymanager/endpointpolicymanager/leastprivilege/policyeditor/319_15_faq-img-15_950x467.webp)
 
 video:
-[Reduce or specify Service Account Rights](/docs/endpointpolicymanager/resources/video-tutorials/leastprivilege/bestpractices/serviceaccountrights.md)
+[Reduce or specify Service Account Rights](/docs/endpointpolicymanager/video/leastprivilege/bestpractices/serviceaccountrights.md)

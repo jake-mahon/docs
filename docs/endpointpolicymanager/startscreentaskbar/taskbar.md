@@ -3,7 +3,7 @@
 Now you're ready to create Netwrix Endpoint Policy Manager (formerly PolicyPak) Taskbar policies.
 
 **NOTE:** For a video overview of Taskbar Manager, see
-[](https://www.endpointpolicymanager.com/products/endpointpolicymanager-start-screen-manager.html)[Endpoint Policy Taskbar Manager: Quick Demo](/docs/endpointpolicymanager/resources/video-tutorials/startscreentaskbar/demotaskbar.md).
+[](https://www.endpointpolicymanager.com/products/endpointpolicymanager-start-screen-manager.html)[Endpoint Policy Taskbar Manager: Quick Demo](/docs/endpointpolicymanager/video/startscreentaskbar/demotaskbar.md).
 
 Like the Endpoint Policy Manager Start Menu policies, Endpoint Policy Manager Taskbar Manager
 policies also must reside within collections.

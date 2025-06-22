@@ -3,15 +3,15 @@
 Endpoint Policy Manager is now installed on an endpoint (which is temporarily licensed) and you have
 a management station from which to create policies. To get a quick rundown of Endpoint Policy
 Manager using the Group Policy Method, watch the
-[Endpoint Policy Manager with Group Policy Method: Getting Started](/docs/endpointpolicymanager/resources/video-tutorials/grouppolicy/gettingstarted.md)
+[Endpoint Policy Manager with Group Policy Method: Getting Started](/docs/endpointpolicymanager/video/grouppolicy/gettingstarted.md)
 video. To get a quick rundown of Endpoint Policy Manager using the MDM / Intune Method, watch the
-[Endpoint Policy Manager and MDM walk before you run](/docs/endpointpolicymanager/resources/video-tutorials/mdm/testsample.md) video.
+[Endpoint Policy Manager and MDM walk before you run](/docs/endpointpolicymanager/video/mdm/testsample.md) video.
 
 TIPS:
 
 - You won’t need a license file because you’re licensed with COMPUTER in the computer name.
 - See the Getting Started with MDM > Video Learning Center >
-  [Getting Started](/docs/endpointpolicymanager/resources/video-tutorials.md#getting-started) topic for additional
+  [Getting Started](/docs/endpointpolicymanager/video/#getting-started) topic for additional
   demonstrations using specific MDM services like Intune and VMware Workspace one.
 
 If you want to go beyond the basics and really dive in to each component, like Endpoint Policy

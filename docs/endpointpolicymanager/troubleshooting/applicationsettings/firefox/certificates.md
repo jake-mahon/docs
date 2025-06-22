@@ -21,7 +21,7 @@ must do these step by step.)
 
 **Step 1 –** Check the compatibility chart first
 
-[Firefox: What versions of the Endpoint Policy Manager CSE support managing certificates in what versions of Firefox?](/docs/endpointpolicymanager/platform-specific/windows-requirements/support/applicationsettings/firefox/version.md)
+[Firefox: What versions of the Endpoint Policy Manager CSE support managing certificates in what versions of Firefox?](/docs/endpointpolicymanager/requirements/support/applicationsettings/firefox/version.md)
 
 **Step 2 –** Watch the Netwrix Endpoint Policy Manager (formerly PolicyPak) and Firefox cert video
 for a how-to

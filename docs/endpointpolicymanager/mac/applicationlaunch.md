@@ -1,7 +1,7 @@
 # Using MacOS + Admin Approval (aka Application Launch + Challenge)
 
 **NOTE:** See the
-[Endpoint Policy Manager for Mac and Admin Approval](/docs/endpointpolicymanager/resources/video-tutorials/leastprivilege/mac/adminapproval.md)
+[Endpoint Policy Manager for Mac and Admin Approval](/docs/endpointpolicymanager/video/leastprivilege/mac/adminapproval.md)
 video for an overview of this section.
 
 You might want users to only be able to run applications (normally or those which require admin

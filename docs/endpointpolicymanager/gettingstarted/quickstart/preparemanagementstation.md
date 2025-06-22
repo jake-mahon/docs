@@ -17,12 +17,12 @@ Console (GPMC) installed on it. Therefore, good candidates are your own manageme
 box” or, if you wish, you may install on a Domain Controller.
 
 **TIP**: Use the instructions in the
-[What are the two ways that can I install the GPMC on my Admin Station (Server or Windows 10) machine?](/docs/endpointpolicymanager/installation-and-deployment/methods.md)
+[What are the two ways that can I install the GPMC on my Admin Station (Server or Windows 10) machine?](/docs/endpointpolicymanager/install/methods.md)
 topic if you do not yet have the GPMC on your management station.
 
 **NOTE:** The Endpoint Policy Manager MMC Group Policy Snap-In does NOT require installation on a
 Domain Controller, it is simply an option. See the
-[Does Endpoint Policy Manager admin console need to be installed on Domain Controller (DC)?](/docs/endpointpolicymanager/installation-and-deployment/adminconsole.md)
+[Does Endpoint Policy Manager admin console need to be installed on Domain Controller (DC)?](/docs/endpointpolicymanager/install/adminconsole.md)
 topic for details.
 
 The result of installing the Endpoint Policy Manager MMC Group Policy Snap-In on a management
@@ -48,5 +48,5 @@ you’ll see the extra Netwrix nodes alongside the Microsoft nodes.
 
 Additional resources you may be interested in:
 
-- [How to create a DC for editing purposes](/docs/endpointpolicymanager/resources/video-tutorials/cloud/testlab/createdc.md)
-- [Admin Console And CSE Installation](/docs/endpointpolicymanager/resources/video-tutorials/grouppolicy/install.md)
+- [How to create a DC for editing purposes](/docs/endpointpolicymanager/video/cloud/testlab/createdc.md)
+- [Admin Console And CSE Installation](/docs/endpointpolicymanager/video/grouppolicy/install.md)

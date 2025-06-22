@@ -1,7 +1,7 @@
 # Scenario 3: Running or Elevating Applications or Installers, but Blocking Other Admins from Running Them
 
 **NOTE:** For an overview video of this section, see the
-[Elevate apps as standard user, BLOCK other Admins](/docs/endpointpolicymanager/resources/video-tutorials/leastprivilege/bestpractices/appblock.md)
+[Elevate apps as standard user, BLOCK other Admins](/docs/endpointpolicymanager/video/leastprivilege/bestpractices/appblock.md)
 video .
 
 In this scenario you want to do work with Endpoint Policy Manager Least Privilege Manager (Elevate,

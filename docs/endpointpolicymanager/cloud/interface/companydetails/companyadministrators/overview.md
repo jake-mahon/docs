@@ -1,7 +1,7 @@
 # Company Administrators
 
 For an overview of security features, including roles, watch this video:
-[Endpoint Policy Manager Cloud: Immutable Log](/docs/endpointpolicymanager/resources/video-tutorials/cloud/security/immutablelog.md).
+[Endpoint Policy Manager Cloud: Immutable Log](/docs/endpointpolicymanager/video/cloud/security/immutablelog.md).
 
 Your company may have one or more administrators who share access. Those admins may have the same
 roles, or different roles that enable different interactions with Endpoint Policy Manager Cloud. Any

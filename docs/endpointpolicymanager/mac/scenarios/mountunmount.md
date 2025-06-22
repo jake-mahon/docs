@@ -1,9 +1,9 @@
 # Mount / Unmount for USB and .DMG Files
 
 **NOTE:** See the
-[Endpoint Privilege Manager for Mac: Mount / Unmount Part I](/docs/endpointpolicymanager/resources/video-tutorials/leastprivilege/mac/mountunmountpart1.md)
+[Endpoint Privilege Manager for Mac: Mount / Unmount Part I](/docs/endpointpolicymanager/video/leastprivilege/mac/mountunmountpart1.md)
 video and the
-[Endpoint Privilege Manager for Mac: Mount / Unmount Part II](/docs/endpointpolicymanager/resources/video-tutorials/leastprivilege/mac/mountunmounpart2.md)
+[Endpoint Privilege Manager for Mac: Mount / Unmount Part II](/docs/endpointpolicymanager/video/leastprivilege/mac/mountunmounpart2.md)
 video for an overview of this section.
 
 You might want to manage when USB devices and/or .DMG disk files can be mounted (or unmounted).

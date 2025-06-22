@@ -7,7 +7,7 @@ See the following Knowledge Base articles for Scripts and Triggers Manager.
 - [What must I do in Cylance such that it will run Powershell scripts via Endpoint Policy Scripts Manager?](/docs/endpointpolicymanager/automation-and-scripting/scripts-and-triggers/cylance.md)
 - [What is the expected behavior after an Endpoint Policy Manager Script "ON/APPLY" script is modified?](/docs/endpointpolicymanager/automation-and-scripting/scripts-and-triggers/onapplyscript.md)
 - [Where do scripts run? How are they protected from unauthorized access? How can I change the location of where scripts are stored?](/docs/endpointpolicymanager/automation-and-scripting/scripts-and-triggers/scriptlocation.md)
-- [Which VPN Solutions are currently supported for use with Scripts Manager VPN Triggers?](/docs/endpointpolicymanager/platform-specific/windows-requirements/support/scriptstriggers/vpnsolutions.md)
+- [Which VPN Solutions are currently supported for use with Scripts Manager VPN Triggers?](/docs/endpointpolicymanager/requirements/support/scriptstriggers/vpnsolutions.md)
 - [How do Endpoint Policy Scripts Manager PowerShell Scripts behave when PowerShell is blocked or disabled using the following methods?](/docs/endpointpolicymanager/automation-and-scripting/scripts-and-triggers/powershellscripts.md)
 - [Why don't Batch and PowerShell scripts get blocked when SYSTEM processes are blocked](/docs/endpointpolicymanager/troubleshooting/scriptstriggers/systemprocesses.md)
 - [How do I update Windows 7 machines to TLS 1.2 such that they work with Endpoint Policy Manager Cloud?](/docs/endpointpolicymanager/automation-and-scripting/scripts-and-triggers/windows7tls.md)

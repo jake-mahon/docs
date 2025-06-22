@@ -7,5 +7,5 @@ this feature.
 
 **NOTE:** Before heading down this path please watch the backup / restore videos:
 
-- [Endpoint Policy Manager Application Settings Manager: Backup, Restore, Export, Import](/docs/endpointpolicymanager/resources/video-tutorials/troubleshooting/backup.md)
-- [Endpoint Policy Manager: Backup and Restore Options to Recover from nearly any problem](/docs/endpointpolicymanager/resources/video-tutorials/troubleshooting/backupoptions.md)
+- [Endpoint Policy Manager Application Settings Manager: Backup, Restore, Export, Import](/docs/endpointpolicymanager/video/troubleshooting/backup.md)
+- [Endpoint Policy Manager: Backup and Restore Options to Recover from nearly any problem](/docs/endpointpolicymanager/video/troubleshooting/backupoptions.md)

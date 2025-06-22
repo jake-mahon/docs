@@ -8,7 +8,7 @@ for the policy type, the editor will enable you to create the policy but you wil
 it to any groups.
 
 For the items which do not have in-cloud editors, you must use the steps described in the
-**[Upload XML Data File](/docs/endpointpolicymanager/cloud-and-remote-management/cloud-management/interface/xmldatafiles/upload.md)** section. In this case, you must create the policy on-prem
+**[Upload XML Data File](/docs/endpointpolicymanager/cloud/interface/xmldatafiles/upload.md)** section. In this case, you must create the policy on-prem
 first, then export and upload it manually.
 
 ![web_interface_and_controls_18_625x627](/img/product_docs/endpointpolicymanager/endpointpolicymanager/cloud/interface/xmldatafiles/web_interface_and_controls_18_625x627.webp)
@@ -29,7 +29,7 @@ Endpoint Policy Manager, and Windows 10. Endpoint Policy Manager keeps these up 
 
 Video: To see how to use in-cloud ADMX settings maintained by Endpoint Policy Manager, watch this
 video:
-[Endpoint Policy ManagerCloud: Use in-cloud ADMX settings maintained by Endpoint Policy Manager for Windows, Office, Chrome and more](/docs/endpointpolicymanager/resources/video-tutorials/cloud/admxsettings.md).
+[Endpoint Policy ManagerCloud: Use in-cloud ADMX settings maintained by Endpoint Policy Manager for Windows, Office, Chrome and more](/docs/endpointpolicymanager/video/cloud/admxsettings.md).
 
 However, you may also upload your own ADMX templates for your own applications. To learn how to do
 that, see the "File Box" section later in this guide.
@@ -45,12 +45,12 @@ Next, specify the state and any other available options.
 
 Additionally, to learn how to use the in-cloud Microsoft Security Settings editors, we recommend
 this video:
-[Endpoint Policy Manager Cloud and Security Settings (More examples)](/docs/endpointpolicymanager/resources/video-tutorials/cloud/securitysettings.md).
+[Endpoint Policy Manager Cloud and Security Settings (More examples)](/docs/endpointpolicymanager/video/cloud/securitysettings.md).
 
 One sub-editor type for Microsoft Security Settings is the Restricted Groups Editor. You can learn
 how to use this editor in this video:
-[Endpoint Policy Manager Cloud: Restricted Groups Editor](/docs/endpointpolicymanager/resources/video-tutorials/cloud/restricted_groups_editor.md).
+[Endpoint Policy Manager Cloud: Restricted Groups Editor](/docs/endpointpolicymanager/video/cloud/restricted_groups_editor.md).
 
 To learn how to use the in-cloud Microsoft Group Policy Preferences editors, we recommend this
 video:
-[Endpoint Policy Manager Cloud + GPPrefs (More examples)](/docs/endpointpolicymanager/resources/video-tutorials/cloud/preferences.md).
+[Endpoint Policy Manager Cloud + GPPrefs (More examples)](/docs/endpointpolicymanager/video/cloud/preferences.md).

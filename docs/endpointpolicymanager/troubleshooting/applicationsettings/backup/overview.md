@@ -16,7 +16,7 @@ Let's recall the three pieces that constitute Endpoint Policy Manager Applicatio
 ## Backup and Restore
 
 **NOTE:** Video: For an overview video of how to backup and restore, please see this
-video:[Endpoint Policy Manager Application Settings Manager: Backup, Restore, Export, Import](/docs/endpointpolicymanager/resources/video-tutorials/troubleshooting/backup.md).
+video:[Endpoint Policy Manager Application Settings Manager: Backup, Restore, Export, Import](/docs/endpointpolicymanager/video/troubleshooting/backup.md).
 
 The three pieces that constitute Endpoint Policy Manager Application Settings Manager should be
 backed up in case of loss, failure, overwriting, or some other damage. Below, we describe some
@@ -50,7 +50,7 @@ When restoring, the Endpoint Policy Manager Application Settings Manager data an
 ## Settings for XML Export and Import
 
 **NOTE:** For an overview of exporting and importing settings, please see this video:
-[Endpoint Policy Manager Application Settings Manager: Backup, Restore, Export, Import](/docs/endpointpolicymanager/resources/video-tutorials/troubleshooting/backup.md)
+[Endpoint Policy Manager Application Settings Manager: Backup, Restore, Export, Import](/docs/endpointpolicymanager/video/troubleshooting/backup.md)
 (at the 2 minute and 50 second mark).
 
 The exact settings you specified inside an AppSet within a GPO can be exported and imported. This

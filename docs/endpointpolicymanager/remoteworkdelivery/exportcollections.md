@@ -1,13 +1,13 @@
 # Exporting Collections
 
-In Appendix A:[Using Endpoint Policy Manager with MDM and UEM Tools](/docs/endpointpolicymanager/cloud-and-remote-management/mdm-integration/uemtools.md), you can
+In Appendix A:[Using Endpoint Policy Manager with MDM and UEM Tools](/docs/endpointpolicymanager/mdm/uemtools.md), you can
 learn how to use the Netwrix Endpoint Policy Manager (formerly PolicyPak) Exporter to wrap up
 Endpoint Policy Manager directives and deliver them using Endpoint Policy Manager Cloud, an MDM
 service, or a non-Group Policy method such as MEMCM, KACE, and so on.
 
 **NOTE:** For a video demonstrating the use of Endpoint Policy Manager Remote Work Delivery Manager
 with Endpoint Policy Manager MDM see
-[Copy files and keep them up to date with your MDM service](/docs/endpointpolicymanager/resources/video-tutorials/remoteworkdelivery/mdm.md).
+[Copy files and keep them up to date with your MDM service](/docs/endpointpolicymanager/video/remoteworkdelivery/mdm.md).
 
 Remember that Endpoint Policy Manager Remote Work Delivery Manager policies can be created and
 exported on the User side or Computer side. In the example below you can see an export from the User
@@ -37,7 +37,7 @@ Here are some helpful tips to decide which side to use:
   switched mode).
 
 **NOTE:** See
-[Deploying Endpoint Policy Managerdirectives without Group Policy (Endpoint Policy Manager Exporter Utility)](/docs/endpointpolicymanager/resources/video-tutorials/mdm/exporterutility.md)
+[Deploying Endpoint Policy Managerdirectives without Group Policy (Endpoint Policy Manager Exporter Utility)](/docs/endpointpolicymanager/video/mdm/exporterutility.md)
 for additional information on how to export policies and use Endpoint Policy Manager Exporter
 
 Note that exported collections or policies maintain any Item-Level Targeting set within them. If

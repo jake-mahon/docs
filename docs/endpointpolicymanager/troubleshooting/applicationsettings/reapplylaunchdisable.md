@@ -2,7 +2,7 @@
 
 First, install the Netwrix Endpoint Policy Manager (formerly PolicyPak) ADMX files as seen here:
 
-[Troubleshooting with ADMX files](/docs/endpointpolicymanager/resources/video-tutorials/troubleshooting/admxfiles.md)
+[Troubleshooting with ADMX files](/docs/endpointpolicymanager/video/troubleshooting/admxfiles.md)
 
 Then use the following Computer side Group Policy setting to "Disable Reapply on Launch for all
 applications."

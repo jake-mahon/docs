@@ -4,24 +4,24 @@ See the following Knowledge Base articles for getting started with Cloud.
 
 ## Getting Started
 
-- [How do I transition from Endpoint Policy Managerusing Group Policy or SCCM method to Endpoint Policy Manager Cloud](/docs/endpointpolicymanager/cloud-and-remote-management/cloud-management/transition.md)
-- [What are the OS requirements for Endpoint Policy Manager Cloud?](/docs/endpointpolicymanager/platform-specific/windows-requirements/cloud.md)
-- [When must I use the Endpoint Policy ManagerCloud Client installer versus the on-prem Endpoint Policy Manager CSE?](/docs/endpointpolicymanager/installation-and-deployment/cloud/client.md)
-- [Can I use an Endpoint Policy Manager Cloud installer and license for domain-joined and non-domain joined machines?](/docs/endpointpolicymanager/installation-and-deployment/cloud/clientdomainnondomain.md)
-- [Is there an "Active Directory Connector" to map on-prem OUs and Groups to Endpoint Policy Manager Cloud?](/docs/endpointpolicymanager/installation-and-deployment/cloud/activedirectory.md)
-- [What editors are there in Endpoint Policy Manager Cloud (and when would I need a "Fake DC" to do editing?)](/docs/endpointpolicymanager/cloud-and-remote-management/cloud-management/fakedc.md)
-- [What are the ways I can install the Endpoint Policy Manager Cloud Client on Remote Machines?](/docs/endpointpolicymanager/installation-and-deployment/cloud/clientremote.md)
-- [How can I best install Endpoint Policy Manager Cloud for remote clients over a slow link/internet connection?](/docs/endpointpolicymanager/installation-and-deployment/cloud/slowinternet.md)
-- [How do I start credit card billing with Endpoint Policy Manager SaaS Edition?](/docs/endpointpolicymanager/cloud-and-remote-management/cloud-management/creditcard.md)
+- [How do I transition from Endpoint Policy Managerusing Group Policy or SCCM method to Endpoint Policy Manager Cloud](/docs/endpointpolicymanager/cloud/transition.md)
+- [What are the OS requirements for Endpoint Policy Manager Cloud?](/docs/endpointpolicymanager/requirements/cloud.md)
+- [When must I use the Endpoint Policy ManagerCloud Client installer versus the on-prem Endpoint Policy Manager CSE?](/docs/endpointpolicymanager/install/cloud/client.md)
+- [Can I use an Endpoint Policy Manager Cloud installer and license for domain-joined and non-domain joined machines?](/docs/endpointpolicymanager/install/cloud/clientdomainnondomain.md)
+- [Is there an "Active Directory Connector" to map on-prem OUs and Groups to Endpoint Policy Manager Cloud?](/docs/endpointpolicymanager/install/cloud/activedirectory.md)
+- [What editors are there in Endpoint Policy Manager Cloud (and when would I need a "Fake DC" to do editing?)](/docs/endpointpolicymanager/cloud/fakedc.md)
+- [What are the ways I can install the Endpoint Policy Manager Cloud Client on Remote Machines?](/docs/endpointpolicymanager/install/cloud/clientremote.md)
+- [How can I best install Endpoint Policy Manager Cloud for remote clients over a slow link/internet connection?](/docs/endpointpolicymanager/install/cloud/slowinternet.md)
+- [How do I start credit card billing with Endpoint Policy Manager SaaS Edition?](/docs/endpointpolicymanager/cloud/creditcard.md)
 
 ## Cloud Portal Security
 
-- [What data is stored in Endpoint Policy Manager Cloud, and how is that data safely communicated and stored ?](/docs/endpointpolicymanager/cloud-and-remote-management/cloud-management/security/datasafety.md)
-- [Endpoint Policy Manager Cloud Portal - Adding new company admins - Quickstart](/docs/endpointpolicymanager/cloud-and-remote-management/cloud-management/add/administrator.md)
+- [What data is stored in Endpoint Policy Manager Cloud, and how is that data safely communicated and stored ?](/docs/endpointpolicymanager/cloud/security/datasafety.md)
+- [Endpoint Policy Manager Cloud Portal - Adding new company admins - Quickstart](/docs/endpointpolicymanager/cloud/add/administrator.md)
 
 ## Cloud Licensing
 
-- [How is Endpoint Policy Manager Cloud usage counted and calculated toward my True-Up?](/docs/endpointpolicymanager/licensing/cloud/usage.md)
+- [How is Endpoint Policy Manager Cloud usage counted and calculated toward my True-Up?](/docs/endpointpolicymanager/license/cloud/usage.md)
 
 ## Client Troubleshooting
 
@@ -54,31 +54,31 @@ See the following Knowledge Base articles for getting started with Cloud.
 
 ## Mac Integration
 
-- [What are the step by step instructions to install the MacOS Client for Endpoint Policy Manager Cloud manually?](/docs/endpointpolicymanager/cloud-and-remote-management/cloud-management/install/mac/client.md)
-- [How to get signature info from pkg installer?](/docs/endpointpolicymanager/cloud-and-remote-management/cloud-management/install/mac/signature.md)
+- [What are the step by step instructions to install the MacOS Client for Endpoint Policy Manager Cloud manually?](/docs/endpointpolicymanager/cloud/install/mac/client.md)
+- [How to get signature info from pkg installer?](/docs/endpointpolicymanager/cloud/install/mac/signature.md)
 - [Where are log files for the Endpoint Policy Manager MacOS?](/docs/endpointpolicymanager/troubleshooting/cloud/log/mac.md)
-- [How to get SHA of the package](/docs/endpointpolicymanager/cloud-and-remote-management/cloud-management/install/mac/sha.md)
-- [How to get SigningID of the package?](/docs/endpointpolicymanager/cloud-and-remote-management/cloud-management/install/mac/signingid.md)
+- [How to get SHA of the package](/docs/endpointpolicymanager/cloud/install/mac/sha.md)
+- [How to get SigningID of the package?](/docs/endpointpolicymanager/cloud/install/mac/signingid.md)
 
 ## Client Tips, Tricks, and FAQs
 
-- [What are the most common questions about editing policies using the Endpoint Policy ManagerCloud policy editor (instead of using the MMC to upload to Endpoint Policy Manager Cloud?)](/docs/endpointpolicymanager/cloud-and-remote-management/cloud-management/policy/edit.md)
-- [How to remove (unlink) all Example policies at once from the All-Built-in Group](/docs/endpointpolicymanager/cloud-and-remote-management/cloud-management/unlink.md)
-- [How to use Remote Work Delivery Manager to apply Firewall policies](/docs/endpointpolicymanager/cloud-and-remote-management/cloud-management/remoteworkdeliverymanager.md)
-- [If I want to totally stop using Endpoint Policy ManagerCloud on an endpoint, how would I remove the Endpoint Policy Manager Cloud client pieces remotely?](/docs/endpointpolicymanager/installation-and-deployment/cloud/removeendpoint.md)
-- [How often does the Endpoint Policy Manager cloud client pull down new or updated directives?](/docs/endpointpolicymanager/cloud-and-remote-management/cloud-management/updatefrequency.md)
-- [When does Endpoint Policy Managersync to Endpoint Policy Manager Cloud?](/docs/endpointpolicymanager/cloud-and-remote-management/cloud-management/syncfrequency.md)
-- [How do I configure Security Settings | Public Key Policies using Endpoint Policy Manager Cloud?](/docs/endpointpolicymanager/cloud-and-remote-management/cloud-management/security/publickeypoliciessettings.md)
+- [What are the most common questions about editing policies using the Endpoint Policy ManagerCloud policy editor (instead of using the MMC to upload to Endpoint Policy Manager Cloud?)](/docs/endpointpolicymanager/cloud/policy/edit.md)
+- [How to remove (unlink) all Example policies at once from the All-Built-in Group](/docs/endpointpolicymanager/cloud/unlink.md)
+- [How to use Remote Work Delivery Manager to apply Firewall policies](/docs/endpointpolicymanager/cloud/remoteworkdeliverymanager.md)
+- [If I want to totally stop using Endpoint Policy ManagerCloud on an endpoint, how would I remove the Endpoint Policy Manager Cloud client pieces remotely?](/docs/endpointpolicymanager/install/cloud/removeendpoint.md)
+- [How often does the Endpoint Policy Manager cloud client pull down new or updated directives?](/docs/endpointpolicymanager/cloud/updatefrequency.md)
+- [When does Endpoint Policy Managersync to Endpoint Policy Manager Cloud?](/docs/endpointpolicymanager/cloud/syncfrequency.md)
+- [How do I configure Security Settings | Public Key Policies using Endpoint Policy Manager Cloud?](/docs/endpointpolicymanager/cloud/security/publickeypoliciessettings.md)
 - [Printers won't come back once removed by user](/docs/endpointpolicymanager/troubleshooting/cloud/printers.md)
-- [Using Targeting Editor in Endpoint Policy Manager Cloud Settings](/docs/endpointpolicymanager/cloud-and-remote-management/cloud-management/targetingeditor.md)
-- [How to install the Endpoint Policy Manager Cloud Client for use in an Azure Virtual Desktop image](/docs/endpointpolicymanager/integrations/third-party-integrations/azurevirutaldesktop.md)
-- [How to install and configure the PPC Client for a Non-Persistent VDI Image in VMware Horizon](/docs/endpointpolicymanager/integrations/third-party-integrations/vdisolutions.md)
-- [How do I deploy the Endpoint Policy Manager Cloud Client via command line silently?](/docs/endpointpolicymanager/installation-and-deployment/cloud/clientsilent.md)
-- [Are Endpoint Policy Manager Cloud policies processed on User or Computer side (and why do I only sometimes see User or Computer side ILT?)](/docs/endpointpolicymanager/cloud-and-remote-management/cloud-management/policy/type.md)
-- [How can I move a computer from one Endpoint Policy Manager Cloud group to another via command line?](/docs/endpointpolicymanager/cloud-and-remote-management/cloud-management/groups.md)
-- [How to find which PPCloud Client version & CSE version a registered computer is running from within the Endpoint Policy Manager Cloud portal](/docs/endpointpolicymanager/cloud-and-remote-management/cloud-management/version.md)
+- [Using Targeting Editor in Endpoint Policy Manager Cloud Settings](/docs/endpointpolicymanager/cloud/targetingeditor.md)
+- [How to install the Endpoint Policy Manager Cloud Client for use in an Azure Virtual Desktop image](/docs/endpointpolicymanager/integration/azurevirutaldesktop.md)
+- [How to install and configure the PPC Client for a Non-Persistent VDI Image in VMware Horizon](/docs/endpointpolicymanager/integration/vdisolutions.md)
+- [How do I deploy the Endpoint Policy Manager Cloud Client via command line silently?](/docs/endpointpolicymanager/install/cloud/clientsilent.md)
+- [Are Endpoint Policy Manager Cloud policies processed on User or Computer side (and why do I only sometimes see User or Computer side ILT?)](/docs/endpointpolicymanager/cloud/policy/type.md)
+- [How can I move a computer from one Endpoint Policy Manager Cloud group to another via command line?](/docs/endpointpolicymanager/cloud/groups.md)
+- [How to find which PPCloud Client version & CSE version a registered computer is running from within the Endpoint Policy Manager Cloud portal](/docs/endpointpolicymanager/cloud/version.md)
 
 ## Event Collection
 
-- [How can I keep the same or specify different parameters for Event Collection for child groups? How does a computer behave if a member of multiple groups?](/docs/endpointpolicymanager/cloud-and-remote-management/cloud-management/eventcollection/childgroups.md)
-- [ Endpoint Policy Manager Cloud Event Forwarding to Splunk](/docs/endpointpolicymanager/cloud-and-remote-management/cloud-management/eventcollection/splunk.md)
+- [How can I keep the same or specify different parameters for Event Collection for child groups? How does a computer behave if a member of multiple groups?](/docs/endpointpolicymanager/cloud/eventcollection/childgroups.md)
+- [ Endpoint Policy Manager Cloud Event Forwarding to Splunk](/docs/endpointpolicymanager/cloud/eventcollection/splunk.md)

@@ -1,15 +1,15 @@
 # Exporting Collections
 
-Appendix A: [Using Endpoint Policy Manager with MDM and UEM Tools](/docs/endpointpolicymanager/cloud-and-remote-management/mdm-integration/uemtools.md) explains
+Appendix A: [Using Endpoint Policy Manager with MDM and UEM Tools](/docs/endpointpolicymanager/mdm/uemtools.md) explains
 how to use the Endpoint Policy Manager Exporter to wrap up any Endpoint Policy Manager directive and
 deliver it using an MDM service such as Microsoft Endpoint Manager (SCCM and Intune), KACE, and so
 on, as well as via Endpoint Policy Manager Cloud.
 
 **NOTE:** For a video demonstrating the use of Endpoint Policy Manager scripts with Endpoint Policy
 Manager Cloud and an MDM service see
-[Endpoint Policy ManagerScripts .. Deploy Software via VPN or with Endpoint Policy Manager Cloud](/docs/endpointpolicymanager/resources/video-tutorials/scriptstriggers/cloud.md)
+[Endpoint Policy ManagerScripts .. Deploy Software via VPN or with Endpoint Policy Manager Cloud](/docs/endpointpolicymanager/video/scriptstriggers/cloud.md)
 and
-[Endpoint Policy Manager Scripts and YOUR MDM service: Un-real power](/docs/endpointpolicymanager/resources/video-tutorials/scriptstriggers/mdm.md)
+[Endpoint Policy Manager Scripts and YOUR MDM service: Un-real power](/docs/endpointpolicymanager/video/scriptstriggers/mdm.md)
 
 Remember that Endpoint Policy Manager Scripts & Triggers Manager policies can be created and
 exported on the User or Computer side. For instance, in Figure 30, you can see an export from the
@@ -41,7 +41,7 @@ Cloud, right-click the collection or the policy and select "Export as XML," as d
 Figure 32.
 
 **NOTE:** For a video showing how to export policies and use Endpoint Policy Manager Exporter, watch
-[Deploying Endpoint Policy Managerdirectives without Group Policy (Endpoint Policy Manager Exporter Utility)](/docs/endpointpolicymanager/resources/video-tutorials/mdm/exporterutility.md).
+[Deploying Endpoint Policy Managerdirectives without Group Policy (Endpoint Policy Manager Exporter Utility)](/docs/endpointpolicymanager/video/mdm/exporterutility.md).
 
 ![using_item_level_targeting_8](/img/product_docs/endpointpolicymanager/endpointpolicymanager/remotedesktopprotocol/itemleveltargeting/using_item_level_targeting_8.webp)
 

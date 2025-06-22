@@ -2,7 +2,7 @@
 
 First, you can always restore ANY GPO if you have a full GPO backup.  If you have a GPO backup, then
 follow these steps: Here's our video on it.. 
-[Integration with Group Policy (Basics: Installation, Backup, Restore and Reporting !)](/docs/endpointpolicymanager/resources/video-tutorials/grouppolicy/integration.md)
+[Integration with Group Policy (Basics: Installation, Backup, Restore and Reporting !)](/docs/endpointpolicymanager/video/grouppolicy/integration.md)
 
 However, if you do not have a full GPO backup, but only have an Active Directory backup you can
 still use this as a restore point.

@@ -8,7 +8,7 @@ Utility allows you to do just that. Identify the source GPOs that contain Micros
 settings (known as REG.POL settings), and then specify a target GPO, to create a collection.
 
 **NOTE:** See the
-[Reduce GPOs (and/or export them for use with Endpoint Policy Manager Cloud or with MDM)](/docs/endpointpolicymanager/resources/video-tutorials/mdm/exportgpos.md)
+[Reduce GPOs (and/or export them for use with Endpoint Policy Manager Cloud or with MDM)](/docs/endpointpolicymanager/video/mdm/exportgpos.md)
 topic for more information.
 
 A secondary use for the Endpoint Policy Manager **Group Policy Merge Utility** is to merge multiple

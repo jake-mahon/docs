@@ -19,7 +19,7 @@ This checked by default to prevent users from gaining unauthorized administrativ
 Open/Save dialog box to their endpoint. Unchecked, you open up the possibility for a knowledgeable
 operator to gain administrative access to the computer. For more information in this, please refer
 to this KB video
-->[Increase security by reducing rights on Open/Save dialogs](/docs/endpointpolicymanager/resources/video-tutorials/leastprivilege/bestpractices/opensavedialogs.md)
+->[Increase security by reducing rights on Open/Save dialogs](/docs/endpointpolicymanager/video/leastprivilege/bestpractices/opensavedialogs.md)
 
 ## Optional
 

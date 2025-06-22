@@ -1,7 +1,7 @@
 # Package Installation Policy
 
 **NOTE:** See the
-[Endpoint Policy Manager Least Priv Manager for Macs Application Package Support](/docs/endpointpolicymanager/resources/video-tutorials/leastprivilege/mac/applicationpackage.md)
+[Endpoint Policy Manager Least Priv Manager for Macs Application Package Support](/docs/endpointpolicymanager/video/leastprivilege/mac/applicationpackage.md)
 video for an overview of this section.
 
 When a standard user attempts to install a .PKG file they are not allowed to do so. In this example,

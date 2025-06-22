@@ -14,7 +14,7 @@ blocked.
 
 **NOTE:** The more conditions evaluated, the more secure the rule will be. See this video for more
 details:
-[Best Practices for Elevating User-Based Installs](/docs/endpointpolicymanager/resources/video-tutorials/leastprivilege/bestpractices/elevatinguserbasedinstalls.md)
+[Best Practices for Elevating User-Based Installs](/docs/endpointpolicymanager/video/leastprivilege/bestpractices/elevatinguserbasedinstalls.md)
 
 **Step 3 –** Apply the policy and then verify using the Endpoint Policy Manager event log of the
 application being Elevated.

@@ -2,4 +2,4 @@
 
 Yes. Here is a videos to demonstrate that.
 
-[Manage Firefox Add-ons using Group Policy](/docs/endpointpolicymanager/resources/video-tutorials/applicationsettings/firefox/addons.md)
+[Manage Firefox Add-ons using Group Policy](/docs/endpointpolicymanager/video/applicationsettings/firefox/addons.md)

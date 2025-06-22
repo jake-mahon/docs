@@ -7,7 +7,7 @@ Chrome website.
 ![about_policypak_browser_router_23](/img/product_docs/endpointpolicymanager/endpointpolicymanager/browserrouter/about_endpointpolicymanager_browser_router_23.webp)
 
 **NOTE:** For a video on using Endpoint Policy Manager Browser Router and ports, see
-[Endpoint Policy Manager Browser Router and Ports](/docs/endpointpolicymanager/resources/video-tutorials/browserrouter/ports.md).
+[Endpoint Policy Manager Browser Router and Ports](/docs/endpointpolicymanager/video/browserrouter/ports.md).
 
 In this way, you can have granular control over which browser is opened for which website.
 Additionally, for Internet Explorer 11, Endpoint Policy Manager Browser Router will automatically

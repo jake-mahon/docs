@@ -10,12 +10,12 @@ See the following Knowledge Base articles for GPO Export Merge, Admin Templates
 
 ## Admin Templates Manager: Tips and Tricks
 
-- [Which settings can be managed with the Admin Templates Manager component?](/docs/endpointpolicymanager/policy-management/administrative-templates/settings.md)
-- [How do I disable elements in Office (Outlook, etc.) using Endpoint Policy Manager and ADMX files?](/docs/endpointpolicymanager/policy-management/administrative-templates/disableofficeelements.md)
+- [Which settings can be managed with the Admin Templates Manager component?](/docs/endpointpolicymanager/administrativetemplates/settings.md)
+- [How do I disable elements in Office (Outlook, etc.) using Endpoint Policy Manager and ADMX files?](/docs/endpointpolicymanager/administrativetemplates/disableofficeelements.md)
 
 ## Admin Templates Manager: Troubleshooting
 
-- [What Admin Console MSI and CSE versions are supported for Endpoint Policy Manager Admin Templates Manager ?](/docs/endpointpolicymanager/policy-management/administrative-templates/versions.md)
+- [What Admin Console MSI and CSE versions are supported for Endpoint Policy Manager Admin Templates Manager ?](/docs/endpointpolicymanager/administrativetemplates/versions.md)
 - [I created a Collection and/or items, but I don't see them in the Group Policy settings report. Why and how can I fix it?](/docs/endpointpolicymanager/troubleshooting/administrativetemplates/settingsreport.md)
 - [I've created a collection in the Administrative Templates Manager and I've added policies to that collection. However, they are not showing up in the main window.](/docs/endpointpolicymanager/troubleshooting/administrativetemplates/missingcollections.md)
 - [I get a "Policy Duplicates" error when adding new policies using Endpoint Policy Manager Admin Templates Manager. What should I do?](/docs/endpointpolicymanager/troubleshooting/error/admintemplates/policyduplicates.md)

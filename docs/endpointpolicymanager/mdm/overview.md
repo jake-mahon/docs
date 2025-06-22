@@ -24,7 +24,7 @@ Manager, and all the others) without using Group Policy as the delivery mechanis
 
 **NOTE:** For an overview of using Endpoint Policy Manager Exporter with the Endpoint Policy Manager
 components, please see the following video:
-[Deploying Endpoint Policy Managerdirectives without Group Policy (Endpoint Policy Manager Exporter Utility)](/docs/endpointpolicymanager/resources/video-tutorials/methods/exporterutility.md).
+[Deploying Endpoint Policy Managerdirectives without Group Policy (Endpoint Policy Manager Exporter Utility)](/docs/endpointpolicymanager/video/methods/exporterutility.md).
 
 **CAUTION:** Note that non-domain-joined machines are not supported with Endpoint Policy Manager
 products, unless you are using the MDM method. That is, the machine must have been previously

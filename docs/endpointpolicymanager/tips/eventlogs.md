@@ -6,9 +6,9 @@ event logs, and maybe you already know about on-prem Event Forwarding.
 
 **NOTE:** If you want to learn more about on-prem Event Forwarding, you can see my Walkthrough of
 that here
-[Using Windows Event Forwarding to search for interesting events](/docs/endpointpolicymanager/resources/video-tutorials/leastprivilege/windowseventforwarding.md)
+[Using Windows Event Forwarding to search for interesting events](/docs/endpointpolicymanager/video/leastprivilege/windowseventforwarding.md)
 and
-[How to forward interesting events for Least Privilege Manager (or anything else) to a centralized location using Windows Event Forwarding.](/docs/endpointpolicymanager/security-and-privilege-management/least-privilege-manager/windowseventforwarding.md).
+[How to forward interesting events for Least Privilege Manager (or anything else) to a centralized location using Windows Event Forwarding.](/docs/endpointpolicymanager/leastprivilege/windowseventforwarding.md).
 
 But how do we take on-prem events from Windows 10 (or Windows Server) and get the up to the cloud
 for later analysis? If you have 24, 250, or 25,000 domain joined (or even NON-domain joined)
@@ -77,7 +77,7 @@ blog [https://www.mdmandgpanswers.com/blogs/view-blog/windows-10-and-server-eve
 
 **Step 4 –** Then, Up, Up and away. Launch the agent.. which requires admin rights. (Or, pro tip:
 Use Endpoint Policy Manager Scripts to install it automatically where the script is
-elevated.[Endpoint Policy ManagerScripts .. Deploy Software via VPN or with Endpoint Policy Manager Cloud](/docs/endpointpolicymanager/resources/video-tutorials/scriptstriggers/cloud.md)
+elevated.[Endpoint Policy ManagerScripts .. Deploy Software via VPN or with Endpoint Policy Manager Cloud](/docs/endpointpolicymanager/video/scriptstriggers/cloud.md)
 
 **Step 5 –** You'll need to select "Connect the agent to Azure Log Analytics (OMS)" like what's seen
 here.

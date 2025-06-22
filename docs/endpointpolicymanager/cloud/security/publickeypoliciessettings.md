@@ -8,7 +8,7 @@ To configure Security Settings, start by opening the Group Policy Management Edi
 real GPO.
 
 Then export using PP Settings Manager to an
-XML. [Endpoint Policy ManagerCloud: How to deploy Microsoft Group Policy Settings using Endpoint Policy Manager Cloud](/docs/endpointpolicymanager/resources/video-tutorials/cloud/deploy/grouppolicysettings.md)
+XML. [Endpoint Policy ManagerCloud: How to deploy Microsoft Group Policy Settings using Endpoint Policy Manager Cloud](/docs/endpointpolicymanager/video/cloud/deploy/grouppolicysettings.md)
 
 Then, upload it to PPCloud. This would make the specified cert a Trusted Root CA on the target
 machines.

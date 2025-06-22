@@ -3,7 +3,7 @@
 Before reading the full answer to this question, please go over this FAQ question and see if that
 answers your question:
 
-[Why do I have to run the licensing tool / what information is gathered and sent to Endpoint Policy Manager for my trial (or becoming a customer?)](/docs/endpointpolicymanager/licensing/tool.md)
+[Why do I have to run the licensing tool / what information is gathered and sent to Endpoint Policy Manager for my trial (or becoming a customer?)](/docs/endpointpolicymanager/license/tool.md)
 
 In short, we don't collect any critical information at all. The LT only collects the number of
 computers and where the licenses are used. Because of this, we recommend you use the LT utility as
@@ -67,7 +67,7 @@ So, to recap:
 **Step 1 –** If you use our Endpoint Policy Manager On-Prem Licensing tool (LT), we collect only
 information about where you want to use it and how much you want to use it. We do not collect
 usernames, computer names, passwords or anything else. Again, see
-[Why do I have to run the licensing tool / what information is gathered and sent to Endpoint Policy Manager for my trial (or becoming a customer?)](/docs/endpointpolicymanager/licensing/tool.md)for additional
+[Why do I have to run the licensing tool / what information is gathered and sent to Endpoint Policy Manager for my trial (or becoming a customer?)](/docs/endpointpolicymanager/license/tool.md)for additional
 information
 
 **Step 2 –** If you are unable to use our LT, that's fine. The alternative is to use these

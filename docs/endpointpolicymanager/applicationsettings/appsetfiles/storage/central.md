@@ -16,7 +16,7 @@ Storage—automatically.
 **NOTE:** If you are familiar with Group Policy's ADMX Central Storage, this feature is identical
 and accomplishes a similar task. For information on Microsoft's implementation of central storage,
 please read
-[Understanding and fixing Endpoint Policy Manager DLL Orphans](/docs/endpointpolicymanager/resources/video-tutorials/applicationsettings/dllorphans.md).
+[Understanding and fixing Endpoint Policy Manager DLL Orphans](/docs/endpointpolicymanager/video/applicationsettings/dllorphans.md).
 
 Creating the Endpoint Policy Manager Central Storage is easy and only needs to be performed one
 time. The actions that a domain administrator needs to perform are:

@@ -14,9 +14,9 @@ Before 2017
 
 - New Component: File Associations Manager: Quickly map PDF, MAILTO:, and others to the right apps.
 - Reduce GPOs and convert them to use for MDM:
-  [Reduce GPOs (and/or export them for use with Endpoint Policy Manager Cloud or with MDM)](/docs/endpointpolicymanager/resources/video-tutorials/administrativetemplates/reducegpos.md)
+  [Reduce GPOs (and/or export them for use with Endpoint Policy Manager Cloud or with MDM)](/docs/endpointpolicymanager/video/administrativetemplates/reducegpos.md)
 - Least Privilege Manager: SecureRun(TM) blocks Ransomware
-  [Events](/docs/endpointpolicymanager/resources/video-tutorials/leastprivilege/events.md)
+  [Events](/docs/endpointpolicymanager/video/leastprivilege/events.md)
 - New Component: New Endpoint Policy Manager Start Screen & Taskbar Manager: Manage Windows 10 tile
   layouts perfectly.
 
@@ -26,7 +26,7 @@ Before 2017
   PowerShell
 - Least Privilege Manager Helper Tools: Enable Standard users to update Network Card and Printer
   settings, plus uninstall applications
-  [Overcome Network Card, Printer, and Remove Programs UAC prompts](/docs/endpointpolicymanager/resources/video-tutorials/leastprivilege/uacprompts.md)
+  [Overcome Network Card, Printer, and Remove Programs UAC prompts](/docs/endpointpolicymanager/video/leastprivilege/uacprompts.md)
 
 2019
 
@@ -34,7 +34,7 @@ Before 2017
   Processes
 - IE Sitelist to Browser Router import
 - Least Privilege Manager Block PowerShell Malware
-  attacks:[Block PowerShell in General, Open up for specific items](/docs/endpointpolicymanager/resources/video-tutorials/leastprivilege/bestpractices/powershellblock.md)
+  attacks:[Block PowerShell in General, Open up for specific items](/docs/endpointpolicymanager/video/leastprivilege/bestpractices/powershellblock.md)
 - New Component — Endpoint Policy Manager Feature Manager for Windows. Quickly add / remove features
   from Windows 10 & Windows Server.
 
@@ -43,20 +43,20 @@ Before 2017
 - New Component — Endpoint Policy Manager RDP Manager: Enable remote work users to have .RDP files
   to connect to your resources.
 - Browser Router - New Edge Support / IE In Edge Mode
-  [Manage Internet Explorer 11 and Edge Compatibility, Enterprise Modes and IE-in-Edge Mode](/docs/endpointpolicymanager/resources/video-tutorials/browserrouter/ie.md)
+  [Manage Internet Explorer 11 and Edge Compatibility, Enterprise Modes and IE-in-Edge Mode](/docs/endpointpolicymanager/video/browserrouter/ie.md)
 - Browser Router Apply Once then Drift
-  [Endpoint Policy Manager Browser Router: Set the Windows 10 Default Browser (once) then drift](/docs/endpointpolicymanager/resources/video-tutorials/browserrouter/defaultwindows10.md)
+  [Endpoint Policy Manager Browser Router: Set the Windows 10 Default Browser (once) then drift](/docs/endpointpolicymanager/video/browserrouter/defaultwindows10.md)
 - File Associations Manager Apply Once then Drift
-  [Endpoint Policy Manager File Associations Manager: Apply once (and drift)](/docs/endpointpolicymanager/resources/video-tutorials/fileassociations/applyonce.md)
+  [Endpoint Policy Manager File Associations Manager: Apply once (and drift)](/docs/endpointpolicymanager/video/fileassociations/applyonce.md)
 - File Associations Manager Apply settings on USER side
 - Added Triggers to Endpoint Policy Manager Scripts & Triggers: Run a script at VPN launch or many
   other events
 - Added Email method for PPLPM Admin Approval
-  [Using Email / Long Codes](/docs/endpointpolicymanager/resources/video-tutorials/leastprivilege/longcodes.md)
+  [Using Email / Long Codes](/docs/endpointpolicymanager/video/leastprivilege/longcodes.md)
 - New Component — Remote Work Delivery Manager: Deliver software to Windows 10 via SMB share, Amazon
   S3 or other cloud services
 - Least Privlege Manager: Automatically block unsigned Applications
-  [Least Privilege Manager: Block All Unsigned with SecureRun](/docs/endpointpolicymanager/resources/video-tutorials/leastprivilege/securerun/preventunsigned.md)
+  [Least Privilege Manager: Block All Unsigned with SecureRun](/docs/endpointpolicymanager/video/leastprivilege/securerun/preventunsigned.md)
 - Compliance Reporter now 10x faster
 
 2021

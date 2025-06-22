@@ -6,7 +6,7 @@ their goals through standard Windows processes. The result with one tool (the Ne
 tool) is shown here; the other tools will have the same result.
 
 **NOTE:** See the
-[Endpoint Policy Manager Least Priv Manager Tools Setup](/docs/endpointpolicymanager/resources/video-tutorials/leastprivilege/toolssetup.md)
+[Endpoint Policy Manager Least Priv Manager Tools Setup](/docs/endpointpolicymanager/video/leastprivilege/toolssetup.md)
 video for an overview how to set up elevation for the Least Privilege Manager Helper Tools.
 
 ![A screenshot of a computer
@@ -28,5 +28,5 @@ Privilege Manager Helper Tools will run as expected.
 
 **NOTE:** For more information on how to get the Helper Tools as shortcuts to Desktops and other
 locations, please see
-the[Getting the helper tools as desktop shortcuts](/docs/endpointpolicymanager/resources/video-tutorials/leastprivilege/helperdesktopshortcut.md)
+the[Getting the helper tools as desktop shortcuts](/docs/endpointpolicymanager/video/leastprivilege/helperdesktopshortcut.md)
 video.

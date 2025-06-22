@@ -20,7 +20,7 @@ The example below show a Combo rule enabling OneDriveSetup.exe to keep running (
 and **Command-line Condition**) with the Allow and Log action.
 
 For more information on Combo rules, see
-[Creating and Using Executable Combo Rules](/docs/endpointpolicymanager/security-and-privilege-management/least-privilege-manager/bestpractices/rules/executablecombo.md)
+[Creating and Using Executable Combo Rules](/docs/endpointpolicymanager/leastprivilege/bestpractices/rules/executablecombo.md)
 
 ![A screenshot of a computer
 

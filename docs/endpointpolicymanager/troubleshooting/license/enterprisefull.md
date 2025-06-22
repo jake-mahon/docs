@@ -88,7 +88,7 @@ is the same as what we are calling "Enterprise Full" here.
 
 - Upgrade your MMC snap-in to the latest version first.
 - Perform these steps:
-  [How to install UNIVERSAL licenses for NEW Customers (via GPO, SCCM or MDM)](/docs/endpointpolicymanager/resources/video-tutorials/license/installuniversal.md)
+  [How to install UNIVERSAL licenses for NEW Customers (via GPO, SCCM or MDM)](/docs/endpointpolicymanager/video/license/installuniversal.md)
 
   **NOTE:** Using the Endpoint Policy Manager "LT" tool to install licenses is not recommended,
   but it should work.
@@ -121,19 +121,19 @@ run.
 ## If Enterprise Full means "License all components" how do I expressly disable a component (like Endpoint Policy Manager Browser Router, or Endpoint Policy Manager Application Settings Manager) if they are always licensed?
 
 - Recommended method is to use a Endpoint Policy Manager ADMX setting to specifically unlicense a
-  component:[What if I want to unlicense specific components via ADMX or Endpoint Policy Manager Cloud?](/docs/endpointpolicymanager/licensing/unlicense/componentscloud.md)
+  component:[What if I want to unlicense specific components via ADMX or Endpoint Policy Manager Cloud?](/docs/endpointpolicymanager/license/unlicense/componentscloud.md)
 - Note that Endpoint Policy Manager Preferences 1.0 will still always be "force disabled" by default
   until specifically licensed as per this
-  article:[Why is Endpoint Policy Manager Preferences (original version) "forced disabled" by default?](/docs/endpointpolicymanager/licensing/unlicense/forceddisabled.md)
+  article:[Why is Endpoint Policy Manager Preferences (original version) "forced disabled" by default?](/docs/endpointpolicymanager/license/unlicense/forceddisabled.md)
 - You can still "hard unlicense" a component inside the XML licensing file. The techniques here
   still work:
-  - [How do I specifically exclude or prevent a component from performing processing by modifying the license file?](/docs/endpointpolicymanager/licensing/unlicense/componentsexclude.md)
+  - [How do I specifically exclude or prevent a component from performing processing by modifying the license file?](/docs/endpointpolicymanager/license/unlicense/componentsexclude.md)
 
 **NOTE:** Only the updated MMC will nicely show this and have it formatted correctly; which is why
 we recommend updating to the latest MMC snap-in.
 
 - Get the GUIDs for a license you wish to expressly unlicensed here:
-  [What CSEs are contained within Endpoint Policy Manager, what are their CSE GUIDs, and in what release did they appear?](/docs/endpointpolicymanager/installation-and-deployment/clientsideextension/guids.md)
+  [What CSEs are contained within Endpoint Policy Manager, what are their CSE GUIDs, and in what release did they appear?](/docs/endpointpolicymanager/install/clientsideextension/guids.md)
 
 ## How can I request Enterprise Full keys (which will also have an Expiry date until the end of my term?)
 
@@ -152,7 +152,7 @@ we recommend updating to the latest MMC snap-in.
 
 - Please honor the philosophy of RINGS and don't "blast out" an upgrade CSE to all of your computers
   at once, so you can control a rollout or a rollback. Use
-  this guidance: [Using Rings to Test and Update the Endpoint Policy Manager Client-Side Extension and/or Cloud Client (And How to Stay Supported)](/docs/endpointpolicymanager/installation-and-deployment/rings.md)
+  this guidance: [Using Rings to Test and Update the Endpoint Policy Manager Client-Side Extension and/or Cloud Client (And How to Stay Supported)](/docs/endpointpolicymanager/install/rings.md)
 
 ## What will happen if I do nothing?
 

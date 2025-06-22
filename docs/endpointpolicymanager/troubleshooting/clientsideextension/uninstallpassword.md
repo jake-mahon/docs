@@ -123,7 +123,7 @@ recognize it on a different system.
 As an emergency method of uninstallation, you may use the Endpoint Policy Manager ADMX
 Troubleshooting files which contains a policy named “Force disable uninstall password”.
 
-See the [Troubleshooting with ADMX files](/docs/endpointpolicymanager/resources/video-tutorials/troubleshooting/admxfiles.md) topic for
+See the [Troubleshooting with ADMX files](/docs/endpointpolicymanager/video/troubleshooting/admxfiles.md) topic for
 additional information about the ADMX troubleshooting files.
 
 When this ADMX setting is set locally or targeted to a machine, the CSE will uninstall without a

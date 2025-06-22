@@ -38,7 +38,7 @@ information, please see
 
 Then, beyond that, most Endpoint Policy Manager specific settings will stop working and let you
 continue onward. For more information on this process, please see
-[What happens to each component when Endpoint Policy Manager gets unlicensed or the GPO or policy no longer applies?](/docs/endpointpolicymanager/licensing/unlicense/components.md)
+[What happens to each component when Endpoint Policy Manager gets unlicensed or the GPO or policy no longer applies?](/docs/endpointpolicymanager/license/unlicense/components.md)
 
 Finally, there is a specific cosmetic issue with regards to Endpoint Policy Manager Browser Router
 removal and Default Browser. For more information on this issue and how to deal with it, please see

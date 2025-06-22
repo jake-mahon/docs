@@ -15,7 +15,7 @@ Some examples of use are:
 ## Getting started with Endpoint Policy Manager Network Security Manager
 
 **_RECOMMENDED:_** For an overview of this section, see this video: See
-[Endpoint Policy Manager Network Security Manager - The Basics](/docs/endpointpolicymanager/resources/video-tutorials/networksecurity/basics.md)
+[Endpoint Policy Manager Network Security Manager - The Basics](/docs/endpointpolicymanager/video/networksecurity/basics.md)
 topic for additional information.
 
 Pick an application you wish to restrict, like a browser (such as Edge, Firefox, PaleMoon, etc) or a
@@ -100,7 +100,7 @@ Microsoft.com, but are restricted to the specific network location you specified
 ## Auditing Events
 
 **_RECOMMENDED:_** See the
-[Endpoint Policy Manager Network Security Manager - Auditing Events](/docs/endpointpolicymanager/resources/video-tutorials/networksecurity/auditingevents.md)
+[Endpoint Policy Manager Network Security Manager - Auditing Events](/docs/endpointpolicymanager/video/networksecurity/auditingevents.md)
 topic for additional information.
 
 Auditing Events can be useful if you want to determine if your rules are working. Each rule may be
@@ -125,13 +125,13 @@ reduce the amount of noise.
 Because Network Security Manager uses the same basic UI as Endpoint Policy Manager Least Privilege
 Manager, you can learn more about Simple rules here:
 
-- [Elevating Executables](/docs/endpointpolicymanager/security-and-privilege-management/least-privilege-manager/elevate/executables.md)
-- [Creating and Using Executable Combo Rules](/docs/endpointpolicymanager/security-and-privilege-management/least-privilege-manager/bestpractices/rules/executablecombo.md)
+- [Elevating Executables](/docs/endpointpolicymanager/leastprivilege/elevate/executables.md)
+- [Creating and Using Executable Combo Rules](/docs/endpointpolicymanager/leastprivilege/bestpractices/rules/executablecombo.md)
 
 You can learn more about the following additional Endpoint Policy Manager Network Security manager
 topics via our How-To videos:
 
 - Understanding Applications & Ports:
-  [Endpoint Policy Manager Network Security Manager - Applications and Ports](/docs/endpointpolicymanager/resources/video-tutorials/networksecurity/applicationsports.md)
+  [Endpoint Policy Manager Network Security Manager - Applications and Ports](/docs/endpointpolicymanager/video/networksecurity/applicationsports.md)
 - Deeper Dive into Customizations & Notifications:
-  [Endpoint Policy Manager Network Security Manager - Global settings](/docs/endpointpolicymanager/resources/video-tutorials/networksecurity/globalsettings.md)
+  [Endpoint Policy Manager Network Security Manager - Global settings](/docs/endpointpolicymanager/video/networksecurity/globalsettings.md)

@@ -68,4 +68,4 @@ on SHAREFILE:
 
 And remember to click the UPLOAD button!
 
-Video KB:[Gathering and Uploading Logs](/docs/endpointpolicymanager/resources/video-tutorials/troubleshooting/logs.md)
+Video KB:[Gathering and Uploading Logs](/docs/endpointpolicymanager/video/troubleshooting/logs.md)

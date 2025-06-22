@@ -4,11 +4,11 @@ Neither the Endpoint Policy Manager GPCR server nor the client (admin console) r
 but the endpoint does.
 
 **NOTE:** Watch this video to see how to request a license:
-[How to Request Licenses from Endpoint Policy Manager by Creating a "License Request Key"](/docs/endpointpolicymanager/resources/video-tutorials/license/licenserequestkey.md).
+[How to Request Licenses from Endpoint Policy Manager by Creating a "License Request Key"](/docs/endpointpolicymanager/video/license/licenserequestkey.md).
 
 **NOTE:** To install the license file received from Endpoint Policy Manager, see the following
 video:
-[How to install UNIVERSAL licenses for NEW Customers (via GPO, SCCM or MDM)](/docs/endpointpolicymanager/resources/video-tutorials/license/installuniversal.md).
+[How to install UNIVERSAL licenses for NEW Customers (via GPO, SCCM or MDM)](/docs/endpointpolicymanager/video/license/installuniversal.md).
 
 Note that since the Endpoint Policy Manager client (admin console) does not need to be licensed, you
 may run unlimited numbers of it in any organizational unit (OU). The Endpoint Policy Manager client
@@ -96,4 +96,4 @@ the future.
 
 Endpoint Policy Manager Sales can send you a working Endpoint Policy Manager GPCR key. To install
 the key, follow these instructions:
-[How to install UNIVERSAL licenses for NEW Customers (via GPO, SCCM or MDM)](/docs/endpointpolicymanager/resources/video-tutorials/license/installuniversal.md).
+[How to install UNIVERSAL licenses for NEW Customers (via GPO, SCCM or MDM)](/docs/endpointpolicymanager/video/license/installuniversal.md).

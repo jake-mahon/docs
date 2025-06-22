@@ -6,7 +6,7 @@ run various commands and NOT just executables (e.g. .exe files).
 Netwrix Endpoint Policy Manager (formerly PolicyPak) SecureRun automatically blocks unknown and
 un-trusted scripts. You can read about these automatically blocked script types here:
 
-[What is the supported list of BLOCKED script types for Endpoint Policy Manager SecureRun™ ?](/docs/endpointpolicymanager/security-and-privilege-management/least-privilege-manager/securerun/blockedscripttypes.md)
+[What is the supported list of BLOCKED script types for Endpoint Policy Manager SecureRun™ ?](/docs/endpointpolicymanager/leastprivilege/securerun/blockedscripttypes.md)
 
 But it's possible to pass the commands on the command line
 

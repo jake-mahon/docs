@@ -24,6 +24,6 @@ Use the following KB articles for tips to install Endpoint Policy Manager Cloud 
 scenarios:
 
 - Endpoint Policy Manager Cloud and Windows Virtual Desktop:
-  [How to install the Endpoint Policy Manager Cloud Client for use in an Azure Virtual Desktop image](/docs/endpointpolicymanager/integrations/third-party-integrations/azurevirutaldesktop.md).
+  [How to install the Endpoint Policy Manager Cloud Client for use in an Azure Virtual Desktop image](/docs/endpointpolicymanager/integration/azurevirutaldesktop.md).
 - Endpoint Policy Manager Cloud and VMware Horizon:
-  [How to install and configure the PPC Client for a Non-Persistent VDI Image in VMware Horizon](/docs/endpointpolicymanager/integrations/third-party-integrations/vdisolutions.md).
+  [How to install and configure the PPC Client for a Non-Persistent VDI Image in VMware Horizon](/docs/endpointpolicymanager/integration/vdisolutions.md).

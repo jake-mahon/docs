@@ -19,7 +19,7 @@ file is digitally signed by a publisher. Combo rules exist for this reason.
 However, you can start off on the right foot by making your own Combo rules.
 
 **NOTE:** See the
-[More security with Combo Rules](/docs/endpointpolicymanager/resources/video-tutorials/leastprivilege/securitycomborules.md) video for an
+[More security with Combo Rules](/docs/endpointpolicymanager/video/leastprivilege/securitycomborules.md) video for an
 overview of using Endpoint Policy Manager Least Privilege Manager and Combo rules.
 
 ![A screenshot of a computer

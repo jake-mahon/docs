@@ -4,7 +4,7 @@ Web policies enable you to copy a file from an HTTP source, like Dropbox or Amaz
 
 **NOTE:** For a video overview of using Endpoint Policy Manager Remote Work Delivery Manager to
 install software using web-based shares, see
-[Install software using web-based shares](/docs/endpointpolicymanager/resources/video-tutorials/remoteworkdelivery/webbasedshares.md).
+[Install software using web-based shares](/docs/endpointpolicymanager/video/remoteworkdelivery/webbasedshares.md).
 
 Web policies provide a specialized functionality that leverages Microsoft Background Intelligent
 Transfer Service (BITS) to facilitate the efficient transfer of files in the background. Microsoft

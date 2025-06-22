@@ -7,7 +7,7 @@ But this will only show you the items which are coming from on-prem Group Policy
 Endpoint Policy Manager (formerly PolicyPak) Cloud.
 
 To see Endpoint Policy Manager Cloud results on a Endpoint Policy Manager cloud joined machine, use
-the[Endpoint Policy Manager Cloud Reporting Demo](/docs/endpointpolicymanager/resources/video-tutorials/cloud/reports.md).
+the[Endpoint Policy Manager Cloud Reporting Demo](/docs/endpointpolicymanager/video/cloud/reports.md).
 
 You can also see the policies on the machine by running `PPCLOUD /SYNC` and seeing the itemized
 list, like what is in the two screenshots below.

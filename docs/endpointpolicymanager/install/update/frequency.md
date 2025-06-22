@@ -1,7 +1,7 @@
 # How often is Endpoint Policy Manager updated? And, must I update to the latest version? Are all versions supported?
 
 There are several parts to Netwrix Endpoint Policy Manager (formerly PolicyPak)
-[What items and components are licensed, and what components are free?](/docs/endpointpolicymanager/licensing/components.md)
+[What items and components are licensed, and what components are free?](/docs/endpointpolicymanager/license/components.md)
 
 When people ask us how often Endpoint Policy Manager is updated, they usually want to know when Paks
 and/or the CSE are updated.

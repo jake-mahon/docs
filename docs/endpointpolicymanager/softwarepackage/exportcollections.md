@@ -1,6 +1,6 @@
 # Exporting Collections
 
-Appendix A: [Using Endpoint Policy Manager with MDM and UEM Tools](/docs/endpointpolicymanager/cloud-and-remote-management/mdm-integration/uemtools.md) explains how
+Appendix A: [Using Endpoint Policy Manager with MDM and UEM Tools](/docs/endpointpolicymanager/mdm/uemtools.md) explains how
 to use the Netwrix Endpoint Policy Manager (formerly PolicyPak) Exporter to wrap up any Endpoint
 Policy Manager directives and deliver them using Microsoft Endpoint Manager (SCCM and Intune), KACE,
 your own MDM service, or Endpoint Policy Manager Cloud.

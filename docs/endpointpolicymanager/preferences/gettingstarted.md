@@ -9,7 +9,7 @@ introduce the following:
   (regardless of how they are deployed).
 
 **NOTE:** See Appendix E:
-[Installation Quick Start](/docs/endpointpolicymanager/getting-started/quickstart/overviewinstall.md) and User Guide for
+[Installation Quick Start](/docs/endpointpolicymanager/gettingstarted/quickstart/overviewinstall.md) and User Guide for
 additoinal information on Endpoint Policy Manager Preferences Manager in use with Endpoint Policy
 Manager Cloud
 

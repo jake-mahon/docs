@@ -137,7 +137,7 @@ the latest CSE and/or Cloud Client to opt-in more groups.
 remaining PCs all at once (again, after you've done some pre-testing.)
 
 See the
-[Endpoint Policy Manager Cloud Groups CSE and Cloud Client Small-Scale Testing and Updates](/docs/endpointpolicymanager/resources/video-tutorials/cloud/groups.md) topic
+[Endpoint Policy Manager Cloud Groups CSE and Cloud Client Small-Scale Testing and Updates](/docs/endpointpolicymanager/video/cloud/groups.md) topic
 for additional information and a video on this process.
 
 ## Recommendations when using Endpoint Policy Manager with your Active Directory: Rings and Rollouts
@@ -203,7 +203,7 @@ of the CSE Auto-Updater. The CSE Auto-Updater will honor one of two types of rin
   you will set your rings apart with number of hours between updates.
 
 See the
-[How can I roll out the latest Endpoint Policy Manager CSE with Active Directory in a controlled manner using Rings ?](/docs/endpointpolicymanager/installation-and-deployment/ringsupgrade.md) topic
+[How can I roll out the latest Endpoint Policy Manager CSE with Active Directory in a controlled manner using Rings ?](/docs/endpointpolicymanager/install/ringsupgrade.md) topic
 for additional information.
 
 ### Active Directory Option 3: Using the Built-in Endpoint Policy Manager CSE Update mechanism in an alternate manner.
@@ -232,7 +232,7 @@ any other targeting, then, shoot down a CSE update to specific machines as you s
 See the
 [How do I use Endpoint Policy Manager Remote Work Delivery Manager to update the Client Side Extension?](/docs/endpointpolicymanager/cloud-and-remote-management/remote-work-delivery/updateclientsideextension.md)
 and
-[Using Remote Work Delivery Manager to Update the Endpoint Policy Manager Client Side Extension](/docs/endpointpolicymanager/resources/video-tutorials/remoteworkdelivery/updateclientsideextension.md) topics
+[Using Remote Work Delivery Manager to Update the Endpoint Policy Manager Client Side Extension](/docs/endpointpolicymanager/video/remoteworkdelivery/updateclientsideextension.md) topics
 for additional information.
 
 ## Recommendations when using Endpoint Policy Manager with your MDM: Rings and Rollouts

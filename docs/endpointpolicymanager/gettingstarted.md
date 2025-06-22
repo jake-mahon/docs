@@ -89,22 +89,22 @@ the following:
 
 **Step 1 –** Request a license and send that key to Sales for processing. You can watch a video on
 how to request a license at the following link:
-[How to Request Licenses from Endpoint Policy Manager by Creating a "License Request Key"](/docs/endpointpolicymanager/resources/video-tutorials/license/licenserequestkey.md).
+[How to Request Licenses from Endpoint Policy Manager by Creating a "License Request Key"](/docs/endpointpolicymanager/video/license/licenserequestkey.md).
 
 **Step 2 –** Receive a license and install it. You can watch a video on how to install the license
 you receive at the following
-link:[How to install UNIVERSAL licenses for NEW Customers (via GPO, SCCM or MDM)](/docs/endpointpolicymanager/resources/video-tutorials/license/installuniversal.md).
+link:[How to install UNIVERSAL licenses for NEW Customers (via GPO, SCCM or MDM)](/docs/endpointpolicymanager/video/license/installuniversal.md).
 
 ## Get Started with the GPO Method
 
 Most customers want to use Endpoint Policy Manager with Group Policy. You can watch the getting
 started video on how to install and run some initial tests at the following link:
-[Endpoint Policy Manager with Group Policy Method: Getting Started](/docs/endpointpolicymanager/resources/video-tutorials/grouppolicy/gettingstarted.md).
+[Endpoint Policy Manager with Group Policy Method: Getting Started](/docs/endpointpolicymanager/video/grouppolicy/gettingstarted.md).
 
 ## GetStarted with the Endpoint Policy Manager Cloud Method
 
 If you want to get started right away with Endpoint Policy Manager Cloud, watch this video for a
-quick overview: [Endpoint Policy Manager Cloud: QuickStart](/docs/endpointpolicymanager/resources/video-tutorials/cloud/quickstart.md).
+quick overview: [Endpoint Policy Manager Cloud: QuickStart](/docs/endpointpolicymanager/video/cloud/quickstart.md).
 
 ## Get Started with Your MDM Provider or UEM Tool
 
@@ -114,7 +114,7 @@ of the videos at the links below in order to get prepared to use Endpoint Policy
 MDM provider.
 
 - For video overviews of using Endpoint Policy Manager with an MDM service see: Getting Started with
-  MDM > [Video Learning Center](/docs/endpointpolicymanager/resources/video-tutorials.md).
+  MDM > [Video Learning Center](/docs/endpointpolicymanager/video/).
 - For video overviews of using Endpoint Policy Manager with a UEM tool like SCCM see: Getting
   Started with Endpoint Policy Manager (Misc) >
   [Knowledge Base](/docs/endpointpolicymanager/resources/knowledge-base.md).

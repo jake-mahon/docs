@@ -1,6 +1,6 @@
 # Endpoint Policy Manager and Microsoft Intune MDM
 
-**NOTE:** See [Endpoint Policy Manager and Microsoft Intune](/docs/endpointpolicymanager/resources/video-tutorials/mdm/microsoftintune.md) for
+**NOTE:** See [Endpoint Policy Manager and Microsoft Intune](/docs/endpointpolicymanager/video/mdm/microsoftintune.md) for
 an overview video of Endpoint Policy Manager and Microsoft Intune MDM.
 
 To start, log onto your Microsoft Intune instance and select Apps. Add the Endpoint Policy Manager

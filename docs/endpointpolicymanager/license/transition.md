@@ -45,14 +45,14 @@ Universal licenses solve a lot of problems around key generation:
 - Some components which have capabilities may be specified with those capabilities. This is not
   available in Legacy license type.
 - For MDM customers, we can specify EITHER Intune Company name or UPN name.
-  [What is the difference if I license my MDM machines' CSE using COMPANY NAME vs. UPN name?](/docs/endpointpolicymanager/licensing/mdm/name.md)
+  [What is the difference if I license my MDM machines' CSE using COMPANY NAME vs. UPN name?](/docs/endpointpolicymanager/license/mdm/name.md)
   This is not available for Legacy license type.
 - Administrators may disable a specifically licensed component, without having to request Endpoint
   Policy Manager support to re-cut the license.
-  [How do I specifically exclude or prevent a component from performing processing by modifying the license file?](/docs/endpointpolicymanager/licensing/unlicense/componentsexclude.md)
+  [How do I specifically exclude or prevent a component from performing processing by modifying the license file?](/docs/endpointpolicymanager/license/unlicense/componentsexclude.md)
 - The license may be wrapped up by the admin as a .MSI and re-deployed without contacting Endpoint
   Policy Manager support to make a .MSI.
-  [How to install UNIVERSAL licenses for NEW Customers (via GPO, SCCM or MDM)](/docs/endpointpolicymanager/resources/video-tutorials/license/installuniversal.md)
+  [How to install UNIVERSAL licenses for NEW Customers (via GPO, SCCM or MDM)](/docs/endpointpolicymanager/video/license/installuniversal.md)
 
 ![861_5_hfkb-1130-img-05_950x431](/img/product_docs/endpointpolicymanager/endpointpolicymanager/license/861_5_hfkb-1130-img-05_950x431.webp)
 

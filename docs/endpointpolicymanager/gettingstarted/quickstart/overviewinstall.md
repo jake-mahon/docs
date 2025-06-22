@@ -14,12 +14,12 @@ overview of the process you need to follow:
 and installed and ready to use. See the other topics in the parent publication, as well as the
 [Knowledge Base](/docs/endpointpolicymanager/resources/knowledge-base.md) > All Things Installation & Upkeep and the
 All Things Installation & Upkeep
-[Video Learning Center](/docs/endpointpolicymanager/resources/video-tutorials.md) topics for additional
+[Video Learning Center](/docs/endpointpolicymanager/video/) topics for additional
 information.
 
 If you are unfamiliar with what Endpoint Policy Manager even does, consider watching this two minute
 overview:
-[Endpoint Policy Manager Explained: In about two minutes](/docs/endpointpolicymanager/resources/video-tutorials/grouppolicy/explained.md).
+[Endpoint Policy Manager Explained: In about two minutes](/docs/endpointpolicymanager/video/grouppolicy/explained.md).
 
 For this trial, Endpoint Policy Manager endpoints may be:
 

@@ -74,7 +74,7 @@ function, as they are not managed by Endpoint Policy Manager.
 ![921_2_image-3](/img/product_docs/endpointpolicymanager/endpointpolicymanager/troubleshooting/921_2_image-3.webp)
 
 You can watch a demo of how Endpoint Policy Manager stores and tracks changes in this video:
-[Endpoint Policy Manager MMC: Showing History of items you create](/docs/endpointpolicymanager/resources/video-tutorials/changemanagementutilities/history.md).
+[Endpoint Policy Manager MMC: Showing History of items you create](/docs/endpointpolicymanager/video/changemanagementutilities/history.md).
 
 ## Summary of Endpoint Policy Manager vs. GPO Change Management Tools
 
@@ -93,19 +93,19 @@ Endpoint Policy Manager-specific settings.
 Here are examples of Endpoint Policy Manager working alongside popular GPO Change Management tools:
 
 - Endpoint Policy Manager with AGPM, see the
-  [Endpoint Policy Manager and AGPM](/docs/endpointpolicymanager/resources/video-tutorials/changemanagementutilities/advancedgrouppolicymanagement.md)
+  [Endpoint Policy Manager and AGPM](/docs/endpointpolicymanager/video/changemanagementutilities/advancedgrouppolicymanagement.md)
   topic for additional information.
 - Endpoint Policy Manager with Quest's GPOADmin Tool, see the
-  [Endpoint Policy Manager and Quest's GPOADmin Tool](/docs/endpointpolicymanager/resources/video-tutorials/changemanagementutilities/gpoadmintool.md)
+  [Endpoint Policy Manager and Quest's GPOADmin Tool](/docs/endpointpolicymanager/video/changemanagementutilities/gpoadmintool.md)
   topic for additional information.
 - Endpoint Policy Manager integrated with NetIQ GPA, see the
-  [Endpoint Policy Manager Integrates with NetIQ GPA](/docs/endpointpolicymanager/resources/video-tutorials/changemanagementutilities/netiq.md) topic
+  [Endpoint Policy Manager Integrates with NetIQ GPA](/docs/endpointpolicymanager/video/changemanagementutilities/netiq.md) topic
   for additional information.
 - Endpoint Policy Manager with Quest (ScriptLogic) Active Administrator, see the
-  [Endpoint Policy Manager and Quest (ScriptLogic) ActiveAdministrator](/docs/endpointpolicymanager/resources/video-tutorials/changemanagementutilities/scriptlogicactiveadministrator.md) topic
+  [Endpoint Policy Manager and Quest (ScriptLogic) ActiveAdministrator](/docs/endpointpolicymanager/video/changemanagementutilities/scriptlogicactiveadministrator.md) topic
   for additional information.
 - Endpoint Policy Manager with SDM Change Manager, see the
-  [Endpoint Policy Manager and SDM CHANGE MANAGER](/docs/endpointpolicymanager/resources/video-tutorials/changemanagementutilities/sdmchangemanager.md) topic
+  [Endpoint Policy Manager and SDM CHANGE MANAGER](/docs/endpointpolicymanager/video/changemanagementutilities/sdmchangemanager.md) topic
   for additional information.
 
 Additionally, tools like Netwrix Auditor can monitor all GPO changes for both Microsoft and Endpoint

@@ -21,7 +21,7 @@ select **Edit Group**.
 ![creating_policy_from_policypak_2](/img/product_docs/endpointpolicymanager/endpointpolicymanager/leastprivilege/events/createpolicy/creating_policy_from_endpointpolicymanager_2.webp)
 
 **NOTE:** You can select the drop-down option to select the Event IDs. See the
-[List of Endpoint Policy Manager Event Categories and IDs](/docs/endpointpolicymanager/troubleshooting/tips/eventcategories.md) topic
+[List of Endpoint Policy Manager Event Categories and IDs](/docs/endpointpolicymanager/troubleshooting/eventcategories.md) topic
 for a list of Endpoint Policy Manager Event IDs.
 
 **Step 4 –** Go to the Reports section to see the events that have been generated.

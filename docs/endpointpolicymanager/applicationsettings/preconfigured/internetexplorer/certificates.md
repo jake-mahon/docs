@@ -2,4 +2,4 @@
 
 Yes, Here is a videos to demonstrate that.
 
-[Manage IE Certificates](/docs/endpointpolicymanager/resources/video-tutorials/applicationsettings/internetexplorer/certificates.md)
+[Manage IE Certificates](/docs/endpointpolicymanager/video/applicationsettings/internetexplorer/certificates.md)

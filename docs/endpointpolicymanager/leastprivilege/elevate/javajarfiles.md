@@ -2,7 +2,7 @@
 
 **NOTE:** For an overview on elevating JAR files and also preventing .JAR files from running, which
 could need admin rights, see the
-[Elevate (or smack down) scripts and Java JAR files](/docs/endpointpolicymanager/resources/video-tutorials/leastprivilege/elevate/scripts.md)
+[Elevate (or smack down) scripts and Java JAR files](/docs/endpointpolicymanager/video/leastprivilege/elevate/scripts.md)
 video.
 
 You can use Endpoint Policy Manager (formerly PolicyPak) Least Privilege Manager to elevate a Java

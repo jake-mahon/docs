@@ -1,12 +1,12 @@
 # Tools
 
 Video: For an overview of this section, see
-[Endpoint Policy Manager Cloud: Automatically Join Groups with JOINTOKEN](/docs/endpointpolicymanager/resources/video-tutorials/cloud/jointoken.md).
+[Endpoint Policy Manager Cloud: Automatically Join Groups with JOINTOKEN](/docs/endpointpolicymanager/video/cloud/jointoken.md).
 
 Video: For an advanced installation routine where you can use another tool like an MDM tool, such as
 Intune, or an RMM tool to bootstrap the installation of the Endpoint Policy Manager Cloud client and
 also immediately join the computer to specific groups, see
-[Endpoint Policy Manager Cloud + MDM Services: Install Cloud Client + automatically join PPC Groups and get policy.](/docs/endpointpolicymanager/resources/video-tutorials/cloud/mdm.md).
+[Endpoint Policy Manager Cloud + MDM Services: Install Cloud Client + automatically join PPC Groups and get policy.](/docs/endpointpolicymanager/video/cloud/mdm.md).
 
 The Tools tab has a special tool called **Join Tokens**. The **Join Tokens** function enables you to
 create a unique string to append at the end of the Cloud client installation file. When you do, the

@@ -4,16 +4,16 @@ Endpoint Policy Manager Least Privilege Manager comes with some preconfigured XM
 get you started quickly with a variety of common situations and applications.
 
 - See the
-  [Installing applications-and-Preconfigured-Rules](/docs/endpointpolicymanager/resources/video-tutorials/leastprivilege/installapplications.md)
+  [Installing applications-and-Preconfigured-Rules](/docs/endpointpolicymanager/video/leastprivilege/installapplications.md)
   video for an overview of how to use preconfigured Endpoint Policy ManagerLeast Privilege Manager
   XML examples.
 - A common request is to overcome the Print dialog. As such we have a preconfigured rule to help
   with that. See the
-  [Endpoint Privilege Manager: Install Printers via Native NTPRINT Dialog](/docs/endpointpolicymanager/resources/video-tutorials/leastprivilege/ntprintdialog.md)
+  [Endpoint Privilege Manager: Install Printers via Native NTPRINT Dialog](/docs/endpointpolicymanager/video/leastprivilege/ntprintdialog.md)
   video for an example.
 - Another common request is to overcome the Windows Ethernet & IP address GUI. As such we have a
   preconfigured rule to help with that. See the
-  [Endpoint Privilege Manager: Edit IP SETTINGS EDIT VIA WIN GUI](/docs/endpointpolicymanager/resources/video-tutorials/leastprivilege/wingui.md)
+  [Endpoint Privilege Manager: Edit IP SETTINGS EDIT VIA WIN GUI](/docs/endpointpolicymanager/video/leastprivilege/wingui.md)
   video for an example.
 
 First, to download the preconfigured XMLs, log onto the PolicyPak Portal, and click **Guidance XMLs

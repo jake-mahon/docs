@@ -1,7 +1,7 @@
 # Revoke Company's Certificate
 
 Endpoint machines join Endpoint Policy Manager Cloud via the Cloud client MSI download (see the
-[Downloads](/docs/endpointpolicymanager/cloud-and-remote-management/cloud-management/interface/companydetails/downloads.md) section ). Inside the Cloud client MSI (for each company) is a unique x509
+[Downloads](/docs/endpointpolicymanager/cloud/interface/companydetails/downloads.md) section ). Inside the Cloud client MSI (for each company) is a unique x509
 certificate. This identifies your MSI among all other Endpoint Policy Manager customers. This way,
 only your Endpoint Policy Manager Cloud client MSI can be used to join computers to your Endpoint
 Policy Manager Cloud account. If your MSI is lost, you see unexpected machines in your Endpoint

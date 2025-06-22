@@ -1,7 +1,7 @@
 # Quick Start
 
 **NOTE:** Watch this video for an overview of Java Rules Manager: See
-[Use Endpoint Policy Manager Cloud to choose which version of Java for what website](/docs/endpointpolicymanager/resources/video-tutorials/javaenterpriserules/cloud.md)
+[Use Endpoint Policy Manager Cloud to choose which version of Java for what website](/docs/endpointpolicymanager/video/javaenterpriserules/cloud.md)
 Netwrix Endpoint Policy Manager (formerly PolicyPak).
 
 Endpoint Policy Manager Java Rules Manager editor is within the Endpoint Policy Manager node.

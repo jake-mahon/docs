@@ -1,7 +1,7 @@
 # Elevating COM / CSLID Class Items
 
 **NOTE:** For an overview of COM Class Policies, see the
-[COM Support](/docs/endpointpolicymanager/resources/video-tutorials/leastprivilege/comsupport.md) video.
+[COM Support](/docs/endpointpolicymanager/video/leastprivilege/comsupport.md) video.
 
 COM items are a special type of Windows process and Endpoint Policy Manager can typically elevate
 them if needed. Start out by understanding the CSLID value you need to overcome. For instance the

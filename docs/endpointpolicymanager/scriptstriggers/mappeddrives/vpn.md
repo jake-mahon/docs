@@ -4,7 +4,7 @@
 
 - VPN used must be in the list of supported VPNs in the article below.
 
-  [Which VPN Solutions are currently supported for use with Scripts Manager VPN Triggers?](/docs/endpointpolicymanager/platform-specific/windows-requirements/support/scriptstriggers/vpnsolutions.md)
+  [Which VPN Solutions are currently supported for use with Scripts Manager VPN Triggers?](/docs/endpointpolicymanager/requirements/support/scriptstriggers/vpnsolutions.md)
 
 **Step 1 –** Create a new policy (Set Launch Folder Windows in a Separate Process to Enabled) using
 Scripts & Triggers on the computer side, choose switched-mode like in the screenshot below.

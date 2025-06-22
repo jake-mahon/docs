@@ -6,7 +6,7 @@ MP4 files, it can open several dozen kinds of files. In these cases you might wa
 Policies for Product wizard.
 
 **NOTE:** For more information on the Add Policies for Product wizard, see the
-[Manage all File Associations with the PPFAM Wizard](/docs/endpointpolicymanager/resources/video-tutorials/fileassociations/wizard.md) topic for
+[Manage all File Associations with the PPFAM Wizard](/docs/endpointpolicymanager/video/fileassociations/wizard.md) topic for
 additional information..
 
 ![about_policypak_file_associations_24](/img/product_docs/endpointpolicymanager/endpointpolicymanager/fileassociations/about_endpointpolicymanager_file_associations_24.webp)
