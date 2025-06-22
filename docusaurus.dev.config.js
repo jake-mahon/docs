@@ -52,10 +52,10 @@ const config = {
     [
       '@docusaurus/plugin-content-docs',
       {
-        id: 'endpointpolicymanager',
-        path: 'docs/endpointpolicymanager',
+        id: '1secure',
+        path: 'docs/1secure',
         routeBasePath: '/',
-        sidebarPath: require.resolve('./sidebars/endpointpolicymanager.js'),
+        sidebarPath: require.resolve('./sidebars/1secure.js'),
         editUrl: 'https://github.com/netwrix/docs/tree/main/',
         exclude: ['**/CLAUDE.md'],
         versions: {
@@ -105,9 +105,7 @@ const config = {
       darkTheme: prismThemes.dracula,
     },
   },
-  stylesheets: [
-    'https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap',
-  ],
+  stylesheets: ['https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap'],
 };
 
 export default config;
