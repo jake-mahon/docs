@@ -14,6 +14,7 @@ const config = {
 
   // Set the production url of your site here
   // Use environment variable for dynamic URL configuration
+  projectName: 'docs',
   url: process.env.RENDER_EXTERNAL_URL || 'http://localhost:3000',
   // Set the /<baseUrl>/ pathname under which your site is served
   baseUrl: '/',
@@ -713,6 +714,14 @@ const config = {
         searchPagePath: false,
         placeholder: 'Search the Netwrix docs',
         contextualSearch: false,
+        searchParameters: {
+          // Define which attributes should be available as facets
+          attributesToRetrieve: ['*'],
+          facets: ['product', 'version'],
+
+          // Optional: Set default filters (these will be applied unless user changes them)
+          facetFilters: [],
+        },
       },
       navbar: {
         logo: {
@@ -744,9 +753,7 @@ const config = {
         darkTheme: prismThemes.dracula,
       },
     }),
-  stylesheets: [
-    'https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap',
-  ],
+  stylesheets: ['https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap'],
 };
 
 export default config;
