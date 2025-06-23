@@ -6,9 +6,16 @@ import Layout from '@theme/Layout';
 import HomepageFeatures from '@site/src/components/HomepageFeatures';
 import CommunityHighlights from '@site/src/components/CommunityHighlights';
 import styles from './index.module.css';
+import { getDefaultProduct, getDefaultVersion, generateRouteBasePath } from '@site/src/config/products.js';
 
 function HomepageHeader() {
   const { siteConfig } = useDocusaurusContext();
+
+  // Get default product and version for the "Browse the docs" link
+  const defaultProduct = getDefaultProduct();
+  const defaultVersion = getDefaultVersion(defaultProduct);
+  const defaultLink = `/${generateRouteBasePath(defaultProduct.path, defaultVersion.version)}`;
+
   return (
     <>
       <meta name="algolia-site-verification" content="0064B6F67914D812" />
@@ -19,7 +26,7 @@ function HomepageHeader() {
             Read more about the security solutions from Netwrix. Comprehensive guides, product knowledge, and references for all Netwrix products.
           </p>
           <div className={styles.buttons}>
-            <Link className="button button--secondary button--lg" to="/docs/1secure">
+            <Link className="button button--secondary button--lg" to={defaultLink}>
               Browse the docs
             </Link>
           </div>
