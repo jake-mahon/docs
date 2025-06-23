@@ -1,3 +1,7 @@
+<div align="center">
+  <img src="static/img/branding/demo.png" alt="Description of image">
+</div>
+
 # Netwrix Product Documentation
 
 A centralized documentation site for all Netwrix security products, built with [Docusaurus v3.8.1](https://docusaurus.io/) and a simple prouct configuration for easy maintenance.
