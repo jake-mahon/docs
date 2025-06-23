@@ -1,9 +1,3 @@
----
-title: Installation: database setup
-sidebar_label: database setup
-description: Installation guide for database setup including system requirements, setup procedures, and configuration options.
----
-
 # Enterprise Auditor Database
 
 The Enterprise Auditor database is dynamic in nature. There are a handful of required system tables

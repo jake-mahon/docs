@@ -1,9 +1,3 @@
----
-title: Sensitive Data Hunting
-sidebar_label: Sensitive Data Hunting
-description: The Sensitive Data Hunting option uses the File Name field to determine which file is targeted when searching for threats. Wildcard characters (%) are allowed.
----
-
 # Sensitive Data Hunting
 
 The Sensitive Data Hunting option uses the File Name field to determine which file is targeted when

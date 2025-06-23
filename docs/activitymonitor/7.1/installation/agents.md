@@ -1,9 +1,3 @@
----
-title: Activity Monitor Agent Information
-sidebar_label: Agents
-description: Overview of Activity Monitor agent types including Activity Agent, Domain Agent, and Host Agent with deployment scenarios and monitoring capabilities.
----
-
 # Agent Information
 
 The Activity Monitor agents perform real-time monitoring of the events occurring across supported

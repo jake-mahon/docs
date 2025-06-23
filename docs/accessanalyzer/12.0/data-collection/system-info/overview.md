@@ -1,9 +1,3 @@
----
-title: overview
-sidebar_label: overview
-description: Documentation for overview functionality in Access Analyzer including configuration and usage information.
----
-
 # SystemInfo Data Collector
 
 The SystemInfo Data Collector extracts information from the target system based on the selected

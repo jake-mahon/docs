@@ -1,9 +1,3 @@
----
-title: customizing dashboard
-sidebar_label: customizing-dashboard
-description: Auditor 10.7 documentation for customizing dashboard with configuration details, usage instructions, and implementation guidance.
----
-
 # Customization Examples
 
 Here are several examples of why and how you might customize the Netwrix Auditor main page.

@@ -1,9 +1,3 @@
----
-title: Add Resources Window
-sidebar_label: add resources
-description: Administrative configuration and management features for Privilege Secure PAM solution including user management, policies, and security settings.
----
-
 # Add Resources Window
 
 The Add Resources window is for onboarding resources. The features within the window change based on

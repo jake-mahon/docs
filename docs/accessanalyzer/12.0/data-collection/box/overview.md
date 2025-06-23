@@ -1,9 +1,3 @@
----
-title: overview
-sidebar_label: overview
-description: Documentation for overview functionality in Access Analyzer including configuration and usage information.
----
-
 # Box Data Collector
 
 The Box Data Collector audits access, group membership, and content within a Box enterprise.

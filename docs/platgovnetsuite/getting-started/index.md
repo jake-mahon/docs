@@ -1,9 +1,3 @@
----
-title: Getting Started with NetSuite Governance
-sidebar_label: Getting Started
-description: Introduction to Platform Governance for NetSuite features including automated documentation, change management, and compliance capabilities.
----
-
 # Welcome
 
 Platform Governance for NetSuite is a SuiteApp integrated into the NetSuite backend keeping all your

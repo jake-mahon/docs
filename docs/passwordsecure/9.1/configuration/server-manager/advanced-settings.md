@@ -1,9 +1,3 @@
----
-title: Advanced Server Settings Configuration
-sidebar_label: Advanced Settings
-description: Configure global standard default values and database server settings through Password Secure server manager advanced settings interface.
----
-
 # Advanced settings
 
 ## What are advanced settings?

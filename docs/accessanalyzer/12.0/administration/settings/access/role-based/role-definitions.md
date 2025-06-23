@@ -1,9 +1,3 @@
----
-title: role definitions Administration
-sidebar_label: role definitions
-description: Administration guide for role definitions including configuration, management, and best practices for Access Analyzer.
----
-
 # Role Definitions
 
 The following is a list of all roles leveraged within Access Analyzer once Role Based Access is

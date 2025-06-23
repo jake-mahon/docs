@@ -1,9 +1,3 @@
----
-title: Password Reset Client Guide
-sidebar_label: Password Reset Client
-description: User guide for the Password Reset Client including installation, configuration, and usage for accessing password reset from Windows login screens.
----
-
 # Password Reset Client
 
 The Password Reset Client allows users to securely reset their password or unlock their account from

@@ -1,9 +1,3 @@
----
-title: Dictionary Password Rule Configuration
-sidebar_label: Dictionary Rules
-description: Configure dictionary rules in Password Policy Enforcer to reject weak passwords vulnerable to guessing, hybrid, and precomputed attacks.
----
-
 # Dictionary Rule
 
 The Dictionary rule rejects passwords that are vulnerable to guessing, hybrid, and precomputed

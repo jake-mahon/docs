@@ -1,9 +1,3 @@
----
-title: Policy Assignment to Users and Groups
-sidebar_label: Assigning Policies
-description: Guide for assigning password policies to users, groups, and containers with domain and local policy assignment considerations.
----
-
 # Assigning Policies
 
 Password Policy Enforcer uses policy assignments to decide which policy to enforce for each user.

@@ -1,9 +1,3 @@
----
-title: Change Firefox Default Search Engine
-sidebar_label: Default Search
-description: Learn to change Firefox's default search engine from Yahoo to Google or other providers with one click using Endpoint Policy Manager configuration.
----
-
 # Changing the Firefox Default Search Engine in one-click
 
 Everyone wants to know how to set the Firefox Search Engine from Yahoo to Google or something else

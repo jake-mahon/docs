@@ -1,9 +1,3 @@
----
-title: Password Never Expires Custom Script
-sidebar_label: Password Never Expires Custom
-description: The following C# script sends an email notification to the specified administrator when an Active Directory account is set to have its password never expire.
----
-
 # Password Never Expires Custom Script
 
 The following C# script sends an email notification to the specified administrator when an Active

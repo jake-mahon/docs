@@ -1,9 +1,3 @@
----
-title: File Actions
-sidebar_label: File Actions
-description: A File action can output the event data collected by a policy to a log file. Follow the steps to add a File action to a policy/template.
----
-
 # File Actions
 
 A File action can output the event data collected by a policy to a log file. Follow the steps to add

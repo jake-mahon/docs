@@ -1,9 +1,3 @@
----
-title: exchange publicfolders growthsize pf foldersize
-sidebar_label: pf foldersize
-description: Solution guide for exchange publicfolders growthsize pf foldersize including implementation steps, configuration, and best practices.
----
-
 # PF_FolderSize Job
 
 The PF_FolderSize job provides details related to public folder sizing and growth.

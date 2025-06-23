@@ -1,9 +1,3 @@
----
-title: Application Blocking and Denial
-sidebar_label: Overview
-description: Block specific executables, UWP apps, scripts, and DLLs from launching through application control and blacklisting security policies.
----
-
 # Denying Applications (Standard, UWP, and DLLs)
 
 You might have a scenario where you want to block specific EXE files, UWP applications, scripts, JAR

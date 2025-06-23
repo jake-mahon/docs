@@ -1,9 +1,3 @@
----
-title: enabledistributiongroup Cmdlet
-sidebar_label: enabledistributiongroup
-description: PowerShell cmdlet reference for enabledistributiongroup with parameter details, syntax examples, and usage instructions for Directory Manager.
----
-
 # Enable-DistributionGroup
 
 This commandlet makes a distribution group in directory mail-enabled.

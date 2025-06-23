@@ -1,9 +1,3 @@
----
-title: Threat Manager Authentication Setup
-sidebar_label: Authentication Setup
-description: Configure user login methods and access credentials for Threat Manager console after installation with local and remote access options.
----
-
 # User Login After First Launch
 
 Once Threat Manager is installed, users granted access can log into the console using either of the

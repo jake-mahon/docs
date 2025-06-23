@@ -1,9 +1,3 @@
----
-title: AD Replication Monitoring Event Type
-sidebar_label: AD Replication Monitoring Event
-description: The AD Replication Monitoring event type monitors domain controller syncing/replication. The primary use case is to capture events only for non-domain contro...
----
-
 # AD Replication Monitoring Event Type
 
 The AD Replication Monitoring event type monitors domain controller syncing/replication. The primary

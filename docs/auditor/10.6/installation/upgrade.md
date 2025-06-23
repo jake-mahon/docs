@@ -1,9 +1,3 @@
----
-title: Upgrade to Latest Version
-sidebar_label: Upgrade
-description: Upgrade Netwrix Auditor to the latest version with step-by-step instructions for seamless migration and feature updates.
----
-
 # Upgrade to the Latest Version
 
 Netwrix recommends that you upgrade from the older versions of Netwrix Auditor to the latest version

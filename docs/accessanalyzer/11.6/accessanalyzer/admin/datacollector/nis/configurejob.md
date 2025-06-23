@@ -1,9 +1,3 @@
----
-title: nis Data Collector configurejob
-sidebar_label: configurejob
-description: Data collector documentation for nis configurejob including configuration options and collection settings.
----
-
 # Unix Connection Profile & Host List
 
 The NIS Data Collector requires a custom Connection Profile and host list be created and assigned to

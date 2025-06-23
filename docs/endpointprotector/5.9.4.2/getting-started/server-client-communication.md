@@ -1,9 +1,3 @@
----
-title: Server Client Communication Protocols
-sidebar_label: Communication
-description: TLS encryption protocols and compatibility details for secure communication between Endpoint Protector Server and Client applications.
----
-
 # Server – Client Communication
 
 This section details the communication between the Endpoint Protector Server and Client encrypted by

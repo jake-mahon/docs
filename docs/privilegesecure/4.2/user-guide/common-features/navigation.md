@@ -1,9 +1,3 @@
----
-title: Navigation
-sidebar_label: Navigation
-description: End user documentation covering session management, access procedures, dashboard functionality, and browser extension usage.
----
-
 # Navigation
 
 At the top of the Privilege Secure Console lists available in interfaces and provides access to the

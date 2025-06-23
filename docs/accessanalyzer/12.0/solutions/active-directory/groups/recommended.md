@@ -1,9 +1,3 @@
----
-title: active directory groups recommended
-sidebar_label: recommended
-description: Solution guide for active directory groups recommended including implementation steps, configuration, and best practices.
----
-
 # Recommended Configurations for the 1.Groups Job Group
 
 The Active Directory > **1.Groups** Job Group has been configured by default to run with the default

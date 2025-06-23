@@ -1,9 +1,3 @@
----
-title: Browser Router Advanced Blocking Messages
-sidebar_label: Blocking Messages
-description: Configure custom blocking messages with variables for Browser Router policies to provide users with detailed information when sites are blocked.
----
-
 # Which variables can I use in the Browser Router Advanced Blocking Message?
 
 A customer blocking message is optional. If you don't make any changes, the default looks like this:

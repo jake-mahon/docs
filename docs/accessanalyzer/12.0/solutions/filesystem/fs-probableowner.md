@@ -1,9 +1,3 @@
----
-title: filesystem fs probableowner
-sidebar_label: fs probableowner
-description: Solution guide for filesystem fs probableowner including implementation steps, configuration, and best practices.
----
-
 ## 6.Probable Owner > FS_ProbableOwner Job
 
 The 6.Probable Owner Job Group is designed to report on probable owners of resources from targeted

@@ -1,9 +1,3 @@
----
-title: Select Active Directory Contexts Window
-sidebar_label: Select Active Directory Contexts
-description: The Select Active Directory Contexts window provides a list of available contexts to either include or exclude. Selected objects are added to the filter from...
----
-
 # Select Active Directory Contexts Window
 
 The Select Active Directory Contexts window provides a list of available contexts to either include

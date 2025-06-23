@@ -1,9 +1,3 @@
----
-title: exchange mailboxes sizing ex mbsize
-sidebar_label: ex mbsize
-description: Solution guide for exchange mailboxes sizing ex mbsize including implementation steps, configuration, and best practices.
----
-
 # 0.Collection > EX_MBSize Job
 
 The EX_MBSize job collects information from the Exchange environment about the mailbox sizes in the

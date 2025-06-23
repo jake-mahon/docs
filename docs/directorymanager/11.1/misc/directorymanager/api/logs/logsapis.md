@@ -1,9 +1,3 @@
----
-title: logs logsapis API
-sidebar_label: logsapis
-description: API reference for logsapis operations in Directory Manager with request parameters, response examples, and implementation details.
----
-
 # Logs APIs
 
 Directory Manager generates logs for its services, clients, and Windows events. Using the following

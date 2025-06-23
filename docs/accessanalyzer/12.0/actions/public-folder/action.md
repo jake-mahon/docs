@@ -1,9 +1,3 @@
----
-title: action
-sidebar_label: action
-description: Documentation for action functionality in Access Analyzer including configuration and usage information.
----
-
 # Public Folder: Action
 
 The Action page specifies the basic action to perform on public folders. The pages available for

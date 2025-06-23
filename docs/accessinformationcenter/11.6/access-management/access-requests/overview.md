@@ -1,9 +1,3 @@
----
-title: Access Requests Overview
-sidebar_label: Overview
-description: Manage self-service access requests workflow enabling domain users to request access to resources with owner approval processes and IT team automation.
----
-
 # Access Requests Overview
 
 The Access Requests interface is where Access Information Center users with either the Security Team

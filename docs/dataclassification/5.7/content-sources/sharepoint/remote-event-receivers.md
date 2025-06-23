@@ -1,9 +1,3 @@
----
-title: Deploying Remote Event Receivers for SharePoint
-sidebar_label: Remote Event Receivers
-description: SharePoint remote event receivers are processed based on the source URL. You can deploy receivers to specific Site Collections by including the source URL wi...
----
-
 # Deploying Remote Event Receivers for SharePoint
 
 SharePoint remote event receivers are processed based on the source URL. You can deploy receivers to

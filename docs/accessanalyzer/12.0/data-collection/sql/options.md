@@ -1,9 +1,3 @@
----
-title: options
-sidebar_label: options
-description: Documentation for options functionality in Access Analyzer including configuration and usage information.
----
-
 # SQL: Options
 
 Use the Options page to configure additional settings. The contents of the page vary according to

@@ -1,9 +1,3 @@
----
-title: dell unity
-sidebar_label: dell unity
-description: Documentation for dell unity functionality in Access Analyzer including configuration and usage information.
----
-
 # Dell Unity Access & Sensitive Data Auditing Configuration
 
 This topic provides instructions for assigning group membership for Dell Unity devices.

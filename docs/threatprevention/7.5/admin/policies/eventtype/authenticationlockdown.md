@@ -1,9 +1,3 @@
----
-title: Authentication Lockdown Event Type
-sidebar_label: Authentication Lockdown Event Type
-description: Based on policy rules, the Authentication Lockdown event type can block specific Kerberos, TGT, TGS and/or NTLM authentication requests. An event is generate...
----
-
 # Authentication Lockdown Event Type
 
 Based on policy rules, the Authentication Lockdown event type can block specific Kerberos, TGT, TGS

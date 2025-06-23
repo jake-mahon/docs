@@ -1,9 +1,3 @@
----
-title: Prevent Weak Passwords Use Case
-sidebar_label: Prevent Weak Passwords Use
-description: Any Threat Prevention license can use the Password Enforcement Event type to prevent the creation of weak passwords in your environment.
----
-
 # Prevent Weak Passwords Use Case
 
 Any Threat Prevention license can use the Password Enforcement Event type to prevent the creation of

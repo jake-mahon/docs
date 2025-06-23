@@ -1,9 +1,3 @@
----
-title: Archive Data
-sidebar_label: Archive Data
-description: To use the Move operation on the Database Maintenance Window, you must specify a database where data is archived.
----
-
 # Archive Data
 
 To use the Move operation on the

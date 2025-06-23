@@ -1,9 +1,3 @@
----
-title: windows sg securityassessment
-sidebar_label: sg securityassessment
-description: Solution guide for windows sg securityassessment including implementation steps, configuration, and best practices.
----
-
 # SG_SecurityAssessment Job
 
 The SG_SecurityAssessment job performs checks against Windows security best practices in order to

@@ -1,9 +1,3 @@
----
-title: Dropbox
-sidebar_label: Manage
-description: This section contains information on how to exclude Dropbox files or folders from being crawled. You can define the list of file locations that will be ignor...
----
-
 # Dropbox
 
 This section contains information on how to exclude Dropbox files or folders from being crawled.

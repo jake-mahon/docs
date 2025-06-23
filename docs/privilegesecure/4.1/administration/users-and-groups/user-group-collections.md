@@ -1,9 +1,3 @@
----
-title: User and Group Collections Page
-sidebar_label: user group collections
-description: Administrative configuration and management features for Privilege Secure PAM solution including user management, policies, and security settings.
----
-
 # User and Group Collections Page
 
 The User and Group Collection page is accessible from the Navigation pane under Users & Group. It

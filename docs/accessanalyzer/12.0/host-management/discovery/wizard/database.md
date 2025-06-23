@@ -1,9 +1,3 @@
----
-title: database
-sidebar_label: database
-description: Documentation for database functionality in Access Analyzer including configuration and usage information.
----
-
 # Import From a Database
 
 Follow the steps to create a Host Discovery query using the **Import from a database** source

@@ -1,9 +1,3 @@
----
-title: Password Reset Enrollment Settings
-sidebar_label: Enrollment Settings
-description: Configure enrollment settings for Password Reset including enrollment questions, options, and user enrollment management.
----
-
 # Enroll Tab
 
 Use the **Enroll** tab to maintain the list of enrollment questions and options.

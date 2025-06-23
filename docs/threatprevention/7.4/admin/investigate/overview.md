@@ -1,9 +1,3 @@
----
-title: Investigate Interface
-sidebar_label: Investigate Interface
-description: The Investigate interface allows you to quickly view recent events in a centralized location. You can investigate either Production events or Archive events....
----
-
 # Investigate Interface
 
 The Investigate interface allows you to quickly view recent events in a centralized location. You

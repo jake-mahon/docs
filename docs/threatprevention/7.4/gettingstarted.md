@@ -1,9 +1,3 @@
----
-title: Getting Started with Threat Prevention
-sidebar_label: Getting Started
-description: Initial configuration steps for Threat Prevention including users, alerts, collections, policies, and database maintenance setup for administrators.
----
-
 # Getting Started
 
 After launching the Threat Prevention Administration Console, the administrator must configure some

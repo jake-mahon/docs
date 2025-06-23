@@ -1,9 +1,3 @@
----
-title: Microsoft Entra ID Authentication Configuration
-sidebar_label: Authentication Providers
-description: Configure Microsoft Entra ID OpenID Connect with PKCE for enhanced security authentication in Threat Manager including application registration.
----
-
 # Microsoft Entra ID Configuration
 
 For enhanced security, you can integrate Microsoft Entra ID OpenID Connect with Threat Manager using

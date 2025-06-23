@@ -1,9 +1,3 @@
----
-title: Encryption Algorithms and Security
-sidebar_label: Encryption
-description: Password Secure encryption algorithms and security concepts examined by external security companies with IT security standards compliance.
----
-
 # Encryption
 
 ## Used Algorithms

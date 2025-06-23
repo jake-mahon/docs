@@ -1,9 +1,3 @@
----
-title: Administration Overview and Security Features
-sidebar_label: Administration
-description: Overview of Password Policy Enforcer administration for securing networks with immediate password validation and system compatibility.
----
-
 # Administration
 
 Netwrix Password Policy Enforcer helps secure your network by ensuring users set strong passwords.

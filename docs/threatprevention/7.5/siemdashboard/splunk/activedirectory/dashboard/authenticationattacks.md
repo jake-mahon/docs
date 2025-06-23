@@ -1,10 +1,3 @@
----
-title: Authentication Attacks Dashboard
-sidebar_label: Authentication Attacks Dashboard
-description: The Authentication Attacks dashboard contains the following cards: !Authentication Attacks Dashboard - Authentication Attacks – Timeline of all authenticatio...
-
----
-
 # Authentication Attacks Dashboard
 
 The Authentication Attacks dashboard contains the following cards:

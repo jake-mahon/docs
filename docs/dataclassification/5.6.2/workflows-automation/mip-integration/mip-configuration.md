@@ -1,9 +1,3 @@
----
-title: Set Up MIP Integration
-sidebar_label: MIP Configuration
-description: To integrate Netwrix Data Classification with MIP technology, you need to perform the following steps: To configure IT infrastructure for MIP integration...
----
-
 # Set Up MIP Integration
 
 To integrate Netwrix Data Classification with MIP technology, you need to perform the following

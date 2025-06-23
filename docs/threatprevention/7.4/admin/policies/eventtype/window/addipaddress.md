@@ -1,9 +1,3 @@
----
-title: Add IP Address Window
-sidebar_label: Add IP Address Window
-description: The Add IP Address window provides a textbox to enter the IP address to be included or excluded. !Add IP Address Window
----
-
 # Add IP Address Window
 
 The Add IP Address window provides a textbox to enter the IP address to be included or excluded.

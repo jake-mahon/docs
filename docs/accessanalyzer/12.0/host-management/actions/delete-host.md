@@ -1,9 +1,3 @@
----
-title: delete host
-sidebar_label: delete host
-description: Documentation for delete host functionality in Access Analyzer including configuration and usage information.
----
-
 # Delete Host(s)
 
 Use the **Delete Host(s)** option at the **Host Management** node to permanently delete a host from

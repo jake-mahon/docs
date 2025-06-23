@@ -1,9 +1,3 @@
----
-title: Step 1. Select Content Type
-sidebar_label: Select Content Type
-description: At the first step of the wizard, select the type of content your workflow will process, and specify which content sources of that type should be included in...
----
-
 # Step 1. Select Content Type
 
 At the first step of the wizard, select the type of content your workflow will process, and specify

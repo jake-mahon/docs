@@ -1,9 +1,3 @@
----
-title: Google Chrome Extension Installation
-sidebar_label: Google Chrome
-description: Install Password Secure add-on for Google Chrome directly from Google Store using provided link and installation procedures.
----
-
 # Google Chrome
 
 ## Installing the add-on

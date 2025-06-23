@@ -1,9 +1,3 @@
----
-title: datasource getmdtypest API
-sidebar_label: getmdtypest
-description: API reference for getmdtypest operations in Directory Manager with request parameters, response examples, and implementation details.
----
-
 # Get Metadata of Data Source by Server Type and ID
 
 Use this API to retrieve metadata information of all data sources defined so far in Directory

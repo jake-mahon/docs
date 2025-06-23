@@ -1,9 +1,3 @@
----
-title: final_broken_links_summary
-sidebar_label: final_broken_links_summary
-description: Documentation for final_broken_links_summary functionality in Access Analyzer including configuration and usage information.
----
-
 # Final Broken Links Fix Summary
 
 ## Outstanding Results ✅

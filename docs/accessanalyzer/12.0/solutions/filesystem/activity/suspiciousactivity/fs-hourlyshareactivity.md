@@ -1,9 +1,3 @@
----
-title: filesystem activity suspiciousactivity fs hourlyshareactivity
-sidebar_label: fs hourlyshareactivity
-description: Solution guide for filesystem activity suspiciousactivity fs hourlyshareactivity including implementation steps, configuration, and best practices.
----
-
 # FS_HourlyShareActivity Job
 
 The FS_HourlyShareActivity job is designed to report on the highest hourly activity event

@@ -1,9 +1,3 @@
----
-title: collect mode
-sidebar_label: collect mode
-description: Documentation for collect mode functionality in Access Analyzer including configuration and usage information.
----
-
 # ExchangeMetrics: Collect Mode
 
 The Collect Mode page is where to set the collection mode. It is a wizard page for the categories

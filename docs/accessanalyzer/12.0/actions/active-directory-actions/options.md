@@ -1,9 +1,3 @@
----
-title: options
-sidebar_label: options
-description: Documentation for options functionality in Access Analyzer including configuration and usage information.
----
-
 # Active Directory Action Options
 
 The Options page provides the option to select to use the default domain or specific a domain to

@@ -1,9 +1,3 @@
----
-title: activedirectorypermissionsanalyzer computers overview
-sidebar_label: overview
-description: Solution guide for activedirectorypermissionsanalyzer computers overview including implementation steps, configuration, and best practices.
----
-
 # 4.Computers Job Group
 
 The 4.Computers Job Group reports on all Active Directory permissions applied to computer objects

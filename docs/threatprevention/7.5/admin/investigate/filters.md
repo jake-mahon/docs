@@ -1,9 +1,3 @@
----
-title: Investigate Filters
-sidebar_label: Investigate Filters
-description: On the Investigate Interface, there are six filter categories that can be applied to the recent events available in the data grid. By default, no filters are...
----
-
 # Investigate Filters
 
 On the [Investigate Interface](/docs/threatprevention/7.5/admin/investigate/overview.md), there are six filter categories that can be applied to

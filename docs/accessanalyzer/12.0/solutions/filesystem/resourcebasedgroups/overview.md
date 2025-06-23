@@ -1,9 +1,3 @@
----
-title: filesystem resourcebasedgroups overview
-sidebar_label: overview
-description: Solution guide for filesystem resourcebasedgroups overview including implementation steps, configuration, and best practices.
----
-
 # Resource Based Groups Job Group
 
 The Resource Based Groups Job Group will transform permissions on specified folders to a resource

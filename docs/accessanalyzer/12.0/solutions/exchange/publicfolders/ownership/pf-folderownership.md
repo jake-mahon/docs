@@ -1,9 +1,3 @@
----
-title: exchange publicfolders ownership pf folderownership
-sidebar_label: pf folderownership
-description: Solution guide for exchange publicfolders ownership pf folderownership including implementation steps, configuration, and best practices.
----
-
 # Collection > PF_FolderOwnership Job
 
 The PF_FolderOwnership job is comprised of data collection that focuses on collecting each public

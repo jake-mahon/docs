@@ -1,9 +1,3 @@
----
-title: directreport
-sidebar_label: directreport
-description: Directory Manager 11.1 documentation for directreport with configuration details, usage instructions, and implementation guidance.
----
-
 # Update your Direct Reports
 
 To view the users and contacts that report directly to you, click **Users** on the left navigation

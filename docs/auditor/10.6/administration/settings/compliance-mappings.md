@@ -1,9 +1,3 @@
----
-title: settings compliance mappings
-sidebar_label: compliance-mappings
-description: Auditor 10.6 administration guide for settings compliance mappings configuration and management.
----
-
 # Compliance Mappings
 
 This tile contains links to the practical guides on how to comply with different standards using

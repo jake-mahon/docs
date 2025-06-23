@@ -1,9 +1,3 @@
----
-title: Thunderbird Management with Endpoint Policy
-sidebar_label: Thunderbird
-description: Learn to manage Mozilla Thunderbird email client settings using Endpoint Policy Manager and Group Policy for centralized email configuration.
----
-
 # Endpoint Policy Manager for Thunderbird
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/nEIoUqY0wvE" title="Endpoint Policy Manager: Manage Thunderbird using Group Policy or your own management utility" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen="1"></iframe>

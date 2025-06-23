@@ -1,9 +1,3 @@
----
-title: Box
-sidebar_label: Manage
-description: This section contains information on how to exclude Box files or folders from being crawled, and how to configure writing classification attributes back to t...
----
-
 # Box
 
 This section contains information on how to exclude Box files or folders from being crawled, and how

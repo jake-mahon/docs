@@ -1,9 +1,3 @@
----
-title: Accounts Tab for Secret Vault
-sidebar_label: users
-description: Administrative configuration and management features for Privilege Secure PAM solution including user management, policies, and security settings.
----
-
 # Accounts Tab for Secret Vault
 
 The Accounts tab shows information about the accounts associated to the selected resource.

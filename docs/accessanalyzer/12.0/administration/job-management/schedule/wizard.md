@@ -1,9 +1,3 @@
----
-title: wizard Administration
-sidebar_label: wizard
-description: Administration guide for wizard including configuration, management, and best practices for Access Analyzer.
----
-
 # Schedule Wizard
 
 The schedule wizard allows you to configure scheduled tasks for jobs, job groups, Host Discovery

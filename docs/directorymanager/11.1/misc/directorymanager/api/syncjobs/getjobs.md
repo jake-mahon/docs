@@ -1,9 +1,3 @@
----
-title: syncjobs getjobs API
-sidebar_label: getjobs
-description: API reference for getjobs operations in Directory Manager with request parameters, response examples, and implementation details.
----
-
 # Get Jobs
 
 Use this API to get information about jobs based on the filters provided in the request syntax.

@@ -1,9 +1,3 @@
----
-title: PingCastle Pro Edition User Guide
-sidebar_label: Pro User Guide
-description: User guide for PingCastle Pro web application featuring audit data views, configuration management, API integration, and agent-based report importing.
----
-
 # Description
 
 PingCastle Pro is a tool designed to improve and follow the Active

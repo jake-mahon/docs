@@ -1,9 +1,3 @@
----
-title: Live Session Viewer Window
-sidebar_label: live viewer
-description: End user documentation covering session management, access procedures, dashboard functionality, and browser extension usage.
----
-
 # Live Session Viewer Window
 
 The Live Session Viewer window allows a user with the Administrator role to watch a live activity

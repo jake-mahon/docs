@@ -1,9 +1,3 @@
----
-title: Autofill Add-on Configuration
-sidebar_label: Autofill Add-on
-description: Configure automatic login data entry for applications with hidden password protection and authorization mechanisms for secure credential management.
----
-
 # Autofill Add-on
 
 ## What is the Autofill Add-on?

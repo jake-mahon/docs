@@ -1,9 +1,3 @@
----
-title: Don't Elevate Open Save Dialog
-sidebar_label: Don't Elevate
-description: Configure Don't Elevate Open/Save Dialog settings to maintain security by preventing privilege escalation through file dialog interactions.
----
-
 # When to Use "Don't Elevate Open/Save Dialog"
 
 **NOTE:** For more information see the

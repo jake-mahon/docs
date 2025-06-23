@@ -1,9 +1,3 @@
----
-title: Alerts Export Window
-sidebar_label: Alerts Export Window
-description: You can export alert data displayed on the Alerts interface to a CSV file. Follow the steps to export the alerts data.
----
-
 # Alerts Export Window
 
 You can export alert data displayed on the Alerts interface to a CSV file.

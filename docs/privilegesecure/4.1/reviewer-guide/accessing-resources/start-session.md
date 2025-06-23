@@ -1,9 +1,3 @@
----
-title: Start Activity Session
-sidebar_label: start session
-description: Reviewer role documentation including audit capabilities, access certification, session monitoring, and approval workflows.
----
-
 # Start Activity Session
 
 On the Active Sessions dashboard, when the status Available is shown, the activity session is ready.

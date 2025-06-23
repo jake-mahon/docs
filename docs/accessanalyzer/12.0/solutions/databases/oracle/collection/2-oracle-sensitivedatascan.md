@@ -1,9 +1,3 @@
----
-title: databases oracle collection 2 oracle sensitivedatascan
-sidebar_label: 2 oracle sensitivedatascan
-description: Solution guide for databases oracle collection 2 oracle sensitivedatascan including implementation steps, configuration, and best practices.
----
-
 # 2-Oracle_SensitiveDataScan Job
 
 The 2-Oracle_SensitiveDataScan job discovers sensitive data in Oracle databases across all targeted

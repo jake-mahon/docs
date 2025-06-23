@@ -1,9 +1,3 @@
----
-title: SIEM Templates Page
-sidebar_label: siem templates
-description: System configuration settings and advanced options for authentication, integrations, services, and security parameters.
----
-
 # SIEM Templates Page
 
 The SIEM Templates page is accessible from the Navigation pane under Configuration > SIEM. Privilege

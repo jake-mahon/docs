@@ -1,9 +1,3 @@
----
-title: Getting Started: database redshift
-sidebar_label: database redshift
-description: Getting started guide for database redshift in Access Analyzer including setup instructions and initial configuration steps.
----
-
 # Target Redshift Requirements, Permissions, and Ports
 
 The Access Analyzer for Databases Solution provides the ability to audit and monitor Redshift

@@ -1,9 +1,3 @@
----
-title: Install PostgreSQL Database Application
-sidebar_label: PostgreSQL Installation
-description: Step-by-step installation guide for PostgreSQL database application required for Threat Manager Reporting Module, including folder configuration and setup verification.
----
-
 # Install the PostgreSQL Database Application
 
 The PostgreSQL database application can be installed on the same server as the application or a

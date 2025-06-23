@@ -1,9 +1,3 @@
----
-title: Connectors and System Integration
-sidebar_label: Connectors
-description: Configure connectors to link Usercube with managed systems including Active Directory, Microsoft Entra ID, SAP, ServiceNow, and other applications.
----
-
 # Connectors
 
 [Connectors](/docs/identitymanager/6.1/configuration-reference/xml-configuration/connector-config.md)

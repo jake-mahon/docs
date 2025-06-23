@@ -1,9 +1,3 @@
----
-title: sharepoint content sp stalefiles
-sidebar_label: sp stalefiles
-description: Solution guide for sharepoint content sp stalefiles including implementation steps, configuration, and best practices.
----
-
 # SP_StaleFiles Job
 
 The SP_StaleFiles Job identifies files that have not been modified in at least a year across

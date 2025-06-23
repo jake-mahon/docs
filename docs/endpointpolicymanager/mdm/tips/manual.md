@@ -1,9 +1,3 @@
----
-title: Manually Placing XML Data and Licensing Files
-sidebar_label: Manual Placement
-description: Learn to manually place Endpoint Policy Manager XML data and licensing files in %programdata%\PolicyPak\XMLdata directory structure for direct deployment.
----
-
 # Manually Placing XML Data and Licensing Files on Target Computers
 
 You might want to manually place XML data files or Endpoint Policy Manager licensing files on your

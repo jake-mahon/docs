@@ -1,9 +1,3 @@
----
-title: Browser Router Shortcut Icons Configuration
-sidebar_label: Shortcut Icons
-description: Configure Browser Router to display proper default browser icons for user-created shortcuts instead of generic Browser Router Agent icons.
----
-
 # How do I change the default icon for user-created shortcuts for my default browser?
 
 For a good general overview of the topic, please watch this video:

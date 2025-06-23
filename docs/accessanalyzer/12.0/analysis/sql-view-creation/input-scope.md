@@ -1,9 +1,3 @@
----
-title: input scope
-sidebar_label: input scope
-description: Documentation for input scope functionality in Access Analyzer including configuration and usage information.
----
-
 # SQLViewCreation: Input Scope
 
 Use the Input Selection page to scope the source data tables. This option affects the tables

@@ -1,9 +1,3 @@
----
-title: Password Reset Data Management Tools
-sidebar_label: Data Management
-description: Data management tools for Password Reset including filter editor, user data administration, and enrollment data handling.
----
-
 # Filter Editor
 
 Use the Filter Editor to create complex filters, filters for hidden columns, or to save and open

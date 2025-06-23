@@ -1,9 +1,3 @@
----
-title: WMI Collector Classes Configuration
-sidebar_label: Classes
-description: Classes configuration for WMI Collector data collector including WMI class selection and property enumeration.
----
-
 # WMICollector: Classes
 
 On the Classes page, configure the WMICollector namespaces and classes to use as a data source.

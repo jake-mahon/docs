@@ -1,9 +1,3 @@
----
-title: Create and Configure Alerts
-sidebar_label: Alert Settings
-description: Create and configure custom alerts in Netwrix Auditor for real-time notification of security events and policy violations.
----
-
 # Create Alerts
 
 To create new alerts and modify existing alerts, the account used to connect to Auditor Server via

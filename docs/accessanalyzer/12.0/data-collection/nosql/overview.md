@@ -1,9 +1,3 @@
----
-title: overview
-sidebar_label: overview
-description: Documentation for overview functionality in Access Analyzer including configuration and usage information.
----
-
 # NoSQL Data Collector
 
 The NoSQL Data Collector for MongoDB provides information on MongoDB Cluster configuration, limited

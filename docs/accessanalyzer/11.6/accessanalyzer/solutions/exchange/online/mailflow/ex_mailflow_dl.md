@@ -1,9 +1,3 @@
----
-title: Exchange Mailflow Distribution Lists Analysis
-sidebar_label: Mailflow DL
-description: Exchange mailflow analysis for distribution lists including message flow patterns and delivery statistics.
----
-
 # EX_Mailflow_DL Job
 
 The EX_Mailflow_DL job provides information around distribution list usage.

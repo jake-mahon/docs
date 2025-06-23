@@ -1,9 +1,3 @@
----
-title: Using the SQL Library
-sidebar_label: SQL Library
-description: Powerful tool to locate and reuse formulas across Saved Searches in your NetSuite account with comprehensive search and analysis capabilities.
----
-
 # Using the Strongpoint SQL Library
 
 The SQL Library is a powerful tool to help you locate formulas used across the Saved Searches in

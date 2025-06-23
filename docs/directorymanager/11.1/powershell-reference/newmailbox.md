@@ -1,9 +1,3 @@
----
-title: New mailbox Cmdlet
-sidebar_label: newmailbox
-description: PowerShell cmdlet reference for newmailbox with parameter details, syntax examples, and usage instructions for Directory Manager.
----
-
 # New-Mailbox
 
 Use the New-Mailbox commandlet to create a new mailbox in Directory. Most mailbox properties can be

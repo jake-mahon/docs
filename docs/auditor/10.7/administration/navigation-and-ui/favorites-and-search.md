@@ -1,9 +1,3 @@
----
-title: favorites and search
-sidebar_label: favorites-and-search
-description: Auditor 10.7 documentation for favorites and search with configuration details, usage instructions, and implementation guidance.
----
-
 # Customizing Favorite Reports
 
 The Favorite reports tile displays a shortened list of your favorite reports. To view, edit or

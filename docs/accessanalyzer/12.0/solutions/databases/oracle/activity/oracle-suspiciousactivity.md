@@ -1,9 +1,3 @@
----
-title: databases oracle activity oracle suspiciousactivity
-sidebar_label: oracle suspiciousactivity
-description: Solution guide for databases oracle activity oracle suspiciousactivity including implementation steps, configuration, and best practices.
----
-
 # Oracle_SuspiciousActivity Job
 
 The Oracle_SuspiciousActivity job is designed to provide insight into suspicious behavior based on

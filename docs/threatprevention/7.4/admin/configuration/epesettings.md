@@ -1,9 +1,3 @@
----
-title: EPE Settings Configuration
-sidebar_label: EPE Settings Config
-description: Enterprise Password Enforcer settings configuration for password policy enforcement and validation rules.
----
-
 # EPE Settings Window
 
 Threat Prevention can be configured with Enterprise Password Enforcer (EPE) to use the Have I Been

@@ -1,9 +1,3 @@
----
-title: drop tables
-sidebar_label: drop tables
-description: Documentation for drop tables functionality in Access Analyzer including configuration and usage information.
----
-
 # SPAA Drop Tables & Views Workflow
 
 If it becomes necessary to clear the SPAA Data Collector tables and views to resolve an issue, the

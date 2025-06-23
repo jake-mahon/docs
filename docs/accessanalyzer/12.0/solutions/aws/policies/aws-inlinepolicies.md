@@ -1,9 +1,3 @@
----
-title: aws policies aws inlinepolicies
-sidebar_label: aws inlinepolicies
-description: Solution guide for aws policies aws inlinepolicies including implementation steps, configuration, and best practices.
----
-
 # AWS_InlinePolicies Job
 
 The AWS_InlinePolicies job provides details on customer managed policies that are directly assigned

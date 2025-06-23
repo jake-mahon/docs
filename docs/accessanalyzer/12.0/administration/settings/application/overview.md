@@ -1,9 +1,3 @@
----
-title: overview Administration
-sidebar_label: overview
-description: Administration guide for overview including configuration, management, and best practices for Access Analyzer.
----
-
 # Application
 
 The **Application** node is for configuring general settings which affect the way the Access

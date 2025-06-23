@@ -1,9 +1,3 @@
----
-title: Apply to Child Processes Best Practices
-sidebar_label: Child Processes
-description: Learn when to enable Apply to Child Processes for software installation while maintaining security by preventing privilege escalation attacks.
----
-
 # When to Use "Apply to Child Processes"
 
 **NOTE:** See the

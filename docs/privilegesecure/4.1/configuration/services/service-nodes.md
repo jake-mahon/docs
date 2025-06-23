@@ -1,9 +1,3 @@
----
-title: Service Nodes Page
-sidebar_label: service nodes
-description: System configuration settings and advanced options for authentication, integrations, services, and security parameters.
----
-
 # Service Nodes Page
 
 On the Service Nodes page, configure the services for each installed service node.

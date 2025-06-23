@@ -1,9 +1,3 @@
----
-title: Scripts Manager XML Data Files
-sidebar_label: Scripts
-description: Export Endpoint Policy Manager Scripts Manager settings as XML files for MDM deployment. Learn to export single script entries or entire collections.
----
-
 # XML Data Files from Endpoint Policy Scripts Manager
 
 You can export a single Endpoint Policy Manager Script Manager entry, as shown in Figure 26.

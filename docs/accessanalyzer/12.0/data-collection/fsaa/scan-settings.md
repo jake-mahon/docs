@@ -1,9 +1,3 @@
----
-title: scan settings
-sidebar_label: scan settings
-description: Documentation for scan settings functionality in Access Analyzer including configuration and usage information.
----
-
 # FSAA: Scan Settings
 
 The Scan Settings page is where additional scan protocols and settings are configured. It is a

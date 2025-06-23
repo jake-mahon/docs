@@ -1,9 +1,3 @@
----
-title: myteams
-sidebar_label: myteams
-description: Directory Manager 11.1 documentation for myteams with configuration details, usage instructions, and implementation guidance.
----
-
 # My Teams
 
 This page lists all the Microsoft Teams groups that you own.

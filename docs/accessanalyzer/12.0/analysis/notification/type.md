@@ -1,9 +1,3 @@
----
-title: type
-sidebar_label: type
-description: Documentation for type functionality in Access Analyzer including configuration and usage information.
----
-
 # Notification: Type
 
 Use the Notification Type page to specify one or more notification types.

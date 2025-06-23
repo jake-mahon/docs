@@ -1,9 +1,3 @@
----
-title: Terminate Proxy Session Window
-sidebar_label: terminate session
-description: End user documentation covering session management, access procedures, dashboard functionality, and browser extension usage.
----
-
 # Terminate Proxy Session Window
 
 When viewing a session with the live session viewer, it is possible to disconnect the session in the

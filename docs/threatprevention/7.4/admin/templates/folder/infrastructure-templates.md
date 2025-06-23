@@ -1,10 +1,3 @@
----
-title: Infrastructure Templates
-sidebar_label: Infrastructure Templates
-description: This section contains templates for monitoring and protecting infrastructure components. The LDAP folder contains the following templates:
-
----
-
 # Infrastructure Templates
 
 This section contains templates for monitoring and protecting infrastructure components.

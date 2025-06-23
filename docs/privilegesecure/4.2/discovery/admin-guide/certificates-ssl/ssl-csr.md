@@ -1,9 +1,3 @@
----
-title: SSL CSR (Certificate Signing Request)
-sidebar_label: ssl csr
-description: Documentation for Privilege Secure privileged access management solution covering features, configuration, and usage procedures.
----
-
 # SSL CSR (Certificate Signing Request)
 
 SSL CSR (Certificate Signing Request)

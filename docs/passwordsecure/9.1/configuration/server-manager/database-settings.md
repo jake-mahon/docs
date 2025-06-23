@@ -1,9 +1,3 @@
----
-title: Database Settings Configuration Interface
-sidebar_label: Database Settings
-description: Access database settings through ribbon menu or context menu requiring admin password authentication for Password Secure configuration management.
----
-
 # Database settings
 
 To open the settings of a database, select it and click on "Settings" in the ribbon. Alternatively

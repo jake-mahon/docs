@@ -1,9 +1,3 @@
----
-title: Non-Administrative Account Configuration
-sidebar_label: Non-Domain Admin
-description: Configure non-administrative accounts for logon activity collection with proper permissions and security settings.
----
-
 # Configure Non-Administrative Account to Collect Logon Activity
 
 This section contains instructions on how to configure an account to collect Logon Activity with

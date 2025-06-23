@@ -1,9 +1,3 @@
----
-title: databases sql activity sql permissionchanges
-sidebar_label: sql permissionchanges
-description: Solution guide for databases sql activity sql permissionchanges including implementation steps, configuration, and best practices.
----
-
 # SQL_PermissionChanges Job
 
 The SQL_PermissionChanges Job provides detailed information on permission changes for all database

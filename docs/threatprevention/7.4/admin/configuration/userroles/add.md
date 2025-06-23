@@ -1,9 +1,3 @@
----
-title: Add Users
-sidebar_label: Add Users
-description: Follow the steps to add a user and assign access rights. !Add User button on the Users and Groups window
----
-
 # Add Users
 
 Follow the steps to add a user and assign access rights.

@@ -1,9 +1,3 @@
----
-title: filesystem fs openaccess
-sidebar_label: fs openaccess
-description: Solution guide for filesystem fs openaccess including implementation steps, configuration, and best practices.
----
-
 # 1.Open Access > FS_OpenAccess Job
 
 The FS_OpenAccess job is designed to report on Open Access information from targeted file servers.

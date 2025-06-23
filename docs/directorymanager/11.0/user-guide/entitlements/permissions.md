@@ -1,9 +1,3 @@
----
-title: permissions
-sidebar_label: permissions
-description: Directory Manager 11.0 documentation for permissions with configuration details, usage instructions, and implementation guidance.
----
-
 # Manage File Servers
 
 You can specify file servers in an Active Directory identity store to replicate their entitlement

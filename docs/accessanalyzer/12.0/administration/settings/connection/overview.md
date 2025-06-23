@@ -1,9 +1,3 @@
----
-title: overview Administration
-sidebar_label: overview
-description: Administration guide for overview including configuration, management, and best practices for Access Analyzer.
----
-
 # Connection
 
 The Connection node contains objects referred to as Connection Profiles. A Connection Profile houses

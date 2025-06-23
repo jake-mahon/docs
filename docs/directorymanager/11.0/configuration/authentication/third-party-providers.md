@@ -1,9 +1,3 @@
----
-title: third party providers
-sidebar_label: third-party-providers
-description: Directory Manager 11.0 documentation for third party providers with configuration details, usage instructions, and implementation guidance.
----
-
 # Configure the AD FS Provider In GroupID
 
 To configure a SAML provider in GroupID, you have to specify the following:

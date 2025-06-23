@@ -1,9 +1,3 @@
----
-title: Password Reset General Settings
-sidebar_label: General Settings
-description: Configure general settings for Password Reset including version information, license management, and configuration options.
----
-
 # About Tab
 
 Use the **About** tab to check the version and license information, and to install a new license

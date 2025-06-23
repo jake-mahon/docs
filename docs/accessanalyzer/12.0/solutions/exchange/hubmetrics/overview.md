@@ -1,9 +1,3 @@
----
-title: exchange hubmetrics overview
-sidebar_label: overview
-description: Solution guide for exchange hubmetrics overview including implementation steps, configuration, and best practices.
----
-
 # 1.HUB Metrics Job Group
 
 The 1. HUB Metrics Job Group is comprised of data collection, analysis and reports that focus on

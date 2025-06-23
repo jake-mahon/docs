@@ -1,9 +1,3 @@
----
-title: ECC Migration Admin Manual
-sidebar_label: ECC Migration
-description: Administrator manual for migrating Password Secure to enhanced encryption including preparation steps, offline access, and mobile synchronization checks.
----
-
 # Admin Manual
 
 ## Preparation

@@ -1,9 +1,3 @@
----
-title: built in reports
-sidebar_label: built-in-reports
-description: Directory Manager 11.0 documentation for built in reports with configuration details, usage instructions, and implementation guidance.
----
-
 # Computer Reports
 
 Computer Reports contains reports for the Computer objects in the directory. Search a specific

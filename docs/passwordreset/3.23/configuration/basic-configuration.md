@@ -1,9 +1,3 @@
----
-title: Basic Password Reset Configuration
-sidebar_label: Basic Configuration
-description: Step-by-step guide to configuring Password Reset through the Configuration Console including domain management and Password Policy Enforcer integration.
----
-
 # Configuring Password Reset
 
 Click **Start** > **ANIXIS Password Reset** > **APR Configuration Console**on the Password Reset

@@ -1,9 +1,3 @@
----
-title: Preferences Manager XML Data Files
-sidebar_label: Preferences
-description: Export Group Policy Preferences as XML files for MDM deployment. Create XML data files by dragging items from MMC console or exporting from existing GPOs.
----
-
 # XML Data Files from Endpoint Policy Preferences Manager
 
 To make an XML file from a Group Policy Preference item, first create the item. Be sure to embed any

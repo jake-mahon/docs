@@ -1,9 +1,3 @@
----
-title: File System Proxy Silent Installation
-sidebar_label: Silent Install
-description: Silent installation guide for File System Proxy component including automated deployment and configuration options.
----
-
 # Silent Installer Option for Proxy
 
 It is possible to use one of the following methods to complete a silent installation of the File

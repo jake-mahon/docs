@@ -1,9 +1,3 @@
----
-title: Distribution Lists Job Group Configuration
-sidebar_label: Recommended
-description: Recommended configurations for the Distribution Lists job group including dependencies, scheduling, and workflow steps for Exchange environments.
----
-
 # Recommended Configurations for the 6. Distribution Lists Job Group
 
 Dependencies

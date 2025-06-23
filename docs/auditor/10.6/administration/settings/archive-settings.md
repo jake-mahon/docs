@@ -1,9 +1,3 @@
----
-title: settings archive settings
-sidebar_label: archive-settings
-description: Auditor 10.6 administration guide for settings archive settings configuration and management.
----
-
 # Long-Term Archive
 
 The Long-Term Archive is configured by default, irrespective of your subscription plan and settings

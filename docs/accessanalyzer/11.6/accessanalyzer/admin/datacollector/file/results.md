@@ -1,9 +1,3 @@
----
-title: File Results Configuration
-sidebar_label: Results
-description: Configuration page for selecting File data collector results including file properties, permissions, ownership, and security attributes.
----
-
 # File: Results
 
 The Results page provides a list of available properties to be searched for and returned by the job

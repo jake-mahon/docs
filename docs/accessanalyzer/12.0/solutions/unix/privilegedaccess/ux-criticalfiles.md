@@ -1,9 +1,3 @@
----
-title: unix privilegedaccess ux criticalfiles
-sidebar_label: ux criticalfiles
-description: Solution guide for unix privilegedaccess ux criticalfiles including implementation steps, configuration, and best practices.
----
-
 # UX_CriticalFiles Job
 
 The UX_CriticalFiles job provides visibility into owners of critical files within audited Unix and

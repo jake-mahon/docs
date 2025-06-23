@@ -1,9 +1,3 @@
----
-title: Quick Start Installation and Configuration Guide
-sidebar_label: Quick Start
-description: Fast-track guide for installing Password Policy Enforcer server components and configuration console with domain and local policies.
----
-
 # Getting Started
 
 Review the [Requirements](/docs/passwordpolicyenforcer/11.0/getting-started/requirements.md) and the

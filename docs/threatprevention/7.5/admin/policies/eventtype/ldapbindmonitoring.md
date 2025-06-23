@@ -1,9 +1,3 @@
----
-title: LDAP Bind Monitoring Event Type
-sidebar_label: LDAP Bind Monitoring Event
-description: The LDAP Bind Monitoring event type monitors all connections established with LDAP, including the users who connected with LDAP. While the LDAP Monitoring Ev...
----
-
 # LDAP Bind Monitoring Event Type
 
 The LDAP Bind Monitoring event type monitors all connections established with LDAP, including the

@@ -1,10 +1,3 @@
----
-title: Navigate the Active Directory App for QRadar
-sidebar_label: Navigate Active Directory App
-description: The Netwrix Active Directory App for QRadar (Active Directory tab) contains several predefined dashboards:
-
----
-
 # Navigate the Active Directory App for QRadar
 
 The Netwrix Active Directory App for QRadar (Active Directory tab) contains several predefined

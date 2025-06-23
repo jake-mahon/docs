@@ -1,9 +1,3 @@
----
-title: cloud platforms aws analysis
-sidebar_label: aws analysis
-description: Solution guide for cloud platforms aws analysis including implementation steps, configuration, and best practices.
----
-
 # 1.AWS_OrgScan Job
 
 The 1.AWS_OrgScan job collects details about the AWS Organization including password policies and

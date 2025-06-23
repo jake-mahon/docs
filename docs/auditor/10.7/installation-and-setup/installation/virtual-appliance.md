@@ -1,9 +1,3 @@
----
-title: virtual appliance
-sidebar_label: virtual-appliance
-description: Auditor 10.7 documentation for virtual appliance with configuration details, usage instructions, and implementation guidance.
----
-
 # Configure Virtual Appliance
 
 Perform the following steps to configure your virtual appliance:

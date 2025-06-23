@@ -1,9 +1,3 @@
----
-title: reference API Reference
-sidebar_label: reference
-description: Auditor 10.6 API reference for reference functionality with endpoint details, authentication, and implementation examples.
----
-
 # Compatibility Notice
 
 Make sure to check your product version, and then review and update your add-ons and scripts

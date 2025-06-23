@@ -1,9 +1,3 @@
----
-title: Get connectedstoreinformation Cmdlet
-sidebar_label: getconnectedstoreinformation
-description: PowerShell cmdlet reference for getconnectedstoreinformation with parameter details, syntax examples, and usage instructions for Directory Manager.
----
-
 # Get-ConnectedStoreInformation
 
 The Get-ConnectedStoreInformation commandlet retrieves information about the identity store

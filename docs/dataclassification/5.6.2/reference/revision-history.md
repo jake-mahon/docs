@@ -1,9 +1,3 @@
----
-title: Revision History
-sidebar_label: Revision History
-description: | Revision # | Date | Summary of changes | | ---------- | ---------- | ----------------------------------------------------------------------- | | Revision 1...
----
-
 # Revision History
 
 | Revision # | Date       | Summary of changes                                                      |

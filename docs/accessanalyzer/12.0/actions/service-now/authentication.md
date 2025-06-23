@@ -1,9 +1,3 @@
----
-title: authentication
-sidebar_label: authentication
-description: Documentation for authentication functionality in Access Analyzer including configuration and usage information.
----
-
 # ServiceNow Action: Authentication
 
 The Authentication page implements signing into a ServiceNow account.

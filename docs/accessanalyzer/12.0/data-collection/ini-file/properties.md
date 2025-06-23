@@ -1,9 +1,3 @@
----
-title: properties
-sidebar_label: properties
-description: Documentation for properties functionality in Access Analyzer including configuration and usage information.
----
-
 # INIFile: Properties
 
 The Properties page identifies data about the INI file for auditing.

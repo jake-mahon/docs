@@ -1,9 +1,3 @@
----
-title: Portal synchronize script sampletransformscript
-sidebar_label: sampletransformscript
-description: Directory Manager portal documentation for synchronize script functionality including user interface, navigation, and operational procedures.
----
-
 # Sample Transform Scripts
 
 ## Assembling a Full Name: `<last name>`, `<first name>`

@@ -1,9 +1,3 @@
----
-title: activedirectorypermissionsanalyzer recommended
-sidebar_label: recommended
-description: Solution guide for activedirectorypermissionsanalyzer recommended including implementation steps, configuration, and best practices.
----
-
 # Recommended Configurations for AD Permissions Analyzer Solution
 
 Dependencies

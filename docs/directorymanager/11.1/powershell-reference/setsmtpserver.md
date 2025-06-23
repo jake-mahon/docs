@@ -1,9 +1,3 @@
----
-title: Set smtpserver Cmdlet
-sidebar_label: setsmtpserver
-description: PowerShell cmdlet reference for setsmtpserver with parameter details, syntax examples, and usage instructions for Directory Manager.
----
-
 # Set-SmtpServer
 
 The Set-SmtpServer commandlet configures an SMTP server for an identity store.

@@ -1,9 +1,3 @@
----
-title: exchange publicfolders content pf contentscans
-sidebar_label: pf contentscans
-description: Solution guide for exchange publicfolders content pf contentscans including implementation steps, configuration, and best practices.
----
-
 # Collection > PF_ContentScans Job
 
 The PF_ContentScans job is comprised of data collection that focuses on public folder content aging

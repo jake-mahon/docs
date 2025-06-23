@@ -1,9 +1,3 @@
----
-title: windows openaccess overview
-sidebar_label: overview
-description: Solution guide for windows openaccess overview including implementation steps, configuration, and best practices.
----
-
 # Open Access Job Group
 
 The Open Access job group identifies instances of open access in the audited environment.

@@ -1,9 +1,3 @@
----
-title: jobinfo
-sidebar_label: jobinfo
-description: Directory Manager 11.1 documentation for jobinfo with configuration details, usage instructions, and implementation guidance.
----
-
 # User properties - Job Info tab
 
 The Job Info tab is similar to the

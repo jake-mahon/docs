@@ -1,9 +1,3 @@
----
-title: Attribute List Window
-sidebar_label: Attribute List Window
-description: The Attribute List window provides a list of available Active Directory attributes to either include or exclude. Selected attributes are added to the filter ...
----
-
 # Attribute List Window
 
 The Attribute List window provides a list of available Active Directory attributes to either include

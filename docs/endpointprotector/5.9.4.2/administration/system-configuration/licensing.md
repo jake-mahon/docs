@@ -1,9 +1,3 @@
----
-title: System Licensing Management
-sidebar_label: Licensing
-description: Complete overview of licensing status and license management for Endpoint Protector system including activation and maintenance processes.
----
-
 # System Licensing
 
 This section provides a complete overview of your licensing status and allows you to manage licenses

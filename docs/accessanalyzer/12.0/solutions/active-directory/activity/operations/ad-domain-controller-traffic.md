@@ -1,9 +1,3 @@
----
-title: active directory activity operations ad domain controller traffic
-sidebar_label: ad domain controller traffic
-description: Solution guide for active directory activity operations ad domain controller traffic including implementation steps, configuration, and best practices.
----
-
 # AD_DomainControllerTraffic Job
 
 The AD_DomainControllerTraffic Job provides a summary of the amount of traffic for Changes,

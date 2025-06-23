@@ -1,9 +1,3 @@
----
-title: authentication API Reference
-sidebar_label: authentication
-description: Auditor 10.6 API reference for authentication functionality with endpoint details, authentication, and implementation examples.
----
-
 # Security
 
 By default, Netwrix Auditor API uses HTTPS for sending requests to its endpoints. Netwrix encrypts

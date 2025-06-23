@@ -1,9 +1,3 @@
----
-title: Term Settings
-sidebar_label: Term Settings
-description: When a child node is selected in the tree view, you will be redirected to the Term Management panel. The Settings tab will display settings for the selected...
----
-
 # Term Settings
 
 When a child node is selected in the tree view, you will be redirected to the Term Management panel.

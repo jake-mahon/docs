@@ -1,9 +1,3 @@
----
-title: Browser Router OS Web Look Feel
-sidebar_label: OS Web Feel
-description: Configure Browser Router OS Web Browser Look & Feel policy to control how the default web browser appears in Windows settings interface.
----
-
 # Using "OS Web Browser Look & Feel"
 
 Browser Router has a policy called OS Web Browser Look & Feel.

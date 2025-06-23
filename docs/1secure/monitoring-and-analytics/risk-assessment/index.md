@@ -1,9 +1,3 @@
----
-title: Risk Profile Management
-sidebar_label: Risk Assessment
-description: Create and manage risk profiles for MSPs to assess and monitor organizational security risks with customizable metrics.
----
-
 # Manage Risk Profiles
 
 In Netwrix 1Secure, the Managed Service Provider (MSP) can create risk profiles. A risk profile

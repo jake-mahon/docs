@@ -1,9 +1,3 @@
----
-title: Delete Workflow
-sidebar_label: Workflow Settings
-description: You can delete a single workflow or a group of workflows within the scope (Global or other): (scope) and click Delete on the right. 1. In the list of...
----
-
 # Delete Workflow
 
 You can delete a single workflow or a group of workflows within the scope (Global or other):

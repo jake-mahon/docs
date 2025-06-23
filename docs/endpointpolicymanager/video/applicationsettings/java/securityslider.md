@@ -1,9 +1,3 @@
----
-title: Java Security Slider Management Tutorial
-sidebar_label: Security Slider
-description: Learn to manage and manipulate the Java security slider settings using Endpoint Policy Manager for enhanced Java application security control.
----
-
 # How to Manage the security slider in Java
 
 A quick update to our Java pak gives you the ability to manage and manipulate the slider on the

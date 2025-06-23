@@ -1,9 +1,3 @@
----
-title: properties
-sidebar_label: properties
-description: Documentation for properties functionality in Access Analyzer including configuration and usage information.
----
-
 # SendMail Action: Properties
 
 Use the Properties page to specify the recipients of the email.

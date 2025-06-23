@@ -1,9 +1,3 @@
----
-title: filesystem resourcebasedgroups fs resourcebasedgroups
-sidebar_label: fs resourcebasedgroups
-description: Solution guide for filesystem resourcebasedgroups fs resourcebasedgroups including implementation steps, configuration, and best practices.
----
-
 # FS_ResourceBasedGroups Job
 
 The FS_ResourceBasedGroups Job is designed to report on and take action against resources from

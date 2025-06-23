@@ -1,9 +1,3 @@
----
-title: schedules
-sidebar_label: schedules
-description: Directory Manager 11.0 documentation for schedules with configuration details, usage instructions, and implementation guidance.
----
-
 # Choose your Job Template
 
 For creating a job, GroupID Synchronize enables you to create a new job collection based on your

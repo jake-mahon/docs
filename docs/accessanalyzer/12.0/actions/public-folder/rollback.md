@@ -1,9 +1,3 @@
----
-title: rollback
-sidebar_label: rollback
-description: Documentation for rollback functionality in Access Analyzer including configuration and usage information.
----
-
 # Public Folder: Rollback
 
 Use the Rollback page to enable rollback capabilities for the action. If rollback isn’t selected at

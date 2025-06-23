@@ -1,9 +1,3 @@
----
-title: Advanced Actions for Exchange
-sidebar_label: Exchange Actions
-description: In addition to the Email Alert ,Migrate Document and additional classification, the following actions are available for the Exchange content source type: To...
----
-
 # Advanced Actions for Exchange
 
 In addition to the **Email Alert** ,**Migrate Document** and additional classification, the

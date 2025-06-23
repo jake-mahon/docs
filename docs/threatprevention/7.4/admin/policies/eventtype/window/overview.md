@@ -1,9 +1,3 @@
----
-title: Selection Windows
-sidebar_label: Selection Windows
-description: Many event type filters have selections windows for populating filter values. It may be necessary to select a specific Agent to populate values in the select...
----
-
 # Selection Windows
 
 Many event type filters have selections windows for populating filter values. It may be necessary to

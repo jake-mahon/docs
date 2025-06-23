@@ -1,9 +1,3 @@
----
-title: advanced
-sidebar_label: advanced
-description: Directory Manager 11.1 documentation for advanced with configuration details, usage instructions, and implementation guidance.
----
-
 # Object properties - Advanced tab
 
 Use this tab to specify advanced settings for a user/mailbox.

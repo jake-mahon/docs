@@ -1,9 +1,3 @@
----
-title: system settings
-sidebar_label: system-settings
-description: Directory Manager 11.0 documentation for system settings with configuration details, usage instructions, and implementation guidance.
----
-
 # Elasticsearch and Replication
 
 Searches performed in GroupID are catered through Elasticsearch.

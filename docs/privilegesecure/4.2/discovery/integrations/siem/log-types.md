@@ -1,9 +1,3 @@
----
-title: Logs
-sidebar_label: log types
-description: Documentation for Privilege Secure privileged access management solution covering features, configuration, and usage procedures.
----
-
 # Logs
 
 Logs

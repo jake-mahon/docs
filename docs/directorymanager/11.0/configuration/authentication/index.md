@@ -1,9 +1,3 @@
----
-title: index
-sidebar_label: index
-description: Directory Manager 11.0 documentation for index with configuration details, usage instructions, and implementation guidance.
----
-
 # Authenticate
 
 Authenticate is a federation service that verifies a user's identity in an identity store before

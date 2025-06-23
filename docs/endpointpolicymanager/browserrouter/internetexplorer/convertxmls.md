@@ -1,9 +1,3 @@
----
-title: Browser Router Convert IE Site Lists
-sidebar_label: Convert XMLs
-description: Convert Microsoft Enterprise Mode Internet Explorer site list XML files to Browser Router policies for seamless legacy application compatibility migration.
----
-
 # Converting Existing IE Site List XMLs
 
 **NOTE:** To get an overview on how to convert existing IE site lists, please see:

@@ -1,9 +1,3 @@
----
-title: managing members
-sidebar_label: managing-members
-description: Directory Manager 11.1 documentation for managing members with configuration details, usage instructions, and implementation guidance.
----
-
 # Members page
 
 You can add members to the group. You can also remove members. By default, you are a member of the

@@ -1,9 +1,3 @@
----
-title: Collector Configuration Settings for Data Classification
-sidebar_label: Collector
-description: Configure collector settings including document size limits, thread management, OCR processing, and advanced options for Netwrix Data Classification.
----
-
 # Collector
 
 This configuration tab contains the classification engine settings. Each configuration option has an

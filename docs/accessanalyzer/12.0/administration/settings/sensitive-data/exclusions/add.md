@@ -1,9 +1,3 @@
----
-title: add Administration
-sidebar_label: add
-description: Administration guide for add including configuration, management, and best practices for Access Analyzer.
----
-
 # Adding False Positive Exclusion Filters
 
 Follow the steps to add a False Positive Exclusion Filter.

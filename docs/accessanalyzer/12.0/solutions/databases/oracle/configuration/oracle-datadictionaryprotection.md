@@ -1,9 +1,3 @@
----
-title: databases oracle configuration oracle datadictionaryprotection
-sidebar_label: oracle datadictionaryprotection
-description: Solution guide for databases oracle configuration oracle datadictionaryprotection including implementation steps, configuration, and best practices.
----
-
 # Oracle_DataDictionaryProtection Job
 
 The Oracle_DataDictionaryProtection Job is designed to identify if the Oracle data dictionary views

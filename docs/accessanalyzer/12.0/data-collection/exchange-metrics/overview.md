@@ -1,9 +1,3 @@
----
-title: overview
-sidebar_label: overview
-description: Documentation for overview functionality in Access Analyzer including configuration and usage information.
----
-
 # ExchangeMetrics Data Collector
 
 The ExchangeMetrics Data Collector collects Mail-Flow metrics from the Exchange Message Tracking

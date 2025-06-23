@@ -1,9 +1,3 @@
----
-title: sharepoint collection 3 spac systemscans
-sidebar_label: 3 spac systemscans
-description: Solution guide for sharepoint collection 3 spac systemscans including implementation steps, configuration, and best practices.
----
-
 # 3-SPAC_SystemScans Job
 
 The job collects information on activity, users, and groups to determine who has performed activity

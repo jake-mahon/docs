@@ -27,7 +27,7 @@
  * @property {string} path - Base documentation path
  * @property {ProductVersion[]} versions - Available versions
  * @property {string} [defaultVersion] - Default version to use
- * @property {string} [category] - Product category
+ * @property {string[]} [categories] - Product categories (can belong to multiple)
  * @property {string} [icon] - Icon for the product
  */
 
@@ -41,8 +41,8 @@ export const PRODUCTS = [
     name: '1Secure',
     description: 'Cloud-based security monitoring and compliance',
     path: 'docs/1secure',
-    category: 'Data Security Posture Management (DSPM)',
-    icon: '🛡️',
+    categories: ['Data Security Posture Management (DSPM)'],
+    icon: '',
     versions: [
       {
         version: 'current',
@@ -57,8 +57,8 @@ export const PRODUCTS = [
     name: 'Access Analyzer',
     description: 'Analyze and audit file system permissions',
     path: 'docs/accessanalyzer',
-    category: 'Data Security Posture Management (DSPM)',
-    icon: '🔍',
+    categories: ['Data Security Posture Management (DSPM)', 'Identity Threat Detection & Response (ITDR)'],
+    icon: '',
     versions: [
       {
         version: '12.0',
@@ -80,8 +80,8 @@ export const PRODUCTS = [
     name: 'Access Information Center',
     description: 'Centralized access information management',
     path: 'docs/accessinformationcenter',
-    category: 'Other',
-    icon: '📊',
+    categories: ['Other'],
+    icon: '',
     versions: [
       {
         version: '12.0',
@@ -103,8 +103,8 @@ export const PRODUCTS = [
     name: 'Activity Monitor',
     description: 'Track user activities across IT infrastructure',
     path: 'docs/activitymonitor',
-    category: 'Other',
-    icon: '👁️',
+    categories: ['Other'],
+    icon: '',
     versions: [
       {
         version: '8.0',
@@ -126,8 +126,8 @@ export const PRODUCTS = [
     name: 'Auditor',
     description: 'Comprehensive IT infrastructure auditing',
     path: 'docs/auditor',
-    category: 'Data Security Posture Management (DSPM)',
-    icon: '📋',
+    categories: ['Directory Management', 'Data Security Posture Management (DSPM)'],
+    icon: '',
     versions: [
       {
         version: '10.7',
@@ -149,8 +149,8 @@ export const PRODUCTS = [
     name: 'Change Tracker',
     description: 'Real-time change monitoring and alerts',
     path: 'docs/changetracker',
-    category: 'Endpoint Management',
-    icon: '⚡',
+    categories: ['Endpoint Management'],
+    icon: '',
     versions: [
       {
         version: '8.1',
@@ -172,7 +172,7 @@ export const PRODUCTS = [
     name: 'Data Classification',
     description: 'Classify and protect sensitive data',
     path: 'docs/dataclassification',
-    category: 'Data Security Posture Management (DSPM)',
+    categories: ['Data Security Posture Management (DSPM)'],
     icon: '🏷️',
     versions: [
       {
@@ -195,8 +195,8 @@ export const PRODUCTS = [
     name: 'Directory Manager',
     description: 'Active Directory group management',
     path: 'docs/directorymanager',
-    category: 'Identity Management',
-    icon: '📁',
+    categories: ['Identity Management', 'Directory Management'],
+    icon: '',
     versions: [
       {
         version: '11.1',
@@ -218,8 +218,8 @@ export const PRODUCTS = [
     name: 'Endpoint Policy Manager',
     description: 'Group Policy management and enforcement',
     path: 'docs/endpointpolicymanager',
-    category: 'Endpoint Management',
-    icon: '💻',
+    categories: ['Endpoint Management'],
+    icon: '',
     versions: [
       {
         version: 'current',
@@ -234,8 +234,8 @@ export const PRODUCTS = [
     name: 'Endpoint Protector',
     description: 'Comprehensive endpoint security',
     path: 'docs/endpointprotector',
-    category: 'Endpoint Management',
-    icon: '🛡️',
+    categories: ['Endpoint Management'],
+    icon: '',
     versions: [
       {
         version: '5.9.4.2',
@@ -257,8 +257,8 @@ export const PRODUCTS = [
     name: 'Identity Manager',
     description: 'User provisioning and management',
     path: 'docs/identitymanager',
-    category: 'Identity Management',
-    icon: '👤',
+    categories: ['Identity Management'],
+    icon: '',
     versions: [
       {
         version: '6.2',
@@ -286,8 +286,8 @@ export const PRODUCTS = [
     name: 'Password Policy Enforcer',
     description: 'Enforce strong password policies',
     path: 'docs/passwordpolicyenforcer',
-    category: 'Directory Management',
-    icon: '🔒',
+    categories: ['Directory Management'],
+    icon: '',
     versions: [
       {
         version: '11.0',
@@ -309,8 +309,8 @@ export const PRODUCTS = [
     name: 'Password Reset',
     description: 'Self-service password reset solution',
     path: 'docs/passwordreset',
-    category: 'Other',
-    icon: '🔄',
+    categories: ['Other'],
+    icon: '',
     versions: [
       {
         version: '3.3',
@@ -332,8 +332,8 @@ export const PRODUCTS = [
     name: 'Password Secure',
     description: 'Secure password management',
     path: 'docs/passwordsecure',
-    category: 'Privileged Access Management (PAM)',
-    icon: '🔐',
+    categories: ['Privileged Access Management (PAM)'],
+    icon: '',
     versions: [
       {
         version: '9.2',
@@ -355,8 +355,8 @@ export const PRODUCTS = [
     name: 'PingCastle',
     description: 'Active Directory security assessment',
     path: 'docs/pingcastle',
-    category: 'Identity Threat Detection & Response (ITDR)',
-    icon: '🏰',
+    categories: ['Identity Threat Detection & Response (ITDR)'],
+    icon: '',
     versions: [
       {
         version: 'current',
@@ -371,8 +371,8 @@ export const PRODUCTS = [
     name: 'Platform Governance for NetSuite',
     description: 'NetSuite governance and compliance',
     path: 'docs/platgovnetsuite',
-    category: 'Identity Management',
-    icon: '📊',
+    categories: ['Identity Management'],
+    icon: '',
     versions: [
       {
         version: 'current',
@@ -387,8 +387,8 @@ export const PRODUCTS = [
     name: 'Platform Governance for NetSuite Flashlight',
     description: 'Lightweight NetSuite documentation and analysis',
     path: 'docs/platgovnetsuiteflashlight',
-    category: 'Other',
-    icon: '🔦',
+    categories: ['Other'],
+    icon: '',
     versions: [
       {
         version: 'current',
@@ -403,8 +403,8 @@ export const PRODUCTS = [
     name: 'Platform Governance for Salesforce',
     description: 'Salesforce governance and compliance',
     path: 'docs/platgovsalesforce',
-    category: 'Identity Management',
-    icon: '⚡',
+    categories: ['Identity Management'],
+    icon: '',
     versions: [
       {
         version: 'current',
@@ -419,8 +419,8 @@ export const PRODUCTS = [
     name: 'Platform Governance for Salesforce Flashlight',
     description: 'Lightweight Salesforce documentation and analysis',
     path: 'docs/platgovsalesforceflashlight',
-    category: 'Other',
-    icon: '🔦',
+    categories: ['Other'],
+    icon: '',
     versions: [
       {
         version: 'current',
@@ -435,8 +435,8 @@ export const PRODUCTS = [
     name: 'Privilege Secure',
     description: 'Privileged access management',
     path: 'docs/privilegesecure',
-    category: 'Privileged Access Management (PAM)',
-    icon: '🔐',
+    categories: ['Privileged Access Management (PAM)'],
+    icon: '',
     versions: [
       {
         version: '4.2',
@@ -458,8 +458,8 @@ export const PRODUCTS = [
     name: 'Recovery for Active Directory',
     description: 'Active Directory backup and recovery',
     path: 'docs/recoveryforactivedirectory',
-    category: 'Identity Threat Detection & Response (ITDR)',
-    icon: '🔄',
+    categories: ['Identity Threat Detection & Response (ITDR)'],
+    icon: '',
     versions: [
       {
         version: '2.6',
@@ -475,8 +475,8 @@ export const PRODUCTS = [
     name: 'Threat Manager',
     description: 'Advanced threat detection and response',
     path: 'docs/threatmanager',
-    category: 'Identity Threat Detection & Response (ITDR)',
-    icon: '🚨',
+    categories: ['Identity Threat Detection & Response (ITDR)'],
+    icon: '',
     versions: [
       {
         version: '3.0',
@@ -492,8 +492,8 @@ export const PRODUCTS = [
     name: 'Threat Prevention',
     description: 'Proactive threat prevention',
     path: 'docs/threatprevention',
-    category: 'Identity Threat Detection & Response (ITDR)',
-    icon: '🛡️',
+    categories: ['Identity Threat Detection & Response (ITDR)'],
+    icon: '',
     versions: [
       {
         version: '7.5',
@@ -520,43 +520,43 @@ export const PRODUCT_CATEGORIES = [
     id: 'identity-management',
     title: 'Identity Management',
     description: 'Comprehensive identity and user management solutions',
-    icon: '👤',
+    icon: '',
   },
   {
     id: 'pam',
     title: 'Privileged Access Management (PAM)',
     description: 'Control and monitor privileged access to critical systems',
-    icon: '🔐',
+    icon: '',
   },
   {
     id: 'directory-management',
     title: 'Directory Management',
     description: 'Active Directory management and password policy enforcement',
-    icon: '📁',
+    icon: '',
   },
   {
     id: 'endpoint-management',
     title: 'Endpoint Management',
     description: 'Comprehensive endpoint protection and policy management',
-    icon: '💻',
+    icon: '',
   },
   {
     id: 'dspm',
     title: 'Data Security Posture Management (DSPM)',
     description: "Protect and classify your organization's sensitive data",
-    icon: '🛡️',
+    icon: '',
   },
   {
     id: 'itdr',
     title: 'Identity Threat Detection & Response (ITDR)',
     description: 'Advanced threat detection and incident response capabilities',
-    icon: '🚨',
+    icon: '',
   },
   {
     id: 'other',
     title: 'Other',
     description: 'Additional security and management tools',
-    icon: '🔧',
+    icon: '',
   },
 ];
 
@@ -606,7 +606,7 @@ export function generateDocPath(productPath, version) {
  * Get all products for a specific category
  */
 export function getProductsByCategory(category) {
-  return PRODUCTS.filter((product) => product.category === category);
+  return PRODUCTS.filter((product) => product.categories && product.categories.includes(category));
 }
 
 /**
@@ -714,4 +714,44 @@ export function generateProductCategories() {
       products: products,
     };
   });
+}
+
+/**
+ * Generate navbar dropdown items for categories
+ */
+export function generateNavbarDropdowns() {
+  // Map full category names to shortened versions for navbar
+  const categoryShortNames = {
+    'Identity Management': 'Identity',
+    'Privileged Access Management (PAM)': 'PAM',
+    'Directory Management': 'Directory',
+    'Endpoint Management': 'Endpoint',
+    'Data Security Posture Management (DSPM)': 'DSPM',
+    'Identity Threat Detection & Response (ITDR)': 'ITDR',
+  };
+
+  return PRODUCT_CATEGORIES.filter((category) => category.title !== 'Other') // Exclude 'Other' category from navbar
+    .map((category) => {
+      const categoryProducts = getProductsByCategory(category.title);
+
+      const items = categoryProducts.map((product) => {
+        const defaultVersion = getDefaultVersion(product);
+        const link = `/${generateRouteBasePath(product.path, defaultVersion.version)}`;
+
+        return {
+          label: product.name,
+          to: link,
+        };
+      });
+
+      // Sort items alphabetically by label
+      items.sort((a, b) => a.label.localeCompare(b.label));
+
+      return {
+        type: 'dropdown',
+        label: categoryShortNames[category.title] || category.title,
+        position: 'left',
+        items: items,
+      };
+    });
 }

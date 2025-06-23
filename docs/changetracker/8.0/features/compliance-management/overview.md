@@ -1,9 +1,3 @@
----
-title: Compliance Management Overview
-sidebar_label: Overview
-description: At-a-glance compliance trend views for hardened build standards including device compliance reporting and risk assessment dashboardlets.
----
-
 # Overview Tab
 
 The concept of this page is to give an at a glance view of the trend in compliance with your adopted

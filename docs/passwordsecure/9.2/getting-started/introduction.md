@@ -1,9 +1,3 @@
----
-title: Password Secure Introduction
-sidebar_label: Introduction
-description: Welcome to official Password Secure documentation with product news updates and newsletter registration for staying current with releases.
----
-
 # Introduction
 
 ## Welcome to the official Netwrix Password Secure documentation!

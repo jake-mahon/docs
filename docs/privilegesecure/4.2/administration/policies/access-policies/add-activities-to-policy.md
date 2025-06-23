@@ -1,9 +1,3 @@
----
-title: Activities Tab for Credential Based Access Policies
-sidebar_label: add activities to policy
-description: Administrative configuration and management features for Privilege Secure PAM solution including user management, policies, and security settings.
----
-
 # Activities Tab for Credential Based Access Policies
 
 The Activities tab shows the activities associated with the selected access policy. Only the

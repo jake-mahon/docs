@@ -1,9 +1,3 @@
----
-title: Data Collectors Overview
-sidebar_label: Overview
-description: Configuration wizards for data collectors that collect information from various environments with query selection and task assignment options.
----
-
 # Data Collectors
 
 This topic covers the configuration wizards that are unique to each data collector. See the

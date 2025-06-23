@@ -1,9 +1,3 @@
----
-title: Deliver Group Policy Admin Templates Using MDM Service
-sidebar_label: Admin Templates
-description: Video tutorial on delivering real Group Policy ADMX settings to MDM-enrolled Windows 10 machines using Endpoint Policy Manager Admin Templates Manager.
----
-
 # Deliver Group Policy Admin Templates Using Your MDM Service
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/ZXp4gGKYgO0" title="Deliver Group Policy Admin Templates Using Your MDM Service" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="1"></iframe>

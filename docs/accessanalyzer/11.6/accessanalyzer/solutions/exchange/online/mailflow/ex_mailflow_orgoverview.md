@@ -1,9 +1,3 @@
----
-title: exchange online mailflow ex_mailflow_orgoverview
-sidebar_label: ex_mailflow_orgoverview
-description: Solution guide for exchange online mailflow ex_mailflow_orgoverview including implementation steps, configuration, and best practices.
----
-
 # EX_Mailflow_OrgOverview Job
 
 The EX_Mailflow_OrgOverview job provides information around overall traffic in the organization.

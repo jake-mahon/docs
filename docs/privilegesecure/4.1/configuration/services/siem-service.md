@@ -1,9 +1,3 @@
----
-title: SIEM Service
-sidebar_label: siem service
-description: System configuration settings and advanced options for authentication, integrations, services, and security parameters.
----
-
 # SIEM Service
 
 The SIEM Service shows the SIEM-specific details for the selected service.

@@ -1,9 +1,3 @@
----
-title: access
-sidebar_label: access
-description: Documentation for access functionality in Access Analyzer including configuration and usage information.
----
-
 # SharePoint Access & Sensitive Data Auditing Configuration
 
 Permissions are required on the SharePoint Farm, Web Application, and the SharePoint Database in

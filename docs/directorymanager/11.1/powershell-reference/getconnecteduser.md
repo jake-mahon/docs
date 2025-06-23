@@ -1,9 +1,3 @@
----
-title: Get connecteduser Cmdlet
-sidebar_label: getconnecteduser
-description: PowerShell cmdlet reference for getconnecteduser with parameter details, syntax examples, and usage instructions for Directory Manager.
----
-
 # Get-ConnectedUser
 
 The Get-ConnectedUser commandlet retrieves the general information about the user connected to the

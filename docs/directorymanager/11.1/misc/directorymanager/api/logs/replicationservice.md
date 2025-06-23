@@ -1,9 +1,3 @@
----
-title: logs replicationservice API
-sidebar_label: replicationservice
-description: API reference for replicationservice operations in Directory Manager with request parameters, response examples, and implementation details.
----
-
 # Replication Service Logs
 
 Use this API to get Replication Service logs. See the

@@ -1,9 +1,3 @@
----
-title: box activity suspiciousactivity box weekendactivity
-sidebar_label: box weekendactivity
-description: Solution guide for box activity suspiciousactivity box weekendactivity including implementation steps, configuration, and best practices.
----
-
 # Box_WeekendActivity Job
 
 The Box_WeekendActivity Job highlights unusual download activity for a user on a specific day by

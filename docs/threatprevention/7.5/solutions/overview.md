@@ -1,9 +1,3 @@
----
-title: Threat Prevention Solutions
-sidebar_label: Solutions
-description: Pre-defined security solutions for Active Directory, Exchange, file systems, and LDAP with monitoring and lockdown capabilities in version 7.5.
----
-
 # Solutions
 
 Threat Prevention offers the following pre-defined solutions for protecting your IT environment. The

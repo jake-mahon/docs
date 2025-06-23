@@ -1,9 +1,3 @@
----
-title: Event Log Manager and Monitoring
-sidebar_label: Event Log Manager
-description: Consolidate and archive event log data with Netwrix Auditor Event Log Manager standalone tool for critical event alerting and monitoring.
----
-
 # Event Log
 
 You can fine-tune Netwrix Auditor by specifying data that you want to exclude from the Event Log

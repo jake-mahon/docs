@@ -1,9 +1,3 @@
----
-title: Rotation Methods
-sidebar_label: rotation methods
-description: Administrative configuration and management features for Privilege Secure PAM solution including user management, policies, and security settings.
----
-
 # Rotation Methods
 
 The following table summarizes the methods of credential rotation for each type of account.

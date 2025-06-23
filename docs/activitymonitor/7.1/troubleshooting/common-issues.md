@@ -1,9 +1,3 @@
----
-title: Activity Monitor Antivirus Exclusions
-sidebar_label: Antivirus Exclusions
-description: Configure antivirus exclusions for Activity Monitor to prevent performance degradation including directories, processes, and file exclusions.
----
-
 # Antivirus Exclusions
 
 Windows activity monitoring and performance of the Activity Agent may be negatively affected by

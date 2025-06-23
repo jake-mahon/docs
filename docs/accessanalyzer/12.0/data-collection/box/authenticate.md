@@ -1,9 +1,3 @@
----
-title: authenticate
-sidebar_label: authenticate
-description: Documentation for authenticate functionality in Access Analyzer including configuration and usage information.
----
-
 # Box: Authenticate
 
 The Authenticate page is where connection to the Box environment is configured. It is a wizard page

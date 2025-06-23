@@ -1,9 +1,3 @@
----
-title: NIS Standard Tables Configuration
-sidebar_label: Standard Tables
-description: Standard tables configuration for NIS data collector including passwd, group, hosts, and network service tables.
----
-
 # Standard Reference Tables & Views for the NIS Data Collector
 
 The NIS Data Collector gathers essential user and group inventory information into standard

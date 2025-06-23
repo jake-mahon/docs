@@ -1,9 +1,3 @@
----
-title: active directory activity privileged accounts ad admin accounts
-sidebar_label: ad admin accounts
-description: Solution guide for active directory activity privileged accounts ad admin accounts including implementation steps, configuration, and best practices.
----
-
 # AD_AdminAccounts Job
 
 The AD_AdminAccounts Job shows all actions taken by domain administrators within the environment.

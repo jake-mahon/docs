@@ -1,9 +1,3 @@
----
-title: active directory domains ad dc summary
-sidebar_label: ad dc summary
-description: Solution guide for active directory domains ad dc summary including implementation steps, configuration, and best practices.
----
-
 # AD_DCSummary Job
 
 The AD_DCSummary Job provides operational reporting related to the details collected for each domain

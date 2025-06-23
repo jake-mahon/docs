@@ -1,9 +1,3 @@
----
-title: exchange hubmetrics ex usermetrics
-sidebar_label: ex usermetrics
-description: Solution guide for exchange hubmetrics ex usermetrics including implementation steps, configuration, and best practices.
----
-
 # EX_UserMetrics Job
 
 The EX_UserMetrics Job provides information around each users mail-flow in the organization.

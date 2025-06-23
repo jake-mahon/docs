@@ -1,9 +1,3 @@
----
-title: reporting Administration
-sidebar_label: reporting
-description: Administration guide for reporting including configuration, management, and best practices for Access Analyzer.
----
-
 # Reporting
 
 The Reporting node is for configuring the global settings for publishing Enterprise Auditor reports.

@@ -1,9 +1,3 @@
----
-title: Product Tour
-sidebar_label: Product Tour
-description: Initial setup and configuration steps to enable activity-based sessions and privileged access management functionality.
----
-
 # Product Tour
 
 New users now experience a product tour on first login. Standard users and users with the Privilege

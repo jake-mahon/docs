@@ -1,9 +1,3 @@
----
-title: aws sensitivedata overview
-sidebar_label: overview
-description: Solution guide for aws sensitivedata overview including implementation steps, configuration, and best practices.
----
-
 # 8.S3 Sensitive Data Job Group
 
 The 8.S3 Sensitive Data job group provides details on AWS S3 buckets and objects containing

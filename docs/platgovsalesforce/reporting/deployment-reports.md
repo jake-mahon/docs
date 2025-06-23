@@ -1,9 +1,3 @@
----
-title: Deployment Reports and Tracking
-sidebar_label: Deployment Reports
-description: Track successful deployments, deployment failures, pending approvals, and rollback logs with comprehensive deployment reporting and analysis tools.
----
-
 # Success Deployments
 
 This built-in report is available from **Reports** > **Release and Deployment** > **Success

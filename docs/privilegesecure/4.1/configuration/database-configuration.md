@@ -1,9 +1,3 @@
----
-title: Database Page
-sidebar_label: database configuration
-description: System configuration settings and advanced options for authentication, integrations, services, and security parameters.
----
-
 # Database Page
 
 The Database page is accessible from the Navigation pane under Configuration > System Settings. It

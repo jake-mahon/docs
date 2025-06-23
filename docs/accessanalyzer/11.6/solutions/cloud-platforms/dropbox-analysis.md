@@ -1,9 +1,3 @@
----
-title: cloud platforms dropbox analysis
-sidebar_label: dropbox analysis
-description: Solution guide for cloud platforms dropbox analysis including implementation steps, configuration, and best practices.
----
-
 # 1-Dropbox_Permissions Scan Job
 
 The 1-Dropbox_Permissions Scan job collects data from the Dropbox environment on access rights,

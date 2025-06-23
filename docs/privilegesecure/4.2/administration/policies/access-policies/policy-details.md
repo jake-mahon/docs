@@ -1,9 +1,3 @@
----
-title: Access Policy Page
-sidebar_label: policy details
-description: Administrative configuration and management features for Privilege Secure PAM solution including user management, policies, and security settings.
----
-
 # Access Policy Page
 
 The Access Policies page is accessible from the Navigation pane underPolicyPolicies. It shows the

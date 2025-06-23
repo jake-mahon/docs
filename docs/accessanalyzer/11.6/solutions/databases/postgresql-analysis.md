@@ -1,9 +1,3 @@
----
-title: databases postgresql analysis
-sidebar_label: postgresql analysis
-description: Solution guide for databases postgresql analysis including implementation steps, configuration, and best practices.
----
-
 # 0.Collection Job Group
 
 The PostgreSQL Solution Collection Job Group is designed to collect high level summary information

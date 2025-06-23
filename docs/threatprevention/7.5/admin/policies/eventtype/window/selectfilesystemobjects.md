@@ -1,9 +1,3 @@
----
-title: Select File System Objects Window
-sidebar_label: Select File System Objects
-description: The Select File System Objects window provides a list of available file system paths. Paths to selected objects are added to the filter from where you clicke...
----
-
 # Select File System Objects Window
 
 The Select File System Objects window provides a list of available file system paths. Paths to

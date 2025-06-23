@@ -1,9 +1,3 @@
----
-title: refresh
-sidebar_label: refresh
-description: Documentation for refresh functionality in Access Analyzer including configuration and usage information.
----
-
 # Refresh Hosts
 
 Use the **Refresh Hosts** option to manually execute the Host Inventory query. It can be selected

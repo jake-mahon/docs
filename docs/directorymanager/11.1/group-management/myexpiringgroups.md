@@ -1,9 +1,3 @@
----
-title: myexpiringgroups
-sidebar_label: myexpiringgroups
-description: Directory Manager 11.1 documentation for myexpiringgroups with configuration details, usage instructions, and implementation guidance.
----
-
 # My Expiring Groups
 
 To view a list of your expiring groups, click **Groups** on the left navigation pane and select **My

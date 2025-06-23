@@ -1,9 +1,3 @@
----
-title: update service settings
-sidebar_label: update service settings
-description: Documentation for update service settings functionality in Access Analyzer including configuration and usage information.
----
-
 # FSAA: FSAA Update Service Setting
 
 The FSAA Update Service Setting page is where the File System Proxy Service can be automatically

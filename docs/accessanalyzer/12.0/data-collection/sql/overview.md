@@ -1,9 +1,3 @@
----
-title: overview
-sidebar_label: overview
-description: Documentation for overview functionality in Access Analyzer including configuration and usage information.
----
-
 # SQL Data Collector
 
 The SQL Data Collector provides information on database configuration, permissions, data extraction,

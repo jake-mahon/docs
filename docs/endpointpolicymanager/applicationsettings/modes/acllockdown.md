@@ -1,9 +1,3 @@
----
-title: ACL Lockdown Mode Security
-sidebar_label: ACL Lockdown
-description: Prevent application setting changes with ACL Lockdown mode by taking registry and file ownership to enforce security and prevent user workarounds.
----
-
 # ACL Lockdown™ Mode
 
 **NOTE:** For a demonstration of the ACL Lockdown™ Mode feature, please see this video:

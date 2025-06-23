@@ -1,9 +1,3 @@
----
-title: Installation Types and System Requirements
-sidebar_label: Installation Types
-description: System requirements and compatibility information for installing Password Policy Enforcer 10.2 on Windows servers and workstations.
----
-
 # Installation
 
 Netwrix Password Policy Enforcer 10.2 is compatible with Windows Servers 2016, 2019, and 2022. It

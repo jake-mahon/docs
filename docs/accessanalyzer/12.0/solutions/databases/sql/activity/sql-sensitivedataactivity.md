@@ -1,9 +1,3 @@
----
-title: databases sql activity sql sensitivedataactivity
-sidebar_label: sql sensitivedataactivity
-description: Solution guide for databases sql activity sql sensitivedataactivity including implementation steps, configuration, and best practices.
----
-
 # SQL_SensitiveDataActivity Job
 
 The SQL_SensitiveDataActivity Job provides detailed information on DML (UPDATE, INSERT, DELETE,

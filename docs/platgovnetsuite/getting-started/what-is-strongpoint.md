@@ -1,9 +1,3 @@
----
-title: What is Documented and Spider
-sidebar_label: Documentation
-description: Understanding what NetSuite customizations are documented by Platform Governance including captured records, partial documentation, and spider functionality.
----
-
 # What is Documented?
 
 There are four outcomes for customizations Platform Governance for NetSuite finds in the system:

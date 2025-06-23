@@ -1,9 +1,3 @@
----
-title: Services Data Collector
-sidebar_label: Services
-description: Services Data Collector for enumerating Windows services and their configuration properties on target systems.
----
-
 # Services Data Collector
 
 The Services Data Collector enumerates status and settings from remote services. The Services Data

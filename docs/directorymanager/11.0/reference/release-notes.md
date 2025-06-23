@@ -1,9 +1,3 @@
----
-title: release notes
-sidebar_label: release-notes
-description: Directory Manager 11.0 documentation for release notes with configuration details, usage instructions, and implementation guidance.
----
-
 # What's New
 
 ## New Netwrix Community!

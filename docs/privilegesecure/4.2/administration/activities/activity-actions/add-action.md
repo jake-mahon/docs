@@ -1,9 +1,3 @@
----
-title: Add Action Window
-sidebar_label: add action
-description: Administrative configuration and management features for Privilege Secure PAM solution including user management, policies, and security settings.
----
-
 # Add Action Window
 
 The Add Action window varies slightly based on the Action Type selected and the associated session

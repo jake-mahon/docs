@@ -1,9 +1,3 @@
----
-title: leavegrouponbehalf
-sidebar_label: leavegrouponbehalf
-description: Directory Manager 11.1 documentation for leavegrouponbehalf with configuration details, usage instructions, and implementation guidance.
----
-
 # Leave a Group on behalf of another user
 
 Using this API, you can leave a group on behalf of another user. You have to specify the identity

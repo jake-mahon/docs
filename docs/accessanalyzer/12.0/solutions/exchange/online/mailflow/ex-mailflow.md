@@ -1,9 +1,3 @@
----
-title: exchange online mailflow ex mailflow
-sidebar_label: ex mailflow
-description: Solution guide for exchange online mailflow ex mailflow including implementation steps, configuration, and best practices.
----
-
 # 0. Collection > EX_Mailflow Job
 
 The EX_Mailflow job collects message trace data from Office 365.

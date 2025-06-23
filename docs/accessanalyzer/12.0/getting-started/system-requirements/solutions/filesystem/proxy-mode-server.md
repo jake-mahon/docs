@@ -1,9 +1,3 @@
----
-title: Getting Started: proxy mode server
-sidebar_label: proxy mode server
-description: Getting started guide for proxy mode server in Access Analyzer including setup instructions and initial configuration steps.
----
-
 # Proxy Mode Server Requirements
 
 The Access Analyzer File System Proxy requirements apply for servers where either the service is

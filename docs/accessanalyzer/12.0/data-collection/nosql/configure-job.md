@@ -1,9 +1,3 @@
----
-title: configure job
-sidebar_label: configure job
-description: Documentation for configure job functionality in Access Analyzer including configuration and usage information.
----
-
 # NoSQL Custom Connection Profile & Host List
 
 The NoSQL Data Collector requires a custom connection profile and host list.

@@ -1,9 +1,3 @@
----
-title: folder conditions
-sidebar_label: folder conditions
-description: Documentation for folder conditions functionality in Access Analyzer including configuration and usage information.
----
-
 # EWSMailbox FW: Folder Conditions
 
 Use the Folder Conditions page to apply folder-related filter criteria to the search.

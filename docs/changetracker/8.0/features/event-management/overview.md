@@ -1,9 +1,3 @@
----
-title: Event Management Overview
-sidebar_label: Overview
-description: Investigate and review device events using powerful filter controls, acknowledgment features, and planned change rule creation capabilities.
----
-
 # Events Tab
 
 Investigate and review any events for devices using powerful filter controls. Events can be

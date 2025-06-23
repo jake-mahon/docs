@@ -1,9 +1,3 @@
----
-title: entraid groups aad groupdirsync
-sidebar_label: aad groupdirsync
-description: Solution guide for entraid groups aad groupdirsync including implementation steps, configuration, and best practices.
----
-
 # AAD_GroupDirSync Job
 
 The AAD_GroupDirSync Job summarizes on-premises Active Directory syncing in the audited Microsoft

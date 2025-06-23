@@ -1,9 +1,3 @@
----
-title: unix usersgroups ux_passwordsettings
-sidebar_label: ux_passwordsettings
-description: Solution guide for unix usersgroups ux_passwordsettings including implementation steps, configuration, and best practices.
----
-
 # UX_PasswordSettings Job
 
 The UX_PasswordSettings job provides visibility into user passwords and system password

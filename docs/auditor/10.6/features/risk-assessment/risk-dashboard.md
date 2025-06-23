@@ -1,9 +1,3 @@
----
-title: IT Risk Assessment Dashboard
-sidebar_label: Risk Dashboard
-description: Monitor and analyze IT security risks with Netwrix Auditor risk assessment dashboard to identify vulnerabilities and compliance gaps.
----
-
 # IT Risk Assessment Dashboard
 
 To access the Risk Assessment dashboard, click the corresponding tile in the main window.

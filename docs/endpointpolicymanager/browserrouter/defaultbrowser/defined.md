@@ -1,9 +1,3 @@
----
-title: Browser Router Default Browser Definition
-sidebar_label: Default Browser
-description: Understand how Browser Router manages default browser settings and integrates with Windows default apps while maintaining routing control.
----
-
 # What is meant by "Default Browser" within Endpoint Policy Manager Browser router?
 
 Pretend for a second you didn't have Netwrix Endpoint Policy Manager (formerly PolicyPak) and

@@ -1,9 +1,3 @@
----
-title: fs migrate schema Administration
-sidebar_label: fs migrate schema
-description: Administration guide for fs migrate schema including configuration, management, and best practices for Access Analyzer.
----
-
 # FS_MigrateSchema Job
 
 The FS_Migrate_Schema Job migrates the schema in order to support the use of 64-bit ResourceID's

@@ -1,9 +1,3 @@
----
-title: smartgroup
-sidebar_label: smartgroup
-description: Directory Manager 11.1 documentation for smartgroup with configuration details, usage instructions, and implementation guidance.
----
-
 # Smart Group page
 
 This page displays the default query for the Smart Group; however, you can modify it. The group’s

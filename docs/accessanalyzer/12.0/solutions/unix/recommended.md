@@ -1,9 +1,3 @@
----
-title: unix recommended
-sidebar_label: recommended
-description: Solution guide for unix recommended including implementation steps, configuration, and best practices.
----
-
 # Recommended Configurations for the Unix Job Group
 
 The Unix job group has been configured by default to run with the default settings. It can be run

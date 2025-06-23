@@ -1,9 +1,3 @@
----
-title: Enterprise Auditor Integration
-sidebar_label: access analyzer
-description: Administrative configuration and management features for Privilege Secure PAM solution including user management, policies, and security settings.
----
-
 # Enterprise Auditor Integration
 
 Netwrix Access Analyzer (formerly Enterprise Auditor) can be configured to send administrator

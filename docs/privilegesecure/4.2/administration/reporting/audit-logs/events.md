@@ -1,9 +1,3 @@
----
-title: Events Page
-sidebar_label: events
-description: Administrative configuration and management features for Privilege Secure PAM solution including user management, policies, and security settings.
----
-
 # Events Page
 
 The Events page shows event logs for the Privilege Secure Console.

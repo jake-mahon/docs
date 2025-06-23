@@ -1,9 +1,3 @@
----
-title: Uninstall Threat Prevention Agent
-sidebar_label: Agent Uninstall
-description: Complete guide to uninstalling Threat Prevention Agents from servers using the Administration Console or manual removal methods for cleanup.
----
-
 # Uninstall Agent
 
 When a newer version of the Agent is available, the Agents need to be uninstalled before the latest

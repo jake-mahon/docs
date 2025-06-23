@@ -1,9 +1,3 @@
----
-title: databases azuresql collection overview
-sidebar_label: overview
-description: Solution guide for databases azuresql collection overview including implementation steps, configuration, and best practices.
----
-
 # 0.Collection > Azure SQL Job Group
 
 The 0.Collection Job Group, located at **Databases** > **0.Collection** > **AzureSQL** collects

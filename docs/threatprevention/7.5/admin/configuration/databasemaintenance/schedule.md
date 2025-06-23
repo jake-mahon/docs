@@ -1,9 +1,3 @@
----
-title: Schedule Database Maintenance
-sidebar_label: Schedule Maintenance
-description: Database maintenance scheduling configuration for automated archiving, cleanup, and optimization tasks.
----
-
 # Schedule Database Maintenance
 
 You must schedule the database maintenance job, which runs the specified operation on each of the

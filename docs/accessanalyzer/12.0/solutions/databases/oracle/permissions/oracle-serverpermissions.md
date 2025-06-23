@@ -1,9 +1,3 @@
----
-title: databases oracle permissions oracle serverpermissions
-sidebar_label: oracle serverpermissions
-description: Solution guide for databases oracle permissions oracle serverpermissions including implementation steps, configuration, and best practices.
----
-
 # Oracle_ServerPermissions Job
 
 The Oracle_ServerPermissions Job analyzes permissions granted at the database level and reports on

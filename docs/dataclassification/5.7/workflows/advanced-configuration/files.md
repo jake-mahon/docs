@@ -1,9 +1,3 @@
----
-title: Advanced Actions for File System
-sidebar_label: Files
-description: In addition to the Email Alert ,Migrate Document and additional classification, the following actions are available for the File system content source type:...
----
-
 # Advanced Actions for File System
 
 In addition to the **Email Alert** ,**Migrate Document** and additional classification, the

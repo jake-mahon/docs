@@ -1,9 +1,3 @@
----
-title: faq Administration
-sidebar_label: faq
-description: Administration guide for faq including configuration, management, and best practices for Access Analyzer.
----
-
 # Role Based Access: FAQ
 
 This topic lists some commonly asked questions about Role Based Access functionality in Access

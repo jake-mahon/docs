@@ -1,9 +1,3 @@
----
-title: Password Reset Evaluation Guide
-sidebar_label: Evaluation Guide
-description: Step-by-step guide to quickly install, configure, and test Password Policy Enforcer and Password Reset for comprehensive evaluation purposes.
----
-
 # Evaluation
 
 Netwrix Password Policy Enforcer is an advanced password filter for Windows. This Evaluator's Guide

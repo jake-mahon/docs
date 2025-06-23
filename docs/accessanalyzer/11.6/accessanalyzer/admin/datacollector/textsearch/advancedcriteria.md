@@ -1,9 +1,3 @@
----
-title: textsearch Data Collector advancedcriteria
-sidebar_label: advancedcriteria
-description: Data collector documentation for textsearch advancedcriteria including configuration options and collection settings.
----
-
 # TextSearch: Advanced Criteria
 
 The Advanced Criteria page is displayed if the **Use advanced criteria (instead of simple

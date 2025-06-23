@@ -1,9 +1,3 @@
----
-title: managing reviews
-sidebar_label: managing-reviews
-description: Auditor 10.7 documentation for managing reviews with configuration details, usage instructions, and implementation guidance.
----
-
 # Entitlement Reviews Interface
 
 The Entitlement Reviews interface opened by the Entitlement Reviews tab is where Review

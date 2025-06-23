@@ -1,9 +1,3 @@
----
-title: Database Configuration Wizard
-sidebar_label: Configuration Wizard
-description: For the database sources, you can enable security-based crawling, that is, finding sensitive data (which logically will either be stored in text or...
----
-
 # Database Configuration Wizard
 
 For the database sources, you can enable security-based crawling, that is, finding sensitive data

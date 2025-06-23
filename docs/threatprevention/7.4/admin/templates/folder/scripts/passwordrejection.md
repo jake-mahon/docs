@@ -1,9 +1,3 @@
----
-title: Password Rejection Custom Script
-sidebar_label: Password Rejection Custom Script
-description: The following C# script sends an email notification to the specified perpetrator when their Active Directory password is rejected by the active
----
-
 # Password Rejection Custom Script
 
 The following C# script sends an email notification to the specified perpetrator when their Active

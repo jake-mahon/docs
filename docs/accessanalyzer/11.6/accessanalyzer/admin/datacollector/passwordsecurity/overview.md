@@ -1,9 +1,3 @@
----
-title: passwordsecurity Data Collector overview
-sidebar_label: overview
-description: Data collector documentation for passwordsecurity overview including configuration options and collection settings.
----
-
 # PasswordSecurity Data Collector
 
 The PasswordSecurity Data Collector compares passwords stored in Active Directory to known, breached

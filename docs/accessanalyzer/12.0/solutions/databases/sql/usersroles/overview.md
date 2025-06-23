@@ -1,9 +1,3 @@
----
-title: databases sql usersroles overview
-sidebar_label: overview
-description: Solution guide for databases sql usersroles overview including implementation steps, configuration, and best practices.
----
-
 # 1.Users and Roles Job Group
 
 The 1.Users and Roles Job Group is designed to provide insight into user security, roles, and object

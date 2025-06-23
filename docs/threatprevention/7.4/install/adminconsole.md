@@ -1,9 +1,3 @@
----
-title: Admin Console Installation
-sidebar_label: Admin Console
-description: Remote Administration Console installation guide for deploying management interfaces on workstations and servers.
----
-
 # Administration Console Remote Install
 
 Threat Prevention v7.4 supports the deployment of remote Administration Console, enabling you to

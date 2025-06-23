@@ -1,9 +1,3 @@
----
-title: Data Collection Account Configuration
-sidebar_label: Data Collection Account
-description: Configure service accounts for Netwrix 1Secure data collection with proper permissions and security settings.
----
-
 # Data Collecting Account
 
 The data collecting account is a service account that Netwrix 1Secure uses to collect audit data

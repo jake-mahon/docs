@@ -1,9 +1,3 @@
----
-title: box activity forensics box externaluseractivity
-sidebar_label: box externaluseractivity
-description: Solution guide for box activity forensics box externaluseractivity including implementation steps, configuration, and best practices.
----
-
 # Box_ExternalUserActivity Job
 
 The Box_ExternalUserActivity Job identifies and analyzes activity events performed by external users

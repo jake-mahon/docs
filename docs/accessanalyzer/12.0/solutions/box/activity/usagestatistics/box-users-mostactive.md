@@ -1,9 +1,3 @@
----
-title: box activity usagestatistics box users mostactive
-sidebar_label: box users mostactive
-description: Solution guide for box activity usagestatistics box users mostactive including implementation steps, configuration, and best practices.
----
-
 # Box_Users_MostActive Job
 
 The Box_Users_MostActive Job analyzes user activity to highlight the most active and potentially

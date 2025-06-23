@@ -1,9 +1,3 @@
----
-title: active directory groups ad largest groups
-sidebar_label: ad largest groups
-description: Solution guide for active directory groups ad largest groups including implementation steps, configuration, and best practices.
----
-
 # AD_LargestGroups Job
 
 The AD_LargestGroups Job identifies groups with large effective member counts. These types of groups

@@ -1,9 +1,3 @@
----
-title: Threat Manager Integrations Interface
-sidebar_label: Integrations Overview
-description: Configure integrations with Netwrix products and third-party systems including Active Directory, Entra ID, SIEM, and authentication providers.
----
-
 # Integrations Interface
 
 The Integrations interface allows you to configure integrations with a variety of Netwrix products

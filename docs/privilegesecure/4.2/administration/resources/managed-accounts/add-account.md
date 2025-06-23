@@ -1,9 +1,3 @@
----
-title: Add a Managed Account Window
-sidebar_label: add account
-description: Administrative configuration and management features for Privilege Secure PAM solution including user management, policies, and security settings.
----
-
 # Add a Managed Account Window
 
 Follow the steps below to add a managed account to the secret vault.

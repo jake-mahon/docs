@@ -1,9 +1,3 @@
----
-title: sharepoint recommended reports
-sidebar_label: recommended reports
-description: Solution guide for sharepoint recommended reports including implementation steps, configuration, and best practices.
----
-
 # Recommended Configuration for the SharePoint Solution
 
 The SharePoint Solution has been configured to inherit down from the **SharePoint** > **Settings**

@@ -1,9 +1,3 @@
----
-title: DNS Results Configuration
-sidebar_label: Results
-description: Configuration page for selecting DNS data collector results including DNS records, configuration data, and server properties.
----
-
 # DNS: Results
 
 The Results page is where DNS properties to be gathered are selected. It is a wizard page for all

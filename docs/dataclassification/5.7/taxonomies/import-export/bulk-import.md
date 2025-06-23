@@ -1,9 +1,3 @@
----
-title: Bulk Import
-sidebar_label: Bulk Import
-description: Clues can also be imported in bulk from an Excel Spreadsheet (or input in bulk manually). The spreadsheet should contain 3 columns: Type (Standard,...
----
-
 # Bulk Import
 
 Clues can also be imported in bulk from an Excel Spreadsheet (or input in bulk manually). The

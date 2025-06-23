@@ -1,9 +1,3 @@
----
-title: filters API Reference
-sidebar_label: filters
-description: Auditor 10.6 API reference for filters functionality with endpoint details, authentication, and implementation examples.
----
-
 # Operators
 
 Review the table below to learn more about operators.

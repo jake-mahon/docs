@@ -1,9 +1,3 @@
----
-title: Endpoint Protector Product Overview
-sidebar_label: Product Overview
-description: Comprehensive introduction to Netwrix Endpoint Protector DLP solution, features, modules, and data protection capabilities for modern enterprises.
----
-
 # Netwrix Endpoint Protector v5.9.4
 
 Netwrix Endpoint Protector is a comprehensive Data Loss Prevention (DLP) solution designed to

@@ -1,9 +1,3 @@
----
-title: Portal synchronize job sourceanddestination
-sidebar_label: sourceanddestination
-description: Directory Manager portal documentation for synchronize job functionality including user interface, navigation, and operational procedures.
----
-
 # Select Your Source and Destination
 
 You must create required identity providers and data sources before creating a job. They are created

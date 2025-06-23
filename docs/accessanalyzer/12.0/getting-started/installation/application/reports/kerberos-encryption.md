@@ -1,9 +1,3 @@
----
-title: Getting Started: kerberos encryption
-sidebar_label: kerberos encryption
-description: Getting started guide for kerberos encryption in Access Analyzer including setup instructions and initial configuration steps.
----
-
 # Manage Kerberos Encryption Warning for the Web Console
 
 If a computer's Local Security Policy, or applicable Group Policy, enforces certain encryption

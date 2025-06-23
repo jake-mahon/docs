@@ -1,9 +1,3 @@
----
-title: MonitoredContent
-sidebar_label: Monitored Content
-description: You can decrease the Classifier load, targeting it at _monitored content_ only. This means that you can schedule content to be automatically re-classified on...
----
-
 # MonitoredContent
 
 You can decrease the Classifier load, targeting it at _monitored content_ only. This means that you

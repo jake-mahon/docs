@@ -1,9 +1,3 @@
----
-title: MS SQL Server
-sidebar_label: Mssql
-description: Once you choose to add SQL server source, you opt to add MS SQL server as a source. For more information, go to the main articleSQL Server . To connect to a ...
----
-
 # MS SQL Server
 
 Once you choose to add SQL server source, you opt to add MS SQL server as a source. For more

@@ -1,9 +1,3 @@
----
-title: overview
-sidebar_label: overview
-description: Documentation for overview functionality in Access Analyzer including configuration and usage information.
----
-
 # ExchangePS Data Collector
 
 The ExchangePS Data Collector utilizes the Exchange CMDlets to return information about the Exchange

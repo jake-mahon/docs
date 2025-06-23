@@ -1,9 +1,3 @@
----
-title: groupdeletion
-sidebar_label: groupdeletion
-description: Directory Manager 11.1 documentation for groupdeletion with configuration details, usage instructions, and implementation guidance.
----
-
 # Group Deletion
 
 In Directory Manager, groups can be deleted in any of the following ways:

@@ -1,9 +1,3 @@
----
-title: category
-sidebar_label: category
-description: Documentation for category functionality in Access Analyzer including configuration and usage information.
----
-
 # ADInventory: Category
 
 Use the category page to identify which Active Directory task to perform.

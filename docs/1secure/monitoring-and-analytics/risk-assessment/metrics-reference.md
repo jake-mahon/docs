@@ -1,9 +1,3 @@
----
-title: Risk Metrics Reference Guide
-sidebar_label: Metrics Reference
-description: Complete reference list of all risk metrics included in risk profiles with detailed descriptions and threshold configurations.
----
-
 # Risk Metrics List
 
 This topic provides a list of all risk metrics included in a risk profile. This list may differ for

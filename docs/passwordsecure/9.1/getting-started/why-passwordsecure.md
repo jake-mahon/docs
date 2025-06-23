@@ -1,9 +1,3 @@
----
-title: Why Choose Password Secure
-sidebar_label: Why Choose
-description: Discover the benefits of Password Secure for enterprise password management, scalability, and professional security data management across organizations.
----
-
 # Why Netwrix Password Secure?
 
 ## Users depend on passwords

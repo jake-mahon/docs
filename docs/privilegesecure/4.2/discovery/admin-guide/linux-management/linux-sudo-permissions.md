@@ -1,9 +1,3 @@
----
-title: Linux: Replicate Sudo Permissions to Many Systems Using QuickStart
-sidebar_label: linux sudo permissions
-description: Documentation for Privilege Secure privileged access management solution covering features, configuration, and usage procedures.
----
-
 # Linux: Replicate Sudo Permissions to Many Systems Using QuickStart
 
 Linux: Replicate Sudo Permissions to Many Systems Using QuickStart

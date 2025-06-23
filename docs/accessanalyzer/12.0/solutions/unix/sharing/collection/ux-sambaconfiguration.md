@@ -1,9 +1,3 @@
----
-title: unix sharing collection ux sambaconfiguration
-sidebar_label: ux sambaconfiguration
-description: Solution guide for unix sharing collection ux sambaconfiguration including implementation steps, configuration, and best practices.
----
-
 # UX_SambaConfiguration Job
 
 The **0.Collection** > **UX_SambaConfiguration** job collects Samba configuration information which

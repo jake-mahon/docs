@@ -1,9 +1,3 @@
----
-title: AD Failover
-sidebar_label: ad failover
-description: Documentation for Privilege Secure privileged access management solution covering features, configuration, and usage procedures.
----
-
 # AD Failover
 
 AD Failover

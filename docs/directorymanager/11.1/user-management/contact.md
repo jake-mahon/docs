@@ -1,9 +1,3 @@
----
-title: contact
-sidebar_label: contact
-description: Directory Manager 11.1 documentation for contact with configuration details, usage instructions, and implementation guidance.
----
-
 # Create an AD Contact
 
 The Directory Manager portal enables you to create the contact object in the directory.

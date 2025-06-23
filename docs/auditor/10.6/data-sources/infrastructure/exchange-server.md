@@ -1,9 +1,3 @@
----
-title: exchange server
-sidebar_label: exchange-server
-description: Auditor 10.6 documentation for exchange server with configuration details, usage instructions, and implementation guidance.
----
-
 # Exchange Administrator Audit Logging Settings
 
 To be able to audit and report who made changes to the Exchange servers in your on-premises

@@ -1,9 +1,3 @@
----
-title: Netwrix Access Analyzer 12.0
-sidebar_label: Overview
-description: Complete visibility and control over access rights and permissions across your IT infrastructure with enhanced cloud support and machine learning features.
----
-
 # Netwrix Access Analyzer 12.0
 
 > **Complete visibility and control over who has access to what**

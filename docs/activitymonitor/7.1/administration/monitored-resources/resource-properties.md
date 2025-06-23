@@ -1,9 +1,3 @@
----
-title: Host Properties Configuration Settings
-sidebar_label: Resource Properties
-description: Modify host configuration settings through the Properties window to customize monitoring parameters for different platform types.
----
-
 # Host Properties Window
 
 Once a host has been added to the Monitored Hosts list, the configuration settings can be modified

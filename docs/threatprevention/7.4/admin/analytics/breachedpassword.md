@@ -1,9 +1,3 @@
----
-title: Breached Password Analytics
-sidebar_label: Breached Password
-description: Detection of successful authentication attempts following multiple failed attempts indicating potential password compromise or brute force success.
----
-
 # Breached Password Analytic Type
 
 The **Breached Password** analytic type identifies multiple failed authentications followed by a

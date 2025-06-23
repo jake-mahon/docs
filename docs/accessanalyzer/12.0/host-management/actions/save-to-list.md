@@ -1,9 +1,3 @@
----
-title: save to list
-sidebar_label: save to list
-description: Documentation for save to list functionality in Access Analyzer including configuration and usage information.
----
-
 # Save Selected To List
 
 Use the **Save Selected To List** option to create a static host list. This option is available from

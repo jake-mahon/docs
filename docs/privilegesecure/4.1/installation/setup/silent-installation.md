@@ -1,9 +1,3 @@
----
-title: Application Silent Installer Option
-sidebar_label: silent installation
-description: Installation procedures, system requirements, and deployment configuration for Privilege Secure components and services.
----
-
 # Application Silent Installer Option
 
 Follow the steps to install the Privilege Secure application from the command prompt.

@@ -1,9 +1,3 @@
----
-title: Creating WMI Filters
-sidebar_label: WMI Filters
-description: Step-by-step guide to create Windows Management Instrumentation (WMI) filters for Active Directory deployment scenarios.
----
-
 # Creating WMI Filters
 
 To create the Windows Management Instrumentation (WMI) filters, follow these steps:

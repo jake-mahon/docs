@@ -1,9 +1,3 @@
----
-title: HTML Template Customization
-sidebar_label: HTML Templates
-description: Guide to customizing Password Reset user interface through HTML5 templates and CSS3 formatting for modern web browsers with language support.
----
-
 Password Reset's user interface is built with customizable templates. You can easily modify the user
 interface by editing the templates. The templates are written in HTML5 and formatted with CSS3, so
 they work with all modern web browsers. Older browsers such as Internet Explorer 8 may work, but the

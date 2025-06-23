@@ -1,9 +1,3 @@
----
-title: file Data Collector overview
-sidebar_label: overview
-description: Data collector documentation for file overview including configuration options and collection settings.
----
-
 # File Data Collector
 
 The File Data Collector provides file and folder enumeration, properties, and permissions. It is

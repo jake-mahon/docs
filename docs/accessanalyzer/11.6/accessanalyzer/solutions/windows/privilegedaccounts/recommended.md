@@ -1,9 +1,3 @@
----
-title: windows privilegedaccounts recommended
-sidebar_label: recommended
-description: Solution guide for windows privilegedaccounts recommended including implementation steps, configuration, and best practices.
----
-
 # Recommended Configurations for the Privileged Accounts Job Group
 
 Dependencies

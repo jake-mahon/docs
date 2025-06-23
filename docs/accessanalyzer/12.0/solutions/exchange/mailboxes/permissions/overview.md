@@ -1,9 +1,3 @@
----
-title: exchange mailboxes permissions overview
-sidebar_label: overview
-description: Solution guide for exchange mailboxes permissions overview including implementation steps, configuration, and best practices.
----
-
 # Permissions Job Group
 
 The Permissions job group is comprised of data collection, analysis and reports that focus on access

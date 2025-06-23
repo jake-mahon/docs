@@ -1,9 +1,3 @@
----
-title: Directory Manager 11.1 Documentation
-sidebar_label: Introduction
-description: Complete documentation guide for Netwrix Directory Manager v11.1 with directory object management, group administration, and identity store integration.
----
-
 # Netwrix Directory Manager v11.1 Documentation
 
 Managing directory objects (for example, Active Directory users and groups) can be a challenge:

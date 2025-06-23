@@ -1,9 +1,3 @@
----
-title: PingCastle Enterprise Upgrade Guide
-sidebar_label: Enterprise Upgrade
-description: Upgrade procedures for PingCastle Enterprise including version verification, database backup requirements, and migration steps for newer versions.
----
-
 # Before proceeding to the upgrade
 
 Version check

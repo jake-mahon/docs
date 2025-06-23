@@ -1,9 +1,3 @@
----
-title: sharepoint server
-sidebar_label: sharepoint-server
-description: Auditor 10.7 documentation for sharepoint server with configuration details, usage instructions, and implementation guidance.
----
-
 # SharePoint
 
 Netwrix Auditor relies on native logs for collecting audit data. Therefore, successful change and

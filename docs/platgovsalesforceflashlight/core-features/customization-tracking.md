@@ -1,9 +1,3 @@
----
-title: Customizations Overview and Reports
-sidebar_label: Customizations
-description: Understand customization records automatically built by Strongpoint Scanners, including detailed documentation, usage tracking, and dependency joins.
----
-
 # Customizations Overview and Reports
 
 Customization records are documentation about each customization. They are automatically built and

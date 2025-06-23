@@ -1,9 +1,3 @@
----
-title: select dlp criteria
-sidebar_label: select dlp criteria
-description: Documentation for select dlp criteria functionality in Access Analyzer including configuration and usage information.
----
-
 # DropboxAccess: Select DLP Criteria
 
 Use the Select DLP criteria for this scan page to configure criteria to use for discovering

@@ -1,9 +1,3 @@
----
-title: File Category Configuration
-sidebar_label: Category
-description: File Data Collector category page with query options for file system enumeration and detailed file property analysis.
----
-
 # File: Category
 
 Use the Category page to identify the type of information to retrieve in this query.

@@ -1,9 +1,3 @@
----
-title: entraid groups aad probableowners
-sidebar_label: aad probableowners
-description: Solution guide for entraid groups aad probableowners including implementation steps, configuration, and best practices.
----
-
 # AAD_ProbableOwners Job
 
 The AAD_ProbableOwners Job determines potential owners for Microsoft Entra ID Groups which can be

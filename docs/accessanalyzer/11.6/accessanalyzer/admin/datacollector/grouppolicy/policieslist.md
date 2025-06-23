@@ -1,9 +1,3 @@
----
-title: Group Policy Policies List
-sidebar_label: Policies List
-description: Policies list configuration for Group Policy data collector showing available Group Policy Objects and their status.
----
-
 # GroupPolicy: Policies List
 
 The Policies List page is where the policies from the desired GPOs to be queried are selected. It is

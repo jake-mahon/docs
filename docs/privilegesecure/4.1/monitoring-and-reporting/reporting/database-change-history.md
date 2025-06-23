@@ -1,9 +1,3 @@
----
-title: DB Change History Page
-sidebar_label: database change history
-description: Documentation for Privilege Secure privileged access management solution covering features, configuration, and usage procedures.
----
-
 # DB Change History Page
 
 The DB Change History page shows the database entries (Additions, Updates, Deletes). From here,

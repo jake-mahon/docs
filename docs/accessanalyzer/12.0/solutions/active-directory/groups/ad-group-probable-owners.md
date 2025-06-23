@@ -1,9 +1,3 @@
----
-title: active directory groups ad group probable owners
-sidebar_label: ad group probable owners
-description: Solution guide for active directory groups ad group probable owners including implementation steps, configuration, and best practices.
----
-
 # AD_GroupProbableOwners Job
 
 The AD_GroupProbableOwners Job determines potential owners for Active Directory Groups which can be

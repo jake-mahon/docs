@@ -1,9 +1,3 @@
----
-title: Installation: upgrade
-sidebar_label: upgrade
-description: Installation guide for upgrade including system requirements, setup procedures, and configuration options.
----
-
 # Enterprise Auditor Console Upgrade
 
 Enterprise Auditor 11.6 uses the Upgrade Wizard. For upgrades from versions of Enterprise Auditor

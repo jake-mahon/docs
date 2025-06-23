@@ -1,9 +1,3 @@
----
-title: Windows Event Viewer Integration
-sidebar_label: Event Viewer Integration
-description: View Password Policy Enforcer event logs in Windows Event Viewer for monitoring and troubleshooting password policy activities.
----
-
 # View Event Logs in Windows Event Viewer
 
 Follow the steps below to view events logs in Windows Event Viewer.

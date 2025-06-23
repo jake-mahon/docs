@@ -1,9 +1,3 @@
----
-title: GPOTouch Utility Automatic Updates
-sidebar_label: GPOTouch Utility
-description: Automatically update Local Store or Central Storage with upgraded DLLs using the GPOTouch utility to refresh Group Policy Objects.
----
-
 # Using GPOTouch Utility to Automatically Update Storage
 
 You can manually update the Local Store or Central Storage with updated Endpoint Policy Manager DLLs

@@ -1,9 +1,3 @@
----
-title: Export Policies and Templates Window
-sidebar_label: Export Policies Templates Window
-description: You may need to export collections, policies, and templates from the Administration Console and them import them back for certain reasons, such as during a r...
----
-
 # Export Policies and Templates Window
 
 You may need to export collections, policies, and templates from the Administration Console and them

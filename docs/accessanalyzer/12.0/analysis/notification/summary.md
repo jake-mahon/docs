@@ -1,9 +1,3 @@
----
-title: summary
-sidebar_label: summary
-description: Documentation for summary functionality in Access Analyzer including configuration and usage information.
----
-
 # Notification: Summary
 
 The Summary Page displays all the information input in each of the configured options from the

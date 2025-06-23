@@ -1,9 +1,3 @@
----
-title: Entitlements
-sidebar_label: entitlements
-description: Reviewer role documentation including audit capabilities, access certification, session monitoring, and approval workflows.
----
-
 # Entitlements
 
 The Entitlements tab shows the activities associated with the users in the selected access

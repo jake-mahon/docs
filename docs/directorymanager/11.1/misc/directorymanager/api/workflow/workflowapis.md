@@ -1,9 +1,3 @@
----
-title: workflow workflowapis API
-sidebar_label: workflowapis
-description: API reference for workflowapis operations in Directory Manager with request parameters, response examples, and implementation details.
----
-
 # Workflow APIs
 
 Directory Manager provides the following APIs to perform functions related to Directory Manager

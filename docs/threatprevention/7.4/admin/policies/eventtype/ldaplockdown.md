@@ -1,9 +1,3 @@
----
-title: LDAP Lockdown Event Type
-sidebar_label: LDAP Lockdown Event Type
-description: The LDAP Lockdown event type can prevent execution of LDAP queries that meet policy filters/rules. Be careful as overly broad rules can ‘break’ the environme...
----
-
 # LDAP Lockdown Event Type
 
 The LDAP Lockdown event type can prevent execution of LDAP queries that meet policy filters/rules.

@@ -1,9 +1,3 @@
----
-title: SASL Kerberos
-sidebar_label: sasl kerberos
-description: Documentation for Privilege Secure privileged access management solution covering features, configuration, and usage procedures.
----
-
 # SASL Kerberos
 
 SASL Kerberos

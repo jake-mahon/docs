@@ -1,9 +1,3 @@
----
-title: Create Custom Managed Certificates for Each Agent
-sidebar_label: Create Custom Managed Certificates
-description: If "custom-managed" is selected for the CA certificate configuration during Manual Agent Deployment, use the SIAgentCert.exe command line utility to facilita...
----
-
 # Create Custom Managed Certificates for Each Agent
 
 If "custom-managed" is selected for the CA certificate configuration during

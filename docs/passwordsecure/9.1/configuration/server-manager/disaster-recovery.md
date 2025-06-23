@@ -1,9 +1,3 @@
----
-title: Disaster Recovery Planning Scenarios
-sidebar_label: Disaster Recovery
-description: Quick solutions and prevention strategies for Password Secure system failures to restore password access during central IT infrastructure disasters.
----
-
 # Disaster recovery scenarios
 
 #### Finding a quick solution in the event of a disaster

@@ -1,9 +1,3 @@
----
-title: mailbox logons
-sidebar_label: mailbox logons
-description: Documentation for mailbox logons functionality in Access Analyzer including configuration and usage information.
----
-
 # ExchangePS: Mailbox Logons
 
 The Mailbox Logons page is used to define the type of mailbox logon events to return, as well as the

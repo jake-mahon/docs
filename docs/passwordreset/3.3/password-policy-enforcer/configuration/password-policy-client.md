@@ -1,9 +1,3 @@
----
-title: Password Policy Client Configuration
-sidebar_label: Password Policy Client
-description: Configuration guide for Password Policy Client to help users choose compliant passwords with detailed rejection messages and customizable policy display.
----
-
 # Password Policy Client
 
 The Password Policy Client helps users to choose a compliant password. Detailed information is

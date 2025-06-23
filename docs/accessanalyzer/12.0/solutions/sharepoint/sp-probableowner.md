@@ -1,9 +1,3 @@
----
-title: sharepoint sp probableowner
-sidebar_label: sp probableowner
-description: Solution guide for sharepoint sp probableowner including implementation steps, configuration, and best practices.
----
-
 # 5.Probable Owner > SP_ProbableOwner Job
 
 The SP_ProbableOwner Job aids in the identification of probable owners for Site Collections and

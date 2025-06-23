@@ -1,9 +1,3 @@
----
-title: Password Policy Configuration
-sidebar_label: Password Policies
-description: Comprehensive guide to configuring Password Policy Enforcer using the management console with global properties and remote configuration options.
----
-
 # Configuration
 
 This section introduces you to the Password Policy Enforcer management console, and explains how to

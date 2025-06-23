@@ -1,9 +1,3 @@
----
-title: properties
-sidebar_label: properties
-description: Documentation for properties functionality in Access Analyzer including configuration and usage information.
----
-
 # WMICollector: Properties
 
 On the Properties page, select the properties to extract.

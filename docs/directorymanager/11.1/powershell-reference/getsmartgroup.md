@@ -1,9 +1,3 @@
----
-title: Get smartgroup Cmdlet
-sidebar_label: getsmartgroup
-description: PowerShell cmdlet reference for getsmartgroup with parameter details, syntax examples, and usage instructions for Directory Manager.
----
-
 # Get-SmartGroup
 
 Use this commandlet to retrieve Smart Groups and Dynasties that match your given criteria in one or

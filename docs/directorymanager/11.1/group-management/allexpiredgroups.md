@@ -1,9 +1,3 @@
----
-title: allexpiredgroups
-sidebar_label: allexpiredgroups
-description: Directory Manager 11.1 documentation for allexpiredgroups with configuration details, usage instructions, and implementation guidance.
----
-
 # Expired Groups
 
 This page lists expired groups. A group expires when:

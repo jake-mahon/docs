@@ -1,9 +1,3 @@
----
-title: Installation Overview
-sidebar_label: Installation
-description: Complete installation guide for Enterprise Auditor and related components including proxy services and data discovery add-ons.
----
-
 # Installation
 
 The following sections provide instructions for installing and upgrading Enterprise Auditor and

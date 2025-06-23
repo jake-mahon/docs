@@ -1,9 +1,3 @@
----
-title: first launch
-sidebar_label: first-launch
-description: Auditor 10.7 documentation for first launch with configuration details, usage instructions, and implementation guidance.
----
-
 # First Launch
 
 To start using Netwrix Auditor

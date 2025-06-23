@@ -1,9 +1,3 @@
----
-title: Installation Overview
-sidebar_label: Overview
-description: Prerequisites and requirements for installing Access Information Center with Access Analyzer including SQL Server database dependencies.
----
-
 # Installation Overview
 
 The Netwrix Access Information Center relies on collected and analyzed data that is stored in a

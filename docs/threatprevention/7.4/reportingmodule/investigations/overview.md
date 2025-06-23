@@ -1,9 +1,3 @@
----
-title: Investigations Interface
-sidebar_label: Investigations Interface
-description: The Investigation interface allows administrators to investigate all data available to the application through a series of customizable filters. These invest...
----
-
 # Investigations Interface
 
 The Investigation interface allows administrators to investigate all data available to the

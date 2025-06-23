@@ -1,9 +1,3 @@
----
-title: active directory cleanup groups deprovision ad deprovision groups
-sidebar_label: ad deprovision groups
-description: Solution guide for active directory cleanup groups deprovision ad deprovision groups including implementation steps, configuration, and best practices.
----
-
 # AD_DeprovisionGroups Job
 
 The AD_DeprovisionGroups Job provides an automated workflow to deprovision stale groups. This

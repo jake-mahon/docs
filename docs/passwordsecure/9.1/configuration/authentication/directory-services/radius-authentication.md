@@ -1,9 +1,3 @@
----
-title: RADIUS Authentication Configuration
-sidebar_label: RADIUS Authentication
-description: Configure RADIUS authentication for multi-factor authentication and secure user authorization in corporate network environments with Password Secure.
----
-
 # RADIUS authentication
 
 ## What is the RADIUS authentication?

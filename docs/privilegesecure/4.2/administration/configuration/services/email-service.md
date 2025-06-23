@@ -1,9 +1,3 @@
----
-title: Email Service
-sidebar_label: email service
-description: Administrative configuration and management features for Privilege Secure PAM solution including user management, policies, and security settings.
----
-
 # Email Service
 
 On the Email Services page, add and configure the settings used for email notifications.

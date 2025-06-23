@@ -1,9 +1,3 @@
----
-title: Password History Options Page
-sidebar_label: password history options
-description: Administrative configuration and management features for Privilege Secure PAM solution including user management, policies, and security settings.
----
-
 # Password History Options Page
 
 The Password History Options page is accessible from the Navigation pane under Configuration >

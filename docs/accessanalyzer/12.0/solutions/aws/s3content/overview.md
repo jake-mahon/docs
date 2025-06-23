@@ -1,9 +1,3 @@
----
-title: aws s3content overview
-sidebar_label: overview
-description: Solution guide for aws s3content overview including implementation steps, configuration, and best practices.
----
-
 # 7.S3 Content Job Group
 
 The 7.S3 Content job group provide details on AWS S3 buckets and objects contained in those buckets.

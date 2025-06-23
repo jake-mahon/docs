@@ -1,9 +1,3 @@
----
-title: Password Enforcement Event Type
-sidebar_label: Password Enforcement Event Type
-description: The Password Enforcement event type prevents changing a password if the supplied password string does not meet the requirements specified in the policy rules...
----
-
 # Password Enforcement Event Type
 
 The Password Enforcement event type prevents changing a password if the supplied password string

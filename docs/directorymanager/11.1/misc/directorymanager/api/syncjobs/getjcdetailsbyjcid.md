@@ -1,9 +1,3 @@
----
-title: syncjobs getjcdetailsbyjcid API
-sidebar_label: getjcdetailsbyjcid
-description: API reference for getjcdetailsbyjcid operations in Directory Manager with request parameters, response examples, and implementation details.
----
-
 # Get Job Collection Details By Job Collection ID
 
 Using this API you can retrieve information about a job collection ID of which is given in the

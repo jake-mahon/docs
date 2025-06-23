@@ -1,9 +1,3 @@
----
-title: exchange publicfolders permissions overview
-sidebar_label: overview
-description: Solution guide for exchange publicfolders permissions overview including implementation steps, configuration, and best practices.
----
-
 # Permissions Job Group
 
 The Permissions job group provides visibility into permissions applied to each public folder.

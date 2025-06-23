@@ -1,9 +1,3 @@
----
-title: overview
-sidebar_label: overview
-description: Documentation for overview functionality in Access Analyzer including configuration and usage information.
----
-
 # Script Data Collector
 
 The Script Data Collector provides VB Script exit from Access Analyzer. Static queries are sometimes

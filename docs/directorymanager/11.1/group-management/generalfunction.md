@@ -1,9 +1,3 @@
----
-title: generalfunction
-sidebar_label: generalfunction
-description: Directory Manager 11.1 documentation for generalfunction with configuration details, usage instructions, and implementation guidance.
----
-
 # General Group functions
 
 You can perform the following general functions on your directory groups.

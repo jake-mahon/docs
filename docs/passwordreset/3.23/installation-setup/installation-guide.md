@@ -1,9 +1,3 @@
----
-title: Password Reset Installation Guide
-sidebar_label: Installation Guide
-description: Comprehensive installation instructions for Password Policy Enforcer on Windows servers and workstations with system requirements and setup types.
----
-
 # Installation
 
 Netwrix Password Policy Enforcer V9.12 is compatible with Windows 2008, 2012, 2016, and 2019

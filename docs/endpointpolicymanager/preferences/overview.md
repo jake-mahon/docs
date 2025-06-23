@@ -1,9 +1,3 @@
----
-title: Preferences Manager Configuration Guide
-sidebar_label: Overview
-description: Comprehensive Preferences Manager guide. Enhance Microsoft Group Policy Preferences with better printer deployment, drive mapping, shortcuts, and VPN settings.
----
-
 # Preferences Manager
 
 **NOTE:** Before reading this section, please ensure you have read Book 2:

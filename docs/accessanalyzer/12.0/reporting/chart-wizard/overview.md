@@ -1,9 +1,3 @@
----
-title: Chart Wizard Overview
-sidebar_label: Overview
-description: Overview of the chart wizard for creating visual charts and graphs in Access Analyzer reports.
----
-
 # Chart Configuration Wizard
 
 The Chart Configuration wizard allows you to configure the charts that display on reports. The

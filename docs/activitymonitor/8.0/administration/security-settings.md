@@ -1,9 +1,3 @@
----
-title: Update Activity Monitor Credential Passwords
-sidebar_label: Security Settings
-description: Update credential passwords for Activity Monitor including agent accounts, domain controllers, archive users, and monitoring hosts for security compliance.
----
-
 # Update Credential Passwords
 
 Credential passwords occasionally need to be updated due to various reasons, such as security

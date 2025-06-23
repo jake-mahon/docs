@@ -1,9 +1,3 @@
----
-title: exchange publicfolders content pf content
-sidebar_label: pf content
-description: Solution guide for exchange publicfolders content pf content including implementation steps, configuration, and best practices.
----
-
 # PF_Content Job
 
 The PF_Content job is comprised of analyses and reports that focus on public folder sizing and

@@ -1,9 +1,3 @@
----
-title: Getting Started: local mode permissions
-sidebar_label: local mode permissions
-description: Getting started guide for local mode permissions in Access Analyzer including setup instructions and initial configuration steps.
----
-
 # Local Mode Permissions
 
 When File System scans are run in local mode, it means all of the data collection processing is

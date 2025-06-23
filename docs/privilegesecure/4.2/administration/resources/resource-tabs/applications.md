@@ -1,9 +1,3 @@
----
-title: Access Policies Tab for Microsoft Entra ID
-sidebar_label: applications
-description: Administrative configuration and management features for Privilege Secure PAM solution including user management, policies, and security settings.
----
-
 # Access Policies Tab for Microsoft Entra ID
 
 The Access Policies tab Sessions Tab for Microsoft Entra ID shows information about the policies

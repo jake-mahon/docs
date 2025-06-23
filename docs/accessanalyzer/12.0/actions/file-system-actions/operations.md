@@ -1,9 +1,3 @@
----
-title: operations
-sidebar_label: operations
-description: Documentation for operations functionality in Access Analyzer including configuration and usage information.
----
-
 # Add Tags
 
 Use the Parameters page to specify the file tags the action adds.

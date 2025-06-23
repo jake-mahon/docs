@@ -1,9 +1,3 @@
----
-title: identification
-sidebar_label: identification
-description: Documentation for identification functionality in Access Analyzer including configuration and usage information.
----
-
 # Mailbox: Mailbox Identification
 
 The Mailbox Identification page specifies the mailboxes the action targets. It is a wizard page for

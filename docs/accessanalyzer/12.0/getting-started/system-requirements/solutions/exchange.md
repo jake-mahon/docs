@@ -1,9 +1,3 @@
----
-title: Getting Started: exchange
-sidebar_label: exchange
-description: Getting started guide for exchange in Access Analyzer including setup instructions and initial configuration steps.
----
-
 # Exchange Solution
 
 The core components for Netwrix Access Analyzer (formerly Enterprise Auditor) are the Access

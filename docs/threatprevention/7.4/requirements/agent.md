@@ -1,9 +1,3 @@
----
-title: Agent Requirements
-sidebar_label: Agent
-description: System requirements for Threat Prevention agents including supported operating systems, hardware specifications, and deployment prerequisites.
----
-
 # Agent Server Requirements
 
 The Agent server can be physical or virtual. The supported operating systems are:

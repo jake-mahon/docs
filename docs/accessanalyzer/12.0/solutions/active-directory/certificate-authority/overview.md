@@ -1,9 +1,3 @@
----
-title: active directory certificate authority overview
-sidebar_label: overview
-description: Solution guide for active directory certificate authority overview including implementation steps, configuration, and best practices.
----
-
 # 7.Certificate Authority Job Group
 
 The 7.Certificate Authority job group collects settings, permissions, and configurations for

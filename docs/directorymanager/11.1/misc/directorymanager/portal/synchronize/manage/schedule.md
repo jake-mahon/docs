@@ -1,9 +1,3 @@
----
-title: Portal synchronize manage schedule
-sidebar_label: schedule
-description: Directory Manager portal documentation for synchronize manage functionality including user interface, navigation, and operational procedures.
----
-
 # Schedule a Job / Job Collection
 
 The Directory Manager scheduling function enables you to set any Synchronize job or job collection

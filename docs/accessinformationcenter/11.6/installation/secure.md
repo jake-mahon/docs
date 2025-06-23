@@ -1,9 +1,3 @@
----
-title: Securing Access Information Center
-sidebar_label: Security
-description: Configure SSL encryption and security settings for Access Information Center website including certificate management and secure remote connections.
----
-
 # Securing the Access Information Center
 
 There are two options for accessing the Access Information Center. You can either go to the Access

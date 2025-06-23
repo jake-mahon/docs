@@ -1,9 +1,3 @@
----
-title: Configure the Product to Crawl an Entire SharePoint Online Tenancy
-sidebar_label: Tenancy
-description: Typically SharePoint environments are crawled on a per site collection basis. Sometimes however there is a need to crawl an entire SharePoint Online tenancy....
----
-
 # Configure the Product to Crawl an Entire SharePoint Online Tenancy
 
 Typically SharePoint environments are crawled on a per site collection basis. Sometimes however

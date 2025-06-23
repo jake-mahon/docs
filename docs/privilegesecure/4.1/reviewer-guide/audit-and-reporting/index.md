@@ -1,9 +1,3 @@
----
-title: Audit and Reporting Page
-sidebar_label: Overview
-description: Reviewer role documentation including audit capabilities, access certification, session monitoring, and approval workflows.
----
-
 # Audit and Reporting Page
 
 The Audit and Reporting interface provides auditing and reporting tools to interrogate all logged

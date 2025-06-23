@@ -1,9 +1,3 @@
----
-title: logic
-sidebar_label: logic
-description: Documentation for logic functionality in Access Analyzer including configuration and usage information.
----
-
 # Logic Tab
 
 Use the Logic tab to specify conditions and actions for the Business Rule.

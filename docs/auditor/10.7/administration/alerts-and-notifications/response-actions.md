@@ -1,9 +1,3 @@
----
-title: response actions
-sidebar_label: response-actions
-description: Auditor 10.7 documentation for response actions with configuration details, usage instructions, and implementation guidance.
----
-
 # Configure a Response Action for Alert
 
 Upon the alert triggering, you can instruct Auditor to perform several actions such as run a

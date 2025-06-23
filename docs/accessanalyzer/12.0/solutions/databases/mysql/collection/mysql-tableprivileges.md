@@ -1,9 +1,3 @@
----
-title: databases mysql collection mysql tableprivileges
-sidebar_label: mysql tableprivileges
-description: Solution guide for databases mysql collection mysql tableprivileges including implementation steps, configuration, and best practices.
----
-
 # MySQL_TablePrivileges Job
 
 The MySQL_TablePrivileges job is designed to collect MySQL table privileges from all the targeted

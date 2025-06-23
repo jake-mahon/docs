@@ -1,9 +1,3 @@
----
-title: event log
-sidebar_label: event log
-description: Documentation for event log functionality in Access Analyzer including configuration and usage information.
----
-
 # Notification: Event Log
 
 The Event Log properties page is available when the Event log notification type is selected on the

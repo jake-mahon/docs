@@ -1,9 +1,3 @@
----
-title: Safari Extension Installation
-sidebar_label: Safari
-description: Install Password Secure add-on for Safari by downloading DMG file and following double-click installation procedures for macOS systems.
----
-
 # Safari
 
 ## Installing the add-on

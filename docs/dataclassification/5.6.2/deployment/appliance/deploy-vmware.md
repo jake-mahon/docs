@@ -1,9 +1,3 @@
----
-title: Import Virtual Machine from Image to VMware
-sidebar_label: Deploy Vmware
-description: 1. Connect to your vSphere infrastructure using vSphere Web client, right-click the object you need(datacenter, ESXi host, VM folder or resource pool) and...
----
-
 # Import Virtual Machine from Image to VMware
 
 1. Connect to your vSphere infrastructure using vSphere Web client, right-click the object you

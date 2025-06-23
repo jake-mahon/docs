@@ -1,9 +1,3 @@
----
-title: databases db2 db2 databasesizing
-sidebar_label: db2 databasesizing
-description: Solution guide for databases db2 db2 databasesizing including implementation steps, configuration, and best practices.
----
-
 # Configuration > Db2_DatabaseSizing Job
 
 The Db2_DatabaseSizing job provides details on overall database sizes.

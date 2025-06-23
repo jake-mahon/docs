@@ -1,9 +1,3 @@
----
-title: windows privilegedaccounts logonrights sg_accountprivileges
-sidebar_label: sg_accountprivileges
-description: Solution guide for windows privilegedaccounts logonrights sg_accountprivileges including implementation steps, configuration, and best practices.
----
-
 # SG_AccountPrivileges Job
 
 The SG_AccountPrivileges job identifies accounts privileges on hosts in the targeted environment.

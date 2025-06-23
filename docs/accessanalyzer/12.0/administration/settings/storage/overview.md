@@ -1,9 +1,3 @@
----
-title: overview Administration
-sidebar_label: overview
-description: Administration guide for overview including configuration, management, and best practices for Access Analyzer.
----
-
 # Storage
 
 The Storage node contains objects known as Storage Profiles. Storage Profiles house the information

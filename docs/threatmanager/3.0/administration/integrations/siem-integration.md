@@ -1,9 +1,3 @@
----
-title: SIEM Integration Configuration
-sidebar_label: SIEM Integration
-description: Configure SIEM integration for forwarding threat information to QRadar, Splunk, and other SIEM services with syslog protocol settings.
----
-
 # SIEM Page
 
 The SIEM page provides configuration settings for forwarding threat information to a SIEM service

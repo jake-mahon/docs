@@ -1,9 +1,3 @@
----
-title: Hitachi Storage System Monitoring
-sidebar_label: Hitachi
-description: Monitor file activity on Hitachi storage systems with comprehensive data collection and SIEM integration capabilities for security analysis.
----
-
 # Hitachi
 
 Understanding File Activity Monitoring

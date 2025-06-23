@@ -1,9 +1,3 @@
----
-title: join columns
-sidebar_label: join columns
-description: Documentation for join columns functionality in Access Analyzer including configuration and usage information.
----
-
 # SQLViewCreations: Join Columns
 
 Use the Join Columns page to select a column from each source table to join together on the

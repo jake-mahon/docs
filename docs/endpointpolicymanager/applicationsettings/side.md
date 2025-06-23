@@ -1,9 +1,3 @@
----
-title: User vs Computer Side Policies
-sidebar_label: Policy Side
-description: Guidance on whether to create Application Manager policies on the user side or computer side for optimal deployment.
----
-
 # Should I create Endpoint Policy Application Manager policies on the USER or COMPUTER side?
 
 It's really your choice where you want to apply the policy either on Computer or User side.

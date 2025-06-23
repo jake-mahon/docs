@@ -1,9 +1,3 @@
----
-title: File System Changes Event Type
-sidebar_label: File System Changes Event
-description: The File System Changes event type generates events for selected actions on selected files, such as create/read/write/delete/rename, attribute/permission cha...
----
-
 # File System Changes Event Type
 
 The File System Changes event type generates events for selected actions on selected files, such as

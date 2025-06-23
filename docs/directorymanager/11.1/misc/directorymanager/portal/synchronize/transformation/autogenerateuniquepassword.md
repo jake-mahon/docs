@@ -1,9 +1,3 @@
----
-title: Portal synchronize transformation autogenerateuniquepassword
-sidebar_label: autogenerateuniquepassword
-description: Directory Manager portal documentation for synchronize transformation functionality including user interface, navigation, and operational procedures.
----
-
 # Auto-Generate Unique, Complex Passwords
 
 In Directory Manager portal, you can auto-generate passwords based on password complexity rules

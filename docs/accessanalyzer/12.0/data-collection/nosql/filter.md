@@ -1,9 +1,3 @@
----
-title: filter
-sidebar_label: filter
-description: Documentation for filter functionality in Access Analyzer including configuration and usage information.
----
-
 # NoSQL: Filter
 
 The Filter page is where the query can be scoped to target specific databases or instances. It is a

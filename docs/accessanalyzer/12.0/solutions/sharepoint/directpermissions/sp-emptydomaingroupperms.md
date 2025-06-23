@@ -1,9 +1,3 @@
----
-title: sharepoint directpermissions sp emptydomaingroupperms
-sidebar_label: sp emptydomaingroupperms
-description: Solution guide for sharepoint directpermissions sp emptydomaingroupperms including implementation steps, configuration, and best practices.
----
-
 # SP_EmptyDomainGroupPerms Job
 
 The SP_EmptyDomainGroupPerms Job identifies empty security groups with directly assigned permissions

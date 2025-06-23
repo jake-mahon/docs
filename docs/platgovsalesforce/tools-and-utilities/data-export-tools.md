@@ -1,9 +1,3 @@
----
-title: Data Export Tools and Object Export
-sidebar_label: Data Export Tools
-description: Export objects, profiles, permissions, and users to Excel files for analysis, review, and management with comprehensive export configuration options.
----
-
 # Export Objects
 
 Administrators can use this to export one or more objects, including all child objects, into a

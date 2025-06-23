@@ -1,9 +1,3 @@
----
-title: aws s3permissions aws effectivepermissions
-sidebar_label: aws effectivepermissions
-description: Solution guide for aws s3permissions aws effectivepermissions including implementation steps, configuration, and best practices.
----
-
 # AWS_EffectivePermissions Job
 
 The AWS_EffectivePermissions job identifies and summarizes effective permissions on AWS S3 buckets

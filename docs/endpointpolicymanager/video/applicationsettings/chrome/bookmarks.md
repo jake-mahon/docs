@@ -1,9 +1,3 @@
----
-title: Manage Google Chrome Bookmarks
-sidebar_label: Chrome Bookmarks
-description: Learn to deliver Chrome bookmarks using Endpoint Policy Manager's pre-configured PAK, including how to set up managed bookmarks with custom URLs and folder structures.
----
-
 # Manage Google Chrome Bookmarks
 
 Using Netwrix Endpoint Policy Manager (formerly PolicyPak)'s pre-configured PAK for Google Chrome we

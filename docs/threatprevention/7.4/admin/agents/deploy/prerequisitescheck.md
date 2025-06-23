@@ -1,9 +1,3 @@
----
-title: Prerequisites Check
-sidebar_label: Prerequisites Check
-description: Pre-deployment verification checklist for agent installation including system requirements and permission validation.
----
-
 # Prerequisites Check Window
 
 The Deploy Agents wizard's Prerequisites Check window is the third in a sequence of four windows to

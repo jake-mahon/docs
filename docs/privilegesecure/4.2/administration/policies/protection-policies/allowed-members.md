@@ -1,9 +1,3 @@
----
-title: Allowed Members Tab for Protection Policies
-sidebar_label: allowed members
-description: Administrative configuration and management features for Privilege Secure PAM solution including user management, policies, and security settings.
----
-
 # Allowed Members Tab for Protection Policies
 
 The Allowed Members tab shows the configuration options for managing the groups governed by the

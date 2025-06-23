@@ -1,9 +1,3 @@
----
-title: Setting Role Permissions and Access
-sidebar_label: Permissions
-description: Configure user role permissions and access controls for Platform Governance including Strongpoint tab access and custom role setup.
----
-
 # Setting Role Permissions
 
 The **Access Type** for Platform Governance for NetSuite Custom **Record Types** is set to **Use

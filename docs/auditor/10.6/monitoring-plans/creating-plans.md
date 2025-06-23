@@ -1,9 +1,3 @@
----
-title: creating plans
-sidebar_label: creating-plans
-description: Auditor 10.6 documentation for creating plans with configuration details, usage instructions, and implementation guidance.
----
-
 # Create a New Monitoring Plan
 
 To create monitoring plans, user account must be assigned the _Global administrator_ in Auditor.

@@ -1,9 +1,3 @@
----
-title: License Manager Window
-sidebar_label: License Manager Window
-description: The License Manager window displays the Threat Prevention modules that you are licensed for. If under an Enterprise license, it also displays an expiration d...
----
-
 # License Manager Window
 
 The License Manager window displays the Threat Prevention modules that you are licensed for. If

@@ -1,9 +1,3 @@
----
-title: Unix Input Configuration
-sidebar_label: Input
-description: Input configuration for Unix data collector including command parameters and data source selection.
----
-
 # Unix: Input
 
 The Input page configures the source for input data.

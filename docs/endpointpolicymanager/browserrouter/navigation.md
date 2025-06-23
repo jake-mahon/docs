@@ -1,9 +1,3 @@
----
-title: Browser Router Navigation and Setup
-sidebar_label: Navigation
-description: Navigate the Browser Router interface to create collections and policies for intelligent website routing between different browsers in enterprise environments.
----
-
 # Getting to Know Browser Router
 
 Endpoint Policy Manager Browser Router editor is located in the Endpoint Policy Manager node.

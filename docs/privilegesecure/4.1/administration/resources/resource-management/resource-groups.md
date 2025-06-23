@@ -1,9 +1,3 @@
----
-title: Add a Resource Group
-sidebar_label: resource groups
-description: Administrative configuration and management features for Privilege Secure PAM solution including user management, policies, and security settings.
----
-
 # Add a Resource Group
 
 Follow the steps to add resource groups to the console.

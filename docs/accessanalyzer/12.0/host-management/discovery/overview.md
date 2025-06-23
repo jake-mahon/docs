@@ -1,9 +1,3 @@
----
-title: overview
-sidebar_label: overview
-description: Documentation for overview functionality in Access Analyzer including configuration and usage information.
----
-
 # Host Discovery Node
 
 Use the **Host Discovery** node to discover hosts to audit. Host Discovery queries are created in

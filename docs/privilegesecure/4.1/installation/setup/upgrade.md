@@ -1,9 +1,3 @@
----
-title: Upgrade Procedure
-sidebar_label: upgrade
-description: Installation procedures, system requirements, and deployment configuration for Privilege Secure components and services.
----
-
 # Upgrade Procedure
 
 This chapter describes the basic steps needed to upgrade Netwrix Privilege Secure.

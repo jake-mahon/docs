@@ -1,9 +1,3 @@
----
-title: SentinelOne
-sidebar_label: sentinelone
-description: Documentation for Privilege Secure privileged access management solution covering features, configuration, and usage procedures.
----
-
 # SentinelOne
 
 SentinelOne

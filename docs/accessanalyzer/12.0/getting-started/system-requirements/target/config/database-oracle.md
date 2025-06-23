@@ -1,9 +1,3 @@
----
-title: Getting Started: database oracle
-sidebar_label: database oracle
-description: Getting started guide for database oracle in Access Analyzer including setup instructions and initial configuration steps.
----
-
 # Oracle Target Least Privilege Model
 
 We recommend using an account DBA privilege to run Access Analyzer against an Oracle database.

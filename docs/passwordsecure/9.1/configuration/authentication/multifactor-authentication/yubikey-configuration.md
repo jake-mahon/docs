@@ -1,9 +1,3 @@
----
-title: YubiKey Hardware Authentication Configuration
-sidebar_label: YubiKey Configuration
-description: Configure YubiKey hardware tokens for secure multifactor authentication including firewall requirements and setup procedures.
----
-
 # Yubico / Yubikey
 
 ## Setting up multifactor authentication

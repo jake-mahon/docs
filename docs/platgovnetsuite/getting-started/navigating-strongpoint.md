@@ -1,9 +1,3 @@
----
-title: Navigating Platform Governance Interface
-sidebar_label: Navigation
-description: How to navigate Platform Governance for NetSuite interface including Strongpoint tab menu, overview dashboard, and accessing different features.
----
-
 # Navigation
 
 There are two ways to access Platform Governance for NetSuite's functionality: the **Strongpoint**

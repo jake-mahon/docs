@@ -1,9 +1,3 @@
----
-title: Password Management Overview
-sidebar_label: Password Overview
-description: Central password data objects management in Password Secure with search filters, color-highlighted tags, and sensitive data protection features.
----
-
 # Passwords
 
 ## What are passwords?

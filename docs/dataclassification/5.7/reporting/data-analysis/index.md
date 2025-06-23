@@ -1,9 +1,3 @@
----
-title: Data Analysis
-sidebar_label: Data Analysis
-description: Data Analysis section in Netwrix Data Classification management console includes Reports and DSAR areas: !data_analysis_thumb_0_0 See next: Learn more about ...
----
-
 # Data Analysis
 
 **Data Analysis** section in Netwrix Data Classification management console includes Reports and

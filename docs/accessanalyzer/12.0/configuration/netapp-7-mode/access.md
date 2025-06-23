@@ -1,9 +1,3 @@
----
-title: access
-sidebar_label: access
-description: Documentation for access functionality in Access Analyzer including configuration and usage information.
----
-
 # NetApp Data ONTAP 7-Mode Access & Sensitive Data Auditing Configuration
 
 This topic provides instructions for configuring API calls and bypassing NTFS security for NetApp

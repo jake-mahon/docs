@@ -1,9 +1,3 @@
----
-title: standard tables
-sidebar_label: standard tables
-description: Documentation for standard tables functionality in Access Analyzer including configuration and usage information.
----
-
 # Standard Reference Tables & Views for the ADActivity Data Collector
 
 The ADActivity Data Collector gathers essential user and group activity information into standard

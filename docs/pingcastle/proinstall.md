@@ -1,9 +1,3 @@
----
-title: PingCastle Pro Installation Guide
-sidebar_label: Pro Installation
-description: Complete installation guide for PingCastle Pro including system requirements, database setup, Azure AD configuration, and troubleshooting procedures.
----
-
 # Description
 
 PingCastle Pro is a tool designed to improve and follow the Active

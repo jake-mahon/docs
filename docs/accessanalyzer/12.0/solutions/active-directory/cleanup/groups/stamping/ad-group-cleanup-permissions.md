@@ -1,9 +1,3 @@
----
-title: active directory cleanup groups stamping ad group cleanup permissions
-sidebar_label: ad group cleanup permissions
-description: Solution guide for active directory cleanup groups stamping ad group cleanup permissions including implementation steps, configuration, and best practices.
----
-
 # AD_GroupCleanup_Permissions Job
 
 The AD_GroupCleanup_Permissions Job reports on where security groups are being used to assign

@@ -1,9 +1,3 @@
----
-title: Configure AWS Instance
-sidebar_label: aws configuration
-description: Installation procedures, system requirements, and deployment configuration for Privilege Secure components and services.
----
-
 # Configure AWS Instance
 
 Follow the steps below to configure an AWS instance.

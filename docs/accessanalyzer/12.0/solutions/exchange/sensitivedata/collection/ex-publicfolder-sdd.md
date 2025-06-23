@@ -1,9 +1,3 @@
----
-title: exchange sensitivedata collection ex publicfolder sdd
-sidebar_label: ex publicfolder sdd
-description: Solution guide for exchange sensitivedata collection ex publicfolder sdd including implementation steps, configuration, and best practices.
----
-
 # EX_PublicFolder_SDD Job
 
 The EX_PublicFolder_SDD job locates sensitive data found in public folders in the Exchange

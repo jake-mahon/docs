@@ -1,9 +1,3 @@
----
-title: groupownershipfunction
-sidebar_label: groupownershipfunction
-description: Directory Manager 11.1 documentation for groupownershipfunction with configuration details, usage instructions, and implementation guidance.
----
-
 # Group Ownership Functions
 
 The Directory Managerportal enables you to perform ownership related functions such as change

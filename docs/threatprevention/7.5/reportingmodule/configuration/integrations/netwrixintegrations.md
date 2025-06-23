@@ -1,9 +1,3 @@
----
-title: Netwrix Integrations Page
-sidebar_label: Netwrix Integrations Page
-description: The Netwrix Integrations page within the Integrations interface lists the products for which the application is configured to connect.
----
-
 # Netwrix Integrations Page
 
 The Netwrix Integrations page within the Integrations interface lists the products for which the

@@ -1,9 +1,3 @@
----
-title: filesystem content fs filetypes
-sidebar_label: fs filetypes
-description: Solution guide for filesystem content fs filetypes including implementation steps, configuration, and best practices.
----
-
 # File Types > FS_FileTypes Job
 
 The FS_FileTypes job is designed to report on file type information from targeted file servers.

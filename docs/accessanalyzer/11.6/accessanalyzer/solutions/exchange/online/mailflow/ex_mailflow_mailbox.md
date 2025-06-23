@@ -1,9 +1,3 @@
----
-title: exchange online mailflow ex_mailflow_mailbox
-sidebar_label: ex_mailflow_mailbox
-description: Solution guide for exchange online mailflow ex_mailflow_mailbox including implementation steps, configuration, and best practices.
----
-
 # EX_Mailflow_Mailbox Job
 
 The EX_Mailflow_Mailbox job provides information around each user’s mail flow in the organization.

@@ -1,9 +1,3 @@
----
-title: file systems resource based groups
-sidebar_label: resource based groups
-description: Solution guide for file systems resource based groups including implementation steps, configuration, and best practices.
----
-
 # FS_ResourceBasedGroupAICImport Job
 
 The FS_ResorceBasedGroupsAICImport Job imports resources and access groups from the

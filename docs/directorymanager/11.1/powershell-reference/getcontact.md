@@ -1,9 +1,3 @@
----
-title: Get-Contact PowerShell Cmdlet Reference
-sidebar_label: Get-Contact
-description: PowerShell cmdlet to retrieve contact information from Directory Manager identity stores with syntax, parameters, and usage examples.
----
-
 # Get-Contact
 
 Use the Get-Contact cmdlet to retrieve basic information about a contact.

@@ -1,9 +1,3 @@
----
-title: dropbox dropbox groupmembership
-sidebar_label: dropbox groupmembership
-description: Solution guide for dropbox dropbox groupmembership including implementation steps, configuration, and best practices.
----
-
 # 3.Group Membership > Dropbox_GroupMembership Job
 
 The Dropbox_GroupMembership job provides insight into group membership within the targeted Dropbox

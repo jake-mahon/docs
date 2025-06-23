@@ -1,9 +1,3 @@
----
-title: Domain and Local Policies
-sidebar_label: Domain & Local Policies
-description: Guide to enforcing password policies for both Active Directory domain accounts and local user accounts with installation and configuration differences.
----
-
 # Domain and Local Policies
 
 Netwrix Password Policy Enforcer V7.5 and later can enforce password policies for both domain and

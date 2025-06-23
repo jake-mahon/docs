@@ -1,9 +1,3 @@
----
-title: input
-sidebar_label: input
-description: Documentation for input functionality in Access Analyzer including configuration and usage information.
----
-
 # SQLViewCreation: Input Source
 
 Use the Input Source page to select the source tables or views, containing data, to join or

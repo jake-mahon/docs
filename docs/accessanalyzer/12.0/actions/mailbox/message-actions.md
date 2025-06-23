@@ -1,9 +1,3 @@
----
-title: message actions
-sidebar_label: message actions
-description: Documentation for message actions functionality in Access Analyzer including configuration and usage information.
----
-
 # Mailbox: Message Actions
 
 Use the Message Actions page to specify the action to take with the messages that meet the search

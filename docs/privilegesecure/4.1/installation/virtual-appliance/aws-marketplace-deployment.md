@@ -1,9 +1,3 @@
----
-title: Deploy to Amazon Marketplace
-sidebar_label: aws marketplace deployment
-description: Installation procedures, system requirements, and deployment configuration for Privilege Secure components and services.
----
-
 # Deploy to Amazon Marketplace
 
 Try playing around with Netwrix Privilege Secure to see how it helps you enable complete visibility

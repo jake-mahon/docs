@@ -1,9 +1,3 @@
----
-title: Invoke replication Cmdlet
-sidebar_label: invokereplication
-description: PowerShell cmdlet reference for invokereplication with parameter details, syntax examples, and usage instructions for Directory Manager.
----
-
 # Invoke-Replication
 
 The Invoke-Replication commandlet starts replication process for all the identity stores or a

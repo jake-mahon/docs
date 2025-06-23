@@ -1,9 +1,3 @@
----
-title: Collection Manager Window
-sidebar_label: Collection Manager Window
-description: The Collection Manager window enables you to manage all Microsoft Collections. Click Threat Prevention administrators.
----
-
 # Collection Manager Window
 
 The Collection Manager window enables you to manage all Microsoft Collections. Click

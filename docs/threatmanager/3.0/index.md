@@ -1,9 +1,3 @@
----
-title: Threat Manager Documentation Hub
-sidebar_label: Overview
-description: Comprehensive threat detection and response for identity-based attacks with user behavior analytics, machine learning, and automated responses.
----
-
 # Threat Manager 3.0
 
 > Advanced threat detection and response for identity-based attacks

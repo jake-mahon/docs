@@ -1,9 +1,3 @@
----
-title: Queued and Custom Reports
-sidebar_label: Queued Reports
-description: When large search exports are run the report may take some time to compile, in this instance the background processes create the report and make it available...
----
-
 # Queued and Custom Reports
 
 ## Queued Reports

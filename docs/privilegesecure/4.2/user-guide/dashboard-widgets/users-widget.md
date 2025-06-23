@@ -1,9 +1,3 @@
----
-title: Users Dashboard
-sidebar_label: users widget
-description: End user documentation covering session management, access procedures, dashboard functionality, and browser extension usage.
----
-
 # Users Dashboard
 
 The Users dashboard shows session information for onboarded users and groups. Onboarded users and

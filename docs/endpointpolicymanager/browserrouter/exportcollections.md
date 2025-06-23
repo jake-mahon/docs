@@ -1,9 +1,3 @@
----
-title: Browser Router Export Collections XML
-sidebar_label: Export Collections
-description: Export Browser Router collections and policies to XML format for deployment using Microsoft Endpoint Manager, KACE, MDM services, or PolicyPak Cloud.
----
-
 # Exporting Collections
 
 Advanced Concepts explains how to use the Endpoint Policy Manager Exporter to wrap up any Endpoint

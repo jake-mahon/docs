@@ -1,9 +1,3 @@
----
-title: State In Time Reports
-sidebar_label: State In Time Reports
-description: Generate state-in-time reports to analyze your environment's configuration and security state at specific points in time.
----
-
 # State In Time Risks Reports
 
 The state-in-time reports allow you to generate reports on your environment's state at a specific

@@ -1,9 +1,3 @@
----
-title: Reporting Module Installation
-sidebar_label: Reporting Module Installation
-description: Prior to installing Netwrix Threat Manager Reporting Module 3.0, make sure that all the prerequisites have been met in accordance with the
----
-
 # Reporting Module Installation
 
 Prior to installing Netwrix Threat Manager Reporting Module 3.0, make sure that all the

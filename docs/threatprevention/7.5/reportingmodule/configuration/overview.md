@@ -1,9 +1,3 @@
----
-title: Reporting Configuration Overview
-sidebar_label: Configuration
-description: Configuration overview for Threat Manager Reporting Module including integrations, system settings, and authentication providers.
----
-
 # Configuration Menu
 
 Use the gear icon in the upper right corner of the console to open the Configuration menu.

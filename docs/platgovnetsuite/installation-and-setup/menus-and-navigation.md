@@ -1,9 +1,3 @@
----
-title: Managing Menus and Navigation
-sidebar_label: Menus
-description: Customize Platform Governance menus by hiding or showing menu items based on license type and user preferences for cleaner navigation.
----
-
 # Managing Menus
 
 Menus can be personalized by hiding menu items you do not use. Hiding items only affects the current

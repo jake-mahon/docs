@@ -1,9 +1,3 @@
----
-title: unix overview
-sidebar_label: overview
-description: Solution guide for unix overview including implementation steps, configuration, and best practices.
----
-
 # Unix Solution
 
 The Unix Solution reports on areas of administrative concern for Unix and Linux systems. Attention

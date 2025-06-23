@@ -1,9 +1,3 @@
----
-title: active directory inventory 3 ad exceptions
-sidebar_label: 3 ad exceptions
-description: Solution guide for active directory inventory 3 ad exceptions including implementation steps, configuration, and best practices.
----
-
 # 3-AD_Exceptions Job
 
 The 3-AD_Exceptions Job identifies toxic conditions that exist within Active Directory which may

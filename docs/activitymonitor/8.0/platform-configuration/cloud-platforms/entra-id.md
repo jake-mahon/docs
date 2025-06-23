@@ -1,9 +1,3 @@
----
-title: Microsoft Entra ID Activity Configuration
-sidebar_label: Entra ID
-description: Configure Microsoft Entra ID activity monitoring with web application registration including Client ID and Client Secret setup for comprehensive auditing.
----
-
 # Microsoft Entra ID Activity Auditing Configuration
 
 It is necessary to register Activity Monitor as a web application to the targeted Microsoft Entra ID

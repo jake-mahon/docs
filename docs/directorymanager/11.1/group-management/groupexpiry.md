@@ -1,9 +1,3 @@
----
-title: groupexpiry
-sidebar_label: groupexpiry
-description: Directory Manager 11.1 documentation for groupexpiry with configuration details, usage instructions, and implementation guidance.
----
-
 # Group Expiry
 
 Directory Manager provides two ways to expire a group:

@@ -1,9 +1,3 @@
----
-title: Getting Started: agent permissions
-sidebar_label: agent permissions
-description: Getting started guide for agent permissions in Access Analyzer including setup instructions and initial configuration steps.
----
-
 # SharePoint Agent Permissions
 
 When Access Analyzer SharePoint scans are run in agent-based mode, the Access Analyzer SharePoint

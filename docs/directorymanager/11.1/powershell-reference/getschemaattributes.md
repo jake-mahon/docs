@@ -1,9 +1,3 @@
----
-title: Get schemaattributes Cmdlet
-sidebar_label: getschemaattributes
-description: PowerShell cmdlet reference for getschemaattributes with parameter details, syntax examples, and usage instructions for Directory Manager.
----
-
 # Get-SchemaAttributes
 
 The commandlet Get-SchemaAttribute enables you to retrieve comprehensive list of schema attributes

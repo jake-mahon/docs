@@ -1,9 +1,3 @@
----
-title: Exchange Server
-sidebar_label: Server
-description: The Exchange Server source configuration screen allows you to enable the crawling and classification of multiple Exchange mailboxes from the same Exchange...
----
-
 # Exchange Server
 
 The Exchange Server source configuration screen allows you to enable the crawling and classification

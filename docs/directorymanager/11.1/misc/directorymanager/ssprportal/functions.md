@@ -1,9 +1,3 @@
----
-title: functions
-sidebar_label: functions
-description: Directory Manager 11.1 documentation for functions with configuration details, usage instructions, and implementation guidance.
----
-
 # Manage your Identity Store Accounts
 
 When you launch the SSPR portal, the Welcome to GroupID page lists the following functions:

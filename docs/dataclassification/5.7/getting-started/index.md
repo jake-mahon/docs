@@ -1,9 +1,3 @@
----
-title: Data Classification Features and Benefits
-sidebar_label: Features & Benefits
-description: Discover how Netwrix Data Classification helps identify valuable data, reduce risk, and enable compliance with advanced compound term processing technology.
----
-
 # Features and Benefits
 
 Netwrix Data Classification is a platform that identifies data that’s important for your

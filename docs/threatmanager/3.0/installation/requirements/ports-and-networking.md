@@ -1,9 +1,3 @@
----
-title: Threat Manager Ports Networking Requirements
-sidebar_label: Ports & Networking
-description: Network ports and firewall configuration requirements for Threat Manager including data streams, services, database, and Active Directory communication.
----
-
 # Ports Requirements
 
 Netwrix Threat Manager architecture and components interactions are shown in the figure below.

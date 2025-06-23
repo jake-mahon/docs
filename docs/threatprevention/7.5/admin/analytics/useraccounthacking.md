@@ -1,9 +1,3 @@
----
-title: User Account Hacking Analytics
-sidebar_label: User Account Hacking
-description: Detection analytics for user account compromise attempts including multiple failed password scenarios and suspicious authentication patterns.
----
-
 # User Account Hacking Analytic Type
 
 The **User Account Hacking** analytic type identifies multiple bad passwords provided for a given

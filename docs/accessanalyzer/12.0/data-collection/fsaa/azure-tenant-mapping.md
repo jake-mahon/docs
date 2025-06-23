@@ -1,9 +1,3 @@
----
-title: azure tenant mapping
-sidebar_label: azure tenant mapping
-description: Documentation for azure tenant mapping functionality in Access Analyzer including configuration and usage information.
----
-
 # FSAA: Azure Tenant Mapping
 
 The Azure Tenant Mapping page is where the target domain or Tenant ID are configured for Azure

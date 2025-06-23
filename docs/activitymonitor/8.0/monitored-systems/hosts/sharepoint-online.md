@@ -1,9 +1,3 @@
----
-title: SharePoint Online Activity Monitoring
-sidebar_label: SharePoint Online
-description: Monitor SharePoint Online document operations, security changes, and search activities with Activity Monitor for comprehensive SharePoint auditing.
----
-
 # SharePoint Online
 
 Understanding SharePoint Activity Monitoring

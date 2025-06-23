@@ -1,9 +1,3 @@
----
-title: First Factor Authentication Configuration
-sidebar_label: First Factor
-description: Configure first factor authentication options including password and smartcard methods for secure access control to Password Secure system.
----
-
 # First factor
 
 ## What is meant by first factor?

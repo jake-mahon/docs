@@ -1,9 +1,3 @@
----
-title: exchange online overview
-sidebar_label: overview
-description: Solution guide for exchange online overview including implementation steps, configuration, and best practices.
----
-
 # 8.Exchange Online Job Group
 
 The 8. Exchange Online job group collects message trace data from Office 365.

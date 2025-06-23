@@ -1,9 +1,3 @@
----
-title: setup unisphere
-sidebar_label: setup unisphere
-description: Documentation for setup unisphere functionality in Access Analyzer including configuration and usage information.
----
-
 # Unity Initial Setup with Unisphere
 
 Follow the steps to configure the initial setup for a Unity device with Unisphere.

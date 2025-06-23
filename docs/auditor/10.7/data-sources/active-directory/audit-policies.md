@@ -1,9 +1,3 @@
----
-title: audit policies
-sidebar_label: audit-policies
-description: Auditor 10.7 documentation for audit policies with configuration details, usage instructions, and implementation guidance.
----
-
 # Configure Advanced Audit Policies
 
 You can configure advanced audit policies instead of basic domain policies to collect Active

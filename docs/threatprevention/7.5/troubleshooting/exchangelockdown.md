@@ -1,9 +1,3 @@
----
-title: Exchange Lockdown Troubleshooting
-sidebar_label: Exchange Lockdown
-description: Troubleshooting guide for Exchange lockdown policies including permission issues and mailbox access restrictions.
----
-
 # Exchange Lockdown Considerations
 
 When an Exchange Lockdown policy is first enabled, operations that are expected to be locked down by

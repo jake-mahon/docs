@@ -1,9 +1,3 @@
----
-title: box activity suspiciousactivity box firsttimefolderaccess
-sidebar_label: box firsttimefolderaccess
-description: Solution guide for box activity suspiciousactivity box firsttimefolderaccess including implementation steps, configuration, and best practices.
----
-
 # Box_FirstTimeFolderAccess Job
 
 The Box_FirstTimeFolderAccess Job identifies the first time a user performs any activity on a folder

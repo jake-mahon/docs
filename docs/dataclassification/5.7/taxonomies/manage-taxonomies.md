@@ -1,9 +1,3 @@
----
-title: Manage Taxonomies
-sidebar_label: Manage Taxonomies
-description: This section contains information on how to add, merge, back up and delete taxonomies. SQL taxonomies reside within the administrative web console database,...
----
-
 # Manage Taxonomies
 
 This section contains information on how to add, merge, back up and delete taxonomies.

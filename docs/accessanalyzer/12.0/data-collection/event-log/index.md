@@ -1,9 +1,3 @@
----
-title: index
-sidebar_label: index
-description: Documentation for index functionality in Access Analyzer including configuration and usage information.
----
-
 # EventLog Data Collector
 
 The EventLog Data Collector provides search and extraction of details from event logs on target

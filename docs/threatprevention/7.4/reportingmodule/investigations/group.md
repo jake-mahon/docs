@@ -1,9 +1,3 @@
----
-title: Group Details Page
-sidebar_label: Group Details Page
-description: The Group Details page displays the membership details for a group. In an investigation report, when you click the Perpetrator (user name) link or Target (ho...
----
-
 # Group Details Page
 
 The Group Details page displays the membership details for a group.

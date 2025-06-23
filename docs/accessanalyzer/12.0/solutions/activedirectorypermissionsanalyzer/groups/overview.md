@@ -1,9 +1,3 @@
----
-title: activedirectorypermissionsanalyzer groups overview
-sidebar_label: overview
-description: Solution guide for activedirectorypermissionsanalyzer groups overview including implementation steps, configuration, and best practices.
----
-
 # 2.Groups Job Group
 
 The 2.Groups Job Group reports on all Active Directory permissions applied to group objects within

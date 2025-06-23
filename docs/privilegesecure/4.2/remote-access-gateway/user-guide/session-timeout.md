@@ -1,9 +1,3 @@
----
-title: Session Timeout
-sidebar_label: session timeout
-description: End user documentation covering session management, access procedures, dashboard functionality, and browser extension usage.
----
-
 # Session Timeout
 
 For security reasons, the Remote Access Gateway automatically logs out the user after 20 minutes of

@@ -1,9 +1,3 @@
----
-title: Active Directory Solution
-sidebar_label: Active Directory
-description: Comprehensive Active Directory monitoring and protection solution including change tracking, lockdown policies, and authentication security.
----
-
 # Active Directory
 
 Threat Prevention for Active Directory is a real-time change and access monitoring solution designed

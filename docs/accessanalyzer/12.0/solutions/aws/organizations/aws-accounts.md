@@ -1,9 +1,3 @@
----
-title: aws organizations aws accounts
-sidebar_label: aws accounts
-description: Solution guide for aws organizations aws accounts including implementation steps, configuration, and best practices.
----
-
 # AWS_Accounts Job
 
 The AWS_Accounts job provides detailed information about the accounts that exist in each AWS

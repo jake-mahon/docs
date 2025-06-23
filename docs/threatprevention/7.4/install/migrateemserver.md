@@ -1,9 +1,3 @@
----
-title: Migrate Enterprise Manager
-sidebar_label: Migrate Enterprise Manager
-description: Enterprise Manager migration guide for moving installations between servers and upgrading system configurations.
----
-
 # Migrate the Enterprise Manager Server
 
 Follow the steps to move the Threat Prevention7.4 Enterprise Manager to a different server when

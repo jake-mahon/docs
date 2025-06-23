@@ -1,9 +1,3 @@
----
-title: SSH into Privilege Secure Node(s)
-sidebar_label: ssh
-description: Documentation for Privilege Secure privileged access management solution covering features, configuration, and usage procedures.
----
-
 # SSH into Privilege Secure Node(s)
 
 SSH into Privilege Secure Node(s)

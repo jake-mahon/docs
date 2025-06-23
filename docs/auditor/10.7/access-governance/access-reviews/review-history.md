@@ -1,9 +1,3 @@
----
-title: review history
-sidebar_label: review-history
-description: Auditor 10.7 documentation for review history with configuration details, usage instructions, and implementation guidance.
----
-
 # Review History Page
 
 The Review History page lists all completed review instances for your resources.

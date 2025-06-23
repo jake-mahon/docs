@@ -1,9 +1,3 @@
----
-title: Automated Documentation System
-sidebar_label: Automated Documentation
-description: Generate and maintain comprehensive Salesforce org documentation with continuous automated scanning, digital diagrams, and exportable documentation.
----
-
 # Automated Documentation
 
 Great documentation is easy with Platform Governance for Salesforce. Install the managed package in

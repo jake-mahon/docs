@@ -1,9 +1,3 @@
----
-title: Effective Group Membership Event Type
-sidebar_label: Effective Group Membership Event
-description: The Effective Group Membership event type generates an event when security principals are added to or removed from specified groups.
----
-
 # Effective Group Membership Event Type
 
 The Effective Group Membership event type generates an event when security principals are added to

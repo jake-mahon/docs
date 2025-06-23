@@ -1,9 +1,3 @@
----
-title: overview Administration
-sidebar_label: overview
-description: Administration guide for overview including configuration, management, and best practices for Access Analyzer.
----
-
 # Jobs
 
 An Access Analyzer job is responsible for running data collection, conducting data analysis,

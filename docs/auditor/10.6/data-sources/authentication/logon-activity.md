@@ -1,9 +1,3 @@
----
-title: logon activity
-sidebar_label: logon-activity
-description: Auditor 10.6 documentation for logon activity with configuration details, usage instructions, and implementation guidance.
----
-
 # Configure Advanced Audit Policies
 
 You can configure advanced audit policies instead of basic domain policies to collect Logon Activity

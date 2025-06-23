@@ -1,9 +1,3 @@
----
-title: Investigation Interface Overview
-sidebar_label: Investigation
-description: Administrative investigation interface for analyzing events, applying filters, and conducting security incident investigations in real-time.
----
-
 # Investigate Interface
 
 The Investigate interface allows you to quickly view recent events in a centralized location. You

@@ -1,9 +1,3 @@
----
-title: affected mailboxes
-sidebar_label: affected mailboxes
-description: Documentation for affected mailboxes functionality in Access Analyzer including configuration and usage information.
----
-
 # Mailbox: Affected Mailboxes
 
 Use the Affected Mailboxes page to select the mailboxes to target for the action. It is a wizard

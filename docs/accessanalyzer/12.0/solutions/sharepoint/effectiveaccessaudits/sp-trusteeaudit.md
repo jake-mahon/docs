@@ -1,9 +1,3 @@
----
-title: sharepoint effectiveaccessaudits sp trusteeaudit
-sidebar_label: sp trusteeaudit
-description: Solution guide for sharepoint effectiveaccessaudits sp trusteeaudit including implementation steps, configuration, and best practices.
----
-
 # SP_TrusteeAudit Job
 
 The SP_TrusteeAudit Job runs analysis tasks and generates a report on effective access of specified

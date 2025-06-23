@@ -1,9 +1,3 @@
----
-title: overview
-sidebar_label: overview
-description: Documentation for overview functionality in Access Analyzer including configuration and usage information.
----
-
 # UsersGroups Data Collector
 
 The UsersGroups Data Collector audits user and group accounts for both local and domain, extracting

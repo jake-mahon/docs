@@ -1,9 +1,3 @@
----
-title: Test Admin Approval Workflow
-sidebar_label: Testing
-description: Test admin approval functionality by generating request codes for privilege elevation and validating the challenge-response approval process.
----
-
 # Testing Admin Approval
 
 Now log on as a Standard User and try to run an application that requires admin rights, like

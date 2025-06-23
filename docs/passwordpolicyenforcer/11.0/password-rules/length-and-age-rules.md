@@ -1,9 +1,3 @@
----
-title: Password Length and Age Rules
-sidebar_label: Length and Age Rules
-description: Configure password length and age rules in Password Policy Enforcer including minimum/maximum length and password expiration policies.
----
-
 # Length Rule
 
 The Length rule rejects passwords that contain too few or too many characters. Longer passwords are

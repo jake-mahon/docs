@@ -1,9 +1,3 @@
----
-title: Session Logs Window
-sidebar_label: session logs
-description: Reviewer role documentation including audit capabilities, access certification, session monitoring, and approval workflows.
----
-
 # Session Logs Window
 
 The Session Logs window displays the log details for the selected session. Select a session from the

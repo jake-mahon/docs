@@ -1,9 +1,3 @@
----
-title: Delete User
-sidebar_label: Delete User
-description: The Administration Console prevents you from deleting the last user with Administrator rights. There must always be at least one active administrator.
----
-
 # Delete User
 
 The Administration Console prevents you from deleting the last user with Administrator rights. There

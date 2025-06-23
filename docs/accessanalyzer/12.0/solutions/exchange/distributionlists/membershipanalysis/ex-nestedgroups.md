@@ -1,9 +1,3 @@
----
-title: exchange distributionlists membershipanalysis ex nestedgroups
-sidebar_label: ex nestedgroups
-description: Solution guide for exchange distributionlists membershipanalysis ex nestedgroups including implementation steps, configuration, and best practices.
----
-
 # EX_NestedGroups Job
 
 The EX_NestedGroups job identifies where nesting exists within distribution groups.

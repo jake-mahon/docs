@@ -1,9 +1,3 @@
----
-title: activity
-sidebar_label: activity
-description: Documentation for activity functionality in Access Analyzer including configuration and usage information.
----
-
 # Dell Celerra & Dell VNX Activity Auditing Configuration
 
 An Dell Celerra or VNX device can be configured to audit Server Message Block (SMB) protocol access

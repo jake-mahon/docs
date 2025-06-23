@@ -1,9 +1,3 @@
----
-title: sharepoint recommended
-sidebar_label: recommended
-description: Solution guide for sharepoint recommended including implementation steps, configuration, and best practices.
----
-
 # Recommended Configuration for the SharePoint Solution
 
 The SharePoint Solution has been configured to inherit down from the **SharePoint** > **Settings**

@@ -1,9 +1,3 @@
----
-title: sharepoint directpermissions sp unresolvedsids
-sidebar_label: sp unresolvedsids
-description: Solution guide for sharepoint directpermissions sp unresolvedsids including implementation steps, configuration, and best practices.
----
-
 # SP_UnresolvedSIDs Job
 
 This job identifies Unresolved SIDs that have permissions to any SharePoint resources. Unresolved

@@ -1,9 +1,3 @@
----
-title: activedirectoryinventory recommended
-sidebar_label: recommended
-description: Solution guide for activedirectoryinventory recommended including implementation steps, configuration, and best practices.
----
-
 # Recommended Configurations for the .Active Directory Inventory Solution
 
 The .Active Directory Inventory Solution has been configured by default to run with the

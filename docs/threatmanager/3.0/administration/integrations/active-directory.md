@@ -1,9 +1,3 @@
----
-title: Active Directory Sync Configuration
-sidebar_label: Active Directory Sync
-description: Configure Active Directory domain synchronization for Threat Manager including sync policies, permissions, and continuous data collection.
----
-
 # Active Directory Sync Page
 
 The Active Directory Sync page within the Integrations interface lists the domains that are synced

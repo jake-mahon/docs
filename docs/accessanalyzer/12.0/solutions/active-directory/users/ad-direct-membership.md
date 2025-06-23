@@ -1,9 +1,3 @@
----
-title: active directory users ad direct membership
-sidebar_label: ad direct membership
-description: Solution guide for active directory users ad direct membership including implementation steps, configuration, and best practices.
----
-
 # AD_DirectMembership Job
 
 The AD_DirectMembership Job identifies users who do not have any group membership. This condition

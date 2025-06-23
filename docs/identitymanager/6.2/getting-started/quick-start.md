@@ -1,9 +1,3 @@
----
-title: Quick Start Installation Guide
-sidebar_label: Quick Start
-description: Step-by-step guide to quickly install Identity Manager bootstrap version including prerequisites, certificate setup, and initial configuration.
----
-
 # Quick Start Guide
 
 This guide leads the reader through the steps to quickly install Identity Manager's bootstrap

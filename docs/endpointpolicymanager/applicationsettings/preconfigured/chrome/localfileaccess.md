@@ -1,9 +1,3 @@
----
-title: Chrome Local File Access Blocking
-sidebar_label: Local File Access
-description: Block local file access in Google Chrome using Endpoint Policy Manager by configuring URL restrictions in the Chrome AppSet Extras section.
----
-
 # Chrome: How do I block Local File access to Google Chrome with Endpoint Policy Manager?
 
 Use the Netwrix Endpoint Policy Manager (formerly PolicyPak) Pak for Chrome. Then in the Extras,

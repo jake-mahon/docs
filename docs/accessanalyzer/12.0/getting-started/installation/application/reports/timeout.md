@@ -1,9 +1,3 @@
----
-title: Getting Started: timeout
-sidebar_label: timeout
-description: Getting started guide for timeout in Access Analyzer including setup instructions and initial configuration steps.
----
-
 # Timeout Parameter for the Web Console
 
 The Web Console is configured with a default timeout parameter of 15 minutes. This can be configured

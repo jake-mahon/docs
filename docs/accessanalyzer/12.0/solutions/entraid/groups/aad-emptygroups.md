@@ -1,9 +1,3 @@
----
-title: entraid groups aad emptygroups
-sidebar_label: aad emptygroups
-description: Solution guide for entraid groups aad emptygroups including implementation steps, configuration, and best practices.
----
-
 # AAD_EmptyGroups Job
 
 The AAD_EmptyGroups Job identifies empty groups within Microsoft Entra ID which are suitable

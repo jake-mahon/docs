@@ -1,9 +1,3 @@
----
-title: Get mailbox Cmdlet
-sidebar_label: getmailbox
-description: PowerShell cmdlet reference for getmailbox with parameter details, syntax examples, and usage instructions for Directory Manager.
----
-
 # Get-Mailbox
 
 Use the Get-Mailbox commandlet to retrieve basic information about a mailbox that match your given

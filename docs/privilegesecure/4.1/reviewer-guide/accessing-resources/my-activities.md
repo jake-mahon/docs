@@ -1,9 +1,3 @@
----
-title: My Activities Page
-sidebar_label: my activities
-description: Reviewer role documentation including audit capabilities, access certification, session monitoring, and approval workflows.
----
-
 # My Activities Page
 
 The Access > My Activities page displays activities mapped to the user as individual cards,

@@ -1,9 +1,3 @@
----
-title: azure entra id
-sidebar_label: azure-entra-id
-description: Auditor 10.6 documentation for azure entra id with configuration details, usage instructions, and implementation guidance.
----
-
 # Using Basic Authentication with Microsoft Entra ID
 
 With basic authentication, your Microsoft Entra ID organization will be accessed on behalf of a

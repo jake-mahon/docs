@@ -1,9 +1,3 @@
----
-title: Installed Software Tab for Host
-sidebar_label: installed software
-description: Administrative configuration and management features for Privilege Secure PAM solution including user management, policies, and security settings.
----
-
 # Installed Software Tab for Host
 
 The Installed Software tab shows information about the software installed on the selected host

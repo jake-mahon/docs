@@ -1,9 +1,3 @@
----
-title: Users Groups Category Users
-sidebar_label: Users
-description: Users category configuration for Users Groups data collector focusing on user account properties and attributes.
----
-
 # UsersGroups: Users Category
 
 The Users Query category collects information for users in different contexts.

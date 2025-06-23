@@ -1,9 +1,3 @@
----
-title: active directory inventory overview
-sidebar_label: overview
-description: Solution guide for active directory inventory overview including implementation steps, configuration, and best practices.
----
-
 # .Active Directory Inventory Solution
 
 Active Directory (AD) acts as the central nervous system of any Microsoft environment and plays a

@@ -1,9 +1,3 @@
----
-title: Interactive Product Tour Guide
-sidebar_label: Product Tour
-description: Role-based interactive walkthrough for new users to learn relevant features and navigation within the Privilege Secure console interface.
----
-
 # Product Tour
 
 New users now experience a product tour on first login. Standard users and users with the Privilege

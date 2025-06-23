@@ -1,9 +1,3 @@
----
-title: from version 10
-sidebar_label: from-version-10
-description: Directory Manager 11.0 documentation for from version 10 with configuration details, usage instructions, and implementation guidance.
----
-
 # Notes on Upgrade
 
 Consider the following when upgrading to GroupID 11 from GroupID 9 and 10.

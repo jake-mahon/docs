@@ -1,9 +1,3 @@
----
-title: Scalability and Performance
-sidebar_label: Scalability
-description: Scalability and performance testing revealed that based on the number of objects to classify, the environments can be ranged as follows: | Number of objects ...
----
-
 # Scalability and Performance
 
 Scalability and performance testing revealed that based on the number of objects to classify, the

@@ -1,9 +1,3 @@
----
-title: restoretombstoneobject Cmdlet
-sidebar_label: restoretombstoneobject
-description: PowerShell cmdlet reference for restoretombstoneobject with parameter details, syntax examples, and usage instructions for Directory Manager.
----
-
 # Restore-TombStoneObject
 
 The Restore-TombStoneObject commandlet restores tombstone objects from Directory. A tombstone object

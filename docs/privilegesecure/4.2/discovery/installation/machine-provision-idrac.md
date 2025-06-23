@@ -1,9 +1,3 @@
----
-title: Machine Provisioning - iDRAC
-sidebar_label: machine provision idrac
-description: Installation procedures, system requirements, and deployment configuration for Privilege Secure components and services.
----
-
 # Machine Provisioning - iDRAC
 
 Machine Provisioning - iDRAC

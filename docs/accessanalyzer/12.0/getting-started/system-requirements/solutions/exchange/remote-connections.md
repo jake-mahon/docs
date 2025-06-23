@@ -1,9 +1,3 @@
----
-title: Getting Started: remote connections
-sidebar_label: remote connections
-description: Getting started guide for remote connections in Access Analyzer including setup instructions and initial configuration steps.
----
-
 # Exchange Remote Connections Permissions
 
 The SMARTLog Data Collector processes the IIS Logs on the server running the Client Access Service

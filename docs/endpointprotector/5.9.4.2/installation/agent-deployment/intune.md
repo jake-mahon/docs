@@ -1,9 +1,3 @@
----
-title: Microsoft Intune Agent Deployment
-sidebar_label: Intune
-description: Step-by-step guide for deploying Endpoint Protector agents through Microsoft Intune MDM for Windows and macOS endpoints.
----
-
 # Microsoft Intune
 
 This guide describes the steps needed to deploy Netwrix Endpoint Protector to multiple endpoints

@@ -1,9 +1,3 @@
----
-title: activedirectorypermissionsanalyzer containers overview
-sidebar_label: overview
-description: Solution guide for activedirectorypermissionsanalyzer containers overview including implementation steps, configuration, and best practices.
----
-
 # 7.Containers Job Group
 
 The 7.Containers Job Group reports on all Active Directory permissions applied to container objects

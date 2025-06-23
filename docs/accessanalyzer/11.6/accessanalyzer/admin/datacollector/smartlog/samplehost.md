@@ -1,9 +1,3 @@
----
-title: SmartLog Sample Host Configuration
-sidebar_label: Sample Host
-description: Sample host configuration for SmartLog data collector including test log parsing and validation settings.
----
-
 # SMARTLog: Sample Host
 
 The Sample Host page is used to configure the host. It is a wizard page for all log types.

@@ -1,9 +1,3 @@
----
-title: System & Service Account Security
-sidebar_label: account security
-description: System configuration settings and advanced options for authentication, integrations, services, and security parameters.
----
-
 # System & Service Account Security
 
 System & Service Account Security

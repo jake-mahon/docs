@@ -1,9 +1,3 @@
----
-title: sharepoint activity forensics sp deletions
-sidebar_label: sp deletions
-description: Solution guide for sharepoint activity forensics sp deletions including implementation steps, configuration, and best practices.
----
-
 # SP_Deletions Job
 
 This job identifies SharePoint deletion events which have occurred over the past 30 days.

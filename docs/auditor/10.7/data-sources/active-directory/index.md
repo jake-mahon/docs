@@ -1,9 +1,3 @@
----
-title: Active Directory Data Source Configuration
-sidebar_label: Active Directory
-description: Configure Netwrix Auditor for Active Directory monitoring including audit policies, security settings, and automatic configuration options.
----
-
 # Active Directory
 
 Netwrix Auditor relies on native logs for collecting audit data. Therefore, successful change and

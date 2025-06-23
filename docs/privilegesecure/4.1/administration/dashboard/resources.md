@@ -1,9 +1,3 @@
----
-title: Resources Dashboard
-sidebar_label: resources
-description: Administrative configuration and management features for Privilege Secure PAM solution including user management, policies, and security settings.
----
-
 # Resources Dashboard
 
 The Resources dashboard shows information for onboarded resources, such as active and scheduled

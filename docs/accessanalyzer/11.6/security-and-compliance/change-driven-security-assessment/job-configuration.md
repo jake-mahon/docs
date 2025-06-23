@@ -1,9 +1,3 @@
----
-title: job configuration
-sidebar_label: job configuration
-description: Documentation for job configuration functionality in Access Analyzer including configuration and usage information.
----
-
 # CDSA Job
 
 The CDSA Job is available through the Instant Job Library under the CDSA library. See the

@@ -1,9 +1,3 @@
----
-title: DNS Data Collector Overview
-sidebar_label: Overview
-description: Overview of the DNS Data Collector for enumerating DNS settings and records using LDAP and ADSI protocols.
----
-
 # DNS Data Collector
 
 The DNS Data Collector provides information regarding DNS configuration and records. It is available

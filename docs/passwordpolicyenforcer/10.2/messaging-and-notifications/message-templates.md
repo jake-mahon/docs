@@ -1,9 +1,3 @@
----
-title: Customizing Password Policy Message Templates
-sidebar_label: Message Templates
-description: Guide to customizing Password Policy Enforcer message templates for password policy guidelines, rejection reasons, and generic rejection messages.
----
-
 # Customizing Message Templates
 
 Each Password Policy Enforcer password policy has three message templates, one for each of the

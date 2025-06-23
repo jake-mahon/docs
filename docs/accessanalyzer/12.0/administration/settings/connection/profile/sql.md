@@ -1,9 +1,3 @@
----
-title: sql Administration
-sidebar_label: sql
-description: Administration guide for sql including configuration, management, and best practices for Access Analyzer.
----
-
 # SQL Authentication for User Credentials
 
 This information applies to **Select Account Type** > **SQL Authentication** in the User Credentials

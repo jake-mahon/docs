@@ -1,9 +1,3 @@
----
-title: Agent Backup and Restore Procedures
-sidebar_label: Backup & Restore
-description: Step-by-step procedures for backing up and restoring Activity Monitor agent configurations, passwords, event data files, and activity logs.
----
-
 # Agent Backup
 
 Follow the steps to back up the configuration, passwords, Active Directory event data file, and

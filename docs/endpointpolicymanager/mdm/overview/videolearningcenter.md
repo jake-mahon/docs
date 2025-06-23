@@ -1,9 +1,3 @@
----
-title: MDM Video Learning Center
-sidebar_label: Video Learning Center
-description: Video tutorials for Endpoint Policy Manager MDM deployment including getting started guides, exporting tips, troubleshooting, and Item-Level Targeting.
----
-
 # Video Learning Center
 
 See the following Video topics for getting started with MDM.

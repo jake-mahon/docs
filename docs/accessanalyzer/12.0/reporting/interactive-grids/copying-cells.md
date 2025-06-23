@@ -1,9 +1,3 @@
----
-title: Interactive Grids Copying Cells
-sidebar_label: Copying Cells
-description: Copying cells functionality in interactive grids for extracting and transferring data from report grids.
----
-
 # Copying Cells
 
 Copying an individual cell within a generated report enables easier searching for information using

@@ -1,9 +1,3 @@
----
-title: Password Reset Administration and Benefits
-sidebar_label: Password Reset
-description: Overview of Netwrix Password Reset self-service password management system for reducing help desk calls and increasing productivity.
----
-
 # Administration
 
 Netwrix Password Reset is a self-service password management system that helps you to reduce the

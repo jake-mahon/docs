@@ -1,9 +1,3 @@
----
-title: overview
-sidebar_label: overview
-description: Documentation for overview functionality in Access Analyzer including configuration and usage information.
----
-
 # ADActivity Data Collector
 
 The ADActivity Data Collector integrates with the Netwrix Activity Monitor by reading the Active

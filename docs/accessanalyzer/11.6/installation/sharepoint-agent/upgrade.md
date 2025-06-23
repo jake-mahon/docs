@@ -1,9 +1,3 @@
----
-title: Installation: upgrade
-sidebar_label: upgrade
-description: Installation guide for upgrade including system requirements, setup procedures, and configuration options.
----
-
 # Upgrade SharePoint Agent
 
 Follow the steps to upgrade the SharePoint Agent.

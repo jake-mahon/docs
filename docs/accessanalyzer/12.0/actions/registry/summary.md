@@ -1,9 +1,3 @@
----
-title: summary
-sidebar_label: summary
-description: Documentation for summary functionality in Access Analyzer including configuration and usage information.
----
-
 # Registry: Summary
 
 The Summary page summarizes the configuration of the action.

@@ -1,9 +1,3 @@
----
-title: scoping options
-sidebar_label: scoping options
-description: Documentation for scoping options functionality in Access Analyzer including configuration and usage information.
----
-
 # FSAA: Scoping Options
 
 The Scoping Options page is where scan settings, file details, and file properties settings can be

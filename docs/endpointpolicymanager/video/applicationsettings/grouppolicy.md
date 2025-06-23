@@ -1,9 +1,3 @@
----
-title: Endpoint Policy Application Manager Overview
-sidebar_label: Group Policy Edition
-description: Learn about Endpoint Policy Application Manager Group Policy Edition and how it enables comprehensive application settings management through Group Policy.
----
-
 # What is Endpoint Policy Application Manager (Group Policy Edition)
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Jh4nXMtZjPE" title="Endpoint Policy Application Manager" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen="1"></iframe>

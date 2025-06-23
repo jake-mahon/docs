@@ -1,9 +1,3 @@
----
-title: sharepoint m365 sp onedrives
-sidebar_label: sp onedrives
-description: Solution guide for sharepoint m365 sp onedrives including implementation steps, configuration, and best practices.
----
-
 # SP_OneDrives Job
 
 The SP_OneDrives Job collects the activity, sensitive data, summary level information across

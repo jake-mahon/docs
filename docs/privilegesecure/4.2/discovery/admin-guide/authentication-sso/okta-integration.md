@@ -1,9 +1,3 @@
----
-title: Okta SSO and MFA Integration
-sidebar_label: okta integration
-description: Documentation for Privilege Secure privileged access management solution covering features, configuration, and usage procedures.
----
-
 # Okta SSO and MFA Integration
 
 Okta SSO and MFA Integration

@@ -1,9 +1,3 @@
----
-title: Administration Overview
-sidebar_label: Overview
-description: Change Tracker console administration with dashboard, events, devices, compliance, planned changes, and reports management.
----
-
 # Administration
 
 The Change Tracker console contains several pages that can be selected from the tabs at the top:

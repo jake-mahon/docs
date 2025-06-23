@@ -1,9 +1,3 @@
----
-title: databases oracle configuration oracle databasesizing
-sidebar_label: oracle databasesizing
-description: Solution guide for databases oracle configuration oracle databasesizing including implementation steps, configuration, and best practices.
----
-
 # Oracle_DatabaseSizing Job
 
 The Oracle_DatabaseSizing Job provides details on tablespace file sizes and overall tablespace

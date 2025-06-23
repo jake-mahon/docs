@@ -1,9 +1,3 @@
----
-title: Portal search search
-sidebar_label: search
-description: Directory Manager portal documentation for search functionality including user interface, navigation, and operational procedures.
----
-
 # Directory Search
 
 Using the Directory Manager portal, you can search and manage different directory objects (users,

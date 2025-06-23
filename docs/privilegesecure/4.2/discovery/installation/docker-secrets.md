@@ -1,9 +1,3 @@
----
-title: Docker Secrets Matching DR Site to PROD Site
-sidebar_label: docker secrets
-description: Installation procedures, system requirements, and deployment configuration for Privilege Secure components and services.
----
-
 # Docker Secrets Matching DR Site to PROD Site
 
 Docker Secrets Matching DR Site to PROD Site

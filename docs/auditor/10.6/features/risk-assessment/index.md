@@ -1,9 +1,3 @@
----
-title: IT Risk Assessment Overview
-sidebar_label: Risk Assessment
-description: Comprehensive IT risk assessment capabilities in Netwrix Auditor for identifying security vulnerabilities and compliance violations.
----
-
 # IT Risk Assessment Overview
 
 To help you identify configuration gaps in your environment and understand their impact on overall

@@ -1,9 +1,3 @@
----
-title: Linux: Remove /snap/bin from PATH
-sidebar_label: linux remove snapbin
-description: Documentation for Privilege Secure privileged access management solution covering features, configuration, and usage procedures.
----
-
 # Linux: Remove /snap/bin from PATH
 
 Linux: Remove /snap/bin from PATH

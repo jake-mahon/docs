@@ -1,9 +1,3 @@
----
-title: authentication overview
-sidebar_label: authentication-overview
-description: Directory Manager 11.1 documentation for authentication overview with configuration details, usage instructions, and implementation guidance.
----
-
 # Directory Manager as an Identity Provider
 
 Directory Manager can provide the services of an identity provider. You can register a third-party

@@ -1,9 +1,3 @@
----
-title: databases redshift collection redshift sensitivedatascan
-sidebar_label: redshift sensitivedatascan
-description: Solution guide for databases redshift collection redshift sensitivedatascan including implementation steps, configuration, and best practices.
----
-
 # Redshift_SensitiveDataScan Job
 
 This job discovers sensitive data in PostgreSQL databases on pre-defined or user-defined criteria.

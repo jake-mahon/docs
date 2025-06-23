@@ -1,9 +1,3 @@
----
-title: configure fpolicy
-sidebar_label: configure fpolicy
-description: Documentation for configure fpolicy functionality in Access Analyzer including configuration and usage information.
----
-
 # Configure FPolicy
 
 Select a method to configure the FPolicy for NetApp Data ONTAP 7-Mode devices:

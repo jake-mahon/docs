@@ -1,9 +1,3 @@
----
-title: Chrome HomePage Configuration Management
-sidebar_label: Chrome HomePage
-description: Configure Chrome browser homepage settings using Application Settings Manager to control home button behavior and startup page preferences.
----
-
 # Chrome: How to Configure Chrome HomePage using Application Manager
 
 The "Home Page" in Chrome can mean one of two things:

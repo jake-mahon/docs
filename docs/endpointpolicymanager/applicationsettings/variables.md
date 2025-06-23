@@ -1,9 +1,3 @@
----
-title: Environment Variables and Shell Folders
-sidebar_label: Variables
-description: Use environment variables and shell folders in Application Settings Manager for dynamic configuration and path management.
----
-
 # Environment Variables and Shell Folders
 
 Netwrix Endpoint Policy Manager (formerly PolicyPak) Application Settings Manager can use

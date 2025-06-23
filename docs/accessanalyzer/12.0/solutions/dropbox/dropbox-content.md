@@ -1,9 +1,3 @@
----
-title: dropbox dropbox content
-sidebar_label: dropbox content
-description: Solution guide for dropbox dropbox content including implementation steps, configuration, and best practices.
----
-
 # 4.Content > Dropbox_Content Job
 
 The Dropbox_Content job provides insight into the type, size, and age of the content within the

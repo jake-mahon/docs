@@ -1,9 +1,3 @@
----
-title: syncjobs createjob API
-sidebar_label: createjob
-description: API reference for createjob operations in Directory Manager with request parameters, response examples, and implementation details.
----
-
 # Create a New Job
 
 Use this API to create a new Synchronize job which is a set of sequential commands that run in the

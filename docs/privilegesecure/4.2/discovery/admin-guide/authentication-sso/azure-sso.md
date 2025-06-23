@@ -1,9 +1,3 @@
----
-title: Azure SSO
-sidebar_label: azure sso
-description: Documentation for Privilege Secure privileged access management solution covering features, configuration, and usage procedures.
----
-
 # Azure SSO
 
 Azure SSO

@@ -1,9 +1,3 @@
----
-title: exchange mailboxes sizing ex storesizes
-sidebar_label: ex storesizes
-description: Solution guide for exchange mailboxes sizing ex storesizes including implementation steps, configuration, and best practices.
----
-
 # EX_StoreSizes Job
 
 The EX_StoreSizes job provides analysis and reporting around database sizing based on mailbox sizes.

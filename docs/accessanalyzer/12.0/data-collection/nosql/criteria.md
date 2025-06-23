@@ -1,9 +1,3 @@
----
-title: criteria
-sidebar_label: criteria
-description: Documentation for criteria functionality in Access Analyzer including configuration and usage information.
----
-
 # NoSQL: Criteria
 
 The Criteria page is where the criteria to be used for discovering sensitive data is configured. It

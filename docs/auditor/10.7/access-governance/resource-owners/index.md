@@ -1,9 +1,3 @@
----
-title: index
-sidebar_label: index
-description: Auditor 10.7 documentation for index with configuration details, usage instructions, and implementation guidance.
----
-
 # Resource Owners Overview
 
 The Resource Owners interface is where Access Reviews Console users with either the Security Team or

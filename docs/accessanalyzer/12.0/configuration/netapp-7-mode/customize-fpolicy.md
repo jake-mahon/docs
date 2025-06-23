@@ -1,9 +1,3 @@
----
-title: customize fpolicy
-sidebar_label: customize fpolicy
-description: Documentation for customize fpolicy functionality in Access Analyzer including configuration and usage information.
----
-
 # Customize FPolicy Policy Name
 
 There may be situations when FPolicy needs to be named something other than StealthAUDIT. In those

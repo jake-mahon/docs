@@ -1,9 +1,3 @@
----
-title: Updating Central Store PAKs
-sidebar_label: Central Store Update
-description: Learn two different methods to update PAKs in your Endpoint Policy Manager Central Store and refresh your Group Policy Objects with newer versions.
----
-
 # Updating Endpoint Policy Manager Central Store
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/q-iVP4eF3jA" title="Endpoint Policy Manager: Updating Endpoint Policy Manager Central Store" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen="1"></iframe>

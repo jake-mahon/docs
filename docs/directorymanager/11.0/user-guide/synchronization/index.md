@@ -1,9 +1,3 @@
----
-title: index
-sidebar_label: index
-description: Directory Manager 11.0 documentation for index with configuration details, usage instructions, and implementation guidance.
----
-
 # Dashboard
 
 After signing into the GroupID Portal, from the left pane select **Synchronize** to land on the

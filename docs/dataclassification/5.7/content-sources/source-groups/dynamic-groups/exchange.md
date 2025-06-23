@@ -1,9 +1,3 @@
----
-title: Dynamic Source Groups — Exchange
-sidebar_label: Exchange
-description: This section contains information on how to configure Exchange and Exchange Online dynamic source groups. Toggle between Basic and Advanced configuration...
----
-
 # Dynamic Source Groups — Exchange
 
 This section contains information on how to configure Exchange and Exchange Online dynamic source

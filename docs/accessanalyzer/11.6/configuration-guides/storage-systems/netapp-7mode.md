@@ -1,9 +1,3 @@
----
-title: netapp 7mode
-sidebar_label: netapp 7mode
-description: Documentation for netapp 7mode functionality in Access Analyzer including configuration and usage information.
----
-
 # NetApp Data ONTAP 7-Mode Access & Sensitive Data Auditing Configuration
 
 This topic provides instructions for configuring API calls and bypassing NTFS security for NetApp

@@ -1,9 +1,3 @@
----
-title: renewgroups
-sidebar_label: renewgroups
-description: Directory Manager 11.1 documentation for renewgroups with configuration details, usage instructions, and implementation guidance.
----
-
 # Renew Groups
 
 This API renews multiple groups, identities of which are provided in the request body.

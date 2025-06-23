@@ -1,9 +1,3 @@
----
-title: Text Search Results Configuration
-sidebar_label: Results
-description: Configuration page for selecting Text Search data collector results including search matches and content analysis.
----
-
 # TextSearch: Results
 
 The Results page is where properties that will be gathered are selected.

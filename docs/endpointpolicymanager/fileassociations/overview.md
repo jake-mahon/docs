@@ -1,9 +1,3 @@
----
-title: File Associations Manager Configuration Guide
-sidebar_label: Overview
-description: Configure file extensions and protocol associations in Windows 10. Control which applications open specific file types and map universal Windows applications.
----
-
 # File Associations Manager
 
 **CAUTION:** Even though Endpoint Policy Manager MDM and Endpoint Policy Manager Cloud can deliver a

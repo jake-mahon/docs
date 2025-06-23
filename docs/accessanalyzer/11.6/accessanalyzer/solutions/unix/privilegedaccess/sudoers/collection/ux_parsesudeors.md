@@ -1,9 +1,3 @@
----
-title: Unix Parse Sudoers Collection
-sidebar_label: Parse Sudoers
-description: Unix parse sudoers collection job for analyzing sudo configuration files and extracting privilege information.
----
-
 # UX_ParseSudeors Job
 
 The UX_ParseSudoers job parses all rights granted via sudoers in the audited environments.

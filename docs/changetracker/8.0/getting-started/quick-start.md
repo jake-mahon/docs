@@ -1,9 +1,3 @@
----
-title: Quick Start Guide
-sidebar_label: Quick Start
-description: Get started with Netwrix Change Tracker after installation including device setup, data collection, reports, and two-factor authentication.
----
-
 # Getting Started
 
 Once you have successfully installed Netwrix Change Tracker, and logged in for the first time (see

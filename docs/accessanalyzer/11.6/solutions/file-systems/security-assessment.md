@@ -1,9 +1,3 @@
----
-title: file systems security assessment
-sidebar_label: security assessment
-description: Solution guide for file systems security assessment including implementation steps, configuration, and best practices.
----
-
 # FS_SecurityAssessment Job
 
 The FS_SecurityAssessment job is designed to provide a security assessment of all relevant

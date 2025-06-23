@@ -1,9 +1,3 @@
----
-title: System Alerting Overview
-sidebar_label: System Alerting
-description: System alerting configuration for email notifications, SIEM integration, and event log alerts in Threat Prevention monitoring.
----
-
 # System Alerting Window
 
 The System Alerting window is only available to administrators, enabling them to configure and

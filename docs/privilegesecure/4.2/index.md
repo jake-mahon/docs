@@ -1,9 +1,3 @@
----
-title: Privilege Secure 4.2 Advanced PAM
-sidebar_label: Version 4.2
-description: Advanced privileged access management with cloud-native capabilities, AI-driven analytics, and seamless DevOps integration for modern infrastructures.
----
-
 # Privilege Secure 4.2
 
 > Next-generation privileged access management for cloud and hybrid environments

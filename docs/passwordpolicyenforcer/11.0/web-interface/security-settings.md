@@ -1,9 +1,3 @@
----
-title: Securing Password Policy Enforcer Web
-sidebar_label: Security Settings
-description: Security guidelines for Password Policy Enforcer Web including SSL configuration, web server hardening, and encryption best practices.
----
-
 # Secure Password Policy Enforcer Web
 
 Password Policy Enforcer Web is designed to operate securely, but you must ensure that the web

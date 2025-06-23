@@ -1,9 +1,3 @@
----
-title: active directory cleanup users ad deprovision users
-sidebar_label: ad deprovision users
-description: Solution guide for active directory cleanup users ad deprovision users including implementation steps, configuration, and best practices.
----
-
 # AD_DeprovisionUsers Job
 
 The AD_DeprovisionUsers Job provides an automated workflow deprovision stale and unused user

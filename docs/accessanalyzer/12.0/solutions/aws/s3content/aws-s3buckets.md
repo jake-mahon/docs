@@ -1,9 +1,3 @@
----
-title: aws s3content aws s3buckets
-sidebar_label: aws s3buckets
-description: Solution guide for aws s3content aws s3buckets including implementation steps, configuration, and best practices.
----
-
 # AWS_S3Buckets Job
 
 The AWS_S3Buckets job provides a summary of AWS S3 buckets including total object size and counts.

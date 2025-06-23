@@ -1,10 +1,3 @@
----
-title: Exchange Changes Event Type
-sidebar_label: Exchange Changes Event Type
-description: The Exchange Changes event type produces events for specified activities on the Exchange Server. The event filters for the Exchange Changes event type are:
-
----
-
 # Exchange Changes Event Type
 
 The Exchange Changes event type produces events for specified activities on the Exchange Server.

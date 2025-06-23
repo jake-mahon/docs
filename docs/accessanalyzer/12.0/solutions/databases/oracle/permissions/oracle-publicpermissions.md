@@ -1,9 +1,3 @@
----
-title: databases oracle permissions oracle publicpermissions
-sidebar_label: oracle publicpermissions
-description: Solution guide for databases oracle permissions oracle publicpermissions including implementation steps, configuration, and best practices.
----
-
 # Oracle_PublicPermissions Job
 
 The Oracle_PublicPermissions Job provides a list of permissions assigned to Public profile in

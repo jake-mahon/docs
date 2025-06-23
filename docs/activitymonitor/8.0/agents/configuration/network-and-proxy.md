@@ -1,9 +1,3 @@
----
-title: Agent Network and Proxy Configuration
-sidebar_label: Network Proxy
-description: Configure DNS settings and network options for Activity Monitor agents including local DNS cache service and proxy configurations.
----
-
 # DNS Tab
 
 Use the DNS tab to customize how the agent queries and caches DNS results.

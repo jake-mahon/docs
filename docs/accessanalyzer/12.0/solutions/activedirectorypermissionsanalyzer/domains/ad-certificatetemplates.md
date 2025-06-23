@@ -1,9 +1,3 @@
----
-title: activedirectorypermissionsanalyzer domains ad certificatetemplates
-sidebar_label: ad certificatetemplates
-description: Solution guide for activedirectorypermissionsanalyzer domains ad certificatetemplates including implementation steps, configuration, and best practices.
----
-
 # AD_CertificateTemplates Job
 
 The AD_CertificateTemplates job provides details on certificate template settings.

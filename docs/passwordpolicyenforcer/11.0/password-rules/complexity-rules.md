@@ -1,9 +1,3 @@
----
-title: Password Complexity Rules Configuration
-sidebar_label: Complexity Rules
-description: Configure password complexity rules in Password Policy Enforcer to enforce character variety requirements from different character classes.
----
-
 # Characters (Complexity) Rule
 
 The Complexity rule rejects passwords that do not contain characters from a variety of character

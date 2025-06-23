@@ -1,9 +1,3 @@
----
-title: unique key
-sidebar_label: unique key
-description: Documentation for unique key functionality in Access Analyzer including configuration and usage information.
----
-
 # Change Detection: Unique Key
 
 Use the Unique Key page to select one or more columns that, when put together as a ROWKEY, uniquely

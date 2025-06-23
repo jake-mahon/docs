@@ -1,9 +1,3 @@
----
-title: display types
-sidebar_label: display-types
-description: Directory Manager 11.1 documentation for display types with configuration details, usage instructions, and implementation guidance.
----
-
 # Display Type Categories
 
 Using display types, you can publish fields in a Directory Manager portal to capture and view data.

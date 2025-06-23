@@ -1,9 +1,3 @@
----
-title: timeframes
-sidebar_label: timeframes
-description: Documentation for timeframes functionality in Access Analyzer including configuration and usage information.
----
-
 # ExchangeMetrics: Time Frames
 
 The Time Frames page is used to configure message delivery time frames for which to return summary

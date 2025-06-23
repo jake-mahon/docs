@@ -1,9 +1,3 @@
----
-title: Add Connection Profile
-sidebar_label: add connection profile
-description: Administrative configuration and management features for Privilege Secure PAM solution including user management, policies, and security settings.
----
-
 # Add Connection Profile
 
 Follow the steps to add a connection profile to the console. See the

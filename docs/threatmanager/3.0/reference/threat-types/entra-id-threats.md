@@ -1,9 +1,3 @@
----
-title: Entra ID Threat Types
-sidebar_label: Entra ID Threats
-description: Reference guide for Microsoft Entra ID threats including application permission changes, compromised users, impossible travel, and sensitive role changes.
----
-
 # Entra ID Threats
 
 The following threats are monitored for Microsoft Entra ID.

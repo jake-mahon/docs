@@ -1,9 +1,3 @@
----
-title: Filter Operators Reference
-sidebar_label: Filter Operators
-description: Reference guide for filter operators and conditions used in search queries for precise security event filtering.
----
-
 # Filter Operators
 
 When applying filters at search, you can specify operators that should be used as conditions for

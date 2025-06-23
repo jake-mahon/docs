@@ -1,9 +1,3 @@
----
-title: command line
-sidebar_label: command line
-description: Documentation for command line functionality in Access Analyzer including configuration and usage information.
----
-
 # Notification: Command Line
 
 The Command Line properties page is available when the Command-line Executable notification type is

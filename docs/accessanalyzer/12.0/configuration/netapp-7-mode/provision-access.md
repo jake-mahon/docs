@@ -1,9 +1,3 @@
----
-title: provision access
-sidebar_label: provision access
-description: Documentation for provision access functionality in Access Analyzer including configuration and usage information.
----
-
 # Provision Account
 
 This section describes the steps needed to create a user account with the privileges required to

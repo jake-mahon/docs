@@ -1,9 +1,3 @@
----
-title: exchange publicfolders growthsize overview
-sidebar_label: overview
-description: Solution guide for exchange publicfolders growthsize overview including implementation steps, configuration, and best practices.
----
-
 # Growth and Size Job Group
 
 The Growth and Size job group is comprised of data collection, analysis, and reports that focus on

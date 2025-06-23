@@ -1,9 +1,3 @@
----
-title: Remote Work Delivery Knowledge Base
-sidebar_label: Knowledge Base
-description: Tips, tricks, and troubleshooting articles for Remote Work Delivery Manager including sequential installs and file synchronization guides.
----
-
 # Knowledge Base
 
 See the following Knowledge Base articles for Remote Work Delivery Manager.

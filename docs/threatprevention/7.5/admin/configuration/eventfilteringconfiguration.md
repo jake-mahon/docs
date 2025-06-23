@@ -1,9 +1,3 @@
----
-title: Event Filtering Configuration Window
-sidebar_label: Event Filtering
-description: Configure event filtering to exclude specific Active Directory and authentication events from monitoring, set latency thresholds, and manage noise reduction.
----
-
 # Event Filtering Configuration Window
 
 The Event Filtering Configuration window enables you to exclude specific Active Directory and

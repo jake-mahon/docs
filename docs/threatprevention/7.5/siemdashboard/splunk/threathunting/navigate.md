@@ -1,9 +1,3 @@
----
-title: Navigate the Threat Hunting App for Splunk
-sidebar_label: Navigate Threat Hunting App
-description: The Netwrix Threat Hunting App for Splunk contains only one dashboard called Threat Hunting. !ribbon - The Timeframe interval is identified in the upper-left...
----
-
 # Navigate the Threat Hunting App for Splunk
 
 The Netwrix Threat Hunting App for Splunk contains only one dashboard called Threat Hunting.

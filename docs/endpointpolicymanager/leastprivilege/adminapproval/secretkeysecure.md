@@ -1,9 +1,3 @@
----
-title: Secure Admin Approval Secret Keys
-sidebar_label: Secure Keys
-description: Protect admin approval secret keys in Group Policy by configuring proper GPO permissions and restricting user access to encrypted key data.
----
-
 # Securing the Secret Key When Using the Group Policy Method
 
 The secret key of Admin Approval is stored within the XML inside the GPO, as seen here.

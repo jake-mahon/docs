@@ -1,9 +1,3 @@
----
-title: Monitor Weak Passwords Use Case
-sidebar_label: Monitor Weak Passwords Use
-description: Any Threat Prevention license can use the Password Enforcement Event type to monitor for the creation of weak passwords in your environment.
----
-
 # Monitor Weak Passwords Use Case
 
 Any Threat Prevention license can use the Password Enforcement Event type to monitor for the

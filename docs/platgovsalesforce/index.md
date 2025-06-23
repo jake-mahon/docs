@@ -1,9 +1,3 @@
----
-title: Platform Governance for Salesforce Overview
-sidebar_label: Overview
-description: Enterprise governance and compliance solution for Salesforce implementations with automated documentation, change tracking, and compliance management.
----
-
 # Platform Governance for Salesforce
 
 > Enterprise governance and compliance for Salesforce implementations

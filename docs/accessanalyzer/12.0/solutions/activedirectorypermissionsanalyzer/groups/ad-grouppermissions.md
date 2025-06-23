@@ -1,9 +1,3 @@
----
-title: activedirectorypermissionsanalyzer groups ad grouppermissions
-sidebar_label: ad grouppermissions
-description: Solution guide for activedirectorypermissionsanalyzer groups ad grouppermissions including implementation steps, configuration, and best practices.
----
-
 # AD_GroupPermissions Job
 
 The AD_Permissions job reports on all Active Directory permissions and ownership applied to group

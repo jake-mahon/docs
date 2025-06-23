@@ -1,9 +1,3 @@
----
-title: Active Directory Automatic Configuration
-sidebar_label: Automatic Configuration
-description: Enable automatic audit settings adjustment for Active Directory domains to ensure optimal monitoring configuration without manual intervention.
----
-
 # Active Directory: automatic configuration
 
 This is a recommended method of applying Active Directory audit settings required by Netwrix 1Secure

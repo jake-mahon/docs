@@ -1,9 +1,3 @@
----
-title: Go Live Checklist and FAQ
-sidebar_label: Go Live
-description: Common questions and guidance for Platform Governance go-live process including change requests, customizations, and troubleshooting.
----
-
 # Go Live Frequently Asked Questions
 
 Here is a list of common questions customers have asked after they Go Live.

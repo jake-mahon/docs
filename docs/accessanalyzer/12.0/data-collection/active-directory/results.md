@@ -1,9 +1,3 @@
----
-title: results
-sidebar_label: results
-description: Documentation for results functionality in Access Analyzer including configuration and usage information.
----
-
 # ActiveDirectory: Results
 
 The Results page is where Active Directory object properties to be gathered are selected. It is a

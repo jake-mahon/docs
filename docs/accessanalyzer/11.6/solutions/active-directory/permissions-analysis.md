@@ -1,9 +1,3 @@
----
-title: active directory permissions analysis
-sidebar_label: permissions analysis
-description: Solution guide for active directory permissions analysis including implementation steps, configuration, and best practices.
----
-
 # 6.Broken Inheritance > AD_BrokenInheritance Job
 
 The AD_BrokenInheritance Job reports on all locations within Active Directory where inheritance is

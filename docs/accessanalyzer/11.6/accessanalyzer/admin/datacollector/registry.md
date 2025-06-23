@@ -1,9 +1,3 @@
----
-title: Users jordan.violet development docs docs accessanalyzer 11.6 accessanalyzer admin datacollector Data Collector registry
-sidebar_label: registry
-description: Data collector documentation for  Users jordan.violet development docs docs accessanalyzer 11.6 accessanalyzer admin datacollector registry including configuration options and collection settings.
----
-
 # Registry Data Collector
 
 The Registry Data Collector queries the registry and returns keys, key values, and permissions on

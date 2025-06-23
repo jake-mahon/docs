@@ -1,9 +1,3 @@
----
-title: SmartLog Log Type Configuration
-sidebar_label: Log Type
-description: Log type configuration for SmartLog data collector including supported log formats and parsing options.
----
-
 # SMARTLog: Log Type
 
 The Log Type page is used to select the log type to be processed.

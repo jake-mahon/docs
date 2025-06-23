@@ -1,9 +1,3 @@
----
-title: windows privilegedaccounts logonrights collection overview
-sidebar_label: overview
-description: Solution guide for windows privilegedaccounts logonrights collection overview including implementation steps, configuration, and best practices.
----
-
 # Collection Job Group
 
 The Collection job group collects group policy settings, local users, and local group membership

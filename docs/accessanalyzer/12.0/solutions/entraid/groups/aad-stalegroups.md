@@ -1,9 +1,3 @@
----
-title: entraid groups aad stalegroups
-sidebar_label: aad stalegroups
-description: Solution guide for entraid groups aad stalegroups including implementation steps, configuration, and best practices.
----
-
 # AAD_StaleGroups Job
 
 The AAD_StaleGroups Job identifies Microsoft Entra ID groups that contain potentially stale users.

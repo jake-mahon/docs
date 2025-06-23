@@ -1,9 +1,3 @@
----
-title: Save Time with File Delivery
-sidebar_label: Save Time
-description: Discover how Remote Work Delivery Manager saves time and effort by providing different benefits based on your deployment method.
----
-
 # Save Time and Effort with Endpoint Policy Manager File Delivery Manager
 
 With Endpoint Policy Manager Remote Work Delivery Manager, you get different benefits based on the

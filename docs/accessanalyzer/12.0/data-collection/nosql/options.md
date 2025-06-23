@@ -1,9 +1,3 @@
----
-title: options
-sidebar_label: options
-description: Documentation for options functionality in Access Analyzer including configuration and usage information.
----
-
 # NoSQL: Options
 
 Use the Sensitive Data Scan Settings (Options) page to configure additional settings for the

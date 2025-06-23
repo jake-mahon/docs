@@ -1,9 +1,3 @@
----
-title: exchange publicfolders ownership overview
-sidebar_label: overview
-description: Solution guide for exchange publicfolders ownership overview including implementation steps, configuration, and best practices.
----
-
 # Ownership Job Group
 
 The Ownership job group is comprised of analysis and reports that focus on public folder ownership,

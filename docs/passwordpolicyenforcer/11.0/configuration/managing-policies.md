@@ -1,9 +1,3 @@
----
-title: Managing Password Policies
-sidebar_label: Managing Policies
-description: Manage Password Policy Enforcer policies including creating, editing, and assigning up to 256 different password policies.
----
-
 # Manage Policies
 
 Netwrix Password Policy Enforcer can enforce up to 256 different password policies. You can assign

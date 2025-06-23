@@ -1,9 +1,3 @@
----
-title: workflow getwfroute API
-sidebar_label: getwfroute
-description: API reference for getwfroute operations in Directory Manager with request parameters, response examples, and implementation details.
----
-
 # Get a Workflow Route
 
 Use this API to get workflow route id of which is specified in the end point URL.

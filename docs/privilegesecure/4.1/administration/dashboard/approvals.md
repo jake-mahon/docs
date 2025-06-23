@@ -1,9 +1,3 @@
----
-title: Approvals Dashboard
-sidebar_label: approvals
-description: Administrative configuration and management features for Privilege Secure PAM solution including user management, policies, and security settings.
----
-
 # Approvals Dashboard
 
 The Approvals Dashboard displays requested sessions that require approval. Users and group members

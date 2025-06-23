@@ -1,9 +1,3 @@
----
-title: syncjobs deletejobcollections API
-sidebar_label: deletejobcollections
-description: API reference for deletejobcollections operations in Directory Manager with request parameters, response examples, and implementation details.
----
-
 # Delete Job Collections
 
 Use this API to delete job collections specified in the end point URL.

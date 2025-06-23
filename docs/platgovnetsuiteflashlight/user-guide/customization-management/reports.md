@@ -1,9 +1,3 @@
----
-title: Customization Quality Reports
-sidebar_label: Reports
-description: NetSuite best practice reports for identifying poor Script IDs, missing descriptions, inactive owners, missing help text, and deleted customizations.
----
-
 # Customization Reports
 
 Flashlight provides a set of useful reports to help you ensure that your account customizations

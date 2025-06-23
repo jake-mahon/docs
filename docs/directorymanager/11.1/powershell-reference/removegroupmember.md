@@ -1,9 +1,3 @@
----
-title: Remove groupmember Cmdlet
-sidebar_label: removegroupmember
-description: PowerShell cmdlet reference for removegroupmember with parameter details, syntax examples, and usage instructions for Directory Manager.
----
-
 # Remove-GroupMember
 
 Use this commandlet to remove one or more members from a group membership.

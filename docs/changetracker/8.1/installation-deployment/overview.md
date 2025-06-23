@@ -1,9 +1,3 @@
----
-title: Installation and Deployment Overview
-sidebar_label: Overview
-description: Complete installation guide including system requirements, hub installation for Windows, and Gen 7 Agent installation for Windows and Linux platforms.
----
-
 # Installation
 
 Review the following for additional information:

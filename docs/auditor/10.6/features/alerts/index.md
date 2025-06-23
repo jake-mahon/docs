@@ -1,9 +1,3 @@
----
-title: Security Alerts Configuration
-sidebar_label: Alerts
-description: Configure security alerts in Netwrix Auditor to receive notifications about suspicious activities and critical events for risk mitigation.
----
-
 # Alerts
 
 If you want to be notified about suspicious activity, you can configure alerts that will be

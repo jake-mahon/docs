@@ -1,9 +1,3 @@
----
-title: Security
-sidebar_label: Security
-description: On this step, you are prompted to restrict access to administrative web console by adding users. !initial_config_users administrative web console. By default...
----
-
 # Security
 
 On this step, you are prompted to restrict access to administrative web console by adding users.

@@ -1,9 +1,3 @@
----
-title: databases sql activity sql logons
-sidebar_label: sql logons
-description: Solution guide for databases sql activity sql logons including implementation steps, configuration, and best practices.
----
-
 # SQL_Logons Job
 
 The SQL_Logons Job provides insight into failed and successful SQL and Azure SQL server logon

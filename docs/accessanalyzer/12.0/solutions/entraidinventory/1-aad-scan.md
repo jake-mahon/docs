@@ -1,9 +1,3 @@
----
-title: entraidinventory 1 aad scan
-sidebar_label: 1 aad scan
-description: Solution guide for entraidinventory 1 aad scan including implementation steps, configuration, and best practices.
----
-
 # 1-AAD_Scan Job
 
 The **1-AAD_Scan** job is responsible for collecting data from Microsoft Entra ID. This job requires

@@ -1,9 +1,3 @@
----
-title: databases mysql collection mysql configuration
-sidebar_label: mysql configuration
-description: Solution guide for databases mysql collection mysql configuration including implementation steps, configuration, and best practices.
----
-
 # MySQL_Configuration Job
 
 The MySQL_Configuration Job is designed to collect MySQL server instance and database configuration

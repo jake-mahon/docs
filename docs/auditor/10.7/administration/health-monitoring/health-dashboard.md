@@ -1,9 +1,3 @@
----
-title: health dashboard
-sidebar_label: health-dashboard
-description: Auditor 10.7 documentation for health dashboard with configuration details, usage instructions, and implementation guidance.
----
-
 # Netwrix Auditor Health Log
 
 Daily summary of the Netwrix Auditor health log is displayed in the Health log widget. The chart

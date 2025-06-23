@@ -1,9 +1,3 @@
----
-title: Threat Prevention 7.5
-sidebar_label: Threat Prevention 7.5
-description: Enhanced real-time protection for Active Directory, Exchange, and file systems with improved SIEM integration and automated threat blocking capabilities.
----
-
 # Threat Prevention 7.5
 
 > Real-time protection layer for critical enterprise systems

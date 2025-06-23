@@ -1,9 +1,3 @@
----
-title: filesystem activity forensics overview
-sidebar_label: overview
-description: Solution guide for filesystem activity forensics overview including implementation steps, configuration, and best practices.
----
-
 # Forensics Job Group
 
 The Forensics job group is designed to report on forensic related activity event information from

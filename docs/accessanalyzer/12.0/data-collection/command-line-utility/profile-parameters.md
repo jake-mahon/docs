@@ -1,9 +1,3 @@
----
-title: profile parameters
-sidebar_label: profile parameters
-description: Documentation for profile parameters functionality in Access Analyzer including configuration and usage information.
----
-
 # CLU: Profile Parameters
 
 The Profile Parameters page provides settings to configure the parameters for the profile. It is a

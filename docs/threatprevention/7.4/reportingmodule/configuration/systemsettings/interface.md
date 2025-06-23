@@ -1,9 +1,3 @@
----
-title: System Settings Interface
-sidebar_label: System Settings Interface
-description: The System Settings interface provides access to system logs, user access controls, licensing, and more.
----
-
 # System Settings Interface
 
 The System Settings interface provides access to system logs, user access controls, licensing, and

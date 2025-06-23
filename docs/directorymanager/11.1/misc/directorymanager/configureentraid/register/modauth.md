@@ -1,9 +1,3 @@
----
-title: modauth
-sidebar_label: modauth
-description: Directory Manager 11.1 documentation for modauth with configuration details, usage instructions, and implementation guidance.
----
-
 # Certificate for Entra ID Authentication
 
 While configuring Directory Manager application in Microsoft Entra ID you must provide a certificate

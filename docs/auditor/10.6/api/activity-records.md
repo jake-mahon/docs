@@ -1,9 +1,3 @@
----
-title: activity records API Reference
-sidebar_label: activity records
-description: Auditor 10.6 API reference for activity records functionality with endpoint details, authentication, and implementation examples.
----
-
 # Reference for Creating Activity Records
 
 The table below describes Activity Record elements.

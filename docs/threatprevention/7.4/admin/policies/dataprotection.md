@@ -1,9 +1,3 @@
----
-title: Data Protection
-sidebar_label: Data Protection
-description: Under the Policies node, you can protect collected event data at the folder level. Select a folder in the Policies node list to view the following two protec...
----
-
 # Data Protection
 
 Under the Policies node, you can protect collected event data at the folder level.

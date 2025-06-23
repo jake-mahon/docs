@@ -1,9 +1,3 @@
----
-title: Pattern and Repetition Password Rules
-sidebar_label: Patterns and Repetition
-description: Configure pattern and repetition rules in Password Policy Enforcer to reject passwords with weak character patterns and repetitive sequences.
----
-
 # Patterns Rule
 
 The Patterns rule rejects passwords that contain character patterns such as "abcde". Character

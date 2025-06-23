@@ -1,9 +1,3 @@
----
-title: report subscriptions
-sidebar_label: report-subscriptions
-description: Auditor 10.7 documentation for report subscriptions with configuration details, usage instructions, and implementation guidance.
----
-
 # Create Subscriptions
 
 To create new subscriptions and manage existing subscriptions, you must be assigned the Global

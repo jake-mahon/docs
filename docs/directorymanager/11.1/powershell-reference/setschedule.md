@@ -1,9 +1,3 @@
----
-title: Set schedule Cmdlet
-sidebar_label: setschedule
-description: PowerShell cmdlet reference for setschedule with parameter details, syntax examples, and usage instructions for Directory Manager.
----
-
 # Set-Schedule
 
 The commandlet Set-Schedule modifies the attributes and settings of a schedule in the identity store

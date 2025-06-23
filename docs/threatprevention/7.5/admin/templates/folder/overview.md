@@ -1,9 +1,3 @@
----
-title: Pre-Created Templates
-sidebar_label: Pre-Created Templates
-description: Collection of pre-configured policy templates including security, infrastructure, Microsoft, and SIEM templates for rapid deployment.
----
-
 # Pre-Created Templates
 
 Threat Prevention comes with several policy templates that cover a wide range of event monitoring

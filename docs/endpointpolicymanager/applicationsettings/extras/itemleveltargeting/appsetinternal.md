@@ -1,9 +1,3 @@
----
-title: AppSet Internal Item-Level Targeting
-sidebar_label: Internal Targeting
-description: Understand built-in Item-Level Targeting filters in preconfigured AppSets that target specific OS versions or application versions automatically.
----
-
 # Internal Item-Level Targeting for the AppSet Itself
 
 **NOTE:** To see an overview of Internal ItemLevel Targeting, including how to bypass the filters,

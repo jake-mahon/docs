@@ -1,9 +1,3 @@
----
-title: Database
-sidebar_label: Manage Database
-description: This section describes how to specify configuration settings for the Database source. You can specify which tables / views / queries will be crawled, or set ...
----
-
 # Database
 
 This section describes how to specify configuration settings for the Database source. You can

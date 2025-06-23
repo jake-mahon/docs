@@ -1,9 +1,3 @@
----
-title: Welcome to NetSuite Flashlight
-sidebar_label: Welcome
-description: NetSuite Documentation for Everybody! Easy to install, understand, and maintain with automatic documentation of customizations and clean system optimization.
----
-
 # Welcome
 
 Flashlight™ by Strongpoint is NetSuite Documentation for Everybody! Easy to install, easy to

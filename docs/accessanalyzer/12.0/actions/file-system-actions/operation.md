@@ -1,9 +1,3 @@
----
-title: operation
-sidebar_label: operation
-description: Documentation for operation functionality in Access Analyzer including configuration and usage information.
----
-
 # File System Action: Operation
 
 The Operation page is available when **Define a new action** is selected on the Action page. On the

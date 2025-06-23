@@ -1,9 +1,3 @@
----
-title: filesystem cleanup fs cleanupprogress
-sidebar_label: fs cleanupprogress
-description: Solution guide for filesystem cleanup fs cleanupprogress including implementation steps, configuration, and best practices.
----
-
 # FS_CleanupProgress Job
 
 The FS_CleanupProgress job summarizes the progress of the cleanup effort and highlights the amount

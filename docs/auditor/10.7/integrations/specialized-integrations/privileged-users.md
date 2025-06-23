@@ -1,9 +1,3 @@
----
-title: privileged users
-sidebar_label: privileged-users
-description: Auditor 10.7 documentation for privileged users with configuration details, usage instructions, and implementation guidance.
----
-
 # Work with Collected Data
 
 Follow the steps to work with collected data:

@@ -1,9 +1,3 @@
----
-title: Audit & Reporting Interface
-sidebar_label: Overview
-description: Administrative configuration and management features for Privilege Secure PAM solution including user management, policies, and security settings.
----
-
 # Audit & Reporting Interface
 
 The Audit and Reporting interface provides auditing and reporting tools to interrogate all logged

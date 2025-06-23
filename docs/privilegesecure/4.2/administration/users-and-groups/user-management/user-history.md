@@ -1,9 +1,3 @@
----
-title: History Tab
-sidebar_label: user history
-description: Administrative configuration and management features for Privilege Secure PAM solution including user management, policies, and security settings.
----
-
 # History Tab
 
 The History tab shows information about the session history of the selected user, group, or

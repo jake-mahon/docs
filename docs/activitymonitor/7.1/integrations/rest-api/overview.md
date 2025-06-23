@@ -1,9 +1,3 @@
----
-title: Activity Monitor REST API Overview
-sidebar_label: REST API
-description: Comprehensive guide to Activity Monitor REST API including setup, authentication, schema information, and agent management capabilities.
----
-
 # REST API
 
 ## Overview

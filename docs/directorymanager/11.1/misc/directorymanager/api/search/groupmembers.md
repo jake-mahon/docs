@@ -1,9 +1,3 @@
----
-title: search groupmembers API
-sidebar_label: groupmembers
-description: API reference for groupmembers operations in Directory Manager with request parameters, response examples, and implementation details.
----
-
 # Search Group Members
 
 Use this API to search members of a specified group using the member attribute.

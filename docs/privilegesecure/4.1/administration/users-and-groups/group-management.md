@@ -1,9 +1,3 @@
----
-title: Group Roles Tab
-sidebar_label: group management
-description: Administrative configuration and management features for Privilege Secure PAM solution including user management, policies, and security settings.
----
-
 # Group Roles Tab
 
 The Group Roles tab shows whether the current group has been assigned an application role.

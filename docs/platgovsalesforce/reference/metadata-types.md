@@ -1,9 +1,3 @@
----
-title: Documented Metadata Types Reference
-sidebar_label: Metadata Types
-description: Comprehensive reference of over 120 Salesforce metadata types documented by Platform Governance organized by categories and subcategories.
----
-
 # What is Documented
 
 ## Object Types Captured and Documented in the Customization Record

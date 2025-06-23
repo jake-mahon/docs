@@ -1,9 +1,3 @@
----
-title: category
-sidebar_label: category
-description: Documentation for category functionality in Access Analyzer including configuration and usage information.
----
-
 # Exchange2K: Category
 
 The Exchange2K Data Collector contains the following query categories, sub-divided by auditing

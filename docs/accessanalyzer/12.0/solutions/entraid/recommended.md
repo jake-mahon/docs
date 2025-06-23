@@ -1,9 +1,3 @@
----
-title: entraid recommended
-sidebar_label: recommended
-description: Solution guide for entraid recommended including implementation steps, configuration, and best practices.
----
-
 # Recommended Configurations for Entra ID Job Group
 
 The Entra ID Solution has been configured to inherit down from the job group **Settings** node. The

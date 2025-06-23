@@ -1,9 +1,3 @@
----
-title: index
-sidebar_label: index
-description: Auditor 10.7 documentation for index with configuration details, usage instructions, and implementation guidance.
----
-
 # Netwrix Auditor Operations and Health
 
 This topic describes how you can monitor Auditor operations, health and resource usage. See the

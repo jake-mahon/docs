@@ -1,9 +1,3 @@
----
-title: File Target Files Configuration
-sidebar_label: Target Files
-description: Configuration page for selecting target files and directories for File data collector scanning and analysis.
----
-
 # File: Target Files
 
 The Target Files page provides filters to scope the data collection. This can provide better search

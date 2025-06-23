@@ -1,9 +1,3 @@
----
-title: Add Taxonomy
-sidebar_label: Taxonomies
-description: On this step, you are prompted to load predefined taxonomies. !processing_settings_taxonomies Click the search bar and select one or several taxonomies you...
----
-
 # Add Taxonomy
 
 On this step, you are prompted to load predefined taxonomies.

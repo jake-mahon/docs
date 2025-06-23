@@ -1,9 +1,3 @@
----
-title: Billable Users Report
-sidebar_label: Billable Users Report
-description: Generate reports on billable Active Directory accounts with detailed user information and account status tracking.
----
-
 # Billable Users Report
 
 A Billable Users report provides information on the billable accounts – the enabled Active

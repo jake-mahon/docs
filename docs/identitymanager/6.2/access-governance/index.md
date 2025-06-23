@@ -1,9 +1,3 @@
----
-title: Access Governance Overview
-sidebar_label: Access Governance
-description: Control entitlement assignments and measure IGA policy efficiency through role models, risk management, certification campaigns, and reporting.
----
-
 # Governance
 
 Identity Manager's governance features intend to provide tools that control assignments of

@@ -1,9 +1,3 @@
----
-title: publicgroups
-sidebar_label: publicgroups
-description: Directory Manager 11.1 documentation for publicgroups with configuration details, usage instructions, and implementation guidance.
----
-
 # Public Groups
 
 This view lists only the public groups created using Directory Manager in the connected identity

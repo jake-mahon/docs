@@ -1,9 +1,3 @@
----
-title: Portal synchronize collection synchronizedjobcollection
-sidebar_label: synchronizedjobcollection
-description: Directory Manager portal documentation for synchronize collection functionality including user interface, navigation, and operational procedures.
----
-
 # Synchronized Job Collection
 
 On the Synchronize Job Collection page, you view the list of jobs that you have added to the

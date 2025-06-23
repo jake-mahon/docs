@@ -1,9 +1,3 @@
----
-title: Internet Explorer Privacy Tab Management
-sidebar_label: Privacy Tab
-description: Learn to manage Internet Explorer privacy tab settings including cookie handling, pop-up blockers, and InPrivate browsing using Endpoint Policy Manager.
----
-
 # Manage IE Privacy tab
 
 Netwrix Endpoint Policy Manager (formerly PolicyPak): Manage IE Privacy tab

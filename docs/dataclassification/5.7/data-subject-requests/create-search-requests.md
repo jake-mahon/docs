@@ -1,9 +1,3 @@
----
-title: Create Search Requests
-sidebar_label: Create Search Requests
-description: Search requests are generally batched and run as one (with the scheduled time set by the Super User/s), as this will deliver maximum performance, minimize...
----
-
 # Create Search Requests
 
 Search requests are generally batched and run as one (with the scheduled time set by the Super

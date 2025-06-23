@@ -1,9 +1,3 @@
----
-title: overview
-sidebar_label: overview
-description: Documentation for overview functionality in Access Analyzer including configuration and usage information.
----
-
 # WMICollector Data Collector
 
 The WMICollector Data Collector identifies data for certain types of WMI classes and namespaces. The

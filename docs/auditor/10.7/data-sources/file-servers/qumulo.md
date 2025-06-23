@@ -1,9 +1,3 @@
----
-title: qumulo
-sidebar_label: qumulo
-description: Auditor 10.7 documentation for qumulo with configuration details, usage instructions, and implementation guidance.
----
-
 # Working with Collected Data
 
 To leverage data collected with the add-on, you can do the following in Netwrix Auditor:

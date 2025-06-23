@@ -1,9 +1,3 @@
----
-title: Chrome Clear Browsing History Cookies
-sidebar_label: Chrome Clear Browsing
-description: Learn to use Endpoint Policy Manager to automatically clear Chrome browsing history, cookies, passwords, cached images, and autofill data at application launch.
----
-
 # Google Chrome: Clear Browsing History, Cookies, Password, Images and more
 
 Of course you want to have nice clean browsing history, download history, cookies and other site and

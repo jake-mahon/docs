@@ -1,9 +1,3 @@
----
-title: License Types Standard vs Complete
-sidebar_label: License Types
-description: Compare Endpoint Privilege Manager Standard and Complete license features including executable policies, SecureRun, and advanced privilege controls.
----
-
 # What is the difference between Endpoint Privilege Manager Standard and Complete licenses?
 
 The Netwrix Endpoint Policy Manager (formerly PolicyPak) Least Privilege Manager UI has designations

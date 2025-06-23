@@ -1,9 +1,3 @@
----
-title: overview Administration
-sidebar_label: overview
-description: Administration guide for overview including configuration, management, and best practices for Access Analyzer.
----
-
 # Jobs Tree
 
 Jobs are the fundamental unit of Access Analyzer. It is through jobs that all data collection

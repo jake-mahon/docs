@@ -1,9 +1,3 @@
----
-title: Application Server Installation
-sidebar_label: Application Server
-description: Application server installation guide for Threat Prevention Enterprise Manager and Administration Console components.
----
-
 # Install the Netwrix Threat Manager Reporting Module
 
 The application can be installed on the same server as the PostgreSQL databases or a different

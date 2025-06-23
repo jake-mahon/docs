@@ -1,9 +1,3 @@
----
-title: SmartLog Results Configuration
-sidebar_label: Results
-description: Configuration page for selecting SmartLog data collector results including log entries, events, and analysis data.
----
-
 # SMARTLog: Results
 
 The Results page is where the events to be returned by the query are selected. It is a wizard page

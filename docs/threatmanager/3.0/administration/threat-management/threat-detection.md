@@ -1,9 +1,3 @@
----
-title: Threat Detection Configuration
-sidebar_label: Threat Detection
-description: Configure and manage threat detection settings including pre-configured threats, custom threats, and threat monitoring configuration options.
----
-
 # Threat Detection Page
 
 The Threat Detection page provides an interface to view and configure threats detected by Threat

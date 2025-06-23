@@ -1,9 +1,3 @@
----
-title: Getting Started with Privilege Secure
-sidebar_label: Getting Started
-description: Documentation for Privilege Secure privileged access management solution covering features, configuration, and usage procedures.
----
-
 # Getting Started
 
 Getting Started

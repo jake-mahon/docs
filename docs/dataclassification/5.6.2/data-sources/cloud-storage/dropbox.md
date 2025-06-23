@@ -1,9 +1,3 @@
----
-title: Dropbox
-sidebar_label: Dropbox
-description: The Dropbox source configuration screen allows you to enable the crawling and classification of content stored in Dropbox cloud storage. IMPORTANT! Make sure...
----
-
 # Dropbox
 
 The Dropbox source configuration screen allows you to enable the crawling and classification of

@@ -1,9 +1,3 @@
----
-title: widgets
-sidebar_label: widgets
-description: Documentation for widgets functionality in Access Analyzer including configuration and usage information.
----
-
 # Widgets Page
 
 The Widgets page of the Report Configuration wizard allows you to configure the tables, charts, and

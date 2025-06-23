@@ -1,9 +1,3 @@
----
-title: filesystem cleanup quarantine fs quarantinedata
-sidebar_label: fs quarantinedata
-description: Solution guide for filesystem cleanup quarantine fs quarantinedata including implementation steps, configuration, and best practices.
----
-
 # FS_QuarantineData Job
 
 The FS_QuarantineData job is designed to quarantine files subject to be cleaned up.

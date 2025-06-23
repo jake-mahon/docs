@@ -1,9 +1,3 @@
----
-title: log
-sidebar_label: log
-description: Documentation for log functionality in Access Analyzer including configuration and usage information.
----
-
 # Discovery Log
 
 The **Host Discovery** > **Discovery Log** node lists host discovery logs. These logs house

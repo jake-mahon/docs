@@ -1,9 +1,3 @@
----
-title: expiregroups
-sidebar_label: expiregroups
-description: Directory Manager 11.1 documentation for expiregroups with configuration details, usage instructions, and implementation guidance.
----
-
 # Expire Groups
 
 This API expires multiple groups whose identities are provided in the request body.

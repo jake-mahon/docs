@@ -1,9 +1,3 @@
----
-title: Password Masking Protection
-sidebar_label: Password Masking
-description: Configure password masking to prevent password visibility while enabling automatic sign-on for maximum security through hidden credential access.
----
-
 # Password masking
 
 ## What is password masking?

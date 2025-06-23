@@ -1,9 +1,3 @@
----
-title: Windows Open Access Job Configuration
-sidebar_label: Open Access
-description: Recommended configurations for the Open Access job group including dependencies, scheduling, and workflow steps for identifying open access permissions.
----
-
 # Recommended Configurations for the Open Access Job Group
 
 Dependencies

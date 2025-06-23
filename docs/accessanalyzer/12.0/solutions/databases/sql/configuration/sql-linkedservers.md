@@ -1,9 +1,3 @@
----
-title: databases sql configuration sql linkedservers
-sidebar_label: sql linkedservers
-description: Solution guide for databases sql configuration sql linkedservers including implementation steps, configuration, and best practices.
----
-
 # SQL_LinkedServers Job
 
 The SQL_LinkedServers Job identifies Linked Servers or remote database servers on which the

@@ -1,9 +1,3 @@
----
-title: Getting Started: proxy mode service ports
-sidebar_label: proxy mode service ports
-description: Getting started guide for proxy mode service ports in Access Analyzer including setup instructions and initial configuration steps.
----
-
 # Proxy Mode as a Service Port Requirements
 
 The following are the firewall settings are required when executing the Access Auditing (FSAA)

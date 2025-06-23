@@ -1,9 +1,3 @@
----
-title: Bad User ID by User Analytics
-sidebar_label: Bad User ID by User
-description: Analytics for tracking authentication failures due to invalid usernames grouped by user account for targeted attack detection.
----
-
 # Bad User ID (by User) Analytic Type
 
 The **Bad User ID (by user)** analytic type identifies pre-authentication failures due to using

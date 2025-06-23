@@ -1,9 +1,3 @@
----
-title: review process
-sidebar_label: review-process
-description: Auditor 10.7 documentation for review process with configuration details, usage instructions, and implementation guidance.
----
-
 # Approval Process
 
 After all owners assigned to a specific review have submitted their review, its status on the Manage

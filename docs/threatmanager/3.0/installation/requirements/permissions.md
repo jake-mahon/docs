@@ -1,9 +1,3 @@
----
-title: Threat Manager Permissions Requirements
-sidebar_label: Permissions
-description: Required permissions for Active Directory sync and Entra ID sync service accounts including object types, functions, and access requirements.
----
-
 # Permissions for Active Directory Sync
 
 The following permissions are required for the credential used by Threat Manager for Active

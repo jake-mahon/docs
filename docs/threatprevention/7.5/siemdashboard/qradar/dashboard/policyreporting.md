@@ -1,9 +1,3 @@
----
-title: Policy Reporting Dashboard
-sidebar_label: Policy Reporting Dashboard
-description: The Policy Reporting dashboard is for viewing Threat Prevention events from any enabled policy that is sending events to QRadar. This dashboard requires the ...
----
-
 # Policy Reporting Dashboard
 
 The Policy Reporting dashboard is for viewing Threat Prevention events from any enabled policy that

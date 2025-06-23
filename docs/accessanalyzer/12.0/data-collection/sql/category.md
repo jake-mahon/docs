@@ -1,9 +1,3 @@
----
-title: category
-sidebar_label: category
-description: Documentation for category functionality in Access Analyzer including configuration and usage information.
----
-
 # SQL: Category
 
 The Category page in the SQL Data Collector Wizard lists the available query categories, sub-divided

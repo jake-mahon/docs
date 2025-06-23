@@ -1,9 +1,3 @@
----
-title: Browser Router Website Blacklist Whitelist
-sidebar_label: Security Zones
-description: Configure Browser Router to block Internet websites while allowing specific sites using security zone policies and rule ordering for comprehensive access control.
----
-
 # Is it possible to prevent all Internet websites, but allow just a few? (Blacklist websites, whitelist some?)
 
 This is possible, using the Netwrix Endpoint Policy Manager (formerly PolicyPak) Browser Router.

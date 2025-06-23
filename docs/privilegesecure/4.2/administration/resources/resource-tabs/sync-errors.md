@@ -1,9 +1,3 @@
----
-title: Sync Errors Tab for Domain
-sidebar_label: sync errors
-description: Administrative configuration and management features for Privilege Secure PAM solution including user management, policies, and security settings.
----
-
 # Sync Errors Tab for Domain
 
 The Sync Errors tab displays the synchronization error log for the selected resource.

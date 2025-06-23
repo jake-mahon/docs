@@ -1,9 +1,3 @@
----
-title: Bad User ID by Source Host Analytics
-sidebar_label: Bad User ID by Source Host
-description: Detection of authentication attempts with invalid usernames grouped by source host to identify scanning and enumeration attacks.
----
-
 # Bad User ID (by Source Host) Analytic Type
 
 The **Bad User ID (by source host)** analytic type identifies pre-authentication failures due to

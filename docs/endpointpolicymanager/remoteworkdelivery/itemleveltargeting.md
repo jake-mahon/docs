@@ -1,9 +1,3 @@
----
-title: Using Item-Level Targeting with Collections and Policies
-sidebar_label: Item-Level Targeting
-description: Use Item-Level Targeting to filter and target Remote Work Delivery Manager policies. Configure targeting for software prerequisites, mobile computers, and more.
----
-
 # Using Item-Level Targeting with Collections and Policies
 
 Item-Level Targeting is used in Microsoft Group Policy Preferences and other areas of Netwrix

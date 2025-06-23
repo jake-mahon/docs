@@ -1,9 +1,3 @@
----
-title: Exchange Online Activity Auditing Configuration
-sidebar_label: Exchange Online
-description: Configure Exchange Online activity monitoring with Microsoft Entra ID registration for comprehensive email and mailbox activity tracking.
----
-
 # Exchange Online Activity Auditing Configuration
 
 In order to collect logs and monitor Exchange Online activity using the Netwrix Activity Monitor, it

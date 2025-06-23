@@ -1,9 +1,3 @@
----
-title: databases postgresql pgsql databasesizing
-sidebar_label: pgsql databasesizing
-description: Solution guide for databases postgresql pgsql databasesizing including implementation steps, configuration, and best practices.
----
-
 # Configuration > PgSQL_DatabaseSizing Job
 
 The Configuration Job Group is designed to provide insight into details about the

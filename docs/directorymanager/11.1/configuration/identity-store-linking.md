@@ -1,9 +1,3 @@
----
-title: identity store linking
-sidebar_label: identity-store-linking
-description: Directory Manager 11.1 documentation for identity store linking with configuration details, usage instructions, and implementation guidance.
----
-
 # Manage Identity Store Links
 
 You can link identity stores built on the supported identity providers in Directory Manager. In this

@@ -1,9 +1,3 @@
----
-title: Hardware Requirements for Data Classification
-sidebar_label: Hardware
-description: Review server, database, and network hardware requirements for deploying Netwrix Data Classification in your environment.
----
-
 # Hardware Requirements
 
 Review the hardware requirements for the computer where Netwrix Data Classification will be

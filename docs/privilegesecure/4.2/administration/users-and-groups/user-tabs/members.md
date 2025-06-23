@@ -1,9 +1,3 @@
----
-title: Members Tab
-sidebar_label: members
-description: Administrative configuration and management features for Privilege Secure PAM solution including user management, policies, and security settings.
----
-
 # Members Tab
 
 The Members tab shows information about the members for the selected group.

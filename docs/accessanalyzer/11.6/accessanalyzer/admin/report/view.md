@@ -1,9 +1,3 @@
----
-title: view
-sidebar_label: view
-description: Documentation for view functionality in Access Analyzer including configuration and usage information.
----
-
 # Viewing Generated Reports
 
 Reports can be viewed either in the Enterprise Auditor Console in the Results Node of the related

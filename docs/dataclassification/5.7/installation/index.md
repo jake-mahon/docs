@@ -1,9 +1,3 @@
----
-title: Install Netwrix Data Classification
-sidebar_label: Installation
-description: Step-by-step installation guide for Netwrix Data Classification including product settings, configuration, and database setup.
----
-
 # Install Netwrix Data Classification
 
 1. Run Netwrix_Data_Classification.exe.

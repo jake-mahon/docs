@@ -1,9 +1,3 @@
----
-title: filesystem activity usagestatistics fs staleshares
-sidebar_label: fs staleshares
-description: Solution guide for filesystem activity usagestatistics fs staleshares including implementation steps, configuration, and best practices.
----
-
 # FS_StaleShares Job
 
 The FS_StaleShares job is designed to report on stale shares from targeted file servers.

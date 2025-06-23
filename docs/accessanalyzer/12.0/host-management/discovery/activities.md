@@ -1,9 +1,3 @@
----
-title: activities
-sidebar_label: activities
-description: Documentation for activities functionality in Access Analyzer including configuration and usage information.
----
-
 # Host Discovery Queries Activities Pane
 
 The Activities pane provides several options for managing Host Discovery queries.

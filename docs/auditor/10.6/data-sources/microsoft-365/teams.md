@@ -1,9 +1,3 @@
----
-title: teams
-sidebar_label: teams
-description: Auditor 10.6 documentation for teams with configuration details, usage instructions, and implementation guidance.
----
-
 # Using Basic Authentication with MS Teams
 
 With basic authentication, your MS Teams organization will be accessed on behalf of a user. You will

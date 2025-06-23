@@ -1,9 +1,3 @@
----
-title: Exchange Lockdown Event Type
-sidebar_label: Exchange Lockdown Event Type
-description: The Exchange Lockdown event type prevents specified types of changes in Exchange and generates an event with details of the blocked activity.
----
-
 # Exchange Lockdown Event Type
 
 The Exchange Lockdown event type prevents specified types of changes in Exchange and generates an

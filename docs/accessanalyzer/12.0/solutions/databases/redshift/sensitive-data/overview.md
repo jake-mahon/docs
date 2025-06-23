@@ -1,9 +1,3 @@
----
-title: databases redshift sensitive data overview
-sidebar_label: overview
-description: Solution guide for databases redshift sensitive data overview including implementation steps, configuration, and best practices.
----
-
 # Sensitive Data Job Group
 
 This job provides insight into where sensitive data exists and who has access to it across all the

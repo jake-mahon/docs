@@ -1,9 +1,3 @@
----
-title: Threat Manager Quick Start Guide
-sidebar_label: Quick Start
-description: Complete post-installation configuration for Threat Manager including data streaming setup, feature enablement, and integration with Netwrix products.
----
-
 # Getting Started with Threat Manager
 
 Once Threat Manager is installed, complete the following configuration to enable users to begin

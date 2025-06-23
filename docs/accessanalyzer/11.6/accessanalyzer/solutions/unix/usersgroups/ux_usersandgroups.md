@@ -1,9 +1,3 @@
----
-title: unix usersgroups ux_usersandgroups
-sidebar_label: ux_usersandgroups
-description: Solution guide for unix usersgroups ux_usersandgroups including implementation steps, configuration, and best practices.
----
-
 # 0.Collection > UX_UsersAndGroups Job
 
 The UX_UsersAndGroups job collects user and group information from /etc/passwd, /etc/shadow, and

@@ -1,9 +1,3 @@
----
-title: workflow automation
-sidebar_label: workflow-automation
-description: Directory Manager 11.1 documentation for workflow automation with configuration details, usage instructions, and implementation guidance.
----
-
 # Workflow Acceleration Schedule
 
 A Workflow Acceleration schedule facilitates the workflow approver acceleration process for workflow

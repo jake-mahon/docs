@@ -1,9 +1,3 @@
----
-title: syncjobs deletejob API
-sidebar_label: deletejob
-description: API reference for deletejob operations in Directory Manager with request parameters, response examples, and implementation details.
----
-
 # Delete Jobs
 
 After creating job, you can modify a job or even delete a job if it is no more required. Use this

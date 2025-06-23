@@ -1,9 +1,3 @@
----
-title: category
-sidebar_label: category
-description: Documentation for category functionality in Access Analyzer including configuration and usage information.
----
-
 # ExchangePS: Category
 
 The Category page contains a connection section where connection options are defined. It is also

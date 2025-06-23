@@ -1,9 +1,3 @@
----
-title: dell storage
-sidebar_label: dell-storage
-description: Auditor 10.6 documentation for dell storage with configuration details, usage instructions, and implementation guidance.
----
-
 # Configure Audit Settings for CIFS File Shares on Dell Data Storage
 
 Dell VNX, VNXe, Celerra, and Unity NAS devices are collectively referred to as Dell Data Storage.

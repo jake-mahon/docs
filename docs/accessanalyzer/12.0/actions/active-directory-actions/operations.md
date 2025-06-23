@@ -1,9 +1,3 @@
----
-title: operations
-sidebar_label: operations
-description: Documentation for operations functionality in Access Analyzer including configuration and usage information.
----
-
 # Active Directory Action Operations
 
 Use Operations page to select one or more operations for the action to perform on the targeted

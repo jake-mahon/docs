@@ -1,9 +1,3 @@
----
-title: filesystem activity fs leastprivilegedaccess
-sidebar_label: fs leastprivilegedaccess
-description: Solution guide for filesystem activity fs leastprivilegedaccess including implementation steps, configuration, and best practices.
----
-
 # Least Privileged Access > FS_LeastPrivilegedAccess Job
 
 The FS_LeastPrivilegedAccess job is designed to report on activity event information that can assist

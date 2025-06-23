@@ -1,9 +1,3 @@
----
-title: joingroup
-sidebar_label: joingroup
-description: Directory Manager 11.1 documentation for joingroup with configuration details, usage instructions, and implementation guidance.
----
-
 # Join a Group
 
 Using this API, you can join a group as per the specified membership type.

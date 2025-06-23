@@ -1,9 +1,3 @@
----
-title: Start Activity Session
-sidebar_label: start session
-description: End user documentation covering session management, access procedures, dashboard functionality, and browser extension usage.
----
-
 # Start Activity Session
 
 On the Active Sessions dashboard, when the status Available is shown, the activity session is ready.

@@ -1,9 +1,3 @@
----
-title: Scheduled Tasks Tab for Host
-sidebar_label: scheduled tasks
-description: Administrative configuration and management features for Privilege Secure PAM solution including user management, policies, and security settings.
----
-
 # Scheduled Tasks Tab for Host
 
 The Scheduled Tasks tab shows information about the tasks that are scheduled to run on the selected

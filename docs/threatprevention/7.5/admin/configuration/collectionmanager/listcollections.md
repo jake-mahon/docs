@@ -1,9 +1,3 @@
----
-title: List Collections
-sidebar_label: List
-description: Collection listing interface for viewing, managing, and organizing policy filter collections in Threat Prevention.
----
-
 # List of Collections Window
 
 Use the List of Collections window to add new items to a collection as well as edit and remove

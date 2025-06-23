@@ -1,9 +1,3 @@
----
-title: databases db2 overview
-sidebar_label: overview
-description: Solution guide for databases db2 overview including implementation steps, configuration, and best practices.
----
-
 # Db2 Solution
 
 The Access Analyzer Db2 Solution Set is a comprehensive set of pre-configured audit jobs and reports

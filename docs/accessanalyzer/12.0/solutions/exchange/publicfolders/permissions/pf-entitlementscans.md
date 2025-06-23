@@ -1,9 +1,3 @@
----
-title: exchange publicfolders permissions pf entitlementscans
-sidebar_label: pf entitlementscans
-description: Solution guide for exchange publicfolders permissions pf entitlementscans including implementation steps, configuration, and best practices.
----
-
 # Collection > PF_EntitlementScans Job
 
 The PF_EntitlementScans job is comprised of data collection that focuses on public folder

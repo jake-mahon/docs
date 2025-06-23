@@ -1,9 +1,3 @@
----
-title: Creating Change Requests
-sidebar_label: Creating Requests
-description: Create change requests from NetSuite cases or manually including workflow setup, field mapping, and status management for change tracking.
----
-
 # Creating a Change Request from a Case
 
 If

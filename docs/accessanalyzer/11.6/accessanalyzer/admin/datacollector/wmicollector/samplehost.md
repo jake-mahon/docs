@@ -1,9 +1,3 @@
----
-title: WMI Collector Sample Host Configuration
-sidebar_label: Sample Host
-description: Sample host configuration for WMI Collector data collector including test connectivity and validation settings.
----
-
 # WMICollector: Sample Host
 
 On the Sample Host page, enter a sample host to populate options for the query.

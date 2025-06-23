@@ -1,9 +1,3 @@
----
-title: Upgrade Overview
-sidebar_label: Upgrade
-description: Comprehensive upgrade guide for Threat Prevention components including agents, reporting module, and policy templates.
----
-
 # Upgrade Procedure
 
 This topic provides the basic steps needed to upgrade the following on the same machine:

@@ -1,9 +1,3 @@
----
-title: Event Log Alert Configuration
-sidebar_label: Event Log
-description: Windows Event Log integration for writing Threat Prevention alerts and security events to system event logs.
----
-
 # Event Log Tab
 
 Alert notification via Event Log sends event notifications to the Windows Event Log. Follow the

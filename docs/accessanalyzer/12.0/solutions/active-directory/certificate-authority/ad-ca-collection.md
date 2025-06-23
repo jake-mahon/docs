@@ -1,9 +1,3 @@
----
-title: active directory certificate authority ad ca collection
-sidebar_label: ad ca collection
-description: Solution guide for active directory certificate authority ad ca collection including implementation steps, configuration, and best practices.
----
-
 # Collection > AD_CACollection Job
 
 The AD_CACollection job collects Certificate Authority details and settings for analysis against

@@ -1,9 +1,3 @@
----
-title: aws organizations aws memberaccountusers
-sidebar_label: aws memberaccountusers
-description: Solution guide for aws organizations aws memberaccountusers including implementation steps, configuration, and best practices.
----
-
 # AWS_MemberAccountUsers Job
 
 The AWS_MemberAccountUsers job highlights users that are not located in the primary AWS Identity

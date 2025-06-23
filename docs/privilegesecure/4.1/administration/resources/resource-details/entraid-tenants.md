@@ -1,9 +1,3 @@
----
-title: Add New Microsoft Entra ID Tenant
-sidebar_label: entraid tenants
-description: Administrative configuration and management features for Privilege Secure PAM solution including user management, policies, and security settings.
----
-
 # Add New Microsoft Entra ID Tenant
 
 Follow the steps to add Microsoft Entra ID (formerly Azure AD) resource to the Privilege Secure

@@ -1,9 +1,3 @@
----
-title: EPE Password Check
-sidebar_label: Password Check
-description: Password validation interface for checking password compliance against EPE policies through REST API integration.
----
-
 # Check Password APIs
 
 You can use APIs to check a candidate password against the EPE rules defined on the

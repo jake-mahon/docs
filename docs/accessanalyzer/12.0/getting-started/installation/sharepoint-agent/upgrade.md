@@ -1,9 +1,3 @@
----
-title: Getting Started: upgrade
-sidebar_label: upgrade
-description: Getting started guide for upgrade in Access Analyzer including setup instructions and initial configuration steps.
----
-
 # Upgrade SharePoint Agent
 
 Follow the steps to upgrade the SharePoint Agent.

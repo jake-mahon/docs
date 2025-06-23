@@ -1,9 +1,3 @@
----
-title: Admin Templates Manager XML Data Files
-sidebar_label: Admin Templates
-description: Export Endpoint Policy Manager Admin Templates Manager policies and collections as XML files for MDM deployment. Item-Level Targeting is maintained in exports.
----
-
 # XML Data Files from Endpoint Policy Manager Admin Templates Manager
 
 Once you have a Endpoint Policy Manager Admin Templates Manager policy or collection established,

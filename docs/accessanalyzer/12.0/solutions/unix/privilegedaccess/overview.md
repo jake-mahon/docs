@@ -1,9 +1,3 @@
----
-title: unix privilegedaccess overview
-sidebar_label: overview
-description: Solution guide for unix privilegedaccess overview including implementation steps, configuration, and best practices.
----
-
 # 2.Privileged Access Job Group
 
 The 2.Privileged Access job group contains jobs that provide visibility into privileged users within

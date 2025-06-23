@@ -1,9 +1,3 @@
----
-title: results
-sidebar_label: results
-description: Documentation for results functionality in Access Analyzer including configuration and usage information.
----
-
 # Entra: Results
 
 The Results page is where the properties from Microsoft Entra ID to be gathered are selected.

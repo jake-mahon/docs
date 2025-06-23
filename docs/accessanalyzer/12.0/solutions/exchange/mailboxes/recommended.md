@@ -1,9 +1,3 @@
----
-title: exchange mailboxes recommended
-sidebar_label: recommended
-description: Solution guide for exchange mailboxes recommended including implementation steps, configuration, and best practices.
----
-
 # Recommended Configurations for the 4. Mailboxes Job Group
 
 Dependencies

@@ -1,9 +1,3 @@
----
-title: organizationalheirarchy
-sidebar_label: organizationalheirarchy
-description: Directory Manager 11.1 documentation for organizationalheirarchy with configuration details, usage instructions, and implementation guidance.
----
-
 # Organizational Hierarchy
 
 You can view the organizational hierarchy for a user. it shows the direct reports of the reference

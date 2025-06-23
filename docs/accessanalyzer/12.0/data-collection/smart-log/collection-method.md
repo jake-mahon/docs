@@ -1,9 +1,3 @@
----
-title: collection method
-sidebar_label: collection method
-description: Documentation for collection method functionality in Access Analyzer including configuration and usage information.
----
-
 # SMARTLog: Collection Method
 
 The Collection Method page is used to select the collection method employed by the data collector.

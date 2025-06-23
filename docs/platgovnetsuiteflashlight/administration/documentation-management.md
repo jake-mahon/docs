@@ -1,9 +1,3 @@
----
-title: Documenting Your NetSuite Account
-sidebar_label: Documentation Management
-description: Complete guide to the spider process for documenting NetSuite customizations, from initial kick-off to ongoing automated documentation maintenance.
----
-
 # Documenting your Account
 
 While NetSuite is flexible and powerful, your account can quickly become out-of-sync and cluttered

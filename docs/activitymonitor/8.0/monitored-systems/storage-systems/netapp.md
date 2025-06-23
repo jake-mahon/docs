@@ -1,9 +1,3 @@
----
-title: NetApp FPolicy Server Configuration
-sidebar_label: NetApp
-description: Configure NetApp FPolicy server settings including port configuration, authentication options, and certificate management for Data ONTAP monitoring.
----
-
 # NetApp FPolicy Options Tab
 
 The NetApp FPolicy Options tab provides options to configure FPolicy server settings for monitoring

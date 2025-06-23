@@ -1,9 +1,3 @@
----
-title: Data Storages and Sizing
-sidebar_label: Cloud Deployment
-description: Netwrix Data Classification utilizes two data storages: sources. (.CSE). Make sure you have NDC Server and NDC SQL database deployed on different machines. I...
----
-
 # Data Storages and Sizing
 
 Netwrix Data Classification utilizes two data storages:

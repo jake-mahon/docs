@@ -1,9 +1,3 @@
----
-title: System Requirements and Account Types
-sidebar_label: Requirements
-description: System requirements for Password Policy Enforcer 11 including domain and local user account considerations and deployment scenarios.
----
-
 # Requirements
 
 Netwrix Password Policy Enforcer 11 can be installed for both domain and local user accounts.

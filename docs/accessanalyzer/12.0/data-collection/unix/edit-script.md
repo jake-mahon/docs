@@ -1,9 +1,3 @@
----
-title: edit script
-sidebar_label: edit script
-description: Documentation for edit script functionality in Access Analyzer including configuration and usage information.
----
-
 # Unix: Edit Script
 
 The Edit Script page allows the script to be customized.

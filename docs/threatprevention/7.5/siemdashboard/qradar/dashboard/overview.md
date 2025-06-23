@@ -1,9 +1,3 @@
----
-title: QRadar Dashboard Overview
-sidebar_label: Dashboard
-description: QRadar dashboard configuration for Threat Prevention including authentication attacks, AD changes, and administrator auditing views.
----
-
 # Overview Dashboard
 
 The Active Directory Overview dashboard contains information on monitored Active Directory events

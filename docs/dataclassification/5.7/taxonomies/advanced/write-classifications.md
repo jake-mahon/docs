@@ -1,9 +1,3 @@
----
-title: Enable Write Classifications
-sidebar_label: Write Classifications
-description: In NDC, tagging means writing classification attributes back to the content files. Tagging enables other systems and applications to leverage the... Learn mo...
----
-
 # Enable Write Classifications
 
 In NDC, tagging means writing classification attributes back to the content files. Tagging enables

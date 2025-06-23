@@ -1,9 +1,3 @@
----
-title: vip membership
-sidebar_label: vip membership
-description: Documentation for vip membership functionality in Access Analyzer including configuration and usage information.
----
-
 # SystemInfo: VIP Membership
 
 The VIP Membership provides the option to add members to a VIP List and exclude them from contact

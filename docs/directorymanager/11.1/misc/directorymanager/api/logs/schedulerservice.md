@@ -1,9 +1,3 @@
----
-title: logs schedulerservice API
-sidebar_label: schedulerservice
-description: API reference for schedulerservice operations in Directory Manager with request parameters, response examples, and implementation details.
----
-
 # Scheduler Service Logs
 
 Using this API you can get Scheduler Service logs. See the

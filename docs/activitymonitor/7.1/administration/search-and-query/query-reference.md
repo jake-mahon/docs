@@ -1,9 +1,3 @@
----
-title: Active Directory Query Reference
-sidebar_label: Query Reference
-description: Search Active Directory activity using categorized query filters to analyze domain events recorded in File outputs with advanced filtering.
----
-
 # Active Directory Search Query
 
 You can search domain activity that has been monitored and recorded to a File output. When you

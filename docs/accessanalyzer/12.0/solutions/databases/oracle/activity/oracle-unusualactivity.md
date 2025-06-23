@@ -1,9 +1,3 @@
----
-title: databases oracle activity oracle unusualactivity
-sidebar_label: oracle unusualactivity
-description: Solution guide for databases oracle activity oracle unusualactivity including implementation steps, configuration, and best practices.
----
-
 # Oracle_UnusualActivity Job
 
 The Oracle_UnusualActivity job has analysis tasks and reports that use data collected by the

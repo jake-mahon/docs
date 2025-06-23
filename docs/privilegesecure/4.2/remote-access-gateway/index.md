@@ -1,9 +1,3 @@
----
-title: End User Overview
-sidebar_label: Overview
-description: Documentation for Privilege Secure privileged access management solution covering features, configuration, and usage procedures.
----
-
 # End User Overview
 
 This topic and its subtopics are written for users who have been assigned as a Remote Access

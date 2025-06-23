@@ -1,9 +1,3 @@
----
-title: Local Account Password Options Page
-sidebar_label: password options
-description: System configuration settings and advanced options for authentication, integrations, services, and security parameters.
----
-
 # Local Account Password Options Page
 
 The Local Account Password Options page is accessible from the Navigation pane under Configuration >

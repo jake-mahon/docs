@@ -1,9 +1,3 @@
----
-title: delegation and permissions
-sidebar_label: delegation-and-permissions
-description: Auditor 10.7 documentation for delegation and permissions with configuration details, usage instructions, and implementation guidance.
----
-
 # Role-Based Access and Delegation
 
 Security and awareness of _who_ has access to _what_ is crucial for every organization. Besides

@@ -1,9 +1,3 @@
----
-title: Remote Work Delivery Manager Overview
-sidebar_label: Overview
-description: Copy files from servers to clients, keep files synchronized between SMB shares and endpoints, and deliver content from HTTP sources like OneDrive and Dropbox.
----
-
 # Remote Work Delivery Manager
 
 **NOTE:** Before reading this section, please ensure you have read Book 2:

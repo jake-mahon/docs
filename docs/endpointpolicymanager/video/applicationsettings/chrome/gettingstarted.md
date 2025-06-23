@@ -1,9 +1,3 @@
----
-title: Manage Google Chrome Group Policy
-sidebar_label: Chrome Getting Started
-description: Learn to manage Google Chrome using Group Policy, SCCM, or management utilities to control security settings, passwords, and camera/microphone access.
----
-
 # Manage Google Chrome using Group Policy, SCCM or your own management utility
 
 Netwrix Endpoint Policy Manager (formerly PolicyPak): Manage Google Chrome using Group Policy, SCCM

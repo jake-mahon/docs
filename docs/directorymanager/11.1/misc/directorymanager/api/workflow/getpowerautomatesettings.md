@@ -1,9 +1,3 @@
----
-title: workflow getpowerautomatesettings API
-sidebar_label: getpowerautomatesettings
-description: API reference for getpowerautomatesettings operations in Directory Manager with request parameters, response examples, and implementation details.
----
-
 # Get Power Automate Settings
 
 If in Directory Manager you have linked an identity store to Power Automate, you can retrieve the

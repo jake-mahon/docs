@@ -1,9 +1,3 @@
----
-title: App Tokens Credential Profiles
-sidebar_label: Credential Profiles
-description: Generate and manage app tokens for Threat Manager integrations with Activity Monitor, Access Analyzer, and other Netwrix products.
----
-
 # App Tokens Page
 
 The App Tokens page provides the ability to generate and manage the app tokens needed to send data

@@ -1,9 +1,3 @@
----
-title: Portal report manage
-sidebar_label: manage
-description: Directory Manager portal documentation for report functionality including user interface, navigation, and operational procedures.
----
-
 # Manage Reports
 
 Once you generate a report, the report is listed under the template you used to create it. The

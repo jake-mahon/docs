@@ -1,9 +1,3 @@
----
-title: Unix Privileged Access Overview
-sidebar_label: Overview
-description: Overview of Unix privileged access analysis including sudo access monitoring and administrative privilege tracking.
----
-
 # 2.Privileged Access Job Group
 
 The 2.Privileged Access job group contains jobs that provide visibility into privileged users within

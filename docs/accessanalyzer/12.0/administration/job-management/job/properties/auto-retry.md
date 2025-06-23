@@ -1,9 +1,3 @@
----
-title: auto retry Administration
-sidebar_label: auto retry
-description: Administration guide for auto retry including configuration, management, and best practices for Access Analyzer.
----
-
 # Auto Retry Tab
 
 The Auto Retry tab provides the option to schedule the job to re-execute against hosts that match

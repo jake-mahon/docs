@@ -1,9 +1,3 @@
----
-title: databases oracle sensitivedata oracle sensitivedatapermissions
-sidebar_label: oracle sensitivedatapermissions
-description: Solution guide for databases oracle sensitivedata oracle sensitivedatapermissions including implementation steps, configuration, and best practices.
----
-
 # Oracle_SensitiveDataPermissions Job
 
 The Oracle_SensitiveDataPermissions Job is designed to provide information on permissions on

@@ -1,9 +1,3 @@
----
-title: overview
-sidebar_label: overview
-description: Documentation for overview functionality in Access Analyzer including configuration and usage information.
----
-
 # GroupPolicy Data Collector
 
 The GroupPolicy Data Collector provides the ability to retrieve the GPO’s list in the domain and

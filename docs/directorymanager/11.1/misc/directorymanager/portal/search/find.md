@@ -1,9 +1,3 @@
----
-title: Portal search find
-sidebar_label: find
-description: Directory Manager portal documentation for search functionality including user interface, navigation, and operational procedures.
----
-
 # Find Dialog Box
 
 This dialog box enables you to search **User**, **Group**, and **Contact** objects in the connected

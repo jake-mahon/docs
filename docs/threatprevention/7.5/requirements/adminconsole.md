@@ -1,9 +1,3 @@
----
-title: Admin Console Requirements
-sidebar_label: Admin Console
-description: Administration Console requirements including client workstation specifications for remote console deployment and management access.
----
-
 # Remote Administration Console Machine Requirements
 
 This topic lists the requirements for the machine where you want to install a remote instance of the

@@ -1,9 +1,3 @@
----
-title: Using Central Store with PolicyPak
-sidebar_label: Central Store
-description: Integrate Netwrix Endpoint Policy Manager with the central store by creating a PolicyPak folder in SYSVOL and copying DLL files from local storage.
----
-
 # How can I use the Endpoint Policy ManagerCentral store (if I was already using the Endpoint Policy Manager Local store?)
 
 Netwrix Endpoint Policy Manager (formerly PolicyPak) should be integrated with the central store in

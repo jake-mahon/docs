@@ -1,9 +1,3 @@
----
-title: Running the Scanner Tools
-sidebar_label: Scanner Tools
-description: Run on-demand scans for specific metadata types or entire environments to keep your Salesforce org documentation current and accurate.
----
-
 # Running the Scanner
 
 When the initial scan is complete, you can run additional on demand scans as required.

@@ -1,9 +1,3 @@
----
-title: Proxy Server Requirements
-sidebar_label: proxy server
-description: Installation procedures, system requirements, and deployment configuration for Privilege Secure components and services.
----
-
 # Proxy Server Requirements
 
 Privilege Secure supports any RDP / SSH Client, including:

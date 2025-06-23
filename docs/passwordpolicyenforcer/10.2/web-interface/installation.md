@@ -1,9 +1,3 @@
----
-title: Password Policy Enforcer Web Installation Guide
-sidebar_label: Installation
-description: Installation guide for Password Policy Enforcer Web V7.11 on Windows 2003-2012 including system requirements and setup procedures.
----
-
 # Installation
 
 Password Policy Enforcer/Web V7.11 is designed to run on Windows 2003, 2008, and 2012. Users access

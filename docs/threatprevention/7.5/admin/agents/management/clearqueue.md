@@ -1,9 +1,3 @@
----
-title: Clear SQLite Agent Queue
-sidebar_label: Clear SQLite Agent Queue
-description: When the Agent is unable to communicate with the Enterprise Manager, Agent events queue up in the Agents local SQLite database until the Enterprise Manager i...
----
-
 # Clear SQLite Agent Queue
 
 When the Agent is unable to communicate with the Enterprise Manager, Agent events queue up in the

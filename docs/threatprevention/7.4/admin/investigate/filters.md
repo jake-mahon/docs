@@ -1,9 +1,3 @@
----
-title: Investigate Filters
-sidebar_label: Investigate Filters
-description: On the Investigate Interface, there are six filter categories that can be applied to the recent events available in the data grid.
----
-
 # Investigate Filters
 
 On the

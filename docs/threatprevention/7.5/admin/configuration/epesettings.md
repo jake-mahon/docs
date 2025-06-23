@@ -1,9 +1,3 @@
----
-title: EPE Settings Window
-sidebar_label: EPE Settings Window
-description: Threat Prevention can be configured with Enterprise Password Enforcer (EPE) to use the Have I Been Pwnd (HIBP) database. A copy of this database is hosted on...
----
-
 # EPE Settings Window
 
 Threat Prevention can be configured with Enterprise Password Enforcer (EPE) to use the Have I Been

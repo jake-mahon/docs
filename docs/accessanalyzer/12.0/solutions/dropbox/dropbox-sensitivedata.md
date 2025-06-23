@@ -1,9 +1,3 @@
----
-title: dropbox dropbox sensitivedata
-sidebar_label: dropbox sensitivedata
-description: Solution guide for dropbox dropbox sensitivedata including implementation steps, configuration, and best practices.
----
-
 # 5.Sensitive Data > Dropbox_SensitiveData Job
 
 The Dropbox_SensitiveData job identifies locations within Dropbox where sensitive data is present.

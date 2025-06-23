@@ -1,9 +1,3 @@
----
-title: source files
-sidebar_label: source files
-description: Documentation for source files functionality in Access Analyzer including configuration and usage information.
----
-
 # TextSearch: Source Files
 
 The Source Files page provides options to specify which files to search.

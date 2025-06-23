@@ -1,9 +1,3 @@
----
-title: Credential Profile Page
-sidebar_label: Credential Profile Page
-description: The Credential Profile page within the Integrations interface lists all of the credentials used by the application to complete tasks. These credentials are s...
----
-
 # Credential Profile Page
 
 The Credential Profile page within the Integrations interface lists all of the credentials used by

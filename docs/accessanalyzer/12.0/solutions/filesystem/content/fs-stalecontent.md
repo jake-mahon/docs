@@ -1,9 +1,3 @@
----
-title: filesystem content fs stalecontent
-sidebar_label: fs stalecontent
-description: Solution guide for filesystem content fs stalecontent including implementation steps, configuration, and best practices.
----
-
 # Stale > FS_StaleContent Job
 
 The FS_StaleContent job is designed to report on stale content information from targeted file

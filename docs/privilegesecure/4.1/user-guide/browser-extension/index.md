@@ -1,9 +1,3 @@
----
-title: Browser Extension App
-sidebar_label: Overview
-description: End user documentation covering session management, access procedures, dashboard functionality, and browser extension usage.
----
-
 # Browser Extension App
 
 The browser extension allows users to use Privilege Secure to login and launch web sessions directly

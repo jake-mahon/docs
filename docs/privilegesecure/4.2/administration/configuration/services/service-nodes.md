@@ -1,9 +1,3 @@
----
-title: Service Nodes Page
-sidebar_label: service nodes
-description: Administrative configuration and management features for Privilege Secure PAM solution including user management, policies, and security settings.
----
-
 # Service Nodes Page
 
 On the Service Nodes page, configure the services for each installed service node.

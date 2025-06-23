@@ -1,9 +1,3 @@
----
-title: Deployment Checklist
-sidebar_label: Deployment Checklist
-description: This section contains the pre-installation checklist, installation notes or observations, and post-installation tasks. Review these steps to plan and deploy...
----
-
 # Deployment Checklist
 
 This section contains the pre-installation checklist, installation notes or observations, and

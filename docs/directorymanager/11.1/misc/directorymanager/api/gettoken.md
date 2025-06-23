@@ -1,9 +1,3 @@
----
-title: . 11.1 misc directorymanager api gettoken API
-sidebar_label: gettoken
-description: API reference for gettoken operations in Directory Manager with request parameters, response examples, and implementation details.
----
-
 # Get Token
 
 This API generates a token for a user to access the Directory Manager APIs. This API is also used to

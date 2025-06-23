@@ -1,9 +1,3 @@
----
-title: filesystem activity security fs highriskactivity
-sidebar_label: fs highriskactivity
-description: Solution guide for filesystem activity security fs highriskactivity including implementation steps, configuration, and best practices.
----
-
 # FS_HighRiskActivity Job
 
 The FS_HighRiskActivity job is designed to report on high risk activity event information from

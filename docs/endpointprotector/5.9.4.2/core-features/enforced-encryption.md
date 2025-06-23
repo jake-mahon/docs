@@ -1,9 +1,3 @@
----
-title: Enforced Encryption Solution
-sidebar_label: Encryption
-description: Cross-platform solution formerly known as EasyLock that protects data with enforced encryption capabilities across multiple systems.
----
-
 # Enforced Encryption
 
 Enforced Encryption, Formerly known as EasyLock, is a cross-platform solution that protects data

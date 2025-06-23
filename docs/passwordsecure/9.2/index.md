@@ -1,9 +1,3 @@
----
-title: Password Secure 9.2 Documentation
-sidebar_label: Overview
-description: Advanced enterprise password management with intelligent discovery, zero-trust architecture, and seamless DevOps integration for modern environments.
----
-
 # Password Secure 9.2
 
 > Advanced enterprise password management and privileged access security

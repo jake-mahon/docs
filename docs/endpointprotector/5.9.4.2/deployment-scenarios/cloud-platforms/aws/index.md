@@ -1,9 +1,3 @@
----
-title: Amazon Web Services Deployment
-sidebar_label: AWS
-description: Comprehensive instructions for leveraging Endpoint Protector in Amazon Web Services cloud environment with deployment best practices.
----
-
 # Amazon Web Services
 
 In this section of our user guide, you will find comprehensive instructions for leveraging Endpoint

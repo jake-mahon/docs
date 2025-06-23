@@ -1,9 +1,3 @@
----
-title: Password Reset User Enrollment Management
-sidebar_label: User Enrollment
-description: Manage Password Reset user enrollment including strategies to encourage enrollment and REST API integration for enrollment status.
----
-
 # Persuading Users to Enroll
 
 The Web Interface includes a REST API which your web sites and applications can query to determine

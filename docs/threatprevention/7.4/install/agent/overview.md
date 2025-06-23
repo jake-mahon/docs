@@ -1,9 +1,3 @@
----
-title: Agent Information
-sidebar_label: Agent Information
-description: The Threat Prevention Agent performs real-time monitoring of the events occurring across supported systems and applications. The modules to be installed duri...
----
-
 # Agent Information
 
 The Threat Prevention Agent performs real-time monitoring of the events occurring across supported

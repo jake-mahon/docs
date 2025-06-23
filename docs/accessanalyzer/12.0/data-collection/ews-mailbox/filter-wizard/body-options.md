@@ -1,9 +1,3 @@
----
-title: body options
-sidebar_label: body options
-description: Documentation for body options functionality in Access Analyzer including configuration and usage information.
----
-
 # EWSMailbox FW: BodyOptions
 
 Use the BodyOptions page to select the size unit of messages.

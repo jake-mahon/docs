@@ -1,9 +1,3 @@
----
-title: Browser Router Knowledge Base Articles
-sidebar_label: Knowledge Base
-description: Comprehensive knowledge base articles for Browser Router covering installation, troubleshooting, client-side extensions, and common configuration issues.
----
-
 # Knowledge Base
 
 The following is a list of Knowledge Base articles for Browser Router.

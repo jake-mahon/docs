@@ -1,9 +1,3 @@
----
-title: vb scripting
-sidebar_label: vb scripting
-description: Documentation for vb scripting functionality in Access Analyzer including configuration and usage information.
----
-
 # VBscripting Analysis Module
 
 Use the VBscripting analysis module to access the VBScript Editor and apply VB scripting to the

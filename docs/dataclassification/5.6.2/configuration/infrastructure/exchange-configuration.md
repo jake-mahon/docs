@@ -1,9 +1,3 @@
----
-title: Configure Microsoft Exchange for Crawling and Classification
-sidebar_label: Exchange Configuration
-description: When preparing your Exchange Server for data classification, consider that for on-premise Exchange Server, Basic authentication is supported for crawling...
----
-
 # Configure Microsoft Exchange for Crawling and Classification
 
 When preparing your Exchange Server for data classification, consider that for on-premise Exchange

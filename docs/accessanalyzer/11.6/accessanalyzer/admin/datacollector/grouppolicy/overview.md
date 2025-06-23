@@ -1,9 +1,3 @@
----
-title: grouppolicy Data Collector overview
-sidebar_label: overview
-description: Data collector documentation for grouppolicy overview including configuration options and collection settings.
----
-
 # GroupPolicy Data Collector
 
 The GroupPolicy Data Collector provides the ability to retrieve the GPO’s list in the domain and

@@ -1,9 +1,3 @@
----
-title: Export Report
-sidebar_label: Export Report
-description: The Export option provides choices for how you can export the report results for an investigation. The report can be exported in a specified format and can b...
----
-
 # Export Report
 
 The Export option provides choices for how you can export the report results for an investigation.

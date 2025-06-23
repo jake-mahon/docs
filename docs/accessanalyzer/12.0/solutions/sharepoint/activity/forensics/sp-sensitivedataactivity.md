@@ -1,9 +1,3 @@
----
-title: sharepoint activity forensics sp sensitivedataactivity
-sidebar_label: sp sensitivedataactivity
-description: Solution guide for sharepoint activity forensics sp sensitivedataactivity including implementation steps, configuration, and best practices.
----
-
 # SP_SensitiveDataActivity Job
 
 This job highlights user activity involving sensitive data and provides details on who is

@@ -1,9 +1,3 @@
----
-title: PingCastle Enterprise Installation Guide
-sidebar_label: Enterprise Installation
-description: Installation guide for PingCastle Enterprise covering system requirements, database configuration, authentication setup, and deployment procedures.
----
-
 # Description
 
 PingCastle Enterprise is a tool designed to improve and follow the

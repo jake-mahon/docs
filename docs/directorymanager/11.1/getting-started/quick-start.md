@@ -1,9 +1,3 @@
----
-title: Directory Manager Quick Start Guide
-sidebar_label: Quick Start
-description: Essential getting started information covering Directory Manager clients, Admin Center configuration, device compatibility, and supported languages.
----
-
 # Getting Started
 
 To get started with Directory Manager, it would be helpful to get an understanding of the following:

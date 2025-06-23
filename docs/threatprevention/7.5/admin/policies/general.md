@@ -1,9 +1,3 @@
----
-title: General Policy Settings
-sidebar_label: General Settings
-description: General policy configuration settings including naming, scheduling, enabling, and basic policy management options.
----
-
 # General Tab
 
 The General tab is for editing the basic attributes of the policy.

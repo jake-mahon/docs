@@ -1,9 +1,3 @@
----
-title: Portal history mydirectorygroup
-sidebar_label: mydirectorygroup
-description: Directory Manager portal documentation for history functionality including user interface, navigation, and operational procedures.
----
-
 # My Groups' History
 
 To view a detailed list of the actions that you have performed on the groups that you own using the

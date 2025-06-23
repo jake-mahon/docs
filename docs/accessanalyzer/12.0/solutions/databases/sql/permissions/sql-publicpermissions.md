@@ -1,9 +1,3 @@
----
-title: databases sql permissions sql publicpermissions
-sidebar_label: sql publicpermissions
-description: Solution guide for databases sql permissions sql publicpermissions including implementation steps, configuration, and best practices.
----
-
 # SQL_PublicPermissions Job
 
 The SQL_PublicPermissions Job provides the list of SQL server logins that have the PUBLIC roles

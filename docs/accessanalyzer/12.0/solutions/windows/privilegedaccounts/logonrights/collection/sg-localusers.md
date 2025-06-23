@@ -1,9 +1,3 @@
----
-title: windows privilegedaccounts logonrights collection sg localusers
-sidebar_label: sg localusers
-description: Solution guide for windows privilegedaccounts logonrights collection sg localusers including implementation steps, configuration, and best practices.
----
-
 # SG_LocalUsers Job
 
 The SG_LocalUsers job audits local user accounts from all targeted hosts.

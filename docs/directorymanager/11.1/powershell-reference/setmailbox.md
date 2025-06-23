@@ -1,9 +1,3 @@
----
-title: Set mailbox Cmdlet
-sidebar_label: setmailbox
-description: PowerShell cmdlet reference for setmailbox with parameter details, syntax examples, and usage instructions for Directory Manager.
----
-
 # Set-Mailbox
 
 The Set-Mailbox commandlet modifies a mailbox in Directory. Most mailbox properties can be directly

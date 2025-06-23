@@ -1,9 +1,3 @@
----
-title: Credential Management
-sidebar_label: Credentials
-description: Manage credentials for data sources in 1Secure. Review, edit, and delete credentials for cloud and on-premises source connections.
----
-
 # Manage Credentials
 
 In Netwrix 1Secure, you need to set up credentials while adding the sources for crawling your data.

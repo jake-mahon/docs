@@ -1,9 +1,3 @@
----
-title: Endpoint Policy Manager Uninstall Guide
-sidebar_label: Uninstall
-description: Step-by-step guide to uninstall Endpoint Policy Manager. Remove GPOs, CSE components, GPMC add-ons, and Pak files from management stations and endpoints.
----
-
 # How do I uninstall Endpoint Policy Manager?
 
 We suggest you read this all the way through before you attempt to uninstall Netwrix Endpoint Policy

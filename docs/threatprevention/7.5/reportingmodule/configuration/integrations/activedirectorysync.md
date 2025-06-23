@@ -1,9 +1,3 @@
----
-title: Active Directory Sync Page
-sidebar_label: Active Directory Sync Page
-description: The Active Directory Sync page within the Integrations interface lists the domains that are synced to theNetwrix Threat Manager Reporting Module database. Th...
----
-
 # Active Directory Sync Page
 
 The Active Directory Sync page within the Integrations interface lists the domains that are synced

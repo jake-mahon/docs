@@ -1,9 +1,3 @@
----
-title: databases mysql collection mysql sensitivedatascan
-sidebar_label: mysql sensitivedatascan
-description: Solution guide for databases mysql collection mysql sensitivedatascan including implementation steps, configuration, and best practices.
----
-
 # MySQL_SensitiveDataScan Job
 
 The MySQL_SensitiveDataScan Job is designed to discover sensitive data in MySQL databases based on

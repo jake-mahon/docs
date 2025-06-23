@@ -1,9 +1,3 @@
----
-title: file properties
-sidebar_label: file properties
-description: Documentation for file properties functionality in Access Analyzer including configuration and usage information.
----
-
 # File Properties (Folder Summary) Tab
 
 The File Properties (Folder Summary) tab is where file property collection settings for the scan is

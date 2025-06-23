@@ -1,9 +1,3 @@
----
-title: Using Password Reset Client Services
-sidebar_label: Using Password Reset
-description: Guide to using Password Reset Client for secure password resets and account unlocking including enrollment and recovery procedures.
----
-
 # Password Reset Client
 
 The Password Reset Client allows users to securely reset their password or unlock their account from

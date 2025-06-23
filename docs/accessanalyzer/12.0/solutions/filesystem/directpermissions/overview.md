@@ -1,9 +1,3 @@
----
-title: filesystem directpermissions overview
-sidebar_label: overview
-description: Solution guide for filesystem directpermissions overview including implementation steps, configuration, and best practices.
----
-
 # 2.Direct Permissions Job Group
 
 The 2.Direct Permissions job group is designed to report on Direct Permissions information from

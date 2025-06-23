@@ -1,9 +1,3 @@
----
-title: databases db2 collection overview
-sidebar_label: overview
-description: Solution guide for databases db2 collection overview including implementation steps, configuration, and best practices.
----
-
 # 0.Collection Job Group
 
 The Db2 Solution Set Collection Group collects high level summary information from targeted Db2

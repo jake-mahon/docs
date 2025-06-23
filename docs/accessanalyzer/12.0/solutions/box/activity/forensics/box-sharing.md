@@ -1,9 +1,3 @@
----
-title: box activity forensics box sharing
-sidebar_label: box sharing
-description: Solution guide for box activity forensics box sharing including implementation steps, configuration, and best practices.
----
-
 # Box_Sharing Job
 
 The Box_Sharing Job provides details on sharing activity that has occurred over the past 30 days.

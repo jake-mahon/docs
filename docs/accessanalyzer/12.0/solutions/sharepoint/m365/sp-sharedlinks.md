@@ -1,9 +1,3 @@
----
-title: sharepoint m365 sp sharedlinks
-sidebar_label: sp sharedlinks
-description: Solution guide for sharepoint m365 sp sharedlinks including implementation steps, configuration, and best practices.
----
-
 # SP_SharedLinks Job
 
 The SP_SharedLinks Job provides an overview of the shared links configured with SharePoint Online,

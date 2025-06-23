@@ -1,9 +1,3 @@
----
-title: SIEM Server Page
-sidebar_label: siem server
-description: System configuration settings and advanced options for authentication, integrations, services, and security parameters.
----
-
 # SIEM Server Page
 
 The SIEM Server page is accessible from the Navigation pane under Configuration > SIEM. Privilege

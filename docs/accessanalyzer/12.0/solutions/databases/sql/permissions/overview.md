@@ -1,9 +1,3 @@
----
-title: databases sql permissions overview
-sidebar_label: overview
-description: Solution guide for databases sql permissions overview including implementation steps, configuration, and best practices.
----
-
 # 3.Permissions Job Group
 
 The 3.Permissions Job Group provides insight into permissions at the instance, database, and object

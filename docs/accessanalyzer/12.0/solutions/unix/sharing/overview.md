@@ -1,9 +1,3 @@
----
-title: unix sharing overview
-sidebar_label: overview
-description: Solution guide for unix sharing overview including implementation steps, configuration, and best practices.
----
-
 # 3.Sharing Job Group
 
 The 3.Sharing job group highlights potentially insecure share configurations on Unix hosts.

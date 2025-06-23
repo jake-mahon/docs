@@ -1,9 +1,3 @@
----
-title: Reviewer User Guide Overview
-sidebar_label: Reviewer Guide
-description: Complete guide for Privilege Secure reviewers covering login procedures, MFA registration, dashboard access, and role-specific functionality.
----
-
 # Privilege Secure Reviewer User Overview
 
 This topic and its subtopics are written for users who have been assigned as a Privilege Secure

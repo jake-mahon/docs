@@ -1,9 +1,3 @@
----
-title: Duo Hosted SSO
-sidebar_label: duo hosted sso
-description: Documentation for Privilege Secure privileged access management solution covering features, configuration, and usage procedures.
----
-
 # Duo Hosted SSO
 
 Duo Hosted SSO

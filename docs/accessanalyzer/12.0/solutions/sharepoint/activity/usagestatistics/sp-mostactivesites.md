@@ -1,9 +1,3 @@
----
-title: sharepoint activity usagestatistics sp mostactivesites
-sidebar_label: sp mostactivesites
-description: Solution guide for sharepoint activity usagestatistics sp mostactivesites including implementation steps, configuration, and best practices.
----
-
 # SP_MostActiveSites Job
 
 This job identifies the top five most active monitored sites.

@@ -1,9 +1,3 @@
----
-title: transferownership
-sidebar_label: transferownership
-description: Directory Manager 11.1 documentation for transferownership with configuration details, usage instructions, and implementation guidance.
----
-
 # Transfer Ownership
 
 The Transfer Ownership wizard provides a convenient way to:

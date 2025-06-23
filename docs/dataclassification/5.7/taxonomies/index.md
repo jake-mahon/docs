@@ -1,9 +1,3 @@
----
-title: Taxonomies and Classification Rules Overview
-sidebar_label: Taxonomies
-description: Built-in and custom taxonomies with classification rules for personal, financial, and health data in Netwrix Data Classification system.
----
-
 # Taxonomies
 
 ## What are Taxonomies?

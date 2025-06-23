@@ -1,9 +1,3 @@
----
-title: box activity suspiciousactivity box failedlogins
-sidebar_label: box failedlogins
-description: Solution guide for box activity suspiciousactivity box failedlogins including implementation steps, configuration, and best practices.
----
-
 # Box_FailedLogins Job
 
 The Box_FailedLogins Job identifies failed logon events that have occurred over the last 30 days. A

@@ -1,9 +1,3 @@
----
-title: Exchange Online Host Configuration
-sidebar_label: Exchange Online
-description: Add and configure Exchange Online hosts for Activity Monitor auditing with step-by-step setup procedures and prerequisite requirements.
----
-
 # Exchange Online
 
 Prior to adding an Exchange Online host to the Activity Monitor, the prerequisites for the target

@@ -1,9 +1,3 @@
----
-title: Governance and Access Control
-sidebar_label: Governance
-description: Tools for controlling entitlement assignments, measuring IGA policy efficiency, and performing access certification campaigns and risk management.
----
-
 # How-Tos
 
 These guides will help you perform various governance actions with practical step-by-step

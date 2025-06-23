@@ -1,9 +1,3 @@
----
-title: Harden Agent
-sidebar_label: Harden Agent
-description: Agent hardening configuration to protect against tampering and unauthorized modifications for enhanced security.
----
-
 # Harden Agent
 
 You van harden an Agent to protect it from being altered, stopped, or started from within the local

@@ -1,9 +1,3 @@
----
-title: Install Components & Methods
-sidebar_label: components overview
-description: Installation procedures, system requirements, and deployment configuration for Privilege Secure components and services.
----
-
 # Install Components & Methods
 
 The `NPS.zip` file that can be downloaded from the Netwrix Customer portal contains the following:

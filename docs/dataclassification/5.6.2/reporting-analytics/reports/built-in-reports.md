@@ -1,9 +1,3 @@
----
-title: Built-in Reports
-sidebar_label: Built In Reports
-description: Netwrix Data Classification offers a number of built-in reports and charts that refer to indexing and classification process and results, as well to the syst...
----
-
 # Built-in Reports
 
 Netwrix Data Classification offers a number of built-in reports and charts that refer to indexing

@@ -1,9 +1,3 @@
----
-title: ports and networking
-sidebar_label: ports-and-networking
-description: Auditor 10.7 documentation for ports and networking with configuration details, usage instructions, and implementation guidance.
----
-
 # Active Directory Ports
 
 Review a full list of protocols and ports required for monitoring Active Directory.

@@ -1,9 +1,3 @@
----
-title: get data Administration
-sidebar_label: get data
-description: Administration guide for get data including configuration, management, and best practices for Access Analyzer.
----
-
 # Use Access Token to Get Data from the Access Analyzer Endpoint
 
 Use the access token to call the API endpoints using PowerShell and retrieve data. The following

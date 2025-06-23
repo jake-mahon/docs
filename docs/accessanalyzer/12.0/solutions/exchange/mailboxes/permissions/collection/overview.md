@@ -1,9 +1,3 @@
----
-title: exchange mailboxes permissions collection overview
-sidebar_label: overview
-description: Solution guide for exchange mailboxes permissions collection overview including implementation steps, configuration, and best practices.
----
-
 # 0. Collection Job Group
 
 The 0. Collection job group is comprised of data collection and analysis that focus on access

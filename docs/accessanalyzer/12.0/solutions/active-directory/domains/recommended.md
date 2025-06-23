@@ -1,9 +1,3 @@
----
-title: active directory domains recommended
-sidebar_label: recommended
-description: Solution guide for active directory domains recommended including implementation steps, configuration, and best practices.
----
-
 # Recommended Configurations for the 5.Domains Job Group
 
 The **Active Directory > 5.Domains** job group has been configured by default to run with the

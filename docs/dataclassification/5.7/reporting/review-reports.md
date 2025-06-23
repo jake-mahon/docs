@@ -1,9 +1,3 @@
----
-title: Review Reports and Browse Classified Documents
-sidebar_label: Review Reports
-description: Once your documents are classified, you can identify sensitive information and reduce its exposure. Netwrix recommends starting with the Document Tagging...
----
-
 # Review Reports and Browse Classified Documents
 
 Once your documents are classified, you can identify sensitive information and reduce its exposure.

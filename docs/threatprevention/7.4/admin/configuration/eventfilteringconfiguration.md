@@ -1,9 +1,3 @@
----
-title: Event Filtering Configuration
-sidebar_label: Event Filtering Config
-description: Event filtering configuration for managing authentication traffic and reducing system load through selective monitoring.
----
-
 # Event Filtering Configuration Window
 
 The Event Filtering Configuration window enables you to exclude specific Active Directory and

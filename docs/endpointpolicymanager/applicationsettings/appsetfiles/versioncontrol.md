@@ -1,9 +1,3 @@
----
-title: Extension DLL Version Control
-sidebar_label: Version Control
-description: Manage version control of Endpoint Policy Manager extension DLLs for application updates, corrections, and new features.
----
-
 # Version Control of Endpoint Policy Manager Extension DLLs
 
 From time to time, you may wish to update your original source Endpoint Policy Manager XML that you

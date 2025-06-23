@@ -1,9 +1,3 @@
----
-title: Nasuni Add-on for Auditor
-sidebar_label: Nasuni
-description: Deploy and configure Netwrix Auditor Nasuni add-on for monitoring cloud file services and hybrid storage infrastructure changes.
----
-
 # Work with Collected Data
 
 To leverage data collected with the add-on, you can do the following in Auditor:

@@ -1,9 +1,3 @@
----
-title: SharePoint Online
-sidebar_label: Sharepoint Online
-description: Office 365 customers can configure the collector service to automatically detect and queue their employees SharePoint Online sites hosted in Office 365. An...
----
-
 # SharePoint Online
 
 Office 365 customers can configure the collector service to automatically detect and queue their

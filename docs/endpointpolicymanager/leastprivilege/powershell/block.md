@@ -1,9 +1,3 @@
----
-title: Block PowerShell 2.0 Execution
-sidebar_label: Block PowerShell
-description: Configure LPM rules to block PowerShell 2.0 execution while preventing excessive event log generation from repeated block attempts.
----
-
 # How to Block running PowerShell 2.0 using Least Privilege Manager
 
 Issue:

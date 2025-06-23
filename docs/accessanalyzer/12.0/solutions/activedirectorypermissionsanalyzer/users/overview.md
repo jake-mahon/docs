@@ -1,9 +1,3 @@
----
-title: activedirectorypermissionsanalyzer users overview
-sidebar_label: overview
-description: Solution guide for activedirectorypermissionsanalyzer users overview including implementation steps, configuration, and best practices.
----
-
 # 1.Users Job Group
 
 The 1.Users Job Group reports on all Active Directory permissions applied to user objects within the

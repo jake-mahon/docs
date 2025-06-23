@@ -1,9 +1,3 @@
----
-title: Azure SQL Collection Overview
-sidebar_label: Overview
-description: Overview of Azure SQL data collection jobs including instance discovery, sensitive data scanning, and activity monitoring.
----
-
 # 0.Collection > Azure SQL Job Group
 
 The 0.Collection Job Group, located at **Databases** > **0.Collection** > **AzureSQL** collects

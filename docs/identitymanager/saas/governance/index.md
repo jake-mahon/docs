@@ -1,9 +1,3 @@
----
-title: SaaS Governance Features
-sidebar_label: Governance
-description: Cloud-based governance features for controlling entitlement assignments, risk management, certification campaigns, and compliance reporting.
----
-
 # Governance
 
 Identity Manager's governance features intend to provide tools that control assignments of

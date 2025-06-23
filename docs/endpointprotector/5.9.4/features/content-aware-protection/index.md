@@ -1,9 +1,3 @@
----
-title: Content Aware Protection
-sidebar_label: Content Aware
-description: Advanced content filtering and data loss prevention policies for protecting sensitive company data including PII, financial information, and custom content.
----
-
 # Content Aware Protection
 
 This module allows the Administrator to set up and enforce strong content ﬁltering policies for

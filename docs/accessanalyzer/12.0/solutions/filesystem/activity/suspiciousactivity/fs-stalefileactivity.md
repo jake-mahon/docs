@@ -1,9 +1,3 @@
----
-title: filesystem activity suspiciousactivity fs stalefileactivity
-sidebar_label: fs stalefileactivity
-description: Solution guide for filesystem activity suspiciousactivity fs stalefileactivity including implementation steps, configuration, and best practices.
----
-
 # FS_StaleFileActivity Job
 
 The FS_StaleFileActivity job is designed to report on user activity event information involving

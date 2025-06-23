@@ -1,9 +1,3 @@
----
-title: Soften Agent
-sidebar_label: Soften Agent
-description: Agent softening procedure to allow local service control manager access for maintenance and troubleshooting.
----
-
 # Soften Agent
 
 You can soften a previously hardened Agent. Softening unlocks the Agent so it can be controlled from

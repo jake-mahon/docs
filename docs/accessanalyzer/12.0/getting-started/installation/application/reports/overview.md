@@ -1,9 +1,3 @@
----
-title: Getting Started: overview
-sidebar_label: overview
-description: Getting started guide for overview in Access Analyzer including setup instructions and initial configuration steps.
----
-
 # Reports via the Web Console
 
 The Web Console is where any reports which have been published can be viewed outside of the Access

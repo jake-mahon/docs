@@ -1,9 +1,3 @@
----
-title: Browser Router Port Based Routing
-sidebar_label: Port Routing
-description: Configure Browser Router to route websites based on specific ports, enabling granular control over browser selection for different services and applications.
----
-
 # Routing Using Ports
 
 Endpoint Policy Manager Browser Router can open a specific website when a particular website needs a

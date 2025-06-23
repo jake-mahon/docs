@@ -1,9 +1,3 @@
----
-title: Identity Management Overview
-sidebar_label: Identity Management
-description: Core identity management concepts including identity repositories, user lifecycles, and Joiners-Movers-Leavers processes in Usercube.
----
-
 # Identity Management
 
 Identity management is about creating a repository of identities (all kinds of identities) along

@@ -1,9 +1,3 @@
----
-title: datasource getdsparameter API
-sidebar_label: getdsparameter
-description: API reference for getdsparameter operations in Directory Manager with request parameters, response examples, and implementation details.
----
-
 # Get Parameters of a Data Source
 
 Using this API, you can retrieve parameters information of a data source specified in end point URL.

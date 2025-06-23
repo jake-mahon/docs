@@ -1,9 +1,3 @@
----
-title: Historical Dashboard
-sidebar_label: historical sessions
-description: Administrative configuration and management features for Privilege Secure PAM solution including user management, policies, and security settings.
----
-
 # Historical Dashboard
 
 The Historical sessions dashboard shows all created sessions and their status. Only users with the

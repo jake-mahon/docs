@@ -1,9 +1,3 @@
----
-title: Modify Migration action settings
-sidebar_label: Migration
-description: To configure or modify Migration action settings using the Advanced interface: 1. In administrative web console, navigate to Workflows and select the workflo...
----
-
 # Modify Migration action settings
 
 To configure or modify Migration action settings using the **Advanced** interface:

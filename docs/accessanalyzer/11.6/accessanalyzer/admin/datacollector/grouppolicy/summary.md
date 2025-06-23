@@ -1,9 +1,3 @@
----
-title: Group Policy Summary Configuration
-sidebar_label: Summary
-description: Summary page displaying the configured Group Policy data collector query with all selected settings and parameters for review.
----
-
 # GroupPolicy: Summary
 
 The Summary page displays a summary of the configured query. It is a wizard page for all categories.

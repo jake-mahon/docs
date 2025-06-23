@@ -1,9 +1,3 @@
----
-title: Jira Field Mapping Configuration
-sidebar_label: Jira Configuration
-description: Configure field mapping between Jira and Platform Governance change requests with step-by-step mapping process and verification procedures.
----
-
 # Jira Field Mapping
 
 The Jira Field Mapping tool maps a Jira field to a Netwrix Change Request. To access the Field

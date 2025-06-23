@@ -1,9 +1,3 @@
----
-title: Activity Records Statistics Dashboard
-sidebar_label: Health Dashboard
-description: Monitor system health and activity records statistics in Netwrix Auditor health dashboard for performance and operational insights.
----
-
 # Activity Records Statistics
 
 Aggregated statistics on the activity records is provided in the Activity records by date widget.

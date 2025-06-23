@@ -1,9 +1,3 @@
----
-title: web server
-sidebar_label: web server
-description: Documentation for web server functionality in Access Analyzer including configuration and usage information.
----
-
 # Survey: Web Server
 
 Use this page to specify information about the web server hosting the survey website.

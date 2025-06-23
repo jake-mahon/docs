@@ -1,9 +1,3 @@
----
-title: databases db2 recommended
-sidebar_label: recommended
-description: Solution guide for databases db2 recommended including implementation steps, configuration, and best practices.
----
-
 # Recommended Configuration for the Db2 Solution
 
 The Db2 Solution has been configured to inherit down from the **Db2** > **Settings** node. However,

@@ -1,9 +1,3 @@
----
-title: configure job
-sidebar_label: configure job
-description: Documentation for configure job functionality in Access Analyzer including configuration and usage information.
----
-
 # Custom Dropbox Connection Profile & Host List
 
 The DropboxAccess Data Collector requires a custom Connection Profile to be created and assigned to

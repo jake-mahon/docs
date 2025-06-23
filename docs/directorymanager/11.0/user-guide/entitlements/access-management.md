@@ -1,9 +1,3 @@
----
-title: access management
-sidebar_label: access-management
-description: Directory Manager 11.0 documentation for access management with configuration details, usage instructions, and implementation guidance.
----
-
 # File Servers
 
 The [ Entitlement](/docs/directorymanager/11.0/user-guide/entitlements/access-management.md) page lists

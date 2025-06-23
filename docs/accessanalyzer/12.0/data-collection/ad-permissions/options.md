@@ -1,9 +1,3 @@
----
-title: options
-sidebar_label: options
-description: Documentation for options functionality in Access Analyzer including configuration and usage information.
----
-
 # ADPermissions: Options
 
 The Options page is provides additional options for collecting the Active Directory information. It

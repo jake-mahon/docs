@@ -1,9 +1,3 @@
----
-title: overview
-sidebar_label: overview
-description: Documentation for overview functionality in Access Analyzer including configuration and usage information.
----
-
 # EWSMailbox Data Collector
 
 The EWSMailbox Data Collector provides configuration options to scan mailbox contents, permissions,

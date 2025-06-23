@@ -1,9 +1,3 @@
----
-title: Application Manager Video Learning Center
-sidebar_label: Video Learning
-description: Access video tutorials and learning resources for Application Manager covering overviews, getting started, and configuration guidance.
----
-
 # Video Learning Center
 
 See the following Video topics for Application Manager.

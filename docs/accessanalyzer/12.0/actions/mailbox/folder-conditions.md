@@ -1,9 +1,3 @@
----
-title: folder conditions
-sidebar_label: folder conditions
-description: Documentation for folder conditions functionality in Access Analyzer including configuration and usage information.
----
-
 # Mailbox: Folder Conditions
 
 Use the Folder Conditions page to customize folder search filter conditions. It is a wizard page for

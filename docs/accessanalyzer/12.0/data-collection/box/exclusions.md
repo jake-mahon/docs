@@ -1,9 +1,3 @@
----
-title: exclusions
-sidebar_label: exclusions
-description: Documentation for exclusions functionality in Access Analyzer including configuration and usage information.
----
-
 # Box: Exclusions Page
 
 The Exclude or Include folders page (ExclusionsPage) is where the scan can be limited to include or

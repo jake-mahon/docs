@@ -1,9 +1,3 @@
----
-title: Windows File Activity Monitoring
-sidebar_label: Windows
-description: Monitor file activity on Windows systems including file operations, access patterns, and security events with comprehensive activity tracking.
----
-
 # Windows
 
 Understanding File Activity Monitoring

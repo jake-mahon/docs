@@ -1,9 +1,3 @@
----
-title: Agent Installer Update Window
-sidebar_label: Agent Installer Update Window
-description: Netwrix periodically releases updated Agent installation packages. Typically these updates are associated with Microsoft KBs (hot-fixes) which alter the LSAS...
----
-
 # Agent Installer Update Window
 
 Netwrix periodically releases updated Agent installation packages. Typically these updates are

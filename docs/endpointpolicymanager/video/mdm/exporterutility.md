@@ -1,9 +1,3 @@
----
-title: Deploying Directives without Group Policy (Exporter Utility)
-sidebar_label: Exporter Utility
-description: Video tutorial on using Endpoint Policy Manager Exporter Utility to deploy directives with SCCM, Intune, LanDesk, KACE, and other non-Group Policy methods.
----
-
 # Deploying Endpoint Policy Managerdirectives without Group Policy (Endpoint Policy Manager Exporter Utility)
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/1yXhbpAz8uI" title="PolicyPak: Deploying Endpoint Policy Manager directives without Group Policy (Endpoint Policy Manager Exporter Utility)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="1"></iframe>

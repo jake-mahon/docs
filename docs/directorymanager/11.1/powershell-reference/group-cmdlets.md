@@ -1,9 +1,3 @@
----
-title: group-cmdlets Cmdlet
-sidebar_label: group-cmdlets
-description: PowerShell cmdlet reference for group-cmdlets with parameter details, syntax examples, and usage instructions for Directory Manager.
----
-
 # Convert-Group
 
 The Convert-Group commandlet converts an unmanaged group to a Smart Group.

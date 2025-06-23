@@ -1,9 +1,3 @@
----
-title: portal configuration
-sidebar_label: portal-configuration
-description: Directory Manager 11.0 documentation for portal configuration with configuration details, usage instructions, and implementation guidance.
----
-
 # Create a GroupID Portal
 
 Admin Center lets you quickly build and deploy web-based portals for end-users to carry out user,

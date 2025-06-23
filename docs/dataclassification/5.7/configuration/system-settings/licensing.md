@@ -1,9 +1,3 @@
----
-title: Licensing
-sidebar_label: Licensing
-description: The licenses that are loaded into the product define what functionality is available. This is broken into: NOTE: The Feature Licensing, which includes...
----
-
 # Licensing
 
 The licenses that are loaded into the product define what functionality is available. This is broken

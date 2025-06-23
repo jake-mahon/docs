@@ -1,9 +1,3 @@
----
-title: System Management Screen
-sidebar_label: system management screen
-description: Documentation for Privilege Secure privileged access management solution covering features, configuration, and usage procedures.
----
-
 # System Management Screen
 
 System Management Screen

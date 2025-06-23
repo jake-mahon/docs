@@ -1,9 +1,3 @@
----
-title: Getting Started: wizard
-sidebar_label: wizard
-description: Getting started guide for wizard in Access Analyzer including setup instructions and initial configuration steps.
----
-
 # Access Analyzer Core Upgrade Instructions
 
 **CAUTION:** If Role Based Access has been enabled, a user with the Administrator role must perform

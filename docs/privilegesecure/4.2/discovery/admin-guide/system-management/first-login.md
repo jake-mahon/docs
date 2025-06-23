@@ -1,9 +1,3 @@
----
-title: First Login
-sidebar_label: first login
-description: Documentation for Privilege Secure privileged access management solution covering features, configuration, and usage procedures.
----
-
 # First Login
 
 First Login

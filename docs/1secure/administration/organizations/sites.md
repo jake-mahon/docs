@@ -1,9 +1,3 @@
----
-title: Organization Sites Management
-sidebar_label: Sites
-description: Add and manage sites within organizations to represent physical locations and track on-premises agent status for MSP clients.
----
-
 # Add Sites to an Organization
 
 Sites are used to signify physical groupings within the organization. The feature is helpful for

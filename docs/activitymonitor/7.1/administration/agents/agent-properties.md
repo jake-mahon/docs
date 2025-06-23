@@ -1,9 +1,3 @@
----
-title: Agent Properties Configuration Window
-sidebar_label: Agent Properties
-description: Configure agent settings through the Properties window including Active Directory, API server, archiving, and connection parameters.
----
-
 # Agent Properties Window
 
 On the Agents tab, the Edit button opens the agent’s Properties window, which contains the following

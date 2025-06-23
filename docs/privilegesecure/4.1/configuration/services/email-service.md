@@ -1,9 +1,3 @@
----
-title: Email Service
-sidebar_label: email service
-description: System configuration settings and advanced options for authentication, integrations, services, and security parameters.
----
-
 # Email Service
 
 On the Email Services page, add and configure the settings used for email notifications.

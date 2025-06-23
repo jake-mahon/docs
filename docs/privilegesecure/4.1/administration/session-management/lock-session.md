@@ -1,9 +1,3 @@
----
-title: Lock Session
-sidebar_label: lock session
-description: Administrative configuration and management features for Privilege Secure PAM solution including user management, policies, and security settings.
----
-
 # Lock Session
 
 It is possible to lock out the user in the event that suspicious or unauthorized activity is

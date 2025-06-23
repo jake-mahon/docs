@@ -1,9 +1,3 @@
----
-title: databases mongodb collection mongodb sensitivedatascan
-sidebar_label: mongodb sensitivedatascan
-description: Solution guide for databases mongodb collection mongodb sensitivedatascan including implementation steps, configuration, and best practices.
----
-
 # MongoDB_SensitiveDataScan Job
 
 The MongoDB_SensitiveDataScan Job is designed to discover sensitive data in MongoDB databases based

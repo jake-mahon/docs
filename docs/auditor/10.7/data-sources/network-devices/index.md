@@ -1,9 +1,3 @@
----
-title: index
-sidebar_label: index
-description: Auditor 10.7 documentation for index with configuration details, usage instructions, and implementation guidance.
----
-
 # Network Devices
 
 To configure your network devices for monitoring perform the following procedures, depending on your

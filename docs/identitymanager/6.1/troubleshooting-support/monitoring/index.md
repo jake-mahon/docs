@@ -1,9 +1,3 @@
----
-title: System Monitoring and Logging
-sidebar_label: Monitoring
-description: Configure system monitoring with Serilog logging including log management, QRadar integration, and troubleshooting guidance.
----
-
 # How-Tos
 
 These guides will help you manage logs with practical step-by-step procedures.

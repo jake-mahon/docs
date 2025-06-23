@@ -1,9 +1,3 @@
----
-title: entra id user analysis
-sidebar_label: user analysis
-description: Solution guide for entra id user analysis including implementation steps, configuration, and best practices.
----
-
 # AAD_DirectMembership Job
 
 The AAD_DirectMembership Job identifies Microsoft Entra ID users who do not have any group

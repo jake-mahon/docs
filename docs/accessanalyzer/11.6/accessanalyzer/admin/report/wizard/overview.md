@@ -1,9 +1,3 @@
----
-title: overview
-sidebar_label: overview
-description: Documentation for overview functionality in Access Analyzer including configuration and usage information.
----
-
 # Report Configuration Wizard
 
 You can use the Report Configuration Wizard to configure reports. The wizard can be launched for an

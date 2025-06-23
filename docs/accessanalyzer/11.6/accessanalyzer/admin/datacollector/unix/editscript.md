@@ -1,9 +1,3 @@
----
-title: Unix Edit Script Configuration
-sidebar_label: Edit Script
-description: Edit script configuration for Unix data collector including custom script editing and command line parameter settings.
----
-
 # Unix: Edit Script
 
 The Edit Script page allows the script to be customized.

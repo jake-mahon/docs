@@ -1,9 +1,3 @@
----
-title: email
-sidebar_label: email
-description: Directory Manager 11.1 documentation for email with configuration details, usage instructions, and implementation guidance.
----
-
 # Object properties - Email tab
 
 Use this tab to view the addresses assigned to this object.

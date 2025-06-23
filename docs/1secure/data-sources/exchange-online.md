@@ -1,9 +1,3 @@
----
-title: Exchange Online Data Source Setup
-sidebar_label: Exchange Online
-description: Configure Exchange Online auditing with Microsoft Entra ID application registration and proper permissions for Office 365 monitoring.
----
-
 # Exchange Online Auditing
 
 Before adding an Exchange Online data source for your organization, plan for the account that will
@@ -15,17 +9,6 @@ Entra ID application, formerly Azure AD. This app should be created manually by 
 administrative role and assigned required permissions. See the
 [App Registration and Configuration in Microsoft Entra ID](/docs/1secure/setup-and-configuration/azure-entra-id/registration.md)
 topic for additional information.
-
----
-
-id: add-a-source-and-connectors-for-exchange-online
-title: "Add a Source and Connectors for Exchange Online"
-pagination_label: "Add a Source and Connectors for Exchange Online"
-sidebar_label: "Add a Source and Connectors for Exchange Online"
-sidebar_position: 44
-description: "Step-by-step guide to add Exchange Online data sources and connectors to your organization."
-
----
 
 # Add a Source and Connectors for Exchange Online
 

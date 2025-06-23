@@ -1,9 +1,3 @@
----
-title: Nutanix Storage System Monitoring
-sidebar_label: Nutanix
-description: Configure Nutanix hyperconverged infrastructure monitoring settings including device configuration and storage activity tracking capabilities.
----
-
 # Nutanix Tab
 
 The Nutanix tab provides features to configure settings for monitoring Nutanix devices.

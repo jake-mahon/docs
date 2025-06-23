@@ -1,9 +1,3 @@
----
-title: Password Policy Enforcer Command Line Tools
-sidebar_label: Command Line Tools
-description: Command line interface tools for Password Policy Enforcer including mailer operations and administrative commands.
----
-
 # Command Line Interface
 
 You can run the Password Policy Enforcer Mailer from the command line to deliver email immediately,

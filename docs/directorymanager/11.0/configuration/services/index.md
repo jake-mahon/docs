@@ -1,9 +1,3 @@
----
-title: index
-sidebar_label: index
-description: Directory Manager 11.0 documentation for index with configuration details, usage instructions, and implementation guidance.
----
-
 # Admin Center
 
 Admin Center enables administrators to configure settings that are used by different functions of

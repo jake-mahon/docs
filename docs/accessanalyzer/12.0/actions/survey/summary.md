@@ -1,9 +1,3 @@
----
-title: summary
-sidebar_label: summary
-description: Documentation for summary functionality in Access Analyzer including configuration and usage information.
----
-
 # Survey: Summary
 
 A summary of the survey configuration displays.

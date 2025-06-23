@@ -1,9 +1,3 @@
----
-title: destination
-sidebar_label: destination
-description: Documentation for destination functionality in Access Analyzer including configuration and usage information.
----
-
 # Web Request: Destination
 
 Use the Destination page to specify all settings for the destination of the web request.

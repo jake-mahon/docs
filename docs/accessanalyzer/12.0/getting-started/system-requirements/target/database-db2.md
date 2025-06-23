@@ -1,9 +1,3 @@
----
-title: Getting Started: database db2
-sidebar_label: database db2
-description: Getting started guide for database db2 in Access Analyzer including setup instructions and initial configuration steps.
----
-
 # Target Db2 Requirements, Permissions, and Ports
 
 The Access Analyzer for Databases Solution provides the ability to audit and monitor Db2 database

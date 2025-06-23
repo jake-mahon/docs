@@ -1,9 +1,3 @@
----
-title: workflows
-sidebar_label: workflows
-description: Documentation for workflows functionality in Access Analyzer including configuration and usage information.
----
-
 # Additional FSAA Workflows
 
 The following FSAA Data Collector query categories that provide additional functionality:

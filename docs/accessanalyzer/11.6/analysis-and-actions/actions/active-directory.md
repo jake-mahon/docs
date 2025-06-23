@@ -1,9 +1,3 @@
----
-title: active directory
-sidebar_label: active directory
-description: Documentation for active directory functionality in Access Analyzer including configuration and usage information.
----
-
 # Active Directory Action Operations
 
 Use Operations page to select one or more operations for the action to perform on the targeted

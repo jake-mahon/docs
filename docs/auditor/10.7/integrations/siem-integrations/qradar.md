@@ -1,9 +1,3 @@
----
-title: qradar
-sidebar_label: qradar
-description: Auditor 10.7 documentation for qradar with configuration details, usage instructions, and implementation guidance.
----
-
 # Automate Add-On Execution
 
 To ensure you feed the most recent data to your SIEM solution, Netwrix recommends scheduling a daily

@@ -1,9 +1,3 @@
----
-title: host inventory Administration
-sidebar_label: host inventory
-description: Administration guide for host inventory including configuration, management, and best practices for Access Analyzer.
----
-
 # Host Inventory
 
 The Host Inventory node is for selecting what information to collect from the target host during the

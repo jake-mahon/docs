@@ -1,9 +1,3 @@
----
-title: System Updates Management
-sidebar_label: Updates
-description: Endpoint Protector updates through Live Update or Offline Patches features including automatic and manual update processes.
----
-
 # Updates
 
 Endpoint Protector updates are available through the Live Update or Offline Patches features. The

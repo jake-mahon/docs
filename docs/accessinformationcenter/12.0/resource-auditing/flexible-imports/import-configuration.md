@@ -1,9 +1,3 @@
----
-title: Flexible Import Configuration Reports
-sidebar_label: Import Configuration
-description: Permissions reports for imported data showing trustee permissions on resources with detailed column information and analysis capabilities.
----
-
 # Permissions Report
 
 The Permissions report for imported data shows the permissions for trustees on the resource.

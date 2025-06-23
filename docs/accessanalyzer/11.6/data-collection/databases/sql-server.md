@@ -1,9 +1,3 @@
----
-title: sql server
-sidebar_label: sql server
-description: Documentation for sql server functionality in Access Analyzer including configuration and usage information.
----
-
 # SQL: Category
 
 The Category page in the SQL Data Collector Wizard lists the available query categories, sub-divided

@@ -1,9 +1,3 @@
----
-title: sample host
-sidebar_label: sample host
-description: Documentation for sample host functionality in Access Analyzer including configuration and usage information.
----
-
 # WMICollector: Sample Host
 
 On the Sample Host page, enter a sample host to populate options for the query.

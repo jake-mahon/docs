@@ -1,9 +1,3 @@
----
-title: Cloud Overview and Reports
-sidebar_label: Reports
-description: Cloud overview interface with action controls and reporting capabilities for cloud security monitoring and assessment.
----
-
 # Cloud Overview Tab
 
 ![cloudoverviewtab](/img/versioned_docs/changetracker_8.0/changetracker/cloud/cloudoverviewtab.webp)

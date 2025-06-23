@@ -1,9 +1,3 @@
----
-title: Policy Data Protection
-sidebar_label: Data Protection
-description: Policy data protection configuration for securing access to sensitive policies and restricting administrative permissions based on user roles.
----
-
 # Data Protection
 
 Under the Policies node, you can protect collected event data at the folder level.

@@ -1,9 +1,3 @@
----
-title: filter operators
-sidebar_label: filter-operators
-description: Auditor 10.7 documentation for filter operators with configuration details, usage instructions, and implementation guidance.
----
-
 # Operators
 
 Review the table below to learn more about operators.

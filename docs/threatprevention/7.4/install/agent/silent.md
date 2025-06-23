@@ -1,9 +1,3 @@
----
-title: Agent Silent Install Option
-sidebar_label: Agent Silent Install Option
-description: You can use command line options to install the Agent silently. These options can be leveraged to deploy the Agent via custom batch files, login scripts, or ...
----
-
 # Agent Silent Install Option
 
 You can use command line options to install the Agent silently. These options can be leveraged to

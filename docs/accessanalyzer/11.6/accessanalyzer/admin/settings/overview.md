@@ -1,9 +1,3 @@
----
-title: overview
-sidebar_label: overview
-description: Documentation for overview functionality in Access Analyzer including configuration and usage information.
----
-
 # Global Settings
 
 The global settings have an overall impact on the running ofEnterprise Auditor jobs. Settings are

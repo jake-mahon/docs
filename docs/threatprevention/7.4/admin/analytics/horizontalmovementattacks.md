@@ -1,9 +1,3 @@
----
-title: Horizontal Movement Analytics
-sidebar_label: Horizontal Movement
-description: Detection of lateral movement attacks where attackers access multiple resources beyond their normal patterns within specified timeframes.
----
-
 # Horizontal Movement Attacks Analytic Type
 
 The **Horizontal Movement Attacks** analytic type identifies security principals that are accessing

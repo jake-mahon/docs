@@ -1,9 +1,3 @@
----
-title: settings
-sidebar_label: settings
-description: Documentation for settings functionality in Access Analyzer including configuration and usage information.
----
-
 # Unix: Settings
 
 The Settings page configures the Unix Data Collector settings.

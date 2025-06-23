@@ -1,9 +1,3 @@
----
-title: Activity Monitor Performance Monitoring
-sidebar_label: Performance Monitoring
-description: Performance counters and system monitoring recommendations for Activity Monitor including NetApp, Host Agent, and system-wide metrics for diagnostics.
----
-
 # Performance Monitoring
 
 This topic provides a list of Activity Monitor performance counters and standard system-wide

@@ -1,9 +1,3 @@
----
-title: System Requirements and Architecture
-sidebar_label: Requirements
-description: Complete system requirements, client specifications, security exclusions, and architecture overview for Endpoint Protector deployment.
----
-
 # Requirements
 
 This document provides an in-depth overview of the Netwrix Endpoint Protector solution, designed for

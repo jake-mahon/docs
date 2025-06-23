@@ -1,9 +1,3 @@
----
-title: Getting Started: index
-sidebar_label: index
-description: Getting started guide for index in Access Analyzer including setup instructions and initial configuration steps.
----
-
 # Getting Started
 
 Once Access Analyzer is installed, the following workflow will quickly enable users to begin

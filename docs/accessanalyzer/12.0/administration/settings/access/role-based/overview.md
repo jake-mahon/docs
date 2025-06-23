@@ -1,9 +1,3 @@
----
-title: overview Administration
-sidebar_label: overview
-description: Administration guide for overview including configuration, management, and best practices for Access Analyzer.
----
-
 # Role Based Access
 
 Role Based Access allows Access Analyzer users to not have local Administrator rights on the console

@@ -1,9 +1,3 @@
----
-title: Get directorymanagerinformation Cmdlet
-sidebar_label: getdirectorymanagerinformation
-description: PowerShell cmdlet reference for getdirectorymanagerinformation with parameter details, syntax examples, and usage instructions for Directory Manager.
----
-
 # Get-GroupIdInformation
 
 The Get-GroupIdInformation commandlet retrieves general information about Directory Manager.

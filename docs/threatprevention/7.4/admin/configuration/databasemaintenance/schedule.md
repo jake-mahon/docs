@@ -1,9 +1,3 @@
----
-title: Schedule Database Maintenance
-sidebar_label: Schedule Database Maintenance
-description: You must schedule the database maintenance job, which runs the specified operation on each of the enabled event type data, analytic data, and/or policy data ...
----
-
 # Schedule Database Maintenance
 
 You must schedule the database maintenance job, which runs the specified operation on each of the

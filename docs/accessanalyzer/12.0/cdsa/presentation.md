@@ -1,9 +1,3 @@
----
-title: CDSA Presentation Dependencies
-sidebar_label: Presentation
-description: Alignment of presentation slides to their data source jobs, including dependencies for the Netwrix Credential and Data Security Assessment PowerPoint file.
----
-
 # Presentation Dependencies
 
 In the following subsections, each slide is aligned to the jobs that supply its data. The slide

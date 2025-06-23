@@ -1,9 +1,3 @@
----
-title: windows openaccess recommended
-sidebar_label: recommended
-description: Solution guide for windows openaccess recommended including implementation steps, configuration, and best practices.
----
-
 # Recommended Configurations for the Open Access Job Group
 
 Dependencies

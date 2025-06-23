@@ -1,9 +1,3 @@
----
-title: Linux Simplified - 2.18+
-sidebar_label: linux simplified
-description: Documentation for Privilege Secure privileged access management solution covering features, configuration, and usage procedures.
----
-
 # Linux Simplified - 2.18+
 
 Linux Simplified - 2.18+

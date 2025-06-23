@@ -1,9 +1,3 @@
----
-title: Non-Owner Mailbox Access Configuration
-sidebar_label: Non-Owner Configuration
-description: Configure settings for non-owner mailbox access auditing in Exchange Online organizations using application-based authentication.
----
-
 # Settings for Non-Owner Mailbox Access Audit: Using Application
 
 To prepare for non-owner mailbox access auditing in the Exchange Online organization, you will need

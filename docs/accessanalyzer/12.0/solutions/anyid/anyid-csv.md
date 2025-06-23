@@ -1,9 +1,3 @@
----
-title: anyid anyid csv
-sidebar_label: anyid csv
-description: Solution guide for anyid anyid csv including implementation steps, configuration, and best practices.
----
-
 # AnyID_CSV Job
 
 The AnyID_CSV job imports a list of identities and attributes from a CSV file. Use this when a

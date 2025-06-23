@@ -1,9 +1,3 @@
----
-title: Windows Remote Assistance Configuration
-sidebar_label: Remote Assistance
-description: Configure Windows Remote Assistance to enable remote computer access and incoming connections using Endpoint Policy Manager.
----
-
 # How-to gain access of a remote computer using built-in Windows Remote Assistance application?
 
 Enable remote computers to accept the incoming remote connection with Netwrix Endpoint Policy

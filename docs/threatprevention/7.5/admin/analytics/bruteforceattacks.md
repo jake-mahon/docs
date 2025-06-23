@@ -1,9 +1,3 @@
----
-title: Brute Force Attacks Analytics
-sidebar_label: Brute Force Attacks
-description: Real-time detection of brute force authentication attacks targeting user accounts with configurable thresholds and alerting.
----
-
 # Brute Force Attacks Analytic Type
 
 The **Brute Force Attacks** analytic type identifies failed attempts from a single host to access a

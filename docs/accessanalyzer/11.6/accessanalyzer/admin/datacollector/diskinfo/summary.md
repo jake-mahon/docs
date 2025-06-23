@@ -1,9 +1,3 @@
----
-title: DiskInfo Summary Configuration
-sidebar_label: Summary
-description: Summary page displaying the configured DiskInfo data collector query with all selected settings and parameters for review.
----
-
 # DiskInfo: Summary
 
 The Summary page displays a summary of the configured query.

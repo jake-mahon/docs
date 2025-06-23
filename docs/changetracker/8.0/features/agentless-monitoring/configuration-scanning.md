@@ -1,9 +1,3 @@
----
-title: Advanced Agentless Configuration Settings
-sidebar_label: Configuration
-description: Advanced configuration settings for agentless monitoring including RegEx prompt definitions and wildcard sections for complex monitoring scenarios.
----
-
 # Advanced Configuration
 
 ## Advanced Prompt Configuration – Using RegEx

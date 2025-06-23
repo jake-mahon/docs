@@ -1,9 +1,3 @@
----
-title: Agentless CIS Compliance Reports
-sidebar_label: Agentless CIS
-description: Agentless compliance reporting for Windows Server and Desktop using CIS benchmarks with proxy agent architecture for reduced administration overhead.
----
-
 # Agentless CIS Windows Server & Desktop Compliance Reports
 
 Removing the requirement for agents to be present on target devices has several advantages when it

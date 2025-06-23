@@ -1,9 +1,3 @@
----
-title: change detection
-sidebar_label: change detection
-description: Documentation for change detection functionality in Access Analyzer including configuration and usage information.
----
-
 # Change Detection: Additional Fields
 
 Use the Additional Fields page to choose any additional fields to include with the change analysis.

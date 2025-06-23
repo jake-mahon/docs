@@ -1,9 +1,3 @@
----
-title: Event Log Tab
-sidebar_label: Event Log Tab
-description: Alert notification via Event Log sends event notifications to the Windows Event Log. Follow the steps to enable Event Log alerting.
----
-
 # Event Log Tab
 
 Alert notification via Event Log sends event notifications to the Windows Event Log. Follow the

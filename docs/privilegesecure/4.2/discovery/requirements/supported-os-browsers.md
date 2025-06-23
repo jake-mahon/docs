@@ -1,9 +1,3 @@
----
-title: Supported Operating Systems and Browsers
-sidebar_label: supported os browsers
-description: Documentation for Privilege Secure privileged access management solution covering features, configuration, and usage procedures.
----
-
 # Supported Operating Systems and Browsers
 
 Supported Operating Systems and Browsers

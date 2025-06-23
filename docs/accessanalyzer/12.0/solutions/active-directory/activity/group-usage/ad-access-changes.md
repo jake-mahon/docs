@@ -1,9 +1,3 @@
----
-title: active directory activity group usage ad access changes
-sidebar_label: ad access changes
-description: Solution guide for active directory activity group usage ad access changes including implementation steps, configuration, and best practices.
----
-
 # AD_AccessChanges Job
 
 The AD_AccessChanges Job highlights the type and number of resources across the environment where

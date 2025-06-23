@@ -1,9 +1,3 @@
----
-title: unlockaccount
-sidebar_label: unlockaccount
-description: Directory Manager 11.1 documentation for unlockaccount with configuration details, usage instructions, and implementation guidance.
----
-
 # Unlock your accounts
 
 You can unlock your identity store account yourself, without having to contact the administrator or

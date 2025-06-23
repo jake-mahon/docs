@@ -1,9 +1,3 @@
----
-title: Create Web Server Certificate with SANs
-sidebar_label: webserver certificate
-description: Documentation for Privilege Secure privileged access management solution covering features, configuration, and usage procedures.
----
-
 # Create Web Server Certificate with SANs
 
 Create Web Server Certificate with SANs

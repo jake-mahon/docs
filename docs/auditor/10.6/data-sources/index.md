@@ -1,9 +1,3 @@
----
-title: Data Source Configuration Overview
-sidebar_label: Data Sources
-description: Configure monitoring for Active Directory, file servers, databases, Microsoft 365, and infrastructure systems with Netwrix Auditor data sources.
----
-
 # Data Source Configuration
 
 With the Netwrix Auditor, the following Data Sources can be monitored:

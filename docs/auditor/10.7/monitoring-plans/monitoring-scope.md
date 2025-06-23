@@ -1,9 +1,3 @@
----
-title: monitoring scope
-sidebar_label: monitoring-scope
-description: Auditor 10.7 documentation for monitoring scope with configuration details, usage instructions, and implementation guidance.
----
-
 # Active Directory
 
 **NOTE:** Prior to configuring your monitoring plan, please read and complete the instructions in

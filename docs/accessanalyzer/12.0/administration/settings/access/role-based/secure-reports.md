@@ -1,9 +1,3 @@
----
-title: secure reports Administration
-sidebar_label: secure reports
-description: Administration guide for secure reports including configuration, management, and best practices for Access Analyzer.
----
-
 # Securing Published Reports Only
 
 In order to secure published reports through the Web Console, it is necessary to enable Role Based

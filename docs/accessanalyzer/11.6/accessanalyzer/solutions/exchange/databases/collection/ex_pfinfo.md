@@ -1,9 +1,3 @@
----
-title: Exchange PF Info Collection
-sidebar_label: PF Info
-description: Exchange Public Folder information collection job for gathering detailed public folder structure and properties.
----
-
 # 2.PF > EX_PFInfo Job
 
 The EX_PFInfo job utilizes MAPI to gather Public Folder Database Information focusing on database

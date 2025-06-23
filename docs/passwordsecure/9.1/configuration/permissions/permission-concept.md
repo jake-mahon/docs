@@ -1,9 +1,3 @@
----
-title: Permission Concept and Protective Mechanisms
-sidebar_label: Permission Concept
-description: Comprehensive permission management system for Password Secure including roles, manual and automatic permission assignment, and protective mechanisms.
----
-
 # Permission concept and protective mechanisms
 
 ## What is the permission concept?

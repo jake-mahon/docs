@@ -1,9 +1,3 @@
----
-title: Automated Permission Assignment
-sidebar_label: Automated Permissions
-description: Configure automated permission settings including manual assignment, inheritance within organizational structures, and efficient permission reuse.
----
-
 # Automated setting of permissions
 
 ## Reusing permissions

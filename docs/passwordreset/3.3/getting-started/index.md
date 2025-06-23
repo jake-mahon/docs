@@ -1,9 +1,3 @@
----
-title: Password Reset Evaluation Guide
-sidebar_label: Evaluation Guide
-description: Quick start guide for evaluating Password Reset including installation, configuration, and testing for first-time users and organizations.
----
-
 # Evaluation
 
 Password Reset is a self-service password management system that helps organizations to reduce the

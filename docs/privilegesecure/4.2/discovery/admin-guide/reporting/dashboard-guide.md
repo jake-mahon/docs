@@ -1,9 +1,3 @@
----
-title: Account Inventory Colors
-sidebar_label: dashboard guide
-description: Documentation for Privilege Secure privileged access management solution covering features, configuration, and usage procedures.
----
-
 # Account Inventory Colors
 
 Account Inventory Colors

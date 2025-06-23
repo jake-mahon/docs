@@ -1,9 +1,3 @@
----
-title: Automated Installation Using Group Policy
-sidebar_label: Automated Deployment
-description: Guide for deploying Password Policy Enforcer across multiple computers using Group Policy distribution and creating distribution points.
----
-
 # Automated Installation (Advanced Setup)
 
 An automated installation uses Group Policy to distribute Password Policy Enforcer. This type of

@@ -1,9 +1,3 @@
----
-title: overview
-sidebar_label: overview
-description: Documentation for overview functionality in Access Analyzer including configuration and usage information.
----
-
 # Survey Action Module
 
 Use this action module to create surveys and make them available to targeted recipients via email.

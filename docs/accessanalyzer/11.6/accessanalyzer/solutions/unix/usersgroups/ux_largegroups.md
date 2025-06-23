@@ -1,9 +1,3 @@
----
-title: unix usersgroups ux_largegroups
-sidebar_label: ux_largegroups
-description: Solution guide for unix usersgroups ux_largegroups including implementation steps, configuration, and best practices.
----
-
 # UX_LargeGroups Job
 
 The UX_LargeGroups job identifies groups with large member counts. These types of groups may cause

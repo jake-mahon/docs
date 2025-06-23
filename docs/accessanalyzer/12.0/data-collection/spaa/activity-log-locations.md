@@ -1,9 +1,3 @@
----
-title: activity log locations
-sidebar_label: activity log locations
-description: Documentation for activity log locations functionality in Access Analyzer including configuration and usage information.
----
-
 # SPAA: Activity Log Locations
 
 The Activity Log Locations page is where to manually configure log locations to avoid requiring

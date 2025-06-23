@@ -1,9 +1,3 @@
----
-title: active directory activity privileged accounts ad service account auth
-sidebar_label: ad service account auth
-description: Solution guide for active directory activity privileged accounts ad service account auth including implementation steps, configuration, and best practices.
----
-
 # AD_ServiceAccountAuth Job
 
 The AD_ServiceAccountAuth Job shows the last time a service account, identified by the presence of a

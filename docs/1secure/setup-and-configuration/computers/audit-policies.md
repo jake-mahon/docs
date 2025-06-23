@@ -1,9 +1,3 @@
----
-title: Computer Advanced Audit Policies
-sidebar_label: Audit Policies
-description: Configure advanced audit policies to control event tracking and recording for computer monitoring with optimized performance.
----
-
 # Configure Advanced Audit Policies
 
 Configure advanced audit policies to limit the range of events tracked and recorded by the product,
@@ -52,17 +46,6 @@ System Audit Policies.
 | - Logoff                    | "Success"                                       |                                                                               |
 | System                      | - Security State Change                         | "Success"                                                                     |
 
----
-
-id: configure-local-audit-policies
-title: "Configure Local Audit Policies"
-pagination_label: "Configure Local Audit Policies"
-sidebar_label: "Configure Local Audit Policies"
-sidebar_position: 135
-description: "Learn how to configure local audit policies using the Local Security Policy snap-in."
-
----
-
 # Configure Local Audit Policies
 
 You can choose to configure local audit policies or advanced audit policies. See the
@@ -93,38 +76,3 @@ pagination_label: "Configure Object-Level Access Auditing"
 sidebar_label: "Configure Object-Level Access Auditing"
 sidebar_position: 136
 description: "Learn how to configure object-level access auditing for comprehensive file server monitoring."
-
----
-
-# Configure Object-Level Access Auditing
-
-Netwrix 1Secure can be configured to audit all the access types mentioned below:
-
-![Advanced Activity Selection options](/img/product_docs/1secure/configuration/computer/objectlevelaccessaudit.webp)
-
-## Configure Object-level Access Auditing on Windows Server 2012 and Above
-
-Follow the steps to configure Object-level access auditing on Windows Server 2012 and above.
-
-**Step 1 –** Navigate to the target file share, right-click it and select **Properties**.
-
-**Step 2 –** In the `<Share_Name>` Properties dialog box, select the Security tab and click
-**Advanced**.
-
-**Step 3 –** In the Advanced Security Settings for `<Share_Name>` dialog box, navigate to the
-Auditing tab.
-
-![Advanced Security Settings for `<Share_Name>` dialog box](/img/product_docs/1secure/configuration/computer/auditing_entries_netapp_2016.webp)
-
-**Step 4 –** Click **Add** to add a new principal. You can select **Everyone** (or another
-user-defined group containing users that are granted special permissions) and click **Edit**.
-
-**Step 5 –** In the Auditing Entry for `<Folder_Name>` dialog box, click the **Select a principal**
-link and specify **Everyone**.
-
-**NOTE:** You can specify any other group as needed. The product will audit only user accounts that
-are members of the selected group.
-
-**Step 6 –** Apply settings to your Auditing Entries depending on the access types you want to
-audit. If you want to audit all access types, you need to add separate Auditing Entries for each
-file share. Otherwise, reports will contain limited data and warning messages.

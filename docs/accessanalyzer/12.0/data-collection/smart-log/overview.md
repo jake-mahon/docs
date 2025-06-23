@@ -1,9 +1,3 @@
----
-title: overview
-sidebar_label: overview
-description: Documentation for overview functionality in Access Analyzer including configuration and usage information.
----
-
 # SMARTLog Data Collector
 
 The SMARTLog Data Collector provides search and extraction of details from Windows Event Logs

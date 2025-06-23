@@ -1,9 +1,3 @@
----
-title: Add Activity Token Complexity Policy
-sidebar_label: token complexity
-description: Administrative configuration and management features for Privilege Secure PAM solution including user management, policies, and security settings.
----
-
 # Add Activity Token Complexity Policy
 
 Follow the steps below to add an Activity Token Complexity policy to the console. See the Activity

@@ -1,9 +1,3 @@
----
-title: delete list
-sidebar_label: delete list
-description: Documentation for delete list functionality in Access Analyzer including configuration and usage information.
----
-
 # Delete List
 
 Use the **Delete List** option to remove the selected list. This option is available only at an

@@ -1,9 +1,3 @@
----
-title: Managing Data Sources and Monitoring Plans
-sidebar_label: Monitoring Plans
-description: Configure and fine-tune data collection settings for each data source including monitoring scope, state-in-time collection, and permissions.
----
-
 # Manage Data Sources
 
 You can fine-tune data collection for each data source. Settings that you configure for the data

@@ -1,9 +1,3 @@
----
-title: Multiple AppSets Priority Management
-sidebar_label: Multiple AppSets
-description: Manage multiple AppSets within GPOs using Item-Level Targeting and priority settings for conditional application configuration deployment.
----
-
 # Multiple AppSets and Priority
 
 -Level Targeting (described in the previous section).

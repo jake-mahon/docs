@@ -1,9 +1,3 @@
----
-title: INI File Target Files Configuration
-sidebar_label: Target Files
-description: Configuration page for selecting target INI files and directories for data collection and analysis.
----
-
 # INIFile: Target Files
 
 The Target Files page identifies the location and name of the INI file from which to collect

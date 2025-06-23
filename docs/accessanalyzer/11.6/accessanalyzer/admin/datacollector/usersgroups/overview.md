@@ -1,9 +1,3 @@
----
-title: Users Groups Data Collector Overview
-sidebar_label: Overview
-description: Overview of the Users Groups Data Collector for enumerating user accounts and group memberships from Active Directory.
----
-
 # UsersGroups Data Collector
 
 The UsersGroups Data Collector audits user and group accounts for both local and domain, extracting

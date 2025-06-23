@@ -1,9 +1,3 @@
----
-title: Nutanix AHV Add-on for Auditor
-sidebar_label: Nutanix AHV
-description: Deploy and configure Netwrix Auditor Nutanix AHV add-on for monitoring hyperconverged infrastructure changes and virtual machine activities.
----
-
 # Work with Collected Data
 
 To leverage data collected with the add-on, you can do the following in Auditor:

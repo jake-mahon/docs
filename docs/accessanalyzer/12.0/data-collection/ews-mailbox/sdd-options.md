@@ -1,9 +1,3 @@
----
-title: sdd options
-sidebar_label: sdd options
-description: Documentation for sdd options functionality in Access Analyzer including configuration and usage information.
----
-
 # EWSMailbox: SDD Options
 
 The Sensitive data scan options page is where options to be used for discovering sensitive data are

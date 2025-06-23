@@ -1,9 +1,3 @@
----
-title: mail properties
-sidebar_label: mail properties
-description: Documentation for mail properties functionality in Access Analyzer including configuration and usage information.
----
-
 # Survey: Mail – Properties
 
 Use this page to specify the email recipients.

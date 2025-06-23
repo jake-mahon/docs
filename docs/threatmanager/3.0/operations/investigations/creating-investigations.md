@@ -1,9 +1,3 @@
----
-title: Creating New Investigations
-sidebar_label: Creating Investigations
-description: Run queries on threat data using custom filters and timeframes to generate investigation reports for threat analysis and security research.
----
-
 # New Investigation Page
 
 The New Investigation page within the Investigations interface enables you to run queries on

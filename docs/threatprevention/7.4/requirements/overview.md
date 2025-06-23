@@ -1,9 +1,3 @@
----
-title: System Requirements Overview
-sidebar_label: Requirements
-description: Comprehensive system requirements for Threat Prevention deployment including application servers, agents, reporting module, and SQL Server specifications.
----
-
 # Requirements
 
 This topic describes the recommended configuration of the servers needed to install the Threat

@@ -1,9 +1,3 @@
----
-title: unix sharing ux_nfs
-sidebar_label: ux_nfs
-description: Solution guide for unix sharing ux_nfs including implementation steps, configuration, and best practices.
----
-
 # UX_NFS Job
 
 The UX_NFS job identifies potentially insecure NFS share options which are categorized by their risk

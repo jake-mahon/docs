@@ -1,9 +1,3 @@
----
-title: Concurrent Logins Analytics
-sidebar_label: Concurrent Logins
-description: Detection of simultaneous login attempts from multiple locations indicating potential account sharing or compromise scenarios.
----
-
 # Concurrent Logins Analytic Type
 
 The **Concurrent Logins** analytic type identifies same account logins from multiple locations

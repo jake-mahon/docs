@@ -1,9 +1,3 @@
----
-title: . 11.1 misc directorymanager api commonerrors API
-sidebar_label: commonerrors
-description: API reference for commonerrors operations in Directory Manager with request parameters, response examples, and implementation details.
----
-
 # Common Errors
 
 This section lists the errors common to all APIs.

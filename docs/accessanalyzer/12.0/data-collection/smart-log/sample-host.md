@@ -1,9 +1,3 @@
----
-title: sample host
-sidebar_label: sample host
-description: Documentation for sample host functionality in Access Analyzer including configuration and usage information.
----
-
 # SMARTLog: Sample Host
 
 The Sample Host page is used to configure the host. It is a wizard page for all log types.

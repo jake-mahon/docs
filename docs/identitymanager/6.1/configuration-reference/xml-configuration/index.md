@@ -1,9 +1,3 @@
----
-title: XML Configuration Schema Reference
-sidebar_label: XML Configuration
-description: Complete XML configuration schema reference covering access control, connectors, jobs, metadata, workflows, and all configuration entities.
----
-
 # Configuration
 
 - #### [Scaffoldings](/docs/identitymanager/6.1/configuration-reference/scaffoldings/scaffolding-reference.md)

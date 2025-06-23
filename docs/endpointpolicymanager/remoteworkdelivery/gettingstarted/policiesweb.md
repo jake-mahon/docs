@@ -1,9 +1,3 @@
----
-title: Web Policies Getting Started Guide
-sidebar_label: Web Policies
-description: Deploy files from HTTP sources like Amazon S3, Dropbox, and Azure blob storage using BITS protocol for efficient remote endpoint delivery.
----
-
 # Getting Started with Web Policies
 
 Web policies enable you to copy a file from an HTTP source, like Dropbox or Amazon S3.

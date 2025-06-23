@@ -1,9 +1,3 @@
----
-title: NetApp Data ONTAP Configuration Guide
-sidebar_label: NetApp Configuration
-description: Configure Activity Monitor agents to monitor NetApp Data ONTAP devices using encrypted RPC, ONTAP-API, and FPolicy for comprehensive file system auditing.
----
-
 # NetApp Data ONTAP 7-Mode Activity Auditing Configuration
 
 The Activity Monitor agent employed to monitor NetApp leverages 128-bit encrypted Remote Procedure

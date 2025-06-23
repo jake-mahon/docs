@@ -1,9 +1,3 @@
----
-title: Cloud Policy Setup Wizard
-sidebar_label: Setup Wizard
-description: Step-by-step wizard for setting up cloud tracking systems with policy templates and configuration guidance.
----
-
 # Cloud Policy Setup Wizard
 
 **Step 1 –** New Policy: Use the Actions button to start a new Cloud Tracker system set-up.

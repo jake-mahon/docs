@@ -1,9 +1,3 @@
----
-title: Policy Configuration
-sidebar_label: Configuration
-description: Comprehensive policy configuration guide including event types, actions, filters, and deployment settings for security monitoring.
----
-
 # Policy Configuration
 
 A Threat Prevention policy has many elements that define the objects and events it monitors or

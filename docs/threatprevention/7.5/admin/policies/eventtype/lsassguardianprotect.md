@@ -1,9 +1,3 @@
----
-title: LSASS Guardian – Protect Event Type
-sidebar_label: LSASS Guardian – Protect
-description: Based on policy rules, the LSASS Guardian – Protect event type can prevent processes not ‘white listed’ from accessing LSASS by preventing the Write, Read an...
----
-
 # LSASS Guardian – Protect Event Type
 
 Based on policy rules, the LSASS Guardian – Protect event type can prevent processes not ‘white

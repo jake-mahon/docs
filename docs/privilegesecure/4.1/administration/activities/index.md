@@ -1,9 +1,3 @@
----
-title: Activities Management Page Overview
-sidebar_label: Activities
-description: Central hub for managing activity definitions, templates, groups, and tokens that control privileged access sessions and user permissions.
----
-
 # Activities Page
 
 The Activities page is accessible from the Navigation pane under Activities. It shows the configured

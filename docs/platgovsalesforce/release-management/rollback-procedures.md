@@ -1,9 +1,3 @@
----
-title: Rollback Procedures and Recovery
-sidebar_label: Rollback Procedures
-description: Execute safe deployment rollbacks with flexible component selection, rollback record creation, and validation procedures for problem resolution.
----
-
 # Rollback
 
 When deploying changes in a single Salesforce environment, you may find instances where you need to

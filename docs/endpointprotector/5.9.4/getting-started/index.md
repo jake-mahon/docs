@@ -1,9 +1,3 @@
----
-title: Getting Started Guide
-sidebar_label: Getting Started
-description: Complete setup guide for Netwrix Endpoint Protector including system requirements, server staging, and initial configuration steps.
----
-
 # Getting Started
 
 Welcome to Netwrix Endpoint Protector, your solution for securing endpoint data. With features like

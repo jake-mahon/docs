@@ -1,9 +1,3 @@
----
-title: Password Reset Configuration Settings
-sidebar_label: Configuration
-description: Configure Password Reset settings including version information, license management, and system configuration options.
----
-
 # About Tab
 
 Use the **About** tab to check the version and license information, and to install a new license

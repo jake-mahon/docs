@@ -1,9 +1,3 @@
----
-title: active directory group policy ad overlapping gpos
-sidebar_label: ad overlapping gpos
-description: Solution guide for active directory group policy ad overlapping gpos including implementation steps, configuration, and best practices.
----
-
 # AD_OverlappingGPOs Job
 
 The AD_OverlappingGPOs Job identifies conflicting and redundant GPO settings based on link location.

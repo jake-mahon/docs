@@ -1,9 +1,3 @@
----
-title: Threat Manager System Requirements
-sidebar_label: System Requirements
-description: Hardware and software requirements for Threat Manager including database server, application server, action service, and client specifications.
----
-
 # Action Service Requirements
 
 The Action Service can be installed on additional servers.

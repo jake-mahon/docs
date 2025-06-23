@@ -1,9 +1,3 @@
----
-title: activedirectorypermissionsanalyzer domains ad certificateauthorityrights
-sidebar_label: ad certificateauthorityrights
-description: Solution guide for activedirectorypermissionsanalyzer domains ad certificateauthorityrights including implementation steps, configuration, and best practices.
----
-
 # AD_CertificateAuthorityRights Job
 
 The AD_CertificateAuthorityRights job provides details on certificate enrollment permissions,

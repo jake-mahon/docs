@@ -1,9 +1,3 @@
----
-title: Apply on Demand Rule Management
-sidebar_label: On Demand
-description: Enable advanced users to self-elevate programs when needed through Apply on Demand rules for conditional privilege escalation control.
----
-
 # Apply on Demand Rules
 
 **NOTE:** See the

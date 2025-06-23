@@ -1,9 +1,3 @@
----
-title: Get computer Cmdlet
-sidebar_label: getcomputer
-description: PowerShell cmdlet reference for getcomputer with parameter details, syntax examples, and usage instructions for Directory Manager.
----
-
 # Get-Computer
 
 The Get-Computer commandlet retrieves the information about a computer object from the connected

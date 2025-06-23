@@ -1,9 +1,3 @@
----
-title: Portal synchronize script samplecontainerscript
-sidebar_label: samplecontainerscript
-description: Directory Manager portal documentation for synchronize script functionality including user interface, navigation, and operational procedures.
----
-
 # Sample Container Scripts
 
 ## Object Routing Case-By-Case

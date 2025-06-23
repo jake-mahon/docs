@@ -1,9 +1,3 @@
----
-title: Explanation of Common UI Errors
-sidebar_label: common ui errors
-description: Documentation for Privilege Secure privileged access management solution covering features, configuration, and usage procedures.
----
-
 # Explanation of Common UI Errors
 
 Explanation of Common UI Errors

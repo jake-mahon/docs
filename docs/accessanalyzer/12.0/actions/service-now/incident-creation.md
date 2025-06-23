@@ -1,9 +1,3 @@
----
-title: incident creation
-sidebar_label: incident creation
-description: Documentation for incident creation functionality in Access Analyzer including configuration and usage information.
----
-
 # ServiceNow Action: Incident Creation
 
 The Incident Creation page is available once the ServiceNow credentials are approved. Incidents on

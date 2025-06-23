@@ -1,9 +1,3 @@
----
-title: Least Privilege Manager Rules Overview
-sidebar_label: Overview
-description: Configure LPM privilege elevation rules through the Netwrix Privilege Secure node with comprehensive policy management and deployment options.
----
-
 # Rules
 
 Endpoint Policy ManagerLeast Privilege Manager is located within the Netwrix Privilege Secure node.

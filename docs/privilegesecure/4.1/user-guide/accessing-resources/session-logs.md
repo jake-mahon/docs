@@ -1,9 +1,3 @@
----
-title: Session Logs Window
-sidebar_label: session logs
-description: End user documentation covering session management, access procedures, dashboard functionality, and browser extension usage.
----
-
 # Session Logs Window
 
 The Session Logs window displays the log details for the selected session. Select a session from the

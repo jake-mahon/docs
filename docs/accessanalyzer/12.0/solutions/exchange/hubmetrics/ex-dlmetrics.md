@@ -1,9 +1,3 @@
----
-title: exchange hubmetrics ex dlmetrics
-sidebar_label: ex dlmetrics
-description: Solution guide for exchange hubmetrics ex dlmetrics including implementation steps, configuration, and best practices.
----
-
 # EX_DLMetrics Job
 
 The EX_DLMetrics Job provides information around distribution list usage.

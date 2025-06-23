@@ -1,9 +1,3 @@
----
-title: Select Target Computers
-sidebar_label: Select Target Computers
-description: Computer selection interface for choosing target servers and domain controllers for agent deployment in Threat Prevention.
----
-
 # Select Computers Window
 
 The Deploy Agents wizard's Select Computer window is the first in a sequence of four windows to

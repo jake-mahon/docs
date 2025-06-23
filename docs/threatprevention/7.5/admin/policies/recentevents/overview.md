@@ -1,9 +1,3 @@
----
-title: Recent Events Overview
-sidebar_label: Recent Events
-description: Recent events interface for viewing policy-captured events including event tracker, viewer, and PowerShell script execution capabilities.
----
-
 # Recent Events Tab
 
 The Recent Events tab provides information on the events that have been recently monitored or

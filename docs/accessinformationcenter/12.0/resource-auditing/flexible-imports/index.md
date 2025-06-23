@@ -1,9 +1,3 @@
----
-title: Flexible Imports Feature
-sidebar_label: Overview
-description: Import custom data sources into Access Information Center for unified permissions, activity, and sensitive content reporting across multiple systems.
----
-
 # Flexible Imports Feature
 
 Flexible imports allow an Access Information Center user to view reports on permissions, activity,

@@ -1,9 +1,3 @@
----
-title: Internet Explorer Connections Tab Management
-sidebar_label: Connections Tab
-description: Learn to manage Internet Explorer connections tab settings including proxy servers, dial-up, and VPN configurations using Endpoint Policy Manager.
----
-
 # Manage IE Connections tab
 
 Netwrix Endpoint Policy Manager (formerly PolicyPak): Manage IE Connections tab

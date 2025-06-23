@@ -1,9 +1,3 @@
----
-title: aws s3permissions aws brokeninheritance
-sidebar_label: aws brokeninheritance
-description: Solution guide for aws s3permissions aws brokeninheritance including implementation steps, configuration, and best practices.
----
-
 # AWS_BrokenInheritance Job
 
 The AWS_BrokenInheritance job highlights permissions in an AWS S3 bucket that differ from those

@@ -1,9 +1,3 @@
----
-title: Executable Privilege Elevation Rules
-sidebar_label: Executables
-description: Create LPM policies to elevate applications requiring admin rights for standard users through Group Policy, Cloud, MDM, or SCCM deployment.
----
-
 # Elevating Executables
 
 **NOTE:** For an overview of how to elevate applications that need admin rights, see the

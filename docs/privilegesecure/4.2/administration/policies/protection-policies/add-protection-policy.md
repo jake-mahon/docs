@@ -1,9 +1,3 @@
----
-title: Add Protection Policy
-sidebar_label: add protection policy
-description: Administrative configuration and management features for Privilege Secure PAM solution including user management, policies, and security settings.
----
-
 # Add Protection Policy
 
 Follow the steps to add a Protection policy to the console.

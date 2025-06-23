@@ -1,9 +1,3 @@
----
-title: Agent Communication Troubleshooting
-sidebar_label: Agent Communication
-description: Troubleshooting guide for resolving agent communication issues with Enterprise Manager including network and certificate problems.
----
-
 # Agent Not Communicating with the Enterprise Manager
 
 If the Agent is not communicating with the Enterprise Manager, the following questions should be

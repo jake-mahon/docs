@@ -1,9 +1,3 @@
----
-title: databases sql configuration sql cmdshell
-sidebar_label: sql cmdshell
-description: Solution guide for databases sql configuration sql cmdshell including implementation steps, configuration, and best practices.
----
-
 # SQL_CMDShell Job
 
 The SQL_CMDShell Job reports on whether the `xp_cmdshell` stored procedure is enabled or disabled.

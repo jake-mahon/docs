@@ -1,9 +1,3 @@
----
-title: RSAT Extension Overview
-sidebar_label: RSAT Extension
-description: MMC snap-in that extends Active Directory Users and Computers with Recovery for Active Directory rollback and recovery capabilities.
----
-
 # RSAT Extension Requirements
 
 The following prerequisite is required to run the RSAT Extension:

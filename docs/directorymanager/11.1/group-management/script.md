@@ -1,9 +1,3 @@
----
-title: script
-sidebar_label: script
-description: Directory Manager 11.1 documentation for script with configuration details, usage instructions, and implementation guidance.
----
-
 # Query Designer - Script tab
 
 This tab is read-only and displays any script that has been added for the group. The scripting

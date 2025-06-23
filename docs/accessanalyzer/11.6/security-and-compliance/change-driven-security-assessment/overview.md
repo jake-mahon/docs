@@ -1,9 +1,3 @@
----
-title: overview
-sidebar_label: overview
-description: Documentation for overview functionality in Access Analyzer including configuration and usage information.
----
-
 # Credential & Data Security Assessment Overview
 
 Proper data security begins with a strong foundation. The Credential & Data Security Assessment

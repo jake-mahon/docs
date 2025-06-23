@@ -1,9 +1,3 @@
----
-title: File Integrity Monitoring Overview
-sidebar_label: Overview
-description: Essential security control for monitoring file changes and malware detection using agent-based or agentless approaches with policy templates.
----
-
 # File Integrity Monitoring
 
 File Integrity Monitoring (FIM) is an essential security control that monitors and reports any

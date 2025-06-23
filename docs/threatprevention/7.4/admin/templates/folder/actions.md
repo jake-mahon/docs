@@ -1,10 +1,3 @@
----
-title: Action Folder Templates
-sidebar_label: Action Folder Templates
-description: The Actions folder contains the following templates: | Template                                                                                 | Description...
-
----
-
 # Action Folder Templates
 
 The Actions folder contains the following templates:

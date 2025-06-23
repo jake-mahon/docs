@@ -1,9 +1,3 @@
----
-title: Remote Work Delivery Video Center
-sidebar_label: Video Learning
-description: Video tutorials for Remote Work Delivery Manager covering SMB shares, cloud deployment, Azure blob storage, and file synchronization techniques.
----
-
 # Video Learning Center
 
 See the following Video topics for Remote Work Delivery Manager.

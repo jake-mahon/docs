@@ -1,9 +1,3 @@
----
-title: Portal synchronize manage job
-sidebar_label: job
-description: Directory Manager portal documentation for synchronize manage functionality including user interface, navigation, and operational procedures.
----
-
 # Manage a Job
 
 After creating a job, you can open a job to edit and change the settings of the job. You can also

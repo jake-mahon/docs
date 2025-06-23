@@ -1,9 +1,3 @@
----
-title: Select Exchange Objects from Active Directory Window
-sidebar_label: Select Exchange Objects Active
-description: The Select Exchange Objects from Active Directory window provides a list of Active Directory users that have mailboxes configured, to either include or exclu...
----
-
 # Select Exchange Objects from Active Directory Window
 
 The Select Exchange Objects from Active Directory window provides a list of Active Directory users

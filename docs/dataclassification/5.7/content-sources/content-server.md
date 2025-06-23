@@ -1,9 +1,3 @@
----
-title: Content Server Configuration for Data Classification
-sidebar_label: Content Server
-description: Configure Content Server source for crawling and classification with URL, credentials, volume settings, and write classifications options.
----
-
 # Content Server
 
 The Content Server source configuration screen allows you to enable the crawling and classification

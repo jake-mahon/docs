@@ -1,9 +1,3 @@
----
-title: Virtual Appliance
-sidebar_label: Overview
-description: Installation procedures, system requirements, and deployment configuration for Privilege Secure components and services.
----
-
 # Virtual Appliance
 
 When it comes to ensuring compliance, the biggest area of risk is your admin accounts, because they

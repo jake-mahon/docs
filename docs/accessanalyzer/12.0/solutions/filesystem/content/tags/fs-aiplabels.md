@@ -1,9 +1,3 @@
----
-title: filesystem content tags fs aiplabels
-sidebar_label: fs aiplabels
-description: Solution guide for filesystem content tags fs aiplabels including implementation steps, configuration, and best practices.
----
-
 # FS_AIPLabels Job
 
 The FS_AIPLabels job is designed to report on resources classified by AIP labels from targeted file

@@ -1,9 +1,3 @@
----
-title: Recycling User Lists in Exporter
-sidebar_label: Recycle User Lists
-description: Export and import user lists in Endpoint Policy Manager Exporter for reuse. Save time by recycling user configurations across multiple XML deployments.
----
-
 # Recycling the User Lists within Endpoint Policy Manager Exporter
 
 You might want to recycle the user lists you make within the Endpoint Policy Manager Exporter

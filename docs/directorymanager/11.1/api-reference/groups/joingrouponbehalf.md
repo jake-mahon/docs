@@ -1,9 +1,3 @@
----
-title: joingrouponbehalf
-sidebar_label: joingrouponbehalf
-description: Directory Manager 11.1 documentation for joingrouponbehalf with configuration details, usage instructions, and implementation guidance.
----
-
 # Join a Group on behalf of another user
 
 Using this API, you can join the group specified in the endpoint URL on behalf of another user. You

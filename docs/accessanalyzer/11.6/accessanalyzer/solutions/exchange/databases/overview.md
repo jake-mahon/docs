@@ -1,9 +1,3 @@
----
-title: exchange databases overview
-sidebar_label: overview
-description: Solution guide for exchange databases overview including implementation steps, configuration, and best practices.
----
-
 # 3.Databases Job Group
 
 The 3. Databases Job Group is comprised of data collection, analyses, and reports that focus on

@@ -1,9 +1,3 @@
----
-title: Content Protection Use Cases
-sidebar_label: Use Cases
-description: Organizations can define policies for monitoring and controlling data transfer with practical use cases for data loss prevention.
----
-
 # Content Aware Protection Use Cases
 
 Content Aware Protection enables organizations to define policies for monitoring and controlling the

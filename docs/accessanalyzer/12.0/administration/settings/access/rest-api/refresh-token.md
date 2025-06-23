@@ -1,9 +1,3 @@
----
-title: refresh token Administration
-sidebar_label: refresh token
-description: Administration guide for refresh token including configuration, management, and best practices for Access Analyzer.
----
-
 # Use the Client Credentials to Grant a Refesh Token
 
 A refresh token contains the information required to obtain a renewed access token. Request a

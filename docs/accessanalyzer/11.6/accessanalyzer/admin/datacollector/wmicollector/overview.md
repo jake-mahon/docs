@@ -1,9 +1,3 @@
----
-title: WMI Collector Data Collector Overview
-sidebar_label: Overview
-description: Overview of the WMI Collector Data Collector for retrieving Windows Management Instrumentation data from target systems.
----
-
 # WMICollector Data Collector
 
 The WMICollector Data Collector identifies data for certain types of WMI classes and namespaces. The

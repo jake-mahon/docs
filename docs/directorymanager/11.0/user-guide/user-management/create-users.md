@@ -1,9 +1,3 @@
----
-title: create users
-sidebar_label: create-users
-description: Directory Manager 11.0 documentation for create users with configuration details, usage instructions, and implementation guidance.
----
-
 # Account page
 
 (of Create User and Create Mailbox wizards)

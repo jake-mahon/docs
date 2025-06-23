@@ -1,9 +1,3 @@
----
-title: MDM Knowledge Base
-sidebar_label: Knowledge Base
-description: Knowledge base articles for getting started with Endpoint Policy Manager MDM deployment including troubleshooting tips and stacking MSI files.
----
-
 # Knowledge Base
 
 See the following Knowledge Base articles for getting started with MDM.

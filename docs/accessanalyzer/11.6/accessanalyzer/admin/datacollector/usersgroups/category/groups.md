@@ -1,9 +1,3 @@
----
-title: Users Groups Category Groups
-sidebar_label: Groups
-description: Groups category configuration for Users Groups data collector focusing on group membership and properties analysis.
----
-
 # UsersGroups: Groups Category
 
 The Groups Query category collects information for groups in different contexts.

@@ -1,9 +1,3 @@
----
-title: Advanced Configuration Interface Guide
-sidebar_label: Overview
-description: Administrative configuration and management features for Privilege Secure PAM solution including user management, policies, and security settings.
----
-
 # Configuration Interface
 
 The Configuration interface provides information and management options for advanced configuration

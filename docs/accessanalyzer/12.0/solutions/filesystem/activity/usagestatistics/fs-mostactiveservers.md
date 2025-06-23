@@ -1,9 +1,3 @@
----
-title: filesystem activity usagestatistics fs mostactiveservers
-sidebar_label: fs mostactiveservers
-description: Solution guide for filesystem activity usagestatistics fs mostactiveservers including implementation steps, configuration, and best practices.
----
-
 # FS_MostActiveServers Job
 
 The FS_MostActiveServers job is designed to report on the most active servers within an environment.

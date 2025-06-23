@@ -1,9 +1,3 @@
----
-title: Database Connection Manager
-sidebar_label: Database Connection Manager
-description: Database connection manager configuration for establishing secure connections between components and SQL Server databases.
----
-
 # DB Connection Manager Wizard
 
 The Database Connection Manager (SIDBConfigMgr.exe) allows you to update the connection options for

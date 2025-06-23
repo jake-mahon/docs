@@ -1,9 +1,3 @@
----
-title: Add Application
-sidebar_label: application management
-description: Administrative configuration and management features for Privilege Secure PAM solution including user management, policies, and security settings.
----
-
 # Add Application
 
 Applications are a special type of user that allow external entities to interact with Privilege

@@ -1,9 +1,3 @@
----
-title: Getting Started: upgrade
-sidebar_label: upgrade
-description: Getting started guide for upgrade in Access Analyzer including setup instructions and initial configuration steps.
----
-
 # Upgrade Proxy Service Procedure
 
 When the Access Analyzer Console and File System Solution are upgraded, it is necessary to also

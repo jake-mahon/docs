@@ -1,9 +1,3 @@
----
-title: Manage Reports
-sidebar_label: Manage Subscriptions
-description: This section contains information on how to generate reports, use report templates and enable Auto-Classification. 1. From the list of reports in the left...
----
-
 # Manage Reports
 
 This section contains information on how to generate reports, use report templates and enable

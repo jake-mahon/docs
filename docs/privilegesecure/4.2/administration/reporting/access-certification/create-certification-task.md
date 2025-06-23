@@ -1,9 +1,3 @@
----
-title: Add Access Certification Task
-sidebar_label: create certification task
-description: Administrative configuration and management features for Privilege Secure PAM solution including user management, policies, and security settings.
----
-
 # Add Access Certification Task
 
 Only user(s) and group(s) with the Admin Role can create access certification tasks. Follow the

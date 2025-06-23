@@ -1,9 +1,3 @@
----
-title: databases oracle oracle securityassessment
-sidebar_label: oracle securityassessment
-description: Solution guide for databases oracle oracle securityassessment including implementation steps, configuration, and best practices.
----
-
 # Oracle_SecurityAssessment Job
 
 The Oracle_SecurityAssessment Job is designed to summarize and categorize the security findings from

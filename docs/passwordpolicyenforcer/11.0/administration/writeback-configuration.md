@@ -1,9 +1,3 @@
----
-title: Azure Password Writeback Configuration
-sidebar_label: Writeback Configuration
-description: Configure Password Policy Enforcer to enforce password policies for Microsoft 365 password resets with Azure Password Writeback.
----
-
 # Enforce Password Reset with Azure Password Writeback
 
 You can use Password Policy Enforcer to enforce password policies for passwords reset from Microsoft

@@ -1,9 +1,3 @@
----
-title: Portal setting user
-sidebar_label: user
-description: Directory Manager portal documentation for setting functionality including user interface, navigation, and operational procedures.
----
-
 # User Account Settings
 
 Using the Directory Managerportal, you can manage your profile information and even change your

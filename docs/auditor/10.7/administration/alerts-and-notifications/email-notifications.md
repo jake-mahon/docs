@@ -1,9 +1,3 @@
----
-title: email notifications
-sidebar_label: email-notifications
-description: Auditor 10.7 documentation for email notifications with configuration details, usage instructions, and implementation guidance.
----
-
 # Health Summary Email
 
 Auditor Health Summary email includes all statistics on the product operations and health for the

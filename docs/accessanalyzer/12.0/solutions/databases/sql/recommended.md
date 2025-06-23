@@ -1,9 +1,3 @@
----
-title: databases sql recommended
-sidebar_label: recommended
-description: Solution guide for databases sql recommended including implementation steps, configuration, and best practices.
----
-
 # Recommended Configurations
 
 The following sections describe the recommended configurations for the SQL Solution 0.Collection Job

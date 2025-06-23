@@ -1,9 +1,3 @@
----
-title: Portal synchronize collection schedulingandnotification
-sidebar_label: schedulingandnotification
-description: Directory Manager portal documentation for synchronize collection functionality including user interface, navigation, and operational procedures.
----
-
 # Scheduling and Notifications
 
 On the **Scheduling and Notifications** page, you can set the schedule on the basis of which the job

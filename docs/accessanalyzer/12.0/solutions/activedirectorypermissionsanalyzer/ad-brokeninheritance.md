@@ -1,9 +1,3 @@
----
-title: activedirectorypermissionsanalyzer ad brokeninheritance
-sidebar_label: ad brokeninheritance
-description: Solution guide for activedirectorypermissionsanalyzer ad brokeninheritance including implementation steps, configuration, and best practices.
----
-
 # 6.Broken Inheritance > AD_BrokenInheritance Job
 
 The AD_BrokenInheritance Job reports on all locations within Active Directory where inheritance is

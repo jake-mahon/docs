@@ -1,9 +1,3 @@
----
-title: requirements
-sidebar_label: requirements
-description: Directory Manager 11.1 documentation for requirements with configuration details, usage instructions, and implementation guidance.
----
-
 # Prerequisites for Deployments in Docker
 
 To deploy the Directory Manager applications in Docker, make sure you have a running instance of

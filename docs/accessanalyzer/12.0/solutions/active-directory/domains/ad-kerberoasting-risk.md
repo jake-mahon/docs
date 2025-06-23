@@ -1,9 +1,3 @@
----
-title: active directory domains ad kerberoasting risk
-sidebar_label: ad kerberoasting risk
-description: Solution guide for active directory domains ad kerberoasting risk including implementation steps, configuration, and best practices.
----
-
 # AD_KerberoastingRisk Job
 
 The AD_KerberoastingRisk job identifies accounts vulnerable to kerberoasting. Kerberoasting is a

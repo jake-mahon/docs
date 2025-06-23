@@ -1,9 +1,3 @@
----
-title: dropbox collection 1 dropbox sdd scan
-sidebar_label: 1 dropbox sdd scan
-description: Solution guide for dropbox collection 1 dropbox sdd scan including implementation steps, configuration, and best practices.
----
-
 # 1-Dropbox_SDD Scan Job
 
 The 1-Dropbox_SDD Scan job collects data from the Dropbox environment on access rights, sharing

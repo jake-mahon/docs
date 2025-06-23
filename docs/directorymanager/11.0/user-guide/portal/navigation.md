@@ -1,9 +1,3 @@
----
-title: navigation
-sidebar_label: navigation
-description: Directory Manager 11.0 documentation for navigation with configuration details, usage instructions, and implementation guidance.
----
-
 # Navigation
 
 On signing into Admin Center, you land on the dashboard.

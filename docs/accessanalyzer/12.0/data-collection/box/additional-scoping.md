@@ -1,9 +1,3 @@
----
-title: additional scoping
-sidebar_label: additional scoping
-description: Documentation for additional scoping functionality in Access Analyzer including configuration and usage information.
----
-
 # Box: Additional Scoping
 
 The Additional Scoping page is where the scan can be limited by depth of the scan. It is a wizard

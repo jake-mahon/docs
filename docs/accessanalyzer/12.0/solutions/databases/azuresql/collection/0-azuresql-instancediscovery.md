@@ -1,9 +1,3 @@
----
-title: databases azuresql collection 0 azuresql instancediscovery
-sidebar_label: 0 azuresql instancediscovery
-description: Solution guide for databases azuresql collection 0 azuresql instancediscovery including implementation steps, configuration, and best practices.
----
-
 # 0-AzureSQL_InstanceDiscovery Job
 
 The Azure SQL Instance Discovery job is responsible for enumerating a list of Azure SQL Server

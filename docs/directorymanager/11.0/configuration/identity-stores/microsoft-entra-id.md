@@ -1,9 +1,3 @@
----
-title: microsoft entra id
-sidebar_label: microsoft-entra-id
-description: Directory Manager 11.0 documentation for microsoft entra id with configuration details, usage instructions, and implementation guidance.
----
-
 # Microsoft Entra ID Identity Store
 
 Once you have registered GroupID and created a user with required directory role in Microsoft Entra

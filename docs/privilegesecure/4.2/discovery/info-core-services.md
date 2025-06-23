@@ -1,9 +1,3 @@
----
-title: Core Services
-sidebar_label: info core services
-description: Documentation for Privilege Secure privileged access management solution covering features, configuration, and usage procedures.
----
-
 # Core Services
 
 Core Services

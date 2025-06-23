@@ -1,9 +1,3 @@
----
-title: Linking WMI to GPO
-sidebar_label: WMI Integration
-description: Link Windows Management Instrumentation (WMI) filters to Group Policy Objects for targeted deployment management.
----
-
 # Linking the WMI to GPO
 
 To link the WMI filters to each GPO, follow these steps:

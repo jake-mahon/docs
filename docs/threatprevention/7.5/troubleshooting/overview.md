@@ -1,9 +1,3 @@
----
-title: Best Practices and Troubleshooting
-sidebar_label: Troubleshooting
-description: Essential best practices and troubleshooting guide for Threat Prevention 7.5 including performance optimization and common issue resolution.
----
-
 # Best Practices and Troubleshooting
 
 This topic provides general best practices and basic troubleshooting that you should take into

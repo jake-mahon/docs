@@ -1,9 +1,3 @@
----
-title: Start Agent
-sidebar_label: Start Agent
-description: If the Agent has stopped on a server, it no longer monitors and captures events. You must restart it on the server to enable it to monitor and capture the de...
----
-
 # Start Agent
 
 If the Agent has stopped on a server, it no longer monitors and captures events. You must restart it

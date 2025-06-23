@@ -1,9 +1,3 @@
----
-title: windows securityutilities openportscan retrievenetstat
-sidebar_label: retrievenetstat
-description: Solution guide for windows securityutilities openportscan retrievenetstat including implementation steps, configuration, and best practices.
----
-
 # RetrieveNetstat Job
 
 The RetrieveNetstat job reveals all open ports along with associated executables on targeted

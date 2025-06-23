@@ -1,9 +1,3 @@
----
-title: Report Subscriptions Management
-sidebar_label: Subscriptions
-description: Create and manage automated report subscriptions in Netwrix Auditor for scheduled delivery of search results and reports via email.
----
-
 # Create Subscriptions
 
 To create new subscriptions and manage existing subscriptions, you must be assigned the Global

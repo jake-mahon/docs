@@ -1,9 +1,3 @@
----
-title: Dynamic Source Groups — Exchange
-sidebar_label: Source Groups
-description: This section contains information on how to configure SharePoint Online dynamic source groups. Toggle between Basic and Advanced configuration settings by...
----
-
 # Dynamic Source Groups — Exchange
 
 This section contains information on how to configure SharePoint Online dynamic source groups.

@@ -1,9 +1,3 @@
----
-title: aws roles aws roles
-sidebar_label: aws roles
-description: Solution guide for aws roles aws roles including implementation steps, configuration, and best practices.
----
-
 # AWS_Roles Job
 
 The AWS_Roles job provides details on roles in the AWS IAM environment.

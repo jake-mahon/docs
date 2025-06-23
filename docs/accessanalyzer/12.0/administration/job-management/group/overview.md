@@ -1,9 +1,3 @@
----
-title: overview Administration
-sidebar_label: overview
-description: Administration guide for overview including configuration, management, and best practices for Access Analyzer.
----
-
 # Job Groups
 
 Job groups are designed to manage related jobs and can contain sub-job groups to ensure that related

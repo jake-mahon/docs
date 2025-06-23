@@ -1,9 +1,3 @@
----
-title: synology
-sidebar_label: synology
-description: Auditor 10.6 documentation for synology with configuration details, usage instructions, and implementation guidance.
----
-
 # Configure Synology File Servers for Audit
 
 Follow the steps to configure your Synology NAS devices to transmit the local system logs for

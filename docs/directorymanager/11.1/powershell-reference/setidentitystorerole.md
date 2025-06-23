@@ -1,9 +1,3 @@
----
-title: Set identitystorerole Cmdlet
-sidebar_label: setidentitystorerole
-description: PowerShell cmdlet reference for setidentitystorerole with parameter details, syntax examples, and usage instructions for Directory Manager.
----
-
 # Set-IdentityStoreRole
 
 Use the Set-IdentityStoreRole commandlet to modify properties of a security role in an identity

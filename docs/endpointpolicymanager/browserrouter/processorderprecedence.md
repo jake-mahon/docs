@@ -1,9 +1,3 @@
----
-title: Browser Router Processing Order Precedence
-sidebar_label: Processing Order
-description: Understand Browser Router policy processing order and precedence rules for troubleshooting multiple policies and conflicting browser routing settings.
----
-
 # Understanding Processing Order and Precedence
 
 When you use Endpoint Policy Manager Browser Router you might have multiple policies and/or

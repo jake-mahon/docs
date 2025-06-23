@@ -1,9 +1,3 @@
----
-title: Upgrade Policy Templates
-sidebar_label: Policy Templates Upgrade
-description: Manual upgrade process for policy templates after Threat Prevention installation, including steps to import new and updated templates from installation files.
----
-
 # Upgrade Policy Templates
 
 When new or updated policy templates are available with a Threat Prevention upgrade, they are not

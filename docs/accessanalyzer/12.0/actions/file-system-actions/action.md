@@ -1,9 +1,3 @@
----
-title: action
-sidebar_label: action
-description: Documentation for action functionality in Access Analyzer including configuration and usage information.
----
-
 # File System Action: Action
 
 On the Action page, select the type of action to be configured, define a new action, and additional

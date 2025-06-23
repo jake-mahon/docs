@@ -1,9 +1,3 @@
----
-title: Data Collection Path Filtering
-sidebar_label: Path Filters
-description: Configure path filtering for Activity Monitor data collection including inclusion and exclusion rules for Linux and Windows hosts.
----
-
 # Path Filtering Tab
 
 The Path Filtering tab on an output Properties window is where monitoring scope by file paths can be

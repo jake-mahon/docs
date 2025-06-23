@@ -1,9 +1,3 @@
----
-title: allgroups
-sidebar_label: allgroups
-description: Directory Manager 11.1 documentation for allgroups with configuration details, usage instructions, and implementation guidance.
----
-
 # All Groups
 
 This tab lists all groups defined in the identity store including all active groups:

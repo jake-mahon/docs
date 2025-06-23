@@ -1,9 +1,3 @@
----
-title: aws sensitivedata aws sensitivedata
-sidebar_label: aws sensitivedata
-description: Solution guide for aws sensitivedata aws sensitivedata including implementation steps, configuration, and best practices.
----
-
 # AWS_SensitiveData Job
 
 The AWS_SensitiveData job provides details on AWS S3 buckets and the objects in them which contain

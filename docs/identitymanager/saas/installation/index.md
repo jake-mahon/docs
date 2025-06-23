@@ -1,9 +1,3 @@
----
-title: SaaS Installation Guide
-sidebar_label: Installation
-description: Complete installation guide for Identity Manager SaaS production environments including development setup and architectural decisions.
----
-
 # Installation Guide
 
 This guide is designed to help you install Identity Manager in a production environment.

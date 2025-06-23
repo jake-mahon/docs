@@ -1,9 +1,3 @@
----
-title: exchange publicfolders recommended
-sidebar_label: recommended
-description: Solution guide for exchange publicfolders recommended including implementation steps, configuration, and best practices.
----
-
 # Recommended Configurations for the 5. Public Folders Job Group
 
 Dependencies

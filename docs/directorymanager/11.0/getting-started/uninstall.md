@@ -1,9 +1,3 @@
----
-title: uninstall
-sidebar_label: uninstall
-description: Directory Manager 11.0 documentation for uninstall with configuration details, usage instructions, and implementation guidance.
----
-
 # Uninstall GroupID
 
 Before you uninstall GroupID , make sure that the logged-in user is a member of the local

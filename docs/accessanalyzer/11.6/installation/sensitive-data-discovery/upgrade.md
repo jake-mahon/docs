@@ -1,9 +1,3 @@
----
-title: Installation: upgrade
-sidebar_label: upgrade
-description: Installation guide for upgrade including system requirements, setup procedures, and configuration options.
----
-
 # Upgrade Sensitive Data Discovery Add-on
 
 When the Enterprise Auditor Console and applicable solutions are upgraded, it is necessary to also

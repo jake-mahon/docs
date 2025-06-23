@@ -1,9 +1,3 @@
----
-title: Add New Domain
-sidebar_label: domains
-description: Administrative configuration and management features for Privilege Secure PAM solution including user management, policies, and security settings.
----
-
 # Add New Domain
 
 Follow the steps to add a domain to the console.

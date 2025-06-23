@@ -1,9 +1,3 @@
----
-title: Browser Router Command Line Arguments
-sidebar_label: Command Line
-description: Configure command line arguments for Browser Router to launch browsers with specific options like incognito mode or custom application routing.
----
-
 # Using Command Line Arguments
 
 This feature enables you to create a route in situations where you start off in the wrong browser

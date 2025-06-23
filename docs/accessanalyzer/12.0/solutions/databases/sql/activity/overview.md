@@ -1,9 +1,3 @@
----
-title: databases sql activity overview
-sidebar_label: overview
-description: Solution guide for databases sql activity overview including implementation steps, configuration, and best practices.
----
-
 # 2.Activity Job Group
 
 The jobs in the 2. Activity Job Group provides insight into user login activity, object permission

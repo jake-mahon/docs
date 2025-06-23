@@ -1,9 +1,3 @@
----
-title: Analysis Modules Overview
-sidebar_label: Overview
-description: Analysis modules capable of finding unique data and notifying users from various environments with configuration through Analysis Properties page.
----
-
 # Analysis Modules
 
 The Access Analyzer analysis modules are capable of finding unique data and notifying users of its

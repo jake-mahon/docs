@@ -1,9 +1,3 @@
----
-title: Dell EMC Storage System Monitoring
-sidebar_label: Dell EMC
-description: Monitor file activity on Dell EMC storage systems using Common Event Enabler (CEE) for comprehensive activity event delivery and monitoring.
----
-
 # Dell CEE Options Tab
 
 The Dell CEE Options tab provides options to configure Dell Common Event Enabler (CEE) settings for

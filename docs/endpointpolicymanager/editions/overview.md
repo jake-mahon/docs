@@ -1,9 +1,3 @@
----
-title: Endpoint Policy Manager Editions Guide
-sidebar_label: Overview
-description: Compare Enterprise, Professional, and SaaS editions. Understand solutions, Paks, and policies available with Active Directory, MDM, and Cloud deployment methods.
----
-
 # Editions, Solutions, Paks, and Policies
 
 In the sections that follow, we will discuss the different editions of Netwrix Endpoint Policy

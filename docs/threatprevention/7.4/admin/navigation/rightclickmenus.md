@@ -1,9 +1,3 @@
----
-title: Right-Click Menus
-sidebar_label: Right-Click Menus
-description: In the Navigation pane, the Policies node, Templates node, folders, policies, and templates have different right-click commands available.
----
-
 # Right-Click Menus
 
 In the Navigation pane, the Policies node, Templates node, folders, policies, and templates have

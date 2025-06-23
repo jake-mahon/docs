@@ -1,9 +1,3 @@
----
-title: scoping
-sidebar_label: scoping
-description: Documentation for scoping functionality in Access Analyzer including configuration and usage information.
----
-
 # DropboxAccess: Scoping
 
 The Scoping page configures the data collector to scan either the entire Dropbox environment or

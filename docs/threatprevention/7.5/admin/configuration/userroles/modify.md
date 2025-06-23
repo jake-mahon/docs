@@ -1,9 +1,3 @@
----
-title: Modify User Roles
-sidebar_label: Modify
-description: User role modification interface for updating permissions, access levels, and administrative privileges.
----
-
 # Modify User Access
 
 Follow the steps to modify a user’s assigned rights.

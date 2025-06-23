@@ -1,9 +1,3 @@
----
-title: Application Server Requirements
-sidebar_label: Application Server
-description: System requirements for Password Secure application server including minimum and recommended specifications for Windows Server environments.
----
-
 # Application server
 
 #### System Components

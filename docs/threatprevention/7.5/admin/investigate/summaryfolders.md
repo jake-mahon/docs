@@ -1,9 +1,3 @@
----
-title: Summary Folders
-sidebar_label: Summary Folders
-description: The EPE Summary and LDAP Summary folders under Investigate in the navigation pane are pre-defined reports that allow you to view consolidated recent event ac...
----
-
 # Summary Folders
 
 The EPE Summary and LDAP Summary folders under Investigate in the navigation pane are pre-defined

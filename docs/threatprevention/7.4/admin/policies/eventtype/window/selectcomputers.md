@@ -1,9 +1,3 @@
----
-title: Select Computer Window
-sidebar_label: Select Computer Window
-description: The Select Computer window provides a list of available computers. Selected objects are added to the filter from where you clicked the Add (+) button to open...
----
-
 # Select Computer Window
 
 The Select Computer window provides a list of available computers. Selected objects are added to the

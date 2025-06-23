@@ -1,9 +1,3 @@
----
-title: Pre-Created Templates
-sidebar_label: Pre-Created Templates
-description: Threat Prevention comes with several policy templates that cover a wide range of event monitoring and lockdown. Pre-created policy templates are provided as ...
----
-
 # Pre-Created Templates
 
 Threat Prevention comes with several policy templates that cover a wide range of event monitoring

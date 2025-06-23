@@ -1,10 +1,3 @@
----
-title: Active Directory Folder Templates
-sidebar_label: Active Directory Folder Templates
-description: The Templates > Microsoft > Active Directory folder in the Navigation pane contains the following templates:
-
----
-
 # Active Directory Folder Templates
 
 The **Templates** > **Microsoft** > **Active Directory** folder in the Navigation pane contains the

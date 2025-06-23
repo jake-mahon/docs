@@ -1,9 +1,3 @@
----
-title: syncjobs getjobcollections API
-sidebar_label: getjobcollections
-description: API reference for getjobcollections operations in Directory Manager with request parameters, response examples, and implementation details.
----
-
 # Get Job Collections
 
 Use this API to retrieve information of job collection(s) based on filters provided in the request

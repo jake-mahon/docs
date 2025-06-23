@@ -1,9 +1,3 @@
----
-title: SQL Server Permissions Configuration
-sidebar_label: Permissions
-description: Configure account permissions required for SQL Server auditing and monitoring plan creation with proper security settings.
----
-
 # Permissions for SQL Server Auditing
 
 Before you create a monitoring plan to audit your SQL Server, make sure the account to be used for

@@ -1,9 +1,3 @@
----
-title: New contact Cmdlet
-sidebar_label: newcontact
-description: PowerShell cmdlet reference for newcontact with parameter details, syntax examples, and usage instructions for Directory Manager.
----
-
 # New-Contact
 
 Use the New-Contact cmdlet to create a new contact in the directory. Most contact properties can be

@@ -1,9 +1,3 @@
----
-title: Getting Started: aws
-sidebar_label: aws
-description: Getting started guide for aws in Access Analyzer including setup instructions and initial configuration steps.
----
-
 # Target Amazon Web Service Requirements, Permissions, and Ports
 
 The Access Analyzer for AWS Solution provides the ability to audit Amazon Web Services (AWS) to

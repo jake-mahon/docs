@@ -1,9 +1,3 @@
----
-title: Getting Data from NTP for AD Activity Reporting
-sidebar_label: Getting Data NTP AD
-description: When Netwrix Threat Prevention is configured to monitor a domain, the event data collected by the policies can be provided to Netwrix Access Analyzer (former...
----
-
 # Getting Data from NTP for AD Activity Reporting
 
 When Netwrix Threat Prevention is configured to monitor a domain, the event data collected by the

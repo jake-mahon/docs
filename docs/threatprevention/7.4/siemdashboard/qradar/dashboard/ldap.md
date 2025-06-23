@@ -1,10 +1,3 @@
----
-title: LDAP Dashboard
-sidebar_label: LDAP Dashboard
-description: The Lightweight Directory Access Protocol (LDAP) dashboard contains the following cards: !LDAP Dashboard
-
----
-
 # LDAP Dashboard
 
 The Lightweight Directory Access Protocol (LDAP) dashboard contains the following cards:

@@ -1,10 +1,3 @@
----
-title: Group Policy Objects Folder Templates
-sidebar_label: Group Policy Objects Folder
-description: The Templates > Microsoft > Group Policy Objects folder in the Navigation pane contains the following templates:
-
----
-
 # Group Policy Objects Folder Templates
 
 The **Templates** > **Microsoft** > **Group Policy Objects** folder in the Navigation pane contains

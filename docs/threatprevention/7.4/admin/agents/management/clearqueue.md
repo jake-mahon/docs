@@ -1,9 +1,3 @@
----
-title: Clear Agent Queue
-sidebar_label: Clear Queue
-description: Agent queue management for clearing pending events when communication issues occur with Enterprise Manager.
----
-
 # Clear SQLite Agent Queue
 
 When the Agent is unable to communicate with the Enterprise Manager, Agent events queue up in the

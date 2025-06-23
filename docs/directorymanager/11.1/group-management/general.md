@@ -1,9 +1,3 @@
----
-title: general
-sidebar_label: general
-description: Directory Manager 11.1 documentation for general with configuration details, usage instructions, and implementation guidance.
----
-
 # General page
 
 Use this page to specify basic information about the group.

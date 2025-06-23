@@ -1,9 +1,3 @@
----
-title: NIS Settings Configuration
-sidebar_label: Settings
-description: Settings configuration for NIS data collector including connection parameters and collection preferences.
----
-
 # NIS: NIS Settings
 
 The NIS Settings page is where the NIS domain and a NIS server are configured for testing. It is a

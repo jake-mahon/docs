@@ -1,9 +1,3 @@
----
-title: System Requirements Guide
-sidebar_label: System Requirements
-description: Complete hardware and software requirements for all Usercube components including agents, database, server, and integration devices.
----
-
 # Agent
 
 This section identifies the requirements for a Usercube agent.

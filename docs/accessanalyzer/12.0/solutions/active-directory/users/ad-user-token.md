@@ -1,9 +1,3 @@
----
-title: active directory users ad user token
-sidebar_label: ad user token
-description: Solution guide for active directory users ad user token including implementation steps, configuration, and best practices.
----
-
 # AD_UserToken Job
 
 The AD_UserToken Job identifies and reports the number of SIDS and estimated token size associated

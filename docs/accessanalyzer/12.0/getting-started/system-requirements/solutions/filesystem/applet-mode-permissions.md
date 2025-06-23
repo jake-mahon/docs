@@ -1,9 +1,3 @@
----
-title: Getting Started: applet mode permissions
-sidebar_label: applet mode permissions
-description: Getting started guide for applet mode permissions in Access Analyzer including setup instructions and initial configuration steps.
----
-
 # Applet Mode Permissions
 
 When File System scans are run in applet mode, it means the File System applet is deployed to the

@@ -1,9 +1,3 @@
----
-title: exchange casmetrics ex activesync
-sidebar_label: ex activesync
-description: Solution guide for exchange casmetrics ex activesync including implementation steps, configuration, and best practices.
----
-
 # ActiveSync > EX_ActiveSync Job
 
 The EX_ActiveSync job provides visibility into ActiveSync Traffic in the Organization.

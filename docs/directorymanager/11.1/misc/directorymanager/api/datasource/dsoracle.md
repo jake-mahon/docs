@@ -1,9 +1,3 @@
----
-title: datasource dsoracle API
-sidebar_label: dsoracle
-description: API reference for dsoracle operations in Directory Manager with request parameters, response examples, and implementation details.
----
-
 # Create a Data Source for Oracle
 
 Use this API to create a new data source.

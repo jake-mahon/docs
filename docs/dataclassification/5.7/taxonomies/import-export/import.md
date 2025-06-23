@@ -1,9 +1,3 @@
----
-title: Import a Taxonomy
-sidebar_label: Import
-description: To import an existing taxonomy go to the Global Settings tab, select Add and then choose one of the import options: https://netwrix.sharepoint.com. The...
----
-
 # Import a Taxonomy
 
 To import an existing taxonomy go to the Global Settings tab, select Add and then choose one of the

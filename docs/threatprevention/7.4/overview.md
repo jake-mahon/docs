@@ -1,9 +1,3 @@
----
-title: Threat Prevention Overview
-sidebar_label: Overview
-description: Comprehensive overview of Netwrix Threat Prevention capabilities including active monitoring, proactive remediation, and real-time threat blocking for critical systems.
----
-
 # Netwrix Threat Prevention v7.4 Documentation
 
 Netwrix Threat Prevention safeguards an organization from internal and external threats by acting

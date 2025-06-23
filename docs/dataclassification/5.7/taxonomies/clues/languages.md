@@ -1,9 +1,3 @@
----
-title: Language Support
-sidebar_label: Languages
-description: In general, Netwrix Data Classification is capable of indexing and classifying information in any language through native Unicode support. However, the suppo...
----
-
 # Language Support
 
 In general, Netwrix Data Classification is capable of indexing and classifying information in any

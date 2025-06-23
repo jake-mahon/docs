@@ -1,9 +1,3 @@
----
-title: sync jobs
-sidebar_label: sync-jobs
-description: Directory Manager 11.0 documentation for sync jobs with configuration details, usage instructions, and implementation guidance.
----
-
 # Choose Your Job Template
 
 For creating a job, GroupID Synchronize enables you to create a new job based on your setting and

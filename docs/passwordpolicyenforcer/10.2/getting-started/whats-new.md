@@ -1,9 +1,3 @@
----
-title: What's New in Password Policy Enforcer 10.2
-sidebar_label: What's New
-description: New and enhanced features introduced in Password Policy Enforcer v10.2 including bulk password testing and HIBP updater capabilities.
----
-
 # What's New
 
 ## New Netwrix Community!

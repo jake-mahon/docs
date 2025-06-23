@@ -1,9 +1,3 @@
----
-title: enterprise reports
-sidebar_label: enterprise-reports
-description: Auditor 10.7 documentation for enterprise reports with configuration details, usage instructions, and implementation guidance.
----
-
 # Enterprise Overview Dashboard
 
 Enterprise Overview dashboard provide a high-level overview of activity trends by date, user,

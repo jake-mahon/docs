@@ -1,9 +1,3 @@
----
-title: mygroups
-sidebar_label: mygroups
-description: Directory Manager 11.1 documentation for mygroups with configuration details, usage instructions, and implementation guidance.
----
-
 # My Groups
 
 To view and manage the groups that you own in the identity store, click **Groups** on the left

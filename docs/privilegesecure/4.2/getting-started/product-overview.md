@@ -1,9 +1,3 @@
----
-title: Netwrix Privilege Secure for Access Management v4.2 Documentation
-sidebar_label: product overview
-description: Initial setup and configuration steps to enable activity-based sessions and privileged access management functionality.
----
-
 # Netwrix Privilege Secure for Access Management v4.2 Documentation
 
 Netwrix Privilege Secure for Access Management enables administrators and help desk professionals to

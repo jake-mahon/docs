@@ -1,9 +1,3 @@
----
-title: Active Directory Platform Policy Configuration
-sidebar_label: active directory
-description: Administrative configuration and management features for Privilege Secure PAM solution including user management, policies, and security settings.
----
-
 # Active Directory Platform Policy Configuration
 
 The Active Directory menu displays the configuration options for Active Directory platforms.

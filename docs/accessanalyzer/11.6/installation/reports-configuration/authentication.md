@@ -1,9 +1,3 @@
----
-title: Installation: authentication
-sidebar_label: authentication
-description: Installation guide for authentication including system requirements, setup procedures, and configuration options.
----
-
 # Enable Multiple Domain Access
 
 When the `AuthenticationDomains` parameter in the **WebServer.exe.config** file is blank, only

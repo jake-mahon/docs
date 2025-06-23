@@ -1,9 +1,3 @@
----
-title: active directory groups ad duplicate groups
-sidebar_label: ad duplicate groups
-description: Solution guide for active directory groups ad duplicate groups including implementation steps, configuration, and best practices.
----
-
 # AD_DuplicateGroups Job
 
 The AD_Duplicate Job identifies duplicate groups within Active Directory. Duplicate groups contain

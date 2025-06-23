@@ -1,9 +1,3 @@
----
-title: SaaS Integration Guide
-sidebar_label: Integration Guide
-description: Comprehensive guide for configuring cloud-based Identity Manager SaaS to match your project's identity management requirements and technical needs.
----
-
 # Integration Guide
 
 This guide is designed to provide the tools and knowledge to fully understand and configure Identity

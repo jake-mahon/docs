@@ -1,9 +1,3 @@
----
-title: Quick Start Guide
-sidebar_label: Quick Start
-description: Step-by-step guide to quickly install Usercube's bootstrap version including prerequisites, installation steps, and initial configuration.
----
-
 # Quick Start Guide
 
 This guide leads the reader through the steps to quickly install Usercube's bootstrap version.

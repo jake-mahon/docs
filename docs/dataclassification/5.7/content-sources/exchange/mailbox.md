@@ -1,9 +1,3 @@
----
-title: Exchange Mailbox
-sidebar_label: Mailbox
-description: Use the Exchange Mailbox source to enable the crawling and classification of content stored in a single Exchange mailbox on the on-premises Exchange server o...
----
-
 # Exchange Mailbox
 
 Use the **Exchange Mailbox** source to enable the crawling and classification of content stored in a

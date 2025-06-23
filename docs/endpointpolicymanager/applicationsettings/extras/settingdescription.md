@@ -1,9 +1,3 @@
----
-title: AppSet Description and Notes
-sidebar_label: Descriptions
-description: Add custom descriptions and notes to AppSets for documentation that displays in GPMC reports and administrative tracking.
----
-
 # Setting a Description
 
 You can add your own note or description to each AppSet, as shown in Figure 58.

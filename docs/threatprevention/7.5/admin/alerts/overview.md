@@ -1,9 +1,3 @@
----
-title: Alerts Interface Overview
-sidebar_label: Alerts
-description: Alert management interface for viewing, exporting, and comparing policy alerts with cleanup and notification configuration options.
----
-
 # Alerts Interface
 
 The Alerts interface allows you to quickly view recent Security events, Operations events, and

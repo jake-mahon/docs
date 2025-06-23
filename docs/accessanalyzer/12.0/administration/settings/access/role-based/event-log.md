@@ -1,9 +1,3 @@
----
-title: event log Administration
-sidebar_label: event log
-description: Administration guide for event log including configuration, management, and best practices for Access Analyzer.
----
-
 # Roles and the Event Log
 
 The Access Analyzer Event Log includes a list of the following activities related to Role Based

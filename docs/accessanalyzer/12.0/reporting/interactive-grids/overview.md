@@ -1,9 +1,3 @@
----
-title: Interactive Grids Overview
-sidebar_label: Overview
-description: Overview of interactive grids in Access Analyzer reporting including features, capabilities, and user interaction options.
----
-
 # Interactive Grids
 
 Interactive grids in the table section of a report provide the ability to interact with the data and

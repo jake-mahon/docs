@@ -1,9 +1,3 @@
----
-title: Portal report user
-sidebar_label: user
-description: Directory Manager portal documentation for report functionality including user interface, navigation, and operational procedures.
----
-
 # User Reports
 
 User Reports contains reports for the User objects in the directory. Search a specific report by

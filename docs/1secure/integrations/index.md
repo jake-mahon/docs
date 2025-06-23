@@ -1,9 +1,3 @@
----
-title: Third-party System Integrations
-sidebar_label: Integrations
-description: Integrate 1Secure with third-party systems for service ticket tracking and workflow automation for managed service providers.
----
-
 # Third-party Systems
 
 Managed Service Providers use a service ticket to track an issue, usually by someone in an IT role.

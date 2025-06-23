@@ -1,9 +1,3 @@
----
-title: Windows Event Logs Azure Analytics Integration
-sidebar_label: Event Logs
-description: Forward Windows 10 and Server event logs to Azure Log Analytics. Centralize event analysis for domain-joined and non-domain-joined machines using cloud solutions.
----
-
 # Windows 10 (and Server) Event Logs to Azure Log Analytics Walkthru
 
 It's a Cloud, Cloud, Cloud, Cloud, Cloud, Cloud world. Except actually most of your stuff is still

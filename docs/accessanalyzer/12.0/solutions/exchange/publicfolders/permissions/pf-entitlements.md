@@ -1,9 +1,3 @@
----
-title: exchange publicfolders permissions pf entitlements
-sidebar_label: pf entitlements
-description: Solution guide for exchange publicfolders permissions pf entitlements including implementation steps, configuration, and best practices.
----
-
 # PF_Entitlements Job
 
 The PF_Entitlements job is comprised of analyses and reports that provide visibility into

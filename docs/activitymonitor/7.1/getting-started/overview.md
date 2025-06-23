@@ -1,9 +1,3 @@
----
-title: Getting Started with Activity Monitor
-sidebar_label: Getting Started
-description: Quick workflow guide for installing, configuring, and deploying Netwrix Activity Monitor agents to begin monitoring IT infrastructure activities.
----
-
 # Getting Started
 
 Once Netwrix Activity Monitor is installed, the following workflow enables organizations to quickly

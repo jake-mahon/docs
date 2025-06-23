@@ -1,10 +1,3 @@
----
-title: Best Practices Folder Templates
-sidebar_label: Best Practices Folder Templates
-description: The Best Practices folder contains the following templates: Active Directory Folder | Template                | Description                                  ...
-
----
-
 # Best Practices Folder Templates
 
 The Best Practices folder contains the following templates:

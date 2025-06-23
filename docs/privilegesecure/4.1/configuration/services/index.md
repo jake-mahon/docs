@@ -1,9 +1,3 @@
----
-title: Services Page
-sidebar_label: Overview
-description: System configuration settings and advanced options for authentication, integrations, services, and security parameters.
----
-
 # Services Page
 
 The Services page is accessible from the Navigation pane under Configuration > System Settings.

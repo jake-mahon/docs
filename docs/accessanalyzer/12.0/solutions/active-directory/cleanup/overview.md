@@ -1,9 +1,3 @@
----
-title: active directory cleanup overview
-sidebar_label: overview
-description: Solution guide for active directory cleanup overview including implementation steps, configuration, and best practices.
----
-
 # Cleanup Job Group
 
 The **Active Directory** > **Cleanup** Job Group identifies potential stale and unused users,

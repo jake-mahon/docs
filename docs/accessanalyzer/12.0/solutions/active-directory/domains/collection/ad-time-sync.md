@@ -1,9 +1,3 @@
----
-title: active directory domains collection ad time sync
-sidebar_label: ad time sync
-description: Solution guide for active directory domains collection ad time sync including implementation steps, configuration, and best practices.
----
-
 # AD_TimeSync Job
 
 The 0.**Collection > AD_TimeSync** Job collects TimeSync information from the registry for each

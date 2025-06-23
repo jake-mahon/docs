@@ -1,9 +1,3 @@
----
-title: Access Reviews Installation Overview
-sidebar_label: Access Reviews
-description: Install and configure access reviews functionality in Netwrix Auditor for comprehensive access governance and compliance workflows.
----
-
 # Installation Overview
 
 The Netwrix Auditor Access Reviews application relies on collected and analyzed data that is stored

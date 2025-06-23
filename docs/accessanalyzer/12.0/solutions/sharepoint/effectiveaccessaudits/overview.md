@@ -1,9 +1,3 @@
----
-title: sharepoint effectiveaccessaudits overview
-sidebar_label: overview
-description: Solution guide for sharepoint effectiveaccessaudits overview including implementation steps, configuration, and best practices.
----
-
 # Effective Access Audits Job Group
 
 This group returns reports identifying specific trustees’ effective access across the entire

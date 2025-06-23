@@ -1,9 +1,3 @@
----
-title: Auditor First Launch Setup
-sidebar_label: First Launch
-description: Initial setup and login procedures for Netwrix Auditor after installation including server connections and client configuration.
----
-
 # First Launch
 
 To start using Netwrix Auditor

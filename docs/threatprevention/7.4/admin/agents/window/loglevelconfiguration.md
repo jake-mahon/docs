@@ -1,9 +1,3 @@
----
-title: Log Level Configuration
-sidebar_label: Log Level Config
-description: Agent logging configuration interface for adjusting log verbosity and accessing agent log files for troubleshooting.
----
-
 # Log Level Configuration Window
 
 The Log Level Configuration window displays the current log levels for the Agents, Enterprise

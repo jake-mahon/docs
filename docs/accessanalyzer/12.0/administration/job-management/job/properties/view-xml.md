@@ -1,9 +1,3 @@
----
-title: view xml Administration
-sidebar_label: view xml
-description: Administration guide for view xml including configuration, management, and best practices for Access Analyzer.
----
-
 # View Job XML File
 
 At the bottom of the Job Properties window is the **View XML** button. To view the XML file, click

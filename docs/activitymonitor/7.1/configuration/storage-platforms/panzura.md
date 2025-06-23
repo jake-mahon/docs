@@ -1,9 +1,3 @@
----
-title: Panzura CloudFS Monitoring Configuration
-sidebar_label: Panzura
-description: Configure activity monitoring for Panzura CloudFS file-based storage with third party vendor support auditing and CloudFS API integration.
----
-
 # Panzura CloudFS Monitoring
 
 Netwrix Activity Monitor can be configured to monitor file system activity on Panzura CloudFS

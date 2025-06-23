@@ -1,9 +1,3 @@
----
-title: Event Tracker Window
-sidebar_label: Event Tracker Window
-description: The Event Tracker window, accessible through the right-click menu on a data row, allows you to annotate events and incidents after reviewing them. You can ch...
----
-
 # Event Tracker Window
 
 The Event Tracker window, accessible through the right-click menu on a data row, allows you to

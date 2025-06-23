@@ -1,9 +1,3 @@
----
-title: Forged PAC Analytics
-sidebar_label: Forged PAC
-description: Detection of Kerberos tickets with modified Privilege Attribute Certificates indicating advanced persistent threat activities.
----
-
 # Forged PAC Analytic Type
 
 The **Forged Privilege Account Certificate** (PAC) analytic type identifies Kerberos tickets with a

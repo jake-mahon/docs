@@ -1,9 +1,3 @@
----
-title: Getting Started: agentless ports
-sidebar_label: agentless ports
-description: Getting started guide for agentless ports in Access Analyzer including setup instructions and initial configuration steps.
----
-
 # SharePoint Agent-Less Ports
 
 One of the following ports must be open for communication between Access Analyzer and the SharePoint

@@ -1,9 +1,3 @@
----
-title: Host Discovery Settings Configuration
-sidebar_label: Host Discovery
-description: Host discovery settings configuration for automatic detection and management of target systems in the environment.
----
-
 # Host Discovery
 
 The Host Discovery node is for configuring the settings which dictate how Enterprise Auditor handles

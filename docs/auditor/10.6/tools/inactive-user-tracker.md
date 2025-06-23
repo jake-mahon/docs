@@ -1,9 +1,3 @@
----
-title: Auditor Inactive User Tracker Tool
-sidebar_label: Inactive User Tracker
-description: Discover inactive user and computer accounts in Active Directory domain and automatically deactivate accounts that exceed inactivity thresholds.
----
-
 # Inactive User Tracker
 
 Auditor Inactive User Tracker standalone tool discovers inactive user and computer accounts. It

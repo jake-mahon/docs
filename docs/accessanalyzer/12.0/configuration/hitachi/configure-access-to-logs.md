@@ -1,9 +1,3 @@
----
-title: configure access to logs
-sidebar_label: configure access to logs
-description: Documentation for configure access to logs functionality in Access Analyzer including configuration and usage information.
----
-
 # Configure Access to HNAS Audit Logs on Activity Agent Server
 
 Follow the steps to configure access to the HNAS audit logs on the Windows server hosting the

@@ -1,9 +1,3 @@
----
-title: index
-sidebar_label: index
-description: Auditor 10.6 documentation for index with configuration details, usage instructions, and implementation guidance.
----
-
 # Microsoft 365
 
 Microsoft 365 audit configuration will cover the following components:

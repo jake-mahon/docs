@@ -1,9 +1,3 @@
----
-title: Policy Comparison Window
-sidebar_label: Policy Comparison Window
-description: When you edit a policy, the change creates an alert in the Alerts interface. You can track the changes made to the policy through a comparison of the new xml...
----
-
 # Policy Comparison Window
 
 When you edit a policy, the change creates an alert in the Alerts interface. You can track the

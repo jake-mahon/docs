@@ -1,9 +1,3 @@
----
-title: File System Lockdown Event Type
-sidebar_label: File System Lockdown Event
-description: Based on policy rules, the File System Lockdown event type can prevent file activity on selected files, such as create/read/write/delete/rename or security d...
----
-
 # File System Lockdown Event Type
 
 Based on policy rules, the File System Lockdown event type can prevent file activity on selected

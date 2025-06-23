@@ -1,9 +1,3 @@
----
-title: SAML Configuration Wizard
-sidebar_label: saml configuration
-description: Administrative configuration and management features for Privilege Secure PAM solution including user management, policies, and security settings.
----
-
 # SAML Configuration Wizard
 
 The SAML Configuration wizard is opened with the **Configuration Wizard** button in the

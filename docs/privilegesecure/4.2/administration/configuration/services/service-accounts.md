@@ -1,9 +1,3 @@
----
-title: Add Service Account
-sidebar_label: service accounts
-description: Administrative configuration and management features for Privilege Secure PAM solution including user management, policies, and security settings.
----
-
 # Add Service Account
 
 Follow the steps to add a service account to the console.

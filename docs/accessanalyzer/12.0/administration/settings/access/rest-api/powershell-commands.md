@@ -1,9 +1,3 @@
----
-title: powershell commands Administration
-sidebar_label: powershell commands
-description: Administration guide for powershell commands including configuration, management, and best practices for Access Analyzer.
----
-
 # PowerShell Commands for the REST API
 
 The following examples show PowerShell commands commonly performed with the REST API.

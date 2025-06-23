@@ -1,9 +1,3 @@
----
-title: activedirectorypermissionsanalyzer collection ad ourights
-sidebar_label: ad ourights
-description: Solution guide for activedirectorypermissionsanalyzer collection ad ourights including implementation steps, configuration, and best practices.
----
-
 # AD_OURights Job
 
 The AD_OURights Job provides data collection to identify permissions applied to organizational units

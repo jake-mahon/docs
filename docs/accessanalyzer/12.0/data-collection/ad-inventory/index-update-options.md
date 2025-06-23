@@ -1,9 +1,3 @@
----
-title: index update options
-sidebar_label: index update options
-description: Documentation for index update options functionality in Access Analyzer including configuration and usage information.
----
-
 # ADInventory: Index Update Options
 
 Configure options for maintaining SQL Server indexes while running queries using the Index Update

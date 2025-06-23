@@ -1,9 +1,3 @@
----
-title: Web Site Platform Policy Configuration
-sidebar_label: websites
-description: Administrative configuration and management features for Privilege Secure PAM solution including user management, policies, and security settings.
----
-
 # Web Site Platform Policy Configuration
 
 The Web Site menu displays the configuration options for Web Site platforms.

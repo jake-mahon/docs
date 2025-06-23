@@ -1,9 +1,3 @@
----
-title: workflow createroute API
-sidebar_label: createroute
-description: API reference for createroute operations in Directory Manager with request parameters, response examples, and implementation details.
----
-
 # Create a Route
 
 Use this API to create a new workflow route. To create a workflow, you have to specify the

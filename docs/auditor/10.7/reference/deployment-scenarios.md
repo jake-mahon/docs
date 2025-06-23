@@ -1,9 +1,3 @@
----
-title: Netwrix Auditor Deployment Scenarios
-sidebar_label: Deployment Scenarios
-description: Sample deployment recommendations for small, regular, large, and extra-large environments including integration considerations.
----
-
 # Sample Deployment Scenarios
 
 Recommendations in the sections below refer to deploying the product in the environments of

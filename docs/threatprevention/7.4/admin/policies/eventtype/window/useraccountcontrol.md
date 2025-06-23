@@ -1,9 +1,3 @@
----
-title: User Account Control Window
-sidebar_label: User Account Control Window
-description: The User Account Control (UAC) window enables you to select specific UAC settings to be monitored by the policy.
----
-
 # User Account Control Window
 
 The User Account Control (UAC) window enables you to select specific UAC settings to be monitored by

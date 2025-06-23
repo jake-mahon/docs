@@ -1,9 +1,3 @@
----
-title: Portal request pending
-sidebar_label: pending
-description: Directory Manager portal documentation for request functionality including user interface, navigation, and operational procedures.
----
-
 # Request Inbox
 
 Using the Directory Managerportal, designated approvers can view the workflow requests and approve

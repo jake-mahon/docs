@@ -1,9 +1,3 @@
----
-title: overview
-sidebar_label: overview
-description: Documentation for overview functionality in Access Analyzer including configuration and usage information.
----
-
 # Sensitive Data Criteria Editor
 
 The Sensitive Data Criteria Editor is accessed from the Criteria Tab in the

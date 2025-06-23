@@ -1,9 +1,3 @@
----
-title: Getting Started: aws
-sidebar_label: aws
-description: Getting started guide for aws in Access Analyzer including setup instructions and initial configuration steps.
----
-
 # Configure AWS for Scans
 
 In order to scan multiple AWS accounts using one account you need to create a role in each target

@@ -1,9 +1,3 @@
----
-title: Getting Started: filesystems
-sidebar_label: filesystems
-description: Getting started guide for filesystems in Access Analyzer including setup instructions and initial configuration steps.
----
-
 # File System Supported Platforms
 
 Netwrix Access Analyzer (formerly Enterprise Auditor) audits Microsoft® Windows® file servers,

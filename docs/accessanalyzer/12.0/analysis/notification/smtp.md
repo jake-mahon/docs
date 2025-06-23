@@ -1,9 +1,3 @@
----
-title: smtp
-sidebar_label: smtp
-description: Documentation for smtp functionality in Access Analyzer including configuration and usage information.
----
-
 # Notification: SMTP
 
 The SMTP properties page is available when the Email notification type is selected on the Type page.

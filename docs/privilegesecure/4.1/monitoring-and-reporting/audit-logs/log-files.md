@@ -1,9 +1,3 @@
----
-title: Log Files Page
-sidebar_label: log files
-description: Documentation for Privilege Secure privileged access management solution covering features, configuration, and usage procedures.
----
-
 # Log Files Page
 
 The Logs page shows the log files. From here, search and investigate the records.

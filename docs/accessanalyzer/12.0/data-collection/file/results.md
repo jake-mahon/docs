@@ -1,9 +1,3 @@
----
-title: results
-sidebar_label: results
-description: Documentation for results functionality in Access Analyzer including configuration and usage information.
----
-
 # File: Results
 
 The Results page provides a list of available properties to be searched for and returned by the job

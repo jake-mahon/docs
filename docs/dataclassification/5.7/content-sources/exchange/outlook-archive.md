@@ -1,9 +1,3 @@
----
-title: Outlook Mail Archive
-sidebar_label: Outlook Archive
-description: The Outlook Mail Archive source configuration screen allows you to enable the crawling and classification of content stored in PST files: NOTE: If you wish t...
----
-
 # Outlook Mail Archive
 
 The Outlook Mail Archive source configuration screen allows you to enable the crawling and

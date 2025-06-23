@@ -1,9 +1,3 @@
----
-title: standard tables
-sidebar_label: standard tables
-description: Documentation for standard tables functionality in Access Analyzer including configuration and usage information.
----
-
 # Standard Reference Tables & Views for the SPAA Data Collector
 
 The SPAA Data Collector gathers essential SharePoint on-premises and SharePoint Online information

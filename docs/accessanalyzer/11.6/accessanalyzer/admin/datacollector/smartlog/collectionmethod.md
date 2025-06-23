@@ -1,9 +1,3 @@
----
-title: SmartLog Collection Method Configuration
-sidebar_label: Collection Method
-description: Collection method configuration for SmartLog data collector including log parsing and analysis methodologies.
----
-
 # SMARTLog: Collection Method
 
 The Collection Method page is used to select the collection method employed by the data collector.

@@ -1,9 +1,3 @@
----
-title: Threat Response Playbook Configuration
-sidebar_label: Threat Response
-description: Create and manage threat response playbooks with automated actions for integrating with email, Active Directory, and custom PowerShell scripts.
----
-
 # Threat Response Page
 
 The Threat Response page provides the ability to create playbooks and add steps which contain

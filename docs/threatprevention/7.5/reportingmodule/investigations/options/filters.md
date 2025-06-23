@@ -1,9 +1,3 @@
----
-title: Filters Section
-sidebar_label: Filters Section
-description: The Filters section provides options to build a filter statement by selecting the Attribute, Operator, and Filter value. A time period for the report data is...
----
-
 # Filters Section
 
 The Filters section provides options to build a filter statement by selecting the Attribute,

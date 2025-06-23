@@ -1,9 +1,3 @@
----
-title: Select Active Directory Group Policy Objects Window
-sidebar_label: Select Active Directory Group
-description: The Select Active Directory Group Policy Objects window provides a list of available GPOs. Selected objects are added to the filter from where you clicked th...
----
-
 # Select Active Directory Group Policy Objects Window
 
 The Select Active Directory Group Policy Objects window provides a list of available GPOs. Selected

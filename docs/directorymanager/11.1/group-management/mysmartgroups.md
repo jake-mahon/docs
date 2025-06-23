@@ -1,9 +1,3 @@
----
-title: mysmartgroups
-sidebar_label: mysmartgroups
-description: Directory Manager 11.1 documentation for mysmartgroups with configuration details, usage instructions, and implementation guidance.
----
-
 # My Smart Groups
 
 This page lists only the Smart Groups that you are primary owner of. To include the groups for which

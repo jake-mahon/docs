@@ -1,9 +1,3 @@
----
-title: Directory Manager Portal Dashboard
-sidebar_label: Dashboard
-description: Navigate the Directory Manager portal dashboard interface with quick search, menu navigation, and essential management functions for efficient workflows.
----
-
 # Dashboard
 
 The interface of the portal is designed in a manner that you can quickly access the main functions

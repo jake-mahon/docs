@@ -1,9 +1,3 @@
----
-title: html style
-sidebar_label: html style
-description: Documentation for html style functionality in Access Analyzer including configuration and usage information.
----
-
 # Survey HTML Style
 
 Choose an HTML style from the HTML Styles list. The Sample pane displays a preview of the style.

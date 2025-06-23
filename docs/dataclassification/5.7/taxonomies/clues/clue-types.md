@@ -1,9 +1,3 @@
----
-title: Types of Clues
-sidebar_label: Clue Types
-description: The following clue types of clues are available, each clue type is described in detail below. A single word, multi-word concepts or phrases. Use quotes aroun...
----
-
 # Types of Clues
 
 The following clue types of clues are available, each clue type is described in detail below.

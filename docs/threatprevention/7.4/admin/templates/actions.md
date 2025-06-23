@@ -1,9 +1,3 @@
----
-title: Actions Tab
-sidebar_label: Actions Tab
-description: The Actions tab is for configuring various responses, or event consumers, to the event data a policy captures.
----
-
 # Actions Tab
 
 The Actions tab is for configuring various responses, or event consumers, to the event data a policy

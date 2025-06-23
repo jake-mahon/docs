@@ -1,9 +1,3 @@
----
-title: options
-sidebar_label: options
-description: Documentation for options functionality in Access Analyzer including configuration and usage information.
----
-
 # ExchangeMailbox: Options
 
 The Options page provides different configuration options for the search. It is a wizard page for

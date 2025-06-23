@@ -1,9 +1,3 @@
----
-title: Start Screen Manager XML Data Files
-sidebar_label: Start Screen
-description: Export Endpoint Policy Manager Start Screen Manager settings as XML files for MDM deployment. Learn to export single policies, collections, or entire nodes.
----
-
 # XML Data Files from Endpoint Policy Manager Start Screen Manager
 
 Endpoint Policy Manager Start Screen Manager for Windows 10 settings can be exported as an XML file.

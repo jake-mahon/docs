@@ -1,9 +1,3 @@
----
-title: Get imanamicommand Cmdlet
-sidebar_label: getimanamicommand
-description: PowerShell cmdlet reference for getimanamicommand with parameter details, syntax examples, and usage instructions for Directory Manager.
----
-
 # Get-ImanamiCommand
 
 Use the Get-ImanamiCommand cmdlet to retrieve basic information about Directory Manager Management

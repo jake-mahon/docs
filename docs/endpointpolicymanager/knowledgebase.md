@@ -1,9 +1,3 @@
----
-title: Endpoint Policy Manager Knowledge Base
-sidebar_label: Knowledge Base
-description: Complete knowledge base directory for Netwrix Endpoint Policy Manager. Find articles and video learning center resources for all components and features.
----
-
 # Netwrix Endpoint Policy Manager (formerly PolicyPak) Knowledge Base Articles
 
 In the following topics, you will find the Endpoint Policy Manager Knowledge Base articles and Video

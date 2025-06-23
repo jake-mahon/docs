@@ -1,9 +1,3 @@
----
-title: Get token Cmdlet
-sidebar_label: gettoken
-description: PowerShell cmdlet reference for gettoken with parameter details, syntax examples, and usage instructions for Directory Manager.
----
-
 # Get-Token
 
 When Management Shell is connected to an identity store a token is passed with the commandlet

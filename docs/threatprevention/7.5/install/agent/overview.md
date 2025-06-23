@@ -1,17 +1,3 @@
----
-title: Agent Installation Overview
-sidebar_label: Agent Install
-description: Comprehensive guide for Threat Prevention agent installation including deployment methods, requirements, and configuration options.
----
-
----
-
-title: Agent Installation Overview
-sidebar_label: Agent Installation
-description: Comprehensive guide for Threat Prevention agent installation including deployment methods, requirements, and configuration options.
-
----
-
 # Agent Information
 
 The Threat Prevention Agent performs real-time monitoring of the events occurring across supported

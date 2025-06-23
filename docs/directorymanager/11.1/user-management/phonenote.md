@@ -1,9 +1,3 @@
----
-title: phonenote
-sidebar_label: phonenote
-description: Directory Manager 11.1 documentation for phonenote with configuration details, usage instructions, and implementation guidance.
----
-
 # Object properties - Phone / Notes tab
 
 Use this tab to view or update the contact information of the user or contact.

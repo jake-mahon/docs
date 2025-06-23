@@ -1,9 +1,3 @@
----
-title: Active Directory Auditing Configuration
-sidebar_label: Active Directory
-description: Configure Activity Monitor for Active Directory domain activity using API Server or File Archive Repository methods for Enterprise Auditor integration.
----
-
 # Active Directory Activity Auditing Configuration
 
 There are two methods to configure Activity Monitor to provide Active Directory domain activity to

@@ -1,9 +1,3 @@
----
-title: Cloud Policy Configuration
-sidebar_label: Policies
-description: Cloud policy management interface with configuration options and action controls for cloud security posture management.
----
-
 # Cloud Policy Tab
 
 ![cloudpolicytab](/img/versioned_docs/changetracker_8.0/changetracker/cloud/cloudpolicytab.webp)

@@ -1,9 +1,3 @@
----
-title: Accounts and Required Permissions
-sidebar_label: Account Requirements
-description: Netwrix Data Classification uses the following accounts: | Account | Description | | ------------------- | --------------------------------------------------...
----
-
 # Accounts and Required Permissions
 
 Netwrix Data Classification uses the following accounts:

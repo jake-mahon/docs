@@ -1,9 +1,3 @@
----
-title: EPE Account Management
-sidebar_label: Account Management
-description: Account management interface for Enterprise Password Enforcer REST site including user provisioning and access control.
----
-
 # Site Account Management APIs
 
 You can use APIs to perform the following functions for user accounts that can access the EPE Rest

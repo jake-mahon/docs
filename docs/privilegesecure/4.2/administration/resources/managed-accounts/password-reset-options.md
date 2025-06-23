@@ -1,9 +1,3 @@
----
-title: Password Reset Options Window
-sidebar_label: password reset options
-description: Administrative configuration and management features for Privilege Secure PAM solution including user management, policies, and security settings.
----
-
 # Password Reset Options Window
 
 The Password Reset option control password resets for the selected account.

@@ -1,9 +1,3 @@
----
-title: Activity Monitor SIEM Integrations
-sidebar_label: SIEM Overview
-description: Overview of SIEM integrations for Activity Monitor including Splunk and QRadar apps for file activity monitoring and threat detection.
----
-
 # SIEM Integrations
 
 Stealthbits File Activity monitoring solutions enable organizations to successfully, efficiently,

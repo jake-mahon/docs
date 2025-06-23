@@ -1,9 +1,3 @@
----
-title: About Page
-sidebar_label: about
-description: Documentation for Privilege Secure privileged access management solution covering features, configuration, and usage procedures.
----
-
 # About Page
 
 The About page is accessed by selecting About from the User Options menu (icon beside the logged in

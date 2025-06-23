@@ -1,9 +1,3 @@
----
-title: databases redshift collection redshift tableprivileges
-sidebar_label: redshift tableprivileges
-description: Solution guide for databases redshift collection redshift tableprivileges including implementation steps, configuration, and best practices.
----
-
 # Redshift_TablePrivileges Job
 
 The Redshift_TablePrivileges job is designed to collect Redshift table privileges from all the

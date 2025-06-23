@@ -1,9 +1,3 @@
----
-title: uninstallation
-sidebar_label: uninstallation
-description: Auditor 10.7 documentation for uninstallation with configuration details, usage instructions, and implementation guidance.
----
-
 # Uninstall Netwrix Auditor
 
 This topic provides instructions to uninstall Netwrix Auditor.

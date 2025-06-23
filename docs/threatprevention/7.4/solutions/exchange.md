@@ -1,9 +1,3 @@
----
-title: Exchange Solution
-sidebar_label: Exchange
-description: Microsoft Exchange monitoring and protection solution including mailbox security, event tracking, and lockdown capabilities.
----
-
 # Exchange
 
 Threat Prevention for Exchange provides increased security, regulatory compliance fulfillment, and

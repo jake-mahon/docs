@@ -1,9 +1,3 @@
----
-title: search filter
-sidebar_label: search filter
-description: Documentation for search filter functionality in Access Analyzer including configuration and usage information.
----
-
 # EWSPublicFolder FW: Search Filter
 
 Use the Search Filter page to choose a filter template for the search.

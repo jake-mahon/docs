@@ -1,9 +1,3 @@
----
-title: Architectue Overview
-sidebar_label: architecture overview
-description: Documentation for Privilege Secure privileged access management solution covering features, configuration, and usage procedures.
----
-
 # Architectue Overview
 
 Architectue Overview

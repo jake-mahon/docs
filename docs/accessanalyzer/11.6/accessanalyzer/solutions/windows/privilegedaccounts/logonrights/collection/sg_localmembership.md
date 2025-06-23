@@ -1,9 +1,3 @@
----
-title: windows privilegedaccounts logonrights collection sg_localmembership
-sidebar_label: sg_localmembership
-description: Solution guide for windows privilegedaccounts logonrights collection sg_localmembership including implementation steps, configuration, and best practices.
----
-
 # SG_LocalMembership Job
 
 The SG_LocalMembership job collects local group membership from all targeted servers.

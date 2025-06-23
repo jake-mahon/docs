@@ -1,9 +1,3 @@
----
-title: group policy
-sidebar_label: group-policy
-description: Auditor 10.7 documentation for group policy with configuration details, usage instructions, and implementation guidance.
----
-
 # Group Policy
 
 Netwrix Auditor relies on native logs for collecting audit data. Therefore, successful change and

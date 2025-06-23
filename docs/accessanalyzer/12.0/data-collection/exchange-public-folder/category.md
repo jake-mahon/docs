@@ -1,9 +1,3 @@
----
-title: category
-sidebar_label: category
-description: Documentation for category functionality in Access Analyzer including configuration and usage information.
----
-
 # ExchangePublicFolder: Category
 
 The Category page is used to select the objects to search.

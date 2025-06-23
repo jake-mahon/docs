@@ -1,9 +1,3 @@
----
-title: MySQL Database Reports
-sidebar_label: MySQL
-description: Access MySQL database reports through Resource Audit interface with data collected by Access Analyzer MySQL solution for database auditing.
----
-
 # MySQL Reports
 
 MySQL reports are accessed through the Resource Audit interface. Explore the MySQL resources by

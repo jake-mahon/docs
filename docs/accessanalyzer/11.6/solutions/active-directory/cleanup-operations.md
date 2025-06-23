@@ -1,9 +1,3 @@
----
-title: active directory cleanup operations
-sidebar_label: cleanup operations
-description: Solution guide for active directory cleanup operations including implementation steps, configuration, and best practices.
----
-
 # AD_CleanupProgress Job
 
 The AD_CleanupProgress Job performs checks against Active Directory security best practices in order

@@ -1,9 +1,3 @@
----
-title: publishsecurity
-sidebar_label: publishsecurity
-description: Documentation for publishsecurity functionality in Access Analyzer including configuration and usage information.
----
-
 # Publish Security Page
 
 The Publish Security page of the Report Configuration wizard contains the account names of users

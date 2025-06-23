@@ -1,9 +1,3 @@
----
-title: Select AD Groups Window
-sidebar_label: Select AD Groups Window
-description: The Select AD Groups window provides a list of available Active Directory groups. Selected objects are added to the filter from where you clicked the Add (+)...
----
-
 # Select AD Groups Window
 
 The Select AD Groups window provides a list of available Active Directory groups. Selected objects

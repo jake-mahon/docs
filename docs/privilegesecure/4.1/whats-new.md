@@ -1,9 +1,3 @@
----
-title: What's New in Version 4.1
-sidebar_label: What's New
-description: Latest features and enhancements in Privilege Secure 4.1 including database migration, AWS encryption, web app launcher, and community updates.
----
-
 # What's New
 
 ## New Netwrix Community!

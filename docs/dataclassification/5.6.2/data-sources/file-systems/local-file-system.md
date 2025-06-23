@@ -1,9 +1,3 @@
----
-title: File System
-sidebar_label: Local File System
-description: Use the Source configuration screen to set up the crawling and classification operations for content stored in your file server. Netwrix Data Classification...
----
-
 # File System
 
 Use the Source configuration screen to set up the crawling and classification operations for content

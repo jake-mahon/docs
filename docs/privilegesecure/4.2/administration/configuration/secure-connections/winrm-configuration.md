@@ -1,9 +1,3 @@
----
-title: Configure Secure WinRM Connection Window
-sidebar_label: winrm configuration
-description: Administrative configuration and management features for Privilege Secure PAM solution including user management, policies, and security settings.
----
-
 # Configure Secure WinRM Connection Window
 
 Follow the steps to configure secure WinRM connection for the selected host:

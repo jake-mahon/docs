@@ -1,9 +1,3 @@
----
-title: Settlement Right Key Resolution
-sidebar_label: Settlement Right Key
-description: Resolve password decryption issues in version 8.3.0.13378 where users lack necessary legal key for accessing encrypted passwords.
----
-
 # Settlement right key
 
 #### Problem Description

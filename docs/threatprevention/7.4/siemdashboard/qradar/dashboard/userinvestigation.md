@@ -1,9 +1,3 @@
----
-title: User Investigation Dashboard
-sidebar_label: User Investigation Dashboard
-description: The User Investigation dashboard only appears when a search is conducted. This can be done by clicking a user-account hyperlink in the Perpetrator or Affecte...
----
-
 # User Investigation Dashboard
 
 The User Investigation dashboard only appears when a search is conducted. This can be done by

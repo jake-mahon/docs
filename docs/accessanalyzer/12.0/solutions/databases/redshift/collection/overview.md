@@ -1,9 +1,3 @@
----
-title: databases redshift collection overview
-sidebar_label: overview
-description: Solution guide for databases redshift collection overview including implementation steps, configuration, and best practices.
----
-
 # 0.Collection Job Group
 
 The Redshift Solution Collection group collects high level summary information from targeted

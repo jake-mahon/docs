@@ -1,9 +1,3 @@
----
-title: Custom Certificate Setup
-sidebar_label: Custom Certificate
-description: Custom certificate configuration for secure agent communication including certificate generation and deployment procedures.
----
-
 # Create Custom Managed Certificates for Each Agent
 
 If "custom-managed" is selected for the CA certificate configuration during

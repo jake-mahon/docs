@@ -1,9 +1,3 @@
----
-title: Operations and Health Dashboards
-sidebar_label: Overview Dashboard
-description: The Dashboard administration area provides a selection of tools to review application health. The default screen shows a high-level overview of Netwrix Data...
----
-
 # Operations and Health Dashboards
 
 The Dashboard administration area provides a selection of tools to review application health.

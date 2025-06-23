@@ -1,9 +1,3 @@
----
-title: Internet Explorer General Tab Management
-sidebar_label: General Tab
-description: Learn to manage Internet Explorer general tab settings including homepage, browsing history, and search providers using Endpoint Policy Manager.
----
-
 # Manage IE General tab
 
 Netwrix Endpoint Policy Manager (formerly PolicyPak): Manage IE General tab

@@ -1,9 +1,3 @@
----
-title: Users jordan.violet development docs docs accessanalyzer 11.6 accessanalyzer admin datacollector Data Collector permissionmatrix
-sidebar_label: permissionmatrix
-description: Data collector documentation for  Users jordan.violet development docs docs accessanalyzer 11.6 accessanalyzer admin datacollector permissionmatrix including configuration options and collection settings.
----
-
 # Permissions by Data Collector (Matrix)
 
 The Enterprise Auditor data collectors are capable of collecting information from a variety of

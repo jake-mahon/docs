@@ -1,9 +1,3 @@
----
-title: overview
-sidebar_label: overview
-description: Documentation for overview functionality in Access Analyzer including configuration and usage information.
----
-
 # Host Discovery Wizard
 
 The Host Discovery Wizard gives complete control over how hosts are discovered on the targeted

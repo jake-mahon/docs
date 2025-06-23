@@ -1,9 +1,3 @@
----
-title: Chrome Certificate Management Configuration
-sidebar_label: Chrome Certificates
-description: Manage Google Chrome browser certificates using Internet Explorer certificate features that apply to both browsers simultaneously.
----
-
 # Chrome: How do I manage certificates with Google Chrome?
 
 Chrome uses the underlying certificates that Internet Explorer does. As such we didn't opt to put

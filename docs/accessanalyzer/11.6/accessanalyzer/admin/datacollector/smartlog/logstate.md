@@ -1,9 +1,3 @@
----
-title: SmartLog Log State Configuration
-sidebar_label: Log State
-description: Log state configuration for SmartLog data collector including log file status and processing state management.
----
-
 # SMARTLog: Log State
 
 The Log State page is used to configure how to search the log. It is a wizard page for all log

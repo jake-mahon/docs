@@ -1,9 +1,3 @@
----
-title: Activity Monitor Search Results
-sidebar_label: Search Results
-description: View and analyze Activity Monitor search results including Active Directory searches with filtering, sorting, and progress tracking capabilities.
----
-
 # Active Directory Search Results
 
 When a search has been started, the Search Status table at the bottom displays the percentage

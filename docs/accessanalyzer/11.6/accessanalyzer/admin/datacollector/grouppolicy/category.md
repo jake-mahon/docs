@@ -1,9 +1,3 @@
----
-title: Group Policy Category Configuration
-sidebar_label: Category
-description: Group Policy Data Collector category page with query options for analyzing Active Directory Group Policy Objects and settings.
----
-
 # GroupPolicy: Category
 
 On the GroupPolicy Data Collector Category page, select the required query category to be executed.

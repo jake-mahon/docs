@@ -1,9 +1,3 @@
----
-title: similargroups
-sidebar_label: similargroups
-description: Directory Manager 11.1 documentation for similargroups with configuration details, usage instructions, and implementation guidance.
----
-
 # Group properties - Similar Groups tab
 
 Directory Manager enables you to compare groups for similarity on the basis of:

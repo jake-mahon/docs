@@ -1,9 +1,3 @@
----
-title: privategroups
-sidebar_label: privategroups
-description: Directory Manager 11.1 documentation for privategroups with configuration details, usage instructions, and implementation guidance.
----
-
 # Private Groups
 
 This view lists only the private groups created using Directory Manager in the connected identity

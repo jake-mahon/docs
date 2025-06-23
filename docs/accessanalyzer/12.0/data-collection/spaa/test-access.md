@@ -1,9 +1,3 @@
----
-title: test access
-sidebar_label: test access
-description: Documentation for test access functionality in Access Analyzer including configuration and usage information.
----
-
 # SPAA: Test Access
 
 Use the Test Access page to check access to SharePoint On-Premises environments. The Test Access

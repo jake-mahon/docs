@@ -1,9 +1,3 @@
----
-title: agent settings
-sidebar_label: agent settings
-description: Documentation for agent settings functionality in Access Analyzer including configuration and usage information.
----
-
 # SPAA: Agent Settings
 
 The Agent Settings page is where the SharePoint Agent Service is configured. It is a wizard page for

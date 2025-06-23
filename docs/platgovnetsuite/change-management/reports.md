@@ -1,9 +1,3 @@
----
-title: Change Management Reports and Analytics
-sidebar_label: Reports
-description: Access and analyze change management reports including policy changes, compliance status, approvals, and deployment tracking for audit purposes.
----
-
 # Change Management Reports
 
 To access change management reports:

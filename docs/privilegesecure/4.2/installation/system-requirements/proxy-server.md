@@ -1,9 +1,3 @@
----
-title: Remote Service Node
-sidebar_label: proxy server
-description: Installation procedures, system requirements, and deployment configuration for Privilege Secure components and services.
----
-
 # Remote Service Node
 
 Privilege Secure supports a variety of RDP/SSH clients, including:

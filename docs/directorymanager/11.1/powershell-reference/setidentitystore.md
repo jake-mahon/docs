@@ -1,9 +1,3 @@
----
-title: Set identitystore Cmdlet
-sidebar_label: setidentitystore
-description: PowerShell cmdlet reference for setidentitystore with parameter details, syntax examples, and usage instructions for Directory Manager.
----
-
 # Set-IdentityStore
 
 The commandlet Set-IdentityStore modifies the identity store settings and configurations.

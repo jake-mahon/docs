@@ -1,9 +1,3 @@
----
-title: sharepoint sp brokeninheritance
-sidebar_label: sp brokeninheritance
-description: Solution guide for sharepoint sp brokeninheritance including implementation steps, configuration, and best practices.
----
-
 # 3.Broken Inheritance > SP_BrokenInheritance Job
 
 Keeping track of directly applied permissions at mass is not realistic, the SP_BrokenInheritance job

@@ -1,9 +1,3 @@
----
-title: Mouse Shortcuts Quick Enforcement
-sidebar_label: Mouse Shortcuts
-description: Use mouse shortcuts in Application Settings Manager to quickly configure enforcement modes, disable tabs, and apply settings across entire interfaces.
----
-
 # Special Mouse Shortcuts for Quick Enforcement of Modes
 
 The Endpoint Policy Manager Application Settings Manager user interface has several shortcuts to

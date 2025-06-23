@@ -1,9 +1,3 @@
----
-title: frequency
-sidebar_label: frequency
-description: Documentation for frequency functionality in Access Analyzer including configuration and usage information.
----
-
 # Notification: Frequency
 
 Use the Notification Frequency page to specify the frequency by which to generate the notifications.

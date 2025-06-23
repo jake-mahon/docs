@@ -1,9 +1,3 @@
----
-title: Content Detection and Compliance
-sidebar_label: Content Detection
-description: Identify sensitive data across file types and applications with remediation options and compliance tools for comprehensive data protection.
----
-
 # Content Detection, Remediation and Compliance
 
 Content detection identifies sensitive data across various file types and applications. Remediation

@@ -1,9 +1,3 @@
----
-title: Identity Manager SaaS Documentation
-sidebar_label: Identity Manager SaaS
-description: Cloud-based identity governance and administration solution with comprehensive guides for integration, installation, and user management.
----
-
 # Identity Manager SaaS
 
 # A software solution to match your IGA needs

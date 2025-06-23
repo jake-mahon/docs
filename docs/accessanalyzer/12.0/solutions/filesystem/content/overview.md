@@ -1,9 +1,3 @@
----
-title: filesystem content overview
-sidebar_label: overview
-description: Solution guide for filesystem content overview including implementation steps, configuration, and best practices.
----
-
 # 4.Content Job Group
 
 The 4.Content job group is designed to report on content information from targeted file servers. Key

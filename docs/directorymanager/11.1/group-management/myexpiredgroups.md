@@ -1,9 +1,3 @@
----
-title: myexpiredgroups
-sidebar_label: myexpiredgroups
-description: Directory Manager 11.1 documentation for myexpiredgroups with configuration details, usage instructions, and implementation guidance.
----
-
 # My Expired Groups
 
 To view a list of your expired groups in the identity store, click **Groups** on the left navigation

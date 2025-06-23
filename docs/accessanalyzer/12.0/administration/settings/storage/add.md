@@ -1,9 +1,3 @@
----
-title: add Administration
-sidebar_label: add
-description: Administration guide for add including configuration, management, and best practices for Access Analyzer.
----
-
 # Add a Storage Profile
 
 Follow the steps to create a Storage Profile.

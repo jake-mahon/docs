@@ -1,9 +1,3 @@
----
-title: Start Agent
-sidebar_label: Start Agent
-description: Agent service startup procedure for activating Threat Prevention monitoring on target servers.
----
-
 # Start Agent
 
 If the Agent has stopped on a server, it no longer monitors and captures events. You must restart it

@@ -1,9 +1,3 @@
----
-title: result
-sidebar_label: result
-description: Documentation for result functionality in Access Analyzer including configuration and usage information.
----
-
 # SQLViewCreation: Result Type
 
 Use the Result Type page to choose a SQL database table or view for the result’s output.

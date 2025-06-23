@@ -1,9 +1,3 @@
----
-title: Add Content Source to Data Classification
-sidebar_label: Add Source
-description: Step-by-step guide to add content sources including Box, databases, Exchange, file systems, Google Drive, and SharePoint to Netwrix Data Classification.
----
-
 # Add a Content Source
 
 To start processing your data, you need to add a corresponding content source to the Netwrix Data

@@ -1,9 +1,3 @@
----
-title: import host
-sidebar_label: import host
-description: Documentation for import host functionality in Access Analyzer including configuration and usage information.
----
-
 # Import Hosts Option
 
 On the Manual Host Entry page of the Host List Wizard, the **Import** option allows hosts to be

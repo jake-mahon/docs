@@ -1,9 +1,3 @@
----
-title: What's New in Password Reset
-sidebar_label: What's New
-description: Latest enhancements and improvements in Password Reset 3.3 including updated branding, protocol upgrades, and compatibility requirements.
----
-
 # What's New
 
 ### What's New in this Version?

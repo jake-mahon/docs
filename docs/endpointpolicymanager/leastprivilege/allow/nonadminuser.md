@@ -1,9 +1,3 @@
----
-title: Non-Admin Service Management with SC.EXE
-sidebar_label: Non-Admin Service
-description: Allow non-admin users to manage specific Windows services using SC.EXE through Least Privilege Manager combination rules and command line matching.
----
-
 # How to Allow a Non-Admin user to manage a specific Service using SC.EXE with Least Privilege Manager
 
 The steps in the example below will allow a Non-Admin user to manage the Remote Registry service

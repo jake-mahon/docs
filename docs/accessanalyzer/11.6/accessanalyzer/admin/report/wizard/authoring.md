@@ -1,9 +1,3 @@
----
-title: authoring
-sidebar_label: authoring
-description: Documentation for authoring functionality in Access Analyzer including configuration and usage information.
----
-
 # Authoring Page
 
 On the Authoring page of the Report Configuration wizard, you can configure the name, header

@@ -1,9 +1,3 @@
----
-title: example 2
-sidebar_label: example 2
-description: Documentation for example 2 functionality in Access Analyzer including configuration and usage information.
----
-
 # Script Example 2: Command Query
 
 The following example illustrates the use of scripts within Access Analyzer. This script reads a

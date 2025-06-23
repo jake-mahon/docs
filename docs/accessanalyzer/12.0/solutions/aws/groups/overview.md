@@ -1,9 +1,3 @@
----
-title: aws groups overview
-sidebar_label: overview
-description: Solution guide for aws groups overview including implementation steps, configuration, and best practices.
----
-
 # 3.Groups Job Group
 
 The 3.Groups job group provides details on AWS IAM group membership, orphaned groups (those with no

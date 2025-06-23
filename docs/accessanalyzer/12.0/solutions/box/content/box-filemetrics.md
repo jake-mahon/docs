@@ -1,9 +1,3 @@
----
-title: box content box filemetrics
-sidebar_label: box filemetrics
-description: Solution guide for box content box filemetrics including implementation steps, configuration, and best practices.
----
-
 # Box_FileMetrics Job
 
 The Box_FileMetrics Job offers insight into content sizing, staleness, and ownership of files in the

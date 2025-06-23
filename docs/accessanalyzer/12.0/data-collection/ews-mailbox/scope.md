@@ -1,9 +1,3 @@
----
-title: scope
-sidebar_label: scope
-description: Documentation for scope functionality in Access Analyzer including configuration and usage information.
----
-
 # EWSMailbox: Scope
 
 The Mailbox scope settings page is used to select which mailboxes are searched by the scan. It is a

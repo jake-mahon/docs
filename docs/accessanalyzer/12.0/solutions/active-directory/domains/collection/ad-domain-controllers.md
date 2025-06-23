@@ -1,9 +1,3 @@
----
-title: active directory domains collection ad domain controllers
-sidebar_label: ad domain controllers
-description: Solution guide for active directory domains collection ad domain controllers including implementation steps, configuration, and best practices.
----
-
 # AD_DomainControllers Job
 
 The 0.Collection > AD_DomainControllers Job collects domain controller details which will be further

@@ -1,9 +1,3 @@
----
-title: Activity Monitor Performance Monitoring
-sidebar_label: Performance Tuning
-description: Performance monitoring guide for Activity Monitor including system counters, NetApp metrics, and diagnostic recommendations for optimal performance.
----
-
 # Performance Monitoring
 
 This topic provides a list of Activity Monitor performance counters and standard system-wide

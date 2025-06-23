@@ -1,9 +1,3 @@
----
-title: active directory activity ad activity collection
-sidebar_label: ad activity collection
-description: Solution guide for active directory activity ad activity collection including implementation steps, configuration, and best practices.
----
-
 # 0.Collection > AD_ActivityCollection Job
 
 The AD_ActivityCollection Job located in the 0.Collection Job Group, imports data from the Netwrix

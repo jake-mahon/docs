@@ -1,9 +1,3 @@
----
-title: databases mongodb recommended
-sidebar_label: recommended
-description: Solution guide for databases mongodb recommended including implementation steps, configuration, and best practices.
----
-
 # Recommended Configuration for the MongoDB Solution
 
 The MongoDB Solution has been configured to inherit down from the MongoDB > Settings node. However,

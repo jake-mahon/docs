@@ -1,10 +1,3 @@
----
-title: AD Changes Dashboard
-sidebar_label: AD Changes Dashboard
-description: The AD Changes dashboard contains the following cards: !AD Changes Dashboard - Changes by Type – Breakdown of changes that have been recorded in the specifie...
-
----
-
 # AD Changes Dashboard
 
 The AD Changes dashboard contains the following cards:

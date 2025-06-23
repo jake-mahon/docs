@@ -1,9 +1,3 @@
----
-title: Interactive Grids Paging Configuration
-sidebar_label: Paging
-description: Paging configuration for interactive grids including page size settings and navigation options for large datasets.
----
-
 # Paging
 
 Paging allows users to interact with large sets of data more efficiently when viewing, filtering,

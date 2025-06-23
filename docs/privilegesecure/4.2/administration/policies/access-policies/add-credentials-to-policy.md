@@ -1,9 +1,3 @@
----
-title: Credentials Tab for Credential Based Access Policies
-sidebar_label: add credentials to policy
-description: Administrative configuration and management features for Privilege Secure PAM solution including user management, policies, and security settings.
----
-
 # Credentials Tab for Credential Based Access Policies
 
 The Credentials tab shows credentials associated with the selected Credential Based access policy.

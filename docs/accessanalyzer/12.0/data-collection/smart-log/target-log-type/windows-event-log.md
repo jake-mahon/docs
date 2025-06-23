@@ -1,9 +1,3 @@
----
-title: windows event log
-sidebar_label: windows event log
-description: Documentation for windows event log functionality in Access Analyzer including configuration and usage information.
----
-
 # SMARTLog: Target Log for Windows Event Log Type
 
 The Target Log page is where logs are selected to be collected. This version is a wizard page for

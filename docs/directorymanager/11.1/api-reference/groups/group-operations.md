@@ -1,9 +1,3 @@
----
-title: group operations
-sidebar_label: group-operations
-description: Directory Manager 11.1 documentation for group operations with configuration details, usage instructions, and implementation guidance.
----
-
 # Create a Smart Group
 
 Using this API, you can create a Smart Group in the identity store specified in the endpoint URL.

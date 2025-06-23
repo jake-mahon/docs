@@ -1,9 +1,3 @@
----
-title: FSMO Role Monitoring Event Type
-sidebar_label: FSMO Role Monitoring Event
-description: The FSMO Role Monitoring event type generates events based on policy rules when domain controllers acquire or relinquish specified FSMO (Flexible Single Mast...
----
-
 # FSMO Role Monitoring Event Type
 
 The FSMO Role Monitoring event type generates events based on policy rules when domain controllers

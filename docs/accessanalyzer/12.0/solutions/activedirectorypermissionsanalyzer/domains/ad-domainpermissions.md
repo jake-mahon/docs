@@ -1,9 +1,3 @@
----
-title: activedirectorypermissionsanalyzer domains ad domainpermissions
-sidebar_label: ad domainpermissions
-description: Solution guide for activedirectorypermissionsanalyzer domains ad domainpermissions including implementation steps, configuration, and best practices.
----
-
 # AD_DomainPermissions Job
 
 The AD_DomainPermissions Job reports on all Active Directory permissions applied to domain objects

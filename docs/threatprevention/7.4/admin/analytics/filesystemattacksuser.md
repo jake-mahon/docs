@@ -1,9 +1,3 @@
----
-title: File System Attacks Analytics
-sidebar_label: File System Attacks
-description: Detection of file system attacks through monitoring of excessive file changes by user accounts within short time periods.
----
-
 # File System Attacks (by User) Analytic Type
 
 The **File System Attacks (by user)** analytic type identifies activity where a significant number

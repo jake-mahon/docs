@@ -1,9 +1,3 @@
----
-title: log state
-sidebar_label: log state
-description: Documentation for log state functionality in Access Analyzer including configuration and usage information.
----
-
 # SMARTLog: Log State
 
 The Log State page is used to configure how to search the log. It is a wizard page for all log

@@ -1,9 +1,3 @@
----
-title: custom attributes
-sidebar_label: custom attributes
-description: Documentation for custom attributes functionality in Access Analyzer including configuration and usage information.
----
-
 # AzureADInventory: Custom Attributes
 
 Use the Custom Attributes wizard page to define custom attributes that will be used in the Microsoft

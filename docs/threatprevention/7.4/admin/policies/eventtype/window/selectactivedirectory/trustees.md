@@ -1,9 +1,3 @@
----
-title: Select Active Directory Trustees Window
-sidebar_label: Select Active Directory Trustees
-description: The Select Active Directory Trustees window provides a list of available Exchange trustees to either include or exclude. Selected objects are added to the fi...
----
-
 # Select Active Directory Trustees Window
 
 The Select Active Directory Trustees window provides a list of available Exchange trustees to either

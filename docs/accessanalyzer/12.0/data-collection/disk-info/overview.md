@@ -1,9 +1,3 @@
----
-title: overview
-sidebar_label: overview
-description: Documentation for overview functionality in Access Analyzer including configuration and usage information.
----
-
 # DiskInfo Data Collector
 
 The DiskInfo Data Collector provides enumeration of disks and their associated properties. When

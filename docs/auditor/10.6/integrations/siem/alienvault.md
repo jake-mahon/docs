@@ -1,9 +1,3 @@
----
-title: AlienVault SIEM Integration
-sidebar_label: AlienVault
-description: Integrate Netwrix Auditor with AlienVault SIEM for automated security event forwarding and centralized threat detection.
----
-
 # Automate Add-On Execution
 
 To ensure you feed the most recent data to your SIEM solution, Netwrix recommends scheduling a daily

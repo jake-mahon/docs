@@ -1,9 +1,3 @@
----
-title: overview
-sidebar_label: overview
-description: Documentation for overview functionality in Access Analyzer including configuration and usage information.
----
-
 # DNS Data Collector
 
 The DNS Data Collector provides information regarding DNS configuration and records. It is available

@@ -1,9 +1,3 @@
----
-title: Using Password Reset
-sidebar_label: Using Password Reset
-description: User guide for accessing Password Reset web application including enrollment, password reset, account unlock, and password change features with URL parameters.
----
-
 # Using Password Reset
 
 Netwrix Password Policy Enforcer is a web application. Users can access it from a web browser, or

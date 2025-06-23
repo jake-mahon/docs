@@ -1,9 +1,3 @@
----
-title: exchange recommended reports
-sidebar_label: recommended reports
-description: Solution guide for exchange recommended reports including implementation steps, configuration, and best practices.
----
-
 # Recommended Configurations for the 3. Databases Job Group
 
 Dependencies

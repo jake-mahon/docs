@@ -1,9 +1,3 @@
----
-title: Netwrix Products Integration
-sidebar_label: Netwrix Products
-description: Configure integrations with other Netwrix products for investigations and event data analysis including database connections and credential profiles.
----
-
 # Netwrix Integrations Page
 
 The Netwrix Integrations page within the Integrations interface lists the products for which the

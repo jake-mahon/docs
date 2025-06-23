@@ -1,9 +1,3 @@
----
-title: Request API via Postman
-sidebar_label: Postman Requests
-description: Configure Postman to access Identity Manager API with authentication tokens and request examples for testing and development.
----
-
 # Request Usercube's API via Postman
 
 This guide shows how to configure Postman to be able to request Usercube's API.

@@ -1,9 +1,3 @@
----
-title: active directory groups overview
-sidebar_label: overview
-description: Solution guide for active directory groups overview including implementation steps, configuration, and best practices.
----
-
 # 1.Groups Job Group
 
 The 1.Groups Job Group identifies effective group membership and pinpoints potential areas of

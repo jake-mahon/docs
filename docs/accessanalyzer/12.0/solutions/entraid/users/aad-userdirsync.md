@@ -1,9 +1,3 @@
----
-title: entraid users aad userdirsync
-sidebar_label: aad userdirsync
-description: Solution guide for entraid users aad userdirsync including implementation steps, configuration, and best practices.
----
-
 # AAD_UserDirSync Job
 
 The AAD_UserDirSync Job summarizes on-premises Active Directory syncing in the audited Microsoft

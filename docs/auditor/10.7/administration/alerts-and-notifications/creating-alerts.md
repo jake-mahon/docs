@@ -1,9 +1,3 @@
----
-title: creating alerts
-sidebar_label: creating-alerts
-description: Auditor 10.7 documentation for creating alerts with configuration details, usage instructions, and implementation guidance.
----
-
 # Create Alerts
 
 To create new alerts and modify existing alerts, the account used to connect to Auditor Server must

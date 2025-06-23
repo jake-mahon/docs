@@ -1,9 +1,3 @@
----
-title: Password Reset Best Practices Guide
-sidebar_label: Best Practices
-description: Best practices for Password Reset implementation including user enrollment strategies and REST API integration for web applications.
----
-
 # Persuading Users to Enroll
 
 The Web Interface includes a REST API which your web sites and applications can query to determine

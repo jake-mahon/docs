@@ -1,9 +1,3 @@
----
-title: results
-sidebar_label: results
-description: Documentation for results functionality in Access Analyzer including configuration and usage information.
----
-
 # PasswordSecurity: Results
 
 The Results page is where Active Directory properties to be gathered are selected.

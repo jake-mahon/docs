@@ -1,9 +1,3 @@
----
-title: Installation: troubleshooting
-sidebar_label: troubleshooting
-description: Installation guide for troubleshooting including system requirements, setup procedures, and configuration options.
----
-
 # Troubleshooting Proxy Service
 
 The following are potential errors that may occur during installation and how to resolve each.

@@ -1,9 +1,3 @@
----
-title: SAML Configuration Wizard
-sidebar_label: saml
-description: System configuration settings and advanced options for authentication, integrations, services, and security parameters.
----
-
 # SAML Configuration Wizard
 
 The SAML Configuration wizard is opened with the **Configuration Wizard** button in the

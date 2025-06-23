@@ -1,9 +1,3 @@
----
-title: exchange casmetrics overview
-sidebar_label: overview
-description: Solution guide for exchange casmetrics overview including implementation steps, configuration, and best practices.
----
-
 # 2.CAS Metrics Job Group
 
 The 2. CAS Metrics Job Group is comprised of data collection, analysis and reports that focus on

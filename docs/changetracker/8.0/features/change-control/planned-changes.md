@@ -1,9 +1,3 @@
----
-title: Planned Changes Administration
-sidebar_label: Planned Changes
-description: Administer planned change schedules, device group assignments, and rules with event recording mode for automated rule generation.
----
-
 # Planned Changes Administration
 
 Edit the **Schedule**, **Device Group** assignment and **Rules** for Planned Changes – contact

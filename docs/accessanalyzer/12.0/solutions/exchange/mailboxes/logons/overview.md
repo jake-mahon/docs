@@ -1,9 +1,3 @@
----
-title: exchange mailboxes logons overview
-sidebar_label: overview
-description: Solution guide for exchange mailboxes logons overview including implementation steps, configuration, and best practices.
----
-
 # Logons Job Group
 
 The Logons Job Group provides collection of Native Mailbox Access Auditing logs from Exchange to

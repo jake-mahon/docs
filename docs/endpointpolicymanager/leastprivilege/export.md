@@ -1,9 +1,3 @@
----
-title: Export LPM Policies Collections
-sidebar_label: Export Policies
-description: Export LPM policies and collections for deployment through SCCM, Intune, MDM services, or Endpoint Policy Manager Cloud delivery platforms.
----
-
 # Exporting Policies and Collections
 
 The [MDM & UEM Tools](/docs/endpointpolicymanager/mdm/overview.md) topics explain how to use the Endpoint Policy Manager

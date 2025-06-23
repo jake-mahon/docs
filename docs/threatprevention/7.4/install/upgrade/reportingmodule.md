@@ -1,9 +1,3 @@
----
-title: Upgrade the Reporting Module
-sidebar_label: Upgrade Reporting Module
-description: This topic provides the steps needed to upgrade the Netwrix Threat Manager Reporting Module from v2.8 to 3.0.
----
-
 # Upgrade the Reporting Module
 
 This topic provides the steps needed to upgrade the Netwrix Threat Manager Reporting Module from

@@ -1,9 +1,3 @@
----
-title: dlp audit settings
-sidebar_label: dlp audit settings
-description: Documentation for dlp audit settings functionality in Access Analyzer including configuration and usage information.
----
-
 # DropboxAccess: DLP Audit Settings
 
 Use the DLP Audit Settings page to configure sensitive data discovery settings. This page is a

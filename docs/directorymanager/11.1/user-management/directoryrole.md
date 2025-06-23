@@ -1,9 +1,3 @@
----
-title: directoryrole
-sidebar_label: directoryrole
-description: Directory Manager 11.1 documentation for directoryrole with configuration details, usage instructions, and implementation guidance.
----
-
 # Directory Roles page
 
 Use this page to assign a role and role privileges to the user on the Microsoft Entra Admin Center

@@ -1,9 +1,3 @@
----
-title: Threat Manager Configuration
-sidebar_label: Threat Manager Config
-description: Threat Manager integration configuration for connecting with reporting module and managing data synchronization.
----
-
 # Netwrix Threat Manager Configuration Window
 
 The Netwrix Threat Manager Configuration window is a global setting to enable integration between

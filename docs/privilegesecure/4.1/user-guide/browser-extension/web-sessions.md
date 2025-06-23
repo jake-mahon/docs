@@ -1,9 +1,3 @@
----
-title: Start Web Session
-sidebar_label: web sessions
-description: End user documentation covering session management, access procedures, dashboard functionality, and browser extension usage.
----
-
 # Start Web Session
 
 Follow the steps to start a web activity session.

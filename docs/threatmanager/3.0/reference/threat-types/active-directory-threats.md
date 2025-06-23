@@ -1,9 +1,3 @@
----
-title: Active Directory Threat Types
-sidebar_label: Active Directory Threats
-description: Comprehensive reference of Active Directory threats monitored by Threat Manager including AdminSDHolder tampering, AS-REP roasting, and DCShadow attacks.
----
-
 # Active Directory Threats
 
 The following threats are monitored for Active Directory:

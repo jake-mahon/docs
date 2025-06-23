@@ -1,9 +1,3 @@
----
-title: Freeze Mode
-sidebar_label: freeze mode
-description: System configuration settings and advanced options for authentication, integrations, services, and security parameters.
----
-
 # Freeze Mode
 
 Freeze Mode

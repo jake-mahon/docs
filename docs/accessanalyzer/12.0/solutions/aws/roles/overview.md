@@ -1,9 +1,3 @@
----
-title: aws roles overview
-sidebar_label: overview
-description: Solution guide for aws roles overview including implementation steps, configuration, and best practices.
----
-
 # 4.Roles Job Group
 
 The 4.Roles job group provides details on roles in the AWS IAM environment.

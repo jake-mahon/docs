@@ -1,9 +1,3 @@
----
-title: workflow deleteroute API
-sidebar_label: deleteroute
-description: API reference for deleteroute operations in Directory Manager with request parameters, response examples, and implementation details.
----
-
 # Delete a Route
 
 You can use this API to delete a user-defined workflow route.

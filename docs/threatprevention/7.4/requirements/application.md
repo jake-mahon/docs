@@ -1,9 +1,3 @@
----
-title: Application Server Requirements
-sidebar_label: Application Server
-description: Hardware and software requirements for Threat Prevention application server including Enterprise Manager and Administration Console components.
----
-
 # Application Server Requirements
 
 This topic lists the requirements for the Threat Prevention server, where Enterprise Manager has to

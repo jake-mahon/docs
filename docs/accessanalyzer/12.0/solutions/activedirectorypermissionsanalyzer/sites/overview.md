@@ -1,9 +1,3 @@
----
-title: activedirectorypermissionsanalyzer sites overview
-sidebar_label: overview
-description: Solution guide for activedirectorypermissionsanalyzer sites overview including implementation steps, configuration, and best practices.
----
-
 # 9.Sites Job Group
 
 The 9.Sites Job Group reports on all Active Directory permissions applied to site objects within the

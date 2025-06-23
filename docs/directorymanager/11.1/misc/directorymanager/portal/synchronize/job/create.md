@@ -1,9 +1,3 @@
----
-title: Portal synchronize job create
-sidebar_label: create
-description: Directory Manager portal documentation for synchronize job functionality including user interface, navigation, and operational procedures.
----
-
 # Create a Job
 
 Synchronize allows you to move data from one data source to another using a set of sequential

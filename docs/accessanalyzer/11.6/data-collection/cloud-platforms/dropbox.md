@@ -1,9 +1,3 @@
----
-title: dropbox
-sidebar_label: dropbox
-description: Documentation for dropbox functionality in Access Analyzer including configuration and usage information.
----
-
 # DropboxAccess: Category
 
 Use the Category Selection Page to identify the type of information to retrieve. The DropboxAccess

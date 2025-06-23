@@ -1,9 +1,3 @@
----
-title: Password Policy Enforcer Client Installation
-sidebar_label: Client Installation
-description: Installation guide for Password Policy Enforcer Client on workstations including automated and manual installation procedures.
----
-
 # Install Password Policy Enforcer Client
 
 This procedure is used to install the client on your current workstation. See the

@@ -1,9 +1,3 @@
----
-title: custom query oracle
-sidebar_label: custom query oracle
-description: Documentation for custom query oracle functionality in Access Analyzer including configuration and usage information.
----
-
 # SQL: Custom Oracle Query
 
 The Custom Query page for a Custom Oracle Query contains the same options as the Custom Query page

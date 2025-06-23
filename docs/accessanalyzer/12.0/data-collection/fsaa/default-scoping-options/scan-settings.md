@@ -1,9 +1,3 @@
----
-title: scan settings
-sidebar_label: scan settings
-description: Documentation for scan settings functionality in Access Analyzer including configuration and usage information.
----
-
 # Scan Settings Tab
 
 The Scan Settings tab allows configuration of data collection settings.

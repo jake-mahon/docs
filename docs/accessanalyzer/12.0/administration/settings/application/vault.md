@@ -1,9 +1,3 @@
----
-title: vault Administration
-sidebar_label: vault
-description: Administration guide for vault including configuration, management, and best practices for Access Analyzer.
----
-
 # Vault
 
 The Access Analyzer vault provides additional security through enhanced encryption to various

@@ -1,9 +1,3 @@
----
-title: Database Management for Password Reset
-sidebar_label: Database Management
-description: Guide to managing Password Reset databases including SQL Server Compact benefits, backup procedures, and migration to full SQL Server.
----
-
 # Working with the Database
 
 The NPR Server stores user and event information in a database. The default database is Microsoft

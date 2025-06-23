@@ -1,9 +1,3 @@
----
-title: Character Requirements Rule Configuration
-sidebar_label: Character Rules
-description: Configure character rules in Password Policy Enforcer for specific character requirements including uppercase, lowercase, numbers, and symbols.
----
-
 # Character Rules
 
 Password Policy Enforcer has seven Character rules that reject passwords if they contain, or do not

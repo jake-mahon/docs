@@ -1,9 +1,3 @@
----
-title: installcp
-sidebar_label: installcp
-description: Directory Manager 11.1 documentation for installcp with configuration details, usage instructions, and implementation guidance.
----
-
 # Install Credential Provider
 
 You can install Directory Manager Credential Provider in one of the following ways:

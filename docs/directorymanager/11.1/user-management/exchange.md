@@ -1,9 +1,3 @@
----
-title: exchange
-sidebar_label: exchange
-description: Directory Manager 11.1 documentation for exchange with configuration details, usage instructions, and implementation guidance.
----
-
 # Exchange page
 
 (of Create Mailbox wizard)

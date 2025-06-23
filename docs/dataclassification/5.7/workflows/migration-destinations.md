@@ -1,9 +1,3 @@
----
-title: Configure destinations for Migration action
-sidebar_label: Migration Destinations
-description: To use Migration as a workflow automated action, make sure you have migration sources and destinations properly configured. Currently, the product supports...
----
-
 # Configure destinations for Migration action
 
 To use **Migration** as a workflow automated action, make sure you have migration sources and

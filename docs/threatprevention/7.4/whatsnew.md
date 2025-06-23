@@ -1,9 +1,3 @@
----
-title: What's New in Threat Prevention
-sidebar_label: What's New
-description: Latest features and enhancements in Threat Prevention 7.4 including rebranding from StealthINTERCEPT and new security capabilities.
----
-
 # What's New
 
 ## New Netwrix Community!

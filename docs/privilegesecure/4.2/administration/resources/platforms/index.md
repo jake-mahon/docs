@@ -1,9 +1,3 @@
----
-title: Platforms Page
-sidebar_label: Overview
-description: Administrative configuration and management features for Privilege Secure PAM solution including user management, policies, and security settings.
----
-
 # Platforms Page
 
 The Platforms page is accessible from the Navigation pane under Policies. The menu on the left

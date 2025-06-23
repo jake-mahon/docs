@@ -1,9 +1,3 @@
----
-title: activedirectorypermissionsanalyzer collection ad computerrights
-sidebar_label: ad computerrights
-description: Solution guide for activedirectorypermissionsanalyzer collection ad computerrights including implementation steps, configuration, and best practices.
----
-
 # AD_ComputerRights Job
 
 The AD_ComputerRights Job provides data collection to identify permissions applied to computers in

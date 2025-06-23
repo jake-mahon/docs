@@ -1,9 +1,3 @@
----
-title: Folder Settings Page
-sidebar_label: Folder Settings Page
-description: The Folder Settings page within the Integrations interface allows users to designate the Investigation exports folder location. Additionally, a shared folder...
----
-
 # Folder Settings Page
 
 The Folder Settings page within the Integrations interface allows users to designate the

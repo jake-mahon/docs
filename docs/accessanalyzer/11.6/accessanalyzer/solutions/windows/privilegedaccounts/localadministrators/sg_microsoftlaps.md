@@ -1,9 +1,3 @@
----
-title: windows privilegedaccounts localadministrators sg_microsoftlaps
-sidebar_label: sg_microsoftlaps
-description: Solution guide for windows privilegedaccounts localadministrators sg_microsoftlaps including implementation steps, configuration, and best practices.
----
-
 # SG_MicrosoftLAPS Job
 
 The SG_MicrosoftLAPS job assesses the Local Administrator Password Solution (LAPS) local policies on

@@ -1,9 +1,3 @@
----
-title: LogRhythm SIEM Integration
-sidebar_label: LogRhythm
-description: Integrate Netwrix Auditor with LogRhythm SIEM for advanced security analytics and automated threat response workflows.
----
-
 # Automate Add-On Execution
 
 After creating a task, wait for the next scheduled run or navigate to **Task Scheduler** and run the

@@ -1,9 +1,3 @@
----
-title: OAM Password Configuration
-sidebar_label: oam password config
-description: Documentation for Privilege Secure privileged access management solution covering features, configuration, and usage procedures.
----
-
 # OAM Password Configuration
 
 OAM Password Configuration

@@ -1,9 +1,3 @@
----
-title: Install the PostgreSQL Database Application
-sidebar_label: Install PostgreSQL Database Application
-description: The PostgreSQL database application can be installed on the same server as the application or a different server. If it is installed on a different server, t...
----
-
 # Install the PostgreSQL Database Application
 
 The PostgreSQL database application can be installed on the same server as the application or a

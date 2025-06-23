@@ -1,9 +1,3 @@
----
-title: Integration Modules Overview
-sidebar_label: Modules
-description: Configure Usercube integration modules for credential protection and logging including Azure Key Vault, CyberArk, and QRadar integrations.
----
-
 # Modules
 
 Usercube can integrate with other software for issues such as credential protection and logging. To

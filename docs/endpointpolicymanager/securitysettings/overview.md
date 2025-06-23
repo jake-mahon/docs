@@ -1,9 +1,3 @@
----
-title: Security Settings Manager Configuration Guide
-sidebar_label: Overview
-description: Deploy Microsoft security settings without Group Policy via SCCM, KACE, or Cloud. Configure account policies, local policies, and system services.
----
-
 # Security Settings Manager
 
 **NOTE:** Before reading this section, please ensure you have read Book 2:

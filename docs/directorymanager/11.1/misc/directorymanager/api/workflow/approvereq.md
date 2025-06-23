@@ -1,9 +1,3 @@
----
-title: workflow approvereq API
-sidebar_label: approvereq
-description: API reference for approvereq operations in Directory Manager with request parameters, response examples, and implementation details.
----
-
 # Approve a Request
 
 Using this API you can approve a specified workflow request.

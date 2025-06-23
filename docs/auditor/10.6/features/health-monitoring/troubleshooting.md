@@ -1,9 +1,3 @@
----
-title: Network Traffic Compression Troubleshooting
-sidebar_label: Troubleshooting
-description: Troubleshoot network traffic compression and performance issues in Netwrix Auditor for optimal data collection efficiency.
----
-
 # Network Traffic Compression
 
 To reduce network traffic in distributed deployments, multi-site networks and other environments

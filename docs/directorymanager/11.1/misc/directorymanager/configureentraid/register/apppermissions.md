@@ -1,9 +1,3 @@
----
-title: apppermissions
-sidebar_label: apppermissions
-description: Directory Manager 11.1 documentation for apppermissions with configuration details, usage instructions, and implementation guidance.
----
-
 # Microsoft Entra ID Permissions
 
 While using a Microsoft Entra ID identity store with Microsoft Entra ID, the user must have certain

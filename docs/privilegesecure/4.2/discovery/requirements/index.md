@@ -1,9 +1,3 @@
----
-title: Requirements
-sidebar_label: Overview
-description: Documentation for Privilege Secure privileged access management solution covering features, configuration, and usage procedures.
----
-
 # Requirements
 
 Requirements

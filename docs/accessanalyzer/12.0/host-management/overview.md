@@ -1,9 +1,3 @@
----
-title: Host Management Overview
-sidebar_label: Overview
-description: Manage hosts in targeted environments with master list functionality for auditing computers and maintaining information on audited systems.
----
-
 # Host Management
 
 The **Host Management** node is used to manage hosts in a targeted environment. Hosts configured

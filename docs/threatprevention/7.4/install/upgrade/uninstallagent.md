@@ -1,9 +1,3 @@
----
-title: Uninstall Agent
-sidebar_label: Uninstall Agent
-description: When a newer version of the Agent is available, the Agents need to be uninstalled before the latest version can be deployed. You can uninstall an Agent using...
----
-
 # Uninstall Agent
 
 When a newer version of the Agent is available, the Agents need to be uninstalled before the latest

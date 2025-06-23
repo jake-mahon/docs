@@ -1,9 +1,3 @@
----
-title: activity
-sidebar_label: activity
-description: Documentation for activity functionality in Access Analyzer including configuration and usage information.
----
-
 # Nutanix Files Activity Auditing Configuration
 
 The Netwrix Activity Monitor can be configured to monitor file activity on Nutanix Files devices.

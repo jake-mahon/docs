@@ -1,9 +1,3 @@
----
-title: exchange mailboxes permissions collection ex perms
-sidebar_label: ex perms
-description: Solution guide for exchange mailboxes permissions collection ex perms including implementation steps, configuration, and best practices.
----
-
 # EX_Perms Job
 
 The EX_Perms job collects information about permissions applied to the folders within Exchange

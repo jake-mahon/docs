@@ -1,9 +1,3 @@
----
-title: Kerberos Weak Encryption Analytics
-sidebar_label: Kerberos Weak Encryption
-description: Detection of Kerberos tickets using weak RC4_HMAC_MD5 encryption indicating potential security vulnerabilities.
----
-
 # Kerberos Weak Encryption Analytic Type
 
 The **Kerberos Weak Encryption** analytic type identifies Kerberos tickets with RC4_HMAC_MD5

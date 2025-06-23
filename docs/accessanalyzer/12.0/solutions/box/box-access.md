@@ -1,9 +1,3 @@
----
-title: box box access
-sidebar_label: box access
-description: Solution guide for box box access including implementation steps, configuration, and best practices.
----
-
 # Box_Access Job
 
 The Box_Access Job analyzes access granted to users and groups in an organization's Box environment

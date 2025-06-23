@@ -1,9 +1,3 @@
----
-title: What's New in Password Reset
-sidebar_label: What's New
-description: Latest features and improvements in Password Policy Server, Client, and Management Console including enhanced security and encryption capabilities.
----
-
 # What's New
 
 #### Password Policy Server

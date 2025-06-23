@@ -1,9 +1,3 @@
----
-title: Endpoint Policy Manager vs GPO Management
-sidebar_label: Change Management
-description: Understand differences between Endpoint Policy Manager and GPO change management tools like AGPM, GPOADmin, NetIQ GPA. Learn endpoint vs GPO lifecycle management.
----
-
 # Understanding the Difference Between Endpoint Policy Manager and GPO Change Management Tools
 
 Netwrix Endpoint Policy Manager (formerly PolicyPak) is not a "drop-in replacement" for Group Policy

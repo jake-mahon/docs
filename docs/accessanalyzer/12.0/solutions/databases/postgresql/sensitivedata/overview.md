@@ -1,9 +1,3 @@
----
-title: databases postgresql sensitivedata overview
-sidebar_label: overview
-description: Solution guide for databases postgresql sensitivedata overview including implementation steps, configuration, and best practices.
----
-
 # Sensitive Data Job Group
 
 The Sensitive Data Job Group is designed to provide insight into where sensitive data exists and who

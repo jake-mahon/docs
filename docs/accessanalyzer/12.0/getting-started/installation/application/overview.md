@@ -1,9 +1,3 @@
----
-title: Getting Started: overview
-sidebar_label: overview
-description: Getting started guide for overview in Access Analyzer including setup instructions and initial configuration steps.
----
-
 # Installation & Configuration Overview
 
 This section provides instructions for installing Access Analyzer and the initial configuration

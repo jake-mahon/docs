@@ -1,9 +1,3 @@
----
-title: Custom Device Classes Management
-sidebar_label: Custom Classes
-description: Create new classes of devices for easier management with custom classification options for better organization and control.
----
-
 # Custom Classes
 
 This section provides you with the option to create new classes of devices for easier management. It

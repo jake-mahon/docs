@@ -1,9 +1,3 @@
----
-title: Lock Session
-sidebar_label: lock session
-description: End user documentation covering session management, access procedures, dashboard functionality, and browser extension usage.
----
-
 # Lock Session
 
 It is possible to lock out the user in the event that suspicious or unauthorized activity is

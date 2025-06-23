@@ -1,9 +1,3 @@
----
-title: account lockout examiner
-sidebar_label: account-lockout-examiner
-description: Auditor 10.7 documentation for account lockout examiner with configuration details, usage instructions, and implementation guidance.
----
-
 # Planning and Preparation
 
 Before you start using Netwrix Account Lockout Examiner, check the prerequisites and set up your

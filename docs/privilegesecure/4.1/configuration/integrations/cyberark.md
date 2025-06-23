@@ -1,9 +1,3 @@
----
-title: CyberArk Integration
-sidebar_label: cyberark
-description: System configuration settings and advanced options for authentication, integrations, services, and security parameters.
----
-
 # CyberArk Integration
 
 Privilege Secure contains a built-in vault for credential management, but can uniquely map to a

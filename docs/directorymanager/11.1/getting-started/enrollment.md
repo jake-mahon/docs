@@ -1,9 +1,3 @@
----
-title: enrollment
-sidebar_label: enrollment
-description: Directory Manager 11.1 documentation for enrollment with configuration details, usage instructions, and implementation guidance.
----
-
 # Enroll your Identity Store Account
 
 When the administrator has enabled multifactor authentication and second factor authentication for

@@ -1,9 +1,3 @@
----
-title: File Info Condition Deep Dive
-sidebar_label: File Info
-description: Match executables using internal file attributes like version info and product metadata for precise application identification and elevation rules.
----
-
 # Deeper Dive on File Info
 
 The **File Info Condition** enables you to match inner criteria of your EXE or MSI. In this example,

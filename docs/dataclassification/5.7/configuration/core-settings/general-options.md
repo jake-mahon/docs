@@ -1,9 +1,3 @@
----
-title: General Options
-sidebar_label: General Options
-description: The General section contains general classification engine settings, e.g. . By default, only standard options are displayed. To view advanced options, click...
----
-
 # General Options
 
 The **General** section contains general classification engine settings, e.g. . By default, only

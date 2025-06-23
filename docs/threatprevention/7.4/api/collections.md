@@ -1,9 +1,3 @@
----
-title: Collections API
-sidebar_label: Collections
-description: PowerShell API for managing collections including creation, modification, and deletion of policy filter collections.
----
-
 # Collection APIs
 
 Collections are reusable lists of policy filter settings that help streamline the task of

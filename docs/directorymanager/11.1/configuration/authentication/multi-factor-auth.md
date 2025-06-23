@@ -1,9 +1,3 @@
----
-title: multi factor auth
-sidebar_label: multi-factor-auth
-description: Directory Manager 11.1 documentation for multi factor auth with configuration details, usage instructions, and implementation guidance.
----
-
 # Configure Multifactor Authentication
 
 You can define a multifactor authentication (MFA) policy for an identity store. This policy enforces

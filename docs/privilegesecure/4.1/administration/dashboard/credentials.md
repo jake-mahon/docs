@@ -1,9 +1,3 @@
----
-title: Credentials Dashboard
-sidebar_label: credentials
-description: Administrative configuration and management features for Privilege Secure PAM solution including user management, policies, and security settings.
----
-
 # Credentials Dashboard
 
 The Credentials dashboard shows all accounts discovered within your environment. It is specifically

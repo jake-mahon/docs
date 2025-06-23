@@ -1,9 +1,3 @@
----
-title: Email Alert
-sidebar_label: Email Alert
-description: This action sends an email to the list of provided email address(es). When running the Workflow wizard and having selected Email Alert as an action, you will...
----
-
 # Email Alert
 
 This action sends an email to the list of provided email address(es). When running the Workflow

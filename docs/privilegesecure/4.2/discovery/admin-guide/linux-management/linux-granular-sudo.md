@@ -1,9 +1,3 @@
----
-title: Linux: Granular Sudo
-sidebar_label: linux granular sudo
-description: Documentation for Privilege Secure privileged access management solution covering features, configuration, and usage procedures.
----
-
 # Linux: Granular Sudo
 
 Linux: Granular Sudo

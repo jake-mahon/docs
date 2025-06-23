@@ -1,9 +1,3 @@
----
-title: result sample
-sidebar_label: result sample
-description: Documentation for result sample functionality in Access Analyzer including configuration and usage information.
----
-
 # SQLViewCreation: Result Sample
 
 Use this page to preview a sampling of the completed data manipulation.

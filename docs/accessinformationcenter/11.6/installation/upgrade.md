@@ -1,9 +1,3 @@
----
-title: Upgrade Procedure
-sidebar_label: Upgrade
-description: Upgrade Access Information Center to newer versions including compatibility requirements with Enterprise Auditor and preservation of customizations.
----
-
 # Upgrade Procedure
 
 It is necessary for Netwrix Enterprise Auditor and the Access Information Center to have compatible

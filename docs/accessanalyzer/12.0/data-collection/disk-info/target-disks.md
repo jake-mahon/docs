@@ -1,9 +1,3 @@
----
-title: target disks
-sidebar_label: target disks
-description: Documentation for target disks functionality in Access Analyzer including configuration and usage information.
----
-
 # DiskInfo: Target Disks
 
 The Target Disks page provides a selection of storage devices from which to return data from the

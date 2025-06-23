@@ -1,9 +1,3 @@
----
-title: Import Window
-sidebar_label: Import Window
-description: You may need to export collections, policies, and templates from the Administration Console and them import them back for certain reasons, such as during a r...
----
-
 # Import Window
 
 You may need to export collections, policies, and templates from the Administration Console and them

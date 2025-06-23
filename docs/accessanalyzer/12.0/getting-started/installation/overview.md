@@ -1,9 +1,3 @@
----
-title: Getting Started: overview
-sidebar_label: overview
-description: Getting started guide for overview in Access Analyzer including setup instructions and initial configuration steps.
----
-
 # Installation
 
 The following sections provide instructions for installing and upgrading Netwrix Access Analyzer

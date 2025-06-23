@@ -1,9 +1,3 @@
----
-title: Remove container Cmdlet
-sidebar_label: removecontainer
-description: PowerShell cmdlet reference for removecontainer with parameter details, syntax examples, and usage instructions for Directory Manager.
----
-
 # Remove-Container
 
 Use the Remove-Container commandlet to delete organizational units from Directory. The commandlet

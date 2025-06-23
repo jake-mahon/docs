@@ -1,9 +1,3 @@
----
-title: Taxonomy Settings
-sidebar_label: Settings
-description: This section contains information about taxonomies settings. Review the following for additional information: The Taxonomy Settings panel displays the...
----
-
 # Taxonomy Settings
 
 This section contains information about taxonomies settings. Review the following for additional

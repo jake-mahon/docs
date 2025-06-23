@@ -1,9 +1,3 @@
----
-title: Endpoint Policy Manager Licensing Guide
-sidebar_label: Licensing
-description: Complete licensing guide for Netwrix Endpoint Policy Manager. Learn per-client and concurrent-session licensing for desktop, VDI, Terminal Services, and MDM scenarios.
----
-
 # Licensing
 
 Licensing Netwrix Endpoint Policy Manager (formerly PolicyPak) is easy. We have one tool to request

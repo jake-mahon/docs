@@ -1,9 +1,3 @@
----
-title: Get availablemessagingservers Cmdlet
-sidebar_label: getavailablemessagingservers
-description: PowerShell cmdlet reference for getavailablemessagingservers with parameter details, syntax examples, and usage instructions for Directory Manager.
----
-
 # Get-AvailableMessagingServers
 
 The commandlet Get-AvailableMessagingServers retrieves the messaging server(s) available for the

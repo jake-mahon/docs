@@ -1,9 +1,3 @@
----
-title: Exporting Policies and Collections
-sidebar_label: Export Policies
-description: Export Administrative Templates policies and collections for use with MDM services, SCCM, Intune, and Endpoint Policy Manager Cloud.
----
-
 # Exporting Policies and Collections
 
 The [Using Endpoint Policy Manager with MDM and UEM Tools](/docs/endpointpolicymanager/mdm/uemtools.md) topic explains how to

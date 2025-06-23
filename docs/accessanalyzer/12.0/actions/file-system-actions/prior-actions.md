@@ -1,9 +1,3 @@
----
-title: prior actions
-sidebar_label: prior actions
-description: Documentation for prior actions functionality in Access Analyzer including configuration and usage information.
----
-
 # File System Action: Prior Actions
 
 The Prior Actions page is available when **Rollback a previously executed action** is selected on

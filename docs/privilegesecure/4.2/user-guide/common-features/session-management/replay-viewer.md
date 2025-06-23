@@ -1,9 +1,3 @@
----
-title: Replay Viewer Window
-sidebar_label: replay viewer
-description: End user documentation covering session management, access procedures, dashboard functionality, and browser extension usage.
----
-
 # Replay Viewer Window
 
 The Replay Viewer window allows a user with the Administrator role to watch a recorded activity

@@ -1,9 +1,3 @@
----
-title: databases oracle sensitivedata oracle sensitivedata
-sidebar_label: oracle sensitivedata
-description: Solution guide for databases oracle sensitivedata oracle sensitivedata including implementation steps, configuration, and best practices.
----
-
 # Oracle_SensitiveData Job
 
 The Oracle_SensitveData Job is designed to provide information on all sensitive data that was

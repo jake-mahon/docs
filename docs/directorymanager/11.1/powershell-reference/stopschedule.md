@@ -1,9 +1,3 @@
----
-title: stopschedule Cmdlet
-sidebar_label: stopschedule
-description: PowerShell cmdlet reference for stopschedule with parameter details, syntax examples, and usage instructions for Directory Manager.
----
-
 # Stop-Schedule
 
 The commandlet Stop-Schedule stops a specified schedule if it is already running.

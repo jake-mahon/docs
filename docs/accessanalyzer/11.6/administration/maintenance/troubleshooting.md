@@ -1,9 +1,3 @@
----
-title: troubleshooting Administration
-sidebar_label: troubleshooting
-description: Administration guide for troubleshooting including configuration, management, and best practices for Access Analyzer.
----
-
 # Troubleshooting
 
 There are some general things to know when getting started troubleshooting Enterprise Auditor:

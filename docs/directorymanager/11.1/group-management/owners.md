@@ -1,9 +1,3 @@
----
-title: owners
-sidebar_label: owners
-description: Directory Manager 11.1 documentation for owners with configuration details, usage instructions, and implementation guidance.
----
-
 # Owners page
 
 You can manage the primary and additional owners for the group. Additional owners have the same

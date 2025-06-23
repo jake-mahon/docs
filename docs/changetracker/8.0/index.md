@@ -1,9 +1,3 @@
----
-title: Netwrix Change Tracker 8.0 Documentation
-sidebar_label: Change Tracker 8.0
-description: Real-time monitoring and auditing for Windows file servers, Active Directory, and SQL Server databases with security alerts and compliance reporting.
----
-
 # Netwrix Change Tracker 8.0
 
 > **Real-time monitoring for critical IT infrastructure changes**

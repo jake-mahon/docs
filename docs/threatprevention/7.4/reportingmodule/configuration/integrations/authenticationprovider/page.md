@@ -1,9 +1,3 @@
----
-title: Authentication Provider Page
-sidebar_label: Authentication Provider Page
-description: The Authentication Provider page provides configuration settings for third-party authentication providers using RADIUS, OpenID, and SAML integrations.
----
-
 # Authentication Provider Page
 
 The Authentication Provider page provides configuration settings for third-party authentication

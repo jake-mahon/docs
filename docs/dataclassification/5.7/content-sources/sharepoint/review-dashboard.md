@@ -1,9 +1,3 @@
----
-title: Reviewing SharePoint Dashboard
-sidebar_label: Review Dashboard
-description: The SharePoint dashboard is similar to the main reporting dashboard, with the results filtered to SharePoint types. See Operations and Health Dashboards for...
----
-
 # Reviewing SharePoint Dashboard
 
 The SharePoint dashboard is similar to the main reporting dashboard, with the results filtered to

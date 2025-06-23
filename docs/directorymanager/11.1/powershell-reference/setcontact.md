@@ -1,9 +1,3 @@
----
-title: Set contact Cmdlet
-sidebar_label: setcontact
-description: PowerShell cmdlet reference for setcontact with parameter details, syntax examples, and usage instructions for Directory Manager.
----
-
 # Set-Contact
 
 The Set-User cmdlet modifies a user in the directory. Most user properties can be directly modified

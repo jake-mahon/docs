@@ -1,9 +1,3 @@
----
-title: User Account Management
-sidebar_label: Account Management
-description: Configure user-specific account information with considerations for Masterkey mode integration and Active Directory data synchronization.
----
-
 # Account
 
 ## What is an account?

@@ -1,9 +1,3 @@
----
-title: databases mysql recommended
-sidebar_label: recommended
-description: Solution guide for databases mysql recommended including implementation steps, configuration, and best practices.
----
-
 # Recommended Configurations for the MySQL Solution
 
 The MySQL Solution has been configured to inherit down from the MySQL > Settings node. However, it

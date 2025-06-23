@@ -1,9 +1,3 @@
----
-title: Predefining Rights Configuration
-sidebar_label: Predefining Rights
-description: Configure automated permission processes to simplify rights management and reduce error rates using predefined rights system in Password Secure.
----
-
 # Predefining rights
 
 ## What are predefined rights?

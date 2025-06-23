@@ -1,9 +1,3 @@
----
-title: Qumulo Activity Auditing Configuration
-sidebar_label: Qumulo
-description: Configure activity monitoring for Qumulo devices including account provisioning with Observers role and audit event format verification for optimal monitoring.
----
-
 # Qumulo Activity Auditing Configuration
 
 The Netwrix Activity Monitor can be configured to monitor activity on Qumulo devices. To prepare

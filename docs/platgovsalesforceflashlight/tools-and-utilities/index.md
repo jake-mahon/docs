@@ -1,9 +1,3 @@
----
-title: Using Flashlight Tools Overview
-sidebar_label: Tools Overview
-description: Overview of key Flashlight tools including DRD, scanners, finder, export objects, and automated report cleanup accessible from the Tools tab.
----
-
 # Using Flashlight Overview
 
 There are links to access **Key Tools** on the Flashlight **Home** page.

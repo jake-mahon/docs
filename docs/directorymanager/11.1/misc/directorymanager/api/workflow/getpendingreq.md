@@ -1,9 +1,3 @@
----
-title: workflow getpendingreq API
-sidebar_label: getpendingreq
-description: API reference for getpendingreq operations in Directory Manager with request parameters, response examples, and implementation details.
----
-
 # Get Pending Requests
 
 Use this API to retrieve information about all those requests with pending status provided you have

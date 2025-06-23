@@ -1,9 +1,3 @@
----
-title: Recent Events Tab
-sidebar_label: Recent Events Tab
-description: The Recent Events tab provides information on the events that have been recently monitored or blocked by the selected policy. See the
----
-
 # Recent Events Tab
 
 The Recent Events tab provides information on the events that have been recently monitored or

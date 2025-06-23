@@ -1,9 +1,3 @@
----
-title: Manual Agent Deployment
-sidebar_label: Manual Agent Deployment
-description: The Threat PreventionAgent must be installed to the appropriate systems for monitoring. See the Agent Information
----
-
 # Manual Agent Deployment
 
 The Threat PreventionAgent must be installed to the appropriate systems for monitoring. See the

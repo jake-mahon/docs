@@ -1,9 +1,3 @@
----
-title: Database Maintenance Overview
-sidebar_label: Database Maintenance
-description: Automated database maintenance configuration for managing event data retention, archiving, and performance optimization in Threat Prevention.
----
-
 # Database Maintenance Window
 
 The database maintenance function grooms the NVMonitorData database to optimize performance. It

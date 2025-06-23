@@ -1,9 +1,3 @@
----
-title: workingwithgroups
-sidebar_label: workingwithgroups
-description: Directory Manager 11.1 documentation for workingwithgroups with configuration details, usage instructions, and implementation guidance.
----
-
 # Working with Groups
 
 A Directory Manager portal enables you to manage your directory groups in the identity store, so you

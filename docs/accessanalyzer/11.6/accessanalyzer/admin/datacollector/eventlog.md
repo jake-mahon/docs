@@ -1,9 +1,3 @@
----
-title: Event Log Data Collector
-sidebar_label: Event Log
-description: Event Log Data Collector for retrieving Windows event log entries using Event Log API with comprehensive filtering and configuration options.
----
-
 # EventLog Data Collector
 
 The EventLog Data Collector provides search and extraction of details from event logs on target

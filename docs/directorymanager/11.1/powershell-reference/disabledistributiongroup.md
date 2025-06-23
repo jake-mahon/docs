@@ -1,9 +1,3 @@
----
-title: disabledistributiongroup Cmdlet
-sidebar_label: disabledistributiongroup
-description: PowerShell cmdlet reference for disabledistributiongroup with parameter details, syntax examples, and usage instructions for Directory Manager.
----
-
 # Disable-DistributionGroup
 
 Use this commandlet to disable the mailing capabilities for a distribution group in Directory.

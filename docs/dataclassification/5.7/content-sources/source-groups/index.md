@@ -1,9 +1,3 @@
----
-title: Source Groups
-sidebar_label: Source Groups
-description: Source groups provide a way of logically grouping specific sources, perhaps by type, or perhaps by an internal business specification. Selecting the option A...
----
-
 # Source Groups
 
 Source groups provide a way of logically grouping specific sources, perhaps by type, or perhaps by

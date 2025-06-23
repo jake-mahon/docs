@@ -1,9 +1,3 @@
----
-title: INI File Properties Configuration
-sidebar_label: Properties
-description: Properties configuration for INI File data collector including file attributes, sections, and key-value pair collection settings.
----
-
 # INIFile: Properties
 
 The Properties page identifies data about the INI file for auditing.

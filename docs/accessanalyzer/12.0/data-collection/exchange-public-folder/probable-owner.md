@@ -1,9 +1,3 @@
----
-title: probable owner
-sidebar_label: probable owner
-description: Documentation for probable owner functionality in Access Analyzer including configuration and usage information.
----
-
 # ExchangePublicFolder: Probable Owner
 
 The Probable Owner Settings page provides configuration options to determine an owner. It is enabled

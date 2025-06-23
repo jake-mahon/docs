@@ -1,9 +1,3 @@
----
-title: user-management service accounts
-sidebar_label: service-accounts
-description: Auditor 10.6 administration guide for user-management service accounts configuration and management.
----
-
 # Use Group Managed Service Account (gMSA)
 
 Auditor supports using Group Managed Service Accounts (gMSA) for data collection and storage. This

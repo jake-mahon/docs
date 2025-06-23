@@ -1,9 +1,3 @@
----
-title: Getting Started: overview
-sidebar_label: overview
-description: Getting started guide for overview in Access Analyzer including setup instructions and initial configuration steps.
----
-
 # File System Proxy as a Service Overview
 
 The File System Solution can be enabled to use proxy servers for scanning targeted file systems in

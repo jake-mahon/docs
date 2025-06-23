@@ -1,9 +1,3 @@
----
-title: dropbox collection 2 dropbox permissions bulk import
-sidebar_label: 2 dropbox permissions bulk import
-description: Solution guide for dropbox collection 2 dropbox permissions bulk import including implementation steps, configuration, and best practices.
----
-
 # 2-Dropbox_Permissions Bulk Import Job
 
 The 2-Dropbox_Permissions Bulk Import job imports the data collected by the 1-Dropbox \_Permissions

@@ -1,9 +1,3 @@
----
-title: service accounts
-sidebar_label: service-accounts
-description: Auditor 10.7 documentation for service accounts with configuration details, usage instructions, and implementation guidance.
----
-
 # Use Group Managed Service Account (gMSA)
 
 Auditor supports using Group Managed Service Accounts (gMSA) for data collection and storage. This

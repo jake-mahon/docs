@@ -1,9 +1,3 @@
----
-title: Policy Configuration and Application
-sidebar_label: Policies
-description: Content Aware Policies with rules for sensitive content detection that enforce file transfer restrictions and data protection measures.
----
-
 # Policy Configuration and Application
 
 Content Aware Policies are sets of rules for sensitive content detection that enforce ﬁle transfers

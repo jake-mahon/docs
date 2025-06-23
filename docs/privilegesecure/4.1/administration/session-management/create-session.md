@@ -1,9 +1,3 @@
----
-title: Create My Activity Session
-sidebar_label: create session
-description: Administrative configuration and management features for Privilege Secure PAM solution including user management, policies, and security settings.
----
-
 # Create My Activity Session
 
 Follow the steps to create an activity session.

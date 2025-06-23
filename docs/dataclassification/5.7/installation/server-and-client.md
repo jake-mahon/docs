@@ -1,9 +1,3 @@
----
-title: NDC Server
-sidebar_label: Server And Client
-description: Netwrix Data Classification Server can be deployed on a physical server or on a virtual machine in the virtualized environment on VMware or Microsoft Hyper-V...
----
-
 # NDC Server
 
 Netwrix Data Classification **Server** can be deployed on a physical server or on a virtual machine

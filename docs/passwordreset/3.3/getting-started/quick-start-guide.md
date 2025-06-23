@@ -1,9 +1,3 @@
----
-title: Password Reset Quick Start Guide
-sidebar_label: Quick Start
-description: Complete quick start guide for Password Reset including conclusion, advanced configuration options, and next steps for full implementation.
----
-
 # Conclusion
 
 Congratulations! You have successfully installed, configured, and used Netwrix Password Reset. This

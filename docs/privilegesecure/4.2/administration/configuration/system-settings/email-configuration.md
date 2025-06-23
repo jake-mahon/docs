@@ -1,9 +1,3 @@
----
-title: Email Configuration Page
-sidebar_label: email configuration
-description: Administrative configuration and management features for Privilege Secure PAM solution including user management, policies, and security settings.
----
-
 # Email Configuration Page
 
 The Email Configuration page is accessible from the Navigation pane under Configuration > System

@@ -1,9 +1,3 @@
----
-title: create
-sidebar_label: create
-description: Directory Manager 11.1 documentation for create with configuration details, usage instructions, and implementation guidance.
----
-
 # Microsoft Entra ID Identity Store
 
 Once you have registered Directory Manager and created a user with required directory role in

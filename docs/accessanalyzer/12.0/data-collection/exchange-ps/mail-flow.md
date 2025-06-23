@@ -1,9 +1,3 @@
----
-title: mail flow
-sidebar_label: mail flow
-description: Documentation for mail flow functionality in Access Analyzer including configuration and usage information.
----
-
 # ExchangePS: Mail Flow
 
 The Mail Flow page returns permissions information for the public folder environment. It is a wizard

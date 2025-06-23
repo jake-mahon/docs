@@ -1,9 +1,3 @@
----
-title: System Alerting Window
-sidebar_label: System Alerting Window
-description: The System Alerting window is only available to administrators and enables them to configure and manage all alerting avenues. Click Configuration > Alerts on...
----
-
 # System Alerting Window
 
 The System Alerting window is only available to administrators and enables them to configure and

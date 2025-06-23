@@ -1,9 +1,3 @@
----
-title: Entitlements Tab for Access Certification
-sidebar_label: entitlements tab
-description: Administrative configuration and management features for Privilege Secure PAM solution including user management, policies, and security settings.
----
-
 # Entitlements Tab for Access Certification
 
 The Entitlements tab shows the activities associated with the users in the selected access

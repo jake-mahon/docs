@@ -1,9 +1,3 @@
----
-title: search filter
-sidebar_label: search filter
-description: Documentation for search filter functionality in Access Analyzer including configuration and usage information.
----
-
 # EWSPublicFolder: Search Filter
 
 The Search filter settings page applies a filter used to search mailboxes in the environment. It is

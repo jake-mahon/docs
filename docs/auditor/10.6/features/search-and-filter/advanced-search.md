@@ -1,9 +1,3 @@
----
-title: Advanced Search Filters
-sidebar_label: Advanced Search
-description: Use advanced search filters and complex query modes in Netwrix Auditor for detailed audit data analysis and investigation.
----
-
 # Use Filters in Advanced Mode
 
 Netwrix Auditor provides an advanced set of filters and match type operators that enable you to

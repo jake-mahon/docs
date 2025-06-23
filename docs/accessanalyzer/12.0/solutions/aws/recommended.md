@@ -1,9 +1,3 @@
----
-title: aws recommended
-sidebar_label: recommended
-description: Solution guide for aws recommended including implementation steps, configuration, and best practices.
----
-
 # Recommended Configuration for the AWS Solution
 
 The AWS Solution is configured to inherit settings from the global Settings node. The Connection

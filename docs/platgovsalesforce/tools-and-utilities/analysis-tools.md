@@ -1,9 +1,3 @@
----
-title: Access Review Assistant and Analysis
-sidebar_label: Analysis Tools
-description: Analyze permissions and profiles comprehensively with object, user, and profile searches for security review and access management analysis.
----
-
 # Access Review Assistant
 
 The Access Review Assistant creates a comprehensive display of permissions and profiles for a

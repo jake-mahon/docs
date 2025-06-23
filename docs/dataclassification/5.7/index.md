@@ -1,9 +1,3 @@
----
-title: Netwrix Data Classification 5.7
-sidebar_label: Overview
-description: Identify and protect sensitive data across your organization with automated discovery, content-based classification, and compliance support.
----
-
 # Netwrix Data Classification 5.7
 
 > **Identify and protect sensitive data across your entire organization**

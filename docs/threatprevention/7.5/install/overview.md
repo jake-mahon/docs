@@ -1,9 +1,3 @@
----
-title: Installation Overview
-sidebar_label: Installation
-description: Complete installation guide for Threat Prevention 7.5 components including Enterprise Manager, Administration Console, agents, and reporting module setup.
----
-
 # Installation
 
 Threat Prevention consists of a number of components that work together to monitor activity in

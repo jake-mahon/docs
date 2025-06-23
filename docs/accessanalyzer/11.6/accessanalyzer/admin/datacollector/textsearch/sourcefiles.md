@@ -1,9 +1,3 @@
----
-title: Text Search Source Files Configuration
-sidebar_label: Source Files
-description: Source files configuration for Text Search data collector including file types and directory selection for content analysis.
----
-
 # TextSearch: Source Files
 
 The Source Files page provides options to specify which files to search.

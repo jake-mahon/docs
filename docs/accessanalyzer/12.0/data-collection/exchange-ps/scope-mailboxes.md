@@ -1,9 +1,3 @@
----
-title: scope mailboxes
-sidebar_label: scope mailboxes
-description: Documentation for scope mailboxes functionality in Access Analyzer including configuration and usage information.
----
-
 # ExchangePS: Scope by Mailboxes
 
 The Scope by Mailboxes page is used to define specific mailboxes to search. This page is enabled

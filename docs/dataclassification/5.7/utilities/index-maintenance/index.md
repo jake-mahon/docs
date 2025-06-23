@@ -1,9 +1,3 @@
----
-title: Index Maintenance
-sidebar_label: Index Maintenance
-description: This feature is only available for ‘Superusers’. You may need to reprocess content or even clean the environment on a large scale — for example, after a larg...
----
-
 # Index Maintenance
 
 This feature is only available for ‘Superusers’.

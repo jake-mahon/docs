@@ -1,9 +1,3 @@
----
-title: Customizing Password Policy Enforcer HTML Templates
-sidebar_label: Customizing Templates
-description: Guide to editing HTML templates for Password Policy Enforcer Web interface including user interface files, resource strings, and error messages.
----
-
 # Editing HTML Templates
 
 Password Policy Enforcer/Web's user interface is built with customizable templates. You can easily

@@ -1,9 +1,3 @@
----
-title: Getting Started: solutions requirements
-sidebar_label: solutions requirements
-description: Getting started guide for solutions requirements in Access Analyzer including setup instructions and initial configuration steps.
----
-
 # Active Directory Solution
 
 The core components for Netwrix Enterprise Auditor are the Enterprise Auditor Console server, SQL

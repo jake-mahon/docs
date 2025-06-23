@@ -1,9 +1,3 @@
----
-title: Active Directory Agent Deployment
-sidebar_label: AD Deployment
-description: Deploy Active Directory agents to domain controllers including read-only DCs with batch deployment options and monitoring configuration.
----
-
 # Active Directory Agent Deployment
 
 Before deploying the Active Directory (AD) agent, ensure all

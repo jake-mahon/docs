@@ -1,9 +1,3 @@
----
-title: Getting Started: database azure sql
-sidebar_label: database azure sql
-description: Getting started guide for database azure sql in Access Analyzer including setup instructions and initial configuration steps.
----
-
 # AzureSQL Target Least Privilege Model
 
 To access the AzureSQL database, users require the Control permission for the target database. Users

@@ -1,9 +1,3 @@
----
-title: overview Administration
-sidebar_label: overview
-description: Administration guide for overview including configuration, management, and best practices for Access Analyzer.
----
-
 # Sensitive Data
 
 The Sensitive Data node provides configuration options to manage sensitive data criteria and false

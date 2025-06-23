@@ -1,9 +1,3 @@
----
-title: Mobile Apps Overview
-sidebar_label: Mobile Overview
-description: Password Secure Mobile App features convenient interface for mobile password management introduced in version 8.10 as client complement.
----
-
 # Mobile devices
 
 ## The new Netwrix Password Secure Mobile App – mobile and simple!

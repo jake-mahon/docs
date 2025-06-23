@@ -1,9 +1,3 @@
----
-title: active directory permissions analyzer overview
-sidebar_label: overview
-description: Solution guide for active directory permissions analyzer overview including implementation steps, configuration, and best practices.
----
-
 # Active Directory Permissions Analyzer Solution
 
 The Access Analyzer Active Directory Permissions Analyzer Solution enables organizations to easily

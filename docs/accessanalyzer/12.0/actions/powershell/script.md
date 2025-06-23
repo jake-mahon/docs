@@ -1,9 +1,3 @@
----
-title: script
-sidebar_label: script
-description: Documentation for script functionality in Access Analyzer including configuration and usage information.
----
-
 # PowerShell Action: Script
 
 The Script page enables you to input the PowerShell script that will be used to perform the

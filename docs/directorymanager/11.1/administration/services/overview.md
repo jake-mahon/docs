@@ -1,9 +1,3 @@
----
-title: overview
-sidebar_label: overview
-description: Directory Manager 11.1 documentation for overview with configuration details, usage instructions, and implementation guidance.
----
-
 # Manage Circular Reference
 
 By default, Directory Manager checks for circular reference and does not allow it when users update

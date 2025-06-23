@@ -1,9 +1,3 @@
----
-title: Remove Identity Store Cmdlet
-sidebar_label: Remove-IdentityStore
-description: PowerShell cmdlet to remove identity stores from Directory Manager with syntax and parameter details.
----
-
 # Remove-IdentityStore
 
 The commandlet Remove-IdentityStore removes an identity store from Directory Manager.

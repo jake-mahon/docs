@@ -1,9 +1,3 @@
----
-title: Get client Cmdlet
-sidebar_label: getclient
-description: PowerShell cmdlet reference for getclient with parameter details, syntax examples, and usage instructions for Directory Manager.
----
-
 # Get-Client
 
 The commandlet Get-Client gets information about the Directory Manager clients such as Admin center,

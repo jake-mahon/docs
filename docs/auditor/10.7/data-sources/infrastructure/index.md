@@ -1,9 +1,3 @@
----
-title: index
-sidebar_label: index
-description: Auditor 10.7 documentation for index with configuration details, usage instructions, and implementation guidance.
----
-
 # AD FS
 
 Netwrix Auditor relies on native logs for collecting audit data. Therefore, successful change and

@@ -1,9 +1,3 @@
----
-title: PostgreSQL Database Installation Setup
-sidebar_label: Database Setup
-description: Step-by-step guide to install and configure PostgreSQL database for Threat Manager including installation steps and postgres.conf optimization.
----
-
 # Install the PostgreSQL Database Application
 
 The PostgreSQL database application can be installed on the same server as the application or a

@@ -1,9 +1,3 @@
----
-title: Agent Storage and Archiving Configuration
-sidebar_label: Storage Archiving
-description: Configure archiving options for Activity Monitor agents including log file retention, archive locations, and network storage settings.
----
-
 # Archiving Tab
 
 By default, the Activity Monitor keeps the activity logs on the servers where the activity agents

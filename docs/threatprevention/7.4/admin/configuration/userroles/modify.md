@@ -1,9 +1,3 @@
----
-title: Modify User Access
-sidebar_label: Modify User Access
-description: Follow the steps to modify a user’s assigned rights. !Users and Roles window - If the user is an administrator, you can deselect the Administrator checkbox a...
----
-
 # Modify User Access
 
 Follow the steps to modify a user’s assigned rights.

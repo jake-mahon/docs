@@ -1,9 +1,3 @@
----
-title: overview
-sidebar_label: overview
-description: Documentation for overview functionality in Access Analyzer including configuration and usage information.
----
-
 # FileSystemAccess Data Collector
 
 The FileSystemAccess (FSAA) Data Collector collects permissions, content, and activity, and

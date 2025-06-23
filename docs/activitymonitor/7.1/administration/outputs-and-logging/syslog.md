@@ -1,9 +1,3 @@
----
-title: Syslog Integration Configuration
-sidebar_label: Syslog
-description: Configure SIEM integration settings for sending activity events to syslog servers or Netwrix Threat Manager through the Syslog output.
----
-
 # Syslog Tab
 
 The Syslog tab on an output Properties window is where the SIEM integration settings can be

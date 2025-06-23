@@ -1,9 +1,3 @@
----
-title: Internet Explorer Favorites Management Tutorial
-sidebar_label: Favorites
-description: Learn to manage Internet Explorer favorites using Endpoint Policy Manager for centralized bookmark deployment and organization across your network.
----
-
 # Managing Favorites in IE
 
 Netwrix Endpoint Policy Manager (formerly PolicyPak): Managing Favorites in IE

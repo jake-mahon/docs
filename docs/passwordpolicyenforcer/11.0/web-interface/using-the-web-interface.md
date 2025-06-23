@@ -1,9 +1,3 @@
----
-title: Using Password Policy Enforcer Web Interface
-sidebar_label: Using Web Interface
-description: Guide to using Password Policy Enforcer Web interface for password changes including navigation and user procedures.
----
-
 # Launch Password Policy Enforcer Web
 
 The default URL for Password Policy Enforcer Web is: `http://[server]/ppeweb/`

@@ -1,9 +1,3 @@
----
-title: access
-sidebar_label: access
-description: Documentation for access functionality in Access Analyzer including configuration and usage information.
----
-
 # Windows File Server Access & Sensitive Data Auditing Configuration
 
 Permissions required for Access Analyzer to execute Access Auditing (SPAA) and/or Sensitive Data

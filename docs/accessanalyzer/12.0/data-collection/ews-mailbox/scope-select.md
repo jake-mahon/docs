@@ -1,9 +1,3 @@
----
-title: scope select
-sidebar_label: scope select
-description: Documentation for scope select functionality in Access Analyzer including configuration and usage information.
----
-
 # EWSMailbox: Scope Select
 
 The Scope select page is used to select specific mailboxes to scan. It is a wizard page for all

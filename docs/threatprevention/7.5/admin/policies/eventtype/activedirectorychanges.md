@@ -1,9 +1,3 @@
----
-title: Active Directory Changes Event Type
-sidebar_label: Active Directory Changes Event
-description: The Active Directory Changes event type can be configured to generate an event when an Active Directory object or attribute is changed (add, delete, modify, ...
----
-
 # Active Directory Changes Event Type
 
 The Active Directory Changes event type can be configured to generate an event when an Active

@@ -1,9 +1,3 @@
----
-title: Add Access Certification Task
-sidebar_label: certification tasks
-description: Documentation for Privilege Secure privileged access management solution covering features, configuration, and usage procedures.
----
-
 # Add Access Certification Task
 
 Only user(s) and group(s) with the Admin Role can create access certification tasks. Follow the

@@ -1,9 +1,3 @@
----
-title: PowerShell API Integration
-sidebar_label: API Overview
-description: PowerShell API documentation for Threat Prevention 7.5 including policy management, collection manipulation, and remote Enterprise Manager configuration.
----
-
 # PowerShell API Integration
 
 Using PowerShell, you can obtain information on or manipulate specific policy, collection, and

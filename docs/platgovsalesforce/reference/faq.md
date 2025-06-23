@@ -1,9 +1,3 @@
----
-title: Frequently Asked Questions
-sidebar_label: FAQ
-description: Common questions about Platform Governance for Salesforce including SOC1 reports, installation, data privacy, licensing, and implementation requirements.
----
-
 # FAQ
 
 Platform Governance for Salesforce is a stress-free change management and compliance software for

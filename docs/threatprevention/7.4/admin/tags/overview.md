@@ -1,9 +1,3 @@
----
-title: Tags Node
-sidebar_label: Tags Node
-description: Tags can be added to templates as an organizational tool. Tags are displaed as folders under the TAGS node. Several preconfigured templates include tags, whi...
----
-
 # Tags Node
 
 Tags can be added to templates as an organizational tool. Tags are displaed as folders under the

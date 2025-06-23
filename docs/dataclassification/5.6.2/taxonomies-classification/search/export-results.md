@@ -1,9 +1,3 @@
----
-title: Export Search Results
-sidebar_label: Export Results
-description: Search / Browse results can be exported quickly and easily by selecting the either of the export options below the search results: !browsetabexportmodes If...
----
-
 # Export Search Results
 
 Search / Browse results can be exported quickly and easily by selecting the either of the export

@@ -1,9 +1,3 @@
----
-title: Language Stemming
-sidebar_label: Language Settings
-description: Language stemming is a morphological process that converts words to their root form so that most inflected forms are considered equal. For example, an Englis...
----
-
 # Language Stemming
 
 Language stemming is a morphological process that converts words to their root form so that most

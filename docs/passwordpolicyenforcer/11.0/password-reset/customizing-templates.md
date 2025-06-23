@@ -1,9 +1,3 @@
----
-title: Customizing Password Reset HTML Templates
-sidebar_label: Customizing Templates
-description: Guide to editing HTML templates for Password Reset user interface including template customization and branding modifications.
----
-
 # Editing the HTML Templates
 
 Password Reset's user interface is built with customizable templates. You can easily modify the user

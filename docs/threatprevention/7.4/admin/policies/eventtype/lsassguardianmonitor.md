@@ -1,9 +1,3 @@
----
-title: LSASS Guardian – Monitor Event Type
-sidebar_label: LSASS Guardian – Monitor
-description: Based on policy rules, the LSASS Guardian – Monitor event type generates an event when a process not in the ‘white list’ attempts to access the LSASS process...
----
-
 # LSASS Guardian – Monitor Event Type
 
 Based on policy rules, the LSASS Guardian – Monitor event type generates an event when a process not

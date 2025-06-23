@@ -1,9 +1,3 @@
----
-title: exchange hubmetrics collection ex metricsdetails
-sidebar_label: ex metricsdetails
-description: Solution guide for exchange hubmetrics collection ex metricsdetails including implementation steps, configuration, and best practices.
----
-
 # EX_MetricsDetails Job
 
 The EX_MetricsDetails Job collects daily user-to-user Traffic. Walk through this jobs query to

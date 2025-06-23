@@ -1,9 +1,3 @@
----
-title: permissions
-sidebar_label: permissions
-description: Directory Manager 11.1 documentation for permissions with configuration details, usage instructions, and implementation guidance.
----
-
 # Security Role – Permissions
 
 You can allow or deny permissions to a security role on different Directory Manager functions.

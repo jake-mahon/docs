@@ -1,9 +1,3 @@
----
-title: Alerts Interface
-sidebar_label: Alerts Interface
-description: The Alerts interface allows you to quickly view recent Security events, Operations events, and Configuration events for Threat Prevention - all of which are ...
----
-
 # Alerts Interface
 
 The Alerts interface allows you to quickly view recent Security events, Operations events, and

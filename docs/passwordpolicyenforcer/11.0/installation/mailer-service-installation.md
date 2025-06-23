@@ -1,9 +1,3 @@
----
-title: Password Policy Enforcer Mailer Service Installation
-sidebar_label: Mailer Service Installation
-description: Installation guide for Password Policy Enforcer Mailer Service for sending email reminders to users before password expiration.
----
-
 # Install Mailer Service
 
 Netwrix Password Policy Enforcer sends email reminders to domain users before their passwords

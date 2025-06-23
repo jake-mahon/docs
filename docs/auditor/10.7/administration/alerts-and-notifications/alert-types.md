@@ -1,9 +1,3 @@
----
-title: alert types
-sidebar_label: alert-types
-description: Auditor 10.7 documentation for alert types with configuration details, usage instructions, and implementation guidance.
----
-
 # Create Alerts for Event Log
 
 Alerts are configurable notifications triggered by certain events and sent to the specified

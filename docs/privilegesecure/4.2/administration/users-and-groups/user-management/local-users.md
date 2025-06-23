@@ -1,9 +1,3 @@
----
-title: Add Local User
-sidebar_label: local users
-description: Administrative configuration and management features for Privilege Secure PAM solution including user management, policies, and security settings.
----
-
 # Add Local User
 
 Privilege Secure allows for the provisioning of local users. Local users exist locally in the

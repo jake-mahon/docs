@@ -1,9 +1,3 @@
----
-title: Getting Started: box
-sidebar_label: box
-description: Getting started guide for box in Access Analyzer including setup instructions and initial configuration steps.
----
-
 # Target Box Requirements, Permissions, and Ports
 
 The Access Analyzer for Box scans:

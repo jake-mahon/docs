@@ -1,9 +1,3 @@
----
-title: Log Files Page
-sidebar_label: log files
-description: Administrative configuration and management features for Privilege Secure PAM solution including user management, policies, and security settings.
----
-
 # Log Files Page
 
 The Logs page shows the log files. From here, search and investigate the records.

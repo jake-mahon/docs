@@ -1,9 +1,3 @@
----
-title: data collection accounts
-sidebar_label: data-collection-accounts
-description: Auditor 10.7 documentation for data collection accounts with configuration details, usage instructions, and implementation guidance.
----
-
 # Data Collecting Account
 
 This is a service account that Auditor uses to collect audit data from the monitored items, such as

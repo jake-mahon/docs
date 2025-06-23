@@ -1,9 +1,3 @@
----
-title: Release Note Notifications
-sidebar_label: Release Notes
-description: Manage release note notification subscriptions through HubSpot, troubleshoot delivery issues, and resubscribe to receive Flashlight updates.
----
-
 # Release Note Notifications
 
 ## Notifications

@@ -1,9 +1,3 @@
----
-title: Data Grid Functionality
-sidebar_label: Data Grid Functionality
-description: Result data is displayed using data grids on several interfaces in the Administration Console. These grids employ features for data sorting, filtering, searc...
----
-
 # Data Grid Functionality
 
 Result data is displayed using data grids on several interfaces in the Administration Console. These

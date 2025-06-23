@@ -1,9 +1,3 @@
----
-title: Database Maintenance Requirements
-sidebar_label: Database Maintenance
-description: Database maintenance requirements including storage capacity planning, backup considerations, and performance optimization guidelines.
----
-
 # Database Maintenance Feature Requirements
 
 All operations to configure database maintenance on the

@@ -1,9 +1,3 @@
----
-title: Azure SQL Activity Scan Collection
-sidebar_label: Activity Scan
-description: Azure SQL activity scan collection job for monitoring and analyzing database access patterns and user activity.
----
-
 # 3-AzureSQL_ActivityScan Job
 
 The 3–AzureSQL_ActivityScan job captures user activity from all targeted Azure SQL instances and

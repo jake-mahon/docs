@@ -1,9 +1,3 @@
----
-title: Exchange Mailbox
-sidebar_label: Exchange Server
-description: For the Exchange Mailbox source, you can configure the list of folders/emails to exclude from processing. Do the following: 1. In the management console, cli...
----
-
 # Exchange Mailbox
 
 For the Exchange Mailbox source, you can configure the list of folders/emails to exclude from

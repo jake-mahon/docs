@@ -1,9 +1,3 @@
----
-title: datasource getdstypeid API
-sidebar_label: getdstypeid
-description: API reference for getdstypeid operations in Directory Manager with request parameters, response examples, and implementation details.
----
-
 # Get a Data Source by Type and with ID
 
 Using this API, you can retrieve information of a data source by its type and ID. For example, an

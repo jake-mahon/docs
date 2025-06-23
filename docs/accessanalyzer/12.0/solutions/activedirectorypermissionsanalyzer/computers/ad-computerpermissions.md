@@ -1,9 +1,3 @@
----
-title: activedirectorypermissionsanalyzer computers ad computerpermissions
-sidebar_label: ad computerpermissions
-description: Solution guide for activedirectorypermissionsanalyzer computers ad computerpermissions including implementation steps, configuration, and best practices.
----
-
 # AD_ComputerPermissions Job
 
 The AD_ComputerPermissions job reports on all Active Directory permissions and ownership applied to

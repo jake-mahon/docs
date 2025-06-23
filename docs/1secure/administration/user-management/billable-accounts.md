@@ -1,9 +1,3 @@
----
-title: Billable Accounts Overview
-sidebar_label: Billable Accounts
-description: Understanding billable account calculations for Active Directory and Microsoft Entra ID users, including deduplication and reporting features.
----
-
 # Billable Accounts
 
 Netwrix 1Secure provides an information on the billable accounts – the enabled Active

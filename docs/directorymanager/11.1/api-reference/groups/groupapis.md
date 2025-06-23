@@ -1,9 +1,3 @@
----
-title: groupapis
-sidebar_label: groupapis
-description: Directory Manager 11.1 documentation for groupapis with configuration details, usage instructions, and implementation guidance.
----
-
 # Group APIs
 
 Directory Manager provides the following APIs for performing group-specific functions:

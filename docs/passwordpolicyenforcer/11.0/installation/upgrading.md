@@ -1,9 +1,3 @@
----
-title: Password Policy Enforcer Upgrade Guide
-sidebar_label: Upgrading
-description: Upgrade guide for Password Policy Enforcer from version 9.0 and above including support procedures and compatibility information.
----
-
 # Upgrading Password Policy Enforcer
 
 Upgrades are supported for versions 9.0 and above. Contact Customer Support at

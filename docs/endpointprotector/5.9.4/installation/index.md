@@ -1,9 +1,3 @@
----
-title: Installation and Deployment Guide
-sidebar_label: Installation
-description: Comprehensive deployment guidance for Endpoint Protector across physical, virtual, cloud environments and integration with management systems.
----
-
 # Deployments
 
 This documentation provides comprehensive guidance on deploying Endpoint Protector across various

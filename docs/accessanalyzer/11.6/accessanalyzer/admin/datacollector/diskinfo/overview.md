@@ -1,9 +1,3 @@
----
-title: DiskInfo Data Collector Overview
-sidebar_label: Overview
-description: The DiskInfo Data Collector provides enumeration of disks and their properties using RPC and WMI protocols for system administrators.
----
-
 # DiskInfo Data Collector
 
 The DiskInfo Data Collector provides enumeration of disks and their associated properties. When

@@ -1,9 +1,3 @@
----
-title: Password Security Category Configuration
-sidebar_label: Category
-description: Password Security Data Collector category page with analysis options for password strength and security policy compliance.
----
-
 # PasswordSecurity: Category
 
 This Category page in the Password Security Data Collection Wizard identifies the kind of password

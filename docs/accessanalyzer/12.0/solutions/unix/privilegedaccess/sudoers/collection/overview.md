@@ -1,9 +1,3 @@
----
-title: unix privilegedaccess sudoers collection overview
-sidebar_label: overview
-description: Solution guide for unix privilegedaccess sudoers collection overview including implementation steps, configuration, and best practices.
----
-
 # 0.Collection Job Group
 
 The 0.Collection job group collects details on all rights granted via sudoers within audited Unix

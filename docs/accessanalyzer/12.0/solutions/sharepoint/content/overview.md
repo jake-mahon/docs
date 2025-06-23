@@ -1,9 +1,3 @@
----
-title: sharepoint content overview
-sidebar_label: overview
-description: Solution guide for sharepoint content overview including implementation steps, configuration, and best practices.
----
-
 # 4.Content Job Group
 
 This group provides insight into content stored across SharePoint farms in order to help more

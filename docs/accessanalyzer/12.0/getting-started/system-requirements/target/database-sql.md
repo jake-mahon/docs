@@ -1,9 +1,3 @@
----
-title: Getting Started: database sql
-sidebar_label: database sql
-description: Getting started guide for database sql in Access Analyzer including setup instructions and initial configuration steps.
----
-
 # Target SQL Server Requirements, Permissions, and Ports
 
 The Access Analyzer for Databases Solution provides the ability to audit and monitor SQL Server

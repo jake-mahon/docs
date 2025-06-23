@@ -1,9 +1,3 @@
----
-title: interactive grids
-sidebar_label: interactive grids
-description: Documentation for interactive grids functionality in Access Analyzer reporting including configuration options and usage guidelines.
----
-
 # Copying Cells
 
 Copying an individual cell within a generated report enables easier searching for information using

@@ -1,9 +1,3 @@
----
-title: Add Subscription
-sidebar_label: Add Subscription
-description: A subscription sends the report results for an investigation to recipients via email as an attachment.
----
-
 # Add Subscription
 
 A subscription sends the report results for an investigation to recipients via email as an

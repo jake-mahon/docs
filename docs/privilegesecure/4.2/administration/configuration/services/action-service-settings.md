@@ -1,9 +1,3 @@
----
-title: Action Service Settings Page
-sidebar_label: action service settings
-description: Administrative configuration and management features for Privilege Secure PAM solution including user management, policies, and security settings.
----
-
 # Action Service Settings Page
 
 The Action Service Settings page is accessible from the Navigation pane under Configuration > System

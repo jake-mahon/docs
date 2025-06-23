@@ -1,9 +1,3 @@
----
-title: supported devices
-sidebar_label: supported-devices
-description: Auditor 10.7 documentation for supported devices with configuration details, usage instructions, and implementation guidance.
----
-
 # Configure Cisco ASA Devices
 
 Netwrix Auditor relies on native logs for collecting audit data. Therefore, successful change and

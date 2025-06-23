@@ -1,9 +1,3 @@
----
-title: Admin Center Dashboard Overview
-sidebar_label: Dashboard
-description: Data visualization dashboard with performance analytics, alerts, and reporting widgets for Directory Manager and identity stores management.
----
-
 # Dashboard
 
 The Admin Center dashboard is a data visualization tool that displays widgets for performance

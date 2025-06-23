@@ -1,9 +1,3 @@
----
-title: export
-sidebar_label: export
-description: Documentation for export functionality in Access Analyzer including configuration and usage information.
----
-
 # Export Data
 
 Use the **Export Data** option to export all information available in the current grid view for the

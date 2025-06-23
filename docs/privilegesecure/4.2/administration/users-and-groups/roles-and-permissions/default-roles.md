@@ -1,9 +1,3 @@
----
-title: Default Role Details Page
-sidebar_label: default roles
-description: Administrative configuration and management features for Privilege Secure PAM solution including user management, policies, and security settings.
----
-
 # Default Role Details Page
 
 The Role Management page is accessible from the Navigation pane under Users & Group. It provides

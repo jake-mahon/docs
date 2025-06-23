@@ -1,9 +1,3 @@
----
-title: security overview
-sidebar_label: security-overview
-description: Directory Manager 11.1 documentation for security overview with configuration details, usage instructions, and implementation guidance.
----
-
 # Security Service Logs
 
 This API fetches Directory Manager Security service logs. See the

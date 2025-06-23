@@ -1,9 +1,3 @@
----
-title: File Activity Monitor App for QRadar
-sidebar_label: QRadar
-description: Integrate Activity Monitor with IBM QRadar featuring predefined dashboards for file activity, ransomware detection, and user investigation capabilities.
----
-
 # File Activity Monitor App for QRadar
 
 Stealthbits File Activity Monitor App for QRadar (File Activity Monitor tab) contains several

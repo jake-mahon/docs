@@ -1,9 +1,3 @@
----
-title: exchange recommended
-sidebar_label: recommended
-description: Solution guide for exchange recommended including implementation steps, configuration, and best practices.
----
-
 # Recommended Configurations for the Exchange Solution
 
 Each job group within the Exchange Solution has its own Recommended Configurations topic. See the

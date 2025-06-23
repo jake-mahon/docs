@@ -1,9 +1,3 @@
----
-title: Settings
-sidebar_label: Settings
-description: You must save the QRadar SEC token to the Settings interface of the Active Directory App for QRadar. Click the gear icon next to the Search box to open the S...
----
-
 # Settings
 
 You must save the QRadar SEC token to the Settings interface of the Active Directory App for QRadar.

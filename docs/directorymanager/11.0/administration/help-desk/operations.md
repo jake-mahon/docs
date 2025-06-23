@@ -1,9 +1,3 @@
----
-title: operations
-sidebar_label: operations
-description: Directory Manager 11.0 documentation for operations with configuration details, usage instructions, and implementation guidance.
----
-
 # Notify Users to Enroll
 
 You can send email notifications to unenrolled users, directing them to enroll their identity store

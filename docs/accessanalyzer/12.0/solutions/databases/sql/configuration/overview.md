@@ -1,9 +1,3 @@
----
-title: databases sql configuration overview
-sidebar_label: overview
-description: Solution guide for databases sql configuration overview including implementation steps, configuration, and best practices.
----
-
 # 4.Configuration Job Group
 
 The 4.Configuration Job Group provides information on potential vulnerabilities related to SQL and

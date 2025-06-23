@@ -1,9 +1,3 @@
----
-title: Password Security Options Configuration
-sidebar_label: Options
-description: Options configuration for Password Security data collector including analysis parameters and security policy settings.
----
-
 # PasswordSecurity: Options
 
 The Options page provides format options for returned data.

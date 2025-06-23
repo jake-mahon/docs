@@ -1,9 +1,3 @@
----
-title: PowerShell Cmdlet Parameters Reference
-sidebar_label: Parameters
-description: Comprehensive reference guide for PowerShell cmdlet parameters used in Directory Manager with detailed descriptions and usage examples.
----
-
 # Parameters
 
 This topic discusses the following:

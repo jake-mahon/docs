@@ -1,9 +1,3 @@
----
-title: reinstateuser Cmdlet
-sidebar_label: reinstateuser
-description: PowerShell cmdlet reference for reinstateuser with parameter details, syntax examples, and usage instructions for Directory Manager.
----
-
 # Reinstate-User
 
 Use the Reinstate-User command to activate or disable a user. Users can be disabled for any of the

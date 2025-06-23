@@ -1,9 +1,3 @@
----
-title: Apply Additional Classification
-sidebar_label: Classification
-description: You can instruct the program to apply one or more additional classifications to the processed document. This workflow action is called Manual Classification...
----
-
 # Apply Additional Classification
 
 You can instruct the program to apply one or more additional classifications to the processed

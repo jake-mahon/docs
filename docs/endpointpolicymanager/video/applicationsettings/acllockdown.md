@@ -1,9 +1,3 @@
----
-title: ACL Lockdown Registry Applications
-sidebar_label: ACL Lockdown
-description: Learn how ACL Lockdown prevents users from modifying application settings by taking ownership of registry portions, providing steady-state application control.
----
-
 # ACL Lockdown for Registry Based Applications
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/bSuxXH10vSA" title="Endpoint Policy Manager: ACL Lockdown for Registry Based Applications" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen="1"></iframe>

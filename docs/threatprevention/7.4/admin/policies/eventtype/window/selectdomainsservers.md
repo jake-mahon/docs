@@ -1,9 +1,3 @@
----
-title: Select Domains and Servers Window
-sidebar_label: Select Domains Servers Window
-description: The Select Domains And Servers window provides a list of available domains and servers to either include or exclude. Objects in the Included Domains And Serv...
----
-
 # Select Domains and Servers Window
 
 The Select Domains And Servers window provides a list of available domains and servers to either

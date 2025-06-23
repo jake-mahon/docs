@@ -1,9 +1,3 @@
----
-title: Object Restore for Active Directory
-sidebar_label: Object Restore
-description: Restore deleted and modified Active Directory objects with Netwrix Auditor Object Restore tool without rebooting domain controllers.
----
-
 # Object Restore for Active Directory
 
 With Netwrix Auditor you can quickly restore deleted and modified objects using the Netwrix Auditor

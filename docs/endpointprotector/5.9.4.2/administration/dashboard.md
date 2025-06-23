@@ -1,9 +1,3 @@
----
-title: Server Dashboard and Functionality
-sidebar_label: Dashboard
-description: Complete guide to Endpoint Protector server dashboard functionality including configuration wizard, system status, and update management.
----
-
 # Server Functionality
 
 Once the Endpoint Protector Hardware or Virtual Appliance setup is complete, access the User

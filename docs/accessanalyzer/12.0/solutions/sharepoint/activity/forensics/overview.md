@@ -1,9 +1,3 @@
----
-title: sharepoint activity forensics overview
-sidebar_label: overview
-description: Solution guide for sharepoint activity forensics overview including implementation steps, configuration, and best practices.
----
-
 # Forensics Job Group
 
 This group will highlight deletions, group membership changes, permission changes, and activity

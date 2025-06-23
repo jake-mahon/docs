@@ -1,9 +1,3 @@
----
-title: Browser Router IE Special Policy Types
-sidebar_label: Special Types
-description: Configure special Browser Router policies for Internet Explorer including All Intranet to IE and All Enterprise from Edge to IE policy routing.
----
-
 # Using Special Policy Types for Internet Explorer
 
 There are two special policies that may be used only once per collection (see Figure 37 for

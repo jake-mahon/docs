@@ -1,9 +1,3 @@
----
-title: active directory activity recommended
-sidebar_label: recommended
-description: Solution guide for active directory activity recommended including implementation steps, configuration, and best practices.
----
-
 # Recommended Configurations for the 6.Activity Job Group
 
 The **Active Directory** > **6.Activity** Job Group has been configured by default to run with the

@@ -1,9 +1,3 @@
----
-title: passwordexpirygroups
-sidebar_label: passwordexpirygroups
-description: Directory Manager 11.1 documentation for passwordexpirygroups with configuration details, usage instructions, and implementation guidance.
----
-
 # Password Expiry Groups
 
 A password expiry group is a Smart Group whose membership contains users whose identity store

@@ -1,9 +1,3 @@
----
-title: Group Policy Options Configuration
-sidebar_label: Options
-description: Configuration options for Group Policy data collector including scope, filtering, and collection preferences for GPO analysis.
----
-
 # GroupPolicy: Options
 
 The Options page is used to configure how to return multi-valued properties and how policy results

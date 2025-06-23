@@ -1,9 +1,3 @@
----
-title: rename
-sidebar_label: rename
-description: Documentation for rename functionality in Access Analyzer including configuration and usage information.
----
-
 # Rename List
 
 Use the Rename List option to change the name of a selected host list. This option is available only

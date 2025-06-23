@@ -1,9 +1,3 @@
----
-title: Splunk and SIEM Queries
-sidebar_label: splunk queries
-description: Documentation for Privilege Secure privileged access management solution covering features, configuration, and usage procedures.
----
-
 # Splunk and SIEM Queries
 
 Splunk and SIEM Queries

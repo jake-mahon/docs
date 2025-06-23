@@ -1,9 +1,3 @@
----
-title: box activity forensics box externalusercollaborations
-sidebar_label: box externalusercollaborations
-description: Solution guide for box activity forensics box externalusercollaborations including implementation steps, configuration, and best practices.
----
-
 # Box_ExternalUserCollaborations Job
 
 The Box_ExternalUserCollaborations Job External Users are collaborators from outside your

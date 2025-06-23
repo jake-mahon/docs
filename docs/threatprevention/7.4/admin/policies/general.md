@@ -1,9 +1,3 @@
----
-title: General Tab
-sidebar_label: General Tab
-description: The General tab is for editing the basic attributes of the policy. !Policy - General tab Policy Status
----
-
 # General Tab
 
 The General tab is for editing the basic attributes of the policy.

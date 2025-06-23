@@ -1,9 +1,3 @@
----
-title: databases oracle permissions oracle objectpermissions
-sidebar_label: oracle objectpermissions
-description: Solution guide for databases oracle permissions oracle objectpermissions including implementation steps, configuration, and best practices.
----
-
 # Oracle_ObjectPermissions Job
 
 The Oracle_ObjectPermissions Job provides insight into user and role permissions to database objects

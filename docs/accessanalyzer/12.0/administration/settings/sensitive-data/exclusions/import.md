@@ -1,9 +1,3 @@
----
-title: import Administration
-sidebar_label: import
-description: Administration guide for import including configuration, management, and best practices for Access Analyzer.
----
-
 # Importing False Positive Exclusion Filters
 
 Create an import (TXT) file containing a list of file paths for the files to be excluded from

@@ -1,9 +1,3 @@
----
-title: Portal synchronize collection create
-sidebar_label: create
-description: Directory Manager portal documentation for synchronize collection functionality including user interface, navigation, and operational procedures.
----
-
 # Create a Job Collection
 
 A job collection is a group of individual jobs that you want to run in a particular order. For

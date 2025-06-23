@@ -1,9 +1,3 @@
----
-title: Exchange Databases Collection Overview
-sidebar_label: Overview
-description: Overview of Exchange database collection jobs including public folder information and database property gathering.
----
-
 # 0.Collection Job Group
 
 The 0.Collection Job Group is comprised of data collection, analysis, and reports that focus on

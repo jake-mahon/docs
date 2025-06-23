@@ -245,11 +245,3 @@ This series of steps is actually a very simplified version of the
 [Evaluate Policy](/docs/identitymanager/6.2/access-governance/role-management/role-assignment.md) algorithm.
 
 ![Cascading From Dimensions To Roles To Provisioning Orders](/img/product_docs/identitymanager/identitymanager/integration-guide/role-model/role-model-rules/enforce-assignment-policy-summary.webp)
-
----
-
-## Evaluate Policy
-
-This chapter gives the basis of the assignments vocabulary. The next chapter enlightens the reader
-about the inner details of the Evaluate Policy algorithm. See the
-[Evaluate Policy](/docs/identitymanager/6.2/access-governance/role-management/role-assignment.md) topic for additional information.

@@ -1,9 +1,3 @@
----
-title: DNS Category Configuration
-sidebar_label: Category
-description: DNS Data Collector category page with query categories subdivided by auditing focus for DNS record analysis.
----
-
 # DNS: Category
 
 The DNS Data Collector Category page contains the following query categories, sub-divided by

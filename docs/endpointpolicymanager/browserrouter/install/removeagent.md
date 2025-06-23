@@ -1,9 +1,3 @@
----
-title: Browser Router Remove Agent Handler
-sidebar_label: Remove Agent
-description: Remove the Browser Router Agent from Windows 10 Default Apps web browser handlers when no longer using Browser Router policies in your environment.
----
-
 # How to remove the Endpoint Policy Manager Browser Router Agent from the list of available Web Browser handlers under Default Apps in Windows 10
 
 If you decide not to use Netwrix Endpoint Policy Manager (formerly PolicyPak) Browser Router in your

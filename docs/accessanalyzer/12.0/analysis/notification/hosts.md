@@ -1,9 +1,3 @@
----
-title: hosts
-sidebar_label: hosts
-description: Documentation for hosts functionality in Access Analyzer including configuration and usage information.
----
-
 # Notification: Hosts
 
 Use the Select Hosts page to scope hosts and to select specific hosts to target.

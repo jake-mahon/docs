@@ -1,9 +1,3 @@
----
-title: windows securityutilities sg_powershellcommands
-sidebar_label: sg_powershellcommands
-description: Solution guide for windows securityutilities sg_powershellcommands including implementation steps, configuration, and best practices.
----
-
 # SG_PowerShellCommands Job
 
 The SG_PowerShellCommands job lists suspicious PowerShell commands on all targeted hosts. The list

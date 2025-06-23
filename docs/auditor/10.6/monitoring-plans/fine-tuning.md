@@ -1,9 +1,3 @@
----
-title: fine tuning
-sidebar_label: fine-tuning
-description: Auditor 10.6 documentation for fine tuning with configuration details, usage instructions, and implementation guidance.
----
-
 # Activity Summary Email
 
 Activity Summary email is generated automatically by Netwrix Auditor and lists all changes /

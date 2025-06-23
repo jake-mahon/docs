@@ -1,9 +1,3 @@
----
-title: options
-sidebar_label: options
-description: Documentation for options functionality in Access Analyzer including configuration and usage information.
----
-
 # ExchangePublicFolder: Options
 
 The Options page provides additional configuration options for the query. It is a wizard page for

@@ -1,9 +1,3 @@
----
-title: Text Search Data Collector Overview
-sidebar_label: Overview
-description: Overview of the Text Search Data Collector for searching and analyzing text content within files and documents.
----
-
 # TextSearch Data Collector
 
 The TextSearch Data Collector enables searches through text based log files. The TextSearch Data

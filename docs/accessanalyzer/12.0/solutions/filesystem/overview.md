@@ -1,9 +1,3 @@
----
-title: filesystem overview
-sidebar_label: overview
-description: Solution guide for filesystem overview including implementation steps, configuration, and best practices.
----
-
 # File System Solution
 
 The File Systems Solution is an auditing, compliance, and governance solution for Windows, NAS,

@@ -1,9 +1,3 @@
----
-title: AppSet Entry Item-Level Targeting
-sidebar_label: AppSet Entry Targeting
-description: Configure Item-Level Targeting for AppSet entries to apply settings based on specific conditions like OS version, user groups, or Terminal Services.
----
-
 # Item-Level Targeting for an AppSet Entry
 
 **NOTE:** For a demonstration of Item-Level Targeting, please see this video:

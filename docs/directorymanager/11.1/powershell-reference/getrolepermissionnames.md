@@ -1,9 +1,3 @@
----
-title: Get Role Permission Names Cmdlet
-sidebar_label: Get-RolePermissionNames
-description: PowerShell cmdlet to view permission names that can be assigned to or revoked from security roles in identity stores.
----
-
 # Get-RolePermissionNames
 
 The commandlet Get-RolePermissionNames helps user to see the names of the permissions that can be

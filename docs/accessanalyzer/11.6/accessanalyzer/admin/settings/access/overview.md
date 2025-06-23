@@ -1,9 +1,3 @@
----
-title: overview
-sidebar_label: overview
-description: Documentation for overview functionality in Access Analyzer including configuration and usage information.
----
-
 # Access
 
 Configure what applications, users, and groups have access to Enterprise Auditor using the Access

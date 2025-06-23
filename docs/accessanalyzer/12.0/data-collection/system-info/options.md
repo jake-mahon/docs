@@ -1,9 +1,3 @@
----
-title: options
-sidebar_label: options
-description: Documentation for options functionality in Access Analyzer including configuration and usage information.
----
-
 # SystemInfo: Options
 
 The Options page contains options for the Files Shares category. It is a wizard page for the

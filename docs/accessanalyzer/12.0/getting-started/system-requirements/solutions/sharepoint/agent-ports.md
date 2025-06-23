@@ -1,9 +1,3 @@
----
-title: Getting Started: agent ports
-sidebar_label: agent ports
-description: Getting started guide for agent ports in Access Analyzer including setup instructions and initial configuration steps.
----
-
 # SharePoint Agent Ports
 
 The following are the firewall settings are required when executing the Access Auditing (FSAA)

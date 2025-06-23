@@ -1,9 +1,3 @@
----
-title: About Threat Manager Page
-sidebar_label: Threat Manager Page
-description: The About Threat Manager page in the System Settings interface provides information about the application version and third-party licenses.
----
-
 # About Threat Manager Page
 
 The About Threat Manager page in the System Settings interface provides information about the

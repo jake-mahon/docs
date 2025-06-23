@@ -1,9 +1,3 @@
----
-title: Policy Interface
-sidebar_label: Overview
-description: Administrative configuration and management features for Privilege Secure PAM solution including user management, policies, and security settings.
----
-
 # Policy Interface
 
 The Policy interface provides users with options for creating access policies, investigating

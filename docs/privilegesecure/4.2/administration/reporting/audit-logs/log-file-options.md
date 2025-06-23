@@ -1,9 +1,3 @@
----
-title: Log File Options Pages
-sidebar_label: log file options
-description: Administrative configuration and management features for Privilege Secure PAM solution including user management, policies, and security settings.
----
-
 # Log File Options Pages
 
 The log level can be customized for each service. The left of the page lists the configurable

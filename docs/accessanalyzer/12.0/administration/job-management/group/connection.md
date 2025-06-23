@@ -1,9 +1,3 @@
----
-title: connection Administration
-sidebar_label: connection
-description: Administration guide for connection including configuration, management, and best practices for Access Analyzer.
----
-
 # Connection Node
 
 At the job group level, the **Connection** node identifies the Connection Profile assigned for the

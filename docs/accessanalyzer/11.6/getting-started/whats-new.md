@@ -1,9 +1,3 @@
----
-title: Getting Started: whats new
-sidebar_label: whats new
-description: Getting started guide for whats new in Access Analyzer including setup instructions and initial configuration steps.
----
-
 # What's New
 
 ## New Netwrix Community!

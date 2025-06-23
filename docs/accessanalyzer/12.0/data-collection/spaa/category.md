@@ -1,9 +1,3 @@
----
-title: category
-sidebar_label: category
-description: Documentation for category functionality in Access Analyzer including configuration and usage information.
----
-
 # SPAA: Category
 
 The SPAA Data Collector Category page contains the following query categories, sub-divided by

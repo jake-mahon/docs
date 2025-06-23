@@ -1,9 +1,3 @@
----
-title: unix usersgroups ux_localgroups
-sidebar_label: ux_localgroups
-description: Solution guide for unix usersgroups ux_localgroups including implementation steps, configuration, and best practices.
----
-
 # UX_LocalGroups Job
 
 The UX_LocalGroups job provides an overview of all local groups within the audited Unix and Linux

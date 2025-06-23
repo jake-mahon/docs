@@ -1,9 +1,3 @@
----
-title: System Configuration Settings for Data Classification
-sidebar_label: System
-description: Configure system health, operation, logging, database maintenance, and configuration export settings for Netwrix Data Classification.
----
-
 # System
 
 This configuration tab contains the settings related to system health, operation and logging. Each

@@ -1,9 +1,3 @@
----
-title: configure job
-sidebar_label: configure job
-description: Documentation for configure job functionality in Access Analyzer including configuration and usage information.
----
-
 # Exchange Custom Connection Profile & Host List
 
 The ExchangePS Data Collector requires a custom Connection Profile and host list to be created and

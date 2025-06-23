@@ -1,9 +1,3 @@
----
-title: groupjoinleave
-sidebar_label: groupjoinleave
-description: Directory Manager 11.1 documentation for groupjoinleave with configuration details, usage instructions, and implementation guidance.
----
-
 # Join/Leave a Group
 
 Directory Manager provides you the facility to join/leave a group temporarily or permanently for a

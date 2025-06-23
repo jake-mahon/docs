@@ -1,9 +1,3 @@
----
-title: Postman: Authenticate using an API key
-sidebar_label: postman authenticate
-description: Documentation for Privilege Secure privileged access management solution covering features, configuration, and usage procedures.
----
-
 # Postman: Authenticate using an API key
 
 Postman: Authenticate using an API key

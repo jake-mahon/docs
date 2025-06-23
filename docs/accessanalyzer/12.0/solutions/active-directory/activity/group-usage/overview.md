@@ -1,9 +1,3 @@
----
-title: active directory activity group usage overview
-sidebar_label: overview
-description: Solution guide for active directory activity group usage overview including implementation steps, configuration, and best practices.
----
-
 # Group Usage Job Group
 
 The Group Usage Job Group reports shows how group membership changes have affected access across the

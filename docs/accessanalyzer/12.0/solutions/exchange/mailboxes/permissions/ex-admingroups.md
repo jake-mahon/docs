@@ -1,9 +1,3 @@
----
-title: exchange mailboxes permissions ex admingroups
-sidebar_label: ex admingroups
-description: Solution guide for exchange mailboxes permissions ex admingroups including implementation steps, configuration, and best practices.
----
-
 # EX_AdminGroups Job
 
 The EX_AdminGroups job provides visibility into the direct and effective membership of Exchange

@@ -1,9 +1,3 @@
----
-title: netapp
-sidebar_label: netapp
-description: Auditor 10.6 documentation for netapp with configuration details, usage instructions, and implementation guidance.
----
-
 # Configure Audit Settings for CIFS File Shares
 
 Netwrix Auditor can be configured to audit all access types, review the table below and select

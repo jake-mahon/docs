@@ -1,9 +1,3 @@
----
-title: monitoring scope
-sidebar_label: monitoring-scope
-description: Auditor 10.6 documentation for monitoring scope with configuration details, usage instructions, and implementation guidance.
----
-
 # Active Directory Monitoring Scope
 
 You can fine-tune Netwrix Auditor by specifying data that you want to exclude from the Active

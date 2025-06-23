@@ -1,9 +1,3 @@
----
-title: Search and Filter Features
-sidebar_label: Search and Filters
-description: Use search bar and recent searches functionality to quickly locate resources and filter data within Access Information Center interface.
----
-
 # Search Features
 
 The Search features consist of the search bar and the Recent Searches box on the home page.

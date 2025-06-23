@@ -1,9 +1,3 @@
----
-title: System Reports Overview
-sidebar_label: System Reports
-description: Automatically generated system reports including billable users information and insights into your environment.
----
-
 # System Reports
 
 A System report named Billable Users is automatically generated and provides insights into your

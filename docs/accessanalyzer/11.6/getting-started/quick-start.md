@@ -1,9 +1,3 @@
----
-title: Quick Start Guide
-sidebar_label: Quick Start
-description: Step-by-step workflow to quickly configure Enterprise Auditor and begin auditing your organization's IT infrastructure after installation.
----
-
 # Getting Started
 
 Once Enterprise Auditor is installed, the following workflow will quickly enable users to begin

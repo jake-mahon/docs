@@ -1,9 +1,3 @@
----
-title: databases oracle permissions oracle domainuserpermissions
-sidebar_label: oracle domainuserpermissions
-description: Solution guide for databases oracle permissions oracle domainuserpermissions including implementation steps, configuration, and best practices.
----
-
 # Oracle_DomainUserPermissions Job
 
 The Oracle_DomainUserPermissions Job provides insight into Microsoft Active Directory domain user

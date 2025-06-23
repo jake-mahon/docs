@@ -1,9 +1,3 @@
----
-title: analysis customizable parameters Administration
-sidebar_label: analysis customizable parameters
-description: Administration guide for analysis customizable parameters including configuration, management, and best practices for Access Analyzer.
----
-
 # Configure the Customizable Parameters in an Analysis Task
 
 The parameters that can be customized and are listed in a section at the bottom of the SQL Script

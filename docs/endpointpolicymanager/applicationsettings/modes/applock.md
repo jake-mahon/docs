@@ -1,9 +1,3 @@
----
-title: AppLock User Interface Lockdown
-sidebar_label: AppLock
-description: Lock down application user interfaces with AppLock modes to hide, disable, or force display of controls and tabs in desktop applications.
----
-
 # AppLock™ Modes
 
 Endpoint Policy Manager Application Settings Manager AppLock™ is a patent-pending technology that

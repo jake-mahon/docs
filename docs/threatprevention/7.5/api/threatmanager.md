@@ -1,9 +1,3 @@
----
-title: Threat Manager API
-sidebar_label: Threat Manager
-description: Threat Manager integration API for reporting module connectivity, data synchronization, and configuration management.
----
-
 # Netwrix Threat Manager APIs
 
 The following APIs are related to where Threat Prevention sends the event data to, and how to

@@ -1,9 +1,3 @@
----
-title: NIS Category Configuration
-sidebar_label: Category
-description: NIS Data Collector category page with query options for analyzing Network Information Service data and configurations.
----
-
 # NIS: Category
 
 The Category page is used to identify which type of NIS information to retrieve.

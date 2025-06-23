@@ -1,9 +1,3 @@
----
-title: Threat Manager Application Installation
-sidebar_label: Application Setup
-description: Step-by-step installation guide for Threat Manager application including database connection, service configuration, and setup completion.
----
-
 # Install the Threat Manager Application
 
 The application can be installed on the same server as the PostgreSQL databases or a different

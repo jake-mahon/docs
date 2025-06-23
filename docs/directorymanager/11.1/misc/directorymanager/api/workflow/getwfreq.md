@@ -1,9 +1,3 @@
----
-title: workflow getwfreq API
-sidebar_label: getwfreq
-description: API reference for getwfreq operations in Directory Manager with request parameters, response examples, and implementation details.
----
-
 # Get Workflow Requests
 
 Using this API you can retrieve information about a workflow request ID(s) of which are specified in

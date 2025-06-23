@@ -1,9 +1,3 @@
----
-title: audit database
-sidebar_label: audit-database
-description: Auditor 10.7 documentation for audit database with configuration details, usage instructions, and implementation guidance.
----
-
 # Audit Database
 
 If you want to generate reports and run interactive search queries, you should configure Auditor to

@@ -1,9 +1,3 @@
----
-title: standard tables
-sidebar_label: standard tables
-description: Documentation for standard tables functionality in Access Analyzer including configuration and usage information.
----
-
 # Standard Reference Tables & Views for the FSAA Data Collector
 
 The FSAA Data Collector gathers essential File System information into standard reference tables.

@@ -1,9 +1,3 @@
----
-title: sharepoint activity usagestatistics sp inactivesites
-sidebar_label: sp inactivesites
-description: Solution guide for sharepoint activity usagestatistics sp inactivesites including implementation steps, configuration, and best practices.
----
-
 # SP_InactiveSites Job
 
 This job highlights your environments least active Sites or Site Collections.

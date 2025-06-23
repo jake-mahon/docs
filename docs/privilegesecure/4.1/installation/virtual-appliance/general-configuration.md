@@ -1,9 +1,3 @@
----
-title: Configuration
-sidebar_label: general configuration
-description: Installation procedures, system requirements, and deployment configuration for Privilege Secure components and services.
----
-
 # Configuration
 
 Follow the steps below to configure your virtual appliance with Netwrix Privilege Secure.

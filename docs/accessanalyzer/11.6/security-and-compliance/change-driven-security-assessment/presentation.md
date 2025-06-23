@@ -1,9 +1,3 @@
----
-title: presentation
-sidebar_label: presentation
-description: Documentation for presentation functionality in Access Analyzer including configuration and usage information.
----
-
 # Presentation Dependencies
 
 In the following subsections, each slide is aligned to the jobs that supply its data. The slide

@@ -1,9 +1,3 @@
----
-title: active directory cleanup groups overview
-sidebar_label: overview
-description: Solution guide for active directory cleanup groups overview including implementation steps, configuration, and best practices.
----
-
 # 1.Groups Job Group
 
 The 1.Groups Job Group provides a workflow to safely deprovision groups, as well as the ability to

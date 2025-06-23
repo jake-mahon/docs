@@ -1,9 +1,3 @@
----
-title: Advanced Actions for SharePoint
-sidebar_label: Sharepoint
-description: In addition to the Email Alert, Migrate Document and additional classification, the following actions are available for the SharePoint content source type: -...
----
-
 # Advanced Actions for SharePoint
 
 In addition to the **Email Alert**, **Migrate Document** and additional classification, the

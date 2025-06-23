@@ -1,9 +1,3 @@
----
-title: Microsoft Entra ID Platform Policy Configuration
-sidebar_label: entra id
-description: Administrative configuration and management features for Privilege Secure PAM solution including user management, policies, and security settings.
----
-
 # Microsoft Entra ID Platform Policy Configuration
 
 The Microsoft Entra ID (formerly Azure AD) menu displays the configuration options for Microsoft

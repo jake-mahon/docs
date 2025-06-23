@@ -1,9 +1,3 @@
----
-title: Password Policy Enforcer 11.0 Overview
-sidebar_label: Overview
-description: Advanced password security and policy enforcement for modern enterprises with hybrid cloud support and AI-powered password analysis capabilities.
----
-
 # Password Policy Enforcer 11.0
 
 > Advanced password security and policy enforcement for modern enterprises

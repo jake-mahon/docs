@@ -1,9 +1,3 @@
----
-title: Log Into the Privilege Secure Console
-sidebar_label: login
-description: End user documentation covering session management, access procedures, dashboard functionality, and browser extension usage.
----
-
 # Log Into the Privilege Secure Console
 
 Once installation is complete, Privilege Secure is accessible locally on the default port:

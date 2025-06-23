@@ -1,9 +1,3 @@
----
-title: Device Control Management
-sidebar_label: Device Control
-description: Complete device control management for USB devices, permissions, client settings, and security policies within Endpoint Protector.
----
-
 # Device Control
 
 From this section, you can manage all entities in the system, their subsequent rights, and settings.

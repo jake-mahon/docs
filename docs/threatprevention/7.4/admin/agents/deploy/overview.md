@@ -1,9 +1,3 @@
----
-title: Agent Deployment Overview
-sidebar_label: Deployment
-description: Step-by-step agent deployment process including prerequisites, computer selection, and configuration options for Threat Prevention monitoring.
----
-
 # Deploy Agents
 
 The Threat Prevention Agent can be deployed through any of the following methods:

@@ -1,9 +1,3 @@
----
-title: Logon Activity Auditing Overview
-sidebar_label: Logon Activity
-description: Configure logon activity monitoring with proper domain account planning and connector settings for comprehensive authentication tracking.
----
-
 # Logon Activity Auditing
 
 Before you start adding the logon activity connector in your domain, plan for the domain account
@@ -19,17 +13,6 @@ required:
   the Domain Admins group or non-administrative account. See
   [Configure Non-Administrative Account to Collect Logon Activity ](/docs/1secure/setup-and-configuration/logon-activity/non-domain-admin.md)for more
   information;
-
----
-
-id: configure-infrastructure-for-monitoring-logon-activity
-title: "Configure Infrastructure for Monitoring Logon Activity"
-pagination_label: "Configure Infrastructure for Monitoring Logon Activity"
-sidebar_label: "Configure Infrastructure for Monitoring Logon Activity"
-sidebar_position: 120
-description: "Learn how to configure your IT infrastructure for monitoring Logon Activity using automatic or manual methods."
-
----
 
 # Configure Infrastructure for Monitoring Logon Activity
 

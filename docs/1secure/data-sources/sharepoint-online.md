@@ -1,9 +1,3 @@
----
-title: SharePoint Online Data Source Configuration
-sidebar_label: SharePoint Online
-description: Configure SharePoint Online auditing with modern authentication and multi-factor authentication support for Office 365 environments.
----
-
 # SharePoint Online Auditing
 
 Netwrix 1Secure allows you to audit Office 365 organizations that have established modern
@@ -38,17 +32,6 @@ assigned required permissions. This app will allow you to collect activity. See 
 topic for additional information.
 
 ##
-
----
-
-id: add-a-source-and-connectors-for-sharepoint-online
-title: "Add a Source and Connectors for SharePoint Online"
-pagination_label: "Add a Source and Connectors for SharePoint Online"
-sidebar_label: "Add a Source and Connectors for SharePoint Online"
-sidebar_position: 45
-description: "Step-by-step guide to add SharePoint Online data sources and connectors to your organization."
-
----
 
 # Add a Source and Connectors for SharePoint Online
 

@@ -1,9 +1,3 @@
----
-title: AWS KMS Key Rotation
-sidebar_label: aws key rotation
-description: Installation procedures, system requirements, and deployment configuration for Privilege Secure components and services.
----
-
 # AWS KMS Key Rotation
 
 Organizations using AWS Key Management Service (AWS KMS) can configure Netwrix Privilege Secure to

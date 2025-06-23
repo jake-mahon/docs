@@ -1,9 +1,3 @@
----
-title: Windows Authentication Job Configuration
-sidebar_label: Authentication
-description: Recommended configurations for the Windows Authentication job group including dependencies, scheduling, and workflow steps for authentication analysis.
----
-
 # Recommended Configurations for the Authentication Job Group
 
 Dependencies

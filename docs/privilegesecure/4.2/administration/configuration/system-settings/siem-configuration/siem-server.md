@@ -1,9 +1,3 @@
----
-title: SIEM Server Page
-sidebar_label: siem server
-description: Administrative configuration and management features for Privilege Secure PAM solution including user management, policies, and security settings.
----
-
 # SIEM Server Page
 
 The SIEM Server page is accessible from the Navigation pane under Configuration > SIEM. Privilege

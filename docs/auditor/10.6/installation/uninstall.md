@@ -1,9 +1,3 @@
----
-title: Uninstall Netwrix Auditor Guide
-sidebar_label: Uninstall
-description: Step-by-step instructions for uninstalling Netwrix Auditor including compression services removal and cleanup procedures.
----
-
 # Uninstall Netwrix Auditor
 
 This topic provides instructions to uninstall Netwrix Auditor.

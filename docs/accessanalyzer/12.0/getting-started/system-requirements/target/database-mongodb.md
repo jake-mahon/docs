@@ -1,9 +1,3 @@
----
-title: Getting Started: database mongodb
-sidebar_label: database mongodb
-description: Getting started guide for database mongodb in Access Analyzer including setup instructions and initial configuration steps.
----
-
 # Target MongoDB Requirements, Permissions, and Ports
 
 The Access Analyzer for Databases Solution provides the ability to audit and monitor MongoDB

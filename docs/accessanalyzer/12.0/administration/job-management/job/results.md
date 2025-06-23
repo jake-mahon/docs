@@ -1,9 +1,3 @@
----
-title: results Administration
-sidebar_label: results
-description: Administration guide for results including configuration, management, and best practices for Access Analyzer.
----
-
 # Results Node
 
 Once a job has been executed, the query populated native data tables, the analysis and action

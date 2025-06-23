@@ -1,9 +1,3 @@
----
-title: Google Drive Source
-sidebar_label: Google Drive
-description: The Google Drive source configuration screen allows you to enable the crawling and classification of content stored in both G-Suite repositories and Google...
----
-
 # Google Drive Source
 
 The Google Drive source configuration screen allows you to enable the crawling and classification of

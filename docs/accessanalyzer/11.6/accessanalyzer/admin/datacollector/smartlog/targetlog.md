@@ -1,9 +1,3 @@
----
-title: SmartLog Target Log Configuration
-sidebar_label: Target Log
-description: Target log configuration for SmartLog data collector including log file selection and location settings.
----
-
 # SMARTLog: Target Log
 
 The Target Log page is where logs are selected to be collected. There are three versions of this

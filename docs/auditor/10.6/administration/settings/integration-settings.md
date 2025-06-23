@@ -1,9 +1,3 @@
----
-title: settings integration settings
-sidebar_label: integration-settings
-description: Auditor 10.6 administration guide for settings integration settings configuration and management.
----
-
 # Integrations
 
 Netwrix Auditor Integration API—endless integration, auditing and reporting capabilities.

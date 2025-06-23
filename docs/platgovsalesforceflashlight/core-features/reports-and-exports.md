@@ -1,9 +1,3 @@
----
-title: Accessing Reports and Exports
-sidebar_label: Reports
-description: Access predefined Flashlight reports and create custom reports for customizations, clean up, permissions, and complex queries with filtering options.
----
-
 # Accessing Reports
 
 The Flashlight **Reports / List Views** tab has links to all of the predefined reports and log

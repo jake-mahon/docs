@@ -1,9 +1,3 @@
----
-title: Event Types Overview
-sidebar_label: Event Types
-description: Comprehensive guide to policy event types for monitoring and blocking Active Directory, Exchange, file system, and authentication activities.
----
-
 # Event Type Tab
 
 The Event Type tab enables you to define the objects and events that Threat Prevention

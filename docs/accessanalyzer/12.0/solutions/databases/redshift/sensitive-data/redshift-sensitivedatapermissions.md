@@ -1,9 +1,3 @@
----
-title: databases redshift sensitive data redshift sensitivedatapermissions
-sidebar_label: redshift sensitivedatapermissions
-description: Solution guide for databases redshift sensitive data redshift sensitivedatapermissions including implementation steps, configuration, and best practices.
----
-
 # Redshift_SensitiveDataPermissions Job
 
 The Redshift_SensitiveDataPermissions Job is designed to provide information on all types of

@@ -1,9 +1,3 @@
----
-title: Portal synchronize script visualbasicnetbasic
-sidebar_label: visualbasicnetbasic
-description: Directory Manager portal documentation for synchronize script functionality including user interface, navigation, and operational procedures.
----
-
 # Visual Basic .NET for Directory Manager (formerly GroupID)
 
 This topic discusses some points of information relevant to DTM scripting in Directory Manager. See

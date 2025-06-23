@@ -1,9 +1,3 @@
----
-title: Audit & Reporting Interface
-sidebar_label: Overview
-description: Documentation for Privilege Secure privileged access management solution covering features, configuration, and usage procedures.
----
-
 # Audit & Reporting Interface
 
 The Audit and Reporting interface provides auditing and reporting tools to interrogate all logged

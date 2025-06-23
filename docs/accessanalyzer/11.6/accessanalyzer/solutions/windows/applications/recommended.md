@@ -1,9 +1,3 @@
----
-title: windows applications recommended
-sidebar_label: recommended
-description: Solution guide for windows applications recommended including implementation steps, configuration, and best practices.
----
-
 # Recommended Configurations for the Applications Job Group
 
 Dependencies

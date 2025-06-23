@@ -1,9 +1,3 @@
----
-title: sharepoint m365 overview
-sidebar_label: overview
-description: Solution guide for sharepoint m365 overview including implementation steps, configuration, and best practices.
----
-
 # 8.M365 Job Group
 
 The 8.M365 Job Group generates summary and detail reports of SharePoint Activity on the specified

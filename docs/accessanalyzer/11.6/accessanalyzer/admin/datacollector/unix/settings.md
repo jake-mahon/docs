@@ -1,9 +1,3 @@
----
-title: Unix Settings Configuration
-sidebar_label: Settings
-description: Settings configuration for Unix data collector including connection parameters and execution preferences.
----
-
 # Unix: Settings
 
 The Settings page configures the Unix Data Collector settings.

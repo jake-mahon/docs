@@ -1,9 +1,3 @@
----
-title: datasource dstext API
-sidebar_label: dstext
-description: API reference for dstext operations in Directory Manager with request parameters, response examples, and implementation details.
----
-
 # Create a Data Source for a Text/CSV File
 
 Use this API to create a new data source.

@@ -1,9 +1,3 @@
----
-title: Edit or Duplicate an Investigation
-sidebar_label: Edit Duplicate an Investigation
-description: An investigation can be edited and even duplicated. Follow the steps to edit an investigation. interface. Then click a folder in the navigation pane to acces...
----
-
 # Edit or Duplicate an Investigation
 
 An investigation can be edited and even duplicated.

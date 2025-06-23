@@ -1,9 +1,3 @@
----
-title: Licensing Details
-sidebar_label: licensing details
-description: Documentation for Privilege Secure privileged access management solution covering features, configuration, and usage procedures.
----
-
 # Licensing Details
 
 Licensing Details

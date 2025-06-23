@@ -1,9 +1,3 @@
----
-title: regular expression
-sidebar_label: regular expression
-description: Documentation for regular expression functionality in Access Analyzer including configuration and usage information.
----
-
 # Regular Expression (Pattern) Criteria
 
 Regular Expression criteria are a set of pattern matching rules that provide a concise and flexible

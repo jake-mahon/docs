@@ -1,9 +1,3 @@
----
-title: databases azuresql collection 4 azuresql serversettings
-sidebar_label: 4 azuresql serversettings
-description: Solution guide for databases azuresql collection 4 azuresql serversettings including implementation steps, configuration, and best practices.
----
-
 # 4-AzureSQL_ServerSettings Job
 
 The 4–AzureSQL_ServerSettings Job is designed to collect Azure SQL instance and database

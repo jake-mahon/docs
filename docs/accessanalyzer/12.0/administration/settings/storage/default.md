@@ -1,9 +1,3 @@
----
-title: default Administration
-sidebar_label: default
-description: Administration guide for default including configuration, management, and best practices for Access Analyzer.
----
-
 # Set a Default Storage Profile
 
 While multiple Storage Profiles can exist, only one profile can be set as the default. A green

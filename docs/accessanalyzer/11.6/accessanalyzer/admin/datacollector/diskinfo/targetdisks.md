@@ -1,9 +1,3 @@
----
-title: DiskInfo Target Disks Configuration
-sidebar_label: Target Disks
-description: Configuration page for selecting target storage devices and disks for DiskInfo data collection and analysis.
----
-
 # DiskInfo: Target Disks
 
 The Target Disks page provides a selection of storage devices from which to return data from the

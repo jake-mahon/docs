@@ -1,9 +1,3 @@
----
-title: Application Other Languages Installation
-sidebar_label: Other Languages
-description: Installation guide for Enterprise Auditor application in languages other than English including localization settings.
----
-
 # Non-English Language Environments
 
 There are specific SQL Server requirements when installing Enterprise Auditor in a non-English

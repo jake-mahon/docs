@@ -1,9 +1,3 @@
----
-title: event log tools
-sidebar_label: event-log-tools
-description: Auditor 10.7 documentation for event log tools with configuration details, usage instructions, and implementation guidance.
----
-
 # Event Log
 
 You can fine-tune Netwrix Auditor by specifying data that you want to exclude from the Event Log

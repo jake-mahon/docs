@@ -1,9 +1,3 @@
----
-title: Users jordan.violet development docs docs accessanalyzer 12.0 solutions index
-sidebar_label: index
-description: Solution guide for  Users jordan.violet development docs docs accessanalyzer 12.0 solutions index including implementation steps, configuration, and best practices.
----
-
 # Solutions
 
 The predefined job groups and jobs for the various Access Analyzer solutions can be found within the

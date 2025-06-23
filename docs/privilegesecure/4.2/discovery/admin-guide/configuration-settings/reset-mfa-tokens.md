@@ -1,9 +1,3 @@
----
-title: Reset MFA Tokens
-sidebar_label: reset mfa tokens
-description: Documentation for Privilege Secure privileged access management solution covering features, configuration, and usage procedures.
----
-
 # Reset MFA Tokens
 
 Reset MFA Tokens

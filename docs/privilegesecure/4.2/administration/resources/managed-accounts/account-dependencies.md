@@ -1,9 +1,3 @@
----
-title: Account Dependencies Window
-sidebar_label: account dependencies
-description: Administrative configuration and management features for Privilege Secure PAM solution including user management, policies, and security settings.
----
-
 # Account Dependencies Window
 
 The Account Dependencies window shows all of the dependent services and scheduled tasks for the

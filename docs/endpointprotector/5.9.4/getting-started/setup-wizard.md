@@ -1,9 +1,3 @@
----
-title: Initial Setup Wizard Guide
-sidebar_label: Setup Wizard
-description: Step-by-step configuration guide for Endpoint Protector Appliance including network requirements, firewall settings, and initial setup.
----
-
 # Setup Wizard
 
 The Endpoint Protector Appliance requires incoming traffic for ports 443 inbound to be whitelisted

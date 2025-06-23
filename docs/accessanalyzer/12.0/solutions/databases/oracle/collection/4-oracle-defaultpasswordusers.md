@@ -1,9 +1,3 @@
----
-title: databases oracle collection 4 oracle defaultpasswordusers
-sidebar_label: 4 oracle defaultpasswordusers
-description: Solution guide for databases oracle collection 4 oracle defaultpasswordusers including implementation steps, configuration, and best practices.
----
-
 # 4-Oracle_DefaultPasswordUsers Job
 
 The 4-Oracle_DefaultPasswordUsers Job provides a list of users in the database that are configured

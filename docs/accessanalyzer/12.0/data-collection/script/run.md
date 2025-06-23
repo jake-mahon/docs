@@ -1,9 +1,3 @@
----
-title: run
-sidebar_label: run
-description: Documentation for run functionality in Access Analyzer including configuration and usage information.
----
-
 # Run a Stand-Alone Script
 
 Some situations require a script to be used exclusively without defining a data source. The Query

@@ -1,9 +1,3 @@
----
-title: Role Management Page
-sidebar_label: role management
-description: Administrative configuration and management features for Privilege Secure PAM solution including user management, policies, and security settings.
----
-
 # Role Management Page
 
 The Role Management page is accessible from the Navigation pane under Users & Group. It provides

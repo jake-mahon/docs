@@ -1,9 +1,3 @@
----
-title: Log File Output Configuration
-sidebar_label: Log Files
-description: Configure file output for monitored domains to create JSON activity logs and enable event searching within Activity Monitor for comprehensive auditing.
----
-
 # Output for Monitored Domains
 
 Once a domain is being monitored the event stream can be sent to multiple outputs.

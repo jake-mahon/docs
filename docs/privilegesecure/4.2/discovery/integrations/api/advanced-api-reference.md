@@ -1,9 +1,3 @@
----
-title: Advanced API Reference
-sidebar_label: advanced api reference
-description: Documentation for Privilege Secure privileged access management solution covering features, configuration, and usage procedures.
----
-
 # Advanced API Reference
 
 Advanced API Reference

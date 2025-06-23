@@ -1,9 +1,3 @@
----
-title: Audit and Compliance Page
-sidebar_label: Audit Compliance Page
-description: The Audit and Compliance page in the Investigations interface list of saved out-of-the-box investigations with applied filters for commonly used Audit and Co...
----
-
 # Audit and Compliance Page
 
 The Audit and Compliance page in the Investigations interface list of saved out-of-the-box

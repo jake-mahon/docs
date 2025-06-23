@@ -1,9 +1,3 @@
----
-title: overview
-sidebar_label: overview
-description: Documentation for overview functionality in Access Analyzer including configuration and usage information.
----
-
 # File Data Collector
 
 The File Data Collector provides file and folder enumeration, properties, and permissions. It is

@@ -1,9 +1,3 @@
----
-title: Log Level Configuration Window
-sidebar_label: Log Level Configuration Window
-description: The Log Level Configuration window displays the current log levels for the Agents, Enterprise Manager, and Administration Console. It also enables you to set...
----
-
 # Log Level Configuration Window
 
 The Log Level Configuration window displays the current log levels for the Agents, Enterprise

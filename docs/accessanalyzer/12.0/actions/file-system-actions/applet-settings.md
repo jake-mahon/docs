@@ -1,9 +1,3 @@
----
-title: applet settings
-sidebar_label: applet settings
-description: Documentation for applet settings functionality in Access Analyzer including configuration and usage information.
----
-
 # File System Action: Applet Settings
 
 Use the Applet Settings page to specify the machines on which to execute the selected operation.

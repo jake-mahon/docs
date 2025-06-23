@@ -1,9 +1,3 @@
----
-title: summary
-sidebar_label: summary
-description: Documentation for summary functionality in Access Analyzer including configuration and usage information.
----
-
 # NIS: Summary
 
 The Summary page is where configuration settings are summarized. It is a wizard page for both

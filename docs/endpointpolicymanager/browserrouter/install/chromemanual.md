@@ -1,9 +1,3 @@
----
-title: Browser Router Chrome Extension Manual Install
-sidebar_label: Chrome Manual
-description: Manually install and enable the Browser Router Chrome extension using CRX files and registry settings for enterprise deployment without Chrome Web Store.
----
-
 # How-to manually install and enable Endpoint Policy Manager Browser Router (PPBR) extension for Google Chrome?
 
 If you want to install the Netwrix Endpoint Policy Manager (formerly PolicyPak) Browser extension

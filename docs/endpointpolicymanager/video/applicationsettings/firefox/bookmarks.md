@@ -1,9 +1,3 @@
----
-title: Manage Firefox Bookmarks Tutorial
-sidebar_label: Bookmarks
-description: Learn to add or remove Firefox bookmarks to menus and toolbars using Endpoint Policy Manager for centralized bookmark management across your organization.
----
-
 # Manage Firefox Bookmarks
 
 With Netwrix Endpoint Policy Manager (formerly PolicyPak) you can add or remove bookmarks to the

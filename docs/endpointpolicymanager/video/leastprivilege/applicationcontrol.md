@@ -1,9 +1,3 @@
----
-title: Application Control Least Privilege Manager
-sidebar_label: Application Control
-description: Learn to implement secure application control with Least Privilege Manager, blocking malware, controlling executables, scripts, Java, MSIs, and PowerShell access.
----
-
 # Endpoint Policy Manager Application Control with PP Least Privilege Manager
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Hy7Nnd_GeJk" title="Endpoint Policy Manager Application Control with PP Least Privilege Manager" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="1"></iframe>

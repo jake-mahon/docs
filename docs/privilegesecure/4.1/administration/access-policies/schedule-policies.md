@@ -1,9 +1,3 @@
----
-title: Add Schedule Policy
-sidebar_label: schedule policies
-description: Administrative configuration and management features for Privilege Secure PAM solution including user management, policies, and security settings.
----
-
 # Add Schedule Policy
 
 Follow the steps to add a schedule policy to the console.

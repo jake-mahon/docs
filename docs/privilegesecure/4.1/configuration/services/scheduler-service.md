@@ -1,9 +1,3 @@
----
-title: Scheduler Service
-sidebar_label: scheduler service
-description: System configuration settings and advanced options for authentication, integrations, services, and security parameters.
----
-
 # Scheduler Service
 
 On the Scheduler Service page, view information for scheduled services.

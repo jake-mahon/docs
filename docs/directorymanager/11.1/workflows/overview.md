@@ -1,9 +1,3 @@
----
-title: Advanced Workflow Settings Management
-sidebar_label: Overview
-description: Configure workflow default approvers, acceleration settings, and approval scenarios for Directory Manager automated processes and request routing.
----
-
 # Manage Advanced Workflow Settings
 
 You can specify advanced settings for workflow, such as set a default approver for workflow requests

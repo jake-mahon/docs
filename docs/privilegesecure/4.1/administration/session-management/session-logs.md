@@ -1,9 +1,3 @@
----
-title: Session Logs Window
-sidebar_label: session logs
-description: Administrative configuration and management features for Privilege Secure PAM solution including user management, policies, and security settings.
----
-
 # Session Logs Window
 
 The Session Logs window displays the log details for the selected session. Select a session from the

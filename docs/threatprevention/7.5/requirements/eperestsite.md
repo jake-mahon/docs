@@ -1,9 +1,3 @@
----
-title: EPE REST Site Requirements
-sidebar_label: EPE REST Site
-description: Enterprise Password Enforcer REST Site requirements for web service integration and third-party password validation services.
----
-
 # EPE Rest Site Requirements
 
 Requirements for the EPE Rest Site are the same as documented for the Netwrix Threat Manager

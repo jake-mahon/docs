@@ -1,9 +1,3 @@
----
-title: template
-sidebar_label: template
-description: Documentation for template functionality in Access Analyzer including configuration and usage information.
----
-
 # Survey: Template
 
 Survey templates require customization to meet the customer's business needs. Contact

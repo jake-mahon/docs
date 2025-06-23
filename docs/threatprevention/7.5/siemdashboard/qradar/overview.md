@@ -1,9 +1,3 @@
----
-title: QRadar Integration Overview
-sidebar_label: QRadar Integration
-description: IBM QRadar SIEM integration for Threat Prevention including dashboard configuration, offense management, and custom app deployment.
----
-
 # Active Directory App for QRadar
 
 The Netwrix Active Directory security monitoring solution enables organizations to efficiently

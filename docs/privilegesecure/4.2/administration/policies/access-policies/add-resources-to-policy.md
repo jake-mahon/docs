@@ -1,9 +1,3 @@
----
-title: Resources Tab for Resource Based Access Policies
-sidebar_label: add resources to policy
-description: Administrative configuration and management features for Privilege Secure PAM solution including user management, policies, and security settings.
----
-
 # Resources Tab for Resource Based Access Policies
 
 The Resources tab shows the resources associated with the selected access policy.

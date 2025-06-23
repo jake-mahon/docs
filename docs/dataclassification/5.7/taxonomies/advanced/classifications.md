@@ -1,9 +1,3 @@
----
-title: Classifications
-sidebar_label: Classifications
-description: The classifications help to analyze the document, providing information about the file size, file type, and language. To see the current classifications for ...
----
-
 # Classifications
 
 The classifications help to analyze the document, providing information about the file size, file

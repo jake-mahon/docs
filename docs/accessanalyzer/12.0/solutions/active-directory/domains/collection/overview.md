@@ -1,9 +1,3 @@
----
-title: active directory domains collection overview
-sidebar_label: overview
-description: Solution guide for active directory domains collection overview including implementation steps, configuration, and best practices.
----
-
 # 0.Collection Job Group
 
 The **5.Domains > 0.Collection** Job Group collects the data which will be further analyzed in order

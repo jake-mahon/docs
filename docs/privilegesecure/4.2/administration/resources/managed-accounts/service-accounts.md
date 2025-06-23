@@ -1,9 +1,3 @@
----
-title: Add New Service Account Window
-sidebar_label: service accounts
-description: Administrative configuration and management features for Privilege Secure PAM solution including user management, policies, and security settings.
----
-
 # Add New Service Account Window
 
 Follow the steps to add a new Service Account to a host resource:

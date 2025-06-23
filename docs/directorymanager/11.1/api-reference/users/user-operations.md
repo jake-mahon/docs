@@ -1,9 +1,3 @@
----
-title: user operations
-sidebar_label: user-operations
-description: Directory Manager 11.1 documentation for user operations with configuration details, usage instructions, and implementation guidance.
----
-
 # Create a User
 
 This API creates a user in the identity store specified in the endpoint URL. Provide mandatory

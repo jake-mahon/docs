@@ -1,9 +1,3 @@
----
-title: Report Wizard Email Configuration
-sidebar_label: Email
-description: Email configuration in the report wizard for setting up automated report distribution and notification settings.
----
-
 # E-mail Page
 
 The E-mail page of the Report Configuration wizard gives you the option to break inheritance and

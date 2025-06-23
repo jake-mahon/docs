@@ -1,9 +1,3 @@
----
-title: Portal report computer
-sidebar_label: computer
-description: Directory Manager portal documentation for report functionality including user interface, navigation, and operational procedures.
----
-
 # Computer Reports
 
 Computer Reports contains reports for the Computer objects in the directory. Search a specific

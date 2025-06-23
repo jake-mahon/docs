@@ -1,9 +1,3 @@
----
-title: profile management
-sidebar_label: profile-management
-description: Directory Manager 11.1 documentation for profile management with configuration details, usage instructions, and implementation guidance.
----
-
 # Validate your profile
 
 The profile validation process in Directory Manager is designed to ensure the accuracy of users’

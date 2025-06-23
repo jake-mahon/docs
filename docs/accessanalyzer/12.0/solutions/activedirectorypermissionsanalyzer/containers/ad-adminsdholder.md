@@ -1,9 +1,3 @@
----
-title: activedirectorypermissionsanalyzer containers ad adminsdholder
-sidebar_label: ad adminsdholder
-description: Solution guide for activedirectorypermissionsanalyzer containers ad adminsdholder including implementation steps, configuration, and best practices.
----
-
 # AD_AdminSDHolder Job
 
 The AD_AdminSDHolder Job is comprised of analysis tasks and reports which use the data collected by

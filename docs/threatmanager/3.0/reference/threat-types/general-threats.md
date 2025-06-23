@@ -1,9 +1,3 @@
----
-title: General Threat Types
-sidebar_label: General Threats
-description: Reference guide for general threats affecting file systems and Active Directory including abnormal user behavior detection and behavioral baselines.
----
-
 # General Threats
 
 The following threats are monitored for File System and Active Directory.

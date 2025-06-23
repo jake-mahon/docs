@@ -1,9 +1,3 @@
----
-title: Agents Tab Management Interface
-sidebar_label: Agents
-description: Deploy and manage Activity Monitor agents using the Agents tab interface for adding, configuring, removing, and monitoring agent status across systems.
----
-
 # Agents Tab
 
 The **Agents** tab is used to deploy activity agents and manage settings. This is the only tab

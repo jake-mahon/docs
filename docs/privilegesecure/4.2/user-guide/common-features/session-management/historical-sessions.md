@@ -1,9 +1,3 @@
----
-title: Historical Dashboard
-sidebar_label: historical sessions
-description: End user documentation covering session management, access procedures, dashboard functionality, and browser extension usage.
----
-
 # Historical Dashboard
 
 The Historical sessions dashboard shows all created sessions and their status. Only users with the

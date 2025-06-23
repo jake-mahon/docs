@@ -1,9 +1,3 @@
----
-title: Getting Started: disclaimer
-sidebar_label: disclaimer
-description: Getting started guide for disclaimer in Access Analyzer including setup instructions and initial configuration steps.
----
-
 # Configuring Login Page Disclaimer
 
 Users can add a disclaimer message to the logon screen by adding a custom `Disclaimer.txt` file in

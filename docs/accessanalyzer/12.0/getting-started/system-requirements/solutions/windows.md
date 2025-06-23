@@ -1,9 +1,3 @@
----
-title: Getting Started: windows
-sidebar_label: windows
-description: Getting started guide for windows in Access Analyzer including setup instructions and initial configuration steps.
----
-
 # Windows Solution
 
 The core components for Netwrix Access Analyzer (formerly Enterprise Auditor) are the Access

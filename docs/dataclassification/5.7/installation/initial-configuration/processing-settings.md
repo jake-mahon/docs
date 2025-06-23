@@ -1,9 +1,3 @@
----
-title: Processing Settings
-sidebar_label: Processing Settings
-description: On the Processing Settings step, select options for data processing and classification. !processing_settings Review the following for additional information:...
----
-
 # Processing Settings
 
 On the Processing Settings step, select options for data processing and classification.

@@ -1,9 +1,3 @@
----
-title: active directory activity group usage ad group member activity
-sidebar_label: ad group member activity
-description: Solution guide for active directory activity group usage ad group member activity including implementation steps, configuration, and best practices.
----
-
 # AD_GroupMemberActivity Job
 
 The AD_GroupMemberActivity Job analyzes the AD actions taken by the effective members of a group.

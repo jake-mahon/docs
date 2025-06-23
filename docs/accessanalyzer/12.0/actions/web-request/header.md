@@ -1,9 +1,3 @@
----
-title: header
-sidebar_label: header
-description: Documentation for header functionality in Access Analyzer including configuration and usage information.
----
-
 # Web Request: Header
 
 Use the Header page to enter the header values for the request.

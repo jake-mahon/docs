@@ -1,9 +1,3 @@
----
-title: Software Package Manager Configuration Guide
-sidebar_label: Overview
-description: Deploy and remove Microsoft Store UWP applications and AppX packages. Control Candy Crush, Skype, Slack, Netflix and Windows built-in app deployment.
----
-
 # Software Package Manager
 
 Netwrix Endpoint Policy Manager (formerly PolicyPak) Software Package Manager enables you to deliver

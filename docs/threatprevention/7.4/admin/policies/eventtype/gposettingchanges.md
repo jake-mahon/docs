@@ -1,9 +1,3 @@
----
-title: GPO Setting Changes Event Type
-sidebar_label: GPO Setting Changes Event
-description: The GPO Setting Changes event type generates events based on rules for specified (or all) GPOs, to report what setting(s) in a GPO are modified.
----
-
 # GPO Setting Changes Event Type
 
 The GPO Setting Changes event type generates events based on rules for specified (or all) GPOs, to

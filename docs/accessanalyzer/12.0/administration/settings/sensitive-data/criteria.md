@@ -1,9 +1,3 @@
----
-title: criteria Administration
-sidebar_label: criteria
-description: Administration guide for criteria including configuration, management, and best practices for Access Analyzer.
----
-
 # Criteria Tab
 
 Configure the list of selected sensitive data criteria that will be used within sensitive data scan

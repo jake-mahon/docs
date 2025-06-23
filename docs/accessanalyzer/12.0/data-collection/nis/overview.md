@@ -1,9 +1,3 @@
----
-title: overview
-sidebar_label: overview
-description: Documentation for overview functionality in Access Analyzer including configuration and usage information.
----
-
 # NIS Data Collector
 
 The NIS Data Collector inventories a NIS domain for user and group information, mapping to

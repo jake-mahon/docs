@@ -1,9 +1,3 @@
----
-title: active directory
-sidebar_label: active directory
-description: Documentation for active directory functionality in Access Analyzer including configuration and usage information.
----
-
 # Active Directory Auditing Configuration
 
 The Enterprise Auditor for Active Directory Solution is compatible with the following Active

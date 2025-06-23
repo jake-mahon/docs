@@ -1,9 +1,3 @@
----
-title: Set Options Window
-sidebar_label: Set Options Window
-description: The Deploy Agents wizard's Set Options window is the second in a sequence of four windows to deploy the Agent on a computer.
----
-
 # Set Options Window
 
 The Deploy Agents wizard's Set Options window is the second in a sequence of four windows to deploy

@@ -1,9 +1,3 @@
----
-title: active directory domains ad domain info
-sidebar_label: ad domain info
-description: Solution guide for active directory domains ad domain info including implementation steps, configuration, and best practices.
----
-
 # AD_DomainInfo Job
 
 The AD_DomainInfo Job provides operational reporting related to the collected domains, sites, and

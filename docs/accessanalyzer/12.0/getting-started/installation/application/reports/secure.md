@@ -1,9 +1,3 @@
----
-title: Getting Started: secure
-sidebar_label: secure
-description: Getting started guide for secure in Access Analyzer including setup instructions and initial configuration steps.
----
-
 # Securing the Web Console
 
 Published reports can be accessed in the Web Console. There are several options for enhancing

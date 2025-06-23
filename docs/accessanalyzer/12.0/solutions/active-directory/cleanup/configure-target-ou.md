@@ -1,9 +1,3 @@
----
-title: active directory cleanup configure target ou
-sidebar_label: configure target ou
-description: Solution guide for active directory cleanup configure target ou including implementation steps, configuration, and best practices.
----
-
 # Configure the Target OU
 
 Follow the steps to configure the target staging OU.

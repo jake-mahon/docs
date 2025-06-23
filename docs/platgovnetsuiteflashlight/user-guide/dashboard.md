@@ -1,9 +1,3 @@
----
-title: Flashlight Dashboard Management Tools
-sidebar_label: Dashboard
-description: Comprehensive dashboard with Spider status, reminders, charts, key tools, and summaries for managing your NetSuite account customizations and monitoring changes.
----
-
 # Dashboard
 
 Flashlight comes with a comprehensive dashboard with everything to manage your account at your

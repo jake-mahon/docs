@@ -1,9 +1,3 @@
----
-title: workflow denyreq API
-sidebar_label: denyreq
-description: API reference for denyreq operations in Directory Manager with request parameters, response examples, and implementation details.
----
-
 # Deny a Request
 
 If you want to deny a workflow request in a specified identity store, you can use this API.

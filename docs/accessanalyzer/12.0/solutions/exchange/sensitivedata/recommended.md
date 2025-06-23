@@ -1,9 +1,3 @@
----
-title: exchange sensitivedata recommended
-sidebar_label: recommended
-description: Solution guide for exchange sensitivedata recommended including implementation steps, configuration, and best practices.
----
-
 # Recommended Configurations for the 7. Sensitive Data Job Group
 
 Dependencies

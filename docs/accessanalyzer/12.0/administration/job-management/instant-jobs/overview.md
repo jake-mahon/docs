@@ -1,9 +1,3 @@
----
-title: overview Administration
-sidebar_label: overview
-description: Administration guide for overview including configuration, management, and best practices for Access Analyzer.
----
-
 # Instant Job Wizard
 
 The Access Analyzer Instant Job Wizard provides access to a library of instant solutions and instant

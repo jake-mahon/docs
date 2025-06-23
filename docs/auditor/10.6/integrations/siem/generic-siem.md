@@ -1,9 +1,3 @@
----
-title: Generic SIEM Integration
-sidebar_label: Generic SIEM
-description: Configure generic SIEM integration with Netwrix Auditor for flexible security information and event management system connections.
----
-
 # Automate Add-On Execution
 
 To ensure you feed the most recent data to your SIEM solution, Netwrix recommends scheduling a daily

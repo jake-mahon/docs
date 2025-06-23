@@ -1,9 +1,3 @@
----
-title: Users Groups Category Security
-sidebar_label: Security
-description: Security category configuration for Users Groups data collector focusing on security-related user and group properties.
----
-
 # UsersGroups: Security Category
 
 This Security policy is used to audit security policies.

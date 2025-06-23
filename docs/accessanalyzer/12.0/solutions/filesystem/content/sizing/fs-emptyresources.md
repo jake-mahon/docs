@@ -1,9 +1,3 @@
----
-title: filesystem content sizing fs emptyresources
-sidebar_label: fs emptyresources
-description: Solution guide for filesystem content sizing fs emptyresources including implementation steps, configuration, and best practices.
----
-
 # FS_EmptyResources Job
 
 The FS_EmptyResources job is designed to report on empty resources from targeted file servers.

@@ -1,9 +1,3 @@
----
-title: databases azuresql collection 2 azuresql sensitivedatascan
-sidebar_label: 2 azuresql sensitivedatascan
-description: Solution guide for databases azuresql collection 2 azuresql sensitivedatascan including implementation steps, configuration, and best practices.
----
-
 # 2-AzureSQL_SensitiveDataScan Job
 
 The 2-AzureSQL_SensitiveDataScan Job is designed to discover sensitive data in the Azure SQL

@@ -1,9 +1,3 @@
----
-title: sharepoint directpermissions sp domainusers
-sidebar_label: sp domainusers
-description: Solution guide for sharepoint directpermissions sp domainusers including implementation steps, configuration, and best practices.
----
-
 # SP_DomainUsers Job
 
 The SP_DomainUsers Job identifies locations where there are domain users directly applied on

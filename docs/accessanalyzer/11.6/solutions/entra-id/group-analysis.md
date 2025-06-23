@@ -1,9 +1,3 @@
----
-title: entra id group analysis
-sidebar_label: group analysis
-description: Solution guide for entra id group analysis including implementation steps, configuration, and best practices.
----
-
 # AAD_CircularNesting Job
 
 The AAD_CircularNesting Job identifies circularly nested groups within Microsoft Entra ID which can

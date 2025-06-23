@@ -1,9 +1,3 @@
----
-title: overview
-sidebar_label: overview
-description: Directory Manager 11.1 documentation for overview with configuration details, usage instructions, and implementation guidance.
----
-
 # GroupID Entitlement Schedule
 
 An Entitlement schedule is automatically created for an identity store when:

@@ -1,9 +1,3 @@
----
-title: Getting Started: powershell
-sidebar_label: powershell
-description: Getting started guide for powershell in Access Analyzer including setup instructions and initial configuration steps.
----
-
 # Exchange PowerShell Permissions
 
 The ExchangePS Data Collector utilizes PowerShell to collect various information from the Exchange

@@ -1,9 +1,3 @@
----
-title: Add Privilege Secure Protect Mode Account to Windows Endpoints via GPO
-sidebar_label: product mode account
-description: System configuration settings and advanced options for authentication, integrations, services, and security parameters.
----
-
 # Add Privilege Secure Protect Mode Account to Windows Endpoints via GPO
 
 Add Privilege Secure Protect Mode Account to Windows Endpoints via GPO

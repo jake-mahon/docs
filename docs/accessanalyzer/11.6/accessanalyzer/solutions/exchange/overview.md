@@ -1,9 +1,3 @@
----
-title: exchange overview
-sidebar_label: overview
-description: Solution guide for exchange overview including implementation steps, configuration, and best practices.
----
-
 # Exchange Solution
 
 The Exchange Solution provides auditing and reporting on multiple aspects of the Exchange

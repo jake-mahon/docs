@@ -1,9 +1,3 @@
----
-title: assign roles Administration
-sidebar_label: assign roles
-description: Administration guide for assign roles including configuration, management, and best practices for Access Analyzer.
----
-
 # Assign User to Role Members
 
 Role Based Access becomes enabled within Access Analyzer as soon as the first role has been assigned

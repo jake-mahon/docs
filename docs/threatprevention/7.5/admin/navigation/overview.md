@@ -1,9 +1,3 @@
----
-title: Navigation Overview
-sidebar_label: Navigation
-description: Administration Console navigation guide including data grid functionality, license management, and right-click menu options.
----
-
 # Navigation
 
 The Threat Prevention Administration Console is used to:

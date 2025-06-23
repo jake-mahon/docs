@@ -1,9 +1,3 @@
----
-title: Remote Work Delivery Variables Reference
-sidebar_label: Variables
-description: Complete list of environment variables available for source and destination paths in Remote Work Delivery Manager file deployment policies.
----
-
 # What variables can I use in place for source or destination in Remote Work Delivery Manager?
 
 The following variables are honored in Netwrix Endpoint Policy Manager (formerly PolicyPak) Remote

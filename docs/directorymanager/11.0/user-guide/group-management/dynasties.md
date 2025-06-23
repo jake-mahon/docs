@@ -1,9 +1,3 @@
----
-title: dynasties
-sidebar_label: dynasties
-description: Directory Manager 11.0 documentation for dynasties with configuration details, usage instructions, and implementation guidance.
----
-
 # Dynasties
 
 A [Dynasty](/docs/directorymanager/11.0/user-guide/group-management/dynasties.md)is a Smart Group

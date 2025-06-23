@@ -1,9 +1,3 @@
----
-title: Passphrase Configuration Guide
-sidebar_label: Passphrases
-description: Configure passphrase support in Password Policy Enforcer for enhanced security with longer, more complex password alternatives.
----
-
 # Passphrase
 
 Passphrases have gained popularity in recent years as they can be more difficult to crack and easier

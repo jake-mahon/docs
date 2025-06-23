@@ -1,9 +1,3 @@
----
-title: scheduleupdate
-sidebar_label: scheduleupdate
-description: Directory Manager 11.1 documentation for scheduleupdate with configuration details, usage instructions, and implementation guidance.
----
-
 # Scheduled Updates Functions
 
 When a Smart Group or Dynasty is updated using a scheduled job, it involves the following:

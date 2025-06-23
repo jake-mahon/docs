@@ -1,9 +1,3 @@
----
-title: hardware tokens
-sidebar_label: hardware-tokens
-description: Directory Manager 11.1 documentation for hardware tokens with configuration details, usage instructions, and implementation guidance.
----
-
 # Set up Authentication via YubiKey
 
 YubiKey is a key-sized device that users can plug into the computer’s USB slot to verify their

@@ -1,9 +1,3 @@
----
-title: Database Stored Procedures
-sidebar_label: Stored Procedures
-description: Database stored procedures for maintenance operations including archiving, cleanup, and performance optimization tasks.
----
-
 # Stored Procedures
 
 The table contains a list of the stored procedures Threat Prevention uses on its SQL Server

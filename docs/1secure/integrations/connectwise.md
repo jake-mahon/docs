@@ -1,9 +1,3 @@
----
-title: ConnectWise Integration Setup
-sidebar_label: ConnectWise
-description: Integrate 1Secure with ConnectWise platform for MSPs to enable automated service ticket creation and workflow management.
----
-
 # ConnectWise
 
 ConnectWise is a flexible platform for Managed Service Providers that provides integrated services.

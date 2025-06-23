@@ -1,9 +1,3 @@
----
-title: Agent NAS Requirements
-sidebar_label: Agent NAS
-description: Network Attached Storage agent requirements for monitoring file system activities on NAS devices and storage platforms.
----
-
 # NAS Device Support
 
 For Network-Attached Storage (NAS) device support, the Threat Prevention Agent is not deployed on

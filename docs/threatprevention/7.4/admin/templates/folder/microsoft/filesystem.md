@@ -1,10 +1,3 @@
----
-title: File System Folder Templates
-sidebar_label: File System Folder Templates
-description: The Templates > Microsoft > File System folder in the Navigation pane contains the following templates:
-
----
-
 # File System Folder Templates
 
 The **Templates** > **Microsoft** > **File System** folder in the Navigation pane contains the

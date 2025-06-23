@@ -1,9 +1,3 @@
----
-title: XenApp Application Settings Delivery
-sidebar_label: XenApp
-description: Deliver application settings to applications provided by XenApp using Endpoint Policy Manager for virtualized environments.
----
-
 # Can Endpoint Policy Manager deliver settings for applications that are provided by XenAPP?
 
 Yes, besides delivering application settings to real installed applications, the Netwrix Endpoint

@@ -1,9 +1,3 @@
----
-title: Core Configuration
-sidebar_label: Core Settings
-description: Each configuration option has an associated “i” which describes the nature of the setting. Selecting the Details tab provides a complete list of the Config...
----
-
 # Core Configuration
 
 Each configuration option has an associated “i” which describes the nature of the setting. Selecting

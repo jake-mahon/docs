@@ -1,9 +1,3 @@
----
-title: Platform Configuration and Statistics Dashboard
-sidebar_label: Configuration & Stats
-description: Monitor scanner status, documentation statistics, and system configuration with live reporting on Platform Governance automated documentation.
----
-
 # Configuration and Stats
 
 The Configuration and Stats report is a live update on the status and results of the Automated

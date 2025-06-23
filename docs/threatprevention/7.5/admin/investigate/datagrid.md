@@ -1,9 +1,3 @@
----
-title: Investigate Data Grid
-sidebar_label: Investigate Data Grid
-description: Events are displayed in the data grid on the Investigate interface. Follow the steps to view events in the data grid.
----
-
 # Investigate Data Grid
 
 Events are displayed in the data grid on the Investigate interface.

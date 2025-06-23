@@ -1,9 +1,3 @@
----
-title: box box groupmembership
-sidebar_label: box groupmembership
-description: Solution guide for box box groupmembership including implementation steps, configuration, and best practices.
----
-
 # Box_GroupMembership Job
 
 The Box_GroupMembership Job provides visibility into group membership within an organization's Box

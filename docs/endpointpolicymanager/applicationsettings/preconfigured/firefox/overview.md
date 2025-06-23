@@ -1,9 +1,3 @@
----
-title: Firefox AppSet Configuration Overview
-sidebar_label: Firefox Overview
-description: Configure Mozilla Firefox ESR browser settings with Application Settings Manager AppSet including security, preferences, and add-on management.
----
-
 # Firefox AppSet
 
 This document will help you to understand how to use the AppSet named "Mozilla Firefox 23.0". This

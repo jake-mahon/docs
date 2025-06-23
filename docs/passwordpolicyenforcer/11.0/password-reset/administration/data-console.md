@@ -1,9 +1,3 @@
----
-title: Password Reset Data Console Usage
-sidebar_label: Data Console
-description: Use Password Reset Data Console to view and export collected data including user activity and enrollment information.
----
-
 # Using the Data Console
 
 The Data Console allows you to view and export data collected by Password Reset. Click **Start** >

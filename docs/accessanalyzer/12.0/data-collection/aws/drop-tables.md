@@ -1,9 +1,3 @@
----
-title: drop tables
-sidebar_label: drop tables
-description: Documentation for drop tables functionality in Access Analyzer including configuration and usage information.
----
-
 # Drop AWS Tables
 
 Sometimes when troubleshooting an AWS issue, it becomes necessary to clear the AWS DC data and

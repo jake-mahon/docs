@@ -1,9 +1,3 @@
----
-title: data grid features
-sidebar_label: data-grid-features
-description: Auditor 10.7 documentation for data grid features with configuration details, usage instructions, and implementation guidance.
----
-
 # Data Grid Features
 
 The data grids within various tables have several features to improve your experience.

@@ -1,9 +1,3 @@
----
-title: Install Remote Desktop Monitor Service on Target RDP Hosts
-sidebar_label: rdp monitor
-description: Installation procedures, system requirements, and deployment configuration for Privilege Secure components and services.
----
-
 # Install Remote Desktop Monitor Service on Target RDP Hosts
 
 The Netwrix Privilege Secure Remote Desktop Monitor service needs to be installed on the target host

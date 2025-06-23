@@ -1,9 +1,3 @@
----
-title: Compliance Wizard and Setup
-sidebar_label: Wizard
-description: Compliance overview interface showing compliance scores for device groups with trend tracking for hardened build standards.
----
-
 # Compliance
 
 The **Compliance** tab provides an overview of compliance scores for all devices within any selected

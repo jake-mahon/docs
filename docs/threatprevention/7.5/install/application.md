@@ -1,9 +1,3 @@
----
-title: Application Server Installation
-sidebar_label: Application Server
-description: Application server installation guide for Threat Prevention Enterprise Manager and Administration Console components.
----
-
 # Application Server Install
 
 Follow the steps to install Threat Prevention.

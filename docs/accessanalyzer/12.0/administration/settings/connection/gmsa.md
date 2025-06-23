@@ -1,9 +1,3 @@
----
-title: gmsa Administration
-sidebar_label: gmsa
-description: Administration guide for gmsa including configuration, management, and best practices for Access Analyzer.
----
-
 # Group Managed Service Accounts (gMSA) Configuration
 
 Access Analyzer can use a previously-configured Group Managed Service Accounts (gMSA/MSA) account.

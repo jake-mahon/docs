@@ -1,9 +1,3 @@
----
-title: File System Threat Types
-sidebar_label: File System Threats
-description: Reference guide for file system threats including high risk permissions, unauthorized access patterns, and file security monitoring alerts.
----
-
 # File System Threats
 
 The following threats are monitored for File System:

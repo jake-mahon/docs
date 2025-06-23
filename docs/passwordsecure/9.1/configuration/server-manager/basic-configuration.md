@@ -1,9 +1,3 @@
----
-title: Basic Server Configuration Setup
-sidebar_label: Basic Configuration
-description: Configure SQL server connections and database settings for Password Secure components and features through basic configuration interface.
----
-
 # Configuration
 
 The following pages will provide you with in-depth information how to configure the different

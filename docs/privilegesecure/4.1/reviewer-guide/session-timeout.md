@@ -1,9 +1,3 @@
----
-title: Session Timeout
-sidebar_label: session timeout
-description: Reviewer role documentation including audit capabilities, access certification, session monitoring, and approval workflows.
----
-
 # Session Timeout
 
 For security reasons, the Privilege Secure Console automatically logs out the user after 20 minutes

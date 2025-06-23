@@ -1,9 +1,3 @@
----
-title: Portal synchronize job googleapp
-sidebar_label: googleapp
-description: Directory Manager portal documentation for synchronize job functionality including user interface, navigation, and operational procedures.
----
-
 # Google Workspace Subscription
 
 While creating or editing mail enabled objects through a Synchronize job, Directory Manager provides

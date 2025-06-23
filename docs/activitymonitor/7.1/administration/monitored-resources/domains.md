@@ -1,9 +1,3 @@
----
-title: Active Directory Domain Monitoring
-sidebar_label: Domains
-description: Configure Activity Monitor to track Active Directory changes including object creation, deletion, renaming, and movement across monitored domains.
----
-
 # Monitored Domains Tab
 
 Understanding Active Directory Activity Monitoring

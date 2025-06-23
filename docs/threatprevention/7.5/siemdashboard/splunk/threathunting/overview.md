@@ -1,9 +1,3 @@
----
-title: Splunk Threat Hunting Integration
-sidebar_label: Threat Hunting
-description: Splunk threat hunting integration for advanced security analysis including perpetrator hunting and privilege escalation detection.
----
-
 # Threat Hunting App for Splunk
 
 The Netwrix Threat Hunting solution enables organizations to target and hunt active cyber threats.

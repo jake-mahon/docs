@@ -1,9 +1,3 @@
----
-title: box activity forensics box downloads
-sidebar_label: box downloads
-description: Solution guide for box activity forensics box downloads including implementation steps, configuration, and best practices.
----
-
 # Box_Downloads Job
 
 The Box_Downloads Job provides details on file and folder deletions that have occurred over the past

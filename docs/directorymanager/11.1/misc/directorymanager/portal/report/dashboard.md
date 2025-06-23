@@ -1,9 +1,3 @@
----
-title: Portal report dashboard
-sidebar_label: dashboard
-description: Directory Manager portal documentation for report functionality including user interface, navigation, and operational procedures.
----
-
 # Reports
 
 The Directory Manager Reports enables you to generate web-based reports for an identity store. It

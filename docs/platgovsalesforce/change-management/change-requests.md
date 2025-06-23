@@ -1,9 +1,3 @@
----
-title: Creating and Managing Change Requests
-sidebar_label: Change Requests
-description: Create, track, and approve change requests for metadata changes and data records with customization and deployment management workflows.
----
-
 # Creating a Change Request
 
 Change requests are the method to plan, analyze, track and approve changes. You can create different

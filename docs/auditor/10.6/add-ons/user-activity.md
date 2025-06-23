@@ -1,9 +1,3 @@
----
-title: User Activity Monitoring Configuration
-sidebar_label: User Activity
-description: Configure data collection settings for user activity monitoring in Netwrix Auditor to track endpoint behavior and security events.
----
-
 # Configure Data Collection Settings
 
 To successfully track user activity, make sure that the following settings are configured on the

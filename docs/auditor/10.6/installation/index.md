@@ -1,9 +1,3 @@
----
-title: Auditor Installation Guide Overview
-sidebar_label: Installation
-description: Step-by-step instructions for installing Netwrix Auditor including core services, client deployment, and advanced installation scenarios.
----
-
 # Installation
 
 This chapter provides step-by-step instructions on how to install Netwrix Auditor and its

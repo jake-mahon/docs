@@ -1,9 +1,3 @@
----
-title: Management Console Views and Navigation
-sidebar_label: Management Console
-description: Overview of Password Policy Enforcer management console views including Password Policy Enforcer, Server, and Policy configuration interfaces.
----
-
 # Management Console Views
 
 The Password Policy Enforcer management console has four views. Click an item in the left pane of

@@ -1,9 +1,3 @@
----
-title: anyid overview
-sidebar_label: overview
-description: Solution guide for anyid overview including implementation steps, configuration, and best practices.
----
-
 # AnyID Connectors Solution
 
 The AnyID Connectors Solution allows you to quickly find where data for identities are stored,

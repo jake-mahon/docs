@@ -1,9 +1,3 @@
----
-title: Active Directory Authentication Configuration
-sidebar_label: AD Authentication
-description: Configure Active Directory authentication monitoring including server communication settings and event filters for domain authentication tracking.
----
-
 # Authentication Tab
 
 The Authentication tab on a domain’s Configuration window allows users to configure communication

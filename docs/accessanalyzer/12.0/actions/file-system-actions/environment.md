@@ -1,9 +1,3 @@
----
-title: environment
-sidebar_label: environment
-description: Documentation for environment functionality in Access Analyzer including configuration and usage information.
----
-
 # File System Action: Environment
 
 The Environment (Environment Variables) page is available only if the selected operation requires

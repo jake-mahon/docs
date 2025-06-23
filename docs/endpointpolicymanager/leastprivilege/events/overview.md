@@ -1,9 +1,3 @@
----
-title: Event Discovery and Auditing
-sidebar_label: Overview
-description: Use Windows event logs to audit privilege elevation activities and discover rule requirements before fully deploying LPM security policies.
----
-
 # Discovery, Auditing, and Events
 
 Endpoint Policy ManagerLeast Privilege Manager uses Windows event logs to generate interesting

@@ -1,9 +1,3 @@
----
-title: results
-sidebar_label: results
-description: Documentation for results functionality in Access Analyzer including configuration and usage information.
----
-
 # Unix: Results
 
 On the Results page, select which properties will be gathered out of those available for the query.

@@ -1,9 +1,3 @@
----
-title: Managing Technical Debt in Salesforce
-sidebar_label: Technical Debt
-description: Systematic approach to managing and resolving technical debt in Salesforce environments with best practices for org management maturity stages.
----
-
 # Managing Technical Debt
 
 These articles are best practices for managing and, over time, resolving technical debt for every

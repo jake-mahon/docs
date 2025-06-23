@@ -1,9 +1,3 @@
----
-title: active directory groups ad circular nesting
-sidebar_label: ad circular nesting
-description: Solution guide for active directory groups ad circular nesting including implementation steps, configuration, and best practices.
----
-
 # AD_CircularNesting Job
 
 The AD_CircularNesting Job identifies circularly nested groups within Active Directory which can

@@ -1,9 +1,3 @@
----
-title: What's New in Platform Governance
-sidebar_label: What's New
-description: Latest updates and new features in Platform Governance for NetSuite including version 7.6 enhancements and NetSuite 2025.1 compatibility updates.
----
-
 # What's New
 
 ## New Netwrix Community!

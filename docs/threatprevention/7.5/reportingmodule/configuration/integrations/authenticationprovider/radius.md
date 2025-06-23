@@ -1,9 +1,3 @@
----
-title: RADIUS Authentication Provider
-sidebar_label: RADIUS Authentication Provider
-description: The Remote Authentication Dial-In User Service (RADIUS) is a networking protocol that provides centralized authentication, authorization, and accounting mana...
----
-
 # RADIUS Authentication Provider
 
 The Remote Authentication Dial-In User Service (RADIUS) is a networking protocol that provides

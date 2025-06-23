@@ -1,9 +1,3 @@
----
-title: viewing reports
-sidebar_label: viewing-reports
-description: Auditor 10.7 documentation for viewing reports with configuration details, usage instructions, and implementation guidance.
----
-
 # Reports with Video
 
 Netwrix Auditor can be configured to capture video of user activity on the monitored computers that

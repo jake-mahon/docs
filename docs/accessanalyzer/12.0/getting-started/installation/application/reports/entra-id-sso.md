@@ -1,9 +1,3 @@
----
-title: Getting Started: entra id sso
-sidebar_label: entra id sso
-description: Getting started guide for entra id sso in Access Analyzer including setup instructions and initial configuration steps.
----
-
 # Microsoft Entra ID Single Sign-On
 
 Microsoft Entra ID Single Sign-On (SSO) can be configured for logging in to the Web Console to view

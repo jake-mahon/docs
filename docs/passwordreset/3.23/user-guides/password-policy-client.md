@@ -1,9 +1,3 @@
----
-title: Password Policy Client Guide
-sidebar_label: Password Policy Client
-description: Comprehensive guide to installing and using the Password Policy Client to help users choose compliant passwords and reduce helpdesk calls.
----
-
 # Password Policy Client
 
 The Password Policy Client reduces user frustration and password related helpdesk calls by helping

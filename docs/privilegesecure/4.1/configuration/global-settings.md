@@ -1,9 +1,3 @@
----
-title: Global Settings Page
-sidebar_label: global settings
-description: System configuration settings and advanced options for authentication, integrations, services, and security parameters.
----
-
 # Global Settings Page
 
 The Global Settings page is accessible from the Navigation pane under Configuration > System

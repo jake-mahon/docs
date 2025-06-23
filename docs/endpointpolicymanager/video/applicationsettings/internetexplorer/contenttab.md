@@ -1,9 +1,3 @@
----
-title: Internet Explorer Content Tab Management
-sidebar_label: Content Tab
-description: Learn to manage Internet Explorer content tab settings including content advisor, certificates, and AutoComplete using Endpoint Policy Manager.
----
-
 # Manage IE Content tab
 
 Netwrix Endpoint Policy Manager (formerly PolicyPak): Manage IE Content tab

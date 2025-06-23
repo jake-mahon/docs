@@ -1,9 +1,3 @@
----
-title: SharePoint Online Activity Auditing Configuration
-sidebar_label: SharePoint Online
-description: Configure SharePoint Online activity monitoring including site collection event auditing and integration with Netwrix Access Analyzer.
----
-
 # SharePoint On-Premise Activity Auditing Configuration
 
 SharePoint Event Auditing must be enabled for each site collection to be monitored by the Netwrix

@@ -1,9 +1,3 @@
----
-title: running instances Administration
-sidebar_label: running instances
-description: Administration guide for running instances including configuration, management, and best practices for Access Analyzer.
----
-
 # Running Job Details
 
 Both the Process ID and the View Details links open the running job's Details page. The path of the

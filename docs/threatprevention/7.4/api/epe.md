@@ -1,9 +1,3 @@
----
-title: EPE API
-sidebar_label: EPE
-description: Enterprise Password Enforcer API for password validation, policy management, and third-party integration capabilities.
----
-
 # Enterprise Password Enforcer (EPE) APIs
 
 You can use APIs to perform functions related to Threat Prevention's Enterprise Password Enforcer

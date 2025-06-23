@@ -1,9 +1,3 @@
----
-title: Privilege Secure 4.1 PAM Documentation
-sidebar_label: Version 4.1
-description: Enterprise privileged access management solution providing secure credential vaulting, session management, and just-in-time access controls for zero-trust security.
----
-
 # Privilege Secure 4.1
 
 > Enterprise privileged access management for zero-trust security

@@ -1,9 +1,3 @@
----
-title: Firefox Add-ons Management with Group Policy
-sidebar_label: Add-ons
-description: Learn to manage Firefox add-ons including extensions, appearance, plugins, and services using Group Policy or systems management utilities.
----
-
 # Manage Firefox Add-ons using Group Policy
 
 Firefox has four types of Add-ons: Extensions, Appearance, Plugins, and Services. And Netwrix

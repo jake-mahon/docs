@@ -1,9 +1,3 @@
----
-title: data grid Administration
-sidebar_label: data grid
-description: Administration guide for data grid including configuration, management, and best practices for Access Analyzer.
----
-
 # Data Grid Functionality
 
 All data grids within the Access Analyzer Console have functions and features that allow Access

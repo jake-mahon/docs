@@ -1,9 +1,3 @@
----
-title: license activation
-sidebar_label: license-activation
-description: Auditor 10.7 documentation for license activation with configuration details, usage instructions, and implementation guidance.
----
-
 # Licenses
 
 The Licenses tab allows you to review the status of your current licenses, update them and add new

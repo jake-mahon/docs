@@ -1,9 +1,3 @@
----
-title: Test Resource Connectivity Window
-sidebar_label: test connectivity
-description: Administrative configuration and management features for Privilege Secure PAM solution including user management, policies, and security settings.
----
-
 # Test Resource Connectivity Window
 
 Follow the steps to test the host resource connectivity:

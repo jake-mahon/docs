@@ -1,9 +1,3 @@
----
-title: databases oracle permissions overview
-sidebar_label: overview
-description: Solution guide for databases oracle permissions overview including implementation steps, configuration, and best practices.
----
-
 # 3.Permissions Job Group
 
 The 3.Permissions Job Group is designed to provide insight into all types of permissions at the

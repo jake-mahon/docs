@@ -1,9 +1,3 @@
----
-title: Dashboard Interface
-sidebar_label: Overview
-description: Reviewer role documentation including audit capabilities, access certification, session monitoring, and approval workflows.
----
-
 # Dashboard Interface
 
 The Dashboard interface displays an overview of activity sessions, users, resources and related

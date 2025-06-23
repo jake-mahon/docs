@@ -1,9 +1,3 @@
----
-title: Browser Requirements and Compatibility
-sidebar_label: Browser Requirements
-description: Browser version requirements and supported browser extensions compatibility guidelines for Password Secure installation and operation.
----
-
 # Browser
 
 #### Required Version

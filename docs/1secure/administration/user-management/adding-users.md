@@ -1,9 +1,3 @@
----
-title: Adding Users to Organizations
-sidebar_label: Adding Users
-description: Add and manage users in 1Secure organizations with role-based access including Administrator, Editor, and Viewer permissions.
----
-
 # Add Users
 
 After you added the organization to your system, you may want to add users as part of your

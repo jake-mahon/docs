@@ -1,9 +1,3 @@
----
-title: Dashboard Overview and Features
-sidebar_label: Dashboard
-description: Visual monitoring dashboard showing change volumes, activity times, planned vs unplanned changes, compliance trends, and device status summaries.
----
-
 # Dashboard Tab
 
 The **Dashboard** gives a visual indicator of both unusual change volumes and change activity times.

@@ -1,9 +1,3 @@
----
-title: aws roles aws staleroles
-sidebar_label: aws staleroles
-description: Solution guide for aws roles aws staleroles including implementation steps, configuration, and best practices.
----
-
 # AWS_StaleRoles Job
 
 The AWS_StaleRoles job provides details on roles that are considered stale. Highlighting roles that

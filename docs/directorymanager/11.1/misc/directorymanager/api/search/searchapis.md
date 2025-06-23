@@ -1,9 +1,3 @@
----
-title: search searchapis API
-sidebar_label: searchapis
-description: API reference for searchapis operations in Directory Manager with request parameters, response examples, and implementation details.
----
-
 # Search APIs
 
 Directory Manager provides the following APIs to search directory objects based on a single or a

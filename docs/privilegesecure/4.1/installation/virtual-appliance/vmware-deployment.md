@@ -1,9 +1,3 @@
----
-title: Deploy to VMware Infrastructure
-sidebar_label: vmware deployment
-description: Installation procedures, system requirements, and deployment configuration for Privilege Secure components and services.
----
-
 # Deploy to VMware Infrastructure
 
 Follow the steps below to deploy the virtual machine to VMware infrastructure.

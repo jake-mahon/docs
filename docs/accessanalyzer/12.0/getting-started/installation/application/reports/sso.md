@@ -1,9 +1,3 @@
----
-title: Getting Started: sso
-sidebar_label: sso
-description: Getting started guide for sso in Access Analyzer including setup instructions and initial configuration steps.
----
-
 # Enable Single Sign-On
 
 Single sign-on using Windows authentication allows users to be automatically log into the Web

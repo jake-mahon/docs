@@ -1,9 +1,3 @@
----
-title: LSASS Process Troubleshooting
-sidebar_label: LSASS
-description: LSASS process monitoring troubleshooting including instrumentation issues, safe mode activation, and process termination alerts.
----
-
 # LSASS Process Terminated
 
 To collect real-time activity data, the Agent hooks into (intercepts) specific Microsoft APIs in the

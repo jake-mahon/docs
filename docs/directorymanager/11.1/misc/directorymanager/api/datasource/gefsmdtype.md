@@ -1,9 +1,3 @@
----
-title: datasource gefsmdtype API
-sidebar_label: gefsmdtype
-description: API reference for gefsmdtype operations in Directory Manager with request parameters, response examples, and implementation details.
----
-
 # Get File Server Metadata by Type
 
 Using this API you can get metadata information of data source(s) by server type. For example, all

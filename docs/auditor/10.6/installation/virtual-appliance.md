@@ -1,9 +1,3 @@
----
-title: Configure Virtual Appliance
-sidebar_label: Virtual Appliance
-description: Configure and deploy Netwrix Auditor virtual appliance for simplified installation and management in virtualized environments.
----
-
 # Configure Virtual Appliance
 
 Perform the following steps to configure your virtual appliance:

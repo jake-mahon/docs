@@ -1,9 +1,3 @@
----
-title: Azure SQL Sensitive Data Scan Collection
-sidebar_label: Sensitive Data Scan
-description: Azure SQL sensitive data scan collection job for identifying and classifying sensitive data within Azure SQL databases.
----
-
 # 2-AzureSQL_SensitiveDataScan Job
 
 The 2-AzureSQL_SensitiveDataScan Job is designed to discover sensitive data in the Azure SQL

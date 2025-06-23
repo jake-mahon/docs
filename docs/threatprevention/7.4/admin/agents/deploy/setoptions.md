@@ -1,9 +1,3 @@
----
-title: Set Deployment Options
-sidebar_label: Set Deployment Options
-description: Agent deployment configuration options including modules, communication settings, and monitoring preferences.
----
-
 # Set Options Window
 
 The Deploy Agents wizard's Set Options window is the second in a sequence of four windows to deploy

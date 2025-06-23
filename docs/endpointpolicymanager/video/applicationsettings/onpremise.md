@@ -1,9 +1,3 @@
----
-title: On-Premise QuickStart for Application Manager
-sidebar_label: On-Premise Setup
-description: Learn to quickly set up Endpoint Policy Manager on-premise with Active Directory for application management in this comprehensive quickstart tutorial.
----
-
 # Endpoint Policy ManagerOn-Premise QuickStart for Endpoint Policy Application Manager
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/ztf995Ou-fk" title="Endpoint Policy Manager Group Policy Edition: Normal Quickstart (With Active Directory)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen="1"></iframe>

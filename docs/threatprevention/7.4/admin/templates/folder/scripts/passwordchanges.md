@@ -1,9 +1,3 @@
----
-title: Password Changes Custom Script
-sidebar_label: Password Changes Custom Script
-description: The following C# script sends an email notification to the specified user when their Active Directory password has changed.
----
-
 # Password Changes Custom Script
 
 The following C# script sends an email notification to the specified user when their Active

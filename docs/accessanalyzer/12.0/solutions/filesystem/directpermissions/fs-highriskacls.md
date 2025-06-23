@@ -1,9 +1,3 @@
----
-title: filesystem directpermissions fs highriskacls
-sidebar_label: fs highriskacls
-description: Solution guide for filesystem directpermissions fs highriskacls including implementation steps, configuration, and best practices.
----
-
 # FS_HighRiskACLs Job
 
 The FS_HighRiskACLs job is designed to report on high risk security principals that have been

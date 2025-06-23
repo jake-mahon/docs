@@ -1,9 +1,3 @@
----
-title: active directory recommended reports
-sidebar_label: recommended reports
-description: Solution guide for active directory recommended reports including implementation steps, configuration, and best practices.
----
-
 # Recommended Configurations for the 3.Computers Job Group
 
 The **Active Directory** > **3.Computers** Job Group has been configured by default to run with the

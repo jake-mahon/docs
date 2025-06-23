@@ -1,9 +1,3 @@
----
-title: Customization Impact Analysis Tools
-sidebar_label: Impact Analysis
-description: Analyze customization dependencies and impacts with search tools for understanding how changes to fields, scripts, and workflows affect other customizations.
----
-
 # Using Customization Impact Analysis
 
 The Customization Impact Search displays customizations and any impacted customizations. For

@@ -1,9 +1,3 @@
----
-title: File Shadow Repository Management
-sidebar_label: Shadow Repository
-description: Configure Endpoint Protector Client to send file shadows directly for enhanced monitoring and content protection capabilities.
----
-
 # File Shadow Repository
 
 From this section, you can enable the Endpoint Protector Client to send File Shadows directly and at

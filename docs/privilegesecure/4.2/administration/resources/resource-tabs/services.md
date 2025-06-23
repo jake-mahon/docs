@@ -1,9 +1,3 @@
----
-title: Services Tab for Host
-sidebar_label: services
-description: Administrative configuration and management features for Privilege Secure PAM solution including user management, policies, and security settings.
----
-
 # Services Tab for Host
 
 The Services tab shows information about the services running on the selected resource.

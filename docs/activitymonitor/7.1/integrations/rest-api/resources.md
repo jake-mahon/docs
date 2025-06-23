@@ -1,9 +1,3 @@
----
-title: Activity Monitor REST API Resources
-sidebar_label: API Resources
-description: Overview of Activity Monitor REST API resources including Agent, Host, Domain, and monitoring attributes with examples and functionality descriptions.
----
-
 # Resources
 
 This page provides an overview of various REST APIs for Activity Monitor, outlining their attributes

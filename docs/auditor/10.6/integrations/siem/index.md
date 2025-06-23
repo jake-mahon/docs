@@ -1,9 +1,3 @@
----
-title: SIEM Integration Overview
-sidebar_label: SIEM Integration
-description: Integrate Netwrix Auditor with SIEM solutions to enrich security data with actionable context and human-readable audit information.
----
-
 # SIEM
 
 Netwrix Auditor Add-on for SIEM helps you to get most from your SIEM investment. This topic focuses

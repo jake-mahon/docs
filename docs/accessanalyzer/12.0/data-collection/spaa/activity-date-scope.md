@@ -1,9 +1,3 @@
----
-title: activity date scope
-sidebar_label: activity date scope
-description: Documentation for activity date scope functionality in Access Analyzer including configuration and usage information.
----
-
 # SPAA: Activity Date Scope
 
 The Activity Date Scope page is where the range of dates for which the SharePoint activity scan will

@@ -1,9 +1,3 @@
----
-title: aws users aws staleusers
-sidebar_label: aws staleusers
-description: Solution guide for aws users aws staleusers including implementation steps, configuration, and best practices.
----
-
 # AWS_StaleUsers Job
 
 The AWS_StaleUsers job provides details on the last time each user logged in or their access key was

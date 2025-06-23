@@ -1,9 +1,3 @@
----
-title: filesystem activity suspiciousactivity overview
-sidebar_label: overview
-description: Solution guide for filesystem activity suspiciousactivity overview including implementation steps, configuration, and best practices.
----
-
 # Suspicious Activity Job Group
 
 The Suspicious Activity job group is designed to report on potentially suspicious activity event

@@ -1,9 +1,3 @@
----
-title: User, Group, & Application Details Page
-sidebar_label: properties
-description: Administrative configuration and management features for Privilege Secure PAM solution including user management, policies, and security settings.
----
-
 # User, Group, & Application Details Page
 
 The User, Group, & Application Details page shows additional information on the selected user or

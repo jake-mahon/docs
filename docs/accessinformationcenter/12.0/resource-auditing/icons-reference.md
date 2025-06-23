@@ -1,9 +1,3 @@
----
-title: Access Information Center Icons Reference
-sidebar_label: Icons Reference
-description: Complete visual reference guide showing resource type icons and trustee icons used throughout Access Information Center interface.
----
-
 # AIC Icons
 
 The following tables show the icons for resources and trustees in the Netwrix Access Information

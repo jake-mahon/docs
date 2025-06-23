@@ -1,9 +1,3 @@
----
-title: Unix Make Directory Collection
-sidebar_label: Make Directory
-description: Unix make directory collection job for creating directory structures required for sudoers analysis and data collection.
----
-
 # UX_MakeDirectory Job
 
 The UX_MakeDirectory job creates a temporary Enterprise Auditor directory on the target host to be

@@ -1,9 +1,3 @@
----
-title: Password Reset Data Filtering Tools
-sidebar_label: Filtering Data
-description: Use Password Reset Filter Editor for data filtering including complex filters, hidden columns, and saved filter management.
----
-
 # Filter Editor
 
 Use the Filter Editor to create complex filters, filters for hidden columns, or to save and open

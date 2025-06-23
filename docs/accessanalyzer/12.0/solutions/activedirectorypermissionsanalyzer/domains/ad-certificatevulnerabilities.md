@@ -1,9 +1,3 @@
----
-title: activedirectorypermissionsanalyzer domains ad certificatevulnerabilities
-sidebar_label: ad certificatevulnerabilities
-description: Solution guide for activedirectorypermissionsanalyzer domains ad certificatevulnerabilities including implementation steps, configuration, and best practices.
----
-
 # AD_CertificateVulnerabilities Job
 
 The AD_CertificateVulnerabilities job highlights vulnerabilities in the configuration and

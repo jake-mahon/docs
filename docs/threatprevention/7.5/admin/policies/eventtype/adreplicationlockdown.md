@@ -1,9 +1,3 @@
----
-title: AD Replication Lockdown Event Type
-sidebar_label: AD Replication Lockdown Event
-description: The primary use case of the AD Replication Lockdown event type is to prevent non-domain controllers from using replication APIs. Each blocked replication att...
----
-
 # AD Replication Lockdown Event Type
 
 The primary use case of the AD Replication Lockdown event type is to prevent non-domain controllers

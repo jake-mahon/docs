@@ -1,9 +1,3 @@
----
-title: databases oracle collection 5 oracle configuration
-sidebar_label: 5 oracle configuration
-description: Solution guide for databases oracle collection 5 oracle configuration including implementation steps, configuration, and best practices.
----
-
 # 5-Oracle_Configuration Job
 
 The 5-Oracle_Configuration Job is designed to return additional configuration settings from Oracle

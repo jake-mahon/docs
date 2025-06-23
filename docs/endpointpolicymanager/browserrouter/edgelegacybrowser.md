@@ -1,9 +1,3 @@
----
-title: Browser Router Edge Legacy Package
-sidebar_label: Edge Legacy
-description: Learn about PPBREdgePackage, the Browser Router component for Edge Legacy browser that enforces routing policies in older Edge environments.
----
-
 # What is PPBREdgePackage and When is it used?
 
 PPBREdgePackage is automatically installed when Edge Legacy is present and a Browser Router policy

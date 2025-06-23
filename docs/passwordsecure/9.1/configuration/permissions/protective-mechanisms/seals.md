@@ -1,9 +1,3 @@
----
-title: Protective Mechanisms and Seals
-sidebar_label: Protective Mechanisms
-description: Overview of Password Secure protective mechanisms including seals and authorization concepts for comprehensive data security and access control.
----
-
 # Protective mechanisms
 
 ## What are protective mechanisms?

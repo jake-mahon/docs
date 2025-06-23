@@ -1,9 +1,3 @@
----
-title: Lock and/or Unlock Account Custom Script
-sidebar_label: Lock and/or Unlock Account
-description: The following C# script sends an email notification to the specified user when an Active Directory account is locked and/or unlocked.
----
-
 # Lock and/or Unlock Account Custom Script
 
 The following C# script sends an email notification to the specified user when an Active Directory

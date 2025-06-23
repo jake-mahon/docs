@@ -1,9 +1,3 @@
----
-title: overview
-sidebar_label: overview
-description: Documentation for overview functionality in Access Analyzer including configuration and usage information.
----
-
 # WebRequest Action Module
 
 The Web Request action module provides methods of applying bulk changes to REST endpoints. At this

@@ -1,9 +1,3 @@
----
-title: First Time Login
-sidebar_label: login
-description: End user documentation covering session management, access procedures, dashboard functionality, and browser extension usage.
----
-
 # First Time Login
 
 Remote Access Gateway users can access the portal via the URL provided by a Netwrix Privilege

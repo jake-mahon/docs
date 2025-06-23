@@ -1,9 +1,3 @@
----
-title: SQL Server Requirements
-sidebar_label: SQL Server
-description: SQL Server database requirements including version compatibility, configuration settings, and performance recommendations for Threat Prevention.
----
-
 # SQL Server Requirements
 
 Threat Prevention supports the following SQL Server versions:

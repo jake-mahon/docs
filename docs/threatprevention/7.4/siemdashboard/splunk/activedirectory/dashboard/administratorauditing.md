@@ -1,9 +1,3 @@
----
-title: Administrator Auditing Dashboard
-sidebar_label: Administrator Auditing Dashboard
-description: The Administrator Auditing dashboard is specifically fed by a Threat Prevention policy named Domain Admin Activity. See the
----
-
 # Administrator Auditing Dashboard
 
 The Administrator Auditing dashboard is specifically fed by a Threat Prevention policy named Domain

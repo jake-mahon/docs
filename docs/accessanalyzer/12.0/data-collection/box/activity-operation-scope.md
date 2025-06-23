@@ -1,9 +1,3 @@
----
-title: activity operation scope
-sidebar_label: activity operation scope
-description: Documentation for activity operation scope functionality in Access Analyzer including configuration and usage information.
----
-
 # Box: Activity Operation Scope
 
 The Activity Operation Scope page (ActivityOperationScope) is where Box Enterprise events can be

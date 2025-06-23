@@ -1,9 +1,3 @@
----
-title: Viewing Platform Governor Status
-sidebar_label: Governor Status
-description: Monitor Strongpoint's usage of Salesforce governor limits with live status updates and configurable thresholds to prevent org limit overruns.
----
-
 # Viewing the Platform Governor Status
 
 This is a live status update of the Strongpoint Usage of SFDC Governor Limit. Access it from

@@ -1,9 +1,3 @@
----
-title: file details
-sidebar_label: file details
-description: Documentation for file details functionality in Access Analyzer including configuration and usage information.
----
-
 # File Details Tab
 
 The File Details tab allows configuration of settings for file detail collection.

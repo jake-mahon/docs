@@ -1,9 +1,3 @@
----
-title: Portal synchronize provider
-sidebar_label: provider
-description: Directory Manager portal documentation for synchronize functionality including user interface, navigation, and operational procedures.
----
-
 # Synchronize Providers
 
 You can create identity stores for several identity providers (such as Active Directory and

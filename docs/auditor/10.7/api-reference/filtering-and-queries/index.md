@@ -1,9 +1,3 @@
----
-title: index
-sidebar_label: index
-description: Auditor 10.7 documentation for index with configuration details, usage instructions, and implementation guidance.
----
-
 # Filters
 
 Review the table below to learn more about filters. The filters correspond to Activity Record

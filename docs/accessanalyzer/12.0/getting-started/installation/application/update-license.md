@@ -1,9 +1,3 @@
----
-title: Getting Started: update license
-sidebar_label: update license
-description: Getting started guide for update license in Access Analyzer including setup instructions and initial configuration steps.
----
-
 # Update License Key
 
 It is necessary to install a new license key for an existing Access Analyzer installation due to the

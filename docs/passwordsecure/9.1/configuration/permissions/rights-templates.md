@@ -1,9 +1,3 @@
----
-title: Rights Templates Configuration
-sidebar_label: Rights Templates
-description: Configure and reuse permission templates for consistent access control across Password Secure with globally available saved permission configurations.
----
-
 # Right templates
 
 ## Using right templates

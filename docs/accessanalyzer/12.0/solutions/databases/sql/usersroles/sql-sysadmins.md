@@ -1,9 +1,3 @@
----
-title: databases sql usersroles sql sysadmins
-sidebar_label: sql sysadmins
-description: Solution guide for databases sql usersroles sql sysadmins including implementation steps, configuration, and best practices.
----
-
 # SQL_SysAdmins Job
 
 The SQL_SysAdmins Job provides insight into users who have SQL server administration roles across

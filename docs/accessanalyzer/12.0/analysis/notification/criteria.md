@@ -1,9 +1,3 @@
----
-title: criteria
-sidebar_label: criteria
-description: Documentation for criteria functionality in Access Analyzer including configuration and usage information.
----
-
 # Notification: Criteria
 
 Use the Notification Criteria page to specify criteria to trigger a notification.

@@ -1,9 +1,3 @@
----
-title: user lifecycle
-sidebar_label: user-lifecycle
-description: Directory Manager 11.0 documentation for user lifecycle with configuration details, usage instructions, and implementation guidance.
----
-
 # Extend-User
 
 Use the **Extend-User** commandlet to extend the user lifecycle of an expired user for specified

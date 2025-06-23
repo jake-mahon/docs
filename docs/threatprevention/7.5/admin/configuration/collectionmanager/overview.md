@@ -1,9 +1,3 @@
----
-title: Collection Manager Overview
-sidebar_label: Collection Manager
-description: Centralized management interface for creating and organizing reusable collections of policy filter settings for efficient policy configuration.
----
-
 # Collection Manager Window
 
 The Collection Manager window enables you to manage all Microsoft Collections. Click

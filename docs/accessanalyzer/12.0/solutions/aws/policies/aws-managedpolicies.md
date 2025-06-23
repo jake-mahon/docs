@@ -1,9 +1,3 @@
----
-title: aws policies aws managedpolicies
-sidebar_label: aws managedpolicies
-description: Solution guide for aws policies aws managedpolicies including implementation steps, configuration, and best practices.
----
-
 # AWS_ManagedPolicies Job
 
 The AWS_ManagedPolicies job provides details on policies managed by Amazon in the AWS Organization.

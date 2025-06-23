@@ -1,9 +1,3 @@
----
-title: exchange online
-sidebar_label: exchange-online
-description: Auditor 10.6 documentation for exchange online with configuration details, usage instructions, and implementation guidance.
----
-
 # Assigning Application Permissions Using Manifest
 
 Follow the steps to assign Exchange Online application permissions using manifest.

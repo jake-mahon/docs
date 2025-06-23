@@ -1,9 +1,3 @@
----
-title: Getting Started: mail flow
-sidebar_label: mail flow
-description: Getting started guide for mail flow in Access Analyzer including setup instructions and initial configuration steps.
----
-
 # Exchange Mail-Flow Permissions
 
 The ExchangeMetrics Data Collector collects Mail-Flow metrics from the Exchange Message Tracking

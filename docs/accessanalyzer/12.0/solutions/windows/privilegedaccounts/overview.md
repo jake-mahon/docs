@@ -1,9 +1,3 @@
----
-title: windows privilegedaccounts overview
-sidebar_label: overview
-description: Solution guide for windows privilegedaccounts overview including implementation steps, configuration, and best practices.
----
-
 # Privileged Accounts Job Group
 
 Vital to security is the ability to accurately assess who has administrative privileges to each

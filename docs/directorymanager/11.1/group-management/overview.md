@@ -1,9 +1,3 @@
----
-title: Groups and Dynasty Management
-sidebar_label: Overview
-description: Create and manage static groups, Smart Groups with dynamic membership, and Dynasties for hierarchical organizational structure management.
----
-
 # Groups
 
 Using Directory Manager portal, you can create:

@@ -1,9 +1,3 @@
----
-title: Events Page
-sidebar_label: events
-description: Documentation for Privilege Secure privileged access management solution covering features, configuration, and usage procedures.
----
-
 # Events Page
 
 The Events page shows event logs for the Privilege Secure Console.

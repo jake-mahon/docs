@@ -1,9 +1,3 @@
----
-title: Browser Router IE Document Modes
-sidebar_label: IE Modes
-description: Configure Browser Router to use Internet Explorer document modes in Edge IE Tab for legacy web application compatibility and proper rendering.
----
-
 # How to Configure Browser Router to use IE Document Modes in Edge IE TAB
 
 **NOTE:** The IE Tab function is only supported in Edge Chromium Edition. You must have Edge

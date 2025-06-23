@@ -1,9 +1,3 @@
----
-title: AWS Cloud Integration
-sidebar_label: AWS
-description: Integrate Netwrix Auditor with Amazon Web Services for comprehensive cloud infrastructure monitoring and security auditing.
----
-
 # Automate Add-On Execution
 
 To ensure you feed the most recent data to your SIEM solution, Netwrix recommends scheduling a daily

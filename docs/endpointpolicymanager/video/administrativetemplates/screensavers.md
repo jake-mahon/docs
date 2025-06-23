@@ -1,9 +1,3 @@
----
-title: Ultimate Guide Managing Screensavers
-sidebar_label: Screensavers
-description: Learn advanced screensaver management techniques using Admin Templates Manager with selective targeting to apply policies to some machines while bypassing others.
----
-
 # The Ultimate Guide to Managing Screensavers
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/zuYhG4hbhb8" title="Endpoint Policy Manager: The Ultimate Guide to Managing Screensavers" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="1"></iframe>

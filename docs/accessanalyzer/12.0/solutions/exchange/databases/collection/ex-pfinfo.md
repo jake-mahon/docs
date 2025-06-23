@@ -1,9 +1,3 @@
----
-title: exchange databases collection ex pfinfo
-sidebar_label: ex pfinfo
-description: Solution guide for exchange databases collection ex pfinfo including implementation steps, configuration, and best practices.
----
-
 # 2.PF > EX_PFInfo Job
 
 The EX_PFInfo job utilizes MAPI to gather Public Folder Database Information focusing on database

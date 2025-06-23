@@ -1,9 +1,3 @@
----
-title: Portal report group
-sidebar_label: group
-description: Directory Manager portal documentation for report functionality including user interface, navigation, and operational procedures.
----
-
 # Group Reports
 
 Directory Manager Reports contains reports for the Group objects in the directory. Search a specific

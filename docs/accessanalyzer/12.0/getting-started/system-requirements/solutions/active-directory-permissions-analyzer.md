@@ -1,9 +1,3 @@
----
-title: Getting Started: active directory permissions analyzer
-sidebar_label: active directory permissions analyzer
-description: Getting started guide for active directory permissions analyzer in Access Analyzer including setup instructions and initial configuration steps.
----
-
 # Active Directory Permissions Analyzer Solution
 
 The core components for Netwrix Access Analyzer (formerly Enterprise Auditor) are the Access

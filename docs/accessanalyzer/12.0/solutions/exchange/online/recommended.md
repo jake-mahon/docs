@@ -1,9 +1,3 @@
----
-title: exchange online recommended
-sidebar_label: recommended
-description: Solution guide for exchange online recommended including implementation steps, configuration, and best practices.
----
-
 # Recommended Configurations for the 8. Exchange Online Job Group
 
 Dependencies

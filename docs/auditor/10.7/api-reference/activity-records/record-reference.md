@@ -1,9 +1,3 @@
----
-title: record reference
-sidebar_label: record-reference
-description: Auditor 10.7 documentation for record reference with configuration details, usage instructions, and implementation guidance.
----
-
 # Reference for Creating Activity Records
 
 The table below describes Activity Record elements.

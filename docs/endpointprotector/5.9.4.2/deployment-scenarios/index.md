@@ -1,9 +1,3 @@
----
-title: Cloud Deployment Scenarios
-sidebar_label: Cloud Services
-description: Brief guidance on utilizing Netwrix Endpoint Protector Server in various cloud environments including Amazon AWS, Azure, and Google Cloud.
----
-
 # Cloud Services
 
 This User Guide offers brief guidance on utilizing the Netwrix Endpoint Protector Server in Amazon

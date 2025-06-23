@@ -1,9 +1,3 @@
----
-title: exchange mailboxes sizing ex mailboxsizes
-sidebar_label: ex mailboxsizes
-description: Solution guide for exchange mailboxes sizing ex mailboxsizes including implementation steps, configuration, and best practices.
----
-
 # EX_MailboxSizes Job
 
 The EX_MailboxSizes job provides analysis and reporting around mailbox sizing and growth.

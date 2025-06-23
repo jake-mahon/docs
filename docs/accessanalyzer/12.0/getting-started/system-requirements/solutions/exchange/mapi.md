@@ -1,9 +1,3 @@
----
-title: Getting Started: mapi
-sidebar_label: mapi
-description: Getting started guide for mapi in Access Analyzer including setup instructions and initial configuration steps.
----
-
 # MAPI-Based Data Collector Permissions
 
 The Exchange2K, ExchangeMailbox, and ExchangePublicFolder data collectors have other permission

@@ -1,9 +1,3 @@
----
-title: aws overview
-sidebar_label: overview
-description: Solution guide for aws overview including implementation steps, configuration, and best practices.
----
-
 # AWS Solution
 
 Access Analyzer for AWS allows organizations to secure their data residing in Amazon Web Services

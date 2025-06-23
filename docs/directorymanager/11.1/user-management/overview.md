@@ -1,9 +1,3 @@
----
-title: Create Active Directory User Objects
-sidebar_label: Overview
-description: Create and manage different types of Active Directory user objects including standard users, contacts, and disabled users in Directory Manager.
----
-
 # Create Active Directory User Objects
 
 In an Active Directory identity stores, you can create the following types of users:

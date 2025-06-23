@@ -1,9 +1,3 @@
----
-title: Secure Reporting Module Console
-sidebar_label: Console Security
-description: Configure HTTPS support for Threat Manager Reporting Module by importing SSL certificates and updating service configuration files with proper settings.
----
-
 # Secure the Reporting Module Console
 
 To support HTTPS, do the following:

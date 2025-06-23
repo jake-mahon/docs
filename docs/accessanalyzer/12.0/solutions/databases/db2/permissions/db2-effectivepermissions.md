@@ -1,9 +1,3 @@
----
-title: databases db2 permissions db2 effectivepermissions
-sidebar_label: db2 effectivepermissions
-description: Solution guide for databases db2 permissions db2 effectivepermissions including implementation steps, configuration, and best practices.
----
-
 # Db2_EffectivePermissions Job
 
 This job provides insight into effective user and role permissions to all the database objects in

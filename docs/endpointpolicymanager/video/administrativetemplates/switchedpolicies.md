@@ -1,9 +1,3 @@
----
-title: Admin Templates Switched Policies Without Loopback
-sidebar_label: Switched Policies
-description: Learn how to deliver user side settings on the computer side without using Group Policy loopback processing, eliminating complexity and troubleshooting issues.
----
-
 # Endpoint Policy Manager Admin Templates Manager: Switched Policies (without Loopback)
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/GRJBVV7yr8U" title="Endpoint Policy Manager Admin Templates Manager: Switched Policies (without Loopback)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="1"></iframe>

@@ -1,9 +1,3 @@
----
-title: Approvals Dashboard
-sidebar_label: approvals
-description: End user documentation covering session management, access procedures, dashboard functionality, and browser extension usage.
----
-
 # Approvals Dashboard
 
 The Approvals Dashboard displays requested sessions that require approval. Users and group members

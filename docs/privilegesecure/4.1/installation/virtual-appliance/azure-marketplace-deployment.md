@@ -1,9 +1,3 @@
----
-title: Configure Azure Marketplace VM Instance
-sidebar_label: azure marketplace deployment
-description: Installation procedures, system requirements, and deployment configuration for Privilege Secure components and services.
----
-
 # Configure Azure Marketplace VM Instance
 
 Follow the steps below to configure the Azure Marketplace VM instance.

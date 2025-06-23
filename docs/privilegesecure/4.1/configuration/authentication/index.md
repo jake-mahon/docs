@@ -1,9 +1,3 @@
----
-title: Authentication Page
-sidebar_label: Overview
-description: System configuration settings and advanced options for authentication, integrations, services, and security parameters.
----
-
 # Authentication Page
 
 The Authentication page is accessible from the Navigation pane under Configuration. It shows the

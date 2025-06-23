@@ -1,9 +1,3 @@
----
-title: Group Managed Service Account Configuration
-sidebar_label: gMSA
-description: Configure Group Managed Service Accounts for simplified password management and enhanced security in 1Secure data collection.
----
-
 # Using Group Managed Service Account (gMSA)
 
 Netwrix 1Secure supports using Group Managed Service Accounts (gMSA) for data collection and

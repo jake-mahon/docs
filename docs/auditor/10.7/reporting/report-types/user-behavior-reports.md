@@ -1,9 +1,3 @@
----
-title: user behavior reports
-sidebar_label: user-behavior-reports
-description: Auditor 10.7 documentation for user behavior reports with configuration details, usage instructions, and implementation guidance.
----
-
 # User Behavior and Blind Spot Analysis Reports
 
 The User Behavior and Blind Spot Analysis report pack contains a set of smart reports that help you

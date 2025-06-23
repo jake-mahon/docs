@@ -1,9 +1,3 @@
----
-title: conceptClassifier App Options
-sidebar_label: Concept Classifier
-description: This section contains the settings related to conceptClassifier application. As these are advanced options, you should click the screwdriver icon at Settings...
----
-
 # conceptClassifier App Options
 
 This section contains the settings related to conceptClassifier application. As these are advanced

@@ -1,9 +1,3 @@
----
-title: signing in
-sidebar_label: signing-in
-description: Directory Manager 11.1 documentation for signing in with configuration details, usage instructions, and implementation guidance.
----
-
 # Access Admin Center
 
 Admin Center is a web-based application that can be accessed over the Internet and Intranet. It

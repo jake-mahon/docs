@@ -1,9 +1,3 @@
----
-title: databases sql usersroles sql serverprincipals
-sidebar_label: sql serverprincipals
-description: Solution guide for databases sql usersroles sql serverprincipals including implementation steps, configuration, and best practices.
----
-
 # SQL_ServerPrincipals Job
 
 The SQL_ServerPrincipals Job provides information on server principals at the instance level across

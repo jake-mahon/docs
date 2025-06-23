@@ -1,9 +1,3 @@
----
-title: Settings Delivery and Reinforcement
-sidebar_label: Settings Reinforcement
-description: Configure application settings delivery and reinforcement options for online and offline scenarios with Group Policy background refresh automation.
----
-
 # Settings Delivery and Reinforcement Options
 
 When the client is online and able to make contact with a domain controller, Endpoint Policy Manager

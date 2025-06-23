@@ -1,9 +1,3 @@
----
-title: notifications
-sidebar_label: notifications
-description: Documentation for notifications functionality in Access Analyzer including configuration and usage information.
----
-
 # Notification: Change Type
 
 Use the Select Change Type page to choose the types of changes for which to trigger a notification.

@@ -1,9 +1,3 @@
----
-title: Linking GPO to OU
-sidebar_label: Link GPO
-description: Link Group Policy Objects to Organization Units (OU) in Active Directory for Endpoint Protector deployment management.
----
-
 # Linking the GPO to OU
 
 Once you have created the GPOs, link them to any of your Organization Units (OU). To do so, follow

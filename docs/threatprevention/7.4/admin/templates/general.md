@@ -1,9 +1,3 @@
----
-title: General Tab
-sidebar_label: General Tab
-description: The General tab is for editing the basic attributes of the template. !Template – General Tab Name The name should be unique and descriptive. It is displayed ...
----
-
 # General Tab
 
 The General tab is for editing the basic attributes of the template.

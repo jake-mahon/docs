@@ -1,9 +1,3 @@
----
-title: Text Search Criteria Configuration
-sidebar_label: Search Criteria
-description: Search criteria configuration for Text Search data collector including patterns, keywords, and filtering options.
----
-
 # TextSearch: Search Criteria
 
 The Search Criteria page provides configuration options to specify the text to search for across the

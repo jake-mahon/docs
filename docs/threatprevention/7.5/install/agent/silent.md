@@ -1,9 +1,3 @@
----
-title: Silent Agent Installation
-sidebar_label: Silent Install
-description: Silent agent installation guide for automated deployment using command-line parameters and configuration files.
----
-
 # Agent Silent Install Option
 
 You can use command line options to install the Agent silently. These options can be leveraged to

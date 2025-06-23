@@ -1,9 +1,3 @@
----
-title: User Profiles and Anomaly Processing
-sidebar_label: User Profiles
-description: Review user profiles and process behavior anomalies in Netwrix Auditor to identify unusual activity patterns and security threats.
----
-
 # Review User Profiles and Process Anomalies
 
 The user profile enables you to investigate user behavior and take a closer look at anomalies.

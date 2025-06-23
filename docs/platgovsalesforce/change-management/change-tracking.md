@@ -1,9 +1,3 @@
----
-title: Change Tracking with Change Logs
-sidebar_label: Change Tracking
-description: Monitor and track system changes with change logs, view modification history, and analyze changes for compliance and audit purposes.
----
-
 # Using Change Logs
 
 Change Logs allow you to see the type of change, who made the change and view the system notes of

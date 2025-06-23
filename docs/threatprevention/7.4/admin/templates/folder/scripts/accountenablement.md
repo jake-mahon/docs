@@ -1,9 +1,3 @@
----
-title: Account Enablement Custom Script
-sidebar_label: Account Enablement Custom Script
-description: The following C# script sends an email notification to the specified administrator when an Active Directory account is enabled.
----
-
 # Account Enablement Custom Script
 
 The following C# script sends an email notification to the specified administrator when an Active

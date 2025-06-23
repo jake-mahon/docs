@@ -1,9 +1,3 @@
----
-title: windows privilegedaccounts localadministrators overview
-sidebar_label: overview
-description: Solution guide for windows privilegedaccounts localadministrators overview including implementation steps, configuration, and best practices.
----
-
 # Local Administrators Job Group
 
 ![Local Administrators Job Group in the Jobs Tree](/img/versioned_docs/accessanalyzer_11.6/accessanalyzer/admin/hostmanagement/jobstree.webp)

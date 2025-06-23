@@ -1,9 +1,3 @@
----
-title: Threat Manager Administration Overview
-sidebar_label: Administration
-description: Administrative interface guide covering configuration menu, home page navigation, threats page, investigations, and interactive dashboard elements.
----
-
 # Configuration Menu
 
 Use the gear icon in the upper right corner of the console to open the Configuration menu.

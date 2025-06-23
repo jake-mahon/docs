@@ -1,9 +1,3 @@
----
-title: Alerts Cleanup Window
-sidebar_label: Alerts Cleanup Window
-description: You can clear alert data displayed on the Alerts Interface as well as schedule cleanups for this data.
----
-
 # Alerts Cleanup Window
 
 You can clear alert data displayed on the

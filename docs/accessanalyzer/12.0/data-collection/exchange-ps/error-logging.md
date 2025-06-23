@@ -1,9 +1,3 @@
----
-title: error logging
-sidebar_label: error logging
-description: Documentation for error logging functionality in Access Analyzer including configuration and usage information.
----
-
 # ExchangePS: Error Logging
 
 The Error Logging page is used to configure how long to keep the PowerShell logs. It is a wizard

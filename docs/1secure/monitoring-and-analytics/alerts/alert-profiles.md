@@ -1,9 +1,3 @@
----
-title: Alert Profiles Configuration
-sidebar_label: Alert Profiles
-description: Configure alert profiles to group alert configurations and delivery notification settings for streamlined security monitoring.
----
-
 # Alert Profiles
 
 Alert profiles provide a way to easily group alert configurations and delivery notification settings

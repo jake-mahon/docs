@@ -1,9 +1,3 @@
----
-title: activity settings
-sidebar_label: activity settings
-description: Documentation for activity settings functionality in Access Analyzer including configuration and usage information.
----
-
 # FSAA: Activity Settings
 
 The File System Activity Auditor Scan Filter Settings page is where activity scan filter settings

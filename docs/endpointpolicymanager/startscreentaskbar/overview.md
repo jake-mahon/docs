@@ -1,9 +1,3 @@
----
-title: Start Screen Taskbar Manager Configuration
-sidebar_label: Overview
-description: Configure Windows 10 Start Menu tiles and taskbar pinning. Organize applications into groups and control user desktop experience across endpoints.
----
-
 # Start Screen & Taskbar Manager
 
 **NOTE:** Before reading this section, please ensure you have read

@@ -1,9 +1,3 @@
----
-title: Active Directory App for QRadar
-sidebar_label: Active Directory App QRadar
-description: The Netwrix Active Directory security monitoring solution enables organizations to efficiently monitor and prevent Active Directory changes, authentications,...
----
-
 # Active Directory App for QRadar
 
 The Netwrix Active Directory security monitoring solution enables organizations to efficiently

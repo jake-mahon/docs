@@ -1,9 +1,3 @@
----
-title: Create Active Directory Dynasty
-sidebar_label: Creating Groups
-description: Create organizational, geographical, managerial, and custom Dynasty templates for automated Smart Group hierarchies with multi-level membership management.
----
-
 # Create an Active Directory Dynasty
 
 The Directory Manager portal provides the following templates for creating Dynasties:

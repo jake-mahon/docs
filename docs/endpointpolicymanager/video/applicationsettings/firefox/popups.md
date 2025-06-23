@@ -1,9 +1,3 @@
----
-title: Firefox Pop-ups and Permissions Management
-sidebar_label: Pop-ups
-description: Learn to control Firefox pop-up blockers and site permissions including location, camera, microphone, and notifications using Group Policy settings.
----
-
 # Manage Firefox Pop-Ups and Permissions using Group Policy
 
 Want to see how to dictate which websites can allow or block pop-ups? How about permissions like

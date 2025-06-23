@@ -1,9 +1,3 @@
----
-title: windows authentication sg_lsasettings
-sidebar_label: sg_lsasettings
-description: Solution guide for windows authentication sg_lsasettings including implementation steps, configuration, and best practices.
----
-
 # SG_LSASettings Job
 
 The SG_LASettings job lists settings on all targeted hosts. In particular, the RunAsPPL,

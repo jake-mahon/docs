@@ -1,9 +1,3 @@
----
-title: exchange distributionlists membershipanalysis ex circularnesting
-sidebar_label: ex circularnesting
-description: Solution guide for exchange distributionlists membershipanalysis ex circularnesting including implementation steps, configuration, and best practices.
----
-
 # EX_CircularNesting Job
 
 The EX_CircularNesting job identifies where circular nesting exists within distribution groups.

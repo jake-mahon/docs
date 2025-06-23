@@ -1,9 +1,3 @@
----
-title: activedirectorypermissionsanalyzer domains overview
-sidebar_label: overview
-description: Solution guide for activedirectorypermissionsanalyzer domains overview including implementation steps, configuration, and best practices.
----
-
 # 8.Domains Job Group
 
 The 8.Domains job group reports on all Active Directory permissions applied to domain objects within

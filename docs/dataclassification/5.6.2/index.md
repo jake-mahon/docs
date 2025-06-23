@@ -1,9 +1,3 @@
----
-title: Netwrix Data Classification 5.6.2
-sidebar_label: 5.6.2
-description: Netwrix Data Classification automatically discovers and classifies sensitive data across file servers, SharePoint, and other repositories. It enables...
----
-
 # Netwrix Data Classification 5.6.2
 
 > **Identify and protect sensitive data across your entire organization**

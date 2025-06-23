@@ -1,9 +1,3 @@
----
-title: What Does Flashlight Document
-sidebar_label: Features
-description: Comprehensive overview of NetSuite objects captured and documented by Flashlight, including custom records, scripts, workflows, and partially documented items.
----
-
 # What Does Flashlight Document?
 
 There are three outcomes for customizations Flashlight finds in the system:

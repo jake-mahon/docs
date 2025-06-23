@@ -1,9 +1,3 @@
----
-title: sharepoint activity forensics sp permissionchanges
-sidebar_label: sp permissionchanges
-description: Solution guide for sharepoint activity forensics sp permissionchanges including implementation steps, configuration, and best practices.
----
-
 # SP_PermissionChanges Job
 
 This job identifies permission changes which have been performed on all monitored SharePoint sites

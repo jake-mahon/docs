@@ -1,9 +1,3 @@
----
-title: workflow deletereqstatus API
-sidebar_label: deletereqstatus
-description: API reference for deletereqstatus operations in Directory Manager with request parameters, response examples, and implementation details.
----
-
 # Delete Request Status
 
 Use this API to delete a request which has the specified status for more than specified days. For

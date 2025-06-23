@@ -1,9 +1,3 @@
----
-title: databases redshift sensitive data redshift sensitivedata
-sidebar_label: redshift sensitivedata
-description: Solution guide for databases redshift sensitive data redshift sensitivedata including implementation steps, configuration, and best practices.
----
-
 # Redshift_SensitiveData Job
 
 This job provides information on all the sensitive data discovered in the targeted Redshift servers

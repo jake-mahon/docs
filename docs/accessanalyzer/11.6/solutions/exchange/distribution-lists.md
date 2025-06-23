@@ -1,9 +1,3 @@
----
-title: exchange distribution lists
-sidebar_label: distribution lists
-description: Solution guide for exchange distribution lists including implementation steps, configuration, and best practices.
----
-
 # EX_DLCleanup Job
 
 The EX_DLCleanup job identifies potentially stale Distribution Groups based on the last domain logon

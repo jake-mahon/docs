@@ -1,9 +1,3 @@
----
-title: Password Security Dictionaries Configuration
-sidebar_label: Dictionaries
-description: Dictionaries configuration for Password Security data collector including dictionary files and custom word lists for password analysis.
----
-
 # PasswordSecurity: Dictionaries
 
 The Dictionaries page provides configuration settings for storing passwords to be used as a

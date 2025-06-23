@@ -1,9 +1,3 @@
----
-title: Policies Interface Overview
-sidebar_label: Policies
-description: Central interface for managing all Threat Prevention policies with sorting, organization, and configuration options for monitoring and blocking rules.
----
-
 # Policies Interface
 
 The Policies interface lists all policies that you have defined in Threat Prevention.

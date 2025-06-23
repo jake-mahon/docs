@@ -1,9 +1,3 @@
----
-title: upgrading
-sidebar_label: upgrading
-description: Directory Manager 11.1 documentation for upgrading with configuration details, usage instructions, and implementation guidance.
----
-
 # Notes on Upgrade
 
 Consider the following when upgrading to Directory Manager 11 from GroupID 9 and 10.

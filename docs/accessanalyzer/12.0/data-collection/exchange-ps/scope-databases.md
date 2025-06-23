@@ -1,9 +1,3 @@
----
-title: scope databases
-sidebar_label: scope databases
-description: Documentation for scope databases functionality in Access Analyzer including configuration and usage information.
----
-
 # ExchangePS: Scope by DB
 
 The Scope by Databases page is used to define specific databases to search. This page is enabled

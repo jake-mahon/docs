@@ -1,9 +1,3 @@
----
-title: active directory ad security assessment
-sidebar_label: ad security assessment
-description: Solution guide for active directory ad security assessment including implementation steps, configuration, and best practices.
----
-
 # AD Security Assessment Job
 
 The AD_SecurityAssessment Job performs checks against Active Directory security best practices in

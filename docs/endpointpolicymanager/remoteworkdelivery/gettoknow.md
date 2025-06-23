@@ -1,9 +1,3 @@
----
-title: Getting to Know Remote Work
-sidebar_label: Getting Started
-description: Introduction to Remote Work Delivery Manager's MMC snap-in for creating policies and collections to manage file deployment to endpoints.
----
-
 # Getting to Know Remote Work Delivery Manager
 
 Netwrix Endpoint Policy Manager (formerly PolicyPak) Remote Work Delivery Manager is contained

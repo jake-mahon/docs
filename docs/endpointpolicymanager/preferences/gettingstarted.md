@@ -1,9 +1,3 @@
----
-title: Preferences Manager Getting Started Guide
-sidebar_label: Getting Started
-description: Deploy Microsoft Group Policy Preferences without Group Policy. Maintain compliance for settings even when computers go offline using SCCM or MDM.
----
-
 # Quick Start
 
 This Quickstart of Netwrix Endpoint Policy Manager (formerly PolicyPak) Preferences Manager will

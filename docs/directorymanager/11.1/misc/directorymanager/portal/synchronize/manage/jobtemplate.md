@@ -1,9 +1,3 @@
----
-title: Portal synchronize manage jobtemplate
-sidebar_label: jobtemplate
-description: Directory Manager portal documentation for synchronize manage functionality including user interface, navigation, and operational procedures.
----
-
 # Job Templates
 
 Synchronize comes with a set of pre-defined job templates that represent some of the most common

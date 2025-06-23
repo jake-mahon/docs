@@ -1,9 +1,3 @@
----
-title: activedirectorypermissionsanalyzer users ad resetpasswordpermissions
-sidebar_label: ad resetpasswordpermissions
-description: Solution guide for activedirectorypermissionsanalyzer users ad resetpasswordpermissions including implementation steps, configuration, and best practices.
----
-
 # AD_ResetPasswordPermissions Job
 
 The AD_ResetPasswordPermissions Job highlights all Active Directory users that are capable of

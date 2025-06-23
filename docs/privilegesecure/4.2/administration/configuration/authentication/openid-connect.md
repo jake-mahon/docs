@@ -1,9 +1,3 @@
----
-title: OpenID Connect Authentication
-sidebar_label: openid connect
-description: Administrative configuration and management features for Privilege Secure PAM solution including user management, policies, and security settings.
----
-
 # OpenID Connect Authentication
 
 ## Okta

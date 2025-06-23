@@ -1,9 +1,3 @@
----
-title: target
-sidebar_label: target
-description: Documentation for target functionality in Access Analyzer including configuration and usage information.
----
-
 # Active Directory Action Target
 
 Use the Target (Identification Criteria) page to select one or more fields (columns) in the Access

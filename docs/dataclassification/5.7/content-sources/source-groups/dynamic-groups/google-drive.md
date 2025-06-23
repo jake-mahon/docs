@@ -1,9 +1,3 @@
----
-title: Dynamic Source Groups — Google Drive Organization
-sidebar_label: Google Drive
-description: This section contains information on how to configure Google Drive dynamic source groups. Toggle between Basic and Advanced configuration settings by clickin...
----
-
 # Dynamic Source Groups — Google Drive Organization
 
 This section contains information on how to configure Google Drive dynamic source groups. Toggle

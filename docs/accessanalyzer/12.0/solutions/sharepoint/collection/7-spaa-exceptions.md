@@ -1,9 +1,3 @@
----
-title: sharepoint collection 7 spaa exceptions
-sidebar_label: 7 spaa exceptions
-description: Solution guide for sharepoint collection 7 spaa exceptions including implementation steps, configuration, and best practices.
----
-
 # 7-SPAA_Exceptions Job
 
 This job searches scanned data for resources that match high risk conditions and retrieving a

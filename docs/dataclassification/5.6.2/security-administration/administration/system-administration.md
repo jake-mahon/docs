@@ -1,9 +1,3 @@
----
-title: Administrative Tasks
-sidebar_label: System Administration
-description: This section describes the operations that you can perform when administering your Netwrix Data Classification using the management console, in particular:...
----
-
 # Administrative Tasks
 
 This section describes the operations that you can perform when administering your Netwrix Data

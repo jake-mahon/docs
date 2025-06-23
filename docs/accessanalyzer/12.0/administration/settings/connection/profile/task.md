@@ -1,9 +1,3 @@
----
-title: task Administration
-sidebar_label: task
-description: Administration guide for task including configuration, management, and best practices for Access Analyzer.
----
-
 # Task for User Credentials
 
 The information in this section applies to Select Account Type > Task (Local) or Task (Domain) in

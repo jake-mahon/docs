@@ -1,9 +1,3 @@
----
-title: active directory cleanup computers overview
-sidebar_label: overview
-description: Solution guide for active directory cleanup computers overview including implementation steps, configuration, and best practices.
----
-
 # 3.Computers Job Group
 
 The 3.Computers Job Group identifies stale computer accounts, providing a workflow to safely

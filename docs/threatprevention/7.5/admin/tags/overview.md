@@ -1,9 +1,3 @@
----
-title: Tags Management Overview
-sidebar_label: Tags
-description: Tag management system for organizing and categorizing events, policies, and resources in Threat Prevention for improved organization.
----
-
 # Tags Node
 
 Tags can be added to templates as an organizational tool. Tags are displaed as folders under the

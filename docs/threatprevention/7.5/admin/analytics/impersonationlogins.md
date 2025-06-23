@@ -1,9 +1,3 @@
----
-title: Impersonation Logins Analytics
-sidebar_label: Impersonation Logins
-description: Analytics for detecting multiple authenticated accounts from single systems indicating potential impersonation or token theft attacks.
----
-
 # Impersonation Logins Analytic Type
 
 The **Impersonation Logins** analytic type identifies multiple authenticated accounts from a single

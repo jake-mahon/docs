@@ -1,10 +1,3 @@
----
-title: Agent Safe Mode
-sidebar_label: Agent Safe Mode
-description: To collect real-time activity data, the Agent hooks into (intercepts) specific Microsoft APIs in the LSASS process. Below are some considerations:
-
----
-
 # Agent Safe Mode
 
 To collect real-time activity data, the Agent hooks into (intercepts) specific Microsoft APIs in the

@@ -1,9 +1,3 @@
----
-title: advanced settings
-sidebar_label: advanced-settings
-description: Auditor 10.7 documentation for advanced settings with configuration details, usage instructions, and implementation guidance.
----
-
 # Additional Configuration to Review Changes Made via Exchange Server
 
 If you have an on-premises Exchange server in your Active Directory domain, consider that some

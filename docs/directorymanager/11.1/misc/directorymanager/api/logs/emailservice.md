@@ -1,9 +1,3 @@
----
-title: logs emailservice API
-sidebar_label: emailservice
-description: API reference for emailservice operations in Directory Manager with request parameters, response examples, and implementation details.
----
-
 # Email Service Logs
 
 Use this API to get Email service logs. See the

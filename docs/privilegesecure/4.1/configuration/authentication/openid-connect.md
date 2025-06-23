@@ -1,9 +1,3 @@
----
-title: OpenID Connect Authentication
-sidebar_label: openid connect
-description: System configuration settings and advanced options for authentication, integrations, services, and security parameters.
----
-
 # OpenID Connect Authentication
 
 ## Okta

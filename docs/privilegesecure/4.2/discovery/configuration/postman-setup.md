@@ -1,9 +1,3 @@
----
-title: Postman: Installing and Configuring
-sidebar_label: postman setup
-description: System configuration settings and advanced options for authentication, integrations, services, and security parameters.
----
-
 # Postman: Installing and Configuring
 
 Postman: Installing and Configuring

@@ -1,9 +1,3 @@
----
-title: Browser Router XML Data Files
-sidebar_label: Browser Router
-description: Export Endpoint Policy Manager Browser Router settings as XML files for MDM deployment. Configure browser routing policies for deployment.
----
-
 # XML Data Files from Endpoint Policy Manager Browser Router
 
 Endpoint Policy Manager Browser Router settings can be exported as an XML file.

@@ -1,9 +1,3 @@
----
-title: Deploy TCP/IP Printer Using Remote Work Delivery
-sidebar_label: TCP/IP Printer
-description: Deploy TCP/IP printers using Endpoint Policy Manager Remote Work Delivery Manager. Step-by-step guide for network share setup and PowerShell installation.
----
-
 # How To deploy a TCP/IP Printer using Endpoint Policy Manager Remote Work Delivery Manager
 
 **Step 1 –** Zip up the Printer setup files and store on a network share that is accessible to the

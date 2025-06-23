@@ -1,9 +1,3 @@
----
-title: databases sql permissions sql domainuserpermissions
-sidebar_label: sql domainuserpermissions
-description: Solution guide for databases sql permissions sql domainuserpermissions including implementation steps, configuration, and best practices.
----
-
 # SQL_DomainUserPermissions Job
 
 The SQL_DomainUserPermissions Job provides insight into Microsoft Active Directory domain users’

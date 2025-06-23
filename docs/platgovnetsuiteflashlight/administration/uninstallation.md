@@ -1,9 +1,3 @@
----
-title: Uninstalling Flashlight Bundle
-sidebar_label: Uninstallation
-description: Step-by-step instructions for removing the Flashlight bundle from your NetSuite account using Suite Bundler's uninstall functionality.
----
-
 # Uninstalling Flashlight
 
 Here is how to uninstall the Flashlight bundle from your account:

@@ -1,9 +1,3 @@
----
-title: File Activity Monitor App for Splunk
-sidebar_label: Splunk
-description: Integrate Activity Monitor with Splunk using predefined dashboards for file activity overview, ransomware detection, permission changes, and deletions.
----
-
 # File Activity Monitor App for Splunk
 
 Stealthbits File Activity Monitor App for Splunk contains several predefined dashboards: File

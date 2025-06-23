@@ -1,9 +1,3 @@
----
-title: notification Administration
-sidebar_label: notification
-description: Administration guide for notification including configuration, management, and best practices for Access Analyzer.
----
-
 # Notification Tab
 
 The Notification tab is where email notifications are configured at the job level. Choose either to

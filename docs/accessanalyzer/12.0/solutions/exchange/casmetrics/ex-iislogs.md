@@ -1,9 +1,3 @@
----
-title: exchange casmetrics ex iislogs
-sidebar_label: ex iislogs
-description: Solution guide for exchange casmetrics ex iislogs including implementation steps, configuration, and best practices.
----
-
 # 0.Collection > EX_IISLogs Job
 
 The 0.Collection > EX_IISLogs Job provides data collection to be utilized in the ActiveSync, Outlook

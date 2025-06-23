@@ -1,9 +1,3 @@
----
-title: activedirectorypermissionsanalyzer ad shadowaccess
-sidebar_label: ad shadowaccess
-description: Solution guide for activedirectorypermissionsanalyzer ad shadowaccess including implementation steps, configuration, and best practices.
----
-
 # AD_ShadowAccess Job
 
 This job finds shadow access that leads to compromise of a domain or sensitive data. Attackers can

@@ -1,9 +1,3 @@
----
-title: Get tombstoneobject Cmdlet
-sidebar_label: gettombstoneobject
-description: PowerShell cmdlet reference for gettombstoneobject with parameter details, syntax examples, and usage instructions for Directory Manager.
----
-
 # Get-TombStoneObject
 
 When you delete an object from Directory, the object is not physically removed from the database.

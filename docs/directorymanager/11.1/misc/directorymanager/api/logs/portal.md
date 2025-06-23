@@ -1,9 +1,3 @@
----
-title: logs portal API
-sidebar_label: portal
-description: API reference for portal operations in Directory Manager with request parameters, response examples, and implementation details.
----
-
 # Portal Logs
 
 Use this API to get Directory Manager portal logs. See the

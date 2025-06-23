@@ -1,9 +1,3 @@
----
-title: databases db2 sensitivedata db2 sensitivedatapermissions
-sidebar_label: db2 sensitivedatapermissions
-description: Solution guide for databases db2 sensitivedata db2 sensitivedatapermissions including implementation steps, configuration, and best practices.
----
-
 # Db2_SensitiveDataPermissions Job
 
 This job provides all types of permissions on database objects containing sensitive data across all

@@ -1,9 +1,3 @@
----
-title: Prerequisites Check Window
-sidebar_label: Prerequisites Check Window
-description: The Deploy Agents wizard's Prerequisites Check window is the third in a sequence of four windows to deploy the Agent on a computer. On this window, Threat Pr...
----
-
 # Prerequisites Check Window
 
 The Deploy Agents wizard's Prerequisites Check window is the third in a sequence of four windows to

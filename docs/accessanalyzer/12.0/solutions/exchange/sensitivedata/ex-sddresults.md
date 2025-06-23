@@ -1,9 +1,3 @@
----
-title: exchange sensitivedata ex sddresults
-sidebar_label: ex sddresults
-description: Solution guide for exchange sensitivedata ex sddresults including implementation steps, configuration, and best practices.
----
-
 # EX_SDDResults Job
 
 The EX_SDDResults job contains analyses and reports to provide insight into the types of sensitive

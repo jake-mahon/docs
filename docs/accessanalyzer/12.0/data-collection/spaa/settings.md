@@ -1,9 +1,3 @@
----
-title: settings
-sidebar_label: settings
-description: Documentation for settings functionality in Access Analyzer including configuration and usage information.
----
-
 # SPAA: SharePoint Data Collection Settings
 
 The SharePoint data collection settings page is where additional scan settings are configured. It is

@@ -1,9 +1,3 @@
----
-title: Agentless Monitoring Sample Scripts
-sidebar_label: Sample Scripts
-description: Collection of sample scripts for agentless monitoring including main scripts, logon scripts, and script console debugging for configuration templates.
----
-
 # Sample Scripts:
 
 **NOTE:** For script debugging and advanced scripting requirements, you may find it easier to use

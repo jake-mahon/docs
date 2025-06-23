@@ -1,9 +1,3 @@
----
-title: filter reference
-sidebar_label: filter-reference
-description: Auditor 10.7 documentation for filter reference with configuration details, usage instructions, and implementation guidance.
----
-
 # Reference for Creating Search Parameters File
 
 Review this section to learn more about operators and how to apply them to Activity Record filters

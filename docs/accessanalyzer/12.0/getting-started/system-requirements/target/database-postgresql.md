@@ -1,9 +1,3 @@
----
-title: Getting Started: database postgresql
-sidebar_label: database postgresql
-description: Getting started guide for database postgresql in Access Analyzer including setup instructions and initial configuration steps.
----
-
 # Target PostgreSQL Requirements, Permissions, and Ports
 
 The Access Analyzer for Databases Solution provides the ability to audit and monitor PostgreSQL

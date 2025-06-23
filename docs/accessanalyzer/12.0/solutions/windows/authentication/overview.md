@@ -1,9 +1,3 @@
----
-title: windows authentication overview
-sidebar_label: overview
-description: Solution guide for windows authentication overview including implementation steps, configuration, and best practices.
----
-
 # Authentication Job Group
 
 The Authentication job group provides information on authentication settings within audited systems

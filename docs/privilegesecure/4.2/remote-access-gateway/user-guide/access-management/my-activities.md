@@ -1,9 +1,3 @@
----
-title: My Activities Page
-sidebar_label: my activities
-description: End user documentation covering session management, access procedures, dashboard functionality, and browser extension usage.
----
-
 # My Activities Page
 
 The Access > My Activities page displays activities mapped to the user as individual cards,

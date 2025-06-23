@@ -1,9 +1,3 @@
----
-title: Email Page
-sidebar_label: Email Page
-description: The Email page within the Integrations interface allows users to configure the application to send email notifications.
----
-
 # Email Page
 
 The Email page within the Integrations interface allows users to configure the application to send

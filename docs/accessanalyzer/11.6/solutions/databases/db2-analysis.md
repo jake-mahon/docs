@@ -1,9 +1,3 @@
----
-title: databases db2 analysis
-sidebar_label: db2 analysis
-description: Solution guide for databases db2 analysis including implementation steps, configuration, and best practices.
----
-
 # 3-Db2_Configuration Job
 
 This job collects Db2 database configuration settings for use in the following analysis jobs and

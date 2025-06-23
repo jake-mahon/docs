@@ -1,9 +1,3 @@
----
-title: Create MS Access Data Source API
-sidebar_label: MS Access
-description: API reference for creating MS Access data sources in Directory Manager with request parameters and response examples.
----
-
 # Create a Data Source for MS Access
 
 Use this API to create a new data source.

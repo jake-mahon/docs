@@ -1,9 +1,3 @@
----
-title: Active Directory Configuration
-sidebar_label: AD Configuration
-description: Active Directory configuration guide for integrating Threat Prevention with domain controllers and directory services.
----
-
 # Send Active Directory Event Data from Netwrix Threat Prevention to Netwrix Access Analyzer
 
 When Netwrix Threat Prevention is configured to monitor a domain, the event data collected by the

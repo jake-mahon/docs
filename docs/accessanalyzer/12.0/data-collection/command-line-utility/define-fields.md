@@ -1,9 +1,3 @@
----
-title: define fields
-sidebar_label: define fields
-description: Documentation for define fields functionality in Access Analyzer including configuration and usage information.
----
-
 # CLU: Define Fields
 
 The Define Fields page provides options to define and configure fields for the Command Line Utility

@@ -1,9 +1,3 @@
----
-title: sharepoint collection overview
-sidebar_label: overview
-description: Solution guide for sharepoint collection overview including implementation steps, configuration, and best practices.
----
-
 # 0.Collection Job Group
 
 The **SharePoint** > **0.Collection** Job Group is designed to collect information from SharePoint

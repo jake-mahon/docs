@@ -1,9 +1,3 @@
----
-title: Getting Started: sharepoint
-sidebar_label: sharepoint
-description: Getting started guide for sharepoint in Access Analyzer including setup instructions and initial configuration steps.
----
-
 # SharePoint Solution
 
 The core components for Netwrix Access Analyzer (formerly Enterprise Auditor) are the Access

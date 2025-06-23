@@ -1,9 +1,3 @@
----
-title: sendnotification Cmdlet
-sidebar_label: sendnotification
-description: PowerShell cmdlet reference for sendnotification with parameter details, syntax examples, and usage instructions for Directory Manager.
----
-
 # Send-Notification
 
 Use the Send-Notification commandlet to send notifications to a group or a user. Directory Manager

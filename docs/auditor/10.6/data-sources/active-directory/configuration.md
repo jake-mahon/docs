@@ -1,9 +1,3 @@
----
-title: configuration
-sidebar_label: configuration
-description: Auditor 10.6 documentation for configuration with configuration details, usage instructions, and implementation guidance.
----
-
 # Additional Configuration to Review Changes Made via Exchange Server
 
 If you have an on-premises Exchange server in your Active Directory domain, consider that some

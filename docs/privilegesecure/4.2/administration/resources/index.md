@@ -1,9 +1,3 @@
----
-title: Resources Page
-sidebar_label: Overview
-description: Administrative configuration and management features for Privilege Secure PAM solution including user management, policies, and security settings.
----
-
 # Resources Page
 
 The Resources page shows information for onboarded resources, such as active and scheduled sessions,

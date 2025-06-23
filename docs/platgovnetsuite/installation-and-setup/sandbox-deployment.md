@@ -1,9 +1,3 @@
----
-title: Redeploy Scripts After Sandbox Refresh
-sidebar_label: Sandbox Deployment
-description: Reset Platform Governance scheduled scripts after NetSuite sandbox refresh to restore environment comparison and change request functionality.
----
-
 # Redeploy Scripts After Sandbox Refresh
 
 NetSuite has removed the scheduled status on scripts after a sandbox is refreshed. This stops the

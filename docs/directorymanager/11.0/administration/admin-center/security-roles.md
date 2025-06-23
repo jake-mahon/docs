@@ -1,9 +1,3 @@
----
-title: security roles
-sidebar_label: security-roles
-description: Directory Manager 11.0 documentation for security roles with configuration details, usage instructions, and implementation guidance.
----
-
 # Check the Roles of a User
 
 As discussed in the

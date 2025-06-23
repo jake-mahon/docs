@@ -1,9 +1,3 @@
----
-title: Production Installation Guide
-sidebar_label: Installation
-description: Complete guide for installing Usercube in production environments, designed for system administrators and architects with Windows and SQL Server experience.
----
-
 # Installation Guide
 
 This guide is designed to help you install Usercube in a production environment.

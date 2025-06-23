@@ -1,9 +1,3 @@
----
-title: Users Groups Results Configuration
-sidebar_label: Results
-description: Configuration page for selecting Users Groups data collector results including user and group properties and relationships.
----
-
 # UsersGroups: Results
 
 The Results page is where the type of data to be returned is configured. Each type has a different

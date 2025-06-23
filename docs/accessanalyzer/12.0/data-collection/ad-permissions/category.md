@@ -1,9 +1,3 @@
----
-title: category
-sidebar_label: category
-description: Documentation for category functionality in Access Analyzer including configuration and usage information.
----
-
 # ADPermissions: Category
 
 The ADPermissions Data Collector Category page identifies what kind of information to retrieve using

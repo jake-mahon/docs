@@ -1,9 +1,3 @@
----
-title: transformations
-sidebar_label: transformations
-description: Directory Manager 11.0 documentation for transformations with configuration details, usage instructions, and implementation guidance.
----
-
 # Script
 
 Synchronize scripts are written in Visual Basic .NET. A script is run after having established a

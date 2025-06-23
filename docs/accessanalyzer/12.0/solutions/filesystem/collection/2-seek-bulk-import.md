@@ -1,9 +1,3 @@
----
-title: filesystem collection 2 seek bulk import
-sidebar_label: 2 seek bulk import
-description: Solution guide for filesystem collection 2 seek bulk import including implementation steps, configuration, and best practices.
----
-
 # 2-SEEK Bulk Import Job
 
 The 2-SEEK Bulk Import job is designed to import collected sensitive data information from the

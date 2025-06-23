@@ -1,9 +1,3 @@
----
-title: Password Reset Installation Guide
-sidebar_label: Installation
-description: Comprehensive installation guide for Password Reset 3.30 including system requirements, components, and server configuration options.
----
-
 # Installation
 
 Netwrix Password Reset V3.30 is designed to run on Windows 2008 to 2019. Users access Password Reset

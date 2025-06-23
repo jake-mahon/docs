@@ -1,9 +1,3 @@
----
-title: Installation: first launch
-sidebar_label: first launch
-description: Installation guide for first launch including system requirements, setup procedures, and configuration options.
----
-
 # Enterprise Auditor Initial Configuration
 
 Once the Enterprise Auditor installation process is complete, and before performing actions within

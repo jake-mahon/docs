@@ -1,9 +1,3 @@
----
-title: Getting Started: exchange online
-sidebar_label: exchange online
-description: Getting started guide for exchange online in Access Analyzer including setup instructions and initial configuration steps.
----
-
 # Target Exchange Online Requirements, Permissions, and Ports
 
 The Access Analyzer for Exchange Solution provides the ability to audit Exchange Online. It scans:

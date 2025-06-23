@@ -1,9 +1,3 @@
----
-title: sharepoint directpermissions sp sitecollectionperms
-sidebar_label: sp sitecollectionperms
-description: Solution guide for sharepoint directpermissions sp sitecollectionperms including implementation steps, configuration, and best practices.
----
-
 # SP_SiteCollectionPerms Job
 
 Most content will inherit the permissions configured at the root of the site collection. Having an

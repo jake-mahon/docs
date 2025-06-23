@@ -1,9 +1,3 @@
----
-title: WMI Collector Properties Configuration
-sidebar_label: Properties
-description: Properties configuration for WMI Collector data collector including WMI property selection and filtering options.
----
-
 # WMICollector: Properties
 
 On the Properties page, select the properties to extract.

@@ -1,9 +1,3 @@
----
-title: Portal . 11.1 misc directorymanager portal welcome
-sidebar_label: welcome
-description: Directory Manager portal documentation for . 11.1 misc directorymanager portal functionality including user interface, navigation, and operational procedures.
----
-
 # Welcome to the Portal
 
 A Directory Manager portal represents a virtual link with the directory. Using it, users can do the

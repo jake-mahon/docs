@@ -1,9 +1,3 @@
----
-title: Exchange Database Trending Analysis
-sidebar_label: DB Trending
-description: Exchange database trending analysis for monitoring database growth patterns and performance metrics over time.
----
-
 # EX_DBTrending
 
 The EX_DBTrending Job creates trend projections for mailbox and public folder databases for the

@@ -1,9 +1,3 @@
----
-title: Offline Access Management (OAM) - Extended
-sidebar_label: oam extended
-description: Documentation for Privilege Secure privileged access management solution covering features, configuration, and usage procedures.
----
-
 # Offline Access Management (OAM) - Extended
 
 Offline Access Management (OAM) - Extended

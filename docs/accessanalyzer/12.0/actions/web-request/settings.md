@@ -1,9 +1,3 @@
----
-title: settings
-sidebar_label: settings
-description: Documentation for settings functionality in Access Analyzer including configuration and usage information.
----
-
 # Web Request: Settings
 
 Use the settings page to specify the settings for the web request.

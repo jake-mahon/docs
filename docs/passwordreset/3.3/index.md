@@ -1,9 +1,3 @@
----
-title: Password Reset 3.3 Overview
-sidebar_label: Overview
-description: Enterprise self-service password reset and account management solution that reduces IT help desk burden while maintaining strict security standards.
----
-
 # Password Reset 3.3
 
 > Enterprise self-service password reset and account management

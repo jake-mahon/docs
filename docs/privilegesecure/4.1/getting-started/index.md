@@ -1,9 +1,3 @@
----
-title: Getting Started with Privilege Secure
-sidebar_label: Getting Started
-description: Initial configuration steps to enable activity-based sessions, including MFA setup, license updates, service accounts, and access policy configuration.
----
-
 # Getting Started
 
 Once Privilege Secure is installed, complete the following configuration sections to enable users to

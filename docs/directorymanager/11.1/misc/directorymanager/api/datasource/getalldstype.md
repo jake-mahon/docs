@@ -1,9 +1,3 @@
----
-title: datasource getalldstype API
-sidebar_label: getalldstype
-description: API reference for getalldstype operations in Directory Manager with request parameters, response examples, and implementation details.
----
-
 # Get All Data Sources by Type
 
 Use this API to retrieve information of all data sources of a specific type such as all SQL server

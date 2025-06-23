@@ -1,9 +1,3 @@
----
-title: Manual Agent Installation
-sidebar_label: Manual Install
-description: Manual agent installation procedure using the Windows setup wizard for individual server deployment.
----
-
 # Manual Agent Deployment
 
 The Threat PreventionAgent must be installed to the appropriate systems for monitoring. See the

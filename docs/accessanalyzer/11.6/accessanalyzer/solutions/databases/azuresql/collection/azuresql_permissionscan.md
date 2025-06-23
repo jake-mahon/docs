@@ -1,9 +1,3 @@
----
-title: databases azuresql collection azuresql_permissionscan
-sidebar_label: azuresql_permissionscan
-description: Solution guide for databases azuresql collection azuresql_permissionscan including implementation steps, configuration, and best practices.
----
-
 # AzureSQL_PermissionsScan Job
 
 This job uses the

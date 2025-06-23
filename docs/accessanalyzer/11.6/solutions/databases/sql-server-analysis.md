@@ -1,9 +1,3 @@
----
-title: databases sql server analysis
-sidebar_label: sql server analysis
-description: Solution guide for databases sql server analysis including implementation steps, configuration, and best practices.
----
-
 # 2.Activity Job Group
 
 The jobs in the 2. Activity Job Group provides insight into user login activity, object permission

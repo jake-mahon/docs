@@ -1,9 +1,3 @@
----
-title: Getting Started: database
-sidebar_label: database
-description: Getting started guide for database in Access Analyzer including setup instructions and initial configuration steps.
----
-
 # Access Analyzer Database
 
 The Access Analyzer database is dynamic in nature. There are a handful of required system tables

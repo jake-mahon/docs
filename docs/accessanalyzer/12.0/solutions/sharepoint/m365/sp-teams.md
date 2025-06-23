@@ -1,9 +1,3 @@
----
-title: sharepoint m365 sp teams
-sidebar_label: sp teams
-description: Solution guide for sharepoint m365 sp teams including implementation steps, configuration, and best practices.
----
-
 # SP_Teams
 
 The SP_Teams Job identifies activities, sensitive data and a summary of collected data for

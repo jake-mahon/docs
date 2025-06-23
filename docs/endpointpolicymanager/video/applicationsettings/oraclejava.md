@@ -1,9 +1,3 @@
----
-title: Universal Oracle Java AppSet Transition
-sidebar_label: Oracle Java
-description: Learn to transition to the Universal Oracle Java AppSet for versions 7 through 9 using Endpoint Policy Manager for streamlined Java management.
----
-
 # Transitioning to the Universal Oracle Java AppSet (7 thru 9)
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/aa8pFCFqnM0" title="Endpoint Policy Manager: Transitioning to the Universal Oracle Java Pak (7 thru 9)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen="1"></iframe>

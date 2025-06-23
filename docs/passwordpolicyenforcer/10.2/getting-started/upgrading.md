@@ -1,9 +1,3 @@
----
-title: Upgrading to Password Policy Enforcer 10.2
-sidebar_label: Upgrading
-description: Guidelines and procedures for upgrading to Password Policy Enforcer 10.2 from previous versions with backward compatibility considerations.
----
-
 # Upgrading
 
 ## Upgrading from v9.x

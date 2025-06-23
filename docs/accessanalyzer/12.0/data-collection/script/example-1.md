@@ -1,9 +1,3 @@
----
-title: example 1
-sidebar_label: example 1
-description: Documentation for example 1 functionality in Access Analyzer including configuration and usage information.
----
-
 # Script Example 1: Conversion of Data
 
 This script example demonstrates how to perform a query and modify returned data. The script

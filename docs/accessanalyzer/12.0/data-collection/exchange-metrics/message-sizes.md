@@ -1,9 +1,3 @@
----
-title: message sizes
-sidebar_label: message sizes
-description: Documentation for message sizes functionality in Access Analyzer including configuration and usage information.
----
-
 # ExchangeMetrics: Message Sizes
 
 The Message Sizes page is used to configure message size frames for which to return summary metrics

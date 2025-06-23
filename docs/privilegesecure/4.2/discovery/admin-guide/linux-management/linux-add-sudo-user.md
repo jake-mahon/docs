@@ -1,9 +1,3 @@
----
-title: Linux: Add Sudo User to Ubuntu System
-sidebar_label: linux add sudo user
-description: Documentation for Privilege Secure privileged access management solution covering features, configuration, and usage procedures.
----
-
 # Linux: Add Sudo User to Ubuntu System
 
 Linux: Add Sudo User to Ubuntu System

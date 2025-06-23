@@ -1,9 +1,3 @@
----
-title: Microsoft Edge Extension Installation
-sidebar_label: Microsoft Edge
-description: Install Password Secure add-on for Microsoft Edge directly from official store using provided download link and installation procedures.
----
-
 # Microsoft Edge
 
 ## Installing the add-on

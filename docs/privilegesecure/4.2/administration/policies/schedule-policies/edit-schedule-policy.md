@@ -1,9 +1,3 @@
----
-title: Edit Schedule Policy
-sidebar_label: edit schedule policy
-description: Administrative configuration and management features for Privilege Secure PAM solution including user management, policies, and security settings.
----
-
 # Edit Schedule Policy
 
 Follow the steps to edit the scheduled tasks.

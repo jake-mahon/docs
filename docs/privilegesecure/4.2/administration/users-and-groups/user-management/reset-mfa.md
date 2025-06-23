@@ -1,9 +1,3 @@
----
-title: Reset User MFA
-sidebar_label: reset mfa
-description: Administrative configuration and management features for Privilege Secure PAM solution including user management, policies, and security settings.
----
-
 # Reset User MFA
 
 Privilege Secure allows administrators to reset a user MFA directly from the Users page. Resetting

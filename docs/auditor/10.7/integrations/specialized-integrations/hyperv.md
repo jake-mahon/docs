@@ -1,9 +1,3 @@
----
-title: hyperv
-sidebar_label: hyperv
-description: Auditor 10.7 documentation for hyperv with configuration details, usage instructions, and implementation guidance.
----
-
 # Work with Collected Data
 
 To leverage data collected with the add-on, you can do the following in Auditor:

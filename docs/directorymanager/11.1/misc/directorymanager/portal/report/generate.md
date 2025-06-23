@@ -1,9 +1,3 @@
----
-title: Portal report generate
-sidebar_label: generate
-description: Directory Manager portal documentation for report functionality including user interface, navigation, and operational procedures.
----
-
 # Generate Reports
 
 Generating reports in Directory Manager portal is a two step process that makes the reporting

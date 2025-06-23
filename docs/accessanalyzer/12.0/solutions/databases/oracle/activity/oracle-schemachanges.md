@@ -1,9 +1,3 @@
----
-title: databases oracle activity oracle schemachanges
-sidebar_label: oracle schemachanges
-description: Solution guide for databases oracle activity oracle schemachanges including implementation steps, configuration, and best practices.
----
-
 # Oracle_SchemaChanges Job
 
 The Oracle_SchemaChanges Job is designed to provide detailed information about changes in schema

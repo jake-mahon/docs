@@ -1,9 +1,3 @@
----
-title: standard installation
-sidebar_label: standard-installation
-description: Auditor 10.7 documentation for standard installation with configuration details, usage instructions, and implementation guidance.
----
-
 # Automate Sign-in to the Client
 
 When you launch Netwrix Auditor client installed on the same machine as Netwrix Auditor server,

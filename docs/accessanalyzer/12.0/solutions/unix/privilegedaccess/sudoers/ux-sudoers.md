@@ -1,9 +1,3 @@
----
-title: unix privilegedaccess sudoers ux sudoers
-sidebar_label: ux sudoers
-description: Solution guide for unix privilegedaccess sudoers ux sudoers including implementation steps, configuration, and best practices.
----
-
 # UX_Sudoers Job
 
 The UX_Sudoers job provides visibility into all rights granted via sudoers within audited Unix and

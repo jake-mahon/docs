@@ -1,9 +1,3 @@
----
-title: exchange distributionlists membershipanalysis ex emptygroups
-sidebar_label: ex emptygroups
-description: Solution guide for exchange distributionlists membershipanalysis ex emptygroups including implementation steps, configuration, and best practices.
----
-
 # EX_EmptyGroups Job
 
 The EX_EmptyGroups job identifies empty distribution groups that are candidates for cleanup.

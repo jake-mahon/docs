@@ -1,9 +1,3 @@
----
-title: User Roles Configuration
-sidebar_label: User Roles
-description: User role management interface for configuring access permissions and administrative privileges in Threat Prevention.
----
-
 # Users and Roles Window
 
 On the Users and Roles window, you can grant role based access to users on the Administration

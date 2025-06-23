@@ -1,9 +1,3 @@
----
-title: Chart Wizard Format Configuration
-sidebar_label: Chart Format
-description: Chart format configuration in the chart wizard including visual styling, colors, and presentation options.
----
-
 # Chart Format
 
 The Chart Format page of the Chart Configuration wizard is where you can select the chart type and

@@ -1,10 +1,3 @@
----
-title: Navigation
-sidebar_label: Navigation
-description: The Threat Prevention Administration Console is used to: - Create and configure policies and policy templates
-
----
-
 # Navigation
 
 The Threat Prevention Administration Console is used to:

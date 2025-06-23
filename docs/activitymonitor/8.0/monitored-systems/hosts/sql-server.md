@@ -1,9 +1,3 @@
----
-title: SQL Server Activity Monitoring
-sidebar_label: SQL Server
-description: Monitor SQL Server database activity including queries, access patterns, and data modifications with integration to other Netwrix products.
----
-
 # SQL Server
 
 Understanding SQL Server Activity Monitoring

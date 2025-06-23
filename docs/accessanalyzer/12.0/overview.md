@@ -1,9 +1,3 @@
----
-title: Access Analyzer Overview
-sidebar_label: Overview
-description: Comprehensive platform for automated data collection, analysis, and security auditing across critical IT assets with enhanced cloud support.
----
-
 # Netwrix Access Analyzer (formerly Enterprise Auditor) v12.0 Documentation
 
 Netwrix Access Analyzer (formerly Enterprise Auditor) automates the collection and analysis of the

@@ -1,9 +1,3 @@
----
-title: Browser Router Force Single Browser
-sidebar_label: Force Browser
-description: Configure Browser Router to force users to always use the same browser by redirecting all browser launches to a specific browser application.
----
-
 # How can I use Endpoint Policy Manager Browser router to force people to always use the SAME browser?
 
 First, choose a common page to start each browser on, for example google.com, or a corporate home

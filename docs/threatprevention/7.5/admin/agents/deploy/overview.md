@@ -1,10 +1,3 @@
----
-title: Deploy Agents
-sidebar_label: Deploy Agents
-description: The Threat Prevention Agent can be deployed through any of the following methods: - Deploy the Agent to server(s) through the Administration Console – You ca...
-
----
-
 # Deploy Agents
 
 The Threat Prevention Agent can be deployed through any of the following methods:

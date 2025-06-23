@@ -1,9 +1,3 @@
----
-title: scope public folders
-sidebar_label: scope public folders
-description: Documentation for scope public folders functionality in Access Analyzer including configuration and usage information.
----
-
 # ExchangePS: Scope by Public Folders
 
 The Scope by Public Folders page is used to define specific public folders to search. This page is

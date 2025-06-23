@@ -1,9 +1,3 @@
----
-title: SecureRun Setup Best Practices
-sidebar_label: Setup
-description: Configure SecureRun with variable handling, auto-rules generation, and child process management for comprehensive software version compatibility.
----
-
 # How do I setup SecureRun when there are so many variables and still ensure my rules work no matter what version of the software I have I installed?
 
 ### Using Secure Run – Best Practices

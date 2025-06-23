@@ -1,9 +1,3 @@
----
-title: filesystem directpermissions fs nestedshares
-sidebar_label: fs nestedshares
-description: Solution guide for filesystem directpermissions fs nestedshares including implementation steps, configuration, and best practices.
----
-
 # FS_NestedShares Job
 
 The FS_NestedShares job is is designed to report on nested shares that have been granted direct

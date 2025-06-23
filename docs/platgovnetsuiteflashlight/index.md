@@ -1,9 +1,3 @@
----
-title: Platform Governance NetSuite Flashlight
-sidebar_label: Flashlight
-description: Instant visibility and analysis for NetSuite customizations with search, dependency mapping, code analysis, and automated documentation capabilities.
----
-
 # Platform Governance for NetSuite Flashlight
 
 > Instant visibility and analysis for NetSuite customizations

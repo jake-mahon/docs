@@ -1,9 +1,3 @@
----
-title: file systems content analysis
-sidebar_label: content analysis
-description: Solution guide for file systems content analysis including implementation steps, configuration, and best practices.
----
-
 # File Types > FS_FileTypes Job
 
 The FS_FileTypes job is designed to report on file type information from targeted file servers.

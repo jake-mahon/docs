@@ -1,9 +1,3 @@
----
-title: results
-sidebar_label: results
-description: Documentation for results functionality in Access Analyzer including configuration and usage information.
----
-
 # DiskInfo: Results
 
 The Results page provides a checklist of the data that is available for return by the query. Any

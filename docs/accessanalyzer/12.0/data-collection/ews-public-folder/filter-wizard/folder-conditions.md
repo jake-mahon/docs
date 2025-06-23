@@ -1,9 +1,3 @@
----
-title: folder conditions
-sidebar_label: folder conditions
-description: Documentation for folder conditions functionality in Access Analyzer including configuration and usage information.
----
-
 # EWSPublicFolder FW: Folder Conditions
 
 The Folder Conditions page is where folder-related filter criteria can be applied to the search.

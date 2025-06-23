@@ -1,9 +1,3 @@
----
-title: syncjobs getjobsname API
-sidebar_label: getjobsname
-description: API reference for getjobsname operations in Directory Manager with request parameters, response examples, and implementation details.
----
-
 # Get Jobs Names
 
 Using this API you can get a list of job names both predefined and user created.

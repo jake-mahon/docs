@@ -1,9 +1,3 @@
----
-title: windows overview
-sidebar_label: overview
-description: Solution guide for windows overview including implementation steps, configuration, and best practices.
----
-
 # Windows Solution
 
 The Windows Solution is designed to provide both high-level and granular views into any sized

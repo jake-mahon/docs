@@ -1,9 +1,3 @@
----
-title: Firefox Certificate Management Tutorial
-sidebar_label: Certificates
-description: Learn to dynamically add or remove certificates within Firefox using Endpoint Policy Manager for secure certificate deployment and management.
----
-
 # Manage Firefox Certificates
 
 Need to add or remove a certificate dynamically within Firefox? Netwrix Endpoint Policy Manager

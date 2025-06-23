@@ -1,9 +1,3 @@
----
-title: Endpoint Policy Manager Documentation Overview
-sidebar_label: Documentation
-description: Comprehensive documentation for Netwrix Endpoint Policy Manager. Secure end users wherever they work with modern endpoint management and protection software.
----
-
 # Netwrix Endpoint Policy Manager (formerly PolicyPak) Documentation
 
 Netwrix Endpoint Policy Manager (formerly PolicyPak) allows you to secure end users wherever they

@@ -1,9 +1,3 @@
----
-title: Policy Templates Overview
-sidebar_label: Templates
-description: Policy template management interface for creating, configuring, and deploying pre-defined security policies across Threat Prevention environments.
----
-
 # Templates Interface
 
 The Templates interface provides a list of all the pre-created policy templates in Threat

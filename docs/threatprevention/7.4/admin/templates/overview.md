@@ -1,9 +1,3 @@
----
-title: Templates Interface
-sidebar_label: Templates Interface
-description: The Templates interface provides a list of all the pre-created policy templates in Threat Prevention. Click Temaples in the Navigation pane to launch the Tem...
----
-
 # Templates Interface
 
 The Templates interface provides a list of all the pre-created policy templates in Threat

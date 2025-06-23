@@ -1,9 +1,3 @@
----
-title: security
-sidebar_label: security
-description: Documentation for security functionality in Access Analyzer including configuration and usage information.
----
-
 # UsersGroups: Security Category
 
 This Security policy is used to audit security policies.

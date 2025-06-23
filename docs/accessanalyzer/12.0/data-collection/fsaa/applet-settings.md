@@ -1,9 +1,3 @@
----
-title: applet settings
-sidebar_label: applet settings
-description: Documentation for applet settings functionality in Access Analyzer including configuration and usage information.
----
-
 # FSAA: Applet Settings
 
 The Applet Settings page is where the Applet Launch Mechanism and Applet Settings are configured. It

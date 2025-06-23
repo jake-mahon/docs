@@ -1,9 +1,3 @@
----
-title: Licensing Page
-sidebar_label: Licensing Page
-description: License information is displayed on the Licensing page of the System Settings interface. Use the gear icon in the upper right corner of the console to open t...
----
-
 # Licensing Page
 
 License information is displayed on the Licensing page of the System Settings interface.

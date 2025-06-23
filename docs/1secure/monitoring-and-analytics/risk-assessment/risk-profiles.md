@@ -1,9 +1,3 @@
----
-title: Risk Assessment Dashboard Guide
-sidebar_label: Risk Profiles
-description: Use the Risk Assessment dashboard as a diagnostic tool for MSPs to analyze and monitor organizational security risks.
----
-
 # Risk Assessment Dashboard
 
 The Risk Assessment dashboard is designed as a diagnostic tool for Managed Service Providers (MSPs)

@@ -1,9 +1,3 @@
----
-title: Select Active Directory Perpetrators Window
-sidebar_label: Select Active Directory Perpetrators
-description: The Select Active Directory Perpetrators window provides a list of available AD users and groups. Selected objects are added to the filter from where you cli...
----
-
 # Select Active Directory Perpetrators Window
 
 The Select Active Directory Perpetrators window provides a list of available AD users and groups.

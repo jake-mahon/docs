@@ -1,9 +1,3 @@
----
-title: Automatic Backup Cleanup Configuration
-sidebar_label: Backup Settings
-description: Configure automatic deletion of backups after specified time periods with proper sysadmin rights requirements for Password Secure server management.
----
-
 # Automatic backup cleanup
 
 It is possible to delete backups automatically after a certain period of time. This can be useful if

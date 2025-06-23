@@ -1,9 +1,3 @@
----
-title: workflow getmyreq API
-sidebar_label: getmyreq
-description: API reference for getmyreq operations in Directory Manager with request parameters, response examples, and implementation details.
----
-
 # Get My Requests
 
 Using this API the logged in user can get information about his/her workflow request(s).

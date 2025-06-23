@@ -1,9 +1,3 @@
----
-title: Force Install Firefox Extensions Tutorial
-sidebar_label: Extensions
-description: Learn to add or remove Firefox extensions using URLs, files, or HTTPS with Endpoint Policy Manager to control which extensions users can access.
----
-
 # Force Install Firefox Extensions (from URL or file).
 
 Your users have a ton of (evil?) extensions in Firefox. How did they get there? Who knows. And now

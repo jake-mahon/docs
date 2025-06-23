@@ -1,9 +1,3 @@
----
-title: Configure Auto Deploy
-sidebar_label: Configure Auto Deploy
-description: Automatic deployment configuration for agents including domain controller discovery and deployment scheduling.
----
-
 # Configure Auto Deploy Window
 
 You can automatically deploy Agents to discovered domain controllers in a domain, provided that the

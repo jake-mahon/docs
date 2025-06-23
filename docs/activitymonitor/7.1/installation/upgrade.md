@@ -1,9 +1,3 @@
----
-title: Activity Monitor Upgrade Procedure
-sidebar_label: Upgrade
-description: Comprehensive upgrade guide for Activity Monitor including version compatibility considerations and step-by-step upgrade instructions.
----
-
 # Upgrade Procedure
 
 The purpose of this chapter is to provide the basic steps needed for upgrading Activity Monitor. See

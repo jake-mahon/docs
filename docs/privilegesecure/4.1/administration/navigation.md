@@ -1,9 +1,3 @@
----
-title: Console Navigation and Interface Guide
-sidebar_label: Navigation
-description: Overview of the Privilege Secure console navigation including Access, Dashboard, and Policy interfaces with user menu functionality.
----
-
 # Navigation
 
 At the top of the Privilege Secure Console lists available in interfaces and provides access to the

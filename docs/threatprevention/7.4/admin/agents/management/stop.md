@@ -1,9 +1,3 @@
----
-title: Stop Agent
-sidebar_label: Stop Agent
-description: Agent service shutdown procedure for temporarily disabling Threat Prevention monitoring on target servers.
----
-
 # Stop Agent
 
 You may want to stop the Agent on a server for any reason, such as troubleshooting.

@@ -1,9 +1,3 @@
----
-title: End Web Session
-sidebar_label: end web session
-description: End user documentation covering session management, access procedures, dashboard functionality, and browser extension usage.
----
-
 # End Web Session
 
 If the web session needs to be ended before the remaining time for the session has expired, clicking

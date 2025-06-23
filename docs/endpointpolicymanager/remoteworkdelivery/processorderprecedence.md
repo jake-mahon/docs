@@ -1,9 +1,3 @@
----
-title: Processing Order and Policy Precedence
-sidebar_label: Order Precedence
-description: Learn processing order and precedence rules for Remote Work Delivery Manager policies across GPO, cloud, and MDM deployment methods.
----
-
 # Understanding Processing Order and Precedence within a GPO
 
 Within a particular GPO (User side or Computer side), policies and collections process in numerical

@@ -1,9 +1,3 @@
----
-title: threat prevention
-sidebar_label: threat prevention
-description: Documentation for threat prevention functionality in Access Analyzer including configuration and usage information.
----
-
 # Send Active Directory Event Data from Netwrix Threat Prevention to Netwrix Access Analyzer
 
 When Netwrix Threat Prevention is configured to monitor a domain, the event data collected by the

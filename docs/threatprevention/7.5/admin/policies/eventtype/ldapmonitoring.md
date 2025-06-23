@@ -1,9 +1,3 @@
----
-title: LDAP Monitoring Event Type
-sidebar_label: LDAP Monitoring Event Type
-description: The LDAP Monitoring event type generates an event for LDAP queries that match policy filter rules. It is important to specify rules that zero in on specific ...
----
-
 # LDAP Monitoring Event Type
 
 The LDAP Monitoring event type generates an event for LDAP queries that match policy filter rules.

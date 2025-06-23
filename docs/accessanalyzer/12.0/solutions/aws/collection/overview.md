@@ -1,9 +1,3 @@
----
-title: aws collection overview
-sidebar_label: overview
-description: Solution guide for aws collection overview including implementation steps, configuration, and best practices.
----
-
 # 0.Collection Job Group
 
 The 0.Collection job group scans and collects details on IAM and S3 buckets within an

@@ -1,9 +1,3 @@
----
-title: active directory users ad user delegation
-sidebar_label: ad user delegation
-description: Solution guide for active directory users ad user delegation including implementation steps, configuration, and best practices.
----
-
 # AD_UserDelegation Job
 
 The AD_Delegation Job highlights user accounts which are trusted for delegation. Kerberos delegation

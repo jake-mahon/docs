@@ -1,9 +1,3 @@
----
-title: settings
-sidebar_label: settings
-description: Documentation for settings functionality in Access Analyzer including configuration and usage information.
----
-
 # SQL: Settings
 
 The Settings page configures the removal of data from the Access Analyzer database for specific

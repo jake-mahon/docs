@@ -1,9 +1,3 @@
----
-title: MIP Labels Configuration
-sidebar_label: Configure NDC
-description: Netwrix Data Classification for Files and Folders supports MIP labels as Workflow action. Perform the following steps to enable MIP labels: 1. In... Learn mo...
----
-
 # MIP Labels Configuration
 
 Netwrix Data Classification for Files and Folders supports MIP labels as Workflow action. Perform

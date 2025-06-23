@@ -1,9 +1,3 @@
----
-title: Google Drive
-sidebar_label: Manage
-description: This section contains information on how to configure exclusions and use tagging for a Google Drive source. You can instruct the program to write... Learn mo...
----
-
 # Google Drive
 
 This section contains information on how to configure exclusions and use tagging for a Google Drive

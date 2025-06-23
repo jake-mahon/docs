@@ -1,9 +1,3 @@
----
-title: install cee
-sidebar_label: install cee
-description: Documentation for install cee functionality in Access Analyzer including configuration and usage information.
----
-
 # Install Dell CEE
 
 Dell CEE should be installed on a Windows or a Linux server. The Dell CEE software is not a Netwrix

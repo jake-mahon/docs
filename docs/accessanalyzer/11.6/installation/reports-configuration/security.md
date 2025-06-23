@@ -1,9 +1,3 @@
----
-title: Installation: security
-sidebar_label: security
-description: Installation guide for security including system requirements, setup procedures, and configuration options.
----
-
 # Configuring Login Page Disclaimer
 
 Users can add a disclaimer message to the logon screen by adding a custom `Disclaimer.txt` file in

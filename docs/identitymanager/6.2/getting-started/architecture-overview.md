@@ -1,9 +1,3 @@
----
-title: Architecture Overview Guide
-sidebar_label: Architecture Overview
-description: Comprehensive overview of Identity Manager components, requirements, and interconnection schemes to help choose the optimal installation setup.
----
-
 # Overview
 
 This section will give you an overview of Identity Manager's components, their requirements and

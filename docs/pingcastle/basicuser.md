@@ -1,9 +1,3 @@
----
-title: PingCastle Basic Edition User Guide
-sidebar_label: Basic User Guide
-description: Complete user guide for PingCastle Basic Edition covering installation, health checks, domain discovery, scanners, and command-line operations for AD security assessment.
----
-
 # About PingCastle
 
 "For CISO, by CISO"

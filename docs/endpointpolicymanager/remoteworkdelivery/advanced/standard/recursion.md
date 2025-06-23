@@ -1,9 +1,3 @@
----
-title: Recursive File Copy Advanced Policies
-sidebar_label: Recursion
-description: Deploy files recursively with advanced criteria including file size, dates, and attributes for comprehensive remote endpoint file management.
----
-
 # Advanced Standard Policies: Copying Multiple Files with Recursion and Advanced Criteria
 
 The final standard policy type is Copy multiple files based on criteria (Recursive and Advanced).

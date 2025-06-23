@@ -1,9 +1,3 @@
----
-title: dictionaries
-sidebar_label: dictionaries
-description: Documentation for dictionaries functionality in Access Analyzer including configuration and usage information.
----
-
 # PasswordSecurity: Dictionaries
 
 The Dictionaries page provides configuration settings for storing passwords to be used as a

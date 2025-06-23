@@ -1,9 +1,3 @@
----
-title: Agent Safe Mode
-sidebar_label: Safe Mode
-description: Understanding Agent Safe Mode protection for LSASS process interactions, including monitoring for process termination and DLL version changes.
----
-
 # Agent Safe Mode
 
 To collect real-time activity data, the Agent hooks into (intercepts) specific Microsoft APIs in the

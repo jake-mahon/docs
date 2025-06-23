@@ -1,9 +1,3 @@
----
-title: Database Maintenance Window
-sidebar_label: Database Maintenance Window
-description: The database maintenance function grooms the NVMonitorData database to optimize performance. It automatically deletes or archives data aged beyond a specifie...
----
-
 # Database Maintenance Window
 
 The database maintenance function grooms the NVMonitorData database to optimize performance. It

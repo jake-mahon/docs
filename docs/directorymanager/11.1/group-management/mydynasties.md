@@ -1,9 +1,3 @@
----
-title: mydynasties
-sidebar_label: mydynasties
-description: Directory Manager 11.1 documentation for mydynasties with configuration details, usage instructions, and implementation guidance.
----
-
 # My Dynasties
 
 This page lists the Dynasties you are the primary owner of. To include the groups for which you are

@@ -1,9 +1,3 @@
----
-title: network devices
-sidebar_label: network-devices
-description: Auditor 10.6 documentation for network devices with configuration details, usage instructions, and implementation guidance.
----
-
 # Configure Cisco ASA Devices
 
 Netwrix Auditor relies on native logs for collecting audit data. Therefore, successful change and

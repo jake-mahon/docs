@@ -1,9 +1,3 @@
----
-title: Portal synchronize job objectfieldsandmapping
-sidebar_label: objectfieldsandmapping
-description: Directory Manager portal documentation for synchronize job functionality including user interface, navigation, and operational procedures.
----
-
 # Objects, Fields and Mapping
 
 On the **Object, Fields and Mappings** page, map the a attributes with source fields.

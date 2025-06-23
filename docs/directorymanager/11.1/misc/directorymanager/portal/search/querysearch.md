@@ -1,9 +1,3 @@
----
-title: Portal search querysearch
-sidebar_label: querysearch
-description: Directory Manager portal documentation for search functionality including user interface, navigation, and operational procedures.
----
-
 # Query Based Advanced Search
 
 Directory Manager portal enables you to search directory objects (users, mailboxes, contacts,

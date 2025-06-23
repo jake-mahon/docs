@@ -1,9 +1,3 @@
----
-title: activedirectorypermissionsanalyzer collection ad userrights
-sidebar_label: ad userrights
-description: Solution guide for activedirectorypermissionsanalyzer collection ad userrights including implementation steps, configuration, and best practices.
----
-
 # AD_UserRights Job
 
 The AD_UserRights Job provides data collection to identify permissions applied to users in Active

@@ -1,9 +1,3 @@
----
-title: filesystem collection fs azuretenantscan
-sidebar_label: fs azuretenantscan
-description: Solution guide for filesystem collection fs azuretenantscan including implementation steps, configuration, and best practices.
----
-
 # FS_AzureTenantScan Job
 
 The FS_AzureTenantScan job is designed to collect Storage Account information from the targeted

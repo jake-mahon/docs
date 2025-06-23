@@ -1,9 +1,3 @@
----
-title: queries Administration
-sidebar_label: queries
-description: Administration guide for queries including configuration, management, and best practices for Access Analyzer.
----
-
 # Queries Node
 
 The Queries node uses a Access Analyzer data collector to run scans against the targeted hosts.

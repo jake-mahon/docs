@@ -1,9 +1,3 @@
----
-title: fields
-sidebar_label: fields
-description: Documentation for fields functionality in Access Analyzer including configuration and usage information.
----
-
 # Change Detection: Fields
 
 Use the Change Detection Fields page to select the columns on which to report changes.

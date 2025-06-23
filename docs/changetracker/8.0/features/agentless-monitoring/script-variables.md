@@ -1,9 +1,3 @@
----
-title: Predefined Script Variables Reference
-sidebar_label: Script Variables
-description: Complete reference of predefined script variables for agentless monitoring including USERNAME, PASSWORD, and RESULTS variables for script execution.
----
-
 # Predefined Script Variables
 
 ## Predefined Script Variables

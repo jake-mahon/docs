@@ -1,9 +1,3 @@
----
-title: box activity suspiciousactivity overview
-sidebar_label: overview
-description: Solution guide for box activity suspiciousactivity overview including implementation steps, configuration, and best practices.
----
-
 # Suspicious Activity Job Group
 
 The Suspicious Activity Job Group identifies areas and times of abnormal activity by analyzing

@@ -1,9 +1,3 @@
----
-title: Threat Manager Introduction Overview
-sidebar_label: Introduction
-description: Introduction to Netwrix Threat Manager v3.0, covering architecture, administration, supported platforms, and monitored threat types for security teams.
----
-
 # Netwrix Threat Manager v3.0
 
 Threat Manager detects and responds to abnormal behavior and advanced attacks against Active

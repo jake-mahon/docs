@@ -1,9 +1,3 @@
----
-title: MSI Installation Logs
-sidebar_label: MSI Logs
-description: MSI installation log analysis for troubleshooting Threat Prevention component installation and upgrade issues.
----
-
 # MSI Installer Logs
 
 The Threat Prevention installer runs under control of Windows Installer. All available command line

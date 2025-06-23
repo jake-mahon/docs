@@ -1,9 +1,3 @@
----
-title: includeexclude
-sidebar_label: includeexclude
-description: Directory Manager 11.1 documentation for includeexclude with configuration details, usage instructions, and implementation guidance.
----
-
 # Query Designer - Include/Exclude tab
 
 Use this tab to include or exclude an object from group membership, regardless of whether it is

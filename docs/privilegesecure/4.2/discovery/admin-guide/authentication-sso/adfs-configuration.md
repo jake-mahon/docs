@@ -1,9 +1,3 @@
----
-title: Configure ADFS (Active Directory Federation Services) SSO
-sidebar_label: adfs configuration
-description: Documentation for Privilege Secure privileged access management solution covering features, configuration, and usage procedures.
----
-
 # Configure ADFS (Active Directory Federation Services) SSO
 
 Configure ADFS (Active Directory Federation Services) SSO

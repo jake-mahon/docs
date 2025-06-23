@@ -1,9 +1,3 @@
----
-title: Upgrade to Latest Version
-sidebar_label: Upgrade Guide
-description: Step-by-step guide for upgrading Netwrix Data Classification including prerequisites, backup procedures, and upgrade steps.
----
-
 # Upgrade to the Latest Version
 
 Netwrix recommends that you upgrade from the older versions of Netwrix Data Classification to the

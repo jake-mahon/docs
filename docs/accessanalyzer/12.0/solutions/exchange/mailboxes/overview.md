@@ -1,9 +1,3 @@
----
-title: exchange mailboxes overview
-sidebar_label: overview
-description: Solution guide for exchange mailboxes overview including implementation steps, configuration, and best practices.
----
-
 # 4.Mailboxes Job Group
 
 The 4. Mailboxes job group is comprised of data collection, analysis, and reports around mailbox

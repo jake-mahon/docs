@@ -1,9 +1,3 @@
----
-title: filter
-sidebar_label: filter
-description: Documentation for filter functionality in Access Analyzer including configuration and usage information.
----
-
 # EWSPublicFolder: Filter
 
 The Filter settings page provides options to filter folders and attachments. It is a wizard page for

@@ -1,9 +1,3 @@
----
-title: Email Configuration Settings
-sidebar_label: Email Configuration
-description: Configuration guide for Password Reset email settings including SMTP server setup, email templates, and notification preferences for user communications.
----
-
 # E-mail Tab
 
 Use the **E-mail** tab to configure how e-mail is sent to users, when it is sent, and also to edit

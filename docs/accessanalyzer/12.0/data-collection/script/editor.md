@@ -1,9 +1,3 @@
----
-title: editor
-sidebar_label: editor
-description: Documentation for editor functionality in Access Analyzer including configuration and usage information.
----
-
 # VBScript Editor
 
 The VBScript Editor window provides the means to add a script. The window is ideal for editing small

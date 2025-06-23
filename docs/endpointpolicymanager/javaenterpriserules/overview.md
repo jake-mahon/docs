@@ -1,9 +1,3 @@
----
-title: Java Enterprise Rules Manager Overview
-sidebar_label: Overview
-description: Map specific Java versions to Java applets, reduce user prompts, and implement Oracle's Java Deployment Rule Set feature for enterprise security.
----
-
 # Java Enterprise Rules Manager
 
 **NOTE:** Before reading this section, please ensure you have read Book 2:

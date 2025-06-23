@@ -1,9 +1,3 @@
----
-title: Enable Database Maintenance
-sidebar_label: Enable Maintenance
-description: Database maintenance enablement procedure for activating automated data retention and cleanup processes.
----
-
 # Enable Database Maintenance
 
 Database maintenance can be enabled for all or specific event types, analytics, and/or policies. It

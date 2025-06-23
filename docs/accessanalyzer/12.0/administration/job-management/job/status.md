@@ -1,9 +1,3 @@
----
-title: status Administration
-sidebar_label: status
-description: Administration guide for status including configuration, management, and best practices for Access Analyzer.
----
-
 # Status Node
 
 Once a job has been executed, it always generates the tables providing information on host

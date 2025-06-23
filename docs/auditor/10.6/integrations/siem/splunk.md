@@ -1,9 +1,3 @@
----
-title: Splunk SIEM Integration
-sidebar_label: Splunk
-description: Integrate Netwrix Auditor with Splunk SIEM for comprehensive security analytics and automated incident response workflows.
----
-
 # Work with Collected Data
 
 Review the examples below for the possible scenarios on how to work with collected data.

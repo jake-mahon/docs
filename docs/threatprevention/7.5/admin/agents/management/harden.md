@@ -1,9 +1,3 @@
----
-title: Harden Agent
-sidebar_label: Harden Agent
-description: You van harden an Agent to protect it from being altered, stopped, or started from within the local Service Control Manager.
----
-
 # Harden Agent
 
 You van harden an Agent to protect it from being altered, stopped, or started from within the local

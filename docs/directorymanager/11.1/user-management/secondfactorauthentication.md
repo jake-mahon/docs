@@ -1,9 +1,3 @@
----
-title: secondfactorauthentication
-sidebar_label: secondfactorauthentication
-description: Directory Manager 11.1 documentation for secondfactorauthentication with configuration details, usage instructions, and implementation guidance.
----
-
 # Second Factor Authentication
 
 The Directory Manager administrator can enable second factor authentication for a user role in an

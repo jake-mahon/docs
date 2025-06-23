@@ -1,9 +1,3 @@
----
-title: New schedule Cmdlet
-sidebar_label: newschedule
-description: PowerShell cmdlet reference for newschedule with parameter details, syntax examples, and usage instructions for Directory Manager.
----
-
 # New-Schedule
 
 The commandlet New-Schedule creates a new schedule in the identity store connected to the current

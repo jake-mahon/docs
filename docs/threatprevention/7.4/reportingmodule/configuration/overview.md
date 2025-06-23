@@ -1,9 +1,3 @@
----
-title: Configuration Menu
-sidebar_label: Configuration Menu
-description: Use the gear icon in the upper right corner of the console to open the Configuration menu. !Configuration menu
----
-
 # Configuration Menu
 
 Use the gear icon in the upper right corner of the console to open the Configuration menu.

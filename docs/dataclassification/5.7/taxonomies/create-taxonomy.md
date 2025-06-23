@@ -1,9 +1,3 @@
----
-title: Create a Taxonomy
-sidebar_label: Create Taxonomy
-description: SQL taxonomies reside within the administrative web console database, they are fully functional with the exception of writing metadata back to SharePoint. To...
----
-
 # Create a Taxonomy
 
 SQL taxonomies reside within the administrative web console database, they are fully functional with

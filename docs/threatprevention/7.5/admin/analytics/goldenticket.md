@@ -1,9 +1,3 @@
----
-title: Golden Ticket Analytics
-sidebar_label: Golden Ticket
-description: Detection of Kerberos Golden Ticket attacks by monitoring for tickets exceeding maximum lifetime thresholds and renewal limits.
----
-
 # Golden Ticket Analytic Type
 
 The **Golden Tickets** analytic type identifies Kerberos tickets that exceed the specified maximum

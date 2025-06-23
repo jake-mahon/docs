@@ -1,9 +1,3 @@
----
-title: file systems cleanup operations
-sidebar_label: cleanup operations
-description: Solution guide for file systems cleanup operations including implementation steps, configuration, and best practices.
----
-
 # FS_DeleteFiles_Status Job
 
 The FS_DeleteFiles_Status job is designed to report on deleted resources from targeted file servers

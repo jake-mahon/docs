@@ -1,9 +1,3 @@
----
-title: exchange hubmetrics collection overview
-sidebar_label: overview
-description: Solution guide for exchange hubmetrics collection overview including implementation steps, configuration, and best practices.
----
-
 # 0. Collection Job Group
 
 The 0.Collection Job Group is comprised of jobs that process and analyze the message tracking logs

@@ -1,9 +1,3 @@
----
-title: windows authentication sg securitysupportproviders
-sidebar_label: sg securitysupportproviders
-description: Solution guide for windows authentication sg securitysupportproviders including implementation steps, configuration, and best practices.
----
-
 # SG_SecuritySupportProviders Job
 
 The SG_SecuritySupportProviders job identifies security support providers on all targeted hosts,

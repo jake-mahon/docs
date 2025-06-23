@@ -1,9 +1,3 @@
----
-title: Start Pending Modules
-sidebar_label: Start Pending Modules
-description: Module activation procedure for starting agent components that were held in safe mode due to system changes.
----
-
 # Start Pending Modules
 
 If the Agent was deployed using the Safe Mode option, then it could enter a _Start Pending Modules_

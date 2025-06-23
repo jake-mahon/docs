@@ -1,9 +1,3 @@
----
-title: My Investigations Page
-sidebar_label: My Investigations Page
-description: The My Investigations page in the Investigations interface provides a list of saved investigations created by the application users. This page is available w...
----
-
 # My Investigations Page
 
 The My Investigations page in the Investigations interface provides a list of saved investigations

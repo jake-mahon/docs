@@ -1,9 +1,3 @@
----
-title: filesystem resourcebasedgroups fs resourcebasedgroupaicimport
-sidebar_label: fs resourcebasedgroupaicimport
-description: Solution guide for filesystem resourcebasedgroups fs resourcebasedgroupaicimport including implementation steps, configuration, and best practices.
----
-
 # FS_ResourceBasedGroupAICImport Job
 
 The FS_ResorceBasedGroupsAICImport Job imports resources and access groups from the

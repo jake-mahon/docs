@@ -1,9 +1,3 @@
----
-title: Getting Started: active directory permissions analyzer
-sidebar_label: active directory permissions analyzer
-description: Getting started guide for active directory permissions analyzer in Access Analyzer including setup instructions and initial configuration steps.
----
-
 # Domain Target Requirements, Permissions, and Ports
 
 The Access Analyzer for Active Directory Permissions Analyzer Solution is compatible with the

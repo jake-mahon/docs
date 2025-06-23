@@ -1,9 +1,3 @@
----
-title: Carbon Black
-sidebar_label: carbon black
-description: Documentation for Privilege Secure privileged access management solution covering features, configuration, and usage procedures.
----
-
 # Carbon Black
 
 Carbon Black

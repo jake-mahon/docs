@@ -1,9 +1,3 @@
----
-title: Investigation Options
-sidebar_label: Investigation Options
-description: You can view a saved investigation. Click Investigate in the application header bar to open the Investigations interface. Then click
----
-
 # Investigation Options
 
 You can view a saved investigation.

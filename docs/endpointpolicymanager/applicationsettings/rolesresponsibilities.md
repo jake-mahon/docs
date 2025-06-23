@@ -1,9 +1,3 @@
----
-title: Application Manager Roles and Responsibilities
-sidebar_label: Roles
-description: Understand the different roles and responsibilities for creating Application Manager packages and Group Policy deployments.
----
-
 # Application Manager Roles and Responsibilities
 
 In some environments, the creation of Paks and the creation of GPOs which deploy Netwrix Endpoint

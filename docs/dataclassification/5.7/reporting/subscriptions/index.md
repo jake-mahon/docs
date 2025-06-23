@@ -1,9 +1,3 @@
----
-title: Report Subscriptions
-sidebar_label: Subscriptions
-description: Subscriptions for report templates enable you to schedule email delivery of a variety of reports or set of specific search criteria. Subscriptions are helpfu...
----
-
 # Report Subscriptions
 
 Subscriptions for report templates enable you to schedule email delivery of a variety of reports or

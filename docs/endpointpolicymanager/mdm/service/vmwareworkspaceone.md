@@ -1,9 +1,3 @@
----
-title: Endpoint Policy Manager and VMware Workspace ONE
-sidebar_label: VMware Workspace ONE
-description: Deploy Endpoint Policy Manager using VMware Workspace ONE MDM. Learn to add applications, configure deployment options, and set up forced installations.
----
-
 # Endpoint Policy Manager and VMware Workspace ONE MDM
 
 **NOTE:** See

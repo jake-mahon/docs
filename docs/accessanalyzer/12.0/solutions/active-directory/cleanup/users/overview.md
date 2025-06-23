@@ -1,9 +1,3 @@
----
-title: active directory cleanup users overview
-sidebar_label: overview
-description: Solution guide for active directory cleanup users overview including implementation steps, configuration, and best practices.
----
-
 # 2.Users Job Group
 
 The 2.Users Job Group provides a workflow to deprovision stale and unused user accounts.

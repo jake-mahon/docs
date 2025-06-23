@@ -1,9 +1,3 @@
----
-title: Custom Search-Based Reports
-sidebar_label: Custom Reports
-description: Create and manage custom search-based reports in Netwrix Auditor using predefined templates or saved searches for instant access.
----
-
 # Custom Search-Based Reports
 
 Netwrix Auditor allows you to save your favorite searches as reports to access them instantly. For

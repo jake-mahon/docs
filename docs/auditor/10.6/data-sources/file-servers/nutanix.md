@@ -1,9 +1,3 @@
----
-title: nutanix
-sidebar_label: nutanix
-description: Auditor 10.6 documentation for nutanix with configuration details, usage instructions, and implementation guidance.
----
-
 # Create a Notification Policy
 
 To monitor operations with files and folders on Nutanix File Server, you should configure a

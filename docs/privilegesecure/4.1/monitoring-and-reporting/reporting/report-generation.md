@@ -1,9 +1,3 @@
----
-title: Reporting
-sidebar_label: report generation
-description: Documentation for Privilege Secure privileged access management solution covering features, configuration, and usage procedures.
----
-
 # Reporting
 
 Reports can be viewed and configured on the Reporting page. Predefined reports are available, as

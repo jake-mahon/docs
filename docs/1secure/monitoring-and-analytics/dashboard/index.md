@@ -1,9 +1,3 @@
----
-title: 1Secure Dashboard Overview
-sidebar_label: Dashboard
-description: Intuitive single-pane-of-glass dashboard view for monitoring client security status, alerts, and organizational health.
----
-
 # 1Secure Dashboard
 
 The Netwrix 1Secure dashboard provides an intuitive, single-pane-of-glass view of your clients

@@ -1,9 +1,3 @@
----
-title: metadata tags
-sidebar_label: metadata tags
-description: Documentation for metadata tags functionality in Access Analyzer including configuration and usage information.
----
-
 # Default Metadata Tag Values
 
 Sensitive Data Criteria can be tagged with one or more metadata tags to describe the criteria. The

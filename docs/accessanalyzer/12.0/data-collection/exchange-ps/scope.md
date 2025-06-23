@@ -1,9 +1,3 @@
----
-title: scope
-sidebar_label: scope
-description: Documentation for scope functionality in Access Analyzer including configuration and usage information.
----
-
 # ExchangePS: Scope
 
 The Scope page establishes how mailboxes are scoped. It is a wizard page for all of the categories.

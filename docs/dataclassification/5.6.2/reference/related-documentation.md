@@ -1,9 +1,3 @@
----
-title: Related
-sidebar_label: Related Documentation
-description: The Related tab allows you to view and modify the non-hierarchical relationships between preferred terms. This tab will only appear if the taxonomy is in SQL...
----
-
 # Related
 
 The Related tab allows you to view and modify the non-hierarchical relationships between preferred

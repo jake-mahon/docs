@@ -1,9 +1,3 @@
----
-title: adfs
-sidebar_label: adfs
-description: Auditor 10.6 documentation for adfs with configuration details, usage instructions, and implementation guidance.
----
-
 # AD FS
 
 Netwrix Auditor relies on native logs for collecting audit data. Therefore, successful change and

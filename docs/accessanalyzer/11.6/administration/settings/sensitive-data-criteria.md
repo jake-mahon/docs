@@ -1,9 +1,3 @@
----
-title: sensitive data criteria Administration
-sidebar_label: sensitive data criteria
-description: Administration guide for sensitive data criteria including configuration, management, and best practices for Access Analyzer.
----
-
 # Criteria Tab
 
 Configure the list of selected sensitive data criteria that will be used within sensitive data scan

@@ -1,9 +1,3 @@
----
-title: Log File Options Pages
-sidebar_label: log file options
-description: Documentation for Privilege Secure privileged access management solution covering features, configuration, and usage procedures.
----
-
 # Log File Options Pages
 
 The log level can be customized for each service. The left of the page lists the configurable

@@ -1,9 +1,3 @@
----
-title: index
-sidebar_label: index
-description: Auditor 10.6 documentation for index with configuration details, usage instructions, and implementation guidance.
----
-
 # File Servers
 
 Netwrix Auditor can monitor for operations with files and folders on the storage systems, collect

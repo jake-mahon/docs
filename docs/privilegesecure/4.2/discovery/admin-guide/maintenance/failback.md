@@ -1,9 +1,3 @@
----
-title: Failback (DR to PROD)
-sidebar_label: failback
-description: Documentation for Privilege Secure privileged access management solution covering features, configuration, and usage procedures.
----
-
 # Failback (DR to PROD)
 
 Failback (DR to PROD)

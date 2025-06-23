@@ -1,9 +1,3 @@
----
-title: SQL Server Configuration Overview
-sidebar_label: SQL Server
-description: Configure SQL Server audit settings using native logs for comprehensive database monitoring and change tracking.
----
-
 # SQL Server
 
 Netwrix 1Secure relies on native logs for collecting audit data. Therefore, successful change and

@@ -1,9 +1,3 @@
----
-title: Baseline Management Overview
-sidebar_label: Overview
-description: Baseline configuration management for creating hacker-proof systems with gold build standards and controlled security baselines.
----
-
 # Baseline
 
 Being the victim of a cyber attack can be scary, expensive, and potentially business-crippling.

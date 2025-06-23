@@ -1,9 +1,3 @@
----
-title: disable enable Administration
-sidebar_label: disable enable
-description: Administration guide for disable enable including configuration, management, and best practices for Access Analyzer.
----
-
 # Disable or Enable a Job
 
 Job groups may contain individual jobs that should not be run when the entire job group is run. Some

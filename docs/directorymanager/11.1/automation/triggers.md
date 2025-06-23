@@ -1,9 +1,3 @@
----
-title: triggers
-sidebar_label: triggers
-description: Directory Manager 11.1 documentation for triggers with configuration details, usage instructions, and implementation guidance.
----
-
 # Triggers
 
 Follow the steps to define a trigger.

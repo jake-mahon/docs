@@ -1,9 +1,3 @@
----
-title: filesystem activity suspiciousactivity fs modifiedbinaries
-sidebar_label: fs modifiedbinaries
-description: Solution guide for filesystem activity suspiciousactivity fs modifiedbinaries including implementation steps, configuration, and best practices.
----
-
 # FS_ModifiedBinaries Job
 
 The FS_ModifiedBinaries job is designed to report on activity event information where binaries were

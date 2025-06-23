@@ -1,9 +1,3 @@
----
-title: columns
-sidebar_label: columns
-description: Documentation for columns functionality in Access Analyzer including configuration and usage information.
----
-
 # SQLViewCreations: Columns
 
 The Result Columns page lists the tables selected on the Input Select page.

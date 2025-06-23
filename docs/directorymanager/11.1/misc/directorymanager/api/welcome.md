@@ -1,9 +1,3 @@
----
-title: . 11.1 misc directorymanager api welcome API
-sidebar_label: welcome
-description: API reference for welcome operations in Directory Manager with request parameters, response examples, and implementation details.
----
-
 # Directory Manager (formerly GroupID) APIs
 
 Directory Manager APIs enable developers to quickly intergrate their applications with Directory

@@ -1,9 +1,3 @@
----
-title: box collection 2 box import
-sidebar_label: 2 box import
-description: Solution guide for box collection 2 box import including implementation steps, configuration, and best practices.
----
-
 # 2-Box_Import Job
 
 The 2-Box_Import Job takes the data that has been collected from the 1-Box_Access Scans Job and the

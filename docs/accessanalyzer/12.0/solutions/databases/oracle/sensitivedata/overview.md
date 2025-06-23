@@ -1,9 +1,3 @@
----
-title: databases oracle sensitivedata overview
-sidebar_label: overview
-description: Solution guide for databases oracle sensitivedata overview including implementation steps, configuration, and best practices.
----
-
 # 5.Sensitive Data Job Group
 
 The 5.Sensitive Data Job Group is designed to provide insight into where sensitive data exists and

@@ -1,9 +1,3 @@
----
-title: entraidinventory 2 aad exceptions
-sidebar_label: 2 aad exceptions
-description: Solution guide for entraidinventory 2 aad exceptions including implementation steps, configuration, and best practices.
----
-
 # 2-AAD_Exceptions Job
 
 The 2-AAD_Exceptions Job identifies toxic conditions that exist within Microsoft Entra ID which may

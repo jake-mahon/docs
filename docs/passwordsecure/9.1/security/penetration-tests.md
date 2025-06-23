@@ -1,9 +1,3 @@
----
-title: Security Penetration Testing
-sidebar_label: Penetration Tests
-description: External penetration testing procedures for Password Secure security validation with regular attestation and vulnerability detection processes.
----
-
 # Penetration tests
 
 ## External Penetration tests

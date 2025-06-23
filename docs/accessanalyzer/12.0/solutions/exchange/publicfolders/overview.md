@@ -1,9 +1,3 @@
----
-title: exchange publicfolders overview
-sidebar_label: overview
-description: Solution guide for exchange publicfolders overview including implementation steps, configuration, and best practices.
----
-
 # 5. Public Folders Job Group
 
 The 5. Public Folders job group is comprised of data collection, analyses, and reports that focus on

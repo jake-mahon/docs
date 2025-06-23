@@ -1,9 +1,3 @@
----
-title: network traffic compression
-sidebar_label: network-traffic-compression
-description: Auditor 10.7 documentation for network traffic compression with configuration details, usage instructions, and implementation guidance.
----
-
 # Network Traffic Compression
 
 To reduce network traffic in distributed deployments, multi-site networks and other environments

@@ -1,9 +1,3 @@
----
-title: Getting Started: agentless permissions
-sidebar_label: agentless permissions
-description: Getting started guide for agentless permissions in Access Analyzer including setup instructions and initial configuration steps.
----
-
 # SharePoint Agent-Less Permissions
 
 When SharePoint agent-less scans are run, it means all of the data collection processing is

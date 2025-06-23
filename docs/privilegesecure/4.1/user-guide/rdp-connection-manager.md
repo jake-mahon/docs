@@ -1,9 +1,3 @@
----
-title: Configure DirectConnect for Remote Desktop Connection
-sidebar_label: rdp connection manager
-description: End user documentation covering session management, access procedures, dashboard functionality, and browser extension usage.
----
-
 # Configure DirectConnect for Remote Desktop Connection
 
 The Netwrix Privilege Secure proxy service can be used to launch DirectConnect sessions via

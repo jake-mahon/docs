@@ -1,9 +1,3 @@
----
-title: Credential Data Security Assessment Overview
-sidebar_label: Overview
-description: Deep-dive security assessment for structured and unstructured data, Active Directory, and Windows infrastructure with supporting solutions.
----
-
 # Credential & Data Security Assessment Overview
 
 Proper data security begins with a strong foundation. The Credential & Data Security Assessment

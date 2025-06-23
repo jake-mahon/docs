@@ -1,9 +1,3 @@
----
-title: Setting Up Licensed User
-sidebar_label: Licensing
-description: Create and configure a licensed user with full Flashlight access permissions through the Users & License Manager for complete system functionality.
----
-
 # Setting up a Licensed User
 
 When you first install NetSuite, you need to create a licensed user who has full access to

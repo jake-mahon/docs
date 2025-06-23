@@ -1,9 +1,3 @@
----
-title: Printer Configuration with Application Manager
-sidebar_label: Printers
-description: Learn how Application Manager manages printer settings and integrates with Group Policy Preferences for printer deployment.
----
-
 # Can Application Manager help me in pushing, assigning or configuring printers?
 
 Because Microsoft's Group Policy Preferences already does a good job of pushing and assigning

@@ -1,9 +1,3 @@
----
-title: query
-sidebar_label: query
-description: Documentation for query functionality in Access Analyzer including configuration and usage information.
----
-
 # NIS: NIS Query
 
 The NIS Query page is where the NIS query regular expressions are configured and tested. It is a

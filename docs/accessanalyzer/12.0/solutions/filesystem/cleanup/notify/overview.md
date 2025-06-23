@@ -1,9 +1,3 @@
----
-title: filesystem cleanup notify overview
-sidebar_label: overview
-description: Solution guide for filesystem cleanup notify overview including implementation steps, configuration, and best practices.
----
-
 # 2. Notify Job Group
 
 The 2. Notify job group is designed to report on and notify owners of resources of target file

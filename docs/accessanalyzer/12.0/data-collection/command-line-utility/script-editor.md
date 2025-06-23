@@ -1,9 +1,3 @@
----
-title: script editor
-sidebar_label: script editor
-description: Documentation for script editor functionality in Access Analyzer including configuration and usage information.
----
-
 # CLU: Script Editor
 
 The Script Editor page provides options to create or edit a Visual Basic script that is used to

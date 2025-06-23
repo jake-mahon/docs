@@ -1,9 +1,3 @@
----
-title: EPE User Feedback Installation
-sidebar_label: EPE User Feedback
-description: EPE User Feedback module installation for providing password rejection messages to end users during password changes.
----
-
 # EPE User Feedback Module
 
 You can choose to install the optional Enterprise Password Enforcer (EPE) User Feedback module for

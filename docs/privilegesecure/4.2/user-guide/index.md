@@ -1,9 +1,3 @@
----
-title: Privilege Secure End User Overview
-sidebar_label: Overview
-description: End user documentation covering session management, access procedures, dashboard functionality, and browser extension usage.
----
-
 # Privilege Secure End User Overview
 
 This topic and its subtopics are written for users who have been assigned as a Privilege Secure

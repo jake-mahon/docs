@@ -1,9 +1,3 @@
----
-title: Group Policy Installation Guide
-sidebar_label: Group Policy Installation
-description: Install Password Policy Enforcer using Group Policy Management for automated distribution across domain computers.
----
-
 # Install with Group Policy Management
 
 An automated installation uses Group Policy to distribute Password Policy Enforcer. This type of

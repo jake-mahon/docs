@@ -1,9 +1,3 @@
----
-title: Auditing Page
-sidebar_label: Auditing Page
-description: The Auditing page within the System Settings interface contains the Audit History table with information about all application events.
----
-
 # Auditing Page
 
 The Auditing page within the System Settings interface contains the Audit History table with

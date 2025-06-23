@@ -1,9 +1,3 @@
----
-title: What's New in Password Secure
-sidebar_label: What's New
-description: Latest features and enhancements in Password Secure v9.1.3 including new browser extension, filtering options, and server improvements.
----
-
 # What's New
 
 ## New Netwrix Community!

@@ -1,9 +1,3 @@
----
-title: Password Policy Enforcer Web License Agreement
-sidebar_label: License Agreement
-description: License agreement terms and conditions for Password Policy Enforcer Web software usage and distribution.
----
-
 # License Agreement
 
 NETWRIX PTY LTD ("NETWRIX") IS WILLING TO LICENSE THIS SOFTWARE ONLY UPON THE CONDITION THAT YOU

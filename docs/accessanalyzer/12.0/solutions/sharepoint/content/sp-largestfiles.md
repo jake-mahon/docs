@@ -1,9 +1,3 @@
----
-title: sharepoint content sp largestfiles
-sidebar_label: sp largestfiles
-description: Solution guide for sharepoint content sp largestfiles including implementation steps, configuration, and best practices.
----
-
 # SP_LargestFiles Job
 
 The SP_LargestFiles Job identifies the largest files across SharePoint farms. Changes to a document

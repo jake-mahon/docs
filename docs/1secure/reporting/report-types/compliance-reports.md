@@ -1,9 +1,3 @@
----
-title: Compliance Reports Guide
-sidebar_label: Compliance Reports
-description: Generate compliance reports to help clients and MSPs gather regulatory and compliance information about their environments.
----
-
 # Compliance Reports
 
 Compliance reports help clients and Managed Service Providers gather information about their

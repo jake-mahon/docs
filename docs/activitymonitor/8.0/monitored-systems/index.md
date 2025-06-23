@@ -1,9 +1,3 @@
----
-title: Add New Host Configuration
-sidebar_label: Monitored Systems
-description: Configure hosts for monitoring by Activity Monitor agents including various storage systems, cloud platforms, and database servers for comprehensive auditing.
----
-
 # Add New Host Window
 
 Once an agent has been deployed, you can configure a host to be monitored by clicking the Add Host

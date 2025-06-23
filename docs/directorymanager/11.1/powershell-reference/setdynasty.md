@@ -1,9 +1,3 @@
----
-title: Set dynasty Cmdlet
-sidebar_label: setdynasty
-description: PowerShell cmdlet reference for setdynasty with parameter details, syntax examples, and usage instructions for Directory Manager.
----
-
 # Set-Dynasty
 
 The Set-Dynasty commandlet lets you to modify a Dynasty or its children in Directory.

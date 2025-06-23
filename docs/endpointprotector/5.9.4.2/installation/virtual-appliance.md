@@ -1,9 +1,3 @@
----
-title: Virtual Appliance Deployment Guide
-sidebar_label: Virtual Appliance
-description: Comprehensive guide for configuring, deploying, and managing Endpoint Protector virtual appliance in various environments.
----
-
 # Virtual Appliance
 
 Welcome to the Endpoint Protector Virtual Appliance Guide, your comprehensive resource for

@@ -1,9 +1,3 @@
----
-title: databases sql usersroles sql databaseprinciples
-sidebar_label: sql databaseprinciples
-description: Solution guide for databases sql usersroles sql databaseprinciples including implementation steps, configuration, and best practices.
----
-
 # SQL_DatabasePrinciples Job
 
 The SQL_DatabasePrinciplesJob provides detailed information on database principals across all

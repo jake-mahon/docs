@@ -1,9 +1,3 @@
----
-title: Portal entitlement sharepointsites
-sidebar_label: sharepointsites
-description: Directory Manager portal documentation for entitlement functionality including user interface, navigation, and operational procedures.
----
-
 # Explore SharePoint Sites
 
 The **SharePoint Sites** page lists the sites specified for permission analysis in the identity

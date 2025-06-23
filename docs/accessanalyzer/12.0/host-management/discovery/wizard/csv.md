@@ -1,9 +1,3 @@
----
-title: csv
-sidebar_label: csv
-description: Documentation for csv functionality in Access Analyzer including configuration and usage information.
----
-
 # Import From a Local CSV File
 
 Follow the steps to create a Host Discovery query using the **Import from a CSV file** source

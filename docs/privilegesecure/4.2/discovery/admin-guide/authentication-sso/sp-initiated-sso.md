@@ -1,9 +1,3 @@
----
-title: SP Initiated SSO
-sidebar_label: sp initiated sso
-description: Documentation for Privilege Secure privileged access management solution covering features, configuration, and usage procedures.
----
-
 # SP Initiated SSO
 
 SP Initiated SSO

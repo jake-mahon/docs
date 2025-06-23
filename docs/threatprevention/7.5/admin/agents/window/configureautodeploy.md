@@ -1,9 +1,3 @@
----
-title: Configure Auto Deploy Window
-sidebar_label: Configure Auto Deploy Window
-description: You can automatically deploy Agents to discovered domain controllers in a domain, provided that the Agent has already been deployed on at least one domain co...
----
-
 # Configure Auto Deploy Window
 
 You can automatically deploy Agents to discovered domain controllers in a domain, provided that the

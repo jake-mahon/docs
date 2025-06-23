@@ -1,9 +1,3 @@
----
-title: databases azuresql collection 3 azuresql activityscan
-sidebar_label: 3 azuresql activityscan
-description: Solution guide for databases azuresql collection 3 azuresql activityscan including implementation steps, configuration, and best practices.
----
-
 # 3-AzureSQL_ActivityScan Job
 
 The 3–AzureSQL_ActivityScan job captures user activity from all targeted Azure SQL instances and

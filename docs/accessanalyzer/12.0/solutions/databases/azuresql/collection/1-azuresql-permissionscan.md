@@ -1,9 +1,3 @@
----
-title: databases azuresql collection 1 azuresql permissionscan
-sidebar_label: 1 azuresql permissionscan
-description: Solution guide for databases azuresql collection 1 azuresql permissionscan including implementation steps, configuration, and best practices.
----
-
 # 1-AzureSQL_PermissionScan Job
 
 The 1–AzureSQL_PermissionScan Job is designed to collect Azure SQL instance and database level

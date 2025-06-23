@@ -1,9 +1,3 @@
----
-title: Getting Started: unix
-sidebar_label: unix
-description: Getting started guide for unix in Access Analyzer including setup instructions and initial configuration steps.
----
-
 # Unix Solution
 
 The core components for Netwrix Access Analyzer (formerly Enterprise Auditor) are the Access

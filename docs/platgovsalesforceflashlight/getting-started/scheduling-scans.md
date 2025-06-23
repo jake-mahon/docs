@@ -1,9 +1,3 @@
----
-title: Running the Scheduler
-sidebar_label: Scheduling
-description: Configure automated scans using Strongpoint's scheduler to document field usage and maintain up-to-date org documentation with customizable frequency settings.
----
-
 # Running the Scheduler
 
 Strongpoint's scheduler creates automated scans and documents the Field Usage and date last used

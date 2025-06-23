@@ -1,9 +1,3 @@
----
-title: databases mysql mysql databasesizing
-sidebar_label: mysql databasesizing
-description: Solution guide for databases mysql mysql databasesizing including implementation steps, configuration, and best practices.
----
-
 # Configuration > MySQL_DatabaseSizing Job
 
 The Configuration Job Group is designed to provide insight into MySQL server configuration settings.

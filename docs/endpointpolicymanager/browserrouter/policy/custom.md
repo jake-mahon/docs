@@ -1,9 +1,3 @@
----
-title: Browser Router Custom Application Policies
-sidebar_label: Custom Policies
-description: Configure Browser Router custom policies to route websites to non-standard browsers like Opera, Vivaldi, or virtualized browser applications.
----
-
 # Using Custom Policies
 
 Custom policies are useful in a variety of situations. The most common situation concerns a user who

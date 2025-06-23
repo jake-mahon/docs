@@ -1,9 +1,3 @@
----
-title: End User Guide Overview
-sidebar_label: User Guide
-description: Complete guide for Privilege Secure end users covering login, MFA registration, session management, browser extension, and dashboard functionality.
----
-
 # Privilege Secure End User Overview
 
 This topic and its subtopics are written for users who have been assigned as a Privilege Secure

@@ -1,9 +1,3 @@
----
-title: General Settings Configuration
-sidebar_label: General Settings
-description: Configuration guide for Password Reset general settings including license management, domain setup, and Password Policy Enforcer integration options.
----
-
 # About Tab
 
 Use the **About** tab to check the version and license information, and to install a new license

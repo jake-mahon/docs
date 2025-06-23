@@ -1,9 +1,3 @@
----
-title: Firefox Group Policy Management Tutorial
-sidebar_label: Getting Started
-description: Learn to manage Firefox using Group Policy, SCCM, or management tools with Endpoint Policy Manager since Firefox lacks native Group Policy support.
----
-
 # Manage Firefox using Group Policy, SCCM, or your own management tool
 
 Firefox itself has no native Group Policy support with ADM or ADMX files to control these key

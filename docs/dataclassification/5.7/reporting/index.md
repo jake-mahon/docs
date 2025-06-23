@@ -1,9 +1,3 @@
----
-title: Reporting
-sidebar_label: Reporting
-description: The Reports administration area helps a user extract a wealth of information from the index. The main dashboard has three high level graphs highlighting the...
----
-
 # Reporting
 
 The Reports administration area helps a user extract a wealth of information from the index.

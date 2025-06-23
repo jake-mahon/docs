@@ -1,9 +1,3 @@
----
-title: entitlement
-sidebar_label: entitlement
-description: Directory Manager 11.1 documentation for entitlement with configuration details, usage instructions, and implementation guidance.
----
-
 # Object Properties - Entitlements tab
 
 Entitlement computes the effective NTFS permissions granted to objects on shared resources residing

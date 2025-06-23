@@ -1,9 +1,3 @@
----
-title: Bulk Actions
-sidebar_label: bulk actions
-description: Documentation for Privilege Secure privileged access management solution covering features, configuration, and usage procedures.
----
-
 # Bulk Actions
 
 Bulk Actions

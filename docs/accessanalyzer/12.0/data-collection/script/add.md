@@ -1,9 +1,3 @@
----
-title: add
-sidebar_label: add
-description: Documentation for add functionality in Access Analyzer including configuration and usage information.
----
-
 # Add a Script to an Existing Query
 
 The Query Properties window provides the ability to add a script to an existing query. Typically, a

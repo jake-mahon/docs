@@ -1,9 +1,3 @@
----
-title: Firewall Ports Configuration
-sidebar_label: Firewall Ports Config
-description: Comprehensive firewall port configuration requirements for Threat Prevention components including Enterprise Manager, agents, and reporting services.
----
-
 # Firewall Ports
 
 The following default ports are required for Threat Prevention functionality unless modified as per

@@ -1,9 +1,3 @@
----
-title: box activity overview
-sidebar_label: overview
-description: Solution guide for box activity overview including implementation steps, configuration, and best practices.
----
-
 # 1.Activity Job Group
 
 The **Box** > **1.Activity** Job Group identifies long term trends of activity providing insight

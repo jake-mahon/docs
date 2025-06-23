@@ -1,9 +1,3 @@
----
-title: Windows Firewall Inbound Rules Configuration
-sidebar_label: Firewall Rules
-description: Configure Windows Firewall inbound connection rules on target computers for proper communication with 1Secure monitoring.
----
-
 # Configure Windows Firewall Inbound Connection Rules
 
 You need to configure the inbound connection rules in Windows Firewall on each target computer,

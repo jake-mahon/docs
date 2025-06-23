@@ -1,9 +1,3 @@
----
-title: attestation
-sidebar_label: attestation
-description: Directory Manager 11.1 documentation for attestation with configuration details, usage instructions, and implementation guidance.
----
-
 # Attest an Expiring Group
 
 If the Directory Manager administrator enables group attestation for the identity store, then group

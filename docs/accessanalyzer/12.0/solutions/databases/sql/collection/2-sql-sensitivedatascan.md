@@ -1,9 +1,3 @@
----
-title: databases sql collection 2 sql sensitivedatascan
-sidebar_label: 2 sql sensitivedatascan
-description: Solution guide for databases sql collection 2 sql sensitivedatascan including implementation steps, configuration, and best practices.
----
-
 # 2-SQL_SensitiveDataScan Job
 
 The 2-SQL_SensitiveDataScan Job discovers sensitive data in the database SQL server instances and

@@ -1,9 +1,3 @@
----
-title: PostMan: Adding Users/Groups to Linux System Inventory
-sidebar_label: postman linux
-description: Documentation for Privilege Secure privileged access management solution covering features, configuration, and usage procedures.
----
-
 # PostMan: Adding Users/Groups to Linux System Inventory
 
 PostMan: Adding Users/Groups to Linux System Inventory

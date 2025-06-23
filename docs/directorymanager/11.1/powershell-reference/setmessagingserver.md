@@ -1,9 +1,3 @@
----
-title: Set messagingserver Cmdlet
-sidebar_label: setmessagingserver
-description: PowerShell cmdlet reference for setmessagingserver with parameter details, syntax examples, and usage instructions for Directory Manager.
----
-
 # Set-MessagingServer
 
 The commandlet Set-MessagingServer configures a messaging system in identity store. The SmtpServer

@@ -1,9 +1,3 @@
----
-title: index
-sidebar_label: index
-description: Auditor 10.7 documentation for index with configuration details, usage instructions, and implementation guidance.
----
-
 # Predefined Reports
 
 Netwrix Auditor is shipped with 250+ ready-to-use reports designed by Netwrix industry experts. To

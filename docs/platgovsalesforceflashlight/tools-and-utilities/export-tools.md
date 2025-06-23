@@ -1,9 +1,3 @@
----
-title: Export Objects Tool
-sidebar_label: Export Objects
-description: Export one or more Salesforce objects with child objects, profiles, and permission sets into Excel files for easy review and management.
----
-
 # Export Objects
 
 Administrators can use this to export one or more objects, including all child objects, into a

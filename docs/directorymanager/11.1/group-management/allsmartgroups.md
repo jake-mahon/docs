@@ -1,9 +1,3 @@
----
-title: allsmartgroups
-sidebar_label: allsmartgroups
-description: Directory Manager 11.1 documentation for allsmartgroups with configuration details, usage instructions, and implementation guidance.
----
-
 # Smart Groups
 
 This view lists only the Smart Groups created using Directory Manager in the connected identity

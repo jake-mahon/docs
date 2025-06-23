@@ -1,9 +1,3 @@
----
-title: DesignStudio AppSet Creation Tool
-sidebar_label: DesignStudio Overview
-description: Advanced reference guide for Endpoint Policy Manager DesignStudio utility for creating custom AppSets with tips, tricks, and application scenarios.
----
-
 # DesignStudio
 
 This document will help you to understand Netwrix Endpoint Policy Manager (formerly PolicyPak)

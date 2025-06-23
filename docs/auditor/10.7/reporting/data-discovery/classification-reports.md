@@ -1,9 +1,3 @@
----
-title: classification reports
-sidebar_label: classification-reports
-description: Auditor 10.7 documentation for classification reports with configuration details, usage instructions, and implementation guidance.
----
-
 # Data Discovery and Classification Reports
 
 Follow the steps to review Data Discovery and Classification reports:

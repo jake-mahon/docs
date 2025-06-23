@@ -1,9 +1,3 @@
----
-title: Internet Explorer AppSet Configuration
-sidebar_label: IE Overview
-description: Configure Microsoft Internet Explorer 8 and later browser settings with Application Settings Manager AppSet including security and advanced features.
----
-
 # Internet Explorer AppSet
 
 This document will help you to understand how to use the AppSet named "Microsoft Internet Explorer 8

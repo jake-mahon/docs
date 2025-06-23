@@ -1,9 +1,3 @@
----
-title: API Key Management
-sidebar_label: api key management
-description: Documentation for Privilege Secure privileged access management solution covering features, configuration, and usage procedures.
----
-
 # API Key Management
 
 API Key Management

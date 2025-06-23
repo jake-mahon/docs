@@ -1,9 +1,3 @@
----
-title: Authentication Monitoring Event Type
-sidebar_label: Authentication Monitoring Event Type
-description: The Authentication Monitoring event type captures events according to policy filters for Kerberos, TGT, TGS and/or NTLM authentication requests.
----
-
 # Authentication Monitoring Event Type
 
 The Authentication Monitoring event type captures events according to policy filters for Kerberos,

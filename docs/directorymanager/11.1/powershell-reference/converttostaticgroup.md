@@ -1,9 +1,3 @@
----
-title: converttostaticgroup Cmdlet
-sidebar_label: converttostaticgroup
-description: PowerShell cmdlet reference for converttostaticgroup with parameter details, syntax examples, and usage instructions for Directory Manager.
----
-
 # ConvertTo-StaticGroup
 
 The ConvertTo-StaticGroup commandlet converts an existing Smart Group or a dynasty to a static group

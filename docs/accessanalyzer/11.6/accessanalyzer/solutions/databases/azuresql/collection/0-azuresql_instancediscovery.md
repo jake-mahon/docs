@@ -1,9 +1,3 @@
----
-title: Azure SQL Instance Discovery Collection
-sidebar_label: Instance Discovery
-description: Azure SQL instance discovery collection job for identifying and cataloging Azure SQL database instances and their configurations.
----
-
 # 0-AzureSQL_InstanceDiscovery Job
 
 The Azure SQL Instance Discovery job is responsible for enumerating a list of Azure SQL Server

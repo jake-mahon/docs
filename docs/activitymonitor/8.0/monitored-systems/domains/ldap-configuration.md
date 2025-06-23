@@ -1,9 +1,3 @@
----
-title: LDAP Monitor Configuration
-sidebar_label: LDAP Configuration
-description: Configure LDAP monitoring for domains including account filtering by name and type with event monitoring scopes and operational filters.
----
-
 # LDAP Monitor Tab
 
 The LDAP Monitor tab on a domain’s Configuration window allows users to scope monitoring by adding

@@ -1,9 +1,3 @@
----
-title: exchange databases recommended
-sidebar_label: recommended
-description: Solution guide for exchange databases recommended including implementation steps, configuration, and best practices.
----
-
 # Recommended Configurations for the 3. Databases Job Group
 
 Dependencies

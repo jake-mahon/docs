@@ -1,9 +1,3 @@
----
-title: Policy Actions Overview
-sidebar_label: Policy Actions
-description: Policy action configuration including file actions, PowerShell scripts, and network script responses for automated threat remediation.
----
-
 # Actions Tab
 
 The Actions tab is for configuring various responses, or event consumers, to the event data a policy

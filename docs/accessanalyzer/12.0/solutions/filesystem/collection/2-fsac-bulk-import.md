@@ -1,9 +1,3 @@
----
-title: filesystem collection 2 fsac bulk import
-sidebar_label: 2 fsac bulk import
-description: Solution guide for filesystem collection 2 fsac bulk import including implementation steps, configuration, and best practices.
----
-
 # 2-FSAC Bulk Import Job
 
 The 2-FSAC Bulk Import job is designed to import collected access information from the targeted file

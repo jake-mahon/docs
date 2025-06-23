@@ -1,9 +1,3 @@
----
-title: cyberark integration Administration
-sidebar_label: cyberark integration
-description: Administration guide for cyberark integration including configuration, management, and best practices for Access Analyzer.
----
-
 # CyberArk Integration
 
 In order for Access Analyzer to be able to retrieve service account passwords from the CyberArk

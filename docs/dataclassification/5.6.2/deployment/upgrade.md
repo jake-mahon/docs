@@ -1,9 +1,3 @@
----
-title: Upgrade to the Latest Version
-sidebar_label: Upgrade
-description: Netwrix recommends that you upgrade from the older versions of Netwrix Data Classification to the latest version available in order to take advantage of the...
----
-
 # Upgrade to the Latest Version
 
 Netwrix recommends that you upgrade from the older versions of Netwrix Data Classification to the

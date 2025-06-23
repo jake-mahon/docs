@@ -1,9 +1,3 @@
----
-title: Jobs Instantiate Configuration
-sidebar_label: Instantiate
-description: Job instantiation configuration for creating and managing Enterprise Auditor jobs and schedules.
----
-
 # Instantiating Jobs into the Jobs Tree
 
 Enterprise Auditor jobs and solutions are comprised of files contained within the file system of the

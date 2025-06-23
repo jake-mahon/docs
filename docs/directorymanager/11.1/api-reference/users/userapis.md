@@ -1,9 +1,3 @@
----
-title: userapis
-sidebar_label: userapis
-description: Directory Manager 11.1 documentation for userapis with configuration details, usage instructions, and implementation guidance.
----
-
 # User APIs
 
 Directory Manager provides the following APIs to perform user-specific functions:

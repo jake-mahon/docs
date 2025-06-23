@@ -1,9 +1,3 @@
----
-title: Uninstalling Flashlight
-sidebar_label: Uninstalling
-description: Step-by-step guide to remove the Flashlight app from your Salesforce org including important billing notifications and contact information.
----
-
 # Uninstalling Flashlight
 
 Here is how to uninstall the Flashlight app from your org:

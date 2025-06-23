@@ -1,9 +1,3 @@
----
-title: Text Processing
-sidebar_label: Text Handling
-description: This section contains information on how to configure text processing. Related options apply to: Best Bets Sometimes an application may wish to push selected...
----
-
 # Text Processing
 
 This section contains information on how to configure text processing. Related options apply to:

@@ -1,10 +1,3 @@
----
-title: Upgrade Agent
-sidebar_label: Upgrade Agent
-description: The Threat Prevention Agent is updated from the Agents interface. must create an exclusion for Threat Prevention using any of these methods:
-
----
-
 # Upgrade Agent
 
 The Threat Prevention Agent is updated from the Agents interface.

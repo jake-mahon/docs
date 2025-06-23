@@ -1,9 +1,3 @@
----
-title: authentication and security
-sidebar_label: authentication-and-security
-description: Auditor 10.7 documentation for authentication and security with configuration details, usage instructions, and implementation guidance.
----
-
 # Security
 
 By default, Netwrix Auditor API uses HTTPS for sending requests to its endpoints. Netwrix encrypts

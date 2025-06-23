@@ -1,9 +1,3 @@
----
-title: index
-sidebar_label: index
-description: Auditor 10.7 documentation for index with configuration details, usage instructions, and implementation guidance.
----
-
 # First Launch
 
 The installer places the following icon on the desktop which opens the Access Reviews Console:

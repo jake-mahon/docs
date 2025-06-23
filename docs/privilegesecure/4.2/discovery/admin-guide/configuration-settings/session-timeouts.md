@@ -1,9 +1,3 @@
----
-title: Controlling Session Timeouts with GPO
-sidebar_label: session timeouts
-description: Documentation for Privilege Secure privileged access management solution covering features, configuration, and usage procedures.
----
-
 # Controlling Session Timeouts with GPO
 
 Controlling Session Timeouts with GPO

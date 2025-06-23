@@ -1,9 +1,3 @@
----
-title: Settings Reversion Policy Mode
-sidebar_label: Reversion
-description: Configure application settings reversion mode to restore default values when Group Policy objects fall out of scope or are no longer applied.
----
-
 # Reversion Mode
 
 The second set of options on an element dictates the reversion mode, or the policy removal options.

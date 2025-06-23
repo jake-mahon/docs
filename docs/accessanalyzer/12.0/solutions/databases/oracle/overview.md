@@ -1,9 +1,3 @@
----
-title: databases oracle overview
-sidebar_label: overview
-description: Solution guide for databases oracle overview including implementation steps, configuration, and best practices.
----
-
 # Oracle Solution
 
 Data privacy and security is quickly evolving to be on equal footing with traditional security

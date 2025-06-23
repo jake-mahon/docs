@@ -1,9 +1,3 @@
----
-title: options
-sidebar_label: options
-description: Documentation for options functionality in Access Analyzer including configuration and usage information.
----
-
 # ExchangePS: Options
 
 The Options page is used to configure additional options. It is a wizard page for all of the

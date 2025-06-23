@@ -1,9 +1,3 @@
----
-title: Integration Guide Overview
-sidebar_label: Integration Guide
-description: Comprehensive guide providing tools and knowledge to fully understand and configure Usercube to match your project's identity management needs.
----
-
 # Integration Guide
 
 This guide is designed to provide the tools and knowledge to fully understand and configure Usercube

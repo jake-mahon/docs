@@ -1,9 +1,3 @@
----
-title: Classification Reports
-sidebar_label: Classification Reports
-description: Review the list of the built-in classification reports: specifically tags added/removed. To log classification changes, enable the related option in the...
----
-
 # Classification Reports
 
 Review the list of the built-in classification reports:

@@ -1,9 +1,3 @@
----
-title: active directory cleanup groups stamping overview
-sidebar_label: overview
-description: Solution guide for active directory cleanup groups stamping overview including implementation steps, configuration, and best practices.
----
-
 # 2.Group Stamping Job Group
 
 The 2. Group Stamping Job Group updates the Notes attribute for all security groups to show where

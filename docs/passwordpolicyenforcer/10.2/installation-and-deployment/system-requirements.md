@@ -1,9 +1,3 @@
----
-title: System Requirements and Computer Preparation
-sidebar_label: System Requirements
-description: Requirements for setting up Password Policy Enforcer evaluation including domain controller setup and Windows password policy configuration.
----
-
 # Preparing the Computer
 
 You only need one computer for the evaluation. A Windows Server 2016, 2019, or 2022 domain

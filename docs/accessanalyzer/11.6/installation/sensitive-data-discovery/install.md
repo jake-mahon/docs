@@ -1,9 +1,3 @@
----
-title: Installation: install
-sidebar_label: install
-description: Installation guide for install including system requirements, setup procedures, and configuration options.
----
-
 # Sensitive Data Discovery Add-On Installation
 
 The Sensitive Data Discovery Add-On enables Enterprise Auditor to scan files for criteria matches

@@ -1,9 +1,3 @@
----
-title: navigation
-sidebar_label: navigation
-description: Directory Manager 11.1 documentation for navigation with configuration details, usage instructions, and implementation guidance.
----
-
 # Navigation
 
 On signing into SSPR portal, you land on the main portal page, that displays all the functions the

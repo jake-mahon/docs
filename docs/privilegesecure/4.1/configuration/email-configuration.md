@@ -1,9 +1,3 @@
----
-title: Email Configuration Page
-sidebar_label: email configuration
-description: System configuration settings and advanced options for authentication, integrations, services, and security parameters.
----
-
 # Email Configuration Page
 
 The Email Configuration page is accessible from the Navigation pane under Configuration > System

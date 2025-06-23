@@ -1,9 +1,3 @@
----
-title: input
-sidebar_label: input
-description: Documentation for input functionality in Access Analyzer including configuration and usage information.
----
-
 # Change Detection: Input
 
 Use the Input Data Source page to choose a data source to analyze for changes.

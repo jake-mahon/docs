@@ -1,9 +1,3 @@
----
-title: Email Alert Configuration
-sidebar_label: Email
-description: Email alert configuration for sending notification messages when security policies are triggered or system events occur.
----
-
 # Email Tab
 
 Alert notification via email sends messages through an SMTP gateway. Alerts are designed to send

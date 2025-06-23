@@ -1,9 +1,3 @@
----
-title: databases postgresql sensitivedata pgsql sensitivedata
-sidebar_label: pgsql sensitivedata
-description: Solution guide for databases postgresql sensitivedata pgsql sensitivedata including implementation steps, configuration, and best practices.
----
-
 # PgSQL_SensitiveData Job
 
 The PsSQL_SensitiveData Job is designed to provide information on all the sensitive data that was

@@ -1,9 +1,3 @@
----
-title: Nasuni Edge Appliance Activity Configuration
-sidebar_label: Nasuni
-description: Configure activity monitoring for Nasuni Edge Appliances with API access key generation through Filer Management Interface and Management Console.
----
-
 # Nasuni Edge Appliance Activity Auditing Configuration
 
 Generation of an API Access Key is required for Nasuni activity monitoring. The Nasuni Edge

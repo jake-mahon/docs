@@ -1,9 +1,3 @@
----
-title: Connect Identity Store Cmdlet
-sidebar_label: Connect-IdentityStore
-description: PowerShell cmdlet to establish connections with identity stores when Directory Manager Management Shell requires specific domain access.
----
-
 # Connect-IdentityStore
 
 If an identity store of the connected domain is available, then Directory Manager Management Shell

@@ -1,9 +1,3 @@
----
-title: Unix Critical Files Analysis
-sidebar_label: Critical Files
-description: Unix critical files analysis for monitoring access to system-critical files and configuration changes.
----
-
 # UX_CriticalFiles Job
 
 The UX_CriticalFiles job provides visibility into owners of critical files within audited Unix and

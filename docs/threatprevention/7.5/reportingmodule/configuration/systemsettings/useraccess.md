@@ -1,9 +1,3 @@
----
-title: User Access Page
-sidebar_label: User Access Page
-description: The User Access page within the System Settings interface displays users and groups with their assigned roles for console access.
----
-
 # User Access Page
 
 The User Access page within the System Settings interface displays users and groups with their

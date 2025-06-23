@@ -1,9 +1,3 @@
----
-title: exchange sensitivedata collection ex mailbox sdd
-sidebar_label: ex mailbox sdd
-description: Solution guide for exchange sensitivedata collection ex mailbox sdd including implementation steps, configuration, and best practices.
----
-
 # EX_Mailbox_SDD Job
 
 The EX_Mailbox_SDD job locates sensitive data found in mailboxes in the Exchange environment.

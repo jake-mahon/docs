@@ -1,9 +1,3 @@
----
-title: Chrome Extra Tabs Troubleshooting
-sidebar_label: Extra Tabs
-description: Troubleshoot and fix extra tabs appearing in Chrome by unchecking "Always reapply this setting" for unwanted Set Pages configurations.
----
-
 # Chrome: Why do I have extra tabs appear when I open Chrome on an endpoint?
 
 Be sure to find the Set Pages area and uncheck "Always reapply this setting" in the remaining tabs.

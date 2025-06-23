@@ -1,9 +1,3 @@
----
-title: Health Monitoring Overview
-sidebar_label: Health Monitoring
-description: Monitor Netwrix Auditor operations, health status, and resource usage with dashboards, self-audit capabilities, and health summary reports.
----
-
 # Netwrix Auditor Operations and Health
 
 This topic describes how you can monitor Auditor operations, health and resource usage. See the

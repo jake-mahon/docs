@@ -1,9 +1,3 @@
----
-title: Multiple Activity Agents Deployment
-sidebar_label: Bulk Deployment
-description: Deploy Activity Monitor agents to multiple Windows servers simultaneously including prerequisites and NAS device monitoring configuration.
----
-
 # Multiple Activity Agents Deployment
 
 Before deploying the activity agent, ensure all Prerequisites are met, including those for NAS

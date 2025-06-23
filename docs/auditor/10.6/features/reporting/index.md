@@ -1,9 +1,3 @@
----
-title: Auditor Reporting Overview
-sidebar_label: Reports
-description: Generate compliance reports for FISMA, HIPAA, PCI, SOX and other standards using Netwrix Auditor's reporting capabilities and custom report builder.
----
-
 # Reports
 
 Netwrix Auditor provides a variety of reports for each data source. This helps you keep track of all

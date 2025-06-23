@@ -1,9 +1,3 @@
----
-title: Configure NDC SQL database
-sidebar_label: Database Setup
-description: Netwrix Data Classification uses Microsoft SQL Server database as metadata storage. During installation, you have been prompted to create a dedicated NDC SQL...
----
-
 # Configure NDC SQL database
 
 Netwrix Data Classification uses Microsoft SQL Server database as metadata storage. During

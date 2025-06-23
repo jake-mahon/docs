@@ -1,9 +1,3 @@
----
-title: lifecycle management
-sidebar_label: lifecycle-management
-description: Directory Manager 11.1 documentation for lifecycle management with configuration details, usage instructions, and implementation guidance.
----
-
 # Group Life Cycle Schedule
 
 Directory Manager enables you to define group lifecycle settings for an identity store. See the

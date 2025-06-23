@@ -1,9 +1,3 @@
----
-title: General Settings Configuration
-sidebar_label: General Settings
-description: Configure surface settings including color scheme and language preferences for Password Secure server manager interface customization.
----
-
 # General settings
 
 ## What are general settings?

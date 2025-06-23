@@ -1,9 +1,3 @@
----
-title: Set notifications Cmdlet
-sidebar_label: setnotifications
-description: PowerShell cmdlet reference for setnotifications with parameter details, syntax examples, and usage instructions for Directory Manager.
----
-
 # Set-Notifications
 
 Use the Set-Notifications commandlet to modify the notification settings of an identity store.

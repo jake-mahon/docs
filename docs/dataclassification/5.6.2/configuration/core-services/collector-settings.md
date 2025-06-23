@@ -1,9 +1,3 @@
----
-title: Collector
-sidebar_label: Collector Settings
-description: This configuration tab contains the classification engine settings. Each configuration option has an associated “i” which describes the nature of the setting...
----
-
 # Collector
 
 This configuration tab contains the classification engine settings. Each configuration option has an

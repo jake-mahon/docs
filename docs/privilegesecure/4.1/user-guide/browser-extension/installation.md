@@ -1,9 +1,3 @@
----
-title: Browser Extension Interface
-sidebar_label: Installation
-description: End user documentation covering session management, access procedures, dashboard functionality, and browser extension usage.
----
-
 # Browser Extension Interface
 
 The browser extension interface can be launched at any time with the Netwrix Privilege Secure icon

@@ -1,9 +1,3 @@
----
-title: Portal synchronize manage jobcollectiontemplate
-sidebar_label: jobcollectiontemplate
-description: Directory Manager portal documentation for synchronize manage functionality including user interface, navigation, and operational procedures.
----
-
 # Job Collection Template
 
 You can create a job collection template either by converting an existing job collection into a job

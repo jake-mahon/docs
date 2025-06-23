@@ -1,9 +1,3 @@
----
-title: Unix Parsing Configuration
-sidebar_label: Parsing
-description: Parsing configuration for Unix data collector including output parsing rules and data extraction settings.
----
-
 # Unix: Parsing
 
 The Parsing Configuration page configures the columns to return from the remote command and the

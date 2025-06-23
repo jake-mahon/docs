@@ -1,9 +1,3 @@
----
-title: .NET Script Actions
-sidebar_label: .NET Script Actions
-description: A Visual Basic or C# script can be written and assigned to a policy by users or a Netwrix Engineer via engaging Netwrix Professional Services. The script wil...
----
-
 # .NET Script Actions
 
 A Visual Basic or C# script can be written and assigned to a policy by users or a Netwrix Engineer

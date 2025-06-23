@@ -1,9 +1,3 @@
----
-title: Understanding MIP Labels
-sidebar_label: MIP Overview
-description: Microsoft Information Protection (MIP) is the unification of Microsoft's classification, labeling, and protection services: Information Protection, and other...
----
-
 # Understanding MIP Labels
 
 Microsoft Information Protection (MIP) is the unification of Microsoft's classification, labeling,

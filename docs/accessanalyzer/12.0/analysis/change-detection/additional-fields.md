@@ -1,9 +1,3 @@
----
-title: additional fields
-sidebar_label: additional fields
-description: Documentation for additional fields functionality in Access Analyzer including configuration and usage information.
----
-
 # Change Detection: Additional Fields
 
 Use the Additional Fields page to choose any additional fields to include with the change analysis.

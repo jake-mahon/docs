@@ -1,9 +1,3 @@
----
-title: LDAP Ping Operations Use Case
-sidebar_label: LDAP Ping Operations Use
-description: LDAP Ping is a Microsoft Active Directory specific Lightweight Directory Access Protocol (LDAP) or Connection-less Lightweight Directory Access Protocol (CLD...
----
-
 # LDAP Ping Operations Use Case
 
 LDAP Ping is a Microsoft Active Directory specific Lightweight Directory Access Protocol (LDAP) or

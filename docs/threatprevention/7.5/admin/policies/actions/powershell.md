@@ -1,9 +1,3 @@
----
-title: PowerShell 4.0 Actions
-sidebar_label: PowerShell 4.0 Actions
-description: A PowerShell 4.0 script can be written and assigned to a policy by Threat Prevention users or a Netwrix Engineer via engaging Netwrix Professional Services. ...
----
-
 # PowerShell 4.0 Actions
 
 A PowerShell 4.0 script can be written and assigned to a policy by Threat Prevention users or a

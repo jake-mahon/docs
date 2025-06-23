@@ -1,9 +1,3 @@
----
-title: Workspace One Integration Video
-sidebar_label: Workspace One
-description: Video tutorial on integrating Endpoint Policy Manager with Workspace One (Airwatch) MDM to deploy Group Policy superpowers.
----
-
 # Endpoint Policy Managerand Workspace One (Airwatch) MDM: Deploy Group Policy and Endpoint Policy Manager superpowers today
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/URF_gKbs6kc" title="Endpoint Policy Manager and Workspace One (Airwatch) MDM: Deploy Group Policy and Endpoint Policy Manager superpowers today." frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="1"></iframe>

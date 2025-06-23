@@ -1,9 +1,3 @@
----
-title: databases sql collection overview
-sidebar_label: overview
-description: Solution guide for databases sql collection overview including implementation steps, configuration, and best practices.
----
-
 # 0.Collection > SQL Job Group
 
 The 0.Collection Job Group is designed to collect high level summary information form targeted

@@ -1,9 +1,3 @@
----
-title: Browser Router Block Website Policies
-sidebar_label: Block Policies
-description: Configure Browser Router block policies to prevent access to specific websites across all browsers with customizable block messages for users.
----
-
 # Using Block Policies
 
 You can block specific websites by making a rule and selecting the **Block** website type. You can

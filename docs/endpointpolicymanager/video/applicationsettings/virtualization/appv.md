@@ -1,9 +1,3 @@
----
-title: Group Policy Extension for App-V
-sidebar_label: App-V Integration
-description: Learn how Endpoint Policy Manager extends Group Policy to Microsoft App-V for managing virtualized application settings and configurations.
----
-
 # Endpoint Policy Manager extends Group Policy to Microsoft App-V
 
 If you're using Microsoft App-V to deploy packages to users, you know the benefits of virtualized

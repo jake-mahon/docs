@@ -1,9 +1,3 @@
----
-title: filesystem activity suspiciousactivity fs weekendactivity
-sidebar_label: fs weekendactivity
-description: Solution guide for filesystem activity suspiciousactivity fs weekendactivity including implementation steps, configuration, and best practices.
----
-
 # FS_WeekendActivity Job
 
 The FS_WeekendActivity job is comprised of analysis and reports which use the data collected by the

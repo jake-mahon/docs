@@ -1,9 +1,3 @@
----
-title: Remove Activity Monitor Agents
-sidebar_label: Agent Removal
-description: Remove activity agents from the console list or uninstall agents from hosting servers with proper cleanup and error handling procedures.
----
-
 # Remove Agents
 
 On the Agents tab of the Activity Monitor Console, the Remove button allows users to remove the

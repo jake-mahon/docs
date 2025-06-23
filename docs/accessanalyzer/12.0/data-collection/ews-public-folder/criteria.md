@@ -1,9 +1,3 @@
----
-title: criteria
-sidebar_label: criteria
-description: Documentation for criteria functionality in Access Analyzer including configuration and usage information.
----
-
 # EWSPublicFolder: Critieria
 
 Use the Select DLP criteria for this scan page to select criteria for the sensitive data scan. It is

@@ -1,9 +1,3 @@
----
-title: active directory cleanup computers ad deprovision computers status
-sidebar_label: ad deprovision computers status
-description: Solution guide for active directory cleanup computers ad deprovision computers status including implementation steps, configuration, and best practices.
----
-
 # AD_DeprovisionComputers_Status Job
 
 The AD_DeprovisionComputers_Status Job tracks and reports on the progress of the computer

@@ -1,9 +1,3 @@
----
-title: antivirus exclusions Administration
-sidebar_label: antivirus exclusions
-description: Administration guide for antivirus exclusions including configuration, management, and best practices for Access Analyzer.
----
-
 # Antivirus Exclusions
 
 Your antivirus suite can slow down or even prevent correct operation. The following items are

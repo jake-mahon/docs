@@ -1,9 +1,3 @@
----
-title: Forward Logs to Syslog Servers and SIEM Solutions
-sidebar_label: log forwarding
-description: Documentation for Privilege Secure privileged access management solution covering features, configuration, and usage procedures.
----
-
 # Forward Logs to Syslog Servers and SIEM Solutions
 
 Forward Logs to Syslog Servers and SIEM Solutions

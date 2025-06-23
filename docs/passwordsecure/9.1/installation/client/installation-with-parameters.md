@@ -1,9 +1,3 @@
----
-title: Client Installation with Parameters
-sidebar_label: Installation Parameters
-description: Install Password Secure client via command line using customizable parameters to adapt client installation type and configuration options.
----
-
 # Installation with parameters
 
 ## What is installation with parameters?

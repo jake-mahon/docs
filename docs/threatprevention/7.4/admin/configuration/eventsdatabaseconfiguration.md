@@ -1,9 +1,3 @@
----
-title: Events Database Configuration
-sidebar_label: Events Database Config
-description: Database configuration settings for event storage, connection parameters, and performance optimization.
----
-
 # Events Database Configuration Window
 
 The Events Database Configuration window manages the NVMonitorData database, also known as the

@@ -1,9 +1,3 @@
----
-title: overview Administration
-sidebar_label: overview
-description: Administration guide for overview including configuration, management, and best practices for Access Analyzer.
----
-
 # Navigating the Console
 
 There are several options that can be used to navigate the Access Analyzer Console. This section

@@ -1,9 +1,3 @@
----
-title: filesystem activity security fs localuseractivity
-sidebar_label: fs localuseractivity
-description: Solution guide for filesystem activity security fs localuseractivity including implementation steps, configuration, and best practices.
----
-
 # FS_LocalUserActivity Job
 
 The FS_LocalUserActivity job is designed to report on local user activity event information from

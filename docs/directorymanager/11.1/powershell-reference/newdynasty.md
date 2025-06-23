@@ -1,9 +1,3 @@
----
-title: New dynasty Cmdlet
-sidebar_label: newdynasty
-description: PowerShell cmdlet reference for newdynasty with parameter details, syntax examples, and usage instructions for Directory Manager.
----
-
 # New-Dynasty
 
 The New-Dynasty cmdlet creates a new Dynasty in Directory. A Dynasty is a Smart Group that can

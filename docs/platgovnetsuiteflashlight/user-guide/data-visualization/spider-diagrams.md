@@ -1,9 +1,3 @@
----
-title: Using the Spider Tool
-sidebar_label: Spider Diagrams
-description: Automated NetSuite account documentation using the spider process to catalog and analyze all customizations with manual and scheduled spider options.
----
-
 # Using the Spider
 
 While NetSuite is flexible and powerful, your account can quickly become out-of-sync and cluttered

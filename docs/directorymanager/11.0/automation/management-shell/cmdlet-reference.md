@@ -1,9 +1,3 @@
----
-title: cmdlet reference
-sidebar_label: cmdlet-reference
-description: Directory Manager 11.0 documentation for cmdlet reference with configuration details, usage instructions, and implementation guidance.
----
-
 # Get-Contact
 
 Use the **Get-Contact** cmdlet to retrieve basic information about a contact.

@@ -1,9 +1,3 @@
----
-title: Sessions Tab
-sidebar_label: sessions
-description: Administrative configuration and management features for Privilege Secure PAM solution including user management, policies, and security settings.
----
-
 # Sessions Tab
 
 The Sessions tab shows information about the sessions of the selected user, group, or application.

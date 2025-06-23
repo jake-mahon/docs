@@ -1,9 +1,3 @@
----
-title: Get schedule Cmdlet
-sidebar_label: getschedule
-description: PowerShell cmdlet reference for getschedule with parameter details, syntax examples, and usage instructions for Directory Manager.
----
-
 # Get-Schedule
 
 The commandlet Get-Schedule retrieves the scheduled jobs created in the identity store connected to

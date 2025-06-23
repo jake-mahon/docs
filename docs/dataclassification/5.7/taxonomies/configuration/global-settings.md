@@ -1,9 +1,3 @@
----
-title: Global Settings
-sidebar_label: Global Settings
-description: The Content > Taxonomies > Global Settings panel allows you to update, compare, back up, export, edit or delete your taxonomies. See the Manage Taxonomies...
----
-
 # Global Settings
 
 The **Content** > **Taxonomies** > **Global Settings** panel allows you to update, compare, back up,

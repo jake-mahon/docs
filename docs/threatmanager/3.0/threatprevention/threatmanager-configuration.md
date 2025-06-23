@@ -1,9 +1,3 @@
----
-title: Threat Prevention Integration Configuration
-sidebar_label: Threat Prevention Integration
-description: Configure Netwrix Threat Prevention integration with Threat Manager using app tokens, event sink setup, and Protobuf for high-performance event delivery.
----
-
 # Netwrix Threat Prevention Integration
 
 Threat Prevention v6.0+ can be configured to send Active Directory data to Threat Manager. This is

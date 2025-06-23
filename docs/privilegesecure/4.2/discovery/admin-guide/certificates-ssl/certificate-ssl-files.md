@@ -1,9 +1,3 @@
----
-title: Certificate (SSL) Files
-sidebar_label: certificate ssl files
-description: Documentation for Privilege Secure privileged access management solution covering features, configuration, and usage procedures.
----
-
 # Certificate (SSL) Files
 
 Certificate (SSL) Files

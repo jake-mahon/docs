@@ -1,9 +1,3 @@
----
-title: Message Templates and Notifications Configuration
-sidebar_label: Messages and Notifications
-description: Configure message templates and notifications in Password Policy Enforcer including policy messages, rejection reasons, and multilingual support.
----
-
 # Messages
 
 Each Password Policy Enforcer password policy has multiple message templates, one for each of the

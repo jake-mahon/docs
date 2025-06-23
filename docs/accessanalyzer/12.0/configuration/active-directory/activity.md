@@ -1,9 +1,3 @@
----
-title: activity
-sidebar_label: activity
-description: Documentation for activity functionality in Access Analyzer including configuration and usage information.
----
-
 # Active Directory Activity Auditing Configuration
 
 There are two methods to configure Activity Monitor to provide Active Directory domain activity to

@@ -1,9 +1,3 @@
----
-title: Add Authentication Connector
-sidebar_label: authentication connectors
-description: System configuration settings and advanced options for authentication, integrations, services, and security parameters.
----
-
 # Add Authentication Connector
 
 Follow the steps to add an authentication connector to the console.

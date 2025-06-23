@@ -1,9 +1,3 @@
----
-title: Enterprise Auditor Overview
-sidebar_label: Overview
-description: Comprehensive platform for automated data collection, analysis, and security auditing across dozens of critical IT assets including directories and systems.
----
-
 # Netwrix Enterprise Auditor v11.6 Documentation
 
 Netwrix Enterprise Auditor automates the collection and analysis of the data you need to answer the

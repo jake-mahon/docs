@@ -1,9 +1,3 @@
----
-title: Remove Server from List
-sidebar_label: Remove Server List
-description: The Agents Interface displays a list of servers where the Agent has been deployed. You may want to remove a server from this list for any reason, such as whe...
----
-
 # Remove Server from List
 
 The Agents Interface displays a list of servers where the Agent has been deployed. You may want to

@@ -1,9 +1,3 @@
----
-title: datasource getdstypename API
-sidebar_label: getdstypename
-description: API reference for getdstypename operations in Directory Manager with request parameters, response examples, and implementation details.
----
-
 # Get a Data Source by Type and Name
 
 Using this API you can retrieve information of specific type data source, let's say a Text/CSV based

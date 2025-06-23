@@ -1,9 +1,3 @@
----
-title: Jira Integration Troubleshooting Guide
-sidebar_label: Jira Troubleshooting
-description: Resolve common Jira integration issues including credential errors, status mapping problems, and synchronization troubleshooting solutions.
----
-
 # Jira Integration Troubleshooting
 
 Jira Integration errors

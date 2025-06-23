@@ -1,9 +1,3 @@
----
-title: input scope
-sidebar_label: input scope
-description: Documentation for input scope functionality in Access Analyzer including configuration and usage information.
----
-
 # Change Detection: Input Scope
 
 Use the Input Scope page to specify the input scope of the data source.

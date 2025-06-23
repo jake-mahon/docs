@@ -1,9 +1,3 @@
----
-title: Password Policy Enforcer Administration
-sidebar_label: Administration
-description: Administration guide for Password Policy Enforcer explaining network security through strong password enforcement and immediate password validation.
----
-
 # Administration
 
 Netwrix Password Policy Enforcer helps secure your network by ensuring users set strong passwords.

@@ -1,9 +1,3 @@
----
-title: Indexer
-sidebar_label: Indexer Settings
-description: This configuration tab contains the indexing engine settings. Each configuration option has an associated “i” which describes the nature of the setting. To...
----
-
 # Indexer
 
 This configuration tab contains the indexing engine settings. Each configuration option has an

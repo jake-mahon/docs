@@ -1,9 +1,3 @@
----
-title: Action Service Settings Page
-sidebar_label: action service
-description: System configuration settings and advanced options for authentication, integrations, services, and security parameters.
----
-
 # Action Service Settings Page
 
 The Action Service Settings page is accessible from the Navigation pane under Configuration > System

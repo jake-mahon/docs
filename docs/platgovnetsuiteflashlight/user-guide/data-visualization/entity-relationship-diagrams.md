@@ -1,9 +1,3 @@
----
-title: Using Entity Relationship Diagrams
-sidebar_label: ERD
-description: Interactive Entity-Relationship Diagram tool for visualizing NetSuite customizations, dependencies, and relationships between record types and automations.
----
-
 # Using the ERD
 
 Your company’s growth and ability to react to competitive threats relies on your systems ability to

@@ -1,9 +1,3 @@
----
-title: Password Policy Enforcer Web Configuration
-sidebar_label: Configuration
-description: Guide to configuring Password Policy Enforcer Web settings using the Configuration Console including integration and security options.
----
-
 # Configuration
 
 Click **Start** >**[All] Programs** > **PPE Web Configuration Console** to open the Password Policy
