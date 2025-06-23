@@ -1,3 +1,7 @@
+title: Agent Configuration Management
+sidebar_label: Agent Configuration
+description: Remotely configure and update ChangeTracker agent settings including hub details, URLs, and authentication credentials for registered devices.
+
 # Agent Configuration
 
 There are multiple ways to set values in an agent's configuration file on installation. Once an

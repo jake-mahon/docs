@@ -1,8 +1,3 @@
----
-title: Admin Center
-sidebar_label: Admin Center
----
-
 # Admin Center
 
 ## Authenticate with Authentication Types

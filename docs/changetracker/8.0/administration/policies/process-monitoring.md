@@ -1,3 +1,7 @@
+title: Policy Templates Processes Services
+sidebar_label: Process Monitoring
+description: Configure process and service monitoring policies in ChangeTracker with whitelist and blacklist settings for configuration policy templates.
+
 # Policy Templates: Processes and Services
 
 The **Processes** and **Services** tab allows Processes and/or Services (Windows only) and their

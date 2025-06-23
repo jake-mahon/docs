@@ -65,17 +65,6 @@ Configuration > Audit Policies .
 **Step 12 –** Navigate to **Start** > **Run** and type _"cmd"_. Input the `gpupdate /force` command
 and press **Enter**. The group policy will be updated.
 
----
-
-id: configure-basic-domain-audit-policies
-title: "Configure Basic Domain Audit Policies"
-pagination_label: "Configure Basic Domain Audit Policies"
-sidebar_label: "Configure Basic Domain Audit Policies"
-sidebar_position: 122
-description: "Learn how to configure basic domain audit policies for tracking user account changes and identifying originating workstations."
-
----
-
 # Configure Basic Domain Audit Policies
 
 Basic local audit policies allow tracking changes to user accounts and groups and identifying
@@ -109,17 +98,6 @@ node on the left and navigate to **Policies** > **Windows Settings** > **Securit
 **Step 6 –** Navigate to **Start** > **Run** and type _"cmd"_. Input the `gpupdate /force` command
 and press **Enter**. The group policy will be updated.
 
----
-
-id: configure-security-event-log-size-and-retention-settings
-title: "Configure Security Event Log Size and Retention Settings"
-pagination_label: "Configure Security Event Log Size and Retention Settings"
-sidebar_label: "Configure Security Event Log Size and Retention Settings"
-sidebar_position: 124
-description: "Learn how to configure Security Event Log size and retention settings for proper audit data collection."
-
----
-
 # Configure Security Event Log Size and Retention Settings
 
 **Step 1 –** Open the **Group Policy Management** console on any domain controller in the target
@@ -144,17 +122,6 @@ needed**.
 
 **Step 6 –** Navigate to **Start** > **Run** and type _"cmd"_. Input the `gpupdate /force` command
 and press **Enter**. The group policy will be updated.
-
----
-
-id: configure-windows-firewall-inbound-connection-rules
-title: "Configure Windows Firewall Inbound Connection Rules"
-pagination_label: "Configure Windows Firewall Inbound Connection Rules"
-sidebar_label: "Configure Windows Firewall Inbound Connection Rules"
-sidebar_position: 123
-description: "Learn how to configure Windows Firewall inbound connection rules for successful Logon Activity data collection."
-
----
 
 # Configure Windows Firewall Inbound Connection Rules
 

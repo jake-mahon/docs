@@ -1,3 +1,7 @@
+title: Policy Templates User Account Tracker
+sidebar_label: User Tracking
+description: Track local user and domain controller account changes on Windows systems using ChangeTracker for security and compliance monitoring.
+
 # Policy Templates: Local User/Domain Controller Account Tracker
 
 **NOTE:** This template applicable to Windows OS only.

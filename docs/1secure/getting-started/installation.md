@@ -1,9 +1,3 @@
----
-title: 1Secure Agent Installation Guide
-sidebar_label: Installation
-description: Step-by-step guide to install and configure the Netwrix Cloud Agent for on-premises data collection from Active Directory and computers.
----
-
 # Installation
 
 Netwrix 1Secure is a cloud product. However, if you want to use an on-premise version, you need to

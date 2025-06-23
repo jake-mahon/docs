@@ -1,9 +1,3 @@
----
-title: Directory Manager System Requirements
-sidebar_label: Requirements
-description: Comprehensive system requirements for Directory Manager including SQL Server database, hardware specifications, and software dependencies.
----
-
 # Database Requirements
 
 GroupID requires an SQL Server database to store and retrieve data. The SQL database may reside on

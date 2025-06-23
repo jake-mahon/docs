@@ -1,3 +1,7 @@
+title: Netwrix Product Integrations
+sidebar_label: Integrations
+description: Configure integrations with other Netwrix products including Threat Prevention for enhanced audit history and activity data correlation.
+
 # Netwrix Integrations Page
 
 The Netwrix Integrations page provides the ability to configure access to the data in other Netwrix

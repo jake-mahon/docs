@@ -1,9 +1,3 @@
----
-title: Netwrix Activity Monitor 7.1 Overview
-sidebar_label: Overview
-description: Real-time visibility into critical activities across your IT infrastructure with agent-based monitoring for threat detection and compliance.
----
-
 # Netwrix Activity Monitor 7.1
 
 > **Real-time visibility into critical activities across your IT infrastructure**

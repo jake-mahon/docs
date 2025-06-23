@@ -1,3 +1,7 @@
+title: Initial Configuration Utility
+sidebar_label: Configuration
+description: Guide to using the Recovery Configuration Utility for RSAT Extension registration, database configuration, and licensing information.
+
 # Configuration Utility
 
 On installing Recovery for Active Directory, the Recovery Configuration Utility is installed on the

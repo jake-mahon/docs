@@ -1,3 +1,7 @@
+title: Security Change Control Baseline
+sidebar_label: Security Controls
+description: Implement security frameworks and change control using ChangeTracker baseline policies for integrity monitoring and compliance requirements.
+
 # Security and Change Control Using Baseline Policies
 
 Several security frameworks reference the need for change control, integrity monitoring and an

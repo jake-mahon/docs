@@ -1,3 +1,7 @@
+title: Installing Gen 7 Agent Linux
+sidebar_label: Linux Installation
+description: Install ChangeTracker Gen 7 Agent on Linux systems using local RPM files with step-by-step configuration and setup instructions.
+
 # Installing Gen 7 Agent for Linux
 
 ## Using Local RPM Files

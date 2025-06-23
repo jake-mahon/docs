@@ -1,3 +1,7 @@
+title: Agent and Device Ports
+sidebar_label: Network Ports
+description: Default network ports used by ChangeTracker agents and devices with custom port configuration options for system communications.
+
 # Agent and Device Ports
 
 Although custom ports can be set in the agent's configuration files, the following are the default

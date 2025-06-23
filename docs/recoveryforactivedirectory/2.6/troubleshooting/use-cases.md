@@ -1,3 +1,7 @@
+title: Recovery Use Cases and Examples
+sidebar_label: Use Cases
+description: Common use cases and examples for Recovery for Active Directory including deleted object recovery and malicious change rollback scenarios.
+
 # Use Cases
 
 Recovery for Active Directory enables you to rollback and recover both accidental and malicious

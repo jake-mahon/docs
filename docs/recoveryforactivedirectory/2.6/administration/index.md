@@ -1,3 +1,7 @@
+title: Administration Overview
+sidebar_label: Administration
+description: Complete overview of Recovery for Active Directory administration capabilities including object rollback, recovery, and forest management features.
+
 # Administration
 
 Netwrix Recovery for Active Directory enables administrators to manage Active Directory in the

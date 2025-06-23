@@ -7,16 +7,16 @@ solutions and associated licensed modules are:
 
 - Active Directory Changes
 
-    - Includes AD Replication Monitoring
-    - Includes Authentication Monitoring
-    - Includes Effective Group Membership
-    - Includes LSASS Guardian –Monitor
+  - Includes AD Replication Monitoring
+  - Includes Authentication Monitoring
+  - Includes Effective Group Membership
+  - Includes LSASS Guardian –Monitor
 
 - Active Directory Lockdown
 
-    - Includes AD Replication Lockdown
-    - Includes Authentication Lockdown
-    - Includes LSASS Guardian – Protect
+  - Includes AD Replication Lockdown
+  - Includes Authentication Lockdown
+  - Includes LSASS Guardian – Protect
 
 - Active Directory Read Monitoring
 - FSMO Role Monitoring
@@ -36,17 +36,17 @@ solutions and associated licensed modules are:
 
 - File System
 
-    - Includes both Monitoring and Lockdown for Windows file system
-    - Includes Monitoring for supported NAS devices
-    - Includes Monitoring file system for integration with Access Analyzer
+  - Includes both Monitoring and Lockdown for Windows file system
+  - Includes Monitoring for supported NAS devices
+  - Includes Monitoring file system for integration with Access Analyzer
 
 [LDAP](/docs/threatprevention/7.4/solutions/ldap.md)
 
 - LDAP Monitoring
 
-    - Includes both Monitoring and Lockdown for LDAP events
-    - Includes Monitoring of user connections made to LDAP (Bind), which occur before queries are
-      submitted to LDAP
+  - Includes both Monitoring and Lockdown for LDAP events
+  - Includes Monitoring of user connections made to LDAP (Bind), which occur before queries are
+    submitted to LDAP
 
 In the Administration Console, all solutions use the same base software. The difference is in the
 Policy Event Types available for use with different solutions.

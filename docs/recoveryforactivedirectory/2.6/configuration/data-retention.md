@@ -1,3 +1,7 @@
+title: Data Retention Policy Configuration
+sidebar_label: Data Retention
+description: Configure data retention policies for backup data including automatic deletion settings for aged backups and tombstone object purging.
+
 # Data Retention Policy Page
 
 The Data Retention Policy page provides settings for deleting backup data that of domains and domain

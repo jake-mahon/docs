@@ -1,9 +1,3 @@
----
-title: Computer Data Source Configuration
-sidebar_label: Computers
-description: Configure computer auditing for Windows file servers with proper account permissions and policies for comprehensive file system monitoring.
----
-
 # Computer Auditing
 
 Before adding a Computer source, plan for the account that will be used for data collection. You
@@ -32,17 +26,6 @@ information on gMSA, see the following:
 
 On the **Netwrix Cloud Agent**'s host, the gMSA account must be a member of the local Administrators
 group.
-
----
-
-id: add-a-source-and-connectors-for-computer
-title: "Add a Source and Connectors for Computer"
-pagination_label: "Add a Source and Connectors for Computer"
-sidebar_label: "Add a Source and Connectors for Computer"
-sidebar_position: 42
-description: "Step-by-step guide to add Computer data sources and connectors to your organization."
-
----
 
 # Add a Source and Connectors for Computer
 

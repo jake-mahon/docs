@@ -1,9 +1,5 @@
 # Conclusion
 
-Conclusion
-
-# Conclusion
-
 Congratulations! You have successfully installed, configured, and used Netwrix Password Reset. This
 brief guide has introduced you to Password Reset, but you can do much more with it. The
 Administrator's Guide covers many more topics, including:

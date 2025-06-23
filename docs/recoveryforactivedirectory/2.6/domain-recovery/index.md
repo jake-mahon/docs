@@ -1,3 +1,7 @@
+title: Active Directory Recovery Interface
+sidebar_label: Domain Recovery
+description: Main interface for accessing configured domains and performing Active Directory object recovery operations with hierarchical domain structure.
+
 # Active Directory Page
 
 On the Active Directory page, you can access all the domains that you have configured through the

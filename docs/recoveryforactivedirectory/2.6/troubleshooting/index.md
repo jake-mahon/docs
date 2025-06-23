@@ -1,3 +1,7 @@
+title: Troubleshooting Guide
+sidebar_label: Troubleshooting
+description: Comprehensive troubleshooting steps for Recovery for Active Directory components including RSAT Extension and server diagnostics.
+
 # Troubleshooting
 
 This topic provides steps for troubleshooting common issues for the following Recovery for Active

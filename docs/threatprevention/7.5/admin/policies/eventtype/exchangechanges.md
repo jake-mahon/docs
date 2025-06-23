@@ -27,20 +27,20 @@ specific operations and permissions:
 
 - Operations:
 
-    - All – All listed operation events
-    - Logons – Scope to Exchange logon events
-    - Attachments – Scope to events with Attachments added to an Exchange message
-    - Create Message – Scope to Exchange message creation events
-    - Delete Message – Scope to Exchange message deletion events
-    - Modify Message – Scope to Exchange message modification events
-    - Read Message – Scope to Exchange message read events
-    - Send Message – Scope to Exchange message send events
+  - All – All listed operation events
+  - Logons – Scope to Exchange logon events
+  - Attachments – Scope to events with Attachments added to an Exchange message
+  - Create Message – Scope to Exchange message creation events
+  - Delete Message – Scope to Exchange message deletion events
+  - Modify Message – Scope to Exchange message modification events
+  - Read Message – Scope to Exchange message read events
+  - Send Message – Scope to Exchange message send events
 
 - Permissions:
 
-    - All – All listed permission changes
-    - Mailbox Permissions – Scope to mailbox permissions changes
-    - Folder Permissions – Scope to folder permissions changes
+  - All – All listed permission changes
+  - Mailbox Permissions – Scope to mailbox permissions changes
+  - Folder Permissions – Scope to folder permissions changes
 
 ## Exchange Mailbox Objects and Containers Filter
 
@@ -86,24 +86,24 @@ Perpetrators filter relate to each other. They include:
 - Trustee OR Perpetrator Must Be Met – When either the Trustee selection OR the Perpetrator
   selection is met, the filter will be set to true
 
-    - For an Include example, if this policy is monitoring a CEO mailbox, the Trustee list is set to
-      includes Brad Wilson, and the Perpetrator list is set to include Administrator, then the
-      policy will monitor when Brad Wilson is added as the mailbox trustee by anyone AND it will
-      monitor anyone else added as the mailbox trustee by Administrator.
-    - For an Exclude example, if this policy is monitoring a CEO mailbox, the Trustee list is set to
-      exclude Brad Wilson, and the Perpetrator list is set to exclude Administrator, then the policy
-      will not monitor when Brad Wilson is added as the mailbox trustee by anyone AND it will not
-      monitor anyone else added as the mailbox trustee by Administrator.
+  - For an Include example, if this policy is monitoring a CEO mailbox, the Trustee list is set to
+    includes Brad Wilson, and the Perpetrator list is set to include Administrator, then the
+    policy will monitor when Brad Wilson is added as the mailbox trustee by anyone AND it will
+    monitor anyone else added as the mailbox trustee by Administrator.
+  - For an Exclude example, if this policy is monitoring a CEO mailbox, the Trustee list is set to
+    exclude Brad Wilson, and the Perpetrator list is set to exclude Administrator, then the policy
+    will not monitor when Brad Wilson is added as the mailbox trustee by anyone AND it will not
+    monitor anyone else added as the mailbox trustee by Administrator.
 
 - Trustee AND Perpetrator Must Be Met – Both the Trustee selection AND the Perpetrator selection
   must be met
 
-    - For an Include example, if this policy is monitoring a CEO mailbox, the Trustee list is set to
-      includes Brad Wilson, and the Perpetrator list is set to include Administrator, then the
-      policy will monitor when Administrator adds Brad Wilson as the mailbox trustee.
-    - For an Exclude example, if this policy is monitoring a CEO mailbox, the Trustee list is set to
-      exclude Brad Wilson, and the Perpetrator list is set to exclude Administrator, then the policy
-      will not monitor when Administrator adds Brad Wilson as the mailbox trustee.
+  - For an Include example, if this policy is monitoring a CEO mailbox, the Trustee list is set to
+    includes Brad Wilson, and the Perpetrator list is set to include Administrator, then the
+    policy will monitor when Administrator adds Brad Wilson as the mailbox trustee.
+  - For an Exclude example, if this policy is monitoring a CEO mailbox, the Trustee list is set to
+    exclude Brad Wilson, and the Perpetrator list is set to exclude Administrator, then the policy
+    will not monitor when Administrator adds Brad Wilson as the mailbox trustee.
 
 ## Exchange Perpetrators Filter
 
@@ -128,28 +128,28 @@ The Logged on As radio button options include:
 - AND Perpetrators Must be Met – Both the Logged On As selection AND the Perpetrator must be met
   before the event passes the filter
 
-    - When the Include option button is selected for both the Logged On As options – If the
-      Administrator is Included for the Logged On As option and Joe Smith is Included in the
-      Perpetrator list, then the filter will only be true if the event is triggered by Joe Smith AND
-      Joe Smith is an Administrator of the affected mailbox.
-    - When the Include option button is selected for the Logged On As checkboxes and the Exclude
-      option button is selected for the AND/OR options – FIf the Administrator is Included for the
-      Logged On As option and Joe Smith is Excluded in the Perpetrator list, then the filter will
-      only be true if the event is triggered by Joe Smith AND Joe Smith is not an administrator of
-      the affected mailbox.
+  - When the Include option button is selected for both the Logged On As options – If the
+    Administrator is Included for the Logged On As option and Joe Smith is Included in the
+    Perpetrator list, then the filter will only be true if the event is triggered by Joe Smith AND
+    Joe Smith is an Administrator of the affected mailbox.
+  - When the Include option button is selected for the Logged On As checkboxes and the Exclude
+    option button is selected for the AND/OR options – FIf the Administrator is Included for the
+    Logged On As option and Joe Smith is Excluded in the Perpetrator list, then the filter will
+    only be true if the event is triggered by Joe Smith AND Joe Smith is not an administrator of
+    the affected mailbox.
 
 - OR Perpetrators Must Be Met – When either the Logged On As selection OR the Perpetrator is met,
   the filter is set to true
 
-    - When the Include option button is selected for both the Logged On As options – , If
-      Administrator is Included for the Logged On As option and Joe Smith is Included in the
-      Perpetrator list, then the filter will be true if the event is triggered when Joe Smith made
-      changes to the mailbox OR when an Administrator made a change to the mailbox.
-    - When the Include option button is selected for the Logged On As checkboxes and the Exclude
-      option button is selected for the AND/OR options – If Administrator is Included for the Logged
-      On As option and Joe Smith is Excluded in the Perpetrator list, then the filter will be true
-      if the event is triggered when anyone other than Joe Smith made changes to the mailbox OR when
-      an Administrator made a change to the mailbox.
+  - When the Include option button is selected for both the Logged On As options – , If
+    Administrator is Included for the Logged On As option and Joe Smith is Included in the
+    Perpetrator list, then the filter will be true if the event is triggered when Joe Smith made
+    changes to the mailbox OR when an Administrator made a change to the mailbox.
+  - When the Include option button is selected for the Logged On As checkboxes and the Exclude
+    option button is selected for the AND/OR options – If Administrator is Included for the Logged
+    On As option and Joe Smith is Excluded in the Perpetrator list, then the filter will be true
+    if the event is triggered when anyone other than Joe Smith made changes to the mailbox OR when
+    an Administrator made a change to the mailbox.
 
 Both the checkboxes and the option buttons have their own set of Include or Exclude options.
 

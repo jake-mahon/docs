@@ -1,9 +1,3 @@
----
-title: Application Settings Manager Overview
-sidebar_label: Overview
-description: Comprehensive guide to Application Settings Manager. Configure, manage, lock down, and remediate desktop applications with hundreds of preconfigured AppSets.
----
-
 # Application Settings Manager
 
 Quick Start with Preconfigured AppSets

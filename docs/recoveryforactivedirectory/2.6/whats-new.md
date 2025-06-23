@@ -1,3 +1,7 @@
+title: What's New in Version 2.6
+sidebar_label: What's New
+description: Latest features and enhancements in Recovery for Active Directory 2.6 including automated forest recovery and flexible backup options.
+
 # What's New
 
 ## New Netwrix Community!

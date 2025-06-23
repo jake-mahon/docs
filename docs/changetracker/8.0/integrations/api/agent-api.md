@@ -1,3 +1,7 @@
+title: Agents API Integration
+sidebar_label: Agent API
+description: Use ChangeTracker agentsRanked endpoint to retrieve agent status, configurations, and group memberships for API integration and automation.
+
 # Agents
 
 To pull data on agent statues, configurations and group memberships, use the agentsRanked endpoint.

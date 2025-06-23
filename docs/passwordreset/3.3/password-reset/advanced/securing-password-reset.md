@@ -1,9 +1,5 @@
 # Securing Password Reset
 
-Securing Password Reset
-
-# Securing Password Reset
-
 Password Reset has many inbuilt security features, but there are some things you should do to secure
 Password Reset. The most important of these is to install an SSL certificate for the Web Interface.
 You can also set up a standard user account with delegated permissions for the Password Reset

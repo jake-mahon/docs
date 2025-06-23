@@ -1,9 +1,3 @@
----
-title: Netwrix Auditor Tools and Utilities
-sidebar_label: Tools
-description: Collection of specialized tools including Audit Configuration Assistant, Event Log Manager, Inactive User Tracker, and Object Restore utilities.
----
-
 # Tools
 
 There are several tools available with Netwrix Auditor:

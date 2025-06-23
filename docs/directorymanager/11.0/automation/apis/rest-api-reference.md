@@ -1,8 +1,3 @@
----
-title: REST API Reference
-sidebar_label: REST API Reference
----
-
 # REST API Reference
 
 ## Contact APIs

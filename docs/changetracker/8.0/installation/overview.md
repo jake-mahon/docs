@@ -1,3 +1,7 @@
+title: Installation Overview
+sidebar_label: Overview
+description: Complete installation overview for ChangeTracker including hub and agent deployment procedures with configuration and setup guidelines.
+
 # Installation
 
 (missing or bad snippet)

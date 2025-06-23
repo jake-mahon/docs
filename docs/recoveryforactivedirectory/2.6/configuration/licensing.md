@@ -1,3 +1,7 @@
+title: License Management
+sidebar_label: Licensing
+description: View license status and import license files for Recovery for Active Directory with organizational licensing overview and management.
+
 # Licensing Page
 
 The Licensing page provides an overview of the organization's license status and the ability to

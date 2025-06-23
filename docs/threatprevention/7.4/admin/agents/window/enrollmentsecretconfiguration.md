@@ -29,9 +29,9 @@ manually deploy the Agent. It has the following fields:
   Enterprise Manager to establish trust between the Enterprise Manager and other modules including
   the Agent
 
-    - Note the value of the Enterprise Manager certificate (EM cert) and verify that it is the same
-      value displayed in the Agent installer to ensure that the Agent is connecting to a legitimate
-      Enterprise Manager.
+  - Note the value of the Enterprise Manager certificate (EM cert) and verify that it is the same
+    value displayed in the Agent installer to ensure that the Agent is connecting to a legitimate
+    Enterprise Manager.
 
 **Step 2 –** Click **Generate** to generate an enrollment secret, which is valid for 1 hour.
 

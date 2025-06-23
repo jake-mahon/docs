@@ -1,9 +1,5 @@
 # About Tab
 
-About Tab
-
-# About Tab
-
 Use the **About** tab to check the version and license information, and to install a new license
 key.
 

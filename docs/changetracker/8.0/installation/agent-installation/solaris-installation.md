@@ -1,3 +1,7 @@
+title: Installing Express Agent Solaris
+sidebar_label: Solaris Installation
+description: Install ChangeTracker Express Agent on Solaris SPARC and Intel systems with ultra-portable agent features for platform monitoring.
+
 # Installing Express Agent for Solaris (SPARC and Intel)
 
 The Change Tracker Express Agent is a reduced feature but ultra-portable Agent provided for use on

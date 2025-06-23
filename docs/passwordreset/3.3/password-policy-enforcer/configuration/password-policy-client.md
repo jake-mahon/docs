@@ -1,9 +1,5 @@
 # Password Policy Client
 
-Password Policy Client
-
-# Password Policy Client
-
 The Password Policy Client helps users to choose a compliant password. Detailed information is
 provided if their new password is rejected.
 

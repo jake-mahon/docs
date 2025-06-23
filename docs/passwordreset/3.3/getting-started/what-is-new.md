@@ -1,9 +1,5 @@
 # What's New
 
-What's New
-
-# What's New
-
 ### What's New in this Version?
 
 Netwrix Password Reset v3.3 includes the following improvements:

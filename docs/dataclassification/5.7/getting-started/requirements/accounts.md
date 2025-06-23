@@ -1,9 +1,3 @@
----
-title: Accounts and Required Permissions
-sidebar_label: Accounts
-description: Service accounts, crawl permissions, and required access rights for Netwrix Data Classification to access content sources and apply tagging.
----
-
 # Accounts and Required Permissions
 
 Netwrix Data Classification uses the following accounts:

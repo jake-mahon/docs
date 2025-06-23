@@ -1,9 +1,3 @@
----
-title: GroupID Management Shell Overview
-sidebar_label: Overview
-description: PowerShell-based command-line interface for managing Active Directory and Azure AD objects with advanced automation and administrative capabilities.
----
-
 # GroupID Management Shell
 
 GroupID Management Shell is a command-line interface for managing objects like users, contacts,

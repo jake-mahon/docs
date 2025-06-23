@@ -48,18 +48,18 @@ The following additional considerations are recommended for the SQL Server:
   can occur. If this option is employed, please speak with a Netwrix engineer to determine an
   appropriate setting for best performance.
 
-    **_RECOMMENDED:_** In the SQL Server Management Studio, set the Database Properties' File Growth
-    Autogrowth setting for the NVMonitorData database to a few hundred MB instead of the default
-    setting of 1MB. Use 10 percent of the database size to avoid unwanted fragmentation for indexes
-    due to a small default setting for database growth.
+  **_RECOMMENDED:_** In the SQL Server Management Studio, set the Database Properties' File Growth
+  Autogrowth setting for the NVMonitorData database to a few hundred MB instead of the default
+  setting of 1MB. Use 10 percent of the database size to avoid unwanted fragmentation for indexes
+  due to a small default setting for database growth.
 
 - When using separate machines for the SQL Server and the Threat Prevention Enterprise Manager, both
   machines should be on the same subnet with high speed connectivity between them. The Enterprise
   Manager can generate a high volume of SQL activity, which is directly proportional to the volume
   of events the Enterprise Manager receives from all Agents.
 
-    **_RECOMMENDED:_** Install the Threat Prevention Enterprise Manager and Microsoft SQL Server on
-    different machines.
+  **_RECOMMENDED:_** Install the Threat Prevention Enterprise Manager and Microsoft SQL Server on
+  different machines.
 
 **_RECOMMENDED:_** For large environments with Analytics, an SQL cluster is recommended for both
 performance and fault tolerance.

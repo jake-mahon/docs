@@ -71,7 +71,7 @@ To filter by Where, check the box(es) for the desired filter type(s):
 - To This Computer – Select the radio button for either Name or IP and then enter the computer in
   the textbox
 
-    Filter criteria can be a partial match
+  Filter criteria can be a partial match
 
 What
 

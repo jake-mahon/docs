@@ -1,3 +1,7 @@
+title: Audit Logs and Event Tracking
+sidebar_label: Audit Logs
+description: View comprehensive audit trail of user actions performed in Recovery for Active Directory with detailed event information and filtering.
+
 # Audit Logs Page
 
 The Audit Logs page provides an audit trail of the actions performed by users in Recovery for Active

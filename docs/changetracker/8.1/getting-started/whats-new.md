@@ -1,9 +1,3 @@
----
-title: What's New in Change Tracker
-sidebar_label: What's New
-description: Latest announcements and updates for Netwrix Change Tracker available in the new Netwrix Community platform.
----
-
 # What's New
 
 ## New Netwrix Community!

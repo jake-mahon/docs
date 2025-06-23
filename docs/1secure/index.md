@@ -1,9 +1,3 @@
----
-title: Netwrix 1Secure Security Platform
-sidebar_label: Overview
-description: Unified command center for hybrid IT security monitoring. Azure-hosted SaaS solution for MSPs to monitor and protect client environments.
----
-
 # Netwrix 1Secure
 
 > **Your unified command center for hybrid IT security monitoring**
@@ -181,17 +175,3 @@ Get the latest features and security enhancements with one-click updates:
 3. **Confirm** the update to deploy automatically
 
 ![selfupdate_panel](/img/product_docs/1secure/admin/selfupdate_panel.webp)
-
----
-
-## Ready to Transform Your Security Operations?
-
-```mdx-code-block
-import DocCardList from '@theme/DocCardList';
-
-<DocCardList />
-```
-
-:::tip Need Help?
-Our support team is here to ensure your success with 1Secure. Check out our [Getting Started Guide](/docs/1secure/getting-started) or contact your account manager for personalized assistance.
-:::

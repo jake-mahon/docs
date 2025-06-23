@@ -1,3 +1,7 @@
+title: Installing Express Agent AIX
+sidebar_label: AIX Installation
+description: Install ChangeTracker Express Agent on AIX systems with configuration steps for change tracking and user identification requirements.
+
 # Installing Express Agent for AIX
 
 Note: In order for the Change Tracker Express Agent for AIX to identify the who made the change

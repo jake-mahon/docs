@@ -1,3 +1,7 @@
+title: Report Options Configuration
+sidebar_label: Query Settings
+description: Configure query settings for built-in ChangeTracker reports with customizable options and parameters for report generation and filtering.
+
 # Report Options
 
 For any of the built-in reports, the **Query Settings** are available for:

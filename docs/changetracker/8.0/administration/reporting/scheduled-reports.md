@@ -1,3 +1,7 @@
+title: Scheduling Automatic Reports
+sidebar_label: Scheduled Reports
+description: Schedule automatic report generation in ChangeTracker by saving filters with names and configuring automated delivery schedules and parameters.
+
 # Scheduling Automatic Reports
 
 Once a filter has been defined it can be saved and given a name and, if required, an automatic

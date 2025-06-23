@@ -8,7 +8,7 @@ The Threat Prevention Agent can be deployed through any of the following methods
 - Deploy the Agent to server(s) through the Administration Console – You can deploy the Agent to one
   or multiple servers through the Administration Console
 
-    **_RECOMMENDED:_** This is the recommended method for deploying the Agent.
+  **_RECOMMENDED:_** This is the recommended method for deploying the Agent.
 
 - Manually through the Windows Agent Setup Wizard – Run the Agent executable to launch this wizard
 
@@ -82,51 +82,51 @@ product to enable communication with it.
 
 - In the **Address or Path** box, enter the following:
 
-    - For Threat Prevention – Enter the host name or IP address of the machine where the Enterprise
-      Manager service is located
-    - For Activity Monitor – Enter the path to the activity agent configuration file for this host.
+  - For Threat Prevention – Enter the host name or IP address of the machine where the Enterprise
+    Manager service is located
+  - For Activity Monitor – Enter the path to the activity agent configuration file for this host.
 
-        _Remember,_ the Activity Monitor activity agent must already be deployed on the domain
-        controller and enabled before installing the AD agent. The default path is:
-        `…\Netwrix\Netwrix Threat Prevention\SIWindowsAgent\SAMConfig.xml`
+    _Remember,_ the Activity Monitor activity agent must already be deployed on the domain
+    controller and enabled before installing the AD agent. The default path is:
+    `…\Netwrix\Netwrix Threat Prevention\SIWindowsAgent\SAMConfig.xml`
 
-    **NOTE:** As a requirement for using custom managed certificates, you must provide the
-    Enterprise Manager server DNS name, hostname, or FQDN (instead of the IP address) when
-    installing the following:
+  **NOTE:** As a requirement for using custom managed certificates, you must provide the
+  Enterprise Manager server DNS name, hostname, or FQDN (instead of the IP address) when
+  installing the following:
 
-    - Threat Prevention server
-    - Remote instance of the Administration Console
-    - Agent
+  - Threat Prevention server
+  - Remote instance of the Administration Console
+  - Agent
 
-    See the
-    [Administration Console and Agent Not Communicating with the Enterprise Manager ](/docs/threatprevention/7.5/troubleshooting/enterprisemanagercommunication.md)topics
-    for additional information.
+  See the
+  [Administration Console and Agent Not Communicating with the Enterprise Manager ](/docs/threatprevention/7.5/troubleshooting/enterprisemanagercommunication.md)topics
+  for additional information.
 
 - The default Enterprise Manager port is 3741. Modify if necessary. The port configuration only
   applies to the Enterprise Manager Host option.
 
-    **NOTE:** On selecting the **Enterprise Manger host or IP address** option button and providing
-    valid information for the Enterprise Manager in the **Address or Path** and **Port** boxes, the
-    Agent automatically connects to the Enterprise Manager.
+  **NOTE:** On selecting the **Enterprise Manger host or IP address** option button and providing
+  valid information for the Enterprise Manager in the **Address or Path** and **Port** boxes, the
+  Agent automatically connects to the Enterprise Manager.
 
 - Configure additional Agent options as desired:
 
-    - Safe Mode – This option prevents the **Windows AD Events** monitoring module from loading if
-      the LSASS DLL versions has been modified since the last time the Threat Prevention Windows
-      Agent service was started.
-    - Start Agent Service – This option starts the Threat Prevention Windows Agent service after the
-      Agent is installed. If the Threat Prevention Windows Agent service is not started during
-      installation, the Agent requires a manual start or needs to be started automatically after a
-      server reboot. Until the Agent is started, no activity monitoring or blocking occurs.
+  - Safe Mode – This option prevents the **Windows AD Events** monitoring module from loading if
+    the LSASS DLL versions has been modified since the last time the Threat Prevention Windows
+    Agent service was started.
+  - Start Agent Service – This option starts the Threat Prevention Windows Agent service after the
+    Agent is installed. If the Threat Prevention Windows Agent service is not started during
+    installation, the Agent requires a manual start or needs to be started automatically after a
+    server reboot. Until the Agent is started, no activity monitoring or blocking occurs.
 
-        **NOTE:** If **Custom-managed** is selected on the CA Certificate Configuration page, the
-        **Start Agent Service** checkbox is disabled because Agent installer does not obtain a
-        signed certificate from Enterprise Manager in the custom-managed mode. After installing the
-        Agent, you must create and provide certificates signed by your certificate authority.
+    **NOTE:** If **Custom-managed** is selected on the CA Certificate Configuration page, the
+    **Start Agent Service** checkbox is disabled because Agent installer does not obtain a
+    signed certificate from Enterprise Manager in the custom-managed mode. After installing the
+    Agent, you must create and provide certificates signed by your certificate authority.
 
-    - Create Windows Firewall Rules – This option creates the rules needed to open this port during
-      the installation process. If using a third party firewall, uncheck this option and manually
-      create the necessary firewall rules.
+  - Create Windows Firewall Rules – This option creates the rules needed to open this port during
+    the installation process. If using a third party firewall, uncheck this option and manually
+    create the necessary firewall rules.
 
 When the settings are configured, click **Next**.
 
@@ -146,7 +146,7 @@ The Certsinfo folder is located at: …\Netwrix\Netwrix Threat Prevention\SIWind
   Enrollment Secret box. Enter the enrollment secret obtained from the
   [Enrollment Secret Configuration Window](/docs/threatprevention/7.5/admin/agents/window/enrollmentsecretconfiguration.md).
 
-    **NOTE:** If the enrollment secret has expired, you can generate a new one.
+  **NOTE:** If the enrollment secret has expired, you can generate a new one.
 
 ![Threat Prevention Windows Agent Setup wizard - Select Event Sources page](/img/product_docs/threatprevention/threatprevention/install/agent/eventsources.webp)
 
@@ -157,19 +157,19 @@ being deployed. Click **Next**.
 - Windows Event Logs – Available for legacy versions. Option should be grayed-out.
 - Windows File System – Available as part of the Threat Prevention for File System and the Threat
   Prevention for Active Directory solutions.
-    - Check this option if the system on which the Agent is being installed will be used for
-      monitoring the local Windows file system
-    - Check this option if the system on which the Agent is being installed is a domain controller
-      where Group Policy Object monitoring or blocking will be conducted
+  - Check this option if the system on which the Agent is being installed will be used for
+    monitoring the local Windows file system
+  - Check this option if the system on which the Agent is being installed is a domain controller
+    where Group Policy Object monitoring or blocking will be conducted
 - Windows Active Directory Events – Available as part of the Threat Prevention for Active Directory
   and the Threat Prevention for Exchange solutions. Also available as part of the Activity Monitor
   for Active Directory solution.
-    - Select this component if the system the Agent is being installed on is an Active Directory
-      domain controller. This option is grayed-out if the target system is not a domain controller.
+  - Select this component if the system the Agent is being installed on is an Active Directory
+    domain controller. This option is grayed-out if the target system is not a domain controller.
 - Exchange Server Monitoring – Available as part of the Threat Prevention for Exchange solution.
-    - Select this component if the system where the Agent is being installed is running the Exchange
-      Server. This option will be grayed-out if this Agent is not being installed on an Exchange
-      Server.
+  - Select this component if the system where the Agent is being installed is running the Exchange
+    Server. This option will be grayed-out if this Agent is not being installed on an Exchange
+    Server.
 - NetApp Security Event Log – Available for legacy versions. Option should be grayed-out.
 - Workstation Events – Available for legacy versions. Option should be grayed-out.
 

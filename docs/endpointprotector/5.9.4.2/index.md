@@ -1,9 +1,3 @@
----
-title: Endpoint Protector 5.9.4.2 Overview
-sidebar_label: Overview
-description: Comprehensive data loss prevention and device control solution for modern enterprises with advanced DLP capabilities and multi-platform protection.
----
-
 # Endpoint Protector 5.9.4.2
 
 > Comprehensive data loss prevention and device control for modern enterprises

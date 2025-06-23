@@ -1,9 +1,3 @@
----
-title: Agent System Requirements
-sidebar_label: Agent Requirements
-description: System requirements for Express Agent, Gen 7 Agent for Linux and Windows including dependencies and platform-specific configuration details.
----
-
 # Express Agent
 
 Requirements

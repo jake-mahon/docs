@@ -1,9 +1,3 @@
----
-title: Windows File Server Configuration
-sidebar_label: Windows File Server
-description: Deploy Activity Agents to Windows file servers including cluster and DFS namespace configurations for comprehensive file system monitoring.
----
-
 # Windows File Server Activity Auditing Configuration
 
 In order for the Netwrix Activity Monitor to monitor Windows file server activity, an Activity Agent

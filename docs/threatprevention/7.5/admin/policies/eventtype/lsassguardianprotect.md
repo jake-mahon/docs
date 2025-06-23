@@ -108,8 +108,8 @@ the requesting process.
 - PROCESS_VM_WRITE – Select this checkbox to write to memory in a process
 - PROCESS_CREATE_THREAD – Select this checkbox to create a thread
 - PROCESS_VM_READ – Select this checkbox to remove the read flag
-    - Among other things, this would prevent the creation of an LSASS dump file by Task Manager or
-      other processes.
+  - Among other things, this would prevent the creation of an LSASS dump file by Task Manager or
+    other processes.
 
 **_RECOMMENDED:_** Leave these filters enabled. Do not deselect these options.
 

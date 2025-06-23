@@ -1,9 +1,3 @@
----
-title: Netwrix Auditor Add-Ons and Integrations
-sidebar_label: Integrations
-description: Extend Netwrix Auditor capabilities with add-ons for SIEM, cloud platforms, security tools, and workflow automation integrations.
----
-
 # Add-Ons
 
 The [Netwrix Auditor Add-on Store](https://www.netwrix.com/netwrix_addons.html) contains free

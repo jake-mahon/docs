@@ -1,3 +1,7 @@
+title: Upgrade Agent App Gen 7
+sidebar_label: Upgrade Process
+description: Upgrade from ChangeTracker Agent App version 1.0.0.x to Gen 7 Agent with migration procedures and configuration transfer steps.
+
 # Upgrade from Agent App to Gen 7 Agent
 
 If you are currently using an Agent App (Version 1.0.0.x) and you wish to upgrade to use the Gen 7

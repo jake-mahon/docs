@@ -1,9 +1,3 @@
----
-title: Change Tracker Documentation Overview
-sidebar_label: Overview
-description: System integrity monitoring for compliance programs, host intrusion detection, and enterprise IT change control with CIS Benchmark support.
----
-
 # Netwrix Change Tracker v8.0 Documentation
 
 Netwrix Change Tracker is a system integrity monitoring product, used for compliance programs, host

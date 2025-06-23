@@ -1,3 +1,7 @@
+title: Policy Templates Security Audit
+sidebar_label: Security Audit Policies
+description: Track Windows security settings and audit policy changes using ChangeTracker for compliance monitoring and security configuration management.
+
 # Policy Templates: Security and Audit Policy Tracker
 
 **NOTE:** This template applicable to Windows OS only.

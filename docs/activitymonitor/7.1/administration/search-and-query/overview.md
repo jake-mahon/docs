@@ -1,9 +1,3 @@
----
-title: Activity Search and Analysis
-sidebar_label: Search Overview
-description: Comprehensive search functionality to query, filter, sort, and export activity events from monitored hosts and domains with CSV/JSON output.
----
-
 # Search Feature
 
 The search feature consolidates and compartmentalizes search results based on events, time, objects,

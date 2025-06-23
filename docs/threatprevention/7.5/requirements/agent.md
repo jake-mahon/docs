@@ -58,7 +58,7 @@ The following permission is required to install the Agent:
 
 - Membership in the local Administrators group
 
-    **NOTE:** Membership in the Domain Administrators group for a domain controller.
+  **NOTE:** Membership in the Domain Administrators group for a domain controller.
 
 ## Agent Compatibility with Non-Netwrix Security Products
 
@@ -76,7 +76,7 @@ thereby prevent monitoring Active Directory events:
 - Cisco AMP for Endpoints Connector
 - Avast Business Antivirus
 
-    - Specifically the “Avast self-defense module”
+  - Specifically the “Avast self-defense module”
 
 **NOTE:** These products and other similar products can be configured via a whitelist to allow the
 agent to operate.

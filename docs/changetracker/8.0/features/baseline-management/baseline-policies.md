@@ -1,3 +1,7 @@
+title: Baseline Policy Wizard
+sidebar_label: Baseline Policies
+description: Create new baseline policies using the ChangeTracker Baseline Policy Wizard for configuration monitoring and security baseline management.
+
 # Baseline Policy Wizard
 
 New Policy:

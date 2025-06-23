@@ -1,8 +1,3 @@
----
-title: Manage Groups
-sidebar_label: Manage Groups
----
-
 # Manage Groups
 
 ## All Groups

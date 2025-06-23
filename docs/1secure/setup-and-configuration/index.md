@@ -1,9 +1,3 @@
----
-title: IT Infrastructure Configuration Guide
-sidebar_label: Setup and Configuration
-description: Configure native audit settings for comprehensive data collection from Active Directory, computers, Azure environments, and other sources.
----
-
 # Configure IT Infrastructure for Auditing and Monitoring
 
 You can configure your IT Infrastructure for monitoring in one of the following ways:

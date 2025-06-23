@@ -1,9 +1,3 @@
----
-title: Microsoft Entra ID Data Source
-sidebar_label: Azure Entra ID
-description: Configure Microsoft Entra ID auditing with modern authentication and multi-factor authentication support for Office 365 organizations.
----
-
 # Microsoft Entra ID Auditing
 
 The product supports Microsoft Entra ID  (formerly Azure AD) provided within Microsoft Office 365.
@@ -23,17 +17,6 @@ Support for modern authentication will allow you to audit the organizations wher
 all users, including service accounts. See the
 [App Registration and Configuration in Microsoft Entra ID](/docs/1secure/setup-and-configuration/azure-entra-id/registration.md)
 topic for additional information.
-
----
-
-id: add-a-source-and-connectors-for-microsoft-entra-id
-title: "Add a Source and Connectors for Microsoft Entra ID"
-pagination_label: "Add a Source and Connectors for Microsoft Entra ID"
-sidebar_label: "Add a Source and Connectors for Microsoft Entra ID"
-sidebar_position: 43
-description: "Step-by-step guide to add Microsoft Entra ID data sources and connectors to your organization."
-
----
 
 # Add a Source and Connectors for Microsoft Entra ID
 

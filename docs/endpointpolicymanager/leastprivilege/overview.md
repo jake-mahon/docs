@@ -1,9 +1,3 @@
----
-title: Least Privilege Manager Windows Guide
-sidebar_label: Overview
-description: Comprehensive guide to Least Privilege Manager. Remove local admin rights, shut down malware, and let non-admins safely install software on-demand with secure elevation.
----
-
 # Least Privilege Manager (Windows)
 
 About Netwrix Endpoint Policy Manager (formerly PolicyPak) Least Privilege Manager

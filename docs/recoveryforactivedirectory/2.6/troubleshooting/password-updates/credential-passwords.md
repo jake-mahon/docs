@@ -1,3 +1,7 @@
+title: Update Service Account Passwords
+sidebar_label: Credential Passwords
+description: Update passwords for various service accounts including SQL Server, Recovery Service, and Domain Controller Backup accounts for security compliance.
+
 # Update Account Passwords
 
 Account passwords occasionally need to be updated due to various reasons, such as security policies

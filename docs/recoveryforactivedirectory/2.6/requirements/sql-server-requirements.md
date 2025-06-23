@@ -1,3 +1,7 @@
+title: SQL Server Requirements
+sidebar_label: SQL Server
+description: Database server requirements and supported SQL Server versions for Recovery for Active Directory including Windows operating system support.
+
 # SQL Server Requirements
 
 The Windows server can be physical or virtual. The following Windows server operating systems are

@@ -1,9 +1,3 @@
----
-title: Manual Active Directory Domain Configuration
-sidebar_label: Manual Configuration
-description: Manually configure Active Directory domains for monitoring with detailed audit settings and policy requirements for comprehensive data collection.
----
-
 # Configure Domain for Monitoring Active Directory
 
 You can configure your Active Directory domain for monitoring in one of the following ways:
@@ -30,17 +24,6 @@ Also, perform the following procedures:
 - [Configure Object-Level Auditing](/docs/1secure/setup-and-configuration/active-directory/audit-policies.md)
 - Adjust Security Event Log Size and Retention Settings
 - [Enable Secondary Logon Service](/docs/1secure/setup-and-configuration/active-directory/advanced-settings.md)
-
----
-
-id: active-directory-manual-configuration
-title: "Active Directory: manual configuration"
-pagination_label: "Active Directory: manual configuration"
-sidebar_label: "Active Directory: manual configuration"
-sidebar_position: 105
-description: "Learn how to manually configure your domain for Active Directory monitoring using Group Policy Management Console or ADSI Edit."
-
----
 
 # Active Directory: manual configuration
 
@@ -85,17 +68,6 @@ topic.
 
 **Step 3 –** [Enable Secondary Logon Service](/docs/1secure/setup-and-configuration/active-directory/advanced-settings.md) on the computer where
 Netwrix Cloud Agent resides.
-
----
-
-id: install-adsi-edit
-title: "Install ADSI Edit"
-pagination_label: "Install ADSI Edit"
-sidebar_label: "Install ADSI Edit"
-sidebar_position: 102
-description: "Learn how to install ADSI Edit utility for viewing and managing Active Directory objects and attributes."
-
----
 
 # Install ADSI Edit
 

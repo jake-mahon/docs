@@ -9,21 +9,21 @@ EPE or LDAP policies. The reports include default grouping(s) that best show the
 The investigate summary folders have the following reports:
 
 - EPE Summary
-    - Last 10,000 Failed passwords by Policy and Rule
-    - Number of Failed passwords by Policy Name
-    - Number of Failed passwords by Rule Name
-    - Number of Failed passwords by Policy and Rule
+  - Last 10,000 Failed passwords by Policy and Rule
+  - Number of Failed passwords by Policy Name
+  - Number of Failed passwords by Rule Name
+  - Number of Failed passwords by Policy and Rule
 - LDAP Summary
-    - Top 10,000 Most frequently run queries by User Accounts
-    - Top 10,000 Most frequently run queries by Computer Accounts
-    - Top 10,000 Most frequently run queries by IP
-    - Most frequently run queries by Account for TOP 5 User Accounts
-    - Most frequently run queries by Account for TOP 5 Computer Accounts
-    - Most frequently run queries by IP for TOP 5 IPs
-    - Run Time by Account
-    - Run Time by IP
-    - Run Time by Domain Controller
-    - Number of Searches by Domain Controller
+  - Top 10,000 Most frequently run queries by User Accounts
+  - Top 10,000 Most frequently run queries by Computer Accounts
+  - Top 10,000 Most frequently run queries by IP
+  - Most frequently run queries by Account for TOP 5 User Accounts
+  - Most frequently run queries by Account for TOP 5 Computer Accounts
+  - Most frequently run queries by IP for TOP 5 IPs
+  - Run Time by Account
+  - Run Time by IP
+  - Run Time by Domain Controller
+  - Number of Searches by Domain Controller
 
 Click a report to view it.
 
@@ -53,8 +53,8 @@ display data in the report accordingly.
   range for the data to be displayed in the report using the To and From dropdown calendars. By
   default, the calendar displays today's date. Click **OK** to set the date and time.
 
-    For faster navigation on the calendar, select the month to display all twelve months to choose
-    from. Once showing the months, select the year to display a range of years to choose from.
+  For faster navigation on the calendar, select the month to display all twelve months to choose
+  from. Once showing the months, select the year to display a range of years to choose from.
 
 - Policies – Choose **All** or **Enabled Only** to display all policies or enabled only policies in
   the report

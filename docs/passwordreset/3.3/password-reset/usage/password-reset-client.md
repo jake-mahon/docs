@@ -1,9 +1,5 @@
 # Password Reset Client
 
-Password Reset Client
-
-# Password Reset Client
-
 The Password Reset Client allows users to securely reset their password or unlock their account from
 the Windows Logon and Unlock Computer screens. Users click **Reset Password** to access the Password
 Reset system.

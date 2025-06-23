@@ -1,9 +1,3 @@
----
-title: Endpoint Policy Manager Cloud Quick Start
-sidebar_label: Cloud Overview
-description: Complete cloud deployment guide for Endpoint Policy Manager. Deliver Group Policy and settings to non-domain, on-prem, and remote machines anywhere.
----
-
 # Endpoint Policy Manager Cloud Quick Start
 
 Netwrix Endpoint Policy Manager (formerly PolicyPak) Cloud is our system for delivering and

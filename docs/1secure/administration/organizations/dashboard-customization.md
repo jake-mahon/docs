@@ -1,9 +1,3 @@
----
-title: Organization Dashboard and Tabs
-sidebar_label: Dashboard Customization
-description: View and navigate organization tabs including sources, sites, credentials, users, and subscriptions. Access organization dashboards.
----
-
 # View Tabs and Dashboards for the Organization
 
 After adding an organization, you can view available tabs for the organization on the **Managed organizations** page.

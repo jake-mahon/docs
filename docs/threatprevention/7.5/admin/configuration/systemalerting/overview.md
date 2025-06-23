@@ -10,9 +10,9 @@ grouped into five types:
 
 - Security – Provides alerts on things that impact:
 
-    - What data is collected
-    - The ability to collect the data
-    - Changes to who can access it
+  - What data is collected
+  - The ability to collect the data
+  - Changes to who can access it
 
 - Operations – Provides alerts on internal operations of the product that are not directly
   influenced by a user
@@ -62,10 +62,10 @@ Below are some considerations:
   upgrade SI.ActiveDirectoryMonitor.dll - commonly known as ADMonitor DLL (recommended). See the
   [Upgrade ADMonitor](/docs/threatprevention/7.5/admin/agents/management/upgradeadmonitor.md)topic for additional information.
 
-    **_RECOMMENDED:_** Activate an email notification for the _LSASS process terminated_ alert. See
-    the
-    [Enable the 'LSASS Process Terminated' Email Alert](/docs/threatprevention/7.5/troubleshooting/lsass.md#enable-the-lsass-process-terminated-email-alert)
-    topic for additional information.
+  **_RECOMMENDED:_** Activate an email notification for the _LSASS process terminated_ alert. See
+  the
+  [Enable the 'LSASS Process Terminated' Email Alert](/docs/threatprevention/7.5/troubleshooting/lsass.md#enable-the-lsass-process-terminated-email-alert)
+  topic for additional information.
 
 - In addition to the LSASS process termination check, the Agent can be configured for a Safe Mode.
   In Safe Mode, the Agent records the version of the LSASS DLLs that it hooks into during
@@ -80,6 +80,6 @@ Below are some considerations:
   ADMonitor DLL) to resolve the issue permanently. See the
   [Upgrade ADMonitor](/docs/threatprevention/7.5/admin/agents/management/upgradeadmonitor.md) topic for additional information.
 
-    **_RECOMMENDED:_** Activate an email notification for this alert. See the
-    [Enable Agent Started in AD Monitor Pending Mode Email Alert](/docs/threatprevention/7.5/admin/agents/safemode.md#enable-agent-started-in-ad-monitor-pending-mode-email-alert)
-    topic and the [Agent Safe Mode](/docs/threatprevention/7.5/admin/agents/safemode.md) topic for additional information.
+  **_RECOMMENDED:_** Activate an email notification for this alert. See the
+  [Enable Agent Started in AD Monitor Pending Mode Email Alert](/docs/threatprevention/7.5/admin/agents/safemode.md#enable-agent-started-in-ad-monitor-pending-mode-email-alert)
+  topic and the [Agent Safe Mode](/docs/threatprevention/7.5/admin/agents/safemode.md) topic for additional information.

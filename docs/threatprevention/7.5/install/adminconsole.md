@@ -20,10 +20,10 @@ happens:
 - If it does not detect .NET Framework 4.7.2 or later version, a message is displayed to inform you
   to install it.
 
-    ![.NET Framework Required](/img/product_docs/threatprevention/threatprevention/install/netrequired.webp)
+  ![.NET Framework Required](/img/product_docs/threatprevention/threatprevention/install/netrequired.webp)
 
-    You can either exit the wizard and install it manually or walk through the wizard until its last
-    page and install it as part of the Threat Prevention installation process.
+  You can either exit the wizard and install it manually or walk through the wizard until its last
+  page and install it as part of the Threat Prevention installation process.
 
 On clicking Next, the End-User License Agreement page is displayed.
 

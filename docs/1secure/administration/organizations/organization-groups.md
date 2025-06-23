@@ -1,9 +1,3 @@
----
-title: Organization Groups for Access Control
-sidebar_label: Organization Groups
-description: Create and manage organization groups to control user access to specific organizations, enabling role-based management in MSP environments.
----
-
 # Organization Groups
 
 An organization group allows designated users to access and manage only the specific organizations

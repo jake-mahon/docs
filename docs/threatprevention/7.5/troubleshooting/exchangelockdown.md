@@ -31,11 +31,11 @@ policy:
 
 - On the AD Event Filter tab:
 
-    - Operations – All (Object Add, Object Deleted, Object Modified, and Object Moved or Renamed)
+  - Operations – All (Object Add, Object Deleted, Object Modified, and Object Moved or Renamed)
 
 - On the AD Classes and Attributes Filter tab:
 
-    - Block Attributes – publicDelegates
+  - Block Attributes – publicDelegates
 
 Impact of Lockdown Policies
 

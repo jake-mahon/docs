@@ -28,26 +28,26 @@ The following rights are required to run database maintenance:
 
 - In the master database:
 
-    - VIEW SERVER STATE permission
-    - ALTER ANY LOGIN permission
-    - ALTER ANY LINKED SERVER permission
+  - VIEW SERVER STATE permission
+  - ALTER ANY LOGIN permission
+  - ALTER ANY LINKED SERVER permission
 
 - In the msdb database:
 
-    - SQLAgentOperatorRole role
-    - Permission to select from msdb.dbo.sysjobs
+  - SQLAgentOperatorRole role
+  - Permission to select from msdb.dbo.sysjobs
 
 - In the NVMonitorConfig database:
 
-    - db_datareader role
-    - db_datawriter role
+  - db_datareader role
+  - db_datawriter role
 
 - In the NVMonitorData database:
 
-    - Be owner of this database
+  - Be owner of this database
 
-        **NOTE:** There is a least privilege option for this requirement. See the Less Privilege
-        Model for NVMonitorData Database Permission topic for additional information.
+    **NOTE:** There is a least privilege option for this requirement. See the Less Privilege
+    Model for NVMonitorData Database Permission topic for additional information.
 
 See the [Database Components](/docs/threatprevention/7.5/admin/overview.md#database-components) topic for a discussion of
 these databases.

@@ -31,21 +31,21 @@ Example:
 
 - Paths filter – Paths identified:
 
-    - C:\Documents and Settings (EXAMPLE\server1)
-    - C:\Users\All Users (EXAMPLE\server2)
+  - C:\Documents and Settings (EXAMPLE\server1)
+  - C:\Users\All Users (EXAMPLE\server2)
 
 The above configuration in a policy results in the Agent on server1 monitoring only the C:\Documents
 and Settings folder and the Agent on server2 monitoring only the C:\Users\All Users folder.
 
 - Paths filter – Paths identified:
 
-    - C:\Documents and Settings (EXAMPLE\server1)
-    - C:\Users\All Users (EXAMPLE\server2)
+  - C:\Documents and Settings (EXAMPLE\server1)
+  - C:\Users\All Users (EXAMPLE\server2)
 
 - Additional Agents filter – Agents selected:
 
-    - EXAMPLE\server1
-    - EXAMPLE\server3
+  - EXAMPLE\server1
+  - EXAMPLE\server3
 
 By adding the Agents on server1 and server3 in the Additional Agents filter, server1 and server3
 will monitor both folder paths, but server2 still only monitors the C:\Users\All Users folder.
@@ -99,12 +99,12 @@ types:
 
 - Native File System – For scoping to NTFS and NAS native activity
 
-    - Applies to all Access Operations
+  - Applies to all Access Operations
 
 - Shadow Copy (VSS) – For scoping to Shadow Copy (A.K.A. Volume Snapshot Service, Volume Shadow Copy
   Service, or VSS)
 
-    - Only applies to Read and Create Access Operations
+  - Only applies to Read and Create Access Operations
 
 Wildcards area
 
@@ -178,8 +178,8 @@ Agents/Domains list on the right displays Agents and domains included in the pol
 - Use the **Refresh** button to update the lists.
 - Use the arrow buttons to move individual Agents and/or domains between the lists.
 
-    - The single arrow buttons will move the selected item to the other list.
-    - The double arrows will move all items to the other list.
+  - The single arrow buttons will move the selected item to the other list.
+  - The double arrows will move all items to the other list.
 
 **NOTE:** There is no impact if a selected path does not exist on the server where an Agent resides.
 

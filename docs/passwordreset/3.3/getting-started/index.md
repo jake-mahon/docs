@@ -1,9 +1,5 @@
 # Evaluation
 
-Evaluation
-
-# Evaluation
-
 Password Reset is a self-service password management system that helps organizations to reduce the
 number of password related help desk calls. Password Reset allows users to securely change their
 password and unlock their account, even if they have forgotten their password.

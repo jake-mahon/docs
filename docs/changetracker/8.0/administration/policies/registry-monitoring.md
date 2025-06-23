@@ -1,3 +1,7 @@
+title: Policy Templates Registry
+sidebar_label: Registry Monitoring
+description: Monitor Windows registry configuration settings and changes using ChangeTracker policy templates for security and configuration management.
+
 # Policy Templates: Registry
 
 **NOTE:** This template applicable to Windows OS only.

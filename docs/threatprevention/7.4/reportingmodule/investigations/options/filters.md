@@ -48,14 +48,14 @@ clock and a calendar for setting a custom range:
 
 - Preset timeframes:
 
-    - Last Hour
-    - Last 4 Hours
-    - Last 8 Hours
-    - Last 24 Hours
-    - Last 5 Days
-    - Last 7 Days
-    - Last 14 Days
-    - Last 30 Days
+  - Last Hour
+  - Last 4 Hours
+  - Last 8 Hours
+  - Last 24 Hours
+  - Last 5 Days
+  - Last 7 Days
+  - Last 14 Days
+  - Last 30 Days
 
 - Custom timeframe – Specified by the start and end date and time range set in the clock / calendar
   section
@@ -97,58 +97,58 @@ The Attribute menu in the Filters sectionhas the following options grouped by th
 
 - Event (grayed-out category group header in the menu):
 
-    - Affected Object – The name of the object in Active Directory that was affected by the event
-    - Attribute – The attribute of the Active Directory object affected by the event
-    - Attribute New Value – The attribute value of the Active Directory object after the activity
-    - Attribute Old Value – The attribute value of the Active Directory object prior to the activity
-    - Blocked – Indicates whether the operation was prevented by a security measure, such as a
-      Netwrix agent
-    - Client – The device, IP address, or host that initiated the event
-    - Client Type – The type of client initiating the event, such as host, IP address, or device
-    - Domain – Active Directory domain where the event occurred
-    - Event Operation – The specific action that was attempted or performed during the event (e.g.,
-      modify, delete)
-    - Event Sub-Operation – Additional actions or details related to the primary event operation
-    - Event Type – The nature or source of the event data, indicating where or how the event
-      originated
-    - Perpetrator – The user or service account that initiated the event
-    - Success – Indicates whether the action associated with the event was successfully completed
-    - Tag (Direct) – A label or classification directly applied to the object or event
-    - Tag (Effective) – A label or classification that applies to an object due to inheritance from
-      a group or policy. For example, if a group has a tag, all its members will inherit that tag
-    - Target – The specific object, resource, or entity that was the focus of the event
-    - Time of Day – The exact date and time when the event occurred
+  - Affected Object – The name of the object in Active Directory that was affected by the event
+  - Attribute – The attribute of the Active Directory object affected by the event
+  - Attribute New Value – The attribute value of the Active Directory object after the activity
+  - Attribute Old Value – The attribute value of the Active Directory object prior to the activity
+  - Blocked – Indicates whether the operation was prevented by a security measure, such as a
+    Netwrix agent
+  - Client – The device, IP address, or host that initiated the event
+  - Client Type – The type of client initiating the event, such as host, IP address, or device
+  - Domain – Active Directory domain where the event occurred
+  - Event Operation – The specific action that was attempted or performed during the event (e.g.,
+    modify, delete)
+  - Event Sub-Operation – Additional actions or details related to the primary event operation
+  - Event Type – The nature or source of the event data, indicating where or how the event
+    originated
+  - Perpetrator – The user or service account that initiated the event
+  - Success – Indicates whether the action associated with the event was successfully completed
+  - Tag (Direct) – A label or classification directly applied to the object or event
+  - Tag (Effective) – A label or classification that applies to an object due to inheritance from
+    a group or policy. For example, if a group has a tag, all its members will inherit that tag
+  - Target – The specific object, resource, or entity that was the focus of the event
+  - Time of Day – The exact date and time when the event occurred
 
 - Active Directory (grayed-out category group header in the menu):
 
-    - Affected Object Distinguished Name – The full path and name of the object in Active Directory
-      that was affected by the event
-    - Certificate Thumbprint – The unique identifier of a certificate used in the event, typically
-      represented as a hexadecimal string
-    - Encryption Type – The method or algorithm used to encrypt data during the event (e.g., AES,
-      RSA)
-    - LDAP Query Filter – The LDAP search filter used to query the Active Directory for specific
-      objects or attributes
-    - Object Class – The type or schema class of the object affected by the event (e.g., user,
-      group)
-    - Perpetrator Protocol – The network protocol used by the perpetrator to perform the operation
-      (e.g., LDAP, Kerberos)
-    - Pre-Authentication Type – The type of pre-authentication used before the main authentication
-      (e.g., Kerberos, NTLM)
-    - Reply Encryption Type – The type of encryption used to secure the response sent back to the
-      requester
+  - Affected Object Distinguished Name – The full path and name of the object in Active Directory
+    that was affected by the event
+  - Certificate Thumbprint – The unique identifier of a certificate used in the event, typically
+    represented as a hexadecimal string
+  - Encryption Type – The method or algorithm used to encrypt data during the event (e.g., AES,
+    RSA)
+  - LDAP Query Filter – The LDAP search filter used to query the Active Directory for specific
+    objects or attributes
+  - Object Class – The type or schema class of the object affected by the event (e.g., user,
+    group)
+  - Perpetrator Protocol – The network protocol used by the perpetrator to perform the operation
+    (e.g., LDAP, Kerberos)
+  - Pre-Authentication Type – The type of pre-authentication used before the main authentication
+    (e.g., Kerberos, NTLM)
+  - Reply Encryption Type – The type of encryption used to secure the response sent back to the
+    requester
 
 - File System (grayed-out category group header in the menu):
 
-    - Extension – The file extension indicating the file type (e.g., .txt, .docx)
-    - File Path – The The full directory path to where the file is located
-    - File Size – The The size of the file, typically measured in bytes
-    - File Tag – A label or classification applied to the file for organizational or security
-      purposes
+  - Extension – The file extension indicating the file type (e.g., .txt, .docx)
+  - File Path – The The full directory path to where the file is located
+  - File Size – The The size of the file, typically measured in bytes
+  - File Tag – A label or classification applied to the file for organizational or security
+    purposes
 
 - Integrations (grayed-out category group header in the menu):
 
-    - Policy – The set of rules or configurations applied within the integration
+  - Policy – The set of rules or configurations applied within the integration
 
 ## Filter Operator Menu
 
@@ -192,8 +192,8 @@ attribute. For example:
 
 - When:
 
-    - Attribute = Perpetrator; Operator = Equals; Filter = nwxtech\ad.bruce.wayne,
-      nwxtech\ad.robin.locksley
+  - Attribute = Perpetrator; Operator = Equals; Filter = nwxtech\ad.bruce.wayne,
+    nwxtech\ad.robin.locksley
 
 - Then the query will return activity for nwxtech\ad.bruce.wayne OR nwxtech\ad.robin.locksley
 
@@ -202,11 +202,11 @@ and repeat steps 4-6. The AND operator is automatically applied to group multipl
 
 - When:
 
-    - Attribute = Perpetrator; Operator = Equals; Filter = nwxtech\domain admins
+  - Attribute = Perpetrator; Operator = Equals; Filter = nwxtech\domain admins
 
 - AND
 
-    - Attribute = Perpetrator; Operator = Not Equal to; Filter = nwxtech\ad.bruce.wayne
+  - Attribute = Perpetrator; Operator = Not Equal to; Filter = nwxtech\ad.bruce.wayne
 
 - Then the query will return activity for all domain admins except nwxtech\ad.bruce.wayne
 

@@ -1,9 +1,3 @@
----
-title: Supported Virtual Appliance Formats
-sidebar_label: Formats
-description: Complete list of supported virtual environment formats including OVF, OVA, and VHD for various virtualization platforms.
----
-
 # Virtual Appliance Formats
 
 The Endpoint Protector Virtual Appliance is available in different formats and for various

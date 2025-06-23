@@ -15,21 +15,21 @@ options:
 
 - Credentials – Provide the credentials to use for deploying the Agent on all discovered domain
   controllers
-    - Login – Must be in Domain\User format
-    - Password
+  - Login – Must be in Domain\User format
+  - Password
 - Agent Deploy Destination Options – Configure the following settings:
-    - Installation Location – Select the radio button to indicate the installation directory on the
-      target domain controllers
-        - Default – Uses the default installation directory
-        - Textbox – Enter the desired installation location, e.g. d:\myagent
-    - Safe Mode – If selected, the Agent checks LSASS versions on start up. Any changes in LSASS
-      since the previous start prevents the Windows AD Events monitoring module from loading. See
-      the
-      [Agent Safe Mode](/docs/threatprevention/7.4/admin/agents/safemode.md)
-      topic for additional information.
-    - EM IP Address/Name – Displays the IP address of the machine where Enterprise Manager is
-      installed
-    - Port – Displays the port the Enterprise Manager uses to communicate with the Agent
+  - Installation Location – Select the radio button to indicate the installation directory on the
+    target domain controllers
+    - Default – Uses the default installation directory
+    - Textbox – Enter the desired installation location, e.g. d:\myagent
+  - Safe Mode – If selected, the Agent checks LSASS versions on start up. Any changes in LSASS
+    since the previous start prevents the Windows AD Events monitoring module from loading. See
+    the
+    [Agent Safe Mode](/docs/threatprevention/7.4/admin/agents/safemode.md)
+    topic for additional information.
+  - EM IP Address/Name – Displays the IP address of the machine where Enterprise Manager is
+    installed
+  - Port – Displays the port the Enterprise Manager uses to communicate with the Agent
 
 **Step 3 –** Click **Apply** to enable the auto deploy feature. When domain controllers are
 discovered where the Agent is not already installed, Threat Prevention automatically deploys the

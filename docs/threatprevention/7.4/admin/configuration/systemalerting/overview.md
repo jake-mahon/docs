@@ -81,10 +81,10 @@ Below are some considerations:
   Prevention administrator should check if the Agent service is set to manual start. The most likely
   solution is to upgrade to the latest version of the Agent.
 
-    **_RECOMMENDED:_** Activate an email notification for the _LSASS process terminated_ alert. See
-    the
-    [Enable the 'LSASS Process Terminated' Email Alert](/docs/threatprevention/7.4/troubleshooting/lsass.md#enable-the-lsass-process-terminated-email-alert)
-    topic for additional information.
+  **_RECOMMENDED:_** Activate an email notification for the _LSASS process terminated_ alert. See
+  the
+  [Enable the 'LSASS Process Terminated' Email Alert](/docs/threatprevention/7.4/troubleshooting/lsass.md#enable-the-lsass-process-terminated-email-alert)
+  topic for additional information.
 
 - In addition to the LSASS process termination check, the Agent can be configured for a Safe Mode.
   In Safe Mode, the Agent records the version of the LSASS DLLs that it hooks into during
@@ -97,8 +97,8 @@ Below are some considerations:
   [Start Pending Modules](/docs/threatprevention/7.4/admin/agents/management/startpendingmodules.md)
   topic for additional information.
 
-    **_RECOMMENDED:_** Activate an email notification for this alert. See the
-    [Enable Agent Started in AD Monitor Pending Mode Email Alert](/docs/threatprevention/7.4/admin/agents/safemode.md#enable-agent-started-in-ad-monitor-pending-mode-email-alert)
-    topic and the
-    [Agent Safe Mode](/docs/threatprevention/7.4/admin/agents/safemode.md)
-    topic for additional information.
+  **_RECOMMENDED:_** Activate an email notification for this alert. See the
+  [Enable Agent Started in AD Monitor Pending Mode Email Alert](/docs/threatprevention/7.4/admin/agents/safemode.md#enable-agent-started-in-ad-monitor-pending-mode-email-alert)
+  topic and the
+  [Agent Safe Mode](/docs/threatprevention/7.4/admin/agents/safemode.md)
+  topic for additional information.

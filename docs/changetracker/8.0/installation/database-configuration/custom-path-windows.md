@@ -1,3 +1,7 @@
+title: Database Custom Path Windows
+sidebar_label: Custom Path Windows
+description: Configure custom database location and smallfiles operation for ChangeTracker on Windows systems with database path modification procedures.
+
 # Windows
 
 To change the DB location or to switch to ‘smallfiles’ operation, do the following:

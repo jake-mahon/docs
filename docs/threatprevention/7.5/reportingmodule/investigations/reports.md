@@ -41,14 +41,14 @@ The table displays the following data:
   name is in sAMAccountName format. Click the link to view perpetrator details.
 - Successful – Indicates whether the action associated with the event was successfully completed:
 
-    - True – The operation was successful
-    - False – The operation failed
+  - True – The operation was successful
+  - False – The operation failed
 
 - Blocked – Indicates whether the operation was prevented by a security measure, such as a Netwrix
   agent:
 
-    - True – The operation was blocked
-    - False – The operation was not blocked
+  - True – The operation was blocked
+  - False – The operation was not blocked
 
 - Operation – The type of activity performed
 - Client – The name of the system or entity that initiates an action or request towards a server or

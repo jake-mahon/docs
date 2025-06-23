@@ -28,18 +28,18 @@ of the following methods:
 
 - AD Perpetrator filter
 
-    - Use this filter for a dynamic list of domain controllers
-    - Set the filter to "Allow"
-    - Add the Users OU > Domain Controllers group
-    - Add any other groups containing domain controllers. It triggers an error message reminding the
-      user that only domain controllers should be allowed.
-    - Any domain controller not included in these groups are blocked from syncing/replication
+  - Use this filter for a dynamic list of domain controllers
+  - Set the filter to "Allow"
+  - Add the Users OU > Domain Controllers group
+  - Add any other groups containing domain controllers. It triggers an error message reminding the
+    user that only domain controllers should be allowed.
+  - Any domain controller not included in these groups are blocked from syncing/replication
 
 - Domains/Servers filter
 
-    - Use this filter for a static list of domain controllers
-    - Add domain controllers to the Exclude list
-    - Any domain controller not excluded is blocked from syncing/replication
+  - Use this filter for a static list of domain controllers
+  - Add domain controllers to the Exclude list
+  - Any domain controller not excluded is blocked from syncing/replication
 
 **CAUTION:** Not allowing ALL domain controllers to sync has negative impacts on Active Directory.
 
@@ -92,12 +92,12 @@ The Permissions filter has two sections:
   specified or has any of the permissions specified.
 - Permissions – Permission level associated with the replication request:
 
-    - Replicate Directory Changes – Base permission and is required to use RPC and LDAP DIRSYNC
-      replication mechanisms
-    - Replicate Directory Changes All – Permission required for replication of credentials and
-      secret data
-    - Replicate Directory Changes in Filtered Set – Replicates attributes protected by filtered
-      attribute sets (FAS). Read-only Domain Controllers (RODCs) should not have this permission.
+  - Replicate Directory Changes – Base permission and is required to use RPC and LDAP DIRSYNC
+    replication mechanisms
+  - Replicate Directory Changes All – Permission required for replication of credentials and
+    secret data
+  - Replicate Directory Changes in Filtered Set – Replicates attributes protected by filtered
+    attribute sets (FAS). Read-only Domain Controllers (RODCs) should not have this permission.
 
 ## Domains/Servers Filter
 

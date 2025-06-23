@@ -1,9 +1,5 @@
 # Using Password Reset
 
-Using Password Reset
-
-# Using Password Reset
-
 Netwrix Password Policy Enforcer is a web application. Users can access it from a web browser, or
 from the Password Reset Client. The default URL for the Web Interface
 is:` http://[server]/pwreset/`  

@@ -1,5 +1,6 @@
 // @ts-check
 import { themes as prismThemes } from 'prism-react-renderer';
+import { generateNavbarDropdowns } from './src/config/products.js';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
@@ -83,6 +84,8 @@ const config = {
         href: '/',
       },
       items: [
+        // Generate category dropdowns from centralized product configuration
+        ...generateNavbarDropdowns(),
         {
           href: 'https://community.netwrix.com',
           label: 'Community',

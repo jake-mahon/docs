@@ -42,9 +42,9 @@ right-click to open this menu.
 
 It contains the following options:
 
-| Right-Click Command  | Description                                                                                                                                                                                                      |
-| -------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Enable (grayed-out)  | [Does not apply to templates]                                                                                                                                                                                    |
-| Disable (grayed-out) | [Does not apply to templates]                                                                                                                                                                                    |
+| Right-Click Command  | Description                                                                                                                                                                           |
+| -------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Enable (grayed-out)  | [Does not apply to templates]                                                                                                                                                         |
+| Disable (grayed-out) | [Does not apply to templates]                                                                                                                                                         |
 | Export               | Exports the selected template’s configuration to an XML file through the [Export Policies and Templates Window](/docs/threatprevention/7.4/admin/policies/exportpoliciestemplates.md) |
-| Remove               | Deletes the selected template                                                                                                                                                                                    |
+| Remove               | Deletes the selected template                                                                                                                                                         |

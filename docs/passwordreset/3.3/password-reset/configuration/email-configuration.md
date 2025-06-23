@@ -1,9 +1,5 @@
 # E-mail Tab
 
-E-mail Tab
-
-# E-mail Tab
-
 Use the **E-mail** tab to configure how e-mail is sent to users, when it is sent, and also to edit
 the e-mail templates.
 

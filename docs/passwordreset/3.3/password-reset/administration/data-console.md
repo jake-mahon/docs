@@ -1,9 +1,5 @@
 # Using the Data Console
 
-Using the Data Console
-
-# Using the Data Console
-
 The Data Console allows you to view and export data collected by Password Reset. Click **Start** >
 **Netwrix Password Reset** > **NPR Data Console** to open the console.
 

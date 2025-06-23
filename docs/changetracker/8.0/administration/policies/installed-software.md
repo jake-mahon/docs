@@ -1,3 +1,7 @@
+title: Policy Templates Installed Software
+sidebar_label: Installed Software
+description: Track software installations and Windows updates on ChangeTracker devices for compliance, security, and configuration management perspectives.
+
 # Policy Templates: Installed Software and Updates
 
 **NOTE:** This template applicable to Windows OS only.

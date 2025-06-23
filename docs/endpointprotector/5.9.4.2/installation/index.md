@@ -1,9 +1,3 @@
----
-title: Installation and Deployment Overview
-sidebar_label: Deployments
-description: Comprehensive deployment guide covering physical appliances, virtual environments, cloud platforms, and management system integration.
----
-
 # Deployments
 
 This documentation provides comprehensive guidance on deploying Endpoint Protector across various

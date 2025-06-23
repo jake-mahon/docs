@@ -1,3 +1,7 @@
+title: Database Custom Path Linux
+sidebar_label: Custom Path Linux
+description: Configure custom database path for ChangeTracker on Linux systems by modifying the default /var/lib/mongo location with proper setup procedures.
+
 # Linux
 
 By default the Netwrix Change Tracker database resides on the /var/lib/mongo path. A typical

@@ -1,3 +1,7 @@
+title: API Integration Overview
+sidebar_label: Overview
+description: Use ChangeTracker API for multiple instance management across regions with centralized monitoring and data aggregation capabilities.
+
 # API
 
 Customers who run multiple instances of Netwrix Change Tracker in multiple regions can use the API

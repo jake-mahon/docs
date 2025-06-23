@@ -1,9 +1,5 @@
 # Similarity Rule
 
-Similarity Rule
-
-# Similarity Rule
-
 The Similarity rule rejects passwords that are similar to a user's current password. Password
 similarity may indicate that a user is serializing their passwords. For example, "password1",
 "password2", "password3". Password serialization allows an attacker to guess the new password.

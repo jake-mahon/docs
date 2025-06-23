@@ -48,16 +48,16 @@ being locked down.
 - In the Block These Protocols section, check the **All** box to include all protocols or select
   specific protocols::
 
-    - Kerberos (TGT and/or TGS)
-    - NTLM
+  - Kerberos (TGT and/or TGS)
+  - NTLM
 
-    **CAUTION:** Saving all TGT and/or TGS authentication data results in the bloating of the Threat
-    Prevention database. Configure policy filters and use Database Maintenance while monitoring
-    these protocols to retain data for the necessary timeframe. See the
-    [Database Maintenance Window](/docs/threatprevention/7.5/admin/configuration/databasemaintenance/overview.md) topic for
-    additional information.
+  **CAUTION:** Saving all TGT and/or TGS authentication data results in the bloating of the Threat
+  Prevention database. Configure policy filters and use Database Maintenance while monitoring
+  these protocols to retain data for the necessary timeframe. See the
+  [Database Maintenance Window](/docs/threatprevention/7.5/admin/configuration/databasemaintenance/overview.md) topic for
+  additional information.
 
-    **_RECOMMENDED:_** Save only a few days' worth of TGT and TGS data at a time.
+  **_RECOMMENDED:_** Save only a few days' worth of TGT and TGS data at a time.
 
 - The Login Type options apply only to domain controllers. Use them to scope for **All** login types
   or only **Local** or **Remote** logins to the selected domain controllers.

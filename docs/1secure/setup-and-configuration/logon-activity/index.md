@@ -14,17 +14,6 @@ required:
   [Configure Non-Administrative Account to Collect Logon Activity ](/docs/1secure/setup-and-configuration/logon-activity/non-domain-admin.md)for more
   information;
 
----
-
-id: configure-infrastructure-for-monitoring-logon-activity
-title: "Configure Infrastructure for Monitoring Logon Activity"
-pagination_label: "Configure Infrastructure for Monitoring Logon Activity"
-sidebar_label: "Configure Infrastructure for Monitoring Logon Activity"
-sidebar_position: 120
-description: "Learn how to configure your IT infrastructure for monitoring Logon Activity using automatic or manual methods."
-
----
-
 # Configure Infrastructure for Monitoring Logon Activity
 
 You can configure your IT infrastructure for monitoring Logon Activity in one of the following ways:

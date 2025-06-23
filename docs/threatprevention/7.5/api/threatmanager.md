@@ -28,7 +28,7 @@ There are three methods available for data output:
   [Netwrix Activity Monitor Documentation](https://helpcenter.netwrix.com/category/activitymonitor)
   for additional information.
 
-    _Remember,_ the port number for Activity Monitor is 4499.
+  _Remember,_ the port number for Activity Monitor is 4499.
 
 The following parameters are required:
 
@@ -75,13 +75,13 @@ Honey Token threat.
 The following parameters are required:
 
 - Enable [Bool]
-    - 1 to enable
-    - 0 to disable
+  - 1 to enable
+  - 0 to disable
 - ReplacementSamAccountName
 - SourceSamAccountName
 - SubstitutionType
-    - 1 for exact match
-    - 2 for a substring
+  - 1 for exact match
+  - 2 for a substring
 
 Example of LDAP Deception parameters:
 

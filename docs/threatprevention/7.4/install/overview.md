@@ -23,8 +23,8 @@ The following components are installed by the Threat Prevention installation pac
   if it is not detected
 - Enterprise Manager
 
-    - Creates the NVMonitorConfig and NVMonitorData databases on the designated SQL Server
-    - Installs the Threat Prevention Enterprise Manager service
+  - Creates the NVMonitorConfig and NVMonitorData databases on the designated SQL Server
+  - Installs the Threat Prevention Enterprise Manager service
 
 - Administration Console – Installs the user application for administering the Threat Prevention
   application

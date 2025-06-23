@@ -1,3 +1,7 @@
+title: Baseline Policy Rule Options
+sidebar_label: Policy Rules
+description: Configure baseline policy rule creation options in ChangeTracker with various rule settings and configuration parameters for monitoring policies.
+
 # Baseline Policy Rule Options: Rule Creation Options
 
 ![baselineeditrulecreationoptions](/img/versioned_docs/changetracker_8.0/changetracker/baseline/baselineeditrulecreationoptions.webp)

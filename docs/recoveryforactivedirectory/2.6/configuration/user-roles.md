@@ -1,3 +1,7 @@
+title: Users and Roles Management
+sidebar_label: Users & Roles
+description: Manage user accounts and role assignments for Recovery for Active Directory including administrator and user access configuration.
+
 # Users and Roles Page
 
 The Users and Roles page displays the accounts with access to Recovery for Active Directory.

@@ -1,9 +1,3 @@
----
-title: Group Policy Management Console Guide
-sidebar_label: Advanced Settings
-description: Use Group Policy Management Console for advanced Active Directory configuration and management across enterprise environments.
----
-
 # Group Policy Management Console
 
 Group Policy Management Console is an administrative tool for managing Group Policy across the
@@ -32,17 +26,6 @@ Follow the steps to install GPMC on Windows 8.1 and Windows 10.
 3. Navigate to **Remote Server Administration Tools** > **Feature Administration Tools** and select
    **Group Policy Management Tools**.
 
----
-
-id: protocols-and-ports-required-for-monitoring-active-directory-exchange-and-group-policy
-title: "Protocols and Ports Required for Monitoring Active Directory, Exchange, and Group Policy"
-pagination_label: "Protocols and Ports Required for Monitoring Active Directory, Exchange, and Group Policy"
-sidebar_label: "Protocols and Ports Required for Monitoring Active Directory, Exchange, and Group Policy"
-sidebar_position: 109
-description: "Review the complete list of protocols and ports required for monitoring Active Directory, Exchange, and Group Policy."
-
----
-
 # Protocols and Ports Required for Monitoring Active Directory, Exchange, and Group Policy
 
 Review a full list of protocols and ports required for monitoring Active Directory, Exchange, and
@@ -70,17 +53,6 @@ Tip for reading the table: For example, on the computer where Netwrix Auditor Se
 | 53                                 | UDP      | Netwrix Cloud Agent | Domain controllers | DNS Client                                                                                                                        |
 | 135 and dynamic range: 1024 -65535 | TCP      | Netwrix Cloud Agent | Exchange Server    | - Windows Management Instrumentation - Retrieve Exchange Server configuration settings\* - Run gpupdate /force \* gpupdate /force |
 | 5985 5986                          | TCP      | Netwrix Cloud Agent | Exchange Server    | - Windows Remote Management - PowerShell connections: - 5985 - for HTTP - 5986 - for HTTPS                                        |
-
----
-
-id: enable-secondary-logon-service
-title: "Enable Secondary Logon Service"
-pagination_label: "Enable Secondary Logon Service"
-sidebar_label: "Enable Secondary Logon Service"
-sidebar_position: 110
-description: "Learn how to enable the Secondary Logon service on the computer where Netwrix Cloud Agent resides."
-
----
 
 # Enable Secondary Logon Service
 

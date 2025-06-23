@@ -1,9 +1,3 @@
----
-title: NetApp Data ONTAP Configuration
-sidebar_label: NetApp
-description: Configure NetApp monitoring using encrypted RPC, ONTAP-API, and FPolicy for comprehensive file system event tracking in 7-Mode and Cluster-Mode.
----
-
 # NetApp Data ONTAP 7-Mode Activity Auditing Configuration
 
 The Activity Monitor agent employed to monitor NetApp leverages 128-bit encrypted Remote Procedure

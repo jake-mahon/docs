@@ -1,9 +1,3 @@
----
-title: Administration Overview
-sidebar_label: Administration
-description: Overview of Enterprise Auditor administration including data collectors, analysis modules, action modules, and reporting capabilities.
----
-
 # Administration
 
 The Enterprise Auditor application is the power behind the solutions. It has the automation,

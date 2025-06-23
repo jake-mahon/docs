@@ -45,23 +45,23 @@ Configure the following settings for a RADIUS provider on the Configuration tab
 - Custom Name Format – This field appears when the Custom User Name Format Type is selected. It has
   a unique syntax as follows:
 
-    - Active Directory Attribute: `{attributename}`
+  - Active Directory Attribute: `{attributename}`
 
-        - Example – `{firstname}_{lastname}`
+    - Example – `{firstname}_{lastname}`
 
-    - First Character(s) of an Active Directory Attribute: `{3:AttributeName}` – Where "3" is the
-      number of characters to select
+  - First Character(s) of an Active Directory Attribute: `{3:AttributeName}` – Where "3" is the
+    number of characters to select
 
-        - Example – `{1:firstname}_{lastname}`
+    - Example – `{1:firstname}_{lastname}`
 
-    - Last Character(s) of an Active Directory Attribute: `{AttributeName:3}` – Where "3" is the
-      number of characters to select
+  - Last Character(s) of an Active Directory Attribute: `{AttributeName:3}` – Where "3" is the
+    number of characters to select
 
-        - Example – `{firstname}_{telephoneNumber:4}`
+    - Example – `{firstname}_{telephoneNumber:4}`
 
-    - Text values can be hard coded to send a static text value for each user:
+  - Text values can be hard coded to send a static text value for each user:
 
-        - Example – `MyCompany_{lastname}`
+    - Example – `MyCompany_{lastname}`
 
 - Max Retries – The maximum number of times to attempt reconnecting to the RADIUS proxy if unable to
   connect
@@ -114,13 +114,13 @@ The table displays the following information:
 - Authentication Type – Type of MFA authentication assigned to the user or group
 - Action – This column has the following icons for conducting actions on the user or group:
 
-    - Edit icon – Allows you to edit the columns in the selected row by enabling drop-down menus.
-      The edit icon changes to a save icon while in edit mode.
-    - Trash icon – Opens a Warning window to confirm the action of deleting the user or group.
-      Removing a user or group removes console access for it.
-    - Reset MFA button – Forces the user or every user in the group to reconfigure MFA on the next
-      login. This option is only available if an MFA authentication type is applied to the user or
-      group.
+  - Edit icon – Allows you to edit the columns in the selected row by enabling drop-down menus.
+    The edit icon changes to a save icon while in edit mode.
+  - Trash icon – Opens a Warning window to confirm the action of deleting the user or group.
+    Removing a user or group removes console access for it.
+  - Reset MFA button – Forces the user or every user in the group to reconfigure MFA on the next
+    login. This option is only available if an MFA authentication type is applied to the user or
+    group.
 
 See the
 [User Access Page](/docs/threatprevention/7.4/reportingmodule/configuration/systemsettings/useraccess.md)

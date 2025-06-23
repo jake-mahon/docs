@@ -1,9 +1,3 @@
----
-title: Application Settings
-sidebar_label: Application
-description: Configure general Enterprise Auditor console settings including application logging levels and console functionality options.
----
-
 # Application
 
 The **Application** node is for configuring general settings which affect the way the Enterprise

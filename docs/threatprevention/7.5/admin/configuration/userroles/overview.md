@@ -54,13 +54,13 @@ NVMonitorConfig and NVMonitorData databases, according to the assigned role:
 
 - Administrator Role
 
-    - Read/Write data
-    - If using [Database Maintenance Window](/docs/threatprevention/7.5/admin/configuration/databasemaintenance/overview.md) – SQL Admin (sa)
-      rights are required
+  - Read/Write data
+  - If using [Database Maintenance Window](/docs/threatprevention/7.5/admin/configuration/databasemaintenance/overview.md) – SQL Admin (sa)
+    rights are required
 
 - Console Operator Role
 
-    - Read/Write data
+  - Read/Write data
 
 ## Administrator Permissions
 

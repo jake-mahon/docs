@@ -22,8 +22,8 @@ window.
 - Description – Provide a clear and detailed description for this .NET Script action. This is
   optional but recommended.
 - Select the radio button for the script language being used:
-    - Visual Basic
-    - C#
+  - Visual Basic
+  - C#
 - Click **Edit…** to open the Threat Prevention Script Editor window and provide the script
 
 ![Script Editor for .Net Scripts](/img/product_docs/threatprevention/threatprevention/admin/policies/actions/scripteditorfornet.webp)

@@ -1,3 +1,7 @@
+title: Agent First Run Configuration
+sidebar_label: Silent Installation
+description: Configure ChangeTracker Gen 7 Agent first run with local UI for troubleshooting and operational visibility during silent installation processes.
+
 # Agent First Run
 
 A local UI for the **Gen 7 Agent** provides visibility of operation for troubleshooting purposes. It

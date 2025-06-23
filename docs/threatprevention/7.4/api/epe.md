@@ -26,9 +26,9 @@ The following parameters are required:
 
 - Server – Domain controller with the Threat Prevention Agent that will be used to check the
   password value. Supply the server in one of the following formats:
-    - Domain\ServerName
-    - ServerName
-    - IP Address
+  - Domain\ServerName
+  - ServerName
+  - IP Address
 - User – The user account testing the password
 - Password – Password value to be validated
 

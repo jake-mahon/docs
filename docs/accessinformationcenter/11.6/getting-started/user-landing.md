@@ -1,9 +1,3 @@
----
-title: User Landing Page
-sidebar_label: User Landing
-description: Role-based access controls and user interfaces for Administrator, Security Team, Owner, and Viewer roles with different landing page experiences.
----
-
 # User Landing Page
 
 Role based access controls what interfaces users can see and where each user is directed upon login.

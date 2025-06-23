@@ -1,3 +1,7 @@
+title: Settings Tab Overview
+sidebar_label: Overview
+description: Configure administrative and user settings in ChangeTracker through the Settings tab with various configuration options and management tools.
+
 # Settings Tab
 
 Configuration of all administrative and user settings is performed here. Select one of the tabs on

@@ -1,9 +1,3 @@
----
-title: Installation Guide
-sidebar_label: Install
-description: Step-by-step installation guide for Access Information Center including setup wizard walkthrough, database configuration, and service account setup.
----
-
 # Install the Access Information Center
 
 Once the prerequisites have been met, follow the steps to install the Access Information Center.

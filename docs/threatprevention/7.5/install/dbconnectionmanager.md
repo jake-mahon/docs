@@ -29,7 +29,7 @@ Connection Manager wizard.
   ellipsis (...) to locate the configuration file if it is not available at the default location.
   The default location is:
 
-    ...\Netwrix\Netwrix Threat Prevention\SIEnterpriseManager\SIEnterpriseManager.exe.config
+  ...\Netwrix\Netwrix Threat Prevention\SIEnterpriseManager\SIEnterpriseManager.exe.config
 
 The Database Connection Manager application generates a new connection string to either the
 NVMonitorConfig/NVMonitorData database or the Archive database. To update either of these strings,
@@ -38,29 +38,29 @@ Database Connection Settings, before clicking the Update button, which generates
 string for that database.
 
 - SQL Connection Settings:
-    - Server Name – Current SQL Server
-    - Port – Port number for access to the SQL Server
-    - Windows Authentication – By default, SQL Server authentication is used to connect to the SQL
-      Server that hosts the database. Select this checkbox to use Windows authentication instead.
-    - SQL Server Account/Windows Account – This label depends on whether you select the Windows
-      Authentication checkbox or not. Provide the username for the account that has the necessary
-      credentials to access the SQL Server
-    - Password – Password of the account
+  - Server Name – Current SQL Server
+  - Port – Port number for access to the SQL Server
+  - Windows Authentication – By default, SQL Server authentication is used to connect to the SQL
+    Server that hosts the database. Select this checkbox to use Windows authentication instead.
+  - SQL Server Account/Windows Account – This label depends on whether you select the Windows
+    Authentication checkbox or not. Provide the username for the account that has the necessary
+    credentials to access the SQL Server
+  - Password – Password of the account
 - Archive DB Connection Settings:
 
-    - Update Archiving Connection Settings – The settings in this section will apply if this
-      checkbox is selected
-        - Archive Server Name – The SQL Server where the Archive database resides
-        - Port – Port number for access to the Archive database
-        - Archive Database – Name of the Archive database
-    - Windows Authentication – By default, SQL Server authentication is used to connect to the SQL
-      Server that hosts the database. Select this checkbox to use Windows authentication instead.
+  - Update Archiving Connection Settings – The settings in this section will apply if this
+    checkbox is selected
+    - Archive Server Name – The SQL Server where the Archive database resides
+    - Port – Port number for access to the Archive database
+    - Archive Database – Name of the Archive database
+  - Windows Authentication – By default, SQL Server authentication is used to connect to the SQL
+    Server that hosts the database. Select this checkbox to use Windows authentication instead.
 
-        On selecting this checkbox, the SQL Server Account and Password boxes get disabled.
+    On selecting this checkbox, the SQL Server Account and Password boxes get disabled.
 
-    - SQL Server Account – Username for the account that has the necessary credentials to access the
-      SQL Server
-    - Password – Password of the account
+  - SQL Server Account – Username for the account that has the necessary credentials to access the
+    SQL Server
+  - Password – Password of the account
 
 **Step 4 –** The system verifies the new connection string data for the desired SQL server. The
 **Ignore Errors** checkbox controls the behavior when the system encounters an error when attempting

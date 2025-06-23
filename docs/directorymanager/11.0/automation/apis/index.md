@@ -1,9 +1,3 @@
----
-title: Directory Manager APIs Reference
-sidebar_label: APIs
-description: Comprehensive API reference for Directory Manager including authentication, common errors, and integration guides for user and group management.
----
-
 # Common Errors
 
 This section lists the errors common to all APIs. For errors specific to an API, see the topic for

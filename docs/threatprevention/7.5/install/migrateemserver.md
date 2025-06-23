@@ -29,19 +29,19 @@ Then, follow these steps to migrate the “secret.dpapi” file (do not copy).
 
 1. On the original Enterprise Manager machine: “SecretMgr.exe –e myOutFile”
 
-    SecretMgr.exe is located in the installation folder of the Enterprise Manager and you can run it
-    from Command Prompt. "myOutFile" is an example of a user supplied name for the file created by
-    SecretMgr.exe.
+   SecretMgr.exe is located in the installation folder of the Enterprise Manager and you can run it
+   from Command Prompt. "myOutFile" is an example of a user supplied name for the file created by
+   SecretMgr.exe.
 
-    By default, "myOutFile" is created at `C:\Windows\SysWOW64`.
+   By default, "myOutFile" is created at `C:\Windows\SysWOW64`.
 
-    **NOTE:** SecretMgr.exe knows to look for the `\certsinfo\Secret.dpapi` folder and file.
+   **NOTE:** SecretMgr.exe knows to look for the `\certsinfo\Secret.dpapi` folder and file.
 
 2. Manually copy “myOutFile” on the new Enterprise Manager machine in a secure way.
 3. On the new Enterprise Manager machine: “SecretMgr.exe –i myOutFile”
 
-    SecretMgr.exe is located in the installation folder of the Enterprise Manager and you can run it
-    from Command Prompt. Use it to import "myOutFile".
+   SecretMgr.exe is located in the installation folder of the Enterprise Manager and you can run it
+   from Command Prompt. Use it to import "myOutFile".
 
 **Step 3 –** Start the Threat Prevention Enterprise Manager service on the new machine.
 
@@ -52,7 +52,7 @@ follow these steps to update the Enterprise Manager info for each Agent.
 2. Right-click an Agent in the grid and select **Update Agent Settings**. You can also select
    multiple Agents and right-click to select the Update Agent Settings option for them.
 
-    The Select Computers window opens. Click **Next**.
+   The Select Computers window opens. Click **Next**.
 
 3. On the Set Options window, enter the IP address/name of the new Enterprise Manager in the IP
    Address/Name field and click **Next**.

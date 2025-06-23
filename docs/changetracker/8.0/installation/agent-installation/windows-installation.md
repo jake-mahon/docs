@@ -1,3 +1,7 @@
+title: Installing Gen 7 Agent Windows
+sidebar_label: Windows Installation
+description: Install ChangeTracker Gen 7 Agent on Windows systems with Hub API configuration and access credentials setup for monitoring services.
+
 # Installing Gen 7 Agent for Windows
 
 The **Hub API** page must be entered together with **Access Credentials**.

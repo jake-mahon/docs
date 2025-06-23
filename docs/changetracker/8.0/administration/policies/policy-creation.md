@@ -1,3 +1,7 @@
+title: Create Configuration Monitoring Policy
+sidebar_label: Policy Creation
+description: Create and edit ChangeTracker configuration monitoring policies with device templates, groups, and tracking settings for comprehensive monitoring.
+
 # Create/Edit a Configuration Monitoring Policy
 
 A **Configuration Monitoring Policy** template comprises a wide range of attributes that can be

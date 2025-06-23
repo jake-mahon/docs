@@ -64,8 +64,8 @@ not blocked by the network.
 
 - Source Type – Enter one of the following options:
 
-    - For data coming from Threat Prevention – Threat Prevention
-    - For data coming from the Netwrix File Activity Monitor – **SFAM**
+  - For data coming from Threat Prevention – Threat Prevention
+  - For data coming from the Netwrix File Activity Monitor – **SFAM**
 
 - App context – Select Search and Reporting
 - Host – Select IP

@@ -1,9 +1,5 @@
 # Evaluate Password Policy Enforcer
 
-Evaluate Password Policy Enforcer
-
-# Evaluate Password Policy Enforcer
-
 Netwrix Password Policy Enforcer is an advanced password filter for Windows. Use this guide to
 quickly install, configure, and test an evaluation version of Password Policy Enforcer. Netwrix
 Password Policy Enforcer helps secure your network by ensuring users set strong passwords. When a

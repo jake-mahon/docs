@@ -1,3 +1,7 @@
+title: Device Management Overview
+sidebar_label: Overview
+description: Monitor device details, group membership, planned changes, and compliance reports from the ChangeTracker Devices tab with comprehensive activity metrics.
+
 # Device Tab
 
 The **Device** page provides a full summary of device details, groups membership, planned changes

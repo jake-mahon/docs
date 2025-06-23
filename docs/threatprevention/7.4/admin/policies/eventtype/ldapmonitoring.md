@@ -43,20 +43,20 @@ available for the event type:
 - LDAP Search – Use the LDAP Search operation to search for and identify activity that does not
   conform to your security configurations
 
-    - This option displays additional filters for Secure configurations and Search scopes. See the
-      [LDAP Search Operations Use Case](/docs/threatprevention/7.4/admin/policies/eventtype/usecase/ldapsearch.md)
-      topic for additional information.
+  - This option displays additional filters for Secure configurations and Search scopes. See the
+    [LDAP Search Operations Use Case](/docs/threatprevention/7.4/admin/policies/eventtype/usecase/ldapsearch.md)
+    topic for additional information.
 
 - LDAP Ping – LDAP Ping is a Microsoft Active Directory specific Lightweight Directory Access
   Protocol (LDAP) or Connection-less Lightweight Directory Access Protocol (CLDAP) search that
   returns information about whether services are live on a domain controller
 
-    - See the
-      [LDAP Ping Operations Use Case](/docs/threatprevention/7.4/admin/policies/eventtype/usecase/ldapping.md)
-      topic for additional information.
+  - See the
+    [LDAP Ping Operations Use Case](/docs/threatprevention/7.4/admin/policies/eventtype/usecase/ldapping.md)
+    topic for additional information.
 
-    When LDAP Ping is selected, the Secure Configurations and Search scopes sections are not
-    displayed.
+  When LDAP Ping is selected, the Secure Configurations and Search scopes sections are not
+  displayed.
 
 ## LDAP Runtime Filter
 
@@ -81,9 +81,9 @@ Check the desired options and set the range for the LDAP event collection thresh
 - Filter out queries with runtime less than N ms – This option discards any LDAP queries that
   execute in less time than the specified value
 
-    - It is evaluated before and independent of any other event filters
-    - It is implemented inside the Agent instrumentation layer (LSASS). It is more efficient than
-      the other LDAP Query Runtime options, which are implemented in the Agent Service.
+  - It is evaluated before and independent of any other event filters
+  - It is implemented inside the Agent instrumentation layer (LSASS). It is more efficient than
+    the other LDAP Query Runtime options, which are implemented in the Agent Service.
 
 ## Domains/Servers Filter
 

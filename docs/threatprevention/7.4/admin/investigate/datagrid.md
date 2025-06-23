@@ -50,16 +50,16 @@ event:
   simultaneously.
 - Affected Object: Path – Name of the affected object according to the type of monitoring/blocking
 
-    - Active Directory monitoring/blocking – Active Directory distinguished name for the affected
-      object
-    - Effective Group Membership monitoring – Active Directory distinguished name for the affected
-      group. A double asterisk (\*\*) at the beginning indicates that the path is to the nested
-      group where the actual membership change occurred.
-    - Exchange monitoring/blocking – Name of the affected Exchange mailbox
-    - File System monitoring/blocking – Original path of the affected file or folder
-    - Authenticate – DN of the user object making the request
+  - Active Directory monitoring/blocking – Active Directory distinguished name for the affected
+    object
+  - Effective Group Membership monitoring – Active Directory distinguished name for the affected
+    group. A double asterisk (\*\*) at the beginning indicates that the path is to the nested
+    group where the actual membership change occurred.
+  - Exchange monitoring/blocking – Name of the affected Exchange mailbox
+  - File System monitoring/blocking – Original path of the affected file or folder
+  - Authenticate – DN of the user object making the request
 
-    **NOTE:** For LDAP bind/monitoring/blocking, Affected Object Path is not used
+  **NOTE:** For LDAP bind/monitoring/blocking, Affected Object Path is not used
 
 - Agent: Domain – Active Directory domain where the Agent that monitored/blocked the event is
   deployed
@@ -73,8 +73,8 @@ event:
 - Perpetrator: Access URL – Raw data, the combination of the protocol, IP address, and the Port used
   as part of the event
 
-    - LSASS Guardian monitoring/blocking – Process name that is modifying or attempting to modify
-      LSASS
+  - LSASS Guardian monitoring/blocking – Process name that is modifying or attempting to modify
+    LSASS
 
 - Event: Success – Indicates the event completed successfully
 - Event: Blocked – Indicates the Agent blocked the event from occurring
@@ -86,14 +86,14 @@ event:
 - Perpetrator: SID – Security Identifier of the account used in the event
 - Perpetrator: Protocol – Protocol used for the monitored operation
 
-    - File System monitoring/blocking – Name of the share where the operation was monitored/blocked.
-      It will be blank if the affected host has an operating system older than Windows Server 2008
-      R2.
+  - File System monitoring/blocking – Name of the share where the operation was monitored/blocked.
+    It will be blank if the affected host has an operating system older than Windows Server 2008
+    R2.
 
 - Perpetrator: IP Address – IP address of the originating host
 
-    - File System monitoring/blocking – It will be blank if the affected host has an operating
-      system older than Windows Server 2008 R2.
+  - File System monitoring/blocking – It will be blank if the affected host has an operating
+    system older than Windows Server 2008 R2.
 
 - Perpetrator: MAC Address – Network adapter identifier
 - Perpetrator: Host – Name of the originating host

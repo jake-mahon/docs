@@ -1,9 +1,3 @@
----
-title: Advanced Workflow Management Settings
-sidebar_label: Approval Workflows
-description: Configure advanced workflow settings including default approvers, acceleration rules, request deletion, and Microsoft Power Automate integration.
----
-
 # Manage Advanced Workflow Settings
 
 You can specify advanced settings for workflow, such as set a default approver for workflow requests

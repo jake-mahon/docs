@@ -1,3 +1,7 @@
+title: Policy Templates Network Port Tracker
+sidebar_label: Network Monitoring
+description: Monitor network port changes using external scanning, NMAP, or local netstat commands to track TCP and UDP ports on ChangeTracker devices.
+
 # Policy Templates: Network Port Tracker
 
 The **Network Port Tracker** is designed to detect track changes to the open network ports on either

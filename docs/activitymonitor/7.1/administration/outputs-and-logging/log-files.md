@@ -1,9 +1,3 @@
----
-title: Activity Monitor Output Types
-sidebar_label: Log Files
-description: Configure file, syslog, and Threat Manager outputs to send activity events to log files, SIEM systems, or Netwrix security products.
----
-
 # Output Types
 
 Once a domain or a host is being monitored the event stream can be sent to multiple outputs. There

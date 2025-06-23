@@ -37,16 +37,16 @@ Select one of the following option buttons:
 - Place in Folders from Which They Were Exported – Imports the policies and templates to the same
   folders as the ones in which they existed at the time of export.
 - Place in Specific Folders – Choose an option button:
-    - Place All in This Single Folder –Select this option and then use the Folder Destination for
-      Policies and/or Folder Destination for Templates box to select a folder for importing the
-      policies and/or templates respectively. All policies from the XML file will be imported to the
-      selected folder while ignoring any folder hierarchy mentioned in the XML file. The same is
-      true for templates.
-    - Maintain Folder Hierarchy from Which They Were Exported – Select this option and then use the
-      Folder Destination for Policies and/or Folder Destination for Templates box to select a folder
-      for importing the policies and/or templates respectively. All policies from the XML file will
-      be imported with the selected folder acting as the parent folder, and any folder hierarchy as
-      it was at the time of export will be re-created. The same is true for templates.
+  - Place All in This Single Folder –Select this option and then use the Folder Destination for
+    Policies and/or Folder Destination for Templates box to select a folder for importing the
+    policies and/or templates respectively. All policies from the XML file will be imported to the
+    selected folder while ignoring any folder hierarchy mentioned in the XML file. The same is
+    true for templates.
+  - Maintain Folder Hierarchy from Which They Were Exported – Select this option and then use the
+    Folder Destination for Policies and/or Folder Destination for Templates box to select a folder
+    for importing the policies and/or templates respectively. All policies from the XML file will
+    be imported with the selected folder acting as the parent folder, and any folder hierarchy as
+    it was at the time of export will be re-created. The same is true for templates.
 
 Use the ellipsis (…) next to the Folder Destination for Policies and/or Folder Destination for
 Templates box to browse for the folder where you want to import the policies and/or templates

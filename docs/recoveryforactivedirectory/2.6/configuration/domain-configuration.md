@@ -1,3 +1,7 @@
+title: Domain Configuration Management
+sidebar_label: Domains
+description: Configure and manage Active Directory domains for backup including schedule settings, domain addition, and backup monitoring capabilities.
+
 # Domains Page
 
 The Domains page provides a list of the domains backed up by Recovery for Active Directory. It

@@ -16,18 +16,18 @@ Some important events Threat Prevention captures are:
 - Non-Owner Mailbox Access Events
 - Access Rights Changes
 
-    - Mailbox
-    - Folder
+  - Mailbox
+  - Folder
 
 - Manipulated Attachments
 - Message Item Level Auditing
 
-    - Creation
-    - Deletion
-    - Modification
-    - Read
-    - Send/Forward
-    - Open
+  - Creation
+  - Deletion
+  - Modification
+  - Read
+  - Send/Forward
+  - Open
 
 ## Exchange Event Types
 

@@ -94,14 +94,7 @@ and search for the line shown below. Change the filename (logo.svg), height (70 
 (116 pixels) to suit your logo.
 
 ```html
-<img
-  class="logo"
-  src="images/logo.svg"
-  height="70"
-  width="116"
-  alt="ANIXIS"
-  onerror="this.style.display='none';"
-/>
+<img class="logo" src="images/logo.svg" height="70" width="116" alt="ANIXIS" onerror="this.style.display='none';" />
 ```
 
 ### Edit Page Instructions

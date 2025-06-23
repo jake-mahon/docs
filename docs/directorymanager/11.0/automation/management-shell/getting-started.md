@@ -1,8 +1,3 @@
----
-title: Getting Started with Management Shell
-sidebar_label: Getting Started
----
-
 # Getting Started with Management Shell
 
 ## All Commands

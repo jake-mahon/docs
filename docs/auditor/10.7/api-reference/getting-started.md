@@ -1,9 +1,3 @@
----
-title: Integration API Ports and Configuration
-sidebar_label: Getting Started
-description: Network ports and protocols required for Netwrix Auditor Integration API connections and add-on configurations.
----
-
 # Integration API Ports
 
 Review a full list of protocols and ports required for add-ons or any queries leveraging Netwrix

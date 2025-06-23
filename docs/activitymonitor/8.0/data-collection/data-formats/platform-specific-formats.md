@@ -355,8 +355,6 @@ JSON log file, along with descriptions.
   "ClientIp": "127.0.0.1",
   "DatabaseName": "AdventureWorksLT2019",
   "SqlText": "\r\n\r\nGRANT ALL ON [SalesLT].[Product] TO [sqluser3]; ",
-  "SqlObjects": [
-    { "t": "U", "db": "AdventureWorksLT2019", "s": "saleslt", "o": "Product", "op": "Grant" }
-  ]
+  "SqlObjects": [{ "t": "U", "db": "AdventureWorksLT2019", "s": "saleslt", "o": "Product", "op": "Grant" }]
 }
 ```

@@ -1,9 +1,3 @@
----
-title: Portal Features and Navigation
-sidebar_label: Features
-description: Comprehensive portal features including directory search, find dialog, portal settings, user account management, and customizable toolbars.
----
-
 # General Portal Features
 
 GroupID Portal encompasses various functionalities available for the users that are:

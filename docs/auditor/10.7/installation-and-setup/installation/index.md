@@ -1,9 +1,3 @@
----
-title: Netwrix Auditor Installation Guide
-sidebar_label: Installation
-description: Step-by-step instructions for installing Netwrix Auditor including standard, silent, and Group Policy deployment scenarios.
----
-
 # Installation
 
 This chapter provides step-by-step instructions on how to install Netwrix Auditor and its

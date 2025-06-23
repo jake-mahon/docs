@@ -1,9 +1,3 @@
----
-title: Getting Started with Endpoint Policy Manager
-sidebar_label: Getting Started
-description: Complete guide to getting started with Netwrix Endpoint Policy Manager. Download, licensing, installation, and setup for Group Policy, Cloud, and MDM deployment methods.
----
-
 # Getting Started
 
 To help get you started, this topic points you towards videos that will get you on the road and

@@ -1,9 +1,3 @@
----
-title: Directory Manager Installation Guide
-sidebar_label: Installation
-description: Step-by-step installation guide for Directory Manager using the Installation Tool with default configuration and license agreement process.
----
-
 # Installation Tool
 
 Installing GroupID is a simple process; it asks you to agree to the license agreement then it

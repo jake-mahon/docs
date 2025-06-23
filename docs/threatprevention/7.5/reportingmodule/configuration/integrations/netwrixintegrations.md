@@ -53,12 +53,12 @@ Add New Integration window opens.
 - Database Host – Enter the database server hostname (NetBIOS name, FQDN, or IP address) with the
   instance name or non-standard port, if applicable, in one of the following formats:
 
-    - No named instance, use `[SQLHostName]`, for example `NT-SQL02`
-    - Named instance, use `[SQLHostName]\[SQLInstanceName]`, for example `NT-SQL02\Netwrix`
-    - No named instance with non-standard port, use `[SQLHostName],[PortNumber]`, for example
-      `NT-SQL02,72`
-    - Named instance with non-standard port, use `[SQLHostName]\[SQLInstanceName],[PortNumber]`, for
-      example `NT-SQL02\Netwrix,72`
+  - No named instance, use `[SQLHostName]`, for example `NT-SQL02`
+  - Named instance, use `[SQLHostName]\[SQLInstanceName]`, for example `NT-SQL02\Netwrix`
+  - No named instance with non-standard port, use `[SQLHostName],[PortNumber]`, for example
+    `NT-SQL02,72`
+  - Named instance with non-standard port, use `[SQLHostName]\[SQLInstanceName],[PortNumber]`, for
+    example `NT-SQL02\Netwrix,72`
 
 - Credential Profile – Select the Credential Profile by name from the drop-down menu. This was
   pre-created in the Credential Profiles page.
@@ -103,11 +103,11 @@ The following information is displayed:
 
 - Name and Description – The box at the top displays the name and description of the integration
 
-    - Edit – The edit button in the upper right corner of the box changes those fields from
-      read-only to editable. See the Edit Integration Name and Description topic for additional
-      information.
-    - Delete – The delete button in the upper right corner of the box opens the Delete Stealthbits
-      Integration window to confirm the action
+  - Edit – The edit button in the upper right corner of the box changes those fields from
+    read-only to editable. See the Edit Integration Name and Description topic for additional
+    information.
+  - Delete – The delete button in the upper right corner of the box opens the Delete Stealthbits
+    Integration window to confirm the action
 
 - Configuration – Displays the settings entered for the selected integration. To modify the
   settings, see the Configuration Tab topic.
@@ -148,12 +148,12 @@ The tab provides the following information:
 - Last Sync – Displays the date timestamp of the last sync
 - Policies – The table displays the following information:
 
-    - Name – The name of the Threat Prevention policy
-    - Enabled – Indicates if the policy is enabled (true) or disabled (false)
-    - Report to Database – Indicates if the policy is sending events to the Threat Prevention SQL
-      database
-    - Deleted – Indicates if the policy is deleted (true) or not deleted (false)
-    - Description – The description of the policy as read from Threat Prevention
+  - Name – The name of the Threat Prevention policy
+  - Enabled – Indicates if the policy is enabled (true) or disabled (false)
+  - Report to Database – Indicates if the policy is sending events to the Threat Prevention SQL
+    database
+  - Deleted – Indicates if the policy is deleted (true) or not deleted (false)
+  - Description – The description of the policy as read from Threat Prevention
 
 ## Edit Integration Name and Description
 

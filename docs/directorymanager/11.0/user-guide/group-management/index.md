@@ -1,9 +1,3 @@
----
-title: Group Management Overview
-sidebar_label: Overview
-description: Manage directory groups including static groups, Smart Groups, and Dynasties with automated membership updates and expiry policies.
----
-
 # Group Management
 
 GroupID portal enables you to manage directory groups, that includes both static groups and Smart

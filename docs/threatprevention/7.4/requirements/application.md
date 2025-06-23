@@ -61,8 +61,8 @@ The following are recommended for the Administration Console server:
   Manager can generate a high volume of SQL activity, which is directly proportional to the volume
   of events the Enterprise Manager receives from all Agents.
 
-    **_RECOMMENDED:_** Install the Threat Prevention Enterprise Manager and Microsoft SQL Server on
-    different machines.
+  **_RECOMMENDED:_** Install the Threat Prevention Enterprise Manager and Microsoft SQL Server on
+  different machines.
 
 Permissions for Installation and Application Use
 
@@ -80,9 +80,9 @@ machines. Consider the following when leveraging virtualization.
 
 - VMWare ESX – If using ESX, the following specifications are recommended:
 
-    - ESX 4.0 / ESXi 4.1 or higher
-    - Virtual hardware 7 or higher
-    - All virtual machines installed on the same datacenter / rack
+  - ESX 4.0 / ESXi 4.1 or higher
+  - Virtual hardware 7 or higher
+  - All virtual machines installed on the same datacenter / rack
 
 - Virtual Storage Consideration – In the server requirements, when separate disks are required for
   the servers, that should translate to separate data stores on the VM host machine.

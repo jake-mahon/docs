@@ -1,9 +1,3 @@
----
-title: Directory Manager 11.0 Overview
-sidebar_label: Overview
-description: Complete guide to Directory Manager 11.0 for streamlining Active Directory and Azure AD group management with automated provisioning and lifecycle control.
----
-
 # Directory Manager 11.0
 
 > **Simplify Active Directory and Azure AD group management**

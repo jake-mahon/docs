@@ -1,3 +1,7 @@
+title: Upgrade from Version 2.5
+sidebar_label: Upgrade
+description: Step-by-step upgrade procedure for Netwrix Recovery for Active Directory from v2.5 to v2.6 with database preservation instructions.
+
 # Upgrade Procedure
 
 This topic describes the steps needed to upgrade Netwrix Recovery for Active Directory from v2.5 to

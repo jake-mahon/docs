@@ -1,3 +1,7 @@
+title: Policy Templates File Integrity
+sidebar_label: File Integrity Monitoring
+description: Configure file system integrity monitoring policies in ChangeTracker for security compliance including PCI DSS with polling frequency and change detection.
+
 # Policy Templates: FIM File Integrity
 
 File System Integrity Monitoring is crucial for security and most Security Policies/Standards e.g.

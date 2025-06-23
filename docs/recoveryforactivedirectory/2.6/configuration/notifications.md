@@ -1,3 +1,7 @@
+title: Email Notifications Configuration
+sidebar_label: Notifications
+description: Configure email notifications for backup job completion and other Recovery for Active Directory events with SMTP settings and templates.
+
 # Notifications Page
 
 The Notifications page allows the configuration of notifications, which is required for sending an

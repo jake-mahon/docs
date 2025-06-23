@@ -20,7 +20,7 @@ installed generates two log files:
 - Log for “SI Agent.exe” – This log file has the smallest size and is a good starting point
 - Log for “SI Agent.msi” x64 version
 
-    **NOTE:** Threat Prevention v7.4 only supports x64 version.
+  **NOTE:** Threat Prevention v7.4 only supports x64 version.
 
 Open the Registry Editor (regedit) to enable Windows Installer logging, and then create or modify
 the following:

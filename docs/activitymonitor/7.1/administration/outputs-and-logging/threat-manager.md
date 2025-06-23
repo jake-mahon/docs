@@ -1,9 +1,3 @@
----
-title: Threat Manager Integration Settings
-sidebar_label: Threat Manager
-description: Configure secure connection between Activity Monitor and Netwrix Threat Manager using App Token authentication for threat detection.
----
-
 # Threat Manager Tab
 
 The Threat Manager tab on an output Properties window is where the connection between Activity

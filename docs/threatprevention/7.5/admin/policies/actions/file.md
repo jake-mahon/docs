@@ -20,25 +20,25 @@ window.
   recommended.
 - File Name – Provide a name for the file. The file extension is added automatically
 
-    - By default, the file is created at the following location:
+  - By default, the file is created at the following location:
 
-    …\Netwrix\Netwrix Threat Prevention\SIEnterpriseManager\output\file
+  …\Netwrix\Netwrix Threat Prevention\SIEnterpriseManager\output\file
 
-    - The name can include a full UNC path to place the file at a desired location.
+  - The name can include a full UNC path to place the file at a desired location.
 
 - Select the radio button for the desired File Output Format:
-    - XML
-    - Comma Delimited (CSV)
+  - XML
+  - Comma Delimited (CSV)
 - Adjust the File Size Limit and Minimum disk space required for reporting values as desired
 
-    **NOTE:** Set thresholds for file event consumers to maximize performance and minimize
-    individual file sizes. When a file reaches its maximum size, it continues to record data but the
-    oldest data in the file is deleted to make room for the newest.
+  **NOTE:** Set thresholds for file event consumers to maximize performance and minimize
+  individual file sizes. When a file reaches its maximum size, it continues to record data but the
+  oldest data in the file is deleted to make room for the newest.
 
-    The default file size settings are the following:
+  The default file size settings are the following:
 
-    - File Size Limit: 5 MB
-    - Minimum disk space required for reporting: 1 MB
+  - File Size Limit: 5 MB
+  - Minimum disk space required for reporting: 1 MB
 
 **Step 4 –** Click **Save** to apply changes and close the Add Action window.
 

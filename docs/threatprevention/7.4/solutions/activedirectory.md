@@ -30,9 +30,9 @@ Some important events Threat Prevention captures are:
 - Active Directory Read Monitoring
 - Authentication (Kerberos & NTLM)
 
-    - Authentication-based Attacks (e.g. Horizontal/Lateral Movement, Brute Force Attacks, User
-      Account Hacking, Breached Passwords, Golden Tickets, and more)
-    - Privileged Account Authentications
+  - Authentication-based Attacks (e.g. Horizontal/Lateral Movement, Brute Force Attacks, User
+    Account Hacking, Breached Passwords, Golden Tickets, and more)
+  - Privileged Account Authentications
 
 ## Active Directory Event Types
 

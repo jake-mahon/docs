@@ -1,9 +1,3 @@
----
-title: Browser Router Management Guide
-sidebar_label: Overview
-description: Comprehensive Browser Router guide. Route specific websites to specific browsers, set IE Enterprise Mode, block sites, and manage multi-browser environments effectively.
----
-
 # Browser Router
 
 **NOTE:** Before reading this section, please ensure you have read

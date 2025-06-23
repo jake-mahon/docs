@@ -1,9 +1,5 @@
 # Installation
 
-Installation
-
-# Installation
-
 Netwrix Password Reset V3.30 is designed to run on Windows 2008 to 2019. Users access Password Reset
 from a web browser, or from the Password Reset console.
 

@@ -1,3 +1,7 @@
+title: RSAT Extension Object Restoration
+sidebar_label: Recovery Operations
+description: Restore deleted Active Directory objects using the RSAT Extension Recycle Bin feature within Active Directory Users and Computers.
+
 # Restore an Object
 
 The Restore feature recovers deleted objects (users, computers, groups, OUs, etc.) from the Recycle

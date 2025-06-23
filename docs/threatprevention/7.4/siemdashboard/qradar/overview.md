@@ -67,12 +67,12 @@ enter the following information, and click Save.
 - Log Source Description – Enter a description of the data source
 - Log Source Type – Enter one of the following options:
 
-    - Threat Prevention
-    - Threat Prevention Alerts
-    - Threat Prevention Analytics
+  - Threat Prevention
+  - Threat Prevention Alerts
+  - Threat Prevention Analytics
 
-        (It is necessary to set up three separate log sources, and each one should use one of these
-        types.)
+    (It is necessary to set up three separate log sources, and each one should use one of these
+    types.)
 
 - Protocol Configuration – Select Syslog
 - Log Source Identifier – Enter the hostname or IP address of the host where Threat Prevention is

@@ -40,13 +40,13 @@ specific operations and permissions:
 
 - Operations:
 
-    - Logons – Scope to Exchange logon events
+  - Logons – Scope to Exchange logon events
 
 - Permissions:
 
-    - All – All listed permission changes
-    - Mailbox Permissions – Scope to mailbox permissions changes
-    - Folder Permissions – Scope to folder permissions changes
+  - All – All listed permission changes
+  - Mailbox Permissions – Scope to mailbox permissions changes
+  - Folder Permissions – Scope to folder permissions changes
 
 Whether these events are blocked or allowed depends on the other filters applied to the policy.
 
@@ -93,24 +93,24 @@ Perpetrators filter relate to each other. They include:
 - Trustee OR Perpetrator Must Be Met – When either the Trustee selection OR the Perpetrator
   selection is met, the filter will be set to true
 
-    - For an Allow example, if this policy is protecting a CEO mailbox, the Trustee list includes
-      Brad Wilson for Allow, and Administrator is included in the Perpetrator Allow list, then Brad
-      Wilson can be added as the mailbox trustee by anyone AND Administrator can add anyone else as
-      the mailbox trustee.
-    - For a Block example, if this policy is protecting a CEO mailbox, the Trustee list includes
-      Larry Dawson for Block, and John Adair is included in the Perpetrator block list, then Larry
-      Dawson cannot be added as the mailbox trustee by anyone AND John Adair cannot add anyone else
-      as the mailbox trustee.
+  - For an Allow example, if this policy is protecting a CEO mailbox, the Trustee list includes
+    Brad Wilson for Allow, and Administrator is included in the Perpetrator Allow list, then Brad
+    Wilson can be added as the mailbox trustee by anyone AND Administrator can add anyone else as
+    the mailbox trustee.
+  - For a Block example, if this policy is protecting a CEO mailbox, the Trustee list includes
+    Larry Dawson for Block, and John Adair is included in the Perpetrator block list, then Larry
+    Dawson cannot be added as the mailbox trustee by anyone AND John Adair cannot add anyone else
+    as the mailbox trustee.
 
 - Trustee AND Perpetrator Must Be Met – Both the Trustee selection AND the Perpetrator selection
   must be met
 
-    - For an Allow example, if this policy is protecting a CEO mailbox, the Trustee list includes
-      Brad Wilson for Allow, the Administrator is included in the Perpetrator allow list, then
-      Administrator can ONLY add Brad Wilson as the mailbox trustee.
-    - For a Block example, if this policy is protecting a CEO mailbox, the Trustee list includes
-      Larry Dawson for Block, the John Adair is included in the Perpetrator Block list, then ONLY
-      John Adair will be blocked from adding Larry Dawson as the mailbox trustee.
+  - For an Allow example, if this policy is protecting a CEO mailbox, the Trustee list includes
+    Brad Wilson for Allow, the Administrator is included in the Perpetrator allow list, then
+    Administrator can ONLY add Brad Wilson as the mailbox trustee.
+  - For a Block example, if this policy is protecting a CEO mailbox, the Trustee list includes
+    Larry Dawson for Block, the John Adair is included in the Perpetrator Block list, then ONLY
+    John Adair will be blocked from adding Larry Dawson as the mailbox trustee.
 
 ## Exchange Perpetrators Filter
 
@@ -135,30 +135,30 @@ The Logged on As radio button options include:
 - AND Perpetrators Must be Met – Both the Logged On As selection AND the Perpetrator must be met
   before the event passes the filter
 
-    - When the Allow option button is selected for both the Logged on As options – If the
-      Administrator is Allowed for the Logged On As option and Joe Smith is Allowed in the
-      Perpetrator list, then the filter will only be true if the event is triggered by Joe Smith AND
-      Joe Smith is an Administrator of the affected mailbox. All other perpetrators will be blocked
-      for the affected mailbox.
-    - When the Allow option button is selected for the Logged On As checkboxes and the Block option
-      button is selected for the AND/OR options – If the Administrator is Allowed for the Logged On
-      As option and Joe Smith is Blocked in the Perpetrator list, then the filter will only be true
-      if the event is triggered by Joe Smith AND Joe Smith is an Administrator of the affected
-      mailbox which will result in Joe Smith being blocked.
+  - When the Allow option button is selected for both the Logged on As options – If the
+    Administrator is Allowed for the Logged On As option and Joe Smith is Allowed in the
+    Perpetrator list, then the filter will only be true if the event is triggered by Joe Smith AND
+    Joe Smith is an Administrator of the affected mailbox. All other perpetrators will be blocked
+    for the affected mailbox.
+  - When the Allow option button is selected for the Logged On As checkboxes and the Block option
+    button is selected for the AND/OR options – If the Administrator is Allowed for the Logged On
+    As option and Joe Smith is Blocked in the Perpetrator list, then the filter will only be true
+    if the event is triggered by Joe Smith AND Joe Smith is an Administrator of the affected
+    mailbox which will result in Joe Smith being blocked.
 
 - OR Perpetrators Must Be Met – When either the Logged On As selection OR the Perpetrator is met,
   the filter is set to true
 
-    - When the Allow option button is selected for both the Logged on As options – If Administrator
-      is Allowed for the Logged On As option and Joe Smith is Allowed in the Perpetrator list, then
-      the filter will be true if the event is triggered when Joe Smith made changes to the mailbox
-      OR when an Administrator made a change to the mailbox. All other perpetrators will be blocked.
-    - When the Allow option button is selected for the Logged On As checkboxes and the Block option
-      button is selected for the AND/OR options – If Administrator is Allowed for the Logged On As
-      option and Joe Smith is Blocked in the Perpetrator list, then the filter will be true if the
-      event is triggered when Joe Smith tries to make changes to the mailbox OR when an
-      Administrator made a change to the mailbox. Administrator will be successful at making
-      changes, but Joe Smith will be blocked.
+  - When the Allow option button is selected for both the Logged on As options – If Administrator
+    is Allowed for the Logged On As option and Joe Smith is Allowed in the Perpetrator list, then
+    the filter will be true if the event is triggered when Joe Smith made changes to the mailbox
+    OR when an Administrator made a change to the mailbox. All other perpetrators will be blocked.
+  - When the Allow option button is selected for the Logged On As checkboxes and the Block option
+    button is selected for the AND/OR options – If Administrator is Allowed for the Logged On As
+    option and Joe Smith is Blocked in the Perpetrator list, then the filter will be true if the
+    event is triggered when Joe Smith tries to make changes to the mailbox OR when an
+    Administrator made a change to the mailbox. Administrator will be successful at making
+    changes, but Joe Smith will be blocked.
 
 Both the checkboxes and the option buttons have their own set of Block or Allow options.
 

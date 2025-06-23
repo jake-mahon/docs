@@ -1,9 +1,3 @@
----
-title: Agent Installation and Deployment
-sidebar_label: Agent
-description: Complete guide for installing and deploying Endpoint Protector agents across Windows, macOS, and Linux platforms including platform-specific configurations.
----
-
 # Agent
 
 The Endpoint Protector Agent enforces the Rights and Settings received from the Endpoint Protector

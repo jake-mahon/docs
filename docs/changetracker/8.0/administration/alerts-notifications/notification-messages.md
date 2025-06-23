@@ -1,3 +1,7 @@
+title: Notification Messages Explained
+sidebar_label: Notification Messages
+description: Detailed explanation of notification messages in ChangeTracker including backup, restore, event pipeline, device communications and planned changes.
+
 # Notification Messages Explained
 
 Review the table below to see the detailed explanation of the notification messages.

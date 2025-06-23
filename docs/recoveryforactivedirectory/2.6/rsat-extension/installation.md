@@ -1,3 +1,7 @@
+title: RSAT Extension Installation Guide
+sidebar_label: Installation
+description: Step-by-step instructions for manually installing the RSAT Extension on remote machines with Active Directory Users and Computers.
+
 # Install the RSAT Extension
 
 The RSAT Extension is installed automatically on the machine where the Recovery Application Server
