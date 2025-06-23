@@ -5,16 +5,16 @@ on:
   workflow_dispatch:
   
   # Automatic triggers
-  push:
-    branches:
-      - main
-    paths:
-      - 'docs/**'
-      - 'src/**'
-      - 'static/**'
-      - 'docusaurus.config.js'
-      - 'sidebars/**'
-      - 'package.json'
+  # push:
+  #   branches:
+  #     - main
+  #   paths:
+  #     - 'docs/**'
+  #     - 'src/**'
+  #     - 'static/**'
+  #     - 'docusaurus.config.js'
+  #     - 'sidebars/**'
+  #     - 'package.json'
 jobs:
   reindex-algolia:
     name: Reindex Algolia Search
