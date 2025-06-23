@@ -1,3 +1,9 @@
+---
+title: Resource Reviews Overview
+sidebar_label: Overview
+description: Conduct systematic access reviews with business owners to validate permissions and recommend changes for compliance and security governance.
+---
+
 # Resource Reviews Overview
 
 The Resource Reviews interface is where users with either the Security Team or Administrator role

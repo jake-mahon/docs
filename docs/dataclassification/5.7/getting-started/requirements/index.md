@@ -1,3 +1,9 @@
+---
+title: Installation Requirements for Data Classification
+sidebar_label: Requirements
+description: Hardware and software requirements, accounts, and prerequisites needed to deploy Netwrix Data Classification in your environment.
+---
+
 # Requirements to Install Netwrix Data Classification
 
 This section contains the hardware and software requirements and other prerequisites needed to

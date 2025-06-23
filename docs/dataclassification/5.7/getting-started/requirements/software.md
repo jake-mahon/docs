@@ -1,3 +1,9 @@
+---
+title: Software Requirements for Data Classification
+sidebar_label: Software
+description: Operating system, SQL Server, .NET Framework, and other software requirements for installing Netwrix Data Classification.
+---
+
 # Software Requirements
 
 The table below lists the software requirements for Netwrix Data Classification installation:

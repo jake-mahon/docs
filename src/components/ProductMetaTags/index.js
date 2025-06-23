@@ -1,32 +1,9 @@
 import React from 'react';
 import Head from '@docusaurus/Head';
 import { useLocation } from '@docusaurus/router';
+import { createProductMap } from '@site/src/config/products.js';
 
-const productMap = {
-  '/docs/1secure': '1Secure',
-  '/docs/accessanalyzer': 'Access Analyzer',
-  '/docs/accessinformationcenter': 'Access Information Center',
-  '/docs/activitymonitor': 'Activity Monitor',
-  '/docs/auditor': 'Auditor',
-  '/docs/changetracker': 'Change Tracker',
-  '/docs/dataclassification': 'Data Classification',
-  '/docs/directorymanager': 'Directory Manager',
-  '/docs/endpointpolicymanager': 'Endpoint Policy Manager',
-  '/docs/endpointprotector': 'Endpoint Protector',
-  '/docs/identitymanager': 'Identity Manager',
-  '/docs/passwordpolicyenforcer': 'Password Policy Enforcer',
-  '/docs/passwordreset': 'Password Reset',
-  '/docs/passwordsecure': 'Password Secure',
-  '/docs/pingcastle': 'PingCastle',
-  '/docs/platgovnetsuite': 'Platform Governance for NetSuite',
-  '/docs/platgovnetsuiteflashlight': 'Platform Governance for NetSuite Flashlight',
-  '/docs/platgovsalesforce': 'Platform Governance for Salesforce',
-  '/docs/platgovsalesforceflashlight': 'Platform Governance for Salesforce Flashlight',
-  '/docs/privilegesecure': 'Privilege Secure',
-  '/docs/recoveryforactivedirectory': 'Recovery for Active Directory',
-  '/docs/threatmanager': 'Threat Manager',
-  '/docs/threatprevention': 'Threat Prevention',
-};
+const productMap = createProductMap();
 
 export default function ProductMetaTags() {
   const location = useLocation();

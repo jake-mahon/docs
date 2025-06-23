@@ -1,3 +1,9 @@
+---
+title: First Login and Account Setup
+sidebar_label: First Login
+description: Complete guide for first-time login, account activation, password setup, and Single Sign-On configuration with Azure AD and OpenID Connect.
+---
+
 # First Login to 1Secure
 
 This topic describes how an MSP can access the 1Secure tenant for the first time, activate their

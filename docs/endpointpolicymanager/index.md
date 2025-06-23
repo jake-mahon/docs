@@ -1,3 +1,9 @@
+---
+title: Netwrix Endpoint Policy Manager
+sidebar_label: Overview
+description: Enterprise endpoint management and configuration control software. Provides granular control over Windows desktops and applications for security policy enforcement.
+---
+
 # Netwrix PolicyPak
 
 > **Enterprise endpoint management and configuration control**

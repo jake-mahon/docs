@@ -1,3 +1,9 @@
+---
+title: How Data Classification Works
+sidebar_label: How It Works
+description: Understand the architecture and workflow of Netwrix Data Classification including collector, indexer, classifier, and database components.
+---
+
 # How It Works
 
 Netwrix Data Classification identifies and classifies sensitive and business-critical content across

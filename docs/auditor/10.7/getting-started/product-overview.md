@@ -1,3 +1,9 @@
+---
+title: Netwrix Auditor Product Overview
+sidebar_label: Product Overview
+description: Understanding Netwrix Auditor's visibility platform for user behavior analysis and risk mitigation in hybrid IT environments.
+---
+
 # Netwrix Auditor v10.7 Documentation
 
 Netwrix Auditor is a visibility platform for user behavior analysis and risk mitigation that enables

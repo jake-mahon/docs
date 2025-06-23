@@ -1,3 +1,9 @@
+---
+title: Nutanix Files Monitoring Configuration
+sidebar_label: Nutanix
+description: Setup Nutanix Files server monitoring by creating REST API access users and configuring Activity Monitor for comprehensive file tracking.
+---
+
 # Nutanix Activity Auditing Configuration
 
 The Netwrix Activity Monitor can be configured to monitor activity on Nutanix devices.

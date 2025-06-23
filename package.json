@@ -29,6 +29,8 @@
     "@docusaurus/babel": "^3.8.1",
     "@docusaurus/core": "^3.8.1",
     "@docusaurus/faster": "^3.8.1",
+    "@docusaurus/plugin-google-gtag": "^3.8.1",
+    "@docusaurus/plugin-google-tag-manager": "^3.8.1",
     "@docusaurus/plugin-rsdoctor": "^3.8.1",
     "@docusaurus/preset-classic": "^3.8.1",
     "@mdx-js/react": "^3.0.0",

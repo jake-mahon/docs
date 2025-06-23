@@ -1,3 +1,9 @@
+---
+title: SharePoint Online Data Source Configuration
+sidebar_label: SharePoint Online
+description: Configure SharePoint Online auditing with modern authentication and multi-factor authentication support for Office 365 environments.
+---
+
 # SharePoint Online Auditing
 
 Netwrix 1Secure allows you to audit Office 365 organizations that have established modern

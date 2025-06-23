@@ -1,3 +1,9 @@
+---
+title: User Management Overview
+sidebar_label: Overview
+description: Comprehensive user management capabilities including automated provisioning, managerial hierarchy, delegated administration, and linked accounts.
+---
+
 # User Management
 
 With GroupID, you can:

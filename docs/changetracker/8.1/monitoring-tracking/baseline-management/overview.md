@@ -1,3 +1,9 @@
+---
+title: Baseline Management Overview
+sidebar_label: Overview
+description: Automated development and maintenance of configuration baselines using CIS Benchmarks and DISA STIG standards to prevent cyber attacks and ensure compliance.
+---
+
 # Baseline
 
 Being the victim of a cyber attack can be scary, expensive, and potentially business-crippling.

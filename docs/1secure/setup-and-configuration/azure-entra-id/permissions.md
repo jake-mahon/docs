@@ -1,3 +1,9 @@
+---
+title: Microsoft 365 Application Permissions
+sidebar_label: Permissions
+description: Required permissions for Microsoft Entra ID applications to access Office 365, Exchange Online, and SharePoint Online services.
+---
+
 # Microsoft 365 Permissions
 
 This page lists the permissions required for an application you registered in Microsoft Entra ID to

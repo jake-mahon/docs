@@ -27,5 +27,4 @@ for a demo on the relationship of the Netwrix Privilege Secure and Endpoint Poli
 and moving parts.
 
 **NOTE:** All Netwrix Privilege Secure + Endpoint Policy Manager documentation from Netwrix
-Privilege Secure can be found in
-[Netwrix Privilege Secure for Endpoints Documentation](https://helpcenter.netwrix.com/category/privilegesecure_endpoints).
+Privilege Secure can be found in [Netwrix Privilege Secure for Endpoints Documentation](https://helpcenter.netwrix.com/category/privilegesecure_endpoints).

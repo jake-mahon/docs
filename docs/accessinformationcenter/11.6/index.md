@@ -1,3 +1,9 @@
+---
+title: Access Information Center 11.6
+sidebar_label: Version 11.6
+description: Transform access data into actionable security intelligence. Centralized platform for access rights analysis, compliance reporting, and risk assessment.
+---
+
 # Netwrix Access Information Center 11.6
 
 > **Transform access data into actionable security intelligence**

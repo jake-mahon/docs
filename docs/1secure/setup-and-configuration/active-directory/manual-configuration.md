@@ -1,3 +1,9 @@
+---
+title: Manual Active Directory Domain Configuration
+sidebar_label: Manual Configuration
+description: Manually configure Active Directory domains for monitoring with detailed audit settings and policy requirements for comprehensive data collection.
+---
+
 # Configure Domain for Monitoring Active Directory
 
 You can configure your Active Directory domain for monitoring in one of the following ways:

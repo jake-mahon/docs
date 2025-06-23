@@ -1,3 +1,9 @@
+---
+title: What's New in Auditor 10.7
+sidebar_label: What's New
+description: New features and enhancements in Netwrix Auditor 10.7 including integrations, security improvements, and enhanced reporting capabilities.
+---
+
 # What's New
 
 ## New Netwrix Community!

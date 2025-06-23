@@ -1,3 +1,9 @@
+---
+title: Host Platform Monitoring Configuration
+sidebar_label: Hosts
+description: Configure monitoring for various host platforms including Windows servers, Dell storage systems, NetApp devices, and other supported infrastructure.
+---
+
 # Monitored Hosts Tab
 
 Understanding Monitored Hosts

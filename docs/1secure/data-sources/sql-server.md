@@ -1,3 +1,9 @@
+---
+title: SQL Server Data Source Setup
+sidebar_label: SQL Server
+description: Step-by-step guide to configure SQL Server data sources and connectors for database activity monitoring in your organization.
+---
+
 # Add a Source and Connectors for SQL Server
 
 Follow the steps to add a SQL Server data source and connector to your organization.

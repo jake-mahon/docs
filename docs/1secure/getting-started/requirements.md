@@ -1,3 +1,9 @@
+---
+title: System Requirements and Prerequisites
+sidebar_label: Requirements
+description: Hardware and software requirements for 1Secure agent installation and prerequisites for configuring data sources across various environments.
+---
+
 # Requirements
 
 This topic provides the requirements for installing Netwrix Cloud Agent and the prerequisites for

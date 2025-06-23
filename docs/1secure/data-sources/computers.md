@@ -1,3 +1,9 @@
+---
+title: Computer Data Source Configuration
+sidebar_label: Computers
+description: Configure computer auditing for Windows file servers with proper account permissions and policies for comprehensive file system monitoring.
+---
+
 # Computer Auditing
 
 Before adding a Computer source, plan for the account that will be used for data collection. You

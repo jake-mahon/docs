@@ -1,3 +1,9 @@
+---
+title: Getting Started Overview
+sidebar_label: Overview
+description: Complete overview of Access Information Center 12.0 including installation, administration, resource auditing, and access management workflows.
+---
+
 # Netwrix Access Analyzer (formerly Enterprise Auditor) v12.0 Access Information Center
 
 - [Installation Overview](/docs/accessinformationcenter/12.0/installation/index.md) topic and subtopics cover the prerequisites,

@@ -1,3 +1,9 @@
+---
+title: Content Sources for Data Classification
+sidebar_label: Content Sources
+description: Configure and manage data repositories for crawling and classification including file systems, SharePoint, databases, and cloud storage.
+---
+
 # Content Sources
 
 A _content source_ in terms of Netwrix Data Classification is a repository of data to be crawled and

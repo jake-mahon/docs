@@ -1,3 +1,9 @@
+---
+title: Netwrix Change Tracker 8.1 Documentation
+sidebar_label: Change Tracker 8.1
+description: Real-time monitoring and auditing for Windows file servers, Active Directory, and SQL Server databases with enhanced cloud integration capabilities.
+---
+
 # Netwrix Change Tracker 8.1
 
 > **Real-time monitoring for critical IT infrastructure changes**

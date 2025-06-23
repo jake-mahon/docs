@@ -1,3 +1,9 @@
+---
+title: Configure Active Directory Data Source
+sidebar_label: Active Directory
+description: Step-by-step guide to add and configure Active Directory data sources and connectors for monitoring domain activities and logons.
+---
+
 # Add a Source and Connectors for Active Directory
 
 Follow the steps to add an Active Directory data source and connector(s) to your organization.

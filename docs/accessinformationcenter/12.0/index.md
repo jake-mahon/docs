@@ -1,3 +1,9 @@
+---
+title: Access Information Center 12.0
+sidebar_label: Version 12.0
+description: Latest version with enhanced cloud integration, AI-powered risk scoring, and improved dashboard customization for comprehensive access intelligence.
+---
+
 # Netwrix Access Information Center 12.0
 
 > **Transform access data into actionable security intelligence**

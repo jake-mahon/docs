@@ -1,3 +1,9 @@
+---
+title: Managing Activity Agents
+sidebar_label: Manage Agents
+description: Deploy and manage activity agents using the Agents tab interface, including server configuration, status monitoring, and message handling.
+---
+
 # Agents Tab
 
 The **Agents** tab is used to deploy activity agents and manage settings. This is the only tab

@@ -1,3 +1,9 @@
+---
+title: What's New in Change Tracker 8.0
+sidebar_label: What's New
+description: New features and enhancements in Netwrix Change Tracker v8.0 including agentless monitoring capabilities and enterprise IT infrastructure improvements.
+---
+
 # What's New
 
 ## New Netwrix Community!

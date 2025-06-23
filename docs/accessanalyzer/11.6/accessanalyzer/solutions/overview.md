@@ -1,3 +1,9 @@
+---
+title: Solutions Overview
+sidebar_label: Solutions
+description: Comprehensive overview of all Enterprise Auditor solutions including Active Directory, cloud platforms, databases, file systems, and more.
+---
+
 # Solutions
 
 The predefined job groups and jobs for the various Enterprise Auditor solutions can be found within

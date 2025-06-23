@@ -1,3 +1,9 @@
+---
+title: Console Navigation Guide
+sidebar_label: Navigation
+description: Comprehensive guide to navigating the Enterprise Auditor console including activities pane, data grid functionality, and navigation features.
+---
+
 # Activities Pane
 
 The Activities pane displays a list of activities which can be conducted within the currently

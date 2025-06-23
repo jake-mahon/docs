@@ -1,3 +1,9 @@
+---
+title: Sensitive Data Discovery Add-On
+sidebar_label: Overview
+description: Add-on that enables Enterprise Auditor to scan file content for sensitive data criteria across multiple platforms and solutions.
+---
+
 # Sensitive Data Discovery Add-On
 
 The Sensitive Data Discovery Add-On allows Enterprise Auditor to scan file content for matches to

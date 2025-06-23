@@ -1,3 +1,9 @@
+---
+title: Getting Started Overview
+sidebar_label: Overview
+description: Comprehensive overview of Access Information Center interfaces including installation, administration, resource audit, and access management workflows.
+---
+
 # Enterprise Auditor v11.6 Access Information Center
 
 - [Installation Overview](/docs/accessinformationcenter/11.6/installation/overview.md)

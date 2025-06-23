@@ -1,16 +1,20 @@
 # Netwrix Product Documentation
 
-A modern, multi-product documentation site built with **Docusaurus v3.8.1** that hosts comprehensive documentation for the entire Netwrix security product portfolio.
+A centralized documentation site for all Netwrix security products, built with [Docusaurus v3.8.1](https://docusaurus.io/) and a simple prouct configuration for easy maintenance.
 
 ## 🎯 Overview
 
-This documentation site serves as the central hub for all Netwrix product documentation, featuring:
+This documentation site serves all Netwrix product documentation.
 
-- **20+ Security Products** across 7 categories
-- **Multi-version Support** for product documentation
-- **Single-product Development Mode** for faster development
-- **Performance Optimizations** with Docusaurus Faster features
-- **Responsive Design** with dark mode support
+- **19+ Security Products** across 6 categories:
+  - Identity Management
+  - Privileged Access Management (PAM)
+  - Directory Management
+  - Endpoint Management
+  - Data Security Posture Management (DSPM)
+  - Identity Threat Detection & Response (ITDR)
+- **Multi-version Support** with version management
+- **Centralized Configuration** - single source of truth for all product docs
 - **Search** capabilities with Algolia
 
 ## 🚀 Quick Start
@@ -32,70 +36,52 @@ cd docs
 npm install
 
 # Start development server (all products)
-npm start
+npm run start
 
-# Or start single product for faster development
-npm start 1secure
-npm start accessanalyzer/12.0
-npm start endpointpolicymanager
-```
-
-### Single Product Development (Recommended)
-
-For faster development, use single-product mode:
-
-```bash
-# Non-versioned products
-npm start 1secure
-npm start endpointpolicymanager
-npm start pingcastle
-
-# Versioned products (product/version)
-npm start accessanalyzer/12.0
-npm start auditor/10.7
-npm start identitymanager/6.2
-
-# Special cases
-npm start identitymanager/saas
+# Single product mode (recommended for development)
+npm run start 1secure
+npm run start accessanalyzer/12.0
 ```
 
 ## 📁 Project Structure
 
 ```
-├── docs/                          # Product documentation
-│   ├── 1secure/                  # Non-versioned product
-│   │   ├── index.md
-│   │   └── getting-started/
-│   ├── accessanalyzer/           # Versioned product
-│   │   ├── 11.6/
-│   │   └── 12.0/
-│   └── endpointpolicymanager/    # Large single-version product
-├── src/                          # React components & pages
+├── src/
+│   ├── config/
+│   │   └── products.js           # CENTRALIZED CONFIGURATION
 │   ├── components/
-│   │   ├── HomepageFeatures/    # Product showcase
-│   │   ├── CommunityHighlights/ # Community section
-│   │   └── CommunityShowcase/
+│   │   ├── HomepageFeatures/     # Dynamic product grid homepage (auto-generated)
+│   │   ├── ProductMetaTags/      # Search meta tags (auto-generated)
+│   │   ├── CommunityHighlights/  # Community section
+│   │   └── CommunityShowcase/    # Community section
 │   ├── css/
 │   │   └── custom.css           # Theme customization
 │   └── pages/
-│       └── index.js             # Homepage
-├── scripts/                     # Development & build utilities
+│       └── index.js             # Homepage with dynamic links
+├── docs/                        # Product documentation
+│   ├── 1secure/                 # SaaS/single-version products
+│   ├── accessanalyzer/          # Multi-version products
+│   │   ├── 11.6/
+│   │   └── 12.0/
+│   ├── identitymanager/
+│   │   ├── 6.1/
+│   │   ├── 6.2/
+│   │   └── saas/
+│   └── [other product docs]/
+├── sidebars/                    # Sidebar configurations (referenced by products.js)
+│   ├── 1secure.js
+│   ├── accessanalyzer/
+│   │   ├── 11.6.js
+│   │   └── 12.0.js
+│   └── [other product sidebars]/
+├── scripts/                     # Development utilities
 │   ├── start-wrapper.js         # Single-product dev mode
-│   ├── build-single.js          # Single-product builds
-│   ├── rename-product.js        # Product renaming utility
-│   └── path-converter.js        # Path conversion utility
-├── sidebars/                    # Sidebar configurations
-│   ├── sidebar.js               # Default sidebar
-│   ├── 1secure.js              # Product-specific sidebars
-│   └── accessanalyzer/
-│       ├── 11.6.js
-│       └── 12.0.js
+│   └── build-single.js          # Single-product builds
 ├── static/                      # Static assets
 │   └── img/
 │       ├── branding/            # Logos and brand assets
 │       └── product_docs/        # Product images
-├── reference-docs/              # Docusaurus & MDX documentation
-├── docusaurus.config.js         # Main configuration
+├── docusaurus.config.js         # Main config
 └── package.json
 ```
 
@@ -105,93 +91,240 @@ npm start identitymanager/saas
 
 ```bash
 # Development
-npm start                    # All products (slower)
-npm start <product>          # Single product (faster)
-npm start <product>/<version> # Specific version
+npm run start                     # All products (slower, loads everything)
+npm run start [product]           # start a solo product docs only
+npm run start [product]/[version] # start a versioned product docs only
 
-# Building
-npm run build               # Full site production build
-npm run build:single <product> # Single product build
-npm run build:single <product>/<version> # Single product/version build
-
-# Code Quality
-npm run format              # Auto-format with Prettier
-npm run format:check        # Check formatting
-npm run typecheck           # TypeScript checking
-
+# Building & Testing
+npm run build                     # Full production build
+npm run build [product]           # Full production build
+npm run build [product]/[version] # Full production build
+npm run format:check              # Check code formatting
+npm run format                    # Auto-format with Prettier
 # Utilities
-npm run clear               # Clear Docusaurus cache
-npm run serve               # Serve built site locally
+npm run clear                     # Clear Docusaurus cache
+npm run serve                     # Serve production build after `npm run build`
 ```
 
-### Single Product - Start Local Server Examples
+### Development Workflow
+
+The new centralized system makes development much simpler:
+
+1. **Start development server**: `npm run start`
+2. **Make changes** to documentation or configuration
+3. **Hot reload** automatically updates the site
+4. **All products and versions** work seamlessly
+
+### Single Product Development (Legacy Script Support)
+
+For backward compatibility, single-product scripts still work:
 
 ```bash
-# Identity & Access Management
-npm start 1secure
-npm start identitymanager/6.2
-npm start identitymanager/saas
-
-# Privileged Access Management
-npm start privilegesecure/4.2
-npm start passwordsecure/9.2
-
-# Endpoint & Directory Management
-npm start endpointpolicymanager
-npm start auditor/10.7
-npm start directorymanager/11.1
-
-# Platform Governance
-npm start platgovsalesforce
-npm start platgovnetsuite
+# Examples (optional - full site starts quickly now)
+npm run start 1secure
+npm run start accessanalyzer/12.0
+npm run start identitymanager/saas
 ```
 
-## ⚙️ Configuration
+## ⚙️ Centralized Configuration System
 
-### Product Plugin Pattern
+### Global Product Config: `src/config/products.js`
 
-Each product/version requires explicit configuration in `docusaurus.config.js`. You can just copy/paste one of the existing ones, and edit to match your new product or version. Here are some examples:
+All product configuration for _building the site_ (e.g. naming) is managed in a single file. Here's how it works:
 
 ```javascript
-// Single-version product
+// Define a product once
 {
-  id: 'productname',
-  path: 'docs/productname',
-  routeBasePath: 'docs/productname',
-  sidebarPath: require.resolve('./sidebars/productname.js'),
-  // ...
-}
-
-// Versioned product (dots become underscores)
-{
-  id: 'productname12_0',  // 12.0 → 12_0
-  path: 'docs/productname/12.0',
-  routeBasePath: 'docs/productname/12.0',
-  sidebarPath: require.resolve('./sidebars/productname/12.0.js'),
-  // ...
+  id: 'accessanalyzer',
+  name: 'Access Analyzer',
+  description: 'Analyze and audit file system permissions',
+  path: 'docs/accessanalyzer',
+  category: 'Data Security Posture Management (DSPM)',
+  icon: '🔍',
+  versions: [
+    {
+      version: '12.0',
+      label: '12.0',
+      isLatest: true,
+      sidebarFile: './sidebars/accessanalyzer/12.0.js'
+    },
+    {
+      version: '11.6',
+      label: '11.6',
+      isLatest: false,
+      sidebarFile: './sidebars/accessanalyzer/11.6.js'
+    }
+  ]
 }
 ```
 
-### Performance Features (for those curious)
+**Automatically generates**:
 
-- **Docusaurus Faster** enabled with:
-  - SWC JS loader and minifier
-  - Lightning CSS minifier
-  - Rspack bundler
-  - Persistent caching (2-5x faster rebuilds)
-  - SSG worker threads (2x faster static generation)
-  - MDX cross-compiler cache
+- ✅ Docusaurus plugin configurations
+- ✅ Homepage product grid
+- ✅ SEO meta tags
+- ✅ URL routing
+- ✅ Version management
+
+### Configuration Schema
+
+```typescript
+interface Product {
+  id: string; // Unique identifier
+  name: string; // Display name
+  description: string; // Homepage description
+  path: string; // Documentation path
+  category: string; // Product category
+  icon?: string; // Emoji icon
+  versions: ProductVersion[]; // Version configurations
+  defaultVersion?: string; // Override default version
+}
+
+interface ProductVersion {
+  version: string; // Version identifier (e.g., '12.0', 'current')
+  label: string; // Display label
+  isLatest: boolean; // Is this the latest version?
+  sidebarFile: string; // Path to sidebar configuration
+}
+```
 
 ### Theme Customization
 
 Key CSS variables in `src/css/custom.css`:
 
 ```css
---ifm-color-primary: #2a5298 /* Netwrix blue */ --ifm-color-primary-dark: #254a89 /* Darker variant */ --ifm-font-family-base: 'Inter'
-  /* Primary font */;
+--ifm-color-primary: #2a5298; /* Netwrix blue */
+--ifm-color-primary-dark: #254a89; /* Darker variant */
+--ifm-font-family-base: 'Inter'; /* Primary font */
+```
+
+## 📊 Adding New Products & Versions
+
+### 🆕 Adding a New Product
+
+The centralized system makes adding products incredibly simple:
+
+**1. Add to `src/config/products.js`:**
+
+```javascript
+{
+  id: 'newproduct',
+  name: 'New Product Name',
+  description: 'Brief product description',
+  path: 'docs/newproduct',
+  category: 'Product Category', // Must match existing category
+  icon: '🔧',
+  versions: [
+    {
+      version: 'current',
+      label: 'Current',
+      isLatest: true,
+      sidebarFile: './sidebars/newproduct.js'
+    }
+  ]
+}
+```
+
+**2. Create documentation structure:**
+
+```bash
+mkdir docs/[newproduct]
+```
+
+**3. Create sidebar configuration:**
+
+```bash
+echo "// @ts-check
+
+/** @type {import('@docusaurus/plugin-content-docs').SidebarsConfig} */
+const [newproduct]sidebar = {
+  sidebar: [
+    {
+      type: 'autogenerated',
+      dirName: '.',
+    },
+  ],
+};
+
+export default sidebars;
+" > sidebars/[newproduct].js
+```
+
+**That's it!** The new product automatically appears on the homepage with proper routing.
+
+### 📈 Adding a New Version
+
+**1. Update the product in `src/config/products.js`:**
+
+```javascript
+// Add to existing product's versions array
+versions: [
+  {
+    version: '[newversion]', // New version
+    label: '[newversion]',
+    isLatest: true, // Mark new version as latest
+    sidebarFile: './sidebars/[productname]/[newversion].js',
+  },
+  {
+    version: '1.0',
+    label: '1.0',
+    isLatest: false, // Update previous version latest to false
+    sidebarFile: './sidebars/[productname]/1.0.js',
+  },
+];
+```
+
+**2. Create version documentation:**
+
+```bash
+mkdir docs/productname/[newversion]
+```
+
+**3. Create version sidebar:**
+
+```bash
+echo "// @ts-check
+
+/** @type {import('@docusaurus/plugin-content-docs').SidebarsConfig} */
+const [newproduct]sidebar = {
+  sidebar: [
+    {
+      type: 'autogenerated',
+      dirName: '.',
+    },
+  ],
+};
+
+export default sidebars;
+" > sidebars/[newproduct].js
+```
+
+### 🏷️ Adding Product Categories
+
+Add to the `PRODUCT_CATEGORIES` in `src/config/products.js` for the product category it belongs to:
+
+```javascript
+{
+  id: 'new-category',
+  title: 'New Category Name',
+  description: 'Category description',
+  icon: '🎯'
+}
 ```
 
 ## 📝 Content Guidelines
+
+### Example Documentation Structure
+
+```
+docs/productname/
+├── index.md              # Product overview
+├── getting-started/      # Quick start guides
+├── user-guide/          # End user documentation
+├── administration/      # Admin guides
+├── api-reference/       # API documentation
+└── troubleshooting/     # Common issues
+```
 
 ### Frontmatter Template
 
@@ -210,117 +343,71 @@ description: 'SEO description'
 - **Paths**: Always absolute from project root
 
 ```markdown
-![Description](/img/product_docs/productname/feature.webp)
+![Description](/img/product_docs/productname/image.webp)
 ```
 
 ## 🚀 Deployment
 
-### Build Process
+### Automatic Deployment
 
-## Production
-
-Production automatically builds when there is a push to the `main` branch.
-
-## Development
-
-The development site automatically builds when there is a push to the `dev` branch.
-
-## Environment
-
-- **URL**: Uses `RENDER_EXTERNAL_URL` environment variable
-- **Memory**: Configured with 8GB limit for large builds
-- **Cache**: Persistent caching enabled for faster rebuilds
+- **Production**: Auto-deploys from `main` branch
+- **Development**: Auto-deploys from `dev` branch
 
 ## 🤝 Contributing
 
-### Development Workflow
+### Simplified Development Workflow
 
-1. **Start single-product mode** for faster development:
+Contributing is easy:
 
-```bash
-npm start productname/version
-```
-
-Or
+1. **Start development server**:
 
 ```bash
-npm start productname
+npm run start
 ```
 
-2. **Make changes** to documentation or components
+2. **Make changes** to documentation or configuration
 
 3. **Format code** before committing:
+
+If this isn't done, a pre-commit hook will do it for you anyways.
 
 ```bash
 npm run format
 ```
 
-4. **Test build** before submitting:
+4. **Test builds**:
+
+Test a build of the docs you edited:
 
 ```bash
-npm run build:single productname
+npm run build [product][/version]
 ```
 
-Or
+Test a build of all docs:
 
 ```bash
-npm run build:single productname/version
-```
-
-### Adding New Products
-
-1. **Create directory structure**:
-
-```bash
-mkdir -p docs/newproduct
-# or for versioned: mkdir -p docs/newproduct/1.0
-```
-
-2. **Add plugin configuration** to `docusaurus.config.js`
-
-3. **Create sidebar configuration** in `sidebars/`
-
-4. **Add to homepage** in `src/components/HomepageFeatures/index.js`
-
-5. **Test with single-product mode**:
-
-```bash
-npm start product
-```
-
-Or
-
-```bash
-npm start product/version
-```
-
-## 🛠️ Troubleshooting
-
-### Build Issues
-
-```bash
-# Clear cache and rebuild
-npm run clear
 npm run build
-
-# Memory issues (already configured with 8GB)
-NODE_OPTIONS=--max-old-space-size=8192 npm run build
 ```
 
-### Development Performance
+5. **Submit pull request**
 
-- **Use single-product mode**: `npm start productname`
-- **Clear browser cache** if hot reload fails
-- **Restart dev server** for configuration changes
+Create a PR to the dev branch, and then main when ready for production.
+
+## 🔍 Testing & Quality Assurance
+
+### Common Testing Scenarios
+
+- ✅ **Homepage loads** with all product categories
+- ✅ **Product pages accessible** from homepage links
+- ✅ **Version badges work** for multi-version products
 
 ## 📚 Resources
 
 - **Docusaurus Documentation**: [docusaurus.io](https://docusaurus.io/)
 - **MDX Guide**: [mdxjs.com](https://mdxjs.com/)
 - **React Documentation**: [react.dev](https://react.dev/)
+- **Algolia Documentation**: [algolia.com](https://www.algolia.com/doc/)
 
 ## 📄 License
 
-**MIT Licensed**
-
-This documentation is maintained by Netwrix Corporation. For licensing information, please contact [Netwrix](https://www.netwrix.com/).
+This documentation site is MIT licensed and open source, and is maintained by Netwrix Corporation.

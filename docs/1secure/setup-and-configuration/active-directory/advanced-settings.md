@@ -1,3 +1,9 @@
+---
+title: Group Policy Management Console Guide
+sidebar_label: Advanced Settings
+description: Use Group Policy Management Console for advanced Active Directory configuration and management across enterprise environments.
+---
+
 # Group Policy Management Console
 
 Group Policy Management Console is an administrative tool for managing Group Policy across the

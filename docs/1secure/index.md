@@ -1,3 +1,9 @@
+---
+title: Netwrix 1Secure Security Platform
+sidebar_label: Overview
+description: Unified command center for hybrid IT security monitoring. Azure-hosted SaaS solution for MSPs to monitor and protect client environments.
+---
+
 # Netwrix 1Secure
 
 > **Your unified command center for hybrid IT security monitoring**

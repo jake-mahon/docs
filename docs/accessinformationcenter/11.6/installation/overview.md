@@ -1,3 +1,9 @@
+---
+title: Installation Overview
+sidebar_label: Overview
+description: Prerequisites, requirements, and overview for installing Access Information Center including Enterprise Auditor dependencies and database permissions.
+---
+
 # Installation Overview
 
 The Netwrix Access Information Center relies on collected and analyzed data that is stored in a

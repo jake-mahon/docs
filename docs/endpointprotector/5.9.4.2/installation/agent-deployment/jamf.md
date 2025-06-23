@@ -1,3 +1,9 @@
+---
+title: JAMF Pro Agent Deployment
+sidebar_label: JAMF
+description: Comprehensive JAMF Pro deployment guide with configuration profiles, system extensions, and policy settings for macOS endpoints.
+---
+
 # Jamf
 
 Since the release of macOS 11.0 (Big Sur), significant changes have been made regarding system

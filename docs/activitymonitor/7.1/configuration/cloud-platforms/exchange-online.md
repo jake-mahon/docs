@@ -1,3 +1,9 @@
+---
+title: Exchange Online Monitoring Configuration
+sidebar_label: Exchange Online
+description: Configure Activity Monitor to collect and monitor Exchange Online activity logs through Microsoft Entra ID app registration and authentication.
+---
+
 # Exchange Online Activity Auditing Configuration
 
 In order to collect logs and monitor Exchange Online activity using the Netwrix Activity Monitor, it

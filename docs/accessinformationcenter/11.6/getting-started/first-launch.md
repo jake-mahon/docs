@@ -1,3 +1,9 @@
+---
+title: First Launch Setup
+sidebar_label: First Launch
+description: Initial setup and configuration steps for launching Access Information Center including default credentials and administrator password changes.
+---
+
 # First Launch
 
 The installer places the following icon on the desktop which opens the Access Information Center

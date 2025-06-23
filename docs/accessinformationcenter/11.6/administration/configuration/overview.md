@@ -1,3 +1,9 @@
+---
+title: Configuration Interface Overview
+sidebar_label: Overview
+description: Administrative configuration interface for database connections, Active Directory settings, licensing, console access, and notification management.
+---
+
 # Configuration Interface Overview
 
 The Configuration interface is available only to users with the Administrator role. It is opened by

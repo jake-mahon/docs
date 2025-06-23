@@ -1,3 +1,9 @@
+---
+title: Active Directory Permissions and Access
+sidebar_label: Permissions and Access
+description: Configure management roles and permissions for Active Directory data collection accounts with proper security group assignments.
+---
+
 # Assigning Management Roles
 
 Perform this procedure only if the account selected for data collection is not a member of the
