@@ -46,10 +46,10 @@ const ProductCategories = [
       {
         name: 'Directory Manager',
         description: 'Active Directory group management',
-        link: '/docs/directorymanager/11_1',
+        link: '/docs/directorymanager/11.1',
         versions: [
-          { version: '11_1', link: '/docs/directorymanager/11_1', isLatest: true },
-          { version: '11_0', link: '/docs/directorymanager/11_0', isLatest: false },
+          { version: '11.1', link: '/docs/directorymanager/11.1', isLatest: true },
+          { version: '11.0', link: '/docs/directorymanager/11.0', isLatest: false },
         ],
       },
       {

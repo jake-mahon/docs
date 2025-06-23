@@ -11,23 +11,14 @@ const sidebars = {
     {
       type: 'category',
       label: 'Getting Started',
-      collapsed: false,
-      items: [
-        'getting-started/index',
-        'getting-started/requirements',
-        'getting-started/quick-start',
-      ],
+      collapsed: true,
+      items: ['getting-started/index', 'getting-started/requirements', 'getting-started/quick-start'],
     },
     {
       type: 'category',
       label: 'Architecture',
       collapsed: true,
-      items: [
-        'architecture/index',
-        'architecture/saas',
-        'architecture/on-premise',
-        'architecture/secure-agent-communication',
-      ],
+      items: ['architecture/index', 'architecture/saas', 'architecture/on-premise', 'architecture/secure-agent-communication'],
     },
     {
       type: 'category',
@@ -248,10 +239,7 @@ const sidebars = {
               type: 'category',
               label: 'Create Connectors',
               collapsed: true,
-              items: [
-                'connectors/how-to/create-connectors/index',
-                'connectors/how-to/create-connectors/azure-ad',
-              ],
+              items: ['connectors/how-to/create-connectors/index', 'connectors/how-to/create-connectors/azure-ad'],
             },
             {
               type: 'category',
@@ -263,20 +251,13 @@ const sidebars = {
               type: 'category',
               label: 'Exports',
               collapsed: true,
-              items: [
-                'connectors/how-to/exports/scim-cyberark',
-                'connectors/how-to/exports/scim-salesforce',
-                'connectors/how-to/exports/sharepoint',
-              ],
+              items: ['connectors/how-to/exports/scim-cyberark', 'connectors/how-to/exports/scim-salesforce', 'connectors/how-to/exports/sharepoint'],
             },
             {
               type: 'category',
               label: 'Incremental Sync Setup',
               collapsed: true,
-              items: [
-                'connectors/how-to/incremental-sync-setup/index',
-                'connectors/how-to/incremental-sync-setup/azure-ad',
-              ],
+              items: ['connectors/how-to/incremental-sync-setup/index', 'connectors/how-to/incremental-sync-setup/azure-ad'],
             },
             {
               type: 'category',
@@ -298,21 +279,13 @@ const sidebars = {
       type: 'category',
       label: 'Synchronization',
       collapsed: true,
-      items: [
-        'synchronization/index',
-        'synchronization/synchronization-thresholds',
-        'synchronization/upward-data-sync',
-      ],
+      items: ['synchronization/index', 'synchronization/synchronization-thresholds', 'synchronization/upward-data-sync'],
     },
     {
       type: 'category',
       label: 'Provisioning',
       collapsed: true,
-      items: [
-        'provisioning/index',
-        'provisioning/arguments-expression',
-        'provisioning/provisioning-thresholds',
-      ],
+      items: ['provisioning/index', 'provisioning/arguments-expression', 'provisioning/provisioning-thresholds'],
     },
     {
       type: 'category',
@@ -424,11 +397,7 @@ const sidebars = {
           type: 'category',
           label: 'Reporting',
           collapsed: true,
-          items: [
-            'governance/reporting/index',
-            'governance/reporting/connect-powerbi',
-            'governance/reporting/analyze-powerbi',
-          ],
+          items: ['governance/reporting/index', 'governance/reporting/connect-powerbi', 'governance/reporting/analyze-powerbi'],
         },
       ],
     },
@@ -451,11 +420,7 @@ const sidebars = {
           type: 'category',
           label: 'Expressions',
           collapsed: true,
-          items: [
-            'toolkit/expressions/index',
-            'toolkit/expressions/predefined-functions',
-            'toolkit/expressions/csharp-utilities',
-          ],
+          items: ['toolkit/expressions/index', 'toolkit/expressions/predefined-functions', 'toolkit/expressions/csharp-utilities'],
         },
       ],
     },
@@ -504,10 +469,7 @@ const sidebars = {
           type: 'category',
           label: 'Technical Files',
           collapsed: true,
-          items: [
-            'configuration/technical-files/index',
-            'configuration/technical-files/appsettings-connection',
-          ],
+          items: ['configuration/technical-files/index', 'configuration/technical-files/appsettings-connection'],
         },
         {
           type: 'category',

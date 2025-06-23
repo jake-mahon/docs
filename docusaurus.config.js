@@ -52,6 +52,15 @@ const config = {
 
   presets: [
     [
+      '@docusaurus/plugin-google-gtag',
+      {
+        gtag: {
+          trackingID: 'G-FZPWSDMTEX',
+          anonymizeIP: true,
+        },
+      },
+    ],
+    [
       'classic',
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
@@ -287,8 +296,8 @@ const config = {
       {
         id: 'directorymanager11_1',
         path: 'docs/directorymanager/11.1',
-        routeBasePath: 'docs/directorymanager/11_1',
-        sidebarPath: require.resolve('./sidebars/sidebar.js'),
+        routeBasePath: 'docs/directorymanager/11.1',
+        sidebarPath: require.resolve('./sidebars/directorymanager/11.1.js'),
         editUrl: 'https://github.com/netwrix/docs/tree/main/',
         exclude: ['**/CLAUDE.md'],
         versions: {
@@ -303,8 +312,8 @@ const config = {
       {
         id: 'directorymanager11_0',
         path: 'docs/directorymanager/11.0',
-        routeBasePath: 'docs/directorymanager/11_0',
-        sidebarPath: require.resolve('./sidebars/sidebar.js'),
+        routeBasePath: 'docs/directorymanager/11.0',
+        sidebarPath: require.resolve('./sidebars/directorymanager/11.0.js'),
         editUrl: 'https://github.com/netwrix/docs/tree/main/',
         exclude: ['**/CLAUDE.md'],
         versions: {

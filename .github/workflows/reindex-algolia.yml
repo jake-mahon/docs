@@ -1,0 +1,35 @@
+name: Reindex Algolia
+
+on:
+  # Manual trigger with inputs
+  workflow_dispatch:
+  
+  # Automatic triggers
+  push:
+    branches:
+      - main
+    paths:
+      - 'docs/**'
+      - 'src/**'
+      - 'static/**'
+      - 'docusaurus.config.js'
+      - 'sidebars/**'
+      - 'package.json'
+jobs:
+  reindex-algolia:
+    name: Reindex Algolia Search
+    runs-on: ubuntu-latest
+    # Only run if push to main/master or manual trigger or scheduled
+    if: |
+      github.event_name == 'workflow_dispatch' ||
+      (github.event_name == 'push' && contains(fromJson('["main", "master"]'), github.ref_name)) ||
+    steps:
+      - name: Algolia crawler creation and crawl
+        uses: algolia/algoliasearch-crawler-github-actions@v1.0.10
+        id: algolia_crawler
+        with: # mandatory parameters
+          crawler-user-id: ${{ secrets.CRAWLER_USER_ID }}
+          crawler-api-key: ${{ secrets.CRAWLER_API_KEY }}
+          algolia-app-id: ${{ secrets.ALGOLIA_APP_ID }}
+          algolia-api-key: ${{ secrets.ALGOLIA_API_KEY }}
+          site-url: 'https://product-docs-prod.onrender.com/'

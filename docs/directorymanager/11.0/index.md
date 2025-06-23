@@ -1,4 +1,4 @@
-# Netwrix GroupID 11.0
+# Directory Manager 11.0
 
 > **Simplify Active Directory and Azure AD group management**
 

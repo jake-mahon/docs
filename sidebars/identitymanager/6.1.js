@@ -11,13 +11,8 @@ const sidebars = {
     {
       type: 'category',
       label: 'Getting Started',
-      collapsed: false,
-      items: [
-        'getting-started/index',
-        'getting-started/overview',
-        'getting-started/system-requirements',
-        'getting-started/quick-start',
-      ],
+      collapsed: true,
+      items: ['getting-started/index', 'getting-started/overview', 'getting-started/system-requirements', 'getting-started/quick-start'],
     },
     {
       type: 'category',
